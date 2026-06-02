@@ -16,7 +16,7 @@ This paper discusses a key discovery in the process of myopia reversal: the prin
 
 ### Introduction
 
-Myopia, or nearsightedness, is a common refractive error where distant objects appear blurry due to the elongation of the eyeball. Traditionally, corrective lenses are prescribed to bring objects into focus, but the concept of myopia reversal—restoring the eye’s natural shape to reduce dependence on corrective lenses—is gaining interest. This paper presents a novel principle discovered during myopia reversal efforts: wearing glasses that make objects "just barely clear" at typical viewing distances, rather than adhering to a fixed degree reduction. 
+Myopia, or nearsightedness, is a common refractive error where distant objects appear blurry due to the elongation of the eyeball. Traditionally, corrective lenses are prescribed to bring objects into focus, but the concept of myopia reversal—restoring the eye’s natural shape to reduce dependence on corrective lenses—is gaining interest. This paper presents a novel principle discovered during myopia reversal efforts: wearing glasses that make objects "just barely clear" at typical viewing distances, rather than adhering to a fixed degree reduction.
 
 The "just barely clear" principle offers a more personalized approach to myopia reversal, emphasizing gradual improvement without straining the eyes. The paper will examine this principle, provide methods for its application, and discuss the impact it has had on the author’s own experience with myopia reduction.
 
@@ -24,10 +24,10 @@ The "just barely clear" principle offers a more personalized approach to myopia 
 
 The author has conducted personal experiments over the course of several years, tracking the reduction of myopia and evaluating the effects of different levels of prescription reduction. Using a variety of corrective lenses with reductions ranging from 150 to 200 degrees, the author tracked changes in vision clarity at typical viewing distances, such as for mobile phone use and computer work.
 
-The methodology includes:  
-1. Wearing corrective lenses with varying degrees of reduction.  
-2. Monitoring vision clarity during daily activities.  
-3. Noting improvements or stagnation in myopia and astigmatism.  
+The methodology includes:
+1. Wearing corrective lenses with varying degrees of reduction.
+2. Monitoring vision clarity during daily activities.
+3. Noting improvements or stagnation in myopia and astigmatism.
 4. Analyzing the experience and correlating it with the relevant theory in myopia reversal.
 
 ### Personal Experience with the "Just Barely Clear" Principle
@@ -50,7 +50,7 @@ From this experience, I have learned that the key to effective myopia reversal l
 Over the course of experimentation, the following key results were observed:
 
 1. Initial Findings: In the first year of using the “just barely clear” method, the author’s myopia reduced by approximately 100 degrees. However, the second year showed minimal progress, prompting a deeper analysis of the approach.
-   
+
 2. The "Just Barely Clear" State: The following characteristics were defined for the "just barely clear" state:
    - Objects should be sufficiently clear to view without straining.
    - Text should be readable, but not completely crisp.
@@ -82,7 +82,7 @@ This study highlights the significance of the "just barely clear" principle in m
 This work builds on the principles outlined by Yin Wang in his discussion of natural vision restoration. The following references were critical in shaping the author’s approach to myopia reversal:
 
 1. Yin Wang, *Natural Vision Restoration Method*, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-   
+
 2. Li, Zhiwei, *Experimental Verification of the Natural Vision Restoration Method*, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/vision-restoration-en)
 
 ### Citation

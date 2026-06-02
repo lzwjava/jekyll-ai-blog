@@ -55,8 +55,8 @@ Guangzhou students follow the same university application process as other Mainl
 
 This setup leverages the Bay Area's integration, but visas and quotas remain hurdles.
 
-[Shenzhen–Hong Kong cross-boundary students - Wikipedia](https://en.wikipedia.org/wiki/Shenzhen%25E2%2580%2593Hong_Kong_cross-boundary_students)  
-[A Study on Hong Kong-Chinese Mainland Cross-Border Students](https://www.scirp.org/journal/paperinformation?paperid=135871)  
-[Students | Immigration Department](https://www.immd.gov.hk/eng/services/visas/study.html)  
-[International Qualifications | HKU Admissions](https://admissions.hku.hk/apply/international-qualifications)  
+[Shenzhen–Hong Kong cross-boundary students - Wikipedia](https://en.wikipedia.org/wiki/Shenzhen%25E2%2580%2593Hong_Kong_cross-boundary_students)
+[A Study on Hong Kong-Chinese Mainland Cross-Border Students](https://www.scirp.org/journal/paperinformation?paperid=135871)
+[Students | Immigration Department](https://www.immd.gov.hk/eng/services/visas/study.html)
+[International Qualifications | HKU Admissions](https://admissions.hku.hk/apply/international-qualifications)
 [Mainland China Students (Gaokao) - CUHK](https://ug.bschool.cuhk.edu.hk/mainland-students-gaokao/)

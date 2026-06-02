@@ -63,7 +63,7 @@ Only when the group is **real, specific, and includes you**:
 
 Say:
 
-> "Transformers scale well." *(fact — no pronoun needed)*  
+> "Transformers scale well." *(fact — no pronoun needed)*
 > or "I think transformers will keep scaling." *(your opinion — own it)*
 
 Most of the time the right fix isn't replacing "we" with "I" — it's **restructuring the sentence** to make the actual subject explicit.

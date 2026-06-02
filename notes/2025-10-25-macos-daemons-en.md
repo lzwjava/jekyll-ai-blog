@@ -26,7 +26,7 @@ For a full directory listing: `ls /System/Library/LaunchDaemons/` (requires no s
 These commands output columns like PID, status, and label (e.g., `com.apple.timed`).
 
 #### The "timed" Daemon
-You specifically mentioned "timed," which refers to **com.apple.timed** (the Time Sync Daemon). This is a core system daemon introduced in macOS High Sierra (10.13) to replace the older `ntpd` process. 
+You specifically mentioned "timed," which refers to **com.apple.timed** (the Time Sync Daemon). This is a core system daemon introduced in macOS High Sierra (10.13) to replace the older `ntpd` process.
 
 - **Purpose**: It automatically synchronizes the Mac's system clock with NTP (Network Time Protocol) servers for accuracy, querying them every 15 minutes. This ensures precise timekeeping for logs, certificates, and network operations.
 - **How it works**: Launched by launchd from `/System/Library/LaunchDaemons/com.apple.timed.plist`, it runs as the `_timed` user (in the `_timed` and `_sntpd` groups). It uses the `settimeofday` syscall to adjust the clock based on server responses. Configuration is in `/etc/ntpd.conf` (NTP servers) and state is cached in `/var/db/timed/com.apple.timed.plist`.

@@ -26,7 +26,7 @@ ESP-01S是一款基于乐鑫科技ESP8266微控制器芯片的紧凑型WiFi模�
 
 使用时需配备USB转串口适配器（如FTDI）烧录固件，因模块本身未集成USB接口。该模块价格低廉（5美元以内）且易于获取，但需注意避免引脚损坏。
 
-[ESP-01S模块使用指南](https://www.taydaelectronics.com/datasheets/files/ESP-01S.pdf)  
-[ESP8266 ESP-01入门教程](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)  
-[ESP-01S模块详解](https://lonelybinary.com/en-us/blogs/learn/what-is-esp-01s)  
+[ESP-01S模块使用指南](https://www.taydaelectronics.com/datasheets/files/ESP-01S.pdf)
+[ESP8266 ESP-01入门教程](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)
+[ESP-01S模块详解](https://lonelybinary.com/en-us/blogs/learn/what-is-esp-01s)
 [ESP-01S/ESP01S ESP8266模块](https://hobbycomponents.com/esp8266/1176-esp-01s-esp01s-esp8266-module)

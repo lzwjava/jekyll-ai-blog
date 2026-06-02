@@ -27,13 +27,13 @@ import pygetwindow as gw
 ### 获取窗口对象
 PyGetWindow 将窗口表示为 `Window` 对象。您可以通过标题、进程或其他属性检索窗口。
 
-- **获取所有窗口对象**：  
+- **获取所有窗口对象**：
   使用 `gw.getAllWindows()` 返回所有打开窗口的列表。
 
-- **按标题获取窗口**：  
+- **按标题获取窗口**：
   使用 `gw.getWindowsWithTitle(title)` 或 `gw.getFirstWindowWithTitle(title)` 进行部分或精确匹配。
 
-- **获取活动窗口**：  
+- **获取活动窗口**：
   使用 `gw.getActiveWindow()` 获取当前聚焦的窗口。
 
 示例：
@@ -47,7 +47,7 @@ notepad = gw.getWindowsWithTitle('Notepad')  # 包含标题中带有 'Notepad' �
 获取 `Window` 对象后，您可以访问以下属性和方法：
 
 - **属性**：`title`、`left`、`top`、`width`、`height`、`isMinimized`、`isMaximized`、`isActive`。
-- **方法**： 
+- **方法**：
   - `activate()`：将窗口置于前台并激活。
   - `maximize()` / `minimize()` / `restore()` / `close()`：控制窗口状态。
   - `resize() / move()`：调整大小和位置。

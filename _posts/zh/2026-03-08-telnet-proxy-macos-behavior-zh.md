@@ -61,10 +61,10 @@ macOS HTTP/HTTPS 代理专门针对 **HTTP 协议流量** 设计。Telnet 在任
 | `telnet` | TCP (raw) | ❌ 否 | ❌ 否（默认） | CLI 工具不会自动读取 macOS 代理 |
 | Safari / Chrome | HTTP/HTTPS | ✅ 是 | ✅ 是 | GUI 应用程序尊重系统代理 |
 
-**`ping` 为什么绕过代理：**  
+**`ping` 为什么绕过代理：**
 `ping` 使用 **ICMP**（Internet Control Message Protocol），它在网络层工作——低于 TCP。代理（HTTP、SOCKS）在传输/应用层运行。代理没有机制拦截 ICMP 流量。
 
-**`telnet` 默认也绕过代理的原因：**  
+**`telnet` 默认也绕过代理的原因：**
 `telnet` 是一个 CLI 工具。macOS 代理系统不会自动配置命令行网络代理。与浏览器不同，`telnet` 建立 **direct TCP 连接**，并且不会自行查询 `HTTPEnable`、`HTTPSEnable` 或 `SOCKSEnable` 系统设置。
 
 ---

@@ -152,27 +152,27 @@ CSA 与**重度压缩注意力（HCA）**交错使用——思路相同，但压
 ```python
 def csa_forward(q, K_full, V_full, k_blocks=64, window=512):
     N, d = K_full.shape
-    
+
     # 1. 压缩 KV 缓存：N → N/4
     K_c, V_c = compress_kv(K_full, block_size=4)  # 各为 (N/4, d)，以 FP8 存储
-    
+
     # 2. 闪电索引器：使用 FP4 和 ReLU 对压缩块评分
     scores = relu(quantize_fp4(q) @ quantize_fp4(K_c).T)  # (N/4,)
     top_k_block_indices = topk(scores, k=k_blocks)         # (k_blocks,)
-    
+
     # 3. 收集选定块的原始 KV（每块 4 个原始 token）
     selected_positions = expand_blocks(top_k_block_indices, block_size=4)  # (k_blocks*4,)
     K_sel = K_full[selected_positions]  # (k_blocks*4, d)
     V_sel = V_full[selected_positions]
-    
+
     # 4. 对选定位置进行全局稀疏注意力
     attn_global = softmax_attention(q, K_sel, V_sel)
-    
+
     # 5. 局部滑动窗口注意力（近期信息）
     K_local = K_full[-window:]
     V_local = V_full[-window:]
     attn_local = softmax_attention(q, K_local, V_local)
-    
+
     # 6. 合并
     return merge(attn_global, attn_local)
 

@@ -18,5 +18,5 @@ He elaborated that ketamine (a prescription he's used under medical supervision)
 
 This ties into his recurring advice on ego management and resilience—e.g., "always be smashing your ego" and internalizing responsibility to avoid self-pity or blame spirals (from a 2025 startup talk). For sensitivity or inferiority feelings, he often points to not seeking external validation: "It's a real weakness to want to be liked... and I do not have that."
 
-[Elon Musk on ketamine and negative states](https://x.com/leslieleeiii/status/1977067384533139735)  
+[Elon Musk on ketamine and negative states](https://x.com/leslieleeiii/status/1977067384533139735)
 [Full ego/responsibility clip](https://x.com/ElonClipsX/status/1952359823627964717)

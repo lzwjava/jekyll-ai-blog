@@ -12,7 +12,7 @@ type: note
 
 Question: BCE 是什么意思？是 Before Century Era 吗？
 
-Answer: 
+Answer:
 
 **BCE** 代表 **Before Common Era**（公元前）。
 
@@ -31,10 +31,10 @@ BC 和 BCE 指向相同的年份。例如：
 
 切换到 BCE/CE 主要用于学术写作、教科书、Wikipedia 以及希望在保持时间线完全一致（以公元 1 年为同一点）的同时，避免在历史纪年中出现宗教引用的个人或组织。
 
-简而言之：  
-**BCE = Before Common Era**  
+简而言之：
+**BCE = Before Common Era**
 （而不是 Before Century Era）
 
-References:  
+References:
 
 - 此标准定义无需参考资料

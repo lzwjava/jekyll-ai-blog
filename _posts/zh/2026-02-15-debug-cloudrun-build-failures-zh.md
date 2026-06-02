@@ -25,8 +25,8 @@ type: note
     *   找到针对您的服务（`blog-server`）的最新构建；它通常显示为 "FAILED" 或带有红色状态。
     *   点击进入 → 您将看到详细的分步日志。
     *   浏览各步骤（特别是 Maven/build 步骤或 Dockerfile 执行过程）以查找红色的错误行（例如 "Compilation failure", "Could not resolve dependencies", "COPY failed" 等）。
-    *   控制台通常会显示一个直接链接，如：  
-        "Logs are available at https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=..."  
+    *   控制台通常会显示一个直接链接，如：
+        "Logs are available at https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=..."
         （gcloud 有时会在失败前打印此链接 —— 请检查您的终端回滚记录）。
 
 2.  **使用 gcloud CLI**：
@@ -41,7 +41,7 @@ type: note
         gcloud builds log BUILD_ID_HERE
         ```
     *   如果您想实时查看，可以添加 `--stream`（但既然已经失败了，普通模式即可）。
-    *   或者通过管道传输给 less/grep：  
+    *   或者通过管道传输给 less/grep：
         ```bash
         gcloud builds log BUILD_ID_HERE | less
         gcloud builds log BUILD_ID_HERE | grep -i error

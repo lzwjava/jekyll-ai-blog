@@ -12,7 +12,7 @@ type: note
 
 Question: How to use filters to search for change requests in ServiceNow?
 
-Answer: 
+Answer:
 
 In ServiceNow, change requests are stored in the **change_request** table. To search and filter them effectively, follow these steps:
 
@@ -24,7 +24,7 @@ In ServiceNow, change requests are stored in the **change_request** table. To se
    - **My Changes** (your assigned or created changes)
    - **My Group Changes** (changes for groups you manage)
    - **Open** or other categorized views.
-   
+
    Alternatively, go directly to **Change > All** or search for "change_request.list" in the navigator to open the full list view.
 
 ### Using Filters in the List View
@@ -54,8 +54,8 @@ Once in the list view:
 
 Filters can be combined with sorting (click column headers) and column personalization (right-click headers > Configure > List Layout).
 
-References:  
+References:
 
-- [https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html](https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html)  
-- [https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24](https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24)  
+- [https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html](https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html)
+- [https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24](https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24)
 - [https://docs.servicenow.com/en-US/bundle/tokyo-platform-user-interface/page/use/using-lists/task/t_SavingFilters.html](https://docs.servicenow.com/en-US/bundle/tokyo-platform-user-interface/page/use/using-lists/task/t_SavingFilters.html)

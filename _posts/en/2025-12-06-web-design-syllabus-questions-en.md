@@ -12,11 +12,11 @@ type: note
 
 Question: Continue translating and neatly formatting the remaining part of the Guangdong Higher Education Self-Examination syllabus for "Web Design and Production (Practical)" (Course Code: 13168) into clear English Markdown.
 
-Answer: 
+Answer:
 
-# Guangdong Province Higher Education Self-Examination  
-**Course: Web Design and Production (Practical)**  
-**Course Code: 13168**  
+# Guangdong Province Higher Education Self-Examination
+**Course: Web Design and Production (Practical)**
+**Course Code: 13168**
 **(Full English Translation & Formatted Version)**
 
 (Previous sections I–VII have been provided. The following completes the document with the full **VIII. Sample Questions** section in clean, detailed English.)
@@ -25,7 +25,7 @@ Answer:
 
 ### 1. HTML5 Web Design Question (Typical Question – 15 points each, 2 questions total = 30 points)
 
-**Question Description**  
+**Question Description**
 According to the provided reference image/screenshot, design and complete the webpage with the following operations:
 
 **Specific Requirements**
@@ -44,7 +44,7 @@ According to the provided reference image/screenshot, design and complete the we
 
 ### 2. CSS3 Page Design Question (Typical Question – 20 points each, 2 questions total = 40 points)
 
-**Question Description**  
+**Question Description**
 According to the provided effect image, design the webpage and complete the following operations:
 
 **Specific Requirements**
@@ -67,7 +67,7 @@ According to the provided effect image, design the webpage and complete the foll
 
 ### 3. HTML5 + CSS3 Comprehensive Question (1 question = 30 points)
 
-**Question Description**  
+**Question Description**
 According to the provided layout image, use DIV + CSS to design a complete webpage with the following structure:
 
 **Specific Requirements**

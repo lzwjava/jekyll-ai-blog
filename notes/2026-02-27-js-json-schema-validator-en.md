@@ -59,7 +59,7 @@ npm install ajv-formats
 
 Ajv is the de-facto standard choice when you need fast, standards-compliant JSON validation in JavaScript projects, especially in APIs, configuration loaders, or any place where you want to validate structured data against a declarative schema.
 
-**References:**  
+**References:**
 
 - [https://www.npmjs.com/package/ajv](https://www.npmjs.com/package/ajv)
 - [https://ajv.js.org/](https://ajv.js.org/)

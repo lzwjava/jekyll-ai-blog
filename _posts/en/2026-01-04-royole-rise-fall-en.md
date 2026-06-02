@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the collapse of Royole, the screen company.
 
-Answer: 
+Answer:
 
 **Royole Corporation (also known as Royole Technologies or Shenzhen Royole Technologies Co. Ltd.)** was a Chinese technology company specializing in flexible display screens and foldable devices. Founded in 2012 by Liu Zihong (a Stanford graduate), it positioned itself as a pioneer in flexible OLED (Organic Light-Emitting Diode) technology.
 
@@ -39,10 +39,10 @@ Answer:
 
 Royole's story exemplifies the risks in the high-tech display industry: groundbreaking innovation alone is insufficient without commercialization, customer adoption, and financial prudence. Once hailed as a foldable pioneer, its collapse highlights how even highly valued startups can fail amid intense competition and economic pressures.
 
-References:  
+References:
 
-- [OLED-Info: Royole Company Profile](https://www.oled-info.com/royole)  
-- [Digitimes: China-based foldable pioneer Royole Technologies declares bankruptcy](https://www.digitimes.com/news/a20241120VL203/royole-technologies-foldable-bankruptcy-display.html)  
-- [Caixin Global: Flexible-Screen Maker Royole Goes Bankrupt](https://www.caixinglobal.com/2024-11-20/flexible-screen-maker-royole-goes-bankrupt-102259909.html)  
-- [Wikipedia: Royole](https://en.wikipedia.org/wiki/Royole)  
+- [OLED-Info: Royole Company Profile](https://www.oled-info.com/royole)
+- [Digitimes: China-based foldable pioneer Royole Technologies declares bankruptcy](https://www.digitimes.com/news/a20241120VL203/royole-technologies-foldable-bankruptcy-display.html)
+- [Caixin Global: Flexible-Screen Maker Royole Goes Bankrupt](https://www.caixinglobal.com/2024-11-20/flexible-screen-maker-royole-goes-bankrupt-102259909.html)
+- [Wikipedia: Royole](https://en.wikipedia.org/wiki/Royole)
 - [Yicai Global: Chinese Foldable Screen Firm Royole’s Bankruptcy Auction Fails](https://www.yicaiglobal.com/news/chinese-foldable-screen-firm-royoles-bankruptcy-auction-fails-to-attract-single-buyer)

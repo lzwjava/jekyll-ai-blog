@@ -16,7 +16,7 @@ type: note
   Safari 前台标签页 URL：https://claude.ai/chat/...
   是否是 WhatsApp：       False     ← 你在 Claude 上，而非 WhatsApp
   消息容器数量：0
-  
+
   ⚠️  检测到问题：
     → 不在 WhatsApp Web 上 — 请在 Safari 中打开 web.whatsapp.com
 ```

@@ -29,5 +29,5 @@ type: note
 
 这些学府在医学（中山大学、南方医科大学）、工程（华南理工大学）、农学（华南农业大学）等领域享有盛誉。在全球范围内，中山大学在QS或泰晤士高等教育等世界大学排名中通常位列200-250名区间。
 
-[广州最佳大学TOP24[2025年排名]](https://edurank.org/geo/guangzhou/)  
+[广州最佳大学TOP24[2025年排名]](https://edurank.org/geo/guangzhou/)
 [广州全部21所高校 | 2025年排名与评测](https://www.universityguru.com/universities-guangzhou)

@@ -15,7 +15,7 @@ type: note
 The phrase "software-like" hardware development refers to borrowing agile, iterative, and low-friction practices from software engineering to make traditionally rigid hardware design faster, more experimental, and resilient to failure. Hardware dev has historically been slow and linear—like building a physical machine part by part, with long waits for fabrication and testing. By contrast, software is nimble: you code, test virtually, iterate in hours, and deploy changes without melting down prototypes. Here's how this pioneer (likely someone like a chip architect at Galileo, Marvell, or Amazon) bridged that gap, based on the description:
 
 #### Key "Software-Like" Elements in Hardware Dev
-- **Agile Teams & Iterative Cycles**: 
+- **Agile Teams & Iterative Cycles**:
   - Software thrives on small, cross-functional teams (e.g., devs, testers, designers) working in sprints—short loops of build-test-learn. In hardware, this means ditching massive, siloed engineering orgs for fluid squads that prototype, fail fast, and pivot. Result: Timelines shrink from 2–3 years (full chip tape-out to production) to 3–6 months by parallelizing design, simulation, and validation.
 
 - **Emulation for Quick Testing**:

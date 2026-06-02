@@ -12,7 +12,7 @@ type: note
 
 Question: What certificates can we get in Google Cloud?
 
-Answer: 
+Answer:
 
 Google Cloud offers a range of **certifications** divided into three main levels: Foundational, Associate, and Professional. These validate different depths of knowledge and skills in using Google Cloud products and services.
 
@@ -41,6 +41,6 @@ Google Cloud certifications are valid for **2–3 years** depending on the level
 
 For the most up-to-date and complete list (including any new ones added in 2025–2026), check the official page directly.
 
-References:  
-- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification)  
+References:
+- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification)
 - [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (official Google Cloud certifications page)

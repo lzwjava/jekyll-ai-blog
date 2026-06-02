@@ -29,7 +29,7 @@ Answer:
   - More CPU cores (if the task is parallelizable)
   - Better branch prediction, larger cache, etc.
 
-**Example sentence:**  
+**Example sentence:**
 "This machine learning training job is strongly CPU-bound — even with 128 CPU cores it's still running at 100% CPU for hours."
 
 ### IO-bound
@@ -52,7 +52,7 @@ Answer:
   - Async / non-blocking IO
   - More efficient IO patterns (batching, caching, prefetching)
 
-**Example sentence:**  
+**Example sentence:**
 "A web scraper that downloads 10,000 images is mostly IO-bound — the CPU is barely busy, but it's spending 90% of the time waiting for network responses."
 
 ### Quick Comparison Table
@@ -66,10 +66,10 @@ Answer:
 | Benefits from multi-threading? | Yes (if parallelizable)           | Often yes (hides latency)             |
 | Benefits from asyncio / event loop? | Usually no                        | Usually very much yes                 |
 
-In short:  
-- CPU-bound → "My CPU is working hard"  
+In short:
+- CPU-bound → "My CPU is working hard"
 - IO-bound → "My CPU is mostly waiting"
 
-References:  
+References:
 
 - None required for this conceptual explanation

@@ -29,8 +29,8 @@ Based on available 2025 year-to-date (YTD) data through September:
 
 For context, the S&P 500 rose ~14% through Q3 2025, so all outperformed the broad market.
 
-[Bridgewater Soars 26% to Lead Pack of Biggest Hedge Funds](https://www.bloomberg.com/news/articles/2025-10-02/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds)  
-[DE Shaw Doubled Fund Returns to Nearly 10% on Winning Week](https://www.bloomberg.com/news/articles/2025-08-08/de-shaw-hedge-fund-doubled-returns-to-nearly-10-on-winning-week)  
-[Jane Street's $10.1 Billion Trading Haul Sets Wall Street Record](https://www.bloomberg.com/news/articles/2025-09-02/jane-street-s-10-1-billion-trading-haul-sets-wall-street-record)  
-[Bridgewater soars 26% to lead pack of biggest hedge funds](https://www.investmentnews.com/equities/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds/262372)  
+[Bridgewater Soars 26% to Lead Pack of Biggest Hedge Funds](https://www.bloomberg.com/news/articles/2025-10-02/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds)
+[DE Shaw Doubled Fund Returns to Nearly 10% on Winning Week](https://www.bloomberg.com/news/articles/2025-08-08/de-shaw-hedge-fund-doubled-returns-to-nearly-10-on-winning-week)
+[Jane Street's $10.1 Billion Trading Haul Sets Wall Street Record](https://www.bloomberg.com/news/articles/2025-09-02/jane-street-s-10-1-billion-trading-haul-sets-wall-street-record)
+[Bridgewater soars 26% to lead pack of biggest hedge funds](https://www.investmentnews.com/equities/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds/262372)
 [Top 50 hedge funds' performance in 2025](https://www.linkedin.com/posts/eric-uhlfelder-7a8335_1h2025-update-global-survey-of-the-top-50-activity-7373702240664076288-oxmj)

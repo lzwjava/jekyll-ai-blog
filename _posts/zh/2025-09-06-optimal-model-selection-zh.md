@@ -30,7 +30,7 @@ type: note
 ```json
 "Router": {
   "default": "openrouter,deepseek/deepseek-chat-v3.1",
-  "background": "openrouter,google/gemini-2.5-flash", 
+  "background": "openrouter,google/gemini-2.5-flash",
   "think": "openrouter,deepseek/deepseek-r1",
   "longContext": "openrouter,moonshotai/kimi-k2",
   "webSearch": "openrouter,google/gemini-2.5-flash"

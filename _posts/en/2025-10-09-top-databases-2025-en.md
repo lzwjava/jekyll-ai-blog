@@ -31,5 +31,5 @@ Here's a summary of the top 10 DBMS by popularity score:
 
 The overall DBMS market is projected to exceed $150 billion by 2026, driven by cloud and AI integrations.
 
-[References](https://www.baremon.eu/10-best-databases-of-2025/)  
+[References](https://www.baremon.eu/10-best-databases-of-2025/)
 [DB-Engines Ranking](https://db-engines.com/en/ranking)

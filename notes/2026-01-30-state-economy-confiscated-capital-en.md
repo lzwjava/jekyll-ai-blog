@@ -12,7 +12,7 @@ type: note
 
 Question: Explain in English the following sentence: "新中国诞生后，国营经济的主要来源是没收官僚资本。"
 
-Answer: 
+Answer:
 
 After the founding of the People's Republic of China (New China) in 1949, **the main source of the state-owned economy was the confiscation of bureaucratic capital**.
 
@@ -48,5 +48,5 @@ By the end of 1952, through confiscation + takeover of Japanese- and German-owne
 
 So the sentence is a standard statement taught in Chinese economic history and political textbooks: **the earliest and most important material basis of socialist state ownership came from seizing bureaucratic capital**, rather than from building new factories from scratch or nationalizing small/medium private businesses (which happened later during the 1953–1956 socialist transformation).
 
-In short:  
+In short:
 **The state-owned economy in early New China was mainly built by taking over the large-scale, monopoly enterprises that had previously been controlled by the Kuomintang government and its top officials.**

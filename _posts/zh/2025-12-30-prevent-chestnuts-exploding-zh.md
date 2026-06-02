@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么在 200 度左右烹饪 16 分钟时，有些栗子会跳动、发出爆裂声，并导致 air fryer 炸篮弹出、机器停止运行？
 
-Answer: 
+Answer:
 
 你在使用 air fryer 烹饪栗子时遇到的爆裂声、跳动和偶尔的爆炸，是由于烹饪过程中栗子内部积聚了蒸汽造成的。栗子含有水分，受热时会转化为蒸汽。如果蒸汽无法排出，压力就会积聚，导致栗子爆炸或伴随巨大的响声发生“跳动”。
 
@@ -35,7 +35,7 @@ Answer:
 
 通过正确的 scoring，你应该能够消除爆裂爆炸和机器关机的问题。如果问题仍然存在，请确保所有栗子都均匀地切开了足够的深度。
 
-References:  
+References:
 
 - [Easy Air Fryer Roasted Chestnuts - Fork To Spoon](https://forktospoon.com/air-fryer-roasted-chestnuts/)
 - [Air Fryer Roasted Chestnuts – The Vegan Larder](https://theveganlarder.com/air-fryer-roasted-chestnuts/)

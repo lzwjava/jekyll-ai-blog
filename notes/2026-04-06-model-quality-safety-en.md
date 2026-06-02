@@ -20,7 +20,7 @@ Answer: This model is a community-created fine-tune, and its value depends on wh
 
 ### Is it "Safe"? (Security & Content)
 * **Operational Safety:** Since you are running it locally via **Ollama**, the model cannot "hack" your computer. It is as safe to run as any other GGUF model in the Ollama library.
-* **Content Safety (Uncensored):** Many versions in the `aravhawk` or `Jackrong` lineage are **uncensored** or "de-aligned." This means the model is less likely to refuse requests (even controversial or sensitive ones) compared to the official Alibaba Qwen or Anthropic Claude models. 
+* **Content Safety (Uncensored):** Many versions in the `aravhawk` or `Jackrong` lineage are **uncensored** or "de-aligned." This means the model is less likely to refuse requests (even controversial or sensitive ones) compared to the official Alibaba Qwen or Anthropic Claude models.
 * **Confidence Risk:** A known issue with this specific distillation is that it can be "confidently wrong." Because it mimics Claude's authoritative tone, it may present hallucinations as facts more convincingly than other models.
 
 ---

@@ -20,7 +20,7 @@
       compilation terminated.
       error: command '/usr/bin/x86_64-linux-gnu-g++' failed with exit code 1
       [end of output]
-  
+
   note: This error originates from a subprocess, and is likely not a problem with pip.
   ERROR: Failed building wheel for sentencepiece
 Failed to build sentencepiece

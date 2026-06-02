@@ -22,6 +22,6 @@ First-Hop Redundancy Protocols (FHRP) such as HSRP (Hot Standby Router Protocol)
 - **C** is unrelated—FHRPs do not provide encryption.
 - **D** is incorrect; FHRPs actually reduce ARP broadcasts by having hosts send ARP requests to a single virtual MAC.
 
-References:  
-- [Cisco - First Hop Redundancy Protocols Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp_fhrp/configuration/xe-16/fhrp-xe-16-book/fhrp-hsrp.html)  
+References:
+- [Cisco - First Hop Redundancy Protocols Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp_fhrp/configuration/xe-16/fhrp-xe-16-book/fhrp-hsrp.html)
 - [RFC 5798 - Virtual Router Redundancy Protocol (VRRP) Version 3](https://datatracker.ietf.org/doc/html/rfc5798)

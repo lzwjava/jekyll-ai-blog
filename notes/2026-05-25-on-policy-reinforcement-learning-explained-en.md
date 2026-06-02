@@ -53,9 +53,9 @@ In GRPO (what DeepSeek-R1 uses), you:
 
 This is expensive but necessary for correctness. It's why RLHF training is slow — you're doing generation (autoregressive, sequential) inside the training loop.
 
-**REINFORCE / vanilla PG** = strictly on-policy, one update per rollout batch  
-**PPO** = on-policy with a small reuse window (few epochs over same batch, clipped)  
-**DPO** = technically off-policy (trains on pre-collected preference pairs, no live rollouts)  
+**REINFORCE / vanilla PG** = strictly on-policy, one update per rollout batch
+**PPO** = on-policy with a small reuse window (few epochs over same batch, clipped)
+**DPO** = technically off-policy (trains on pre-collected preference pairs, no live rollouts)
 **GRPO** = on-policy like PPO, but without a separate critic network
 
 So yes — on-policy = "I must generate fresh data from my current self before each update." The moment you store data in a replay buffer and sample it later, you've gone off-policy.

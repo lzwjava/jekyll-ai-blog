@@ -24,7 +24,7 @@ The most common way to use Jython in WebSphere is for server management tasks li
 
 **Basic Steps to Run a Jython Script:**
 1. Create a Jython script file (e.g., `example.py`) with your code. Use AdminConfig, AdminControl, and AdminApp objects for WebSphere-specific operations.
-   
+
    Example script to list all installed applications (`listApps.py`):
    ```
    # List all applications
@@ -37,17 +37,17 @@ The most common way to use Jython in WebSphere is for server management tasks li
    ```
 
 2. Run the script using `wsadmin`:
-   - Connect via SOAP (default for remote):  
+   - Connect via SOAP (default for remote):
      ```
      wsadmin.sh -lang jython -f listApps.py -host <hostname> -port <soap_port> -user <admin_user> -password <admin_pass>
      ```
-   - For local (no host/port):  
+   - For local (no host/port):
      ```
      wsadmin.sh -lang jython -f listApps.py
      ```
    - Example output: Lists apps like `DefaultApplication`.
 
-3. For interactive mode (REPL):  
+3. For interactive mode (REPL):
    ```
    wsadmin.sh -lang jython
    ```
@@ -64,13 +64,13 @@ The most common way to use Jython in WebSphere is for server management tasks li
   ```
   Run: `wsadmin.sh -lang jython -f deployApp.py`.
 
-- **Start/Stop Server:**  
+- **Start/Stop Server:**
   ```
   server = AdminControl.completeObjectName('type=Server,process=server1,*')
   AdminControl.invoke(server, 'start')  # Or 'stop'
   ```
 
-- **Specify Jython Version (if needed):** For Jython 2.1 explicitly:  
+- **Specify Jython Version (if needed):** For Jython 2.1 explicitly:
   `wsadmin.sh -usejython21 true -f script.py`. For custom versions, add to classpath: `-wsadmin_classpath /path/to/jython.jar`.
 
 **Tips:**
@@ -89,7 +89,7 @@ There are two main methods: **Classpath** (server-wide) or **Shared Library** (r
 3. Navigate to **Servers > Server Types > WebSphere application servers > [Your Server]**.
 4. Go to **Java and Process Management > Process definition > Java Virtual Machine > Classpath**.
 5. Add the full path to `jython.jar` (e.g., `/opt/.../jython.jar`).
-6. In **Generic JVM arguments**, add the Python path:  
+6. In **Generic JVM arguments**, add the Python path:
    `-Dpython.path=/opt/.../jython.jar/Lib` (points to Jython's standard library).
 7. Click **OK**, save the configuration, and restart the server.
 8. Synchronize nodes if in a clustered environment (via **System administration > Nodes > Synchronize**).
@@ -123,9 +123,9 @@ There are two main methods: **Classpath** (server-wide) or **Shared Library** (r
 
 If this doesn't match your exact scenario (e.g., specific WAS version or use case), provide more details for tailored advice.
 
-**References:**  
-- [Using wsadmin scripting with Jython (IBM Docs)](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-using-wsadmin-jython)  
-- [Deploying Jython on WebSphere (Oracle Guide)](https://docs.oracle.com/en/applications/jd-edwards/cross-product/9.2/eotos/deploying-jython-on-ais-server-on-ibm-websphere-application.html)  
-- [WebSphere Jython Integration (Stack Overflow)](https://stackoverflow.com/questions/25187577/will-the-ibm-websphere-application-server-run-the-python-jython-script-without-p)  
-- [Jython Wiki on WebSphere](https://wiki.python.org/jython/WebSphere)  
+**References:**
+- [Using wsadmin scripting with Jython (IBM Docs)](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-using-wsadmin-jython)
+- [Deploying Jython on WebSphere (Oracle Guide)](https://docs.oracle.com/en/applications/jd-edwards/cross-product/9.2/eotos/deploying-jython-on-ais-server-on-ibm-websphere-application.html)
+- [WebSphere Jython Integration (Stack Overflow)](https://stackoverflow.com/questions/25187577/will-the-ibm-websphere-application-server-run-the-python-jython-script-without-p)
+- [Jython Wiki on WebSphere](https://wiki.python.org/jython/WebSphere)
 - [Deploy App with Jython Example](https://jobhunterssite.wordpress.com/2016/05/12/deploy-an-application-in-websphere-using-jython-automation/)

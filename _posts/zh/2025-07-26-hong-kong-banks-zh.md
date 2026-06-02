@@ -69,17 +69,17 @@ type: note
 
 若遇困难，建议直接咨询银行或香港财务顾问。政策可能变动，请持续关注最新动态。
 
-**参考资料**  
-[香港银行列表 - 维基百科](https://en.wikipedia.org/wiki/List_of_banks_in_Hong_Kong)  
-[2025年香港持牌银行名单 - 中国简报](https://www.china-briefing.com/doing-business-guide/hong-kong/tools/list-of-licensed-banks-in-hong-kong-2023)  
-[2025年香港最佳银行 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)  
-[2025年香港最佳银行 - InvestAsian](https://www.investasian.com/offshore-banking/hong-kong-banks/)  
-[如何开立香港账户 | 国际业务 - 汇丰香港](https://www.hsbc.com.hk/international/banking-in-hong-kong/)  
-[2025年香港开户快速指南](https://statrys.com/blog/open-hong-kong-bank-account)  
-[内地居民如何开立汇丰个人账户指南](https://www.linkedin.com/pulse/how-mainland-chinese-can-open-personal-hsbc-bank-account-vina-cao-oubpc)  
-[手机开户服务 | 中国银行（香港）](https://www.bochk.com/en/more/ebanking/bba.html)  
-[Visa卡申请](https://www.visa.com.hk/en_HK/pay-with-visa/find-a-card/apply-card.html)  
-[香港银行将启动内地信用卡发行业务](https://fintechnews.hk/32619/fintechchina/hong-kong-banks-to-issue-mainland-china-credit-cards/)  
-[香港最佳借记卡 - Wise](https://wise.com/hk/blog/debit-cards-in-hong-kong)  
-[2025年香港5大最佳借记卡 - Statrys](https://statrys.com/guides/hong-kong/banking/best-debit-cards-hong-kong)  
+**参考资料**
+[香港银行列表 - 维基百科](https://en.wikipedia.org/wiki/List_of_banks_in_Hong_Kong)
+[2025年香港持牌银行名单 - 中国简报](https://www.china-briefing.com/doing-business-guide/hong-kong/tools/list-of-licensed-banks-in-hong-kong-2023)
+[2025年香港最佳银行 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)
+[2025年香港最佳银行 - InvestAsian](https://www.investasian.com/offshore-banking/hong-kong-banks/)
+[如何开立香港账户 | 国际业务 - 汇丰香港](https://www.hsbc.com.hk/international/banking-in-hong-kong/)
+[2025年香港开户快速指南](https://statrys.com/blog/open-hong-kong-bank-account)
+[内地居民如何开立汇丰个人账户指南](https://www.linkedin.com/pulse/how-mainland-chinese-can-open-personal-hsbc-bank-account-vina-cao-oubpc)
+[手机开户服务 | 中国银行（香港）](https://www.bochk.com/en/more/ebanking/bba.html)
+[Visa卡申请](https://www.visa.com.hk/en_HK/pay-with-visa/find-a-card/apply-card.html)
+[香港银行将启动内地信用卡发行业务](https://fintechnews.hk/32619/fintechchina/hong-kong-banks-to-issue-mainland-china-credit-cards/)
+[香港最佳借记卡 - Wise](https://wise.com/hk/blog/debit-cards-in-hong-kong)
+[2025年香港5大最佳借记卡 - Statrys](https://statrys.com/guides/hong-kong/banking/best-debit-cards-hong-kong)
 [香港顶级信用卡：2025年指南 - Air Corporate](https://air-corporate.com/blog/top-credit-cards-in-hong-kong/)

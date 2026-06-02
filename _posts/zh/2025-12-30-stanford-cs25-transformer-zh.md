@@ -12,7 +12,7 @@ type: note
 
 Question: 视频里说了什么？ (https://www.youtube.com/watch?v=1GbDTTK3aR4)
 
-Answer: 
+Answer:
 
 这段视频是 Stanford CS25 的讲座，题为“我如何学会停止担忧并爱上 Transformer”，由 Ashish Vaswani 于 2023 年 11 月 7 日演讲。Ashish Vaswani 是 2017 年开创性论文《Attention is All You Need》（该论文引入了 Transformer 架构）的合著者之一。他在讲座中讨论了 Transformer 的设计初衷、演变过程以及未来的潜在研究方向。
 
@@ -43,8 +43,8 @@ Answer:
 
 该讲座强调了 Transformer 如何将许多 AI 方法整合到一个可扩展、高效的架构中，从而推动现代技术的进步。
 
-References:  
+References:
 
-- [Video Page](https://www.youtube.com/watch?v=1GbDTTK3aR4)  
-- [Stanford CS25 Course Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)  
+- [Video Page](https://www.youtube.com/watch?v=1GbDTTK3aR4)
+- [Stanford CS25 Course Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 - [Stanford CS25 Course Website](https://web.stanford.edu/class/cs25/)

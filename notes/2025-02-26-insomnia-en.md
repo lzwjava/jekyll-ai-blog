@@ -26,36 +26,36 @@ Kong Insomnia is an **open-source API development platform** designed to streaml
 
 ### How to Use Kong Insomnia
 
-1. **Installation**  
+1. **Installation**
    - Download Insomnia from the official website (it’s free and available for Windows, macOS, and Linux).
    - Install and launch the application.
 
-2. **Designing an API**  
-   - Start by creating a new project and use the **Design tab** to define your API using the OpenAPI specification.  
+2. **Designing an API**
+   - Start by creating a new project and use the **Design tab** to define your API using the OpenAPI specification.
    - Insomnia provides real-time linting to catch errors and can generate documentation automatically.
 
-3. **Creating Requests**  
-   - Switch to the **Debug tab** and create a new request (e.g., GET, POST).  
-   - Specify the URL, headers, body, and authentication as needed.  
+3. **Creating Requests**
+   - Switch to the **Debug tab** and create a new request (e.g., GET, POST).
+   - Specify the URL, headers, body, and authentication as needed.
    - Organize requests into collections for easy access.
 
-4. **Testing APIs**  
-   - Send requests and inspect responses (status codes, headers, body).  
+4. **Testing APIs**
+   - Send requests and inspect responses (status codes, headers, body).
    - Use the **Test tab** to write test suites, checking response data or status codes.
 
-5. **Managing Environments**  
+5. **Managing Environments**
    - Set up environment variables (e.g., base URLs, API keys) in the **Environment Manager** to switch between configurations seamlessly.
 
-6. **Collaboration**  
-   - Share collections with teammates via export/import or use Cloud Sync (premium feature).  
+6. **Collaboration**
+   - Share collections with teammates via export/import or use Cloud Sync (premium feature).
    - Sync projects with Git for version control.
 
-7. **Automation with Inso CLI**  
+7. **Automation with Inso CLI**
    - Install the Inso CLI and run tests or linting from the command line, integrating with CI/CD workflows.
 
 ### Pricing
 
-- **Free Tier**: Core features like API design, testing, and local storage.  
+- **Free Tier**: Core features like API design, testing, and local storage.
 - **Premium Plans**: Unlock unlimited collaboration, Cloud Sync, and Git Sync for teams.
 
 ### Summary

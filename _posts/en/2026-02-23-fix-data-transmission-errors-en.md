@@ -11,7 +11,7 @@ type: note
 
 Question: Briefly describe the basic principle of error-correcting coding.
 
-Answer: 
+Answer:
 
 The basic principle of **error-correcting coding** (also known as channel coding) is to enhance the reliability of data transmission over noisy channels by introducing controlled redundancy. The process involves the following key steps:
 

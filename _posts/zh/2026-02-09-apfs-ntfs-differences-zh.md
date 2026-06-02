@@ -55,7 +55,7 @@ Answer:
 
 两者都是优秀的现代 Journaling 文件系统 —— **APFS** 感觉更像是“2020年代”且 SSD 优先的产品，而 **NTFS** 依然极其强大，并继续统治着 Windows 世界。
 
-References:  
+References:
 
 - [APFS vs NTFS – MiniTool Partition Wizard](https://www.partitionwizard.com/news/apfs-vs-ntfs.html)
 - [File Systems Comparison: NTFS, Ext4, APFS and ZFS – Hostragons](https://www.hostragons.com/en/blog/file-systems-ntfs-ext4-apfs-zfs-comparison)

@@ -31,31 +31,31 @@ If no `serverName` is specified, it uses the **defaultServer**.
 
 ### Main Actions (Commands)
 
-- **create** — Creates a new server directory and basic configuration files  
+- **create** — Creates a new server directory and basic configuration files
   Example: `server create myServer`
 
-- **start** — Starts the server in the **background** (most common for production)  
+- **start** — Starts the server in the **background** (most common for production)
   Example: `server start myServer`
 
-- **run** — Starts the server in the **foreground** (console output stays in current terminal; good for development/debugging)  
+- **run** — Starts the server in the **foreground** (console output stays in current terminal; good for development/debugging)
   Example: `server run myServer`
 
-- **stop** — Gracefully stops the server  
+- **stop** — Gracefully stops the server
   Example: `server stop myServer`
 
-- **status** — Checks if the server is running  
+- **status** — Checks if the server is running
   Example: `server status myServer`
 
-- **package** — Packages the server (including configuration and applications) into a .zip, .jar, or .tar.gz file  
+- **package** — Packages the server (including configuration and applications) into a .zip, .jar, or .tar.gz file
   Example: `server package myServer --include=usr`
 
-- **dump** — Creates a diagnostic snapshot (thread dump, configuration, trace, etc.)  
+- **dump** — Creates a diagnostic snapshot (thread dump, configuration, trace, etc.)
   Example: `server dump myServer`
 
-- **javadump** — Requests a Java core dump / heap dump from a running server  
+- **javadump** — Requests a Java core dump / heap dump from a running server
   Example: `server javadump myServer`
 
-- **help** — Shows help for the server command or a specific action  
+- **help** — Shows help for the server command or a specific action
   Example: `server help start`
 
 ### Commonly Used Options (most apply to start/run/stop/package/dump)
@@ -111,7 +111,7 @@ The official reference is usually found in IBM Docs under:
 
 "Server command options" → https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options
 
-For Open Liberty (very similar syntax, often identical in recent years):  
+For Open Liberty (very similar syntax, often identical in recent years):
 https://openliberty.io/docs/latest/reference/command/server-commands.html
 
 Run `server help` or `server help start` on your installed version for the exact options supported in your specific Liberty version.

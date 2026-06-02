@@ -11,7 +11,7 @@ type: note
 
 Question: In the RIP protocol, what does a hop count of 16 indicate?
 
-Answer: 
+Answer:
 
 In the **Routing Information Protocol (RIP)**, a hop count of **16** indicates that the destination network is **unreachable**.
 
@@ -23,7 +23,7 @@ In the **Routing Information Protocol (RIP)**, a hop count of **16** indicates t
 
 Therefore, when a RIP router advertises a route with a metric of 16, it is effectively saying, "I do not have a valid path to this network."
 
-References:  
+References:
 
 - [RFC 1058 - Routing Information Protocol](https://datatracker.ietf.org/doc/html/rfc1058)
 - [Cisco Documentation on RIP Metrics](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13730-3.html)

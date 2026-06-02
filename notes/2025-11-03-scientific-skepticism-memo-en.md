@@ -18,9 +18,9 @@ The main post you pasted is from May 23, 2023, titled **科学为我所用** (Sc
 
 #### Full English Translation of the Main Post
 
-**Science Serves Me**  
-*Yin Wang*  
-*May 23, 2023*  
+**Science Serves Me**
+*Yin Wang*
+*May 23, 2023*
 *∙ Paid*
 
 Some people say I believe in conspiracy theories, but they don't know how much time I've spent observing and studying these things, or what kind of scientific instruments I've used to measure and investigate the details of everyday life.
@@ -61,64 +61,64 @@ This fits Yin's Substack, where he critiques Big Tech, education, and society wh
 #### Translation of the Recommended/Related Posts List
 This seems to be a sidebar of other popular posts from his newsletter (in chronological order, newest to oldest). I've translated titles, dates, authors (all Yin Wang), like counts, and short excerpts/summaries where provided.
 
-- **My Thoughts (Chinese Version)**  
-  *Oct 26, 2023 • Yin Wang*  
-  *2 Likes*  
+- **My Thoughts (Chinese Version)**
+  *Oct 26, 2023 • Yin Wang*
+  *2 Likes*
   *(No excerpt; likely a meta-post or collection of ideas in Chinese.)*
 
-- **A Simple Method to Cure Athlete's Foot**  
-  *Oct 26, 2023 • Yin Wang*  
-  *14 Likes*  
+- **A Simple Method to Cure Athlete's Foot**
+  *Oct 26, 2023 • Yin Wang*
+  *14 Likes*
   Recent research projects have included various sports, but also a very annoying problem called athlete's foot. Finally, I conquered it with my own wisdom.
 
-- **A Bad Review of *Introduction to Algorithms***  
-  *Mar 5, 2024 • Yin Wang*  
-  *16 Likes*  
+- **A Bad Review of *Introduction to Algorithms***
+  *Mar 5, 2024 • Yin Wang*
+  *16 Likes*
   In a previous article, I mentioned the importance of learning AVL trees or B-trees. Later, in a basic class discussion, a student said he'd heard of "red-black trees" and asked the difference from AVL trees. I just told him red-black trees are "random" and not precisely balanced, so lookup efficiency isn't as guaranteed as in AVL trees.
 
-- **Computer Science Fundamentals Class (5th Session) Ends**  
-  *May 3, 2024 • Yin Wang*  
-  *13 Likes*  
+- **Computer Science Fundamentals Class (5th Session) Ends**
+  *May 3, 2024 • Yin Wang*
+  *13 Likes*
   I can now announce that the Computer Science Fundamentals Class (5th session) has successfully concluded. The results far exceeded my expectations. Not only were the original contents greatly improved, but the new additions on imperative programming methods, Python, Java, Rust languages, perfectly fulfilled their roles. In the end, we even added a special Bonus lesson: C++.
 
-- **My Story with Humanity**  
-  *Nov 22, 2022 • Yin Wang*  
-  *31 Likes*  
+- **My Story with Humanity**
+  *Nov 22, 2022 • Yin Wang*
+  *31 Likes*
   At the very beginning, I told people that Windows wasn't a good thing and recommended they use Linux or FreeBSD—they didn't believe me. Later, Linux took over almost all high-end server markets, and FreeBSD took over all Apple products.
 
-- ***Why I Left This World***  
-  *Feb 2, 2024 • Yin Wang*  
-  *13 Likes*  
+- ***Why I Left This World***
+  *Feb 2, 2024 • Yin Wang*
+  *13 Likes*
   Whenever I write an article pointing out phenomena that I think shouldn't happen in certain places, or describing what the world should really be like, someone mocks me: "Yin Wang's next article will be *Why I Left...*." Indeed, I've written many similar articles, from the first one *The Shattering of the Tsinghua Dream* to later ones about Cornell, Google...
 
-- **Recalling CPSer**  
-  *Feb 28, 2024 • Yin Wang*  
-  *11 Likes*  
+- **Recalling CPSer**
+  *Feb 28, 2024 • Yin Wang*
+  *11 Likes*
   CPSer—known as "Yin Wang's 40 Lines of Code"—is an "automatic CPS transformation" I wrote at Indiana University (IU). Its essence is actually a compiler, and it has no so-called administrative redexes. In other words, the generated code has no unnecessary overhead.
 
-- **How Did Design Patterns Become Popular?**  
-  *Nov 23, 2022 • Yin Wang*  
-  *20 Likes*  
+- **How Did Design Patterns Become Popular?**
+  *Nov 23, 2022 • Yin Wang*
+  *20 Likes*
   30 years later, people are finally celebrating the gradual demise of *Design Patterns*. This book once dominated at Google...
 
-- **Why I See the World I See**  
-  *Jan 24, 2024 • Yin Wang*  
-  *10 Likes*  
+- **Why I See the World I See**
+  *Jan 24, 2024 • Yin Wang*
+  *10 Likes*
   Someone told me my articles changed their family's worldview. I was gratified to hear it. I thought about it: why did I end up here, seeing through so many of the world's huge secrets? It's inseparable from my initial decision to start the Computer Science Fundamentals Class.
 
-- **How to Handle Layoffs and Budget Cuts at Tech Companies**  
-  *Aug 18, 2023 • Yin Wang*  
-  *11 Likes*  
+- **How to Handle Layoffs and Budget Cuts at Tech Companies**
+  *Aug 18, 2023 • Yin Wang*
+  *11 Likes*
   Recently, many tech companies are laying off staff; those not laid off are skimping on bonuses. My advice to students from my classes: Master your core skills, reduce your effort at work. Do more entertainment and leisure, travel. Don't write clear, maintainable code (contrary to my teaching). Let them know: for that pay, you do that much work—excellent code can't be bought for peanuts.
 
-- **The Nightmare of Air Fresheners**  
-  *Feb 3, 2023 • Yin Wang*  
-  *22 Likes*  
+- **The Nightmare of Air Fresheners**
+  *Feb 3, 2023 • Yin Wang*
+  *22 Likes*
   I came to the UK, one of the world's supposedly cleanest countries with the best air. But after nearly a month, my impression of the actual environment is very bad. In fact, I feel like I'm living in a nightmare, one cause of which is the ubiquitous smell of "air fresheners"...
 
-*© 2025 Yin Wang*  
-*Privacy ∙ Terms ∙ Collection notice*  
-*Start your Substack | Get the app*  
+*© 2025 Yin Wang*
+*Privacy ∙ Terms ∙ Collection notice*
+*Start your Substack | Get the app*
 *Substack is the home for great culture*
 
 #### Overall Context

@@ -11,7 +11,7 @@ type: note
 
 Question: What careers suit ESTP personality type?
 
-Answer: 
+Answer:
 
 ESTPs (Extraverted, Sensing, Thinking, Perceiving) —— 通常被称为 "The Entrepreneur"（企业家）、"The Dynamo"（动力源）或 "The Persuader"（说服者）—— 在节奏快、动手能力强、现实世界的环境中表现出色。在这些环境中，他们可以立即采取行动，解决具体问题，与人互动，承担经过计算的风险，并看到快速的结果。在高度结构化、重复性强、进度缓慢或偏重理论的职位中，他们通常会很快感到不快。
 
@@ -92,6 +92,6 @@ ESTPs (Extraverted, Sensing, Thinking, Perceiving) —— 通常被称为 "The E
 
 你在 20 岁出头时就已经经历过一次完整的创业周期 —— 这是一个非常强的证据，表明上述 Entrepreneurial / Sales / Action-oriented 路径对你来说可能比强迫自己进入结构化的 corporate 或 academic 轨道更自然。
 
-References:  
+References:
 
 - None (基于广泛记录的 MBTI 职业模式、ESTP 社区讨论以及现实世界中 founder/sales 专业的案例)

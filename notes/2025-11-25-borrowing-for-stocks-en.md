@@ -57,7 +57,7 @@ Almost never for retail investors. The only people who routinely use leverage su
 ### Bottom line
 Borrowing to buy stocks turns investing (which is already risky) into gambling with your entire financial life. A single bad year can bankrupt you, trigger margin calls, destroy your credit, and force you to sell your house or delay retirement by decades.
 
-That’s why almost every experienced investor and every finance textbook says the same thing:  
+That’s why almost every experienced investor and every finance textbook says the same thing:
 **Never borrow money you have to pay back to buy stocks that can go to zero.**
 
 If you wouldn’t bet your house on a single coin flip, don’t borrow money to buy stocks. The downside is literally unlimited, the upside is limited.

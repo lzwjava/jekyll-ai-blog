@@ -33,7 +33,7 @@ Tritan **并不完全等同于普通的 PCT**，但经常被称为 **"modified P
 - Tritan **不称为普通的 PCT**——它是一种特定的改性形式。
 - 是的，在中国它通常被称为 **"changed/modified PCT"**（改性PCT），这是该国标准、产品标签和行业讨论中的标准术语。
 
-**参考文献：**  
+**参考文献：**
 
 - [Tritan copolyester - Wikipedia](https://en.wikipedia.org/wiki/Tritan_copolyester)
 - [tritan_百度百科](https://baike.baidu.com/item/tritan/10326032)

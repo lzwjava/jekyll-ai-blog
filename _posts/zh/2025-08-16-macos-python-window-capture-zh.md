@@ -94,7 +94,7 @@ if active:
 
 ---
 
-✅ 若需要 **纯跨平台的 `pygetwindow` 替代品**：推荐 **`pywinctl`**  
+✅ 若需要 **纯跨平台的 `pygetwindow` 替代品**：推荐 **`pywinctl`**
 ✅ 若需要 **原生 macOS 精准控制和更高自由度**：推荐 **PyObjC + Quartz**
 
 需要我为您展示一个 **仅依赖 PyObjC (Quartz)**（无需第三方封装）的完整脚本吗？这样就能彻底摆脱 `pygetwindow` 了。

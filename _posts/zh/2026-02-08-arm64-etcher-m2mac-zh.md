@@ -12,7 +12,7 @@ type: note
 
 Question: MacBook Air M2 应该选择哪个版本的 Etcher？
 
-Answer: 
+Answer:
 
 对于 **MacBook Air M2 芯片** (Apple Silicon / ARM64 架构)，请选择：
 

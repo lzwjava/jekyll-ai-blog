@@ -22,7 +22,7 @@ Answer:
 - **CS50 (Harvard via edX or YouTube)** — 最好的免费 Computer Science 入门课程之一；即使对于有经验的开发者来说也是很好的基础。
 
 ### Full-Stack Development
-- **Full Stack Open (University of Helsinki)** → https://fullstackopen.com/  
+- **Full Stack Open (University of Helsinki)** → https://fullstackopen.com/
   非常现代（React、TypeScript、Node.js、GraphQL、React Query 等），免费且高质量——被广泛认为是 2025–2026 年最好的免费 Full-stack 课程之一。
 - **Coursera / IBM Full Stack Software Developer Professional Certificate** — 结构化、就业导向，涵盖 Cloud + Containers + Frontend/Backend。
 - **Udemy** — 搜索 “The Web Developer Bootcamp 202X”、“Angular + NestJS”、“ .NET + React” 等（等待 $10–15 的促销）。
@@ -35,10 +35,10 @@ Answer:
 - **GeeksforGeeks** 和 **roadmap.sh** 文章，用于 Backend 框架对比（在 2026 年非常有用）。
 
 ### AI Engineering / ML / Generative AI
-- **DeepLearning.AI (Coursera)**  
-  Andrew Ng 的课程仍是金标准：  
-  - Machine Learning Specialization  
-  - Deep Learning Specialization  
+- **DeepLearning.AI (Coursera)**
+  Andrew Ng 的课程仍是金标准：
+  - Machine Learning Specialization
+  - Deep Learning Specialization
   - Generative AI with LLMs (with AWS)
 - **DataCamp** → Associate AI Engineer 路径（面向 Developers 和 Data Scientists）— 交互式且实用。
 - **Hugging Face** → 免费课程（Transformers、LLMs、Diffusion models、Agents）。
@@ -61,7 +61,7 @@ Answer:
 
 **专业建议 (2026)**：相比于收集证书，应更专注于**构建和部署真实的 Project**（GitHub + Vercel / Railway / Fly.io / Render）。比起课程完成徽章，公司更看重运行中的 RAG 应用、Agents、可扩展的 API 或代码整洁的 Full-stack 仓库。
 
-References:  
+References:
 
 - [Full Stack Open – University of Helsinki](https://fullstackopen.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)

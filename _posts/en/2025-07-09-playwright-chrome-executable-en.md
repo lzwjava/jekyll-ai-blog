@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Got it. You want to configure **Playwright** on Windows so that it launches a **specific Chrome executable** with certain **launch options** (like `headless: true`) directly in your `playwright.config.js`.  
+Got it. You want to configure **Playwright** on Windows so that it launches a **specific Chrome executable** with certain **launch options** (like `headless: true`) directly in your `playwright.config.js`.
 
 Here’s how you can do it:
 

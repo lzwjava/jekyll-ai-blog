@@ -18,7 +18,7 @@ type: note
 这些景点展现了广州作为贸易枢纽2200年的积淀，以及粤剧、建筑与节庆文化的源流。
 
 - **陈家祠**：19世纪建筑群，精美木雕、陶瓷与民间艺术展览堪称一绝。这里是了解宗族文化与广东工艺传统的绝佳窗口。（门票约10元；建议清晨前往避开人流）
-  
+
 - **沙面岛**：19世纪通商口岸时期的欧陆殖民建筑群。漫步林荫道，参观租界历史博物馆，感受东西方历史的交融。适合摄影与静思。
 
 - **永庆坊（荔湾区）**：活化后的老城街区，保留清代巷陌、茶楼与街头艺术。展现广州"骑楼寻水"城市典故与文创氛围，适合半日闲逛。
@@ -66,9 +66,9 @@ type: note
 
 建议从西部老城区（荔湾）开始历史探索，再向东至现代展馆（琶洲）。亲子游可增加长隆野生动物园，美食爱好者可延伸至夜市。广州属亚热带气候需轻装出行，虽然英语标识逐步完善，但推荐使用Pleco等应用辅助点餐。
 
-**参考来源**  
-- [Tripadvisor：2025年广州15大必游景点](https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html)  
-- [Culture Trip：广州24处必访地标](https://theculturetrip.com/asia/china/articles/20-must-visit-attractions-in-guangzhou)  
-- [广州市政府：创意产业园区指南](https://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/creativeindustryparks/index.html)  
-- [亚洲奥德赛旅行：粤菜美食指南](https://www.asiaodysseytravel.com/guangzhou/cantonese-food.html)  
+**参考来源**
+- [Tripadvisor：2025年广州15大必游景点](https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html)
+- [Culture Trip：广州24处必访地标](https://theculturetrip.com/asia/china/articles/20-must-visit-attractions-in-guangzhou)
+- [广州市政府：创意产业园区指南](https://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/creativeindustryparks/index.html)
+- [亚洲奥德赛旅行：粤菜美食指南](https://www.asiaodysseytravel.com/guangzhou/cantonese-food.html)
 - [Reddit：广交会完全指南](https://www.reddit.com/r/guangzhou/comments/1n8h3fq/complete_guide_to_canton_fair/)

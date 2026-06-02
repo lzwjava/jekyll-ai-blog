@@ -201,7 +201,7 @@ Black integrates seamlessly with editors and version control for automated forma
 ### Editors
 
 - **VS Code**: Use the Python extension with Black as formatter. Set `"python.formatting.provider": "black"` in settings.json. For LSP, install python-lsp-server and python-lsp-black.
-- **PyCharm/IntelliJ**: 
+- **PyCharm/IntelliJ**:
   - Built-in (2023.2+): Settings > Tools > Black, configure path.
   - External Tool: Settings > Tools > External Tools, add Black with `$FilePath$` argument.
   - File Watcher: For auto-format on save.

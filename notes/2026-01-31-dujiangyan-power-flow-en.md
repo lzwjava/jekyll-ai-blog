@@ -51,7 +51,7 @@ The "magnificent obedience" differs fundamentally from forced submission. Yu imp
 
 This becomes a metaphor for ideal governance and human development: People (like water) possess tremendous natural energy that should be:
 - Respected, not crushed
-- Guided, not imprisoned  
+- Guided, not imprisoned
 - Directed toward flourishing, not merely controlled for control's sake
 
 ## Literary Achievement

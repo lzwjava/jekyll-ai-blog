@@ -12,7 +12,7 @@ type: note
 This is a great real-life example of how a **smart doorbell** (like the Xiaomi Smart Doorbell) provides more than just security—it offers **peace of mind and situational awareness**. Let’s break down the story and analyze the key points where the smart bell proved useful.
 
 ### 📦 The Problem:
-You ordered a box of water, it wasn’t where you expected it to be, and the delivery guy claimed it was delivered in the morning.  
+You ordered a box of water, it wasn’t where you expected it to be, and the delivery guy claimed it was delivered in the morning.
 You had no memory of receiving it, so a **mystery** emerged.
 
 ### 🔍 The Investigation:
@@ -57,13 +57,13 @@ If your Xiaomi bell were integrated with something like:
 - **Cloud storage with person tagging**
 - **Smart notifications like “Package delivered - Wife at door”**
 
-It could have notified you immediately: “Hey, your wife received the package at 9:02 AM.”  
+It could have notified you immediately: “Hey, your wife received the package at 9:02 AM.”
 That way, you would have known where to look right away—without even needing to check the footage.
 
 ---
 
 ## 👍 Final Verdict
-You’re right to give **credit to the Xiaomi Smart Bell**.  
+You’re right to give **credit to the Xiaomi Smart Bell**.
 It acted not just as a security device, but as a **communication bridge** between you, your wife, and the delivery guy—solving a small household mystery efficiently.
 
 Would you like help setting up better notifications or automation for your Xiaomi bell to avoid situations like this in the future?

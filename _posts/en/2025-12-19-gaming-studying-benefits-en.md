@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about whether playing games and studying at the same time, such as using waiting times in mobile games like PUBG Mobile to study, has good benefits?
 
-Answer: 
+Answer:
 While the mainstream view (and the provided answer) emphasizes limited benefits for true downtime and warns against multitasking due to divided attention, here are several unpopular, contrarian ideas challenging that consensus. These draw from cognitive research, neurodiversity perspectives, and real-world anecdotes, arguing that gaming-study integration can be highly effective—or even superior—for learning, especially boring/difficult material. I've grouped them thematically.
 
 ### Gaming Trains "Real-World Multitasking" Better Than Single-Task Studying
@@ -32,9 +32,9 @@ While the mainstream view (and the provided answer) emphasizes limited benefits 
 
 **Conclusion**: These ideas flip the script—gaming-study fusion isn't a hack with "limited" upsides; it's a brain-optimizing superpower for modern life, backed by emerging research. Test it: Track retention with/without PUBG waits. If it works (as data suggests for many), ditch purist study myths.
 
-References:  
-- [Studies on gaming improving cognition and multitasking](https://pmc.ncbi.nlm.nih.gov/articles/PMC4834063/)  
-- [Gamers perform better cognitively](https://www.bloomberg.com/news/articles/2022-10-24/video-games-linked-to-better-cognitive-skills-in-brain-study)  
-- [Action games vs. media multitasking](https://www.researchgate.net/publication/353273828_The_effects_of_action_videogames_on_multitasking_abilities)  
-- [X post on gaming cognitive benefits](https://x.com/MarioNawfal/status/1863062998174085163)  
+References:
+- [Studies on gaming improving cognition and multitasking](https://pmc.ncbi.nlm.nih.gov/articles/PMC4834063/)
+- [Gamers perform better cognitively](https://www.bloomberg.com/news/articles/2022-10-24/video-games-linked-to-better-cognitive-skills-in-brain-study)
+- [Action games vs. media multitasking](https://www.researchgate.net/publication/353273828_The_effects_of_action_videogames_on_multitasking_abilities)
+- [X post on gaming cognitive benefits](https://x.com/MarioNawfal/status/1863062998174085163)
 - [X post on surgeons and gaming](https://x.com/GoBlue369/status/1868169210003865931)

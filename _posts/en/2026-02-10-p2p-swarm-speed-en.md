@@ -12,7 +12,7 @@ type: note
 
 Question: Why is BitTorrent download so fast, and why can P2P downloads easily exceed 10 MB/s?
 
-Answer: 
+Answer:
 
 BitTorrent (and modern P2P protocols in general) can achieve very high download speeds — often 10–100+ MB/s on good connections — because of how the protocol fundamentally works compared to classic direct (HTTP/FTP) downloads. Here's why it's often dramatically faster:
 
@@ -64,7 +64,7 @@ BitTorrent (and modern P2P protocols in general) can achieve very high download 
 
 **Bottom line**: BitTorrent is fast because it turns downloading into a massively parallel, cooperative process instead of depending on one central point. The protocol is specifically engineered to scale with the number of participants — the more people share, the faster everyone gets the file.
 
-References:  
+References:
 
 - [BitTorrent protocol specification (bittorrent.org)](http://bittorrent.org/beps/bep_0003.html)
 - [How BitTorrent Works (Cloudflare explanation)](https://www.cloudflare.com/learning/cdn/what-is-bittorrent/)

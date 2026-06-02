@@ -144,7 +144,7 @@ Here are some strong choices, prioritized by popularity and suitability for your
 - **Considerations**: These work cross-language since they use standard HTTP. For schema validation, add libraries like `jsonschema`. Run in CI/CD with tools like Jenkins or GitHub Actions.
 
 ### References
-[Top Python Testing Frameworks in 2025 You Should Switch To](https://medium.com/@hadiyolworld007/top-python-testing-frameworks-in-2025-you-should-switch-to-6ddeb679ccd5)  
-[10 Best Python Testing Frameworks To Look For In 2025](https://www.lambdatest.com/blog/top-python-testing-frameworks/)  
-[Top 14 Best Python Automation Tools for Testing in 2025](https://apidog.com/blog/best-python-testing-tools-2025/)  
+[Top Python Testing Frameworks in 2025 You Should Switch To](https://medium.com/@hadiyolworld007/top-python-testing-frameworks-in-2025-you-should-switch-to-6ddeb679ccd5)
+[10 Best Python Testing Frameworks To Look For In 2025](https://www.lambdatest.com/blog/top-python-testing-frameworks/)
+[Top 14 Best Python Automation Tools for Testing in 2025](https://apidog.com/blog/best-python-testing-tools-2025/)
 [The Best Open Source API Testing Tools for 2025](https://testguild.com/12-open-source-api-testing-tools-rest-soap-services/)

@@ -87,7 +87,7 @@ dmesg -w | grep -i "magic\|wol\|wake"
 | Confirm OS sees wake reason       | Event Viewer / dmesg                 | ★★★★☆      |
 | Full end-to-end test              | Capture while on → then sleep → wake | ★★★★★      |
 
-Most people find step 1 (packet capture while PC is on) the fastest way to answer:  
+Most people find step 1 (packet capture while PC is on) the fastest way to answer:
 "Is the magic packet even reaching the computer?"
 
 **References:**

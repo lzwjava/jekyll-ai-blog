@@ -61,7 +61,7 @@ FFmpeg 是一个综合性的多媒体框架，可以解码、编码、转码、�
     ```
 3. **自动化流媒体传输**：创建一个脚本以持续传输视频文件。
     ```sh
-    for ((;;)); do 
+    for ((;;)); do
         ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key;
         sleep 1;
     done

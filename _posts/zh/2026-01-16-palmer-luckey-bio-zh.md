@@ -26,7 +26,7 @@ Luckey 还因其独特的个人风格（经常穿着夏威夷衬衫、凉鞋，�
 
 他仍然是技术和国防领域一个极具影响力且充满争议的人物，将消费级创新根源与高风险的国家安全工作结合在了一起。
 
-References:  
+References:
 
 - [Palmer Luckey - Wikipedia](https://en.wikipedia.org/wiki/Palmer_Luckey)
 - [Palmer Luckey - Forbes Profile](https://www.forbes.com/profile/palmer-luckey)

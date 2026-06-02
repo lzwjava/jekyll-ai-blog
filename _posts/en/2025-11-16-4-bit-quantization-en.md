@@ -31,17 +31,17 @@ There are two major 4-bit approaches you commonly see today:
 #### QLoRA in more detail (the one people usually mean when they say “4-bit QLoRA”)
 QLoRA does four clever things at once:
 
-1. 4-bit NormalFloat (NF4) quantization  
+1. 4-bit NormalFloat (NF4) quantization
    - A special 4-bit data type optimized for normally distributed weights (most LLM weights are ≈ Gaussian after training).
    - Better than plain INT4; theoretically optimal for normally distributed data.
 
-2. Double quantization  
+2. Double quantization
    - Even the quantization constants (scaling factors) are quantized from FP16 → 8-bit, saving a few more MB.
 
-3. Paged optimizers  
+3. Paged optimizers
    - Optimizer states (AdamW moments) are stored in CPU RAM and paged to GPU with NVIDIA unified memory. Prevents OOM during training.
 
-4. LoRA adapters  
+4. LoRA adapters
    - Only trains small low-rank matrices (r=64 or less) while the base 4-bit model stays frozen.
 
 Result: You can fully fine-tune a 65B Llama/Mistral model on one 48 GB RTX A6000 or even a 70B model on a single 80 GB A100 with QLoRA, whereas normal full fine-tuning would need 8×A100s or more.

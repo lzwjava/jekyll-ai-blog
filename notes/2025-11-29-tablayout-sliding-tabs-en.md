@@ -12,8 +12,8 @@ type: note
 
 The correct answer is **A. TabLayout**.
 
-**Explanation**:  
-In Android development (especially with the AndroidX libraries), **TabLayout** is the class specifically designed to create sliding tab interfaces that work seamlessly with **ViewPager** or **ViewPager2**.  
+**Explanation**:
+In Android development (especially with the AndroidX libraries), **TabLayout** is the class specifically designed to create sliding tab interfaces that work seamlessly with **ViewPager** or **ViewPager2**.
 
 Typical setup:
 ```xml

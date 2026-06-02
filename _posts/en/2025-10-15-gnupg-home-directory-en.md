@@ -24,7 +24,7 @@ These files and directories are part of your GnuPG (GPG) home directory (`~/.gnu
 
 If you've recently generated or imported keys, this setup is normal. Always back up your entire `~/.gnupg/` directory securely, and never share private keys. For more details, check the official GnuPG docs.
 
-[Using the GNU Privacy Guard](https://www.gnupg.org/documentation/manuals/gnupg.pdf)  
-[GnuPG Part 2 - Create and Manage Keys](https://www.hacksanity.com/kb/gnupg-create-manage-keys/)  
-[How to Back Up and Restore Your GPG Keys on Linux](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)  
+[Using the GNU Privacy Guard](https://www.gnupg.org/documentation/manuals/gnupg.pdf)
+[GnuPG Part 2 - Create and Manage Keys](https://www.hacksanity.com/kb/gnupg-create-manage-keys/)
+[How to Back Up and Restore Your GPG Keys on Linux](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)
 [GPG(1) Manual](https://www.gnupg.org/(en)/documentation/manuals/gnupg24/gpg.1.html)

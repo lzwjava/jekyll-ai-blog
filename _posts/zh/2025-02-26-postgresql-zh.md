@@ -67,7 +67,7 @@ type: note
 ### 4. **高级功能**
 - **表连接**：
   ```sql
-  SELECT orders.id, users.name 
+  SELECT orders.id, users.name
   FROM orders
   INNER JOIN users ON orders.user_id = users.id;
   ```
@@ -80,7 +80,7 @@ type: note
   ```
 - **全文搜索**：
   ```sql
-  SELECT * FROM documents 
+  SELECT * FROM documents
   WHERE to_tsvector('english', content) @@ to_tsquery('search & term');
   ```
 

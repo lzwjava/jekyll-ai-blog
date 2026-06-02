@@ -12,7 +12,7 @@ type: note
 
 Question: How to keep employees motivated? It is really hard.
 
-Answer: 
+Answer:
 
 Keeping employees motivated is indeed challenging, but research and expert insights show it's achievable with consistent, targeted strategies. Motivation stems from fulfilling basic psychological needs like autonomy, competence, and relatedness, while addressing common demotivators such as lack of recognition, overload, or unclear purpose.
 
@@ -36,7 +36,7 @@ Here are proven ways to boost and maintain employee motivation:
 
 Start small: Survey your team on what motivates them, then implement 2-3 changes and track engagement. Consistency from leadership is key—lead by example.
 
-References:  
+References:
 
 - [How To Motivate Employees: 5 Data-Backed Tips for Managers](https://graduate.northeastern.edu/knowledge-hub/how-to-motivate-your-employees/)
 

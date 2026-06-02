@@ -66,6 +66,6 @@ Here are step-by-step fixes, starting with the simplest:
 
 If none of these work, share your `glxinfo` output or GPU details (`lspci | grep VGA`) for more tailored advice.
 
-[OpenGL Too Old Discussion](https://github.com/ghostty-org/ghostty/discussions/3159)  
-[Ghostty Ubuntu Builds](https://github.com/mkasberg/ghostty-ubuntu)  
+[OpenGL Too Old Discussion](https://github.com/ghostty-org/ghostty/discussions/3159)
+[Ghostty Ubuntu Builds](https://github.com/mkasberg/ghostty-ubuntu)
 [Ghostty Snap](https://snapcraft.io/ghostty)

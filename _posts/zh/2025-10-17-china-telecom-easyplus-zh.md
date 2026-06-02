@@ -24,7 +24,7 @@ type: note
    - **3澳门元/日套餐**（增强流量，适合中度视频播放或导航）：
      - 编辑短信内容**903**发送至**1888**
      - 费用：从余额扣除3澳门元，激活后24小时内有效
-   
+
    成功激活后将收到1888的确认短信。流量可在澳门、中国大陆及香港共享使用（漫游合作商：澳门CTM、中国移动/联通、香港CSL）。高速流量用尽后可能降速（例如使用1-2GB后）。
 
 4. **余额充值**：若余额不足，可通过自动售卡机、CTM门店或CTM Buddy等应用充值。最低充值金额通常为10-50澳门元，充值后可延长180天有效期。
@@ -44,6 +44,6 @@ type: note
 
 此方案可显著降低短期旅行成本——例如每日仅需2澳门元即可满足基本用网需求。
 
-[中国澳门电信手机号码SIM卡](https://www.lazada.sg/products/china-macau-telecom-sim-card-with-phone-number-i3002462352.html)  
-[移动数据服务问答（澳门电信管理局）](https://telecommunications.ctt.gov.mo/web/images/specialtopics/eng/tipsformobiledataservice/pdf/MobileDataServiceProtectionFaq.pdf)  
+[中国澳门电信手机号码SIM卡](https://www.lazada.sg/products/china-macau-telecom-sim-card-with-phone-number-i3002462352.html)
+[移动数据服务问答（澳门电信管理局）](https://telecommunications.ctt.gov.mo/web/images/specialtopics/eng/tipsformobiledataservice/pdf/MobileDataServiceProtectionFaq.pdf)
 [CTM内地-香港-澳门预付卡](https://www.ctm.net/en-US/person/T31-010010010120050/20209/3a8c9e8482394d0e96e2a1d71cd2eace.html)

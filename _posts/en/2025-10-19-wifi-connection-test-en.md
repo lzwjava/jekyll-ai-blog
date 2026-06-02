@@ -30,7 +30,7 @@ def test_wifi_connection(ssid, password="88888888", timeout=30):
         return False, "No WiFi interface available"
     interface = interfaces[0]  # Use first available interface
     con_name = f"test-{ssid}"  # Unique name for the test profile
-    
+
     # Commands
     delete_cmd = f"nmcli connection delete '{con_name}'"
     add_cmd = (
@@ -41,18 +41,18 @@ def test_wifi_connection(ssid, password="88888888", timeout=30):
     )
     up_cmd = f"nmcli connection up '{con_name}'"
     disconnect_cmd = f"nmcli device disconnect {interface}"
-    
+
     try:
         # Delete any existing profile (suppress errors if missing)
         subprocess.run(delete_cmd, shell=True, capture_output=True, timeout=5)
         time.sleep(1)
-        
+
         # Create new profile with embedded password (non-interactive)
         add_result = subprocess.run(add_cmd, shell=True, capture_output=True, text=True, timeout=10)
         if add_result.returncode != 0:
             error = add_result.stderr.strip() or add_result.stdout.strip() or "Failed to create connection profile"
             return False, f"Profile creation error: {error}"
-        
+
         # Activate the profile (non-interactive)
         up_result = subprocess.run(up_cmd, shell=True, capture_output=True, text=True, timeout=timeout)
         if up_result.returncode != 0:
@@ -62,10 +62,10 @@ def test_wifi_connection(ssid, password="88888888", timeout=30):
             elif "activation failed" in error.lower():
                 error = f"Connection activation failed: {error}"
             return False, f"nmcli error: {error}"
-        
+
         # Wait for stabilization
         time.sleep(2)
-        
+
         # Test internet with ping
         ping_test = subprocess.run("ping -c 1 -W 3 8.8.8.8", shell=True, capture_output=True, text=True, timeout=5)
         if ping_test.returncode == 0:
@@ -73,7 +73,7 @@ def test_wifi_connection(ssid, password="88888888", timeout=30):
         else:
             error = ping_test.stderr.strip() or "Ping failed"
             return False, f"Connected but no internet: {error}"
-        
+
     except subprocess.TimeoutExpired:
         return False, f"Operation timeout after {timeout} seconds"
     except subprocess.SubprocessError as e:

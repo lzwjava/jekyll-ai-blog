@@ -12,7 +12,7 @@ type: note
 
 Question: What are serial links in networking?
 
-Answer: 
+Answer:
 
 In computer networking, **serial links** refer to point-to-point connections that transmit data one bit at a time sequentially over a single channel, as opposed to parallel links that send multiple bits simultaneously.
 
@@ -29,7 +29,7 @@ In computer networking, **serial links** refer to point-to-point connections tha
 ### Modern Relevance
 While serial links were standard for WANs in the past (common in CCNA/CCNP studies and older deployments), they are largely replaced today by Ethernet handoffs, Metro Ethernet, MPLS, or fiber-based services for higher speeds and easier management. They still appear in legacy systems, industrial controls, console access (RS-232), or niche low-speed applications.
 
-References:  
+References:
 
 - [Serial communication - Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
 - [What's the difference between Ethernet link and Serial link? - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/55016/whats-the-difference-between-ethernet-link-and-serial-link)

@@ -81,7 +81,7 @@ type: note
 
 这些技术推动了灵巧机器人技术的普及：过去需要多年工程开发的任务，现在仅需数十次人类演示即可完成。随着Open X-Embodiment等数据集扩张和Figure 01、特斯拉Optimus等人形机器人硬件进步，具身智能正在快速迈向能够胜任现实世界任务的通用机器人。
 
-[Diffusion Policy项目页](https://diffusion-policy.cs.columbia.edu/)  
-[RT-2技术公告](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/)  
-[ALOHA/ACT论文](https://tonyzhaozh.github.io/aloha/)  
+[Diffusion Policy项目页](https://diffusion-policy.cs.columbia.edu/)
+[RT-2技术公告](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/)
+[ALOHA/ACT论文](https://tonyzhaozh.github.io/aloha/)
 [Open X-Embodiment数据集](https://robotics-transformer-x.github.io/)

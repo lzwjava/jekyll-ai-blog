@@ -30,8 +30,8 @@ type: post
 
 ## Pixel 的 USB 选项
 
-<div style="text-align: center;">  
-    <img class="responsive" src="/assets/images/pixel/pixel.jpg" alt="Pixel" width="50%" />  
+<div style="text-align: center;">
+    <img class="responsive" src="/assets/images/pixel/pixel.jpg" alt="Pixel" width="50%" />
 </div>
 
 Pixel 提供了多种 USB 选项，其中一个特别有趣的功能是它能够充当网络摄像头。在 macOS 上，QuickTime 可以将 Android 网络摄像头作为视频源访问，提供了一个简单而有效的解决方案。

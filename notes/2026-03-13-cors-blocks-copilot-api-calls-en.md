@@ -27,7 +27,7 @@ CORS is a browser-enforced security mechanism that blocks requests from differen
 
 ### 2. Why `api.githubcopilot.com` Blocks Custom Origins
 
-The official GitHub Copilot web chat is hosted at `github.com/copilot/...`. GitHub's API servers are configured to only allow specific, trusted origins (like `github.com` itself) in the `Access-Control-Allow-Origin` response header. 
+The official GitHub Copilot web chat is hosted at `github.com/copilot/...`. GitHub's API servers are configured to only allow specific, trusted origins (like `github.com` itself) in the `Access-Control-Allow-Origin` response header.
 
 When your custom web portal (e.g., `http://localhost:3000` or `https://mycustomapp.com`) sends a `fetch()` request to `https://api.githubcopilot.com/chat/completions`, the browser performs a **preflight OPTIONS request** first. If GitHub's server does not respond with an `Access-Control-Allow-Origin` that matches your custom origin, the browser will block the response entirely.
 

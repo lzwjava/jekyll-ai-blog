@@ -18,21 +18,21 @@ HashiCorp Vault and Terraform `.tfvars` files serve similar purposes (providing 
 
 ### Relationship between HashiCorp Vault and tfvars
 
-- **terraform.tfvars / *.auto.tfvars / custom.tfvars**  
-  These are plain-text (or occasionally JSON) files that supply values to Terraform variables.  
-  - Very convenient for development and small teams.  
-  - Very **dangerous** for production secrets — they are easily committed to git, leaked in CI logs, or stored insecurely.  
+- **terraform.tfvars / *.auto.tfvars / custom.tfvars**
+  These are plain-text (or occasionally JSON) files that supply values to Terraform variables.
+  - Very convenient for development and small teams.
+  - Very **dangerous** for production secrets — they are easily committed to git, leaked in CI logs, or stored insecurely.
   - Even when `.tfvars` is gitignored and passed via CI, long-lived secrets remain a risk.
 
-- **HashiCorp Vault**  
-  A dedicated secrets management system offering:  
-  - Centralized storage + strong access control (policies, auth methods)  
-  - **Dynamic secrets** (short-lived credentials that auto-expire)  
-  - Automatic rotation & leasing  
-  - Audit logging  
+- **HashiCorp Vault**
+  A dedicated secrets management system offering:
+  - Centralized storage + strong access control (policies, auth methods)
+  - **Dynamic secrets** (short-lived credentials that auto-expire)
+  - Automatic rotation & leasing
+  - Audit logging
   - Versioning of secrets (in some engines)
 
-**Summary comparison**  
+**Summary comparison**
 | Aspect              | .tfvars files                          | HashiCorp Vault                              | Recommendation          |
 |---------------------|----------------------------------------|----------------------------------------------|--------------------------|
 | Security            | Low–Medium (depends on handling)       | High (enterprise-grade)                      | Vault for prod secrets  |
@@ -42,8 +42,8 @@ HashiCorp Vault and Terraform `.tfvars` files serve similar purposes (providing 
 | Ease for dev        | Very easy                              | Requires setup + auth                        | tfvars for local dev    |
 | Git safety          | Risky (even gitignored)                | Never stored in repo                         | Vault                   |
 
-Best practice in 2025–2026:  
-Use `.tfvars` → only for **non-sensitive** or **local development** values.  
+Best practice in 2025–2026:
+Use `.tfvars` → only for **non-sensitive** or **local development** values.
 Use **Vault** → for all real secrets in CI/CD pipelines and production.
 
 ### How to integrate Terraform with HashiCorp Vault
@@ -116,7 +116,7 @@ Many teams now prefer **Vault + Terraform Cloud/Enterprise dynamic provider cred
 
 **Never** put real secrets in `.tfvars` files checked into version control or long-lived in CI variables. Vault is currently (2026) one of the strongest and most Terraform-native solutions for secrets.
 
-**References:**  
+**References:**
 
 - [Vault Provider - Terraform Registry](https://registry.terraform.io/providers/hashicorp/vault/latest/docs)
 - [Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault)

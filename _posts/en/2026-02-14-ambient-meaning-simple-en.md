@@ -16,8 +16,8 @@ type: note
 
 **Ambient** means:
 
-1. **Relating to the surrounding area or atmosphere**  
-   → existing in, or relating to, the immediate surroundings  
+1. **Relating to the surrounding area or atmosphere**
+   → existing in, or relating to, the immediate surroundings
    Common everyday usage
 
    Examples:
@@ -25,7 +25,7 @@ type: note
    - ambient noise = background noise in an environment
    - ambient lighting = soft, general lighting (not direct/spotlight)
 
-2. **Ambient music / ambient genre**  
+2. **Ambient music / ambient genre**
    A style of music that:
    - creates atmosphere
    - is usually slow, calm, atmospheric
@@ -48,6 +48,6 @@ type: note
 | Science / technology | normal surrounding conditions                      | ambient pressure, ambient humidity      |
 | Product marketing    | soft, non-intrusive, environmental                 | ambient scent, ambient experience       |
 
-**References:**  
+**References:**
 
 - None (common word definitions, no specific source required)

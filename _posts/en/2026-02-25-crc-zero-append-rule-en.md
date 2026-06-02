@@ -11,7 +11,7 @@ type: note
 
 Question: When using CRC校验 (Cyclic Redundancy Check) with a generator polynomial bit string of 11001, how many zeros must be appended to the end of the information bit string before performing polynomial division over GF(2) to calculate the CRC redundancy bits?
 
-Answer: 
+Answer:
 
 The correct answer is **C (4)**.
 

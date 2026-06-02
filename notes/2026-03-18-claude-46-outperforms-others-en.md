@@ -29,8 +29,8 @@ The "sometimes" part is important: for fast, straightforward tasks (simple funct
 
 In short, it's not that other models are "bad"—they're just optimized differently. Claude Sonnet 4.6 and Opus 4.6 represent a generational leap specifically engineered for the hardest coding challenges.
 
-**References:**  
-- [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)  
-- [Introducing Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)  
-- [Claude Sonnet 4.6 vs Gemini 3 Flash comparison](https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gemini-3-flash-ai-model-comparison-2026)  
+**References:**
+- [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)
+- [Introducing Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)
+- [Claude Sonnet 4.6 vs Gemini 3 Flash comparison](https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gemini-3-flash-ai-model-comparison-2026)
 - [Claude Opus 4.6 vs Sonnet 4.6 Coding Comparison](https://dev.to/tensorlake/claude-opus-46-vs-sonnet-46-coding-comparison-55jn)

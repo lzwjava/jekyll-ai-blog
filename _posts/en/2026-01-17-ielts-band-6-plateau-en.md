@@ -12,7 +12,7 @@ type: note
 
 Question: Why do people get stuck at IELTS band 5 or 6 and never reach band 7 or 8?
 
-Answer: 
+Answer:
 
 Many test-takers reach **IELTS band 5–6** (roughly intermediate to upper-intermediate level) relatively quickly but then plateau and struggle to break through to **band 7+** (good to very good user level). This happens because band 7 requires noticeably higher proficiency, more precision, and different habits than band 6. Here are the most common reasons people remain stuck:
 
@@ -55,7 +55,7 @@ Many test-takers reach **IELTS band 5–6** (roughly intermediate to upper-inter
 
 Reaching band 7–8 usually requires hundreds of hours of deliberate practice beyond the initial “quick gains” phase. Many people do eventually break through when they treat IELTS as a test of real English ability rather than just exam strategy.
 
-References:  
+References:
 
 - [Keith Speaking Academy: IELTS Speaking from 6 to 7](https://keithspeakingacademy.com/ielts-speaking-band-6-to-band-7-stuck)
 - [My IELTS Classroom: Why so many students stuck at 6.5 Writing](https://blog.myieltsclassroom.com/6-5-for-ielts-writing)

@@ -43,7 +43,7 @@ Kimi Linear并非MLA的直接替代品，而是作为混合架构在其基础上
 
 总体而言，Kimi Linear代表了向"混合注意力"的演进方向，通过融合线性可扩展性与潜在压缩技术，为下一代长上下文模型铺平道路。对硬件资源受限的开源部署场景尤其具有应用前景。
 
-**参考资料**  
-- [Hugging Face上的Kimi-Linear模型集](https://huggingface.co/collections/moonshotai/kimi-linear)  
-- [Reddit关于Kimi Linear发布的讨论](https://www.reddit.com/r/LocalLLaMA/comments/1ojzekg/moonshotaikimilinear48ba3binstruct_hugging_face/)  
+**参考资料**
+- [Hugging Face上的Kimi-Linear模型集](https://huggingface.co/collections/moonshotai/kimi-linear)
+- [Reddit关于Kimi Linear发布的讨论](https://www.reddit.com/r/LocalLLaMA/comments/1ojzekg/moonshotaikimilinear48ba3binstruct_hugging_face/)
 - [门控DeltaNet论文（KDA理论基础）](https://arxiv.org/abs/2412.06464)

@@ -36,7 +36,7 @@ Through these portraits, Huang shows how 1587's events—like debates over the h
 
 #### Major Themes
 - **Bureaucratic Overload**: The Ming's civil service exam system produced millions of educated officials, but the hierarchy was too fragmented. Decisions required endless consensus, leading to gridlock. Huang contrasts this with Europe's emerging nation-states, which could mobilize resources more flexibly.
-  
+
 - **Fiscal and Military Decay**: Taxes were collected inefficiently (e.g., via the "single-whip" reform, which Zhang pushed but was later reversed). The army was large but poorly equipped, relying on hereditary soldiers who were often ineffective.
 
 - **Cultural Conservatism**: Neo-Confucian ideology emphasized moral rectitude over empirical problem-solving. Huang argues this made China excellent at maintaining stability but terrible at innovation, foreshadowing its lag behind the West.
@@ -48,6 +48,6 @@ As an American Chinese scholar, Huang blends Western historical methods (e.g., s
 
 The book is concise (~200 pages) and influential, inspiring works like Jonathan Spence's microhistories. It's a must-read for understanding why a superpower like Ming China faltered.
 
-[1587, A Year of No Significance on Goodreads](https://www.goodreads.com/book/show/139404.1587_A_Year_of_No_Significance)  
-[Ray Huang's Wikipedia entry](https://en.wikipedia.org/wiki/Ray_Huang)  
+[1587, A Year of No Significance on Goodreads](https://www.goodreads.com/book/show/139404.1587_A_Year_of_No_Significance)
+[Ray Huang's Wikipedia entry](https://en.wikipedia.org/wiki/Ray_Huang)
 [Book review in The New York Review of Books](https://www.nybooks.com/articles/1982/04/29/the-ming-dynasty-in-1587/)

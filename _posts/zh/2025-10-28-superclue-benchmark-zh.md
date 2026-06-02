@@ -24,6 +24,6 @@ SuperCLUE 是一个综合性基准测试套件，旨在评估中文大语言模�
 
 该基准测试为开源项目并持续维护，评估结果常通过arXiv论文和GitHub平台共享。
 
-[SuperCLUE：综合性中文大语言模型基准](https://arxiv.org/abs/2307.15020)  
-[SuperCLUE GitHub仓库](https://github.com/CLUEbenchmark/SuperCLUE)  
+[SuperCLUE：综合性中文大语言模型基准](https://arxiv.org/abs/2307.15020)
+[SuperCLUE GitHub仓库](https://github.com/CLUEbenchmark/SuperCLUE)
 [ChinAI：SuperCLUE基准——2025年中阶段性评估](https://chinai.substack.com/p/chinai-324-superclue-large-model)

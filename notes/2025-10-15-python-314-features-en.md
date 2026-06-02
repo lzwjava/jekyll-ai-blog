@@ -38,6 +38,6 @@ Other notable improvements include better error messages (e.g., keyword suggesti
 
 For full details, check the official release notes.
 
-[What's new in Python 3.14](https://docs.python.org/3/whatsnew/3.14.html)  
-[Python 3.14 Release](https://www.python.org/downloads/release/python-3140/)  
+[What's new in Python 3.14](https://docs.python.org/3/whatsnew/3.14.html)
+[Python 3.14 Release](https://www.python.org/downloads/release/python-3140/)
 [Real Python: New Features](https://realpython.com/python314-new-features/)

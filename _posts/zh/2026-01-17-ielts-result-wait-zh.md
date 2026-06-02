@@ -12,7 +12,7 @@ type: note
 
 Question: Since my IELTS Academic test in Guangzhou was computer-based, how many days do I need to wait for the results?
 
-Answer: 
+Answer:
 
 对于 **computer-delivered IELTS**（也称为 IELTS on computer），其成绩公布速度比纸笔考试版本快得多。
 
@@ -28,7 +28,7 @@ Answer:
 
 祝你好运 —— 祝你顺利取得 6.5 或 7.0 分！
 
-References:  
+References:
 
 - [Official IELTS computer-delivered results timeline](https://takeielts.britishcouncil.org/take-ielts/book/ielts-on-computer/results)
 - [IDP IELTS computer-based results information](https://ielts.idp.com/about/results)

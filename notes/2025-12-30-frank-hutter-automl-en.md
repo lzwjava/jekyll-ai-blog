@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to Frank Hutter in machine learning
 
-Answer: 
+Answer:
 
 Frank Hutter is a prominent German computer scientist and one of the leading figures in the field of **Automated Machine Learning (AutoML)**. He is widely recognized for pioneering methods that automate the design and optimization of machine learning pipelines, making advanced ML more accessible and efficient.
 
@@ -46,7 +46,7 @@ Awards and honors include:
 
 His work has democratized machine learning, enabling non-experts to achieve state-of-the-art performance and pushing toward more automated, efficient, and trustworthy AI systems.
 
-References:  
+References:
 
 - [Frank Hutter's Lab Profile at University of Freiburg](https://ml.informatik.uni-freiburg.de/profile/hutter/)
 - [Frank Hutter on Wikipedia](https://en.wikipedia.org/wiki/Frank_Hutter)

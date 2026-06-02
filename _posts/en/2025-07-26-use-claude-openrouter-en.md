@@ -107,8 +107,8 @@ print(data['choices'][0]['message']['content'])
 
 This setup lets you use Claude programmatically without direct Anthropic access. If you need integration with specific tools (e.g., Cursor IDE or Make.com), search for tutorials on those.
 
-References:  
-[OpenRouter Documentation](https://openrouter.ai/docs)  
-[Anthropic Claude on OpenRouter](https://openrouter.ai/anthropic/claude-3.5-sonnet)  
-[Using OpenRouter in China](https://medium.com/ai-simplified-in-plain-english/not-re-inventing-the-wheel-in-ai-2ec3e76ae2bd)  
+References:
+[OpenRouter Documentation](https://openrouter.ai/docs)
+[Anthropic Claude on OpenRouter](https://openrouter.ai/anthropic/claude-3.5-sonnet)
+[Using OpenRouter in China](https://medium.com/ai-simplified-in-plain-english/not-re-inventing-the-wheel-in-ai-2ec3e76ae2bd)
 [How to Use Claude in China](https://www.comparitech.com/blog/vpn-privacy/how-to-use-claude-in-china/)

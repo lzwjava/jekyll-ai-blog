@@ -12,7 +12,7 @@ type: note
 
 Question: Do international banks and corporations have a lot of employee leave or office closures around Christmas?
 
-Answer: 
+Answer:
 
 Yes, there is typically a significant amount of employee leave and reduced activity around Christmas in international banks and multinational corporations, though it varies by country, company policy, and sector.
 
@@ -29,12 +29,12 @@ Yes, there is typically a significant amount of employee leave and reduced activ
 
 Overall, the period from mid-December to early January features reduced operations in many international banks and corps, with "a lot of leave" being standard to align with cultural expectations and low business volume.
 
-References:  
+References:
 
-- https://www.officeholidays.com/  
-- https://www.frbservices.org/about/holiday-schedules  
-- https://www.levro.com/blog/bank-holiday-payment-delays  
-- https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/  
-- https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/  
-- https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years  
+- https://www.officeholidays.com/
+- https://www.frbservices.org/about/holiday-schedules
+- https://www.levro.com/blog/bank-holiday-payment-delays
+- https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/
+- https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/
+- https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years
 - https://www.efinancialcareers.com/news/investment-bank-christmas-parties

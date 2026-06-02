@@ -11,7 +11,7 @@ type: note
 
 Question: How is Wang Qi's level among global white-hat hacker communities? Who has a better reputation than him?
 
-Answer: 
+Answer:
 
 Wang Qi (also known as Daniel Wang or 大蛙子) holds a **very high level** in the global white-hat hacker community, particularly in the domains of vulnerability research, exploit development, and offensive security during the 2010s. He founded and led Keen Team (later evolving into DarkNavy), which was one of the most successful teams at Pwn2Own — widely regarded as the premier "Olympics" of ethical hacking. Under his leadership, the team achieved notable wins and high placements by discovering and responsibly disclosing zero-day vulnerabilities in major systems like Apple's Safari, Windows, Adobe Flash, iOS, and even demonstrating exploits on devices such as Tesla cars.
 
@@ -38,9 +38,9 @@ Wang Qi stands out for his role in building a top-tier team and fostering a hack
 
 Overall, Wang Qi is elite-tier in vulnerability research and community leadership, especially for his era, but the global white-hat scene is competitive with many talented researchers achieving similar or greater visibility through personal achievements.
 
-References:  
-- https://www.vice.com/en/article/meet-the-keen-team/  
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html  
-- https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows  
-- https://en.wikipedia.org/wiki/Pwn2Own  
+References:
+- https://www.vice.com/en/article/meet-the-keen-team/
+- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
+- https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows
+- https://en.wikipedia.org/wiki/Pwn2Own
 - https://www.scmp.com/lifestyle/article/1844014/not-all-hackers-are-bad-look-world-chinese-white-hats

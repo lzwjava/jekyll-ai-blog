@@ -12,7 +12,7 @@ type: note
 
 Question: What are serial links in networking?
 
-Answer: 
+Answer:
 
 在 computer networking 中，**serial links**（串行链路）是指点对点（point-to-point）连接，它们在单个通道上按顺序一次传输一个 bit，与之相对的是同时发送多个 bit 的 parallel links。
 
@@ -32,7 +32,7 @@ Answer:
 
 虽然 serial links 过去是 WANs 的标准（在 CCNA/CCNP 学习和旧部署中很常见），但如今它们在很大程度上已被 Ethernet handoffs、Metro Ethernet、MPLS 或基于 fiber 的服务所取代，以实现更高的速度和更简单的管理。它们仍然出现在 legacy systems、工业控制、console access (RS-232) 或特定的低速应用中。
 
-References:  
+References:
 
 - [Serial communication - Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
 - [What's the difference between Ethernet link and Serial link? - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/55016/whats-the-difference-between-ethernet-link-and-serial-link)

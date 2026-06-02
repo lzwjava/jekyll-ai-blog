@@ -47,5 +47,5 @@ The novel chronicles the gradual decline and eventual collapse of a once extreme
 
 In short: If someone can only read **one** traditional Chinese novel in their lifetime, most Chinese scholars and serious readers would recommend *Dream of the Red Chamber*.
 
-References:  
+References:
 - None (general literary knowledge)

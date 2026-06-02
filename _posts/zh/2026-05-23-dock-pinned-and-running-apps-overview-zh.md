@@ -11,7 +11,7 @@ type: note
 
 已完成。以下是新增内容：
 
-创建：/Users/lzwjava/projects/ww/ww/macos/dock.py  
+创建：/Users/lzwjava/projects/ww/ww/macos/dock.py
 修改：/Users/lzwjava/projects/ww/ww/main.py
 
 `ww macos dock` 会读取 Dock 的 plist 文件（~/Library/Preferences/com.apple.dock.plist），并以以下格式显示所有固定的应用：

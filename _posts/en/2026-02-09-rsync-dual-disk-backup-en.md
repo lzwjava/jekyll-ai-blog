@@ -117,7 +117,7 @@ Then run: `bash backup.sh`
 
 This gives you two separate, up-to-date backups — rotate them (e.g. keep one offsite) for better protection.
 
-**References:**  
+**References:**
 
 - [https://apple.stackexchange.com/questions/224747/using-rsync-to-backup](https://apple.stackexchange.com/questions/224747/using-rsync-to-backup)
 - [https://deepakness.com/blog/ext-hdd-backup](https://deepakness.com/blog/ext-hdd-backup)

@@ -69,7 +69,7 @@ Self-attention 机制本身并不会按顺序处理序列数据 —— 它将输
 
 原始论文使用正弦 (Sine) 和余弦 (Cosine) 函数来为每个输入 Vector 计算一个值：
 
-`PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`  
+`PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`
 `PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))`
 
 不同的维度以不同的频率振荡，为每个位置提供了一个**独一无二的指纹向量 (Fingerprint vector)**，模型可以学习并读取它。

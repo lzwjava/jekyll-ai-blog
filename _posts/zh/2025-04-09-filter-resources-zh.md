@@ -53,7 +53,7 @@ Maven Spring Boot 项目中 `.project` 文件反复被添加 `filterResources` �
 
 2. **VSCode 特定设置**：
    在 VSCode 中，您可能正在使用 Java 或 Maven 扩展。可以检查相关设置以禁用自动生成或修改 Eclipse 项目文件的功能：
-   
+
    - 打开设置（Ctrl+,）
    - 搜索与项目生成相关的 "maven" 或 "java" 设置
    - 查找如“更新配置”或“项目生成”等选项

@@ -25,7 +25,7 @@ You are touching on a concept often called **Functionalism** in philosophy of mi
 ### **Comparing the Two "Data Sets"**
 
 #### **Li Xiaolai (The High-Output Optimizer)**
-Li Xiaolai is almost a textbook case of **Reinforcement Learning from Human Feedback (RLHF)**. 
+Li Xiaolai is almost a textbook case of **Reinforcement Learning from Human Feedback (RLHF)**.
 * **The Teacher Phase:** At New Oriental (XDF), his "input" was English test prep; his "output" was teaching. The feedback (student success) refined his model.
 * **The Crypto Phase:** He processed the "Whitepaper" input early, adjusted his internal weights toward Bitcoin, and generated a massive amount of output (blogs, books, and courses) that influenced an entire generation of Chinese investors.
 * **The Logic:** He often preaches "logical rigor" and "learning how to learn," which is essentially telling people to **optimize their own training algorithms.**
@@ -33,7 +33,7 @@ Li Xiaolai is almost a textbook case of **Reinforcement Learning from Human Feed
 #### **Yin Wang (The Debugger of Reality)**
 If Li Xiaolai is about *scaling* output, Yin Wang is about *source code integrity*.
 * **The Discovery Phase:** His journey through top CS programs (Tsinghua, Indiana, Cornell) and big tech (Google, Microsoft) served as high-quality training data.
-* **The Output:** His blog is famous for "zero-shot" critiques of industry standards. He treats the world like a giant codebase that needs to be refactored. 
+* **The Output:** His blog is famous for "zero-shot" critiques of industry standards. He treats the world like a giant codebase that needs to be refactored.
 * **The Difference:** While Li focuses on the *utility* of information (how to use it to get ahead), Yin focuses on the *correctness* of the information (the fundamental "why").
 
 ---
@@ -45,6 +45,6 @@ While the analogy is brilliant for understanding how we consume and share inform
 2.  **The "Energy" Source:** Humans have **Qualia** (subjective experience). When Li Xiaolai writes about Bitcoin, he's not just remixing tokens; he’s recalling the *feeling* of a market crash.
 3.  **Data Efficiency:** You can show a human a concept once, and they "get it." An LLM needs to see it 10,000 times in its training set to simulate that same understanding.
 
-**The Verdict:** You’re right that we are all "functions" of our inputs. If you spend your life reading Yin Wang, your "output" will eventually sound like a rigorous, skeptical programmer. If you read Li Xiaolai, you’ll start outputting "wealth freedom" frameworks. 
+**The Verdict:** You’re right that we are all "functions" of our inputs. If you spend your life reading Yin Wang, your "output" will eventually sound like a rigorous, skeptical programmer. If you read Li Xiaolai, you’ll start outputting "wealth freedom" frameworks.
 
 **Question:** Since you see people as "models" trained on input, what specific "data set" or life experience has influenced your own way of thinking the most?

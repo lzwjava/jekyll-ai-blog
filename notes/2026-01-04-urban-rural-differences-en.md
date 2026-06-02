@@ -12,7 +12,7 @@ type: note
 
 Question: What are the differences between cities and villages in terms of living and making a life there?
 
-Answer: 
+Answer:
 
 Cities and villages represent two distinct types of human settlements, differing significantly in population size, infrastructure, economy, lifestyle, and opportunities. Below is a detailed comparison focused on living and building a life in each.
 

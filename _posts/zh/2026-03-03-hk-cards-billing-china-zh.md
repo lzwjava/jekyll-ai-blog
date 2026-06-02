@@ -11,7 +11,7 @@ type: note
 
 **问题**：作为中国大陆公民，在使用在香港持入境许可开设的 ZA Card Visa 或 HSBC HK Mastercard 进行在线缴费时，应该使用中国大陆地址（广州）还是香港地址？我一直使用大陆地址，没有问题。
 
-**回答**：  
+**回答**：
 
 对于 **ZA Card (ZA Bank 的 Visa 借记卡)** 和 **HSBC Hong Kong Mastercard**（或借记 Mastercard），在线支付时输入的 **billing address** 最好与卡片和银行记录关联的地址匹配，以最小化因地址验证系统 (AVS) 检查导致交易被拒的风险。
 
@@ -27,7 +27,7 @@ type: note
 
 总之，您当前使用大陆地址的做法没问题，对于持有这些香港发行卡的中国大陆公民很常见有效。
 
-**参考资料**：  
+**参考资料**：
 
 - [ZA Bank 官网](https://bank.za.group/en)
 - [ZA Bank 访客开户 FAQ](https://bank.za.group/en/faqs/Individuals/Account_opening/Open_an_account_for_a_visitor_in_HongKong/66503e50b359be4a195230e7)

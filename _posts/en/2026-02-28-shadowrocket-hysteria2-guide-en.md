@@ -11,7 +11,7 @@ type: note
 
 Question: How to use Shadowrocket on iOS to connect to a Hysteria 2 proxy server?
 
-Answer: 
+Answer:
 
 **Shadowrocket** is a popular paid iOS app (available on the App Store) that supports **Hysteria 2** as a protocol since version **2.2.35** (and later). As of 2026, it works reliably for connecting to Hysteria 2 servers.
 
@@ -71,7 +71,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 - Or: In Shadowrocket → + → Import from Clipboard (or Scan QR if you have a QR code).
 
 ### Common Tips & Troubleshooting
-- **Connection fails?** 
+- **Connection fails?**
   - Double-check UDP 443 is not blocked (test server reachability with another client like sing-box desktop).
   - Ensure SNI matches exactly (case-sensitive).
   - If using self-signed cert: enable "Allow Insecure" / insecure=1 in URI or toggle insecure in app.
@@ -82,7 +82,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 
 This setup gives excellent performance and strong censorship resistance on iOS.
 
-References:  
+References:
 
 - [Hysteria 2 Official - 3rd-party Apps](https://v2.hysteria.network/docs/getting-started/3rd-party-apps)
 - [GitHub Discussion - Hysteria2 with Shadowrocket](https://github.com/apernet/hysteria/discussions/1325)

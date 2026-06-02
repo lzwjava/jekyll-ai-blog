@@ -12,7 +12,7 @@ type: note
 
 Question: What are the working principles and main functions of routers, including understanding routing protocols like RIP and OSPF, and mastering static routing, dynamic routing technologies, and route redistribution?
 
-Answer: 
+Answer:
 
 # Lecture: Routers, Routing Principles, Protocols, and Technologies
 
@@ -152,14 +152,14 @@ Mastering routers involves understanding how they forward packets using routing 
 
 This knowledge forms the foundation for designing reliable, efficient networks.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Router_(computing)  
-- https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/how-does-a-router-work.html  
-- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/  
-- https://en.wikipedia.org/wiki/Routing_Information_Protocol  
-- https://www.techtarget.com/searchnetworking/definition/OSPF-Open-Shortest-Path-First  
-- https://en.wikipedia.org/wiki/Open_Shortest_Path_First  
-- https://www.geeksforgeeks.org/computer-networks/difference-between-static-and-dynamic-routing/  
-- https://en.wikipedia.org/wiki/Route_redistribution  
+- https://en.wikipedia.org/wiki/Router_(computing)
+- https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/how-does-a-router-work.html
+- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/
+- https://en.wikipedia.org/wiki/Routing_Information_Protocol
+- https://www.techtarget.com/searchnetworking/definition/OSPF-Open-Shortest-Path-First
+- https://en.wikipedia.org/wiki/Open_Shortest_Path_First
+- https://www.geeksforgeeks.org/computer-networks/difference-between-static-and-dynamic-routing/
+- https://en.wikipedia.org/wiki/Route_redistribution
 - https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/8606-redist.html

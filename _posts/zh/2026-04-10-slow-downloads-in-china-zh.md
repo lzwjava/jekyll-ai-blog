@@ -54,7 +54,7 @@ type: note
 
 若开启VPN后下载仍失败或持续显示0%，请分享完整输出信息（包括最终失败时的错误提示），以便进一步协助。
 
-参考链接：  
+参考链接：
 - https://www.mlytics.com/blog/why-your-website-is-slow-in-china-and-how-to-fix-it-2024-total-guide-for-better-web-app-performance-in-china/
 - https://www.thoughtworks.com/insights/blog/user-experience/foreign-websites-slower-China
 - https://github.com/platformio/platformio-core/issues/4656

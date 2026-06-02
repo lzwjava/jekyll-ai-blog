@@ -12,7 +12,7 @@ type: note
 
 Question: If rebuilding Fun Live today using Google Cloud technologies, how should we architect it?
 
-Answer: 
+Answer:
 
 To rebuild Fun Live—a knowledge-sharing live broadcast platform with real-time lectures (programming, design, etc.), paid sessions, lecturer rewards, real-time participation, playback (VOD), WeChat-like notifications, and WeChat Mini Program integration—using **Google Cloud** in 2025–2026, adopt a modern, scalable, serverless-first or managed-services-heavy architecture. This reduces operational burden compared to the original self-managed PHP/CodeIgniter + SRS + Alibaba Cloud stack.
 
@@ -100,7 +100,7 @@ To rebuild Fun Live—a knowledge-sharing live broadcast platform with real-time
 
 This architecture would be far more scalable, lower maintenance, and globally distributed than the 2016–2019 version, while preserving the core experience.
 
-References:  
+References:
 
 - [Google Cloud Live Stream API Best Practices](https://docs.cloud.google.com/livestream/docs/best-practices)
 - [Media CDN for low-latency live streaming](https://discuss.google.dev/t/architecting-low-latency-live-streaming-a-developers-guide-to-media-cdn/296436)

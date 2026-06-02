@@ -12,7 +12,7 @@ type: note
 
 Question: What do Miles Guo and Kyle Bass discuss in their interview on Real Finance on YouTube?
 
-Answer: 
+Answer:
 
 The interview in question appears to refer to the 2018 Real Vision Finance (often stylized as "Real Finance") YouTube series titled *The Kyle Bass Interviews*, featuring exiled Chinese billionaire Guo Wengui (also known as Miles Guo or Miles Kwok). This is a multi-part discussion hosted by investor Kyle Bass, focusing on accusations against the Chinese Communist Party (CCP), China's economy, and related geopolitical issues. Real Vision is a finance-focused media platform, and the content was uploaded to their YouTube channel. Below is a summary of the key points from the main segments, based on available descriptions and transcripts.
 
@@ -45,8 +45,8 @@ The interview in question appears to refer to the 2018 Real Vision Finance (ofte
 
 For the full experience, watch the playlist on YouTube (search "Kyle Bass Miles Kwok Real Vision").
 
-References:  
-- [China's Double Economy (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=5Fdsj46X84o)  
-- [Why Is Miles Kwok In America? (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=LCuMjMcwT9U)  
-- [Killing The Hong Kong Dollar (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=EH0aDAIEfDM)  
+References:
+- [China's Double Economy (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=5Fdsj46X84o)
+- [Why Is Miles Kwok In America? (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=LCuMjMcwT9U)
+- [Killing The Hong Kong Dollar (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=EH0aDAIEfDM)
 - [Exiled Chinese Billionaire Tells All: An Interview with Kyle Bass and Miles Kwok | Real Vision](https://www.realvision.com/exiled-chinese-billionaire-tells-all)

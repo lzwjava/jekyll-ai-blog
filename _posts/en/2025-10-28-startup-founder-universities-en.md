@@ -29,5 +29,5 @@ Based on PitchBook's 2025 University Rankings, which measure entrepreneurial suc
 
 These rankings highlight U.S. dominance but showcase Israel's rising role, with two Israeli universities in the top 10.
 
-[PitchBook’s 2025 Top Universities, Ranked By Number Of Undergrad Startup Founders](https://poetsandquantsforundergrads.com/news/pitchbooks-2025-top-universities-ranked-by-number-of-undergrad-startup-founders/)  
+[PitchBook’s 2025 Top Universities, Ranked By Number Of Undergrad Startup Founders](https://poetsandquantsforundergrads.com/news/pitchbooks-2025-top-universities-ranked-by-number-of-undergrad-startup-founders/)
 [Top 100 colleges ranked by startup founders - PitchBook](https://pitchbook.com/news/articles/pitchbook-university-rankings)

@@ -12,7 +12,7 @@ type: note
 
 Question: 这段 YouTube 视频的内容说了什么？ (https://www.youtube.com/watch?v=5vcj8kSwBCY&t=150s)
 
-Answer: 
+Answer:
 
 这是 2019 年冬季学期的 Stanford CS224N 课程讲座，题为 "NLP with Deep Learning | Lecture 14 – Transformers and Self-Attention"。讲座由 Christopher Manning 教授主持，并邀请了来自 Google 的客座讲师 Ashish Vaswani 和 Anna Huang，他们详细讲解了 Transformer 模型（这是 GPT 和 BERT 等现代 Large Language Models 背后的核心架构）。
 
@@ -32,7 +32,7 @@ Answer:
 
 该视频属于教学性质，技术性强，面向熟悉 Deep Learning 基础的学生。视频描述中包含了带有时间戳的幻灯片以便跳转翻阅。
 
-References:  
+References:
 
-- [Original YouTube Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)  
+- [Original YouTube Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)
 - [Stanford CS224N Course Page](http://web.stanford.edu/class/cs224n/)

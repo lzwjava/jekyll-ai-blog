@@ -11,7 +11,7 @@ type: note
 
 问题：保护计算机网络设备和设施属于哪一类安全？
 
-答案： 
+答案：
 
 保护计算机网络设备和设施属于 **Physical Security (Option C)**。
 

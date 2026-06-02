@@ -17,7 +17,7 @@ Learning is a personal and dynamic process, and there are many approaches depend
 ### 2. **Active Learning**
    - Engage actively with the material. Don’t just read or watch passively. Take notes, ask questions, and make connections to what you already know.
    - Use the **Feynman Technique**: teach the material in simple terms to help solidify your understanding.
-   
+
 ### 3. **Spaced Repetition**
    - Use techniques like **spaced repetition** to help retain information over time. Revisit material at increasing intervals to reinforce memory.
    - Apps like **Anki** or **Quizlet** can help with this technique.
@@ -40,7 +40,7 @@ Learning is a personal and dynamic process, and there are many approaches depend
 
 ### 8. **Teach What You Learn**
    - Teaching others is one of the best ways to deepen your own knowledge. Whether it’s explaining it to a friend, writing articles, or creating tutorials, teaching solidifies learning.
-   
+
 ### 9. **Stay Curious**
    - Approach learning with a mindset of curiosity, not just to pass tests or finish assignments. Ask yourself “why” and “how” questions and explore the topic deeply.
 

@@ -20,6 +20,6 @@ Divided into 18 chapters, each like a standalone essay, *Walden* blends poetic p
 
 Thoreau's retreat wasn't total isolation—he visited town often and hosted visitors—but it symbolized a radical reevaluation of what constitutes a meaningful life. Today, *Walden* remains a touchstone for eco-philosophy and personal introspection, reminding us that true wealth lies in experiences, not possessions.
 
-For further reading:  
-[Project Gutenberg: Full Text of Walden](https://www.gutenberg.org/ebooks/205)  
+For further reading:
+[Project Gutenberg: Full Text of Walden](https://www.gutenberg.org/ebooks/205)
 [The Walden Woods Project: Thoreau's Legacy](https://www.walden.org/)

@@ -26,7 +26,7 @@ The easiest and most affordable way is by public transport (MTR and bus), taking
 
 Buses run frequently (every 10-15 minutes), but check the Citybus/NWFB app or website for real-time schedules, especially on weekends when it gets busier. Taxis are an option (~HK$200-250, 30-40 minutes) if you prefer direct travel, but public transport is efficient and eco-friendly.
 
-[Shek O Beach - Wikipedia](https://en.wikipedia.org/wiki/Shek_O_Beach)  
-[Shek O - Hong Kong Tourism Board](https://www.discoverhongkong.com/us/interactive-map/shek-o.html)  
-[Shek O Beach Guide](https://indulgenteats.com/2024/06/23/shek-o-hong-kong-best-beach-local-food-shau-kei-wan/)  
+[Shek O Beach - Wikipedia](https://en.wikipedia.org/wiki/Shek_O_Beach)
+[Shek O - Hong Kong Tourism Board](https://www.discoverhongkong.com/us/interactive-map/shek-o.html)
+[Shek O Beach Guide](https://indulgenteats.com/2024/06/23/shek-o-hong-kong-best-beach-local-food-shau-kei-wan/)
 [Mong Kok to Shek O - Rome2Rio](https://www.rome2rio.com/s/Mong-Kok/Shek-O)

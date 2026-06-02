@@ -41,8 +41,8 @@ Animal models (chick, tree shrew, monkey) prove this conclusively. You can induc
 
 Your specific claim:
 
-> Full Rx while reading → image behind retina → eye elongates → myopia worsens  
-> Reduced Rx (−1.50D under) → image on retina → stable  
+> Full Rx while reading → image behind retina → eye elongates → myopia worsens
+> Reduced Rx (−1.50D under) → image on retina → stable
 > Further reduced (−1.75D under) → image in front → eye shortens → reversal
 
 The **first two steps** are mechanistically plausible. The **third step** has a problem.

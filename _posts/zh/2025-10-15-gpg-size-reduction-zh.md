@@ -41,5 +41,5 @@ type: note
 
 您的加密过程完全正常——文件已安全加密，只是未实现空间节省。若运行速度仍缓慢或遇到错误，请检查 CPU 使用率（GPG 默认单线程运行）或磁盘空间。
 
-[GPG 压缩行为说明](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html)  
+[GPG 压缩行为说明](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html)
 [为何视频加密不会缩减文件体积](https://security.stackexchange.com/questions/12345/why-does-encrypting-a-file-make-it-larger)

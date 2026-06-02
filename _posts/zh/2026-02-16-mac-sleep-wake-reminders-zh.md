@@ -11,7 +11,7 @@ type: note
 
 Question: 如何检测 macOS 何时合盖或进入 sleep 模式，以及何时唤醒，以便发送通知提醒自己做某事？
 
-Answer: 
+Answer:
 
 在 macOS 上有几种实现这一点的实用方法。对于普通用户来说，最可靠且最常用的方法是 **SleepWatcher**（一个小型 daemon）结合简单的 shell scripts。这种方法非常适合在 Mac **进入 sleep**（通常是当你合盖时）和 **唤醒**（通常是当你开盖或按下按键时）时发送提醒。
 
@@ -78,7 +78,7 @@ on idle
         set currentState to (do shell script "pmset -g | grep -i 'sleep prevented' || true")
         -- 非常粗略 — 最好在文件中跟踪之前的状态
     end tell
-    
+
     -- 更实用：直接使用上面的 sleepwatcher 方式
     return 60 -- 每分钟检查一次
 end idle
@@ -98,14 +98,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         let center = NSWorkspace.shared.notificationCenter
-        
+
         center.addObserver(forName: NSWorkspace.willSleepNotification, object: nil, queue: .main) { _ in
             let notif = NSUserNotification()
             notif.title = "Going to Sleep"
             notif.informativeText = "Lid closed — remember to ..."
             NSUserNotificationCenter.default.deliver(notif)
         }
-        
+
         center.addObserver(forName: NSWorkspace.didWakeNotification, object: nil, queue: .main) { _ in
             let notif = NSUserNotification()
             notif.title = "Woke Up"
@@ -129,7 +129,7 @@ ioreg -r -k AppleClamshellState -d 4 | grep AppleClamshellState | awk '{print $N
 
 SleepWatcher + 通知脚本是 2025/2026 年针对该用例最流行、轻量级且可靠的解决方案。
 
-References:  
+References:
 
 - [SleepWatcher official page](http://www.bernhard-baehr.de/)
 - [NSWorkspace sleep/wake notifications](https://developer.apple.com/documentation/appkit/nsworkspace)

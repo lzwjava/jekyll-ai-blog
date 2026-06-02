@@ -17,7 +17,7 @@ type: note
 
 ### What it means
 
-When you create a **Droplet snapshot**, it's initially stored only in the datacenter region where the Droplet lives (in your case, `ATL1`). 
+When you create a **Droplet snapshot**, it's initially stored only in the datacenter region where the Droplet lives (in your case, `ATL1`).
 
 "Add snapshot to additional regions" means: **copy that snapshot image to other DO datacenters** so you can spin up an identical Droplet (same OS, packages, config, data) in a different region.
 

@@ -30,7 +30,7 @@ Sources vary slightly (e.g., official stats vs. IMF estimates), but these reflec
 
 #### Other Key Indicators
 - **Inflation**: Persistently low, with bouts of deflation in 2024–2025 due to overcapacity and weak demand. Annual CPI rates: 2.5% (2020), 0.9% (2021), 2.0% (2022), 0.2% (2023), 0.2% (2024), and ~0.9% projected for 2025. Core inflation hovers around 0.5%.
-  
+
 - **Unemployment**: Official urban rate stable at ~5.0–5.3%, but youth unemployment (ages 16–24) peaked at 21% in mid-2023 before easing to ~15% in 2025. Structural issues like job mismatches persist.
 
 - **Government Debt**: Rising steadily as fiscal stimulus ramps up. Debt-to-GDP ratio: ~66% (2020), ~70% (2021), ~75% (2022), ~80% (2023), ~88% (2024), projected ~88% end-2025. Total debt (including corporate/household) exceeds 300% of GDP, raising sustainability concerns.

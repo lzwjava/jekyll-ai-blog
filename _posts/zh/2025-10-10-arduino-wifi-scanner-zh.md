@@ -46,7 +46,7 @@ HardwareSerial gpsSerial(1);
 void setup() {
   Serial.begin(115200);
   gpsSerial.begin(9600, SERIAL_8N1, 16, 17);  // GPS模块RX=16, TX=17
-  
+
   // 初始化SD卡
   if (!SD.begin(chipSelect)) {
     Serial.println("SD卡初始化失败!");
@@ -64,7 +64,7 @@ void loop() {
     File dataFile = SD.open("/wifi_log.txt", FILE_APPEND);
     if (dataFile) {
       dataFile.print("扫描时间: " + String(millis()) + "ms | ");
-      
+
       // 可选：添加GPS数据
       if (gpsSerial.available() > 0) {
         if (gps.encode(gpsSerial.read())) {
@@ -73,7 +73,7 @@ void loop() {
           }
         }
       }
-      
+
       for (int i = 0; i < n; ++i) {
         dataFile.print("SSID: " + WiFi.SSID(i) + " | RSSI: " + String(WiFi.RSSI(i)) + "dBm | 信道: " + String(WiFi.channel(i)) + " | 加密: " + String(WiFi.encryptionType(i)) + " | ");
         // 比特率估算：基于RSSI的粗略计算（非精确值）
@@ -85,7 +85,7 @@ void loop() {
       Serial.println("数据已记录至SD卡");
     }
   }
-  
+
   WiFi.scanDelete();  // 清除扫描结果
   delay(10000);  // 每10秒扫描一次（根据飞行速度调整）
 }

@@ -18,7 +18,7 @@ type: note
 这些全球性社区与中国/亚洲地区联系紧密，非常适合异步交流全栈实验、分布式系统或像你这样将AI作为"自主智能体"的实践。
 
 - **Cloud Native Guangzhou（CNCF社区）**：专注云技术、容器和微服务的开发者社群（正契合你的阿里云/AWS/Azure领域）。他们定期举办技术分享和编程马拉松，通过Slack或论坛参与讨论真实场景下的日志记录/测试方案。这里聚集着痴迷于未来架构的活跃开发者。
-  
+
 - **Reddit的r/MachineLearning和r/LearnMachineLearning**：参与关于大数据工具或自学机器学习路径的讨论。你1年的ML经验+1000+算法题解？分享你的自由职业实验或AI日志技巧——这里尤其青睐"我如何构建X"的深度实践。额外提示：搜索"China AI self-study"获取本土视角。
 
 - **EndMyopia论坛（源自endmyopia.org）**：与你三年的近视逆转研究完美契合。这个紧密社区分享受Todd Becker等人启发的实验成果（也带有王垠式的探索精神）。可发布学术风格论文或设备改造心得（比如用EMF测量仪监测眼压？），这里既有高度近视逆转的成功案例，也有持续进行的试验。极致垂直，低噪音——是建立深度连接的理想场所。
@@ -46,13 +46,13 @@ type: note
 
 你已有的知识分享习惯和实验精神已是优势——只要在合适的土壤播下种子，同频者自会汇聚。如果某个特定领域（例如视觉研究或Android技巧）获得热烈反馈，可随时找我进行针对性挖掘。现在你最想深入切磋哪个兴趣点？
 
-**参考链接**  
-[Cloud Native Guangzhou](https://community.cncf.io/cloud-native-guangzhou/)  
-[Startup Grind Guangzhou](https://www.startupgrind.com/guangzhou/)  
-[Eventbrite广州IT聚会](https://www.eventbrite.com/d/china--guangzhou/it-meetups/)  
-[Meetup广州社交](https://www.meetup.com/find/cn--guangzhou/networking/)  
-[IEEE PCCE 2025](https://www.eventbrite.com/b/china--guangzhou/science-and-tech/)  
-[广州AI研讨会2025](https://www.itsoc.org/event/2025-guangzhou-hong-kong-and-taipei-joint-workshop-artificial-intelligence-communications-and)  
-[EndMyopia社区](https://endmyopia.org/)  
-[Reddit近视板块](https://www.reddit.com/r/myopia/)  
+**参考链接**
+[Cloud Native Guangzhou](https://community.cncf.io/cloud-native-guangzhou/)
+[Startup Grind Guangzhou](https://www.startupgrind.com/guangzhou/)
+[Eventbrite广州IT聚会](https://www.eventbrite.com/d/china--guangzhou/it-meetups/)
+[Meetup广州社交](https://www.meetup.com/find/cn--guangzhou/networking/)
+[IEEE PCCE 2025](https://www.eventbrite.com/b/china--guangzhou/science-and-tech/)
+[广州AI研讨会2025](https://www.itsoc.org/event/2025-guangzhou-hong-kong-and-taipei-joint-workshop-artificial-intelligence-communications-and)
+[EndMyopia社区](https://endmyopia.org/)
+[Reddit近视板块](https://www.reddit.com/r/myopia/)
 [中国AI夜校](https://www.globaltimes.cn/page/202506/1335436.shtml)

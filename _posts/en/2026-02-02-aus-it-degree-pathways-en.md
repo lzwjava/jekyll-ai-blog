@@ -22,7 +22,7 @@ This is especially common in fields like **Computer Science**, **Information Tec
 International students can apply directly to universities for credit assessment during admission. Many universities have formal pathways, packaged offers, or guaranteed credit for relevant prior qualifications. Here are prominent examples relevant to Computer Science / Software Engineering / IT:
 
 - **RMIT University** (Melbourne): Strong pathways from their own Associate Degree in Information Technology to Bachelor of Computer Science or Bachelor of Information Technology. Often provides significant credit (up to 2 years). They have packaged pathways for international students and credit transfer options.
-  
+
 - **Charles Darwin University (CDU)**: Offers credit transfer arrangements for associate degrees or equivalent in IT fields into Bachelor of Computer Science or similar. Pathways from VET (Vocational Education and Training) qualifications are common.
 
 - **Southern Cross University (SCU)**: Holders of an Associate Degree in Information Technology (or equivalent) may receive advanced standing for up to 16 units (potentially halving the degree duration) in Bachelor of Information Technology.
@@ -33,7 +33,7 @@ International students can apply directly to universities for credit assessment 
 
 - **Victoria University (VU)**: Strong TAFE-to-university pathways, with diplomas/associate degrees often granting direct entry into second year or semester of related bachelor's degrees in IT/Computer Science.
 
-- **Other notable universities**: 
+- **Other notable universities**:
   - University of Wollongong (offers some top-up style in affiliated programs, e.g., in Hong Kong, but in Australia, credit transfer applies).
   - TAFE SA (South Australia) partners with universities for credit transfer from associate degrees/advanced diplomas into bachelor's, with up to 1.5–2 years credit.
   - Edith Cowan University, Flinders University, and Swinburne also consider credit for prior IT-related qualifications in their Computer Science/Software Engineering programs.

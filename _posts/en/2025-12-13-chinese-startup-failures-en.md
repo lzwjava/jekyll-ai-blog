@@ -12,7 +12,7 @@ type: note
 
 Question: What are spectacular failures in Chinese startups in the last 15 years, like Wowotuan, Lashou, Ofo, etc.?
 
-Answer: 
+Answer:
 
 Over the past 15 years (2010–2025), China's startup ecosystem has seen explosive growth followed by numerous high-profile collapses, often due to aggressive cash-burning strategies, intense competition, unsustainable business models, regulatory pressures, and economic shifts. Many involved heavy venture funding leading to rapid expansion but eventual bankruptcy or severe downturns. Here are some of the most spectacular examples:
 
@@ -34,12 +34,12 @@ Other notable downturns include Ant Group's blocked $34 billion IPO (2020, regul
 
 These cases highlight common pitfalls: over-reliance on subsidies, ignoring unit economics, and vulnerability to regulation or consolidation by giants like Alibaba, Tencent, and Meituan.
 
-References:  
+References:
 
-- https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html  
-- https://www.scmp.com/tech/start-ups/article/3114932/rise-and-fall-mobike-and-ofo-chinas-bike-sharing-twin-stars  
-- https://en.wikipedia.org/wiki/Ofo_(company)  
-- https://www.reuters.com/article/china-groupbuying/the-party-is-over-for-chinas-group-buying-websites-idUSL4E7MT1AA20111201/  
-- https://en.wikipedia.org/wiki/Luckin_Coffee  
-- https://fortune.com/2022/05/22/luckin-coffee-china-wall-street-listing-nasdaq-scandal-fraud-starbucks/  
+- https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html
+- https://www.scmp.com/tech/start-ups/article/3114932/rise-and-fall-mobike-and-ofo-chinas-bike-sharing-twin-stars
+- https://en.wikipedia.org/wiki/Ofo_(company)
+- https://www.reuters.com/article/china-groupbuying/the-party-is-over-for-chinas-group-buying-websites-idUSL4E7MT1AA20111201/
+- https://en.wikipedia.org/wiki/Luckin_Coffee
+- https://fortune.com/2022/05/22/luckin-coffee-china-wall-street-listing-nasdaq-scandal-fraud-starbucks/
 - https://en.tmtpost.com/post/6586507

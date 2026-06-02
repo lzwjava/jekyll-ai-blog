@@ -36,9 +36,9 @@ While optimized for Gemini and the Google ecosystem, ADK is model-agnostic and d
 
 Installation is straightforward across languages:
 
-**Python**: `pip install google-adk`  
-**TypeScript**: `npm install @google/adk`  
-**Go**: `go get google.golang.org/adk`  
+**Python**: `pip install google-adk`
+**TypeScript**: `npm install @google/adk`
+**Go**: `go get google.golang.org/adk`
 **Java**: Add dependency via Maven or Gradle
 
 Here's a simple Python example:

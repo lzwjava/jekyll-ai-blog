@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to AWS CLI command options.
 
-Answer: 
+Answer:
 
 The **AWS Command Line Interface (AWS CLI)** is a unified tool for managing AWS services from the terminal. Most commands follow this general structure:
 
@@ -80,9 +80,9 @@ aws s3api list-objects-v2 \
 
 ### Quick reference – precedence order (highest to lowest)
 
-1. Command line options  
-2. Environment variables (`AWS_REGION`, `AWS_PROFILE`, `AWS_OUTPUT`, …)  
-3. AWS config/credentials files (`~/.aws/config`, `~/.aws/credentials`)  
+1. Command line options
+2. Environment variables (`AWS_REGION`, `AWS_PROFILE`, `AWS_OUTPUT`, …)
+3. AWS config/credentials files (`~/.aws/config`, `~/.aws/credentials`)
 4. AWS CLI defaults
 
 ### Practical tips
@@ -94,7 +94,7 @@ aws s3api list-objects-v2 \
 
 These global options give you enormous flexibility without changing configuration files every time.
 
-References:  
+References:
 
 - [AWS CLI Command Reference - Global Options](https://docs.aws.amazon.com/cli/latest/reference/)
 - [Command line options in the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-options.html)

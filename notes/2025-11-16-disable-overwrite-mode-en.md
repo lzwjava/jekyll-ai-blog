@@ -10,12 +10,12 @@ translated: false
 type: note
 ---
 
-In Visual Studio Code, the default behavior is **Insert mode** (typing inserts text, pushing existing text forward).  
+In Visual Studio Code, the default behavior is **Insert mode** (typing inserts text, pushing existing text forward).
 The **Replace mode** (typing overwrites existing text) is activated when you press the **Insert** key on your keyboard — this toggles between Insert and Replace/Overwrite mode.
 
 ### How to switch back from Replace (Overwrite) to Insert mode
 
-1. Simply press the **Insert** key once on your keyboard.  
+1. Simply press the **Insert** key once on your keyboard.
    → The status bar at the bottom-right will change from **OVR** (Overwrite) to **INS** (Insert).
 
 ### If you never want to accidentally enter Overwrite mode again
@@ -23,8 +23,8 @@ The **Replace mode** (typing overwrites existing text) is activated when you pre
 You can disable the Insert key toggle completely:
 
 #### Method 1: Keyboard shortcut (recommended)
-Press `Ctrl + Shift + P` → type **"Toggle Insert/Overwrite"** → you’ll see the command  
-`Preferences: Toggle Insert on Paste and Overtype` or similar.  
+Press `Ctrl + Shift + P` → type **"Toggle Insert/Overwrite"** → you’ll see the command
+`Preferences: Toggle Insert on Paste and Overtype` or similar.
 More reliably, use this direct setting:
 
 #### Method 2: Add this to your `settings.json`

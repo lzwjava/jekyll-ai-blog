@@ -51,7 +51,7 @@ Here's a clear comparison:
    - Pagination + no/broken global search
    - User must manually click through 100+ pages to find something
 
-**Quick recommendation**  
+**Quick recommendation**
 If your users frequently need to find items by Ctrl+F / quick visual scan and the total number is usually < ~8,000–15,000 rows:
 
 → Consider removing pagination entirely and use a virtualized list + debounce search input.
@@ -62,6 +62,6 @@ If the list can be 50k–500k+ rows:
 
 That usually gives better overall experience than blind pagination.
 
-**References:**  
+**References:**
 
 - None (general frontend development knowledge and common UX patterns)

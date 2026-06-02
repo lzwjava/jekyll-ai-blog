@@ -12,7 +12,7 @@ type: note
 
 Question: Is it grammatically acceptable in English to use the preposition "in" multiple times consecutively in a sentence, such as in the example "common commands in switches in networking"?
 
-Answer: 
+Answer:
 
 Yes, it is grammatically acceptable to use the preposition "in" multiple times consecutively in a sentence. English grammar allows prepositional phrases to be nested or stacked without restriction, as long as each "in" introduces a distinct and meaningful phrase. Repeating the same preposition is not a grammatical error.
 

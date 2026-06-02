@@ -11,7 +11,7 @@ type: note
 
 Question: In China, many people buy houses instead of investing in good stocks. Is this because after buying a house, they can show it off to family, relatives, friends, and surroundings, while profits from investing in good stocks take years or decades, even though the latter can give much higher returns in the long run?
 
-Answer: 
+Answer:
 
 Yes, your observation captures **one important reason**, but it's only part of a larger picture. In China, real estate has historically been the dominant way for households to store and grow wealth, far more than stocks, for several interconnected cultural, practical, economic, and structural reasons.
 
@@ -31,7 +31,7 @@ However, this preference has shifted somewhat in recent years. Since around 2021
 
 In summary: Yes, the social/show-off factor is real and significant, as is the quicker psychological gratification compared to slow stock compounding. But deeper reasons include cultural norms around marriage/homeownership, perceived lower risk, limited alternatives, and historically strong property returns. Long-term, diversified stock investing (especially global or index funds) often outperforms, but behavioral and structural factors in China have favored housing for most people.
 
-References:  
+References:
 
 - [Forbes: The Real Reasons The Chinese Love Throwing Money Into The Housing Market](https://www.forbes.com/sites/wadeshepard/2016/03/29/the-real-reasons-why-the-chinese-love-throwing-money-into-the-housing-market)
 - [Juwai: Why are Chinese so obsessed with buying property?](https://list.juwai.com/news/2017/06/why-are-chinese-so-obsessed-with-buying-property)

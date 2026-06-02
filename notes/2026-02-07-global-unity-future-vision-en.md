@@ -12,7 +12,7 @@ type: note
 
 Question: Briefly describe the main contents of the thought of building a community with a shared future for mankind.
 
-Answer: 
+Answer:
 
 The thought of building a **community with a shared future for mankind** (人类命运共同体) is a systematic and comprehensive vision proposed by China for global governance and international relations in the new era. Its main contents are commonly summarized in five key dimensions:
 
@@ -28,6 +28,6 @@ The thought of building a **community with a shared future for mankind** (人类
 
 These five aspects together constitute the core framework of the concept, covering politics, security, economy, culture, and ecology, reflecting a holistic, cooperative, and sustainable view of global development and international order.
 
-References:  
+References:
 
 - None (content is based on official Chinese formulations widely disseminated in white papers, Xi Jinping's speeches, and Party documents)

@@ -41,7 +41,7 @@ type: note
 
 **推荐**：放心购买 — 这个计划正好在您最关心的中国到美国方向上表现出色。
 
-参考资料：  
+参考资料：
 
 - [https://www.dmit.io/pages/cloud-instance](https://www.dmit.io/pages/cloud-instance)
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)

@@ -12,7 +12,7 @@ type: note
 
 Question: Which type of routing protocol is OSPF?
 
-Answer: 
+Answer:
 
 OSPF (Open Shortest Path First) is a **Link State** routing protocol.
 
@@ -23,6 +23,6 @@ OSPF (Open Shortest Path First) is a **Link State** routing protocol.
   - **Path Vector** protocols (e.g., BGP) exchange full path attributes (AS paths) to prevent loops in inter-domain routing.
   - **Hybrid** protocols (sometimes used to describe EIGRP) combine elements of both distance vector and link state but are not pure link state.
 
-Thus, the correct answer is **B) Link State**. 
+Thus, the correct answer is **B) Link State**.
 
 (Note: Option A is incorrect as it applies to protocols like RIP.)

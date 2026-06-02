@@ -12,7 +12,7 @@ type: note
 
 Question: Does falling into a big sand hill reduce the hurt/injury compared to a hard surface? Suppose heights of 3m, 5m, and 8m.
 
-Answer: 
+Answer:
 
 Yes, **falling into a big, loose sand hill (like a dune or deep sand pile)** generally **reduces injury** compared to landing on a hard surface like concrete, asphalt, or rock. Sand acts as a cushion by deforming and absorbing energy over a longer time and distance, which lowers the peak deceleration force on your body.
 
@@ -38,7 +38,7 @@ Yes, **falling into a big, loose sand hill (like a dune or deep sand pile)** gen
 
 In summary: **Yes, a big loose sand hill meaningfully reduces injury severity** at 3 m, 5 m, and especially 8 m compared to hard surfaces — but it's still dangerous and never "safe." Real-world falls into dunes or sand piles have much better outcomes than equivalent falls onto concrete.
 
-References:  
+References:
 
 - [Quora discussion on surviving falls into sand](https://www.quora.com/How-far-can-a-human-fall-into-sand-and-survive-average-teenager-fall-height-and-average-adult-fall-height-if-possible)
 - General physics of impact deceleration and surface comparison from multiple sources on falls (e.g., studies on terminal velocity and surface effects)

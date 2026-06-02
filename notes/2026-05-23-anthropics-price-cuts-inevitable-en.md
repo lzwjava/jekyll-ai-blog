@@ -39,7 +39,7 @@ The structural forces are overwhelming:
 **Your timeline estimate: 6-12 months**
 
 Reasonable. My read:
-- **3-6 months**: Haiku-tier gets another cut, Sonnet becomes the new "affordable frontier"  
+- **3-6 months**: Haiku-tier gets another cut, Sonnet becomes the new "affordable frontier"
 - **6-12 months**: Opus-tier pricing drops significantly as the next model tier obsoletes it
 - **Wildcard**: If DeepSeek R2 or Qwen 4 hits another capability jump, Anthropic accelerates cuts defensively
 

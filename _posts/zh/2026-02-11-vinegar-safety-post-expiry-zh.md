@@ -12,7 +12,7 @@ type: note
 
 Question: 我用了一年的醋，配合饺子吃的时候感觉有点“过期”了，但旧瓶子和新瓶子的气味是一样的，而且我一直将其储存在广州的室温环境下，它还新鲜正常吗？
 
-Answer: 
+Answer:
 
 是的，你的醋几乎可以肯定**完全正常，且依然新鲜/安全**。醋瓶上标注的 2–3 年“有效期”通常是 **"best by"**（最佳赏味期）或质量保证日期，**并非**真正的保质期或安全期限。醋具有极高的酸度（pH值约为 2–3），这使其具有自保性——有害细菌和霉菌基本上无法在其中生长。这就是为什么从安全角度来看，它具有**无限期**或**几乎无限**的 shelf life。
 
@@ -31,12 +31,12 @@ Answer:
 
 其他酱料（酱油、蚝油、辣椒酱等）开封后通常需要冷藏，因为它们的酸度较低，含有较多的糖分/蛋白质，容易滋生霉菌/细菌。醋则不同——为了安全起见，它不需要放进冰箱（尽管有些人会冷藏未经巴氏消毒的类型，如带有 "mother" 的苹果醋，以减缓云雾状沉淀等外观变化）。
 
-**底线结论**：  
-- 你用了一年的醋是安全的，味道理应正常/新鲜。  
-- 你可以放心继续使用。  
+**底线结论**：
+- 你用了一年的醋是安全的，味道理应正常/新鲜。
+- 你可以放心继续使用。
 - 除非你看到极端情况，如霉菌（在正常的醋中几乎不可能）、极度恶臭/异味（不仅仅是浓烈的醋味），或并非正常沉淀/mother 的奇怪外观，否则无需担心。
 
-References:  
+References:
 
 - [Iowa State University Extension - Vinegar Shelf Life and Safety](https://blogs.extension.iastate.edu/answerline/2021/05/11/vinegar-shelf-life-and-safety)
 - [America's Test Kitchen - Does Vinegar Expire?](https://www.americastestkitchen.com/articles/6756-does-vinegar-expire)

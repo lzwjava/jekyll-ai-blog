@@ -31,10 +31,10 @@ Using a similar method is often better than buying or purchasing a wallpaper app
 
 I learned about setting a reminder for 3:14 PM from Andrej Karpathy, who used this time to capture a photo at that moment.
 
-{: .centered }  
-![](assets/images/wallpaper/w0.jpg){: .responsive }  
+{: .centered }
+![](assets/images/wallpaper/w0.jpg){: .responsive }
 *Source: screenshot*{: .caption }
 
-{: .centered }  
-![](assets/images/wallpaper/w1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/wallpaper/w1.jpg){: .responsive }
 *Source: screenshot*{: .caption }

@@ -55,21 +55,21 @@ public class SoapEnvelopeExample {
     public static void main(String[] args) throws Exception {
         // 创建 SOAP 工厂
         SOAPFactory soapFactory = SOAPFactory.newInstance();
-        
+
         // 创建消息和信封
         MessageFactory messageFactory = MessageFactory.newInstance();
         SOAPMessage soapMessage = messageFactory.createMessage();
         SOAPEnvelope envelope = soapMessage.getSOAPEnvelope();
-        
+
         // 为 SOAP 添加命名空间（版本 1.2）
         envelope.addNamespaceDeclaration("soap", "http://www.w3.org/2003/05/soap-envelope");
-        
+
         // 创建主体元素
         SOAPBody body = envelope.getBody();
         SOAPBodyElement bodyElement = body.addBodyElement(soapFactory.createName("GetBalance", "ns", "http://example.com"));
         SOAPElement amount = bodyElement.addChildElement("AccountNumber", "ns", "http://example.com");
         amount.addTextNode("12345");
-        
+
         // 保存并打印消息
         soapMessage.saveChanges();
         System.out.println("SOAP 信封:");
@@ -88,11 +88,11 @@ public class SoapEnvelopeExample {
 
 是的，Finacle（Infosys 的核心银行软件）在集成中广泛使用 SOAP XML 信封。它通过 **Finacle Integrator** 层通过 HTTP 上的 SOAP 公开 Web 服务，允许外部系统使用标准 SOAP 协议进行通信。这包括 EJB 交互和用于账户查询或交易等服务的中间件。Finacle 的 API 通常遵循 SOAP 标准，用于银行集成中安全的、基于 XML 的消息传递。
 
-[XML Soap - W3Schools](https://www.w3schools.com/xml/xml_soap.asp)  
-[SOAP 消息的结构 - IBM](https://www.ibm.com/docs/en/integration-bus/9.0.0?topic=soap-structure-message)  
-[SOAP - 信封 - Tutorials Point](https://www.tutorialspoint.com/soap/soap_envelope.htm)  
-[java - 如何在 XML 请求中添加 <soap:Envelope> 和 <soap:body> - Stack Overflow](https://stackoverflow.com/questions/44721823/how-to-add-soapenvelope-and-soapbody-in-xml-request)  
-[SOAPEnvelope (Java Platform SE 8) - Oracle Help Center](https://docs.oracle.com/javase/8/docs/api/javax/xml/soap/SOAPEnvelope.html)  
-[使用 Spring Boot 在 Finacle Integrator 上实现微服务](https://medium.com/@einjoku/implementation-of-microservice-on-finacle-integrator-using-spring-boot-docker-with-kubernetes-d8f9c6026a6d)  
-[与 Finacle 集成的架构考虑](https://www.ijcttjournal.org/2024/Volume-72%20Issue-6/IJCTT-V72I6P108.pdf)  
+[XML Soap - W3Schools](https://www.w3schools.com/xml/xml_soap.asp)
+[SOAP 消息的结构 - IBM](https://www.ibm.com/docs/en/integration-bus/9.0.0?topic=soap-structure-message)
+[SOAP - 信封 - Tutorials Point](https://www.tutorialspoint.com/soap/soap_envelope.htm)
+[java - 如何在 XML 请求中添加 <soap:Envelope> 和 <soap:body> - Stack Overflow](https://stackoverflow.com/questions/44721823/how-to-add-soapenvelope-and-soapbody-in-xml-request)
+[SOAPEnvelope (Java Platform SE 8) - Oracle Help Center](https://docs.oracle.com/javase/8/docs/api/javax/xml/soap/SOAPEnvelope.html)
+[使用 Spring Boot 在 Finacle Integrator 上实现微服务](https://medium.com/@einjoku/implementation-of-microservice-on-finacle-integrator-using-spring-boot-docker-with-kubernetes-d8f9c6026a6d)
+[与 Finacle 集成的架构考虑](https://www.ijcttjournal.org/2024/Volume-72%20Issue-6/IJCTT-V72I6P108.pdf)
 [AS-TFINFRIXM1012-FTX100 Finacle 集成技术 - Scribd](https://www.scribd.com/document/369534444/TFINFRIXM1012-ENU)

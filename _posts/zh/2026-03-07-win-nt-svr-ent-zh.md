@@ -23,16 +23,16 @@ Windows NT Server 提供了易于管理和响应迅速的 **enterprise** 网络�
 
 Windows NT Server 被归类为 **enterprise-level operating system**，原因有以下几点：
 
-**1. 可扩展性**  
+**1. 可扩展性**
 NT Server 4.0 支持最多 32 个处理器和最多 256 个远程客户端访问。作为网络服务器，它可以不受限制地连接客户端以完成繁重的网络相关任务。
 
-**2. Enterprise Edition**  
+**2. Enterprise Edition**
 Windows NT 4.0 Server, Enterprise Edition 专为高需求、高流量网络设计，并引入了 cluster services——Windows 服务器系列 Enterprise 系列的前身。
 
-**3. 安全性和可靠性**  
+**3. 安全性和可靠性**
 Windows NT 在企业计算行业中发挥了重要作用，为企业提供了可靠、可扩展且安全的平台。它因其稳健性、网络支持以及与业务应用程序的兼容性而在企业环境中广受欢迎。
 
-**4. 多域网络**  
+**4. 多域网络**
 Windows NT 是 Microsoft 最受欢迎的操作系统，适用于从工作组到 **enterprise-level** 安装的各种网络类型，提供了一个安全、可扩展、可靠的 32 位操作系统平台。
 
 ### 总结

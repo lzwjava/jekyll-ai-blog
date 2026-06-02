@@ -121,7 +121,7 @@ The difference in hardware:
 
 ```
 Combinational:          Sequential:
-                        
+
 a ──┐                   a ──┐
     ├─[ADDER]── sum         ├─[ADDER]──[D flip-flop]── sum
 b ──┘                   b ──┘              ↑

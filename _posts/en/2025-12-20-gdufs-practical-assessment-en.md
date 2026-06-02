@@ -12,7 +12,7 @@ type: note
 
 Question: Translate the provided document to English and explain what it says.
 
-Answer: 
+Answer:
 
 The provided document is a notice from Guangdong University of Foreign Studies (GDUFS) regarding the application process for the 2026 first-half-year practical assessment courses in self-study examinations, targeted at social candidates (non-full-time students). It outlines key details such as application timelines, fees, requirements, and reminders. Below is a full English translation of the document, structured to match the original for clarity. I've translated it accurately while maintaining the formal tone. After the translation, I'll provide a brief explanation of its content.
 
@@ -27,8 +27,8 @@ Dear Candidates:
 
 In accordance with the plans of the Provincial Examination Office and our university, the application arrangements and requirements for the 2026 first-half-year Guangdong University of Foreign Studies Self-Study Examination Practical Learning Component Assessment (hereinafter referred to as "practical assessment") are announced as follows:
 
-I. 1. Application Time: December 22, 2025, 10:00 AM – December 30, 2025, 11:00 AM.  
-   2. Payment Time: December 23, 2025, 3:00 PM – December 30, 2025, 5:00 PM (Failure to pay by the deadline will be regarded as automatic forfeiture of this application).  
+I. 1. Application Time: December 22, 2025, 10:00 AM – December 30, 2025, 11:00 AM.
+   2. Payment Time: December 23, 2025, 3:00 PM – December 30, 2025, 5:00 PM (Failure to pay by the deadline will be regarded as automatic forfeiture of this application).
 
 During the application process, please apply honestly and fill in your personal information and professional course details truthfully. No refunds will be given for incorrect or duplicate applications.
 
@@ -48,12 +48,12 @@ VIII. Exam Room and Seat Number Query: One week before the exam, log in to the c
 
 IX. Score Query: Scores will be announced in the Qida application system in late May. Passing scores (and above) can be queried by logging into the Guangdong Province Self-Study Examination Management System yourself in mid-June.
 
-X. Warm Reminders:  
-1. The application notice for graduation theses/business survey reports will be released in a separate document.  
-2. All candidates must carefully fill in their personal email address and verify its accuracy to avoid issues with receiving subsequent notices.  
+X. Warm Reminders:
+1. The application notice for graduation theses/business survey reports will be released in a separate document.
+2. All candidates must carefully fill in their personal email address and verify its accuracy to avoid issues with receiving subsequent notices.
 3. Starting from the first half of 2026, all majors under the auspices of Guangdong University of Foreign Studies will fully implement the new examination plan for practical assessment course applications.
 
-Guangdong University of Foreign Studies Higher Education Self-Study Examination Office  
+Guangdong University of Foreign Studies Higher Education Self-Study Examination Office
 December 19, 2025
 
 ### Explanation

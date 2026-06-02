@@ -39,10 +39,10 @@ type: note
 
 至于同学，则应视之为同求学术之伴侣。不论贫富贵贱，应以诚相待，互相扶助。交换知识，讨论学术，互相劝勉向善，互相规劝止恶。如此，大学方能真正成为高尚之学术团体。
 
-总之，我对你们的三大期望为：  
-1. 坚守宗旨——来此求学，非为官位或财富。  
-2. 砥砺道德品格——以“己所不欲，勿施于人”为终身指南。  
-3. 尊师重道，友爱同学——营造真正求学、平等、互助的校园氛围。  
+总之，我对你们的三大期望为：
+1. 坚守宗旨——来此求学，非为官位或财富。
+2. 砥砺道德品格——以“己所不欲，勿施于人”为终身指南。
+3. 尊师重道，友爱同学——营造真正求学、平等、互助的校园氛围。
 
 若你们能真正实行这三点，则Peking University不仅能洗刷昔日恶名，且将成为全国最高学府，对社会与国家发挥积极影响。此乃我最大希望。
 
@@ -50,6 +50,6 @@ type: note
 
 参考文献：
 
-- [https://zhuanlan.zhihu.com/p/31364265](https://zhuanlan.zhihu.com/p/31364265) (full English translation by alexcwlin)  
-- [https://zh.wikisource.org/wiki/就任北京大學校長之演說](https://zh.wikisource.org/wiki/%E5%B0%B1%E4%BB%BB%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%95%B7%E4%B9%8B%E6%BC%94%E8%AA%AA) (Wikisource上的原文中文文本)  
+- [https://zhuanlan.zhihu.com/p/31364265](https://zhuanlan.zhihu.com/p/31364265) (full English translation by alexcwlin)
+- [https://zh.wikisource.org/wiki/就任北京大學校長之演說](https://zh.wikisource.org/wiki/%E5%B0%B1%E4%BB%BB%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%95%B7%E4%B9%8B%E6%BC%94%E8%AA%AA) (Wikisource上的原文中文文本)
 - Peking University官方历史档案及现代中国思想史收藏

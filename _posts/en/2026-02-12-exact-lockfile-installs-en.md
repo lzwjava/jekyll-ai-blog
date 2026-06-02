@@ -78,7 +78,7 @@ npm ERR! cb() never called!
 - Developing / adding / updating dependencies → `npm install`
 - Want exact same dependency tree as in lockfile (CI, tests, Docker, production builds) → `npm ci`
 
-**Bottom line:**  
+**Bottom line:**
 `npm ci` = "install exactly what's in package-lock.json, nothing else, and don't touch the lockfile"
 
 **References:**

@@ -11,7 +11,7 @@ type: note
 
 Question: Is Za Bank's Visa card virtual, not physical?
 
-Answer: 
+Answer:
 
 No, **Za Bank's Visa card (called ZA Card)** is **not only virtual**—it offers **both virtual and physical versions**.
 
@@ -22,7 +22,7 @@ Key features include a customizable card number (you choose the last 6 digits), 
 
 In summary, the ZA Card starts as virtual but you can get a physical one too, making it versatile for both online and offline use.
 
-References:  
+References:
 
 - [ZA Card official page](https://bank.za.group/en/za-card)
 - [ZA Card Terms and Conditions](https://cdn.za.group/bank/app/info/en/static/1007801.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: "disguise" 在英语中是什么意思？
 
-Answer: 
+Answer:
 
 **Disguise** 既可以作为 **noun**（名词），也可以作为 **verb**（动词）。
 

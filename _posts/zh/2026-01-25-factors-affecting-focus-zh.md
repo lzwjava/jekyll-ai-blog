@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么有时很难集中精力阅读或做 Software Engineering 认证题目，而有时却很容易？
 
-Answer: 
+Answer:
 
 你对认证题目（阅读晦涩材料、理解概念、解决练习题）这种高认知负荷任务的专注能力会出现波动，主要是因为你的 **Physiological（生理）、Psychological（心理）和 Environmental（环境）状态发生了变化**。这些任务需要持续的 **Deep Attention**（深度注意力，而非像刷手机那样的快速 Dopamine 刺激），因此它们对你内外条件的微小变化非常敏感。
 
@@ -60,7 +60,7 @@ Answer:
 
 大多数人都会经历你所描述的情况。你感到专注的日子并非随机的好运——它们是更好管理的前提条件的产物。记录你 7-14 天的能量/专注力（简单的 1-10 评分 + 你之前的饮食/睡眠/行为），模式通常会变得显而易见。
 
-References:  
+References:
 
 - [Healthline - What Makes You Unable to Concentrate?](https://www.healthline.com/health/unable-to-concentrate)
 - [Healthline - How to Improve Concentration](https://www.healthline.com/health/mental-health/how-to-improve-concentration)

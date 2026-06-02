@@ -38,7 +38,7 @@ Based on the typical examination patterns for **University Chinese (大学语文
 - **Use of dramatic irony**: How does the author create suspense through Feng Xuan's seemingly odd behavior?
 
 ### 4. **Classical Chinese Language Questions**
-- **Key vocabulary and phrases**: 
+- **Key vocabulary and phrases**:
   - 无以 (nothing with which to...)
   - 客孟尝君 (to be a retainer of Lord Mengchang)
   - 狡兔三窟 (three burrows of the cunning rabbit)

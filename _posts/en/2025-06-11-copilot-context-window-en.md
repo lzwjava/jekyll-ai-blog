@@ -51,22 +51,22 @@ In summary, while older information might suggest a strict 4096-token limit for 
 
 ---
 
-Based on the search results, here is the information regarding the token limits and context retention for GPT-4.1 and GitHub Copilot:  
-  
-### GPT-4.1 Token Limit  
-- GPT-4.1 has a significantly larger context window compared to its predecessors. It supports a context window of up to 1 million tokens, which is a substantial increase from the 128K-token limit of GPT-4o. This makes it suitable for tasks that require handling large codebases or extensive text corpora in a single prompt.  
-  
-### GitHub Copilot Token Limit and Context Retention  
-- GitHub Copilot, which is based on models like GPT-4, typically has a token limit of around 4096 tokens for interactions within IDEs like VSCode and IntelliJ IDEA. However, there are variations depending on the specific setup and version of Copilot being used.  
-  
-- For users of GitHub Copilot with Visual Studio Code Insiders, there is access to an even larger context window of up to 128K tokens, which is the maximum supported by OpenAI's GPT-4o model. This larger context window can improve the handling of large files and repositories.  
-  
-- GitHub Copilot Chat can manage multi-round conversations, but the retention of context across these conversations may vary. While it can retain some context from previous interactions, it is generally recommended to provide summaries or key points from earlier rounds to maintain continuity, especially for complex tasks.  
-  
-### Workarounds for Token Limits  
-- **Chunking**: Break down large tasks into smaller, manageable parts. This can help in staying within the token limits while addressing each segment of the task effectively.  
-- **Summarization**: Summarize long pieces of code or logs before providing them to Copilot. This helps in retaining essential information within the token limit.  
-- **Focused Queries**: Instead of providing the entire context at once, focus on specific parts of the code or logs that are most relevant to the issue you are trying to resolve.  
-- **Multi-round Conversations**: Use multi-round conversations to build context incrementally. While Copilot may not retain all context from previous interactions, manually providing summaries or key points can help maintain continuity.  
-  
+Based on the search results, here is the information regarding the token limits and context retention for GPT-4.1 and GitHub Copilot:
+
+### GPT-4.1 Token Limit
+- GPT-4.1 has a significantly larger context window compared to its predecessors. It supports a context window of up to 1 million tokens, which is a substantial increase from the 128K-token limit of GPT-4o. This makes it suitable for tasks that require handling large codebases or extensive text corpora in a single prompt.
+
+### GitHub Copilot Token Limit and Context Retention
+- GitHub Copilot, which is based on models like GPT-4, typically has a token limit of around 4096 tokens for interactions within IDEs like VSCode and IntelliJ IDEA. However, there are variations depending on the specific setup and version of Copilot being used.
+
+- For users of GitHub Copilot with Visual Studio Code Insiders, there is access to an even larger context window of up to 128K tokens, which is the maximum supported by OpenAI's GPT-4o model. This larger context window can improve the handling of large files and repositories.
+
+- GitHub Copilot Chat can manage multi-round conversations, but the retention of context across these conversations may vary. While it can retain some context from previous interactions, it is generally recommended to provide summaries or key points from earlier rounds to maintain continuity, especially for complex tasks.
+
+### Workarounds for Token Limits
+- **Chunking**: Break down large tasks into smaller, manageable parts. This can help in staying within the token limits while addressing each segment of the task effectively.
+- **Summarization**: Summarize long pieces of code or logs before providing them to Copilot. This helps in retaining essential information within the token limit.
+- **Focused Queries**: Instead of providing the entire context at once, focus on specific parts of the code or logs that are most relevant to the issue you are trying to resolve.
+- **Multi-round Conversations**: Use multi-round conversations to build context incrementally. While Copilot may not retain all context from previous interactions, manually providing summaries or key points can help maintain continuity.
+
 These strategies can help you effectively use GitHub Copilot within its token limits and improve context retention across multi-round conversations.

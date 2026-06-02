@@ -31,6 +31,6 @@ type: note
 
 如果王垠曾在某篇博文、采访或其他难以搜索到的地方提到过他的 MBTI 类型，截至 2026 年 2 月，现有的公开资料中并无相关记载。
 
-References:  
+References:
 
 - [https://www.yinwang.org](https://www.yinwang.org)

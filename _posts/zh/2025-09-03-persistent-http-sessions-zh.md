@@ -210,5 +210,5 @@ with requests.Session() as session:
 - **SSL 验证**：默认情况下，`Session` 会验证 SSL 证书。要禁用（生产环境不推荐），使用 `session.verify = False`
 
 ## 参考资料
-[Requests 文档](https://requests.readthedocs.io/en/latest/)  
+[Requests 文档](https://requests.readthedocs.io/en/latest/)
 [Requests 会话对象](https://requests.readthedocs.io/en/latest/user/advanced/#session-objects)

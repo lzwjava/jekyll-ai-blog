@@ -32,11 +32,11 @@ type: note
 
 总之，在2025年的中国，这种情况完全正常，尤其对于他这样的男性而言。这是个人选择、社会变迁与经济压力共同作用的结果。如果他安于现状（从你们稳定的友情来看似乎如此），那便是最重要的。若你想探寻更深层原因，不妨借每周相聚深入交流——这样的友谊正是打开心扉的钥匙。
 
-[中国结婚登记数创近40年新低](https://www.irishtimes.com/world/asia-pacific/2025/09/26/chinas-marriage-rate-is-at-its-lowest-in-nearly-40-years-why-are-singles-put-off-settling-down/)  
-[不婚不育成为中国经济定时炸弹](https://www.bloomberg.com/news/features/2025-05-08/china-s-low-marriage-and-birth-rates-are-an-economic-ticking-timebomb)  
-[经济震荡中更多中国女性选择独身](https://www.reuters.com/world/china/more-chinese-women-choosing-singledom-economy-stutters-2024-03-07/)  
-[中国青年未婚率创新高](https://www.voanews.com/a/china-faces-record-high-unmarried-rate-among-young-people/7426303.html)  
-[2021年中国各年龄段青年单身比例统计](https://www.statista.com/statistics/1258176/china-share-of-people-being-single-by-age-group/)  
-[中国年轻人为何拒绝婚姻](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)  
-[中国丁克现象升温](https://pmc.ncbi.nlm.nih.gov/articles/PMC10231016/)  
+[中国结婚登记数创近40年新低](https://www.irishtimes.com/world/asia-pacific/2025/09/26/chinas-marriage-rate-is-at-its-lowest-in-nearly-40-years-why-are-singles-put-off-settling-down/)
+[不婚不育成为中国经济定时炸弹](https://www.bloomberg.com/news/features/2025-05-08/china-s-low-marriage-and-birth-rates-are-an-economic-ticking-timebomb)
+[经济震荡中更多中国女性选择独身](https://www.reuters.com/world/china/more-chinese-women-choosing-singledom-economy-stutters-2024-03-07/)
+[中国青年未婚率创新高](https://www.voanews.com/a/china-faces-record-high-unmarried-rate-among-young-people/7426303.html)
+[2021年中国各年龄段青年单身比例统计](https://www.statista.com/statistics/1258176/china-share-of-people-being-single-by-age-group/)
+[中国年轻人为何拒绝婚姻](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)
+[中国丁克现象升温](https://pmc.ncbi.nlm.nih.gov/articles/PMC10231016/)
 [中国年轻人为何不愿结婚](https://www.ceibs.edu/new-papers-columns/27260)

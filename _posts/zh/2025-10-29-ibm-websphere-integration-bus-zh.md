@@ -40,6 +40,6 @@ SIB 支持 JMS 1.1/2.0 等标准，并与外部系统（例如，通过 WebSpher
 
 **注意**：如果您指的是 *IBM Integration Bus*（IIB），这是一个用于更广泛 ESB 需求的独立产品，可以连接到 WAS/SIB，但本身并不“在” WAS 中。
 
-[服务集成总线 - IBM 文档](https://www.ibm.com/docs/en/was/9.0.5?topic=integration-service-buses)  
-[服务集成总线消息传递提供程序 - IBM 文档](https://www.ibm.com/docs/en/was-liberty/nd?topic=providers-service-integration-bus-messaging-provider)  
+[服务集成总线 - IBM 文档](https://www.ibm.com/docs/en/was/9.0.5?topic=integration-service-buses)
+[服务集成总线消息传递提供程序 - IBM 文档](https://www.ibm.com/docs/en/was-liberty/nd?topic=providers-service-integration-bus-messaging-provider)
 [服务集成总线入门指南](https://www.freekb.net/Article?id=1975)

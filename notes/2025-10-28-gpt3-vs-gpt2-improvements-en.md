@@ -24,7 +24,7 @@ GPT-3, released by OpenAI in 2020, represents a massive leap forward from GPT-2 
 
 ### Qualitative Improvements
 - **Coherence and Quality**: GPT-2 often produced repetitive or nonsensical outputs ("gibberish") on complex prompts. GPT-3 generates far more coherent, creative, and contextually relevant text, making it suitable for real-world applications like writing assistants or storytelling.
-  
+
 - **Zero-Shot and Few-Shot Learning**: GPT-2 required fine-tuning for most tasks. GPT-3 excels at "prompt engineering"—performing tasks like translation, summarization, or Q&A with minimal or no examples, thanks to its scale.
 
 - **Robustness and Versatility**: It handles niche or specialized topics better (e.g., technical jargon or rare facts) without degrading performance. GPT-3 also shows improved multilingual capabilities and fewer hallucinations (fabricated info).

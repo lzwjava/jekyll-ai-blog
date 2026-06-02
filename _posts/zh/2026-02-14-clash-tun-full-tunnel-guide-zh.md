@@ -41,7 +41,7 @@ Clash 的 **TUN mode**（在 Clash Premium core、Clash Verge、Clash for Window
    - 实现全隧道：将最终规则设置为 `MATCH,PROXY`（或你的分组）。
 6. 重启 Clash → 使用 `curl ipinfo.io` 或浏览器测试（应显示代理 IP）。
 
-**优点**：真正的系统级路由，支持 UDP，与真正的 VPN 相比开销较低。  
+**优点**：真正的系统级路由，支持 UDP，与真正的 VPN 相比开销较低。
 **缺点**：需要一次性管理员权限，可能需要允许内核扩展（macOS 安全提示）。
 
 你的日志已经显示 Clash 在 **System Proxy** 模式下运行良好 —— 切换到 TUN 会使其行为更像全隧道 VPN。

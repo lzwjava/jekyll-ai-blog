@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about cooking everyday meals?
 
-Answer: 
+Answer:
 
 Here are some unpopular or controversial ideas about cooking everyday meals, drawn from online discussions (mostly Reddit threads where people share "unpopular opinions"):
 
@@ -28,10 +28,10 @@ Here are some unpopular or controversial ideas about cooking everyday meals, dra
 
 These views often spark debate because many people value home cooking for health, cost, or enjoyment, but others prioritize time and convenience.
 
-References:  
+References:
 
-- https://www.reddit.com/r/unpopularopinion/comments/1nnipph/cooking_every_day_is_a_hassle_and_ultimately_a/  
-- https://www.reddit.com/r/unpopularopinion/comments/p75b80/im_tired_of_people_acting_like_home_cooked_food/  
-- https://www.reddit.com/r/Cooking/comments/1c3lttr/your_actual_unpopular_food_opinion/  
-- https://www.reddit.com/r/unpopularopinion/comments/dya16o/meal_prepping_freaks_me_out_and_is_a_disgusting/  
+- https://www.reddit.com/r/unpopularopinion/comments/1nnipph/cooking_every_day_is_a_hassle_and_ultimately_a/
+- https://www.reddit.com/r/unpopularopinion/comments/p75b80/im_tired_of_people_acting_like_home_cooked_food/
+- https://www.reddit.com/r/Cooking/comments/1c3lttr/your_actual_unpopular_food_opinion/
+- https://www.reddit.com/r/unpopularopinion/comments/dya16o/meal_prepping_freaks_me_out_and_is_a_disgusting/
 - https://www.reddit.com/r/unpopularopinion/comments/w7ti64/home_cooking_is_a_terrible_practice_we_accept/

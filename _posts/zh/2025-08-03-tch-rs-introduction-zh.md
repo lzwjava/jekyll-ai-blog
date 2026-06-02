@@ -32,5 +32,5 @@ tch = "0.17.2"  # 请检查最新版本
 
 更多详细信息，请参阅代码库中提供的文档和示例。
 
-[tch-rs GitHub 代码库](https://github.com/LaurentMazare/tch-rs)  
+[tch-rs GitHub 代码库](https://github.com/LaurentMazare/tch-rs)
 [tch-rs 文档](https://docs.rs/tch)

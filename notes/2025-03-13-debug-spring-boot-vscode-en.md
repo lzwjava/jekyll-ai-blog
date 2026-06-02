@@ -74,11 +74,11 @@ If your application requires specific arguments (e.g., Spring profiles), you can
 
 ### Alternative Methods
 While the `launch.json` method is recommended for its flexibility, you can also debug using:
-- **Maven View**: 
+- **Maven View**:
   1. Open the Maven view in the sidebar (look for the "M" icon or enable it via Extensions).
   2. Expand your project, navigate to `spring-boot` under Plugins, right-click `spring-boot:run`, and select **Debug**.
   3. The application will start, and the debugger will attach.
-- **Spring Boot Dashboard**: 
+- **Spring Boot Dashboard**:
   1. Open the Spring Boot Dashboard (usually in the Explorer view or via the command palette: `Spring Boot Dashboard`).
   2. Locate your application, right-click it, and select **Debug** (if available).
 

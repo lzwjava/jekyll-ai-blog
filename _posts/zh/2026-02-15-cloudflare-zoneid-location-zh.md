@@ -11,7 +11,7 @@ type: note
 
 Question: 为什么我在 Cloudflare 的 Analytics & Logs > Web Analytics 中找不到 Zone ID？
 
-Answer: 
+Answer:
 
 **Zone ID** **不**在 **Analytics & Logs** 区域（包括 Web Analytics）。该区域显示的是流量统计、性能指标、安全事件和日志，并不显示 Account ID 或 Zone ID 等标识符。
 
@@ -21,7 +21,7 @@ Zone ID 是特定域名（Zone）的唯一标识符，位于 Dashboard 的不同
 
 1. 登录您的 Cloudflare Dashboard：[https://dash.cloudflare.com](https://dash.cloudflare.com)。
 2. 如果您有多个 Account，请确保选择了正确的账户（您会看到列出的账户；点击进入相关账户）。
-3. 从您的网站/域名列表中选择您需要 Zone ID 的特定 **domain** (zone)。  
+3. 从您的网站/域名列表中选择您需要 Zone ID 的特定 **domain** (zone)。
    → 这将带您进入该域名的 **Overview** 页面。
 4. 在 **Overview** 页面，向下滚动（通常位于右侧边栏底部或主要内容区域的底部）。
 5. 寻找 **API** 区域（它通常位于底部附近）。
@@ -47,7 +47,7 @@ Zone ID 是特定域名（Zone）的唯一标识符，位于 Dashboard 的不同
   ```
   在每个 zone 对象中查找 `id` 字段。
 
-References:  
+References:
 
 - [Find account and zone IDs · Cloudflare Fundamentals docs](https://developers.cloudflare.com/fundamentals/account/find-account-and-zone-ids)
 - [Cloudflare Community threads confirming location on Overview > API section](https://community.cloudflare.com/t/where-to-find-zone-id/132913)

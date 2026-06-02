@@ -16,7 +16,7 @@ Step 1: Checking Safari page state...
   Safari front tab URL: https://claude.ai/chat/...
   Is WhatsApp:       False     ← you're on Claude, not WhatsApp
   Message containers:0
-  
+
   ⚠️  Issues detected:
     → NOT on WhatsApp Web — open web.whatsapp.com in Safari
 ```

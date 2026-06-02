@@ -16,7 +16,7 @@ Several programming languages that started relatively late (post-2000) have show
 1. **Go (Golang)**
    - **Start and Context**: Released by Google in 2009, Go was designed for simplicity, performance, and scalability in large-scale systems, addressing issues in C++ and Java like complex syntax and slow compilation.
    - **Adoption Performance**: Go has climbed steadily in popularity. As of mid-2025, it ranks around #8-10 in the TIOBE Index (up from #13 in 2022) with a rating of ~2-3%, and it’s in the top 10 on PYPL. It has an estimated 2-3 million developers, compared to Java’s 12-15 million or C++’s 6-8 million. Stack Overflow’s 2024 survey showed 13% of developers using Go, with strong growth in cloud and DevOps.
-   - **Why It’s Catching Up**: 
+   - **Why It’s Catching Up**:
      - **Tech Advancements**: Go’s concurrency model (goroutines) and fast compilation make it ideal for cloud-native apps, microservices, and containers (e.g., Docker and Kubernetes are written in Go). It outperforms Java in resource efficiency for cloud workloads.
      - **AI Integration**: AI tools like GitHub Copilot enhance Go’s development speed, generating idiomatic code and reducing boilerplate. Go’s use in AI infrastructure (e.g., at Google) is growing due to its performance.
      - **Open-Source Community**: Go’s simple design and active community (over 30,000 packages on pkg.go.dev) drive adoption. Companies like Uber, Twitch, and Dropbox use Go, boosting its credibility.
@@ -82,10 +82,10 @@ Several programming languages that started relatively late (post-2000) have show
 ### Conclusion
 Go, TypeScript, Kotlin, Swift, and Julia are the standout languages starting post-2000 with rapid adoption, mirroring Rust’s trajectory. Go and TypeScript are closest to Rust in broad impact, while Kotlin and Swift dominate specific ecosystems, and Julia excels in a niche. Their growth is fueled by modern tech demands, AI tools, and open-source momentum, but none will fully “catch up” to Java/C/C++ in the next 5-10 years due to legacy entrenchment. Still, they’re reshaping their domains significantly.
 
-**References**  
-[Top Computer Languages 2025](https://statisticstimes.com/tech/top-computer-languages.php)  
-[Top 10 programming languages in 2025](https://www.pluralsight.com/resources/blog/software-engineering/top-programming-languages)  
-[Comparing tag trends with our Most Loved programming languages](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/)  
-[History of Programming Languages](https://devskiller.com/history-of-programming-languages/)  
-[10 dying or 'dead' programming languages](https://www.techtarget.com/searchsoftwarequality/feature/10-dying-or-dead-programming-languages)  
+**References**
+[Top Computer Languages 2025](https://statisticstimes.com/tech/top-computer-languages.php)
+[Top 10 programming languages in 2025](https://www.pluralsight.com/resources/blog/software-engineering/top-programming-languages)
+[Comparing tag trends with our Most Loved programming languages](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/)
+[History of Programming Languages](https://devskiller.com/history-of-programming-languages/)
+[10 dying or 'dead' programming languages](https://www.techtarget.com/searchsoftwarequality/feature/10-dying-or-dead-programming-languages)
 [The rise and fall in programming languages' popularity](https://www.zdnet.com/article/the-rise-and-fall-in-programming-languages-popularity-since-2016/)

@@ -33,5 +33,5 @@ type: note
 
 持续实践这些方法，你将逐渐减少批判性，收获更松弛的人生态度。这是个循序渐进的过程，请对自己保持耐心。
 
-[如何停止过度批判](https://www.psychologytoday.com/us/blog/the-mindful-self-express/201603/how-stop-being-so-critical)  
+[如何停止过度批判](https://www.psychologytoday.com/us/blog/the-mindful-self-express/201603/how-stop-being-so-critical)
 [放下完美主义](https://hbr.org/2021/02/how-to-let-go-of-perfectionism)

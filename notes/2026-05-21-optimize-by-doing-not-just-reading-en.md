@@ -22,7 +22,7 @@ Reading ROCm docs or CUDA papers gives you vocabulary. Actually profiling and op
 ## The Learning Loop That Works
 
 ```
-Pick a real bottleneck → measure it → form hypothesis → 
+Pick a real bottleneck → measure it → form hypothesis →
 change code → measure again → ask AI to explain the delta → repeat
 ```
 
@@ -69,7 +69,7 @@ rocprof --stats -o profile.csv ./my_kernel
 ```
 Here's my kernel: [paste]
 Here's my rocprof output: [paste]
-L2 hit rate is 23%. My hypothesis is that the B matrix access 
+L2 hit rate is 23%. My hypothesis is that the B matrix access
 pattern is non-coalesced. Is that right? What's the fix?
 ```
 

@@ -1,4 +1,4 @@
-$ python3.11 -m pip install git+https://github.com/attardi/wikiextractor.git 
+$ python3.11 -m pip install git+https://github.com/attardi/wikiextractor.git
 Defaulting to user installation because normal site-packages is not writeable
 Collecting git+https://github.com/attardi/wikiextractor.git
   Cloning https://github.com/attardi/wikiextractor.git to /tmp/pip-req-build-o7ivka3x
@@ -6,7 +6,7 @@ Collecting git+https://github.com/attardi/wikiextractor.git
   Resolved https://github.com/attardi/wikiextractor.git to commit 8f1b434a80608e1e313d38d263ed7c79c9ee75a9
   Preparing metadata (setup.py) ... error
   error: subprocess-exited-with-error
-  
+
   × python setup.py egg_info did not run successfully.
   │ exit code: 1
   ╰─> [40 lines of output]
@@ -51,7 +51,7 @@ Collecting git+https://github.com/attardi/wikiextractor.git
           raise source.error('global flags not at the start '
       re.error: global flags not at the start of the expression at position 4
       [end of output]
-  
+
   note: This error originates from a subprocess, and is likely not a problem with pip.
 error: metadata-generation-failed
 

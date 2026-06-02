@@ -12,7 +12,7 @@ type: note
 
 Question: For DBS, HSBC, Standard Chartered Bank (SCB), and AIA companies in China (specifically Guangzhou), if you're working as a contractor engineer, do you typically need to take one month of unpaid leave or get your current manager's approval before interviewing for or converting to a permanent position?
 
-Answer: 
+Answer:
 
 Practices for contractor-to-permanent conversions in China, including Guangzhou, differ significantly from those in Western banks due to strict Chinese labor laws under the Labor Contract Law (2008, amended 2012). China does not recognize "independent contractors" in the traditional sense for most roles—workers are typically classified as employees if they work under supervision, receive regular pay, and follow company rules, even if labeled as "contractors" via staffing agencies. This means many "contractor" arrangements are treated as fixed-term labor contracts, and conversions to permanent (open-ended) roles are governed by national regulations rather than company-specific "cooling-off" policies common in the US/UK. Guangzhou follows Guangdong provincial guidelines, which align closely with national rules but emphasize social insurance compliance and anti-misclassification penalties (fines up to 50,000 RMB per violation).
 

@@ -48,5 +48,5 @@ type: note
 
 这些校友彰显了理工学院在以色列“创业之国”地位中的核心作用，其毕业生创立了数千家公司并荣获众多国际奖项。
 
-[以色列理工学院百位著名校友](https://edurank.org/uni/technion-israel-institute-of-technology/alumni/)  
+[以色列理工学院百位著名校友](https://edurank.org/uni/technion-israel-institute-of-technology/alumni/)
 [以色列理工学院 - 维基百科](https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology)

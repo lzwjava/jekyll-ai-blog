@@ -16,13 +16,13 @@ type: note
 ### 发音指南
 普通话（使用拼音注音）：
 
-- **全称**：Guō qiáo mǐ xiàn  
-  - *Guō*（类似“gwo”发阳平声，如“go”但口型更圆）  
-  - *Qiáo*（类似“ch-yow”发上声，“ch”如“cheese”中的发音）  
-  - *Mǐ*（类似“mee”发去声）  
-  - *Xiàn*（类似“shyen”发去声，“sh”如“sheen”中的发音）  
+- **全称**：Guō qiáo mǐ xiàn
+  - *Guō*（类似“gwo”发阳平声，如“go”但口型更圆）
+  - *Qiáo*（类似“ch-yow”发上声，“ch”如“cheese”中的发音）
+  - *Mǐ*（类似“mee”发去声）
+  - *Xiàn*（类似“shyen”发去声，“sh”如“sheen”中的发音）
 
-注意声调以准确发音：阴平（guō）、上声（qiáo）、去声（mǐ）、去声（xiàn）。  
+注意声调以准确发音：阴平（guō）、上声（qiáo）、去声（mǐ）、去声（xiàn）。
 
 如需聆听发音示例，可在YouTube或谷歌搜索“guoqiao mixian pronunciation”——众多母语者会进行示范。
 

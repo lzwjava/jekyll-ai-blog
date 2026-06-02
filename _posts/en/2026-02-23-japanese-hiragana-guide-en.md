@@ -53,14 +53,14 @@ The core of hiragana consists of **46 basic characters** . These can be modified
     *   い = *i* (as in "m**e**")
     *   う = *u* (as in "f**oo**d", but with lips unrounded)
     *   え = *e* (as in "p**e**n")
-    *   お = *o* (as in "r**o**de") 
+    *   お = *o* (as in "r**o**de")
 
 *   **Consonant-Vowel Combinations:** These are formed by combining a consonant sound with the five vowels. For example, the **K**-row:
     *   か = *ka*
     *   き = *ki*
     *   く = *ku*
     *   け = *ke*
-    *   こ = *ko* 
+    *   こ = *ko*
 
 #### The Sounds of Hiragana
 The 46 basic characters can be expanded using two diacritical marks:

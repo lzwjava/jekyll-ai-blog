@@ -47,7 +47,7 @@ Now, add a **second provider** that points Claude Code traffic to that proxy.
 {
   "name": "anthropic-proxy",
   "api_base_url": "http://127.0.0.1:3000/v1/messages",
-  "api_key": "", 
+  "api_key": "",
   "models": [
     "anthropic/claude-sonnet-4",
     "anthropic/claude-3.5-sonnet",

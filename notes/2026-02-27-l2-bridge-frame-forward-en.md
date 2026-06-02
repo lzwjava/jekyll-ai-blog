@@ -11,12 +11,12 @@ type: note
 
 Question: In the OSI seven-layer reference model, a bridge operates at the data link layer, and the forwarding function it implements is:
 
-A. Bit forwarding  
-B. Frame forwarding  
-C. Packet forwarding  
-D. Message forwarding  
+A. Bit forwarding
+B. Frame forwarding
+C. Packet forwarding
+D. Message forwarding
 
-Answer: 
+Answer:
 
 **B. Frame forwarding**
 
@@ -36,6 +36,6 @@ Correct answer: **B. Frame forwarding** (帧转发)
 
 The bridge reads the destination MAC address in the frame, looks it up in its MAC address table (also called the forwarding table or CAM table), and decides which port to forward the frame out of — this is classic **frame forwarding**.
 
-References:  
+References:
 
 - None (standard networking knowledge from OSI model and IEEE 802.1D bridging specification)

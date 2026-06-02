@@ -144,7 +144,7 @@ def simulate_flip_flop():
 
     else:
         print("无效选择。请重试。")
-    
+
     simulate_flip_flop()  # 重新启动菜单
 
 # 运行模拟器

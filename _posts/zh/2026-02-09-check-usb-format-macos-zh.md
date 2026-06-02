@@ -12,7 +12,7 @@ type: note
 
 Question: 在 macOS 中，如何知道 USB 磁盘的格式（FAT32 或其他）？
 
-Answer: 
+Answer:
 
 以下是在 macOS 上检查 USB 驱动器文件系统格式（例如 FAT32, exFAT, APFS, Mac OS Extended, NTFS 等）最简单的方法：
 
@@ -64,7 +64,7 @@ Answer:
 
 这些方法适用于 macOS Ventura, Sonoma, Sequoia 及更早的版本。
 
-References:  
+References:
 
 - [How to Determine File System of a Drive on Mac - OS X Daily](https://osxdaily.com/2023/01/30/how-to-determine-file-system-of-a-drive-on-mac)
 - [Server Fault - How do I identify the file system of a drive in Mac OS?](https://serverfault.com/questions/276091/how-do-i-identify-the-file-system-of-a-drive-in-mac-os)

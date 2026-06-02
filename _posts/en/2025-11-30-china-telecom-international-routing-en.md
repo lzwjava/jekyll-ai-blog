@@ -33,15 +33,15 @@ type: note
 
 ### Common ways people get CN2 GIA today (2024–2025)
 
-1. **Residential/enterprise broadband packages**  
+1. **Residential/enterprise broadband packages**
    Some cities or business parks offer China Telecom “CN2 GIA” broadband (usually 500–1000 Mbps, costs 3000–10000 RMB/year or more). IPs are still 202.97 but traceroute shows CN2 GIA paths (59.43.x.x or 58.2.x.x segments).
 
-2. **Dedicated lines sold by third-party providers**  
-   - IPLC (International Private Leased Circuit)  
-   - IEPL (International Ethernet Private Line)  
+2. **Dedicated lines sold by third-party providers**
+   - IPLC (International Private Leased Circuit)
+   - IEPL (International Ethernet Private Line)
    - Many of these are actually China Telecom CN2 GIA on the China side + Tier-1 transit (NTT, Tata, GTT, etc.) on the overseas side.
 
-3. **Cloud VPS or “airport”/“transit” services**  
+3. **Cloud VPS or “airport”/“transit” services**
    Services like Vultr CN2 GIA, Bandwagon Host “CN2 GIA”, Raksmart, etc., buy wholesale CN2 GIA bandwidth from China Telecom and resell it.
 
 ### Quick way to identify CN2 GIA in traceroute

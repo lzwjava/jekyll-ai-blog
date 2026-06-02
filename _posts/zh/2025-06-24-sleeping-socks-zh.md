@@ -43,8 +43,8 @@ type: post
 
 现在我将空调设为27或28度，整夜穿着睡眠袜，完美解决问题。为何不穿普通袜子？因为它们过紧且不够舒适。
 
-{: .centered }  
-![](/assets/images/socks/socks.jpg){: .responsive }  
+{: .centered }
+![](/assets/images/socks/socks.jpg){: .responsive }
 *图源：Walmart.com*{: .caption }
 
 ---

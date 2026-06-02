@@ -93,9 +93,9 @@ type: note
 
 **参考资料：**
 
-- 毛泽东，《新民主主义论》 (1940)  
+- 毛泽东，《新民主主义论》 (1940)
   [https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm](https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm)
-- 毛泽东，《论人民民主专政》 (1949)  
+- 毛泽东，《论人民民主专政》 (1949)
   [https://www.marxists.org/reference/archive/mao/selected-works/volume-4/mswv4_65.htm](https://www.marxists.org/reference/archive/mao/selected-works/volume-4/mswv4_65.htm)
-- 中国共产党官方历史文献  
+- 中国共产党官方历史文献
   [http://www.idcpc.org.cn/english2023/tjzl/cxzl/](http://www.idcpc.org.cn/english2023/tjzl/cxzl/)

@@ -23,13 +23,13 @@ pip install networkx matplotlib
 为获得更快的渲染速度，Matplotlib 建议安装 NumPy（`pip install numpy`）
 
 ### 基础设置与示例
-1. **导入库**：  
+1. **导入库**：
    ```python
    import networkx as nx
    import matplotlib.pyplot as plt
    ```
 
-2. **创建图结构**：  
+2. **创建图结构**：
    使用 NetworkX 构建简单无向图（可自定义为有向图、带权重边等）：
    ```python
    G = nx.Graph()  # 创建空图
@@ -37,7 +37,7 @@ pip install networkx matplotlib
    G.add_edges_from([(1, 2), (2, 3), (3, 4), (4, 5), (5, 1)])  # 添加边（连接关系）
    ```
 
-3. **绘制并显示图表**：  
+3. **绘制并显示图表**：
    使用 Matplotlib 后端进行可视化：
    ```python
    nx.draw(G, with_labels=True)  # 绘制带节点标签的图

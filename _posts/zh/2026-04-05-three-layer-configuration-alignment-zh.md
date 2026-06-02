@@ -30,14 +30,14 @@ type: note
 │  文件: ~/.openclaw/openclaw.json                                        │
 │  键:  baseUrl, webhookPublicUrl, botSecret, rooms[].requireMention      │
 │  用途: OpenClaw 如何验证并响应 Nextcloud                                │
-│                                                                         
+│
 │  baseUrl = "http://localhost:8080"                                      │
 │    ↑ 必须与 X-Nextcloud-Talk-Backend 头部值完全匹配                      │
 │    ↓ 同时用于传入签名验证 和 传出 API 调用                                │
-│                                                                         
+│
 │  webhookPublicUrl = "http://172.17.0.1:8788"                           │
 │    ↑ Nextcloud 应向此地址发送 webhook（必须能从 Docker 网络内访问到）      │
-│                                                                         
+│
 │  botSecret = "bgCDXVAqsN3MX..."                                         │
 │    ↑ 用于 HMAC 签名的共享密钥（必须与机器人注册时匹配）                   │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -49,16 +49,16 @@ type: note
 │  表: oc_talk_bots_server                                               │
 │  列: id, name, url, url_hash, secret, features, state                  │
 │  用途: Nextcloud 内部记录的已注册机器人信息                             │
-│                                                                         
+│
 │  url = "http://172.17.0.1:8788/nextcloud-talk-webhook"                 │
 │    ↑ Nextcloud 在消息到达时调用的 webhook URL                           │
 │    ↑ 必须与 OpenClaw 的 webhookPublicUrl 匹配                           │
-│                                                                         
+│
 │  secret = "bgCDXVAqsN3MX..."                                            │
 │    ↑ 必须与 OpenClaw 的 botSecret 匹配                                  │
 │    ↑ 由 Nextcloud 用于签署传出的 webhooks                               │
 │    ↑ 由 OpenClaw 用于验证传入的签名                                      │
-│                                                                         
+│
 │  表: oc_talk_bots_conversation                                         │
 │  列: id, bot_id, token, state                                          │
 │  用途: 机器人启用于哪些房间                                             │

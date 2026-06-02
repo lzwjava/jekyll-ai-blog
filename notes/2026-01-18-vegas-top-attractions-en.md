@@ -12,7 +12,7 @@ type: note
 
 Question: Where to visit in Las Vegas?
 
-Answer: 
+Answer:
 
 Las Vegas offers a mix of iconic Strip attractions, immersive experiences, shows, and nearby natural wonders. Here are some of the top places to visit, based on current recommendations (as of 2026):
 
@@ -44,7 +44,7 @@ Las Vegas offers a mix of iconic Strip attractions, immersive experiences, shows
 
 Las Vegas is constantly evolving with new immersive spots and events, so check current schedules for shows and openings.
 
-References:  
+References:
 
 - [TripAdvisor - Best Things to Do in Las Vegas](https://www.tripadvisor.com/Attractions-g45963-Activities-Las_Vegas_Nevada.html)
 - [Visit Las Vegas Official Site](https://www.visitlasvegas.com/things-to-do)

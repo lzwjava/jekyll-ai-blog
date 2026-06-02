@@ -33,6 +33,6 @@ type: note
 
 如果您的设置涉及其他本地服务（例如，内部注册中心或本地通信的容器），在 `no-proxy` 中扩展这些域名/IP 可以防止类似问题。
 
-[Docker 守护进程代理配置](https://docs.docker.com/engine/daemon/proxy/)  
-[Docker 代理设置论坛讨论](https://forums.docker.com/t/proxy-settings-for-the-docker-daemon/132089)  
+[Docker 守护进程代理配置](https://docs.docker.com/engine/daemon/proxy/)
+[Docker 代理设置论坛讨论](https://forums.docker.com/t/proxy-settings-for-the-docker-daemon/132089)
 [面向企业防火墙的 Docker 代理指南](https://www.datacamp.com/tutorial/docker-proxy)

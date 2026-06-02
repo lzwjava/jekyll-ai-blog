@@ -41,6 +41,6 @@ The MEF-550 offers solid accuracy for a consumer-grade device, with manufacturer
 
 In scientific testing (e.g., air purification studies), it reliably measured pollutant removal rates up to 99% with consistent decay tracking. However, like many electrochemical formaldehyde sensors, it can experience cross-sensitivity to interferents like alcohols or high humidity, potentially overestimating by 10-20% in complex environments. Calibration is key, and it's more accurate than basic color-changing badges but less precise than lab-grade photoacoustic spectrometers. User reviews are sparse, but in professional contexts (e.g., hospitals), it's deemed reliable for spot-checks. For critical applications, pair with periodic lab validation.
 
-[ Pilot Study on Negative Oxygen Ions and Air Purification (MDPI) ](https://www.mdpi.com/2073-4433/15/7/860)  
-[ Operation Room Air Exposure Study (PMC) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC10835182/)  
+[ Pilot Study on Negative Oxygen Ions and Air Purification (MDPI) ](https://www.mdpi.com/2073-4433/15/7/860)
+[ Operation Room Air Exposure Study (PMC) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC10835182/)
 [ Formaldehyde Sensor Review (Smart Air) ](https://smartairfilters.com/en/blog/formaldehyde-detectors-not-accurate-monitor-formaldehyde-home/)

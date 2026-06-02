@@ -20,7 +20,7 @@ If \\( T: V \to W \\) is a linear transformation between two vector spaces \\( V
 ### Key Properties:
 1. **Subspace**: The kernel of a linear transformation is always a subspace of the domain \\( V \\).
 2. **Dimension**: The dimension of the kernel is called the **nullity** of the transformation.
-3. **Relation to Injectivity**: 
+3. **Relation to Injectivity**:
    - If \\( \ker(T) = \{0\} \\), then \\( T \\) is **injective** (one-to-one).
    - If \\( \ker(T) \\) has dimension greater than zero, then \\( T \\) is not injective.
 

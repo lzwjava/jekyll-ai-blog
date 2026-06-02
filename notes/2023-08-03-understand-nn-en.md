@@ -7,7 +7,7 @@ title: Understanding Neural Network
 type: note
 ---
 
-Zhiwei: 
+Zhiwei:
 
 Could you explain the code?
 
@@ -18,7 +18,7 @@ Could you explain the code?
                        for b, nb in zip(self.biases, nabla_b)]
 ```
 
-ChatGPT: 
+ChatGPT:
 
 Of course! The code you provided seems to be part of a machine learning algorithm, specifically an implementation of stochastic gradient descent (SGD) for updating the weights and biases in a neural network during the training process. Let's break it down step by step:
 
@@ -54,7 +54,7 @@ In summary, these lines of code perform the weight and bias updates for the neur
 
 ----
 
-Zhiwei: What is SpaCy language model? 
+Zhiwei: What is SpaCy language model?
 
 ChatGPT: SpaCy is an open-source natural language processing (NLP) library developed by Explosion AI. It is designed to be efficient, fast, and production-ready, making it a popular choice for various NLP tasks. SpaCy provides pre-trained language models that can process and understand text, allowing developers to perform various NLP tasks such as part-of-speech tagging, named entity recognition, sentence parsing, and more.
 
@@ -76,7 +76,7 @@ SpaCy supports multiple languages and comes with pre-trained models for differen
 
 ---
 
-Zhiwei: What is SpaCy language model? 
+Zhiwei: What is SpaCy language model?
 
 ChatGPT: SpaCy is an open-source natural language processing (NLP) library developed by Explosion AI. It is designed to be efficient, fast, and easy to use, making it a popular choice for various NLP tasks. SpaCy provides pre-trained language models for several languages, allowing users to perform tasks such as tokenization, part-of-speech tagging, named entity recognition, dependency parsing, and more.
 
@@ -189,7 +189,7 @@ Root Cause (first observed failure):
 
 Learn the error stack trace.
 
-Ask ChatGPT about what Backend.NCCL means in Pytorch? 
+Ask ChatGPT about what Backend.NCCL means in Pytorch?
 
 ---
 
@@ -391,7 +391,7 @@ ChatGPT: Certainly! The provided code is a method called `generate` that takes a
 
 3. **Token Generation:**
    The method generates tokens for the output text. It uses a loop to iterate over positions in the generated sequence, starting from the end of the prompt and moving forward.
-   
+
    - The logits for each position are obtained by passing the partial sequence to the model's forward function.
    - If `temperature` is greater than 0, the logits are transformed into probabilities using softmax with the given temperature value. If `temperature` is 0, the token with the highest logit is selected using `torch.argmax`.
    - The next token is determined based on the generated probabilities or argmax, and it is placed in the corresponding position of the `tokens` tensor.

@@ -38,7 +38,7 @@ One of the most important results in network theory connects maximum flow to min
 
 1. The maximum flow through a network equals the capacity of the minimum cut
 2. This duality can be expressed using linear algebra and solved using techniques like:
-   - Ford-Fulkerson algorithm 
+   - Ford-Fulkerson algorithm
    - Linear programming formulations
 
 ### 9.2.3 Worked Example: Shipping Problem
@@ -91,10 +91,10 @@ Computers implement special algorithms to efficiently handle large matrices:
 import numpy as np
 
 # Define a system of linear equations as a matrix
-A = np.array([[3, 1, -1], 
-              [1, 4, 1], 
+A = np.array([[3, 1, -1],
+              [1, 4, 1],
               [2, 1, 2]])
-              
+
 b = np.array([9, 7, 8])
 
 # Solve the system Ax = b

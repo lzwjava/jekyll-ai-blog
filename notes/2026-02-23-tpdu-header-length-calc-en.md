@@ -11,7 +11,7 @@ type: note
 
 Question: In the Transport Protocol Data Unit (TPDU), if the LI (Length Indicator) field is 11111100, what is the header length in bytes?
 
-Answer: 
+Answer:
 
 The correct answer is **A: 254 bytes**.
 

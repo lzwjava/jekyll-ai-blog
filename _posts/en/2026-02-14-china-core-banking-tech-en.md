@@ -12,7 +12,7 @@ type: note
 
 **Question:** What financial systems do banks in China use for mutual funds, trading, and similar functions, comparable to Avaloq in global banks?
 
-**Answer:** 
+**Answer:**
 
 In China, banks primarily rely on **domestic vendors** for core banking and related financial systems, unlike global banks that often use international platforms like **Avaloq** (a Swiss wealth management-focused core banking and wealth platform used by institutions for private banking, investment management, mutual funds, and integrated trading/wealth services).
 
@@ -45,7 +45,7 @@ Other notable domestic vendors include Hundsun Technologies, Neusoft, and iSoftS
 
 In summary, while no exact one-to-one match for Avaloq exists (due to China's localized ecosystem), **Sunline** stands out as a close functional equivalent for modern wealth management, mutual funds, and investment/trading support in Chinese banks.
 
-**References:**  
+**References:**
 
 - [Core Banking Systems Market in China – Vendors, SIs, and Trends](https://victorleungtw.wordpress.com/2025/04/30/core-banking-systems-market-in-china-vendors-sis-and-trends)
 - [Sunline Official Site - Core Banking Success](https://www.sunline-i.com/)

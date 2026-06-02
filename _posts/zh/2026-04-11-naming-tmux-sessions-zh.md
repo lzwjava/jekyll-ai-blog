@@ -92,5 +92,5 @@ tmux rename-session -t 旧名称 新名称
 
 此方法适用于Linux、macOS以及任何安装了tmux的系统。
 
-参考文献：  
+参考文献：
 - [tmux手册页](https://man7.org/linux/man-pages/man1/tmux.1.html)

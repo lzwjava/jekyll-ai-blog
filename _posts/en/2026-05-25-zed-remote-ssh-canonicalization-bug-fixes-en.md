@@ -12,7 +12,7 @@ type: note
 Found the root cause. From Zed logs:
 
 ```
-ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference": 
+ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference":
 canonicalizing "/mnt/data/deepseek-v4-inference": No such file or directory (os error 2)
 ```
 

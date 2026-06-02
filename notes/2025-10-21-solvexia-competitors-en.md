@@ -41,10 +41,10 @@ Solvexia (formerly SolveXia) operates in the niche of no-code automation for fin
 
 These competitors vary in pricing (from subscription-based SaaS to enterprise licensing), target market size (SMBs to globals), and focus (e.g., reconciliation vs. full FP&A). Solvexia differentiates with its emphasis on no-code for complex, qualitative financial tasks. For deeper comparisons, tools like Gartner Peer Insights rate many of these in the financial reconciliation market.
 
-**References**  
-[Best BlackLine Alternatives: Top Competitors Compared for 2025](https://www.solvexia.com/blog/blackline-alternatives)  
-[Top SolveXia Alternatives in 2025](https://slashdot.org/software/p/SolveXia/alternatives)  
-[SolveXia Company Profile on PitchBook](https://pitchbook.com/profiles/company/453321-19)  
-[SolveXia on ZoomInfo](https://www.zoominfo.com/c/solvexia-pty-ltd/351443285)  
-[SolveXia Alternatives on Techimply](https://www.techimply.com/solvexia/alternatives)  
+**References**
+[Best BlackLine Alternatives: Top Competitors Compared for 2025](https://www.solvexia.com/blog/blackline-alternatives)
+[Top SolveXia Alternatives in 2025](https://slashdot.org/software/p/SolveXia/alternatives)
+[SolveXia Company Profile on PitchBook](https://pitchbook.com/profiles/company/453321-19)
+[SolveXia on ZoomInfo](https://www.zoominfo.com/c/solvexia-pty-ltd/351443285)
+[SolveXia Alternatives on Techimply](https://www.techimply.com/solvexia/alternatives)
 [Top Solvexia Competitors on Craft.co](https://craft.co/solvexia/competitors)

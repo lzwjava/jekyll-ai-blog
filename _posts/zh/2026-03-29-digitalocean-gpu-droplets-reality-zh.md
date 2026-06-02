@@ -15,7 +15,7 @@ type: note
 
 ### 1. “隐藏”的通信税
 虽然 DO 针对大规模训练推销其 8-GPU H100 配置，但高级用户经常发现，在特定的 inference 任务中，**4-GPU 配置实际上可能比 8-GPU 配置更快**。
-* **论据：** 在 8-GPU 集群中，GPU 间的通信开销（all_reduce/all_gather 操作）可能成为瓶颈。 
+* **论据：** 在 8-GPU 集群中，GPU 间的通信开销（all_reduce/all_gather 操作）可能成为瓶颈。
 * **非主流观点：** 由于同步延迟（synchronization latency），你通常支付了 8 个 GPU 的费用，却只得到了 6 个 GPU 的有效吞吐量。一些开发者发现，运行两个独立的 2-GPU 或 4-GPU 实例并使用 Tensor Parallelism (TP=2)，每美元获得的 tokens-per-second 更高。
 
 ### 2. “GPU 版 Airbnb” 实际上更便宜

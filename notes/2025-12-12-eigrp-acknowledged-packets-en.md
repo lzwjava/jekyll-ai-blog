@@ -14,7 +14,7 @@ Question: Which EIGRP packet is sent as a unicast and requires acknowledgment? A
 
 Answer:
 
-The correct answer is **B) Update**, **C) Query**, and **D) Reply** — all three are sent as **unicast** and require **explicit acknowledgment**.  
+The correct answer is **B) Update**, **C) Query**, and **D) Reply** — all three are sent as **unicast** and require **explicit acknowledgment**.
 Only **A) Hello** does not fit the description.
 
 Here’s a comprehensive breakdown of each EIGRP packet type regarding transmission method and acknowledgment:
@@ -38,6 +38,6 @@ Many practice questions expect **Update** as the single answer because it is the
 
 If the question forces a single choice and comes from Cisco’s official material (e.g., CCNP ENARSI), the historically most common expected answer is **B) Update**.
 
-References:  
-- [Cisco EIGRP Packet Types](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html)  
+References:
+- [Cisco EIGRP Packet Types](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html)
 - [EIGRP Reliable Transport Protocol (RFC 7868)](https://datatracker.ietf.org/doc/html/rfc7868)

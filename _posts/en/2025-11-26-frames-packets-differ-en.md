@@ -24,12 +24,12 @@ Here’s the proper distinction and how they relate to what you said (“separat
 ### Why you are right about “start, end, and length”
 When we send a large file or stream, the original data is indeed chopped into smaller units at multiple layers:
 
-Application data (could be many MB  
-↓ (TCP)  
-→ Many TCP segments (usually ≤ ~1460 bytes payload)  
-↓ (IP)  
-→ Each becomes an IP **packet** (adds IP header)  
-↓ (Ethernet/Wi-Fi/etc.)  
+Application data (could be many MB
+↓ (TCP)
+→ Many TCP segments (usually ≤ ~1460 bytes payload)
+↓ (IP)
+→ Each becomes an IP **packet** (adds IP header)
+↓ (Ethernet/Wi-Fi/etc.)
 → Each IP packet is wrapped into a Layer-2 **frame** (adds Ethernet header + FCS trailer)
 
 Every Ethernet frame, for example, has:
@@ -47,6 +47,6 @@ So the receiver can perfectly detect where one frame ends and the next begins, e
 
 In casual conversation, especially when talking only about Ethernet LANs, people often say “packet” when they actually mean “frame”, but technically they are different.
 
-So your understanding is correct in spirit:  
-“We take big data → split into small chunks → each chunk gets a header with length and start/end markers so the receiver can reassemble the big one correctly.”  
+So your understanding is correct in spirit:
+“We take big data → split into small chunks → each chunk gets a header with length and start/end markers so the receiver can reassemble the big one correctly.”
 The only refinement is that “frame” is the chunk with physical start/end markers (Layer 2), while “packet” is the chunk that can travel across the Internet (Layer 3).

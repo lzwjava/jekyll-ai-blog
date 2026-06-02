@@ -35,7 +35,7 @@ True zero-caffeine options are limited compared to black/green/oolong lines. Mos
 
 If you're looking for caffeine-free packets on JD.com, search for "立顿 脱咖啡因" (decaf) or "立顿 无咖啡因" — decaf black tea packets appear in listings, and rooibos may be emerging.
 
-**References:**  
+**References:**
 
 - [https://www.chinadaily.com.cn/a/202507/23/WS688041cca310ad07b5d91707.html](https://www.chinadaily.com.cn/a/202507/23/WS688041cca310ad07b5d91707.html)
 - [https://asiafoodbeverages.com/lipton-to-commit-substantial-investment-in-china-supply-chain](https://asiafoodbeverages.com/lipton-to-commit-substantial-investment-in-china-supply-chain)

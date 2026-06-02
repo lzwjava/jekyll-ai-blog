@@ -17,7 +17,7 @@ Here is how to make it better and avoid the common mistakes:
 If you are using fresh squid, do not boil it with the rice from the beginning. This is the #1 reason it becomes tough.
 
 * **Prep:** Cut the squid into thin rings or score them in a diamond pattern so they curl up beautifully.
-* **The Timing:** Cook your porridge until the rice is completely soft and the texture is exactly how you want it. 
+* **The Timing:** Cook your porridge until the rice is completely soft and the texture is exactly how you want it.
 * **The Finish:** Turn the heat to high so the porridge is bubbling, drop the squid in, and stir for only **1 to 2 minutes** maximum. Turn off the heat immediately. The residual heat will finish cooking the squid without making it rubbery.
 
 ### 2. The "Stir-Fry First" Secret

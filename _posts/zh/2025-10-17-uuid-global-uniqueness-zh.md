@@ -19,6 +19,6 @@ UUID能够在无需中央授权的情况下实现全局唯一标识，是因为�
 
 不同UUID版本还设有额外保障机制：版本1采用时间戳与MAC地址，版本5通过命名空间哈希命名等。但仅凭版本4的随机性，就足以确保分布式系统、数据库或应用程序在无协调机制下的唯一性。
 
-[碰撞概率究竟有多低？](https://jhall.io/archive/2021/05/19/what-are-the-odds/)  
-[通用唯一识别码 - 维基百科](https://en.wikipedia.org/wiki/Universally_unique_identifier)  
+[碰撞概率究竟有多低？](https://jhall.io/archive/2021/05/19/what-are-the-odds/)
+[通用唯一识别码 - 维基百科](https://en.wikipedia.org/wiki/Universally_unique_identifier)
 [Java UUID.randomUUID 的碰撞概率有多大？](https://stackoverflow.com/questions/24876188/how-big-is-the-chance-to-get-a-java-uuid-randomuuid-collision)

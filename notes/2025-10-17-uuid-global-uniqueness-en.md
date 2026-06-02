@@ -20,6 +20,6 @@ As for collisions: Yes, in theory, it's possible for two UUIDs to be identical, 
 
 Different UUID versions add safeguards: version 1 uses timestamps and MAC addresses, version 5 hashes names with namespaces, etc. But version 4's randomness alone ensures uniqueness in distributed systems, databases, or apps without coordination.
 
-[What are the odds?](https://jhall.io/archive/2021/05/19/what-are-the-odds/)  
-[Universally unique identifier - Wikipedia](https://en.wikipedia.org/wiki/Universally_unique_identifier)  
+[What are the odds?](https://jhall.io/archive/2021/05/19/what-are-the-odds/)
+[Universally unique identifier - Wikipedia](https://en.wikipedia.org/wiki/Universally_unique_identifier)
 [How big is the chance to get a Java UUID.randomUUID collision?](https://stackoverflow.com/questions/24876188/how-big-is-the-chance-to-get-a-java-uuid-randomuuid-collision)

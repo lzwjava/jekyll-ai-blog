@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about Java IO?
 
-Answer: 
+Answer:
 
 Java's `java.io` package (often referred to as Java IO) has been a core part of the language since its early versions, but it attracts criticism for design choices that feel outdated or cumbersome compared to modern alternatives. Here are some unpopular or contrarian opinions commonly expressed in developer communities:
 
@@ -28,7 +28,7 @@ Java's `java.io` package (often referred to as Java IO) has been a core part of 
 
 These views are "unpopular" because `java.io` remains widely used for its simplicity in basic scenarios, backward compatibility, and familiarity. Many developers defend it as reliable and sufficient for everyday tasks, arguing that NIO's complexity is overkill unless performance demands it.
 
-References:  
+References:
 
 - [Reddit: What are the valid criticisms against Java?](https://www.reddit.com/r/java/comments/7qdrjg/what_are_the_valid_criticisms_against_java/)
 - [Reddit: What are some of the outdated Java technologies which are worth avoiding?](https://www.reddit.com/r/java/comments/8r8t00/what_are_some_of_the_outdated_java_technologies/)

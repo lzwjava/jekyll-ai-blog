@@ -16,9 +16,9 @@ type: note
 
 总之，若想品尝鲜而不腻的中式 comfort food，选这家准没错——正宗味美且毫无负担感。
 
-参考来源：  
-[深圳新店 金戈戈香港豉油鸡 打工人的下饭神器 - 大众点评](https://www.dianping.com/discovery/1436849166)  
-[金戈戈香港豉油鸡(卓悦中心店) - 携程美食](https://you.ctrip.com/food/26/78199957.html)  
-[豉油鸡以我在深圳吃了不下50家来说可以排 - 大众点评](http://m.dianping.com/review/2353484187)  
-[深圳排队王、2年必吃榜，它靠一道豉油鸡冲出烧腊的大赛道！ - 红餐网](https://m.canyin88.com/zixun/2020/12/18/82314.html)  
+参考来源：
+[深圳新店 金戈戈香港豉油鸡 打工人的下饭神器 - 大众点评](https://www.dianping.com/discovery/1436849166)
+[金戈戈香港豉油鸡(卓悦中心店) - 携程美食](https://you.ctrip.com/food/26/78199957.html)
+[豉油鸡以我在深圳吃了不下50家来说可以排 - 大众点评](http://m.dianping.com/review/2353484187)
+[深圳排队王、2年必吃榜，它靠一道豉油鸡冲出烧腊的大赛道！ - 红餐网](https://m.canyin88.com/zixun/2020/12/18/82314.html)
 [深圳美食｜绝对不能错过的豉油鸡天花板 - 大众点评](https://www.dianping.com/discovery/692138089)

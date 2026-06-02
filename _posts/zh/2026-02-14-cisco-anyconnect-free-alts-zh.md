@@ -12,7 +12,7 @@ type: note
 
 Question: Cisco AnyConnect 是否免费提供给普通用户使用？或者是否有替代工具？
 
-Answer: 
+Answer:
 
 **不，Cisco AnyConnect（现在官方更名为 Cisco Secure Client）并不像消费级 VPN 那样免费提供给普通个人用户使用。**
 它是一款**企业级 SSL VPN client**，专为连接到基于 Cisco 的 VPN headends（如 ASA firewalls 或其他 Cisco 设备）的组织而设计。Cisco 不直接向个人消费者销售或提供该软件用于个人 VPN server 或通用用途。

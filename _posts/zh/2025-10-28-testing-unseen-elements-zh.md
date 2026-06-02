@@ -27,6 +27,6 @@ type: note
 
 这种“检查未见词/n元语法”测试是在丢弃法或验证曲线等先进技术出现前的一种直观早期启发式方法。Sutskever在演讲中指出，此类洞见推动了现代大语言模型的规模化发展，其中对海量未见数据的泛化能力仍是核心。
 
-[序列到序列学习与神经网络（arXiv PDF）](https://arxiv.org/pdf/1409.3215.pdf)  
-[Ilya Sutskever博士论文（PDF）](https://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)  
+[序列到序列学习与神经网络（arXiv PDF）](https://arxiv.org/pdf/1409.3215.pdf)
+[Ilya Sutskever博士论文（PDF）](https://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
 [Ilya Sutskever NeurIPS 2024演讲视频](https://www.youtube.com/watch?v=YD-9NG1Ke5Y)

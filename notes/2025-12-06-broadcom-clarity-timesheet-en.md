@@ -12,7 +12,7 @@ type: note
 
 ### Question: Provide a comprehensive introduction to Broadcom's Clarity timesheet system.
 
-### Answer 
+### Answer
 
 #### Overview of Broadcom Clarity PPM
 Broadcom's Clarity, formerly known as CA Project & Portfolio Management (CA PPM), is a comprehensive enterprise software platform designed for project and portfolio management (PPM). It enables organizations to align projects with business strategies, optimize resource allocation, and track financial performance across portfolios. Acquired by Broadcom in 2018, Clarity supports both on-premise and SaaS deployments, offering tools for roadmapping, financial planning, resource management, and demand fulfillment. At its core, Clarity integrates modular components that facilitate end-to-end project lifecycle management, with a focus on agility, scalability, and data-driven decision-making. As of 2025, the latest versions (e.g., 16.x) emphasize a modern user experience (New UX) with mobile accessibility and AI-enhanced features.

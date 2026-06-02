@@ -77,7 +77,7 @@ gradient_accumulation_steps = 64
 max_iters = 5000
 lr_decay_iters = 5000
 
-# 中等运行（~30 小时）：50 亿 token  
+# 中等运行（~30 小时）：50 亿 token
 max_iters = 9500
 lr_decay_iters = 9500
 

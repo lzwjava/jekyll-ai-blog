@@ -11,7 +11,7 @@ type: note
 
 Question: How much time should pineapple soak in salt water before eating?
 
-Answer: 
+Answer:
 
 Fresh pineapple contains an enzyme called **bromelain** that can cause a tingling, burning, or irritating sensation on the tongue and in the mouth (often described as "pineapple burn"). Soaking cut pineapple in salt water helps by activating the bromelain outside your mouth, deactivating much of it before you eat, which reduces or eliminates the irritation. Salt can also make the pineapple taste sweeter by balancing acidity.
 
@@ -30,7 +30,7 @@ Recommended soaking times from reliable sources vary, but shorter times are most
 
 Note: This method doesn't completely remove bromelain like heat does (e.g., grilling or canning pineapple), but it's a popular and effective trick for raw fresh pineapple. If the burning is severe, heating the fruit is the most reliable way to fully deactivate the enzyme.
 
-References:  
+References:
 
 - [https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain](https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain)
 - [https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak](https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak)

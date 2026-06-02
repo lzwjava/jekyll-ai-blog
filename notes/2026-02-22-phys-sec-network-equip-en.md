@@ -11,7 +11,7 @@ type: note
 
 Question: Which category of security does protecting computer network equipment and facilities belong to?
 
-Answer: 
+Answer:
 
 Protecting computer network equipment and facilities belongs to **Physical Security (Option C)**.
 

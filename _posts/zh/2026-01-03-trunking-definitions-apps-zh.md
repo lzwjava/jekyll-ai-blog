@@ -12,7 +12,7 @@ type: note
 
 Question: "Trunking" 是什么意思？
 
-Answer: 
+Answer:
 
 "Trunking" 是一个在不同语境下具有多重含义的术语。以下是主要的定义：
 
@@ -29,7 +29,7 @@ Answer:
 
 目前最常见的技术用法是在 Networking (VLAN trunking) 以及 Telecommunications/Radio systems 中。
 
-References:  
+References:
 
 - [Trunking - Wikipedia](https://en.wikipedia.org/wiki/Trunking)
 - [What is Trunking? – Definition from TechTarget](https://www.techtarget.com/searchnetworking/definition/trunk)

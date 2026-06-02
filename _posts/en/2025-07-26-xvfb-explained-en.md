@@ -47,6 +47,6 @@ It's commonly used in automated testing (e.g., with Selenium for web scraping or
 
 Regarding the error you pasted: It seems Xvfb isn't installed on your system (the `FileNotFoundError` for 'Xvfb'). On macOS (based on your Homebrew paths), you can install it via `brew install --cask xvfb` or similar, but confirm it's in your PATH. pyvirtualdisplay relies on it being available as an executable.
 
-[Xvfb Man Page](https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml)  
-[Wikipedia: Xvfb](https://en.wikipedia.org/wiki/Xvfb)  
+[Xvfb Man Page](https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml)
+[Wikipedia: Xvfb](https://en.wikipedia.org/wiki/Xvfb)
 [How to Use Xvfb for Headless Testing](https://www.browserstack.com/guide/what-is-xvfb)

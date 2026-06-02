@@ -184,7 +184,7 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
     if not instance_name:
         random_chars = ''.join(random.choice(string.ascii_lowercase) for _ in range(4))
         instance_name = f"{random_chars}"
-    
+
     if not user_data:
         user_data = """#!/bin/bash
         sudo apt update
@@ -198,7 +198,7 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
         "--bundle-id", bundle_id,
         "--blueprint-id", "ubuntu_24_04"
     ]
-    
+
     if user_data:
         command.extend(["--user-data", user_data])
 
@@ -230,7 +230,7 @@ def delete_all_lightsail_instances(instance_name=None):
     if not instance_list:
         print("No Lightsail instances found to delete.")
         return
-    
+
     for instance in instance_list:
         instance_name = instance['name']
         print(f"Deleting instance: {instance_name}")
@@ -249,8 +249,8 @@ def install_outline_server(instance_name):
     sudo apt update
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
     """
-    
-    
+
+
     os.chmod(KEY_PATH, 0o600)
     print(f"Executing command: chmod 600 {KEY_PATH}")
 

@@ -43,6 +43,6 @@ In short, these trade-offs make event-driven ideal for large-scale, resilient sy
 
 If you're hitting these in a specific project, what's the pain point—testing, ops, or something else? I can brainstorm fixes.
 
-[Apache Kafka Documentation: Exactly-Once Semantics](https://kafka.apache.org/documentation/#semantics)  
-[Martin Fowler: What do you mean by "Eventual Consistency"?](https://martinfowler.com/articles/patterns-of-distributed-systems/eventual-consistency.html)  
+[Apache Kafka Documentation: Exactly-Once Semantics](https://kafka.apache.org/documentation/#semantics)
+[Martin Fowler: What do you mean by "Eventual Consistency"?](https://martinfowler.com/articles/patterns-of-distributed-systems/eventual-consistency.html)
 [Confluent: Testing Event-Driven Applications](https://www.confluent.io/blog/testing-event-driven-applications/)

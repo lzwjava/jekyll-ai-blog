@@ -11,7 +11,7 @@ type: note
 
 Question: English translation of 五代史伶官传序
 
-Answer: 
+Answer:
 
 Here is the English translation of the famous preface to "The Biographies of伶官 (Court Actors/Musicians)" from Ouyang Xiu's *New History of the Five Dynasties* (新五代史 · 伶官传序):
 
@@ -37,6 +37,6 @@ Therefore I have written this preface to the Biographies of the Court Performers
 
 This is one of the most celebrated prose pieces in Chinese literary history, renowned for its concise yet powerful argument, elegant classical style, and sharp historical lesson drawn from the fall of the Later Tang dynasty under Emperor Zhuangzong.
 
-References:  
+References:
 
 - Standard translations and interpretations appear in many English editions of Ouyang Xiu's works, such as Richard L. Davis's *Historical Records of the Five Dynasties* (Columbia University Press) and various classical Chinese literature anthologies.

@@ -28,7 +28,7 @@ type: note
 
 **总结**：**"Multiple Access"** 简单描述了 **多个用户竞争使用单一共享通信路径** 的场景，这需要一个协议来管理他们轮流发言以避免数据碰撞。
 
-参考资料：  
+参考资料：
 
 - [Britannica: Multiple Access](https://www.britannica.com/technology/multiple-access)
 - [GeeksforGeeks: Channel Allocation Problems in Computer Networks](https://www.geeksforgeeks.org/channel-allocation-problems-in-computer-networks/)

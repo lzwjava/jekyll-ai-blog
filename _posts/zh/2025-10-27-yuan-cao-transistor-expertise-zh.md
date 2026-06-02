@@ -16,6 +16,6 @@ type: note
 
 简而言之，他不仅掌握您所描述的基础原理——更在纳米尺度量子电子学领域推动了相关认知的边界。
 
-[魔角石墨烯超晶格中的非常规超导性](http://ciqm.harvard.edu/uploads/2/3/3/4/23349210/cao_fatemi_fang2018.pdf)  
-[物理学家在扭曲石墨烯'纳米三明治'中实现可调超导性](https://physics.mit.edu/news/physicists-create-tunable-superconductivity-in-twisted-graphene-nanosandwich/)  
+[魔角石墨烯超晶格中的非常规超导性](http://ciqm.harvard.edu/uploads/2/3/3/4/23349210/cao_fatemi_fang2018.pdf)
+[物理学家在扭曲石墨烯'纳米三明治'中实现可调超导性](https://physics.mit.edu/news/physicists-create-tunable-superconductivity-in-twisted-graphene-nanosandwich/)
 [魔角石墨烯中波梅兰丘克效应的熵证据](https://ciqm.harvard.edu/uploads/2/3/3/4/23349210/rozen_inpress.pdf)

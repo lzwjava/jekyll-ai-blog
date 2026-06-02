@@ -59,5 +59,5 @@ git repack -a -d             # 可选操作，强制下载全部数据对象
 ```bash
 git clone --filter=blob:none https://github.com/example/repo.git
 ```
-= “立即获取完整历史与结构，文件内容按需延迟下载”  
+= “立即获取完整历史与结构，文件内容按需延迟下载”
 特别适用于巨型单体仓库或需要快速浏览历史而无需长时间等待的场景。

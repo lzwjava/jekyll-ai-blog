@@ -12,7 +12,7 @@ type: note
 
 **Question:** What are tips from Gennady "tourist" Korotkevich about focus?
 
-**Answer:** 
+**Answer:**
 
 Gennady Korotkevich, widely known by his handle **tourist** in competitive programming circles, is legendary for his exceptional ability to maintain intense **focus** during high-pressure coding contests. While he hasn't published a dedicated list of "focus tips," insights from his interviews, streams, contest behavior, and community observations highlight several key principles he embodies or has indirectly shared regarding concentration and productivity in programming/problem-solving.
 
@@ -32,7 +32,7 @@ Overall, tourist doesn't give conventional "productivity guru" advice (e.g., Pom
 
 If you're looking for direct quotes, the closest public resource is his "Day Zero: Tips and Tricks from Gennady Korotkevich" talk (from ICPC experience), though it focuses more on general competitive programming strategies than pure focus techniques.
 
-**References:**  
+**References:**
 
 - [Day Zero: Tips and Tricks from Gennady Korotkevich (YouTube)](https://www.youtube.com/watch?v=cB5jSWxYmrs)
 - [Greeting and an interview with the legendary Gennady Korotkevich (Codeforces)](https://codeforces.com/blog/entry/67525)

@@ -77,5 +77,5 @@ StormEvents
 
 These examples can be run directly in the Azure Data Explorer web UI or Log Analytics. For more, explore the official samples gallery.
 
-[Comprehensive Guide to Kusto Query Language (KQL)](https://medium.com/@danushidk507/comprehensive-guide-to-kusto-query-language-kql-from-beginner-to-advanced-8dff3bd7568e)  
+[Comprehensive Guide to Kusto Query Language (KQL)](https://medium.com/@danushidk507/comprehensive-guide-to-kusto-query-language-kql-from-beginner-to-advanced-8dff3bd7568e)
 [Tutorial: Learn common Kusto Query Language operators](https://learn.microsoft.com/en-us/kusto/query/tutorials/learn-common-operators?view=microsoft-fabric)

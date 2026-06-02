@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to Palmer Luckey
 
-Answer: 
+Answer:
 
 **Palmer Luckey** (full name: Palmer Freeman Luckey) is an American entrepreneur, engineer, and inventor born on September 19, 1992, in Long Beach, California. He is best known for founding **Oculus VR** and designing the **Oculus Rift**, a virtual reality headset that played a major role in reviving the modern VR industry.
 
@@ -26,7 +26,7 @@ Luckey is also known for his eccentric personal style (often seen in Hawaiian sh
 
 He remains an influential and polarizing figure in tech and defense, blending consumer innovation roots with high-stakes national security work.
 
-References:  
+References:
 
 - [Palmer Luckey - Wikipedia](https://en.wikipedia.org/wiki/Palmer_Luckey)
 - [Palmer Luckey - Forbes Profile](https://www.forbes.com/profile/palmer-luckey)

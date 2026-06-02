@@ -12,7 +12,7 @@ type: note
 
 Question: To win in Honor of Kings, is it just like life, where one needs to learn from mistakes, be patient, have a long-term view, and some luck?
 
-Answer: 
+Answer:
 
 Yes, you're spot on—winning in *Honor of Kings* (王者荣耀) mirrors life in many ways, and those four elements you mentioned are core to success in both the game and beyond. Let me break it down point by point, with examples from the game to show why they matter, and how they translate to real life.
 

@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which BGP neighbor state indicates that a TCP three-way handshake has been completed?  
-A) Idle  
-B) Connect  
-C) Active  
+Question: Which BGP neighbor state indicates that a TCP three-way handshake has been completed?
+A) Idle
+B) Connect
+C) Active
 D) Established
 
-Answer: 
+Answer:
 
 **D) Established**
 

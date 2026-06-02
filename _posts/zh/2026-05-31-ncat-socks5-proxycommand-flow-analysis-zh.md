@@ -52,7 +52,7 @@ ncat --proxy localhost:7891 --proxy-type socks5 %h %p
    - `rsv`  = `0x00`
    - `atyp` = `0x03`（域名）或 `0x01`（IPv4）或 `0x04`（IPv6）
    - `dst`  = 主机名字节 + 端口（2 字节，网络字节序）
-   
+
    以 `github.com:22` 为例：
    ```
    [0x05, 0x01, 0x00, 0x03, 0x0A]

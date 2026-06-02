@@ -11,8 +11,8 @@ type: note
 
 全部完成。以下是摘要：
 
-服务器：root@129.212.187.36 (MI300X, Ubuntu)  
-已安装：huggingface_hub 1.17.0（包含 `hf` 命令行工具）  
+服务器：root@129.212.187.36 (MI300X, Ubuntu)
+已安装：huggingface_hub 1.17.0（包含 `hf` 命令行工具）
 已下载：lzwjava/zz → /root/zz (424K, 37 个文件)
 
 内容：

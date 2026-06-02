@@ -36,8 +36,8 @@ Here are the top globally respected certifications for AI/ML/DL professionals:
 
 Other notable ones include Databricks ML certifications and Stanford Online AI Graduate Certificate (more academic).
 
-**Recommendation:**  
-If you want to study abroad for AI/ML Master's → take IELTS (aim for 6.5–7.5 overall).  
+**Recommendation:**
+If you want to study abroad for AI/ML Master's → take IELTS (aim for 6.5–7.5 overall).
 If you want job-ready skills and global credibility → focus on Google/AWS/Microsoft certifications + strong GitHub projects/portfolio.
 
 These technical certifications are far more important than IELTS for proving AI/ML/DL ability in the job market.

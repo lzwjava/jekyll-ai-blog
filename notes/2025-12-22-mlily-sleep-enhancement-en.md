@@ -12,7 +12,7 @@ type: note
 
 Question: How is Mengbaihe's (MLILY) mattress? Can it help with sleep?
 
-Answer: 
+Answer:
 
 Mengbaihe, known internationally as MLILY, is a leading Chinese mattress brand specializing in "zero-pressure" (0压) memory foam mattresses. Founded in 2003, it pioneered non-temperature-sensitive memory foam technology in 2015, patented in multiple countries, which maintains consistent softness and support regardless of temperature—unlike traditional memory foam that hardens in cold or softens in heat.
 
@@ -29,10 +29,10 @@ International reviews (as MLILY) are mixed—many love the initial comfort and p
 
 Yes, it can effectively help with sleep, especially for pressure relief and deeper rest, based on user experiences and reported data.
 
-References:  
+References:
 
-- https://zhuanlan.zhihu.com/p/646305752  
-- https://zhuanlan.zhihu.com/p/1604490660  
-- https://qiye.chinadaily.com.cn/a/202107/15/WS60eff313a3101e7ce9759d96.html  
-- https://zhuanlan.zhihu.com/p/653085504  
+- https://zhuanlan.zhihu.com/p/646305752
+- https://zhuanlan.zhihu.com/p/1604490660
+- https://qiye.chinadaily.com.cn/a/202107/15/WS60eff313a3101e7ce9759d96.html
+- https://zhuanlan.zhihu.com/p/653085504
 - https://m.mlily.com/cn/home

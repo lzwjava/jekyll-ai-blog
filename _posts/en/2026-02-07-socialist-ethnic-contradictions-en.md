@@ -12,15 +12,15 @@ type: note
 
 Question: What is the essence of the ethnic issue during the socialist period?
 
-A. Class contradiction  
-B. Imbalanced development  
-C. Contradictions among the people  
-D. Customs and habits issue  
+A. Class contradiction
+B. Imbalanced development
+C. Contradictions among the people
+D. Customs and habits issue
 
-Your answer: B  
-Correct answer: C  
+Your answer: B
+Correct answer: C
 
-Answer: 
+Answer:
 
 In the official Marxist viewpoint adopted in China (particularly since the socialist transformation was basically completed), **the essence of ethnic issues in the socialist period is contradictions among the people (人民内部矛盾)**.
 
@@ -49,6 +49,6 @@ Therefore, they should be handled using **the correct method of handling contrad
 
 This is also the consistent formulation in China's official ethnic theory textbooks and policies after the 1980s.
 
-References:  
+References:
 
 - None (standard position in CPC ethnic theory and textbooks)

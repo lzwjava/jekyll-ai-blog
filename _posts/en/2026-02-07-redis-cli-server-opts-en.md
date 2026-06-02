@@ -12,7 +12,7 @@ type: note
 
 **Question:** Provide a comprehensive introduction to Redis command line options.
 
-**Answer:** 
+**Answer:**
 
 Redis has two main command-line programs people usually refer to when talking about "command line options":
 
@@ -154,7 +154,7 @@ redis-cli EVAL "return redis.call('SET', KEYS[1], ARGV[1])" 1 mykey value
 | `--pipe`      | `--pipe`           | Bulk protocol mode                         |
 | `--scan`      | `--scan`           | Safer than KEYS *                          |
 
-**References:**  
+**References:**
 
 - https://redis.io/docs/latest/operate/oss_and_stack/management/config
 - https://redis.io/docs/latest/develop/tools/cli

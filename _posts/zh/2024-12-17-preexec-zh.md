@@ -9,8 +9,8 @@ translated: true
 type: post
 ---
 
-<div style="text-align: center;">  
-    <img class="responsive" src="/assets/images/preexec/pe1.png" alt="prexec" />  
+<div style="text-align: center;">
+    <img class="responsive" src="/assets/images/preexec/pe1.png" alt="prexec" />
 </div>
 
 在中国或在使用 VPN 和代理的公司工作时，软件开发可能会变得复杂。忘记配置这些设置往往会导致连接问题，影响工作流程。为简化您的工作流程，我在 ChatGPT 的帮助下创建了一个简便的 Zsh 脚本，该脚本在运行特定的网络命令之前自动显示您的代理设置，确保您始终了解当前的网络配置。
@@ -96,7 +96,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break

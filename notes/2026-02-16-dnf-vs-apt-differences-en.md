@@ -11,7 +11,7 @@ type: note
 
 Question: Compare DNF and APT
 
-Answer: 
+Answer:
 
 **DNF** and **APT** are the two most widely used command-line package managers in Linux, but they belong to different ecosystems.
 
@@ -60,7 +60,7 @@ Performance gap that existed years ago (DNF being noticeably slower) has largely
 
 Both are mature, secure, and reliable tools in 2026.
 
-References:  
+References:
 
 - [https://docs.fedoraproject.org/en-US/quick-docs/dnf-vs-apt](https://docs.fedoraproject.org/en-US/quick-docs/dnf-vs-apt)
 - [https://opensource.com/article/21/7/dnf-vs-apt](https://opensource.com/article/21/7/dnf-vs-apt)

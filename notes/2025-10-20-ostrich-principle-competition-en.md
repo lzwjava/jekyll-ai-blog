@@ -19,7 +19,7 @@ Wang illustrates the principle with a simple story about birds, drawing from a l
 - A **turkey** is just a bit bigger (maybe 1–2 times the size). From the chicken's perspective, it looks similar—nothing revolutionary. You might not even fully recognize or fear it as a distinct threat because the difference feels marginal.
 - But an **ostrich** is *much* bigger (several times larger, with vastly different capabilities, like running speeds or scale). Now, the chicken clearly sees: "This is totally different—I can't compete on the same terms."
 
-In Wang's words (from a 2014 internal Meituan speech):  
+In Wang's words (from a 2014 internal Meituan speech):
 *"Turkey is a bit bigger than chicken; from an observer's view, it's noticeably larger by one or two circles. But to the chicken, the turkey seems about the same size. The ostrich, however, is enormously bigger—several times over. The chicken looks at the ostrich and thinks, 'Wow, this is completely different from me.'"*
 
 ### What It Means in Practice
@@ -29,6 +29,6 @@ In Wang's words (from a 2014 internal Meituan speech):
 
 This principle echoes ideas in books like *Zero to One* by Peter Thiel (monopoly via unique value) but is grounded in Wang's pragmatic, battle-tested style from multiple startup failures before Meituan.
 
-For more:  
-- [Wang Xing's Internal Speeches Compilation (Chinese)](https://zhuanlan.zhihu.com/p/463074700)  
+For more:
+- [Wang Xing's Internal Speeches Compilation (Chinese)](https://zhuanlan.zhihu.com/p/463074700)
 - [Long-Term Patience: Meituan's Growth Logic (Book Excerpts)](https://www.douban.com/review/13701989/)

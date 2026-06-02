@@ -37,11 +37,11 @@ AI助手需JetBrains AI授权（含免费试用），由Mellum等模型提供智
 
 这些工具均深度集成AI功能：Cursor最聚焦AI交互，VS Code/Copilot灵活性高且用户广泛，IntelliJ的AI则专为企业级/Java重度工作流优化。建议根据实际开发生态进行选择。
 
-参考文献：  
-[VS Code中的GitHub Copilot](https://code.visualstudio.com/docs/copilot/overview)  
-[VS Code中开始使用GitHub Copilot](https://code.visualstudio.com/docs/copilot/getting-started)  
-[功能特性 | Cursor - AI代码编辑器](https://cursor.com/en/features)  
-[Cursor AI：10个实战案例指南](https://www.datacamp.com/tutorial/cursor-ai-code-editor)  
-[在编辑器中使用AI | IntelliJ IDEA文档](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)  
-[JetBrains IDE中的AI助手 | IntelliJ IDEA文档](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html)  
+参考文献：
+[VS Code中的GitHub Copilot](https://code.visualstudio.com/docs/copilot/overview)
+[VS Code中开始使用GitHub Copilot](https://code.visualstudio.com/docs/copilot/getting-started)
+[功能特性 | Cursor - AI代码编辑器](https://cursor.com/en/features)
+[Cursor AI：10个实战案例指南](https://www.datacamp.com/tutorial/cursor-ai-code-editor)
+[在编辑器中使用AI | IntelliJ IDEA文档](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)
+[JetBrains IDE中的AI助手 | IntelliJ IDEA文档](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html)
 [使用AI指令解释与重构代码 | IntelliJ IDEA文档](https://www.jetbrains.com/help/idea/use-prompts-to-explain-and-refactor-your-code.html)

@@ -37,7 +37,7 @@ Time series selectors define which metrics and labels to retrieve.
 
 Selects the most recent sample for each matching time series.
 
-**Syntax**:  
+**Syntax**:
 ```
 <metric_name>{<label_matchers>}
 ```
@@ -74,7 +74,7 @@ Selects the most recent sample for each matching time series.
 
 Selects a range of samples over time.
 
-**Syntax**:  
+**Syntax**:
 ```
 <instant_selector>[<duration>]
 ```
@@ -93,7 +93,7 @@ Selects a range of samples over time.
 
 Shifts evaluation time forward or backward.
 
-**Syntax**:  
+**Syntax**:
 ```
 <selector> offset <duration>
 ```
@@ -120,7 +120,7 @@ Shifts evaluation time forward or backward.
 
 Evaluates at a specific timestamp.
 
-**Syntax**:  
+**Syntax**:
 ```
 <selector> @ <timestamp>
 ```

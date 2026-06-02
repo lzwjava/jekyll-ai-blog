@@ -96,7 +96,7 @@ AKS integrates Entra ID for auth and uses Azure RBAC or Kubernetes RBAC for auth
 
 For pods accessing resources (e.g., SQL from AKS), assign managed identities and check via Azure RBAC on those identities.
 
-[Microsoft Entra ID Documentation](https://learn.microsoft.com/en-us/entra/identity/)  
-[Check Access to a Single Azure Resource](https://learn.microsoft.com/en-us/azure/role-based-access-control/check-access)  
-[Configure Entra Authentication for Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql)  
+[Microsoft Entra ID Documentation](https://learn.microsoft.com/en-us/entra/identity/)
+[Check Access to a Single Azure Resource](https://learn.microsoft.com/en-us/azure/role-based-access-control/check-access)
+[Configure Entra Authentication for Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql)
 [AKS Identity and Access Best Practices](https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-identity)

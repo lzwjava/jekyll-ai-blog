@@ -16,34 +16,34 @@ type: note
 
 The Spring container manages beans through a well-defined **lifecycle**. Here are all the main phases in the order they occur (most complete version, including awareness callbacks and all common extension points):
 
-1. **Instantiation**  
+1. **Instantiation**
    Spring creates the bean instance (calls the constructor).
 
-2. **Populate properties**  
+2. **Populate properties**
    Dependency injection happens — `@Autowired`, constructor args, setter injection, `@Value`, etc.
 
-3. **Aware interface callbacks** (in this order):  
-   - `BeanNameAware.setBeanName()`  
-   - `BeanClassLoaderAware.setBeanClassLoader()` (rarely used)  
+3. **Aware interface callbacks** (in this order):
+   - `BeanNameAware.setBeanName()`
+   - `BeanClassLoaderAware.setBeanClassLoader()` (rarely used)
    - `BeanFactoryAware.setBeanFactory()` (or `ApplicationContextAware.setApplicationContext()` for ApplicationContext)
 
-4. **BeanPostProcessor.postProcessBeforeInitialization()**  
+4. **BeanPostProcessor.postProcessBeforeInitialization()**
    First extension point — runs for *every* bean (customizers, AOP proxies, `@Required` checks, etc.)
 
-5. **Initialization callbacks** (one of these):  
-   - `@PostConstruct` annotated method  
-   - `InitializingBean.afterPropertiesSet()`  
+5. **Initialization callbacks** (one of these):
+   - `@PostConstruct` annotated method
+   - `InitializingBean.afterPropertiesSet()`
    - Custom `init-method` defined in XML or `@Bean(initMethod = "...")`
 
-6. **BeanPostProcessor.postProcessAfterInitialization()**  
+6. **BeanPostProcessor.postProcessAfterInitialization()**
    Second extension point — very commonly used by Spring (AOP proxy wrapping, caching decorators, etc.)
 
-7. **Bean is ready**  
+7. **Bean is ready**
    The bean is fully initialized and placed into the container — it can now be used by the application.
 
-8. **Container shutdown / bean destruction phase** (when context is closed):  
-   - `@PreDestroy` annotated method  
-   - `DisposableBean.destroy()`  
+8. **Container shutdown / bean destruction phase** (when context is closed):
+   - `@PreDestroy` annotated method
+   - `DisposableBean.destroy()`
    - Custom `destroy-method` defined in XML or `@Bean(destroyMethod = "...")`
 
 ### Summary Table – Spring Bean Lifecycle (most common order in modern Spring)

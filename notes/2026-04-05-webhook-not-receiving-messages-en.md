@@ -12,7 +12,7 @@ type: note
 **Summary of current state:**
 
 1. ✅ Config correct: `requireMention: false` for room `eu42ecdy`
-2. ✅ Gateway running 
+2. ✅ Gateway running
 3. ✅ Webhook listening on `http://localhost:8788/nextcloud-talk-webhook`
 4. ✅ Dedupe files cleared (empty `{}`)
 5. ❌ **No new webhook messages received after restart** (only my own commands in logs)

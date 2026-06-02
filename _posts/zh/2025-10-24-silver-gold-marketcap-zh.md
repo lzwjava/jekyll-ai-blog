@@ -41,6 +41,6 @@ type: note
 
 若白银工业需求持续激增（例如光伏需求可能在2030年前使用量翻倍），其价格可能攀升至60-100美元/盎司，推动市值迈向4-5万亿美元。但黄金作为"数字黄金"的稳固地位，很可能使整体失衡格局延续。实时价格/库存可参考世界黄金协会或白银协会等权威机构。
 
-[白银市值](https://companiesmarketcap.com/silver/marketcap/)  
-[黄金市值](https://companiesmarketcap.com/gold/marketcap/)  
+[白银市值](https://companiesmarketcap.com/silver/marketcap/)
+[黄金市值](https://companiesmarketcap.com/gold/marketcap/)
 [金银市值指南](https://kinesis.money/blog/gold/guide-gold-silver-market-caps/)

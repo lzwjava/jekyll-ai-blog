@@ -16,16 +16,16 @@ Below is a summary and analysis of the opinion piece "Sadly, Trump is right on U
 
 Kuperman, a professor of military strategy and conflict management at the University of Texas at Austin, structures his argument around three main claims:
 
-1. **The 2014 Maidan Violence and Russia’s Response**  
-   - Kuperman asserts that Ukrainian right-wing militants initiated the violence during the 2014 Maidan protests, which led to Russia’s annexation of Crimea and intervention in the Donbas region.  
+1. **The 2014 Maidan Violence and Russia’s Response**
+   - Kuperman asserts that Ukrainian right-wing militants initiated the violence during the 2014 Maidan protests, which led to Russia’s annexation of Crimea and intervention in the Donbas region.
    - He describes how Ukraine’s democratically elected pro-Russia president, Viktor Yanukovych, faced protests in 2013 after choosing economic ties with Russia over Europe. While these protests were initially peaceful, Kuperman claims that right-wing militants escalated the situation by shooting at police and protesters, falsely blaming the government. This triggered Yanukovych’s ousting and Russia’s military actions, which he frames as a reaction rather than an unprovoked aggression.
 
-2. **Zelensky’s Failure to Honor the Minsk Agreements**  
-   - Kuperman criticizes Ukrainian President Volodymyr Zelensky for not implementing the Minsk agreements, which were intended to end the Donbas conflict by granting the region limited autonomy.  
+2. **Zelensky’s Failure to Honor the Minsk Agreements**
+   - Kuperman criticizes Ukrainian President Volodymyr Zelensky for not implementing the Minsk agreements, which were intended to end the Donbas conflict by granting the region limited autonomy.
    - Although Zelensky campaigned in 2019 on fulfilling these accords, he later reversed course, increasing weapons imports from NATO countries instead. Kuperman argues that this defiance provoked Russia’s full-scale invasion in February 2022, suggesting Zelensky prioritized political image over peace.
 
-3. **Biden’s Role in Escalating and Prolonging the War**  
-   - Kuperman blames Biden for failing to pressure Zelensky into complying with the Minsk agreements, which he believes could have prevented the 2022 invasion.  
+3. **Biden’s Role in Escalating and Prolonging the War**
+   - Kuperman blames Biden for failing to pressure Zelensky into complying with the Minsk agreements, which he believes could have prevented the 2022 invasion.
    - He contends that Biden’s pledge of strong U.S. support if Russia invaded emboldened Zelensky to resist Russia, while Biden’s subsequent reluctance to provide decisive aid—due to nuclear escalation fears—prolonged the war unnecessarily. Kuperman contrasts this with Trump, who he believes would have conditioned aid on compliance, potentially averting or shortening the conflict.
 
 Kuperman concludes that a peace deal akin to the Minsk accords could have ended the war earlier, saving lives, and predicts that any future agreement will be less favorable to Ukraine than the original terms Zelensky rejected.

@@ -166,5 +166,5 @@ print(kmp_search(T, P))  # 输出: [0, 2, 4]
 
 现在你应该明白了——它就是通过预计算的重叠来实现智能跳转。如果你有具体示例遇到困难，欢迎分享！
 
-[GeeksforGeeks: KMP 算法](https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/)  
+[GeeksforGeeks: KMP 算法](https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/)
 [维基百科: Knuth–Morris–Pratt 算法](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)

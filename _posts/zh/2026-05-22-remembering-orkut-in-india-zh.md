@@ -13,7 +13,7 @@ type: note
 
 **答案：**
 
-你想的是 **Orkut**。  
+你想的是 **Orkut**。
 **Orkut**——实际上不是Facebook，而是**Google**的产品。完整情况如下：
 
 ## Orkut是什么

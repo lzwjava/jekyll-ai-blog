@@ -16,7 +16,7 @@ To use Google Analytics, integrate it into your frontend project, and check the 
 Before integrating Google Analytics into your project, you need to create an account and configure it:
 
 - **Create an Account**: Go to [analytics.google.com](https://analytics.google.com) and sign up with your Google account if you don’t already have one.
-- **Create a GA4 Property**: 
+- **Create a GA4 Property**:
   - Click "Admin" in the bottom-left corner.
   - Under "Property," click "Create Property," fill in your project details, and select **Google Analytics 4**.
 - **Add a Data Stream**: Depending on your frontend project type:

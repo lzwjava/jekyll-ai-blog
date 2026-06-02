@@ -15,7 +15,7 @@ Ah — **interview questions** for senior AI/agent/full-stack roles. Yeah, here'
 
 1. "Design an autonomous agent system that handles multi-step financial transactions. How do you handle tool failures, hallucinations, and state management?"
    - Probe: tool use, error recovery, prompt engineering at scale
-   
+
 2. "You have a task that needs reasoning. When do you use o1/R1 vs a fine-tuned smaller model vs chain-of-thought prompting? What's your decision framework?"
    - Probe: cost/latency trade-offs, when to sacrifice speed for reasoning
 

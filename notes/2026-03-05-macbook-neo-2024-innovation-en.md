@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the MacBook Neo.
 
-Answer: 
+Answer:
 
 The **MacBook Neo** is Apple's newest and most affordable laptop, announced on March 4, 2026, and set to begin shipping on March 11, 2026. It represents Apple's first serious entry into the sub-$700 laptop market in many years, designed to compete with budget Windows machines and Chromebooks while delivering the core Mac experience.
 
@@ -47,7 +47,7 @@ The MacBook Neo is notable because Apple managed to deliver premium build qualit
 
 In short, if you're looking for your first Mac, need a secondary/family laptop, or want the Apple ecosystem without spending $1,000+, the MacBook Neo is currently the most accessible way to get it.
 
-References:  
+References:
 
 - [Apple Official MacBook Neo Page](https://www.apple.com/macbook-neo)
 - [Apple Newsroom Press Release](https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo)

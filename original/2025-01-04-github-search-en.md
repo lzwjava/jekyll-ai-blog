@@ -43,16 +43,16 @@ jobs:
         run: make awesome-cv-copy
 ```
 
-I am working on the GitHub Actions script above. 
+I am working on the GitHub Actions script above.
 
-I need to search GitHub to find the exact code for `etoolbox adjustbox language:YAML`. 
+I need to search GitHub to find the exact code for `etoolbox adjustbox language:YAML`.
 
 I encountered the following error:
 
 ```
-2025-01-07T22:34:58.6493408Z 
+2025-01-07T22:34:58.6493408Z
 2025-01-07T22:34:58.6493741Z ! LaTeX Error: File adjustbox.sty' not found.
-2025-01-07T22:34:58.6494172Z 
+2025-01-07T22:34:58.6494172Z
 2025-01-07T22:34:58.6494593Z Type X to quit or <RETURN> to proceed,
 2025-01-07T22:34:58.6495322Z or enter new name. (Default extension: sty)
 ```

@@ -11,7 +11,7 @@ type: note
 
 Question: How to use a Docker container to deploy the blog-server application in Google Cloud?
 
-Answer: 
+Answer:
 
 Here are the most common and recommended ways in 2026 to deploy your **Dockerized Java/Spring Boot** application (from the directory with `Dockerfile` and `pom.xml`) to **Google Cloud**. The easiest and most popular option today is **Cloud Run** (serverless containers).
 
@@ -89,7 +89,7 @@ Useful when you want more control or already have CI/CD.
   ```
 - If you use environment variables / secrets:
   ```bash
-  --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..." 
+  --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..."
   ```
 
 #### Other popular Google Cloud options (when Cloud Run is not suitable)
@@ -106,7 +106,7 @@ https://blog-server-abc123-uc.a.run.app
 
 Good luck!
 
-References:  
+References:
 
 - [Deploying container images to Cloud Run](https://docs.cloud.google.com/run/docs/deploying)
 - [Quickstart: Build and deploy a Java Spring Boot web app to Cloud Run](https://docs.cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-java-service)

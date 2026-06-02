@@ -26,7 +26,7 @@ type: note
 
 这场裂隙因1962年《纽约客》将李政道描绘为主要思想者（令杨振宁不悦）而加剧，始终未能完全弥合。李政道在1986年的回忆中感慨："我与杨振宁之间精妙的对称关系已被打破。"尽管心存芥蒂，二人始终维持学术地位：李政道持续指导中国物理学者，杨振宁则深耕统计力学。诺贝尔奖委员会在颁奖词中将其工作视为不可分割的整体，即使在纷争中仍凸显其合作本质。
 
-[对称与美——杨振宁传](https://www.taipeitimes.com/News/taiwan/archives/2002/11/17/0000179882)  
-[杨振宁讣告，纽约时报](https://www.nytimes.com/2025/10/18/science/chen-ning-yang-dead.html)  
-[弱相互作用史 by 李政道，欧洲核子研究中心](https://cds.cern.ch/record/1731335/files/vol27-issue1-p007-e.pdf)  
+[对称与美——杨振宁传](https://www.taipeitimes.com/News/taiwan/archives/2002/11/17/0000179882)
+[杨振宁讣告，纽约时报](https://www.nytimes.com/2025/10/18/science/chen-ning-yang-dead.html)
+[弱相互作用史 by 李政道，欧洲核子研究中心](https://cds.cern.ch/record/1731335/files/vol27-issue1-p007-e.pdf)
 [李政道诺贝尔奖访谈](https://www.nobelprize.org/prizes/physics/1957/lee/interview/)

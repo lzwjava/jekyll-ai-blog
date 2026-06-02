@@ -28,7 +28,7 @@ The easiest, non-root way is to download and install the official binary release
 1. **Download the Latest Protoc**:
    - Go to [Protocol Buffers Releases](https://github.com/protocolbuffers/protobuf/releases).
    - Grab the latest `protoc-<version>-linux-x86_64.zip` (e.g., `protoc-28.1-linux-x86_64.zip` or whatever is current—anything ≥3.21 works).
-   - Example direct link (adjust version):  
+   - Example direct link (adjust version):
      `wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip`
 
 2. **Install It**:
@@ -64,6 +64,6 @@ This overrides the system `protoc` without conflicting with `apt` packages. If y
 
 This should resolve it—`substrait` compiles cleanly on modern setups. If you hit another snag, share `protoc --version` and your distro.
 
-[GreptimeDB Build Docs](https://github.com/GreptimeTeam/greptimedb#build-from-source)  
-[Protobuf Releases](https://github.com/protocolbuffers/protobuf/releases)  
+[GreptimeDB Build Docs](https://github.com/GreptimeTeam/greptimedb#build-from-source)
+[Protobuf Releases](https://github.com/protocolbuffers/protobuf/releases)
 [Proto3 Optional Fields](https://protobuf.dev/programming-guides/proto3/#optional)

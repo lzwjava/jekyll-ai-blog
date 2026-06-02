@@ -48,6 +48,6 @@ The debate over olive oil versus seed oils (like canola, soybean, or sunflower o
 - Moderation is key. Neither oil is inherently “bad,” but overconsumption of omega-6-heavy seed oils without balancing omega-3s (e.g., from fish or flax) can tilt health outcomes.
 
 ### Conclusion
-Extra virgin olive oil is generally considered better for health due to its monounsaturated fats, antioxidants, and anti-inflammatory properties, especially in a Mediterranean-style diet. Seed oils, while not inherently harmful, are often more processed and higher in omega-6s, which can be problematic in excess. For cooking, choose based on heat level: EVOO for low/medium heat, seed oils like canola for high heat. Prioritize minimally processed oils and balance your diet to optimize health. 
+Extra virgin olive oil is generally considered better for health due to its monounsaturated fats, antioxidants, and anti-inflammatory properties, especially in a Mediterranean-style diet. Seed oils, while not inherently harmful, are often more processed and higher in omega-6s, which can be problematic in excess. For cooking, choose based on heat level: EVOO for low/medium heat, seed oils like canola for high heat. Prioritize minimally processed oils and balance your diet to optimize health.
 
 If you’d like me to dive deeper into specific studies or oil types, let me know!

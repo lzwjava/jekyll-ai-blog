@@ -14,26 +14,26 @@ Alright, let's dive into a **comprehensive** but still **easy-to-follow** analys
 
 ## 🔹 What Is a Capacitor?
 
-At its core, a **capacitor** is a very simple electronic component that **stores electrical energy** in an **electric field**.  
+At its core, a **capacitor** is a very simple electronic component that **stores electrical energy** in an **electric field**.
 It is made up of **two conductive plates** separated by an **insulating material** called a **dielectric** (like air, ceramic, plastic, or paper).
 
 ---
 
 ## 🔹 How Does a Capacitor Work?
 
-### 1. **Charging Phase**  
+### 1. **Charging Phase**
 When you connect a capacitor to a voltage source (like a battery):
 - **Electrons** are pushed onto one plate (giving it a **negative charge**).
 - At the same time, electrons are **pulled away** from the other plate (giving it a **positive charge**).
 - **Electric field** builds up between the plates.
 - The **insulating dielectric** prevents the electrons from jumping directly between plates.
 
-➡️ As the capacitor charges, the **voltage across its plates increases**, and the **current** flowing into it **decreases over time**.  
+➡️ As the capacitor charges, the **voltage across its plates increases**, and the **current** flowing into it **decreases over time**.
 Eventually, the capacitor becomes **"fully charged"** when the voltage across it matches the voltage of the source.
 
 ---
 
-### 2. **Discharging Phase**  
+### 2. **Discharging Phase**
 If you disconnect the power source and connect the two plates through a circuit:
 - The stored energy is **released** as electrons flow from the negative plate to the positive plate.
 - The current **decreases gradually** as the capacitor **loses its charge**.
@@ -94,23 +94,23 @@ Suppose you connect a 9V battery to a 100µF capacitor through a resistor:
 
 ## 🔹 Mathematical Summary
 
-1. **Charging a Capacitor**  
+1. **Charging a Capacitor**
 Voltage across the capacitor:
 \\[
 V(t) = V_{\text{source}} \times (1 - e^{-t/RC})
 \\]
-  
-2. **Discharging a Capacitor**  
+
+2. **Discharging a Capacitor**
 Voltage across the capacitor:
 \\[
 V(t) = V_0 \times e^{-t/RC}
 \\]
 
-Where:  
-- \\( V(t) \\) = Voltage at time \\( t \\)  
-- \\( V_0 \\) = Initial voltage  
-- \\( R \\) = Resistance in ohms  
-- \\( C \\) = Capacitance in farads  
+Where:
+- \\( V(t) \\) = Voltage at time \\( t \\)
+- \\( V_0 \\) = Initial voltage
+- \\( R \\) = Resistance in ohms
+- \\( C \\) = Capacitance in farads
 - \\( e \\) = Euler’s number (~2.718)
 
 ---
@@ -126,5 +126,5 @@ Where:
 
 ---
 
-Would you also like me to show you a **graph** of capacitor charging and discharging curves? 📈  
+Would you also like me to show you a **graph** of capacitor charging and discharging curves? 📈
 It makes everything even easier to visualize! 🎯

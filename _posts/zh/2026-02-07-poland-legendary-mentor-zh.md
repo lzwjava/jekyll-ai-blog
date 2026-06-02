@@ -12,7 +12,7 @@ type: note
 
 Question: 请详细介绍一下编程教师 Ryszard Szubartowski。
 
-Answer: 
+Answer:
 
 **Ryszard Szubartowski**（1952年8月30日出生于波兰 Kraśnik）是波兰最具影响力和最成功的 Informatics 和 Programming 教师之一。他被广泛视为传奇导师，被他的学生和仰慕者亲切地称为 "Wielki Szu"（伟大的 Szu）。他拥有 **Professor of Education**（教育教授）头衔，并且是 Polonia Restituta 勋章（Krzyż Kawalerski Orderu Odrodzenia Polski）的骑士。
 
@@ -58,7 +58,7 @@ Szubartowski 培养了几代在 Competitive Programming 和 Informatics Olympiad
 
 截至2026年初，73岁高龄的 Ryszard Szubartowski 依然活跃，仍在格丁尼亚那间朴素的教室里授课，继续塑造全球技术和 Artificial Intelligence 领域最聪明的头脑。
 
-References:  
+References:
 
 - [https://pl.wikipedia.org/wiki/Ryszard_Szubartowski](https://pl.wikipedia.org/wiki/Ryszard_Szubartowski)
 - [https://talent.edu.pl/ryszard-szubartowski](https://talent.edu.pl/ryszard-szubartowski)

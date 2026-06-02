@@ -23,18 +23,18 @@ NVIDIA’s “moat” in AI/datacenter GPUs is extraordinarily wide and deep rig
 
 ### Summary – What really matters most (2025–2027 timeframe)
 
-1. CUDA is still the #1 moat by far  
+1. CUDA is still the #1 moat by far
    → Moving an entire codebase from CUDA to ROCm or SYCL costs hundreds of millions and 1–2 years for big labs.
 
-2. NVLink + full rack-scale systems (DGX GB200 NVL72/NVL576)  
+2. NVLink + full rack-scale systems (DGX GB200 NVL72/NVL576)
    → No competitor can train 100k+ GPU clusters as efficiently today.
 
-3. HBM supply chokehold  
+3. HBM supply chokehold
    → Even if a competitor designs a perfect GPU tomorrow, they can’t ship it at scale until ~2027 because there’s no HBM.
 
 4.
 
-4. Software + services lock-in  
+4. Software + services lock-in
    → Once you’re on NVIDIA’s Base Command, DGX Cloud, NVIDIA AI Enterprise, etc., switching cost is enormous.
 
 AMD, Intel, and startups (Groq, Cerebras, Tenstorrent, etc.) are improving fast on the hardware side, but the software ecosystem, interconnect scale, and memory supply will keep NVIDIA almost impossible to displace for at least the next 3–4 years in large-scale AI training and inference.

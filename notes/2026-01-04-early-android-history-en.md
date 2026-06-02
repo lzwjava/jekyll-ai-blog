@@ -12,7 +12,7 @@ type: note
 
 Question: What is the initial story of Android, was the team very small, and when did the project begin?
 
-Answer: 
+Answer:
 
 The Android operating system began as a startup project founded in **October 2003** in Palo Alto, California, by a small team of four key individuals: Andy Rubin (former co-founder of Danger, known for the T-Mobile Sidekick), Rich Miner, Nick Sears (former VP at T-Mobile), and Chris White (who led interface design at WebTV).
 
@@ -24,9 +24,9 @@ In 2005, Google acquired Android Inc. for an estimated $50 million. The core tea
 
 This humble, small-team beginning from a camera OS idea ultimately created the world's most widely used mobile operating system.
 
-References:  
+References:
 
-- [Android (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Android_(operating_system))  
-- [The history of Android - Android Authority](https://www.androidauthority.com/history-android-os-name-789433/)  
-- [Android History | Android Wiki](https://android.fandom.com/wiki/Android_History)  
+- [Android (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Android_(operating_system))
+- [The history of Android - Android Authority](https://www.androidauthority.com/history-android-os-name-789433/)
+- [Android History | Android Wiki](https://android.fandom.com/wiki/Android_History)
 - [Andy Rubin - Wikipedia](https://en.wikipedia.org/wiki/Andy_Rubin)

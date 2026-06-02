@@ -12,7 +12,7 @@ type: note
 
 Question: What is betrayal?
 
-Answer: 
+Answer:
 
 Betrayal is the act of violating someone's trust or confidence, often through disloyalty, deception, or supporting an opposing side. It involves breaking a presumed or explicit agreement in a relationship, leading to moral and psychological conflict.
 
@@ -38,7 +38,7 @@ The word "betrayal" dates to around 1798, derived from "betray" (Middle English 
 
 The impact of betrayal varies by relationship intensity—the closer the bond, the deeper the harm—but it is a universal human experience that can alter lives profoundly.
 
-References:  
+References:
 
 - [Merriam-Webster Dictionary: Betrayal](https://www.merriam-webster.com/dictionary/betrayal)
 - [Wikipedia: Betrayal](https://en.wikipedia.org/wiki/Betrayal)

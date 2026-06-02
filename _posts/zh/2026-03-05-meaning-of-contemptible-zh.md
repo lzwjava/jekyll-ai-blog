@@ -40,6 +40,6 @@ type: note
 
 因此，“contemptible”描述的是轻蔑的*对象*，而“contemptuous”描述的是感到/表现出轻蔑的*人*。
 
-参考资料：  
+参考资料：
 
 - None (standard English dictionary definition)

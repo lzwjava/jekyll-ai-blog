@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么在打开两个窗口/Terminal 执行 `git add -A`、`git commit` 和 `git push` 时会出现错误 "! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b2c0835c1c7c14323a162a90e17f8a78145e3f0a but expected 59383ebd13b30aab988c8eefcc0f64f103f0f44d)"？
 
-Answer: 
+Answer:
 
 出现这个错误是因为 **两个 Git 进程尝试在几乎同一时间更新远程服务器上相同的 branch reference (`refs/heads/main`)**，从而导致了竞态条件 (race condition)。
 
@@ -33,7 +33,7 @@ Answer:
   - Client 询问 Server：“main 分支当前的 tip 是什么？”
   - Server 回复：例如 `59383ebd...`
   - Client 说：“我想将 main 从 `59383ebd...` fast-forward 到我的新 commit `b2c0835c...`。”
-  - Server 检查：“main 还在 `59383ebd...` 吗？”  
+  - Server 检查：“main 还在 `59383ebd...` 吗？”
     → 如果 **另一个 push 已经抢先成功**，main 现在已经指向了不同的 hash → Server 拒绝并报错：
 
     ```
@@ -70,10 +70,10 @@ git push
 
 ### 总结
 
-该错误 **并非数据损坏** —— 它是 Git 保护远程分支免受并发冲突更新的一种机制。  
+该错误 **并非数据损坏** —— 它是 Git 保护远程分支免受并发冲突更新的一种机制。
 它的发生正是 **因为你几乎同时从两个 Terminal 发起了 push**。
 
-References:  
+References:
 
 - https://stackoverflow.com/questions/11796580/git-pull-error-error-remote-ref-is-at-but-expected
 - https://graphite.com/guides/git-error-cannot-lock-ref

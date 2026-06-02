@@ -14,9 +14,9 @@ type: note
 
 回答：
 
-作者：陈阅  
-链接：<https://www.zhihu.com/question/658625912/answer/1990866399384577090>  
-来源：知乎  
+作者：陈阅
+链接：<https://www.zhihu.com/question/658625912/answer/1990866399384577090>
+来源：知乎
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 你眼中的内耗与灾难，在 executive 看来却是生态。
@@ -155,6 +155,6 @@ Shareholders 和 founders 追求的是公司十后的长期价值和生存。Pro
 
 这就是 Workplace 的真相。
 
-参考文献：  
+参考文献：
 
 - [知乎原回答](https://www.zhihu.com/question/658625912/answer/1990866399384577090)

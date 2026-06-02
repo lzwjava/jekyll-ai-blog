@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Mike Mirzayanov, the founder of Codeforces.
 
-Answer: 
+Answer:
 
 **Mike Mirzayanov** (full name: Mikhail Mirzayanov, Russian: Михаил Мирзаянов) is a prominent figure in the competitive programming community. He is best known as the **founder**, **lead developer**, and **CEO** of **Codeforces**, the world's largest and most popular platform for competitive programming contests.
 
@@ -37,7 +37,7 @@ Answer:
 
 In short, Mike Mirzayanov turned his passion for algorithms and contests into a global platform that has trained and connected generations of programmers.
 
-References:  
+References:
 
 - [Codeforces Wikipedia page](https://en.wikipedia.org/wiki/Codeforces)
 - [ITMO News interview with Mike Mirzayanov](https://news.itmo.ru/en/news/9179)

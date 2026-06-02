@@ -46,11 +46,11 @@ For large or frequent updates, avoid the console entirely—it's unreliable for 
 
 #### Steps:
 1. Copy the new EAR to a server-accessible path (e.g., `/tmp/myapp.ear`).
-2. Launch wsadmin:  
+2. Launch wsadmin:
    ```
    /opt/IBM/WebSphere/AppServer/bin/wsadmin.sh -lang jython -user admin -password pass
    ```
-3. Run this Jython script to update:  
+3. Run this Jython script to update:
    ```python
    AdminApp.update('MyAppName', 'app', [-Map ModulesToApps, '[-MapWebModToVH [[default_host MyContext virtual_host]] ]'], [-Operation update], [-appname MyAppName], [-MapModulesToServers [[MyModule MyServer]]], [-nodefaultoptions], [-preCompileJSPs false], [-contextroot MyContext], [-noTxImport], [-connType SERVER], [ -contenturi /tmp/myapp.ear ])
    AdminConfig.save()

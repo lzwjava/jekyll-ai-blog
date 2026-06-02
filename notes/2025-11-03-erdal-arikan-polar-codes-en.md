@@ -44,8 +44,8 @@ In 2025, he received the inaugural **xAI Innovation in Communications Award** fo
 
 Arıkan's approachable demeanor and commitment to open-source implementations (e.g., polar code simulators) have democratized access to advanced coding tools. He remains active in the information theory community, serving on editorial boards and organizing workshops. His legacy lies not only in enabling the backbone of 5G but also in inspiring a new generation of engineers to pursue theoretically sound yet practically viable solutions for global connectivity challenges.
 
-For further reading:  
-[Wikipedia: Erdal Arıkan](https://en.wikipedia.org/wiki/Erdal_Ar%C4%B1kan)  
-[Bilkent University Profile](https://ee.bilkent.edu.tr/~arikan/)  
-[IEEE Hamming Medal Citation](https://www.ieee.org/about/awards/recipients/hamming-r2022.html)  
+For further reading:
+[Wikipedia: Erdal Arıkan](https://en.wikipedia.org/wiki/Erdal_Ar%C4%B1kan)
+[Bilkent University Profile](https://ee.bilkent.edu.tr/~arikan/)
+[IEEE Hamming Medal Citation](https://www.ieee.org/about/awards/recipients/hamming-r2022.html)
 [3GPP Polar Codes Adoption](https://www.3gpp.org/news-events/3gpp-news/1716-eutra)

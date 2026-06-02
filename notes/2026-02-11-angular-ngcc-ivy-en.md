@@ -28,8 +28,8 @@ Without NGCC, an Ivy-based application would fail to compile or run when dependi
 ### Important historical context:
 - Angular 9 (2020) → Ivy became the **default** renderer, but NGCC was added for backward compatibility.
 - Angular 12 → View Engine was removed from the framework itself (only libraries still needed NGCC).
-- **Angular 16** (May 2023) → **NGCC was completely removed**.  
-  → View Engine libraries no longer work at all.  
+- **Angular 16** (May 2023) → **NGCC was completely removed**.
+  → View Engine libraries no longer work at all.
   → All libraries must now be published in Ivy format (most popular libraries have been updated since 2021–2022).
 
 ### Today (2026)
@@ -37,7 +37,7 @@ Without NGCC, an Ivy-based application would fail to compile or run when dependi
 - If your build fails with messages about View Engine or missing NGCC → it means you're depending on a very old / unmaintained library that was never migrated to Ivy.
 - Solution in such cases: update or replace the problematic dependency.
 
-In short:  
+In short:
 NGCC was a **temporary bridge** that allowed a smooth ecosystem transition from View Engine → Ivy between 2020–2023. It is now obsolete and has been removed since Angular 16.
 
 **References:**

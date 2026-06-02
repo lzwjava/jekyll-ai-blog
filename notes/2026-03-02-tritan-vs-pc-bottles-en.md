@@ -37,7 +37,7 @@ It is commonly used for reusable water bottles, baby products, food containers, 
 
 If avoiding any potential chemical leaching is the priority, Tritan is the better choice for most users. For extreme heat or maximum toughness, PC might still be used in some applications, but it's less common for drinkware now.
 
-**References:**  
+**References:**
 
 - [Tritan copolyester - Wikipedia](https://en.wikipedia.org/wiki/Tritan_copolyester)
 - [Frequently Asked Questions | Tritan and Tritan Renew - Eastman](https://www.eastman.com/en/products/brands/tritan/about/faqs)

@@ -61,7 +61,7 @@ Because they *look outward*, they notice all the effort people around them are m
 
 ## The Adam Smith Parallel: Business and the "Other-Focused" Mindset
 
-Your observation also connects to a foundational economic insight. The most successful businesses — and the most successful people in business — are those who focus intensely on what others *need*. 
+Your observation also connects to a foundational economic insight. The most successful businesses — and the most successful people in business — are those who focus intensely on what others *need*.
 
 The question *"how do I make money?"* leads to mediocrity. The question *"what problem can I solve for others, and how can I solve it better than anyone else?"* leads to great businesses. Customers pay for value provided to *them*, not for the seller's desire for money. This is exactly your point: success in business is fundamentally an exercise in other-focused thinking.
 

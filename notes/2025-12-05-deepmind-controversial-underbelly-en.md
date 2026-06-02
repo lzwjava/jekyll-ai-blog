@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions or lesser-known facts about DeepMind?
 
-Answer: 
+Answer:
 
 DeepMind, the AI research lab acquired by Google in 2014, is celebrated for breakthroughs like AlphaGo and AlphaFold, but it has drawn significant criticism for ethical lapses, overhyped research, and internal turmoil. Below, I've compiled a list of unpopular opinions and controversial facts based on public discussions, reports, and analyses. These highlight tensions between its scientific ambitions and real-world impacts, often downplayed amid the AI hype.
 

@@ -34,7 +34,7 @@ He co-authored GPT-2 (2019), which demonstrated scaling laws for language models
 #### Recent Developments and Legacy (2024–Present)
 In December 2024, Radford left OpenAI after eight years to pursue independent research, shaking the AI community. At 31, he's already transformed how machines generate text, images, audio, and code, influencing everything from ChatGPT to Stable Diffusion. His story is one of precocious curiosity over credentials: from Texas suburbs to dorm-room hustles to AI's vanguard, proving that bold experimentation can redefine paradigms.
 
-[THE PEOPLE ARE IN THE COMPUTER—PART I](https://www.lerandom.art/editorial/the-people-are-in-the-computer--part-i)  
-[Alec Radford, the lead author of OpenAI's original GPT paper](https://www.reddit.com/r/singularity/comments/1hi3tth/alec_radford_the_lead_author_of_openais_original/)  
-[Key ex-OpenAI researcher subpoenaed in AI copyright case](https://techcrunch.com/2025/03/04/key-ex-openai-researcher-subpoenaed-in-ai-copyright-case/)  
+[THE PEOPLE ARE IN THE COMPUTER—PART I](https://www.lerandom.art/editorial/the-people-are-in-the-computer--part-i)
+[Alec Radford, the lead author of OpenAI's original GPT paper](https://www.reddit.com/r/singularity/comments/1hi3tth/alec_radford_the_lead_author_of_openais_original/)
+[Key ex-OpenAI researcher subpoenaed in AI copyright case](https://techcrunch.com/2025/03/04/key-ex-openai-researcher-subpoenaed-in-ai-copyright-case/)
 [Alec Radford | Golden](https://golden.com/wiki/Alec_Radford-R99PBKV)

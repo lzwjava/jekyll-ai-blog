@@ -66,9 +66,9 @@ GA在广义营销生态整合方面更具优势。
 总体而言，GA是深度分析的行业标准，而CFWA则是满足基础需求的隐私友好型替代方案。
 
 ## 参考资料
-[Cloudflare 网站分析工具官方页面](https://www.cloudflare.com/web-analytics/)  
-[Google Analytics 官方页面](https://marketingplatform.google.com/about/analytics/)  
-[Cloudflare与Google Analytics数据对比](https://zhauniarovich.com/post/2021/2021-09-comparison-of-cf-and-ga-data/)  
-[Cloudflare网站分析工具表现稳健，但对多数用户尚不能替代Google Analytics](https://birchtree.me/blog/cloudflares-web-analytics-tool-is-not-a-google-analytics-replacement-for-most/)  
-[Google Analytics与Cloudflare网站分析工具报告对比](https://brianli.com/2020/12/google-analytics-vs-cloudflare-web-analytics-reporting/)  
+[Cloudflare 网站分析工具官方页面](https://www.cloudflare.com/web-analytics/)
+[Google Analytics 官方页面](https://marketingplatform.google.com/about/analytics/)
+[Cloudflare与Google Analytics数据对比](https://zhauniarovich.com/post/2021/2021-09-comparison-of-cf-and-ga-data/)
+[Cloudflare网站分析工具表现稳健，但对多数用户尚不能替代Google Analytics](https://birchtree.me/blog/cloudflares-web-analytics-tool-is-not-a-google-analytics-replacement-for-most/)
+[Google Analytics与Cloudflare网站分析工具报告对比](https://brianli.com/2020/12/google-analytics-vs-cloudflare-web-analytics-reporting/)
 [Cloudflare分析工具评测](https://markosaric.com/cloudflare-analytics-review/)

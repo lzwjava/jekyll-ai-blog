@@ -24,6 +24,6 @@ type: note
 #### 简单类比：
 将载波视为强动力卡车（高频特性实现高速/远距传输），装载着小件货物（调制信号）。调制过程即是将货物装卸到卡车的操作。
 
-扩展阅读：  
-[载波详解](https://en.wikipedia.org/wiki/Carrier_wave)  
+扩展阅读：
+[载波详解](https://en.wikipedia.org/wiki/Carrier_wave)
 [调制基础原理](https://www.electronics-tutorials.ws/accircuits/modulation.html)

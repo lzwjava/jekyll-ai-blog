@@ -12,11 +12,11 @@ type: note
 
 Question: Do we need to take Google Cloud certification exams onsite or online? If online, how do they prevent AI cheating?
 
-Answer: 
+Answer:
 
 Google Cloud certification exams offer **both options** — you can choose either:
 
-- **Online-proctored** (remote from home/office)  
+- **Online-proctored** (remote from home/office)
 - **Onsite-proctored** (at a physical testing center)
 
 You are **not required** to take them onsite; the choice is yours when scheduling through the exam registration platform (currently Kryterion's Webassessor, transitioning to Pearson VUE starting late February 2026). The exam price remains the same regardless of the delivery method, and you can switch between online and onsite if needed (subject to availability).
@@ -44,9 +44,9 @@ Regarding **AI cheating** specifically (e.g., using ChatGPT or similar tools dur
 
 For the most current details (especially after the February 2026 provider switch to Pearson VUE), always check the official registration page and proctoring requirements when scheduling your exam.
 
-References:  
-- [https://support.google.com/cloud-certification/answer/9907748](https://support.google.com/cloud-certification/answer/9907748) — Online Proctored Exams details  
-- [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) — Registration and scheduling (mentions both options)  
-- [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) — Exam Terms & Conditions (prohibited behaviors and invalidation rules)  
-- [https://support.google.com/cloud-certification/answer/9907852](https://support.google.com/cloud-certification/answer/9907852) — Testing requirements for proctored exams  
+References:
+- [https://support.google.com/cloud-certification/answer/9907748](https://support.google.com/cloud-certification/answer/9907748) — Online Proctored Exams details
+- [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) — Registration and scheduling (mentions both options)
+- [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) — Exam Terms & Conditions (prohibited behaviors and invalidation rules)
+- [https://support.google.com/cloud-certification/answer/9907852](https://support.google.com/cloud-certification/answer/9907852) — Testing requirements for proctored exams
 - [https://support.google.com/cloud-certification/answer/16803278](https://support.google.com/cloud-certification/answer/16803278) — Upcoming change to Pearson VUE (as of 2026)

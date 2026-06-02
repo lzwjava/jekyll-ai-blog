@@ -33,7 +33,7 @@ type: note
 1. **使用虚拟控制台（TTY）进行紧急访问**：
    - 按 `Ctrl + Alt + F3`（或 F4、F5 等）切换到基于文本的登录界面。输入您的用户名和密码。
    - 从这里，您可以完全访问命令行，而不会受到 GUI 冲突的影响。例如：运行 `sudo apt update` 或修复命令。
-   - 使用 `Ctrl + Alt + F2` 切换回 GUI（通常是主显示器）。  
+   - 使用 `Ctrl + Alt + F2` 切换回 GUI（通常是主显示器）。
      *注意*：如果由于显示问题失败，可能表明存在更深的 GNOME 问题[3]。
 
 2. **尝试从 VSCode 终端手动启动 GNOME 终端**：
@@ -49,9 +49,9 @@ type: note
    - 这可以修复损坏的设置，而无需重新安装[1]。
 
 4. **重新安装 GNOME 终端及相关软件包**：
-   - 在 VSCode 终端或 TTY 中：更新源然后重新安装：  
+   - 在 VSCode 终端或 TTY 中：更新源然后重新安装：
      `sudo apt update && sudo apt install --reinstall gnome-terminal`。
-   - 对于更广泛的 GNOME 问题（因为设置可用但终端不可用），尝试重新安装核心桌面：  
+   - 对于更广泛的 GNOME 问题（因为设置可用但终端不可用），尝试重新安装核心桌面：
      `sudo apt install --reinstall ubuntu-gnome-desktop gnome-control-center`（这可以修复依赖冲突而不影响您的数据）[2][4]。
    - 重新安装后，注销/登录。
 

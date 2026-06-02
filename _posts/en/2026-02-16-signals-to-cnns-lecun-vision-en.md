@@ -11,7 +11,7 @@ type: note
 
 Question: Comprehensive introduction to Yann LeCun's life, and how his electrical engineering/signal processing background led to CNN breakthroughs.
 
-Answer: 
+Answer:
 
 **Yann LeCun** is a French-American computer scientist widely regarded as one of the **pioneers** and "godfathers" of modern **deep learning**. He is best known for developing **convolutional neural networks (CNNs)**, which revolutionized computer vision and became foundational to today's AI systems for image recognition, video analysis, and many other applications.
 
@@ -52,7 +52,7 @@ These ideas, combined with backpropagation (which LeCun helped refine), allowed 
 
 LeCun's work bridged classical engineering (signal processing, efficient computation) with modern AI, enabling the deep learning revolution in vision that powers smartphones, autonomous vehicles, medical imaging, and more.
 
-References:  
+References:
 
 - [Yann LeCun - Wikipedia](https://en.wikipedia.org/wiki/Yann_LeCun)
 - [Yann LeCun - A.M. Turing Award Laureate](https://amturing.acm.org/award_winners/lecun_6017366.cfm)

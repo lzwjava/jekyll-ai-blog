@@ -12,7 +12,7 @@ type: note
 
 Question: eNSP simulator 的主要作用是什么？
 
-Answer: 
+Answer:
 
 Huawei 开发的 Enterprise Network Simulation Platform (eNSP) simulator 的主要作用是**提供一个配置和测试 virtual networks 的平台**。它允许用户在基于软件的环境中虚拟部署、配置和排查 Huawei 网络设备（如 routers、switches、firewalls 和 WLAN devices）的故障，而无需物理硬件。这使其成为学习、lab 练习、认证准备（例如 HCIA/HCIE）以及 proof-of-concept 测试的理想选择。
 
@@ -22,6 +22,6 @@ Huawei 开发的 Enterprise Network Simulation Platform (eNSP) simulator 的主�
 
 正确答案是 **B**。
 
-References:  
-- [Huawei eNSP Official Overview](https://support.huawei.com/enterprise/en/network-simulation-ensp-pid-7096058)  
+References:
+- [Huawei eNSP Official Overview](https://support.huawei.com/enterprise/en/network-simulation-ensp-pid-7096058)
 - [eNSP Product Page](https://e.huawei.com/en/products/tools/ensp)

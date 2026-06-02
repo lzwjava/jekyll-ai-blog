@@ -16,28 +16,28 @@ The book you're thinking of is actually a collection of short reflections and sp
 
 It's based on three lectures Feynman gave in 1963 at the University of Washington under the title “A Scientist Looks at Society.” This is the only book-length work where he explicitly steps away from physics and talks about:
 
-- The meaning of life  
-- The value and limits of science  
-- Religion vs. science  
-- Doubt, uncertainty, and the beauty of not knowing  
-- Politics, pseudoscience, superstition, and freedom of thought  
+- The meaning of life
+- The value and limits of science
+- Religion vs. science
+- Doubt, uncertainty, and the beauty of not knowing
+- Politics, pseudoscience, superstition, and freedom of thought
 
 ### Key ideas Feynman expresses in *The Meaning of It All*:
 
-1. **Science cannot answer the ultimate “Why?” about meaning**  
+1. **Science cannot answer the ultimate “Why?” about meaning**
    “I can live with doubt and uncertainty and not knowing. I think it’s much more interesting to live not knowing than to have answers which might be wrong… The meaning of life? I have no idea. The meaning of the universe? No idea. But it’s fun trying to figure things out.”
 
-2. **The joy is in the wondering, not in the final answer**  
+2. **The joy is in the wondering, not in the final answer**
    He repeatedly says the pleasure of finding things out is greater than possessing certainty. Wonder and curiosity are the real “meaning” he personally found.
 
-3. **Science is organized skepticism**  
-   “The first principle is that you must not fool yourself—and you are the easiest person to fool.”  
+3. **Science is organized skepticism**
+   “The first principle is that you must not fool yourself—and you are the easiest person to fool.”
    This applies to religion, politics, astrology, etc. You have a responsibility to doubt even your own cherished ideas.
 
-4. **Religion and ethics are separate from science**  
+4. **Religion and ethics are separate from science**
    Science can tell you how the universe works, but it says nothing about whether you should be moral or what is good. Those are outside its scope. He respects religious people who are ethical but is sharply critical of dogmatic certainty in any form (religious or political).
 
-5. **Freedom to doubt is essential**  
+5. **Freedom to doubt is essential**
    In the last lecture he warns that society must protect the right to be uncertain and to question everything, otherwise both science and democracy die.
 
 There’s also a very short, famous related piece people sometimes confuse with a whole book: his 1955 Caltech commencement address **“The Value of Science”** (reprinted in the book *The Pleasure of Finding Things Out*). It contains the beautiful line:

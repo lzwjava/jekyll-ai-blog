@@ -11,7 +11,7 @@ type: note
 
 Question: Give a comprehensive introduction to the history of SCUT (South China University of Technology).
 
-Answer: 
+Answer:
 
 **Comprehensive History of South China University of Technology (SCUT)**
 
@@ -31,7 +31,7 @@ The university's educational history traces back over a century, with origins in
 These institutions served as important cradles for engineering and technical talent in southern China before 1949.
 
 ### Formal Establishment and Early Years (1952–1978)
-- **November 1952** — SCUT was officially founded as the **South China Institute of Technology** (华南工学院) during China's nationwide **higher education restructuring** (院系调整) under the new People's Republic.  
+- **November 1952** — SCUT was officially founded as the **South China Institute of Technology** (华南工学院) during China's nationwide **higher education restructuring** (院系调整) under the new People's Republic.
   This major reorganization merged engineering schools and departments from multiple institutions across five provinces (Guangdong, Guangxi, Hunan, Hubei, and Jiangxi), including:
   - Engineering parts of **National Sun Yat-sen University**
   - **Lingnan University**
@@ -66,7 +66,7 @@ The **Cultural Revolution** (1966–1976) seriously disrupted normal operations,
 
 Today SCUT maintains three campuses (Wushan, University Town, Guangzhou International), enrolls tens of thousands of students, and is recognized as one of China's leading engineering-focused yet multidisciplinary universities, especially influential in the Pearl River Delta and southern China's economic development.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/South_China_University_of_Technology](https://en.wikipedia.org/wiki/South_China_University_of_Technology)
 - [https://www.scut.edu.cn/en/wistorywwwwission/list.htm](https://www.scut.edu.cn/en/wistorywwwwission/list.htm)

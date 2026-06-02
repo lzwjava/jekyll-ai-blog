@@ -33,5 +33,5 @@ To avoid over-criticizing and adopt a more easygoing approach, focus on shifting
 
 By consistently applying these steps, you’ll gradually become less critical and more relaxed. It’s a process, so be patient with yourself.
 
-[How to Stop Being Overly Critical](https://www.psychologytoday.com/us/blog/the-mindful-self-express/201603/how-stop-being-so-critical)  
+[How to Stop Being Overly Critical](https://www.psychologytoday.com/us/blog/the-mindful-self-express/201603/how-stop-being-so-critical)
 [Letting Go of Perfectionism](https://hbr.org/2021/02/how-to-let-go-of-perfectionism)

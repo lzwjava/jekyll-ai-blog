@@ -12,7 +12,7 @@ type: note
 
 Question: What does ZEISS do, especially as ASML's key partner?
 
-Answer: 
+Answer:
 
 ZEISS (officially Carl Zeiss AG, usually just called ZEISS) is a German optics and optoelectronics company founded in 1846. Today it is one of the world’s leading manufacturers of high-precision optical systems and components.
 

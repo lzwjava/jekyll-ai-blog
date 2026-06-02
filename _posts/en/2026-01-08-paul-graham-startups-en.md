@@ -12,7 +12,7 @@ type: note
 
 Question: What does the speaker say in the YouTube video at https://www.youtube.com/watch?v=ii1jcLg-eIQ?
 
-Answer: 
+Answer:
 
 The video is a lecture titled "Lecture 3 - Before the Startup" delivered by **Paul Graham** as part of Y Combinator's "How to Start a Startup" course (uploaded in 2014).
 
@@ -31,7 +31,7 @@ Paul Graham discusses the **counterintuitive aspects of startups** and **how to 
 
 A full annotated transcript is available (linked in the video description).
 
-References:  
+References:
 
-- [YouTube Video](https://www.youtube.com/watch?v=ii1jcLg-eIQ)  
+- [YouTube Video](https://www.youtube.com/watch?v=ii1jcLg-eIQ)
 - [Annotated Transcript on Genius](http://tech.genius.com/Paul-graham-lecture-3-counterintuitive-parts-of-startups-and-how-to-have-ideas-annotated)

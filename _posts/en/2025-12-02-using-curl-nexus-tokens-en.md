@@ -16,8 +16,8 @@ Answer: Yes, you can manually use the `-H "Authorization: Basic …"` header wit
 
 ### How to construct it manually
 
-A Nexus user token consists of two parts:  
-- **name code** (e.g., `abc123XYZ`) → acts as the “username”  
+A Nexus user token consists of two parts:
+- **name code** (e.g., `abc123XYZ`) → acts as the “username”
 - **pass code** (e.g., `def456UVW789`) → acts as the “password”
 
 You combine them as `name_code:pass_code`, Base64-encode that string, and send it in the Authorization header.
@@ -58,8 +58,8 @@ curl -H "Authorization: Basic $(printf 'abc123XYZ:def456UVW789' | base64)" \
 | `curl -u name_code:pass_code`   | Yes          | Everyday use, scripts, Maven settings.xml, etc.  |
 | `-H "Authorization: Basic …"`   | Yes          | When you already have the Base64 string or need full control (e.g., some CI tools) |
 
-Both methods are 100% equivalent for Nexus user tokens.  
+Both methods are 100% equivalent for Nexus user tokens.
 Never use `Authorization: Bearer` with Nexus user tokens — that is reserved for future OAuth/OIDC integrations and will always return 401.
 
-* [Nexus User Token Documentation](https://help.sonatype.com/repomanager3/nexus-repository-administration/user-management/user-tokens)  
+* [Nexus User Token Documentation](https://help.sonatype.com/repomanager3/nexus-repository-administration/user-management/user-tokens)
 * [Nexus REST API Authentication](https://help.sonatype.com/repomanager3/rest-and-integration-api)

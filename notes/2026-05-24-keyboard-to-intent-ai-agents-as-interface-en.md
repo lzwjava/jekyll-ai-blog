@@ -49,7 +49,7 @@ The reason "open in Preview" as a Claude Code command is more powerful than it l
 
 ```
 # This is just one step in what could be:
-"regenerate the PDF, check for LaTeX errors, open it in Preview, 
+"regenerate the PDF, check for LaTeX errors, open it in Preview,
  and if it looks good push to git"
 ```
 

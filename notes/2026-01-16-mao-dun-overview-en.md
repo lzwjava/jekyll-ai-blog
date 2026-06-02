@@ -12,7 +12,7 @@ type: note
 
 Question: Introduce Mao Dun's "Spring Silkworms" in English
 
-Answer: 
+Answer:
 
 **Spring Silkworms** (《春蚕》) is a famous short story written by **Mao Dun** (茅盾), one of the most important realist writers in modern Chinese literature. It was first published in 1932 and is widely regarded as a classic work of 1930s Chinese leftist literature.
 
@@ -24,7 +24,7 @@ The family invests all their savings and labor into raising silkworms, hoping fo
 ### Core Theme
 The story powerfully shows the tragic contradiction in semi-colonial, semi-feudal Chinese rural society during the 1930s:
 
-- **"Good harvest, bad life"** (丰收成灾 / bumper harvest leads to ruin)  
+- **"Good harvest, bad life"** (丰收成灾 / bumper harvest leads to ruin)
   The harder the peasants work and the better their harvest, the poorer they become.
 
 It criticizes:
@@ -41,6 +41,6 @@ It criticizes:
 
 **Spring Silkworms** remains a classic text in Chinese literature classes and is frequently used to understand the social and economic conditions of rural China in the 1930s.
 
-References:  
+References:
 
 - None (general literary knowledge)

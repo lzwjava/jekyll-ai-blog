@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about living, studying, or working in China, including its economy and politics?
 
-Answer: 
+Answer:
 
 Unpopular opinions about China often challenge the dominant narratives of it as a flawless economic powerhouse or a seamless society for expats and locals alike. These views emerge from expat experiences, internal debates, and economic analyses, highlighting frustrations with work culture, inequality, and political realities. Below, I've compiled key unpopular ideas drawn from discussions on platforms like Reddit and X (formerly Twitter), as well as surveys and articles. They're grouped thematically for clarity, with substantiation where possible.
 
@@ -43,17 +43,17 @@ Unpopular opinions about China often challenge the dominant narratives of it as 
 
 These opinions aren't universal—many praise China's infrastructure, food diversity, and merit-based mobility for the connected—but they reveal cracks in the polished facade. For balance, Pew surveys show 67% unfavorable global views of China, driven by foreign policy perceptions, while internal youth frustration (e.g., "involution" overwork) simmers online.
 
-[References:  
-r/China on Reddit: Chinese Work Culture/Life](https://www.reddit.com/r/China/comments/l5ihyc/chinese_work_culturelife_more_stressful_than_the/)  
-[Wall Street Oasis: Thinking about studying/working in Mainland China?](https://www.wallstreetoasis.com/forum/other/thinking-about-studyingworking-in-mainland-china-think-again)  
-[r/chinalife: Feelings about Chinese work culture](https://www.reddit.com/r/chinalife/comments/1ewlz5r/feelings_about_chinese_work_culture/)  
-[Academia Stack Exchange: Problems for non-Chinese professors in China](https://academia.stackexchange.com/questions/202905/what-problems-do-non-chinese-people-face-while-working-as-research-professors-in)  
-[The Packable Life: Living in China Pros & Cons](https://www.thepackablelife.com/travel/journal/living-in-china)  
-[CSIS: Public Opinion in China: A Liberal Silent Majority?](https://www.csis.org/analysis/public-opinion-china-liberal-silent-majority)  
-[Foreign Policy: China’s Lack of Foreigners Shows It Is Closing in on Itself](https://foreignpolicy.com/2023/08/30/china-post-covid-19-tourism-foreigners-visitors-economy-society/)  
-[Pew Research: China’s Approach to Foreign Policy Gets Negative Reviews](https://www.pewresearch.org/global/2023/07/27/chinas-approach-to-foreign-policy-gets-largely-negative-reviews-in-24-country-survey/)  
-[Merics: China’s Domestic Debates Under the Shadow of Geopolitics](https://merics.org/en/report/chinas-domestic-debates-under-shadow-geopolitics)  
-[The Diplomat: Why Viral Western Takes Misunderstand China’s Political Economy](https://thediplomat.com/2025/09/why-viral-western-takes-still-misunderstand-chinas-political-economy/)  
-[X Post by @CryptoCyberia](https://x.com/CryptoCyberia/status/1950558318046351808)  
-[X Post by @serpentza](https://x.com/serpentza/status/1853586622488658094)  
+[References:
+r/China on Reddit: Chinese Work Culture/Life](https://www.reddit.com/r/China/comments/l5ihyc/chinese_work_culturelife_more_stressful_than_the/)
+[Wall Street Oasis: Thinking about studying/working in Mainland China?](https://www.wallstreetoasis.com/forum/other/thinking-about-studyingworking-in-mainland-china-think-again)
+[r/chinalife: Feelings about Chinese work culture](https://www.reddit.com/r/chinalife/comments/1ewlz5r/feelings_about_chinese_work_culture/)
+[Academia Stack Exchange: Problems for non-Chinese professors in China](https://academia.stackexchange.com/questions/202905/what-problems-do-non-chinese-people-face-while-working-as-research-professors-in)
+[The Packable Life: Living in China Pros & Cons](https://www.thepackablelife.com/travel/journal/living-in-china)
+[CSIS: Public Opinion in China: A Liberal Silent Majority?](https://www.csis.org/analysis/public-opinion-china-liberal-silent-majority)
+[Foreign Policy: China’s Lack of Foreigners Shows It Is Closing in on Itself](https://foreignpolicy.com/2023/08/30/china-post-covid-19-tourism-foreigners-visitors-economy-society/)
+[Pew Research: China’s Approach to Foreign Policy Gets Negative Reviews](https://www.pewresearch.org/global/2023/07/27/chinas-approach-to-foreign-policy-gets-largely-negative-reviews-in-24-country-survey/)
+[Merics: China’s Domestic Debates Under the Shadow of Geopolitics](https://merics.org/en/report/chinas-domestic-debates-under-shadow-geopolitics)
+[The Diplomat: Why Viral Western Takes Misunderstand China’s Political Economy](https://thediplomat.com/2025/09/why-viral-western-takes-still-misunderstand-chinas-political-economy/)
+[X Post by @CryptoCyberia](https://x.com/CryptoCyberia/status/1950558318046351808)
+[X Post by @serpentza](https://x.com/serpentza/status/1853586622488658094)
 [X Post by @Kanthan2030](https://x.com/Kanthan2030/status/1961388417901891978)

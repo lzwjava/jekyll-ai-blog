@@ -90,7 +90,7 @@ Here are practical examples covering general path handling, spaces in paths, and
   - The argument `'C:\My Documents\note.txt'` uses Windows-style backslashes because `notepad.exe` is a native Windows program that expects Windows paths. Single quotes avoid shell interpretation of backslashes (in double quotes, you’d need `C:\\My Documents\\note.txt`).
 
 #### 5. **Additional Notes**
-- **Unix vs. Windows Paths for Arguments**: 
+- **Unix vs. Windows Paths for Arguments**:
   - Commands compiled for MINGW64 (e.g., Unix tools) typically expect Unix paths (e.g., `/c/users/file.txt`).
   - Native Windows programs (e.g., `notepad.exe`) expect Windows paths (e.g., `C:\Users\file.txt`). Check the command’s documentation or test both formats.
 - **Simplifying with `PATH`**: If a command is in your `PATH`, you can omit the absolute path (e.g., `notepad` instead of `/c/Windows/notepad.exe`), but absolute paths ensure precision.

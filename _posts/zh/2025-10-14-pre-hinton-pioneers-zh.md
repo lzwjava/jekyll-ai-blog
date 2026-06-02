@@ -34,9 +34,9 @@ type: note
 
 于尔根·施密德胡伯在2024年报告《剽窃获得的诺贝尔奖》中指出，辛顿与霍普菲尔德获诺贝尔奖的理念——如用于学习表征的玻尔兹曼机（1985）和用于联想记忆的霍普菲尔德网络（1982）——实为未标注引用地重组了伊瓦赫年科的逐层深度学习与甘利的SGD/自适应循环模型。例如玻尔兹曼机未引用伊瓦赫年科1965年的内部表征学习与甘利1967年的SGD研究，而霍普菲尔德网络忽略了甘利1972年的自适应伊辛模型。施密德胡伯指控这种疏漏持续出现在后续综述及诺贝尔奖科学背景文档中，折射出AI史学界的西方中心主义偏见。
 
-[阿列克谢·伊瓦赫年科 - 维基百科](https://en.wikipedia.org/wiki/Alexey_Ivakhnenko)  
-[深度学习简史：发展与训练 - NVIDIA开发者博客](https://developer.nvidia.com/blog/deep-learning-nutshell-history-training/)  
-[甘利俊一 | 京都奖](https://www.kyotoprize.org/en/laureates/shun-ichi_amari/)  
-[日本科学家本是AI先驱，却正被历史遗忘](https://modernsciences.org/japanese-ai-pioneers-history-shuninchi-amari-kunihiko-fukushima-december-2024/)  
-[剽窃获得的诺贝尔奖 - IDSIA-24-24技术报告](https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.pdf)  
+[阿列克谢·伊瓦赫年科 - 维基百科](https://en.wikipedia.org/wiki/Alexey_Ivakhnenko)
+[深度学习简史：发展与训练 - NVIDIA开发者博客](https://developer.nvidia.com/blog/deep-learning-nutshell-history-training/)
+[甘利俊一 | 京都奖](https://www.kyotoprize.org/en/laureates/shun-ichi_amari/)
+[日本科学家本是AI先驱，却正被历史遗忘](https://modernsciences.org/japanese-ai-pioneers-history-shuninchi-amari-kunihiko-fukushima-december-2024/)
+[剽窃获得的诺贝尔奖 - IDSIA-24-24技术报告](https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.pdf)
 [机器学习引发诺贝尔物理学奖争议 - 哈佛科技评论](https://harvardtechnologyreview.com/2024/11/18/machine-learning-stirs-controversy-in-nobel-prize-in-physics/)

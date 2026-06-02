@@ -1,4 +1,4 @@
-lzw@to:~/projects/nanoGPT$ python sample.py --out_dir=out-shakespeare-char 
+lzw@to:~/projects/nanoGPT$ python sample.py --out_dir=out-shakespeare-char
 Overriding: out_dir = out-shakespeare-char
 number of parameters: 10.65M
 Loading meta from data/shakespeare_char/meta.pkl...
@@ -172,7 +172,7 @@ But as yours a will deputy of life,
 As with her to bless her but in the shore,
 Your villanous dearers of mourning shroud,
 From Christian of that heaven current to hear him,
-And having him since 
+And having him since
 ---------------
 
 How cheerful rathers have himself

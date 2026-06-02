@@ -26,7 +26,7 @@ type: note
 
 巴士班次频繁（每10-15分钟一班），但建议通过城巴/新巴应用或官网查询实时时刻表，周末客流高峰时段尤需注意。若选择直达出行，的士亦是可选方案（约200-250港币，30-40分钟），但公共交通更为高效环保。
 
-[石澳海滩 - 维基百科](https://en.wikipedia.org/wiki/Shek_O_Beach)  
-[石澳 - 香港旅游发展局](https://www.discoverhongkong.com/us/interactive-map/shek-o.html)  
-[石澳海滩攻略指南](https://indulgenteats.com/2024/06/23/shek-o-hong-kong-best-beach-local-food-shau-kei-wan/)  
+[石澳海滩 - 维基百科](https://en.wikipedia.org/wiki/Shek_O_Beach)
+[石澳 - 香港旅游发展局](https://www.discoverhongkong.com/us/interactive-map/shek-o.html)
+[石澳海滩攻略指南](https://indulgenteats.com/2024/06/23/shek-o-hong-kong-best-beach-local-food-shau-kei-wan/)
 [旺角至石澳交通路线 - Rome2Rio](https://www.rome2rio.com/s/Mong-Kok/Shek-O)

@@ -24,6 +24,6 @@ Without a carrier, low-frequency signals (like voice at 20 Hz–20 kHz) wouldn't
 #### Simple Analogy:
 Think of the carrier as a strong truck (high frequency for speed/distance) carrying a small package (the modulating signal). Modulation loads/unloads the package onto the truck.
 
-For more details:  
-[Carrier Wave Explanation](https://en.wikipedia.org/wiki/Carrier_wave)  
+For more details:
+[Carrier Wave Explanation](https://en.wikipedia.org/wiki/Carrier_wave)
 [Modulation Basics](https://www.electronics-tutorials.ws/accircuits/modulation.html)

@@ -32,7 +32,7 @@ baseUrl: "http://localhost:8080"     # Matches Nextcloud's overwrite.cli.url
 webhookPublicUrl: "http://172.17.0.1:8788"  # Where Nextcloud reaches OpenClaw
 allowPrivateNetwork: true             # Allow Docker IP calls
 
-# 2. Nextcloud config  
+# 2. Nextcloud config
 overwrite.cli.url = "http://localhost:8080"  # Include port!
 
 # 3. OpenClaw source patch (for "Activity" type)

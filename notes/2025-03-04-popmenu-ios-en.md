@@ -84,16 +84,16 @@ PopMenu is written in Objective-C, so youâ€™ll need to use it accordingly. Hereâ
    Define the items you want in the pop-up menu. Each item can have a title, icon, and glow color.
    ```objective-c
    NSMutableArray *items = [[NSMutableArray alloc] init];
-   
-   MenuItem *menuItem1 = [[MenuItem alloc] initWithTitle:@"Flickr" 
-                                               iconName:@"post_type_bubble_flickr" 
-                                              glowColor:[UIColor grayColor] 
+
+   MenuItem *menuItem1 = [[MenuItem alloc] initWithTitle:@"Flickr"
+                                               iconName:@"post_type_bubble_flickr"
+                                              glowColor:[UIColor grayColor]
                                                   index:0];
    [items addObject:menuItem1];
-   
-   MenuItem *menuItem2 = [[MenuItem alloc] initWithTitle:@"Twitter" 
-                                               iconName:@"post_type_bubble_twitter" 
-                                              glowColor:[UIColor blueColor] 
+
+   MenuItem *menuItem2 = [[MenuItem alloc] initWithTitle:@"Twitter"
+                                               iconName:@"post_type_bubble_twitter"
+                                              glowColor:[UIColor blueColor]
                                                   index:1];
    [items addObject:menuItem2];
    ```

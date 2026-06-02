@@ -1,4 +1,4 @@
-$ sudo apt-get install nodejs -y 
+$ sudo apt-get install nodejs -y
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -21,7 +21,7 @@ After this operation, 225 MB of additional disk space will be used.
 Get:1 https://deb.nodesource.com/node_22.x nodistro/main amd64 nodejs amd64 22.18.0-1nodesource1 [37.0 MB]
 2% [1 nodejs 880 kB/37.0 MB 2%] Y
 
-Fetched 37.0 MB in 34s (1,073 kB/s)                                                                                                                                                                        
+Fetched 37.0 MB in 34s (1,073 kB/s)
 Selecting previously unselected package nodejs.
 (Reading database ... 495826 files and directories currently installed.)
 Preparing to unpack .../nodejs_22.18.0-1nodesource1_amd64.deb ...

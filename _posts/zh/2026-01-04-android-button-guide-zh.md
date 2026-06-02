@@ -12,12 +12,12 @@ type: note
 
 Question: 要在代码中为 Button 设置 onClick listener，通常使用哪个方法？
 
-A) button.setOnClickListener()  
-B) button.addClickListener()  
-C) button.onClick()  
+A) button.setOnClickListener()
+B) button.addClickListener()
+C) button.onClick()
 D) button.setClickEvent()
 
-Answer: 
+Answer:
 
 正确答案是 **A) button.setOnClickListener()**。
 
@@ -50,6 +50,6 @@ button.setOnClickListener {
 
 注意：用户选择的 "C" 是错误的。正确选项是 A。
 
-References:  
-- [https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener)](https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener))  
+References:
+- [https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener)](https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener))
 - [https://developer.android.com/develop/ui/views/components/button](https://developer.android.com/develop/ui/views/components/button)

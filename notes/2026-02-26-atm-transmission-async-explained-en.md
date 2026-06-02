@@ -21,7 +21,7 @@ The correct answer is **asynchronous**.
 
 1.  **Definition of Asynchronous in this Context**:
     In traditional synchronous transmission (like TDM - Time Division Multiplexing), time slots are pre-assigned to specific channels. Even if a channel has no data to send, its time slot remains empty but reserved, appearing periodically on the line.
-    
+
     In contrast, ATM uses **statistical multiplexing**. Cells are transmitted only when there is actual data to send. There is no fixed, periodic time slot assigned to a specific connection. A cell containing user information can appear at any time, and gaps between cells from the same source vary depending on traffic load.
 
 2.  **Why it is not Synchronous**:

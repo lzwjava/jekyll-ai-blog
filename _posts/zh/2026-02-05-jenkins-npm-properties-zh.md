@@ -30,12 +30,12 @@ Jenkins properties 是可以通过多种方式定义的 environment variables：
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         NPM_AUTH_URL = 'https://registry.npmjs.org/'
         NPM_TOKEN = credentials('npm-token-id')
     }
-    
+
     stages {
         stage('Install') {
             steps {

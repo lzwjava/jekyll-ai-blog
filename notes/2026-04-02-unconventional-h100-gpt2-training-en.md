@@ -14,7 +14,7 @@ Here are some **unpopular** (but technically sound) ideas for training GPT-2 124
 ---
 
 ### 1. **Use 1 H100 for a 124M model**
-Most people would use a single A100 or even a V100 for this tiny model. Using an H100 is overkill—but that’s the point.  
+Most people would use a single A100 or even a V100 for this tiny model. Using an H100 is overkill—but that’s the point.
 **Unpopular twist**: Don’t parallelize. Run it on **one H100** with a massive batch size, leveraging the H100’s FP8 support to simulate a much larger effective batch size via gradient accumulation. This keeps it simple, avoids communication overhead, and wastes no GPU potential.
 
 ---
@@ -25,7 +25,7 @@ H100 supports FP8 natively. Most would keep master weights in FP32 for stability
 ---
 
 ### 3. **Use 8 H100s but disable all parallelism**
-Instead of data parallelism, tensor parallelism, or pipeline parallelism, just launch **8 independent training runs** on the same instance, each with a different random seed. Hyperparameter sweep in parallel.  
+Instead of data parallelism, tensor parallelism, or pipeline parallelism, just launch **8 independent training runs** on the same instance, each with a different random seed. Hyperparameter sweep in parallel.
 Why unpopular? People expect distributed training to speed up one model, but here you get 8 trained variants in the same time as one.
 
 ---

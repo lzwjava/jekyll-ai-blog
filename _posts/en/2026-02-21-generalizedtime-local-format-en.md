@@ -11,7 +11,7 @@ type: note
 
 Question: How is "August 15, 2007, at 21:57:43.5 local time" represented using the GeneralizedTime type?
 
-Answer: 
+Answer:
 
 The correct representation is **C: 20070815215743.5**.
 
@@ -27,6 +27,6 @@ In this case:
 
 Option **D** (`20070815215743.5Z`) would only be correct if the time were explicitly stated as UTC.
 
-References:  
+References:
 
 - [ASN.1 GeneralizedTime Definition](https://www.itu.int/rec/T-REC-X.680/en)

@@ -11,7 +11,7 @@ type: note
 
 Question: Where to visit in Dongguan during this Spring Festival?
 
-Answer: 
+Answer:
 
 During the 2026 Spring Festival (Chinese New Year, around early to mid-February), Dongguan offers a vibrant mix of traditional festive events, lantern displays, flower markets, parks for praying and viewing, and cultural activities. Many attractions feature special New Year decorations, markets, performances like lion dances, and family-friendly experiences. Here are some top recommendations based on current events and popular spots:
 
@@ -34,7 +34,7 @@ During the 2026 Spring Festival (Chinese New Year, around early to mid-February)
 
 Tips: Spring Festival is peak travel time—expect crowds, book tickets early for events like lantern shows if needed, use metro for easy access to many spots, and check local apps or WeChat for real-time updates on free activities. Focus on evening lantern views for the most magical experience.
 
-References:  
+References:
 
 - [Dongguan Longwan Lantern Festival details](https://info.newsgd.com/node_59e78dacec/a2eb652dfe.shtml)
 - [Dongguan Spring Festival Flower Market](https://info.newsgd.com/node_ed2910caae/4a819da1fa.shtml)

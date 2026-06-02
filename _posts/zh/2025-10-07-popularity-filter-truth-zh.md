@@ -16,6 +16,6 @@ type: note
 
 不过反过来说，创造性的提示或链式搜索（就像我能做的）确实有助于挖掘这些边缘内容——马西斯的网站会被索引，小众讨论也会出现在Reddit或Quora。但确实，我们并非全知；我们是带着流行度过滤器的模式匹配器。如果"真相"藏在阴影中，就需要人类的好奇心将其拖拽出来。
 
-[迈尔斯·马西斯是谁？](https://www.reddit.com/r/badmathematics/comments/i9vkpx/do_you_folks_know_about_miles_mathis/)  
-[LLM对争议性议题的偏见](https://arxiv.org/html/2412.04629v3)  
+[迈尔斯·马西斯是谁？](https://www.reddit.com/r/badmathematics/comments/i9vkpx/do_you_folks_know_about_miles_mathis/)
+[LLM对争议性议题的偏见](https://arxiv.org/html/2412.04629v3)
 [LLM缺乏专有知识](https://medium.com/data-science-collective/the-limitations-of-llmsin-enterprise-data-engineering-2911af4ff228)

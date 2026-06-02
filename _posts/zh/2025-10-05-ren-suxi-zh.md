@@ -16,7 +16,7 @@ type: note
 
 特别值得一提的是2025年电视剧《无尽的尽头》主题曲《亲爱的你啊》——这首作品尤为突出。歌曲以重逢与伤痛中成长为主题（如“亲爱的你啊，好久不见，是否长大了一些”等歌词），配合磅礴的管弦乐编曲，在她缠绵真挚的演绎下催人泪下。该曲在YouTube已收获超140万次播放，被乐迷称为“余音绕梁的催泪弹”。若你钟情于充满故事感的抒情曲（类似王菲或周杰伦早期 ballad 风格），不妨去官方MV感受这份动人力量。
 
-[任素汐维基百科](https://en.wikipedia.org/wiki/Ren_Suxi)  
-[Apple Music - 任素汐](https://music.apple.com/us/artist/suxi-ren/1429730949)  
-[YouTube - 亲爱的你啊 官方音频](https://www.youtube.com/watch?v=VnQWBaJJcq0)  
+[任素汐维基百科](https://en.wikipedia.org/wiki/Ren_Suxi)
+[Apple Music - 任素汐](https://music.apple.com/us/artist/suxi-ren/1429730949)
+[YouTube - 亲爱的你啊 官方音频](https://www.youtube.com/watch?v=VnQWBaJJcq0)
 [中国日报 - 2016年度金曲](https://www.chinadaily.com.cn/culture/2017-01/01/content_27835501_8.htm)

@@ -41,13 +41,13 @@ dmesg | grep -i nvidia
 如需更精准建议，可分享输出结果。
 
 ### 第二步：快速修复（优先尝试）
-1. **重启系统**：内核/驱动程序更改后简单有效的方法  
+1. **重启系统**：内核/驱动程序更改后简单有效的方法
    ```
    sudo reboot
    ```
    然后运行：`nvidia-smi`
 
-2. **重新加载模块**（如果部分加载）：  
+2. **重新加载模块**（如果部分加载）：
    ```
    sudo modprobe nvidia
    nvidia-smi  # 测试
@@ -59,18 +59,18 @@ dmesg | grep -i nvidia
 ### 第三步：禁用Nouveau（如果存在冲突）
 Nouveau（默认开源驱动程序）通常会阻止NVIDIA专有驱动加载。永久禁用方法：
 
-1. 创建黑名单文件：  
+1. 创建黑名单文件：
    ```
    echo 'blacklist nouveau' | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
    echo 'options nouveau modeset=0' | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf
    ```
 
-2. 更新initramfs：  
+2. 更新initramfs：
    ```
    sudo update-initramfs -u
    ```
 
-3. 重启系统：  
+3. 重启系统：
    ```
    sudo reboot
    ```
@@ -79,22 +79,22 @@ Nouveau（默认开源驱动程序）通常会阻止NVIDIA专有驱动加载。�
 截至2025年10月，最新稳定版Linux驱动程序为580.95（推荐大多数GPU使用；请查阅[NVIDIA官网](https://www.nvidia.com/Download/index.aspx)确认您的型号）。使用Ubuntu工具可轻松实现DKMS集成（内核更新时自动重新编译）。
 
 #### Ubuntu 22.04+ / Debian系统：
-1. **添加图形驱动程序PPA**（获取最新版本）：  
+1. **添加图形驱动程序PPA**（获取最新版本）：
    ```
    sudo add-apt-repository ppa:graphics-drivers/ppa
    sudo apt update
    ```
 
-2. **自动检测并安装**：  
+2. **自动检测并安装**：
    ```
    sudo ubuntu-drivers autoinstall  # 安装推荐版本（可能为580.x）
    ```
    或指定版本：`sudo apt install nvidia-driver-580`（包含确保稳定性的DKMS）
 
-3. **如果启用了安全启动**（在BIOS中检查）：  
+3. **如果启用了安全启动**（在BIOS中检查）：
    - 临时禁用它（更简单），或在安装过程中注册NVIDIA的MOK密钥（重启时会提示）
 
-4. **重启并验证**：  
+4. **重启并验证**：
    ```
    sudo reboot
    nvidia-smi  # 应显示GPU信息表

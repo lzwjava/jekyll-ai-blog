@@ -15,7 +15,7 @@ type: note
 
 ### 预期错误
 Jackson 通常会抛出 `JsonMappingException` 异常，并提示类型不匹配的信息。例如：
-- 如果将 `[1, 2, 3]` 反序列化到 `String` 字段，你会看到类似这样的错误：  
+- 如果将 `[1, 2, 3]` 反序列化到 `String` 字段，你会看到类似这样的错误：
   `无法从 START_ARRAY 令牌反序列化 'java.lang.String' 的实例`
 
 具体信息可能因 Jackson 版本（常见于 2.x 版本）略有不同，但根源在于 `com.fasterxml.jackson.core.JsonMappingException`。

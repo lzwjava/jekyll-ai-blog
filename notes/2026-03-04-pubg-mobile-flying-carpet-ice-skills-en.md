@@ -11,7 +11,7 @@ type: note
 
 **Question: How is PUBG Mobile's recent update, including the skill to add an ice hole that enemies can't shoot through, and the carpet that helps you fly up and down, which is very powerful?**
 
-**Answer:** 
+**Answer:**
 
 The recent PUBG Mobile update (Version 4.2 "Primewood Genesis," live since early January 2026, with events extending into March) has been positively received by the community, especially for bringing back the popular **Skyhigh Spectacle** themed mode on February 5, 2026 (available until March 10). This Aladdin-inspired mode features floating islands, genies, and high-mobility gameplay, generating hype on YouTube, TikTok, and X with streams titled "Flying Carpet Classics" and "Magic Carpet Mode is Back."
 

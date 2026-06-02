@@ -12,7 +12,7 @@ type: note
 
 Question: Does ARP work between two computers on the same LAN even if one computer has all ports closed (firewall), as long as the network interface supports ARP?
 
-Answer: 
+Answer:
 
 Yes, ARP works completely independently of any firewall rules, open/closed ports, or higher-layer protocols (TCP/UDP/ICMP). Here's why:
 

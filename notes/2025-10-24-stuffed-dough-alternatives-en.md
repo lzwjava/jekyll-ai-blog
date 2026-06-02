@@ -61,7 +61,7 @@ If you're looking for simple stuffed dough dishes to make at home besides baozi,
 
 These use common ingredients and minimal cleanup. Start with what dough you have on hand—puff pastry is the most forgiving for beginners. Experiment with fillings like cheese, veggies, or leftover meats!
 
-[21 Savory Puff Pastry Recipes You'll Love](https://www.allrecipes.com/gallery/savory-puff-pastry-recipes/)  
-[Around The World With 15 Stuffed Dough Dishes](https://www.tastingtable.com/985720/around-the-world-with-15-stuffed-dough-dishes/)  
-[Piroshki (A Savoury, Filled Pastry) Recipe](https://www.food.com/recipe/piroshki-a-savoury-filled-pastry-76375)  
+[21 Savory Puff Pastry Recipes You'll Love](https://www.allrecipes.com/gallery/savory-puff-pastry-recipes/)
+[Around The World With 15 Stuffed Dough Dishes](https://www.tastingtable.com/985720/around-the-world-with-15-stuffed-dough-dishes/)
+[Piroshki (A Savoury, Filled Pastry) Recipe](https://www.food.com/recipe/piroshki-a-savoury-filled-pastry-76375)
 [Easy Stuffed Stromboli](https://www.simplyrecipes.com/recipes/easy_meat_and_cheese_stuffed_stromboli/)

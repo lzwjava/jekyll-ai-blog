@@ -82,10 +82,10 @@ type: note
 ### 结论
 Go、TypeScript、Kotlin、Swift和Julia是2000年后起步且快速普及的杰出语言，与Rust轨迹相似。Go和TypeScript在广泛影响上最接近Rust，而Kotlin和Swift主导特定生态系统，Julia在利基市场表现出色。它们的增长由现代技术需求、AI工具和开源势头推动，但由于遗留系统的 entrenched，未来5-10年内无一能完全"追赶"上Java/C/C++。尽管如此，它们正显著重塑各自领域。
 
-**参考文献**  
-[2025年顶级计算机语言](https://statisticstimes.com/tech/top-computer-languages.php)  
-[2025年十大编程语言](https://www.pluralsight.com/resources/blog/software-engineering/top-programming-languages)  
-[比较标签趋势与我们最受喜爱的编程语言](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/)  
-[编程语言历史](https://devskiller.com/history-of-programming-languages/)  
-[10种濒临'死亡'的编程语言](https://www.techtarget.com/searchsoftwarequality/feature/10-dying-or-dead-programming-languages)  
+**参考文献**
+[2025年顶级计算机语言](https://statisticstimes.com/tech/top-computer-languages.php)
+[2025年十大编程语言](https://www.pluralsight.com/resources/blog/software-engineering/top-programming-languages)
+[比较标签趋势与我们最受喜爱的编程语言](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/)
+[编程语言历史](https://devskiller.com/history-of-programming-languages/)
+[10种濒临'死亡'的编程语言](https://www.techtarget.com/searchsoftwarequality/feature/10-dying-or-dead-programming-languages)
 [编程语言受欢迎度的起落](https://www.zdnet.com/article/the-rise-and-fall-in-programming-languages-popularity-since-2016/)

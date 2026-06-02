@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about HR practices in China's big tech companies, particularly regarding their lack of engineering knowledge, mistreatment of engineers, and arrogance from undeserved power?
 
-Answer: 
+Answer:
 
 Unpopular opinions about HR in China's big tech firms (like Alibaba, Tencent, ByteDance, and Pinduoduo) often stem from the intense, hierarchical work culture and the sector's "996" schedule (9 a.m. to 9 p.m., six days a week), which critics call modern slavery. These views are echoed in employee forums, leaked memos, and reports, highlighting HR's role in enforcing exploitative policies without understanding the technical demands on engineers. Here's a breakdown of key unpopular ideas, drawn from worker accounts and analyses:
 

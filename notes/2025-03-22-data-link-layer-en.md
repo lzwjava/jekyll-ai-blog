@@ -8,11 +8,11 @@ translated: false
 type: note
 ---
 
-Here's a detailed tutorial to help you learn the **Data Link Layer** chapter in the **Computer Networks Technology** course (02141 in the Chinese Self-Study Exam system).  
+Here's a detailed tutorial to help you learn the **Data Link Layer** chapter in the **Computer Networks Technology** course (02141 in the Chinese Self-Study Exam system).
 
 ---
 
-## **1. Overview of the Data Link Layer**  
+## **1. Overview of the Data Link Layer**
 The Data Link Layer is the **second layer** in the **OSI model**, responsible for providing **reliable data transfer** between directly connected nodes. It ensures that frames (data packets at this layer) are correctly formatted, transmitted, and received.
 
 ### **Key Responsibilities:**
@@ -24,7 +24,7 @@ The Data Link Layer is the **second layer** in the **OSI model**, responsible fo
 
 ---
 
-## **2. Framing**  
+## **2. Framing**
 Framing involves breaking a continuous stream of data into smaller units, called **frames**, which include synchronization information.
 
 ### **Types of Framing Methods:**
@@ -34,7 +34,7 @@ Framing involves breaking a continuous stream of data into smaller units, called
 
 ---
 
-## **3. Error Detection and Correction**  
+## **3. Error Detection and Correction**
 Error handling ensures that data transmission is accurate.
 
 ### **Error Detection Techniques:**
@@ -51,7 +51,7 @@ Error handling ensures that data transmission is accurate.
 
 ---
 
-## **4. Flow Control**  
+## **4. Flow Control**
 Flow control prevents the sender from overwhelming the receiver.
 
 ### **Flow Control Methods:**
@@ -60,7 +60,7 @@ Flow control prevents the sender from overwhelming the receiver.
 
 ---
 
-## **5. Data Link Layer Protocols**  
+## **5. Data Link Layer Protocols**
 
 ### **5.1 Ethernet (IEEE 802.3)**
 **Ethernet** is a widely used LAN technology based on the **IEEE 802.3 standard**.
@@ -103,7 +103,7 @@ PPP is used in **dial-up and broadband connections**.
 
 ---
 
-## **6. Medium Access Control (MAC) Methods**  
+## **6. Medium Access Control (MAC) Methods**
 
 ### **6.1 Carrier Sense Multiple Access with Collision Detection (CSMA/CD)**
 - Used in **wired Ethernet networks**.
@@ -138,7 +138,7 @@ Switching determines how data is forwarded in a network.
 
 ---
 
-## **8. Introduction to LAN Technologies**  
+## **8. Introduction to LAN Technologies**
 LAN (Local Area Network) technologies define how devices communicate in a local network.
 
 ### **Types of LAN Technologies:**

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to "The Art of War" by Sun Tzu (孙子兵法).
 
-Answer: 
+Answer:
 
 **The Art of War** (《孙子兵法》, Sūnzi Bīngfǎ) 是一部中国古代军事著作，写于大约 **公元前5世纪**（春秋末期）。传统上认为其作者是 **Sun Tzu**（孙武），他是来自齐国（或吴国，视史料而定）的一位将军、军事策略家和哲学家。
 

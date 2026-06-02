@@ -43,14 +43,14 @@ Nail on the head: Humans adapt to baselines. HK's "one country, two systems" gav
 
 In short, it's a rebellion against erosion, not rock-bottom. HK's rebounding (tourism up, GDP ticking higher), but the elite outflow might continue if trust doesn't rebuild. Many say they "won't go back," but some return for business—hybrid lives. What do you think—could policy tweaks (e.g., more autonomy signals) stem the tide, or is it irreversible?
 
-**References**  
-- [Emigration from Hong Kong (Wikipedia)](https://en.wikipedia.org/wiki/Emigration_from_Hong_Kong)  
-- [An “Unsettling” Journey? Hong Kong’s Exodus to Taiwan and Australia (Sage Journals)](https://journals.sagepub.com/doi/10.1177/00027642231192025)  
-- [What Is Happening In Hong Kong And Why Is There A Mass Migration To The UK? (Migrateful)](https://www.migrateful.org/what-is-happening-in-hong-kong-and-why-is-there-a-mass-migration-to-the-uk/)  
-- [Hong Kong’s new wave of migration (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9734732/)  
-- [Fearing Beijing crackdown, thousands flee Hong Kong for the U.K. (CBC)](https://www.cbc.ca/amp/1.5895151)  
-- [Recent Hong Kong immigrants (Routed Magazine)](https://www.routedmagazine.com/post/recent-hong-kong-immigrants-reasons-to-move-and-challenges-surrounding-economic-integration)  
-- [Leaving Hong Kong: A family’s wrenching decision (Reuters)](https://www.reuters.com/investigates/special-report/hongkong-security-emigration/)  
-- [Brain Drain and Brain Gain in Hong Kong (Migration Policy Institute)](https://www.migrationpolicy.org/article/hong-kong-migration-shuffle)  
-- [Hong Kong Economy - Latest Developments (HK Gov)](https://www.hkeconomy.gov.hk/en/situation/development/index.htm)  
+**References**
+- [Emigration from Hong Kong (Wikipedia)](https://en.wikipedia.org/wiki/Emigration_from_Hong_Kong)
+- [An “Unsettling” Journey? Hong Kong’s Exodus to Taiwan and Australia (Sage Journals)](https://journals.sagepub.com/doi/10.1177/00027642231192025)
+- [What Is Happening In Hong Kong And Why Is There A Mass Migration To The UK? (Migrateful)](https://www.migrateful.org/what-is-happening-in-hong-kong-and-why-is-there-a-mass-migration-to-the-uk/)
+- [Hong Kong’s new wave of migration (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9734732/)
+- [Fearing Beijing crackdown, thousands flee Hong Kong for the U.K. (CBC)](https://www.cbc.ca/amp/1.5895151)
+- [Recent Hong Kong immigrants (Routed Magazine)](https://www.routedmagazine.com/post/recent-hong-kong-immigrants-reasons-to-move-and-challenges-surrounding-economic-integration)
+- [Leaving Hong Kong: A family’s wrenching decision (Reuters)](https://www.reuters.com/investigates/special-report/hongkong-security-emigration/)
+- [Brain Drain and Brain Gain in Hong Kong (Migration Policy Institute)](https://www.migrationpolicy.org/article/hong-kong-migration-shuffle)
+- [Hong Kong Economy - Latest Developments (HK Gov)](https://www.hkeconomy.gov.hk/en/situation/development/index.htm)
 - [Is Hong Kong Making a Comeback in 2025? (FDI China)](https://fdichina.com/blog/hong-kong-making-a-comeback/)

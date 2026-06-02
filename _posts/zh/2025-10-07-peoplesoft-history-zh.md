@@ -76,8 +76,8 @@ PeopleSoft 仍然是一个充满活力的平台，Oracle 正在投资于 AI 增�
 
 对于动手学习，Oracle University 提供 PeopleSoft 管理和开发方面的认证，而文档门户则提供广泛的指南。
 
-[Oracle PeopleSoft Applications](https://www.oracle.com/applications/peoplesoft/)  
-[PeopleSoft 101：新用户必备指南](https://questoraclecommunity.org/learn/blogs/peoplesoft-101-for-new-peoplesoft-users/)  
-[Oracle PeopleSoft 管理培训简介](https://www.multisoftvirtualacademy.com/articles/introduction-to-oracle-peoplesoft-admin-training)  
-[Oracle PeopleSoft 文档首页](https://docs.oracle.com/en/applications/peoplesoft/index.html)  
+[Oracle PeopleSoft Applications](https://www.oracle.com/applications/peoplesoft/)
+[PeopleSoft 101：新用户必备指南](https://questoraclecommunity.org/learn/blogs/peoplesoft-101-for-new-peoplesoft-users/)
+[Oracle PeopleSoft 管理培训简介](https://www.multisoftvirtualacademy.com/articles/introduction-to-oracle-peoplesoft-admin-training)
+[Oracle PeopleSoft 文档首页](https://docs.oracle.com/en/applications/peoplesoft/index.html)
 [PeopleSoft 支持延长至 2036 年](https://blogs.oracle.com/peoplesoft/post/peoplesoft-support-2036)

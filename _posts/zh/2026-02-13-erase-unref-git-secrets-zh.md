@@ -102,8 +102,8 @@ curl -X POST \
 
 ### 总结 – 实践中最常见的答案
 
-如果 commit 确实无法从所有当前 refs 到达 →  
-→ 普通 repo owner/collaborator 使用 `git filter-repo` + force push 就足够了  
+如果 commit 确实无法从所有当前 refs 到达 →
+→ 普通 repo owner/collaborator 使用 `git filter-repo` + force push 就足够了
 → **不需要** GitHub Enterprise 管理员和手动的服务器端 `git gc`
 
 **References:**

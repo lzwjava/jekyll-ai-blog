@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=nJdCqaIIPHQ say?
 
-Answer: 
+Answer:
 
 The video is a mini-documentary biography titled **"Steve Cohen - America's Most Profitable Day Trader"** uploaded by the channel FINAiUS on July 2, 2021.
 
@@ -31,6 +31,6 @@ The narration portrays him as a naturally gifted, intuitive trader with poker-li
 
 The video is promotional in style (includes ads for funded trading accounts and suits), and top comments often highlight the insider trading angle, comparisons to the TV show *Billions* (loosely based on him), and lessons about needing an edge in markets.
 
-References:  
+References:
 
 - [YouTube Video](https://www.youtube.com/watch?v=nJdCqaIIPHQ)

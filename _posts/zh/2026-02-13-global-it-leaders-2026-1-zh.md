@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 20 IT services companies in the world?
 
-Answer: 
+Answer:
 
 这里的**顶级 IT services 公司**（侧重于 consulting、outsourcing、digital transformation 以及为银行/大型企业提供服务，类似于 Accenture/Infosys）主要根据 **Brand Finance IT Services 25 (2026)** 报告进行排名，该报告衡量了截至 2026 年初的品牌价值。这是该行业的一个关键基准，反映了全球对 IT services/outsourcing 公司的认知、实力和影响力。
 
@@ -42,22 +42,22 @@ Answer:
 
 11–20（通常被公认为 IT services/outsourcing 前 25 强，并经常被同时提及）：
 
-11. **Fujitsu (IT Services)** (日本)  
-12. **Persistent Systems** (印度) — 在 2026 年报告中被评为增长最快的品牌  
-13. **EPAM Systems** (美国/白俄罗斯)  
-14. **Genpact** (美国/印度)  
-15. **LTIMindtree** (印度)  
-16. **DXC Technology** (美国)  
-17. **Tech Mahindra** (印度)  
-18. **Kyndryl** (美国) — 从 IBM 拆分出来，专注于 infrastructure services  
-19. **Deloitte Consulting** (美国) — 其 advisory/IT services 分支  
+11. **Fujitsu (IT Services)** (日本)
+12. **Persistent Systems** (印度) — 在 2026 年报告中被评为增长最快的品牌
+13. **EPAM Systems** (美国/白俄罗斯)
+14. **Genpact** (美国/印度)
+15. **LTIMindtree** (印度)
+16. **DXC Technology** (美国)
+17. **Tech Mahindra** (印度)
+18. **Kyndryl** (美国) — 从 IBM 拆分出来，专注于 infrastructure services
+19. **Deloitte Consulting** (美国) — 其 advisory/IT services 分支
 20. **Hexaware Technologies** (印度) — 或类似的前 25 强中层企业，如 Atos 等。
 
 注意：前 10 名以外的准确排名会根据衡量指标（品牌价值 vs 收入 vs 市场份额）略有不同。基于收入的排名（例如 TCS 约 300 亿美元以上，Accenture 规模更大）通常将 TCS/Accenture 排在首位。这些公司主导了银行业（核心银行、支付、合规）和大型企业（ERP、cloud migration、AI/digital）的大规模 outsourcing 合同。
 
 印度公司在成本效益和大规模交付方面表现出色，而其他公司在高端 consulting/strategy 方面领先。
 
-References:  
+References:
 
 - [Brand Finance IT Services 25 2026 Report](https://brandirectory.com/reports/it-services)
 - [Top 10 most valuable IT service brands in 2025-26](https://indianexpress.com/article/trending/top-10-listing/top-10-most-valuable-it-service-brands-in-2025-26-10492522)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the play 《雷雨》 (Thunderstorm) by Cao Yu, in the form of an essay-like overview.
 
-Answer: 
+Answer:
 
 **Introduction to Thunderstorm (雷雨) by Cao Yu**
 
@@ -37,7 +37,7 @@ Upon publication in *Literary Quarterly* (文学季刊), the play quickly gained
 
 *Thunderstorm* helped establish spoken drama as a serious literary and theatrical form in China, moving away from traditional opera toward modern realism. Its exploration of universal human flaws—greed, lust, guilt, and the weight of the past—combined with sharp social critique, ensures its enduring relevance nearly a century after its creation.
 
-References:  
+References:
 
 - [Thunderstorm (play) - Wikipedia](https://en.wikipedia.org/wiki/Thunderstorm_(play))
 - [Cao Yu - Wikipedia](https://en.wikipedia.org/wiki/Cao_Yu)

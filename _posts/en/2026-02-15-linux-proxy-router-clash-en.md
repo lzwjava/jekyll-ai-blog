@@ -11,7 +11,7 @@ type: note
 
 Question: Could I use one Ethernet port for internet input and a USB-to-Ethernet adapter for output to run a Clash service as a global proxy router in a home network setup on a Linux Mint laptop (likely an old ThinkPad from ~2010–2012)?
 
-Answer: 
+Answer:
 
 Yes, this is possible and is a quite common way to turn an old laptop into a simple wired proxy router using Clash.
 
@@ -106,6 +106,6 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
 
 This setup works well as a small home global proxy router.
 
-References:  
+References:
 
 - None required for this explanation (common Linux networking + Clash knowledge)

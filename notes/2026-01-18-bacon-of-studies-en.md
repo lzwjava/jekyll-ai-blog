@@ -12,7 +12,7 @@ type: note
 
 Question: Use English to introduce Francis Bacon's essay "Of Studies" (also commonly translated as "On Reading" or "Of Studies").
 
-Answer: 
+Answer:
 
 **Of Studies** is one of the most famous and frequently quoted essays by Francis Bacon, the renowned English philosopher, statesman, and pioneer of the essay form during the Renaissance period.
 
@@ -27,7 +27,7 @@ Bacon also provides practical advice on how to approach books: some should be ta
 
 With its clear, aphoristic style and balanced wisdom, "Of Studies" remains one of the most influential and enduring pieces of English prose. It continues to be widely read, quoted, and taught as a classic statement on the value and right use of learning.
 
-References:  
+References:
 
 - [Francis Bacon – Of Studies (full text, 1625 edition)](https://www.gutenberg.org/files/575/575-h/575-h.htm#link2H_4_0008)
 - [Francis Bacon, Essays (various editions)](https://en.wikipedia.org/wiki/Essays_(Francis_Bacon))

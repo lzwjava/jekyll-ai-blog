@@ -16,7 +16,7 @@ JMS (Java Message Service) is a standard API for sending and receiving messages 
 
 #### Key Components and Flow
 1. **Service Integration Bus (SIBus)**: This is the core infrastructure. It's like a virtual network where messaging engines (one per server or cluster) process messages. You create a bus, add servers as members, and define destinations (queues or topics) on it.
-   
+
 2. **Connection Factory**: Acts as the entry point. Your Java app looks up this via JNDI (e.g., `jms/MyConnectionFactory`) to create a JMS connection to the SIBus.
 
 3. **Destinations (Queues/Topics)**: Queues are for point-to-point messaging (one sender, one receiver). Once created and bound to the bus, they store messages persistently (using file stores or databases, configurable).

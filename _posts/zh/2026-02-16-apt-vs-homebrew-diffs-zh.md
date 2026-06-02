@@ -11,7 +11,7 @@ type: note
 
 Question: Compare APT and Homebrew
 
-Answer: 
+Answer:
 
 **APT** 和 **Homebrew**（通常被称为 "brew"）都是流行的 package managers，但它们针对不同的 operating systems 和哲学。
 
@@ -61,7 +61,7 @@ Answer:
 
 简而言之：APT = Linux 上的深度系统集成。Homebrew = 友好、user-local、跨平台且以 developer 为中心的 package management (在 macOS 上尤为强大)。
 
-References:  
+References:
 
 - [https://brew.sh/](https://brew.sh/)
 - [https://www.xda-developers.com/homebrew-good-linux-mac](https://www.xda-developers.com/homebrew-good-linux-mac)

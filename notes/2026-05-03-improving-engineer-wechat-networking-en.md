@@ -65,8 +65,8 @@ Instead of telling people to “introduce themselves,” give them a copy-paste 
 Example:
 
 ```
-Hi, I saw your message about [topic].  
-I’m currently working on [X], also interested in [Y].  
+Hi, I saw your message about [topic].
+I’m currently working on [X], also interested in [Y].
 Would love to connect and exchange ideas.
 ```
 

@@ -26,7 +26,7 @@ This is the most critical issue. Every time a layout or one of its children need
 
 * **`LinearLayout`**: It's efficient for simple, non-nested layouts because it only needs one pass to measure its children. However, nesting it, especially with `weight` attributes, can still lead to complexity.
 * **`RelativeLayout`**: It's known to be **computationally expensive**. It often requires **two Measure and Layout passes** (double-traversal) because a child view's size and position can depend on the sizes and positions of other children (e.g., "to the right of," "centered").
-* **Deep Nesting**: When you combine these, a deeply nested structure means the system has to perform multiple, redundant Measure and Layout passes on the same views or groups of views, which significantly slows down **rendering** and can lead to jank or stuttering, especially on older devices or with complex UIs. 
+* **Deep Nesting**: When you combine these, a deeply nested structure means the system has to perform multiple, redundant Measure and Layout passes on the same views or groups of views, which significantly slows down **rendering** and can lead to jank or stuttering, especially on older devices or with complex UIs.
 
 ### 2. Layout Complexity and Maintenance
 

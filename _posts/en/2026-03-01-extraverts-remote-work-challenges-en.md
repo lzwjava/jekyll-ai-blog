@@ -11,7 +11,7 @@ type: note
 
 Question: Is the E (Extraversion) type in MBTI not suitable for work from home due to issues like loneliness?
 
-Answer: 
+Answer:
 
 In the **MBTI** (Myers-Briggs Type Indicator), the **E** stands for **Extraversion** (or Extroversion). People with a preference for Extraversion (often called "E types") gain energy from interacting with others, external activities, and social environments. They tend to thrive in settings with frequent social contact, informal chats, and group dynamics.
 
@@ -36,7 +36,7 @@ Introverts (I types), by contrast, often thrive more in remote work because they
 
 In summary, E types are generally **less naturally suited** to purely remote work than I types due to the reduced social stimulation, which can lead to loneliness and lower energy. However, it's far from impossible — suitability depends on the individual, job role, team communication style, and proactive coping strategies.
 
-References:  
+References:
 
 - [Psychology Today - How Your Personality Determines If You Can Work Remotely](https://www.psychologytoday.com/us/blog/intentional-insights/202302/how-your-personality-determines-if-you-can-work-remotely)
 - [Business News Daily - Personality Types Compatible With Remote Work](https://www.businessnewsdaily.com/7965-personality-work-from-home.html)

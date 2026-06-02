@@ -42,7 +42,7 @@ class SimpleRNN(nn.Module):
         self.rnn = nn.RNN(input_size, hidden_size, batch_first=True)
         self.fc = nn.Linear(hidden_size, output_size)
         self.sigmoid = nn.Sigmoid()
-    
+
     def forward(self, x):
         # x 形状: (batch, seq_len, input_size)
         h0 = torch.zeros(1, x.size(0), self.hidden_size)  # 初始隐藏状态
@@ -100,5 +100,5 @@ out, (hn, cn) = self.rnn(x, (h0, c0))
 
 请在 PyTorch 环境中运行此代码进行实验！
 
-[PyTorch RNN 文档](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html)  
+[PyTorch RNN 文档](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html)
 [PyTorch LSTM 文档](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)

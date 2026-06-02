@@ -12,7 +12,7 @@ type: note
 
 Question: What did Sulaiman Ghori say in the podcast about xAI?
 
-Answer: 
+Answer:
 
 Sulaiman Ghori, a former Member of Technical Staff at xAI, appeared on the "Relentless" podcast hosted by Ti Morse in an episode titled "WTF is happening at xAI," published around January 15, 2026. In the roughly 1-hour-11-minute interview, he provided rare insider insights into xAI's culture, operations, projects, and work with Elon Musk. Key points he discussed include:
 
@@ -32,7 +32,7 @@ Sulaiman Ghori, a former Member of Technical Staff at xAI, appeared on the "Rele
 
 Ghori spoke positively about the high-trust, bureaucracy-free environment, though he left xAI shortly after (announced January 19, 2026, with "nothing but love" for the team), sparking speculation that the candid interview contributed to his departure (though unconfirmed).
 
-References:  
+References:
 
 - [YouTube: WTF is happening at xAI | Sulaiman Ghori](https://www.youtube.com/watch?v=8jN60eJr4Ps)
 - [Business Insider: 10 quotes about xAI and Elon Musk from the engineer who is out days after giving a sweeping podcast interview](https://www.businessinsider.com/xai-engineer-sulaiman-ghori-leaves-company-relentless-podcast-elon-musk-2026-1)

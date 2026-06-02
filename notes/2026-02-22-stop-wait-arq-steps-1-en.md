@@ -11,7 +11,7 @@ type: note
 
 Question: In the error control technology of data communication, Stop-and-Wait ARQ is one of the common methods for error detection and retransmission. The diagram below describes the process of using Stop-and-Wait ARQ when the sender and receiver transmit data. Please write out the content of items ① to ⑥ in the diagram based on the provided reference answer logic.
 
-Answer: 
+Answer:
 
 Based on the reference answer provided and the standard mechanics of the Stop-and-Wait ARQ protocol (specifically a variant utilizing NAK - Negative Acknowledgment), here is the detailed deduction and explanation for items ① through ⑥:
 
@@ -52,7 +52,7 @@ Based on the reference answer provided and the standard mechanics of the Stop-an
 
 This scenario highlights the efficiency of using NAKs in Stop-and-Wait ARQ, as it avoids waiting for a timeout period when an error is detected immediately at the receiver.
 
-References:  
+References:
 
 - [Stop-and-Wait ARQ Protocol - GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 - [Error Control: Flow Control & Error Control - Tutorialspoint](https://www.tutorialspoint.com/data_communication_computer_network/error_control.htm)

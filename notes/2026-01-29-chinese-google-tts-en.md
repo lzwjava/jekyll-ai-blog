@@ -12,7 +12,7 @@ type: note
 
 Question: For Chinese, what voice options can we use in Google Cloud Text-to-Speech similar to the en-US-Journey voices?
 
-Answer: 
+Answer:
 
 Google Cloud Text-to-Speech supports **Mandarin Chinese** (Mainland China, code: `cmn-CN` or `zh-CN`) and **Chinese (Hong Kong)** (Cantonese, code: `yue-HK` or `zh-HK`).
 
@@ -64,7 +64,7 @@ Your `language_code` should be `"cmn-CN"` (or `"zh-CN"`) for Mandarin input text
 
 The rest of your code (e.g., `effects_profile_id` for small-bluetooth-speaker-class-device) works the same way.
 
-References:  
+References:
 
 - [Supported voices and languages | Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types)
 - [Cloud Text-to-Speech release notes](https://docs.cloud.google.com/text-to-speech/docs/release-notes)

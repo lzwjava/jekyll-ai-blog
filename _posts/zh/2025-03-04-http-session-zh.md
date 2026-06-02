@@ -47,14 +47,14 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class SetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         // 获取会话（如果不存在则创建一个）
         HttpSession session = request.getSession();
-        
+
         // 设置会话属性
         session.setAttribute("username", "Alice");
-        
+
         // 响应客户端
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
@@ -84,18 +84,18 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class GetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         // 获取会话（如果不存在会话则返回 null）
         HttpSession session = request.getSession(false);
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        
+
         if (session != null) {
             // 检索会话属性
             String username = (String) session.getAttribute("username");
-            
+
             if (username != null) {
                 out.println("会话值已检索：username = " + username);
             } else {
@@ -126,11 +126,11 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class SetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         HttpSession session = request.getSession();
         session.setAttribute("user", "Bob");
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("用户已设置到会话中：Bob");
@@ -145,13 +145,13 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class GetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         HttpSession session = request.getSession(false);
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        
+
         if (session != null && session.getAttribute("user") != null) {
             String user = (String) session.getAttribute("user");
             out.println("欢迎回来，" + user);

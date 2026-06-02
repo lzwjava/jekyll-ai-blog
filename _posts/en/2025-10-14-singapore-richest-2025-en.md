@@ -67,5 +67,5 @@ Based on the latest Forbes data compiled as of September 2025, here is the ranki
 | 49   | Raj Kumar                    | $1.6B     | Royal Holdings, RB Capital                |
 | 50   | Tay Tee Peng Family          | $1.5B     | Memocorp, OG Department Stores            |
 
-[Singapore's 50 Richest](https://www.forbes.com/lists/singapore-billionaires/)  
+[Singapore's 50 Richest](https://www.forbes.com/lists/singapore-billionaires/)
 [Top Richest Billionaires in Singapore 2025](https://www.caproasia.com/2025/09/11/top-richest-billionaires-in-singapore-2025-67-billionaires-with-total-wealth-245-billion-average-wealth-3-7-billion-top-5-richest-are-facebook-eduardo-saverin-41-billion-mindray-bio-medical-el/)

@@ -69,8 +69,8 @@ Annapurna Labs designs **custom silicon** that powers much of AWS's infrastructu
 
 ### Summary
 
-> **Annapurna Labs = AWS’s secret silicon weapon.**  
-> They build **ARM-based Graviton CPUs**, **Inferentia (inference)**, **Trainium (training)**, and **Nitro offload chips** — all optimized for the cloud.  
+> **Annapurna Labs = AWS’s secret silicon weapon.**
+> They build **ARM-based Graviton CPUs**, **Inferentia (inference)**, **Trainium (training)**, and **Nitro offload chips** — all optimized for the cloud.
 > These power **cheaper, faster, greener** AWS services and are a key reason AWS can undercut competitors on price while scaling AI.
 
 Let me know if you want deep dives into any specific chip (e.g., Graviton4 vs Apple M4, Trainium2 vs H100).

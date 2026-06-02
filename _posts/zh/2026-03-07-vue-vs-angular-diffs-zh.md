@@ -19,17 +19,17 @@ type: note
 
 ### 1. 概述
 
-**Vue.js**  
+**Vue.js**
 Vue.js 是一个用于构建用户界面的 JavaScript 框架。它由 Evan You 创建，并于 2014 年 2 月公开发布，因其简单性和易于集成而迅速流行。
 
-**Angular**  
+**Angular**
 Angular 于 2010 年发布，是一个基于 TypeScript 的开源 JavaScript 框架，由 Google 开发和维护。它主要设计用于构建动态的单页应用 (SPA)，并遵循 MVC (Model-View-Controller) 架构模式，强调模块化、可测试性和可扩展性。
 
 ---
 
 ### 2. 架构与设计理念
 
-  
+
 | 特性 | Vue | Angular |
 |---|---|---|
 | 架构 | MVVM | MVC |
@@ -95,7 +95,7 @@ Angular 非常适合大规模、企业级应用和具有复杂需求的项目，
 
 ### 总结表格
 
-  
+
 | 标准 | Vue | Angular |
 |---|---|---|
 | 创建者 | Evan You (2014) | Google (2010/2016) |

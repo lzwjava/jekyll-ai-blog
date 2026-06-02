@@ -31,7 +31,7 @@ type: note
 
 地区特色菜包括四川的芥菜 (mustard greens 或 jiècài) 用于腌制，以及南方菜肴中的苋菜 (amaranth 或 xiàncài)。香菇和木耳等蘑菇也是主要食材，但它们在技术上属于真菌。
 
-参考文献：  
+参考文献：
 
 - https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm
 - https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/

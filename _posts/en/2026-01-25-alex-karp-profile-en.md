@@ -52,7 +52,7 @@ Karp is widely regarded as one of the most **unconventional, outspoken, and ecce
 
 In summary, Alex Karp stands out as a **philosopher-turned-tech-CEO** who built one of the most politically and ethically controversial yet commercially successful enterprise software companies of the past two decades. His blend of intellectual depth, combative rhetoric, and focus on "software that wins wars" continues to make him a polarizing yet influential figure in technology, defense, and AI debates.
 
-**References:**  
+**References:**
 
 - [Alex Karp - Wikipedia](https://en.wikipedia.org/wiki/Alex_Karp)
 - [Alexander Karp - Forbes](https://www.forbes.com/profile/alexander-karp)

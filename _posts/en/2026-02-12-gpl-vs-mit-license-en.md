@@ -12,11 +12,11 @@ type: note
 
 Question: What is the GPL license, and what is the difference between GPL and MIT?
 
-Answer: 
+Answer:
 
 The **GPL** (GNU General Public License) is one of the most well-known **open-source licenses**. It is a **copyleft** license created by Richard Stallman and the Free Software Foundation. Its main goal is to guarantee that software remains **free** (as in freedom) forever — users must have the rights to run, study, modify, and share the software.
 
-The core idea of GPL is:  
+The core idea of GPL is:
 "If you distribute the software (or a modified version), you must also provide the **source code** under the same GPL license."
 
 This creates a "viral" or protective effect: any larger program that includes or links to GPL code usually must also be released under GPL (especially in the case of **GPLv3** or when distributing binaries).
@@ -45,7 +45,7 @@ Key differences between **GPL** and **MIT**:
 - Choose **MIT** if you want your code to be used as widely as possible — even in closed-source commercial products.
 - Choose **GPL** if you want to force derivatives to stay open source and give back changes to the community.
 
-References:  
+References:
 
 - [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - [MIT License](https://opensource.org/license/mit)

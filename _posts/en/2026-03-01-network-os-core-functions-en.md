@@ -29,31 +29,31 @@ It can be understood as:
 
 ### Specific functions that distinguish a network operating system from a general (stand-alone) operating system:
 
-- **File service**  
+- **File service**
   Provides centralized file storage, sharing, access control, synchronization, and locking mechanisms across the network (most fundamental and core function of NOS).
 
-- **Print service**  
+- **Print service**
   Implements network printer sharing, print queue management, priority scheduling, and spooling services.
 
-- **Database service** (in some NOS definitions)  
+- **Database service** (in some NOS definitions)
   Provides distributed or centralized database access, transaction management, and data consistency mechanisms over the network.
 
-- **Communication service**  
+- **Communication service**
   Offers reliable data transmission between network nodes, including message passing, remote procedure call (RPC), named pipes, sockets, etc.
 
-- **Network management service**  
+- **Network management service**
   Includes user account management, rights and permissions control, network monitoring, fault detection, performance statistics, security auditing, and centralized network administration.
 
-- **Internet/Intranet service**  
+- **Internet/Intranet service**
   Provides support for TCP/IP protocol stack, web services (HTTP/HTTPS), email service (SMTP/POP3/IMAP), FTP service, DNS resolution, DHCP service, remote access (VPN, terminal services), etc.
 
-- **Directory service** (very important in modern NOS)  
+- **Directory service** (very important in modern NOS)
   Provides centralized user authentication, name resolution, and resource location services (e.g., Active Directory, LDAP, NIS, eDirectory).
 
-- **Name service / name resolution**  
+- **Name service / name resolution**
   Maps resource names to network addresses (different from DNS, more focused on internal network naming).
 
-- **Remote management and remote execution**  
+- **Remote management and remote execution**
   Allows administrators to manage remote servers, execute commands remotely, and perform software distribution/patching.
 
 In summary, the most classic and commonly listed **core specific functions** of a network operating system are:

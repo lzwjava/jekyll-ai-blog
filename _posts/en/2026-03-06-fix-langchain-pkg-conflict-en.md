@@ -30,14 +30,14 @@ This warning appears because:
 
 ### Recommended solutions (pick one)
 
-1. **Best long-term solution** — Update langchain-core  
+1. **Best long-term solution** — Update langchain-core
    Langchain libraries usually receive updates relatively quickly for dependency bounds.
 
    ```bash
    python -m pip install --upgrade langchain-core
    ```
 
-   Most likely langchain-core ≥ 1.3.x or 0.3.x series (depending on which package line you're using) already allows packaging ≥ 26.0.  
+   Most likely langchain-core ≥ 1.3.x or 0.3.x series (depending on which package line you're using) already allows packaging ≥ 26.0.
    After upgrading, run `pip check` to confirm no conflicts remain.
 
 2. **Quick fix if you cannot / do not want to upgrade langchain-core yet**
@@ -57,7 +57,7 @@ This warning appears because:
 
 3. **If you mainly need black and don't care much about langchain right now**
 
-   Ignore the warning for now — in many cases black 26.x works fine even when langchain-core complains, because the packaging API is quite stable between 25 → 26.  
+   Ignore the warning for now — in many cases black 26.x works fine even when langchain-core complains, because the packaging API is quite stable between 25 → 26.
    Only downgrade packaging if you actually see runtime errors from langchain-core.
 
 4. **Cleanest solution (if you're in a project with requirements.txt / pyproject.toml)**
@@ -96,5 +96,5 @@ python -m pip install --upgrade langchain-core
 pip check
 ```
 
-If the conflict is gone → you're good.  
+If the conflict is gone → you're good.
 If not, tell me the new langchain-core version and I can suggest the next step.

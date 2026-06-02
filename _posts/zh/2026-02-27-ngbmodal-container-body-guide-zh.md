@@ -30,11 +30,11 @@ this.modalService.open(content, {
 });
 ```
 
-- **`container: 'body'`**（大多数情况下的默认值）  
-  → 模态框对话框**直接追加到 `<body>` 元素**（portal / 从组件树中的原始位置分离）。  
+- **`container: 'body'`**（大多数情况下的默认值）
+  → 模态框对话框**直接追加到 `<body>` 元素**（portal / 从组件树中的原始位置分离）。
   这是推荐且最常见的设置。
 
-- **`container: '#my-app-root'`** 或任何其他选择器  
+- **`container: '#my-app-root'`** 或任何其他选择器
   → 模态框追加到指定的特定元素中，而不是 `<body>`。
 
 此设置在以下情况下很重要：
@@ -65,7 +65,7 @@ this.modalService.open(content, {
 
 因此，在 ngb-modal 讨论中，当人们说 “container body” 时，几乎总是指：
 
-> 在模态框 **选项** 中使用 `container: 'body'`  
+> 在模态框 **选项** 中使用 `container: 'body'`
 > 并将主要内容放入模板中的 `<div class="modal-body">` 内。
 
 ### 快速总结表格
@@ -87,7 +87,7 @@ this.modalService.open(content, { container: 'body', centered: true });
 </div>
 ```
 
-参考资料：  
+参考资料：
 
 - [https://ng-bootstrap.github.io/#/components/modal/api](https://ng-bootstrap.github.io/#/components/modal/api)
 - [https://ng-bootstrap.github.io/#/components/modal/examples](https://ng-bootstrap.github.io/#/components/modal/examples)

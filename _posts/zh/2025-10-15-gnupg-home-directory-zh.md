@@ -24,7 +24,7 @@ type: note
 
 若您近期生成或导入了密钥，此目录结构属正常状态。请务必将整个 `~/.gnupg/` 目录安全备份，且切勿共享私钥。更多细节请参阅官方 GnuPG 文档。
 
-[使用 GNU Privacy Guard](https://www.gnupg.org/documentation/manuals/gnupg.pdf)  
-[GnuPG 第二篇 - 创建与管理密钥](https://www.hacksanity.com/kb/gnupg-create-manage-keys/)  
-[Linux 系统备份与恢复 GPG 密钥指南](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)  
+[使用 GNU Privacy Guard](https://www.gnupg.org/documentation/manuals/gnupg.pdf)
+[GnuPG 第二篇 - 创建与管理密钥](https://www.hacksanity.com/kb/gnupg-create-manage-keys/)
+[Linux 系统备份与恢复 GPG 密钥指南](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)
 [GPG(1) 手册](https://www.gnupg.org/(en)/documentation/manuals/gnupg24/gpg.1.html)

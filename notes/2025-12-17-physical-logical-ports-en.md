@@ -12,12 +12,12 @@ type: note
 
 Question: Why am I confused between ports like 22 and 443 and the physical ports on switches?
 
-Answer: 
+Answer:
 
 You're confusing two completely different types of "ports" in networking—they share the same word but mean very different things.
 
 ### Physical Ports
-These are the actual hardware connectors on devices like network switches, routers, or computers. 
+These are the actual hardware connectors on devices like network switches, routers, or computers.
 - They are usually **RJ45 Ethernet jacks** where you plug in Ethernet cables.
 - A switch has multiple physical ports (e.g., 8-port, 24-port) to allow many cables to connect multiple devices physically.
 - They handle the electrical signals for data transmission over cables.
@@ -52,7 +52,7 @@ These are virtual/numerical identifiers used in software and network protocols (
 
 In summary: Physical ports connect cables/hardware; logical ports direct data to specific software services. They operate at different layers of the networking model.
 
-References:  
+References:
 
 - https://www.lifewire.com/computer-port-usage-817366
 - https://en.wikipedia.org/wiki/Port_(computer_networking)

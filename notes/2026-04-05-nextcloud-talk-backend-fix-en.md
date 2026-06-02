@@ -31,7 +31,7 @@ Changed `baseUrl` from `http://172.17.0.1:8080` → `http://localhost`
 
 **Status:**
 - ✅ No more "Invalid backend" errors after 02:25 HKT
-- ✅ Gateway restarted successfully  
+- ✅ Gateway restarted successfully
 - ✅ Webhook listening
 
 **Please try sending a new message now** — the old messages at 02:26 failed because they were sent before the fix. New messages after ~02:22 should work.

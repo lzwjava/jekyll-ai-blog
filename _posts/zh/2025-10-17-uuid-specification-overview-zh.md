@@ -16,5 +16,5 @@ UUID是一个128位的数字，用于在计算机系统中唯一标识信息，�
 
 该规范已被软件开发领域广泛采用，适用于数据库主键、会话标识符和分布式系统等场景。
 
-[ RFC 4122 - 通用唯一识别码URN命名空间](https://datatracker.ietf.org/doc/html/rfc4122)  
+[ RFC 4122 - 通用唯一识别码URN命名空间](https://datatracker.ietf.org/doc/html/rfc4122)
 [ 通用唯一识别码 - 维基百科](https://en.wikipedia.org/wiki/Universally_unique_identifier)

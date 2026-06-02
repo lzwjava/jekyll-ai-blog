@@ -82,10 +82,10 @@ def execute_code(code: str):
 
 这种方法可以显著提升聊天机器人的速度和能力，尤其是在计算任务方面。如果您正在实施此方案，可以考虑从OpenAI或Gemini的内置功能入手，以快速见效。
 
-[为AI生成代码执行构建沙盒环境](https://anukriti-ranjan.medium.com/building-a-sandboxed-environment-for-ai-generated-code-execution-e1351301268a)  
-[substratusai/sandboxai: 在隔离沙盒中运行AI生成的代码](https://github.com/substratusai/sandboxai)  
-[使用TS和GPT-4o通过沙盒代码执行构建AI数据分析师 - E2B](https://e2b.dev/blog/build-ai-data-analyst-with-sandboxed-code-execution-using-typescript-and-gpt-4o)  
-[代码执行 | Gemini API](https://ai.google.dev/gemini-api/docs/code-execution)  
-[助手代码解释器 - OpenAI API](https://platform.openai.com/docs/assistants/tools/code-interpreter)  
-[Modal沙盒](https://modal.com/use-cases/sandboxes)  
+[为AI生成代码执行构建沙盒环境](https://anukriti-ranjan.medium.com/building-a-sandboxed-environment-for-ai-generated-code-execution-e1351301268a)
+[substratusai/sandboxai: 在隔离沙盒中运行AI生成的代码](https://github.com/substratusai/sandboxai)
+[使用TS和GPT-4o通过沙盒代码执行构建AI数据分析师 - E2B](https://e2b.dev/blog/build-ai-data-analyst-with-sandboxed-code-execution-using-typescript-and-gpt-4o)
+[代码执行 | Gemini API](https://ai.google.dev/gemini-api/docs/code-execution)
+[助手代码解释器 - OpenAI API](https://platform.openai.com/docs/assistants/tools/code-interpreter)
+[Modal沙盒](https://modal.com/use-cases/sandboxes)
 [使用New Relic AI监控优化AI聊天机器人性能](https://newrelic.com/blog/how-to-relic/optimizing-ai-chatbot-performance)

@@ -12,7 +12,7 @@ type: note
 
 Question: How is the founder's story of MLILY, the mattress brand?
 
-Answer: 
+Answer:
 
 MLILY is a mattress brand owned by Healthcare Co., Ltd., a Chinese company. The founder is **James Ni** (Chinese name likely Ni Zhanggen), who is the chairman and CEO of the parent company.
 
@@ -26,10 +26,10 @@ Under Ni's leadership, the company rapidly expanded globally. It became one of t
 
 The brand is known for innovations like cooling technologies, partnerships (such as with Manchester United for athlete recovery), and a focus on health-oriented sleep products. Today, MLILY products are sold in over 70 countries, reflecting Ni's vision of redefining sleep through advanced foam technology.
 
-References:  
+References:
 
-- https://mlilyusa.com/pages/about-us  
-- https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/  
-- https://www.mlily.com.au/us  
-- https://www.manutd.com/en/partners/global/mlily  
+- https://mlilyusa.com/pages/about-us
+- https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/
+- https://www.mlily.com.au/us
+- https://www.manutd.com/en/partners/global/mlily
 - https://sleepopolis.com/mattress-reviews/mlily-mattress-review/

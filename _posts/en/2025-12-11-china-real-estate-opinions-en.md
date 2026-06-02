@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about China's real estate market?
 
-Answer: 
+Answer:
 
 China's real estate market has been a cornerstone of the country's economic growth for decades, accounting for around 25-30% of GDP at its peak, but its ongoing crisis—marked by developer defaults like Evergrande, falling prices, and millions of empty units—has sparked a range of contrarian views. Below, I've compiled several unpopular opinions drawn from discussions on forums, social media, and expert analyses. These challenge mainstream narratives like "the bubble will cause a total economic collapse" or "prices will rebound quickly." They're presented as bullet points for clarity, with brief explanations and substantiations.
 
@@ -32,15 +32,15 @@ China's real estate market has been a cornerstone of the country's economic grow
 
 These opinions highlight the tension between short-term pain and structural reform, with no easy fix in sight. As of late 2025, prices remain flat-to-down, but sentiment shows "green shoots" in tier-1 cities amid stimulus.
 
-References:  
-- [China’s Real Estate Challenge (IMF)](https://www.imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff)  
-- [Chinese Property Sector Crisis (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_%282020%E2%80%93present%29)  
-- [Is China’s Real Estate Market Near Collapse? (Reddit r/China)](https://www.reddit.com/r/China/comments/1kqz3v6/is_chinas_real_estate_market_near_collapse/)  
-- [Some Opinions About Real Estate Market in China (Reddit r/RealEstate)](https://www.reddit.com/r/RealEstate/comments/9x6rol/some_opinions_about_real_estate_market_in_china/)  
-- [China’s Property Market is More Than Just a Struggling Residential Sector (SCMP)](https://www.scmp.com/opinion/china-opinion/article/3309958/chinas-property-market-more-just-struggling-residential-sector)  
-- [Do You Think China's Housing Market is Starting to Find Bottom? (Quora)](https://www.quora.com/Do-you-think-Chinas-housing-market-is-starting-to-find-bottom)  
-- [IMF Warns on China's Property Market (Reddit r/Economics)](https://www.reddit.com/r/Economics/comments/1gbqjmk/imf_warns_on_chinas_property_market_worsening_as/)  
-- [Home Truths: China's Real Estate Market Still Needs Help (CKGSB)](https://english.ckgsb.edu.cn/knowledge/article/home-truths-chinas-real-estate-market-still-needs-help/)  
-- [Why China's Real Estate is Not Like 2008 (X Post by @Kanthan2030)](https://x.com/Kanthan2030/status/1692694446276998026)  
-- [China's Housing Problem: The Crash They’re Stretching Over Years (X Post by @onechancefreedm)](https://x.com/onechancefreedm/status/1989895753406247291)  
+References:
+- [China’s Real Estate Challenge (IMF)](https://www.imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff)
+- [Chinese Property Sector Crisis (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_%282020%E2%80%93present%29)
+- [Is China’s Real Estate Market Near Collapse? (Reddit r/China)](https://www.reddit.com/r/China/comments/1kqz3v6/is_chinas_real_estate_market_near_collapse/)
+- [Some Opinions About Real Estate Market in China (Reddit r/RealEstate)](https://www.reddit.com/r/RealEstate/comments/9x6rol/some_opinions_about_real_estate_market_in_china/)
+- [China’s Property Market is More Than Just a Struggling Residential Sector (SCMP)](https://www.scmp.com/opinion/china-opinion/article/3309958/chinas-property-market-more-just-struggling-residential-sector)
+- [Do You Think China's Housing Market is Starting to Find Bottom? (Quora)](https://www.quora.com/Do-you-think-Chinas-housing-market-is-starting-to-find-bottom)
+- [IMF Warns on China's Property Market (Reddit r/Economics)](https://www.reddit.com/r/Economics/comments/1gbqjmk/imf_warns_on_chinas_property_market_worsening_as/)
+- [Home Truths: China's Real Estate Market Still Needs Help (CKGSB)](https://english.ckgsb.edu.cn/knowledge/article/home-truths-chinas-real-estate-market-still-needs-help/)
+- [Why China's Real Estate is Not Like 2008 (X Post by @Kanthan2030)](https://x.com/Kanthan2030/status/1692694446276998026)
+- [China's Housing Problem: The Crash They’re Stretching Over Years (X Post by @onechancefreedm)](https://x.com/onechancefreedm/status/1989895753406247291)
 - [Unpopular Opinion: Bitcoin and China's Housing Crisis (X Post by @0xsecondsample)](https://x.com/0xsecondsample/status/1938012574827602257)

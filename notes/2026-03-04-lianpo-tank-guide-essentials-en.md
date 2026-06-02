@@ -11,21 +11,21 @@ type: note
 
 Question: How to play Lian Po in King of Glory (Honor of Kings)?
 
-Answer: 
+Answer:
 
 Lian Po (also known as Lianpo in the Chinese version, 王者荣耀) is a durable Tank hero primarily played in the Clash Lane (top/farm lane) or as a Roamer/Support. He excels at frontline initiation with strong crowd control (CC), skill-based immunity to CC, and sustained damage in team fights. His kit revolves around chaining dashes, smashes, and leaps to disrupt enemies while soaking damage.
 
 ### Skills
-- **Passive: Warrior’s Soul**  
+- **Passive: Warrior’s Soul**
   Lian Po gains CC immunity (unstoppable) while casting skills. Entering combat builds Battle Spirit stacks, providing up to 20% damage reduction and 30% attack speed at max stacks. Out of combat, it heals him. Use this to dive fearlessly during engages.
 
-- **Skill 1: Burst Ram**  
+- **Skill 1: Burst Ram**
   Dash forward, dealing physical damage and knocking up enemies hit. Every 2 basic attacks, the next is enhanced for extra damage. Core mobility tool—resets on successful Skill 2 hits.
 
-- **Skill 2: Magma Slam**  
+- **Skill 2: Magma Slam**
   Channel a smash that damages and slows enemies in an area. Resets Skill 1 cooldown if it hits an enemy. Use to stick to targets and chain mobility.
 
-- **Ultimate: Tremor Smash**  
+- **Ultimate: Tremor Smash**
   Leap to a target area and smash the ground 3 times: first two slow and damage, the third knocks up in a larger area. Use Skill 1 or Flash mid-Ult to reposition for max CC.
 
 **Skill Priority**: Max Skill 2 > Skill 1 > Ultimate (for resets and poke). Level 1: Skill 2 for wave clear.
@@ -78,7 +78,7 @@ Prioritize cooldown reduction (CDR) early (aim for 30-40%), then tank stats. Adj
 
 Master Lian Po by practicing combos in training mode. He's beginner-friendly but scales with mechanical chaining.
 
-References: 
+References:
 - [Honor of Kings Wiki - Lian Po](https://honor-of-kings.fandom.com/wiki/Lian_Po)
 - [BlueStacks Lian Po Guide](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-lian-po-character-guide-en.html)
 - [HoKBuild Lian Po](https://hokbuild.com/hero/lian-po)

@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么人们如此喜爱 GPT-4o，以及当 OpenAI 停止或限制它时，为什么他们会表现出如此强烈的情绪化愤怒和不快？
 
-Answer: 
+Answer:
 
 人们喜爱 **GPT-4o**（2024年发布）是因为它结合了强大的技术提升和独特的人格魅力，这使其区别于后来的 GPT-5 及其变体。
 
@@ -36,7 +36,7 @@ OpenAI 反复限制访问权限（在 2025 年针对 free/Plus 用户收紧了 r
 
 简而言之，对于所有人来说，GPT-4o 不仅仅是技术上“最好的模型” —— 它是那个让人感觉最鲜活、最关怀的模型。当 OpenAI 为了优先考虑更安全、更专业的继任者而将其逐步淘汰时，一个发声强烈的群体体验到的是失去了一段关系，而不仅仅是一个软件更新。
 
-References:  
+References:
 
 - [Reddit discussion on why people want GPT-4o back](https://www.reddit.com/r/ChatGPT/comments/1mn8iyl/to_all_people_asking_why_people_want_4o_back_here)
 - [HackerNoon article: Everyone is Missing GPT-4o](https://hackernoon.com/everyone-is-missing-gpt-4o-why-people-prefer-it-to-gpt-5)

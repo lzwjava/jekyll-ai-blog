@@ -48,12 +48,12 @@ ON users (email ASC);
 ```
 
 - 此索引将阻止插入重复邮箱
-- 要实现部分唯一性（如忽略空值），可添加 `WHERE NOT NULL`：  
+- 要实现部分唯一性（如忽略空值），可添加 `WHERE NOT NULL`：
   ```sql
   CREATE UNIQUE WHERE NOT NULL INDEX uidx_email
   ON users (email ASC);
   ```
-- 可包含非键列以支持查询覆盖：  
+- 可包含非键列以支持查询覆盖：
   ```sql
   CREATE UNIQUE INDEX uidx_email
   ON users (email ASC) INCLUDE (first_name, last_name);
@@ -83,7 +83,7 @@ ON orders (order_date ASC, customer_id DESC);
 - 索引会占用存储空间并降低插入/更新速度——请审慎使用
 - 对于分区表或高级选项（如聚簇索引），请参考 DB2 官方文档
 
-[Db2 CREATE INDEX 语句](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=statements-create-index)  
-[Db2 唯一索引](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=attributes-unique-indexes)  
-[Db2 复合索引示例](https://stackoverflow.com/questions/21597015/composite-index-creation-in-db2)  
+[Db2 CREATE INDEX 语句](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=statements-create-index)
+[Db2 唯一索引](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=attributes-unique-indexes)
+[Db2 复合索引示例](https://stackoverflow.com/questions/21597015/composite-index-creation-in-db2)
 [Db2 唯一索引教程](https://www.db2tutorial.com/db2-index/db2-unique-index/)

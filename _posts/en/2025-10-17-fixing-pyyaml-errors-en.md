@@ -73,6 +73,6 @@ After installation, test with `python -c "import yaml; print(yaml.__version__)"`
 
 If these don't resolve it (e.g., due to a specific Python 3.13 quirk), provide more details like your exact command and OS version.
 
-[Building on Mac - _yaml.c not found](https://github.com/yaml/pyyaml/issues/122)  
-[extension _yaml is not built](https://github.com/yaml/pyyaml/issues/179)  
+[Building on Mac - _yaml.c not found](https://github.com/yaml/pyyaml/issues/122)
+[extension _yaml is not built](https://github.com/yaml/pyyaml/issues/179)
 [Installing Pyyaml with libyaml support on MacOS](https://akasurde.github.io/installing-pyyaml-with-libyaml-on-macos.html)

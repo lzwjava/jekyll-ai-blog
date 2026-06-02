@@ -12,7 +12,7 @@ type: note
 
 **问题：** 陈立杰（清华和UC Berkeley教授）是如何开始编程的，他在NOI是如何获胜的，似乎他在中学时沉迷游戏，然后突然在NOI获胜？
 
-**回答：** 
+**回答：**
 
 您所指的人是**Lijie Chen**（中文名：**陈立杰**），UC Berkeley EECS系（Theory Group）的助理教授，此前就读于Tsinghua University的Yao Class（一个精英CS项目），随后在MIT获得PhD。他是理论计算机科学领域的著名研究者，尤其是在computational complexity方面。
 
@@ -34,7 +34,7 @@ Lijie Chen在2012年NOI的金牌表现让他在16岁时直接进入Tsinghua Yao 
 
 他的故事更多是高中起在theory/algorithms方面持续卓越，而不是从游戏中“突然”逆转。
 
-**参考资料：**  
+**参考资料：**
 
 - [Lijie Chen的个人网站](https://chen-lijie.github.io/)
 - [UC Berkeley EECS教职员页面](https://www2.eecs.berkeley.edu/Faculty/Homepages/lijiechen.html)

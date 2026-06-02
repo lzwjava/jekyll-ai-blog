@@ -25,9 +25,9 @@ Here are a few similar areas or tech ecosystems that fit your criteria: open-sou
 
 In all these, the magic is the same as your eyeglasses example: Low risk, high reward—fail fast, iterate, and share. If you suspect a norm (like "genes doom your health"), grab a notebook or $20 kit, run a month-long trial, and boom, you've got data for a new twist. It's how outsiders drive progress, from homebrewed beer recipes to moonshot projects. Got a specific field in mind to dive deeper?
 
-[Do-it-yourself biology - Wikipedia](https://en.wikipedia.org/wiki/Do-it-yourself_biology)  
-[DIYbiosphere Community Projects](https://sphere.diybio.org/browse/)  
-[Awesome Quantified Self GitHub Repo](https://github.com/woop/awesome-quantified-self)  
-[Quantified Self Get Started Guide](https://quantifiedself.com/get-started/)  
-[Maker Movement Overview - PBS](https://www.pbslearningmedia.org/resource/maker-movement-macarthur/maker-movement-macarthur/)  
+[Do-it-yourself biology - Wikipedia](https://en.wikipedia.org/wiki/Do-it-yourself_biology)
+[DIYbiosphere Community Projects](https://sphere.diybio.org/browse/)
+[Awesome Quantified Self GitHub Repo](https://github.com/woop/awesome-quantified-self)
+[Quantified Self Get Started Guide](https://quantifiedself.com/get-started/)
+[Maker Movement Overview - PBS](https://www.pbslearningmedia.org/resource/maker-movement-macarthur/maker-movement-macarthur/)
 [Science DIY Projects - Make Magazine](https://makezine.com/category/science/)

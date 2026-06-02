@@ -12,7 +12,7 @@ type: note
 
 Question: What did the recent xAI all-hands meeting say?
 
-Answer: 
+Answer:
 
 The most recent xAI all-hands meeting took place around February 10-11, 2026 (based on reports from February 11-12 coverage). It was led by Elon Musk and made publicly available as a full ~45-minute video on X, which is unusual for an internal meeting.
 
@@ -36,7 +36,7 @@ The most recent xAI all-hands meeting took place around February 10-11, 2026 (ba
 
 The meeting followed the SpaceX acquisition/merger of xAI and came amid some founder/staff turnover, but focused heavily on momentum, hiring (still actively recruiting for these teams), and bold visions blending AI with space infrastructure.
 
-References:  
+References:
 
 - [xAI lays out interplanetary ambitions in public all-hands](https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/)
 - [3 takeaways from Elon Musk's xAI all-hands](https://www.businessinsider.com/takeaways-from-elon-musks-xai-all-hands-meeting-2026-2)

@@ -38,11 +38,11 @@ type: note
 
 本次访谈彰显段永平受巴菲特启发的价值投资理念，正积极适应AI/科技变革。其持仓印证此道：重仓成熟巨头，涉足英伟达/阿斯麦等成长股。
 
-**参考资料**  
-- [段永平罕见发声：AI、茅台、GE逻辑](https://www.bitget.site/news/detail/12560605060215)  
-- [珍贵访谈：股票即公司](https://www.bitget.com/news/detail/12560605057786)  
-- [两小时对话50个要点](https://www.panewslab.com/en/articles/e3681069-bdd4-4d57-8370-0ea7ebbb110a)  
-- [147亿美元持仓全解析](https://news.futunn.com/en/post/64982688/duan-yongping-s-us-stock-portfolio-is-valued-at-14)  
-- [英伟达：不容错过AI浪潮](https://www.bitget.com/news/detail/12560605079124)  
-- [茅台换英伟达？](https://www-web.itiger.com/news/1127287160)  
+**参考资料**
+- [段永平罕见发声：AI、茅台、GE逻辑](https://www.bitget.site/news/detail/12560605060215)
+- [珍贵访谈：股票即公司](https://www.bitget.com/news/detail/12560605057786)
+- [两小时对话50个要点](https://www.panewslab.com/en/articles/e3681069-bdd4-4d57-8370-0ea7ebbb110a)
+- [147亿美元持仓全解析](https://news.futunn.com/en/post/64982688/duan-yongping-s-us-stock-portfolio-is-valued-at-14)
+- [英伟达：不容错过AI浪潮](https://www.bitget.com/news/detail/12560605079124)
+- [茅台换英伟达？](https://www-web.itiger.com/news/1127287160)
 - [访谈后对特斯拉态度转变](https://news.futunn.com/en/post/65199807/has-duan-yongping-admitted-defeat-from-not-liking-elon-musk)

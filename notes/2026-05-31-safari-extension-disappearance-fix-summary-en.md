@@ -29,7 +29,7 @@ Your Safari extension kept disappearing for 4 reasons:
    - SafariWebExtensionHandler.swift (native message handler)
    - Info.plist (extension bundle config)
    - Resources/ (popup.html, popup.js, manifest.json, css/, js/, img/)
-   
+
    Without these, the extension target couldn't build from a clean clone.
 
 3. BUNDLE ID CASE MISMATCH

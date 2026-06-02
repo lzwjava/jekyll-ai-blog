@@ -11,7 +11,7 @@ type: note
 
 Question: In the essay "Autumn Floods" (Qiu Shui), which image containing abstract philosophy does the author affirm?
 
-Answer: 
+Answer:
 
 The correct answer is **D. Hai Ruo (海若)**.
 

@@ -96,14 +96,14 @@ class CF123ATest {
 ---
 
 ### 4. Key Features:
-1. **Input Redirection**  
+1. **Input Redirection**
    - Reads `1.in` from `src/test/resources` as `System.in`.
    - Uses `ByteArrayOutputStream` to capture `System.out`.
 
-2. **Output Verification**  
+2. **Output Verification**
    - Assert against expected output (or check key patterns).
 
-3. **Clean Resource Handling**  
+3. **Clean Resource Handling**
    - Restores original `System.in`/`System.out` after test.
 
 ---

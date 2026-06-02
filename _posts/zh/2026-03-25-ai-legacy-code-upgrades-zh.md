@@ -96,7 +96,7 @@ AI 工具降低了**个人**执行升级工作的成本，但**组织层面**的
 可以这样理解：
 
 > 在 AI 之前：升级 legacy system 的成本如此之高，以至于 ROI（投资回报率）很少能证明其合理性。
-> 
+>
 > 在 AI 之后：成本下降到足以让 ROI 估算发生逆转——以前被认为“风险太高且昂贵”的升级，现在变得“在本季度确实可行”。
 
 这就是为什么 AI coding tools 对于 **legacy modernization 的价值可以说高于其在 greenfield development 中的价值**。Greenfield 开发本身已经很快了。Legacy 升级才是瓶颈——而这正是 AI 有最大发挥空间的地方。

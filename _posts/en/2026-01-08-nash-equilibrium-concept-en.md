@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Nash Equilibrium concept?
 
-Answer: 
+Answer:
 
 The **Nash Equilibrium** is a key concept in game theory, named after mathematician John Nash. It describes a situation in a non-cooperative game where **no player can improve their payoff by unilaterally changing their strategy**, assuming all other players keep their strategies unchanged.
 

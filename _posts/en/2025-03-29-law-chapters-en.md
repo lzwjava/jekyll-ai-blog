@@ -36,7 +36,7 @@ Here’s a detailed breakdown of the chapters you mentioned for the **"00040 Int
 - The **Chinese legal system** has evolved over thousands of years, from imperial codes to the present socialist law system.
   - **Ancient China**: Legalism and Confucianism were central, with harsh punishment and a focus on social harmony.
   - **Modern Era**: The establishment of the People's Republic of China in 1949 marked a significant shift to a socialist legal system.
-  - **Key features**: 
+  - **Key features**:
     - **Constitution** as the supreme law.
     - **Civil Law System**: Based on written codes.
     - **Role of the Communist Party**: The Party plays a significant role in shaping and interpreting the law.

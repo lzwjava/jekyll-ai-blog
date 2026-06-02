@@ -16,8 +16,8 @@ Answer: **Professional Cloud Developer** 考试指南概述了在 Google Cloud �
 
 该考试分为四个主要部分：
 
-* 
-**第 1 部分：设计高度可扩展、可用且可靠的云原生应用程序 (~36%)** 
+*
+**第 1 部分：设计高度可扩展、可用且可靠的云原生应用程序 (~36%)**
 
 
 * 侧重于选择合适的平台（例如 Cloud Run, GKE）和设计高性能的 APIs (REST, gRPC)。
@@ -31,8 +31,8 @@ Answer: **Professional Cloud Developer** 考试指南概述了在 Google Cloud �
 
 
 
-* 
-**第 2 部分：构建和测试应用程序 (~23%)** 
+*
+**第 2 部分：构建和测试应用程序 (~23%)**
 
 
 * 涵盖使用 Cloud Shell, Cloud Code 和 Gemini Code Assist 等工具设置开发环境。
@@ -46,8 +46,8 @@ Answer: **Professional Cloud Developer** 考试指南概述了在 Google Cloud �
 
 
 
-* 
-**第 3 部分：部署应用程序 (~20%)** 
+*
+**第 3 部分：部署应用程序 (~20%)**
 
 
 * 详细说明 Cloud Run 的部署策略，包括使用 Eventarc 和 Pub/Sub 触发器。
@@ -58,8 +58,8 @@ Answer: **Professional Cloud Developer** 考试指南概述了在 Google Cloud �
 
 
 
-* 
-**第 4 部分：将应用程序与 Google Cloud 服务集成 (~21%)** 
+*
+**第 4 部分：将应用程序与 Google Cloud 服务集成 (~21%)**
 
 
 * 侧重于管理连接以及对 Cloud SQL 和 Firestore 等数据存储进行数据读写。

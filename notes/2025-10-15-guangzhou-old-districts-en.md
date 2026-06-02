@@ -51,11 +51,11 @@ Guangzhou, once a key trading port in ancient China, boasts a wealth of preserve
 
 For the best experience, start in Xiguan and branch out—public transport like the metro makes it easy (e.g., Line 1 to Changshou Lu for Shamian). These spots are free or low-cost, but verify opening hours as some close early.
 
-**References:**  
-- [9 Historic Guangzhou Neighborhoods - WildChina](https://wildchina.com/2021/12/historic-guangzhou-neighborhoods/)  
-- [Have you walked all seven of these old Guangzhou streets?](https://www.newsgd.com/node_c8f73edf09/98d20bbb20.shtml)  
-- [Sketching the beautiful Yongqing Fang in Guangzhou, China](https://www.facebook.com/groups/591380185148774/posts/1664628117823970/)  
-- [2025 Recommended Old streets in Guangzhou](https://www.trip.com/moments/theme/destination-guangzhou-152-old-streets-1000396/)  
-- [Xiguan Old Guangzhou](https://airial.travel/attractions/china/guang-zhou-shi/xiguan-old-guangzhou-ePPmfS_Q)  
-- [Best Places to See Old Buildings in Guangzhou](https://www.topchinatravel.com/community/blog/best-places-to-see-old-buildings-in-guangzhou.htm)  
+**References:**
+- [9 Historic Guangzhou Neighborhoods - WildChina](https://wildchina.com/2021/12/historic-guangzhou-neighborhoods/)
+- [Have you walked all seven of these old Guangzhou streets?](https://www.newsgd.com/node_c8f73edf09/98d20bbb20.shtml)
+- [Sketching the beautiful Yongqing Fang in Guangzhou, China](https://www.facebook.com/groups/591380185148774/posts/1664628117823970/)
+- [2025 Recommended Old streets in Guangzhou](https://www.trip.com/moments/theme/destination-guangzhou-152-old-streets-1000396/)
+- [Xiguan Old Guangzhou](https://airial.travel/attractions/china/guang-zhou-shi/xiguan-old-guangzhou-ePPmfS_Q)
+- [Best Places to See Old Buildings in Guangzhou](https://www.topchinatravel.com/community/blog/best-places-to-see-old-buildings-in-guangzhou.htm)
 - [2025 Guangzhou Walking Tour To Explore The Old Xiguan Area](https://www.tripadvisor.com/AttractionProductReview-g298555-d14014947-Guangzhou_Walking_Tour_To_Explore_The_Old_Xiguan_Area-Guangzhou_Guangdong.html)

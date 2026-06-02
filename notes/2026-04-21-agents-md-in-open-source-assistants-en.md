@@ -11,8 +11,8 @@ type: note
 
 Question: What is equivalent to CLAUDE.md in OpenCode (or open-source assistants)?
 
-Answer: 
-In the open-source and agentic IDE landscape of 2026, the equivalent to `CLAUDE.md` is **`AGENTS.md`**. 
+Answer:
+In the open-source and agentic IDE landscape of 2026, the equivalent to `CLAUDE.md` is **`AGENTS.md`**.
 
 While Anthropic popularized the concept with `CLAUDE.md`, the open-source community and several "open" alternatives (like **OpenCode**, **Continue**, and **Aider**) have coalesced around `AGENTS.md` as the vendor-neutral standard for global and project-specific instructions.
 

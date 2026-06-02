@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to Zhuangzi's "Autumn Waters" (《秋水》)
 
-Answer: 
+Answer:
 
 **《秋水》** (Qiū Shuǐ – "Autumn Waters") 是《莊子》 (Zhuangzi) 中最著名且哲学内涵最丰富的篇目之一，传统上归于庄周 (Zhuang Zhou) 及其早期追随者之手。在标准的 33 篇版本中，它是第 17 篇。
 

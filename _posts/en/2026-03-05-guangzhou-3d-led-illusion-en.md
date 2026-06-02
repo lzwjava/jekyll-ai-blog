@@ -11,7 +11,7 @@ type: note
 
 Question: How is the large 3D-effect screen on the Renfeng Building in Tianhe, China implemented, where ads sometimes show animals like elephants coming out of the building? What software is used to play these ads? Is it OBS?
 
-Answer: 
+Answer:
 
 The large screen on Renfeng Building (仁丰大厦) in Tianhe District, Guangzhou, China, is a massive outdoor **naked-eye 3D LED display** covering about 1,403 square meters. It was upgraded to support striking naked-eye 3D effects around 2022, making it one of Guangzhou's landmark "screen kings" in the Tianhe Road business district.
 
@@ -40,7 +40,7 @@ These systems support content mapping to non-rectangular/curved surfaces, synchr
 
 In short: the magic comes mostly from clever content creation + angled screen geometry, played back via professional LED media servers and control software — far more advanced and reliable than OBS.
 
-References:  
+References:
 
 - [https://www.yaham.com/guangzhou-led-display-king-was-born-naked-eye-3d-big-screen-debut.html](https://www.yaham.com/guangzhou-led-display-king-was-born-naked-eye-3d-big-screen-debut.html)
 - [https://www.unit-led.com/3d-billboard-china](https://www.unit-led.com/3d-billboard-china)

@@ -58,7 +58,7 @@ Answer:
 
 此命令适用于 Windows、Linux 和 macOS，其语法和输出格式略有不同。
 
-References:  
+References:
 
 - [Microsoft Learn: arp command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp)
 - [GeeksforGeeks: arp command in Linux](https://www.geeksforgeeks.org/linux-unix/arp-command-in-linux-with-examples/)

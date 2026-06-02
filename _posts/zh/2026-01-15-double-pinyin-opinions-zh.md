@@ -12,7 +12,7 @@ type: note
 
 Question: 关于双拼输入法，有哪些冷门的观点？
 
-Answer: 
+Answer:
 
 双拼 (Double Pinyin) 是一种中文输入法，它将每个音节映射为固定的两次按键，理论上对许多用户来说比全拼 (Full Pinyin) 更快。然而，关于双拼存在一些冷门或有争议的观点，这些观点通常来自资深用户、批评者或更偏向其他替代方案的人。由于双拼在追求打字速度的群体中拥有虽小众但忠诚的追随者，这些看法往往属于少数派意见。
 
@@ -34,7 +34,7 @@ Answer:
 
 这些观点之所以冷门，主要是因为双拼社区（如知乎、Reddit 的 r/ChineseLanguage、V2EX 等）充斥着成功案例和强调其优势的速度对比。反对观点通常来自那些尝试过但不喜欢并换回全拼的人，或者是那些从未觉得有必要改变的人。
 
-References:  
+References:
 
 - [全拼和双拼输入法之争 - 少数派](https://sspai.com/post/84175)
 - [r/ChineseLanguage various threads on Double Pinyin](https://www.reddit.com/r/ChineseLanguage/search/?q=double%20pinyin%20OR%20shuangpin)

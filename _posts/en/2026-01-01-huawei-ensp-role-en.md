@@ -12,7 +12,7 @@ type: note
 
 Question: What is the primary role of the eNSP simulator?
 
-Answer: 
+Answer:
 
 The primary role of the Enterprise Network Simulation Platform (eNSP) simulator, developed by Huawei, is **to provide a platform for configuring and testing virtual networks**. It allows users to virtually deploy, configure, and troubleshoot Huawei network devices (such as routers, switches, firewalls, and WLAN devices) in a software-based environment without requiring physical hardware. This makes it ideal for learning, lab practice, certification preparation (e.g., HCIA/HCIE), and proof-of-concept testing.
 
@@ -22,6 +22,6 @@ The primary role of the Enterprise Network Simulation Platform (eNSP) simulator,
 
 The correct answer is **B**.
 
-References:  
-- [Huawei eNSP Official Overview](https://support.huawei.com/enterprise/en/network-simulation-ensp-pid-7096058)  
+References:
+- [Huawei eNSP Official Overview](https://support.huawei.com/enterprise/en/network-simulation-ensp-pid-7096058)
 - [eNSP Product Page](https://e.huawei.com/en/products/tools/ensp)

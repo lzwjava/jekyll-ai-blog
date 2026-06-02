@@ -42,6 +42,6 @@ MinGW-w64 is primarily a minimal toolchain for cross-compiling native Windows ap
 
 These are mostly compiler, linker, and binary manipulation tools from GCC and Binutils. For a fuller Unix-like environment with tools like `gpg`, `make`, `bash`, etc., consider installing MSYS2 (which includes MinGW-w64 as a component) and adding packages via `pacman`.
 
-[MinGW-w64 Official Site](https://www.mingw-w64.org/)  
-[MSYS2 Packages (for extensions like GnuPG)](https://packages.msys2.org/package/mingw-w64-x86_64-gnupg)  
+[MinGW-w64 Official Site](https://www.mingw-w64.org/)
+[MSYS2 Packages (for extensions like GnuPG)](https://packages.msys2.org/package/mingw-w64-x86_64-gnupg)
 [SourceForge MinGW-w64 Downloads](https://sourceforge.net/projects/mingw-w64/files/)

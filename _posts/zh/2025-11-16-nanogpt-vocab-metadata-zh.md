@@ -32,8 +32,8 @@ type: note
    - 如果文件**不存在** → nanoGPT 会基于数据集中的文本构建新词汇表（通常使用 SentencePiece、tiktoken 或简单字符级词汇表），并将其保存为 `meta.pkl` 供后续使用
 
 2. 采样/推理期间 (`sample.py`)：
-   - 当出现提示信息  
-     `未找到 meta.pkl 文件，默认使用 GPT-2 编码...`  
+   - 当出现提示信息
+     `未找到 meta.pkl 文件，默认使用 GPT-2 编码...`
      这意味着 nanoGPT 在您的数据目录中未找到 meta.pkl 文件
    - 此时程序会回退到默认的 GPT-2 BPE 分词器（与 OpenAI GPT-2 使用的相同），词汇表大小固定为 50257。这就是为什么您的 29.94M 参数模型（这是最小 GPT-2 124M 配置，但有时会被错误报告）即使在缺少 meta.pkl 的情况下，也能在 OpenWebText 或类似数据集上正常训练
 

@@ -36,6 +36,6 @@ While Graham’s public persona emphasizes resilience and problem-solving, these
 
 If you’d like me to dig deeper into any specific aspect of his life or check for more recent challenges, let me know!
 
---- 
+---
 
 *Note*: The response avoids speculative details and sticks to what can be reasonably inferred from the provided sources and Graham’s own writings. If you have a specific angle (e.g., personal, professional, or recent events), I can tailor the answer further.

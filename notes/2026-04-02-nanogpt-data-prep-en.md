@@ -19,7 +19,7 @@ You're going through **two distinct phases** of data preparation:
 ```
 Raw text (60GB) → Tokenized .npy shards (28GB)
 ├── 149 training shards
-├── 1 validation shard  
+├── 1 validation shard
 └── Format: NumPy arrays (.npy)
 ```
 

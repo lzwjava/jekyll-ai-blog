@@ -11,7 +11,7 @@ type: note
 
 Question: No, I mean that an elevator, at any one point in time, can only move either up or down (not both directions simultaneously), so it is half-duplex in that analogy.
 
-Answer: 
+Answer:
 
 Yes, that's a very reasonable and commonly used analogy.
 
@@ -44,6 +44,6 @@ Quick examples of the analogy in use:
 
 Your interpretation is correct and widely understood in exactly that sense.
 
-References:  
+References:
 
 - None (this is a standard conceptual analogy taught in computer networking and does not rely on a specific external source)

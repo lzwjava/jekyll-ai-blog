@@ -67,7 +67,7 @@ import httpx
 class AuthService:
     def __init__(self, user_svc_url: str):
         self.user_svc = user_svc_url
-    
+
     async def login(self, email: str, password: str):
         # Call User Service synchronously
         async with httpx.AsyncClient() as client:
@@ -77,11 +77,11 @@ class AuthService:
             )
         if user_resp.status_code != 200:
             raise AuthError("User not found")
-        
+
         user = user_resp.json()
         if not self.verify_password(password, user['password_hash']):
             raise AuthError("Invalid password")
-        
+
         token = self.generate_jwt(user['id'])
         return {"access_token": token, "user_id": user['id']}
 ```
@@ -94,7 +94,7 @@ Used for operations that don't need immediate feedback (notifications, webhooks,
 class PaymentService:
     def __init__(self, queue_client):
         self.queue = queue_client
-    
+
     async def process_payment(self, user_id: str, amount: float):
         # Call Stripe API
         charge = stripe.Charge.create(
@@ -102,7 +102,7 @@ class PaymentService:
             currency="usd",
             customer=user_id
         )
-        
+
         # Emit event to queue (async notification)
         await self.queue.publish("payment.completed", {
             "user_id": user_id,
@@ -110,14 +110,14 @@ class PaymentService:
             "charge_id": charge.id,
             "timestamp": datetime.now().isoformat()
         })
-        
+
         return {"status": "completed", "charge_id": charge.id}
 
 # Job Worker (separate process/service)
 class NotificationWorker:
     def __init__(self, queue_client):
         self.queue = queue_client
-    
+
     async def run(self):
         async for event in self.queue.subscribe("payment.completed"):
             user = await self.get_user(event['user_id'])
@@ -250,16 +250,16 @@ async def verify_token(authorization: str = Header(None)):
     """Forward auth check to Auth Service"""
     if not authorization:
         raise HTTPException(status_code=401, detail="Missing auth header")
-    
+
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             f"{AUTH_SERVICE}/verify",
             json={"token": authorization.replace("Bearer ", "")}
         )
-    
+
     if resp.status_code != 200:
         raise HTTPException(status_code=401, detail="Invalid token")
-    
+
     return resp.json()
 
 @app.post("/api/v1/auth/login")
@@ -287,7 +287,7 @@ async def charge(amount: float, user_id: str, user_data = Depends(verify_token))
     """Authenticated request to Payment Service"""
     if user_data['user_id'] != user_id:
         raise HTTPException(status_code=403, detail="Forbidden")
-    
+
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             f"{PAYMENT_SERVICE}/charge",
@@ -333,16 +333,16 @@ async def login(req: LoginRequest):
             f"{USER_SERVICE}/users/by-email",
             params={"email": req.email}
         )
-    
+
     if user_resp.status_code != 200:
         raise HTTPException(status_code=401, detail="Invalid email or password")
-    
+
     user = user_resp.json()
-    
+
     # In production: use bcrypt to verify password
     if not verify_password(req.password, user['password_hash']):
         raise HTTPException(status_code=401, detail="Invalid email or password")
-    
+
     # Generate JWT
     payload = {
         "user_id": user['id'],
@@ -350,7 +350,7 @@ async def login(req: LoginRequest):
         "exp": datetime.utcnow() + timedelta(hours=24)
     }
     token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
-    
+
     return {"access_token": token, "user_id": user['id']}
 
 @app.post("/verify")

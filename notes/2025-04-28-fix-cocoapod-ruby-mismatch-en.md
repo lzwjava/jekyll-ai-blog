@@ -66,7 +66,7 @@ If it points to `/opt/homebrew/lib/ruby/gems/3.3.0/bin/pod`, remove that or upda
 
 ---
 
-✅ Recommended (easy & stable): Just run   
+✅ Recommended (easy & stable): Just run
 ```bash
 brew install cocoapods
 ```

@@ -27,7 +27,7 @@ By 2030, yeah, you *could* thrive without ever leaving your setup—decentralize
 
 What sparked this thought—burnt out on commutes, or just eyeing that next VR headset?
 
-[Gen Z Moving Toward Real Life Connections in 2025](https://www.wfla.com/bloom-tampa-bay/bloom-relationships/gen-z-moving-towards-real-life-connections-in-2025/)  
-[Taking It Offline: Why In-Person Connections Still Matter](https://www.zenlegalnetworking.com/2025/02/taking-it-offline-why-in-person-connections-still-matter-in-a-virtual-world/)  
-[The Future of Social Media: 2025 Predictions](https://sproutsocial.com/insights/future-of-social-media/)  
+[Gen Z Moving Toward Real Life Connections in 2025](https://www.wfla.com/bloom-tampa-bay/bloom-relationships/gen-z-moving-towards-real-life-connections-in-2025/)
+[Taking It Offline: Why In-Person Connections Still Matter](https://www.zenlegalnetworking.com/2025/02/taking-it-offline-why-in-person-connections-still-matter-in-a-virtual-world/)
+[The Future of Social Media: 2025 Predictions](https://sproutsocial.com/insights/future-of-social-media/)
 [In-Person and Virtual Social Interactions Improve Well-Being](https://www.sciencedirect.com/science/article/pii/S2451958824000885)

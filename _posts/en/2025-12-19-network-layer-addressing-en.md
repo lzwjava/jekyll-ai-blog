@@ -12,7 +12,7 @@ type: note
 
 Question: Which layer of the OSI model is responsible for logical addressing and routing?
 
-Answer: 
+Answer:
 
 The correct answer is **C) Network Layer**.
 

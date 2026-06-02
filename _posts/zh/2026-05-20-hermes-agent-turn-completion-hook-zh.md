@@ -71,9 +71,9 @@ terminal-notifier \
 
 使用 [`terminal-notifier`](https://github.com/julienXX/terminal-notifier)（一个 macOS 通知 CLI 工具，可通过 `brew install terminal-notifier` 安装）来：
 
-- 显示通知，例如：  
-  **Hermes Agent — hermes-agent**  
-  *msg: what's the  |  turns: 3*  
+- 显示通知，例如：
+  **Hermes Agent — hermes-agent**
+  *msg: what's the  |  turns: 3*
   Hermes has completed one turn.
 - 播放 `Glass` 系统声音
 - `-activate com.mitchellh.ghostty` 使得点击通知时将 **Ghostty**（你的终端模拟器）置于前台，而不是只打开通知中心

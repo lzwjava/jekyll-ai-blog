@@ -39,7 +39,7 @@ Thiel 的更广泛**野心**反映了自由意志主义和技术威权主义观�
 
 总体而言，Thiel 的“计划”并非秘密阴谋，而是公开的精英影响力：通过科技（PayPal/Palantir）积累财富，通过 Stanford 和 Silicon Valley 建立网络，并部署资本提升像 Vance 这样的门徒进入高位，从而将政策塑造为对科技友好的反建制保守主义。
 
-**参考文献**：  
+**参考文献**：
 
 - [Inside the powerful Peter Thiel network that anointed JD Vance](https://www.washingtonpost.com/technology/2024/07/28/jd-vance-peter-thiel-donors-big-tech-trump-vp)
 - [Peter Thiel - Wikipedia](https://en.wikipedia.org/wiki/Peter_Thiel)

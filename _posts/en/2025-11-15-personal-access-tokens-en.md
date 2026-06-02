@@ -24,7 +24,7 @@ When you use a **Personal Access Token (PAT)** (classic or fine-grained) with Gi
 ### Summary of what you typically experience in Enterprise/strict orgs
 
 1. Personal repositories → PAT works immediately.
-2. Organization repositories → First time you try to git clone/push/pull with a PAT, you get an error and a link like  
+2. Organization repositories → First time you try to git clone/push/pull with a PAT, you get an error and a link like
    `https://github.com/settings/tokens/XXXX/request-org-access`
 3. You click the link → request access for that specific token to the organization.
 4. An organization owner/admin approves (usually takes seconds to a few hours).

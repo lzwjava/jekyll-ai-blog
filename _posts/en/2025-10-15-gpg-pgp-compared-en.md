@@ -26,8 +26,8 @@ GPG (GNU Privacy Guard) and PGP (Pretty Good Privacy) are both tools for secure 
 
 In summary, choose PGP if you need a polished, enterprise-ready tool with broad legacy support and are okay with proprietary software. Opt for GPG for cost-free, open-source security that's ideal for developers, Linux users, or anyone prioritizing transparency—it's the de facto standard for most open-source workflows today.
 
-[PGP vs. GPG: Key Differences in Encryption](https://www.goanywhere.com/blog/pgp-vs-gpg-whats-the-difference)  
-[Difference between PGP and GPG](https://askubuntu.com/questions/186805/difference-between-pgp-and-gpg)  
-[The Difference Between PGP, OpenPGP, and GnuPG Encryption](https://www.progress.com/blogs/the-difference-between-pgp-openpgp-and-gnupg-encryption)  
-[Difference Between PGP and GPG](https://www.tutorialspoint.com/difference-between-pgp-and-gpg)  
+[PGP vs. GPG: Key Differences in Encryption](https://www.goanywhere.com/blog/pgp-vs-gpg-whats-the-difference)
+[Difference between PGP and GPG](https://askubuntu.com/questions/186805/difference-between-pgp-and-gpg)
+[The Difference Between PGP, OpenPGP, and GnuPG Encryption](https://www.progress.com/blogs/the-difference-between-pgp-openpgp-and-gnupg-encryption)
+[Difference Between PGP and GPG](https://www.tutorialspoint.com/difference-between-pgp-and-gpg)
 [Difference Between PGP and GPG](https://www.baeldung.com/linux/pgp-openpgp-gpg-comparison)

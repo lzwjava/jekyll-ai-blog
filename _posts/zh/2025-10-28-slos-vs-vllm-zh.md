@@ -30,5 +30,5 @@ SLOs-Serve 通过将 vLLM 集成为核心批处理引擎并进行多 SLO（服�
 
 综上所述，vLLM在面向吞吐量的原始效率方面表现卓越，但在复杂现实场景的SLO合规性上存在不足——这也正是SLOs-Serve通过针对性优化实现2倍以上性能增益的关键所在。若您的工作负载纯属吞吐量导向且无需延迟保障，vLLM仍是更简单快捷的部署选择。
 
-[SLOs-Serve：多SLO大语言模型优化服务框架](https://arxiv.org/abs/2504.08784)  
+[SLOs-Serve：多SLO大语言模型优化服务框架](https://arxiv.org/abs/2504.08784)
 [vLLM：基于PagedAttention的轻量快速LLM服务方案](https://arxiv.org/abs/2309.06180)

@@ -16,7 +16,7 @@ If tinygrad feels overwhelming with its code volume, there are several lighter, 
 These are tiny re-implementations that mimic PyTorch's core mechanics (e.g., tensors, backprop) but strip everything else away.
 
 - **Micrograd**: A super-minimal autograd engine (under 200 lines) that powers neural nets from scratch. It's perfect for understanding PyTorch's backward pass and gradients. Andrej Karpathy's accompanying video tutorial walks through it step-by-step, building up to a simple MLP. Start here if you want the essence of PyTorch's dynamic computation graph.
-  
+
 - **minGPT**: A clean, interpretable re-implementation of GPT in ~300 lines of PyTorch code. It covers tokenization, transformer layers, and training/inference loops. Great for seeing how PyTorch glues together without extras—ideal if you're into generative models.
 
 - **Mamba Minimal**: A one-file PyTorch impl of the Mamba state-space model. It's tiny (~100 lines for the core) and matches the official output, helping you learn selective scan ops and sequence modeling internals.
@@ -39,11 +39,11 @@ If you want to zoom in on CUDA kernels alongside a PyTorch vibe, these guide you
 
 Start with micrograd or minGPT for quick momentum—they're the most digestible. If CUDA is the goal, jump to the from-scratch PyTorch project. All these are on GitHub, so clone and experiment.
 
-[Micrograd](https://github.com/karpathy/micrograd)  
-[minGPT](https://github.com/karpathy/minGPT)  
-[Mamba Minimal](https://github.com/johnma2006/mamba-minimal)  
-[Mini TensorFlow from Scratch](https://salviosage.medium.com/build-mini-tensorflow-like-library-from-scratch-fc28c9660037)  
-[Tract](https://github.com/sonos/tract)  
-[PyTorch from Scratch with CUDA](https://medium.com/data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc)  
-[Writing CUDA Kernels for PyTorch](https://tinkerd.net/blog/machine-learning/cuda-basics/)  
+[Micrograd](https://github.com/karpathy/micrograd)
+[minGPT](https://github.com/karpathy/minGPT)
+[Mamba Minimal](https://github.com/johnma2006/mamba-minimal)
+[Mini TensorFlow from Scratch](https://salviosage.medium.com/build-mini-tensorflow-like-library-from-scratch-fc28c9660037)
+[Tract](https://github.com/sonos/tract)
+[PyTorch from Scratch with CUDA](https://medium.com/data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc)
+[Writing CUDA Kernels for PyTorch](https://tinkerd.net/blog/machine-learning/cuda-basics/)
 [Implementing PyTorch CUDA Operators](https://medium.com/@justygwen/teach-you-to-implement-pytorch-cuda-operators-like-teaching-a-loved-one-dbd572410558)

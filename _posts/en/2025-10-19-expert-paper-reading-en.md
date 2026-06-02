@@ -22,6 +22,6 @@ Here's why that's a slam dunk:
 
 In short, yeah, they read fast *and* deep because the field's a firehose—miss one key idea, and you're yesterday's news. If you're aiming to level up, start with that multi-pass method; it'll get you 80% there.
 
-[How to Read Research Papers (Andrew Ng)](https://forums.fast.ai/t/how-to-read-research-papers-andrew-ng/66892)  
-[Yann LeCun on X about reading/publishing](https://x.com/ylecun/status/1845792947389755474)  
+[How to Read Research Papers (Andrew Ng)](https://forums.fast.ai/t/how-to-read-research-papers-andrew-ng/66892)
+[Yann LeCun on X about reading/publishing](https://x.com/ylecun/status/1845792947389755474)
 [The Bitter Lesson by Richard Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)

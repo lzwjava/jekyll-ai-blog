@@ -484,13 +484,13 @@ If you’re asking about a specific architecture (e.g., x86, ARM, 6502), let me 
 
 ---
 
-In an instruction that uses indexed addressing mode, the operand is located in memory. 
+In an instruction that uses indexed addressing mode, the operand is located in memory.
 
 To elaborate, indexed addressing is a method where the memory address of the operand is calculated by adding an offset (provided by an index register) to a base address (often specified in the instruction). This allows the CPU to access data dynamically in memory, such as elements in an array, by adjusting the index value during program execution. The ALU may then perform operations on this operand once it’s fetched from memory.
 
 ---
 
-The basic function of the ALU (Arithmetic Logic Unit) component inside a CPU is to perform **arithmetic operations** and **logical operations**. 
+The basic function of the ALU (Arithmetic Logic Unit) component inside a CPU is to perform **arithmetic operations** and **logical operations**.
 
 - **Arithmetic operations** include tasks like addition, subtraction, multiplication, and division, which handle numerical calculations.
 - **Logical operations** involve comparisons and bitwise operations, such as AND, OR, NOT, and XOR, which manipulate binary data and support decision-making processes.
@@ -512,7 +512,7 @@ MOV R1, #50
   - `MOV` is the opcode (operation code) that stands for "move" or "load."
   - `R1` is the destination register (a general-purpose register).
   - `#50` is the immediate operand, where the `#` symbol indicates that the value `50` is an immediate value (a constant) embedded directly in the instruction.
-  
+
 When this instruction is executed:
 1. The processor fetches the instruction from program memory.
 2. It decodes the opcode `MOV` and recognizes that it’s using immediate addressing because of the `#`.

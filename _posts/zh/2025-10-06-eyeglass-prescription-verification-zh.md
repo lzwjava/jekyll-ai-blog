@@ -47,9 +47,9 @@ type: note
 ### 总结
 您的配置对于DIY验光微调具有合理性，尤其适用于电脑使用场景。光学原理和镜架机械结构完全吻合，价格与中国电商廉价选项相符（但需核实实时报价，因价格波动）。若购买请确保镜片为玻璃/优质CR-39材质以保证精度——塑料易变形。开展实验是个好主意，确实能节省时间与精力！
 
-**参考来源**  
-- [眼睛与电脑屏幕的理想距离](https://www.autonomous.ai/ourblog/ideal-distance-from-computer-screen-to-eyes)  
-- [如何阅读眼镜处方](https://www.deltadentalia.com/a-healthy-life/vision-health/how-to-read-an-eye-prescription/)  
-- [试镜架验光技术](https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/trial-frame-refraction/index.htm)  
-- [阿里巴巴试镜片套装](https://www.alibaba.com/countrysearch/CN/trial-lens-set.html)  
+**参考来源**
+- [眼睛与电脑屏幕的理想距离](https://www.autonomous.ai/ourblog/ideal-distance-from-computer-screen-to-eyes)
+- [如何阅读眼镜处方](https://www.deltadentalia.com/a-healthy-life/vision-health/how-to-read-an-eye-prescription/)
+- [试镜架验光技术](https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/trial-frame-refraction/index.htm)
+- [阿里巴巴试镜片套装](https://www.alibaba.com/countrysearch/CN/trial-lens-set.html)
 - [速卖通单只试镜片](https://www.aliexpress.com/item/1005005218039452.html)

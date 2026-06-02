@@ -81,7 +81,7 @@ int main() {
         int n; cin >> n;
         vector<ll> a(n); // 检查边界
         FOR(i,0,n) cin >> a[i];
-        
+
         // 初始化变量
         ll sum = 0;
         FOR(i,0,n) {
@@ -89,7 +89,7 @@ int main() {
             // 整数溢出？
             if (sum < 0) sum += MOD; // 边界情况
         }
-        
+
         // O(n) 复杂度
         cout << sum << '\n'; // endl 与 \n
         // 检查样例

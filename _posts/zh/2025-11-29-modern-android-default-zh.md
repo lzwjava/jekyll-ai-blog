@@ -12,7 +12,7 @@ type: note
 
 正确答案是 **C. ConstraintLayout**。
 
-**说明**：  
+**说明**：
 自2017年起，Google已正式推荐将**ConstraintLayout**作为现代Android开发的默认布局管理器。从Android Studio 2.3开始，它就成为Android Studio布局编辑器的默认选项，至今（2025年）仍是首选方案。
 
 **ConstraintLayout的优势**：

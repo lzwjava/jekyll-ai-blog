@@ -30,6 +30,6 @@ IBM WebSphere Application Server（WAS）传统版，常被称为WAS经典版或
 
 总结来说，传统WAS适用于功能完备、已定型的企业环境，其中遗留支持至关重要。若优先考虑速度、模块化和云敏捷性，则选择WLP——对于现代应用，它通常只需最小改动即可直接替换。从WAS迁移到WLP可通过WebSphere Application Migration Toolkit等工具轻松完成，且混合模式（如通过Job Manager）支持分阶段过渡。
 
-[IBM WebSphere 与 IBM WebSphere Liberty 对比](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)  
-[传统 WebSphere 与 Liberty 选择指南（PDF）](https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/documentation/ChoosingTraditionalWASorLiberty-16.0.0.4.pdf)  
+[IBM WebSphere 与 IBM WebSphere Liberty 对比](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)
+[传统 WebSphere 与 Liberty 选择指南（PDF）](https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/documentation/ChoosingTraditionalWASorLiberty-16.0.0.4.pdf)
 [WebSphere Liberty 概述](https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-overview)

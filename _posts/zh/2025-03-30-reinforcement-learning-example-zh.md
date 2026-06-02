@@ -12,25 +12,25 @@ type: note
 
 ### 强化学习简单示例
 
-1. **孩童学步**  
-   - **智能体**：孩童  
-   - **环境**：地面或房间  
-   - **动作**：迈步、爬行或静止  
-   - **奖励**：向前移动（+1）、摔倒（-1）  
+1. **孩童学步**
+   - **智能体**：孩童
+   - **环境**：地面或房间
+   - **动作**：迈步、爬行或静止
+   - **奖励**：向前移动（+1）、摔倒（-1）
    - **学习机制**：孩童通过试错学习保持平衡迈步才能前进
 
-2. **训练机械臂抓取物体**  
-   - **智能体**：机械臂  
-   - **环境**：放置物体的桌面  
-   - **动作**：上下左右移动或抓取  
-   - **奖励**：成功抓取（+10）、掉落物体（-5）  
+2. **训练机械臂抓取物体**
+   - **智能体**：机械臂
+   - **环境**：放置物体的桌面
+   - **动作**：上下左右移动或抓取
+   - **奖励**：成功抓取（+10）、掉落物体（-5）
    - **学习机制**：机械臂通过调整动作最大化抓取成功率
 
-3. **网格世界游戏**  
-   - **智能体**：网格中的角色  
-   - **环境**：含目标点与障碍物的3×3网格  
-   - **动作**：上下左右移动  
-   - **奖励**：抵达目标（+10）、撞墙（-1）  
+3. **网格世界游戏**
+   - **智能体**：网格中的角色
+   - **环境**：含目标点与障碍物的3×3网格
+   - **动作**：上下左右移动
+   - **奖励**：抵达目标（+10）、撞墙（-1）
    - **学习机制**：角色学习前往目标的最短路径
 
 ---
@@ -79,26 +79,26 @@ def step(state, action):
 for episode in range(episodes):
     state = 0  # 从位置0开始
     done = False
-    
+
     while not done:
         # 探索与利用权衡
         if random.uniform(0, 1) < exploration_rate:
             action = random.randint(0, action_space - 1)  # 随机探索
         else:
             action = np.argmax(q_table[state])  # 利用已有知识
-        
+
         # 执行动作并观察结果
         new_state, reward, done = step(state, action)
-        
+
         # 通过Q学习公式更新Q表
         old_value = q_table[state, action]
         next_max = np.max(q_table[new_state])
         new_value = (1 - learning_rate) * old_value + learning_rate * (reward + discount_factor * next_max)
         q_table[state, action] = new_value
-        
+
         # 转移到新状态
         state = new_state
-    
+
     # 探索率衰减
     exploration_rate = max(min_exploration_rate, exploration_rate * exploration_decay)
 
@@ -126,7 +126,7 @@ print(q_table)
 2. **动作**：智能体可执行左移（0）或右移（1）
 3. **奖励**：抵达目标奖励+10，每步消耗惩罚-1（鼓励高效路径）
 4. **Q表**：存储每个状态-动作对的预期未来奖励
-5. **Q学习**：通过公式更新Q表：  
+5. **Q学习**：通过公式更新Q表：
    `Q(s, a) = (1 - α) * Q(s, a) + α * (奖励 + γ * max(Q(s', a')))`，其中：
    - `α` = 学习率
    - `γ` = 折扣因子

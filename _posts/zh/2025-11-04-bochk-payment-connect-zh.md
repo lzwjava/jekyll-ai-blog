@@ -21,6 +21,6 @@ type: note
 
 若您尚未开立中银香港账户的内地居民，凭有效身份证件（如内地身份证/护照）即可办理开户，但部分服务可能需要香港地址证明——具体细节请咨询分行。
 
-[中银香港支付通新闻稿](https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/250620026_Press_Release_EN.pdf)  
-[香港金管局支付通概述](https://www.hkma.gov.hk/eng/smart-consumers/payment-connect/)  
+[中银香港支付通新闻稿](https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/250620026_Press_Release_EN.pdf)
+[香港金管局支付通概述](https://www.hkma.gov.hk/eng/smart-consumers/payment-connect/)
 [汇丰FPS常见问题（限制说明）](https://www.hsbc.com.hk/campaigns/fps/faq/)

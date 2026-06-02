@@ -12,13 +12,13 @@ type: note
 
 **Question:** What does "The Conquest of Happiness" by Bertrand Russell say?
 
-**Answer:** 
+**Answer:**
 
 "The Conquest of Happiness" is a 1930 book by Bertrand Russell that offers practical philosophy on achieving happiness in modern life. Russell argues that happiness is not something that simply happens by luck or external circumstances, but something that can be actively "conquered" through understanding and overcoming common causes of unhappiness, while cultivating habits and attitudes that promote it.
 
 The book is divided into two main parts:
 
-**Part I: Causes of Unhappiness**  
+**Part I: Causes of Unhappiness**
 Russell identifies several key psychological and social factors that make people unhappy, even in prosperous societies:
 
 - **Byronic unhappiness** — Romanticized melancholy and dissatisfaction with life.
@@ -32,7 +32,7 @@ Russell identifies several key psychological and social factors that make people
 
 He sees many of these as rooted in mistaken views, ethics, and habits, often amplified by modern society.
 
-**Part II: Causes of Happiness**  
+**Part II: Causes of Happiness**
 Russell then outlines positive elements that build happiness:
 
 - **Zest** — Enthusiasm and interest in life (a key ingredient).
@@ -45,12 +45,12 @@ Russell then outlines positive elements that build happiness:
 
 Russell emphasizes practical advice over abstract theory, drawing from his own experience. He stresses mental discipline (e.g., avoiding rumination on worries), widening interests to reduce vulnerability to fate, cultivating friendly rather than hostile reactions to people and things, and finding balance between personal effort and surrender to life's flow.
 
-A famous quote captures the core idea:  
+A famous quote captures the core idea:
 "Happiness is not, except in very rare cases, something that drops into the mouth like a ripe fruit, by the mere operation of fortunate circumstances. That is why I have called this book 'The Conquest of Happiness.'"
 
 Overall, the book is an early, rational, and accessible precursor to modern self-help literature, promoting common sense, self-awareness, and outward focus as paths to a happier life.
 
-**References:**  
+**References:**
 
 - [The Conquest of Happiness full text](https://russell-j.com/beginner/COH-TEXT.HTM)
 - [Table of contents and overview](https://www.routledge.com/The-Conquest-of-Happiness/Russell/p/book/9780415378475)

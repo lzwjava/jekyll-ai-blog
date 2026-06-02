@@ -34,10 +34,10 @@ GreptimeDB stands out as innovative in the observability space by unifying metri
 
 Overall, the team has done great work: The project has grown from a new entrant in 2022 to a robust solution with real-world adoptions (e.g., at Poizon for observability and OB Cloud for log management). Active development, positive community feedback, and strong benchmark results indicate high-quality engineering focused on performance, cost, and usability. While still in beta, its trajectory suggests it's poised for broader impact in cloud-native databases.
 
-[Greptime Official Website](https://greptime.com/)  
-[GreptimeDB Documentation - Architecture](https://docs.greptime.com/user-guide/concepts/architecture)  
-[GreptimeDB GitHub Repository](https://github.com/GreptimeTeam/greptimedb)  
-[GreptimeDB Storage Architecture Deep Dive](https://greptime.com/blogs/2025-03-26-greptimedb-storage-architecture)  
-[GreptimeDB vs. Competitors Benchmark](https://medium.com/@greptime/comprehensive-benchmark-report-how-greptimedb-stacks-up-against-influxdb-elasticsearch-69ce97cf6acb)  
-[GreptimeDB v0.14 Release](https://greptime.com/blogs/2025-04-27-greptimedb-version-released-index-flow-trace)  
+[Greptime Official Website](https://greptime.com/)
+[GreptimeDB Documentation - Architecture](https://docs.greptime.com/user-guide/concepts/architecture)
+[GreptimeDB GitHub Repository](https://github.com/GreptimeTeam/greptimedb)
+[GreptimeDB Storage Architecture Deep Dive](https://greptime.com/blogs/2025-03-26-greptimedb-storage-architecture)
+[GreptimeDB vs. Competitors Benchmark](https://medium.com/@greptime/comprehensive-benchmark-report-how-greptimedb-stacks-up-against-influxdb-elasticsearch-69ce97cf6acb)
+[GreptimeDB v0.14 Release](https://greptime.com/blogs/2025-04-27-greptimedb-version-released-index-flow-trace)
 [Scaling Observability at Poizon](https://medium.com/@greptime/scaling-observability-at-poizon-building-a-cost-effective-and-real-time-monitoring-architecture-07a42e217c02)

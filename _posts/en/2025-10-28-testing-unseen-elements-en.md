@@ -12,7 +12,7 @@ type: note
 
 In Ilya Sutskever's NeurIPS 2024 Test of Time Award talk on his 2014 "Sequence to Sequence Learning with Neural Networks" paper (and related early work like his PhD thesis on RNN language modeling), he reflected on early efforts to build generalizing neural language models. A key challenge was ensuring models didn't just memorize training data but could handle novel inputs—i.e., avoiding overfitting.
 
-The specific "naive way" he referenced for detecting this involves testing the model on **unseen words or n-grams (multi-word sequences) not present in the training corpus (often called the "database")**. 
+The specific "naive way" he referenced for detecting this involves testing the model on **unseen words or n-grams (multi-word sequences) not present in the training corpus (often called the "database")**.
 
 ### Why This Approach?
 - **Overfitting risk in early language models**: Simple baselines like n-gram models (e.g., bigrams or trigrams) often "overfit" by only predicting fluently if the exact sequence appeared multiple times in training. They assign near-zero probability to anything novel, failing to generalize.
@@ -27,6 +27,6 @@ The specific "naive way" he referenced for detecting this involves testing the m
 
 This "check unseen words/n-grams" test was a straightforward, early heuristic before advanced techniques like dropout or validation curves. Sutskever noted in the talk how such insights drove scaling to modern LLMs, where generalization on vast unseen data remains core.
 
-[Sequence to Sequence Learning with Neural Networks (arXiv PDF)](https://arxiv.org/pdf/1409.3215.pdf)  
-[Ilya Sutskever PhD Thesis (PDF)](https://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)  
+[Sequence to Sequence Learning with Neural Networks (arXiv PDF)](https://arxiv.org/pdf/1409.3215.pdf)
+[Ilya Sutskever PhD Thesis (PDF)](https://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
 [Ilya Sutskever NeurIPS 2024 Talk Video](https://www.youtube.com/watch?v=YD-9NG1Ke5Y)

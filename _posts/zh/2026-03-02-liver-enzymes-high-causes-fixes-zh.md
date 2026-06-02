@@ -11,7 +11,7 @@ type: note
 
 Question: 健康检查报告中 aspartate aminotransferase (AST)、alanine aminotransferase (ALT) 和 gamma-glutamyl transferase (GGT) 升高意味着什么？如何改善？
 
-Answer: 
+Answer:
 
 健康检查报告中 **AST**、**ALT** 和 **GGT** 升高表明您的肝脏正处于压力之下，或经历了某种程度的损伤或炎症。这些是血液测试中测量的肝酶：
 
@@ -49,7 +49,7 @@ Answer:
 
 **重要**：不要自我诊断或忽略此 — 请咨询您的医生进行正确解释、额外测试和个性化建议。
 
-References:  
+References:
 - [Elevated Liver Enzymes: 这是什么、原因、预防 & 治疗](https://my.clevelandclinic.org/health/symptoms/17679-elevated-liver-enzymes)
 - [Elevated liver enzymes Causes](https://www.mayoclinic.org/symptoms/elevated-liver-enzymes/basics/causes/sym-20050830)
 - [Gamma-glutamyl Transferase (GGT) Test](https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test)

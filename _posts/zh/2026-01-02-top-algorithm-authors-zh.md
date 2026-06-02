@@ -30,11 +30,11 @@ Answer:
 
 这些书籍涵盖了从理论杰作到实践指南的各个层面，能够满足初学者、学生以及专业人士的需求。
 
-References:  
+References:
 
-- [Tableau: 8 Great Data Structures & Algorithms Books](https://www.tableau.com/learn/articles/books-about-data-structures-algorithms)  
-- [Medium: 8 Best Data Structures and Algorithms Books](https://medium.com/javarevisited/8-best-data-structures-and-algorithms-books-for-software-engineers-and-developers-4d3af68542e7)  
-- [Goodreads: Algorithms Shelf](https://www.goodreads.com/shelf/show/algorithms)  
-- [Java67: Top 10 Algorithms Books](https://www.java67.com/2015/09/top-10-algorithm-books-every-programmer-read-learn.html)  
-- [Shortform: 100 Best Algorithms Books](https://www.shortform.com/best-books/genre/best-algorithms-books-of-all-time)  
+- [Tableau: 8 Great Data Structures & Algorithms Books](https://www.tableau.com/learn/articles/books-about-data-structures-algorithms)
+- [Medium: 8 Best Data Structures and Algorithms Books](https://medium.com/javarevisited/8-best-data-structures-and-algorithms-books-for-software-engineers-and-developers-4d3af68542e7)
+- [Goodreads: Algorithms Shelf](https://www.goodreads.com/shelf/show/algorithms)
+- [Java67: Top 10 Algorithms Books](https://www.java67.com/2015/09/top-10-algorithm-books-every-programmer-read-learn.html)
+- [Shortform: 100 Best Algorithms Books](https://www.shortform.com/best-books/genre/best-algorithms-books-of-all-time)
 - [Princeton: Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)

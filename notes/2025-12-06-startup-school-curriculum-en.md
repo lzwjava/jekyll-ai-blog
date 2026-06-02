@@ -12,7 +12,7 @@ type: note
 
 Question: What topics does Y Combinator's Startup School typically cover?
 
-Answer: 
+Answer:
 
 Y Combinator's Startup School is a free online course designed for aspiring and early-stage founders, offering practical advice from YC partners and alumni on building successful startups. The curriculum emphasizes actionable steps for turning ideas into scalable companies, drawing from YC's experience with unicorns like Airbnb, Stripe, and Reddit. It typically spans 6–8 weeks (1–2 hours per week) and includes lectures, exercises, and community support.
 
@@ -28,10 +28,10 @@ Key topics covered include:
 
 The course also features live sessions, office hours, and access to YC's library of essays and videos for deeper dives. It's open to anyone, with tracks for active founders and future entrepreneurs.
 
-References:  
-- [Startup School Official Site](https://www.startupschool.org/)  
-- [YC Startup Library](https://www.ycombinator.com/library)  
-- [Startup School 2018 Curriculum](https://www.ycombinator.com/blog/startup-school-2018-curriculum/)  
-- [Startup School for Future Founders](https://www.ycombinator.com/blog/startup-school-for-future-founders/)  
-- [Latest Startup School Talks](https://www.ycombinator.com/blog/startup-school-videos)  
+References:
+- [Startup School Official Site](https://www.startupschool.org/)
+- [YC Startup Library](https://www.ycombinator.com/library)
+- [Startup School 2018 Curriculum](https://www.ycombinator.com/blog/startup-school-2018-curriculum/)
+- [Startup School for Future Founders](https://www.ycombinator.com/blog/startup-school-for-future-founders/)
+- [Latest Startup School Talks](https://www.ycombinator.com/blog/startup-school-videos)
 - [Free Course on Class Central](https://www.classcentral.com/course/independent-startup-school-7130)

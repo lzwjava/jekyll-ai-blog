@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about socialism?
 
-Answer: 
+Answer:
 
 以下是一些关于 Socialism 的**非主流**或**具有争议性/反直觉的观点**，这些观点往往会根据受众的不同（无论是 Socialists 内部、Liberals、Conservatives 还是普通大众）引发强烈的分歧。这些观点通常违背了双方最常见的叙事。
 
@@ -38,7 +38,7 @@ Answer:
 
 这些想法之所以“非主流”，是因为它们要么为大多数人谴责的历史性 Socialism 辩护，要么挑战了对去中心化 Socialism 的浪漫化观点，或者强调了令人尴尬的对比。
 
-References:  
+References:
 
 - [Reddit thread: unpopular opinions among socialists](https://www.reddit.com/r/socialism/comments/4k2o1v/what_is_an_unpopular_opinion_you_as_a_socialist)
 - [Reddit discussion on socialism in the US](https://www.reddit.com/r/TrueUnpopularOpinion/comments/17re8xt/socialism_would_never_work_in_the_us)

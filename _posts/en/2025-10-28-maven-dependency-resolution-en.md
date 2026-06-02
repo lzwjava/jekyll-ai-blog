@@ -30,5 +30,5 @@ In an EAR project:
 
 This behavior hasn't changed in recent Maven versions (up to 3.9.x as of 2025). For more details, see the official multi-module guide.
 
-[Introduction to the Build Lifecycle - Multi-module Projects](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#multi-module)  
+[Introduction to the Build Lifecycle - Multi-module Projects](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#multi-module)
 [Maven EAR Plugin Documentation](https://maven.apache.org/plugins/maven-ear-plugin/ear-mojo.html)

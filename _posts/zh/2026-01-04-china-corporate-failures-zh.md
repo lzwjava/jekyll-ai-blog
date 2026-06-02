@@ -36,8 +36,8 @@ type: note
 
 参考文献：
 
-- [China's murky bankruptcies expose hazards for foreign investors | Reuters](https://www.reuters.com/world/china/chinas-murky-bankruptcies-expose-hazards-foreign-investors-2025-04-15/)  
-- [What the collapse of Missfresh means for China’s tech sector](https://www.ft.com/content/289defe1-ba14-439c-896e-6b36ed36e5bf)  
-- [Zhufaner’s Founder Admits Chinese Home Renovator Is in Trouble](https://www.yicaiglobal.com/news/zhufaners-founder-admits-chinese-renovation-firm-is-in-financial-distress)  
-- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/2020%E2%80%932022_Chinese_property_sector_crisis)  
+- [China's murky bankruptcies expose hazards for foreign investors | Reuters](https://www.reuters.com/world/china/chinas-murky-bankruptcies-expose-hazards-foreign-investors-2025-04-15/)
+- [What the collapse of Missfresh means for China’s tech sector](https://www.ft.com/content/289defe1-ba14-439c-896e-6b36ed36e5bf)
+- [Zhufaner’s Founder Admits Chinese Home Renovator Is in Trouble](https://www.yicaiglobal.com/news/zhufaners-founder-admits-chinese-renovation-firm-is-in-financial-distress)
+- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/2020%E2%80%932022_Chinese_property_sector_crisis)
 - [Major Chinese semiconductor company goes bankrupt](https://www.tomshardware.com/tech-industry/major-chinese-semiconductor-company-goes-bankrupt-23-others-recently-withdrew-ipo-applications)

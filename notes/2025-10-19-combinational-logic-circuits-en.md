@@ -20,7 +20,7 @@ Analysis involves determining the output behavior of a given circuit from its ga
 - **Truth Tables**: The foundation of analysis. List all possible input combinations and compute outputs.
   - For a circuit with *n* inputs, there are 2^n rows.
   - Example: Analyze a 2-input AND-OR circuit: Output = (A · B) + (A' · B') (where ' denotes NOT).
-  
+
     | A | B | A · B | A' · B' | Output |
     |---|---|-------|---------|--------|
     | 0 | 0 |   0   |    1    |   1    |
@@ -45,7 +45,7 @@ Design starts from a problem specification (e.g., truth table or word descriptio
 
 - **Example Design**: Design a circuit for a majority voter (output 1 if at least two of three inputs A, B, C are 1).
   - Truth table (partial):
-    
+
     | A | B | C | Output |
     |---|---|---|--------|
     | 0 | 0 | 0 |   0    |
@@ -79,7 +79,7 @@ These are standard building blocks for larger systems, reducing design complexit
 - Convert active input(s) to binary code.
 - Example: 4-to-2 Line Priority Encoder (inputs: Y3, Y2, Y1, Y0; outputs: A1, A0; valid flag V).
   - Truth Table:
-    
+
     | Y3 | Y2 | Y1 | Y0 | A1 | A0 | V |
     |----|----|----|----|----|----|---|
     | 0  | 0  | 0  | 1  | 0  | 0  | 1 |
@@ -95,7 +95,7 @@ These are standard building blocks for larger systems, reducing design complexit
 - Opposite of encoders: Binary input to one-hot output (activate one line).
 - Example: 2-to-4 Decoder (inputs: A1, A0; outputs: D0-D3).
   - Truth Table:
-    
+
     | A1 | A0 | D3 | D2 | D1 | D0 |
     |----|----|----|----|----|----|
     | 0  | 0  | 0  | 0  | 0  | 1  |
@@ -110,7 +110,7 @@ These are standard building blocks for larger systems, reducing design complexit
 - Select one of many inputs to a single output based on select lines.
 - Example: 4-to-1 MUX (inputs: I0-I3; selects: S1, S0; output: Y).
   - Truth Table:
-    
+
     | S1 | S0 | Y  |
     |----|----|----|
     | 0  | 0  | I0 |
@@ -159,5 +159,5 @@ Tips: Hazards are critical in high-speed designs; always check single-input chan
 
 For deeper dives, refer to standard texts like Mano's *Digital Design*.
 
-[Digital Design by M. Morris Mano](https://www.pearson.com/us/higher-education/program/Morris-Mano-Digital-Design-with-an-Introduction-to-the-Verilog-HDL-5th-Edition/PGM110392.html)  
+[Digital Design by M. Morris Mano](https://www.pearson.com/us/higher-education/program/Morris-Mano-Digital-Design-with-an-Introduction-to-the-Verilog-HDL-5th-Edition/PGM110392.html)
 [Fundamentals of Digital Logic with Verilog Design by Brown and Vranesic](https://www.mheducation.com/highered/product/fundamentals-digital-logic-verilog-design-brown-vranesic/M9780073380544.html)

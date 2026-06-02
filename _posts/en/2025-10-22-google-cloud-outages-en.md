@@ -27,8 +27,8 @@ Google Cloud Platform has experienced several significant outages since its earl
 
 These incidents highlight GCP's growth pains, from early App Engine issues in the late 2000s to more recent systemic failures. Google typically issues post-mortems and remediation plans, such as modularizing components to "fail open." For the latest status, check [Google Cloud Service Health](https://status.cloud.google.com/).
 
-[A History of Google Cloud and Data Center Outages](https://www.datacenterknowledge.com/outages/a-history-of-google-cloud-and-data-center-outages)  
-[Google services outages - Wikipedia](https://en.wikipedia.org/wiki/Google_services_outages)  
-[Google Cloud Outage History | StatusGator](https://statusgator.com/blog/google-cloud-outage-history/)  
-[The 10 Biggest Cloud Outages Of 2025 (So Far) - CRN](https://www.crn.com/news/cloud/2025/the-10-biggest-cloud-outages-of-2025-so-far)  
+[A History of Google Cloud and Data Center Outages](https://www.datacenterknowledge.com/outages/a-history-of-google-cloud-and-data-center-outages)
+[Google services outages - Wikipedia](https://en.wikipedia.org/wiki/Google_services_outages)
+[Google Cloud Outage History | StatusGator](https://statusgator.com/blog/google-cloud-outage-history/)
+[The 10 Biggest Cloud Outages Of 2025 (So Far) - CRN](https://www.crn.com/news/cloud/2025/the-10-biggest-cloud-outages-of-2025-so-far)
 [Google Cloud Outage Analysis: June 12, 2025 - ThousandEyes](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)

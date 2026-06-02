@@ -22,6 +22,6 @@ This is the facilitated remittance limit for mainland residents' southbound remi
 
 If you are using a specific bank, it is recommended to confirm the latest limits through its App or customer service, as policies may be adjusted by institutions. For more details, refer to the People's Bank of China website or Hong Kong Monetary Authority announcements.
 
-[People's Bank of China Announcement on Payment Connect](http://www.pbc.gov.cn/en/3688110/3688172/5637600/index.html)  
-[Hong Kong Monetary Authority Press Release](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/06/20250622-3/)  
+[People's Bank of China Announcement on Payment Connect](http://www.pbc.gov.cn/en/3688110/3688172/5637600/index.html)
+[Hong Kong Monetary Authority Press Release](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/06/20250622-3/)
 [ICBC Payment Connect Guidelines](https://www.icbc.com.cn/icbc/en/crossborder/paymentconnect/)

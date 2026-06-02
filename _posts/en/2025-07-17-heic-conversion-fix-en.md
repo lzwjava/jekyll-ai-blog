@@ -102,10 +102,10 @@ def convert_heic_to_jpg(heic_path, jpg_path, quality=85):
         image = Image.open(heic_path)
         if image.mode != "RGB":
             image = image.convert("RGB")
-        
+
         # Save as JPG with initial quality
         image.save(jpg_path, "JPEG", quality=quality)
-        
+
         # Adjust quality to approach target size
         current_size = get_file_size(jpg_path)
         low, high = 10, 100

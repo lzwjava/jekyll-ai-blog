@@ -46,8 +46,8 @@ type: note
 
 行程规划建议：上午追溯历史踪迹，午间体验文化美食，傍晚探访创意经济区。推荐下载"深圳地铁"APP及微信支付。十一月气候宜人，建议携带薄外套。
 
-参考链接：  
-[深圳旅游攻略](https://www.asiaodysseytravel.com/guangzhou/things-to-do-in-shenzhen.html)  
-[深圳旅行指南](https://www.chinadiscovery.com/guangdong/shenzhen.html)  
-[深圳在地市集与街头美食](https://www.tripmall.in/news/local-markets-street-food-spots-in-shenzhen)  
+参考链接：
+[深圳旅游攻略](https://www.asiaodysseytravel.com/guangzhou/things-to-do-in-shenzhen.html)
+[深圳旅行指南](https://www.chinadiscovery.com/guangdong/shenzhen.html)
+[深圳在地市集与街头美食](https://www.tripmall.in/news/local-markets-street-food-spots-in-shenzhen)
 [终极深圳旅游指南](https://www.you.co/sg/blog/things-to-do-in-shenzhen/)

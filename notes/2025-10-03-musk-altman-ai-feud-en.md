@@ -20,10 +20,10 @@ Fast-forward to today (October 2025), and their relationship is openly hostile�
 
 #### Key Escalations in the Feud
 - **2023: Musk Launches xAI and Grok**: Yes, this was absolutely positioned as a "revenge" move. Frustrated with OpenAI's closed-source pivot (e.g., GPT models behind paywalls), Musk started xAI to build "maximum truth-seeking AI" as an alternative. Grok, xAI's chatbot, was unveiled as a direct rival to ChatGPT—witty, less censored, and integrated with X. Musk has framed it as fixing OpenAI's "woke" biases and mission drift.
-  
+
 - **2024 Lawsuit**: Musk sued OpenAI and Altman, alleging breach of the founding agreement by going for-profit and hiding tech from the public. The suit claims OpenAI became a "closed-source de facto subsidiary" of Microsoft. OpenAI fired back, calling it sour grapes from a failed competitor.
 
-- **2025 Drama**: 
+- **2025 Drama**:
   - February: Musk tried to buy OpenAI for $97.4 billion—rejected outright.
   - August: Public X spat over Apple allegedly boosting OpenAI in app rankings; Altman accused Musk of manipulating X for his companies, while Musk called him "Scam Altman."
   - September: xAI countersued OpenAI for stealing trade secrets (e.g., poaching engineers). Altman has been hitting back by challenging Musk's empire, like probing Tesla's AI integrations and funding rivals.

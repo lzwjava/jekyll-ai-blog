@@ -44,5 +44,5 @@ This creates that hypnotic light show without fancy parts. If you want to add a 
 
 For full schematics and steps, check these:
 
-[Simple Sound Reactive LEDs Circuit](https://www.circuits-diy.com/simple-sound-reactive-leds-circuit/)  
+[Simple Sound Reactive LEDs Circuit](https://www.circuits-diy.com/simple-sound-reactive-leds-circuit/)
 [Creating an Audio-Reactive LED Circuit (even simpler single-LED version)](https://www.instructables.com/Creating-An-Audio-Reactive-LED-Circuit/)

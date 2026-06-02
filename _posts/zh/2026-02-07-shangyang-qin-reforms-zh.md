@@ -12,13 +12,13 @@ type: note
 
 问题：在《谏逐客书》的下述段落中，哪位客卿曾协助秦孝公实施新法并取得成功？
 
-A. 由余 (You Yu)  
-B. 商鞅 (Shang Yang)  
-C. 张仪 (Zhang Yi)  
-D. 范雎 (Fan Ju)  
+A. 由余 (You Yu)
+B. 商鞅 (Shang Yang)
+C. 张仪 (Zhang Yi)
+D. 范雎 (Fan Ju)
 
-你的回答：C  
-正确答案：B  
+你的回答：C
+正确答案：B
 
 解析：
 
@@ -37,20 +37,20 @@ D. 范雎 (Fan Ju)
 
 **四位人物的简要时间线及角色对比：**
 
-- **由余 (You Yu)**  
+- **由余 (You Yu)**
   一名西戎谋士，在秦穆公（Duke Mu of Qin，远早于秦孝公时期）在位期间投奔秦国。他协助秦国处理西戎部落事务。与秦孝公或新法无关。
 
-- **商鞅 (Shang Yang / Gongsun Yang)**  
+- **商鞅 (Shang Yang / Gongsun Yang)**
   **秦孝公**（公元前 361–338 年在位）统治时期 Legalist 改革的总设计师。他实施了严酷的法律、奖励军功、加强集权、废除井田制、奖励耕织并统一了度量衡。他的改革使秦国变得富裕且军事强大——这正符合文中描述的内容。
 
-- **张仪 (Zhang Yi)**  
+- **张仪 (Zhang Yi)**
   著名的纵横家（Vertical-Alliances strategist）。他先后侍奉**秦惠文王**（King Huiwen of Qin，秦孝公之子）、秦武王和秦昭襄王。他在秦孝公去世后才活跃于政坛，最著名的成就是瓦解了齐楚联盟并协助秦国通过外交计谋获取土地。未曾效力于秦孝公。
 
-- **范雎 (Fan Ju / Fan Sui)**  
+- **范雎 (Fan Ju / Fan Sui)**
   著名的“远交近攻”（far-attack, close-alliance）战略家。他侍奉的是**秦昭襄王**（King Zhaoxiang of Qin），即秦孝公之后几代的君主。他在长平之战中协助秦国击败赵国。同样不处于秦孝公时代。
 
-**结论：**  
+**结论：**
 只有**商鞅**曾效力于秦孝公并推行了与文中描述完全吻合的“变法”（new laws）。因此正确答案为 **B**。
 
-参考资料：  
+参考资料：
 - 李斯《谏逐客书》（Li Si’s original text）

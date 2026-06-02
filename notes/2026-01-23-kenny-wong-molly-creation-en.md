@@ -12,7 +12,7 @@ type: note
 
 **Question:** Provide a comprehensive introduction to Kenny Wong, the creator of Molly, one of Pop Mart's earliest and most iconic characters (first designed in 2006).
 
-**Answer:** 
+**Answer:**
 
 Kenny Wong is a Hong Kong-based artist, illustrator, toy designer, and one of the most influential figures in the designer toy (art toy) scene. He is best known as the creator of **Molly**, an iconic character that has become one of the flagship IPs for Pop Mart and one of the most recognizable and collectible figures in the global blind box and art toy market.
 
@@ -44,7 +44,7 @@ Molly is now considered one of the most sought-after designer toy characters wor
 
 Kenny Wong's creation of Molly in 2006 not only launched one of the most enduring characters in modern collectibles but also exemplified how independent artists can achieve global reach through strategic partnerships in the designer toy space.
 
-**References:**  
+**References:**
 
 - [POP MART Official - About Kenny Wong & Molly](https://www.popmartworld.com/brand/molly)
 - [POP MART US - MOLLY Collection](https://m.popmart.com/us/collection/5/molly)

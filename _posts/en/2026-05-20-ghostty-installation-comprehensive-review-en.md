@@ -10,25 +10,25 @@ type: note
 ---
 
 Here's the full rundown:
-    
-    
-    
+
+
+
     Ghostty Installation — Comprehensive Review
-    
+
     Version & Source
     - Ghostty 1.3.1 (stable channel, latest)
     - Installed from mkasberg/ghostty-ubuntu PPA (community-maintained, same maintainer who works with the Ghostty project)
     - PPA added: ppa:mkasberg/ghostty-ubuntu → pinned to Ubuntu Noble (24.04) — maps correctly to Linux Mint 22.3
-    
+
     Installation Method
-    
+
     sudo add-apt-repository ppa:mkasberg/ghostty-ubuntu
     sudo apt-get install ghostty
-    
+
     Updates are automatic through apt going forward.
-    
+
     Package Contents
-    
+
     Area: Binary
     Details: /usr/bin/ghostty (27 MB, GTK4 + OpenGL renderer, GPU-accelerated)
     ────────────────────────────────────────
@@ -80,7 +80,7 @@ Here's the full rundown:
     ────────────────────────────────────────
     Area: Appstream
     Details: com.mitchellh.ghostty.metainfo.xml — software center metadata
-    
+
     Build Details
     - Zig 0.15.2 compiler (ReleaseFast)
     - GTK 4.14.5 (build & runtime)
@@ -89,10 +89,10 @@ Here's the full rundown:
     - Font engine: fontconfig + freetype
     - Renderer: OpenGL via generic renderer
     - Kernel io_uring support detected
-    
+
     Config File
     Ghostty uses an INI-style config at ~/.config/ghostty/config (auto-created on first launch if absent). Key config patterns:
-    
+
     ini
     theme = Catppuccin Mocha
     font-size = 13
@@ -100,8 +100,8 @@ Here's the full rundown:
     background-opacity = 0.92
     window-padding-x = 4
     window-padding-y = 4
-    
-    
+
+
     Notes
     - The PPA also installs libgtk4-layer-shell0 and libonig5 as dependencies
     - Shell integration is auto-loaded (bash: /usr/share/ghostty/shell-integration/bash/)

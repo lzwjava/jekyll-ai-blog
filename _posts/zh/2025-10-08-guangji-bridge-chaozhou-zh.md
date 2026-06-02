@@ -23,6 +23,6 @@ type: note
 如今这里仍是热门旅游景点，设有步行通道供游客探索周边历史街区。无论您钟情历史、建筑还是地方文化，广济桥都将为您展现中国古代智慧的魅力。
 
 #### 参考资料
-[广济桥（潮州）- 维基百科](https://en.wikipedia.org/wiki/Guangji_Bridge_%28Chaozhou%29)  
-[潮州广济桥旅游指南 - 顶级中国之旅](https://www.topchinatravel.com/china-attractions/chaozhou-guangji-bridge.htm)  
+[广济桥（潮州）- 维基百科](https://en.wikipedia.org/wiki/Guangji_Bridge_%28Chaozhou%29)
+[潮州广济桥旅游指南 - 顶级中国之旅](https://www.topchinatravel.com/china-attractions/chaozhou-guangji-bridge.htm)
 [广东潮州广济桥 - 中国旅游指南](https://www.travelchinaguide.com/cityguides/guangdong/chaozhou/guangji-bridge.htm)

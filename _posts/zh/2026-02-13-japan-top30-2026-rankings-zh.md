@@ -12,7 +12,7 @@ type: note
 
 **Question:** 日本最大的 30 家公司有哪些？
 
-**Answer:** 
+**Answer:**
 
 以下是截至 2026 年 2 月中旬，按市值计算的**日本前 30 大公司**（数值为美元近似值，每日会有波动；排名基于近期金融追踪网站的数据）。
 
@@ -47,7 +47,7 @@ type: note
 
 如需获取 30 强以上的最新完整列表，请查看 companiesmarketcap.com/japan 或 JPX (Japan Exchange Group) 排名等实时数据源，因为数值会随股价波动。
 
-**References:**  
+**References:**
 
 - [https://companiesmarketcap.com/japan/largest-companies-in-japan-by-market-cap](https://companiesmarketcap.com/japan/largest-companies-in-japan-by-market-cap)
 - [https://www.financecharts.com/screener/biggest-country-jp](https://www.financecharts.com/screener/biggest-country-jp)

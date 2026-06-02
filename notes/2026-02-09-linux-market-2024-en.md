@@ -12,7 +12,7 @@ type: note
 
 Question: What is the global desktop Linux market share? Who are the tops?
 
-Answer: 
+Answer:
 
 As of early 2026 (latest available data from January/February 2026), the **global desktop Linux market share** is approximately **4%**, according to the most reliable and widely referenced source, **StatCounter Global Stats**.
 
@@ -43,10 +43,10 @@ Ubuntu dominates overall Linux adoption across desktop, server, and developer us
 
 Linux desktop share has been slowly but steadily rising (from ~2–3% a few years ago to ~4% now), with potential for more growth in 2026 due to factors like Windows changes, privacy concerns, and better gaming support (e.g., Proton/Steam Deck influence).
 
-References:  
+References:
 
-- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)  
-- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)  
-- [https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)  
-- [https://itsfoss.com/linux-market-share](https://itsfoss.com/linux-market-share)  
+- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)
+- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)
+- [https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)
+- [https://itsfoss.com/linux-market-share](https://itsfoss.com/linux-market-share)
 - [https://en.wikipedia.org/wiki/Usage_share_of_operating_systems](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems)

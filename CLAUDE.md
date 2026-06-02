@@ -183,4 +183,3 @@ Because the vast majority of people have such a deep misunderstanding of testing
 ---
 
 **In short:** Yin Wang's article is a sharp critique of blind test culture in software engineering. He advocates for **precision thinking, clean code, and selective testing** over mechanical adherence to TDD or coverage-driven testing dogma.
-

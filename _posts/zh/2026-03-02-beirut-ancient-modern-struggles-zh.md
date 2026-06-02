@@ -30,7 +30,7 @@ Beirut 在 20 世纪中叶作为主要的的文化和金融中心蓬勃发展，
 
 **当前情况说明（2026 年 3 月）**：Beirut 和 **Lebanon** 目前由于持续的地区冲突而面临更高的安全风险，包括以色列对城市部分地区（特别是南部郊区）的空袭以及与 Hezbollah 的交火。局势动荡，最近的袭击造成伤亡和流离失所。许多政府目前建议不要前往 **Lebanon**。
 
-References:  
+References:
 
 - [Beirut - Wikipedia](https://en.wikipedia.org/wiki/Beirut)
 - [Beirut | History, Population, Religion, & Tourism - Britannica](https://www.britannica.com/place/Beirut)

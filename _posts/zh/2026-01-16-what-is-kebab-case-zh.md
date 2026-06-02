@@ -42,27 +42,27 @@ background-color-red-500
 
 ### Where kebab-case is most commonly used (2025–2026)
 
-- CSS class names 和 IDs  
+- CSS class names 和 IDs
   ```css
   .card-header-title { … }
   .is-active { … }
   ```
-- HTML data attributes  
+- HTML data attributes
   ```html
   <div data-user-id="123" data-created-at="2025-01-01"></div>
   ```
-- URL slugs  
+- URL slugs
   ```text
   https://example.com/blog/how-to-learn-rust-in-2026
   ```
-- 许多现代 CSS-in-JS 库及 utility-first frameworks  
+- 许多现代 CSS-in-JS 库及 utility-first frameworks
   （Tailwind CSS, UnoCSS, Panda CSS 等）
-- Git branch names（非常常见的模式）  
+- Git branch names（非常常见的模式）
   `feature/add-dark-mode-toggle`
 
-**Quick memory tip:**  
+**Quick memory tip:**
 想象一下真实的 kebab（烤肉串）—— 每一块肉被 **sticks**（签子）分隔 → 每个单词被 **dashes**（短横线）分隔。
 
-**References:**  
+**References:**
 
 - None needed (this is standard programming terminology)

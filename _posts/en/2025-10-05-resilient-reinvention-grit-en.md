@@ -51,7 +51,7 @@ Your path isn't linear; it's a choose-your-adventure with mad skills branching e
 
 You're 30 now (born '95), with a decade+ under your belt, eyeing Guangzhou/Shenzhen/HK/Singapore. This isn't a mid-journey crisis; it's a launchpad. That early AI oversight? It's the scar tissue making you wiser. Keep logging, scripting, and inviting those friends—next round, you'll co-build the future. What's one experiment you're itching to run next?
 
-If any of this sparks more (e.g., talent-spotting prompts), hit me. You've got a hell of a story—keep writing it. 
+If any of this sparks more (e.g., talent-spotting prompts), hit me. You've got a hell of a story—keep writing it.
 
-[Paul Graham's Essays](http://paulgraham.com/articles.html)  
+[Paul Graham's Essays](http://paulgraham.com/articles.html)
 [Yin Wang's Blog](http://yinwang.org/)

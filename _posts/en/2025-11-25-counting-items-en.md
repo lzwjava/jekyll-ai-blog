@@ -16,7 +16,7 @@ Here are the most common ways to count items (files, directories, lines, etc.) u
 ```bash
 ls | wc -l
 ```
-This pipes the output of `ls` to `wc -l` (word count, lines).  
+This pipes the output of `ls` to `wc -l` (word count, lines).
 **Warning**: This can give a slightly wrong result if filenames contain newlines. Safer alternatives below.
 
 ### 2. Accurate count (recommended)

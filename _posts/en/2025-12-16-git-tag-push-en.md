@@ -12,7 +12,7 @@ type: note
 
 Question: How to use `git tag` and how to push tags with `git push`?
 
-Answer: 
+Answer:
 
 Git tags mark specific commits in your repository history, often used for releases (e.g., `v1.0.0`).
 
@@ -82,7 +82,7 @@ Tags are **not pushed automatically** with `git push`. You must push them explic
 
 Best practice: Use annotated tags for public releases to preserve metadata.
 
-References:  
+References:
 
 - [Git - Tagging (official documentation)](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 - [git-tag Documentation](https://git-scm.com/docs/git-tag)

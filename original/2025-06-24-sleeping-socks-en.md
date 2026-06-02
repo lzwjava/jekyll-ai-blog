@@ -44,12 +44,12 @@ Why did I need a quilt? It was because my feet would get cold without one. I cou
 
 Then I tried finding these sleeping socks on Pinduoduo, and they were great.
 
-Now, I set the air conditioner to 27 or 28 degrees and wear these sleeping socks all night. It works perfectly. 
+Now, I set the air conditioner to 27 or 28 degrees and wear these sleeping socks all night. It works perfectly.
 
 But why don't I use a pair of normal socks? They are too tight and not comfortable.
 
-{: .centered }  
-![](/assets/images/socks/socks.jpg){: .responsive }  
+{: .centered }
+![](/assets/images/socks/socks.jpg){: .responsive }
 *Source: Walmart.com*{: .caption }
 
 ---

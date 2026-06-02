@@ -32,7 +32,7 @@ IBM WebSphere Application Server Liberty Profile（通常简称为WLP或Liberty�
 
 简而言之：**Liberty的失利并非技术落后，而是因为Spring Boot以颠覆性的开发效率、精准把握时代脉搏的时机以及不可阻挡的生态势头赢得了市场。** 2025年大多数新Java后端项目均首选Spring Boot（或Quarkus/Helidon/Micronaut），而非独立应用服务器。
 
-[Spring Boot vs Websphere Liberty 对比分析](https://stackshare.io/stackups/spring-boot-vs-websphere-liberty)  
-[2020年Java技术报告 | JRebel](https://www.jrebel.com/blog/2020-java-technology-report)  
-[Open Liberty性能对比云原生Java运行时](https://openliberty.io/blog/2022/10/17/memory-footprint-throughput-update.html)  
+[Spring Boot vs Websphere Liberty 对比分析](https://stackshare.io/stackups/spring-boot-vs-websphere-liberty)
+[2020年Java技术报告 | JRebel](https://www.jrebel.com/blog/2020-java-technology-report)
+[Open Liberty性能对比云原生Java运行时](https://openliberty.io/blog/2022/10/17/memory-footprint-throughput-update.html)
 [Spring Boot市场份额数据 (6sense)](https://6sense.com/tech/programming-framework/spring-boot-market-share)

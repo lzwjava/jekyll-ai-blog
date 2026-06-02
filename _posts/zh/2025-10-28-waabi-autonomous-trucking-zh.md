@@ -23,8 +23,8 @@ Waabi 的核心创新是端到端可解释且可验证的 AI 模型，该模型�
 ### 近期进展
 2024 年 6 月，Waabi 完成 2 亿美元 B 轮融资以加速无人驾驶卡车落地。2025 年在德克萨斯州兰开斯特建成专用自动驾驶车辆枢纽以支持运营。与英伟达等企业的合作强化了其生成式 AI 能力。
 
-[Waabi 官网](https://waabi.ai/)  
-[Waabi B 轮融资公告](https://waabi.ai/insights/waabi-series-b-announcement)  
-[《福布斯》公司档案](https://www.forbes.com/companies/waabi/)  
-[英伟达关于 Waabi 的博客](https://blogs.nvidia.com/blog/waabi-autonomous-trucking/)  
+[Waabi 官网](https://waabi.ai/)
+[Waabi B 轮融资公告](https://waabi.ai/insights/waabi-series-b-announcement)
+[《福布斯》公司档案](https://www.forbes.com/companies/waabi/)
+[英伟达关于 Waabi 的博客](https://blogs.nvidia.com/blog/waabi-autonomous-trucking/)
 [兰开斯特枢纽新闻](https://waabi.ai/insights/lancaster-terminal)

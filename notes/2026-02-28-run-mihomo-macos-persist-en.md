@@ -11,7 +11,7 @@ type: note
 
 Question: How to add a service in macOS to keep mihomo-darwin-amd64-v1-alpha-3035ae8 running always?
 
-Answer: 
+Answer:
 
 To make **mihomo** (Clash Meta core) run automatically as a background service on macOS and keep restarting if it crashes, use **launchd** (macOS's built-in service manager).
 
@@ -153,7 +153,7 @@ But for most mihomo use cases (especially TUN / full system proxy), use LaunchDa
 
 This setup will keep mihomo running always, even after reboot or crash.
 
-References:  
+References:
 
 - [https://wiki.metacubex.one/en/startup/service](https://wiki.metacubex.one/en/startup/service) (Linux example but useful concepts)
 - [https://note.okhk.net/use-launchctl-to-start-clash-meta-kernel-on-macos](https://note.okhk.net/use-launchctl-to-start-clash-meta-kernel-on-macos)

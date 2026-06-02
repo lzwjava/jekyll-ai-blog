@@ -48,7 +48,7 @@ X 已推出使用 Grok AI 自动翻译时间线帖子的功能。帖子翻译后
 
 ## 总结
 
-  
+
 | Content Type | Auto-Translated? |
 |---|---|
 | Reposter's own comment | ✅ 是（通常） |

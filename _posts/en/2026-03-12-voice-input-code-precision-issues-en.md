@@ -9,9 +9,9 @@ translated: false
 type: note
 ---
 
-Question: Why is voice input for Claude Code and Codex sometimes inconvenient, especially when copying and pasting information is needed?  
+Question: Why is voice input for Claude Code and Codex sometimes inconvenient, especially when copying and pasting information is needed?
 
-Answer:  
+Answer:
 
 Voice input is great for natural, free-form interaction, but it has some practical limitations when working with tools like Claude Code or Codex:
 
@@ -27,7 +27,7 @@ Voice input is great for natural, free-form interaction, but it has some practic
 
 Essentially, voice input is convenient for high-level descriptions or short commands, but for exact, structured, or detailed data, copy-pasting remains more reliable.
 
-References:  
+References:
 
-- [OpenAI Codex documentation](https://platform.openai.com/docs/guides/codex)  
+- [OpenAI Codex documentation](https://platform.openai.com/docs/guides/codex)
 - [Claude AI by Anthropic](https://www.anthropic.com/) – insights on structured input and prompt reliability

@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-Your system is in a **very dangerous state** right now — many critical system files in `/usr/` are probably owned by your normal user instead of root.  
+Your system is in a **very dangerous state** right now — many critical system files in `/usr/` are probably owned by your normal user instead of root.
 The most important file right now is `/usr/bin/sudo` (or sometimes `/bin/sudo` or `/usr/local/bin/sudo` depending on distribution).
 
 Here are the realistic recovery options, ordered from safest → most desperate:
@@ -23,8 +23,8 @@ Here are the realistic recovery options, ordered from safest → most desperate:
 
 Any method that still gives root (even temporarily):
 
-- **Recovery / single-user / rescue mode** (most distributions)  
-  Reboot → hold Shift (GRUB) or Esc (some systemd) → choose Advanced options → Recovery mode → root shell  
+- **Recovery / single-user / rescue mode** (most distributions)
+  Reboot → hold Shift (GRUB) or Esc (some systemd) → choose Advanced options → Recovery mode → root shell
   or at boot menu select "(recovery mode)" or "Rescue"
 
   Once you have a root shell:
@@ -39,8 +39,8 @@ Any method that still gives root (even temporarily):
   chmod -R u+s /usr/bin/sudo          # just in case
   ```
 
-- **Live USB** (very reliable)  
-  Boot from Ubuntu / Fedora / Mint live USB  
+- **Live USB** (very reliable)
+  Boot from Ubuntu / Fedora / Mint live USB
   Open terminal → mount your root filesystem:
 
   ```bash

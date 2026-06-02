@@ -78,16 +78,16 @@ git filter-repo --path-glob '*/secrets/*' --invert-paths --force
 
 ### 几乎每个人都会用到的重要常用选项
 
-- `--force`  
+- `--force`
   如果你已经在同一个 clone 的仓库中运行过一次 filter-repo，则需要此参数。
 
-- `--dry-run`  
+- `--dry-run`
   显示将要执行的操作，而不实际重写任何内容。
 
-- `--analyze`  
+- `--analyze`
   在第一次运行前非常有用 —— 显示最大的文件、最大的 commits 以及路径统计信息。
 
-- `--target <directory>`  
+- `--target <directory>`
   将过滤后的结果写入单独的目录，而不是覆盖当前 repo。
 
 ### 快速记忆模型

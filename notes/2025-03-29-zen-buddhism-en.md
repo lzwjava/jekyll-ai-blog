@@ -11,7 +11,7 @@ type: note
 Zen Buddhism offers profound wisdom that revolves around simplicity, mindfulness, and the pursuit of enlightenment through direct experience. Here are some of the key teachings and concepts that reflect Zen wisdom:
 
 ### 1. **Present Moment Awareness (Mindfulness)**
-   - **"When walking, just walk. When eating, just eat."**  
+   - **"When walking, just walk. When eating, just eat."**
    This teaching emphasizes full engagement in the present moment. Zen encourages letting go of distractions and focusing entirely on what is happening right now. By bringing our awareness to the present, we cultivate a deeper sense of peace and clarity.
 
 ### 2. **Non-Attachment**

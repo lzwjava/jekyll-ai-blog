@@ -9,7 +9,7 @@ type: note
 ---
 
 ## 1. Source File Basics
-- **File Naming**: 
+- **File Naming**:
   - Source files are named with the case-sensitive name of the top-level class they contain
   - Files must use UTF-8 encoding
   - Special characters in file names are discouraged
@@ -66,14 +66,14 @@ type: note
 ## 5. Programming Practices
 
 ### Java Language Rules
-- **Exceptions**: 
+- **Exceptions**:
   - Catch specific exceptions
   - Avoid empty catch blocks
   - Always include a detailed error message
-- **Final Keyword**: 
+- **Final Keyword**:
   - Use `final` for method parameters
   - Prefer immutable objects
-- **Annotations**: 
+- **Annotations**:
   - `@Override` is mandatory for overriding methods
   - Use standard annotations appropriately
 

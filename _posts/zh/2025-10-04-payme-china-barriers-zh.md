@@ -39,9 +39,9 @@ PayMe是汇丰银行于2017年推出的移动支付应用，在香港作为便�
 
 简言之，这些壁垒并非PayMe独有，它们正是许多香港品牌（如零售、餐饮）虽地理相近却难以跨境发展的原因。问题的核心不在于产品品质，而在于生态系统的互不重叠。如果您正在推进PayMe相关项目，聚焦大湾区试点或许是明智的切入策略。
 
-**参考资料**  
-- [汇丰PayMe通过银联实现全球拓展](https://www.scmp.com/business/article/3273539/hsbcs-payme-goes-global-access-34-million-merchants-46-markets-unionpay)  
-- [金融科技与大湾区：破除壁垒（普华永道报告）](https://www.pwccn.com/en/research-and-insights/Fintech/fintech-greater-bay-area-breaking-down-barriers.pdf)  
-- [消费习惯对比：香港vs中国大陆](https://daxueconsulting.com/contrasting-consumer-habits-hong-kong-vs-mainland-china/)  
-- [香港与澳门：对你而言，它们不是中国（Harris Sliwoski律所）](https://harris-sliwoski.com/chinalawblog/hong-kong-and-macau-for-you-theyre-not-china/)  
+**参考资料**
+- [汇丰PayMe通过银联实现全球拓展](https://www.scmp.com/business/article/3273539/hsbcs-payme-goes-global-access-34-million-merchants-46-markets-unionpay)
+- [金融科技与大湾区：破除壁垒（普华永道报告）](https://www.pwccn.com/en/research-and-insights/Fintech/fintech-greater-bay-area-breaking-down-barriers.pdf)
+- [消费习惯对比：香港vs中国大陆](https://daxueconsulting.com/contrasting-consumer-habits-hong-kong-vs-mainland-china/)
+- [香港与澳门：对你而言，它们不是中国（Harris Sliwoski律所）](https://harris-sliwoski.com/chinalawblog/hong-kong-and-macau-for-you-theyre-not-china/)
 - [案例研究：汇丰PayMe的推出历程](https://www.mindtheproduct.com/case-study-launching-payme-from-hsbc/)

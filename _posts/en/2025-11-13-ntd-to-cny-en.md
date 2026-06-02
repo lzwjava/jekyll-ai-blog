@@ -17,7 +17,7 @@ I assume "NTD" refers to the New Taiwan Dollar (also denoted as TWD), the offici
 #### 1. **For a Quick Calculation (Mid-Market Rate)**
    - Use an online currency converter to get the current exchange rate. The mid-market rate is the "neutral" rate banks use as a benchmark (but actual exchanges may include fees, so it's not what you'll get for transfers).
    - **Current Rate (as of November 13, 2025)**: 1 NTD ≈ 0.23 CNY. This is an approximate value based on recent mid-market data; rates fluctuate slightly throughout the day.
-     - Example: To convert 1,000 NTD to CNY:  
+     - Example: To convert 1,000 NTD to CNY:
        1,000 × 0.23 = **230 CNY**.
    - **Recommended Free Tools**:
      - [XE Currency Converter](https://www.xe.com/currencyconverter/convert/?Amount=1&From=TWD&To=CNY) – Enter your amount, select TWD to CNY, and it auto-calculates.
@@ -31,7 +31,7 @@ I assume "NTD" refers to the New Taiwan Dollar (also denoted as TWD), the offici
      - XTransfer: Tailored for Asia, with competitive rates for TWD-CNY. Good for businesses.
      - Remitly or WorldRemit: Quick for personal transfers, but compare fees first.
    - **Airports/Exchange Bureaus**: Convenient but higher fees (up to 5-10%). Use only for small amounts.
-   - **Tips**: 
+   - **Tips**:
      - Compare rates using tools like [Monito](https://www.monito.com/) to find the best provider.
      - Factor in fees: Total cost = Exchange rate + Transfer fee + Any intermediary bank charges.
      - Due to Taiwan-China relations, direct transfers might have restrictions; use services that route through Hong Kong if needed.

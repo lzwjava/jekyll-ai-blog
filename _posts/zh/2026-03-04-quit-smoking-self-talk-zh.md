@@ -16,16 +16,16 @@ type: note
 ### The Key Technique: Identity-First Self-Talk
 与其说“我想戒烟”或“我必须抵抗吸烟”（这会激活疲惫的意识意志力），他反复告诉自己那些重新定义他为非吸烟者身份的语句。他使用的主要短语是：
 
-- **"I never smoke."**  
+- **"I never smoke."**
   (In Chinese: "我从来都不抽烟。" or variations like "我是一个从来不抽烟的人。")
 
-他经常将其扩展为类似这样的语句：  
-**"I am a person who never smokes, because smoking smells terrible."**  
+他经常将其扩展为类似这样的语句：
+**"I am a person who never smokes, because smoking smells terrible."**
 （或另一个唤起厌恶/情绪的个人理由，比如臭味、感觉被利用或不快乐）。
 
 ### How He Practiced It
 - **自信且故意重复**：慢慢、清楚、大声说出来（或在心里）——每次至少3次或持续5秒以上。
-- **时机**： 
+- **时机**：
   - 醒来后第一件事。
   - 每次烟瘾来袭时（不是与之对抗，而是陈述肯定句）。
   - 全天即使没有烟瘾，也要强化它。

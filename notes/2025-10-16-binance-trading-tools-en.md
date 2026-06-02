@@ -20,7 +20,7 @@ Binance offers a wide range of trading tools and products designed for buying, s
 - **Convert**: Simple tool to swap one crypto for another without fees, ideal for quick conversions.
 
 ### Earn and Investment Products
-- **Simple Earn**: A flexible or locked staking program to earn interest on idle assets. 
+- **Simple Earn**: A flexible or locked staking program to earn interest on idle assets.
   - Flexible: Withdraw anytime, yields around 1-5% APY depending on the asset.
   - Locked: Higher yields (up to 10%+ APY) for fixed terms (7-120 days).
   - Supports hundreds of tokens; auto-subscribe for rewards.

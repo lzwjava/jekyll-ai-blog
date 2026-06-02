@@ -12,7 +12,7 @@ type: note
 
 Question: Is cutting pineapple into slices, placing them upside down in a bottle of salt water, and storing them that way a convenient method for easy eating without repeatedly peeling the skin?
 
-Answer: 
+Answer:
 
 The method you describe—cutting a pineapple into slices and storing them upside down in a bottle filled with salt water for convenient grab-and-eat access—appears to be a personal or regional variation, as it's not documented in common recipes, food blogs, or storage guides. However, parts of it align with established practices.
 
@@ -33,7 +33,7 @@ For best results and convenience:
 
 This way, you get the convenience of ready-to-eat slices without ongoing peeling, while avoiding potential issues from prolonged salt water storage.
 
-References:  
+References:
 
 - https://www.tasteofhome.com/article/pineapple-in-salt-water/
 - https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/

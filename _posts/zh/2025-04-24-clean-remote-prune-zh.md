@@ -36,7 +36,7 @@ type: note
   ```bash
   git config fetch.prune true
   ```
-  
+
 这样每次执行 `git fetch` 时都会自动清理陈旧分支。
 
 ---

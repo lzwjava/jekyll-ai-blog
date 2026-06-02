@@ -34,7 +34,7 @@ OGG and M4A are both popular formats for compressing and storing audio files (ty
 #### 3. **File Size and Efficiency**
    - OGG files are often smaller for the same quality due to efficient codecs like Opus, especially for longer files or variable bitrate (VBR) encoding.
    - M4A files can be comparable but may be larger at lower bitrates without HE-AAC. Both support constant bitrate (CBR) or VBR modes.
-   
+
    *In Practice*: For a 4-minute song, an OGG at 160 kbps might be ~4–5 MB, while an M4A at the same bitrate is similar (~4–6 MB). Differences are minor and depend on the encoder.
 
 #### 4. **Compatibility and Playback**

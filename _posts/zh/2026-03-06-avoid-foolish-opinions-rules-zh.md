@@ -41,6 +41,6 @@ type: note
 
 参考文献：
 
-- [How to Avoid Foolish Opinions - Common Chinese textbook excerpt source](https://hellowac.github.io/read/howtoavoid)  
-- Bertrand Russell, "An Outline of Intellectual Rubbish" (1943)，节选即出自此文  
+- [How to Avoid Foolish Opinions - Common Chinese textbook excerpt source](https://hellowac.github.io/read/howtoavoid)
+- Bertrand Russell, "An Outline of Intellectual Rubbish" (1943)，节选即出自此文
 - 各种中国大学“大学语文”教科书（例如Wuhan University、Central China Normal University等使用的版本，此文定期出现）

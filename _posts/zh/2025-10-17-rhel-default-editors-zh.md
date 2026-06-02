@@ -19,6 +19,6 @@ type: note
 
 这种设计使得最小化安装保持轻量（总计约200-300个软件包），以优先保障安全性和性能。若执行完整版桌面或服务器安装（非最小化），根据所选环境可能会预装更多工具。
 
-[Nano 入门指南（Red Hat）](https://www.redhat.com/en/blog/getting-started-nano)  
-[为何 RHEL 默认安装两个 vim 版本？](https://unix.stackexchange.com/questions/699071/why-rhel-has-two-vim-installed-by-default)  
+[Nano 入门指南（Red Hat）](https://www.redhat.com/en/blog/getting-started-nano)
+[为何 RHEL 默认安装两个 vim 版本？](https://unix.stackexchange.com/questions/699071/why-rhel-has-two-vim-installed-by-default)
 [RHEL 9 软件包清单](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/package_manifest/index)

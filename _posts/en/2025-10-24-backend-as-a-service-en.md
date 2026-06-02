@@ -39,8 +39,8 @@ BaaS platforms typically include:
 
 Popular BaaS providers include Firebase (Google), AWS Amplify, and Backendless. It's especially useful for startups or small teams building MVPs (minimum viable products).
 
-[Cloudflare: What is BaaS?](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/)  
-[Wikipedia: Backend as a service](https://en.wikipedia.org/wiki/Backend_as_a_service)  
-[Okta: What Is BaaS?](https://www.okta.com/identity-101/baas-backend-as-a-service/)  
-[Sanity: Understanding Backend as a Service](https://www.sanity.io/glossary/backend-as-a-service)  
+[Cloudflare: What is BaaS?](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/)
+[Wikipedia: Backend as a service](https://en.wikipedia.org/wiki/Backend_as_a_service)
+[Okta: What Is BaaS?](https://www.okta.com/identity-101/baas-backend-as-a-service/)
+[Sanity: Understanding Backend as a Service](https://www.sanity.io/glossary/backend-as-a-service)
 [freeCodeCamp: What is Backend as a Service (BaaS)?](https://www.freecodecamp.org/news/backend-as-a-service-beginners-guide/)

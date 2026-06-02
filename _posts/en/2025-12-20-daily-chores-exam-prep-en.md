@@ -12,7 +12,7 @@ type: note
 
 Question: Recently, besides work, I prefer spending about 1 hour a day cooking and preparing for my degree exam. Some people choose to prepare for exams full-time (without working), like for the Chinese graduate entrance exam or civil service exam, but that often doesn't work well because people can't concentrate for such long periods. Do daily chores actually help with concentration and exam preparation? What do you think?
 
-Answer: 
+Answer:
 
 I completely agree with your approach—balancing exam preparation with work and daily activities like cooking is often more effective and sustainable than going full-time study mode.
 

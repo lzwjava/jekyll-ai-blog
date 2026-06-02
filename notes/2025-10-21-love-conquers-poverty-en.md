@@ -18,8 +18,8 @@ And real stories? They're everywhere, proving love doesn't need a fat bank accou
 
 Poverty sucks the resources out of families, no doubt, but it doesn't vacuum-seal the heart. Love shows up in the grit: the extra hug after a bad day, the bedtime story by candlelight, the way folks pull together when bills loom. Money buys ease; love builds endurance. If anything, poor families often teach the rest of us what matters when the frills are gone.
 
-[Impact of Poverty on Parent–Child Relationships](https://pmc.ncbi.nlm.nih.gov/articles/PMC9081330/)  
-[Socioeconomic Status and Intimate Relationships](https://pmc.ncbi.nlm.nih.gov/articles/PMC8179854/)  
-[“It All Starts with Family”: Mechanisms of Intergenerational Poverty](https://www.tandfonline.com/doi/full/10.1080/10875549.2021.2010872)  
-[Chitra and Muthuraja: An Untold Love Story](https://ruralindiaonline.org/article/chitra-and-muthuraja-an-untold-love-story)  
+[Impact of Poverty on Parent–Child Relationships](https://pmc.ncbi.nlm.nih.gov/articles/PMC9081330/)
+[Socioeconomic Status and Intimate Relationships](https://pmc.ncbi.nlm.nih.gov/articles/PMC8179854/)
+[“It All Starts with Family”: Mechanisms of Intergenerational Poverty](https://www.tandfonline.com/doi/full/10.1080/10875549.2021.2010872)
+[Chitra and Muthuraja: An Untold Love Story](https://ruralindiaonline.org/article/chitra-and-muthuraja-an-untold-love-story)
 [Kindness in Poverty Story](https://x.com/fopminui/status/1979443037777309956)

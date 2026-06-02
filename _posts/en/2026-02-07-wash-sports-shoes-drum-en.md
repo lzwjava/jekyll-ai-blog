@@ -12,7 +12,7 @@ type: note
 
 Question: When using a washing machine (specifically a front-loading drum type, not top-loading), should we remove the insoles from sports shoes, and is it better to add some clothes to wash together with them?
 
-Answer: 
+Answer:
 
 **Yes, it's generally a good idea to remove the insoles before washing sports shoes in a front-loading (drum/滚筒) washing machine, and adding some old clothes or towels is usually recommended — but with important caveats for the insoles themselves.**
 
@@ -62,7 +62,7 @@ Here's a clear breakdown based on common advice for safely washing athletic shoe
 
 This approach keeps both your shoes and washing machine in good condition longer, and it's the most common safe practice for front-loaders.
 
-References:  
+References:
 
 - [Whirlpool - How to Wash Shoes in the Washing Machine](https://www.whirlpool.com/blog/washers-and-dryers/how-to-wash-shoes-in-washing-machine.html)
 - [2-10 Blog - How To Wash Shoes & Insoles In A Washing Machine](https://www.2-10.com/blog/how-to-wash-shoes-in-the-washing-machine)

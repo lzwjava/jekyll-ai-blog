@@ -16,7 +16,7 @@ type: note
 以下是所有你提到的组件如何组合成完整的 GPT 模型：
 
 ```
-Input Tokens (IDs) 
+Input Tokens (IDs)
     ↓
 Token Embeddings + Positional Embeddings
     ↓

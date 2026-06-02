@@ -39,7 +39,7 @@ AWS、GCP和Azure能占据巨大市场份额（截至2025年中，AWS全球份�
 
 简而言之，Parse/Firebase这类PaaS/BaaS通过降低开发门槛提升速度，但牺牲了功能深度，使其在独立开发者中"足够流行"却难成霸主。如果你的项目简单或需要实时功能，可从这些平台起步；否则，大型云平台的灵活性更具优势。
 
-[云巨头对比：2024项目中的Firebase、AWS和Azure](https://lucidsoftech.com/blog/comparing-cloud-giants-firebase-aws-and-azure-for-your-2024-projects)  
-[Firebase vs AWS vs Azure - 差异解析](https://blog.back4app.com/firebase-vs-aws-vs-azure/)  
-[PaaS vs IaaS vs SaaS：区别何在？](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)  
+[云巨头对比：2024项目中的Firebase、AWS和Azure](https://lucidsoftech.com/blog/comparing-cloud-giants-firebase-aws-and-azure-for-your-2024-projects)
+[Firebase vs AWS vs Azure - 差异解析](https://blog.back4app.com/firebase-vs-aws-vs-azure/)
+[PaaS vs IaaS vs SaaS：区别何在？](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)
 [AWS、Azure与谷歌云平台全面对比](https://www.datacamp.com/blog/aws-vs-azure-vs-gcp)

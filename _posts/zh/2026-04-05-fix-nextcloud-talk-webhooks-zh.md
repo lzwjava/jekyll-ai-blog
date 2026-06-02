@@ -45,7 +45,7 @@ docker exec -it <nextcloud_container> cat /var/www/html/config/config.php | grep
 }
 ```
 
-> ⚠️ `baseUrl` = Nextcloud **认为自身是**的地址（来自 `overwrite.cli.url`）  
+> ⚠️ `baseUrl` = Nextcloud **认为自身是**的地址（来自 `overwrite.cli.url`）
 > ⚠️ `webhookPublicUrl` = 从 Nextcloud 的角度看，你的机器人**实际能被访问到**的地址
 
 ---

@@ -43,7 +43,7 @@ In \\(\mathbb{R}^3\\), consider two bases:
 
 ## 2. 🔢 Eigenvalues and Diagonalization Questions
 
-These are almost always the most important and multi-step questions. 
+These are almost always the most important and multi-step questions.
 
 ### Exercise 3: Diagonalization and Matrix Powers
 

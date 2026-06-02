@@ -24,7 +24,7 @@ type: note
 ### 企业/严格管控组织中典型情况总结
 
 1. 个人仓库 → PAT 立即生效。
-2. 组织仓库 → 首次尝试使用 PAT 进行 git clone/push/pull 时，你会收到错误信息及类似链接：  
+2. 组织仓库 → 首次尝试使用 PAT 进行 git clone/push/pull 时，你会收到错误信息及类似链接：
    `https://github.com/settings/tokens/XXXX/request-org-access`
 3. 你点击该链接 → 请求该特定令牌访问组织的权限。
 4. 组织所有者/管理员批准（通常需要几秒到几小时）。

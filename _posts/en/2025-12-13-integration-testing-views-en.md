@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about integration testing?
 
-Answer: 
+Answer:
 
 Integration testing, which verifies how multiple components or modules work together (often involving real dependencies like databases or external services), is a standard practice in software development. However, several contrarian or unpopular opinions challenge its value, effectiveness, or necessity compared to unit testing or other approaches. These views often stem from experiences with maintenance overhead, design implications, and return on investment.
 
@@ -27,10 +27,10 @@ These opinions are divisive because mainstream advice (e.g., testing pyramids) e
 
 The debate underscores that no one-size-fits-all approach exists—testing strategy depends on project size, complexity, team, and architecture.
 
-References:  
-- [Integrated Tests Are A Scam by J.B. Rainsberger](https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam)  
-- [Sign of Bad Software Design: Integration Tests (Medium)](https://medium.com/@rayepps/the-most-missed-sign-of-bad-software-design-integration-tests-56093d001fee)  
-- [Reddit: Integrated Tests Are A Scam](https://www.reddit.com/r/SoftwareEngineering/comments/xnr83u/integrated_tests_are_a_scam/)  
-- [Reddit: Should you skip unit tests and do only integration tests?](https://www.reddit.com/r/reactjs/comments/10panfs/should_you_skip_unit_tests_and_do_only/)  
-- [Why Your Product's Probably Mostly Just Integration Tests (And That's Okay)](https://www.reddit.com/r/programming/comments/1ke9sh2/why_your_products_probably_mostly_just/)  
+References:
+- [Integrated Tests Are A Scam by J.B. Rainsberger](https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam)
+- [Sign of Bad Software Design: Integration Tests (Medium)](https://medium.com/@rayepps/the-most-missed-sign-of-bad-software-design-integration-tests-56093d001fee)
+- [Reddit: Integrated Tests Are A Scam](https://www.reddit.com/r/SoftwareEngineering/comments/xnr83u/integrated_tests_are_a_scam/)
+- [Reddit: Should you skip unit tests and do only integration tests?](https://www.reddit.com/r/reactjs/comments/10panfs/should_you_skip_unit_tests_and_do_only/)
+- [Why Your Product's Probably Mostly Just Integration Tests (And That's Okay)](https://www.reddit.com/r/programming/comments/1ke9sh2/why_your_products_probably_mostly_just/)
 - [Unit Testing is Overrated](https://tyrrrz.me/blog/unit-testing-is-overrated)

@@ -11,7 +11,7 @@ type: note
 
 Question: Who are the most inspiring people with paralysis or disabilities who have achieved great things?
 
-Answer: 
+Answer:
 
 Many individuals with paralysis or disabilities have overcome extraordinary challenges to achieve remarkable success and inspire millions worldwide. Here are some of the most influential figures:
 

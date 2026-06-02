@@ -12,7 +12,7 @@ type: note
 
 Question: Why do different AI coding models like Codex use Rust while Claude-Code uses TypeScript, and does the programming language choice make a big difference?
 
-Answer: 
+Answer:
 
 The programming language choice (Rust for one model/system, TypeScript for another) usually has **very little impact** on the final coding ability that users experience when they ask the LLM to write code.
 
@@ -49,6 +49,6 @@ Typical real-world differences people actually notice:
 
 因此，是的 —— “Codex 使用 Rust，Claude-Code 使用 TypeScript” 对于大多数用户来说，主要是一种 **marketing flavor / training-data flavor**，而非底层架构或能力上的根本差异。
 
-References:  
+References:
 
 - None (this is based on general knowledge of LLM training patterns and public model behavior observations up to early 2026)

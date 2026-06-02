@@ -18,8 +18,8 @@ Founded in ancient times with roots tracing back to biblical references, Haifa h
 
 Today, Haifa thrives as an economic powerhouse, home to major tech firms, the University of Haifa, and the world-renowned Bahá'í Gardens—those terraced, UNESCO-listed shrines cascading down the mountainside like a green waterfall. The city buzzes with a laid-back vibe: stroll the vibrant markets, hike Carmel trails, or relax on pebbly beaches. Whether you're drawn to its innovative spirit, spiritual sites, or seaside charm, Haifa offers a moody mosaic of experiences that's equal parts serene and spirited.
 
-For more details:  
-[Haifa - Wikipedia](https://en.wikipedia.org/wiki/Haifa)  
-[Haifa | Israel, Map, History, & Facts - Britannica](https://www.britannica.com/place/Haifa)  
-[History & Overview of Haifa - Jewish Virtual Library](https://www.jewishvirtuallibrary.org/history-and-overview-of-haifa)  
+For more details:
+[Haifa - Wikipedia](https://en.wikipedia.org/wiki/Haifa)
+[Haifa | Israel, Map, History, & Facts - Britannica](https://www.britannica.com/place/Haifa)
+[History & Overview of Haifa - Jewish Virtual Library](https://www.jewishvirtuallibrary.org/history-and-overview-of-haifa)
 [Haifa for every mood: ways to explore Israel's third city - Lonely Planet](https://www.lonelyplanet.com/articles/haifa-every-mood-neighbourhood-guide-israels-third-city)

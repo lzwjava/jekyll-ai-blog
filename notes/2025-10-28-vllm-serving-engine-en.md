@@ -38,7 +38,7 @@ By mid-2024, it had ~20,000 stars and was frequently discussed in AI communities
 
 Today (October 2025), it has over 55,000 stars and supports nearly 100 model architectures, making it a cornerstone for scalable AI deployments.
 
-[arXiv Paper on PagedAttention](https://arxiv.org/abs/2309.06180)  
-[vLLM GitHub Repository](https://github.com/vllm-project/vllm)  
-[vLLM 2024 Retrospective Blog](https://blog.vllm.ai/2025/01/10/vllm-2024-wrapped-2025-vision.html)  
+[arXiv Paper on PagedAttention](https://arxiv.org/abs/2309.06180)
+[vLLM GitHub Repository](https://github.com/vllm-project/vllm)
+[vLLM 2024 Retrospective Blog](https://blog.vllm.ai/2025/01/10/vllm-2024-wrapped-2025-vision.html)
 [PyTorch Integration Announcement](https://pytorch.org/blog/vllm-joins-pytorch/)

@@ -30,7 +30,7 @@ type: note
 3.  **对比**：
     *   这与 **Connectionless** 服务相反（如同寄信或使用 UDP），其中每个数据包独立发送，没有事先建立，且没有顺序或交付的保证。
 
-参考资料：  
+参考资料：
 
 - [Transmission Control Protocol (TCP) - Wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - [Connection-oriented communication - Wikipedia](https://en.wikipedia.org/wiki/Connection-oriented_communication)

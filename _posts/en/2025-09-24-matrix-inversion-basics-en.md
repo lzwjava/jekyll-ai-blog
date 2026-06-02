@@ -19,7 +19,7 @@ Yes, you're on the right track with your analogy! I'll explain matrix inversion 
    - You can't invert zero because there's no number that multiplies with 0 to give 1.
 
 ### 2. **What is Matrix Inversion? (The Matrix Version of 1/n)**
-   - A **matrix** is just a rectangular grid of numbers arranged in rows and columns (e.g., a 2x2 matrix looks like this:  
+   - A **matrix** is just a rectangular grid of numbers arranged in rows and columns (e.g., a 2x2 matrix looks like this:
      \\[
      A = \begin{pmatrix}
      2 & 1 \\
@@ -42,7 +42,7 @@ Yes, you're on the right track with your analogy! I'll explain matrix inversion 
    - So, yes—matrix inversion is exactly like the "1/n" for matrices. It reverses the effect of multiplying by \\( A \\), and it's the matrix equivalent of division.
 
 ### 3. **Is It the Same as Division?**
-   - **Very similar, but not identical**: 
+   - **Very similar, but not identical**:
      - In regular math, "dividing" by \\( n \\) means multiplying by \\( 1/n \\).
      - With matrices, "dividing" by \\( A \\) (when it makes sense) means multiplying by \\( A^{-1} \\). For example, to solve \\( A \mathbf{x} = \mathbf{b} \\) for \\( \mathbf{x} \\) (a system of equations), you multiply both sides by \\( A^{-1} \\): \\( \mathbf{x} = A^{-1} \mathbf{b} \\). That's like dividing both sides by \\( A \\).
    - But matrices don't commute (order matters: \\( A \times B \\) ≠ \\( B \times A \\) in general), so you have to be careful with left vs. right multiplication.

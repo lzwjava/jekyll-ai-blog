@@ -43,8 +43,8 @@ So the realistic summary is:
 | Status / prestige games      | Strongly competitive       | Very high                  |
 | Online social & political discourse | Often zero-sum & hostile | Extremely high             |
 
-**Bottom line (2026 view)**  
-Modern society is **more collaborative than ever** in the actual production of goods, services, knowledge, and technology.  
+**Bottom line (2026 view)**
+Modern society is **more collaborative than ever** in the actual production of goods, services, knowledge, and technology.
 But it **feels** more hateful/competitive than ever because:
 
 - the parts that are competitive are amplified 24/7 on high-dopamine platforms
@@ -58,6 +58,6 @@ So both statements are true, just at different zoom levels:
 
 Most people experience the second view much more vividly than the first — which is why the “society is too hateful / competitive” feeling is so widespread even though the underlying machinery is more collaborative than at any previous point in history.
 
-References:  
+References:
 
 - None required for this reasoning-based answer

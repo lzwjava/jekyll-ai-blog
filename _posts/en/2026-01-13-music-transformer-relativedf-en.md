@@ -12,7 +12,7 @@ type: note
 
 Question: What is Anna Huang's main idea in this video (https://www.youtube.com/watch?v=5vcj8kSwBCY), and what does she say?
 
-Answer: 
+Answer:
 
 The video is a lecture from **Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 14 – Transformers and Self-Attention**. It is co-presented by Christopher Manning, Ashish Vaswani, and **Cheng-Zhi Anna Huang** (from Google/Magenta project).
 
@@ -39,7 +39,7 @@ Key points she discusses:
 
 In summary, Anna Huang argues that transformers, when augmented with relative attention, are particularly well-suited for generative music tasks because they can capture music's inherent self-similar, hierarchical, and long-distance repetitive structures more effectively than previous approaches.
 
-References:  
+References:
 
 - [Stanford CS224N Lecture 14 video](https://www.youtube.com/watch?v=5vcj8kSwBCY)
 - [Music Transformer paper (Huang et al., 2018)](https://arxiv.org/abs/1809.04281) (her main work referenced in the talk)

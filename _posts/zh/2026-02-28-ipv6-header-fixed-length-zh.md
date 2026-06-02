@@ -11,7 +11,7 @@ type: note
 
 问题：What is the length of the basic header of an IPv6 datagram?
 
-答案： 
+答案：
 
 正确答案是 **C. 40B**。
 
@@ -47,6 +47,6 @@ IPv6 base header 的结构（总计 40 bytes）：
 
 正确选项：**C**
 
-参考文献：  
+参考文献：
 
 - 无（标准网络知识 / RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification）

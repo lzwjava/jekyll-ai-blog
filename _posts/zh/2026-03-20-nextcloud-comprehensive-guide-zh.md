@@ -102,7 +102,7 @@ Nextcloud 支持几乎**任何文件类型**的存储和同步——上传无硬
   - 默认启用：图像、文本文件。
   - 可选（为性能/安全在配置中启用）：PDF、SVG、Office 文档（通过 preview providers）、视频（需要 ffmpeg）、音频波形。
   - 通过社区应用或内置工具支持多种格式（例如 LibreOffice 用于文档预览）。
-- **编辑/协作**： 
+- **编辑/协作**：
   - Text/Markdown → 内置 Nextcloud Text。
   - Office 文档 → 集成 OnlyOffice 或 Collabora Online（实时协同编辑）。
   - 较新功能（2025–2026 年）：内置文档转换（PDF ↔ DOCX 等）、Text 中的 LaTeX 支持、高级 XLSX 表格样式。
@@ -112,7 +112,7 @@ Nextcloud 支持几乎**任何文件类型**的存储和同步——上传无硬
 
 从小规模开始（仅 Files + 客户端），然后根据需要扩展应用。社区（help.nextcloud.com、GitHub）和 docs.nextcloud.com 是优秀资源。
 
-参考资料：  
+参考资料：
 
 - [Nextcloud Official Documentation](https://docs.nextcloud.com/)
 - [Nextcloud Download & Clients](https://nextcloud.com/install/)

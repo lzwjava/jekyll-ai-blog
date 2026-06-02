@@ -121,7 +121,7 @@ end
 
 ```
 组合逻辑：                    时序逻辑：
-                        
+
 a ──┐                        a ──┐
     ├─[ADDER]── sum              ├─[ADDER]──[D flip-flop]── sum
 b ──┘                        b ──┘              ↑

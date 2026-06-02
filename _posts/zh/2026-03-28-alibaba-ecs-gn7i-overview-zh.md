@@ -67,7 +67,7 @@ NVIDIA A10 GPU 擅长 Inference 和 Graphics，而非重度 Training (对于训�
 
 由于细节可能因地域而异并随更新而变化，请务必通过 Alibaba Cloud ECS 控制台或官方文档验证目标地域的最新规格、可用性和准确价格。
 
-**References:**  
-- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)  
-- [Alibaba Cloud ECS instance type details for gn7i](https://www.alibabacloud.com/help/en/ecs/user-guide/overview-of-instance-families)  
+**References:**
+- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)
+- [Alibaba Cloud ECS instance type details for gn7i](https://www.alibabacloud.com/help/en/ecs/user-guide/overview-of-instance-families)
 - 第三方规格参考: Cloud Mercato 和 SpareCores 关于 ecs.gn7i-c32g1.32xlarge 的列表

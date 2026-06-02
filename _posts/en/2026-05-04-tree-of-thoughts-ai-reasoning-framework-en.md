@@ -92,9 +92,9 @@ Typical components include:
   → tracks reasoning paths
 
 This matches common ToT architecture:
-- nodes = thoughts  
-- edges = reasoning steps  
-- search = exploration strategy citeturn0search9  
+- nodes = thoughts
+- edges = reasoning steps
+- search = exploration strategy citeturn0search9
 
 ---
 
@@ -108,7 +108,7 @@ This matches common ToT architecture:
 
 👉 You can think of it as:
 
-> Chain-of-Thought = greedy  
+> Chain-of-Thought = greedy
 > Tree-of-Thought = search algorithm
 
 ---
@@ -150,14 +150,14 @@ Tree-of-Thought = early form of:
 Not all GitHub repos on this topic are equal.
 
 - The **official implementation** is from Princeton:
-  → `princeton-nlp/tree-of-thought-llm` citeturn0search2  
+  → `princeton-nlp/tree-of-thought-llm` citeturn0search2
 - Many others (including smaller repos like Cerynitius) are:
   - experiments
   - simplified versions
   - sometimes incomplete
 
 So treat this repo as:
-> learning / experimentation code  
+> learning / experimentation code
 not necessarily production-grade
 
 ---

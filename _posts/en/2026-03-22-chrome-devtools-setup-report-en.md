@@ -15,8 +15,8 @@ Here's the full report, Boss.
 
 ## 🦞 Chrome DevTools Protocol (CDP) Setup Report
 
-**Date:** 2026-03-22 03:36–03:42 GMT+8  
-**Host:** `to` — Linux 6.8.0-106-generic (x64)  
+**Date:** 2026-03-22 03:36–03:42 GMT+8
+**Host:** `to` — Linux 6.8.0-106-generic (x64)
 **OpenClaw:** 2026.3.13 (61d171a)
 
 ---

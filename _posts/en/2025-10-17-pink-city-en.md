@@ -24,7 +24,7 @@ Jaipur's cultural tapestry is woven with royal legacies, including grand palaces
 
 The city pulses with festivals like Diwali and Teej, traditional folk music, and vibrant street food scenes. Whether exploring its forts by day or savoring kebabs at night, Jaipur offers an immersive dive into India's regal past and colorful present.
 
-[Jaipur | Rajasthan, Princely State, History, Map, Population, & Facts](https://www.britannica.com/place/Jaipur-India)  
-[The story behind why Jaipur is famously known as 'The Pink City'](https://www.insightvacations.com/blog/story-jaipur-pink-city/)  
-[Places to Visit, Sightseeing, Trip to Jaipur - Rajasthan Tourism](https://www.tourism.rajasthan.gov.in/jaipur.html)  
+[Jaipur | Rajasthan, Princely State, History, Map, Population, & Facts](https://www.britannica.com/place/Jaipur-India)
+[The story behind why Jaipur is famously known as 'The Pink City'](https://www.insightvacations.com/blog/story-jaipur-pink-city/)
+[Places to Visit, Sightseeing, Trip to Jaipur - Rajasthan Tourism](https://www.tourism.rajasthan.gov.in/jaipur.html)
 [Jaipur | India Travel Guide - Rough Guides](https://www.roughguides.com/india/rajasthan/jaipur-around/)

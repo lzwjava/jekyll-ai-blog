@@ -46,10 +46,10 @@ Growth hasn't been flawless—regulatory scrutiny (e.g., UK license delays over 
 
 In short, Revolut grew "so big" by blending user-centric innovation, relentless scaling, and a super-app vision that redefines banking as simple and global. It's not just a bank—it's a daily financial OS, proving European fintech can rival (and surpass) Silicon Valley.
 
-**References**  
-- [Revolut About Page](https://www.revolut.com/about/)  
-- [From Startup to Unicorn: The Rise of Revolut](https://www.fintechfutures.com/fintech-start-ups/from-start-up-to-unicorn-the-rise-of-revolut)  
-- [Revolut's 2024 Results](https://www.revolut.com/news/record_growth_and_diverse_product_offering_drive_revolut_to_1_4bn_profit_in_2024/)  
-- [PYMNTS: Revolut's $1B Profit](https://www.pymnts.com/news/digital-banking/2025/revolut-delivers-first-1-billion-profit-as-subscription-wealth-units-boom)  
-- [Deep Dive: Revolut - One App to Rule Them All](https://www.fintechwrapup.com/p/deep-dive-revolut-one-app-to-rule)  
+**References**
+- [Revolut About Page](https://www.revolut.com/about/)
+- [From Startup to Unicorn: The Rise of Revolut](https://www.fintechfutures.com/fintech-start-ups/from-start-up-to-unicorn-the-rise-of-revolut)
+- [Revolut's 2024 Results](https://www.revolut.com/news/record_growth_and_diverse_product_offering_drive_revolut_to_1_4bn_profit_in_2024/)
+- [PYMNTS: Revolut's $1B Profit](https://www.pymnts.com/news/digital-banking/2025/revolut-delivers-first-1-billion-profit-as-subscription-wealth-units-boom)
+- [Deep Dive: Revolut - One App to Rule Them All](https://www.fintechwrapup.com/p/deep-dive-revolut-one-app-to-rule)
 - [X Post on Revolut's European Success](https://x.com/SebJohnsonUK/status/1988982959915897214)

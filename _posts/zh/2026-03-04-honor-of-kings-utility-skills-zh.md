@@ -11,7 +11,7 @@ type: note
 
 问题：在 Honor of Kings (King of Glory) 中，英雄拥有的像 Recall 和 Recovery Sprint 这样的 assistant/utility 技能是什么，这些是非进攻性技能，不用于伤害敌人？
 
-回答：  
+回答：
 在 Honor of Kings（也称为 King of Glory 或 王者荣耀）中，**Recall** 和 **Recovery** 是**所有英雄**的默认游戏内技能，无法更改。这些是用于持续作战和地图轮换的核心实用工具：
 
 - **Recall**：引导约 7 秒返回基地（水晶/泉水），完全恢复 HP 和 mana。受到伤害可中断。用于安全撤退、补给或防守。
@@ -33,7 +33,7 @@ type: note
 - **其他实用示例**（英雄技能，非通用）：护盾/治疗（例如 Cai Yan 治疗、Zhang Fei 护盾）、位移（众多英雄），但问题聚焦于类似 Recall/Recovery 的（通用技能）。
 - **策略**：辅助英雄优先选择 Sprint/Flash 以提升机动性；脆皮英雄针对 CC/爆发选择 Purify/Heal。所有技能均支持“辅助”玩法而不攻击敌人。
 
-参考资料：  
+参考资料：
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK - Common Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [王者荣耀局内技能](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

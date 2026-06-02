@@ -54,4 +54,3 @@ RUN chmod +x /app/scripts/*.py
 
 # Command to run (if needed, adjust as necessary)
 # CMD ["python3", "/app/your_script.py"]
-

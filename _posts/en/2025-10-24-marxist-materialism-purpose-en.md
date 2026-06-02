@@ -27,11 +27,11 @@ In this view, humans are not passive observers but active "species-beings" who r
 #### 2. Life's Purpose in Marxist Materialism
 Marx didn't write a treatise on "the meaning of life" like existentialists; he critiqued idealism and focused on practical philosophy. From texts like *The German Ideology* (1845) and *Capital* (1867), purpose arises from:
 - **Labor as Human Essence**: Humans are defined by productive activity. In *Theses on Feuerbach* (1845), Marx says, "The essence of man is no abstraction inherent in each single individual. In its reality it is the ensemble of social relations." Life's purpose is to consciously shape the world through work, overcoming alienation (the feeling of disconnection from one's labor under capitalism, where workers produce for bosses' profit, not their own fulfillment).
-  
+
 - **Collective Emancipation**: Individual purpose ties to the species' advancement. Under capitalism, life feels purposeless because exploitation stifles potential (nihilism creeps in via alienation or consumerism as false hedonism). Marxism's "purpose" is revolutionary: to abolish classes, end private ownership of production, and create a society where "from each according to his ability, to each according to his needs" (from *Critique of the Gotha Programme*, 1875) allows free development. This is optimistic—history shows progress (e.g., feudalism to capitalism improved productivity), so communism enables true human flourishing: creative work, community, and self-realization without domination.
 
 - **Avoiding Nihilism**: Marxism rejects meaninglessness by affirming that humans make history. Even suffering (e.g., class struggle) has dialectical value—it drives progress. Purpose isn't "found" in despair but built through action, like unions or revolutions.
-  
+
 - **Avoiding Hedonism**: Pleasure isn't the endgame; it's a byproduct of liberated labor. Marx mocked bourgeois hedonism as shallow escapism. True fulfillment comes from contributing to a just society, where work is joyful and social (e.g., in communist visions, people hunt in the morning, fish in the afternoon, and philosophize at night without being fixed in roles).
 
 In short: Life's purpose is the conscious, collective transformation of the material world to eliminate exploitation, allowing individuals to thrive as part of humanity's ongoing development. It's teleological (goal-oriented) toward communism but grounded in real conditions, not utopia.

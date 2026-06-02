@@ -21,7 +21,7 @@ type: note
 #### 2. **JDWP（Java 调试线协议）**
    - JDWP 是允许调试器通过网络或本地管道与 JVM 通信的核心协议。它是 Java 远程调试的基础。
    - 启用该协议需使用 JVM 选项 `-agentlib:jdwp=...`，该选项会在启动时将 JDWP 代理加载到 JVM 中。
-   - 完整示例：  
+   - 完整示例：
      ```
      java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:7777 -jar your-app.jar
      ```
@@ -54,5 +54,5 @@ type: note
 
 更多详细信息，请参阅 OpenJDK 官方调试文档。
 
-[Java 使用 JDWP 进行调试](https://docs.oracle.com/en/java/javase/21/docs/specs/jdwp-transport.html)  
+[Java 使用 JDWP 进行调试](https://docs.oracle.com/en/java/javase/21/docs/specs/jdwp-transport.html)
 [启用远程调试功能](https://www.baeldung.com/java-debugging-with-intellij)

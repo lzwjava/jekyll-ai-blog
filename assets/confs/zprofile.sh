@@ -34,7 +34,7 @@ function stop_proxy {
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=		
+		export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"
@@ -159,7 +159,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break
@@ -175,4 +175,3 @@ if [ -f '/Users/lzwjava/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Use
 if [ -f '/Users/lzwjava/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/google_credentials_service_account.json"
-

@@ -12,7 +12,7 @@ type: note
 
 Question: Who are the most famous open source contributors? Please give me the top 30.
 
-Answer: 
+Answer:
 
 There is no single official ranking of the "top 30" most famous open source contributors, as fame and influence depend on criteria like historical impact, number of contributors enabled, widespread adoption of projects, commits, stars on GitHub, or ecosystem influence.
 
@@ -55,7 +55,7 @@ This list blends **all-time legends** (who created entire ecosystems) with **hig
 
 Many thousands of others have made massive contributions (especially to Linux kernel, Apache, Mozilla, etc.), but these names appear most frequently in "influential" and "famous" discussions.
 
-References:  
+References:
 
 - [https://dev.to/firecampdev/top-11-open-source-innovators-who-shaped-the-developer-world-as-we-live-today-j0b](https://dev.to/firecampdev/top-11-open-source-innovators-who-shaped-the-developer-world-as-we-live-today-j0b)
 - [https://www.signalfire.com/blog/top-100-open-source-engineers](https://www.signalfire.com/blog/top-100-open-source-engineers)

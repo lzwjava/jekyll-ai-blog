@@ -14,6 +14,6 @@ Yes, that's correct—for FPS (Faster Payment System) transfers in Hong Kong, yo
 
 Just ensure both you and the recipient have FPS enabled with a participating bank or stored-value facility (SVF), and the proxy is registered correctly.
 
-[HKMA FPS Overview](https://www.hkma.gov.hk/eng/smart-consumers/faster-payment-system/)  
-[HSBC FPS Guide](https://www.hsbc.com.hk/campaigns/fps/)  
+[HKMA FPS Overview](https://www.hkma.gov.hk/eng/smart-consumers/faster-payment-system/)
+[HSBC FPS Guide](https://www.hsbc.com.hk/campaigns/fps/)
 [Hang Seng FPS Info](https://www.hangseng.com/en-hk/personal/banking/fps/)

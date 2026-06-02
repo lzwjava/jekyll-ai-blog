@@ -14,7 +14,7 @@ You've captured something really profound about how LLMs change the learning exp
 
 With a textbook or documentation, you get one explanation presented in one way. If that angle doesn't click for you, you're kind of stuck. But with an LLM, you can:
 
-- Ask "why does this variable need to be declared here?" 
+- Ask "why does this variable need to be declared here?"
 - Then "what would break if I moved it?"
 - Then "explain the memory implications"
 - Then "show me a visual analogy for what's happening"

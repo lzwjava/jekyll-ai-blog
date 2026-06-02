@@ -22,7 +22,7 @@ Based on your preferences for scenic swimming pools (with relaxing water feature
 
 These options emphasize relaxation and convenience—DoubleTree for spot-on location, Hilton for spa vibes, and Narada for immersive nature sounds. Prices vary by season (check current rates), but all are 4-5 star. If you need bookings or more details, let me know!
 
-**References:**  
-[DoubleTree by Hilton Guangzhou - Science City](https://www.hilton.com/en/hotels/cansrdi-doubletree-guangzhou-science-city/)  
-[Hilton Guangzhou Science City](https://www.hilton.com/en/hotels/cannihi-hilton-guangzhou-science-city/)  
+**References:**
+[DoubleTree by Hilton Guangzhou - Science City](https://www.hilton.com/en/hotels/cansrdi-doubletree-guangzhou-science-city/)
+[Hilton Guangzhou Science City](https://www.hilton.com/en/hotels/cannihi-hilton-guangzhou-science-city/)
 [Narada Guangzhou Huangpu](https://www.trip.com/hotels/guangzhou-hotel-detail-71557952/narada-hotel-huangpu/)

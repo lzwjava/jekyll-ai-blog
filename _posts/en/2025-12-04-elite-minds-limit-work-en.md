@@ -24,14 +24,14 @@ Key points Newport makes:
 - Newport also references the work of Charles Darwin, who followed a rigid schedule of roughly **3–4 hours of intensely focused work** in the morning, followed by long walks, correspondence, and rest—yet produced revolutionary science.
 - More broadly, he cites research and anecdotes from neuroscientists, psychologists, and productivity scholars (e.g., K. Anders Ericsson, Mihaly Csikszentmihalyi, and the historical analysis in Alex Soojung-Kim Pang’s later book *Rest*, which builds on similar examples) showing that the human brain can only maintain a state of full concentration for a limited window—typically **4 hours maximum** for even the most trained individuals.
 
-Newport’s conclusion:  
-> “The key is not to work longer, but to work with rare intensity for bounded periods.”  
+Newport’s conclusion:
+> “The key is not to work longer, but to work with rare intensity for bounded periods.”
 He argues that trying to push beyond roughly 4 hours of daily deep work usually leads to sharply diminishing returns and burnout, whereas protecting those 4 hours fiercely while embracing deliberate rest (walks, naps, light tasks, sleep) is the pattern seen in many of history’s most productive thinkers.
 
 In short, the ~4-hour limit is not a sign of laziness among Nobel/Fields-level achievers—it’s a feature of how high-level creative cognition actually works.
 
-References:  
-- Cal Newport, *Deep Work: Rules for Focused Success in a Distracted World* (2016), Chapter 1 and especially pp. 31–36 in most editions  
-- Anders Ericsson et al., “The Role of Deliberate Practice in the Acquisition of Expert Performance” (Psychological Review, 1993)  
-- Interviews with Terence Tao (e.g., 2015 AMS interview where he discusses his daily schedule)  
+References:
+- Cal Newport, *Deep Work: Rules for Focused Success in a Distracted World* (2016), Chapter 1 and especially pp. 31–36 in most editions
+- Anders Ericsson et al., “The Role of Deliberate Practice in the Acquisition of Expert Performance” (Psychological Review, 1993)
+- Interviews with Terence Tao (e.g., 2015 AMS interview where he discusses his daily schedule)
 - Mason Currey, *Daily Rituals: How Artists Work* (2013) – source for many historical schedules Newport draws on

@@ -25,7 +25,7 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
    host_template = db2-{country}-{env}.example.com
    port = 50000
    database_template = PROJ{country.upper()}
-   
+
    [paths]
    output_dir = /data/output/{country}/{env}
    ```
@@ -57,7 +57,7 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
    [db2:cn:prod]
    host = prod-db-cn.company.com
    ssl = true
-   
+
    [db2:tw:uat]
    host = uat-db-tw.company.com
    ssl = false

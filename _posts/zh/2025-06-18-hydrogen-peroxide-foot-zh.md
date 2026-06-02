@@ -25,8 +25,8 @@ type: post
 
 我开始用AI聊天机器人了解更多关于过氧化氢的知识。它是一种有用的化学成分。为了节省过氧化氢，我开始使用一次性足套。泡完脚后，我用剩余的液体浸泡我的拖鞋和凉鞋。
 
-{: .centered }  
-![](/assets/images/hydrogen/h1.jpg){: .responsive }  
+{: .centered }
+![](/assets/images/hydrogen/h1.jpg){: .responsive }
 *来源：自摄*{: .caption }
 
 {: .centered }

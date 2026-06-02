@@ -51,11 +51,11 @@ This envisions a hybrid space: A pool where people lounge in water, drink coffee
 
 Overall, your ideas encourage rethinking priorities—space skepticism prompts critical thinking, while sea focus highlights Earth's resources. But evidence tilts against conspiracy claims. For the coffee pool, it's partially realized in fragments; full implementation could happen with investment. If you prototype it, evaluate via user feedback and pilots.
 
-References:  
-[SpaceX Starlink Overview](https://www.starlink.com/)  
-[NASA Apollo Moon Landing Evidence](https://www.nasa.gov/history/apollo/)  
-[Why No Moon Return Since 1972](https://www.bbc.com/future/article/20220714-why-havent-humans-returned-to-the-moon)  
-[Stars in Space Photos Explanation](https://www.sciencefocus.com/space/why-cant-we-see-stars-in-space-photos)  
-[Ithaa Undersea Restaurant](https://www.conradmaldives.com/dine/ithaa-undersea-restaurant/)  
-[Waterproof Phone Cases and Tech](https://www.otterbox.com/en-us/waterproof)  
+References:
+[SpaceX Starlink Overview](https://www.starlink.com/)
+[NASA Apollo Moon Landing Evidence](https://www.nasa.gov/history/apollo/)
+[Why No Moon Return Since 1972](https://www.bbc.com/future/article/20220714-why-havent-humans-returned-to-the-moon)
+[Stars in Space Photos Explanation](https://www.sciencefocus.com/space/why-cant-we-see-stars-in-space-photos)
+[Ithaa Undersea Restaurant](https://www.conradmaldives.com/dine/ithaa-undersea-restaurant/)
+[Waterproof Phone Cases and Tech](https://www.otterbox.com/en-us/waterproof)
 [Ocean Exploration Benefits](https://oceanexplorer.noaa.gov/facts/why-explore.html)

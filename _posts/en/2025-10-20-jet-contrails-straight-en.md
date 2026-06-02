@@ -15,7 +15,7 @@ type: note
 The provided text describes why the visible white trails (often called contrails or vapor trails) from passenger jet engines appear straight, likening them to the focused flame from a welding torch or a windproof lighter. Here's a clear English breakdown of the key points:
 
 - **Observation**: When water vapor emerges from a jet engine (if conditions allow it to be visible), it shoots out in a straight line, not diffuse or wavy.
-  
+
 - **Why? Engine Mechanics**: Airplanes propel themselves using jet engines that burn fuel. Incoming air from the front intake is rapidly heated by combustion, causing it to expand dramatically. This hot, expanded gas is then expelled at high speed from the rear exhaust, creating thrust (Newton's third law: action-reaction force) to push the plane forward. The process inside the engine is:
   1. Air enters and gets compressed by the compressor blades into high-pressure air.
   2. This mixes thoroughly with fuel sprayed into the combustion chamber.

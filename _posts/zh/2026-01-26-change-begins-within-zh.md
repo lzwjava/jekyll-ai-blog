@@ -12,19 +12,19 @@ type: note
 
 Question: 关于年轻时想改变世界，接着在越来越小的范围内失败（世界 → 周围 → 家庭），最后意识到应该先改变自己——而且如果能回到过去，从改变自己开始可能会影响家庭甚至更远的地方，这段话的原意或来源是什么？
 
-Answer: 
+Answer:
 
 这是一段关于个人成长、谦逊、成熟以及生命中影响力的现实顺序的著名感悟。
 
 英文中最常见的完整版本如下：
 
-> When I was young and free and my imagination had no limits, I dreamed of changing the world.  
-> As I grew older and wiser, I discovered the world would not change, so I shortened my sights somewhat and decided to change only my country.  
-> But it, too, seemed immovable.  
-> As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.  
-> And now as I lie on my deathbed, I suddenly realize:  
-> **If I had only changed myself first**, then by example I would have changed my family.  
-> From their inspiration and encouragement, I would then have been able to better my country,  
+> When I was young and free and my imagination had no limits, I dreamed of changing the world.
+> As I grew older and wiser, I discovered the world would not change, so I shortened my sights somewhat and decided to change only my country.
+> But it, too, seemed immovable.
+> As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.
+> And now as I lie on my deathbed, I suddenly realize:
+> **If I had only changed myself first**, then by example I would have changed my family.
+> From their inspiration and encouragement, I would then have been able to better my country,
 > and who knows, I may have even changed the world.
 
 关于这段话的来源有几种流行的说法：
@@ -36,12 +36,12 @@ Answer:
 
 你看到的中文版本是在中文社交圈流传最广的缩减版：
 
-> 年轻时我想改变世界，后来发现不行；  
-> 然后我想改变周围的人，还是不行；  
-> 再后来我想改变我的家人，仍然失败；  
-> 最后我决定先改变自己。  
-> 如果能回到过去，我会先从改变自己开始——  
-> 也许那样我就有机会改变家庭，  
+> 年轻时我想改变世界，后来发现不行；
+> 然后我想改变周围的人，还是不行；
+> 再后来我想改变我的家人，仍然失败；
+> 最后我决定先改变自己。
+> 如果能回到过去，我会先从改变自己开始——
+> 也许那样我就有机会改变家庭，
 > 进而影响周围的人，甚至改变世界。
 
 **核心信息 / 启示**
@@ -56,6 +56,6 @@ Answer:
 
 简而言之：**改变始于镜中之人 (Change starts with the person in the mirror)。** 几乎所有关于自我提升、领导力甚至社会变革的严肃哲学最终都会得出大致相同的结论。
 
-References:  
+References:
 
 - 无（这是一段被广泛转述的传统/反思性名言，没有单一可考证的原始作者或出版物）

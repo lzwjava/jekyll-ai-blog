@@ -11,7 +11,7 @@ type: note
 
 **Question:** What is WRB Tech in Standard Chartered Bank?
 
-**Answer:** 
+**Answer:**
 
 **WRB Tech** at Standard Chartered Bank refers to the **Technology** function or team dedicated to supporting the bank's **Wealth and Retail Banking (WRB)** business segment.
 
@@ -28,7 +28,7 @@ This includes:
 
 It operates as part of the bank's overall Technology team but is aligned specifically to enable and transform the Wealth and Retail Banking segment through technology.
 
-**References:**  
+**References:**
 
 - [Standard Chartered Careers - Technology and Operations](https://www.sc.com/en/global-careers/business-areas/technology-and-operations)
 - [Standard Chartered Job Posting - Head, Domain Tech Lead, WRB Tech](https://jobs.standardchartered.com/job/Head,-Domain-Tech-Lead-Wealth-Digital-Products-&-Proposition,-WRB-Tech/49969-en_GB)

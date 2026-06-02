@@ -46,8 +46,8 @@ Shenzhen produces 90% of the world's consumer electronics— these spots showcas
 
 For a full itinerary: Start with history in the morning, culture/food midday, and end with evening creativity/economy views. Download the "Shenzhen Metro" app and WeChat for payments. Weather in November is mild—pack layers.
 
-References:  
-[Things to Do in Shenzhen](https://www.asiaodysseytravel.com/guangzhou/things-to-do-in-shenzhen.html)  
-[Shenzhen Travel Guide](https://www.chinadiscovery.com/guangdong/shenzhen.html)  
-[Local Markets & Street Food in Shenzhen](https://www.tripmall.in/news/local-markets-street-food-spots-in-shenzhen)  
+References:
+[Things to Do in Shenzhen](https://www.asiaodysseytravel.com/guangzhou/things-to-do-in-shenzhen.html)
+[Shenzhen Travel Guide](https://www.chinadiscovery.com/guangdong/shenzhen.html)
+[Local Markets & Street Food in Shenzhen](https://www.tripmall.in/news/local-markets-street-food-spots-in-shenzhen)
 [Ultimate Shenzhen Travel Guide](https://www.you.co/sg/blog/things-to-do-in-shenzhen/)

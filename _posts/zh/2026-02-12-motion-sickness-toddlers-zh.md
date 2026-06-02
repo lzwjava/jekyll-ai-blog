@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么 1 岁的孩子在乘车时容易呕吐，即使行程不足一小时？
 
-Answer: 
+Answer:
 
 是的，**1 岁**的孩子在坐车时出现 **Motion Sickness**（晕车/晕动症）并呕吐是完全可能且不罕见的——即使是不足一小时的短途行程。虽然大多数资料显示，与 2-12 岁（最易发阶段）的儿童相比，2 岁以下的婴幼儿出现 Motion Sickness 的概率**较低**，但部分宝宝（包括 1 岁幼儿）确实会表现出这种症状，尤其是当他们非常敏感时。
 
@@ -42,7 +42,7 @@ Motion Sickness 发生在当大脑接收到**冲突信号**时：
 
 如果呕吐几乎每次都会发生——即使是非常短的项目——或者伴有其他令人担忧的症状（如持续哭闹、异常行为或生病迹象），请咨询小儿科医生，以排除其他原因（如 Reflux、耳朵问题或过敏）。在严重情况下，医生可能会建议进行特定评估，但大多数药物（如 Dimenhydrinate/Dramamine）不建议给 2 岁以下的幼儿服用。
 
-References:  
+References:
 
 - [Mayo Clinic - Car sickness in children](https://www.mayoclinic.org/healthy-lifestyle/childrens-health/expert-answers/car-sickness-in-children/faq-20057876)
 - [Ask Dr Sears - Infant Carsickness and How to Avoid It](https://www.askdrsears.com/news/sears-family-blog/carsick-infant)

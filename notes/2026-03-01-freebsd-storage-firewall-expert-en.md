@@ -11,7 +11,7 @@ type: note
 
 Question: What are TrueNAS, OPNsense, and Allan Jude?
 
-Answer: 
+Answer:
 
 **TrueNAS** is a popular open-source storage operating system (originally known as FreeNAS) developed by iXsystems. It is designed primarily for **network-attached storage (NAS)** purposes and is built around the powerful **OpenZFS** filesystem, which provides excellent data integrity, self-healing capabilities, snapshots, replication, and RAID-like protection (RAID-Z). TrueNAS allows users to store, share, and protect data using protocols like SMB, NFS, iSCSI, and more. It also supports virtualization (VMs and containers), making it suitable for home labs, media servers, backups, and even enterprise environments. There are free community editions (TrueNAS CORE based on FreeBSD, and TrueNAS SCALE based on Linux) and paid enterprise versions with commercial support and hardware appliances.
 
@@ -21,7 +21,7 @@ Answer:
 
 These three are closely connected to **FreeBSD** — TrueNAS and OPNsense are both built on FreeBSD, and Allan Jude is a key contributor and advocate in that community. That's likely why fans of FreeBSD often appreciate all three together.
 
-References:  
+References:
 
 - [TrueNAS official site](https://www.truenas.com/)
 - [TrueNAS Wikipedia](https://en.wikipedia.org/wiki/TrueNAS)

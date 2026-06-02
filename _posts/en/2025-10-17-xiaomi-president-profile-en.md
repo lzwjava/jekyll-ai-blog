@@ -32,8 +32,8 @@ Regarding the anecdote about Lu failing 4 times before saving Redmi, extensive s
 
 Lu is often called Xiaomi's "No. 2" after founder Lei Jun, praised for his consumer-focused, aggressive style.
 
-**References:**  
-- [Lu Weibing: The Visionary Leader Behind Xiaomi’s Global Success](https://xiaomiforall.com/lu-weibing-2025/)  
-- [Lu Weibing | Management - Investor Relations | Xiaomi Corporation](https://ir.mi.com/management/lu-weibing)  
-- [XIAOMI's new No.2 character: why did Lu Weibing have the last laugh?](https://news.futunn.com/en/post/22848724/xiaomi-s-new-no-2-character-why-did-lu-weibing)  
+**References:**
+- [Lu Weibing: The Visionary Leader Behind Xiaomi’s Global Success](https://xiaomiforall.com/lu-weibing-2025/)
+- [Lu Weibing | Management - Investor Relations | Xiaomi Corporation](https://ir.mi.com/management/lu-weibing)
+- [XIAOMI's new No.2 character: why did Lu Weibing have the last laugh?](https://news.futunn.com/en/post/22848724/xiaomi-s-new-no-2-character-why-did-lu-weibing)
 - [Weibing Lu, Xiaomi Corp: Profile and Biography](https://www.bloomberg.com/profile/person/20918484)

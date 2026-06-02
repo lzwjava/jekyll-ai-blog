@@ -96,7 +96,7 @@ AI tools lower the **individual** cost of doing upgrade work — but the **organ
 Think of it this way:
 
 > Before AI: Upgrading a legacy system was so expensive that the ROI rarely justified it.
-> 
+>
 > After AI: The cost drops enough that the ROI calculation starts flipping — upgrades that were previously "too risky and expensive" become "actually feasible this quarter."
 
 This is why AI coding tools are arguably **more valuable for legacy modernization than for greenfield development**. Greenfield is already fast. Legacy upgrades were the bottleneck — and that's exactly where AI has the most room to help.

@@ -46,7 +46,7 @@ Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting wh
 
 #### Tech Stack
 **Hardware**:
-1. **Raspberry Pi**: 
+1. **Raspberry Pi**:
    - **Raspberry Pi Zero 2 W** ($15, compact, Wi-Fi enabled) or **Raspberry Pi 4** ($35+, more powerful).
 2. **Camera**:
    - **Raspberry Pi Camera Module v2** ($15, 8MP) or a USB webcam.

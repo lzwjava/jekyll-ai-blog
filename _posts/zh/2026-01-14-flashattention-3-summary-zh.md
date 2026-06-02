@@ -12,7 +12,7 @@ type: note
 
 Question: 链接为 https://www.youtube.com/watch?v=_B6ZbRbxiMY 的 YouTube 视频讲了什么？
 
-Answer: 
+Answer:
 
 该视频是由 Accel 频道于 2024 年 10 月 3 日上传的名为 **"CUDA Mode Keynote | Tri Dao | Together.ai"** 的技术主题演讲。
 

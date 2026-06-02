@@ -47,8 +47,8 @@ type: note
 
 如果这与您的具体设置不完全匹配（例如，特定的哪吒车型或适配器细节），请提供更多信息以获得量身定制的解释！
 
-[哪吒V用户手册](https://www.netaauto.co/resource/upload/User%27s%2520Manual%2520of%2520NETA%2520V.pdf)  
-[哪吒V官方规格](https://www.neta.co.th/en/product/NetaV)  
-[哪吒V在马来西亚上市](https://cleantechnica.com/2023/05/15/the-neta-v-launched-in-malaysia-is-now-the-most-affordable-ev-in-the-country/)  
-[车辆对外放电（V2L）：是什么及如何工作](https://www.joosup.com/vehicle-to-load/)  
+[哪吒V用户手册](https://www.netaauto.co/resource/upload/User%27s%2520Manual%2520of%2520NETA%2520V.pdf)
+[哪吒V官方规格](https://www.neta.co.th/en/product/NetaV)
+[哪吒V在马来西亚上市](https://cleantechnica.com/2023/05/15/the-neta-v-launched-in-malaysia-is-now-the-most-affordable-ev-in-the-country/)
+[车辆对外放电（V2L）：是什么及如何工作](https://www.joosup.com/vehicle-to-load/)
 [是否可以在电动汽车中为笔记本电脑充电](https://www.reddit.com/r/electricvehicles/comments/15jp7w1/is_it_possible_to_charge_a_laptop_in_an_ev/)

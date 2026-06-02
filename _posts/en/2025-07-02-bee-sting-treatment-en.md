@@ -12,24 +12,24 @@ type: note
 Being stung by a bee or wasp requires choosing the right medication based on the severity of the injury and your physical condition. Since you mentioned being stung while swimming in Guangzhou, and the photo shows redness and swelling on your finger, I recommend the following medications and treatments. However, if allergic symptoms (e.g., difficulty breathing, worsening swelling) occur, stop using any medication immediately and call 120 for emergency help. The following suggestions are only for mild stings:
 
 #### Suitable Medications and Treatments:
-1. **Local Cleaning and Disinfection**  
+1. **Local Cleaning and Disinfection**
    - **Medication**: Use saline or clean water to wash the wound, followed by povidone-iodine (iodophor swabs) or alcohol (below 75% concentration) for disinfection. Avoid high-concentration alcohol to prevent skin irritation.
    - **Purpose**: Removes venom and bacteria, preventing infection.
 
-2. **Anti-inflammatory and Pain-Relief Ointment**  
+2. **Anti-inflammatory and Pain-Relief Ointment**
    - **Recommendation**: Hydrocortisone ointment (0.1%-0.5%) or indomethacin ointment.
    - **Usage**: After cleaning, apply a thin layer to the stung area, 1-2 times per day.
    - **Effect**: Reduces redness, swelling, and pain with anti-inflammatory properties.
    - **Caution**: Avoid extensive use or prolonged application; use with caution in pregnant women and children.
 
-3. **Antihistamine (Oral or Topical)**  
+3. **Antihistamine (Oral or Topical)**
    - **Oral Recommendation**: Loratadine (Clarityne) or Cetirizine, with adult doses following the instructions (usually once daily).
    - **Topical Recommendation**: Antihistamine ointment (e.g., promethazine ointment).
    - **Usage**: Take oral medication after meals; apply topical ointment to the affected area, 1-2 times per day.
    - **Effect**: Relieves mild allergic reactions (e.g., redness, itching).
    - **Caution**: If you have no allergy history, start with a small amount and observe for 30 minutes.
 
-4. **Cold Compress as an Aid**  
+4. **Cold Compress as an Aid**
    - **Tool**: Ice pack or cold towel (wrapped in cloth).
    - **Usage**: Apply to the stung area for 10-15 minutes, repeatable every hour.
    - **Effect**: Reduces swelling and pain without medication.

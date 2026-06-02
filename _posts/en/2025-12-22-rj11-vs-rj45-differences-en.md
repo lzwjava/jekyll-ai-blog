@@ -12,7 +12,7 @@ type: note
 
 Question: What are RJ11 and RJ45 connectors, and why does RJ11 still exist when RJ45 seems more common?
 
-Answer: 
+Answer:
 
 RJ11 and RJ45 are both types of modular connectors known as "Registered Jacks" (RJ), standardized for telecommunications. They look similar but serve different primary purposes due to their design differences.
 
@@ -49,11 +49,11 @@ RJ45 is indeed more widespread today due to the dominance of computer networking
 
 In summary, RJ11 and RJ45 coexist because they address distinct needs: telephony vs. networking. RJ45's commonality reflects the shift to digital data, but RJ11 endures for voice-specific and legacy scenarios.
 
-References:  
+References:
 
-- https://www.truecable.com/blogs/cable-academy/rj45-vs-rj11-whats-the-difference  
-- https://www.cbtnuggets.com/blog/technology/networking/rj11-vs-rj45  
-- https://en.wikipedia.org/wiki/Registered_jack  
-- https://www.versitron.com/blogs/post/know-the-difference-between-rj45-port-and-rj11-port  
-- https://nassaunationalcable.com/blogs/blog/rj11-vs-rj45-a-guide-to-ethernet-cable-connectors  
+- https://www.truecable.com/blogs/cable-academy/rj45-vs-rj11-whats-the-difference
+- https://www.cbtnuggets.com/blog/technology/networking/rj11-vs-rj45
+- https://en.wikipedia.org/wiki/Registered_jack
+- https://www.versitron.com/blogs/post/know-the-difference-between-rj45-port-and-rj11-port
+- https://nassaunationalcable.com/blogs/blog/rj11-vs-rj45-a-guide-to-ethernet-cable-connectors
 - https://www.geeksforgeeks.org/computer-networks/difference-between-rj45-and-rj11/

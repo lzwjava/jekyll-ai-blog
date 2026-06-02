@@ -69,7 +69,7 @@ Cost of doubling context: **+936 MiB idle**, **+528 MiB** extra during a 60k tok
 **Speed vs context depth:**
 ```
 20k prompt → 51.6 tok/s  (baseline)
-40k prompt → 27.1 tok/s  (-47% vs 20k) 
+40k prompt → 27.1 tok/s  (-47% vs 20k)
 60k prompt → 22.0 tok/s  (-57% vs 20k)
 ```
 

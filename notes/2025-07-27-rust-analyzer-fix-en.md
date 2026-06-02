@@ -55,7 +55,7 @@ If you're using a different editor:
 
 If none of this works, provide more details like your editor, whether this is a Rust project, and any Rust files in that directory.
 
-[rust-analyzer failed to discover workspace in vscode - Stack Overflow](https://stackoverflow.com/questions/72062935/rust-analyzer-failed-to-discover-workspace-in-vscode)  
-[Question about failed to find any projects in [AbsPathBuf...] - GitHub](https://github.com/rust-analyzer/rust-analyzer/issues/11666)  
-[Problem with Rust-Analyzer - Rust Users Forum](https://users.rust-lang.org/t/problem-with-rust-analyzer/91453)  
+[rust-analyzer failed to discover workspace in vscode - Stack Overflow](https://stackoverflow.com/questions/72062935/rust-analyzer-failed-to-discover-workspace-in-vscode)
+[Question about failed to find any projects in [AbsPathBuf...] - GitHub](https://github.com/rust-analyzer/rust-analyzer/issues/11666)
+[Problem with Rust-Analyzer - Rust Users Forum](https://users.rust-lang.org/t/problem-with-rust-analyzer/91453)
 [Configuration - rust-analyzer Manual](https://rust-analyzer.github.io/manual.html#configuration)

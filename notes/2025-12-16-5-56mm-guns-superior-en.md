@@ -12,7 +12,7 @@ type: note
 
 Question: In PUBG Mobile, are 7.62mm (7nm) or 5.56mm (5.6 nm) guns better?
 
-Answer: 
+Answer:
 
 Neither caliber is strictly "better" in PUBG Mobile—it depends on your playstyle, skill level, range of engagement, and attachments. However, **5.56mm guns are generally considered superior for most players** due to their lower recoil, better stability for full-auto spraying at mid-to-long range, and higher versatility across scenarios. 7.62mm guns excel in raw damage output and faster time-to-kill (TTK) in close-quarters if you can master their recoil, making them favorites for aggressive pros.
 
@@ -28,7 +28,7 @@ Neither caliber is strictly "better" in PUBG Mobile—it depends on your playsty
 
 **Recommendation**: Grab an M416 (5.56mm) + attachments first—it's the most forgiving and meta. Pair with a 7.62mm secondary (e.g., Beryl) for variety. Practice recoil in training mode!
 
-References:  
+References:
 - [PUBG Weapons Tier List (Esports Insider, Nov 2025)](https://esportsinsider.com/pubg-best-weapons-tier-list)
 - [PUBG Datamined Stats](https://battlegrounds.party/weapons/)
 - [Topuplive Rifle Guide](https://www.topuplive.com/news/complete-guide-to-pubg-mobile-rifles-best-weapons-attachments.html)

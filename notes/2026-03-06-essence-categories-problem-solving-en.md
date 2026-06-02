@@ -11,7 +11,7 @@ type: note
 
 Question: What is the powerful thinking method of categorization discussed in relation to fixing myopia with under-correction glasses and using AI to fix errors, based on the provided links and the idea that the world is about categorization and essence?
 
-Answer: 
+Answer:
 
 The core idea presented is that **categorization** (or classifying things into distinct types/essences/categories) is a highly powerful thinking tool and problem-solving method. By identifying the fundamental "essence" or grouping similar issues together, one can address complex problems more effectively — focusing on one category at a time leads to clearer, faster, and higher-quality results. This approach avoids dilution of attention and prevents interference between different problem types.
 
@@ -49,7 +49,7 @@ Both examples illustrate that the world (problems, biology, software, etc.) can 
 
 This "divide by category, conquer one by one" mindset is presented as a universal, powerful method for tackling hard problems.
 
-References:  
+References:
 
 - [Focused AI Fixes for Windows Issues](https://lzwjava.github.io/ai-fixes-win-focus-en)
 - [Yinwang's Post on Myopia](https://www.yinwang.org/posts/myopia)

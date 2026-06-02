@@ -44,5 +44,5 @@ Ubuntu 提供了命令行和图形界面两种创建用户的方式。命令行�
 
 本操作指南适用于 Ubuntu 24.04 LTS 及后续版本。
 
-[用户管理 - Ubuntu 服务器文档](https://documentation.ubuntu.com/server/how-to/security/user-management/)  
+[用户管理 - Ubuntu 服务器文档](https://documentation.ubuntu.com/server/how-to/security/user-management/)
 [添加新用户账户 - Ubuntu 官方文档](https://help.ubuntu.com/stable/ubuntu-help/user-add.html.en)

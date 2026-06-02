@@ -77,6 +77,6 @@ UID/GID 警告提示可能存在权限问题，导致 `api` 容器无法正常�
 
 完成以上步骤后，重新尝试访问 http://localhost:3080。如果日志显示特定错误（例如 Mongo 连接问题），请分享错误信息以获取更有针对性的帮助。一旦 UID/GID 和依赖项配置正确，此设置对大多数用户有效。
 
-[本地 Docker 构建无法在 localhost:3080 提供服务](https://github.com/danny-avila/LibreChat/discussions/3425)  
-[LibreChat Docker 文档](https://www.librechat.ai/docs/local/docker)  
+[本地 Docker 构建无法在 localhost:3080 提供服务](https://github.com/danny-avila/LibreChat/discussions/3425)
+[LibreChat Docker 文档](https://www.librechat.ai/docs/local/docker)
 [环境文件配置（UID/GID）](https://www.librechat.ai/docs/configuration/dotenv)

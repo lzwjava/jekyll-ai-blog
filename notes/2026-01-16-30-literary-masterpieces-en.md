@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 30 best literary/essay/long-form works, like 1984 and The Old Man and the Sea?
 
-Answer: 
+Answer:
 
 Here is a curated list of 30 highly regarded **literary novels** (focusing on classics and masterpieces of literary fiction) and some standout **long-form essays/nonfiction**, drawing from consensus across major lists like Modern Library's 100 Best Novels, Goodreads literary rankings, and aggregated "greatest books" sources. Your examples (*1984* by George Orwell and *The Old Man and the Sea* by Ernest Hemingway) are dystopian and concise literary classics, so the selection emphasizes thoughtful, impactful writing with depth, style, and enduring influence.
 
@@ -52,7 +52,7 @@ Here is a curated list of 30 highly regarded **literary novels** (focusing on cl
 
 These works are frequently ranked among the greatest in literary history for their stylistic innovation, thematic depth, and cultural impact. Many appear on aggregated lists from sources like Modern Library, Goodreads, and "greatest books" compilations. Start with shorter ones like *The Old Man and the Sea* or Orwell's essays if you want quick, powerful reads.
 
-References:  
+References:
 
 - [Modern Library 100 Best Novels](https://en.wikipedia.org/wiki/Modern_Library%27s_100_Best_Novels)
 - [The Greatest Books of All Time](https://thegreatestbooks.org/)

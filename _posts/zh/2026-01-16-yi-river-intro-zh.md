@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to "易水歌" (Yi Shui Ge)
 
-Answer: 
+Answer:
 
 **《易水歌》** (Yì Shuǐ Gē)，通常翻译为 "Song of the Yi River" 或 "Easy Water Song"，是中国历史上最著名的古代简短诗歌之一。它与战国末期的传奇刺客 **Jing Ke** (荆轲) 紧密相关。
 
@@ -24,23 +24,23 @@ Answer:
 
 经典且广为流传的版本非常简短：
 
-风萧萧兮易水寒，  
+风萧萧兮易水寒，
 壮士一去兮不复还。
 
-**Pinyin**: Fēng xiāo xiāo xī Yì shuǐ hán,  
+**Pinyin**: Fēng xiāo xiāo xī Yì shuǐ hán,
 Zhuàng shì yī qù xī bù fù huán.
 
-**中文释义**：  
-秋风萧瑟，易水的河水寒冷彻骨；  
+**中文释义**：
+秋风萧瑟，易水的河水寒冷彻骨；
 这一去刺杀秦王，作为壮士的我便再也不回来了。
 
 一些扩展版本（可能是后世添加或戏剧化的记述）还包括以下诗句：
 
-探虎穴兮入蛟宫，  
+探虎穴兮入蛟宫，
 仰天呼气兮成白虹。
 
-**翻译**：  
-闯入深虎之穴，潜入巨蛟之宫；  
+**翻译**：
+闯入深虎之穴，潜入巨蛟之宫；
 仰天长啸，其气势化作一道白虹投向苍穹。
 
 这些诗句象征着任务的极端危险以及英雄豪迈的气概（“白虹”是超凡勇气或悲剧性决心的经典意象）。
@@ -59,7 +59,7 @@ Zhuàng shì yī qù xī bù fù huán.
 
 简而言之，《易水歌》不仅仅是一首送别诗——在中国文化记忆中，它已成为为了崇高事业明知前方是死亡却依然义无反顾的英雄终极象征。
 
-References:  
+References:
 
 - [《易水歌》 - Baidu Baike (荆轲 version)](https://baike.baidu.com/item/%E6%98%93%E6%B0%B4%E6%AD%8C/5381643)
 - [古诗文网 - 荆轲《易水歌》原文及赏析](https://www.gushiwen.cn/gushiwen_6aa73db932.aspx)

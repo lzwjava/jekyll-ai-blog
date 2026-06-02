@@ -12,7 +12,7 @@ type: note
 
 Question: What is link aggregation in networking?
 
-Answer: 
+Answer:
 
 Link aggregation, also known as **Ethernet bonding**, **port trunking**, **link bundling**, or **NIC teaming**, is a networking technique that combines multiple physical network links (such as Ethernet ports or cables) into a single logical link. This provides higher bandwidth, redundancy, and improved performance.
 

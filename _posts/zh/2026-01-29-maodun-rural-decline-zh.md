@@ -38,7 +38,7 @@ type: note
 
 如今，Wuzhen 已将“香市”复兴为文化旅游节，部分受 Mao Dun 文章启发，让游客能体验他描述的场景的回响。
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E9%A6%99%E5%B8%82/7382239](https://baike.baidu.com/item/%E9%A6%99%E5%B8%82/7382239)
 - [http://www.wuzhen.com.cn/web/folk/details?id=2](http://www.wuzhen.com.cn/web/folk/details?id=2)

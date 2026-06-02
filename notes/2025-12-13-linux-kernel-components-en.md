@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major parts or components in the Linux kernel?
 
-Answer: 
+Answer:
 
 The Linux kernel is a monolithic kernel, meaning all core components run in kernel space, but it is highly modular with loadable modules (especially for drivers). Its major subsystems or components are responsible for managing hardware resources, processes, and system services.
 
@@ -38,7 +38,7 @@ Here are some illustrative diagrams of the Linux kernel architecture:
 
 ![Simplified structure of the Linux kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Simplified_Structure_of_the_Linux_Kernel.svg/1024px-Simplified_Structure_of_the_Linux_Kernel.svg.png)
 
-References:  
+References:
 
 - [Anatomy of the Linux kernel - IBM Developer](https://developer.ibm.com/articles/l-linux-kernel/)
 - [Conceptual Architecture of the Linux Kernel](https://docs.huihoo.com/linux/kernel/a1/index.html)

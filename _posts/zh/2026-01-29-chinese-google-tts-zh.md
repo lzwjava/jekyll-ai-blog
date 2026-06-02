@@ -64,7 +64,7 @@ voice_name = random.choice(voice_options)
 
 您代码的其余部分（例如，用于 small-bluetooth-speaker-class-device 的 `effects_profile_id`）工作方式相同。
 
-**参考资料**：  
+**参考资料**：
 
 - [Supported voices and languages | Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types)
 - [Cloud Text-to-Speech release notes](https://docs.cloud.google.com/text-to-speech/docs/release-notes)

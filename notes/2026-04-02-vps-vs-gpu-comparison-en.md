@@ -15,7 +15,7 @@ Good question. Let me break it down:
 
 ### Time Estimate
 
-Current VPS (1vCPU): **~10 hours** to tokenize 61GB  
+Current VPS (1vCPU): **~10 hours** to tokenize 61GB
 2 vCPU with multiprocessing: **~5-6 hours**
 
 The script uses `mp.Pool` with `cpu_count // 2` workers. With 2 CPUs → only **1 worker** (same as now). The speedup would come from slightly faster CPU, not parallelization.
@@ -29,7 +29,7 @@ Current:     10GB total
 With +50GB:  60GB total
              ├── 61GB raw file  ← needs 61GB
              └── 30GB bin files
-             
+
 RESULT: STILL NOT ENOUGH (need 91GB, only have 60GB)
 ```
 

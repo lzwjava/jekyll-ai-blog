@@ -13,18 +13,18 @@ type: note
 
 ### 最常见且推荐的方式（官方 .dmg / App 安装）
 
-1. 在菜单栏中查找 **Ollama 图标**（屏幕右上角，靠近时钟、Wi-Fi、电池图标等）。  
+1. 在菜单栏中查找 **Ollama 图标**（屏幕右上角，靠近时钟、Wi-Fi、电池图标等）。
    它通常看起来像一个小蓝色的 Ollama 标志或风格化的“O”。
 
 2. 点击 Ollama 菜单栏图标
 
-3. 如果有更新可用，您通常会看到类似以下内容：  
-   - "Update available"  
-   - "Restart to update"  
-   - "Install update"  
+3. 如果有更新可用，您通常会看到类似以下内容：
+   - "Update available"
+   - "Restart to update"
+   - "Install update"
    或类似文字
 
-4. 点击 **"Restart to update"**（或等效按钮）  
+4. 点击 **"Restart to update"**（或等效按钮）
    → Ollama 将自动退出并使用新版本重新启动。
 
 这是 Ollama 文档（截至 2026 年）中官方推荐的方法。
@@ -53,12 +53,12 @@ ollama -v
 
 ### 注意事项 / 不常见情况
 
-- **如果您通过 Homebrew 安装** (`brew install ollama` 或 `brew install --cask ollama`)：  
-  → `brew upgrade ollama` 或 `brew upgrade --cask ollama`  
+- **如果您通过 Homebrew 安装** (`brew install ollama` 或 `brew install --cask ollama`)：
+  → `brew upgrade ollama` 或 `brew upgrade --cask ollama`
   （不过大多数人使用官方 .dmg 安装程序，而不是 Homebrew）
 
-- 没有自动更新图标？  
-  → 确保 Ollama 在后台运行  
+- 没有自动更新图标？
+  → 确保 Ollama 在后台运行
   → 或者直接进行手动 .dmg 重新安装（非常安全）
 
 基本上就是这样——macOS 用户通常在所有平台中获得最简单的更新体验。😄

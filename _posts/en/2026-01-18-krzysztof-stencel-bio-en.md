@@ -36,7 +36,7 @@ He has published numerous papers in these fields, with hundreds of citations (cl
 
 Note: There are other people with the same name (e.g., a French horn player specializing in historical instruments who performs with Sinfonia Varsovia), but the most prominent Krzysztof Stencel in academic and professional contexts is the computer science professor at the University of Warsaw.
 
-**References:**  
+**References:**
 
 - [Krzysztof Stencel – Wikipedia (Polish)](https://pl.wikipedia.org/wiki/Krzysztof_Stencel)
 - [Personal academic page – University of Warsaw](https://stencel.mimuw.edu.pl/)

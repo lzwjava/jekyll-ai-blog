@@ -17,7 +17,7 @@ type: note
 川崎的竞技编程生涯以在主要平台和国际赛事中取得的一系列非凡成就为标志：
 
 - **Codeforces**：川崎曾达到**3650**的历史最高评分，荣获**传奇级大师**头衔。截至2021年3月，他以3555分位列Codeforces全球排名第二，仅次于传奇选手Gennady Korotkevich。值得注意的是，他曾是Codeforces上唯一未获得过单轮比赛冠军的最高评分用户，在七次获得亚军后，终于在2020年10月赢得他的首场Codeforces轮次赛胜利。他目前的评分为3581，体现了其持续的优秀表现。[](https://iq.opengenus.org/riku-kawasaki/)[](https://codeforces.com/profile/maroonrk)
-  
+
 - **AtCoder**：川崎是AtCoder上的顶级选手，他参与并协调了诸如**AtCoder Grand Contests**和**World Tour Finals**等高规格赛事。他在AtCoder的工作凸显了他作为竞赛者和编程社区贡献者的双重角色。[](https://codeforces.com/topic/140421/en1)
 
 - **Topcoder**：以昵称**maroon_kuri**参赛，川崎曾是**Topcoder Open 2019**的**算法决赛选手**，展示了他在不同竞技编程平台上的多才多艺。[](https://iq.opengenus.org/riku-kawasaki/)[](https://cphof.org/profile/topcoder:maroon_kuri)

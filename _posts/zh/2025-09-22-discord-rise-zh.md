@@ -28,8 +28,8 @@ Discord 作为一个多功能、用户友好的通信平台脱颖而出，已从
 
 简而言之，Discord 在趣味性、功能性和灵活性之间取得了完美平衡，这正是它能够持续存在并不断发展的原因。
 
-[Discord - 维基百科](https://en.wikipedia.org/wiki/Discord)  
-[关于 Discord | 我们的使命与故事](https://discord.com/company)  
-[Discord 何时开始流行？内幕故事 - Fourthwall](https://fourthwall.com/blog/when-did-discord-get-popular-the-inside-story)  
-[是什么让 Discord 取得成功？ - Medium](https://medium.com/@stavykov/what-makes-discord-successful-cdbeb57ace01)  
+[Discord - 维基百科](https://en.wikipedia.org/wiki/Discord)
+[关于 Discord | 我们的使命与故事](https://discord.com/company)
+[Discord 何时开始流行？内幕故事 - Fourthwall](https://fourthwall.com/blog/when-did-discord-get-popular-the-inside-story)
+[是什么让 Discord 取得成功？ - Medium](https://medium.com/@stavykov/what-makes-discord-successful-cdbeb57ace01)
 [社交革命：审视 Discord 的流行](https://thebrandhopper.com/2023/07/01/the-social-revolution-examining-popularity-of-discord/)

@@ -52,7 +52,7 @@ Below is a list of young, successful tech entrepreneurs who have made significan
 - **George Hotz** (comma.ai): Hotz, known for hacking and founding comma.ai for self-driving tech, parallels Russell’s autonomous vehicle work and Liu’s hardware innovation. Hotz’s DIY ethos resonates with Buterin’s decentralized vision.[](https://www.forbes.com/sites/mikemontgomery/2016/11/03/the-cautionary-tale-of-george-hotz-and-the-self-driving-car/)[](https://lookupbio.com/george-hotz/)
 
 ### Notes
-- These entrepreneurs were selected for their age (under 30 at time of major success), tech innovation, and significant impact (e.g., billion-dollar valuations, widespread adoption). 
+- These entrepreneurs were selected for their age (under 30 at time of major success), tech innovation, and significant impact (e.g., billion-dollar valuations, widespread adoption).
 - I excluded older founders (e.g., Mark Zuckerberg, now 40) and focused on those who achieved success in their 20s, like the referenced trio.
 - Some ages are estimated based on birth years or success timelines, as exact current ages may vary slightly.
 - If you’d like me to dig deeper into any of these individuals, analyze their companies, or find more examples (e.g., via web or X posts), let me know! I can also explore specific regions or tech sectors.

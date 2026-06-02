@@ -20,7 +20,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
   - From 11 to 17: Fewer disruptions, mainly enhancements like better pattern matching.
   - From 17 to 21: Minimal breaking changes; mostly new features like pattern matching for switch (21) and no major removals.
 - **Stepwise Migration**: Don't jump directly to 21. Upgrade incrementally (e.g., 8 → 11 → 17 → 21) to isolate issues. Use tools like OpenRewrite or jdeps to scan for incompatibilities.
-- **Testing and Tooling**: 
+- **Testing and Tooling**:
   - Run comprehensive tests (unit, integration, load) on the new JDK. Tools like Maven/Gradle plugins (e.g., `maven-enforcer-plugin`) can enforce compatibility.
   - Update build tools: Ensure Maven/Gradle supports the new JDK (most do, but verify plugins like Surefire).
   - Multi-version Testing: Use Docker or CI/CD (e.g., GitHub Actions) to test against multiple JDKs.
@@ -78,7 +78,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 
 ### Recommendations
 - **Preferred Path**: Start with JDK 11 or 17 while keeping/upgrading to Spring 5.3.x—lower risk for your codebase. Go to 21 only if you need its features (e.g., virtual threads) and are willing to upgrade to Spring 6 (which could take significant effort due to Jakarta changes).
-- **Next Steps**: 
+- **Next Steps**:
   1. Scan code with jdeps/jlink for issues.
   2. Set up a branch for migration testing.
   3. Consult official guides: Oracle JDK Migration Guide, Spring Versions Wiki, IBM DB2 JDBC Downloads, Liberty Java Support.

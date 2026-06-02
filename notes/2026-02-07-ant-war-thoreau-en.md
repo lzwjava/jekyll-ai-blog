@@ -12,12 +12,12 @@ type: note
 
 Question: The author of the essay "Ant War" (《蚂蚁大战》) is
 
-A. Russell (罗素)  
-B. Henry Thoreau (亨利·梭罗)  
-C. Chekhov (契诃夫)  
-D. O. Henry (欧·亨利)  
+A. Russell (罗素)
+B. Henry Thoreau (亨利·梭罗)
+C. Chekhov (契诃夫)
+D. O. Henry (欧·亨利)
 
-Answer: 
+Answer:
 
 The correct answer is **B. Henry Thoreau (亨利·梭罗)**.
 
@@ -35,6 +35,6 @@ This piece is one of the most well-known and frequently anthologized sections of
 
 Your previous answer was C (Chekhov), which is incorrect. The correct choice is **B**.
 
-References:  
+References:
 
 - None (analysis based on the original text of Henry David Thoreau's *Walden*, Chapter "Brute Neighbors")

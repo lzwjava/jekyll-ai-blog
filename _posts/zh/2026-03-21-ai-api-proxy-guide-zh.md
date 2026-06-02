@@ -19,7 +19,7 @@ type: note
 
 ## Claude (Anthropic) 通道
 
-  
+
 | 分组 | 倍率 | 描述 |
 |---|---|---|
 | **Claude Max** | 1.3x | 最佳质量；使用 Claude Max 账户 |
@@ -38,7 +38,7 @@ type: note
 
 ## OpenAI (GPT) 通道
 
-  
+
 | 分组 | 倍率 | 描述 |
 |---|---|---|
 | **Codex (Team)** | 0.3x | 使用 GPT Team + 常规账户池；优先级低于 GPT Pro |
@@ -48,7 +48,7 @@ type: note
 
 ## Google 通道
 
-  
+
 | 分组 | 倍率 | 描述 |
 |---|---|---|
 | **gemini官方 (Gemini Official)** | 0.4x | 官方 Google Gemini API 通道 |
@@ -57,17 +57,17 @@ type: note
 
 ## 关键概念解释
 
-**什么是“倍率”（multiplier/rate）？**  
+**什么是“倍率”（multiplier/rate）？**
 这是相对于基础 token 价格的成本缩放因子。5x 费率意味着你支付 5× 基础 token 成本。0.15x 费率意味着你只支付基础成本的 15%。
 
-**什么是“逆向渠道”（reverse channels）？**  
-这些是 **unofficial reverse-engineered proxies** — 它们拦截 Claude 的 web 接口流量，而不是使用官方 API。它们更便宜，但：  
-- 稳定性较低  
-- 可能违反 Anthropic 的服务条款  
+**什么是“逆向渠道”（reverse channels）？**
+这些是 **unofficial reverse-engineered proxies** — 它们拦截 Claude 的 web 接口流量，而不是使用官方 API。它们更便宜，但：
+- 稳定性较低
+- 可能违反 Anthropic 的服务条款
 - 可能不可预测地被封锁/限速（如备用 Max 通道的风控问题所示）
 
-**什么是“官方通道”（AWS Bedrock、gemini官方 等）？**  
+**什么是“官方通道”（AWS Bedrock、gemini官方 等）？**
 这些通过各自提供商的 **actual official enterprise APIs** 路由，提供更好的稳定性、合规性和可靠性 — 但成本更高。
 
-**当前选择的通道是哪个？**  
+**当前选择的通道是哪个？**
 界面显示 **Claude Max 备用 (Backup)** 当前被选中（由复选标记 ✓ 表示）。

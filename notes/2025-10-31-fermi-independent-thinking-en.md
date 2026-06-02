@@ -26,5 +26,5 @@ Lee later reflected on this as a pivotal experience. It built his confidence (Fe
 
 This anecdote highlights why Fermi is still celebrated for "Fermi problems"—challenges that sharpen critical thinking. Lee's PhD thesis under Fermi was on the hydrogen content of white dwarf stars, blending nuclear physics and astrophysics, and he credited Fermi's mentorship for his lifelong approach to science.
 
-For more on Lee's life and work: [Tsung-Dao Lee Obituary, Nature (2024)](https://www.nature.com/articles/d41586-024-02585-1)  
+For more on Lee's life and work: [Tsung-Dao Lee Obituary, Nature (2024)](https://www.nature.com/articles/d41586-024-02585-1)
 For Fermi's teaching legacy: [Enrico Fermi: His Life and Work (excerpts)](https://www.worldscientific.com/doi/abs/10.1142/9789812776945_0002)

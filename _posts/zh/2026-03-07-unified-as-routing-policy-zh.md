@@ -38,7 +38,7 @@ type: note
 
 ### 为什么这很重要？
 
-  
+
 | Aspect | Internal (Inside AS) | External (To other ASes) |
 |---|---|---|
 | Routing Protocol | Multiple IGPs (OSPF, RIP, EIGRP…) | Single EGP (BGP) |

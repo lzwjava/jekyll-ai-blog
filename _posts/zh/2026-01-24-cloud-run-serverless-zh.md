@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Cloud Run in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 Cloud Run 是 Google Cloud 的**全托管 Serverless 平台**，用于运行容器化的应用程序（或简单的代码/Functions），无需管理任何底层服务器或 Clusters。
 
@@ -115,7 +115,7 @@ gcloud run deploy hello \
 
 Cloud Run 依然是 2026 年在 Google Cloud 上运行生产负载最简单、最受欢迎的方式之一。
 
-References:  
+References:
 
 - [What is Cloud Run - Official Documentation](https://cloud.google.com/run/docs/overview/what-is-cloud-run)
 - [Cloud Run Main Page](https://cloud.google.com/run)

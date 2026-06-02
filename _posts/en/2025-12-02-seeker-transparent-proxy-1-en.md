@@ -12,7 +12,7 @@ type: note
 
 Question: How does the Rust-based Seeker transparent proxy actually work under the hood?
 
-Answer:  
+Answer:
 Seeker creates a **fully transparent system-wide proxy** by combining a **virtual TUN interface** with a **user-space routing + proxy engine** written in Rust. It works without requiring any application to be proxy-aware (no PAC, no SOCKS/HTTP settings in browsers or apps).
 
 Here’s the detailed technical flow:
@@ -71,7 +71,7 @@ Here’s the detailed technical flow:
 
 In short: Seeker turns your machine into a **virtual VPN-like router** that intelligently redirects traffic through proxies based on domain/IP rules — entirely in safe, high-performance Rust.
 
-*[GitHub - gfreezy/seeker](https://github.com/gfreezy/seeker)*  
-*[Main entry point (main.rs)](https://github.com/gfreezy/seeker/blob/master/src/main.rs)*  
-*[TUN handling module](https://github.com/gfreezy/seeker/blob/master/src/tun.rs)*  
+*[GitHub - gfreezy/seeker](https://github.com/gfreezy/seeker)*
+*[Main entry point (main.rs)](https://github.com/gfreezy/seeker/blob/master/src/main.rs)*
+*[TUN handling module](https://github.com/gfreezy/seeker/blob/master/src/tun.rs)*
 *[Rule engine](https://github.com/gfreezy/seeker/blob/master/src/rule/mod.rs)*

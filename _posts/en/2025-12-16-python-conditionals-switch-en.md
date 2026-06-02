@@ -12,7 +12,7 @@ type: note
 
 Question: How do you write conditional code in Python using if, elif, and else? Does Python have a switch statement?
 
-Answer: 
+Answer:
 
 Python uses `if`, `elif`, and `else` statements for conditional execution. Unlike many other languages, Python **does not have a traditional switch statement** until Python 3.10, which introduced the **structural pattern matching** feature (`match` and `case`) that can serve as a more powerful alternative to switch.
 

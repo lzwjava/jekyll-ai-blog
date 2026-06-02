@@ -31,6 +31,6 @@ Microsoft Teams 中的斜杠命令可让您直接在聊天界面中快速更新�
 
 斜杠命令适合在对话过程中快速切换状态，若需更精细控制，建议使用个人资料菜单功能。
 
-[在 Microsoft Teams 中使用命令](https://support.microsoft.com/en-us/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b)  
-[Microsoft Teams - 设置在线状态](https://www.dataprise.com/resources/blog/microsoft-teams-set-presence-status/)  
+[在 Microsoft Teams 中使用命令](https://support.microsoft.com/en-us/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b)
+[Microsoft Teams - 设置在线状态](https://www.dataprise.com/resources/blog/microsoft-teams-set-presence-status/)
 [更改 Microsoft Teams 中的状态](https://support.microsoft.com/en-us/office/change-your-status-in-microsoft-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e)

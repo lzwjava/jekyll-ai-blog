@@ -99,7 +99,7 @@ mysqldump -u root -p --single-transaction --quick --set-gtid-purged=OFF prod ord
 mysql prod -B -N -e "SELECT * FROM users" > users.tsv
 
 # Get all database sizes nicely sorted
-mysql -u root -p -e "SELECT table_schema 'DB', ROUND(SUM(data_length+index_length)/1024/1024,1) 'Size_MB' 
+mysql -u root -p -e "SELECT table_schema 'DB', ROUND(SUM(data_length+index_length)/1024/1024,1) 'Size_MB'
                      FROM information_schema.tables GROUP BY 1 ORDER BY 2 DESC"
 
 # Watch processlist every 2 seconds
@@ -116,7 +116,7 @@ watch -n 2 'mysql -u root -p -e "SHOW PROCESSLIST\G" | grep -v Sleep'
 # I want to use connection settings from file .... mysql --defaults-file=...
 ```
 
-Which style / use-case do you use the most?  
+Which style / use-case do you use the most?
 (I can give you many more specialized examples for that exact purpose)
 
 **References:**

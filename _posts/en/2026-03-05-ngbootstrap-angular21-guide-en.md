@@ -11,7 +11,7 @@ type: note
 
 **Question:** Which ng-bootstrap version matches Angular 21?
 
-**Answer:** 
+**Answer:**
 
 The version of **ng-bootstrap** that matches **Angular 21** is the **20.x.x** series (specifically **@ng-bootstrap/ng-bootstrap@^20.0.0**).
 
@@ -34,7 +34,7 @@ ng add @ng-bootstrap/ng-bootstrap   # (it should pick a compatible version)
 
 Always check the latest changelog or the getting-started page for any patch updates or breaking changes when upgrading.
 
-**References:**  
+**References:**
 
 - [https://ng-bootstrap.github.io/#/getting-started](https://ng-bootstrap.github.io/#/getting-started)
 - [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)

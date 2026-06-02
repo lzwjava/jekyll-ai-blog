@@ -26,16 +26,16 @@ type: note
 
 ### 核心哲学主题 (Central Philosophical Themes)
 
-**相对主义与视角主义 (Relativism and Perspectivism)**  
+**相对主义与视角主义 (Relativism and Perspectivism)**
 本篇论证了人类所有的判断都受限于其局限的立场。大小、价值、知识，甚至真理本身，都是语境化的而非绝对的。从一个视角看是巨大的事物，从另一个视角看则微不足道；在一个语境中珍贵的东西，在另一个语境中可能毫无价值。
 
-**语言与知识的局限性 (The Limits of Language and Knowledge)**  
+**语言与知识的局限性 (The Limits of Language and Knowledge)**
 《秋水》强调语言无法完全捕捉“道”(Dao) 的全貌。言语创造了人为的区分和类别，无法反映存在的那种流动、互联的本质。真正的理解需要超越概念性思维。
 
-**片面性的危险 (The Danger of Partiality)**  
+**片面性的危险 (The Danger of Partiality)**
 文本批判了人类容易将片面知识误认为全面理解的倾向，并使用了著名的“井底之蛙”比喻。这告诫人们要警惕智力上的傲慢以及传统智慧的局限性。
 
-**顺应自然 (Spontaneity and Naturalness)**  
+**顺应自然 (Spontaneity and Naturalness)**
 与许多道家哲学一样，《秋水》倡导“自然”(Ziran)，建议我们应当顺应事物的自然流向，而不是强加人为的标准和价值观。
 
 ### 文学风格与修辞手法 (Literary Style and Rhetorical Devices)

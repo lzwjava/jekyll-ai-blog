@@ -29,6 +29,6 @@ Microsoft SQL Server（常简称为 MSSQL）与 MySQL 都是流行的关系型�
 
 总结而言，若需深度整合微软技术栈且追求功能完备的企业级解决方案，可优先考虑 SQL Server（需承担较高成本）；若注重成本控制、部署简易性与开源灵活性，尤其适用于网络应用或中小规模场景，MySQL 是更优选择。生产环境建议结合实际工作负载进行测试。
 
-[MySQL 与 SQL Server：2025 年完整对比](https://www.bytebase.com/blog/mysql-vs-sqlserver/)  
-[MySQL 与 MS SQL Server：核心共性与差异解析](https://blog.dreamfactory.com/ms-sql-server-vs-mysql)  
+[MySQL 与 SQL Server：2025 年完整对比](https://www.bytebase.com/blog/mysql-vs-sqlserver/)
+[MySQL 与 MS SQL Server：核心共性与差异解析](https://blog.dreamfactory.com/ms-sql-server-vs-mysql)
 [Microsoft SQL Server 与 MySQL：2025 年功能与成本对比](https://www.capterra.com/compare/1417-11482/SQL-Server-vs-MySQL)

@@ -13,7 +13,7 @@ type: note
 
 功能概述：
 
-  一款跨平台（Windows/macOS/Linux）的 .NET 应用程序，用于处理 Git 的 HTTPS 身份验证。  
+  一款跨平台（Windows/macOS/Linux）的 .NET 应用程序，用于处理 Git 的 HTTPS 身份验证。
   当你执行 `git push` 或 `git pull`，而 Git 需要凭据时，GCM 会拦截该请求，并为你处理基于 OAuth、设备码或浏览器的身份验证流程。
 
 关键信息：

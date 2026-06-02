@@ -42,7 +42,7 @@ Real mastery in any skill (tennis strokes, programming, realistic drawing, piano
 
 The 2 cm × 2 cm perfectly even tone block is the drawing equivalent of the coach catching the ball with his hand: it looks childish, but it trains pressure control, angle control, pencil grip, stroke consistency, and visual feedback at the most fundamental physical level. Once that tiny square is perfect, everything else (shading a sphere, a nose, a whole portrait) suddenly becomes possible.
 
-In short:  
+In short:
 **“If you’re stuck at an intermediate or even advanced level, the solution is almost never ‘try harder’ or ‘do more advanced drills’ — it’s ‘go back to an exercise so basic that it feels stupid, and make it perfect.’ That is the universal cheat code for breaking plateaus in any skill.”**
 
 The sarcastic last sentence about modern art is just the author’s typical dark humor: he believes a lot of 20th-century and contemporary art abandoned technical mastery of tone and form (which requires those boring basic exercises) and re-branded lack of skill as artistic expression.

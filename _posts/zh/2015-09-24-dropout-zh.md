@@ -23,7 +23,7 @@ type: post
 
 现向学校提出退学，望校领导批准。
 
-此致  
+此致
 敬礼
 
 <div align="right">

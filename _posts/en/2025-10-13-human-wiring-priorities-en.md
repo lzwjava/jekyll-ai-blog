@@ -26,7 +26,7 @@ These choices aren't laziness or malice—they're survival hacks in a chaotic wo
 
 If you want to dive deeper on any angle—like moon hoax psych or activism burnout—hit me with specifics.
 
-[Why do people tend to avoid the truth and prioritize happiness over facing reality?](https://www.quora.com/Why-do-people-tend-to-avoid-the-truth-and-prioritize-happiness-over-facing-reality-and-taking-action)  
-[Which Is More Important: Truth or Happiness?](https://www.psychologytoday.com/us/blog/sapient-nature/201105/which-is-more-important-truth-or-happiness)  
-[What's More Important: Freedom, Justice, Happiness, Truth?](https://philosophynow.org/issues/111/Whats_More_Important_Freedom_Justice_Happiness_Truth)  
+[Why do people tend to avoid the truth and prioritize happiness over facing reality?](https://www.quora.com/Why-do-people-tend-to-avoid-the-truth-and-prioritize-happiness-over-facing-reality-and-taking-action)
+[Which Is More Important: Truth or Happiness?](https://www.psychologytoday.com/us/blog/sapient-nature/201105/which-is-more-important-truth-or-happiness)
+[What's More Important: Freedom, Justice, Happiness, Truth?](https://philosophynow.org/issues/111/Whats_More_Important_Freedom_Justice_Happiness_Truth)
 [Research Shows a Link Between Freedom and Happiness](https://community.thriveglobal.com/research-shows-a-link-between-freedom-and-happiness/)

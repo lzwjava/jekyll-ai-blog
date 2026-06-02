@@ -18,7 +18,7 @@ Here are the most reliable and commonly used ways to check if SSH (usually OpenS
 
 ### Quickest & Recommended Methods
 
-1. **Check service status (most recommended)**  
+1. **Check service status (most recommended)**
 ```bash
 sudo systemctl status ssh
 ```

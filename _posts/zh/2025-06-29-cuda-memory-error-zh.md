@@ -60,11 +60,11 @@ type: note
          thrust::device_vector<int> d_vec(arr, arr + n);
          err = cudaGetLastError();
          checkCudaError(err, "After device_vector allocation");
-         
+
          thrust::sort(d_vec.begin(), d_vec.end());
          err = cudaGetLastError();
          checkCudaError(err, "After thrust::sort");
-         
+
          thrust::copy(d_vec.begin(), d_vec.end(), arr);
          err = cudaGetLastError();
          checkCudaError(err, "After thrust::copy");

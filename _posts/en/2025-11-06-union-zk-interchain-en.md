@@ -31,6 +31,6 @@ The GitHub repository at [https://github.com/unionlabs/union](https://github.com
 
 If you're a developer, you can clone the repo and start with `make install` for dependencies, then `make build` to compile. For more, check the [docs folder](https://github.com/unionlabs/union/tree/main/docs) or Union Labs' site.
 
-[Union Labs Website](https://union.build/)  
-[Union Whitepaper](https://union.build/whitepaper)  
+[Union Labs Website](https://union.build/)
+[Union Whitepaper](https://union.build/whitepaper)
 [GitHub Repo](https://github.com/unionlabs/union)

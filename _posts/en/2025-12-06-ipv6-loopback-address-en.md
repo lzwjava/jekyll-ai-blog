@@ -12,12 +12,12 @@ type: note
 
 Question: What is the IPv6 loopback address, and why is ::1 the correct one compared to the other options?
 
-Answer:  
+Answer:
 
 The **IPv6 loopback address** is **::1** (or fully written as 0000:0000:0000:0000:0000:0000:0000:0001). It serves exactly the same purpose as 127.0.0.1 in IPv4: it refers to the local host itself. Any packet sent to this address is looped back internally by the IP stack without ever leaving the machine.
 
 ### Official definition and standards
-- Defined in **RFC 4291** (IP Version 6 Addressing Architecture) – Section 2.5.3:  
+- Defined in **RFC 4291** (IP Version 6 Addressing Architecture) – Section 2.5.3:
   > "The loopback address is 0:0:0:0:0:0:0:1 or, using the preferred form, ::1."
 - Also confirmed in **RFC 8200** (Internet Protocol, Version 6) and **RFC 6890** (Special-Purpose IP Address Registries).
 
@@ -39,7 +39,7 @@ The **IPv6 loopback address** is **::1** (or fully written as 0000:0000:0000:000
   ping6 -I lo ::1    # explicitly using the loopback interface
   ```
 
-References:  
-- [RFC 4291 – IP Version 6 Addressing Architecture](https://www.rfc-editor.org/rfc/rfc4291.html)  
-- [RFC 8200 – Internet Protocol, Version 6 (IPv6) Specification](https://www.rfc-editor.org/rfc/rfc8200.html)  
+References:
+- [RFC 4291 – IP Version 6 Addressing Architecture](https://www.rfc-editor.org/rfc/rfc4291.html)
+- [RFC 8200 – Internet Protocol, Version 6 (IPv6) Specification](https://www.rfc-editor.org/rfc/rfc8200.html)
 - [RFC 6890 – Special-Purpose IP Address Registries](https://www.rfc-editor.org/rfc/rfc6890.html)

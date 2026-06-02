@@ -85,11 +85,11 @@ Here's how your Jenkinsfile would authenticate and retrieve secrets:
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         VAULT_ADDR = 'https://vault.yourcompany.com'
     }
-    
+
     stages {
         stage('Authenticate to Vault') {
             steps {
@@ -99,7 +99,7 @@ pipeline {
                         script: 'curl -s http://localhost:8080/jwtauth/token',
                         returnStdout: true
                     ))
-                    
+
                     // Login to Vault with JWT
                     def vaultLogin = sh(
                         script: """
@@ -108,12 +108,12 @@ pipeline {
                         """,
                         returnStdout: true
                     )
-                    
+
                     env.VAULT_TOKEN = readJSON(text: vaultLogin).auth.client_token
                 }
             }
         }
-        
+
         stage('Read Terraform Variables') {
             steps {
                 script {
@@ -125,9 +125,9 @@ pipeline {
                         """,
                         returnStdout: true
                     )
-                    
+
                     def tfVars = readJSON(text: secrets).data.data
-                    
+
                     // Write to terraform.tfvars
                     writeFile file: 'terraform.tfvars', text: """
 aws_region = "${tfVars.aws_region}"
@@ -137,7 +137,7 @@ vpc_cidr = "${tfVars.vpc_cidr}"
                 }
             }
         }
-        
+
         stage('Checkout Config from GitHub') {
             steps {
                 git branch: 'main',
@@ -145,7 +145,7 @@ vpc_cidr = "${tfVars.vpc_cidr}"
                     credentialsId: 'github-token'
             }
         }
-        
+
         stage('Run Terraform') {
             steps {
                 sh '''
@@ -165,7 +165,7 @@ Alternatively, use the official Vault plugin for cleaner integration:
 ```groovy
 pipeline {
     agent any
-    
+
     options {
         vault(
             vaultUrl: 'https://vault.yourcompany.com',
@@ -173,7 +173,7 @@ pipeline {
             engineVersion: 2
         )
     }
-    
+
     stages {
         stage('Read Secrets') {
             steps {
@@ -188,7 +188,7 @@ pipeline {
                             ]
                         ]
                     ]
-                    
+
                     withVault([vaultSecrets: secrets]) {
                         sh 'echo "AWS Region: $AWS_REGION"'
                         // Use secrets in terraform
@@ -231,7 +231,7 @@ path "secret/data/terraform/*" {
 resource "vault_mount" "terraform_secrets" {
   path = "secret"
   type = "kv-v2"
-  
+
   options = {
     version = "2"
   }

@@ -11,7 +11,7 @@ type: note
 
 Question: What does the term "Multiple Access" mean in the context of CSMA/CD?
 
-Answer: 
+Answer:
 
 ### Meaning of "Multiple Access" in CSMA/CD
 
@@ -28,7 +28,7 @@ Here is a detailed breakdown of what this implies:
 
 **Summary**: "Multiple Access" simply describes the scenario where **many users compete for the use of a single shared communication path**, necessitating a protocol to manage how they take turns speaking to avoid data collisions.
 
-References:  
+References:
 
 - [Britannica: Multiple Access](https://www.britannica.com/technology/multiple-access)
 - [GeeksforGeeks: Channel Allocation Problems in Computer Networks](https://www.geeksforgeeks.org/channel-allocation-problems-in-computer-networks/)

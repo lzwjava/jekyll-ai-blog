@@ -64,8 +64,8 @@ While empowering, these models amplify AI's dual-use nature: useful for free spe
 
 For deeper dives, check these resources:
 
-[Uncensored LLM Models: A Complete Guide](https://docs.jarvislabs.ai/blog/llm_uncensored)  
-[DeepSeek-R1 Distilled Models Explained](https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d)  
-[Dolphin Mistral Uncensored Guide](https://www.youtube.com/watch?v=yqMBI_Q0_Yc)  
-[Liberated Qwen Overview](https://venturebeat.com/ai/meet-liberated-qwen-an-uncensored-llm-that-strictly-adheres-to-system-prompts)  
+[Uncensored LLM Models: A Complete Guide](https://docs.jarvislabs.ai/blog/llm_uncensored)
+[DeepSeek-R1 Distilled Models Explained](https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d)
+[Dolphin Mistral Uncensored Guide](https://www.youtube.com/watch?v=yqMBI_Q0_Yc)
+[Liberated Qwen Overview](https://venturebeat.com/ai/meet-liberated-qwen-an-uncensored-llm-that-strictly-adheres-to-system-prompts)
 [Uncensored Qwen 2.5-32B Trial](https://eduardo-rogers.medium.com/you-can-try-uncensored-qwen-2-5-32b-model-here-3560e31cc3b5)

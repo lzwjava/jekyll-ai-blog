@@ -18,7 +18,7 @@ type: note
 
 Istio 是最广泛采用的 **open-source service mesh** 平台。它提供了一种统一的方式来保障、安全连接、观察和管理微服务，而无需更改应用代码。
 
-主要思想：  
+主要思想：
 将横切关注点（traffic management、security、observability、policy enforcement）**从应用代码中**移出 → 移入专用的基础设施层。
 
 ### 核心架构

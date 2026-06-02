@@ -28,11 +28,11 @@ type: note
 
 这些观点不受欢迎，因为疫情后社会越来越普遍地接受（甚至赞美）居家，许多人将其视为低压力或赋权的体现。然而，健康研究和个人经历的证据表明，平衡是关键——适度的外出晒太阳、运动和互动通常比无限期的室内时间更能改善幸福感。
 
-参考文献：  
+参考文献：
 
-- https://www.pricepropharmacy.com/here-are-the-negative-effects-of-staying-indoors-too-long/  
-- https://www.vinmec.com/eng/blog/health-effects-of-staying-at-home-too-much-en  
-- https://time.com/collection/guide-to-happiness/4306455/stress-relief-nature/  
-- https://www.reddit.com/r/unpopularopinion/comments/1e4zhgc/people_spend_too_much_time_at_home/  
-- https://www.reddit.com/r/TrueUnpopularOpinion/comments/1k92p8o/working_from_home_is_overrated_and_actually_makes/  
+- https://www.pricepropharmacy.com/here-are-the-negative-effects-of-staying-indoors-too-long/
+- https://www.vinmec.com/eng/blog/health-effects-of-staying-at-home-too-much-en
+- https://time.com/collection/guide-to-happiness/4306455/stress-relief-nature/
+- https://www.reddit.com/r/unpopularopinion/comments/1e4zhgc/people_spend_too_much_time_at_home/
+- https://www.reddit.com/r/TrueUnpopularOpinion/comments/1k92p8o/working_from_home_is_overrated_and_actually_makes/
 - https://www.reddit.com/r/selfimprovement/comments/18yixas/does_staying_indoors_for_a_while_really_ruin_your/

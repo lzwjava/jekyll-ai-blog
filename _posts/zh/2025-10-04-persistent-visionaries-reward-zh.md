@@ -20,6 +20,6 @@ type: note
 
 这提醒我们：在喧嚣世界中，真理（或至少实用性）具有不对称的上升空间。那些坚持己见的少数派？他们并非疯狂，只是先行一步。此刻你正在押注的"不受欢迎的真理"是什么？
 
-[Python的崛起：从业余项目到技术霸权](https://realpython.com/python-history/)  
-[英伟达的逆袭之路](https://www.forbes.com/sites/moorinsights/2023/05/25/nvidias-underdog-story-how-a-gaming-chip-maker-became-an-ai-powerhouse/)  
+[Python的崛起：从业余项目到技术霸权](https://realpython.com/python-history/)
+[英伟达的逆袭之路](https://www.forbes.com/sites/moorinsights/2023/05/25/nvidias-underdog-story-how-a-gaming-chip-maker-became-an-ai-powerhouse/)
 [NeurIPS时间检验奖项](https://neurips.cc/Conferences/2023/TestOfTimeAward)

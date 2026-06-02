@@ -12,7 +12,7 @@ type: note
 
 Question: In cyclic redundancy check (CRC), if the codeword has k information bits and r redundancy bits are added during encoding, what is the encoding efficiency?
 
-Answer: 
+Answer:
 
 The correct answer is **D. k/(k+r)**.
 
@@ -20,9 +20,9 @@ The correct answer is **D. k/(k+r)**.
 
 Encoding efficiency (also called code rate or information rate) measures how much of the total transmitted bits actually carry useful information.
 
-- Information bits (payload): **k** bits  
-- Redundancy bits (check bits, parity bits): **r** bits  
-- Total codeword length: **k + r** bits  
+- Information bits (payload): **k** bits
+- Redundancy bits (check bits, parity bits): **r** bits
+- Total codeword length: **k + r** bits
 
 Therefore, the encoding efficiency is defined as:
 
@@ -30,7 +30,7 @@ Therefore, the encoding efficiency is defined as:
 
 This matches option **D**.
 
-**Quick memory tip (as provided):**  
+**Quick memory tip (as provided):**
 "信息位k，总长k+r，效率k/(k+r)"
 
 **Why the other options are incorrect:**
@@ -40,6 +40,6 @@ This matches option **D**.
 
 So the correct choice is indeed **D**.
 
-References:  
+References:
 
 - None (standard coding theory definition, no external reference required)

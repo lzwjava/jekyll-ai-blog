@@ -11,7 +11,7 @@ type: note
 
 Question: But I mainly go China -> USA instead of USA -> China. Should I continue with the DMIT LAX.AN5.Pro.TINY plan?
 
-Answer: 
+Answer:
 
 **Yes, you should still go ahead and buy it** — the direction (China → USA outbound from your location) is actually the **strongest** side of DMIT's Premium (Pro) series routing for Guangzhou users.
 
@@ -45,7 +45,7 @@ If your traffic were mostly **US → China** (e.g., hosting a site on the VPS th
 
 **Recommendation**: Proceed with confidence — this plan excels precisely in the China-to-US direction you care about most.
 
-References:  
+References:
 
 - [https://www.dmit.io/pages/cloud-instance](https://www.dmit.io/pages/cloud-instance)
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)

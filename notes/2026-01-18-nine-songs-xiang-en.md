@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《九歌·湘夫人》 (Nine Songs: The Lady of the Xiang).
 
-Answer: 
+Answer:
 
 《九歌·湘夫人》 is one of the eleven poems in the **"Jiu Ge" (Nine Songs)** section of the **Chu Ci** (Songs of Chu), a major anthology of ancient Chinese poetry. It is attributed to **Qu Yuan** (c. 340–278 BCE), the great patriotic poet of the Warring States period from the state of Chu.
 
@@ -28,7 +28,7 @@ Answer:
 - It uses vivid natural imagery — autumn wind, falling leaves, waves on Dongting Lake, fragrant herbs (like white angelica and orchids), misplaced birds and fishnets — as metaphors for confusion, disorder, and frustrated desire.
 
 ### Famous Opening Lines
-> 帝子降兮北渚，目眇眇兮愁予。  
+> 帝子降兮北渚，目眇眇兮愁予。
 > 袅袅兮秋风，洞庭波兮木叶下。
 
 (Translation: "The child of the god descends to the northern islet, / My gaze stretches far, filling me with sorrow. / Softly, softly blows the autumn wind, / Waves rise on Dongting, leaves fall from the trees.")
@@ -44,7 +44,7 @@ These lines create one of the most iconic and melancholic autumn scenes in Chine
 - Together with *Xiang Jun*, it represents the pinnacle of romantic expression in early Chinese poetry, portraying divine yet very human love — longing, waiting, disappointment, yet enduring devotion.
 - It influenced later Chinese literature, especially romantic and lyrical poetry, and remains a classic example of Qu Yuan's ability to transform folk ritual into profound personal and artistic expression.
 
-References:  
+References:
 
 - [九歌·湘夫人_百度百科](https://baike.baidu.com/item/%E4%B9%9D%E6%AD%8C%C2%B7%E6%B9%98%E5%A4%AB%E4%BA%BA/699400)
 - [九歌·湘夫人原文|翻译|赏析_屈原古诗_古诗文网](https://www.gushiwen.cn/gushiwen_48ec459b2b.aspx)

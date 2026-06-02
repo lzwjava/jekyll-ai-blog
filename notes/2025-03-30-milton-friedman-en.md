@@ -13,8 +13,8 @@ Milton Friedman was a prominent economist and a leading figure in the Chicago Sc
 ### 1. **Monetarism**
    - Friedman is best known for his theory of **monetarism**, which focuses on the role of government in controlling the amount of money in circulation. He argued that variations in the money supply have a direct, strong influence on national output, employment, and inflation.
    - He believed that controlling inflation required controlling the money supply, rather than relying on fiscal policy (government spending and taxation).
-   - **The Quantity Theory of Money**: This theory suggests that the money supply is the primary driver of economic activity and inflation. It is often expressed in the formula:  
-     \\[ M \times V = P \times T \\]  
+   - **The Quantity Theory of Money**: This theory suggests that the money supply is the primary driver of economic activity and inflation. It is often expressed in the formula:
+     \\[ M \times V = P \times T \\]
      Where:
      - \\( M \\) = money supply
      - \\( V \\) = velocity of money
@@ -36,7 +36,7 @@ Milton Friedman was a prominent economist and a leading figure in the Chicago Sc
    - He advocated for **limited government** and the reduction of regulations and taxes. Friedman also opposed government-run social programs, advocating for alternatives like the **negative income tax** as a way to provide social safety nets without government bureaucracy.
 
 ### 5. **The Role of Government**
-   - While Friedman was an advocate for free markets, he did acknowledge certain limited roles for government. He believed government should be responsible for enforcing the rule of law, protecting property rights, and maintaining national defense. 
+   - While Friedman was an advocate for free markets, he did acknowledge certain limited roles for government. He believed government should be responsible for enforcing the rule of law, protecting property rights, and maintaining national defense.
    - He also supported a **monetary authority** (like the central bank) to control the money supply to ensure price stability.
 
 ### 6. **School Vouchers and Education Reform**
@@ -53,7 +53,7 @@ Milton Friedman was a prominent economist and a leading figure in the Chicago Sc
 ### Key Quotes from Milton Friedman:
 - **"There is no such thing as a free lunch."**
   This reflects his view that every choice has a cost, even if it's not immediately apparent.
-  
+
 - **"Inflation is always and everywhere a monetary phenomenon."**
   This reflects his strong belief in monetarism and the central role of money supply in controlling inflation.
 

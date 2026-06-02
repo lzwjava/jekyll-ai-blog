@@ -37,7 +37,7 @@ type: note
 
 总的来说，我很喜欢它；这是对生产力建议中“工具膨胀”陷阱的明智反击。对于你那设备繁多但注重效率的工作流程来说，远比使用双笔记本电脑要好。到目前为止，它在实践中表现如何——在终端或 AI 运行方面有什么具体的痛点吗？或者关于项目（例如，有共享依赖？）的细节，可能有助于进一步调整这个方法？
 
-[如何在同时处理多个项目时保持理智](https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf)  
-[VS Code 中的多根工作区](https://code.visualstudio.com/docs/editor/workspaces)  
-[开发者的上下文切换](https://spin.atomicobject.com/context-switching-developers/)  
+[如何在同时处理多个项目时保持理智](https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf)
+[VS Code 中的多根工作区](https://code.visualstudio.com/docs/editor/workspaces)
+[开发者的上下文切换](https://spin.atomicobject.com/context-switching-developers/)
 [如何高效管理多个项目](https://morningmate.com/blog/how-to-manage-multiple-projects/)

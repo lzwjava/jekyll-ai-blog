@@ -13,7 +13,7 @@ A **database deadlock** occurs when two or more transactions are waiting for eac
 ---
 
 ### Example: Deadlock Between Two Transactions
-- **Scenario**: 
+- **Scenario**:
   - Transaction T1 updates a row in the `Orders` table and then needs to update a row in the `Customers` table.
   - Transaction T2 updates a row in the `Customers` table and then needs to update a row in the `Orders` table.
   - Both transactions lock resources in a different order, leading to a deadlock.

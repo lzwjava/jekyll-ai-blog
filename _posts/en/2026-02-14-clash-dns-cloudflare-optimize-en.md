@@ -12,7 +12,7 @@ type: note
 
 Question: How about changing to Cloudflare DNS servers in the Clash configuration, like using nameserver 8.8.8.8 and 1.1.1.1 with fallback https://1.1.1.1/dns-query?
 
-Answer: 
+Answer:
 
 Yes, switching to **Cloudflare DNS** (1.1.1.1) is a very good and popular choice in Clash configurations — especially when you want fast, privacy-focused, and leak-resistant DNS resolution. Your proposed snippet is already quite solid, but let’s improve and explain it properly for best results in 2026.
 
@@ -89,7 +89,7 @@ dns:
 
 This setup gives you fast, encrypted, and leak-resistant DNS — much better than plain UDP DNS servers in most proxy/VPN scenarios.
 
-References:  
+References:
 
 - [Clash DNS Configuration Guide](https://github.com/MetaCubeX/mihomo/wiki/DNS)
 - [Cloudflare 1.1.1.1 DoH/DoT Endpoints](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/)

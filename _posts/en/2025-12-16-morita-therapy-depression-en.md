@@ -12,7 +12,7 @@ type: note
 
 Question: Many people who become depressed or severely depressed also struggle to accept their depression, which makes things worse, similar to the approach in Morita therapy.
 
-Answer: 
+Answer:
 
 Many individuals experiencing depression or severe depression resist or fail to accept their symptoms, often trying to fight, suppress, or eliminate them. This resistance—through symptom preoccupation or constant struggle—can exacerbate the condition by interfering with natural recovery processes and increasing emotional distress.
 
@@ -29,11 +29,11 @@ This approach shares similarities with modern therapies like Acceptance and Comm
 
 Evidence from studies, including pilot trials and meta-analyses, suggests Morita therapy can be effective for depression, particularly as an adjunct to other treatments, by reducing severity and improving remission rates when acceptance replaces resistance.
 
-References:  
+References:
 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/  
-- https://en.wikipedia.org/wiki/Morita_therapy  
-- https://bmjopen.bmj.com/content/8/8/e021605  
-- https://pubmed.ncbi.nlm.nih.gov/30380592/  
-- http://www.moritaschool.com/read-me  
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/
+- https://en.wikipedia.org/wiki/Morita_therapy
+- https://bmjopen.bmj.com/content/8/8/e021605
+- https://pubmed.ncbi.nlm.nih.gov/30380592/
+- http://www.moritaschool.com/read-me
 - https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/

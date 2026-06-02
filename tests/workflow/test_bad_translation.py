@@ -23,19 +23,23 @@ def scan_chinese_posts_for_forbidden_phrase():
                 for idx, line in enumerate(f, start=1):
                     for phrase in FORBIDDEN_PHRASES:
                         if phrase in line:
-                            violations.append({
-                                "file": path,
-                                "line_number": idx,
-                                "line": line.rstrip("\n"),
-                                "phrase": phrase,
-                            })
+                            violations.append(
+                                {
+                                    "file": path,
+                                    "line_number": idx,
+                                    "line": line.rstrip("\n"),
+                                    "phrase": phrase,
+                                }
+                            )
         except Exception as e:
-            violations.append({
-                "file": path,
-                "line_number": 0,
-                "line": f"<error reading file: {e}>",
-                "phrase": "<io>",
-            })
+            violations.append(
+                {
+                    "file": path,
+                    "line_number": 0,
+                    "line": f"<error reading file: {e}>",
+                    "phrase": "<io>",
+                }
+            )
     return violations
 
 
@@ -50,9 +54,7 @@ class TestBadTranslation(unittest.TestCase):
                 ]
             )
             phrases = ", ".join(FORBIDDEN_PHRASES)
-            self.fail(
-                f"Found forbidden phrases in Chinese posts: {phrases}\n{details}"
-            )
+            self.fail(f"Found forbidden phrases in Chinese posts: {phrases}\n{details}")
 
 
 if __name__ == "__main__":

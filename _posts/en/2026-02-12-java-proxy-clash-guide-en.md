@@ -12,7 +12,7 @@ type: note
 
 Question: How to use Java to write a proxy application like Clash, the famous proxy program especially in mainland China? What libraries should we use, what's the architecture, preferring the latest/advanced ones?
 
-Answer: 
+Answer:
 
 Building a full-featured proxy client like **Clash** (or modern forks such as ClashMeta / mihomo) in pure Java is challenging and not very common. Clash itself is written in Go and most popular clients (FlClash, Clash Verge, etc.) are wrappers or use other languages. There are almost no mature, actively maintained, full Clash-compatible proxy clients written purely in Java as of 2026.
 
@@ -126,7 +126,7 @@ public class SimpleProxy {
 
 Most advanced Java proxy projects today are either simple HTTP proxies or enterprise reverse proxies — not client-side censorship circumvention tools like Clash.
 
-References:  
+References:
 
 - [Netty project](https://netty.io)
 - [sockslib GitHub](https://github.com/fengyouchao/sockslib)

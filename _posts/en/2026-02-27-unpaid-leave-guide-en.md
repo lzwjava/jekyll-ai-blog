@@ -11,7 +11,7 @@ type: note
 
 Question: What does unpaid leave mean?
 
-Answer: 
+Answer:
 
 **Unpaid leave** means time away from work during which an employee is **not paid** their normal salary or wages.
 
@@ -44,9 +44,9 @@ Here are the key points about unpaid leave:
 - Benefits (health insurance, pension contributions) may be affected or require employee contributions
 - Job is normally protected, but seniority or promotion opportunities may be impacted in some cases
 
-In short:  
+In short:
 **Unpaid leave = approved time off work + no pay during that time + (usually) job still exists when you return.**
 
-References:  
+References:
 
 - None required for this general definition

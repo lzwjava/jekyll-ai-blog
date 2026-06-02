@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a more comprehensive transcript of the YouTube video at https://www.youtube.com/watch?v=kKvK2foOTJM.
 
-Answer: 
+Answer:
 
 The video is a TEDxHobart talk titled "Brain Hack: 6 secrets to learning faster, backed by neuroscience" by Dr. Lila Landowski (delivered in February 2023, video published May 2023). Below is the full verbatim transcript (with approximate timestamps for reference).
 
@@ -118,8 +118,8 @@ Thank you for your attention — hope you learned something!
 
 (The talk is approximately 18 minutes long.)
 
-References:  
+References:
 
-- [YouTube Video](https://www.youtube.com/watch?v=kKvK2foOTJM)  
-- [TED.com Talk Page with Transcript](https://www.ted.com/talks/lila_landowski_brain_hack_6_secrets_to_learning_faster_backed_by_neuroscience/transcript)  
+- [YouTube Video](https://www.youtube.com/watch?v=kKvK2foOTJM)
+- [TED.com Talk Page with Transcript](https://www.ted.com/talks/lila_landowski_brain_hack_6_secrets_to_learning_faster_backed_by_neuroscience/transcript)
 - [Full Transcript on Singju Post](https://singjupost.com/transcript-6-secrets-to-learning-faster-backed-by-neuroscience-w-lila-landowski/)

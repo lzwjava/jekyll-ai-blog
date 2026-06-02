@@ -60,7 +60,7 @@ def unassign_ip_from_droplet(ip_address, droplet_id, droplet_name):
     headers = get_digitalocean_headers()
     if not headers:
         return False
-    
+
     try:
         url = f"https://api.digitalocean.com/v2/reserved_ips/{ip_address}"
         resp = requests.delete(url, headers=headers)
@@ -76,7 +76,7 @@ def assign_ip_to_droplet(ip_address, droplet_id, droplet_name):
     headers = get_digitalocean_headers()
     if not headers:
         return False
-    
+
     try:
         url = f"https://api.digitalocean.com/v2/reserved_ips/{ip_address}/actions"
         req = {
@@ -117,7 +117,7 @@ def process_reserved_ips(reserved_ips, droplet_name, only_check=False):
                 if droplet_id:
                     if unassign_ip_from_droplet(ip_address, droplet_id, droplet_name):
                         # 取消分配后尝试分配新IP
-                        
+
                         new_ip = create_new_reserved_ip(droplet_id)
                         if new_ip:
                             print("分配新IP前等待10秒...")
@@ -128,7 +128,7 @@ def process_reserved_ips(reserved_ips, droplet_name, only_check=False):
                                 print(f"未能将新IP {new_ip} 重新分配给Droplet {droplet_name}")
                         else:
                             print("没有可分配的IP")
-                    
+
                 else:
                     print(f"无法取消分配IP {ip_address}，因为未找到Droplet ID。")
                 return None
@@ -177,7 +177,7 @@ def get_reserved_ip(droplet_name=None, only_check=False):
     if reserved_ips is None:
         return None
     return process_reserved_ips(reserved_ips, droplet_name, only_check)
-    
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="获取DigitalOcean保留IP地址。")
     parser.add_argument("--droplet-name", required=True, help="要检查保留IP是否分配给的Droplet名称。")

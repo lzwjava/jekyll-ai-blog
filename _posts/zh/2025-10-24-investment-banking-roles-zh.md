@@ -34,6 +34,6 @@ type: note
 
 晋升竞争激烈——许多从业者在2-3年后会选择转行以改善工作生活平衡，或进入私募股权等相关领域。大型投行重点从顶尖学府招聘，暑期实习是常见入职途径。企业文化强调高强度、团队协作和精英主义。
 
-[投资银行概述 - 企业金融协会](https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/)  
-[投资银行层级结构 - 投资百科](https://www.investopedia.com/articles/professionals/102915/hierarchy-investment-bank.asp)  
+[投资银行概述 - 企业金融协会](https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/)
+[投资银行层级结构 - 投资百科](https://www.investopedia.com/articles/professionals/102915/hierarchy-investment-bank.asp)
 [投行职业路径：角色、薪酬与晋升](https://mergersandinquisitions.com/investment-banking-career-path/)

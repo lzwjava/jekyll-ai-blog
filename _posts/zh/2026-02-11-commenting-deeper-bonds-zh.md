@@ -12,7 +12,7 @@ type: note
 
 Question: 如何利用评论在 WeChat, LinkedIn, Facebook 等平台建立关系？为什么有些人只评论不发帖，这又是如何帮助建立温暖、关怀的关系的？
 
-Answer: 
+Answer:
 
 **在 Social Media 上通过评论建立关系**是一种轻压力、高效的方式，可以在不需要自己创作 Content 的情况下展示关怀、支持和真实兴趣。许多人正是通过成为“持续的评论者”而非“频繁的发帖者”，建立了深厚、温暖的人际连接。这种方法显得非常真诚，因为它将关注点放在他人身上，而非自我推广。
 
@@ -57,7 +57,7 @@ Answer:
 
 简而言之，用心地发表评论是被低估的建立深厚关系的方式之一。你观察到的那些“只发表评论”的人，往往是在不争夺聚光灯的情况下，通过默默支持他人，悄悄地创造着最温暖的人际连接。
 
-References:  
+References:
 
 - [How to Network on LinkedIn Without Posting (The Comments Strategy)](https://theintrovertednetworker.substack.com/p/the-hidden-linkedin-trick-youre-not)
 - [Psychology says people who always browse on social media but never comment or post typically display these 5 traits](https://experteditor.com.au/blog/gen-bt-psychology-says-people-who-always-browse-on-social-media-but-never-comment-or-post-typically-display-these-5-traits)

@@ -22,7 +22,7 @@ type: note
 国际学生可以在录取过程中直接向大学申请学分评估。许多大学拥有正式的衔接路径、打包录取（Packaged Offers）或针对相关先修资格的保证学分。以下是与 Computer Science / Software Engineering / IT 相关的代表性案例：
 
 - **RMIT University** (墨尔本)：拥有从其自身的 Associate Degree in Information Technology 到 Bachelor of Computer Science 或 Bachelor of Information Technology 的强力衔接路径。通常提供显著的学分减免（最高可达 2 年）。他们为国际学生提供打包衔接路径和学分减免选项。
-  
+
 - **Charles Darwin University (CDU)**：为 IT 领域的副学士学位或同等学历提供学分转入手续，可进入 Bachelor of Computer Science 或类似学位。从 VET (Vocational Education and Training) 资格转入的情况很常见。
 
 - **Southern Cross University (SCU)**：持有 Associate Degree in Information Technology（或同等学历）的申请人，在 Bachelor of Information Technology 中最高可获得 16 个单元的 Advanced Standing（有可能将学位课程时长缩短一半）。
@@ -33,7 +33,7 @@ type: note
 
 - **Victoria University (VU)**：拥有强大的 TAFE 到大学的衔接路径，Diploma/Associate Degree 通常可以直接进入 IT/Computer Science 相关本科专业的第二年或第二学期。
 
-- **其他值得关注的大学**： 
+- **其他值得关注的大学**：
   - **University of Wollongong**：在合作项目（如香港）中提供一些 Top-up 风格的课程，但在澳大利亚本土则适用学分减免模式。
   - **TAFE SA** (南澳大利亚州)：与多所大学合作，提供从 Associate Degree/Advanced Diploma 到 Bachelor's Degree 的学分转移，学分抵免额度最高可达 1.5–2 年。
   - **Edith Cowan University**、**Flinders University** 和 **Swinburne** 也会针对其 Computer Science/Software Engineering 项目考虑相关 IT 资质的学分抵免。

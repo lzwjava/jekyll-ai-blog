@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to "种树郭橐驼传" (The Biography of Camel Guo the Tree Planter).
 
-Answer: 
+Answer:
 
 "种树郭橐驼传" (often translated as "The Biography of Camelback Guo the Tree Planter" or "Guo the Camel, the Tree Planter") is a famous classical Chinese prose essay written by **柳宗元** (Liu Zongyuan, 773–819), one of the leading figures of the Tang Dynasty literary movement called the **古文运动** (Classical Prose Movement).
 
@@ -27,7 +27,7 @@ The essay tells the story of a poor, ugly, humpbacked gardener nicknamed **郭�
 
 When people ask him his secret, he gives very simple answers:
 
-> “我只是不伤害树的根，不强迫它生长，顺着它的天性而已。”  
+> “我只是不伤害树的根，不强迫它生长，顺着它的天性而已。”
 > ("I merely do not harm the tree’s roots, do not force its growth, and follow its natural tendencies.")
 
 He then sharply criticizes ordinary gardeners who:
@@ -45,7 +45,7 @@ At the end, Liu Zongyuan turns the story into a powerful political allegory:
 ### Core Theme & Famous Lines
 The most quoted and philosophically important sentence is:
 
-> **“苟能顺木之天，以致其性焉尔。”**  
+> **“苟能顺木之天，以致其性焉尔。”**
 > ("One only needs to follow the natural character of the tree so as to bring its nature to fulfillment.")
 
 This line embodies Daoist ideas (无为而治 / wuwei – governing by non-interference) while also serving as a sharp critique of the excessive, micromanaging bureaucracy of the Tang government.
@@ -57,10 +57,10 @@ This line embodies Daoist ideas (无为而治 / wuwei – governing by non-inter
 - Often studied together with Liu Zongyuan’s other famous Yongzhou exile essays (e.g. 《小石潭记》, 《捕蛇者说》)
 - Still widely quoted today when discussing management philosophy, education methods, economic policy, or parenting — basically any situation involving “over-management” vs “letting things follow their nature”
 
-In short:  
+In short:
 种树郭橐驼传 is a very short, deceptively simple story that uses the metaphor of tree-planting to deliver a profound Daoist-influenced political and management philosophy: **less interference, respect natural development → better results**.
 
-References:  
+References:
 
 - [柳宗元《种树郭橐驼传》原文及译文](https://www.gushiwen.cn/gushiwen_4a4e4e4e4e.aspx)
 - Classical Chinese literature textbook selections (commonly taught in Chinese secondary education)

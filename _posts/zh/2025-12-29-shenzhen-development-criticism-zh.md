@@ -28,11 +28,11 @@ Shenzhen 通常被视为现代 Tech Hub 和经济奇迹，但因其快速发展�
 
 这些观点极具主观性，通常也会伴随着对 Shenzhen 的创新能力、绿化空间、毗邻 Hong Kong 的地理优势以及发展机遇的赞美。然而，这些负面评价解释了为什么尽管 Shenzhen 取得了成功，有些人仍然更青睐中国其他城市。
 
-References:  
+References:
 
-- [r/shenzhen: Do you like Shenzhen?](https://www.reddit.com/r/shenzhen/comments/17v2mnz/do_you_like_shenzhen/)  
-- [r/China: what do you think about shenzhen?](https://www.reddit.com/r/China/comments/18s8ro1/what_do_you_think_about_shenzhen/)  
-- [r/chinalife: Just got to shenzhen this month, I hate it](https://www.reddit.com/r/chinalife/comments/1cf77vn/just_got_to_shenzhen_this_month_i_hate_it_advice/)  
-- [r/chinalife: Worse expats in Chinese cities - I nominate Shenzhen](https://www.reddit.com/r/chinalife/comments/1koix07/worse_expats_in_chinese_cities_i_nominate_shenzhen/)  
-- [r/China: Shenzhen pros and cons](https://www.reddit.com/r/China/comments/13dsqp0/shenzhen_pros_and_cons/)  
+- [r/shenzhen: Do you like Shenzhen?](https://www.reddit.com/r/shenzhen/comments/17v2mnz/do_you_like_shenzhen/)
+- [r/China: what do you think about shenzhen?](https://www.reddit.com/r/China/comments/18s8ro1/what_do_you_think_about_shenzhen/)
+- [r/chinalife: Just got to shenzhen this month, I hate it](https://www.reddit.com/r/chinalife/comments/1cf77vn/just_got_to_shenzhen_this_month_i_hate_it_advice/)
+- [r/chinalife: Worse expats in Chinese cities - I nominate Shenzhen](https://www.reddit.com/r/chinalife/comments/1koix07/worse_expats_in_chinese_cities_i_nominate_shenzhen/)
+- [r/China: Shenzhen pros and cons](https://www.reddit.com/r/China/comments/13dsqp0/shenzhen_pros_and_cons/)
 - [知乎: 深圳有什么缺点？](https://www.zhihu.com/question/28225105)

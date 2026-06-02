@@ -26,24 +26,24 @@ DHCP uses UDP ports: 67 (server) and 68 (client).
 ### The DHCP Process: DORA
 The core process for obtaining a new IP address is called **DORA** (Discover, Offer, Request, Acknowledge). All initial messages are broadcast because the client has no IP address yet.
 
-1. **Discover (DHCPDISCOVER)**  
-   The client broadcasts a DHCPDISCOVER message to find available servers.  
-   - Source IP: 0.0.0.0  
-   - Destination IP: 255.255.255.255 (broadcast)  
+1. **Discover (DHCPDISCOVER)**
+   The client broadcasts a DHCPDISCOVER message to find available servers.
+   - Source IP: 0.0.0.0
+   - Destination IP: 255.255.255.255 (broadcast)
    - It includes the client's MAC address for identification.
 
-2. **Offer (DHCPOFFER)**  
-   One or more DHCP servers respond with a DHCPOFFER message, proposing an IP address and configuration options.  
-   - Broadcast (since client has no IP yet).  
+2. **Offer (DHCPOFFER)**
+   One or more DHCP servers respond with a DHCPOFFER message, proposing an IP address and configuration options.
+   - Broadcast (since client has no IP yet).
    - Includes offered IP, lease duration, subnet mask, gateway, DNS, etc.
 
-3. **Request (DHCPREQUEST)**  
-   The client selects one offer (usually the first received) and broadcasts a DHCPREQUEST to accept it.  
+3. **Request (DHCPREQUEST)**
+   The client selects one offer (usually the first received) and broadcasts a DHCPREQUEST to accept it.
    - This informs other servers that their offers are declined.
 
-4. **Acknowledge (DHCPACK)**  
-   The selected server sends a DHCPACK to confirm the assignment.  
-   - The client can now use the IP address.  
+4. **Acknowledge (DHCPACK)**
+   The selected server sends a DHCPACK to confirm the assignment.
+   - The client can now use the IP address.
    - If the server cannot fulfill (e.g., address in use), it sends DHCPNAK (negative acknowledgment).
 
 ### Additional Message Types

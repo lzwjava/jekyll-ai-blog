@@ -33,7 +33,7 @@ Founded in **2022** and headquartered in **Austin, Texas**, Saronic focuses on p
 
 Saronic has rapidly emerged as one of the leading players in the growing autonomous maritime defense sector, competing with companies like Anduril while emphasizing scalable, domestically produced solutions for naval applications.
 
-**References:**  
+**References:**
 
 - [Saronic Technologies Official Website](https://www.saronic.com/)
 - [LinkedIn - Saronic Technologies](https://www.linkedin.com/company/saronic-technologies)

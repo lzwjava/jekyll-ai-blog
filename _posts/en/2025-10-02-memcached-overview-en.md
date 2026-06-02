@@ -25,7 +25,7 @@ Memcached operates as a daemon (background process) that runs on one or more ser
    - **Port**: '11211' (Memcached's default port).
    - **Weight**: '1' (defines server priority in a cluster; higher values mean more load).
 
-3. **Operations**: 
+3. **Operations**:
    - Set: Store a key-value pair with an optional expiration time (e.g., `set app_name 0 3600 13\n"cached_data"` via telnet).
    - Get: Retrieve a value by key.
    - Delete: Remove by key.

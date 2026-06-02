@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about pursuing happiness?
 
-Answer: 
+Answer:
 
 Several contrarian or unpopular perspectives challenge the common cultural emphasis on directly pursuing happiness as life's primary goal. These ideas, drawn from psychological research, philosophy, and cultural critiques, suggest that the relentless chase for happiness can be counterproductive or misguided. Here are some key ones:
 
@@ -30,11 +30,11 @@ Several contrarian or unpopular perspectives challenge the common cultural empha
 
 These views remain unpopular because modern culture, self-help industries, and media promote happiness as an achievable, individual right through positive thinking, goals, and consumption.
 
-References:  
+References:
 
-- https://theconversation.com/why-the-pursuit-of-happiness-can-be-bad-for-you-and-what-you-should-pursue-instead-176838  
-- https://www.theguardian.com/science/2021/jan/10/why-its-time-to-stop-pursuing-happiness  
-- https://greatergood.berkeley.edu/article/item/a_better_way_to_pursue_happiness  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/  
-- https://iep.utm.edu/stoiceth/  
+- https://theconversation.com/why-the-pursuit-of-happiness-can-be-bad-for-you-and-what-you-should-pursue-instead-176838
+- https://www.theguardian.com/science/2021/jan/10/why-its-time-to-stop-pursuing-happiness
+- https://greatergood.berkeley.edu/article/item/a_better_way_to_pursue_happiness
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/
+- https://iep.utm.edu/stoiceth/
 - https://www.psychologicalscience.org/publications/observer/beyond-the-weird-happiness.html

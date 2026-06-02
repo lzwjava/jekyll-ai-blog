@@ -12,7 +12,7 @@ type: note
 
 Question: How can my competitive programming Java template be improved?
 
-Answer: 
+Answer:
 
 Your current template is clean and simple, but it has several limitations that can cause **TLE** (Time Limit Exceeded) on platforms like **Codeforces**, **AtCoder**, or **CodeChef** — especially on problems with large input (N ≤ 10⁶, many test cases, or tight time limits ~1–2 seconds).
 
@@ -184,7 +184,7 @@ Your current template is a good minimal base — just upgrade the input reading 
 
 Good luck & keep practicing!
 
-References:  
+References:
 
 - [Fast data input-output for competitive programming in Java 11](https://codeforces.com/blog/entry/97203)
 - [Java Template for Competitive Coding](https://codeforces.com/blog/entry/77287)

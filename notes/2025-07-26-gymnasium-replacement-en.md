@@ -28,7 +28,7 @@ observation, info = env.reset(seed=42)
 for _ in range(1000):
     action = env.action_space.sample()  # Random action (agent would learn better ones)
     observation, reward, terminated, truncated, info = env.step(action)
-    
+
     if terminated or truncated:
         observation, info = env.reset()
 
@@ -37,6 +37,6 @@ env.close()
 
 If you're starting with RL, Gymnasium is the go-to choice today for most projects.
 
-[OpenAI Gym GitHub](https://github.com/openai/gym)  
-[Gymnasium Documentation](https://gymnasium.farama.org/)  
+[OpenAI Gym GitHub](https://github.com/openai/gym)
+[Gymnasium Documentation](https://gymnasium.farama.org/)
 [Gym Documentation (Legacy)](https://www.gymlibrary.dev/)

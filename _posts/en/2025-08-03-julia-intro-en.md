@@ -141,5 +141,5 @@ The community emphasizes diversity and welcomes beginners.
 
 Recent releases focus on performance and usability, like Julia 1.11's public API enhancements and 1.12's preview with improved Unicode and parser updates. The May 2025 community newsletter highlights package ecosystem growth and events. Funding and commercial adoption continue to expand via JuliaHub.
 
-[Julia Official Website](https://julialang.org/)  
+[Julia Official Website](https://julialang.org/)
 [Julia on Wikipedia](https://en.wikipedia.org/wiki/Julia_(programming_language))

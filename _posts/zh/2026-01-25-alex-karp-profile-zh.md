@@ -52,7 +52,7 @@ Karp 被广泛认为是科技界最**不落俗套、直言不讳且古怪**的 C
 
 总而言之，Alex Karp 是一位从**哲学家转型的科技 CEO**，他打造了过去二十年中在政治和伦理上最具争议、但在商业上却极为成功的企业软件公司之一。他深厚的学术背景、充满斗志的言论以及对“赢得战争的软件”的专注，使他持续成为技术、国防和 AI 辩论中一个两极分化且极具影响力的人物。
 
-**References:**  
+**References:**
 
 - [Alex Karp - Wikipedia](https://en.wikipedia.org/wiki/Alex_Karp)
 - [Alexander Karp - Forbes](https://www.forbes.com/profile/alexander-karp)

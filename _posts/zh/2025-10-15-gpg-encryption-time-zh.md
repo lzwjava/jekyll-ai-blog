@@ -19,6 +19,6 @@ GPG 加密此类文件所需时间取决于您的硬件配置（CPU 速度、磁
 
 若需更快的加密速度，且无需使用非对称密钥加密，可考虑采用对称加密配合密码短语的方式（`gpg --symmetric --cipher-algo AES256`）。
 
-[YTS 影片页面](https://yts.mx/movie/the-matrix-1999)  
-[NASA GPG 基准测试](https://www.nas.nasa.gov/hecc/support/kb/using-gpg-to-encrypt-your-data_242.html)  
+[YTS 影片页面](https://yts.mx/movie/the-matrix-1999)
+[NASA GPG 基准测试](https://www.nas.nasa.gov/hecc/support/kb/using-gpg-to-encrypt-your-data_242.html)
 [Reddit GPG 速度讨论帖](https://www.reddit.com/r/linuxadmin/comments/12jetbr/gpg_what_is_the_fastest_way_to_encrypt_large_files/)

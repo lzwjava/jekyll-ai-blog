@@ -69,7 +69,7 @@ def compress_session(client, history):
     )
     # Now clear history and inject only the summary
     return [{
-        "role": "user", 
+        "role": "user",
         "content": f"[Session resumed] Context: {summary.content[0].text}"
     }]
 ```

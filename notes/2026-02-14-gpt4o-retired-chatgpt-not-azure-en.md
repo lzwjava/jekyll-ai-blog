@@ -12,7 +12,7 @@ type: note
 
 Question: Why can't people use GPT-4o through Copilot, Azure services, etc.?
 
-Answer: 
+Answer:
 
 As of February 14, 2026 (the day after the retirement date), **GPT-4o is no longer available in consumer-facing interfaces** like the main ChatGPT app/web, but its availability differs significantly across platforms:
 
@@ -41,7 +41,7 @@ The retirement hit hardest in the consumer ChatGPT experience, where users had d
 
 In summary: You **cannot** use GPT-4o anymore in standard ChatGPT as of February 14, 2026, but it is **still accessible** via Azure OpenAI Service (with version-dependent timelines into late 2026). Copilot availability depends on Microsoft's specific implementation, but it was not fully blocked in the same abrupt way.
 
-References:  
+References:
 
 - [OpenAI announcement: Retiring GPT-4o and other models in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models)
 - [OpenAI Help Center: Retiring GPT-4o and other ChatGPT models](https://help.openai.com/en/articles/20001051-retiring-gpt-4o-and-other-chatgpt-models)

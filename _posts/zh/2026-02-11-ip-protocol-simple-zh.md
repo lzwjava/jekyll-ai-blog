@@ -12,7 +12,7 @@ type: note
 
 Question: "IP protocol" 是什么意思？是指用 "ip link show" 来显示 MAC address 吗？还是指 ping，但 ping 不是 ICMP protocol 吗？
 
-Answer:  
+Answer:
 
 **IP protocol** 指的是 **Internet Protocol**（网际协议）——它是构建 Internet 的核心协议（IPv4 定义在 RFC 791 中，IPv6 定义在 RFC 8200 中）。
 
@@ -52,6 +52,6 @@ Answer:
 
 所以，当有人提到 "IP protocol" 时，他们几乎总是指 **Internet Protocol**（负责 IP addresses 和 routing 的协议）——而**不是**指显示 MAC address 或 ping 命令本身。
 
-References:  
+References:
 
 - 无 (核心概念源自 RFC 791, RFC 792 (ICMP) 以及标准的 Linux networking commands 文档)

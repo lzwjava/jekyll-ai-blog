@@ -29,5 +29,5 @@ type: note
 
 参考资料：
 
-- [OpenAI Codex documentation](https://platform.openai.com/docs/guides/codex)  
+- [OpenAI Codex documentation](https://platform.openai.com/docs/guides/codex)
 - [Claude AI by Anthropic](https://www.anthropic.com/) – 关于结构化输入和提示可靠性的见解

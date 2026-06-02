@@ -12,7 +12,7 @@ type: note
 
 Question: Does AWS certification have test centers? How does it prevent AI cheating?
 
-Answer: 
+Answer:
 
 Yes, **AWS Certification exams do have test centers**.
 
@@ -47,9 +47,9 @@ In practice, using AI tools during the exam is extremely difficult without detec
 
 If you're concerned about fairness or setup, choosing a test center might feel more secure for some people.
 
-References:  
+References:
 
-- [AWS Certification Testing Options](https://aws.amazon.com/certification/certification-prep/testing)  
-- [Pearson VUE AWS OnVUE Online Testing](https://www.pearsonvue.com/us/en/aws/onvue.html)  
-- [AWS Certification General Policies (including data forensics)](https://aws.amazon.com/certification/policies/general-policies)  
+- [AWS Certification Testing Options](https://aws.amazon.com/certification/certification-prep/testing)
+- [Pearson VUE AWS OnVUE Online Testing](https://www.pearsonvue.com/us/en/aws/onvue.html)
+- [AWS Certification General Policies (including data forensics)](https://aws.amazon.com/certification/policies/general-policies)
 - [AWS Certification FAQs](https://aws.amazon.com/certification/faqs)

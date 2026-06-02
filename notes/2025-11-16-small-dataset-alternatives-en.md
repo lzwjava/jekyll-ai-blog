@@ -24,15 +24,15 @@ Yes, OpenWebText is huge (~9B tokens, 17GB uint16 file) and takes a long time to
 
 ### My personal recommendations depending on your goal
 
-1. Just want something that runs in < 5 minutes and fits anywhere → **tiny_shakespeare**  
+1. Just want something that runs in < 5 minutes and fits anywhere → **tiny_shakespeare**
    (nanoGPT users love this one)
 
-2. Want something still “real internet text” but tiny → OpenWebText first 10k documents  
+2. Want something still “real internet text” but tiny → OpenWebText first 10k documents
    ```python
    dataset = load_dataset("openwebtext", split="train[:10000]")
    ```
 
-3. Want the highest-quality small dataset right now (2025) → FineWeb-Edu 10B-token sample  
+3. Want the highest-quality small dataset right now (2025) → FineWeb-Edu 10B-token sample
    (~50M tokens, but much cleaner than OWT, almost identical quality to what top labs use)
 
    ```python
@@ -43,7 +43,7 @@ Yes, OpenWebText is huge (~9B tokens, 17GB uint16 file) and takes a long time to
    )
    ```
 
-4. Want something < 500MB but still diverse → RedPajama sample (200M tokens version)  
+4. Want something < 500MB but still diverse → RedPajama sample (200M tokens version)
    ```python
    dataset = load_dataset("togethercomputer/RedPajama-Data-1T", name="sample-200M", split="train")
    ```

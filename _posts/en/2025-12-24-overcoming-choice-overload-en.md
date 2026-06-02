@@ -12,7 +12,7 @@ type: note
 
 Question: There are so many games to play, places to visit, foods to eat, books to read, AI chatbots to try, digital contents, YouTube videos, and courses to study. With so many options, how to choose what to do and how to spend time effectively?
 
-Answer: 
+Answer:
 
 Feeling overwhelmed by endless options for entertainment, learning, and experiences is common—it's often called "choice overload" or "decision paralysis," where too many choices lead to indecision, stress, and inaction. The key is to shift from endless browsing to intentional selection and structured time use. Here's a practical guide to help you choose and spend your time wisely:
 
@@ -61,7 +61,7 @@ Adapt simple methods for leisure:
 
 By focusing on intention over abundance, you'll reduce overwhelm, enjoy more deeply, and make progress without regret. Start small today—pick one priority and one activity aligned with it.
 
-References:  
+References:
 
 - [7 steps for prioritizing your workload](https://www.teamwork.com/blog/how-to-prioritize-tasks/)
 - [How to prioritize tasks in 4 steps](https://asana.com/resources/how-prioritize-tasks-work)

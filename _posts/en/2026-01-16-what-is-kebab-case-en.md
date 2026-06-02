@@ -42,27 +42,27 @@ background-color-red-500
 
 ### Where kebab-case is most commonly used (2025–2026)
 
-- CSS class names and IDs  
+- CSS class names and IDs
   ```css
   .card-header-title { … }
   .is-active { … }
   ```
-- HTML data attributes  
+- HTML data attributes
   ```html
   <div data-user-id="123" data-created-at="2025-01-01"></div>
   ```
-- URL slugs  
+- URL slugs
   ```text
   https://example.com/blog/how-to-learn-rust-in-2026
   ```
-- Many modern CSS-in-JS libraries & utility-first frameworks  
+- Many modern CSS-in-JS libraries & utility-first frameworks
   (Tailwind CSS, UnoCSS, Panda CSS, etc.)
-- Git branch names (very common pattern)  
+- Git branch names (very common pattern)
   `feature/add-dark-mode-toggle`
 
-**Quick memory tip:**  
+**Quick memory tip:**
 Think of a real kebab — pieces of meat separated by **sticks** → words separated by **dashes**.
 
-**References:**  
+**References:**
 
 - None needed (this is standard programming terminology)

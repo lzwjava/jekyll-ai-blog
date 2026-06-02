@@ -47,14 +47,14 @@ logs/
     <!-- 定义日志目录和文件模式 -->
     <property name="LOG_DIR" value="logs"/>
     <property name="APP_NAME" value="myapp"/>
-    
+
     <!-- 控制台输出器用于开发 -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-    
+
     <!-- 文件输出器用于所有日志 -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}.log</file>
@@ -68,7 +68,7 @@ logs/
             <totalSizeCap>300MB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    
+
     <!-- 单独输出器仅用于错误日志 -->
     <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}-error.log</file>
@@ -87,7 +87,7 @@ logs/
             <totalSizeCap>100MB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    
+
     <!-- 单独输出器用于启动日志 -->
     <appender name="STARTUP_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}-startup.log</file>
@@ -99,26 +99,26 @@ logs/
             <maxHistory>7</maxHistory>
         </rollingPolicy>
     </appender>
-    
+
     <!-- 应用特定日志记录器用于启动事件 -->
     <logger name="org.springframework.boot" level="INFO" additivity="false">
         <appender-ref ref="STARTUP_FILE"/>
         <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>
-    
+
     <!-- 捕获 SQL 日志（如果使用 JPA） -->
     <logger name="org.hibernate.SQL" level="DEBUG" additivity="false">
         <appender-ref ref="FILE"/>
     </logger>
-    
+
     <!-- 根日志记录器配置 -->
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
         <appender-ref ref="ERROR_FILE"/>
     </root>
-    
+
     <!-- 环境特定配置 -->
     <springProfile name="prod">
         <root level="WARN">
@@ -126,7 +126,7 @@ logs/
             <appender-ref ref="ERROR_FILE"/>
         </root>
     </springProfile>
-    
+
     <springProfile name="dev">
         <root level="DEBUG">
             <appender-ref ref="CONSOLE"/>
@@ -141,7 +141,7 @@ logs/
 spring:
   application:
     name: myapp
-  
+
 logging:
   config: classpath:logback-spring.xml
   level:
@@ -149,7 +149,7 @@ logging:
     com.yourpackage: DEBUG
     org.springframework.web: DEBUG
     org.hibernate.SQL: DEBUG
-    
+
 # 替代方案：直接在 application.yml 中配置（更简单的方法）
   file:
     name: logs/${spring.application.name}.log
@@ -217,23 +217,23 @@ public class LoggingConfiguration {
 
     private void setupSessionLogger() {
         LoggerContext context = (LoggerContext) LoggerFactory.getILoggerFactory();
-        
+
         // 创建会话特定的日志文件
         String sessionId = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         String sessionLogFile = logPath + "/" + appName + "-session-" + sessionId + ".log";
-        
+
         // 设置会话输出器
         RollingFileAppender sessionAppender = new RollingFileAppender();
         sessionAppender.setContext(context);
         sessionAppender.setFile(sessionLogFile);
-        
+
         // 模式编码器
         PatternLayoutEncoder encoder = new PatternLayoutEncoder();
         encoder.setContext(context);
         encoder.setPattern("%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n");
         encoder.start();
         sessionAppender.setEncoder(encoder);
-        
+
         // 滚动策略
         TimeBasedRollingPolicy rollingPolicy = new TimeBasedRollingPolicy();
         rollingPolicy.setContext(context);
@@ -242,10 +242,10 @@ public class LoggingConfiguration {
         rollingPolicy.setMaxHistory(7);
         rollingPolicy.setTotalSizeCap(FileSize.valueOf("100MB"));
         rollingPolicy.start();
-        
+
         sessionAppender.setRollingPolicy(rollingPolicy);
         sessionAppender.start();
-        
+
         // 添加到根日志记录器
         Logger rootLogger = context.getLogger(Logger.ROOT_LOGGER_NAME);
         rootLogger.addAppender(sessionAppender);
@@ -255,24 +255,24 @@ public class LoggingConfiguration {
 // 用于自定义日志收集的工具类
 @Component
 public class LogCollector {
-    
+
     private static final Logger logger = LoggerFactory.getLogger(LogCollector.class);
-    
+
     @Value("${logging.path:logs}")
     private String logPath;
-    
+
     @EventListener(ApplicationReadyEvent.class)
     public void onApplicationReady() {
         logger.info("应用成功启动于 {}", LocalDateTime.now());
         logger.info("日志文件收集在: {}", new File(logPath).getAbsolutePath());
     }
-    
+
     @EventListener(ContextClosedEvent.class)
     public void onApplicationShutdown() {
         logger.info("应用关闭于 {}", LocalDateTime.now());
         collectFinalLogs();
     }
-    
+
     private void collectFinalLogs() {
         // 可选：在关闭时压缩或归档日志
         try {

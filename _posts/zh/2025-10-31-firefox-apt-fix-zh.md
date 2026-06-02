@@ -55,5 +55,5 @@ type: note
 
 如果这些方法未能解决问题，请分享更多详细信息，例如您的代理设置或完整的 `/etc/apt/sources.list.d/mozilla.list` 文件内容，以便进行更深入的故障排除。
 
-[Ubuntu 23.10 - 更新问题](https://askubuntu.com/questions/1507571/ubuntu-23-10-update-problems-some-index-files-failed-to-download)  
+[Ubuntu 23.10 - 更新问题](https://askubuntu.com/questions/1507571/ubuntu-23-10-update-problems-some-index-files-failed-to-download)
 [Firefox apt 软件源错误](https://www.reddit.com/r/firefox/comments/1ois308/firefox_apt_repository_error/)

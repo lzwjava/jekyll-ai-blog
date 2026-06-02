@@ -39,7 +39,7 @@ In your network (e.g., LinkedIn, colleagues, industry groups), people fall into 
 ### Practical Ways to Assess and Build Your Network
 - **Track Patterns**: Use a simple CRM tool (like Notion, Airtable, or even a spreadsheet) to log interactions. Note: What did they ask? What did they give? Over 3-6 months, patterns emerge.
 - **Test with Small Asks**: Share a low-stakes useful tidbit (e.g., "Found this free API testing tool—relevant to your work?") and see the response. Givers amplify it; takers might just take it.
-- **Leverage Online Signals**: 
+- **Leverage Online Signals**:
   - Check their LinkedIn/Twitter/GitHub activity. Do they post original insights, answer questions in communities (e.g., Reddit's r/MachineLearning or Stack Overflow), or collaborate on open-source?
   - Tools like Hunter.io or Clearbit can reveal more about their professional footprint if you're vetting deeper.
 - **Be a Giver Yourself**: Ironically, this attracts more givers. Aim to provide value first—your colleague story shows how it pays off. Studies (e.g., from Harvard Business Review) show givers end up with stronger, more resilient networks long-term.

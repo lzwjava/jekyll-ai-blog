@@ -22,5 +22,5 @@ This isn't about practicality alone; it's knowledge as an endgame, much like you
 
 If there's a specific post or sentence from his feed that's stumping (or intriguing) you, paste it here—I'll research-attitude it with you. What's one thing from his latest that lit this up for you?
 
-[垠的备忘录 | Yin Wang](https://yinwang1.substack.com/)  
+[垠的备忘录 | Yin Wang](https://yinwang1.substack.com/)
 [Yin's Memos (English counterpart)](https://yinwang0.substack.com/)

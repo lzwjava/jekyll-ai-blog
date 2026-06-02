@@ -11,7 +11,7 @@ type: note
 
 Question: The process of making a daily phone call is described as "pick up the phone - dial the number - connect and talk - hang up." What is the network service called that is similar to this phone call process?
 
-Answer: 
+Answer:
 
 The network service similar to the described phone call process is called a **Connection-Oriented** service (or **面向连接** service in Chinese).
 
@@ -30,7 +30,7 @@ The network service similar to the described phone call process is called a **Co
 3.  **Contrast**:
     *   This is opposite to a **Connectionless** service (like sending a letter or using UDP), where each packet is sent independently without prior setup, and there is no guarantee of order or delivery.
 
-References:  
+References:
 
 - [Transmission Control Protocol (TCP) - Wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - [Connection-oriented communication - Wikipedia](https://en.wikipedia.org/wiki/Connection-oriented_communication)

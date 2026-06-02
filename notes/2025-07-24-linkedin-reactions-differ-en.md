@@ -34,9 +34,9 @@ To build stronger ones: Prioritize reciprocity—help others without expecting i
 
 Overall, this LinkedIn dynamic reflects broader corporate culture: It's optimized for advancement, not adversity. If it feels disheartening, remember it's more about the platform and system than personal worth.
 
-**References**  
-[Why Posting to LinkedIn About Getting Laid Off Can Help You Land a Job](https://www.businessinsider.com/why-posting-to-linkedin-about-getting-laid-off-can-help-you-land-a-job-2022-7)  
-[Should You Announce You've Been Laid Off on LinkedIn?](https://www.success.com/announce-your-layoff-on-linkedin/)  
-[How to Write a Great “Open To Work” LinkedIn Post](https://www.alifeafterlayoff.com/how-to-write-a-great-open-to-work-linkedin-post/)  
-[Just Laid Off? Nervous About Possible Layoffs? Here's What to Do](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)  
+**References**
+[Why Posting to LinkedIn About Getting Laid Off Can Help You Land a Job](https://www.businessinsider.com/why-posting-to-linkedin-about-getting-laid-off-can-help-you-land-a-job-2022-7)
+[Should You Announce You've Been Laid Off on LinkedIn?](https://www.success.com/announce-your-layoff-on-linkedin/)
+[How to Write a Great “Open To Work” LinkedIn Post](https://www.alifeafterlayoff.com/how-to-write-a-great-open-to-work-linkedin-post/)
+[Just Laid Off? Nervous About Possible Layoffs? Here's What to Do](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)
 [These "Poor Me" Tech Layoffs Posts in LinkedIn Are Getting Cringe](https://www.fishbowlapp.com/post/these-poor-me-tech-layoffs-posts-in-linkedin-are-getting-cringe-many-people-in-all-industries-gets-laid-off-you-are-not)

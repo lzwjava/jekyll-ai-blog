@@ -11,7 +11,7 @@ type: note
 
 Question: 很多人认为 Contractor 的工作会有损尊严吗？
 
-Answer: 
+Answer:
 
 **不，不能一概而论地认为“很多人”都觉得 Contractor 工作本质上有损尊严。然而，相当一部分 Contractor —— 尤其是在企业/办公室环境或 Gig Economy（零工经济）中的从业者 —— 确实表示，他们的工作安排损害了他们的尊严感、自尊心或社会地位。**
 
@@ -33,7 +33,7 @@ Answer:
 
 针对 Gig/Contract 工作调查和研究经常强调孤独感、经济不稳定性、不平等以及比传统员工更低的福祉等相关主题，这些因素都可能间接侵蚀尊严。然而，并没有大规模民调显示绝大多数 Contractor 都有这种感觉 —— 只是在某些特定领域，这种感觉已经显著到足以引发广泛的在线讨论和文章关注。
 
-References:  
+References:
 
 - [Second Class Workers? The Corporate Plight of Contractors](https://www.reddit.com/r/careeradvice/comments/14x7tfc/second_class_workers_the_corporate_plight_of)
 - [Do Your Contractors Hate Working for You?](https://www.hireart.com/blog/do-your-contractors-hate-working-for-you)

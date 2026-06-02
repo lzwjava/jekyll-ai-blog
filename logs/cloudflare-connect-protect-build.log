@@ -1,4 +1,4 @@
-$ python sample.py --out_dir=out-fineweb  --start="what is Cloudflare: Connect, protect, and build everywhere?"  
+$ python sample.py --out_dir=out-fineweb  --start="what is Cloudflare: Connect, protect, and build everywhere?"
 Overriding: out_dir = out-fineweb
 Overriding: start = what is Cloudflare: Connect, protect, and build everywhere?
 number of parameters: 40.56M

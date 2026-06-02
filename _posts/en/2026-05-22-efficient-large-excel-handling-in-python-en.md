@@ -189,7 +189,7 @@ Large xlsx (>100k rows)?
 For 1M rows × 10 cols:
 
 - `fastexcel` → ~2s, ~200MB RAM
-- `calamine` via pandas → ~5s, ~400MB RAM  
+- `calamine` via pandas → ~5s, ~400MB RAM
 - `openpyxl` default → ~60s, ~2GB RAM
 - `openpyxl` read_only streaming → ~30s, ~50MB RAM
 

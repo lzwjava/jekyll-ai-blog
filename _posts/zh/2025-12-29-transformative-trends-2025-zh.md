@@ -12,7 +12,7 @@ type: note
 
 Question: 2025 年的主要趋势和变化有哪些？
 
-Answer: 
+Answer:
 
 2025 年是 Technology、社会、经济、时尚和文化领域发生重大变革的一年，这主要受到 AI 飞速发展、地缘政治转变以及消费者行为演变的推动。以下是这一年中所观察到的关键趋势和变化的详细分析。
 
@@ -43,7 +43,7 @@ Answer:
 
 总的来说，2025 年标志着在持续的全球不确定性中，向 AI 驱动的效率转型的阶段，许多趋势（如 Bohemian 时尚、Agentic AI）将延续到 2026 年。
 
-References:  
+References:
 
 - [McKinsey Technology Trends Outlook 2025](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-top-trends-in-tech)
 - [World Economic Forum Top 10 Emerging Technologies of 2025](https://www.weforum.org/stories/2025/06/top-10-emerging-technologies-of-2025/)

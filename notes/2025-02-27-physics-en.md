@@ -56,7 +56,7 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 23. Conservation of Momentum: Total momentum of a closed system remains constant unless acted upon by external forces.
 
-24. Collisions: 
+24. Collisions:
     - Elastic: Total kinetic energy is conserved.
     - Inelastic: Objects may stick together; kinetic energy not fully conserved.
 

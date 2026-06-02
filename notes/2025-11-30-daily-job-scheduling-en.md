@@ -20,7 +20,7 @@ In BMC Control-M, to make a job run every day at exactly 1:00 AM, you have sever
    - Set Calendar = your regular calendar (or leave as Regular if no special days).
    - Set Schedule = Every Day (or select the days you want, usually all 7 days).
 4. In the When section (or Time Settings):
-   - From: 01:00  
+   - From: 01:00
    - To: (leave blank or set a wide window, e.g., 23:59)
    - Time Zone: choose the appropriate one (usually server or site time zone)
 5. Go to the Cyclic tab:
@@ -71,8 +71,8 @@ If you have hundreds of jobs, you can define it in JSON/DEF file like this:
 
 Best practice in most environments:
 
-- Scheduling tab → Schedule → every day you need  
-- When → Specific Times → 01:00  
+- Scheduling tab → Schedule → every day you need
+- When → Specific Times → 01:00
 (or From 01:00 with cyclic every 1 day if you prefer that style)
 
 That’s it — the job will be ordered automatically every day at 1:00 AM server time (or the time zone you selected).

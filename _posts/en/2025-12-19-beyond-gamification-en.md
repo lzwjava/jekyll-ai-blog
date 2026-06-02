@@ -12,7 +12,7 @@ type: note
 
 Question: Why in modern society do few people treat studying/learning as a game? What are the differences? What are some unpopular ideas about this?
 
-Answer: 
+Answer:
 
 In modern society, few people naturally treat studying or learning as a game primarily because traditional education systems emphasize extrinsic motivations like grades, exams, and future rewards (e.g., jobs or credentials), rather than intrinsic enjoyment. Schools often structure learning as mandatory, high-stakes, and repetitive tasks with delayed or punitive feedback, which contrasts sharply with the engaging, voluntary nature of games. Additionally, societal values prioritize quick information access via technology over deep effortful learning, and cultural perceptions view serious study as "work" while play is seen as frivolous or distracting.
 
@@ -46,12 +46,12 @@ Games are designed to keep players in the "flow channel" by dynamically adjustin
 
 These ideas challenge the hype around gamification, suggesting it's not a universal fix and can sometimes exacerbate issues if poorly implemented.
 
-References:  
+References:
 
-- https://www.bera.ac.uk/blog/the-thin-line-between-gaming-and-learning  
-- https://bedrocklearning.org/literacy-blogs/the-pros-and-cons-of-game-based-learning/  
-- https://link.springer.com/chapter/10.1007/978-3-319-51645-5_22  
-- https://www.reddit.com/r/gamedev/comments/v984bp/why_hasnt_play_to_learn_educational_games_serious/  
-- https://news.stanford.edu/stories/2013/03/games-education-tool-030113  
-- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full  
+- https://www.bera.ac.uk/blog/the-thin-line-between-gaming-and-learning
+- https://bedrocklearning.org/literacy-blogs/the-pros-and-cons-of-game-based-learning/
+- https://link.springer.com/chapter/10.1007/978-3-319-51645-5_22
+- https://www.reddit.com/r/gamedev/comments/v984bp/why_hasnt_play_to_learn_educational_games_serious/
+- https://news.stanford.edu/stories/2013/03/games-education-tool-030113
+- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full
 - https://hechingerreport.org/is-making-a-game-out-of-learning-bad-for-learning/

@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Xiasha in Shenzhen.
 
-Answer: 
+Answer:
 
 Xiasha (下沙), also known as Xiasha Village, is a historic urban village located in the Shatou Subdistrict of Futian District, Shenzhen, Guangdong Province, China. Situated in the southwestern part of Futian, it borders Shenzhen Bay to the south, the Futian Mangrove Nature Reserve to the west, and is in close proximity to Hong Kong across the water. This prime location offers excellent transportation links, with major roads like Binhe Avenue running nearby and the Xiasha Station on Shenzhen Metro Line 9 providing easy access.
 
@@ -30,9 +30,9 @@ Today, Xiasha features modern amenities: green parks, cultural squares, sports f
 ### Significance
 Xiasha represents the broader story of Shenzhen's evolution from fishing villages to a global metropolis. It highlights themes of cultural preservation amid urbanization, communal wealth from collective land ownership, and the integration of migrants. As one of Futian's largest urban villages, it offers a glimpse into authentic local life, folk customs, and the contrasts of old and new Shenzhen.
 
-References:  
+References:
 
-- [Trip.com - Shatou Xiasha Village](https://www.trip.com/travel-guide/attraction/shenzhen/shatou-xiasha-village-18137287/)  
-- [EYESHENZHEN - A journey through history: SZ's national intangible cultural heritages](https://www.eyeshenzhen.com/content/2024-12/23/content_31405521.htm)  
-- [Baidu Baike - 下沙村](https://baike.baidu.com/item/%E4%B8%8B%E6%B2%99%E6%9D%91/13457)  
+- [Trip.com - Shatou Xiasha Village](https://www.trip.com/travel-guide/attraction/shenzhen/shatou-xiasha-village-18137287/)
+- [EYESHENZHEN - A journey through history: SZ's national intangible cultural heritages](https://www.eyeshenzhen.com/content/2024-12/23/content_31405521.htm)
+- [Baidu Baike - 下沙村](https://baike.baidu.com/item/%E4%B8%8B%E6%B2%99%E6%9D%91/13457)
 - [Shenzhen Shopper - Xiasha Museum](https://shenzhenshopper.com/3428-xiasha-museum.html)

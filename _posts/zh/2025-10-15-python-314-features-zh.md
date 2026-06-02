@@ -38,6 +38,6 @@ Python 3.14 于 2025 年 10 月 7 日发布，带来了以性能、并发性、�
 
 有关完整详情，请查阅官方发布说明。
 
-[Python 3.14 新特性](https://docs.python.org/3/whatsnew/3.14.html)  
-[Python 3.14 发布](https://www.python.org/downloads/release/python-3140/)  
+[Python 3.14 新特性](https://docs.python.org/3/whatsnew/3.14.html)
+[Python 3.14 发布](https://www.python.org/downloads/release/python-3140/)
 [Real Python：新特性](https://realpython.com/python314-new-features/)

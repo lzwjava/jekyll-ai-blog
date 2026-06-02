@@ -13,14 +13,14 @@ type: note
 
 **新增内容：**
 
-1. `.pre-commit-config.yaml` — 末尾新增 `unit-tests` 本地钩子  
-   - 运行命令：`uv run python -m pytest tests/ -x -q --tb=short`  
-   - `-x` 表示首次失败即停止（快速反馈）  
-   - `-q` 表示静默输出  
-   - `--tb=short` 表示简短回溯信息  
+1. `.pre-commit-config.yaml` — 末尾新增 `unit-tests` 本地钩子
+   - 运行命令：`uv run python -m pytest tests/ -x -q --tb=short`
+   - `-x` 表示首次失败即停止（快速反馈）
+   - `-q` 表示静默输出
+   - `--tb=short` 表示简短回溯信息
    - `always_run: true` 表示每次提交都运行，无论哪些文件变更
 
-2. `pyproject.toml` — 新增 `[dependency-groups]`，将 `pytest` 和 `coverage` 列为开发依赖  
+2. `pyproject.toml` — 新增 `[dependency-groups]`，将 `pytest` 和 `coverage` 列为开发依赖
    - 现在执行 `uv sync` 会自动安装它们
 
 **性能：** 1707 通过，153 跳过，耗时约 8 秒。对每次提交来说可以接受。

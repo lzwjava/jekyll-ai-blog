@@ -12,7 +12,7 @@ type: note
 
 Question: As of 2025, what companies have replaced the business that Nortel originally conducted?
 
-Answer: 
+Answer:
 
 Nortel Networks, a major Canadian telecommunications and data networking equipment manufacturer, filed for bankruptcy in 2009 and liquidated its assets through sales to various companies. Nortel originally specialized in telephone switches (e.g., DMS series), voice and data networking, wireless infrastructure (CDMA and early LTE), optical networking, and enterprise communications systems.
 
@@ -38,10 +38,10 @@ The broader market that Nortel competed in—supplying infrastructure to carrier
 
 These companies have collectively taken over Nortel's former market positions through innovation in 5G/6G, optical systems, and cloud-native networks. Legacy Nortel equipment is still in use in some networks but is increasingly replaced or supported by these vendors.
 
-References:  
+References:
 
-- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)  
-- [Ericsson's acquisition of Nortel assets](https://www.ericsson.com/en/about-us/history/changing-the-world/the-future-is-now/what-happened)  
-- [Network Telecom on Nortel buyers](https://network-telecom.com/nortel-networks-phones-business-telecom/)  
-- [Global telecom equipment market insights](https://www.gminsights.com/industry-analysis/telecom-equipment-market)  
+- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)
+- [Ericsson's acquisition of Nortel assets](https://www.ericsson.com/en/about-us/history/changing-the-world/the-future-is-now/what-happened)
+- [Network Telecom on Nortel buyers](https://network-telecom.com/nortel-networks-phones-business-telecom/)
+- [Global telecom equipment market insights](https://www.gminsights.com/industry-analysis/telecom-equipment-market)
 - [Top telecom equipment vendors 2025](https://nubiapage.com/top-10-best-telecom-equipment-manufacturers-in-the-world-2025/)

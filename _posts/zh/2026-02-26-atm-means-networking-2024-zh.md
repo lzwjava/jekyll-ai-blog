@@ -28,6 +28,6 @@ type: note
 
 这两个术语只是碰巧共享相同的三个字母缩写，但它们在功能和历史上一无所关。
 
-引用：  
+引用：
 
 - None (standard networking and telecommunications terminology)

@@ -52,16 +52,16 @@ Subject: Release / Consent to Hire – [Your Full Name]
 
 Dear [Name],
 
-This letter confirms that [Vendor Company] consents to the direct 
-employment of [Your Name] (currently engaged as a contractor under 
-Agreement #XXXX dated XX/XX/XXXX) by [Client Company] in a permanent 
+This letter confirms that [Vendor Company] consents to the direct
+employment of [Your Name] (currently engaged as a contractor under
+Agreement #XXXX dated XX/XX/XXXX) by [Client Company] in a permanent
 capacity, effective [Date or "upon mutual agreement"].
 
-[Vendor Company] hereby waives any right-to-hire fee and 
-non-solicitation claim arising from the above-referenced contract 
+[Vendor Company] hereby waives any right-to-hire fee and
+non-solicitation claim arising from the above-referenced contract
 with respect to this individual.
 
-We appreciate our ongoing partnership with [Client Company] and wish 
+We appreciate our ongoing partnership with [Client Company] and wish
 [Your Name] success in their new role.
 
 Sincerely,

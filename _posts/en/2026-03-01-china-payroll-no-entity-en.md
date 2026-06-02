@@ -25,7 +25,7 @@ For people without their own company (e.g., freelancers, independent contractors
   - Acclime
   - PTL Group
   - Multiplier, Skuad, etc.
-  
+
   These are especially useful if your income source is international or you're working as an independent contractor. They charge service fees (often per employee/contractor per month).
 
 - **Some domestic HR/payroll outsourcing platforms** — Platforms like 雇主易 (Guzhuyi) with 乾通发薪 offer multi-category income distribution (salary, labor fees, commissions), support individual tax declaration, and may handle certain personal scenarios, but they are still primarily enterprise-facing. You would typically need a paying "client" or entity to initiate the payment through the platform.
@@ -43,10 +43,10 @@ Many people in practice use **灵活用工 platforms** (e.g., 节薪云, 领域�
 - If the payer is a company, they can sometimes pay you as a labor fee (劳务费) with 增值税普通发票 or no invoice, and withhold tax themselves — no platform needed.
 - For very small or irregular amounts — just use normal personal transfers and declare taxes yourself annually.
 
-**Summary recommendation (2026 context)**:  
+**Summary recommendation (2026 context)**:
 If you are a genuine freelancer/independent person without a company, avoid "代发工资" disguised as flexible employment — the legal and tax risks are significant in recent years. Prefer direct payments + self-declaration or use a reputable international **EOR/PEO platform** if you need formal payroll handling and compliance (especially with overseas clients). Always consult a Chinese tax advisor or lawyer for your specific situation to stay compliant.
 
-**References:**  
+**References:**
 
 - [Deel Global Payroll](https://www.deel.com/zh-cn/payroll/global)
 - [Papaya Global China PEO](https://www.papayaglobal.com/peo-china)

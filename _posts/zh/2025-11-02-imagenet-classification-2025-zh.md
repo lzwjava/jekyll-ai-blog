@@ -29,6 +29,6 @@ type: note
 
 由于数据集趋于饱和，近年进展有所放缓——当前提升主要来自海量预训练（如ImageNet-21K或网络规模数据）以及模型集成/蒸馏等技术。人类专家在该基准上的预估表现约为5%的Top-1错误率（或2-12%的Top-5错误率，因研究而异），意味着AI在此基准上已超越人类水平。
 
-[ImageNet基准（Papers With Code）](https://paperswithcode.com/sota/image-classification-on-imagenet)  
-[2025年图像分类顶尖模型综述（HiringNet）](https://hiringnet.com/image-classification-state-of-the-art-models-in-2025)  
+[ImageNet基准（Papers With Code）](https://paperswithcode.com/sota/image-classification-on-imagenet)
+[2025年图像分类顶尖模型综述（HiringNet）](https://hiringnet.com/image-classification-state-of-the-art-models-in-2025)
 [CoCa：对比式描述模型作为图文基础模型（arXiv）](https://arxiv.org/abs/2205.01917)

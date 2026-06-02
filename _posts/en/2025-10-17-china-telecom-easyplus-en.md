@@ -24,7 +24,7 @@ The China Telecom Easy+ prepaid SIM card (also known as the China Macau Telecom 
    - For the **3 MOP/day plan** (enhanced daily data, better for moderate streaming or navigation):
      - Send an SMS with the exact text **903** to **1888**.
      - Deduction: 3 MOP from your balance. Valid for 24 hours from activation.
-   
+
    You'll receive a confirmation SMS from 1888 once activated. Data usage is shared across Macau, Mainland China, and Hong Kong (roaming partners: CTM in Macau, China Mobile/Unicom in Mainland, CSL in HK). Speed may throttle after high usage (e.g., after 1-2 GB).
 
 4. **Top-Up Balance**: If low on credit, top up via vending machines, CTM shops, or apps like CTM Buddy. Minimum top-up is usually MOP 10-50, which extends validity by 180 days.
@@ -44,6 +44,6 @@ To switch between the 2 MOP and 3 MOP plans (or cancel the current one):
 
 This setup keeps costs low for short trips—e.g., 2 MOP/day for essentials.
 
-[China Macau Telecom SIM Card with Phone Number](https://www.lazada.sg/products/china-macau-telecom-sim-card-with-phone-number-i3002462352.html)  
-[Mobile Data Service Q&A (Macau Telecom Authority)](https://telecommunications.ctt.gov.mo/web/images/specialtopics/eng/tipsformobiledataservice/pdf/MobileDataServiceProtectionFaq.pdf)  
+[China Macau Telecom SIM Card with Phone Number](https://www.lazada.sg/products/china-macau-telecom-sim-card-with-phone-number-i3002462352.html)
+[Mobile Data Service Q&A (Macau Telecom Authority)](https://telecommunications.ctt.gov.mo/web/images/specialtopics/eng/tipsformobiledataservice/pdf/MobileDataServiceProtectionFaq.pdf)
 [CTM Mainland China-HK-Macau Prepaid Card](https://www.ctm.net/en-US/person/T31-010010010120050/20209/3a8c9e8482394d0e96e2a1d71cd2eace.html)

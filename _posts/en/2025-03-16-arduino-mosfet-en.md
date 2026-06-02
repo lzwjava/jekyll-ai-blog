@@ -35,7 +35,7 @@ Arduino Pin 9 ---- R2 (220Ω) ---- Gate (G)
                              |
                              |
 V_load (e.g., 12V) ---- Load ---- Drain (D)
-                             | 
+                             |
                              |
                             Source (S) ---- GND
                              |
@@ -118,7 +118,7 @@ void loop() {
 
 1. **Upload the Code:** Use the Arduino IDE to upload either sketch.
 2. **Power Up:** Connect the Arduino via USB and the external supply to the load.
-3. **Observe:** 
+3. **Observe:**
    - For the on/off code, the load should toggle every second.
    - For PWM, the load should gradually brighten and dim.
 4. **Measure:** Use a multimeter to check:

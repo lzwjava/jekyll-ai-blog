@@ -18,10 +18,10 @@ And when it comes to buying their services or products? Absolutely more reliable
 
 What do you think—got a specific scenario where this plays out for you?
 
-**References**  
-[Employable as We Age? A Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC7893083/)  
-[The Impact of Age-Diverse Workforce on Organization Performance](https://journals.sagepub.com/doi/full/10.1177/2158244021999058)  
-[Does emotional empathy increase with age? New meta-analysis](https://www.psypost.org/does-emotional-empathy-increase-with-age-new-meta-analysis-has-an-answer/)  
-[Investigating adult age differences in real-life empathy](https://www.nature.com/articles/s41598-022-06620-x)  
-[Why Buying a Retiring Business Is the Smartest Move](https://www.entrepreneur.com/starting-a-business/why-buying-a-retiring-business-is-the-smartest-move-for/488824)  
+**References**
+[Employable as We Age? A Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC7893083/)
+[The Impact of Age-Diverse Workforce on Organization Performance](https://journals.sagepub.com/doi/full/10.1177/2158244021999058)
+[Does emotional empathy increase with age? New meta-analysis](https://www.psypost.org/does-emotional-empathy-increase-with-age-new-meta-analysis-has-an-answer/)
+[Investigating adult age differences in real-life empathy](https://www.nature.com/articles/s41598-022-06620-x)
+[Why Buying a Retiring Business Is the Smartest Move](https://www.entrepreneur.com/starting-a-business/why-buying-a-retiring-business-is-the-smartest-move-for/488824)
 [Why Older Entrepreneurs Have the Edge](https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/age-of-successful-entrepreneurs/)

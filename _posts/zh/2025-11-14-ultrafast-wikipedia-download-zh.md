@@ -55,7 +55,7 @@ echo "wikiextractor --processes 16 -o extracted/ *.bz2"
 mkdir -p wiki5 && cd wiki5 && wget -c -q --show-progress https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles{1..5}.xml-p*.bz2 https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles-multistream-index{1..5}.xml-p*.bz2 -P . --no-clobber & wait && echo "✅ 完成！5个分块已就绪，可用于训练测试"
 ```
 
-此版本采用bash大括号扩展语法并自动并行执行所有操作。  
+此版本采用bash大括号扩展语法并自动并行执行所有操作。
 在1 Gbps网络环境下测试 → **4-6分钟**内完成。
 
 现在您已获得完美的13-15 GB维基百科子集，可用于测试分词、数据流处理、数据打包或小型训练任务。当需要完整维基百科数据时，只需将`{1..5}`改为`{1..27}`即可。

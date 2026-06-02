@@ -12,7 +12,7 @@ type: note
 
 Question: What is the default value of a boolean instance variable in a class?
 
-Answer: 
+Answer:
 
 In Java, instance variables (fields) of a class that are not explicitly initialized are automatically assigned default values based on their type.
 
@@ -29,7 +29,7 @@ The correct answer is **B. false**.
 
 Note: This applies to instance variables and static variables. Local variables (declared inside methods) do not have default values and must be explicitly initialized before use.
 
-References:  
+References:
 
-- [Oracle Java Documentation - Default Values](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.12.5)  
+- [Oracle Java Documentation - Default Values](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.12.5)
 - [Oracle Java Tutorials - Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)

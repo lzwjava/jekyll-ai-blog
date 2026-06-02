@@ -12,7 +12,7 @@ type: note
 
 Question: In Spanning Tree Protocol (STP), which port state blocks traffic to prevent loops?
 
-Answer: 
+Answer:
 
 The correct answer is **D) Blocking**.
 
@@ -28,7 +28,7 @@ In Spanning Tree Protocol (STP), as defined in IEEE 802.1D, switch ports transit
 
 The Blocking state is specifically responsible for blocking traffic on redundant links to eliminate loops while the topology converges.
 
-References:  
+References:
 
-- [IEEE 802.1D Standard Overview](https://www.ieee802.org/1/pages/802.1D.html)  
+- [IEEE 802.1D Standard Overview](https://www.ieee802.org/1/pages/802.1D.html)
 - [Cisco Spanning Tree Protocol Port States Documentation](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/24062-146.html)

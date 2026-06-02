@@ -27,7 +27,7 @@ It's designed for hybrid cloud environments, supporting portability across on-pr
 Organizations choose OpenShift for several reasons, especially in modern, cloud-native development:
 
 1. **Container-Native Architecture**: It leverages Docker containers and Kubernetes, enabling microservices, scalability, and resilience. Apps are portable across environments without vendor lock-in.
-   
+
 2. **Developer Productivity**: Simplifies workflows with GitOps, automated deployments, and a web console/CLI for easy management. Features like Routes (for ingress) and Operators (for app lifecycle management) reduce boilerplate code.
 
 3. **Enterprise Features**: Strong focus on security (e.g., SELinux integration, pod security policies), compliance (e.g., for regulated industries like finance or healthcare), and multi-tenancy to isolate teams or projects.

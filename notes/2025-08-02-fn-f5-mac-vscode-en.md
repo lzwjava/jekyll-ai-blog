@@ -127,6 +127,6 @@ If pressing **Fn + F5** on your Mac in Visual Studio Code (VSCode) has no effect
      - Run `yo code` (requires Yeoman and VSCode generator: `npm install -g yo generator-code`) to scaffold a new extension.
      - Open the new project in VSCode and press `F5` to see if it launches the Extension Development Host.
 
-[VS Code Extension Development](https://code.visualstudio.com/api/get-started/your-first-extension)  
-[Mac Keyboard Settings](https://support.apple.com/guide/mac-help/change-the-behavior-of-the-function-keys-mchlp2882/mac)  
+[VS Code Extension Development](https://code.visualstudio.com/api/get-started/your-first-extension)
+[Mac Keyboard Settings](https://support.apple.com/guide/mac-help/change-the-behavior-of-the-function-keys-mchlp2882/mac)
 [VS Code Keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)

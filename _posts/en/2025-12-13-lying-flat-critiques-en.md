@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about the "lying flat" movement?
 
-Answer: 
+Answer:
 
 The "lying flat" (tang ping) movement, originating in China around 2021, involves young people rejecting intense societal pressures for overwork, consumerism, marriage, and high achievement in favor of a minimalist, low-effort lifestyle prioritizing personal well-being. While popular among some disillusioned youth as a form of passive resistance, several unpopular or critical views challenge its appeal and implications.
 
@@ -30,12 +30,12 @@ The "lying flat" (tang ping) movement, originating in China around 2021, involve
 
 These views, often from official sources, older generations, or economic analysts, contrast with supporters who praise it as rational self-care amid unfair pressures like the 996 work culture.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Tang_ping  
-- https://www.brookings.edu/articles/the-lying-flat-movement-standing-in-the-way-of-chinas-innovation-drive/  
-- https://www.scmp.com/economy/china-economy/article/3153362/what-lying-flat-and-why-are-chinese-officials-standing-it  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC9709313/  
-- https://madeinchinajournal.com/2023/01/08/lying-flat-profiling-the-tangping-attitude/  
-- https://www.reddit.com/r/simpleliving/comments/11quhj3/everyones_thoughts_on_the_lying_flat_movement/  
+- https://en.wikipedia.org/wiki/Tang_ping
+- https://www.brookings.edu/articles/the-lying-flat-movement-standing-in-the-way-of-chinas-innovation-drive/
+- https://www.scmp.com/economy/china-economy/article/3153362/what-lying-flat-and-why-are-chinese-officials-standing-it
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9709313/
+- https://madeinchinajournal.com/2023/01/08/lying-flat-profiling-the-tangping-attitude/
+- https://www.reddit.com/r/simpleliving/comments/11quhj3/everyones_thoughts_on_the_lying_flat_movement/
 - https://www.reddit.com/r/geopolitics/comments/1blsfqa/the_angst_behind_chinas_lying_flat_youth/

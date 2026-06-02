@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about selling a house in big cities in China in 2025?
 
-Answer: 
+Answer:
 
 Selling a house in China's major cities (Tier 1 hubs like Beijing, Shanghai, Guangzhou, and Shenzhen) in 2025 remains a challenging endeavor amid the ongoing property downturn, but several unpopular opinions emerge from discussions among economists, investors, and online commentators. These views often challenge the mainstream narrative of an imminent rebound or total collapse, instead emphasizing structural shifts, long-term pain, and counterintuitive opportunities. Below, I've compiled key unpopular opinions drawn from recent analyses and social media discourse, focusing on why they might be "unpopular" (e.g., they contradict hopes for quick stabilization or portray the crisis as a deliberate, beneficial reset).
 
@@ -43,23 +43,23 @@ Selling a house in China's major cities (Tier 1 hubs like Beijing, Shanghai, Gua
 
 These opinions reflect a polarized 2025 landscape: green shoots in luxury Tier 1 segments amid broader deflation. Sellers in big cities face 30–70% drops from peaks, but holding risks further erosion if exports falter. Consult local data, as regional variances (e.g., Shanghai up 0.6% MoM in Jan) matter.
 
-References:  
-- [China’s Property Stock Rebound Faces a Reality Check in 2025](https://www.reddit.com/r/China/comments/1hl37r7/chinas_property_stock_rebound_faces_a_reality/)  
-- [China's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/china/price-history)  
-- [The View | Optimism in China’s property market is well-deserved, with caution](https://www.scmp.com/opinion/china-opinion/article/3300786/optimism-chinas-property-market-well-deserved-caution)  
-- [China’s Real Estate Market: Where do things stand? What can be expected in 2025?](https://www.conference-board.org/publications/China-Real-Estate-Market-What-can-be-expected-in-2025)  
-- [Real Estate Woes in China: Key Issues](https://english.ckgsb.edu.cn/knowledge/article/home-truths-chinas-real-estate-market-still-needs-help/)  
-- [Why China's real estate market is still searching for a bottom](https://www.cnbc.com/2025/12/02/why-chinas-real-estate-market-is-still-searching-for-a-bottom-.html)  
-- [China’s Housing Market Shows Signs of Stabilizing](https://www.newsweek.com/china-housing-market-shows-signs-stabilizing-2017613)  
-- [Surging Secondary Sales To Stabilize China Proper](https://www.spglobal.com/ratings/en/regulatory/article/250122-surging-secondary-sales-to-stabilize-china-property-in-2025-s13385912)  
-- [China's property slump is far from bottoming. But Beijing is prioritizing tech growth](https://www.cnbc.com/2025/10/23/chinas-property-slump-is-far-from-bottoming-but-beijing-is-prioritizing-tech-growth.html)  
-- [Foreign Investors in China Real Estate Face Losses and Distressed Sales](https://www.bloomberg.com/news/features/2025-10-20/foreign-investors-in-china-real-estate-face-losses-and-distressed-sales)  
-- [Michael Pettis on property contraction](https://x.com/michaelxpettis/status/1989605318238609908)  
-- [OK Then on Tier 1 appeal](https://x.com/okaythenfuture/status/1964511831139250332)  
-- [Thuc Duyen on bursting the bubble](https://x.com/thucduyen16/status/1999427862886252907)  
-- [Agathe Demarais on crisis persistence](https://x.com/AgatheDemarais/status/1850855029479243986)  
-- [Glenn on low systemic risk](https://x.com/GlennLuk/status/1959924599379906901)  
-- [Caixin Global on managed decline](https://x.com/caixin/status/1998325300292128998)  
-- [EndGame Macro on slow unwinding](https://x.com/onechancefreedm/status/1989895753406247291)  
-- [GK on destocking priority](https://x.com/halobrief/status/1999364602195308975)  
+References:
+- [China’s Property Stock Rebound Faces a Reality Check in 2025](https://www.reddit.com/r/China/comments/1hl37r7/chinas_property_stock_rebound_faces_a_reality/)
+- [China's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/china/price-history)
+- [The View | Optimism in China’s property market is well-deserved, with caution](https://www.scmp.com/opinion/china-opinion/article/3300786/optimism-chinas-property-market-well-deserved-caution)
+- [China’s Real Estate Market: Where do things stand? What can be expected in 2025?](https://www.conference-board.org/publications/China-Real-Estate-Market-What-can-be-expected-in-2025)
+- [Real Estate Woes in China: Key Issues](https://english.ckgsb.edu.cn/knowledge/article/home-truths-chinas-real-estate-market-still-needs-help/)
+- [Why China's real estate market is still searching for a bottom](https://www.cnbc.com/2025/12/02/why-chinas-real-estate-market-is-still-searching-for-a-bottom-.html)
+- [China’s Housing Market Shows Signs of Stabilizing](https://www.newsweek.com/china-housing-market-shows-signs-stabilizing-2017613)
+- [Surging Secondary Sales To Stabilize China Proper](https://www.spglobal.com/ratings/en/regulatory/article/250122-surging-secondary-sales-to-stabilize-china-property-in-2025-s13385912)
+- [China's property slump is far from bottoming. But Beijing is prioritizing tech growth](https://www.cnbc.com/2025/10/23/chinas-property-slump-is-far-from-bottoming-but-beijing-is-prioritizing-tech-growth.html)
+- [Foreign Investors in China Real Estate Face Losses and Distressed Sales](https://www.bloomberg.com/news/features/2025-10-20/foreign-investors-in-china-real-estate-face-losses-and-distressed-sales)
+- [Michael Pettis on property contraction](https://x.com/michaelxpettis/status/1989605318238609908)
+- [OK Then on Tier 1 appeal](https://x.com/okaythenfuture/status/1964511831139250332)
+- [Thuc Duyen on bursting the bubble](https://x.com/thucduyen16/status/1999427862886252907)
+- [Agathe Demarais on crisis persistence](https://x.com/AgatheDemarais/status/1850855029479243986)
+- [Glenn on low systemic risk](https://x.com/GlennLuk/status/1959924599379906901)
+- [Caixin Global on managed decline](https://x.com/caixin/status/1998325300292128998)
+- [EndGame Macro on slow unwinding](https://x.com/onechancefreedm/status/1989895753406247291)
+- [GK on destocking priority](https://x.com/halobrief/status/1999364602195308975)
 - [Shanghai Macro Strategist on underwater mortgages](https://x.com/ShanghaiMacro/status/1800782371836551575)

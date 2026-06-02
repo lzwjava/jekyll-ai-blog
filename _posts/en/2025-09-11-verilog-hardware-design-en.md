@@ -11,7 +11,7 @@ translated: false
 type: note
 ---
 
-Got it — here’s a comprehensive introduction to **Verilog**, one of the two most widely used HDLs (Hardware Description Languages), especially in the context of programmable logic devices like **FPGAs** and **ASICs**.  
+Got it — here’s a comprehensive introduction to **Verilog**, one of the two most widely used HDLs (Hardware Description Languages), especially in the context of programmable logic devices like **FPGAs** and **ASICs**.
 
 ---
 
@@ -28,17 +28,17 @@ It’s primarily used for:
 ## 2. Verilog Design Levels
 Verilog supports multiple abstraction levels of hardware design:
 
-- **Behavioral Level**  
-  Describes what the circuit does using `always` blocks, `if` statements, loops, etc.  
+- **Behavioral Level**
+  Describes what the circuit does using `always` blocks, `if` statements, loops, etc.
   Example: `sum = a + b;`
 
-- **Register-Transfer Level (RTL)**  
+- **Register-Transfer Level (RTL)**
   Specifies how data flows between registers and logic. Most real designs are written here.
 
-- **Gate Level**  
+- **Gate Level**
   Directly instantiates logic gates (`and`, `or`, `not`). Rarely used manually now.
 
-- **Switch Level**  
+- **Switch Level**
   Models transistors (MOSFET-level). Very low-level, used rarely.
 
 ---
@@ -46,7 +46,7 @@ Verilog supports multiple abstraction levels of hardware design:
 ## 3. Key Verilog Concepts
 
 ### Modules
-The building blocks of Verilog. Similar to classes or functions in software.  
+The building blocks of Verilog. Similar to classes or functions in software.
 ```verilog
 module adder(input [3:0] a, b, output [4:0] sum);
   assign sum = a + b;
@@ -54,19 +54,19 @@ endmodule
 ```
 
 ### Data Types
-- `wire` → represents connections (combinational signals).  
-- `reg` → stores values (used in procedural blocks, like flip-flops).  
-- `integer`, `real` → for testbenches, not synthesis.  
+- `wire` → represents connections (combinational signals).
+- `reg` → stores values (used in procedural blocks, like flip-flops).
+- `integer`, `real` → for testbenches, not synthesis.
 
 ### Procedural Blocks
-- `always @(*)` → for combinational logic.  
-- `always @(posedge clk)` → for sequential logic (triggered by clock).  
+- `always @(*)` → for combinational logic.
+- `always @(posedge clk)` → for sequential logic (triggered by clock).
 
 ### Operators
-- Arithmetic: `+`, `-`, `*`, `/`  
-- Logical: `&&`, `||`, `!`  
-- Bitwise: `&`, `|`, `^`, `~`  
-- Shift: `<<`, `>>`  
+- Arithmetic: `+`, `-`, `*`, `/`
+- Logical: `&&`, `||`, `!`
+- Bitwise: `&`, `|`, `^`, `~`
+- Shift: `<<`, `>>`
 
 ### Continuous Assignment
 - `assign y = a & b;` → describes combinational logic directly.
@@ -74,15 +74,15 @@ endmodule
 ---
 
 ## 4. Simulation vs. Synthesis
-- **Simulation**: Run with testbenches to check logic behavior (timing, functionality).  
-- **Synthesis**: Tools (like Synopsys Design Compiler, Xilinx Vivado, Intel Quartus) translate Verilog RTL into gate-level circuits.  
+- **Simulation**: Run with testbenches to check logic behavior (timing, functionality).
+- **Synthesis**: Tools (like Synopsys Design Compiler, Xilinx Vivado, Intel Quartus) translate Verilog RTL into gate-level circuits.
 
 Some constructs (like `#delay`, `$display`, or file I/O) are **simulation-only** and cannot be synthesized.
 
 ---
 
 ## 5. Testbenches
-A **testbench** is Verilog code written to simulate and verify a design.  
+A **testbench** is Verilog code written to simulate and verify a design.
 ```verilog
 module tb_adder;
   reg [3:0] a, b;
@@ -101,35 +101,35 @@ endmodule
 ---
 
 ## 6. Strengths of Verilog
-- **C-like syntax** → easier for programmers familiar with C.  
-- **Industry standard** → widely supported by FPGA/ASIC tools.  
-- **Efficient RTL design** → concise for hardware engineers.  
+- **C-like syntax** → easier for programmers familiar with C.
+- **Industry standard** → widely supported by FPGA/ASIC tools.
+- **Efficient RTL design** → concise for hardware engineers.
 
 ---
 
 ## 7. Limitations of Verilog
-- Less strict typing (compared to VHDL, which is verbose but safer).  
-- Harder to manage large, complex designs.  
+- Less strict typing (compared to VHDL, which is verbose but safer).
+- Harder to manage large, complex designs.
 - Some ambiguities between simulation and synthesis (newer standards like SystemVerilog fix this).
 
 ---
 
 ## 8. Evolution to SystemVerilog
 To overcome Verilog’s limitations, **SystemVerilog** (IEEE 1800) was introduced. It extends Verilog with:
-- Object-Oriented Programming for testbenches.  
-- Assertions (SVA).  
-- More powerful data types.  
-- Interfaces and packages for modularity.  
+- Object-Oriented Programming for testbenches.
+- Assertions (SVA).
+- More powerful data types.
+- Interfaces and packages for modularity.
 
 ---
 
 ## 9. Real-World Applications
-- **FPGA design**: Implement custom digital circuits (signal processing, AI accelerators).  
-- **ASIC design**: Chips for CPUs, GPUs, networking, and telecom.  
-- **Verification**: Used to simulate before spending millions on chip fabrication.  
+- **FPGA design**: Implement custom digital circuits (signal processing, AI accelerators).
+- **ASIC design**: Chips for CPUs, GPUs, networking, and telecom.
+- **Verification**: Used to simulate before spending millions on chip fabrication.
 
 ---
 
-✅ In short: **Verilog is the language that bridges human hardware design ideas with actual digital circuits.**  
+✅ In short: **Verilog is the language that bridges human hardware design ideas with actual digital circuits.**
 
 Would you like me to also create a **side-by-side mini example** comparing **behavioral vs. RTL vs. gate-level Verilog** for the same circuit (say, a 2-to-1 multiplexer)? That way you can see abstraction levels in action.

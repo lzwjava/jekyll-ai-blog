@@ -17,71 +17,71 @@ type: note
 
 ### 主要组成部分（翻译并分组）：
 
-- **General Measurements**  
-  身高、体重、BMI、收缩压、舒张压。  
+- **General Measurements**
+  身高、体重、BMI、收缩压、舒张压。
   评估基本身体标准和高血压风险。
 
-- **Internal Medicine**  
-  既往史、家族史、心率/心律/心音、肺部听诊、肝脾触诊、肾区叩诊、其他内科检查。  
+- **Internal Medicine**
+  既往史、家族史、心率/心律/心音、肺部听诊、肝脾触诊、肾区叩诊、其他内科检查。
   对主要器官进行基本体格检查，以发现常见疾病的早期迹象。
 
-- **Male Surgery / Urology**  
-  皮肤、浅表淋巴结、甲状腺（外科）、乳腺、脊柱、四肢关节、外生殖器、肛门/直肠指检、前列腺（外科）、其他外科项目。  
+- **Male Surgery / Urology**
+  皮肤、浅表淋巴结、甲状腺（外科）、乳腺、脊柱、四肢关节、外生殖器、肛门/直肠指检、前列腺（外科）、其他外科项目。
   重点关注男性特异性问题，如前列腺健康和疝气。
 
-- **Vision and Color Perception**  
-  未矫正和矫正视力（双眼）、色觉。  
+- **Vision and Color Perception**
+  未矫正和矫正视力（双眼）、色觉。
   筛查眼部功能问题。
 
-- **External Eye Exam**  
+- **External Eye Exam**
   眼睑、泪囊、结膜、眼球、其他眼部问题。
 
-- **ENT (Ear, Nose, Throat)**  
-  既往史、外耳/耳道/鼓膜、鼻腔/鼻中隔、咽/扁桃体、其他耳鼻喉检查。  
+- **ENT (Ear, Nose, Throat)**
+  既往史、外耳/耳道/鼓膜、鼻腔/鼻中隔、咽/扁桃体、其他耳鼻喉检查。
   筛查常见耳鼻喉疾病。
 
-- **Blood Routine (5-classification / CBC with differential)**  
-  完整白细胞计数（包括中性粒细胞、淋巴细胞等的百分比和绝对值）、红细胞、血红蛋白、血小板等。  
+- **Blood Routine (5-classification / CBC with differential)**
+  完整白细胞计数（包括中性粒细胞、淋巴细胞等的百分比和绝对值）、红细胞、血红蛋白、血小板等。
   检测贫血、感染、炎症、出血风险和骨髓功能。
 
-- **Urine Routine**  
-  比重、pH、白细胞、亚硝酸盐、蛋白质、葡萄糖、酮体、尿胆原、胆红素、潜血、显微镜下红细胞/白细胞、管型、上皮细胞、结晶。  
+- **Urine Routine**
+  比重、pH、白细胞、亚硝酸盐、蛋白质、葡萄糖、酮体、尿胆原、胆红素、潜血、显微镜下红细胞/白细胞、管型、上皮细胞、结晶。
   筛查尿路感染、肾脏问题、糖尿病、结石等。
 
-- **Liver Function (3 items)**  
-  ALT、AST、GGT。  
+- **Liver Function (3 items)**
+  ALT、AST、GGT。
   评估肝细胞损伤（如肝炎、脂肪肝、肝硬化）。
 
-- **Kidney Function (3 items)**  
-  尿素、肌酐、尿酸。  
+- **Kidney Function (3 items)**
+  尿素、肌酐、尿酸。
   评估肾脏滤过功能和痛风风险。
 
-- **Fasting Blood Glucose (FBG)**  
+- **Fasting Blood Glucose (FBG)**
   检查糖尿病或糖代谢异常。
 
-- **Blood Lipids (2 items)**  
-  总胆固醇、甘油三酯。  
+- **Blood Lipids (2 items)**
+  总胆固醇、甘油三酯。
   评估血脂异常导致的心血管风险。
 
-- **Tumor Markers**  
-  AFP (alpha-fetoprotein) — 主要用于肝癌筛查。  
-  CEA (carcinoembryonic antigen) — 广谱标志物，尤其结直肠癌/胰腺癌。  
+- **Tumor Markers**
+  AFP (alpha-fetoprotein) — 主要用于肝癌筛查。
+  CEA (carcinoembryonic antigen) — 广谱标志物，尤其结直肠癌/胰腺癌。
   CA242 (carbohydrate antigen 242) — 用于胰腺癌、结直肠癌、胃癌等。
 
-- **Ultrasound Exams**  
-  腹部彩超（肝、胆囊、胰腺、脾、双肾）。  
-  前列腺彩超。  
-  甲状腺彩超。  
+- **Ultrasound Exams**
+  腹部彩超（肝、胆囊、胰腺、脾、双肾）。
+  前列腺彩超。
+  甲状腺彩超。
   检测肿瘤、结石、囊肿、增大、脂肪变性等。
 
-- **Imaging and Heart**  
-  胸部X光（正位片，iKang AI辅助）。  
-  心电图 (ECG，iKang AI辅助)。  
+- **Imaging and Heart**
+  胸部X光（正位片，iKang AI辅助）。
+  心电图 (ECG，iKang AI辅助)。
   筛查肺/心脏异常和心脏电活动问题。
 
-- **Additional Services**  
-  营养早餐。  
-  个性化检查报告，包括专家分析、风险因素和基本健康指导。  
+- **Additional Services**
+  营养早餐。
+  个性化检查报告，包括专家分析、风险因素和基本健康指导。
   Guide Medical APP服务：预约挂号、精准分诊/咨询。
 
 ### 关键亮点：包含Genetic Testing

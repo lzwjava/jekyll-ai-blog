@@ -37,7 +37,7 @@ type: note
 
 如果避免任何潜在化学渗出是首要考虑，Tritan 是大多数用户的更好选择。对于极端高温或最大韧性，PC 可能仍用于某些应用，但如今在饮具中较少见。
 
-**参考资料：**  
+**参考资料：**
 
 - [Tritan copolyester - Wikipedia](https://en.wikipedia.org/wiki/Tritan_copolyester)
 - [Frequently Asked Questions | Tritan and Tritan Renew - Eastman](https://www.eastman.com/en/products/brands/tritan/about/faqs)

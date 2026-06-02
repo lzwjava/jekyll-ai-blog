@@ -12,7 +12,7 @@ type: note
 
 Question: What is ETF?
 
-Answer: 
+Answer:
 
 **Exchange-Traded Fund (ETF)**（交易所交易基金）是一种投资于一篮子多元化资产（如 stocks、bonds、commodities 或其组合）的投资信托基金。它像普通 stocks 一样，全天在证券交易所根据市场价格进行交易。
 
@@ -37,7 +37,7 @@ Answer:
 | Expense Ratios      | Generally lower               | Often higher                  |
 | Tax Efficiency      | Usually higher                | Lower due to more redemptions |
 
-References:  
+References:
 
 - [Exchange-Traded Fund (ETF): What It Is and How to Invest](https://www.investopedia.com/terms/e/etf.asp)
 - [Exchange-traded fund - Wikipedia](https://en.wikipedia.org/wiki/Exchange-traded_fund)

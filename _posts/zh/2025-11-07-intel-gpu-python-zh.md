@@ -58,7 +58,7 @@ print(f"IPEX 版本: {ipex.__version__}")
 
 if hasattr(torch, 'xpu') and torch.xpu.is_available():
     print(f"✓ Intel GPU 可用: {torch.xpu.get_device_name(0)}")
-    
+
     # 简单计算示例
     x = torch.randn(100, 100, device='xpu')
     y = torch.randn(100, 100, device='xpu')

@@ -99,7 +99,7 @@ If your goal is specifically **prompt improvement and iteration tracking** (not 
 **Recommended architecture for building your own:**
 
 ```
-Claude Code (OTEL or JSONL) 
+Claude Code (OTEL or JSONL)
     ↓
 Backend API (Node.js / FastAPI)
     ↓

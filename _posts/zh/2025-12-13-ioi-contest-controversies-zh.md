@@ -12,7 +12,7 @@ type: note
 
 问题：关于 IOI 竞赛有哪些不受欢迎的看法？
 
-答案： 
+答案：
 
 国际信息学奥林匹克竞赛（IOI）被广泛认为是一项享有盛誉的高中生级竞技编程竞赛，但在竞技编程社区的讨论中也浮现出一些不受欢迎或有争议的看法：
 
@@ -30,12 +30,12 @@ type: note
 
 这些观点通常来自经验丰富的程序员，他们重视竞赛，但也批评其局限性。
 
-参考文献： 
+参考文献：
 
-- https://www.teamblind.com/post/unpopular-opinions-about-competitive-programming-lqnif3wt 
-- https://www.freecodecamp.org/news/mythbusting-competitive-programming/ 
-- https://www.researchgate.net/publication/220396150_The_IOI_is_not_a_science_olympiad 
-- https://codeforces.com/blog/entry/145502 
-- https://ioinformatics.org/journal/INFOL047.pdf 
-- https://www.reddit.com/r/leetcode/comments/1ghs5zx/why_cant_adults_compete_at_top_programming/ 
+- https://www.teamblind.com/post/unpopular-opinions-about-competitive-programming-lqnif3wt
+- https://www.freecodecamp.org/news/mythbusting-competitive-programming/
+- https://www.researchgate.net/publication/220396150_The_IOI_is_not_a_science_olympiad
+- https://codeforces.com/blog/entry/145502
+- https://ioinformatics.org/journal/INFOL047.pdf
+- https://www.reddit.com/r/leetcode/comments/1ghs5zx/why_cant_adults_compete_at_top_programming/
 - https://codeforces.com/blog/entry/61780

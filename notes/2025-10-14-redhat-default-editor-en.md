@@ -26,5 +26,5 @@ In Red Hat Enterprise Linux (RHEL), the default text editor is **Vi** (often ali
 
 For a quick start, type `vimtutor` to launch an interactive tutorial.
 
-[How to get started with the Vi editor - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)  
+[How to get started with the Vi editor - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)
 [Linux skills: 9 tutorials to get more from your text editor - Red Hat](https://www.redhat.com/en/blog/text-editor-roundup-2022)

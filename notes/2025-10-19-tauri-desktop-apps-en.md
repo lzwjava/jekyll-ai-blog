@@ -25,6 +25,6 @@ Tauri is especially appealing in the Rust ecosystem for creating native-feeling 
 
 For more details, check the official docs or GitHub repo.
 
-[Official Tauri Site](https://v2.tauri.app/)  
-[Tauri GitHub Repository](https://github.com/tauri-apps/tauri)  
+[Official Tauri Site](https://v2.tauri.app/)
+[Tauri GitHub Repository](https://github.com/tauri-apps/tauri)
 [Tauri on Wikipedia](https://en.wikipedia.org/wiki/Tauri_%28software_framework%29)

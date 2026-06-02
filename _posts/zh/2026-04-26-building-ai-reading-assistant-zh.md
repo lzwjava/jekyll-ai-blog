@@ -262,13 +262,13 @@ pip install llama-index sentence-transformers faiss-cpu
 
 # 9. 常见错误（重要）
 
-❌ 仅使用向量数据库  
+❌ 仅使用向量数据库
 ✔ 仍然需要 LLM 推理
 
-❌ 没有分块策略  
+❌ 没有分块策略
 ✔ 分块对质量至关重要
 
-❌ 嵌入模型不佳  
+❌ 嵌入模型不佳
 ✔ BGE 是目前最佳的开源选择之一
 
 ---

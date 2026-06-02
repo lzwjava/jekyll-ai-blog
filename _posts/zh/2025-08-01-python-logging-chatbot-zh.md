@@ -27,24 +27,24 @@ def save_to_file(content, filename="answer.md"):
 
 def main():
     print("你好！我是GitHub Copilot。有什么可以帮你的吗？")
-    
+
     while True:
         user_input = input("你：")
         if user_input.lower() in ["exit", "quit"]:
             print("再见！")
             break
-            
+
         # 将用户输入复制到剪贴板
         pyperclip.copy(user_input)
         print("我已将你的输入复制到剪贴板。请向聊天机器人提问并复制其回答。准备就绪后，直接按Enter键。")
-        
+
         # 等待用户在复制机器人回答后按Enter键
         input("复制回答后按Enter键...")
-        
+
         # 从剪贴板获取回答
         answer = pyperclip.paste()
         print("回答已接收。正在保存至answer.md...")
-        
+
         # 将交互内容保存至文件
         interaction = f"**用户输入：**\n{user_input}\n\n**聊天机器人回答：**\n{answer}\n{'-'*50}"
         save_to_file(interaction)

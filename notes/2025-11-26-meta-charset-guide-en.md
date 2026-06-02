@@ -27,16 +27,16 @@ The `<meta charset="...">` tag is the modern and recommended way to tell the bro
 ```
 
 ### Key rules you must follow
-1. **It must be within the first 1024 bytes** of the HTML file.  
+1. **It must be within the first 1024 bytes** of the HTML file.
    → Put it as one of the very first lines in `<head>` (right after the opening `<head>` tag is safest).
 
-2. **Use exactly this simple syntax in HTML5**:  
+2. **Use exactly this simple syntax in HTML5**:
    ```html
    <meta charset="UTF-8">
    ```
    No closing slash needed, no `content` attribute, no complicated stuff.
 
-3. **Always use UTF-8 in 2025+**  
+3. **Always use UTF-8 in 2025+**
    Unless you have a very specific legacy reason, just use:
    ```html
    <meta charset="UTF-8">

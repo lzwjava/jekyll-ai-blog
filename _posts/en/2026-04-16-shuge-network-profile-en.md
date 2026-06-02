@@ -57,7 +57,7 @@ The company focuses on the mobile internet sector and has successfully developed
 
 **Overseas Business Positioning**: Focused on developing and operating **engaging casual games** for global users
 
-**Official Website**: www.shugechina.com 
+**Official Website**: www.shugechina.com
 
 ---
 

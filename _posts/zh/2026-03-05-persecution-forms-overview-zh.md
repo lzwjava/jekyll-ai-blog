@@ -11,7 +11,7 @@ type: note
 
 Question: 迫害（persecution）是什么意思？
 
-Answer: 
+Answer:
 
 **Persecution** 指的是因为个人的种族、宗教、民族、国籍、政治信仰、性取向、性别认同或其他受保护特征，而对个人或群体进行的系统性、蓄意且往往残酷的对待或骚扰。
 
@@ -46,7 +46,7 @@ Answer:
 
 在日常语言中，人们有时更宽泛地使用“persecution”来指任何不公平对待，但在严肃讨论中（尤其是法律、历史或人权语境），它指的是严重、针对性和通常持续的伤害或压迫。
 
-References:  
+References:
 
-- [1951 Refugee Convention (UNHCR)](https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention)  
+- [1951 Refugee Convention (UNHCR)](https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention)
 - [Definition of persecution in international law](https://www.unhcr.org/publications/legal/3d58e13b4/guidelines-international-protection-no-9-claims-persecution-grounds.html)

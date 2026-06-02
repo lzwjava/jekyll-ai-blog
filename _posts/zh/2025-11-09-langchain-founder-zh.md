@@ -24,10 +24,10 @@ LangGraph 并非一个独立项目——它是由 *LangChain 团队*（由 Chase
 
 它是开源的，可与 LangChain 无缝集成，并为生产级 RAG（检索增强生成）或自定义 LLM 应用等提供支持。如果说 LangChain 是构建 LLM 应用的乐高积木，那么 LangGraph 就是构建复杂机器的蓝图。它没有独立的创始人；它是 LangChain 生态系统自然发展的产物。
 
-**参考资料：**  
-- [LangChain 维基百科](https://en.wikipedia.org/wiki/LangChain)  
-- [Harrison Chase 领英](https://www.linkedin.com/in/harrison-chase-961287118)  
-- [福布斯人物志：Harrison Chase](https://www.forbes.com/profile/harrison-chase/)  
-- [创始人故事：Harrison Chase](https://www.frederick.ai/blog/harrison-chase-langchain)  
-- [LangGraph 官方页面](https://www.langchain.com/langgraph)  
+**参考资料：**
+- [LangChain 维基百科](https://en.wikipedia.org/wiki/LangChain)
+- [Harrison Chase 领英](https://www.linkedin.com/in/harrison-chase-961287118)
+- [福布斯人物志：Harrison Chase](https://www.forbes.com/profile/harrison-chase/)
+- [创始人故事：Harrison Chase](https://www.frederick.ai/blog/harrison-chase-langchain)
+- [LangGraph 官方页面](https://www.langchain.com/langgraph)
 - [IBM 关于 LangGraph](https://www.ibm.com/think/topics/langgraph)

@@ -16,7 +16,7 @@ You're asking a great question about the TCP/IP (or OSI) model—why bother spli
 
 #### Quick Recap: What Each Layer Does
 - **Data Link Layer**: Handles *local* communication between directly connected devices (e.g., over Ethernet or Wi-Fi). It frames raw bits into packets (adding headers/trailers with MAC addresses for "who's next door"), detects errors (via CRC checks), and manages flow control on a single link. Think of it as the "physical neighborhood cop"—it ensures reliable handoffs between neighbors without worrying about the bigger picture.
-  
+
 - **Network Layer**: Manages *global* routing across networks (e.g., the internet). It uses logical addresses like IP addresses to decide paths between distant hosts, handles fragmentation/reassembly, and deals with broader issues like routing tables and basic congestion avoidance (e.g., ICMP for error reporting). It's the "global GPS"—it plots routes across cities, not just streets.
 
 The separation means data gets "encapsulated" as it moves up/down the stack: Network Layer packets get wrapped in Data Link frames for transmission.
@@ -42,10 +42,10 @@ This isn't arbitrary—it's driven by real-world needs for scalability, flexibil
 
 #### Wouldn't Combining Them Be More Efficient and Simple?
 - **Short Answer**: It might *seem* simpler (fewer layers = less encapsulation overhead, like skipping Data Link headers), but in practice, it's a false economy. The ~20-50 bytes of extra headers per packet are a tiny fraction of modern data volumes (e.g., video streams), and the gains from separation dwarf that.
-  
+
 - **Efficiency Trade-offs**:
   - **Pros of Combining**: Reduced header parsing (one layer instead of two), potentially faster local routing if IP is tied to MAC. Congestion could be "baked in" per link.
-  - **Cons**: 
+  - **Cons**:
     - **Brittle Scaling**: In a flat model, routing tables balloon (imagine every router storing *all* local MACs globally—impossible at internet scale).
     - **Maintenance Nightmare**: Updating for new tech (e.g., 5G slicing) requires overhauling everything, not just one layer.
     - **Overhead Explosion**: Without separation, error recovery and congestion signals get duplicated or missed across hops, leading to more retransmits (worse than extra headers).

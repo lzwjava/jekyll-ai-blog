@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=mpQZVYPuDGU say?
 
-Answer: 
+Answer:
 
 The video is an animated educational tutorial titled **"How a DNS Server (Domain Name System) works"** from the channel PowerCert Animated Videos (uploaded in 2016).
 
@@ -39,6 +39,6 @@ The video emphasizes caching at various levels to speed up repeated queries and 
 
 The narration is straightforward, accompanied by animations illustrating the hierarchy and flow of queries.
 
-References:  
+References:
 
 - https://www.youtube.com/watch?v=mpQZVYPuDGU

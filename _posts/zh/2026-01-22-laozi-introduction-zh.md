@@ -34,7 +34,7 @@ Answer:
 
 书的开头便是中国哲学中最著名的名言之一：
 
-> 道可道，非常道。名可名，非常名。  
+> 道可道，非常道。名可名，非常名。
 > (The Dao that can be spoken of is not the eternal Dao. The name that can be named is not the eternal name.)
 
 其关键哲学概念包括：
@@ -59,7 +59,7 @@ Answer:
 
 简而言之，《老子》不仅是一部中国古代经典 —— 它更是一部关于如何与宇宙和谐共处的永恒指南，通过简单与悖论传达了深邃的智慧。
 
-References:  
+References:
 
 - [Wikipedia: 老子 (書)](https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_(%E6%9B%B8))
 - [Baidu Baike: 道德经](https://baike.baidu.com/item/%E9%81%93%E5%BE%B7%E7%BB%8F/327138)

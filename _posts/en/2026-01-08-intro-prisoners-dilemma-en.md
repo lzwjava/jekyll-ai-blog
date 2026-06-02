@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Prisoner's Dilemma?
 
-Answer: 
+Answer:
 
 The **Prisoner's Dilemma** is a fundamental concept in game theory that illustrates a situation where two rational individuals, acting in their own self-interest, may not cooperate, even though cooperation would lead to a better collective outcome.
 

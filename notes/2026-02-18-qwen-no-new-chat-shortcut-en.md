@@ -11,7 +11,7 @@ type: note
 
 Question: What is the keyboard shortcut for starting a new chat in chat.qwen.ai, similar to Grok's Command + J?
 
-Answer: 
+Answer:
 
 Based on my research, **chat.qwen.ai does not currently have a documented keyboard shortcut specifically for creating a new chat** in its web interface.
 
@@ -39,7 +39,7 @@ If you'd like this feature, consider:
 
 *Note: Keyboard shortcuts can change with updates, so it's worth revisiting the official documentation or in-app help periodically.*
 
-References:  
+References:
 
 - [https://qwenlm.github.io/qwen-code-docs/en/users/reference/keyboard-shortcuts/](https://qwenlm.github.io/qwen-code-docs/en/users/reference/keyboard-shortcuts/) [[1]]
 - [https://apps.apple.com/kz/app/qwen-chat-ask-qwen-know-more/id6743778442](https://apps.apple.com/kz/app/qwen-chat-ask-qwen-know-more/id6743778442) [[30]]

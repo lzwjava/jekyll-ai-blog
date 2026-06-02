@@ -37,5 +37,5 @@ These entries are **normal and indicate healthy operation**, not an error. They 
 
 This is routine behavior—your router is just keeping its "internet ticket" valid.
 
-[Understanding DHCP Basics (Microsoft)](https://learn.microsoft.com/en-us/windows-server/troubleshoot/dynamic-host-configuration-protocol-basics)  
+[Understanding DHCP Basics (Microsoft)](https://learn.microsoft.com/en-us/windows-server/troubleshoot/dynamic-host-configuration-protocol-basics)
 [DHCP Process Overview (Netmanias)](https://www.netmanias.com/en/post/techdocs/5998/dhcp-network-protocol/understanding-the-basic-operations-of-dhcp)

@@ -15,7 +15,7 @@ type: note
 Hydrogen peroxide (H₂O₂) is a versatile chemical often found in household disinfectants, hair bleaches, and oral rinses due to its oxidizing properties. Here are some other common chemical ingredients you'll encounter in everyday products, from cleaning supplies to food and personal care. I've focused on widely used ones with simple, practical applications:
 
 - **Sodium Bicarbonate (NaHCO₃, Baking Soda)**: A mild alkali used in baking (to help dough rise), cleaning (deodorizing fridges or scrubbing surfaces), and even fire extinguishers. It's non-toxic and eco-friendly.
-  
+
 - **Acetic Acid (CH₃COOH, Vinegar)**: The key ingredient in white vinegar, employed for pickling food, descaling appliances, and as a natural weed killer. It's a weak acid that's safe for most household tasks.
 
 - **Sodium Hypochlorite (NaOCl, Bleach)**: Found in laundry and bathroom cleaners, it disinfects surfaces, whitens fabrics, and removes stains by breaking down organic matter—much like hydrogen peroxide but stronger.

@@ -11,7 +11,7 @@ type: note
 
 Question: What is the general term for all technologies that can physically and logically enable the interconnection of different networks?
 
-Answer: 
+Answer:
 
 The general term for all technologies that enable the interconnection of different networks, both physically and logically, is **Network Interconnection Technology** (or simply **Internetworking**).
 

@@ -12,7 +12,7 @@ type: note
 
 Question: How does PwC audit public companies? What reports do they ask internal people for, such as in banking or other big tech companies?
 
-Answer: 
+Answer:
 
 PwC (PricewaterhouseCoopers), as one of the Big Four accounting firms, conducts audits of public companies to provide an independent opinion on whether their financial statements present a true and fair view in accordance with applicable accounting standards, such as GAAP (Generally Accepted Accounting Principles) in the US or IFRS (International Financial Reporting Standards) internationally. For public companies, these audits also ensure compliance with regulations like the Sarbanes-Oxley Act (SOX) in the US, which emphasizes internal controls over financial reporting. PwC's audit approach is technology-enabled, people-led, and focuses on quality, risk assessment, and stakeholder trust. The process involves close collaboration with the company's management, internal personnel, and audit committee throughout.
 
@@ -79,10 +79,10 @@ Audits are customized to industry risks. For banking and big tech companies, PwC
 
 PwC's audits aim to reduce disruption through technology (e.g., data analytics for full population testing) while providing deeper insights. If issues arise, auditors may escalate to the audit committee. The final output is an audit report with an opinion (unqualified, qualified, etc.), which is filed publicly for listed companies (e.g., in Form 10-K).
 
-References:  
+References:
 
-- [https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf](https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf)  
-- [https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html](https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html)  
-- [https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/](https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/)  
-- [https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies](https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies)  
+- [https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf](https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf)
+- [https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html](https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html)
+- [https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/](https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/)
+- [https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies](https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies)
 - [https://www.illumeo.com/what-documents-do-i-need-for-an-audit-2/](https://www.illumeo.com/what-documents-do-i-need-for-an-audit-2/)

@@ -12,7 +12,7 @@ type: note
 
 Question: Explain the KV cache in detail.
 
-Answer: 
+Answer:
 
 # Detailed Explanation of the KV Cache in Large Language Models
 
@@ -99,10 +99,10 @@ In frameworks like Hugging Face Transformers, KV caching is enabled by default d
 
 The KV cache is what makes efficient LLM inference possible at scale, transforming potentially prohibitive quadratic costs into manageable linear ones.
 
-References:  
+References:
 
-- [KV Caching Explained: Optimizing Transformer Inference Efficiency](https://huggingface.co/blog/not-lain/kv-caching)  
-- [Transformers Key-Value Caching Explained](https://neptune.ai/blog/transformers-key-value-caching)  
-- [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms)  
-- [Mastering LLM Techniques: Inference Optimization (NVIDIA)](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)  
+- [KV Caching Explained: Optimizing Transformer Inference Efficiency](https://huggingface.co/blog/not-lain/kv-caching)
+- [Transformers Key-Value Caching Explained](https://neptune.ai/blog/transformers-key-value-caching)
+- [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms)
+- [Mastering LLM Techniques: Inference Optimization (NVIDIA)](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)
 - [Hugging Face Documentation on KV Cache](https://huggingface.co/docs/transformers/en/kv_cache)

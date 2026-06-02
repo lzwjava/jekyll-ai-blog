@@ -35,7 +35,7 @@ type: note
 
 它被广泛认为是报名 British Council 考试时所能获得的最具价值的免费官方资源之一。
 
-**References:**  
+**References:**
 
 - [British Council IELTS Ready page](https://takeielts.britishcouncil.org/take-ielts/prepare/ielts-ready)
 - [British Council announcement and features](https://www.britishcouncil.org.br/en/exam/ielts/ready-premium)

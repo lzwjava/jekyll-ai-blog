@@ -20,19 +20,19 @@ def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Sort a single-line CSV file alphabetically')
     parser.add_argument('file_path', help='Path to the input CSV file')
-    
+
     # Parse arguments
     args = parser.parse_args()
-    
+
     try:
         # Get the directory and filename
         file_dir = os.path.dirname(args.file_path)
         file_name = os.path.basename(args.file_path)
-        
+
         # Create output filename
         base_name, ext = os.path.splitext(file_name)
         output_file = os.path.join(file_dir, f"{base_name}_sorted{ext}")
-        
+
         # Read the input CSV file
         with open(args.file_path, 'r') as file:
             reader = csv.reader(file)
@@ -40,17 +40,17 @@ def main():
             for row in reader:
                 values = row
                 break
-        
+
         # Sort the values alphabetically
         sorted_values = sorted(values)
-        
+
         # Write to output file
         with open(output_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(sorted_values)
-        
+
         print(f"Successfully sorted values and saved to {output_file}")
-        
+
     except FileNotFoundError:
         print(f"Error: File '{args.file_path}' not found")
     except Exception as e:

@@ -30,7 +30,7 @@ Since registration is open **until December 6, 2025**, prioritize this:
    - Max load: Up to 8-10 credits typically allowed per exam session, but check your eligibility.
    - Pay fees online immediately after selecting—it's non-refundable once confirmed.
 
-2. **Post-January 2026**: 
+2. **Post-January 2026**:
    - April 2026 and October 2026 exams will be fully under the new plan. Tackle your remaining prep courses there (e.g., Mao Zedong Thought, College Chinese, Linear Algebra—these public courses are mostly unchanged, just possibly recoded).
    - Total credits needed: Around 70-72 for the associate degree; with 10 passed, you're over halfway—focus on the 15-20 left.
 
@@ -40,7 +40,7 @@ If these codes don't show up in your registration options or you're worried abou
 
 You're in a great spot timing-wise—grab those January slots to build momentum. If you share more details (like your full passed list or screenshots from the registration site), I can refine this further. Keep pushing; graduation's within reach!
 
-**References**:  
-- [Guangdong EEA: 2026 Jan Exam Schedule and Textbooks](https://eea.gd.gov.cn/zxks/content/post_4769842.html)  
-- [Professional Adjustment Details](https://zhuanlan.zhihu.com/p/660254183)  
+**References**:
+- [Guangdong EEA: 2026 Jan Exam Schedule and Textbooks](https://eea.gd.gov.cn/zxks/content/post_4769842.html)
+- [Professional Adjustment Details](https://zhuanlan.zhihu.com/p/660254183)
 - [2026 Registration Guide](https://eea.gd.gov.cn/tzgg/content/post_4800186.html)

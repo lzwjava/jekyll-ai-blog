@@ -43,12 +43,12 @@ Here is why and when it matters:
 - On USB 3.0/3.1 flash drive, external HDD, or network copy → single-folder copy is noticeably more reliable and usually faster.
 - If you want maximum speed and don't mind the command line → use `cp -R` or `rsync -a` for one parent folder — often faster than Finder anyway.
 
-**Summary rule of thumb (macOS Finder):**  
+**Summary rule of thumb (macOS Finder):**
 One big copy operation > parallel copy of several folders > sequential one-by-one copy.
 
-**References:**  
+**References:**
 
-- [https://discussions.apple.com/thread/1211440](https://discussions.apple.com/thread/1211440)  
-- [https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time](https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time)  
-- [https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198](https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198)  
+- [https://discussions.apple.com/thread/1211440](https://discussions.apple.com/thread/1211440)
+- [https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time](https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time)
+- [https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198](https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198)
 - [https://discussions.apple.com/thread/255971420](https://discussions.apple.com/thread/255971420)

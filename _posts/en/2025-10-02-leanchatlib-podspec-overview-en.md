@@ -88,5 +88,5 @@ This makes it easy to drop a full IM framework into an app without manually mana
 
 If you're building an iOS chat app, this pod would save tons of boilerplate. Note: The version (0.2.6) and iOS 7.0 support suggest it's from around 2015–2016; check the GitHub repo for updates.
 
-[LeanChat iOS GitHub Repo](https://github.com/leancloud/leanchat-ios)  
+[LeanChat iOS GitHub Repo](https://github.com/leancloud/leanchat-ios)
 [CocoaPods Documentation](https://guides.cocoapods.org/syntax/podspec.html)

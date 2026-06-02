@@ -11,7 +11,7 @@ type: note
 
 Question: How do fireworks work? During the Chinese Spring Festival, there are small fireworks placed on the ground that spin around. There are a lot more inventions now compared to over 20 years ago when I was a kid. What are their names?
 
-Answer: 
+Answer:
 
 **How fireworks work**
 
@@ -52,7 +52,7 @@ Fireworks technology and market have advanced significantly:
 
 Kids today see far more inventive designs (shaped like animals, cars, or with themed effects) than the simpler spinning ones common in the early 2000s or before.
 
-References:  
+References:
 
 - [Ground spinners crackle and spin in lively fireworks display in Hunan, China](https://www.newsflare.com/video/838617/ground-spinners-crackle-and-spin-in-lively-fireworks-display-in-hunan-china)
 - [Chinese Fireworks history and types](https://www.travelchinaguide.com/essential/holidays/new-year/firework.htm)

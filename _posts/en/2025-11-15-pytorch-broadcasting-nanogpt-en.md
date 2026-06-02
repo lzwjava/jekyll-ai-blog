@@ -32,7 +32,7 @@ it treats `pos_emb` (shape `(T, n_embd)`) as if it were `(1, T, n_embd)` and the
 So this addition becomes:
 ```
 (B, T, n_embd)
-     + 
+     +
 (1, T, n_embd)   ← automatically added by broadcasting
      =
 (B, T, n_embd)

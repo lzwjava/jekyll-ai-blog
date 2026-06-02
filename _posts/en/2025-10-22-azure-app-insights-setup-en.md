@@ -109,6 +109,6 @@ For other languages or auto-instrumentation (e.g., for Azure App Service), check
 - Monitor costs via the **Usage and estimated costs** page (billed through Log Analytics).
 - For browser monitoring, add the JavaScript SDK snippet to your web pages.
 
-[Create and configure Application Insights resources](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource)  
-[Enable OpenTelemetry in Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable)  
+[Create and configure Application Insights resources](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource)
+[Enable OpenTelemetry in Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable)
 [Application Insights overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)

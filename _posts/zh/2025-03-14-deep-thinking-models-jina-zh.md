@@ -54,7 +54,7 @@ type: note
         )
         print(response.choices[0].message.content)
         ```
-        
+
 *   **Grok（xAI）**：xAI的Grok系列（含Grok-3与Grok-3 mini）具备强大推理能力。Grok-1.5曾面向早期测试者，Grok 3即将通过API发布[^11]。Grok 3（Think）与Grok 3 mini（Think）采用强化学习优化推理链，实现数据高效的高级推理[^12]。
 
     *   **API访问**：Grok 3 API预计近期发布[^11]。

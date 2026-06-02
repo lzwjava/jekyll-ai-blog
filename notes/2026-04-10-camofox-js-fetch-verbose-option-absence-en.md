@@ -67,7 +67,7 @@ HTTP_PROXY=http://127.0.0.1:7890 curl -I https://www.google.com
 
 Would you like commands to manually find and clear the Camoufox download cache so you can start fresh?
 
-References:  
-- https://github.com/apify/camoufox-js  
-- https://www.npmjs.com/package/@askjo/camoufox-browser  
+References:
+- https://github.com/apify/camoufox-js
+- https://www.npmjs.com/package/@askjo/camoufox-browser
 - https://www.mintlify.com/jo-inc/camofox-browser/installation

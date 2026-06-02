@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=GVs1V1pPgac say?
 
-Answer: 
+Answer:
 
 The video is titled **"Steve Cohen on How to Build Your Investing Career: Part One"**, published by the Point72 YouTube channel (the hedge fund founded by Steve Cohen).
 
@@ -32,6 +32,6 @@ The discussion is motivational and practical advice aimed at people interested i
 
 The video is not investment advice (includes standard disclaimer).
 
-References:  
+References:
 
 - [https://www.youtube.com/watch?v=GVs1V1pPgac](https://www.youtube.com/watch?v=GVs1V1pPgac)

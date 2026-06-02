@@ -12,7 +12,7 @@ type: note
 
 Question: What is the life story of Mark Kempf, and how was he involved in networking as the author/inventor of the Ethernet bridge?
 
-Answer: 
+Answer:
 
 Mark Kempf is a networking engineer best known for inventing the first Ethernet MAC bridge (also known as a learning bridge or Layer 2 switch) in 1983 while working at Digital Equipment Corporation (DEC).
 
@@ -26,9 +26,9 @@ Little public information exists on his early life, education, or personal detai
 
 Note: There are multiple individuals named Mark Kempf (e.g., a retired U.S. Navy captain in defense tech, others in finance or software), but the one associated with the Ethernet bridge is the DEC engineer.
 
-References:  
+References:
 
-- [IEEE Spectrum: How DEC Engineers Saved Ethernet](https://spectrum.ieee.org/how-dec-engineers-saved-ethernet)  
-- [Hackaday: How DEC’s LANBridge 100 Gave Ethernet A Fighting Chance](https://hackaday.com/2024/04/09/how-decs-lanbridge-100-gave-ethernet-a-fighting-chance/)  
-- [Packet Pushers Podcast: History of Networking: How Bridging Saved Ethernet](https://packetpushers.net/podcasts/heavy-networking/hn741-history-of-networking-how-bridging-saved-ethernet/)  
+- [IEEE Spectrum: How DEC Engineers Saved Ethernet](https://spectrum.ieee.org/how-dec-engineers-saved-ethernet)
+- [Hackaday: How DEC’s LANBridge 100 Gave Ethernet A Fighting Chance](https://hackaday.com/2024/04/09/how-decs-lanbridge-100-gave-ethernet-a-fighting-chance/)
+- [Packet Pushers Podcast: History of Networking: How Bridging Saved Ethernet](https://packetpushers.net/podcasts/heavy-networking/hn741-history-of-networking-how-bridging-saved-ethernet/)
 - [Wikiwand: Network Switch (citing invention)](https://www.wikiwand.com/en/Network_switch)

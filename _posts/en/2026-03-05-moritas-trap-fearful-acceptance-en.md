@@ -11,7 +11,7 @@ type: note
 
 Question: How to understand Shoma Morita's idea in the statement “Arugu that is too self-focused and fear-driven produces the opposite result”?
 
-Answer: 
+Answer:
 
 The quote appears to refer to **arugamama** (often romanized as "arugu" in some transcriptions or approximations), a central concept in **Morita therapy** developed by Japanese psychiatrist Shoma Morita. Arugamama literally means "things as they are" and describes an attitude of accepting reality—including one's thoughts, emotions, physical sensations, and external circumstances—exactly as they naturally occur, without resistance, judgment, or excessive manipulation.
 
@@ -32,7 +32,7 @@ In essence, true arugamama is **not** a forced, self-conscious, or anxious striv
 
 Morita's key insight is therefore: **Stop battling feelings; accept them as natural (even if unpleasant), let them come and go without fixation, and take action anyway.** This breaks the vicious cycle and allows the "desire for life" to guide behavior rather than fear.
 
-References:  
+References:
 
 - [What is Morita Therapy? The Nature, Origins, and Cross-Cultural Application of a Unique Japanese Psychotherapy](https://link.springer.com/article/10.1007/s10879-020-09464-6)
 - [BASICS — The Morita School of Japanese Psychology](http://www.moritaschool.com/read-me)

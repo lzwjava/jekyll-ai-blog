@@ -18,6 +18,6 @@ type: note
 
 这些辅助镜片是大多数试镜片套装（如158件或266件套）的标准组件，与球镜、柱镜及棱镜片共同用于主观验光。
 
-[中国232件试镜片套装](https://www.shvisualtech.com/refraction-instruments/trial-lens-set-and-frame/232-trial-lens-kit.html)  
-[BR-260试镜片组](https://www.mdt.pl/en/produkt/br-260/)  
+[中国232件试镜片套装](https://www.shvisualtech.com/refraction-instruments/trial-lens-set-and-frame/232-trial-lens-kit.html)
+[BR-260试镜片组](https://www.mdt.pl/en/produkt/br-260/)
 [试镜片套装评测](https://endmyopia.org/test-lens-kit-reviewed-110-vs-650/)

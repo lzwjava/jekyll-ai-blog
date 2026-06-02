@@ -12,7 +12,7 @@ type: note
 
 ### Question: How to claim unemployment benefits in major Chinese cities, such as Guangzhou or Beijing?
 
-### Answer: 
+### Answer:
 
 Unemployment benefits in China, often referred to as unemployment insurance (失业保险, *shīyè bǎoxiǎn*), provide temporary financial support to eligible workers who lose their jobs involuntarily. This is part of the national social security system, but details like contribution rates, benefit amounts, and application processes vary by city. Major cities like Guangzhou and Beijing generally offer more streamlined processes and higher benefits compared to smaller areas. Benefits typically include monthly payments (around 1,500–2,000 RMB in big cities), medical coverage during the period, and access to job training or placement services.
 
@@ -31,7 +31,7 @@ If you've contributed less than 1 year, you may qualify for a one-time unemploym
 The process is similar across cities but can be done online or offline. Apply **within 60 days** of job loss to avoid delays. Benefits last 12–24 months, depending on contribution history (longer for more years paid in).
 
 1. **Obtain Proof from Employer**: Get a termination certificate (*jiěchú láodòng hétóng zhèngmíngshū*) from your ex-employer within 7 days of leaving. It confirms the reason for separation.
-   
+
 2. **Register as Unemployed**: Visit or apply online at your local employment service center (公共就业服务机构) or social insurance bureau. This officially logs you as job-seeking.
 
 3. **Submit Application and Documents**:

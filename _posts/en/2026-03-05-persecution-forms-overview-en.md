@@ -11,7 +11,7 @@ type: note
 
 Question: What does persecution mean?
 
-Answer: 
+Answer:
 
 **Persecution** means the systematic, deliberate, and often cruel treatment or harassment of individuals or groups because of their race, religion, ethnicity, nationality, political beliefs, sexual orientation, gender identity, or other protected characteristics.
 
@@ -46,7 +46,7 @@ According to the 1951 Refugee Convention and its 1967 Protocol, persecution is a
 
 In everyday language, people sometimes use "persecution" more loosely to mean any unfair treatment, but in serious discussion (especially legal, historical, or human rights contexts), it refers to severe, targeted, and usually sustained harm or oppression.
 
-References:  
+References:
 
-- [1951 Refugee Convention (UNHCR)](https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention)  
+- [1951 Refugee Convention (UNHCR)](https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention)
 - [Definition of persecution in international law](https://www.unhcr.org/publications/legal/3d58e13b4/guidelines-international-protection-no-9-claims-persecution-grounds.html)

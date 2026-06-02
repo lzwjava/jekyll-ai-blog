@@ -12,7 +12,7 @@ type: note
 
 Question: What is the wisdom of programming?
 
-Answer: 
+Answer:
 
 “编程智慧”（The wisdom of programming）是指引导高效 Software Development 的永恒原则、哲学和 Best Practices。这些见解是从先驱者和从业者数十年的经验中提炼出来的，强调清晰度、Maintainability、简洁性以及实用性，而非一味追求奇巧或复杂。
 
@@ -58,7 +58,7 @@ Answer:
 
 这些原则超越了具体的语言或工具——它们适用于所有编程。掌握这些原则能够开发出健壮、Scalable 且易于协同工作的软件。诸如 *The Pragmatic Programmer* (程序员修炼之道)、*Clean Code* (代码整洁之道) 以及 *The Art of Unix Programming* (Unix 编程艺术) 等书籍对这些思想进行了深入探讨。
 
-References:  
+References:
 
 - [Unix philosophy - Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)

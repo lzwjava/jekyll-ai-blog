@@ -67,8 +67,8 @@ openclaw config set browser.profile openclaw
 
 ### 3. If you want to connect to your **real existing browser** instead (Extension Relay mode)
 
-1. Install the **OpenClaw Browser Relay** extension  
-   → Chrome Web Store: search "OpenClaw Browser Relay" or go directly to  
+1. Install the **OpenClaw Browser Relay** extension
+   → Chrome Web Store: search "OpenClaw Browser Relay" or go directly to
    https://chromewebstore.google.com/detail/openclaw-browser-relay/……
 
 2. Enable developer mode in Chrome → load unpacked → point to the folder if you cloned it manually
@@ -86,7 +86,7 @@ openclaw config set browser.websocket ws://127.0.0.1:9222/devtools/browser/…�
 
 - Most people get good results with the **managed isolated profile** (`openclaw` profile) — it's safer and avoids messing with your personal logins.
 - The **relay mode** is more powerful (uses your real cookies/sessions), but also more risky — only use it if you fully trust what the agent is doing.
-- After configuring acpx, test it with a simple command like:  
+- After configuring acpx, test it with a simple command like:
   `openclaw "open google.com and tell me what the Google logo says"`
 
 If you're still getting "acpx plugin not configured" after these steps, share:

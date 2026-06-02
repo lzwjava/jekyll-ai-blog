@@ -68,6 +68,6 @@ type: note
 
 如果你指的是特定命令或场景（例如同时加密*和*签名），请分享更多细节！
 
-**参考资料**  
-[GPG 文档：加密与签名](https://www.gnupg.org/documentation/manuals/gnupg/)  
+**参考资料**
+[GPG 文档：加密与签名](https://www.gnupg.org/documentation/manuals/gnupg/)
 [GPG 快速入门指南](https://www.gnupg.org/documentation/manuals/gnupg/GnuPG-basics.html)

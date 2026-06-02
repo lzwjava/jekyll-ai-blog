@@ -30,7 +30,7 @@ def extract_imports_from_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             tree = ast.parse(f.read(), filename=file_path)
-        
+
         for node in ast.walk(tree):
             if isinstance(node, ast.Import):
                 for alias in node.names:
@@ -39,7 +39,7 @@ def extract_imports_from_file(file_path):
                 modules.add(node.module.split('.')[0])  # Get base module from 'from mod.sub import ...'
     except Exception as e:
         print(f"Error parsing {file_path}: {e}")
-    
+
     return modules
 
 def get_all_imported_modules(directory):
@@ -53,23 +53,23 @@ def get_all_imported_modules(directory):
                 file_path = os.path.join(root, file)
                 modules = extract_imports_from_file(file_path)
                 all_modules.update(modules)
-    
+
     # Exclude common builtins (optional, as they are rarely external packages)
     excluded = {'sys', 'os', 're', 'math', 'random', 'json', 'time', 'datetime', 'collections', 'itertools', 'functools'}
     all_modules -= excluded
-    
+
     return sorted(all_modules)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python extract_imports.py <directory_path>")
         sys.exit(1)
-    
+
     directory = sys.argv[1]
     if not os.path.isdir(directory):
         print(f"Error: {directory} is not a valid directory.")
         sys.exit(1)
-    
+
     modules = get_all_imported_modules(directory)
     print("All unique imported packages:")
     for mod in modules:

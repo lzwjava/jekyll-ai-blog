@@ -20,7 +20,7 @@ This is the README.md from github project [https://github.com/lzwjava/leanchat-i
 
 ![leanchat](https://cloud.githubusercontent.com/assets/5022872/8431636/4eff0aca-1f6d-11e5-8728-f8f450dac380.gif)
 
-## App Store  
+## App Store
 LeanChat is available on the App Store. You can visit https://itunes.apple.com/gb/app/leanchat/id943324553 or search for LeanChat on the App Store.
 
 ## Introduction
@@ -48,7 +48,7 @@ Please directly click on `Download Zip` on Github as shown in the image below to
   cd LeanChat
   pod install --verbose  // If you have AVOSCloud dependency library locally, you can add the --no-repo-update option to speed up the process
   open LeanChat.workspace
-  
+
   // LeanChatExample (Simple Example)
   cd LeanChatExample
   pod install --verbose --no-repo-update
@@ -58,7 +58,7 @@ Please directly click on `Download Zip` on Github as shown in the image below to
   cd LeanChatSwift
   pod install --verbose --no-repo-update
   open LeanChatSwift.xcworkspace
-  
+
   // LeanChatLib (Library encapsulating LeanCloud communication components and UI)
   cd LeanChatLib
   pod install --verbose --no-repo-update
@@ -192,13 +192,13 @@ To group chat,
 When logging out,
 ```objc
     [[CDChatManager manager] closeWithCallback: ^(BOOL succeeded, NSError *error) {
-        
+
     }];
 ```
 
 Then, you can chat as shown in the screenshot above. Note that we currently do not recommend using the pod method to import LeanChatLib directly because some interfaces and functionalities need to be customized by you. Therefore, we recommend copying the LeanChatLib code into the project for easier customization.
 
-## LeanChatLib ChangeLog	
+## LeanChatLib ChangeLog
 
 0.2.6
 
@@ -209,7 +209,7 @@ Upgrade SDK to 3.1.4 to adapt to iOS 9
 Use cachePolicy in AVIMConversationQuery to save traffic and better support offline
 Fixed a bug where calling fetchConvWithConvid when the conversation does not exist may cause a crash
 
-0.2.4	
+0.2.4
 
 Added Tuzki emoji
 

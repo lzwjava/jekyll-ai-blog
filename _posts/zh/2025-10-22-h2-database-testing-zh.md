@@ -155,7 +155,7 @@ public class StandaloneH2Test {
 
 更多细节请参考以下文献：
 
-[Spring Boot 测试环境 H2 数据库配置指南](https://medium.com/@paulkunda/setting-up-h2-for-testing-in-spring-boot-245d3a98e405)  
-[基于内存数据库的自包含测试 | Baeldung](https://www.baeldung.com/spring-jpa-test-in-memory-database)  
-[Spring Boot 应用测试环境 H2 配置详解](https://medium.com/@akshatakanaje08/setting-up-h2-for-testing-in-spring-boot-application-7f016220a475)  
+[Spring Boot 测试环境 H2 数据库配置指南](https://medium.com/@paulkunda/setting-up-h2-for-testing-in-spring-boot-245d3a98e405)
+[基于内存数据库的自包含测试 | Baeldung](https://www.baeldung.com/spring-jpa-test-in-memory-database)
+[Spring Boot 应用测试环境 H2 配置详解](https://medium.com/@akshatakanaje08/setting-up-h2-for-testing-in-spring-boot-application-7f016220a475)
 [使用 H2 内存数据库测试 Spring Data 仓储层](https://www.geekyhacker.com/test-spring-data-repositories-with-h2-in-memory-database/)

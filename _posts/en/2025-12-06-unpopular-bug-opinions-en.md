@@ -38,7 +38,7 @@ Here are some genuinely unpopular (and often uncomfortable) opinions about why b
 
 These opinions tend to be unpopular because they shift blame from “the code” or “management” to the actual humans and incentives in the room—and most people would rather keep the comfortable myths.
 
-References:  
-- [The “Works on My Machine” Excuse](https://blog.codinghorror.com/the-works-on-my-machine-problem/)  
-- [On Being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)  
+References:
+- [The “Works on My Machine” Excuse](https://blog.codinghorror.com/the-works-on-my-machine-problem/)
+- [On Being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)

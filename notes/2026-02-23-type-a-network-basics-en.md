@@ -11,7 +11,7 @@ type: note
 
 Question: According to user requirements and the nature of errors, network services are divided into three types. Which of the following describes Type A network service?
 
-Answer: 
+Answer:
 
 **Type A Network Service** is characterized by having **acceptable residual error rates** and **acceptable failure notification rates**.
 
@@ -24,6 +24,6 @@ Since Type A represents the highest quality of underlying service where both met
 
 **Correct Option:** C
 
-References:  
+References:
 
 - [OSI Transport Layer Services Overview](https://www.geeksforgeeks.org/types-of-services-in-transport-layer/)

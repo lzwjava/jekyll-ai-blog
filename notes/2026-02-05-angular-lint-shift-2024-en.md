@@ -14,7 +14,7 @@ Yes, you're on the right track! Here's what happened with those transitions:
 
 **Webpack**: Angular has used webpack as its underlying bundler since Angular 2+, including both Angular 9 and Angular 14. This didn't change between those versions.
 
-**TSLint → ESLint transition**: This is correct! 
+**TSLint → ESLint transition**: This is correct!
 
 - **Angular 9 and earlier**: Used TSLint for linting TypeScript code
 - **Angular 11**: TSLint was officially deprecated, and the Angular team recommended migrating to ESLint

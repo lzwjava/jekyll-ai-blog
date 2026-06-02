@@ -39,7 +39,7 @@ Mercury MCAP1200GP 是一款吸顶式无线接入点（AP）路由器，专为�
 
 本型号专注于专业场景部署而非家庭使用，强调可靠性与扩展性。
 
-**参考资料**  
-- [Mercury官方产品规格](https://www.mercurycom.com.cn/m/product-383?type=spec)  
-- [Yoycart产品页面](https://m.yoycart.com/Product/585666964167/)  
+**参考资料**
+- [Mercury官方产品规格](https://www.mercurycom.com.cn/m/product-383?type=spec)
+- [Yoycart产品页面](https://m.yoycart.com/Product/585666964167/)
 - [淘宝商品概览](https://world.taobao.com/lang/en-us/goods/-100109722363.htm)

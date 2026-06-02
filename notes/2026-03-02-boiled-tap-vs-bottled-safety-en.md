@@ -11,7 +11,7 @@ type: note
 
 Question: Is Guangzhou municipal tap water safe to drink after boiling? How does its quality compare to bottled water?
 
-Answer: 
+Answer:
 
 **Guangzhou tap water (municipal supply) is generally not recommended for direct drinking**, but **boiling it makes it much safer and suitable for consumption** for most people.
 
@@ -30,7 +30,7 @@ Many locals in Guangzhou routinely boil tap water for daily drinking (tea, soup,
 
 In summary: Yes, you can safely drink Guangzhou tap water after thoroughly boiling it (bring to a rolling boil for 1–3 minutes). Its quality is reliable and comparable to (or better than) average bottled water in terms of regulated safety, though personal preference for taste or convenience may lead people to choose bottled.
 
-References:  
+References:
 
 - [Guangzhou Water Authority - November 2025 Water Quality Report](http://swj.gz.gov.cn/mssw/szy/szgg/szgg/content/post_10587630.html)
 - [Guangdong Urban Water Supply Association on scale and water quality](https://www.gdwsa.com/Item/16396.aspx)

@@ -18,9 +18,9 @@ Here are the most commonly used aggregate (statistics) functions in DB2 with pra
 
 ### Basic Syntax
 ```sql
-SELECT 
-    function_name(column) 
-FROM table 
+SELECT
+    function_name(column)
+FROM table
 [WHERE ...]
 [GROUP BY ...]
 [HAVING ...]
@@ -47,7 +47,7 @@ FROM table
 
 ```sql
 -- 1. Simple totals and averages
-SELECT 
+SELECT
     SUM(salary)          AS total_salary,
     AVG(salary)          AS avg_salary,
     ROUND(AVG(salary), 2) AS avg_salary_rounded,
@@ -57,7 +57,7 @@ FROM employees;
 
 
 -- 2. Group by department
-SELECT 
+SELECT
     dept_id,
     dept_name,
     COUNT(*)               AS headcount,
@@ -71,7 +71,7 @@ ORDER BY avg_salary DESC;
 
 
 -- 3. Statistical distribution (variance & standard deviation)
-SELECT 
+SELECT
     department,
     AVG(salary)            AS mean_salary,
     STDDEV(salary)         AS stddev_salary,
@@ -84,7 +84,7 @@ ORDER BY stddev_salary DESC;
 
 
 -- 4. With filter + rounding
-SELECT 
+SELECT
     product_category,
     ROUND(SUM(sales_amount), 2)          AS total_sales,
     ROUND(AVG(sales_amount), 2)          AS avg_sale_per_order,
@@ -97,7 +97,7 @@ ORDER BY total_sales DESC;
 
 
 -- 5. Combining multiple aggregates with different precision
-SELECT 
+SELECT
     region,
     COUNT(DISTINCT customer_id)     AS unique_customers,
     SUM(order_total)                AS total_revenue,

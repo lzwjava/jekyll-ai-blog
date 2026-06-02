@@ -32,5 +32,5 @@ python train.py config/train_shakespeare_char.py --n_layer=4 --n_head=4 --n_embd
 
 总之，4 层适用于快速原型设计或低资源运行（仍能产生可用输出），而 1 层更侧重教学意义而非实际效果——非常适合理解模块作用，但不适用于严肃建模。若以 GPT-2 的 12 层为标准，降至 4 层会使基准测试中的损失约翻倍、连贯性约减半。
 
-[karpathy/nanoGPT GitHub](https://github.com/karpathy/nanoGPT)  
+[karpathy/nanoGPT GitHub](https://github.com/karpathy/nanoGPT)
 [VizuaraAI/nano-gpt-oss GitHub](https://github.com/VizuaraAI/nano-gpt-oss)

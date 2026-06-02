@@ -12,7 +12,7 @@ type: note
 
 Question: How to install OpenWrt on an old Lenovo laptop (with i5 processor, 8GB RAM, 500GB disk) that can recently run Linux Mint Cinnamon, to turn it into a soft router? (Possibly including ImmortalWrt option)
 
-Answer: 
+Answer:
 
 Yes — your Lenovo laptop (i5 + 8GB RAM + 500GB disk) is **perfectly suitable** for running OpenWrt as a high-performance soft router. It will outperform almost any consumer router, especially for VPN/proxy (Clash/OpenClash), SQM QoS, multi-gigabit routing, many packages, etc.
 
@@ -27,7 +27,7 @@ For a beginner, start with **official OpenWrt 24.10.x** (stable) or latest snaps
 #### 1. Download the correct image
 - Go to: https://downloads.openwrt.org/
 - For stable → releases → 24.10.5 (or newest 24.10.x) → targets → x86 → 64
-- Recommended file: **openwrt-x86-64-generic-ext4-combined-efi.img.gz**  
+- Recommended file: **openwrt-x86-64-generic-ext4-combined-efi.img.gz**
   (This is the EFI version — almost all laptops from ~2010+ use UEFI. Your recent Linux Mint install proves UEFI works.)
 
 If your BIOS is legacy/CSM only (very rare on i5 laptops), use the non-efi version instead.
@@ -125,7 +125,7 @@ Remove USB before reboot.
 
 Your i5 + 8GB setup can easily handle gigabit+ speeds, heavy VPN/proxy for whole house, and many services.
 
-References:  
+References:
 
 - [OpenWrt Wiki - OpenWrt on x86 hardware (PC / VM / server)](https://openwrt.org/docs/guide-user/installation/openwrt_x86)
 - [OpenWrt Downloads page](https://downloads.openwrt.org/)

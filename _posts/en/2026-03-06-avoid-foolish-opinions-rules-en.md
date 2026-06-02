@@ -11,7 +11,7 @@ type: note
 
 Question: How to avoid foolish opinions? Please provide the original English essay, from a university Chinese course in China.
 
-Answer: 
+Answer:
 
 The essay commonly taught in Chinese university "University Chinese" (大学语文) courses under the title **《如何避免愚蠢的见识》** is an abridged translation of Bertrand Russell's short piece titled **"An Outline of Intellectual Rubbish: A Hilarious Catalogue of Organized and Individual Stupidity"** (1943), specifically a well-known excerpt often presented as a standalone essay in Chinese textbooks.
 
@@ -39,8 +39,8 @@ Here is the **original English text** of the most commonly referenced and taught
 
 (Note: The exact wording in some anthologies varies slightly, but the above faithfully reproduces the key passages that form the basis of the Chinese university textbook version. The full original essay "An Outline of Intellectual Rubbish" is longer and more humorous/satirical, but Chinese courses almost always use this concise, didactic extract.)
 
-References:  
+References:
 
-- [How to Avoid Foolish Opinions - Common Chinese textbook excerpt source](https://hellowac.github.io/read/howtoavoid)  
-- Bertrand Russell, "An Outline of Intellectual Rubbish" (1943), from which the excerpt is drawn  
+- [How to Avoid Foolish Opinions - Common Chinese textbook excerpt source](https://hellowac.github.io/read/howtoavoid)
+- Bertrand Russell, "An Outline of Intellectual Rubbish" (1943), from which the excerpt is drawn
 - Various Chinese university "大学语文" textbooks (e.g., those used in Wuhan University, Central China Normal University, etc., where this piece appears regularly)

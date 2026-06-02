@@ -25,15 +25,15 @@ No, that's not entirely accurate—practices vary by bank and by the specific co
   - **Morgan Stanley**: Similar to Goldman—12 months is common.
   - **Wells Fargo, Barclays, Deutsche Bank, HSBC**: Usually 6–12 months.
 
-- **Do you need your current manager’s approval to interview for a perm role?**  
+- **Do you need your current manager’s approval to interview for a perm role?**
   Almost never required formally. Your contract is with the staffing vendor, not the bank, so the bank’s internal hiring team can interview you without telling your contract manager. In practice, many teams still inform the contract manager out of courtesy (or because they need a reference), but it’s not a hard rule.
 
-- **The “one month unpaid leave” myth**  
+- **The “one month unpaid leave” myth**
   This is a distorted version of reality. Some contractors are told by their agencies, “If you want to interview, take 30 days off so we’re not billing the bank while you interview.” That’s the agency protecting their revenue, not a bank policy. The bank itself usually doesn’t care as long as you’re not on the clock while interviewing.
 
-Bottom line  
+Bottom line
 At most big banks you can interview for perm roles while still on contract without taking forced leave. If you get the offer, you’ll either:
-1. Convert directly (bank pays a conversion fee—happens more often than people think if you’re strong), or  
+1. Convert directly (bank pays a conversion fee—happens more often than people think if you’re strong), or
 2. Serve a cooling-off period (3–12 months depending on the bank) before starting as FTE.
 
 It’s negotiable and very team-dependent. The best performers almost always get exceptions or paid conversions.

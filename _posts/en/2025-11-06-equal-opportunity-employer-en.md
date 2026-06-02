@@ -19,5 +19,5 @@ An **equal opportunity employer (EOE)** is a business or organization that commi
 
 If you're seeing this in a job ad or policy, it's a standard disclaimer promoting fairness. For specifics in your area, check local labor laws.
 
-[EEOC Overview of Equal Employment Opportunity](https://www.eeoc.gov/employers/small-business/equal-employment-opportunity)  
+[EEOC Overview of Equal Employment Opportunity](https://www.eeoc.gov/employers/small-business/equal-employment-opportunity)
 [Merriam-Webster Definition](https://www.merriam-webster.com/dictionary/equal%20opportunity%20employer)

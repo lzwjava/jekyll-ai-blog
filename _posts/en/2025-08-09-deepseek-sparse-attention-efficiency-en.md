@@ -30,7 +30,7 @@ This branch handles coarse-grained context aggregation by grouping consecutive t
 
 The compression uses learned gating mechanisms to determine how information from multiple tokens should be aggregated into single representative tokens, preserving global context awareness without the full computational burden.
 
-### 2. **Selection Branch** 
+### 2. **Selection Branch**
 This branch implements fine-grained token selection by dynamically identifying the most important tokens to attend to. Rather than attending to all tokens, the model computes importance scores and selectively attends only to tokens that are most relevant for the current query. This preserves local precision and captures critical details that might be lost through compression alone.
 
 The selection process is learned during training, allowing the model to adaptively determine which tokens carry the most information value for different contexts and tasks.[6]
@@ -43,7 +43,7 @@ This branch maintains local context by allowing each token to attend to its imme
 The attention computation in NSA can be expressed as operating on three distinct key-value sets:
 
 - **Compressed KV pairs** from the compression branch
-- **Selected KV pairs** from the selection branch  
+- **Selected KV pairs** from the selection branch
 - **Local KV pairs** from the sliding window
 
 Instead of computing attention over all n tokens, NSA computes attention over a much smaller effective set that combines these three sources. **By integrating hierarchical token compression with blockwise token selection**[3], the mechanism reduces the quadratic complexity to approximately linear or near-linear scaling.
@@ -71,7 +71,7 @@ Careful kernel-level optimization eliminates redundant memory operations and max
 The efficiency improvements are substantial:[7]
 
 - **Up to 9.0× faster forward computation** compared to FlashAttention-2 during training
-- **6.0× faster backward pass** 
+- **6.0× faster backward pass**
 - **11.6× speedup during decoding** for 64k-length sequences
 - **Maintains or exceeds full attention performance** across benchmarks
 

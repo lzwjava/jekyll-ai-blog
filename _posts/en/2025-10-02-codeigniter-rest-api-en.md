@@ -23,7 +23,7 @@ If your question is specifically about one aspect (e.g., authentication or limit
 
 ### 1. **Prerequisites and Setup**
    - **What is it?** This is the REST_Controller library for CodeIgniter (a PHP framework). It lets you build RESTful APIs (e.g., endpoints that respond in JSON/XML on GET/POST requests) by extending your controllers from `REST_Controller`. Your config file controls global settings like authentication, response formats, rate limiting, and security.
-   
+
    - **Requirements:**
      - CodeIgniter 3.x (or compatible version; this config is for older versions around 3.x).
      - Install the REST_Controller library if not already in your CodeIgniter install (you can download it from GitHub: `chriskacerguis/codeigniter-restserver`). Place the library files in `application/libraries/` and autoload it in `application/config/autoload.php`:

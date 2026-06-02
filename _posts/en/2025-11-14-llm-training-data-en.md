@@ -73,13 +73,13 @@ Here are top free, downloadable sources (sizes approximate; check for updates). 
 
 For more, browse Hugging Face Datasets hub: [Hugging Face Datasets](https://huggingface.co/datasets). Always verify licenses!
 
-**References**  
-[How ChatGPT and our foundation models are developed](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed)  
-[What GPT-oss Leaks About OpenAI's Training Data](https://www.lesswrong.com/posts/iY9584TRhqrzawhZg/what-gpt-oss-leaks-about-openai-s-training-data)  
-[Anthropic Will Use Claude Chats for Training Data](https://www.wired.com/story/anthropic-using-claude-chats-for-training-how-to-opt-out/)  
-[Anthropic's HH-RLHF Dataset](https://huggingface.co/datasets/Anthropic/hh-rlhf)  
-[What went into training DeepSeek-R1?](https://epoch.ai/gradient-updates/what-went-into-training-deepseek-r1)  
-[The Complete Guide to DeepSeek Models](https://www.bentoml.com/blog/the-complete-guide-to-deepseek-models-from-v3-to-r1-and-beyond)  
-[LLMDataHub: Awesome Datasets for LLM Training](https://github.com/Zjh-819/LLMDataHub)  
-[Open-Sourced Training Datasets for LLMs](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)  
+**References**
+[How ChatGPT and our foundation models are developed](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed)
+[What GPT-oss Leaks About OpenAI's Training Data](https://www.lesswrong.com/posts/iY9584TRhqrzawhZg/what-gpt-oss-leaks-about-openai-s-training-data)
+[Anthropic Will Use Claude Chats for Training Data](https://www.wired.com/story/anthropic-using-claude-chats-for-training-how-to-opt-out/)
+[Anthropic's HH-RLHF Dataset](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+[What went into training DeepSeek-R1?](https://epoch.ai/gradient-updates/what-went-into-training-deepseek-r1)
+[The Complete Guide to DeepSeek Models](https://www.bentoml.com/blog/the-complete-guide-to-deepseek-models-from-v3-to-r1-and-beyond)
+[LLMDataHub: Awesome Datasets for LLM Training](https://github.com/Zjh-819/LLMDataHub)
+[Open-Sourced Training Datasets for LLMs](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)
 [LLM Training Data: The 8 Main Public Data Sources](https://oxylabs.io/blog/llm-training-data)

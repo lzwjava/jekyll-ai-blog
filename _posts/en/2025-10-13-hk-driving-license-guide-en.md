@@ -54,6 +54,6 @@ Note: Starting November 2025, a new southbound scheme lets approved mainland veh
 
 For more details, visit the HK Transport Department site directly or call their hotline (2804 2600). If the store pressures you, walk away—better safe than scammed.
 
-[Driving in Hong Kong for Overseas Licence Holders](https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html)  
-[Direct Issue of HK Full Driving Licence](https://www.info.gov.hk/gia/general/202507/23/P2025072300268.htm)  
+[Driving in Hong Kong for Overseas Licence Holders](https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html)
+[Direct Issue of HK Full Driving Licence](https://www.info.gov.hk/gia/general/202507/23/P2025072300268.htm)
 [Rise in Mainland HK License Applications](https://www.scmp.com/news/hong-kong/transport/article/3316636/mainland-drivers-can-apply-hong-kong-entry-permits-november-under-southbound-scheme)

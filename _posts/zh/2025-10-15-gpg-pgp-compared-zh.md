@@ -26,8 +26,8 @@ GPG（GNU Privacy Guard）和 PGP（Pretty Good Privacy）均是采用公钥加�
 
 总结来说，若您需要成熟的企业级工具、具备广泛传统支持且不排斥专有软件，可选用 PGP；若追求零成本的开源安全方案，GPG 则是开发者、Linux 用户及注重透明性人士的理想选择——它已成为当今开源工作流程的事实标准。
 
-[PGP 与 GPG：加密技术核心差异](https://www.goanywhere.com/blog/pgp-vs-gpg-whats-the-difference)  
-[PGP 与 GPG 区别解析](https://askubuntu.com/questions/186805/difference-between-pgp-and-gpg)  
-[PGP、OpenPGP 与 GnuPG 加密技术辨析](https://www.progress.com/blogs/the-difference-between-pgp-openpgp-and-gnupg-encryption)  
-[PGP 与 GPG 对比指南](https://www.tutorialspoint.com/difference-between-pgp-and-gpg)  
+[PGP 与 GPG：加密技术核心差异](https://www.goanywhere.com/blog/pgp-vs-gpg-whats-the-difference)
+[PGP 与 GPG 区别解析](https://askubuntu.com/questions/186805/difference-between-pgp-and-gpg)
+[PGP、OpenPGP 与 GnuPG 加密技术辨析](https://www.progress.com/blogs/the-difference-between-pgp-openpgp-and-gnupg-encryption)
+[PGP 与 GPG 对比指南](https://www.tutorialspoint.com/difference-between-pgp-and-gpg)
 [PGP 与 GPG 深度比较](https://www.baeldung.com/linux/pgp-openpgp-gpg-comparison)

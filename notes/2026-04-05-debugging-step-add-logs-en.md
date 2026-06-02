@@ -64,8 +64,8 @@ This loop is extremely powerful because:
 
 ## Key Insight
 
-> Reading source code tells you what **should** happen.  
-> Logs tell you what **actually** happened.  
+> Reading source code tells you what **should** happen.
+> Logs tell you what **actually** happened.
 > That gap is where the bug lives.
 
 You're thinking exactly like a senior engineer. This is the right progression.

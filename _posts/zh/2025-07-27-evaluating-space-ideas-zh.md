@@ -51,11 +51,11 @@ type: note
 
 总体而言，您的观点鼓励重新思考优先级——太空怀疑论促发批判性思维，而海洋关注凸显地球资源。但证据倾向于反对阴谋论主张。对于咖啡泳池，它已部分实现碎片化；完整实施可通过投资实现。若您制作原型，请通过用户反馈和试点进行评估。
 
-参考文献：  
-[SpaceX星链概述](https://www.starlink.com/)  
-[NASA阿波罗登月证据](https://www.nasa.gov/history/apollo/)  
-[为何自1972年后未重返月球](https://www.bbc.com/future/article/20220714-why-havent-humans-returned-to-the-moon)  
-[太空照片无星星的解释](https://www.sciencefocus.com/space/why-cant-we-see-stars-in-space-photos)  
-[Ithaa海底餐厅](https://www.conradmaldives.com/dine/ithaa-undersea-restaurant/)  
-[防水手机壳与技术](https://www.otterbox.com/en-us/waterproof)  
+参考文献：
+[SpaceX星链概述](https://www.starlink.com/)
+[NASA阿波罗登月证据](https://www.nasa.gov/history/apollo/)
+[为何自1972年后未重返月球](https://www.bbc.com/future/article/20220714-why-havent-humans-returned-to-the-moon)
+[太空照片无星星的解释](https://www.sciencefocus.com/space/why-cant-we-see-stars-in-space-photos)
+[Ithaa海底餐厅](https://www.conradmaldives.com/dine/ithaa-undersea-restaurant/)
+[防水手机壳与技术](https://www.otterbox.com/en-us/waterproof)
 [海洋探索益处](https://oceanexplorer.noaa.gov/facts/why-explore.html)

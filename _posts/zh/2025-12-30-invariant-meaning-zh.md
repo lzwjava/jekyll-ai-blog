@@ -12,7 +12,7 @@ type: note
 
 Question: What does "invariant" mean?
 
-Answer: 
+Answer:
 
 **Invariant**（不变性/不变量）是指在某些变换、操作或条件下保持不变或恒定的事物。
 

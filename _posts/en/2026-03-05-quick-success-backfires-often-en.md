@@ -11,7 +11,7 @@ type: note
 
 Question: For people who chase money, fame, or so-called societal success, are they often put down in life? Because better jobs, product-market fit, or startup success all require patience and reasonable thinking, while wanting quick money or fame leads to impatience and shallow thinking.
 
-Answer: 
+Answer:
 
 Yes, there is substantial evidence and psychological insight supporting the idea that people who primarily chase **quick money**, **fame**, or superficial markers of "societal success" often face setbacks, failure, or dissatisfaction in life. This pattern stems from the mismatch between the **impatience** and **short-term focus** that drives such pursuits and the **long-term requirements** of genuine, sustainable achievement in areas like careers, startups, investing, or skill-building.
 
@@ -26,7 +26,7 @@ Some driven, impatient people channel that energy productively (e.g., ambitious 
 
 In short, the "quick chase" mindset frequently leads to being "put down" (financially, professionally, or emotionally) because high-level success in most competitive domains rewards patience, depth, and realistic thinking far more than shortcuts or hype.
 
-References:  
+References:
 
 - [Why Start-ups Fail (Harvard Business Review)](https://hbr.org/2021/05/why-start-ups-fail)
 - [The Marshmallow Experiment and the Power of Delayed Gratification](https://jamesclear.com/delayed-gratification)

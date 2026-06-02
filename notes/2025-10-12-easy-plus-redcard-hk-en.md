@@ -40,6 +40,6 @@ Yes, China Telecom Macau's Easy+ Red Card (Two-Places Unlimited plan) can be use
 
 If you travel frequently between the three places, this card offers great value, especially with unlimited throttled data for basic use. Actual experience may vary by signal coverage—test it out.
 
-[China Telecom Macau Official Easy+ Red Card Page](https://www.ctm.net/en/personal/mobile/prepaid/easyplus)  
-[Macau Telecom Roaming Guide](https://www.ctm.net/en/personal/mobile/roaming)  
+[China Telecom Macau Official Easy+ Red Card Page](https://www.ctm.net/en/personal/mobile/prepaid/easyplus)
+[Macau Telecom Roaming Guide](https://www.ctm.net/en/personal/mobile/roaming)
 [User Guide on HK Usage](https://www.taobao.com/list/product/easy-red-card-hk.htm)

@@ -12,7 +12,7 @@ type: note
 
 Question: 请提供 Azure CLI 命令行选项的全面介绍。
 
-Answer: 
+Answer:
 
 **Azure CLI** (`az`) 是一个用于管理 Azure 资源的跨平台命令行工具。几乎每个命令都支持一组**全局参数**（也称为全局选项），这些参数在几乎所有命令中都是通用的。
 
@@ -50,22 +50,22 @@ az storage account create ... --debug
 
 ### 其他常用全局 / 频繁遇到的选项
 
-- `--resource-group` / `-g`  
+- `--resource-group` / `-g`
   非常常见的参数（严格来说不是全局的，但出现在数百个命令中）
 
-- `--name` / `-n`  
+- `--name` / `-n`
   资源名称（非常常见）
 
-- `--ids`  
+- `--ids`
   接受一个或多个 Azure Resource ID，而不需要提供 `--resource-group --name ...`
 
-- `--yes` / `-y`  
+- `--yes` / `-y`
   自动回答确认提示为“是”（非常适合自动化）
 
-- `--no-wait`  
+- `--no-wait`
   不等待长时间运行的操作完成（即发即弃）
 
-- `--wait` (部分命令支持)  
+- `--wait` (部分命令支持)
   等待操作完成并显示最终状态
 
 ### 影响命令行行为的配置

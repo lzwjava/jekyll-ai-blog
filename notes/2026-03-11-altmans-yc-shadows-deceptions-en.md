@@ -11,7 +11,7 @@ type: note
 
 Question: What dark history does Sam Altman have from his time at Y Combinator?
 
-Answer: 
+Answer:
 
 Sam Altman served as **President of Y Combinator** (YC), the prominent startup accelerator, from around 2014 until early 2019. During this period, he helped grow YC significantly, supporting successful companies like Airbnb, Stripe, and Dropbox. However, several criticisms and controversies emerged regarding his leadership and conduct, often described in hindsight as part of a pattern of behavior that resurfaced later at OpenAI.
 
@@ -27,7 +27,7 @@ Key points of "dark history" or controversy from his YC era include:
 
 These issues were relatively low-profile at the time compared to later OpenAI events (his brief 2023 firing there over being "not consistently candid," abusive behavior allegations, and safety concerns). Many view the YC period as an early indicator of recurring themes around trust, candor, and self-interest. Supporters argue his YC tenure was successful overall, with strong growth and no major public scandals during his active leadership.
 
-References:  
+References:
 
 - [Washington Post on Altman’s YC departure and pattern of deception](https://www.washingtonpost.com/technology/2023/11/22/sam-altman-fired-y-combinator-paul-graham/)
 - [Forbes on Paul Graham clarifying Altman was not fired from YC](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)

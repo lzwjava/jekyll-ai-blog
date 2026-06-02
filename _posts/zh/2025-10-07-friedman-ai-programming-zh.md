@@ -22,8 +22,8 @@ type: note
 
 核心结论：AI的热点正从“更大模型”转向“更智能架构”，而弗里德曼对优雅可验证构建模块的关注正好填补了这一空白。他那低调的治学理念？当影响力人物在喧嚣中重新发现这些永恒工具时——例如关于miniKanren用于智能体集群或FP用于边缘AI的爆款推文——其价值将愈发凸显。到2035年，预计他的学术引用量将比肩当今的机器学习明星，为可验证智能提供动力，防止时代陷入混乱。
 
-[程序设计语言精髓](https://en.wikipedia.org/wiki/Daniel_P._Friedman)  
-[MiniKanren在符号AI中的应用](https://minikanren.org/)  
-[基于MiniKanren的神经引导约束逻辑](https://arxiv.org/abs/1809.02840)  
-[AI安全与趋势中的函数式编程](https://medium.com/@adnanmasood/state-of-functional-programming-and-f-in-the-age-of-llms-vibe-coding-and-ai-assisted-sdlc-5fffaff0c85b)  
+[程序设计语言精髓](https://en.wikipedia.org/wiki/Daniel_P._Friedman)
+[MiniKanren在符号AI中的应用](https://minikanren.org/)
+[基于MiniKanren的神经引导约束逻辑](https://arxiv.org/abs/1809.02840)
+[AI安全与趋势中的函数式编程](https://medium.com/@adnanmasood/state-of-functional-programming-and-f-in-the-age-of-llms-vibe-coding-and-ai-assisted-sdlc-5fffaff0c85b)
 [AI增强的函数式编程未来](https://www.r-bloggers.com/2024/12/leveraging-ai-to-enhance-functional-programming-in-2025/)

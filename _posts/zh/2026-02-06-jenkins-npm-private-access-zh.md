@@ -19,11 +19,11 @@ type: note
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         NPM_TOKEN = credentials('npm-registry-token') // 你的 Jenkins credential ID
     }
-    
+
     stages {
         stage('Install Dependencies') {
             steps {

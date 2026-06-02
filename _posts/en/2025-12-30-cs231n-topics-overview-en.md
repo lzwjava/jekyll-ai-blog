@@ -12,7 +12,7 @@ type: note
 
 Question: What is the course syllabus for Stanford CS231n by Andrej Karpathy?
 
-Answer: 
+Answer:
 
 Stanford CS231n, titled "Convolutional Neural Networks for Visual Recognition" (now often called "Deep Learning for Computer Vision"), was originally designed and primarily taught by **Andrej Karpathy** during its early offerings (Winter 2015 and Winter 2016 quarters). He created the foundational lecture notes, assignments, and much of the course structure that is still widely used today.
 
@@ -37,7 +37,7 @@ Note that the current version of CS231n (e.g., Spring 2025) has evolved under in
 
 The original lecture notes from the Karpathy era remain publicly available and are still the most referenced version of the course materials.
 
-References:  
+References:
 
 - [Original CS231n Course Website (current, with links to past offerings)](https://cs231n.stanford.edu/)
 - [CS231n Lecture Notes (classic version by Andrej Karpathy)](https://cs231n.github.io/)

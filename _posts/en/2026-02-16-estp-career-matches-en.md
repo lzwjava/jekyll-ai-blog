@@ -11,7 +11,7 @@ type: note
 
 Question: What careers suit ESTP personality type?
 
-Answer: 
+Answer:
 
 ESTPs (Extraverted, Sensing, Thinking, Perceiving) — often called "The Entrepreneur", "The Dynamo", or "The Persuader" — thrive in fast-paced, hands-on, real-world environments where they can take immediate action, solve tangible problems, interact with people, take calculated risks, and see quick results. They usually become unhappy very quickly in highly structured, repetitive, slow-moving, or heavily theoretical roles.
 
@@ -92,6 +92,6 @@ The most consistently happy ESTPs tend to follow one of these patterns by their 
 
 You already lived one full entrepreneurial cycle in your early 20s — that's very strong evidence that the entrepreneurial/sales/action-oriented paths above will likely continue to feel more natural to you than trying to force yourself into structured corporate or academic tracks.
 
-References:  
+References:
 
 - None (based on widely documented MBTI career patterns, ESTP community discussions, and real-world founder/sales professional anecdotes)

@@ -25,7 +25,7 @@ The Raspberry Pi 5 is powered by a robust set of hardware components, offering a
 - **Processor**: Broadcom BCM2712, a 2.4GHz quad-core 64-bit ARM Cortex-A76 CPU with cryptography extensions, 512KB per-core L2 caches, and a 2MB shared L3 cache. This CPU is significantly faster than the Cortex-A72 in the Raspberry Pi 4, enabling better performance for demanding tasks like desktop computing and emulation.[](https://www.raspberrypi.com/products/raspberry-pi-5/)[](https://www.zimaspace.com/blog/raspberry-pi-5-everything-you-need-to-know.html)
 - **GPU**: VideoCore VII GPU, supporting OpenGL ES 3.1 and Vulkan 1.2, capable of driving dual 4K displays at 60Hz via micro HDMI ports.[](https://www.linkedin.com/pulse/introduction-raspberry-pi-5-specs-harshvardhan-mishra-wkbmf)
 - **RAM**: Available in 2GB, 4GB, 8GB, and 16GB LPDDR4X-4267 SDRAM variants, offering faster memory bandwidth than the Raspberry Pi 4.[](https://wagnerstechtalk.com/rpi5/)[](https://www.raspberrypi.com/products/raspberry-pi-5/)
-- **Storage**: 
+- **Storage**:
   - MicroSD card slot with high-speed SDR104 mode support (recommended: 32GB or higher for Raspberry Pi OS, 16GB for Lite). Capacities above 2TB are not supported due to MBR limitations.
   - PCIe interface for M.2 NVMe SSDs via optional HATs, enabling faster boot and data transfer.[](https://www.raspberrypi.com/documentation/computers/getting-started.html)[](https://www.raspberrypi.com/products/raspberry-pi-5/)
 - **Connectivity**:

@@ -12,7 +12,7 @@ type: note
 
 Question: Is one effective way to learn new knowledge to deliberately expose yourself to challenging new content quickly, dive in without hesitation (like tackling a hard LeetCode problem or starting a new technical course), and push through the initial discomfort?
 
-Answer: 
+Answer:
 
 Yes, that's a highly effective learning strategy, often called **deliberate practice** or **desirable difficulty**.
 

@@ -11,7 +11,7 @@ type: note
 
 Question: 在中国 "小姨" 是什么意思？
 
-Answer: 
+Answer:
 
 在中国，**小姨** (xiǎo yí) 字面意思是 "little aunt"，指的是：
 

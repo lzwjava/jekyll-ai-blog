@@ -58,7 +58,7 @@ Playwright 和 Selenium 都是用于浏览器自动化的开源工具，主要�
 
 在受限环境（如银行服务器）中，Playwright 通常更容易部署，因为它捆绑了浏览器，比 Selenium 的 driver 管理具有更少的外部依赖。
 
-References:  
+References:
 
 - [Playwright Official Documentation](https://playwright.dev/)
 - [Selenium Official Documentation](https://www.selenium.dev/documentation/)

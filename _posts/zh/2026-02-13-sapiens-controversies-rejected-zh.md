@@ -42,7 +42,7 @@ Yuval Noah Harari 的 **Sapiens** 在普通读者中极受欢迎，但在学术�
 
 总的来说，虽然这本书的大局观叙事和可读性赢得了赞誉，但其不受欢迎的元素通常集中在被察觉到的深度缺失、事实准确性问题、过度自信，以及一种被认为过于愤世嫉俗、忽视复杂性、传统和意义的世界观。
 
-References:  
+References:
 
 - [https://www.currentaffairs.org/news/2022/07/the-dangerous-populist-science-of-yuval-noah-harari](https://www.currentaffairs.org/news/2022/07/the-dangerous-populist-science-of-yuval-noah-harari)
 - [https://www.bethinking.org/human-life/sapiens-review](https://www.bethinking.org/human-life/sapiens-review)

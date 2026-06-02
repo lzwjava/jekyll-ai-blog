@@ -41,7 +41,7 @@ type: post
 - 示例：
   ```zsh
   precmd_functions+=(additional_precmd)
-  
+
   additional_precmd() {
     echo "执行额外的 precmd 任务。"
   }
@@ -105,7 +105,7 @@ type: post
 - 示例：
   ```zsh
   add-zsh-hook precmd another_precmd
-  
+
   another_precmd() {
     echo "另一个 precmd 函数。"
   }

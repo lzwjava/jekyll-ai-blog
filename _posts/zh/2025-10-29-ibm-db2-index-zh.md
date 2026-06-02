@@ -18,12 +18,12 @@ IBM DB2 使用 **B+ 树** 作为其索引的主要数据结构。这是一种平
 DB2 中的 B+ 树被组织成一个由 **页**（也称为节点）构成的层次结构，每个页在磁盘上通常为 4KB 大小。该树是自平衡的，意味着所有叶节点都位于同一深度，并且它会随着数据变化动态增长或收缩。具体结构如下：
 
 - **根页**：树的顶层入口点。它包含排序后的键值以及指向其下方子页的指针。对于小型索引，根页可能直接指向叶页。
-  
+
 - **内部（非叶）页**：这些中间层充当目录。每个页包含：
   - 一个排序的 **索引键** 列表（来自索引列的值，例如员工 ID）。
   - 指向子页的指针（指针数量比键多一个，用于分隔范围）。
   - 具体来说，每个条目是其下方子树中的 **最高键值**，与一个 **记录标识符（RID）** 配对——RID 是一个指向表中实际数据行所在页和槽位的唯一指针。
-  
+
   非叶页*不*存储实际的数据指针；它们仅用于引导遍历。
 
 - **叶页**：最底层，通过双向链接（向前和向后）以实现高效的范围扫描。每个叶页包含：
@@ -66,8 +66,8 @@ DB2 中的 B+ 树被组织成一个由 **页**（也称为节点）构成的层�
 
 B+ 树在 DB2 中表现出色，因为它们最大限度地减少了随机 I/O（对于磁盘密集型系统至关重要），并支持无需全表扫描的排序访问。
 
-[索引结构 - IBM](https://www.ibm.com/docs/en/db2/11.1.0?topic=indexes-index-structure)  
-[DB2 LUW 索引：B-树详解](https://datageek.blog/2013/09/19/db2-luw-basics-indexes/)  
-[深入 Db2 for z/OS：优化型 B+ 树如何驱动高速索引](https://planetmainframe.com/2025/06/inside-db2-for-z-os-how-optimized-b-trees-power-high-speed-indexing/)  
-[如何快速理解 DB2 B-树索引](https://srinimf.com/2021/07/26/db2-how-to-understand-b-tree-structure-of-index/)  
+[索引结构 - IBM](https://www.ibm.com/docs/en/db2/11.1.0?topic=indexes-index-structure)
+[DB2 LUW 索引：B-树详解](https://datageek.blog/2013/09/19/db2-luw-basics-indexes/)
+[深入 Db2 for z/OS：优化型 B+ 树如何驱动高速索引](https://planetmainframe.com/2025/06/inside-db2-for-z-os-how-optimized-b-trees-power-high-speed-indexing/)
+[如何快速理解 DB2 B-树索引](https://srinimf.com/2021/07/26/db2-how-to-understand-b-tree-structure-of-index/)
 [Db2 索引概述](https://www.idug.org/news/db2-index-overview)

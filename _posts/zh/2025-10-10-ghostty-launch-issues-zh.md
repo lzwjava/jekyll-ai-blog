@@ -66,6 +66,6 @@ type: note
 
 如果这些方法均无效，请分享您的 `glxinfo` 输出或 GPU 详细信息（`lspci | grep VGA`）以获取更有针对性的建议。
 
-[OpenGL 版本过旧讨论](https://github.com/ghostty-org/ghostty/discussions/3159)  
-[Ghostty Ubuntu 构建](https://github.com/mkasberg/ghostty-ubuntu)  
+[OpenGL 版本过旧讨论](https://github.com/ghostty-org/ghostty/discussions/3159)
+[Ghostty Ubuntu 构建](https://github.com/mkasberg/ghostty-ubuntu)
 [Ghostty Snap](https://snapcraft.io/ghostty)

@@ -30,6 +30,6 @@ Beijing is home to numerous parks, ranging from historic imperial gardens to mod
 
 This list draws from traveler reviews and focuses on highly rated options. Beijing has over 300 parks in total, so explore based on seasons—spring for blooms, fall for colors.
 
-[THE 15 BEST Beijing Parks (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g294212-Activities-c57-t70-Beijing.html)  
-[Beijing's Top 5 Parks - The China Travel Planner](https://www.thechinatravelplanner.com/china-inspiration/beijings-best-parks)  
+[THE 15 BEST Beijing Parks (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g294212-Activities-c57-t70-Beijing.html)
+[Beijing's Top 5 Parks - The China Travel Planner](https://www.thechinatravelplanner.com/china-inspiration/beijings-best-parks)
 [Beijing's Best Parks to Visit in 2025 - Lost Plate Food Tours](https://lostplate.com/beijings-best-parks/)

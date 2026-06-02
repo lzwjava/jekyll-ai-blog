@@ -50,7 +50,7 @@ type: note
      - 使用 `unionId` 跨微信平台（例如 Web 和小程序）链接用户。
 
    - **`sign_get()`**：为您的网页上的微信 JS SDK 生成签名包。允许分享或位置等功能。*微信交互*：没有直接的 API 调用；使用应用密钥计算签名。JS SDK 使用此签名验证您的页面并启用微信功能。
-   
+
    - **`oauth_get()`**：处理微信 Web 的完整 OAuth。将 `code` 交换为访问令牌，获取用户信息，并登录或注册用户。如果需要，绑定到 `unionId`。*微信交互*：API 调用 `/sns/oauth2/access_token`（获取令牌）和 `/sns/userinfo`（获取个人资料）。如果是新用户，则添加到数据库；登录现有用户。
 
    - **`silentOauth_get()`**：静默（无弹窗）OAuth。获取令牌但跳过详细用户信息。检查订阅。*微信交互*：与上述相同的 API 调用，但没有 `/userinfo`。使用 `/sns/auth` 验证用户之前的登录。
@@ -87,13 +87,13 @@ type: note
 
 #### **E. 其他功能**
    - **`isSubscribe_get()` 和 `fixAllSubscribe_get()`**：通过微信 API 检查用户是否关注您的公众号。批量修复所有用户的订阅状态。*微信交互*：使用 openId 调用 `/cgi-bin/user/info` API。
-   
+
    - **菜单/消息**：`menu_get()`、`createMenu_get()`、`addNews_get()`、`sendMassMsg_get()`：管理公众号菜单、创建/发送文章和发送群发消息。*微信交互*：API 如 `/cgi-bin/menu/get`、`/cgi-bin/menu/create` 等。
-   
+
    - **`uploadImg_get()`**：上传文章图片。*微信交互*：上传 API。
-   
+
    - **`qrcode_get()`**：为场景生成二维码（例如推广链接）。*微信交互*：调用 `/cgi-bin/qrcode/create`。
-   
+
    - **`group_get()`**：返回静态图片 URL（似乎与微信无关）。
 
 ### 3. **常见模式与流程**

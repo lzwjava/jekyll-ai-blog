@@ -21,7 +21,7 @@ If "hunyun" refers to Hunyuan (Tencent's model), it's arguably the "best" overal
 
 WeChat (Tencent's flagship) is doing very well in AI—it's not just a chat app anymore. They've embedded Hunyuan-powered features like the Yuanbao AI chatbot (for natural conversations without leaving the app), AI-enhanced search, and agentic tools for payments/enterprise (e.g., WeCom integration). This has driven massive user engagement, with projections for 100M+ daily AI users, positioning WeChat as China's largest AI application by scale.
 
-[Exploring China's Leading AI Hubs](https://www.china-briefing.com/news/exploring-chinas-leading-ai-hubs-a-regional-analysis/)  
-[China's Top 19 Open Model Labs](https://www.linkedin.com/posts/natolambert_chinas-top-19-open-model-labs-from-the-activity-7362872312125140992-bYfg)  
-[Tencent bets on WeChat empire to get ahead in China AI race](https://www.cnbc.com/2025/05/15/tencent-bets-on-wechat-empire-to-get-ahead-in-china-ai-race.html)  
+[Exploring China's Leading AI Hubs](https://www.china-briefing.com/news/exploring-chinas-leading-ai-hubs-a-regional-analysis/)
+[China's Top 19 Open Model Labs](https://www.linkedin.com/posts/natolambert_chinas-top-19-open-model-labs-from-the-activity-7362872312125140992-bYfg)
+[Tencent bets on WeChat empire to get ahead in China AI race](https://www.cnbc.com/2025/05/15/tencent-bets-on-wechat-empire-to-get-ahead-in-china-ai-race.html)
 [Tencent adds AI chatbot friend to WeChat](https://www.scmp.com/tech/big-tech/article/3303934/tencent-adds-ai-chatbot-friend-wechat-keep-users-glued-super-app)

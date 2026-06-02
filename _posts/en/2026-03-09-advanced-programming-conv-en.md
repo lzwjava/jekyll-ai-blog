@@ -165,4 +165,3 @@ A: And for practical coding sections: always handle exceptions around file and d
 B: One last thing — the os.walk() function is extremely useful and often appears in file system questions. It yields a three-tuple of dirpath, dirnames, and filenames for every directory in a tree. You can recurse an entire folder structure in just three lines of code using a for loop over os.walk().
 
 A: Perfect note to end on. The exam rewards students who can read a problem, identify the right module and pattern, and write clean, correct code efficiently. Master the standard library, understand how Python's object model really works, and you'll do very well on 08074. Good luck everyone.
-

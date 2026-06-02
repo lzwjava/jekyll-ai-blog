@@ -34,6 +34,6 @@ This should give you sweet, moist corn without the dryness. If it's still off, t
 
 If "mifeng" or "air strict" refers to a specific variety, brand, or tool (like air fryer?), give me more details for tailored tips. Enjoy your next batch!
 
-[Steamed Corn on the Cob Tips](https://www.thekitchn.com/best-method-cook-corn-skills-showdown-23045869)  
-[Fixing Dry Corn](https://www.bonappetit.com/test-kitchen/ingredients/article/what-to-do-with-bad-corn)  
+[Steamed Corn on the Cob Tips](https://www.thekitchn.com/best-method-cook-corn-skills-showdown-23045869)
+[Fixing Dry Corn](https://www.bonappetit.com/test-kitchen/ingredients/article/what-to-do-with-bad-corn)
 [Rice Cooker Steaming Guide](https://eatlittlebird.com/steamed-rice-with-corn/)

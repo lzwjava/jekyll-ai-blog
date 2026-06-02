@@ -100,7 +100,7 @@ Use this table for quick revision. OSI is theoretical (reference), TCP/IP is pra
 
 ## Study Tips for 自考 Exam
 - **Memorization**: Use mnemonics and draw layered diagrams daily. Focus on 80% exam weight on OSI/TCP/IP descriptions.
-- **Practice**: 
+- **Practice**:
   - Compare layers in essays (200-300 words).
   - MCQs: "Which layer handles routing? (A) Network".
   - Diagrams: Label a PDU traversal.

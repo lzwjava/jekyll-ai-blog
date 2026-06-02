@@ -73,5 +73,5 @@ After fixing the clone, the installer should continue past that step.
 
 If it still gets stuck, share the full installer output or the content of the installer script for more specific help.
 
-References:  
+References:
 - None (based on common Git/SSH issues on macOS)

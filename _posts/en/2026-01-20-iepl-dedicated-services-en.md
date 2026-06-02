@@ -12,7 +12,7 @@ type: note
 
 Question: What does IEPL mean in some proxy providers or VPN services, and what kind of cable is it?
 
-Answer: 
+Answer:
 
 **IEPL** stands for **International Ethernet Private Line**.
 
@@ -27,7 +27,7 @@ Key characteristics include:
 
 Proxy/VPN providers advertise "IEPL" when their service uses this underlying carrier-grade private line (instead of standard internet tunnels), offering superior stability, speed, and reliability — often for gaming, trading, enterprise access, or uncensored/cross-border connectivity.
 
-**What kind of cable is it?**  
+**What kind of cable is it?**
 IEPL is transported over **fiber-optic cables**, including:
 - **Submarine (undersea) fiber cables** for international/long-haul segments (e.g., connecting Asia to Europe/US).
 - **Terrestrial (land-based) fiber** for connections within or between nearby regions.
@@ -39,9 +39,9 @@ Compared to similar terms:
 - Regular **VPN** — Usually over shared public internet, higher latency/variable performance.
 - **MPLS VPN** — Virtualized/shared core, more flexible for multi-site but not purely dedicated like IEPL.
 
-In short, when proxy/VPN providers mention IEPL, they mean their connection uses this high-end dedicated Ethernet private line over fiber (including undersea cables) for better quality than standard internet-based VPNs. 
+In short, when proxy/VPN providers mention IEPL, they mean their connection uses this high-end dedicated Ethernet private line over fiber (including undersea cables) for better quality than standard internet-based VPNs.
 
-References:  
+References:
 
 - [https://www.dcconnectglobal.com/iepl-vs-iplc-key-differences-advantages-and-use-cases-for-global-connectivity](https://www.dcconnectglobal.com/iepl-vs-iplc-key-differences-advantages-and-use-cases-for-global-connectivity)
 - [https://www.chinatelecomeurope.com/product/iepl](https://www.chinatelecomeurope.com/product/iepl)

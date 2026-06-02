@@ -11,7 +11,7 @@ type: note
 
 Question: In Chinese Spring Festival, it's sometimes really hard to gather with friends or classmates. If we stay in contact from time to time during the year, it feels like we don't necessarily need to meet during Spring Festival. If we don't keep in touch during the year, then why bother meeting only during Spring Festival? So it becomes just a routine: spend the Spring Festival week somewhere, then let things be and meet again only if there's a chance later. What do you think about how to maintain friendships or actively find peers to talk with?
 
-Answer: 
+Answer:
 
 I think your observation is very realistic — many people in China (especially those born after 1990) are experiencing exactly this shift in how friendships work during Spring Festival.
 
@@ -69,6 +69,6 @@ This way you avoid both extremes: neither complete disconnection, nor forced hol
 
 What do you personally feel — do you still enjoy the old-style big reunion, or are you more leaning toward the lighter, interest-based connections now?
 
-References:  
+References:
 
 - None (this is mostly social observation and common patterns discussed in Chinese internet communities)

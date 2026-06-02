@@ -11,7 +11,7 @@ type: note
 
 Question: 这个原则在作为员工工作时也是一样的，对吧？努力工作是一个方面，但更重要的是同事和领导如何感知你创造的价值，对吗？
 
-Answer: 
+Answer:
 
 **是的，完全正确——同样的原则在传统就业中也强烈适用。**
 
@@ -43,6 +43,6 @@ Answer:
 
 很好的观察——应用这种心态，能区分那些原地踏步的人与稳步攀升的人。
 
-References:  
+References:
 
 - None (conceptual reasoning based on common workplace dynamics and organizational behavior patterns)

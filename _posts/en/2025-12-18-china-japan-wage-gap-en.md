@@ -12,7 +12,7 @@ type: note
 
 Question: Why were monthly salaries in China during the 1980s and 1990s only one or two hundred RMB, while daily wages in Tokyo, Japan, equated to around 1000 CNY?
 
-Answer: 
+Answer:
 
 The significant wage disparity between China in the 1980s-1990s and Japan (particularly Tokyo) during the same period stemmed primarily from differences in economic development stages, productivity levels, and historical growth paths.
 
@@ -30,11 +30,11 @@ The gap (Chinese monthly wage ≈ Japanese 1-2 days' wage in CNY terms) highligh
 
 By the 2000s, Chinese wages rose rapidly with industrialization, narrowing the gap significantly.
 
-References:  
+References:
 
-- https://www.sciencedirect.com/science/article/pii/S1043951X20300596  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/  
-- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf  
-- https://www.asahi.com/ajw/articles/15166586  
-- https://en.wikipedia.org/wiki/Economy_of_China  
+- https://www.sciencedirect.com/science/article/pii/S1043951X20300596
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/
+- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf
+- https://www.asahi.com/ajw/articles/15166586
+- https://en.wikipedia.org/wiki/Economy_of_China
 - https://en.wikipedia.org/wiki/Lost_Decades

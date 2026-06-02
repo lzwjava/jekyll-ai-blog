@@ -12,7 +12,7 @@ type: note
 
 Question: What is A-level education?
 
-Answer: 
+Answer:
 
 **A-level education** refers to the **A-level** (Advanced Level) qualification, a major academic program in the United Kingdom (England, Wales, Northern Ireland) and some other countries following the British education system.
 
@@ -40,7 +40,7 @@ Answer:
 
 A-levels are considered academically rigorous and are one of the most recognized pre-university qualifications globally.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/A-level](https://en.wikipedia.org/wiki/A-level)
 - [https://www.ucas.com/further-education/post-16-qualifications/qualifications-you-can-take/levels](https://www.ucas.com/further-education/post-16-qualifications/qualifications-you-can-take/levels)

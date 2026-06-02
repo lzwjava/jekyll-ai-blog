@@ -12,8 +12,8 @@ type: note
 
 The **Form W-8BEN** (full name: *Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding and Reporting (Individuals)*) is an IRS form used by **non-U.S. individuals** (non-resident aliens) to:
 
-- Certify that they are **not a U.S. person** (i.e., not a U.S. citizen or resident for tax purposes)  
-- Claim benefits under an **income tax treaty** between their country and the United States (usually to reduce or eliminate the default 30% U.S. withholding tax on certain types of U.S.-source income)  
+- Certify that they are **not a U.S. person** (i.e., not a U.S. citizen or resident for tax purposes)
+- Claim benefits under an **income tax treaty** between their country and the United States (usually to reduce or eliminate the default 30% U.S. withholding tax on certain types of U.S.-source income)
 - Provide their foreign tax identification number (if required) and permanent foreign address
 
 ### Most Common Situations Where You’ll Need a W-8BEN
@@ -39,6 +39,6 @@ The **Form W-8BEN** (full name: *Certificate of Foreign Status of Beneficial Own
 ### Quick Example
 A Canadian freelancer earning royalties from a U.S. publisher fills out W-8BEN, claims the U.S.–Canada tax treaty (Article XII), and gets the withholding rate reduced from 30% to **0%** instead of paying 30% tax upfront.
 
-Official IRS page:  
-[Form W-8BEN](https://www.irs.gov/forms-pubs/about-form-w-8-ben)  
+Official IRS page:
+[Form W-8BEN](https://www.irs.gov/forms-pubs/about-form-w-8-ben)
 [Instructions for Form W-8BEN](https://www.irs.gov/instructions/iw8ben)

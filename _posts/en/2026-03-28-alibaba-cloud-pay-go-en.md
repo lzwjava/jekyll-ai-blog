@@ -14,13 +14,13 @@ Question: Does Alibaba Cloud charge for a full hour if I only use it for half an
 Answer: It depends on the specific product you are using, as Alibaba Cloud uses different billing granularities across its services. Here is the breakdown:
 
 ### **1. ECS (Elastic Compute Service) - Billed by the Second**
-For most common Pay-as-you-go ECS instances, the billing is actually **measured in seconds**. 
+For most common Pay-as-you-go ECS instances, the billing is actually **measured in seconds**.
 * **Half-hour use:** If you use an instance for 30 minutes, you will be charged roughly half of the hourly rate ($93.375 \times 0.5$).
 * **Minimum Duration:** There is usually a tiny "minimum billing duration" in the final cycle (e.g., 2 to 10 minutes depending on the CPU count), but it is nowhere near a full hour.
 
 ### **2. Other Services - "Rounded Up" to the Hour**
 Some specific "Enterprise" or specialized services (like **Cloud Firewall**, **Global Accelerator**, or **Application Load Balancer** instance fees) use a different rule.
-* **Rounding Rule:** If you use the resource for any period less than 1 hour (even 5 minutes), the usage is **rounded up to 1 full hour**. 
+* **Rounding Rule:** If you use the resource for any period less than 1 hour (even 5 minutes), the usage is **rounded up to 1 full hour**.
 * **Example:** For these services, 30 minutes would indeed cost the full $¥93.375$.
 
 ### **How to Verify for Your Case**

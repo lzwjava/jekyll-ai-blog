@@ -115,7 +115,7 @@ class CodingAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         You are a Python CLI coding agent for the `ww` toolkit.
         Your job: implement new commands or fix bugs in ww/**/*.py.
-        
+
         Rules:
         - Output ONLY valid Python code blocks, each prefixed with:
           FILE: <relative/path/to/file.py>
@@ -181,7 +181,7 @@ class TestingAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         You are a Python testing agent for the `ww` CLI toolkit.
         Your job: write pytest tests for ww commands.
-        
+
         Rules:
         - Output ONLY test code blocks prefixed with:
           FILE: tests/<test_file.py>
@@ -249,7 +249,7 @@ class DocAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         You are a documentation agent for the `ww` CLI toolkit.
         Your job: keep README.md and docs/ up-to-date.
-        
+
         Rules:
         - Output Markdown blocks prefixed with:
           FILE: README.md   (or docs/something.md)

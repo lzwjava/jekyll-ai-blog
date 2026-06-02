@@ -20,6 +20,6 @@ type: note
 通俗而言，低相对湿度（如干燥沙漠环境）易导致皮肤与眼睛干涩，而高相对湿度（如热带地区）则会引发不适感并助长霉菌滋生。
 
 ### 参考资料：
-[湿度 - 维基百科](https://en.wikipedia.org/wiki/Humidity)  
-[湿度专题讨论 - 美国国家气象局](https://www.weather.gov/lmk/humidity)  
+[湿度 - 维基百科](https://en.wikipedia.org/wiki/Humidity)
+[湿度专题讨论 - 美国国家气象局](https://www.weather.gov/lmk/humidity)
 [相对湿度——定义及其重要性 - 维萨拉](https://www.vaisala.com/en/blog/2018-10/relative-humidity-what-it-and-why-it-important)

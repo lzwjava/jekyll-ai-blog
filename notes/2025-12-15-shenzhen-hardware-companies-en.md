@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 30 good hardware companies in Shenzhen?
 
-Answer: 
+Answer:
 
 Shenzhen remains the global epicenter of hardware innovation and manufacturing, often called the "Silicon Valley of Hardware." It excels in consumer electronics, drones, IoT devices, robotics, smart home products, and telecommunications equipment. The following list compiles **30 prominent hardware companies** based in Shenzhen, selected for their market leadership, innovation, global impact, funding, and contributions to the ecosystem as of late 2025. This includes both established giants and notable innovative firms.
 
@@ -58,13 +58,13 @@ Shenzhen remains the global epicenter of hardware innovation and manufacturing, 
 
 These companies highlight Shenzhen's strengths in rapid prototyping, supply chain integration, and cutting-edge hardware development across sectors like consumer gadgets, industrial automation, and connected devices.
 
-References:  
-- https://www.startupblink.com/top-startups/shenzhen-cn  
-- https://www.failory.com/startups/shenzhen  
-- https://itimanufacturing.com/silicon-valley-hardware-made-china/  
-- https://www.diamandis.com/blog/shenzhen-global-hardware-capital  
-- https://leelinesourcing.com/shenzhen-manufacturing/  
-- https://www.crunchbase.com/hub/shenzhen-electronics-companies  
-- https://en.wikipedia.org/wiki/Category:Companies_based_in_Shenzhen  
-- https://techbehemoths.com/companies/shenzhen  
+References:
+- https://www.startupblink.com/top-startups/shenzhen-cn
+- https://www.failory.com/startups/shenzhen
+- https://itimanufacturing.com/silicon-valley-hardware-made-china/
+- https://www.diamandis.com/blog/shenzhen-global-hardware-capital
+- https://leelinesourcing.com/shenzhen-manufacturing/
+- https://www.crunchbase.com/hub/shenzhen-electronics-companies
+- https://en.wikipedia.org/wiki/Category:Companies_based_in_Shenzhen
+- https://techbehemoths.com/companies/shenzhen
 - https://www.goodfirms.co/internet-of-things/china

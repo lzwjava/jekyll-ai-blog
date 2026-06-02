@@ -15,7 +15,7 @@ type: note
 
 There are two main ways to trigger a GitHub Actions workflow via the GitHub REST API:
 
-1. **Using `workflow_dispatch`** — Recommended for manually triggering a specific workflow (most common use case).  
+1. **Using `workflow_dispatch`** — Recommended for manually triggering a specific workflow (most common use case).
    The workflow must include `on: workflow_dispatch:` (optionally with `inputs`).
 
 2. **Using `repository_dispatch`** — For triggering workflows from external systems with a custom event type (useful for cross-repo or third-party integrations).
@@ -45,11 +45,11 @@ jobs:
 ```
 {% endraw %}
 
-**API Endpoint**  
+**API Endpoint**
 `POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches`
 
-- `{workflow_id}` can be:  
-  - Workflow file name (e.g. `deploy.yml`)  
+- `{workflow_id}` can be:
+  - Workflow file name (e.g. `deploy.yml`)
   - Workflow ID number (get it via GET /repos/{owner}/{repo}/actions/workflows)
 
 **Example using curl** (2022-11-28 API version — current as of 2026):
@@ -70,8 +70,8 @@ curl -L \
   }'
 ```
 
-- Response: `204 No Content` on success  
-- `ref`: branch, tag, or commit SHA (required)  
+- Response: `204 No Content` on success
+- `ref`: branch, tag, or commit SHA (required)
 - `inputs`: optional, must match workflow inputs
 
 **Using GitHub CLI** (simpler):
@@ -93,7 +93,7 @@ on:
     types: [deploy, build, test]
 ```
 
-**API Endpoint**  
+**API Endpoint**
 `POST /repos/{owner}/{repo}/dispatches`
 
 **Example curl**:
@@ -114,20 +114,20 @@ curl -L \
   }'
 ```
 
-In the workflow you can access:  
+In the workflow you can access:
 `github.event.client_payload.environment`
 
 ### Authentication & Permissions
 
-- Use a **Personal Access Token (classic)** with `repo` scope (or `workflow` scope for workflow_dispatch)  
-- For GitHub Apps: `actions:write` permission  
+- Use a **Personal Access Token (classic)** with `repo` scope (or `workflow` scope for workflow_dispatch)
+- For GitHub Apps: `actions:write` permission
 - Never commit tokens — use secrets or secure vaults
 
 ### Quick Tips
 
-- Always include `-H "X-GitHub-Api-Version: 2022-11-28"` (or newer stable version)  
-- Check workflow runs in the Actions tab after triggering  
-- Rate limits apply — 180–5000 requests/hour depending on token type  
+- Always include `-H "X-GitHub-Api-Version: 2022-11-28"` (or newer stable version)
+- Check workflow runs in the Actions tab after triggering
+- Rate limits apply — 180–5000 requests/hour depending on token type
 - To find workflow_id: `GET /repos/{owner}/{repo}/actions/workflows`
 
 **References:**

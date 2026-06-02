@@ -29,5 +29,5 @@ Based on recent 2025 rankings from EduRank, here are the top 10 universities in 
 
 These institutions are known for strengths in fields like medicine (Sun Yat-sen, Southern Medical), engineering (South China University of Technology), and agriculture (South China Agricultural University). For global context, Sun Yat-sen ranks around 200-250 in world university rankings like QS or Times Higher Education.
 
-[24 Best Universities in Guangzhou [2025 Rankings]](https://edurank.org/geo/guangzhou/)  
+[24 Best Universities in Guangzhou [2025 Rankings]](https://edurank.org/geo/guangzhou/)
 [All 21 Universities in Guangzhou | Rankings & Reviews 2025](https://www.universityguru.com/universities-guangzhou)

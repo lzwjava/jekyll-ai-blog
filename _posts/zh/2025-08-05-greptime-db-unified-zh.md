@@ -34,10 +34,10 @@ GreptimeDB 在可观测性领域具有创新性，它将指标、日志和追踪
 
 总体而言，团队表现出色：该项目从 2022 年的新参与者成长为具有实际应用案例的稳健解决方案（如在 Poizon 用于可观测性，在 OB Cloud 用于日志管理）。积极的开发、积极的社区反馈和强劲的基准测试结果表明，其工程专注于性能、成本和可用性，质量很高。尽管仍处于测试阶段，但其发展轨迹表明它有望在云原生数据库领域产生更广泛的影响。
 
-[Greptime 官网](https://greptime.com/)  
-[GreptimeDB 文档 - 架构](https://docs.greptime.com/user-guide/concepts/architecture)  
-[GreptimeDB GitHub 仓库](https://github.com/GreptimeTeam/greptimedb)  
-[GreptimeDB 存储架构深度解析](https://greptime.com/blogs/2025-03-26-greptimedb-storage-architecture)  
-[GreptimeDB 与竞争对手基准测试](https://medium.com/@greptime/comprehensive-benchmark-report-how-greptimedb-stacks-up-against-influxdb-elasticsearch-69ce97cf6acb)  
-[GreptimeDB v0.14 发布](https://greptime.com/blogs/2025-04-27-greptimedb-version-released-index-flow-trace)  
+[Greptime 官网](https://greptime.com/)
+[GreptimeDB 文档 - 架构](https://docs.greptime.com/user-guide/concepts/architecture)
+[GreptimeDB GitHub 仓库](https://github.com/GreptimeTeam/greptimedb)
+[GreptimeDB 存储架构深度解析](https://greptime.com/blogs/2025-03-26-greptimedb-storage-architecture)
+[GreptimeDB 与竞争对手基准测试](https://medium.com/@greptime/comprehensive-benchmark-report-how-greptimedb-stacks-up-against-influxdb-elasticsearch-69ce97cf6acb)
+[GreptimeDB v0.14 发布](https://greptime.com/blogs/2025-04-27-greptimedb-version-released-index-flow-trace)
 [Poizon 的可观测性扩展实践](https://medium.com/@greptime/scaling-observability-at-poizon-building-a-cost-effective-and-real-time-monitoring-architecture-07a42e217c02)

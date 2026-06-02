@@ -22,7 +22,7 @@ Focus on lesser-known, car-accessible nooks with natural or man-made water featu
 Urban escapes with easy subway backups, but drive for gear.
 
 - **Central Park's Ravine and Loch (North Woods):** Wooded gorge with multiple small man-made waterfalls cascading into the Loch stream—serene, forested vibe like a mini ravine hike. Park at 102nd St transverse lots (paid, ~$2/hr) and walk 5 min; quietest off trails.
-  
+
 - **Wagner Cove (West 72nd St):** Tiny inlet with rippling water and a pavilion overlooking gentle flows—ultra-peaceful hideaway. Garage parking nearby on Central Park West; benches for breaks if you step out.
 
 - **Paley Park (Midtown, 53rd St btwn Madison & 5th):** Pocket park with a 20-ft urban waterfall wall—constant soft roar drowns city buzz. Street metering or garages adjacent; grab a bench or park across for views.
@@ -67,11 +67,11 @@ Island escape, ferry parking included.
 
 Start in Manhattan for quick hits, then ferry to SI for a day trip. Fall cleanup might close some paths—check nycgovparks.org. If traffic bites, e-bike rentals bridge gaps.
 
-[Where to Find New York City's Secret Waterfalls](https://www.6sqft.com/where-to-find-new-york-citys-secret-waterfalls/)  
-[Waterfalls in Central Park](https://www.centralpark.com/things-to-do/attractions/waterfalls/)  
-[Magical New York City Waterfalls](https://yourbrooklynguide.com/new-york-city-waterfalls/)  
-[Hiking Trails in Prospect Park](https://www.nycgovparks.org/parks/prospectpark/facilities/hikingtrails)  
-[Allison Pond Park](https://www.nycgovparks.org/park-features/hiking/allison-pond-park-and-goodhue-park)  
-[Clove Lakes Park Reviews](https://www.yelp.com/biz/clove-lakes-park-statue-of-liberty-national-monument-new-york)  
-[High Rock Park](https://www.nycgovparks.org/parks/high-rock-park)  
+[Where to Find New York City's Secret Waterfalls](https://www.6sqft.com/where-to-find-new-york-citys-secret-waterfalls/)
+[Waterfalls in Central Park](https://www.centralpark.com/things-to-do/attractions/waterfalls/)
+[Magical New York City Waterfalls](https://yourbrooklynguide.com/new-york-city-waterfalls/)
+[Hiking Trails in Prospect Park](https://www.nycgovparks.org/parks/prospectpark/facilities/hikingtrails)
+[Allison Pond Park](https://www.nycgovparks.org/park-features/hiking/allison-pond-park-and-goodhue-park)
+[Clove Lakes Park Reviews](https://www.yelp.com/biz/clove-lakes-park-statue-of-liberty-national-monument-new-york)
+[High Rock Park](https://www.nycgovparks.org/parks/high-rock-park)
 [Wolfe's Pond Park](https://www.nycgovparks.org/parks/wolfes-pond-park)

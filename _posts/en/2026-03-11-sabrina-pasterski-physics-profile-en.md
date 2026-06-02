@@ -28,7 +28,7 @@ At MIT, her academic performance was exceptional:
 - She became the first freshman to be named to the NASA January Operational Internship and was among those awarded MIT's inaugural Freshman Entrepreneurship Award.
 - She received a Bachelor of Science in physics in 2013, after three years of attendance and as the first woman in decades to graduate MIT at the top of their class in the physics program and win a Joel Matthew Orloff scholarship award with a 5.0 grade point average.
 
-**Harvard (Graduate)**: She then entered a postgraduate education program at Harvard, receiving a Hertz Fellowship. While a graduate student at Harvard, she worked under the advisement of Andrew Strominger and developed an interest in quantum gravity. 
+**Harvard (Graduate)**: She then entered a postgraduate education program at Harvard, receiving a Hertz Fellowship. While a graduate student at Harvard, she worked under the advisement of Andrew Strominger and developed an interest in quantum gravity.
 
 Her doctoral work was groundbreaking: She, Strominger, and another colleague, Alexander Zhiboedov, discovered a novel gravitational memory effect, a connection which Pasterski found between symmetries and a spin memory effect that can be observed in gravitational waves. She obtained a Ph.D. from Harvard in physics in 2019.
 
@@ -40,7 +40,7 @@ Her work gained significant recognition: A paper released by Stephen W. Hawking,
 
 ### Current Position & Honors
 
-After obtaining her PhD, Pasterski completed post-doctoral work as a fellow at Princeton University from 2019 until 2022. 
+After obtaining her PhD, Pasterski completed post-doctoral work as a fellow at Princeton University from 2019 until 2022.
 
 Brown University offered Sabrina an unsolicited assistant professorship but she declined the $1.1M offer from Brown to join the premier Canadian think tank: The Perimeter Institute and became a physics professor at age 27—the youngest of their 25 faculty members, and one of only three women.
 

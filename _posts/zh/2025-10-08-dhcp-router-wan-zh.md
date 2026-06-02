@@ -37,5 +37,5 @@ type: note
 
 这是路由器的常规行为——只是确保其"互联网通行证"持续有效。
 
-[理解DHCP基础（微软）](https://learn.microsoft.com/en-us/windows-server/troubleshoot/dynamic-host-configuration-protocol-basics)  
+[理解DHCP基础（微软）](https://learn.microsoft.com/en-us/windows-server/troubleshoot/dynamic-host-configuration-protocol-basics)
 [DHCP流程概述（Netmanias）](https://www.netmanias.com/en/post/techdocs/5998/dhcp-network-protocol/understanding-the-basic-operations-of-dhcp)

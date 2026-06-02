@@ -24,6 +24,6 @@ Compared to its predecessor (Claude 3.5 Haiku), it's more aligned and capable, s
 - **Pricing**: $1 per million input tokens and $5 per million output tokens.
 - **Access**: Available immediately to all users via the Claude API (as `claude-haiku-4-5`), Anthropic's apps, Amazon Bedrock, Google Vertex AI, and integrations like GitHub Copilot.
 
-[Introducing Claude Haiku 4.5](https://www.anthropic.com/news/claude-haiku-4-5)  
-[Anthropic launches Claude Haiku 4.5](https://www.cnbc.com/2025/10/15/anthropic-claude-haiku-4-5-ai.html)  
+[Introducing Claude Haiku 4.5](https://www.anthropic.com/news/claude-haiku-4-5)
+[Anthropic launches Claude Haiku 4.5](https://www.cnbc.com/2025/10/15/anthropic-claude-haiku-4-5-ai.html)
 [Claude Haiku 4.5 on AWS](https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock)

@@ -14,7 +14,7 @@ Question: In Windows, when using the `ibm_db` Python package with DB2, why does 
 
 Answer:
 
-The official IBM Python driver for DB2 on Windows is called **ibm_db** (not ibm_db2).  
+The official IBM Python driver for DB2 on Windows is called **ibm_db** (not ibm_db2).
 The error you see happens because `ibm_db` is a C extension that depends on the DB2 client libraries (especially `db2cli64.dll` or the older `db2app64.dll` from the IBM Data Server Client/Runtime Client).
 
 Windows cannot find these DLLs in the standard search path, so the Python process starts, hence the "DLL load failed while importing ibm_db" error.
@@ -23,7 +23,7 @@ Windows cannot find these DLLs in the standard search path, so the Python proces
 
 1. **Best and permanent solution: Add the DB2 client bin directory to the system PATH**
    - Install IBM Data Server Client or IBM Data Server Runtime Client (64-bit version that matches your Python: usually 64-bit).
-   - Typical path: `C:\Program Files\IBM\IBM DATA SERVER CLIENT\bin`  
+   - Typical path: `C:\Program Files\IBM\IBM DATA SERVER CLIENT\bin`
      or `C:\Program Files\IBM\SQLLIB\bin` if you installed the full DB2 server.
    - Add this folder to the **system** PATH** environment variable (reboot or log off/on afterward).
    - After this, `import ibm_db` works in any Python script or interpreter without any extra code.
@@ -80,6 +80,6 @@ import ibm_db
 
 Both approaches completely solve the "DLL can't be loaded" error.
 
-References:  
-- [ibm_db GitHub - Windows installation notes](https://github.com/ibmdb/python-ibmdb#windows)  
+References:
+- [ibm_db GitHub - Windows installation notes](https://github.com/ibmdb/python-ibmdb#windows)
 - [ibm_db documentation - Using clidriver bundle](https://github.com/ibmdb/python-ibmdb#using-ibm_db_clidriver-package)

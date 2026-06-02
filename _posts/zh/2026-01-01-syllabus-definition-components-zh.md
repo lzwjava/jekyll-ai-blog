@@ -12,7 +12,7 @@ type: note
 
 Question: "syllabus" 是什么意思？
 
-Answer: 
+Answer:
 
 **Syllabus** 是一份概述课程学习计划的文件，通常用于学校、学院或大学等教育环境中。它为教师和学生双方提供指导。
 

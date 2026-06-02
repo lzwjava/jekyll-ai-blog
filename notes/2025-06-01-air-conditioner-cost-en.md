@@ -14,7 +14,7 @@ To calculate the cost of running a typical air conditioner for one hour in Guang
 Guangzhou uses a tiered electricity pricing system for residents, with rates varying by season (summer: May-October; non-summer) and monthly consumption:
 - **First Tier**: 0-260 kWh, 0.61 CNY/kWh
 - **Second Tier**: 261-600 kWh, 0.66 CNY/kWh
-- **Third Tier**: 601 kWh and above, 0.91 CNY/kWh  
+- **Third Tier**: 601 kWh and above, 0.91 CNY/kWh
 (Based on Guangdong’s tiered pricing policy, effective since July 2012, with no major changes reported.)
 
 Most households fall within the first tier (0.61 CNY/kWh).

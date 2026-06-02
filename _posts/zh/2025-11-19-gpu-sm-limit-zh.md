@@ -56,6 +56,6 @@ PyTorch认为只有当GPU拥有足够数量的SM时（通常≥68-80个，具体
 
 实际应用中，缺少完整`max_autotune_gemm`造成的性能差异通常很小（约几个百分点），在消费级GPU上使用`max-autotune-no-cudagraphs`即可获得95%以上的性能收益。
 
-[PyTorch Inductor utils.py源码](https://github.com/pytorch/pytorch/blob/main/torch/_inductor/utils.py)  
-[Torch.compile警告讨论](https://discuss.pytorch.org/t/torch-compile-warning-not-enough-sms-to-use-max-autotune-gemm-mode/184405)  
+[PyTorch Inductor utils.py源码](https://github.com/pytorch/pytorch/blob/main/torch/_inductor/utils.py)
+[Torch.compile警告讨论](https://discuss.pytorch.org/t/torch-compile-warning-not-enough-sms-to-use-max-autotune-gemm-mode/184405)
 [深度解析torch.compile](https://themlsurgeon.substack.com/p/dissecting-torchcompile-surgical)

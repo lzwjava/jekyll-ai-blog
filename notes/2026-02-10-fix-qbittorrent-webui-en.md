@@ -12,7 +12,7 @@ type: note
 
 Question: The web UI shows nothing when accessing http://192.168.1.36:8080
 
-Answer: 
+Answer:
 
 If **nothing shows** at `http://192.168.1.36:8080` (blank page, timeout, connection refused, or infinite loading), follow these troubleshooting steps in order on your Ubuntu server. Most "nothing shows" cases are caused by one of these: service not running, wrong bind address, firewall, wrong port, config issue, or browser/network problem.
 
@@ -20,15 +20,15 @@ If **nothing shows** at `http://192.168.1.36:8080` (blank page, timeout, connect
 ```bash
 sudo systemctl status qbittorrent-nox
 ```
-- Look for **Active: active (running)**.  
-- If failed / inactive / dead → see step 7.  
+- Look for **Active: active (running)**.
+- If failed / inactive / dead → see step 7.
 - Also check recent logs:
 ```bash
 sudo journalctl -u qbittorrent-nox -n 50 --no-pager
 ```
 Look for lines like:
-- `WebUI: Now listening on IP: *, port: 8080` → good  
-- `WebUI: Now listening on IP: 127.0.0.1` or `localhost` → bad (only local access)  
+- `WebUI: Now listening on IP: *, port: 8080` → good
+- `WebUI: Now listening on IP: 127.0.0.1` or `localhost` → bad (only local access)
 - Any errors about binding, permissions, or crashes.
 
 ### 2. Test locally on the server itself
@@ -40,8 +40,8 @@ or
 ```bash
 curl http://127.0.0.1:8080
 ```
-- If you get **HTML code** (starts with `<!DOCTYPE html>` or login page source) → service is running, problem is network/firewall/browser side.  
-- If `curl: (7) Failed to connect to localhost port 8080: Connection refused` → service not listening or bound only to wrong interface.  
+- If you get **HTML code** (starts with `<!DOCTYPE html>` or login page source) → service is running, problem is network/firewall/browser side.
+- If `curl: (7) Failed to connect to localhost port 8080: Connection refused` → service not listening or bound only to wrong interface.
 - If `curl: (52) Empty reply from server` or timeout → service running but WebUI broken/crashed.
 
 ### 3. Check what is actually listening on port 8080
@@ -50,10 +50,10 @@ sudo ss -tuln | grep 8080
 # or
 sudo netstat -tuln | grep 8080   # if netstat is installed
 ```
-- Expected good output: `tcp LISTEN 0 128 *:8080 *:*` or `0.0.0.0:8080` (listening on all interfaces).  
+- Expected good output: `tcp LISTEN 0 128 *:8080 *:*` or `0.0.0.0:8080` (listening on all interfaces).
 - If `127.0.0.1:8080` or nothing → WebUI is only bound to localhost.
 
-**Fix if bound to localhost only**  
+**Fix if bound to localhost only**
 Edit config (stop service first):
 ```bash
 sudo systemctl stop qbittorrent-nox
@@ -92,11 +92,11 @@ sudo ufw reload
 ```
 
 ### 5. Browser / network checks (from your other computer)
-- Try http://192.168.1.36:8080 in **incognito/private mode** (cache/extensions can break it).  
-- Try a different browser.  
-- Ping the server: `ping 192.168.1.36` (must reply).  
-- Test port reachability: from your PC run `telnet 192.168.1.36 8080` or use online port checker.  
-- If you get connection refused → firewall/router issue or wrong IP.  
+- Try http://192.168.1.36:8080 in **incognito/private mode** (cache/extensions can break it).
+- Try a different browser.
+- Ping the server: `ping 192.168.1.36` (must reply).
+- Test port reachability: from your PC run `telnet 192.168.1.36 8080` or use online port checker.
+- If you get connection refused → firewall/router issue or wrong IP.
 - Make sure you're on the same local network (192.168.1.x).
 
 ### 6. Reset WebUI password / config (if login page appears but won't accept admin/adminadmin)
@@ -112,7 +112,7 @@ sudo -u qbittorrent qbittorrent-nox
 ```
 
 ### 7. If service fails to start
-- Check journalctl output for errors (permissions on /var/lib/qbittorrent, missing libs, etc.).  
+- Check journalctl output for errors (permissions on /var/lib/qbittorrent, missing libs, etc.).
 - Common fix: ensure folder ownership
 ```bash
 sudo chown -R qbittorrent:qbittorrent /var/lib/qbittorrent
@@ -129,7 +129,7 @@ sudo systemctl status qbittorrent-nox && sudo ss -tuln | grep 8080 && curl -I ht
 
 Run that and share the output if still stuck — it tells us almost everything.
 
-References:  
+References:
 
 - [qBittorrent GitHub issues on WebUI problems](https://github.com/qbittorrent/qBittorrent/issues)
 - [Running qBittorrent-nox systemd setup](https://github.com/qbittorrent/qBittorrent/wiki/Running-qBittorrent-without-X-server-(WebUI-only,-systemd-service-set-up,-Ubuntu-15.04-or-newer))

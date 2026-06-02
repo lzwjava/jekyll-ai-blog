@@ -81,7 +81,7 @@ When comparing decimal numbers, you look at each digit from left to right.
 Since **9 is bigger than 1**, the number **9.9** is bigger.
 --------------------------------------------------
 Response from kimi-k2:
-Hello! The larger number is **9.9**.  
+Hello! The larger number is **9.9**.
 
 Since **9.9** (which equals 9.90) is greater than **9.11** when comparing the decimal parts (0.90 > 0.11).
 --------------------------------------------------

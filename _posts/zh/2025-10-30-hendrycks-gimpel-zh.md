@@ -14,8 +14,8 @@ type: note
 
 凯文·金佩尔（Kevin Gimpel）是专注于自然语言处理、机器学习与统计学的计算机科学研究员。他于2012年加入芝加哥丰田技术研究所（TTIC）任教，在结构化预测和语言深度学习等领域做出重要贡献。近期他担任QuillBot研究副总裁，这家AI初创公司专注于开发文本复述、摘要生成和语法校正工具。
 
-[丹·亨德里克斯 - 维基百科](https://en.wikipedia.org/wiki/Dan_Hendrycks)  
-[丹·亨德里克斯：2023年《时代》AI领域百大影响力人物](https://time.com/collection/time100-ai/6309050/dan-hendrycks/)  
-[丹·亨德里克斯 - 加州伯克利EECS系](https://people.eecs.berkeley.edu/~hendrycks/)  
-[凯文·金佩尔 - TTIC](https://www.ttic.edu/gimpel)  
+[丹·亨德里克斯 - 维基百科](https://en.wikipedia.org/wiki/Dan_Hendrycks)
+[丹·亨德里克斯：2023年《时代》AI领域百大影响力人物](https://time.com/collection/time100-ai/6309050/dan-hendrycks/)
+[丹·亨德里克斯 - 加州伯克利EECS系](https://people.eecs.berkeley.edu/~hendrycks/)
+[凯文·金佩尔 - TTIC](https://www.ttic.edu/gimpel)
 [凯文·金佩尔 - 研究亮点 - TTIC](https://www.ttic.edu/highlights/gimpel/)

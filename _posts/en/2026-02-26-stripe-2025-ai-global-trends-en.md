@@ -11,7 +11,7 @@ type: note
 
 Question: What does Stripe say in its 2025 annual letter?
 
-Answer: 
+Answer:
 
 Stripe published its 2025 annual letter on February 24, 2026, authored by cofounders Patrick and John Collison. The letter highlights a strong year for Stripe and the broader internet economy.
 
@@ -29,7 +29,7 @@ Key points from the letter include:
 
 The full letter is available on Stripe's site, with a PDF version also linked in announcements.
 
-References:  
+References:
 
 - [Stripe’s 2025 annual letter](https://stripe.com/annual-updates/2025)
 - [Stripe publishes 2025 annual letter and announces tender offer](https://stripe.com/newsroom/news/stripe-2025-update)

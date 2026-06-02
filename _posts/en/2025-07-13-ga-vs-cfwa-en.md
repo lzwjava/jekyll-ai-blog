@@ -66,9 +66,9 @@ GA is better for broad marketing ecosystems.
 Overall, GA is the industry standard for depth, while CFWA stands out as a privacy-respecting alternative for simpler needs.
 
 ## References
-[Cloudflare Web Analytics Official Page](https://www.cloudflare.com/web-analytics/)  
-[Google Analytics Official Page](https://marketingplatform.google.com/about/analytics/)  
-[Comparison of Cloudflare and Google Analytics Data](https://zhauniarovich.com/post/2021/2021-09-comparison-of-cf-and-ga-data/)  
-[Cloudflare's Web Analytics Tool is Solid, but it's Not a Google Analytics Replacement for Most](https://birchtree.me/blog/cloudflares-web-analytics-tool-is-not-a-google-analytics-replacement-for-most/)  
-[Google Analytics vs. Cloudflare Web Analytics Reporting](https://brianli.com/2020/12/google-analytics-vs-cloudflare-web-analytics-reporting/)  
+[Cloudflare Web Analytics Official Page](https://www.cloudflare.com/web-analytics/)
+[Google Analytics Official Page](https://marketingplatform.google.com/about/analytics/)
+[Comparison of Cloudflare and Google Analytics Data](https://zhauniarovich.com/post/2021/2021-09-comparison-of-cf-and-ga-data/)
+[Cloudflare's Web Analytics Tool is Solid, but it's Not a Google Analytics Replacement for Most](https://birchtree.me/blog/cloudflares-web-analytics-tool-is-not-a-google-analytics-replacement-for-most/)
+[Google Analytics vs. Cloudflare Web Analytics Reporting](https://brianli.com/2020/12/google-analytics-vs-cloudflare-web-analytics-reporting/)
 [Cloudflare Analytics Review](https://markosaric.com/cloudflare-analytics-review/)

@@ -38,6 +38,6 @@ This is why Ethernet evolved: after 100 Mbps (Fast Ethernet), they ditched pure 
 
 If you're thinking of a specific setup (e.g., CAN bus in cars or old 10BASE-T), the principles are similar: protocol + physics > cable capability.
 
-For deeper dives:  
-[Ethernet Bus Topology Basics](https://en.wikipedia.org/wiki/Bus_network)  
+For deeper dives:
+[Ethernet Bus Topology Basics](https://en.wikipedia.org/wiki/Bus_network)
 [CSMA/CD Limitations](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)

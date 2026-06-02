@@ -43,8 +43,8 @@ type: note
 
 机柜还配备电网接线端子和电磁干扰屏蔽层。上海等城市的超快充型号（200kW+）可能内置小型电池用于谷电存储。这种设计使中国充电站兼具可靠性与扩展性，支撑着超2000万辆电动车的运行。若需了解特定型号或安装方案，欢迎垂询！
 
-[电动汽车充电桩主要组件详解](https://sinoevse.com/what-are-the-main-components-of-ev-chargers/)  
-[直流快充站核心组件解析](https://www.franklingrid.com/en/this-is-franklin-grid/blog/key-components-of-dc-fast-charging-stations/)  
-[2025年电动汽车充电站机柜类型与解决方案](https://linkwellelectrics.com/electric-vehicle-charging-station-cabinets/)  
-[快充站交直流转换器技术概览](https://www.powerelectronicsnews.com/overview-of-ac-dc-converters-for-fast-charging-stations/)  
+[电动汽车充电桩主要组件详解](https://sinoevse.com/what-are-the-main-components-of-ev-chargers/)
+[直流快充站核心组件解析](https://www.franklingrid.com/en/this-is-franklin-grid/blog/key-components-of-dc-fast-charging-stations/)
+[2025年电动汽车充电站机柜类型与解决方案](https://linkwellelectrics.com/electric-vehicle-charging-station-cabinets/)
+[快充站交直流转换器技术概览](https://www.powerelectronicsnews.com/overview-of-ac-dc-converters-for-fast-charging-stations/)
 [电动汽车充电接口类型完整指南](https://www.power-sonic.com/ev-charging-connector-types/)

@@ -40,7 +40,7 @@ import subprocess
 
 tasks = [
     "总结 file_a.py",
-    "总结 file_b.py", 
+    "总结 file_b.py",
     "总结 file_c.py",
 ]
 
@@ -81,7 +81,7 @@ tasks = [
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=len(tasks)) as executor:
     futures = {executor.submit(run_subagent, t): t for t in tasks}
-    results = {task: f.result() for f, task in 
+    results = {task: f.result() for f, task in
                [(f, futures[f]) for f in concurrent.futures.as_completed(futures)]}
 ```
 

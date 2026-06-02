@@ -19,7 +19,7 @@ Clash refers to the original project (Dreamacro/clash), including its **Premium*
 
 ### Core Comparison
 
-- **Original Clash** → Classic open-source version + Premium closed-source edition  
+- **Original Clash** → Classic open-source version + Premium closed-source edition
 - **Mihomo** → Fork (from MetaCubeX organization) that was renamed from Clash Meta → mihomo (mainly due to trademark concerns)
 
 Mihomo is now the more actively developed and future-oriented core in the Clash ecosystem (as of 2026).

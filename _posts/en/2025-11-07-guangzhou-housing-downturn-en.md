@@ -26,7 +26,7 @@ As for "who to blame," it's not one villain—it's a perfect storm of systemic i
 
 In short, blame the cycle: a mix of greedy developers, heavy-handed regulators, and an economy in transition. It's less about individual fault and more about a market correcting after unsustainable growth. If you're holding, some analysts see stabilization by 2026 with more targeted support, but resale liquidity is low right now. I'd suggest chatting with a local agent or financial advisor in Guangzhou for your specific property—they can run comps and explore options like renting it out. Hang in there; these slumps eventually turn, but it's rough in the meantime.
 
-[China's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/china/price-history)  
-[China housing slump deepens as oversupply drags prices](https://www.asiapropertyawards.com/en/china-housing-slump-deepens-as-oversupply-drags-prices/)  
-[Visualizing China's Real Estate Market Downturn](https://www.visualcapitalist.com/visualizing-chinas-real-estate-market-downturn/)  
+[China's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/china/price-history)
+[China housing slump deepens as oversupply drags prices](https://www.asiapropertyawards.com/en/china-housing-slump-deepens-as-oversupply-drags-prices/)
+[Visualizing China's Real Estate Market Downturn](https://www.visualcapitalist.com/visualizing-chinas-real-estate-market-downturn/)
 [Why China Can't Sort Out Its Property Market Mess](https://www.bloomberg.com/news/articles/2025-08-13/china-property-crisis-what-s-happening-to-evergrande-why-market-is-a-mess)

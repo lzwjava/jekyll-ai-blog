@@ -38,12 +38,12 @@ Kimi Linear isn't a direct replacement for MLA but builds on it as a hybrid, add
 | **Drawbacks**          | New architecture – limited tooling/support initially | Less optimal for extreme lengths without hybrids | High compute cost; not viable for 1M+ tokens without tricks |
 
 - **Vs. MLA**: MLA (seen in Moonshot's Kimi K2 and DeepSeek-V3) compresses queries/keys into low-rank latents for efficiency, but it can still bottleneck on very long sequences due to residual quadratic elements. Kimi Linear mitigates this by layering in linear KDA for 75% of attention heads, preserving MLA's global dependency modeling while slashing memory. In benchmarks, the hybrid beats pure MLA setups in long-context needle-in-haystack tasks and RL training efficiency.
-  
+
 - **Vs. Others (e.g., MHA, Linear Variants like RWKV)**: It surpasses standard Multi-Head Attention (MHA) in speed and scale without quality loss. Compared to pure linear attentions (e.g., RWKV or basic DeltaNet), Kimi Linear's gating refinements and MLA hybrid make it more expressive for nuanced tasks, avoiding the "forgetfulness" of purely recurrent linears.
 
 Overall, Kimi Linear represents an evolution toward "hybrid" attentions, blending linear scalability with latent compression for next-gen long-context models. It's especially promising for open-source deployments where hardware constraints matter.
 
-**References**  
-- [Kimi-Linear Collection on Hugging Face](https://huggingface.co/collections/moonshotai/kimi-linear)  
-- [Reddit Discussion on Kimi Linear Release](https://www.reddit.com/r/LocalLLaMA/comments/1ojzekg/moonshotaikimilinear48ba3binstruct_hugging_face/)  
+**References**
+- [Kimi-Linear Collection on Hugging Face](https://huggingface.co/collections/moonshotai/kimi-linear)
+- [Reddit Discussion on Kimi Linear Release](https://www.reddit.com/r/LocalLLaMA/comments/1ojzekg/moonshotaikimilinear48ba3binstruct_hugging_face/)
 - [Gated DeltaNet Paper (KDA Basis)](https://arxiv.org/abs/2412.06464)

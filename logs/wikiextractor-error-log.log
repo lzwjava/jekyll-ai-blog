@@ -42,4 +42,4 @@ Traceback (most recent call last):
                        'of the expression',
                        source.tell() - start)
 re.PatternError: global flags not at the start of the expression at position 4
-lzw@to:~/projects/wiki_train/wikipedia_test_5files_parallel$ 
+lzw@to:~/projects/wiki_train/wikipedia_test_5files_parallel$

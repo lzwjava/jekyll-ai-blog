@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about Java networking?
 
-Answer: 
+Answer:
 
 Java's networking capabilities, primarily through the `java.net` and `java.nio` packages, are robust and widely used, but some opinions in the developer community challenge popular assumptions. Here are several unpopular or controversial ideas based on discussions from forums like Stack Overflow and Hacker News:
 
@@ -26,8 +26,8 @@ Java's networking capabilities, primarily through the `java.net` and `java.nio` 
 
 These views are minority opinions amid Java's popularity for enterprise networking, but they highlight trade-offs in performance, simplicity, and scalability.
 
-References:  
+References:
 
-- [Stack Overflow: Threaded sockets vs NIO](https://stackoverflow.com/questions/5437722/java-in-2011-threaded-sockets-vs-nio-what-to-choose-on-64bit-os-and-latest-jav)  
-- [Hacker News: Java IO faster than NIO](https://news.ycombinator.com/item?id=1551776)  
+- [Stack Overflow: Threaded sockets vs NIO](https://stackoverflow.com/questions/5437722/java-in-2011-threaded-sockets-vs-nio-what-to-choose-on-64bit-os-and-latest-jav)
+- [Hacker News: Java IO faster than NIO](https://news.ycombinator.com/item?id=1551776)
 - [Hacker News: Threads vs NIO discussion](https://news.ycombinator.com/item?id=2786643)

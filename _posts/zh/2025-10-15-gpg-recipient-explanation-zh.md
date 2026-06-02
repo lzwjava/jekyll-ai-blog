@@ -59,7 +59,7 @@ gpg --homedir /path/to/custom/dir -e -r recipient@example.com --encrypt inputfil
      ```
      John Doe
      recipient@example.com
-     
+
      ```
      （空行结束输入。）
 

@@ -14,7 +14,7 @@ Yes, incrementally increasing the dataset size step by step (e.g., starting with
 
 ### Pros of Step-by-Step Increase (What You're Considering)
 - **Controlled Experimentation**: You can monitor how adding more data affects model performance (e.g., loss curves, perplexity, or generated text quality). From your logs, training on just articles1 (a small slice of Wikipedia) got you down to ~3.9 train/val loss after 20k iterations, which is a good start for a tiny model. Adding articles2 and articles3 (bringing you to ~3 parts) lets you see if the model generalizes better or overfits less without committing to a massive run.
-- **Resource Management**: 
+- **Resource Management**:
   - Disk: Your 391GB available is more than enough for now. The two new bz2 files are ~5GB compressed total. Using wikiextractor (as suggested in the echo), the extracted clean text might be ~10-15GB uncompressed for these two (Wikipedia XML compresses well, but clean text is denser). Combined with articles1's extracted data (~5GB?), you'd be at ~15-20GB total—plenty of headroom.
   - RAM/GPU: 62GB system RAM handles tokenization and data loading fine. RTX 4070 (12GB VRAM) is solid for NanoGPT's default tiny/shakespeare configs or even small GPT-2-like models (e.g., 124M params). If you're using bf16 or mixed precision, you can batch larger. Step-by-step avoids overwhelming VRAM with huge datasets upfront.
   - Time: Extraction with `--processes 8` on your setup should take 1-2 hours per file. Training increments (e.g., continuing from your articles1 checkpoint) could be done in days per step, letting you iterate quickly.

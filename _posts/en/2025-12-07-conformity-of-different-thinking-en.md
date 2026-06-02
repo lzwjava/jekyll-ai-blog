@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about “thinking differently”?
 
-Answer: 
+Answer:
 
 Here are several genuinely unpopular (or at least counter-cultural) opinions about the idea of “thinking differently” that you rarely hear far less often than the usual “dare to be different” cheerleading:
 

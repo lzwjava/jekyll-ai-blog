@@ -53,5 +53,5 @@ The following is the complete course list for this major in Guangdong Self-study
 - Textbooks should be based on the latest announcements from the Guangdong Education Examination Authority (such as the 2025 January exam textbook list). It is recommended that candidates log in to the Guangdong Education Examination Authority official website (eea.gd.gov.cn) to check the latest exam times, textbooks, and registration information.
 - Additional subjects (optional or for Hong Kong, Macao, and Taiwan candidates): Such as Introduction to Law (00040, 6 credits, written exam); Hong Kong, Macao, and Taiwan candidates must take it to substitute for ideological and political courses.
 
-[Guangdong Self-study Computer Application Technology Professional Information](http://m.gdszkw.com/zkzy/46987.html)  
+[Guangdong Self-study Computer Application Technology Professional Information](http://m.gdszkw.com/zkzy/46987.html)
 [Guangdong Province Education Examination Authority Self-study Examination Page](https://eea.gd.gov.cn/zxks/index.html)

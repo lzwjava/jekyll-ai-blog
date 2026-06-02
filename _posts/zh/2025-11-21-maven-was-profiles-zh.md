@@ -159,6 +159,6 @@ src/
 
 通过此方案可从 **同一代码库** 生成适应不同环境的 EAR 文件。如需差异化产物命名（如 `myapp-local.ear` 与 `myapp.ear`），可在配置档的 `<build>` 章节添加 `<finalName>${project.artifactId}-${profile}</finalName>`
 
-[Maven 配置档指南](https://maven.apache.org/guides/introduction/introduction-to-profiles.html)  
-[Maven EAR 插件文档](https://maven.apache.org/plugins/maven-ear-plugin/)  
+[Maven 配置档指南](https://maven.apache.org/guides/introduction/introduction-to-profiles.html)
+[Maven EAR 插件文档](https://maven.apache.org/plugins/maven-ear-plugin/)
 [IBM WAS Maven 集成指南](https://www.ibm.com/docs/en/wasdtfe/9.7.0?topic=suye-configuring-dependency-pom-files-that-emulate-classpath-specific-websphere-runtime-environments)

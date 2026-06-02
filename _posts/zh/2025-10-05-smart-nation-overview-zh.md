@@ -48,8 +48,8 @@ type: note
 
 更多详情请参阅以下官方资源。
 
-**参考资料**  
-- [新加坡智慧国官网](https://www.smartnation.gov.sg/)  
-- [智慧国2.0报告](https://file.go.gov.sg/smartnation2-report.pdf)  
-- [维基百科：智慧国](https://en.wikipedia.org/wiki/Smart_Nation)  
+**参考资料**
+- [新加坡智慧国官网](https://www.smartnation.gov.sg/)
+- [智慧国2.0报告](https://file.go.gov.sg/smartnation2-report.pdf)
+- [维基百科：智慧国](https://en.wikipedia.org/wiki/Smart_Nation)
 - [Tech.gov.sg：升级版智慧国愿景](https://www.tech.gov.sg/technews/our-enhanced-smart-nation-vision-paving-the-way-for-a-new-digital-era/)

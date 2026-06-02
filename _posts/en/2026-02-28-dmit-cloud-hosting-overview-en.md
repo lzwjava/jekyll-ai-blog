@@ -11,7 +11,7 @@ type: note
 
 Question: What is a comprehensive introduction to dmit.io?
 
-Answer: 
+Answer:
 
 **DMIT.io** (often stylized as **DMIT**) is a cloud infrastructure and VPS hosting provider specializing in high-performance virtual private servers (VPS), cloud instances, and bare-metal dedicated servers.
 
@@ -67,7 +67,7 @@ https://www.dmit.io/
 
 In summary, DMIT.io is considered a **premium overseas VPS/cloud provider** — especially strong for users who need reliable, high-quality US → Asia network performance and are willing to pay above-average prices for better routing and hardware consistency.
 
-References:  
+References:
 
 - [https://www.dmit.io/](https://www.dmit.io/)
 - [https://github.com/pdzssk326/DMIT](https://github.com/pdzssk326/DMIT)

@@ -17,19 +17,19 @@ Your natural language query ("get some users whose firstname is andy, created_at
 SELECT *
 FROM users
 WHERE first_name ILIKE 'andy'
-  AND CAST(created_at AS DATE) BETWEEN 
-      (CURRENT_DATE - INTERVAL '1 MONTH' - INTERVAL '1 DAY') 
-      AND 
+  AND CAST(created_at AS DATE) BETWEEN
+      (CURRENT_DATE - INTERVAL '1 MONTH' - INTERVAL '1 DAY')
+      AND
       (CURRENT_DATE - INTERVAL '1 MONTH' + INTERVAL '1 DAY')
   AND EXTRACT(YEAR FROM AGE(date_of_birth)) = 20
   AND last_login >= CURRENT_TIMESTAMP - INTERVAL '7 DAYS';
 ```
 
-- **Strengths**: 
+- **Strengths**:
   - `ILIKE 'andy'` handles case-insensitivity, which is user-friendly.
   - The `created_at` clause interprets "around the day last month" as a ±1 day window around the equivalent date last month (e.g., if today is July 14, 2025, it queries June 13–15). This is a reasonable approximation for "around," though the phrase is somewhat ambiguous—AI tools often need clear prompts to avoid misinterpretation.
   - `last_login >= CURRENT_TIMESTAMP - INTERVAL '7 DAYS'` accurately captures "recent week."
-  
+
 - **Potential Improvements**:
   - The age condition (`EXTRACT(YEAR FROM AGE(date_of_birth)) = 20`) calculates the current age as of July 14, 2025, which would select users who are exactly 20 years old today (accounting for whether their birthday has passed). However, "20 years old as of 2025" might better mean users who turn 20 during the year 2025 (i.e., born in 2005). A simpler, more precise alternative could be:
     ```sql
@@ -72,11 +72,11 @@ These approaches can lead to cost savings (e.g., 20–30% productivity gains in 
 
 If you're building that AI agent, consider open-source frameworks like LangChain for chaining log analysis with SQL generation. For pricing on APIs or subscriptions, check official sites as details vary.
 
-**References**  
-- [AI and bank software development | Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)  
-- [AI in Banking: Applications, Benefits and Examples | Google Cloud](https://cloud.google.com/discover/ai-in-banking)  
-- [Extracting value from AI in banking: Rewiring the enterprise | McKinsey](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)  
-- [AI in Finance: Applications, Examples & Benefits | Google Cloud](https://cloud.google.com/discover/finance-ai)  
-- [Top AI Applications in Finance for 2025: [Benefits & Success Stories] | Acropolium](https://acropolium.com/blog/artificial-intelligence-applications-in-finance-real-world-success-cases/)  
-- [QueryGPT - Natural Language to SQL using Generative AI | Uber Blog](https://www.uber.com/blog/query-gpt/)  
+**References**
+- [AI and bank software development | Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)
+- [AI in Banking: Applications, Benefits and Examples | Google Cloud](https://cloud.google.com/discover/ai-in-banking)
+- [Extracting value from AI in banking: Rewiring the enterprise | McKinsey](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)
+- [AI in Finance: Applications, Examples & Benefits | Google Cloud](https://cloud.google.com/discover/finance-ai)
+- [Top AI Applications in Finance for 2025: [Benefits & Success Stories] | Acropolium](https://acropolium.com/blog/artificial-intelligence-applications-in-finance-real-world-success-cases/)
+- [QueryGPT - Natural Language to SQL using Generative AI | Uber Blog](https://www.uber.com/blog/query-gpt/)
 - [NL2SQL with BigQuery and Gemini | Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics/nl2sql-with-bigquery-and-gemini)

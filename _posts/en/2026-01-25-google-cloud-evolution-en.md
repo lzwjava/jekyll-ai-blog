@@ -12,7 +12,7 @@ type: note
 
 Question: Who are the architects, key engineers, and tech leads behind Google Cloud?
 
-Answer: 
+Answer:
 
 Google Cloud (including Google Cloud Platform, now Google Cloud) was built on Google's internal infrastructure expertise and evolved into a public cloud offering. Key figures include foundational architects from Google's early infrastructure and later leaders who shaped the commercial cloud business.
 
@@ -35,7 +35,7 @@ Google Cloud has many prominent developer relations and engineering leaders who 
 
 Google Cloud's architecture heavily leverages Google's internal innovations (e.g., containers → Kubernetes, which Google open-sourced and leads via the CNCF). While specific "founders" of Google Cloud as a product don't exist in the startup sense (it grew internally), Urs Hölzle stands out as a primary technical architect of the underlying systems, with modern leadership from Kurian, Vahdat, and others.
 
-References:  
+References:
 
 - [Leadership - Google Cloud Press Corner](https://www.googlecloudpresscorner.com/leadership)
 - [Urs Hölzle - Google Research](https://research.google/people/author79)

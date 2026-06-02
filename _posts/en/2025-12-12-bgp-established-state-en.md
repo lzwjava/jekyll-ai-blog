@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which BGP neighbor state indicates that a TCP three-way handshake has been completed?  
-A) Idle  
-B) Connect  
-C) Active  
+Question: Which BGP neighbor state indicates that a TCP three-way handshake has been completed?
+A) Idle
+B) Connect
+C) Active
 D) Established
 
-Answer: 
+Answer:
 
 The correct answer is **D) Established**.
 
@@ -39,12 +39,12 @@ The TCP three-way handshake (SYN → SYN-ACK → ACK) must be successfully compl
 However, the question specifically asks for the state that **indicates** the TCP three-way handshake has been completed and the BGP session is fully operational for routing exchange. That is the **Established** state—the only state where the BGP peering is considered “up” and routing information is actually being exchanged.
 
 ### Quick Summary
-- **Idle → Connect → (possibly Active)**: Trying to complete the TCP handshake  
-- **OpenSent → OpenConfirm → Established**: TCP handshake already completed  
+- **Idle → Connect → (possibly Active)**: Trying to complete the TCP handshake
+- **OpenSent → OpenConfirm → Established**: TCP handshake already completed
 - **Established** = BGP neighbor is fully up (TCP + BGP session successful)
 
 Thus, **D) Established** is the definitive state confirming that the TCP three-way handshake has been completed and the BGP session is operational.
 
-References:  
-- [RFC 4271 – A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271.html)  
+References:
+- [RFC 4271 – A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271.html)
 - [Cisco BGP Finite State Machine](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13753-25.html)

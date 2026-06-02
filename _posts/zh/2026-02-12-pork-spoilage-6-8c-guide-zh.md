@@ -12,7 +12,7 @@ type: note
 
 **Question:** 猪肉在 6 或 8 摄氏度左右的冰箱中放几天会变质？
 
-**Answer:** 
+**Answer:**
 
 生猪肉存放在 **6–8°C** 的冰箱中（这比 4°C 或更低的理想冰箱温度略高）通常可以保持安全且质量良好 **3–5 天**，具体取决于切割方式和初始新鲜度。
 
@@ -34,7 +34,7 @@ type: note
 
 在判断肉类是否仍然良好时，请始终优先考虑气味、外观和质地，而不是严格的日历天数。
 
-**References:**  
+**References:**
 
 - [USDA / FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts)
 - [USDA Fresh Pork From Farm to Table](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/fresh-pork-farm-table)

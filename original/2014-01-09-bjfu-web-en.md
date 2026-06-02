@@ -103,16 +103,16 @@ public class Login{
 	static void print(String format, Object... args) {
 		System.out.println(String.format(format, args));
 	}
-	
+
 	public static void main(String[] args) {
 		HttpClient httpClient = new DefaultHttpClient();
 		String ip;
 		String userId;
 		String username="130888888";
 		String password = "88888888";
-		
+
 		ip=cssQueryFirstText("http://login.bjfu.edu.cn/index.jsp","span.login_txt");
-		
+
 		doPost(httpClient,"http://login.bjfu.edu.cn/checkLogin.jsp",
 				"username",username,"password",password,
 				"ip",ip,"action","checkLogin.jsp");
@@ -135,13 +135,13 @@ public class Login{
 		}
 		return ans;
 	}
-	
+
 	static String cssQueryFirstText(String url,String cssQuery) {
 		String ip=null;
 		try{
 			Document doc=Jsoup.connect(url).get();
 			Elements elems=doc.select(cssQuery);
-			Element elem=elems.first(); 
+			Element elem=elems.first();
 			ip=elem.text();
 		}catch(Exception e){
 			e.printStackTrace();
@@ -185,7 +185,7 @@ public class Login{
 		}
 		return sb.toString();
 	}
-	
+
 	static String makeGetSrl(String url,String... pairs) {
 		if(!url.endsWith("?")){
 			url+="?";
@@ -218,7 +218,7 @@ public class Login{
 		}
 		return entityContent;
 	}
-	
+
 	private static String getCookies(HttpClient client) {
         StringBuilder sb = new StringBuilder();
         List<Cookie> cookies = ((AbstractHttpClient)

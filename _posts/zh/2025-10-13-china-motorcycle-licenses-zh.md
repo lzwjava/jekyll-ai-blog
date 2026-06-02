@@ -22,6 +22,6 @@ type: note
 
 考取摩托车驾照需根据车型申请D/E/F照，年龄要求为18周岁起（D/E照最高年龄60周岁，F照70周岁）。考试流程包含在当地车管所进行的理论和实际操作测试。
 
-[中国驾驶证 - 维基百科](https://en.wikipedia.org/wiki/Driving_license_in_China)  
-[外国人在中国驾驶 - 路拓先锋](https://www.roadpioneer.com/foreigners-driving-in-china/)  
+[中国驾驶证 - 维基百科](https://en.wikipedia.org/wiki/Driving_license_in_China)
+[外国人在中国驾驶 - 路拓先锋](https://www.roadpioneer.com/foreigners-driving-in-china/)
 [中国驾照指南 - 云南探索](https://www.yunnanexploration.com/driving-licence-in-china.html)

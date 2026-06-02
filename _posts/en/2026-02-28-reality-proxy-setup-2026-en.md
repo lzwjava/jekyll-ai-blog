@@ -11,16 +11,16 @@ type: note
 
 Question: How to use https://github.com/flq367/reality to install a proxy program on a server?
 
-Answer: 
+Answer:
 
 The repository **flq367/reality** provides a simple one-click installation script for setting up **Reality** (typically referring to the VLESS + XTLS-Reality protocol in Xray-core setups), which is commonly used to create censorship-resistant proxies.
 
 ### Installation Steps
 
-1. **Connect to your server**  
+1. **Connect to your server**
    Use SSH to access your Linux server (Ubuntu/Debian, CentOS, or Alpine are common choices for such scripts).
 
-2. **Run the one-click installation command**  
+2. **Run the one-click installation command**
    Execute this command as root (or use `sudo`):
 
    ```bash
@@ -35,7 +35,7 @@ The repository **flq367/reality** provides a simple one-click installation scrip
      - Creating a basic server configuration
      - Setting up systemd service (or equivalent) to run automatically
 
-3. **During installation**  
+3. **During installation**
    The script is interactive in most similar Reality installers. You will likely be asked to:
    - Choose a port (default often 443)
    - Enter a domain name / SNI / serverName (for Reality camouflage)
@@ -45,20 +45,20 @@ The repository **flq367/reality** provides a simple one-click installation scrip
 
    Follow the on-screen prompts carefully.
 
-4. **After installation finishes**  
+4. **After installation finishes**
    - The script typically shows:
      - Server configuration summary
      - VLESS Reality URL / share link (for clients like v2rayN, Nekobox, Hiddify, etc.)
      - Possibly login info if it installs a panel
-   - Save the VLESS link immediately — it usually looks like:  
+   - Save the VLESS link immediately — it usually looks like:
      `vless://uuid@your-server-ip:443?security=reality&...`
 
-5. **Common locations after install**  
+5. **Common locations after install**
    - Config file: usually `/usr/local/etc/xray/config.json` or `/etc/xray/config.json`
    - Binary: `/usr/local/bin/xray`
    - Service: `systemctl status xray` (or similar name)
 
-6. **Test & manage**  
+6. **Test & manage**
    - Check status: `systemctl status xray` (or the service name shown)
    - Restart: `systemctl restart xray`
    - View logs: `journalctl -u xray -ef` or check `/var/log/xray/`
@@ -77,6 +77,6 @@ Popular maintained options in 2026 include:
 - AmneziaVPN self-hosted installer
 - Various one-click Xray-Reality scripts (search "xray reality one key install 2026")
 
-References:  
+References:
 
 - [https://github.com/flq367/reality](https://github.com/flq367/reality)

@@ -22,8 +22,8 @@ Daniel P. Friedman's work—spanning functional programming paradigms, Scheme's 
 
 Bottom line: AI's hype cycle is shifting from "bigger models" to "smarter architectures," where Friedman's focus on elegant, verifiable building blocks fills the gap. His low-profile ethos? It'll amplify as influencers rediscover these timeless tools amid the noise—think viral threads on miniKanren for agent swarms or FP for edge AI. By 2035, expect his citations to rival today's ML stars, powering the verifiable intelligence that keeps the era from unraveling.
 
-[Essentials of Programming Languages](https://en.wikipedia.org/wiki/Daniel_P._Friedman)  
-[MiniKanren for Symbolic AI](https://minikanren.org/)  
-[Neural Guided Constraint Logic with miniKanren](https://arxiv.org/abs/1809.02840)  
-[FP in AI Safety and Trends](https://medium.com/@adnanmasood/state-of-functional-programming-and-f-in-the-age-of-llms-vibe-coding-and-ai-assisted-sdlc-5fffaff0c85b)  
+[Essentials of Programming Languages](https://en.wikipedia.org/wiki/Daniel_P._Friedman)
+[MiniKanren for Symbolic AI](https://minikanren.org/)
+[Neural Guided Constraint Logic with miniKanren](https://arxiv.org/abs/1809.02840)
+[FP in AI Safety and Trends](https://medium.com/@adnanmasood/state-of-functional-programming-and-f-in-the-age-of-llms-vibe-coding-and-ai-assisted-sdlc-5fffaff0c85b)
 [AI-Enhanced FP Future](https://www.r-bloggers.com/2024/12/leveraging-ai-to-enhance-functional-programming-in-2025/)

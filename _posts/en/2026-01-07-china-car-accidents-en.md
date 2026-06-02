@@ -12,7 +12,7 @@ type: note
 
 Question: In China, if a person is driving a car and encounters a car accident, how to handle it, such as calling 122, calling the insurance company, repairing the car, etc.?
 
-Answer: 
+Answer:
 
 ### Immediate Steps After a Car Accident in China
 
@@ -73,10 +73,10 @@ Answer:
 
 Stay calm, prioritize safety, and document everything.
 
-References:  
+References:
 
-- [https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm](https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm)  
-- [https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html](https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html)  
-- [https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China](https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China)  
-- [https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html](https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html)  
+- [https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm](https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm)
+- [https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html](https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html)
+- [https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China](https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China)
+- [https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html](https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html)
 - [https://www.autohome.com.cn/ask/2235566.html](https://www.autohome.com.cn/ask/2235566.html)

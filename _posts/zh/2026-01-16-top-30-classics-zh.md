@@ -49,7 +49,7 @@ Answer:
 
 这一选择优先考虑了在“最伟大的小说”综合榜单中排名最靠前的作品，并强调文学深度而非单纯的流行度或类型小说。排名本质上是主观的，但这些作品在专家和评论界来源中出现频率最高。
 
-References:  
+References:
 
 - [The Greatest Books of All Time](https://thegreatestbooks.org/)
 - [The Guardian: 100 greatest novels of all time](https://www.theguardian.com/books/2003/oct/12/features.fiction)

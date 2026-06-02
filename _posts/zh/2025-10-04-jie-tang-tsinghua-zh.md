@@ -47,10 +47,10 @@ type: note
 
 展望未来，唐杰正在招募专注AGI的博士后与研究生，预示着更多突破即将到来。在这场奔向超级智能的竞赛中，他不仅是参与者——更是加速者。
 
-[唐杰主页](https://keg.cs.tsinghua.edu.cn/jietang/)  
-[唐杰维基百科](https://en.wikipedia.org/wiki/Jie_Tang)  
-[唐杰谷歌学术](https://scholar.google.com/citations?user=n1zDCkQAAAAJ&hl=en)  
-[智谱AI崛起之路](https://rockrose.xyz/the-rise-of-zhipu-ai/)  
-[智谱AI融资与IPO进展](https://www.globalneighbours.org/chinas-zhipu-ai-secures-140-million-investment-from-shanghai-state-funds-amid-ipo-push/)  
-[GLM-4.5技术进展](https://offthegridxp.substack.com/p/glm-45-reasoning-coding-and-agentic)  
+[唐杰主页](https://keg.cs.tsinghua.edu.cn/jietang/)
+[唐杰维基百科](https://en.wikipedia.org/wiki/Jie_Tang)
+[唐杰谷歌学术](https://scholar.google.com/citations?user=n1zDCkQAAAAJ&hl=en)
+[智谱AI崛起之路](https://rockrose.xyz/the-rise-of-zhipu-ai/)
+[智谱AI融资与IPO进展](https://www.globalneighbours.org/chinas-zhipu-ai-secures-140-million-investment-from-shanghai-state-funds-amid-ipo-push/)
+[GLM-4.5技术进展](https://offthegridxp.substack.com/p/glm-45-reasoning-coding-and-agentic)
 [清华AI领导力](https://en.vnu.edu.vn/-post36625.html)

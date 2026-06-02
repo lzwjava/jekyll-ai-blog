@@ -12,7 +12,7 @@ type: note
 
 Question: What questions can we ask when learning something new, such as its history, unpopular ideas or facts about it, and an introduction to it?
 
-Answer: 
+Answer:
 
 When learning about a new topic, asking targeted questions helps deepen understanding, uncover nuances, and challenge assumptions. These can be grouped into categories like basics/introduction, history, unpopular/controversial aspects, applications, and critical thinking. Here are effective question types with examples (adapt "[topic]" to your subject, e.g., quantum physics or ancient Rome):
 
@@ -50,10 +50,10 @@ These promote analysis and reflection:
 
 Asking a mix of these turns passive reading into active learning, often leading to better retention and original insights.
 
-References:  
+References:
 
-- https://www.teachthought.com/critical-thinking/questions-students-can-ask/  
-- https://ctl.wustl.edu/resources/asking-questions-to-improve-learning/  
-- https://teaching.cornell.edu/teaching-resources/engaging-students/using-effective-questions-engage-students  
-- https://en.wikipedia.org/wiki/Socratic_questioning  
+- https://www.teachthought.com/critical-thinking/questions-students-can-ask/
+- https://ctl.wustl.edu/resources/asking-questions-to-improve-learning/
+- https://teaching.cornell.edu/teaching-resources/engaging-students/using-effective-questions-engage-students
+- https://en.wikipedia.org/wiki/Socratic_questioning
 - https://positivepsychology.com/socratic-questioning/

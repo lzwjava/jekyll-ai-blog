@@ -56,7 +56,7 @@ type: note
 
 以上推荐紧扣增城本地生活场景（快捷缴费）与大湾区流动需求（高效跨境）。建议从「穗好办」打理家居事务，用「湾事通OneStop」规划下次出行，您的三机协同系统将让切换更流畅。若需配合视觉实验（如弱光环境扫码），还可利用开发技能定制消息提醒。
 
-[超方便！广州水电燃气费可以用微信查询、缴纳了！](https://www.163.com/dy/article/CNP9SJO505149RNB.html)  
-[如何通过微信小程序缴纳电信宽带费用？](https://www.ikuandai.cn/68360.html)  
-[“湾事通OneStop”微信小程序上线！大湾区跨境吃、住、行、游“万事通”](http://auto.cyol.com/gb/articles/2023-12/12/content_4wO2QEhA9Z.html)  
+[超方便！广州水电燃气费可以用微信查询、缴纳了！](https://www.163.com/dy/article/CNP9SJO505149RNB.html)
+[如何通过微信小程序缴纳电信宽带费用？](https://www.ikuandai.cn/68360.html)
+[“湾事通OneStop”微信小程序上线！大湾区跨境吃、住、行、游“万事通”](http://auto.cyol.com/gb/articles/2023-12/12/content_4wO2QEhA9Z.html)
 [湾区智慧通小程序](https://www.lingnanpass.com/productinfo/784899.html)

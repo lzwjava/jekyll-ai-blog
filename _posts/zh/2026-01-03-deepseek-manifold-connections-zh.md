@@ -50,9 +50,9 @@ mHC 为 LLMs 引入了一个新的“缩放旋钮”：在不通过单纯增加�
 
 这项由 DeepSeek 创始人梁文锋共同署名的工作，标志着该公司继 DeepSeek-V3 和 R1 等突破后的持续创新。它可能成为即将推出的模型（可能是 V4 或 R2 变体）的基础。
 
-References:  
+References:
 
-- [arXiv: mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)  
-- [Hugging Face Paper Page](https://huggingface.co/papers/2512.24880)  
-- [South China Morning Post Article](https://www.scmp.com/tech/big-tech/article/3338427/deepseek-kicks-2026-paper-signalling-push-train-bigger-models-less)  
+- [arXiv: mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)
+- [Hugging Face Paper Page](https://huggingface.co/papers/2512.24880)
+- [South China Morning Post Article](https://www.scmp.com/tech/big-tech/article/3338427/deepseek-kicks-2026-paper-signalling-push-train-bigger-models-less)
 - [SiliconANGLE Coverage](https://siliconangle.com/2026/01/01/deepseek-develops-mhc-ai-architecture-boost-model-performance/)

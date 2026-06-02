@@ -12,9 +12,9 @@ type: note
 
 问题：在散文《吃饭》中，作者利用音乐和烹饪来阐述治理国家中“和而不同”的概念。这属于哪种联想方式？
 
-A. 时间联想 (Temporal association)  
-B. 对比联想 (Contrast association)  
-C. 空间联想 (Spatial association)  
+A. 时间联想 (Temporal association)
+B. 对比联想 (Contrast association)
+C. 空间联想 (Spatial association)
 D. 相似联想 (Similarity association)
 
 答案：

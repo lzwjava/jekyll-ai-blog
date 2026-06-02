@@ -19,7 +19,7 @@ This is a very common issue in containerized Maven builds (especially on Google 
 
 ### Most likely causes
 
-1. **The checks.xml file is missing in your repository**  
+1. **The checks.xml file is missing in your repository**
    You probably have something like this in your `pom.xml`:
 
    ```xml
@@ -45,12 +45,12 @@ This is a very common issue in containerized Maven builds (especially on Google 
 
    But the file `checks.xml` (or whatever name you use) is **not present** at the root of your project (or wherever the path expects it).
 
-2. **The path is absolute (/app/checks.xml) instead of relative**  
-   `/app/checks.xml` is an absolute path inside the container.  
-   Unless your Dockerfile explicitly copies a file to exactly `/app/checks.xml`, Maven will never find it.  
+2. **The path is absolute (/app/checks.xml) instead of relative**
+   `/app/checks.xml` is an absolute path inside the container.
+   Unless your Dockerfile explicitly copies a file to exactly `/app/checks.xml`, Maven will never find it.
    Cloud Build usually checks out your repo into `/workspace`, not `/app`.
 
-3. **The file is in .gitignore or not committed**  
+3. **The file is in .gitignore or not committed**
    If `checks.xml` exists only on your local machine but is ignored or not pushed, it won't be available in Cloud Build.
 
 ### Recommended fixes (choose one)

@@ -15,7 +15,7 @@ type: note
 In a big enterprise project like a bank's system with 20-30 microservices, Spring Boot is already a solid foundation due to its auto-configuration, embedded servers, and production-ready features. However, layering a custom framework on top makes sense for several strategic reasons, especially in regulated industries like banking where consistency, security, and scalability are non-negotiable. Here's why:
 
 - **Standardization Across Teams**: With multiple microservices, you'll have diverse teams working in parallel. A custom framework enforces architectural patterns (e.g., common DTOs, exception handling, validation rules) to avoid "N ways to do the same thing." This reduces bugs, speeds up reviews, and ensures compliance with banking regs like GDPR, PCI-DSS, or internal audit standards.
-  
+
 - **Reusability and Reduced Boilerplate**: Centralize shared components like authentication (OAuth2/JWT integration), logging (SLF4J with structured logs), monitoring (Micrometer/Prometheus), and tracing (Sleuth/ZIPkin). Instead of copying code into each service, teams pull from the framework, cutting development time by 20-30% in large setups.
 
 - **Enhanced Security and Governance**: Banks deal with sensitive data, so embed features like rate limiting, input sanitization, encryption at rest/transit, and audit trails. The framework can integrate with enterprise tools (e.g., Keycloak for auth, Vault for secrets) out-of-the-box, making it easier to pass security audits.

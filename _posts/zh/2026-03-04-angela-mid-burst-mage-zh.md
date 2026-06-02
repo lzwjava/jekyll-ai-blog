@@ -17,16 +17,16 @@ Angela（在《王者荣耀》中文版中也称为安琪拉）是 Honor of King
 
 ### 技能概览
 
-- **Passive: Flame Incantation**  
+- **Passive: Flame Incantation**
   每次技能命中敌人时，为 Angela 提供额外移动速度。被命中的敌人将受到后续技能的递增伤害（通过多段技能可叠加至 10 层）。优先用技能 1 多段命中快速叠满层数，以发挥爆发潜力。
 
-- **Skill 1: Scorching Barrage**（主要升级优先级）  
+- **Skill 1: Scorching Barrage**（主要升级优先级）
   向扇形区域发射多枚火球，对范围造成多段魔法伤害并施加燃烧层数。非常适合清兵、poke和叠加被动。CD：约 4-5 秒（较低，可 spam 施压）。
 
-- **Skill 2: Chaos Cinder**  
+- **Skill 2: Chaos Cinder**
   投掷火球，在命中或最大距离时爆炸成火风暴，减速敌人并眩晕直接命中的目标。关键控制技能——用于 gank、逃生或打断突进。飞行速度较慢，因此要预判敌人移动或从草丛伏击。
 
-- **Ultimate (Skill 3): Blazing Brilliance**  
+- **Ultimate (Skill 3): Blazing Brilliance**
   引导一道远程光束，对直线范围造成重复伤害（最多 12 段）。引导期间获得护盾和 CC 免疫。高爆发；小心站位，因为会定身。Flash + 大招用于开团/脱离。
 
 **技能升级顺序**：1 > 2 > 3（先满 1 用于 poke/清兵，然后 2 用于控制；6/12 级必点大招）。
@@ -48,10 +48,10 @@ Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后�
 
 **完整出装顺序**：Boots > Reverberation > Savant's > Tome > Void > Wisdom。后期纯伤害可卖靴子换 Ice Pulse Staff。
 
-**Arcana (Runes/Mingwen)**：  
-- Nightmare x10（魔法强度/穿透）  
-- Mind's Eye x10（攻击速度用于被动触发）  
-- Hunter/Avarice x10（移动速度/金币）。  
+**Arcana (Runes/Mingwen)**：
+- Nightmare x10（魔法强度/穿透）
+- Mind's Eye x10（攻击速度用于被动触发）
+- Hunter/Avarice x10（移动速度/金币）。
 备选：10 Dream Witch、10 Heart Eye、10 Hunt 用于纯爆发。
 
 ### 连招（成功关键）
@@ -64,31 +64,31 @@ Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后�
 专业提示：技能 2 飞行慢——草丛伏击或预判。绝不先放大招而不中 2。
 
 ### 玩法与提示
-1. **对线期（前期）**：  
-   - 用 1 快速清兵，1-1 poke。4 级后跟打野游走（2 眩晕设置击杀）。  
+1. **对线期（前期）**：
+   - 用 1 快速清兵，1-1 poke。4 级后跟打野游走（2 眩晕设置击杀）。
    - 目标：先到 4 级，压制边路。
 
-2. **中前期（Gank/游走）**：  
-   - 跟随打野/刺客。2 > 1 > 3 秒杀后排。草丛蹲伏击。  
+2. **中前期（Gank/游走）**：
+   - 跟随打野/刺客。2 > 1 > 3 秒杀后排。草丛蹲伏击。
    - 目标控制：大招安全 poke 塔下或野区。
 
-3. **后期（团战）**：  
-   - 后排站位：2 反切入 > 1 poke > 3 针对敌方簇拥。  
+3. **后期（团战）**：
+   - 后排站位：2 反切入 > 1 poke > 3 针对敌方簇拥。
    - 搭配：与 Li Xin 或 Donghuang 等突进英雄配对（你的 2 眩晕接入他们大招）。
 
-4. **克制与弱点**：  
-   - 强于：脆皮、无位移法师。  
-   - 弱于：爆发刺客（例如打断你 2 的突进）、重 CC。出防御六神。  
+4. **克制与弱点**：
+   - 强于：脆皮、无位移法师。
+   - 弱于：爆发刺客（例如打断你 2 的突进）、重 CC。出防御六神。
    - Ban：若领先则禁高机动突进。
 
-5. **通用提示**：  
-   - 叠被动 = 赢对线。  
-   - 插眼草丛——你的 2 在无视野中大放异彩。  
+5. **通用提示**：
+   - 叠被动 = 赢对线。
+   - 插眼草丛——你的 2 在无视野中大放异彩。
    - 自定义模式练习大招预判。2 命中率高，胜率提升 10-15%。
 
 掌握这些，Angela 从黄金轻松上大师——技能简单，回报巨大。
 
-参考资料：  
+参考资料：
 - [Honor of Kings Wiki - Angela](https://honor-of-kings.fandom.com/wiki/Angela)
 - [Best Angela Builds - BlueStacks](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-angela-builds-guide-en.html)
 - [Angela Build Guide - LapakGaming](https://www.lapakgaming.com/blog/en-my/angela-build-and-items-honor-of-kings)

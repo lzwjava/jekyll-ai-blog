@@ -12,7 +12,7 @@ type: note
 
 Question: What does the PDF "pysonar-slides.pdf" say?
 
-Answer: 
+Answer:
 
 The PDF "pysonar-slides.pdf" appears to be a presentation slide deck titled "Static Analysis of Dynamically Typed Languages made Easy" by Yin Wang from the School of Informatics and Computing at Indiana University. It discusses challenges and solutions for performing static analysis on dynamically typed languages like Python, based on the author's internships at Google in 2009 and 2010. The work was motivated by Google's Grok Project, which aimed to statically analyze all code at Google (including C++, Java, JavaScript, Python, Sawzall, and Protobuf). The initial goal was to enable IDE-like code browsing, but it proved difficult for Python, leading to more advanced semantic analysis.
 

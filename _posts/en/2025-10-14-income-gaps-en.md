@@ -24,7 +24,7 @@ In short, one HK high-earner's year *does* roughly equal 25–30 years for a Gua
 #### Why Does the World Work Like This? The Big Picture
 Global income gaps like this aren't accidents—they're baked into how economies, history, and power structures evolve. Here's a simplified breakdown:
 
-1. **Productivity and Value Creation**: 
+1. **Productivity and Value Creation**:
    - In HK, jobs revolve around high-value stuff: international banking, logistics, legal services, and tech innovation. A single finance deal can generate millions in value, so salaries reflect that (it's called "marginal productivity"). Workers there leverage global networks, English skills, and advanced education to capture a slice of worldwide wealth.
    - In mainland factories (like Guangzhou's electronics or apparel hubs), it's mass production for export—lower margins, repetitive labor, and competition from automation/Vietnam/India. A worker's output might add "only" 100–200 RMB/day in value, so pay stays low. It's efficient for companies, but squeezes workers.
 

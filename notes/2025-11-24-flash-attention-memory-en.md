@@ -81,5 +81,5 @@ Karpathy calls it a "game-changer" for practical LLM training: attention is ~50%
 
 For the full context, watch from [2:58:00](https://www.youtube.com/watch?v=l8pRSuU81PU&t=10700s).
 
-**Reference**:  
+**Reference**:
 - [FlashAttention Paper: Fast and Memory-Efficient Exact Attention with IO-Awareness (Dao et al., 2022)](https://arxiv.org/abs/2205.14135)

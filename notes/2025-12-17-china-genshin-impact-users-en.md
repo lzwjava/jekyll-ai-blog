@@ -12,7 +12,7 @@ type: note
 
 Question: For Genshin Impact, which region has the most users?
 
-Answer: 
+Answer:
 China has the most users for Genshin Impact by a significant margin. The game operates separate servers for Mainland China (CN servers) and international regions (Americas, Europe, Asia, and Taiwan/Hong Kong/Macao). According to official demographics from the 2025 Shanghai Top Anime IP Selection, Genshin Impact has over 300 million total players worldwide, with **50% in China (approximately 150 million) and 50% overseas**. This split is corroborated across multiple sources tracking downloads, active users, and revenue.
 
 ### Key Evidence:
@@ -25,7 +25,7 @@ While Southeast Asian countries like the Philippines show the highest *relative 
 
 **Note**: Player counts combine registered users, monthly actives (15-65 million globally depending on source/month), and downloads. CN data is from separate apps/stores, explaining why global trackers sometimes underrepresent it.
 
-References:  
+References:
 - [ActivePlayer.io Genshin Impact Stats](https://activeplayer.io/genshin-impact/)
 - [IconEra Player Count & Server Stats](https://icon-era.com/blog/genshin-impact-live-player-count-and-statistics.135/)
 - [Statista Downloads by Country](https://www.statista.com/statistics/1329253/genshin-impact-downloads-region-markets/)

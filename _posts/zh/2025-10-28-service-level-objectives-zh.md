@@ -30,6 +30,6 @@ type: note
 
 SLO有助于在共享环境中平衡吞吐量与延迟，防止流量突发时出现违规。
 
-扩展阅读：  
-[SRE手册：服务等级目标](https://sre.google/sre-book/service-level-objectives/)  
+扩展阅读：
+[SRE手册：服务等级目标](https://sre.google/sre-book/service-level-objectives/)
 [SLOs-Serve论文](https://arxiv.org/abs/2504.08784)

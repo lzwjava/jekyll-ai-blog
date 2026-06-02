@@ -53,7 +53,7 @@ node {
     try {
         // Call a function from the shared library (assuming it exists)
         myLibraryFunction()
-        
+
         // Use an if statement based on the string parameter
         if (params.MY_STRING == 'test') {
             echo "Running test"

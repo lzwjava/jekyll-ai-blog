@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-To answer your question directly: training a model like DeepSeek-V2 (and its successor V3) takes about **two months** of continuous compute time. 
+To answer your question directly: training a model like DeepSeek-V2 (and its successor V3) takes about **two months** of continuous compute time.
 
 Because DeepSeek uses a relatively small but highly optimized cluster of GPUs, they don't need a year-long training cycle. Here is the specific breakdown of how that time is used:
 

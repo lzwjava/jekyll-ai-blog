@@ -110,12 +110,12 @@ class UnionFind:
     def __init__(self, n):
         self.p = [-1] * n
         self.rank = [0] * n
-    
+
     def find(self, i):
         if self.p[i] != -1 and self.p[i] != i:  # Handles sentinel + self-parent
             self.p[i] = self.find(self.p[i])  # Path compression
         return self.p[i] if self.p[i] != -1 else i
-    
+
     def union(self, x, y):
         px, py = self.find(x), self.find(y)
         if px != py:

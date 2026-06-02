@@ -23,14 +23,14 @@ Staff courtesy? Haneda's ground crew has long been a highlight in reviews—effi
 
 As for the noodles: Spot-on at ~1,000 yen. Airport ramen spots like Ramen Setagaya or Rokurinsha were dishing out solid tonkotsu or shoyu bowls for 800-1,200 yen then—decent portions with toppings, nothing fancy but way better than sad lounge pretzels. Prices have crept up since (hello, inflation and tourist boom), but your recall nails the value-for-money vibe of that era.
 
-In analysis, your story captures Haneda's sweet spot: It's compact, hyper-efficient, and human-centered, which shines during disruptions. That combo helped it climb airport rankings fast post-2010 expansions, turning potential nightmares into "hey, not bad" tales. If anything, it might even undersell how consistently it's held that rep—it's still topping cleanest-airport lists today. Got any other fuzzy details from the trip, like which airline or terminal? I'd love to dig deeper. 
+In analysis, your story captures Haneda's sweet spot: It's compact, hyper-efficient, and human-centered, which shines during disruptions. That combo helped it climb airport rankings fast post-2010 expansions, turning potential nightmares into "hey, not bad" tales. If anything, it might even undersell how consistently it's held that rep—it's still topping cleanest-airport lists today. Got any other fuzzy details from the trip, like which airline or terminal? I'd love to dig deeper.
 
-**References:**  
-[A Comparative Analysis of Cleanliness at Tokyo Airports](https://tokyo-airports.com/2025/08/10/a-comparative-analysis-of-cleanliness-at-tokyo-airports-how-do-they-measure-up/)  
-[Tokyo Haneda World's Cleanest Airport | SKYTRAX](https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/)  
-[Tokyo International Airport Haneda Awarded First Place in Three Categories](https://www.tokyo-airport-bldg.co.jp/files/en/ir/190328_en.pdf)  
-[Regarding expenses incurred due to flight delays or cancellations - JAL](https://www.jal.co.jp/jp/en/inter/change/expenses/)  
-[Flight Delays and Cancellations | ANA](https://www.ana.co.jp/en/us/travel-information/cancellation-and-delays/)  
-[Efficient, Polite and Delicate - Review of Tokyo International Airport](https://www.tripadvisor.com/ShowUserReviews-g1066454-d3747565-r339789203-Tokyo_International_Airport_Haneda_Terminal_1_Observation_Deck-Ota_Tokyo_Tokyo_Prefecture_Kanto_.html)  
-[RAMEN SETAGAYA HANEDA AIRPORT Reviews](https://www.tripadvisor.com/Restaurant_Review-g1066454-d3758838-Reviews-Ramen_Setagaya_Haneda_Airport-Ota_Tokyo_Tokyo_Prefecture_Kanto.html)  
+**References:**
+[A Comparative Analysis of Cleanliness at Tokyo Airports](https://tokyo-airports.com/2025/08/10/a-comparative-analysis-of-cleanliness-at-tokyo-airports-how-do-they-measure-up/)
+[Tokyo Haneda World's Cleanest Airport | SKYTRAX](https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/)
+[Tokyo International Airport Haneda Awarded First Place in Three Categories](https://www.tokyo-airport-bldg.co.jp/files/en/ir/190328_en.pdf)
+[Regarding expenses incurred due to flight delays or cancellations - JAL](https://www.jal.co.jp/jp/en/inter/change/expenses/)
+[Flight Delays and Cancellations | ANA](https://www.ana.co.jp/en/us/travel-information/cancellation-and-delays/)
+[Efficient, Polite and Delicate - Review of Tokyo International Airport](https://www.tripadvisor.com/ShowUserReviews-g1066454-d3747565-r339789203-Tokyo_International_Airport_Haneda_Terminal_1_Observation_Deck-Ota_Tokyo_Tokyo_Prefecture_Kanto_.html)
+[RAMEN SETAGAYA HANEDA AIRPORT Reviews](https://www.tripadvisor.com/Restaurant_Review-g1066454-d3758838-Reviews-Ramen_Setagaya_Haneda_Airport-Ota_Tokyo_Tokyo_Prefecture_Kanto.html)
 [Shinatatsu Ramen - JC's Food Reviews](https://jcfoodreviews.blogspot.com/2016/10/shinatatsu-ramen.html)

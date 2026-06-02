@@ -89,5 +89,5 @@ If using MDBs to consume from the queue, configure activation specs.
 
 For advanced configurations (e.g., security, clustering), refer to IBM documentation.
 
-[Configuring IBM WebSphere Application Server for Decision Server](https://docs.redhat.com/en/documentation/red_hat_decision_manager/7.4/html/installing_and_configuring_decision_server_on_ibm_websphere_application_server/was-configure-proc)  
+[Configuring IBM WebSphere Application Server for Decision Server](https://docs.redhat.com/en/documentation/red_hat_decision_manager/7.4/html/installing_and_configuring_decision_server_on_ibm_websphere_application_server/was-configure-proc)
 [Managing messaging with the default messaging provider](https://www.ibm.com/docs/en/was/9.0.5?topic=resources-managing-messaging-default-messaging-provider)

@@ -85,7 +85,7 @@ leaks <PID>
 
 ## 常用选项
 
-## 
+##
 
 | Option | Description |
 |---|---|
@@ -144,7 +144,7 @@ leaks /tmp/myapp.memgraph
 
 ## 环境变量
 
-## 
+##
 
 | Variable | Effect |
 |---|---|

@@ -93,7 +93,7 @@ def process_audio_files(input_dir, output_dir):
             # 构建GCS URI
             gcs_audio_uri = f"gs://test2x/audio-files/{filename}"  # 替换为你的存储桶和文件夹
             gcs_output_uri = f"gs://test2x/transcripts/{os.path.splitext(filename)[0]}" # 替换为你的存储桶和文件夹
-            
+
             # 如果文件不存在，则上传到GCS
             # 这部分未实现，你需要添加代码将文件上传到GCS
             # 例如，使用google-cloud-storage库
@@ -118,9 +118,9 @@ def process_audio_files(input_dir, output_dir):
 
             # 下载转录结果
             output_gcs_uri_json = f"{gcs_output_uri}/{os.path.splitext(filename)[0]}_transcript_*.json"
-            
+
             blobs = storage_client.list_blobs("test2x", prefix=f"transcripts/{os.path.splitext(filename)[0]}")
-            
+
             for blob in blobs:
                 if blob.name.endswith(".json"):
                     local_output_path = os.path.join(output_dir, os.path.basename(blob.name))
@@ -218,7 +218,7 @@ if __name__ == "__main__":
                             "endOffset": "10.300s",
                             "word": "the",
                             "confidence": 0.99904335
-                        }                        
+                        }
                     ]
                 }
             ],

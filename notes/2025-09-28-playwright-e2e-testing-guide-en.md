@@ -98,11 +98,11 @@ import { test, expect } from '@playwright/test';
 test('basic test example', async ({ page }) => {
   // Navigate to page
   await page.goto('https://example.com');
-  
+
   // Interact with elements
   await page.click('button');
   await page.fill('input[name="username"]', 'testuser');
-  
+
   // Assertions
   await expect(page.locator('h1')).toHaveText('Welcome');
   await expect(page).toHaveURL(/dashboard/);
@@ -190,7 +190,7 @@ test('API testing', async ({ request }) => {
       email: 'john@example.com'
     }
   });
-  
+
   expect(response.ok()).toBeTruthy();
   const userData = await response.json();
   expect(userData.name).toBe('John Doe');
@@ -205,7 +205,7 @@ test('mock API responses', async ({ page }) => {
     const json = [{ id: 1, name: 'Mock User' }];
     await route.fulfill({ json });
   });
-  
+
   await page.goto('/users');
   await expect(page.locator('.user-name')).toHaveText('Mock User');
 });
@@ -215,10 +215,10 @@ test('mock API responses', async ({ page }) => {
 ```javascript
 test('visual comparison', async ({ page }) => {
   await page.goto('/dashboard');
-  
+
   // Full page screenshot
   await expect(page).toHaveScreenshot('dashboard.png');
-  
+
   // Element screenshot
   await expect(page.locator('.header')).toHaveScreenshot('header.png');
 });
@@ -263,9 +263,9 @@ export const test = base.extend({
     await page.fill('[name="password"]', 'password');
     await page.click('button[type="submit"]');
     await page.waitForURL('/dashboard');
-    
+
     await use(page);
-    
+
     // Cleanup after test
     await page.goto('/logout');
   },
@@ -406,15 +406,15 @@ const { Builder, By, until } = require('selenium-webdriver');
 
 describe('login flow', () => {
   let driver;
-  
+
   beforeEach(async () => {
     driver = await new Builder().forBrowser('chrome').build();
   });
-  
+
   afterEach(async () => {
     await driver.quit();
   });
-  
+
   it('should login successfully', async () => {
     await driver.get('http://localhost:3000/login');
     await driver.findElement(By.name('email')).sendKeys('user@example.com');

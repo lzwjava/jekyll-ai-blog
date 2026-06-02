@@ -56,5 +56,5 @@ The Philippines is *famous* for having some of the most beautiful beaches in the
 
 ---
 
-Each beach has a slightly different character — some are lively and festive, others feel like private paradises.  
+Each beach has a slightly different character — some are lively and festive, others feel like private paradises.
 Would you like me to suggest the best ones based on what you like (ex: party, relaxing, snorkeling, romantic)? 🌞🌊

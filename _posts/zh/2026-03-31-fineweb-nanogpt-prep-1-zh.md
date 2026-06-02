@@ -73,7 +73,7 @@ print(f"Done. Total docs: {total_docs}")
 python download_fineweb.py
 ```
 
-> ✅ `sample-10BT` = 约 10B tokens，足以匹配 GPT-2 的训练规模  
+> ✅ `sample-10BT` = 约 10B tokens，足以匹配 GPT-2 的训练规模
 > ✅ Streaming 意味着你永远不会将整个数据集加载到 RAM 中
 
 ---

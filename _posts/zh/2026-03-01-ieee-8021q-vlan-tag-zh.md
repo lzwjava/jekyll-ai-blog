@@ -19,16 +19,16 @@ type: note
 
 VLAN Tag 的结构如下：
 
-- **TPID** (Tag Protocol Identifier)：2 bytes，固定值 0x8100  
-- **TCI** (Tag Control Information)：2 bytes，其中包含：  
-  - Priority Code Point (PCP)：3 bits  
-  - Drop Eligible Indicator (DEI)：1 bit（前身为 CFI）  
+- **TPID** (Tag Protocol Identifier)：2 bytes，固定值 0x8100
+- **TCI** (Tag Control Information)：2 bytes，其中包含：
+  - Priority Code Point (PCP)：3 bits
+  - Drop Eligible Indicator (DEI)：1 bit（前身为 CFI）
   - VLAN Identifier (VID)：12 bits（实际 VLAN 编号，0–4095）
 
 这个 4-byte VLAN Tag field 使得交换机能够在同一物理链路（trunk link）上区分并分离来自不同 VLAN 的流量。
 
 因此，用于指示发送 host 所属 VLAN 的 4-byte field 称为 **VLAN Tag**（或中文中的 VLAN 标记 / Tag）。
 
-**参考文献**：  
+**参考文献**：
 
 - 无（基于 IEEE 802.1Q 规范的标准网络知识）

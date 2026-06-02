@@ -11,7 +11,7 @@ type: note
 
 Question: What is an introduction to Corporate and Institutional Banking (CIB) at Standard Chartered Bank?
 
-Answer: 
+Answer:
 
 **Corporate and Institutional Banking (CIB)** at **Standard Chartered Bank** is the bank's core wholesale banking division, focused on serving large-scale corporate clients, financial institutions, governments, development organizations, and investors.
 
@@ -35,7 +35,7 @@ In recent years (around 2024–2025), the bank reorganized and renamed parts of 
 
 This division differentiates Standard Chartered from many universal banks by concentrating on emerging and high-growth markets rather than broad domestic retail dominance in Western markets.
 
-References:  
+References:
 
 - [Corporate & Investment Banking | Standard Chartered](https://www.sc.com/en/corporate-investment-banking)
 - [Standard Chartered Investor Overview – February 2026](https://www.sc.com/en/uploads/sites/66/content/docs/standard-chartered-investor-overview-february-2026.pdf)

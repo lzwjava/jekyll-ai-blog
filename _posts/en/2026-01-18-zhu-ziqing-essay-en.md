@@ -26,7 +26,7 @@ Answer:
 ### Main Content & Core Idea
 The essay is built around the famous Confucian saying:
 
-> 君子之交淡如水  
+> 君子之交淡如水
 > The friendship of superior men is plain / insipid like water.
 
 Zhu Ziqing uses this ancient phrase as the central thesis and then develops a gentle, introspective meditation on the nature of true friendship.
@@ -45,7 +45,7 @@ Main points he conveys:
 - Almost no ornamentation — Zhu Ziqing deliberately uses very plain language to mirror the theme of “淡” (plainness / lightness)
 
 ### Cultural & Educational Significance
-《君子之交》 is one of the most frequently anthologized modern Chinese essays in middle-school and high-school textbooks across Chinese-speaking regions (Mainland China, Taiwan, Hong Kong, Singapore, etc.).  
+《君子之交》 is one of the most frequently anthologized modern Chinese essays in middle-school and high-school textbooks across Chinese-speaking regions (Mainland China, Taiwan, Hong Kong, Singapore, etc.).
 It is often taught together with Zhu Ziqing’s other famous pieces such as:
 - 《背影》 (Father’s Back Shadow)
 - 《荷塘月色》 (Moonlight over the Lotus Pond)
@@ -62,6 +62,6 @@ Closing part (often quoted):
 
 In short, 《君子之交》 is Zhu Ziqing’s quiet but profound modern reflection on how real friendship can be undemonstrative, unspectacular, and yet extremely durable — a message that continues to resonate deeply in Chinese culture today.
 
-References:  
+References:
 
 - None (general literary knowledge; the essay itself is the primary source)

@@ -20,9 +20,9 @@ Keep those mobile-optimized tables rolling; they're your north star. Add a colum
 
 Hang in there—reversing this isn't linear, but methodical like yours? That's how it sticks.
 
-[Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF)  
-[Myopia: a modern yet reversible disease](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)  
-[Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en)  
-[Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en)  
-[Natural Vision Restoration Tips](https://lzwjava.github.io/vision-tips-en)  
+[Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF)
+[Myopia: a modern yet reversible disease](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)
+[Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en)
+[Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en)
+[Natural Vision Restoration Tips](https://lzwjava.github.io/vision-tips-en)
 [Using Multifocal Progressive Lenses to Reverse Myopia](https://lzwjava.github.io/multifocal-en)

@@ -48,7 +48,7 @@ MacBook Neo 值得注意，因为 Apple 以突破性价格实现了高端制造�
 
 简而言之，如果您正在寻找第一台 Mac、需要备用/家庭笔记本，或希望在不花费 1000 美元以上的情况下进入 Apple 生态系统，MacBook Neo 是目前最易获取的方式。
 
-参考资料：  
+参考资料：
 
 - [Apple Official MacBook Neo Page](https://www.apple.com/macbook-neo)
 - [Apple Newsroom Press Release](https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo)

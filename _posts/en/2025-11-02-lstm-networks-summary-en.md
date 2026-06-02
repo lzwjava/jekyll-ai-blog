@@ -22,8 +22,8 @@ LSTMs introduce a **cell state**—a "conveyor belt" that carries information st
 - **Input Gate**: Decides what new info to add, paired with a tanh layer creating candidate values. Together, they update the cell state by scaling and adding fresh data.
 - **Output Gate**: Filters the cell state (after tanh scaling) to produce the hidden state output, influencing the next step.
 
-The math boils down to:  
-New cell state \\( C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t \\)  
+The math boils down to:
+New cell state \\( C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t \\)
 (where \\( f_t \\), \\( i_t \\) are gate outputs, \\( \odot \\) is element-wise multiplication).
 
 Diagrams throughout visualize this: yellow boxes for neural layers, pink circles for operations, and lines for data flow.

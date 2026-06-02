@@ -19,7 +19,7 @@ Codex CLI（来自 OpenAI）是一款基于终端的编程助手，支持通过�
 #### 第一步：获取您的 OpenRouter API 密钥
 - 如果您尚未注册，请在 [openrouter.ai](https://openrouter.ai) 上注册。
 - 从您的账户仪表板生成一个 API 密钥。
-- 将其设置为环境变量：  
+- 将其设置为环境变量：
   ```
   export OPENROUTER_API_KEY=您的 API 密钥
   ```
@@ -49,11 +49,11 @@ model = "openai/gpt-4o-mini"  # 替换为任何 OpenRouter 模型 ID，例如 "a
 
 #### 第三步：使用配置
 - 如果需要，安装 Codex CLI：`npm install -g @openai/codex`（或通过 Homebrew：`brew install codex`）。
-- 使用您的配置文件运行 Codex：  
+- 使用您的配置文件运行 Codex：
   ```
   codex --profile openrouter-gpt
   ```
-  或在配置中设置默认配置文件：  
+  或在配置中设置默认配置文件：
   ```toml
   [default_profile]
   name = "openrouter-gpt"

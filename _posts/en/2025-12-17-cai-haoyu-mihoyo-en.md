@@ -12,7 +12,7 @@ type: note
 
 Question: What is the story of Cai Haoyu, co-founder of Genshin Impact's developer miHoYo?
 
-Answer: 
+Answer:
 Cai Haoyu (蔡浩宇, born July 29, 1987), often called "Hugh Tsai," is a Chinese entrepreneur, video game producer, and AI innovator. He is one of the three co-founders of Shanghai-based miHoYo (rebranded internationally as HoYoverse), creators of massive hits like *Genshin Impact*, *Honkai Impact 3rd*, and *Honkai: Star Rail*. As of late 2025, his net worth is estimated at around $6-10 billion, making him one of China's richest individuals and the "richest man in Jinan."
 
 ### Early Life and Genius Beginnings
@@ -26,7 +26,7 @@ Born in Jinan, Shandong, to parents who taught computer science, Cai showed prod
 A lifelong ACG (anime, comics, games) otaku and *Evangelion* fan, he self-identified as a "tech otaku."
 
 ### Founding miHoYo: From Dorm Room to Global Empire
-In 2011, during grad school at SJTU, Cai teamed with classmates Liu Wei ("Da Wei") and Luo Yuhao—sharing tech skills and ACG passion—to start miHoYo in their Minhang campus dorm (D32). 
+In 2011, during grad school at SJTU, Cai teamed with classmates Liu Wei ("Da Wei") and Luo Yuhao—sharing tech skills and ACG passion—to start miHoYo in their Minhang campus dorm (D32).
 - Company name: "mi" (mobile internet) + "HoYo" (from their initials H + Y, with extra "o"s mimicking Google/Facebook).
 - Slogan: "Tech Otakus Save the World."
 - Early wins: Developed *Fly Me 2 the Moon* (iOS tower defense, 2011); self-built MISATO engine (named after *Evangelion*'s Misato); *Boshi Monogatari* won contests, netting prizes and offers (declined to go indie).
@@ -48,11 +48,11 @@ In September 2023, Cai resigned as miHoYo chairman/legal rep (Liu succeeded), ci
 
 As of December 2025, Cai's "back" innovating AI-interactive media, blending his otaku roots with tech ambition. miHoYo thrives under Liu, but Cai's vision drives next-gen gaming.
 
-References:  
-- [miHoYo Founding Journey (Naavik)](https://naavik.co/digest/mihoyos-founding-journey/)  
-- [Cai Haoyu Profile (Forbes)](https://www.forbes.com/profile/cai-haoyu/)  
-- [Cai Haoyu Wiki (MiHoYo Fandom)](https://mihoyo.fandom.com/wiki/Cai_Haoyu)  
-- [miHoYo History (Zhihu)](https://zhuanlan.zhihu.com/p/607910057)  
-- [Recent AI Ventures (KR-Asia)](https://kr-asia.com/mihoyos-ceo-is-back-with-a-new-game-and-its-nothing-like-genshin-impact)  
-- [Stepping Down (Wikipedia)](https://en.wikipedia.org/wiki/Cai_Haoyu)  
+References:
+- [miHoYo Founding Journey (Naavik)](https://naavik.co/digest/mihoyos-founding-journey/)
+- [Cai Haoyu Profile (Forbes)](https://www.forbes.com/profile/cai-haoyu/)
+- [Cai Haoyu Wiki (MiHoYo Fandom)](https://mihoyo.fandom.com/wiki/Cai_Haoyu)
+- [miHoYo History (Zhihu)](https://zhuanlan.zhihu.com/p/607910057)
+- [Recent AI Ventures (KR-Asia)](https://kr-asia.com/mihoyos-ceo-is-back-with-a-new-game-and-its-nothing-like-genshin-impact)
+- [Stepping Down (Wikipedia)](https://en.wikipedia.org/wiki/Cai_Haoyu)
 - [Anuttacon Game (Bloomberg)](https://www.bloomberg.com/news/articles/2025-05-09/-genshin-impact-creator-dives-into-ai-for-growth-beyond-games)

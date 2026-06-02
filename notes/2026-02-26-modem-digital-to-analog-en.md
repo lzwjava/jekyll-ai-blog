@@ -11,7 +11,7 @@ type: note
 
 Question: What does a modem (MODEM) primarily convert between digital data and ___?
 
-Answer: 
+Answer:
 
 A modem (modulator-demodulator) primarily converts between **digital data** and **analog signals**.
 
@@ -24,6 +24,6 @@ The reference answer "模拟信号（或模拟数据）" is also acceptable, but
 
 **Final recommended fill-in**: 模拟信号
 
-References:  
+References:
 
 - None (standard telecommunications knowledge)

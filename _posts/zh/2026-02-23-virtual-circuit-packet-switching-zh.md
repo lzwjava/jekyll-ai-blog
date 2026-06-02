@@ -11,7 +11,7 @@ type: note
 
 Question: Packet switching 可以分为两种类型：datagram packet switching 和 ______ packet switching。
 
-Answer: 
+Answer:
 
 Packet switching 是一种将数据分组为 packets 并通过数字网络传输的方法。它主要根据连接管理方式分为两种不同的方法：
 
@@ -21,7 +21,7 @@ Packet switching 是一种将数据分组为 packets 并通过数字网络传输
 
 因此，缺失的术语是 **virtual circuit**。
 
-References:  
+References:
 
 - [Virtual Circuit vs. Datagram - GeeksforGeeks](https://www.geeksforgeeks.org/virtual-circuit-vs-datagram/)
 - [Packet Switching - Wikipedia](https://en.wikipedia.org/wiki/Packet_switching)

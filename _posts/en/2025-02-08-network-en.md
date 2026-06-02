@@ -184,7 +184,7 @@ def scan_network(network, port=None):
 
     for thread in threads:
         thread.join()
-    
+
     return up_ips
 
 if __name__ == "__main__":
@@ -230,17 +230,17 @@ But it doesn't work when using `192.168.1.0/28`, because 2^4 = 16, so it will tr
 
 ## SSH connection using IPv6 address
 
-I'm trying to connect to a machine in Hetzner Cloud using IPv6. `ssh 2a01:4f8:c17:2000::/64` doesn't work, but `ssh root@2a01:4f8:c17:2000::1` does. 
+I'm trying to connect to a machine in Hetzner Cloud using IPv6. `ssh 2a01:4f8:c17:2000::/64` doesn't work, but `ssh root@2a01:4f8:c17:2000::1` does.
 
 The IPv6 address was copied from the Hetzner Cloud console.
 
-The `~/.ssh/config` file can be configured to apply different proxy rules for IPv4 and IPv6 addresses. This setup allows you to specify a proxy command for IPv4 addresses while handling IPv6 addresses differently. 
+The `~/.ssh/config` file can be configured to apply different proxy rules for IPv4 and IPv6 addresses. This setup allows you to specify a proxy command for IPv4 addresses while handling IPv6 addresses differently.
 
 ```bash
 Host 192.168.1.*
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa 
+    IdentityFile ~/.ssh/id_rsa
 Host *.*.*.*
     UseKeychain yes
     AddKeysToAgent yes
@@ -249,7 +249,7 @@ Host *.*.*.*
 Host *
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa   
+    IdentityFile ~/.ssh/id_rsa
 ```
 
 When running `ssh root@192.168.1.3`, the following output shows the SSH client applying configuration options from the `~/.ssh/config` file:
@@ -278,12 +278,12 @@ The SSH connection speed was noticeably slow, so I reverted to the following sim
 Host 192.168.1.*
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa 
+    IdentityFile ~/.ssh/id_rsa
 Host *
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa  
-    ProxyCommand corkscrew localhost 7890 %h %p 
+    IdentityFile ~/.ssh/id_rsa
+    ProxyCommand corkscrew localhost 7890 %h %p
 ```
 
 The issue arises when using IPv6 addresses with the `ProxyCommand corkscrew localhost 7890 %h %p` directive, as this proxy command may not handle IPv6 addresses correctly.
@@ -294,16 +294,16 @@ The configuration above is still not working. However, the one below is fine.
 Host 192.168.1.*
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa 
+    IdentityFile ~/.ssh/id_rsa
 Host !192.*.*.*
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa  
-    ProxyCommand corkscrew localhost 7890 %h %p 
+    IdentityFile ~/.ssh/id_rsa
+    ProxyCommand corkscrew localhost 7890 %h %p
 Host *
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa  
+    IdentityFile ~/.ssh/id_rsa
 ```
 
 ---

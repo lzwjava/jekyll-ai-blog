@@ -66,7 +66,7 @@ which pod
 
 ---
 
-✅ 推荐方案（简单稳定）：直接运行  
+✅ 推荐方案（简单稳定）：直接运行
 ```bash
 brew install cocoapods
 ```

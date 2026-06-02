@@ -27,34 +27,34 @@ Below are **50 representative sample questions** compiled in the typical style a
 
 **Multiple Choice / Single Selection (单选题) – 1 point each (approx. 20-30% of exam)**
 
-1. In Python, which of the following is an immutable data type?  
+1. In Python, which of the following is an immutable data type?
    A. list   B. dict   C. tuple   D. set
 
-2. What is the output of `print(3 ** 2 // 4)`?  
+2. What is the output of `print(3 ** 2 // 4)`?
    A. 2   B. 2.25   C. 9   D. 1
 
-3. Which statement is used to define a function in Python?  
+3. Which statement is used to define a function in Python?
    A. function   B. def   C. func   D. define
 
-4. In object-oriented programming, what does "inheritance" allow?  
+4. In object-oriented programming, what does "inheritance" allow?
    A. Code duplication   B. A class to inherit attributes and methods from another class   C. Data hiding only   D. Multiple return values
 
-5. Which module is commonly used for regular expressions in Python?  
+5. Which module is commonly used for regular expressions in Python?
    A. os   B. sys   C. re   D. math
 
-6. What does the `with` statement primarily handle?  
+6. What does the `with` statement primarily handle?
    A. Loops   B. Exception handling   C. Resource management (e.g., file closing)   D. Function definition
 
-7. Which of the following creates a list comprehension?  
+7. Which of the following creates a list comprehension?
    A. [x for x in range(5)]   B. {x for x in range(5)}   C. (x for x in range(5))   D. {x: x for x in range(5)}
 
-8. In Python 3, what is the type of `input()` return value?  
+8. In Python 3, what is the type of `input()` return value?
    A. int   B. str   C. float   D. list
 
-9. Which keyword is used to raise an exception manually?  
+9. Which keyword is used to raise an exception manually?
    A. throw   B. raise   C. except   D. try
 
-10. What is the purpose of `__init__` method in a class?  
+10. What is the purpose of `__init__` method in a class?
     A. Destructor   B. Constructor   C. Static method   D. Class variable
 
 **True/False (判断题) – 1 point each**
@@ -83,7 +83,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 
 **Code Analysis / Short Answer (程序阅读或简答题)**
 
-21. What is the output of the following code?  
+21. What is the output of the following code?
     ```python
     def func(x, y=5):
         return x * y
@@ -93,7 +93,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 
 22. Explain the difference between `==` and `is` operators in Python.
 
-23. What will happen if you run this code? (Identify the error)  
+23. What will happen if you run this code? (Identify the error)
     ```python
     try:
         x = 1 / 0
@@ -103,7 +103,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 
 24. Describe what a generator function is and give one advantage over a normal list.
 
-25. Write the output of:  
+25. Write the output of:
     ```python
     s = "hello world"
     print(s.capitalize())

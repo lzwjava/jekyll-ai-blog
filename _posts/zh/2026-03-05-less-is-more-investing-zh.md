@@ -49,7 +49,7 @@ type: note
 
 这就是为什么这篇散文仍是迄今为止最纯粹、最有力的耐心、高确信、低活动投资解释之一。
 
-References:  
+References:
 
 - [Chinese Text Project - 种树郭橐驼传](https://ctext.org/text.pl?node=3230&if=gb)
 - Warren Buffett’s Berkshire Hathaway shareholder letters (especially 1988 Coca-Cola purchase discussion and “favorite holding period is forever” quote)

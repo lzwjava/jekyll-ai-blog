@@ -12,7 +12,7 @@ type: note
 
 Question: 根据 Noam Shazeer 的 YouTube 视频、访谈和论文，他如何评价 Transformer 和 attention mechanism？请尽可能使用他本人的原话和语调提供全面的解释。
 
-Answer: 
+Answer:
 
 作为 Transformer 架构的核心发明者之一，Noam Shazeer 在讨论它时语气随性、热情且直率——听起来通常像是一位对实际突破感到兴奋而非盲目吹捧的工程师。他经常使用“Heck yeah!”之类的短语来表达兴奋，并用简单易懂的语言描述观点。
 
@@ -45,10 +45,10 @@ Shazeer 认为 Transformer 在本质上更适合语言处理：“Transformer �
 
 Transformer 用纯粹的 attention 取代了 recurrence，实现了更好的 parallelism、更长的 contexts 和卓越的性能，为当今的 AI 热潮奠定了基础。
 
-References:  
+References:
 
-- [Attention Is All You Need paper (arXiv)](https://arxiv.org/abs/1706.03762)  
-- [DeepLearning.ai Interview with Noam Shazeer](https://www.deeplearning.ai/the-batch/ai-transformed/)  
-- [No Priors Podcast Transcript with Noam Shazeer](https://sarahguo.com/blog/noamshazeer)  
-- [Good Times Podcast Notes on Noam Shazeer](https://kevinhabits.com/ai/podcast-notes-noam-shazeer-character-ai-attention-is-all-you-need-on-good-times-w-aarthi-and-sriram)  
+- [Attention Is All You Need paper (arXiv)](https://arxiv.org/abs/1706.03762)
+- [DeepLearning.ai Interview with Noam Shazeer](https://www.deeplearning.ai/the-batch/ai-transformed/)
+- [No Priors Podcast Transcript with Noam Shazeer](https://sarahguo.com/blog/noamshazeer)
+- [Good Times Podcast Notes on Noam Shazeer](https://kevinhabits.com/ai/podcast-notes-noam-shazeer-character-ai-attention-is-all-you-need-on-good-times-w-aarthi-and-sriram)
 - [No Priors YouTube Video](https://www.youtube.com/watch?v=emCoG-hA7AE)

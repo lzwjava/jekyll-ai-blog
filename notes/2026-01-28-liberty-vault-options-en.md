@@ -28,7 +28,7 @@ There is **no direct Vault resolver** built into Liberty like `${vault:secret/pa
 
 ### Common Practical Approaches to Integrate HashiCorp Vault
 
-1. **Vault Agent (Sidecar) + File-Based Variables (Recommended for containers/Kubernetes)**  
+1. **Vault Agent (Sidecar) + File-Based Variables (Recommended for containers/Kubernetes)**
    Use Vault Agent to render secrets as files. Liberty can then read them as config variables from the filesystem.
 
    - Run Vault Agent in sidecar mode (or as init container) to authenticate (e.g. via Kubernetes auth, AppRole, etc.) and write secrets to files like:
@@ -46,19 +46,19 @@ There is **no direct Vault resolver** built into Liberty like `${vault:secret/pa
      ```
    - This is explicitly supported/documented in Open Liberty (and works the same in WebSphere Liberty) when using Vault Agent to populate files.
 
-2. **Vault Agent Templating → Environment Variables**  
+2. **Vault Agent Templating → Environment Variables**
    Vault Agent can template secrets into environment variables using its supervisor mode or `envconsul`-like behavior.
 
    - Then reference them in Liberty via `${env.VAULT_DB_PASSWORD}` (if using env var substitution) or map them in `bootstrap.properties`.
 
-3. **AppRole + Custom Code in Application**  
+3. **AppRole + Custom Code in Application**
    - For application-level secrets (not server.xml config), your Java code can authenticate to Vault using AppRole and fetch secrets at runtime (e.g. for JDBC connection pooling callbacks or custom config).
    - This doesn't help with Liberty's built-in `<dataSource>` password fields.
 
-4. **External Secrets Operator (Kubernetes only)**  
+4. **External Secrets Operator (Kubernetes only)**
    If running on Kubernetes, use External Secrets Operator to sync Vault secrets → Kubernetes Secrets → environment variables or mounted files → Liberty variables.
 
-5. **bootstrap.properties + External Script/Init**  
+5. **bootstrap.properties + External Script/Init**
    - At container startup, run a script that authenticates to Vault (using AppRole or token) and writes values to `bootstrap.properties` or `server.env`.
    - Liberty reads these at startup.
 

@@ -10,15 +10,15 @@ translated: false
 type: note
 ---
 
-Question: 1. What is the primary function of a switch in a network?  
-A) Routing packets between different networks  
-B) Forwarding frames based on MAC addresses  
-C) Providing IP addresses to hosts  
-D) Encrypting data traffic  
+Question: 1. What is the primary function of a switch in a network?
+A) Routing packets between different networks
+B) Forwarding frames based on MAC addresses
+C) Providing IP addresses to hosts
+D) Encrypting data traffic
 
 2. (The user's answer: B)
 
-Answer: 
+Answer:
 
 ### Question 1
 The correct answer is **B) Forwarding frames based on MAC addresses**.

@@ -11,9 +11,9 @@ type: note
 
 问题：将 Ba Jin 的散文《Lights of Aierke》（或 "Aierke's Lights"）全文翻译成英语。
 
-答案： 
+答案：
 
-**Aierke的灯光**  
+**Aierke的灯光**
 — Ba Jin
 
 黄昏时分，在逐渐消逝的最后一缕阳光指引下，我走过了十八年前离开的旧居。街道和房屋开始从我的视线中隐藏，仿佛在躲避一位久违的老朋友。然而，它们改变的外貌对我来说仍然非常熟悉。我认出了它们，就像我认出自己一样。
@@ -41,8 +41,8 @@ type: note
 - 这篇散文以“lights”（灯光）象征性地使用三个层面：衰败的旧家族家园的昏暗灯光、Aierke悲剧等待的灯光，以及最终持久的内心希望和个人方向之光。
 - 著名的题字“长宜子孙”保留为拼音，并附上字面翻译在括号中，这是该作品英语译本的惯例。
 
-参考文献：  
+参考文献：
 
-- [https://baike.baidu.com/item/爱尔克的灯光/7213096](https://baike.baidu.com/item/%E7%88%B1%E5%B0%94%E5%85%8B%E7%9A%84%E7%81%AF%E5%85%89/7213096)  
-- [https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt](https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt)  
+- [https://baike.baidu.com/item/爱尔克的灯光/7213096](https://baike.baidu.com/item/%E7%88%B1%E5%B0%94%E5%85%8B%E7%9A%84%E7%81%AF%E5%85%89/7213096)
+- [https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt](https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt)
 - [https://m.99csw.com/article/3481.html](https://m.99csw.com/article/3481.html)

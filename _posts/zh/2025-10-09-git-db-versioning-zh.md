@@ -44,6 +44,6 @@ type: note
 
 若您的记录具有特定结构，欢迎提供更多细节以获取定制化的代码片段。
 
-[在 Git 中对 SQLite 进行版本控制](https://dunkels.com/adam/git-diff-sqlite3/)  
-[小型数据场景中 JSON 与数据库的对比](https://www.reddit.com/r/flask/comments/lvccgo/using_a_database_such_as_sqlite3_versus_json_to/)  
+[在 Git 中对 SQLite 进行版本控制](https://dunkels.com/adam/git-diff-sqlite3/)
+[小型数据场景中 JSON 与数据库的对比](https://www.reddit.com/r/flask/comments/lvccgo/using_a_database_such_as_sqlite3_versus_json_to/)
 [数据版本控制方案选型](https://dolthub.com/blog/2022-04-27-data-version-control/)

@@ -12,7 +12,7 @@ type: note
 
 Question: Is it a good home network tip to move the entrance access port router (like from China Telecom) out of a closed cabinet and place it on an open desk for better WiFi connection? For a duplex house with a TP-Link TL-XDR3050 router, would placing just one in the stairwell provide good WiFi signal coverage for both floors?
 
-Answer: 
+Answer:
 
 **Yes, moving your router (or the main WiFi-emitting device) out of a closed cabinet and placing it in an open area is one of the most effective and commonly recommended home network tips for improving WiFi signal strength and coverage.**
 
@@ -47,10 +47,10 @@ However, real-world coverage depends on:
 
 In many two-story homes, a single powerful central router like this can cover both floors adequately for normal use (streaming, browsing, etc.). If you notice weak spots upstairs or downstairs after testing, you could add mesh nodes (the TL-XDR3050 supports EasyMesh) on one floor for better performance.
 
-**Summary of the tip:**  
+**Summary of the tip:**
 Yes — pulling the router (or your main WiFi router) out of the closed cabinet and placing it openly (ideally central and elevated, like on a desk in the stairwell area) will almost certainly give you noticeably better WiFi connection and coverage. This is widely confirmed as a top optimization step.
 
-References:  
+References:
 
 - [Linksys Support: Where you place your router matters](https://support.linksys.com/kb/article/7766-en)
 - [CNET: Wi-Fi Technicians Reveal the 5 Worst Spots to Place Your Router](https://www.cnet.com/home/internet/wi-fi-technicians-reveal-the-5-worst-spots-for-your-router)

@@ -13,18 +13,18 @@ type: note
 
 ### Most common & recommended way (official .dmg / App install)
 
-1. Look for the **Ollama icon** in your menu bar (top right of the screen, near the clock, Wi-Fi, battery icons etc.).  
+1. Look for the **Ollama icon** in your menu bar (top right of the screen, near the clock, Wi-Fi, battery icons etc.).
    It usually looks like a little blue Ollama logo or a stylized "O".
 
 2. Click the Ollama menu bar icon
 
-3. If an update is available you'll typically see something like:  
-   - "Update available"  
-   - "Restart to update"  
-   - "Install update"  
+3. If an update is available you'll typically see something like:
+   - "Update available"
+   - "Restart to update"
+   - "Install update"
    or similar wording
 
-4. Click **"Restart to update"** (or the equivalent button)  
+4. Click **"Restart to update"** (or the equivalent button)
    → Ollama will quit and relaunch with the new version automatically.
 
 This is the method officially recommended in the Ollama docs (as of 2026).
@@ -53,12 +53,12 @@ After updating you should see a newer version number.
 
 ### Notes / less common cases
 
-- **If you installed via Homebrew** (`brew install ollama` or `brew install --cask ollama`):  
-  → `brew upgrade ollama` or `brew upgrade --cask ollama`  
+- **If you installed via Homebrew** (`brew install ollama` or `brew install --cask ollama`):
+  → `brew upgrade ollama` or `brew upgrade --cask ollama`
   (most people use the official .dmg installer though, not Homebrew)
 
-- No automatic update icon?  
-  → Make sure Ollama is running in the background  
+- No automatic update icon?
+  → Make sure Ollama is running in the background
   → Or just do the manual .dmg reinstall (very safe)
 
 That's basically it — macOS users usually get the easiest update experience among all platforms. 😄

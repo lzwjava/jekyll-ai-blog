@@ -157,32 +157,32 @@ public void serviceMethodsExceptUserService() {}
 @Aspect
 @Component
 public class LoggingAspect {
-    
+
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
-    
+
     @Before("execution(* com.example.service.*.*(..))")
     public void logBefore(JoinPoint joinPoint) {
-        logger.info("进入: {}.{}() 参数 = {}", 
+        logger.info("进入: {}.{}() 参数 = {}",
             joinPoint.getSignature().getDeclaringTypeName(),
             joinPoint.getSignature().getName(),
             Arrays.toString(joinPoint.getArgs()));
     }
-    
-    @AfterReturning(pointcut = "execution(* com.example.service.*.*(..))", 
+
+    @AfterReturning(pointcut = "execution(* com.example.service.*.*(..))",
                    returning = "result")
     public void logAfterReturning(JoinPoint joinPoint, Object result) {
-        logger.info("退出: {}.{}() 返回值 = {}", 
+        logger.info("退出: {}.{}() 返回值 = {}",
             joinPoint.getSignature().getDeclaringTypeName(),
             joinPoint.getSignature().getName(),
             result);
     }
-    
+
     @Around("@annotation(com.example.annotations.LogExecutionTime)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
         Object proceed = joinPoint.proceed();
         long executionTime = System.currentTimeMillis() - start;
-        logger.info("{} 执行耗时 {} 毫秒", 
+        logger.info("{} 执行耗时 {} 毫秒",
             joinPoint.getSignature(), executionTime);
         return proceed;
     }
@@ -204,7 +204,7 @@ public @interface LogExecutionTime {
 ```java
 @Service
 public class UserService {
-    
+
     @LogExecutionTime
     public User getUser(Long id) {
         // 实现
@@ -252,7 +252,7 @@ public void beforeAdvice(JoinPoint joinPoint) {
 ### 5.3 异常处理
 
 ```java
-@AfterThrowing(pointcut = "execution(* com.example.service.*.*(..))", 
+@AfterThrowing(pointcut = "execution(* com.example.service.*.*(..))",
                throwing = "ex")
 public void handleException(JoinPoint joinPoint, Exception ex) {
     // 记录异常、发送警报等

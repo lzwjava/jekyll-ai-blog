@@ -12,7 +12,7 @@ type: note
 
 Question: Switches primarily operate at which OSI layer for basic forwarding?
 
-Answer: 
+Answer:
 
 Switches primarily operate at **Layer 2 (Data Link Layer)** of the OSI model for basic forwarding.
 
@@ -36,7 +36,7 @@ In a small office LAN, a switch connects computers and printers. When Computer A
 
 If you're studying for a certification (e.g., CCNA), remember: Basic Ethernet switches are Layer 2 devices.
 
-References:  
+References:
 - [Network Switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)
 - [Layer 2 vs Layer 3 Switches - GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/difference-between-layer-2-and-layer-3-switches/)
 - [What is a Network Switch? - Network World](https://www.networkworld.com/article/969239/what-is-a-network-switch-and-how-does-it-work.html)

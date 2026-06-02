@@ -12,7 +12,7 @@ type: note
 
 Question: Does the combination substitution (组合顶替) in the Guangdong Self-Study Examination graduation prediction module still have issues?
 
-Answer: 
+Answer:
 
 Yes, **组合顶替** (combination substitution) can still have issues or require manual attention in the graduation prediction module, especially in 2026 when the new professional plans are fully implemented.
 
@@ -43,7 +43,7 @@ Yes, **组合顶替** (combination substitution) can still have issues or requir
 
 In short: **Yes, combination substitution often still needs manual intervention** to get the correct/predicted graduation result — it's a normal part of the 2026 transition process rather than a resolved "issue". Always double-check and adjust manually before relying on the auto result.
 
-References:  
+References:
 
 - [广东省教育考试院 - 专业调整通知及顶替表](https://eea.gd.gov.cn/zxks/content/post_4262692.html)
 - [广东自考新旧课程顶替示例（金融学）](http://www.gdcjdx.cn/m/view.php?aid=6547)

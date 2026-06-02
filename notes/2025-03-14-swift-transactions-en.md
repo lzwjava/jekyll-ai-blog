@@ -33,40 +33,40 @@ When you initiate a transfer, you provide the recipient bank’s SWIFT code to e
 #### **How SWIFT Transactions Work Step-by-Step**
 Let’s break down the process of a SWIFT transaction across multiple banks using a simple example: sending $1,000 from Bank A (in the US) to Bank B (in Germany).
 
-1. **Initiation**  
-   You provide Bank A with the transfer details:  
-   - Amount: $1,000  
-   - Recipient’s account number at Bank B  
-   - Bank B’s SWIFT code (e.g., `DEUTDEFF`)  
+1. **Initiation**
+   You provide Bank A with the transfer details:
+   - Amount: $1,000
+   - Recipient’s account number at Bank B
+   - Bank B’s SWIFT code (e.g., `DEUTDEFF`)
    Bank A may convert the $1,000 to euros (e.g., 850 euros) based on the exchange rate, though this can vary depending on the banks’ policies.
 
-2. **Message Creation**  
-   Bank A creates a standardized SWIFT message, such as an **MT103** (used for single customer credit transfers). This message includes:  
-   - Sender details (Bank A and your account)  
-   - Recipient details (Bank B and your friend’s account)  
-   - Amount and currency (e.g., 850 euros)  
-   - Instructions for processing the payment  
+2. **Message Creation**
+   Bank A creates a standardized SWIFT message, such as an **MT103** (used for single customer credit transfers). This message includes:
+   - Sender details (Bank A and your account)
+   - Recipient details (Bank B and your friend’s account)
+   - Amount and currency (e.g., 850 euros)
+   - Instructions for processing the payment
 
-3. **Sending the Message**  
+3. **Sending the Message**
    Bank A transmits the MT103 message through the SWIFT network. The network ensures secure delivery using encryption and authentication measures.
 
-4. **Routing Through Banks**  
-   - **Direct Relationship**: If Bank A and Bank B have accounts with each other, Bank A sends the message directly to Bank B.  
-   - **Intermediary Banks**: If they don’t, the message is routed through one or more **correspondent banks** (e.g., Bank C). For example:  
-     - Bank A sends the message to Bank C, instructing it to debit Bank A’s account with Bank C and credit Bank B’s account with Bank C.  
-     - Bank C forwards the instructions to Bank B, specifying the funds are for your friend’s account.  
+4. **Routing Through Banks**
+   - **Direct Relationship**: If Bank A and Bank B have accounts with each other, Bank A sends the message directly to Bank B.
+   - **Intermediary Banks**: If they don’t, the message is routed through one or more **correspondent banks** (e.g., Bank C). For example:
+     - Bank A sends the message to Bank C, instructing it to debit Bank A’s account with Bank C and credit Bank B’s account with Bank C.
+     - Bank C forwards the instructions to Bank B, specifying the funds are for your friend’s account.
    Intermediary banks are common in international transfers when direct relationships don’t exist.
 
-5. **Receiving and Processing**  
+5. **Receiving and Processing**
    Bank B receives the SWIFT message, verifies the details, and prepares to credit your friend’s account with 850 euros.
 
-6. **Settlement of Funds**  
-   Since SWIFT only handles messaging, the actual money movement occurs through settlement mechanisms:  
-   - **Direct Accounts**: If Bank A has a **nostro account** (an account in euros at Bank B), Bank B debits it and credits your friend’s account.  
-   - **Correspondent Banking**: If an intermediary (Bank C) is involved, Bank A settles with Bank C, and Bank C settles with Bank B via their respective accounts.  
+6. **Settlement of Funds**
+   Since SWIFT only handles messaging, the actual money movement occurs through settlement mechanisms:
+   - **Direct Accounts**: If Bank A has a **nostro account** (an account in euros at Bank B), Bank B debits it and credits your friend’s account.
+   - **Correspondent Banking**: If an intermediary (Bank C) is involved, Bank A settles with Bank C, and Bank C settles with Bank B via their respective accounts.
    - **Central Clearing Systems**: For some currencies (e.g., euros in the Eurozone), settlement might occur through systems like **TARGET2**.
 
-7. **Completion**  
+7. **Completion**
    Your friend’s account at Bank B is credited with 850 euros. Fees may be deducted at various stages (by Bank A, intermediaries, or Bank B), and the process can take a few hours to several days, depending on the banks and intermediaries involved.
 
 ---
@@ -74,19 +74,19 @@ Let’s break down the process of a SWIFT transaction across multiple banks usin
 #### **How Banks Integrate with the SWIFT System**
 To participate in SWIFT transactions, banks must integrate with the network. Here’s how they do it:
 
-- **Membership**: Banks join SWIFT as members, agreeing to its rules and standards.  
-- **Infrastructure**: They install SWIFT-approved software and hardware to connect to the SWIFT network, a private, secure system separate from the public internet.  
-- **SWIFT Codes**: Each bank is assigned a unique SWIFT code to identify it in transactions.  
-- **Message Standards**: Banks use standardized message formats (e.g., MT103) with specific fields to ensure compatibility across the network.  
-- **Security**: SWIFT mandates encryption, digital signatures, and compliance with security protocols to protect against fraud and tampering.  
+- **Membership**: Banks join SWIFT as members, agreeing to its rules and standards.
+- **Infrastructure**: They install SWIFT-approved software and hardware to connect to the SWIFT network, a private, secure system separate from the public internet.
+- **SWIFT Codes**: Each bank is assigned a unique SWIFT code to identify it in transactions.
+- **Message Standards**: Banks use standardized message formats (e.g., MT103) with specific fields to ensure compatibility across the network.
+- **Security**: SWIFT mandates encryption, digital signatures, and compliance with security protocols to protect against fraud and tampering.
 - **Additional Services**: Beyond payments, banks use SWIFT for trade finance, securities transactions, and administrative messages, requiring further integration for these functions.
 
 ---
 
 #### **Key Features and Considerations**
-- **Standardization**: SWIFT’s use of structured messages (like MT103) ensures all banks interpret instructions the same way.  
-- **Security**: The network employs robust measures to safeguard transaction data.  
-- **Fees and Timing**: Intermediary banks may charge fees, and processing times vary based on the number of banks involved.  
+- **Standardization**: SWIFT’s use of structured messages (like MT103) ensures all banks interpret instructions the same way.
+- **Security**: The network employs robust measures to safeguard transaction data.
+- **Fees and Timing**: Intermediary banks may charge fees, and processing times vary based on the number of banks involved.
 - **Modern Enhancements**: Initiatives like **SWIFT gpi** (Global Payments Innovation) improve transparency and speed by offering end-to-end tracking and faster settlement.
 
 ---

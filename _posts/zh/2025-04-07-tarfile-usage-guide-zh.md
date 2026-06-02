@@ -21,7 +21,7 @@ import tarfile
 - **打开现有 tar 文件**：使用 `tarfile.open()` 并指定模式。模式包括 `'r'`（读取）、`'w'`（清空写入）、`'a'`（追加），以及带压缩的变体如 `'r:gz'`（gzip 压缩）。
   ```python
   import tarfile
-  
+
   # 以读取模式打开（未压缩）
   with tarfile.open('example.tar', 'r') as tar:
       # 在此处操作 tar 文件
@@ -44,7 +44,7 @@ import tarfile
 - **添加多个文件或目录**：在循环中使用 `add()`，或递归添加整个目录。
   ```python
   import os
-  
+
   with tarfile.open('backup.tar', 'w') as tar:
       for root, dirs, files in os.walk('my_folder'):
           for file in files:

@@ -12,23 +12,23 @@ type: note
 
 **Question:** Google Cloud 是否有类似于阿里云直播的服务，可以提供推流 URL，并允许客户端通过 HLS 或 RTMP 进行拉流观看？
 
-**Answer:** 
+**Answer:**
 
 是的，Google Cloud 提供了一项名为 **Live Stream API** 的专用直播服务（属于 Google Cloud 媒体服务的一部分），其功能与阿里云（Aliyun）视频直播非常相似。
 
 ### 核心功能及工作原理：
 
-- **Ingest (推流)**：  
-  你在 Live Stream API 中创建一个 **input endpoint**。  
-  它支持 **RTMP**（以及 SRT）作为输入协议。  
+- **Ingest (推流)**：
+  你在 Live Stream API 中创建一个 **input endpoint**。
+  它支持 **RTMP**（以及 SRT）作为输入协议。
   Google Cloud 会提供一个 **RTMP ingest URL**（例如：rtmp://[endpoint]/live）和 **stream key**，供你使用 OBS、FFmpeg 或硬件编码器推送直播流 —— 这与阿里云的推流 URL 机制完全一致。
 
-- **Processing (处理)**：  
+- **Processing (处理)**：
   该服务会将输入的直播信号（贡献级质量）转码为自适应比特率（adaptive bitrate）推流格式。
 
-- **Output / Playback (下行播放)**：  
-  它生成 **HLS** (HTTP Live Streaming) 和 **DASH** 输出流。  
-  你会获得 HLS 的播放 URL（常用于 Web/移动端播放器），客户端可以使用该 URL 进行观看。  
+- **Output / Playback (下行播放)**：
+  它生成 **HLS** (HTTP Live Streaming) 和 **DASH** 输出流。
+  你会获得 HLS 的播放 URL（常用于 Web/移动端播放器），客户端可以使用该 URL 进行观看。
   RTMP 仅支持 **input (推流)**，而输出/播放主要采用 HLS/DASH（现代低延迟自适应流媒体协议）。通常不提供 RTMP 播放输出，因为它正逐渐被 HLS/DASH/WebRTC 等更广泛的用例所取代。
 
 - **与阿里云直播的对比**：
@@ -41,7 +41,7 @@ type: note
 
 欲了解更多详情，请查看官方文档。
 
-**References:**  
+**References:**
 
 - [Overview of the Live Stream API](https://docs.cloud.google.com/livestream/docs/overview)
 - [Live Stream API documentation](https://docs.cloud.google.com/livestream/docs)

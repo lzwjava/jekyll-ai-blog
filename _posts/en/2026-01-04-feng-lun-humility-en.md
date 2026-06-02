@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand Feng Lun's saying about the founder of Wantong: "the face touches the ground, one is able to eat meat into the mouth"?
 
-Answer: 
+Answer:
 
 Feng Lun (冯仑), the founder and chairman of Wantong Group (万通集团, often abbreviated as Wantong), is a prominent Chinese real estate entrepreneur known for his witty and insightful quotes on business and life.
 

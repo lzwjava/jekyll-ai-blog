@@ -38,7 +38,7 @@ When the need for credit is removed, it changes the entire dynamic of the effort
 * **Focus on the Goal:** The sole focus shifts entirely to the **mission, objective, or shared goal**. People are no longer worried about *who* is doing the work, only that the work gets done correctly and effectively.
 * **True Collaboration:** Individuals freely share ideas, admit mistakes, offer help, and support each other. **Ego is replaced by efficiency.**
 * **Empowerment:** Leaders who don't need credit are more willing to delegate, mentor, and allow their team members to shine, which **builds a stronger, more capable team**.
-* **Simplicity:** It removes the complex politics and maneuvering that waste energy and time. 
+* **Simplicity:** It removes the complex politics and maneuvering that waste energy and time.
 
 ---
 

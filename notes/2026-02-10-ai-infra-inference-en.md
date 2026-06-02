@@ -12,7 +12,7 @@ type: note
 
 Question: What does AI infra mean? What about inference / scheduler? What does it involve?
 
-Answer: 
+Answer:
 
 **AI infra** (short for **AI infrastructure**) refers to the specialized combination of **hardware**, **software**, **networking**, and related systems built to support the full lifecycle of artificial intelligence workloads. This includes developing, training, fine-tuning, and especially **deploying/running** AI models (particularly large language models and generative AI in recent years).
 
@@ -23,7 +23,7 @@ It differs from traditional IT infrastructure because AI workloads are extremely
 - **Inference** — running a trained model to generate predictions, answers, images, etc. for users (the dominant cost for most deployed AI products today)
 
 ### What "inference" means in this context
-**Inference** is the "serving" or "production" phase where a pre-trained model takes new input (a prompt, an image, etc.) and produces output.  
+**Inference** is the "serving" or "production" phase where a pre-trained model takes new input (a prompt, an image, etc.) and produces output.
 For large models like GPT, Llama, Claude, etc.:
 - It is autoregressive (generates one token at a time)
 - It is memory-intensive (especially due to the KV cache that grows with context length)
@@ -59,7 +59,7 @@ Good schedulers dramatically improve **throughput** (tokens/second), reduce **ta
 
 In short: "AI infra" today is mostly about building efficient, scalable, cost-effective systems to **run inference** at scale — and schedulers are one of the most important pieces that determine whether your GPU cluster feels 2× or 5× more efficient.
 
-References:  
+References:
 
 - [What is AI Infrastructure? - IBM](https://www.ibm.com/think/topics/ai-infrastructure)
 - [AI Infrastructure: Key Components - Cloudian](https://cloudian.com/guides/ai-infrastructure/ai-infrastructure-key-components-and-6-factors-driving-success)

@@ -32,7 +32,7 @@ type: note
 黄埔区呈现都市绿洲风貌，拥有众多依河傍湖的精致公园。建议选择配备长椅或林荫车位的临水区域。
 
 - **中山公园**：竹影婆娑的河畔静地，设有人工瀑布与池塘。工作日尤为宁静，沿河停车可览水景，适合1-2小时短时办公。
-  
+
 - **天麓湖森林公园**：环湖山径点缀着微型池塘与溪流。游客稀少，林间小径营造隐秘氛围，临水停车场充裕——适合追求多样水声（潺潺流水与飞溅瀑布）的办公场景。
 
 - **黄埔新阳东迷你公园**：采用"海绵城市"设计（雨水吸纳系统）的都市秘境，打造出人工水道与浅水池。隐匿于居民区旁，街边停车后步行2分钟即可抵达水畔。
@@ -52,10 +52,10 @@ type: note
 
 建议从黄埔区开始短途尝试，再深入增城完成沉浸式体验。出行前查看天气预报（雨水会增强水声效果，但需警惕洪水）。若规划路线，直接输入上述名称即可获取带实景照片与评价的导航信息。
 
-[ 天麓湖森林公园在Trip.com的页面 ](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)  
-[ 中山公园在Trip.com的游记 ](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)  
-[ 黄埔新阳东迷你公园在中国服务资讯网的介绍 ](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)  
-[ 白水寨瀑布在Tripadvisor的点评 ](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)  
-[ 金山公园在Tripadvisor的景点列表 ](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)  
-[ 白江湖在Trip.com的游记 ](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)  
+[ 天麓湖森林公园在Trip.com的页面 ](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)
+[ 中山公园在Trip.com的游记 ](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)
+[ 黄埔新阳东迷你公园在中国服务资讯网的介绍 ](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)
+[ 白水寨瀑布在Tripadvisor的点评 ](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)
+[ 金山公园在Tripadvisor的景点列表 ](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
+[ 白江湖在Trip.com的游记 ](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)
 [ 广州休闲景点在NewsGD的报道 ](https://www.newsgd.com/node_99363c4f3b/e39ce5939c.shtml)

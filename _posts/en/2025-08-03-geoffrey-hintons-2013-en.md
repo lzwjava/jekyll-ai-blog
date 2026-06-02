@@ -26,9 +26,9 @@ Hinton's trajectory is similar in that his widespread public recognition explode
 
 If you meant something specific about "back panic problem" (perhaps a typo for back pain or panic attacks?), I interpreted it as his well-known back issues, but let me know if it's something else.
 
-References:  
-[Geoffrey Hinton - Wikipedia](https://en.wikipedia.org/wiki/Geoffrey_Hinton)  
-[How Google Bought Deep Learning Startup DNNresearch For Millions - Business Insider](https://www.businessinsider.com/google-bought-deep-learning-startup-dnnresearch-2013-3)  
-[Geoffrey Hinton tells us why he’s now scared of the tech he helped build - MIT Technology Review](https://www.technologyreview.com/2023/05/02/1072527/geoffrey-hinton-ai-dangers-interview/)  
-[Yitang Zhang - Wikipedia](https://en.wikipedia.org/wiki/Yitang_Zhang)  
+References:
+[Geoffrey Hinton - Wikipedia](https://en.wikipedia.org/wiki/Geoffrey_Hinton)
+[How Google Bought Deep Learning Startup DNNresearch For Millions - Business Insider](https://www.businessinsider.com/google-bought-deep-learning-startup-dnnresearch-2013-3)
+[Geoffrey Hinton tells us why he’s now scared of the tech he helped build - MIT Technology Review](https://www.technologyreview.com/2023/05/02/1072527/geoffrey-hinton-ai-dangers-interview/)
+[Yitang Zhang - Wikipedia](https://en.wikipedia.org/wiki/Yitang_Zhang)
 [The Lone Genius Who Proved the Twin Prime Conjecture - Quanta Magazine](https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-on-prime-numbers-20130519/)

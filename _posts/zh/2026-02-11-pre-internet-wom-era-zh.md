@@ -12,7 +12,7 @@ type: note
 
 Question: 在 1990 年代或更早的时候，信息是否主要靠口口相传？比如 Jack Ma 向并不了解 Internet 的 Alibaba 合伙人介绍它，因为当时没有即时演示的方法。此外，在 2000 年左右，人们使用的 Nokia 手机只用于通话、短信和 Snake 游戏。关于俞敏洪（New Oriental 创始人）去加拿大找徐小平，以及 Donald Trump 在其书封面上提到的通过电话处理业务，还有在《老友记》（Friends）第一季中，虽然有电话和电视，但似乎没有 Internet？
 
-Answer: 
+Answer:
 
 **是的，你的观察非常准确。** 在 **1990 年代及更早时期**，特别是在中国，信息和像 **Internet** 这样的新概念主要通过**口口相传**、个人故事、报纸、书籍、电视或面对面讲解来传播，因为当时大多数人接触 Internet 的途径极其有限或根本不存在。
 
@@ -33,7 +33,7 @@ Answer:
 
 你的例子完美地说明了世界是如何在短时间内从**口口相传 + 基础电话**演变成**即时视觉/数字化分享**的。
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Jack_Ma](https://en.wikipedia.org/wiki/Jack_Ma)
 - [https://www.cnnic.com.cn/IDR/hlwfzdsj/201306/t20130628_40563.htm](https://www.cnnic.com.cn/IDR/hlwfzdsj/201306/t20130628_40563.htm)

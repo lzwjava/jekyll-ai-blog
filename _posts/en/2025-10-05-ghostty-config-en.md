@@ -34,7 +34,7 @@ On macOS, Ghostty follows the platform's tradition (like Terminal.app) and start
 
 So, it loads `~/.zprofile` for the default zsh setup, or `~/.bash_profile` if you're using bash. You can switch shells or tweak via Ghostty's config if needed.
 
-[Shell Integration - Ghostty](https://ghostty.org/docs/features/shell-integration)  
-[macOS Login Shells - Ghostty](https://ghostty.org/docs/help/macos-login-shells)  
-[Potential bug, .bashrc not read on startup - GitHub Discussion](https://github.com/ghostty-org/ghostty/discussions/3437)  
+[Shell Integration - Ghostty](https://ghostty.org/docs/features/shell-integration)
+[macOS Login Shells - Ghostty](https://ghostty.org/docs/help/macos-login-shells)
+[Potential bug, .bashrc not read on startup - GitHub Discussion](https://github.com/ghostty-org/ghostty/discussions/3437)
 [Bash Startup Files - GNU Manual](https://www.gnu.org/software/bash/manual/bash.html#Bash-Startup-Files)

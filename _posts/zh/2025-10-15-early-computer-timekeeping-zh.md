@@ -40,10 +40,10 @@ Altair是首台"个人"计算机——一个带英特尔8080芯片的闪灯盒�
 
 这些设置是Unix时间戳的狂野前身——时间作为计数器，但需要你自己构建。如果想深入了解（比如Altair延迟的代码片段），随时找我！
 
-[ENIAC维基百科](https://en.wikipedia.org/wiki/ENIAC)  
-[ENIAC技术报告](https://ftp.arl.army.mil/mike/comphist/46eniac-report/chap1.html)  
-[ENIAC电子计算电路](https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-r5367-1-ENIAC-circuits.pdf)  
-[Altair 8800系统架构](https://ubuntourist.codeberg.page/Altair-8800/part-2.html)  
-[MITS Altair 8800宣传册](https://vtda.org/docs/computing/MITS/MITS_Altair8800ComputerSystem_Brochure.pdf)  
-[冯·诺依曼架构维基百科](https://en.wikipedia.org/wiki/Von_Neumann_architecture)  
+[ENIAC维基百科](https://en.wikipedia.org/wiki/ENIAC)
+[ENIAC技术报告](https://ftp.arl.army.mil/mike/comphist/46eniac-report/chap1.html)
+[ENIAC电子计算电路](https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-r5367-1-ENIAC-circuits.pdf)
+[Altair 8800系统架构](https://ubuntourist.codeberg.page/Altair-8800/part-2.html)
+[MITS Altair 8800宣传册](https://vtda.org/docs/computing/MITS/MITS_Altair8800ComputerSystem_Brochure.pdf)
+[冯·诺依曼架构维基百科](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 [简单冯·诺依曼架构中，时钟周期究竟是什么？](https://www.quora.com/In-a-simple-Von-Neumann_architecture-what-exactly-is-a-clock-cycle)

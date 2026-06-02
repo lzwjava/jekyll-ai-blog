@@ -11,7 +11,7 @@ type: note
 
 Question: What are the characteristics of the Stop-and-Wait ARQ error control mechanism?
 
-Answer: 
+Answer:
 
 The correct answer is **A: Small buffer space required, low channel efficiency**.
 
@@ -30,7 +30,7 @@ The correct answer is **A: Small buffer space required, low channel efficiency**
 
 Therefore, the defining characteristics are that it requires **small buffer space** but suffers from **low channel efficiency**.
 
-References:  
+References:
 
 - [Stop-and-Wait ARQ - GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 - [Automatic Repeat Request - Wikipedia](https://en.wikipedia.org/wiki/Automatic_repeat_request)

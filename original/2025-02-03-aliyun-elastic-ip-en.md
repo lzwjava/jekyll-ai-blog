@@ -76,7 +76,7 @@ class Sample:
                 logging.error(f"Recommend: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
-    
+
     @staticmethod
     def unbind_eip(
         region_id: str,
@@ -129,7 +129,7 @@ class Sample:
                 logging.error(f"Recommend: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return None
-    
+
     @staticmethod
     def release_eip(
         allocation_id: str,
@@ -245,7 +245,7 @@ class Sample:
             else:
                 print("No EIP found to process.")
                 return
-            
+
             # Unbind current EIP
             if current_allocation_id:
                 if Sample.unbind_eip(region_id, current_allocation_id, parsed_args.instance_id):
@@ -253,7 +253,7 @@ class Sample:
                 else:
                     print(f"Failed to unbind EIP {current_allocation_id} from instance {parsed_args.instance_id}.")
                     return
-            
+
             # Create new EIP
             new_allocation_id = Sample.create_eip(region_id)
             if new_allocation_id:
@@ -261,21 +261,21 @@ class Sample:
             else:
                 print("EIP creation process failed.")
                 return
-            
+
             # Bind new EIP
             if Sample.bind_eip(region_id, new_allocation_id, parsed_args.instance_id):
                 print(f"Successfully bound new EIP {new_allocation_id} to instance {parsed_args.instance_id}.")
             else:
                 print(f"Failed to bind new EIP {new_allocation_id} to instance {parsed_args.instance_id}.")
                 return
-            
+
             # Release old EIP
             if current_allocation_id:
                 if Sample.release_eip(current_allocation_id):
                     print(f"Successfully released old EIP {current_allocation_id}.")
                 else:
                     print(f"Failed to release old EIP {current_allocation_id}.")
-            
+
             # Describe again to show the final state
             final_allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if final_allocation_id:

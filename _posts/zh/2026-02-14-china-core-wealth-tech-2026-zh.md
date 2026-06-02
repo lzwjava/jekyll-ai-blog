@@ -12,7 +12,7 @@ type: note
 
 **Question:** 详细介绍中国银行机构在 Mutual Funds、Trading 及类似功能方面使用的金融系统，并与全球银行常用的 Avaloq 进行对比。
 
-**Answer:** 
+**Answer:**
 
 以下是关于中国银行机构在 Wealth Management、Mutual Funds 分销、投资产品、Trading 支持及相关功能方面所使用的金融系统的详细信息（截至 2026 年初）。这些内容基于之前的概述，重点关注更新的市场动态、更多的 Vendor 案例、Wealth/Investment/Trading 的具体能力，以及与 Avaloq 的对比。
 

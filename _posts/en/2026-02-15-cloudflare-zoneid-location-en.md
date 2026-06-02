@@ -11,7 +11,7 @@ type: note
 
 Question: Why can't I find the Zone ID in Cloudflare under Analytics & Logs > Web Analytics?
 
-Answer: 
+Answer:
 
 The **Zone ID** is **not** located in the **Analytics & Logs** section (including Web Analytics). That area shows traffic statistics, performance metrics, security events, and logs — but it does **not** display account or zone identifiers like the Zone ID.
 
@@ -20,7 +20,7 @@ The Zone ID is a unique identifier for your specific domain (zone) and is found 
 ### Correct steps to find your Zone ID (as of 2026, per official Cloudflare docs)
 1. Log in to your Cloudflare dashboard at [https://dash.cloudflare.com](https://dash.cloudflare.com).
 2. If you have multiple accounts, make sure you've selected the correct one (you'll see your accounts listed; click into the relevant account).
-3. Select the specific **domain** (zone) you want the Zone ID for from the list of your websites/domains.  
+3. Select the specific **domain** (zone) you want the Zone ID for from the list of your websites/domains.
    → This takes you to the **Overview** page for that domain.
 4. On the **Overview** page, scroll down (usually to the bottom of the right-hand sidebar or the main content area).
 5. Look for the **API** section (it's typically near the bottom).
@@ -46,7 +46,7 @@ If you're still not seeing it:
   ```
   Look for the `id` field in each zone object.
 
-References:  
+References:
 
 - [Find account and zone IDs · Cloudflare Fundamentals docs](https://developers.cloudflare.com/fundamentals/account/find-account-and-zone-ids)
 - [Cloudflare Community threads confirming location on Overview > API section](https://community.cloudflare.com/t/where-to-find-zone-id/132913)

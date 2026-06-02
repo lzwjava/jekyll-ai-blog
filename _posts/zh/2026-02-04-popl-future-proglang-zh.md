@@ -19,7 +19,7 @@ POPL 全称是 **Principles of Programming Languages** —— 它是 Computer Sc
 - Type systems 和 Semantics
 - Program verification 与 Analysis
 - Language design 与 Implementation
-- Computer science 中的 Logic 
+- Computer science 中的 Logic
 
 **学术影响力：**
 - 这是一个顶级会议（被评为 "A*" 或 "Rank 1" 级别）

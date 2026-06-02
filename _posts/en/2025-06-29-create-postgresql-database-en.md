@@ -68,10 +68,10 @@ postgres=# CREATE DATABASE mydatabase;
 CREATE DATABASE
 postgres=# \l
                                   List of databases
-   Name      |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+   Name      |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
 -------------+----------+----------+-------------+-------------+-----------------------
- mydatabase  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
- postgres    | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ mydatabase  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ postgres    | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
  template0   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
              |          |          |             |             | postgres=CTc/postgres
  template1   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +

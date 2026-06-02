@@ -18,6 +18,6 @@ type: note
 
 这能确保你的通知过滤、允许的 App/联系人以及专注状态在所有设备上保持一致。
 
-[在 iPhone 上设置专注模式](https://support.apple.com/guide/iphone/set-up-a-focus-iphd628a67f/ios)  
-[在 iPhone 上开启或关闭睡眠专注模式](https://support.apple.com/guide/iphone/turn-sleep-focus-on-or-off-iph7cdb86325/ios)  
+[在 iPhone 上设置专注模式](https://support.apple.com/guide/iphone/set-up-a-focus-iphd628a67f/ios)
+[在 iPhone 上开启或关闭睡眠专注模式](https://support.apple.com/guide/iphone/turn-sleep-focus-on-or-off-iph7cdb86325/ios)
 [在 Mac 上管理专注模式选项](https://support.apple.com/guide/mac-help/manage-focus-options-on-mac-mchl74e8c77b/mac)

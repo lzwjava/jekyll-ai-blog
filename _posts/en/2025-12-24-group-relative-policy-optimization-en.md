@@ -12,7 +12,7 @@ type: note
 
 Question: What is GRPO in machine learning?
 
-Answer: 
+Answer:
 
 **Group Relative Policy Optimization (GRPO)** is a reinforcement learning (RL) algorithm used in machine learning, particularly for fine-tuning large language models (LLMs) to improve their reasoning capabilities in tasks like mathematics, coding, and complex problem-solving.
 
@@ -34,10 +34,10 @@ Answer:
 
 GRPO represents an efficient evolution in RLHF (Reinforcement Learning from Human Feedback) techniques, especially for domains with objective evaluation criteria.
 
-References:  
+References:
 
-- [DeepSeekMath Paper (arXiv)](https://arxiv.org/pdf/2402.03300)  
-- [DataCamp: What is GRPO?](https://www.datacamp.com/blog/what-is-grpo-group-relative-policy-optimization)  
-- [Oxen.ai: Why GRPO is Important](https://ghost.oxen.ai/why-grpo-is-important-and-how-it-works/)  
-- [Medium: The Math Behind DeepSeek GRPO](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)  
+- [DeepSeekMath Paper (arXiv)](https://arxiv.org/pdf/2402.03300)
+- [DataCamp: What is GRPO?](https://www.datacamp.com/blog/what-is-grpo-group-relative-policy-optimization)
+- [Oxen.ai: Why GRPO is Important](https://ghost.oxen.ai/why-grpo-is-important-and-how-it-works/)
+- [Medium: The Math Behind DeepSeek GRPO](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)
 - [Hugging Face Blog: PPO & GRPO Explanation](https://huggingface.co/blog/NormalUhr/grpo)

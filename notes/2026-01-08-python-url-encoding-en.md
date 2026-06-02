@@ -12,7 +12,7 @@ type: note
 
 Question: Sometimes we need to use URL encoding in URLs like http://username:password@someproxy endpoint, right? If the password contains characters like # or ., then Python may complain about parse failure.
 
-Answer: 
+Answer:
 
 Yes, when constructing URLs that include authentication credentials (username:password@host), special characters in the username or password must be percent-encoded (URL-encoded) to avoid parsing issues.
 
@@ -77,10 +77,10 @@ For security and simplicity:
 
 Encoding ensures the full credential string is treated correctly before the host part.
 
-References:  
+References:
 
-- [https://bugs.python.org/issue18140](https://bugs.python.org/issue18140)  
-- [https://github.com/python/cpython/issues/62340](https://github.com/python/cpython/issues/62340)  
-- [https://docs.python.org/3/library/urllib.parse.html](https://docs.python.org/3/library/urllib.parse.html)  
-- [https://stackoverflow.com/questions/30299973/http-request-through-proxy-in-python-having-in-password](https://stackoverflow.com/questions/30299973/http-request-through-proxy-in-python-having-in-password)  
+- [https://bugs.python.org/issue18140](https://bugs.python.org/issue18140)
+- [https://github.com/python/cpython/issues/62340](https://github.com/python/cpython/issues/62340)
+- [https://docs.python.org/3/library/urllib.parse.html](https://docs.python.org/3/library/urllib.parse.html)
+- [https://stackoverflow.com/questions/30299973/http-request-through-proxy-in-python-having-in-password](https://stackoverflow.com/questions/30299973/http-request-through-proxy-in-python-having-in-password)
 - [https://stackoverflow.com/questions/73034574/how-to-use-password-with-special-character-in-basic-auth](https://stackoverflow.com/questions/73034574/how-to-use-password-with-special-character-in-basic-auth)

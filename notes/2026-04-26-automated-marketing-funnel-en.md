@@ -50,7 +50,7 @@ When a potential customer comments keywords like **"price," "specifications," "h
 
 ### Data Flow:
 ```
-Social Media Comment → Make.com listener → Dify (RAG knowledge base) 
+Social Media Comment → Make.com listener → Dify (RAG knowledge base)
 → AI-generated reply → Make.com posts reply back to social platform
 ```
 
@@ -86,7 +86,7 @@ The moment a customer sends their **first WhatsApp message**, Dify instantly rol
 
 ### Data Flow:
 ```
-Customer WhatsApp message → WhatsApp API → Make.com 
+Customer WhatsApp message → WhatsApp API → Make.com
 → Dify (RAG over your technical documents) → Professional answer → Customer
 ```
 

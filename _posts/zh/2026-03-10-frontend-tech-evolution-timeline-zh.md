@@ -179,7 +179,7 @@ SPAs 的一个主要弱点是 **SEO 差和初始加载慢**，因为浏览器必
 
 ## 总结时间线
 
-  
+
 | Year | Milestone |
 |------|-----------|
 | 1991 | HTML invented by Tim Berners-Lee |

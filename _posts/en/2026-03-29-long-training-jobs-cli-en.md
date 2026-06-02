@@ -17,7 +17,7 @@ Yes, you're right — using the command line (terminal/SSH) is generally the bet
 
 ### Why command line is preferred for training:
 
-- **Better process control**: You can easily start training with `nohup`, `screen`, or `tmux` so the process keeps running even if your connection drops or you close the terminal.  
+- **Better process control**: You can easily start training with `nohup`, `screen`, or `tmux` so the process keeps running even if your connection drops or you close the terminal.
   Example basic command:
   ```
   nohup python train.py --seq_len 512 > training.log 2>&1 &

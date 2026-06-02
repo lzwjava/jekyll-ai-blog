@@ -11,7 +11,7 @@ type: note
 Yes, you're spot on with your understanding of tool use and function calls in AI chatbot APIs like Mistral's (or similar ones from OpenAI, Anthropic, etc.). Let me break it down step by step to confirm and clarify, as it indeed involves inversion of control (IoC) in a way that shifts the decision-making from your code to the AI model.
 
 ### How It Works
-1. **Defining Tools**: 
+1. **Defining Tools**:
    - You (the developer) provide a list of custom "tools" (essentially function definitions) in your initial API request. Each tool includes details like the function name, parameters (with types and descriptions), and what it does. This is done via a schema, often in JSON format (e.g., based on OpenAI's tool schema, which Mistral also supports).
    - Example: You might define a tool called `get_weather` that takes a `location` parameter and returns current weather data.
 

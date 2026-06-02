@@ -11,7 +11,7 @@ type: note
 
 Question: How to detect when macOS closes the lid or goes to sleep, and when it wakes up, in order to send a notification to remind myself to do something?
 
-Answer: 
+Answer:
 
 There are several practical ways to achieve this on macOS. The most reliable and commonly used method for regular users is **SleepWatcher** (a small daemon) combined with simple shell scripts. This approach works well for sending reminders when the Mac **goes to sleep** (usually when you close the lid) and when it **wakes up** (usually when you open the lid or press a key).
 
@@ -78,7 +78,7 @@ on idle
         set currentState to (do shell script "pmset -g | grep -i 'sleep prevented' || true")
         -- Very rough — better to track previous state in a file
     end tell
-    
+
     -- More practical: just use sleepwatcher style above
     return 60 -- check every minute
 end idle
@@ -98,14 +98,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         let center = NSWorkspace.shared.notificationCenter
-        
+
         center.addObserver(forName: NSWorkspace.willSleepNotification, object: nil, queue: .main) { _ in
             let notif = NSUserNotification()
             notif.title = "Going to Sleep"
             notif.informativeText = "Lid closed — remember to ..."
             NSUserNotificationCenter.default.deliver(notif)
         }
-        
+
         center.addObserver(forName: NSWorkspace.didWakeNotification, object: nil, queue: .main) { _ in
             let notif = NSUserNotification()
             notif.title = "Woke Up"
@@ -129,7 +129,7 @@ You can use this in cron/launchd to poll, but event-based (SleepWatcher) is much
 
 SleepWatcher + notification scripts is the most popular, lightweight, and reliable solution for your use case in 2025/2026.
 
-References:  
+References:
 
 - [SleepWatcher official page](http://www.bernhard-baehr.de/)
 - [NSWorkspace sleep/wake notifications](https://developer.apple.com/documentation/appkit/nsworkspace)

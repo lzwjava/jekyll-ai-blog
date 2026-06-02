@@ -16,6 +16,6 @@ NVIDIA RTX 4070 Ti GPU 的峰值 FP32 性能为 40.09 TFLOPS。
 
 在此期间提供的总算力约为 1.14 × 10²¹ 次浮点运算（FLOPs），即 1.14 zettaFLOPs。
 
-[NVIDIA GeForce RTX 4070 Ti 规格 | TechPowerUp GPU 数据库](https://www.techpowerup.com/gpu-specs/geforce-rtx-4070-ti.c3950)  
-[NVIDIA GeForce RTX 4070 Ti GPU - 基准测试与规格](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4070-Ti-GPU-Benchmarks-and-Specs.679267.0.html)  
+[NVIDIA GeForce RTX 4070 Ti 规格 | TechPowerUp GPU 数据库](https://www.techpowerup.com/gpu-specs/geforce-rtx-4070-ti.c3950)
+[NVIDIA GeForce RTX 4070 Ti GPU - 基准测试与规格](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4070-Ti-GPU-Benchmarks-and-Specs.679267.0.html)
 [Nvidia GeForce RTX 4070 Ti：性能测试与规格 | NR](https://nanoreview.net/en/gpu/geforce-rtx-4070-ti)

@@ -33,8 +33,8 @@ Filter results by:
 - **Clip/Guard Style**: "Charging Door Guard Plate Clip" (Neta-compatible, ~$10 on AliExpress)—secures the flap in place.
 - If it's just the hinge/clip broken: Search "EV charge port flap hinge repair kit".
 
-Test fit before full install (like in this MG EV guide, similar process). If it doesn't match, hit up Neta service in Guangzhou—they often have spares for ~100-200 RMB. Let me know if you need install tips or more specific links! 
+Test fit before full install (like in this MG EV guide, similar process). If it doesn't match, hit up Neta service in Guangzhou—they often have spares for ~100-200 RMB. Let me know if you need install tips or more specific links!
 
-[EV Charging Port Flap Replacement Guide (MG ZS EV)](https://www.youtube.com/watch?v=eAuHfesic1k)  
-[Neta Charging Door Guard on AliExpress](https://www.aliexpress.com/item/1005007696411860.html)  
+[EV Charging Port Flap Replacement Guide (MG ZS EV)](https://www.youtube.com/watch?v=eAuHfesic1k)
+[Neta Charging Door Guard on AliExpress](https://www.aliexpress.com/item/1005007696411860.html)
 [Universal EV Port Dust Cover on Amazon](https://www.amazon.com/EV-Charger-Plug-Cover-Replacement/dp/B0DTHR8YR5)

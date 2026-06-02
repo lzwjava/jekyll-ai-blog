@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Shenzhen, China.
 
-Answer: 
+Answer:
 
 # Comprehensive Introduction to Shenzhen, China
 
@@ -46,12 +46,12 @@ The city is also known for its theme parks, shopping districts like Dongmen, and
 
 Shenzhen exemplifies China's rapid modernization, blending high-tech ambition with growing emphasis on sustainability and quality of life. As of 2025, it continues to evolve as a leader in innovation and international connectivity.
 
-References:  
+References:
 
-- [Shenzhen Population 2025 - World Population Review](https://worldpopulationreview.com/cities/china/shenzhen)  
-- [Shenzhen - Wikipedia](https://en.wikipedia.org/wiki/Shenzhen)  
-- [Shenzhen Government Online - Population News](https://www.eyeshenzhen.com/content/2025-02/21/content_31470906.htm)  
-- [Shenzhen GDP and Economy Reports](https://www.statista.com/statistics/1025207/china-gdp-of-shenzhen/)  
-- [Britannica - Shenzhen](https://www.britannica.com/place/Shenzhen)  
-- [TripAdvisor - Shenzhen Attractions](https://www.tripadvisor.com/Attractions-g297415-Activities-Shenzhen_Guangdong.html)  
+- [Shenzhen Population 2025 - World Population Review](https://worldpopulationreview.com/cities/china/shenzhen)
+- [Shenzhen - Wikipedia](https://en.wikipedia.org/wiki/Shenzhen)
+- [Shenzhen Government Online - Population News](https://www.eyeshenzhen.com/content/2025-02/21/content_31470906.htm)
+- [Shenzhen GDP and Economy Reports](https://www.statista.com/statistics/1025207/china-gdp-of-shenzhen/)
+- [Britannica - Shenzhen](https://www.britannica.com/place/Shenzhen)
+- [TripAdvisor - Shenzhen Attractions](https://www.tripadvisor.com/Attractions-g297415-Activities-Shenzhen_Guangdong.html)
 - [South China Morning Post - Shenzhen History](https://www.scmp.com/article/660568/shenzhen-story-fishing-village-thriving-metropolis)

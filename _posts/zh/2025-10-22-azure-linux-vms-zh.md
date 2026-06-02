@@ -19,5 +19,5 @@ type: note
 
 若需快速入门，请查阅创建 Linux 虚拟机的官方快速指南。
 
-[虚拟机—Linux | Microsoft Azure](https://azure.microsoft.com/zh-cn/products/virtual-machines/linux)  
+[虚拟机—Linux | Microsoft Azure](https://azure.microsoft.com/zh-cn/products/virtual-machines/linux)
 [Azure 认可的 Linux 发行版](https://learn.microsoft.com/zh-cn/azure/virtual-machines/linux/endorsed-distros)

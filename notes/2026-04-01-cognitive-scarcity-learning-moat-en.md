@@ -19,13 +19,13 @@ In the business world, a "moat" is a competitive advantage that protects a compa
 * **Signaling Value:** Achieving something difficult, like a high IELTS score or a technical certification, serves as a "signal" to society. It tells others you possess discipline, persistence, and high cognitive overhead.
 
 ### 2. Knowledge as an Attraction Magnet
-High-value individuals (like top AI researchers or professors) attract "good people" because they offer **mentorship and proximity to excellence**. 
-* In the IT/AI fields, the rate of change is so fast that being near someone with deep, foundational knowledge is a shortcut for others to learn. 
+High-value individuals (like top AI researchers or professors) attract "good people" because they offer **mentorship and proximity to excellence**.
+* In the IT/AI fields, the rate of change is so fast that being near someone with deep, foundational knowledge is a shortcut for others to learn.
 * This creates a "flywheel effect": Expert knowledge attracts talented peers, which leads to better projects, which further increases the value of that knowledge.
 
 ### 3. Judging Progress vs. Achievement
-You asked if we can judge someone by their "progress." This is often a more accurate metric than their current status. 
-* **The Velocity of Learning:** A person who has learned a vast amount in the last three years is often more valuable than someone who learned one thing ten years ago and stopped. 
+You asked if we can judge someone by their "progress." This is often a more accurate metric than their current status.
+* **The Velocity of Learning:** A person who has learned a vast amount in the last three years is often more valuable than someone who learned one thing ten years ago and stopped.
 * **Consistency:** Asking "What have you learned lately?" reveals a person's **growth mindset**. In a world where AI and technology shift every six months, the ability to learn *how* to learn is the ultimate currency.
 
 ### 4. Why Money Can't Always Compete

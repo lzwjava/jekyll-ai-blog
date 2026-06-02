@@ -53,7 +53,7 @@ node {
     try {
         // 调用共享库中的函数（假设该函数已存在）
         myLibraryFunction()
-        
+
         // 基于字符串参数使用if语句进行判断
         if (params.MY_STRING == 'test') {
             echo "正在运行测试"

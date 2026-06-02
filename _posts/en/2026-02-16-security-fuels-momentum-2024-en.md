@@ -11,7 +11,7 @@ type: note
 
 Question: Does the same principle—that financial security improves focus and performance—also explain why financial crises in companies (especially startups) often end badly, and why success breeds more success while struggles make things harder, due to the importance of momentum?
 
-Answer: 
+Answer:
 
 **Yes, exactly—the same underlying mechanism of security vs. insecurity driving focus, decision quality, and momentum applies at both the individual and company/startup levels.**
 
@@ -33,13 +33,13 @@ This is why many startups that look promising on paper still fail catastrophical
 
 Momentum matters enormously because human systems (individuals, teams, companies) are not purely rational machines. **Perceived security creates virtuous cycles of focus → performance → more security**, while **perceived insecurity creates vicious cycles of distraction → poor performance → more insecurity**.
 
-In short:  
-Success → ease → more success  
-Struggle → difficulty → more struggle  
+In short:
+Success → ease → more success
+Struggle → difficulty → more struggle
 
 The financial and psychological state is not just a background condition—it actively shapes capability and outcomes.
 
-References:  
+References:
 
 - [Runway and founder psychology in startup failure](https://www.paulgraham.com/startupmistakes.html)
 - [Momentum and perception in startups](https://www.ycombinator.com/blog/how-to-not-die)

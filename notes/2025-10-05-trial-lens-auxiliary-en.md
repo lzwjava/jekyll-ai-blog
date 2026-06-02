@@ -18,6 +18,6 @@ In the context of trial lenses and trial frames used in optometry for eye examin
 
 These auxiliary lenses are standard components in most trial lens sets (e.g., 158-piece or 266-piece kits) and help in subjective refraction alongside spherical, cylindrical, and prism lenses.
 
-[China 232 Trial Lens Kit](https://www.shvisualtech.com/refraction-instruments/trial-lens-set-and-frame/232-trial-lens-kit.html)  
-[BR-260 Trial Lens Set](https://www.mdt.pl/en/produkt/br-260/)  
+[China 232 Trial Lens Kit](https://www.shvisualtech.com/refraction-instruments/trial-lens-set-and-frame/232-trial-lens-kit.html)
+[BR-260 Trial Lens Set](https://www.mdt.pl/en/produkt/br-260/)
 [Test Lens Kit Reviewed](https://endmyopia.org/test-lens-kit-reviewed-110-vs-650/)

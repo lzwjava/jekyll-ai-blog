@@ -11,7 +11,7 @@ type: note
 
 Question: Why do people feel desperate in life, and how do they develop learned helplessness?
 
-Answer: 
+Answer:
 
 ## Understanding Desperation in Life
 

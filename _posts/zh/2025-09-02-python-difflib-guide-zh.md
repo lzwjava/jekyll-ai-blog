@@ -34,8 +34,8 @@ type: note
 
 **核心方法**：
 
-1. **`ratio()`**  
-   返回 [0, 1] 范围内的浮点数表示相似度  
+1. **`ratio()`**
+   返回 [0, 1] 范围内的浮点数表示相似度
    计算公式：
 
    $$
@@ -44,14 +44,14 @@ type: note
 
    其中 `M` = 匹配元素数量，`T` = 两个序列的元素总数
 
-2. **`quick_ratio()`** 与 **`real_quick_ratio()`**  
+2. **`quick_ratio()`** 与 **`real_quick_ratio()`**
    通过牺牲精度换取速度的相似度快速估算方法
 
-3. **`get_opcodes()`**  
-   返回将序列 `a` 转换为 `b` 的操作列表  
+3. **`get_opcodes()`**
+   返回将序列 `a` 转换为 `b` 的操作列表
    示例：`[('replace', 0, 2, 0, 1), ('equal', 2, 4, 1, 3)]`
 
-4. **`get_matching_blocks()`**  
+4. **`get_matching_blocks()`**
    返回所有匹配子序列及其位置信息
 
 ---

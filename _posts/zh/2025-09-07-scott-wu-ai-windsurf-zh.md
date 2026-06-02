@@ -16,18 +16,18 @@ type: note
 
 ### 访谈核心要点
 
-**AI软件工程师“Devin”与万物“点球成金”化**  
+**AI软件工程师“Devin”与万物“点球成金”化**
 Scott Wu阐述了Cognition的AI编程助手Devin如何重塑工程实践——既提升生产效率，又推动工程方法向数据驱动的“点球成金”模式演进。（[Irish Podcasts][1], [Podwise][2]）
 
-**早期经历与数学竞赛**  
+**早期经历与数学竞赛**
 Wu分享了少年时期的轶事——六年级时与Alexandr Wang等同伴参加数学竞赛的经历，以及高中时期在Addepar工作的早期实践。（[Irish Podcasts][1], [Podwise][2]）
 
-**收购Windsurf**  
+**收购Windsurf**
 重点讨论了Cognition于七月快速收购AI工具初创公司*Windsurf*的决策。Wu回忆了那个“不眠周末”——当OpenAI的交易破裂后，谷歌迅速介入聘请Windsurf CEO并授权其部分技术，促使Cognition立即行动。此举旨在保留核心人才，并在数日内快速整合基础设施、营销和运营团队，避免人才流失。（[Business Insider][3], [Irish Podcasts][1]）
 
 Wu指出Windsurf带来了互补的客户群（如摩根大通），而Cognition则拥有高盛等客户——形成收购后的协同效应。此后不久便推出了名为“Wave 11”的重大更新。（[Business Insider][3]）
 
-**更广泛影响：AI智能体经济与AGI信念**  
+**更广泛影响：AI智能体经济与AGI信念**
 双方深入探讨了宏观议题：基于智能体的AI系统如何重塑市场结构与工程流程，以及Wu提出的“我们已实现AGI”这一关于当前AI能力的颠覆性观点。（[Irish Podcasts][1], [Podwise][2]）
 
 ---

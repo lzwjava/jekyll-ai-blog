@@ -18,7 +18,7 @@ type: note
 
 Istio is the most widely adopted **open-source service mesh** platform. It provides a uniform way to secure, connect, observe, and control microservices without requiring changes to application code.
 
-Main idea:  
+Main idea:
 Move cross-cutting concerns (traffic management, security, observability, policy enforcement) **out of the application code** → into a dedicated infrastructure layer.
 
 ### Core Architecture

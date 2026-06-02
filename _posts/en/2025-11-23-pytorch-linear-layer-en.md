@@ -61,10 +61,10 @@ You mentioned passing **ReLU** or **Sigmoid** into `nn.Linear`. This is a common
 import torch.nn as nn
 
 # The Linear layer
-linear_layer = nn.Linear(input_size, output_size) 
+linear_layer = nn.Linear(input_size, output_size)
 
 # The Activation layer is separate
-activation_layer = nn.ReLU() 
+activation_layer = nn.ReLU()
 
 # You chain them together in the forward pass or a Sequential model:
 model = nn.Sequential(

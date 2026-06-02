@@ -51,7 +51,7 @@ doctl compute droplet create amd-gpu \
   --image <base-image-id> \
   --size gpu-h100x80-1 \
   --region ... \
-  --ssh-keys ... 
+  --ssh-keys ...
   # then attach volume
 doctl compute volume-action attach <volume-id> <new-droplet-id>
 ```

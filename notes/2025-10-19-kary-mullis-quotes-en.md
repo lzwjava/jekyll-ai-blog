@@ -34,7 +34,7 @@ Kary Mullis, the Nobel Prize-winning biochemist who invented the polymerase chai
 
 10. "I encountered a glowing green raccoon riding a neon orange motorcycle at my cabin in the woods of northern California around midnight one night in 1985. The raccoon proceeded to metamorphose into a singing dolphin at the stroke of midnight."
 
-[Goodreads: Quotes by Kary Mullis](https://www.goodreads.com/author/quotes/27178.Kary_Mullis)  
-[Wikiquote: Kary Mullis](https://en.wikiquote.org/wiki/Kary_Mullis)  
-[A-Z Quotes: Kary Mullis](https://www.azquotes.com/author/10544-Kary_Mullis)  
+[Goodreads: Quotes by Kary Mullis](https://www.goodreads.com/author/quotes/27178.Kary_Mullis)
+[Wikiquote: Kary Mullis](https://en.wikiquote.org/wiki/Kary_Mullis)
+[A-Z Quotes: Kary Mullis](https://www.azquotes.com/author/10544-Kary_Mullis)
 [QuoteFancy: Kary Mullis Quotes](https://quotefancy.com/kary-mullis-quotes)

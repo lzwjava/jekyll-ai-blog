@@ -24,66 +24,66 @@ Answer:
 
 ### 15 天 Australia 经典亮点行程
 
-**第 1 天：抵达 Sydney**  
-抵达 **Sydney**。前往市区酒店。下午/傍晚：漫步 Circular Quay，欣赏日落下的 Sydney Opera House 和 Harbour Bridge，享受景观晚餐。  
+**第 1 天：抵达 Sydney**
+抵达 **Sydney**。前往市区酒店。下午/傍晚：漫步 Circular Quay，欣赏日落下的 Sydney Opera House 和 Harbour Bridge，享受景观晚餐。
 *住宿：Sydney*
 
-**第 2 天：Sydney – 城市与港口**  
-上午参加港口游船或搭乘渡轮前往 Manly。下午：Sydney Opera House 导览游、The Rocks 历史区、Royal Botanic Garden。晚上：Darling Harbour 或天台酒吧。  
+**第 2 天：Sydney – 城市与港口**
+上午参加港口游船或搭乘渡轮前往 Manly。下午：Sydney Opera House 导览游、The Rocks 历史区、Royal Botanic Garden。晚上：Darling Harbour 或天台酒吧。
 *住宿：Sydney*
 
-**第 3 天：Blue Mountains 一日游**  
-Blue Mountains 全日游（通常包括 Scenic World、Three Sisters、Wentworth Falls、野生动物观察）。下午晚些时候返回。  
+**第 3 天：Blue Mountains 一日游**
+Blue Mountains 全日游（通常包括 Scenic World、Three Sisters、Wentworth Falls、野生动物观察）。下午晚些时候返回。
 *住宿：Sydney*
 
-**第 4 天：Sydney – Bondi 与海岸步道**  
-上午：Bondi Beach + Bondi 至 Coogee 海岸步道（或缩短版）。下午：自由活动（周六可去 Paddington markets，或在海滩放松）。  
+**第 4 天：Sydney – Bondi 与海岸步道**
+上午：Bondi Beach + Bondi 至 Coogee 海岸步道（或缩短版）。下午：自由活动（周六可去 Paddington markets，或在海滩放松）。
 *住宿：Sydney*
 
-**第 5 天：Sydney → Uluru (Ayers Rock)**  
-上午乘飞机前往 **Uluru**（约 3.5 小时）。下午：Uluru Base Walk（10.6 公里平坦步道）或较短的日落观测点。晚上：Sounds of Silence 晚餐（非常受欢迎，需提前预订）。  
+**第 5 天：Sydney → Uluru (Ayers Rock)**
+上午乘飞机前往 **Uluru**（约 3.5 小时）。下午：Uluru Base Walk（10.6 公里平坦步道）或较短的日落观测点。晚上：Sounds of Silence 晚餐（非常受欢迎，需提前预订）。
 *住宿：Yulara (靠近 Uluru)*
 
-**第 6 天：Uluru & Kata Tjuta**  
-Uluru 观赏日出，随后前往 Kata Tjuta (The Olgas) 进行 Valley of the Winds 徒步（难度中等，景色壮丽）。下午：文化中心 + 点画工作室或自由活动。  
+**第 6 天：Uluru & Kata Tjuta**
+Uluru 观赏日出，随后前往 Kata Tjuta (The Olgas) 进行 Valley of the Winds 徒步（难度中等，景色壮丽）。下午：文化中心 + 点画工作室或自由活动。
 *住宿：Yulara*
 
-**第 7 天：Uluru → Cairns / Port Douglas**  
-上午乘飞机前往 **Cairns**（约 2.5–3 小时，常经由 Sydney 转机）。前往酒店或向北前往 Port Douglas（1 小时车程——推荐入住更漂亮的海滩/度假村）。下午/傍晚放松。  
+**第 7 天：Uluru → Cairns / Port Douglas**
+上午乘飞机前往 **Cairns**（约 2.5–3 小时，常经由 Sydney 转机）。前往酒店或向北前往 Port Douglas（1 小时车程——推荐入住更漂亮的海滩/度假村）。下午/傍晚放松。
 *住宿：Cairns 或 Port Douglas*
 
-**第 8 天：Great Barrier Reef – 外堡礁**  
-全天乘船前往 **Outer Great Barrier Reef**（珊瑚质量和能见度优于内礁）。浮潜、体验式潜水、玻璃底船、自助午餐。  
+**第 8 天：Great Barrier Reef – 外堡礁**
+全天乘船前往 **Outer Great Barrier Reef**（珊瑚质量和能见度优于内礁）。浮潜、体验式潜水、玻璃底船、自助午餐。
 *住宿：Cairns / Port Douglas*
 
-**第 9 天：Daintree Rainforest & Cape Tribulation**  
-全天游览：Mossman Gorge、Daintree River 游船（观赏鳄鱼）、Cape Tribulation 海滩漫步、雨林栈道。这是少数珊瑚礁与古老雨林交汇的地方。  
+**第 9 天：Daintree Rainforest & Cape Tribulation**
+全天游览：Mossman Gorge、Daintree River 游船（观赏鳄鱼）、Cape Tribulation 海滩漫步、雨林栈道。这是少数珊瑚礁与古老雨林交汇的地方。
 *住宿：Cairns / Port Douglas*
 
-**第 10 天：自由活动或可选礁石/Whitsundays**  
-选项 A：放松 / Kuranda Scenic Railway + Skyrail。  
-选项 B：飞往 Airlie Beach（约 1 小时），参加 2 晚 3 天的 Whitsundays 航海体验（Whitehaven Beach, Hill Inlet）——参加第 10–12 天行程，第 13 天飞往 Melbourne。  
-大多数人选择放松或 Kuranda。  
+**第 10 天：自由活动或可选礁石/Whitsundays**
+选项 A：放松 / Kuranda Scenic Railway + Skyrail。
+选项 B：飞往 Airlie Beach（约 1 小时），参加 2 晚 3 天的 Whitsundays 航海体验（Whitehaven Beach, Hill Inlet）——参加第 10–12 天行程，第 13 天飞往 Melbourne。
+大多数人选择放松或 Kuranda。
 *住宿：Cairns / Port Douglas*
 
-**第 11 天：Cairns → Melbourne**  
-上午乘飞机前往 **Melbourne**（约 3 小时）。下午：Federation Square、街头艺术小巷 (Hosier Lane)、Yarra River 散步、在小巷餐厅内享用晚餐。  
+**第 11 天：Cairns → Melbourne**
+上午乘飞机前往 **Melbourne**（约 3 小时）。下午：Federation Square、街头艺术小巷 (Hosier Lane)、Yarra River 散步、在小巷餐厅内享用晚餐。
 *住宿：Melbourne*
 
-**第 12 天：Melbourne 城市与文化**  
-Queen Victoria Market、NGV (National Gallery)、Royal Botanic Gardens、Degraves Street 咖啡文化、天台酒吧或 Southbank。晚上：Lygon Street 意大利美食或天台轻饮。  
+**第 12 天：Melbourne 城市与文化**
+Queen Victoria Market、NGV (National Gallery)、Royal Botanic Gardens、Degraves Street 咖啡文化、天台酒吧或 Southbank。晚上：Lygon Street 意大利美食或天台轻饮。
 *住宿：Melbourne*
 
-**第 13 天：Great Ocean Road 一日游**  
-全天小团游：Twelve Apostles、Loch Ard Gorge、London Bridge、寻找野外考拉、Apollo Bay。虽然时间较长（约 12 小时），但这是世界上最伟大的海岸公路之一。  
+**第 13 天：Great Ocean Road 一日游**
+全天小团游：Twelve Apostles、Loch Ard Gorge、London Bridge、寻找野外考拉、Apollo Bay。虽然时间较长（约 12 小时），但这是世界上最伟大的海岸公路之一。
 *住宿：Melbourne*
 
-**第 14 天：Melbourne 自由活动或 Phillip Island**  
-选项 A：自由活动——购物、Yarra Valley 酒庄（一日游）或日落时分在 St Kilda 观赏企鹅。  
-选项 B：Phillip Island 一日游（企鹅归巢/Penguin Parade、考拉、海豹）。  
+**第 14 天：Melbourne 自由活动或 Phillip Island**
+选项 A：自由活动——购物、Yarra Valley 酒庄（一日游）或日落时分在 St Kilda 观赏企鹅。
+选项 B：Phillip Island 一日游（企鹅归巢/Penguin Parade、考拉、海豹）。
 *住宿：Melbourne*
 
-**第 15 天：离开 Melbourne 或飞往 Sydney**  
+**第 15 天：离开 Melbourne 或飞往 Sydney**
 根据您的国际航班：从 Melbourne 直接离境，或早班机飞回 Sydney 准备晚班机离境。
 
 ### 快速总结表
@@ -105,7 +105,7 @@ Queen Victoria Market、NGV (National Gallery)、Royal Botanic Gardens、Degrave
 
 这套行程让您在 15 天内体验城市 + 珊瑚礁 + Outback + 野生动物/海岸，且不至于感觉过于匆忙。
 
-References:  
+References:
 
 - [kimkim.com - Australia 15-Day Tours & Itineraries](https://www.kimkim.com/sc/australia-15-day-tours)
 - [Travel Nation - Perfect 2-week Australia itinerary for first-time visitors](https://travelnation.co.uk/blog/perfect-2-week-australia-itinerary-first-time-visitors)

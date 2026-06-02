@@ -32,9 +32,9 @@ type: note
 
 总而言之，9V电池因其紧凑性、易用性以及在需要9V但没有足够空间容纳多个较大电池的设备中提供标准化连接而存在。它**不**比六节1.5V电池占用更多空间——它占用得更少。
 
-参考文献：  
+参考文献：
 
-- https://en.wikipedia.org/wiki/Nine-volt_battery  
-- https://electronics.stackexchange.com/questions/322908/batteries-why-use-9v  
-- https://paleblueearth.com/blogs/news/why-would-a-manufacturer-choose-9v-over-aa-batteries  
+- https://en.wikipedia.org/wiki/Nine-volt_battery
+- https://electronics.stackexchange.com/questions/322908/batteries-why-use-9v
+- https://paleblueearth.com/blogs/news/why-would-a-manufacturer-choose-9v-over-aa-batteries
 - https://www.baldengineer.com/9v-battery-energy-density.html

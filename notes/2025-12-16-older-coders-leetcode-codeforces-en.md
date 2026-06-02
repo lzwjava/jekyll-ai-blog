@@ -12,7 +12,7 @@ type: note
 
 Question: Are there many people in their 30s or 40s who still do LeetCode or Codeforces?
 
-Answer: 
+Answer:
 
 While the majority of active users and high performers on both LeetCode and Codeforces are younger (primarily 18–34 years old), there are still many people in their 30s and 40s participating, especially on LeetCode.
 
@@ -25,7 +25,7 @@ For **Codeforces**, the user base is even younger, with the largest group being 
 
 In summary, yes for LeetCode (quite a few, driven by career needs), but fewer for Codeforces (mostly younger enthusiasts).
 
-References:  
+References:
 
 - https://www.similarweb.com/website/leetcode.com/ (LeetCode audience demographics)
 - https://www.similarweb.com/website/codeforces.com/ (Codeforces audience demographics)

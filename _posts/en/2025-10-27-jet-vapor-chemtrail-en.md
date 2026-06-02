@@ -12,7 +12,7 @@ type: note
 
 ### Yin Wang's Memo: Contrasting Jet Engine Water Vapor from Passenger Planes with Chemtrails from Trail Planes
 
-**By YIN WANG**  
+**By YIN WANG**
 **February 11, 2024**
 
 Today, I saw several trail planes flying overhead again. I observed their shapes through binoculars but didn't take photos, as I've already captured plenty before. Now that I've learned the principles of jet engine operation, looking at these trail planes makes the concepts in my mind much clearer. From the latest engine knowledge I've acquired, I can determine that these trails are clearly not coming from the engines, because the trails move very slowly—that's obviously not the speed of gases expelled from a jet engine.
@@ -36,44 +36,44 @@ Additionally, note that the water produced by aircraft engines isn't abundant, s
 ### Recommended Posts from Yin Wang's Memo
 Here are English translations/summaries of the recommended articles listed on the page, in the order they appear:
 
-- **Simple Method to Cure Athlete's Foot**  
-  Recent research projects have included various sports, but also a very annoying issue called athlete's foot. Finally, with my own wisdom, I successfully conquered it.  
+- **Simple Method to Cure Athlete's Foot**
+  Recent research projects have included various sports, but also a very annoying issue called athlete's foot. Finally, with my own wisdom, I successfully conquered it.
   *October 26, 2023 • YIN WANG* (14 likes)
 
-- **Harsh Review of "Introduction to Algorithms"**  
-  In a previous article, I mentioned the importance of learning AVL trees or B-trees. Later, in a basic class discussion, a student mentioned hearing about "red-black trees" and asked the difference from AVL trees. I told him red-black trees are "random" and not precisely balanced, so their search efficiency doesn't have the same guarantees as AVL trees.  
+- **Harsh Review of "Introduction to Algorithms"**
+  In a previous article, I mentioned the importance of learning AVL trees or B-trees. Later, in a basic class discussion, a student mentioned hearing about "red-black trees" and asked the difference from AVL trees. I told him red-black trees are "random" and not precisely balanced, so their search efficiency doesn't have the same guarantees as AVL trees.
   *March 5, 2024 • YIN WANG* (16 likes)
 
-- **Computer Science Fundamentals Class (5th Session) Concludes**  
-  I can now announce that the Computer Science Fundamentals Class (5th Session) has successfully concluded. The results far exceeded my expectations. Not only did the existing content improve greatly, but the new additions on imperative programming methods, Python, Java, and Rust languages perfectly fulfilled their roles. We even added a special bonus lesson on C++.  
+- **Computer Science Fundamentals Class (5th Session) Concludes**
+  I can now announce that the Computer Science Fundamentals Class (5th Session) has successfully concluded. The results far exceeded my expectations. Not only did the existing content improve greatly, but the new additions on imperative programming methods, Python, Java, and Rust languages perfectly fulfilled their roles. We even added a special bonus lesson on C++.
   *May 3, 2024 • YIN WANG* (13 likes)
 
-- **My Story with Humans**  
-  At the beginning, I told people Windows wasn't a good thing and recommended Linux or FreeBSD instead—they didn't believe me. Later, Linux dominated nearly all high-end server markets, and FreeBSD took over all Apple products.  
+- **My Story with Humans**
+  At the beginning, I told people Windows wasn't a good thing and recommended Linux or FreeBSD instead—they didn't believe me. Later, Linux dominated nearly all high-end server markets, and FreeBSD took over all Apple products.
   *November 22, 2022 • YIN WANG* (31 likes)
 
-- **Why I Left This World**  
-  Whenever I write articles pointing out phenomena I think shouldn't happen in certain places, or describing what the world *should* be like, someone mocks me by saying, "Yin Wang's next article will be 'Why I Left...'" Indeed, I've written many such pieces, starting from "The Shattering of the Tsinghua Dream" to later ones about Cornell, Google...  
+- **Why I Left This World**
+  Whenever I write articles pointing out phenomena I think shouldn't happen in certain places, or describing what the world *should* be like, someone mocks me by saying, "Yin Wang's next article will be 'Why I Left...'" Indeed, I've written many such pieces, starting from "The Shattering of the Tsinghua Dream" to later ones about Cornell, Google...
   *February 2, 2024 • YIN WANG* (13 likes)
 
-- **Recalling CPSer**  
-  CPSer, known as "Yin Wang's 40 Lines of Code," was an "automatic CPS transformation" I wrote at Indiana University (IU). At its core, it's actually a compiler, and it has no so-called administrative redexes—meaning the generated code has no unnecessary overhead.  
+- **Recalling CPSer**
+  CPSer, known as "Yin Wang's 40 Lines of Code," was an "automatic CPS transformation" I wrote at Indiana University (IU). At its core, it's actually a compiler, and it has no so-called administrative redexes—meaning the generated code has no unnecessary overhead.
   *February 28, 2024 • YIN WANG* (11 likes)
 
-- **How Did Design Patterns Become Popular?**  
-  30 years later, people are finally celebrating the gradual demise of *Design Patterns*. This book once dominated at Google...  
+- **How Did Design Patterns Become Popular?**
+  30 years later, people are finally celebrating the gradual demise of *Design Patterns*. This book once dominated at Google...
   *November 23, 2022 • YIN WANG* (20 likes)
 
-- **Why I See the World I See**  
-  Someone told me my articles changed their family's worldview—I was delighted to hear it. Reflecting, why did I end up here, seeing through so many of the world's huge secrets? It's inseparable from my initial decision to start the Computer Science Fundamentals class.  
+- **Why I See the World I See**
+  Someone told me my articles changed their family's worldview—I was delighted to hear it. Reflecting, why did I end up here, seeing through so many of the world's huge secrets? It's inseparable from my initial decision to start the Computer Science Fundamentals class.
   *January 24, 2024 • YIN WANG* (10 likes)
 
-- **How to Handle Layoffs and Budget Cuts at Tech Companies**  
-  Recently, many tech companies are laying off staff; those not laid off are skimping on bonuses. My advice to students from my classes: Master your core skills, reduce your effort at work. Enjoy more entertainment and leisure, travel. Don't write clear, maintainable code (contrary to my teaching). Let them know: For the pay given, only that much work gets done—excellent code can't be bought for that price.  
+- **How to Handle Layoffs and Budget Cuts at Tech Companies**
+  Recently, many tech companies are laying off staff; those not laid off are skimping on bonuses. My advice to students from my classes: Master your core skills, reduce your effort at work. Enjoy more entertainment and leisure, travel. Don't write clear, maintainable code (contrary to my teaching). Let them know: For the pay given, only that much work gets done—excellent code can't be bought for that price.
   *August 18, 2023 • YIN WANG* (11 likes)
 
-- **The Nightmare of Air Fresheners**  
-  I came to the UK, one of the world's supposedly cleanest countries with the best air. Yet after nearly a month, my impression of the actual environment is very poor. In fact, I feel like I'm living in a nightmare, one cause of which is the omnipresent "air freshener" smell...  
+- **The Nightmare of Air Fresheners**
+  I came to the UK, one of the world's supposedly cleanest countries with the best air. Yet after nearly a month, my impression of the actual environment is very poor. In fact, I feel like I'm living in a nightmare, one cause of which is the omnipresent "air freshener" smell...
   *February 3, 2023 • YIN WANG* (22 likes)
 
 ---

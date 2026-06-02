@@ -43,8 +43,8 @@ But more concretely — the following greedy strategy works well for the easy ve
 
 1. Walk from left to right.
 2. Keep track of current balance.
-3. As soon as we see a position where s[i] = `)` **and** current balance would still be ≥ 0 if we treat it as `(`,  
-   → we **can** decide to “upgrade” this `)` → `(`  
+3. As soon as we see a position where s[i] = `)` **and** current balance would still be ≥ 0 if we treat it as `(`,
+   → we **can** decide to “upgrade” this `)` → `(`
    → from this point on, we try to match as many brackets as possible (greedily take until balance returns to 0)
 
 4. Among all such possible “upgrade points”, take the one that allows the longest valid t.
@@ -112,19 +112,19 @@ public class Main {
 
 ### Why this works for the example `(()(()))`
 
-s = ` ( ( ) ( ( ) ) )`  
+s = ` ( ( ) ( ( ) ) )`
  indices   0 1 2 3 4 5 6 7
 
 When i=3 (0-based), s[3]=`)`
 
-Prefix 0..2: `(()`  → balance = +1  
+Prefix 0..2: `(()`  → balance = +1
 Change position 3 to `(`  → balance = +2
 
 Then continue from position 4:
 
-4: `(`   → +3  
-5: `)`   → +2  
-6: `)`   → +1  
+4: `(`   → +3
+5: `)`   → +2
+6: `)`   → +1
 7: `)`   → 0   ← here balance returns to 0
 
 → we can take length = 8 (but wait — no: we took up to 7 → length 8)

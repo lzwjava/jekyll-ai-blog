@@ -12,7 +12,7 @@ type: note
 
 Question: What are Kyle Bass's comments on China's economy?
 
-Answer: 
+Answer:
 
 Kyle Bass, founder and CIO of Hayman Capital Management, has been a vocal critic of China's economy for years, arguing that it is in a severe, irreversible downturn driven by structural weaknesses, government mismanagement, and overleveraging. He describes it as "circling the drain," facing an "economic spiral with no end in sight," and on the verge of collapse, far worse than official reports suggest. Bass emphasizes that China's challenges are deeper than the 2008 U.S. financial crisis, with massive debt loads, a real estate bust, banking insolvency, skyrocketing youth unemployment, plummeting birth rates, and manipulated data hiding the true extent of the problems.
 
@@ -25,10 +25,10 @@ Kyle Bass, founder and CIO of Hayman Capital Management, has been a vocal critic
 
 Bass's views, shared via interviews, podcasts, and X posts, contrast with optimistic narratives, positioning China as a middling power (economy ~60% of U.S. size) propped up by propaganda like purchasing power parity (PPP) distortions from state-controlled prices and subsidies.
 
-References:  
-- [Kyle Bass Says China's Economy Is 'Circling the Drain'](https://www.bloomberg.com/news/videos/2023-09-11/kyle-bass-says-china-s-economy-is-circling-the-drain-video)  
-- [Kyle Bass: Why the Chinese Economy is Going to Collapse](https://www.youtube.com/watch?v=cYZqkVGOT4g)  
-- [China’s Economy Spirals With No End in Sight, Says Kyle Bass](https://www.theepochtimes.com/china/chinas-economy-spirals-with-no-end-in-sight-says-kyle-bass-5879345)  
-- [Cripple China's Economy Overnight – Hedge Funder Kyle Bass Gives Roadmap To Protect Taiwan](https://www.benzinga.com/news/24/08/40541438/cripple-chinas-economy-overnight-hedge-funder-kyle-bass-gives-roadmap-to-protect-taiwan-the-usa-hold)  
-- [China’s Bond Market Is a Sign of a Collapsing Economy, Says Kyle Bass](https://www.theepochtimes.com/china/chinas-bond-market-is-a-sign-of-a-collapsing-economy-says-kyle-bass-5786933)  
+References:
+- [Kyle Bass Says China's Economy Is 'Circling the Drain'](https://www.bloomberg.com/news/videos/2023-09-11/kyle-bass-says-china-s-economy-is-circling-the-drain-video)
+- [Kyle Bass: Why the Chinese Economy is Going to Collapse](https://www.youtube.com/watch?v=cYZqkVGOT4g)
+- [China’s Economy Spirals With No End in Sight, Says Kyle Bass](https://www.theepochtimes.com/china/chinas-economy-spirals-with-no-end-in-sight-says-kyle-bass-5879345)
+- [Cripple China's Economy Overnight – Hedge Funder Kyle Bass Gives Roadmap To Protect Taiwan](https://www.benzinga.com/news/24/08/40541438/cripple-chinas-economy-overnight-hedge-funder-kyle-bass-gives-roadmap-to-protect-taiwan-the-usa-hold)
+- [China’s Bond Market Is a Sign of a Collapsing Economy, Says Kyle Bass](https://www.theepochtimes.com/china/chinas-bond-market-is-a-sign-of-a-collapsing-economy-says-kyle-bass-5786933)
 - [The Bear Case for China w/ Kyle Bass](https://www.theinvestorspodcast.com/episodes/the-bear-case-for-china-w-kyle-bass/)

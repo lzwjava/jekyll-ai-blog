@@ -69,7 +69,7 @@ Without positional encoding, the transformer would treat `"刚想到了"` and `"
 
 The original paper uses sine and cosine functions to calculate a value for every input vector:
 
-`PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`  
+`PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`
 `PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))`
 
 Different dimensions oscillate at different frequencies, giving each position a **unique fingerprint vector** that the model can learn to read.

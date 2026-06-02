@@ -19,5 +19,5 @@ Yes, Azure Virtual Machines (VMs) fully support running Linux operating systems.
 
 If you're getting started, check the official quickstart guide for creating a Linux VM.
 
-[Virtual Machines—Linux | Microsoft Azure](https://azure.microsoft.com/en-us/products/virtual-machines/linux)  
+[Virtual Machines—Linux | Microsoft Azure](https://azure.microsoft.com/en-us/products/virtual-machines/linux)
 [Endorsed Linux distributions on Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/endorsed-distros)

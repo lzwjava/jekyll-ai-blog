@@ -12,9 +12,9 @@ type: note
 
 问题：在诗歌《长恨歌》中，主要描写其情感的核心人物是谁？
 
-A. Yang Guifei (杨贵妃)  
-B. Li Bai (李白)  
-C. Du Fu (杜甫)  
+A. Yang Guifei (杨贵妃)
+B. Li Bai (李白)
+C. Du Fu (杜甫)
 D. Bai Juyi (白居易)
 
 答案：
@@ -32,6 +32,6 @@ D. Bai Juyi (白居易)
 
 正确答案：**A. 杨贵妃**
 
-参考资料：  
-- [https://zh.wikipedia.org/wiki/长恨歌](https://zh.wikipedia.org/wiki/%E9%95%BF%E6%81%A8%E6%AD%8C)  
+参考资料：
+- [https://zh.wikipedia.org/wiki/长恨歌](https://zh.wikipedia.org/wiki/%E9%95%BF%E6%81%A8%E6%AD%8C)
 - 标准中学文学课程 (《长恨歌》教学内容)

@@ -47,6 +47,6 @@ The book ends with calls for re-examining AIDS through toxicology and epidemiolo
 
 While praised by some for its depth and anti-establishment zeal (e.g., foreword by Kary Mullis, PCR inventor), the book is widely dismissed as AIDS denialism. Mainstream science rejects it for cherry-picking data, ignoring HIV's role in global epidemics, and endangering lives by undermining treatments. Duesberg's views contributed to denial movements in South Africa, linked to excess deaths. It's a provocative read for those skeptical of orthodoxy but not a substitute for consensus medicine.
 
-[Inventing the AIDS Virus - Wikipedia](https://en.wikipedia.org/wiki/Inventing_the_AIDS_Virus)  
-[NYT Review: The Unbeliever](https://www.nytimes.com/1996/04/07/books/the-unbeliever.html)  
+[Inventing the AIDS Virus - Wikipedia](https://en.wikipedia.org/wiki/Inventing_the_AIDS_Virus)
+[NYT Review: The Unbeliever](https://www.nytimes.com/1996/04/07/books/the-unbeliever.html)
 [Amazon Book Description](https://www.amazon.com/Inventing-AIDS-Virus-Peter-Duesberg/dp/0895264706)

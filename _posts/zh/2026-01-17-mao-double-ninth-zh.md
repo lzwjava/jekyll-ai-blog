@@ -12,7 +12,7 @@ type: note
 
 Question: Use English to introduce Mao Zedong's poem "Cai Sang Zi · Chong Yang" (采桑子·重阳)
 
-Answer: 
+Answer:
 
 **Introduction to Mao Zedong's "Cai Sang Zi · Chong Yang" (采桑子·重阳)**
 
@@ -20,23 +20,23 @@ Answer:
 
 ### Original Chinese Text
 
-重阳  
-人生易老天难老，岁岁重阳。  
-今又重阳，战地黄花分外香。  
-一年一度秋风劲，不似春光。  
+重阳
+人生易老天难老，岁岁重阳。
+今又重阳，战地黄花分外香。
+一年一度秋风劲，不似春光。
 胜似春光，寥廓江天万里霜。
 
 ### English Translation (common modern version)
 
-**Double Ninth**  
-Man ages easily, Heaven ages not;  
-Year after year the Double Ninth comes again.  
-Today once more the Double Ninth—  
-On the battlefield the yellow chrysanthemums smell especially sweet.  
+**Double Ninth**
+Man ages easily, Heaven ages not;
+Year after year the Double Ninth comes again.
+Today once more the Double Ninth—
+On the battlefield the yellow chrysanthemums smell especially sweet.
 
-The autumn wind is fierce once every year,  
-Unlike the spring’s gentle light.  
-Yet it surpasses spring’s light—  
+The autumn wind is fierce once every year,
+Unlike the spring’s gentle light.
+Yet it surpasses spring’s light—
 Vast river and sky, ten thousand miles of frost.
 
 ### Background & Meaning
@@ -47,13 +47,13 @@ Vast river and sky, ten thousand miles of frost.
 
 ### Key Artistic Features
 
-1. **Contrast between man and nature**  
+1. **Contrast between man and nature**
    “人生易老天难老”——人类衰老迅速，但自然（天）永葆青春——这是一个极具哲学意味的开篇。
 
-2. **Revolutionary battlefield chrysanthemums**  
+2. **Revolutionary battlefield chrysanthemums**
    “战地黄花分外香”——全词最著名的诗句。战场上绽放的黄花不仅美丽，而且因为革命斗争的洗礼，其芬芳显得格外浓郁。
 
-3. **"Not like spring light, yet better than spring light"**  
+3. **"Not like spring light, yet better than spring light"**
    Mao 豪迈地宣称，革命岁月中那种严峻、凌厉、充满生机的秋景，实际上优于春天的柔美。这反映了革命者的自信，以及磨难和斗争能产生更大价值的信念。
 
 ### Historical & Literary Significance
@@ -62,6 +62,6 @@ Vast river and sky, ten thousand miles of frost.
 
 在文学层面，它展示了 Mao 对 ci 词牌的驾驭能力，同时彻底颠覆了传统重阳节诗词（如 Du Mu 或 Wang Wei 的作品）的伤感基调，将其转化为豪迈、雄健且充满前瞻性的篇章。
 
-References:  
+References:
 
 - None (classical poem text and widely accepted historical context)

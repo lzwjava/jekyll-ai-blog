@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Y Combinator?
 
-Answer: 
+Answer:
 
 Y Combinator (YC) is widely celebrated as a premier startup accelerator, but it attracts plenty of criticism too. Below, I've compiled some unpopular opinions drawn from online discussions, articles, and posts. These represent contrarian views that challenge the hype—often highlighting biases, overhype, and structural flaws. I've focused on recurring themes for clarity.
 

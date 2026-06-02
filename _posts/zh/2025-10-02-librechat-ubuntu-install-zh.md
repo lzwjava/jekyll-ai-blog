@@ -83,6 +83,6 @@ LibreChat 是一款开源 AI 聊天平台，支持通过网页界面调用多种
 
 按照以上步骤可快速完成部署。若遇到错误，请提供输出信息以获取进一步帮助！
 
-[LibreChat 官方文档](https://docs.librechat.ai/install/installation/docker_compose.html)  
-[Ubuntu Docker 指南](https://docs.librechat.ai/install/installation/docker_ubuntu.html)  
+[LibreChat 官方文档](https://docs.librechat.ai/install/installation/docker_compose.html)
+[Ubuntu Docker 指南](https://docs.librechat.ai/install/installation/docker_ubuntu.html)
 [It's FOSS 教程](https://itsfoss.com/librechat-linux/)

@@ -12,7 +12,7 @@ type: note
 
 Question: The system complains "no space left on device", which is the root cause of the ongoing issues (including GDM failing to start). After reaching a text console with Ctrl+Alt+F3 (or similar), logging in, and running commands like `sudo systemctl restart gdm` or `sudo systemctl status gdm -l`, the problem persists. How to fix the "no space left on device" error and recover the system?
 
-Answer: 
+Answer:
 
 The **"No space left on device"** error is now the primary blocker — even if ownership/permissions are partially fixed, GDM (and many other services) cannot start because the disk (usually the root `/` partition) is completely full. This often happens after reckless `chown` operations combined with package reinstall attempts, log spam, or temporary files.
 
@@ -123,8 +123,8 @@ Avoid running broad recursive commands on `/usr`, `/var`, `/etc`. Use targeted f
 
 If you share the output of `df -h` and `du -sh /* | sort -hr | head` (or the biggest folders), I can tell you exactly which directories to clean next.
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available](https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available)  
-- [https://help.ubuntu.com/community/FullDisk](https://help.ubuntu.com/community/FullDisk)  
+- [https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available](https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available)
+- [https://help.ubuntu.com/community/FullDisk](https://help.ubuntu.com/community/FullDisk)
 - [https://askubuntu.com/questions/104635/how-to-clear-journalctl-logs](https://askubuntu.com/questions/104635/how-to-clear-journalctl-logs)

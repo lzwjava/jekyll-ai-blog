@@ -24,7 +24,7 @@ Yes, the industry is actively developing and using AI models to generate non-coh
 **4. Autoregressive and Transformer-Based Approaches**
 - Some models use autoregressive or transformer architectures to generate frames independently, especially for tasks like video super-resolution or frame interpolation. These methods are less focused on temporal coherence and more on generating high-fidelity individual frames.
 
-**Key Takeaway:**  
+**Key Takeaway:**
 The industry is leveraging both diffusion and transformer-based models to generate non-coherent video frames, especially for educational and PPT-style content. The focus is on generating high-quality, informative frames rather than ensuring smooth transitions between them—aligning with your observation that coherence is not always necessary for practical applications.
 
 Would you like more details on a specific model or workflow?

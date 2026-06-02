@@ -31,7 +31,7 @@ Uploading an app to Google Play is a well-documented process. Here’s how to do
 
 1. **Create a Google Play Developer Account**:
    - Go to the [Google Play Console](https://play.google.com/console) and sign up. You’ll need a Google account and a one-time fee of $25.
-   
+
 2. **Prepare Your App for Release**:
    - **Build a Release Version**: In Android Studio, generate a signed APK or App Bundle (AAB is preferred by Google). Use the “Build > Generate Signed Bundle/APK” option.
    - **App Signing**: You must sign your app with a keystore. You can:

@@ -11,7 +11,7 @@ type: note
 
 Question: What does "前列腺钙化灶" mean?
 
-Answer: 
+Answer:
 
 **"前列腺钙化灶" (prostate calcification foci)** refers to small deposits of calcium salts (calcium buildup) within the prostate gland. It is a very common finding in men, especially middle-aged and older men, and is often discovered incidentally during ultrasound (B超), CT, or other imaging exams.
 
@@ -40,7 +40,7 @@ Answer:
 
 In short: Seeing "prostate calcification foci" on a report is very common and usually harmless — like finding old healed scars inside the prostate. Don't panic. Focus on whether you have any urinary or pelvic symptoms; if not, it's typically just something to monitor.
 
-References:  
+References:
 
 - [https://m.baidu.com/bh/m/detail/sv_7612124416066660639](https://m.baidu.com/bh/m/detail/sv_7612124416066660639)
 - [https://zhuanlan.zhihu.com/p/622420628](https://zhuanlan.zhihu.com/p/622420628)

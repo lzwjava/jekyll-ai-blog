@@ -30,7 +30,7 @@ type: note
 
 Unicast是当今最常见的网络流量形式，用于日常活动，例如浏览网站、发送电子邮件或向单个用户流媒体视频。
 
-参考文献：  
+参考文献：
 
 - [Unicast - Wikipedia](https://en.wikipedia.org/wiki/Unicast)
 - [Unicast, Broadcast, and Multicast - University of Aberdeen](https://erg.abdn.ac.uk/users/gorry/course/intro-pages/uni-b-mcast.html)

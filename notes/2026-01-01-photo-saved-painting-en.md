@@ -12,7 +12,7 @@ type: note
 
 Question: When photography techniques become more advanced, do people paint less?
 
-Answer: 
+Answer:
 
 No, advancements in photography techniques have not led to people painting less overall. Instead, the invention and evolution of photography profoundly influenced painting by shifting its focus away from realistic representation, ultimately liberating and revitalizing the medium.
 
@@ -35,10 +35,10 @@ Digital photography (from the late 20th century) made image capture even easier 
 
 Advancements in photography changed *how* and *why* people paint (more expression, less replication), but not the quantity. Painting persists as a unique human craft emphasizing creativity, texture, and interpretation that mechanical or digital capture cannot fully replicate.
 
-References:  
+References:
 
-- [Role Reversal: How Paintings and Photography Switched Roles in the 20th Century](https://www.moas.org/Role-Reversal--How-Paintings-and-Photography-Switched-Roles-in-the-20th-Century-1-44.html)  
-- [Did Photography Really Kill Portrait Painting? - JSTOR Daily](https://daily.jstor.org/did-photography-really-kill-portrait-painting/)  
-- [How Photography Pioneered a New Understanding of Art | TheCollector](https://www.thecollector.com/how-photography-transformed-art/)  
-- [Photography Is Everywhere Now. Can Photo Auction Results Keep Pace?](https://news.artnet.com/market/photography-auction-industry-2655783)  
+- [Role Reversal: How Paintings and Photography Switched Roles in the 20th Century](https://www.moas.org/Role-Reversal--How-Paintings-and-Photography-Switched-Roles-in-the-20th-Century-1-44.html)
+- [Did Photography Really Kill Portrait Painting? - JSTOR Daily](https://daily.jstor.org/did-photography-really-kill-portrait-painting/)
+- [How Photography Pioneered a New Understanding of Art | TheCollector](https://www.thecollector.com/how-photography-transformed-art/)
+- [Photography Is Everywhere Now. Can Photo Auction Results Keep Pace?](https://news.artnet.com/market/photography-auction-industry-2655783)
 - [Art World Statistics Every Artist Needs to Know — CAI](https://www.contemporaryartissue.com/art-world-statistics-every-artist-needs-to-know/)

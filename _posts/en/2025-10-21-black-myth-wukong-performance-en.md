@@ -21,7 +21,7 @@ Black Myth: Wukong is a single-player action RPG inspired by *Journey to the Wes
   1. Open a terminal and run: `sudo apt update && sudo apt install steam`.
   2. Launch Steam, log in, and let it download updates.
 - **Game Compatibility**: Black Myth: Wukong has no native Linux version (it's Windows-only), but it runs *flawlessly* on Linux via Proton (Valve's compatibility layer built into Steam). It's rated **Platinum** on ProtonDB, meaning "perfect" out-of-the-box performance—no major tweaks needed. Users report better frame rates and stability on Linux than Windows in some cases, thanks to optimized Proton versions.
-- **Potential Hiccups**: 
+- **Potential Hiccups**:
   - It uses Denuvo DRM, which might flag Proton version switches as "new installs" (limiting activations). Stick to one Proton version to avoid this.
   - Rare crashes on launch? Force Proton Experimental in Steam (right-click game > Properties > Compatibility > check "Force the use of a specific Steam Play compatibility tool" > select Proton Experimental).
 - **Benchmark Test**: Before buying, download the free Black Myth: Wukong Benchmark Tool from Steam—it runs great on Proton and lets you stress-test your setup.

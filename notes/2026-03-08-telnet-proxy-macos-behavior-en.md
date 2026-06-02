@@ -61,10 +61,10 @@ Some graphical applications (GUI-based software) do not use the system's proxy s
 | `telnet` | TCP (raw) | ❌ No | ❌ No (by default) | CLI tools don't auto-read macOS proxy |
 | Safari / Chrome | HTTP/HTTPS | ✅ Yes | ✅ Yes | GUI apps respect system proxy |
 
-**Why `ping` bypasses proxies:**  
+**Why `ping` bypasses proxies:**
 `ping` uses **ICMP** (Internet Control Message Protocol), which works at the network layer — below TCP. Proxies (HTTP, SOCKS) operate at the transport/application layer. There is simply no mechanism for a proxy to intercept ICMP traffic.
 
-**Why `telnet` also bypasses proxies by default:**  
+**Why `telnet` also bypasses proxies by default:**
 `telnet` is a CLI tool. The macOS proxy system doesn't automatically configure the command-line network proxy. Unlike browsers, `telnet` makes a **direct TCP connection** and does not consult `HTTPEnable`, `HTTPSEnable`, or `SOCKSEnable` system settings on its own.
 
 ---

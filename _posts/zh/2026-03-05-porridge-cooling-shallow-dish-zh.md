@@ -11,7 +11,7 @@ type: note
 
 Question: 我用碗吃粥，但发现太烫了，然后用碟子喝，完美，粥很快就凉了。
 
-Answer: 
+Answer:
 
 是的，这是一个非常实用且聪明的日常 physics trick！
 
@@ -35,6 +35,6 @@ Answer:
 
 所以你的 “bowl → dish” 方法既聪明又科学合理——一个完美的低技术 rapid-cooling hack！
 
-References:  
+References:
 
 - None (explanation based on basic principles of heat transfer)

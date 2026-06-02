@@ -11,7 +11,7 @@ type: note
 
 Question: Could we use hydrogen peroxide to soak these clothes, as it can kill bacteria?
 
-Answer: 
+Answer:
 
 Yes, hydrogen peroxide (typically 3% household grade) is an effective option for killing bacteria, mold, and mildew that cause musty odors in clothes — it works as a natural disinfectant and can help break down odor-causing compounds. It's often recommended as an alternative or complement to vinegar for mildew smells, especially on whites, light-colored fabrics, or items that tolerate oxygen-based bleaching.
 
@@ -50,7 +50,7 @@ If your clothes are mostly light-colored or white and passed the spot test, try 
 
 This should get rid of the smell without needing multiple cycles in most cases.
 
-References:  
+References:
 
 - [How to Get Mildew Smell Out of Clothes With Hydrogen Peroxide](https://www.thespruce.com/remove-mildew-smell-from-clothes-2147045)
 - [Using Hydrogen Peroxide to Remove Odors from Laundry](https://www.goodhousekeeping.com/home/cleaning/a32726919/how-to-get-mildew-smell-out-of-clothes/)

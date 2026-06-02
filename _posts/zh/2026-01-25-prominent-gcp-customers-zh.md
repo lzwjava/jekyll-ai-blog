@@ -12,7 +12,7 @@ type: note
 
 **Question:** Who are the top big customers for Google Cloud Platform?
 
-**Answer:** 
+**Answer:**
 
 Google Cloud Platform (GCP) 拥有大量大型企业和 big-tech 客户。出于竞争原因，Google 不会公开披露确切的营收排名或“按支出排名的顶级客户”列表，但知名客户经常在 case studies、新闻稿、客户页面和行业报告中被提及。
 
@@ -38,7 +38,7 @@ Google Cloud Platform (GCP) 拥有大量大型企业和 big-tech 客户。出于
 
 如需获取最新且官方的概览，Google 的[客户页面](https://cloud.google.com/customers)通过 case studies 和故事展示了许多这些知名用户。
 
-**References:**  
+**References:**
 
 - [Google Cloud Customers page](https://cloud.google.com/customers)
 - [Top 20 Companies That Use Google Cloud Platform in 2025](https://blog.techdatapark.com/companies-that-use-google-cloud)

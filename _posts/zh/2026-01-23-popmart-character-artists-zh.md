@@ -12,7 +12,7 @@ type: note
 
 **Question:** 谁是 Pop Mart 卡通角色背后的艺术家？
 
-**Answer:** 
+**Answer:**
 
 Pop Mart 的所有卡通角色并非出自单一艺术家之手。相反，它是一家与多位独立艺术家和设计师合作的公司，共同创作其原创 IP（intellectual properties）和卡通风格的玩具模型，这些产品通常以盲盒形式销售。
 
@@ -29,7 +29,7 @@ Pop Mart 与多位艺术家合作，每位艺术家通常创作并拥有自己�
 
 如需查看艺术家及其角色的完整列表，Pop Mart 官网设有“IP Artist Zone”板块，重点介绍了其中的许多成员。
 
-**References:**  
+**References:**
 
 - [Pop Mart official US site - IP Artist Zone](https://www.popmart.com/us/ip-artist-zone)
 - [Wikipedia - Pop Mart](https://en.wikipedia.org/wiki/Pop_Mart)

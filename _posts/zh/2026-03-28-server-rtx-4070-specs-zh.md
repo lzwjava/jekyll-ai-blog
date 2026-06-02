@@ -22,7 +22,7 @@ type: note
 
 **理论 FLOPS (RTX 4070):**
 - **FP32:** ~29.1 TFLOPS
-- **FP16:** ~58.2 TFLOPS  
+- **FP16:** ~58.2 TFLOPS
 - **Tensor Cores (FP16, sparse):** ~233 TFLOPS
 
 目前只有 Xorg 和 gnome-shell 在使用 GPU（总计约 207 MiB）。它基本上正无所事事地闲着。

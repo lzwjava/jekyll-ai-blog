@@ -12,7 +12,7 @@ type: note
 
 Question: Is the USA losing its status as a powerful country? Is the USA heading down a declining path?
 
-Answer: 
+Answer:
 
 The question of whether the United States is losing its status as a global superpower or heading toward decline is a complex and debated topic. There is no straightforward yes or no answer, as it depends on the metrics used—economic strength, military power, geopolitical influence, democratic stability, or societal well-being. Based on recent analyses from 2025 and early 2026, opinions are divided, with evidence pointing to both challenges and enduring strengths. I'll break this down into key areas to provide a balanced, non-partisan overview.
 
@@ -48,12 +48,12 @@ Public predictions for 2026 are negative, with majorities expecting rises in une
 
 In summary, the U.S. is facing significant headwinds that could diminish its superpower status relative to rising powers like China. However, it's not inevitably "walking down a declining path"—targeted reforms in debt management, bipartisanship, and international engagement could reverse trends. The coming years, especially 2026 amid potential economic upheaval and political tests, will be pivotal. This is a relative decline rather than absolute failure, but ignoring it risks accelerating the process.
 
-References:  
+References:
 
-- [https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx](https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx)  
-- [https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f](https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f)  
-- [https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really](https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really)  
-- [https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy](https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy)  
-- [https://en.wikipedia.org/wiki/American_decline](https://en.wikipedia.org/wiki/American_decline)  
-- [https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed](https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed)  
+- [https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx](https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx)
+- [https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f](https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f)
+- [https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really](https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really)
+- [https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy](https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy)
+- [https://en.wikipedia.org/wiki/American_decline](https://en.wikipedia.org/wiki/American_decline)
+- [https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed](https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed)
 - [https://www.project-syndicate.org/onpoint/where-is-the-us-economy-headed-in-2026](https://www.project-syndicate.org/onpoint/where-is-the-us-economy-headed-in-2026)

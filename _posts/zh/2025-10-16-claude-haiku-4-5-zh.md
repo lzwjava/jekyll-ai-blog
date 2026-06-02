@@ -24,6 +24,6 @@ Claude Haiku 4.5 是 Anthropic 于 2025 年 10 月 16 日发布的最新一代�
 - **定价**：每百万输入 token 1美元，每百万输出 token 5美元
 - **获取方式**：立即通过 Claude API（使用 `claude-haiku-4-5` 标识）、Anthropic 应用、Amazon Bedrock、Google Vertex AI 及 GitHub Copilot 等集成平台向所有用户开放
 
-[Claude Haiku 4.5 正式发布](https://www.anthropic.com/news/claude-haiku-4-5)  
-[Anthropic 推出 Claude Haiku 4.5](https://www.cnbc.com/2025/10/15/anthropic-claude-haiku-4-5-ai.html)  
+[Claude Haiku 4.5 正式发布](https://www.anthropic.com/news/claude-haiku-4-5)
+[Anthropic 推出 Claude Haiku 4.5](https://www.cnbc.com/2025/10/15/anthropic-claude-haiku-4-5-ai.html)
 [AWS 平台上的 Claude Haiku 4.5](https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock)

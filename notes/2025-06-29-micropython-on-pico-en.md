@@ -46,7 +46,7 @@ After flashing MicroPython onto your Raspberry Pi Pico (using the `.uf2` file as
 3. **Verify MicroPython is Running**:
    - In Thonny’s **Shell** (bottom panel), you should see a MicroPython REPL prompt like:
      ```
-     >>> 
+     >>>
      ```
    - Test it by typing a simple command, e.g.:
      ```python

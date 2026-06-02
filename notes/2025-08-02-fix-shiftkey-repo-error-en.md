@@ -41,7 +41,7 @@ curl -fsSL https://apt.packages.shiftkey.dev/ubuntu/pubkey.gpg \
   | gpg --dearmor \
   | sudo tee /usr/share/keyrings/shiftkey-archive-keyring.gpg > /dev/null
 
-# Edit the repo file so it references that keyring.  
+# Edit the repo file so it references that keyring.
 # Open /etc/apt/sources.list.d/shiftkey*.list in your editor, and change the deb line to:
 #   deb [signed-by=/usr/share/keyrings/shiftkey-archive-keyring.gpg] https://apt.packages.shiftkey.dev/ubuntu any main
 

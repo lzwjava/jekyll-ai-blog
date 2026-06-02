@@ -38,9 +38,9 @@ type: note
 
 总体而言，王琦在漏洞研究和社区领导力方面属于精英级别，尤其在他的时代更是如此，但全球白帽社区竞争激烈，许多才华横溢的研究人员通过个人成就获得了相似或更高的可见度。
 
-参考文献：  
-- https://www.vice.com/en/article/meet-the-keen-team/  
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html  
-- https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows  
-- https://en.wikipedia.org/wiki/Pwn2Own  
+参考文献：
+- https://www.vice.com/en/article/meet-the-keen-team/
+- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
+- https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows
+- https://en.wikipedia.org/wiki/Pwn2Own
 - https://www.scmp.com/lifestyle/article/1844014/not-all-hackers-are-bad-look-world-chinese-white-hats

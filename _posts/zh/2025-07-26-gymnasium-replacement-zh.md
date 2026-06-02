@@ -28,7 +28,7 @@ observation, info = env.reset(seed=42)
 for _ in range(1000):
     action = env.action_space.sample()  # 随机动作（智能体会学习更好的动作）
     observation, reward, terminated, truncated, info = env.step(action)
-    
+
     if terminated or truncated:
         observation, info = env.reset()
 
@@ -37,6 +37,6 @@ env.close()
 
 如果你刚开始学习 RL，Gymnasium 是当前大多数项目的首选。
 
-[OpenAI Gym GitHub](https://github.com/openai/gym)  
-[Gymnasium 文档](https://gymnasium.farama.org/)  
+[OpenAI Gym GitHub](https://github.com/openai/gym)
+[Gymnasium 文档](https://gymnasium.farama.org/)
 [Gym 文档（旧版）](https://www.gymlibrary.dev/)

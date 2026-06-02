@@ -12,7 +12,7 @@ type: note
 
 Question: TP-Link AX3000 (Archer AX3000 系列，例如 AX55/AX3000 Wi-Fi 6 路由器) 是否支持作为无线中继器 (Repeater) 或无线桥接 (WDS) 来扩展信号？
 
-Answer: 
+Answer:
 
 TP-Link AX3000 系列路由器，包括 Archer AX55 及类似的 AX3000 Wi-Fi 6 设备，**不支持传统的无线中继 (Repeater) 或 WDS 桥接模式**来无线扩展 Wi-Fi 信号。
 
@@ -54,7 +54,7 @@ TP-Link AX3000 系列路由器，包括 Archer AX55 及类似的 AX3000 Wi-Fi 6 
 
 为了获得更精确的建议，请提供具体的型号（例如 Archer AX55 V1/V2）以及你想扩展的主路路由器的品牌和型号。
 
-References:  
+References:
 - [TP-Link Community: AX3000/AX55 no WDS option](https://community.tp-link.com/us/home/forum/topic/244588)
 - [TP-Link Community: Archer AX55 does not support WDS](https://community.tp-link.com/en/home/forum/topic/623082)
 - [TP-Link OneMesh Compatible Devices List](https://www.tp-link.com/onemesh/product-list)

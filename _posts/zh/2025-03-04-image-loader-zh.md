@@ -218,12 +218,12 @@ gridView.setAdapter(new ImageAdapter(this, imageUrls));
 ---
 
 ### 故障排除
-- **崩溃："ImageLoader must be init with configuration"**  
+- **崩溃："ImageLoader must be init with configuration"**
   确保在调用任何 `displayImage` 前执行 `ImageLoader.getInstance().init(config)`。
-- **图像无法加载**  
+- **图像无法加载**
   - 检查网络权限和 URL 有效性。
   - 在配置中启用日志记录（`.writeDebugLogs()`）以调试问题。
-- **内存不足错误**  
+- **内存不足错误**
   - 在配置中减小 `diskCacheSize` 或 `memoryCacheSize`。
   - 使用较小图像或在 `DisplayImageOptions` 中启用降采样。
 

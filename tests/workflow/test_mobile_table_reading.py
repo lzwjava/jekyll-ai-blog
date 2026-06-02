@@ -66,7 +66,7 @@ def scan_markdown_files_for_table_columns():
                         {"file": file_path, "tables": tables_with_many_columns}
                     )
 
-            except (UnicodeDecodeError, IOError) as e:
+            except (UnicodeDecodeError, IOError):
                 # Skip files that can't be read
                 continue
 

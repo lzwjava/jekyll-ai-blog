@@ -65,12 +65,12 @@ server {
 
 After changing the config:
 
-1. Check syntax:  
+1. Check syntax:
    `sudo nginx -t`
 
-2. Reload nginx:  
-   `sudo systemctl reload nginx`  
-   or  
+2. Reload nginx:
+   `sudo systemctl reload nginx`
+   or
    `sudo nginx -s reload`
 
 Now http://your-server-ip/movies/ should show the contents of `/home/lzw/qDownloads/`.

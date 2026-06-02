@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of Singapore over the last 100 years, including some key milestones?
 
-Answer: 
+Answer:
 
 Singapore's history over the last 100 years (approximately 1925–2025) is a remarkable story of transformation from a British colonial port city to a highly developed, independent global hub. In the early 20th century, Singapore was a thriving entrepôt trade center under British rule as part of the Straits Settlements, benefiting from exports like rubber and tin, with a growing multicultural population of Chinese, Malays, Indians, and others.
 
@@ -46,7 +46,7 @@ This "Singapore Miracle" turned a resource-scarce island into one of the world's
 - **2020–2023**: Effective management of COVID-19 pandemic.
 - **2024**: Lawrence Wong becomes Prime Minister.
 
-References:  
+References:
 
 - [Timeline of Singaporean history - Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_Singaporean_history)
 - [History of Singapore - Wikipedia](https://en.wikipedia.org/wiki/History_of_Singapore)

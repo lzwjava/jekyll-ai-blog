@@ -118,11 +118,11 @@ def main(record_seconds=10, language_code='en-US'):
                     for content in audio_generator)
 
         responses = client.streaming_recognize(streaming_config, requests)
-        
+
 
         # Now, put the transcription responses to use.
         transcript = ""
-        for response in responses:            
+        for response in responses:
             print(response)
             # Once the transcription is done, print the result.
             for result in response.results:

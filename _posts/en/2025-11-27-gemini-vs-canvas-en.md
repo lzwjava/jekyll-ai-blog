@@ -20,7 +20,7 @@ Gemini Guided Learning is an **AI-powered study companion** designed to give you
 
 * **Interactive and Personalized:** It uses a **Socratic approach**, asking probing questions, providing hints, and offering detailed breakdowns of topics. This helps you build a deeper understanding rather than just getting an answer.
 * **Structured Learning:** It breaks down complex concepts into digestible, scaffolded responses, which can be great for foundational learning and systematic study.
-* **Support for Visuals:** It can **generate diagrams** 
+* **Support for Visuals:** It can **generate diagrams**
 
 [Image of a probability tree diagram]
  and link to videos to help visual learners grasp complex concepts.

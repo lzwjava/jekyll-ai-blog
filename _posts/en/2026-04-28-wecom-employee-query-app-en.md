@@ -105,15 +105,15 @@ def callback():
     if request.method == 'GET':
         # Verify URL with WeCom
         return verify_signature(request)
-    
+
     # Parse incoming XML message
     xml_data = ET.fromstring(request.data)
     user_query = xml_data.find('Content').text
     from_user = xml_data.find('FromUserName').text
-    
+
     # Query your knowledge base or LLM
     answer = query_knowledge_base(user_query)
-    
+
     # Send reply via WeCom API
     send_wecom_message(from_user, answer)
     return 'success'

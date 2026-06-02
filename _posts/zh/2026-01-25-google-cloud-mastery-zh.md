@@ -12,7 +12,7 @@ type: note
 
 Question: What is the most important thing to learn in Google Cloud, especially regarding enabling APIs and exploring the console, whether for building products or obtaining the Professional Cloud Developer certification?
 
-Answer: 
+Answer:
 
 是的，你说的很大程度上是正确的 —— **enabling APIs**（启用 API）和 **deeply exploring the Google Cloud Console**（深入探索控制台）是无论是对于实际产品开发还是通过 Professional Cloud Developer (PCD) 认证而言，**杠杆率最高（highest-leverage）的活动**。
 
@@ -77,6 +77,6 @@ Answer:
 
 所以，是的 —— **console fluency（控制台熟练度）+ 了解如何/为什么/何时启用 API** 可能是 Google Cloud 中最重要的元技能（meta-skill），无论是为了考证还是为了开发真实产品。
 
-References:  
+References:
 
 - None (based on general GCP knowledge and common certification & developer experience patterns)

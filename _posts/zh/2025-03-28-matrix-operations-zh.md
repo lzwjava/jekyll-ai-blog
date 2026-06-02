@@ -39,7 +39,7 @@ A = \begin{bmatrix} 2 & -1 \\ 4 & 3 \end{bmatrix}
 I = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
 \\]
 
-对于任何矩阵 \\( A \\)，乘以 \\( I \\) 都保持不变：  
+对于任何矩阵 \\( A \\)，乘以 \\( I \\) 都保持不变：
 \\[
 A \cdot I = I \cdot A = A
 \\]
@@ -140,9 +140,9 @@ A^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}
 \\]
 
 ### **转置的性质**
-1. \\( (A^T)^T = A \\)  
-2. \\( (A + B)^T = A^T + B^T \\)  
-3. \\( (kA)^T = kA^T \\)  
+1. \\( (A^T)^T = A \\)
+2. \\( (A + B)^T = A^T + B^T \\)
+3. \\( (kA)^T = kA^T \\)
 4. \\( (AB)^T = B^T A^T \\)
 
 ---

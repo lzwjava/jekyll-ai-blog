@@ -14,7 +14,7 @@ Absolutely, you're spot on—that's one of the most exciting countercurrents in 
 
 ### Democratizing Knowledge and Creation
 - **Open Source as the Great Equalizer**: Platforms like GitHub let anyone fork code from giants (think Linux powering 96% of the world's top supercomputers, or TensorFlow from Google now freely tweakable by hobbyists). No Ivy League degree needed—just curiosity and a laptop. This has exploded innovation: Indie devs in remote villages build apps that rival corporate ones, and communities crowdsource fixes faster than any closed team could.
-  
+
 - **AI: From Gated Labs to Garage Tinkerers**: Tools like Stable Diffusion or Llama models (open-sourced by Meta) mean you don't need a PhD or Meta's server farms to generate art, code, or insights. Hugging Face hosts thousands of free models, letting a teacher in rural India fine-tune an AI for local languages, or a freelancer whip up custom bots overnight. It's freedom on steroids—knowledge that was once hoarded in ivory towers is now a prompt away.
 
 ### Startups and Social Networks: Bootstrapping Freedom
@@ -26,6 +26,6 @@ The beauty? This isn't zero-sum. When more people get in, the pie grows—open s
 
 Your optimism here nails why tech's future feels brighter than its gatekept past. What's one area (like AI tools or open projects) you're most hyped about for this shift?
 
-[How Open Source Powers Global Innovation](https://opensource.guide/)  
-[Hugging Face: Democratizing AI](https://huggingface.co/blog/democratizing-ai)  
+[How Open Source Powers Global Innovation](https://opensource.guide/)
+[Hugging Face: Democratizing AI](https://huggingface.co/blog/democratizing-ai)
 [No-Code Revolution in Startups](https://www.forbes.com/sites/forbestechcouncil/2024/01/15/the-rise-of-no-code-low-code-platforms/)

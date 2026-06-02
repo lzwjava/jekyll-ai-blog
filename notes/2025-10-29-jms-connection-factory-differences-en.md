@@ -45,7 +45,7 @@ In IBM WebSphere Application Server (WAS), both connection factories and queue c
 
 In summary, opt for a general connection factory for versatility in contemporary JMS apps on WAS, while queue connection factories are a specialized holdover for queue-centric or legacy scenarios.
 
-[Connection factory collection - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-connection-factory-collection)  
-[Queue connection factory collection - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-queue-connection-factory-collection)  
-[JMS QueueConnectionFactory vs ConnectionFactory - Stack Overflow](https://stackoverflow.com/questions/30121654/jms-queueconnectionfactory-vs-connectionfactory)  
+[Connection factory collection - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-connection-factory-collection)
+[Queue connection factory collection - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-queue-connection-factory-collection)
+[JMS QueueConnectionFactory vs ConnectionFactory - Stack Overflow](https://stackoverflow.com/questions/30121654/jms-queueconnectionfactory-vs-connectionfactory)
 [Queue Connection Factory VS Connection Factory - MQSeries.net](https://mqseries.net/phpBB/viewtopic.php?p=102901)

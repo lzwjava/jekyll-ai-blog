@@ -12,7 +12,7 @@ type: note
 
 Question: Translate the provided Chinese text about network course projects and self-study examination outline to English.
 
-Answer: 
+Answer:
 
 **Project 4: IPv6 Campus Network**
 
@@ -36,24 +36,24 @@ As computer network technology advances, the application of IPv6 in enterprise n
 
 **II. Assessment Knowledge Points and Requirements**
 
-1. Basic IPv6 Address Configuration  
-   - Memorize: Advantages of IPv6 addresses; IPv6 header structure.  
-   - Understand: Differences between IPv6 and IPv4 in address length, packet format, and security; IPv6 address notation formats.  
+1. Basic IPv6 Address Configuration
+   - Memorize: Advantages of IPv6 addresses; IPv6 header structure.
+   - Understand: Differences between IPv6 and IPv4 in address length, packet format, and security; IPv6 address notation formats.
    - Apply: Configure IPv6 addresses on different router interfaces.
 
-2. Using IPv6 Static Routes and Default Routes to Achieve Network Connectivity  
-   - Memorize: IPv6 address structure; IPv6 address types; IPv6 routing.  
-   - Understand: Differences between IPv6 routing and IPv4 routing.  
+2. Using IPv6 Static Routes and Default Routes to Achieve Network Connectivity
+   - Memorize: IPv6 address structure; IPv6 address types; IPv6 routing.
+   - Understand: Differences between IPv6 routing and IPv4 routing.
    - Apply: Correctly configure IPv6 static routes; correctly configure IPv6 default routes; correctly configure IPv6 summary routes; describe various IPv6 address representations.
 
-3. Using Dynamic Routing Protocol RIPng to Achieve Network Connectivity  
-   - Memorize: RIPng; RIPng operation mechanism; RIPng packet format.  
-   - Understand: Differences between RIPng and RIPv2; differences in configuration commands between RIPng and RIPv2.  
+3. Using Dynamic Routing Protocol RIPng to Achieve Network Connectivity
+   - Memorize: RIPng; RIPng operation mechanism; RIPng packet format.
+   - Understand: Differences between RIPng and RIPv2; differences in configuration commands between RIPng and RIPv2.
    - Apply: Correctly configure RIPng to achieve network connectivity.
 
-4. Using Dynamic Routing Protocol OSPFv3 to Achieve Network Connectivity  
-   - Memorize: Basic OSPFv3 concepts; OSPFv3 packets; OSPFv3 LSA types; OSPFv3 timers.  
-   - Understand: Differences between OSPFv3 and OSPF.  
+4. Using Dynamic Routing Protocol OSPFv3 to Achieve Network Connectivity
+   - Memorize: Basic OSPFv3 concepts; OSPFv3 packets; OSPFv3 LSA types; OSPFv3 timers.
+   - Understand: Differences between OSPFv3 and OSPF.
    - Apply: Correctly configure OSPFv3 routing protocol; flexibly use OSPFv3 to achieve network connectivity.
 
 **III. Chapter Focus and Difficulties**
@@ -84,14 +84,14 @@ Common WLAN networking methods include Fat AP and Fit AP. In home or small offic
 
 **II. Assessment Knowledge Points and Requirements**
 
-1. Building Direct-Connected Layer 2 WLAN  
-   - Memorize: Fat AP; Fit AP; AC controller; AC + Fit AP network construction; wireless radio frequency.  
-   - Understand: Wireless network concepts; common wireless network devices; WLAN networking methods; WLAN forwarding modes.  
+1. Building Direct-Connected Layer 2 WLAN
+   - Memorize: Fat AP; Fit AP; AC controller; AC + Fit AP network construction; wireless radio frequency.
+   - Understand: Wireless network concepts; common wireless network devices; WLAN networking methods; WLAN forwarding modes.
    - Apply: Proficiently master key WLAN configuration commands and formats; proficiently master DHCP server configuration; proficiently master Layer 2 switch configuration; proficiently master basic WLAN service configuration processes.
 
-2. Building Side-Hung Layer 3 WLAN  
-   - Memorize: Layer 3 networking; side-hung networking; WLAN roaming; black/white lists.  
-   - Understand: Differences between Layer 3 and Layer 2 networking; advantages and disadvantages of side-hung Layer 3 WLAN.  
+2. Building Side-Hung Layer 3 WLAN
+   - Memorize: Layer 3 networking; side-hung networking; WLAN roaming; black/white lists.
+   - Understand: Differences between Layer 3 and Layer 2 networking; advantages and disadvantages of side-hung Layer 3 WLAN.
    - Apply: Proficiently master key WLAN configuration commands and formats; proficiently master DHCP server configuration; proficiently master Layer 3 WLAN networking configuration; proficiently master basic WLAN service configuration processes.
 
 **III. Chapter Focus and Difficulties**
@@ -128,44 +128,44 @@ Measures to protect campus network security include installing antivirus softwar
 
 **II. Assessment Knowledge Points and Requirements**
 
-1. Secure Computer Access  
-   - Memorize: Port security dynamic MAC addresses; sticky MAC addresses.  
-   - Understand: Role of port security; port security protection actions.  
+1. Secure Computer Access
+   - Memorize: Port security dynamic MAC addresses; sticky MAC addresses.
+   - Understand: Role of port security; port security protection actions.
    - Apply: Proficiently configure port security.
 
-2. Remote Management of Network Devices  
-   - Memorize: Telnet and STelnet; user authentication.  
-   - Understand: Advantages and disadvantages of remote management; remote management security.  
+2. Remote Management of Network Devices
+   - Memorize: Telnet and STelnet; user authentication.
+   - Understand: Advantages and disadvantages of remote management; remote management security.
    - Apply: Enable and configure remote management on switches and routers; correctly configure password and AAA authentication for remote management.
 
-3. Using Basic ACL to Restrict Network Access  
-   - Memorize: ACL rule principles; ACL rule matching order; ACL classifications.  
-   - Understand: Main role of ACLs; ACL rule principles and matching.  
+3. Using Basic ACL to Restrict Network Access
+   - Memorize: ACL rule principles; ACL rule matching order; ACL classifications.
+   - Understand: Main role of ACLs; ACL rule principles and matching.
    - Apply: Proficiently configure basic ACLs on routers or switches.
 
-4. Using Advanced ACL to Protect Server Ports from Attacks  
-   - Memorize: Advanced ACL; IP protocol ports vs. router physical ports.  
-   - Understand: Main role of advanced ACLs; advanced ACL rule principles and matching; differences from basic ACLs.  
+4. Using Advanced ACL to Protect Server Ports from Attacks
+   - Memorize: Advanced ACL; IP protocol ports vs. router physical ports.
+   - Understand: Main role of advanced ACLs; advanced ACL rule principles and matching; differences from basic ACLs.
    - Apply: Proficiently configure advanced ACLs; distinguish applications of both ACL types in different scenarios.
 
-5. Secure Campus Network Internet Access  
-   - Memorize: PPP; PAP; CHAP.  
-   - Understand: Roles and differences between PAP and CHAP; application scenarios.  
+5. Secure Campus Network Internet Access
+   - Memorize: PPP; PAP; CHAP.
+   - Understand: Roles and differences between PAP and CHAP; application scenarios.
    - Apply: Determine whether to use PAP or CHAP based on situations and configure correctly.
 
-6. Using Static NAT for Internal Servers to Publish to the Internet  
-   - Memorize: NAT; NAT types.  
-   - Understand: NAT roles and advantages; NAT types and principles.  
+6. Using Static NAT for Internal Servers to Publish to the Internet
+   - Memorize: NAT; NAT types.
+   - Understand: NAT roles and advantages; NAT types and principles.
    - Apply: Correctly configure static NAT.
 
-7. Using Dynamic NAPT for LAN Hosts to Access the Internet  
-   - Memorize: Dynamic NAT.  
-   - Understand: Dynamic NAT roles, advantages, and principles.  
+7. Using Dynamic NAPT for LAN Hosts to Access the Internet
+   - Memorize: Dynamic NAT.
+   - Understand: Dynamic NAT roles, advantages, and principles.
    - Apply: Correctly configure dynamic NAT.
 
-8. Using Firewall to Hide Internal Network Addresses and Protect Internal Security  
-   - Memorize: Firewall key technologies; security zones; firewall security policies; firewall operating modes.  
-   - Understand: Firewall principles and functions; related configurations or devices for network security.  
+8. Using Firewall to Hide Internal Network Addresses and Protect Internal Security
+   - Memorize: Firewall key technologies; security zones; firewall security policies; firewall operating modes.
+   - Understand: Firewall principles and functions; related configurations or devices for network security.
    - Apply: Correctly plan and configure network security.
 
 **III. Chapter Focus and Difficulties**
@@ -200,19 +200,19 @@ Deeply understand computer network principles, combine abstract concepts with pr
 
 **II. Assessment Knowledge Points and Requirements**
 
-1. Network Device Management and Maintenance  
-   - Memorize: Device communication status checks.  
-   - Understand: Importance of device management and maintenance.  
+1. Network Device Management and Maintenance
+   - Memorize: Device communication status checks.
+   - Understand: Importance of device management and maintenance.
    - Apply: Backup and restore device configuration files; manage backup file versions.
 
-2. Load-Balanced Campus Network Comprehensive Training  
-   - Memorize: MSTP (Multiple Spanning Tree Protocol); VRRP (Virtual Router Redundancy Protocol).  
-   - Understand: Campus internal network setup processes and methods.  
+2. Load-Balanced Campus Network Comprehensive Training
+   - Memorize: MSTP (Multiple Spanning Tree Protocol); VRRP (Virtual Router Redundancy Protocol).
+   - Understand: Campus internal network setup processes and methods.
    - Apply: Comprehensively apply VLAN, Trunk, link aggregation, switch DHCP service, static routing, OSPF dynamic routing, AC, AP, NAT, PPP, CHAP, MSTP, VRRP, etc., to build a classic Layer 3 campus network model.
 
-3. Enterprise Network Comprehensive Training  
-   - Memorize: Enterprise internal setup; enterprise wireless network setup.  
-   - Understand: Campus internal network setup processes and methods.  
+3. Enterprise Network Comprehensive Training
+   - Memorize: Enterprise internal setup; enterprise wireless network setup.
+   - Understand: Campus internal network setup processes and methods.
    - Apply: Comprehensively apply VLAN, SVI, router DHCP service configuration, NAT, static routing protocols, wireless configuration, firewall, OSPF, etc., to deepen proficiency in campus network technologies.
 
 **III. Chapter Focus and Difficulties**
@@ -289,7 +289,7 @@ All knowledge points required for learning and mastery are assessment content. C
 
 **I. Single-Choice Question**
 
-Routing occurs at the _____ layer of the TCP/IP model.  
+Routing occurs at the _____ layer of the TCP/IP model.
 A. Application layer  B. Network layer  C. Transport layer  D. Physical layer
 
 **II. Fill-in-the-Blank Question**
@@ -308,7 +308,7 @@ To achieve mutual communication between computers in the diagram, complete the c
 
 2. Based on the topology diagram below, configure dynamic OSPF routing protocol to achieve full network connectivity.
 
-Requirements:  
-(1) Configure IP addresses on router and switch ports;  
-(2) Assign IP addresses, subnet masks, and default gateways to each computer;  
+Requirements:
+(1) Configure IP addresses on router and switch ports;
+(2) Assign IP addresses, subnet masks, and default gateways to each computer;
 (3) Configure dynamic OSPF routing protocol to achieve full network connectivity.

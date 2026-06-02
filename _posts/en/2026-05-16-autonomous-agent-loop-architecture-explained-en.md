@@ -21,15 +21,15 @@ def agent_loop(task: str, max_iterations: int = 50):
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": task}
     ]
-    
+
     for i in range(max_iterations):
         # THINK: ask the LLM what to do next
         response = llm.chat(messages=messages, tools=TOOL_SCHEMAS)
-        
+
         # DONE: no tool calls means agent thinks it's finished
         if not response.tool_calls:
             return response.content
-        
+
         # ACT: execute each tool call and feed results back
         for tool_call in response.tool_calls:
             result = execute_tool(tool_call.name, tool_call.arguments)
@@ -38,10 +38,10 @@ def agent_loop(task: str, max_iterations: int = 50):
                 "tool_call_id": tool_call.id,
                 "content": result
             })
-        
+
         # The assistant message (with tool_calls) also goes into history
         messages.append(response.message)
-    
+
     return "Max iterations reached"
 ```
 
@@ -102,7 +102,7 @@ def classify_error(stderr: str) -> str:
     if "ModuleNotFoundError" in stderr:
         return "missing_dependency"
     elif "SyntaxError" in stderr:
-        return "syntax_error"  
+        return "syntax_error"
     elif "AssertionError" in stderr:
         return "logic_error"
     elif "PermissionError" in stderr:
@@ -131,7 +131,7 @@ class IterationBudget:
         self.total = total
         self.per_subtask = per_subtask
         self.current_subtask_iterations = 0
-    
+
     def should_try_different_approach(self) -> bool:
         """If stuck on same subtask for too long, signal a pivot."""
         return self.current_subtask_iterations >= self.per_subtask
@@ -142,7 +142,7 @@ When the budget for a subtask is exhausted, you inject a message:
 ```python
 if budget.should_try_different_approach():
     messages.append({
-        "role": "user", 
+        "role": "user",
         "content": "You've tried this approach several times without success. "
                     "Consider a completely different strategy."
     })
@@ -154,9 +154,9 @@ if budget.should_try_different_approach():
 def execute_with_rollback(tool_call):
     """Save state before each change, verify after."""
     snapshot = git_create_stash()  # or filesystem snapshot
-    
+
     result = execute_tool(tool_call)
-    
+
     # Auto-verify after writes
     if tool_call.name == "write_file" or tool_call.name == "edit_file":
         verify_result = run_linter_and_tests()
@@ -164,7 +164,7 @@ def execute_with_rollback(tool_call):
             # Rollback and tell the LLM what happened
             git_restore_stash(snapshot)
             return f"Change caused test failure:\n{verify_result.stderr}\n\nChange was reverted."
-    
+
     return result
 ```
 
@@ -197,7 +197,7 @@ TOOLS = [
         }
     },
     {
-        "type": "function", 
+        "type": "function",
         "function": {
             "name": "write_file",
             "description": "Write content to a file (creates or overwrites)",
@@ -251,7 +251,7 @@ def execute_tool(name: str, args: dict) -> str:
             return Path(args["path"]).read_text()[:50000]
         except FileNotFoundError:
             return f"ERROR: File not found: {args['path']}"
-    
+
     elif name == "write_file":
         try:
             Path(args["path"]).parent.mkdir(parents=True, exist_ok=True)
@@ -259,7 +259,7 @@ def execute_tool(name: str, args: dict) -> str:
             return f"Successfully wrote {len(args['content'])} chars to {args['path']}"
         except Exception as e:
             return f"ERROR writing file: {e}"
-    
+
     elif name == "run_command":
         try:
             result = subprocess.run(
@@ -277,7 +277,7 @@ def execute_tool(name: str, args: dict) -> str:
             return output
         except subprocess.TimeoutExpired:
             return f"ERROR: Command timed out after {args.get('timeout', 30)}s"
-    
+
     elif name == "search_files":
         try:
             result = subprocess.run(
@@ -287,7 +287,7 @@ def execute_tool(name: str, args: dict) -> str:
             return result.stdout[:5000] or "No matches found"
         except Exception as e:
             return f"ERROR: {e}"
-    
+
     return f"Unknown tool: {name}"
 
 # ── The Agent Harness ─────────────────────────────────────────────
@@ -305,30 +305,30 @@ class AgentHarness:
         self.config = config
         self.consecutive_failures = 0
         self.last_error_pattern = None
-    
+
     def run(self, task: str) -> str:
         messages = self._build_initial_messages(task)
-        
+
         for iteration in range(self.config.max_iterations):
             # ── LLM decides next action ──
             response = self._call_llm(messages)
-            
+
             # ── No tool calls = done ──
             if not response.tool_calls:
                 return response.content
-            
+
             # ── Execute each tool call ──
             assistant_msg = {
                 "role": "assistant",
                 "content": response.content or None,
                 "tool_calls": [
-                    {"id": tc.id, "type": "function", 
+                    {"id": tc.id, "type": "function",
                      "function": {"name": tc.name, "arguments": tc.arguments}}
                     for tc in response.tool_calls
                 ]
             }
             messages.append(assistant_msg)
-            
+
             for tc in response.tool_calls:
                 result = self._execute_with_recovery(tc, messages)
                 messages.append({
@@ -336,32 +336,32 @@ class AgentHarness:
                     "tool_call_id": tc.id,
                     "content": result
                 })
-        
+
         return "Agent exhausted iteration budget"
-    
+
     def _execute_with_recovery(self, tool_call, messages) -> str:
         """Execute a tool call with automatic error recovery."""
         result = execute_tool(tool_call.name, json.loads(tool_call.arguments))
-        
+
         # ── Auto-verify after file writes ──
         if self.config.auto_verify_after_write and tool_call.name in ("write_file", "edit_file"):
             verify_output = self._run_verification()
-            
+
             if "FAIL" in verify_output or "ERROR" in verify_output:
                 self.consecutive_failures += 1
-                
+
                 # ── Pattern detection: same error repeatedly? ──
                 current_error = self._extract_error_signature(verify_output)
                 if current_error == self.last_error_pattern:
                     self.consecutive_failures += 2  # penalty for repeating
-                
+
                 self.last_error_pattern = current_error
-                
+
                 # ── Rollback if configured ──
                 if self.config.auto_rollback_on_failure:
                     self._rollback_last_change(tool_call)
                     result += f"\n\n⚠️  VERIFICATION FAILED (attempt {self.consecutive_failures}):\n{verify_output}\nChange was rolled back."
-                
+
                 # ── Pivot hint: tell the LLM to try something else ──
                 if self.consecutive_failures >= self.config.max_subtask_attempts:
                     result += (
@@ -376,9 +376,9 @@ class AgentHarness:
                 self.consecutive_failures = 0
                 self.last_error_pattern = None
                 result += f"\n\n✅ Verification passed."
-        
+
         return result
-    
+
     def _run_verification(self) -> str:
         try:
             r = subprocess.run(
@@ -388,14 +388,14 @@ class AgentHarness:
             return r.stdout + r.stderr
         except subprocess.TimeoutExpired:
             return "ERROR: Verification timed out"
-    
+
     def _rollback_last_change(self, tool_call):
         """Undo the last file write using git or backup."""
         path = json.loads(tool_call.arguments).get("path", "")
         if path and Path(path).exists():
-            subprocess.run(f"git checkout -- {path}", shell=True, 
+            subprocess.run(f"git checkout -- {path}", shell=True,
                          capture_output=True, timeout=10)
-    
+
     def _extract_error_signature(self, output: str) -> str:
         """Extract the core error pattern (line number stripped) for dedup."""
         import re
@@ -403,7 +403,7 @@ class AgentHarness:
         normalized = re.sub(r'line \d+', 'line N', output)
         normalized = re.sub(r'0x[0-9a-f]+', '0xADDR', normalized)
         return normalized[:200]
-    
+
     def _call_llm(self, messages):
         """Call the LLM API — swap with your provider."""
         from openai import OpenAI
@@ -415,16 +415,16 @@ class AgentHarness:
             tools=TOOLS,
             max_tokens=4096
         )
-    
+
     def _build_initial_messages(self, task: str) -> list:
         return [
             {"role": "system", "content": self._system_prompt()},
             {"role": "user", "content": task}
         ]
-    
+
     @staticmethod
     def _system_prompt() -> str:
-        return """You are an autonomous coding agent. You can read files, 
+        return """You are an autonomous coding agent. You can read files,
 write files, run commands, and search code.
 
 WORKFLOW:
@@ -487,7 +487,7 @@ Turn 3  [LLM]: Let me verify with tests.
         [RESULT] FAIL: ImportError: cannot import name 'TokenValidator' from 'auth.utils'
 
 Turn 4  [LLM]: The test imports are broken. Let me check the actual exports.
-        [TOOL] read_file("src/auth/utils.py")  
+        [TOOL] read_file("src/auth/utils.py")
         [RESULT] ... the class is actually called `TokenCheck` not `TokenValidator` ...
 
 Turn 5  [LLM]: I see — the class was renamed. Let me fix the test import.
@@ -508,7 +508,7 @@ Notice Turn 3→4: the agent encountered a *different* error than expected, and 
 The core loop is trivially simple — while loop, LLM call, tool execution, feed results back. What makes it work is:
 
 1. **Full error output in context** — the LLM sees its own mistakes and self-corrects
-2. **Verification after every change** — catch errors immediately, don't compound them  
+2. **Verification after every change** — catch errors immediately, don't compound them
 3. **Rollback + pivot hints** — when stuck in a loop, mechanically inject "try something different"
 4. **Error pattern dedup** — detect when the same error repeats and escalate the hint
 5. **Good system prompt** — tells the agent the workflow: read → hypothesize → edit → verify → repeat

@@ -33,7 +33,7 @@ Lipton 还销售**粉末产品**，如奶茶粉（奶茶）和水果茶粉，适
 
 这些常见于 JD.com 等平台，许多黑茶包（常标为红茶）、绿茶、茉莉花茶和混合套装的列表。包装尺寸从小型便携包到家用或办公室大批量盒不等。
 
-参考资料：  
+参考资料：
 
 - [https://just-drinks.nridigital.com/just_drinks_magazine_nov24/lipton_tea_china_market](https://just-drinks.nridigital.com/just_drinks_magazine_nov24/lipton_tea_china_market)
 - [https://baike.baidu.com/item/%E7%AB%8B%E9%A1%BF%E7%BA%A2%E8%8C%B6/7636109](https://baike.baidu.com/item/%E7%AB%8B%E9%A1%BF%E7%BA%A2%E8%8C%B6/7636109)

@@ -23,7 +23,7 @@ on:
   #   # Reminds about associate degree exam in March, April, September, and October every Monday at 1 PM Beijing Time (5 AM UTC).
   #   - cron: '0 5 * 3,4,9,10 1'
   #   # Reminds about associate degree exam preparation 1pm Monday UTC
-  #   - cron: '0 13 * * 1'      
+  #   - cron: '0 13 * * 1'
   #   # Reminds to submit clarity timesheet every Friday at 5 PM Taipei time (9 AM UTC).
   #   - cron: '0 9 * * 5'
   #   # Reminds to submit vendor timesheet on the 25th of every month at 12 AM Taipei time (4 PM UTC previous day).
@@ -35,9 +35,9 @@ on:
   #   # Reminds to remove parking permit sticker at 2 AM Beijing time (6 PM UTC) on Wed, Thu, Fri.
   #   - cron: '0 18 * * 3,4,5'
   #   # Reminds to play basketball: 7 PM Beijing Time (11 AM UTC) on Fri, Sat, Sun.
-  #   - cron: '0 11 * * 5,6,0'      
+  #   - cron: '0 11 * * 5,6,0'
   #   # Reminds to charge car in parent's house: 11 PM Beijing Time (3 PM UTC) on Wed, Thu.
-  #   - cron: '0 15 * * 3,4'    
+  #   - cron: '0 15 * * 3,4'
   workflow_dispatch:  # Allows manual triggering
   push:
     branches: ["main"]
@@ -66,7 +66,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.13.2"
-  
+
 
       - name: Install dependencies
         run: |

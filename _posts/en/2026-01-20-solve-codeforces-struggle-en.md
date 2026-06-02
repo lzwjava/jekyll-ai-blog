@@ -12,7 +12,7 @@ type: note
 
 Question: Do many people complain that even solving one problem on Codeforces takes them hours or days? Do they often try their own solutions, look for answers/guides, and then retry?
 
-Answer: 
+Answer:
 
 **Yes, this is a very common experience and complaint in the Codeforces (and broader competitive programming) community.**
 
@@ -37,7 +37,7 @@ Common advice includes:
 
 In short: yes, **many** people experience and openly complain/discuss exactly this situation — it's basically a rite of passage in Codeforces.
 
-References:  
+References:
 
 - https://codeforces.com/blog/entry/112965
 - https://codeforces.com/blog/entry/60810

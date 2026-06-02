@@ -12,7 +12,7 @@ type: note
 
 Question: 链接为 https://www.youtube.com/watch?v=BYXbuik3dgA 的 YouTube 视频讲了什么？
 
-Answer: 
+Answer:
 
 该视频是由 Dwarkesh Patel 于 2026 年 2 月 5 日上传的播客节目，题为 **Elon Musk – "In 36 months, the cheapest place to put AI will be space”**。视频记录了对 Elon Musk 的深度采访（部分环节有 Stripe 的 John Collison 加入），内容涵盖 AI infrastructure、space-based computing、robotics、xAI 的目标等话题。
 
@@ -36,7 +36,7 @@ Answer:
 
 总体而言，该视频是一场关于如何通过空间基础设施克服地球对 AI 增长的限制、利用 robotics 获得劳动力/制造优势、开发求真型 AI 以及维持美国竞争力所需政策的极具技术前瞻性的对话。
 
-References:  
+References:
 
 - [YouTube Video](https://www.youtube.com/watch?v=BYXbuik3dgA)
 - [Transcript on Dwarkesh.com](https://www.dwarkesh.com/p/elon-musk)

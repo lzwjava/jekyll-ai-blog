@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Identity-Aware Proxy (IAP) in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 **Identity-Aware Proxy (IAP)** 是 Google Cloud 提供的一种 **managed security service**，作为应用程序和资源的中央授权层。它基于 **user identity** 和请求上下文实现 context-aware 访问控制，无需传统的 VPNs、bastion hosts 或暴露公共 IP。
 
@@ -71,7 +71,7 @@ IAP 保护：
 
 IAP 是在 Google Cloud 中转向 **Zero Trust architecture** 并显著减少攻击面的最简便方法之一。
 
-References:  
+References:
 
 - [Identity-Aware Proxy overview](https://docs.cloud.google.com/iap/docs/concepts-overview)
 - [Identity-Aware Proxy (IAP) product page](https://cloud.google.com/security/products/iap)

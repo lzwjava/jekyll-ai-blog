@@ -34,7 +34,7 @@ At the 2026 Winter Olympics in Milano Cortina (as of February 2026), Liu contrib
 
 Liu's journey highlights resilience, technical innovation (pioneering difficult jumps for women), and personal growth. She has been coached by figures like Phillip DiGuglielmo and Massimo Scali, and her story inspires many as she balances elite athletics with self-expression and education.
 
-**References:**  
+**References:**
 
 - [Alysa Liu - Wikipedia](https://en.wikipedia.org/wiki/Alysa_Liu)
 - [Alysa Liu - U.S. Figure Skating](https://usfigureskating.org/sports/figure-skating/roster/alysa-liu/1175)

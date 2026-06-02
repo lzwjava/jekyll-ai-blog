@@ -48,7 +48,7 @@ Value picks and trendy spots.
 
 Pro tip: For authentic vibes, pair with a walk in Liwan's old streets. Prices: ¥¥¥+ for stars, more accessible for Bibs.
 
-[2025 Guangzhou Michelin Guide Release (Guangzhou Daily)](https://gzdaily.dayoo.com/pc/html/2025-07/03/content_874_890653.htm)  
-[MICHELIN Guide Guangzhou 2025](https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurants)  
-[List of Michelin-Starred Restaurants in Guangzhou (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)  
+[2025 Guangzhou Michelin Guide Release (Guangzhou Daily)](https://gzdaily.dayoo.com/pc/html/2025-07/03/content_874_890653.htm)
+[MICHELIN Guide Guangzhou 2025](https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurants)
+[List of Michelin-Starred Restaurants in Guangzhou (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)
 [World's 50 Best Discovery - Guangzhou](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)

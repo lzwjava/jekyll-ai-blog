@@ -67,7 +67,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ### Blockquotes
 ```markdown
 > This is a blockquote
-> 
+>
 > Can span multiple lines
 >> Nested blockquote
 ```

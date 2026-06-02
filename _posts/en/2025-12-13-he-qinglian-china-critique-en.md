@@ -12,7 +12,7 @@ type: note
 
 Question: What are He Qinglian's recent views on China?
 
-Answer: 
+Answer:
 
 He Qinglian, a prominent Chinese economist and dissident living in the United States since 2001, remains a sharp critic of the Chinese Communist Party (CCP) regime, focusing on its economic vulnerabilities, political authoritarianism, and social control mechanisms. Her recent commentary (primarily from 2024–2025) portrays China as a system in "crumbling but not collapsing" mode—a phrase from her 2017 book co-authored with Cheng Xiaonong—where structural decay persists without immediate implosion. She emphasizes the CCP's prioritization of regime security over genuine economic reform, leading to stagnation, inequality, and increasing isolation amid U.S.-led global pressures. Below is a summary of her key recent views, drawn from her X posts and referenced analyses.
 
@@ -31,7 +31,7 @@ He Qinglian, a prominent Chinese economist and dissident living in the United St
 
 Overall, He Qinglian's tone is pessimistic yet analytical: China faces a slow erosion driven by internal rot and external isolation, with the CCP's survival tactics delaying but not averting deeper crises. She advocates for genuine democratization and fairness as the only escape, though she sees little prospect under current leadership.
 
-References:  
-- [He Qinglian's X profile and posts (2024–2025)](https://x.com/HeQinglian)  
-- [Predictions 2024: In the Year of the Dragon Will China See a Slow Decay or Sudden Collapse? (JAPAN Forward, Jan 2024)](https://japan-forward.com/predictions-2024-year-of-dragon-china-changes-jennifer-zeng/)  
+References:
+- [He Qinglian's X profile and posts (2024–2025)](https://x.com/HeQinglian)
+- [Predictions 2024: In the Year of the Dragon Will China See a Slow Decay or Sudden Collapse? (JAPAN Forward, Jan 2024)](https://japan-forward.com/predictions-2024-year-of-dragon-china-changes-jennifer-zeng/)
 - [The Dark Side of China's Development: He Qinglian's The Pitfalls of Modernization (RIETI, 2003; referenced in 2025 contexts)](https://www.rieti.go.jp/en/china/03011001.html)

@@ -120,7 +120,7 @@ After upgrade it now looks/behaves like:
 [paste current broken HTML]
 --- END ---
 
-Problem: [one sentence — e.g., "spacing is gone between form fields" 
+Problem: [one sentence — e.g., "spacing is gone between form fields"
           or "button alignment shifted right"]
 
 Please fix the AFTER HTML to match the BEFORE behavior.

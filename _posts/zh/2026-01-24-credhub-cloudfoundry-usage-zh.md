@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 Cloud Foundry 中使用 CredHub？
 
-Answer: 
+Answer:
 
 **CredHub** 是许多 Cloud Foundry 部署（特别是 Tanzu Application Service / VMware Tanzu Platform, PAS, PCF）中的集中化 secrets management 组件。它安全地存储和管理 credentials，例如 passwords, certificates, keys, JSON blobs 等。
 

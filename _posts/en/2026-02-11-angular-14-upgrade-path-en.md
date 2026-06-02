@@ -28,15 +28,15 @@ However, for the **easiest and safest upgrade path** from Angular 14 while **sta
 
 ### Recommended upgrade strategy (easiest while staying on Webpack)
 
-1. **Angular 14 → Angular 16** (or even directly to 17)  
-   - Small steps, very few breaking changes  
-   - Webpack remains untouched and default  
-   - You get modern features (standalone components become stable, improved hydration, better typing, etc.)  
+1. **Angular 14 → Angular 16** (or even directly to 17)
+   - Small steps, very few breaking changes
+   - Webpack remains untouched and default
+   - You get modern features (standalone components become stable, improved hydration, better typing, etc.)
    - Command: `ng update @angular/cli @angular/core` (one major at a time is safest)
 
-2. Then **Angular 16/17 → Angular 21** (or stop at 18/19/20 if you prefer)  
-   - Use `ng update` repeatedly  
-   - When it asks about migrating to the new application builder (Vite/esbuild) → **say no** to keep Webpack  
+2. Then **Angular 16/17 → Angular 21** (or stop at 18/19/20 if you prefer)
+   - Use `ng update` repeatedly
+   - When it asks about migrating to the new application builder (Vite/esbuild) → **say no** to keep Webpack
    - The old builder is still fully supported in 2026 — no rush to change
 
 ### Quick summary table
@@ -49,8 +49,8 @@ However, for the **easiest and safest upgrade path** from Angular 14 while **sta
 | Angular 18–19  | Easy–medium                | Yes (if you decline migration) | Prompts for new builder appear |
 | Angular 20–21  | Medium                     | Yes (if you decline migration) | More modern defaults, but Webpack still supported |
 
-**Bottom line in February 2026:**  
-You can safely upgrade all the way to **Angular 21** and **keep using Webpack** — just decline any migration prompts to the new Vite/esbuild builder during `ng update`.  
+**Bottom line in February 2026:**
+You can safely upgrade all the way to **Angular 21** and **keep using Webpack** — just decline any migration prompts to the new Vite/esbuild builder during `ng update`.
 If you want the smoothest path with almost zero build-related surprises, upgrade first to **Angular 16 or 17** (still pure Webpack era), stabilize, then jump to the latest (21) while opting out of the new builder.
 
 This way you get security fixes, performance improvements, and modern Angular features without touching your build system.

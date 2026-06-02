@@ -57,7 +57,7 @@ Malachowsky 拥有数十项与图形处理、半导体设计和并行计算架�
 
 Malachowsky 被认为是 NVIDIA 长期成功以及重塑 21 世纪计算面貌的 GPU 革命背后，最关键的技术远见者之一。
 
-**References:**  
+**References:**
 
 - [Chris Malachowsky - Wikipedia](https://en.wikipedia.org/wiki/Chris_Malachowsky)
 - [Chris A. Malachowsky | NVIDIA Official Bio](https://nvidianews.nvidia.com/bios/chris-a-malachowsky)

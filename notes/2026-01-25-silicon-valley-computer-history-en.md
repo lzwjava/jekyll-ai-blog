@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to the Computer History Museum
 
-Answer: 
+Answer:
 
 The **Computer History Museum** (often abbreviated as **CHM**) is a nonprofit museum located in **Mountain View, California**, at the heart of Silicon Valley. It is widely regarded as home to the world's largest and most significant collection of computing artifacts, preserving the history of computers, software, and the broader information age.
 
@@ -40,7 +40,7 @@ Today it focuses heavily on Silicon Valley's role while covering global computin
 
 The museum appeals especially to tech enthusiasts, students, historians, and anyone interested in how computers transformed the world. It's frequently described as a "must-visit" in Silicon Valley for its comprehensive, well-presented story of computing from pre-electronic times to today's digital era.
 
-References:  
+References:
 
 - [Computer History Museum Official Website](https://computerhistory.org/)
 - [Wikipedia: Computer History Museum](https://en.wikipedia.org/wiki/Computer_History_Museum)

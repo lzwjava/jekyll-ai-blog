@@ -17,7 +17,7 @@ type: note
 
 速度测试：
   直连 GitHub：                    33 KB/s
-  通过 Hysteria2 代理：           59 KB/s  
+  通过 Hysteria2 代理：           59 KB/s
   通过 ghfast.top 镜像：          2.4 MB/s（快 70 倍）
 
 无论是直连还是代理路径，都受到了中国 ISP 的限速。Hysteria2 代理（DMIT LA）没有帮助，因为瓶颈在于中国的最后一公里出口，而不是代理本身。

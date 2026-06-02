@@ -68,7 +68,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 - 或：在 Shadowrocket → + → Import from Clipboard（或如果有二维码，则 Scan QR）。
 
 ### 常见提示与故障排除
-- **连接失败？** 
+- **连接失败？**
   - 仔细检查 UDP 443 未被阻塞（使用 sing-box desktop 等其他客户端测试服务器可达性）。
   - 确保 SNI 完全匹配（区分大小写）。
   - 如果使用自签名证书：在 URI 中启用“Allow Insecure” / insecure=1，或在应用中切换 insecure。
@@ -79,7 +79,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 
 此设置可在 iOS 上提供出色性能和强大的抗审查能力。
 
-参考资料：  
+参考资料：
 
 - [Hysteria 2 Official - 3rd-party Apps](https://v2.hysteria.network/docs/getting-started/3rd-party-apps)
 - [GitHub Discussion - Hysteria2 with Shadowrocket](https://github.com/apernet/hysteria/discussions/1325)

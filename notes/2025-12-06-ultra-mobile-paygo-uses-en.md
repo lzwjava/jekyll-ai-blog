@@ -12,7 +12,7 @@ type: note
 
 Question: What can an Ultra Mobile PayGo USA phone number be used for?
 
-Answer: 
+Answer:
 
 An Ultra Mobile PayGo USA phone number is a U.S.-based phone number associated with Ultra Mobile's pay-as-you-go (PayGo) prepaid wireless plan, which runs on T-Mobile's 4G LTE and 5G network. This plan is designed for flexible, low-commitment mobile service, starting at $3 per month for basic usage, with no credit check or long-term contract required. The number can be a new one or ported from another carrier during activation.
 
@@ -27,7 +27,7 @@ An Ultra Mobile PayGo USA phone number is a U.S.-based phone number associated w
 
 This number is best suited for light users, backups, or those avoiding contracts, but it can't be switched to Ultra's monthly plans without cancellation. For activation, use a SIM card (physical or eSIM) via the Ultra Mobile website, app, or by texting GOGO + ZIP code to 6700.
 
-References:  
-- [Ultra Mobile PayGo Plans](https://www.ultramobile.com/paygo/)  
-- [Ultra Mobile PayGo Overview](https://www.androidcentral.com/ultra-mobile-paygo)  
+References:
+- [Ultra Mobile PayGo Plans](https://www.ultramobile.com/paygo/)
+- [Ultra Mobile PayGo Overview](https://www.androidcentral.com/ultra-mobile-paygo)
 - [Ultra Mobile FAQ](https://www.ultramobile.com/faq/)

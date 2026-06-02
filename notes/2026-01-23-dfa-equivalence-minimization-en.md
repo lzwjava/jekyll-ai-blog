@@ -39,7 +39,7 @@ Since N ≤ 2000 per automaton and T ≤ 26, direct minimization + isomorphism c
 3. **Minimize each DFA (most important step)**
    The standard efficient algorithm for your constraints is **Hopcroft's algorithm** (O(|S| × |Σ| log |S|)), which is fast enough for N=2000, Σ=26.
 
-   Alternative (simpler to code but slower):  
+   Alternative (simpler to code but slower):
    Use **partition refinement** with the basic table-filling / equivalence-class method:
    - Start with two groups: accepting vs non-accepting states
    - Iteratively split groups until no more distinctions can be made

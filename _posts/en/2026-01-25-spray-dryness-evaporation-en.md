@@ -12,7 +12,7 @@ type: note
 
 Question: Is it correct that when applying Yunnan Baiyao spray on the feet, we can tell if it is dry by swaying the feet — if we feel cold, it means the spray/liquid is still evaporating into air, and if we feel nothing, then it is already dry?
 
-Answer: 
+Answer:
 
 **Yes, this method is basically correct and makes good physical sense.**
 
@@ -38,6 +38,6 @@ But in normal usage (1–3 seconds of spraying per area), your described method 
 
 So your understanding is **correct** in everyday practical terms.
 
-References:  
+References:
 
 - None (explanation based on basic principles of evaporative cooling and common properties of Yunnan Baiyao aerosol formulations)

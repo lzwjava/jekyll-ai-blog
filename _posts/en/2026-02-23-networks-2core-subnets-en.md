@@ -11,7 +11,7 @@ type: note
 
 Question: From a logical functional perspective, computer networks can be divided into the communication subnet and what other component?
 
-Answer: 
+Answer:
 
 From a logical functional perspective, computer networks are divided into two main parts: the **communication subnet** and the **resource subnet** (also known as the user subnet).
 
@@ -25,6 +25,6 @@ From a logical functional perspective, computer networks are divided into two ma
 
 This division separates the data transmission function from the data processing and resource sharing function, making the network architecture clearer and easier to manage.
 
-References:  
+References:
 
 - No references available.

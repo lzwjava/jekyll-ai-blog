@@ -27,7 +27,7 @@ type: note
 
 是什么引发了这个思考——是受够了通勤之苦，还是单纯觊觎新款VR设备？
 
-[2025年Z世代转向现实生活联结](https://www.wfla.com/bloom-tampa-bay/bloom-relationships/gen-z-moving-towards-real-life-connections-in-2025/)  
-[选择线下：为何现实联结在虚拟世界依然重要](https://www.zenlegalnetworking.com/2025/02/taking-it-offline-why-in-person-connections-still-matter-in-a-virtual-world/)  
-[社交媒体未来：2025年预测](https://sproutsocial.com/insights/future-of-social-media/)  
+[2025年Z世代转向现实生活联结](https://www.wfla.com/bloom-tampa-bay/bloom-relationships/gen-z-moving-towards-real-life-connections-in-2025/)
+[选择线下：为何现实联结在虚拟世界依然重要](https://www.zenlegalnetworking.com/2025/02/taking-it-offline-why-in-person-connections-still-matter-in-a-virtual-world/)
+[社交媒体未来：2025年预测](https://sproutsocial.com/insights/future-of-social-media/)
 [线下与虚拟社交互动共同提升幸福感](https://www.sciencedirect.com/science/article/pii/S2451958824000885)

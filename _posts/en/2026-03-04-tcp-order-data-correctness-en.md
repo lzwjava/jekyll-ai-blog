@@ -43,16 +43,16 @@ Examples that *don't strictly need* TCP ordering:
 But **the vast majority of TCP usage** (HTTP/1, HTTP/2, HTTPS, SSH, SFTP, SMTP, IMAP, PostgreSQL/MySQL connections, file transfers, etc.) **relies heavily on in-order delivery**.
 
 ### Security is not the main reason
-While correct ordering can indirectly help prevent certain confusing or injection-like bugs in poorly written applications, TCP's ordering is **not a security feature**.  
+While correct ordering can indirectly help prevent certain confusing or injection-like bugs in poorly written applications, TCP's ordering is **not a security feature**.
 It's a **correctness / semantics feature**.
 
 If order didn't matter, the protocol designers could have made TCP much simpler (and faster) — but they didn't, because virtually every common application protocol assumes ordered delivery.
 
 ### Quick summary
 
-- **"As long as the message is complete"** → **not sufficient** for 95%+ of TCP-based applications  
-- Order matters because **applications interpret byte position as meaning**  
-- TCP reorders (using sequence numbers + receiver buffer) so the application never sees disorder  
+- **"As long as the message is complete"** → **not sufficient** for 95%+ of TCP-based applications
+- Order matters because **applications interpret byte position as meaning**
+- TCP reorders (using sequence numbers + receiver buffer) so the application never sees disorder
 - This is about **making applications simple and correct**, not primarily about security
 
 So in short: **No order = broken applications**, not just "incomplete" ones. That's why TCP insists on it.

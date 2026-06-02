@@ -55,5 +55,5 @@ If you're on a distro with `apt` (e.g., Ubuntu), an alternative is `sudo apt ins
 - Post-build, test with `cargo run --bin greptime -- standalone start` to ensure protos integrate correctly.
 - This revision of greptime-proto is recent (Oct 2024-ish); if issues linger, check for upstream fixes in the repo.
 
-[GreptimeDB Build Docs](https://github.com/GreptimeTeam/greptimedb#build-from-source)  
+[GreptimeDB Build Docs](https://github.com/GreptimeTeam/greptimedb#build-from-source)
 [Protobuf Well-Known Types](https://protobuf.dev/reference/protobuf/google.protobuf/)

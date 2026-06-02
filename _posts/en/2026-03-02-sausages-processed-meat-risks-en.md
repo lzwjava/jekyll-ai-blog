@@ -11,7 +11,7 @@ type: note
 
 Question: Should sausage be categorized into processed meats?
 
-Answer: 
+Answer:
 
 **Yes, sausages are classified as processed meats.**
 
@@ -37,7 +37,7 @@ In 2015, IARC (WHO) classified processed meat as **Group 1 carcinogen** ("carcin
 
 So in nutritional science, epidemiology, cancer research, and official food classification systems — **sausages = processed meat**.
 
-References:  
+References:
 
 - [https://www.iarc.who.int/featured-news/media-centre-iarc-news-processed-meat/](https://www.iarc.who.int/featured-news/media-centre-iarc-news-processed-meat/)
 - [https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)

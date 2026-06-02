@@ -123,8 +123,8 @@ WAS 原生支持在不完全重启的情况下热重载某些组件，但这是�
 
 总之，这些技术将 WAS 从一个重量级服务器转变为一个更敏捷的开发环境，将迭代时间从几分钟缩短到几秒钟。从展开式 WAR 开始以获得即时收益，然后根据需要叠加工具。如果您遇到特定的错误，请分享更多详细信息以进行故障排除。
 
-**参考资料：**  
-[JRebel WebSphere 教程](https://www.jrebel.com/products/jrebel/tutorials/deploy-jrebel-websphere)  
-[DCEVM GitHub 仓库](https://github.com/dcevm/dcevm)  
-[HotSwapAgent GitHub 仓库](https://github.com/HotswapProjects/HotswapAgent)  
+**参考资料：**
+[JRebel WebSphere 教程](https://www.jrebel.com/products/jrebel/tutorials/deploy-jrebel-websphere)
+[DCEVM GitHub 仓库](https://github.com/dcevm/dcevm)
+[HotSwapAgent GitHub 仓库](https://github.com/HotswapProjects/HotswapAgent)
 [IBM 知识中心：WebSphere 热部署](https://www.ibm.com/docs/en/was/9.0.5?topic=applications-hot-deployment)

@@ -11,7 +11,7 @@ type: note
 
 Question: In March in Guangzhou, with humid and sometimes rainy weather, clothes don't dry properly after hanging for a day and still feel wet. Using the cool mode on a Haier dryer didn't dry 10 clothes after 2 hours, then they stayed inside for about 10 hours, and even after using L-2 hot mode for another 2 hours, they still smell bad. What should I do? Should I wash them again and then use L-2 hot to dry?
 
-Answer: 
+Answer:
 
 Yes, the bad smell (likely musty or mildew-like) is almost certainly from bacteria and mold growth caused by the clothes staying damp for too long. In Guangzhou's March weather, with typical relative humidity around 76-83% and frequent rain, drying is difficult, and moisture lingers in fabrics. The "cool mode" on your Haier dryer (probably a low-heat or air-dry setting) is too weak to remove enough moisture in humid conditions or with a full load of 10 items, so the clothes never got fully dry. Leaving them sitting damp inside the dryer for 10 hours made the problem much worse, as warm, moist, low-airflow conditions inside encourage rapid bacterial growth and odor.
 
@@ -42,7 +42,7 @@ Running L-2 hot (likely a medium-hot timed or level-2 heating mode) afterward co
 
 With a good re-wash + vinegar or baking soda + thorough hot drying, the smell should come out completely in one or two cycles. If it still lingers faintly after that, repeat the vinegar wash once more.
 
-References:  
+References:
 
 - [How to get mildew smell out of clothes](https://www.whirlpool.com/blog/washers-and-dryers/how-to-get-mildew-smells-out-of-clothes.html)
 - [Clothes Smell Bad After Drying? Here's 8 Possible Causes](https://lakeappliancerepair.com/blog/clothes-smell-bad-after-drying)

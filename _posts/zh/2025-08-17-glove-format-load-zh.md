@@ -51,7 +51,7 @@ vec = np.asarray(line[1:], dtype=np.float32)
 2. 跳过意外出现的“文件头”或异常行（某些重新打包的文件会添加）：
 ```python
 parts = line.rstrip().split(' ')
-if len(parts) < 2: 
+if len(parts) < 2:
     continue
 if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit():
     # 疑似word2vec风格文件头："<词表大小> <维度>"

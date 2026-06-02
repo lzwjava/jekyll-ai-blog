@@ -23,7 +23,7 @@ type: note
 
 因此，当 RIP 路由器通告一个 metric 为 16 的路由时，它实际上是在说：“我没有到此网络的有效路径。”
 
-参考资料：  
+参考资料：
 
 - [RFC 1058 - Routing Information Protocol](https://datatracker.ietf.org/doc/html/rfc1058)
 - [Cisco Documentation on RIP Metrics](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13730-3.html)

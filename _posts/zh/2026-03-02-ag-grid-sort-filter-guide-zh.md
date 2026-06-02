@@ -20,26 +20,26 @@ type: note
 ```ts
 // Example in TypeScript / JavaScript (React, Angular, Vue, Vanilla – all similar)
 const columnDefs = [
-  { 
-    field: 'name', 
+  {
+    field: 'name',
     headerName: 'Full Name',
     sortable: true,          // enables sorting (click header to sort)
     filter: true             // enables filtering (usually Text filter by default)
   },
-  { 
-    field: 'age', 
+  {
+    field: 'age',
     headerName: 'Age',
     sortable: true,
     filter: 'agNumberColumnFilter'  // Number filter (better for numbers)
   },
-  { 
-    field: 'country', 
+  {
+    field: 'country',
     headerName: 'Country',
     sortable: false,         // sorting disabled
     filter: 'agSetColumnFilter'     // Set filter (Excel-like list of values)
   },
-  { 
-    field: 'city', 
+  {
+    field: 'city',
     sortable: true,
     filter: false            // filtering disabled
   }
@@ -115,7 +115,7 @@ const gridOptions = {
 - 需要自定义过滤逻辑？→ 创建自定义过滤组件
 - 使用 **React/Angular/Vue**？→ 语法几乎相同（只需包装在组件中）
 
-参考资料：  
+参考资料：
 
 - [AG Grid Row Sorting](https://www.ag-grid.com/javascript-data-grid/row-sorting)
 - [AG Grid Column Filters](https://www.ag-grid.com/javascript-data-grid/filtering)

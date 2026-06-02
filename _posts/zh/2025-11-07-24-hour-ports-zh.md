@@ -41,7 +41,7 @@ type: note
 
 若您有具体路线需求（如珠海-澳门），我可协助进一步查询！
 
-[澳门通往中国内地的新快速通道](https://www.gcs.gov.mo/detail/en/M21KHkF5cs)  
-[横琴口岸 - 维基百科](https://en.wikipedia.org/wiki/Hengqin_Port)  
-[澳门第二大口岸自开通以来突破1亿人次通关](https://agbrief.com/news/macau/05/08/2025/macau-second-busiest-border-surpasses-100m-crossings-since-opening/)  
+[澳门通往中国内地的新快速通道](https://www.gcs.gov.mo/detail/en/M21KHkF5cs)
+[横琴口岸 - 维基百科](https://en.wikipedia.org/wiki/Hengqin_Port)
+[澳门第二大口岸自开通以来突破1亿人次通关](https://agbrief.com/news/macau/05/08/2025/macau-second-busiest-border-surpasses-100m-crossings-since-opening/)
 [中国实施新的跨境旅行改革措施](https://phc.com.kw/news-detail/distribution-of-cash-dividend-%282017%29?s-news-4975428-2025-11-04-china-implements-new-cross-border-travel-reforms-to-boost-macau-integration-and-regional-mobility)

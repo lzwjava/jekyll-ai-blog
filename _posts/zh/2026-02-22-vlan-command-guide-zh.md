@@ -50,6 +50,6 @@ vlan <vlan-id>
 
 这与提供的参考答案匹配：**`vlan vlan-id`**。
 
-参考资料：  
+参考资料：
 
 - [Cisco VLAN Configuration Guide](https://www.cisco.com/c/en/us/support/docs/lan-switching/vlan/17056-7.html)

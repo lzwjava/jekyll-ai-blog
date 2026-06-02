@@ -21,7 +21,7 @@ Adobe XD is a **vector-based user experience (UX) and user interface (UI) design
 - Export assets and specs for developers (colors, fonts, CSS code, etc.)
 
 ### Is it for making actual websites?
-No — Adobe XD does **not** generate live, functional websites (like HTML/CSS code for hosting).  
+No — Adobe XD does **not** generate live, functional websites (like HTML/CSS code for hosting).
 It’s for **designing and prototyping** only.
 
 If you want to actually build and publish a real website from your designs, you need:

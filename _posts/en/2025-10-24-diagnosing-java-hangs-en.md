@@ -16,7 +16,7 @@ jstack is a command-line tool included in the JDK that generates thread dumps fo
 
 #### Steps to Use jstack:
 1. **Identify the Java Process ID (PID):**
-   - Run `jps` (also part of JDK) to list all Java processes:  
+   - Run `jps` (also part of JDK) to list all Java processes:
      ```
      jps -l
      ```
@@ -25,7 +25,7 @@ jstack is a command-line tool included in the JDK that generates thread dumps fo
    - Alternatively, use OS commands like `ps aux | grep java` on Linux/macOS.
 
 2. **Generate a Thread Dump:**
-   - Run jstack with the PID to output the dump to a file:  
+   - Run jstack with the PID to output the dump to a file:
      ```
      jstack <PID> > thread-dump.txt
      ```
@@ -34,7 +34,7 @@ jstack is a command-line tool included in the JDK that generates thread dumps fo
      - If the JVM is unresponsive to signals, use `jhsdb jstack --pid <PID>` (available in JDK 8+).
 
 3. **Capture Multiple Dumps for Analysis:**
-   - Hangs often require comparison over time. Take 3-5 dumps at 10-30 second intervals:  
+   - Hangs often require comparison over time. Take 3-5 dumps at 10-30 second intervals:
      ```
      jstack <PID> > dump1.txt
      sleep 10
@@ -69,14 +69,14 @@ ProcDump is a free Sysinternals tool for Windows that creates memory or CPU dump
    - Use Task Manager or `tasklist | findstr <process-name>` to get the PID or image name (e.g., `java.exe`).
 
 3. **Capture a Hang Dump:**
-   - For immediate full memory dump (useful for stuck processes):  
+   - For immediate full memory dump (useful for stuck processes):
      ```
      procdump -ma <process-name-or-PID>
      ```
      - `-ma`: Full memory dump (includes all threads and heap).
      - Example: `procdump -ma java.exe` or `procdump -ma 12345`.
 
-   - For automatic hang detection (triggers on unresponsiveness):  
+   - For automatic hang detection (triggers on unresponsiveness):
      ```
      procdump -h <process-name-or-PID> -o
      ```
@@ -84,7 +84,7 @@ ProcDump is a free Sysinternals tool for Windows that creates memory or CPU dump
      - `-o`: Overwrite existing dumps.
      - For services: Combine with `-e` for exceptions or monitor CPU: `procdump -c 80 -h <service-exe>`.
 
-   - Take multiple dumps: Add `-n 3` for 3 dumps at intervals (e.g., `-t 10` for 10-second delay):  
+   - Take multiple dumps: Add `-n 3` for 3 dumps at intervals (e.g., `-t 10` for 10-second delay):
      ```
      procdump -ma -n 3 -t 10 <PID>
      ```
@@ -106,7 +106,7 @@ ProcDump works well for non-interactive processes like services; if the hang is 
 - **Prevention:** Enable JVM flags like `-XX:+PrintGCDetails` for logging, or use agents like JFR for profiling.
 - If dumps show no clear issue, check system resources (CPU, memory, I/O) with tools like `top` or Performance Monitor.
 
-[Oracle Java Troubleshooting Guide](https://docs.oracle.com/en/java/javase/17/troubleshoot/troubleshoot-process-hangs-and-loops.html)  
-[Taking a Hang Dump with ProcDump](https://www.poppastring.com/blog/taking-a-hang-dump-or-crash-dump-with-procdump)  
-[Java Thread Dump Analysis](https://www.baeldung.com/java-analyze-thread-dumps)  
+[Oracle Java Troubleshooting Guide](https://docs.oracle.com/en/java/javase/17/troubleshoot/troubleshoot-process-hangs-and-loops.html)
+[Taking a Hang Dump with ProcDump](https://www.poppastring.com/blog/taking-a-hang-dump-or-crash-dump-with-procdump)
+[Java Thread Dump Analysis](https://www.baeldung.com/java-analyze-thread-dumps)
 [ProcDump Usage for Hangs](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump)

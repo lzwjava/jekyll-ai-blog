@@ -12,7 +12,7 @@ type: note
 
 Question: What is the IELTS test day procedure?
 
-Answer: 
+Answer:
 
 Here is a comprehensive English translation and structured summary of the provided Chinese text about the **IELTS test day procedures** (primarily based on the official process in mainland China via the Ministry of Education Examination Authority / NEEA, covering both paper-based and computer-delivered formats).
 
@@ -116,7 +116,7 @@ Here is a comprehensive English translation and structured summary of the provid
 - Water (label removed) + essential meds only.
 - Follow all staff instructions and rules strictly.
 
-References:  
-- [Official IELTS China site (chinaielts.org)](https://www.chinaielts.org/)  
-- [NEEA IELTS registration site (ielts.neea.cn)](https://ielts.neea.cn/)  
+References:
+- [Official IELTS China site (chinaielts.org)](https://www.chinaielts.org/)
+- [NEEA IELTS registration site (ielts.neea.cn)](https://ielts.neea.cn/)
 - Various official procedure summaries from British Council / IDP IELTS resources and China-specific test day guides (2025–2026 updates indicate computer-delivered often same-day with speaking, paper-based separate).

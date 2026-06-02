@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Wang Wei's "Wangchuan Ji" (辋川集).
 
-Answer: 
+Answer:
 
 **Wang Wei's *Wangchuan Ji* (辋川集)** is one of the most famous works in Chinese landscape poetry, created during the Tang Dynasty.
 
@@ -34,17 +34,17 @@ Answer:
 - Modern scholars and archaeologists still use the poems to locate and study the historical sites of Wangchuan.
 
 ### Representative Example
-**Deer Enclosure (鹿柴)** by Wang Wei  
-Empty mountains: no one is seen,  
-Yet the sound of voices is heard.  
-Returning sunlight enters the deep forest,  
+**Deer Enclosure (鹿柴)** by Wang Wei
+Empty mountains: no one is seen,
+Yet the sound of voices is heard.
+Returning sunlight enters the deep forest,
 Again shining on the green moss.
 
 This short poem perfectly captures the Zen experience of emptiness, illusion, and sudden illumination.
 
 In summary, *Wangchuan Ji* is not just a group of landscape poems — it is a spiritual record of Wang Wei's withdrawal from worldly turmoil into nature and Buddhist contemplation, and one of the most elegant and influential poetic sequences in Chinese literary history.
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E8%BE%8B%E5%B7%9D%E9%9B%86/8029841](https://baike.baidu.com/item/%E8%BE%8B%E5%B7%9D%E9%9B%86/8029841)
 - [https://en.wikipedia.org/wiki/Wangchuan_ji](https://en.wikipedia.org/wiki/Wangchuan_ji)

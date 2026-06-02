@@ -17,12 +17,12 @@ type: note
 
 根本原因几乎总是以下服务器端检查失败之一（或两者）：
 
-1. **Origin not allowed** — 浏览器中的 `Origin` 标头不符合允许列表  
+1. **Origin not allowed** — 浏览器中的 `Origin` 标头不符合允许列表
 2. **Device identity required** — 即使对于 Control UI，gateway 也会强制执行设备配对/身份验证，除非明确禁用
 
 ### 快速修复步骤（LAN / HTTP 设置）
 
-1. **检查当前配置**  
+1. **检查当前配置**
    运行此命令（如果您的 CLI 路径不同，请调整）：
 
    ```
@@ -30,7 +30,7 @@ type: note
    ```
 
    查找：
-   - `allowedOrigins`：应包含您确切的浏览器 URL，例如 `["http://192.168.1.36:18789"]`  
+   - `allowedOrigins`：应包含您确切的浏览器 URL，例如 `["http://192.168.1.36:18789"]`
      （无尾随斜杠，确切协议 + IP + 端口）
    - `dangerouslyDisableDeviceAuth`：应为 `true`
 
@@ -97,7 +97,7 @@ type: note
 
 应用配置 + 重启后，刷新 Control UI 页面 — WebSocket 应该能连接。
 
-**参考资料：**  
+**参考资料：**
 
 - [https://docs.openclaw.ai/gateway/security](https://docs.openclaw.ai/gateway/security)
 - [https://github.com/openclaw/openclaw/issues/41043](https://github.com/openclaw/openclaw/issues/41043)

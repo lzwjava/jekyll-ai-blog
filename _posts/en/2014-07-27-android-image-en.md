@@ -152,18 +152,18 @@ public class BitmapUtils {
 ```
 
 ##### What’s Inside?
-- **Grayscale Conversion**:  
+- **Grayscale Conversion**:
   - `convertGreyImg`: Uses a pixel array to batch-process the bitmap into grayscale.
   - `toGreyImg`: Works pixel-by-pixel on a mutable copy, offering an alternative approach.
   Both use the luminosity formula (`0.3R + 0.59G + 0.11B`) for natural grayscale.
 
-- **File Operations**:  
+- **File Operations**:
   - `saveBitmapToPath`: Saves a bitmap as a PNG, creating directories as needed.
 
-- **Transformations**:  
+- **Transformations**:
   - `rotateBitmap`: Rotates an image using a `Matrix`—simple but effective.
 
-- **Loading and Sampling**:  
+- **Loading and Sampling**:
   - `getBitmapByUri` and `getResourceUri`: Load images from URIs or resources.
   - `decodeSampledBitmapFromPath` and `decodeFileByHeight`: Efficiently scale large images by width or height, avoiding memory issues.
 
@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-**Notes**: 
+**Notes**:
 - Ensure proper storage permissions in your `AndroidManifest.xml` and runtime checks for file operations.
 - The `App` class (referenced in `Crop`) should define `drawWidth` and `drawHeight`.
 

@@ -11,7 +11,7 @@ type: note
 
 Question: For dmit.io, when using the command `ssh -i id_rsa.pem xxx`, what is the username to access the server?
 
-Answer: 
+Answer:
 
 For **dmit.io** VPS instances, the default SSH username is **`root`**.
 
@@ -50,7 +50,7 @@ ssh -i id_rsa.pem root@your-server-ip
 
 If your instance was custom-installed with a different OS template that changes the default user (rare), check your welcome email or client area for specific credentials. But in standard DMIT setups, it's **root**.
 
-References:  
+References:
 
 - [https://www.dmit.io/index.php?rp=/knowledgebase/56/How-to-connect-DMIT-VPS-via-SSH-Key-using-PuTTY.html](https://www.dmit.io/index.php?rp=/knowledgebase/56/How-to-connect-DMIT-VPS-via-SSH-Key-using-PuTTY.html) (mentions typing "root" in Auto-login username)
 - [https://www.dmit.io/index.php?rp=/knowledgebase/64/How-to-connect-DMIT-VPS-via-SSH-Key-using-Termius.html](https://www.dmit.io/index.php?rp=/knowledgebase/64/How-to-connect-DMIT-VPS-via-SSH-Key-using-Termius.html) (type "root" to the "Username")

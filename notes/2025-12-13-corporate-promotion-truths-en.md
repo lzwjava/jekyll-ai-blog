@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about promotion in corporations?
 
-Answer: 
+Answer:
 
 Several contrarian or unpopular views challenge the conventional wisdom that promotions in corporations are primarily merit-based rewards for hard work and performance. These ideas often highlight systemic flaws, unintended consequences, and alternative perspectives on career advancement:
 
@@ -28,7 +28,7 @@ Several contrarian or unpopular views challenge the conventional wisdom that pro
 
 These views suggest that corporate promotion systems reward politics and signaling over pure merit, and pursuing traditional advancement isn't always desirable or effective.
 
-References:  
+References:
 
 - [r/unpopularopinion: People Who Are Good at Their Jobs Should Not Be Promoted](https://www.reddit.com/r/unpopularopinion/comments/1g0v0kw/people_who_are_good_at_their_jobs_should_not_be/)
 - [r/unpopularopinion: You do not deserve a promotion just because you work hard and are good at your job](https://www.reddit.com/r/unpopularopinion/comments/v91vmp/you_do_not_deserve_a_promotion_just_because_you/)

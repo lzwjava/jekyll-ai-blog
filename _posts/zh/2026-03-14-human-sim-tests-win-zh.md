@@ -50,8 +50,8 @@ OpenClaw 的适当最终 integration test 应该：
 ## 推荐的 OpenClaw Workflow
 
 ```
-部署 → 运行模拟人类的 integration test → 
-  如果 FAIL → 诊断并修复 → 重新运行 test → 
+部署 → 运行模拟人类的 integration test →
+  如果 FAIL → 诊断并修复 → 重新运行 test →
   如果 PASS → 向用户报告成功
 ```
 

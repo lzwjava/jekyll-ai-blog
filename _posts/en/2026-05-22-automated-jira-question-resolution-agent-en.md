@@ -57,7 +57,7 @@ Let me build this as a working artifact you can paste your JIRA comments into:Th
 system = """
 1. Extract every distinct question/issue
 2. Determine if resolved — BY ANY COMMENTER, including:
-   - Original asker saying "thanks, resolved"  
+   - Original asker saying "thanks, resolved"
    - Third party saying "X's question is now answered"
    - Implicit resolution ("that design doc covers it")
 3. Classify into category

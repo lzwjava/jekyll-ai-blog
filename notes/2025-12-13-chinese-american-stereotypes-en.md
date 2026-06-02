@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Chinese people in the USA?
 
-Answer: 
+Answer:
 
 Unpopular opinions about Chinese people (including Chinese Americans and immigrants) in the USA often stem from stereotypes, cultural clashes, geopolitical tensions, and historical prejudices. These views are typically controversial, not widely accepted, and can border on or cross into racism. They are frequently discussed in online forums like Reddit, Quora, and X (formerly Twitter), but mainstream sources highlight them as biased or outdated. Here are some commonly cited ones, presented neutrally with context:
 
@@ -30,10 +30,10 @@ Unpopular opinions about Chinese people (including Chinese Americans and immigra
 
 These opinions are often labeled unpopular because surveys show most Americans distinguish between the Chinese government (widely disliked) and people, and anti-Asian discrimination is condemned. Many Chinese Americans report facing perpetual foreigner stereotypes despite being US citizens.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Anti-Chinese_sentiment_in_the_United_States  
-- https://en.wikipedia.org/wiki/Stereotypes_of_East_Asians_in_the_United_States  
-- https://www.reddit.com/r/asianamerican/comments/1jfd475/has_anyone_noticed_the_disdain_for_chinese/  
-- https://www.pewresearch.org/global/2024/05/01/americans-remain-critical-of-china/  
+- https://en.wikipedia.org/wiki/Anti-Chinese_sentiment_in_the_United_States
+- https://en.wikipedia.org/wiki/Stereotypes_of_East_Asians_in_the_United_States
+- https://www.reddit.com/r/asianamerican/comments/1jfd475/has_anyone_noticed_the_disdain_for_chinese/
+- https://www.pewresearch.org/global/2024/05/01/americans-remain-critical-of-china/
 - https://history.state.gov/milestones/1866-1898/chinese-immigration

@@ -19,8 +19,8 @@ type: note
 
 总体而言，滴滴在巴西的发展轨迹呈现积极态势，在巴西数字经济增长背景下，巨额投资显示出其对市场潜力的信心。
 
-[滴滴旗下99Food在里约热内卢上线](https://equalocean.com/briefing/20251017230148657)  
-[巴西法院禁止滴滴99Food执行排他性协议](https://www.caixinglobal.com/2025-10-24/brazil-court-blocks-didis-99food-from-enforcing-exclusive-deals-against-rival-meituan-102374957.html)  
-[中国滴滴将在巴西扩展外卖服务](https://asia.nikkei.com/business/china-tech/china-s-didi-to-expand-food-delivery-services-in-brazil)  
-[99Food进驻里约并计划在巴西投资20亿雷亚尔](https://valorinternational.globo.com/business/news/2025/10/15/99food-expands-to-rio-plans-r2bn-investment-in-brazil.ghtml)  
+[滴滴旗下99Food在里约热内卢上线](https://equalocean.com/briefing/20251017230148657)
+[巴西法院禁止滴滴99Food执行排他性协议](https://www.caixinglobal.com/2025-10-24/brazil-court-blocks-didis-99food-from-enforcing-exclusive-deals-against-rival-meituan-102374957.html)
+[中国滴滴将在巴西扩展外卖服务](https://asia.nikkei.com/business/china-tech/china-s-didi-to-expand-food-delivery-services-in-brazil)
+[99Food进驻里约并计划在巴西投资20亿雷亚尔](https://valorinternational.globo.com/business/news/2025/10/15/99food-expands-to-rio-plans-r2bn-investment-in-brazil.ghtml)
 [滴滴在巴西重启外卖服务](https://en.tmtpost.com/post/7647360)

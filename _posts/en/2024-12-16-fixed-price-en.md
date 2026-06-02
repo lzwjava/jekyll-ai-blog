@@ -32,7 +32,7 @@ Adopting a flexible pricing model based on actual usage would solve many of thes
 A potential way to implement this is through a wallet system, similar to the one used in the GPT-4 API. Users can deposit funds into their account, and the system will deduct charges based on their actual usage. For instance:
 
 - For ChatGPT Plus: Tokens could be deducted based on how much of the service is used (e.g., how many words or queries are processed). Instead of paying a fixed $20/month, users would top up their wallet and only use tokens as needed.
-- For Netflix and Streaming: Instead of a flat fee for access to all content, users could pay for the hours they watch or the amount of data they consume. 
+- For Netflix and Streaming: Instead of a flat fee for access to all content, users could pay for the hours they watch or the amount of data they consume.
 - Transparency and Control: This wallet system gives users more control over their spending while offering full transparency in terms of what they are paying for.
 
 ### How It Works

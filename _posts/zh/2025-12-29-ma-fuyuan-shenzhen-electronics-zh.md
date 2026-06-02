@@ -26,13 +26,13 @@ type: note
 
 ### 主要成就
 - **电子市场的建立**：1988年，马福元率先创建了中国第一个专业电子元器件市场——深圳赛格电子市场（Shenzhen SEG Electronics Market）。受东京秋叶原（Akihabara）启发，该市场突破了计划经济的束缚，允许电子元器件自由交易。这为后来著名的华强北（Huaqiangbei）电子商业街奠定了基础，如今那里已成为全球最大的电子交易和创新中心之一。
-  
+
 - **重大投资与项目**：为了增强集团实力，马福元投资了一系列基础性项目，包括：
   - 功率晶体管（通过深圳上航半导体公司）。
   - 彩色显像管（赛格日立，SEG Hitachi）。
   - 玻壳生产。
   - 大规模集成电路（Integrated Circuits）。
-  
+
   这些举措帮助深圳从单纯的组装生产转向核心技术制造，结束了某些元器件依赖进口的历史。
 
 - **行业协会与改革**：1986年，他创办了深圳首个电子行业协会。他推行了创新的治理模式，包括在国有企业中较早采用董事会制度，并积极推动与外资企业的合资合作。
@@ -46,8 +46,8 @@ type: note
 
 参考文献：
 
-- [连载·深圳科技创新密码（15）| 组建赛格集团](https://www.dutenews.com/n/article/8175649)  
-- [赛格集团创始人马福元去世](https://news.sina.cn/2015-06-10/detail-icrvvsuv9588194.d.html)  
-- [马福元 - 百度百科](https://baike.baidu.com/item/%E9%A9%AC%E7%A6%8F%E5%85%83/5012446)  
-- [Huaqiangbei Electronic Market: Everything You Need to Know](https://www.ejet.com/huaqiangbei/)  
+- [连载·深圳科技创新密码（15）| 组建赛格集团](https://www.dutenews.com/n/article/8175649)
+- [赛格集团创始人马福元去世](https://news.sina.cn/2015-06-10/detail-icrvvsuv9588194.d.html)
+- [马福元 - 百度百科](https://baike.baidu.com/item/%E9%A9%AC%E7%A6%8F%E5%85%83/5012446)
+- [Huaqiangbei Electronic Market: Everything You Need to Know](https://www.ejet.com/huaqiangbei/)
 - [百位深圳改革人物马福元：八十年代特区著名的国有企业改革家](http://www.cxsz.org/index.php/About/dynamic_detail/id/87.html)

@@ -44,7 +44,7 @@ In 2025, China experienced a mix of economic resilience amid challenges, signifi
 
 Overall, 2025 highlighted China's push for technological self-sufficiency and export strength despite domestic economic headwinds, external trade pressures, and natural challenges.
 
-**References:**  
+**References:**
 
 - [https://en.wikipedia.org/wiki/2025_in_China](https://en.wikipedia.org/wiki/2025_in_China)
 - [https://en.qstheory.cn/2025-12/30/c_1151311.htm](https://en.qstheory.cn/2025-12/30/c_1151311.htm)

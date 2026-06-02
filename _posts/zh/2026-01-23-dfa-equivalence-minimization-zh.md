@@ -40,7 +40,7 @@ Since N ≤ 2000 per automaton and T ≤ 26, direct minimization + isomorphism c
 3. **Minimize each DFA (most important step)**
    The standard efficient algorithm for your constraints is **Hopcroft's algorithm** (O(|S| × |Σ| log |S|))，which is fast enough for N=2000, Σ=26.
 
-   Alternative (simpler to code but slower):  
+   Alternative (simpler to code but slower):
    Use **partition refinement** with the basic table-filling / equivalence-class method:
    - Start with two groups: accepting vs non-accepting states
    - Iteratively split groups until no more distinctions can be made
@@ -74,7 +74,7 @@ Since N ≤ 2000 per automaton and T ≤ 26, direct minimization + isomorphism c
    4. Build the subgraph of only reachable states
    5. Minimize this DFA (Hopcroft or partition refinement)
    6. Get the number of states in minimal DFA + canonical state numbering
-   
+
    Finally:
    - If number of states in min-DFA A ≠ min-DFA B → No
    - Else try to check isomorphism by BFS-matching from start state

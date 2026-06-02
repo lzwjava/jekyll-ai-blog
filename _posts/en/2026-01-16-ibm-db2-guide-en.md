@@ -12,7 +12,7 @@ type: note
 
 **Question:** What privileges does DB2 have, such as EXECUTE, SELECT, etc.?
 
-**Answer:** 
+**Answer:**
 
 IBM Db2 (primarily referring to **Db2 for Linux, UNIX, and Windows (LUW)**, the most common modern version) supports a variety of **privileges** and **authorities**. Privileges are typically granted on specific objects (tables, views, schemas, packages, etc.) using the `GRANT` statement, while authorities are higher-level permissions (often database- or instance-wide).
 
@@ -65,7 +65,7 @@ Db2 for z/OS has some differences (e.g., more use of primary/secondary auth IDs 
 
 For the exact syntax and full list in your specific Db2 version/edition, refer to the official IBM Db2 documentation (SQL Reference → GRANT statement).
 
-**References:**  
+**References:**
 
 - [IBM Db2 Documentation - GRANT (table or view privileges)](https://www.ibm.com/docs/en/db2/11.5?topic=statements-grant-table-view-privileges)
 - [IBM Db2 Documentation - Authorization, privileges and object ownership](https://www.ibm.com/docs/en/db2/11.5?topic=model-authorization-privileges-object-ownership)

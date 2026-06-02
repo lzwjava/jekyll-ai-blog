@@ -39,5 +39,5 @@ AIDS stands for **Acquired Immunodeficiency Syndrome**. It is not a separate vir
 
 Early HIV detection and treatment are crucial to prevent AIDS.
 
-[About HIV - CDC](https://www.cdc.gov/hiv/about/index.html)  
+[About HIV - CDC](https://www.cdc.gov/hiv/about/index.html)
 [HIV Terms and Definitions - CDC](https://www.cdc.gov/hiv/glossary/index.html)

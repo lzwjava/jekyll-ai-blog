@@ -11,7 +11,7 @@ type: note
 
 Question: 收集 10 或 20 张不同的 credit cards 是浪费时间，还是能提供很多愉快的 perks？
 
-Answer: 
+Answer:
 
 收集 10 或 20 张不同的 credit cards 是一些人的热门爱好，通常被称为“points and miles hobby”或 credit card churning/optimization。是否浪费时间或极具回报取决于你的财务纪律、消费习惯、目标（如旅行）以及你愿意投入的时间多少。
 
@@ -36,7 +36,7 @@ Answer:
 
 如果你的目标是纯财务优化而无需太多努力，坚持简单配置（例如，一张 cash-back 卡 + 一张旅行卡）。如果你热爱策略并能负责任地处理复杂性，这个爱好可以很有回报且有趣。
 
-References:  
+References:
 
 - [https://thepointsguy.com/credit-cards/how-many-credit-cards-should-you-have](https://thepointsguy.com/credit-cards/how-many-credit-cards-should-you-have)
 - [https://onemileatatime.com/insights/credit-card-fatigue](https://onemileatatime.com/insights/credit-card-fatigue)

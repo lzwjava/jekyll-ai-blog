@@ -36,7 +36,7 @@ ELinks stands out with its menu system accessible by pressing ESC, letting you e
 - Navigation: Right arrow to follow links, left arrow to go back, ESC for menus
 
 ### 4. **Browsh**
-Browsh is a modern text-based browser that shows HTML5, CSS3, JS, video, and even WebGL, designed to be run on a remote server via SSH or Mosh and browse web pages as text from the terminal by significantly reducing bandwidth and increasing browsing speed. 
+Browsh is a modern text-based browser that shows HTML5, CSS3, JS, video, and even WebGL, designed to be run on a remote server via SSH or Mosh and browse web pages as text from the terminal by significantly reducing bandwidth and increasing browsing speed.
 - Usage: `ssh brow.sh` (use SSH connection)
 - Press Ctrl+L to focus on URL bar
 

@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about raising funds for a startup?
 
-Answer: 
+Answer:
 
 While conventional wisdom in the startup world emphasizes raising venture capital (VC) as a key milestone for rapid growth, several contrarian or unpopular views challenge this narrative. These ideas often prioritize sustainability, control, and profitability over hype and external funding. Here are some notable ones:
 
@@ -28,10 +28,10 @@ While conventional wisdom in the startup world emphasizes raising venture capita
 
 These ideas counter the dominant "raise big, grow fast, disrupt" culture, emphasizing that not every successful company needs external capital.
 
-References:  
+References:
 
-- [18 Unpopular Startup Opinions (That Might Actually Be True)](https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/)  
-- [6 Reasons Why Fundraising Is Bad for Your Startup](https://blog.alexdevero.com/reasons-fundraising-bad-startup/)  
-- [Bootstrapping vs. Venture Capital: Which path is right for your startup](https://www.holycode.com/blog/bootstrapping-vs-venture-capital-which-path-is-right-for-your-startup/)  
-- [Bootstrapping vs VC Funding: What's the Better Path?](https://www.newsletter.datadrivenvc.io/p/bootstrapping-vs-vc-funding-whats)  
+- [18 Unpopular Startup Opinions (That Might Actually Be True)](https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/)
+- [6 Reasons Why Fundraising Is Bad for Your Startup](https://blog.alexdevero.com/reasons-fundraising-bad-startup/)
+- [Bootstrapping vs. Venture Capital: Which path is right for your startup](https://www.holycode.com/blog/bootstrapping-vs-venture-capital-which-path-is-right-for-your-startup/)
+- [Bootstrapping vs VC Funding: What's the Better Path?](https://www.newsletter.datadrivenvc.io/p/bootstrapping-vs-vc-funding-whats)
 - [Paul Graham: How to Raise Money](https://paulgraham.com/fr.html)

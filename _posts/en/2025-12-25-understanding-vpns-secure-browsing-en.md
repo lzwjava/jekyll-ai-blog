@@ -12,7 +12,7 @@ type: note
 
 Question: Transcribe the YouTube video at https://www.youtube.com/watch?v=R-JUOpCgTZc and restructure its content into a lecture format.
 
-Answer: 
+Answer:
 
 # Lecture: Understanding Virtual Private Networks (VPNs)
 
@@ -85,6 +85,6 @@ If you're serious about protecting your digital life—especially on public netw
 
 Thank you for your attention. Questions?
 
-References:  
+References:
 
 - [VPN (Virtual Private Network) Explained - YouTube](https://www.youtube.com/watch?v=R-JUOpCgTZc)

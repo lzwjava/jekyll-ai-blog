@@ -103,5 +103,5 @@ This fixes the rust-analyzer error by creating a valid workspace. It also allows
 
 If this doesn't match your setup (e.g., provide the content of `example.rs` or more details), let me know for refined steps.
 
-[Announcing Rust 1.88.0](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)  
+[Announcing Rust 1.88.0](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)
 [Rust | endoflife.date](https://endoflife.date/rust)

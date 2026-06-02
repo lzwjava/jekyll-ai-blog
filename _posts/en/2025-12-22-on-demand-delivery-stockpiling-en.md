@@ -12,7 +12,7 @@ type: note
 
 Question: With JD.com offering fast next-day delivery in China, and services like Meituan providing 24-hour on-demand delivery for items including medicines, do people no longer need to stock up on extra everyday items like 1.5V batteries or tissues, unlike 20 years ago when stocking extras was common for convenience?
 
-Answer: 
+Answer:
 
 Yes, you're largely correct—thanks to China's highly advanced on-demand and e-commerce delivery ecosystem, most urban residents no longer need to stockpile everyday necessities like batteries, tissues, medicines, or similar items "just in case."
 
@@ -34,11 +34,11 @@ Yes, you're largely correct—thanks to China's highly advanced on-demand and e-
 
 Overall, the convenience of these services has transformed daily life in China, making precautionary stockpiling mostly unnecessary for most people in covered areas.
 
-References:  
+References:
 
-- https://ir.jd.com/news-releases/news-release-details/jdcom-launched-its-speedy-211-program-which-provides-same-day  
-- https://miracuves.com/blog/what-is-jd-com-and-how-does-it-work/  
-- https://govt.chinadaily.com.cn/s/202508/21/WS68a687b5498e44f8103383f6/how-to-buy-emergency-medicine-online-in-china.html  
-- https://en.wikipedia.org/wiki/Meituan  
-- https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240910/4033ec85d7d14f36841b25c7f2dc49.html  
+- https://ir.jd.com/news-releases/news-release-details/jdcom-launched-its-speedy-211-program-which-provides-same-day
+- https://miracuves.com/blog/what-is-jd-com-and-how-does-it-work/
+- https://govt.chinadaily.com.cn/s/202508/21/WS68a687b5498e44f8103383f6/how-to-buy-emergency-medicine-online-in-china.html
+- https://en.wikipedia.org/wiki/Meituan
+- https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240910/4033ec85d7d14f36841b25c7f2dc49.html
 - https://www.scmp.com/opinion/china-opinion/article/3309096/instant-commerce-chinas-first-world-infrastructure-faces-third-world-spending

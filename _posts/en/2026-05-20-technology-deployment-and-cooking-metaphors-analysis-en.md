@@ -53,8 +53,8 @@ Week 6:  speculative decoding, KV cache opt   # 枸杞卷章
 
 ## The Cooking Advice — Is It Correct?
 
-> 蔬菜得中间放入 要不会煮烂  
-> 其他都可以直接从冰箱放入  
+> 蔬菜得中间放入 要不会煮烂
+> 其他都可以直接从冰箱放入
 > 粽子也可以不去皮
 
 **Breaking it down:**

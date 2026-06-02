@@ -13,14 +13,14 @@ type: note
 
 ### 解决步骤
 
-1. **更新 `setuptools` 和 `pip`**  
+1. **更新 `setuptools` 和 `pip`**
    确保你拥有最新版本的 `setuptools` 和 `pip`，因为过时的版本可能导致兼容性问题。
 
    ```bash
    pip install --upgrade pip setuptools
    ```
 
-2. **安装特定版本的 `pyperclip`**  
+2. **安装特定版本的 `pyperclip`**
    该错误可能是由 `pyperclip` 的过旧或不兼容版本引起的。尝试安装一个特定的、稳定的 `pyperclip` 版本。
 
    ```bash
@@ -33,7 +33,7 @@ type: note
    pip install pyperclip
    ```
 
-3. **使用 `--no-binary` 选项**  
+3. **使用 `--no-binary` 选项**
    如果 wheel 构建过程失败，可以通过直接安装源码发行版来绕过此问题：
 
    ```bash
@@ -42,7 +42,7 @@ type: note
 
    这会强制 `pip` 从源码安装，而不是尝试构建 wheel 包。
 
-4. **检查 Python 版本兼容性**  
+4. **检查 Python 版本兼容性**
    确保你的 Python 版本与 `pyperclip` 兼容。截至 2025 年，`pyperclip` 支持 Python 3.6 及以上版本，但旧版本可能存在兼容性问题。检查你的 Python 版本：
 
    ```bash
@@ -51,14 +51,14 @@ type: note
 
    如果你使用的是较旧的 Python 版本（例如 Python 3.5 或更早版本），请升级到较新的版本（例如 Python 3.8+）。你可以使用 `pyenv` 等工具管理 Python 版本。
 
-5. **清除 pip 缓存**  
+5. **清除 pip 缓存**
    损坏的 `pip` 缓存可能导致问题。清除缓存后重试：
 
    ```bash
    pip cache purge
    ```
 
-6. **使用虚拟环境**  
+6. **使用虚拟环境**
    为避免与系统包冲突，创建一个虚拟环境：
 
    ```bash
@@ -68,7 +68,7 @@ type: note
    pip install pyperclip
    ```
 
-7. **降级 `setuptools`（如有需要）**  
+7. **降级 `setuptools`（如有需要）**
    如果更新 `setuptools` 无法解决问题，尝试降级到已知与 `pyperclip` 兼容的版本。例如：
 
    ```bash
@@ -76,7 +76,7 @@ type: note
    pip install pyperclip
    ```
 
-8. **检查系统特定问题**  
+8. **检查系统特定问题**
    错误信息中提到了 `/usr/lib/python3/dist-packages`，表明你可能在使用系统 Python 安装（例如在 Ubuntu 上）。系统 Python 安装可能受到权限限制或与全局安装的包冲突。使用虚拟环境（步骤 6）是避免此问题的最佳方式。或者，确保你有安装包的权限：
 
    ```bash
@@ -85,7 +85,7 @@ type: note
 
    但除非必要，尽量避免使用 `sudo`，因为它可能会扰乱系统 Python 环境。
 
-9. **替代方案：通过 `apt` 安装（Ubuntu/Debian）**  
+9. **替代方案：通过 `apt` 安装（Ubuntu/Debian）**
    如果你在基于 Debian 的系统上，且 `pip` 持续失败，可以使用系统包管理器安装 `pyperclip`：
 
    ```bash
@@ -93,7 +93,7 @@ type: note
    sudo apt install python3-pyperclip
    ```
 
-10. **进一步调试**  
+10. **进一步调试**
     如果以上方法均无效，请查看 `pyperclip` 的 GitHub 页面或 PyPI 页面，了解已知问题或兼容性说明。你也可以尝试直接从源码安装：
 
     ```bash

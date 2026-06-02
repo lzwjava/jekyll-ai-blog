@@ -19,6 +19,6 @@ In Red Hat Enterprise Linux (RHEL), particularly in a minimal installation (the 
 
 This keeps the minimal install lean (around 200-300 packages total) to prioritize security and performance. If you're doing a full desktop or server install (not minimal), more tools might be pulled in depending on the selected environment.
 
-[Getting started with Nano (Red Hat)](https://www.redhat.com/en/blog/getting-started-nano)  
-[Why RHEL has two vim installed by default?](https://unix.stackexchange.com/questions/699071/why-rhel-has-two-vim-installed-by-default)  
+[Getting started with Nano (Red Hat)](https://www.redhat.com/en/blog/getting-started-nano)
+[Why RHEL has two vim installed by default?](https://unix.stackexchange.com/questions/699071/why-rhel-has-two-vim-installed-by-default)
 [RHEL 9 Package Manifest](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/package_manifest/index)

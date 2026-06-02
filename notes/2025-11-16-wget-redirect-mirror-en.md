@@ -13,7 +13,7 @@ type: note
 Your `wget` command is hitting `https://mirror.accum.se/mirror/wikimedia.org/dumps/...` and getting a **302 redirect** to `https://laotzu.ftp.acc.umu.se/...`. This is completely normal and expected behavior for the **accum.se** mirror — here’s why it happens and what it means:
 
 ### Why the redirect happens
-`mirror.accum.se` is only a **redirector / load-balancer** run by Academic Computer Club at Umeå University (ACC) in Sweden.  
+`mirror.accum.se` is only a **redirector / load-balancer** run by Academic Computer Club at Umeå University (ACC) in Sweden.
 It does **not** host the files itself. Instead:
 
 - It looks at your IP’s geolocation (or sometimes load)

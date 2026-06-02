@@ -1,7 +1,5 @@
-import os
 import time
 import logging
-import argparse
 import random
 from urllib.parse import urljoin, urlparse
 
@@ -11,21 +9,21 @@ from selenium.common.exceptions import (
     WebDriverException,
     TimeoutException,
     NoSuchElementException,
-    InvalidArgumentException
+    InvalidArgumentException,
 )
 from selenium.webdriver.common.by import By
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 # List of User-Agents to rotate (if needed)
 USER_AGENTS = [
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-    'Chrome/115.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) '
-    'Version/15.1 Safari/605.1.15',
-    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '
-    'Chrome/115.0.0.0 Safari/537.36',
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/115.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) "
+    "Version/15.1 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/115.0.0.0 Safari/537.36",
     # Add more User-Agent strings as needed
 ]
 
@@ -54,7 +52,8 @@ class SeleniumCrawler:
         try:
             if driver_path:
                 self.driver = webdriver.Chrome(
-                    options=chrome_options, executable_path=driver_path)
+                    options=chrome_options, executable_path=driver_path
+                )
             else:
                 # Assumes chromedriver is in PATH
                 self.driver = webdriver.Chrome(options=chrome_options)
@@ -71,17 +70,17 @@ class SeleniumCrawler:
         """
         parsed = urlparse(url)
         if not parsed.scheme:
-            url = 'http://' + url
+            url = "http://" + url
             parsed = urlparse(url)
         normalized = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
-        return normalized.rstrip('/')
+        return normalized.rstrip("/")
 
     def is_valid(self, url):
         """
         Check if the URL is valid and belongs to the same domain.
         """
         parsed = urlparse(url)
-        return (parsed.scheme in ['http', 'https']) and (parsed.netloc == self.domain)
+        return (parsed.scheme in ["http", "https"]) and (parsed.netloc == self.domain)
 
     def get_links(self, url):
         """
@@ -95,17 +94,20 @@ class SeleniumCrawler:
 
             # Extract all <a> elements with href attribute
             links = set()
-            anchor_elements = self.driver.find_elements(By.TAG_NAME, 'a')
+            anchor_elements = self.driver.find_elements(By.TAG_NAME, "a")
             for element in anchor_elements:
-                href = element.get_attribute('href')
+                href = element.get_attribute("href")
                 if href:
                     href = href.strip()
-                    if href.startswith('mailto:') or href.startswith('tel:') or href.startswith('javascript:'):
+                    if (
+                        href.startswith("mailto:")
+                        or href.startswith("tel:")
+                        or href.startswith("javascript:")
+                    ):
                         continue  # Skip non-HTTP links
                     absolute_url = urljoin(url, href)
-                    absolute_url = absolute_url.split(
-                        '#')[0]  # Remove URL fragments
-                    absolute_url = absolute_url.rstrip('/')
+                    absolute_url = absolute_url.split("#")[0]  # Remove URL fragments
+                    absolute_url = absolute_url.rstrip("/")
                     if self.is_valid(absolute_url):
                         links.add(absolute_url)
             return list(links)
@@ -125,10 +127,9 @@ class SeleniumCrawler:
 
             # Simple check: look for "404" in the title or body
             page_title = self.driver.title.lower()
-            page_body = self.driver.find_element(
-                By.TAG_NAME, 'body').text.lower()
+            page_body = self.driver.find_element(By.TAG_NAME, "body").text.lower()
 
-            if '404' in page_title or 'not found' in page_body:
+            if "404" in page_title or "not found" in page_body:
                 logging.warning(f"[404] Broken link found: {url}")
                 self.broken_links.add(url)
         except (WebDriverException, TimeoutException, NoSuchElementException) as e:

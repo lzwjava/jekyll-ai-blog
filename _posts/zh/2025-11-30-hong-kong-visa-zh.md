@@ -92,8 +92,8 @@ TTPS与ASMTP处理周期通常为4-8周，QMAS最长需6个月。费用自230港
 
 如需个性化协助，可亲临入境处柜台或使用在线咨询。成功关键取决于个人背景——TTPS最适合应届顶尖毕业生及高收入人士。
 
-**参考资源：**  
-- [入境处TTPS专页](https://www.immd.gov.hk/eng/services/visas/TTPS.html)  
-- [入境处QMAS专页](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)  
-- [GovHK ASMTP指南](https://www.immd.gov.hk/eng/services/visas/mainland-talents-professionals.html)  
+**参考资源：**
+- [入境处TTPS专页](https://www.immd.gov.hk/eng/services/visas/TTPS.html)
+- [入境处QMAS专页](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)
+- [GovHK ASMTP指南](https://www.immd.gov.hk/eng/services/visas/mainland-talents-professionals.html)
 - [Fragomen 2025政策更新](https://www.fragomen.com/insights/hong-kong-sar-key-updates-for-top-talent-pass-scheme-and-quality-migrant-scheme-introduced.html)

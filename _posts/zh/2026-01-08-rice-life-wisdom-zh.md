@@ -12,7 +12,7 @@ type: note
 
 Question: What is the wisdom of growing rice? What can we learn from that?
 
-Answer: 
+Answer:
 
 “种稻的智慧”主要指从水稻耕作中衍生出的深刻人生教训和文化价值观。特别是在亚洲社会，水稻种植数世纪以来塑造了哲学、谚语和社会规范。
 
@@ -36,7 +36,7 @@ Answer:
 
 总的来说，种稻象征着真正的成长——无论是个人还是社会——源于谦逊、持久的努力、社区和耐心。
 
-References:  
+References:
 
 - [Chicago Booth Review: What Rice Farming Can Teach Us about Happiness](https://www.chicagobooth.edu/review/what-rice-farming-can-teach-us-about-happiness)
 - [Medium: Life Lessons from a Rice Field](https://medium.com/@arjeanvlog/life-lessons-from-a-rice-field-7559280b4022)

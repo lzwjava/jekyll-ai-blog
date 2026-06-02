@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an English introduction to 《九歌·湘夫人》 (from the Nine Songs: The Lady of the Xiang).
 
-Answer: 
+Answer:
 
 **《九歌·湘夫人》 (The Lady of the Xiang) 简介**
 
@@ -26,7 +26,7 @@ Answer:
 
 - 这首诗以一位男性 Shaman 或信徒的视角写就，他焦急地等待并渴望着女神 **湘夫人** 的到来。
 - 诗的开篇包含了中国诗歌中最负盛名的句子：
-  - "帝子降兮北渚，目眇眇兮愁予。袅袅兮秋风，洞庭波兮木叶下。"  
+  - "帝子降兮北渚，目眇眇兮愁予。袅袅兮秋风，洞庭波兮木叶下。"
     (The lady descendant descends to the northern islet; her gaze is distant and sorrowful, troubling me. Gently the autumn wind sways, on Dongting Lake the waves rise, and leaves fall.)
 - 这些词句围绕 **洞庭湖** (Dongting Lake) 营造了一种著名的秋意浓郁、忧郁哀婉的氛围，唤起了渴望、分离以及无法实现的希冀。
 - 叙述者在水中准备了一座美丽的宫殿（用香草、药草和珍贵材料建成）来迎接女神，但她始终没有出现。
@@ -42,7 +42,7 @@ Answer:
 
 总之，《湘夫人》不仅是一首优美的宗教赞歌，也是对渴望、自然之美以及求而不得之爱的苦涩痛苦的永恒描绘，使其成为《楚辞》中最受欢迎且被频繁翻译的作品之一。
 
-References:  
+References:
 
 - [Jiu Ge - Wikipedia](https://en.wikipedia.org/wiki/Jiu_Ge)
 - [List of Chu Ci contents - Wikipedia](https://en.wikipedia.org/wiki/List_of_Chu_Ci_contents)

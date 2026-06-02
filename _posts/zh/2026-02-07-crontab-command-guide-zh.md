@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to crontab command options
 
-Answer: 
+Answer:
 
 Linux/Unix 系统中的 `crontab` 命令用于管理用户的 cron tables —— 这些文件安排了由 cron daemon 自动执行的定期任务（cron jobs）。
 
@@ -34,39 +34,39 @@ Linux/Unix 系统中的 `crontab` 命令用于管理用户的 cron tables ——
 
 ### Most common options (几乎在所有系统中都可用)
 
-- `-e`  
-  使用 `$VISUAL` 或 `$EDITOR` 中定义的编辑器编辑当前用户的 crontab（如果未设置，则退回到 `vi`/`vim`）。  
+- `-e`
+  使用 `$VISUAL` 或 `$EDITOR` 中定义的编辑器编辑当前用户的 crontab（如果未设置，则退回到 `vi`/`vim`）。
   这是交互式创建或修改计划任务最常用的选项。
 
-- `-l`  
+- `-l`
   在标准输出上列出（显示）当前的 crontab。
 
-- `-r`  
-  完全移除（删除）当前的 crontab。  
+- `-r`
+  完全移除（删除）当前的 crontab。
   **警告**：除非你有备份，否则此操作不可逆。
 
-- `-u username`  
-  操作指定用户的 crontab，而不是当前用户。  
-  在大多数实现中需要 root 权限（或相应的 sudo 权限）。  
+- `-u username`
+  操作指定用户的 crontab，而不是当前用户。
+  在大多数实现中需要 root 权限（或相应的 sudo 权限）。
   示例：`sudo crontab -u www-data -e`
 
 ### Additional / less universal options (取决于 cron 的实现版本)
 
-- `-i`  
-  交互/确认模式 —— 与 `-r` 配合使用。  
-  在移除 crontab 前要求确认。  
+- `-i`
+  交互/确认模式 —— 与 `-r` 配合使用。
+  在移除 crontab 前要求确认。
   示例：`crontab -r -i`
 
-- `-s`  
-  以 "system" 格式显示 crontab（如果适用，显示 SELinux 安全上下文）。  
+- `-s`
+  以 "system" 格式显示 crontab（如果适用，显示 SELinux 安全上下文）。
   主要适用于使用 SELinux 的系统。
 
-- `-T` (语法测试 / 验证模式 —— 在 Vixie cron、systemd timers 相关实现等现代版本中可用)  
-  测试 crontab 文件的语法而不安装它。  
-  示例：`crontab -T myjobs.txt`  
+- `-T` (语法测试 / 验证模式 —— 在 Vixie cron、systemd timers 相关实现等现代版本中可用)
+  测试 crontab 文件的语法而不安装它。
+  示例：`crontab -T myjobs.txt`
   如果有效则返回 exit code 0，否则返回非零值。在 scripts/CI 中非常有用。
 
-- `-n hostname` / `-c`  
+- `-n hostname` / `-c`
   非常罕见 —— 主要见于专门的或分布式 cron 变体（不是标准的 Vixie cron）。
 
 ### Quick reference table of typical usages
@@ -92,7 +92,7 @@ Linux/Unix 系统中的 `crontab` 命令用于管理用户的 cron tables ——
 
 关于 crontab 文件本身的语法（5个时间字段 + 命令），请参阅 `man 5 crontab`。
 
-References:  
+References:
 
 - [https://man7.org/linux/man-pages/man1/crontab.1.html](https://man7.org/linux/man-pages/man1/crontab.1.html)
 - [https://man7.org/linux/man-pages/man5/crontab.5.html](https://man7.org/linux/man-pages/man5/crontab.5.html)

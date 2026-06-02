@@ -12,7 +12,7 @@ type: note
 
 Question: Can we eat the skin of a honeydew melon? My kid likes to eat it.
 
-Answer: 
+Answer:
 
 Yes, **the skin (rind) of a honeydew melon is technically edible and safe to eat** for most people, including varieties like orange-fleshed honeydew (Cucumis melo). The entire melon, including the rind, is non-toxic.
 
@@ -33,7 +33,7 @@ Since it's an orange-fleshed variety (which has similar smooth, pale rind to sta
 
 **Bottom line**: Safe? Yes. Recommended or tasty raw? Usually no — peel it for the best experience, especially for a child.
 
-References:  
+References:
 
 - [Greater Chicago Food Depository - Honeydew Melon](https://www.chicagosfoodbank.org/ingredients/honeydewmelon)
 - [Healthline - Benefits of Honeydew Melon](https://www.healthline.com/nutrition/honeydew)

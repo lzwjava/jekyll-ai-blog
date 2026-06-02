@@ -20,7 +20,7 @@ Based on recent analyses and comparisons for 2025, the top three alternative GPU
 
 These providers are chosen based on frequency of top rankings, user adoption, and features tailored to AI workloads. For larger enterprises, CoreWeave edges out; for indie devs, RunPod or Lambda may be better.
 
-[Top 30 Cloud GPU Providers & Their GPUs in 2025](https://research.aimultiple.com/cloud-gpu-providers/)  
-[Top 12 Cloud GPU Providers for AI and Machine Learning in 2025](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)  
-[Top 15 AI/ML Cloud Platforms in 2025](https://saturncloud.io/blog/top-15-ai-ml-cloud-platforms-in-2025/)  
+[Top 30 Cloud GPU Providers & Their GPUs in 2025](https://research.aimultiple.com/cloud-gpu-providers/)
+[Top 12 Cloud GPU Providers for AI and Machine Learning in 2025](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
+[Top 15 AI/ML Cloud Platforms in 2025](https://saturncloud.io/blog/top-15-ai-ml-cloud-platforms-in-2025/)
 [Top 10 Cloud GPU Providers for AI and Deep learning in 2025](https://dataoorts.com/top-10-cloud-gpu-providers-for-ai-and-deep-learning-in-2025/)

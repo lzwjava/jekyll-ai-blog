@@ -12,7 +12,7 @@ type: note
 
 Question: Who are some relatively famous Google Cloud developers, or those who have many Google Cloud Developer certifications?
 
-Answer: 
+Answer:
 
 Here are some relatively well-known figures in the **Google Cloud** ecosystem, particularly those recognized as developers, educators, or advocates (often Developer Advocates at Google or prominent community contributors). These individuals are famous for their contributions through content creation, speaking at events like Google Cloud Next, YouTube channels, books, podcasts, and evangelism around Google Cloud development practices. They are not always "developers" in the traditional sense but are highly influential in the Google Cloud developer community.
 
@@ -30,7 +30,7 @@ Regarding people with **many Google Cloud certifications** (e.g., completing mos
 
 If you're looking to connect with or follow such experts, many are active on platforms like LinkedIn, YouTube, Medium, or X (formerly Twitter) under their Google affiliations.
 
-References:  
+References:
 
 - [Best 21 GCP Experts for Cloud Projects (2025)](https://echoglobal.tech/technologies/gcp)
 - [Top 10 Google Cloud Influencers - Whizlabs Blog](https://www.whizlabs.com/blog/top-google-cloud-influencers)

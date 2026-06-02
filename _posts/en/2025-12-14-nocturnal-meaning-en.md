@@ -12,7 +12,7 @@ type: note
 
 Question: What does "nocturnally" mean?
 
-Answer: 
+Answer:
 
 "Nocturnally" is an adverb meaning **at night** or **during the night**, rather than during the day. It describes actions, behaviors, or events that occur or are active in the nighttime.
 
@@ -23,7 +23,7 @@ It derives from the adjective "nocturnal," which means "of, relating to, or occu
 - Some flowers are pollinated **nocturnally** by moths.
 - The patient's symptoms appear **nocturnally**.
 
-References:  
+References:
 
 - [Cambridge Dictionary - Nocturnally](https://dictionary.cambridge.org/dictionary/english/nocturnally)
 - [Merriam-Webster - Nocturnal](https://www.merriam-webster.com/dictionary/nocturnal)

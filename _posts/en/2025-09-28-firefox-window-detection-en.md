@@ -89,12 +89,12 @@ def get_active_window():
     try:
         d = display.Display()
         root = d.screen().root
-        
+
         # Get active window
         active_window = root.get_full_property(
             d.intern_atom('_NET_ACTIVE_WINDOW'), X.AnyPropertyType
         )
-        
+
         if active_window:
             window_id = active_window.value[0]
             window = d.create_resource_object('window', window_id)
@@ -113,9 +113,9 @@ import subprocess
 def get_firefox_windows():
     try:
         # Using wmctrl
-        result = subprocess.run(['wmctrl', '-l'], 
+        result = subprocess.run(['wmctrl', '-l'],
                               capture_output=True, text=True)
-        firefox_windows = [line for line in result.stdout.split('\n') 
+        firefox_windows = [line for line in result.stdout.split('\n')
                           if 'firefox' in line.lower()]
         return firefox_windows
     except FileNotFoundError:

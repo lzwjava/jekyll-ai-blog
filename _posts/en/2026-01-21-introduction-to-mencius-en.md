@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the book 《孟子》 (Mencius).
 
-Answer: 
+Answer:
 
 《孟子》(Mencius, also written as Mengzi) is one of the most important classical texts in **Confucianism** and one of the **Four Books** (四书) of the Confucian canon.
 
@@ -27,20 +27,20 @@ Mencius is widely regarded as the greatest interpreter and developer of **Confuc
 
 Key philosophical positions include:
 
-- **Human nature is good** (性善论):  
+- **Human nature is good** (性善论):
   Every person is born with four innate "sprouts" (端) of virtue — compassion (恻隐之心), shame/dislike of wrong (羞恶之心), courtesy/modesty (辞让之心), and sense of right and wrong (是非之心). These can develop into the four cardinal virtues: **benevolence (仁)**, **righteousness (义)**, **propriety (礼)**, and **wisdom (智)**. Evil arises only when these sprouts are not nurtured.
 
-- **Benevolent government** (仁政):  
+- **Benevolent government** (仁政):
   Rulers should govern with compassion and moral example rather than force. Heavy taxation, harsh punishments, and wars should be minimized. A true king wins the hearts of the people.
 
-- **People are more important than the ruler** (民贵君轻):  
-  Famous line: “The people are the most precious; next come the state and grain; the ruler is the lightest.”  
+- **People are more important than the ruler** (民贵君轻):
+  Famous line: “The people are the most precious; next come the state and grain; the ruler is the lightest.”
   If a ruler becomes tyrannical, revolution (汤武革命) is morally justified.
 
-- **Righteousness over profit** (义利之辨):  
+- **Righteousness over profit** (义利之辨):
   Mencius sharply criticized the pursuit of personal or state profit at the expense of moral principles.
 
-- **Great man / Heroic ideal** (大丈夫):  
+- **Great man / Heroic ideal** (大丈夫):
   A person of unwavering moral courage who maintains integrity even in poverty or danger.
 
 ### Historical Influence
@@ -53,7 +53,7 @@ The book is not only a philosophical classic but also contains lively debates, m
 
 In short: If the *Analects* gives Confucius's concise teachings, then *Mencius* provides the passionate, systematic defense and expansion of Confucianism in a turbulent age.
 
-References:  
+References:
 
 - [Mencius (book) - Wikipedia](https://en.wikipedia.org/wiki/Mencius_(book))
 - [孟子 (書) - 維基百科](https://zh.wikipedia.org/wiki/%E5%AD%9F%E5%AD%90_(%E6%9B%B8))

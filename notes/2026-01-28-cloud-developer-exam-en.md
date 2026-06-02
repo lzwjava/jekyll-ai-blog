@@ -16,8 +16,8 @@ Answer: The **Professional Cloud Developer** exam guide outlines the skills and 
 
 The exam is divided into four main sections:
 
-* 
-**Section 1: Designing highly scalable, available, and reliable cloud-native applications (~36%)** 
+*
+**Section 1: Designing highly scalable, available, and reliable cloud-native applications (~36%)**
 
 
 * Focuses on choosing the right platforms (e.g., Cloud Run, GKE) and designing high-performing APIs (REST, gRPC).
@@ -31,8 +31,8 @@ The exam is divided into four main sections:
 
 
 
-* 
-**Section 2: Building and testing applications (~23%)** 
+*
+**Section 2: Building and testing applications (~23%)**
 
 
 * Covers setting up development environments using tools like Cloud Shell, Cloud Code, and Gemini Code Assist.
@@ -46,8 +46,8 @@ The exam is divided into four main sections:
 
 
 
-* 
-**Section 3: Deploying applications (~20%)** 
+*
+**Section 3: Deploying applications (~20%)**
 
 
 * Details deployment strategies for Cloud Run, including using Eventarc and Pub/Sub triggers.
@@ -58,8 +58,8 @@ The exam is divided into four main sections:
 
 
 
-* 
-**Section 4: Integrating applications with Google Cloud services (~21%)** 
+*
+**Section 4: Integrating applications with Google Cloud services (~21%)**
 
 
 * Focuses on managing connections and reading/writing data to datastores like Cloud SQL and Firestore.

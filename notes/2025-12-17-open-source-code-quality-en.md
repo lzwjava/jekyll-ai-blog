@@ -12,7 +12,7 @@ type: note
 
 Question: Do popular open source projects like Redis, Spring, and OpenJDK have higher code quality than internal projects at big tech companies, and does maintaining that quality require significant patience and effort to ensure consistency?
 
-Answer: 
+Answer:
 
 Yes, popular open source projects like **Redis**, **Spring**, and **OpenJDK** are widely regarded as having exceptionally high code quality, and evidence suggests that mature open source software often surpasses proprietary or internal code in terms of defect density and maintainability.
 
@@ -28,7 +28,7 @@ While big tech employs top talent and has strong engineering practices in some a
 
 In short, for flagship open source like the examples you mentioned, the code quality is often superior to typical internal big tech code, but it comes at the cost of deliberate, patient craftsmanship.
 
-References:  
+References:
 
 - [Coverity Scan Report on open source vs proprietary code quality](https://www.zdnet.com/article/coverity-finds-open-source-software-quality-better-than-proprietary-code/)
 - [Software Engineering Stack Exchange: How open source projects maintain quality](https://softwareengineering.stackexchange.com/questions/18074/how-do-open-source-projects-maintain-quality)

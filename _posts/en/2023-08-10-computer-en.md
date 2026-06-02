@@ -11,7 +11,7 @@ type: post
 
 ![cover](assets/images/computer/cover.jpg)
 
-## Video 
+## Video
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/fntYmAJasZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -43,26 +43,26 @@ type: post
 * Global, https://www.amazon.com
 * Japan, https://www.rakuten.com
 * China, https://jd.com
-* South Korea, https://www.coupang.com 
+* South Korea, https://www.coupang.com
 * Global, https://www.ebay.com
-* Germany, https://www.otto.de 
+* Germany, https://www.otto.de
 * North America, https://www.bestbuy.com
 
 ## Start
- 
-This is what I found in the Chinese App Little Red Book. 
- 
-* Graphics Card (GPU): MSI 3080 -- 5219 CNY 
-* Motherboard + CPU: ASUS Z790-P + i7-13700KF -- 4349 CNY 
-* Solid State Drive (SSD): Western Digital 1TB -- 448 CNY 
-* Hard Disk Drive (HDD): Western Digital 2TB -- 338 CNY 
-* RAM: Kingston 16GB*2 -- 598 CNY 
-* Cooling System: Thermaltake 360 Liquid Cooling -- 334 CNY 
-* Power Supply: Great Wall 85W -- 603 CNY 
-* Case: Aigo -- 264 CNY 
-* Mouse + Keyboard: 400 CNY 
-* Monitor: Dell U2723QX -- 3600 CNY 
-* Total approximate cost: 16000 CNY 
+
+This is what I found in the Chinese App Little Red Book.
+
+* Graphics Card (GPU): MSI 3080 -- 5219 CNY
+* Motherboard + CPU: ASUS Z790-P + i7-13700KF -- 4349 CNY
+* Solid State Drive (SSD): Western Digital 1TB -- 448 CNY
+* Hard Disk Drive (HDD): Western Digital 2TB -- 338 CNY
+* RAM: Kingston 16GB*2 -- 598 CNY
+* Cooling System: Thermaltake 360 Liquid Cooling -- 334 CNY
+* Power Supply: Great Wall 85W -- 603 CNY
+* Case: Aigo -- 264 CNY
+* Mouse + Keyboard: 400 CNY
+* Monitor: Dell U2723QX -- 3600 CNY
+* Total approximate cost: 16000 CNY
 
 ---
 
@@ -83,9 +83,9 @@ Amazon, MSI Gaming GeForce RTX 4070 12GB GDRR6X 192-Bit HDMI/DP Nvlink TORX Fan 
 Amazon, MSI Gaming GeForce RTX 4070 12GB GDRR6X 192-Bit HDMI/DP Nvlink TORX Fan 4.0 Ada Lovelace Architecture Graphics Card (RTX 4070 Gaming X Trio 12G)
 
 ---
- 
+
 Motherboard
- 
+
 Amazon, ASUS ROG Strix B550-A Gaming AMD AM4 Zen 3 Ryzen 5000 & 3rd Gen Ryzen ATX Gaming Motherboard (PCIe 4.0, 2.5Gb LAN, BIOS Flashback, Dual M.2 with heatsinks, Addressable Gen 2 RGB Header and Aura Sync)
 
 Amazon, MSI MAG B660 Tomahawk WiFi DDR4 Gaming Motherboard (ATX, 12th Gen Intel Core, LGA 1700 Socket, DDR4, PCIe 4, 2.5G LAN, M.2 Slots, Wi-Fi 6)
@@ -102,7 +102,7 @@ Amazon, ASUS Prime Z790-P WiFi LGA 1700(Intel® 13th &12th Gen) ATX Motherboard 
 
 CPU
 
-Amazon, Intel Core i7-13700KF (Latest Gen) Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) - Unlocked, 
+Amazon, Intel Core i7-13700KF (Latest Gen) Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) - Unlocked,
 
 Rakuten, Intel Core i7 13700KF BOX 第13世代インテルCore i7プロセッサー GPU非搭載 CPU
 
@@ -136,7 +136,7 @@ Amazon, WD 6TB My Book Desktop External Hard Drive, USB 3.0, External HDD with P
 
 Amazon, Seagate ST8000DM008 BarraCuda 8TB Internal Hard Drive HDD – 3.5 Inch Sata 6 Gb/s 5400 RPM 256MB Cache for Computer Desktop
 
-JD.com, 西部数据 台式机机械硬盘 WD Blue 西数蓝盘 4TB 5400转 256MB SATA CMR 
+JD.com, 西部数据 台式机机械硬盘 WD Blue 西数蓝盘 4TB 5400转 256MB SATA CMR
 
 JD.com, 希捷(Seagate)台式机硬盘 2TB 7200转 256MB SATA 机械硬盘 希捷酷鱼BarraCuda系列(ST2000DM008)
 
@@ -196,11 +196,11 @@ JD.com, Aigo Yueguangbaohe Jing Mini
 
 Learn about the different Intel Cores.
 
-Ask ChatGPT: 
+Ask ChatGPT:
 
 What is the difference between P-cores and E-cores in Intel CPU?
 
-What's the difference between i9 and i7? 
+What's the difference between i9 and i7?
 
 If I want to do machine learning, which I should buy, the i7 or i9?
 
@@ -228,7 +228,7 @@ https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi
 
 ---
 
-Does the GPU GeForce RTXTM 4070 GAMING X TRIO 12G match the power supply Thermaltake Toughpower GF1 650W? 
+Does the GPU GeForce RTXTM 4070 GAMING X TRIO 12G match the power supply Thermaltake Toughpower GF1 650W?
 
 ---
 
@@ -261,7 +261,7 @@ https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI
 
 https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
 
-https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf, How to connect PCIe cables to high power consumption graphics cards properly?   
+https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf, How to connect PCIe cables to high power consumption graphics cards properly?
 
 https://www.whatpsu.com/psu/cpu/Intel-Core-i9-13900K/gpu/NVIDIA-GeForce-RTX-4070-Ti
 
@@ -358,7 +358,7 @@ We should ask customer support for the products in advance to gain all useful in
 
 We ask an expert two times to check why our computer couldn't start up. One is that the motherboard power supply connector is loose. The other reason is that the front panel start button connector is loose.
 
-When we ask specialists to help us, we need to do it ourselves to learn. They should only guide us. Otherwise, we will easily forget and don't know what to do when facing problems next time. 
+When we ask specialists to help us, we need to do it ourselves to learn. They should only guide us. Otherwise, we will easily forget and don't know what to do when facing problems next time.
 
 We don't need to buy vertical GPU Brackets in our case, like this [one](https://a.co/d/1ieE5kd). We should carefully analyze instead of buying extra components for a quick solution.
 

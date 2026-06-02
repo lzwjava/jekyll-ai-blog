@@ -75,7 +75,7 @@ VM options:
 -Dfile.input=$MODULE_DIR$/src/main/resources/p2190A/1.in
 ```
 
-When you want to change problem →  
+When you want to change problem →
 press **Ctrl+Shift+R** → **Replace in File** → replace `p2190A` → very fast
 
 ### Most Popular Modern Way (2025+) — Solution 4: One run config per contest + folder macro

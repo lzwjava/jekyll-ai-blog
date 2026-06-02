@@ -16,5 +16,5 @@ Based on the design of the B.O.W M190U Pro (a wired ergonomic vertical mouse fro
 
 The right side handles the primary left-click (index finger) and right-click (middle finger), just like a traditional mouse, while the scroll wheel sits between them for easy thumb access.
 
-[Product page on PChome](https://24h.pchome.com.tw/prod/DGBH6O-A9006F6R5)  
+[Product page on PChome](https://24h.pchome.com.tw/prod/DGBH6O-A9006F6R5)
 [Similar model review on ZOL](https://diy.zol.com.cn/932/9323820.html)

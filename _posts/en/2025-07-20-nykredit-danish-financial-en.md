@@ -16,7 +16,7 @@ Nykredit is a major Danish financial services group, primarily known as one of t
 
 The group serves both private individuals and businesses across Denmark, with a network of branches and partnerships (e.g., with Spar Nord Bank). It's headquartered in Copenhagen and emphasizes customer-owned stability. As of recent reports, it's performing strongly, with record quarterly results in early 2024 and a focus on sustainable financing.
 
-[Nykredit Official Website](https://www.nykredit.com/en-gb/om-os/)  
-[Nykredit - Wikipedia](https://en.wikipedia.org/wiki/Nykredit)  
-[Nykredit Bank Profile - Bloomberg](https://www.bloomberg.com/profile/company/314767Z:DC)  
+[Nykredit Official Website](https://www.nykredit.com/en-gb/om-os/)
+[Nykredit - Wikipedia](https://en.wikipedia.org/wiki/Nykredit)
+[Nykredit Bank Profile - Bloomberg](https://www.bloomberg.com/profile/company/314767Z:DC)
 [Fitch Ratings - Nykredit Realkredit](https://www.fitchratings.com/research/banks/nykredit-realkredit-a-s-13-12-2024)

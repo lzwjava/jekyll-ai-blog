@@ -12,7 +12,7 @@ type: note
 
 Question: Which operating system is used by Huawei devices in the eNSP simulator? A) Cisco IOS B) Juniper JunOS C) VRP (Versatile Routing Platform) D) Linux
 
-Answer: 
+Answer:
 
 The correct answer is **C) VRP (Versatile Routing Platform)**.
 
@@ -24,9 +24,9 @@ Huawei's eNSP (Enterprise Network Simulation Platform) is a simulator designed s
 
 This is confirmed by Huawei's documentation and multiple educational resources, where commands and outputs in eNSP display "Huawei Versatile Routing Platform Software" upon login or with the `display version` command.
 
-References:  
+References:
 
-- [Huawei VRP (Versatile Routing Platform) | IPCisco](https://ipcisco.com/lesson/huawei-vrp-versatile-routing-platform/)  
-- [Huawei launches enterprise network simulation platform](https://www.teleinfotoday.com/press-releases/huawei-launches-enterprise-network-simulation-platform)  
-- [Introduction - VRPv8 Overview | Huawei](https://support.huawei.com/enterprise/en/doc/EDOC1100059472/8ee86699/introduction)  
+- [Huawei VRP (Versatile Routing Platform) | IPCisco](https://ipcisco.com/lesson/huawei-vrp-versatile-routing-platform/)
+- [Huawei launches enterprise network simulation platform](https://www.teleinfotoday.com/press-releases/huawei-launches-enterprise-network-simulation-platform)
+- [Introduction - VRPv8 Overview | Huawei](https://support.huawei.com/enterprise/en/doc/EDOC1100059472/8ee86699/introduction)
 - [VRP Fundamentals | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-3029-4_3)

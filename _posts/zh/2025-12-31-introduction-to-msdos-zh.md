@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to MS-DOS.
 
-Answer: 
+Answer:
 
 **What is MS-DOS?**
 
@@ -75,7 +75,7 @@ MS-DOS 推动了个人电脑革命，但随着 GUI 的兴起而衰落。Windows 
 
 MS-DOS 的简单性、在低功耗硬件上的高效性以及庞大的软件生态系统，使其成为现代计算的奠基石。
 
-References:  
+References:
 
 - [MS-DOS - Wikipedia](https://en.wikipedia.org/wiki/MS-DOS)
 - [What is MS-DOS? - TechTarget](https://www.techtarget.com/searchenterprisedesktop/definition/MS-DOS)

@@ -32,7 +32,7 @@ type: note
 LLM服务的难点已经被抽象掉了：
 
 ```
-权重 (HuggingFace, MIT) 
+权重 (HuggingFace, MIT)
   → vLLM (兼容OpenAI API，经过生产环境考验)
     → 内部API网关 (Kong, Nginx —— 银行已经有这些)
       → 所有内部应用 (零代码变更，同样的 /v1/chat/completions)

@@ -36,6 +36,6 @@ Git Bash（特指 `git-bash.exe`）是随 Git for Windows 捆绑发布的轻量�
 
 简言之，Git Bash 通过 MSYS2 利用 MinGW-w64 弥合了 Windows 与 Unix shell 之间的鸿沟，使其成为 Git 用户便携、免安装的优质选择。
 
-[为什么我的 Git bash 中会出现 "MINGW64"？](https://stackoverflow.com/questions/32356595/why-is-mingw64-appearing-on-my-git-bash)  
-[如何理解 Shell、Terminal、MinGW、Bash、Git Bash 等概念](https://superuser.com/questions/1481401/how-to-understand-what-is-shell-terminal-mingw-bash-git-bash-etc)  
+[为什么我的 Git bash 中会出现 "MINGW64"？](https://stackoverflow.com/questions/32356595/why-is-mingw64-appearing-on-my-git-bash)
+[如何理解 Shell、Terminal、MinGW、Bash、Git Bash 等概念](https://superuser.com/questions/1481401/how-to-understand-what-is-shell-terminal-mingw-bash-git-bash-etc)
 [Git for Windows](https://gitforwindows.org/)

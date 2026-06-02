@@ -83,7 +83,7 @@ HTTP_PROXY=http://127.0.0.1:7890 curl -I https://www.google.com
 
 首先尝试环境变量方法——对于大多数在中国使用 Camoufox 时遇到下载缓慢问题的用户来说，此方法都有效。如果仍然无法工作，请告诉我您使用的具体代理（例如端口和类型），我可以提供更具体的命令。
 
-参考资料：  
-- https://www.mintlify.com/jo-inc/camofox-browser/installation（提到了为 camoufox-js fetch 设置 HTTP_PROXY）  
-- https://github.com/daijro/camoufox/issues/342（用户讨论使用 ENV HTTP_PROXY / HTTPS_PROXY 进行 fetch 操作）  
+参考资料：
+- https://www.mintlify.com/jo-inc/camofox-browser/installation（提到了为 camoufox-js fetch 设置 HTTP_PROXY）
+- https://github.com/daijro/camoufox/issues/342（用户讨论使用 ENV HTTP_PROXY / HTTPS_PROXY 进行 fetch 操作）
 - Node.js 环境变量代理的一般行为

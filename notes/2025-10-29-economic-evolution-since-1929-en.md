@@ -24,6 +24,6 @@ To break it down clearly, here's a quick comparison of key aspects across the th
 
 In short, today's setup is more global (crises hit everywhere fast but get contained faster), diverse (you can pivot from stocks to AI tokens or solar bonds), and equipped with lessons from both past blowups—like stress tests post-2008 that make banks tougher. The 1929 ghost lingers in bubble psychology, but we won't relive the full horror show thanks to those evolutions. If anything, 2025 feels more like a souped-up 2008 remix: same greed, better brakes.
 
-[What We've Learned From 150 Years of Stock Market Crashes](https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes)  
-[The Market Looks Exactly Like 1929, But Everyone Keeps Buying Anyway](https://medium.com/@finomicsedge/the-market-looks-exactly-like-1929-but-everyone-keeps-buying-anyway-f710c4a71c62)  
+[What We've Learned From 150 Years of Stock Market Crashes](https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes)
+[The Market Looks Exactly Like 1929, But Everyone Keeps Buying Anyway](https://medium.com/@finomicsedge/the-market-looks-exactly-like-1929-but-everyone-keeps-buying-anyway-f710c4a71c62)
 [Ghosts of 1929 offer lessons for investors in 2025](https://www.reuters.com/markets/us/ghosts-1929-offer-lessons-investors-today-fridson-2025-04-25/)

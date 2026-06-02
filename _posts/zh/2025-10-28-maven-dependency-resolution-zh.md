@@ -30,5 +30,5 @@ type: note
 
 此行为在近期 Maven 版本中（截至 2025 年的 3.9.x）保持一致。更多细节请参阅官方多模块指南：
 
-[构建生命周期导论 - 多模块项目](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#multi-module)  
+[构建生命周期导论 - 多模块项目](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#multi-module)
 [Maven EAR 插件文档](https://maven.apache.org/plugins/maven-ear-plugin/ear-mojo.html)

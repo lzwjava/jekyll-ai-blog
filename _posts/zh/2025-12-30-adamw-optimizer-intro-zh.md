@@ -12,7 +12,7 @@ type: note
 
 Question: What is a comprehensive introduction to the AdamW optimizer?
 
-Answer: 
+Answer:
 
 # Comprehensive Introduction to the AdamW Optimizer
 
@@ -32,23 +32,23 @@ Adam 的更新规则为：
 
 1. 计算 gradient：\\( g_t = \nabla_\theta f_t(\theta_{t-1}) \\)
 
-2. 更新有偏的 first moment：  
+2. 更新有偏的 first moment：
    \\( m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t \\)
 
-3. 更新有偏的 second moment：  
+3. 更新有偏的 second moment：
    \\( v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2 \\)
 
-4. Bias correction：  
-   \\( \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\)  
+4. Bias correction：
+   \\( \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\)
    \\( \hat{v}_t = \frac{v_t}{1 - \beta_2^t} \\)
 
-5. Parameter 更新：  
+5. Parameter 更新：
    \\( \theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 
-默认超参数：  
-- Learning rate \\( \eta = 0.001 \\)  
-- \\( \beta_1 = 0.9 \\)  
-- \\( \beta_2 = 0.999 \\)  
+默认超参数：
+- Learning rate \\( \eta = 0.001 \\)
+- \\( \beta_1 = 0.9 \\)
+- \\( \beta_2 = 0.999 \\)
 - \\( \epsilon = 10^{-8} \\)
 
 Adam 虽然高效且鲁棒，但在使用强 regularization 时，其 generalization 表现有时不如带有 momentum 的 SGD。
@@ -99,10 +99,10 @@ AdamW 的 moment 更新规则（上述步骤 1-4）与 Adam 相同，但参数�
 
 总结来说，AdamW 是对 Adam 的一个微小但至关重要的改进，它使 weight decay 在 adaptive optimizers 中能按预期工作，从而在实践中获得卓越的性能。
 
-References:  
+References:
 
-- [Decoupled Weight Decay Regularization (arXiv)](https://arxiv.org/abs/1711.05101)  
-- [Decoupled Weight Decay Regularization (OpenReview)](https://openreview.net/forum?id=Bkg6RiCqY7)  
-- [PyTorch AdamW Documentation](https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html)  
-- [Keras AdamW Documentation](https://keras.io/api/optimizers/adamw/)  
+- [Decoupled Weight Decay Regularization (arXiv)](https://arxiv.org/abs/1711.05101)
+- [Decoupled Weight Decay Regularization (OpenReview)](https://openreview.net/forum?id=Bkg6RiCqY7)
+- [PyTorch AdamW Documentation](https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html)
+- [Keras AdamW Documentation](https://keras.io/api/optimizers/adamw/)
 - [Cornell Optimization Wiki: AdamW](https://optimization.cbe.cornell.edu/index.php?title=AdamW)

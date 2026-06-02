@@ -12,7 +12,7 @@ type: note
 
 Question: What is the blog at https://testing.googleblog.com?
 
-Answer: 
+Answer:
 
 The blog at https://testing.googleblog.com is the **Google Testing Blog**, an official blog run by Google engineers focused on software testing, code quality, and best practices in software development.
 
@@ -28,7 +28,7 @@ The blog has been active since 2007, with contributions from various Google engi
 
 It serves as a resource for developers and testers interested in Google's approaches to testing and engineering excellence.
 
-References:  
+References:
 
 - [Google Testing Blog Homepage](https://testing.googleblog.com/)
 - [Welcome to the Google Testing Blog (First Post, 2007)](https://testing.googleblog.com/2007/01/welcome-to-google-testing-blog.html)

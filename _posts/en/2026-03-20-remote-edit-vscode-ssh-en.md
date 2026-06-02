@@ -11,7 +11,7 @@ type: note
 
 Question: How to use VS Code to remotely edit files on a server?
 
-Answer: 
+Answer:
 
 The best and most popular way to remotely edit files on a server using **Visual Studio Code** is the official **Remote - SSH** extension. It gives you a full VS Code experience on the remote machine (IntelliSense, debugging, terminal, extensions, etc.).
 
@@ -112,7 +112,7 @@ The best and most popular way to remotely edit files on a server using **Visual 
 
 Use **SSH FS** extension — it mounts remote folder via SFTP/SSHFS. Less powerful (no full remote extensions/debugging), but zero installation on server.
 
-References:  
+References:
 
 - [Official VS Code Remote - SSH documentation](https://code.visualstudio.com/docs/remote/ssh)
 - [Remote SSH tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial)

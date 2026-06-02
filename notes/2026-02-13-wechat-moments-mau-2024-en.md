@@ -12,7 +12,7 @@ type: note
 
 Question: How have WeChat Moments' monthly active users trended in recent years?
 
-Answer: 
+Answer:
 
 There is very limited publicly available data on **WeChat Moments** specific monthly active users (MAU) in recent years (2021–2026). Tencent does not regularly disclose dedicated MAU figures for Moments in its quarterly or annual reports, and no QuestMobile 2025 or 2026 reports publicly confirm a sharp decline (such as 37% from a 2021 peak) or provide updated MAU numbers for Moments.
 
@@ -25,7 +25,7 @@ Key context and trends:
 - QuestMobile's 2025 reports focus on overall mobile internet trends, WeChat ecosystem growth (e.g., Mini Programs at ~9+ billion MAU equivalents in usage), and rising stickiness from AI/short video, without highlighting a Moments-specific decline.
 - In summary, while Moments likely has stable or slowly declining engagement relative to WeChat's total user base (due to format shifts), no concrete MAU time series exists publicly for recent years, and claims of a 37% drop from 2021 appear unsubstantiated.
 
-References:  
+References:
 
 - [WeChat Revenue and Usage Statistics (2026) - Business of Apps](https://www.businessofapps.com/data/wechat-statistics)
 - [WeChat Statistics 2026 - DemandSage](https://www.demandsage.com/wechat-statistics)

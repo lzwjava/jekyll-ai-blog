@@ -23,6 +23,6 @@ These are space-saving units designed for small kitchens, fitting directly into 
 
 They're praised for powerful cleaning in minimal space, ideal for modern, urban living. Prices typically range from $800–$1,500 USD, depending on the model and retailer.
 
-[In-Sink Dishwashers | FOTILE](https://us.fotileglobal.com/collections/in-sink-dishwasher)  
-[FOTILE: Range Hoods, Cooktops, Electric Range, Dishwasher, Ovens](https://us.fotileglobal.com/)  
+[In-Sink Dishwashers | FOTILE](https://us.fotileglobal.com/collections/in-sink-dishwasher)
+[FOTILE: Range Hoods, Cooktops, Electric Range, Dishwasher, Ovens](https://us.fotileglobal.com/)
 [FOTILE BD2B-G2-Y Dishwasher | Hydro-Jet Washing Tech](https://www.bestbuy.ca/en-ca/product/fotile-bd2b-g2-y-dishwasher-hydro-jet-washing-tech-sanitization-hot-air-drying-long-lasting-storage-moonshadow-grey/18594812)

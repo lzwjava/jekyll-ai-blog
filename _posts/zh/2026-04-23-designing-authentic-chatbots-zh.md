@@ -116,10 +116,10 @@ def generate_response(user_message, context):
             "发个红包证明你是人",
             "可以语音聊天验证"
         ])
-    
+
     # 从LLM生成基础回复
     llm_response = call_llm(user_message, context)
-    
+
     # 人性化处理回复
     response = humanize(
         llm_response,
@@ -127,10 +127,10 @@ def generate_response(user_message, context):
         add_emoji=random.random() > 0.7,
         add_typo=random.random() > 0.95
     )
-    
+
     # 随机延迟
     time.sleep(random.uniform(1, 4))
-    
+
     return response
 ```
 

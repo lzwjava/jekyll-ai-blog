@@ -59,7 +59,7 @@ type: note
 请记住，改变需要时间，但回报巨大：重建的自信、更牢固的关系、让创造力自由生长的空间。若共鸣强烈，寻求专业帮助能加速这个过程。
 
 ### 参考资料
-- [如何停止过度自我批判](https://www.psychologytoday.com/us/blog/the-squeaky-wheel/201310/how-stop-being-so-critical-yourself)  
-- [积极反馈的力量：为什么赞美比批评更重要](https://hbr.org/2020/05/the-power-of-positive-feedback)  
-- [克服习得性无助](https://www.verywellmind.com/what-is-learned-helplessness-2795326)  
+- [如何停止过度自我批判](https://www.psychologytoday.com/us/blog/the-squeaky-wheel/201310/how-stop-being-so-critical-yourself)
+- [积极反馈的力量：为什么赞美比批评更重要](https://hbr.org/2020/05/the-power-of-positive-feedback)
+- [克服习得性无助](https://www.verywellmind.com/what-is-learned-helplessness-2795326)
 - [如何给出不挫伤团队士气的建设性反馈](https://www.forbes.com/sites/forbescoachescouncil/2021/03/15/how-to-give-constructive-feedback-without-demoralizing-your-team/)

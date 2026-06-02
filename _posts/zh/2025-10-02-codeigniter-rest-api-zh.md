@@ -23,7 +23,7 @@ type: note
 
 ### 1. **前提条件和设置**
    - **这是什么？** 这是用于 CodeIgniter（一个 PHP 框架）的 REST_Controller 库。它允许您通过让控制器继承 `REST_Controller` 来构建 RESTful API（例如，响应 GET/POST 请求并返回 JSON/XML 的端点）。您的配置文件控制全局设置，如身份验证、响应格式、速率限制和安全性。
-   
+
    - **要求：**
      - CodeIgniter 3.x（或兼容版本；此配置适用于较旧的 3.x 版本）。
      - 如果您的 CodeIgniter 安装中尚未包含 REST_Controller 库，请安装它（可以从 GitHub 下载：`chriskacerguis/codeigniter-restserver`）。将库文件放置在 `application/libraries/` 目录中，并在 `application/config/autoload.php` 中自动加载：

@@ -47,7 +47,7 @@ type: note
 
 综上，约90%的观点作为技术环境下的经验总结具有合理性。近视类比虽具启发性但需审慎看待——健康主张应咨询专业人士。需注意文中未提及的法律风险（未经批准的VPN使用在中国属违法），用户应谨慎评估。
 
-参考文献：  
-- [使用澳门手机卡在中国获取无审查网络](https://www.reddit.com/r/China/comments/10zq0z8/macau_sim_card_for_uncensored_internet/)  
-- [Todd Becker谈逆转近视](https://gettingstronger.org/2014/05/reverse-myopia/)  
+参考文献：
+- [使用澳门手机卡在中国获取无审查网络](https://www.reddit.com/r/China/comments/10zq0z8/macau_sim_card_for_uncensored_internet/)
+- [Todd Becker谈逆转近视](https://gettingstronger.org/2014/05/reverse-myopia/)
 - [zhs.cloud（VPN服务商概要）](https://zhs.cloud)——专注反审查的中文云代理服务平台，提供香港、新加坡等节点。

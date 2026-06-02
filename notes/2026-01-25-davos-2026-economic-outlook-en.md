@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=USpMQLrRtWw
 
-Answer: 
+Answer:
 
 This is a **conversation** recorded at the **World Economic Forum Annual Meeting 2026** (Davos 2026) between:
 
@@ -72,6 +72,6 @@ Griffin combines market-practitioner realism with conditional support for many T
 
 The interview reflects Davos 2026 themes of rebuilding trust through transparency, consistency, and accountability amid high uncertainty in global economics, geopolitics, and technology.
 
-References:  
+References:
 
 - [Conversation with Ken Griffin, President and CEO of Citadel | WEF Annual Meeting 2026](https://www.youtube.com/watch?v=USpMQLrRtWw)

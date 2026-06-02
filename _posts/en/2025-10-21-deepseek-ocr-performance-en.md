@@ -15,7 +15,7 @@ type: note
 DeepSeek OCR is a newly released 3B parameter vision-language model (VLM) from DeepSeek AI, launched on October 20, 2025, specifically optimized for optical character recognition (OCR) and structured document processing. Based on early evaluations and benchmarks, it's showing strong performance:
 
 - **Compression Efficiency**: It uses "optical context compression" to reduce visual data into far fewer tokens (e.g., 100 vision tokens instead of 1,000+ text tokens for the same content), achieving ~97% decoding precision at 10x compression ratios and near-lossless results up to 20x. This makes it highly efficient for handling large documents without losing key details.
-  
+
 - **Throughput**: On a single GPU, it can process over 200,000 pages per day, which is a significant leap for real-world applications like digitizing archives or automating form extraction.
 
 - **Benchmark Performance**: It outperforms other open-source OCR models (e.g., in document understanding tasks) and matches or approaches closed-source leaders like GPT-4V in precision for structured outputs. Early tests highlight its edge in handling complex layouts, tables, and multilingual text.
@@ -34,9 +34,9 @@ In AI models, particularly multimodal vision-language models (VLMs) like those f
 
 Vision tokens bridge the gap between pixels and language, making AI "see" in a way that's computationally feasible.
 
-**References**  
-[DeepSeek Just Released a 3B OCR Model](https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/)  
-[DeepSeek-OCR Isn't About OCR, It's About Token Compression](https://medium.com/@olimiemma/deepseek-ocr-isnt-about-ocr-it-s-about-token-compression-db1747602e29)  
-[DeepSeek's New OCR Model Can Process Over 2 Lakh Pages Daily](https://analyticsindiamag.com/ai-news-updates/deepseeks-new-ocr-model-can-process-over-2-lakh-pages-daily-on-a-single-gpu/)  
-[Token: AI & ML Definition](https://www.ultralytics.com/glossary/token)  
+**References**
+[DeepSeek Just Released a 3B OCR Model](https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/)
+[DeepSeek-OCR Isn't About OCR, It's About Token Compression](https://medium.com/@olimiemma/deepseek-ocr-isnt-about-ocr-it-s-about-token-compression-db1747602e29)
+[DeepSeek's New OCR Model Can Process Over 2 Lakh Pages Daily](https://analyticsindiamag.com/ai-news-updates/deepseeks-new-ocr-model-can-process-over-2-lakh-pages-daily-on-a-single-gpu/)
+[Token: AI & ML Definition](https://www.ultralytics.com/glossary/token)
 [Revolutionizing AI Vision: Visual Perception Tokens](https://kitemetric.com/blogs/revolutionizing-ai-vision-introducing-visual-perception-tokens)

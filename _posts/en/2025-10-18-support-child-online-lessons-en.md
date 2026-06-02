@@ -37,8 +37,8 @@ It's wonderful that your child is starting English lessons online with a teacher
 
 Consistency over intensity is key; even 2-3 lessons a week plus home sparks will show results in 1-2 months, like them surprising you by naming fruits unprompted. You're already doing great by starting early—keep it joyful!
 
-**References**  
-[How to start teaching kids English at home](https://learnenglishkids.britishcouncil.org/parents/helping-your-child/how-start-teaching-kids-english-home)  
-[How to teach a kid to speak English at home (12 tips)](https://preply.com/en/blog/teach-a-kid-to-speak-english/)  
-[Top 5 tips to help your child learn English at home](https://www.britishcouncil.my/english/courses-children/resources/help-your-child-learn-english-home)  
+**References**
+[How to start teaching kids English at home](https://learnenglishkids.britishcouncil.org/parents/helping-your-child/how-start-teaching-kids-english-home)
+[How to teach a kid to speak English at home (12 tips)](https://preply.com/en/blog/teach-a-kid-to-speak-english/)
+[Top 5 tips to help your child learn English at home](https://www.britishcouncil.my/english/courses-children/resources/help-your-child-learn-english-home)
 [Motivating Your Child To Learn English: Tips & Strategies](https://onlineteachersuk.com/motivate-child-to-learn-english/)

@@ -11,7 +11,7 @@ type: note
 
 **问题：** 《大学语文》（University Chinese，课程代码 04729）教材中的“我的世界观”（Einstein 或改编）的英文版是什么？
 
-**答案：** 
+**答案：**
 
 中文自学考试课程《大学语文》（University Chinese，代码 04729）中收录的“我的世界观”文本，是 Albert Einstein 著名 1931 年散文 **"The World As I See It"**（原德文标题："Wie ich die Welt sehe"）的节选或选译版本。
 
@@ -45,7 +45,7 @@ In this **cosmic religious feeling** I find no support in the Bible or in any ot
 - **cosmic religious feeling**（宇宙宗教感情）
 - 将奉献社会视为人生意义
 
-**参考文献：**  
+**参考文献：**
 
 - [The World As I See It (full book, Internet Archive)](https://ia801500.us.archive.org/21/items/in.ernet.dli.2015.127962/2015.127962.The-World-As-I-See-It.pdf)
 - [爱因斯坦：我的世界观（双语全文）](https://wiki.loikein.one/meta-life/quotes/einstein-the-world)

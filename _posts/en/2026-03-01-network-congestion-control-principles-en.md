@@ -11,9 +11,9 @@ type: note
 
 Question: Organize this transcript from the YouTube video (https://www.youtube.com/watch?v=Fm92xvIp6JY), keeping the original text as much as possible while making it more coherent.
 
-Answer: 
+Answer:
 
-**Organized Transcript: 3.6 Principles of Congestion Control**  
+**Organized Transcript: 3.6 Principles of Congestion Control**
 *(Lecture by Jim Kurose, from Computer Networking: A Top-Down Approach)*
 
 [Music]
@@ -44,7 +44,7 @@ Let's see now what happens when we drop this unrealistic assumption about infini
 
 Recall from our study of reliable data transfer that we learned that senders are going to retransmit in the face of possible packet loss due to buffer overflows or corruption. So we're going to need to look a little bit more carefully now at the sending rate. In particular, we'll want to make a distinction between:
 
-- the rate of original data that's being passed down from the application — we'll denote that λ_in  
+- the rate of original data that's being passed down from the application — we'll denote that λ_in
 - and the overall rate at which the transport layer is sending data, including retransmissions — we'll denote this as λ_in' (lambda in prime)
 
 The rate at which packets arrive to the router is λ_in', not λ_in. Make sure you've got this distinction between λ_in and λ_in' — it's really important. And as noted here, λ_in equals λ_out, and λ_in' is going to be greater than or equal to λ_in since it's going to include the retransmissions.
@@ -65,6 +65,6 @@ In this example the first packet is delayed, and so the sender times out eventua
 
 *(Note: The provided transcript excerpt ends here mid-sentence. The full video continues to discuss further costs of congestion, including "goodput" collapse and additional scenarios.)*
 
-References:  
+References:
 
 - [Original Video: 3.6 Principles of Congestion Control](https://www.youtube.com/watch?v=Fm92xvIp6JY)

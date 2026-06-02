@@ -12,7 +12,7 @@ type: note
 
 Question: How can a Chinese citizen with 10 years of experience as a software engineer obtain a UK Skilled Worker visa for new applications?
 
-Answer: 
+Answer:
 
 As a **Chinese citizen** with **10 years of experience** as a **software engineer**, you are generally well-positioned for the **UK Skilled Worker visa**, since software engineering roles are eligible and in demand. However, the process is employer-driven and has strict requirements, especially under the rules in effect in 2026.
 
@@ -22,7 +22,7 @@ As a **Chinese citizen** with **10 years of experience** as a **software enginee
 - **Salary Threshold**: For new applications in 2026, you usually need:
   - At least **£41,700** per year (general threshold), **or**
   - The "going rate" for your specific occupation code, whichever is higher.
-  
+
   Going rates for software-related roles are often higher (e.g., around **£45,600–£54,700** annually for a standard 37.5-hour week, depending on the exact code). With 10 years of experience, you are unlikely to qualify as a "new entrant" (which allows lower salaries like 70% of the going rate), as that typically applies to those under 26, recent graduates, or similar categories.
 - **English Language**: From 8 January 2026, new applicants need **B2 level** (CEFR) in speaking, listening, reading, and writing. As a Chinese citizen, prove this via:
   - An approved English language test (e.g., IELTS for UKVI, SELT).
@@ -52,7 +52,7 @@ If approved, you get a visa vignette (sticker) in your passport for entry, then 
 
 For the most accurate and up-to-date details, check the official UK government site or consult an immigration advisor, as rules can change.
 
-References:  
+References:
 
 - [https://www.gov.uk/skilled-worker-visa](https://www.gov.uk/skilled-worker-visa)
 - [https://www.gov.uk/skilled-worker-visa/your-job](https://www.gov.uk/skilled-worker-visa/your-job)

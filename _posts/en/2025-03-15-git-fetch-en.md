@@ -12,28 +12,28 @@ Let me explain the Git command `/usr/bin/git -c protocol.version=2 fetch --no-ta
 
 ### Command Breakdown
 
-1. **`/usr/bin/git`**  
+1. **`/usr/bin/git`**
    This is simply the path to the Git executable on the system. It tells the system to run the Git program with the options and command that follow.
 
-2. **`-c protocol.version=2`**  
+2. **`-c protocol.version=2`**
    This sets a configuration option for this specific Git command, forcing it to use protocol version 2 when communicating with the remote repository. Protocol version 2 is a newer version of Git’s communication protocol, which can offer improved performance or features compared to the older version 1.
 
-3. **`fetch`**  
+3. **`fetch`**
    The `fetch` command retrieves updates (like new commits and branches) from a remote repository. Unlike `pull`, it doesn’t merge these changes into your local branches—it only updates your *remote-tracking branches* (e.g., `origin/main`) so you can see what’s new on the remote.
 
-4. **`--no-tags`**  
+4. **`--no-tags`**
    Normally, `fetch` also retrieves tags (labels that mark specific commits, like version numbers for releases). This option tells Git *not* to fetch tags from the remote repository, keeping your local repository free of those markers.
 
-5. **`--prune`**  
+5. **`--prune`**
    This option cleans up your local remote-tracking branches. If a branch has been deleted on the remote repository, `--prune` removes the corresponding remote-tracking branch (e.g., `origin/old-branch`) from your local repository, keeping things tidy.
 
-6. **`--no-recurse-submodules`**  
+6. **`--no-recurse-submodules`**
    Submodules are separate repositories nested inside your main repository. By default, `fetch` might also fetch updates for these submodules. This option prevents that, so only the main repository’s data is fetched, ignoring any submodules.
 
-7. **`--depth=5`**  
+7. **`--depth=5`**
    This option creates a *shallow fetch*, limiting the history to the last 5 commits for each branch. Instead of downloading the entire commit history, you get a truncated version, which saves time and disk space—useful if you don’t need the full history.
 
-8. **`origin`**  
+8. **`origin`**
    This is the name of the remote repository you’re fetching from. `origin` is the default name Git gives to the main remote repository when you clone a project, so this command is fetching updates from that source.
 
 ### What Does This Command Do Overall?

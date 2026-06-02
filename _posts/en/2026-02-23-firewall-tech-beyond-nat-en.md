@@ -11,7 +11,7 @@ type: note
 
 Question: What are the three main firewall technologies besides NAT, what does NAT stand for in Chinese, what are its specific functions, and how does NAT technology in firewall products contribute to network protection?
 
-Answer: 
+Answer:
 
 Based on working principles, firewall technologies are primarily categorized into four types. Besides **Network Address Translation (NAT)**, the other three main technologies are:
 

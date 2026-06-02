@@ -20,7 +20,7 @@ Y Combinator’s value isn't just the money; it’s the high-quality, high-inten
 
 ### 2. Opportunity Cost of the "Intellectual Bar"
 Investing time in people who don't challenge you or contribute to your growth is a direct tax on your future.
-* **The Math of Time:** Every hour spent with someone who is "low-growth" or stagnant is an hour stolen from a "high-growth" individual. 
+* **The Math of Time:** Every hour spent with someone who is "low-growth" or stagnant is an hour stolen from a "high-growth" individual.
 * **Intellectual Compound Interest:** High-intellect or high-drive people provide "feedback loops." They challenge your ideas, introduce you to better concepts, and push you to improve. Spending time with people who don't do this means your own "personal growth curve" flattens.
 
 ### 3. The "Ruthless" Hiring & Firing Principle

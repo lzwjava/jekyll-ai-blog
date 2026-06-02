@@ -11,7 +11,7 @@ type: note
 
 Question: Who are the main authors of Word2Vec and LSTM, and do they receive enough credit compared to figures like Yann LeCun?
 
-Answer: 
+Answer:
 
 **Word2Vec** 技术主要由 **Tomáš Mikolov**（第一作者）以及共同作者 Kai Chen、Greg Corrado、Ilya Sutskever 和 Jeff Dean 在 Google 开发。它在 2013 年的两篇关键论文中被引入：一篇关于 word representations 的高效估算，另一篇关于词与短语的 distributed representations。Mikolov 被广泛公认为 Word2Vec 的主要创造者和核心推动者，该技术通过实现能够捕捉语义关系的高质量快速度 word embeddings（例如著名的向量算术 "king - man + woman ≈ queen"），在 NLP 领域产生了巨大影响。
 
@@ -29,7 +29,7 @@ Answer:
 
 尽管如此，在研究社区内部，Mikolov、Hochreiter 和 Schmidhuber 受到了高度尊重和引用。即便聚光灯有时转向别处，Word2Vec 和 LSTM 已经以非常切实的方式改变了 AI。
 
-References:  
+References:
 
 - [Word2vec - Wikipedia](https://en.wikipedia.org/wiki/Word2vec)
 - [Efficient Estimation of Word Representations in Vector Space (arXiv)](https://arxiv.org/abs/1301.3781)

@@ -23,6 +23,6 @@ type: note
 
 简言之，费德勒的优势在于以静水流深之姿展现心理韧性：拼命努力、快速释怀、活出广度。这些不仅是网球秘籍，更是人生升级指南。
 
-[罗杰·费德勒2024年毕业典礼演讲](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer)  
-[费德勒的心理博弈如何成就其温网最佳男子选手地位](https://theconversation.com/roger-federers-psychological-game-made-him-wimbledons-best-male-player-heres-the-secret-to-his-winning-mindset-234128)  
+[罗杰·费德勒2024年毕业典礼演讲](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer)
+[费德勒的心理博弈如何成就其温网最佳男子选手地位](https://theconversation.com/roger-federers-psychological-game-made-him-wimbledons-best-male-player-heres-the-secret-to-his-winning-mindset-234128)
 [4%优势：费德勒的伟大秘诀如何改变你的商业格局](https://www.redrocksp.com/post/the-4-edge)

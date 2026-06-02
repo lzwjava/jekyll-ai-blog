@@ -12,7 +12,7 @@ type: note
 
 Question: Linux Mint 有多少用户？
 
-Answer: 
+Answer:
 
 对于全球 Linux Mint 用户的总数，**没有官方或精确的公开数字**，因为 Linux Mint（与大多数 Linux distributions 一样）默认不会追踪个人安装、要求注册或收集 telemetry 数据。
 
@@ -43,8 +43,8 @@ Answer:
 
 References:
 
-- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)  
-- [https://forums.linuxmint.com/viewtopic.php?t=423299](https://forums.linuxmint.com/viewtopic.php?t=423299)  
-- [https://en.wikipedia.org/wiki/Linux_Mint](https://en.wikipedia.org/wiki/Linux_Mint)  
-- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)  
+- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)
+- [https://forums.linuxmint.com/viewtopic.php?t=423299](https://forums.linuxmint.com/viewtopic.php?t=423299)
+- [https://en.wikipedia.org/wiki/Linux_Mint](https://en.wikipedia.org/wiki/Linux_Mint)
+- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)
 - [https://itsfoss.com/linux-market-share](https://itsfoss.com/linux-market-share)

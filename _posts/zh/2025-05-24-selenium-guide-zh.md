@@ -108,28 +108,28 @@ driver = webdriver.Chrome()
 try:
     # 导航到登录页面
     driver.get("https://example.com/login")
-    
+
     # 查找用户名和密码字段
     username = driver.find_element(By.ID, "username")
     password = driver.find_element(By.ID, "password")
-    
+
     # 输入凭据
     username.send_keys("testuser")
     password.send_keys("testpassword")
-    
+
     # 提交表单
     password.send_keys(Keys.RETURN)
-    
+
     # 等待页面加载
     time.sleep(2)
-    
+
     # 验证登录成功（检查欢迎消息）
     welcome_message = driver.find_element(By.CLASS_NAME, "welcome").text
     print(f"登录成功！欢迎消息：{welcome_message}")
-    
+
 except Exception as e:
     print(f"发生错误：{e}")
-    
+
 finally:
     # 关闭浏览器
     driver.quit()
@@ -164,18 +164,18 @@ driver = webdriver.Chrome()
 
 try:
     driver.get("https://example.com")
-    
+
     # 等待元素可点击（最多10秒）
     button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.ID, "submit-button"))
     )
     button.click()
-    
+
     print("按钮点击成功！")
-    
+
 except Exception as e:
     print(f"发生错误：{e}")
-    
+
 finally:
     driver.quit()
 ```
@@ -235,10 +235,10 @@ driver = webdriver.Chrome(options=chrome_options)
 try:
     driver.get("https://www.example.com")
     print(f"页面标题：{driver.title}")
-    
+
 except Exception as e:
     print(f"发生错误：{e}")
-    
+
 finally:
     driver.quit()
 ```
@@ -265,7 +265,7 @@ class LoginPage:
         self.username_field = (By.ID, "username")
         self.password_field = (By.ID, "password")
         self.submit_button = (By.ID, "submit-button")
-    
+
     def login(self, username, password):
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(self.username_field)

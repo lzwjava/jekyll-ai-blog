@@ -32,7 +32,7 @@ China's ecosystem is booming, with over 30 cities permitting driverless operatio
 
 This ranking synthesizes deployment scale, innovation, and regulatory progress from industry reports. U.S. firms lead in safety data transparency, while Chinese players excel in urban density and government-backed testing.
 
-[Top 10 Autonomous Vehicle Companies](https://evmagazine.com/top10/top-10-autonomous-vehicle-companies)  
-[28 Top Self-Driving Car Companies](https://builtin.com/articles/self-driving-car-companies)  
-[China’s Leading Autonomous Vehicle Companies 2025](https://www.renub.com/top-china-autonomous-vehicles-companies-bd.php)  
+[Top 10 Autonomous Vehicle Companies](https://evmagazine.com/top10/top-10-autonomous-vehicle-companies)
+[28 Top Self-Driving Car Companies](https://builtin.com/articles/self-driving-car-companies)
+[China’s Leading Autonomous Vehicle Companies 2025](https://www.renub.com/top-china-autonomous-vehicles-companies-bd.php)
 [Top Autonomous Cars Companies 2025](https://www.linkedin.com/pulse/top-autonomous-cars-companies-how-compare-them-2025-ybomc)

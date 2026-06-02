@@ -39,8 +39,8 @@ BaaS平台通常包含：
 
 主流BaaS服务商包括Firebase（谷歌）、AWS Amplify和Backendless。该模式特别适合初创团队或小团队构建最小可行产品（MVP）。
 
-[Cloudflare: 什么是BaaS？](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/)  
-[维基百科: 后端即服务](https://en.wikipedia.org/wiki/Backend_as_a_service)  
-[Okta: 什么是BaaS？](https://www.okta.com/identity-101/baas-backend-as-a-service/)  
-[Sanity: 理解后端即服务](https://www.sanity.io/glossary/backend-as-a-service)  
+[Cloudflare: 什么是BaaS？](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/)
+[维基百科: 后端即服务](https://en.wikipedia.org/wiki/Backend_as_a_service)
+[Okta: 什么是BaaS？](https://www.okta.com/identity-101/baas-backend-as-a-service/)
+[Sanity: 理解后端即服务](https://www.sanity.io/glossary/backend-as-a-service)
 [freeCodeCamp: 什么是后端即服务（BaaS）？](https://www.freecodecamp.org/news/backend-as-a-service-beginners-guide/)

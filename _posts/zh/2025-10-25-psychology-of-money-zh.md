@@ -58,5 +58,5 @@ type: note
 
 这些法则强调永恒原则而非速成套路，引导读者在财务生活中重视情绪韧性与个人适配度。
 
-[《金钱心理学》总结与笔记](https://calvinrosser.com/notes/psychology-of-money-morgan-housel/)  
+[《金钱心理学》总结与笔记](https://calvinrosser.com/notes/psychology-of-money-morgan-housel/)
 [You Exec书籍摘要](https://youexec.com/book-summaries/psychology-of-money)

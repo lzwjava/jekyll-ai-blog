@@ -15,34 +15,34 @@ type: note
 这条命令显示了以太网接口（enp4s0）的详细信息，该接口负责处理我们之前讨论的路由表中的本地局域网连接。它已启动并运行顺畅——这对基础连接来说非常理想。我将逐行解析，然后进行总结。
 
 #### 关键部分解析
-- **接口状态**：  
-  `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`  
-  - 索引 2（继 lo 之后的第二个接口）。  
-  - 标志：支持广播/组播，完全 UP（链路已检测到并可运行）。  
-  - MTU：1500 字节（标准以太网帧大小——无巨型帧）。  
-  - 队列规则：fq_codel（用于低延迟流量的公平队列，现代 Linux 上常见）。  
+- **接口状态**：
+  `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`
+  - 索引 2（继 lo 之后的第二个接口）。
+  - 标志：支持广播/组播，完全 UP（链路已检测到并可运行）。
+  - MTU：1500 字节（标准以太网帧大小——无巨型帧）。
+  - 队列规则：fq_codel（用于低延迟流量的公平队列，现代 Linux 上常见）。
   - 状态：UP（准备发送/接收）。
 
-- **链路层（MAC 地址）**：  
-  `link/ether 04:7c:16:d9:54:5b brd ff:ff:ff:ff:ff:ff`  
-  - 你的硬件 MAC：04:7c:16:d9:54:5b（此网卡唯一）。  
+- **链路层（MAC 地址）**：
+  `link/ether 04:7c:16:d9:54:5b brd ff:ff:ff:ff:ff:ff`
+  - 你的硬件 MAC：04:7c:16:d9:54:5b（此网卡唯一）。
   - 广播地址：ff:ff:ff:ff:ff:ff（以太网广播的全 1 地址）。
 
-- **IPv4 地址**：  
-  `inet 192.168.1.35/24 brd 192.168.1.255 scope global dynamic noprefixroute enp4s0`  
-  `valid_lft 4790sec preferred_lft 4790sec`  
-  - IP：192.168.1.35，子网掩码 /24（255.255.255.0）。与你路由表中的 "src 192.168.1.35" 匹配。  
-  - 广播地址：192.168.1.255（用于子网范围内的广播）。  
-  - 作用域：global（可路由到此主机之外）。  
-  - 动态：通过 DHCP 分配（来自你的路由器 192.168.1.1）。  
-  - 无前缀路由：不会自动添加直连路由（但内核仍然添加了，如 `ip route` 所示）。  
+- **IPv4 地址**：
+  `inet 192.168.1.35/24 brd 192.168.1.255 scope global dynamic noprefixroute enp4s0`
+  `valid_lft 4790sec preferred_lft 4790sec`
+  - IP：192.168.1.35，子网掩码 /24（255.255.255.0）。与你路由表中的 "src 192.168.1.35" 匹配。
+  - 广播地址：192.168.1.255（用于子网范围内的广播）。
+  - 作用域：global（可路由到此主机之外）。
+  - 动态：通过 DHCP 分配（来自你的路由器 192.168.1.1）。
+  - 无前缀路由：不会自动添加直连路由（但内核仍然添加了，如 `ip route` 所示）。
   - 租约：约 79 分钟后到期（4790 秒），之后将续订。
 
-- **IPv6 地址**：  
-  `inet6 fe80::a884:a0f6:e8b4:4a7d/64 scope link noprefixroute`  
-  `valid_lft forever preferred_lft forever`  
-  - 链路本地 IPv6：fe80::...（根据 MAC 自动生成；仅用于本地链路通信，如邻居发现）。  
-  - 前缀 /64，作用域 link（无法通过此接口路由出去）。  
+- **IPv6 地址**：
+  `inet6 fe80::a884:a0f6:e8b4:4a7d/64 scope link noprefixroute`
+  `valid_lft forever preferred_lft forever`
+  - 链路本地 IPv6：fe80::...（根据 MAC 自动生成；仅用于本地链路通信，如邻居发现）。
+  - 前缀 /64，作用域 link（无法通过此接口路由出去）。
   - 永久有效（不会过期）。
 
 #### 快速总结表

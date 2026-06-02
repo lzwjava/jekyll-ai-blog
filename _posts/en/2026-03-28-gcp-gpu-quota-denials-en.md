@@ -11,7 +11,7 @@ type: note
 
 Question: Why was my Google Cloud GPU quota request (GPUS_ALL_REGIONS) denied while my CPU quota was approved, and is it because I am a Chinese citizen using Google Cloud?
 
-Answer: 
+Answer:
 
 Your Google Cloud quota request for **CPUS** (in us-central1 and globally) was approved at 208, but the **GPUS_ALL_REGIONS** (global) request was denied. This is a common situation for many users, not exclusively tied to Chinese citizenship.
 
@@ -51,7 +51,7 @@ If you share more details—like how long your billing account has been active, 
 
 In summary, while nationality-related compliance is a potential factor due to international regulations, the most frequent causes are account maturity and Google's internal risk/availability checks. Many users resolve this by building history or contacting sales.
 
-References:  
-- Google Cloud Compute Engine GPU quotas documentation (general process and restrictions)  
-- Community discussions on Stack Overflow, Reddit (/r/googlecloud), and Google Developer forums regarding GPUS_ALL_REGIONS denials  
+References:
+- Google Cloud Compute Engine GPU quotas documentation (general process and restrictions)
+- Community discussions on Stack Overflow, Reddit (/r/googlecloud), and Google Developer forums regarding GPUS_ALL_REGIONS denials
 - U.S. export control updates on AI/GPU access (e.g., reports on cloud rental restrictions for certain regions)

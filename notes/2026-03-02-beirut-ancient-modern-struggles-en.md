@@ -11,7 +11,7 @@ type: note
 
 Question: What is an introduction to Beirut?
 
-Answer: 
+Answer:
 
 **Beirut** is the capital and largest city of **Lebanon**, located on a peninsula along the eastern Mediterranean coast at the foot of the Lebanon Mountains. It serves as the country's chief port and economic center.
 
@@ -28,7 +28,7 @@ The city remains a dynamic place with bustling markets, cafes, historic landmark
 
 **Note on current situation (March 2026)**: Beirut and Lebanon are currently experiencing heightened security risks due to ongoing regional conflict involving Israeli airstrikes in parts of the city (particularly southern suburbs) and exchanges with Hezbollah. The situation is volatile, with recent strikes causing casualties and displacement. Many governments advise against travel to Lebanon at this time.
 
-References:  
+References:
 
 - [Beirut - Wikipedia](https://en.wikipedia.org/wiki/Beirut)
 - [Beirut | History, Population, Religion, & Tourism - Britannica](https://www.britannica.com/place/Beirut)

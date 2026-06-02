@@ -12,7 +12,7 @@ type: note
 
 Question: What does chrysanthemum mean?
 
-Answer: 
+Answer:
 
 **Chrysanthemum** 花根据文化、颜色和历史背景的不同，具有许多不同的含义。以下是最常见的象征意义：
 
@@ -23,18 +23,18 @@ Answer:
 - 正能量与好运（尤其是花束）
 
 ### 东亚含义（最具文化意义）
-**Japan**  
+**Japan**
 - Chrysanthemum (kiku) 是 Japan 的 **Imperial symbol** —— 天皇的纹章是一个 16 瓣的菊花
 - 代表 **Emperor**、皇室以及国家本身
 - 象征 **长寿**、**高贵**、**庄严** 和 **复兴**
 - 与 **秋季** 和 Japan 的 **Chrysanthemum Festival** (Kiku no Sekku / Double Ninth Festival) 有着极强的联系
 
-**China**  
+**China**
 - **四君子** 之一（与梅、兰、竹并列） → 代表 **正直**、**高洁的品格** 和 **坚毅**
 - 与 **长寿** 和 **长生不老** 有很强的关联（尤其是白色/黄色品种）
 - 秋季之花 → 象征 **秋季** 和 **隐逸 / 退休**（宁静而雅致地生活）
 
-**Korea**  
+**Korea**
 - 与 China 和 Japan 类似：长寿、忠诚和秋季
 - 常用于庆祝长寿的场合
 
@@ -57,5 +57,5 @@ Answer:
 
 因此，chrysanthemum 的含义在很大程度上取决于在**何地**以及送给**何人**。
 
-References:  
+References:
 - None (common cultural knowledge; meanings widely documented in floriography, Japanese/Chinese symbolism sources, and flower meaning guides)

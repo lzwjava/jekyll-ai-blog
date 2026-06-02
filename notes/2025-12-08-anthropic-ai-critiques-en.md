@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Anthropic?
 
-Answer: 
+Answer:
 Unpopular opinions about Anthropic, the AI company behind Claude models, often highlight tensions between its safety-focused ethos, technical capabilities, and business strategies. These views emerge from discussions in AI communities, emphasizing critiques of its "alignment" priorities, model performance, and market positioning. Below is a curated list of notable ones, drawn from recent online discourse:
 
 - **Anthropic's dystopian visions are unhinged**: Despite generally positive views of the company, its predictions of AI "middle-managers" overseeing humans suggest it's veering into alarmism, treating LLMs as overlords rather than tools for human augmentation.
@@ -28,14 +28,14 @@ Unpopular opinions about Anthropic, the AI company behind Claude models, often h
 
 These opinions reflect a mix of admiration for Anthropic's ethical stance and frustration with its perceived rigidity, with some seeing it as a beacon of hope for aligned AI and others as a cautionary tale of over-caution.
 
-References:  
-- [I generally like Anthropic: but the more they paint a dystopian future...](https://x.com/GergelyOrosz/status/1938941845716750407)  
-- [Watching OpenAI and Anthropic’s actions...](https://x.com/Moleh1ll/status/1981625226472386903)  
-- [Anthropic is overrated..the context window is so tiny...](https://x.com/jefffocker/status/1995725214139691198)  
-- [You can’t create intelligent, helpful, friendly beings...](https://x.com/repligate/status/1955325151517741351)  
-- [Anthropic has by far the most misaligned AI...](https://x.com/brickroad7/status/1945255512154513891)  
-- [in general not enough people point out how Anthropic seems to view...](https://x.com/kalomaze/status/1954064400739864879)  
-- [the reason why I don’t like Anthropic - this video shows pure arrogance...](https://x.com/sachdh/status/1970380998073557121)  
-- [Current hardware based on silicon is not advanced enough...](https://x.com/ChombaBupe/status/1898159319146786962)  
-- [One thing that I find paradoxical is that OpenAI has made the most progress...](https://x.com/petergostev/status/1997329225070645724)  
+References:
+- [I generally like Anthropic: but the more they paint a dystopian future...](https://x.com/GergelyOrosz/status/1938941845716750407)
+- [Watching OpenAI and Anthropic’s actions...](https://x.com/Moleh1ll/status/1981625226472386903)
+- [Anthropic is overrated..the context window is so tiny...](https://x.com/jefffocker/status/1995725214139691198)
+- [You can’t create intelligent, helpful, friendly beings...](https://x.com/repligate/status/1955325151517741351)
+- [Anthropic has by far the most misaligned AI...](https://x.com/brickroad7/status/1945255512154513891)
+- [in general not enough people point out how Anthropic seems to view...](https://x.com/kalomaze/status/1954064400739864879)
+- [the reason why I don’t like Anthropic - this video shows pure arrogance...](https://x.com/sachdh/status/1970380998073557121)
+- [Current hardware based on silicon is not advanced enough...](https://x.com/ChombaBupe/status/1898159319146786962)
+- [One thing that I find paradoxical is that OpenAI has made the most progress...](https://x.com/petergostev/status/1997329225070645724)
 - [Unpopular opinion: in 18 months Anthropic will be bigger than OpenAI](https://x.com/zlwaterfield/status/1997013793826553999)

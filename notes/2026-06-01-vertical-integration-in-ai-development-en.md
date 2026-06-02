@@ -29,7 +29,7 @@ You have **the full stack vertically integrated** in one brain:
 ```
 Proxy/network layer        ← infrastructure autonomy
     ↓
-LLM APIs + local inference ← cost + latency control  
+LLM APIs + local inference ← cost + latency control
     ↓
 Model training (GPT-2, H200) ← understanding internals
     ↓

@@ -42,10 +42,10 @@ type: note
 
 这种现象并非新鲜事，但在 2017 年爆发式增长后变得更加剧烈。虽然监管措施遏制了过度沉迷，但这种热情依然存在——孩子们像对待第二份工作一样对待它，击败像老师这样的“小白”玩家已成为常态。
 
-参考文献：  
-- [真的有小学生玩《王者荣耀》吗？(Zhihu)](https://en.zhihu.com/answer/1650141489)  
-- [中国学生成绩好坏与网络游戏的对比研究 (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10825474/)  
-- [为什么中国玩家的网络游戏水平这么高？(Quora)](https://www.quora.com/Why-are-Chinese-players-so-good-at-online-gaming)  
-- [《王者荣耀》在儿童中的普及 (BBC)](https://www.bbc.com/news/business-40516125)  
-- [小学生在《王者荣耀》中击败老师 (Bilibili 搜索)](https://m.bilibili.com/search?keyword=%25E5%25B0%258F%25E5%25AD%25A6%25E7%2594%259F%25E7%2594%25B5%25E7%25AB%259E/)  
+参考文献：
+- [真的有小学生玩《王者荣耀》吗？(Zhihu)](https://en.zhihu.com/answer/1650141489)
+- [中国学生成绩好坏与网络游戏的对比研究 (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10825474/)
+- [为什么中国玩家的网络游戏水平这么高？(Quora)](https://www.quora.com/Why-are-Chinese-players-so-good-at-online-gaming)
+- [《王者荣耀》在儿童中的普及 (BBC)](https://www.bbc.com/news/business-40516125)
+- [小学生在《王者荣耀》中击败老师 (Bilibili 搜索)](https://m.bilibili.com/search?keyword=%25E5%25B0%258F%25E5%25AD%25A6%25E7%2594%259F%25E7%2594%25B5%25E7%25AB%259E/)
 - [PUBG Mobile 小学生的技巧 (Zhihu)](https://www.zhihu.com/question/329973775/answer/1133471166)

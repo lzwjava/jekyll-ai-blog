@@ -11,11 +11,11 @@ type: note
 
 Question: What does the term "end system" mean in the context of the provided network protocol question, and can you provide a detailed explanation of the question and answer?
 
-Answer: 
+Answer:
 
 ### Understanding "End System"
 
-In computer networking, an **End System** (also commonly referred to as a **Host**) is a device that sits at the edge of the network. It is the source or destination of data communication. 
+In computer networking, an **End System** (also commonly referred to as a **Host**) is a device that sits at the edge of the network. It is the source or destination of data communication.
 
 *   **Examples:** Personal computers, servers, smartphones, tablets, and IoT devices.
 *   **Function:** End systems run application programs (such as web browsers, email clients, or server software) that generate and consume data.
@@ -51,7 +51,7 @@ The question asks: **"Which of the following belongs to the protocol between end
 
 **TCP** is the correct answer because it is designed specifically to manage the communication session, reliability, and flow control between two **end systems** (hosts), ensuring that data sent by an application on one end system is correctly received by the application on the other end system.
 
-References:  
+References:
 
 - [What is an End System? - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/end-system/)
 - [TCP/IP Model Overview - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-ip-model/)

@@ -11,7 +11,7 @@ type: note
 
 Question: What is an introduction to Bisphenol A?
 
-Answer: 
+Answer:
 
 **Bisphenol A (BPA)** is an industrial chemical compound widely used since the 1950s in the manufacturing of plastics and resins.
 
@@ -37,7 +37,7 @@ Regulatory bodies have differing views:
 
 Despite extensive study, scientific debate continues about the risks at real-world exposure levels. Many health agencies recommend minimizing exposure, especially for pregnant women, infants, and children, by using glass, stainless steel, or BPA-free labeled products where possible.
 
-References:  
+References:
 
 - [Bisphenol A - Wikipedia](https://en.wikipedia.org/wiki/Bisphenol_A)
 - [Bisphenol A (BPA) | National Institute of Environmental Health Sciences](https://www.niehs.nih.gov/health/topics/agents/sya-bpa)

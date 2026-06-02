@@ -74,7 +74,7 @@ The 360 T7 runs a customized Linux-based firmware (not fully OpenWrt out of the 
 
 This gives comprehensive visibility. If stock UI suffices for basics, stick there to avoid flashing.
 
-[OpenWrt Techdata: Qihoo 360T7](https://openwrt.org/toh/hwdata/qihoohardware/qihoohardware_360t7)  
-[360 T7U Manual (Logs Section)](https://ipc-pr-cdn.jia.360.cn/ipc-pr/luyouqiT7U.pdf)  
-[OpenWrt Logging Guide](https://openwrt.org/docs/guide-user/base-system/log.essentials)  
+[OpenWrt Techdata: Qihoo 360T7](https://openwrt.org/toh/hwdata/qihoohardware/qihoohardware_360t7)
+[360 T7U Manual (Logs Section)](https://ipc-pr-cdn.jia.360.cn/ipc-pr/luyouqiT7U.pdf)
+[OpenWrt Logging Guide](https://openwrt.org/docs/guide-user/base-system/log.essentials)
 [360 Forum: Log Export](https://bbs.360.cn/forum-7007-1.html)

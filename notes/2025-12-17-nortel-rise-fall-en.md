@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to Nortel Corporation
 
-Answer: 
+Answer:
 
 Nortel Networks Corporation, commonly known as Nortel, was a major Canadian multinational telecommunications and data networking equipment manufacturer. It played a significant role in the development of telephone and internet infrastructure worldwide.
 
@@ -31,8 +31,8 @@ The dot-com bubble burst in 2000-2001 severely impacted Nortel, as overcapacity 
 ### Legacy
 Its businesses were sold off to competitors: enterprise solutions to Avaya, metro Ethernet to Ciena, wireless assets to Ericsson, and a major patent portfolio (over 6,000 patents) for $4.5 billion USD to a consortium including Apple, Microsoft, and others. Nortel ceased to exist as an independent entity by the mid-2010s, with final creditor payouts in 2017. It remains a cautionary tale of boom-and-bust in the tech sector, significantly affecting Canada's economy and Ottawa's tech hub.
 
-References:  
-- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)  
-- [Nortel | The Canadian Encyclopedia](https://www.thecanadianencyclopedia.ca/en/article/nortel)  
-- [What happened to Nortel? The rise and fall of a Canadian legend | txo.com](https://www.txo.com/resources/what-happened-to-nortel-the-rise-and-fall-of-a-canadian-legend/)  
+References:
+- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)
+- [Nortel | The Canadian Encyclopedia](https://www.thecanadianencyclopedia.ca/en/article/nortel)
+- [What happened to Nortel? The rise and fall of a Canadian legend | txo.com](https://www.txo.com/resources/what-happened-to-nortel-the-rise-and-fall-of-a-canadian-legend/)
 - [Timeline of Nortel - Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_Nortel)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《红楼梦》 (Dream of the Red Chamber).
 
-Answer: 
+Answer:
 
 **《红楼梦》** (Hong Lou Meng), also known as *Dream of the Red Chamber*, *A Dream of Red Mansions*, or originally *The Story of the Stone* (石头记), is widely regarded as the greatest masterpiece of Chinese classical fiction and the pinnacle of China's Four Great Classical Novels.
 
@@ -50,7 +50,7 @@ The famous "金玉良缘" (golden-jade marriage) vs. "木石前盟" (wood-stone 
 
 In short: *Dream of the Red Chamber* is not merely a love story — it is a vast tragic epic about beauty, love, youth, family, society, fate, and the ultimate emptiness of worldly glory.
 
-References:  
+References:
 
 - [Dream of the Red Chamber - Wikipedia](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber)
 - [红楼梦 - 百度百科](https://baike.baidu.com/item/%E7%BA%A2%E6%A5%BC%E6%A2%A6/15311)

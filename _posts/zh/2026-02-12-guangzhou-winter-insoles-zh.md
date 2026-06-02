@@ -12,7 +12,7 @@ type: note
 
 Question: 软鞋垫有哪些类型？越厚越软的鞋垫是否比薄的好？对于广州的冬天来说，厚软鞋垫合适吗，还是说因为天气不太冷，用普通鞋垫就行？
 
-Answer: 
+Answer:
 
 市面上有多种类型的**软鞋垫**（也称为 shoe pads 或 inserts），特别是那些专为舒适感和缓冲设计的类型：
 
@@ -40,7 +40,7 @@ Answer:
 
 如果你喜欢你所描述的那种质感（“更厚更软，不像那种薄的”），那就选择较厚的软鞋垫——它们在广州全年都很适用（如果透气的话），在凉爽的季节肯定会有所帮助。
 
-References:  
+References:
 
 - [Guangzhou Climate, Weather By Month, Average Temperature](https://weatherspark.com/y/126769/Average-Weather-in-Guangzhou-China-Year-Round)
 - [Guangzhou climate: seasons, when to go, monthly averages](https://www.climatestotravel.com/climate/china/guangzhou)

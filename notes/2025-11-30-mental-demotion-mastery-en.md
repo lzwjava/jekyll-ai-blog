@@ -45,7 +45,7 @@ Here are concrete, repeatable steps that work for most people:
    The nickname should feel slightly ridiculous. Every time they speak, the label pops up automatically and kills the emotional charge.
 
 3. **Use the “Whose opinion would actually matter?” test**
-   Ask yourself: “If [a person I truly admire—mentor, best friend, future self] saw this exact situation, would they think this person’s disrespect says anything negative about me?”  
+   Ask yourself: “If [a person I truly admire—mentor, best friend, future self] saw this exact situation, would they think this person’s disrespect says anything negative about me?”
    99 % of the time the answer is “No, they’d laugh or feel sorry for the other person.” Borrow that perspective.
 
 4. **Grey-rock + minimal response in real time**

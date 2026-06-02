@@ -27,13 +27,13 @@ Claude Code 会自动将所有对话记录写入磁盘上的 JSONL 文件，路�
 
 ### B. 开源 CLI 日志记录器
 
-**`claude-code-logger`** (GitHub: dreampulse/claude-code-logger)  
+**`claude-code-logger`** (GitHub: dreampulse/claude-code-logger)
 一个 CLI 代理工具，拦截所有 Claude Code 流量。它运行本地代理服务器，您只需将 `ANTHROPIC_BASE_URL` 指向它。功能包括聊天模式可视化、AI 响应的 markdown 渲染、工具使用跟踪、请求/响应体日志记录，以及 SSE（流式传输）合并。这是您想要构建的最接近的东西——一个中间人日志记录器。
 
-**`claude-code-log`** (GitHub: daaain/claude-code-log)  
+**`claude-code-log`** (GitHub: daaain/claude-code-log)
 一个 Python CLI 工具，将 Claude Code 的 JSONL 记录转换为可读的 HTML 文件。它支持项目层次处理、会话导航、token 使用跟踪、日期过滤，以及交互式 TUI 界面。
 
-**`claude-trace`** (by Mario Zechner)  
+**`claude-trace`** (by Mario Zechner)
 一个工具，通过 monkeypatch Claude Code 内部的 `fetch` 来拦截客户端与 Anthropic 服务器之间的所有请求-响应对，并将它们写入磁盘上的 JSONL 文件。这会捕获系统提示、工具定义和完整对话——提供完全内省，包括通常不可见的内容。
 
 ### C. 官方 OpenTelemetry (OTEL) 管道
@@ -44,13 +44,13 @@ Claude Code 在配置 `OTEL_LOGS_EXPORTER` 时通过 OpenTelemetry 导出事件�
 
 ### D. Claude Code 的托管 SaaS 选项
 
-**LangSmith (LangChain)**  
+**LangSmith (LangChain)**
 LangSmith 通过 Stop hook 支持跟踪 Claude Code，它读取生成的对话记录，将消息转换为 LangSmith runs，并发送到项目。跟踪包括用户消息、工具调用和助手响应，通过 `.claude/settings.local.json` 中的 `TRACE_TO_LANGSMITH=true` 按项目启用。
 
-**Datadog AI Agents Console**  
+**Datadog AI Agents Console**
 Datadog 的 AI Agents Console 聚合 Claude Code 性能指标，包括延迟百分位数、错误率、失败的 bash 命令，以及按仓库的请求，提供项目级洞察。
 
-**Dev-Agent-Lens (Arize)**  
+**Dev-Agent-Lens (Arize)**
 一个基于开源代理的层，将 Claude Code 请求路由通过 LiteLLM，发出 OpenTelemetry 和 OpenInference spans，并发送到 Arize AX 或本地 Phoenix。它捕获流式响应、嵌套工具调用和内部调用——标准日志遗漏的内容。
 
 ---
@@ -99,7 +99,7 @@ VS Code 提供工具来检查发送提示时发生的情况。您可以通过命
 **构建自己的推荐架构：**
 
 ```
-Claude Code (OTEL or JSONL) 
+Claude Code (OTEL or JSONL)
     ↓
 后端 API (Node.js / FastAPI)
     ↓

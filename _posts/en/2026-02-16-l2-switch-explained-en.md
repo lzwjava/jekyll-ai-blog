@@ -11,19 +11,19 @@ type: note
 
 Question: When we refer to "Layer 2 switch", does "Layer" mean the OSI layer, specifically one of the 7 layers in the OSI model?
 
-Answer: 
+Answer:
 
 **Yes**, when we say **Layer 2 switch**, the "Layer" refers directly to **Layer 2 of the OSI model**.
 
 The OSI (Open Systems Interconnection) model has **7 layers**:
 
-1. Physical  
-2. **Data Link** ← **Layer 2**  
-3. Network  
-4. Transport  
-5. Session  
-6. Presentation  
-7. Application  
+1. Physical
+2. **Data Link** ← **Layer 2**
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
 
 A **Layer 2 switch** operates at the **Data Link layer** (Layer 2) of the OSI model.
 
@@ -44,9 +44,9 @@ A **Layer 2 switch** operates at the **Data Link layer** (Layer 2) of the OSI mo
 | **Switch**          | **Layer 2**   | **MAC addresses**         | **No**                      | **Layer 2 switch**        |
 | Multilayer switch / Router | Layer 3   | IP addresses              | Yes                         | Layer 3 switch / Router   |
 
-So in short:  
+So in short:
 **Yes** — "Layer 2" in "Layer 2 switch" refers to **Layer 2 (Data Link layer)** of the classic **7-layer OSI model**.
 
-References:  
+References:
 
 - None required for this fundamental networking concept

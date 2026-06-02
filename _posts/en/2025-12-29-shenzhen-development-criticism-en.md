@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Shenzhen?
 
-Answer: 
+Answer:
 
 Shenzhen, often celebrated as a modern tech hub and economic miracle, attracts criticism for perceived shortcomings that contrast with its rapid development. Here are some common unpopular opinions, drawn from expat, resident, and online discussions:
 
@@ -28,11 +28,11 @@ Shenzhen, often celebrated as a modern tech hub and economic miracle, attracts c
 
 These views are subjective and often countered by praise for Shenzhen's innovation, green spaces, proximity to Hong Kong, and opportunities. However, they highlight why some prefer other Chinese cities despite Shenzhen's successes.
 
-References:  
+References:
 
-- [r/shenzhen: Do you like Shenzhen?](https://www.reddit.com/r/shenzhen/comments/17v2mnz/do_you_like_shenzhen/)  
-- [r/China: what do you think about shenzhen?](https://www.reddit.com/r/China/comments/18s8ro1/what_do_you_think_about_shenzhen/)  
-- [r/chinalife: Just got to shenzhen this month, I hate it](https://www.reddit.com/r/chinalife/comments/1cf77vn/just_got_to_shenzhen_this_month_i_hate_it_advice/)  
-- [r/chinalife: Worse expats in Chinese cities - I nominate Shenzhen](https://www.reddit.com/r/chinalife/comments/1koix07/worse_expats_in_chinese_cities_i_nominate_shenzhen/)  
-- [r/China: Shenzhen pros and cons](https://www.reddit.com/r/China/comments/13dsqp0/shenzhen_pros_and_cons/)  
+- [r/shenzhen: Do you like Shenzhen?](https://www.reddit.com/r/shenzhen/comments/17v2mnz/do_you_like_shenzhen/)
+- [r/China: what do you think about shenzhen?](https://www.reddit.com/r/China/comments/18s8ro1/what_do_you_think_about_shenzhen/)
+- [r/chinalife: Just got to shenzhen this month, I hate it](https://www.reddit.com/r/chinalife/comments/1cf77vn/just_got_to_shenzhen_this_month_i_hate_it_advice/)
+- [r/chinalife: Worse expats in Chinese cities - I nominate Shenzhen](https://www.reddit.com/r/chinalife/comments/1koix07/worse_expats_in_chinese_cities_i_nominate_shenzhen/)
+- [r/China: Shenzhen pros and cons](https://www.reddit.com/r/China/comments/13dsqp0/shenzhen_pros_and_cons/)
 - [知乎: 深圳有什么缺点？](https://www.zhihu.com/question/28225105)

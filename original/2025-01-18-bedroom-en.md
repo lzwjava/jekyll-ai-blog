@@ -21,7 +21,7 @@ type: post
 - **Seating**: A small stool or chair under the monitor.
 - **Architecture**: A door on the right side.
 
-## Bed 
+## Bed
 
 {: .centered }
 ![](assets/images/bedroom/b2.jpg)

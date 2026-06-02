@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to the RIP protocol in networking
 
-Answer: 
+Answer:
 
 ### Introduction to RIP
 The **Routing Information Protocol (RIP)** is one of the oldest and simplest dynamic routing protocols in computer networking. It is a **distance-vector routing protocol** that operates as an **Interior Gateway Protocol (IGP)**, meaning it is used to exchange routing information within a single autonomous system (AS). RIP uses **hop count** (the number of routers a packet must pass through) as its sole metric to determine the best path to a destination network. The maximum hop count is **15**, with **16** indicating an unreachable network. This limitation makes RIP suitable primarily for small to medium-sized networks.
@@ -71,10 +71,10 @@ There are three main versions:
 
 RIP remains useful in small networks, legacy systems, or for educational purposes due to its simplicity.
 
-References:  
+References:
 
-- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/  
-- https://en.wikipedia.org/wiki/Routing_Information_Protocol  
-- https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol  
-- https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip  
+- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/
+- https://en.wikipedia.org/wiki/Routing_Information_Protocol
+- https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol
+- https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip
 - https://www.juniper.net/documentation/us/en/software/junos/rip/topics/topic-map/rip-and-ripng-overview.html

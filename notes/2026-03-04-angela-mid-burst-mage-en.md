@@ -11,21 +11,21 @@ type: note
 
 Question: How to use Angela in Honor of Kings?
 
-Answer: 
+Answer:
 
 Angela (also known as 安琪拉 in the Chinese version of 王者荣耀) is a mid-lane mage in Honor of Kings, specializing in burst magic damage, crowd control (stun), and area-of-effect (AOE) attacks. She excels at clearing waves quickly, harassing enemies from range, and setting up kills with her stun and ultimate. Her kit revolves around stacking a passive "burn" effect for increased movement speed and damage amplification, making her strong in poke, ganks, and teamfights.
 
 ### Skills Overview
-- **Passive: Flame Incantation**  
+- **Passive: Flame Incantation**
   Each skill hit on an enemy grants Angela bonus movement speed. Enemies hit take increasing damage from her subsequent skills (stacks up to 10 layers via multi-hit skills). Prioritize landing multiple hits from Skill 1 to max stacks quickly for burst potential.
 
-- **Skill 1: Scorching Barrage** (Main upgrade priority)  
+- **Skill 1: Scorching Barrage** (Main upgrade priority)
   Fires multiple fireballs in a fan shape, dealing multi-phase AOE magic damage and applying burn stacks. Great for wave clear, poke, and stacking passive. CD: ~4-5s (low, spam for pressure).
 
-- **Skill 2: Chaos Cinder**  
+- **Skill 2: Chaos Cinder**
   Throws a fireball that explodes into a firestorm on hit or max range, slowing enemies and stunning those directly hit. Key control tool—use for ganks, escapes, or interrupting dashes. Flight speed is slow, so predict enemy movement or bush-ambush.
 
-- **Ultimate (Skill 3): Blazing Brilliance**  
+- **Ultimate (Skill 3): Blazing Brilliance**
   Channels a long-range beam dealing repeated damage (up to 12 hits) in a straight line. Grants a shield and CC immunity during channel. High burst; position carefully as it roots you. Flash + Ult for engages/disengages.
 
 **Skill Upgrade Order**: 1 > 2 > 3 (max 1 first for poke/clear, then 2 for control; always grab Ult at 6/12).
@@ -47,10 +47,10 @@ Angela scales with magic power, penetration, and cooldown. Prioritize wave clear
 
 **Full Build Order**: Boots > Reverberation > Savant's > Tome > Void > Wisdom. Sell boots late for Ice Pulse Staff if full damage.
 
-**Arcana (Runes/Mingwen)**:  
-- Nightmare x10 (magic power/pen)  
-- Mind's Eye x10 (attack speed for passive procs)  
-- Hunter/Avarice x10 (move speed/gold).  
+**Arcana (Runes/Mingwen)**:
+- Nightmare x10 (magic power/pen)
+- Mind's Eye x10 (attack speed for passive procs)
+- Hunter/Avarice x10 (move speed/gold).
 Alt: 10 Dream Witch, 10 Heart Eye, 10 Hunt for pure burst.
 
 ### Combos (Key to Success)
@@ -63,31 +63,31 @@ Alt: 10 Dream Witch, 10 Heart Eye, 10 Hunt for pure burst.
 Pro Tip: Skill 2 is slow—bush ambush or predict. Never Ult without 2 landing first.
 
 ### Playstyle & Tips
-1. **Laning Phase (Early)**:  
-   - Clear waves fast with 1, poke with 1-1. Roam at lvl 4+ with jungler (2 stun sets up kills).  
+1. **Laning Phase (Early)**:
+   - Clear waves fast with 1, poke with 1-1. Roam at lvl 4+ with jungler (2 stun sets up kills).
    - Goal: Hit lvl 4 first, pressure side lanes.
 
-2. **Mid-Game (Ganks/Roams)**:  
-   - Follow jungler/assassin. 2 > 1 > 3 deletes carries. Bush squat for ambushes.  
+2. **Mid-Game (Ganks/Roams)**:
+   - Follow jungler/assassin. 2 > 1 > 3 deletes carries. Bush squat for ambushes.
    - Objective control: Ult towers or objectives for safe poke.
 
-3. **Late-Game (Teamfights)**:  
-   - Position rear: 2 to peel divers > 1 poke > 3 on clustered enemies.  
+3. **Late-Game (Teamfights)**:
+   - Position rear: 2 to peel divers > 1 poke > 3 on clustered enemies.
    - Synergies: Pair with divers like Li Xin or Donghuang (your 2 stuns into their ults).
 
-4. **Counters & Weaknesses**:  
-   - Strong vs: Squishies, immobile mages.  
-   - Weak to: Burst assassins (e.g., those who dash your 2), heavy CC. Build defensive 6th item.  
+4. **Counters & Weaknesses**:
+   - Strong vs: Squishies, immobile mages.
+   - Weak to: Burst assassins (e.g., those who dash your 2), heavy CC. Build defensive 6th item.
    - Ban: High-mobility divers if ahead.
 
-5. **General Tips**:  
-   - Stack passive = win trades.  
-   - Ward bushes—your 2 shines in vision denial.  
+5. **General Tips**:
+   - Stack passive = win trades.
+   - Ward bushes—your 2 shines in vision denial.
    - Practice Ult prediction in custom mode. Winrate jumps 10-15% with good 2 lands.
 
 Master these, and Angela carries from Gold to Master easily—simple kit, huge reward.
 
-References:  
+References:
 - [Honor of Kings Wiki - Angela](https://honor-of-kings.fandom.com/wiki/Angela)
 - [Best Angela Builds - BlueStacks](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-angela-builds-guide-en.html)
 - [Angela Build Guide - LapakGaming](https://www.lapakgaming.com/blog/en-my/angela-build-and-items-honor-of-kings)

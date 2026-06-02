@@ -35,7 +35,7 @@ Microsoft 旗下的 LinkedIn 由于监管压力、Compliance 挑战以及市场�
 
 目前，LinkedIn 在中国仅维持少量的业务，重点是帮助中国公司在海外招聘、市场推广和人才培训，而不再提供面向中国消费者的 App。此次退出反映了外国科技公司在应对中国严格的互联网监管和竞争激烈的国内市场时所面临的广泛困境。
 
-References:  
+References:
 
 - [CNN Business (2023): LinkedIn layoffs and China app exit](https://www.cnn.com/2023/05/09/tech/linkedin-layoffs-exit-china-app-intl-hnk)
 - [The New York Times (2021): LinkedIn shuts down service in China](https://www.nytimes.com/2021/10/14/technology/linkedin-china-microsoft.html)

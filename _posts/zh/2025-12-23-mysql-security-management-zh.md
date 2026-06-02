@@ -33,37 +33,37 @@ MySQL 使用**基于权限的访问控制**模型。权限决定了用户可以�
 
 权限在不同的**级别**（范围）进行授予：
 
-- **全局权限**（管理权限或适用于所有数据库）：  
-  示例：`CREATE USER`, `SUPER`, `FILE`, `SHUTDOWN`, `RELOAD`, `PROCESS`。  
+- **全局权限**（管理权限或适用于所有数据库）：
+  示例：`CREATE USER`, `SUPER`, `FILE`, `SHUTDOWN`, `RELOAD`, `PROCESS`。
   以 `*.*` 范围存储。
 
-- **数据库级别权限**（适用于特定数据库中的所有对象）：  
-  示例：`CREATE`, `DROP`, `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `INDEX`。  
+- **数据库级别权限**（适用于特定数据库中的所有对象）：
+  示例：`CREATE`, `DROP`, `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `INDEX`。
   范围：`database_name.*`
 
-- **表级别权限**（适用于数据库中的特定表）：  
-  示例：`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE VIEW`, `TRIGGER`。  
+- **表级别权限**（适用于数据库中的特定表）：
+  示例：`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE VIEW`, `TRIGGER`。
   范围：`database_name.table_name`
 
-- **列级别权限**（将操作限制到特定列）：  
-  示例：`SELECT (col1, col2)`, `UPDATE (col3)`。  
+- **列级别权限**（将操作限制到特定列）：
+  示例：`SELECT (col1, col2)`, `UPDATE (col3)`。
   这些存储在 `columns_priv` 表中。
 
-- **例程级别权限**（用于存储过程和函数）：  
-  示例：`EXECUTE`, `ALTER ROUTINE`, `GRANT OPTION`。  
+- **例程级别权限**（用于存储过程和函数）：
+  示例：`EXECUTE`, `ALTER ROUTINE`, `GRANT OPTION`。
   存储在 `procs_priv` 表中。
 
 - **代理权限**：允许一个用户模拟另一个用户。
 
 ### 用户类别（常见分类）
 
-- **DBA (超级用户)**：  
+- **DBA (超级用户)**：
   拥有广泛全局权限的用户（例如，`ALL PRIVILEGES` 或特定的管理权限，如 `SUPER`, `CREATE USER`）。通常是 `root` 账户。
 
-- **数据库资源用户**（应用程序用户）：  
+- **数据库资源用户**（应用程序用户）：
   拥有或管理特定数据库/模式的用户。他们通常对自己的数据库拥有完全权限（`ALL ON db_name.*`），但在其他地方访问受限或没有访问权限。
 
-- **普通用户**（最终用户）：  
+- **普通用户**（最终用户）：
   拥有最小权限的用户，通常只对特定表或视图拥有 `SELECT`, `INSERT`, `UPDATE`, `DELETE` 权限。他们绝不应该拥有管理权限。
 
 目标是只授予用户完成其任务所需的权限。
@@ -74,10 +74,10 @@ MySQL 中的所有权限都存储在特殊的 `mysql` 系统数据库的授权�
 
 关键权限表：
 
-- `mysql.user`：全局权限、身份验证详细信息（主机、用户、密码哈希）和资源限制。  
+- `mysql.user`：全局权限、身份验证详细信息（主机、用户、密码哈希）和资源限制。
   列包括 `Select_priv`, `Insert_priv`, ..., `Create_user_priv` 等（Y/N 值）。
 
-- `mysql.db`：数据库级别权限。  
+- `mysql.db`：数据库级别权限。
   列：`Host`, `Db`, `User`，以及类似于 `user` 表的权限列。
 
 - `mysql.tables_priv`：表级别权限。

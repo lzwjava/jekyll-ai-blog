@@ -157,7 +157,7 @@ hyperfine \
 
 ## My Take for Your Situation
 
-For your `ww`/`zz`/`iclaw` style CLI agents: **start Python, profile with `py-spy`, only rewrite the hot path in Rust if profiling shows >10% of wall time in non-LLM code.** 
+For your `ww`/`zz`/`iclaw` style CLI agents: **start Python, profile with `py-spy`, only rewrite the hot path in Rust if profiling shows >10% of wall time in non-LLM code.**
 
 The one case where I'd start in Rust immediately: if you're building something like a codebase indexer, file watcher, or semantic search over large repos — that's where Rust pays from day one. Tools like `ast-grep`, `ripgrep`, and `oxc` (JS parser) exist exactly for this reason.
 

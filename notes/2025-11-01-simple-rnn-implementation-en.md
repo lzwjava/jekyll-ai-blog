@@ -46,46 +46,46 @@ class SimpleRNN:
         self.input_size = input_size
         self.hidden_size = hidden_size
         self.output_size = output_size
-        
+
         # Initialize weights (Xavier init)
         self.Wxh = np.random.randn(hidden_size, input_size) * np.sqrt(1. / input_size)
         self.Whh = np.random.randn(hidden_size, hidden_size) * np.sqrt(1. / hidden_size)
         self.Why = np.random.randn(output_size, hidden_size) * np.sqrt(1. / hidden_size)
-        
+
         # Biases
         self.bh = np.zeros((hidden_size, 1))
         self.by = np.zeros((output_size, 1))
-    
+
     def forward(self, x):
         # x shape: (sequence_length, input_size, 1) for single sample
         self.x = x  # Store for backprop
         self.h = np.zeros((self.hidden_size, 1))  # Initial hidden state
-        
+
         # Forward through time
         self.hs = np.zeros((self.hidden_size, sequence_length + 1))  # Hidden states (including initial)
         self.hs[:, 0] = self.h.flatten()
-        
+
         for t in range(sequence_length):
             self.h = np.tanh(np.dot(self.Wxh, x[t]) + np.dot(self.Whh, self.h) + self.bh)
             self.hs[:, t+1] = self.h.flatten()
-        
+
         # Output from last hidden state
         self.y_pred = np.dot(self.Why, self.h) + self.by
         return self.sigmoid(self.y_pred)
-    
+
     def sigmoid(self, z):
         return 1 / (1 + np.exp(-np.clip(z, -250, 250)))  # Clip for stability
-    
+
     def backward(self, y_true):
         # Backprop through time (simplified)
         dWhy = np.dot((self.y_pred - y_true) * self.sigmoid_deriv(self.y_pred), self.hs[-1:, :].T)
         dby = (self.y_pred - y_true) * self.sigmoid_deriv(self.y_pred)
-        
+
         # Gradients for hidden and output weights
         dWhh = np.zeros_like(self.Whh)
         dWxh = np.zeros_like(self.Wxh)
         dbh = np.zeros_like(self.bh)
-        
+
         dh_next = np.zeros_like(self.h)
         for t in reversed(range(sequence_length)):
             dh = np.dot(self.Why.T, (self.y_pred - y_true) * self.sigmoid_deriv(self.y_pred)) + dh_next
@@ -94,14 +94,14 @@ class SimpleRNN:
             dWhh += np.dot(dh_raw, self.hs[:, t:t+2].T[:, 0:1])  # Simplified; full BPTT would accumulate properly
             dbh += dh_raw
             dh_next = np.dot(self.Whh.T, dh_raw)
-        
+
         # Update weights
         self.Wxh -= learning_rate * dWxh
         self.Whh -= learning_rate * dWhh
         self.Why -= learning_rate * dWhy
         self.bh -= learning_rate * dbh
         self.by -= learning_rate * dby
-    
+
     def sigmoid_deriv(self, z):
         s = self.sigmoid(z)
         return s * (1 - s)
@@ -122,7 +122,7 @@ for epoch in range(num_epochs):
         loss = -np.mean(y[i] * np.log(pred + 1e-8) + (1 - y[i]) * np.log(1 - pred + 1e-8))  # BCE
         total_loss += loss
         model.backward(y[i])
-    
+
     avg_loss = total_loss / num_samples
     print(f'Epoch [{epoch+1}/{num_epochs}], Avg Loss: {avg_loss:.4f}')
 
@@ -141,6 +141,6 @@ print(f'Prediction: {prediction.flatten()[0]:.4f}')
 
 This runs in ~10-20 seconds on a standard machine for these params. Scale up `num_samples` or `num_epochs` to see learning. For multi-batch, vectorize the loops.
 
-For deeper dives:  
-[Understanding LSTM Networks (Colah's Blog)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+For deeper dives:
+[Understanding LSTM Networks (Colah's Blog)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 [NumPy RNN Tutorial](https://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)

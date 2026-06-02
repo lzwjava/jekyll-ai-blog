@@ -42,7 +42,7 @@ Both have the same default initial capacity:
 - **Interchangeable**: Can replace one with another by just changing the class name (if thread safety isn't required)
 
 ## **7. Serialization**
-- **StringBuffer**: Implements `Serializable` 
+- **StringBuffer**: Implements `Serializable`
 - **StringBuilder**: Implements `Serializable`
 - Both can be serialized, but the underlying char array is serialized
 

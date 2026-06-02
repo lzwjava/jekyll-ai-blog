@@ -11,7 +11,7 @@ type: note
 
 Question: Compare fiscal year and calendar year
 
-Answer: 
+Answer:
 
 Here is a clear comparison between **Fiscal Year** and **Calendar Year**:
 
@@ -38,9 +38,9 @@ Here is a clear comparison between **Fiscal Year** and **Calendar Year**:
 - The U.S. federal government uses October–September so budget negotiations happen before the fiscal year starts (in theory).
 - Apple (fiscal year ends late September) reports “Q4” results that include most of the important holiday shopping season.
 
-In short: **Calendar year = fixed, universal time period**  
+In short: **Calendar year = fixed, universal time period**
 **Fiscal year = custom 12-month accounting period** chosen for business or governmental convenience.
 
-References:  
+References:
 
 - None required for this general conceptual comparison

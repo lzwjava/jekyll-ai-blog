@@ -19,7 +19,7 @@ BOC Pay+ is a mobile app from Bank of China (Hong Kong) Limited (BOCHK) designed
 Here's a breakdown of its key features and uses:
 
 - **QR Code Payments**: Scan merchant QR codes to pay at stores accepting UnionPay (in Mainland China) or Faster Payment System (FPS) in Hong Kong. You can also display your own QR code for merchants to scan. Supports password-free small payments for convenience.
-  
+
 - **Bill Payments**: Settle utilities like electricity, water, or gas bills by scanning FPS QR codes in Hong Kong.
 
 - **Real-Time Fund Transfers**: Send money instantly and for free between banks (up to HKD 10,000 daily limit, no transaction count limit). Use mobile numbers, emails, bank accounts, FPS IDs, or QR codes as recipients.

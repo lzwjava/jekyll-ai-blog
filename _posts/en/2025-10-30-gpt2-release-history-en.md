@@ -20,6 +20,6 @@ GPT-2 had a staged release due to concerns about potential misuse:
 - **Large model (774M parameters)**: Released August 20, 2019.
 - **Full model (1.5B parameters) and open source code**: Released November 5, 2019, making the complete weights and implementation publicly available on GitHub.
 
-References:  
-[Better language models and their implications](https://openai.com/index/better-language-models/)  
+References:
+[Better language models and their implications](https://openai.com/index/better-language-models/)
 [GPT-2: 1.5B release](https://openai.com/index/gpt-2-1-5b-release/)

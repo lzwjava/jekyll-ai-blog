@@ -11,7 +11,7 @@ type: note
 
 Question: What does ADSL technology run on? It is a new high-speed broadband technology that provides users with asymmetric upstream and downstream transmission rates. (The question is about filling in the blank: ADSL technology operates on ______.)
 
-Answer: 
+Answer:
 
 ADSL (Asymmetric Digital Subscriber Line) technology operates on **原有普通电话线** (existing ordinary telephone lines, also known as copper twisted-pair telephone lines).
 
@@ -24,5 +24,5 @@ ADSL (Asymmetric Digital Subscriber Line) technology operates on **原有普通�
 
 The reference answer "原有普通电话线" is **correct**.
 
-References:  
+References:
 - None (standard telecommunications knowledge)

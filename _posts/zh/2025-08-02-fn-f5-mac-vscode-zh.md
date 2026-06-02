@@ -127,6 +127,6 @@ type: note
      - 运行 `yo code`（需要 Yeoman 和 VSCode 生成器：`npm install -g yo generator-code`）搭建新扩展。
      - 在 VSCode 中打开新项目，按 `F5` 查看是否能启动 Extension Development Host。
 
-[VS Code 扩展开发](https://code.visualstudio.com/api/get-started/your-first-extension)  
-[Mac 键盘设置](https://support.apple.com/guide/mac-help/change-the-behavior-of-the-function-keys-mchlp2882/mac)  
+[VS Code 扩展开发](https://code.visualstudio.com/api/get-started/your-first-extension)
+[Mac 键盘设置](https://support.apple.com/guide/mac-help/change-the-behavior-of-the-function-keys-mchlp2882/mac)
 [VS Code 键绑定](https://code.visualstudio.com/docs/getstarted/keybindings)

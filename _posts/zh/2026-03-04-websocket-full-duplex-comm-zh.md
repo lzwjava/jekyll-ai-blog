@@ -49,7 +49,7 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 - `101 Switching Protocols` = “好的，现在切换”
-- `Sec-WebSocket-Accept` = 特殊哈希：  
+- `Sec-WebSocket-Accept` = 特殊哈希：
   `base64( SHA-1( client-key + "258EAFA5-E914-47DA-95CA-C5AB0DC85B11" ) )`
 
 收到此响应后——**连接不再是 HTTP**。它现在是同一 TCP socket 上的 **WebSocket 连接**。

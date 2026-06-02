@@ -11,7 +11,7 @@ type: note
 
 Question: What is the length of the basic header of an IPv6 datagram?
 
-Answer: 
+Answer:
 
 The correct answer is **C. 40B**.
 
@@ -47,6 +47,6 @@ Therefore, the length of the IPv6 basic header is **40 bytes**.
 
 Correct choice: **C**
 
-References:  
+References:
 
 - None (standard networking knowledge / RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification)

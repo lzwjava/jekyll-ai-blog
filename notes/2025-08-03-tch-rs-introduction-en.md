@@ -32,5 +32,5 @@ Set up libtorch by downloading it manually, using a system installation, or enab
 
 For more details, explore the documentation and examples provided in the repository.
 
-[tch-rs GitHub Repository](https://github.com/LaurentMazare/tch-rs)  
+[tch-rs GitHub Repository](https://github.com/LaurentMazare/tch-rs)
 [tch-rs Documentation](https://docs.rs/tch)

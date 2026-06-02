@@ -18,12 +18,12 @@ No, there is no direct equivalent to **Codeforces** (with rated contests, fast a
 
 However, several platforms and initiatives come reasonably close or serve similar purposes:
 
-- **LeetGPU** (leetgpu.com) — the closest thing right now to "LeetCode/Codeforces for CUDA".  
-  It offers LeetCode-style challenges specifically for writing optimized CUDA kernels (vector add, convolution, k-means, attention, matrix multiplication, etc.).  
-  You write CUDA code in the browser (no local GPU needed — uses emulation), submit for performance-based ranking/leaderboards, and compete on speed.  
+- **LeetGPU** (leetgpu.com) — the closest thing right now to "LeetCode/Codeforces for CUDA".
+  It offers LeetCode-style challenges specifically for writing optimized CUDA kernels (vector add, convolution, k-means, attention, matrix multiplication, etc.).
+  You write CUDA code in the browser (no local GPU needed — uses emulation), submit for performance-based ranking/leaderboards, and compete on speed.
   Many people call it "LeetCode for CUDA".
 
-- **Tensara** — described in some communities as "Codeforces/Kaggle for GPU programming".  
+- **Tensara** — described in some communities as "Codeforces/Kaggle for GPU programming".
   Focused on submitting and benchmarking GPU kernels (mainly for deep learning workloads) with FLOPS-based scoring.
 
 - Older / one-time events:
@@ -46,7 +46,7 @@ However, several platforms and initiatives come reasonably close or serve simila
 
 Right now **LeetGPU** is the most practical and closest "competitive CUDA playground".
 
-References:  
+References:
 
 - [LeetGPU - The CUDA Challenges](https://leetgpu.com/challenges)
 - [Reddit discussion on LeetGPU](https://www.reddit.com/r/CUDA/comments/1j0is8k/leetgpu_challenges_leetcode_for_cuda_programming)

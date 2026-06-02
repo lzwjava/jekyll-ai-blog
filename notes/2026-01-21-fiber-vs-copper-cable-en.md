@@ -12,7 +12,7 @@ type: note
 
 Question: Compare fiber optic cable to RJ45 cable
 
-Answer: 
+Answer:
 
 **RJ45 cable** typically refers to twisted-pair copper Ethernet cables (such as Cat5e, Cat6, Cat6a, or Cat8) that use an **RJ45 connector**. These are the standard network cables most people use for home and office LAN connections. In contrast, **fiber optic cable** transmits data using light signals through glass or plastic fibers and uses different connectors (such as LC, SC, or MPO), not RJ45.
 
@@ -35,23 +35,23 @@ Here is a clear side-by-side comparison:
 | **Common Use Cases** | Home networks, offices, short runs, PoE devices (cameras, phones, Wi-Fi APs) | Data centers, long-distance links, ISPs, high-bandwidth backbones, campus connections |
 
 ### Summary: Which is better?
-- **Choose RJ45 copper cable** when:  
-  - Distance is under 100 m  
-  - You need PoE  
-  - Budget is limited  
-  - You want simple plug-and-play installation  
-  - Existing infrastructure is copper-based  
+- **Choose RJ45 copper cable** when:
+  - Distance is under 100 m
+  - You need PoE
+  - Budget is limited
+  - You want simple plug-and-play installation
+  - Existing infrastructure is copper-based
 
-- **Choose fiber optic cable** when:  
-  - You need distances >100 m  
-  - You require very high speeds (40G/100G/400G+)  
-  - Environment has high EMI (factories, hospitals, dense wiring)  
-  - Future-proofing is important  
-  - Security or very low latency is critical  
+- **Choose fiber optic cable** when:
+  - You need distances >100 m
+  - You require very high speeds (40G/100G/400G+)
+  - Environment has high EMI (factories, hospitals, dense wiring)
+  - Future-proofing is important
+  - Security or very low latency is critical
 
 In 2026, copper (RJ45) still dominates short-distance LANs and homes due to cost and compatibility, while fiber dominates enterprise backbones, data centers, and long-haul connections. Many modern buildings use a hybrid approach: fiber for backbone/riser links and copper for horizontal runs to desktops/devices.
 
-References:  
+References:
 
 - [trueCABLE: Fiber Optics vs Ethernet](https://www.truecable.com/blogs/cable-academy/fiber-optics-vs-ethernet-understanding-the-key-differences)
 - [Optcore: Fiber vs Ethernet Cable](https://www.optcore.net/fiber-vs-ethernet-cable)

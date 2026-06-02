@@ -11,22 +11,22 @@ type: note
 
 **问题**：王者荣耀（Honor of Kings）中如何玩 Lian Po？
 
-**回答**： 
+**回答**：
 
 Lian Po（中文版称为 Lianpo，王者荣耀）是一个耐久的 Tank 英雄，主要在中路对线（Clash Lane，上/农线）或作为 Roamer/Support 游玩。他擅长前排开团，具有强大的 crowd control (CC)，技能释放时的 CC 免疫，以及在团战中的持续输出。他的技能组围绕连击突进、砸击和跳跃来打乱敌人，同时吸收伤害。
 
 ### 技能
 
-- **被动：Warrior’s Soul**  
+- **被动：Warrior’s Soul**
   Lian Po 在施放技能时获得 CC 免疫（无法被控）。进入战斗积累 Battle Spirit 层数，最高层数提供 20% 伤害减免和 30% 攻击速度。脱离战斗时恢复生命。利用此被动在开团时大胆切入。
 
-- **技能 1：Burst Ram**  
+- **技能 1：Burst Ram**
   向前突进，对命中的敌人造成物理伤害并击飞。每 2 次普攻后，下次普攻强化造成额外伤害。核心位移技能——成功命中技能 2 时重置冷却。
 
-- **技能 2：Magma Slam**  
+- **技能 2：Magma Slam**
   蓄力砸击，对区域内敌人造成伤害并减速。命中敌人时重置技能 1 冷却。用于黏人并连击位移。
 
-- **大招：Tremor Smash**  
+- **大招：Tremor Smash**
   跃向目标区域并砸地 3 次：前两次减速并伤害，第三次在更大区域击飞。可在大招中使用技能 1 或 Flash 重新定位以最大化 CC。
 
 **技能加点优先级**：主技能 2 > 技能 1 > 大招（用于重置和消耗）。1 级学技能 2 清线。
@@ -43,7 +43,7 @@ Lian Po 的强度在于通过技能 1 重置实现流畅连击：
 ### 推荐出装（Tank/Roam 方向）
 前期优先冷却缩减（CDR，目标 30-40%），然后堆叠肉装。根据敌方阵容调整（例如，对 AP 阵容多魔抗）。
 
-  
+
 | 位置 | 装备 | 原因 |
 |------|------|------|
 | 鞋子 | Boots of Fortitude / Resistance Boots | CDR + 肉度；必要时换魔抗鞋。 |
@@ -80,7 +80,7 @@ Lian Po 的强度在于通过技能 1 重置实现流畅连击：
 
 通过训练模式练习连招掌握 Lian Po。他对新手友好，但通过机械连击能无限提升。
 
-**参考资料**： 
+**参考资料**：
 - [Honor of Kings Wiki - Lian Po](https://honor-of-kings.fandom.com/wiki/Lian_Po)
 - [BlueStacks Lian Po Guide](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-lian-po-character-guide-en.html)
 - [HoKBuild Lian Po](https://hokbuild.com/hero/lian-po)

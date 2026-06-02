@@ -11,7 +11,7 @@ type: note
 
 Question: Why do people tend to have better focus when they have work or business with revenue and feel secure, compared to when they are unemployed and fully dedicated to exams or job hunting, which often leads to poorer results—like many in China who prepare full-time for government civil service exams but still fail and reach their 30s?
 
-Answer: 
+Answer:
 
 This observation aligns with psychological and practical patterns seen in high-stakes preparation scenarios.
 
@@ -29,7 +29,7 @@ People with part-time jobs or balanced routines often perform better because the
 
 In short, **security enables true focus**, while **insecurity (financial + outcome uncertainty) often creates paralysis or low-efficiency effort**, even with more total time invested. This explains why "putting in time but not focus" (fake work) is common in full-time prep scenarios.
 
-References:  
+References:
 
 - [Financial worries and psychological distress](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806009/)
 - [Financial security lowers stress and improves mindset](https://www.mutualofomaha.com/advice/health-and-well-being/mental-health/how-financial-security-can-impact-your-mental-well-being)

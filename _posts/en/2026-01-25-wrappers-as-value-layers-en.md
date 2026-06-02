@@ -12,7 +12,7 @@ type: note
 
 Question: Everything on the internet and in products is essentially a wrapper — for example, Perplexity AI is a wrapper around LLM models, LLM models are wrappers around PyTorch, PyTorch is a wrapper around CUDA, Google Cloud is a wrapper around physical machines and Linux, and even the Python 'requests' library is a wrapper. But wrappers still have real value, although very thin/lightweight wrappers usually provide little value.
 
-Answer: 
+Answer:
 
 Yes — almost the entire software and internet stack can be understood as **nested layers of wrappers/abstractions**, each adding (or sometimes subtracting) value.
 
@@ -70,6 +70,6 @@ The thicker (higher-level) the wrapper, the more value it can create — even if
 
 So yes — “everything is a wrapper”, but **great wrappers win**, mediocre ones usually fade away.
 
-References:  
+References:
 
 - None

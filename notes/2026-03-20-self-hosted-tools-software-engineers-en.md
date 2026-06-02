@@ -11,7 +11,7 @@ type: note
 
 Question: Given that we have OpenClaw now, can we easily install something similar to Nextcloud on our second home computer? What are some similar self-hosted tools that can help improve our daily life, especially as software engineers?
 
-Answer: 
+Answer:
 
 Yes, just like **Nextcloud** (from the GitHub link you shared: https://github.com/nextcloud/server), which is a popular self-hosted file sync, share, and collaboration platform (your own Dropbox/Google Drive), you can easily install it — or many similar useful tools — on your second home computer.
 
@@ -30,34 +30,34 @@ Here are some of the most useful self-hosted tools in 2026 that tend to meaningf
 
 ### Top recommendations for developers/home use
 
-- **Vaultwarden** (Bitwarden compatible)  
+- **Vaultwarden** (Bitwarden compatible)
   Self-hosted password manager. Extremely lightweight, secure, works with all Bitwarden apps/clients. Perfect replacement for 1Password/LastPass.
 
-- **Gitea** or **Forgejo**  
+- **Gitea** or **Forgejo**
   Your own lightweight GitHub/GitLab. Host private repos, issues, CI runners (with Woodpecker or Drone), wikis. Great for personal projects, scripts, dotfiles, or small team use without paying GitHub.
 
-- **Immich**  
+- **Immich**
   Google Photos alternative — self-hosted photo/video backup, face recognition, albums, sharing. Automatic phone backups via app. Very polished in recent years.
 
-- **Jellyfin**  
+- **Jellyfin**
   Your personal Netflix/Plex for movies, TV, music. Streams to any device, no subscription needed.
 
-- **Home Assistant**  
+- **Home Assistant**
   If you have any smart devices (lights, sensors, plugs), this is the best open-source home automation hub. Integrates everything locally, no cloud required.
 
-- **n8n**  
+- **n8n**
   No-code/low-code automation workflows (like Zapier but self-hosted). Connect APIs, GitHub webhooks, calendars, files — super useful for engineers to automate repetitive tasks.
 
-- **Uptime Kuma**  
+- **Uptime Kuma**
   Simple, beautiful monitoring dashboard. Checks if your websites, servers, APIs are up — sends alerts via Telegram/Discord/email.
 
-- **SearXNG**  
+- **SearXNG**
   Privacy-focused metasearch engine. Aggregate results from Google/Bing/DuckDuckGo/etc. without tracking — set as default search in browser.
 
-- **Ollama** (local LLMs)  
+- **Ollama** (local LLMs)
   Run AI models (Llama, Mistral, etc.) completely offline on your machine. Pair it with Open WebUI for a ChatGPT-like interface. Great complement to OpenClaw.
 
-- **AdGuard Home** or **Pi-hole**  
+- **AdGuard Home** or **Pi-hole**
   Network-wide ad/tracker blocker + DNS server. Makes browsing cleaner/faster for the whole house.
 
 ### Bonus developer-focused ones
@@ -69,7 +69,7 @@ These are all free/open-source, actively maintained, and Docker-friendly. Many p
 
 Start with 2–3 that solve your biggest pain points (e.g., passwords + git + photos), then expand. The self-hosting community (r/selfhosted, awesome-selfhosted list) has docker-compose examples for almost everything.
 
-References:  
+References:
 
 - [awesome-selfhosted GitHub list](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [selfh.st/apps directory](https://selfh.st/apps)

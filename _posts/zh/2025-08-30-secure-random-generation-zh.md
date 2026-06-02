@@ -30,7 +30,7 @@ import secrets
 | `secrets.choice(seq)` | 从非空序列 `seq` 中返回随机元素。是 `random.choice` 的安全替代方案。 | `item = secrets.choice(['a', 'b', 'c'])`  # 从列表中随机选择 |
 
 ### 实际应用示例
-1. **生成安全密码**：  
+1. **生成安全密码**：
    结合 `secrets.choice` 与字符串常量生成随机密码。
    ```python
    import string
@@ -41,7 +41,7 @@ import secrets
    print(password)  # 例如："X8f#9L&pW2c%"
    ```
 
-2. **创建 API 令牌**：  
+2. **创建 API 令牌**：
    使用 `token_urlsafe` 生成适用于网络的随机字符串。
    ```python
    token = secrets.token_urlsafe(32)

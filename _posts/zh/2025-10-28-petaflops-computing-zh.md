@@ -18,8 +18,8 @@ Petaflop（或 petaFLOPS，其中 FLOPS 代表每秒浮点运算次数）是衡�
 
 该指标对科学模拟、人工智能训练和气象建模等领域至关重要，因为它能反映系统处理复杂小数数值计算的速度。
 
-[TeraFLOPS 与 PetaFLOPS 的计算差异是什么？](https://www.hp.com/us-en/shop/tech-takes/computing-difference-between-teraflops-and-petaflops)  
-[什么是 petaFLOPS（PFLOPS）？](https://www.ionos.com/digitalguide/server/know-how/pflops/)  
-[PETAFLOP 的定义与含义](https://www.merriam-webster.com/dictionary/petaflop)  
-[每秒浮点运算次数](https://en.wikipedia.org/wiki/Floating_point_operations_per_second)  
+[TeraFLOPS 与 PetaFLOPS 的计算差异是什么？](https://www.hp.com/us-en/shop/tech-takes/computing-difference-between-teraflops-and-petaflops)
+[什么是 petaFLOPS（PFLOPS）？](https://www.ionos.com/digitalguide/server/know-how/pflops/)
+[PETAFLOP 的定义与含义](https://www.merriam-webster.com/dictionary/petaflop)
+[每秒浮点运算次数](https://en.wikipedia.org/wiki/Floating_point_operations_per_second)
 [什么是 petaflop？](https://ncsa.illinois.edu/archive/what-is-a-petaflop/)

@@ -26,6 +26,6 @@ type: note
 
 您的乐观正揭示了科技未来比门户森严的过去更光明的原因。在AI工具或开源项目等领域，您对这场变革最期待的是什么？
 
-[开源如何驱动全球创新](https://opensource.guide/)  
-[Hugging Face： democratizing AI](https://huggingface.co/blog/democratizing-ai)  
+[开源如何驱动全球创新](https://opensource.guide/)
+[Hugging Face： democratizing AI](https://huggingface.co/blog/democratizing-ai)
 [初创企业的无代码革命](https://www.forbes.com/sites/forbestechcouncil/2024/01/15/the-rise-of-no-code-low-code-platforms/)

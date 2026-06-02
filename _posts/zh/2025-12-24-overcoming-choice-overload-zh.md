@@ -12,7 +12,7 @@ type: note
 
 Question: 有那么多游戏可以玩、地方可以去、美食可以吃、书籍可以读、AI chatbots 可以尝试，还有各种 digital contents、YouTube 视频和课程需要学习。面对如此多的选择，该如何决定做什么，以及如何有效地分配时间？
 
-Answer: 
+Answer:
 
 被无穷无尽的娱乐、学习和体验选择所淹没是很常见的现象——这通常被称为“选择过载”（choice overload）或“决策瘫痪”（decision paralysis），即过多的选择导致犹豫不决、压力甚至无所作为。关键在于从盲目浏览转向有意识的选择和结构化的时间管理。以下是一份帮助你明智选择并分配时间的实用指南：
 
@@ -61,7 +61,7 @@ Answer:
 
 通过专注于“意图”而非“数量”，你将减少焦虑感，获得更深层次的享受，并在没有遗憾的情况下取得进步。今天就从小处开始——选择一个优先级目标，并选定一个与之匹配的活动。
 
-References:  
+References:
 
 - [7 steps for prioritizing your workload](https://www.teamwork.com/blog/how-to-prioritize-tasks/)
 - [How to prioritize tasks in 4 steps](https://asana.com/resources/how-prioritize-tasks-work)

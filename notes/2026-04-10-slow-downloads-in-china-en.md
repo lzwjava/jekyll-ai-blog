@@ -54,7 +54,7 @@ Unfortunately, there is no official China mirror for Camoufox yet, so the VPN ro
 
 If the download still fails or stays at 0% even with a VPN, share the full output (including any error after it eventually fails) and I can help further.
 
-References:  
+References:
 - https://www.mlytics.com/blog/why-your-website-is-slow-in-china-and-how-to-fix-it-2024-total-guide-for-better-web-app-performance-in-china/
 - https://www.thoughtworks.com/insights/blog/user-experience/foreign-websites-slower-China
 - https://github.com/platformio/platformio-core/issues/4656

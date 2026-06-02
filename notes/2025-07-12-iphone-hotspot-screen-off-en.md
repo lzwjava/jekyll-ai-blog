@@ -13,7 +13,7 @@ type: note
 Based on reliable sources, here's a clear explanation of how an iPhone handles Personal Hotspot (sharing cellular data) when the screen is turned off (i.e., the device locks or goes to sleep). I'll break it down step by step, addressing your questions about whether it stops immediately, after some time, continues until powered off, etc. Note that this applies to standard iOS versions (like iOS 18 as of 2025); behavior might vary slightly in beta releases or with specific carrier settings.
 
 #### 1. **Does Personal Hotspot Stop Sharing When the Screen Turns Off?**
-   - No, it does not stop immediately just because the screen turns off or the iPhone locks. 
+   - No, it does not stop immediately just because the screen turns off or the iPhone locks.
    - The hotspot continues to function in the background, sharing your cellular data via Wi-Fi, Bluetooth, or USB, even while the screen is off. This is designed to allow uninterrupted use for connected devices (e.g., laptops, tablets) without needing the iPhone's screen to stay active.[1][2]
    - However, there are conditions that can cause it to turn off or disconnect indirectly (see below).
 
@@ -40,12 +40,12 @@ Based on reliable sources, here's a clear explanation of how an iPhone handles P
 If you're experiencing frequent disconnects beyond these reasons, it could be a bug—try restarting your iPhone or contacting Apple Support/carrier. Behavior might differ slightly based on your iPhone model (e.g., iPhone 16 series) or iOS version.
 
 #### References (Markdown Citations)
-[1]: Apple Discussions (web:0)  
-[2]: Ask Different (web:2, web:13, web:25)  
-[3]: Alphr Article (web:23, web:31)  
-[4]: Quora (web:15, web:29)  
-[5]: Apple Training Snippet (web:26)  
-[6]: Wondershare (web:6, web:24) and Alphr (web:31)  
-[7]: Reddit (web:1, web:11)  
-[8]: Reddit (web:1)  
+[1]: Apple Discussions (web:0)
+[2]: Ask Different (web:2, web:13, web:25)
+[3]: Alphr Article (web:23, web:31)
+[4]: Quora (web:15, web:29)
+[5]: Apple Training Snippet (web:26)
+[6]: Wondershare (web:6, web:24) and Alphr (web:31)
+[7]: Reddit (web:1, web:11)
+[8]: Reddit (web:1)
 [9]: Apple Support (web:4) and Alphr (web:31)

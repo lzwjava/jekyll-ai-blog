@@ -18,7 +18,7 @@ In “Mean People Fail,” Paul Graham argues that being ruthless or “mean” 
 
 His key points:
 
-- Nice guys don’t just finish last—they often build the companies that dominate in the long run.  
+- Nice guys don’t just finish last—they often build the companies that dominate in the long run.
 - Early-stage startups are fragile and depend on attracting the absolute best talent. Talented people have options and strongly prefer to work with founders who are decent, trustworthy, and generous rather than cutthroat or Machiavellian.
 - Mean founders repel great hackers/engineers. The very best programmers can detect arrogance, dishonesty, or nastiness quickly and will simply walk away (or never join in the first place).
 - History shows that the most enduring tech companies (e.g., Hewlett-Packard, Intel, Apple under Jobs after his “nice” phase, Google) were led by founders who, whatever their other flaws, were not gratuitously mean or dishonest in their dealings with employees and co-founders.
@@ -26,7 +26,7 @@ His key points:
 - Graham contrasts this with the 1980s–1990s stereotype of the “hard-charging” CEO. He says that stereotype was already outdated by 2004 and is lethal in the internet era where talent is the only real asset.
 - His blunt conclusion: “It’s not just that mean founders treat employees badly; it’s that the best employees won’t work for mean founders. And without the best employees you’re doomed.”
 
-He ends with the memorable line (paraphrased):  
+He ends with the memorable line (paraphrased):
 “Being good is better than being smart if you want to start a startup, because the very best people are attracted to goodness.”
 
 The essay is a direct rebuttal to the Gordon Gekko / “greed is good” ethos, arguing that in the specific game of technology startups, decency is a competitive advantage.

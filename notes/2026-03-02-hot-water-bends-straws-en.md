@@ -11,7 +11,7 @@ type: note
 
 Question: Why do water bottles on JD.com or in China with a straw or drink pipe often become a joke, meaning that when using them with hot water, the drink pipe bends and gets fixed in that shape, so the mouth can't pop up and one can't drink through the pipe?
 
-Answer: 
+Answer:
 
 This is a popular **Chinese internet joke/meme** about cheap or low-quality **insulated water bottles (保温杯)** or **tumblers** sold on platforms like JD.com or Taobao.
 
@@ -35,7 +35,7 @@ It's especially funny in Chinese online communities because:
 
 So the meme pokes fun at both **poor product quality** and the **gap between marketing claims and real-world performance** when hot water (a Chinese daily essential) is involved.
 
-References:  
+References:
 
 - [抖音搜索：塑料吸管喝热水变形](https://www.douyin.com/search/%E5%A1%91%E6%96%99%E5%90%B8%E7%AE%A1%E5%96%9D%E7%83%AD%E6%B0%B4%E5%8F%98%E5%BD%A2)
 - Various Chinese e-commerce product complaints and memes about 保温杯吸管变形 (thermos straw deformation with hot water)

@@ -11,7 +11,7 @@ type: note
 
 问题：Should sausage be categorized into processed meats?
 
-回答： 
+回答：
 
 **是的，sausages 被归类为 processed meats。**
 
@@ -37,7 +37,7 @@ Processed meat 是由主要健康组织定义（如 World Health Organization、
 
 因此，在 nutritional science、epidemiology、cancer research 和官方 food classification systems 中——**sausages = processed meat**。
 
-参考文献：  
+参考文献：
 
 - [https://www.iarc.who.int/featured-news/media-centre-iarc-news-processed-meat/](https://www.iarc.who.int/featured-news/media-centre-iarc-news-processed-meat/)
 - [https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)

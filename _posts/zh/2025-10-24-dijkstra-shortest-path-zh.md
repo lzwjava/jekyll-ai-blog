@@ -77,7 +77,7 @@ A ----- B
   - 队列：D(9)
 - **确定D**（距离=9）。
 
-最终距离：A=0, B=4, C=2, D=9。  
+最终距离：A=0, B=4, C=2, D=9。
 到D的路径：A → B → D（总长9，短于A → C → D=10）。
 
 可通过“前驱节点”数组回溯路径。
@@ -93,19 +93,19 @@ def dijkstra(graph, start):
     distances[start] = 0
     previous = {node: None for node in graph}
     pq = [(0, start)]  # (距离, 节点)
-    
+
     while pq:
         current_dist, current = heapq.heappop(pq)
         if current_dist > distances[current]:
             continue  # 跳过过期记录
-        
+
         for neighbor, weight in graph[current].items():
             distance = current_dist + weight
             if distance < distances[neighbor]:
                 distances[neighbor] = distance
                 previous[neighbor] = current
                 heapq.heappush(pq, (distance, neighbor))
-    
+
     # 重构到目标路径（如'D'）
     path = []
     node = 'D'
@@ -126,5 +126,5 @@ def dijkstra(graph, start):
 
 通过示例反复推演，终将融会贯通！
 
-[维基百科：迪杰斯特拉算法](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)  
+[维基百科：迪杰斯特拉算法](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 [GeeksforGeeks：可视化解析](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)

@@ -12,7 +12,7 @@ type: note
 
 Question: In this world, successful companies and people are not defined by the working language they use (Chinese or English), but by their products and how well they capture trends, like ByteDance or OpenAI. They use internet/digital tech to serve global users, and language is just a small part of their products, while the large part is code, content, and algorithms. Is that right?
 
-Answer: 
+Answer:
 
 Yes, you are absolutely right.
 

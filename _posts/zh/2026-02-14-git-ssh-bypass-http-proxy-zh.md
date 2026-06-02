@@ -12,7 +12,7 @@ type: note
 
 Question: 当使用 SSH 运行 `GIT_SSH_COMMAND="ssh -vvv" git pull --rebase` 时，它会绕过系统的 HTTP 和 HTTPS 代理设置（如 `export HTTP_PROXY` 和 macOS 系统设置中的网络代理）吗？
 
-Answer: 
+Answer:
 
 **是的，它会完全绕过这些设置。**
 
@@ -74,7 +74,7 @@ git remote -v
 
 因此，当你运行 `GIT_SSH_COMMAND="ssh -vvv" git pull --rebase` 并看到 SSH 身份验证 / port 22 流量时，你使用的是 SSH 协议 —— HTTP/HTTPS 代理设置（包括 macOS 系统设置）会被完全忽略。
 
-References:  
+References:
 
 - [Git - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 - [Configure Git to use a proxy (HTTPS or SSH+GIT)](https://gist.github.com/ozbillwang/005bd1dfc597a2f3a00148834ad3e551)

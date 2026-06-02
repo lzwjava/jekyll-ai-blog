@@ -19,7 +19,7 @@ AMiner is an AI-powered academic search and mining platform developed by researc
 AMiner offers a range of tools and services tailored for researchers, scientists, and academics. Key capabilities include:
 
 - **Researcher Profile Search and Semantic Matching**: Build detailed, AI-enhanced profiles of scholars based on publications, citations, and affiliations. It uses semantic analysis to connect users with relevant experts and collaborators.
-  
+
 - **Expert Finding and Ranking**: Identify top influencers in specific fields (e.g., via lists like the "AI 2000 Most Influential Scholars") using metrics like h-index, citations, and impact scores.
 
 - **Conference and Venue Analysis**: Explore academic conferences, journals, and events with insights into trends, rankings, and participation data.
@@ -32,10 +32,10 @@ AMiner offers a range of tools and services tailored for researchers, scientists
 
 Overall, it's designed to streamline academic discovery, from basic searches to deep data mining, making it a valuable resource for staying updated in fast-evolving fields like AI.
 
-**References**  
-- [AMiner - AI Powered Academic Network Mining](https://mrt.aminer.cn/)  
-- [Manual - AMiner](https://www.aminer.cn/manual)  
-- [AMiner: Search and Mining of Academic Social Networks](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)  
-- [AMiner - AI赋能科技情报挖掘](https://www.aminer.cn/)  
-- [AMiner Dataset on SciDB](https://www.scidb.cn/en/detail?dataSetId=760464568915853312)  
+**References**
+- [AMiner - AI Powered Academic Network Mining](https://mrt.aminer.cn/)
+- [Manual - AMiner](https://www.aminer.cn/manual)
+- [AMiner: Search and Mining of Academic Social Networks](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)
+- [AMiner - AI赋能科技情报挖掘](https://www.aminer.cn/)
+- [AMiner Dataset on SciDB](https://www.scidb.cn/en/detail?dataSetId=760464568915853312)
 - [AMiner: Toward Understanding Big Scholar Data](https://www.researchgate.net/publication/311488526_AMiner_Toward_Understanding_Big_Scholar_Data)

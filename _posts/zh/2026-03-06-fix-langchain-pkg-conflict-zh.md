@@ -30,14 +30,14 @@ type: note
 
 ### 推荐解决方案（选择一个）
 
-1. **最佳长期解决方案** — 更新 langchain-core  
+1. **最佳长期解决方案** — 更新 langchain-core
    Langchain 库通常会相对快速更新依赖约束。
 
    ```bash
    python -m pip install --upgrade langchain-core
    ```
 
-   最有可能 langchain-core ≥ 1.3.x 或 0.3.x 系列（取决于您使用的包线）已经允许 packaging ≥ 26.0。  
+   最有可能 langchain-core ≥ 1.3.x 或 0.3.x 系列（取决于您使用的包线）已经允许 packaging ≥ 26.0。
    升级后，运行 `pip check` 确认没有剩余冲突。
 
 2. **如果暂时无法/不想升级 langchain-core 的快速修复**
@@ -57,7 +57,7 @@ type: note
 
 3. **如果您主要需要 black 并且现在不太在意 langchain**
 
-   暂时忽略警告 — 在许多情况下，black 26.x 即使 langchain-core 抱怨也能正常工作，因为 packaging API 在 25 → 26 之间非常稳定。  
+   暂时忽略警告 — 在许多情况下，black 26.x 即使 langchain-core 抱怨也能正常工作，因为 packaging API 在 25 → 26 之间非常稳定。
    只有在实际看到 langchain-core 的运行时错误时才降级 packaging。
 
 4. **最干净的解决方案（如果您在有 requirements.txt / pyproject.toml 的项目中）**
@@ -96,5 +96,5 @@ python -m pip install --upgrade langchain-core
 pip check
 ```
 
-如果冲突消失 → 就好了。  
+如果冲突消失 → 就好了。
 如果没有，请告诉我新的 langchain-core 版本，我可以建议下一步。

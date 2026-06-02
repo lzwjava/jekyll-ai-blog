@@ -12,7 +12,7 @@ type: note
 
 **Question:** What is the annual leave policy for employees at DBS Bank?
 
-**Answer:** 
+**Answer:**
 
 DBS Bank (primarily referring to DBS Bank in Singapore, as it's headquartered there) offers a competitive annual leave policy as part of its employee benefits package. Official details are not publicly disclosed on the DBS careers website in a specific numerical format, but employee reviews and reports from sources like Glassdoor and Indeed provide consistent insights:
 
@@ -26,7 +26,7 @@ Note that exact entitlements can vary based on role, grade, location (e.g., Sing
 
 For the most accurate and up-to-date information, check directly with DBS HR during recruitment or refer to your employment contract if you're an employee.
 
-**References:**  
+**References:**
 
 - [Glassdoor DBS Bank Benefits (Singapore)](https://www.glassdoor.sg/Benefits/DBS-Bank-Singapore-BNFT115_E611812_N217.htm)
 - [Glassdoor DBS Bank Vacation & Paid Time Off](https://www.glassdoor.com/Benefits/DBS-Bank-Vacation-and-Paid-Time-Off-BNFT115_E611812_N115.htm)

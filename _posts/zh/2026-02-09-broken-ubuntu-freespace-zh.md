@@ -12,13 +12,13 @@ type: note
 
 Question: 在这种情况下（sudo 损坏，系统因巨大的 CUPS logs 导致空间不足，目前正从 Ubuntu live USB 启动），我可以安全删除 /usr 中的哪些文件或目录来释放空间？
 
-Answer: 
+Answer:
 
 既然你已经在 live USB 环境中（或者可以 chroot 进入损坏的系统），你就拥有了 live session 提供的完整 root 权限 —— 这是在修复 sudo 之前释放空间的绝佳时机。目标是在不进一步破坏系统的前提下，删除 `/usr` 内部**巨大的、非关键的、可重新生成的或可安全移除的数据**。
 
 **在 /usr 中最安全且最有效的删除项（从 live USB 操作）：**
 
-1. **巨大的 CUPS log 文件**（目前为止最大的收益 —— 可能有 200–300 GB）  
+1. **巨大的 CUPS log 文件**（目前为止最大的收益 —— 可能有 200–300 GB）
    这些**不在** `/usr` 中 —— 它们位于 `/var/log/cups/`。但既然你问到了 `/usr`，我还是将它们列为第一优先级：
    ```
    sudo rm -rf /mnt/root/var/log/cups/*
@@ -97,16 +97,16 @@ sudo du -sh /mnt/root/boot/
 
 **绝对不能在 /usr 中删除的东西（会导致系统严重崩溃）：**
 
-- /usr/bin, /usr/sbin, /usr/lib, /usr/libexec, /usr/lib64  
-- /usr/share/applications, /usr/share/glib-2.0, /usr/share/mime  
-- 任何包含 libc, libstdc++, libgcc, openssl, ca-certificates 等内容的文件  
+- /usr/bin, /usr/sbin, /usr/lib, /usr/libexec, /usr/lib64
+- /usr/share/applications, /usr/share/glib-2.0, /usr/share/mime
+- 任何包含 libc, libstdc++, libgcc, openssl, ca-certificates 等内容的文件
 - /usr/share/fonts （除非你非常清楚自己在做什么）
 
 **释放空间后** → 继续执行之前信息中的 chroot + 修复 sudo 步骤。
 
 如果你运行 `sudo du -sh /mnt/root/usr/* | sort -hr | head -20`，你将看到实际最大的目录，并可以进行更精准的决策。
 
-References:  
+References:
 
 - [Ask Ubuntu: How to free space on root partition](https://askubuntu.com/questions/19914/how-to-free-up-space-on-the-root-partition)
 - [Ubuntu Community Help: Freeing disk space](https://help.ubuntu.com/community/FreeingUpDiskSpace)

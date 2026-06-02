@@ -34,7 +34,7 @@ type: note
 
 以上地点均全年免费开放（免门票/停车费），配备卫生间与零食亭。若想探索更野趣的去处（如45分钟车程的增城森林海），欢迎随时告知。祝行车平安——愿水声助你心流涌动！
 
-**参考信息**  
-- [天河公园导览](https://www.trip.com/travel-guide/attraction/guangzhou/tianhe-park-76881/)  
-- [黄埔公园详情](https://www.tripadvisor.com/Attraction_Review-g298555-d1797538-Reviews-Huangpu_Park-Guangzhou_Guangdong.html)  
+**参考信息**
+- [天河公园导览](https://www.trip.com/travel-guide/attraction/guangzhou/tianhe-park-76881/)
+- [黄埔公园详情](https://www.tripadvisor.com/Attraction_Review-g298555-d1797538-Reviews-Huangpu_Park-Guangzhou_Guangdong.html)
 - [东山湖公园点评](https://www.tripadvisor.com/Attraction_Review-g298555-d1797501-Reviews-Dongshan_Lake_Park-Guangzhou_Guangdong.html)

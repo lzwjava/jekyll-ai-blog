@@ -19,22 +19,22 @@ Red Hat Enterprise Linux (RHEL) 主要使用 DNF 包管理器来安装软件。E
 - 如果使用官方 RHEL 软件仓库，您的系统应已注册 Red Hat Subscription Management。
 
 #### 安装步骤
-1. **更新软件包缓存**（推荐操作以确保获取最新可用版本）：  
+1. **更新软件包缓存**（推荐操作以确保获取最新可用版本）：
    ```
    sudo dnf update
    ```
 
-2. **安装 Emacs**：  
+2. **安装 Emacs**：
    ```
    sudo dnf install emacs
-   ```  
+   ```
    这将安装软件仓库中可用的最新稳定版本（例如，根据您的 RHEL 版本，可能是 Emacs 28.x 或 29.x）。
 
-3. **验证安装**：  
-   运行以下命令检查版本：  
+3. **验证安装**：
+   运行以下命令检查版本：
    ```
    emacs --version
-   ```  
+   ```
    您应该看到类似 `GNU Emacs 28.2` 的输出（或类似信息）。
 
 #### 注意事项
@@ -42,5 +42,5 @@ Red Hat Enterprise Linux (RHEL) 主要使用 DNF 包管理器来安装软件。E
 - 要获取最新版本（例如 29+），您可能需要从源码编译或使用第三方软件仓库（如 EPEL），因为基础软件仓库的版本可能较旧。
 - 要启动 Emacs，只需在终端中输入 `emacs`。
 
-[GNU Emacs 常见问题：安装 Emacs](https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Emacs.html)  
+[GNU Emacs 常见问题：安装 Emacs](https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Emacs.html)
 [Red Hat 文档：使用 DNF 管理软件](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/managing_software_with_the_dnf_tool/index)

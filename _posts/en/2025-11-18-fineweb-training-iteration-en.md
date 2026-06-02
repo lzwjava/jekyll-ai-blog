@@ -33,7 +33,7 @@ Real-world runs with similar-sized models (40–125M) on FineWeb-Edu show that l
 That’s only ~8–9 extra hours of runtime for a model that will be noticeably smarter and more useful. Totally worth it unless you’re in a big hurry or electricity is extremely expensive where you are.
 
 #### Practical sweet-spot compromise (if you’re impatient)
-Set max_iters = 15,000 → ~8B tokens, ~2.1 epochs  
+Set max_iters = 15,000 → ~8B tokens, ~2.1 epochs
 You’ll finish in 11–15 hours and still get 90–95 % of the possible performance.
 
 #### When you could stop early (monitor this!)
@@ -42,8 +42,8 @@ Run with 20,000 but watch the validation loss curve:
 - In practice on FineWeb-Edu with small models, it rarely flattens that early — most people see steady improvement all the way to 20k+.
 
 #### Bottom line
-- Want the best possible 40M model from this data? → 20,000 iters  
-- Want to save ~5–8 hours and still crush the original GPT-2 124M? → 15,000 iters  
+- Want the best possible 40M model from this data? → 20,000 iters
+- Want to save ~5–8 hours and still crush the original GPT-2 124M? → 15,000 iters
 - 10,000 or less → you’ll regret it once you see how much better it gets with just a few more hours
 
 Just let it run overnight with 20k (or 15k). You’ll thank yourself tomorrow when you have a genuinely strong little model instead of a merely “okay” one.

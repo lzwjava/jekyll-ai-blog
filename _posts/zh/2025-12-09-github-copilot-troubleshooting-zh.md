@@ -52,10 +52,10 @@ Visual Studio Code (VS Code) 中的 GitHub Copilot 扩展在 Windows 上变得�
 
 如果这些方法没有帮助，请通过 `Ctrl+Shift+P` > “GitHub Copilot: Collect Diagnostics”收集诊断信息，并在 [VS Code GitHub issues](https://github.com/microsoft/vscode/issues) 上报告。对于持续冻结，暂时禁用其他扩展以隔离冲突。
 
-参考资料：  
-- [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)  
-- [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)  
-- [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)  
-- [GitHub Docs: Troubleshooting Copilot](https://docs.github.com/copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot)  
-- [GitHub Discussion: VS Code freezing with Copilot Agent](https://github.com/orgs/community/discussions/159701)  
+参考资料：
+- [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)
+- [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)
+- [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)
+- [GitHub Docs: Troubleshooting Copilot](https://docs.github.com/copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot)
+- [GitHub Discussion: VS Code freezing with Copilot Agent](https://github.com/orgs/community/discussions/159701)
 - [GitHub Discussion: Copilot Chat issues](https://github.com/orgs/community/discussions/156686)

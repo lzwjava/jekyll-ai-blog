@@ -12,7 +12,7 @@ type: note
 
 Question: 在运行 git pull --rebase 时，如何记录 HTTP 和 HTTPS 请求？
 
-Answer: 
+Answer:
 
 你提供的示例输出显示的是 **SSH** 连接（`Authenticated to github.com ([20.205.243.166]:22) using "publickey"`），而**不是** HTTP/HTTPS。当你的 remote URL 格式为 `git@github.com:...` 时，GitHub 默认使用 SSH。
 

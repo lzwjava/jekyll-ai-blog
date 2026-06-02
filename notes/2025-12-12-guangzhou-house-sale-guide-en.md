@@ -12,7 +12,7 @@ type: note
 
 Question: How to sell a house in Guangzhou?
 
-Answer: 
+Answer:
 
 Selling a house in Guangzhou, China, involves a structured process governed by local real estate regulations. As of 2025, Guangzhou has relaxed housing purchase limits, but sellers must still comply with ownership verification, tax obligations, and online registration requirements to ensure a smooth transaction. The process typically takes 1-3 months, depending on buyer financing and document preparation. Below is a step-by-step guide based on standard procedures for second-hand (existing) residential properties. It's highly recommended to engage a licensed real estate agent and consult a lawyer, especially for foreigners or complex cases like inherited properties.
 
@@ -57,10 +57,10 @@ Selling a house in Guangzhou, China, involves a structured process governed by l
 
 Seek professional advice tailored to your situation, as rules can vary by district.
 
-References:  
-- [Steps and Procedures of Selling Residential Properties in China](https://www.sinoblawg.com/steps-and-procedures-of-selling-properties-in-china/)  
-- [How to Sell your Properties in China](https://www.chinainternationallawyer.com/post/how-to-sell-your-properties-in-china)  
-- [Selling a home in mainland China? What foreigners and Hongkongers need to know](https://www.scmp.com/special-reports/property/topics/weekend-property/article/2100669/selling-home-mainland-china-what)  
-- [避坑指南！二手房交易注意这八大事项！](https://kandian.ke.com/detail/MjY4NTU5NTk=.html)  
-- [2025最新广州买房条件（含限购要求）](https://gz.bendibao.com/life/20181220/246537.shtml)  
+References:
+- [Steps and Procedures of Selling Residential Properties in China](https://www.sinoblawg.com/steps-and-procedures-of-selling-properties-in-china/)
+- [How to Sell your Properties in China](https://www.chinainternationallawyer.com/post/how-to-sell-your-properties-in-china)
+- [Selling a home in mainland China? What foreigners and Hongkongers need to know](https://www.scmp.com/special-reports/property/topics/weekend-property/article/2100669/selling-home-mainland-china-what)
+- [避坑指南！二手房交易注意这八大事项！](https://kandian.ke.com/detail/MjY4NTU5NTk=.html)
+- [2025最新广州买房条件（含限购要求）](https://gz.bendibao.com/life/20181220/246537.shtml)
 - [广州二手房交易流程笔记](https://news.qq.com/rain/a/HOS2021060900728700)

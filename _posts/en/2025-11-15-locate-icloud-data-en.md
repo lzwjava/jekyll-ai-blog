@@ -25,9 +25,9 @@ Here are the most reliable ways to figure out exactly where your iCloud data is 
    - If it ever shows “iCloud operated by GCBD” or mentions Guizhou-Cloud Big Data, it’s China (you won’t see this from Taiwan).
 
 3. **Check the iCloud data center partner notice (official Apple page)**
-   Apple publishes this list:  
-   https://support.apple.com/en-us/111754  
-   - Taiwan = “Apple” (global infrastructure)  
+   Apple publishes this list:
+   https://support.apple.com/en-us/111754
+   - Taiwan = “Apple” (global infrastructure)
    - China mainland = “Guizhou-Cloud Big Data”
 
 4. **Use Apple’s System Status page (indirect clue)**

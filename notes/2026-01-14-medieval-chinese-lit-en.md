@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the following figures in medieval Chinese poetry and prose (Jin, Tang, Song periods): Tao Yuanming, Li Bai, Du Fu, Han Yu, and Su Shi.
 
-Answer: 
+Answer:
 
 Here are comprehensive introductions to these five major figures in Chinese literary history, focusing on their lives, contributions to poetry and prose, key themes, and lasting influence during the relevant periods (Jin for Tao Yuanming; Tang for Li Bai, Du Fu, and Han Yu; Song for Su Shi).
 
@@ -53,7 +53,7 @@ Su excelled in shi poetry, revolutionized ci lyrics (founding the haofang or "he
 
 His versatile genius—blending humor, optimism, philosophy, and vivid description—made him a cultural icon. He influenced cuisine (Dongpo pork), travel literature, and arts. With ~2,700 poems and vast prose, Su Shi embodies Song creativity and resilience.
 
-References:  
+References:
 
 - [Tao Yuanming - Wikipedia](https://en.wikipedia.org/wiki/Tao_Yuanming)
 - [Li Bai - Wikipedia](https://en.wikipedia.org/wiki/Li_Bai)

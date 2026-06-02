@@ -21,7 +21,7 @@ The terms you mentioned—"JVM options," "suspend," "7777 socket," and "jdwp"—
 #### 2. **JDWP (Java Debug Wire Protocol)**
    - JDWP is the core protocol that allows a debugger to communicate with a JVM over a wire (network or local pipe). It's the foundation for remote debugging in Java.
    - To enable it, you use the JVM option `-agentlib:jdwp=...`, which loads the JDWP agent into the JVM at startup.
-   - Full example:  
+   - Full example:
      ```
      java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:7777 -jar your-app.jar
      ```
@@ -54,5 +54,5 @@ The terms you mentioned—"JVM options," "suspend," "7777 socket," and "jdwp"—
 
 For more details, check the official OpenJDK documentation on debugging.
 
-[Java Debugging with JDWP](https://docs.oracle.com/en/java/javase/21/docs/specs/jdwp-transport.html)  
+[Java Debugging with JDWP](https://docs.oracle.com/en/java/javase/21/docs/specs/jdwp-transport.html)
 [Enabling Remote Debugging](https://www.baeldung.com/java-debugging-with-intellij)

@@ -19,10 +19,10 @@ We disassembled the dishwasher and checked it, finding that some inner pipes had
 
 Finally, around 8 PM, it was good. This procedure reminded me of software development. In retrospect, these issues are natural and reasonable. They were just out of our expectations but followed the principles of material and time.
 
-{: .centered }  
-![](assets/images/dishwasher/d1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/dishwasher/d1.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/dishwasher/d2.jpg){: .responsive }  
+{: .centered }
+![](assets/images/dishwasher/d2.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }

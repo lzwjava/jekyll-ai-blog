@@ -26,12 +26,12 @@ $$
 
 Where:
 
-- **Q** — finite, non-empty set of **states**  
-- **Σ** — finite, non-empty set of **input symbols** (the alphabet)  
-- **δ** — transition function:  
-  δ : Q × Σ → Q  
-  (for each state and each input symbol there is **exactly one** next state — this is what makes it deterministic)  
-- **q₀** ∈ Q — the **start state** (initial state)  
+- **Q** — finite, non-empty set of **states**
+- **Σ** — finite, non-empty set of **input symbols** (the alphabet)
+- **δ** — transition function:
+  δ : Q × Σ → Q
+  (for each state and each input symbol there is **exactly one** next state — this is what makes it deterministic)
+- **q₀** ∈ Q — the **start state** (initial state)
 - **F** ⊆ Q — set of **accepting** (final) states
 
 ### How a DFA Works (Intuitive Explanation)
@@ -55,11 +55,11 @@ Where:
 
 ### Simple Example
 
-Alphabet: Σ = {0, 1}  
+Alphabet: Σ = {0, 1}
 Language: all binary strings that **end with 1**
 
-States:  
-- q₀ : haven't seen a 1 at the end yet  
+States:
+- q₀ : haven't seen a 1 at the end yet
 - q₁ : last symbol was 1 (accepting state)
 
 Transitions:
@@ -70,10 +70,10 @@ q₀ → q₀     q₁
 q₁ → q₀     q₁
 ```
 
-- q₀ = start state  
+- q₀ = start state
 - F = {q₁}
 
-Accepted strings: 1, 01, 001, 101, 111, 0001, …  
+Accepted strings: 1, 01, 001, 101, 111, 0001, …
 Rejected: ε (empty), 0, 00, 10, 000, …
 
 ### Comparison: DFA vs NFA (quick summary)

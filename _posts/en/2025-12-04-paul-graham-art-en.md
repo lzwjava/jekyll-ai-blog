@@ -12,7 +12,7 @@ type: note
 
 Question: Why did Paul Graham go to Italy to study painting, why did he give it up, what does painting mean to him, and what are his opinions about painting?
 
-Answer: 
+Answer:
 
 Paul Graham, the entrepreneur, essayist, and co-founder of Y Combinator, pursued painting as a serious passion after completing his PhD in computer science at Harvard in 1995. He went to Italy specifically to study at the Accademia di Belle Arti in Florence, drawn by the city's rich artistic heritage as the cradle of the Renaissance and a hub for classical training in painting. Florence represented an ideal environment for immersive, traditional art education, where he could learn techniques from the "old masters" in a place synonymous with innovation and excellence in visual arts. Graham has described this period as a deliberate pivot from the analytical world of computing to creative expression, viewing painting as a way to explore ideas beyond theoretical computation—he later noted that "painting has been a much richer source of ideas than the theory of computation." He enrolled despite logistical mishaps, such as the academy mistakenly sending his acceptance letter to Cambridge, UK, instead of Massachusetts, but he passed the entrance exam and immersed himself in the program for about a year.
 
@@ -22,9 +22,9 @@ To Graham, painting represents a profound tool for heightened awareness, curiosi
 
 Graham's opinions on painting are insightful and often comparative, especially in his essay "Hackers and Painters," where he argues that true painters (like hackers) are "makers" driven by curiosity and a desire to create beautiful, functional work, using paint as a medium for expression similar to code for programmers. He believes great painting, as in 15th-century Florence, thrived because artists believed in objective standards of quality and aimed to make things that were both innovative and skillfully executed—factors enabled by the city's wealth, sophistication, and pre-photography economics. In contrast, he critiques modern art for abandoning these ideals, claiming that declaring "taste is subjective" undermines the possibility of "good art" altogether, allowing mediocrity to flourish under the guise of personal vision. Learning to paint, he asserts, happens through relentless practice—sketching, experimenting, and iterating—not formal courses, a lesson he applies to hacking and writing. Overall, he views painting as a richer, more human pursuit than abstract theory, one that rewards those who pursue excellence amid constraints, and he regrets only that contemporary institutions often stifle this spirit.
 
-References:  
-- [Hackers and Painters](https://www.paulgraham.com/hp.html)  
-- [How Art Can Be Good](https://paulgraham.com/goodart.html)  
-- [Paul Graham - "Hackers and Painters" - The Artian](https://theartian.com/paul-graham-hackers-and-painters/)  
-- [Retire In Progress - The Almanack of Paul Graham](https://retireinprogress.com/the-almanack-of-paul-graham/)  
+References:
+- [Hackers and Painters](https://www.paulgraham.com/hp.html)
+- [How Art Can Be Good](https://paulgraham.com/goodart.html)
+- [Paul Graham - "Hackers and Painters" - The Artian](https://theartian.com/paul-graham-hackers-and-painters/)
+- [Retire In Progress - The Almanack of Paul Graham](https://retireinprogress.com/the-almanack-of-paul-graham/)
 - [Studying painting in Florence (channelling my inner Paul Graham)](https://swunicorn.substack.com/p/painting-at-an-atelier-in-florence)

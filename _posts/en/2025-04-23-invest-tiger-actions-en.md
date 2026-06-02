@@ -102,7 +102,7 @@ on:
   schedule:
     - cron: '35 14 * * 3'  # Run every Wednesday at 14:35 UTC
   workflow_dispatch:
-    
+
 concurrency:
   group: 'trading'
   cancel-in-progress: false
@@ -120,22 +120,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 5
-          
+
       - name: Set up Python 3.13.2
         uses: actions/setup-python@v4
         with:
           python-version: "3.13.2"
-          
+
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       - name: Setup Tiger PEM File
         run: |
           echo "${{ secrets.TIGER_PEM_CONTENT }}" > tiger.pem
           chmod 600 tiger.pem
-          
+
       - name: Run Tiger Script
         id: tiger_update
         run: python invest.py

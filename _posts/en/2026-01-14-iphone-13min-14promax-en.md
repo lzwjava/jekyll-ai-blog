@@ -12,7 +12,7 @@ type: note
 
 Question: How large is the iPhone 13 mini, and how does it compare to the iPhone 14 Pro Max? Is it okay to hold and use with one hand? What's the user feedback?
 
-Answer: 
+Answer:
 
 The **iPhone 13 mini** is one of Apple's most compact modern iPhones.
 
@@ -42,7 +42,7 @@ In comparison, the **iPhone 14 Pro Max** is significantly larger and heavier:
 
 Overall, if one-handed use and compactness are priorities, the iPhone 13 mini excels and feels much more manageable than the iPhone 14 Pro Max.
 
-References:  
+References:
 
 - [Apple iPhone 13 mini Technical Specifications](https://support.apple.com/en-us/111873)
 - [Apple iPhone 14 Pro Max Technical Specifications](https://support.apple.com/en-us/111846)

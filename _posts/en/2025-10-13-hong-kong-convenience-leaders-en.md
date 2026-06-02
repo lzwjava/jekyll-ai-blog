@@ -14,7 +14,7 @@ In Hong Kong, the major convenience store chains are **7-Eleven**, **Circle K**,
 
 They're ubiquitous for quick grabs like snacks, drinks, groceries, SIM cards, alcohol, and cigarettes, often open 24/7.
 
-[Hong Kong Convenience Retailers Market Report 2025](https://uk.finance.yahoo.com/news/hong-kong-convenience-retailers-market-104300147.html)  
-[Number of leading convenience stores in Hong Kong 2023](https://www.statista.com/statistics/755067/hong-kong-number-of-convenience-stores/)  
-[759 Store - Wikipedia](https://en.wikipedia.org/wiki/759_Store)  
+[Hong Kong Convenience Retailers Market Report 2025](https://uk.finance.yahoo.com/news/hong-kong-convenience-retailers-market-104300147.html)
+[Number of leading convenience stores in Hong Kong 2023](https://www.statista.com/statistics/755067/hong-kong-number-of-convenience-stores/)
+[759 Store - Wikipedia](https://en.wikipedia.org/wiki/759_Store)
 [7-Eleven vs. Circle K in Hong Kong](https://khwongk12.medium.com/7-eleven-vs-circle-k-5964b8f008e4)

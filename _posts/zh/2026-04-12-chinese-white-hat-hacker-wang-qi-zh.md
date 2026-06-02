@@ -43,9 +43,9 @@ type: note
 
 王琦的工作助力提升了消费级与企业级软件的安全性，他的团队也影响了全球漏洞赏金与漏洞披露文化的形成。有关他的信息主要来源于2014年至2017年左右的访谈与报道；近年来他虽保持较低公众曝光度，但仍活跃于安全行业。
 
-参考资料：  
-- https://zhuanlan.zhihu.com/p/24461529  
-- https://www.yicai.com/news/4702043.html  
-- https://baike.baidu.com/item/Keen%20Team/12696729  
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html  
+参考资料：
+- https://zhuanlan.zhihu.com/p/24461529
+- https://www.yicai.com/news/4702043.html
+- https://baike.baidu.com/item/Keen%20Team/12696729
+- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
 - https://www.vice.com/en/article/meet-the-keen-team/

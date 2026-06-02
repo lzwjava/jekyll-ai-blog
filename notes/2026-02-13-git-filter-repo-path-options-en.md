@@ -78,16 +78,16 @@ git filter-repo --path-glob '*/secrets/*' --invert-paths --force
 
 ### Important flags almost everyone uses with filter-repo
 
-- `--force`  
+- `--force`
   Required after you already ran filter-repo once in the same clone
 
-- `--dry-run`  
+- `--dry-run`
   Show what would be done without actually rewriting anything
 
-- `--analyze`  
+- `--analyze`
   Useful before first run — shows biggest files, biggest commits, path statistics
 
-- `--target <directory>`  
+- `--target <directory>`
   Write filtered result into a separate directory instead of overwriting current repo
 
 ### Quick mental model

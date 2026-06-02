@@ -19,11 +19,11 @@ Store your token as a Jenkins credential, then use it in your pipeline:
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         NPM_TOKEN = credentials('npm-registry-token') // ID of your Jenkins credential
     }
-    
+
     stages {
         stage('Install Dependencies') {
             steps {

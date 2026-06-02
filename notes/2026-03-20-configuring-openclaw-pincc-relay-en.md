@@ -11,7 +11,7 @@ type: note
 
 Question: How do I configure OpenClaw to use a Claude relay service like https://v2-as.pincc.ai/ (a PinCC relay), while currently using OpenRouter? The config doesn't have a "models" section, and it uses an "auth" section with profiles like "openrouter:default".
 
-Answer: 
+Answer:
 
 In recent versions of OpenClaw (as of March 2026), authentication credentials are managed separately from the main configuration file through **auth profiles** (typically stored in `~/.openclaw/auth-profiles.json` or per-agent in `~/.openclaw/agents/<agent>/agent/auth-profiles.json`). The main `~/.openclaw/openclaw.json` file references these profiles but does **not** store the actual API keys/tokens directly for security reasons.
 
@@ -21,7 +21,7 @@ For custom relays/proxies like PinCC (Anthropic-compatible), you **must** define
 
 ### Recommended Configuration Steps
 
-**Step 1 — Add the auth profile reference for PinCC (optional but recommended)**  
+**Step 1 — Add the auth profile reference for PinCC (optional but recommended)**
 Since PinCC is a custom provider, you can define a named auth profile for it in `openclaw.json` under `"auth.profiles"`. This keeps credential management consistent.
 
 Add or merge this into your existing `auth` section:
@@ -49,7 +49,7 @@ openclaw auth set pincc:default --key "YOUR_PINCC_API_TOKEN_HERE"
 
 If you skip this and use inline `apiKey` in the provider block (below), OpenClaw will still work, but using profiles is more secure and aligns with how OpenRouter is handled.
 
-**Step 2 — Add the PinCC custom provider in the `models` section**  
+**Step 2 — Add the PinCC custom provider in the `models` section**
 Create or extend the `models` block in `~/.openclaw/openclaw.json`. Use `mode: "merge"` to preserve built-in providers (including OpenRouter).
 
 ```json
@@ -89,7 +89,7 @@ Create or extend the `models` block in `~/.openclaw/openclaw.json`. Use `mode: "
 }
 ```
 
-**Step 3 — Set PinCC as primary (with OpenRouter fallback)**  
+**Step 3 — Set PinCC as primary (with OpenRouter fallback)**
 Update the agent defaults:
 
 ```json
@@ -105,17 +105,17 @@ Update the agent defaults:
 }
 ```
 
-**Step 4 — Validate, restart, and test**  
-- Validate JSON: `python3 -m json.tool ~/.openclaw/openclaw.json`  
-- Restart: `openclaw restart` (or `sudo systemctl restart openclaw` if running as service)  
-- List models: `openclaw models list` — look for `pincc/...` entries  
+**Step 4 — Validate, restart, and test**
+- Validate JSON: `python3 -m json.tool ~/.openclaw/openclaw.json`
+- Restart: `openclaw restart` (or `sudo systemctl restart openclaw` if running as service)
+- List models: `openclaw models list` — look for `pincc/...` entries
 - Direct relay test (as before): use curl against `https://v2-as.pincc.ai/v1/messages` with your token and `"anthropic-version": "2023-06-01"` header.
 
 This approach works because custom providers require explicit `models.providers` definitions, while built-ins like OpenRouter rely only on auth profiles + model references like `openrouter/...`.
 
 If you encounter validation errors (e.g., unrecognized keys), check OpenClaw logs or run `openclaw doctor`. For the latest schema details, refer to the official configuration reference.
 
-References:  
+References:
 
 - [OpenClaw Configuration Reference](https://docs.openclaw.ai/gateway/configuration)
 - [OpenClaw Model Providers Documentation](https://docs.openclaw.ai/concepts/model-providers)

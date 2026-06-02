@@ -46,7 +46,7 @@ Ive 的方法从 Dieter Rams 的“少即是多（less but better）”原则中
 ### 荣誉与认可
 Ive 获得了无数荣誉，包括 2012 年被授予爵士勋衔（KBE）、Royal Designer for Industry 称号、Oxford 和 Cambridge 等大学的荣誉博士学位，以及 Design Museum 的年度设计师（2003年）等奖项。
 
-References:  
+References:
 
 - [Jony Ive - Wikipedia](https://en.wikipedia.org/wiki/Jony_Ive)
 - [Jony Ive | Biography, Apple, LoveFrom, & Facts | Britannica](https://www.britannica.com/money/Jony-Ive)

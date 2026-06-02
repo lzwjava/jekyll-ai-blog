@@ -33,11 +33,11 @@ def xor_divide(dividend: str, divisor: str) -> str:
 def crc_calculate(message: str, generator: str) -> tuple[str, str]:
     """
     Calculate CRC remainder and return the transmitted frame.
-    
+
     Args:
         message:   Original information bits, e.g. '10110110'
         generator: Generator polynomial bits, e.g. '11001'
-    
+
     Returns:
         (crc_bits, transmitted_frame)
     """
@@ -68,11 +68,11 @@ def crc_verify(received: str, generator: str) -> bool:
     """
     Verify a received frame by dividing it by the generator.
     Remainder == 0...0 means no error detected.
-    
+
     Args:
         received:  The full received frame (message + CRC bits)
         generator: Generator polynomial bits
-    
+
     Returns:
         True if no error detected, False otherwise
     """

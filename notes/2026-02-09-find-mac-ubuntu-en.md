@@ -12,7 +12,7 @@ type: note
 
 Question: How to find the MAC address on an Ubuntu computer?
 
-Answer: 
+Answer:
 
 The easiest and most modern way to find the **MAC address** (also called hardware address or physical address) on Ubuntu is using the `ip` command in the terminal. This works on current Ubuntu versions (including 22.04, 24.04, and later in 2026).
 
@@ -80,7 +80,7 @@ The easiest and most modern way to find the **MAC address** (also called hardwar
 ### Quick Tip for Wake-on-LAN
 If you're finding the MAC for WOL (like in your original test steps), use the wired Ethernet interface MAC (not Wi-Fi), as Wake-on-LAN typically only works over Ethernet.
 
-References:  
+References:
 
 - [https://itsfoss.com/find-mac-address-linux](https://itsfoss.com/find-mac-address-linux)
 - [https://askubuntu.com/questions/628383/output-only-mac-address-on-ubuntu](https://askubuntu.com/questions/628383/output-only-mac-address-on-ubuntu)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why does a 1-year-old child easily vomit during car trips, even on trips under one hour?
 
-Answer: 
+Answer:
 
 Yes, it is possible and not uncommon for a **1-year-old** to experience **motion sickness** (car sickness) and vomit during car rides—even short ones under one hour. While most sources say motion sickness is **less common** in infants and toddlers under 2 compared to children aged 2–12 (who are most prone), some babies and 1-year-olds do develop it, especially if they are particularly sensitive.
 
@@ -42,7 +42,7 @@ Many parents report improvement as the child grows (often after 2–4 years), an
 
 If vomiting happens almost every time—even very short rides—or is accompanied by other concerns (persistent crying, unusual behavior, or signs of illness), consult a pediatrician to rule out other causes (like reflux, ear problems, or allergies). In severe cases, doctors sometimes suggest specific evaluations or safe options, but most medications (like dimenhydrinate/Dramamine) are not recommended under age 2.
 
-References:  
+References:
 
 - [Mayo Clinic - Car sickness in children](https://www.mayoclinic.org/healthy-lifestyle/childrens-health/expert-answers/car-sickness-in-children/faq-20057876)
 - [Ask Dr Sears - Infant Carsickness and How to Avoid It](https://www.askdrsears.com/news/sears-family-blog/carsick-infant)

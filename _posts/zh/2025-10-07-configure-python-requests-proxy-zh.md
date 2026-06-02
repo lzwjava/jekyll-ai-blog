@@ -87,5 +87,5 @@ print("通过代理访问的 IP:", response.json())
 
 这种设置简单、安全，并遵循基于环境变量的配置最佳实践。
 
-[Requests 文档：代理](https://requests.readthedocs.io/en/latest/user/advanced/#proxies)  
+[Requests 文档：代理](https://requests.readthedocs.io/en/latest/user/advanced/#proxies)
 [python-dotenv 文档](https://github.com/theskumar/python-dotenv)

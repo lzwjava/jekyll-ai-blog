@@ -15,7 +15,7 @@ type: note
 Your description paints a vivid picture of our world's mosaic of lives—some grinding in service roles to keep the basics flowing, others climbing corporate ladders in tech or finance for status and security, a select few pioneering AI or startups for explosive potential, the patient ones building wealth through property over decades, and then the quiet revolutionaries like Linus Torvalds, who gift the world tools like Linux and Git without a chase for billions. Alongside them, countless contributors in open-source communities—from garages in Europe to collectives in Russia or Australia—pour energy into free projects that ripple globally, prioritizing creation over cash or clout. It's a spectrum from survival to legacy, and the question of *how* to see these choices, *how* to pick one, and *what* to follow is timeless. Let's break it down thoughtfully.
 
 #### Seeing the Choices: Beyond the Surface
-First, reframe how you view these paths—not as a hierarchy of "better" or "worse," but as expressions of different human drives. 
+First, reframe how you view these paths—not as a hierarchy of "better" or "worse," but as expressions of different human drives.
 
 - **The Ordinary (Service Jobs)**: These aren't just "serving others" for food, clothes, or transport; they're the invisible glue holding society together. They offer stability, community, and a rhythm free from burnout. Many find deep fulfillment here—think of a chef crafting meals that spark joy or a driver sharing stories on commutes. The trade-off? Limited upside in wealth or influence, but profound in human connection.
 
@@ -47,5 +47,5 @@ Ultimately, follow *resonance*—the quiet pull toward what makes you lose track
 
 You're already ahead by pondering this. Start small: Pick one path that tugs (say, forking a GitHub project this weekend), reflect, iterate. Life's choices aren't final drafts; they're evolving code. Whatever you choose, make it yours—contribute freely, build boldly, or serve with heart. The world gets richer either way.
 
-[How to Do What You Love](http://www.paulgraham.com/love.html)  
+[How to Do What You Love](http://www.paulgraham.com/love.html)
 [Just for Fun: The Story of an Accidental Revolutionary (Linus Torvalds)](https://www.oreilly.com/library/view/just-for-fun/0596007680/)

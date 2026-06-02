@@ -17,7 +17,7 @@ type: note
 
 以下是截至2026年初最突出和最新的排名：
 
-**Numbeo 生活质量指数（2026年数据，众包且广泛引用）**  
+**Numbeo 生活质量指数（2026年数据，众包且广泛引用）**
 这是国家整体生活质量最全面且经常更新的指数之一。
 
 前10名国家：
@@ -34,7 +34,7 @@ type: note
 
 （注：一些2025年中基于Numbeo的报告将卢森堡或荷兰排名略有不同，但最新的2026年数据表明荷兰位居榜首。）
 
-**U.S. News & World Report 最佳生活质量国家（最近排名）**  
+**U.S. News & World Report 最佳生活质量国家（最近排名）**
 这一基于感知的排名强调就业市场、可负担性、家庭友好度、收入平等和政治稳定等因素。
 
 前几名国家：
@@ -48,7 +48,7 @@ type: note
 
 欧洲国家（尤其是北欧和西欧国家）由于强大的社会体系、安全、医疗和低污染水平，在大多数生活质量排名中始终占据主导地位。
 
-参考资料：  
+参考资料：
 
 - [Numbeo Quality of Life Index by Country 2026](https://www.numbeo.com/quality-of-life/rankings_by_country.jsp)
 - [U.S. News Best Countries for Quality of Life](https://www.usnews.com/news/best-countries/rankings/quality-of-life)

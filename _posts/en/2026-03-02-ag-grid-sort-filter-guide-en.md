@@ -11,7 +11,7 @@ type: note
 
 Question: How to use filterable and sortable features in AG Grid?
 
-Answer: 
+Answer:
 
 In **AG Grid**, making columns **sortable** and **filterable** is controlled mainly through properties in your `columnDefs` (or `defaultColDef` for global defaults).
 
@@ -20,26 +20,26 @@ In **AG Grid**, making columns **sortable** and **filterable** is controlled mai
 ```ts
 // Example in TypeScript / JavaScript (React, Angular, Vue, Vanilla – all similar)
 const columnDefs = [
-  { 
-    field: 'name', 
+  {
+    field: 'name',
     headerName: 'Full Name',
     sortable: true,          // enables sorting (click header to sort)
     filter: true             // enables filtering (usually Text filter by default)
   },
-  { 
-    field: 'age', 
+  {
+    field: 'age',
     headerName: 'Age',
     sortable: true,
     filter: 'agNumberColumnFilter'  // Number filter (better for numbers)
   },
-  { 
-    field: 'country', 
+  {
+    field: 'country',
     headerName: 'Country',
     sortable: false,         // sorting disabled
     filter: 'agSetColumnFilter'     // Set filter (Excel-like list of values)
   },
-  { 
-    field: 'city', 
+  {
+    field: 'city',
     sortable: true,
     filter: false            // filtering disabled
   }
@@ -115,7 +115,7 @@ const gridOptions = {
 - Need custom filter logic? → Create custom filter component
 - Using **React/Angular/Vue**? → Syntax is almost identical (just wrap in component)
 
-References:  
+References:
 
 - [AG Grid Row Sorting](https://www.ag-grid.com/javascript-data-grid/row-sorting)
 - [AG Grid Column Filters](https://www.ag-grid.com/javascript-data-grid/filtering)

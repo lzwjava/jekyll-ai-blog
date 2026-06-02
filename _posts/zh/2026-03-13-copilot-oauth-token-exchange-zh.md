@@ -298,7 +298,7 @@ if __name__ == "__main__":
 - [B00TK1D/copilot-api — api.py reference implementation](https://github.com/B00TK1D/copilot-api/blob/main/api.py)
 - [Erick Christian's blog — Reverse engineering Copilot API](https://ericc-ch.github.io/blog/reverse-engineering-copilot-api/)
 - [LiteLLM — GitHub Copilot provider docs](https://docs.litellm.ai/docs/providers/github_copilot)
-- [GitHub Docs — Authenticating Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli) 
+- [GitHub Docs — Authenticating Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)
 
 ---
 

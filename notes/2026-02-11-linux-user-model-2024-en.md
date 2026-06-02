@@ -12,7 +12,7 @@ type: note
 
 Question: Is the traditional Linux user and group design outdated for a personal laptop used by only one person? For a single-user setup, is it sufficient to have just one normal user, one group, and root? Should services like nginx run as the normal user or as root?
 
-Answer: 
+Answer:
 
 The classic multi-user/group model in Linux isn't really **outdated** — it's still the foundation of security even in 2026 — but you're right that on a **personal laptop** with only one human user the practical benefit of many separate users and groups becomes much smaller.
 
@@ -71,7 +71,7 @@ But **running important network-facing services (nginx, databases, etc.) as root
 
 The old multi-user model isn't dead — it's just that on personal machines most of the **human** users disappeared, while **system/service** users became even more important.
 
-References:  
+References:
 
 - [How to Run NGINX for Root & Non-Root Users](https://support.tools/nginx-root-non-root)
 - [Is it a security risk to run master process of nginx as root?](https://security.stackexchange.com/questions/202861/is-it-a-security-risk-to-run-master-process-of-nginx-as-root)

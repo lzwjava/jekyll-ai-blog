@@ -120,7 +120,7 @@ IO80211_driverkit-1345.8 "IO80211_driverkit-1345.8" Nov  9 2024 17:02:32
               Signal / Noise: -47 dBm / -90 dBm
               Transmit Rate: 866
               MCS Index: 9
-```              
+```
 
 ### Signal/Noise
 

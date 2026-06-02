@@ -12,7 +12,7 @@ type: note
 
 Question: Why has my IELTS listening score remained stuck at 6 despite 3 years in an English-speaking global company environment, and how does using Zoom captions affect my listening improvement, especially with Indian accents? Is the brain truly "magic" in adapting over time with this method?
 
-Answer: 
+Answer:
 
 Your experience is quite common among non-native English speakers in professional settings, and your observation about the brain's adaptability has some truth to it, supported by research on second language acquisition.
 
@@ -56,7 +56,7 @@ Your Paul Graham essay story is spot-on: active lookup (dictionary hunts) built 
 
 Overall, your captions strategy isn't holding you back — it's likely contributing to slow but real improvement. The brain does adapt with time and the right support, just like vocab grew through persistent lookups. Keep the captions as a tool, but gradually challenge yourself without them to break the plateau.
 
-References:  
+References:
 
 - [Video Captions Benefit Everyone - PMC - NIH](https://pmc.ncbi.nlm.nih.gov/articles/PMC5214590)
 - [A New Starring Role for Video Captions: Language Learning - Maryland Today](https://today.umd.edu/a-new-starring-role-video-captions-language-learning)

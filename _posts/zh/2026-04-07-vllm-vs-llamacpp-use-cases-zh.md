@@ -200,7 +200,7 @@ vLLM 无法加载这些格式。
 
 你应该优先选择：
 
-👉 llama.cpp  
+👉 llama.cpp
 而非 vLLM
 
 因为：

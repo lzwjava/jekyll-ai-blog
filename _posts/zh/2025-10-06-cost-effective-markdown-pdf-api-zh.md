@@ -66,6 +66,6 @@ type: note
 
 新用户可注册享受300美元免费试用额度。通过结算仪表板监控费用。
 
-[Cloud Run定价](https://cloud.google.com/run/pricing)  
-[GCP区域指南](https://www.cloudzero.com/blog/gcp-regions/)  
+[Cloud Run定价](https://cloud.google.com/run/pricing)
+[GCP区域指南](https://www.cloudzero.com/blog/gcp-regions/)
 [Cloud Run快速入门](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)

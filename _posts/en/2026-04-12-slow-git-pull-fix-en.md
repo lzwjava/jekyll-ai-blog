@@ -64,7 +64,7 @@ Common reasons for this slowness on a DMIT LA node + proxy:
 
 In summary: **No, this speed is not right** — it's abnormally slow and worth troubleshooting. The DMIT LA node itself should support much higher throughput; the proxy or Git configuration is the most likely culprit here. Try the steps above and see if speeds improve to MB/s range.
 
-References:  
-- GitHub community discussions on slow downloads (various reports of <100 KiB/s through proxies or bad routing)  
-- Stack Overflow threads on GitHub slow clones and proxy impacts  
+References:
+- GitHub community discussions on slow downloads (various reports of <100 KiB/s through proxies or bad routing)
+- Stack Overflow threads on GitHub slow clones and proxy impacts
 - General reports of Git HTTPS vs SSH speed differences

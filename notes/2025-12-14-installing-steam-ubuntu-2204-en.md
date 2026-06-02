@@ -12,7 +12,7 @@ type: note
 
 Question: How to install Steam on Ubuntu 22.04?
 
-Answer: 
+Answer:
 
 There are several ways to install Steam on Ubuntu 22.04 LTS. The most recommended methods are using the official `.deb` package from Valve (for the latest version) or via the Snap package (easy and contained). The APT method from Ubuntu's multiverse repository works but may provide an older installer.
 
@@ -76,7 +76,7 @@ This installs an older Steam launcher from the multiverse repo.
 - On first run, Steam downloads additional runtime files.
 - If issues arise with dependencies, run `sudo apt install -f`.
 
-References:  
+References:
 
 - [Official Steam Download Page](https://store.steampowered.com/about/) (source of steam.deb)
 - [Ubuntu Packages: steam](https://packages.ubuntu.com/jammy/steam)

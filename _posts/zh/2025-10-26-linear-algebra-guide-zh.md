@@ -68,5 +68,5 @@ type: note
 
 **快速验证提示**：始终对 [A - λI | 0] 进行行化简以求得特征空间；若 n≤3 则通过展开检查行列式。
 
-[线性代数速查表 - 索引公式](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)  
+[线性代数速查表 - 索引公式](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)
 [自测 02198 复习](https://doc.quark.cn/preview/jiaoyukaoshi-shijuan-gaokao/1130FC966EE595249D3822AFF5DF0167)

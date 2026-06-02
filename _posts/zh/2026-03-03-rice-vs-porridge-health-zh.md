@@ -18,26 +18,26 @@ type: note
 然而，**形式** 对健康影响有显著差异。这里是清晰比较：
 
 ### 关键差异
-- **Glycemic Index (GI) / Blood Sugar Impact**  
-  粥有**更高的 GI** 比蒸米饭。  
-  长时间烹饪 + 高水分更多分解淀粉（更大的糊化），使其消化和吸收更快 → 血糖更快上升。  
-  蒸米饭保持谷粒更完整 → 消化更慢 → 血糖更稳定。  
+- **Glycemic Index (GI) / Blood Sugar Impact**
+  粥有**更高的 GI** 比蒸米饭。
+  长时间烹饪 + 高水分更多分解淀粉（更大的糊化），使其消化和吸收更快 → 血糖更快上升。
+  蒸米饭保持谷粒更完整 → 消化更慢 → 血糖更稳定。
   → 如果在意血糖控制（糖尿病、胰岛素抵抗，或避免能量崩溃/峰值），米饭形式明显更好。
 
-- **Digestion & Stomach Comfort**  
-  粥对胃**更容易且温和得多**——生病时、手术后、老人、消化弱或敏感肠道理想。  
+- **Digestion & Stomach Comfort**
+  粥对胃**更容易且温和得多**——生病时、手术后、老人、消化弱或敏感肠道理想。
   米饭形式需要更多咀嚼和胃部工作 → 对健康消化更好，但感觉“更重”。
 
-- **Satiety (Fullness) & Eating Behavior**  
-  粥体积大得多 → 初始饱腹感更强，但因消化快，饥饿往往更快返回。  
-  许多人选择粥时无意识吃更多总米量（以感到满足） → 可能导致长期热量摄入更高。  
+- **Satiety (Fullness) & Eating Behavior**
+  粥体积大得多 → 初始饱腹感更强，但因消化快，饥饿往往更快返回。
+  许多人选择粥时无意识吃更多总米量（以感到满足） → 可能导致长期热量摄入更高。
   蒸米饭通常导致份量更可控。
 
-- **Weight Management**  
-  同样米量 → 热量相似。  
-  但粥形式往往对体重控制更差，因为：  
-  - 更快血糖峰值 → 更强胰岛素反应 → 更多脂肪储存潜力  
-  - 更快饥饿返回 → 零食或下一餐吃更多风险  
+- **Weight Management**
+  同样米量 → 热量相似。
+  但粥形式往往对体重控制更差，因为：
+  - 更快血糖峰值 → 更强胰岛素反应 → 更多脂肪储存潜力
+  - 更快饥饿返回 → 零食或下一餐吃更多风险
   → 米饭形式通常对长期体重控制更好。
 
 ### Quick Summary Table
@@ -61,7 +61,7 @@ type: note
 
 如果吃粥，选择杂粮版本（添加燕麦、糙米、大麦、豆类）以降低 GI 并改善营养。
 
-参考文献：  
+参考文献：
 
 - [HealthXchange.sg on GI of rice vs porridge](https://www.healthxchange.sg/how-to-manage/type-2-diabetes-mellitus/diabetes-glycaemic-index-know)
 - [PMC study on cooking time and glycemic index of rice](https://pmc.ncbi.nlm.nih.gov/articles/PMC11720369)

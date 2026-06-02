@@ -29,8 +29,8 @@ type: post
 
 这将渲染带有指定类的图片：
 
-{: .centered }  
-![](assets/images/pin/pin.jpg){: .responsive }  
+{: .centered }
+![](assets/images/pin/pin.jpg){: .responsive }
 *来源: Telegram*{: .caption }
 
 ## 目录

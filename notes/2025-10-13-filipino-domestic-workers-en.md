@@ -40,9 +40,9 @@ To "see" this dynamic firsthand or through real-world examples, focus on urban c
 
 This scene repeats globally: Think Indian IT workers in Silicon Valley vs. Mexican caregivers in US suburbs, or Ukrainian engineers in Berlin amid Eastern European labor migration. It's the flip side of globalization—wealthy nations "outsource" drudgery while hoarding prestige jobs. To dive deeper, visit during peak migration seasons (post-holidays) or follow X/Twitter hashtags like #OFWLife or #HKMaids.
 
-[Filipino Domestic Workers: The Invisible Workforce](https://igg-geo.org/en/2024/02/12/fili/)  
-[Life for the Philippines' Migrant Domestic Workers](https://borgenproject.org/migrant-domestic-workers/)  
-[Philippines vs Singapore Education Stats Compared](https://www.nationmaster.com/country-info/compare/Philippines/Singapore/Education)  
-[Hong Kong vs Philippines Economy Stats Compared](https://www.nationmaster.com/country-info/compare/Hong-Kong/Philippines/Economy/table)  
-['That one day is all you have': how Hong Kong's domestic workers fight back](https://www.theguardian.com/cities/2017/mar/10/sunday-sit-in-inside-hong-kong-weekly-domestic-worker-resistance)  
+[Filipino Domestic Workers: The Invisible Workforce](https://igg-geo.org/en/2024/02/12/fili/)
+[Life for the Philippines' Migrant Domestic Workers](https://borgenproject.org/migrant-domestic-workers/)
+[Philippines vs Singapore Education Stats Compared](https://www.nationmaster.com/country-info/compare/Philippines/Singapore/Education)
+[Hong Kong vs Philippines Economy Stats Compared](https://www.nationmaster.com/country-info/compare/Hong-Kong/Philippines/Economy/table)
+['That one day is all you have': how Hong Kong's domestic workers fight back](https://www.theguardian.com/cities/2017/mar/10/sunday-sit-in-inside-hong-kong-weekly-domestic-worker-resistance)
 [Carving through Rigid Space: Filipina Domestic Workers at Statue Square](https://www.mcgill.ca/race-space/article/arch-355/carving-through-rigid-space-filipina-domestic-workers-statue-square-hong-kong)

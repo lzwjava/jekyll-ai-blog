@@ -11,7 +11,7 @@ type: note
 
 Question: In the given Ethernet topology (as shown in Figure 28) with the current switch forwarding table (as shown in Table 28), host 00-e1-d5-00-23-a1 sends a data frame to host 00-e1-d5-00-23-c1. After receiving the frame, host 00-e1-d5-00-23-c1 sends an acknowledgment frame back to host 00-e1-d5-00-23-a1. Please answer: (1) Which ports does the switch forward the data frame and the acknowledgment frame to, respectively? (2) Based on the process described, draw the updated switch forwarding table.
 
-Answer: 
+Answer:
 
 Since the problem refers to "Figure 28" and "Table 28" which are not provided in the text, I can only give the most common and typical analysis pattern for this type of question. The following answer assumes a very common topology and initial table used in Chinese university network courses (especially in the 408 exam or similar exercises). If your actual figure/table is different, the conclusion may differ.
 
@@ -35,19 +35,19 @@ Since the problem refers to "Figure 28" and "Table 28" which are not provided in
 
 **(1) Forwarding ports of the switch**
 
-- When host A (…-a1) sends a data frame to host C (…-c1):  
-  → Destination MAC = 00-e1-d5-00-23-c1  
-  → At this time, the switch forwarding table **does not have an entry for …-c1** (very common in such questions)  
-  → The switch performs **flooding** → forwards the frame out of **all ports except the incoming port (port 1)**  
+- When host A (…-a1) sends a data frame to host C (…-c1):
+  → Destination MAC = 00-e1-d5-00-23-c1
+  → At this time, the switch forwarding table **does not have an entry for …-c1** (very common in such questions)
+  → The switch performs **flooding** → forwards the frame out of **all ports except the incoming port (port 1)**
   → So the data frame is forwarded to **ports 2, 3, 4** (commonly port 3 reaches host C)
 
-- When host C (…-c1) sends the ACK frame back to host A (…-a1):  
-  → Destination MAC = 00-e1-d5-00-23-a1  
-  → The switch already has the entry …-a1 → port 1 (learned when A sent the first frame)  
+- When host C (…-c1) sends the ACK frame back to host A (…-a1):
+  → Destination MAC = 00-e1-d5-00-23-a1
+  → The switch already has the entry …-a1 → port 1 (learned when A sent the first frame)
   → So the switch **unicasts** → forwards only to **port 1**
 
-**Answer to (1):**  
-Data frame: forwarded to ports **2, 3, 4** (flooding)  
+**Answer to (1):**
+Data frame: forwarded to ports **2, 3, 4** (flooding)
 Acknowledgment frame: forwarded to port **1** (unicast)
 
 **(2) Updated switch forwarding table**
@@ -66,8 +66,8 @@ Updated forwarding table (most common final state):
 
 ```
 MAC address             VLAN    Port    Type    Age
-00-e1-d5-00-23-a1              1       dynamic 
-00-e1-d5-00-23-c1              3       dynamic 
+00-e1-d5-00-23-a1              1       dynamic
+00-e1-d5-00-23-c1              3       dynamic
 (possibly other entries remain unchanged)
 ```
 
@@ -80,6 +80,6 @@ MAC address             VLAN    Port    Type    Age
 
 If your actual Figure 28 or Table 28 is significantly different (e.g., multiple switches, hosts on different ports, already has …-c1 entry, etc.), please provide the topology and initial table content, and I can give a more precise answer.
 
-References:  
+References:
 
 - None (answer based on standard Ethernet switch self-learning behavior and common patterns in Chinese computer network exam questions)

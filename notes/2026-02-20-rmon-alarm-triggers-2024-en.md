@@ -11,7 +11,7 @@ type: note
 
 Question: When an alarm event is generated at the console, it is caused by network performance metrics in the network device exceeding the ______ defined by the RMON alarm group.
 
-Answer: 
+Answer:
 
 **Correct Option: C**
 
@@ -38,6 +38,6 @@ The Alarm Group is designed to periodically take statistical samples from variab
 **Conclusion:**
 An alarm event is generated at the console when network performance metrics exceed the **threshold** (门限值) defined by the RMON alarm group.
 
-References:  
+References:
 
 - [RFC 2819 - Remote Network Monitoring Management Information Base](https://datatracker.ietf.org/doc/html/rfc2819)

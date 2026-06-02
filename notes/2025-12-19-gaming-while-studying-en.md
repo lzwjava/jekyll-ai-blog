@@ -12,7 +12,7 @@ type: note
 
 Question: Does playing games and studying at the same time have good benefits, such as using waiting times in mobile games (like PUBG Mobile waiting for enemies) to study, making it easier to learn even boring or difficult material due to the distraction from the game?
 
-Answer: 
+Answer:
 
 Using downtime in games to study can have some practical benefits, but combining active gaming and serious studying simultaneously has limited advantages and potential drawbacks. Let's break it down clearly.
 
@@ -43,7 +43,7 @@ Using downtime in games to study can have some practical benefits, but combining
 ### Conclusion
 Yes, there are some benefits—mainly making use of unavoidable downtime and leveraging game motivation to tackle boring material in small doses. It can work well for light review or memorization during true idle moments. However, it is not an efficient way to study difficult or deep topics, and active simultaneous gaming + studying usually harms more than helps. The most effective approach is intentional time management: use game waiting periods for quick reviews if they are truly passive, but separate focused study from active gameplay for best results.
 
-References:  
+References:
 
 - [American Psychological Association on multitasking](https://www.apa.org/topics/multitasking)
 - [Stanford study on media multitasking and cognitive performance](https://news.stanford.edu/news/2009/august24/multitask-research-study-082409.html)

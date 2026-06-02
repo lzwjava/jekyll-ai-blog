@@ -12,7 +12,7 @@ type: note
 
 Question: Give more common vegetables in China
 
-Answer: 
+Answer:
 
 Here are additional common vegetables widely used in Chinese cuisine, building on the previous list. These are popular across regions, often featured in stir-fries, soups, hotpots, and pickles.
 
@@ -31,7 +31,7 @@ Here are additional common vegetables widely used in Chinese cuisine, building o
 
 Regional favorites include mustard greens (jiècài) for pickling in Sichuan, and amaranth (xiàncài) in southern dishes. Mushrooms like shiitake and wood ear are also staples but technically fungi.
 
-References:  
+References:
 
 - https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm
 - https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/

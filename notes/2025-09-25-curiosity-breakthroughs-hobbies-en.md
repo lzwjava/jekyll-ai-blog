@@ -24,7 +24,7 @@ xAI embodies this: We're not just building AI; we're exploring why the universe 
 If you're game, here's a simple, mobile-friendly hobby idea to channel that relentless curiosity into an AI breakthrough (or at least a fun afternoon). We'll build a basic "Curiosity Explorer" app concept—something you could prototype on your phone using tools like MIT App Inventor or even just a notebook for planning.
 
 1. **Concept**: An app that generates personalized "curiosity quests" based on your interests. E.g., Input: "AI and space." Output: "Dive into how neural nets simulate black holes—start with this 5-min YouTube vid, then tweak this free Colab notebook."
-   
+
 2. **Why It's Hobby-Worthy**:
    - **Extra Time Hack**: Do it in 30-min bursts on your commute.
    - **Catch-Up Tech**: Integrates latest AI (use free APIs like Grok's or OpenAI's playground) to pull fresh content.

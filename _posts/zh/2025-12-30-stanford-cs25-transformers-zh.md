@@ -12,7 +12,7 @@ type: note
 
 Question: 什么是标准的 CS25 课程？哪些视频比较好？
 
-Answer: 
+Answer:
 
 Stanford **CS25: Transformers United** 是 Stanford University 的一门热门研讨课，专注于 Deep Learning 中的 Transformer 架构。该课程自 2022 年左右推出以来，已经进行了多次迭代（截至 2025 年已有 V1 到 V5 版本）。课程探讨了自 2017 年《Attention Is All You Need》论文发布以来，Transformer 如何彻底改变了 Natural Language Processing (NLP)、Computer Vision (CV)、Reinforcement Learning (RL) 等领域，以及在 Large Language Models（如 GPT、Gemini）、图像/视频生成（如 DALL-E、Sora）、生物学、Robotics、Neuroscience 等方面的应用。
 
@@ -36,10 +36,10 @@ Stanford **CS25: Transformers United** 是 Stanford University 的一门热门�
 
 为了获得最佳的学习效果，建议从概览讲座开始，然后根据感兴趣的主题观看嘉宾演讲。
 
-References:  
+References:
 
-- [Official Course Website](https://web.stanford.edu/class/cs25/)  
-- [YouTube Playlist: Stanford CS25 - Transformers United](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)  
-- [Andrej Karpathy Introduction (V2 Example)](https://www.youtube.com/watch?v=XfpMkf4rD6E)  
-- [Overview of Transformers (V5 Example)](https://www.youtube.com/watch?v=JKbtWimlzAE)  
+- [Official Course Website](https://web.stanford.edu/class/cs25/)
+- [YouTube Playlist: Stanford CS25 - Transformers United](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+- [Andrej Karpathy Introduction (V2 Example)](https://www.youtube.com/watch?v=XfpMkf4rD6E)
+- [Overview of Transformers (V5 Example)](https://www.youtube.com/watch?v=JKbtWimlzAE)
 - [Overview of Transformers (V4 Example)](https://www.youtube.com/watch?v=fKMB5UlVY1E)

@@ -64,6 +64,6 @@ AD is powerful for managing laptop access because it centralizes user identities
 
 This setup ensures employees log in with AD credentials, inherit group-based rights, and can't bypass restrictions—ideal for compliance and security. Start small with a test OU to avoid disruptions.
 
-[Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)  
-[Configuring user access control and permissions](https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/configure/user-access-control)  
+[Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+[Configuring user access control and permissions](https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/configure/user-access-control)
 [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why is the brain sometimes very clear and allows clear thinking, but other times it is hard to focus, read, or learn?
 
-Answer: 
+Answer:
 
 Mental clarity and focus can fluctuate due to a variety of physiological, lifestyle, and environmental factors. This variation is normal and often referred to as "brain fog" when clarity is reduced—characterized by difficulty concentrating, memory issues, confusion, and reduced cognitive performance.
 
@@ -35,9 +35,9 @@ To improve consistency:
 - Align demanding tasks with peak times.
 - Incorporate regular movement and mental breaks.
 
-References:  
+References:
 
-- [Brain Fog: 6 Potential Causes](https://www.healthline.com/health/brain-fog)  
-- [Brain Fog: What It Is, Causes, Symptoms & Treatment](https://my.clevelandclinic.org/health/symptoms/brain-fog)  
-- [Diurnal variation in variables related to cognitive performance](https://link.springer.com/article/10.1007/s11325-023-02895-0)  
+- [Brain Fog: 6 Potential Causes](https://www.healthline.com/health/brain-fog)
+- [Brain Fog: What It Is, Causes, Symptoms & Treatment](https://my.clevelandclinic.org/health/symptoms/brain-fog)
+- [Diurnal variation in variables related to cognitive performance](https://link.springer.com/article/10.1007/s11325-023-02895-0)
 - [The effects of time of day and chronotype on cognitive and physical performance](https://link.springer.com/article/10.1186/s40798-018-0162-z)

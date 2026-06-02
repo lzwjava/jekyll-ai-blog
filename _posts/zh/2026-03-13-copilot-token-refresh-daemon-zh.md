@@ -82,7 +82,7 @@ def main():
     print("🤖 Copilot says:", answer)
 
 if __name__ == "__main__":
-    main()  , also add refresh token logic 
+    main()  , also add refresh token logic
 
 ---
 
@@ -157,10 +157,10 @@ def poll_for_access_token(device_code, interval):
             }
         )
         data = response.json()
-        
+
         if "access_token" in data:
             return data["access_token"]
-        
+
         error = data.get("error")
         if error == "authorization_pending":
             time.sleep(interval)
@@ -267,7 +267,7 @@ def main():
         print("🤖 Calling Copilot LLM...")
         answer = call_copilot_llm("What is GitHub Copilot?")
         print(f"\n🤖 Copilot says:\n{answer}")
-        
+
         # Keep main thread alive to see refreshes if needed
         print("\n(Script will stay active for 2 minutes to show refresh logic...)")
         time.sleep(120)

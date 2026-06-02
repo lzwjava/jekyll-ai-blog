@@ -26,7 +26,7 @@ The training efficiency is best seen in the total compute time:
 
 ### **3. Hardware (The "Cards")**
 DeepSeek’s hardware choice was strategic, partly due to US export restrictions on high-end chips to China.
-* **GPU Model:** They primarily used **NVIDIA H800** GPUs. 
+* **GPU Model:** They primarily used **NVIDIA H800** GPUs.
     * The H800 is a "China-specific" version of the flagship H100. It has the same raw computing power but limited interconnect speeds (NVLink) to comply with trade regulations.
 * **Cluster Size:** While they have access to a massive cluster of roughly **50,000 GPUs** for various tasks, the specific training runs for these models usually utilize a subset of around **2,000 to 10,000 GPUs** at a time.
 * **Alternative Hardware:** They have also historically used **NVIDIA A100** clusters (specifically their "Fire-Flyer 2" cluster which had about 5,000 A100s).

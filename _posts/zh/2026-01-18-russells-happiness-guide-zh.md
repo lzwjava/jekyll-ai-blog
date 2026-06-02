@@ -12,13 +12,13 @@ type: note
 
 **Question:** Bertrand Russell 的《The Conquest of Happiness》讲了什么？
 
-**Answer:** 
+**Answer:**
 
 《The Conquest of Happiness》（幸福之路）是 Bertrand Russell 于 1930 年出版的一本书，为在现代生活中获得幸福提供了实用的哲学建议。Russell 认为，幸福并非仅仅依靠运气或外部环境偶然降临，而是可以通过理解并克服导致不幸福的常见原因，同时培养促进幸福的习惯和态度，从而主动“征服”的东西。
 
 全书分为两个主要部分：
 
-**Part I: Causes of Unhappiness**  
+**Part I: Causes of Unhappiness**
 Russell 确定了几个导致人们不幸福的关键心理和社会因素，即使在繁荣的社会中也是如此：
 
 - **Byronic unhappiness** —— 浪漫化的忧郁以及对生活的不满。
@@ -32,7 +32,7 @@ Russell 确定了几个导致人们不幸福的关键心理和社会因素，即
 
 他认为其中许多问题根源于错误的观点、伦理和习惯，且往往被现代社会所放大。
 
-**Part II: Causes of Happiness**  
+**Part II: Causes of Happiness**
 随后，Russell 概述了构建幸福的积极因素：
 
 - **Zest** —— 对生活的兴致和热情（这是核心要素）。
@@ -45,12 +45,12 @@ Russell 确定了几个导致人们不幸福的关键心理和社会因素，即
 
 Russell 强调实用建议而非抽象理论，并结合了自己的经验。他强调心理纪律（例如，避免沉溺于忧虑）、扩大兴趣以减少对命运波动的脆弱性、培养对人对事的友好而非敌对反应，以及在个人努力与顺应生活心流之间寻找平衡。
 
-书中的一段名言捕捉了核心思想：  
+书中的一段名言捕捉了核心思想：
 “除了极少数情况外，幸福并不是像熟透的果实一样，仅仅依靠幸运的环境就会掉进嘴里的东西。这就是为什么我把这本书命名为《The Conquest of Happiness》（征服幸福）。”
 
 总的来说，这本书是现代 self-help 文学早期、理性且易读的先驱，提倡将常识、自我意识和对外的关注作为通往更幸福生活的路径。
 
-**References:**  
+**References:**
 
 - [The Conquest of Happiness full text](https://russell-j.com/beginner/COH-TEXT.HTM)
 - [Table of contents and overview](https://www.routledge.com/The-Conquest-of-Happiness/Russell/p/book/9780415378475)

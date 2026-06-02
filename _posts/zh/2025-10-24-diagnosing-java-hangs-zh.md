@@ -16,7 +16,7 @@ jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机�
 
 #### jstack 使用步骤：
 1. **定位 Java 进程 ID（PID）：**
-   - 运行 `jps`（同属 JDK 工具）列出所有 Java 进程：  
+   - 运行 `jps`（同属 JDK 工具）列出所有 Java 进程：
      ```
      jps -l
      ```
@@ -24,7 +24,7 @@ jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机�
    - 在 Linux/macOS 系统中也可使用 `ps aux | grep java` 等系统命令。
 
 2. **生成线程转储：**
-   - 通过 jstack 将转储内容输出至文件：  
+   - 通过 jstack 将转储内容输出至文件：
      ```
      jstack <PID> > thread-dump.txt
      ```
@@ -33,7 +33,7 @@ jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机�
      - 若 JVM 对信号无响应，可使用 `jhsdb jstack --pid <PID>`（适用于 JDK 8+）
 
 3. **采集多份转储用于对比分析：**
-   - 卡顿问题常需通过时间维度对比，建议按 10-30 秒间隔采集 3-5 份转储：  
+   - 卡顿问题常需通过时间维度对比，建议按 10-30 秒间隔采集 3-5 份转储：
      ```
      jstack <PID> > dump1.txt
      sleep 10
@@ -68,14 +68,14 @@ ProcDump 是 Windows 平台免费的 Sysinternals 工具，可创建进程的内
    - 使用任务管理器或 `tasklist | findstr <进程名>` 获取 PID 或镜像名称（如 `java.exe`）
 
 3. **捕获卡顿转储：**
-   - 立即生成完整内存转储（适用于僵死进程）：  
+   - 立即生成完整内存转储（适用于僵死进程）：
      ```
      procdump -ma <进程名或PID>
      ```
      - `-ma`：生成完整内存转储（包含所有线程和堆数据）
      - 示例：`procdump -ma java.exe` 或 `procdump -ma 12345`
 
-   - 自动检测卡顿（在无响应时触发）：  
+   - 自动检测卡顿（在无响应时触发）：
      ```
      procdump -h <进程名或PID> -o
      ```
@@ -83,7 +83,7 @@ ProcDump 是 Windows 平台免费的 Sysinternals 工具，可创建进程的内
      - `-o`：覆盖现有转储文件
      - 针对服务程序：可结合 `-e` 异常监控或 CPU 监控：`procdump -c 80 -h <服务程序>`
 
-   - 采集多份转储：通过 `-n 3` 指定采集次数，`-t 10` 设置间隔（单位：秒）：  
+   - 采集多份转储：通过 `-n 3` 指定采集次数，`-t 10` 设置间隔（单位：秒）：
      ```
      procdump -ma -n 3 -t 10 <PID>
      ```
@@ -105,7 +105,7 @@ ProcDump 尤其适合非交互式进程（如服务程序）；若卡顿为 CPU 
 - **预防措施：** 启用 `-XX:+PrintGCDetails` 等 JVM 参数记录日志，或使用 JFR 等分析工具进行性能剖析
 - 若转储未显示明确问题，请使用 `top` 或性能监视器等工具检查系统资源（CPU、内存、I/O）状态
 
-[Oracle Java 故障排除指南](https://docs.oracle.com/en/java/javase/17/troubleshoot/troubleshoot-process-hangs-and-loops.html)  
-[使用 ProcDump 捕获卡顿转储](https://www.poppastring.com/blog/taking-a-hang-dump-or-crash-dump-with-procdump)  
-[Java 线程转储分析指南](https://www.baeldung.com/java-analyze-thread-dumps)  
+[Oracle Java 故障排除指南](https://docs.oracle.com/en/java/javase/17/troubleshoot/troubleshoot-process-hangs-and-loops.html)
+[使用 ProcDump 捕获卡顿转储](https://www.poppastring.com/blog/taking-a-hang-dump-or-crash-dump-with-procdump)
+[Java 线程转储分析指南](https://www.baeldung.com/java-analyze-thread-dumps)
 [ProcDump 卡顿分析应用](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump)

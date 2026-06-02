@@ -29,6 +29,6 @@ Microsoft SQL Server (often abbreviated as MSSQL) and MySQL are both popular rel
 
 In summary, choose SQL Server for robust, feature-rich enterprise needs with deep Microsoft ties, despite higher costs. Opt for MySQL if prioritizing affordability, simplicity, and open-source flexibility for web or smaller-scale deployments. For production decisions, test with your workload.
 
-[MySQL vs. SQL Server: a Complete Comparison in 2025](https://www.bytebase.com/blog/mysql-vs-sqlserver/)  
-[MySQL vs MS SQL Server: Key Similarities and Differences](https://blog.dreamfactory.com/ms-sql-server-vs-mysql)  
+[MySQL vs. SQL Server: a Complete Comparison in 2025](https://www.bytebase.com/blog/mysql-vs-sqlserver/)
+[MySQL vs MS SQL Server: Key Similarities and Differences](https://blog.dreamfactory.com/ms-sql-server-vs-mysql)
 [Microsoft SQL Server vs MySQL: Features and Cost Comparison 2025](https://www.capterra.com/compare/1417-11482/SQL-Server-vs-MySQL)

@@ -13,7 +13,7 @@ Based on the current weather information for Guangzhou today (March 30th):
 
 🌧️ **Current Weather in Guangzhou:**
 
-- **Temperature:** Around 25-27°C 
+- **Temperature:** Around 25-27°C
 - **Conditions:** Heavy rain/thunderstorms (大雨/雷阵雨)
 - **Wind:** Southeast wind, Level 3-4 (around 12-19 km/h)
 - **Humidity:** Very high at 85-97%

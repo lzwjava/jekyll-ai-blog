@@ -22,7 +22,7 @@ type: note
 
 这些选择着重放松体验与便利性——欢朋酒店胜在精准定位，希尔顿呈现水疗氛围，诺富特则打造沉浸式自然音景。价格随季节浮动（请查询实时房价），均为四至五星级。如需预订或更多详情，欢迎随时告知！
 
-**参考链接：**  
-[广州科学城希尔顿欢朋酒店](https://www.hilton.com/en/hotels/cansrdi-doubletree-guangzhou-science-city/)  
-[广州科学城希尔顿酒店](https://www.hilton.com/en/hotels/cannihi-hilton-guangzhou-science-city/)  
+**参考链接：**
+[广州科学城希尔顿欢朋酒店](https://www.hilton.com/en/hotels/cansrdi-doubletree-guangzhou-science-city/)
+[广州科学城希尔顿酒店](https://www.hilton.com/en/hotels/cannihi-hilton-guangzhou-science-city/)
 [广州黄埔诺富特酒店](https://www.trip.com/hotels/guangzhou-hotel-detail-71557952/narada-hotel-huangpu/)

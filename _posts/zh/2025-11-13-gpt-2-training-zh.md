@@ -25,8 +25,8 @@ type: note
 
 建议从微调预训练GPT-2或训练更小模型入手，这些任务在4070 Ti上仅需数小时至数天即可完成。
 
-[为何我们在2005年没能造出GPT-2？](https://dynomight.net/gpt-2/)  
-[语言模型训练的FLOPs演算](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)  
-[训练计算最优的gpt2-small](https://tomekkorbak.com/2022/10/10/compute-optimal-gpt2/)  
-[计算最优大语言模型训练的实证分析](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/)  
+[为何我们在2005年没能造出GPT-2？](https://dynomight.net/gpt-2/)
+[语言模型训练的FLOPs演算](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)
+[训练计算最优的gpt2-small](https://tomekkorbak.com/2022/10/10/compute-optimal-gpt2/)
+[计算最优大语言模型训练的实证分析](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/)
 [GPT-2 - 维基百科](https://en.wikipedia.org/wiki/GPT-2)

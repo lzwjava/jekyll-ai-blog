@@ -38,7 +38,7 @@ The real hierarchy is:
 ```
 Unit tests:     fast, cheap, test logic branches
                 blind spots: integration, real I/O, serialization
-                
+
 Integration:    test real components together
                 catches: actual DB queries, HTTP behavior, serialization
                 worth the cost for critical paths

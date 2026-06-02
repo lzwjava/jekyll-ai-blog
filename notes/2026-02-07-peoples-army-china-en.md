@@ -12,15 +12,15 @@ type: note
 
 Question: Who is the important force in defending the motherland and building socialism with Chinese characteristics?
 
-A. 工人 (Workers)  
-B. 农民 (Peasants)  
-C. 知识分子 (Intellectuals)  
+A. 工人 (Workers)
+B. 农民 (Peasants)
+C. 知识分子 (Intellectuals)
 D. 人民军队 (People's Army)
 
-Your answer: A  
+Your answer: A
 Correct answer: D
 
-Answer: 
+Answer:
 
 The **correct answer is D. 人民军队** (People's Army).
 
@@ -50,8 +50,8 @@ This is a very standard and frequently tested point in Chinese political theory 
 
 Your choice of A (workers) is understandable because workers are the leading class overall, but the question specifically asks for the force in **both defending the motherland and socialist construction**, where the people's army holds the unique dual role.
 
-References:  
+References:
 
-- Constitution of the People's Republic of China (current version)  
-- Standard CPC ideological and political education textbooks (multiple editions, especially post-2018 under Xi Jinping Thought)  
+- Constitution of the People's Republic of China (current version)
+- Standard CPC ideological and political education textbooks (multiple editions, especially post-2018 under Xi Jinping Thought)
 - Reports to the National Congresses of the Communist Party of China (especially 19th and 20th)

@@ -12,7 +12,7 @@ type: note
 
 Question: How to play Scorchette (Angela) hero in Honor of Kings?
 
-Answer: 
+Answer:
 Scorchette is a popular skin for **Angela**, a versatile **Mid Lane Mage** in Honor of Kings (HoK). She's beginner-friendly with strong AoE burst, CC (crowd control), and self-sustain via her ultimate's shield and immunity. Angela excels at wave clear, ganks, and teamfights, with a ~53% win rate in Diamond+ (A/S-tier in Dec 2025 meta). Play her for safe farming and explosive damage.
 
 ### Abilities
@@ -60,9 +60,9 @@ Focus magic power, CDR (cooldown reduction), penetration for one-shots.
 
 Master in Practice mode. Watch pro replays for rotations. Angela's simple but high ceiling—climb to Plat easily!
 
-References:  
-- [Liquipedia Angela Guide](https://liquipedia.net/honorofkings/Angela)  
-- [HoKBuild Angela Build](https://hokbuild.com/hero/angela/)  
-- [Fandom Wiki Abilities](https://honor-of-kings.fandom.com/wiki/Angela)  
-- [HoK Tier List Dec 2025](https://hokbuild.com/tier-list/)  
+References:
+- [Liquipedia Angela Guide](https://liquipedia.net/honorofkings/Angela)
+- [HoKBuild Angela Build](https://hokbuild.com/hero/angela/)
+- [Fandom Wiki Abilities](https://honor-of-kings.fandom.com/wiki/Angela)
+- [HoK Tier List Dec 2025](https://hokbuild.com/tier-list/)
 - [Counters Guide](https://hokbuild.com/guides/angela-counter-hok/)

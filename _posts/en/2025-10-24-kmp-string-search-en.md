@@ -18,7 +18,7 @@ I'll break it down step-by-step with a simple example. We'll search for the patt
 
 #### Step 1: The Problem and Naive Approach
 - **Goal**: Find all starting positions where `P` fully matches in `T`.
-- **Naive way**: Slide `P` over `T`, comparing character by character. If mismatch at position i in `P`, shift `P` by 1 and retry from the beginning of `P`. 
+- **Naive way**: Slide `P` over `T`, comparing character by character. If mismatch at position i in `P`, shift `P` by 1 and retry from the beginning of `P`.
   - For our example:
     - Start at T[0]: "a"=="a" (match), "b"=="b" (match), "a"=="a" (match), "b"=="b" (match) → Found at 0.
     - Shift to T[1]: "b"=="a"? No → Restart `P` at beginning. Waste!
@@ -177,5 +177,5 @@ Run this—tweak P/T to see jumps in action (add prints for q).
 
 This should click now—it's just smart skipping via precomputed overlaps. If you have a specific example that's tripping you up, share it!
 
-[GeeksforGeeks: KMP Algorithm](https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/)  
+[GeeksforGeeks: KMP Algorithm](https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/)
 [Wikipedia: Knuth–Morris–Pratt Algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)

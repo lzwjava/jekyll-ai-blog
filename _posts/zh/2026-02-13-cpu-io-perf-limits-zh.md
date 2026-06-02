@@ -29,7 +29,7 @@ Answer:
   - 更多的 CPU cores（如果任务是可并行化的）
   - 更好的 branch prediction、更大的 cache 等。
 
-**示例句子：**  
+**示例句子：**
 "This machine learning training job is strongly CPU-bound — even with 128 CPU cores it's still running at 100% CPU for hours."
 
 ### IO-bound
@@ -52,7 +52,7 @@ Answer:
   - Async / non-blocking IO
   - 更高效的 IO patterns（batching、caching、prefetching）
 
-**示例句子：**  
+**示例句子：**
 "A web scraper that downloads 10,000 images is mostly IO-bound — the CPU is barely busy, but it's spending 90% of the time waiting for network responses."
 
 ### Quick Comparison Table
@@ -66,10 +66,10 @@ Answer:
 | Benefits from multi-threading? | Yes (if parallelizable)           | Often yes (hides latency)             |
 | Benefits from asyncio / event loop? | Usually no                        | Usually very much yes                 |
 
-简而言之：  
-- CPU-bound → “我的 CPU 正在努力工作”  
+简而言之：
+- CPU-bound → “我的 CPU 正在努力工作”
 - IO-bound → “我的 CPU 大多在等待”
 
-References:  
+References:
 
 - None required for this conceptual explanation

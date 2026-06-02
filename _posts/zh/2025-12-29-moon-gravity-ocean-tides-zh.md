@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么会产生潮汐？根据 Richard Feynman 的书中所述，Moon 的 gravity 是如何导致潮汐的？
 
-Answer: 
+Answer:
 
 潮汐是由于 Moon（以及较小程度上的 Sun）产生的 **gravitational forces** 导致的海平面周期性升降。其关键不在于对 Earth 的整体引力（整体引力使 Earth 绕着与 Moon 的共同中心运行），而是在于 Earth 直径范围内的引力强度**差异**——这被称为 **tidal force** 或 **differential gravity**。
 
@@ -45,9 +45,9 @@ Sun 也会引起潮汐，但其作用约为 Moon 的 45%，因为尽管 Sun 的�
 
 在现实中，由于大陆分布、海洋深度和 Earth 自转，潮汐变得更加复杂，但基本机制就是这种引力拉伸作用。
 
-References:  
+References:
 
-- [The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation](https://www.feynmanlectures.caltech.edu/I_07.html)  
-- [Tidal force - Wikipedia](https://en.wikipedia.org/wiki/Tidal_force)  
-- [Gravity, Inertia, and the Two Bulges - NOAA](https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html)  
+- [The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation](https://www.feynmanlectures.caltech.edu/I_07.html)
+- [Tidal force - Wikipedia](https://en.wikipedia.org/wiki/Tidal_force)
+- [Gravity, Inertia, and the Two Bulges - NOAA](https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html)
 - [Tides - NASA Science](https://science.nasa.gov/moon/tides/)

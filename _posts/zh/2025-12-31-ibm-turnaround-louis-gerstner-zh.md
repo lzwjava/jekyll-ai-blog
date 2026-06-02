@@ -52,7 +52,7 @@ Gerstner 对 IBM 的扭转被商学院视为经典案例，展示了外部视角
 
 Gerstner 于 2025 年 12 月 27 日去世，享年 83 岁。
 
-References:  
+References:
 
 - [Lou Gerstner - Wikipedia](https://en.wikipedia.org/wiki/Lou_Gerstner)
 - [Louis V. Gerstner, Who Revived a Faltering IBM in the ’90s, Dies at 83 - The New York Times](https://www.nytimes.com/2025/12/29/business/louis-v-gerstner-dead.html)

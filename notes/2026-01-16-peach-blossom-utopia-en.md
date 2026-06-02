@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to "Peach Blossom Spring" (《桃花源记》)
 
-Answer: 
+Answer:
 
 **《桃花源记》** (The Peach Blossom Spring / Peach Blossom Source Record) is a famous prose essay written by **Tao Yuanming** (陶渊明, also known as Tao Qian, 365–427 CE) during the Eastern Jin dynasty (around 421 CE). It is one of the most well-known and influential works in classical Chinese literature.
 
@@ -31,9 +31,9 @@ When the fisherman prepares to leave, the villagers ask him not to tell the outs
 
 ### Most Famous Lines (widely memorized in Chinese-speaking world)
 
-> 芳草鲜美，落英缤纷  
-> 土地平旷，屋舍俨然，有良田美池桑竹之属  
-> 黄发垂髫，并怡然自乐  
+> 芳草鲜美，落英缤纷
+> 土地平旷，屋舍俨然，有良田美池桑竹之属
+> 黄发垂髫，并怡然自乐
 > 问今是何世，乃不知有汉，无论魏晋
 
 ### Core Symbolic Meaning
@@ -52,6 +52,6 @@ When the fisherman prepares to leave, the villagers ask him not to tell the outs
 
 In short, 《桃花源记》 is not just a beautiful short story — it is one of the most enduring symbols of the Chinese literary imagination about an ideal society and the human desire to escape from suffering and conflict.
 
-References:  
+References:
 
 - None (classical text, widely known in Chinese literature education and culture)

@@ -78,7 +78,7 @@ You previously set nginx to run as user `lzw` (via `systemctl edit` or `user` di
    # Give nginx group access to your downloads folder
    sudo chgrp -R www-data /home/lzw/qDownloads
    sudo chmod -R g+rx /home/lzw/qDownloads
-   
+
    # Allow nginx to enter your home directory
    sudo chmod g+x /home/lzw
    ```

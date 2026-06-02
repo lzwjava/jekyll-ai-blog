@@ -12,7 +12,7 @@ type: note
 
 ### What is Ant Bank in Alipay HK?
 
-Ant Bank (Hong Kong) is a fully digital virtual bank licensed by the Hong Kong Monetary Authority (HKMA) and wholly owned by Ant International, the international arm of Ant Group (the company behind Alipay). Launched in 2019, it serves as the official banking partner for AlipayHK, the Hong Kong version of the Alipay mobile payment app. 
+Ant Bank (Hong Kong) is a fully digital virtual bank licensed by the Hong Kong Monetary Authority (HKMA) and wholly owned by Ant International, the international arm of Ant Group (the company behind Alipay). Launched in 2019, it serves as the official banking partner for AlipayHK, the Hong Kong version of the Alipay mobile payment app.
 
 Key features and services integrated into AlipayHK include:
 - **Savings and deposits**: High-interest eM+ savings accounts with no minimum balance.
@@ -28,7 +28,7 @@ Yes, as a mainland Chinese citizen, you can open an Ant Bank account in Hong Kon
 
 #### Key Eligibility and Requirements:
 - **Age**: Must be 18 years or older.
-- **ID Documents**: 
+- **ID Documents**:
   - Valid Chinese Mainland Resident Identity Card.
   - Home Return Permit (as proof of your visit and eligibility to open accounts in HK).
   - No HKID required—mainland Chinese ID is explicitly accepted for virtual banks like Ant Bank.

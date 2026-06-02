@@ -12,7 +12,7 @@ Let's break down Meta's smart glasses offerings, including Ray-Ban and Oakley, t
 
 **What are Meta VR Glass, Ray-Ban, and Oakley smart glasses?**
 
-It's important to clarify the terminology here. "Meta VR Glass" isn't a specific product name that Meta widely uses. Instead, Meta's primary VR/MR offering is the **Meta Quest** line of headsets (e.g., Meta Quest 3). 
+It's important to clarify the terminology here. "Meta VR Glass" isn't a specific product name that Meta widely uses. Instead, Meta's primary VR/MR offering is the **Meta Quest** line of headsets (e.g., Meta Quest 3).
 
 When people refer to "Meta glasses" in a more general, glasses-like form factor, they're typically talking about:
 

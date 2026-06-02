@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive guide to using Nextcloud, including the server, clients, and supported file types.
 
-Answer: 
+Answer:
 
 Here is a comprehensive, up-to-date (as of March 2026) guide to **Nextcloud**, covering server setup basics, client usage (desktop and mobile), core features, and supported file types. Nextcloud is a powerful open-source, self-hosted platform for file sync, sharing, collaboration, calendars, contacts, and more.
 
@@ -106,7 +106,7 @@ Nextcloud supports virtually **any file type** for storage and sync — there ar
   - Enabled by default: Images, text files.
   - Optional (enable in config for performance/security): PDF, SVG, Office documents (via preview providers), videos (requires ffmpeg), audio waveforms.
   - Many formats supported via community apps or built-in tools (e.g., LibreOffice for document previews).
-- **Editing/Collaboration**: 
+- **Editing/Collaboration**:
   - Text/Markdown → built-in Nextcloud Text.
   - Office docs → integrate OnlyOffice or Collabora Online (real-time co-editing).
   - Newer features (2025–2026): Built-in document conversion (PDF ↔ DOCX, etc.), LaTeX support in Text, advanced XLSX table styling.
@@ -116,7 +116,7 @@ In short: Upload and sync anything reasonable. Previews/editing shine for images
 
 Start small (just Files + clients), then expand with apps as needed. The community (help.nextcloud.com, GitHub) and docs.nextcloud.com are excellent resources.
 
-References:  
+References:
 
 - [Nextcloud Official Documentation](https://docs.nextcloud.com/)
 - [Nextcloud Download & Clients](https://nextcloud.com/install/)

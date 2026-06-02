@@ -79,11 +79,11 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 
 ### **Final Configuration Summary**
 - **Modem**: IP `192.168.1.1`, provides internet and WiFi.
-- **Router1**: 
+- **Router1**:
   - WAN: Connected to modem via cable, set to **DHCP** (gets IP from modem, e.g., `192.168.1.x`).
   - LAN: IP `192.168.0.1`, **DHCP enabled** to assign IPs to devices.
   - WiFi: Custom SSID and password.
-- **Router2**: 
+- **Router2**:
   - Mode: **Wireless AP Bridge** (or WDS/Repeater), connected wirelessly to Router1’s WiFi.
   - LAN IP: `192.168.0.2`, **DHCP disabled**.
 

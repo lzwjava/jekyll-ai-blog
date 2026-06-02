@@ -98,7 +98,7 @@ Once connected, you can run SQL commands. Examples:
 - Show databases: `SHOW DATABASES;`
 - Create a sample database: `CREATE DATABASE myapp;`
 - Use it: `USE myapp;`
-- Create a table: 
+- Create a table:
   ```
   CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,

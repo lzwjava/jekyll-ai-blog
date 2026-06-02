@@ -28,7 +28,7 @@ Reaching T4 was considered a major milestone. With Tencent having nearly 20,000 
 
 In the **current system** (4–17 levels), the old T4 roughly maps to around **level 10–12** (with level 10 often cited as roughly equivalent to old T4 / Ali P7+ level in community comparisons). Higher levels (e.g., 12+) represent very senior technical roles.
 
-**Technical ranking summary**  
+**Technical ranking summary**
 T4 (old system) or its current equivalent is a **senior expert / principal-level** technical position — strong individual contributor or tech lead / architect role with deep expertise, major project impact, and influence across teams or organizations. It carries prestige in China's tech industry, often seen as comparable to:
 
 - Alibaba P7–P8

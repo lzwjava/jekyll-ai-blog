@@ -67,7 +67,7 @@ Here's a step-by-step guide to using PostgreSQL, a powerful open-source relation
 ### 4. **Advanced Features**
 - **Joins**:
   ```sql
-  SELECT orders.id, users.name 
+  SELECT orders.id, users.name
   FROM orders
   INNER JOIN users ON orders.user_id = users.id;
   ```
@@ -80,7 +80,7 @@ Here's a step-by-step guide to using PostgreSQL, a powerful open-source relation
   ```
 - **Full-Text Search**:
   ```sql
-  SELECT * FROM documents 
+  SELECT * FROM documents
   WHERE to_tsvector('english', content) @@ to_tsquery('search & term');
   ```
 

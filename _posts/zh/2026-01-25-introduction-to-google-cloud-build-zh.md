@@ -12,7 +12,7 @@ type: note
 
 Question: Google Cloud 中的 Cloud Build 全面介绍
 
-Answer: 
+Answer:
 
 Cloud Build 是 **Google Cloud 的全托管、Serverless CI/CD（持续集成 / 持续交付）平台**。它允许你在代码发生更改时自动构建、测试和部署软件。
 
@@ -134,7 +134,7 @@ options:
 
 在 2026 年，Cloud Build 仍然是 Google Cloud 生态系统中速度最快、性价比最高且集成度最好的 CI/CD 解决方案之一。
 
-References:  
+References:
 
 - [Overview of Cloud Build | Google Cloud](https://docs.cloud.google.com/build/docs/overview)
 - [Cloud Build documentation home](https://docs.cloud.google.com/build/docs)

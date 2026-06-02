@@ -11,14 +11,14 @@ type: note
 
 Question: In order to accurately identify and recognize various unsafe factors in the network and then carry out corresponding prevention, elimination, and repair, which computer network security technology is used?
 
-A. Encryption technology  
-B. Monitoring and auditing technology  
-C. Authentication technology (鉴别技术)  
-D. Access control technology  
+A. Encryption technology
+B. Monitoring and auditing technology
+C. Authentication technology (鉴别技术)
+D. Access control technology
 
 The correct answer given is C.
 
-Answer: 
+Answer:
 
 The correct answer is **C. 鉴别技术** (authentication/identification technology).
 
@@ -37,6 +37,6 @@ Although in modern English terminology "鉴别技术" is most commonly translate
 
 Given the question's wording and the official explanation provided, **C** is the intended correct answer in this specific exam context.
 
-References:  
+References:
 
 - None (based on the question explanation provided)

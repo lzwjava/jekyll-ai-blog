@@ -29,7 +29,7 @@ Gartner forecasts worldwide end-user spending on generative AI models to reach $
 - OpenAI’s GPT-5 is expected to launch soon, with improvements in thinking capabilities and longer context use, alongside enhanced data center security measures like fingerprint checks.
 - Google launched Veo 3, supporting image-to-video and multilingual audio, and began rolling out Gemini AI to Wear OS smartwatches, expanding its AI capabilities in multimedia and wearables.
 
-- **Sources**: 
+- **Sources**:
   - [X post by @critiqsai](https://x.com/critiqsai/status/1943082877207400623)
   - [X post by @deepnewzcom](https://x.com/deepnewzcom/status/1942977662089076959)
 
@@ -38,7 +38,7 @@ Gartner forecasts worldwide end-user spending on generative AI models to reach $
 - The Virtuals Protocol Agent Commerce Protocol is now live in public beta, potentially enabling new AI-driven commerce applications.
 - Cloudflare is implementing a feature allowing content creators to charge AI crawlers for scraping websites, currently in private beta, addressing tensions between content creators and AI companies.
 
-- **Sources**: 
+- **Sources**:
   - [Newsfile](https://www.newsfilecorp.com/release/258376/Railtown-AI-Technologies-Announces-Strategic-Development-and-Revenue-Sharing-Partnership-with-Ignite-Sequence-LLC)
   - [X post by @HashKey_Capital](https://x.com/HashKey_Capital/status/1942869211858247695)
 

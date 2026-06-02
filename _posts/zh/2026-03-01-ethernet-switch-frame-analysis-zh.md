@@ -35,19 +35,19 @@ type: note
 
 **(1) switch 的转发 ports**
 
-- 当 host A (…-a1) 向 host C (…-c1) 发送 data frame 时：  
-  → Destination MAC = 00-e1-d5-00-23-c1  
-  → 此时，switch forwarding table **没有 …-c1 的条目**（此类问题中非常常见）  
-  → switch 执行 **flooding** → 将 frame 转发到 **除入端口（port 1）外的所有 ports**  
+- 当 host A (…-a1) 向 host C (…-c1) 发送 data frame 时：
+  → Destination MAC = 00-e1-d5-00-23-c1
+  → 此时，switch forwarding table **没有 …-c1 的条目**（此类问题中非常常见）
+  → switch 执行 **flooding** → 将 frame 转发到 **除入端口（port 1）外的所有 ports**
   → 因此 data frame 转发到 **ports 2、3、4**（通常 port 3 到达 host C）
 
-- 当 host C (…-c1) 向 host A (…-a1) 发送 ACK frame 时：  
-  → Destination MAC = 00-e1-d5-00-23-a1  
-  → switch 已学习到 …-a1 → port 1 的条目（在 A 发送第一个 frame 时学习）  
+- 当 host C (…-c1) 向 host A (…-a1) 发送 ACK frame 时：
+  → Destination MAC = 00-e1-d5-00-23-a1
+  → switch 已学习到 …-a1 → port 1 的条目（在 A 发送第一个 frame 时学习）
   → switch **unicast** → 仅转发到 **port 1**
 
-**(1) 的答案：**  
-Data frame：转发到 ports **2、3、4**（flooding）  
+**(1) 的答案：**
+Data frame：转发到 ports **2、3、4**（flooding）
 Acknowledgment frame：转发到 port **1**（unicast）
 
 **(2) 更新后的 switch forwarding table**
@@ -66,8 +66,8 @@ Acknowledgment frame：转发到 port **1**（unicast）
 
 ```
 MAC address             VLAN    Port    Type    Age
-00-e1-d5-00-23-a1              1       dynamic 
-00-e1-d5-00-23-c1              3       dynamic 
+00-e1-d5-00-23-a1              1       dynamic
+00-e1-d5-00-23-c1              3       dynamic
 (可能其他条目保持不变)
 ```
 

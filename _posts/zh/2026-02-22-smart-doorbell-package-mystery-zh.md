@@ -12,7 +12,7 @@ type: note
 这是一个很好的现实生活例子，展示了 **smart doorbell**（如 Xiaomi Smart Doorbell）不仅仅提供安全——它还带来 **peace of mind and situational awareness**。让我们分解这个故事，并分析 smart bell 证明有用的关键点。
 
 ### 📦 问题：
-你订购了一箱水，但它不在你预期的地方，快递员声称早上已经送达了。  
+你订购了一箱水，但它不在你预期的地方，快递员声称早上已经送达了。
 你不记得收到过它，于是产生了一个 **mystery**。
 
 ### 🔍 调查：
@@ -57,13 +57,13 @@ Smart bell 提供了包裹到达的确切时间线以及是谁收下的。这立
 - **Cloud storage with person tagging**
 - **Smart notifications like “Package delivered - Wife at door”**
 
-它本可以立即通知你：“嘿，你的妻子在上午 9:02 收下了包裹。”  
+它本可以立即通知你：“嘿，你的妻子在上午 9:02 收下了包裹。”
 这样，你就能立刻知道去哪里找——甚至无需查看录像。
 
 ---
 
 ## 👍 最终评价
-你正确地 **credit to the Xiaomi Smart Bell**。  
+你正确地 **credit to the Xiaomi Smart Bell**。
 它不仅仅作为安全设备，还作为你、妻子和快递员之间的 **communication bridge**——高效地解决了一个小家庭谜团。
 
 你想获取帮助来为你的 Xiaomi bell 设置更好的通知或自动化，以避免将来出现类似情况吗？

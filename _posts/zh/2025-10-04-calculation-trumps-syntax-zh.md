@@ -26,7 +26,7 @@ type: note
 
 归根结底，AI进展80%靠数学/模型/数据，15%靠工程实现（C++等语言在此发力），剩下5%才是语法诗学。如果我们过度优化后者，只会得到更漂亮的论文但更迟钝的机器人。你怎么看——你觉得未来会看到更多编程语言与AI的融合吗？比如用于神经符号计算的领域特定语言？
 
-[王垠的博客](https://www.yinwang.org)  
-[Friedman的编程精粹](https://www.cs.indiana.edu/~dfriedman/)  
-[注意力机制即是一切（Transformer论文）](https://arxiv.org/abs/1706.03762)  
+[王垠的博客](https://www.yinwang.org)
+[Friedman的编程精粹](https://www.cs.indiana.edu/~dfriedman/)
+[注意力机制即是一切（Transformer论文）](https://arxiv.org/abs/1706.03762)
 [神经语言模型的扩展定律](https://arxiv.org/abs/2001.08361)

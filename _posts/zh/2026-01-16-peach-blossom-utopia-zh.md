@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to "Peach Blossom Spring" (《桃花源记》)
 
-Answer: 
+Answer:
 
 **《桃花源记》** (The Peach Blossom Spring / Peach Blossom Source Record) 是东晋时期（约公元 421 年）诗人 **Tao Yuanming**（陶渊明，又名陶潜，公元 365–427 年）创作的著名散文。它是中国古典文学中最家喻户晓、最具影响力的作品之一。
 
@@ -31,9 +31,9 @@ Answer:
 
 ### Most Famous Lines (widely memorized in Chinese-speaking world)
 
-> 芳草鲜美，落英缤纷  
-> 土地平旷，屋舍俨然，有良田美池桑竹之属  
-> 黄发垂髫，并怡然自乐  
+> 芳草鲜美，落英缤纷
+> 土地平旷，屋舍俨然，有良田美池桑竹之属
+> 黄发垂髫，并怡然自乐
 > 问今是何世，乃不知有汉，无论魏晋
 
 ### Core Symbolic Meaning
@@ -52,6 +52,6 @@ Answer:
 
 简而言之，《桃花源记》不仅是一个优美的短篇故事，它也是中国文学想象力中关于理想社会，以及人类渴望逃离痛苦与冲突的最持久象征之一。
 
-References:  
+References:
 
 - None (classical text, widely known in Chinese literature education and culture)

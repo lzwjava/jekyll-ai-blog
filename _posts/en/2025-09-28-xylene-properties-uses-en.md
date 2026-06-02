@@ -15,7 +15,7 @@ I believe you're asking about "二甲苯" (èrjiǎběn), which is the Chinese te
 Xylene is an organic chemical compound with the formula C₈H₁₀. It's an aromatic hydrocarbon that exists in three isomeric forms:
 
 - **ortho-xylene (o-xylene)**
-- **meta-xylene (m-xylene)** 
+- **meta-xylene (m-xylene)**
 - **para-xylene (p-xylene)**
 
 **Common uses of xylene include:**

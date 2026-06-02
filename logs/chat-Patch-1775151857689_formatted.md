@@ -1,7 +1,7 @@
 # Chat with Patch — NanoGPT FineWeb 1.5B Training
 
-**Date:** 2026-04-01 ~ 2026-04-02  
-**User:** LZW (Boss)  
+**Date:** 2026-04-01 ~ 2026-04-02
+**User:** LZW (Boss)
 **Assistant:** Patch 🦞
 
 ---

@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand the apparent contradiction that socialism explicitly rejects individualism, yet the USA thrives on individualism and is prosperous, and Einstein emphasized individualism and independent thinking despite his socialist leanings and his teachers disliking his independence?
 
-Answer: 
+Answer:
 
 The statement that "individualism is explicitly rejected as incompatible with socialist ideology" is an oversimplification. Socialism (especially in its Marxist or collectivist forms) often critiques **extreme bourgeois individualism**—the kind tied to unchecked capitalism, private profit, and competition that alienates people and prioritizes personal gain over collective well-being. However, many socialist thinkers argue that true socialism enables **genuine individualism** by freeing people from economic exploitation and alienation, allowing fuller personal development.
 
@@ -45,7 +45,7 @@ There is no absolute contradiction once you distinguish:
 
 In short, the tension reflects different definitions of individualism and different views on how society best supports it—capitalism via competition, socialism via cooperation.
 
-References:  
+References:
 
 - [Why Socialism? by Albert Einstein (1949)](https://monthlyreview.org/2009/05/01/why-socialism/)
 - [Socialism and the individual: Are they compatible? - People's World](https://www.peoplesworld.org/article/socialism-and-the-individual-are-they-compatible)

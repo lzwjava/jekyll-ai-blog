@@ -50,10 +50,10 @@ Answer:
 
 ### GKE 安装方法快速对比 (2025/2026)
 
-- **Official manifests** (最常见)  
+- **Official manifests** (最常见)
   `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.x/deploy/static/provider/cloud/deploy.yaml`
 
-- **Helm** (非常流行)  
+- **Helm** (非常流行)
   ```bash
   helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
   helm repo update
@@ -100,7 +100,7 @@ spec:
 - 需要简单设置 + 深度 Google 集成 → 使用 **GKE native Ingress**
 - 需要高级 Routing / Annotations / Canaries / Auth / Regex → 使用 **NGINX Ingress Controller**
 
-References:  
+References:
 
 - [Kubernetes Ingress-NGINX Official Documentation](https://kubernetes.github.io/ingress-nginx/)
 - [ExternalDNS with NGINX on GKE](https://kubernetes-sigs.github.io/external-dns/latest/docs/tutorials/gke-nginx)

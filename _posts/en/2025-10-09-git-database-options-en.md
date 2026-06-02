@@ -53,8 +53,8 @@ const db = low(adapter);
 
 If your data has a schema, share it for a custom dump script.
 
-[Version Controlling, Git, NoSQL, and MongoDB](https://medium.com/@chathranavoda/version-controlling-git-nosql-and-mongodb-28ae3d8775b6)  
-[redis-dump: Redis to JSON and back](https://github.com/delano/redis-dump)  
-[How can I put a database under git](https://stackoverflow.com/questions/846659/how-can-i-put-a-database-under-git-version-control)  
-[NoSQL alternative of sqlite in Python](https://stackoverflow.com/questions/58673748/nosql-alternative-of-sqlite-in-python)  
+[Version Controlling, Git, NoSQL, and MongoDB](https://medium.com/@chathranavoda/version-controlling-git-nosql-and-mongodb-28ae3d8775b6)
+[redis-dump: Redis to JSON and back](https://github.com/delano/redis-dump)
+[How can I put a database under git](https://stackoverflow.com/questions/846659/how-can-i-put-a-database-under-git-version-control)
+[NoSQL alternative of sqlite in Python](https://stackoverflow.com/questions/58673748/nosql-alternative-of-sqlite-in-python)
 [Persistent, Git friendly local database](https://clojureverse.org/t/persistent-git-friendly-local-database-any-suggestions/3919)

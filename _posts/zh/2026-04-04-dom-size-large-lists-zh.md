@@ -29,10 +29,10 @@ type: note
 
 这意味着**一个列表项 ≈ 5–6 个 DOM 节点**（加上 Bootstrap 添加的任何类或伪元素）。
 
-- **7,000 个项** → 仅列表部分大约 **35,000 – 42,000 个 DOM 节点**（加上页面其余部分）。  
+- **7,000 个项** → 仅列表部分大约 **35,000 – 42,000 个 DOM 节点**（加上页面其余部分）。
   这在许多设备上**很可能会感觉卡顿**，尤其是在滚动、搜索或浏览器重新计算布局/样式时。初始页面加载和 JavaScript 操作也会变慢。
 
-- **20,000 个项** → 大约 **100,000+ 个 DOM 节点**。  
+- **20,000 个项** → 大约 **100,000+ 个 DOM 节点**。
   这**通常不推荐**用于良好的用户体验。你可能会观察到：
   - 页面加载缓慢
   - 滚动卡顿或延迟
@@ -52,27 +52,27 @@ type: note
 ### 推荐解决方案
 对于如此庞大的列表，**切勿**一次性渲染所有项。使用以下方法之一：
 
-1. **虚拟滚动 / 视窗化**（最适合 7k–20k+ 项）  
-   仅渲染当前视口中可见的项（通常一次 10–30 个项）。随着用户滚动，新项被添加到 DOM，旧项被移除。  
-   常用库：  
-   - React：`react-window` 或 `react-virtualized`  
-   - Vue：`vue-virtual-scroller`  
-   - Angular：Angular CDK Virtual Scrolling  
+1. **虚拟滚动 / 视窗化**（最适合 7k–20k+ 项）
+   仅渲染当前视口中可见的项（通常一次 10–30 个项）。随着用户滚动，新项被添加到 DOM，旧项被移除。
+   常用库：
+   - React：`react-window` 或 `react-virtualized`
+   - Vue：`vue-virtual-scroller`
+   - Angular：Angular CDK Virtual Scrolling
    - 原生 JavaScript：`Clusterize.js` 或自定义 Intersection Observer 实现
 
-2. **分页**  
+2. **分页**
    每页显示 50–200 个项，并提供“加载更多”或页码。
 
-3. **无限滚动**（配合虚拟化）  
+3. **无限滚动**（配合虚拟化）
    在用户滚动时加载更多项，但 DOM 中仍只保留有限数量。
 
-4. **在服务器端或客户端进行过滤/搜索**  
+4. **在服务器端或客户端进行过滤/搜索**
    让用户先搜索或过滤，以减少显示的项目数量。
 
-5. **如果必须保留所有项，可进行简单优化**  
-   - 使用 `will-change: transform;` 或 CSS containment  
-   - 避免在列表项上使用复杂的 CSS（复杂选择器、阴影等）  
-   - 在 JavaScript 中构建列表时使用 `document.createDocumentFragment()`  
+5. **如果必须保留所有项，可进行简单优化**
+   - 使用 `will-change: transform;` 或 CSS containment
+   - 避免在列表项上使用复杂的 CSS（复杂选择器、阴影等）
+   - 在 JavaScript 中构建列表时使用 `document.createDocumentFragment()`
    - 对于极端情况，可考虑使用固定布局的 `<table>` 或基于 canvas 的列表
 
 ### 快速测试建议
@@ -83,13 +83,13 @@ type: note
 
 如果你在 7000 个项时注意到卡顿，那么在增加到 20000 个项之前就应该实施虚拟化。
 
-**总结**：  
-- 7000 个项处于**临界状态**——可能能用，但不是最优的。  
+**总结**：
+- 7000 个项处于**临界状态**——可能能用，但不是最优的。
 - 20000 个项对于简单渲染的列表来说**太多了**，很可能会降低用户体验。
 
 采用虚拟滚动可以让你流畅地处理 20k、50k 甚至 100k+ 的项。
 
-**参考链接**：  
+**参考链接**：
 - https://developer.chrome.com/docs/lighthouse/performance/dom-size
 - https://web.dev/articles/dom-size-and-interactivity
 - https://www.debugbear.com/blog/excessive-dom-size

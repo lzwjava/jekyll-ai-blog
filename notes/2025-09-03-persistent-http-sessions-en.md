@@ -210,5 +210,5 @@ with requests.Session() as session:
 - **SSL Verification**: By default, `Session` verifies SSL certificates. To disable (not recommended for production), use `session.verify = False`.
 
 ## References
-[Requests Documentation](https://requests.readthedocs.io/en/latest/)  
+[Requests Documentation](https://requests.readthedocs.io/en/latest/)
 [Requests Session Objects](https://requests.readthedocs.io/en/latest/user/advanced/#session-objects)

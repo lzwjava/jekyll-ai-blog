@@ -12,7 +12,7 @@ type: note
 
 Question: Does the Routing Information Protocol (RIP) work in such a way that bad news travels fast and good news travels slow, as Ben Horowitz put it?
 
-Answer: 
+Answer:
 
 Yes, Ben Horowitz famously used the Routing Information Protocol (RIP) as a metaphor in his book *The Hard Thing About Hard Things* to describe a healthy company culture: **bad news travels fast; good news travels slow**.
 
@@ -32,9 +32,9 @@ However, RIP is well-known for **slow overall convergence**, especially in cases
 
 Horowitz's analogy uses this protocol characteristic to illustrate the value of rapid bad-news sharing in organizations.
 
-References:  
+References:
 
-- [Goodreads - Ben Horowitz Quotes](https://www.goodreads.com/author/quotes/7155094.Ben_Horowitz?page=3)  
-- [AnandTech Forums - Discussion on RIP behavior](https://forums.anandtech.com/threads/count-to-infinity.2460100/)  
-- [Noction Blog - BGP path hunting (comparing to RIP)](https://www.noction.com/blog/bgp-path-hunting)  
+- [Goodreads - Ben Horowitz Quotes](https://www.goodreads.com/author/quotes/7155094.Ben_Horowitz?page=3)
+- [AnandTech Forums - Discussion on RIP behavior](https://forums.anandtech.com/threads/count-to-infinity.2460100/)
+- [Noction Blog - BGP path hunting (comparing to RIP)](https://www.noction.com/blog/bgp-path-hunting)
 - [Wikipedia - Routing Information Protocol](https://en.wikipedia.org/wiki/Routing_Information_Protocol)

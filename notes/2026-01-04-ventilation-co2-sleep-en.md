@@ -12,7 +12,7 @@ type: note
 
 Question: Does sleeping with the door closed and without air circulation affect sleep quality, such as by lowering oxygen levels for inhalation?
 
-Answer: 
+Answer:
 
 Sleeping in a room with the door closed and poor air circulation can negatively affect sleep quality, primarily due to the buildup of carbon dioxide (CO2) rather than a significant drop in oxygen levels.
 
@@ -34,10 +34,10 @@ To improve sleep:
 
 Overall, while oxygen remains sufficient, elevated CO2 from lack of circulation meaningfully impairs restorative sleep.
 
-References:  
+References:
 
-- [Ventilation causing an average CO2 concentration of 1,000 ppm negatively affects sleep: A field-lab study](https://www.sciencedirect.com/science/article/pii/S0360132323011459)  
-- [The effects of bedroom air quality on sleep and next-day performance](https://pubmed.ncbi.nlm.nih.gov/26452168/)  
-- [The Influence of Bedroom CO2 Concentration on Sleep Quality](https://www.mdpi.com/2075-5309/13/11/2768)  
-- [Does Carbon Dioxide (CO2) Affect My Sleep?](https://learn.kaiterra.com/en/air-academy/can-carbon-dioxide-affect-my-sleep)  
+- [Ventilation causing an average CO2 concentration of 1,000 ppm negatively affects sleep: A field-lab study](https://www.sciencedirect.com/science/article/pii/S0360132323011459)
+- [The effects of bedroom air quality on sleep and next-day performance](https://pubmed.ncbi.nlm.nih.gov/26452168/)
+- [The Influence of Bedroom CO2 Concentration on Sleep Quality](https://www.mdpi.com/2075-5309/13/11/2768)
+- [Does Carbon Dioxide (CO2) Affect My Sleep?](https://learn.kaiterra.com/en/air-academy/can-carbon-dioxide-affect-my-sleep)
 - [Does Closing the Room Door Starve Us of Oxygen?](https://smartairfilters.com/en/blog/does-closing-the-windows-starve-us-of-oxygen/)

@@ -27,34 +27,34 @@ type: note
 
 **单选题 – 每题 1 分（约占考试 20-30%）**
 
-1. 在 Python 中，以下哪项是不可变数据类型？  
+1. 在 Python 中，以下哪项是不可变数据类型？
    A. list   B. dict   C. tuple   D. set
 
-2. `print(3 ** 2 // 4)` 的输出是什么？  
+2. `print(3 ** 2 // 4)` 的输出是什么？
    A. 2   B. 2.25   C. 9   D. 1
 
-3. Python 中用于定义函数的语句是？  
+3. Python 中用于定义函数的语句是？
    A. function   B. def   C. func   D. define
 
-4. 在面向对象编程中，“inheritance”（继承）允许什么？  
+4. 在面向对象编程中，“inheritance”（继承）允许什么？
    A. 代码重复   B. 一个类从另一个类继承属性和方法   C. 仅数据隐藏   D. 多个返回值
 
-5. Python 中常用哪个模块处理 regular expressions？  
+5. Python 中常用哪个模块处理 regular expressions？
    A. os   B. sys   C. re   D. math
 
-6. `with` 语句主要处理什么？  
+6. `with` 语句主要处理什么？
    A. 循环   B. 异常处理   C. 资源管理（例如文件关闭）   D. 函数定义
 
-7. 以下哪项创建了 list comprehension？  
+7. 以下哪项创建了 list comprehension？
    A. [x for x in range(5)]   B. {x for x in range(5)}   C. (x for x in range(5))   D. {x: x for x in range(5)}
 
-8. 在 Python 3 中，`input()` 的返回值类型是什么？  
+8. 在 Python 3 中，`input()` 的返回值类型是什么？
    A. int   B. str   C. float   D. list
 
-9. 用于手动 raise exception 的关键字是？  
+9. 用于手动 raise exception 的关键字是？
    A. throw   B. raise   C. except   D. try
 
-10. 类中 `__init__` 方法的作用是什么？  
+10. 类中 `__init__` 方法的作用是什么？
     A. 析构函数   B. 构造函数   C. 静态方法   D. 类变量
 
 **判断题 – 每题 1 分**
@@ -83,7 +83,7 @@ type: note
 
 **程序阅读或简答题**
 
-21. 以下代码的输出是什么？  
+21. 以下代码的输出是什么？
     ```python
     def func(x, y=5):
         return x * y
@@ -93,7 +93,7 @@ type: note
 
 22. 解释 Python 中 `==` 和 `is` 操作符的区别。
 
-23. 运行以下代码会发生什么？（识别错误）  
+23. 运行以下代码会发生什么？（识别错误）
     ```python
     try:
         x = 1 / 0
@@ -103,7 +103,7 @@ type: note
 
 24. 描述什么是 generator function，并给出其相对于普通 list 的一个优势。
 
-25. 写出以下代码的输出：  
+25. 写出以下代码的输出：
     ```python
     s = "hello world"
     print(s.capitalize())

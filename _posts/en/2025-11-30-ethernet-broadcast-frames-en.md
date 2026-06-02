@@ -22,10 +22,10 @@ Here are the most common real-world scenarios where an Ethernet **broadcast fram
 | **Legacy IPX/SPX, AppleTalk, etc.**| Ethernet dst=MAC FFFF.FFFF.FFFF                       | Devices using those old protocols             | Service discovery in non-IP protocols                                                     |
 
 ### Most frequent cases you will see in a modern network (99% of broadcast frames):
-1. **ARP requests** → sent by **any host or router** that needs to learn a MAC for a local IP  
+1. **ARP requests** → sent by **any host or router** that needs to learn a MAC for a local IP
    → Example: PC wants to ping 192.168.1.50 → sends ARP “Who has 192.168.1.50?” with dst MAC FFFF.FFFF.FFFF
 
-2. **DHCP Discover/Request** → sent by **clients** (laptops, phones, IoT devices, VMs, etc.) when they boot or renew  
+2. **DHCP Discover/Request** → sent by **clients** (laptops, phones, IoT devices, VMs, etc.) when they boot or renew
    → The very first packet a device sends when it has no IP is almost always a DHCP Discover broadcast.
 
 ### Who never sends true Ethernet broadcasts in normal operation?

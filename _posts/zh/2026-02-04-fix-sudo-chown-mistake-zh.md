@@ -35,7 +35,7 @@ sudo chown -R $USER /usr
 1. 重启电脑。
 2. 在启动过程中按住 **Shift** 键（某些机器上是 **Esc**），直到出现 GRUB 菜单。
 3. 选择 **Advanced options for Ubuntu** → 选择任何以 **(recovery mode)** 结尾的行 → 按 Enter。
-4. 在 recovery 菜单中，选择 **root** → **Drop to root shell prompt** → 按 Enter。  
+4. 在 recovery 菜单中，选择 **root** → **Drop to root shell prompt** → 按 Enter。
    → 你现在将看到 `#` 提示符（拥有完整的 root 权限，此处无需密码）。
 5. 以读写模式重新挂载文件系统：
 
@@ -134,9 +134,9 @@ sudo chown root:staff   -R /usr/local   # 如果你经常使用 /usr/local
 
 ### 此时现实的建议
 
-1. **最好且最快速的长期解决方案**  
-   → **重新安装 Ubuntu**（如果需要，可以保留 /home）。  
-   启动 live USB → "Try Ubuntu" → 使用安装程序 → 选择 "Something else" → 复用现有的 / 分区但 **格式化它**（如果你是高级用户，也可以只覆盖 /usr, /etc, /var）。  
+1. **最好且最快速的长期解决方案**
+   → **重新安装 Ubuntu**（如果需要，可以保留 /home）。
+   启动 live USB → "Try Ubuntu" → 使用安装程序 → 选择 "Something else" → 复用现有的 / 分区但 **格式化它**（如果你是高级用户，也可以只覆盖 /usr, /etc, /var）。
    → 耗时 20-40 分钟，还你一个干净的系统。
 
 2. **尝试就地修复（高级操作，耗时，且可能无法完全成功）**

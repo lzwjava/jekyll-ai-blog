@@ -12,7 +12,7 @@ type: note
 
 Question: Which VLAN is the default VLAN on most switches?
 
-Answer: 
+Answer:
 
 The correct answer is **B) VLAN 1**.
 

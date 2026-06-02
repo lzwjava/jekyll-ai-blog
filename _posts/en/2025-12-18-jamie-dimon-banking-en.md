@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Jamie Dimon.
 
-Answer: 
+Answer:
 
 # Jamie Dimon: A Comprehensive Introduction
 
@@ -51,8 +51,8 @@ Despite these, Dimon is praised for transparency and risk management, often outp
 
 Dimon remains a central figure in finance as of December 2025, with speculation about his eventual retirement but no immediate plans announced.
 
-References:  
-- [Jamie Dimon - Wikipedia](https://en.wikipedia.org/wiki/Jamie_Dimon)  
-- [Jamie Dimon | JPMorganChase Official Profile](https://www.jpmorganchase.com/about/leadership/jamie-dimon)  
-- [Jamie Dimon Profile - Forbes](https://www.forbes.com/profile/jamie-dimon/)  
+References:
+- [Jamie Dimon - Wikipedia](https://en.wikipedia.org/wiki/Jamie_Dimon)
+- [Jamie Dimon | JPMorganChase Official Profile](https://www.jpmorganchase.com/about/leadership/jamie-dimon)
+- [Jamie Dimon Profile - Forbes](https://www.forbes.com/profile/jamie-dimon/)
 - [Jamie Dimon - Britannica Money](https://www.britannica.com/money/Jamie-Dimon)

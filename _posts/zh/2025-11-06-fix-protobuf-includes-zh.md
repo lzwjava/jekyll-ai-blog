@@ -55,5 +55,5 @@ type: note
 - 构建完成后，可通过 `cargo run --bin greptime -- standalone start` 测试 proto 集成是否正常
 - 当前使用的 greptime-proto 版本较新（约 2024 年 10 月）；若问题持续存在，请检查上游仓库是否有修复方案
 
-[GreptimeDB 构建文档](https://github.com/GreptimeTeam/greptimedb#build-from-source)  
+[GreptimeDB 构建文档](https://github.com/GreptimeTeam/greptimedb#build-from-source)
 [Protobuf 知名类型文档](https://protobuf.dev/reference/protobuf/google.protobuf/)

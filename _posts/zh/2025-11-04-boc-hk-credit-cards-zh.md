@@ -45,7 +45,7 @@ type: note
 
 若申请未通过，可考虑内地中银信用卡（如长城国际卡），但香港发行卡片全球接受度更优。
 
-[非香港居民客户声明书](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)  
-[中银香港信用卡申请页面](https://mobile.boccc.com.hk/oca/NOCAWEB/supcard/index.html?SCode=217&BCode=012&lang=en)  
-[香港银行内地发卡政策详解](https://www.scmp.com/business/banking-finance/article/3299493/beijing-allows-hong-kong-banks-issue-credit-cards-mainland-march-1)  
+[非香港居民客户声明书](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)
+[中银香港信用卡申请页面](https://mobile.boccc.com.hk/oca/NOCAWEB/supcard/index.html?SCode=217&BCode=012&lang=en)
+[香港银行内地发卡政策详解](https://www.scmp.com/business/banking-finance/article/3299493/beijing-allows-hong-kong-banks-issue-credit-cards-mainland-march-1)
 [中银香港信用卡产品总览](https://www.bochk.com/en/creditcard/details.html)

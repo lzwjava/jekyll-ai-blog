@@ -85,6 +85,6 @@ VPN 适用于所有设备：计算机、笔记本电脑、平板电脑和智能�
 
 感谢大家的关注。有什么问题吗？
 
-References:  
+References:
 
 - [VPN (Virtual Private Network) Explained - YouTube](https://www.youtube.com/watch?v=R-JUOpCgTZc)

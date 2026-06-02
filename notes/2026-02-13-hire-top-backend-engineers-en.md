@@ -12,7 +12,7 @@ type: note
 
 Question: What is the best way to hire backend engineers?
 
-Answer: 
+Answer:
 
 Hiring backend engineers in 2026 remains competitive — good talent usually has multiple options and often prefers being approached directly rather than applying to generic postings.
 
@@ -75,7 +75,7 @@ Here are the most effective approaches used by startups and scale-ups right now,
 
 Pick 2–3 channels that match your budget/timeline and run them in parallel — waiting for one source rarely ends well.
 
-References:  
+References:
 
 - [How to Hire the Perfect Backend Developer in 2026](https://ixceed-solutions.com/how-to-hire-the-perfect-backend-developer)
 - [How to Hire Software Engineers in 2026 - Juicebox](https://juicebox.ai/blog/how-to-hire-software-engineers)

@@ -12,7 +12,7 @@ type: note
 
 Question: List more spectacular failures in Chinese startups in the last 15 years.
 
-Answer: 
+Answer:
 
 Here are additional notable spectacular failures of Chinese startups from the past 15 years (2010–2025), building on examples like Ofo, Lashou (a major player in the early 2010s group-buying wars that faded after intense competition), and others. These often involved massive funding, rapid expansion via subsidies, and eventual collapse due to unsustainability, fraud, overcompetition, or external pressures:
 
@@ -32,10 +32,10 @@ Here are additional notable spectacular failures of Chinese startups from the pa
 
 These reinforce patterns: subsidy wars eroding margins, copycat models in crowded sectors (e.g., O2O services, group buying), fraud scandals, and later impacts from funding winters, regulations, and economic slowdowns reducing new failures but stalling growth.
 
-References:  
+References:
 
-- https://www.cbinsights.com/research/biggest-startup-failures/  
-- https://technode.com/2017/01/06/heres-what-you-can-learn-from-chinas-biggest-startup-failures-of-2016/  
-- https://ventureburn.com/2015/11/20-startups-from-asia-that-failed-in-2015-and-lessons-learned/  
-- https://www.chinamoneynetwork.com/2020/12/04/chinas-startup-death-toll-2020-nearly-1000-failed-projects  
+- https://www.cbinsights.com/research/biggest-startup-failures/
+- https://technode.com/2017/01/06/heres-what-you-can-learn-from-chinas-biggest-startup-failures-of-2016/
+- https://ventureburn.com/2015/11/20-startups-from-asia-that-failed-in-2015-and-lessons-learned/
+- https://www.chinamoneynetwork.com/2020/12/04/chinas-startup-death-toll-2020-nearly-1000-failed-projects
 - https://www.statista.com/statistics/1169388/the-most-expensive-startup-failures-by-amount-of-funding/

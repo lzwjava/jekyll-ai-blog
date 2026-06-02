@@ -36,7 +36,7 @@ type: note
 
 整体而言，SWE Atlas 包括三个计划中的排行榜（Codebase QnA 是第一个发布的；Test Writing 和 Refactoring 即将推出）。完整数据集在 Hugging Face 上公开可用：ScaleAI/SWE-Atlas-QnA。
 
-References:  
+References:
 
 - [Scale Labs SWE Atlas - Codebase QnA Leaderboard](https://labs.scale.com/leaderboard/sweatlas-qna)
 - [Hugging Face Dataset: ScaleAI/SWE-Atlas-QnA](https://huggingface.co/datasets/ScaleAI/SWE-Atlas-QnA)

@@ -11,7 +11,7 @@ type: note
 
 Question: How to play Zhang Fei in Kong of Honours
 
-Answer: 
+Answer:
 Zhang Fei (likely intended as the hero from **Honor of Kings**, a popular MOBA, as "Kong of Honours" appears to be a misspelling or variant with no distinct game found) is a **Support/Tank** (Guardian subclass) played primarily in the **Roaming** lane. He excels at frontline initiation, shielding allies, crowd control (CC), and transforming into a durable damage dealer via his Madness mechanic. His dual-form playstyle—Human (pre-transform) for stacking and support, Ferali (post-transform) for aggression—makes him strong in team fights, protecting carries like marksmen while disrupting enemies.
 
 ### Core Mechanics: Madness & Transformation
@@ -70,7 +70,7 @@ Prioritize tankiness (HP, defenses) + shields/CC. Adapt vs. phys/magic heavy tea
 
 Master stacking + timely Ult for game-changing engages!
 
-References: 
+References:
 - [Honor of Kings Wiki - Zhang Fei](https://honor-of-kings.fandom.com/wiki/Zhang_Fei)
 - [Sportskeeda - Zhang Fei Build Guide](https://www.sportskeeda.com/esports/honor-kings-zhang-fei-build-guide-best-equipment-arcanas-battle-spells-skill-combos)
 - [HOKBuild - Zhang Fei](https://hokbuild.com/hero/zhang-fei)

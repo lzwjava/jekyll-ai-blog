@@ -16,16 +16,16 @@ In the context of communication systems and signal processing, **AM**, **FM**, a
 
 Here's a breakdown of each:
 
-- **AM (Amplitude Modulation)**:  
-  The amplitude (strength or height) of the carrier wave is varied in proportion to the amplitude of the modulating signal, while the carrier's frequency remains constant. This is simple and widely used in AM radio broadcasting. It's susceptible to noise because interference affects the amplitude directly.  
+- **AM (Amplitude Modulation)**:
+  The amplitude (strength or height) of the carrier wave is varied in proportion to the amplitude of the modulating signal, while the carrier's frequency remains constant. This is simple and widely used in AM radio broadcasting. It's susceptible to noise because interference affects the amplitude directly.
   *Example*: In voice transmission, louder sounds increase the carrier's amplitude peaks.
 
-- **FM (Frequency Modulation)**:  
-  The frequency of the carrier wave is varied according to the amplitude and frequency of the modulating signal, while the carrier's amplitude stays constant. FM provides better noise resistance and is common in FM radio, TV sound, and two-way radios.  
+- **FM (Frequency Modulation)**:
+  The frequency of the carrier wave is varied according to the amplitude and frequency of the modulating signal, while the carrier's amplitude stays constant. FM provides better noise resistance and is common in FM radio, TV sound, and two-way radios.
   *Example*: Higher-pitched audio shifts the carrier frequency up or down proportionally.
 
-- **PM (Phase Modulation)**:  
-  The phase (timing or shift) of the carrier wave is altered based on the modulating signal's changes, with constant amplitude and frequency. PM is similar to FM (they're mathematically related via differentiation) and is often used in digital systems like phase-shift keying (PSK), but in analog form, it's applied in some satellite and mobile communications.  
+- **PM (Phase Modulation)**:
+  The phase (timing or shift) of the carrier wave is altered based on the modulating signal's changes, with constant amplitude and frequency. PM is similar to FM (they're mathematically related via differentiation) and is often used in digital systems like phase-shift keying (PSK), but in analog form, it's applied in some satellite and mobile communications.
   *Example*: A change in the modulating signal advances or delays the carrier's waveform cycle.
 
 #### Relation to A/D and D/A Conversions
@@ -35,5 +35,5 @@ These techniques are more directly tied to analog transmission, but in modern sy
 
 For deeper dives, check out resources on analog modulation in signal processing.
 
-[Analog Modulation Techniques](https://en.wikipedia.org/wiki/Modulation#Analog_modulation_methods)  
+[Analog Modulation Techniques](https://en.wikipedia.org/wiki/Modulation#Analog_modulation_methods)
 [FM vs AM Comparison](https://www.electronics-tutorials.ws/accircuits/amplitude-modulator.html)

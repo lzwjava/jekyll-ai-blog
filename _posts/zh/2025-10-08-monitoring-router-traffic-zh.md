@@ -74,7 +74,7 @@ type: note
 
 以上方案可提供全面监控视野。若原厂界面已满足基础需求，建议保持现状以避免刷机风险
 
-[OpenWrt技术数据：Qihoo 360T7](https://openwrt.org/toh/hwdata/qihoohardware/qihoohardware_360t7)  
-[360 T7U手册（日志章节）](https://ipc-pr-cdn.jia.360.cn/ipc-pr/luyouqiT7U.pdf)  
-[OpenWrt日志指南](https://openwrt.org/docs/guide-user/base-system/log.essentials)  
+[OpenWrt技术数据：Qihoo 360T7](https://openwrt.org/toh/hwdata/qihoohardware/qihoohardware_360t7)
+[360 T7U手册（日志章节）](https://ipc-pr-cdn.jia.360.cn/ipc-pr/luyouqiT7U.pdf)
+[OpenWrt日志指南](https://openwrt.org/docs/guide-user/base-system/log.essentials)
 [360论坛：日志导出](https://bbs.360.cn/forum-7007-1.html)

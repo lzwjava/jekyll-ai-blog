@@ -16,5 +16,5 @@ type: note
 
 这与您分享的中文翻译高度契合，共同强调了教育应是愉悦的体验而非负担。
 
-[爱因斯坦语录终极版](https://press.princeton.edu/books/hardcover/9780691160146/ultimate-quotable-einstein)  
+[爱因斯坦语录终极版](https://press.princeton.edu/books/hardcover/9780691160146/ultimate-quotable-einstein)
 [爱因斯坦《观念与见解》](https://www.goodreads.com/book/show/937850.Ideas_and_Opinions)

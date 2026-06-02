@@ -12,7 +12,7 @@ type: note
 
 **Question:** In Genshin Impact, I'm lost and don't know what to do.
 
-**Answer:** 
+**Answer:**
 
 Don't worry—Genshin Impact's massive open world can feel overwhelming, especially with hundreds of hours of content across regions like Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and the latest Nod-Krai area in version 6.2 (as of December 2025). Being "lost" usually means you're unsure of your next steps in quests, progression, or exploration. Here's a step-by-step guide to get unstuck and back on track, tailored for beginners to mid-game players (Adventure Rank 1–50+). Prioritize these in order for steady progress.
 
@@ -36,7 +36,7 @@ Don't worry—Genshin Impact's massive open world can feel overwhelming, especia
    - Aim for 100–200 AR EXP daily here—raises World Level for better drops.
 
 ### 3. **Explore Actively to Gain Power**
-   - Open the **Map** (M key or icon): 
+   - Open the **Map** (M key or icon):
      - Teleport to nearest waypoint (blue pillars) if literally lost.
      - Hunt for chests (sparkly spots, follow Seelies—glowing blue orbs), puzzles (pressure plates, elements), and oculi (region-specific orbs).
      - 100% exploration in a region = free wishes (Primogems).

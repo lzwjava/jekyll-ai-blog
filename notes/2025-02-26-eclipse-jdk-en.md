@@ -12,13 +12,13 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
 
 ### Step-by-Step Solution
 
-1. **Understand the Requirement**  
+1. **Understand the Requirement**
    Eclipse 4.6.3 (Neon) requires at least Java 8 to run properly. The error suggests that the current JVM (from `Oracle\Java\javapath`) may not meet this requirement or has configuration issues. You’ll need to point Eclipse to a compatible Java installation, such as a Java 8 JDK.
 
-2. **Locate Your Java Installation**  
-   Identify where a compatible Java version (e.g., JDK 1.8.0) is installed on your system. Common locations on Windows include:  
-   - `C:\Program Files\Java\jdk1.8.0_XXX` (for 64-bit Java)  
-   - `C:\Program Files (x86)\Java\jdk1.8.0_XXX` (for 32-bit Java)  
+2. **Locate Your Java Installation**
+   Identify where a compatible Java version (e.g., JDK 1.8.0) is installed on your system. Common locations on Windows include:
+   - `C:\Program Files\Java\jdk1.8.0_XXX` (for 64-bit Java)
+   - `C:\Program Files (x86)\Java\jdk1.8.0_XXX` (for 32-bit Java)
    Replace `XXX` with the specific update version (e.g., `231` for JDK 1.8.0_231). Inside this directory, the `javaw.exe` file is located in the `bin` subdirectory (e.g., `C:\Program Files\Java\jdk1.8.0_XXX\bin\javaw.exe`).
 
    **Tip**: To confirm the version and architecture, open a command prompt, navigate to the `bin` directory (e.g., `cd C:\Program Files\Java\jdk1.8.0_XXX\bin`), and run:
@@ -27,10 +27,10 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
    ```
    Look for "64-Bit" or "32-Bit" in the output to verify the architecture. Ensure it matches your Eclipse version (likely 64-bit if downloaded recently).
 
-3. **Find the `eclipse.ini` File**  
+3. **Find the `eclipse.ini` File**
    The `eclipse.ini` file is a configuration file located in the same directory as `eclipse.exe`. For example, if Eclipse is installed in `C:\eclipse`, the file will be at `C:\eclipse\eclipse.ini`. This file allows you to specify the JVM that Eclipse should use.
 
-4. **Edit the `eclipse.ini` File**  
+4. **Edit the `eclipse.ini` File**
    Open `eclipse.ini` in a text editor (e.g., Notepad) with administrative privileges. You’ll modify it to include the `-vm` argument, which tells Eclipse which JVM to use. Follow these steps:
 
    - **Check the Existing Content**: Look for a `-vm` argument. If it’s already present, it will be followed by a path on the next line (e.g., `-vm` followed by `C:/some/path/bin/javaw.exe`). If it points to the problematic `Oracle\Java\javapath\javaw.exe`, you’ll replace it. If no `-vm` argument exists, you’ll add it.
@@ -56,7 +56,7 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
      ```
    - **Avoid Extra Spaces or Blank Lines**: Ensure there are no unnecessary spaces or blank lines immediately after the `-vm` or path lines, as this can cause Eclipse to misinterpret the configuration.
 
-5. **Save and Test**  
+5. **Save and Test**
    Save the `eclipse.ini` file, then double-click `eclipse.exe` to start Eclipse. If configured correctly, Eclipse should launch without the "Java was started but returned exit code" error.
 
 ### Additional Notes

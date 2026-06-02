@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the Cultural Revolution in China.
 
-Answer: 
+Answer:
 
 The **Cultural Revolution**, officially known as the **Great Proletarian Cultural Revolution** (无产阶级文化大革命), was a massive sociopolitical movement in the People's Republic of China from **1966 to 1976**. Launched by Mao Zedong, it aimed to preserve Chinese communism by purging remnants of capitalist and traditional elements from society, while reasserting Mao's authority within the Chinese Communist Party (CCP).
 
@@ -33,36 +33,36 @@ In 1966, Mao decided to launch a new mass movement to "bombard the headquarters"
 
 ### Main Phases and Key Events
 
-1. **Red Guard Movement (1966–1968)**  
-   - Mao called on students to "rebel is justified."  
-   - Millions of high school and university students formed **Red Guard** organizations.  
-   - **Red August** (1966) in Beijing: widespread violence, beatings, killings, and destruction of the "Four Olds" (old customs, culture, habits, ideas).  
-   - Teachers, intellectuals, officials, and anyone labeled "black elements" were publicly humiliated (struggle sessions), beaten, or killed.  
+1. **Red Guard Movement (1966–1968)**
+   - Mao called on students to "rebel is justified."
+   - Millions of high school and university students formed **Red Guard** organizations.
+   - **Red August** (1966) in Beijing: widespread violence, beatings, killings, and destruction of the "Four Olds" (old customs, culture, habits, ideas).
+   - Teachers, intellectuals, officials, and anyone labeled "black elements" were publicly humiliated (struggle sessions), beaten, or killed.
    - Many historical sites, temples, books, and artifacts were destroyed.
 
-2. **Power Seizures and Factional Fighting (1967–1968)**  
-   - Red Guards and revolutionary rebels seized power from local Party committees ("power seizures").  
-   - Factions fought each other violently (sometimes with weapons seized from the military).  
-   - Wuhan Incident (July 1967): local military forces kidnapped Mao's emissary Wang Li → showed how chaotic the situation had become.  
+2. **Power Seizures and Factional Fighting (1967–1968)**
+   - Red Guards and revolutionary rebels seized power from local Party committees ("power seizures").
+   - Factions fought each other violently (sometimes with weapons seized from the military).
+   - Wuhan Incident (July 1967): local military forces kidnapped Mao's emissary Wang Li → showed how chaotic the situation had become.
    - By late 1967–1968, the army (PLA) was sent to restore order under the "Three Supports and Two Militaries" policy.
 
-3. **Down to the Countryside Movement (1968–1970s)**  
-   - To end urban violence, Mao ordered millions of urban youths ("sent-down youth" or zhiqing) to the countryside for re-education by peasants.  
+3. **Down to the Countryside Movement (1968–1970s)**
+   - To end urban violence, Mao ordered millions of urban youths ("sent-down youth" or zhiqing) to the countryside for re-education by peasants.
    - This affected roughly 17 million young people, many for 5–10 years.
 
-4. **Lin Biao Period and 9th Party Congress (1969)**  
-   - Lin Biao was designated Mao's successor.  
-   - The 1969 Party Congress formalized many Cultural Revolution changes.  
+4. **Lin Biao Period and 9th Party Congress (1969)**
+   - Lin Biao was designated Mao's successor.
+   - The 1969 Party Congress formalized many Cultural Revolution changes.
    - Later, Lin Biao allegedly plotted a coup and died in a plane crash in Mongolia (September 1971) → major shock to the movement.
 
-5. **Later Phase: Criticize Lin, Criticize Confucius (1973–1976)**  
-   - Power struggles continued between radical "Gang of Four" (Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Wang Hongwen) and more moderate forces (Zhou Enlai, Deng Xiaoping).  
+5. **Later Phase: Criticize Lin, Criticize Confucius (1973–1976)**
+   - Power struggles continued between radical "Gang of Four" (Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Wang Hongwen) and more moderate forces (Zhou Enlai, Deng Xiaoping).
    - Deng was rehabilitated in 1973, purged again in 1976 after Zhou Enlai's death.
 
 ### End of the Cultural Revolution
 
-- **September 9, 1976**: Mao Zedong died.  
-- **October 6, 1976**: The Gang of Four was arrested in a coup led by Hua Guofeng, Ye Jianying, and others.  
+- **September 9, 1976**: Mao Zedong died.
+- **October 6, 1976**: The Gang of Four was arrested in a coup led by Hua Guofeng, Ye Jianying, and others.
 - This date is officially regarded as the end of the Cultural Revolution.
 
 ### Consequences and Legacy
@@ -79,7 +79,7 @@ In 1981, the CCP officially declared the Cultural Revolution "a long period of g
 
 The Cultural Revolution remains one of the most controversial and sensitive topics in modern Chinese history.
 
-References:  
+References:
 
 - [Cultural Revolution - Wikipedia](https://en.wikipedia.org/wiki/Cultural_Revolution)
 - [Cultural Revolution | Britannica](https://www.britannica.com/event/Cultural_Revolution)

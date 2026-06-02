@@ -27,7 +27,7 @@ type: note
 #### 1. 下载正确的镜像
 - 访问：https://downloads.openwrt.org/
 - 选择 stable → releases → 24.10.5（或最新的 24.10.x）→ targets → x86 → 64
-- 推荐文件：**openwrt-x86-64-generic-ext4-combined-efi.img.gz**  
+- 推荐文件：**openwrt-x86-64-generic-ext4-combined-efi.img.gz**
   （这是 EFI 版本 —— 几乎所有 2010 年以后的笔记本都使用 UEFI。您最近安装过 Linux Mint 证明 UEFI 是可以工作的。）
 
 如果您 BIOS 仅支持 legacy/CSM（在 i5 笔记本上非常罕见），请改用 non-efi 版本。

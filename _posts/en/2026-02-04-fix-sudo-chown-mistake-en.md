@@ -35,7 +35,7 @@ You can't use sudo right now, so get root access without it:
 1. Reboot the computer.
 2. Hold **Shift** during boot (or **Esc** on some machines) until the GRUB menu appears.
 3. Select **Advanced options for Ubuntu** → choose any line that ends with **(recovery mode)** → press Enter.
-4. In the recovery menu, select **root** → **Drop to root shell prompt** → press Enter.  
+4. In the recovery menu, select **root** → **Drop to root shell prompt** → press Enter.
    → You now have a `#` prompt (full root access, no password needed here).
 5. Remount the filesystem read-write:
 
@@ -134,9 +134,9 @@ But this **won't fix everything** — some packages expect very specific owners/
 
 ### Realistic options at this point
 
-1. **Best & fastest long-term fix**  
-   → **Reinstall Ubuntu** (keep /home if you want).  
-   Boot live USB → "Try Ubuntu" → use the installer → choose "Something else" → reuse your existing / partition but **format it** (or just overwrite /usr,/etc,/var if you're advanced).  
+1. **Best & fastest long-term fix**
+   → **Reinstall Ubuntu** (keep /home if you want).
+   Boot live USB → "Try Ubuntu" → use the installer → choose "Something else" → reuse your existing / partition but **format it** (or just overwrite /usr,/etc,/var if you're advanced).
    → Takes 20–40 minutes and gives you a clean system.
 
 2. **Try to repair in place (advanced, time-consuming, may not fully succeed)**

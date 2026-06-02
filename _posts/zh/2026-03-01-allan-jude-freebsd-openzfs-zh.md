@@ -38,7 +38,7 @@ Allan 以在 BSD 社区的教育努力而广受认可：
 
 Allan Jude 以其深厚的技术知识、对复杂存储和操作系统挑战的实用方法，以及对开源 BSD 社区的奉献而备受尊敬。他弥合了高级开发、真实世界部署与易懂教育之间的差距，使其成为现代 **FreeBSD** 和 ZFS 使用中最具影响力的声音之一。
 
-参考资料：  
+参考资料：
 
 - [Allan Jude personal site](http://www.allanjude.com/)
 - [LinkedIn profile](https://ca.linkedin.com/in/allanjude)

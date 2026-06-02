@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Got it—you’d like a practical guide on how to run effective meetings (Zoom/Teams), especially when they involve more than 3 people, as well as how to structure daily standups and sprint meetings in an Agile context. Here’s a structured breakdown:  
+Got it—you’d like a practical guide on how to run effective meetings (Zoom/Teams), especially when they involve more than 3 people, as well as how to structure daily standups and sprint meetings in an Agile context. Here’s a structured breakdown:
 
 ---
 
@@ -26,11 +26,11 @@ Got it—you’d like a practical guide on how to run effective meetings (Zoom/T
 
 ## 2. Challenges With Group Discussion (>3 People)
 - **Why it feels messy**: Too many voices, people talk over each other, focus shifts.
-- **Solutions**:  
-  - Use **round-robin style** (“Let’s go one by one quickly”)  
-  - Use **chat** for side comments/questions while one presents  
-  - Break into **small breakout rooms** for detailed sub-discussions  
-  - Appoint note-taker or assign “decision driver”  
+- **Solutions**:
+  - Use **round-robin style** (“Let’s go one by one quickly”)
+  - Use **chat** for side comments/questions while one presents
+  - Break into **small breakout rooms** for detailed sub-discussions
+  - Appoint note-taker or assign “decision driver”
 
 ---
 
@@ -38,43 +38,43 @@ Got it—you’d like a practical guide on how to run effective meetings (Zoom/T
 The purpose is **visibility and alignment**, not deep problem-solving. Keep it short (max 15 mins).
 
 **Format (Common 3 Questions):**
-1. What did I do yesterday?  
-2. What will I do today?  
-3. Any blockers?  
+1. What did I do yesterday?
+2. What will I do today?
+3. Any blockers?
 
 **Best Practices:**
-- Stand (physically or virtually) to keep it brief.  
-- Timebox each person to ~1 min.  
-- Defer problem-solving—if someone raises a blocker, note it and continue; discuss details **after stand-up** with only those involved.  
+- Stand (physically or virtually) to keep it brief.
+- Timebox each person to ~1 min.
+- Defer problem-solving—if someone raises a blocker, note it and continue; discuss details **after stand-up** with only those involved.
 
 ---
 
 ## 4. Sprint Planning
-Purpose: Decide *what to build in the upcoming sprint* and *how to build it*. Usually 1–2 hours for a 2-week sprint.  
-- Product Owner: presents prioritized backlog items.  
-- Team: estimates and commits to work.  
-- Output: sprint backlog (tasks the team commits to).  
+Purpose: Decide *what to build in the upcoming sprint* and *how to build it*. Usually 1–2 hours for a 2-week sprint.
+- Product Owner: presents prioritized backlog items.
+- Team: estimates and commits to work.
+- Output: sprint backlog (tasks the team commits to).
 
 ---
 
 ## 5. Sprint Review
-Purpose: Demonstrate completed work to stakeholders, gather feedback.  
-- Showcase increment (not slides, real product if possible).  
-- Collect reactions.  
-- Adjust backlog if needed.  
+Purpose: Demonstrate completed work to stakeholders, gather feedback.
+- Showcase increment (not slides, real product if possible).
+- Collect reactions.
+- Adjust backlog if needed.
 
 ---
 
 ## 6. Sprint Retrospective
-Purpose: Inspect and improve team processes.  
-Structure could be:  
-- **Start / Stop / Continue** OR **What went well / What didn’t / Ideas for improvement**  
-- Timebox: 30–60 min.  
-- Pick 1–2 concrete actions to try next sprint.  
+Purpose: Inspect and improve team processes.
+Structure could be:
+- **Start / Stop / Continue** OR **What went well / What didn’t / Ideas for improvement**
+- Timebox: 30–60 min.
+- Pick 1–2 concrete actions to try next sprint.
 
 ---
 
-✅ **Key Tip for All Meetings**: Discussions **don’t scale** with participants. Use a “big meeting for alignment, small follow-ups for problem-solving.”  
+✅ **Key Tip for All Meetings**: Discussions **don’t scale** with participants. Use a “big meeting for alignment, small follow-ups for problem-solving.”
 
 ---
 

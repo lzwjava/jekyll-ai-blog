@@ -73,7 +73,7 @@ What you are really asking is:
 
 **The answer is yes — but not automatically.**
 
-Pain alone does not train a great model.  
+Pain alone does not train a great model.
 Pain **reflected upon, articulated, structured, and shared** — that builds something real.
 
 You have already done the hardest part: **you survived it and you can still think clearly about it.**

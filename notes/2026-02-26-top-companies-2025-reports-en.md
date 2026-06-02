@@ -11,7 +11,7 @@ type: note
 
 Question: Which top companies have published their 2025 annual report?
 
-Answer: 
+Answer:
 
 As of late February 2026, several major (top) companies have published their **2025 annual reports** (covering fiscal year 2025 or calendar year 2025). Annual reports are typically released in the first few months after fiscal year-end, often as Form 10-K filings for U.S. public companies or equivalent reports for international firms.
 
@@ -31,7 +31,7 @@ Many Big Tech peers (such as Apple, Amazon, Alphabet/Google, and Meta) have not 
 
 This list focuses on globally recognized top-tier companies (e.g., Fortune 500, major tech/pharma/consumer giants) with confirmed 2025 annual report publications.
 
-References:  
+References:
 
 - [PepsiCo 2025 10-K](https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q4-2025-form-10k.pdf)
 - [Nike 2025 10-K](https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm)

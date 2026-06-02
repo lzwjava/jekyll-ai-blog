@@ -21,5 +21,5 @@ type: note
 
 如需了解当前职位或组织架构详情，请查阅渣打银行招聘门户或年度报告。
 
-[渣打银行2024年度报告](https://www.sc.com/en/investors/financial-reports/)  
+[渣打银行2024年度报告](https://www.sc.com/en/investors/financial-reports/)
 [渣打银行招聘-运营类职位](https://www.sc.com/en/global-careers/)

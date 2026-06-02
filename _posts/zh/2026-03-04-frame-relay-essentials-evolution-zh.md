@@ -107,7 +107,7 @@ Frame Relay 在新部署中几乎完全被淘汰。现有的安装大多是遗�
 - 理解 WAN 技术演进
 - 虚拟电路、统计复用、CIR、拥塞通知等概念，这些在 MPLS 和 SD-WAN 中以修改形式出现。
 
-References:  
+References:
 
 - [Introduction to Frame-Relay](https://networklessons.com/wide-area-network/introduction-to-frame-relay)
 - [Comprehensive Guide to Configuring and Troubleshooting Frame Relay - Cisco](https://www.cisco.com/c/en/us/support/docs/wan/frame-relay/16563-12.html)

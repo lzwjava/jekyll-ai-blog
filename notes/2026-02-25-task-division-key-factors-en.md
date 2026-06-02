@@ -11,7 +11,7 @@ type: note
 
 Question: When separating or dividing tasks in software development, what key factors should we consider?
 
-Answer: 
+Answer:
 
 Here are the most important aspects to think about when breaking down and assigning tasks in software development (especially in Agile/Scrum or similar team settings):
 
@@ -31,21 +31,21 @@ Here are the most important aspects to think about when breaking down and assign
 - **Personality & working style** — Some people thrive on frontend, others on performance/refactoring, others on infrastructure. Respect this when possible, but don't make it rigid.
 
 ### Technical & Dependency Factors
-- **What can truly be parallelized**  
-  - Independent modules / microservices / features → good for parallel work  
+- **What can truly be parallelized**
+  - Independent modules / microservices / features → good for parallel work
   - Shared core domain logic, database schema changes, authentication, critical refactoring → usually cannot be parallelized safely (high conflict risk)
 - **Dependencies between tasks** — Map them explicitly (predecessor-successor). Minimize blocking dependencies; prefer to split so most work can start early.
 - **Merge / integration risk** — Large parallel changes in the same files/modules → very painful merges. Better to sequence or use feature flags / branching strategies.
 - **Separate code change vs. testing** — Usually **no** — the person(s) who write the code should also write most tests (TDD/ATDD style). Separate QA/testing is fine for exploratory / acceptance / non-functional testing, but unit/integration tests belong with developers.
 
 ### Team Size & Capacity Factors
-- **How many people needed**  
-  - Most user stories should be doable by **1–3 people** (often 1 primary + review/pair).  
+- **How many people needed**
+  - Most user stories should be doable by **1–3 people** (often 1 primary + review/pair).
   - Larger epics/features → 3–8 people max per cohesive group (larger → communication overhead grows fast — see "two pizza team" rule).
-- **Minimum and maximum sensible team sizes**  
-  - **Minimum** per task/story: usually 1 (but prefer ≥2 for review + shared understanding)  
-  - **Maximum** per story: ~3–4 (more people → coordination cost > speed gain)  
-  - **Minimum** per stable team: 3–4 (too small → limited skill coverage, sick/vacation risk)  
+- **Minimum and maximum sensible team sizes**
+  - **Minimum** per task/story: usually 1 (but prefer ≥2 for review + shared understanding)
+  - **Maximum** per story: ~3–4 (more people → coordination cost > speed gain)
+  - **Minimum** per stable team: 3–4 (too small → limited skill coverage, sick/vacation risk)
   - **Maximum** per team: 7–9 (ideal ~5–7); above 9 → split into multiple teams
 
 ### Quick Checklist When Splitting / Assigning
@@ -59,7 +59,7 @@ Here are the most important aspects to think about when breaking down and assign
 
 Thinking through these points (and discussing them openly in planning / refinement) usually leads to much smoother execution and fewer surprises.
 
-References:  
+References:
 
 - [Work Breakdown Structure (WBS) Best Practices](https://www.atlassian.com/work-management/project-management/work-breakdown-structure)
 - [SPIDR: Five Simple but Powerful Ways to Split User Stories](https://www.mountaingoatsoftware.com/blog/five-simple-but-powerful-ways-to-split-user-stories)

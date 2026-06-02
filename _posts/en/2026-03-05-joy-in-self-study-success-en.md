@@ -11,7 +11,7 @@ type: note
 
 Question: How to build passion for the National Higher Education Self-study Examination (自考) and how to love such exams?
 
-Answer: 
+Answer:
 
 Building genuine passion for **自考** (self-study higher education exams) is challenging because the process is often long, repetitive, and solitary, but many successful candidates eventually develop strong motivation and even come to "love" aspects of it. True passion rarely starts strong—it usually grows through small wins, mindset shifts, and connecting the exams to personal meaning. Here are practical, proven ways drawn from experiences of self-study graduates:
 
@@ -51,7 +51,7 @@ Building genuine passion for **自考** (self-study higher education exams) is c
 
 In short, you don't need to "love" every exam from day one. Start by making the process tolerable → enjoyable → meaningful through tiny habits, real purpose, and proof of progress. Over time (often after 1–2 years), many shift from "I have to" to "I want to," and the exams become a source of pride and even enjoyment. Persistence creates passion more often than passion creates persistence.
 
-References:  
+References:
 
 - [Self-exam success story emphasizing interest and persistence](https://www.jseea.cn/webfile/selflearning_ksfc/2018-05-02/6021.html)
 - [Zhihu discussions on persisting and building interest in self-study](https://www.zhihu.com/question/601460435)

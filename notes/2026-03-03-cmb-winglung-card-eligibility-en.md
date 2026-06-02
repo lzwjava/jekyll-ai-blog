@@ -11,7 +11,7 @@ type: note
 
 **Question: How about the CMB Wing Lung Bank case? I have that account already.**
 
-**Answer:** 
+**Answer:**
 
 Yes, as a mainland Chinese citizen with an existing personal account at **CMB Wing Lung Bank** (opened using your Mainland Travel Permit for Hong Kong and Macao, along with other required ID like PRC ID card or passport), you are eligible to apply for certain **credit cards**, particularly as a non-Hong Kong resident.
 
@@ -33,7 +33,7 @@ Compared to BOCHK, CMB Wing Lung appears more straightforward for non-residents 
 
 For the latest details, confirmation of your specific eligibility (based on your account assets and income proof), or to apply, visit a CMB Wing Lung branch in Hong Kong, use their mobile app/online channels if available for credit card applications, or contact their customer service hotline at (852) 2309 5555. Policies and requirements can be updated, so check directly with the bank.
 
-**References:**  
+**References:**
 
 - [https://www.cmbwinglungbank.com/wlb_corporate/UserFiles/File/pdf/En/EnDocumentCreditCard.pdf](https://www.cmbwinglungbank.com/wlb_corporate/UserFiles/File/pdf/En/EnDocumentCreditCard.pdf)
 - [https://www.cmbwinglungbank.com/wlb_corporate/en/personal/credit-card/credit-card-products/wing-lung-cup-dual-currency-platinum-card/index.html](https://www.cmbwinglungbank.com/wlb_corporate/en/personal/credit-card/credit-card-products/wing-lung-cup-dual-currency-platinum-card/index.html)

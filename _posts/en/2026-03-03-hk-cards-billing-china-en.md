@@ -11,7 +11,7 @@ type: note
 
 Question: As a mainland China citizen, when using a ZA Card Visa or HSBC HK Mastercard opened with an entry permit in Hong Kong, should I use my mainland China address (Guangzhou) or a Hong Kong address when paying bills online? I have been using the mainland one with no issues.
 
-Answer: 
+Answer:
 
 For both the **ZA Card (Visa debit card from ZA Bank)** and **HSBC Hong Kong Mastercard** (or debit Mastercard), the **billing address** you enter for online payments should ideally match the address associated with your card and bank records to minimize any risk of transaction declines due to address verification system (AVS) checks.
 
@@ -27,7 +27,7 @@ For both the **ZA Card (Visa debit card from ZA Bank)** and **HSBC Hong Kong Mas
 
 In summary, your current practice of using the mainland address is fine and commonly works for mainland citizens holding these Hong Kong-issued cards.
 
-References:  
+References:
 
 - [ZA Bank official site](https://bank.za.group/en)
 - [ZA Bank FAQ on visitor account opening](https://bank.za.group/en/faqs/Individuals/Account_opening/Open_an_account_for_a_visitor_in_HongKong/66503e50b359be4a195230e7)

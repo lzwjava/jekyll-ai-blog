@@ -12,15 +12,15 @@ type: note
 
 **Question:** What are the recent changes Deloitte made to job titles, including canceling long-standing titles, adding skills labels, and allowing individual contributors (ICs) to reach partner level?
 
-**Answer:** 
+**Answer:**
 
 Deloitte (specifically in the US) announced a major overhaul of its job titles and talent architecture in January 2026, with changes taking effect starting June 1, 2026. This applies to nearly all ~181,500 US employees across divisions.
 
 Key elements of the change include:
 
-- **Modernizing "outdated" traditional titles**: The old hierarchical structure (e.g., analyst → senior analyst → consultant → senior consultant → manager → senior manager → PPMD: Partner/Principal/Managing Director) was designed for a more uniform, traditional consulting workforce. These broad titles are being replaced or expanded to be more specific and reflective of actual skills, work, and specialization.  
-  - New titles incorporate **job families** and **sub-families** to highlight expertise areas.  
-  - Example: A current "senior consultant" might become "Senior Consultant, Functional Transformation," "Software Engineer III," "Project Management Senior Consultant," or similar, depending on their role and skills.  
+- **Modernizing "outdated" traditional titles**: The old hierarchical structure (e.g., analyst → senior analyst → consultant → senior consultant → manager → senior manager → PPMD: Partner/Principal/Managing Director) was designed for a more uniform, traditional consulting workforce. These broad titles are being replaced or expanded to be more specific and reflective of actual skills, work, and specialization.
+  - New titles incorporate **job families** and **sub-families** to highlight expertise areas.
+  - Example: A current "senior consultant" might become "Senior Consultant, Functional Transformation," "Software Engineer III," "Project Management Senior Consultant," or similar, depending on their role and skills.
   - This moves toward a more **skills-based** approach, where titles better match the diverse capabilities employees have (driven partly by AI transforming consulting work and client demands for new skills).
 
 - **Internal leveling**: Employees receive alphanumeric codes (e.g., L45 for current senior consultant level, L55 for manager) to clarify career levels consistently.
@@ -38,7 +38,7 @@ No major reports indicate complete cancellation of the "partner" title itself—
 
 This is primarily a US change announced in early 2026; it may influence global practices over time but is not yet confirmed elsewhere.
 
-**References:**  
+**References:**
 
 - [Deloitte is overhauling job titles for its US workforce — here's why](https://www.businessinsider.com/deloitte-gives-us-employees-new-job-titles-leader-role-2026-1)
 - ['Talent architecture' | Deloitte US launches company-wide overhaul of job titles amid AI shift](https://www.hrgrapevine.com/us/content/article/2026-01-30-deloitte-plans-us-wide-reset-of-job-titles-as-it-incorporates-ai)

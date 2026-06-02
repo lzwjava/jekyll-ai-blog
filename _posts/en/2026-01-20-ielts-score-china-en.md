@@ -12,7 +12,7 @@ type: note
 
 Question: How good is an IELTS overall band score of 6.5 in China? Is it in the top 30% of test-takers?
 
-Answer: 
+Answer:
 
 An IELTS overall band score of **6.5** is considered a solid and competitive score in China, especially for university applications, skilled migration, or jobs that require proof of English proficiency. However, it is **not** in the top 30% of Chinese test-takers — it is more realistically in the **top 40–55%** range, depending on the year and test-taker group (academic vs general training).
 
@@ -33,14 +33,14 @@ Context and real-world meaning in China:
 - On Chinese social media (Xiaohongshu, Zhihu, Weibo, Douyin), you will see many people celebrate 6.5 as a “合格线” (passing line) or “还不错” (pretty good), while 7.0+ is celebrated much more intensely.
 - Immigration points (e.g., Canada Express Entry, Australia skilled migration) usually give more points at 7.0+, so 6.5 is competent but not maximum points.
 
-**Summary**  
-- 6.5 is **above average** and useful for many purposes in China.  
-- It is **not top 30%** — more like **top 45–50%** among Chinese test-takers.  
+**Summary**
+- 6.5 is **above average** and useful for many purposes in China.
+- It is **not top 30%** — more like **top 45–50%** among Chinese test-takers.
 - If your target schools or visa programs only need 6.0–6.5, you are in a safe zone. If they require 7.0 or higher (very common for top universities or competitive scholarships), you would benefit from improving, especially Speaking and Writing.
 
-References:  
+References:
 
-- [https://ielts.org/organisations/ielts-scores-explained](https://ielts.org/organisations/ielts-scores-explained)  
-- [https://takeielts.britishcouncil.org/teach-ielts/test-information/results-statistics](https://takeielts.britishcouncil.org/teach-ielts/test-information/results-statistics)  
-- [https://zhuanlan.zhihu.com/p/645372189](https://zhuanlan.zhihu.com/p/645372189) (Chinese analysis of recent China score distribution)  
+- [https://ielts.org/organisations/ielts-scores-explained](https://ielts.org/organisations/ielts-scores-explained)
+- [https://takeielts.britishcouncil.org/teach-ielts/test-information/results-statistics](https://takeielts.britishcouncil.org/teach-ielts/test-information/results-statistics)
+- [https://zhuanlan.zhihu.com/p/645372189](https://zhuanlan.zhihu.com/p/645372189) (Chinese analysis of recent China score distribution)
 - [https://www.xiaohongshu.com/search_result?keyword=ielts%206.5%20百分位](https://www.xiaohongshu.com/search_result?keyword=ielts%206.5%20百分位) (user discussions on percentiles in China)

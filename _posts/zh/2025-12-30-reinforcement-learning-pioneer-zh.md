@@ -31,10 +31,10 @@ Sutton 与 Andrew G. Barto 合著了开创性教科书 *Reinforcement Learning: 
 
 Sutton 在 2019 年发表的具有影响力的文章 "The Bitter Lesson" 中指出，利用计算能力而非人为设计的特征是推动 AI 长期进步的动力。他继续倡导将 RL 作为实现 General Intelligence 的核心，并强调预测、交互和规模的重要性。
 
-References:  
+References:
 
-- [Wikipedia: Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)  
-- [Amii: Richard S. Sutton Profile](https://www.amii.ca/people/richard-s-sutton)  
-- [ACM Turing Award: Richard Sutton](https://awards.acm.org/award-recipients/sutton_0160594)  
-- [Incomplete Ideas: Rich Sutton's Home Page](http://incompleteideas.net/)  
+- [Wikipedia: Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)
+- [Amii: Richard S. Sutton Profile](https://www.amii.ca/people/richard-s-sutton)
+- [ACM Turing Award: Richard Sutton](https://awards.acm.org/award-recipients/sutton_0160594)
+- [Incomplete Ideas: Rich Sutton's Home Page](http://incompleteideas.net/)
 - [CIFAR: Richard Sutton Bio](https://cifar.ca/bios/richard-sutton/)

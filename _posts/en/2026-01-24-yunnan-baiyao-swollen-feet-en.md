@@ -12,7 +12,7 @@ type: note
 
 Question: Is Yunnan Baiyao spray great to use before sleep when feet swell due to a misstep while walking, because the liquid can be absorbed into the skin?
 
-Answer: 
+Answer:
 
 Yunnan Baiyao (云南白药) spray is a popular traditional Chinese medicine product commonly used for:
 
@@ -50,6 +50,6 @@ The aerosol/spray version contains alcohol and other penetration enhancers, so t
 
 Overall, yes — many people (especially in China and among users familiar with TCM) consider Yunnan Baiyao spray one of the better over-the-counter topical options for exactly this kind of minor trauma-related foot/ankle swelling and pain, and bedtime application is a very common habit.
 
-References:  
+References:
 
 - None (based on general product knowledge and common user reports)

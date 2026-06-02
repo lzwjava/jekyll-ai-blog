@@ -55,21 +55,21 @@ public class SoapEnvelopeExample {
     public static void main(String[] args) throws Exception {
         // Create a SOAP factory
         SOAPFactory soapFactory = SOAPFactory.newInstance();
-        
+
         // Create the message and envelope
         MessageFactory messageFactory = MessageFactory.newInstance();
         SOAPMessage soapMessage = messageFactory.createMessage();
         SOAPEnvelope envelope = soapMessage.getSOAPEnvelope();
-        
+
         // Namespace for SOAP (version 1.2)
         envelope.addNamespaceDeclaration("soap", "http://www.w3.org/2003/05/soap-envelope");
-        
+
         // Create Body element
         SOAPBody body = envelope.getBody();
         SOAPBodyElement bodyElement = body.addBodyElement(soapFactory.createName("GetBalance", "ns", "http://example.com"));
         SOAPElement amount = bodyElement.addChildElement("AccountNumber", "ns", "http://example.com");
         amount.addTextNode("12345");
-        
+
         // Save and print the message
         soapMessage.saveChanges();
         System.out.println("SOAP Envelope:");
@@ -88,11 +88,11 @@ Run this in any Java environment (JDK 8+). For full web services, ensure your pr
 
 Yes, Finacle (Infosys's core banking software) extensively uses SOAP XML envelopes for integration. It exposes web services via SOAP over HTTP through the **Finacle Integrator** layer, allowing external systems to communicate using standard SOAP protocols. This includes EJB interactions and middleware for services like account queries or transactions. Finacle's APIs often follow SOAP standards for secure, XML-based messaging in banking integrations.
 
-[XML Soap - W3Schools](https://www.w3schools.com/xml/xml_soap.asp)  
-[The structure of a SOAP message - IBM](https://www.ibm.com/docs/en/integration-bus/9.0.0?topic=soap-structure-message)  
-[SOAP - Envelope - Tutorials Point](https://www.tutorialspoint.com/soap/soap_envelope.htm)  
-[java - how to add <soap:Envelope> and <soap:body> in xml request - Stack Overflow](https://stackoverflow.com/questions/44721823/how-to-add-soapenvelope-and-soapbody-in-xml-request)  
-[SOAPEnvelope (Java Platform SE 8) - Oracle Help Center](https://docs.oracle.com/javase/8/docs/api/javax/xml/soap/SOAPEnvelope.html)  
-[Implementation of Microservice on Finacle Integrator using Spring Boot](https://medium.com/@einjoku/implementation-of-microservice-on-finacle-integrator-using-spring-boot-docker-with-kubernetes-d8f9c6026a6d)  
-[Architectural Considerations for Integrating with Finacle](https://www.ijcttjournal.org/2024/Volume-72%20Issue-6/IJCTT-V72I6P108.pdf)  
+[XML Soap - W3Schools](https://www.w3schools.com/xml/xml_soap.asp)
+[The structure of a SOAP message - IBM](https://www.ibm.com/docs/en/integration-bus/9.0.0?topic=soap-structure-message)
+[SOAP - Envelope - Tutorials Point](https://www.tutorialspoint.com/soap/soap_envelope.htm)
+[java - how to add <soap:Envelope> and <soap:body> in xml request - Stack Overflow](https://stackoverflow.com/questions/44721823/how-to-add-soapenvelope-and-soapbody-in-xml-request)
+[SOAPEnvelope (Java Platform SE 8) - Oracle Help Center](https://docs.oracle.com/javase/8/docs/api/javax/xml/soap/SOAPEnvelope.html)
+[Implementation of Microservice on Finacle Integrator using Spring Boot](https://medium.com/@einjoku/implementation-of-microservice-on-finacle-integrator-using-spring-boot-docker-with-kubernetes-d8f9c6026a6d)
+[Architectural Considerations for Integrating with Finacle](https://www.ijcttjournal.org/2024/Volume-72%20Issue-6/IJCTT-V72I6P108.pdf)
 [AS-TFINFRIXM1012-FTX100 Finacle Integration Technical - Scribd](https://www.scribd.com/document/369534444/TFINFRIXM1012-ENU)

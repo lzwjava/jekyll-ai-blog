@@ -11,11 +11,9 @@ Usage:
 """
 
 import argparse
-import os
 import re
 from pathlib import Path
 import unittest
-import sys
 
 
 class DuplicateNotesHandler:
@@ -148,7 +146,7 @@ class DuplicateNotesHandler:
             print("-" * 40)
             for path1, path2 in duplicates:
                 print(f"  {path1.name} ~ {path2.name}")
-            print(f"-" * 40)
+            print("-" * 40)
             self.fail(f"Found {len(duplicates)} duplicate note pairs")
         else:
             total_files = len(self.note_files)
@@ -197,7 +195,7 @@ class TestDuplicateNotes(unittest.TestCase):
             print("-" * 40)
             for path1, path2 in duplicates:
                 print(f"  {path1.name} ~ {path2.name}")
-            print(f"-" * 40)
+            print("-" * 40)
             self.fail(f"Found {len(duplicates)} duplicate note pairs")
         else:
             total_files = len(self.handler.note_files)

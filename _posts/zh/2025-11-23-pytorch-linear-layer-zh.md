@@ -61,10 +61,10 @@ PyTorch 中的 **nn.Linear** 模块对输入数据执行**线性变换**，其�
 import torch.nn as nn
 
 # 线性层
-linear_layer = nn.Linear(input_size, output_size) 
+linear_layer = nn.Linear(input_size, output_size)
 
 # 激活层是独立的
-activation_layer = nn.ReLU() 
+activation_layer = nn.ReLU()
 
 # 在前向传播或顺序模型中将它们串联起来：
 model = nn.Sequential(

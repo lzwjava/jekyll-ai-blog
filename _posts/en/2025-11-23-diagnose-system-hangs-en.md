@@ -73,11 +73,11 @@ You can introduce a small, strategic delay to allow the disk to "catch up" and f
                     # Progress reporting
                     if i % 10000 == 0:
                         print(f"File {file_idx + 1} - Processed {i} rows, Total: {total_rows_processed}")
-                        
+
                         # ✨ ADD THIS LINE to allow the system to breathe
                         # The value (e.g., 0.1 seconds) may need tuning.
                         import time
-                        time.sleep(0.1) 
+                        time.sleep(0.1)
 ```
 
 ### 3\. Optimize Text Extraction (Better I/O Efficiency)
@@ -99,14 +99,14 @@ for col in ['text', 'content', 'article', 'text_content', 'body']:
 if text_col:
     # 1. Select the text column
     texts = df[text_col].astype(str).tolist()
-    
+
     # 2. Join all texts from this file into one string
     # Apply the separator '<|endoftext|><|endoftext|><|endoftext|>'
     file_output = "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n".join(texts)
-    
+
     # 3. Write the entire file's content in one large block
     f.write(file_output.strip() + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n")
-    
+
     total_rows_processed += len(df) # Update count for the entire DataFrame
 ```
 

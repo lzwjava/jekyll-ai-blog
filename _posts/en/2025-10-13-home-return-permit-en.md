@@ -28,7 +28,7 @@ To get one, mainland residents typically apply through local police stations or 
 
 If your question meant something else by "how I call it" (e.g., a different term or context), feel free to clarify!
 
-**References:**  
-- [Mainland Travel Permit for Hong Kong and Macao Resident - Wikipedia](https://en.wikipedia.org/wiki/Mainland_Travel_Permit_for_Hong_Kong_and_Macao_Resident)  
-- [Mainland Travel Permit for Hong Kong and Macao Residents - NIA](https://en.nia.gov.cn/n147418/n147463/c156118/content.html)  
+**References:**
+- [Mainland Travel Permit for Hong Kong and Macao Resident - Wikipedia](https://en.wikipedia.org/wiki/Mainland_Travel_Permit_for_Hong_Kong_and_Macao_Resident)
+- [Mainland Travel Permit for Hong Kong and Macao Residents - NIA](https://en.nia.gov.cn/n147418/n147463/c156118/content.html)
 - [Entry Arrangements for Mainland Residents - Hong Kong Immigration](https://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html)

@@ -37,8 +37,8 @@ type: note
 
 这些机构在多策略领域常有重叠，但通过规模、技术或专业壁垒形成差异化。业绩表现随市场环境波动，如2024-2025年AI/科技股行情助推侧重权益的基金。
 
-[2025年美国最富有对冲基金经理榜单](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)  
-[高收入对冲基金经理年度排行榜](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)  
-[按管理规模排序的顶级对冲基金](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)  
-[2025年宏观对冲基金收益分化](https://www.hedgeweek.com/macro-hedge-fund-returns-diverge-amid-tariff-volatility/)  
+[2025年美国最富有对冲基金经理榜单](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)
+[高收入对冲基金经理年度排行榜](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)
+[按管理规模排序的顶级对冲基金](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)
+[2025年宏观对冲基金收益分化](https://www.hedgeweek.com/macro-hedge-fund-returns-diverge-amid-tariff-volatility/)
 [2025年虎系基金业绩表现](https://www.bloomberg.com/news/articles/2025-07-03/tiger-cubs-led-by-mandel-s-lone-pine-log-strong-first-half-gains)

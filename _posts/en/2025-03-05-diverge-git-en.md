@@ -12,14 +12,14 @@ When your local `main` branch and the remote `origin/main` branch have diverged 
 
 ### Steps to Fix the Divergence
 
-1. **Fetch the Latest Remote Changes**  
+1. **Fetch the Latest Remote Changes**
    Start by ensuring your local repository has the latest information from the remote. This updates your reference to `origin/main` without altering your local `main` branch yet.
 
    ```bash
    git fetch origin
    ```
 
-2. **Find the Common Ancestor Commit**  
+2. **Find the Common Ancestor Commit**
    Use `git merge-base` to identify the common ancestor commit between your local `main` and `origin/main`. This is the point where the branches diverged.
 
    ```bash
@@ -28,7 +28,7 @@ When your local `main` branch and the remote `origin/main` branch have diverged 
 
    This command stores the commit hash of the common ancestor in the variable `ancestor`.
 
-3. **Reset Local `main` to the Common Ancestor**  
+3. **Reset Local `main` to the Common Ancestor**
    Reset your local `main` branch to the common ancestor commit. The `--hard` option ensures that both the branch pointer and your working directory are updated, discarding all local commits and changes made after this point.
 
    ```bash
@@ -37,7 +37,7 @@ When your local `main` branch and the remote `origin/main` branch have diverged 
 
    **Caution**: This step will discard all uncommitted changes in your working directory and staging area, as well as the 74 commits unique to your local `main`. If you need to preserve these, consider creating a backup branch first (see "Optional Backup" below).
 
-4. **Pull the Remote Changes**  
+4. **Pull the Remote Changes**
    Now, pull the changes from `origin/main`. Since your local `main` is now at the common ancestor, and `origin/main` is ahead by 70 commits, this will fast-forward your local `main` to match `origin/main`.
 
    ```bash

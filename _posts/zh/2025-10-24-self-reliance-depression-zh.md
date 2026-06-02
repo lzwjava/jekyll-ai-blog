@@ -53,11 +53,11 @@ type: note
 
 **核心要义**：这些并非立竿见影的解决方案，而是需要数周积累的复合习惯。每周记录情绪变化，遇到挫折时保持温柔态度——它们只是数据而非失败。你本就拥有内在力量，现在要做的是一次次呼吸间唤醒它。
 
-**参考文献**  
-- [抑郁自助指南 | NHS inform](https://www.nhsinform.scot/illnesses-and-conditions/mental-health/mental-health-self-help-guides/depression-self-help-guide/)  
-- [抑郁自我护理 | Mind](https://www.mind.org.uk/information-support/types-of-mental-health-problems/depression/self-care/)  
-- [7种无需药物的抗抑郁方法 | Intermountain Healthcare](https://intermountainhealthcare.org/blogs/7-ways-to-overcome-depression-without-medication)  
-- [心理健康维护指南 | NIMH](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)  
-- [抑郁自助资源 | CCI](https://www.cci.health.wa.gov.au/resources/looking-after-yourself/depression)  
-- [如何应对抑郁 | NHS](https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/)  
+**参考文献**
+- [抑郁自助指南 | NHS inform](https://www.nhsinform.scot/illnesses-and-conditions/mental-health/mental-health-self-help-guides/depression-self-help-guide/)
+- [抑郁自我护理 | Mind](https://www.mind.org.uk/information-support/types-of-mental-health-problems/depression/self-care/)
+- [7种无需药物的抗抑郁方法 | Intermountain Healthcare](https://intermountainhealthcare.org/blogs/7-ways-to-overcome-depression-without-medication)
+- [心理健康维护指南 | NIMH](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+- [抑郁自助资源 | CCI](https://www.cci.health.wa.gov.au/resources/looking-after-yourself/depression)
+- [如何应对抑郁 | NHS](https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/)
 - [轻度抑郁的非药物疗法 | Harvard Health](https://www.health.harvard.edu/mind-and-mood/the-no-drug-approach-to-mild-depression)

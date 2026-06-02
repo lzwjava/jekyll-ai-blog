@@ -1,4 +1,4 @@
-lzw@to:~/projects/nanoGPT$ pip3.10 install torch numpy transformers datasets tiktoken wandb tqdm 
+lzw@to:~/projects/nanoGPT$ pip3.10 install torch numpy transformers datasets tiktoken wandb tqdm
 Defaulting to user installation because normal site-packages is not writeable
 Requirement already satisfied: torch in /home/lzw/.local/lib/python3.10/site-packages (2.0.1)
 Requirement already satisfied: numpy in /home/lzw/.local/lib/python3.10/site-packages (1.25.2)

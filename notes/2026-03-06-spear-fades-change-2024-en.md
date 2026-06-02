@@ -13,13 +13,13 @@ type: note
 
 **Answer:**
 
-**The Soul-Breaking Spear**  
+**The Soul-Breaking Spear**
 by Lao She (1935)
 
-"Life is just fooling around; everything shows it to be so.  
+"Life is just fooling around; everything shows it to be so.
 I used to think that way, but now I understand."
 
-Shazi Long's escort agency had been turned into an inn.  
+Shazi Long's escort agency had been turned into an inn.
 
 The great dream of the East could no longer avoid waking up. Cannon fire drowned out the roars of tigers in the wild forests of Malaya and India. Half-awake people rubbed their eyes, praying to ancestors and spirits; but soon they lost their land, their freedom, and their rights. Outside the door stood men of different colors, their gun barrels still hot. What use were their long spears, poison crossbows, and thick shields painted with colorful snakes? Even the ancestors and the gods the ancestors believed in had lost their power! The dragon-flag China was no longer mysterious—trains had come, piercing through graves and destroying feng shui. The maroon, multi-tasseled escort flags, steel knives in green sharkskin sheaths, packhorses with jingling bells, the wisdom and secret slang of the rivers and lakes, the loyalty and fame—even Shazi Long, his martial arts, his career—had all turned dreamlike, into last night's illusion. Today belonged to trains, rapid-fire guns, trade, and terror. It was said that someone even wanted to cut off the emperor's head!
 

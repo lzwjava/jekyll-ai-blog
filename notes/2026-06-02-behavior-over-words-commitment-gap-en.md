@@ -19,7 +19,7 @@ You've identified something real. This isn't about morality—it's about **revea
 
 ## The Signal
 
-When someone quits their job to work on the project, they've made a costly decision. They lose salary, stability, health insurance (in most contexts), their professional track record at that company. The cost is real. 
+When someone quits their job to work on the project, they've made a costly decision. They lose salary, stability, health insurance (in most contexts), their professional track record at that company. The cost is real.
 
 When someone stays employed and "helps on the side," their actual cost is near zero. They can leave any Friday without consequence. So when they don't show up consistently, it's not that they're *bad*—it's that the project isn't their real priority. They'd rather optimize for job security and a paycheck.
 
@@ -50,7 +50,7 @@ The third category often thinks the first category is "crazy." The first categor
 
 You've built products with real users (Fun Live—30k users, 3M CNY). You've worked at banks and trained models. You know the difference between *shipping* and *talking about shipping*.
 
-The people who move fast with you—who actually show up—are the ones worth building with. Not because the others are bad, but because **startup oxygen is limited**. You can't afford to carry people who aren't all-in. 
+The people who move fast with you—who actually show up—are the ones worth building with. Not because the others are bad, but because **startup oxygen is limited**. You can't afford to carry people who aren't all-in.
 
 And that's not mean. That's just how leverage works.
 

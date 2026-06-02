@@ -22,9 +22,9 @@ Solvexia 是一款专注于无代码自动化、数据管理与分析的软件�
 
 更多详情请访问官方渠道。
 
-**参考链接**  
-[Solvexia 官网](https://www.solvexia.com/)  
-[Solvexia LinkedIn](https://au.linkedin.com/company/solvexia-automation)  
-[PitchBook 上的 SolveXia 公司档案](https://pitchbook.com/profiles/company/453321-19)  
-[Crunchbase 上的 SolveXia](https://www.crunchbase.com/organization/solvexia-pty-ltd)  
+**参考链接**
+[Solvexia 官网](https://www.solvexia.com/)
+[Solvexia LinkedIn](https://au.linkedin.com/company/solvexia-automation)
+[PitchBook 上的 SolveXia 公司档案](https://pitchbook.com/profiles/company/453321-19)
+[Crunchbase 上的 SolveXia](https://www.crunchbase.com/organization/solvexia-pty-ltd)
 [微软 AppSource 上的 SolveXia 财务自动化应用](https://appsource.microsoft.com/en-us/product/web-apps/solvexiaptyltd1616474134034.solvexia?tab=overview)

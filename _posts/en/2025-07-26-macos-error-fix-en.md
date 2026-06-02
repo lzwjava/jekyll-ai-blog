@@ -65,6 +65,6 @@ Follow these in order, starting with the simplest. These assume you're on macOS 
 If the error persists after these steps, provide more details like your macOS version, what operation you're trying (e.g., deleting specific files), and if it's in Trash or elsewhere.
 
 ### References
-[Apple Support: Change permissions for files, folders, or disks on Mac](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)  
-[How to Fix "Operation Can't Be Completed" Error on Mac](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)  
+[Apple Support: Change permissions for files, folders, or disks on Mac](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)
+[How to Fix "Operation Can't Be Completed" Error on Mac](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)
 [Empty Trash When It Says Files Are In Use](https://apple.stackexchange.com/questions/52257/empty-trash-when-it-says-files-are-in-use)

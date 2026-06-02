@@ -30,7 +30,7 @@ type: note
 
 迁移过程可以采用渐进式策略——先从现有 Java 后端暴露 API，逐步重构前端。虽然存在初学曲线等挑战，但长期来看效率提升的收益往往远超成本。
 
-[为什么我偏爱 Angular / Spring Boot / Hibernate 技术组合](https://medium.com/@a.mueller3/why-i-like-the-angular-spring-boot-hibernate-combination-for-full-stack-web-development-1efb4af6cef0)  
-[将 Spring Web MVC 应用从 JSP 迁移到 AngularJS](https://spring.io/blog/2015/08/19/migrating-a-spring-web-mvc-application-from-jsp-to-angularjs)  
-[从 jQuery 迁移到 Angular：如何理性实现 Web 应用现代化](https://medium.com/@prakhar-webdev/migrating-from-jquery-to-angular-modernizing-your-web-apps-without-losing-your-mind-9631730b35dd)  
+[为什么我偏爱 Angular / Spring Boot / Hibernate 技术组合](https://medium.com/@a.mueller3/why-i-like-the-angular-spring-boot-hibernate-combination-for-full-stack-web-development-1efb4af6cef0)
+[将 Spring Web MVC 应用从 JSP 迁移到 AngularJS](https://spring.io/blog/2015/08/19/migrating-a-spring-web-mvc-application-from-jsp-to-angularjs)
+[从 jQuery 迁移到 Angular：如何理性实现 Web 应用现代化](https://medium.com/@prakhar-webdev/migrating-from-jquery-to-angular-modernizing-your-web-apps-without-losing-your-mind-9631730b35dd)
 [JSF 到 Angular 的迁移实践](https://belitsoft.com/angular-development/jsf-to-angular-migration)

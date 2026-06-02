@@ -12,7 +12,7 @@ type: note
 
 Question: Which port security feature limits the number of MAC addresses on a port?
 
-Answer: 
+Answer:
 
 The correct answer is **C) Maximum MAC addresses**.
 

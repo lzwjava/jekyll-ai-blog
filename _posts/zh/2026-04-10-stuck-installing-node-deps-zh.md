@@ -26,10 +26,10 @@ type: note
 
 ### 如何立即解决：
 
-1. **取消当前安装**  
+1. **取消当前安装**
    按 **Ctrl + C**（如果需要，多次按）来停止安装程序。
 
-2. **进入项目文件夹**  
+2. **进入项目文件夹**
    ```bash
    cd /Users/lzwjava/.hermes/hermes-agent
    ```
@@ -83,7 +83,7 @@ type: note
 
 如果仍然卡住，运行上面的详细命令，复制输出的最后几行，并在这里分享以获取更精确的帮助。如果这被证明是一个最近的 bug，你也可以查阅 Hermes Agent 官方的 GitHub issues。
 
-参考：  
-- https://github.com/NousResearch/hermes-agent（项目仓库和已知的安装程序行为）  
-- https://hermes-agent.nousresearch.com/docs/reference/faq/（官方故障排除）  
+参考：
+- https://github.com/NousResearch/hermes-agent（项目仓库和已知的安装程序行为）
+- https://hermes-agent.nousresearch.com/docs/reference/faq/（官方故障排除）
 - 来自 Stack Overflow 和 npm 社区报告的常见 npm install 挂起解决方案。

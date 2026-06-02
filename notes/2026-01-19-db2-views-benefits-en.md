@@ -12,7 +12,7 @@ type: note
 
 Question: What is a view in DB2, and why do we use views?
 
-Answer: 
+Answer:
 
 A **view** in DB2 is a **virtual table** (also called a named query) that represents the result of a stored SELECT statement. It is not a physical table and does not store any data itself. When you query a view, DB2 executes the underlying SELECT statement against the base tables (one or more real tables or even other views) and returns the result as if it were a real table.
 
@@ -39,30 +39,30 @@ WHERE status = 'ACTIVE'
 
 Views are widely used because they provide several important benefits:
 
-- **Simplify complex queries**  
+- **Simplify complex queries**
   You can hide joins, subqueries, aggregations, calculations, or complicated WHERE clauses. Users query a simple view name instead of writing long SQL repeatedly.
 
-- **Enhance security and data protection**  
-  Grant SELECT permission only on the view (not on the base tables).  
-  You can show only specific columns or specific rows (row-level security).  
+- **Enhance security and data protection**
+  Grant SELECT permission only on the view (not on the base tables).
+  You can show only specific columns or specific rows (row-level security).
   Example: Show only salary information to HR users, hide it from others.
 
-- **Provide data abstraction / logical data independence**  
+- **Provide data abstraction / logical data independence**
   The underlying table structure can change (column names, split tables, etc.), but applications can continue using the same view name without code changes — as long as the view definition is updated accordingly.
 
-- **Present data in a user-friendly or business-oriented way**  
-  Rename columns to more meaningful names.  
-  Combine data from multiple tables into one logical "business view".  
+- **Present data in a user-friendly or business-oriented way**
+  Rename columns to more meaningful names.
+  Combine data from multiple tables into one logical "business view".
   Format or derive new columns (e.g., `CONCAT(first_name, ' ', last_name) AS full_name`).
 
-- **Improve consistency**  
+- **Improve consistency**
   Everyone uses the same definition for "sales this year", "active customers", "inventory status", etc. → avoids different people writing slightly different (and possibly wrong) queries.
 
-- **Logical data organization without duplication**  
-  No extra storage is needed (except the view definition itself).  
+- **Logical data organization without duplication**
+  No extra storage is needed (except the view definition itself).
   The data remains in the base tables — views just provide different "windows" into the same data.
 
-- **Support some updatable views** (with restrictions)  
+- **Support some updatable views** (with restrictions)
   Simple views (usually on one table, no joins, no aggregates, etc.) can allow INSERT, UPDATE, DELETE operations that pass through to the base table.
 
 ### Summary Table: Key Advantages of Views
@@ -78,7 +78,7 @@ Views are widely used because they provide several important benefits:
 
 Views are one of the most powerful and commonly used features in DB2 (and relational databases in general) for building maintainable, secure, and user-friendly database applications.
 
-References:  
+References:
 
 - [DB2 Views - db2tutorial.com](https://www.db2tutorial.com/db2-view)
 - [IBM Db2 Documentation - CREATE VIEW](https://www.ibm.com/docs/en/db2/11.5?topic=statements-create-view)

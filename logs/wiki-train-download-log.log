@@ -1,6 +1,6 @@
-lzw@to:~/projects/wiki_train$ ./train.sh 
+lzw@to:~/projects/wiki_train$ ./train.sh
 Downloading 5 Wikipedia chunks + indexes with maximum parallelism...
-enwiki-latest-pages-articles1.xml-p1p41242.bz2      10%[==========>                                                                                                      ]  28.44M  28.3KB/s    in 11m 15s 
+enwiki-latest-pages-articles1.xml-p1p41242.bz2      10%[==========>                                                                                                      ]  28.44M  28.3KB/s    in 11m 15s
 ✅ All 10 files downloaded successfully!
 Total size: ~2.3 GB compressed → ~13–15 GB clean text
 

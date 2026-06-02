@@ -41,8 +41,8 @@ These are more like tiny portable SSDs in USB flash drive form — much faster a
 
 In 2026, Netac's newer solid-state UDisk products (especially US9 series) receive very positive feedback and represent one of the best price-performance options in the fast USB storage market.
 
-**References:**  
-- [Netac US9 1TB USB SSD review | TechRadar](https://www.techradar.com/pro/netac-us9-1tb-usb-ssd-review)  
-- [Netac US9 512GB Review | APH Networks](https://aphnetworks.com/reviews/netac-us9-512gb)  
-- [朗科US9固态U盘评测 | 什么值得买](https://post.m.smzdm.com/p/a0x28qww)  
+**References:**
+- [Netac US9 1TB USB SSD review | TechRadar](https://www.techradar.com/pro/netac-us9-1tb-usb-ssd-review)
+- [Netac US9 512GB Review | APH Networks](https://aphnetworks.com/reviews/netac-us9-512gb)
+- [朗科US9固态U盘评测 | 什么值得买](https://post.m.smzdm.com/p/a0x28qww)
 - Amazon customer reviews for various Netac USB flash drive models

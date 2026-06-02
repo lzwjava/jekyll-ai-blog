@@ -23,7 +23,7 @@ Social media elements like **LinkedIn cover photos** or **WeChat Moments** backg
 * **App Limitations:** Some professional tools have a "superior" version of one mode. For instance, a developer might use dark mode in their code editor (VS Code) because it's industry standard, but keep their browser in light mode for better readability.
 
 ### 3. The "Default" Factor
-Many users never change their settings. If an app defaults to light mode and a colleague shares a light screenshot, it might not mean they *prefer* it—it might just mean they haven't bothered to toggle the switch. 
+Many users never change their settings. If an app defaults to light mode and a colleague shares a light screenshot, it might not mean they *prefer* it—it might just mean they haven't bothered to toggle the switch.
 
 ### Summary of Indicators
 

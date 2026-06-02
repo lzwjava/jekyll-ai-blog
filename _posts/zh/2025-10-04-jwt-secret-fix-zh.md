@@ -55,5 +55,5 @@ type: note
 
 此修复应能使服务正常运行——JWT_SECRET 是认证端点的必需参数。如果修复后日志显示其他错误，请在此粘贴。
 
-[LibreChat 环境变量](https://www.librechat.ai/docs/configuration/dotenv#jwt_secret)  
+[LibreChat 环境变量](https://www.librechat.ai/docs/configuration/dotenv#jwt_secret)
 [常见 Docker 问题](https://github.com/danny-avila/LibreChat/issues?q=is%3Aissue+is%3Aopen+label%3Adocker)

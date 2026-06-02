@@ -18,7 +18,7 @@ Shop
 Profile Home
 Welcome to the AMD profile area.  Here you can update your personal information or communication preferences, change your password, check online order status or access AMD Secure Sites that you are a member of.
 
- 
+
 Manage My Account
 
 Edit Profile / Change Password

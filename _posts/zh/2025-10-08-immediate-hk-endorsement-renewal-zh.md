@@ -14,6 +14,6 @@ type: note
 
 这项规定适用于旅游类签注（G签），且香港和澳门适用相同规则。只需确保您符合本地居民的申请资格即可。
 
-[香港签注间隔多久签一次 - 深圳本地宝](http://bsy.sz.bendibao.com/bsyDetail/644436.html)  
-[办理香港三个月两次的签注是不是要三个月后才能再续签？ - 深圳市公安局](https://ga.sz.gov.cn/JMHD/YWZSK/CRJGL_ZS/content/post_10597843.html)  
+[香港签注间隔多久签一次 - 深圳本地宝](http://bsy.sz.bendibao.com/bsyDetail/644436.html)
+[办理香港三个月两次的签注是不是要三个月后才能再续签？ - 深圳市公安局](https://ga.sz.gov.cn/JMHD/YWZSK/CRJGL_ZS/content/post_10597843.html)
 [往来港澳通行证和签注签发服务指南 - 国家移民管理局](https://s.nia.gov.cn/mps/bszy/wlgaot/sqgowl/201903/t20190313_1002.html)

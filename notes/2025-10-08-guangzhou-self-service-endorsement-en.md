@@ -23,5 +23,5 @@ Yes, in big cities like Guangzhou, local police stations (派出所, or paichusu
 
 For the full list of addresses or to confirm machine availability, check the official Guangzhou Police website or apps like WeChat public accounts for real-time updates.
 
-[Guangzhou 24-Hour HK/Macau Self-Service Endorsement Machine Locations](https://m.gz.bendibao.com/life/334636.html)  
+[Guangzhou 24-Hour HK/Macau Self-Service Endorsement Machine Locations](https://m.gz.bendibao.com/life/334636.html)
 [Guangzhou Police: HK/Macau Pass and Endorsement Guide](https://gaj.gz.gov.cn/jmhd/zsk/crj/content/post_9641770.html)

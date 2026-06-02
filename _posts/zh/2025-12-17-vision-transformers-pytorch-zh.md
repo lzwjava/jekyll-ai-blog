@@ -87,7 +87,7 @@ class PatchEmbedding(nn.Module):
         super().__init__()
         self.num_patches = (img_size // patch_size) ** 2
         self.proj = nn.Conv2d(in_channels, embed_dim, kernel_size=patch_size, stride=patch_size)
-    
+
     def forward(self, x):
         x = self.proj(x)  # (B, embed_dim, num_patches_h, num_patches_w)
         x = x.flatten(2).transpose(1, 2)  # (B, num_patches, embed_dim)
@@ -98,25 +98,25 @@ class ViT(nn.Module):
         super().__init__()
         self.patch_embed = PatchEmbedding(img_size, patch_size, embed_dim=embed_dim)
         num_patches = self.patch_embed.num_patches
-        
+
         self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
         self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
-        
+
         encoder_layer = nn.TransformerEncoderLayer(d_model=embed_dim, nhead=num_heads, dim_feedforward=embed_dim * mlp_ratio, activation='gelu')
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=depth)
-        
+
         self.mlp_head = nn.Linear(embed_dim, num_classes)
-    
+
     def forward(self, x):
         B = x.shape[0]
         x = self.patch_embed(x)
-        
+
         cls_tokens = self.cls_token.expand(B, -1, -1)
         x = torch.cat((cls_tokens, x), dim=1)
-        
+
         x = x + self.pos_embed
         x = self.transformer(x)
-        
+
         cls_output = x[:, 0]
         return self.mlp_head(cls_output)
 

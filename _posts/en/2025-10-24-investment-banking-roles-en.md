@@ -34,6 +34,6 @@ In big banks (often called bulge bracket or universal banks), the investment ban
 
 Progression is competitive—many exit after 2-3 years for better work-life balance or related fields like private equity. Big banks recruit heavily from top schools, with summer internships as a common entry point. Culture is intense, collaborative, and prestige-oriented.
 
-[Investment Banking Overview - Corporate Finance Institute](https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/)  
-[The Hierarchy of an Investment Bank - Investopedia](https://www.investopedia.com/articles/professionals/102915/hierarchy-investment-bank.asp)  
+[Investment Banking Overview - Corporate Finance Institute](https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/)
+[The Hierarchy of an Investment Bank - Investopedia](https://www.investopedia.com/articles/professionals/102915/hierarchy-investment-bank.asp)
 [Investment Banking Career Path: Roles, Salaries & Promotions](https://mergersandinquisitions.com/investment-banking-career-path/)

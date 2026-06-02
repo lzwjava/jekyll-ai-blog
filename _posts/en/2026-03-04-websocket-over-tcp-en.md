@@ -54,7 +54,7 @@ UDP-based alternatives (used when you explicitly want lower latency and can tole
 
 **Bottom line (2026):**
 
-WebSocket = **TCP**  
+WebSocket = **TCP**
 WebSocket ≠ UDP
 
 References:

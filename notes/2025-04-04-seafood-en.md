@@ -37,7 +37,7 @@ Absolutely! 🐟🦐 Let’s dive into a little English lesson about **common se
 ### 🗣️ **Useful Phrases for Talking About Seafood**
 
 - "Do you like seafood?"
-- "I'm allergic to shellfish."  
+- "I'm allergic to shellfish."
 - "What's the catch of the day?" (common in seafood restaurants)
 - "I prefer grilled fish over fried fish."
 - "This shrimp is so fresh!"

@@ -40,6 +40,6 @@ AI监管通过影响隐私保护、公平性、服务获取以及错误信息或
 
 综上所述，欧盟通过主动风险管理提供最强公民保护，美国依托各州提供灵活但不一致的保障，中国则强调受控的道德AI以维护公共秩序。截至2025年，全球趋势显示在透明度和偏见缓解方面正走向融合，但地缘政治紧张可能加深分歧。企业和公民需密切关注动态，因为执法环境正快速演变。
 
-[欧盟人工智能法案](https://artificialintelligenceact.eu/)  
-[美国AI立法追踪](https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation)  
+[欧盟人工智能法案](https://artificialintelligenceact.eu/)
+[美国AI立法追踪](https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation)
 [中国生成式AI管理办法](https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-china)

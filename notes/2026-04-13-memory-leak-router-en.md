@@ -83,11 +83,11 @@ Your symptoms strongly suggest memory/resource exhaustion:
 
 When a router experiences memory exhaustion:
 ```
-Normal Operation: 
+Normal Operation:
 Available RAM → Routing processes → Release memory when done
 
 Memory Leak:
-Available RAM → Routing processes → Memory not released → 
+Available RAM → Routing processes → Memory not released →
   → Gradual RAM depletion → Swap/slowdown → Packet processing delays
 ```
 

@@ -18,7 +18,7 @@ IntelliJ IDEA 是开发面向 IBM WebSphere Application Server (WAS) 的 Java EE
 - **安装必要插件**：
   - 进入 **文件 > 设置 > 插件**，在 JetBrains 市场中搜索 "WebSphere Server"。安装该插件以获得更好的本地服务器管理功能（例如从 IntelliJ 启动/停止 WAS）。此插件非捆绑提供，属于可选但推荐用于本地开发。
   - 确保已启用 Java EE 和 Jakarta EE 插件（通常已预安装）。
-  
+
 - **创建项目**：
   - 新建 **Java 企业版** 项目（或导入现有项目）。
   - 选择 **Web 应用程序** 原型，并配置为 Java EE（例如根据你的 WAS 版本如 9.x 选择版本 8 或 9）。
@@ -77,7 +77,7 @@ IntelliJ IDEA 是开发面向 IBM WebSphere Application Server (WAS) 的 Java EE
 
 #### 3. 高效 WAS 开发的其他技巧
 - **热部署/热交换**：为了更快迭代，以“展开式”WAR（解压的）形式部署。WAS 支持 JSP 和某些类的热重载，但对于完整热交换（无需重启的代码更改），请使用 JRebel 插件（付费）或 DCEVM + HotSwapAgent（免费，但需测试与 WAS 的 IBM JDK 的兼容性）。
-  
+
 - **构建工具**：使用 Maven 或 Gradle 管理依赖。将 WAS 运行时库添加为 provided 范围以避免类路径臃肿：
   ```
   <dependency>

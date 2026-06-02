@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-### English Translation & Explanation of the Post  
+### English Translation & Explanation of the Post
 Title: “The History of Rust as I’ve Seen It”
 
 This is a long, personal, and quite critical reflection written by a experienced programmer (likely Taiwanese, posting in Chinese) about their early encounter with Rust and why, despite its current popularity, they remain deeply skeptical of it—both technically and culturally.
@@ -37,7 +37,7 @@ This is a long, personal, and quite critical reflection written by a experienced
 #### The Author’s Own Journey with Memory Management
 - The author was personally fascinated by the idea of 100% static memory safety without GC (exactly Rust’s original pitch).
 - He spent a lot of time designing memory models and static analyses trying to achieve that dream.
-- One day he told his advisor Kent Dybvig (the legendary author of Chez Scheme) about the idea. Kent calmly replied:  
+- One day he told his advisor Kent Dybvig (the legendary author of Chez Scheme) about the idea. Kent calmly replied:
   “Completely static memory management — is that even possible? Memory management is inherently a dynamic process.”
 - This single sentence shattered the author’s illusions. He realized that precise garbage collection is undecidable in the general case (related to the halting problem).
 - When he suggested reference counting instead, Kent pointed out that ref-counting has high overhead and often performs worse than a good generational GC. Good GC pauses are not a real problem if the collector is well engineered (Chez Scheme proves it).

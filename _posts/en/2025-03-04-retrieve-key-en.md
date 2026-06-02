@@ -84,7 +84,7 @@ public class MyClass {
     public static void main(String[] args) {
         // Setup for demonstration
         ExecutionContext.getCurrent().setValue("myNamespace", "myKey", "Hello, World!");
-        
+
         new MyClass().retrieveKeyFromNamespace();
     }
 }
@@ -113,10 +113,10 @@ public class MyClass {
     public Object getKeyFromRequestScope(String key) {
         // Step 1: Access the current execution context (request attributes)
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        
+
         if (attributes != null) {
             HttpServletRequest request = attributes.getRequest();
-            
+
             // Step 2: Namespace is the request scope itself
             // Step 3: Retrieve the key
             return request.getAttribute(key);

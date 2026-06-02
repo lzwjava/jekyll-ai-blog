@@ -11,7 +11,7 @@ type: note
 
 Question: A/D conversion involves sampling, quantization, and encoding; in which stage is this performed?
 
-Answer: 
+Answer:
 
 The process of Analog-to-Digital (A/D) conversion, which includes **sampling**, **quantization**, and **encoding**, is performed during the **Source Encoding** (or **信源编码**) stage in a digital communication system.
 
@@ -27,7 +27,7 @@ In the context of a communication system model:
 
 Therefore, since A/D conversion transforms the original analog source information into a digital format, it falls squarely under the domain of **Source Encoding**.
 
-References:  
+References:
 
 - [Analog-to-Digital Conversion - Wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
 - [Source Coding - Britannica](https://www.britannica.com/technology/source-coding)

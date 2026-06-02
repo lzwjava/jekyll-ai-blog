@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about spending money?
 
-Answer: 
+Answer:
 
 Here are some contrarian or unpopular ideas about spending money, drawn from discussions in personal finance communities and forums. These challenge common advice like "save aggressively," "buy experiences over things," or "always be frugal."
 
@@ -34,13 +34,13 @@ Here are some contrarian or unpopular ideas about spending money, drawn from dis
 
 These views often spark debate because they push against mainstream personal finance wisdom emphasizing restraint and long-term saving.
 
-References:  
+References:
 
-- https://www.reddit.com/r/Adulting/comments/1geqs3u/whats_an_unpopular_opinion_about_money_that_you/  
-- https://www.reddit.com/r/unpopularopinion/comments/159d4tu/spending_money_on_stuff_is_a_better_path_to/  
-- https://www.reddit.com/r/overemployed/comments/xgma6v/unpopular_opinion_spend_more_than_you_save/  
-- https://www.reddit.com/r/Frugal/comments/175eo4l/fear_of_spending_my_money_inefficiently_is_making/  
-- https://www.reddit.com/r/unpopularopinion/comments/jnlnho/poor_peoples_spending_habits_shouldnt_be/  
-- https://www.reddit.com/r/unpopularopinion/comments/r4yh00/spending_money_on_my_game_is_like_you_spending/  
-- https://www.reddit.com/r/MoneyDiariesACTIVE/comments/vt94yz/whats_your_unpopular_money_opinion/  
+- https://www.reddit.com/r/Adulting/comments/1geqs3u/whats_an_unpopular_opinion_about_money_that_you/
+- https://www.reddit.com/r/unpopularopinion/comments/159d4tu/spending_money_on_stuff_is_a_better_path_to/
+- https://www.reddit.com/r/overemployed/comments/xgma6v/unpopular_opinion_spend_more_than_you_save/
+- https://www.reddit.com/r/Frugal/comments/175eo4l/fear_of_spending_my_money_inefficiently_is_making/
+- https://www.reddit.com/r/unpopularopinion/comments/jnlnho/poor_peoples_spending_habits_shouldnt_be/
+- https://www.reddit.com/r/unpopularopinion/comments/r4yh00/spending_money_on_my_game_is_like_you_spending/
+- https://www.reddit.com/r/MoneyDiariesACTIVE/comments/vt94yz/whats_your_unpopular_money_opinion/
 - https://www.reddit.com/r/unpopularopinion/comments/1lun403/life_is_more_expensive_these_days_because_things/

@@ -14,7 +14,7 @@ The GPG-encrypted file (`The.Matrix.1999.720p.BrRip.264.YIFY.mp4.gpg`) is only s
 
 ### Key Reasons for the Size
 - **Videos like MP4 are already highly compressed**: The H.264 codec in your YIFY rip squeezes out almost all redundancy. GPG's default settings try to compress the data first (using zlib at level 6) before encrypting it, but for incompressible files like this, it barely helps. In fact, it often adds a tiny bit of overhead from the compression wrapper, though your case shows a net tiny savings—likely because the MP4's headers, metadata, or a few frames had *some* compressible bits.
-  
+
 - **Encryption overhead is minimal but present**: Asymmetric encryption (what `--encrypt --recipient` does) wraps the data in a public-key envelope, adding a small header (~100–500 bytes) and padding to align blocks (e.g., for the default CAST5 cipher). This doesn't bloat things much for a 700+ MB file, but it won't shrink it either.
 
 - **No strong size reduction without tweaks**: GPG isn't designed for aggressive compression like ZIP or 7z. If the data can't compress well, the output stays roughly the same size.
@@ -41,5 +41,5 @@ If you want a noticeably smaller encrypted file:
 
 Your encryption worked fine—it's secure, just not space-saving. If it's still running slow or you hit errors, check your CPU usage (GPG is single-threaded by default) or disk space.
 
-[GPG Compression Behavior](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html)  
+[GPG Compression Behavior](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html)
 [Why Video Encryption Doesn't Shrink Files](https://security.stackexchange.com/questions/12345/why-does-encrypting-a-file-make-it-larger)

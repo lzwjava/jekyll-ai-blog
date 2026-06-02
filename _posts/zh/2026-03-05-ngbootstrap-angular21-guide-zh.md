@@ -11,7 +11,7 @@ type: note
 
 **问题：** 哪个 ng-bootstrap 版本匹配 Angular 21？
 
-**回答：** 
+**回答：**
 
 匹配 **Angular 21** 的 **ng-bootstrap** 版本是 **20.x.x** 系列（具体为 **@ng-bootstrap/ng-bootstrap@^20.0.0**）。
 
@@ -34,7 +34,7 @@ ng add @ng-bootstrap/ng-bootstrap   # (it should pick a compatible version)
 
 升级时始终检查最新的 changelog 或 getting-started 页面，以了解任何补丁更新或破坏性更改。
 
-**参考：**  
+**参考：**
 
 - [https://ng-bootstrap.github.io/#/getting-started](https://ng-bootstrap.github.io/#/getting-started)
 - [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)

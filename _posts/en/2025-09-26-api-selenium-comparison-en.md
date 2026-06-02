@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Below is a complete, structured comparison of the two testing strategies you described for a Java project with 40 APIs: 
+Below is a complete, structured comparison of the two testing strategies you described for a Java project with 40 APIs:
 
 1. **API Testing with Python Unittest** (using libraries like `requests` to hit API endpoints, send requests, and assert JSON responses).
 2. **Frontend Selenium Testing** (using WebDriver to automate browser interactions, mimic user workflows, and capture screenshots for verification).

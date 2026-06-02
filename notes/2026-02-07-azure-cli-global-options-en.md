@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Azure CLI command line options.
 
-Answer: 
+Answer:
 
 The **Azure CLI** (`az`) is a cross-platform command-line tool for managing Azure resources. Almost every command supports a set of **global arguments** (also called global parameters or global options) that work across nearly all commands.
 
@@ -50,22 +50,22 @@ az storage account create ... --debug
 
 ### Other Useful Global / Frequently Encountered Options
 
-- `--resource-group` / `-g`  
+- `--resource-group` / `-g`
   Very common positional-style argument (not strictly global, but appears in hundreds of commands)
 
-- `--name` / `-n`  
+- `--name` / `-n`
   Resource name (very common)
 
-- `--ids`  
+- `--ids`
   Accepts one or more Azure Resource IDs instead of requiring `--resource-group --name ...`
 
-- `--yes` / `-y`  
+- `--yes` / `-y`
   Auto-answer "yes" to confirmation prompts (great for automation)
 
-- `--no-wait`  
+- `--no-wait`
   Do not wait for long-running operations to complete (fire-and-forget)
 
-- `--wait` (some commands)  
+- `--wait` (some commands)
   Wait until operation finishes and show final status
 
 ### Configuration that Affects Command-line Behavior
@@ -110,7 +110,7 @@ Always prefer named arguments for clarity and script robustness.
 
 The full list of global parameters is shown when you run `az --help` or any command with `--help`.
 
-References:  
+References:
 
 - [Get started with Azure CLI - Global arguments](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
 - [Azure CLI global parameters](https://learn.microsoft.com/en-us/cli/azure/azure-cli-global-parameters?view=azure-cli-latest)

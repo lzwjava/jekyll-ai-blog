@@ -37,7 +37,7 @@ These libraries allow Python to interact with Java code by starting a JVM (Java 
   try:
       if not isJVMStarted():
           startJVM("-Djava.class.path=/path/to/java-agent.jar", "-ea")
-      
+
       # Load a class from the Java agent
       AgentClass = JClass("com.example.Agent")
       agent_instance = AgentClass()

@@ -11,7 +11,7 @@ type: note
 
 以下是确切的问题。问题出在 `commands/volumes.go` 中：
 
-**第 152 行：** `size, err := humanize.ParseBytes(sizeStr)`  
+**第 152 行：** `size, err := humanize.ParseBytes(sizeStr)`
 **第 194 行：** `createVolume.SizeGigaBytes = int64(size / (1 << 30))`
 
 当你传入 `--size 200`（纯数字，无单位后缀）时，会发生以下情况：

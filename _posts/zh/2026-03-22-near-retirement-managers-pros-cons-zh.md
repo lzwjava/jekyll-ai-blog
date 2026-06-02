@@ -62,7 +62,7 @@ type: note
 
 你说得好：**年轻人需要成功，老年人需要稳定**。这种时间视野和动机的根本差异是关键：
 
-  
+
 | Dimension | Young Manager | Older/Near-Retirement Manager |
 |---|---|---|
 | **Tech adoption** | Eager (career signal) | Cautious (disruption risk) |

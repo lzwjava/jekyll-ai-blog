@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about JDK 11?
 
-Answer: 
+Answer:
 
 JDK 11, released in 2018 as the first long-term support (LTS) version after JDK 8 under Oracle's faster release cadence, introduced significant changes like the removal of Java EE and CORBA modules, stronger module system enforcement, and licensing shifts. While praised for performance improvements and stability, it has sparked several unpopular opinions, often rooted in migration pains, ecosystem friction, and perceived over-engineering. Here are some notable ones drawn from developer discussions:
 
@@ -28,11 +28,11 @@ JDK 11, released in 2018 as the first long-term support (LTS) version after JDK 
 
 These opinions highlight the tension between Java's evolution and its massive legacy codebase, though many teams successfully migrated and appreciate JDK 11's garbage collection tweaks and security fixes in hindsight.
 
-References:  
-- [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)  
-- [JDK 11: Pitfalls for the Unwary](https://medium.com/@speakjava/jdk-11-pitfalls-for-the-unwary-e08d864065c1)  
-- [Java 11 sucks big time](https://www.reddit.com/r/java/comments/9vmk0w/java_11_sucks_big_time/)  
-- [Do not fall into Oracle's Java 11 trap](https://www.reddit.com/r/programming/comments/9j25je/do_not_fall_into_oracles_java_11_trap/)  
-- [No one upgrading to java 11?](https://www.reddit.com/r/java/comments/9ow41b/no_one_upgrading_to_java_11/)  
-- [What is the point of all these new Java versions when Java 8 is all that seems to be supported by most apps?](https://www.reddit.com/r/java/comments/mu4sar/what_is_the_point_of_all_these_new_java_versions/)  
+References:
+- [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
+- [JDK 11: Pitfalls for the Unwary](https://medium.com/@speakjava/jdk-11-pitfalls-for-the-unwary-e08d864065c1)
+- [Java 11 sucks big time](https://www.reddit.com/r/java/comments/9vmk0w/java_11_sucks_big_time/)
+- [Do not fall into Oracle's Java 11 trap](https://www.reddit.com/r/programming/comments/9j25je/do_not_fall_into_oracles_java_11_trap/)
+- [No one upgrading to java 11?](https://www.reddit.com/r/java/comments/9ow41b/no_one_upgrading_to_java_11/)
+- [What is the point of all these new Java versions when Java 8 is all that seems to be supported by most apps?](https://www.reddit.com/r/java/comments/mu4sar/what_is_the_point_of_all_these_new_java_versions/)
 - [A Year with Java 11 in Production!](https://www.infoq.com/presentations/java-11-production-story/)

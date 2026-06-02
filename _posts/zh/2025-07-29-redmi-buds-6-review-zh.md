@@ -50,7 +50,7 @@ Redmi Buds 6 提供**主动降噪（ANC）**，最大降噪深度达**49dB**，�
 ### **总结**
 Redmi Buds 6是入门级TWS市场的强力竞争者，以亲民价格提供强劲ANC、良好音质和持久续航。其降噪对低频噪音效果显著，适用于多数日常场景，但在高频噪音或极端嘈杂环境中仍有不足。若你寻求兼具可靠降噪和多功能的高性价比耳机，Redmi Buds 6是绝佳选择，尤其搭配小米设备可解锁全部功能。更多详情请查阅小米耳机App或官方产品页面。[](https://www.smartprix.com/bytes/redmi-buds-6-review-pros-and-cons/)[](https://www.dokkantech.com/products/xiaomi-redmi-buds-6-exceptional-sound-advanced-features)
 
-**信息来源**：  
+**信息来源**：
 - [Xiaomi Redmi Buds 6评测：旗舰级音质+长效续航](https://www.vopmart.com)  [](https://www.vopmart.com/blog/post/redmi-buds-6-review)
 - [Redmi Buds 6评测 - GSMArena.com](https://www.gsmarena.com)  [](https://www.gsmarena.com/redmi_buds_6_review-news-65741.php)
 - [Redmi Buds 6评测：Pro与Lite之间的甜点？](https://www.scarbir.com)  [](https://www.scarbir.com/tws/redmi-buds-6-review)
@@ -60,5 +60,5 @@ Redmi Buds 6是入门级TWS市场的强力竞争者，以亲民价格提供强�
 - [Redmi Buds 6发布：增强ANC与全新空间音效](https://www.nextpit.com)  [](https://www.nextpit.com/xiaomi-redmi-buds-6-price-us-europe-specs-launch)
 - [r/Earbuds：Redmi Buds 6 Lite初步体验](https://www.reddit.com)  [](https://www.reddit.com/r/Earbuds/comments/1fkj4l4/redmi_buds_6_lite_initial_thoughts/)
 - [r/Earbuds：Redmi Buds 6 Lite/Active/Play有何问题？](https://www.reddit.com)  [](https://www.reddit.com/r/Earbuds/comments/1fg3boc/whats_up_with_redmi_buds_6_liteactiveplay_good/)
-- [小米Redmi Buds 6推文](https://t.co/6pduh61Xee)  
+- [小米Redmi Buds 6推文](https://t.co/6pduh61Xee)
 - [小米印度Redmi Buds 6推文](https://t.co/yAAcvnSjWv)

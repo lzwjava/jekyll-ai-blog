@@ -35,7 +35,7 @@ Answer:
 
 - 默认 Wi-Fi 名称 (SSID) 和密码 → 印在 router 底部或背面的标签上（通常以 **TP-Link_XXXX** 开头，并配有随机密码）。
 - Web management 地址 → http://tplinkwifi.net 或 http://192.168.0.1 或 http://192.168.1.1
-- 默认登录信息 → username: **admin** / password: **admin** 
+- 默认登录信息 → username: **admin** / password: **admin**
   (注意：在许多较新的 firmware 版本上没有默认的 admin/admin；第一次登录会强制你创建一个新密码。)
 
 **Tip:** 如果你没看到指示灯有任何变化（没有快闪或重启），可能是按钮没有按到位。请尝试加大力度或使用更尖锐的工具。少数用户反馈在某些设备上需要按住 12–15 秒。
@@ -60,6 +60,6 @@ Answer:
 - 请在 TP-Link 官方支持网站上根据确切型号（例如 Archer AX55, AX3000 Pro 等）查询特定型号的 LED 行为和 reset 时间。
 - 不同 firmware 版本和子型号之间存在细微差异，但按住 RESET 10 秒对于 AX3000 系列几乎是普遍有效的。
 
-References:  
+References:
 
 - 无（信息基于标准的 TP-Link Archer AX 系列 factory reset 程序，与截至 2026 年的 TP-Link 官方文档和用户手册一致）

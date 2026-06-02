@@ -12,7 +12,7 @@ type: note
 
 Question: How is the Meirengyu Cave (or beach area) in Yangmeikeng, Shenzhen? Why does it form such a cake-like structure on the coastal area?
 
-Answer: 
+Answer:
 
 Yangmeikeng (杨梅坑) in Shenzhen's Dapeng New District is a renowned coastal scenic area, often called one of China's most beautiful coastlines by National Geographic. The "Meirengyu Dong" likely refers to the **Mermaid Cave** (人鱼洞 or 美人鱼洞), a famous sea-eroded cave featured as a key location in Stephen Chow's movie *The Mermaid* (美人鱼). This cave is located along the cliffs near Luzui (鹿嘴) Mountain Villa, at the eastern end of the Yangmeikeng coastal trail.
 
@@ -22,9 +22,9 @@ The "cake-like" structure on the coastal area refers to **layered rock formation
 
 This combination of volcanic origins and ongoing marine erosion creates the unique, dramatic "cake-like" coastal landscapes.
 
-References:  
+References:
 
-- [杨梅坑 - Baidu Baike](https://baike.baidu.com/item/%E6%9D%A8%E6%A2%85%E5%9D%91/5160249)  
-- [Dapeng Peninsula Geopark](https://shenzhenshopper.com/3312-dapeng-peninsula-geopark.html)  
-- [深圳杨梅坑游玩攻略 - Shenzhen Local Treasure](https://m.bendibao.com/show887470.html)  
+- [杨梅坑 - Baidu Baike](https://baike.baidu.com/item/%E6%9D%A8%E6%A2%85%E5%9D%91/5160249)
+- [Dapeng Peninsula Geopark](https://shenzhenshopper.com/3312-dapeng-peninsula-geopark.html)
+- [深圳杨梅坑游玩攻略 - Shenzhen Local Treasure](https://m.bendibao.com/show887470.html)
 - [Yangmeikeng Valley - TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g1372343-d1843249-Reviews-Yangmeikeng_Valley-Nan_ao_County_Guangdong.html)

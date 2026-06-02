@@ -26,10 +26,10 @@ def main():
     parser = argparse.ArgumentParser(description='Compare two single-row CSV files for common and unique items')
     parser.add_argument('file1_path', help='Path to the first CSV file')
     parser.add_argument('file2_path', help='Path to the second CSV file')
-    
+
     # Parse arguments
     args = parser.parse_args()
-    
+
     try:
         # Read the first row of the first CSV file
         with open(args.file1_path, 'r') as file1:
@@ -37,54 +37,54 @@ def main():
             for row in reader1:
                 values1 = row
                 break
-        
+
         # Read the first row of the second CSV file
         with open(args.file2_path, 'r') as file2:
             reader2 = csv.reader(file2)
             for row in reader2:
                 values2 = row
                 break
-        
+
         # Convert to sets for comparison
         set1 = set(values1)
         set2 = set(values2)
-        
+
         # Find common and unique items
         common_items = set1.intersection(set2)
         unique_to_file1 = set1.difference(set2)
         unique_to_file2 = set2.difference(set1)
-        
+
         # Determine output directory (use directory of first file)
         output_dir = os.path.dirname(args.file1_path) or '.'
         output_file = os.path.join(output_dir, 'comparison.txt')
-        
+
         # Write results to output file
         with open(output_file, 'w') as file:
             file.write("Comparison Results:\n\n")
-            
+
             file.write("Common Items (in both files):\n")
             if common_items:
                 for item in sorted(common_items):
                     file.write(f"{item}\n")
             else:
                 file.write("None\n")
-                
+
             file.write("\nItems only in first file:\n")
             if unique_to_file1:
                 for item in sorted(unique_to_file1):
                     file.write(f"{item}\n")
             else:
                 file.write("None\n")
-                
+
             file.write("\nItems only in second file:\n")
             if unique_to_file2:
                 for item in sorted(unique_to_file2):
                     file.write(f"{item}\n")
             else:
                 file.write("None\n")
-        
+
         print(f"Comparison complete. Results saved to {output_file}")
-        
+
     except FileNotFoundError as e:
         print(f"Error: File not found - {e}")
     except Exception as e:

@@ -18,5 +18,5 @@ type: note
 
 如果这还不是您想了解的内容，或者您有更详细的行程安排需要咨询，请随时告诉我！
 
-[往来港澳通行证 - 维基百科](https://en.wikipedia.org/wiki/Hong_Kong_and_Macao_Travel_Permit)  
+[往来港澳通行证 - 维基百科](https://en.wikipedia.org/wiki/Hong_Kong_and_Macao_Travel_Permit)
 [出入境通行证 - TravelDoc](https://infopages.traveldoc.aero/Information/ExitEntryPermit)

@@ -12,7 +12,7 @@ type: note
 
 **Question:** What does "imposter" mean?
 
-**Answer:** 
+**Answer:**
 
 "Imposter" (more commonly spelled "impostor") is a noun referring to a person who pretends to be someone else, typically to deceive others, assume a false identity, or gain some advantage.
 
@@ -25,7 +25,7 @@ Both "imposter" and "impostor" are correct and accepted in English dictionaries,
 ### Common Usage
 - Often appears in phrases like **impostor syndrome** (or imposter syndrome), a psychological pattern where high-achieving individuals doubt their accomplishments and fear being exposed as a "fraud."
 
-**References:** 
+**References:**
 - [IMPOSTOR Definition & Meaning - Merriam-Webster](https://www.merriam-webster.com/dictionary/impostor)
 - [IMPOSTOR definition in the Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/impostor)
 - [Imposter - Definition, Meaning & Synonyms - Vocabulary.com](https://www.vocabulary.com/dictionary/imposter)

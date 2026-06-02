@@ -26,7 +26,7 @@ That said, dismissing PL entirely feels like throwing the baby out with the bath
 
 In the end, AI progress is 80% math/models/data, 15% engineering (where langs like C++ flex), and 5% syntax poetry. If we optimized for the latter, we'd have prettier papers but slower robots. What's your take—do you think we'll see more PL-AI fusion, like domain-specific langs for neurosymbolic stuff?
 
-[Wang's Blog](https://www.yinwang.org)  
-[Friedman's Essence of Programming](https://www.cs.indiana.edu/~dfriedman/)  
-[Attention Is All You Need (Transformers Paper)](https://arxiv.org/abs/1706.03762)  
+[Wang's Blog](https://www.yinwang.org)
+[Friedman's Essence of Programming](https://www.cs.indiana.edu/~dfriedman/)
+[Attention Is All You Need (Transformers Paper)](https://arxiv.org/abs/1706.03762)
 [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)

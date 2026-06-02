@@ -12,7 +12,7 @@ type: note
 
 Question: Due to e-commerce and vegetable/fresh food app delivery, has the local fresh food/vegetables market declined in China's big cities?
 
-Answer: 
+Answer:
 
 In China's major cities, traditional local fresh food and vegetable markets (known as **wet markets**) have experienced a gradual decline in market share due to the rapid growth of e-commerce platforms and on-demand delivery apps for fresh produce. However, they remain resilient and continue to dominate the overall fresh food retail landscape, often complementing rather than being fully replaced by online channels.
 
@@ -27,10 +27,10 @@ In China's major cities, traditional local fresh food and vegetable markets (kno
 
 Overall, while e-commerce and delivery apps are eroding the dominance of local fresh markets in big cities, causing a partial decline in foot traffic and share, traditional wet markets are adapting and retaining a leading position nationally and significant relevance urbanely.
 
-References:  
+References:
 
-- [Wet markets in China - Wikipedia](https://en.wikipedia.org/wiki/Wet_markets_in_China)  
-- [The hidden strength of small business: Social networks and wet market vendors in China - Wiley Online Library](https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1002/sea2.12323)  
-- [China: fresh food e-commerce GMV 2023 | Statista](https://www.statista.com/statistics/1026889/china-fresh-food-ecommerce-gross-merchandise-volume/)  
-- [China: fresh food e-commerce penetration rate 2023 | Statista](https://www.statista.com/statistics/1194968/china-online-penetration-rate-of-fresh-ecommerce/)  
+- [Wet markets in China - Wikipedia](https://en.wikipedia.org/wiki/Wet_markets_in_China)
+- [The hidden strength of small business: Social networks and wet market vendors in China - Wiley Online Library](https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1002/sea2.12323)
+- [China: fresh food e-commerce GMV 2023 | Statista](https://www.statista.com/statistics/1026889/china-fresh-food-ecommerce-gross-merchandise-volume/)
+- [China: fresh food e-commerce penetration rate 2023 | Statista](https://www.statista.com/statistics/1194968/china-online-penetration-rate-of-fresh-ecommerce/)
 - [What Chinese consumers want from fresh-food retailers | McKinsey](https://www.mckinsey.com/industries/retail/our-insights/what-chinese-consumers-want-from-fresh-food-retailers)

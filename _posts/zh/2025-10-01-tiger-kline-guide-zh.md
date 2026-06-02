@@ -41,7 +41,7 @@ type: note
 如需查看可视化示例，可在老虎证券YouTube频道或论坛搜索「K线图添加技术指标」。若问题持续存在，请通过「个人中心 > 帮助与客服」联系应用支持。
 
 参考文献：
-[1] https://www.youtube.com/watch?v=5xgmRavEkFE  
-[2] https://www.itiger.com/about/app/update  
-[3] https://www.itiger.com/sg/learn/detail/lnfogp3rckf7pksfpbd  
+[1] https://www.youtube.com/watch?v=5xgmRavEkFE
+[2] https://www.itiger.com/about/app/update
+[3] https://www.itiger.com/sg/learn/detail/lnfogp3rckf7pksfpbd
 [4] https://support.tiger.com/english/windows/chart/chart-settings

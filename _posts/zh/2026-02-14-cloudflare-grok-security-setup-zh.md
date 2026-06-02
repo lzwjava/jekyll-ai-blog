@@ -12,7 +12,7 @@ type: note
 
 Question: 如何集成像 Grok 网站那样的 Cloudflare 安全检查？
 
-Answer: 
+Answer:
 
 正如 xAI 官方的 trust/security 声明中所述，Grok 网站 (grok.x.ai) 主要使用 **Cloudflare WAF** (Web Application Firewall) 进行整体安全防护，包括 bot detection、DDoS protection 和威胁拦截。
 
@@ -119,7 +119,7 @@ app.post('/submit', async (req, res) => {
 
 通过这种配置，你可以获得类似于 2026 年知名 AI 网站（很可能也包括 Grok）所使用的不可见/类人安全检查。
 
-References:  
+References:
 
 - [xAI Trust Statement — 提到 Cloudflare WAF](https://x.ai/security)
 - [Cloudflare Turnstile Official Documentation](https://developers.cloudflare.com/turnstile)

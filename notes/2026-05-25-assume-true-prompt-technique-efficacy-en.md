@@ -40,7 +40,7 @@ Normal prompt: "Is X true?"
 → Model: pattern-match to consensus → output social-safe answer
 
 Your prompt: "Assume X is true. Explain the mechanism."
-→ Model: forced into reasoning mode → builds causal chain → 
+→ Model: forced into reasoning mode → builds causal chain →
   you can then evaluate whether the causal chain is coherent
 ```
 

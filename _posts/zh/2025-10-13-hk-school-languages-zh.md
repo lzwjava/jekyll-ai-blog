@@ -24,6 +24,6 @@ type: note
 
 实际运作中，仅少数学校完全采用英语授课模式（传统比例约20-30%，具体数字存在波动），多数学校仍以中文授课为主轴，辅以英语教学元素。这种设计旨在循序渐进地培养学生的双语能力，避免造成学习负担。
 
-[中学教学语言微调政策](https://www.edb.gov.hk/en/edu-system/primary-secondary/applicable-to-secondary/moi/support-and-resources-for-moi-policy/index-1.html)  
-[英语授课学校 - 维基百科](https://en.wikipedia.org/wiki/EMI_schools)  
+[中学教学语言微调政策](https://www.edb.gov.hk/en/edu-system/primary-secondary/applicable-to-secondary/moi/support-and-resources-for-moi-policy/index-1.html)
+[英语授课学校 - 维基百科](https://en.wikipedia.org/wiki/EMI_schools)
 [香港高等教育英语授课模式研究](https://www.tandfonline.com/doi/full/10.1080/09500782.2023.2240571)

@@ -12,7 +12,7 @@ type: note
 
 Question: 系统提示 "no space left on device"，这是导致当前问题（包括 GDM 启动失败）的根本原因。在通过 Ctrl+Alt+F3（或类似组合键）进入文本控制台、登录并运行 `sudo systemctl restart gdm` 或 `sudo systemctl status gdm -l` 等命令后，问题仍然存在。如何修复 "no space left on device" 错误并恢复系统？
 
-Answer: 
+Answer:
 
 **"No space left on device"** 错误是目前的主要阻碍 —— 即使所有权/权限已部分修复，GDM（以及许多其他 service）也无法启动，因为磁盘（通常是 root `/` 分区）已完全填满。这通常发生在鲁莽的 `chown` 操作后，伴随着尝试重新安装 package、大量 log 产生或临时文件堆积。
 
@@ -130,8 +130,8 @@ sudo journalctl --rotate   # 如果 journald 可访问
 
 如果你分享 `df -h` 和 `du -sh /* | sort -hr | head`（或最大文件夹）的输出，我可以告诉你下一步确切清理哪些目录。
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available](https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available)  
-- [https://help.ubuntu.com/community/FullDisk](https://help.ubuntu.com/community/FullDisk)  
+- [https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available](https://askubuntu.com/questions/2663/no-space-left-on-device-but-there-is-tons-of-space-available)
+- [https://help.ubuntu.com/community/FullDisk](https://help.ubuntu.com/community/FullDisk)
 - [https://askubuntu.com/questions/104635/how-to-clear-journalctl-logs](https://askubuntu.com/questions/104635/how-to-clear-journalctl-logs)

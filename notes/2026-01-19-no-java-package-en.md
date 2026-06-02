@@ -26,8 +26,8 @@ package com.lzw.solutions.codeforces.p2190B1;
 
 Codeforces compiler will reject it with a message similar to:
 
-- Compilation error  
-- or sometimes directly: **"package statement is not allowed"**  
+- Compilation error
+- or sometimes directly: **"package statement is not allowed"**
 - or: **"class Main is public, should be declared in a file named Main.java"**
 
 ### Why this happens

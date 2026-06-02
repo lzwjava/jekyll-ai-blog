@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about NeurIPS?
 
-Answer: 
+Answer:
 NeurIPS (Neural Information Processing Systems), the premier conference in machine learning and AI, elicits strong reactions from the research community. While it's celebrated for advancing the field, many participants voice frustrations over its scale, processes, and priorities. Below, I've compiled a selection of unpopular opinions drawn from discussions on platforms like Reddit's r/MachineLearning and X (formerly Twitter). These highlight recurring critiques, often shared in the heat of review seasons or post-conference reflections. They're "unpopular" because they challenge the conference's revered status, but they're substantiated by widespread anecdotes from reviewers, authors, and attendees.
 
 ### On the Review Process
@@ -36,13 +36,13 @@ NeurIPS (Neural Information Processing Systems), the premier conference in machi
 
 These opinions reflect a conference at a crossroads: NeurIPS drives AI forward but strains under its success. Many suggest reforms like splitting into tracks, better incentives, or emphasizing reproducibility. If you're submitting or attending, brace for the chaos—it's part of the charm (or curse).
 
-References:  
-- [NeurIPS Paper Reviews Released, Controversies Resurface](https://medium.com/syncedreview/neurips-paper-reviews-released-controversies-resurface-4c7347861bd7)  
-- [r/MachineLearning: [D] NeurIPS 2024 Paper Reviews](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/)  
-- [r/MachineLearning: [D] NeurIPS 2025 Reviews](https://www.reddit.com/r/MachineLearning/comments/1m74ugv/d_neurips2025_reviews/)  
-- [X Post by @jxmnop on reviewing awful papers](https://x.com/jxmnop/status/1937949143084810625)  
-- [X Post by @DBahdanau on NeurIPS as a ranking mechanism](https://x.com/DBahdanau/status/1953968232777289733)  
-- [X Post by @tsunghan_wu on unexciting paper types](https://x.com/tsunghan_wu/status/1983080396779901184)  
-- [X Post by @rao2z on inter-reviewer anonymity](https://x.com/rao2z/status/1771272256498594218)  
-- [X Post by @NeelNanda5 on virtual attendance policy](https://x.com/NeelNanda5/status/1958636440478273725)  
+References:
+- [NeurIPS Paper Reviews Released, Controversies Resurface](https://medium.com/syncedreview/neurips-paper-reviews-released-controversies-resurface-4c7347861bd7)
+- [r/MachineLearning: [D] NeurIPS 2024 Paper Reviews](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/)
+- [r/MachineLearning: [D] NeurIPS 2025 Reviews](https://www.reddit.com/r/MachineLearning/comments/1m74ugv/d_neurips2025_reviews/)
+- [X Post by @jxmnop on reviewing awful papers](https://x.com/jxmnop/status/1937949143084810625)
+- [X Post by @DBahdanau on NeurIPS as a ranking mechanism](https://x.com/DBahdanau/status/1953968232777289733)
+- [X Post by @tsunghan_wu on unexciting paper types](https://x.com/tsunghan_wu/status/1983080396779901184)
+- [X Post by @rao2z on inter-reviewer anonymity](https://x.com/rao2z/status/1771272256498594218)
+- [X Post by @NeelNanda5 on virtual attendance policy](https://x.com/NeelNanda5/status/1958636440478273725)
 - [X Post by @arrtnem on conference overload](https://x.com/arrtnem/status/1996836872119554347)

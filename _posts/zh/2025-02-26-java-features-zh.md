@@ -24,13 +24,13 @@ type: note
   public class Student {
       private String name;  // 实例字段
       private int age;
-      
+
       // 构造函数
       public Student(String name, int age) {
           this.name = name;
           this.age = age;
       }
-      
+
       // 方法
       public void displayInfo() {
           System.out.println("姓名：" + name + "，年龄：" + age);
@@ -70,7 +70,7 @@ type: note
       public int add(int a, int b) {
           return a + b;
       }
-      
+
       public double add(double a, double b) {  // 方法重载
           return a + b;
       }
@@ -99,7 +99,7 @@ type: note
   public class Counter {
       static int totalCount = 0;  // 静态变量
       int instanceCount;          // 实例变量
-      
+
       public void increment() {
           int localCount = 1;     // 局部变量
           instanceCount += localCount;
@@ -130,7 +130,7 @@ type: note
   } else {
       System.out.println("C");
   }
-  
+
   for (int i = 0; i < 3; i++) {
       System.out.println("循环迭代：" + i);
   }
@@ -154,7 +154,7 @@ type: note
           System.out.println("交通工具已停止");
       }
   }
-  
+
   public class Bike implements Vehicle {
       public void start() {
           System.out.println("自行车已启动");
@@ -244,7 +244,7 @@ type: note
       public String toString() {
           return "自定义字符串";
       }
-      
+
       @Deprecated
       public void oldMethod() {
           System.out.println("旧方法");

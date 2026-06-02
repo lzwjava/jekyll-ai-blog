@@ -11,7 +11,7 @@ type: note
 
 问题：Internet 的规模如此庞大，以至于 autonomous systems 之间的路由非常困难，因此 inter-AS routing 优先考虑（）。
 
-答案： 
+答案：
 
 **策略** (policy) / **策略优先** / **政策优先**
 
@@ -23,17 +23,17 @@ Internet 由数千个独立的 **Autonomous Systems (AS)** 组成，每个属于
 
 **BGP (Border Gateway Protocol)** —— inter-domain routing 的 de facto 标准 —— 本质上是一个 **policy-based** routing protocol。它的主要工作不是找到技术上“最佳”的路径，而是允许每个 AS 实施自己的 **preferred policies**，例如：
 
-- 优先 customer routes 而非 peer routes 而非 provider routes  
-- 避免免费转交通信（peering disputes）  
-- 优先更便宜的链路  
-- 出于安全或法律原因优先避免某些国家/地区的路径  
-- 执行 traffic engineering 目标  
+- 优先 customer routes 而非 peer routes 而非 provider routes
+- 避免免费转交通信（peering disputes）
+- 优先更便宜的链路
+- 出于安全或法律原因优先避免某些国家/地区的路径
+- 执行 traffic engineering 目标
 - 为安全起见 blackhole 或过滤特定 prefixes
 
 因此，正确答案是 **策略** (policy) 或 **政策** (policy)，并且在中国教材和考试中最常见的表述是：
 
-**自治系统之间的路由选择是策略优先**  
-or  
+**自治系统之间的路由选择是策略优先**
+or
 **策略优先** / **政策优先**
 
 **参考文献：**

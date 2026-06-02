@@ -11,7 +11,7 @@ type: note
 
 Question: In Honor of Kings (King of Glory), what are the assistant/utility skills like Recall and Recovery Sprint that heroes have, which are non-offensive skills not used to damage enemies?
 
-Answer: 
+Answer:
 In Honor of Kings (also known as King of Glory or 王者荣耀), **Recall** and **Recovery** are default in-game skills available to **all heroes** and cannot be changed. These are core utility tools for sustain and map rotation:
 
 - **Recall**: Channels for ~7 seconds to return to base (crystal/fountain), fully restoring HP and mana. Interruptible by damage. Used for safe retreating, shopping, or defending.
@@ -33,7 +33,7 @@ Heroes can equip **2 Common Skills** (also called Summoner Skills or 召唤师�
 - **Other utility examples** (hero skills, not common): Shields/heals (e.g., Cai Yan heals, Zhang Fei shields), dashes (many heroes), but query focuses on Recall/Recovery-like (common skills).
 - **Strategy**: Supports prioritize Sprint/Flash for mobility; squishies take Purify/Heal vs. CC/burst. All enable "assistant" play without hitting enemies.
 
-References:  
+References:
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK - Common Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [王者荣耀局内技能](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

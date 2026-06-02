@@ -11,7 +11,7 @@ type: note
 
 Question: The scale of the Internet is so large that routing between autonomous systems is very difficult, so inter-AS routing prioritizes ().
 
-Answer: 
+Answer:
 
 **策略** (policy) / **策略优先** / **政策优先**
 
@@ -23,17 +23,17 @@ Because of these differences, **path selection between ASes cannot simply use th
 
 **BGP (Border Gateway Protocol)** — the de facto standard for inter-domain routing — is fundamentally a **policy-based** routing protocol. Its main job is not to find the technically "best" path, but to allow each AS to implement its own **preferred policies**, such as:
 
-- Prefer customer routes over peer routes over provider routes  
-- Avoid transiting traffic for free (peering disputes)  
-- Prefer cheaper links  
-- Prefer paths that avoid certain countries/regions for security or legal reasons  
-- Enforce traffic engineering goals  
+- Prefer customer routes over peer routes over provider routes
+- Avoid transiting traffic for free (peering disputes)
+- Prefer cheaper links
+- Prefer paths that avoid certain countries/regions for security or legal reasons
+- Enforce traffic engineering goals
 - Blackhole or filter specific prefixes for security
 
 Therefore, the correct answer is **策略** (policy) or **政策** (policy), and the most common phrasing in Chinese textbooks and exams is:
 
-**自治系统之间的路由选择是策略优先**  
-or  
+**自治系统之间的路由选择是策略优先**
+or
 **策略优先** / **政策优先**
 
 **References:**

@@ -71,7 +71,7 @@ However, one of her most famous and widely read books is:
 
 ---
 
-### 📘 **"In the Shadow of Man" (1971)**  
+### 📘 **"In the Shadow of Man" (1971)**
 This is one of Jane Goodall’s most well-known books and is a must-read for anyone interested in her work.
 
 #### 🌿 What Is It About?

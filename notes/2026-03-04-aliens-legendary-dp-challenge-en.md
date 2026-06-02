@@ -13,11 +13,11 @@ type: note
 
 ### Problem Summary (very simplified)
 
-You are given **N points of interest** (up to 2000) on a **grid** (coordinates up to ~10^9, but N is small).  
-You need to cover all these points using **at most K axis-aligned squares** (K up to 2000 in hardest subtasks).  
-Each square can be of **any size** and positioned anywhere (but with a special property: two opposite corners lie on the same diagonal — actually 45° rotated squares in taxicab/Chebyshev distance terms).  
+You are given **N points of interest** (up to 2000) on a **grid** (coordinates up to ~10^9, but N is small).
+You need to cover all these points using **at most K axis-aligned squares** (K up to 2000 in hardest subtasks).
+Each square can be of **any size** and positioned anywhere (but with a special property: two opposite corners lie on the same diagonal — actually 45° rotated squares in taxicab/Chebyshev distance terms).
 
-The cost of a square is **(side length)²** — basically the **number of unit cells** it covers.  
+The cost of a square is **(side length)²** — basically the **number of unit cells** it covers.
 Goal: **minimize the total number of cells covered** (union of all squares), while covering every point at least once, using ≤ K squares.
 
 It's essentially a **minimum cost set cover**-like problem but geometric, turned into a very clever DP.

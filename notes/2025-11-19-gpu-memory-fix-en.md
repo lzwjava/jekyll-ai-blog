@@ -30,7 +30,7 @@ So total → you are very close to or over 12 GB, especially once PyTorch overhe
 
 Your effective (total) batch size is:
 
-effective_batch_size = batch_size × gradient_accumulation_steps  
+effective_batch_size = batch_size × gradient_accumulation_steps
 = 16 × 32 = 512 sequences
 
 This 512 is what matters for gradient quality/noise. The micro-batch (16) mostly affects VRAM and speed.
@@ -68,7 +68,7 @@ torch.set_float32_matmul_precision('medium')  # remove or set to 'high' if you h
 ```
 
 ### TL;DR
-Yes — change batch_size to 8 and gradient_accumulation_steps to 64.  
+Yes — change batch_size to 8 and gradient_accumulation_steps to 64.
 You keep the same effective batch size (512), same model quality, same number of tokens seen, but VRAM drops enough to fit comfortably on 12 GB.
 
 You'll be fine after that change. Happy training!

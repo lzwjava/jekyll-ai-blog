@@ -81,8 +81,8 @@ Flash Attention 是 transformer 中计算注意力（LLM 如 GPT 的关键部分
 
 如果您在代码中实现这一点，请在您的硬件上测试——bfloat16 在较新的 GPU 上表现出色，而 float16 更通用但在梯度处理上更棘手。
 
-参考文献：  
-[理解深度学习中的浮点精度](https://towardsdatascience.com/understanding-fp32-fp16-bf16-in-neural-networks-27075c96b4d3)  
-[LLM 量化技术](https://huggingface.co/docs/transformers/quantization)  
-[Flash Attention 解释](https://arxiv.org/abs/2205.14135)  
+参考文献：
+[理解深度学习中的浮点精度](https://towardsdatascience.com/understanding-fp32-fp16-bf16-in-neural-networks-27075c96b4d3)
+[LLM 量化技术](https://huggingface.co/docs/transformers/quantization)
+[Flash Attention 解释](https://arxiv.org/abs/2205.14135)
 [PyTorch 中的混合精度训练](https://pytorch.org/docs/stable/amp.html)

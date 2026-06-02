@@ -15,7 +15,7 @@ type: note
 Based on employee reviews and discussions from platforms like Glassdoor and Reddit, here are some frequently mentioned challenges for contractors at DBS Bank (primarily in Singapore). Keep in mind these are anecdotal experiences and can vary by role, team, and location:
 
 - **Second-Class Treatment**: Contractors often feel undervalued, receiving emails or communications intended for permanent staff by mistake, and being excluded from certain company events or perks.
-  
+
 - **Job Insecurity**: Contracts are frequently not renewed without much notice, and contractors are typically the first to be let go during budget cuts or restructurings. Permanent roles offer more stability, including severance and notice periods.
 
 - **Limited Benefits and Perks**: No access to the full suite of employee benefits (e.g., health insurance, bonuses, or training programs) that permanent staff enjoy. Pay might be decent, but the lack of extras makes it feel less competitive long-term.

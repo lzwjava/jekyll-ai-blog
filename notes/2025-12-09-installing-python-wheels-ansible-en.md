@@ -14,7 +14,7 @@ Question: In an Ansible playbook, what is the best way to install a Python wheel
 
 Answer:
 
-The **recommended and more "Ansible-like" approach** is to use the official `pip` module with proper idempotency checks instead of raw `shell`.  
+The **recommended and more "Ansible-like" approach** is to use the official `pip` module with proper idempotency checks instead of raw `shell`.
 You usually don’t need 3 separate tasks — two tasks (or even one with `pip` options) are enough and fully idempotent.
 
 Here is the cleanest and most idiomatic way:
@@ -77,9 +77,9 @@ Or if you really want to be extra explicit with a prior check (rarely needed):
 
 ### Summary – Best practices order
 
-1. **Best**: Use `ansible.builtin.pip` module → clean, idempotent, readable  
-2. Good: `pip` module + `fileglob` loop for multiple wheels  
-3. Acceptable: `command` with `creates` argument for idempotency  
+1. **Best**: Use `ansible.builtin.pip` module → clean, idempotent, readable
+2. Good: `pip` module + `fileglob` loop for multiple wheels
+3. Acceptable: `command` with `creates` argument for idempotency
 4. **Avoid**: raw `shell` without `creates`/`changed_when` → non-idempotent, harder to debug
 
 So: **Prefer the `pip` module over shell** — it’s more "Ansible way", safer, and requires fewer tasks than manually checking existence and paths.

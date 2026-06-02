@@ -49,7 +49,7 @@ cd [repo]
 cc  # or `claude` in terminal
 
 # Step 3: Ask directly
-"How do I change the model to qwen3.6? 
+"How do I change the model to qwen3.6?
  Show me the actual CLI argument parsing code."
 ```
 

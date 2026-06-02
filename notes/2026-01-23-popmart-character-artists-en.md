@@ -12,7 +12,7 @@ type: note
 
 **Question:** Who is the artist behind Pop Mart's cartoon characters?
 
-**Answer:** 
+**Answer:**
 
 Pop Mart does not have a single artist behind all its cartoon characters. Instead, it is a company that collaborates with multiple independent artists and designers to create its original intellectual properties (IPs) and cartoon-style toy figures, often sold in blind boxes.
 
@@ -29,7 +29,7 @@ The company was founded by Wang Ning in 2010, but he is a businessman, not an ar
 
 For a full list of artists and their characters, Pop Mart's official website has an "IP Artist Zone" section highlighting many of them.
 
-**References:**  
+**References:**
 
 - [Pop Mart official US site - IP Artist Zone](https://www.popmart.com/us/ip-artist-zone)
 - [Wikipedia - Pop Mart](https://en.wikipedia.org/wiki/Pop_Mart)

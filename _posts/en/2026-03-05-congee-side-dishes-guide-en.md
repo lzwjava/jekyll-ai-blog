@@ -11,7 +11,7 @@ type: note
 
 Question: What kind of food like 酸豆角, 榨菜, etc., can be eaten with porridge?
 
-Answer: 
+Answer:
 
 Plain white rice porridge (also called **congee** or **xifan**) is very mild and bland, so it is commonly paired with salty, sour, pickled, or fermented side dishes to add flavor and make it more appetizing. Foods like **酸豆角** (sour pickled long beans / cowpeas) and **榨菜** (pickled mustard tuber / zhacai) are classic examples of these accompaniments in Chinese cuisine.
 
@@ -37,7 +37,7 @@ Here are some common similar foods that pair perfectly with porridge:
 
 These are especially popular for breakfast or when someone has a poor appetite, as the strong flavors stimulate eating. People often eat them directly from small plates or jars while sipping the hot porridge — no cooking needed for most.
 
-References:  
+References:
 
 - [https://www.zhihu.com/question/657525006/answer/1949197946412339877](https://www.zhihu.com/question/657525006/answer/1949197946412339877)
 - [https://www.greedygirlgourmet.com/best-chinese-congee-side-dishes](https://www.greedygirlgourmet.com/best-chinese-congee-side-dishes)

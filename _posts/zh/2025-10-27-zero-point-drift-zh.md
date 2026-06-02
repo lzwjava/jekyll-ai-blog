@@ -35,6 +35,6 @@ type: note
 
 在直接耦合多级放大器（如前文讨论）中，由于直流信号会贯通所有放大级，微小的漂移会被显著放大，使得该问题尤为棘手。
 
-[零漂放大器详解](https://www.analog.com/en/resources/analog-dialogue/articles/zero-drift-amplifiers.html)  
-[运放偏移漂移分析](https://www.ti.com/lit/an/sboa275/sboa275.pdf)  
+[零漂放大器详解](https://www.analog.com/en/resources/analog-dialogue/articles/zero-drift-amplifiers.html)
+[运放偏移漂移分析](https://www.ti.com/lit/an/sboa275/sboa275.pdf)
 [维基百科：电子偏移](https://en.wikipedia.org/wiki/Offset_(electronics))

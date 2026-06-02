@@ -36,9 +36,9 @@ Yes, you can purchase servers (specifically ECS instances) on Alibaba Cloud (Ali
 
 If you need the absolute best overseas speeds and don't mind a slight hop, HK with CN2 is the way to go. For strictly mainland, GIA gets you close with premium routing.
 
-References:  
-[Global Internet Access - Alibaba Cloud](https://www.alibabacloud.com/en/solutions/global-internet-access)  
-[Tips for an SSR server on Alibaba Cloud](https://www.tipsforchina.com/tips-for-alibaba-hong-kong-aliyun.html)  
-[Alibaba mainland China VPS feedback - LowEndTalk](https://lowendtalk.com/discussion/111525/alibaba-mainland-china-vps-feedback)  
-[What cloud service providers work well in both China and the US? - Quora](https://www.quora.com/What-cloud-service-providers-work-well-in-both-China-and-the-US)  
+References:
+[Global Internet Access - Alibaba Cloud](https://www.alibabacloud.com/en/solutions/global-internet-access)
+[Tips for an SSR server on Alibaba Cloud](https://www.tipsforchina.com/tips-for-alibaba-hong-kong-aliyun.html)
+[Alibaba mainland China VPS feedback - LowEndTalk](https://lowendtalk.com/discussion/111525/alibaba-mainland-china-vps-feedback)
+[What cloud service providers work well in both China and the US? - Quora](https://www.quora.com/What-cloud-service-providers-work-well-in-both-China-and-the-US)
 [Lower the latency of your application in China with BGP Pro](https://albertoroura.com/lower-the-latency-of-your-application-in-china-with-bgp-pro/)

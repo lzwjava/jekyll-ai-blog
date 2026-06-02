@@ -12,7 +12,7 @@ type: note
 
 Question: How could TripMode.app be installed on my Mac if I don't remember installing it?
 
-Answer: 
+Answer:
 
 TripMode.app is a legitimate third-party macOS application and is **not preinstalled** on any Mac by Apple. It also does not come bundled with other software or install automatically without user interaction. All installation methods require explicit user action:
 
@@ -37,7 +37,7 @@ If you're concerned about unauthorized installation, check:
 
 To remove it safely: Quit TripMode, drag the app to Trash (this also removes its extensions properly), then empty Trash.
 
-References:  
+References:
 
 - [Official TripMode Website](https://tripmode.ch/)
 - [TripMode on Mac App Store](https://apps.apple.com/us/app/tripmode/id1513400665?mt=12)

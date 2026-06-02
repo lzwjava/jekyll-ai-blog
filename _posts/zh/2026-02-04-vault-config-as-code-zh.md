@@ -97,14 +97,14 @@ path "secret/data/terraform/prod/root-password" {
 
 terraform {
   required_version = ">= 1.0"
-  
+
   required_providers {
     vault = {
       source  = "hashicorp/vault"
       version = "~> 3.20"
     }
   }
-  
+
   backend "s3" {
     bucket = "terraform-state-vault-config"
     key    = "vault/terraform.tfstate"
@@ -140,7 +140,7 @@ resource "vault_mount" "terraform_secrets" {
   path        = "secret"
   type        = "kv-v2"
   description = "KV v2 secrets engine for Terraform variables"
-  
+
   options = {
     version = "2"
     max_versions = "10"
@@ -154,7 +154,7 @@ resource "vault_mount" "app_secrets" {
   path        = "apps"
   type        = "kv-v2"
   description = "Application-specific secrets"
-  
+
   options = {
     version = "2"
     max_versions = "5"
@@ -166,7 +166,7 @@ resource "vault_mount" "database" {
   path        = "database"
   type        = "database"
   description = "Dynamic database credentials"
-  
+
   default_lease_ttl_seconds = 3600
   max_lease_ttl_seconds     = 86400
 }
@@ -181,7 +181,7 @@ resource "vault_database_secret_backend_connection" "postgres" {
     connection_url = "postgresql://{{username}}:{{password}}@postgres.company.com:5432/mydb"
     username       = "vault-admin"
     password       = var.db_admin_password
-    
+
     max_open_connections      = 5
     max_idle_connections      = 2
     max_connection_lifetime   = 300
@@ -197,7 +197,7 @@ resource "vault_database_secret_backend_role" "terraform_db_role" {
     "CREATE ROLE \"{{name}}\" WITH LOGIN PASSWORD '{{password}}' VALID UNTIL '{{expiration}}';",
     "GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO \"{{name}}\";"
   ]
-  
+
   default_ttl = 3600
   max_ttl     = 86400
 }
@@ -206,11 +206,11 @@ resource "vault_database_secret_backend_role" "terraform_db_role" {
 resource "vault_aws_secret_backend" "aws" {
   path        = "aws"
   description = "AWS dynamic credentials"
-  
+
   access_key = var.aws_access_key
   secret_key = var.aws_secret_key
   region     = "us-east-1"
-  
+
   default_lease_ttl_seconds = 3600
   max_lease_ttl_seconds     = 43200
 }
@@ -220,7 +220,7 @@ resource "vault_aws_secret_backend_role" "terraform_aws_role" {
   backend         = vault_aws_secret_backend.aws.path
   name            = "terraform-role"
   credential_type = "iam_user"
-  
+
   policy_document = jsonencode({
     Version = "2012-10-17"
     Statement = [
@@ -288,7 +288,7 @@ resource "vault_transit_secret_backend_key" "terraform_key" {
   name             = "terraform-key"
   type             = "aes256-gcm96"
   deletion_allowed = false
-  
+
   # 密钥轮转
   auto_rotate_period = 2592000  # 30 days
 }
@@ -338,11 +338,11 @@ resource "vault_jwt_auth_backend" "jenkins" {
   path               = "jwt-jenkins"
   type               = "jwt"
   description        = "JWT authentication for Jenkins"
-  
+
   jwks_url           = "https://jenkins.company.com/jwtauth/jwks"
   bound_issuer       = "https://jenkins.company.com"
   default_role       = "jenkins-default"
-  
+
   tune {
     default_lease_ttl  = "1h"
     max_lease_ttl      = "24h"
@@ -356,22 +356,22 @@ resource "vault_jwt_auth_backend_role" "jenkins_terraform" {
   backend        = vault_jwt_auth_backend.jenkins.path
   role_name      = "jenkins-terraform"
   token_policies = ["terraform-secrets", "database-read", "aws-read"]
-  
+
   role_type = "jwt"
-  
+
   bound_claims = {
     jenkins_job_name = "terraform-*"
     jenkins_server   = "jenkins.company.com"
   }
-  
+
   user_claim            = "sub"
   user_claim_json_pointer = false
-  
+
   claim_mappings = {
     jenkins_job_name    = "job_name"
     jenkins_build_number = "build_number"
   }
-  
+
   token_ttl             = 3600
   token_max_ttl         = 7200
   token_explicit_max_ttl = 0
@@ -386,10 +386,10 @@ resource "vault_jwt_auth_backend" "github_actions" {
   path        = "github"
   type        = "jwt"
   description = "GitHub Actions OIDC authentication"
-  
+
   oidc_discovery_url = "https://token.actions.githubusercontent.com"
   bound_issuer       = "https://token.actions.githubusercontent.com"
-  
+
   tune {
     default_lease_ttl = "1h"
     max_lease_ttl     = "12h"
@@ -401,17 +401,17 @@ resource "vault_jwt_auth_backend_role" "github_terraform" {
   backend        = vault_jwt_auth_backend.github_actions.path
   role_name      = "github-terraform"
   token_policies = ["terraform-secrets"]
-  
+
   role_type = "jwt"
-  
+
   bound_audiences = ["https://github.com/yourorg"]
-  
+
   bound_claims = {
     repository = "yourorg/terraform-infrastructure"
   }
-  
+
   user_claim = "actor"
-  
+
   claim_mappings = {
     repository = "repository"
     workflow   = "workflow"
@@ -422,7 +422,7 @@ resource "vault_jwt_auth_backend_role" "github_terraform" {
 resource "vault_auth_backend" "approle" {
   type = "approle"
   path = "approle"
-  
+
   tune {
     default_lease_ttl = "1h"
     max_lease_ttl     = "24h"
@@ -434,7 +434,7 @@ resource "vault_approle_auth_backend_role" "terraform_automation" {
   backend        = vault_auth_backend.approle.path
   role_name      = "terraform-automation"
   token_policies = ["terraform-secrets", "database-read"]
-  
+
   secret_id_ttl          = 600
   secret_id_num_uses     = 10
   token_num_uses         = 0
@@ -475,7 +475,7 @@ resource "vault_ldap_auth_backend" "ldap" {
   groupfilter = "(&(objectClass=group)(member={{.UserDN}}))"
   binddn      = var.ldap_binddn
   bindpass    = var.ldap_bindpass
-  
+
   token_ttl     = 3600
   token_max_ttl = 7200
 }
@@ -501,7 +501,7 @@ resource "vault_policy" "terraform_secrets" {
 
 resource "vault_policy" "database_read" {
   name = "database-read"
-  
+
   policy = <<EOT
 # Read database credentials
 path "database/creds/*" {
@@ -517,7 +517,7 @@ EOT
 
 resource "vault_policy" "aws_read" {
   name = "aws-read"
-  
+
   policy = <<EOT
 # Generate AWS credentials
 path "aws/creds/terraform-role" {
@@ -533,7 +533,7 @@ EOT
 
 resource "vault_policy" "admin" {
   name = "admin"
-  
+
   policy = <<EOT
 # Full access to all paths
 path "*" {
@@ -545,7 +545,7 @@ EOT
 # PKI 操作的 Policy
 resource "vault_policy" "pki_operations" {
   name = "pki-operations"
-  
+
   policy = <<EOT
 # Issue certificates
 path "pki/issue/terraform-cert" {
@@ -573,7 +573,7 @@ EOT
 resource "vault_identity_entity" "terraform_service" {
   name     = "terraform-service"
   policies = ["terraform-secrets", "database-read"]
-  
+
   metadata = {
     environment = "production"
     team        = "infrastructure"
@@ -592,7 +592,7 @@ resource "vault_identity_group" "terraform_users" {
   name     = "terraform-users"
   type     = "internal"
   policies = ["terraform-secrets"]
-  
+
   metadata = {
     version = "1.0"
   }
@@ -634,7 +634,7 @@ resource "vault_mount" "terraform_ns_secrets" {
 # File audit 设备
 resource "vault_audit" "file" {
   type = "file"
-  
+
   options = {
     file_path = "/vault/logs/audit.log"
     log_raw   = "false"
@@ -647,7 +647,7 @@ resource "vault_audit" "file" {
 # Syslog audit 设备
 resource "vault_audit" "syslog" {
   type = "syslog"
-  
+
   options = {
     facility = "AUTH"
     tag      = "vault"
@@ -657,7 +657,7 @@ resource "vault_audit" "syslog" {
 # Socket audit 设备
 resource "vault_audit" "socket" {
   type = "socket"
-  
+
   options = {
     address     = "127.0.0.1:9090"
     socket_type = "tcp"
@@ -673,18 +673,18 @@ resource "vault_audit" "socket" {
 resource "vault_kv_secret_v2" "terraform_prod" {
   mount = vault_mount.terraform_secrets.path
   name  = "terraform/prod/aws"
-  
+
   data_json = jsonencode({
     aws_region      = "us-east-1"
     instance_type   = "t3.large"
     vpc_cidr        = "10.0.0.0/16"
     availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
   })
-  
+
   custom_metadata {
     max_versions = 10
     cas_required = false
-    
+
     data = {
       environment = "production"
       team        = "infrastructure"
@@ -696,7 +696,7 @@ resource "vault_kv_secret_v2" "terraform_prod" {
 resource "vault_kv_secret_v2" "terraform_staging" {
   mount = vault_mount.terraform_secrets.path
   name  = "terraform/staging/aws"
-  
+
   data_json = jsonencode({
     aws_region    = "us-west-2"
     instance_type = "t3.medium"
@@ -707,7 +707,7 @@ resource "vault_kv_secret_v2" "terraform_staging" {
 resource "vault_kv_secret_v2" "database_config" {
   mount = vault_mount.terraform_secrets.path
   name  = "terraform/prod/database"
-  
+
   data_json = jsonencode({
     db_host     = "postgres.company.com"
     db_port     = 5432
@@ -725,25 +725,25 @@ resource "vault_kv_secret_v2" "database_config" {
 resource "vault_mount" "tuned_kv" {
   path = "tuned-secret"
   type = "kv-v2"
-  
+
   options = {
     version = "2"
   }
-  
+
   # 调优参数
   default_lease_ttl_seconds = 3600
   max_lease_ttl_seconds     = 86400
-  
+
   # 审计设置
   audit_non_hmac_request_keys  = ["key1", "key2"]
   audit_non_hmac_response_keys = ["response_key"]
-  
+
   # 列表可见性
   listing_visibility = "unauth"
-  
+
   # 透传请求头
   passthrough_request_headers = ["X-Custom-Header"]
-  
+
   # 允许的响应头
   allowed_response_headers = ["X-Response-Header"]
 }

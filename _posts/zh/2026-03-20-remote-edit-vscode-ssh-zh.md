@@ -11,7 +11,7 @@ type: note
 
 Question: 如何使用 VS Code 远程编辑服务器上的文件？
 
-Answer: 
+Answer:
 
 使用 **Visual Studio Code** 远程编辑服务器上文件的最佳且最受欢迎的方式是官方的 **Remote - SSH** 扩展。它为远程机器提供完整的 VS Code 体验（IntelliSense、调试、终端、扩展等）。
 
@@ -112,7 +112,7 @@ Answer:
 
 使用 **SSH FS** 扩展 — 它通过 SFTP/SSHFS 挂载远程文件夹。功能较弱（无完整的远程扩展/调试），但服务器上零安装。
 
-参考资料：  
+参考资料：
 
 - [Official VS Code Remote - SSH documentation](https://code.visualstudio.com/docs/remote/ssh)
 - [Remote SSH tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial)

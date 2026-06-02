@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the LinkedIn mobile app?
 
-Answer: 
+Answer:
 
 The **LinkedIn mobile app** is the official application for LinkedIn, the world's largest professional networking platform. It allows users to access most features of the LinkedIn website directly from their smartphones (available on iOS and Android), making it convenient to manage your professional identity, network, search for jobs, and stay updated on industry news while on the go.
 
@@ -48,7 +48,7 @@ To get started, download the "LinkedIn: Network & Job Finder" app from the App S
 
 The app is free to use with optional Premium subscriptions for advanced features like InMail, profile insights, and enhanced job search tools.
 
-References:  
+References:
 
 - [LinkedIn Mobile Apps Official](https://mobile.linkedin.com/)
 - [LinkedIn App on App Store](https://apps.apple.com/us/app/linkedin-network-job-finder/id288429040)

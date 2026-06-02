@@ -11,7 +11,7 @@ type: note
 
 Question: When preparing for exams, can we use freedom to act and explore topics freely? Is this something ESTPs like to do, such as freely exploring extended topics and learning however they want, since the exam topic is still a broad and big area to explore?
 
-Answer: 
+Answer:
 
 Yes, that approach can work very well — especially for certain personality types — but it depends on the person and the kind of exam.
 
@@ -48,6 +48,6 @@ So yes — when the exam topic is broad and conceptual, "freedom to explore exte
 
 Just remember to put guardrails (past paper analysis + periodic focused practice) so the freedom doesn't turn into procrastination.
 
-References:  
+References:
 
 - None (this is based on MBTI theory patterns and common study strategy observations)

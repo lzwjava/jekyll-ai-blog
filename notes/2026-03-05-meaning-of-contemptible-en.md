@@ -11,7 +11,7 @@ type: note
 
 Question: What does "contemptible" mean?
 
-Answer: 
+Answer:
 
 **Contemptible** means deserving contempt, scorn, or strong disapproval because of being very bad, worthless, despicable, or morally low.
 
@@ -40,6 +40,6 @@ It describes people, actions, or things that are considered shameful,卑劣 (卑
 
 So "contemptible" describes the *object* of contempt, while "contemptuous" describes the *person* who feels/shows contempt.
 
-References:  
+References:
 
 - None (standard English dictionary definition)

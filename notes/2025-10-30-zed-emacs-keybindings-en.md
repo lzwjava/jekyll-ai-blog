@@ -89,7 +89,7 @@ Add bindings as a JSON array under contexts like "Editor." Here's a **minimal ex
 
 This should get you 80% of basic Emacs feel. Start with the built-in, then iterate!
 
-[Key Bindings Docs](https://zed.dev/docs/key-bindings)  
-[Configuring Zed](https://zed.dev/docs/configuring-zed)  
-[Emacs Keymap Discussion](https://github.com/zed-industries/zed/discussions/6572)  
+[Key Bindings Docs](https://zed.dev/docs/key-bindings)
+[Configuring Zed](https://zed.dev/docs/configuring-zed)
+[Emacs Keymap Discussion](https://github.com/zed-industries/zed/discussions/6572)
 [Emacs Compatibility Issue](https://github.com/zed-industries/zed/issues/4856)

@@ -12,7 +12,7 @@ type: note
 
 Question: 对于只有一个人使用的个人笔记本电脑，传统的 Linux user 和 group 设计是否已经过时了？对于单用户设置，仅拥有一个普通用户、一个 group 和 root 是否足够？像 nginx 这样的服务应该以普通用户还是 root 身份运行？
 
-Answer: 
+Answer:
 
 Linux 经典的 multi-user/group 模型并没有真正**过时**——即使在 2026 年，它仍然是安全性的基石。但你说的没错，在只有一名人类用户的**个人笔记本电脑**上，拥有许多独立用户和组的实际收益会变得非常小。
 
@@ -71,7 +71,7 @@ Linux 经典的 multi-user/group 模型并没有真正**过时**——即使在 
 
 旧的 multi-user 模型并未消亡 —— 只是在个人机器上，大多数**人类**用户消失了，而**系统/服务**用户变得更加重要。
 
-References:  
+References:
 
 - [How to Run NGINX for Root & Non-Root Users](https://support.tools/nginx-root-non-root)
 - [Is it a security risk to run master process of nginx as root?](https://security.stackexchange.com/questions/202861/is-it-a-security-risk-to-run-master-process-of-nginx-as-root)

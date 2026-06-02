@@ -16,13 +16,13 @@ type: note
 
 #### 1. **通过 Ubuntu APT（对大多数用户最快）**
    如果您已安装 Docker（包含 `docker-compose-plugin`），只需使用子命令——无需单独下载。这是现代集成方式，可避免二进制文件管理。
-   
+
    - **检查是否已可用**：
      ```
      docker compose version
      ```
      如果显示 v2.x 版本，则已完成——这是通过 Docker 安装的最新版本。
-   
+
    - **需要时安装/更新**（若缺少插件则添加）：
      ```
      sudo apt update
@@ -44,7 +44,7 @@ type: note
 
 #### 2. **从 GitHub 单行 Curl（比完整发布略快）**
    跳过浏览发布页面——curl 直接获取最新的 Linux x86_64 二进制文件并安装。比手动选择资源更快，但仍使用 GitHub。
-   
+
    ```
    VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) && sudo curl -L "https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose && sudo chmod +x /usr/local/bin/docker-compose && docker-compose --version
    ```
@@ -54,7 +54,7 @@ type: note
 
 #### 3. **通过 Snap（Ubuntu 的通用包管理器）**
    Snap 预装在 Ubuntu 24.04 上，可从 Canonical 商店即时拉取最新版本。
-   
+
    ```
    sudo snap install docker
    ```
@@ -64,7 +64,7 @@ type: note
 
 #### 4. **通过 Pip（因您已安装 Python 3.13.4）**
    如果您偏好基于 Python 的方式（传统 v1 风格，但 pip 提供 v2 封装器），可快速安装且无需系统依赖。
-   
+
    ```
    sudo pip3 install docker-compose
    ```
@@ -74,5 +74,5 @@ type: note
 
 这些方法都比 GitHub 界面更快，因为它们最小化点击或使用 API/缓存。对于 Ubuntu，我首选推荐 APT 或 Snap——它们无缝集成并处理更新。如果您对 "docker compose down" 有其他含义（例如命令本身），请澄清！
 
-[官方 Docker Compose 安装指南](https://docs.docker.com/compose/install/linux/)  
+[官方 Docker Compose 安装指南](https://docs.docker.com/compose/install/linux/)
 [Docker 发布页面](https://github.com/docker/compose/releases)

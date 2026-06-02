@@ -18,6 +18,6 @@ To double-check the setting:
 
 This ensures your notification filters, allowed apps/people, and Focus status stay consistent everywhere.
 
-[Set up a Focus on iPhone](https://support.apple.com/guide/iphone/set-up-a-focus-iphd628a67f/ios)  
-[Turn your Sleep Focus on or off on iPhone](https://support.apple.com/guide/iphone/turn-sleep-focus-on-or-off-iph7cdb86325/ios)  
+[Set up a Focus on iPhone](https://support.apple.com/guide/iphone/set-up-a-focus-iphd628a67f/ios)
+[Turn your Sleep Focus on or off on iPhone](https://support.apple.com/guide/iphone/turn-sleep-focus-on-or-off-iph7cdb86325/ios)
 [Manage Focus options on Mac](https://support.apple.com/guide/mac-help/manage-focus-options-on-mac-mchl74e8c77b/mac)

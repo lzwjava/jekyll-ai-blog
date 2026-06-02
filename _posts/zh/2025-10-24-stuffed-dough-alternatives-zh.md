@@ -61,7 +61,7 @@ type: note
 
 这些食谱均使用常见食材且便于清理。新手可从手边现有面团开始尝试——酥皮容错率最高。不妨用奶酪、蔬菜或剩余肉类探索不同馅料组合！
 
-[21道让你爱不释手的咸味酥皮食谱](https://www.allrecipes.com/gallery/savory-puff-pastry-recipes/)  
-[环球15种包馅面点之旅](https://www.tastingtable.com/985720/around-the-world-with-15-stuffed-dough-dishes/)  
-[皮罗什基（咸味馅饼）食谱](https://www.food.com/recipe/piroshki-a-savoury-filled-pastry-76375)  
+[21道让你爱不释手的咸味酥皮食谱](https://www.allrecipes.com/gallery/savory-puff-pastry-recipes/)
+[环球15种包馅面点之旅](https://www.tastingtable.com/985720/around-the-world-with-15-stuffed-dough-dishes/)
+[皮罗什基（咸味馅饼）食谱](https://www.food.com/recipe/piroshki-a-savoury-filled-pastry-76375)
 [简易斯特龙博利卷](https://www.simplyrecipes.com/recipes/easy_meat_and_cheese_stuffed_stromboli/)

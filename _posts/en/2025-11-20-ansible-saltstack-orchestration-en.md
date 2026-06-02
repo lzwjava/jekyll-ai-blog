@@ -12,7 +12,7 @@ type: note
 
 In the context of “orchestration (Ansible/Salt)”, **Salt** refers to **SaltStack** (commonly just called **Salt**) – a popular open-source configuration management and **orchestration** tool, very similar to Ansible.
 
-So the phrase means:  
+So the phrase means:
 “We’re talking about orchestration tools, specifically Ansible or SaltStack.”
 
 ### Quick comparison to clarify what “Salt” is here:

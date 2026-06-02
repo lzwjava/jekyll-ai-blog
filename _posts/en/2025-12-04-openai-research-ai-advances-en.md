@@ -12,7 +12,7 @@ type: note
 
 Question: What did Mark Chen from OpenAI say recently?
 
-Answer: 
+Answer:
 
 Mark Chen, OpenAI's Chief Research Officer, has been active in public discussions on AI advancements, talent competition, and future research directions. His most recent statements, as of early December 2025, come from a detailed interview with journalist Ashlee Vance (published around December 2, 2025), where he addressed OpenAI's progress, competitive landscape, and strategic priorities. Below is a summary of key points from that interview and related recent comments:
 

@@ -12,7 +12,7 @@ type: note
 
 **Question:** Is the update from webpack-dev-middleware 5.3.3 to 5.3.4 a security fix update? And can we use overrides instead of upgrading Angular 14 to a higher version, since @angular-devkit/build-angular uses that package?
 
-**Answer:** 
+**Answer:**
 
 Yes, the update from **webpack-dev-middleware 5.3.3** to **5.3.4** is specifically a **security fix** release.
 
@@ -42,7 +42,7 @@ This should pull in 5.3.4 without breaking Angular 14's build/dev setup (as the 
 
 Note: Overrides are a good temporary fix, but for long-term maintenance, consider migrating to a newer Angular version (which uses updated dependencies) or switching to the modern esbuild-based builder (available in newer Angular versions).
 
-**References:**  
+**References:**
 
 - [https://nvd.nist.gov/vuln/detail/CVE-2024-29180](https://nvd.nist.gov/vuln/detail/CVE-2024-29180)
 - [https://github.com/webpack/webpack-dev-middleware/security/advisories/GHSA-wr3j-pwj9-hqq6](https://github.com/webpack/webpack-dev-middleware/security/advisories/GHSA-wr3j-pwj9-hqq6)

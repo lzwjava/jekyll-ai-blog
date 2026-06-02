@@ -54,7 +54,7 @@ ASIC stands for **Application-Specific Integrated Circuit**. These are microchip
 | Development cost       | Very high       | Very high         | Medium           | Extremely high    |
 | Time to market         | Fastest         | Fast              | Medium           | Slowest           |
 
-In short:  
+In short:
 If you need **maximum efficiency** and you plan to sell **millions of units** of exactly the same function (mining, AI inference, smartphone SoC, 5G modem, etc.), you eventually move to ASICs. Almost everything that reaches truly massive scale and cares about joules per operation ends up as an ASIC in 2026.
 
 **References:**

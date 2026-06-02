@@ -11,7 +11,7 @@ type: note
 
 Question: Continue organizing the transcript from the YouTube video "3.5-1 TCP Reliability, Flow Control, and Connection Management" (Part 1), keeping the original text as much as possible while making it more coherent.
 
-Answer: 
+Answer:
 
 Here is the continuation of the organized transcript, picking up exactly where the previous portion ended (mid-sentence: "On the other hand, if we wait too long, TCP..."). The text preserves Jim Kurose’s original spoken wording and natural delivery style as closely as possible, while being structured into clear sections with improved flow, paragraph breaks, and light punctuation for readability. This covers the remainder of the key concepts typically presented in this part of the lecture (based on the standard coverage in the 8th edition of *Computer Networking: A Top-Down Approach* and the video’s content).
 
@@ -81,7 +81,7 @@ This is much faster than waiting for the full timeout interval. Fast Retransmit 
 
 (Note: This video is Part 1 of 2. It typically ends around the introduction to Fast Retransmit and basic retransmission scenarios. Part 2 continues with more complex loss scenarios, selective acknowledgments (SACK), flow control using the receive window, and the three-way handshake for connection management.)
 
-References:  
+References:
 
 - [YouTube Video: 3.5-1 TCP Reliability, Flow Control, and Connection Management](https://www.youtube.com/watch?v=UYJP-6mhF6E)
 - [Playlist: Computer Networking: A Top-Down Approach - All Chapters](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)

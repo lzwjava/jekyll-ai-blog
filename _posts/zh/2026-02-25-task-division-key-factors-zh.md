@@ -31,21 +31,21 @@ type: note
 - **个性与工作风格** — 有些人擅长 frontend，其他人擅长 performance/refactoring，其他人擅长 infrastructure。尽可能尊重这一点，但不要使其僵化。
 
 ### 技术与依赖因素
-- **什么可以真正并行化**  
-  - 独立模块 / microservices / features → 适合并行工作  
+- **什么可以真正并行化**
+  - 独立模块 / microservices / features → 适合并行工作
   - 共享核心领域逻辑、database schema changes、authentication、关键 refactoring → 通常无法安全并行化（高冲突风险）
 - **任务间依赖** — 明确映射它们（predecessor-successor）。最小化阻塞依赖；优先分解以便大部分工作能尽早启动。
 - **Merge / integration 风险** — 同一文件/模块中的大量并行变更 → 非常痛苦的 merge。最好 sequencing 或使用 feature flags / branching strategies。
 - **代码变更 vs. 测试分离** — 通常 **no** — 编写代码的人也应编写大部分测试（TDD/ATDD 风格）。Separate QA/testing 适用于 exploratory / acceptance / non-functional testing，但 unit/integration tests 属于 developers。
 
 ### 团队规模与容量因素
-- **需要多少人**  
-  - 大多数 user stories 应由 **1–3 人** 完成（通常 1 主要 + review/pair）。  
+- **需要多少人**
+  - 大多数 user stories 应由 **1–3 人** 完成（通常 1 主要 + review/pair）。
   - 更大的 epics/features → 每个 cohesive group 最多 3–8 人（更大 → 通信开销快速增长 — 见 "two pizza team" rule）。
-- **最小和最大合理团队规模**  
-  - **最小** per task/story: 通常 1（但优先 ≥2 用于 review + shared understanding）  
-  - **最大** per story: ~3–4（更多人 → 协调成本 > 速度收益）  
-  - **最小** per stable team: 3–4（太小 → 技能覆盖有限，病假/假期风险）  
+- **最小和最大合理团队规模**
+  - **最小** per task/story: 通常 1（但优先 ≥2 用于 review + shared understanding）
+  - **最大** per story: ~3–4（更多人 → 协调成本 > 速度收益）
+  - **最小** per stable team: 3–4（太小 → 技能覆盖有限，病假/假期风险）
   - **最大** per team: 7–9（理想 ~5–7）；超过 9 → 分拆成多个团队
 
 ### 分解 / 分配时的快速检查清单

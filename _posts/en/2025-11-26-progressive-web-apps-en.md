@@ -33,24 +33,24 @@ PWAs were introduced by Google in 2015 and have become a standard supported by a
 
 ### Core Technologies Behind PWAs
 
-1. **Service Workers**  
-   - A JavaScript file that runs in the background (separate from the web page).  
+1. **Service Workers**
+   - A JavaScript file that runs in the background (separate from the web page).
    - Enables offline caching, background sync, push notifications, and fast loading.
 
-2. **Web App Manifest** (manifest.json)  
+2. **Web App Manifest** (manifest.json)
    - A JSON file that tells the browser how the app should behave when installed (name, icons, theme color, start URL, display mode: fullscreen/standalone, etc.).
 
-3. **HTTPS**  
+3. **HTTPS**
    - Mandatory for security and for service workers to work.
 
 ### Real-World Examples of Popular PWAs
 
-- Twitter → Twitter Lite (now just twitter.com)  
-- Starbucks → Order coffee offline  
-- Pinterest → Full app experience on mobile web  
-- Spotify → Installable web player  
-- Uber → 2016 PWA that worked even on 2G networks  
-- Flipkart Lite → Replaced their native Android app for many users in India  
+- Twitter → Twitter Lite (now just twitter.com)
+- Starbucks → Order coffee offline
+- Pinterest → Full app experience on mobile web
+- Spotify → Installable web player
+- Uber → 2016 PWA that worked even on 2G networks
+- Flipkart Lite → Replaced their native Android app for many users in India
 - Trivago, Alibaba, Tinder, etc.
 
 ### Advantages of PWAs vs Traditional Native Apps

@@ -12,15 +12,15 @@ type: note
 
 Question: How to enter BIOS on this computer with the MSI MAG B760M Mortar WiFi motherboard?
 
-Answer: 
+Answer:
 
 To enter the **BIOS/UEFI** setup on your PC built with the **MSI MAG B760M Mortar WiFi** motherboard (an MSI B760 series board), follow these steps:
 
 ### Primary Method (During Boot):
 1. **Power off** the computer completely (shut down, not just sleep or hibernate).
 2. **Press the power button** to turn it on.
-3. Immediately and **repeatedly tap the Delete (Del) key** as soon as the system starts powering on (even before any logo appears on screen).  
-   - Keep tapping it quickly until the BIOS setup screen loads.  
+3. Immediately and **repeatedly tap the Delete (Del) key** as soon as the system starts powering on (even before any logo appears on screen).
+   - Keep tapping it quickly until the BIOS setup screen loads.
    - This is the standard key for nearly all modern MSI motherboards, including the B760 series like your MAG B760M Mortar WiFi.
 4. If Del doesn't work after a few tries, also try tapping **F2** repeatedly during the same boot window (some MSI boards list both as possibilities, though Del is far more common for desktop boards).
 
@@ -45,7 +45,7 @@ Once inside the BIOS:
 
 This should work reliably for your specific MSI motherboard.
 
-References:  
+References:
 
 - MSI official support page for MAG B760M MORTAR WIFI: [https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI/support](https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI/support)
 - Multiple YouTube tutorials and MSI forum posts confirming **Del** key for B760 series and Mortar models.

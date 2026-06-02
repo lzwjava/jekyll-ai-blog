@@ -42,6 +42,6 @@ MinGW-w64 主要是一个用于交叉编译原生 Windows 应用程序的最小�
 
 这些主要是来自 GCC 和 Binutils 的编译器、链接器和二进制操作工具。如需更完整的类 Unix 环境（包含 `gpg`、`make`、`bash` 等工具），请考虑安装 MSYS2（其中包含 MinGW-w64 作为组件）并通过 `pacman` 添加软件包。
 
-[MinGW-w64 官方网站](https://www.mingw-w64.org/)  
-[MSYS2 软件包（用于 GnuPG 等扩展功能）](https://packages.msys2.org/package/mingw-w64-x86_64-gnupg)  
+[MinGW-w64 官方网站](https://www.mingw-w64.org/)
+[MSYS2 软件包（用于 GnuPG 等扩展功能）](https://packages.msys2.org/package/mingw-w64-x86_64-gnupg)
 [SourceForge MinGW-w64 下载](https://sourceforge.net/projects/mingw-w64/files/)

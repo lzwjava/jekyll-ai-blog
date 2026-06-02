@@ -12,7 +12,7 @@ type: note
 
 Question: What is the course syllabus for Stanford CS231n by Andrej Karpathy?
 
-Answer: 
+Answer:
 
 Stanford CS231n，标题为 "Convolutional Neural Networks for Visual Recognition"（现在通常称为 "Deep Learning for Computer Vision"），最初是由 **Andrej Karpathy** 在其早期开课期间（2015年冬季和2016年冬季学期）设计并担任主讲的。他创作了基础的 lecture notes、assignments 以及大部分沿用至今的课程结构。
 
@@ -37,7 +37,7 @@ Stanford CS231n，标题为 "Convolutional Neural Networks for Visual Recognitio
 
 Karpathy 时代的原始 lecture notes 仍然公开可用，且仍是该课程资料中被引用最多的版本。
 
-References:  
+References:
 
 - [Original CS231n Course Website (current, with links to past offerings)](https://cs231n.stanford.edu/)
 - [CS231n Lecture Notes (classic version by Andrej Karpathy)](https://cs231n.github.io/)

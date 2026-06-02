@@ -92,12 +92,12 @@ for e in range(n_experts):  # 256 experts
     # which tokens route to expert e?
     mask = (topk_ids == e).any(dim=-1)         # [B*T] bool
     tokens_for_e = x[mask]                      # [n_e, d], n_e << B*T
-    
+
     if tokens_for_e.shape[0] == 0:
         continue
-    
+
     out_e = expert[e](tokens_for_e)             # [n_e, d]
-    
+
     # get the weight for this expert for each routed token
     weight_e = topk_weights[mask, (topk_ids[mask] == e).nonzero()...]
     expert_outputs[mask] += weight_e.unsqueeze(-1) * out_e

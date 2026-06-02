@@ -30,31 +30,31 @@ type: note
 
 ### 优缺点总结
 
-**Solo Entrepreneur 优点**  
-- 完全自由和所有权  
-- 无限收入潜力  
-- 构建真正属于自己的东西  
-- 快速、多样技能发展  
-- 无办公室政治或官僚  
+**Solo Entrepreneur 优点**
+- 完全自由和所有权
+- 无限收入潜力
+- 构建真正属于自己的东西
+- 快速、多样技能发展
+- 无办公室政治或官僚
 
-**Solo Entrepreneur 缺点**  
-- 高财务和情感风险  
-- 孤立和沉重工作量  
-- 无安全网（福利、稳定薪资）  
-- 一切取决于你  
+**Solo Entrepreneur 缺点**
+- 高财务和情感风险
+- 孤立和沉重工作量
+- 无安全网（福利、稳定薪资）
+- 一切取决于你
 
-**Big Corporation 员工优点**  
-- 稳定收入和福利  
-- 相对工作保障  
-- 资源、导师指导和结构  
-- 平均更好的工作生活平衡  
-- 更容易构建专业专长  
+**Big Corporation 员工优点**
+- 稳定收入和福利
+- 相对工作保障
+- 资源、导师指导和结构
+- 平均更好的工作生活平衡
+- 更容易构建专业专长
 
-**Big Corporation 员工缺点**  
-- 自主性较低、节奏较慢  
-- 官僚和政治  
-- 个人上限受限  
-- 感觉像大机器中的小齿轮  
+**Big Corporation 员工缺点**
+- 自主性较低、节奏较慢
+- 官僚和政治
+- 个人上限受限
+- 感觉像大机器中的小齿轮
 
 ### 你应该选择哪一个？
 
@@ -65,7 +65,7 @@ type: note
 
 最终，反思对你最重要的——安全和稳步进步，还是自由和高回报潜力。
 
-References:  
+References:
 
 - [https://foundersnetwork.com/startup-vs-big-company](https://foundersnetwork.com/startup-vs-big-company)
 - [https://www.civicrecruitment.co.uk/blog/2025/05/a-complete-guide-on-startups-vs-big-companies](https://www.civicrecruitment.co.uk/blog/2025/05/a-complete-guide-on-startups-vs-big-companies)

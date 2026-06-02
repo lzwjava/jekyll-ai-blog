@@ -12,7 +12,7 @@ type: note
 
 Question: What are good open source projects for multimodal GPT-like models, similar to nanoGPT, that can generate or edit images?
 
-Answer: 
+Answer:
 
 nanoGPT 是一个非常受欢迎的、用于在纯 PyTorch 中从零开始训练 GPT 风格语言模型的极简教育级实现。对于 multimodal 模型（能够同时处理文本和图像，类似于 GPT-4V），在简单性和教育价值方面最接近的等效项目是 **nanoVLM**。
 
@@ -49,10 +49,10 @@ nanoGPT 是一个非常受欢迎的、用于在纯 PyTorch 中从零开始训练
 
 如果你正在寻找用于训练自己 multimodal 模型的教育代码，请从 nanoVLM 开始——它是 "nanoGPT 的 vision-language 版" 的直接对应物。
 
-References:  
+References:
 
-- [nanoVLM GitHub](https://github.com/huggingface/nanoVLM)  
-- [Awesome Multimodal Large Language Models List](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)  
-- [LLaVA GitHub](https://github.com/haotian-liu/LLaVA)  
-- [DeepSeek Janus Series](https://www.koyeb.com/blog/best-multimodal-vision-models-in-2025)  
+- [nanoVLM GitHub](https://github.com/huggingface/nanoVLM)
+- [Awesome Multimodal Large Language Models List](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+- [LLaVA GitHub](https://github.com/haotian-liu/LLaVA)
+- [DeepSeek Janus Series](https://www.koyeb.com/blog/best-multimodal-vision-models-in-2025)
 - [MMaDA GitHub](https://github.com/Gen-Verse/MMaDA)

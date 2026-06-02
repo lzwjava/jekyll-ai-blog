@@ -12,7 +12,7 @@ type: note
 
 Question: What are the best AI agent products, including Manus and others?
 
-Answer: 
+Answer:
 
 AI agents 是由 Large Language Models (LLMs) 驱动的自主系统，能够以最小的人类干预进行规划、推理、使用工具并执行复杂的跨步骤任务。截至 2025 年底，该领域已显著成熟，涌现出一批出色的开箱即用产品和 Frameworks。“最佳”是主观的，取决于具体应用场景——如个人生产力、Enterprise Automation、Coding 或开发者构建的自定义 Agent——但基于评论、Benchmarks（如 GAIA）、普及率和专家讨论，以下是目前最受推崇的产品。
 
@@ -48,7 +48,7 @@ AI agents 是由 Large Language Models (LLMs) 驱动的自主系统，能够以�
 
 在 2025 年，像 Manus 这样的 Autonomous Agents 代表了前沿趋势，将 AI 从基于 Chat 的协作转向 Action-oriented。对于大多数用户来说，从 Manus（如果通过 Meta 获取）或 Microsoft Copilot 开始，能在动力和易用性之间取得最佳平衡。开发者则更倾向于使用 CrewAI 或 AutoGen 进行定制化开发。
 
-References:  
+References:
 
 - [The 12 Best AI Agents in 2025: Tested & Reviewed | Lindy](https://www.lindy.ai/blog/best-ai-agents)
 - [Everyone in AI is talking about Manus. We put it to the test. | MIT Technology Review](https://www.technologyreview.com/2025/03/11/1113133/manus-ai-review/)

@@ -41,7 +41,7 @@ type: note
 
 其他动态：昨日公布的Palantir集成方案（将CUDA-X与Nemotron融入AIP企业AI平台）与今日基础设施战略形成联动，英伟达在今日闭幕的ROSCon大会上对开源机器人框架作出贡献。
 
-[英伟达与合作伙伴共建美国AI基础设施](https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america)  
-[英伟达与诺基亚携手开创6G人工智能平台](https://nvidianews.nvidia.com/news/nvidia-nokia-ai-telecommunications)  
-[英伟达展示下一代Vera Rubin超级芯片](https://wccftech.com/nvidia-shows-next-gen-vera-rubin-superchip-two-massive-gpus-production-next-year/)  
+[英伟达与合作伙伴共建美国AI基础设施](https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america)
+[英伟达与诺基亚携手开创6G人工智能平台](https://nvidianews.nvidia.com/news/nvidia-nokia-ai-telecommunications)
+[英伟达展示下一代Vera Rubin超级芯片](https://wccftech.com/nvidia-shows-next-gen-vera-rubin-superchip-two-massive-gpus-production-next-year/)
 [华盛顿特区GTC大会专题页](https://www.nvidia.com/gtc/dc/)

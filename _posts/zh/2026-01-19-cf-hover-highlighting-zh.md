@@ -12,7 +12,7 @@ type: note
 
 Question: 对于 Codeforces，在提供输入时，将鼠标光标悬停在一个 test case 上，是否会用黄色背景突出显示该 case，并同时突出显示输出区域中对应的输出部分？
 
-Answer: 
+Answer:
 
 是的，这**正是** Codeforces 的运作方式。
 

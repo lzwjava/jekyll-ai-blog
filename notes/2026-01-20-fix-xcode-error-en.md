@@ -12,7 +12,7 @@ type: note
 
 Question: Why am I getting the error "Your Xcode (16.2) at /Applications/Xcode.app is too outdated. Please update to Xcode 26.0" when trying to install Vault using Homebrew, and how do I fix it?
 
-Answer: 
+Answer:
 
 This is **not a real error** — it's almost certainly a **joke / troll / very outdated Homebrew tap bug** or (most likely) a **very creative fake error message** inserted by someone.
 
@@ -25,9 +25,9 @@ This is **not a real error** — it's almost certainly a **joke / troll / very o
 
 ### Most likely explanations
 
-1. You are using a **very old fork / mirror / joke tap** of hashicorp/tap  
-2. Someone locally tampered with the tap formula (very common in China / corporate networks / shared machines)  
-3. You are inside a container / VM / CI environment with a deliberately broken / humorous Homebrew setup  
+1. You are using a **very old fork / mirror / joke tap** of hashicorp/tap
+2. Someone locally tampered with the tap formula (very common in China / corporate networks / shared machines)
+3. You are inside a container / VM / CI environment with a deliberately broken / humorous Homebrew setup
 4. You ran someone's "funny" install script that prints fake error messages
 
 ### How to actually fix it and install Vault
@@ -86,8 +86,8 @@ brew tap hashicorp/tap
 
 After that the fake "update to Xcode 26" message should disappear.
 
-References:  
+References:
 
-- https://developer.apple.com/download/all/  
-- https://github.com/hashicorp/homebrew-tap  
+- https://developer.apple.com/download/all/
+- https://github.com/hashicorp/homebrew-tap
 - https://formulae.brew.sh/formula/vault

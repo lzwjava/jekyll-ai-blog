@@ -12,29 +12,29 @@ type: note
 
 Question: Why do WiFi signals (radio waves) get significantly weakened or blocked by physical obstacles?
 
-Answer: 
+Answer:
 
 WiFi signals are **radio waves** (electromagnetic waves) primarily at **2.4 GHz** or **5 GHz**. When these waves encounter physical obstacles, their strength is reduced through several key physical mechanisms. Here's why this happens:
 
 ### Main Reasons for Weakening / Blocking
 
-1. **Absorption** (Dielectric loss / energy dissipation)  
-   The material takes in the electromagnetic energy and converts it into heat.  
-   - Materials with polar molecules (especially water-containing ones like concrete, brick, wood, plaster, human body) absorb energy very effectively — especially at 2.4 GHz, which is close to the resonance frequency of water molecules.  
+1. **Absorption** (Dielectric loss / energy dissipation)
+   The material takes in the electromagnetic energy and converts it into heat.
+   - Materials with polar molecules (especially water-containing ones like concrete, brick, wood, plaster, human body) absorb energy very effectively — especially at 2.4 GHz, which is close to the resonance frequency of water molecules.
    - Dense dielectrics cause the electric field to make molecules/electrons oscillate, losing energy as thermal vibrations.
 
-2. **Reflection**  
-   A large portion of the wave bounces off the surface instead of passing through.  
-   - **Metals** are the worst: they are very good conductors → they reflect almost all the energy (like a mirror for radio waves).  
+2. **Reflection**
+   A large portion of the wave bounces off the surface instead of passing through.
+   - **Metals** are the worst: they are very good conductors → they reflect almost all the energy (like a mirror for radio waves).
    - This is why metal doors, foil insulation, filing cabinets, or reinforced concrete (with rebar) almost completely block WiFi.
 
-3. **Scattering**  
-   The wave hits small irregularities, particles, or rough surfaces and gets redirected in many directions.  
-   - Common in porous materials, textured walls, furniture, or foliage.  
+3. **Scattering**
+   The wave hits small irregularities, particles, or rough surfaces and gets redirected in many directions.
+   - Common in porous materials, textured walls, furniture, or foliage.
    - Reduces the direct (useful) signal reaching the receiver.
 
-4. **Refraction & Diffraction** (less dominant indoors)  
-   - The wave bends when passing from air into a different material (changes speed).  
+4. **Refraction & Diffraction** (less dominant indoors)
+   - The wave bends when passing from air into a different material (changes speed).
    - Diffraction allows some bending around edges, but this effect is weak at WiFi frequencies and doesn't compensate much for thick obstacles.
 
 ### Why Different Materials Behave Differently
@@ -49,8 +49,8 @@ WiFi signals are **radio waves** (electromagnetic waves) primarily at **2.4 GHz*
 | Glass (normal)        | Low                             | Low absorption               | Minor                    |
 | Water / human body    | High                            | Strong absorption (water)    | Significant loss         |
 
-- Every ~3 dB loss = signal power halved.  
-- 10 dB loss = signal power reduced to 1/10.  
+- Every ~3 dB loss = signal power halved.
+- 10 dB loss = signal power reduced to 1/10.
 - 20 dB loss = signal power reduced to 1/100 → often drops below usable level.
 
 ### Summary – Why obstacles matter so much for WiFi
@@ -59,7 +59,7 @@ WiFi uses relatively high frequencies (short wavelengths: ~12 cm at 2.4 GHz, ~6 
 
 This is purely a physical property of electromagnetic wave propagation — there's no way around these basic physics effects with current WiFi frequencies.
 
-References:  
+References:
 
 - [Which Building Materials Can Block Wi-Fi Signals?](https://eyenetworks.no/en/wifi-signal-loss-by-material)
 - [Materials that Block WiFi Signal](https://www.signalboosters.com/blog/materials-that-block-wifi-signals)

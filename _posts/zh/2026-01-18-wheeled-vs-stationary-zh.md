@@ -38,7 +38,7 @@ Answer:
 
 如果你考虑购买这款特定的 2-pack 供个人使用，作为家庭办公室或备用座椅，它是一个耐用、低维护的选择，特别是考虑到其价格实惠且成对销售。
 
-References:  
+References:
 
 - [Walmart product page](https://www.walmart.com/ip/2-Pack-Reception-Chairs-Office-Guest-Chair-with-Padded-Mesh-Back-for-Conference-Waiting-Meeting-Room-Black/17400651282?classType=VARIANT&adsRedirect=true)
 - [ARTEIL Perth - Benefits of Office Chairs Without Wheels](https://www.arteil.com.au/blog/office-chairs-no-wheels-benefits)

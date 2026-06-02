@@ -49,8 +49,8 @@ IntelliJ IDEA 提供了强大的快捷键来选择函数/方法：
 
 IntelliJ 具有最精确的内置快捷键来选择方法（`Ctrl+W`），而 Cursor 的 AI 集成对于编辑所选代码最为无缝。VS Code 灵活，但可能需要扩展以实现更快的函数选择。
 
-参考文献：  
-[Visual Studio Code 中的代码导航](https://code.visualstudio.com/docs/editor/editingevolved)  
-[Cursor AI：包含 10 个实用示例的指南](https://www.datacamp.com/tutorial/cursor-ai-code-editor)  
-[IntelliJ IDEA 中的代码编辑](https://www.jetbrains.com/help/idea/working-with-source-code.html)  
+参考文献：
+[Visual Studio Code 中的代码导航](https://code.visualstudio.com/docs/editor/editingevolved)
+[Cursor AI：包含 10 个实用示例的指南](https://www.datacamp.com/tutorial/cursor-ai-code-editor)
+[IntelliJ IDEA 中的代码编辑](https://www.jetbrains.com/help/idea/working-with-source-code.html)
 [在编辑器中使用 AI | IntelliJ IDEA 文档](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)

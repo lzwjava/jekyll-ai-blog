@@ -11,24 +11,24 @@ type: note
 
 Question: Do many large corporations achieve dominance through monopoly power because they have patience, money, resources, and stability, allowing them to win in industries even though they are often slower than startups, since startups lack the ability to burn cash or sustain long-term competition?
 
-Answer: 
+Answer:
 
 Yes, that's a very common and well-observed pattern in many technology and network-effect industries.
 
 Large established companies frequently win through **superior staying power** rather than superior speed or innovation in the early stages. Here's why this happens so often:
 
-- **Capital endurance (the "runway" advantage)**  
+- **Capital endurance (the "runway" advantage)**
   Startups usually have 12–36 months of runway before they must raise again or die. Big companies can lose money for 5–10+ years in a strategic business unit without the business collapsing.
 
-- **Cash burn tolerance**  
-  Amazon lost money for ~14 years before becoming consistently profitable — something almost no VC-backed startup could survive.  
-  Google spent many years giving away Gmail, YouTube bandwidth, Android for free.  
+- **Cash burn tolerance**
+  Amazon lost money for ~14 years before becoming consistently profitable — something almost no VC-backed startup could survive.
+  Google spent many years giving away Gmail, YouTube bandwidth, Android for free.
   Most startups would be forced to pivot or shut down long before reaching that kind of scale.
 
-- **Ability to buy optionality**  
+- **Ability to buy optionality**
   Big companies can launch many "moonshot" or defensive products simultaneously (Waymo, Amazon Pharmacy, Google Fiber, Meta Reality Labs, etc.) knowing most will fail — startups usually get only one or two meaningful shots.
 
-- **Ecosystem lock-in and distribution advantages**  
+- **Ecosystem lock-in and distribution advantages**
   Once a company reaches ~20–40% market share in a network-effect business (cloud, app stores, social, search, payments, e-commerce logistics), the game often becomes "who can afford to stay longest and subsidize most aggressively."
 
 - **Classic examples of this pattern**
@@ -50,11 +50,11 @@ Large established companies frequently win through **superior staying power** ra
   - Truly disruptive new paradigm appears that big companies psychologically or structurally cannot adopt (early internet vs. Microsoft in some views)
   - The startup is acquired before the war of attrition begins
 
-In summary:  
+In summary:
 In capital-intensive, network-effect-heavy, or winner-take-most markets, **being the best-funded cockroach that refuses to die** is frequently more decisive than being first or even being temporarily the best product.
 
 Being slow but unkillable often beats being fast but mortal.
 
-References:  
+References:
 
 - No specific references are needed for this general industry pattern observation, as it reflects widely discussed concepts in technology investing and business strategy (commonly covered in analyses of Amazon, Uber, Google, etc.).

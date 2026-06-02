@@ -43,8 +43,8 @@ type: note
 
 更多选择可查询佰高尔夫获取实时可订信息。邻近大鹏等区域提供9洞优惠场次，起始价格约600元。
 
-[广东开球预订 - Golf007](https://golf007.com/eng/guangdong-tee-booking/)  
-[广州南湖高尔夫俱乐部 | 佰高尔夫](https://w.baigolf.com/course.php?act=detail&golf_course_id=5625&lan=en_us)  
-[广州最佳高尔夫球场（2025） - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c61-t60-Guangzhou_Guangdong.html)  
-[中国高尔夫费用详解？2025完整指南 - GolfLux](https://www.golflux.com/how-much-is-china-golf-cost-full-2025-guide/)  
+[广东开球预订 - Golf007](https://golf007.com/eng/guangdong-tee-booking/)
+[广州南湖高尔夫俱乐部 | 佰高尔夫](https://w.baigolf.com/course.php?act=detail&golf_course_id=5625&lan=en_us)
+[广州最佳高尔夫球场（2025） - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c61-t60-Guangzhou_Guangdong.html)
+[中国高尔夫费用详解？2025完整指南 - GolfLux](https://www.golflux.com/how-much-is-china-golf-cost-full-2025-guide/)
 [九龙湖高尔夫俱乐部 - Where2Golf](https://www.where2golf.com/china/dragon-lake-golf-club/)

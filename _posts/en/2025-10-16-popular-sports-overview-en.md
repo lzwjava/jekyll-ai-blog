@@ -27,5 +27,5 @@ Major sports are those with the largest global audiences, professional leagues, 
 
 These sports often generate billions in revenue and unite fans during events like the Olympics or World Cup.
 
-[Top 10 Most Popular Sports in the World](https://www.topendsports.com/world/lists/popular-sport/fans.htm)  
+[Top 10 Most Popular Sports in the World](https://www.topendsports.com/world/lists/popular-sport/fans.htm)
 [Most Watched Sports Globally](https://www.statista.com/topics/1740/soccer/)

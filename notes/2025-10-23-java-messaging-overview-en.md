@@ -55,10 +55,10 @@ public class JMSProducer {
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         Queue queue = session.createQueue("exampleQueue");
         MessageProducer producer = session.createProducer(queue);
-        
+
         TextMessage message = session.createTextMessage("Hello, JMS!");
         producer.send(message);
-        
+
         producer.close();
         session.close();
         connection.close();
@@ -78,7 +78,7 @@ public class JMSConsumer {
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         Queue queue = session.createQueue("exampleQueue");
         MessageConsumer consumer = session.createConsumer(queue);
-        
+
         consumer.setMessageListener(msg -> {
             try {
                 System.out.println("Received: " + ((TextMessage) msg).getText());
@@ -86,7 +86,7 @@ public class JMSConsumer {
                 e.printStackTrace();
             }
         });
-        
+
         // Keep running to listen
         try { Thread.sleep(5000); } catch (InterruptedException e) {}
         consumer.close();
@@ -106,5 +106,5 @@ While JMS is foundational, Java devs often use lighter frameworks:
 
 For deeper dives, check the official Jakarta JMS docs.
 
-[Jakarta Messaging Specification](https://jakarta.ee/specifications/messaging/)  
+[Jakarta Messaging Specification](https://jakarta.ee/specifications/messaging/)
 [ActiveMQ Documentation](https://activemq.apache.org/)

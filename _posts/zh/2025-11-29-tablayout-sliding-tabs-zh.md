@@ -12,7 +12,7 @@ type: note
 
 正确答案是 **A. TabLayout**。
 
-**说明**：  
+**说明**：
 在 Android 开发（特别是使用 AndroidX 库）中，**TabLayout** 是专门设计用于创建滑动标签界面的类，可与 **ViewPager** 或 **ViewPager2** 无缝协作。
 
 典型配置：

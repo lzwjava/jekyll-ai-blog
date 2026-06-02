@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to the VRRP protocol in networking.
 
-Answer: 
+Answer:
 
 ### Introduction to VRRP
 
@@ -79,7 +79,7 @@ VRRP is preferred in heterogeneous environments due to its open standard nature,
 
 VRRP is widely supported on routers/switches from various vendors and is essential for resilient LAN designs.
 
-References:  
+References:
 
 - [Virtual Router Redundancy Protocol - Wikipedia](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)
 - [RFC 5798 - Virtual Router Redundancy Protocol (VRRP) Version 3 for IPv4 and IPv6](https://datatracker.ietf.org/doc/html/rfc5798)

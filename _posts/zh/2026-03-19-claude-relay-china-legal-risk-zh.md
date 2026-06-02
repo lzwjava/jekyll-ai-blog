@@ -44,15 +44,15 @@ type: note
 - 实际发生的风险：Anthropic 封禁主账户（特别是在其 2025 年政策阻止中国控制实体后）、支付平台冻结账户（如果被标记），或 CAC 发出下架通知（如果服务传播敏感内容）。
 - 政府部门和银行现在被限制使用外国 AI proxy，但私人和小企业面临低执法力度。
 
-**底线**  
-对于单人或小团体在海外服务器上自托管 claude-relay-service 并与朋友或少数付费用户分享 → **中国当局法律风险非常低**（主要是 Anthropic ToS 和账户封禁风险）。  
+**底线**
+对于单人或小团体在海外服务器上自托管 claude-relay-service 并与朋友或少数付费用户分享 → **中国当局法律风险非常低**（主要是 Anthropic ToS 和账户封禁风险）。
 对于面向数千用户的公开商业服务，未经 CAC 备案或数据出口合规 → **技术上违反法规**，如果被举报或规模过大，可能面临罚款或关闭。
 
 大多数中国运营商将其视为灰色地带业务并接受风险，类似于 ChatGPT/GPT proxy 多年来运营的方式。如果计划商业运营，请始终咨询中国律师以评估您的具体设置。
 
-**参考资料：**  
-- [生成式人工智能服务管理暂行办法（CAC 官方规则）](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)  
-- [Anthropic 2025 年中国禁令政策及 relay 背景](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)  
-- [V2EX 关于中国 Claude 合规讨论](https://v2ex.com/t/1183984)  
-- [示例商业 relay（提及国内支付及无需 VPN）](https://www.yiboot.com/article/userguide/claude-4-5-02.html)  
+**参考资料：**
+- [生成式人工智能服务管理暂行办法（CAC 官方规则）](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+- [Anthropic 2025 年中国禁令政策及 relay 背景](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)
+- [V2EX 关于中国 Claude 合规讨论](https://v2ex.com/t/1183984)
+- [示例商业 relay（提及国内支付及无需 VPN）](https://www.yiboot.com/article/userguide/claude-4-5-02.html)
 - [知乎指南明确说明中国法律下 VPN 使用不违法](https://aifreeapi.com/zh/posts/claude-unsupported-region-solution)

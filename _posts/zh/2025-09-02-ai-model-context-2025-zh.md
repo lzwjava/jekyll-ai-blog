@@ -15,7 +15,7 @@ type: note
 
 ### 领先的上下文窗口
 
-**Gemini-2.5-Pro**  
+**Gemini-2.5-Pro**
 谷歌的Gemini 2.5 Pro提供**100万token**的上下文窗口，并计划很快扩展至**200万token**（[Google AI for Developers][1], [blog.google][2]）。这是当前所列模型中最大的上下文窗口。
 
 ---

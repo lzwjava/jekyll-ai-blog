@@ -48,7 +48,7 @@ type: note
 参考链接：
 
 - [NVIDIA RTX 6000 Ada 概览](https://www.nvidia.com/en-us/design-visualization/rtx-6000/)
-- [NVIDIA RTX 4070 规格](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070/)  
+- [NVIDIA RTX 4070 规格](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070/)
 - [PyTorch 中的多 GPU 训练](https://pytorch.org/docs/stable/notes/dpp.html)
 
 如需更具体的决策，我可以计算 **1 张 6000 Pro**（针对 AI 训练工作负载）的粗略性价比，以便做最终选择。

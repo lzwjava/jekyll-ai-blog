@@ -12,7 +12,7 @@ Updated in May 2026.
 
 ---
 
-Below is my assoiciate progress. 
+Below is my assoiciate progress.
 
 See [Educational Background → GDUFS](https://lzwjava.github.io/resume-en/#edu-gdufs) for the current exam status (passed/pending courses).
 
@@ -76,7 +76,7 @@ In the practical exam review comments, I was informed that course 13182, Data St
 
 ---
 
-I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
+I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now.
 
 ## Passed courses
 
@@ -124,7 +124,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 
 ## 2024.04
 
-| Subject | Score |    
+| Subject | Score |
 |---------|--------|
 | Advanced Mathematics (Engineering) | 77 |
 | Database and Its Applications | 41 |
@@ -133,7 +133,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 
 ## 2024.10
 
-| Subject | Score |   
+| Subject | Score |
 |---------|--------|
 | Introduction to Law | 35 |
 | Database and Applications | 68 |
@@ -142,7 +142,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 
 ## 2025.04
 
-| Subject | Score |   
+| Subject | Score |
 |---------|--------|
 | Introduction to Law | 60 |
 | Computer Networks | 44 |
@@ -172,7 +172,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 * For **Computer Organization Principles**, I had prior background knowledge and practiced past exam questions multiple times.
 
 ## Reasons for failed courses
-* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses. 
+* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses.
 * Did not give enough time to prepare
 * Just walked through videos of the subjects pretending to understand.
 

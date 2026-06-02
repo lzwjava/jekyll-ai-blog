@@ -12,7 +12,7 @@ type: note
 
 Question: What did Khrushchev criticize Stalin for?
 
-Answer: 
+Answer:
 
 Nikita Khrushchev criticized Joseph Stalin primarily in his famous "Secret Speech" delivered on February 25, 1956, at the 20th Congress of the Communist Party of the Soviet Union. The speech, officially titled "On the Cult of Personality and Its Consequences," marked the beginning of de-Stalinization in the USSR.
 
@@ -38,7 +38,7 @@ While Khrushchev condemned many of Stalin’s crimes, he did **not** criticize:
 
 The speech was a selective critique aimed at removing Stalin’s supporters from power, legitimizing Khrushchev’s own leadership, and shifting blame for past excesses onto Stalin and a few associates (especially Beria) while preserving the Communist Party’s authority.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences](https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences)
 - [https://www.marxists.org/archive/khrushchev/1956/02/25.htm](https://www.marxists.org/archive/khrushchev/1956/02/25.htm) (full text of the Secret Speech)

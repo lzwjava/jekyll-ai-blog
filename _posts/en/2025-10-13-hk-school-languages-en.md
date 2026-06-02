@@ -17,12 +17,12 @@ However, under the "fine-tuning" MOI policy introduced in 2010/11, some schools 
 - **Teacher capability**: Teachers must have strong English proficiency (e.g., HKDSE Level 3 or equivalent).
 - **School support**: Measures like English bridging programs and an English-rich environment are required.
 
-This allows flexibility: 
+This allows flexibility:
 - Qualifying EMI (English Medium Instruction) schools or classes can teach all non-language subjects in English.
 - All schools can allocate up to 25% of junior secondary lesson time to Extended Learning Activities (ELA) in English, which might cover themes from Chinese-taught subjects or even convert to full English instruction for up to two subjects per level.
 
 In practice, only a minority of schools operate fully as EMI institutions (historically around 20–30%, though exact numbers fluctuate), while most are CMI (Chinese Medium Instruction) with optional English elements. This setup aims to build bilingual skills progressively without overwhelming students.
 
-[Fine-tuning the Medium of Instruction (MOI) for Secondary Schools](https://www.edb.gov.hk/en/edu-system/primary-secondary/applicable-to-secondary/moi/support-and-resources-for-moi-policy/index-1.html)  
-[EMI schools - Wikipedia](https://en.wikipedia.org/wiki/EMI_schools)  
+[Fine-tuning the Medium of Instruction (MOI) for Secondary Schools](https://www.edb.gov.hk/en/edu-system/primary-secondary/applicable-to-secondary/moi/support-and-resources-for-moi-policy/index-1.html)
+[EMI schools - Wikipedia](https://en.wikipedia.org/wiki/EMI_schools)
 [English medium higher education in Hong Kong](https://www.tandfonline.com/doi/full/10.1080/09500782.2023.2240571)

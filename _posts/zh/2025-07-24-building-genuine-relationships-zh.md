@@ -12,7 +12,7 @@ type: note
 
 ### 关于具体方式的探讨
 - **开通博客**：这是扎实的途径。通过分享对行业趋势、技术难题或经验教训的见解（例如通过Medium、个人网站或领英文章），你能将自己定位为有深度的贡献者而非单纯求职者。这会吸引理念共鸣者，在评论或私信中引发自然交流。长此以往将建立专业信誉，吸引合作者或导师。建议：保持稳定输出（如月更一篇），并积极回应读者反馈形成双向互动。
-  
+
 - **每年一两次私信联系**：这能维持弱联系，但若缺乏个性化内容易显得生疏。程式化的“节日快乐”可能被忽略，而提及共同经历（如“看到您关于AI伦理的文章——想起我们在XYZ公司的项目，最近进展如何？”）则能展现真诚。核心在于质量：利用这些触点提供帮助或分享有价值信息，而非单纯刷存在感。
 
 ### 建立真实关系的进阶策略
@@ -34,8 +34,8 @@ type: note
 
 需要明确的是，这些方法无法立竿见影——可能需数月才能看到深度变化，但牢固的关系常会带来工作推荐、裁员期的建议乃至合作伙伴。若感觉难以负荷，可用简易CRM应用或笔记管理社交投入。关键在于将思维从“我能获得什么”转变为“我们如何共同成长”。
 
-[如何在职场建立真实关系 - 哈佛商业评论](https://hbr.org/2022/08/how-to-build-real-relationships-at-work)  
-[如何构建商业关系 - 哈佛大学专业与继续教育学院](https://professional.dce.harvard.edu/blog/how-to-build-business-relationships/)  
-[如何建立和维护职业关系 - 福布斯](https://www.forbes.com/councils/forbescoachescouncil/2023/02/02/how-to-build-and-maintain-professional-relationships/)  
-[如何建立有意义的职业关系 - 快公司](https://www.fastcompany.com/91113961/how-to-build-meaningful-professional-relationships)  
+[如何在职场建立真实关系 - 哈佛商业评论](https://hbr.org/2022/08/how-to-build-real-relationships-at-work)
+[如何构建商业关系 - 哈佛大学专业与继续教育学院](https://professional.dce.harvard.edu/blog/how-to-build-business-relationships/)
+[如何建立和维护职业关系 - 福布斯](https://www.forbes.com/councils/forbescoachescouncil/2023/02/02/how-to-build-and-maintain-professional-relationships/)
+[如何建立有意义的职业关系 - 快公司](https://www.fastcompany.com/91113961/how-to-build-meaningful-professional-relationships)
 [职场建立牢固关系的8种方式 | Indeed.com](https://www.indeed.com/career-advice/career-development/how-to-build-relationships)

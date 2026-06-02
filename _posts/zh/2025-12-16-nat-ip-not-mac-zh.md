@@ -32,7 +32,7 @@ NAT 在 OSI 模型的**网络层 (Layer 3)** 运行，仅处理 **IP 地址**（
 
 这些是针对不同层和目的的不同协议。
 
-参考文献：  
+参考文献：
 
 - [Network address translation - Wikipedia](https://en.wikipedia.org/wiki/Network_address_translation)
 - [What Is Network Address Translation (NAT)? - Cisco](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-address-translation-nat.html)

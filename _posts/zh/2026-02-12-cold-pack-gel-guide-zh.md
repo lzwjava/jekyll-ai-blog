@@ -12,7 +12,7 @@ type: note
 
 Question: 收到冷链配送产品时，保鲜袋里的透明液体是什么？它看起来像透明的小液体；当我把它放进洗菜篮时，它居然能阻止水流下去。我的意思是它是透明的，像粥或其他物质，它们有体积，体积也不小，感觉像沙子。
 
-Answer: 
+Answer:
 
 你在冷链配送包裹（如 meal kits、生鲜食品或需要冷藏运输的易腐物品）中描述的物质，极有可能是**可重复使用的 gel ice pack**（凝胶冰袋）或冷袋中的凝胶。
 
@@ -39,7 +39,7 @@ Answer:
 
 这是食品、杂货或生鲜产品冷链物流中的标准配置，旨在维持温度的同时避免水分到处流溢。
 
-References:  
+References:
 
 - [https://bringmethenews.com/minnesota-lifestyle/what-should-you-do-with-all-the-ice-packs-in-your-meal-delivery-kits](https://bringmethenews.com/minnesota-lifestyle/what-should-you-do-with-all-the-ice-packs-in-your-meal-delivery-kits)
 - [https://www.peltonshepherd.com/resources/industry-updates/what-is-the-gel-in-ice-packs](https://www.peltonshepherd.com/resources/industry-updates/what-is-the-gel-in-ice-packs)

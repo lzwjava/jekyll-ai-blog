@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to "易水歌" (Yi Shui Ge)
 
-Answer: 
+Answer:
 
 **《易水歌》** (Yì Shuǐ Gē), often translated as "Song of the Yi River" or "Easy Water Song," is one of the most famous short ancient Chinese songs/poems in history. It is closely associated with the legendary assassin **Jing Ke** (荆轲) during the late Warring States period.
 
@@ -22,23 +22,23 @@ In 227 BCE, the state of Qin was rapidly conquering other states. To save Yan fr
 ### The Most Famous Version (Core Lines)
 The classic and widely recognized version is very short:
 
-风萧萧兮易水寒，  
+风萧萧兮易水寒，
 壮士一去兮不复还。
 
-**Pinyin**: Fēng xiāo xiāo xī Yì shuǐ hán,  
+**Pinyin**: Fēng xiāo xiāo xī Yì shuǐ hán,
 Zhuàng shì yī qù xī bù fù huán.
 
-**English Translation**:  
-The wind howls mournfully, the Yi River is cold;  
+**English Translation**:
+The wind howls mournfully, the Yi River is cold;
 This brave man sets forth, never to return.
 
 Some extended versions (possibly later additions or dramatized accounts) include additional lines:
 
-探虎穴兮入蛟宫，  
+探虎穴兮入蛟宫，
 仰天呼气兮成白虹。
 
-**Translation**:  
-Venturing into the tiger's den / entering the dragon's palace;  
+**Translation**:
+Venturing into the tiger's den / entering the dragon's palace;
 Looking up to heaven and exhaling, a white rainbow is formed.
 
 These lines symbolize the extreme danger of the mission and the hero's soaring spirit (the "white rainbow" is a classical image of extraordinary valor or tragic determination).
@@ -55,7 +55,7 @@ Many poets wrote poems titled 《易水歌》 in later dynasties, using Jing Ke'
 
 In short, 《易水歌》 is not just a farewell song — it has become the ultimate symbol of a hero knowingly walking toward death for a noble cause in Chinese cultural memory.
 
-References:  
+References:
 
 - [《易水歌》 - Baidu Baike (荆轲 version)](https://baike.baidu.com/item/%E6%98%93%E6%B0%B4%E6%AD%8C/5381643)
 - [古诗文网 - 荆轲《易水歌》原文及赏析](https://www.gushiwen.cn/gushiwen_6aa73db932.aspx)

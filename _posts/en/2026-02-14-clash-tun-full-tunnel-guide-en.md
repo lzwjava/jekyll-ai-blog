@@ -12,7 +12,7 @@ type: note
 
 **Question: If using OpenConnect with Clash as a proxy program, how to make Clash work like full tunnel mode, or use OpenConnect but support VMess/Trojan protocol addresses? (with Clash log example showing proxy usage for domains like gvt2.com, openrouter.ai)**
 
-**Answer:** 
+**Answer:**
 
 OpenConnect is strictly an **SSL VPN client** (for Cisco AnyConnect, Pulse, Juniper, etc. protocols). It does **not** natively support VMess, VLESS, Trojan, or any V2Ray/Xray-based protocols — those are completely different architectures. There is no built-in way in OpenConnect to use a VMess/Trojan server address directly.
 
@@ -41,7 +41,7 @@ Clash's **TUN mode** (available in Clash Premium core, Clash Verge, Clash for Wi
    - For full tunnel: set final rule to `MATCH,PROXY` (or your group).
 6. Restart Clash → test with `curl ipinfo.io` or browser (should show proxy IP).
 
-**Pros**: True system-wide routing, supports UDP, low overhead compared to real VPNs.  
+**Pros**: True system-wide routing, supports UDP, low overhead compared to real VPNs.
 **Cons**: Requires admin privileges once, may need to allow kernel extensions (macOS security prompts).
 
 Your log already shows Clash working well in **system proxy** mode — switching to TUN makes it behave more like full-tunnel VPN.
@@ -67,7 +67,7 @@ Best advice: **Forget OpenConnect** unless connecting to a corporate Cisco/Pulse
 
 If your corporate VPN requires Cisco AnyConnect protocol **and** you want VMess/Trojan at the same time: Run Clash TUN first (for general traffic), then connect OpenConnect normally (it may route only VPN subnets, or conflict — test carefully).
 
-References:  
+References:
 
 - [Clash Verge TUN Mode Guide](https://github.com/clash-verge-rev/clash-verge-rev)
 - [OpenConnect Manual (no VMess/Trojan mention)](https://www.infradead.org/openconnect/manual.html)

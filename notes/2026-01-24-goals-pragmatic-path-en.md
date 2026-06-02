@@ -12,7 +12,7 @@ type: note
 
 **Question:** For business or career, should goals be realistic? Examples include Lei Jun forbidding mention of building cars at Xiaomi unless investigation shows it's necessary, unrealistic freshman goals like aiming for ACM/ICPC without prior background, and the idea of achieving success through realistic, step-by-step goals, as emphasized by Meituan founder Wang Xing.
 
-**Answer:** 
+**Answer:**
 
 Yes, setting **realistic goals** is generally a more effective and sustainable approach in both business and personal career development, especially when starting from a position with limited experience, resources, or foundational skills.
 
@@ -43,7 +43,7 @@ Wang Xing himself experienced multiple entrepreneurial failures before Meituan s
 
 In short: Dream big in vision, but plan and execute realistically, one evidence-based step at a time — this is a common thread in the approaches of leaders like Lei Jun and Wang Xing.
 
-**References:**  
+**References:**
 
 - Various reports on Lei Jun's cautious stance before Xiaomi's car entry (e.g., evidence-based decision to build cars only when conditions justified it)
 - Interviews and profiles on Wang Xing emphasizing step-by-step expansion and pragmatic focus (e.g., first Beijing, then nationwide; fundamentals first) [http://money.163.com/special/wangxing](http://money.163.com/special/wangxing)

@@ -12,7 +12,7 @@ type: note
 
 Question: How to visit Sydney? Plan a 3-day trip
 
-Answer: 
+Answer:
 
 Here's a practical guide on **how to visit Sydney** and a realistic **3-day itinerary** for first-time visitors (assuming you're arriving by air and it's your first time in the city). This plan focuses on the absolute must-see highlights: the harbour icons, beaches, and a taste of nature/local life.
 
@@ -35,7 +35,7 @@ Use an **Opal card** (physical card) or contactless debit/credit card/phone pay.
 
 ### 3-Day Sydney Itinerary for First-Time Visitors
 
-**Day 1: Harbour Icons & City Heart**  
+**Day 1: Harbour Icons & City Heart**
 Focus → Get the postcard shots and feel the energy of Sydney Harbour.
 
 - **Morning** — Start at **Circular Quay**. See the **Sydney Opera House** up close (walk around it, take photos from all angles; optional guided tour inside ~1 hour).
@@ -45,7 +45,7 @@ Focus → Get the postcard shots and feel the energy of Sydney Harbour.
 - **Afternoon** — Explore **The Rocks** (oldest neighbourhood, cobblestone streets, galleries) and **Barangaroo** (modern waterfront precinct).
 - **Evening** — Sunset harbour views + dinner in Circular Quay / The Rocks. Optional: short harbour cruise (~1–2 hours).
 
-**Day 2: Beach Day – Bondi & Eastern Suburbs**  
+**Day 2: Beach Day – Bondi & Eastern Suburbs**
 Focus → Experience Sydney's famous beach lifestyle.
 
 - **Morning** — Take bus 333 or 380 from Circular Quay (~30–40 min) to **Bondi Beach**. Walk the iconic **Bondi to Coogee Coastal Walk** (6 km one way, 2–3 hours, stunning cliffs, beaches, ocean pools). Moderate fitness needed; wear sunscreen and comfortable shoes.
@@ -53,7 +53,7 @@ Focus → Experience Sydney's famous beach lifestyle.
 - **Afternoon** — Relax on Bondi Beach, swim (if warm), or continue to Bronte / Coogee. Return by bus.
 - **Evening** — Darling Harbour area (lights, restaurants, SEA LIFE Aquarium if interested) or Surry Hills for trendy bars and dinner.
 
-**Day 3: Harbour Adventure & Wildlife**  
+**Day 3: Harbour Adventure & Wildlife**
 Focus → See Sydney from the water + animals.
 
 - **Morning** — Take the famous **ferry to Manly** (~30 min scenic ride, departs Circular Quay frequently). Walk Manly Beach promenade, grab coffee/breakfast.
@@ -71,7 +71,7 @@ Focus → See Sydney from the water + animals.
 
 This plan hits the **must-sees** without rushing too much. If you have specific interests (food, adventure, family, budget), let me know for adjustments!
 
-References:  
+References:
 
 - [A 3-day itinerary in Sydney for first-time visitors](https://www.sydney.com/articles/3-day-itinerary-in-sydney-for-first-time-visitors)
 - [3 Days in Sydney: What to Do & See | Complete 2026 Itinerary](https://sydneyexpert.com/3-days-in-sydney)

@@ -118,10 +118,10 @@ type: note
 
 ### 简单规则
 
-Quality photography =  
+Quality photography =
 **Pause → Think → Frame → Shoot**
 
-不是：  
+不是：
 **Shoot → Shoot → Shoot → hope one is good**
 
 所以是的——**更少、更准备、更小心的照片通常产生更好结果**。

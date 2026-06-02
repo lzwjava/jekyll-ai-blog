@@ -42,7 +42,7 @@ class SimpleRNN(nn.Module):
         self.rnn = nn.RNN(input_size, hidden_size, batch_first=True)
         self.fc = nn.Linear(hidden_size, output_size)
         self.sigmoid = nn.Sigmoid()
-    
+
     def forward(self, x):
         # x shape: (batch, seq_len, input_size)
         h0 = torch.zeros(1, x.size(0), self.hidden_size)  # Initial hidden state
@@ -100,5 +100,5 @@ out, (hn, cn) = self.rnn(x, (h0, c0))
 
 Run this in a PyTorch environment to experiment!
 
-[PyTorch RNN Documentation](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html)  
+[PyTorch RNN Documentation](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html)
 [PyTorch LSTM Documentation](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)

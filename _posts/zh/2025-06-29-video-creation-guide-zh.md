@@ -69,7 +69,7 @@ def generate_audio(paragraphs, output_dir="audio"):
     client = texttospeech.TextToSpeechClient()
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
+
     audio_files = []
     for i, paragraph in enumerate(paragraphs):
         synthesis_input = texttospeech.SynthesisInput(text=paragraph)
@@ -115,7 +115,7 @@ def create_video(paragraphs, audio_files, output_file="educational_video.mp4"):
         # 为视频剪辑添加音频
         video_clip = video_clip.set_audio(audio_clip)
         clips.append(video_clip)
-    
+
     # 连接所有剪辑
     final_clip = concatenate_videoclips(clips)
     # 写入最终视频
@@ -130,15 +130,15 @@ def main():
     input_script = """
     Machine learning is a field of artificial intelligence that allows computers to learn from data without being explicitly programmed. It involves algorithms that identify patterns and make predictions. Applications include image recognition, natural language processing, and more. This technology is transforming industries like healthcare and finance.
     """
-    
+
     # 步骤 1：使用 DeepSeek 优化脚本
     refined_paragraphs = refine_script_with_deepseek(input_script)
     print("优化后的脚本：", refined_paragraphs)
-    
+
     # 步骤 2：为每个段落生成音频
     audio_files = generate_audio(refined_paragraphs)
     print("生成的音频文件：", audio_files)
-    
+
     # 步骤 3：创建带有字幕和黑色背景的视频
     create_video(refined_paragraphs, audio_files)
     print("视频已创建：educational_video.mp4")
@@ -174,8 +174,8 @@ if __name__ == "__main__":
 ### 示例输出
 如果您的输入脚本是关于机器学习的，优化后的脚本可能如下所示：
 ```
-["Machine learning, a branch of AI, enables computers to learn from data.", 
- "It uses algorithms to find patterns and predict outcomes.", 
+["Machine learning, a branch of AI, enables computers to learn from data.",
+ "It uses algorithms to find patterns and predict outcomes.",
  "Applications include image recognition and healthcare innovations."]
 ```
 - 每个段落生成一个音频文件（例如 `paragraph_1.mp3`、`paragraph_2.mp3` 等）。

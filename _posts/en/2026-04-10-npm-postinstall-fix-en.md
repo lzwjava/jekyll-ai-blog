@@ -37,7 +37,7 @@ Even the `|| true` part doesn’t always help if the child process itself freeze
 
 ### How to fix it properly:
 
-1. **Clean up and try again with better control**  
+1. **Clean up and try again with better control**
    First, remove the partially installed package:
    ```bash
    rm -rf node_modules/@askjo/camoufox-browser
@@ -82,5 +82,5 @@ If the manual fetch also hangs or fails, the issue is definitely with the downlo
 
 Would you like me to give you commands to check your network speed or see what files camoufox is trying to download? Just let me know the result after trying the manual `npx camoufox-js fetch`.
 
-References:  
+References:
 - None

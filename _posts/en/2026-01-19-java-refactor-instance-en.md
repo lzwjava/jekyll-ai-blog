@@ -33,12 +33,12 @@ public class Main {
     private void solve() throws IOException {
         String line = in.readLine();
         if (line == null) return;
-        
+
         int t = Integer.parseInt(line.trim());
         while (t-- > 0) {
             int n = Integer.parseInt(in.readLine().trim());
             String s = in.readLine();
-            // Using standard if-check or logging is often preferred over assert 
+            // Using standard if-check or logging is often preferred over assert
             // in production, but keeping it per your logic:
             assert (s.length() == n);
             out.println(s);

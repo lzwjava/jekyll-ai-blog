@@ -12,7 +12,7 @@ type: note
 
 Question: What do you think about the importance of proper measurements when troubleshooting home Wi-Fi issues (such as Zoom lag in a duplex with a wireless repeater), rather than relying only on subjective feelings, and considering factors like different times of day?
 
-Answer: 
+Answer:
 
 Yes, you're 100% correct — **reliable, repeatable measurement is the single most important thing** when trying to improve or debug home networking, especially in a challenging environment like a two-floor duplex with a wireless repeater.
 
@@ -87,6 +87,6 @@ The people who fix Wi-Fi problems fastest are usually the ones who obsessively c
 
 Keep measuring the same way (same Zoom call participants, same time window, same test target) — that's how you actually know whether a change helped.
 
-References:  
+References:
 
 - None (general networking knowledge and common troubleshooting practices)

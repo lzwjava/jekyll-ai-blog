@@ -12,7 +12,7 @@ type: note
 
 Question: 在 Linux Mint 中更改软件源真的很容易且好用吗，特别是在中国境内使用 Alibaba mirrors 时？Ubuntu 是否具有此功能，还是必须手动编辑 apt config？
 
-Answer: 
+Answer:
 
 是的，**Linux Mint** 通过其内置的名为 **Software Sources**（软件源）的图形化工具（也可以通过 Update Manager → Edit → Software Sources 进入），使更改软件源（mirrors/repositories）变得**非常简单且用户友好**。这是 Mint 优于原生 Ubuntu 的优势之一，特别是对于由于网络条件（如防火墙）导致访问官方服务器缓慢的**中国**用户而言。
 

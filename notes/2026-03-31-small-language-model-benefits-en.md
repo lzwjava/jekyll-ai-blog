@@ -27,7 +27,7 @@ When you implement a Transformer from scratch, you stop seeing the model as a "b
 
 ### 2. Precise Prompt Engineering
 "Prompt Engineering" at a high level can feel like "vibes." However, once you've looked at the source code, you understand that a prompt is just the **initial hidden state** or the starting sequence for a probability distribution.
-* You learn that **LLMs are next-token predictors**. 
+* You learn that **LLMs are next-token predictors**.
 * This technical perspective helps you write "precise prompts" because you understand you are trying to steer a statistical path, not just "asking a question."
 
 ### 3. Technical Interaction & Automation

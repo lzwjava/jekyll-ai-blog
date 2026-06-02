@@ -45,7 +45,7 @@ This model is an entry-level, affordable USB 2.0 storage device commonly sold in
 
 Overall, the Thinkplus MU222 16GB is a reliable, no-frills metal USB drive for basic daily storage needs when high speed is not required.
 
-**References:**  
+**References:**
 
 - [AliExpress product listing](https://www.aliexpress.com/item/1005008227648791.html)
 - [Sunsky-online product page](https://m.sunsky-online.com/p/TBD0603985102A/Lenovo-ThinkPlus-MU222-2.0-Business-Office-U-Disk-Capacity-16-GB-Black-.htm)

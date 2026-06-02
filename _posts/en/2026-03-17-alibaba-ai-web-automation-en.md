@@ -23,7 +23,7 @@ Page Agent operates as "the GUI Agent Living in Your Webpage" and enables natura
 
 ### Key Features
 
-The project offers several distinctive features including easy integration without requiring browser extensions, Python, or headless browsers—everything happens directly in your web page. 
+The project offers several distinctive features including easy integration without requiring browser extensions, Python, or headless browsers—everything happens directly in your web page.
 
 It uses text-based DOM manipulation, eliminating the need for screenshots, OCR, or multi-modal LLMs, while requiring no special permissions.
 

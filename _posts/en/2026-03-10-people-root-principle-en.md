@@ -11,7 +11,7 @@ type: note
 
 Question: What is the fundamental thought reflected in the essay "Oligarch's Relationship to the State" (Gua Ren Zhi Yu Guo Ye)?
 
-Answer: 
+Answer:
 
 The correct answer is **D: Minben (People as the Root / People-Centric)**.
 

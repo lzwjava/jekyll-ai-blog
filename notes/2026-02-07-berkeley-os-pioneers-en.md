@@ -12,7 +12,7 @@ type: note
 
 Question: Give some famous authors or contributors in above, like Richard Stallman, Ion Stoica etc.
 
-Answer: 
+Answer:
 
 Here are some of the most famous and influential contributors associated with UC Berkeley's open source tradition (primarily the BSD era and modern projects like Apache Spark and RISC-V). Note that Richard Stallman is not directly connected to Berkeley's open source work — he founded the GNU Project and Free Software Foundation, which took a different (copyleft-focused) approach compared to Berkeley's permissive BSD license tradition.
 
@@ -37,7 +37,7 @@ Berkeley has continued producing major open source software through research lab
 
 These people (especially from the BSD era) helped establish the permissive open source model that influenced much of modern computing, while recent contributors like Stoica and Asanović continue Berkeley's tradition in cloud, AI, and hardware.
 
-References:  
+References:
 
 - [History of the Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution)
 - [Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)

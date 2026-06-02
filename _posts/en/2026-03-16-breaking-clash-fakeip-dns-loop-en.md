@@ -36,7 +36,7 @@ type: note
 **The "Chicken-and-Egg" DNS Problem** was the biggest obstacle:
 
 ```
-iPad → Clash → Needs proxy → Resolves proxy domain → Gets FAKE IP (198.18.x.x) 
+iPad → Clash → Needs proxy → Resolves proxy domain → Gets FAKE IP (198.18.x.x)
 → Tries to route fake IP → TUN intercepts → Back to Clash → INFINITE LOOP
 ```
 

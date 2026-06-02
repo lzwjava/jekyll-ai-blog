@@ -653,7 +653,7 @@ $ cat output/*
 同样可以用Homebrew来安装。
 
 ```shell
-brew install kubectl 
+brew install kubectl
 ```
 
 输出日志：
@@ -797,7 +797,7 @@ commit: cbda04cf6bbe65e987ae52bb393c10099ab62014
 
 * Preparing Kubernetes v1.17.3 on Docker 19.03.6 ...
   - kubelet.resolv-conf=/run/systemd/resolve/resolv.conf
-* Launching Kubernetes ... 
+* Launching Kubernetes ...
 * Enabling addons: default-storageclass, storage-provisioner
 * Configuring local host environment ...
 * Done! kubectl is now configured to use "minikube"
@@ -953,13 +953,13 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
   "kind": "Status",
   "apiVersion": "v1",
   "metadata": {
-    
+
   },
   "status": "Failure",
   "message": "forbidden: User \"system:anonymous\" cannot get path \"/\"",
   "reason": "Forbidden",
   "details": {
-    
+
   },
   "code": 403
 }
@@ -972,7 +972,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
   "kind": "Status",
   "apiVersion": "v1",
   "metadata": {
-    
+
   },
   "status": "Failure",
   "message": "services \"kube-dns:dns\" is forbidden: User \"system:anonymous\" cannot get resource \"services/proxy\" in API group \"\" in the namespace \"kube-system\"",

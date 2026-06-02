@@ -60,5 +60,5 @@ The "invention" likely stemmed from pattern-spotting: while expanding determinan
 
 If you'd like examples in code (e.g., Python via NumPy/SymPy to compute one) or a deeper dive into Gauss's construction, just say!
 
-[Adjugate matrix - Wikipedia](https://en.wikipedia.org/wiki/Adjugate_matrix)  
+[Adjugate matrix - Wikipedia](https://en.wikipedia.org/wiki/Adjugate_matrix)
 [First usage of "adjoint" - History of Science and Mathematics Stack Exchange](https://hsm.stackexchange.com/questions/5908/what-is-the-first-usage-of-the-term-adjoint-and-why-was-this-word-chosen)

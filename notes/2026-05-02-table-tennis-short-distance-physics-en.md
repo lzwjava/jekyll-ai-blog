@@ -18,9 +18,9 @@ Your observation aligns with the mechanical reality of the sport. While the ITTF
 Here is a breakdown of why this is the case:
 
 ### 1. The "Short Distance" Factor (Physics of Drag)
-As you noted, the distance in table tennis is extremely short—the table is only **2.74 meters** long. 
+As you noted, the distance in table tennis is extremely short—the table is only **2.74 meters** long.
 *   **Air Resistance ($F_d$):** The drag force is proportional to the cross-sectional area. Moving from 38mm to 40mm increases the area by about **11%**.
-*   **Time of Flight:** At professional speeds (approx. 30 m/s), the ball travels from one end of the table to the other in roughly **0.09 seconds**. 
+*   **Time of Flight:** At professional speeds (approx. 30 m/s), the ball travels from one end of the table to the other in roughly **0.09 seconds**.
 *   **Minimal Deceleration:** Even with 11% more drag, the total time for that force to act on the ball is so small that the loss of velocity over 2.7 meters is negligible. The ball simply doesn't have enough "air time" for the added resistance to significantly bleed off its energy before it reaches the opponent.
 
 ### 2. A Correction on Weight and Momentum

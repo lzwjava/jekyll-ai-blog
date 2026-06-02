@@ -28,9 +28,9 @@ type: note
 
 总体而言，新东方的故事是毅力、背叛与重塑的激荡篇章——堪称中国创业精神的典型缩影，其中个人戏剧性成就了商业帝国的构建。
 
-**参考资料：**  
-[俞敏洪 - 维基百科](https://en.wikipedia.org/wiki/Yu_Minhong)  
-[《中国合伙人》 - 维基百科](https://en.wikipedia.org/wiki/American_Dreams_in_China)  
-[变革型领导风格与小企业成长（PDF）](https://www.shs-conferences.org/articles/shsconf/pdf/2022/10/shsconf_iteme2022_01051.pdf)  
-[资本主义幻想登顶中国票房（华尔街日报）](https://www.wsj.com/articles/BL-CJB-17768)  
+**参考资料：**
+[俞敏洪 - 维基百科](https://en.wikipedia.org/wiki/Yu_Minhong)
+[《中国合伙人》 - 维基百科](https://en.wikipedia.org/wiki/American_Dreams_in_China)
+[变革型领导风格与小企业成长（PDF）](https://www.shs-conferences.org/articles/shsconf/pdf/2022/10/shsconf_iteme2022_01051.pdf)
+[资本主义幻想登顶中国票房（华尔街日报）](https://www.wsj.com/articles/BL-CJB-17768)
 [中国网民热议：中国企业家都是坏人吗？（ThinkChina）](https://www.thinkchina.sg/economy/netizens-china-debate-are-chinese-entrepreneurs-all-bad-guys)

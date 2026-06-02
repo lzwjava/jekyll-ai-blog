@@ -12,7 +12,7 @@ type: note
 
 Question: AG Grid 的版本是如何演进的？特别是如果我们将 Angular 从 9 升级到 Angular 14 或 17，应该如何选择 AG Grid 的版本？
 
-Answer: 
+Answer:
 
 AG Grid（包括 `ag-grid-community` 和 `ag-grid-angular`）遵循定期的发布周期，大约每 6 个月发布一个 Major 版本，并频繁发布 Minor/Patch 版本。截至 2026 年初，最新版本约为 **35.x**（例如 35.0.1 或 35.1.0），其中包括许多性能优化、新功能（如更好的 date/time 分组、tool panel 增强和 charting 更新）以及对现代 Angular 版本的持续支持。
 
@@ -37,13 +37,13 @@ AG Grid（包括 `ag-grid-community` 和 `ag-grid-angular`）遵循定期的发�
 
 ### 升级 Angular 时的建议
 
-- **Angular 9 → Angular 14**  
-  你可以（并且应该）显著升级 AG Grid —— 从 ~23–27.x 升级到 **31.x**（或至少是 30.x）。  
-  这次跳跃可以让你获得许多新功能、更好的 tree data、server-side row model 改进、现代 TypeScript 支持以及性能提升。  
+- **Angular 9 → Angular 14**
+  你可以（并且应该）显著升级 AG Grid —— 从 ~23–27.x 升级到 **31.x**（或至少是 30.x）。
+  这次跳跃可以让你获得许多新功能、更好的 tree data、server-side row model 改进、现代 TypeScript 支持以及性能提升。
   避免停留在非常旧的 AG Grid 版本（≤27），因为这些版本缺失了多年的 Bug 修复和优化。
 
-- **Angular 9 → Angular 17**  
-  将 AG Grid 升级到 **34.x**（如果你以后会升级到 Angular 18+，则选择最新的 35.x）。  
+- **Angular 9 → Angular 17**
+  将 AG Grid 升级到 **34.x**（如果你以后会升级到 Angular 18+，则选择最新的 35.x）。
   版本 ≥33 通常需要 Angular 17+，因此目标定在 **34.x** 是在 Angular 17 环境下平衡新功能与稳定性的最佳选择。
 
 ### 选择/升级 AG Grid 版本的实际步骤

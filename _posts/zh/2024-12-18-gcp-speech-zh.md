@@ -15,18 +15,18 @@ type: post
 
 ### 步骤 1：设置 Google Cloud 账户
 
-1. 创建 Google Cloud 账户  
+1. 创建 Google Cloud 账户
    如果你还没有 Google Cloud 账户，前往 [Google Cloud Console](https://console.cloud.google.com/) 注册。
 
-2. 创建一个新项目  
+2. 创建一个新项目
    - 在 Google Cloud Console 中，点击顶部左侧的项目下拉菜单。
    - 选择 New Project，为项目命名并创建。
 
-3. 启用 Text-to-Speech API  
+3. 启用 Text-to-Speech API
    - 访问 [Google Cloud Text-to-Speech API 页面](https://cloud.google.com/text-to-speech)。
    - 点击 Enable，为你的项目启用 API。
 
-4. 创建 API 凭证  
+4. 创建 API 凭证
    - 在 Cloud Console 中，导航到 APIs & Services > Credentials。
    - 点击 Create Credentials，选择 Service Account。
    - 按照提示创建服务账户，并确保 下载 JSON 格式的私钥文件。
@@ -36,10 +36,10 @@ type: post
 
 ### 步骤 2：安装 Google Cloud SDK 和客户端库
 
-1. 安装 Google Cloud SDK  
+1. 安装 Google Cloud SDK
    如果尚未安装 [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)，请根据操作系统的安装指南进行安装。
 
-2. 安装 Python 客户端库  
+2. 安装 Python 客户端库
    如果使用 Python，运行以下命令安装 `google-cloud-texttospeech` 库：
 
    ```bash
@@ -164,7 +164,7 @@ text_to_speech(article_text, output_file)
 
 ### 示例音频输出
 
-一旦一切设置完成，音频输出文件将在此处提供：  
+一旦一切设置完成，音频输出文件将在此处提供：
 [下载音频文件](assets/audios/output-audio.mp3)。
 
 ---

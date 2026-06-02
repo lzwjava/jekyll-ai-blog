@@ -32,10 +32,10 @@ AMiner 为科研人员与学者提供了一系列定制化工具与服务，主�
 
 总体而言，该平台致力于从基础检索到深度数据挖掘的全流程学术发现，在人工智能等快速演进领域中是保持学术前沿性的重要资源。
 
-**参考文献**  
-- [AMiner - AI赋能的学术网络挖掘](https://mrt.aminer.cn/)  
-- [使用手册 - AMiner](https://www.aminer.cn/manual)  
-- [AMiner：学术社交网络的搜索与挖掘](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)  
-- [AMiner - AI赋能科技情报挖掘](https://www.aminer.cn/)  
-- [SciDB上的AMiner数据集](https://www.scidb.cn/en/detail?dataSetId=760464568915853312)  
+**参考文献**
+- [AMiner - AI赋能的学术网络挖掘](https://mrt.aminer.cn/)
+- [使用手册 - AMiner](https://www.aminer.cn/manual)
+- [AMiner：学术社交网络的搜索与挖掘](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)
+- [AMiner - AI赋能科技情报挖掘](https://www.aminer.cn/)
+- [SciDB上的AMiner数据集](https://www.scidb.cn/en/detail?dataSetId=760464568915853312)
 - [AMiner：面向学者大数据的理解探索](https://www.researchgate.net/publication/311488526_AMiner_Toward_Understanding_Big_Scholar_Data)

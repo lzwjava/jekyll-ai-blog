@@ -46,9 +46,9 @@ Distance-vector and path-vector are two classes of dynamic routing protocols use
 
 Path-vector is considered "advanced" because it addresses key limitations of traditional distance-vector protocols—particularly routing loops and lack of policy control—by including explicit path information, making it suitable for the global Internet.
 
-References:  
-- [Path-vector routing protocol - Wikipedia](https://en.wikipedia.org/wiki/Path-vector_routing_protocol)  
-- [What is the difference between distance vector protocol and path vector protocol - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/5595/what-is-the-difference-between-distance-vector-protocol-and-path-vector-protocol)  
-- [Path Vector vs Distance Vector - Lab1918](https://lab1918.com/posts/dv-vs-ps/)  
-- [Routing Protocols Compared - Packetcoders](https://www.packetcoders.io/routing-protocols-compared-distance-vector-path-vector-link-state-and-hybrid/)  
+References:
+- [Path-vector routing protocol - Wikipedia](https://en.wikipedia.org/wiki/Path-vector_routing_protocol)
+- [What is the difference between distance vector protocol and path vector protocol - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/5595/what-is-the-difference-between-distance-vector-protocol-and-path-vector-protocol)
+- [Path Vector vs Distance Vector - Lab1918](https://lab1918.com/posts/dv-vs-ps/)
+- [Routing Protocols Compared - Packetcoders](https://www.packetcoders.io/routing-protocols-compared-distance-vector-path-vector-link-state-and-hybrid/)
 - [Distance Vector, Link State, and Path Vector - InformIT](https://www.informit.com/articles/article.aspx?p=331613&seqNum=2)

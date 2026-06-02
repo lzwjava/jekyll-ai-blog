@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Global Talent 858 visa?
 
-Answer: 
+Answer:
 
 The **Global Talent Visa (subclass 858)** was an Australian permanent residency visa designed to attract highly skilled and exceptionally talented individuals with an internationally recognized record of outstanding achievements. It targeted priority sectors such as technology, finance, health, and innovation to boost Australia's economy.
 
@@ -28,8 +28,8 @@ As of **December 6-7, 2024**, the Global Talent Visa program was closed and repl
 
 The term "Global Talent 858 visa" commonly refers to the previous program, but the visa subclass 858 now exclusively denotes the National Innovation Visa.
 
-References:  
+References:
 
-- [National Innovation Visa - Department of Home Affairs](https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/national-innovation-visa)  
-- [Subclass 858 National Innovation Visa](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/national-innovation-visa-858)  
+- [National Innovation Visa - Department of Home Affairs](https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/national-innovation-visa)
+- [Subclass 858 National Innovation Visa](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/national-innovation-visa-858)
 - [Migration Amendment (National Innovation Visa) Regulations 2024 Announcement](https://multilaw.com/Multilaw/Multilaw/Multilaw_News/Jurisdiction_News/National_Innovation_Visa_NIV_Subclass_858_New_visa_to_attract_global_talent_to_Australian_shores.aspx)

@@ -12,7 +12,7 @@ type: note
 
 **Question:** 请提供 Redis 命令行选项的全面介绍。
 
-**Answer:** 
+**Answer:**
 
 当提到 “Redis 命令行选项” 时，通常指的是两个主要的命令行程序：
 
@@ -154,7 +154,7 @@ redis-cli EVAL "return redis.call('SET', KEYS[1], ARGV[1])" 1 mykey value
 | `--pipe`      | `--pipe`           | 批量协议模式                               |
 | `--scan`      | `--scan`           | 比 KEYS * 更安全                           |
 
-**References:**  
+**References:**
 
 - https://redis.io/docs/latest/operate/oss_and_stack/management/config
 - https://redis.io/docs/latest/develop/tools/cli

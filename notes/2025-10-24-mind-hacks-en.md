@@ -44,7 +44,7 @@ The companion site (mindhacks.com) adds demos, a blog, and links for deeper dive
 
 Overall, *Mind Hacks* argues the brain has a "life of its own," and these probes pull back the curtain for fleeting glimpses. It's rewarding for anyone wanting neuroscience without the jargon—perfect for sparking "aha" moments.
 
-[SoBrief Summary](https://sobrief.com/books/mind-hacks)  
-[Mind Hacks Official Site](https://mindhacks.com/book/)  
-[Goodreads Page](https://www.goodreads.com/book/show/228047.Mind_Hacks)  
+[SoBrief Summary](https://sobrief.com/books/mind-hacks)
+[Mind Hacks Official Site](https://mindhacks.com/book/)
+[Goodreads Page](https://www.goodreads.com/book/show/228047.Mind_Hacks)
 [Wikipedia Entry](https://en.wikipedia.org/wiki/Mind_Hacks)

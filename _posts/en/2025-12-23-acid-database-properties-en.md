@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand the ACID properties (Atomicity, Consistency, Isolation, Durability) in databases?
 
-Answer: 
+Answer:
 
 ACID is an acronym that stands for **Atomicity**, **Consistency**, **Isolation**, and **Durability**. These four properties are fundamental guarantees provided by transactional database management systems (DBMS) to ensure that database transactions are processed reliably and correctly, even in the presence of errors, power failures, or concurrent access.
 

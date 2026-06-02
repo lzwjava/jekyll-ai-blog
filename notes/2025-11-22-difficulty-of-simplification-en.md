@@ -38,7 +38,7 @@ Simplification requires a cultural shift and a set of practical, technical strat
 ### B. Technical and Architectural Strategies
 
 * **Modular Architecture:** Design systems where components are loosely coupled. This is the **most crucial technical step** to enable deletion. If a component (like a specific language translation module) is self-contained and communicates via a clear interface, deleting it only affects that component, not the entire application.
-    * 
+    *
 * **Refactoring as Debt Repayment:** Allocate specific time in every sprint (e.g., \\(20\%\\) of effort) not just for new features, but for **refactoring** (improving existing code) and **deleting dead code**. Treat complexity as **Technical Debt** that must be paid down.
 * **"Deprecate, then Delete":** Never delete a major feature instantly.
     1.  **Phase 1: Deprecate:** Announce its upcoming removal and stop developing it. Hide the feature from the main interface (e.g., your blog's language selector).

@@ -47,7 +47,7 @@ Here’s the manifest we’re working with (slightly simplified for readability)
         android:icon="@drawable/icon128"
         android:name=".base.App"
         android:theme="@style/AppTheme">
-        
+
         <activity android:name=".deprecated.CameraActivity" android:screenOrientation="landscape" />
         <activity android:name=".base.SplashActivity">
             <intent-filter>

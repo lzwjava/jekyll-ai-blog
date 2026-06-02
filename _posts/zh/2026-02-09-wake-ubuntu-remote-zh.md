@@ -89,8 +89,8 @@ type: note
 
 参考资料：
 
-- [https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0](https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0)  
-- [https://www.youtube.com/watch?v=pXXzWkNkKuQ](https://www.youtube.com/watch?v=pXXzWkNkKuQ)  
-- [https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472](https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472)  
-- [https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access](https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access)  
+- [https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0](https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0)
+- [https://www.youtube.com/watch?v=pXXzWkNkKuQ](https://www.youtube.com/watch?v=pXXzWkNkKuQ)
+- [https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472](https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472)
+- [https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access](https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access)
 - [https://www.itpro.com/mobile/remote-access/368102/how-to-remote-desktop-into-ubuntu](https://www.itpro.com/mobile/remote-access/368102/how-to-remote-desktop-into-ubuntu)

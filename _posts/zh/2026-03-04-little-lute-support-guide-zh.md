@@ -17,16 +17,16 @@ Little Lute，也称为 Cai Yan 或 Cai Wenji，是 Honor of Kings（《王者�
 
 ### 技能
 
-- **Passive: Can't Touch This**  
+- **Passive: Can't Touch This**
   受到伤害（来自英雄、小兵或野怪）时，获得 35-70% 衰减移动速度，持续 2s，并每秒治疗 250-530 (+50% magic power) HP，持续 2s（冷却 10s）。非常适合逃脱 gank 或在对线时续航。
 
-- **Skill 1: Healing Hymn**（优先升级）  
+- **Skill 1: Healing Hymn**（优先升级）
   弹奏旋律，提升自身 40% 移动速度，持续 3s。每 0.5s 治疗自身和附近盟友 60-120 (+20-25% magic power) HP，持续 3s（非英雄效果减半）。冷却：12-15s，法力：100。在对线或消耗对拼时用于续航。
 
-- **Skill 2: Earworm**  
+- **Skill 2: Earworm**
   发射音波，在敌人之间最多弹跳 6 次，每次造成 270-540 (+48% magic power) magic damage 并击晕 0.75s（每目标最多 2 次命中；第二次命中伤害 25%）。冷却：8-10s，法力：70。主要消耗/CC 工具——瞄准聚集的敌人或小兵波。
 
-- **Ultimate: Tune of Tranquility**  
+- **Ultimate: Tune of Tranquility**
   创建一个区域，每 0.5s 为最低 HP 盟友治疗 90-180 (+45-70% magic power) HP，持续 5s，并提供 200-450 (+25-30% magic power) 物理/魔法防御。敌人停留 2s 以上会失去护甲/抗性。冷却：50-60s，法力：120。团队战核心工具——定位覆盖多个盟友。
 
 **技能优先级**：1 > 2 > Ultimate。选择 **Heal** 或 **Stun** summoner spell。
@@ -79,7 +79,7 @@ Little Lute，也称为 Cai Yan 或 Cai Wenji，是 Honor of Kings（《王者�
 
 掌握走位和时机，即可发挥巨大影响力！
 
-参考资料： 
+参考资料：
 - [Honor of Kings Little Lute Guide](https://gaminggblog.com/honor-of-kings-little-lute-builds)
 - [Cai Yan Fandom Wiki](https://honor-of-kings.fandom.com/wiki/Cai_Yan)
 - [Cai Yan HoK Guide](https://www.joytify.com/blog/en-ph/cai-yan-honor-of-kings)

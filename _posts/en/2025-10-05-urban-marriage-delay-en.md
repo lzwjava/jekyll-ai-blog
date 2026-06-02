@@ -32,11 +32,11 @@ No kids ties right into this: Late marriage means later (or no) childbearing, pl
 
 Bottom line: Yeah, this is totally normal in 2025 China, especially for a guy in his position. It's a mix of personal choice, societal shifts, and tough economics. If he's content (which it sounds like he might be, given the steady friendship), that's what matters. If you're worried or curious for deeper reasons, leaning into those weekly chats could reveal more—friendships like yours are gold for that.
 
-[China's marriage rate is at its lowest in nearly 40 years](https://www.irishtimes.com/world/asia-pacific/2025/09/26/chinas-marriage-rate-is-at-its-lowest-in-nearly-40-years-why-are-singles-put-off-settling-down/)  
-[No Marriage, No Children' Is China's Ticking Timebomb](https://www.bloomberg.com/news/features/2025-05-08/china-s-low-marriage-and-birth-rates-are-an-economic-ticking-timebomb)  
-[More Chinese women choosing singledom as economy stutters](https://www.reuters.com/world/china/more-chinese-women-choosing-singledom-economy-stutters-2024-03-07/)  
-[China Faces Record High Unmarried Rate Among Young People](https://www.voanews.com/a/china-faces-record-high-unmarried-rate-among-young-people/7426303.html)  
-[Share of singles among young people in China 2021, by age group](https://www.statista.com/statistics/1258176/china-share-of-people-being-single-by-age-group/)  
-[Why China's Young People Are Not Getting Married](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)  
-[Rising trend of childlessness in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC10231016/)  
+[China's marriage rate is at its lowest in nearly 40 years](https://www.irishtimes.com/world/asia-pacific/2025/09/26/chinas-marriage-rate-is-at-its-lowest-in-nearly-40-years-why-are-singles-put-off-settling-down/)
+[No Marriage, No Children' Is China's Ticking Timebomb](https://www.bloomberg.com/news/features/2025-05-08/china-s-low-marriage-and-birth-rates-are-an-economic-ticking-timebomb)
+[More Chinese women choosing singledom as economy stutters](https://www.reuters.com/world/china/more-chinese-women-choosing-singledom-economy-stutters-2024-03-07/)
+[China Faces Record High Unmarried Rate Among Young People](https://www.voanews.com/a/china-faces-record-high-unmarried-rate-among-young-people/7426303.html)
+[Share of singles among young people in China 2021, by age group](https://www.statista.com/statistics/1258176/china-share-of-people-being-single-by-age-group/)
+[Why China's Young People Are Not Getting Married](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)
+[Rising trend of childlessness in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC10231016/)
 [Why aren't young people in China getting married?](https://www.ceibs.edu/new-papers-columns/27260)

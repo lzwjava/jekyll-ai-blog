@@ -21,13 +21,13 @@ This scales to *any* code where loops, queries, or computations balloon. Here's 
    - **Goal?** Not "get all users," but "email list for a targeted campaign."
    - **Cut out?** SELECT only `email` (and maybe `id` for tracking). Add `LIMIT 1000` if paginating.
    - **Different order?** Push filters to SQL (WHERE clauses) before any app-side logic. Index on `region` and `purchase_date` to slash scan time.
-   
-   Result: From 10s query to 50ms. Like the proxy filter: Why haul 53 when 14 suffice? In code: 
+
+   Result: From 10s query to 50ms. Like the proxy filter: Why haul 53 when 14 suffice? In code:
    ```python:disable-run
    # Bad: Fetch all, filter later
    all_users = db.query("SELECT * FROM users")
    eu_premium = [u for u in all_users if u.region == 'EU' and u.is_premium]
-   
+
    # Optimized: Filter at source
    eu_premium = db.query("SELECT email FROM users WHERE region='EU' AND is_premium=1 LIMIT 1000")
    ```
@@ -39,14 +39,14 @@ This scales to *any* code where loops, queries, or computations balloon. Here's 
    - **Goal?** Aggregate prices, not per-item nukes.
    - **Cut out?** Dedupe IDs first (`unique_items = set(item.id for item in items)`—drops 50% instantly).
    - **Different order?** Batch requests (if API supports `/batch?ids=1,2,3`) or async parallelize with `asyncio.gather([api.get(id) for id in unique_items])`. Layer in Redis cache: "Seen this ID in last hour? Skip."
-   
+
    Proxy parallel: Those concurrent TCP logs? Same vibe—test multiple latencies at once instead of serial. Shaves seconds to milliseconds. Code snippet:
    ```python
    import asyncio
-   
+
    async def fetch_prices(ids):
        return await asyncio.gather(*[api.get(id) for id in set(ids)])  # Dedupe + parallel
-   
+
    totals = sum(await fetch_prices(items))  # One batch, done.
    ```
 
@@ -57,7 +57,7 @@ This scales to *any* code where loops, queries, or computations balloon. Here's 
    - **Goal?** Deliver valid edited images, not process junk.
    - **Cut out?** Quick validity check (e.g., `PIL.Image.open` with `try/except`—bail if fails).
    - **Different order?** Validate first, then pipeline only survivors. Profile: 80% time in resize? Downsample thumbs async for previews.
-   
+
    Echoes the proxy timeout warning: That 504 error? Script flagged it fast, didn't let it derail the top-20 sort. In practice:
    ```python
    def process_image(path):
@@ -68,7 +68,7 @@ This scales to *any* code where loops, queries, or computations balloon. Here's 
            img.save(f"{path}_edited.jpg")
        except Exception:
            logging.warning(f"Skipped corrupt: {path}")
-   
+
    [process_image(p) for p in valid_paths]  # Pre-filtered list
    ```
 

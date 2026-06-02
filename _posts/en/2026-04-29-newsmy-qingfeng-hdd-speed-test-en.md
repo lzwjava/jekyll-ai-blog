@@ -12,7 +12,7 @@ type: note
 Question: What is the Newsmy Qingfeng (清风) 320GB portable hard drive and is it considered fast?
 
 Answer:
-The **Newsmy Qingfeng (清风)** series is a line of entry-level, 2.5-inch portable hard disk drives (HDDs) designed primarily for affordable, basic data storage and backup. 
+The **Newsmy Qingfeng (清风)** series is a line of entry-level, 2.5-inch portable hard disk drives (HDDs) designed primarily for affordable, basic data storage and backup.
 
 ### Overview of the Device
 * **Technology:** As a traditional Hard Disk Drive (HDD), it uses spinning magnetic platters to store data, rather than the flash memory found in modern Solid State Drives (SSDs).

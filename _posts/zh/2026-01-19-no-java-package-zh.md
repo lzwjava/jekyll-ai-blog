@@ -26,8 +26,8 @@ package com.lzw.solutions.codeforces.p2190B1;
 
 Codeforces 编译器将拒绝它，并显示类似以下的信息：
 
-- Compilation error  
-- 或者直接提示：**"package statement is not allowed"**  
+- Compilation error
+- 或者直接提示：**"package statement is not allowed"**
 - 或者：**"class Main is public, should be declared in a file named Main.java"**
 
 ### 为什么会这样

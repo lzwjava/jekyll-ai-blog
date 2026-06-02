@@ -16,9 +16,9 @@ Microsoft Teams 的消息转发功能于 2023 年 11 月下旬首次面向定向
 - 2025 年 1 月：支持与频道间的消息互转
 - 2025 年 1 月：支持转发含 Loop 组件和应用卡片的邮件（应用卡片功能于 2025 年 4 月进一步扩展）
 
-**参考链接**  
-[Microsoft Teams 即将支持聊天消息转发——操作指南详解](https://petri.com/microsoft-teams-forward-chat-messages/)  
-[Microsoft Teams 2024 年 1 月更新亮点全解析](https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%25E2%2580%2599s-new-in-microsoft-teams--january-2024/4043960)  
-[Microsoft Teams 最新功能动态](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)  
-[Microsoft Teams：聊天消息转发功能深度体验](https://www.365tribe.co.uk/microsoft-teams-forward-messages-in-teams-chats/)  
+**参考链接**
+[Microsoft Teams 即将支持聊天消息转发——操作指南详解](https://petri.com/microsoft-teams-forward-chat-messages/)
+[Microsoft Teams 2024 年 1 月更新亮点全解析](https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%25E2%2580%2599s-new-in-microsoft-teams--january-2024/4043960)
+[Microsoft Teams 最新功能动态](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)
+[Microsoft Teams：聊天消息转发功能深度体验](https://www.365tribe.co.uk/microsoft-teams-forward-messages-in-teams-chats/)
 [微软在 Teams 中推出便捷消息转发功能](https://www.uctoday.com/collaboration/microsoft-launches-easy-message-forwarding-in-teams/)

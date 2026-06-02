@@ -67,5 +67,5 @@ type: note
 | 49   | 拉吉·库马尔                   | $1.6B     | 皇家控股、RB Capital                      |
 | 50   | 郑帝鹏家族                    | $1.5B     | 美罗控股、OG百货                          |
 
-[新加坡富豪榜前50强](https://www.forbes.com/lists/singapore-billionaires/)  
+[新加坡富豪榜前50强](https://www.forbes.com/lists/singapore-billionaires/)
 [2025年新加坡亿万富豪排行榜](https://www.caproasia.com/2025/09/11/top-richest-billionaires-in-singapore-2025-67-billionaires-with-total-wealth-245-billion-average-wealth-3-7-billion-top-5-richest-are-facebook-eduardo-saverin-41-billion-mindray-bio-medical-el/)

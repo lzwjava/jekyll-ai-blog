@@ -46,11 +46,11 @@ Here's a clear, practical comparison between **Jenkins Freestyle Projects** and 
 | Maintaining 10+ year old Jenkins instance     | Gradually migrate to Pipeline |
 
 ### Quick Migration Tip
-Most teams today treat **Freestyle as legacy**.  
+Most teams today treat **Freestyle as legacy**.
 Jenkins even added the “Pipeline from Freestyle” generator (Job DSL or Pipeline syntax snippet generator) to help convert them.
 
-**Bottom line**:  
-If you're starting anything in 2025 → use **Pipeline (Declarative)**.  
+**Bottom line**:
+If you're starting anything in 2025 → use **Pipeline (Declarative)**.
 Keep Freestyle only for very simple or truly temporary jobs.
 
 Declarative Pipeline became the de-facto standard because it gives you all the power of code with almost the simplicity of Freestyle UI.

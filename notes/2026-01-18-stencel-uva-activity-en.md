@@ -25,7 +25,7 @@ However, he is **not particularly "quite active" in recent times** based on avai
 
 In short: He has been involved with UVa Online Judge (via uHunt) and has a verifiable history of solving problems there (at least several dozen to hundreds, including some strong performances in individual problems), but he is not currently "quite active" in the competitive programming sense compared to dedicated CP participants.
 
-**References:**  
+**References:**
 
 - [uHunt profile for ID 19304](https://uhunt.onlinejudge.org/id/19304)
 - [UVa problem statistic example showing his submission (2011)](http://isaac.lsu.edu/uva/120/12079-stat.php)

@@ -11,7 +11,7 @@ type: note
 
 **Question:** Provide a comprehensive introduction to Andrew Kelley, the author/creator of the Zig programming language.
 
-**Answer:** 
+**Answer:**
 
 Andrew Kelley is the creator, lead developer, and primary driving force behind **Zig**, a modern general-purpose programming language designed as a better alternative to C, emphasizing robustness, optimal performance, simplicity, and reusability.
 
@@ -58,7 +58,7 @@ His personal website (andrewkelley.me) hosts blog posts, project links, and serv
 ### Summary
 Andrew Kelley is widely regarded in the systems programming community as a principled, determined, and innovative figure who single-handedly started Zig and grew it into one of the most promising modern low-level languages. Through technical excellence, openness to experimentation (e.g., comptime), and commitment to sustainable open-source funding, he has positioned Zig as a serious contender in the space traditionally dominated by C and C++.
 
-**References:**  
+**References:**
 
 - [Andrew Kelley's personal website](https://andrewkelley.me/)
 - [Zig Programming Language official site](https://ziglang.org/)

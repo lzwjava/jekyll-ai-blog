@@ -89,5 +89,5 @@ In short: the first year gives everyone a broad, rigorous foundation in all majo
 
 References:
 - [Stanford GSB Required Curriculum](https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year)
-- [Stanford GSB Elective Curriculum](https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/second-year)  
+- [Stanford GSB Elective Curriculum](https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/second-year)
 - [Stanford GSB Course Catalog 2024–2025](https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/courses)

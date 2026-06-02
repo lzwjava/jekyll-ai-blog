@@ -14,7 +14,7 @@ GreptimeDB 作为一款面向可观测性数据（如指标、日志和追踪）
 
 ### 核心依赖关系的关键原因：
 - **性能与效率**：DataFusion 借助 Arrow 的零拷贝数据模型实现快速查询执行，该模型能最小化序列化开销并支持向量化操作。这对于 GreptimeDB 在处理海量时序数据时保持高速查询至关重要。
-  
+
 - **可扩展性与定制化**：GreptimeDB 对 DataFusion 进行了时序特化功能扩展，包括：
   - 支持将 PromQL（Prometheus 查询语言）作为可观测性查询方言
   - 针对时序工作负载优化的增强 SQL 语法
@@ -27,5 +27,5 @@ GreptimeDB 作为一款面向可观测性数据（如指标、日志和追踪）
 
 若没有 DataFusion，GreptimeDB 需从零实现完整查询引擎，这将耗费大量资源且难以维护。而依托该依赖项，GreptimeDB 既能加速开发进程，又能提供生产级的查询性能。
 
-[Greptime 工程师夏锐航在 CMUDB 研讨会分享——Apache DataFusion 数据库实践](https://greptime.com/blogs/2024-12-19-apache-datafusion-database-practices)  
+[Greptime 工程师夏锐航在 CMUDB 研讨会分享——Apache DataFusion 数据库实践](https://greptime.com/blogs/2024-12-19-apache-datafusion-database-practices)
 [函数列表 | GreptimeDB 技术文档](https://docs.greptime.com/reference/sql/functions/overview/)

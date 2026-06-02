@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the history of the Zig programming language.
 
-Answer: 
+Answer:
 
 **History of the Zig Programming Language**
 
@@ -69,7 +69,7 @@ Zig is a modern, general-purpose, statically typed, compiled systems programming
 
 Zig's history reflects a rare combination: a single-person hobby project that grew into a serious, funded, community-backed language with a very deliberate, patient path toward stability.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Zig_(programming_language)](https://en.wikipedia.org/wiki/Zig_(programming_language))
 - [https://andrewkelley.me/post/intro-to-zig.html](https://andrewkelley.me/post/intro-to-zig.html)

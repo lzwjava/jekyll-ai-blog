@@ -11,7 +11,7 @@ type: note
 
 Question: The gcloud run deploy command failed with "Build failed; check build logs for details" and a traceback – how to find and fix the issue?
 
-Answer: 
+Answer:
 
 Your deployment failed during the **Cloud Build** phase (triggered automatically by `--source .`), which handles building the container image from your source code and `Dockerfile`.
 
@@ -25,8 +25,8 @@ The key message is: **"Build failed; check build logs for details"** — this me
    - Find the latest build for your service (`blog-server`); it usually shows as "FAILED" or has a red status.
    - Click on it → you'll see detailed step-by-step logs.
    - Scroll through steps (especially the Maven/build step or Dockerfile execution) to find red error lines (e.g. "Compilation failure", "Could not resolve dependencies", "COPY failed", etc.).
-   - The console often shows a direct link like:  
-     "Logs are available at https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=..."  
+   - The console often shows a direct link like:
+     "Logs are available at https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=..."
      (gcloud sometimes prints this before failing – check your terminal scrollback).
 
 2. **Using gcloud CLI**:
@@ -41,7 +41,7 @@ The key message is: **"Build failed; check build logs for details"** — this me
      gcloud builds log BUILD_ID_HERE
      ```
      - Add `--stream` if you want real-time (but since it's failed, normal is fine).
-     - Or pipe to less/grep:  
+     - Or pipe to less/grep:
        ```bash
        gcloud builds log BUILD_ID_HERE | less
        gcloud builds log BUILD_ID_HERE | grep -i error
@@ -108,7 +108,7 @@ This skips the remote source upload/build entirely.
 
 After checking logs, reply here with the **specific error message** from the build logs (e.g. the red part) — I can help pinpoint the exact fix.
 
-References:  
+References:
 
 - [Troubleshoot Cloud Run issues](https://cloud.google.com/run/docs/troubleshooting)
 - [Troubleshooting build errors - Cloud Build](https://cloud.google.com/build/docs/troubleshooting)

@@ -35,19 +35,19 @@ import javax.jms.TextMessage;
 import javax.jms.JMSException;
 ```
 
-**什么是`InitialContext`？**  
-这是JNDI API中的一个类，作为命名服务的入口点。在代码中：  
+**什么是`InitialContext`？**
+这是JNDI API中的一个类，作为命名服务的入口点。在代码中：
 ```java
 InitialContext ctx = new InitialContext();  // 创建绑定至应用服务器JNDI环境的默认上下文
 QueueConnectionFactory qcf = (QueueConnectionFactory) ctx.lookup("jms/MyConnectionFactory");  // 通过JNDI名称查找预配置的工厂
-```  
+```
 对于运行在WAS*内部*的应用程序，构造函数无需任何属性，因为容器会注入环境（例如通过`java.naming.factory.initial`）。若在WAS*外部*运行独立客户端，则需传递包含提供程序URL等属性的`Hashtable`。
 
 ### Maven依赖配置（pom.xml）
 
-如果Java应用部署在WAS内部运行（例如作为Web应用、EJB或企业级Bean）：  
-- **无需额外依赖**。WAS作为Java EE运行时环境，已内置提供JMS和JNDI API。编译时直接引用即可（构建/部署时它们已在类路径中）。  
-- 在`pom.xml`中，可通过`<scope>provided</scope>`显式声明这些依赖，避免将其打包到WAR/EAR中（保持轻量化）：  
+如果Java应用部署在WAS内部运行（例如作为Web应用、EJB或企业级Bean）：
+- **无需额外依赖**。WAS作为Java EE运行时环境，已内置提供JMS和JNDI API。编译时直接引用即可（构建/部署时它们已在类路径中）。
+- 在`pom.xml`中，可通过`<scope>provided</scope>`显式声明这些依赖，避免将其打包到WAR/EAR中（保持轻量化）：
   ```xml
   <dependencies>
       <dependency>
@@ -65,19 +65,19 @@ QueueConnectionFactory qcf = (QueueConnectionFactory) ctx.lookup("jms/MyConnecti
   </dependencies>
   ```
 
-如果应用是独立客户端（在WAS外部运行，例如连接服务器的瘦客户端）：  
-- 需要通过IIOP获得完整JMS支持时，需使用**WebSphere应用客户端**库。从IBM下载"IBM WebSphere Application Server traditional"客户端包，然后将其添加至类路径。  
-- 在`pom.xml`中包含：  
+如果应用是独立客户端（在WAS外部运行，例如连接服务器的瘦客户端）：
+- 需要通过IIOP获得完整JMS支持时，需使用**WebSphere应用客户端**库。从IBM下载"IBM WebSphere Application Server traditional"客户端包，然后将其添加至类路径。
+- 在`pom.xml`中包含：
   ```xml
   <dependency>
       <groupId>com.ibm.ws</groupId>
       <artifactId>was-jms-client</artifactId>  <!-- 近似依赖项；若可用请使用IBM Maven仓库 -->
       <version>9.0.5</version>  <!-- 请与您的WAS版本匹配 -->
   </dependency>
-  ```  
+  ```
   或使用完整的瘦客户端JAR包（例如`com.ibm.ws.orb_8.5.5.jar`、`com.ibm.ws.jndi_*.jar`）。具体配置请查阅IBM文档。
 
 对于Jakarta EE迁移（2020年后），建议切换至`jakarta.*`包，但WAS 9.x默认仍使用`javax.*`——如需启用Jakarta，请通过功能包进行配置。
 
-[IBM WebSphere JMS API文档](https://www.ibm.com/docs/en/was/9.0.5?topic=resources-jms-api)  
+[IBM WebSphere JMS API文档](https://www.ibm.com/docs/en/was/9.0.5?topic=resources-jms-api)
 [Java EE JNDI教程](https://docs.oracle.com/javase/tutorial/jndi/)

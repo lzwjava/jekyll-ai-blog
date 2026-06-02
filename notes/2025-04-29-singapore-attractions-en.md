@@ -40,5 +40,5 @@ Of course! Singapore is compact but packed with fantastic tourism spots. Here’
 
 ---
 
-If you tell me more about what you like — e.g., **shopping**, **nature**, **photography**, **family fun**, or **relaxation** — I can recommend a customized 1–2 day itinerary too!  
+If you tell me more about what you like — e.g., **shopping**, **nature**, **photography**, **family fun**, or **relaxation** — I can recommend a customized 1–2 day itinerary too!
 Would you like a suggested plan? 🌟

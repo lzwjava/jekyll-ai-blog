@@ -25,7 +25,7 @@ __global__ void vectorAdd(float *a, float *b, float *c, int n) {
 int main() {
     int n = 1024;  // 向量大小
     size_t size = n * sizeof(float);
-    
+
     // 主机内存分配
     float *h_a = (float*)malloc(size);
     float *h_b = (float*)malloc(size);
@@ -39,7 +39,7 @@ int main() {
 
     // 设备内存指针
     float *d_a, *d_b, *d_c;
-    
+
     // 分配设备内存
     cudaMalloc((void**)&d_a, size);
     cudaMalloc((void**)&d_b, size);

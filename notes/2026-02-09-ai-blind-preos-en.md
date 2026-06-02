@@ -12,17 +12,17 @@ type: note
 
 Question: One limitation of AI like Grok or AI agents is that they cannot help with system recovery mode or BIOS settings because the operating system hasn't started yet, right? So users have to rely on another device to ask AI chatbots instead of getting help directly from an on-device AI agent.
 
-Answer: 
+Answer:
 
 **Yes, that's exactly correct.**
 
 When a computer is in:
 
-- BIOS / UEFI setup screen  
-- Boot menu  
-- Windows Recovery Environment (WinRE) / Advanced Startup Options  
-- Safe Mode before login  
-- Bootloader stage (GRUB, Windows Boot Manager failure, etc.)  
+- BIOS / UEFI setup screen
+- Boot menu
+- Windows Recovery Environment (WinRE) / Advanced Startup Options
+- Safe Mode before login
+- Bootloader stage (GRUB, Windows Boot Manager failure, etc.)
 - Any pre-OS environment (PE, recovery USB, firmware flashing mode)
 
 … no AI agent running inside that machine can help you at that moment, because the full operating system (and therefore any locally installed AI software) is not loaded yet.
@@ -51,6 +51,6 @@ So right now (and for the great majority of situations in 2026) your observation
 
 That's why having a smartphone (or tablet) nearby remains very valuable when doing serious troubleshooting, BIOS changes, or OS recovery work.
 
-References:  
+References:
 
 - None required for this reasoning (purely based on how operating systems, firmware, and AI agent architectures function)

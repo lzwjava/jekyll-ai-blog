@@ -59,17 +59,17 @@ raw.transactions → mart.daily_pnl → report.risk_dashboard
 
 ### 2. 列级（中等）
 ```
-raw.transactions.amount 
-  → [sum, group by trade_date] 
+raw.transactions.amount
+  → [sum, group by trade_date]
   → mart.daily_pnl.gross_amount
-  → [*fx_rate] 
+  → [*fx_rate]
   → report.risk_dashboard.usd_equivalent
 ```
 这是 BCBS 239 的最低可行血缘。
 
 ### 3. 值级 / 记录级（精细）
 ```
-trade_id=T12345, amount=1,000,000 CNY 
+trade_id=T12345, amount=1,000,000 CNY
   → fx_rate=7.24（来源：Reuters 2024-01-15 09:00 UTC）
   → usd_equivalent=138,122.17
   → 出现在2024-01-16提交的RWA报表第47行
@@ -107,7 +107,7 @@ for col in ast.find_all(sqlglot.exp.Column):
 
 工具：**sqlglot**、**sqlparse**、**OpenLineage解析器**
 
-优点：无需更改管道，适用于遗留SQL。  
+优点：无需更改管道，适用于遗留SQL。
 缺点：无法跟踪运行时转换（Python Pandas操作、动态SQL的存储过程）。
 
 ---
@@ -374,7 +374,7 @@ import sqlglot
 from sqlglot.lineage import lineage
 
 sql = """
-SELECT 
+SELECT
     t.amount * fx.rate AS usd_amount,
     t.trade_date
 FROM raw.transactions t

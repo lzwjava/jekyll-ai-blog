@@ -81,15 +81,15 @@ I bought 10 courses for 180 CNY and tried another merchant on Pinduoduo.com. I p
 
 *2022.11.08*
 
-One year ago, regarding my English ability, my reading was good, my listening was not so good, and my writing and speaking were poor. After working in a Singaporean company, four aspects of my English level are proficiency. 
+One year ago, regarding my English ability, my reading was good, my listening was not so good, and my writing and speaking were poor. After working in a Singaporean company, four aspects of my English level are proficiency.
 
 I passed a lot of interview rounds recently, and got several offers from big outsourcing companies whose clients are big banks. Though I will work still as a contractor for a big bank, I am still proud of what I achieved regarding that I was a dropout student.
 
 Regarding the poor economic environment in China, I am confident that I will not lose my job in the next 10 years. Many graduated guys lose their jobs. It is hard for many middle-aged people to find a job. Society is ruthless. I am also trying very hard to ensure that I can find a job and pay my mortgage.
 
-I learned English a hard way. Besides my 965 work, all of my leisure hours are spent learning English. 16 hours on the weekend, 8 hours on the work days. After half a year, I find my brain changed miraculously. I become passionate about speaking and writing English, become passionate about listening and reading English. I must ensure that I have some English materials to listen to whenever my mind is awake. Of course, it is annoying when you listen to lectures and write some code at the same time. 
+I learned English a hard way. Besides my 965 work, all of my leisure hours are spent learning English. 16 hours on the weekend, 8 hours on the work days. After half a year, I find my brain changed miraculously. I become passionate about speaking and writing English, become passionate about listening and reading English. I must ensure that I have some English materials to listen to whenever my mind is awake. Of course, it is annoying when you listen to lectures and write some code at the same time.
 
-I love expressing myself in English now. As long as my Chinese friends can read simple English, I will send English text messages to them. I made bilingual short videos, so I made bilingual captions and dubbing. I just changed myself to an English native speaker though I live in China surrounding the Chinese. 
+I love expressing myself in English now. As long as my Chinese friends can read simple English, I will send English text messages to them. I made bilingual short videos, so I made bilingual captions and dubbing. I just changed myself to an English native speaker though I live in China surrounding the Chinese.
 
 Why? One reason is that as now I am proficient in English, it is easy for me to speak and write. Another reason is that I want to make my English level perfect. And I want to inspire more of my friends to reach the English level I got. The last reason is that using a lot of what you learned is funny. Especially not many people can do that, it is cool. And just one year ago, I couldn't do that. So, see, how miraculous it is.
 
@@ -99,29 +99,29 @@ And what am I doing when I am listening to English lectures at the same time? Li
 
 So now, my daily English and working English are proficient. I am about to make my academic English proficient. How can I do that? Same way, try to listen to a lot of academic materials. I am confident that my academic English can be quite sharp after one year.
 
-In the above paragraph, I mention I listen to English lectures when talking to others. How can I do that? So it is on-ear headphones. 
+In the above paragraph, I mention I listen to English lectures when talking to others. How can I do that? So it is on-ear headphones.
 
-So you can hear what others say clearly at the same time you can hear the voice from the headphone. And what other tools do I use? 
+So you can hear what others say clearly at the same time you can hear the voice from the headphone. And what other tools do I use?
 
-I find that if I wear Bluetooth earphones too much, I will feel pain. It may be that I listen for too much time. So I bought a mobile phone rope to wear on my neck. So I can use my mobile phone to listen to lectures when there are not many people surrounding me. I will preferably use this way more than the on-ear headphone way. 
+I find that if I wear Bluetooth earphones too much, I will feel pain. It may be that I listen for too much time. So I bought a mobile phone rope to wear on my neck. So I can use my mobile phone to listen to lectures when there are not many people surrounding me. I will preferably use this way more than the on-ear headphone way.
 
-I try hard to solve the problem of how can I live well as a dropout undergraduate student. Now I can easily find a job. The global big company cares more about the English level of candidates instead of their college diplomas. And there is a lot of outsourcing company whose clients are global big companies. 
+I try hard to solve the problem of how can I live well as a dropout undergraduate student. Now I can easily find a job. The global big company cares more about the English level of candidates instead of their college diplomas. And there is a lot of outsourcing company whose clients are global big companies.
 
-And actually, I am just one step to a permanent position at a big bank. I failed in the last round of the interview. They weren't unsatisfied with my English level. They mentioned that my technical knowledge foundation is quite good, however, I still lack a bit of knowledge deepness. 
+And actually, I am just one step to a permanent position at a big bank. I failed in the last round of the interview. They weren't unsatisfied with my English level. They mentioned that my technical knowledge foundation is quite good, however, I still lack a bit of knowledge deepness.
 
-So my answer is that if you can do the things the people who have a college diploma can't do, then you can beat them. Especially in the highly competitive and hardcore technical area, there are many chances for dropout, for the people who want to prove themselves, and for the people who want to earn a high salary. 
+So my answer is that if you can do the things the people who have a college diploma can't do, then you can beat them. Especially in the highly competitive and hardcore technical area, there are many chances for dropout, for the people who want to prove themselves, and for the people who want to earn a high salary.
 
-So I am trying hard to solve my dropout problem. I spent half a year learning 16 hours a day to solve them. However, the great lesson is that if I can learn English so fast and well, why can't I learn other things as well? 
+So I am trying hard to solve my dropout problem. I spent half a year learning 16 hours a day to solve them. However, the great lesson is that if I can learn English so fast and well, why can't I learn other things as well?
 
 So I am trying to polish my academic English comprehension ability. I am listening to academic lectures the whole day. I listen to lectures about how to make a rocket, how the economy works by Ray Dalio, and how to make a computer from scratch. I listen to one lecture for a whole week. At the first shot, I don't know what they are talking about. After a week, to my surprise, I can almost listen most of the words they speak and understand some main points they share. It is quite amazing. Because I originally don't think I can learn such stuff, especially since they are taught in English.
 
-So how to become the sharpest person in the world? I think I find the answer. Just learn the whole day, the whole week, the whole year. You will be quite sharp. I will be quite sharp. 
+So how to become the sharpest person in the world? I think I find the answer. Just learn the whole day, the whole week, the whole year. You will be quite sharp. I will be quite sharp.
 
-The most difficult obstacle for me to becoming the sharpest is that I am an easily distracted guy. My concentration ability is poor. However, the good news is that when I play lectures for 2 hours, to let the voice surround my ear, then I can focus a little bit to listen carefully for 1 hour. Especially when you are driving, your eyes are looking ahead, and you are bored, so your mind has just enough attention to listen and learn something. When I drive for 2 hours, I can listen carefully for 1.5 hours. 
+The most difficult obstacle for me to becoming the sharpest is that I am an easily distracted guy. My concentration ability is poor. However, the good news is that when I play lectures for 2 hours, to let the voice surround my ear, then I can focus a little bit to listen carefully for 1 hour. Especially when you are driving, your eyes are looking ahead, and you are bored, so your mind has just enough attention to listen and learn something. When I drive for 2 hours, I can listen carefully for 1.5 hours.
 
-Is it amazing? Yes, it is quite amazing. And nowadays, new energy vehicles are becoming popular. I also bought one, NETA V Chao Lite 400. I think it is the best new energy car whose price is below 100k CNY. Young people like me in China can afford one. The car is amazing. So you drive to do a road trip without spending much money to get fuel for the car. 
+Is it amazing? Yes, it is quite amazing. And nowadays, new energy vehicles are becoming popular. I also bought one, NETA V Chao Lite 400. I think it is the best new energy car whose price is below 100k CNY. Young people like me in China can afford one. The car is amazing. So you drive to do a road trip without spending much money to get fuel for the car.
 
-And in this way, I can only get familiar with technical stuff or academic papers. Regarding most of the precious knowledge, I must do to learn. How can I learn precious knowledge? 
+And in this way, I can only get familiar with technical stuff or academic papers. Regarding most of the precious knowledge, I must do to learn. How can I learn precious knowledge?
 
 I find a way today. When I did something, I got anxious when I feel I am not progressing. For example, when I build some circuits or play with Arduino, I find my progress is slow. Then I give up. Then, I find my solution. I listened to English lectures while building circuits, in this way, I get to brush up on my English even if the circuit doesn't work. At least I get one percent more familiar with some words and some sentences in English. So I think if I play lectures at my home using a Bluetooth speaker, then I can build circuits the whole day. If I want to have the patience to do some labor work, then I just need to play lectures to make myself relaxed to do it.
 
@@ -129,7 +129,7 @@ Does it sound exciting? Yes. It is really exciting to learn if you can learn ver
 
 This is my way how to becoming the sharpest person in the world. Because I learn 16 hours a day, I experiment 16 hours a day, I explore 16 hours a day.
 
-I have a daughter who is one and a half years old now. Her father learned for 27 years and used 2 hours to write the most precious lesson down. So it is dedicated to her. I am 27 years old now. It is hard for me to become the sharpest though it is still not late and I have chances. But I am very confident that my daughter will become one of the sharpest people when she grows up. 
+I have a daughter who is one and a half years old now. Her father learned for 27 years and used 2 hours to write the most precious lesson down. So it is dedicated to her. I am 27 years old now. It is hard for me to become the sharpest though it is still not late and I have chances. But I am very confident that my daughter will become one of the sharpest people when she grows up.
 
 One generation beats one generation. Humans are wonderful.
 
@@ -149,7 +149,7 @@ See, these are my total effort. Does it seem that it is really hard work? It may
 
 I think everyone in Chinese can reach the level I got. It helps me to pass the English technical interview at a big company. I heard that only in 1 of 50 developers, there is just one guy who can speak English fluently.
 
-I joined a big Singaporean bank as a contractor. Before I joined the company, my reading is good, my listening is not so good, and my writing and speaking is poor. 
+I joined a big Singaporean bank as a contractor. Before I joined the company, my reading is good, my listening is not so good, and my writing and speaking is poor.
 
 I know that when at the first day of my work, I only type English words for 5 words in a minute. However, after several months, I found that I can type 20 words in a minute. I still have some grammar errors in my writing. However, at least, I can express what I want to say and my colleagues can understand well.
 
@@ -161,7 +161,7 @@ I can use my way to learn English and I feel that my English skill improve a lot
 
 So when I feel that my English ability improve a lot. However, the test beat me. So I begin to listen to podcasts during my daily commute. So I try to walk for 2 or 3 hours daily to wear Bluetooth earphones to listen to podcasts. The Lex Friedman Podcast is really good. I listen to the speeches of Steve Jobs and Tony Fadell a lot.
 
-So I just listen to podcasts for around 5 hours a day. After several months, I notice my brain had changed. I can use English to express myself faster. When I want to say something, my brain quickly knows how to say it. Just like using Chinese. 
+So I just listen to podcasts for around 5 hours a day. After several months, I notice my brain had changed. I can use English to express myself faster. When I want to say something, my brain quickly knows how to say it. Just like using Chinese.
 
 So then I think if I can use this way to learn English, why not Japanese or Hardware? or whatever you like.
 
@@ -171,7 +171,7 @@ So this is my recipe to work hard. And I start to learn hardware and chips. I li
 
 I am a very lazy person. If I can do it, anyone can do it. In the modern highly competitive day, you need to work hard to be great. I am glad that I find a way to work hard. And it is very funny. I don't feel pain.
 
-See, I just use one hour to write this article. And just half a year ago, I feel very painful to write one sentence myself. 
+See, I just use one hour to write this article. And just half a year ago, I feel very painful to write one sentence myself.
 
 Let's end with my recent favorite quote.
 
@@ -215,7 +215,7 @@ We should consider how we encourage high school and college students and those i
 
 ---
 
-## The Journey of Learning English 
+## The Journey of Learning English
 
 *2020.08.16 This post was originally written in Chinese. It has been translated to English to facilitate further translations into other languages.*
 

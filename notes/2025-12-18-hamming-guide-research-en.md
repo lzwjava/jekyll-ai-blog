@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to "You and Your Research," the famous 1986 talk.
 
-Answer: 
+Answer:
 
 "You and Your Research" is the title of a renowned and highly influential talk delivered by Richard W. Hamming on March 7, 1986, at Bell Communications Research (Bellcore) in Morristown, New Jersey. Hamming, a distinguished mathematician and computer scientist, was a retired Bell Labs researcher and a professor at the Naval Postgraduate School at the time. The talk, often circulated as a transcript and sometimes referred to as an essay, is considered a classic in the fields of science, engineering, and research methodology.
 
@@ -30,7 +30,7 @@ The central question Hamming explored, based on over 40 years of observation (in
 Hamming's talk is motivational and practical, emphasizing that doing great (e.g., Nobel Prize-level) work requires more than intelligence—it demands specific personal qualities and deliberate strategies. Key points include:
 
 - **Work on Important Problems**: Great scientists tackle problems that matter and can transform their field. Ask: "What are the important problems in my field?" and "Why aren't I working on them?"
-  
+
 - **Drive, Ambition, and Commitment**: Success stems from emotional drive, not just intellect. Great researchers exhibit courage, persistence, and a willingness to take risks, overcoming fears of failure or appearing foolish.
 
 - **Preparation and Luck**: "Luck favors the prepared mind." Opportunities arise for those who actively prepare through broad knowledge and openness to new ideas.
@@ -50,7 +50,7 @@ Hamming stressed that individuals, not management, are primarily responsible for
 ### Impact and Legacy
 The talk has inspired generations of scientists, engineers, and technologists. Transcripts are widely shared online, and it's frequently recommended in tech and academia (e.g., by Paul Graham). A video recording of a similar 1995 version exists on YouTube. It remains timeless advice for achieving outstanding work in any knowledge-intensive field.
 
-References:  
+References:
 
 - https://www.cs.virginia.edu/~robins/YouAndYourResearch.html (Full transcript with Q&A)
 - https://fs.blog/great-talks/richard-hamming-your-research/ (Hosted transcript with highlights)

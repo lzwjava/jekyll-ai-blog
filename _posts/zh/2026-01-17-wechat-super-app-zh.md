@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the WeChat app?
 
-Answer: 
+Answer:
 
 **WeChat**（在中国被称为**微信**）是由 **Tencent** 开发并于 2011 年推出的一款多功能移动端 App。它最初是一款即时通讯应用，现已发展成为全球最强大的 **"super apps"** 之一，在单一平台内集成了通讯、社交网络、支付、电子商务和许多日常服务。
 
@@ -47,7 +47,7 @@ WeChat 继续随着以下趋势而扩展：增强的 **AI** 集成（特别是�
 
 虽然在中国占据绝对主导地位，但其国际版本主要由海外华人社区、与中国有业务往来的人士或在亚洲需要使用 **WeChat Pay** 或进行通讯的旅行者使用。
 
-References:  
+References:
 
 - [WeChat - Wikipedia](https://en.wikipedia.org/wiki/WeChat)
 - [WeChat Essentials: An Introduction to the Super App](https://www.cwauthors.com/article/WeChat-Essentials-An-Introduction-To-The-Super-App)

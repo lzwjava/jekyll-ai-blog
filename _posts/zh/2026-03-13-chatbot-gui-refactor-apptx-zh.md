@@ -9,8 +9,8 @@ translated: true
 type: note
 ---
 
-**会话 ID：** ses_31a64c120ffexR8E3Vtmj5S62v  
-**创建时间：** 3/13/2026, 1:11:22 PM  
+**会话 ID：** ses_31a64c120ffexR8E3Vtmj5S62v
+**创建时间：** 3/13/2026, 1:11:22 PM
 **更新时间：** 3/13/2026, 1:19:49 PM
 
 ---
@@ -49,7 +49,7 @@ _思考：_
 7:   border: 2px solid transparent;
 8:   transition: border-color 0.3s;
 9:   margin-bottom: 24px;
-10: 
+10:
 11:   &:hover {
 12:     border-color: var(--accent-border);
 13:   }
@@ -58,28 +58,28 @@ _思考：_
 16:     outline-offset: 2px;
 17:   }
 18: }
-19: 
+19:
 20: .hero {
 21:   position: relative;
-22: 
+22:
 23:   .base,
 24:   .framework,
 25:   .vite {
 26:     inset-inline: 0;
 27:     margin: 0 auto;
 28:   }
-29: 
+29:
 30:   .base {
 31:     width: 170px;
 32:     position: relative;
 33:     z-index: 0;
 34:   }
-35: 
+35:
 36:   .framework,
 37:   .vite {
 38:     position: absolute;
 39:   }
-40: 
+40:
 41:   .framework {
 42:     z-index: 1;
 43:     top: 34px;
@@ -87,7 +87,7 @@ _思考：_
 45:     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
 46:       scale(1.4);
 47:   }
-48: 
+48:
 49:   .vite {
 50:     z-index: 0;
 51:     top: 107px;
@@ -97,7 +97,7 @@ _思考：_
 55:       scale(0.8);
 56:   }
 57: }
-58: 
+58:
 59: #center {
 60:   display: flex;
 61:   flex-direction: column;
@@ -105,18 +105,18 @@ _思考：_
 63:   place-content: center;
 64:   place-items: center;
 65:   flex-grow: 1;
-66: 
+66:
 67:   @media (max-width: 1024px) {
 68:     padding: 32px 20px 24px;
 69:     gap: 18px;
 70:   }
 71: }
-72: 
+72:
 73: #next-steps {
 74:   display: flex;
 75:   border-top: 1px solid var(--border);
 76:   text-align: left;
-77: 
+77:
 78:   & > div {
 79:     flex: 1 1 0;
 80:     padding: 32px;
@@ -124,39 +124,39 @@ _思考：_
 82:       padding: 24px 20px;
 83:     }
 84:   }
-85: 
+85:
 86:   .icon {
 87:     margin-bottom: 16px;
 88:     width: 22px;
 89:     height: 22px;
 90:   }
-91: 
+91:
 92:   @media (max-width: 1024px) {
 93:     flex-direction: column;
 94:     text-align: center;
 95:   }
 96: }
-97: 
+97:
 98: #docs {
 99:   border-right: 1px solid var(--border);
-100: 
+100:
 101:   @media (max-width: 1024px) {
 102:     border-right: none;
 103:     border-bottom: 1px solid var(--border);
 104:   }
 105: }
-106: 
+106:
 107: #next-steps ul {
 108:   list-style: none;
 109:   padding: 0;
 110:   display: flex;
 111:   gap: 8px;
 112:   margin: 32px 0 0;
-113: 
+113:
 114:   .logo {
 115:     height: 18px;
 116:   }
-117: 
+117:
 118:   a {
 119:     color: var(--text-h);
 120:     font-size: 16px;
@@ -168,7 +168,7 @@ _思考：_
 126:     gap: 8px;
 127:     text-decoration: none;
 128:     transition: box-shadow 0.3s;
-129: 
+129:
 130:     &:hover {
 131:       box-shadow: var(--shadow);
 132:     }
@@ -177,16 +177,16 @@ _思考：_
 135:       width: 18px;
 136:     }
 137:   }
-138: 
+138:
 139:   @media (max-width: 1024px) {
 140:     margin-top: 20px;
 141:     flex-wrap: wrap;
 142:     justify-content: center;
-143: 
+143:
 144:     li {
 145:       flex: 1 1 calc(50% - 8px);
 146:     }
-147: 
+147:
 148:     a {
 149:       width: 100%;
 150:       justify-content: center;
@@ -194,7 +194,7 @@ _思考：_
 152:     }
 153:   }
 154: }
-155: 
+155:
 156: #spacer {
 157:   height: 88px;
 158:   border-top: 1px solid var(--border);
@@ -202,11 +202,11 @@ _思考：_
 160:     height: 48px;
 161:   }
 162: }
-163: 
+163:
 164: .ticks {
 165:   position: relative;
 166:   width: 100%;
-167: 
+167:
 168:   &::before,
 169:   &::after {
 170:     content: '';
@@ -214,7 +214,7 @@ _思考：_
 172:     top: -4.5px;
 173:     border: 5px solid transparent;
 174:   }
-175: 
+175:
 176:   &::before {
 177:     left: 0;
 178:     border-left-color: var(--border);
@@ -290,11 +290,11 @@ _思考：_
 10:   --social-bg: rgba(244, 243, 236, 0.5);
 11:   --shadow:
 12:     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-13: 
+13:
 14:   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 15:   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
 16:   --mono: ui-monospace, Consolas, monospace;
-17: 
+17:
 18:   font: 18px/145% var(--sans);
 19:   letter-spacing: 0.18px;
 20:   color-scheme: light dark;
@@ -304,12 +304,12 @@ _思考：_
 24:   text-rendering: optimizeLegibility;
 25:   -webkit-font-smoothing: antialiased;
 26:   -moz-osx-font-smoothing: grayscale;
-27: 
+27:
 28:   @media (max-width: 1024px) {
 29:     font-size: 16px;
 30:   }
 31: }
-32: 
+32:
 33: @media (prefers-color-scheme: dark) {
 34:   :root {
 35:     --text: #9ca3af;
@@ -324,12 +324,12 @@ _思考：_
 44:     --shadow:
 45:       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
 46:   }
-47: 
+47:
 48:   #social .button-icon {
 49:     filter: invert(1) brightness(2);
 50:   }
 51: }
-52: 
+52:
 53: #root {
 54:   width: 1126px;
 55:   max-width: 100%;
@@ -341,18 +341,18 @@ _思考：_
 61:   flex-direction: column;
 62:   box-sizing: border-box;
 63: }
-64: 
+64:
 65: body {
 66:   margin: 0;
 67: }
-68: 
+68:
 69: h1,
 70: h2 {
 71:   font-family: var(--heading);
 72:   font-weight: 500;
 73:   color: var(--text-h);
 74: }
-75: 
+75:
 76: h1 {
 77:   font-size: 56px;
 78:   letter-spacing: -1.68px;
@@ -374,7 +374,7 @@ _思考：_
 94: p {
 95:   margin: 0;
 96: }
-97: 
+97:
 98: code,
 99: .counter {
 100:   font-family: var(--mono);
@@ -382,7 +382,7 @@ _思考：_
 102:   border-radius: 4px;
 103:   color: var(--text-h);
 104: }
-105: 
+105:
 106: code {
 107:   font-size: 15px;
 108:   line-height: 135%;
@@ -482,7 +482,7 @@ _思考：_
 2: import { createRoot } from 'react-dom/client'
 3: import './index.css'
 4: import App from './App.tsx'
-5: 
+5:
 6: createRoot(document.getElementById('root')!).render(
 7:   <StrictMode>
 8:     <App />

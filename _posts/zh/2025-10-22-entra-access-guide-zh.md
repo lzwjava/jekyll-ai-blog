@@ -96,7 +96,7 @@ AKS 集成 Entra ID 用于身份验证，并使用 Azure RBAC 或 Kubernetes RBA
 
 对于访问资源的 Pod（例如从 AKS 访问 SQL），分配托管身份并通过这些身份上的 Azure RBAC 进行检查。
 
-[Microsoft Entra ID 文档](https://learn.microsoft.com/en-us/entra/identity/)  
-[检查对单个 Azure 资源的访问权限](https://learn.microsoft.com/en-us/azure/role-based-access-control/check-access)  
-[为 Azure SQL 配置 Entra 身份验证](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql)  
+[Microsoft Entra ID 文档](https://learn.microsoft.com/en-us/entra/identity/)
+[检查对单个 Azure 资源的访问权限](https://learn.microsoft.com/en-us/azure/role-based-access-control/check-access)
+[为 Azure SQL 配置 Entra 身份验证](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql)
 [AKS 身份和访问最佳实践](https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-identity)

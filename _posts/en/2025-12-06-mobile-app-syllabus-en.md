@@ -12,10 +12,10 @@ type: note
 
 Question: Please translate the full Guangdong Higher Education Self-Examination course "Mobile Application Development Technology (Practical)" (Course Code: 14568) syllabus and the sample exam paper into English, and format it neatly.
 
-Answer: 
+Answer:
 
-# Guangdong Higher Education Self-Examination  
-**Course: Mobile Application Development Technology (Practical Assessment)**  
+# Guangdong Higher Education Self-Examination
+**Course: Mobile Application Development Technology (Practical Assessment)**
 **Course Code: 14568**
 
 ### I. Assessment Objectives
@@ -65,25 +65,25 @@ This is a highly practical course that requires students to independently analyz
 ### IV. Exam Format
 The practical exam requires students to create a complete Android project divided into three parts, total **100 points**, exam duration **120 minutes**.
 
-- **Part 1: Android Project Creation and Configuration** – 30 points  
+- **Part 1: Android Project Creation and Configuration** – 30 points
   Create project, add/use provided or required resources, configure the project.
 
-- **Part 2: UI Design** – 40 points  
+- **Part 2: UI Design** – 40 points
   Use appropriate layouts and controls to build the required interface with reasonable property settings.
 
-- **Part 3: Coding and Functionality Implementation** – 30 points  
+- **Part 3: Coding and Functionality Implementation** – 30 points
   Implement event handling, navigation & parameter passing, data storage, services/broadcasts, graphics/multimedia, etc.
 
 ### V. Exam Environment Requirements
 1. JDK 1.8 or higher
 2. Android Studio 4.1 or higher (stable version matching the JDK)
 
-### VI. Sample Exam Paper  
-**Course: Mobile Application Development Technology (Practical)**  
-**Development Environment:** JDK 1.8, Android Studio 4.1  
+### VI. Sample Exam Paper
+**Course: Mobile Application Development Technology (Practical)**
+**Development Environment:** JDK 1.8, Android Studio 4.1
 **Exam Duration:** 90 minutes (note: syllabus says 120 min, sample says 90 min)
 
-**Task:** Design a **Body Weight Management Program**.  
+**Task:** Design a **Body Weight Management Program**.
 The user enters name, gender, height, and weight, clicks "Calculate", the app calculates BMI-related standard weight, then jumps to a second Activity to display advice.
 
 #### Question 1: Android Project Creation and Configuration (30 points)
@@ -121,11 +121,11 @@ The user enters name, gender, height, and weight, clicks "Calculate", the app ca
 **Activity1.java:**
 On "Calculate" button click:
 1. (5 points) Validate height and weight are within reasonable ranges (you define the range, perform necessary type conversion).
-2. (10 points) Save input data to SharedPreferences file named **mydata** with keys:  
-   - name → your real name  
-   - gender → selected gender  
-   - height → entered height  
-   - weight → entered weight  
+2. (10 points) Save input data to SharedPreferences file named **mydata** with keys:
+   - name → your real name
+   - gender → selected gender
+   - height → entered height
+   - weight → entered weight
    Export the generated **mydata.xml** file to your computer.
 3. (5 points) Start Activity2 and pass gender, height, and weight via Intent extras.
 

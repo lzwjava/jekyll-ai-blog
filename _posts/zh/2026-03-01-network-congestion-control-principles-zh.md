@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**整理后的讲稿：3.6 Principles of Congestion Control**  
+**整理后的讲稿：3.6 Principles of Congestion Control**
 *(Jim Kurose 讲课，来自 Computer Networking: A Top-Down Approach)*
 
 [Music]
@@ -40,7 +40,7 @@ type: note
 
 回想我们在 reliable data transfer 研究中得知，senders 将在面对由于 buffer overflows 或 corruption 导致的 packet loss 时进行 retransmit。所以现在我们需要更仔细地考察 sending rate。特别是，我们将区分：
 
-- 从 application 向下传递的 original data 的速率——我们记为 λ_in  
+- 从 application 向下传递的 original data 的速率——我们记为 λ_in
 - transport layer 发送数据（包括 retransmissions）的总体速率——我们记为 λ_in'（lambda in prime）
 
 packets 到达 router 的速率是 λ_in'，而不是 λ_in。确保你理解了 λ_in 和 λ_in' 之间的区别——这真的很重要。而且如这里所述，λ_in 等于 λ_out，而 λ_in' 将大于或等于 λ_in，因为它包括 retransmissions。
@@ -61,6 +61,6 @@ packets 到达 router 的速率是 λ_in'，而不是 λ_in。确保你理解了
 
 *(注：提供的 transcript 摘录在此中途结束。完整视频继续讨论 congestion 的进一步成本，包括 "goodput" collapse 和额外场景。)*
 
-References:  
+References:
 
 - [Original Video: 3.6 Principles of Congestion Control](https://www.youtube.com/watch?v=Fm92xvIp6JY)

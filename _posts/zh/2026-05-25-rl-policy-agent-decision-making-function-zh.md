@@ -80,7 +80,7 @@ class Policy(nn.Module):
             nn.ReLU(),
             nn.Linear(64, action_dim)
         )
-    
+
     def forward(self, state):
         logits = self.net(state)
         return torch.distributions.Categorical(logits=logits)

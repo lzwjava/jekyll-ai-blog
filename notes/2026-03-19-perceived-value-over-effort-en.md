@@ -11,7 +11,7 @@ type: note
 
 Question: This principle is the same when working as an employee, right? Working hard is one aspect, but the more important thing is how colleagues and leads perceive the value you create, correct?
 
-Answer: 
+Answer:
 
 **Yes, exactly — the same principle applies strongly in traditional employment.**
 
@@ -43,6 +43,6 @@ Your original insight is universal: whether you’re a founder, freelancer, cont
 
 Great observation — applying this mindset separates people who stay stuck from those who steadily climb.
 
-References:  
+References:
 
 - None (conceptual reasoning based on common workplace dynamics and organizational behavior patterns)

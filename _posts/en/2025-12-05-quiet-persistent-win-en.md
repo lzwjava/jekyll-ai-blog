@@ -28,17 +28,17 @@ The key essays/references where he makes this point crystal clear are:
 
 The core idea he keeps coming back to:
 
-1. **Bold/loud founders**  
-   - Raise money easily, get press, look impressive early  
-   - Often optimize for appearing successful instead of becoming successful  
-   - Burn out, pivot too much, or alienate people when things get hard  
+1. **Bold/loud founders**
+   - Raise money easily, get press, look impressive early
+   - Often optimize for appearing successful instead of becoming successful
+   - Burn out, pivot too much, or alienate people when things get hard
    - Typical outcome: brief hype → flameout
 
-2. **Quiet & persistent founders**  
-   - Often underestimated or ignored for years  
-   - Keep shipping, keep fixing, keep learning, week after week  
-   - Willing to do unsexy, manual, “non-scalable” work forever if needed  
-   - Compound tiny advantages over a decade  
+2. **Quiet & persistent founders**
+   - Often underestimated or ignored for years
+   - Keep shipping, keep fixing, keep learning, week after week
+   - Willing to do unsexy, manual, “non-scalable” work forever if needed
+   - Compound tiny advantages over a decade
    - Typical outcome: wake up one day dominating the market (Stripe, Airbnb, GitHub, etc. were all “quiet” for a very long time)
 
 Real-world examples he loves:

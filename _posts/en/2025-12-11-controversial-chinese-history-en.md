@@ -17,7 +17,7 @@ Answer:
 Here are some genuinely unpopular (often suppressed or heavily debated) opinions about Chinese history that challenge mainstream narratives in both China and the West. These are not fringe conspiracy theories but serious minority viewpoints held by reputable scholars or dissidents, usually backed by evidence that is ignored or downplayed:
 
 - The “Chinese civilization” as a single continuous entity since the Xia or Shang is largely a modern nationalist myth. Genetic, linguistic, and archaeological evidence shows repeated population replacements and cultural ruptures (e.g., the Han Chinese of today are closer genetically to ancient northern populations than to the Yangtze Neolithic cultures that built early “Chinese” sites like Liangzhu).
-  
+
 - The First Emperor Qin Shi Huang was not a unifier but a brutal destroyer of pre-existing diverse states and cultures; the narrative of “unification” was retroactively imposed by later Han historians to justify centralization. Burning of books and burying of scholars really did erase huge chunks of pre-Qin intellectual diversity.
 
 - The Song dynasty (960–1279), usually praised as China’s cultural and economic peak, was militarily one of the weakest major dynasties and lost half its territory to nomadic empires; its “civilian” orientation and neo-Confucian disdain for martial values set a disastrous precedent that contributed to repeated conquests (Jin, Mongol, Manchu).
@@ -38,10 +38,10 @@ Here are some genuinely unpopular (often suppressed or heavily debated) opinions
 
 These views are unpopular either inside China (where they threaten Party legitimacy) or outside (where they clash with both Sinological romanticism and simple anti-China sentiment). They are defended by scholars like Victor Mair, Patricia Ebrey, Ge Jianxiong, and some exiled Chinese historians, though rarely in mainstream textbooks.
 
-References:  
-- [Continuity and Change in China (Ge Jianxiong lectures, various Chinese sources translated)](https://www.chinaheritagequarterly.org/)  
-- [The Tyranny of History – Jens P. Becker](https://www.amazon.com/Tyranny-History-Classicists-Chinese-Tradition/dp/014016680X)  
-- [China’s Population Fraud and Historical Demography debates (various papers by Ge Jianxiong)](http://www.iq.harvard.edu/files/carr/files/gejianxiongpresentation.pdf)  
-- [Frank Dikötter – Mao’s Great Famine & The Cultural Revolution trilogy](https://www.frankdikotter.com/)  
-- [The Open Empire – Valerie Hansen (on pre-Qin diversity)](https://wwnorton.com/books/9780393938777)  
+References:
+- [Continuity and Change in China (Ge Jianxiong lectures, various Chinese sources translated)](https://www.chinaheritagequarterly.org/)
+- [The Tyranny of History – Jens P. Becker](https://www.amazon.com/Tyranny-History-Classicists-Chinese-Tradition/dp/014016680X)
+- [China’s Population Fraud and Historical Demography debates (various papers by Ge Jianxiong)](http://www.iq.harvard.edu/files/carr/files/gejianxiongpresentation.pdf)
+- [Frank Dikötter – Mao’s Great Famine & The Cultural Revolution trilogy](https://www.frankdikotter.com/)
+- [The Open Empire – Valerie Hansen (on pre-Qin diversity)](https://wwnorton.com/books/9780393938777)
 - [When China Rules the World – Martin Jacques (critiques the unbroken-civilization myth, ironically)](https://www.penguinrandomhouse.com/books/300913/when-china-rules-the-world-by-martin-jacques/)

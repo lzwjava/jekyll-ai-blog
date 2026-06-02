@@ -26,7 +26,7 @@ In his 2004 book *Response to the Dispute of Discovery of Parity Violation* (pub
 
 The rift, triggered partly by a 1962 *New Yorker* profile that portrayed Lee as the lead thinker (upsetting Yang), never fully healed. Lee later reflected in a 1986 remembrance: "The delicate symmetry between Yang and myself was disturbed." Despite the bitterness, both maintained their stature, with Lee continuing to mentor Chinese physicists and Yang pursuing statistical mechanics. The Nobel committee's citation treated their work as indivisible, underscoring the joint nature even amid the discord.
 
-[Symmetry and Beauty -- Yang Chen-ning (biography)](https://www.taipeitimes.com/News/taiwan/archives/2002/11/17/0000179882)  
-[Chen Ning Yang obituary, NYT](https://www.nytimes.com/2025/10/18/science/chen-ning-yang-dead.html)  
-[History of the Weak Interactions by T.D. Lee, CERN](https://cds.cern.ch/record/1731335/files/vol27-issue1-p007-e.pdf)  
+[Symmetry and Beauty -- Yang Chen-ning (biography)](https://www.taipeitimes.com/News/taiwan/archives/2002/11/17/0000179882)
+[Chen Ning Yang obituary, NYT](https://www.nytimes.com/2025/10/18/science/chen-ning-yang-dead.html)
+[History of the Weak Interactions by T.D. Lee, CERN](https://cds.cern.ch/record/1731335/files/vol27-issue1-p007-e.pdf)
 [T.D. Lee Nobel interview](https://www.nobelprize.org/prizes/physics/1957/lee/interview/)

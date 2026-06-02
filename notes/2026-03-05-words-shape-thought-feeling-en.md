@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-### Biting and Chewing Words  
+### Biting and Chewing Words
 By Zhu Guangqian
 
 When it comes to literature, whether we are reading or writing, we must maintain a strictness that refuses to let even a single word slip by carelessly.
@@ -22,21 +22,21 @@ This idea may sound like an exaggeration, but it is actually the most fundamenta
 
 Words are not just empty signs; they are the carriers of thought and feeling. A slight change in wording can produce a completely different thought and emotion. For example, consider these two sentences:
 
-“You are a spineless literatus.”  
+“You are a spineless literatus.”
 “You, you spineless literatus!”
 
 The first sentence is a straightforward judgment. The second adds the word “you” twice (in the form of “你这”), instantly turning it into an expression filled with contempt and disdain. The attitude and emotion conveyed are entirely different.
 
-Another example:  
+Another example:
 
-“You are a good lad.”  
+“You are a good lad.”
 “You, you good lad!”
 
 The first is genuine praise; the second is clearly ironic or scolding. Again, just one small word changes the whole tone.
 
-The ancients attached extreme importance to refining single words. The most famous story is Jia Dao’s “push” versus “knock.”  
+The ancients attached extreme importance to refining single words. The most famous story is Jia Dao’s “push” versus “knock.”
 
-One line reads: “A monk pushes the moonlit gate,”  
+One line reads: “A monk pushes the moonlit gate,”
 Another version: “A monk knocks at the moonlit gate.”
 
 Jia Dao deliberated between “push” and “knock” for a long time. Han Yu happened to pass by on horseback and advised him to use “knock.” Why? Because “knock” suggests that the gate is already closed and the monk is actively seeking entry, which creates a sense of quietude and motion in the night scene. “Push,” by contrast, implies the gate is unlatched and the monk merely opens it, which feels far less vivid and dynamic. One word changes the entire atmosphere of the couplet.

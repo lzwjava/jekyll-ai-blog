@@ -403,7 +403,7 @@ jobs:
     environment: github-pages
     env:
       TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
-      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}    
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
 
     steps:
       - name: 检出仓库
@@ -423,6 +423,6 @@ jobs:
 
       - name: 运行新闻机器人脚本
         run: python scripts/nytimes/news_bot.py
-              
+
 ```
 {% endraw %}

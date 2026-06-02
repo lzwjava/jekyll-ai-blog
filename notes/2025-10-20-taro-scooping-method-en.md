@@ -19,7 +19,7 @@ Got it—that's a smart, low-effort way to handle it! Cooking whole unpeeled tar
 
 2. **Prep for Cooking**: Poke 4–6 deep holes in each taro with a fork (prevents steam buildup and bursting). Lightly rub with a bit of oil and salt if you want crispy skin (optional; it helps with handling later).
 
-3. **Air Fry**: 
+3. **Air Fry**:
    - Preheat to 200°C (3 min).
    - Place whole in a single layer (batch if many).
    - Cook 18–22 min (your 20 min is spot-on for small ones). Flip/shake at 10 min.
@@ -39,5 +39,5 @@ Got it—that's a smart, low-effort way to handle it! Cooking whole unpeeled tar
 
 This keeps the nutrients intact and skips the raw irritation. Super easy—enjoy your taro boats!
 
-[Baked Taro Root Recipe](https://www.allrecipes.com/recipe/241313/baked-taro/)  
+[Baked Taro Root Recipe](https://www.allrecipes.com/recipe/241313/baked-taro/)
 [How to Prepare Taro Safely](https://www.seriouseats.com/taro-root-how-to-prepare-and-cook)

@@ -17,6 +17,6 @@ type: note
 - **Geological**: Certain rocks calcify through the accumulation of calcium carbonate.
 - **Figurative**: Long-held beliefs can calcify into rigid opinions.
 
-[Merriam-Webster Definition](https://www.merriam-webster.com/dictionary/calcify)  
-[Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/calcify)  
+[Merriam-Webster Definition](https://www.merriam-webster.com/dictionary/calcify)
+[Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/calcify)
 [Dictionary.com](https://www.dictionary.com/browse/calcify)

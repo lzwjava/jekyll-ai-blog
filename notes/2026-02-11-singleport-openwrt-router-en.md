@@ -12,7 +12,7 @@ type: note
 
 Question: But the sad thing is that the laptop only has one Ethernet port and no WiFi. How does that affect turning it into an OpenWrt soft router, and what are the solutions?
 
-Answer: 
+Answer:
 
 Yes, that's a common limitation with many older laptops — only one built-in Ethernet port (usually eth0 in OpenWrt) and no functional WiFi card (or unsupported by OpenWrt). This makes it tricky to have separate **WAN** (internet in) and **LAN** (your home network out) connections using just the hardware.
 
@@ -71,7 +71,7 @@ This works well but requires a VLAN-aware switch and more config (via LuCI: Netw
 
 Many people run exactly this setup (old laptop + USB NIC) as daily drivers for home routing/proxy in China and elsewhere.
 
-References:  
+References:
 
 - [OpenWrt Wiki - Single-Port Devices / VLAN setup](https://openwrt.org/docs/guide-user/network/singleportrouter)
 - [OpenWrt Forum - USB Ethernet adapter drivers discussion](https://forum.openwrt.org/t/usb-2-0-to-ethernet-adapter-driver-for-openwrt/185891)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to MS-DOS.
 
-Answer: 
+Answer:
 
 **What is MS-DOS?**
 
@@ -75,7 +75,7 @@ Today, it's obsolete for general use but studied for historical/educational purp
 
 MS-DOS's simplicity, efficiency on low-power hardware, and vast software ecosystem made it foundational to modern computing.
 
-References:  
+References:
 
 - [MS-DOS - Wikipedia](https://en.wikipedia.org/wiki/MS-DOS)
 - [What is MS-DOS? - TechTarget](https://www.techtarget.com/searchenterprisedesktop/definition/MS-DOS)

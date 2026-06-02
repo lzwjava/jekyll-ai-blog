@@ -12,7 +12,7 @@ type: note
 
 Question: What are the three magic weapons (三大法宝) for defeating enemies in the Chinese revolution according to Mao Zedong?
 
-Answer: 
+Answer:
 
 The correct answer is **C. 统一战线、武装斗争、党的建设** (United Front, Armed Struggle, Party Building).
 
@@ -28,16 +28,16 @@ This sentence has become one of the most classical and frequently quoted stateme
 
 ### Brief comparison of the options
 
-- **A. 土地革命、武装斗争、根据地建设**  
+- **A. 土地革命、武装斗争、根据地建设**
   These were the three main strategies during the agrarian revolutionary war / rural base period (1927–1937), often called the "three pillars" of the rural revolutionary path, but not the "three magic weapons".
 
-- **B. 工农联盟、群众路线、独立自主**  
+- **B. 工农联盟、群众路线、独立自主**
   These are very important principles and policies of the CPC, but Mao never grouped them together as the "three magic weapons".
 
-- **C. 统一战线、武装斗争、党的建设**  
+- **C. 统一战线、武装斗争、党的建设**
   This is the historically and officially correct formulation directly from Mao Zedong’s 1939 article.
 
-- **D. 民族主义、民权主义、民生主义**  
+- **D. 民族主义、民权主义、民生主义**
   This is Sun Yat-sen’s **Three Principles of the People** (Sanmin Zhuyi), the political program of the Kuomintang, not related to the CPC’s "three magic weapons".
 
 ### Why option B is a common wrong choice
@@ -46,7 +46,7 @@ Many people remember the importance of **工农联盟** (worker-peasant alliance
 
 The only correct grouping that Mao himself called "三大法宝" is **统一战线、武装斗争、党的建设**.
 
-References:  
+References:
 
-- Mao Zedong, 《〈共产党人〉发刊词》 (October 4, 1939)  
+- Mao Zedong, 《〈共产党人〉发刊词》 (October 4, 1939)
 - Official CPC history textbooks and documents (almost all editions since 1945 list C as the correct answer)

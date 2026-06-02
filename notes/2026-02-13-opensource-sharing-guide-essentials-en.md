@@ -12,7 +12,7 @@ type: note
 
 Question: How to become more open source? What files and information can we share publicly in open source projects, blogs, etc.?
 
-Answer: 
+Answer:
 
 Becoming "more open source" means adopting habits, processes, and a mindset that prioritizes transparency, collaboration, community, and sharing knowledge/code publicly. This applies whether you're an individual developer, a small team, or a company.
 
@@ -39,16 +39,16 @@ Becoming "more open source" means adopting habits, processes, and a mindset that
 
 These are the standard, strongly recommended files in the root of a Git repository:
 
-- **README.md** (most important file)  
+- **README.md** (most important file)
   Project name, one-paragraph description, why it exists, quick start/install instructions, usage examples, screenshots/GIFs, status (stable/experimental), license link, contribution pointer.
 
-- **LICENSE** (or LICENSE.txt / LICENSE.md)  
+- **LICENSE** (or LICENSE.txt / LICENSE.md)
   The actual license text (MIT, Apache 2.0, GPL, BSD, MPL, etc.). Choose an [OSI-approved license](https://opensource.org/licenses). Without this the project is **not open source**.
 
-- **CONTRIBUTING.md**  
+- **CONTRIBUTING.md**
   How to contribute: setup dev environment, coding style, commit message format, how to open issues/PRs, what to expect from maintainers, links to Slack/Discord/forum.
 
-- **CODE_OF_CONDUCT.md**  
+- **CODE_OF_CONDUCT.md**
   Usually the [Contributor Covenant](https://www.contributor-covenant.org/) — helps create a welcoming, harassment-free environment.
 
 Other very common / highly recommended files:
@@ -75,7 +75,7 @@ Other very common / highly recommended files:
 
 Start small: pick one project → add README + LICENSE + CONTRIBUTING → share it → iterate based on feedback.
 
-References:  
+References:
 
 - [Starting an Open Source Project (opensource.guide)](https://opensource.guide/starting-a-project)
 - [How to Write a Good README (freeCodeCamp)](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file)

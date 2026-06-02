@@ -41,7 +41,7 @@ type: post
 
 - Yin Wang: There is no "intelligence" in artificial intelligence, no "neural" in neural network, no "learning" in machine learning, and no "depth" in deep learning. There is no "depth" in deep learning. What really works in this field is called "calculus". So I prefer to call this field "differentiable computing", and the process of building models is called "differentiable programming".
 
-- Yin Wang: Machine learning is really useful, one might even say beautiful theory, because it is simply calculus after a makeover! It is the old and great theory of Newton, Leibniz, in a simpler, elegant and powerful form. Machine learning is basically the use of calculus to derive and fit some functions, and deep learning is the fitting of more complex functions. 
+- Yin Wang: Machine learning is really useful, one might even say beautiful theory, because it is simply calculus after a makeover! It is the old and great theory of Newton, Leibniz, in a simpler, elegant and powerful form. Machine learning is basically the use of calculus to derive and fit some functions, and deep learning is the fitting of more complex functions.
 
 - Currently, large language models can’t filter by file language like YAML or Python. However, a significant portion of information in the real world is organized this way. This means that we could train large language models using files.
 
@@ -69,7 +69,7 @@ type: post
 
 - There are several ways to measure how AI impacts current software or platforms. One way is to measure how much data or content can be generated or improved by AI, either partly or completely. Another way is to measure how much code can be written or improved by AI, either partly or completely. This means we use what AI generates to improve current platforms. Additionally, AI can help invent new software and platforms.
 
-- There are three types of products, Generative AI products, the products that use APIs of Generative AI products, other products. 
+- There are three types of products, Generative AI products, the products that use APIs of Generative AI products, other products.
 
 - One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed or even add specific social accounts.
 
@@ -77,7 +77,7 @@ type: post
 
 - Other important types of data include numerical, geospatial, biometric, sensor, transactional, metadata, time-series, structured, unstructured, semi-structured, health, environmental, log, network, and behavioral data.
 
-- Google is still better for website indexing, especially if you want to download software or a document from a specific site. It works like a domain search. You're not using it to find information, but rather to navigate to other sites to perform tasks. An LLM may not have the latest download links. 
+- Google is still better for website indexing, especially if you want to download software or a document from a specific site. It works like a domain search. You're not using it to find information, but rather to navigate to other sites to perform tasks. An LLM may not have the latest download links.
 
 - Google works like a domain search; if you want to go to a Maven repository site to check the latest version, you can use it.
 

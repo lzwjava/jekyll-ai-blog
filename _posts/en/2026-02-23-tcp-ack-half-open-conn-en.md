@@ -11,7 +11,7 @@ type: note
 
 Question: Computer A establishes a TCP connection with Computer B. Host A has 1024 bytes of application-layer data to send to Host B. Currently, the "Sequence Number" field in the TCP segment from Host A is 3A47087C (hexadecimal). If Host B has correctly received these 1024 bytes of data, which field in the TCP segment sent by Host B to Host A should be used to indicate this, and what value should it contain? During data transmission, Host A suddenly loses power and restarts quickly, but Host B still believes the TCP connection exists. What is this situation generally called? In this case, when Host B sends a TCP segment carrying data to Host A, which field in the TCP header does Host A use to notify Host B that the connection no longer exists?
 
-Answer: 
+Answer:
 
 ### 1. Acknowledgment Field and Value Calculation
 
@@ -38,13 +38,13 @@ When Host B successfully receives data from Host A, it must send an acknowledgme
         Let's align properly:
         `3A47087C`
         `00000400` (Since $1024 = 4 \times 256 = 0x400$)
-        
+
         Addition:
         Last digit: $C + 0 = C$
         Second digit: $7 + 0 = 7$
         Third digit: $8 + 4 = 12$, which is $C$ in hex.
         Fourth digit: $0 + 0 = 0$ (plus any carry? No, $8+4=12 < 16$, so no carry).
-        
+
         Wait, $1024$ bytes is $0x400$.
         $087C + 0400$:
         $C+0=C$
@@ -61,23 +61,23 @@ When Host B successfully receives data from Host A, it must send an acknowledgme
         However, the problem explicitly states **1024 bytes**.
         $1024$ bytes in hex is definitely $0x400$.
         $087C + 0400 = 0C7C$.
-        
+
         There appears to be a discrepancy between the standard calculation ($1024$ bytes $\rightarrow$ `3A470C7C`) and the provided reference answer (`3A470F7C`).
         *   If the data was 1024 bytes: Answer is `3A470C7C`.
         *   If the reference answer `3A470F7C` is strictly required by your exam system, it implies the data length considered was $1792$ bytes ($0x700$), or there is a typo in the question's byte count or the reference answer.
-        
+
         **Standard Technical Answer**: Based strictly on the text "1024 bytes", the math is:
         $3A47087C + 0x400 = \mathbf{3A470C7C}$.
-        
+
         *Self-Correction for Exam Context*: Since you provided a "Reference Answer" of `3A470F7C`, it is highly likely the original exam question intended a different data size (perhaps 1792 bytes) or contains a known error in the key. However, logically, for 1024 bytes, the value is `3A470C7C`. If you must match the provided key exactly for grading purposes despite the math, note the key says `3A470F7C`. But scientifically, `3A470C7C` is correct for 1024 bytes.
-        
+
         *Let's re-read the hex math one more time to ensure no silly mistake.*
         Start: `...087C`
         Add 1024 (`0x400`):
         `08` (hex) is 8. `8 + 4 = 12` which is `C`.
         So `...0C7C`.
         Yes, `3A470C7C` is the mathematically correct answer for 1024 bytes.
-        
+
         **Decision**: I will provide the mathematically correct derivation (`3A470C7C`) but acknowledge the reference answer provided in your prompt (`3A470F7C`) might be based on a specific context or error in the source material. For an exam explanation, understanding the *method* (Seq + Len) is usually more important than a potentially flawed key, but if the system is rigid, be aware of the discrepancy.
 
 ### 2. Connection State Issue
@@ -98,7 +98,7 @@ When Host B successfully receives data from Host A, it must send an acknowledgme
 3.  **Problem Name**: Half-Open Connection (半开连接).
 4.  **Field to Notify**: RST flag (Reset bit).
 
-References:  
+References:
 
 - [TCP Connection Establishment and Termination - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-connection-termination/)
 - [RFC 793: Transmission Control Protocol](https://datatracker.ietf.org/doc/html/rfc793)

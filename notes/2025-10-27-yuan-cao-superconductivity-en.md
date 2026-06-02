@@ -23,8 +23,8 @@ After his PhD, Cao joined the University of California, Berkeley as an Assistant
 - **Education**: Bachelor's from Peking University (China); PhD from MIT (completed ~2020).
 - **Awards**: *Nature*'s 10 (2018); Forbes 30 Under 30 in Science (2020).
 
-[Wikipedia: Yuan Cao](https://en.wikipedia.org/wiki/Yuan_Cao)  
-[Nature's 10: Yuan Cao](https://www.nature.com/articles/d41586-018-07737-9)  
-[MIT News: Twisted Science](https://news.mit.edu/2019/yuan-cao-graphene-superconductivity-0108)  
-[CGTN: Meet the 22-year-old Chinese Scientist](https://news.cgtn.com/news/3d3d674d774d444e31457a6333566d54/index.html)  
+[Wikipedia: Yuan Cao](https://en.wikipedia.org/wiki/Yuan_Cao)
+[Nature's 10: Yuan Cao](https://www.nature.com/articles/d41586-018-07737-9)
+[MIT News: Twisted Science](https://news.mit.edu/2019/yuan-cao-graphene-superconductivity-0108)
+[CGTN: Meet the 22-year-old Chinese Scientist](https://news.cgtn.com/news/3d3d674d774d444e31457a6333566d54/index.html)
 [Google Scholar: Yuan Cao](https://scholar.google.com/citations?user=kJhEIh0AAAAJ&hl=en)

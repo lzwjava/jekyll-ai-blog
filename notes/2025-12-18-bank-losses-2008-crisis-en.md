@@ -12,7 +12,7 @@ type: note
 
 Question: Did many banks seize the opportunity to earn decent money during the 2008 financial crisis?
 
-Answer: 
+Answer:
 
 No, the majority of banks did not earn decent money during the 2008 financial crisis; most suffered significant losses, required government bailouts, or failed entirely. The crisis, triggered by the collapse of the subprime mortgage market and related securities, led to over $1 trillion in losses for large U.S. and European banks on toxic assets and bad loans. Hundreds of banks failed (465 closed by the FDIC from 2008–2012), and major institutions like Lehman Brothers went bankrupt, while others like Bear Stearns and Washington Mutual were forced into distress sales.
 
@@ -26,12 +26,12 @@ However, a few stronger or more prudent banks did profit or emerge stronger:
 
 Other large banks like Bank of America (acquired Merrill Lynch) and Citigroup took bailouts and incurred heavy losses initially but recovered and grew post-crisis. Overall, the crisis was devastating for the banking sector, with only a handful capitalizing on opportunities like distressed acquisitions or hedging strategies. Many that appeared to "profit" still needed government support or faced long-term costs from lawsuits and write-downs.
 
-References:  
+References:
 
-- https://www.investopedia.com/insights/too-big-fail-banks-where-are-they-now/  
-- https://www.reddit.com/r/Banking/comments/1by5q75/2008_crisis_why_did_some_banks_profit_while/  
-- https://en.wikipedia.org/wiki/2008_financial_crisis  
-- https://www.investopedia.com/financial-edge/0411/5-investors-that-are-both-rich-and-smart.aspx  
-- https://en.wikipedia.org/wiki/JPMorgan_Chase  
-- https://en.wikipedia.org/wiki/Goldman_Sachs  
+- https://www.investopedia.com/insights/too-big-fail-banks-where-are-they-now/
+- https://www.reddit.com/r/Banking/comments/1by5q75/2008_crisis_why_did_some_banks_profit_while/
+- https://en.wikipedia.org/wiki/2008_financial_crisis
+- https://www.investopedia.com/financial-edge/0411/5-investors-that-are-both-rich-and-smart.aspx
+- https://en.wikipedia.org/wiki/JPMorgan_Chase
+- https://en.wikipedia.org/wiki/Goldman_Sachs
 - https://money.cnn.com/2008/12/16/news/companies/goldman_sachs/index.htm

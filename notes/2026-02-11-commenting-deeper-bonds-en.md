@@ -12,7 +12,7 @@ type: note
 
 Question: How to use comments to build relationships on platforms like WeChat, LinkedIn, Facebook, etc.? Why do some people only comment without posting, and how does that help create warm, caring relationships?
 
-Answer: 
+Answer:
 
 **Using comments to build relationships on social media** is a powerful, low-pressure way to show care, support, and genuine interest without needing to create your own content. Many people build strong, warm connections precisely by being consistent commenters rather than frequent posters. This approach feels authentic because it focuses on others instead of self-promotion.
 
@@ -57,7 +57,7 @@ This creates a "warm" feeling because their engagement feels selfless. When some
 
 In short, commenting thoughtfully is one of the most underrated ways to build meaningful relationships. The people you observe who "only comment" are often quietly creating the warmest connections — by showing up for others without needing the spotlight.
 
-References:  
+References:
 
 - [How to Network on LinkedIn Without Posting (The Comments Strategy)](https://theintrovertednetworker.substack.com/p/the-hidden-linkedin-trick-youre-not)
 - [Psychology says people who always browse on social media but never comment or post typically display these 5 traits](https://experteditor.com.au/blog/gen-bt-psychology-says-people-who-always-browse-on-social-media-but-never-comment-or-post-typically-display-these-5-traits)

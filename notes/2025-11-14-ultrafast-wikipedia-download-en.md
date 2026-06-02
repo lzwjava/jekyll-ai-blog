@@ -55,7 +55,7 @@ Just paste this single command in your terminal (no script file needed):
 mkdir -p wiki5 && cd wiki5 && wget -c -q --show-progress https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles{1..5}.xml-p*.bz2 https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles-multistream-index{1..5}.xml-p*.bz2 -P . --no-clobber & wait && echo "✅ Done! 5 chunks ready for training tests"
 ```
 
-This version uses bash brace expansion and runs everything in parallel automatically.  
+This version uses bash brace expansion and runs everything in parallel automatically.
 Tested on 1 Gbps connection → finishes in **4–6 minutes**.
 
 Now you have a perfect 13–15 GB Wikipedia subset to test tokenization, dataset streaming, packing, or small training runs. When ready for full Wikipedia, just change `{1..5}` → `{1..27}`.

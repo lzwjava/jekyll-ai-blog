@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Thanks for sharing such a detailed background — it’s impressive how much you’ve accomplished and documented. Given your experience, here are the **realistic pathways for you to move to, work in, or study in the U.S.**  
+Thanks for sharing such a detailed background — it’s impressive how much you’ve accomplished and documented. Given your experience, here are the **realistic pathways for you to move to, work in, or study in the U.S.**
 
 ---
 
@@ -68,9 +68,9 @@ Given your **self-taught and nontraditional path**, universities might find your
 ---
 
 ## 5. Which Path Fits You Best?
-- If you want the **fastest work option**: pursue **L-1 transfer** with your multinational employer.  
-- If you want the **prestige path**: strengthen your profile for **O-1** or **EB-2 NIW** (longer, but direct to green card).  
-- If you want a **student-to-work bridge**: apply for a specialized U.S. degree (CS, AI, or entrepreneurship) and then shift to OPT/H-1B.  
+- If you want the **fastest work option**: pursue **L-1 transfer** with your multinational employer.
+- If you want the **prestige path**: strengthen your profile for **O-1** or **EB-2 NIW** (longer, but direct to green card).
+- If you want a **student-to-work bridge**: apply for a specialized U.S. degree (CS, AI, or entrepreneurship) and then shift to OPT/H-1B.
 
 ---
 

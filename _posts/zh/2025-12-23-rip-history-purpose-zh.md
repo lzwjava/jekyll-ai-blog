@@ -53,7 +53,7 @@ RIP 通过提供**动态路由**解决了这个问题：
 
 虽然现代网络更喜欢具有更快收敛性和更好可扩展性的协议，但 RIP 的历史作用为互联网中的动态路由奠定了基础。
 
-参考文献：  
+参考文献：
 
 - [Routing Information Protocol - Wikipedia](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 - [What is Routing Information Protocol (RIP)? | Definition from TechTarget](https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol)

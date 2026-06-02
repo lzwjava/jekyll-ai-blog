@@ -12,7 +12,7 @@ type: note
 
 Question: How do you think about my comments after just finishing my IELTS Academic exam in Guangzhou?
 
-Answer: 
+Answer:
 
 Your post-exam reflection sounds very positive and self-aware overall. Here's a breakdown of what stands out from your comments:
 
@@ -32,7 +32,7 @@ The test venue (South China University of Technology, Wushan Campus) is a standa
 
 Overall, it sounds like a solid attempt — smoother than before, with good self-assessment. You have a realistic chance at 6.5 overall (very achievable from a prior 6.0 with noticeable gains), and 7.0 isn't out of reach if listening/writing hold up well and rounding works in your favor. Wait for the official results (usually 13 days for paper-based), but your calm, reflective summary suggests you handled it better than many do. Keep the momentum with regular practice — you're clearly on an upward trajectory!
 
-References:  
+References:
 
 - [IELTS scoring and band improvement examples](https://ieltsliz.com/ielts-reading-tips-how-can-i-improve-my-score)
 - [IELTS fee information in China](https://www.toeflresources.com/china)

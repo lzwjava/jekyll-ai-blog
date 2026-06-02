@@ -18,7 +18,7 @@ Ansible is an **open-source automation tool** that automates:
 - Task automation/orchestration
 - Cloud provisioning
 
-It is **agentless** (no software/agent needed on managed nodes), uses **SSH** (or WinRM for Windows), and is written in **YAML** (human-readable format).  
+It is **agentless** (no software/agent needed on managed nodes), uses **SSH** (or WinRM for Windows), and is written in **YAML** (human-readable format).
 Ansible is part of Red Hat and is one of the most popular DevOps tools today.
 
 ### Key Advantages

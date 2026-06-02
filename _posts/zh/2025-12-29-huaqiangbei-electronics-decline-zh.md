@@ -28,7 +28,7 @@ type: note
 
 总的来说，从混乱、独立的电子市场向组织有序的官方渠道和在线平台的转变，反映了中国消费电子行业更广泛的变化。
 
-References:  
+References:
 
 - [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
 - [Reddit discussion on Huaqiangbei decline (2024)](https://www.reddit.com/r/shenzhen/comments/1f2fhph/disappointed_in_huaqiangbei_am_i_looking_in_the/)

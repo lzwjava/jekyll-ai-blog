@@ -44,10 +44,10 @@ type: note
 
 给创始人的建议：优先验证需求、采用精益市场策略、尽早确保合规。中国向"高质量"发展的转型或将在2026年重启生机，但短期内阵痛仍将持续。
 
-**参考资料**  
-- [中国创业生态的崩塌](https://www.linkedin.com/pulse/fall-chinas-startup-scene-lesson-entrepreneurs-everywhere-isa-arad-rwokc)  
-- [中国创业生态因投资者撤资而消亡](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)  
-- [中国创业生态系统已死](https://sherwood.news/tech/chinas-startup-ecosystem-is-dead/)  
-- [IPO冻结促使投资者行使赎回权，中国初创企业受苦](https://www.reuters.com/markets/asia/chinese-startups-suffer-ipo-freeze-prompts-investors-exercise-redemption-rights-2024-11-25/)  
-- [为何中国没有巨型SaaS企业？](https://lillianli.substack.com/p/why-are-there-no-massive-chinese)  
+**参考资料**
+- [中国创业生态的崩塌](https://www.linkedin.com/pulse/fall-chinas-startup-scene-lesson-entrepreneurs-everywhere-isa-arad-rwokc)
+- [中国创业生态因投资者撤资而消亡](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)
+- [中国创业生态系统已死](https://sherwood.news/tech/chinas-startup-ecosystem-is-dead/)
+- [IPO冻结促使投资者行使赎回权，中国初创企业受苦](https://www.reuters.com/markets/asia/chinese-startups-suffer-ipo-freeze-prompts-investors-exercise-redemption-rights-2024-11-25/)
+- [为何中国没有巨型SaaS企业？](https://lillianli.substack.com/p/why-are-there-no-massive-chinese)
 - [中国SaaS市场进入挑战](https://acadiaadvisory.com/china-saas-market-entry-challenges/)

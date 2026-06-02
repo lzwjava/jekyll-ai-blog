@@ -11,7 +11,7 @@ type: note
 
 Question: Is society fair to kids and teenagers who have heavy school homework and study burdens, yet still get to enjoy technology, free help from parents, games, videos, food, and a relatively labor-free life?
 
-Answer: 
+Answer:
 
 Society isn't perfectly "fair" in a strict sense — fairness is hard to define and different people measure it differently — but the current situation for most kids/teens in developed and many middle-income countries is **much more privileged** compared to almost any previous generation in human history.
 
@@ -43,11 +43,11 @@ So while school pressure is real and sometimes excessive, the overall package mo
 - Compared to children in very poor countries or conflict zones today → kids in richer societies have an enormously better deal
 - Compared to ideal childhood (low stress + high freedom + good preparation for life) → modern childhood often fails (too much academic pressure, too much screen time, not enough real-world competence)
 
-In short:  
+In short:
 Modern childhood in most developed societies is **unfairly good** in terms of material comfort, safety, and free entertainment… but **unfairly stressful** in terms of academic competition and future anxiety.
 
 It's not a simple "yes they have it easy" or "no they suffer too much" — it's both at the same time, depending on which part of life you're looking at.
 
-References:  
+References:
 
 - None (this is based on widely observed historical & sociological patterns, no single specific source needed)

@@ -46,7 +46,7 @@ MLP（`Block` 内的 `MLP` 类）是一个两层前馈网络：
    - 通过 `n_layer`（12）个 Transformer 块堆栈：每个块执行 `x = block(x)`。
    - 最终层归一化：`x = self.ln_f(x)`。
    - 线性投影：`logits = self.lm_head(x)` → 输出形状 `[B, T, vocab_size]`。
-   
+
    代码片段（简化）：
    ```python
    def forward(self, idx, targets=None):
@@ -64,7 +64,7 @@ MLP（`Block` 内的 `MLP` 类）是一个两层前馈网络：
    - 自注意力：`x = x + attn(ln1(x))`（残差）。
    - 对结果应用 `ln2`。
    - MLP：`x = x + mlp(ln2(x))`（残差）。
-   
+
    代码片段（简化）：
    ```python
    def forward(self, x):
@@ -78,9 +78,9 @@ MLP（`Block` 内的 `MLP` 类）是一个两层前馈网络：
    - 分割成头，应用因果掩码，缩放点积注意力。
    - 拼接头，使用 `c_proj` 投影回来。
    - 残差加法（但在块中，加法在外部进行）。
-   
+
    关键点：因果掩码确保忽略未来词元。输出形状保持为 `[B, T, n_embd]`。
-   
+
    代码片段（核心注意力计算，简化）：
    ```python
    def forward(self, x):
@@ -97,7 +97,7 @@ MLP（`Block` 内的 `MLP` 类）是一个两层前馈网络：
    - 第一投影：`x = self.c_fc(x)` → 到中间大小。
    - GELU：`x = F.gelu(x)`。
    - 第二投影：`x = self.c_proj(x)` → 回到 `n_embd`。
-   
+
    代码片段：
    ```python
    def forward(self, x):

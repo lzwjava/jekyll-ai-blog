@@ -64,12 +64,12 @@ This terminal is where Claude Code lives. While training runs in Terminal 1, you
 Example prompts you'd give Claude Code in Terminal 2:
 
 ```
-@logs/train_log_openweb.txt The loss seems to plateau after step 3000. 
+@logs/train_log_openweb.txt The loss seems to plateau after step 3000.
 Why might this happen and how should I adjust the learning rate?
 ```
 
 ```
-@scripts/analysis/evaluate.py Analyze this evaluation script — 
+@scripts/analysis/evaluate.py Analyze this evaluation script —
 what metrics is it computing and are there any bugs?
 ```
 

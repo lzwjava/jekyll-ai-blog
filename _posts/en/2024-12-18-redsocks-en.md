@@ -386,7 +386,7 @@ Ensure that the entire setup works as intended by performing the following tests
 
 2. Monitor Redsocks Logs:
    - On OpenWRT, monitor Redsocks logs to ensure traffic is being redirected.
-   
+
    ```bash
    tail -f /var/log/redsocks.log
    ```
@@ -407,7 +407,7 @@ Ensure that the entire setup works as intended by performing the following tests
   - Ensure that only trusted devices can access the proxy. Since you're redirecting all traffic through Redsocks, ensure that your Mac's firewall only allows connections from your OpenWRT router.
 
   On macOS:
-  
+
   - Go to System Preferences > Security & Privacy > Firewall.
   - Configure the firewall to allow incoming connections on the proxy port (`xxxxx`) only from the OpenWRT router's IP.
 

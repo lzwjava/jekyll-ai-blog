@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of computer networking?
 
-Answer: 
+Answer:
 
 The history of computer networking spans from early remote computing experiments in the mid-20th century to the global Internet we use today. It evolved through military, academic, and commercial efforts, driven by the need for resource sharing, reliable communication, and data exchange.
 
@@ -52,7 +52,7 @@ The history of computer networking spans from early remote computing experiments
 
 Computer networking transformed from military/academic tools to a foundational technology enabling global communication, commerce, and information sharing.
 
-References:  
+References:
 
 - [Computer History Museum: Timeline of Networking & The Web](https://www.computerhistory.org/timeline/networking-the-web/)
 - [Computer Hope: Computer Networking History](https://www.computerhope.com/history/network.htm)

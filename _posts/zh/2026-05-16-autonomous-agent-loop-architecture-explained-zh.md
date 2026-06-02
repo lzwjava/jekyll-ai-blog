@@ -21,15 +21,15 @@ def agent_loop(task: str, max_iterations: int = 50):
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": task}
     ]
-    
+
     for i in range(max_iterations):
         # THINK: 询问 LLM 下一步做什么
         response = llm.chat(messages=messages, tools=TOOL_SCHEMAS)
-        
+
         # DONE: 没有工具调用意味着智能体认为任务已完成
         if not response.tool_calls:
             return response.content
-        
+
         # ACT: 执行每个工具调用并将结果反馈回去
         for tool_call in response.tool_calls:
             result = execute_tool(tool_call.name, tool_call.arguments)
@@ -38,10 +38,10 @@ def agent_loop(task: str, max_iterations: int = 50):
                 "tool_call_id": tool_call.id,
                 "content": result
             })
-        
+
         # 助手消息（包含 tool_calls）也加入历史
         messages.append(response.message)
-    
+
     return "Max iterations reached"
 ```
 
@@ -102,7 +102,7 @@ def classify_error(stderr: str) -> str:
     if "ModuleNotFoundError" in stderr:
         return "missing_dependency"
     elif "SyntaxError" in stderr:
-        return "syntax_error"  
+        return "syntax_error"
     elif "AssertionError" in stderr:
         return "logic_error"
     elif "PermissionError" in stderr:
@@ -131,7 +131,7 @@ class IterationBudget:
         self.total = total
         self.per_subtask = per_subtask
         self.current_subtask_iterations = 0
-    
+
     def should_try_different_approach(self) -> bool:
         """如果长时间卡在同一个子任务上，提示切换方向。"""
         return self.current_subtask_iterations >= self.per_subtask
@@ -142,7 +142,7 @@ class IterationBudget:
 ```python
 if budget.should_try_different_approach():
     messages.append({
-        "role": "user", 
+        "role": "user",
         "content": "你已经尝试这种方法几次都没有成功。"
                     "考虑一个完全不同的策略。"
     })
@@ -154,9 +154,9 @@ if budget.should_try_different_approach():
 def execute_with_rollback(tool_call):
     """每次更改前保存状态，更改后验证。"""
     snapshot = git_create_stash()  # 或文件系统快照
-    
+
     result = execute_tool(tool_call)
-    
+
     # 写入后自动验证
     if tool_call.name == "write_file" or tool_call.name == "edit_file":
         verify_result = run_linter_and_tests()
@@ -164,7 +164,7 @@ def execute_with_rollback(tool_call):
             # 回滚并告知 LLM 发生了什么
             git_restore_stash(snapshot)
             return f"更改导致测试失败：\n{verify_result.stderr}\n\n更改已被回滚。"
-    
+
     return result
 ```
 
@@ -197,7 +197,7 @@ TOOLS = [
         }
     },
     {
-        "type": "function", 
+        "type": "function",
         "function": {
             "name": "write_file",
             "description": "将内容写入文件（创建或覆盖）",
@@ -251,7 +251,7 @@ def execute_tool(name: str, args: dict) -> str:
             return Path(args["path"]).read_text()[:50000]
         except FileNotFoundError:
             return f"ERROR: 文件未找到：{args['path']}"
-    
+
     elif name == "write_file":
         try:
             Path(args["path"]).parent.mkdir(parents=True, exist_ok=True)
@@ -259,7 +259,7 @@ def execute_tool(name: str, args: dict) -> str:
             return f"成功写入 {len(args['content'])} 字符到 {args['path']}"
         except Exception as e:
             return f"ERROR 写入文件：{e}"
-    
+
     elif name == "run_command":
         try:
             result = subprocess.run(
@@ -277,7 +277,7 @@ def execute_tool(name: str, args: dict) -> str:
             return output
         except subprocess.TimeoutExpired:
             return f"ERROR: 命令超时，限制时间 {args.get('timeout', 30)}s"
-    
+
     elif name == "search_files":
         try:
             result = subprocess.run(
@@ -287,7 +287,7 @@ def execute_tool(name: str, args: dict) -> str:
             return result.stdout[:5000] or "未找到匹配"
         except Exception as e:
             return f"ERROR: {e}"
-    
+
     return f"未知工具：{name}"
 
 # ── 智能体框架 ───────────────────────────────────────────────
@@ -305,30 +305,30 @@ class AgentHarness:
         self.config = config
         self.consecutive_failures = 0
         self.last_error_pattern = None
-    
+
     def run(self, task: str) -> str:
         messages = self._build_initial_messages(task)
-        
+
         for iteration in range(self.config.max_iterations):
             # ── LLM 决定下一步行动 ──
             response = self._call_llm(messages)
-            
+
             # ── 没有工具调用 = 完成 ──
             if not response.tool_calls:
                 return response.content
-            
+
             # ── 执行每个工具调用 ──
             assistant_msg = {
                 "role": "assistant",
                 "content": response.content or None,
                 "tool_calls": [
-                    {"id": tc.id, "type": "function", 
+                    {"id": tc.id, "type": "function",
                      "function": {"name": tc.name, "arguments": tc.arguments}}
                     for tc in response.tool_calls
                 ]
             }
             messages.append(assistant_msg)
-            
+
             for tc in response.tool_calls:
                 result = self._execute_with_recovery(tc, messages)
                 messages.append({
@@ -336,32 +336,32 @@ class AgentHarness:
                     "tool_call_id": tc.id,
                     "content": result
                 })
-        
+
         return "Agent 用尽了迭代预算"
-    
+
     def _execute_with_recovery(self, tool_call, messages) -> str:
         """执行工具调用并自动进行错误恢复。"""
         result = execute_tool(tool_call.name, json.loads(tool_call.arguments))
-        
+
         # ── 文件写入后自动验证 ──
         if self.config.auto_verify_after_write and tool_call.name in ("write_file", "edit_file"):
             verify_output = self._run_verification()
-            
+
             if "FAIL" in verify_output or "ERROR" in verify_output:
                 self.consecutive_failures += 1
-                
+
                 # ── 模式检测：同一错误重复出现？ ──
                 current_error = self._extract_error_signature(verify_output)
                 if current_error == self.last_error_pattern:
                     self.consecutive_failures += 2  # 重复时加重惩罚
-                
+
                 self.last_error_pattern = current_error
-                
+
                 # ── 如果配置了回滚 ──
                 if self.config.auto_rollback_on_failure:
                     self._rollback_last_change(tool_call)
                     result += f"\n\n⚠️  验证失败（尝试 {self.consecutive_failures} 次）：\n{verify_output}\n更改已回滚。"
-                
+
                 # ── 切换方向提示：告诉 LLM 尝试其他方法 ──
                 if self.consecutive_failures >= self.config.max_subtask_attempts:
                     result += (
@@ -376,9 +376,9 @@ class AgentHarness:
                 self.consecutive_failures = 0
                 self.last_error_pattern = None
                 result += f"\n\n✅ 验证通过。"
-        
+
         return result
-    
+
     def _run_verification(self) -> str:
         try:
             r = subprocess.run(
@@ -388,14 +388,14 @@ class AgentHarness:
             return r.stdout + r.stderr
         except subprocess.TimeoutExpired:
             return "ERROR: 验证超时"
-    
+
     def _rollback_last_change(self, tool_call):
         """使用 git 或备份撤销最后一次文件写入。"""
         path = json.loads(tool_call.arguments).get("path", "")
         if path and Path(path).exists():
-            subprocess.run(f"git checkout -- {path}", shell=True, 
+            subprocess.run(f"git checkout -- {path}", shell=True,
                          capture_output=True, timeout=10)
-    
+
     def _extract_error_signature(self, output: str) -> str:
         """提取核心错误模式（去除行号）用于去重。"""
         import re
@@ -403,7 +403,7 @@ class AgentHarness:
         normalized = re.sub(r'line \d+', 'line N', output)
         normalized = re.sub(r'0x[0-9a-f]+', '0xADDR', normalized)
         return normalized[:200]
-    
+
     def _call_llm(self, messages):
         """调用 LLM API — 替换为你的供应商。"""
         from openai import OpenAI
@@ -415,13 +415,13 @@ class AgentHarness:
             tools=TOOLS,
             max_tokens=4096
         )
-    
+
     def _build_initial_messages(self, task: str) -> list:
         return [
             {"role": "system", "content": self._system_prompt()},
             {"role": "user", "content": task}
         ]
-    
+
     @staticmethod
     def _system_prompt() -> str:
         return """你是一个自主编码智能体。你可以读取文件、
@@ -487,7 +487,7 @@ if __name__ == "__main__":
          [RESULT] FAIL: ImportError: cannot import name 'TokenValidator' from 'auth.utils'
 
 第 4 轮  [LLM]: 测试导入有问题。让我检查实际导出的内容。
-         [TOOL] read_file("src/auth/utils.py")  
+         [TOOL] read_file("src/auth/utils.py")
          [RESULT] ... 类实际上叫 `TokenCheck` 而不是 `TokenValidator` ...
 
 第 5 轮  [LLM]: 我明白了——类被重命名了。让我修复测试导入。
@@ -508,7 +508,7 @@ if __name__ == "__main__":
 核心循环非常简单——while 循环、LLM 调用、工具执行、将结果反馈回去。让它起作用的是：
 
 1. **上下文中完整的错误输出**——LLM 看到自己的错误并自我纠正
-2. **每次更改后验证**——立即捕获错误，不累积它们  
+2. **每次更改后验证**——立即捕获错误，不累积它们
 3. **回滚 + 切换方向提示**——当陷入循环时，机械地注入“尝试不同方法”
 4. **错误模式去重**——检测到同一错误重复时提升提示强度
 5. **良好的系统提示词**——告诉智能体工作流程：读取 → 假设 → 编辑 → 验证 → 重复

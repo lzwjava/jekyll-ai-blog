@@ -12,7 +12,7 @@ type: note
 
 **Question:** What does the YouTube video at https://www.youtube.com/watch?v=hf0wWavJz7c say?
 
-**Answer:** 
+**Answer:**
 
 The video is an interview clip (approximately 9-10 minutes long) featuring legendary investor **Stan Druckenmiller**, founder of Duquesne Capital. It was uploaded in October 2013 by the channel TheLeapTV.
 
@@ -30,6 +30,6 @@ The tone is casual and storytelling-oriented, with Druckenmiller sharing humorou
 
 This appears to be an excerpt from a longer talk or interview, likely at a university/business school setting (references to USC Marshall School of Business).
 
-**References:**  
+**References:**
 
 - [Original video](https://www.youtube.com/watch?v=hf0wWavJz7c)

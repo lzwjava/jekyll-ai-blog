@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major trends and changes in 2025?
 
-Answer: 
+Answer:
 
 2025 has been a year of significant transformation across technology, society, economy, fashion, and culture, driven by rapid AI advancements, geopolitical shifts, and evolving consumer behaviors. Below is a breakdown of the key trends and changes observed throughout the year.
 
@@ -39,7 +39,7 @@ Answer:
 
 Overall, 2025 marked a shift toward AI-powered efficiency amid ongoing global uncertainties, with many trends (e.g., bohemian fashion, agentic AI) carrying forward into 2026.
 
-References:  
+References:
 
 - [McKinsey Technology Trends Outlook 2025](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-top-trends-in-tech)
 - [World Economic Forum Top 10 Emerging Technologies of 2025](https://www.weforum.org/stories/2025/06/top-10-emerging-technologies-of-2025/)

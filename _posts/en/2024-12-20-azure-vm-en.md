@@ -35,7 +35,7 @@ Before you begin, ensure you have the following:
 2. Create a New Virtual Machine:
    - Click on "Create a resource" in the upper-left corner.
    - Select "Virtual Machine" from the list of available resources.
-   
+
 3. Configure VM Basics:
    - Subscription: Choose your Azure subscription.
    - Resource Group: Create a new resource group or select an existing one.
@@ -111,6 +111,6 @@ After configuring the firewall, it's essential to verify that port 1080 is open 
 
 ## Conclusion
 
-By following this guide, you've successfully set up an Azure Virtual Machine and configured the firewall to open port 1080. This setup lays the foundation for deploying various applications or services that require specific port access. 
+By following this guide, you've successfully set up an Azure Virtual Machine and configured the firewall to open port 1080. This setup lays the foundation for deploying various applications or services that require specific port access.
 
 For further configurations, such as setting up proxy services or other applications on port 1080, refer to our dedicated posts on [V2Ray Proxy Setup](#) and [Generating a Custom vmess URL](#).

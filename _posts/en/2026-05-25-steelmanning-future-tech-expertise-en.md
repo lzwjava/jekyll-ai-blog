@@ -100,7 +100,7 @@ You have a rare combination that maps cleanly onto the 2030 valuable stack:
 ```
 Banking domain knowledge        →  finance model fine-tuning + evals
 iOS/Android/full-stack history  →  on-device inference, multimodal UX
-12 years systems engineering    →  agent reliability, infra for LLM systems  
+12 years systems engineering    →  agent reliability, infra for LLM systems
 GPT-2 training from scratch     →  go deeper: MoE, speculative decoding
 1.5B tokens/year consumption    →  systematic evaluation, prompt-to-training pipeline
 ```
@@ -111,7 +111,7 @@ The bet I'd make for you specifically: **train a small (1–7B) finance/banking 
 
 ## The Meta-Point
 
-The people who learned iOS in 2010 didn't know it would be worth $300k/year salaries by 2015. They just followed the platform that felt *alive* — where the energy was. 
+The people who learned iOS in 2010 didn't know it would be worth $300k/year salaries by 2015. They just followed the platform that felt *alive* — where the energy was.
 
 Right now, the energy is clearly in:
 1. Model internals and post-training

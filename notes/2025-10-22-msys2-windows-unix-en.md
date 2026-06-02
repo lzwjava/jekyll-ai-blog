@@ -22,5 +22,5 @@ MSYS2 is a free, open-source software distribution and building platform designe
 
 It's lightweight, actively maintained, and runs on Windows 10/11 (with older versions supporting Windows 7 via legacy installers). If you're into programming or need a terminal-heavy setup on Windows, it's a go-to alternative to WSL for many devs.
 
-[MSYS2 Official Website](https://www.msys2.org/)  
+[MSYS2 Official Website](https://www.msys2.org/)
 [MSYS2 GitHub Repository](https://github.com/msys2)

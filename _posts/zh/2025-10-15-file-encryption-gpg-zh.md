@@ -20,17 +20,17 @@ type: note
    ```
 
 2. **使用 `--encrypt` 选项加密文件**并指定接收者（您的邮箱或密钥ID）。这将生成加密的 `.gpg` 文件：
-   
+
    - 使用邮箱地址（更简便）：
      ```
      gpg --encrypt --recipient lzwjava@gmail.com secret.txt
      ```
-   
+
    - 使用完整密钥指纹：
      ```
      gpg --encrypt --recipient 982740390B5D33E90B6B6133892BC5A4789B71CD secret.txt
      ```
-   
+
    操作将生成 `secret.txt.gpg` 加密文件，原始 `secret.txt` 文件保持不变。
 
 3. **验证加密结果**（可选）：

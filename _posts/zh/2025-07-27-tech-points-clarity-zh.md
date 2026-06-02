@@ -23,6 +23,6 @@ type: note
 
 简而言之，通过技术节点观察确实能锐化我们对真正变革性事物的洞察力。它促使我们追问："是什么核心思想成就了这一切？"而非"它拥有多少用户？"若将此法应用于当下（2025年中），建议关注多模态AI整合或可持续计算等领域——它们或许正在成为下一个技术节点。
 
-[《Attention Is All You Need》论文](https://arxiv.org/abs/1706.03762)  
-[ChatGPT发布公告](https://openai.com/index/chatgpt/)  
+[《Attention Is All You Need》论文](https://arxiv.org/abs/1706.03762)
+[ChatGPT发布公告](https://openai.com/index/chatgpt/)
 [iPhone初代发布会](https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/)

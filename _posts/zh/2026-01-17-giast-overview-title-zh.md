@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to Guangzhou Institute of Applied Science and Technology in Zhucun
 
-Answer: 
+Answer:
 
 **Guangzhou Institute of Applied Science and Technology**（广州应用科技学院，简称广应科或 GCAST）是经中国教育部批准设立的全日制民办本科高校。学校位于粤港澳大湾区（Guangdong-Hong Kong-Macao Greater Bay Area）。
 
@@ -29,7 +29,7 @@ Answer:
 
 这是与您查询内容匹配的主要机构——其广州校区正位于增城区朱村街道。
 
-References:  
+References:
 
 - [Official School Website](https://www.gzasc.edu.cn/)
 - [School Introduction Page](https://www.gzasc.edu.cn/xxgks/xxjj.htm)

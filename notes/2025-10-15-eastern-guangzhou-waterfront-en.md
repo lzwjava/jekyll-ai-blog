@@ -34,7 +34,7 @@ I get it—nothing beats the rhythmic flow of water to spark focus and nostalgia
 
 These are all low-cost (free entry/parking) and accessible year-round, with restrooms and snack kiosks if needed. If you want something a tad farther (45 mins) like Zengcheng's Forest Sea for more "wild" vibes, let me know. Safe drives—may the water sounds fuel your flow!
 
-**References**  
-- [Tianhe Park Guide](https://www.trip.com/travel-guide/attraction/guangzhou/tianhe-park-76881/)  
-- [Huangpu Park Details](https://www.tripadvisor.com/Attraction_Review-g298555-d1797538-Reviews-Huangpu_Park-Guangzhou_Guangdong.html)  
+**References**
+- [Tianhe Park Guide](https://www.trip.com/travel-guide/attraction/guangzhou/tianhe-park-76881/)
+- [Huangpu Park Details](https://www.tripadvisor.com/Attraction_Review-g298555-d1797538-Reviews-Huangpu_Park-Guangzhou_Guangdong.html)
 - [Dongshan Lake Park Reviews](https://www.tripadvisor.com/Attraction_Review-g298555-d1797501-Reviews-Dongshan_Lake_Park-Guangzhou_Guangdong.html)

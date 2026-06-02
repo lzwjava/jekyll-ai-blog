@@ -11,7 +11,7 @@ type: note
 
 Question: How to play the hero Kai (also known as 铠/Kai) in King of Glory (王者荣耀)?
 
-Answer: 
+Answer:
 
 Kai (铠) is a versatile fighter hero in King of Glory (王者荣耀), excelling as a top laner (confrontation road) or jungler. He features high burst damage, sustain through self-healing, and a powerful ultimate that grants invincibility-like buffs, making him ideal for diving backlines, dueling, and team fights. His playstyle revolves around "one-knife" bursts using stored enhanced basic attacks, precise skill combos, and leveraging his passive for extra damage on single targets.
 
@@ -76,7 +76,7 @@ Kai's damage spikes from **stored enhanced AA** after Skill 2. Always "store kni
 
 Master combos and timing for "Kai Daddy" one-shots. Practice in custom modes!
 
-References: 
+References:
 - [Kai Hero Page](https://pvp.qq.com/web201605/herodetail/193.shtml)
 - [Outfit & Arcana Guide](https://community-cn.honor.com/cngm/game/topicdetail/topicid-3716028090253312)
 - [Build & Combos](https://news.4399.com/wzlm/yingxiong/zs/m/755056.html)

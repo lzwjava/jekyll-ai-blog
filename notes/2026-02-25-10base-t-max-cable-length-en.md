@@ -11,12 +11,12 @@ type: note
 
 Question: According to the 10BASE-T Ethernet technical specification, what is the maximum distance between a HUB and a network interface card (NIC)?
 
-A. 20m  
-B. 50m  
-C. 100m  
+A. 20m
+B. 50m
+C. 100m
 D. 200m
 
-Answer: 
+Answer:
 
 **C. 100m**
 
@@ -39,7 +39,7 @@ The other options are incorrect because:
 - 20m and 50m are far below the standard allowance
 - 200m exceeds the specification and would cause excessive signal attenuation and timing problems
 
-References:  
+References:
 
-- IEEE 802.3-1990 standard (10BASE-T clause)  
+- IEEE 802.3-1990 standard (10BASE-T clause)
 - [https://standards.ieee.org/ieee/802.3/1990/](https://standards.ieee.org/ieee/802.3/1990/)

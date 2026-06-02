@@ -25,26 +25,26 @@ type: note
 信用是核心：当信用被用于生产性用途时，它能放大增长；但当信用过度扩张时，它会制造泡沫。债务本身并非坏事——如果它资助能产生收入的投资，那就是好的；但当它资助无法偿还的消费时，那就是坏的。
 
 ### 潜在的非主流或反主流观点
-1. **不可持续的债务 inevitably 导致重大危机**  
+1. **不可持续的债务 inevitably 导致重大危机**
    高债务水平（例如，美国债务占GDP比重超过120%）将导致债务购买者出现“供需失衡”。国内外投资者可能停止借贷，迫使利率升高或货币化，从而导致货币贬值或危机。达利欧警告称，美国正接近“经济心脏病发作”，届时利息支付将挤占生产性支出。
 
-2. **债务货币化（印钞）通常是必要的，但会导致通胀和贬值**  
+2. **债务货币化（印钞）通常是必要的，但会导致通胀和贬值**
    在去杠杆化过程中，央行必须“印钞”以减轻负担，但这会侵蚀货币价值。这与认为量化宽松长期无害或债务可以无限增长而无后果的观点形成对比。
 
-3. **美好的去杠杆化需要痛苦的改革，而不仅仅是宽松货币**  
+3. **美好的去杠杆化需要痛苦的改革，而不仅仅是宽松货币**
    为了避免糟糕的经济萧条，政策制定者必须平衡四个杠杆：紧缩、债务重组、印钞和财富转移（例如，从富人到穷人）。纯粹的紧缩或无休止的印钞都会失败——需要平衡，通常涉及政治上艰难的选择，如对富人征收更高税收或削减开支。
 
-4. **债务周期的后期阶段会在债权人和债务人之间制造冲突**  
+4. **债务周期的后期阶段会在债权人和债务人之间制造冲突**
    高利率伤害债务人但帮助债权人；解决这个问题通常涉及通货膨胀（损害储户）或违约/重组。
 
-5. **当前全球（特别是美国）的债务轨迹是危险的，并且受政治驱动**  
+5. **当前全球（特别是美国）的债务轨迹是危险的，并且受政治驱动**
    达利欧认为，现在需要两党采取行动（例如，像1990年代的财政纪律），但两极分化使得这不太可能。他认为，如果忽视这个问题，发生“创伤”的可能性超过50%，包括可能失去储备货币地位。
 
 这些观点在乐观派（例如，一些MMT倡导者或主张无休止借贷的政策制定者）看来是“非主流”的，因为它们强调了限制和历史性痛苦的必然性，而不是通过债务实现永无止境的增长。批评者（例如，一些经济学家）认为，他的警告忽视了美元的独特地位或过度依赖历史类比。
 
-参考文献：  
-- https://www.principles.com/big-debt-crises  
-- https://economicprinciples.org/  
-- https://fortune.com/2025/07/24/ray-dalio-billionaire-economy-national-debt-economic-heart-attack-crisis/  
-- https://www.businessinsider.com/ray-dalio-us-debt-crisis-bridgewater-economy-billionaires-interest-payments-2025-8  
+参考文献：
+- https://www.principles.com/big-debt-crises
+- https://economicprinciples.org/
+- https://fortune.com/2025/07/24/ray-dalio-billionaire-economy-national-debt-economic-heart-attack-crisis/
+- https://www.businessinsider.com/ray-dalio-us-debt-crisis-bridgewater-economy-billionaires-interest-payments-2025-8
 - https://www.npr.org/2025/10/23/nx-s1-5563827/its-really-a-political-problem-ray-dalio-on-the-u-s-debt-crisis

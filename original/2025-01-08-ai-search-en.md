@@ -8,10 +8,10 @@ title: A Case Using Search in ChatGPT
 type: post
 ---
 
-**Zhiwei:**  
+**Zhiwei:**
 How does Anthropic define workflow vs agent?
 
-**ChatGPT 4.0:**  
+**ChatGPT 4.0:**
 Anthropic distinguishes between the concepts of "workflow" and "agent" in the context of AI systems and how they operate:
 
 1. **Workflow:**
@@ -30,20 +30,20 @@ Anthropic distinguishes between the concepts of "workflow" and "agent" in the co
 
 In summary, **workflows** are structured sequences of tasks, while **agents** are autonomous systems that make decisions and adapt to achieve their goals.
 
-**Zhiwei:**  
-[https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)  
+**Zhiwei:**
+[https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
 Get the definition from here.
 
-**ChatGPT 4.0:**  
+**ChatGPT 4.0:**
 In the article *"Building Effective Agents"* by Anthropic, **agents** and **workflows** are defined as follows:
 
-1. **Agents:**  
-   - An **agent** is an autonomous system capable of making decisions and taking actions to achieve specific goals. The agent can adjust its actions based on real-time feedback from its environment, making it flexible and dynamic.  
-   - Agents are expected to handle complex tasks that require reasoning, interaction, and continuous adaptation. They use techniques such as planning, learning, and memory to improve decision-making over time.  
+1. **Agents:**
+   - An **agent** is an autonomous system capable of making decisions and taking actions to achieve specific goals. The agent can adjust its actions based on real-time feedback from its environment, making it flexible and dynamic.
+   - Agents are expected to handle complex tasks that require reasoning, interaction, and continuous adaptation. They use techniques such as planning, learning, and memory to improve decision-making over time.
    - Anthropic emphasizes that agents are capable of "acting in the world" to carry out tasks and adapt their strategies when encountering new or unforeseen scenarios.
 
-2. **Workflows:**  
-   - A **workflow**, in contrast, is a predefined and structured sequence of tasks designed to achieve a specific outcome. Workflows generally follow a set order and are predictable, with less need for real-time adaptation or decision-making.  
+2. **Workflows:**
+   - A **workflow**, in contrast, is a predefined and structured sequence of tasks designed to achieve a specific outcome. Workflows generally follow a set order and are predictable, with less need for real-time adaptation or decision-making.
    - In AI, workflows might involve running a series of operations in a specific order, with defined inputs and outputs. They are typically static and are used for automating repetitive tasks or processes where flexibility is not necessary.
 
 ### Key Distinction:

@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about IBM WebSphere Liberty Profile?
 
-Answer: 
+Answer:
 
 IBM WebSphere Liberty Profile (often just called Liberty) is a lightweight, modular runtime for Java EE/Jakarta EE applications, praised for its fast startup and cloud-native suitability. However, opinions on it vary widely in developer communities, especially when compared to the full WebSphere Application Server (WAS) profile or alternatives like Tomcat or Open Liberty. Based on discussions from forums, blogs, and technical analyses, here are some unpopular or contrarian opinions that challenge the common narrative of Liberty being a "game-changer" for modern deployments:
 
@@ -28,9 +28,9 @@ IBM WebSphere Liberty Profile (often just called Liberty) is a lightweight, modu
 
 These views often come from devs who've migrated or compared it hands-on, highlighting trade-offs in flexibility vs. maturity. If you're evaluating Liberty, test it against your specific workload—it's great for microservices but can underwhelm in monoliths.
 
-References:  
-- [Liberty Vs Websphere Full Profile for CLM](https://jazz.net/wiki/bin/view/Deployment/LibertyVersusWASFullProfileForCLM)  
-- [Comparing IBM WebSphere vs. IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)  
-- [What is "Liberty Profile" - IBM WebSphere Application Server V8.5](https://dzone.com/articles/what-liberty-profile-ibm)  
-- [What is the difference between OpenLiberty and WebSphere Liberty?](https://stackoverflow.com/questions/46306036/what-is-the-difference-between-openliberty-and-websphere-liberty)  
+References:
+- [Liberty Vs Websphere Full Profile for CLM](https://jazz.net/wiki/bin/view/Deployment/LibertyVersusWASFullProfileForCLM)
+- [Comparing IBM WebSphere vs. IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)
+- [What is "Liberty Profile" - IBM WebSphere Application Server V8.5](https://dzone.com/articles/what-liberty-profile-ibm)
+- [What is the difference between OpenLiberty and WebSphere Liberty?](https://stackoverflow.com/questions/46306036/what-is-the-difference-between-openliberty-and-websphere-liberty)
 - [The WebSphere Contrarian: If liberty means freedom of choice](https://www.ibm.com/developerworks/websphere/techjournal/1506_webcon/1506_webcon-trs.html)

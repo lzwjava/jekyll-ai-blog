@@ -13,28 +13,28 @@ Daniel P. Friedman 是编程语言和函数式编程领域的传奇人物，以�
 ---
 
 ### **Daniel P. Friedman 核心著作**
-1. **《The Little Schemer》**（与 Matthias Felleisen 合著）  
+1. **《The Little Schemer》**（与 Matthias Felleisen 合著）
    通过苏格拉底式对话展开关于递归和函数式编程的思维探索。本书使用 Scheme 语言，通过趣味问答教你掌握“递归思维”。
 
-2. **《The Seasoned Schemer》**（与 Matthias Felleisen 合著）  
+2. **《The Seasoned Schemer》**（与 Matthias Felleisen 合著）
    《The Little Schemer》续作，深入探讨高阶函数、续体和元编程。
 
-3. **《Essentials of Programming Languages》**（与 Mitchell Wand 等人合著）  
+3. **《Essentials of Programming Languages》**（与 Mitchell Wand 等人合著）
    系统探讨编程语言设计、解释器与语义的经典教材。通过构建玩具语言解释器，阐释静态/动态作用域、类型系统和求值策略等概念。
 
-4. **《The Reasoned Schemer》**（与 William Byrd、Oleg Kiselyov 合著）  
+4. **《The Reasoned Schemer》**（与 William Byrd、Oleg Kiselyov 合著）
    在 Scheme 中引入逻辑编程（miniKanren），融合函数式与关系式编程范式。
 
-5. **《The Little Prover》**（与 Carl Eastlund 合著）  
+5. **《The Little Prover》**（与 Carl Eastlund 合著）
    使用 Scheme 子集讲授自动定理证明与归纳法，聚焦程序正确性验证。
 
-6. **《A Little Java, A Few Patterns》**（与 Matthias Felleisen 合著）  
+6. **《A Little Java, A Few Patterns》**（与 Matthias Felleisen 合著）
    将《The Little Schemer》中的函数式编程思想应用于 Java，展示如何通过递归和模式编写优雅的面向对象代码。
 
-7. **《Realm of Racket》**（与学生团队合著）  
+7. **《Realm of Racket》**（与学生团队合著）
    通过趣味项目驱动的方式介绍 Racket（Scheme 方言）和游戏编程，适合初学者。
 
-8. **《The Little Typer》**（与 David Thrane Christiansen 合著）  
+8. **《The Little Typer》**（与 David Thrane Christiansen 合著）
    通过依赖类型语言 Pie 探索类型理论，融合类型、证明与编程实践。
 
 ---
@@ -49,8 +49,8 @@ Daniel P. Friedman 是编程语言和函数式编程领域的传奇人物，以�
 
 ### **与原书单关联推荐**
 若你喜欢：
-- **《SICP》**：可尝试《Essentials of Programming Languages》或《The Little Schemer》  
-- **《CLRS》（算法导论）**：《The Reasoned Schemer》提供逻辑编程视角的问题解决思路  
-- **《Types and Programming Languages》**：《The Little Typer》是进阶类型系统的温和入门  
+- **《SICP》**：可尝试《Essentials of Programming Languages》或《The Little Schemer》
+- **《CLRS》（算法导论）**：《The Reasoned Schemer》提供逻辑编程视角的问题解决思路
+- **《Types and Programming Languages》**：《The Little Typer》是进阶类型系统的温和入门
 
 Friedman 的著作虽属小众，但对编程语言、函数式编程或形式化方法领域具有**奠基性意义**。若想深入探索计算的本质，建议从《The Little Schemer》或《EOPL》开始阅读！如需具体推荐，欢迎随时交流。😊

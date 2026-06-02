@@ -21,37 +21,37 @@ Operational amplifiers (op-amps) are versatile, high-gain electronic amplifiers 
 An operational amplifier is a high-gain, direct-coupled amplifier with differential inputs and a single output. It’s typically used with external feedback components (resistors, capacitors, etc.) to define its function. Below are the key characteristics and parameters of an ideal op-amp, along with their practical implications.
 
 #### **Ideal Op-Amp Characteristics**
-1. **Infinite Open-Loop Gain (A_OL)**  
+1. **Infinite Open-Loop Gain (A_OL)**
    - The open-loop gain (without feedback) is theoretically infinite, meaning even a tiny difference between the input terminals produces a large output. In practice, real op-amps have open-loop gains of 10^5 to 10^6.
    - **Implication**: Allows precise control when feedback is applied.
 
-2. **Infinite Input Impedance**  
+2. **Infinite Input Impedance**
    - The input terminals draw no current (ideal input impedance is infinite). In real op-amps, input impedance is typically in the megaohms to gigaohms range.
    - **Implication**: The op-amp does not load the input signal source, preserving signal integrity.
 
-3. **Zero Output Impedance**  
+3. **Zero Output Impedance**
    - The output can drive any load without voltage drop. Real op-amps have low output impedance (e.g., 10–100 ohms).
    - **Implication**: Ensures efficient signal transfer to the next stage.
 
-4. **Infinite Bandwidth**  
+4. **Infinite Bandwidth**
    - An ideal op-amp amplifies all frequencies equally. In practice, the gain-bandwidth product limits performance (e.g., unity-gain bandwidth of 1 MHz for a 741 op-amp).
    - **Implication**: Bandwidth decreases with increasing gain in closed-loop configurations.
 
-5. **Zero Offset Voltage**  
+5. **Zero Offset Voltage**
    - With no input signal, the output is zero. Real op-amps have small offset voltages (microvolts to millivolts) that may need compensation.
    - **Implication**: Minimizes unwanted output in precision applications.
 
-6. **Infinite Common-Mode Rejection Ratio (CMRR)**  
+6. **Infinite Common-Mode Rejection Ratio (CMRR)**
    - The op-amp rejects signals common to both inputs (e.g., noise). Real op-amps have high CMRR (80–120 dB).
    - **Implication**: Reduces noise in differential signal applications.
 
 #### **Key Concepts: Virtual Short and Virtual Open**
-- **Virtual Short**  
+- **Virtual Short**
   - In a negative feedback configuration, the high open-loop gain forces the voltage difference between the inverting (-) and non-inverting (+) inputs to be nearly zero.
   - **Explanation**: The op-amp adjusts its output to make V+ ≈ V- (assuming negative feedback). This is called a "virtual short" because the inputs are not physically shorted but behave as if they are.
   - **Example**: In an inverting amplifier, if the non-inverting input is grounded (0 V), the op-amp adjusts the output to keep the inverting input at approximately 0 V.
 
-- **Virtual Open**  
+- **Virtual Open**
   - Due to infinite input impedance, no current flows into the op-amp’s input terminals.
   - **Explanation**: This "virtual open" means the inputs act as if they are disconnected from the circuit in terms of current flow, allowing all input current to flow through external components.
   - **Example**: In a voltage follower, no current flows into the op-amp inputs, making it an ideal buffer.

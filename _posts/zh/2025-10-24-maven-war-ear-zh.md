@@ -21,7 +21,7 @@ type: note
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -66,7 +66,7 @@ type: note
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -110,7 +110,7 @@ type: note
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -143,13 +143,13 @@ type: note
                 <configuration>
                     <!-- EAR版本（例如Java EE） -->
                     <version>8</version>
-                    
+
                     <!-- EAR中的库目录 -->
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
-                    
+
                     <!-- 瘦身WAR（排除已存在于EAR库的依赖） -->
                     <skinnyWars>true</skinnyWars>
-                    
+
                     <!-- 定义要包含的模块 -->
                     <modules>
                         <webModule>
@@ -181,5 +181,5 @@ type: note
 
 更多细节请参考官方Maven EAR插件文档。
 
-[Apache Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)  
+[Apache Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)
 [Maven多模块项目指南](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Multi-module_Projects)

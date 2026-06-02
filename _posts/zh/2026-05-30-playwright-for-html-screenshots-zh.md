@@ -44,11 +44,11 @@ def html_to_screenshot(html_path: str, output_path: str, width: int = 720):
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": width, "height": 800})
         page.goto(f"file://{html_path}")
-        
+
         # 获取精确的内容高度
         height = page.evaluate("document.body.scrollHeight")
         page.set_viewport_size({"width": width, "height": height})
-        
+
         # 全页截图，无需 ImageMagick 裁剪
         page.screenshot(path=output_path, full_page=True)
         browser.close()

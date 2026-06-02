@@ -12,7 +12,7 @@ type: note
 
 Question: PUBG Mobile 提供哪些地图？
 
-Answer: 
+Answer:
 
 PUBG Mobile 提供多种 Battle Royale 地图，主要集中在 Classic mode，尺寸从 1x1 km 到 8x8 km 不等。这些地图具有独特的地形、玩家人数和游戏节奏。截至 2026 年可用的核心地图包括：
 
@@ -34,7 +34,7 @@ PUBG Mobile 提供多种 Battle Royale 地图，主要集中在 Classic mode，�
 - **Recent Updates**: v4.1 版本（2025 年 11 月）在 Erangel, Livik 和 Miramar 中加入了 Loot Trucks。Paramo 目前处于 Beta/测试阶段，尚未全球正式发布。
 - 地图可能会因地区/服务器而略有差异，但以上是 Global 版本的标准配置。
 
-References: 
+References:
 - [PUBG Mobile Wiki - Maps](https://pubgmobile.fandom.com/wiki/Maps)
 - [PUBG Maps Wiki](https://pubg.fandom.com/wiki/Maps)
 - [PUBG Mobile Official Events](https://www.pubgmobile.com/en-US/events.shtml)

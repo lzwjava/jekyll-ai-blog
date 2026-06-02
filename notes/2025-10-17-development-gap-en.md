@@ -27,9 +27,9 @@ Lifestyle-wise, it echoed San Francisco's innovative edge (early tech boom with 
 
 By the 90s handover jitters, some emigrated, but HK's global stature held firm, outshining many peers in trade volume and billionaire density. It wasn't identical to those cities (smaller scale, more subtropical chaos), but yeah, it punched way above its weight as a world-class playground for the ambitious.
 
-[Hong Kong's Economic Integration with Mainland China](https://www.elibrary.imf.org/display/book/9781589062948/ch02.xml)  
-[Rural Electrification in China 1950-2004](https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/WP_60%2C_Rural_Elec_China.pdf)  
-[The Chinese Electricity Access Model for Rural Electrification](https://www.dmu.ac.uk/documents/technology-documents/research-faculties/oasys/project-outputs/peer-reviewed-journal-articles/pj5--chinese-electricity-access---energy-policy-paper.pdf)  
-[The Rise of Hong Kong and Tokyo as International Banking Centres](https://core.ac.uk/download/pdf/1396665.pdf)  
-[Hong Kong Wikipedia - Economy Section](https://en.wikipedia.org/wiki/Hong_Kong)  
+[Hong Kong's Economic Integration with Mainland China](https://www.elibrary.imf.org/display/book/9781589062948/ch02.xml)
+[Rural Electrification in China 1950-2004](https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/WP_60%2C_Rural_Elec_China.pdf)
+[The Chinese Electricity Access Model for Rural Electrification](https://www.dmu.ac.uk/documents/technology-documents/research-faculties/oasys/project-outputs/peer-reviewed-journal-articles/pj5--chinese-electricity-access---energy-policy-paper.pdf)
+[The Rise of Hong Kong and Tokyo as International Banking Centres](https://core.ac.uk/download/pdf/1396665.pdf)
+[Hong Kong Wikipedia - Economy Section](https://en.wikipedia.org/wiki/Hong_Kong)
 [Why Hong Kong was at its best in the late 1980s](https://www.scmp.com/business/global-economy/article/1986529/why-hong-kong-was-its-best-late-1980splenty-tech-innovations)

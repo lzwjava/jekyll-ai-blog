@@ -24,11 +24,11 @@ implementation 'org.greenrobot:eventbus:3.3.1'
 ```java
 public class MessageEvent {
     private String message;
-    
+
     public MessageEvent(String message) {
         this.message = message;
     }
-    
+
     public String getMessage() {
         return message;
     }
@@ -44,23 +44,23 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         // 注册到 EventBus
         EventBus.getDefault().register(this);
     }
-    
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
         // 取消注册以防止内存泄漏
         EventBus.getDefault().unregister(this);
     }
-    
+
     // 订阅者方法
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
@@ -141,13 +141,13 @@ public class ReceiverActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EventBus.getDefault().register(this);
     }
-    
+
     @Override
     protected void onDestroy() {
         EventBus.getDefault().unregister(this);
         super.onDestroy();
     }
-    
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onDataEvent(DataEvent event) {
         textView.setText("已接收：" + event.getData());

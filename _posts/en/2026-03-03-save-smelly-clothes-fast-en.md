@@ -11,7 +11,7 @@ type: note
 
 Question: Today is late and I'm going to sleep. Can we just put the smelly clothes aside and clean them tomorrow?
 
-Answer: 
+Answer:
 
 Yes, you can safely set the smelly clothes aside until tomorrow, but do it the right way to avoid making the smell much worse overnight.
 
@@ -33,6 +33,6 @@ So yes — go to sleep, but spend 2–5 minutes taking them out and spreading th
 
 Sleep well!
 
-References:  
+References:
 
 - None needed for this follow-up advice.

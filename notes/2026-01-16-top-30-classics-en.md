@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 30 literary novels (fiction classics)?
 
-Answer: 
+Answer:
 
 Here is a compiled list of **30 top literary novels / fiction classics**, drawn from aggregated consensus across major sources like *The Greatest Books* (meta-list from hundreds of critic/reader lists), Guardian rankings, Modern Library's influential 20th-century list, and other respected compilations. These represent widely regarded masterpieces of literary fiction, spanning centuries and focusing on depth, innovation, psychological insight, and lasting cultural impact.
 
@@ -49,7 +49,7 @@ Here is a compiled list of **30 top literary novels / fiction classics**, drawn 
 
 This selection prioritizes works frequently ranked highest in aggregated "greatest novels" lists and emphasizes literary depth over pure popularity or genre fiction. Rankings are inherently subjective, but these appear most consistently at the top across expert and critical sources.
 
-References:  
+References:
 
 - [The Greatest Books of All Time](https://thegreatestbooks.org/)
 - [The Guardian: 100 greatest novels of all time](https://www.theguardian.com/books/2003/oct/12/features.fiction)

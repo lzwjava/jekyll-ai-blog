@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about retail business?
 
-Answer: 
+Answer:
 
 Here are several unpopular or contrarian ideas about the retail business, drawn from discussions among workers, owners, and observers. These challenge common narratives like "the customer is always right" or "retail jobs are universally terrible":
 
@@ -32,7 +32,7 @@ Here are several unpopular or contrarian ideas about the retail business, drawn 
 
 These ideas often spark debate because they counter emotional or widespread complaints in the industry.
 
-References:  
+References:
 
 - [r/unpopularopinion: Working retail is fun](https://www.reddit.com/r/unpopularopinion/comments/1fr4owz/working_retail_is_fun/)
 - [r/unpopularopinion: Working in retail is made to seem far worse](https://www.reddit.com/r/unpopularopinion/comments/osrcdq/working_in_retail_is_made_to_seem_far_worse_on/)

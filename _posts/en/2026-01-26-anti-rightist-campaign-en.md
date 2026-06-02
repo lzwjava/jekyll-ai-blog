@@ -12,7 +12,7 @@ type: note
 
 **Question:** What did "left" or "right" mean in 1950s China, and what does "fan you pai" (反右派) or "defeat the rightists" refer to?
 
-**Answer:** 
+**Answer:**
 
 In 1950s **China**, especially under the Chinese Communist Party (CCP) led by Mao Zedong, the terms **"left"** and **"right"** had specific political meanings rooted in Marxist-Leninist ideology and revolutionary politics, different from some Western usages.
 
@@ -39,7 +39,7 @@ In short, in 1950s China:
 
 This event is widely seen as ending any real intellectual freedom in Mao-era China and paving the way for later campaigns like the Cultural Revolution.
 
-**References:**  
+**References:**
 
 - [Anti-Rightist Campaign - Wikipedia](https://en.wikipedia.org/wiki/Anti-Rightist_Campaign)
 - [The “Active Rightists” of 1957 and Their Legacy - China Perspectives](https://journals.openedition.org/chinaperspectives/pdf/2553)

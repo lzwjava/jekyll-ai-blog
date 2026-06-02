@@ -74,8 +74,8 @@ Google issued a detailed post-mortem emphasizing resilience:
 
 These steps aim to prevent similar incidents, with ongoing audits of quota systems.
 
-[Google Cloud Incident Report](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)  
-[ThousandEyes Outage Analysis](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)  
-[Ookla Downdetector Report](https://www.ookla.com/articles/google-cloud-outage-june-2025)  
-[ByteByteGo Breakdown](https://blog.bytebytego.com/p/how-the-google-cloud-outage-crashed)  
+[Google Cloud Incident Report](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)
+[ThousandEyes Outage Analysis](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)
+[Ookla Downdetector Report](https://www.ookla.com/articles/google-cloud-outage-june-2025)
+[ByteByteGo Breakdown](https://blog.bytebytego.com/p/how-the-google-cloud-outage-crashed)
 [Medium Root Cause Explanation](https://medium.com/@tahirbalarabe2/%EF%B8%8Fhow-a-single-google-cloud-bug-caused-global-internet-outage-on-june-12-2025-652a83ad9e68)

@@ -37,10 +37,10 @@ Here's a rough comparison based on available pricing data (in USD per million to
 
 If your usage is high-volume, the percentage fees add up quickly. For low usage or testing, the difference might be minimal, but direct access is still cheaper. OpenRouter's value comes from its unified API and routing features, which might justify the extra cost for convenience.
 
-[OpenRouter FAQ](https://openrouter.ai/docs/faq)  
-[DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing)  
-[Mistral AI Pricing](https://mistral.ai/pricing)  
-[Google Gemini API Pricing](https://ai.google.dev/pricing)  
-[xAI API](https://x.ai/api)  
-[Mistral Large 2 Analysis](https://artificialanalysis.ai/models/mistral-large-2)  
+[OpenRouter FAQ](https://openrouter.ai/docs/faq)
+[DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing)
+[Mistral AI Pricing](https://mistral.ai/pricing)
+[Google Gemini API Pricing](https://ai.google.dev/pricing)
+[xAI API](https://x.ai/api)
+[Mistral Large 2 Analysis](https://artificialanalysis.ai/models/mistral-large-2)
 [DeepSeek Pricing Guide](https://team-gpt.com/blog/deepseek-pricing/)

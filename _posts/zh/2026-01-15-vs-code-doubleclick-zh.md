@@ -12,7 +12,7 @@ type: note
 
 **Question: 在 GitHub Desktop 中，查看历史提交（history commit）时，双击中间面板已更改文件列表中的文件，会用 VS Code 打开它吗？**
 
-**Answer:** 
+**Answer:**
 
 **是的，这是 GitHub Desktop 近期版本中支持的功能。**
 
@@ -44,7 +44,7 @@ type: note
 
 这使得审阅提交历史并快速跳转到 VS Code 编辑文件变得更加顺畅 —— 这是一个非常棒的体验改进！
 
-**References:**  
+**References:**
 
 - [GitHub Changelog: Community adds "Double click to Open External Editor"](https://github.blog/changelog/2023-08-16-github-desktop-community-adds-check-out-a-commit-and-double-click-to-open-external-editor)
 - [GitHub Desktop issue discussions on double-click behavior](https://github.com/desktop/desktop/issues?q=is%3Aissue+double+click+file+external+editor)

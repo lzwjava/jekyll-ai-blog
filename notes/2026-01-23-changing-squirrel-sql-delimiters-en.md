@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-In **Squirrel SQL Client**, the default statement delimiter is `;`.  
+In **Squirrel SQL Client**, the default statement delimiter is `;`.
 When creating or calling stored procedures / functions / triggers that contain `;` inside their body (BEGIN … END blocks), you must temporarily change the delimiter.
 
 Here are the main ways to do it in Squirrel-SQL:

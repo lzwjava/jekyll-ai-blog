@@ -109,6 +109,6 @@ gpg --output revoke.asc --gen-revoke <您的密钥ID>
 
 如需实践，可在测试目录中使用 `gpg --homedir ./test-gpg` 进行实验。
 
-[GnuPG 手册：密钥管理](https://www.gnupg.org/gph/en/manual/c235.html)  
-[GNU Privacy Guard 手册：OpenPGP 密钥管理](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)  
+[GnuPG 手册：密钥管理](https://www.gnupg.org/gph/en/manual/c235.html)
+[GNU Privacy Guard 手册：OpenPGP 密钥管理](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)
 [GnuPG 入门指南](https://www.gnupg.org/gph/en/manual/c14.html)

@@ -10,7 +10,7 @@ type: note
 
 ### Detecting User's Country or Language Preference
 
-Since your Jekyll blog is static (generated HTML/JS), you can't do server-side detection easily without integrating with a hosting platform that supports it (e.g., Netlify functions or GitHub Pages with limitations). The best approach is client-side JavaScript detection on page load. You have two main options: 
+Since your Jekyll blog is static (generated HTML/JS), you can't do server-side detection easily without integrating with a hosting platform that supports it (e.g., Netlify functions or GitHub Pages with limitations). The best approach is client-side JavaScript detection on page load. You have two main options:
 
 1. **Browser Language Preference** (Recommended for your use case): This detects the user's preferred language from their browser settings (via `navigator.language` or `navigator.languages`). It's fast, doesn't require external APIs, respects user privacy (no IP sharing), and directly ties to language rather than country. Countries often have multiple languages (e.g., India uses English widely alongside Hindi), so this is more accurate for auto-setting the dropdown.
 
@@ -35,7 +35,7 @@ if (savedSort) {
 } else {
   // Detect browser language if no saved preference
   let lang = navigator.language.toLowerCase().split('-')[0]; // e.g., 'en-US' -> 'en'
-  
+
   // Special handling for Chinese variants (zh-Hant for traditional)
   if (lang === 'zh') {
     const fullLang = navigator.language.toLowerCase();
@@ -132,6 +132,6 @@ if (savedSort) {
 
 If this doesn't work or you can share errors, provide more details!
 
-[Country.is API](https://country.is/)  
-[IP-API Geolocation](https://ip-api.com/)  
+[Country.is API](https://country.is/)
+[IP-API Geolocation](https://ip-api.com/)
 [ipgeolocation.io](https://ipgeolocation.io/)

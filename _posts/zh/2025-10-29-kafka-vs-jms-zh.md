@@ -34,8 +34,8 @@ Apache Kafka 与 Java 消息服务（JMS）都用于企业应用中的消息传�
 - **选择 Kafka**：适用于需要历史数据访问或与非 WAS 系统集成（如从 WAS 应用摄取大数据）的可扩展事件驱动架构。
 - 混合架构常见模式：在 WAS 内部使用 JMS 进行消息传递，通过连接器将出站数据桥接至 Kafka 流处理平台。
 
-[深度对比：JMS 消息队列与 Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)  
-[在 WebSphere Application Server 中配置 JMS 资源](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)  
-[创建用于发布 MDM 数据的 Kafka 通道](https://www.ibm.com/docs/en/imdm/12.0.0?topic=kafka-creating-channel-publishing-mdm-data)  
-[何时使用 WebSphere 内置消息提供程序 JMS 与完整版 MQ](https://stackoverflow.com/questions/11215031/when-to-use-jms-with-websphere-inbuilt-messaging-provider-vs-a-full-fledged-mq)  
+[深度对比：JMS 消息队列与 Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)
+[在 WebSphere Application Server 中配置 JMS 资源](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)
+[创建用于发布 MDM 数据的 Kafka 通道](https://www.ibm.com/docs/en/imdm/12.0.0?topic=kafka-creating-channel-publishing-mdm-data)
+[何时使用 WebSphere 内置消息提供程序 JMS 与完整版 MQ](https://stackoverflow.com/questions/11215031/when-to-use-jms-with-websphere-inbuilt-messaging-provider-vs-a-full-fledged-mq)
 [IBM MQ vs. Kafka vs. ActiveMQ：消息代理对比分析](https://www.openlogic.com/blog/ibm-mq-vs-kafka-vs-activemq)

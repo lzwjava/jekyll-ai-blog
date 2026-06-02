@@ -11,7 +11,7 @@ type: note
 
 Question: Without modifying or violating the SNMPv1 management framework, what operations does the RMON specification provide?
 
-Answer: 
+Answer:
 
 The correct answer is **C: Row creation and row deletion operations**.
 
@@ -26,7 +26,7 @@ The correct answer is **C: Row creation and row deletion operations**.
 
 Therefore, RMON specifically fills the gap for **row creation and deletion** (Option C).
 
-References:  
+References:
 
 - [RFC 2819: Remote Network Monitoring Management Information Base](https://datatracker.ietf.org/doc/html/rfc2819)
 - [RFC 1157: Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/html/rfc1157)

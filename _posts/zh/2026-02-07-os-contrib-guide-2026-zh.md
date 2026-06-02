@@ -105,7 +105,7 @@ Answer:
 
 祝你好运，欢迎来到 open source 世界！
 
-References:  
+References:
 
 - [vLLM Contributing Guide](https://docs.vllm.ai/en/latest/contributing)
 - [PyTorch Ultimate Contribution Guide](https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions)

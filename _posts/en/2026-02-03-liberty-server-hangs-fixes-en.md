@@ -34,8 +34,8 @@ In IBM WebSphere Liberty Profile on Windows, there are several scenarios where a
 
 **Configure shutdown timeout in server.xml**:
 ```xml
-<executor name="defaultExecutor" 
-          coreThreads="5" 
+<executor name="defaultExecutor"
+          coreThreads="5"
           maxThreads="25"
           keepAlive="60s"
           stealPolicy="STRICT"

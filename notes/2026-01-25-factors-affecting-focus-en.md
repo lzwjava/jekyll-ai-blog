@@ -12,7 +12,7 @@ type: note
 
 Question: Why is it sometimes hard to focus on reading or doing software engineering certification questions, but other times it is easy?
 
-Answer: 
+Answer:
 
 Your ability to focus on demanding cognitive tasks like certification questions (reading dense material, understanding concepts, solving practice problems) fluctuates mainly because of **changes in your physiological, psychological, and environmental state**. These tasks require sustained **deep attention** (not quick dopamine hits like scrolling), so they are very sensitive to small changes in your internal and external conditions.
 
@@ -60,7 +60,7 @@ Here are the most common reasons why focus is sometimes easy and sometimes almos
 
 Most people experience exactly what you describe. The days you feel focused are not random luck — they are the result of better-managed preconditions. Track your energy/focus for 7–14 days (simple 1–10 score + what you ate/slept/did before) and patterns will usually become obvious.
 
-References:  
+References:
 
 - [Healthline - What Makes You Unable to Concentrate?](https://www.healthline.com/health/unable-to-concentrate)
 - [Healthline - How to Improve Concentration](https://www.healthline.com/health/mental-health/how-to-improve-concentration)

@@ -12,7 +12,7 @@ type: note
 
 Question: How to play Honor of Kings? Which heroes should beginners select?
 
-Answer: 
+Answer:
 Honor of Kings (HoK) is a 5v5 mobile MOBA where two teams battle to destroy the enemy's base Crystal in Hero's Gorge. Matches last 15-20 minutes. Earn gold and EXP by killing minions, jungle monsters, and enemies to buy items, level up skills, and push lanes.
 
 ### Map and Objective
@@ -71,10 +71,10 @@ Ban S-tier threats like Augran/Lam if possible. Adapt builds to enemy team.
 
 Practice in custom/tutorial modes. Climb by winning streaks, then break after losses. Duo/trio with friends for better coordination.
 
-References:  
-- [Epic Games Beginner Guide](https://store.epicgames.com/en-US/news/honor-of-kings-guide-tips-beginning-mobile-moba-players)  
-- [Reddit 2025 Beginners Guide](https://www.reddit.com/r/honorofkings/comments/1jo4yum/beginners_guide_to_honor_of_kings_2025/)  
-- [BitTopup Best Beginner Heroes 2025](https://bittopup.com/article/Honor-of-Kings-Best-Beginner-Heroes-2025-Arthur-542-WR-Guide)  
-- [Official Tutorials](https://www.honorofkings.com/tutorial.html)  
-- [HoK Tier List Dec 2025](https://hokbuild.com/tier-list/)  
+References:
+- [Epic Games Beginner Guide](https://store.epicgames.com/en-US/news/honor-of-kings-guide-tips-beginning-mobile-moba-players)
+- [Reddit 2025 Beginners Guide](https://www.reddit.com/r/honorofkings/comments/1jo4yum/beginners_guide_to_honor_of_kings_2025/)
+- [BitTopup Best Beginner Heroes 2025](https://bittopup.com/article/Honor-of-Kings-Best-Beginner-Heroes-2025-Arthur-542-WR-Guide)
+- [Official Tutorials](https://www.honorofkings.com/tutorial.html)
+- [HoK Tier List Dec 2025](https://hokbuild.com/tier-list/)
 - [Heroes Wiki](https://honor-of-kings.fandom.com/wiki/Heroes)

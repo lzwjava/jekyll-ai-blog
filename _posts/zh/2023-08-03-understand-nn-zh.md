@@ -8,7 +8,7 @@ translated: true
 type: note
 ---
 
-智维： 
+智维：
 
 能否解释这段代码？
 
@@ -392,7 +392,7 @@ ChatGPT：当然可以！提供的代码是一个名为 `generate` 的方法，�
 
 3. **标记生成：**
    该方法为输出文本生成标记。它使用循环遍历生成序列中的位置，从提示的末尾开始向前移动。
-   
+
    - 通过将部分序列传递给模型的前向函数来获取每个位置的 logits。
    - 如果 `temperature` 大于 0，则使用给定的温度值通过 softmax 将 logits 转换为概率。如果 `temperature` 为 0，则使用 `torch.argmax` 选择具有最高 logit 的标记。
    - 根据生成的概率或 argmax 确定下一个标记，并将其放置在 `tokens` 张量的相应位置。

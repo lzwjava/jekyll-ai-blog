@@ -63,11 +63,11 @@ AMD是英伟达在GPU和AI加速器领域最直接的竞争对手，近期表现
 
 若进行投资，英伟达长期前景稳固，但可配置AMD以分散布局AI芯片浪潮。
 
-**参考资料**  
-[这只AI股票将成为首家6万亿美元公司](https://finance.yahoo.com/news/prediction-artificial-intelligence-ai-stock-230500946.html)  
-[英伟达凭借AI增长有望达到6万亿美元市值](https://www.bloomberg.com/news/articles/2025-06-25/nvidia-can-reach-6-trillion-market-cap-on-ai-growth-loop-says)  
-[预测：2026年英伟达股价走势展望](https://finance.yahoo.com/news/prediction-nvidias-stock-price-2026-101500678.html)  
-[AMD会成为2026年的英伟达吗？](https://www.fool.com/investing/2025/10/27/could-amd-be-the-nvidia-of-2026/)  
-[TPU与GPU：2025年核心差异解析](https://www.cloudoptimo.com/blog/tpu-vs-gpu-what-is-the-difference-in-2025/)  
-[英伟达携手全球计算机制造商推出首款AI优先的DGX个人计算系统](https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers)  
+**参考资料**
+[这只AI股票将成为首家6万亿美元公司](https://finance.yahoo.com/news/prediction-artificial-intelligence-ai-stock-230500946.html)
+[英伟达凭借AI增长有望达到6万亿美元市值](https://www.bloomberg.com/news/articles/2025-06-25/nvidia-can-reach-6-trillion-market-cap-on-ai-growth-loop-says)
+[预测：2026年英伟达股价走势展望](https://finance.yahoo.com/news/prediction-nvidias-stock-price-2026-101500678.html)
+[AMD会成为2026年的英伟达吗？](https://www.fool.com/investing/2025/10/27/could-amd-be-the-nvidia-of-2026/)
+[TPU与GPU：2025年核心差异解析](https://www.cloudoptimo.com/blog/tpu-vs-gpu-what-is-the-difference-in-2025/)
+[英伟达携手全球计算机制造商推出首款AI优先的DGX个人计算系统](https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers)
 [英伟达推出3000美元级“个人AI超级计算机”](https://www.wired.com/story/nvidia-personal-supercomputer-ces/)

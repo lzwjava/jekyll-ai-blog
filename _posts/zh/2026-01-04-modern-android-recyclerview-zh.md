@@ -10,10 +10,10 @@ translated: true
 type: note
 ---
 
-问题：在现代 Android 应用中，推荐使用哪个组件来显示可滚动的列表项目？  
-A) ListView  
-B) GridView  
-C) RecyclerView  
+问题：在现代 Android 应用中，推荐使用哪个组件来显示可滚动的列表项目？
+A) ListView
+B) GridView
+C) RecyclerView
 D) ScrollView
 
 答案：
@@ -35,7 +35,7 @@ RecyclerView 是现代 Android 应用中显示可滚动列表项目的推荐组�
 
 Android 官方文档推荐在所有新的列表/网格实现中使用 RecyclerView。
 
-参考资料：  
-- [https://developer.android.com/develop/ui/views/layout/recyclerview](https://developer.android.com/develop/ui/views/layout/recyclerview)  
-- [https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)  
+参考资料：
+- [https://developer.android.com/develop/ui/views/layout/recyclerview](https://developer.android.com/develop/ui/views/layout/recyclerview)
+- [https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)
 - [https://developer.android.com/guide/topics/ui/layout/recyclerview](https://developer.android.com/guide/topics/ui/layout/recyclerview)

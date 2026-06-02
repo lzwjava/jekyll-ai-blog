@@ -55,7 +55,7 @@ type: note
 
 Urs Hölzle 被广泛认为是现代云规模计算领域最具影响力的幕后架构师之一。他的工作使 Google 能够从一个小型搜索引擎成长为全球基础设施巨头，并在效率、规模和可持续性方面不断突破边界。
 
-参考文献：  
+参考文献：
 
 - [Urs Hölzle - Wikipedia](https://en.wikipedia.org/wiki/Urs_H%C3%B6lzle)
 - [Urs Hölzle - Google Research Profile](https://research.google/people/author79)

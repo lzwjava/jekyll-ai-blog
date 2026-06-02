@@ -11,7 +11,7 @@ type: note
 
 Question: How are computer networks classified based on their communication coverage area, and which classifications correspond to "a single unit (school)," "a city," "one or several countries," and "worldwide"?
 
-Answer: 
+Answer:
 
 Based on the geographical scope of their communication coverage, computer networks are primarily classified into four categories. Below is the classification along with the specific correspondences you requested:
 

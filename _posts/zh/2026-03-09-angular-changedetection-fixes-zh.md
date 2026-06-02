@@ -74,7 +74,7 @@ import { Component, Input, OnChanges, SimpleChanges, ChangeDetectorRef } from '@
 
 export class PaginationComponent implements OnChanges {
   @Input() totalItems = 0;
-  
+
   constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnChanges(changes: SimpleChanges) {

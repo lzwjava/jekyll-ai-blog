@@ -54,5 +54,5 @@ type: note
 
 这应该能让您的工作流程更快且无中断。如果您处于企业设置中，请与管理员核实，因为托管策略可能会覆盖用户设置。
 
-[Claude Code 设置文档](https://docs.claude.com/en/docs/claude-code/settings)  
+[Claude Code 设置文档](https://docs.claude.com/en/docs/claude-code/settings)
 [禁用 Claude Code 权限提示指南](https://www.arsturn.com/blog/how-to-disable-claude-code-permission-prompts)

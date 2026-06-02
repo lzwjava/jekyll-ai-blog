@@ -21,7 +21,7 @@ The Ruijie EW3000GX (full model: RG-EW3000GX) is a high-performance Wi-Fi 6 rout
 
 It's praised for value in real-world tests, like better wall penetration than some competitors in multi-room setups. Priced affordably (around $50–$80 depending on region), it's ideal for households with multiple devices.
 
-References:  
-[RG-EW3000GX Product Page](https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/wifi6-router/rg-ew3000gx)  
-[RG-EW3000GX Specs Overview](https://www.epcom.net/product/RG-EW3000GX-RUIJIE-230509.html)  
+References:
+[RG-EW3000GX Product Page](https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/wifi6-router/rg-ew3000gx)
+[RG-EW3000GX Specs Overview](https://www.epcom.net/product/RG-EW3000GX-RUIJIE-230509.html)
 [Speed Test Comparison](https://www.facebook.com/RuijieReyeeGlobal/posts/conducting-a-speed-test-rg-ew3000-gx-vs-other-ax3000-home-routers-in-a-real-worl/122255685554020144/)

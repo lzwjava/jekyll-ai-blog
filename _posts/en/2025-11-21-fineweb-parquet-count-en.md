@@ -24,5 +24,5 @@ Your script downloads shards 11 through 20 (10 files) from the very small `CC-MA
 
 If you want the exact count, you can compute it programmatically with the Hugging Face Hub API (e.g., using `huggingface_hub.list_repo_files`), but the rough numbers above are what people generally use when downloading or processing the full dataset.
 
-[FineWeb dataset card](https://huggingface.co/datasets/HuggingFaceFW/fineweb)  
+[FineWeb dataset card](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 [FineWeb data tree (example dump)](https://huggingface.co/datasets/HuggingFaceFW/fineweb/tree/main/data)

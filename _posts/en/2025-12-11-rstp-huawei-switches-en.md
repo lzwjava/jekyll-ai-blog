@@ -22,10 +22,10 @@ These commands configure **Rapid Spanning Tree Protocol (RSTP)** on a Huawei swi
 | `[SW1] stp mode rstp` | System view | Sets the STP operating mode to **RSTP (Rapid Spanning Tree Protocol - 802.1w)** instead of legacy STP (802.1D) or MSTP (802.1s). RSTP is the default on most modern Huawei switches, but this command explicitly forces it. |
 | `[SW1] stp priority 4096` | System view | Sets the **bridge priority** of this switch to 4096. Bridge priority values are multiples of 4096 (0, 4096, 8192, ..., 61440). Lower value = better chance to become Root Bridge). So 4096 is a very good (low) value — this switch will very likely become the Root Bridge if no other switch has 0 or a lower multiple. |
 | `[SW1] interface GigabitEthernet0/0/1` | Enter interface view | Moves to configuration mode for port GigabitEthernet 0/0/1 (a port that connects to an end device like a PC, IP phone, etc.). |
-| `[SW1-GigabitEthernet0/0/1] stp edged-port enable` | Interface view | Configures the port as an **Edge PortFast-like edge port** in Huawei terminology.  
-→ The port immediately transitions to Forwarding state without going through Listening/Learning (faster convergence).  
+| `[SW1-GigabitEthernet0/0/1] stp edged-port enable` | Interface view | Configures the port as an **Edge PortFast-like edge port** in Huawei terminology.
+→ The port immediately transitions to Forwarding state without going through Listening/Learning (faster convergence).
 → Used only on ports that connect to end stations (PCs, servers, etc.), never to another switch. |
-| `[SW1-GigabitEthernet0/0/1] stp bpdu protection` | Interface view | Enables **BPDU protection** on this edge port.  
+| `[SW1-GigabitEthernet0/0/1] stp bpdu protection` | Interface view | Enables **BPDU protection** on this edge port.
 → If the edge port unexpectedly receives a BPDU (which should never happen if only an end device is connected), the switch will automatically put the port into **error-down/shutdown** state to protect the spanning-tree topology from loops caused by misconfiguration or rogue switches. |
 
 Summary of what this configuration does overall

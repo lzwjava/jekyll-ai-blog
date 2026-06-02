@@ -11,10 +11,10 @@ translated: false
 type: note
 ---
 
-## Short answer  
+## Short answer
 
-**GROQ itself never “predicts the next token”.**  
-It is a **database‑style query language** that selects, filters, and reshapes the **structured JSON documents** you have stored in Sanity.  
+**GROQ itself never “predicts the next token”.**
+It is a **database‑style query language** that selects, filters, and reshapes the **structured JSON documents** you have stored in Sanity.
 The “semantic” power you see in Sanity‑based products comes from **two separate things**:
 
 | What you’re asking about | How it is actually done |
@@ -22,7 +22,7 @@ The “semantic” power you see in Sanity‑based products comes from **two sep
 | **Understanding the meaning of the content you stored (e.g., “show me all posts about React hooks”)** | GROQ uses **indexes, column‑store scans and Boolean predicates** to find the right documents. The “meaning” is encoded in the **explicit fields** you have (tags, categories, references, author, etc.) – no neural net needed. |
 | **Generating new text or completing a sentence (“write a summary of this article”)** | You have to call a **large language model (LLM)** – OpenAI, Anthropic, Cohere, a self‑hosted transformer, etc. The LLM does the heavy‑weight tensor‑matrix math (K‑Q‑V attention, softmax, etc.). The result is then **written back** to Sanity (or used as a prompt) via a normal API call. |
 
-So the short answer is: **Sanity’s speed comes from a classic, highly optimised query engine; any “next‑token prediction” or deep semantic understanding is performed **outside** of GROQ, by an external transformer‑based service.**  
+So the short answer is: **Sanity’s speed comes from a classic, highly optimised query engine; any “next‑token prediction” or deep semantic understanding is performed **outside** of GROQ, by an external transformer‑based service.**
 
 Below is a more detailed walk‑through that explains why this separation exists, how the two pieces fit together, and what you can do if you need *both* fast content retrieval **and** high‑quality language‑model predictions.
 
@@ -69,7 +69,7 @@ All of those operations are **deterministic, integer‑based, and I/O‑bounded*
 
 ## 4. If you *do* want token‑level prediction inside Sanity, how would it look?
 
-1. **Create a serverless function** (e.g., Vercel, Cloudflare Workers, AWS Lambda) that receives a request like `POST /api/generate`.  
+1. **Create a serverless function** (e.g., Vercel, Cloudflare Workers, AWS Lambda) that receives a request like `POST /api/generate`.
 2. Inside that function:
    ```js
    // 1️⃣ Pull the context you need
@@ -111,14 +111,14 @@ If you need sub‑100 ms total latency for a *chat* UI, you typically **run th
 | **Prompt‑engineering + few‑shot examples** | Improves the accuracy of a *large* LLM without extra fine‑tuning. | Same per‑token cost as the LLM, but you can keep prompts short (≤ 200 tokens) to stay cheap. |
 | **Hybrid retrieval‑augmented generation (RAG)** | Combine exact keyword match (GROQ) with a small LLM for the final answer. | You only call the LLM on a *few* retrieved documents, reducing token count dramatically. |
 
-**Best practice:**  
-- **Use GROQ first** to *narrow* the candidate set (e.g., fetch all posts of a certain type, or all docs that contain a specific tag).  
-- **If you need a “semantic” ranking**, run those candidates through a *vector similarity* step (still cheap).  
+**Best practice:**
+- **Use GROQ first** to *narrow* the candidate set (e.g., fetch all posts of a certain type, or all docs that contain a specific tag).
+- **If you need a “semantic” ranking**, run those candidates through a *vector similarity* step (still cheap).
 - **Only then** call the LLM for generation or summarisation on the *top‑N* items.
 
 ---
 
-## 6. Frequently asked “What about next‑token prediction?”  
+## 6. Frequently asked “What about next‑token prediction?”
 
 | Question | Answer |
 |----------|--------|

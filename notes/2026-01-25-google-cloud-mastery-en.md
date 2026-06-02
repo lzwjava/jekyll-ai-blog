@@ -12,7 +12,7 @@ type: note
 
 Question: What is the most important thing to learn in Google Cloud, especially regarding enabling APIs and exploring the console, whether for building products or obtaining the Professional Cloud Developer certification?
 
-Answer: 
+Answer:
 
 Yes, you're largely correct — **enabling APIs** and **deeply exploring the Google Cloud Console** are among the **highest-leverage activities** for both practical product development and passing the Professional Cloud Developer certification (PCD).
 
@@ -77,6 +77,6 @@ People who skip these steps usually waste days debugging "mysterious" permission
 
 So yes — **console fluency + knowing how/why/when to enable APIs** is probably the single most important meta-skill in Google Cloud, both for certification and for real products.
 
-References:  
+References:
 
 - None (based on general GCP knowledge and common certification & developer experience patterns)

@@ -47,7 +47,7 @@ Here's a side-by-side comparison based on 2025 realities (assuming continued tre
 Sublime isn't trying to be an all-in-one like VS Code or a collab powerhouse like Zed—it's a **speed demon and custom powerhouse** for focused editing. Here's why it still thrives:
 
 - **Unmatched Performance**: In 2025, with ever-larger codebases (e.g., monorepos with 1M+ lines), Sublime's C++ core makes it feel "snappy" everywhere. No jank on scrolling massive files, instant search/replace. Zed is close, but Sublime edges it on legacy hardware or pure editing tasks. VS Code often needs tweaks (e.g., disabling extensions) to match.
-  
+
 - **Distraction-Free Minimalism**: No sidebar bloat, no auto-suggestions unless you want them. Its **Goto Anything (Cmd/Ctrl+P)** is legendary—fuzzy search files/symbols in milliseconds. Multiple selections/cursors let you edit like a pro (e.g., rename variables across files instantly). Perfect for quick edits, config tweaking, or "zen mode" coding.
 
 - **Deep Customization Without Bloat**: Everything is configurable via simple JSON files (no GUI needed). Packages like LSP (for IntelliSense), GitGutter, or Emmet add VS Code-like features without the weight. It's like Vim/Emacs for GUI lovers—build your editor once, use forever.

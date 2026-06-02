@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which type of switch port allows multiple VLANs to pass through?  
-A) Access port  
-B) Trunk port  
-C) Hybrid port  
+Question: Which type of switch port allows multiple VLANs to pass through?
+A) Access port
+B) Trunk port
+C) Hybrid port
 D) Console port
 
-Answer: 
+Answer:
 
 The correct answer is **B) Trunk port**.
 

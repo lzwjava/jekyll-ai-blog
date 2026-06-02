@@ -11,7 +11,7 @@ type: note
 
 **Question**: Haier 干衣机的 **auto time** 模式在面板显示 **"RULE"** 时是如何工作的？它能检测衣服是否干燥吗？在 **mixed mode** 下，为什么有时会运行 3 或 4 小时？
 
-**Answer**: 
+**Answer**:
 
 Haier 干衣机的 **auto time**（也称为 **Auto Dry**、**Sensor Dry** 或类似模式）使用湿度传感器来检测滚筒内的湿度水平，并自动调整干燥时间。这些传感器（通常是滚筒内的金属条或带）在衣服翻滚并接触它们时测量湿度。干衣机会持续运行，直到衣服达到选定的干燥水平（例如，ready to wear、extra dry 或 ironing dry），而不是使用固定时间。
 
@@ -36,7 +36,7 @@ Haier 干衣机的 **auto time**（也称为 **Auto Dry**、**Sensor Dry** 或�
 
 这种行为是基于传感器的 auto 模式的正常现象，有助于防止过度干燥同时节省能源。
 
-**References**:  
+**References**:
 
 - [Haier Dryer - Remaining Time Changes During Auto Dry](https://www.haierappliances.com/support/support-content/34903)
 - [Haier Dryer - Dry Time Too Long](https://www.haierappliances.com/support/support-content/34896)

@@ -103,6 +103,6 @@ If you hit snags (e.g., ARM compatibility), the official docs have troubleshooti
 
 If this doesn't fix it or you share your `docker-compose.yml`, I can refine the advice!
 
-[LibreChat Official Docs - Docker Optimization](https://docs.librechat.ai/install/providers/docker.html)  
-[LibreChat Manual Installation Guide](https://docs.librechat.ai/install/installation/manual_install.html)  
+[LibreChat Official Docs - Docker Optimization](https://docs.librechat.ai/install/providers/docker.html)
+[LibreChat Manual Installation Guide](https://docs.librechat.ai/install/installation/manual_install.html)
 [Docker Desktop Resource Limits on macOS](https://docs.docker.com/desktop/settings/mac/)

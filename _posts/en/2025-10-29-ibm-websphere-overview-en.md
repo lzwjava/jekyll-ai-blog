@@ -18,7 +18,7 @@ IBM WebSphere Application Server is a robust, enterprise-grade Java application 
 WAS focuses on the full lifecycle of Java applications, from development and deployment to runtime management and modernization. Key functionalities include:
 
 - **Application Deployment and Hosting**: Deploys Java EE/Jakarta EE applications, including servlets, JSPs, EJBs, web services, and microservices. It supports distributed computing across multiple OS instances in a "cell" architecture, with centralized configuration via XML files and a Deployment Manager.
-  
+
 - **Runtime Management**: Provides high availability through clustering, load balancing, and intelligent routing. Features like session management, resource pooling (e.g., JDBC connections), and rolling updates ensure minimal downtime during maintenance.
 
 - **Security and Integration**: Implements Java EE security models with support for authentication (e.g., form-based, Kerberos, LDAP), authorization, and encryption. Integrates with web servers like Apache HTTP, IIS, and IBM HTTP Server, and supports standards like WS-Security and JACC.
@@ -45,6 +45,6 @@ Common use cases include e-commerce platforms, financial transaction systems, he
 
 For the latest details, check the official resources.
 
-[IBM WebSphere Application Server Product Page](https://www.ibm.com/products/websphere-application-server)  
-[WebSphere Application Server Documentation](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)  
+[IBM WebSphere Application Server Product Page](https://www.ibm.com/products/websphere-application-server)
+[WebSphere Application Server Documentation](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)
 [Wikipedia: IBM WebSphere Application Server](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)

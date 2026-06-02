@@ -11,7 +11,7 @@ type: note
 
 **Question:** How does the Framery DEV iOS app measure the prescription of eyeglasses using a laptop, a card, eyeglasses, computer graphics, etc.?
 
-**Answer:** 
+**Answer:**
 
 The app referred to is "The Framery" on iOS (App Store ID 1153638659), formerly known as GlassesOn (developed by 6over6, now rebranded under 1-800 Contacts/The Framery). It is not related to the "Framery" office pod company. The "DEV" likely refers to its development origins or an older/test name, but the current public app is "The Framery."
 
@@ -42,7 +42,7 @@ This method extracts key prescription values from single-vision lenses (accuracy
 
 The laptop/screen + graphics are specifically for the **prescription (Rx) extraction** part, enabling lens power analysis via displayed test patterns.
 
-**References:**  
+**References:**
 
 - [The Framery on the App Store](https://apps.apple.com/us/app/the-framery/id1153638659)
 - [The Framery PD tool page (mentions card usage)](https://www.theframery.com/pupillary-distance)

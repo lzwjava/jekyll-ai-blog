@@ -37,6 +37,6 @@ In **Guangzhou**, it's similar but more focused on airports (e.g., Baiyun Intern
 
 For more, check the "Beautiful Shenzhen" WeChat for updates—it's your go-to for local transport hacks.
 
-[Shenzhen Lianhuashan Park Travel Guide](https://www.trip.com/moments/poi-lian-hua-shan-park-83245/)  
-[Lianhuashan Park Parking Strategy (Baidu)](https://jingyan.baidu.com/article/495ba8419ed8fa79b30edeec.html)  
+[Shenzhen Lianhuashan Park Travel Guide](https://www.trip.com/moments/poi-lian-hua-shan-park-83245/)
+[Lianhuashan Park Parking Strategy (Baidu)](https://jingyan.baidu.com/article/495ba8419ed8fa79b30edeec.html)
 [Popular Shenzhen Parks Requiring Reservations (Zhihu)](https://zhuanlan.zhihu.com/p/522497801)

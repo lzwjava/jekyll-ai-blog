@@ -12,7 +12,7 @@ type: note
 
 Question: How do I use pre_tasks in an Ansible playbook?
 
-Answer: 
+Answer:
 
 In Ansible playbooks, `pre_tasks` are a list of tasks that execute **before** any roles or regular `tasks` in a play. They are commonly used for initial setup steps such as checking prerequisites, registering variables, updating package caches, or gathering facts conditionally.
 
@@ -85,6 +85,6 @@ pre_tasks:
 
 You can also combine `pre_tasks` with `post_tasks` for full control over execution flow.
 
-References:  
-- [Ansible Playbook Documentation - pre_tasks](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#pre-tasks-and-post-tasks)  
+References:
+- [Ansible Playbook Documentation - pre_tasks](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#pre-tasks-and-post-tasks)
 - [Ansible Playbook Structure](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html)

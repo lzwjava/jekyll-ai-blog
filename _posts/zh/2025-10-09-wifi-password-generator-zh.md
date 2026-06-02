@@ -165,17 +165,17 @@ def attempt_connect(ssid, password):
 def main():
     ssid_file = input("输入SSID或@tmp中的完整文件名（例如：MyWiFi_passwords.txt）: ").strip()
     filepath = os.path.join(TMP_DIR, ssid_file)
-    
+
     if not os.path.exists(filepath):
         print("文件未找到。")
         sys.exit(1)
-    
+
     ssid = ssid_file.replace('_passwords.txt', '').replace('_', ' ')
     print(f"正在尝试连接到'{ssid}'...")
-    
+
     with open(filepath, 'r') as f:
         passwords = [line.strip() for line in f if line.strip()]
-    
+
     for pwd in passwords:
         if attempt_connect(ssid, pwd):
             break

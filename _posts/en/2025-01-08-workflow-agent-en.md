@@ -25,7 +25,7 @@ For example, **o1 (chain-of-thought)** is like BFS. Initially, the main tasks ar
 
 For very complex tasks, like asking AI to build a YouTube app or create an operating system, it could use BFS, DFS, or a combination of both. It really depends on how we utilize BFS and DFS — sometimes AI needs to dig deep (DFS), and sometimes it needs to expand its approach (BFS).
 
-Another consideration is that for every step, AI should evaluate what to do next to hit its targets. 
+Another consideration is that for every step, AI should evaluate what to do next to hit its targets.
 
 **Targets** are an interesting aspect. There may be many targets, such as creating a YouTube app, where the AI needs to ensure all code works well, all features are implemented, and all tests pass. The way to reach these targets is fascinating. Should AI tackle one target at a time, or should it make progress on all targets simultaneously and then iterate on each?
 

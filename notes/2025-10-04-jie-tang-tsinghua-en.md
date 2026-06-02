@@ -47,10 +47,10 @@ At 48, Tang embodies China's "reverse brain drain" trend, mentoring a new genera
 
 Looking ahead, Tang is hiring for AGI-focused postdocs and students, signaling more breakthroughs. In a field racing toward superintelligence, he's not just participating—he's accelerating.
 
-[ Jie Tang's Homepage](https://keg.cs.tsinghua.edu.cn/jietang/)  
-[ Jie Tang Wikipedia](https://en.wikipedia.org/wiki/Jie_Tang)  
-[ Tang Jie Google Scholar](https://scholar.google.com/citations?user=n1zDCkQAAAAJ&hl=en)  
-[ The Rise of Zhipu AI](https://rockrose.xyz/the-rise-of-zhipu-ai/)  
-[ Zhipu AI Funding and IPO](https://www.globalneighbours.org/chinas-zhipu-ai-secures-140-million-investment-from-shanghai-state-funds-amid-ipo-push/)  
-[ GLM-4.5 Developments](https://offthegridxp.substack.com/p/glm-45-reasoning-coding-and-agentic)  
+[ Jie Tang's Homepage](https://keg.cs.tsinghua.edu.cn/jietang/)
+[ Jie Tang Wikipedia](https://en.wikipedia.org/wiki/Jie_Tang)
+[ Tang Jie Google Scholar](https://scholar.google.com/citations?user=n1zDCkQAAAAJ&hl=en)
+[ The Rise of Zhipu AI](https://rockrose.xyz/the-rise-of-zhipu-ai/)
+[ Zhipu AI Funding and IPO](https://www.globalneighbours.org/chinas-zhipu-ai-secures-140-million-investment-from-shanghai-state-funds-amid-ipo-push/)
+[ GLM-4.5 Developments](https://offthegridxp.substack.com/p/glm-45-reasoning-coding-and-agentic)
 [ Tsinghua AI Leadership](https://en.vnu.edu.vn/-post36625.html)

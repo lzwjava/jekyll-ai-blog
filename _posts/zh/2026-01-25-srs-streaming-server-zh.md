@@ -113,7 +113,7 @@ ffmpeg -re -i test.mp4 -c copy -f flv rtmp://localhost/live/livestream
 
 当你需要一个开源、高性能、多协议的实时流媒体服务器时，SRS 仍然是最佳选择之一 —— 尤其是当你需要在同一个盒子里实现 **RTMP ingestion + WebRTC/HLS delivery** 时。
 
-References:  
+References:
 
 - [SRS Official Website](https://ossrs.net/lts/en-us)
 - [SRS GitHub Repository](https://github.com/ossrs/srs)

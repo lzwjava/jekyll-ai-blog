@@ -23,6 +23,6 @@ Stretching over 518 meters in length with 17 arches, Guangji Bridge is celebrate
 Today, it remains a popular tourist spot, offering pedestrian walkways and opportunities to explore the surrounding historic areas. Whether you're interested in history, architecture, or local culture, Guangji Bridge provides a captivating glimpse into China's ancient ingenuity.
 
 #### References
-[Guangji Bridge (Chaozhou) - Wikipedia](https://en.wikipedia.org/wiki/Guangji_Bridge_%28Chaozhou%29)  
-[Chaozhou Guangji Bridge Travel Guide - Top China Tours](https://www.topchinatravel.com/china-attractions/chaozhou-guangji-bridge.htm)  
+[Guangji Bridge (Chaozhou) - Wikipedia](https://en.wikipedia.org/wiki/Guangji_Bridge_%28Chaozhou%29)
+[Chaozhou Guangji Bridge Travel Guide - Top China Tours](https://www.topchinatravel.com/china-attractions/chaozhou-guangji-bridge.htm)
 [Guangji Bridge, Chaozhou, Guangdong - Travel China Guide](https://www.travelchinaguide.com/cityguides/guangdong/chaozhou/guangji-bridge.htm)

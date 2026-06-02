@@ -20,13 +20,13 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 #### **`java.nio.charset` 中的关键类**
-1. **`Charset`**  
+1. **`Charset`**
    表示一种字符编码（例如 UTF-8、ISO-8859-1）。您可以使用此类指定字节与字符之间转换的编码。
 
-2. **`StandardCharsets`**  
+2. **`StandardCharsets`**
    一个实用工具类，提供常用字符集的常量，例如 `StandardCharsets.UTF_8` 或 `StandardCharsets.ISO_8859_1`。它避免了手动查找字符集名称的需要。
 
-3. **`CharsetEncoder` 和 `CharsetDecoder`**  
+3. **`CharsetEncoder` 和 `CharsetDecoder`**
    这些类提供了对编码（字符到字节）和解码（字节到字符）的细粒度控制，通常与 NIO 缓冲区（如 `ByteBuffer` 和 `CharBuffer`）一起使用。
 
 ---

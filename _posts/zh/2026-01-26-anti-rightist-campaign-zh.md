@@ -12,7 +12,7 @@ type: note
 
 **Question:** 20世纪50年代的中国，“左”或“右”意味着什么？“反右派” (fan you pai) 或“击败右派”指的是什么？
 
-**Answer:** 
+**Answer:**
 
 在20世纪50年代的 **China**，特别是在由毛泽东领导的中国共产党 (CCP) 统治下，**“左”** 和 **“右”** 这两个术语具有根植于 Marxist-Leninist 意识形态和革命政治的特定含义，这与西方的某些用法有所不同。
 
@@ -41,7 +41,7 @@ type: note
 
 这一事件被广泛认为结束了毛泽东时代中国任何真正的思想自由，并为后来的运动（如 Cultural Revolution）铺平了道路。
 
-**References:**  
+**References:**
 
 - [Anti-Rightist Campaign - Wikipedia](https://en.wikipedia.org/wiki/Anti-Rightist_Campaign)
 - [The “Active Rightists” of 1957 and Their Legacy - China Perspectives](https://journals.openedition.org/chinaperspectives/pdf/2553)

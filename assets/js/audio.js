@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
             audioPlayer.play();
         });
     }
-   
+
 });

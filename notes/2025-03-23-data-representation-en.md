@@ -19,7 +19,7 @@ Below is a comprehensive tutorial that breaks down the key topics in the “Data
 **Concepts:**
 
 - **Base-2 System:** Uses only two digits: 0 and 1.
-- **Place Value:** Each digit represents a power of 2. For a binary number \\( b_n b_{n-1} \dots b_1 b_0 \\), the value is  
+- **Place Value:** Each digit represents a power of 2. For a binary number \\( b_n b_{n-1} \dots b_1 b_0 \\), the value is
   \\[
   \sum_{i=0}^{n} b_i \times 2^i
   \\]
@@ -41,7 +41,7 @@ Convert binary \\( 1011_2 \\) to decimal:
 **Concepts:**
 
 - **Base-16 System:** Uses sixteen symbols: 0–9 and A–F (where A=10, B=11, …, F=15).
-- **Place Value:** Each digit represents a power of 16. For a hexadecimal number \\( h_n h_{n-1} \dots h_1 h_0 \\), the value is  
+- **Place Value:** Each digit represents a power of 16. For a hexadecimal number \\( h_n h_{n-1} \dots h_1 h_0 \\), the value is
   \\[
   \sum_{i=0}^{n} h_i \times 16^i
   \\]

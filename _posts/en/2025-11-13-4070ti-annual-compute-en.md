@@ -16,6 +16,6 @@ Assuming continuous operation for one full non-leap year (365 days) at 90% utili
 
 The total compute delivered over that period would be about 1.14 × 10²¹ floating-point operations (FLOPs), or 1.14 zettaFLOPs.
 
-[NVIDIA GeForce RTX 4070 Ti Specs | TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/geforce-rtx-4070-ti.c3950)  
-[NVIDIA GeForce RTX 4070 Ti GPU - Benchmarks and Specs](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4070-Ti-GPU-Benchmarks-and-Specs.679267.0.html)  
+[NVIDIA GeForce RTX 4070 Ti Specs | TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/geforce-rtx-4070-ti.c3950)
+[NVIDIA GeForce RTX 4070 Ti GPU - Benchmarks and Specs](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4070-Ti-GPU-Benchmarks-and-Specs.679267.0.html)
 [Nvidia GeForce RTX 4070 Ti: performance tests and specs | NR](https://nanoreview.net/en/gpu/geforce-rtx-4070-ti)

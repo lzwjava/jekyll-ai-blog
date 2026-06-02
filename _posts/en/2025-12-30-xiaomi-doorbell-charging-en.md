@@ -12,7 +12,7 @@ type: note
 
 Question: How to replace or charge the battery in a Xiaomi smart doorbell?
 
-Answer: 
+Answer:
 
 Xiaomi smart doorbells, particularly popular models like the **Xiaomi Smart Doorbell 3** and **Xiaomi Smart Doorbell 3S**, use a built-in rechargeable lithium battery (typically 5200mAh capacity). These batteries are **not user-replaceable** — the design emphasizes long battery life (up to 4-5 months per charge, depending on usage) to avoid the need for frequent charging or replacement.
 
@@ -33,7 +33,7 @@ Xiaomi smart doorbells, particularly popular models like the **Xiaomi Smart Door
 - Check battery level in the Mi Home/Xiaomi Home app — it may not update in real-time; press the doorbell button or trigger motion to sync the status.
 - If the battery no longer holds a charge after years of use, contact Xiaomi support, as the battery is integrated and not meant for user replacement.
 
-References:  
+References:
 
 - [Xiaomi Smart Doorbell 3 FAQ](https://www.mi.com/global/support/faq/details/KA-11484/)
 - [How to charge the Xiaomi Smart Doorbell 3S](https://www.mi.com/global/support/faq/details/KA-243201/)

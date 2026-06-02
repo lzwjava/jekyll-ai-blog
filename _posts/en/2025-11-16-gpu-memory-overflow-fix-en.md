@@ -24,7 +24,7 @@ for _ in range(eval_iters):  # 200 times!
     logits, loss = model(x, y)
 ```
 
-Each `get_batch` returns `batch_size × block_size` tokens → 16 × 1024  
+Each `get_batch` returns `batch_size × block_size` tokens → 16 × 1024
 With eval_iters = 200 → 200 separate forward passes, but PyTorch keeps the computation graph and intermediate activations for the entire eval loop in memory if you're not careful. Combined with the massive KV cache (12 layers × 12 heads × 1024 × 576 × 2 bytes FP16 ≈ 1.6 GB just for cache), plus logits (16×1024×50304 × 2 bytes ≈ 1.6 GB per forward), you easily blow past 12 GB even though training itself is fine.
 
 ### Quick Fixes (pick one or combine)

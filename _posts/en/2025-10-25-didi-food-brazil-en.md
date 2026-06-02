@@ -19,8 +19,8 @@ Didi (operating primarily through its 99 brand in Brazil) is in a strong growth 
 
 Overall, Didi's trajectory in Brazil looks bullish, with heavy investments signaling confidence in the market's potential amid Brazil's growing digital economy.
 
-[DiDi's 99Food Launches in Rio de Janeiro](https://equalocean.com/briefing/20251017230148657)  
-[Brazil Court Blocks Didi's 99Food From Enforcing Exclusive Deals](https://www.caixinglobal.com/2025-10-24/brazil-court-blocks-didis-99food-from-enforcing-exclusive-deals-against-rival-meituan-102374957.html)  
-[China's Didi to expand food delivery services in Brazil](https://asia.nikkei.com/business/china-tech/china-s-didi-to-expand-food-delivery-services-in-brazil)  
-[99Food expands to Rio, plans R$2bn investment in Brazil](https://valorinternational.globo.com/business/news/2025/10/15/99food-expands-to-rio-plans-r2bn-investment-in-brazil.ghtml)  
+[DiDi's 99Food Launches in Rio de Janeiro](https://equalocean.com/briefing/20251017230148657)
+[Brazil Court Blocks Didi's 99Food From Enforcing Exclusive Deals](https://www.caixinglobal.com/2025-10-24/brazil-court-blocks-didis-99food-from-enforcing-exclusive-deals-against-rival-meituan-102374957.html)
+[China's Didi to expand food delivery services in Brazil](https://asia.nikkei.com/business/china-tech/china-s-didi-to-expand-food-delivery-services-in-brazil)
+[99Food expands to Rio, plans R$2bn investment in Brazil](https://valorinternational.globo.com/business/news/2025/10/15/99food-expands-to-rio-plans-r2bn-investment-in-brazil.ghtml)
 [Didi Relaunches Food Delivery in Brazil](https://en.tmtpost.com/post/7647360)

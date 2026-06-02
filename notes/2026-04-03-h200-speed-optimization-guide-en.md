@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-The reason it "feels" slow is purely a matter of reporting, not actual performance. On an H200, your training is actually running at **blazing fast speeds**. 
+The reason it "feels" slow is purely a matter of reporting, not actual performance. On an H200, your training is actually running at **blazing fast speeds**.
 
 Here is the breakdown of why you see **21 seconds** per iteration and why that is actually a good number:
 

@@ -37,7 +37,7 @@ type: note
 
 布沙拉作风低调（未活跃于社交平台），但其对AI芯片的影响深远——使AWS成为不依赖英伟达的定制芯片领导者。
 
-**参考资料**  
-- [纳菲亚·布沙拉——AWS Graviton芯片背后的以色列推手](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)  
-- [硅晶创新如何成为AWS成功的“秘密武器”](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)  
+**参考资料**
+- [纳菲亚·布沙拉——AWS Graviton芯片背后的以色列推手](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)
+- [硅晶创新如何成为AWS成功的“秘密武器”](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)
 - [AI芯片竞赛内幕：亚马逊对阵微软与谷歌的战略](https://www.geekwire.com/2023/inside-the-ai-chip-race-how-a-pivotal-happy-hour-changed-amazons-strategy-in-the-cloud/)

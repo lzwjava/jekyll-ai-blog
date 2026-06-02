@@ -34,6 +34,6 @@ If you're shopping in English, search for "men's quick-dry long-sleeve shirt" on
 | 京造 (Jingzao)      | 100 Cool Quick-Dry T-shirt | Cotton-poly mix, breathable for summer | JD.com exclusive, affordable |
 | Uniqlo AIRism       | Quick-drying base layer | Anti-bacterial, ultra-soft | Uniqlo global line |
 
-[户外运动速干T恤定制](https://www.tshe.com/sugan)  
-[Jd Jingzao Quick-Dry Men's T-Shirt](https://www.noon.com/uae-en/jd-jingzao-100-cool-quick-dry-men-s-sports-short-sleeve-t-shirt-cotton-for-running-fitness-outdoor-summer-gray-xxl/Z78CB642A6F0DE5533A14Z/p/)  
+[户外运动速干T恤定制](https://www.tshe.com/sugan)
+[Jd Jingzao Quick-Dry Men's T-Shirt](https://www.noon.com/uae-en/jd-jingzao-100-cool-quick-dry-men-s-sports-short-sleeve-t-shirt-cotton-for-running-fitness-outdoor-summer-gray-xxl/Z78CB642A6F0DE5533A14Z/p/)
 [Uniqlo AIRism Explanation](https://www.uniqlo.com/us/en/special-feature/airism)

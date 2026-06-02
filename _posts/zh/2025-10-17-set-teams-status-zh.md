@@ -57,7 +57,7 @@ type: note
 
 若要在空闲期间保持“在线”状态（常见的变通方法），存在一些模拟活动的脚本（例如，每隔几分钟切换一次 Num Lock 键），但它们并非真正的状态设置工具。
 
-参考资料：  
-[使用 MS Graph PowerShell 管理 Microsoft Teams 中的在线状态](https://m365scripts.com/microsoft-teams/manage-presence-status-in-microsoft-teams-using-ms-graph-powershell/)  
-[Set-MgUserPresence PowerShell Cmdlet 文档](https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.users.actions/set-mguserpresence)  
+参考资料：
+[使用 MS Graph PowerShell 管理 Microsoft Teams 中的在线状态](https://m365scripts.com/microsoft-teams/manage-presence-status-in-microsoft-teams-using-ms-graph-powershell/)
+[Set-MgUserPresence PowerShell Cmdlet 文档](https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.users.actions/set-mguserpresence)
 [关于通过 API/命令行设置 Teams 状态的 Reddit 讨论](https://www.reddit.com/r/teams/comments/1h5wee9/teams_status_with_api_command_line/)

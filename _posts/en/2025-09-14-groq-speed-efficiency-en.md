@@ -11,7 +11,7 @@ translated: false
 type: note
 ---
 
-### TL;DR  
+### TL;DR
 **GROQ** (Graph‑Relational Object Queries) feels “instant” because San Sanity has built a query engine that is:
 
 | What it does | Why it makes GROQ fast |
@@ -132,8 +132,8 @@ The **key differentiator** is that GROQ is *designed* to be executed directly ag
 | Order + limit (`*[_type=="comment"]|order(publishedAt desc)[0...20]{...}`) | 150 k | 5 fields | 67 ms | 30 ms |
 | Full‑text match (`*[_type=="post" && title match "react"]`) | 200 k | `_id, slug` | 84 ms | 38 ms |
 
-*Cold* = first request after a deploy (no plan cache, no result cache).  
-*Warm* = subsequent request (plan cached, column pages hot in memory).  
+*Cold* = first request after a deploy (no plan cache, no result cache).
+*Warm* = subsequent request (plan cached, column pages hot in memory).
 
 All of these numbers are **well below the 100 ms “interactive” threshold**, which is why editors feel the UI is “instant”.
 
@@ -150,8 +150,8 @@ All of these numbers are **well below the 100 ms “interactive” threshold**
 
 All of those engineering choices add up, giving GROQ the reputation of being “blazingly fast” for content‑centric queries. If you ever notice a slowdown, it’s usually because:
 
-* The query touches **unindexed fields** (the engine falls back to a full scan).  
-* You request **very large blobs** (e.g., raw image data) that bypass the column store.  
+* The query touches **unindexed fields** (the engine falls back to a full scan).
+* You request **very large blobs** (e.g., raw image data) that bypass the column store.
 * The query plan isn’t cached (e.g., you generate a new query string on every render).
 
 Optimising those three aspects—adding an index (`*[_type=="post" && tags[]._ref in $tagIds]` → add a `tags._ref` index), reducing the field list, or re‑using the same query string—will bring the latency back to the sub‑30 ms range.

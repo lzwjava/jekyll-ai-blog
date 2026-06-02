@@ -123,7 +123,7 @@ acme:
 
 修复配置后，服务应该正常启动（`systemctl status hysteria-server` 显示 active/running）。
 
-参考资料：  
+参考资料：
 
 - [Hysteria 2 Full Server Config (tls vs acme)](https://v2.hysteria.network/docs/advanced/Full-Server-Config)
 - [Hysteria 2 ACME DNS Config (alternative to HTTP challenge)](https://v2.hysteria.network/docs/advanced/ACME-DNS-Config)

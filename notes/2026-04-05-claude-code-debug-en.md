@@ -67,8 +67,8 @@ Then ask things like:
 
 ## Bottom Line
 
-> Web search → useful for setup  
-> Docs → useful for overview  
+> Web search → useful for setup
+> Docs → useful for overview
 > Claude Code + source → **the only reliable answer** for runtime behavior of a fast-moving project
 
 You're at the right debugging stage to make that switch. The signature works, the network works — now it's logic, and logic lives in the code.

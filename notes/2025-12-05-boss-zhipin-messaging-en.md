@@ -20,7 +20,7 @@ To get a reply rate >30–50%, you must make the message about **them and their 
 
 ### Best Proven Templates & Strategies (2024–2025)
 
-1. **Job Title Play-on-Words (Highest Reply Rate ~60%)**  
+1. **Job Title Play-on-Words (Highest Reply Rate ~60%)**
    When the title itself has a fun word, use it immediately:
    - JD: “配置管理工程师” → “领导，能不能先把我配置进贵公司再谈别的？[笑哭] 5年CM实战，Jenkins+Ansible+ArgoCD都很熟”
    - JD: “算法工程师” → “领导，我可以帮您把损失函数降到最低，顺便把招聘成本也降到最低[dog]”
@@ -48,13 +48,13 @@ To get a reply rate >30–50%, you must make the message about **them and their 
 - Attach resume in first message without context → most HR won’t open
 
 ### Ideal Message Structure (3 Lines Max)
-1. Hook (funny/personalized/pain-solving)  
-2. Proof (one strong result or keyword match)  
+1. Hook (funny/personalized/pain-solving)
+2. Proof (one strong result or keyword match)
 3. Call-to-action (“10分钟电话/简历已投/方便时聊聊”)
 
-Example that got 87% reply rate in my last test:  
-“领导，您招的‘配置管理’我来应聘了，直接把我配置成在职员工行不行[doge]  
-5年配置管理，带过15人团队，负责过3000+服务器零宕机发布  
+Example that got 87% reply rate in my last test:
+“领导，您招的‘配置管理’我来应聘了，直接把我配置成在职员工行不行[doge]
+5年配置管理，带过15人团队，负责过3000+服务器零宕机发布
 10分钟电话聊聊？”
 
 Try the first 10 recruiters with the title-play template — you’ll see the reply rate explode immediately.

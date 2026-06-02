@@ -38,9 +38,9 @@ Stripe展现了如何以更低冗余实现全球扩张：它提供统一支付AP
 
 实践中，银行正朝此方向迈进：许多机构采用"银行即服务"（BaaS）模式或直接与Stripe合作布局嵌入式金融。但相比灵活的金融科技公司，遗留系统和更严格监管（如美联储或新加坡金管局）仍拖慢进展速度。
 
-[App Store上的渣打银行应用](https://apps.apple.com/kg/developer/standard-chartered-bank/id367337301)  
-[移动银行应用 - 渣打新加坡](https://www.sc.com/sg/bank-with-us/mobile-banking-services/standard-chartered-mobile/)  
-[开放银行中的监管挑战](https://adria-bt.com/en/regulatory-challenges-in-open-banking-best-practices-for-compliance/)  
-[全球企业解决方案 - Stripe](https://stripe.com/use-cases/global-businesses)  
-[具备数据驻留功能的GitHub企业云](https://github.com/enterprise/data-residency)  
+[App Store上的渣打银行应用](https://apps.apple.com/kg/developer/standard-chartered-bank/id367337301)
+[移动银行应用 - 渣打新加坡](https://www.sc.com/sg/bank-with-us/mobile-banking-services/standard-chartered-mobile/)
+[开放银行中的监管挑战](https://adria-bt.com/en/regulatory-challenges-in-open-banking-best-practices-for-compliance/)
+[全球企业解决方案 - Stripe](https://stripe.com/use-cases/global-businesses)
+[具备数据驻留功能的GitHub企业云](https://github.com/enterprise/data-residency)
 [全球支付API详解 - Stripe](https://stripe.com/resources/more/global-payment-apis-explained-how-they-work-and-how-to-use-them)

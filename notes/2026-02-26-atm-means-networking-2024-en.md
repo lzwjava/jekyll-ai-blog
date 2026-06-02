@@ -11,7 +11,7 @@ type: note
 
 Question: Does the ATM mentioned above refer to the ATM machine we use to withdraw or deposit cash from banks?
 
-Answer: 
+Answer:
 
 **No**, the "ATM" in the previous discussion (and in the original question about "ATM network environment" and "ATM terminal users") does **not** refer to the common cash machine (Automated Teller Machine) found at banks.
 
@@ -28,6 +28,6 @@ In your original question ("ATM网络环境由两部分组成：ATM终端用户�
 
 The two terms just happen to share the same three-letter acronym, but they are unrelated in function and history.
 
-References:  
+References:
 
 - None (standard networking and telecommunications terminology)

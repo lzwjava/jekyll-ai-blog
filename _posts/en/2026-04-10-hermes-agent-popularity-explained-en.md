@@ -11,7 +11,7 @@ type: note
 
 Question: Why is the Hermes Agent repository (https://github.com/nousresearch/hermes-agent) popular?
 
-Answer: 
+Answer:
 
 Hermes Agent is an open-source, self-improving AI agent framework developed by Nous Research. It has gained massive popularity in the AI community, amassing around 49.6k GitHub stars and 6.4k forks shortly after its release in early 2026. This rapid growth reflects strong interest in advanced, persistent AI agents that go beyond one-off interactions.
 
@@ -21,7 +21,7 @@ Hermes Agent is an open-source, self-improving AI agent framework developed by N
 
 - **Persistent Memory and Personalization**: It maintains cross-session memory, scheduled automations (via built-in cron), and user modeling. This allows it to handle ongoing projects, recall relevant history, and adapt to individual workflows without constant manual re-explanation.
 
-- **Flexibility and Accessibility**: 
+- **Flexibility and Accessibility**:
   - Model-agnostic: Supports hundreds of models via OpenRouter, Nous Portal, OpenAI-compatible endpoints, local setups, and more. Users can switch models easily without code changes.
   - Multi-platform support: Accessible via CLI, Telegram, Discord, Slack, WhatsApp, Signal, and more, including voice transcription.
   - Lightweight deployment: Runs efficiently on low-cost infrastructure like a $5 VPS, Docker, serverless platforms, or GPU clusters. It costs almost nothing when idle and isn't tied to a single device.
@@ -40,8 +40,8 @@ Hermes Agent is an open-source, self-improving AI agent framework developed by N
 
 In summary, Hermes Agent stands out for solving core limitations in current AI agents—lack of long-term memory and self-evolution—while remaining practical, affordable, and extensible. Its popularity stems from delivering a more "alive" and evolving AI experience that feels genuinely useful for complex, ongoing tasks.
 
-References:  
-- [GitHub Repository](https://github.com/nousresearch/hermes-agent)  
-- [Hermes Agent Documentation](https://hermes-agent.nousresearch.com/docs/)  
-- [Turing Post Article on Hermes vs. OpenClaw](https://www.turingpost.com/p/hermes)  
+References:
+- [GitHub Repository](https://github.com/nousresearch/hermes-agent)
+- [Hermes Agent Documentation](https://hermes-agent.nousresearch.com/docs/)
+- [Turing Post Article on Hermes vs. OpenClaw](https://www.turingpost.com/p/hermes)
 - [News.Bitcoin.com Explanation](https://news.bitcoin.com/what-is-hermes-agent-nous-researchs-self-improving-ai-explained/)

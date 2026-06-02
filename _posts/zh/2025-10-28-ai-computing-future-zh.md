@@ -23,5 +23,5 @@ type: note
 
 这一理论框架有助于解释为何当前AI模型（例如OpenAI发布的模型）更强调大规模扩展而非精细调整。
 
-[斯坦福CS25: V4 - 与Hyung Won Chung共同塑造AI未来](https://www.linkedin.com/pulse/stanford-cs25-v4-shaping-future-ai-hyung-won-chung-tarazona-md-lf9pe)  
+[斯坦福CS25: V4 - 与Hyung Won Chung共同塑造AI未来](https://www.linkedin.com/pulse/stanford-cs25-v4-shaping-future-ai-hyung-won-chung-tarazona-md-lf9pe)
 [完整讲座视频（YouTube）](https://www.youtube.com/watch?v=orDKvo8h71o)

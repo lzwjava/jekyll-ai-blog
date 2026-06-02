@@ -12,7 +12,7 @@ type: note
 
 Question: Use English to introduce Francis Bacon's essay "Of Studies" (also commonly translated as "On Reading" or "Of Studies").
 
-Answer: 
+Answer:
 
 **Of Studies** 是 Francis Bacon 最著名且被引用次数最多的文章之一。Francis Bacon 是英国著名的哲学家、政治家，也是文艺复兴时期 Essay 文体形式的先驱。
 
@@ -27,7 +27,7 @@ Bacon 还就如何对待书籍提出了实用建议：有些书只需品尝（ta
 
 凭借其清晰、警句式（aphoristic）的文风和平衡的智慧，《Of Studies》仍然是 English prose（英文散文）中最具影响力且经久不衰的作品之一。作为关于学习价值和正确使用方法的经典论述，它至今仍被广泛阅读、引用和教学。
 
-References:  
+References:
 
 - [Francis Bacon – Of Studies (full text, 1625 edition)](https://www.gutenberg.org/files/575/575-h/575-h.htm#link2H_4_0008)
 - [Francis Bacon, Essays (various editions)](https://en.wikipedia.org/wiki/Essays_(Francis_Bacon))

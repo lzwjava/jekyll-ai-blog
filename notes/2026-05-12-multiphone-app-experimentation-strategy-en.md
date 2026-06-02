@@ -28,7 +28,7 @@ This is a really interesting and ambitious strategy — here’s my honest take:
 3. **Share publicly** — your “1000 best” could become a newsletter, database, or YouTube channel. People would follow a human + AI review system.
 4. **Lighten the load** — try a crossbody phone pouch/belt instead of pockets, or rotate which third phone you take daily.
 
-**Final thought:**  
+**Final thought:**
 Welcome, bro. This *is* unusual, but unusual is where innovation lives. If you truly enjoy discovering and sharing, then a little extra weight in your bag is a small price. Just stay disciplined — otherwise 10,000 apps will own you instead of you enjoying them.
 
 Would you want help setting up an AI workflow to track and rate those 300–500 apps per phone?

@@ -73,13 +73,13 @@ type: note
 
 更多资源请浏览Hugging Face Datasets中心：[Hugging Face Datasets](https://huggingface.co/datasets)。务必核实许可！
 
-**参考文献**  
-[ChatGPT及我们的基础模型是如何开发的](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed)  
-[GPT-oss泄露了OpenAI训练数据的哪些信息](https://www.lesswrong.com/posts/iY9584TRhqrzawhZg/what-gpt-oss-leaks-about-openai-s-training-data)  
-[Anthropic将使用Claude聊天记录作为训练数据](https://www.wired.com/story/anthropic-using-claude-chats-for-training-how-to-opt-out/)  
-[Anthropic的HH-RLHF数据集](https://huggingface.co/datasets/Anthropic/hh-rlhf)  
-[DeepSeek-R1训练用了哪些数据？](https://epoch.ai/gradient-updates/what-went-into-training-deepseek-r1)  
-[DeepSeek模型完整指南：从V3到R1及更高版本](https://www.bentoml.com/blog/the-complete-guide-to-deepseek-models-from-v3-to-r1-and-beyond)  
-[LLMDataHub：LLM训练优质数据集集锦](https://github.com/Zjh-819/LLMDataHub)  
-[LLM训练的开源数据集](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)  
+**参考文献**
+[ChatGPT及我们的基础模型是如何开发的](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed)
+[GPT-oss泄露了OpenAI训练数据的哪些信息](https://www.lesswrong.com/posts/iY9584TRhqrzawhZg/what-gpt-oss-leaks-about-openai-s-training-data)
+[Anthropic将使用Claude聊天记录作为训练数据](https://www.wired.com/story/anthropic-using-claude-chats-for-training-how-to-opt-out/)
+[Anthropic的HH-RLHF数据集](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+[DeepSeek-R1训练用了哪些数据？](https://epoch.ai/gradient-updates/what-went-into-training-deepseek-r1)
+[DeepSeek模型完整指南：从V3到R1及更高版本](https://www.bentoml.com/blog/the-complete-guide-to-deepseek-models-from-v3-to-r1-and-beyond)
+[LLMDataHub：LLM训练优质数据集集锦](https://github.com/Zjh-819/LLMDataHub)
+[LLM训练的开源数据集](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)
 [LLM训练数据：8大主要公共数据源](https://oxylabs.io/blog/llm-training-data)

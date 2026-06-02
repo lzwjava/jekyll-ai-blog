@@ -18,13 +18,13 @@ Your build log shows successful compilation of individual source files (with som
 These are from GCC's `-Wall` flag. They don't stop the build but indicate potential bugs. Fix them to clean up the output.
 
 - **utils.c**:
-  - Line ~4 (in `location_cmp()`): Format specifier mismatch. `strlen()` returns `size_t` (unsigned long), but you're using `%d` (int).  
-    **Fix**: Change `%d` to `%zu` in the `printf`:  
+  - Line ~4 (in `location_cmp()`): Format specifier mismatch. `strlen()` returns `size_t` (unsigned long), but you're using `%d` (int).
+    **Fix**: Change `%d` to `%zu` in the `printf`:
     ```c
     printf("[++++] location_cmp() RESULT: %d (%zu)\n", result, strlen(A) > strlen(B) ? strlen(A) : strlen(B));
     ```
-  - Line 287 (in `kbhit()`): Ignoring `read()` return value (it can fail).  
-    **Fix**: Check the return value:  
+  - Line 287 (in `kbhit()`): Ignoring `read()` return value (it can fail).
+    **Fix**: Check the return value:
     ```c
     if (read(0, &key, 1) != 1) {
         // Handle error, e.g., return 0;
@@ -32,18 +32,18 @@ These are from GCC's `-Wall` flag. They don't stop the build but indicate potent
     ```
 
 - **resume.c**:
-  - Line 32 (in `dump()`): Misleading indentation—`fflush(stdout)` isn't guarded by the `if`.  
-    **Fix**: Add braces or reindent:  
+  - Line 32 (in `dump()`): Misleading indentation—`fflush(stdout)` isn't guarded by the `if`.
+    **Fix**: Add braces or reindent:
     ```c
     if (options.debuging > 2) {
         printf("[++] dump() Dumping Session State AT %s", asctime(ptr));
         fflush(stdout);
     }
     ```
-  - Lines 38–41 and 109–112: Ignoring `asprintf()` return values (it can fail and leave pointers uninitialized).  
+  - Lines 38–41 and 109–112: Ignoring `asprintf()` return values (it can fail and leave pointers uninitialized).
     **Fix**: Check returns (e.g., `if (asprintf(&dumppath, ...) < 0) { /* error */ }`). Do this for all calls.
-  - Line 120 (in `resume()`): Ignoring `fread()` return value (it might not read the full struct).  
-    **Fix**: Check it:  
+  - Line 120 (in `resume()`): Ignoring `fread()` return value (it might not read the full struct).
+    **Fix**: Check it:
     ```c
     if (fread(&options, sizeof(struct opciones), 1, desc) != 1) {
         // Handle error, e.g., fclose(desc); return;
@@ -55,10 +55,10 @@ Recompile after fixes: `make clean && make` (assuming a Makefile; if not, rerun 
 #### 2. Fatal Linker Errors (Multiple Definitions)
 The linker (`/usr/bin/ld`) complains about dozens of symbols (e.g., `options`, `encontradas`, `curl`, etc.) being defined multiple times across object files (`dirb.o`, `crea_wordlist.o`, etc.). All trace back to `/home/lzwjava/projects/dirb/src/variables.h:XX`.
 
-**Root Cause**:  
+**Root Cause**:
 `variables.h` likely **defines** these globals directly (e.g., `struct opciones options;`) instead of **declaring** them as `extern`. When included in multiple `.c` files, each compiles to an `.o` with its own copy of the definitions. Linking merges them, causing conflicts.
 
-**Solution**:  
+**Solution**:
 Use the "extern" pattern for shared globals:
 - **Declare** in header with `extern` (tells compiler "this exists elsewhere").
 - **Define** (without `extern`) in **exactly one** `.c` file (e.g., `dirb.c`).

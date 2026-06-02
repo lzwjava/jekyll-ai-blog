@@ -12,7 +12,7 @@ type: note
 
 Question: What does "handicapped" mean?
 
-Answer: 
+Answer:
 
 "Handicapped" is an adjective or noun referring to a person who has a physical or mental disability that substantially limits one or more major life activities (e.g., walking, seeing, hearing, learning, working).
 

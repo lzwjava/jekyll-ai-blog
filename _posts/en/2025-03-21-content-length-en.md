@@ -8,7 +8,7 @@ translated: false
 type: note
 ---
 
-The unit of the **Content-Length** header in the HTTP protocol is **bytes**. 
+The unit of the **Content-Length** header in the HTTP protocol is **bytes**.
 
 In HTTP, the **Content-Length** header is used to indicate the size of the response body that the server is sending to the client. This size is specified as a decimal number representing the number of bytes (or octets, where one octet equals 8 bits) in the message body. According to the HTTP/1.1 specification (RFC 7230, Section 3.3.2), the **Content-Length** header field explicitly states the size of the message body in octets, which confirms that the unit is bytes.
 

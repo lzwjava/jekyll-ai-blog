@@ -25,7 +25,7 @@ Cloud Foundry's design is modular, opinionated, and built around the "12-factor 
 
 3. **Services Marketplace**: PCF provides a "service broker" model where managed services (databases like MySQL/PostgreSQL, message queues like RabbitMQ, or third-party integrations) are cataloged. Apps "bind" to these services to get credentials and connection details automatically, without hardcoding.
 
-4. **Security and Identity**: 
+4. **Security and Identity**:
    - UAA (User Account and Authentication): Handles OAuth2-based authentication, single sign-on (SSO), and role-based access control (RBAC).
    - It integrates with LDAP, SAML, or enterprise identity providers, which is crucial for banks.
 

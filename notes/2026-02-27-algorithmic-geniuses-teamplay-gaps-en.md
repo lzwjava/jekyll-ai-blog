@@ -11,7 +11,7 @@ type: note
 
 **Question:** How do colleagues describe their ACM ICPC gold winner / IOI gold winner colleague? How do they perform in daily job?
 
-**Answer:** 
+**Answer:**
 
 Descriptions of ACM ICPC gold medalists or IOI gold medalists in professional workplaces (especially at tech companies like Google, high-frequency trading firms, startups, or product companies) vary widely, but some recurring patterns emerge from developer discussions, hiring anecdotes, and team experiences.
 
@@ -42,7 +42,7 @@ Descriptions of ACM ICPC gold medalists or IOI gold medalists in professional wo
 
 In short: colleagues often describe them as **geniuses at hard isolated problems** but **not necessarily the best rounded engineers** for everyday product work. The very highest performers (multiple golds, legendary CF/AtCoder/IOI/ICPC records) tend to be exceptions and usually end up in environments that match their strengths.
 
-**References:**  
+**References:**
 
 - [https://news.ycombinator.com/item?id=9324209](https://news.ycombinator.com/item?id=9324209)
 - [https://www.reddit.com/r/programming/comments/6lvux0/being_good_at_programming_competitions_correlates](https://www.reddit.com/r/programming/comments/6lvux0/being_good_at_programming_competitions_correlates)

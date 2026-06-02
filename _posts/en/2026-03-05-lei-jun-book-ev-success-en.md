@@ -11,7 +11,7 @@ type: note
 
 Question: Did Lei Jun, the founder of Xiaomi, read a lot of books about car history and startup/entrepreneur stories when starting the car project, and did this kind of self-study or "brainwashing" help much with his success?
 
-Answer: 
+Answer:
 
 **Yes, Lei Jun engaged in intensive self-study by reading books when Xiaomi entered the electric vehicle (EV) industry.**
 
@@ -21,7 +21,7 @@ He also read biographies of automotive industry figures and watched racing movie
 
 While specific titles on "car history" or classic startup stories (beyond his earlier life influenced by books like Steve Jobs biographies or *Silicon Valley of Fire*) are not always named for the car phase, his approach fits the pattern of **deliberate "self-brainwashing"** — immersing himself deeply in a new domain through reading, hands-on learning, and mindset change.
 
-**Did this help much with success?**  
+**Did this help much with success?**
 It contributed significantly, but it was one part of a larger formula:
 
 - **Knowledge acquisition** — As a newcomer (Xiaomi coming from smartphones), Lei needed to close the expertise gap quickly. Self-study helped him make informed decisions, set ambitious goals (e.g., outperforming Tesla Model S and Porsche Taycan in specs), and avoid some beginner mistakes.
@@ -30,7 +30,7 @@ It contributed significantly, but it was one part of a larger formula:
 
 In short, this intensive reading and self-immersion was **very helpful** — it built foundational understanding and emotional commitment in a short time — but success resulted from combining it with execution, resources, timing in China's EV boom, and Lei's proven track record. Many entrepreneurs (e.g., Elon Musk with rockets) use similar "forced learning" to enter complex industries, and it often accelerates progress when paired with action.
 
-References:  
+References:
 
 - [What Xiaomi's Billionaire CEO Lei Jun Is Reading to Build EVs](https://www.bloomberg.com/news/articles/2022-10-07/what-xiaomi-s-billionaire-ceo-lei-jun-is-reading-to-build-evs)
 - [Xiaomi CEO Lei Jun says passion is key to building a great car](https://kr-asia.com/xiaomi-ceo-lei-jun-says-passion-is-key-to-building-a-great-car)

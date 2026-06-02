@@ -21,7 +21,7 @@ Her work on *Spirited Away* earned her the Music Award at the 56th Mainichi Film
 ### Later Years and Legacy
 Beyond Ghibli, Kimura has released several albums showcasing her lyre performances and original compositions, often incorporating folk and classical motifs. She has appeared on television programs like *Music Station* and continues to perform live, maintaining a niche but devoted following. While she has not pursued high-profile solo tours or frequent media appearances, her influence endures through her timeless songs in anime culture. As of 2025, Kimura remains active in music, occasionally contributing to soundtracks and performances, embodying a quiet, introspective artistry that resonates with themes of perseverance and wonder.
 
-For more details:  
-[Youmi Kimura - Wikipedia](https://en.wikipedia.org/wiki/Youmi_Kimura)  
-[Yumi Kimura - IMDb](https://www.imdb.com/name/nm1175835/)  
+For more details:
+[Youmi Kimura - Wikipedia](https://en.wikipedia.org/wiki/Youmi_Kimura)
+[Yumi Kimura - IMDb](https://www.imdb.com/name/nm1175835/)
 [Youmi Kimura - Last.fm](https://www.last.fm/music/%E6%9C%A8%E6%9D%91%E5%BC%93/%2Bwiki)

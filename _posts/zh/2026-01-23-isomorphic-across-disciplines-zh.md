@@ -24,18 +24,18 @@ Answer:
 
 按领域分类的示例：
 
-- **Graph theory**  
+- **Graph theory**
   如果可以对一个图的顶点重新标记，使其与另一个图完全相同（具有相同的连接关系），则这两个图是 isomorphic 的。
 
-- **Group theory**  
-  两个群 (G, ⋅) 和 (H, ∗) 是 isomorphic 的，如果存在一个 bijection φ: G → H，使得  
-  φ(a ⋅ b) = φ(a) ∗ φ(b) 对于所有 a, b ∈ G 均成立  
+- **Group theory**
+  两个群 (G, ⋅) 和 (H, ∗) 是 isomorphic 的，如果存在一个 bijection φ: G → H，使得
+  φ(a ⋅ b) = φ(a) ∗ φ(b) 对于所有 a, b ∈ G 均成立
   （它们的乘法表完全相同，只是元素的名称不同）
 
-- **Linear algebra**  
+- **Linear algebra**
   如果两个 vector spaces 具有相同的维数（它们之间存在线性 bijection），则它们是 isomorphic 的。
 
-- **Category theory**  
+- **Category theory**
   如果两个对象之间存在 isomorphism（一个具有 inverse morphism 的 morphism），则它们是 isomorphic 的。
 
 快速总结表：
@@ -55,9 +55,9 @@ Answer:
 - **Programming / databases**：如果两个 data structures / schemas 能够通过无损转换（lossless conversion）表示完全相同的信息，则它们是 isomorphic 的。
 - **日常语言** (罕见)：指“结构上相同”或“形式上等价”。
 
-**在 Math/CS 中最常用的简短回答**：  
+**在 Math/CS 中最常用的简短回答**：
 "Isomorphic = 它们之间存在一种保持结构的 bijection。"
 
-References:  
+References:
 
 - None (此为标准数学术语)

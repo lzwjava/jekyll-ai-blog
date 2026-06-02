@@ -37,10 +37,10 @@ Answer:
 
 GRPO 代表了 RLHF (Reinforcement Learning from Human Feedback) 技术的一次高效演进，尤其适用于具有客观评估标准的领域。
 
-References:  
+References:
 
-- [DeepSeekMath Paper (arXiv)](https://arxiv.org/pdf/2402.03300)  
-- [DataCamp: What is GRPO?](https://www.datacamp.com/blog/what-is-grpo-group-relative-policy-optimization)  
-- [Oxen.ai: Why GRPO is Important](https://ghost.oxen.ai/why-grpo-is-important-and-how-it-works/)  
-- [Medium: The Math Behind DeepSeek GRPO](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)  
+- [DeepSeekMath Paper (arXiv)](https://arxiv.org/pdf/2402.03300)
+- [DataCamp: What is GRPO?](https://www.datacamp.com/blog/what-is-grpo-group-relative-policy-optimization)
+- [Oxen.ai: Why GRPO is Important](https://ghost.oxen.ai/why-grpo-is-important-and-how-it-works/)
+- [Medium: The Math Behind DeepSeek GRPO](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)
 - [Hugging Face Blog: PPO & GRPO Explanation](https://huggingface.co/blog/NormalUhr/grpo)

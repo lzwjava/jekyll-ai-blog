@@ -11,21 +11,21 @@ type: note
 
 Question: How to play Hou Yi in King of Glory (Honor of Kings)
 
-Answer: 
+Answer:
 
 Hou Yi (also known as Hoi or Hui in some guides) is a beginner-friendly marksman (ADC) in *Honor of Kings* (international version of *King of Glory* / *王者荣耀*), excelling in the Farm Lane (gold lane). He deals high sustained physical damage through multi-arrow basic attacks, provides team-wide crowd control with his long-range ultimate, and thrives in team fights with proper positioning. His kit is simple but requires kiting, stack management, and ult prediction to master.
 
 ### Abilities
-- **Passive: Chastising Shot**  
+- **Passive: Chastising Shot**
   Basic attacks grant attack speed and 1 stack (up to 3). At 3 stacks, enhanced attacks fire **3 arrows** (main target full damage + 2 splash at 50-60% damage each). Prioritize stacking via AA (auto-attacks) for massive poke and wave clear.
 
-- **Skill 1: Arrow Volley** (Main DPS skill; max first)  
+- **Skill 1: Arrow Volley** (Main DPS skill; max first)
   Enhances basic attacks for 5s: increased damage, hits 2 additional nearby enemies (50% damage). Combos perfectly with passive for multi-target shredding.
 
-- **Skill 2: Afterglow** (Max second)  
+- **Skill 2: Afterglow** (Max second)
   Drops an arrow in an area: damages, slows enemies, reveals vision. Use for poke, slows, bush checks, or zoning.
 
-- **Ultimate: Burning Sun Arrow** (Global range)  
+- **Ultimate: Burning Sun Arrow** (Global range)
   Fires a flaming arrow across the map. Stuns the first hit (0.75-3.5s based on travel distance), explodes for AoE damage + 90% slow (1s). Predict paths for engages, picks, or escapes.
 
 **Skill Priority**: Skill 1 > Skill 2 > Ult.
@@ -67,7 +67,7 @@ Focus on attack speed (to stack passive fast), crit (for burst), and lifesteal (
 
 Practice in normals: Focus on passive stacks (aim for 100% uptime) and ult accuracy for quick rank-ups.
 
-References: 
+References:
 - [Honor of Kings Wiki - Hou Yi](https://honor-of-kings.fandom.com/wiki/Hou_Yi)
 - [GamingonPhone Hou Yi Guide](https://gamingonphone.com/guides/honor-of-kings-hou-yi-guide-gameplay-tips)
 - [Sportskeeda Best Build](https://www.sportskeeda.com/esports/best-hou-yi-build-honor-kings-equipments-arcanas-battle-spell-skill-combo)

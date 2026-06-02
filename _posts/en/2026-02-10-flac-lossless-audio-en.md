@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the FLAC audio format?
 
-Answer: 
+Answer:
 
 **FLAC** (Free Lossless Audio Codec) is a popular **open-source** audio format designed for **lossless compression** of digital audio.
 
@@ -69,7 +69,7 @@ These permanently remove "less important" data to achieve smaller sizes, which i
 
 In summary, FLAC is still (in 2026) the **de facto standard** for open, royalty-free, high-quality lossless audio storage and playback — combining excellent sound quality, reasonable file sizes, and very broad compatibility.
 
-References:  
+References:
 
 - [https://xiph.org/flac](https://xiph.org/flac)
 - [https://en.wikipedia.org/wiki/FLAC](https://en.wikipedia.org/wiki/FLAC)

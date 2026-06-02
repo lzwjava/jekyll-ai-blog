@@ -26,9 +26,9 @@ type: note
 
 若您提到的“背部恐慌问题”另有所指（或许是背痛或恐慌症的笔误），我按已知的背部疾患进行了解读，如有其他含义请告知。
 
-参考文献：  
-[杰弗里·辛顿 - 维基百科](https://en.wikipedia.org/wiki/Geoffrey_Hinton)  
-[谷歌如何斥资数百万收购深度学习初创公司DNNresearch - 商业内幕](https://www.businessinsider.com/google-bought-deep-learning-startup-dnnresearch-2013-3)  
-[辛顿坦言为何如今畏惧自己助力创造的技术 - 麻省理工科技评论](https://www.technologyreview.com/2023/05/02/1072527/geoffrey-hinton-ai-dangers-interview/)  
-[张益唐 - 维基百科](https://en.wikipedia.org/wiki/Yitang_Zhang)  
+参考文献：
+[杰弗里·辛顿 - 维基百科](https://en.wikipedia.org/wiki/Geoffrey_Hinton)
+[谷歌如何斥资数百万收购深度学习初创公司DNNresearch - 商业内幕](https://www.businessinsider.com/google-bought-deep-learning-startup-dnnresearch-2013-3)
+[辛顿坦言为何如今畏惧自己助力创造的技术 - 麻省理工科技评论](https://www.technologyreview.com/2023/05/02/1072527/geoffrey-hinton-ai-dangers-interview/)
+[张益唐 - 维基百科](https://en.wikipedia.org/wiki/Yitang_Zhang)
 [独行天才证明孪生素数猜想 - 量子杂志](https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-on-prime-numbers-20130519/)

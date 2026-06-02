@@ -181,7 +181,7 @@ def add_package_declaration(java_file, package):
     """如果不存在包声明，则将其添加到Java文件顶部"""
     with open(java_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     if not content.strip().startswith('package '):
         new_content = f'package {package};\n\n{content}'
         with open(java_file, 'w', encoding='utf-8') as f:
@@ -205,7 +205,7 @@ def reorganize_nowcoder():
         target_file = target_dir / java_file.name
         shutil.move(str(java_file), str(target_file))
         print(f'已移动 {java_file} 至 {target_file}')
-        
+
         # 添加包声明
         add_package_declaration(target_file, 'com.algorithm.solutions.nowcoder')
 

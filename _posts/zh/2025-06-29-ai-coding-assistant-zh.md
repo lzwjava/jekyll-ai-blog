@@ -69,10 +69,10 @@ Claude Code 能根据自然语言提示生成代码片段，支持 Python、Java
 def sort_numbers(numbers):
     """
     对数字列表（包含正负数）进行升序排序
-    
+
     参数：
         numbers (list): 整数或浮点数列表
-    
+
     返回：
         list: 排序后的数字列表
     """
@@ -107,11 +107,11 @@ Claude 可能回应：“TypeError 是因为 `a` 是字符串而 `b` 是整数�
 def add_numbers(a, b):
     """
     两数相加，必要时将字符串转为数字
-    
+
     参数：
         a: 第一个数字（整数、浮点数或字符串）
         b: 第二个数字（整数、浮点数或字符串）
-    
+
     返回：
         float 或 int: 两数之和
     """

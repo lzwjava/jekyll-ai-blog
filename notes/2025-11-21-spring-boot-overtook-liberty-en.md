@@ -32,7 +32,7 @@ IBM WebSphere Application Server Liberty Profile (often abbreviated as WLP or si
 
 In short: **Liberty didn't lose because it was technically inferior — it lost because Spring Boot delivered dramatically higher developer productivity, arrived at the perfect cultural moment, and built unstoppable ecosystem momentum.** Most new Java backend projects in 2025 start with Spring Boot (or Quarkus/Helidon/Micronaut), not a separate application server.
 
-[Spring Boot vs Websphere Liberty | What are the differences?](https://stackshare.io/stackups/spring-boot-vs-websphere-liberty)  
-[2020 Java Technology Report | JRebel](https://www.jrebel.com/blog/2020-java-technology-report)  
-[How does Open Liberty’s performance compare to other cloud-native Java runtimes](https://openliberty.io/blog/2022/10/17/memory-footprint-throughput-update.html)  
+[Spring Boot vs Websphere Liberty | What are the differences?](https://stackshare.io/stackups/spring-boot-vs-websphere-liberty)
+[2020 Java Technology Report | JRebel](https://www.jrebel.com/blog/2020-java-technology-report)
+[How does Open Liberty’s performance compare to other cloud-native Java runtimes](https://openliberty.io/blog/2022/10/17/memory-footprint-throughput-update.html)
 [Spring Boot market share data (6sense)](https://6sense.com/tech/programming-framework/spring-boot-market-share)

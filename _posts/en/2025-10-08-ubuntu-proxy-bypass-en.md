@@ -57,6 +57,6 @@ If you prefer terminal (or need to automate), use `gsettings` (modern Ubuntu) or
 
 Test by pinging a listed host or checking proxy behavior in a browser. If issues arise (e.g., with specific apps), the env var method often covers more ground.
 
-[Setting up proxy to ignore all local addresses](https://askubuntu.com/questions/11274/setting-up-proxy-to-ignore-all-local-addresses)  
-[How to Configure Proxy Settings on Ubuntu](https://phoenixnap.com/kb/ubuntu-proxy-settings)  
+[Setting up proxy to ignore all local addresses](https://askubuntu.com/questions/11274/setting-up-proxy-to-ignore-all-local-addresses)
+[How to Configure Proxy Settings on Ubuntu](https://phoenixnap.com/kb/ubuntu-proxy-settings)
 [Set a network range in the no_proxy environment variable](https://unix.stackexchange.com/questions/23452/set-a-network-range-in-the-no-proxy-environment-variable)

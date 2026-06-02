@@ -12,7 +12,7 @@ type: note
 
 Question: 链接为 https://www.youtube.com/watch?v=nJdCqaIIPHQ 的 YouTube 视频讲了什么？
 
-Answer: 
+Answer:
 
 这视频是一部名为 **"Steve Cohen - America's Most Profitable Day Trader"** 的传记短纪录片，由 FINAiUS 频道于 2021 年 7 月 2 日上传。
 
@@ -31,6 +31,6 @@ Answer:
 
 该视频带有推广性质（包括资金交易账户和西装的广告），热门评论通常强调 Insider Trading 的角度、与美剧 *Billions*（大致以他为原型）的对比，以及关于市场中需要 Edge 的教训。
 
-References:  
+References:
 
 - [YouTube Video](https://www.youtube.com/watch?v=nJdCqaIIPHQ)

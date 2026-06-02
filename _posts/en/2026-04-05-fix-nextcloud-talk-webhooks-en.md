@@ -45,7 +45,7 @@ Then set your bot config to match exactly:
 }
 ```
 
-> ⚠️ `baseUrl` = what Nextcloud **thinks it is** (from `overwrite.cli.url`)  
+> ⚠️ `baseUrl` = what Nextcloud **thinks it is** (from `overwrite.cli.url`)
 > ⚠️ `webhookPublicUrl` = where your bot is **actually reachable** from Nextcloud's perspective
 
 ---

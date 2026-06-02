@@ -12,7 +12,7 @@ type: note
 
 Question: 如何更换或充电 Xiaomi smart doorbell 的电池？
 
-Answer: 
+Answer:
 
 Xiaomi smart doorbells，特别是像 **Xiaomi Smart Doorbell 3** 和 **Xiaomi Smart Doorbell 3S** 这样的热门型号，使用的是内置可充电锂电池（通常容量为 5200mAh）。这些电池是**不可由用户更换的** —— 其设计强调长续航（根据使用情况，每次充电可使用长达 4-5 个月），以避免频繁充电或更换的需要。
 
@@ -35,7 +35,7 @@ Xiaomi smart doorbells，特别是像 **Xiaomi Smart Doorbell 3** 和 **Xiaomi S
 - 在 Mi Home/Xiaomi Home app 中查看电池电量 —— 电量可能不会实时更新；按下门铃按钮或触发移动侦测以同步状态。
 - 如果电池在使用多年后不再蓄电，请联系 Xiaomi 售后支持，因为电池是集成的，不建议用户自行更换。
 
-References:  
+References:
 
 - [Xiaomi Smart Doorbell 3 FAQ](https://www.mi.com/global/support/faq/details/KA-11484/)
 - [How to charge the Xiaomi Smart Doorbell 3S](https://www.mi.com/global/support/faq/details/KA-243201/)

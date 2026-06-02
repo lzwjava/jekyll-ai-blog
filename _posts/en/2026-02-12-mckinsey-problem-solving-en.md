@@ -12,7 +12,7 @@ type: note
 
 Question: What is the McKinsey way of working?
 
-Answer: 
+Answer:
 
 **The McKinsey Way** refers to the distinctive problem-solving methodology, work practices, and culture of **McKinsey & Company**, one of the world's leading management consulting firms. It is most famously described in the 1999 book *The McKinsey Way* by former McKinsey consultant Ethan M. Rasiel, but the core principles remain central to how the firm operates today.
 
@@ -50,7 +50,7 @@ McKinsey also invests heavily in training consultants in these methods from day 
 
 While the firm has evolved (incorporating digital tools, AI, agile ways of working, etc.), the foundational "McKinsey Way" of rigorous, structured, hypothesis-led problem solving remains a hallmark of their culture and client work.
 
-References:  
+References:
 
 - [The McKinsey guide to problem solving](https://www.mckinsey.com/featured-insights/mckinsey-guide-to-problem-solving)
 - [How to master the seven-step problem-solving process](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-to-master-the-seven-step-problem-solving-process)

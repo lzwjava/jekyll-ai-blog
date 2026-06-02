@@ -39,10 +39,10 @@ Not obsolete, but definitely evolving. High-end "top apartments" (those luxury p
 
 This mismatch between static bricks and dynamic bytes is frustrating, but it's sparking real innovation. Modular + AI could make cities feel as fresh as your latest gadget—adaptable, efficient, and alive.
 
-**References**  
-[Modular Housing Offers Good Design, Efficiency And Value](https://www.forbes.com/sites/jennifercastenson/2025/05/29/modular-housing-offers-good-design-efficiency-and-value/)  
-[Modular Construction in 2025: Costs, Benefits, and Why It's the Future](https://builtfront.com/blog/modular-construction/)  
-[Reimagining The Future Of Smart Home Technology](https://www.forbes.com/sites/jennifercastenson/2025/07/23/smart-home-technology-reimagined-the-future-is-so-much-smarter/)  
-[The Future of Smart Home Technology: Revolutionary Trends](https://digitalholics.com/the-future-of-smart-home-technology/)  
-[Why High-Rise Apartments Are Taking Over Cities](https://thegreenfortune.com/high-rise-apartment/)  
+**References**
+[Modular Housing Offers Good Design, Efficiency And Value](https://www.forbes.com/sites/jennifercastenson/2025/05/29/modular-housing-offers-good-design-efficiency-and-value/)
+[Modular Construction in 2025: Costs, Benefits, and Why It's the Future](https://builtfront.com/blog/modular-construction/)
+[Reimagining The Future Of Smart Home Technology](https://www.forbes.com/sites/jennifercastenson/2025/07/23/smart-home-technology-reimagined-the-future-is-so-much-smarter/)
+[The Future of Smart Home Technology: Revolutionary Trends](https://digitalholics.com/the-future-of-smart-home-technology/)
+[Why High-Rise Apartments Are Taking Over Cities](https://thegreenfortune.com/high-rise-apartment/)
 [How to stop your smart technology from ageing](https://smartbuildingsmagazine.com/news/how-to-stop-your-smart-technology-from-ageing)

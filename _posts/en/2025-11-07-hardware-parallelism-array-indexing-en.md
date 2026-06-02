@@ -20,7 +20,7 @@ This 2013 blog post by Yin Wang (王寅) dives into the fundamental reason why d
   - Bit A decides between two groups: {W, X} or {Y, Z}.
   - Bit B decides between another split: {W, Y} or {X, Z}.
   - These bits don't run sequentially—they operate **in parallel** using AND gates and wires to combine signals and light up exactly one output (e.g., if A=0, B=1 → select W).
-  
+
   This mimics 2 steps of binary search (log₂(4) = 2) but completes in a single hardware "tick" because everything happens simultaneously.
 
 - **Scaling Up**: For a full n-bit address (handling 2ⁿ elements), the circuit runs all log₂(n) binary search steps in parallel. That's why it's O(1): the hardware does the "search" instantly, without looping or comparisons in software.

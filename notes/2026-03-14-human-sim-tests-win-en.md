@@ -50,8 +50,8 @@ This is exactly why the test "passed" locally but "failed" for the user — the 
 ## Recommended OpenClaw Workflow
 
 ```
-Deploy → Run human-simulated integration test → 
-  If FAIL → diagnose & fix → re-run test → 
+Deploy → Run human-simulated integration test →
+  If FAIL → diagnose & fix → re-run test →
   If PASS → report success to user
 ```
 

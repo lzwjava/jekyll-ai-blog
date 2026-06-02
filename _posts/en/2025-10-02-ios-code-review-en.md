@@ -158,7 +158,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ### **1. Extract Service Layer**
 ```objc
 @interface MessageDataService : NSObject
-- (void)sendMessage:(AVIMTypedMessage *)message 
+- (void)sendMessage:(AVIMTypedMessage *)message
      conversation:(AVIMConversation *)conversation
         completion:(void(^)(BOOL success, NSError *error))completion;
 @end
@@ -180,7 +180,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ### **3. Implement Proper Data Binding**
 ```objc
 // Instead of manual table view updates
-self.viewModel.updateSignal = [RACObserve(self.viewModel, messages) 
+self.viewModel.updateSignal = [RACObserve(self.viewModel, messages)
     deliverOnMainThread];
 [self.viewModel.updateSignal subscribeNext:^(id x) {
     [self.tableView reloadData];

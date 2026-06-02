@@ -12,7 +12,7 @@ type: note
 
 Question: How can I use my MacBook Air M2 as just a screen/monitor to remotely access and control my powerful desktop PC running Ubuntu while lying in bed, without using SSH?
 
-Answer: 
+Answer:
 
 To achieve this—using your **MacBook Air M2** as the display and input device for your **Ubuntu desktop PC** over your local network (Wi-Fi or Ethernet)—you need a **remote desktop solution**. This streams the Ubuntu desktop to your MacBook in fullscreen, with mouse, keyboard, and trackpad control passed to the PC. It will feel close to using the MacBook as a direct monitor, though there will be some network latency (minimal on a good home Wi-Fi, especially 5GHz or wired).
 
@@ -77,9 +77,9 @@ Avoid classic VNC (like Ubuntu's older Screen Sharing)—it's higher latency tha
 
 Sunshine + Moonlight will give you the closest to "just a monitor" feel due to its gaming-grade low latency.
 
-References:  
+References:
 
-- https://github.com/LizardByte/Sunshine  
-- https://moonlight-stream.org  
-- https://www.nomachine.com  
+- https://github.com/LizardByte/Sunshine
+- https://moonlight-stream.org
+- https://www.nomachine.com
 - https://ubuntu.com/tutorials/access-remote-desktop

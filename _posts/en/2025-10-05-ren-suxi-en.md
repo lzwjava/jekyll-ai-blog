@@ -16,7 +16,7 @@ As for her songs, she has a solid discography of OSTs and originals like "I Want
 
 Specifically on "Dear You Ah" (亲爱的你啊), the theme song for the 2025 drama *Endless End* (无尽的尽头)—it's a standout. Super touching, with lyrics about reunion and growing up amid pain (like "Dear you, we haven't seen each other in a long time, have you grown up a bit?"). Her delivery is haunting and sincere, backed by orchestral swells that amp up the heartbreak. It's got over 1.4 million YouTube views already, and fans call it a tearjerker that sticks with you. If you like emotional, narrative-driven tunes (à la Faye Wong or early Jay Chou ballads), you'll probably love it—give the official MV a spin.
 
-[Ren Suxi Wikipedia](https://en.wikipedia.org/wiki/Ren_Suxi)  
-[Apple Music - Suxi Ren](https://music.apple.com/us/artist/suxi-ren/1429730949)  
-[YouTube - 亲爱的你啊 Official Audio](https://www.youtube.com/watch?v=VnQWBaJJcq0)  
+[Ren Suxi Wikipedia](https://en.wikipedia.org/wiki/Ren_Suxi)
+[Apple Music - Suxi Ren](https://music.apple.com/us/artist/suxi-ren/1429730949)
+[YouTube - 亲爱的你啊 Official Audio](https://www.youtube.com/watch?v=VnQWBaJJcq0)
 [China Daily - Popular Songs 2016](https://www.chinadaily.com.cn/culture/2017-01/01/content_27835501_8.htm)

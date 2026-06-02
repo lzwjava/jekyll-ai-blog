@@ -11,7 +11,7 @@ type: note
 
 Question: How to use a server-generated SSH key's permissions to access the instance?
 
-Answer: 
+Answer:
 
 If a server (such as AWS EC2, Oracle Cloud, Azure, or similar cloud provider) **generated an SSH key pair** for you during instance creation, this almost always means:
 
@@ -82,7 +82,7 @@ If you never received/downloaded any private key file, then the instance probabl
 - Reset access by mounting the volume elsewhere
 - Or create and add a new key pair
 
-References:  
+References:
 
 - [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
 - [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)

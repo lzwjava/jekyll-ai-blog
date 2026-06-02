@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of Silicon Valley over the last 100 years, including some key events and milestones?
 
-Answer: 
+Answer:
 
 Silicon Valley, located in the southern San Francisco Bay Area (primarily Santa Clara Valley), has transformed from an agricultural region known as the "Valley of Heart's Delight" for its orchards into the world's leading hub for high technology and innovation over the past century (approximately 1925–2025). Its evolution was driven by academic institutions (especially Stanford University), government funding (military and space programs), entrepreneurial culture, venture capital, and waves of technological breakthroughs.
 
@@ -48,12 +48,12 @@ Silicon Valley, located in the southern San Francisco Bay Area (primarily Santa 
 
 Silicon Valley's success stems from a unique mix of university research, risk-taking entrepreneurship, immigrant talent, and government support, creating a culture of spin-offs and rapid iteration.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Silicon_Valley  
-- https://historycooperative.org/history-of-silicon-valley/  
-- https://www.businessinsider.com/key-moments-in-silicon-valley-history-2019-10  
-- https://steveblank.substack.com/p/the-secret-history-of-silicon-valley-155  
-- https://livefromsiliconvalley.com/evolution-of-silicon-valley-a-comprehensive-timeline/  
-- https://jointventure.org/338-state-of-the-valley-2025  
+- https://en.wikipedia.org/wiki/Silicon_Valley
+- https://historycooperative.org/history-of-silicon-valley/
+- https://www.businessinsider.com/key-moments-in-silicon-valley-history-2019-10
+- https://steveblank.substack.com/p/the-secret-history-of-silicon-valley-155
+- https://livefromsiliconvalley.com/evolution-of-silicon-valley-a-comprehensive-timeline/
+- https://jointventure.org/338-state-of-the-valley-2025
 - https://ethw.org/Milestones:Birthplace_of_Silicon_Valley%2C_1956

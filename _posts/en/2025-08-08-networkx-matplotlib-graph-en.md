@@ -23,13 +23,13 @@ pip install networkx matplotlib
 For faster rendering, Matplotlib recommends installing NumPy (`pip install numpy`).
 
 ### Basic Setup and Example
-1. **Import libraries**:  
+1. **Import libraries**:
    ```python
    import networkx as nx
    import matplotlib.pyplot as plt
    ```
 
-2. **Create a graph**:  
+2. **Create a graph**:
    Use NetworkX to build a simple undirected graph (you can customize with directed graphs, weighted edges, etc.):
    ```python
    G = nx.Graph()  # Create an empty graph
@@ -37,7 +37,7 @@ For faster rendering, Matplotlib recommends installing NumPy (`pip install numpy
    G.add_edges_from([(1, 2), (2, 3), (3, 4), (4, 5), (5, 1)])  # Add edges (connections)
    ```
 
-3. **Draw and display the diagram**:  
+3. **Draw and display the diagram**:
    Use Matplotlib's backend for visualization:
    ```python
    nx.draw(G, with_labels=True)  # Draw the graph with node labels

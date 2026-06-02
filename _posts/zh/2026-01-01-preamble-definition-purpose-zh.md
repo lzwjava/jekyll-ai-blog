@@ -12,7 +12,7 @@ type: note
 
 Question: What does "preamble" mean?
 
-Answer: 
+Answer:
 
 **Preamble** 是一个引言性陈述或章节，用于解释文件、法律、演讲或协议的目的、背景或原因。
 
@@ -35,6 +35,6 @@ Preamble 是重要文件的开头部分，告诉你它**为什么**存在以及�
 
 ### Word Origin
 
-源自拉丁语 *praeambulus*（“走在前面”）。 
+源自拉丁语 *praeambulus*（“走在前面”）。
 
 如果您有特定的上下文（例如：特定的 constitution、法律或文件），请随时提供，以便获得更详细的解释！

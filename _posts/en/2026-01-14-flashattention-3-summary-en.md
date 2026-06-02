@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=_B6ZbRbxiMY say?
 
-Answer: 
+Answer:
 
 The video is a technical keynote presentation titled **"CUDA Mode Keynote | Tri Dao | Together.ai"** uploaded by the Accel channel on October 3, 2024.
 
@@ -35,7 +35,7 @@ It features Tri Dao (Assistant Professor at Princeton and Chief Scientist at Tog
 
 The talk is highly technical, aimed at GPU programmers, ML researchers, and people working on high-performance transformer implementations. It includes slides with benchmarks, kernel diagrams, and code-level explanations.
 
-References:  
+References:
 
-- [CUDA Mode Keynote | Tri Dao | Together.ai](https://www.youtube.com/watch?v=_B6ZbRbxiMY)  
+- [CUDA Mode Keynote | Tri Dao | Together.ai](https://www.youtube.com/watch?v=_B6ZbRbxiMY)
 - [Accel event page mentioning the talk](https://www.accel.com/noteworthy/6-keynotes-from-the-first-cuda-mode-irl-hackathon)

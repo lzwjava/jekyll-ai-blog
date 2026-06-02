@@ -12,7 +12,7 @@ type: note
 
 Question: Why are directories important in programming, and how can they be used to store a large number of configuration files or code files? Is it mainly about categorization?
 
-Answer: 
+Answer:
 
 Directories (also called folders) are fundamental in programming for organizing files in a filesystem. They play a critical role in managing complexity as projects grow, making code and resources easier to navigate, maintain, collaborate on, and scale.
 
@@ -81,7 +81,7 @@ Configurations are often numerous (e.g., database, logging, environments like de
 
 In summary, directories enable effective categorization, turning a messy pile of files into a structured, professional codebase. Start simple, stay consistent, and adapt as the project evolves.
 
-References:  
+References:
 
 - [How to Properly Organize Files in Your Codebase](https://www.sitepoint.com/organize-project-files/)
 - [How to Design a Project Directory Structure: Best Practices](https://relaxraccoon.medium.com/how-to-design-a-project-directory-structure-best-practices-for-code-and-resource-files-e379eab91a77)

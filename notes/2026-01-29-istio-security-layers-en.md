@@ -12,7 +12,7 @@ type: note
 
 Question: What are Istio AuthorizationPolicy, Kubernetes NetworkPolicy, and mTLS? Please explain their purposes, differences, and how they relate to each other.
 
-Answer: 
+Answer:
 
 These are three different but complementary security mechanisms used in Kubernetes environments, especially when Istio is involved. Here's a clear breakdown:
 
@@ -24,7 +24,7 @@ These are three different but complementary security mechanisms used in Kubernet
   - Allow/deny traffic based on pod labels, namespaces, IP blocks (CIDR).
   - Control ingress/egress at the port & protocol level.
   - Example: "Only allow pods with label app=frontend in namespace prod to connect to port 8080 of pods with app=backend".
-- **Limitation**: 
+- **Limitation**:
   - No identity awareness (doesn't know HTTP, gRPC, or user identity).
   - No application-layer (L7) policies like HTTP path/method-based routing.
   - Cannot enforce encryption (mTLS).
@@ -94,7 +94,7 @@ These are three different but complementary security mechanisms used in Kubernet
    - Blocking traffic that bypasses the mesh (e.g., init containers, host networking pods, ingress from outside).
    - Egress control to external services.
 
-In short:  
+In short:
 **mTLS** gives you encryption + strong identities → **Istio AuthorizationPolicy** uses those identities for L7 authorization → **Kubernetes NetworkPolicy** adds an extra L3/L4 safety net.
 
 They are not mutually exclusive — in a production Istio setup, you should use all three together.

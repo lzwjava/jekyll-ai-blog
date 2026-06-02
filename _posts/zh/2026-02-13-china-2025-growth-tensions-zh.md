@@ -50,7 +50,7 @@ type: note
 
 总体而言，2025年凸显了中国在面对国内经济逆风、外部贸易压力和自然挑战时，对技术自给自足和出口实力的追求。
 
-**References:**  
+**References:**
 
 - [https://en.wikipedia.org/wiki/2025_in_China](https://en.wikipedia.org/wiki/2025_in_China)
 - [https://en.qstheory.cn/2025-12/30/c_1151311.htm](https://en.qstheory.cn/2025-12/30/c_1151311.htm)

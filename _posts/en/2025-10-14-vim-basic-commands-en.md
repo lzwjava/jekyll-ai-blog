@@ -85,6 +85,6 @@ Enable line numbers: `:set number`
 
 This covers the essentials to get you editing files quickly. For more, explore `:help` in Vim or the resources below.
 
-[Getting started with Vim: The basics](https://opensource.com/article/19/3/getting-started-vim)  
-[Basic Vim Commands](https://www.geeksforgeeks.org/linux-unix/basic-vim-commands/)  
+[Getting started with Vim: The basics](https://opensource.com/article/19/3/getting-started-vim)
+[Basic Vim Commands](https://www.geeksforgeeks.org/linux-unix/basic-vim-commands/)
 [Vim Cheat Sheet](https://vim.rtorr.com/)

@@ -22,5 +22,5 @@ MSYS2 是一款面向 Windows 的免费开源软件发行与构建平台。它�
 
 该平台轻量级、持续维护，支持 Windows 10/11 系统（旧版安装器兼容 Windows 7）。如果您热衷编程或需在 Windows 搭建终端密集型环境，对许多开发者而言这是替代 WSL 的理想方案。
 
-[MSYS2 官方网站](https://www.msys2.org/)  
+[MSYS2 官方网站](https://www.msys2.org/)
 [MSYS2 GitHub 代码库](https://github.com/msys2)

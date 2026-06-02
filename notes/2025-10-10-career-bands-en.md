@@ -35,9 +35,9 @@ HSBC uses a standardized Global Career Band (GCB) framework to structure roles a
 
 These ranges are influenced by location (e.g., higher in high-cost areas like Hong Kong or New York), business line (e.g., tech vs. finance), and market conditions. For personalized advice, check HSBC's internal tools or consult HR during offers.
 
-[HSBC Global Representation Data](https://www.hsbc.com/who-we-are/our-people/inclusion-at-hsbc/global-representation-data)  
-[What's Really Going On at HSBC?](https://www.efinancialcareers.com/news/2021/07/hsbc-new-hierarchy)  
-[HSBC Grade Levels and Titles](https://www.quora.com/What-are-the-different-grade-levels-and-titles-at-HSBC)  
-[HSBC GSC Hierarchy](https://www.fishbowlapp.com/post/what-are-the-hierarchy-for-hsbc-gsc)  
-[HSBC Salaries by Band](https://www.ambitionbox.com/salaries/hsbc-group-salaries)  
+[HSBC Global Representation Data](https://www.hsbc.com/who-we-are/our-people/inclusion-at-hsbc/global-representation-data)
+[What's Really Going On at HSBC?](https://www.efinancialcareers.com/news/2021/07/hsbc-new-hierarchy)
+[HSBC Grade Levels and Titles](https://www.quora.com/What-are-the-different-grade-levels-and-titles-at-HSBC)
+[HSBC GSC Hierarchy](https://www.fishbowlapp.com/post/what-are-the-hierarchy-for-hsbc-gsc)
+[HSBC Salaries by Band](https://www.ambitionbox.com/salaries/hsbc-group-salaries)
 [HSBC GCB5 Software Engineer Salary](https://www.levels.fyi/companies/hsbc/salaries/software-engineer/levels/gcb5)

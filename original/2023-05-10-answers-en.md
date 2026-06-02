@@ -38,7 +38,7 @@ For me, clarity came at forty-two. At forty-two, while living in an apartment on
 
 This led me to investigate physics, where I began studying Einstein’s theories of relativity. Initially, I sought to understand them, but eventually, I realized they might be wrong. Herbert Dingle’s book *Science at the Crossroads* pointed out flaws in relativity, though it didn’t identify the true errors. A year later, after thoroughly reading Einstein’s papers, I understood where his "special relativity" was fundamentally flawed: the premise of "constant speed of light" is incorrect and has not been experimentally proven. The Michelson-Morley experiment’s conclusions were wrong.
 
-From there, I uncovered more falsehoods: the AIDS scam, the pandemic hoax, the space hoax, and even the nuclear weapons hoax, where Einstein’s E=mc² laid the groundwork for the deception that "a small amount of mass can release enormous energy." 
+From there, I uncovered more falsehoods: the AIDS scam, the pandemic hoax, the space hoax, and even the nuclear weapons hoax, where Einstein’s E=mc² laid the groundwork for the deception that "a small amount of mass can release enormous energy."
 
 But at that time, it was a seed that led me to start doubting everything in this world, including the very person who told people to "doubt everything"—René Descartes. I discovered that Descartes was a fraud as well. In his *Meditations*, he claimed that one should doubt everything, empty one’s mind, and rebuild all knowledge from scratch. Yet after "emptying all the contents of his mind," he declared, "Now I know only one thing to be true—the existence of God." He was clearly referring to the God in the *Bible*, which made me realize he was a fake. His entire *Meditations* is nonsense.
 

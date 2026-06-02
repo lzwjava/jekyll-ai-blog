@@ -42,8 +42,8 @@ type: note
 
 如果您的公司允许单独升级或添加项目（有些员工套餐支持），考虑添加fibroscan/肝弹性成像（如提供），因为它对脂肪肝分期优秀且无辐射。
 
-参考文献：  
+参考文献：
 
-- [爱康国宾体检项目描述示例（肝功能、脂肪肝相关）](https://mall.ikang.com/special/82)  
-- [NAFLD与肺结节关联研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228712/)  
+- [爱康国宾体检项目描述示例（肝功能、脂肪肝相关）](https://mall.ikang.com/special/82)
+- [NAFLD与肺结节关联研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228712/)
 - [NAFLD影像筛查与辐射考虑](https://www.e-cmh.org/journal/view.php?doi=10.3350%2Fcmh.2017.0042)

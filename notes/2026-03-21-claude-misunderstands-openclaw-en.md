@@ -11,7 +11,7 @@ type: note
 
 Question: Why does the Claude chatbot sometimes misunderstand "openclaw" as referring to Claude itself when talking to it?
 
-Answer: 
+Answer:
 
 **OpenClaw** is a popular open-source AI agent tool (originally launched under names like Clawdbot, then Moltbot, before settling on OpenClaw in early 2026) that many users connect to **Claude** models from Anthropic.
 
@@ -32,7 +32,7 @@ When you mention "openclaw" in a chat with Claude (the official Anthropic chatbo
 
 In short, the misunderstanding happens because OpenClaw is so commonly powered by Claude that the two concepts are strongly linked in both real-world usage and the model's learned associations — sometimes overriding the fact that OpenClaw is a separate, third-party tool.
 
-References:  
+References:
 
 - [OpenClaw official site](https://openclaw.ai/)
 - [OpenClaw GitHub repository](https://github.com/openclaw/openclaw)

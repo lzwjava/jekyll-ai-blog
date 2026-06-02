@@ -58,6 +58,6 @@ type: note
 
 其作品始终毁誉参半：有人视之为赋能宝典，有人斥之为愤世之作，但影响力毋庸置疑。
 
-**参考资料：**  
-[罗伯特·格林（美国作家）- 维基百科](https://en.wikipedia.org/wiki/Robert_Greene_(American_author))  
+**参考资料：**
+[罗伯特·格林（美国作家）- 维基百科](https://en.wikipedia.org/wiki/Robert_Greene_(American_author))
 [罗伯特·格林如何实现一夜成名 - Medium](https://medium.com/@nicopolicarpio/how-robert-greene-became-an-overnight-success-29939c2b1aa8)

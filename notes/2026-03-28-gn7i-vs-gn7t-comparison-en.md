@@ -53,7 +53,7 @@ Other gn7 variants exist for comparison (e.g., gn7e for larger 80 GB GPUs suited
 
 For the most accurate and up-to-date comparison, refer to the official Alibaba Cloud GPU instance families documentation.
 
-**References:**  
-- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)  
-- Alibaba Cloud ECS pricing and instance type listings (various regional pricing pages)  
+**References:**
+- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)
+- Alibaba Cloud ECS pricing and instance type listings (various regional pricing pages)
 - Public cloud reference sites detailing gn7t/gn7i specs (e.g., Cloud Mercato, SpareCores)

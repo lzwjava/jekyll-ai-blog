@@ -12,7 +12,7 @@ type: note
 
 ### Question: In Guangzhou, how to apply for unemployment benefits using the WeChat mini-program or the Yue Sheng Shi (粤省事) government app?
 
-### Answer: 
+### Answer:
 
 In Guangzhou, applying for unemployment insurance benefits (失业保险金, *shīyè bǎoxiǎn jīn*) can be done entirely online via the "粤省事" (Yue Sheng Shi) WeChat mini-program, which is the official Guangdong government platform for social services. This streamlines the process, allowing you to handle unemployment registration, benefit application, and monthly eligibility checks without visiting an office. The process requires prior contributions (at least 1 year) and proof of involuntary unemployment. Applications must be submitted within 60 days of job loss.
 
@@ -61,12 +61,12 @@ From the second month of benefits, log in monthly (any day) via the same path: *
 
 This digital process was enhanced in 2023–2025 for efficiency, covering 90%+ of cases without in-person visits.
 
-### References:  
-- [【社保今日说】如何在“粤省事”微信小程序申领失业金？](https://www.shanwei.gov.cn/swrsj/ztzl/zshbx/content/post_1050978.html)  
-- [广州粤省事失业补助金申领指南（附流程）- 广州本地宝](http://gz.bendibao.com/gzsi/20201019/si278773.shtml)  
-- [2023广州失业保险金粤省事操作指引- 广州本地宝](http://gz.bendibao.com/gzsi/202047/si263584.shtml)  
-- [广州粤省事失业金领取流程- 本地宝](https://m.wenda.bendibao.com/live/158431.shtm)  
-- [失业登记常见问题解答-广州市人力资源和社会保障局网站](https://rsj.gz.gov.cn/ywzt/ztbd/zszhlwgzqmlslbrw/jy/content/post_10136176.html)  
-- [广州市失业登记办理指南 - 广州市人民政府门户网站](https://www.gz.gov.cn/zwfw/zxfw/jyfw/content/post_10140574.html)  
-- [关于失业登记的常见问题解答-广州市南沙区人民政府门户网站](https://www.gzns.gov.cn/zwgk/rdzt/zzyyzq/rdhy/content/post_9944369.html)  
+### References:
+- [【社保今日说】如何在“粤省事”微信小程序申领失业金？](https://www.shanwei.gov.cn/swrsj/ztzl/zshbx/content/post_1050978.html)
+- [广州粤省事失业补助金申领指南（附流程）- 广州本地宝](http://gz.bendibao.com/gzsi/20201019/si278773.shtml)
+- [2023广州失业保险金粤省事操作指引- 广州本地宝](http://gz.bendibao.com/gzsi/202047/si263584.shtml)
+- [广州粤省事失业金领取流程- 本地宝](https://m.wenda.bendibao.com/live/158431.shtm)
+- [失业登记常见问题解答-广州市人力资源和社会保障局网站](https://rsj.gz.gov.cn/ywzt/ztbd/zszhlwgzqmlslbrw/jy/content/post_10136176.html)
+- [广州市失业登记办理指南 - 广州市人民政府门户网站](https://www.gz.gov.cn/zwfw/zxfw/jyfw/content/post_10140574.html)
+- [关于失业登记的常见问题解答-广州市南沙区人民政府门户网站](https://www.gzns.gov.cn/zwgk/rdzt/zzyyzq/rdhy/content/post_9944369.html)
 - [广州市失业保险常见问题解答（2025年11月版） - 广州市人民政府门户网站](https://www.gz.gov.cn/zwfw/zxfw/sbfw/content/post_10582009.html)

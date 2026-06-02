@@ -12,7 +12,7 @@ type: note
 
 **Question:** Who are the top big customers for Google Cloud Platform?
 
-**Answer:** 
+**Answer:**
 
 Google Cloud Platform (GCP) has a large number of major enterprise and big-tech customers. Google does not publicly disclose exact revenue rankings or "top by spend" lists for competitive reasons, but prominent customers are frequently highlighted in case studies, press releases, customer pages, and industry reports.
 
@@ -38,7 +38,7 @@ In the AI era (2024–2025), Google emphasizes that **nine of the top 10 AI labs
 
 For the most current and official overview, Google's own [customers page](https://cloud.google.com/customers) showcases many of these prominent users through case studies and stories.
 
-**References:**  
+**References:**
 
 - [Google Cloud Customers page](https://cloud.google.com/customers)
 - [Top 20 Companies That Use Google Cloud Platform in 2025](https://blog.techdatapark.com/companies-that-use-google-cloud)

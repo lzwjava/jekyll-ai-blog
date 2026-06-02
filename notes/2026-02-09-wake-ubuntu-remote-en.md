@@ -12,7 +12,7 @@ type: note
 
 Question: What are solutions for remote access to Ubuntu without keeping the PC always on?
 
-Answer: 
+Answer:
 
 To remotely access your Ubuntu PC from your MacBook Air M2 without keeping the Ubuntu machine powered on all the time (to save electricity), the key challenge is waking it up on demand while ensuring secure connectivity. This typically involves combining Wake-on-LAN (WoL) with remote access protocols like SSH, RDP, or VNC. WoL allows you to send a "magic packet" over the network to power on the PC from a sleep or shutdown state, but it requires the PC's motherboard to support it (most modern ones do) and proper configuration.
 
@@ -87,10 +87,10 @@ Below, I'll outline comprehensive, step-by-step solutions based on reliable meth
 
 These methods should allow comfortable access from your bed via MacBook while minimizing electricity use.
 
-References:  
+References:
 
-- [https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0](https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0)  
-- [https://www.youtube.com/watch?v=pXXzWkNkKuQ](https://www.youtube.com/watch?v=pXXzWkNkKuQ)  
-- [https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472](https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472)  
-- [https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access](https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access)  
+- [https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0](https://medium.com/@ryanym/cloud-is-not-free-wakeup-and-ssh-to-your-home-computer-remotely-7d4f3b37ce0)
+- [https://www.youtube.com/watch?v=pXXzWkNkKuQ](https://www.youtube.com/watch?v=pXXzWkNkKuQ)
+- [https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472](https://forums.lawrencesystems.com/t/different-ubuntu-remote-desktop-question/22472)
+- [https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access](https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access)
 - [https://www.itpro.com/mobile/remote-access/368102/how-to-remote-desktop-into-ubuntu](https://www.itpro.com/mobile/remote-access/368102/how-to-remote-desktop-into-ubuntu)

@@ -11,7 +11,7 @@ type: note
 
 Question: In the IEEE 802 series of standards, which one is used for Ethernet?
 
-Answer: 
+Answer:
 
 The correct answer is **A. IEEE 802.3**.
 
@@ -29,5 +29,5 @@ Therefore, among the given options, only **IEEE 802.3** is the Ethernet standard
 
 Your previous selection (B. IEEE 802.4) was incorrect — IEEE 802.4 is Token Bus, not Ethernet.
 
-References:  
+References:
 - None (this is standard networking knowledge based on IEEE specifications)

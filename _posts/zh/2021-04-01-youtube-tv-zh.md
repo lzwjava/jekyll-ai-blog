@@ -46,7 +46,7 @@ verbose: true
 dns_start_ip: 10.0.0.10
 dns_servers:
   - 223.5.5.5:53
-  - 114.114.114.114:53  
+  - 114.114.114.114:53
 dns_timeout: 1s
 tun_name: utun4
 tun_ip: 10.0.0.1
@@ -58,7 +58,7 @@ probe_timeout: 30ms
 connect_timeout: 1s
 read_timeout: 30s
 write_timeout: 5s
-max_connect_errors: 2 
+max_connect_errors: 2
 
 servers:
   - name: http proxy server

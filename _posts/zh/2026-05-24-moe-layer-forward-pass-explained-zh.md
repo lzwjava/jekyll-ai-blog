@@ -92,12 +92,12 @@ for e in range(n_experts):  # 256 个专家
     # 哪些 token 路由到专家 e？
     mask = (topk_ids == e).any(dim=-1)         # [B*T] 布尔张量
     tokens_for_e = x[mask]                      # [n_e, d], n_e << B*T
-    
+
     if tokens_for_e.shape[0] == 0:
         continue
-    
+
     out_e = expert[e](tokens_for_e)             # [n_e, d]
-    
+
     # 为每个路由的 token 获取此专家的权重
     weight_e = topk_weights[mask, (topk_ids[mask] == e).nonzero()...]
     expert_outputs[mask] += weight_e.unsqueeze(-1) * out_e

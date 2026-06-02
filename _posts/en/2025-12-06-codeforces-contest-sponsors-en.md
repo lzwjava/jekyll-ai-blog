@@ -12,7 +12,7 @@ type: note
 
 Question: Which companies sponsor Codeforces contests?
 
-Answer: 
+Answer:
 
 Codeforces hosts a wide variety of programming contests, many of which are sponsored by tech companies, foundations, universities, and organizations. These sponsorships often fund prizes, provide problems, or support specific events like rounds, cups, or challenges. Based on recent and historical data (up to December 2025), here is a compiled list of notable sponsors. This is not exhaustive, as sponsorships rotate and new ones are added frequently, but it covers primary, title, and event-specific sponsors from official announcements, contests, and reports:
 
@@ -40,10 +40,10 @@ Codeforces hosts a wide variety of programming contests, many of which are spons
 
 For the most up-to-date list, check the [Codeforces contests page](https://codeforces.com/contests) or official blog announcements, as sponsors are often listed per round.
 
-References:  
-- [Codeforces Official Site](https://codeforces.com/)  
-- [VK Sponsorship Announcement](https://codeforces.com/blog/entry/700)  
-- [TON Sponsorship Blog](https://codeforces.com/blog/entry/104544)  
-- [Codeforces Wikipedia Page](https://en.wikipedia.org/wiki/Codeforces)  
-- [2023 Annual Report](https://codeforces.com/blog/entry/125486)  
+References:
+- [Codeforces Official Site](https://codeforces.com/)
+- [VK Sponsorship Announcement](https://codeforces.com/blog/entry/700)
+- [TON Sponsorship Blog](https://codeforces.com/blog/entry/104544)
+- [Codeforces Wikipedia Page](https://en.wikipedia.org/wiki/Codeforces)
+- [2023 Annual Report](https://codeforces.com/blog/entry/125486)
 - [IICPC CodeFest Invitation](https://codeforces.com/topic/139545/en9)

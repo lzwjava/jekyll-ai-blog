@@ -12,7 +12,7 @@ type: note
 
 **Question:** 什么是 YouTube app 简介？
 
-**Answer:** 
+**Answer:**
 
 **YouTube app** 是 Google 推出的官方移动应用程序，用于在智能手机和平板电脑（支持 **Android** 和 **iOS**）上观看、发现视频并进行互动。与通过移动浏览器访问相比，它提供了更丰富、更优化的体验。
 
@@ -55,7 +55,7 @@ type: note
 
 该 App 会定期更新，引入如改进的 AI 推荐、更好的 Shorts 工具、增强的 Creator 协作选项以及视觉/播放器改进等新功能（截至 2026 年）。
 
-**References:**  
+**References:**
 
 - [YouTube app on Google Play](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 - [Download the YouTube mobile app - Android - YouTube Help](https://support.google.com/youtube/answer/3227660?co=GENIE.Platform%3DAndroid)

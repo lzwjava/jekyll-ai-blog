@@ -12,7 +12,7 @@ type: note
 
 Question: Are air fryers typically sharper (crisper) than electric ovens, right? For air fryer at 200 degrees for 20 minutes, may need electric oven at 240 degrees for 25 mins?
 
-Answer: 
+Answer:
 
 Yes, air fryers typically produce **crisper** (sharper/crunchier) results than a standard electric oven for many foods like fries, chicken wings, or roasted vegetables. This happens because air fryers use powerful fans to circulate very hot air rapidly around the food, mimicking deep frying with little or no oil. A conventional electric oven has slower, less intense air movement, so food often comes out less crispy on the outside (though the inside may be similar).
 
@@ -40,7 +40,7 @@ Your suggestion (240°C for 25 minutes in the oven) would be **much hotter** and
 
 Air fryers are generally more efficient for crispy results in smaller batches, while ovens are better for larger quantities or items that need gentler, even baking.
 
-References:  
+References:
 
 - [https://www.everydayfamilycooking.com/air-fryer-conversion-chart-calculator](https://www.everydayfamilycooking.com/air-fryer-conversion-chart-calculator)
 - [https://drizzleanddip.com/2023/03/15/easy-oven-to-air-fryer-conversion-guide](https://drizzleanddip.com/2023/03/15/easy-oven-to-air-fryer-conversion-guide)

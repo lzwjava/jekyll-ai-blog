@@ -56,8 +56,8 @@ For simple apps, even static HTML/CSS/JS with Spring Boot's resource handling su
 ## Final Thoughts
 The move from JSP to Spring Boot reflects a broader evolution toward cleaner, more productive tools. If you're maintaining legacy JSP code, migrate gradually (e.g., to Thymeleaf). For new projects, start with Spring Boot—it's the standard in 2025. Understanding JSP basics can still help demystify web fundamentals, but it's not a prerequisite.
 
-[Are JSP and Servlets still relevant? (Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)  
-[Before Spring, Learn JSP & Servlets (Medium)](https://medium.com/@abhishekmalagi2002/before-spring-learn-jsp-servlets-24fc5596cbc4)  
-[Is JSP superseded and if so, how? (Stack Overflow)](https://stackoverflow.com/questions/41309564/is-jsp-superseeded-and-if-so-how)  
-[Spring MVC view layer: Thymeleaf vs. JSP (Thymeleaf.org)](https://www.thymeleaf.org/doc/articles/thvsjsp.html)  
+[Are JSP and Servlets still relevant? (Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)
+[Before Spring, Learn JSP & Servlets (Medium)](https://medium.com/@abhishekmalagi2002/before-spring-learn-jsp-servlets-24fc5596cbc4)
+[Is JSP superseded and if so, how? (Stack Overflow)](https://stackoverflow.com/questions/41309564/is-jsp-superseeded-and-if-so-how)
+[Spring MVC view layer: Thymeleaf vs. JSP (Thymeleaf.org)](https://www.thymeleaf.org/doc/articles/thvsjsp.html)
 [A Comparison Between Spring and Spring Boot (Baeldung)](https://www.baeldung.com/spring-vs-spring-boot)

@@ -11,7 +11,7 @@ type: note
 
 **Question: As a Chinese citizen, can I use an entry permit (Mainland Travel Permit for Hong Kong and Macao) to open a Bank of China Hong Kong account and then apply for credit cards there? What kinds of credit cards can I apply for, or are none available because they require Hong Kong citizenship?**
 
-**Answer:** 
+**Answer:**
 
 Yes, as a mainland Chinese citizen, you can open a personal bank account with **Bank of China (Hong Kong)** (BOCHK) using your **Mainland Travel Permit for Travelling to and from Hong Kong and Macao** (commonly called the Home Visit Permit or entry permit) along with other ID documents like your mainland ID card or passport. BOCHK offers services specifically for mainland visitors/residents to open accounts, including under Greater Bay Area facilitation measures.
 
@@ -29,7 +29,7 @@ In short: **You can apply for some credit cards**, particularly **UnionPay Dual 
 
 For the most accurate and up-to-date details, visit a BOCHK branch in Hong Kong with your documents or check their official credit card application pages/forms directly, as policies can vary by card type and change over time.
 
-**References:**  
+**References:**
 
 - [https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)
 - [https://www.bochk.com/creditcard/pdf/eng/card/icard_form.pdf](https://www.bochk.com/creditcard/pdf/eng/card/icard_form.pdf)

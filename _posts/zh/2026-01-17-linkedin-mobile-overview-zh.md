@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the LinkedIn mobile app?
 
-Answer: 
+Answer:
 
 **LinkedIn mobile app** 是 LinkedIn 的官方应用程序，LinkedIn 是全球最大的 professional networking 平台。它允许用户直接通过智能手机（支持 iOS 和 Android）访问 LinkedIn 网站的大部分功能，方便用户在移动中管理 professional identity、进行 networking、搜索 jobs 以及获取行业新闻。
 
@@ -52,7 +52,7 @@ LinkedIn 专注于 professional networking，而非休闲类的 social media。�
 
 该 app 可以免费使用，同时提供可选的 Premium 订阅，以获得 InMail、profile insights 和增强版 job search tools 等高级功能。
 
-References:  
+References:
 
 - [LinkedIn Mobile Apps Official](https://mobile.linkedin.com/)
 - [LinkedIn App on App Store](https://apps.apple.com/us/app/linkedin-network-job-finder/id288429040)

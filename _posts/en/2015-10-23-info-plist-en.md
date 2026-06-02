@@ -23,26 +23,26 @@ Unlike the `.pbxproj` file, which is about *how* to build something, the `Info.p
 
 #### Key Concepts in the File
 
-1. **Bundle Basics**  
+1. **Bundle Basics**
    Several keys define the plugin as a macOS bundle:
    - **`CFBundleExecutable`**: Set to `$(EXECUTABLE_NAME)`, a placeholder for the compiled binary’s name (defined during the build process).
    - **`CFBundleIdentifier`**: `$(PRODUCT_BUNDLE_IDENTIFIER)` resolves to `com.lzwjava.Reveal-In-GitHub`, a unique reverse-DNS style ID that distinguishes this plugin from others.
    - **`CFBundlePackageType`**: `BNDL` marks this as a bundle, a common format for plugins and libraries on macOS.
    - **`CFBundleName`**: `$(PRODUCT_NAME)` will become "Reveal-In-GitHub," the human-friendly name.
 
-2. **Versioning and Ownership**  
+2. **Versioning and Ownership**
    - **`CFBundleShortVersionString`**: "1.0" is the user-facing version.
    - **`CFBundleVersion`**: "1" is an internal build number.
    - **`NSHumanReadableCopyright`**: "Copyright © 2015年 lzwjava. All rights reserved." credits the creator, `lzwjava`, and dates the plugin to 2015.
    - **`CFBundleSignature`**: "????" is a placeholder (typically a four-character code), though it’s less critical for plugins.
 
-3. **Localization**  
+3. **Localization**
    - **`CFBundleDevelopmentRegion`**: "en" sets English as the default language, affecting how resources (if any) are localized.
 
-4. **Xcode Plugin Compatibility**  
+4. **Xcode Plugin Compatibility**
    The standout feature here is **`DVTPlugInCompatibilityUUIDs`**, a long array of UUIDs. These match specific Xcode versions (e.g., Xcode 6, 7, etc.), ensuring the plugin loads only in compatible IDEs. This list is unusually broad, suggesting "Reveal-In-GitHub" was designed to work across many Xcode releases—a sign of thoughtful forward- and backward-compatibility.
 
-5. **Plugin-Specific Settings**  
+5. **Plugin-Specific Settings**
    - **`NSPrincipalClass`**: Left empty (`<string></string>`), implying the plugin might dynamically define its entry point or rely on Xcode’s conventions.
    - **`XC4Compatible` and `XC5Compatible`**: Both `<true/>`, confirming compatibility with Xcode 4 and 5.
    - **`XCGCReady`**: `<true/>` indicates readiness for garbage collection, an older macOS memory management feature (mostly deprecated by 2015 in favor of ARC).
@@ -52,16 +52,16 @@ Unlike the `.pbxproj` file, which is about *how* to build something, the `Info.p
 
 #### Patterns to Notice
 
-1. **Placeholders for Flexibility**  
+1. **Placeholders for Flexibility**
    Keys like `$(EXECUTABLE_NAME)` and `$(PRODUCT_BUNDLE_IDENTIFIER)` use variables tied to the build system (defined in the `.pbxproj`). This keeps the `Info.plist` reusable across configurations (e.g., Debug vs. Release).
 
-2. **Minimalist Design**  
+2. **Minimalist Design**
    The file is lean, focusing on essentials. No fancy icons, entitlements, or app-specific settings—just what an Xcode plugin needs to function. This simplicity is typical for plugins that extend an existing app (Xcode) rather than standalone programs.
 
-3. **Compatibility Focus**  
+3. **Compatibility Focus**
    The lengthy `DVTPlugInCompatibilityUUIDs` list and flags like `XC4Compatible` show a plugin built to last. This pattern is common in developer tools, where users might stick with older Xcode versions for stability.
 
-4. **Metadata Over Behavior**  
+4. **Metadata Over Behavior**
    Unlike code files, the `Info.plist` doesn’t *do* anything—it describes. Its role is passive, providing info that Xcode and macOS interpret at runtime.
 
 ---

@@ -12,7 +12,7 @@ type: note
 
 Question: 对于 fiber optic cables，LC-LC、SC-SC 等表示什么意思？
 
-Answer: 
+Answer:
 
 **LC-LC**、**SC-SC** 及类似的表示方法用于描述 **fiber optic patch cables**（也称为 jumper cables），通过指定每一端的 **connector types** 来命名。
 
@@ -56,7 +56,7 @@ LC 和 SC 都能提供卓越的光学性能（low insertion loss 和 high return
 
 简而言之：**LC-LC** = 两端都是小型现代 LC connectors；**SC-SC** = 两端都是较大的经典 SC connectors。
 
-References:  
+References:
 
 - [Fiber Optic Connector Types Explained | FiberCablesDirect](https://fibercablesdirect.com/content/23-fiber-optic-connector-types-explained)
 - [LC vs SC Connectors: Which to Choose? - VCELINK](https://www.vcelink.com/blogs/focus/lc-vs-sc-connectors)

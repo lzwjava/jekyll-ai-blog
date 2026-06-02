@@ -29,8 +29,8 @@ Overall, Liu's take is optimistic yet pragmatic: Psychology reveals the mind's f
 
 For deeper dives, the full *Dark Time* (2nd edition) compiles 38 blog essays, many psychology-centric.
 
-[How to Evaluate Liu Weipeng's "Dark Time"](https://en.zhihu.com/answer/131577580)  
-[Why Some Young People Have Superior Cognitive Abilities](https://www.moneymind.blog/posts/dark-time-cognitive-advantage-young-minds)  
-[Chinese Bestselling Books Catalog (Dark Time Description)](https://chinese-publishers.com/wp-content/uploads/2025/09/Chinese-Bestselling-Books-2025-Frankfurt-Book-Fair-Rights-Catalog.pdf)  
-[Article Links from Dark Time](https://www.carzyuncle.com/2853.html)  
+[How to Evaluate Liu Weipeng's "Dark Time"](https://en.zhihu.com/answer/131577580)
+[Why Some Young People Have Superior Cognitive Abilities](https://www.moneymind.blog/posts/dark-time-cognitive-advantage-young-minds)
+[Chinese Bestselling Books Catalog (Dark Time Description)](https://chinese-publishers.com/wp-content/uploads/2025/09/Chinese-Bestselling-Books-2025-Frankfurt-Book-Fair-Rights-Catalog.pdf)
+[Article Links from Dark Time](https://www.carzyuncle.com/2853.html)
 [BetterExplained: How to Effectively Memorize and Learn](https://m.douban.com/note/322736693/)

@@ -35,4 +35,3 @@ fn main() {
     simple::run_simple();
     quick_sort_interact();
 }
-

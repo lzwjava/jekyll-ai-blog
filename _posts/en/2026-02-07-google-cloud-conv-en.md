@@ -137,4 +137,3 @@ B: Design for change, failure, and scale as defaults—not as exceptions.
 A: That’s actually a solid learning framework for studying the exam.
 
 B: And for building real systems too. If you study the exam as architecture training instead of certification prep, you get much more long-term value.
-

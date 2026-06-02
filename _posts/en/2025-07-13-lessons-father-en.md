@@ -62,7 +62,7 @@ And the most important external reason to blame is that China's economy largely 
 
 What I cannot easily forgive myself for is having already written the essay, ['The Present and Future of China's Economy,'](https://lzwjava.github.io/present-future-en) after reading books by He Qinglian, including 'The Pitfalls of Modernization' and 'China: Crumbling but Not Collapsing.' It is easy to know what is right but hard to do it.
 
-To come back to my father. My father has high expectations and often has specific ways he believes things should be done. While his intentions may be good, I sometimes find it challenging to meet these expectations as an adult around 30 years old. 
+To come back to my father. My father has high expectations and often has specific ways he believes things should be done. While his intentions may be good, I sometimes find it challenging to meet these expectations as an adult around 30 years old.
 
 My late 20s are behind me. I was born in January 1995. Those five years in my late 20s were somewhat of a nightmare in my life. It is not healthy to frequently allow myself to feel angry, regretful, or self-critical.
 

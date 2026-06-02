@@ -54,7 +54,7 @@ Internet      → IP
 
 **底线（2026）：**
 
-WebSocket = **TCP**  
+WebSocket = **TCP**
 WebSocket ≠ UDP
 
 参考资料：

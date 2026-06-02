@@ -12,7 +12,7 @@ type: note
 
 Question: 请举例说明部署应用程序或修复 Bug 等典型的变更请求（change requests），并解释如何填写每个字段，包括影响（impact）、回退计划（backout plan）、持续时间（duration）和变更任务（change tasks）。
 
-Answer: 
+Answer:
 
 以下是 IT/生产环境中典型的变更请求（通常称为 RFC — Requests for Change）的**实际案例**，特别针对应用程序部署和 Bug 修复。这些案例遵循了 ITIL/ServiceNow/Jira 等常见的变更管理实践。
 

@@ -11,7 +11,7 @@ type: note
 
 Question: What can we use BIOS for?
 
-Answer: 
+Answer:
 
 **BIOS** (Basic Input/Output System) is firmware stored on your computer's motherboard. It serves as the very first software that runs when you power on a PC. While most modern computers (especially after ~2012–2020) have replaced traditional **legacy BIOS** with **UEFI** (a more advanced successor), the term "BIOS" is still widely used to refer to the setup interface even on UEFI systems.
 
@@ -42,7 +42,7 @@ You can enter the BIOS setup (usually by pressing Del, F2, F10, or Esc during st
 - Troubleshoot hardware problems (POST beeps or codes often point to issues BIOS detects).
 - In very old systems (pre-UEFI era), BIOS provided direct low-level access for DOS programs to control hardware (keyboard, screen, disks) — this is almost never needed today.
 
-**Important note for 2026**:  
+**Important note for 2026**:
 Most new motherboards and PCs use **UEFI** instead of classic BIOS. UEFI offers faster boot times, support for drives >2 TB, a graphical mouse-friendly interface, better security, and more features. However, people still say "enter the BIOS" even when they mean the UEFI setup utility.
 
 In short — BIOS (or UEFI) is mainly used to:
@@ -50,7 +50,7 @@ In short — BIOS (or UEFI) is mainly used to:
 - Customize boot behavior and hardware settings
 - Solve startup or compatibility problems
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/BIOS](https://en.wikipedia.org/wiki/BIOS)
 - [https://www.techtarget.com/whatis/definition/BIOS-basic-input-output-system](https://www.techtarget.com/whatis/definition/BIOS-basic-input-output-system)

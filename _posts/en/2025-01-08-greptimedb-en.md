@@ -21,32 +21,32 @@ To address this, Greptime DB might need to create several specialized GPTs. For 
 
 ```
 
-### Greptime Docs:  
+### Greptime Docs:
 Official documentation is available at: [https://docs.greptime.com](https://docs.greptime.com)
 
-* [Quickstart Guide](https://docs.greptime.com/getting-started/quick-start)  
-* [User Guide](https://docs.greptime.com/user-guide/overview)  
-* [Demos](https://github.com/GreptimeTeam/demo-scene)  
-* [FAQ](https://docs.greptime.com/faq-and-others/faq)  
+* [Quickstart Guide](https://docs.greptime.com/getting-started/quick-start)
+* [User Guide](https://docs.greptime.com/user-guide/overview)
+* [Demos](https://github.com/GreptimeTeam/demo-scene)
+* [FAQ](https://docs.greptime.com/faq-and-others/faq)
 
 ### Repository URLs:
 Here are the key directories and files from the root of the GreptimeDB repository:
 
-1. [benches](https://github.com/GreptimeTeam/greptimedb/tree/main/benches)  
-2. [docs](https://github.com/GreptimeTeam/greptimedb/tree/main/docs)  
-3. [src](https://github.com/GreptimeTeam/greptimedb/tree/main/src)  
-4. [test](https://github.com/GreptimeTeam/greptimedb/tree/main/test)  
-5. [third_party](https://github.com/GreptimeTeam/greptimedb/tree/main/third_party)  
-6. [tools](https://github.com/GreptimeTeam/greptimedb/tree/main/tools)  
+1. [benches](https://github.com/GreptimeTeam/greptimedb/tree/main/benches)
+2. [docs](https://github.com/GreptimeTeam/greptimedb/tree/main/docs)
+3. [src](https://github.com/GreptimeTeam/greptimedb/tree/main/src)
+4. [test](https://github.com/GreptimeTeam/greptimedb/tree/main/test)
+5. [third_party](https://github.com/GreptimeTeam/greptimedb/tree/main/third_party)
+6. [tools](https://github.com/GreptimeTeam/greptimedb/tree/main/tools)
 
 Additional key files:
 
-7. [Cargo.lock](https://github.com/GreptimeTeam/greptimedb/tree/main/Cargo.lock)  
-8. [Cargo.toml](https://github.com/GreptimeTeam/greptimedb/tree/main/Cargo.toml)  
-9. [LICENSE](https://github.com/GreptimeTeam/greptimedb/tree/main/LICENSE)  
-10. [Makefile](https://github.com/GreptimeTeam/greptimedb/tree/main/Makefile)  
-11. [README.md](https://github.com/GreptimeTeam/greptimedb/tree/main/README.md)  
-12. [NOTICE](https://github.com/GreptimeTeam/greptimedb/tree/main/NOTICE)  
+7. [Cargo.lock](https://github.com/GreptimeTeam/greptimedb/tree/main/Cargo.lock)
+8. [Cargo.toml](https://github.com/GreptimeTeam/greptimedb/tree/main/Cargo.toml)
+9. [LICENSE](https://github.com/GreptimeTeam/greptimedb/tree/main/LICENSE)
+10. [Makefile](https://github.com/GreptimeTeam/greptimedb/tree/main/Makefile)
+11. [README.md](https://github.com/GreptimeTeam/greptimedb/tree/main/README.md)
+12. [NOTICE](https://github.com/GreptimeTeam/greptimedb/tree/main/NOTICE)
 
 Please search these resources before responding to any user queries.
 

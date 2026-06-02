@@ -11,7 +11,7 @@ type: note
 
 Question: The current date is February 28, 2026. How to fix the Hysteria server error: "invalid config: acme.domains: 64.186.xx.xx: >" and the service failing with exit-code 1?
 
-Answer: 
+Answer:
 
 The error you're seeing in the logs:
 
@@ -128,7 +128,7 @@ See official docs for supported providers.
 
 After fixing the config, the service should start normally (`systemctl status hysteria-server` shows active/running).
 
-References:  
+References:
 
 - [Hysteria 2 Full Server Config (tls vs acme)](https://v2.hysteria.network/docs/advanced/Full-Server-Config)
 - [Hysteria 2 ACME DNS Config (alternative to HTTP challenge)](https://v2.hysteria.network/docs/advanced/ACME-DNS-Config)

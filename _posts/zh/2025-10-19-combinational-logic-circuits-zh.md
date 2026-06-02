@@ -20,7 +20,7 @@ type: note
 - **真值表**：分析的基础。列出所有可能的输入组合并计算输出。
   - 对于具有 *n* 个输入的电路，存在 2^n 行。
   - 示例：分析一个2输入与或电路：输出 = (A · B) + (A' · B')（其中 ' 表示非）。
-  
+
     | A | B | A · B | A' · B' | 输出 |
     |---|---|-------|---------|--------|
     | 0 | 0 |   0   |    1    |   1    |
@@ -45,7 +45,7 @@ type: note
 
 - **设计示例**：设计一个多数表决器电路（当三个输入 A、B、C 中至少有两个为1时输出1）。
   - 真值表（部分）：
-    
+
     | A | B | C | 输出 |
     |---|---|---|--------|
     | 0 | 0 | 0 |   0    |
@@ -79,7 +79,7 @@ type: note
 - 将有效输入转换为二进制代码。
 - 示例：4线-2线优先编码器（输入：Y3, Y2, Y1, Y0；输出：A1, A0；有效标志 V）。
   - 真值表：
-    
+
     | Y3 | Y2 | Y1 | Y0 | A1 | A0 | V |
     |----|----|----|----|----|----|---|
     | 0  | 0  | 0  | 1  | 0  | 0  | 1 |
@@ -95,7 +95,7 @@ type: note
 - 与编码器相反：二进制输入到独热输出（激活一条线）。
 - 示例：2线-4线译码器（输入：A1, A0；输出：D0-D3）。
   - 真值表：
-    
+
     | A1 | A0 | D3 | D2 | D1 | D0 |
     |----|----|----|----|----|----|
     | 0  | 0  | 0  | 0  | 0  | 1  |
@@ -110,7 +110,7 @@ type: note
 - 根据选择线将多个输入中的一个选通到单个输出。
 - 示例：4选1 MUX（输入：I0-I3；选择：S1, S0；输出：Y）。
   - 真值表：
-    
+
     | S1 | S0 | Y  |
     |----|----|----|
     | 0  | 0  | I0 |
@@ -159,5 +159,5 @@ type: note
 
 如需深入了解，请参考标准教材，如 Mano 的《数字设计》。
 
-[《数字设计》M. Morris Mano 著](https://www.pearson.com/us/higher-education/program/Morris-Mano-Digital-Design-with-an-Introduction-to-the-Verilog-HDL-5th-Edition/PGM110392.html)  
+[《数字设计》M. Morris Mano 著](https://www.pearson.com/us/higher-education/program/Morris-Mano-Digital-Design-with-an-Introduction-to-the-Verilog-HDL-5th-Edition/PGM110392.html)
 [《数字逻辑基础与 Verilog 设计》Brown and Vranesic 著](https://www.mheducation.com/highered/product/fundamentals-digital-logic-verilog-design-brown-vranesic/M9780073380544.html)

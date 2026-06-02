@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Stanford CS224N course?
 
-Answer: 
+Answer:
 
 Stanford **CS224N** 是一门备受推崇的研究生级别课程，全称为 **Natural Language Processing with Deep Learning** (深度学习自然语言处理)。该课程由 Stanford University 计算机科学系开设，由 Christopher Manning 教授及其他讲师授课。
 
@@ -29,8 +29,8 @@ Stanford **CS224N** 是一门备受推崇的研究生级别课程，全称为 **
 
 该课程被认为是学习 NLP 领域 Deep Learning 最好的入门课程之一，在对 AI 和语言技术感兴趣的学生和专业人士中非常受欢迎。
 
-References:  
+References:
 
-- [Official Course Website](https://web.stanford.edu/class/cs224n/)  
-- [Stanford Online Version](https://online.stanford.edu/courses/xcs224n-natural-language-processing-deep-learning)  
+- [Official Course Website](https://web.stanford.edu/class/cs224n/)
+- [Stanford Online Version](https://online.stanford.edu/courses/xcs224n-natural-language-processing-deep-learning)
 - [YouTube Lecture Playlist (2023 Example)](https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4)

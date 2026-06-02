@@ -75,7 +75,7 @@ But we can **add** `www-data` to other groups if needed.
 chmod -R o+rx /home/lzw/qDownloads
 ```
 
-→ Everyone on the system (including www-data) can read and list the folder.  
+→ Everyone on the system (including www-data) can read and list the folder.
 → Simple, but less secure — any service or user can see your downloads.
 
 **Way B – Use the group mechanism (recommended)**

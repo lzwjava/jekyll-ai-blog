@@ -55,5 +55,5 @@ type: note
 - 素食版可用豆腐或菌菇替代牛肉
 - 新鲜河粉为佳，干制河粉需注意避免过度烹煮以保持弹性
 
-[干炒牛河参考食谱（中国川菜）](https://www.chinasichuanfood.com/beef-chow-fun/)  
+[干炒牛河参考食谱（中国川菜）](https://www.chinasichuanfood.com/beef-chow-fun/)
 [炒河粉教程（美食飞行记）](https://thefoodietakesflight.com/stir-fried-flat-rice-noodles-hofan/)

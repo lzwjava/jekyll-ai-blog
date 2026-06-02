@@ -22,10 +22,10 @@ HGC also offers a custom Speedtest tool tailored for their users at [hgcbroadban
 
 If you're troubleshooting speeds, ensure you're testing via the HGC-specific server to isolate network issues.
 
-**References:**  
-[HGC Official Website](https://www.hgc.com.hk/)  
-[HGC Wikipedia](https://en.wikipedia.org/wiki/HGC_Global_Communications)  
-[HGC Broadband Plans](https://www.hgcbroadband.com/en/broadband)  
-[Speedtest Server List (incl. HGC)](https://gist.github.com/ofou/654efe67e173a6bff5c64ba26c09d058)  
-[HGC Custom Speedtest](http://hgcbroadband.speedtestcustom.com/)  
+**References:**
+[HGC Official Website](https://www.hgc.com.hk/)
+[HGC Wikipedia](https://en.wikipedia.org/wiki/HGC_Global_Communications)
+[HGC Broadband Plans](https://www.hgcbroadband.com/en/broadband)
+[Speedtest Server List (incl. HGC)](https://gist.github.com/ofou/654efe67e173a6bff5c64ba26c09d058)
+[HGC Custom Speedtest](http://hgcbroadband.speedtestcustom.com/)
 [HGC Speed Meter](https://www.hgcbroadband.com/en/support/speedmeter)

@@ -60,7 +60,7 @@ The proxy settings are enabled, and your Python script (using `requests` library
    - Check CPU/memory usage; high load could cause hangs.
 
 ## Fixes
-- **If Proxy-Related**: 
+- **If Proxy-Related**:
   - Disable proxies for local dev: Add to your shell startup (e.g., `~/.zshrc` or `~/.bash_profile`): `export no_proxy="localhost,127.0.0.1,*.local"`
   - In Python: Use a session with no proxies, as above.
 - **If Code Issue**:

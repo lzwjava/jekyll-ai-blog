@@ -12,7 +12,7 @@ type: note
 
 Question: How to register and take Google Cloud certification exams as a Chinese citizen?
 
-Answer: 
+Answer:
 
 As a **Chinese citizen**, you can fully register for and take Google Cloud certification exams with **no special restrictions** based on nationality or residency in mainland China (China is not on Google's sanctioned countries list for the certification program).
 
@@ -45,8 +45,8 @@ The process is the same as for candidates worldwide:
 
 For the latest details, always start from the official site when registering.
 
-References:  
-- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (Main certifications page with registration links)  
-- [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) (Registration and scheduling guide)  
-- [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) (Exam Terms & Conditions, including trade compliance/sanctions list — China not included)  
+References:
+- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (Main certifications page with registration links)
+- [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) (Registration and scheduling guide)
+- [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) (Exam Terms & Conditions, including trade compliance/sanctions list — China not included)
 - [https://support.google.com/cloud-certification/answer/9438208](https://support.google.com/cloud-certification/answer/9438208) (Certification FAQs, eligibility)

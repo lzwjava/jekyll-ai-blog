@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Pang Kang, the entrepreneur in China?
 
-Answer: 
+Answer:
 
 Pang Kang (Chinese: 庞康; born 1956) is a prominent Chinese billionaire businessman and entrepreneur, best known as the founder and longtime chairman of Foshan Haitian Flavouring & Food Co., Ltd., the world's largest producer of soy sauce and a leading manufacturer of condiments in China. The company, based in Foshan, Guangdong province, generates annual revenue exceeding 26.9 billion yuan (approximately $3.7 billion) and offers over 300 products, including oyster sauce, vinegar, chicken stock, and bean curd, which are exported to more than 100 countries.
 
@@ -36,8 +36,8 @@ He has been honored as an "Outstanding Entrepreneur of Guangdong Province" (2008
 
 Pang exemplifies a self-made entrepreneur who transformed a traditional family-run operation into a modern multinational empire through strategic privatization and global scaling.
 
-References:  
-- [Pang Kang - Wikipedia](https://en.wikipedia.org/wiki/Pang_Kang)  
-- [Pang Kang - Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/profiles/kang-pang/)  
-- [Pang Kang - Forbes Profile](https://www.forbes.com/profile/pang-kang/)  
+References:
+- [Pang Kang - Wikipedia](https://en.wikipedia.org/wiki/Pang_Kang)
+- [Pang Kang - Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/profiles/kang-pang/)
+- [Pang Kang - Forbes Profile](https://www.forbes.com/profile/pang-kang/)
 - [China $33 Billion Condiments Giant Foshan Haitian Flavouring & Food Co - Caproasia](https://www.caproasia.com/2025/05/17/china-33-billion-condiments-giant-foshan-haitian-flavouring-food-co-receives-approval-for-hong-kong-secondary-listing-ipo-to-raise-1-billion-founded-in-1955-by-individuals-including-chairman-pang/)

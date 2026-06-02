@@ -12,32 +12,32 @@ type: note
 
 Question: What are things like insoles that we can buy separately to extend the usage time of items in daily life?
 
-Answer: 
+Answer:
 
 Items like **insoles** are removable, replaceable parts that wear out faster than the main product. By buying and swapping them separately, you can significantly extend the life of the original item (like shoes) without replacing the whole thing.
 
 Here are common examples of such **separately purchasable, replaceable wear parts** in everyday items:
 
 ### Footwear-related
-- **Replacement insoles / shoe inserts**  
+- **Replacement insoles / shoe inserts**
   Many shoes (especially running shoes, work boots, sneakers, and walking shoes) have removable factory insoles that flatten or degrade over time. Buying aftermarket insoles (gel, foam, arch support, etc.) and swapping them can restore comfort and extend shoe life by months or even years. Brands like Dr. Scholl's, Spenco, Tread Labs (with replaceable top covers), and Sidas are popular for this.
 
 ### Clothing and accessories
-- **Shoe soles / resoling**  
+- **Shoe soles / resoling**
   Good leather shoes or boots can be resoled (new sole attached) multiple times, turning a 3–5 year shoe into 10+ years of use.
-- **Shoe laces**  
+- **Shoe laces**
   Simple and cheap to replace when they fray.
 - **Zippers or buttons** on jackets, pants, bags → often replaceable.
 
 ### Electronics and tech
-- **Phone / laptop batteries**  
+- **Phone / laptop batteries**
   Many models (especially Fairphone, some iPhones, Framework laptops) allow battery replacement, extending device life 2–5+ years.
-- **Screen protectors and cases**  
+- **Screen protectors and cases**
   Cheap to replace instead of buying a new phone.
 - **Earphone tips / eartips** (for earbuds) → silicone/rubber tips wear out and are easily swapped.
 
 ### Kitchen and household
-- **Blender / food processor blades or gaskets**  
+- **Blender / food processor blades or gaskets**
   Often sold separately when they dull or crack.
 - **Knife sharpening** or replaceable knife blades (some modular knife systems).
 - **Coffee machine filters / water filters** (e.g., Brita, espresso machines).
@@ -55,7 +55,7 @@ Here are common examples of such **separately purchasable, replaceable wear part
 
 The key idea is choosing products designed with **modular or serviceable parts** (e.g., removable insoles, screw-together laptops like Framework, repair-friendly brands like Patagonia for clothing). This approach saves money, reduces waste, and makes high-quality items last much longer.
 
-References:  
+References:
 
 - [Replacement Insoles For Running Shoes](https://fellrnr.com/wiki/Replacement_Insoles)
 - [TREAD LABS Ramble Insoles](https://treadlabs.com/products/ramble-insoles)

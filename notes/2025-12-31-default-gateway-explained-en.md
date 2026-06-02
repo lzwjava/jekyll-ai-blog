@@ -12,7 +12,7 @@ type: note
 
 Question: What is the content of the YouTube video at https://www.youtube.com/watch?v=pCcJFdYNamc? Please provide a refined and organized version of its transcript.
 
-Answer: 
+Answer:
 
 The YouTube video is titled **"Default Gateway Explained"** by the channel *PowerCert Animated Videos*. It is an educational animated video explaining what a default gateway is in computer networking, how it works, and related concepts like IP addresses and subnet masks.
 
@@ -50,6 +50,6 @@ Consider a private network divided into two subnets: one on 192.168.0.x and anot
 
 That concludes the explanation of default gateways.
 
-References:  
+References:
 
 - [YouTube Video: Default Gateway Explained](https://www.youtube.com/watch?v=pCcJFdYNamc)

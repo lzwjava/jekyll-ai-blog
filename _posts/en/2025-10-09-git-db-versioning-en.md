@@ -44,6 +44,6 @@ Start with JSON/CSV for simplicity—it's "good enough" for small-scale and alig
 
 If your records have a specific structure, share more details for tailored code snippets.
 
-[Versioning SQLite in Git](https://dunkels.com/adam/git-diff-sqlite3/)  
-[JSON vs DB for Small Data](https://www.reddit.com/r/flask/comments/lvccgo/using_a_database_such_as_sqlite3_versus_json_to/)  
+[Versioning SQLite in Git](https://dunkels.com/adam/git-diff-sqlite3/)
+[JSON vs DB for Small Data](https://www.reddit.com/r/flask/comments/lvccgo/using_a_database_such_as_sqlite3_versus_json_to/)
 [Data Version Control Options](https://dolthub.com/blog/2022-04-27-data-version-control/)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why don't USA, UK, or Australia dealers/business owners go to Huaqiangbei (HQB)?
 
-Answer: 
+Answer:
 
 Dealers and business owners from the USA, UK, and Australia do occasionally visit Huaqiangbei (HQB) in Shenzhen, particularly tech enthusiasts, hardware startups, prototypers, or those seeking small-volume components and gadgets. However, they are not among the most numerous or prominent groups of international visitors, and many professional importers from these countries prefer alternative sourcing methods. Several key reasons explain this:
 
@@ -30,10 +30,10 @@ Dealers and business owners from the USA, UK, and Australia do occasionally visi
 
 In summary, while HQB remains iconic for exploration and niche sourcing, it is no longer the primary choice for most established Western electronics importers due to evolved market dynamics favoring reliability, compliance, and convenience.
 
-References:  
+References:
 
-- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)  
-- [Getting Around Huaqiangbei Market - A Simple Guide for 2025](https://owlsourcing.com/huaqiangbei-market/)  
-- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)  
-- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)  
+- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
+- [Getting Around Huaqiangbei Market - A Simple Guide for 2025](https://owlsourcing.com/huaqiangbei-market/)
+- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)
+- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)
 - [Intl. visitors flock to Shenzhen's Huaqiangbei for gadgets](https://www.newsgd.com/node_5c070fdd03/38cd36e6f6.shtml)

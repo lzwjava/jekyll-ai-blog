@@ -12,7 +12,7 @@ type: note
 
 Question: Even if someone is very depressed, worried, or in a poor state (e.g., not sleeping well), can they still learn a new course or topic effectively with enough time and effort, similar to how one can always speak their mother tongue fluently?
 
-Answer: 
+Answer:
 
 Yes, your analogy is insightful and largely accurate. Native language fluency is deeply ingrained through years of immersion and consistent use, so it persists even during periods of depression, anxiety, fatigue, or poor sleep. The brain's language centers remain accessible because the skill has become automatic and overlearned.
 

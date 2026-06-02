@@ -79,5 +79,5 @@ type: note
 - 您还可以通过打开 **运行和调试** 面板（Windows/Linux 为 `Ctrl+Shift+D`，Mac 为 `Cmd+Shift+D`），从下拉菜单中选择“运行扩展”，然后单击绿色播放按钮来启动扩展开发宿主。
 - 要在进行更改后重新加载扩展宿主，请在扩展开发宿主窗口中使用 `Ctrl+R`（Windows/Linux）或 `Cmd+R`（Mac），或使用 F5 重新启动。
 
-有关更多详细信息，请参阅官方 VSCode 扩展开发指南：  
+有关更多详细信息，请参阅官方 VSCode 扩展开发指南：
 [VS Code 扩展开发](https://code.visualstudio.com/api/get-started/your-first-extension)

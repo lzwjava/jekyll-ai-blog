@@ -17,7 +17,7 @@ type: note
 
 虽然在汽车阶段并未总是明确提及具体的“汽车历史”或经典创业故事书籍标题（除了他早年生活受 Steve Jobs 传记或 *Silicon Valley of Fire* 等书籍影响），但他的方法符合**刻意的“自我洗脑”**模式——通过阅读、实践学习和心态转变，深入沉浸于新领域。
 
-**这种自学对成功帮助很大吗？**  
+**这种自学对成功帮助很大吗？**
 它贡献了很大一部分，但只是更大公式中的一部分：
 
 - **知识获取** — 作为新人（小米来自智能手机领域），Lei Jun 需要快速缩小专业知识差距。自学帮助他做出明智决策，设定雄心勃勃的目标（例如，在规格上超越 Tesla Model S 和 Porsche Taycan），并避免一些新手错误。
@@ -26,7 +26,7 @@ type: note
 
 简而言之，这种密集阅读和自我沉浸**非常有帮助**——它在短时间内建立了基础理解和情感承诺——但成功来自于将其与执行、资源、中国 EV 热潮的时机以及 Lei Jun 的 proven track record 相结合。许多企业家（例如 Elon Musk 进入火箭领域）使用类似的“强制学习”进入复杂行业，当与行动结合时，它往往能加速进步。
 
-参考文献：  
+参考文献：
 
 - [What Xiaomi's Billionaire CEO Lei Jun Is Reading to Build EVs](https://www.bloomberg.com/news/articles/2022-10-07/what-xiaomi-s-billionaire-ceo-lei-jun-is-reading-to-build-evs)
 - [Xiaomi CEO Lei Jun says passion is key to building a great car](https://kr-asia.com/xiaomi-ceo-lei-jun-says-passion-is-key-to-building-a-great-car)

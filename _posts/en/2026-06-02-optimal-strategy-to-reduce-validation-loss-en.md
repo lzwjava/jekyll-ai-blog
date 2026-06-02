@@ -119,7 +119,7 @@ In that case, **jump to LoRA-tune on curated data** rather than grinding out mor
 
 ## My Take
 
-**Just continue training.** You're 17% done. MI300X has enough memory to run large batches. Loss should drop steadily if data is reasonable. Push to 200K-250K steps (1-2 weeks), then evaluate actual model quality (ask it to code, reason, cite facts). 
+**Just continue training.** You're 17% done. MI300X has enough memory to run large batches. Loss should drop steadily if data is reasonable. Push to 200K-250K steps (1-2 weeks), then evaluate actual model quality (ask it to code, reason, cite facts).
 
 If val_loss plateaus at 3.0, **don't grind**—pivot to fine-tuning on high-quality task data instead. Pretraining is a sunk cost at that point; downstream performance matters more.
 

@@ -16,20 +16,20 @@ The correct answer is **A. onCreate() → onStart() → onResume()**
 
 When an Activity is created for the first time (e.g., when the app is launched or the user navigates to a new Activity), the system calls the following callback methods in this exact order:
 
-1. **onCreate()**  
-   - The Activity is being created.  
-   - You set up the layout (setContentView()), initialize views, and prepare essential components.  
+1. **onCreate()**
+   - The Activity is being created.
+   - You set up the layout (setContentView()), initialize views, and prepare essential components.
    - The Activity is not yet visible to the user.
 
-2. **onStart()**  
-   - The Activity is becoming visible to the user.  
+2. **onStart()**
+   - The Activity is becoming visible to the user.
    - It’s now on the screen but not yet interactive (not in the foreground).
 
-3. **onResume()**  
-   - The Activity is now in the foreground and fully interactive.  
+3. **onResume()**
+   - The Activity is now in the foreground and fully interactive.
    - It has focus and is running — this is the state where the user can interact with it.
 
-So the correct sequence is:  
+So the correct sequence is:
 **onCreate() → onStart() → onResume()**
 
 The other options are incorrect because:

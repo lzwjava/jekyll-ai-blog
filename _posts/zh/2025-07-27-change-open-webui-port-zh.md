@@ -12,12 +12,12 @@ type: note
 在使用 `open-webui serve` 命令运行 Open WebUI 时（通常通过 pip 安装后），如需更改端口，请使用 `--port` 标志后接所需端口号。默认端口为 8080。
 
 ### 操作步骤：
-1. 确保已安装 Open WebUI：  
+1. 确保已安装 Open WebUI：
    ```
    pip install open-webui
    ```
 
-2. 在指定端口运行服务（例如 3000）：  
+2. 在指定端口运行服务（例如 3000）：
    ```
    open-webui serve --port 3000
    ```
@@ -31,5 +31,5 @@ type: note
 
 完整安装和配置详情请参阅官方文档。
 
-[环境变量配置 | Open WebUI](https://docs.openwebui.com/getting-started/env-configuration/)  
+[环境变量配置 | Open WebUI](https://docs.openwebui.com/getting-started/env-configuration/)
 [快速开始 | Open WebUI](https://docs.openwebui.com/getting-started/quick-start/)

@@ -45,9 +45,9 @@ type: note
 
 如需了解最新营业时间、活动或优惠信息，请查看商场官方应用或微信公众号。天河区商场乘坐地铁最为便捷；其他区域可能需要公交或出租车。
 
-[THE 15 BEST Guangzhou Shopping Malls (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c26-t143-Guangzhou_Guangdong.html)  
-[The Ultimate Shopping Guide to Guangzhou: Top 10 Malls You Need to Visit in 2025](https://www.zhujianger.com/blogs/post/shopping-malls-in-guangzhou-2025-guide)  
-[China | Mall Information | AEON MALL](https://www.aeonmall.com/en/store/china.html)  
-[Zengcheng Wanda Plaza - Trip.com](https://sg.trip.com/travel-guide/shops/guangzhou/zengcheng-wanda-plaza-18177972/)  
-[11 Best Hotels in Huangpu District, Guangzhou - Agoda.com](https://www.agoda.com/huangpu-district/maps/guangzhou-cn.html)  
+[THE 15 BEST Guangzhou Shopping Malls (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c26-t143-Guangzhou_Guangdong.html)
+[The Ultimate Shopping Guide to Guangzhou: Top 10 Malls You Need to Visit in 2025](https://www.zhujianger.com/blogs/post/shopping-malls-in-guangzhou-2025-guide)
+[China | Mall Information | AEON MALL](https://www.aeonmall.com/en/store/china.html)
+[Zengcheng Wanda Plaza - Trip.com](https://sg.trip.com/travel-guide/shops/guangzhou/zengcheng-wanda-plaza-18177972/)
+[11 Best Hotels in Huangpu District, Guangzhou - Agoda.com](https://www.agoda.com/huangpu-district/maps/guangzhou-cn.html)
 [Vanke City Garden Coffee Commercial Center - Trip.com](https://www.trip.com/travel-guide/shops/guangzhou/vanke-city-garden-coffee-commercial-center-54058090/)

@@ -22,6 +22,6 @@ type: note
 
 如需了解航班或地面交通的更多详情，请查阅各机场官方网站。
 
-参考来源：  
-[日本最繁忙机场列表](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Japan)  
+参考来源：
+[日本最繁忙机场列表](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Japan)
 [日本国际航空旅行指南](https://www.japan-guide.com/e/e2034.html)

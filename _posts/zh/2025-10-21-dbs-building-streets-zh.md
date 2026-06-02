@@ -24,6 +24,6 @@ DBS大厦，正式名称为滨海湾金融中心第三大厦（MBFC Tower 3）�
 
 该区域呈网格状布局，MBFC建筑群位于滨海林荫道与海峡景路/中央林荫道的交汇处。通过包括通往市中心地铁站（DT17）的地下连廊在内的步行系统，该区域具备高度步行友好性。建议使用Google地图或OneMap等导航应用获取实时路线详情。
 
-[滨海湾金融中心 - Mapcarta](https://mapcarta.com/W116905042)  
-[市中心区道路列表 - SgWiki](https://sgwiki.com/wiki/List_of_Roads_in_Downtown_Core)  
+[滨海湾金融中心 - Mapcarta](https://mapcarta.com/W116905042)
+[市中心区道路列表 - SgWiki](https://sgwiki.com/wiki/List_of_Roads_in_Downtown_Core)
 [前往MBFC第三大厦的交通指引 - Moovit](https://moovitapp.com/index/en-gb/public_transportation-Marina_Bay_Financial_Centre_Tower_3_12_Marina_Blvd-Singapore_%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A1-site_249723791-1678)

@@ -12,7 +12,7 @@ type: note
 
 Question: TL-XDR3050 和 TL-XDR3050易展版有什么区别？
 
-Answer: 
+Answer:
 
 **TL-XDR3050** 和 **TL-XDR3050易展版** 指的是 TP-Link 同一款路由器型号。
 
@@ -34,9 +34,9 @@ Answer:
 
 简而言之：**两者没有实质性区别** —— “TL-XDR3050易展版”只是该型号在中国市场的标准/完整名称。如果你看到仅写着 “TL-XDR3050”，它几乎总是指代易展版。
 
-References:  
+References:
 
-- [TP-Link 官方 TL-XDR3050易展版 产品页面](https://www.tp-link.com.cn/product_2196.html)  
-- [acwifi.net 上的拆解与详情](https://www.acwifi.net/18413.html)  
-- [知乎上关于相关型号对比的讨论](https://www.zhihu.com/question/521530068)  
+- [TP-Link 官方 TL-XDR3050易展版 产品页面](https://www.tp-link.com.cn/product_2196.html)
+- [acwifi.net 上的拆解与详情](https://www.acwifi.net/18413.html)
+- [知乎上关于相关型号对比的讨论](https://www.zhihu.com/question/521530068)
 - [京东/淘宝/苏宁上将其称为 TL-XDR3050易展版 的多个商品列表](https://www.suning.com/item/0000000000/12352783627.html)

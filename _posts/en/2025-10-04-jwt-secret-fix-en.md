@@ -55,5 +55,5 @@ The logs indicate the API is starting but crashing due to a missing JWT secret: 
 
 This should get you up and running—JWT_SECRET is required for auth endpoints. If logs show a different error post-fix, paste them here.
 
-[LibreChat Environment Variables](https://www.librechat.ai/docs/configuration/dotenv#jwt_secret)  
+[LibreChat Environment Variables](https://www.librechat.ai/docs/configuration/dotenv#jwt_secret)
 [Common Docker Issues](https://github.com/danny-avila/LibreChat/issues?q=is%3Aissue+is%3Aopen+label%3Adocker)

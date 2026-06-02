@@ -12,12 +12,12 @@ type: note
 
 Question: What is the primary purpose of the <meta charset="utf-8"> tag in HTML5?
 
-A) To set the page background color  
-B) To specify the character encoding for the document  
-C) To define the page title  
+A) To set the page background color
+B) To specify the character encoding for the document
+C) To define the page title
 D) To link an external CSS file
 
-Answer: 
+Answer:
 
 The correct answer is **B) To specify the character encoding for the document**.
 
@@ -27,6 +27,6 @@ In HTML5, the `<meta charset="utf-8">` tag (a simplified form of the more verbos
 - Option C is incorrect because the page title is defined using the `<title>` tag.
 - Option D is incorrect because external CSS files are linked using the `<link rel="stylesheet" href="styles.css">` tag.
 
-This tag should be one of the first elements in the `<head>` to ensure proper encoding detection before any content is parsed. 
+This tag should be one of the first elements in the `<head>` to ensure proper encoding detection before any content is parsed.
 
 Your selection of B is correct.

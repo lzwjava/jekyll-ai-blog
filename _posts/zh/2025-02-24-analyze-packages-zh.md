@@ -44,10 +44,10 @@ from collections import Counter
 def find_java_files(root_dir):
     """
     递归查找给定目录及其子目录中的所有 .java 文件。
-    
+
     参数:
         root_dir (str): 开始搜索的根目录。
-    
+
     生成:
         str: 每个 .java 文件的完整路径。
     """
@@ -59,12 +59,12 @@ def find_java_files(root_dir):
 def extract_package(import_statement):
     """
     从 import 语句中提取包名。
-    
+
     使用包名为小写、类名以大写字母开头的约定。处理通配符导入 (*)。
-    
+
     参数:
         import_statement (str): Java 文件中的 import 语句行。
-    
+
     返回:
         str: 包名，如果无法确定则返回空字符串。
     """
@@ -89,11 +89,11 @@ if __name__ == '__main__':
     if len(sys.argv) < 2 or len(sys.argv) > 4:
         print("用法: python script.py <根目录> [层级] [--count]")
         sys.exit(1)
-    
+
     root_dir = sys.argv[1]
     level = 0
     count = False
-    
+
     if len(sys.argv) == 3:
         if sys.argv[2] == "--count":
             count = True
@@ -109,22 +109,22 @@ if __name__ == '__main__':
         else:
             print(f"无效参数: {sys.argv[2]} {sys.argv[3]}")
             sys.exit(1)
-    
+
     # 验证目录是否存在
     if not os.path.isdir(root_dir):
         print(f"[错误] 指定路径不是目录: {root_dir}")
         sys.exit(1)
-    
+
     # 记录分析开始
     level_str = "使用完整包名" if level == 0 else f"在层级 {level}"
     count_str = "包含出现次数" if count else ""
     print(f"[信息] 开始分析目录: {root_dir} {level_str} {count_str}")
-    
+
     # 初始化变量
     package_counter = Counter()
     total_files = 0
     error_files = 0
-    
+
     # 处理 Java 文件
     for java_file in find_java_files(root_dir):
         try:
@@ -148,7 +148,7 @@ if __name__ == '__main__':
             print(f"[错误] 无法读取文件 {java_file}: {e}")
             error_files += 1
             continue
-    
+
     # 打印摘要
     print(f"[信息] 尝试处理的 Java 文件总数: {total_files + error_files}")
     print(f"[信息] 成功处理: {total_files}")
@@ -157,7 +157,7 @@ if __name__ == '__main__':
         print(f"[信息] 带计数的唯一包总数: {len(package_counter)}")
     else:
         print(f"[信息] 唯一包总数: {len(package_counter)}")
-    
+
     # 按适当排序打印结果
     if package_counter:
         if count:

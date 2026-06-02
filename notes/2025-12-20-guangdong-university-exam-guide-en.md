@@ -12,9 +12,9 @@ type: note
 
 Question: Translate the provided PDF document about the Guangdong University of Foreign Studies self-study examination practical assessment registration process to English.
 
-Answer: 
+Answer:
 
-# Guangdong University of Foreign Studies  
+# Guangdong University of Foreign Studies
 Social Candidates Self-Study Examination Practical Assessment Registration Operation Process (202512)
 
 ## I. Registration Instructions:

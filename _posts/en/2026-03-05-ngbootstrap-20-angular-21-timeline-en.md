@@ -11,7 +11,7 @@ type: note
 
 Question: When ng-bootstrap 20.0.0 was released, which Angular 21 versions had already been released?
 
-Answer: 
+Answer:
 
 **ng-bootstrap 20.0.0 was released on December 12, 2025.**
 
@@ -27,10 +27,10 @@ In short: When ng-bootstrap 20.0.0 came out, **only Angular 21.0.0** (the initia
 
 This aligns with the project's pattern: ng-bootstrap major versions typically follow shortly after the corresponding Angular major release to update peer dependencies and ensure compatibility.
 
-References:  
+References:
 
-- [https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0](https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0)  
-- [https://angular.dev/reference/releases](https://angular.dev/reference/releases)  
-- [https://github.com/angular/angular/releases](https://github.com/angular/angular/releases)  
-- [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)  
+- [https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0](https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0)
+- [https://angular.dev/reference/releases](https://angular.dev/reference/releases)
+- [https://github.com/angular/angular/releases](https://github.com/angular/angular/releases)
+- [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)
 - [https://github.com/ng-bootstrap/ng-bootstrap/blob/master/CHANGELOG.md](https://github.com/ng-bootstrap/ng-bootstrap/blob/master/CHANGELOG.md)

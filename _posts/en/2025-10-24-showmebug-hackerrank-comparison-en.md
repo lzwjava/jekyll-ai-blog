@@ -30,8 +30,8 @@ ShowMeBug and HackerRank are both technical assessment and coding interview plat
 
 Overall, HackerRank edges out for global scale and community features, making it ideal for broad talent pools, while ShowMeBug shines in automated, precise assessments for engineering depth, especially in competitive Asian hiring markets. Choose based on your geographic focus and automation needs.
 
-[ShowMeBug Website](https://www.showmebug.com/)  
-[HackerRank Website](https://www.hackerrank.com/)  
-[ShowMeBug Funding & Profile](https://www.crunchbase.com/organization/showmebug)  
-[HackerRank Interview Features](https://www.hackerrank.com/products/interview)  
+[ShowMeBug Website](https://www.showmebug.com/)
+[HackerRank Website](https://www.hackerrank.com/)
+[ShowMeBug Funding & Profile](https://www.crunchbase.com/organization/showmebug)
+[HackerRank Interview Features](https://www.hackerrank.com/products/interview)
 [HackerRank Alternatives List](https://www.inven.ai/company-lists/top-23-hackerrank-alternatives)

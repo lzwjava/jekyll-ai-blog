@@ -28,7 +28,7 @@ GreptimeDB 的文档指定需要 protoc ≥3.15，但对于此依赖项，实际
 1. **下载最新版 Protoc**：
    - 访问 [Protocol Buffers Releases](https://github.com/protocolbuffers/protobuf/releases)。
    - 获取最新的 `protoc-<version>-linux-x86_64.zip`（例如 `protoc-28.1-linux-x86_64.zip` 或任何当前最新版本——任何 ≥3.21 的版本均可）。
-   - 示例直接链接（请调整版本号）：  
+   - 示例直接链接（请调整版本号）：
      `wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip`
 
 2. **安装**：
@@ -64,6 +64,6 @@ GreptimeDB 的文档指定需要 protoc ≥3.15，但对于此依赖项，实际
 
 这应该能解决问题——`substrait` 在现代设置上可以干净地编译。如果您遇到其他问题，请分享 `protoc --version` 的输出和您的发行版信息。
 
-[GreptimeDB 构建文档](https://github.com/GreptimeTeam/greptimedb#build-from-source)  
-[Protobuf 发布页面](https://github.com/protocolbuffers/protobuf/releases)  
+[GreptimeDB 构建文档](https://github.com/GreptimeTeam/greptimedb#build-from-source)
+[Protobuf 发布页面](https://github.com/protocolbuffers/protobuf/releases)
 [Proto3 可选字段文档](https://protobuf.dev/programming-guides/proto3/#optional)

@@ -31,8 +31,8 @@ GoodMe（古茗）作为2010年成立的中国领先茶饮品牌，通过创新�
 
 实质上，GoodMe 不仅仅是运输水果——它们重新设计了供应链，以规模化地提供“从农场到杯子”的活力，将行业痛点转化为竞争优势。如果你去尝试，一定要点他们的手剥粒粒大橙，体验那种极致的新鲜感。
 
-参考文献：  
-- [古茗 百度百科](https://baike.baidu.com/item/%E5%8F%A4%E8%8C%97/23861860)  
-- [Gu Ming IPO: China's No. 2 Milk Tea Brand](https://pandayoo.com/post/gu-ming-ipo-chinas-no-2-milk-tea-brand-goes-public-amidst-market-frenzy/)  
-- [古茗上市！GMV超200亿](https://zhuanlan.zhihu.com/p/32553657353)  
+参考文献：
+- [古茗 百度百科](https://baike.baidu.com/item/%E5%8F%A4%E8%8C%97/23861860)
+- [Gu Ming IPO: China's No. 2 Milk Tea Brand](https://pandayoo.com/post/gu-ming-ipo-chinas-no-2-milk-tea-brand-goes-public-amidst-market-frenzy/)
+- [古茗上市！GMV超200亿](https://zhuanlan.zhihu.com/p/32553657353)
 - [从产地到家里只需72小时，水果就得按这个标准卷](https://iot.ofweek.com/2021-07/ART-132200-8500-30512135.html)

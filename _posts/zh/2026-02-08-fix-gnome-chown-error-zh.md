@@ -12,7 +12,7 @@ type: note
 
 Question: 在 Lenovo XiaoXin 14 IAH8 笔记本电脑（目前运行 Ubuntu）上尝试从 USB 启动后，启动失败并显示错误 "failed to start gdm gnome display manager"。这是因为之前为了修复 Claude code CLI 升级问题，运行了命令 `sudo chown -R $(whoami) /usr/`，该命令将 /usr/（及其子目录）的所有权从 root 更改为用户 lzwjava。如何修复这个损坏的 GNOME Display Manager (GDM) 登录界面问题？
 
-Answer: 
+Answer:
 
 命令 `sudo chown -R lzwjava /usr/`（或您的任何用户名）极其危险。它破坏了系统 binaries、libraries、配置文件以及必须由 **root**（或特定的系统用户，如 systemd-*、messagebus 等）拥有的 services。GDM 启动失败只是最明显的症状——系统的许多其他部分可能也已损坏或存在权限问题。
 
@@ -25,7 +25,7 @@ Answer:
    - 如果 GRUB 被隐藏，请在开机后立即按住 **Shift**（或反复按 **Esc**）。
 3. 在 GRUB 中，高亮显示正常的 Ubuntu 条目 → 按 **e** 进行编辑。
 4. 找到以 `linux` 开头的行（通常包含 `quiet splash`）。
-5. 在该行的末尾添加一个空格，然后输入：  
+5. 在该行的末尾添加一个空格，然后输入：
    `rw init=/bin/bash`
 6. 按 **Ctrl + X** 或 **F10** 启动。
 7. 您应该会进入一个 root shell（不需要登录）。
@@ -105,8 +105,8 @@ reboot
 
 如果您在任何步骤卡住（例如出现特定错误消息），请提供这些信息，我可以提供更具针对性的命令。
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)  
-- [https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous](https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous)  
+- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)
+- [https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous](https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous)
 - [https://help.ubuntu.com/community/Boot-Repair](https://help.ubuntu.com/community/Boot-Repair)

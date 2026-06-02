@@ -16,6 +16,6 @@ type: note
 
 若 Windows 版本能如期推出（根据 GitHub 上的持续讨论），它同样会采用原生开发方案以确保流畅体验。
 
-[Ghostty 官方功能说明](https://ghostty.org/docs/features)  
-[Ghostty GitHub 代码库](https://github.com/ghostty-org/ghostty)  
+[Ghostty 官方功能说明](https://ghostty.org/docs/features)
+[Ghostty GitHub 代码库](https://github.com/ghostty-org/ghostty)
 [Ghostty 版本发布说明](https://ghostty.org/docs/install/release-notes)

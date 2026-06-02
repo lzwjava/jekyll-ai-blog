@@ -59,7 +59,7 @@ Enter the user ID.  End with an empty line:
      ```
      John Doe
      recipient@example.com
-     
+
      ```
      (Empty line ends it.)
 

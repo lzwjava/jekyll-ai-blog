@@ -119,7 +119,7 @@ This method emphasizes natural eye use without forced exercises. Avoid methods r
 **Warning signs to stop immediately:**
 - Eye socket, temple, or eyeball pain
 - Blurred vision
-- Double vision  
+- Double vision
 - Slower focusing speed
 - Floaters
 

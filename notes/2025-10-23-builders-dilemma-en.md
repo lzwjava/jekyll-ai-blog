@@ -31,7 +31,7 @@ Ultimately, no society or company thrives forever by hoarding. The "dark thought
 
 If this resonates or you meant something specific by "contractors," hit me with more details.
 
-[Elitism in Big Tech Hiring](https://www.bloomberg.com/news/articles/2023-05-15/google-meta-amazon-hiring-processes-favor-elite-schools)  
-[Singapore's Immigration Balancing Act](https://www.economist.com/asia/2024/02/15/singapores-immigration-policy-is-a-model-for-the-world)  
-[USA H-1B Visa Realities](https://www.migrationpolicy.org/article/h-1b-visa-program-fact-sheet)  
+[Elitism in Big Tech Hiring](https://www.bloomberg.com/news/articles/2023-05-15/google-meta-amazon-hiring-processes-favor-elite-schools)
+[Singapore's Immigration Balancing Act](https://www.economist.com/asia/2024/02/15/singapores-immigration-policy-is-a-model-for-the-world)
+[USA H-1B Visa Realities](https://www.migrationpolicy.org/article/h-1b-visa-program-fact-sheet)
 [Contract Work in Tech](https://www.upwork.com/research/freelance-forward-2023)

@@ -48,7 +48,7 @@ type: note
 
 贴心提示：想体验地道风情，建议搭配荔湾老城街巷漫步。价格参考：星级餐厅¥¥¥+，必比登餐厅更亲民。
 
-[2025广州米其林指南发布（广州日报）](https://gzdaily.dayoo.com/pc/html/2025-07/03/content_874_890653.htm)  
-[米其林指南广州2025](https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurants)  
-[广州米其林星级餐厅名录（维基百科）](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)  
+[2025广州米其林指南发布（广州日报）](https://gzdaily.dayoo.com/pc/html/2025-07/03/content_874_890653.htm)
+[米其林指南广州2025](https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurants)
+[广州米其林星级餐厅名录（维基百科）](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)
 [全球50最佳餐厅探索-广州](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)

@@ -63,13 +63,13 @@ vhost __defaultVhost__ {
         origin          192.168.1.10:1935;   # Change to your origin IP:port
         # Or multiple origins (SRS will try next one if current fails):
         # origin        192.168.1.10:1935 192.168.1.11:1935;
-        
+
         # Optional: edge cluster name (for stats/management)
         # name          edge001;
-        
+
         # Optional: only pull when there are players (default behavior)
     }
-    
+
     # Optional: enable HTTP-FLV/HLS on edge too
     http_remux {
         enabled     on;
@@ -83,7 +83,7 @@ vhost __defaultVhost__ {
 ./objs/srs -c edge.conf
 ```
 
-播放器连接至：`rtmp://your-edge-ip/live/stream_key`  
+播放器连接至：`rtmp://your-edge-ip/live/stream_key`
 如果流本地没有缓存，SRS edge 将自动从 origin 拉取。
 
 ### 关键差异总结

@@ -72,6 +72,6 @@ git check-ignore <pathname>...
 - Works on untracked files or those already in the repo (but checks against ignore rules).
 - For more details, see the official docs.
 
-[Git check-ignore Documentation](https://git-scm.com/docs/git-check-ignore)  
-[Stack Overflow: Git command to show which specific files are ignored](https://stackoverflow.com/questions/466764/git-command-to-show-which-specific-files-are-ignored-by-gitignore)  
+[Git check-ignore Documentation](https://git-scm.com/docs/git-check-ignore)
+[Stack Overflow: Git command to show which specific files are ignored](https://stackoverflow.com/questions/466764/git-command-to-show-which-specific-files-are-ignored-by-gitignore)
 [Using git check-ignore to debug your .gitignore](https://alexwlchan.net/til/2020/using-git-check-ignore-to-debug-your-gitignore/)

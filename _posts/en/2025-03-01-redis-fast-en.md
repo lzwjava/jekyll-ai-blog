@@ -43,7 +43,7 @@ From related articles, Redis can handle up to 100,000 Queries Per Second (QPS) o
 
 #### Key Factors Contributing to Redis's Speed
 
-1. **In-Memory Storage**  
+1. **In-Memory Storage**
    Redis stores data in RAM, which is at least 1000 times faster than random disk access. This eliminates the latency of disk I/O, with RAM access times around 100-120 nanoseconds compared to 50-150 microseconds for SSDs and 1-10 milliseconds for HDDs. The video likely emphasizes this as a primary reason, as it aligns with the channel's focus on system design fundamentals.
 
    | Aspect               | Details                                      |
@@ -53,7 +53,7 @@ From related articles, Redis can handle up to 100,000 Queries Per Second (QPS) o
    | Comparison to Disk   | 1000x faster than random disk access        |
    | Impact on Performance| Reduces latency, increases throughput        |
 
-2. **IO Multiplexing and Single-Threaded Execution Loop**  
+2. **IO Multiplexing and Single-Threaded Execution Loop**
    IO multiplexing allows a single thread to monitor multiple I/O streams concurrently using system calls like `select`, `poll`, `epoll` (Linux), `kqueue` (Mac OS), or `evport` (Solaris). This is crucial for handling multiple client connections without blocking, a point likely detailed in the video. The single-threaded execution loop avoids context switching and synchronization overhead, simplifying development and debugging.
 
    | Mechanism            | Description                                  |
@@ -64,7 +64,7 @@ From related articles, Redis can handle up to 100,000 Queries Per Second (QPS) o
 
    However, client-blocking commands like `BLPOP` or `BRPOP` can delay traffic, a potential drawback mentioned in related articles. The video may discuss how this design choice balances simplicity with performance.
 
-3. **Efficient Lower-Level Data Structures**  
+3. **Efficient Lower-Level Data Structures**
    Redis leverages data structures like hash tables for O(1) key lookups, linked lists for lists, and skip lists for sorted sets. These are optimized for in-memory operations, minimizing memory usage and maximizing speed. The video likely includes diagrams or examples, such as how hash tables enable fast key-value operations, a common topic in system design interviews.
 
    | Data Structure       | Use Case                                     | Time Complexity |

@@ -34,7 +34,7 @@ In **Guangzhou**, it's growing but patchier—not as seamless. Some spots like D
 
 For real-time updates (e.g., October 2025 events), check the "Beautiful Shenzhen" account. Enjoy the lychee vibes!
 
-[Shenzhen Lixiang Park Parking Reservation Guide](https://m.bendibao.com/show923988.html)  
-[Shenzhen Parks One-Click Parking Booking](https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10716733.html)  
-[Guangzhou Smart Parking Policy](https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsfzhggwyh/content/post_8427247.html)  
+[Shenzhen Lixiang Park Parking Reservation Guide](https://m.bendibao.com/show923988.html)
+[Shenzhen Parks One-Click Parking Booking](https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10716733.html)
+[Guangzhou Smart Parking Policy](https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsfzhggwyh/content/post_8427247.html)
 [Lixiang Park Official Info](https://www.sz.gov.cn/szzt2010/gysz/csgy/content/post_10788330.html)

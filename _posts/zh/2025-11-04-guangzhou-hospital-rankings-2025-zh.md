@@ -23,7 +23,7 @@ type: note
 
 需注意，专科排名存在差异（如中山眼科中心位列眼科全国第一），因此「顶尖」标准需结合具体需求。外籍人士可选择广州和睦家医院等提供英语服务的医疗机构。
 
-[2025年中国医院排名（Scimago）](https://www.scimagoir.com/rankings.php?country=CHN&sector=Health)  
-[中山大学（维基百科）](https://en.wikipedia.org/wiki/Sun_Yat-sen_University)  
-[广州顶级医院指南（MedChina）](https://www.medchinaguide.com/china-top-hospitals/shanghai-hospitals/?search=Guangzhou)  
+[2025年中国医院排名（Scimago）](https://www.scimagoir.com/rankings.php?country=CHN&sector=Health)
+[中山大学（维基百科）](https://en.wikipedia.org/wiki/Sun_Yat-sen_University)
+[广州顶级医院指南（MedChina）](https://www.medchinaguide.com/china-top-hospitals/shanghai-hospitals/?search=Guangzhou)
 [天河区三家医院入围全国百强（中国日报）](http://regional.chinadaily.com.cn/guangzhou/tianhe/2024-11/21/c_1046998.htm)

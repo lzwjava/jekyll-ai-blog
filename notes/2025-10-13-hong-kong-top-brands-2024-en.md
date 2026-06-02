@@ -42,8 +42,8 @@ This list highlights Hong Kong's emphasis on digital payments, travel, and finan
 
 For emerging local brands, check the Hong Kong Brand Development Council awards, which spotlight homegrown names like German Pool (kitchen appliances) and Lee Kum Kee (sauces).
 
-[Top 30 Strongest Brands in Hong Kong 2024 - Kantar BrandZ](https://www.campaignasia.com/article/yuu-dominates-kantars-brandz-hong-kong-ranking/499355)  
-[The 7 Best Banks To Use in Hong Kong in 2025 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)  
-[Hong Kong's best bank 2025 – HSBC - Euromoney](https://www.euromoney.com/article/23l0rk4s47ms8s48w4skk4cck/awards/awards-for-excellence/awards-for-excellence-country-territory-winners-2025-hong-kongs-best-bank-2025-hsbc/)  
-[THE BEST 10 CONVENIENCE STORES in HONG KONG - Yelp](https://m.yelp.com/search?cflt=convenience&find_loc=%25E9%25A6%2599%25E6%25B8%25AF%252C%2B%25E9%25A6%2599%25E6%25B8%25AF%252C%2BHK)  
+[Top 30 Strongest Brands in Hong Kong 2024 - Kantar BrandZ](https://www.campaignasia.com/article/yuu-dominates-kantars-brandz-hong-kong-ranking/499355)
+[The 7 Best Banks To Use in Hong Kong in 2025 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)
+[Hong Kong's best bank 2025 – HSBC - Euromoney](https://www.euromoney.com/article/23l0rk4s47ms8s48w4skk4cck/awards/awards-for-excellence/awards-for-excellence-country-territory-winners-2025-hong-kongs-best-bank-2025-hsbc/)
+[THE BEST 10 CONVENIENCE STORES in HONG KONG - Yelp](https://m.yelp.com/search?cflt=convenience&find_loc=%25E9%25A6%2599%25E6%25B8%25AF%252C%2B%25E9%25A6%2599%25E6%25B8%25AF%252C%2BHK)
 [Top Brands Gallery - Hong Kong Brand Development Council](https://www.hkbrand.org/en/gallery/1)

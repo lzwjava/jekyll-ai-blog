@@ -12,7 +12,7 @@ type: note
 
 Question: Now that AI is so advanced at solving Codeforces problems, do contests still have meaning? People can easily cheat and get 3 or 4 problems done, right?
 
-Answer: 
+Answer:
 
 **Yes, contests still have meaning — but the landscape has changed significantly in 2025-2026.**
 
@@ -44,12 +44,12 @@ Many strong coders now treat competitive programming more as:
 
 rather than a pure rating chase.
 
-**Bottom line**: If your goal is honest self-improvement, intellectual challenge, and enjoyment → contests are still very meaningful.  
+**Bottom line**: If your goal is honest self-improvement, intellectual challenge, and enjoyment → contests are still very meaningful.
 If your only goal is high rating / top ranks → yes, it's much harder/frustrating now because of widespread cheating and AI capability.
 
 Most people in the community continue participating because they love the process, not just the number.
 
-References:  
+References:
 
 - [Codeforces blog on AI cheating and top rank rollbacks (2026)](https://codeforces.com/blog/entry/149941)
 - [OpenAI o3 model Codeforces performance discussion](https://codeforces.com/blog/entry/134002)

@@ -25,126 +25,126 @@ llama.cpp 是一个高效的 C/C++ 库，用于在本地运行 Large Language Mo
 
 ### 1. 模型加载 – 最最重要的标志 (Flags)
 
-- `-m, --model FNAME`  
+- `-m, --model FNAME`
   GGUF 模型文件的路径 (`.gguf`)
 
-- `-hf, --hf-repo REPO` + `--hf-file FILE`  
+- `-hf, --hf-repo REPO` + `--hf-file FILE`
   直接从 Hugging Face 下载模型 (例如：`-hf bartowski/Llama-3.1-8B-Instruct-GGUF --hf-file Llama-3.1-8B-Instruct-Q5_K_M.gguf`)
 
-- `--mmproj FNAME`  
+- `--mmproj FNAME`
   multimodal projector 路径 (用于 vision/language 模型，如 llava, bakllava, obsidian 等)
 
 ### 2. Context & KV Cache 控制
 
-- `-c, --ctx-size N` / `--context-length N`  
+- `-c, --ctx-size N` / `--context-length N`
   最大 context 长度（以 token 为单位，默认通常为 4096 或 8192，0 = 模型默认值）
 
-- `--no-context-shift`  
+- `--no-context-shift`
   当 context 满时禁用 context 轮转（较新的模型通常推荐此项）
 
-- `--rope-scaling yarn` / `--rope-scale N` / `--rope-freq-base` / `--rope-freq-scale`  
+- `--rope-scaling yarn` / `--rope-scale N` / `--rope-freq-base` / `--rope-freq-scale`
   高级 RoPE 缩放 (当 context 大于原始训练长度时非常重要)
 
 ### 3. GPU / 加速层
 
-- `-ngl, --n-gpu-layers N`  
-  放入 GPU 的层数 (对速度至关重要)  
-  - `999` / `-1` = 尝试将所有层放入 GPU  
+- `-ngl, --n-gpu-layers N`
+  放入 GPU 的层数 (对速度至关重要)
+  - `999` / `-1` = 尝试将所有层放入 GPU
   - `0` = 仅使用 CPU
 
-- `-fa, --flash-attn`  
+- `-fa, --flash-attn`
   启用 Flash Attention (在现代 GPU 上通常更快且 VRAM 占用更低)
 
-- `-sm row` / `-sm block`  
+- `-sm row` / `-sm block`
   多 GPU 上的模型层拆分模式 (row / block / layer)
 
-- `--main-gpu INDEX` / `--tensor-split "0,0.5,0.5,…"`  
+- `--main-gpu INDEX` / `--tensor-split "0,0.5,0.5,…"`
   多 GPU 拆分控制
 
-- `--rpc-tensors` / `--no-rpc-tensors`  
+- `--rpc-tensors` / `--no-rpc-tensors`
   通过 RPC 将 tensor 卸载到另一台机器
 
 ### 4. 性能 / 线程 (Performance / Threading)
 
-- `-t, --threads N`  
+- `-t, --threads N`
   用于生成的 CPU 线程数 (默认 ≈ 所有物理核心)
 
-- `-tb, --threads-batch N`  
+- `-tb, --threads-batch N`
   用于 Prompt 处理 / Batch 的线程数 (通常与 `-t` 相同或略高)
 
-- `-b, --batch-size N`  
+- `-b, --batch-size N`
   逻辑批处理大小 (默认 2048，常用 512–4096)
 
-- `-ub, --ubatch-size N`  
+- `-ub, --ubatch-size N`
   物理微批处理大小 (通常为 512–1024，对处理超长 Prompt 很重要)
 
-- `--cont-batching` / `--no-cont-batching`  
+- `--cont-batching` / `--no-cont-batching`
   启用连续批处理 (在服务器 / 并发请求场景下通常更快)
 
-- `--no-mmap`  
+- `--no-mmap`
   禁用内存映射 (在某些文件系统或 WSL 上有时需要)
 
 ### 5. Sampling – 控制创意与质量
 
-- `--temp N`  
+- `--temp N`
   Temperature (0.0 = 确定性结果, 0.7–1.2 = 更有创意, 默认 ~0.8)
 
-- `--top-k N`  
+- `--top-k N`
   仅保留前 K 个 token (常用 20–50)
 
-- `--top-p N`  
+- `--top-p N`
   累积概率阈值 (常用 0.9–0.95)
 
-- `--min-p N`  
+- `--min-p N`
   相对于最可能 token 的最小概率 (0.05–0.1 在 2025 年之后非常流行)
 
-- `--tfs N` / `--typical N` / `--mirostat 2 --mirostat-tau 5.0 --mirostat-et 0.1`  
+- `--tfs N` / `--typical N` / `--mirostat 2 --mirostat-tau 5.0 --mirostat-et 0.1`
   高级采样器 (mirostat v2 是 2025–2026 年非常棒的默认设置)
 
-- `--repeat-penalty N` / `--presence-penalty` / `--frequency-penalty`  
+- `--repeat-penalty N` / `--presence-penalty` / `--frequency-penalty`
   抑制重复
 
-- `--dry` 系列 (dry-multipliers, dry-base, dry-sequence-breakers)  
+- `--dry` 系列 (dry-multipliers, dry-base, dry-sequence-breakers)
   较新的重复惩罚方法 (2025+)
 
 ### 6. Prompt & Chat 控制 (主要针对 llama-cli)
 
-- `-cnv, --color --no-display-prompt --simple-io`  
+- `-cnv, --color --no-display-prompt --simple-io`
   美观的终端对话模式
 
-- `--chat-template TEMPLATE` / `--chat-template-file FILE`  
+- `--chat-template TEMPLATE` / `--chat-template-file FILE`
   选择/修改对话模板 (chatml, llama-3, mistral, gemma, …)
 
-- `-s, --simple-io`  
+- `-s, --simple-io`
   原始输入/输出 (无特殊格式)
 
-- `--reverse-prompt STR` / `--in-prefix` / `--in-suffix`  
+- `--reverse-prompt STR` / `--in-prefix` / `--in-suffix`
   自定义停止词 / Prompt 包装
 
-- `-p, --prompt TEXT` / `-f, --file FILE`  
+- `-p, --prompt TEXT` / `-f, --file FILE`
   初始非交互式 Prompt
 
-- `-n, --n-predict N` / `-c, --ctx-size N`  
+- `-n, --n-predict N` / `-c, --ctx-size N`
   生成多少个 token (-1 = 无限生成直到停止)
 
 ### 7. llama-server 特有选项 (兼容 OpenAI API)
 
-- `--host 0.0.0.0 --port 8080`  
+- `--host 0.0.0.0 --port 8080`
   监听地址/端口
 
-- `--path PREFIX`  
+- `--path PREFIX`
   API 基础路径 (默认为 /v1)
 
-- `--slots` / `--parallel N`  
+- `--slots` / `--parallel N`
   最大并发请求数 / 槽位
 
-- `--embedding`  
+- `--embedding`
   启用 embedding 端点
 
-- `--reasoning-format deepseek` / `--jinja`  
+- `--reasoning-format deepseek` / `--jinja`
   针对推理模型 / 全量 jinja 模板的特殊处理
 
-- `--api-key-file` / `--ssl-key-file` / `--ssl-cert-file`  
+- `--api-key-file` / `--ssl-key-file` / `--ssl-cert-file`
   身份验证与 HTTPS
 
 ### 8. 快速参考 – 2025–2026 流行组合

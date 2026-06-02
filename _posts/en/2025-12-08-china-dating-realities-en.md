@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about dating in China?
 
-Answer: 
+Answer:
 
 Dating in China often blends intense family pressures, economic realities, and shifting gender dynamics, leading to a range of contrarian views that challenge romanticized stereotypes. Based on discussions from expats, locals, and online forums, here are some unpopular opinions that surface repeatedly—views that buck conventional wisdom about love being purely emotional or effortless:
 
@@ -28,21 +28,21 @@ Dating in China often blends intense family pressures, economic realities, and s
 
 These opinions highlight divides between urban elites and rural traditionalists, men vs. women, and locals vs. expats. They're subjective, often from frustrated daters, but reveal how economic strain and collectivism shape China's dating undercurrents.
 
-References:  
-- [r/AskChina: Dating Expectations in China](https://www.reddit.com/r/AskChina/comments/1lynvdk/what_are_the_dating_expectations_in_china_like/)  
-- [r/China: Dating Culture in China](https://www.reddit.com/r/China/comments/pgop3k/dating_culture_in_china/)  
-- [Speaking of China: Negative Dating Experiences with Chinese Men](https://www.speakingofchina.com/china-articles/on-my-negative-dating-experiences-with-chinese-men-and-why-im-still-smiling/)  
-- [HiredChina: Dating in China - What's the Difference?](https://www.hiredchina.com/articles/dating-in-china-whats-the-difference/)  
-- [Hello Teacher: Chinese Dating Dilemmas](https://www.helloteacher.asia/blog/chinese-dating-dilemmas)  
-- [r/China: What's it Like to Date a Chinese Girl](https://www.reddit.com/r/China/comments/pzmli1/whats_it_like_to_date_a_chinese_girl/)  
-- [X Post: Love in China Isn't Just Emotional](https://x.com/chensiquan_/status/1995909861402607659)  
-- [X Post: Pre-Marital Checkups in China](https://x.com/viprabuddhi/status/1897017925678280861)  
-- [X Post: Marriage Pressure in China](https://x.com/WhatAlexTweets/status/1997160955629990151)  
-- [X Post: Arranged Marriage Realities](https://x.com/erykistired/status/1984765541333221489)  
-- [X Post: Dating Bans for Students](https://x.com/miku39forever/status/1996258439048413569)  
-- [X Post: Blind Date Frustrations](https://x.com/didengshengwu/status/1786685724911427698)  
-- [X Post: Settling in Marriage](https://x.com/eroticacid/status/1997105516636438691)  
-- [X Post: Bride Price Negotiations](https://x.com/Linuhaa/status/1908741163991130159)  
-- [X Post: Chinese Dating Standards](https://x.com/jinmarcus1/status/1925406514527031781)  
-- [X Post: Foreigner Dating Critiques](https://x.com/ILuvXiJinping/status/1995961082939420863)  
+References:
+- [r/AskChina: Dating Expectations in China](https://www.reddit.com/r/AskChina/comments/1lynvdk/what_are_the_dating_expectations_in_china_like/)
+- [r/China: Dating Culture in China](https://www.reddit.com/r/China/comments/pgop3k/dating_culture_in_china/)
+- [Speaking of China: Negative Dating Experiences with Chinese Men](https://www.speakingofchina.com/china-articles/on-my-negative-dating-experiences-with-chinese-men-and-why-im-still-smiling/)
+- [HiredChina: Dating in China - What's the Difference?](https://www.hiredchina.com/articles/dating-in-china-whats-the-difference/)
+- [Hello Teacher: Chinese Dating Dilemmas](https://www.helloteacher.asia/blog/chinese-dating-dilemmas)
+- [r/China: What's it Like to Date a Chinese Girl](https://www.reddit.com/r/China/comments/pzmli1/whats_it_like_to_date_a_chinese_girl/)
+- [X Post: Love in China Isn't Just Emotional](https://x.com/chensiquan_/status/1995909861402607659)
+- [X Post: Pre-Marital Checkups in China](https://x.com/viprabuddhi/status/1897017925678280861)
+- [X Post: Marriage Pressure in China](https://x.com/WhatAlexTweets/status/1997160955629990151)
+- [X Post: Arranged Marriage Realities](https://x.com/erykistired/status/1984765541333221489)
+- [X Post: Dating Bans for Students](https://x.com/miku39forever/status/1996258439048413569)
+- [X Post: Blind Date Frustrations](https://x.com/didengshengwu/status/1786685724911427698)
+- [X Post: Settling in Marriage](https://x.com/eroticacid/status/1997105516636438691)
+- [X Post: Bride Price Negotiations](https://x.com/Linuhaa/status/1908741163991130159)
+- [X Post: Chinese Dating Standards](https://x.com/jinmarcus1/status/1925406514527031781)
+- [X Post: Foreigner Dating Critiques](https://x.com/ILuvXiJinping/status/1995961082939420863)
 - [X Post: Pace of Dating in China](https://x.com/FischerKing64/status/1663949593481216003)

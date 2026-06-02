@@ -15,9 +15,9 @@ This is a comprehensive introduction to **Neural Networks (NNs)**. We will move 
 
 # 1. The Intuition: What is a Neural Network?
 
-At its simplest, a Neural Network is a mathematical function that learns to map **inputs** to **outputs**. 
+At its simplest, a Neural Network is a mathematical function that learns to map **inputs** to **outputs**.
 
-Imagine you want to teach a computer to identify whether a photo is a "Cat" or a "Dog." 
+Imagine you want to teach a computer to identify whether a photo is a "Cat" or a "Dog."
 *   **Traditional Programming:** You would write rules (e.g., "If it has pointy ears and a small nose, it's a cat"). This fails because images are too complex.
 *   **Neural Networks:** You show the computer 10,000 photos of cats and dogs. The network looks at the pixels, finds patterns, and "learns" the features that define a cat versus a dog without you telling it what a "nose" is.
 
@@ -58,7 +58,7 @@ A neural network doesn't "know" anything at first. It learns through a four-step
 The data passes through the network from input to output. The network makes a prediction. At the start, because weights are randomized, the prediction will be total nonsense.
 
 ### Step 2: The Loss Function (The Error)
-We need to measure how "wrong" the network was. We use a **Loss Function** (also called a Cost Function). 
+We need to measure how "wrong" the network was. We use a **Loss Function** (also called a Cost Function).
 *   If the network predicted "Dog" but the label was "Cat," the Loss Function produces a high value.
 *   If the prediction was close, the Loss is low.
 
@@ -66,8 +66,8 @@ We need to measure how "wrong" the network was. We use a **Loss Function** (also
 This is the core of AI. We use calculus (specifically the **Chain Rule**) to work backward from the error. We ask: *"Which specific weight in which specific neuron contributed most to this error?"* We calculate the **gradient** (the direction and magnitude) of the error for every single weight.
 
 ### Step 4: Optimization (The Adjustment)
-Now that we know who is to blame, we use an **Optimizer** (the most common is **Gradient Descent**) to nudge the weights. 
-*   If a weight made the error higher, we decrease it. 
+Now that we know who is to blame, we use an **Optimizer** (the most common is **Gradient Descent**) to nudge the weights.
+*   If a weight made the error higher, we decrease it.
 *   If it made the error lower, we increase it.
 
 **Think of it like this:** You are standing on a foggy mountain (the Loss Function) and want to reach the valley (the minimum error). You can't see the valley, but you can feel the slope under your feet. You take a small step in the direction that goes downhill. You repeat this until you reach the bottom.

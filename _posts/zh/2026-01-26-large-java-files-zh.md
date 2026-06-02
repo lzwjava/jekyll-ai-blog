@@ -12,7 +12,7 @@ type: note
 
 Question: 在处理 2000–3000 行代码的 Java 大型文件时，如何有效使用 GitHub Copilot 的修复、编辑或 agent mode？
 
-Answer: 
+Answer:
 
 GitHub Copilot（在 VS Code、JetBrains 或 Visual Studio 中）在处理超大单文件（≥1500–2000 LoC）时表现欠佳，尤其是 Java 类。常见问题包括：
 

@@ -12,7 +12,7 @@ type: note
 
 Question: 学习 Programming 的智慧是什么？
 
-Answer: 
+Answer:
 
 学习 Programming 所带来的智慧远不止于技术技能本身，它塑造了一个人思考、解决问题以及与现代世界互动的方式。从核心层面来看，Programming 教会了人们结构化的逻辑思维——将复杂问题拆解为更小、更易于管理的部分（decomposition），理解因果关系，并通过不断的试错进行迭代（debugging）。这种 computational thinking 与哲学推理相契合，培养了思维的清晰度、精确性和韧性。
 
@@ -30,7 +30,7 @@ Answer:
 
 最终，最深层的智慧是哲学性的：Programming 揭示了精确语言塑造现实的力量，正如思想塑造行动一样。这不仅仅是关于为计算机编写代码，而是在日益复杂的世界中掌握结构化推理。
 
-References:  
+References:
 
 - [https://medium.com/techhatch/what-are-the-benefits-of-learning-programming-languages-9afa59d6a3b8](https://medium.com/techhatch/what-are-the-benefits-of-learning-programming-languages-9afa59d6a3b8)
 - [https://careerfoundry.com/en/blog/web-development/7-benefits-of-learning-to-code/](https://careerfoundry.com/en/blog/web-development/7-benefits-of-learning-to-code/)

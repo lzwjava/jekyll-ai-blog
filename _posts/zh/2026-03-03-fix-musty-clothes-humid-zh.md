@@ -42,7 +42,7 @@ type: note
 
 通过良好的重新洗涤 + 白醋或小苏打 + 彻底高温烘干，臭味应该在一两次周期内完全去除。如果之后仍淡淡残留，再重复一次醋洗。
 
-参考资料：  
+参考资料：
 
 - [How to get mildew smell out of clothes](https://www.whirlpool.com/blog/washers-and-dryers/how-to-get-mildew-smells-out-of-clothes.html)
 - [Clothes Smell Bad After Drying? Here's 8 Possible Causes](https://lakeappliancerepair.com/blog/clothes-smell-bad-after-drying)

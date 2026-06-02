@@ -23,14 +23,14 @@ type: note
 田渊栋的裁员，连同安全和研究岗位的其他裁员，凸显了Meta精简“臃肿”运营、将AI更直接地整合到Instagram和Facebook等产品中的转向，这可能以牺牲探索性研究为代价。[7][4][7] 这引发了人们对Meta AI生态系统健康状况的担忧，批评者指出这可能会损害创新和人才保留——尤其是在OpenAI和谷歌等竞争对手继续积极招聘的情况下。[6][6][11] 此举符合行业趋势，即AI驱动的效率提升导致裁员，即使在高增长领域也是如此，并可能预示着扎克伯格的超级智能愿景面临挑战。[7][6]
 
 引用文献：
-[1] https://www.nytimes.com/2025/10/23/technology/meta-layoffs-user-privacy.html  
-[2] https://www.dynamitenews.com/technology/meta-lays-off-600-employees-from-ai-unit-including-fair-and-tdb-labs-know-why  
-[3] https://www.reddit.com/r/LocalLLaMA/comments/1oeigeh/amongst_safety_cuts_facebook_is_laying_off_the/  
-[4] https://www.newsx.com/tech-and-auto/meta-layoffs-ai-meta-platforms-inc-layoffs-ai-600-jobs-mark-zuckerberg-alexandr-wang-fair-division-tbd-labs-superintelligence-hiring-freeze-efficiency-product-teams-98012/  
-[5] https://x.com/jiqizhixin/status/1981172249643405624  
-[6] https://www.timesnownews.com/technology-science/mark-zuckerbergs-ai-plans-take-a-hit-as-meta-fires-600-employees-here-is-why-article-153039649  
-[7] https://www.ctol.digital/news/meta-ai-layoffs-battle-for-its-soul/  
-[8] https://x.com/tydsh?lang=en  
-[9] https://www.zoomnews.in/en/news-detail/meta-lays-off-600-employees-from-ai-team-amid-restructuring-drive.html  
-[10] https://longbridge.com/news/262558545  
+[1] https://www.nytimes.com/2025/10/23/technology/meta-layoffs-user-privacy.html
+[2] https://www.dynamitenews.com/technology/meta-lays-off-600-employees-from-ai-unit-including-fair-and-tdb-labs-know-why
+[3] https://www.reddit.com/r/LocalLLaMA/comments/1oeigeh/amongst_safety_cuts_facebook_is_laying_off_the/
+[4] https://www.newsx.com/tech-and-auto/meta-layoffs-ai-meta-platforms-inc-layoffs-ai-600-jobs-mark-zuckerberg-alexandr-wang-fair-division-tbd-labs-superintelligence-hiring-freeze-efficiency-product-teams-98012/
+[5] https://x.com/jiqizhixin/status/1981172249643405624
+[6] https://www.timesnownews.com/technology-science/mark-zuckerbergs-ai-plans-take-a-hit-as-meta-fires-600-employees-here-is-why-article-153039649
+[7] https://www.ctol.digital/news/meta-ai-layoffs-battle-for-its-soul/
+[8] https://x.com/tydsh?lang=en
+[9] https://www.zoomnews.in/en/news-detail/meta-lays-off-600-employees-from-ai-team-amid-restructuring-drive.html
+[10] https://longbridge.com/news/262558545
 [11] https://www.threads.com/@sip_n.talk/post/DQKazb2iTv3/telling-the-truth-about-what-happened-isnt-talking-shit-if-it-makes-you-look-bad

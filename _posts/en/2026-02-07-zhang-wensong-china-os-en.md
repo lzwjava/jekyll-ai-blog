@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to 章文嵩, an open source advocate in China.
 
-Answer: 
+Answer:
 
 **章文嵩 (Zhang Wensong)** is one of the most influential figures in China's open source community and a pioneer in high-performance distributed systems. Born in 1973, he is widely recognized as the founder of **LVS (Linux Virtual Server)**, a landmark open source load balancing project that helped shape modern internet infrastructure in China and globally.
 
@@ -55,7 +55,7 @@ Zhang Wensong is respected not only for his technical depth but also for his gen
 
 In summary, he is regarded as **one of the founding fathers of open source in China**, whose LVS project remains a living symbol of early Chinese open source success and whose career continues to influence cloud computing, infrastructure, and open source strategy in 2026.
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E7%AB%A0%E6%96%87%E5%B5%A9/6689425](https://baike.baidu.com/item/%E7%AB%A0%E6%96%87%E5%B5%A9/6689425)
 - [https://zhuanlan.zhihu.com/p/502650244](https://zhuanlan.zhihu.com/p/502650244)

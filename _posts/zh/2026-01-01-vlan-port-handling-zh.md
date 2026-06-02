@@ -12,7 +12,7 @@ type: note
 
 Question: How does the overall process of VLAN tagging and frame handling work on switch ports, particularly with access ports and tagged frames?
 
-Answer: 
+Answer:
 
 ### VLANs 和 Switch Ports 概述
 
@@ -66,7 +66,7 @@ IEEE 802.1Q 标准通过在 Ethernet frame header 中插入一个 4-byte 的 tag
 
 此行为符合 IEEE 802.1Q 原则和 Cisco 最佳实践。
 
-References:  
+References:
 
 - [Cisco Community: Tagged frames on access ports](https://community.cisco.com/t5/switching/tagged-frames-on-access-ports/td-p/1074967)
 - [Network Engineering Stack Exchange: What happens with tagged traffic on access port of Cisco switch?](https://networkengineering.stackexchange.com/questions/28888/what-happens-with-tagged-traffic-on-access-port-of-cisco-switch)

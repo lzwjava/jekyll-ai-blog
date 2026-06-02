@@ -12,7 +12,7 @@ type: note
 
 Question: How to use "AND", "OR", or other advanced techniques to search in Outlook emails?
 
-Answer: 
+Answer:
 
 Microsoft Outlook supports advanced search techniques in both the desktop application and the web version (Outlook on the web) to help you find emails more precisely. The search box is located at the top of the window or page.
 
@@ -78,8 +78,8 @@ Note: The web version may have slightly fewer advanced fields than desktop, but 
 
 These techniques work across most recent versions (Outlook for Microsoft 365, 2021, etc.). If results seem incomplete, ensure indexing is complete (desktop: File > Options > Search > Indexing Options).
 
-References:  
+References:
 
-- [How to search in Outlook - Microsoft Support](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da)  
-- [Search Mail and People in Outlook on the web - Microsoft Support](https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-on-the-web-b27e5eb7-3255-4c61-bf16-1c6a16bc2e6b)  
+- [How to search in Outlook - Microsoft Support](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da)
+- [Search Mail and People in Outlook on the web - Microsoft Support](https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-on-the-web-b27e5eb7-3255-4c61-bf16-1c6a16bc2e6b)
 - [Instant Search query commands reference](https://www.howto-outlook.com/howto/searchcommands.htm)

@@ -12,7 +12,7 @@ type: note
 
 Question: How to integrate Cloudflare security checking like the Grok website?
 
-Answer: 
+Answer:
 
 The Grok website (grok.x.ai) primarily uses **Cloudflare WAF** (Web Application Firewall) for overall security, including bot detection, DDoS protection, and threat blocking — as stated in xAI's official trust/security statement.
 
@@ -119,7 +119,7 @@ app.post('/submit', async (req, res) => {
 
 This setup gives invisible/human-like security checking similar to what high-profile AI sites (including likely Grok) use in 2026.
 
-References:  
+References:
 
 - [xAI Trust Statement — mentions Cloudflare WAF](https://x.ai/security)
 - [Cloudflare Turnstile Official Documentation](https://developers.cloudflare.com/turnstile)

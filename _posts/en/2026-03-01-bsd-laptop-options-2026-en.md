@@ -11,7 +11,7 @@ type: note
 
 Question: What options can we choose if we want to install a BSD system on a laptop?
 
-Answer: 
+Answer:
 
 Here are the main **BSD** family operating systems you can realistically install and use on a modern laptop in 2026. The four primary actively developed ones are compared below, focusing on laptop/desktop suitability.
 
@@ -27,25 +27,25 @@ Here are the main **BSD** family operating systems you can realistically install
 
 ### Quick Decision Guide – 2026 Laptop Reality
 
-- **You want the smoothest BSD laptop experience possible**  
-  → **FreeBSD 15.x** (or latest quarterly branch) + KDE Plasma or GNOME  
+- **You want the smoothest BSD laptop experience possible**
+  → **FreeBSD 15.x** (or latest quarterly branch) + KDE Plasma or GNOME
   or start with **GhostBSD** (MATE/XFCE) if you prefer a more "distro-like" out-of-box feel.
 
-- **You love security auditing & hate telemetry / complexity**  
+- **You love security auditing & hate telemetry / complexity**
   → **OpenBSD** (possibly with the Isotop desktop spin)
 
-- **You have very old hardware or want to run BSD on unusual architectures**  
+- **You have very old hardware or want to run BSD on unusual architectures**
   → **NetBSD**
 
-- **You want to experiment with a different SMP / filesystem approach**  
+- **You want to experiment with a different SMP / filesystem approach**
   → **DragonFly BSD** (but expect more tinkering)
 
-- **You just want to try BSD without committing**  
+- **You just want to try BSD without committing**
   → Download **NomadBSD** live image or **GhostBSD** and boot from USB first.
 
 In practice in 2026, **~80–90% of people successfully running BSD on laptops daily choose some form of FreeBSD** (plain, GhostBSD, NomadBSD, etc.). The gap between FreeBSD and the others for everyday laptop use (Wi-Fi stability, graphics acceleration, suspend/resume, trackpad/gestures, battery life tweaks) has widened further.
 
-References:  
+References:
 
 - [FreeBSD official site](https://www.freebsd.org)
 - [GhostBSD download page](https://www.ghostbsd.org)

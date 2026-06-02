@@ -12,7 +12,7 @@ type: note
 
 Question: What things/protocols typically run on Layer 2 (Data Link Layer) of the OSI model?
 
-Answer:  
+Answer:
 
 The **Data Link Layer (Layer 2)** is responsible for node-to-node delivery of frames over a physical link, error detection/correction, and medium access control. The following protocols, technologies, and functions typically operate at Layer 2:
 
@@ -49,5 +49,5 @@ The **Data Link Layer (Layer 2)** is responsible for node-to-node delivery of fr
 | VLAN tagging          | 802.1Q                                        |
 | Addressing            | MAC addresses, ARP                            |
 
-In short: **Anything that deals with MAC addresses, frames (not packets), switches, and physical-link-specific framing is Layer 2.**  
+In short: **Anything that deals with MAC addresses, frames (not packets), switches, and physical-link-specific framing is Layer 2.**
 Layer 3 (e.g., IP, ICMP, routing protocols) runs on top of these Layer 2 protocols inside the frame payload.

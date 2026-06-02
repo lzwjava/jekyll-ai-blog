@@ -187,14 +187,14 @@ public class ExecutionTimeAspect {
     @Around("@annotation(com.example.annotation.LogExecutionTime)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
-        
+
         Object proceed = joinPoint.proceed();
-        
+
         long executionTime = System.currentTimeMillis() - startTime;
-        
-        logger.info("{} executed in {} ms", 
+
+        logger.info("{} executed in {} ms",
             joinPoint.getSignature(), executionTime);
-        
+
         return proceed;
     }
 }
@@ -214,7 +214,7 @@ Use it on methods:
 ```java
 @Service
 public class UserService {
-    
+
     @LogExecutionTime
     public List<User> getAllUsers() {
         // implementation
@@ -236,7 +236,7 @@ public class TransactionAspect {
     public Object manageTransaction(ProceedingJoinPoint joinPoint) throws Throwable {
         TransactionDefinition def = new DefaultTransactionDefinition();
         TransactionStatus status = transactionManager.getTransaction(def);
-        
+
         try {
             Object result = joinPoint.proceed();
             transactionManager.commit(status);

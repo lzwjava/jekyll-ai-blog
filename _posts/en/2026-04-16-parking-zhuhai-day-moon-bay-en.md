@@ -27,12 +27,12 @@ Additional perks:
 - Online payment via WeChat gives you 15 minutes to exit after payment
 - Members can use 300 points to deduct 1 hour (max 2 hours)
 
-## **2. Zhuhai Grand Theater (大剧院) Parking** 
+## **2. Zhuhai Grand Theater (大剧院) Parking**
 - **With theater ticket**: Scan QR code for **4 hours free**
 - **Weekdays**: 5 yuan/hour
 - **Weekends/Holidays**: 10 yuan/hour
 
-## **3. Yelidao Park (野狸岛公园) Parking** 
+## **3. Yelidao Park (野狸岛公园) Parking**
 - **Small vehicles**: First 3 hours 2 yuan/hour, then 5 yuan/hour (daytime 6:00-20:00)
 - **Night (20:00-6:00)**: 2 yuan/hour
 - **24-hour cap**: 50 yuan

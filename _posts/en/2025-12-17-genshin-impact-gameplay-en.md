@@ -12,7 +12,7 @@ type: note
 
 Question: What is the game Genshin Impact? How do you play it?
 
-Answer: 
+Answer:
 ## Overview
 Genshin Impact is a free-to-play open-world action role-playing game (ARPG) developed and published by HoYoverse (formerly miHoYo). Released on September 28, 2020, it features stunning anime-style visuals, a massive fantasy world called Teyvat, and real-time combat centered around seven elements. The game supports cross-platform play and progression across PC, mobile, PlayStation, and Xbox (PS4 support ends April 2026). As of December 2025, it's on **Version 6.2 "Luna III"** (live until January 13, 2026), with ongoing updates every 6 weeks adding new characters, events, and story content.
 
@@ -75,8 +75,8 @@ You play as the Traveler (male or female), a star-crossed wanderer exploring wor
 
 Genshin is F2P-friendly with 50+ hours of story/exploration before needing pulls. It's ongoing, so jump in anytime!
 
-References:  
-- [Official Website](https://genshin.hoyoverse.com/)  
-- [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact)  
-- [Game8 Starter Guide](https://game8.co/games/Genshin-Impact/archives/304605)  
+References:
+- [Official Website](https://genshin.hoyoverse.com/)
+- [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact)
+- [Game8 Starter Guide](https://game8.co/games/Genshin-Impact/archives/304605)
 - [Version News](https://genshin.hoyoverse.com/en/news)

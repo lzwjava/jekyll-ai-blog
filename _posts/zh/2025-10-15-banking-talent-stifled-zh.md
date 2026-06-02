@@ -16,6 +16,6 @@ type: note
 
 没错，加入初创公司（最好是拥有明星创始人团队的天使/早期阶段）是阿尔法选择，而进入潜力型成长公司（如获得超千万美元融资且确有进展的A/B轮）则是明智的次选。既能体验放手一搏的创业氛围，又避免完全失控——比如学习快速转型、对成果负责、近距离捕捉独角兽机遇。但需注意：若尚未经历实战锤炼，先在大厂快速镀金既能精进技能，又可规避过度消耗。无论如何，若纯粹追求"早期成功"的发展速度，请倾向初创赛道并押注自身潜力。
 
-[职业十字路口：初创企业拼搏与大厂稳定之路](https://medium.com/@toddlarsen/career-crossroads-startup-hustle-vs-big-tech-stability-65809128828d)  
-[我该选择初创公司还是大厂？](https://hellointerview.substack.com/p/should-i-join-a-start-up-or-big-tech)  
+[职业十字路口：初创企业拼搏与大厂稳定之路](https://medium.com/@toddlarsen/career-crossroads-startup-hustle-vs-big-tech-stability-65809128828d)
+[我该选择初创公司还是大厂？](https://hellointerview.substack.com/p/should-i-join-a-start-up-or-big-tech)
 [大厂与初创企业之选（应届生指南）](https://www.developing.dev/p/big-tech-vs-startups-for-new-grads)

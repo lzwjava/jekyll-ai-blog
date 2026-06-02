@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about lists in programming?
 
-Answer: 
+Answer:
 
 Lists in programming (often referring to dynamic arrays like Python's list, Java's ArrayList, or C++'s vector, as well as linked lists) are a common data structure, but several contrarian or less mainstream opinions challenge their widespread use or praise. Here are some notable unpopular ideas drawn from developer discussions:
 
@@ -28,11 +28,11 @@ Lists in programming (often referring to dynamic arrays like Python's list, Java
 
 These opinions often stem from performance concerns on modern hardware, where cache efficiency trumps theoretical big-O advantages.
 
-References:  
+References:
 
-- [In Defense Of Linked Lists (countering the hate, but acknowledging the debate)](https://www.rfleury.com/p/in-defense-of-linked-lists)  
-- [Python Lists Are Overrated (for numerical tasks)](https://towardsdatascience.com/python-lists-are-overrated-776e87cda3e5/)  
-- [Reddit: Does anyone else hate list comprehension?](https://www.reddit.com/r/learnprogramming/comments/19a0fvn/does_anyone_else_hate_list_comprehension/)  
-- [Bjarne Stroustrup on avoiding linked lists](https://www.reddit.com/r/programming/comments/1h7ikrt/bjarne_stroustrup_why_you_should_avoid_linked/)  
-- [Why you should never, ever, EVER use linked-list in your code again](https://kjellkod.wordpress.com/2012/02/25/why-you-should-never-ever-ever-use-linked-list-in-your-code-again/)  
+- [In Defense Of Linked Lists (countering the hate, but acknowledging the debate)](https://www.rfleury.com/p/in-defense-of-linked-lists)
+- [Python Lists Are Overrated (for numerical tasks)](https://towardsdatascience.com/python-lists-are-overrated-776e87cda3e5/)
+- [Reddit: Does anyone else hate list comprehension?](https://www.reddit.com/r/learnprogramming/comments/19a0fvn/does_anyone_else_hate_list_comprehension/)
+- [Bjarne Stroustrup on avoiding linked lists](https://www.reddit.com/r/programming/comments/1h7ikrt/bjarne_stroustrup_why_you_should_avoid_linked/)
+- [Why you should never, ever, EVER use linked-list in your code again](https://kjellkod.wordpress.com/2012/02/25/why-you-should-never-ever-ever-use-linked-list-in-your-code-again/)
 - [Hacker News discussions on linked lists vs arrays](https://news.ycombinator.com/item?id=33473497)

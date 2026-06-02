@@ -35,7 +35,7 @@ Lipton 在中国没有广泛提供纯草本 (tisane) 茶包，如 chamomile、pe
 
 如果您在 JD.com 上寻找无咖啡因茶包，请搜索“立顿 脱咖啡因”（decaf）或“立顿 无咖啡因”——脱咖啡因红茶茶包出现在列表中，rooibos 可能正在兴起。
 
-**参考文献：**  
+**参考文献：**
 
 - [https://www.chinadaily.com.cn/a/202507/23/WS688041cca310ad07b5d91707.html](https://www.chinadaily.com.cn/a/202507/23/WS688041cca310ad07b5d91707.html)
 - [https://asiafoodbeverages.com/lipton-to-commit-substantial-investment-in-china-supply-chain](https://asiafoodbeverages.com/lipton-to-commit-substantial-investment-in-china-supply-chain)

@@ -22,7 +22,7 @@ In Claude.ai, you can reply to specific messages in a couple of ways:
 
 **Thread context** — When you reply to a message, Claude maintains that context, so I'll know which part of our conversation you're referring to.
 
-That said, the exact interface elements can vary slightly depending on whether you're using the desktop web version, mobile version, or the Claude app. 
+That said, the exact interface elements can vary slightly depending on whether you're using the desktop web version, mobile version, or the Claude app.
 
 **Is there a specific scenario** where you're trying to use the reply function? For example, are you trying to:
 - Reference something from earlier in the conversation?

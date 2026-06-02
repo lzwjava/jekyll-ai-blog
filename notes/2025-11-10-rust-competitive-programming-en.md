@@ -55,6 +55,6 @@ ACM ICPC doesn't support Rust, so no direct users. However, non-C++ langs like J
 
 If you're starting CP in Rust, check EbTech's guide or kenkoooo's snippets—they're the gold standard. Rust's borrow checker slows beginners but speeds experts. For more, search Codeforces blogs for "Rust CP".
 
-[How to Compete in Rust (EbTech's Guide)](https://codeforces.com/blog/entry/67391)  
-[Competitive Programming in Rust (Reddit Discussion)](https://www.reddit.com/r/rust/comments/180av60/competitive_programmers_using_rust/)  
+[How to Compete in Rust (EbTech's Guide)](https://codeforces.com/blog/entry/67391)
+[Competitive Programming in Rust (Reddit Discussion)](https://www.reddit.com/r/rust/comments/180av60/competitive_programmers_using_rust/)
 [ICPC Languages](https://docs.icpc.global/worldfinals-programming-environment/)

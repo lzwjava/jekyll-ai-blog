@@ -12,11 +12,11 @@ type: note
 
 Question: How do traditional telephone networks work, and why couldn't the internet be built directly on top of that infrastructure using its switching method?
 
-Answer: 
+Answer:
 
 ### How Traditional Telephone Networks Work
 
-Traditional telephone networks, known as the **Public Switched Telephone Network (PSTN)** or Plain Old Telephone Service (POTS), operate using **circuit switching**. 
+Traditional telephone networks, known as the **Public Switched Telephone Network (PSTN)** or Plain Old Telephone Service (POTS), operate using **circuit switching**.
 
 - When a call is initiated, the network establishes a **dedicated physical path** (circuit) between the caller and recipient through a series of centralized **switching centers** (also called central offices or exchanges).
 - This path is reserved exclusively for the duration of the call, even during silences, ensuring constant bandwidth and low latency for real-time voice transmission.
@@ -52,11 +52,11 @@ Instead, the internet uses **packet switching** (pioneered in ARPANET, 1969):
 
 In summary, circuit switching excels at constant-bit-rate voice but is rigid and wasteful for data. Packet switching's flexibility made the modern internet possible.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Public_switched_telephone_network  
-- https://en.wikipedia.org/wiki/Packet_switching  
-- https://en.wikipedia.org/wiki/ARPANET  
-- https://www.nextiva.com/blog/what-is-pstn.html  
-- https://ethw.org/Packet_Switching  
+- https://en.wikipedia.org/wiki/Public_switched_telephone_network
+- https://en.wikipedia.org/wiki/Packet_switching
+- https://en.wikipedia.org/wiki/ARPANET
+- https://www.nextiva.com/blog/what-is-pstn.html
+- https://ethw.org/Packet_Switching
 - https://en.wikipedia.org/wiki/Dial-up_Internet_access

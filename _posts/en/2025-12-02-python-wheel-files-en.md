@@ -65,5 +65,5 @@ Wheels are stored in the `dist/` directory after building.
 
 In short: **.whl files are the modern, fast, binary package format that pip prefers whenever possible.**
 
-*[PEP 427 – The Wheel Binary Package Format](https://peps.python.org/pep-0427/)  
+*[PEP 427 – The Wheel Binary Package Format](https://peps.python.org/pep-0427/)
 *[Python Packaging User Guide – Wheel](https://packaging.python.org/en/latest/tutorials/packaging-projects/#generating-distribution-archives)

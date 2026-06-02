@@ -23,21 +23,21 @@ When Feng Xuan was poor and had nothing, he went to take shelter with Lord Mengc
 
 The retainers thought Feng Xuan was a worthless man, so they gave him only coarse food. After some time, Feng Xuan leaned on a pillar and sang:
 
-“Long sword, let us return!  
+“Long sword, let us return!
 There is no fish in the meals here.”
 
 The steward reported this to Lord Mengchang. Lord Mengchang said, “Give him fish, same as the others who receive good treatment.”
 
 Some days later, Feng Xuan again sang:
 
-“Long sword, let us return!  
+“Long sword, let us return!
 There is no carriage here for me to ride.”
 
 The steward told Lord Mengchang again. Lord Mengchang ordered: “Give him a carriage, treat him like the guests who have carriages.”
 
 Not long after, Feng Xuan sang once more:
 
-“Long sword, let us return!  
+“Long sword, let us return!
 I cannot support my family here.”
 
 Now the retainers hated him, thinking he was greedy. But Lord Mengchang asked: “Does Feng Xuan have family?” He was told that Feng Xuan had an old mother. Lord Mengchang then ordered grain and money to be sent to support his mother, and from then on Feng Xuan no longer sang.

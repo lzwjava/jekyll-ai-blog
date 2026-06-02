@@ -11,7 +11,7 @@ type: note
 
 Question: How does the auto time mode work on a Haier dryer when it shows "RULE" on the panel? Does it detect whether the clothes are dry or not? In mixed mode, why does it sometimes run for 3 or 4 hours?
 
-Answer: 
+Answer:
 
 The **auto time** (also called **Auto Dry**, **Sensor Dry**, or similar modes) on Haier dryers uses moisture sensors to detect the humidity level in the drum and automatically adjust the drying time. These sensors (typically metal bars or strips inside the drum) measure moisture as clothes tumble and touch them. The dryer continues running until the clothes reach the selected dryness level (e.g., ready to wear, extra dry, or ironing dry), rather than using a fixed time.
 
@@ -36,7 +36,7 @@ Tips for better performance:
 
 This behavior is normal for sensor-based auto modes and helps prevent over-drying while saving energy.
 
-References:  
+References:
 
 - [Haier Dryer - Remaining Time Changes During Auto Dry](https://www.haierappliances.com/support/support-content/34903)
 - [Haier Dryer - Dry Time Too Long](https://www.haierappliances.com/support/support-content/34896)

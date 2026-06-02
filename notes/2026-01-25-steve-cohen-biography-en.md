@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Steve Cohen.
 
-Answer: 
+Answer:
 
 **Steve Cohen** (full name: Steven A. Cohen) is an American billionaire hedge fund manager, investor, philanthropist, and sports team owner. He is widely regarded as one of the most successful and influential figures in modern Wall Street history, known for his aggressive trading style, exceptional performance record, and ability to generate high returns.
 
@@ -62,7 +62,7 @@ He quickly stood out for his trading prowess and reportedly generated significan
 
 Cohen's career combines legendary investment performance with controversy, remarkable resilience, and diversification into sports ownership and philanthropy.
 
-References:  
+References:
 
 - [Steve Cohen (businessman) - Wikipedia](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman))
 - [Steve Cohen - Forbes](https://www.forbes.com/profile/steve-cohen)

@@ -12,7 +12,7 @@ type: note
 
 Question: 什么是 A-level 教育？
 
-Answer: 
+Answer:
 
 **A-level 教育** 指的是 **A-level** (Advanced Level) 资格考试，这是英国（英格兰、威尔士、北爱尔兰）以及一些遵循英国教育体系的国家所采用的主要学术课程。
 
@@ -43,7 +43,7 @@ Answer:
 
 A-levels 被认为具有很高的学术严谨性，是全球认可度最高的 pre-university 资格之一。
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/A-level](https://en.wikipedia.org/wiki/A-level)
 - [https://www.ucas.com/further-education/post-16-qualifications/qualifications-you-can-take/levels](https://www.ucas.com/further-education/post-16-qualifications/qualifications-you-can-take/levels)

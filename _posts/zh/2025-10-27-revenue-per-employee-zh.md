@@ -75,9 +75,9 @@ type: note
 - **2025年趋势**：AI热潮助推英伟达/OpenAI；能源市场波动利好沙特阿美/埃克森美孚。成人平台（OnlyFans、Aylo）凭借用户生成内容实现超预期表现。
 - **数据局限**：非上市企业（如xAI）为估值数据；若2025年数据未更新则沿用2024年数据。公开渠道不存在完整的前50名权威榜单，本榜单系综合多源信息编制。
 
-[图表解析：全球最大企业员工人均创收](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)  
-[科技巨头员工人均创收几何？](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)  
-[Rajesh Exports企业概览](https://pitchbook.com/profiles/company/65384-65)  
-[VICI Properties数据统计](https://stockanalysis.com/stocks/vici/statistics/)  
-[OnlyFans营收效率分析](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)  
+[图表解析：全球最大企业员工人均创收](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)
+[科技巨头员工人均创收几何？](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)
+[Rajesh Exports企业概览](https://pitchbook.com/profiles/company/65384-65)
+[VICI Properties数据统计](https://stockanalysis.com/stocks/vici/statistics/)
+[OnlyFans营收效率分析](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)
 [Valve营收估值](https://growjo.com/company/Valve)

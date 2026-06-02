@@ -12,16 +12,16 @@ type: note
 
 Question: Suppose there is a main router (China Telecom's 天翼 gateway using PPPoE account like 020xxx@163.gd), and two sub-routers (both TL-XDR3050 EasyMesh version). I want to get them all working with wired repeater / wireless repeater mode, and also considering DHCP mode to connect upstream.
 
-Answer: 
+Answer:
 
-Your setup:  
-- **Main router** = China Telecom 天翼 gateway (光猫/ONT, often ZTE or similar model, uses PPPoE dial-up with account like 020xxx@163.gd).  
-- **Sub1 and Sub2** = Two TL-XDR3050 EasyMesh edition routers.  
+Your setup:
+- **Main router** = China Telecom 天翼 gateway (光猫/ONT, often ZTE or similar model, uses PPPoE dial-up with account like 020xxx@163.gd).
+- **Sub1 and Sub2** = Two TL-XDR3050 EasyMesh edition routers.
 - Goal: Make everything work together for better Wi-Fi coverage (full house, no dead zones), supporting wired or wireless repeating, while avoiding IP conflicts or no-internet issues.
 
-The TL-XDR3050 EasyMesh version supports three main modes:  
-- **Router mode** (default, with its own DHCP).  
-- **AP (有线中继) mode** — wired repeater/access point (recommended for stability, zero speed loss on wired backhaul).  
+The TL-XDR3050 EasyMesh version supports three main modes:
+- **Router mode** (default, with its own DHCP).
+- **AP (有线中继) mode** — wired repeater/access point (recommended for stability, zero speed loss on wired backhaul).
 - **Wireless repeater / EasyMesh mode** — wireless relay/Mesh (one-key via EasyMesh button, supports multi-hop/cascading).
 
 You can mix modes: e.g., use EasyMesh for wireless extension or classic AP for wired. Since you have two sub-routers and mention "DHCP mode to connect upstream," the safest and best-performing way is to use **EasyMesh wireless** (or hybrid wired+wireless) if wireless is needed, or **AP mode** if you can run cables.
@@ -76,7 +76,7 @@ EasyMesh on XDR3050 allows up to 8 nodes total (main + subs), with multi-hop sup
 
 Test step-by-step: Start with one sub, confirm internet on its Wi-Fi, then add the second. Update firmware on all devices from TP-Link China site if pairing fails. If PPPoE issues arise when trying bridge, stick with gateway dialing.
 
-References:  
+References:
 
 - [https://www.tp-link.com.cn/product_2196.html](https://www.tp-link.com.cn/product_2196.html)
 - [https://service.tp-link.com.cn](https://service.tp-link.com.cn) (general TP-Link support for EasyMesh/AP setup)

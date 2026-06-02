@@ -27,8 +27,8 @@ Fast-forward to October 2025: The pack has thinned in terms of raw performance a
 
 In short, yes—DeepSeek, Zhipu, and Kimi are the clear frontrunners now. DeepSeek leads in raw power and accessibility, Zhipu in ecosystem breadth (e.g., AGI ambitions via GLM), and Kimi in practical usability for Chinese users. The shift reflects faster iteration: DeepSeek's R1 drop in early 2025 sparked a "China investible again" wave, pulling in $5B+ across the sector. Baichuan and 01.AI hold ground in enterprise/closed models, but they're not matching the open-source hype or benchmark leaps. If trends hold, expect Zhipu to IPO first, cementing the trio's edge.
 
-[Ranking the Chinese Open Model Builders](https://www.interconnects.ai/p/chinas-top-19-open-model-labs)  
-[The 2025 China AI Index](https://www.athenasia.com/post/the-2025-china-ai-index-ranking-the-most-powerful-and-influential-models)  
-[Meet the 'Six Tigers' of China's AI](https://qz.com/china-six-tigers-ai-startup-zhipu-moonshot-minimax-01ai-1851768509)  
-[How DeepSeek Made China Investible Again](https://www.deeptech.asia/p/how-deepseek-made-china-investible)  
+[Ranking the Chinese Open Model Builders](https://www.interconnects.ai/p/chinas-top-19-open-model-labs)
+[The 2025 China AI Index](https://www.athenasia.com/post/the-2025-china-ai-index-ranking-the-most-powerful-and-influential-models)
+[Meet the 'Six Tigers' of China's AI](https://qz.com/china-six-tigers-ai-startup-zhipu-moonshot-minimax-01ai-1851768509)
+[How DeepSeek Made China Investible Again](https://www.deeptech.asia/p/how-deepseek-made-china-investible)
 [Zhipu AI Releases GLM-4.5](https://www.deeplearning.ai/the-batch/zhipu-ai-z-ai-releases-open-weights-glm-4-5-models-that-perform-comparably-to-the-latest-from-claude-and-deepseek/)

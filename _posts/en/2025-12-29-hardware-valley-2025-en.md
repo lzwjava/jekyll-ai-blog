@@ -12,7 +12,7 @@ type: note
 
 Question: Latest updates on visiting Huaqiangbei in late 2025, what to look for, and main stores
 
-Answer: 
+Answer:
 
 Huaqiangbei (Huaqiang North) in Shenzhen's Futian District remains the world's largest electronics market hub as of late 2025. While it has undergone some transformation—shifting from pure shanzhai (knockoff) products to more innovation, branded items, and a mix of leisure/commercial spaces—it is still a vibrant destination for tech enthusiasts, makers, and buyers seeking components, gadgets, and accessories.
 
@@ -51,11 +51,11 @@ The area blends tech with general shopping (e.g., Maoye Mall for upscale brands)
 
 Huaqiangbei evolves but retains its title as the "Silicon Valley of Hardware." Ideal for tech lovers seeking immersion beyond online shopping.
 
-References:  
+References:
 
-- [Huaqiangbei - Wikipedia (updated December 2025)](https://en.wikipedia.org/wiki/Huaqiangbei)  
-- [Fan Yang: Back to the Future – A Walk through Huaqiangbei in 2025](https://positionspolitics.org/fan-yang-back-to-the-future-a-walk-through-huaqiangbei-in-2025/)  
-- [The 10th UABB Huaqiangbei Sub-Venue (2025)](https://www.archdaily.com/1029500/the-10th-uabb-huaqiangbei-sub-venue-international-call-for-creative-ideas-and-archival-documents)  
-- [Huaqiangbei Electronics Market Guide (2025 updates)](https://leelinesourcing.com/huaqiangbei-electronics-markets/)  
-- [Ultimate Guide to Huaqiangbei (2025)](https://www.urbansplatter.com/2025/06/ultimate-guide-to-huaqiangbei-electronics-market-in-shenzhen/)  
+- [Huaqiangbei - Wikipedia (updated December 2025)](https://en.wikipedia.org/wiki/Huaqiangbei)
+- [Fan Yang: Back to the Future – A Walk through Huaqiangbei in 2025](https://positionspolitics.org/fan-yang-back-to-the-future-a-walk-through-huaqiangbei-in-2025/)
+- [The 10th UABB Huaqiangbei Sub-Venue (2025)](https://www.archdaily.com/1029500/the-10th-uabb-huaqiangbei-sub-venue-international-call-for-creative-ideas-and-archival-documents)
+- [Huaqiangbei Electronics Market Guide (2025 updates)](https://leelinesourcing.com/huaqiangbei-electronics-markets/)
+- [Ultimate Guide to Huaqiangbei (2025)](https://www.urbansplatter.com/2025/06/ultimate-guide-to-huaqiangbei-electronics-market-in-shenzhen/)
 - [TravelChinaGuide: Huaqiangbei Market](https://www.travelchinaguide.com/cityguides/guangdong/shenzhen/huaqiangbei-electronics-market.htm)

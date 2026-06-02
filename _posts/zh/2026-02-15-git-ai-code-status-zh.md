@@ -11,7 +11,7 @@ type: note
 
 Question: 在与 Claude 或 Codex 等 coding assistants 协作时，运行 "git status" 的用途和好处是什么，特别是在处理已修改（modified）和未跟踪（untracked）文件的情况下？
 
-Answer: 
+Answer:
 
 是的 —— 使用 `git status` 是快速了解 **coding assistant（如 Claude, Cursor, Windsurf, Aider, Codex 等）在你的项目中实际修改了什么** 最有效且轻量的方法之一。
 
@@ -89,6 +89,6 @@ git diff               # 如果你想查看所有细节（内容多时可能较�
 
 所以，当你频繁使用 AI assistants 编写或修改代码时，`git status` 可能是 **最有价值的 5 个字符命令**。
 
-References:  
+References:
 
 - 无需针对此 git 用法说明提供参考文献。

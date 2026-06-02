@@ -34,7 +34,7 @@ Paul Graham 于 2024 年 9 月在他的网站上发表了一篇题为 **When To 
 
 完整文章在他的网站上可用，而且像他的大多数文章一样，相对较短。
 
-参考文献：  
+参考文献：
 
 - [When To Do What You Love - Paul Graham](https://paulgraham.com/when.html)
 - [Paul Graham Essays list](https://paulgraham.com/articles.html)（确认发布日期和上下文）

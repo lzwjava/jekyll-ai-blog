@@ -26,5 +26,5 @@ ls -lh test.srt  # Should match original size
 ```
 Then delete the test file. Compression level is fixed at 6 (decent balance of speed/size), but for max squeeze, you'd need custom tools like `gzip -9` first.
 
-[GPG Compression on Text Files](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html#compress-options)  
+[GPG Compression on Text Files](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html#compress-options)
 [Why SRT Compresses Well](https://superuser.com/questions/123456/why-do-text-files-compress-better-than-binary)

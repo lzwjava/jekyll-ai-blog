@@ -11,7 +11,7 @@ type: note
 
 Question: Explain this body check result from Ikang, including the moderately elevated alanine aminotransferase (ALT), recheck suggestions, and treatment recommendations.
 
-Answer: 
+Answer:
 
 This appears to be a summary from an **Ikang (爱康国宾)** health checkup report highlighting **important abnormal findings**. The main focus is **moderate elevation of alanine aminotransferase (ALT)**, along with related issues. Below is a clear explanation of what this means, why it likely occurred, and typical next steps.
 
@@ -22,16 +22,16 @@ This appears to be a summary from an **Ikang (爱康国宾)** health checkup rep
 
 ### Positive Findings and Abnormal Conditions Listed
 The report connects the elevated ALT to a cluster of related problems:
-1. **Moderate fatty liver** (中度脂肪肝) + elevated ALT + elevated AST (天门冬氨酸氨基转移酶) + elevated total cholesterol + elevated triglycerides  
+1. **Moderate fatty liver** (中度脂肪肝) + elevated ALT + elevated AST (天门冬氨酸氨基转移酶) + elevated total cholesterol + elevated triglycerides
    → This is the **most likely main cause**. Fatty liver (especially metabolic dysfunction-associated steatotic liver disease, previously called NAFLD) is the **number one reason** for moderately elevated ALT in routine health checkups. Fat builds up in liver cells → causes low-grade inflammation → leaks enzymes like ALT and AST. High blood lipids (cholesterol + triglycerides) strongly support this diagnosis. It's very common in people with overweight, high BMI, poor diet, lack of exercise, or metabolic issues.
 
-2. **Elevated absolute lymphocyte count** (淋巴细胞绝对值增高)  
+2. **Elevated absolute lymphocyte count** (淋巴细胞绝对值增高)
    → Often non-specific. Can be due to recent viral infection (even mild cold), stress, inflammation anywhere, or sometimes nothing serious. Not directly liver-related in most cases.
 
-3. **Positive urine protein** (尿蛋白阳性)  
+3. **Positive urine protein** (尿蛋白阳性)
    → Suggests possible early kidney stress or damage (protein leaking into urine). Common causes include high blood pressure, diabetes, overweight, or sometimes temporary (fever, exercise, dehydration). Needs follow-up because kidneys and liver/metabolic issues can be connected (e.g., in metabolic syndrome).
 
-4. **Elevated body mass index (BMI)** (体重指数增高)  
+4. **Elevated body mass index (BMI)** (体重指数增高)
    → Overweight or obesity. This is a **key risk factor** linking all the above: it promotes fatty liver, high lipids, possible insulin resistance, and adds stress to kidneys.
 
 Overall picture → **Metabolic-related problems** centered on **moderate fatty liver with liver enzyme elevation**, plus signs of overweight and possible early kidney involvement. This pattern is extremely common in modern health checkups and is usually **reversible** in early stages.
@@ -59,7 +59,7 @@ No medication is usually needed at this stage unless a specific cause is confirm
 
 See your doctor (hepatology or internal medicine) soon for proper interpretation and plan.
 
-References:  
+References:
 
 - [Alanine Aminotransferase (ALT) Test: What Does It Mean?](https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-test)
 - [Elevated liver enzymes: Causes, symptoms, tests, and treatment](https://www.medicalnewstoday.com/articles/325838)

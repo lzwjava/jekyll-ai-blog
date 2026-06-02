@@ -11,7 +11,7 @@ type: note
 
 Question: A monitor sends a request to an agent asking for specific information values; the agent responds by retrieving the requested values from its Management Information Base (MIB) and returning them to the monitor. What is this communication mechanism called?
 
-Answer: 
+Answer:
 
 The correct answer is **A: Polling**.
 
@@ -28,6 +28,6 @@ In network management architectures (such as SNMP - Simple Network Management Pr
 
 Therefore, the specific communication mechanism where the monitor proactively queries the agent for data is known as **Polling**.
 
-References:  
+References:
 
 - [SNMP Architecture Overview](https://www.snmp.com/what-is-snmp/)

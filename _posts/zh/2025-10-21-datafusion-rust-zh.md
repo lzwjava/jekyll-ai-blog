@@ -20,5 +20,5 @@ Apache DataFusion 是一种面向分析应用的可扩展查询引擎，采用 R
 
 总体而言，Rust 使 DataFusion 在基准测试中性能超越 DuckDB 或 ClickHouse 等单节点引擎，同时保持轻量级和模块化特性。
 
-[Apache DataFusion 文档 - 介绍](https://datafusion.apache.org/user-guide/introduction.html)  
+[Apache DataFusion 文档 - 介绍](https://datafusion.apache.org/user-guide/introduction.html)
 [Andy Grove：Rust 适用于大数据领域](https://andygrove.io/2018/01/rust-is-for-big-data/)

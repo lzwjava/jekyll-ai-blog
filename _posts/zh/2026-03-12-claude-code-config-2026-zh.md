@@ -40,31 +40,31 @@ Claude Code 会自动读取此文件（CLI 版本和官方 Anthropic VS Code 扩
 
 ### 每个设置的作用及其使用方法
 
-- **`env.ANTHROPIC_BASE_URL`**  
-  更改 Claude Code 连接的 API 端点（而非官方 api.anthropic.com）。  
+- **`env.ANTHROPIC_BASE_URL`**
+  更改 Claude Code 连接的 API 端点（而非官方 api.anthropic.com）。
   → 您将其指向反向代理 / 第三方提供商 / 自定义 Anthropic 兼容服务器。
 
-- **`env.ANTHROPIC_AUTH_TOKEN`**  
-  发送到该自定义端点的 API 密钥 / bearer token。  
+- **`env.ANTHROPIC_AUTH_TOKEN`**
+  发送到该自定义端点的 API 密钥 / bearer token。
   → 格式通常以 `sk-` 开头（与官方 Anthropic 密钥相同）。
 
-- **`env.CLAUDE_CODE_ATTRIBUTION_HEADER`** 设置为 `"0"`  
+- **`env.CLAUDE_CODE_ATTRIBUTION_HEADER`** 设置为 `"0"`
   很可能禁用某些提供商强制添加的归属 / “Powered by Claude” 头部或水印。
 
-- **`skipDangerousModePermissionPrompt`: true**  
-  在使用危险工具（文件写入、shell 命令等）时自动接受 / 跳过确认提示。  
+- **`skipDangerousModePermissionPrompt`: true**
+  在使用危险工具（文件写入、shell 命令等）时自动接受 / 跳过确认提示。
   → 对于全自动化工作流很有用，但会增加风险。
 
 ### 如何使其生效
 
-1. **正确保存文件**  
+1. **正确保存文件**
    确保路径精确为 `~/.claude/settings.json`（如果 `.claude` 文件夹不存在，请创建）。
 
-2. **重启 Claude Code 会话**  
-   - 终端：关闭并重新打开终端，然后再次运行 `claude`  
+2. **重启 Claude Code 会话**
+   - 终端：关闭并重新打开终端，然后再次运行 `claude`
    - VS Code 扩展：重新加载 VS Code 窗口（Windows/Linux: `Ctrl+R`，Mac: `Cmd+R`）或重启扩展
 
-3. **测试它**  
+3. **测试它**
    在终端中运行：
    ```
    claude

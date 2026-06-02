@@ -11,7 +11,7 @@ type: note
 
 Question: Though pickled yard-long beans are also processed, do they differ significantly from processed meat in terms of health aspects? They are not like processed meat, right?
 
-Answer: 
+Answer:
 
 **Yes, pickled yard-long beans differ significantly from processed meat in terms of health impacts, and they are generally much healthier despite both being processed foods.**
 
@@ -30,7 +30,7 @@ Both involve processing (pickling for beans uses salt, vinegar, or fermentation;
 
 In short: Pickled yard-long beans are **not like processed meat** health-wise. They are a processed vegetable with mostly positive or neutral effects (when eaten moderately), while processed meat is one of the few foods with definitive carcinogenic classification. Enjoy pickled yard-long beans as part of a vegetable-rich diet, but watch salt intake — they're a far better choice than processed meats.
 
-References:  
+References:
 
 - [IARC classification on processed meat (Group 1 carcinogenic)](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)
 - [IARC on pickled vegetables (Group 2B, possibly carcinogenic, traditional Asian styles)](https://inchem.org/documents/iarc/vol56/02-pick.html)

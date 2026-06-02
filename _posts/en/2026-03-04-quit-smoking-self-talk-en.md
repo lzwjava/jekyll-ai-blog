@@ -16,16 +16,16 @@ His core method is based on **self-talk** (or self-statements/affirmations) to r
 ### The Key Technique: Identity-First Self-Talk
 Instead of saying "I want to quit smoking" or "I must resist smoking" (which activates tiring conscious willpower), he repeatedly told himself statements that redefine his identity as a non-smoker. The main phrase he used was:
 
-- **"I never smoke."**  
+- **"I never smoke."**
   (In Chinese: "我从来都不抽烟。" or variations like "我是一个从来不抽烟的人。")
 
-He often expanded it to something like:  
-**"I am a person who never smokes, because smoking smells terrible."**  
+He often expanded it to something like:
+**"I am a person who never smokes, because smoking smells terrible."**
 (or another personal reason that evokes disgust/emotion, like the stink, feeling exploited, or unhappiness).
 
 ### How He Practiced It
 - **Repeat confidently and deliberately**: Say it slowly, clearly, and out loud (or in your mind) — at least 3 times or for 5+ seconds each time.
-- **Timing**: 
+- **Timing**:
   - First thing in the morning upon waking.
   - Whenever a craving hit (instead of fighting it, just state the affirmation).
   - Throughout the day, even without cravings, to reinforce it.

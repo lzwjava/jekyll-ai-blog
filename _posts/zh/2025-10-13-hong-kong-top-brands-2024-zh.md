@@ -42,8 +42,8 @@ type: note
 
 若关注新兴本土品牌，可参考香港品牌发展局奖项，其中聚焦德国宝（厨电）和李锦记（酱料）等本土企业。
 
-[2024年香港最具价值品牌30强 - 凯度BrandZ](https://www.campaignasia.com/article/yuu-dominates-kantars-brandz-hong-kong-ranking/499355)  
-[2025年香港最佳银行选择 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)  
-[2025年香港最佳银行——汇丰 - 《欧洲货币》](https://www.euromoney.com/article/23l0rk4s47ms8s48w4skk4cck/awards/awards-for-excellence/awards-for-excellence-country-territory-winners-2025-hong-kongs-best-bank-2025-hsbc/)  
-[香港十大最佳便利店 - Yelp](https://m.yelp.com/search?cflt=convenience&find_loc=%25E9%25A6%2599%25E6%25B8%25AF%252C%2B%25E9%25A6%2599%25E6%25B8%25AF%252C%2BHK)  
+[2024年香港最具价值品牌30强 - 凯度BrandZ](https://www.campaignasia.com/article/yuu-dominates-kantars-brandz-hong-kong-ranking/499355)
+[2025年香港最佳银行选择 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)
+[2025年香港最佳银行——汇丰 - 《欧洲货币》](https://www.euromoney.com/article/23l0rk4s47ms8s48w4skk4cck/awards/awards-for-excellence/awards-for-excellence-country-territory-winners-2025-hong-kongs-best-bank-2025-hsbc/)
+[香港十大最佳便利店 - Yelp](https://m.yelp.com/search?cflt=convenience&find_loc=%25E9%25A6%2599%25E6%25B8%25AF%252C%2B%25E9%25A6%2599%25E6%25B8%25AF%252C%2BHK)
 [品牌画廊 - 香港品牌发展局](https://www.hkbrand.org/en/gallery/1)

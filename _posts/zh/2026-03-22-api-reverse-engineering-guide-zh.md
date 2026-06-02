@@ -33,13 +33,13 @@ OpenClaw 还开始为某些 model routes 默认发送 `User-Agent: claude-code/0
 
 通过这样做，你自然而然地在掌握：
 
-**1. HTTP/API 内部机制**  
+**1. HTTP/API 内部机制**
 你正在学习不同 client 之间 headers、auth tokens 和 request bodies 的差异。这是 backend engineering、API design 和 security research 的核心技能。
 
-**2. Reverse Engineering**  
+**2. Reverse Engineering**
 Dump requests 并比较它们的方法，与 mobile app security research、API compatibility layers（如 LiteLLM 的工作方式）以及构建 API proxies 相同。你基本上就是在做 `claude-max-api-proxy` 项目所做的事情——它将 OpenAI-format requests 转换为通过 Claude Code CLI 路由，从而让任何支持 OpenAI format 的工具都能使用你的 Claude subscription。
 
-**3. Protocol Compatibility**  
+**3. Protocol Compatibility**
 你必须使用 `anthropic-messages` format——设置 `api: "anthropic-messages"`。使用 `openai-completions` format 在 multi-round tool calls 时会导致 400 errors。理解*为什么*是这样（tool call round-trips、JSON structure 差异、beta header 要求）会让你深入 LLM API design。
 
 ---

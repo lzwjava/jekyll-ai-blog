@@ -25,7 +25,7 @@ __global__ void vectorAdd(float *a, float *b, float *c, int n) {
 int main() {
     int n = 1024;  // vector size
     size_t size = n * sizeof(float);
-    
+
     // Host memory allocation
     float *h_a = (float*)malloc(size);
     float *h_b = (float*)malloc(size);
@@ -39,7 +39,7 @@ int main() {
 
     // Device memory pointers
     float *d_a, *d_b, *d_c;
-    
+
     // Allocate device memory
     cudaMalloc((void**)&d_a, size);
     cudaMalloc((void**)&d_b, size);

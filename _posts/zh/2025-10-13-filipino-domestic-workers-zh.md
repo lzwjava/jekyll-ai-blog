@@ -40,9 +40,9 @@ type: note
 
 这种现象在全球重复上演：硅谷的印度IT工程师与美国郊区的墨西哥护工，柏林乌克兰工程师与东欧劳动力迁移皆是例证。这是全球化的另一面——富裕国家将劳碌工作外包，同时垄断高声望职位。若需深入观察，可在移民旺季（节假日过后）实地探访，或关注#OFWLife、#HKMaids等社交标签。
 
-[菲律宾家政工：隐形劳动力](https://igg-geo.org/en/2024/02/12/fili/)  
-[菲律宾移民家政工生存现状](https://borgenproject.org/migrant-domestic-workers/)  
-[菲律宾与新加坡教育数据对比](https://www.nationmaster.com/country-info/compare/Philippines/Singapore/Education)  
-[香港与菲律宾经济数据对比](https://www.nationmaster.com/country-info/compare/Hong-Kong/Philippines/Economy/table)  
-["那一天是你的全部"：香港家政工如何抗争](https://www.theguardian.com/cities/2017/mar/10/sunday-sit-in-inside-hong-kong-weekly-domestic-worker-resistance)  
+[菲律宾家政工：隐形劳动力](https://igg-geo.org/en/2024/02/12/fili/)
+[菲律宾移民家政工生存现状](https://borgenproject.org/migrant-domestic-workers/)
+[菲律宾与新加坡教育数据对比](https://www.nationmaster.com/country-info/compare/Philippines/Singapore/Education)
+[香港与菲律宾经济数据对比](https://www.nationmaster.com/country-info/compare/Hong-Kong/Philippines/Economy/table)
+["那一天是你的全部"：香港家政工如何抗争](https://www.theguardian.com/cities/2017/mar/10/sunday-sit-in-inside-hong-kong-weekly-domestic-worker-resistance)
 [穿越固化空间：香港皇后像广场的菲律宾家政工](https://www.mcgill.ca/race-space/article/arch-355/carving-through-rigid-space-filipina-domestic-workers-statue-square-hong-kong)

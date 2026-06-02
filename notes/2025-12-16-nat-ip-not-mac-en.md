@@ -12,7 +12,7 @@ type: note
 
 Question: Is Network Address Translation used to translate IP addresses to MAC addresses, and vice versa?
 
-Answer: 
+Answer:
 
 No, that's not correct.
 
@@ -32,7 +32,7 @@ In summary:
 
 These are distinct protocols for different layers and purposes.
 
-References:  
+References:
 
 - [Network address translation - Wikipedia](https://en.wikipedia.org/wiki/Network_address_translation)
 - [What Is Network Address Translation (NAT)? - Cisco](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-address-translation-nat.html)

@@ -52,8 +52,8 @@ AI/ML并不会取代核心Java Spring技术栈，而是对其增强。例如，�
 
 总体而言，AI/ML将这些应用从单纯的数据存储系统升级为智能系统，显著提升准确性、用户体验和运营效率。建议从在Spring控制器中添加AI端点开始小规模实践，再通过容器化技术（如Docker/Kubernetes）进行扩展。
 
-[AI与机器学习在金融领域的应用 | SPD Technology](https://spd.tech/machine-learning/ml-in-finance/)  
-[Spring AI：革命性推动AI驱动Java应用的未来](https://halilural5.medium.com/spring-ai-revolutionizing-the-future-of-ai-driven-java-applications-1ce4ea393d88)  
-[教育领域AI应用：8大案例与真实示例 - Itransition](https://www.itransition.com/ai/education)  
-[Spring AI官方文档](https://spring.io/projects/spring-ai)  
+[AI与机器学习在金融领域的应用 | SPD Technology](https://spd.tech/machine-learning/ml-in-finance/)
+[Spring AI：革命性推动AI驱动Java应用的未来](https://halilural5.medium.com/spring-ai-revolutionizing-the-future-of-ai-driven-java-applications-1ce4ea393d88)
+[教育领域AI应用：8大案例与真实示例 - Itransition](https://www.itransition.com/ai/education)
+[Spring AI官方文档](https://spring.io/projects/spring-ai)
 [生成式AI赋能教育：实现教育卓越的10大应用场景](https://www.cloud4c.com/blogs/10-key-ai-ml-use-cases-in-education-sector)

@@ -12,7 +12,7 @@ type: note
 
 Question: Finance transformations at Barclays
 
-Answer: 
+Answer:
 
 Barclays has been undergoing significant transformations in its finance-related operations and strategy, primarily through a major three-year plan announced in February 2024 aimed at making the bank "Simpler, Better, and More Balanced." This initiative focuses on operational efficiency, cost reduction, capital reallocation, and improved financial performance, with targets set for 2026.
 
@@ -37,11 +37,11 @@ The Group Finance Director is Anna Cross, responsible for finance, tax, treasury
 
 These transformations aim to enhance shareholder returns, operational resilience, and positioning as a UK-centered global finance leader amid economic and regulatory changes.
 
-References:  
+References:
 
-- [Barclays Corporate Strategy](https://home.barclays/who-we-are/our-strategy/)  
-- [Barclays Investor Update 2024](https://home.barclays/investor-update-2024/)  
-- [Barclays Progress Update 2024](https://home.barclays/progress-update-2024/)  
-- [Barclays Transition Update 2025](https://home.barclays/news/press-releases/2025/07/barclays-publishes-its-transition-update/)  
-- [Reuters: Barclays CFO on Client Returns](https://www.reuters.com/business/finance/barclays-cfo-says-client-returns-under-tight-scrutiny-2025-03-18/)  
+- [Barclays Corporate Strategy](https://home.barclays/who-we-are/our-strategy/)
+- [Barclays Investor Update 2024](https://home.barclays/investor-update-2024/)
+- [Barclays Progress Update 2024](https://home.barclays/progress-update-2024/)
+- [Barclays Transition Update 2025](https://home.barclays/news/press-releases/2025/07/barclays-publishes-its-transition-update/)
+- [Reuters: Barclays CFO on Client Returns](https://www.reuters.com/business/finance/barclays-cfo-says-client-returns-under-tight-scrutiny-2025-03-18/)
 - [Barclays Annual Report 2024](https://home.barclays/investor-relations/reports-and-events/annual-reports/)

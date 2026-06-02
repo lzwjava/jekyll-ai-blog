@@ -13,7 +13,7 @@ Question: Provide a full English translation of "Zhang Zhongcheng Zhuan Hou Xu" 
 
 Answer:
 
-**Postscript to the Biography of Zhang Zhongcheng**  
+**Postscript to the Biography of Zhang Zhongcheng**
 (Han Yu)
 
 In the second year of Jianzhong (781), the court appointed Li Xilie as the military governor of Huaixi. At that time, many of the military governors who held hereditary commanderies were arrogant and disobedient. Li Xilie was especially fierce and cruel, and he frequently requested additional appointments and rewards. When his demands were not met, he would become resentful and rebellious in speech.

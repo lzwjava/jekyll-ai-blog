@@ -40,7 +40,7 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 
 | University | Country | Best Result | Language Strategy | Notable Members |
 |-----------|--------|-------------|-------------------|----------------|
-| **University of Warsaw** | Poland | **2023 World Champions** | **Java primary** (all 3 members) | Michał “Errichto” Forczek (coach, C++/Java), team used Java for 80% problems | 
+| **University of Warsaw** | Poland | **2023 World Champions** | **Java primary** (all 3 members) | Michał “Errichto” Forczek (coach, C++/Java), team used Java for 80% problems |
 | **Peking University** | China | 2021 Silver, 2023 Bronze | **Java + C++ hybrid**; Java for math-heavy, BigInt | Zhang Chen, Liu Yujie |
 | **Seoul National University** | South Korea | 2022 Bronze | **100% Java** in Finals | Known for clean OOP modeling of graphs |
 | **National Taiwan University** | Taiwan | 2021 Gold | **Java primary** | Uses Java’s `PriorityQueue` + `HashMap` aggressively |
@@ -59,17 +59,17 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 | `Stream API` | Clean data processing (rare in CP, but used by Petr) |
 | **No segfaults** | Safer than C++ in 5-hour ICPC Finals |
 
-**Downsides**:  
-- Slower I/O → **must use fast input templates**  
+**Downsides**:
+- Slower I/O → **must use fast input templates**
 - Verbose code → top users write **code generators/snippet libraries**
 
 ---
 
 ## Resources from Top Java CP Users
 
-- **[ashishgup’s Java Template](https://github.com/ashishgup/competitive-programming)** – Fast I/O, BigInt utils  
-- **[kevin0406’s Codeforces Submissions](https://codeforces.com/submissions/kevin0406)** – Study clean Java DP/Graph  
-- **[Errichto’s ICPC Training](https://www.youtube.com/c/Errichto)** – Java vs C++ comparisons  
+- **[ashishgup’s Java Template](https://github.com/ashishgup/competitive-programming)** – Fast I/O, BigInt utils
+- **[kevin0406’s Codeforces Submissions](https://codeforces.com/submissions/kevin0406)** – Study clean Java DP/Graph
+- **[Errichto’s ICPC Training](https://www.youtube.com/c/Errichto)** – Java vs C++ comparisons
 - **[Competitive Programming 4 (Java Section)](https://cpbook.net/)** – By Steven & Felix Halim + ashishgup
 
 ---
@@ -78,6 +78,6 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 
 Want a **ready-to-use Java CP template**? Ask — I’ll give you one used by Grandmasters.
 
-[ICPC 2023 Language Stats](https://icpc.global/worldfinals/results)  
-[Codeforces Language Usage (2025)](https://codeforces.com/blog/entry/127005)  
+[ICPC 2023 Language Stats](https://icpc.global/worldfinals/results)
+[Codeforces Language Usage (2025)](https://codeforces.com/blog/entry/127005)
 [Java in Competitive Programming – CP Algorithms](https://cp-algorithms.com/others/java.html)

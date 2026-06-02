@@ -11,7 +11,7 @@ type: note
 
 Question: Can you provide a comprehensive introduction to the Skip List data structure and its algorithm?
 
-Answer: 
+Answer:
 
 # Skip List: A Comprehensive Introduction
 
@@ -87,7 +87,7 @@ To delete a value $x$:
 ## Conclusion
 Skip Lists provide a robust, efficient, and implementation-friendly alternative to balanced binary search trees. While they rely on probability rather than strict balancing rules, their performance characteristics make them ideal for high-concurrency environments and systems where implementation simplicity is valued.
 
-References:  
+References:
 
 - [William Pugh's Original Paper](https://dl.acm.org/doi/10.1145/78973.78977)
 - [Wikipedia: Skip List](https://en.wikipedia.org/wiki/Skip_list)

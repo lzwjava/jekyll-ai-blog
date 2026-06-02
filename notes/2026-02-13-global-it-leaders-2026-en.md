@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top IT services companies in the world, similar to Accenture and Infosys, that provide IT services and outsourcing for banks and big corporations?
 
-Answer: 
+Answer:
 
 The top **IT services companies** (also known as IT consulting, outsourcing, and systems integration firms) specialize in providing application development, maintenance, cloud services, digital transformation, and outsourcing solutions to large enterprises, including banks and major corporations.
 
@@ -46,7 +46,7 @@ Indian-origin firms (like TCS, Infosys, HCLTech, Wipro) dominate the outsourcing
 
 These companies commonly handle large-scale outsourcing contracts for banks (core banking, digital banking, compliance) and big corporations (ERP implementations, cloud migration, AI adoption).
 
-References:  
+References:
 
 - [Brand Finance IT Services 2025 Report](https://brandirectory.com/reports/it-services/2025)
 - [Top 10 most valuable IT service brands in 2025-26](https://indianexpress.com/article/trending/top-10-listing/top-10-most-valuable-it-service-brands-in-2025-26-10492522)

@@ -15,8 +15,8 @@ type: note
 
 ## 🦞 Chrome DevTools Protocol (CDP) 设置报告
 
-**日期：** 2026-03-22 03:36–03:42 GMT+8  
-**主机：** `to` — Linux 6.8.0-106-generic (x64)  
+**日期：** 2026-03-22 03:36–03:42 GMT+8
+**主机：** `to` — Linux 6.8.0-106-generic (x64)
 **OpenClaw：** 2026.3.13 (61d171a)
 
 ---

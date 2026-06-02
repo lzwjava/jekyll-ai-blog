@@ -11,7 +11,7 @@ type: note
 
 Question: Do many people think contractor jobs hurt their dignity?
 
-Answer: 
+Answer:
 
 **No, it is not accurate to say that "many people" broadly think contractor jobs inherently hurt their dignity, but a notable portion of contractors — especially in corporate/office settings or gig economy roles — do report feeling that their work arrangement damages their sense of dignity, self-respect, or social status.**
 
@@ -33,7 +33,7 @@ Overall, the sentiment is **context-dependent**:
 
 Surveys and studies on gig/contract work often highlight related themes like loneliness, financial precarity, inequality, and lower well-being compared to traditional employees, which can indirectly erode dignity. However, no large-scale poll shows a majority of all contractors feel this way — the feeling is significant enough in certain segments to generate widespread online discussion and articles.
 
-References:  
+References:
 
 - [Second Class Workers? The Corporate Plight of Contractors](https://www.reddit.com/r/careeradvice/comments/14x7tfc/second_class_workers_the_corporate_plight_of)
 - [Do Your Contractors Hate Working for You?](https://www.hireart.com/blog/do-your-contractors-hate-working-for-you)

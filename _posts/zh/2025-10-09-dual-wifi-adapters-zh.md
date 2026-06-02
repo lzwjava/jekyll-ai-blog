@@ -15,7 +15,7 @@ type: note
 ### 关键要求
 - **两个 WiFi 适配器**：至少需要两个独立的无线接口（例如内置笔记本 WiFi 作为 `wlan0` 用于连接，USB WiFi 适配器作为 `wlan1` 用于监控）。单个适配器无法同时处于连接状态（托管模式）和监控模式。
   - 推荐用于监控模式的适配器：Intel（如 AX200/AX210）、Atheros 或兼容的 Realtek 芯片组。使用 `iw list` 检查兼容性（查看支持的接口模式中是否有"monitor"）。
-- **工具**：安装 `aircrack-ng` 套件用于扫描、捕获握手包和破解：  
+- **工具**：安装 `aircrack-ng` 套件用于扫描、捕获握手包和破解：
   ```
   sudo apt update && sudo apt install aircrack-ng
   ```
@@ -23,7 +23,7 @@ type: note
 
 ### 工作原理：分步设置
 1. **连接已知 WiFi（托管模式）**：
-   - 使用 NetworkManager（GUI 或 CLI）正常连接：  
+   - 使用 NetworkManager（GUI 或 CLI）正常连接：
      ```
      nmcli device wifi connect "YourKnownSSID" password "knownpassword"
      ```
@@ -31,7 +31,7 @@ type: note
 
 2. **设置第二个适配器用于监控（不干扰第一个）**：
    - 识别接口：`iw dev`（例如 `wlan1` 是 USB 适配器）。
-   - 避免使用 `airmon-ng`（来自 aircrack-ng），因为它经常终止 NetworkManager 并中断连接。改用手动 `iw` 命令：  
+   - 避免使用 `airmon-ng`（来自 aircrack-ng），因为它经常终止 NetworkManager 并中断连接。改用手动 `iw` 命令：
      ```
      sudo ip link set wlan1 down
      sudo iw dev wlan1 set type monitor
@@ -41,7 +41,7 @@ type: note
 
 3. **扫描和捕获用于密码破解**：
    - 扫描网络：`sudo airodump-ng wlan1`（列出 SSID、BSSID、信道；按 Ctrl+C 停止）。
-   - 定位特定网络（例如 BSSID `AA:BB:CC:DD:EE:FF` 在信道 6）：  
+   - 定位特定网络（例如 BSSID `AA:BB:CC:DD:EE:FF` 在信道 6）：
      ```
      sudo airodump-ng --bssid AA:BB:CC:DD:EE:FF --channel 6 -w capture wlan1
      ```
@@ -49,7 +49,7 @@ type: note
    - 离线破解：`sudo aircrack-ng -w /path/to/wordlist.txt -b AA:BB:CC:DD:EE:FF capture-01.cap`。
 
 4. **恢复正常操作**：
-   - 停止监控：  
+   - 停止监控：
      ```
      sudo ip link set wlan1 down
      sudo iw dev wlan1 set type managed
@@ -66,6 +66,6 @@ type: note
 此设置在 Ubuntu 24.04 上可可靠用于测试目的。测试网络前务必获得许可。
 
 ### 参考资料
-- [How to enable WiFi while using two wireless cards one in monitor mode](https://security.stackexchange.com/questions/121215/how-to-enable-wifi-while-using-two-wireless-cards-one-in-monitor-mode-and-other)  
-- [Wireless Packet Capture using Ubuntu 24 LTS](https://www.reddit.com/r/RGNets/comments/1l4672v/wireless_packet_capture_using_ubuntu_24_lts/)  
+- [How to enable WiFi while using two wireless cards one in monitor mode](https://security.stackexchange.com/questions/121215/how-to-enable-wifi-while-using-two-wireless-cards-one-in-monitor-mode-and-other)
+- [Wireless Packet Capture using Ubuntu 24 LTS](https://www.reddit.com/r/RGNets/comments/1l4672v/wireless_packet_capture_using_ubuntu_24_lts/)
 - [Aircrack-ng Newbie Guide](https://www.aircrack-ng.org/doku.php?id=newbie_guide)

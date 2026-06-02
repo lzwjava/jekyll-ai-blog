@@ -11,7 +11,7 @@ type: note
 
 Question: In a computer system, several programs are running simultaneously and executing in an interleaved manner. Which characteristic of an operating system does this demonstrate?
 
-Answer: 
+Answer:
 
 This scenario demonstrates the **Concurrency** (并发性) of an operating system.
 

@@ -11,7 +11,7 @@ type: note
 
 **Question:** What is the English version of "我的世界观" (by Einstein or adapted) from the University Chinese (大学语文, course code 04729) textbook?
 
-**Answer:** 
+**Answer:**
 
 The text "我的世界观" included in the Chinese self-study examination course *University Chinese* (大学语文, code 04729) is an abridged or selected translation of Albert Einstein's famous 1931 essay **"The World As I See It"** (original German title: "Wie ich die Welt sehe").
 
@@ -45,7 +45,7 @@ This is the excerpt most commonly adapted and taught in the 大学语文 (04729)
 - Cosmic religious feeling (宇宙宗教感情)
 - Dedication to society as the meaning of life
 
-**References:**  
+**References:**
 
 - [The World As I See It (full book, Internet Archive)](https://ia801500.us.archive.org/21/items/in.ernet.dli.2015.127962/2015.127962.The-World-As-I-See-It.pdf)
 - [爱因斯坦：我的世界观（双语全文）](https://wiki.loikein.one/meta-life/quotes/einstein-the-world)

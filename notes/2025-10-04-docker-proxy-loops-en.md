@@ -33,6 +33,6 @@ In short: It prevents the daemon from "proxying the proxy," ensuring local proxy
 
 If your setup involves other local services (e.g., internal registries or containers communicating locally), extending `no-proxy` with those domains/IPs can prevent similar issues.
 
-[Docker Daemon Proxy Configuration](https://docs.docker.com/engine/daemon/proxy/)  
-[Docker Proxy Settings Forum Discussion](https://forums.docker.com/t/proxy-settings-for-the-docker-daemon/132089)  
+[Docker Daemon Proxy Configuration](https://docs.docker.com/engine/daemon/proxy/)
+[Docker Proxy Settings Forum Discussion](https://forums.docker.com/t/proxy-settings-for-the-docker-daemon/132089)
 [Docker Proxy Guide for Corporate Firewalls](https://www.datacamp.com/tutorial/docker-proxy)

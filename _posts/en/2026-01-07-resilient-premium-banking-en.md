@@ -12,7 +12,7 @@ type: note
 
 Question: One of the reasons DBS Bank, Standard Chartered Bank (SCB), and HSBC Bank can resist or survive in the current slow-growing economy is that they mostly serve high-end customers. Although they have fewer customers than big tech companies, their high-end customers are less likely to cut expenses or reduce usage of bank products and services.
 
-Answer: 
+Answer:
 
 The statement captures a valid factor contributing to the resilience of traditional banks like DBS, Standard Chartered Bank (SCB), and HSBC in a slow-growing economy: their strong emphasis on high-net-worth (HNW), ultra-high-net-worth (UHNW), and affluent customer segments through wealth management and private banking services.
 
@@ -33,10 +33,10 @@ Economic slowdowns typically hit mass-market banking harder (e.g., reduced consu
 
 While other factors contribute to these banks' strength—such as digital innovation (DBS), global networks (HSBC/SCB), strong balance sheets, and diversification—the high-end focus provides a defensive edge compared to pure mass-market or tech-driven competitors with broader, more price-sensitive user bases.
 
-References:  
+References:
 
-- [DBS Wealth Management](https://www.forbes.com/sites/dbs-wealth-management/2024/04/22/a-springboard-to-the-world-of-the-ultra-wealthy/)  
-- [Standard Chartered Private Banking Launch](https://www.reuters.com/business/finance/standard-chartered-launches-exclusive-investment-club-ultra-wealthy-clients-2025-03-11/)  
-- [HSBC Private Banking](https://www.privatebanking.hsbc.com/)  
-- [Singapore Banks Affluent Focus](https://www.globaldata.com/store/report/singapore-retail-banking-competitive-benchmarking-market-analysis/)  
+- [DBS Wealth Management](https://www.forbes.com/sites/dbs-wealth-management/2024/04/22/a-springboard-to-the-world-of-the-ultra-wealthy/)
+- [Standard Chartered Private Banking Launch](https://www.reuters.com/business/finance/standard-chartered-launches-exclusive-investment-club-ultra-wealthy-clients-2025-03-11/)
+- [HSBC Private Banking](https://www.privatebanking.hsbc.com/)
+- [Singapore Banks Affluent Focus](https://www.globaldata.com/store/report/singapore-retail-banking-competitive-benchmarking-market-analysis/)
 - [Economic Impact on Segments](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook-2024.html)

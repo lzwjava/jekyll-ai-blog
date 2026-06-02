@@ -15,7 +15,7 @@ type: note
 Yes, you've got it exactly right—that's the beauty (and security feature) of how NAT Gateways work in AWS VPCs. Let me break it down step by step to confirm your understanding, using your examples.
 
 #### 1. **The "One-Way" Nature of NAT for Outbound Traffic**
-   - **Private Subnet → Public Internet (Outbound, Initiated by Private)**: 
+   - **Private Subnet → Public Internet (Outbound, Initiated by Private)**:
      - Instances in a private subnet (e.g., with IPs like 10.0.1.10) can reach out to the public internet for things like software updates. This is "egress-only" or one-way outbound.
      - Example: Running `apt install` on an Ubuntu EC2 instance in the private subnet. The instance initiates a connection to Ubuntu's public repositories (e.g., archive.ubuntu.com). The NAT Gateway translates the private source IP to its public Elastic IP, sends the request, and routes the response back to the original instance.
      - Why one-way? The NAT only handles traffic *initiated* by the private instance. It doesn't open ports or allow unsolicited inbound connections from the public side. This keeps the private subnet "hidden" and secure—no public IP assigned directly to those instances.

@@ -50,7 +50,7 @@ I'll assume you're familiar with basic PHP and CodeIgniter (e.g., loaders, model
      - Uses `unionId` to link users across WeChat platforms (e.g., web and mini-program).
 
    - **`sign_get()`**: Generates a signature package for WeChat JS SDK on your web pages. Allows features like sharing or location. *WeChat Interaction*: No direct API call; computes signature using app secret. JS SDK uses this to verify your page and enable WeChat features.
-   
+
    - **`oauth_get()`**: Handles full OAuth for WeChat web. Exchanges `code` for access token, fetches user info, and logs in or registers the user. Binds to `unionId` if needed. *WeChat Interaction*: API calls to `/sns/oauth2/access_token` (get token) and `/sns/userinfo` (get profile). If new user, adds to database; logs in existing users.
 
    - **`silentOauth_get()`**: Silent (no-popup) OAuth. Gets token but skips detailed user info. Checks subscriptions. *WeChat Interaction*: Same API calls as above, but no `/userinfo`. Uses `/sns/auth` to verify a user's previous login.
@@ -87,13 +87,13 @@ I'll assume you're familiar with basic PHP and CodeIgniter (e.g., loaders, model
 
 #### **E. Other Features**
    - **`isSubscribe_get()` and `fixAllSubscribe_get()`**: Checks if a user follows your public account via WeChat API. Fixes all users' subscription status in bulk. *WeChat Interaction*: Calls `/cgi-bin/user/info` API with openId.
-   
+
    - **Menu/Messaging**: `menu_get()`, `createMenu_get()`, `addNews_get()`, `sendMassMsg_get()`: Manage public account menus, create/send articles, and send mass messages. *WeChat Interaction*: APIs like `/cgi-bin/menu/get`, `/cgi-bin/menu/create`, etc.
-   
+
    - **`uploadImg_get()`**: Uploads images for articles. *WeChat Interaction*: Upload API.
-   
+
    - **`qrcode_get()`**: Generates QR codes for scenes (e.g., promo links). *WeChat Interaction*: Calls `/cgi-bin/qrcode/create`.
-   
+
    - **`group_get()`**: Returns a static image URL (seems unrelated to WeChat).
 
 ### 3. **Common Patterns and Flow**

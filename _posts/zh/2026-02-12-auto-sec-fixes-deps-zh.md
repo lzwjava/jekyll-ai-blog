@@ -84,13 +84,13 @@ npm audit fix --package-lock-only
 
 目前大多数团队更倾向于：
 
-1. `npm audit --audit-level=high`  
+1. `npm audit --audit-level=high`
    → 仅关注 high + critical 漏洞
 
-2. `npm audit fix`  
+2. `npm audit fix`
    → 定期执行安全修复
 
-3. 使用 Dependabot, Renovate 或 Socket.dev  
+3. 使用 Dependabot, Renovate 或 Socket.dev
    → 为版本更新 **和** 安全修复自动创建 PR
 
 `npm audit fix` 很方便，但它不是万能的 —— 它无法修复需要以下操作的漏洞：

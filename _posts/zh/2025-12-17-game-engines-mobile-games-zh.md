@@ -28,10 +28,10 @@ type: note
 
 截至2025年末，暂无重大引擎变更报告。
 
-**参考资料：**  
-- [PUBG Mobile - Wikipedia](https://en.wikipedia.org/wiki/PUBG_Mobile)  
-- [PUBG MOBILE \| LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/gamedetail/pubg-mobile.html)  
-- [Arena of Valor - Official Arena of Valor Wiki](https://arenaofvalor.fandom.com/wiki/Arena_of_Valor)  
-- [王者荣耀采用了一些什么技术开发的？ - 知乎](https://zhuanlan.zhihu.com/p/566696979)  
-- [《王者荣耀》背后的游戏引擎不简单 - 界面新闻](https://www.jiemian.com/article/2142239.html)  
+**参考资料：**
+- [PUBG Mobile - Wikipedia](https://en.wikipedia.org/wiki/PUBG_Mobile)
+- [PUBG MOBILE \| LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/gamedetail/pubg-mobile.html)
+- [Arena of Valor - Official Arena of Valor Wiki](https://arenaofvalor.fandom.com/wiki/Arena_of_Valor)
+- [王者荣耀采用了一些什么技术开发的？ - 知乎](https://zhuanlan.zhihu.com/p/566696979)
+- [《王者荣耀》背后的游戏引擎不简单 - 界面新闻](https://www.jiemian.com/article/2142239.html)
 - [Genshin Impact - Wikipedia](https://en.wikipedia.org/wiki/Genshin_Impact)

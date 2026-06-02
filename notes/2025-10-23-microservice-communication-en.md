@@ -20,7 +20,7 @@ The short answer: Event-driven architectures with Kafka promote **loose coupling
 This approach—having a central "orchestrator" service (or the original caller) directly invoke downstream services via APIs—is straightforward at first. You could even update the caller to "add callees" as needed (e.g., fan-out to multiple services in sequence or parallel). But here's why it falls short:
 
 - **Tight Coupling**: The caller must know the exact locations (URLs/endpoints), schemas, and availability of every callee. If a downstream service changes its API, goes down, or gets renamed, you have to update *every* caller. This creates a web of dependencies that's hard to refactor.
-  
+
 - **Synchronous Blocking**: Calls are blocking—your caller waits for responses. If one callee is slow or fails, the entire chain halts (cascading failures). In a fan-out scenario (caller calling multiple callees), a single timeout can delay everything.
 
 - **Scalability Limits**: High traffic means the caller becomes a bottleneck. It has to handle all coordination, retries, and error handling. Adding more callees? You bloat the caller with logic, violating single-responsibility principles.

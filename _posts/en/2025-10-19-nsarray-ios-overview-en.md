@@ -96,5 +96,5 @@ NSMutableArray *mutableFruits = [NSMutableArray arrayWithArray:fruits];
 - Performance: O(1) for access, O(n) for searches.
 - Modern iOS: Consider Swift's `Array` for new projects—it's more type-safe.
 
-[NSArray Documentation](https://developer.apple.com/documentation/foundation/nsarray)  
+[NSArray Documentation](https://developer.apple.com/documentation/foundation/nsarray)
 [NSMutableArray Documentation](https://developer.apple.com/documentation/foundation/nsmutablearray)

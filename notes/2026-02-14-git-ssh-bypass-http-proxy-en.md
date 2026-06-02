@@ -12,7 +12,7 @@ type: note
 
 Question: When running GIT_SSH_COMMAND="ssh -vvv" git pull --rebase using SSH, does it bypass the system's HTTP & HTTPS proxy settings like export HTTP_PROXY and macOS network proxy settings in System Settings?
 
-Answer: 
+Answer:
 
 **Yes, it bypasses them completely.**
 
@@ -74,7 +74,7 @@ git remote -v
 
 So when you run `GIT_SSH_COMMAND="ssh -vvv" git pull --rebase` and see SSH authentication / port 22 traffic, you're using the SSH protocol — HTTP/HTTPS proxy settings (including macOS system ones) are completely ignored.
 
-References:  
+References:
 
 - [Git - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 - [Configure Git to use a proxy (HTTPS or SSH+GIT)](https://gist.github.com/ozbillwang/005bd1dfc597a2f3a00148834ad3e551)

@@ -63,11 +63,11 @@ end
   class ViewController: UIViewController {
       override func viewDidLoad() {
           super.viewDidLoad()
-          
+
           // 显示带加载指示器的简易 HUD
           let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
           hud.label.text = "加载中..."
-          
+
           // 延时隐藏（示例为2秒后）
           DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
               hud.hide(animated: true)
@@ -86,11 +86,11 @@ end
   @implementation ViewController
   - (void)viewDidLoad {
       [super viewDidLoad];
-      
+
       // 显示带加载指示器的简易 HUD
       MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
       hud.label.text = @"加载中...";
-      
+
       // 延时隐藏（示例为2秒后）
       dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
           [hud hideAnimated:YES];

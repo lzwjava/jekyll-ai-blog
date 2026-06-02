@@ -44,5 +44,5 @@ GCP 控制台中的 Cloud Run 部分提供了一个直观的仪表板来管理�
 
 此控制台使您可以轻松监控性能、查看日志并在浏览器中迭代部署，而无需离开。要进行实践探索，请在启用 API 后导航到 [console.cloud.google.com/run](https://console.cloud.google.com/run)。
 
-[什么是 Cloud Run](https://cloud.google.com/run/docs/overview/what-is-cloud-run)  
+[什么是 Cloud Run](https://cloud.google.com/run/docs/overview/what-is-cloud-run)
 [Cloud Run 文档](https://cloud.google.com/run/docs)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Cloud Run in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 Cloud Run is Google Cloud's **fully managed serverless platform** for running containerized applications (or simple code/functions) without managing any underlying servers or clusters.
 
@@ -115,7 +115,7 @@ One command alternatives in 2025:
 
 Cloud Run remains one of the simplest and most popular ways to run production workloads on Google Cloud in 2026.
 
-References:  
+References:
 
 - [What is Cloud Run - Official Documentation](https://cloud.google.com/run/docs/overview/what-is-cloud-run)
 - [Cloud Run Main Page](https://cloud.google.com/run)

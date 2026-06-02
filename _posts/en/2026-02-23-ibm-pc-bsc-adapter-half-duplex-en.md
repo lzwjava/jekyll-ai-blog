@@ -11,7 +11,7 @@ type: note
 
 Question: What type of transmission line is the IBM PC BSC communication adapter primarily designed for?
 
-Answer: 
+Answer:
 
 The **IBM PC BSC (Binary Synchronous Communication) communication adapter** is primarily designed for **half-duplex transmission lines**.
 
@@ -22,7 +22,7 @@ The **IBM PC BSC (Binary Synchronous Communication) communication adapter** is p
 - Full-duplex allows simultaneous two-way communication, which is not typically supported by basic BSC implementations without additional hardware or protocol enhancements.
 - Therefore, the IBM PC BSC adapter is optimized for **half-duplex** environments.
 
-**Correct Answer:**  
+**Correct Answer:**
 **A. 半双工传输线路设计的 (Designed for half-duplex transmission lines)**
 
 References:

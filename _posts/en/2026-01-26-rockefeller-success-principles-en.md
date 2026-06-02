@@ -19,15 +19,15 @@ John D. Rockefeller (1839–1937), the founder of Standard Oil and historically 
 Here are some of his most representative ideas and pieces of wisdom, grouped by theme:
 
 ### On Success and Ambition
-- **Don't settle for mediocrity** — "Don't be afraid to give up the good to go for the great."  
+- **Don't settle for mediocrity** — "Don't be afraid to give up the good to go for the great."
   He believed people often limit themselves by accepting comfortable but unremarkable outcomes instead of pushing for excellence.
 - **Singleness of purpose** — "Singleness of purpose is one of the chief essentials for success in life, no matter what may be one's aim."
 - **Innovation over imitation** — "If you want to succeed you should strike out on new paths, rather than travel the worn paths of accepted success."
-- **His personal success formula** (shared with his son) — Dream + Failure + Challenge = Success.  
+- **His personal success formula** (shared with his son) — Dream + Failure + Challenge = Success.
   He viewed failure and difficulty not as endpoints, but as essential ingredients.
 
 ### On Character and Principles
-- **Integrity first** — "I believe in the dignity of labor, whether with head or hand; that the world owes no man a living but that it owes every man an opportunity to make a living."  
+- **Integrity first** — "I believe in the dignity of labor, whether with head or hand; that the world owes no man a living but that it owes every man an opportunity to make a living."
   He emphasized honesty, trustworthiness, and self-reliance.
 - **Character over wealth** — "I believe in the sacredness of a promise, that a man's word should be as good as his bond; that character not wealth or power or position is of supreme worth."
 - **Love and moral conviction** — "I believe that love is the greatest thing in the world; that it alone can overcome hate; that right can and will triumph over might."

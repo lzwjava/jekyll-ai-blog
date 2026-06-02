@@ -12,7 +12,7 @@ type: note
 
 Question: Translate the information about major code 510201 to English, and provide only that information without including other courses.
 
-Answer: 
+Answer:
 
 ### Major: Computer Application Technology (510201)
 - **Education Level**: Specialist (Diploma/Associate Degree)

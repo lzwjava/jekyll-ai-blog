@@ -11,7 +11,7 @@ type: note
 
 Question: Why does the gcloud run deploy command with --source . give "unrecognized arguments" error, and how to fix it for deploying blog-server to Cloud Run?
 
-Answer: 
+Answer:
 
 The error occurs because the shell (zsh in your case) is interpreting the flags after the first line break as separate commands instead of arguments to `gcloud`.
 
@@ -90,7 +90,7 @@ chmod +x deploy.sh
 
 After successful deploy, you'll see a service URL like `https://blog-server-XXXXXX.a.run.app`.
 
-References:  
+References:
 
 - [Deploy services from source code | Cloud Run](https://docs.cloud.google.com/run/docs/deploying-source-code)
 - [gcloud run deploy reference](https://docs.cloud.google.com/sdk/gcloud/reference/run/deploy)

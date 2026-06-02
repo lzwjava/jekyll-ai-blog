@@ -55,7 +55,7 @@ type: note
 
 如果这些都不起作用，请提供更多详细信息，如你的编辑器、这是否是 Rust 项目以及该目录中的任何 Rust 文件。
 
-[rust-analyzer failed to discover workspace in vscode - Stack Overflow](https://stackoverflow.com/questions/72062935/rust-analyzer-failed-to-discover-workspace-in-vscode)  
-[Question about failed to find any projects in [AbsPathBuf...] - GitHub](https://github.com/rust-analyzer/rust-analyzer/issues/11666)  
-[Problem with Rust-Analyzer - Rust Users Forum](https://users.rust-lang.org/t/problem-with-rust-analyzer/91453)  
+[rust-analyzer failed to discover workspace in vscode - Stack Overflow](https://stackoverflow.com/questions/72062935/rust-analyzer-failed-to-discover-workspace-in-vscode)
+[Question about failed to find any projects in [AbsPathBuf...] - GitHub](https://github.com/rust-analyzer/rust-analyzer/issues/11666)
+[Problem with Rust-Analyzer - Rust Users Forum](https://users.rust-lang.org/t/problem-with-rust-analyzer/91453)
 [Configuration - rust-analyzer Manual](https://rust-analyzer.github.io/manual.html#configuration)

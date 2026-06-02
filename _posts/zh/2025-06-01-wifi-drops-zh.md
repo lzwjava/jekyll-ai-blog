@@ -16,20 +16,20 @@ Ubuntu系统在有线网络稳定时出现Wi-Fi断连问题，可能由多种因
 您的MSI B760M Mortar WiFi主板很可能搭载了**Intel Wi-Fi 6E AX211/AX210**无线网卡。虽然Intel驱动在Linux中通常兼容性良好，但仍可能出现问题。
 
 #### **操作步骤：**
-- **识别无线网卡芯片型号：**  
-  在终端执行：  
+- **识别无线网卡芯片型号：**
+  在终端执行：
   ```bash
   lspci -knn | grep -iA3 net
   ```
   查找无线网卡设备（通常显示为`Intel Corporation Device [8086:...]`）
 
-- **检查是否正确加载驱动：**  
+- **检查是否正确加载驱动：**
   ```bash
   lsmod | grep iwlwifi
   ```
   若未显示内容则说明驱动未加载
 
-- **安装/更新驱动：**  
+- **安装/更新驱动：**
   Intel无线网卡驱动（`iwlwifi`）已包含在Linux内核中，但可能需要更新固件：
   ```bash
   sudo apt update && sudo apt install --reinstall linux-firmware
@@ -41,7 +41,7 @@ Ubuntu系统在有线网络稳定时出现Wi-Fi断连问题，可能由多种因
 Linux系统有时会过度激进的启用无线网卡省电功能，导致连接中断。
 
 #### **操作步骤：**
-- 临时禁用省电模式：  
+- 临时禁用省电模式：
   ```bash
   sudo sed -i 's/wifi.powersave = 3/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
   ```
@@ -51,7 +51,7 @@ Linux系统有时会过度激进的启用无线网卡省电功能，导致连接
   ```
   （请将`wlan0`替换为`ip a`命令显示的网卡名称）
 
-- **应用更改：**  
+- **应用更改：**
   ```bash
   sudo systemctl restart NetworkManager
   ```
@@ -97,7 +97,7 @@ sudo apt install linux-image-generic-hwe-22.04
 ---
 
 ### **6. 禁用硬件加密（如适用）**
-部分Intel无线网卡存在硬件加密兼容问题。  
+部分Intel无线网卡存在硬件加密兼容问题。
 编辑`/etc/modprobe.d/iwlwifi.conf`文件（若不存在请创建）：
 ```plaintext
 options iwlwifi 11n_disable=1

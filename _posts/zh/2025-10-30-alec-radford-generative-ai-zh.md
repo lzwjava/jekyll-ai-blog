@@ -34,7 +34,7 @@ type: note
 #### 近期发展与历史遗产（2024年至今）
 2024年12月，在OpenAI工作八年后，拉德福德选择离开并投身独立研究，此举震动AI界。31岁的他已彻底改变了机器生成文本、图像、音频与代码的技术范式，其影响渗透从ChatGPT到Stable Diffusion等各类应用。他的故事印证了好奇心的力量胜过纸面 credential：从德州郊区到宿舍创业，再到AI前沿阵地，证明了大胆实验能够重塑技术范式。
 
-[人类存在于计算机中——第一部](https://www.lerandom.art/editorial/the-people-are-in-the-computer--part-i)  
-[OpenAI原始GPT论文第一作者亚历克·拉德福德](https://www.reddit.com/r/singularity/comments/1hi3tth/alec_radford_the_lead_author_of_openais_original/)  
-[OpenAI前核心研究员在AI版权案中收到传票](https://techcrunch.com/2025/03/04/key-ex-openai-researcher-subpoenaed-in-ai-copyright-case/)  
+[人类存在于计算机中——第一部](https://www.lerandom.art/editorial/the-people-are-in-the-computer--part-i)
+[OpenAI原始GPT论文第一作者亚历克·拉德福德](https://www.reddit.com/r/singularity/comments/1hi3tth/alec_radford_the_lead_author_of_openais_original/)
+[OpenAI前核心研究员在AI版权案中收到传票](https://techcrunch.com/2025/03/04/key-ex-openai-researcher-subpoenaed-in-ai-copyright-case/)
 [亚历克·拉德福德 | Golden档案](https://golden.com/wiki/Alec_Radford-R99PBKV)

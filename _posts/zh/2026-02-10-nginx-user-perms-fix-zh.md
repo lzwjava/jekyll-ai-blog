@@ -22,8 +22,8 @@ Nginx 启动失败是因为你将 user 更改为了 `lzw`（一个普通的 non-
 
 当你以 non-root user (`lzw`) 身份运行 nginx 时，它无法打开 `/var/log/nginx/error.log` → **Permission denied (13)** → emergency exit。
 
-Warning 信息  
-`the "user" directive makes sense only if the master process runs with super-user privileges, ignored`  
+Warning 信息
+`the "user" directive makes sense only if the master process runs with super-user privileges, ignored`
 准确地证实了这一点：nginx 忽略了你的 `user lzw;` 配置行，因为它不是以 root 身份启动的。
 
 ### 推荐的修复方案 – 让 nginx 以 root (master) 运行，但在 worker 进程中降权为 `lzw`

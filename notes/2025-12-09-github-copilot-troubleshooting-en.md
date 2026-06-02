@@ -12,7 +12,7 @@ type: note
 
 Question: Why does the GitHub Copilot extension in VS Code on Windows sometimes become unresponsive, requiring me to open a new window, and why can't I switch between Ask and Agent modes?
 
-Answer: 
+Answer:
 
 The GitHub Copilot extension in Visual Studio Code (VS Code) can become unresponsive or frozen on Windows due to several common issues, particularly when using features like the Chat view (with modes such as Ask for questions, Edit for code changes, or Agent for autonomous tasks). This often manifests as the interface hanging, requiring a full reload or new window to resolve, and prevents switching between modes because the extension host process becomes stuck. Based on user reports and official troubleshooting, here are the most likely causes and fixes:
 
@@ -52,10 +52,10 @@ Try these in order—most users resolve it without reinstalling:
 
 If these don't help, collect diagnostics via `Ctrl+Shift+P` > "GitHub Copilot: Collect Diagnostics" and report on the [VS Code GitHub issues](https://github.com/microsoft/vscode/issues). For persistent freezes, temporarily disable other extensions to isolate conflicts.
 
-References:  
-- [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)  
-- [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)  
-- [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)  
-- [GitHub Docs: Troubleshooting Copilot](https://docs.github.com/copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot)  
-- [GitHub Discussion: VS Code freezing with Copilot Agent](https://github.com/orgs/community/discussions/159701)  
+References:
+- [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)
+- [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)
+- [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)
+- [GitHub Docs: Troubleshooting Copilot](https://docs.github.com/copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot)
+- [GitHub Discussion: VS Code freezing with Copilot Agent](https://github.com/orgs/community/discussions/159701)
 - [GitHub Discussion: Copilot Chat issues](https://github.com/orgs/community/discussions/156686)

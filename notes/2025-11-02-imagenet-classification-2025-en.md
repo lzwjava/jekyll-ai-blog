@@ -29,6 +29,6 @@ Here's a snapshot of the current top performers (fine-tuned on ImageNet-1K), bas
 
 Progress has slowed in recent years due to dataset saturation—gains now come from massive pretraining (e.g., on ImageNet-21K or web-scale data) and techniques like model ensembling or distillation. Human expert performance is estimated at ~5% top-1 error (or 2-12% top-5, varying by study), so AI has surpassed humans on this benchmark.
 
-[ImageNet Benchmark (Papers With Code)](https://paperswithcode.com/sota/image-classification-on-imagenet)  
-[Image Classification: State-of-the-Art Models in 2025 (HiringNet)](https://hiringnet.com/image-classification-state-of-the-art-models-in-2025)  
+[ImageNet Benchmark (Papers With Code)](https://paperswithcode.com/sota/image-classification-on-imagenet)
+[Image Classification: State-of-the-Art Models in 2025 (HiringNet)](https://hiringnet.com/image-classification-state-of-the-art-models-in-2025)
 [CoCa: Contrastive Captioners are Image-Text Foundation Models (arXiv)](https://arxiv.org/abs/2205.01917)

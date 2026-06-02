@@ -65,5 +65,5 @@ python setup.py bdist_wheel   # 已弃用
 
 简而言之：** .whl 文件是现代、快速的二进制包格式，pip 在可能的情况下会优先使用它们。**
 
-*[PEP 427 – Wheel 二进制包格式](https://peps.python.org/pep-0427/)  
+*[PEP 427 – Wheel 二进制包格式](https://peps.python.org/pep-0427/)
 *[Python Packaging 用户指南 – Wheel](https://packaging.python.org/en/latest/tutorials/packaging-projects/#generating-distribution-archives)

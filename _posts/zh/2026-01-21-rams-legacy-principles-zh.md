@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Dieter Rams
 
-Answer: 
+Answer:
 
 **Dieter Rams** 是 20 世纪最具影响力的工业设计师之一。他于 1932 年 5 月 20 日出生于德国 Wiesbaden，最著名的事迹是与德国消费电子公司 **Braun** 的长期合作，以及他提出的著名的 **"Ten Principles of Good Design"**（设计十诫），这些原则至今仍在塑造着现代产品设计的哲学。
 
@@ -61,7 +61,7 @@ Rams 的功能主义、极简主义方法对当代设计产生了深远的影响
 
 总之，Dieter Rams 代表了一种优先考虑清晰度、长效性以及对人类和地球尊重的设计哲学——在当今快速更迭的技术和消费主义世界中，这些原则显得更加重要。
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Dieter_Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
 - [https://www.vitsoe.com/us/about/good-design](https://www.vitsoe.com/us/about/good-design)

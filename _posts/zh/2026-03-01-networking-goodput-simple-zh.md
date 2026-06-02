@@ -24,13 +24,13 @@ type: note
 
 ### Goodput 与相关术语的对比
 
-- **Throughput**  
+- **Throughput**
   → 每秒成功传输通过链路的总比特数（包括协议头部、重传等）
 
-- **Goodput**  
+- **Goodput**
   → 接收端实际使用的**有用 application data**（排除头部、控制包、重传数据、重复包等）
 
-- **Bandwidth**  
+- **Bandwidth**
   → 链路的理论最大容量
 
 ### 典型关系（按降序排列）
@@ -49,7 +49,7 @@ Bandwidth ≥ Throughput ≥ Goodput
 
 ### 总结 – 最常见的记忆方式
 
-**Goodput = Throughput – 无用流量**  
+**Goodput = Throughput – 无用流量**
 （无用 = 协议头部 + 重传 + 控制包 + 重复 + 填充 + 未帮助的 FEC 开销）
 
 在性能敏感的应用（文件传输、视频流、游戏、实时协议）中，工程师更关心 **goodput** 而非原始 throughput。

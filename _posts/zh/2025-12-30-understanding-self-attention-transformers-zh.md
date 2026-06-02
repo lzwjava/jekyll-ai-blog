@@ -12,7 +12,7 @@ type: note
 
 Question: 视频是如何评论并扩充对 Self-Attention Mechanism 的解释的？
 
-Answer: 
+Answer:
 
 该视频投入了大量篇幅详细讲解 Self-Attention 机制，特别是从 14:06 时间点（“Attention is Cheap!”）开始，并持续到 37:52（“Attention: a weighted average”）等章节。
 
@@ -32,8 +32,8 @@ Answer:
 
 这些解释紧贴《Attention Is All You Need》论文，但包含了现场演示、示例（如 Attention 可视化）以及在其他领域生成模型中的扩展。
 
-References:  
+References:
 
-- [Lecture Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)  
-- [Lecture Slides (2019 Lecture 14 - Transformers)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture14-transformers.pdf)  
+- [Lecture Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)
+- [Lecture Slides (2019 Lecture 14 - Transformers)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture14-transformers.pdf)
 - [Original Transformer Paper: Attention Is All You Need](https://arxiv.org/abs/1706.03762)

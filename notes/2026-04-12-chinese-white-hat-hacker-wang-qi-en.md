@@ -11,7 +11,7 @@ type: note
 
 Question: How good is Wang Qi, the Chinese hacker from Keen Team associated with Microsoft, also known as Daniel Wang or 大蛙子? What is his level? Is he better than Snowden?
 
-Answer: 
+Answer:
 
 Wang Qi (王琦), also known by the aliases Daniel Wang and "大牛蛙" (Big Bull Frog or 大蛙子), is a highly respected **white-hat hacker** and cybersecurity expert from China. He is best known as the founder and CEO of Keen Team (碁震安全研究团队), one of the world's top vulnerability research and offensive security teams in the 2010s.
 
@@ -43,9 +43,9 @@ There is no direct or meaningful "better than" comparison, as they represent dif
 
 Wang Qi's work has helped make consumer and enterprise software safer, and his team influenced the global bug bounty and vulnerability disclosure culture. Information about him largely comes from interviews and reports dating from around 2014–2017; he has maintained a lower public profile in recent years while continuing in the security industry.
 
-References:  
-- https://zhuanlan.zhihu.com/p/24461529  
-- https://www.yicai.com/news/4702043.html  
-- https://baike.baidu.com/item/Keen%20Team/12696729  
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html  
+References:
+- https://zhuanlan.zhihu.com/p/24461529
+- https://www.yicai.com/news/4702043.html
+- https://baike.baidu.com/item/Keen%20Team/12696729
+- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
 - https://www.vice.com/en/article/meet-the-keen-team/

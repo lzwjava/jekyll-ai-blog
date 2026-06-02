@@ -55,5 +55,5 @@ Ho fun (also called hor fun or chow fun) are wide, flat rice noodles commonly us
 - For vegetarian version, swap beef for tofu or mushrooms.
 - Fresh ho fun is ideal but dried works fine; avoid overcooking to keep them chewy, not mushy.
 
-[Beef Chow Fun Noodles (China Sichuan Food)](https://www.chinasichuanfood.com/beef-chow-fun/)  
+[Beef Chow Fun Noodles (China Sichuan Food)](https://www.chinasichuanfood.com/beef-chow-fun/)
 [Stir-Fried Ho Fun (The Foodie Takes Flight)](https://thefoodietakesflight.com/stir-fried-flat-rice-noodles-hofan/)

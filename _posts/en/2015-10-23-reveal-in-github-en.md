@@ -27,7 +27,7 @@ My company work on GitHub. I open the GitHub a lot. Sometimes, I am editing on X
 
 It has six menu items:
 
- Menu Title     | Shortcut              | GitHub URL Pattern (When I'm editing LZAlbumManager.m Line 40)               
+ Menu Title     | Shortcut              | GitHub URL Pattern (When I'm editing LZAlbumManager.m Line 40)
 ----------------|-----------------------|----------------------------------
  Setting	    |⌃⇧⌘S |
  Repo           |⌃⇧⌘R | https://github.com/lzwjava/LZAlbum
@@ -38,7 +38,7 @@ It has six menu items:
  Blame          |⌃⇧⌘B | https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40
  Notifications  |⌃⇧⌘N | https://github.com/leancloud/LZAlbum/notifications?all=1
 
-The shortcuts are carefully designed. They will not confict to Xcode default shortcuts. The shortcut pattern is ⌃⇧⌘ (Ctrl+Shift+Command), plus First Character of the menu title. 
+The shortcuts are carefully designed. They will not confict to Xcode default shortcuts. The shortcut pattern is ⌃⇧⌘ (Ctrl+Shift+Command), plus First Character of the menu title.
 
 ## Customize
 
@@ -46,12 +46,12 @@ Sometimes, you may want to quickly jump to Wiki. Here is the way, open the setti
 
 <img width="500" alt="2015-11-01 12 56 35" src="https://cloud.githubusercontent.com/assets/5022872/10864939/fa83f286-8037-11e5-97d7-e9549485b11d.png">
 
-For example, 
+For example,
 
 Quick file, the pattern and the actual url:
 
 ```
-           {git_remote_url}       /blob/{commit}/          {file_path}         #{selection}    
+           {git_remote_url}       /blob/{commit}/          {file_path}         #{selection}
 https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40-L43
 ```
 

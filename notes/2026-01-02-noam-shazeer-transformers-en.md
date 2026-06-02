@@ -12,7 +12,7 @@ type: note
 
 Question: How does Noam Shazeer comment on the Transformer and attention mechanism, based on his YouTube videos, interviews, and papers? Provide a comprehensive explanation using his own words and tone where possible.
 
-Answer: 
+Answer:
 
 Noam Shazeer, one of the key inventors behind the Transformer architecture, has a casual, enthusiastic, and straightforward tone when discussing it—often sounding like an excited engineer who's thrilled by practical breakthroughs rather than hype. He frequently uses phrases like "Heck yeah!" to express excitement and describes ideas in simple, relatable terms.
 
@@ -45,10 +45,10 @@ Overall, his tone is optimistic and understated—he calls the origin a "bright 
 
 The Transformer replaced recurrence with pure attention for better parallelism, longer contexts, and superior performance, laying the foundation for today's AI boom.
 
-References:  
+References:
 
-- [Attention Is All You Need paper (arXiv)](https://arxiv.org/abs/1706.03762)  
-- [DeepLearning.ai Interview with Noam Shazeer](https://www.deeplearning.ai/the-batch/ai-transformed/)  
-- [No Priors Podcast Transcript with Noam Shazeer](https://sarahguo.com/blog/noamshazeer)  
-- [Good Times Podcast Notes on Noam Shazeer](https://kevinhabits.com/ai/podcast-notes-noam-shazeer-character-ai-attention-is-all-you-need-on-good-times-w-aarthi-and-sriram)  
+- [Attention Is All You Need paper (arXiv)](https://arxiv.org/abs/1706.03762)
+- [DeepLearning.ai Interview with Noam Shazeer](https://www.deeplearning.ai/the-batch/ai-transformed/)
+- [No Priors Podcast Transcript with Noam Shazeer](https://sarahguo.com/blog/noamshazeer)
+- [Good Times Podcast Notes on Noam Shazeer](https://kevinhabits.com/ai/podcast-notes-noam-shazeer-character-ai-attention-is-all-you-need-on-good-times-w-aarthi-and-sriram)
 - [No Priors YouTube Video](https://www.youtube.com/watch?v=emCoG-hA7AE)

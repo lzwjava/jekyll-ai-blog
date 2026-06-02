@@ -33,7 +33,7 @@ type: note
 "绘制一个展示以下内容的 microservices architecture diagram：
 - API Gateway
 - Auth Service
-- User Service  
+- User Service
 - Payment Service
 - Message Queue
 - 每个 service 对应的 Databases"

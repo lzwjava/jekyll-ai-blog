@@ -14,7 +14,7 @@ type: note
 
 **解决方案**：滑动窗口 + 哈希表（由于是小写字母，也可使用数组）
 
-我们使用两个指针（`left` 和 `right`）来维护窗口 `[left, right]`。  
+我们使用两个指针（`left` 和 `right`）来维护窗口 `[left, right]`。
 当移动 `right` 时，检查 `s[right]` 是否已在当前窗口中出现：
 - 若存在，则将 `left` 前移至重复字符被移除的位置。
 - 通过记录每个字符最后出现的位置，可直接跳跃移动 `left`。
@@ -25,25 +25,25 @@ type: note
 def lengthOfLongestSubstring(s: str) -> int:
     if not s:
         return 0
-    
+
     # 字符 -> 最后出现的位置
     last_seen = {}
     max_len = 0
     left = 0
-    
+
     for right in range(len(s)):
         ch = s[right]
-        
+
         # 若字符已在当前窗口中出现，从左侧收缩窗口
         if ch in last_seen and last_seen[ch] >= left:
             left = last_seen[ch] + 1
         else:
             # 窗口有效时更新最大长度
             max_len = max(max_len, right - left + 1)
-        
+
         # 记录该字符的最新位置
         last_seen[ch] = right
-    
+
     return max_len
 ```
 

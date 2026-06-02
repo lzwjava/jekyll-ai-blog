@@ -11,7 +11,7 @@ type: note
 
 问题：ATM 网络环境由两部分组成：ATM end users 和  。
 
-答案： 
+答案：
 
 完整且正确的陈述是：
 

@@ -11,7 +11,7 @@ type: note
 
 Question: What if I use one server in Aliyun CN in China, so that on my personal laptop I don't need to set up this, and use that as an HTTP or HTTPS proxy, or SOCKS?
 
-Answer: 
+Answer:
 
 Yes, this is a common and practical setup: run **Clash** (or a similar proxy tool) on your Aliyun ECS server in mainland China, then configure your laptop to use that server as a remote proxy (via HTTP/HTTPS or SOCKS5). This way, the complex rule-based routing logic (like the one in your log) lives only on the server, and your laptop stays clean — you just set a single proxy address in system settings, browser, or applications.
 
@@ -82,7 +82,7 @@ In short: yes — this is one of the cleanest ways to remove complexity from you
 
 If you tell me more about your laptop OS and whether you prefer max simplicity or still want some rules locally, I can give more exact steps.
 
-References:  
+References:
 
 - [Clash official documentation on mixed-port and allow-lan](https://github.com/Dreamacro/clash/wiki/configuration)
 - [Common setups for Clash on VPS as remote proxy](https://medium.com/@royso/clash-unlocking-restricted-network-and-streaming-services-4d4c1a034d8e)

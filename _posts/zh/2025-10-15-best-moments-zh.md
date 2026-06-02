@@ -26,7 +26,7 @@ type: note
 
 归根结底，最美好的时刻是那些你用心品味的瞬间——停驻脚步全然感受能提升生命质感。于你而言的难忘时刻，或许正是这些元素的交融：比如历经艰辛达成目标后，与爱人携手共赏美景的时分。
 
-[揭秘人生最幸福的时刻](https://www.beaglestreet.com/blog/revealed-happiest-moments-in-life/)  
-[生命中最重要的时刻是什么？](https://www.psychologytoday.com/us/blog/happy-together/202312/what-are-the-moments-that-matter-most-in-life)  
-[那些常被遗忘的生命美好时刻](https://www.quora.com/What-are-some-of-the-best-moments-in-life-that-are-often-forgotten-Why-do-we-tend-to-overlook-them)  
+[揭秘人生最幸福的时刻](https://www.beaglestreet.com/blog/revealed-happiest-moments-in-life/)
+[生命中最重要的时刻是什么？](https://www.psychologytoday.com/us/blog/happy-together/202312/what-are-the-moments-that-matter-most-in-life)
+[那些常被遗忘的生命美好时刻](https://www.quora.com/What-are-some-of-the-best-moments-in-life-that-are-often-forgotten-Why-do-we-tend-to-overlook-them)
 [让你感受生命之美的绝妙时刻？](https://www.reddit.com/r/AskOldPeople/comments/1d1muz0/best_moments-that-made_you_feel_lifes_beauty/)

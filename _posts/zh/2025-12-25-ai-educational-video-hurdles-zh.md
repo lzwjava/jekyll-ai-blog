@@ -45,7 +45,7 @@ AI 生成的教育视频正在迅速进步——目前的工具已经可以制�
 
 总结来说，虽然 AI 正在增强视频制作流程（例如协助脚本撰写、配音或短片段生成），但完全自主生成具有竞争力的长篇教育视频仍然面临技术、创意和质量上的重重障碍。人类视频占据主导地位，是因为它们能更好地结合准确性、直觉和参与感。进步虽然神速，但截至 2025 年，AI 对创作者而言更多是一个工具，而非完全的替代品。
 
-References:  
+References:
 
 - [Using LLMs to generate educational videos with Manim | Bleu AI Docs](https://docs.buildbleu.com/blog/using-llms-to-generate-educational-videos-with-manim/)
 - [Show HN: AI that generates 3blue1brown-style explainer videos | Hacker News](https://news.ycombinator.com/item?id=42590290)

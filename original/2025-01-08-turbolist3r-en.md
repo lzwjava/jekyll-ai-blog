@@ -14,7 +14,7 @@ Below are some tools to help enumerate subdomains.
 
 [Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-Based on [Sublist3r](https://github.com/aboul3la/Sublist3r) by Ahmed Aboul-Ela - @aboul3la  
+Based on [Sublist3r](https://github.com/aboul3la/Sublist3r) by Ahmed Aboul-Ela - @aboul3la
 Forked by Carl Pearson - [GitHub](https://github.com/fleetcaptain)
 
 ```bash

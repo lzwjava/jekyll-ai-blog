@@ -12,8 +12,8 @@ type: note
 
 ### Rust is for Big Data (#rust2018)
 
-**Author:** Andy Grove  
-**Published:** January 28, 2018  
+**Author:** Andy Grove
+**Published:** January 28, 2018
 
 This blog post is a forward-looking piece written as part of the "#rust2018" initiative, where the author shares his vision for Rust's role in the coming year. Andy Grove, a developer who's been building distributed data processing systems with Apache Spark, argues that Rust has untapped potential to revolutionize big data processing due to its core strengths in memory safety, performance, and predictability—without the pitfalls of garbage collection or runtime overheads common in languages like Java.
 

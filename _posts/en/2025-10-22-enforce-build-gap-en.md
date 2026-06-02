@@ -53,7 +53,7 @@ jobs:
 
           # Extract the completed_at timestamp of the latest successful run (ISO 8601 format)
           LAST_COMPLETED_AT=$(echo "$RUNS_RESPONSE" | jq -r '.[0].completed_at // empty')
-          
+
           if [ -z "$LAST_COMPLETED_AT" ] || [ "$LAST_COMPLETED_AT" = "null" ]; then
             echo "No previous successful run found. Proceeding with build."
             echo "skip_build=false" >> $GITHUB_OUTPUT

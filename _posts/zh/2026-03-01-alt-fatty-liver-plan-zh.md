@@ -22,16 +22,16 @@ type: note
 
 ### 阳性发现和列出的异常情况
 报告将ALT升高与一组相关问题联系起来：
-1. **中度脂肪肝**（Moderate fatty liver）+ ALT升高 + AST升高（天门冬氨酸氨基转移酶升高）+ 总胆固醇升高 + 甘油三酯升高  
+1. **中度脂肪肝**（Moderate fatty liver）+ ALT升高 + AST升高（天门冬氨酸氨基转移酶升高）+ 总胆固醇升高 + 甘油三酯升高
    → 这是**最可能的主要原因**。脂肪肝（尤其是代谢功能障碍相关脂肪肝病，以前称为NAFLD）是常规体检中ALT中度升高的**第一大原因**。肝细胞内脂肪堆积 → 引起低度炎症 → 泄漏ALT和AST等酶。高血脂（胆固醇 + 甘油三酯）强烈支持这一诊断。这在超重、高BMI、不良饮食、缺乏运动或代谢问题人群中非常常见。
 
-2. **淋巴细胞绝对值增高**（Elevated absolute lymphocyte count）  
+2. **淋巴细胞绝对值增高**（Elevated absolute lymphocyte count）
    → 通常是非特异性的。可能由于近期病毒感染（即使是轻微感冒）、压力、全身炎症，或有时无严重问题。大多数情况下与肝脏无关。
 
-3. **尿蛋白阳性**（Positive urine protein）  
+3. **尿蛋白阳性**（Positive urine protein）
    → 提示可能早期肾脏应激或损伤（蛋白质泄漏到尿中）。常见原因包括高血压、糖尿病、超重，或有时为暂时性（发热、运动、脱水）。需要随访，因为肾脏与肝脏/代谢问题可能相关（例如代谢综合征）。
 
-4. **体重指数 (BMI) 增高**（Elevated body mass index）  
+4. **体重指数 (BMI) 增高**（Elevated body mass index）
    → 超重或肥胖。这是连接上述所有问题的**关键风险因素**：它促进脂肪肝、高血脂、可能的胰岛素抵抗，并增加肾脏负担。
 
 整体情况 → 以**中度脂肪肝伴肝酶升高**为中心的**代谢相关问题**，加上超重迹象和可能的早期肾脏受累。这种模式在现代体检中极为常见，通常在早期**可逆**。
@@ -59,7 +59,7 @@ type: note
 
 尽快就诊肝病科或内科医生进行正确解读和计划。
 
-参考文献：  
+参考文献：
 
 - [Alanine Aminotransferase (ALT) Test: What Does It Mean?](https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-test)
 - [Elevated liver enzymes: Causes, symptoms, tests, and treatment](https://www.medicalnewstoday.com/articles/325838)

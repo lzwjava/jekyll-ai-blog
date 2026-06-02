@@ -12,7 +12,7 @@ type: note
 
 Question: Where to visit in Las Vegas?
 
-Answer: 
+Answer:
 
 Las Vegas 提供了一系列标志性的 Strip 景点、沉浸式体验、表演以及周边的自然奇观。以下是根据最新推荐（截至 2026 年）列出的热门去处：
 
@@ -48,7 +48,7 @@ Las Vegas 提供了一系列标志性的 Strip 景点、沉浸式体验、表演
 
 Las Vegas 不断有新的沉浸式地点和活动涌现，因此请在出发前查阅最新的演出时间表和开业信息。
 
-References:  
+References:
 
 - [TripAdvisor - Best Things to Do in Las Vegas](https://www.tripadvisor.com/Attractions-g45963-Activities-Las_Vegas_Nevada.html)
 - [Visit Las Vegas Official Site](https://www.visitlasvegas.com/things-to-do)

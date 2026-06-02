@@ -90,23 +90,23 @@ Here's a comprehensive strategy to increase JaCoCo coverage in your large Java S
 // Service Layer Tests
 @ExtendWith(MockitoExtension.class)
 class UserServiceTest {
-    
+
     @Mock
     private UserRepository userRepository;
-    
+
     @InjectMocks
     private UserService userService;
-    
+
     @Test
     void shouldCreateUserSuccessfully() {
         // Given
         UserRequest request = new UserRequest("john", "john@email.com");
         User user = User.builder().name("john").email("john@email.com").build();
         when(userRepository.save(any(User.class))).thenReturn(user);
-        
+
         // When
         UserResponse response = userService.createUser(request);
-        
+
         // Then
         assertThat(response.getName()).isEqualTo("john");
         verify(userRepository).save(any(User.class));
@@ -116,22 +116,22 @@ class UserServiceTest {
 // Repository Layer Tests
 @DataJpaTest
 class UserRepositoryTest {
-    
+
     @Autowired
     private TestEntityManager entityManager;
-    
+
     @Autowired
     private UserRepository userRepository;
-    
+
     @Test
     void shouldFindByEmail() {
         // Given
         User user = User.builder().name("john").email("john@email.com").build();
         entityManager.persist(user);
-        
+
         // When
         Optional<User> found = userRepository.findByEmail("john@email.com");
-        
+
         // Then
         assertThat(found).isPresent();
         assertThat(found.get().getName()).isEqualTo("john");
@@ -145,22 +145,22 @@ class UserRepositoryTest {
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @TestPropertySource(locations = "classpath:application-test.properties")
 class UserIntegrationTest {
-    
+
     @Autowired
     private TestRestTemplate restTemplate;
-    
+
     @Test
     void shouldCreateUserViaApi() {
         // Given
         UserRequest request = new UserRequest("john", "john@email.com");
-        
+
         // When
         ResponseEntity<UserResponse> response = restTemplate.postForEntity(
-            "/api/users", 
-            request, 
+            "/api/users",
+            request,
             UserResponse.class
         );
-        
+
         // Then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
         assertThat(response.getBody().getName()).isEqualTo("john");
@@ -172,19 +172,19 @@ class UserIntegrationTest {
 ```java
 @WebMvcTest(UserController.class)
 class UserControllerTest {
-    
+
     @Autowired
     private MockMvc mockMvc;
-    
+
     @MockBean
     private UserService userService;
-    
+
     @Test
     void shouldReturnUserById() throws Exception {
         // Given
         UserResponse userResponse = new UserResponse(1L, "john", "john@email.com");
         when(userService.getUserById(1L)).thenReturn(userResponse);
-        
+
         // When & Then
         mockMvc.perform(get("/api/users/1"))
                .andExpect(status().isOk())
@@ -198,7 +198,7 @@ class UserControllerTest {
 ### Test Data Builders
 ```java
 public class UserTestBuilder {
-    
+
     public static User.UserBuilder defaultUser() {
         return User.builder()
                   .id(1L)
@@ -228,7 +228,7 @@ void shouldValidateEmailFormat(String email) {
 void shouldThrowUserNotFoundException() {
     // Given
     when(userRepository.findById(999L)).thenReturn(Optional.empty());
-    
+
     // When & Then
     assertThatThrownBy(() -> userService.getUserById(999L))
         .isInstanceOf(UserNotFoundException.class)
@@ -244,15 +244,15 @@ void shouldThrowUserNotFoundException() {
 void shouldLoadConfigurationProperties() {
     // Given
     EnvironmentTestUtils.addEnvironment(
-        context, 
+        context,
         "app.security.jwt.secret=secret",
         "app.security.jwt.expiration=3600"
     );
-    
+
     // When
     context.refresh();
     JwtProperties props = context.getBean(JwtProperties.class);
-    
+
     // Then
     assertThat(props.getSecret()).isEqualTo("secret");
 }
@@ -264,11 +264,11 @@ void shouldLoadConfigurationProperties() {
 void shouldHandleValidationException() throws Exception {
     // Given
     MethodArgumentNotValidException exception = mock(MethodArgumentNotValidException.class);
-    
+
     // When
-    ResponseEntity<ErrorResponse> response = 
+    ResponseEntity<ErrorResponse> response =
         exceptionHandler.handleValidationException(exception);
-    
+
     // Then
     assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
 }
@@ -280,10 +280,10 @@ void shouldHandleValidationException() throws Exception {
 void shouldMapUserToUserResponse() {
     // Given
     User user = UserTestBuilder.defaultUser().build();
-    
+
     // When
     UserResponse response = userMapper.toResponse(user);
-    
+
     // Then
     assertThat(response.getId()).isEqualTo(1L);
     assertThat(response.getName()).isEqualTo("john");
@@ -299,11 +299,11 @@ void shouldCoverAllUserStatusScenarios() {
     // Test ACTIVE status
     User activeUser = UserTestBuilder.defaultUser().status(UserStatus.ACTIVE).build();
     assertThat(activeUser.canLogin()).isTrue();
-    
+
     // Test INACTIVE status
     User inactiveUser = UserTestBuilder.defaultUser().status(UserStatus.INACTIVE).build();
     assertThat(inactiveUser.canLogin()).isFalse();
-    
+
     // Test SUSPENDED status
     User suspendedUser = UserTestBuilder.defaultUser().status(UserStatus.SUSPENDED).build();
     assertThat(suspendedUser.canLogin()).isFalse();
@@ -315,17 +315,17 @@ void shouldCoverAllUserStatusScenarios() {
 @Testcontainers
 @SpringBootTest
 class UserRepositoryIT {
-    
+
     @Container
     static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:13");
-    
+
     @DynamicPropertySource
     static void configureProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", postgres::getJdbcUrl);
         registry.add("spring.datasource.username", postgres::getUsername);
         registry.add("spring.datasource.password", postgres::getPassword);
     }
-    
+
     @Test
     void shouldPersistUserWithDatabase() {
         // Real database integration test

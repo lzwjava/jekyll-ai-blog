@@ -40,7 +40,7 @@ Harry S. Truman（1884–1972）是美国第 33 任总统（1945–1953），他
 
 Truman 的这句话提醒我们，**伟大的历史或集体成就往往来自于那些愿意无私奉献的人**，而不是那些追逐个人名利的人。正是这种心态帮助他度过了美国历史上最动荡的时期之一。
 
-References:  
+References:
 
 - [https://www.goodreads.com/quotes/18093-it-is-amazing-what-you-can-accomplish-if-you-do](https://www.goodreads.com/quotes/18093-it-is-amazing-what-you-can-accomplish-if-you-do)
 - [https://www.trumanlibraryinstitute.org/truman/truman-quotes/page/5](https://www.trumanlibraryinstitute.org/truman/truman-quotes/page/5)

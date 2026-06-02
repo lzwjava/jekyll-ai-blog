@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Google Cloud CLI
 
-Answer: 
+Answer:
 
 **Google Cloud CLI**（通常被称为 **gcloud CLI**）是与 Google Cloud Platform (GCP) 交互的官方命令行界面。它是开发者、DevOps 工程师和管理员直接从终端创建、管理、配置和自动化几乎所有 Google Cloud 资源的主要工具。
 
@@ -28,8 +28,8 @@ Answer:
 
 ### Key Features and Concepts
 
-- **分层命令结构**  
-  命令遵循以下模式：  
+- **分层命令结构**
+  命令遵循以下模式：
   `gcloud [GROUP] [COMMAND] [SUB-COMMAND] [FLAGS] [ARGUMENTS]`
 
   示例：
@@ -65,7 +65,7 @@ Answer:
   - `gcloud auth application-default login` → 为 SDKs 和本地开发提供的 ADC (Application Default Credentials)。
   - Service account 密钥文件：`gcloud auth activate-service-account --key-file=sa.json`。
 
-- **输出格式**  
+- **输出格式**
   对脚本非常友好：
   ```bash
   gcloud compute instances list --format="value(name,zone,status)"
@@ -119,7 +119,7 @@ sudo snap install google-cloud-cli --classic  # Ubuntu
 
 在 2026 年，gcloud CLI 仍然是与 Google Cloud 交互的最强大且使用最广泛的方式之一（与 **terraform**、**pulumi** 和 **Google Cloud Console** 并列）。
 
-References:  
+References:
 
 - [gcloud CLI overview](https://docs.cloud.google.com/sdk/gcloud)
 - [Google Cloud CLI main page](https://cloud.google.com/cli)

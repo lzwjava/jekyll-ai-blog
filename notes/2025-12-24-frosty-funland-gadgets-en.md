@@ -12,11 +12,11 @@ type: note
 
 Question: In the latest PUBG Mobile, what are the tools in the snow scene, like the snow car that one can drive from a ball, the snow fly that helps you fly, and the ice maker that you can use to make an elevator?
 
-Answer: 
+Answer:
 These tools are featured in PUBG Mobile's Version 4.1 "Frosty Funland" themed mode, a winter-themed update released on November 5-6, 2025, available on maps like Erangel, Livik, and Vikendi until early January 2026. The mode transforms the maps into snowy landscapes with penguin NPCs, ice mechanics, and special gadgets for mobility and combat in the snow scene (e.g., Penguinville area). Here's a breakdown of the items matching your descriptions:
 
 ### Penguin Snowmobile (Snowball Vehicle / Snow Car)
-- **Description**: This is the "snow car" you can drive, often referred to as the Snowball Vehicle in patch notes. It's a 4-seater amphibious vehicle (works on land, snow, and water) that reaches speeds up to 85 km/h on land and 65 km/h on water. 
+- **Description**: This is the "snow car" you can drive, often referred to as the Snowball Vehicle in patch notes. It's a 4-seater amphibious vehicle (works on land, snow, and water) that reaches speeds up to 85 km/h on land and 65 km/h on water.
 - **"From ball" feature**: Passengers can fire snowballs from it, which deal minor damage and cause enemies to slip/freeze on impact, making it great for crowd control while driving.
 - **How to use**: Spawned around penguin areas; supports co-op with passengers boosting speed. Ideal for fast rotations, crossing frozen rivers, or mid-game escapes. A recent hotfix (November 12, 2025) fixed snowball launch issues near rooftops.
 
@@ -33,7 +33,7 @@ These tools are featured in PUBG Mobile's Version 4.1 "Frosty Funland" themed mo
 
 These tools emphasize fun, chaotic snow mobility: combine Snowmobile for team travel, Skates/Launcher for solo flights and ice builds. Practice in Training Mode for slides and boosts. The mode includes other winter goodies like Winterland Kar98K (ice explosions) and NPC companions (e.g., Ninja Penguin).
 
-References: 
+References:
 - [Liquipedia PUBG Mobile Version 4.1 Patch Notes](https://liquipedia.net/pubgmobile/Version_4.1)
 - [Carry1st PUBG Mobile 4.1 Update Overview](https://www.carry1st.com/blog/pubg-mobile-update-overview-frosty-funland)
 - [BitTopup Frosty Funland Guide](https://bittopup.com/article/PUBG-Mobile-41-Frosty-Funland-Complete-Guide-Pro-Tips)

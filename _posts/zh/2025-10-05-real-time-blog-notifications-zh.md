@@ -18,7 +18,7 @@ type: note
 1. **创建 Telegram 机器人**：
    - 在 Telegram 中联系 @BotFather，使用 `/newbot` 创建机器人，并保存机器人令牌（例如 `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`）。
    - 与你的机器人开启对话，然后联系 @userinfobot 获取聊天 ID（例如 `123456789`）。
-   - 通过 curl 测试消息发送：  
+   - 通过 curl 测试消息发送：
      ```
      curl -X POST "https://api.telegram.org/bot<你的机器人令牌>/sendMessage" \
      -H "Content-Type: application/json" \
@@ -60,18 +60,18 @@ type: note
      - 此代码会在每次匹配请求时运行，记录基础访问者信息并通过 Telegram 发送，且不会延迟页面加载。
 
 4. **配置环境变量**：
-   - 在 Worker 设置 > 变量 > 添加：  
-     - `TELEGRAM_BOT_TOKEN`：你的机器人令牌  
-     - `TELEGRAM_CHAT_ID`：你的聊天 ID  
+   - 在 Worker 设置 > 变量 > 添加：
+     - `TELEGRAM_BOT_TOKEN`：你的机器人令牌
+     - `TELEGRAM_CHAT_ID`：你的聊天 ID
    - 保存后重新部署。
 
 5. **将 Worker 路由至博客**：
-   - 在 Workers 设置 > 触发器 > 添加路由  
-   - 设置为你的博客域名/路径（例如 `yourblog.com/*`）  
+   - 在 Workers 设置 > 触发器 > 添加路由
+   - 设置为你的博客域名/路径（例如 `yourblog.com/*`）
    - 这能确保 Worker 在每次访问到达源服务器前执行。
 
 6. **测试与监控**：
-   - 访问你的博客——Telegram 应立即收到提示  
+   - 访问你的博客——Telegram 应立即收到提示
    - 在仪表板检查 Worker 日志中的错误。若触及速率限制（如 Telegram 的 30 条/秒），可通过 KV 存储添加去抖机制。
 
 ### 备用方案（若 Worker 不适用）
@@ -81,6 +81,6 @@ type: note
 
 此方案能将 Cloudflare 流量转化为可操作的即时提醒。如需代码调整或错误排查，请提供更多细节！
 
-[Cloudflare Workers 文档](https://developers.cloudflare.com/workers/)  
-[Telegram 机器人 API](https://core.telegram.org/bots/api)  
+[Cloudflare Workers 文档](https://developers.cloudflare.com/workers/)
+[Telegram 机器人 API](https://core.telegram.org/bots/api)
 [Cloudflare 即时日志](https://developers.cloudflare.com/logs/instant-logs/)

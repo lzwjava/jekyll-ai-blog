@@ -9,16 +9,16 @@ translated: true
 type: note
 ---
 
-Frame Relay 是一种在 X.25 之后开发的数据通信技术。从原理角度来看，Frame Relay、X.25 和 ATM 都属于同一类交换技术。以下哪一项正确？  
-A. Circuit switching  
-B. Packet switching  
-C. Message switching  
-D. Cell switching  
+Frame Relay 是一种在 X.25 之后开发的数据通信技术。从原理角度来看，Frame Relay、X.25 和 ATM 都属于同一类交换技术。以下哪一项正确？
+A. Circuit switching
+B. Packet switching
+C. Message switching
+D. Cell switching
 
-你的答案：D  
-正确答案：B  
+你的答案：D
+正确答案：B
 
-答案： 
+答案：
 
 正确答案是 **B. Packet switching**（分组交换）。
 
@@ -42,6 +42,6 @@ D. Cell switching
 
 因此，标准答案是 **B**。
 
-参考资料：  
+参考资料：
 
 - 无（基于中国标准网络工程教学材料和认证考试模式）

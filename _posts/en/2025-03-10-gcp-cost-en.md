@@ -14,7 +14,7 @@ To estimate the cost of using a Taipei server as a VPN with Google Cloud, consid
 The E2 micro is a shared-core machine type with 0.25 vCPU and 1 GB of memory. According to Google Cloud’s pricing for Compute Engine in the asia-east1 region:
 - **Hourly rate for E2 micro**: $0.0084 per hour.
 - **Hours in a month**: Assuming a typical month has 730 hours (a standard approximation based on 365 days ÷ 12 months ≈ 30.42 days × 24 hours).
-- **Monthly cost**:  
+- **Monthly cost**:
   $0.0084/hour × 730 hours ≈ $6.132.
 
 So, running the E2 micro instance continuously for a month costs approximately **$6.13**.
@@ -35,7 +35,7 @@ Assuming the 50 GB is the total data transferred (e.g., you send requests and re
 Google Cloud charges for internet egress based on the source region (asia-east1 for Taipei):
 - **Pricing tier**: For Asia (excluding China, India, Indonesia, and the Philippines), the rate is $0.12 per GiB for the first 1 TB of monthly egress.
 - **Conversion**: Google Cloud uses GiB (1 GiB = 1024³ bytes), while you specified 50 GB (1 GB = 1000³ bytes). Precisely, 1 GB ≈ 0.931 GiB, so 50 GB ≈ 46.55 GiB. However, for simplicity and common practice in rough estimates, we’ll approximate 50 GB ≈ 50 GiB, as the difference is minor for small volumes.
-- **Egress cost**:  
+- **Egress cost**:
   50 GiB × $0.12/GiB = $6.00.
 
 Thus, the network egress cost is approximately **$6.00** per month.
@@ -44,7 +44,7 @@ Thus, the network egress cost is approximately **$6.00** per month.
 The E2 micro instance requires a boot disk. While Google Cloud’s free tier offers 30 GB of standard persistent disk storage in certain US regions, Taipei (asia-east1) is not included, so you’ll incur charges:
 - **Disk size**: Assuming a typical 30 GB standard persistent disk (you could use less, like 10 GB, but 30 GB is common for a basic VM).
 - **Pricing**: $0.040 per GB per month in asia-east1 for standard persistent disk.
-- **Monthly cost**:  
+- **Monthly cost**:
   30 GB × $0.040/GB = $1.20.
 
 The persistent disk adds **$1.20** per month.

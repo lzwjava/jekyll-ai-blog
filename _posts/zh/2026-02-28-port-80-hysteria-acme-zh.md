@@ -40,12 +40,12 @@ Hysteria 的文档明确警告：
 
 **始终保持端口 80 关闭的替代方案：**
 
-1. 仅使用 **tls-alpn-01** challenge  
-   在 acme 部分设置 `disableHTTP: true` → Hysteria 将尝试 **tls-alpn-01**（仅端口 443）。  
+1. 仅使用 **tls-alpn-01** challenge
+   在 acme 部分设置 `disableHTTP: true` → Hysteria 将尝试 **tls-alpn-01**（仅端口 443）。
    如果端口 443 已开放（Hysteria 反正必须开放它），这有效。
 
-2. 使用 **DNS-01** challenge  
-   这不需要在服务器上开放任何端口。  
+2. 使用 **DNS-01** challenge
+   这不需要在服务器上开放任何端口。
    你必须使用支持你的 DNS 提供商 API 的 ACME client（例如 acme.sh、带 DNS 插件的 certbot，或手动设置），然后将 Hysteria 指向获取到的证书文件。
 
 3. 使用 **external tool** 如 certbot 的 `--standalone` 或 `--webroot` 模式（仅在续期期间通过 hooks/scripts 临时开放端口 80）。

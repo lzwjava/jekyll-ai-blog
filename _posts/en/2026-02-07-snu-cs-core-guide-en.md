@@ -66,7 +66,7 @@ The department emphasizes creativity, team projects, and emerging technologies (
 
 For the most up-to-date and complete list, check the official department website (cse.snu.ac.kr) under academics/undergraduate/courses or curriculum sections, or the university course catalog.
 
-**References:**  
+**References:**
 
 - [https://cse.snu.ac.kr/academics/undergraduate/courses](https://cse.snu.ac.kr/academics/undergraduate/courses)
 - [https://cse.snu.ac.kr/academics/undergraduate/curriculum](https://cse.snu.ac.kr/academics/undergraduate/curriculum)

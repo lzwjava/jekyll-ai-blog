@@ -12,7 +12,7 @@ type: note
 
 Question: What is the GitHub repository https://github.com/gfreezy/seeker about?
 
-Answer: 
+Answer:
 The GitHub repository [gfreezy/seeker](https://github.com/gfreezy/seeker) is an open-source tool written primarily in Go that implements a transparent proxy using a TUN virtual network interface. It enables seamless routing of network traffic (TCP, UDP, and ICMP/pings) through proxies like Shadowsocks, SOCKS5, or HTTP on macOS and Linux systems. The project emulates Surge's enhanced mode for local traffic interception and gateway mode for proxying devices on a local area network (LAN).
 
 ### Key Features

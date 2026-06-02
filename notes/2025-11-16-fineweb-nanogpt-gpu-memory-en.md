@@ -74,25 +74,25 @@ Many people train this successfully on a single 4090.
 
 ### Key Rules of Thumb for FineWeb + nanoGPT
 
-1. **block_size = 1024** is strongly recommended  
+1. **block_size = 1024** is strongly recommended
    FineWeb was filtered and trained with 1024 context. Using 512 hurts perplexity more than you think.
 
-2. **Effective batch size ≈ 512** is the sweet spot  
+2. **Effective batch size ≈ 512** is the sweet spot
    Original LLaMA used ~4M tokens per batch. For nanoGPT, 512 sequences × 1024 tokens = ~0.5M tokens/batch → close enough scaling law.
 
-3. **Learning rate**  
-   - ~100M params: 6e–8e-4  
-   - ~350M params: 5e–6e-4  
-   - ~770M params: 3e-4  
+3. **Learning rate**
+   - ~100M params: 6e–8e-4
+   - ~350M params: 5e–6e-4
+   - ~770M params: 3e-4
 
-4. **Train for at least 50B tokens** (better 100B+)  
-   With 160M model:  
-   - 50k iters × 32 × 16 × 1024 tokens = ~83B tokens  
+4. **Train for at least 50B tokens** (better 100B+)
+   With 160M model:
+   - 50k iters × 32 × 16 × 1024 tokens = ~83B tokens
    Good convergence.
 
-5. **Use the official FineWeb dataset (not openwebtext)**  
-   Your script is already correct:  
-   FineWeb >> OpenWebText in quality.  
+5. **Use the official FineWeb dataset (not openwebtext)**
+   Your script is already correct:
+   FineWeb >> OpenWebText in quality.
    Use the 100B subset: `fineweb100B` or full `fineweb` (truncated to your disk).
 
 6. **Optional but helpful**

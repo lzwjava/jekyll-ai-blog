@@ -40,6 +40,6 @@ SIB supports standards like JMS 1.1/2.0 and integrates with external systems (e.
 
 **Note**: If you're referring to *IBM Integration Bus* (IIB), that's a distinct product for broader ESB needs and can connect to WAS/SIB but isn't "in" WAS itself.
 
-[Service integration buses - IBM Docs](https://www.ibm.com/docs/en/was/9.0.5?topic=integration-service-buses)  
-[Service integration bus messaging provider - IBM Docs](https://www.ibm.com/docs/en/was-liberty/nd?topic=providers-service-integration-bus-messaging-provider)  
+[Service integration buses - IBM Docs](https://www.ibm.com/docs/en/was/9.0.5?topic=integration-service-buses)
+[Service integration bus messaging provider - IBM Docs](https://www.ibm.com/docs/en/was-liberty/nd?topic=providers-service-integration-bus-messaging-provider)
 [Getting Started with Service Integration Bus](https://www.freekb.net/Article?id=1975)

@@ -20,7 +20,7 @@ In 1990, at age 22, Griffin launched Citadel from his Harvard apartment with $4.
 
 Today, Griffin is one of the wealthiest individuals globally, with a net worth estimated in the tens of billions. He relocated Citadel's headquarters from Chicago to Miami in 2022, citing a desire for a more business-friendly environment. Beyond finance, Griffin is a major donor to Republican causes, education, and medical research, including a $300 million gift to Harvard for financial aid and cancer studies. Known for his low-profile yet influential style, he remains a key figure in Wall Street's evolution through innovation and risk management.
 
-For more details:  
-[Wikipedia: Kenneth C. Griffin](https://en.wikipedia.org/wiki/Kenneth_C._Griffin)  
-[Forbes: Ken Griffin Profile](https://www.forbes.com/profile/ken-griffin/)  
+For more details:
+[Wikipedia: Kenneth C. Griffin](https://en.wikipedia.org/wiki/Kenneth_C._Griffin)
+[Forbes: Ken Griffin Profile](https://www.forbes.com/profile/ken-griffin/)
 [Citadel: Kenneth C. Griffin](https://www.citadel.com/who-we-are/leadership/kenneth-c-griffin/)

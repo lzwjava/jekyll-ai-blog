@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么美国、英国或澳大利亚的经销商/企业主不去华强北 (HQB)？
 
-Answer: 
+Answer:
 
 来自美国、英国和澳大利亚的经销商和企业主确实偶尔会到访深圳华强北 (HQB)，尤其是科技爱好者、硬件 startup、原型设计者（prototypers）或寻求小批量 components 和 gadgets 的人。然而，他们并不是最主要或最显著的国际访客群体，许多来自这些国家的专业进口商更倾向于选择其他的 sourcing 渠道。主要原因如下：
 
@@ -30,10 +30,10 @@ Answer:
 
 总之，虽然华强北在探索和分众 sourcing 方面仍具标志性，但由于市场动态已向追求可靠性、合规性和便利性演变，它不再是大多数成熟西方电子产品进口商的首选。
 
-References:  
+References:
 
-- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)  
-- [Getting Around Huaqiangbei Market - A Simple Guide for 2025](https://owlsourcing.com/huaqiangbei-market/)  
-- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)  
-- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)  
+- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
+- [Getting Around Huaqiangbei Market - A Simple Guide for 2025](https://owlsourcing.com/huaqiangbei-market/)
+- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)
+- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)
 - [Intl. visitors flock to Shenzhen's Huaqiangbei for gadgets](https://www.newsgd.com/node_5c070fdd03/38cd36e6f6.shtml)

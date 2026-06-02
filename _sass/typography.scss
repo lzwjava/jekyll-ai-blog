@@ -3,7 +3,7 @@ body {
     line-height: 1.4;
     background-color: $main-bg-color;
 
-    font-family: Menlo, Monaco, "Helvetica Neue", Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
+    font-family: Menlo, Monaco, "Helvetica Neue", Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif;
 
     @include small {
         // font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;

@@ -209,7 +209,7 @@ class PE extends Module {
   // 寄存输入（流水线阶段）
   val a_reg = RegNext(io.a_in)
   val b_reg = RegNext(io.b_in)
-  
+
   io.a_out := a_reg
   io.b_out := b_reg
   io.c_out := RegNext(io.c_in + (a_reg * b_reg))

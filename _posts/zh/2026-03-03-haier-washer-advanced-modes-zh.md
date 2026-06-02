@@ -11,7 +11,7 @@ type: note
 
 问题：除了 新衣、混合、丝绸、摇篮柔洗 和 定时 之外，Haier 洗衣机上还有哪些其他模式？
 
-回答： 
+回答：
 
 Haier 洗衣机（特别是亚洲/中国常见的 前开门/滚筒 型号）除了您提到的那些之外，还包括许多额外的专业洗涤程序。确切列表因型号系列而异（例如，crystal drum、智能系列，或特定如 HW 或 XQG 系列），但以下是 Haier 洗衣机上最常见的额外模式：
 
@@ -59,7 +59,7 @@ Haier 洗衣机（特别是亚洲/中国常见的 前开门/滚筒 型号）除�
 
 检查您型号的控制面板或用户手册（按型号号在线搜索）以获取确切的图标/名称，因为有些可能合并或重命名。大多数 Haier 洗衣机允许您在基础程序基础上调整温度、脱水速度和额外功能（如额外漂洗或蒸汽）。
 
-参考资料：  
+参考资料：
 
 - [Haier India Blog - Washing Machine Cycles](https://shop.haierindia.com/blog/washing-machine-cycles-best-settings)
 - [Haier Washing Machine Programs Guide](https://guide.washerhouse.com/en/rezhimy-sm-haier)

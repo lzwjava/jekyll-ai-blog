@@ -77,7 +77,7 @@ type: note
 
 如需代码示例或具体实现帮助（如Python实现），请提供更多细节！
 
-**参考资料**  
-[PostgreSQL官方文档：行级安全](https://www.postgresql.org/docs/current/ddl-rowsecurity.html)  
-[LangChain自然语言转SQL教程](https://python.langchain.com/docs/tutorials/sql_qa/)  
+**参考资料**
+[PostgreSQL官方文档：行级安全](https://www.postgresql.org/docs/current/ddl-rowsecurity.html)
+[LangChain自然语言转SQL教程](https://python.langchain.com/docs/tutorials/sql_qa/)
 [Python中防范SQL注入](https://realpython.com/prevent-python-sql-injection/)

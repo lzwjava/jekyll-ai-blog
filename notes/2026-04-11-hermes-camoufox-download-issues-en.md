@@ -11,7 +11,7 @@ type: note
 
 Question: Hermes Camoufox JS download is very slow or stuck during installation. What is the root cause and how to fix it effectively?
 
-Answer: 
+Answer:
 
 Yes, root cause analysis is the smarter long-term approach—randomly trying fixes often wastes time and the problem can return. Based on common reports with Camoufox (an anti-detect Firefox-based browser for automation/scraping, with a JS port via apify/camoufox-js), the slow/stuck download during `camoufox fetch` or similar steps usually stems from network-related issues rather than the tool itself.
 
@@ -56,8 +56,8 @@ For future-proofing: Once installed, updates may re-trigger downloads, so docume
 
 If this doesn't resolve it, share the exact command/output/error for more targeted help.
 
-References:  
-- https://github.com/daijro/camoufox/issues/324 (manual addon download workaround for stuck fetches)  
-- https://github.com/daijro/camoufox/issues/409 (rate limiting on fingerprint downloads)  
-- https://github.com/daijro/camoufox/issues/342 (proxy support requests for fetch)  
+References:
+- https://github.com/daijro/camoufox/issues/324 (manual addon download workaround for stuck fetches)
+- https://github.com/daijro/camoufox/issues/409 (rate limiting on fingerprint downloads)
+- https://github.com/daijro/camoufox/issues/342 (proxy support requests for fetch)
 - Installation guides noting slow/partial downloads on certain networks.

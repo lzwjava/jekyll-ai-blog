@@ -12,7 +12,7 @@ type: note
 
 Question: Why do peeled and sliced sweet potatoes develop many dark spots on the surface that look like oxidation when air-fried, unlike when cooking them whole?
 
-Answer: 
+Answer:
 
 The dark spots you see on the surface of your peeled and sliced sweet potatoes are caused by **oxidation**. This is a natural chemical reaction that happens when the flesh of the sweet potato is exposed to air after peeling and cutting.
 
@@ -25,7 +25,7 @@ During air frying of slices:
 - High heat can accelerate or intensify the darkening in already-oxidized areas.
 - In some cases, overcooking can cause caramelization or slight burning of sugars, leading to darker spots (though you described them as appearing on the surface, likely pre-cooking oxidation).
 
-**Is it safe to eat?**  
+**Is it safe to eat?**
 Yes, these oxidation spots are completely harmless and do not affect taste or safety. You can eat them as is, or cut off the darkened parts if you prefer for appearance.
 
 **How to prevent it next time:**
@@ -37,7 +37,7 @@ Yes, these oxidation spots are completely harmless and do not affect taste or sa
 
 These steps will keep your air-fried sweet potato slices bright orange and free of dark spots.
 
-References:  
+References:
 
 - [https://foodsguy.com/black-spots-sweet-potatoes/](https://foodsguy.com/black-spots-sweet-potatoes/)
 - [https://cooking.stackexchange.com/questions/113146/why-is-my-white-sweet-potato-turning-black](https://cooking.stackexchange.com/questions/113146/why-is-my-white-sweet-potato-turning-black)

@@ -214,8 +214,8 @@ def main():
         for update in updates:
             if update['update_id'] > max_update_id:
                 max_update_id = update['update_id']
-            if ('message' in update and 
-                update['message'].get('text', '').lower() == 'punch' and 
+            if ('message' in update and
+                update['message'].get('text', '').lower() == 'punch' and
                 str(update['message']['chat']['id']) == TELEGRAM_CHAT_ID):
                 # Process "punch" message
                 if window == 'punch_in':

@@ -74,7 +74,7 @@ public class Checksum {
         ArgumentParser parser = ArgumentParsers.newFor("Checksum").build()
             .defaultHelp(true)
             .description("Calculate checksum of given files.");
-        
+
         parser.addArgument("-t", "--type")
             .choices("SHA-256", "SHA-512", "SHA1").setDefault("SHA-256")
             .help("Specify hash function to use");

@@ -18,7 +18,7 @@ Answer:
 
 ### Basic Information
 - **Chinese title**: 孔雀东南飞 (Kǒngquè Dōngnán Fēi)
-- **Alternative titles**: 
+- **Alternative titles**:
   - 古诗为焦仲卿妻作 (The Ancient Poem Written for Jiao Zhongqing's Wife)
   - 焦仲卿妻 (Lady of Jiao Zhongqing)
 - **Length**: 约355–357 lines (depending on edition), roughly 1,700–1,800 Chinese characters
@@ -35,18 +35,18 @@ The poem tells a tragic love story between **Jiao Zhongqing** (焦仲卿), a min
 - Rather than remarry or live without her husband, Liu Lanzhi commits suicide by drowning herself in a lake.
 - When Jiao Zhongqing learns of her death, he hangs himself from a tree in the courtyard so they can be together in death.
 - The poem ends with the famous romantic-tragic image:
-  > 两家求合葬，相去不盈尺。  
-  > 东西植松柏，南北种梧桐。  
-  > 枝枝相覆盖，叶叶相交通。  
-  > 中有双飞鸟，自名为鸳鸯。  
-  > 仰头相向鸣，夜夜达五更。  
-  > 行人驻足听，寡妇起彷徨。  
+  > 两家求合葬，相去不盈尺。
+  > 东西植松柏，南北种梧桐。
+  > 枝枝相覆盖，叶叶相交通。
+  > 中有双飞鸟，自名为鸳鸯。
+  > 仰头相向鸣，夜夜达五更。
+  > 行人驻足听，寡妇起彷徨。
   > 多谢后世人，慎勿忘斯篇！
 
-  (The two families request to bury them together; the graves are less than a foot apart.  
-  East and west they plant cypresses, north and south they plant plane trees.  
-  Branches cover each other, leaves touch one another.  
-  Among them a pair of birds fly, calling themselves mandarin ducks.  
+  (The two families request to bury them together; the graves are less than a foot apart.
+  East and west they plant cypresses, north and south they plant plane trees.
+  Branches cover each other, leaves touch one another.
+  Among them a pair of birds fly, calling themselves mandarin ducks.
   They face each other and sing, every night until the fifth watch…)
 
 ### Literary Significance
@@ -56,7 +56,7 @@ The poem tells a tragic love story between **Jiao Zhongqing** (焦仲卿), a min
 - Frequently called **“长篇叙事诗的双璧”** (the twin jewels of long narrative poetry) together with **《木兰辞》**.
 - Deeply influenced later Chinese literature, especially Tang-Song chuanqi, Yuan zaju, Ming-Qing novels, and countless regional operas (most famously the Huangmei opera **《天仙配》** storyline draws from similar tragic love themes).
 
-In short:  
+In short:
 **孔雀东南飞** is both a heartbreaking love tragedy and one of the greatest masterpieces of early Chinese narrative poetry — often summarized as **“中国古代最长、最完整的爱情悲剧叙事诗”**.
 
 References:

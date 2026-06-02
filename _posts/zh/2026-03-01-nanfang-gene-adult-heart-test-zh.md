@@ -15,20 +15,20 @@ type: note
 
 **覆盖内容：**
 
-1. **心脑血管疾病（Cardiovascular and cerebrovascular diseases）**：  
-   评估以下常见疾病的遗传风险或易感性：  
-   - 高血压（High blood pressure / hypertension）  
-   - 冠心病（Coronary heart disease）  
-   - 脑梗塞（Cerebral infarction / ischemic stroke）  
-   - 脑溢血（Cerebral hemorrhage）  
-   - 心肌梗死（Myocardial infarction / heart attack）  
+1. **心脑血管疾病（Cardiovascular and cerebrovascular diseases）**：
+   评估以下常见疾病的遗传风险或易感性：
+   - 高血压（High blood pressure / hypertension）
+   - 冠心病（Coronary heart disease）
+   - 脑梗塞（Cerebral infarction / ischemic stroke）
+   - 脑溢血（Cerebral hemorrhage）
+   - 心肌梗死（Myocardial infarction / heart attack）
 
    通常通过针对特定基因变异（SNPs 或 polymorphisms）的基因检测完成，这些变异与中国或亚洲人群中这些疾病风险增加相关。根据您的 DNA，提供风险评估（例如，与一般人群相比，遗传风险更高/平均/更低）。
 
-2. **健康建议和指导（Health suggestions and guidance）**：  
-   基因结果分析后，报告包含个性化健康推荐，可能包括：  
-   - 生活方式建议（饮食、运动、体重管理、戒烟限酒）  
-   - 根据您的遗传风险量身定制的预防措施（例如，高血压风险高时更频繁监测血压）  
+2. **健康建议和指导（Health suggestions and guidance）**：
+   基因结果分析后，报告包含个性化健康推荐，可能包括：
+   - 生活方式建议（饮食、运动、体重管理、戒烟限酒）
+   - 根据您的遗传风险量身定制的预防措施（例如，高血压风险高时更频繁监测血压）
    - 减少心脑血管问题可修改风险因素的通用指导。
 
 **关于此检测的关键点：**
@@ -42,8 +42,8 @@ type: note
 
 如果您考虑添加此项（例如，代替或与 Ikang 套餐 C 结合），请检查您的体检中心是否允许组合或单独购买——此类基因面板有时作为附加项目。
 
-**参考资料：**  
+**参考资料：**
 
-- [德州天瑞体检中心项目描述](http://m.tijian123.com/hospital/taocanshow_11374_10654.html)  
-- [淄博天瑞体检中心套餐信息](https://weixin.zgui.com/zibo/zbtrtj/cp_2)  
+- [德州天瑞体检中心项目描述](http://m.tijian123.com/hospital/taocanshow_11374_10654.html)
+- [淄博天瑞体检中心套餐信息](https://weixin.zgui.com/zibo/zbtrtj/cp_2)
 - [山东齐都医院体检中心参考](https://weixin.zgui.com/zibo/sdqd)

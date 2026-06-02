@@ -32,7 +32,7 @@ type: note
 
 若以上未完全解答你的疑问（你的问题带有诗意的意识流风格），欢迎进一步澄清！目前我的结论是：那些应用背后的工程师和IT工作者，确实往往体现着更日常的诚实与善良，只因他们的世界奖励静默的专业能力而非征服欲。
 
-**参考资料**  
-[盖洛普职业诚实与道德民调](https://news.gallup.com/poll/1654/honesty-ethics-professions.aspx)  
-[ACM计算专业道德准则](https://www.acm.org/code-of-ethics)  
+**参考资料**
+[盖洛普职业诚实与道德民调](https://news.gallup.com/poll/1654/honesty-ethics-professions.aspx)
+[ACM计算专业道德准则](https://www.acm.org/code-of-ethics)
 [老子《道德经》英译本](https://terebess.hu/english/tao/gia.html)

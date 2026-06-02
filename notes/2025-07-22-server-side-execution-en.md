@@ -82,10 +82,10 @@ Integrate this with your chatbot: The AI generates code based on user input, cal
 
 This approach can make chatbots much faster and more capable, especially for computational tasks. If you're implementing this, consider starting with OpenAI or Gemini's built-in features for quick wins.
 
-[Building a Sandboxed Environment for AI generated Code Execution](https://anukriti-ranjan.medium.com/building-a-sandboxed-environment-for-ai-generated-code-execution-e1351301268a)  
-[substratusai/sandboxai: Run AI generated code in isolated sandboxes](https://github.com/substratusai/sandboxai)  
-[Build AI data analyst with sandboxed code execution using TS ... - E2B](https://e2b.dev/blog/build-ai-data-analyst-with-sandboxed-code-execution-using-typescript-and-gpt-4o)  
-[Code execution | Gemini API](https://ai.google.dev/gemini-api/docs/code-execution)  
-[Assistants Code Interpreter - OpenAI API](https://platform.openai.com/docs/assistants/tools/code-interpreter)  
-[Modal Sandboxes](https://modal.com/use-cases/sandboxes)  
+[Building a Sandboxed Environment for AI generated Code Execution](https://anukriti-ranjan.medium.com/building-a-sandboxed-environment-for-ai-generated-code-execution-e1351301268a)
+[substratusai/sandboxai: Run AI generated code in isolated sandboxes](https://github.com/substratusai/sandboxai)
+[Build AI data analyst with sandboxed code execution using TS ... - E2B](https://e2b.dev/blog/build-ai-data-analyst-with-sandboxed-code-execution-using-typescript-and-gpt-4o)
+[Code execution | Gemini API](https://ai.google.dev/gemini-api/docs/code-execution)
+[Assistants Code Interpreter - OpenAI API](https://platform.openai.com/docs/assistants/tools/code-interpreter)
+[Modal Sandboxes](https://modal.com/use-cases/sandboxes)
 [Optimizing AI chatbot performance with New Relic AI monitoring](https://newrelic.com/blog/how-to-relic/optimizing-ai-chatbot-performance)

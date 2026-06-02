@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about Chez Scheme?
 
-Answer: 
+Answer:
 
 Chez Scheme, a high-performance dialect of Scheme known for its native-code compiler and speed, elicits a range of opinions from the programming community. While it's widely praised for its efficiency, some views challenge the hype, focusing on usability, ecosystem, and long-term viability. Based on discussions in forums like Reddit and Racket user groups, here are several unpopular opinions:
 
@@ -28,10 +28,10 @@ Chez Scheme, a high-performance dialect of Scheme known for its native-code comp
 
 These opinions highlight a tension: Chez shines in benchmarks and low-level control but lags in accessibility and ecosystem support. If you're exploring Scheme, pairing it with Racket might mitigate some issues.
 
-References:  
-- [Chez Scheme vs Guile Scheme](https://www.reddit.com/r/lisp/comments/r47z2k/chez_scheme_vs_guile_scheme/)  
-- [Beautiful Racket: Thoughts on Racket & Chez Scheme](https://beautifulracket.com/appendix/racket-and-chez-scheme.html)  
-- [Why is Chez Scheme Fast?](https://www.reddit.com/r/scheme/comments/hgzluo/why_is_chez_scheme_fast/)  
-- [What is your preferred Scheme environment and why?](https://www.reddit.com/r/scheme/comments/1fxorsj/what_is_your_preferred_scheme_environment_and_why/)  
-- [Some concern about ChezScheme...](https://groups.google.com/g/racket-users/c/LecJuyjg15U/m/mhBKVdLmFgAJ)  
+References:
+- [Chez Scheme vs Guile Scheme](https://www.reddit.com/r/lisp/comments/r47z2k/chez_scheme_vs_guile_scheme/)
+- [Beautiful Racket: Thoughts on Racket & Chez Scheme](https://beautifulracket.com/appendix/racket-and-chez-scheme.html)
+- [Why is Chez Scheme Fast?](https://www.reddit.com/r/scheme/comments/hgzluo/why_is_chez_scheme_fast/)
+- [What is your preferred Scheme environment and why?](https://www.reddit.com/r/scheme/comments/1fxorsj/what_is_your_preferred_scheme_environment_and_why/)
+- [Some concern about ChezScheme...](https://groups.google.com/g/racket-users/c/LecJuyjg15U/m/mhBKVdLmFgAJ)
 - [Best Scheme for my (rather specific) needs?](https://www.reddit.com/r/scheme/comments/1kgz9qo/best_scheme_for_my_rather_specific_needs/)

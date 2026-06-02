@@ -12,7 +12,7 @@ type: note
 
 Question: IELTS China 系统退款需要多长时间？
 
-Answer: 
+Answer:
 
 在中国大陆，IELTS 考试通过 NEEA (National Education Examinations Authority) 系统进行管理，官方网站为 ielts.neea.cn 或 ielts-main.neea.cn，通常由 British Council 合作运营。
 
@@ -33,7 +33,7 @@ Answer:
 
 以上信息基于中国 IELTS 官方及考生反馈。
 
-References:  
+References:
 
 - [Zhihu discussion on IELTS refund in China](https://www.zhihu.com/question/402832770)
 - [Zhan.com IELTS refund process](http://ielts.zhan.com/tifen/21270.html)

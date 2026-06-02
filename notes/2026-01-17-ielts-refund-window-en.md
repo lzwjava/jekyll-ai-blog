@@ -12,7 +12,7 @@ type: note
 
 Question: How long does the IELTS China system take to refund the money?
 
-Answer: 
+Answer:
 
 In mainland China, IELTS tests are managed through the NEEA (National Education Examinations Authority) system at ielts.neea.cn or ielts-main.neea.cn, often in partnership with the British Council.
 
@@ -33,7 +33,7 @@ Since your application was on January 13, 2026, and it's now mid-January, the st
 
 This is based on official and candidate-reported information for IELTS in China.
 
-References:  
+References:
 
 - [Zhihu discussion on IELTS refund in China](https://www.zhihu.com/question/402832770)
 - [Zhan.com IELTS refund process](http://ielts.zhan.com/tifen/21270.html)

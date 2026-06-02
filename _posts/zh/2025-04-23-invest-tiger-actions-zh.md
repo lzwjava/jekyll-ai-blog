@@ -101,7 +101,7 @@ on:
   schedule:
     - cron: '35 14 * * 3'  # 每周三UTC时间14:35运行
   workflow_dispatch:
-    
+
 concurrency:
   group: 'trading'
   cancel-in-progress: false
@@ -119,22 +119,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 5
-          
+
       - name: 设置Python 3.13.2
         uses: actions/setup-python@v4
         with:
           python-version: "3.13.2"
-          
+
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       - name: 设置Tiger PEM文件
         run: |
           echo "${{ secrets.TIGER_PEM_CONTENT }}" > tiger.pem
           chmod 600 tiger.pem
-          
+
       - name: 运行Tiger脚本
         id: tiger_update
         run: python invest.py

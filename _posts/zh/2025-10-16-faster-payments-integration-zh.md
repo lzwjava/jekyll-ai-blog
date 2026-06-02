@@ -22,7 +22,7 @@ type: note
 
 关于详细技术规范，银行须在注册后直接联系HKICL获取，因相关文件不对外公开下载。
 
-[快速支付系统（FPS） - 香港金融管理局](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/financial-market-infrastructure/faster-payment-system-fps/)  
-[计划文件 - HKICL FPS](https://fps.hkicl.com.hk/eng/fps/about_fps/scheme_documentation.php)  
-[世界银行FPS案例研究：香港](https://fastpayments.worldbank.org/sites/default/files/2021-09/World_Bank_FPS_Hong_Kong_SAR_China_FPS_Case_Study.pdf)  
+[快速支付系统（FPS） - 香港金融管理局](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/financial-market-infrastructure/faster-payment-system-fps/)
+[计划文件 - HKICL FPS](https://fps.hkicl.com.hk/eng/fps/about_fps/scheme_documentation.php)
+[世界银行FPS案例研究：香港](https://fastpayments.worldbank.org/sites/default/files/2021-09/World_Bank_FPS_Hong_Kong_SAR_China_FPS_Case_Study.pdf)
 [银行业开放API框架 - 香港金融管理局](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/open-application-programming-interface-api-for-the-banking-sector/)

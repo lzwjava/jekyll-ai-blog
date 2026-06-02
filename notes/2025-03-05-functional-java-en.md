@@ -119,7 +119,7 @@ public class Main {
     }
 }
 ```
-- **Explanation**: 
+- **Explanation**:
   - `filter` uses a `Predicate` to keep strings with length > 2.
   - `map` uses a `Function` to transform strings to uppercase.
   - `forEach` uses a `Consumer` to print each result.

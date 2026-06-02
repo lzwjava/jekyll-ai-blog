@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which component is recommended for displaying a scrollable list of items in modern Android apps?  
-A) ListView  
-B) GridView  
-C) RecyclerView  
+Question: Which component is recommended for displaying a scrollable list of items in modern Android apps?
+A) ListView
+B) GridView
+C) RecyclerView
 D) ScrollView
 
-Answer: 
+Answer:
 
 **C) RecyclerView**
 
@@ -35,7 +35,7 @@ RecyclerView is the recommended component for displaying a scrollable list of it
 
 Official Android documentation recommends RecyclerView for all new list/grid implementations.
 
-References:  
-- [https://developer.android.com/develop/ui/views/layout/recyclerview](https://developer.android.com/develop/ui/views/layout/recyclerview)  
-- [https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)  
+References:
+- [https://developer.android.com/develop/ui/views/layout/recyclerview](https://developer.android.com/develop/ui/views/layout/recyclerview)
+- [https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)
 - [https://developer.android.com/guide/topics/ui/layout/recyclerview](https://developer.android.com/guide/topics/ui/layout/recyclerview)

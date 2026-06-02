@@ -23,7 +23,7 @@ type: note
 
 ### Usage in Hong Kong
 * **Availability:** FxPro currently accepts residents of Hong Kong. When you register, the system typically assigns your account to a specific global subsidiary (such as FxPro Global Markets Ltd) depending on your residency.
-* **Regulation Note:** While FxPro is a globally regulated entity (FCA in the UK, CySEC in Cyprus, etc.), it is important to note that it **does not hold a local license** from the Hong Kong Securities and Futures Commission (SFC). Instead, it operates in the region as an offshore broker. 
+* **Regulation Note:** While FxPro is a globally regulated entity (FCA in the UK, CySEC in Cyprus, etc.), it is important to note that it **does not hold a local license** from the Hong Kong Securities and Futures Commission (SFC). Instead, it operates in the region as an offshore broker.
 * **Access:** You can access it via the official website (`direct.fxpro.com`) or by downloading the **FxPro App** from the App Store or Google Play.
 
 Would you like me to look up the current deposit/withdrawal methods specifically available for users in the Hong Kong region?

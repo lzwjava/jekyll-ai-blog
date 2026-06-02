@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Steve Cohen.
 
-Answer: 
+Answer:
 
 **Steve Cohen**（全名：Steven A. Cohen）是一位美国亿万富翁 Hedge Fund 经理、投资者、慈善家及职业球队所有者。他被广泛认为是现代 Wall Street 历史上最成功且最具影响力的人物之一，以其激进的交易风格、卓越的业绩纪录以及创造高额回报的能力而闻名。
 
@@ -62,7 +62,7 @@ Answer:
 
 Cohen 的职业生涯结合了传奇般的投资业绩与争议，以及非凡的韧性，并成功将领域扩展至体育管理和慈善事业。
 
-References:  
+References:
 
 - [Steve Cohen (businessman) - Wikipedia](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman))
 - [Steve Cohen - Forbes](https://www.forbes.com/profile/steve-cohen)

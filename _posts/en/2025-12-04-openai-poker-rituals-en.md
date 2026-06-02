@@ -12,7 +12,7 @@ type: note
 
 Question: In a recent interview or podcast, Mark Chen from OpenAI mentioned that he and 3 or 5 people from the OpenAI GPU team often play poker; what are the details? Also, provide more examples of tech leaders who enjoy poker or other mind games.
 
-Answer: 
+Answer:
 
 ### Details on Mark Chen's Poker Mention
 Mark Chen, OpenAI's Chief Research Officer (and former competitive coder and high-frequency trader), has indeed discussed his interest in poker in recent interviews, though the specific anecdote about playing regularly with 3–5 colleagues from OpenAI's GPU team (the hardware/infrastructure group focused on scaling compute resources) appears in a December 2025 profile/interview by tech journalist Ashlee Vance. This piece, tied to Vance's forthcoming 2026 book on OpenAI (with movie rights already sold), provides rare internal glimpses into OpenAI's culture amid intense competition from Google's Gemini 3.
@@ -36,12 +36,12 @@ Poker and strategic "mind games" (e.g., chess, Go) are popular among tech execs 
 
 These habits often spill into work: Musk's gaming informs Tesla's FSD simulations, while Hassabis's board games drove DeepMind's 2025 breakthroughs in multi-modal reasoning. Poker, in particular, symbolizes the "calculated gambles" of AI scaling, as Chen echoes.
 
-[References:  
-- [OpenAI Code Red: Mark Chen Profile (Binaryverse AI)](https://binaryverseai.com/openai-code-red-gemini-3-panic-mark-chen-ads/)  
-- [r/singularity: Mark Chen on Gemini 3 (Reddit)](https://www.reddit.com/r/singularity/comments/1pbvgho/openais_mark_chen_reaction_to_gemini_3/)  
-- [How Sam Altman Used Poker Winnings (Cryptopolitan)](https://www.cryptopolitan.com/how-sam-altman-microsoft-apple-nvidia-openai/)  
-- [Elon Musk Poker with Ellison (Various Bios)](https://www.theguardian.com/technology/2025/jan/22/trump-ai-investment-tech-ceos)  
-- [Zuckerberg Poker Nights (Meta Histories)](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)  
-- [Nadella on Poker Mindset (Business Standard)](https://www.business-standard.com/technology/tech-news/how-microsoft-s-satya-nadella-became-tech-industry-s-steely-eyed-ai-gambler-124071601381_1.html)  
-- [Hassabis Chess/Go (DeepMind Profiles)](https://northwest.education/insights/innovation/10-influential-leaders-in-technology-innovation-to-follow/)  
+[References:
+- [OpenAI Code Red: Mark Chen Profile (Binaryverse AI)](https://binaryverseai.com/openai-code-red-gemini-3-panic-mark-chen-ads/)
+- [r/singularity: Mark Chen on Gemini 3 (Reddit)](https://www.reddit.com/r/singularity/comments/1pbvgho/openais_mark_chen_reaction_to_gemini_3/)
+- [How Sam Altman Used Poker Winnings (Cryptopolitan)](https://www.cryptopolitan.com/how-sam-altman-microsoft-apple-nvidia-openai/)
+- [Elon Musk Poker with Ellison (Various Bios)](https://www.theguardian.com/technology/2025/jan/22/trump-ai-investment-tech-ceos)
+- [Zuckerberg Poker Nights (Meta Histories)](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)
+- [Nadella on Poker Mindset (Business Standard)](https://www.business-standard.com/technology/tech-news/how-microsoft-s-satya-nadella-became-tech-industry-s-steely-eyed-ai-gambler-124071601381_1.html)
+- [Hassabis Chess/Go (DeepMind Profiles)](https://northwest.education/insights/innovation/10-influential-leaders-in-technology-innovation-to-follow/)
 - [Thiel & Hoffman Poker (Zero to One Excerpts)](https://www.linkedin.com/in/markchen90/)]

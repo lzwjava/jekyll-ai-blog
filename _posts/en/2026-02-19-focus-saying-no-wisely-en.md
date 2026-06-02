@@ -11,7 +11,7 @@ type: note
 
 Question: How can I understand Steve Jobs' quote about focus being about saying no to one hundred things?
 
-Answer: 
+Answer:
 
 ## The Full Quote and Context
 
@@ -48,7 +48,7 @@ Jobs emphasized: "You've got to start with the customer experience and work back
 
 In an era of endless notifications, side projects, and "hustle culture," Jobs' insight is more relevant than ever. Saying no isn't negativity—it's the foundation of excellence. As he put it: "The result of that focus is going to be some really great products where the total is much greater than the sum of the parts." [[19]]
 
-References:  
+References:
 
 - [https://rowansimpson.com/quotes/focus/](https://rowansimpson.com/quotes/focus/)
 - [https://sebastiaanvanderlans.com/steve-jobs-wwdc-1997/](https://sebastiaanvanderlans.com/steve-jobs-wwdc-1997/)

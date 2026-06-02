@@ -20,6 +20,6 @@ Relative humidity (RH) is a measure of the amount of water vapor (moisture) pres
 In everyday terms, low RH (like in dry deserts) can make skin and eyes feel parched, while high RH (like in tropical areas) promotes discomfort and mold growth.
 
 ### References:
-[Humidity - Wikipedia](https://en.wikipedia.org/wiki/Humidity)  
-[Discussion on Humidity - National Weather Service](https://www.weather.gov/lmk/humidity)  
+[Humidity - Wikipedia](https://en.wikipedia.org/wiki/Humidity)
+[Discussion on Humidity - National Weather Service](https://www.weather.gov/lmk/humidity)
 [Relative Humidity – What Is It And Why Is It Important? - Vaisala](https://www.vaisala.com/en/blog/2018-10/relative-humidity-what-it-and-why-it-important)

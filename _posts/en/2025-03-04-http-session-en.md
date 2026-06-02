@@ -47,14 +47,14 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class SetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         // Get the session (creates one if it doesn’t exist)
         HttpSession session = request.getSession();
-        
+
         // Set a session attribute
         session.setAttribute("username", "Alice");
-        
+
         // Respond to the client
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
@@ -84,18 +84,18 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class GetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         // Get the session (returns null if no session exists)
         HttpSession session = request.getSession(false);
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        
+
         if (session != null) {
             // Retrieve the session attribute
             String username = (String) session.getAttribute("username");
-            
+
             if (username != null) {
                 out.println("Session value retrieved: username = " + username);
             } else {
@@ -126,11 +126,11 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class SetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         HttpSession session = request.getSession();
         session.setAttribute("user", "Bob");
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("User set in session: Bob");
@@ -145,13 +145,13 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class GetSessionServlet extends HttpServlet {
-    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         HttpSession session = request.getSession(false);
-        
+
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        
+
         if (session != null && session.getAttribute("user") != null) {
             String user = (String) session.getAttribute("user");
             out.println("Welcome back, " + user);

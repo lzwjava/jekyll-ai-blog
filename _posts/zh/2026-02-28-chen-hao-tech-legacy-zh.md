@@ -36,7 +36,7 @@ Chen Hao 大约从 2003 年开始在线分享技术文章（最初在 CSDN 上�
 
 2023 年他去世后，社区广泛哀悼他——他被铭记为“technical evangelist”、众多开发者的导师，以及中国最具影响力的独立技术博主之一。该博客作为宝贵档案仍在线上。
 
-参考资料：  
+参考资料：
 
 - [https://coolshell.cn/](https://coolshell.cn/)
 - [https://coolshell.cn/haoel](https://coolshell.cn/haoel)

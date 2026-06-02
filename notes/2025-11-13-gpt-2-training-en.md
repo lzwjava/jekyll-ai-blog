@@ -25,8 +25,8 @@ Similar to GPT-3.5, training involves more than raw FLOPs:
 
 For hands-on experiments, start with fine-tuning pre-trained GPT-2 or training even smaller models—these are doable on a 4070 Ti in hours to days.
 
-[Why didn’t we get GPT-2 in 2005?](https://dynomight.net/gpt-2/)  
-[The FLOPs Calculus of Language Model Training](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)  
-[Training a compute-optimal gpt2-small](https://tomekkorbak.com/2022/10/10/compute-optimal-gpt2/)  
-[An empirical analysis of compute-optimal large language model training](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/)  
+[Why didn’t we get GPT-2 in 2005?](https://dynomight.net/gpt-2/)
+[The FLOPs Calculus of Language Model Training](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)
+[Training a compute-optimal gpt2-small](https://tomekkorbak.com/2022/10/10/compute-optimal-gpt2/)
+[An empirical analysis of compute-optimal large language model training](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/)
 [GPT-2 - Wikipedia](https://en.wikipedia.org/wiki/GPT-2)

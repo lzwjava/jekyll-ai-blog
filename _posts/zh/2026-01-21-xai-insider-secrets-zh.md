@@ -12,7 +12,7 @@ type: note
 
 Question: Sulaiman Ghori 在播客中关于 xAI 说了什么？
 
-Answer: 
+Answer:
 
 xAI 的前 Member of Technical Staff，Sulaiman Ghori，参加了由 Ti Morse 主持的名为“Relentless”的播客，该集标题为“WTF is happening at xAI”，发布于 2026 年 1 月 15 日左右。在约 1 小时 11 分钟的访谈中，他提供了关于 xAI 文化、运营、项目以及与 Elon Musk 共事的罕见内部见解。他讨论的核心点包括：
 
@@ -32,7 +32,7 @@ xAI 的前 Member of Technical Staff，Sulaiman Ghori，参加了由 Ti Morse �
 
 Ghori 对这种高度信任、无官僚主义的环境给予了正面评价，尽管他在访谈后不久离开了 xAI（2026 年 1 月 19 日宣布，并表示对团队只有“爱”），这引发了关于这次坦率的访谈导致他离职的猜测（虽未证实）。
 
-References:  
+References:
 
 - [YouTube: WTF is happening at xAI | Sulaiman Ghori](https://www.youtube.com/watch?v=8jN60eJr4Ps)
 - [Business Insider: 10 quotes about xAI and Elon Musk from the engineer who is out days after giving a sweeping podcast interview](https://www.businessinsider.com/xai-engineer-sulaiman-ghori-leaves-company-relentless-podcast-elon-musk-2026-1)

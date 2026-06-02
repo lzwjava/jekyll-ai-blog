@@ -19,10 +19,10 @@ type: post
 
 终于在晚上8点左右，机器恢复正常。整个过程让我联想到软件开发——事后回想，这些问题其实都很自然合理。它们只是超出了我们的预期，但完全符合材料和时间的客观规律。
 
-{: .centered }  
-![](assets/images/dishwasher/d1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/dishwasher/d1.jpg){: .responsive }
 *图片来源：自行拍摄*{: .caption }
 
-{: .centered }  
-![](assets/images/dishwasher/d2.jpg){: .responsive }  
+{: .centered }
+![](assets/images/dishwasher/d2.jpg){: .responsive }
 *图片来源：自行拍摄*{: .caption }

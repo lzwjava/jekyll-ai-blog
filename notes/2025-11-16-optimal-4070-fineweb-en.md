@@ -54,8 +54,8 @@ compile = True                     # PyTorch 2.0 compile, works great on 4070
 
 - Your one parquet has ~6.5 billion tokens (measured by the community).
 - With `batch_size=12`, `grad_acc=40`, `block_size=1024` → **~491k tokens per optimizer step**
-- To see all ~6.5B tokens **13–15 times** (best practice for small datasets):  
-  → 6.5B × 14 ≈ 91B tokens total → ~185,000 iterations  
+- To see all ~6.5B tokens **13–15 times** (best practice for small datasets):
+  → 6.5B × 14 ≈ 91B tokens total → ~185,000 iterations
   → so `max_iters = 250000` gives you ~15–16 full epochs → perfect convergence
 
 ### Expected Training Time on 4070

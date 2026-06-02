@@ -19,7 +19,7 @@ Yes, you're spot on—WeChat has become a massive hub for business, networking, 
 
 ### Practical Tips to Add More "Mutual Respect" Contacts
 1. **Leverage Your Existing Circle**: Start with people you already know—colleagues, friends-of-friends, or even casual acquaintances from work events. Ask for warm intros: "Hey, I met [mutual friend] at that conference—mind if I add you on WeChat?"
-   
+
 2. **Meet in Real Life (IRL) First**:
    - **Friend Circles and Events**: Join local meetups via apps like Meetup, Douban, or even WeChat groups for offline gatherings. Attend industry talks, markets, or community events where you can chat naturally before scanning QR codes.
    - **Diverse Groups**: Target street food scenes (chat with vendors while grabbing a snack—they often have vast local networks), office happy hours, or hobby communities (e.g., photography clubs, fitness groups, or language exchanges). Aim for 1-2 new connections per week to keep it organic.

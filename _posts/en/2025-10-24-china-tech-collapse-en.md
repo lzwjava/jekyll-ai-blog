@@ -44,10 +44,10 @@ This "dead" ecosystem hampers innovation—fewer launches mean less experimentat
 
 For founders: Prioritize validated demand, lean GTM, and regulatory compliance early. China's pivot to "high-quality" growth may revive things by 2026, but expect more pain short-term.
 
-**References**  
-- [The Fall of China's Startup Scene](https://www.linkedin.com/pulse/fall-chinas-startup-scene-lesson-entrepreneurs-everywhere-isa-arad-rwokc)  
-- [China's startup scene is dead as investors pull out](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)  
-- [China's startup ecosystem is dead](https://sherwood.news/tech/chinas-startup-ecosystem-is-dead/)  
-- [Chinese startups suffer as IPO freeze prompts investors to exercise redemption rights](https://www.reuters.com/markets/asia/chinese-startups-suffer-ipo-freeze-prompts-investors-exercise-redemption-rights-2024-11-25/)  
-- [Why are there no massive Chinese SaaS companies?](https://lillianli.substack.com/p/why-are-there-no-massive-chinese)  
+**References**
+- [The Fall of China's Startup Scene](https://www.linkedin.com/pulse/fall-chinas-startup-scene-lesson-entrepreneurs-everywhere-isa-arad-rwokc)
+- [China's startup scene is dead as investors pull out](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)
+- [China's startup ecosystem is dead](https://sherwood.news/tech/chinas-startup-ecosystem-is-dead/)
+- [Chinese startups suffer as IPO freeze prompts investors to exercise redemption rights](https://www.reuters.com/markets/asia/chinese-startups-suffer-ipo-freeze-prompts-investors-exercise-redemption-rights-2024-11-25/)
+- [Why are there no massive Chinese SaaS companies?](https://lillianli.substack.com/p/why-are-there-no-massive-chinese)
 - [China SaaS Market Entry Challenges](https://acadiaadvisory.com/china-saas-market-entry-challenges/)

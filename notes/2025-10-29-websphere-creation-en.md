@@ -34,5 +34,5 @@ AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 
 This creates a basic application server on the specified node. For more options (e.g., ports, JVM settings), refer to the full AdminTask documentation.
 
-[ServerManagement command group for the AdminTask object](https://www.ibm.com/docs/en/was-nd/9.0.5?topic=scripting-servermanagement-command-group-admintask-object)  
+[ServerManagement command group for the AdminTask object](https://www.ibm.com/docs/en/was-nd/9.0.5?topic=scripting-servermanagement-command-group-admintask-object)
 [Creating a server using scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-creating-server-using)

@@ -59,4 +59,3 @@ type: post
 - Even with mortgage debt, if there is stable income, it’s still worth allocating a fixed amount each year for long-term investing — mainly to build habit, learning, and long-term thinking.
 
 - Without continuous investing, we lose care and sensitivity to the market.
-

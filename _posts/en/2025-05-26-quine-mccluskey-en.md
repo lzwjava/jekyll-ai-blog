@@ -39,7 +39,7 @@ The **Quine-McCluskey** method is a systematic algorithm used in **digital elect
 ### Example:
 For a Boolean function with minterms (0, 1, 2, 5, 7) for three variables A, B, C:
 - Minterms in binary: 000, 001, 010, 101, 111.
-- Group by number of 1s: 
+- Group by number of 1s:
   - 0 ones: 000
   - 1 one: 001, 010
   - 2 ones: 101

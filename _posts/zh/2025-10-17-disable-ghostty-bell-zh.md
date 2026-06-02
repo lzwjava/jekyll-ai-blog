@@ -43,5 +43,5 @@ type: note
 
 可以通过运行触发响铃的命令进行测试，例如 `echo -e '\a'`。
 
-[Ghostty 配置参考](https://ghostty.org/docs/config/reference)  
+[Ghostty 配置参考](https://ghostty.org/docs/config/reference)
 [Ghostty 响铃功能讨论](https://github.com/ghostty-org/ghostty/discussions/3242)

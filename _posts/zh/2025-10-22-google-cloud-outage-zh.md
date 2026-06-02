@@ -74,8 +74,8 @@ Google发布详细事后分析报告，重点强调韧性建设：
 
 这些措施旨在预防类似事件，目前正持续对配额系统进行审计。
 
-[Google Cloud事件报告](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)  
-[ThousandEyes中断分析](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)  
-[Ookla Downdetector报告](https://www.ookla.com/articles/google-cloud-outage-june-2025)  
-[ByteByteGo技术解析](https://blog.bytebytego.com/p/how-the-google-cloud-outage-crashed)  
+[Google Cloud事件报告](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)
+[ThousandEyes中断分析](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)
+[Ookla Downdetector报告](https://www.ookla.com/articles/google-cloud-outage-june-2025)
+[ByteByteGo技术解析](https://blog.bytebytego.com/p/how-the-google-cloud-outage-crashed)
 [Medium根本原因解读](https://medium.com/@tahirbalarabe2/%EF%B8%8Fhow-a-single-google-cloud-bug-caused-global-internet-outage-on-june-12-2025-652a83ad9e68)

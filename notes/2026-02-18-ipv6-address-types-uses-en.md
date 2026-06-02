@@ -11,7 +11,7 @@ type: note
 
 Question: What are IPv6 unicast, multicast, and anycast addresses used for?
 
-Answer: 
+Answer:
 
 Each IPv6 address type serves distinct networking purposes:
 
@@ -64,7 +64,7 @@ Each IPv6 address type serves distinct networking purposes:
 
 > 💡 **Important**: IPv6 eliminates broadcast addresses entirely. Multicast addresses handle all former broadcast use cases more efficiently by allowing targeted group communication.
 
-References:  
+References:
 
 - [RFC 4291 - IPv6 Addressing Architecture](https://datatracker.ietf.org/doc/html/rfc4291)
 - [Cisco - IPv6 Address Types Explained](https://www.cisco.com/c/en/us/support/docs/ip/ipv6/29199-ipv6-faq-29199.html)

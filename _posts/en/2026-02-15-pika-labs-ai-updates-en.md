@@ -11,7 +11,7 @@ type: note
 
 Question: How's Pika Labs recently? The app stopped updating 3 months ago etc.
 
-Answer: 
+Answer:
 
 **Pika Labs is doing well and remains active in 2026**, with ongoing developments in their AI video generation platform. It's one of the leading text-to-video tools, frequently compared to competitors like Runway, Sora, Kling, and others in recent reviews and benchmarks.
 
@@ -28,7 +28,7 @@ Regarding the **mobile app** (Pika Labs: AI Trend Effects or similar on iOS/Andr
 
 Overall, Pika Labs isn't "dead" or stalled — it's actively competing in the fast-moving AI video space, shipping features, and getting positive mentions in 2026 reviews. If the mobile app feels stagnant, try the web platform at pika.art for the latest (they're even hiring, signaling growth).
 
-References:  
+References:
 
 - [Pika official site](https://pika.art/)
 - [YouTube review of Pika Labs 2.2 (2026)](https://www.youtube.com/watch?v=-kci_i1y9wY)

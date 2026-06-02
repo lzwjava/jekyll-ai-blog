@@ -11,7 +11,7 @@ type: note
 
 Question: Do high-level experts and deep thinkers possess a specific set of traits—such as low ego, precision in communication, and the ability to separate a person's dignity from the quality of their work—that allows them to accurately judge competence in others?
 
-Answer: 
+Answer:
 
 The observation that experts can "read" others across different fields is often attributed to **transfers of meta-cognitive skills**. While technical knowledge is field-specific, the *process* of high-level thinking follows similar patterns regardless of the subject matter.
 
@@ -25,8 +25,8 @@ True experts are often the most aware of what they *don’t* know. This leads to
 * **The Pursuit of Excellence:** Because they understand the "ideal" version of a craft (like a perfect line of code or a flawless essay), they can quickly spot inefficiencies or lack of depth in others' work.
 
 ### 3. Separation of Work and Personhood
-One of the most defining traits of a high-level thinker is the ability to decouple **dignity from debate**. 
-* **Objective Criticism:** They critique an opinion or a piece of work as a standalone object. 
+One of the most defining traits of a high-level thinker is the ability to decouple **dignity from debate**.
+* **Objective Criticism:** They critique an opinion or a piece of work as a standalone object.
 * **Respectful Rigor:** To them, pointing out a flaw isn't an insult; it is a form of respect for the craft. They assume the other person also wants to reach the "best" version of the truth.
 
 ### 4. Cross-Domain Judgment

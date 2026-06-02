@@ -110,10 +110,10 @@ cmake --install build
 
 ---
 
-✅ **总结**：  
-- **`cmake ..`** → 配置并生成平台特定的项目/构建文件。  
-- **`cmake --build .`** → 使用选择的构建工具实际编译。  
-- 在 Windows 上，通常使用 **Visual Studio 生成器** 或 **Ninja** 以获得更好的性能。  
+✅ **总结**：
+- **`cmake ..`** → 配置并生成平台特定的项目/构建文件。
+- **`cmake --build .`** → 使用选择的构建工具实际编译。
+- 在 Windows 上，通常使用 **Visual Studio 生成器** 或 **Ninja** 以获得更好的性能。
 
 ---
 

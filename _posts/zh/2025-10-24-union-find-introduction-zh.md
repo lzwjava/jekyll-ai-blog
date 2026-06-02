@@ -110,12 +110,12 @@ class UnionFind:
     def __init__(self, n):
         self.p = [-1] * n
         self.rank = [0] * n
-    
+
     def find(self, i):
         if self.p[i] != -1 and self.p[i] != i:  # 处理哨兵值 + 自指向
             self.p[i] = self.find(self.p[i])  # 路径压缩
         return self.p[i] if self.p[i] != -1 else i
-    
+
     def union(self, x, y):
         px, py = self.find(x), self.find(y)
         if px != py:

@@ -29,21 +29,21 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
 | Scalability              | Excellent — designed for large networks (hundreds/thousands of routers)                      |
 
 #### How OSPF Works (simplified)
-1. **Neighbor Discovery**  
+1. **Neighbor Discovery**
    Routers send Hello packets on all OSPF-enabled interfaces (multicast 224.0.0.5). When two routers agree on parameters (area ID, authentication, timers, etc.), they become neighbors.
 
-2. **Link-State Advertisement (LSA)**  
+2. **Link-State Advertisement (LSA)**
    Each router creates LSAs describing its directly connected links and their state/cost.
 
-3. **Flooding**  
+3. **Flooding**
    LSAs are reliably flooded throughout the area (or the whole AS if single-area). Every router ends up with an identical link-state database (LSDB).
 
-4. **SPF Calculation**  
+4. **SPF Calculation**
    Each router independently runs Dijkstra’s algorithm on the LSDB to build the shortest-path tree with itself as the root → creates the routing table.
 
-5. **Areas & Hierarchy**  
-   To reduce flooding and SPF recalculation overhead in big networks, OSPF divides the AS into **areas**.  
-   - Area 0 (backbone) must connect all other areas.  
+5. **Areas & Hierarchy**
+   To reduce flooding and SPF recalculation overhead in big networks, OSPF divides the AS into **areas**.
+   - Area 0 (backbone) must connect all other areas.
    - Non-backbone areas exchange summarized routes via Area Border Routers (ABRs).
 
 #### Common LSA Types (OSPFv2)

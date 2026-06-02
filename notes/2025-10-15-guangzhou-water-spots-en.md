@@ -18,7 +18,7 @@ Since you're looking beyond just Huangpu and Zengcheng, Guangzhou has a wealth o
 These are more accessible from downtown, blending city vibes with peaceful water edges.
 
 - **Liuhua Lake Park (流花湖公园, Yuexiu District):** Encircles a large lake with small connecting ponds and streams lined by willows. Rent a paddleboat if you want, but the benches and paths by the water are perfect for quiet focus. Ample lakeside parking; the sound of rippling water is constant and soothing.
-  
+
 - **Liwan Lake Scenic Area (荔湾湖, Liwan District):** A lush urban oasis with lotus ponds, gentle streams, and arched bridges. Early mornings offer misty tranquility—ideal for reflective work. Street parking nearby, open 6 AM-10 PM.
 
 - **Guangzhou Orchid Garden (广州兰花园, Yuexiu District):** Compact paths winding past small ponds and babbling streams amid orchid beds. Super serene and underrated; park at the entrance for easy access to hidden water nooks.
@@ -53,12 +53,12 @@ For a fuller escape with more dynamic water, like mini-falls amid hills.
 
 These add variety to your rotation—start central for convenience, then branch out. If rain hits (common in October), the sounds intensify beautifully, but check for slippery paths. For real-time crowd levels, use Dianping app reviews.
 
-[THE BEST Guangzhou Waterfalls (2025)](https://www.tripadvisor.com/Attractions-g298555-Activities-c57-t95-Guangzhou_Guangdong.html)  
-[Explore diverse leisure experiences in 3 hidden parks](http://en.haizhu.gov.cn/2024-10/12/c_1035130.htm)  
-[Huadu Lake Park](https://us.trip.com/travel-guide/attraction/guangzhou/huadu-lake-park-15066900/)  
-[Haizhu Lake and Wetland Park](https://greatruns.com/guangzhou-haizhu-lake-and-wetland-park/)  
-[Guangzhou Orchid Garden](https://wanderlog.com/place/details/145058/guangzhou-orchid-garden)  
-[Spending A Quiet Moment In The Parks Of Guangzhou](http://www.cookiesound.com/2012/12/spending-a-quiet-moment-in-the-parks-of-guangzhou-china/)  
-[Qianlonggou Waterfall](https://us.trip.com/travel-guide/attraction/guangzhou/qianlonggou-waterfall-13566732/)  
-[Nansha Wetland Park](https://www.tripadvisor.com/Attraction_Review-g298555-d4605938-Reviews-Nansha_Wetland_Park-Guangzhou_Guangdong.html)  
+[THE BEST Guangzhou Waterfalls (2025)](https://www.tripadvisor.com/Attractions-g298555-Activities-c57-t95-Guangzhou_Guangdong.html)
+[Explore diverse leisure experiences in 3 hidden parks](http://en.haizhu.gov.cn/2024-10/12/c_1035130.htm)
+[Huadu Lake Park](https://us.trip.com/travel-guide/attraction/guangzhou/huadu-lake-park-15066900/)
+[Haizhu Lake and Wetland Park](https://greatruns.com/guangzhou-haizhu-lake-and-wetland-park/)
+[Guangzhou Orchid Garden](https://wanderlog.com/place/details/145058/guangzhou-orchid-garden)
+[Spending A Quiet Moment In The Parks Of Guangzhou](http://www.cookiesound.com/2012/12/spending-a-quiet-moment-in-the-parks-of-guangzhou-china/)
+[Qianlonggou Waterfall](https://us.trip.com/travel-guide/attraction/guangzhou/qianlonggou-waterfall-13566732/)
+[Nansha Wetland Park](https://www.tripadvisor.com/Attraction_Review-g298555-d4605938-Reviews-Nansha_Wetland_Park-Guangzhou_Guangdong.html)
 [Guangzhou's Liwan Lake](https://www.youtube.com/watch?v=d1idDAfJhgg)

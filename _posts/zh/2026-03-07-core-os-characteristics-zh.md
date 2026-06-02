@@ -47,7 +47,7 @@ OS 使用 virtual memory、virtual CPU（时间共享）和 virtual devices 等�
 
 ### ❌ 其他选项为什么错误
 
-  
+
 | Option | Problem |
 |--------|---------|
 | **A** (Concurrency, Sharing, **Real-time**, **Synchrony**) | Real-time (实时性) 是 **real-time operating systems** 的特定特征，并非所有 OS 都具备。Synchrony (同步性) 是 OS 内部使用的 *机制*（例如 semaphores），而非 OS 本身的基本特征。 |

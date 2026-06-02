@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Jony Ive
 
-Answer: 
+Answer:
 
 **Sir Jonathan Paul "Jony" Ive** (born February 27, 1967, in Chingford, London, England) is a renowned British-American industrial designer widely regarded as one of the most influential figures in modern technology and product design. He is best known for his transformative work at Apple Inc., where he shaped the aesthetic and user experience of many iconic products.
 
@@ -46,7 +46,7 @@ Ive's approach draws inspiration from Dieter Rams' principles of "less but bette
 ### Recognition
 Ive has received numerous honors, including knighthood (KBE) in 2012, the Royal Designer for Industry title, honorary doctorates from universities like Oxford and Cambridge, and awards such as the Design Museum's Designer of the Year (2003).
 
-References:  
+References:
 
 - [Jony Ive - Wikipedia](https://en.wikipedia.org/wiki/Jony_Ive)
 - [Jony Ive | Biography, Apple, LoveFrom, & Facts | Britannica](https://www.britannica.com/money/Jony-Ive)

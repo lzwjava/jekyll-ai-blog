@@ -14,49 +14,49 @@ type: note
 
 《Nachdi Phira》是2017年宝莱坞电影《神秘巨星》中的一首旁遮普语-印地语歌曲，由阿米特·特利维迪作曲，梅格娜·米什拉演唱，歌词由阿米特abh·巴塔查里亚创作。以下是完整歌词：
 
-**第一段**  
-我将只诉说你的语言  
-我将只吟唱你的诗篇  
-披上你爱的衣袍  
-我将与你融为一体  
-戴上你爱的手镯  
-我将为你精心妆点  
+**第一段**
+我将只诉说你的语言
+我将只吟唱你的诗篇
+披上你爱的衣袍
+我将与你融为一体
+戴上你爱的手镯
+我将为你精心妆点
 
-**副歌**  
-我翩跹起舞  
-盛装摇曳生姿  
-我翩跹起舞  
-环佩叮咚作响  
+**副歌**
+我翩跹起舞
+盛装摇曳生姿
+我翩跹起舞
+环佩叮咚作响
 
-**第二段**  
-世人皆言  
-我已陷入痴狂  
-迷失了理智  
-迷失了自我  
-全然归属于你  
-但尘世怎知晓  
-心底的情愫  
-失去自我之时  
-觅得你踪影  
-我便重获新生  
+**第二段**
+世人皆言
+我已陷入痴狂
+迷失了理智
+迷失了自我
+全然归属于你
+但尘世怎知晓
+心底的情愫
+失去自我之时
+觅得你踪影
+我便重获新生
 
-**第三段**  
-我将踏入你的城邦  
-我将迎接你的目光  
-披上你爱的衣袍  
-我将与你融为一体  
-戴上你爱的手镯  
-我将为你精心妆点  
+**第三段**
+我将踏入你的城邦
+我将迎接你的目光
+披上你爱的衣袍
+我将与你融为一体
+戴上你爱的手镯
+我将为你精心妆点
 
-**副歌（重复）**  
-我翩跹起舞  
-盛装摇曳生姿  
-我翩跹起舞  
-环佩叮咚作响  
-我翩跹起舞  
-盛装摇曳生姿  
-我翩跹起舞  
-环佩叮咚作响  
+**副歌（重复）**
+我翩跹起舞
+盛装摇曳生姿
+我翩跹起舞
+环佩叮咚作响
+我翩跹起舞
+盛装摇曳生姿
+我翩跹起舞
+环佩叮咚作响
 
 ### 歌曲解析
 
@@ -73,7 +73,7 @@ type: note
 
 总体而言，歌曲以塔布拉鼓与笛子编织的明快节奏，营造出令人沉醉的活力，邀请听众拥抱脆弱即力量的真谛。它提醒我们：无论是对神明、爱人还是梦想的挚爱，真正的圆满源于放手纵身、旋入未知的勇气。
 
-**参考来源：**  
-- [AZLyrics - Nachdi Phira 歌词](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)  
-- [Bollywood Hungama - Nachdi Phira 歌词](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)  
+**参考来源：**
+- [AZLyrics - Nachdi Phira 歌词](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)
+- [Bollywood Hungama - Nachdi Phira 歌词](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)
 - [Musixmatch - Nachdi Phira 歌词](https://www.musixmatch.com/lyrics/Amit-Trivedi-Meghna-Mishra/Nachdi-Phira-From-Secret-Superstar)

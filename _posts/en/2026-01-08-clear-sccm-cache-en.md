@@ -12,7 +12,7 @@ type: note
 
 Question: In Software Center on Windows, some failed packages, how to delete ccmcache to reinstall again?
 
-Answer: 
+Answer:
 
 The **Software Center** on Windows is part of Microsoft Endpoint Configuration Manager (formerly SCCM/MECM), where deployed applications, updates, and packages appear. Failed installations often occur due to corrupted or incomplete files in the client cache folder (**ccmcache**, typically located at `C:\Windows\ccmcache`). Clearing this cache forces the client to re-download the content, allowing a fresh reinstall attempt.
 
@@ -59,9 +59,9 @@ $Cache.GetCacheElements() | ForEach-Object {
 
 This should resolve most failed package issues by forcing a clean re-download.
 
-References:  
+References:
 
-- [https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache)  
-- [https://areit.wordpress.ncsu.edu/software-center-troubleshooting/](https://areit.wordpress.ncsu.edu/software-center-troubleshooting/)  
-- [https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/](https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/)  
+- [https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache)
+- [https://areit.wordpress.ncsu.edu/software-center-troubleshooting/](https://areit.wordpress.ncsu.edu/software-center-troubleshooting/)
+- [https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/](https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/)
 - [https://learn.microsoft.com/en-us/answers/questions/1694202/how-to-cleanup-ccmcache](https://learn.microsoft.com/en-us/answers/questions/1694202/how-to-cleanup-ccmcache)

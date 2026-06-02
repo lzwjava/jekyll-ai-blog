@@ -12,7 +12,7 @@ type: note
 
 Question: Who has written great books on algorithms?
 
-Answer: 
+Answer:
 
 Several authors have written highly regarded books on algorithms that are considered classics or essential reads in computer science. Here are some of the most prominent ones, along with their notable works:
 
@@ -30,11 +30,11 @@ Other notable authors include Jon Kleinberg and Éva Tardos (*Algorithm Design*)
 
 These books range from theoretical masterpieces to practical guides, catering to beginners, students, and professionals alike.
 
-References:  
+References:
 
-- [Tableau: 8 Great Data Structures & Algorithms Books](https://www.tableau.com/learn/articles/books-about-data-structures-algorithms)  
-- [Medium: 8 Best Data Structures and Algorithms Books](https://medium.com/javarevisited/8-best-data-structures-and-algorithms-books-for-software-engineers-and-developers-4d3af68542e7)  
-- [Goodreads: Algorithms Shelf](https://www.goodreads.com/shelf/show/algorithms)  
-- [Java67: Top 10 Algorithms Books](https://www.java67.com/2015/09/top-10-algorithm-books-every-programmer-read-learn.html)  
-- [Shortform: 100 Best Algorithms Books](https://www.shortform.com/best-books/genre/best-algorithms-books-of-all-time)  
+- [Tableau: 8 Great Data Structures & Algorithms Books](https://www.tableau.com/learn/articles/books-about-data-structures-algorithms)
+- [Medium: 8 Best Data Structures and Algorithms Books](https://medium.com/javarevisited/8-best-data-structures-and-algorithms-books-for-software-engineers-and-developers-4d3af68542e7)
+- [Goodreads: Algorithms Shelf](https://www.goodreads.com/shelf/show/algorithms)
+- [Java67: Top 10 Algorithms Books](https://www.java67.com/2015/09/top-10-algorithm-books-every-programmer-read-learn.html)
+- [Shortform: 100 Best Algorithms Books](https://www.shortform.com/best-books/genre/best-algorithms-books-of-all-time)
 - [Princeton: Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)

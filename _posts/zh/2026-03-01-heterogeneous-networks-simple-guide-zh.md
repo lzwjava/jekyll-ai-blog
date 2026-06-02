@@ -28,6 +28,6 @@ type: note
 
 因此，参考答案“异构网络”是正确的。
 
-参考文献：  
+参考文献：
 
 - 无（标准 networking terminology）

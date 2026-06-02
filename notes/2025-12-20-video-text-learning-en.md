@@ -12,7 +12,7 @@ type: note
 
 Question: How to effectively balance learning from videos (watching and listening) and learning from text (reading answers from AI chatbots or articles), considering the strengths of each method?
 
-Answer: 
+Answer:
 
 Balancing video-based learning and text-based learning is a common challenge, and the key is to use each method strategically depending on the topic, your learning style, and the stage of understanding you're in. Here's a practical framework to combine both effectively:
 

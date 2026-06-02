@@ -81,7 +81,7 @@ int main() {
         int n; cin >> n;
         vector<ll> a(n); // check bounds
         FOR(i,0,n) cin >> a[i];
-        
+
         // init variables
         ll sum = 0;
         FOR(i,0,n) {
@@ -89,7 +89,7 @@ int main() {
             // int overflow?
             if (sum < 0) sum += MOD; // edge cases
         }
-        
+
         // O(n) complexity
         cout << sum << '\n'; // endl vs \n
         // check sample

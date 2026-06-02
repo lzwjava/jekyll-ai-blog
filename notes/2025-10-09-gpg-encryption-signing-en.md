@@ -67,6 +67,6 @@ You're mixing a couple of concepts here—GPG (GNU Privacy Guard) can do **encry
 
 If you meant a specific command or scenario (e.g., encrypting *and* signing), share more details!
 
-**References**  
-[GPG Documentation: Encrypting and Signing](https://www.gnupg.org/documentation/manuals/gnupg/)  
+**References**
+[GPG Documentation: Encrypting and Signing](https://www.gnupg.org/documentation/manuals/gnupg/)
 [GPG Quick Start Guide](https://www.gnupg.org/documentation/manuals/gnupg/GnuPG-basics.html)

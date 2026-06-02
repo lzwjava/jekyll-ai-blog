@@ -28,8 +28,8 @@ If it boils over? Spot-on Qing parallel. That dynasty crumbled in 1911 not just 
 ### How to Understand It All?
 It's a choice under pressure: Protest = visibility + risk (Wong's path, inspiring but costly). Build/leave = scale + safety (AI researchers or HK exiles helping billions without chains). Courage isn't zero-sum—Wong's fight clears space for builders by calling out BS. But yeah, inventing beats incarcerating. On the big picture, systems like China's reward adaptation over rebellion until they don't—then Qing 2.0. People see clear because history rhymes: Elites exit stage left, masses rewrite the script. If you're in it, ask: What's my billion-person move? Protest if it sparks change; build if it lasts.
 
-[Hong Kong activist Joshua Wong defiant as he is jailed](https://www.reuters.com/world/china/hong-kong-activist-joshua-wong-defiant-he-is-jailed-over-13-months-protest-2020-12-02/)  
-[New charges against Joshua Wong under NSL](https://www.amnesty.org/en/latest/news/2025/06/hong-kong-new-charges-against-joshua-wong-designed-to-prolong-his-stay-behind-bars/)  
-[Joshua Wong's second NS case to High Court](https://hongkongfp.com/2025/08/08/hong-kong-activist-joshua-wongs-second-nat-security-case-to-be-transferred-to-high-court/)  
-[Guo Wengui's corruption claims and US fraud conviction](https://www.theguardian.com/world/article/2024/jul/16/guo-wengui-fraud-trial)  
+[Hong Kong activist Joshua Wong defiant as he is jailed](https://www.reuters.com/world/china/hong-kong-activist-joshua-wong-defiant-he-is-jailed-over-13-months-protest-2020-12-02/)
+[New charges against Joshua Wong under NSL](https://www.amnesty.org/en/latest/news/2025/06/hong-kong-new-charges-against-joshua-wong-designed-to-prolong-his-stay-behind-bars/)
+[Joshua Wong's second NS case to High Court](https://hongkongfp.com/2025/08/08/hong-kong-activist-joshua-wongs-second-nat-security-case-to-be-transferred-to-high-court/)
+[Guo Wengui's corruption claims and US fraud conviction](https://www.theguardian.com/world/article/2024/jul/16/guo-wengui-fraud-trial)
 [HK elites and NSL brain drain sentiments](https://x.com/zhao_dashuai/status/1865821568787771397)

@@ -27,7 +27,7 @@ For the absolute latest confirmation or to check availability at your specific c
 
 This option remains a cost-effective way to target one weak skill within the 60-day window.
 
-**References:**  
+**References:**
 
 - [雅思单科重考 - 雅思考试中文官方网站](https://www.chinaielts.org/book-ielts/one-skill-retake)
 - [最新，2025雅思考试时间和费用 - 中国教育在线](https://www.eol.cn/waiyu/news/20241122258615.html)

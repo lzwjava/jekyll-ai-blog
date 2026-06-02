@@ -11,7 +11,7 @@ type: note
 
 Question: Given the claude-relay-service GitHub repository README, how do people in China obtain the maximum plan or use reverse channels to distribute the Claude API for others to use? If they are Chinese citizens, how can they purchase the max plan? Do they use virtual telephone numbers or emails to register and pay?
 
-Answer: 
+Answer:
 
 The claude-relay-service is a self-hosted proxy/relay tool that lets users forward requests to Anthropic's official Claude API. It supports adding multiple paid Claude accounts (via OAuth), automatic rotation between them, custom API key generation for each user, usage tracking, and cost-sharing. The service itself does **not** provide Claude access or plans — you must already have valid paid Claude accounts (such as the high-tier "Claude Code Max" subscription) to add them. This setup is popular in China for distributing access because it allows one or a few high-limit accounts to be shared among many users (typically 3–5 people splitting costs) while keeping data on your own server.
 
@@ -43,9 +43,9 @@ All of these methods technically violate Anthropic's terms of service (no suppor
 
 In short, Chinese citizens use exactly the virtual phone numbers, international emails, VPNs, and US virtual cards described above — there is no direct legal way to buy the max plan with mainland credentials. The relay service makes distribution easy and profitable once the master account(s) are obtained.
 
-References:  
-- [claude-relay-service README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)  
-- [2026 Latest Claude Pro Subscription & Registration Tutorial (Chinese methods)](https://github.com/imarvinle/Claude-Pro)  
-- [Claude Pro Payment with Virtual Cards Guide](https://sites.google.com/view/coinepaynet/visa_ka/Claude)  
-- [YouTube Tutorial on Safe Claude Registration with Virtual Number & WildCard](https://www.youtube.com/watch?v=vvD2jUZYPgI)  
+References:
+- [claude-relay-service README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
+- [2026 Latest Claude Pro Subscription & Registration Tutorial (Chinese methods)](https://github.com/imarvinle/Claude-Pro)
+- [Claude Pro Payment with Virtual Cards Guide](https://sites.google.com/view/coinepaynet/visa_ka/Claude)
+- [YouTube Tutorial on Safe Claude Registration with Virtual Number & WildCard](https://www.youtube.com/watch?v=vvD2jUZYPgI)
 - [How to Use Claude in Unsupported Countries (VPN + alternatives)](https://writingmate.ai/blog/how-to-use-claude-3-in-unsupported-countries)

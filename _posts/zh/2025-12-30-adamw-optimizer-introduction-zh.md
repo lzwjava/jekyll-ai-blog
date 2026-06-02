@@ -12,7 +12,7 @@ type: note
 
 Question: 什么是 AdamW Optimizer 的详细介绍？
 
-Answer: 
+Answer:
 
 ### AdamW Optimizer 简介
 
@@ -89,7 +89,7 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=0.01)
 
 总之，AdamW 是对 Adam 的一个简单却强大的改进，已成为许多 state-of-the-art 深度学习流程中的默认 optimizer。
 
-参考文献：  
+参考文献：
 
 - [Decoupled Weight Decay Regularization (原始论文)](https://arxiv.org/abs/1711.05101)
 - [PyTorch AdamW 文档](https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html)

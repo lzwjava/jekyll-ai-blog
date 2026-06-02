@@ -31,9 +31,9 @@ Hey, diving into self-study success stories is a smart move right now—especial
 
 These folks weren't prodigies—they stacked small wins like you are (English at 80? That's a flex). Common thread: Audit progress monthly, celebrate micro-passes (e.g., "nailed OSI model today"), and lean into curiosity (your CS fundamentals love). You're at 9/16+; by mid-2026, that's your story. Which one resonates most— the zìkǎo grinder or the tech pivot?
 
-[Reddit: Pivoting into CS at 32](https://www.reddit.com/r/learnprogramming/comments/raoj06/success_story_pivoting_into_cs_at_32_and_going/)  
-[SheCanCode: 10 Self-Taught Devs](https://shecancode.io/10-self-taught-programmers-who-became-full-time-developers/)  
-[Xinhua: Fake Uni to Self-Exam Success](http://www.news.cn/edu/20230412/5820abd347524f87a83f049acb213b91/c.html)  
-[Quora: Self-Taught Millionaire](https://www.quora.com/Can-you-name-some-self-taught-programmers-who-went-on-to-become-very-successful)  
-[Xinhua: 75-Year-Old Self-Exam Grandma](http://www.xinhuanet.com/politics/2020-05/17/c_1125994766.htm)  
+[Reddit: Pivoting into CS at 32](https://www.reddit.com/r/learnprogramming/comments/raoj06/success_story_pivoting_into_cs_at_32_and_going/)
+[SheCanCode: 10 Self-Taught Devs](https://shecancode.io/10-self-taught-programmers-who-became-full-time-developers/)
+[Xinhua: Fake Uni to Self-Exam Success](http://www.news.cn/edu/20230412/5820abd347524f87a83f049acb213b91/c.html)
+[Quora: Self-Taught Millionaire](https://www.quora.com/Can-you-name-some-self-taught-programmers-who-went-on-to-become-very-successful)
+[Xinhua: 75-Year-Old Self-Exam Grandma](http://www.xinhuanet.com/politics/2020-05/17/c_1125994766.htm)
 [YouTube: Failing CS to Google](https://www.youtube.com/watch?v=6SZJaNNS69w)

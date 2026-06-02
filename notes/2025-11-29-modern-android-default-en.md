@@ -12,7 +12,7 @@ type: note
 
 The correct answer is **C. ConstraintLayout**.
 
-**Explanation**:  
+**Explanation**:
 Since 2017, Google has officially recommended **ConstraintLayout** as the default layout manager for modern Android development. It was made the default in Android Studio's layout editor starting with Android Studio 2.3 and remains the go-to choice today (2025).
 
 **Why ConstraintLayout is preferred**:

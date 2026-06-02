@@ -39,7 +39,7 @@ import FMDB
 
 class DatabaseManager {
     private let database: FMDatabase
-    
+
     init() {
         let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         let databaseURL = documentsPath.appendingPathComponent("mydatabase.sqlite")
@@ -67,7 +67,7 @@ func closeDatabase() {
 ```swift
 func createTables() {
     guard openDatabase() else { return }
-    
+
     let createTableSQL = """
     CREATE TABLE IF NOT EXISTS Users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -76,14 +76,14 @@ func createTables() {
         age INTEGER
     );
     """
-    
+
     do {
         try database.executeUpdate(createTableSQL, values: nil)
         print("Table created successfully")
     } catch {
         print("Error creating table: \(error.localizedDescription)")
     }
-    
+
     closeDatabase()
 }
 ```
@@ -92,9 +92,9 @@ func createTables() {
 ```swift
 func insertUser(name: String, email: String, age: Int) -> Bool {
     guard openDatabase() else { return false }
-    
+
     let insertSQL = "INSERT INTO Users (name, email, age) VALUES (?, ?, ?)"
-    
+
     do {
         try database.executeUpdate(insertSQL, values: [name, email, age])
         print("User inserted successfully")
@@ -112,26 +112,26 @@ func insertUser(name: String, email: String, age: Int) -> Bool {
 ```swift
 func getAllUsers() -> [User] {
     guard openDatabase() else { return [] }
-    
+
     let querySQL = "SELECT * FROM Users"
     var users: [User] = []
-    
+
     do {
         let resultSet = try database.executeQuery(querySQL, values: nil)
-        
+
         while resultSet.next() {
             let id = resultSet.int(forColumn: "id")
             let name = resultSet.string(forColumn: "name") ?? ""
             let email = resultSet.string(forColumn: "email") ?? ""
             let age = resultSet.int(forColumn: "age")
-            
+
             let user = User(id: Int(id), name: name, email: email, age: Int(age))
             users.append(user)
         }
     } catch {
         print("Error querying users: \(error.localizedDescription)")
     }
-    
+
     closeDatabase()
     return users
 }
@@ -141,9 +141,9 @@ func getAllUsers() -> [User] {
 ```swift
 func updateUserAge(userId: Int, newAge: Int) -> Bool {
     guard openDatabase() else { return false }
-    
+
     let updateSQL = "UPDATE Users SET age = ? WHERE id = ?"
-    
+
     do {
         try database.executeUpdate(updateSQL, values: [newAge, userId])
         print("User updated successfully")
@@ -161,9 +161,9 @@ func updateUserAge(userId: Int, newAge: Int) -> Bool {
 ```swift
 func deleteUser(userId: Int) -> Bool {
     guard openDatabase() else { return false }
-    
+
     let deleteSQL = "DELETE FROM Users WHERE id = ?"
-    
+
     do {
         try database.executeUpdate(deleteSQL, values: [userId])
         print("User deleted successfully")
@@ -184,13 +184,13 @@ For multi-threaded applications, use `FMDatabaseQueue`:
 ```swift
 class ThreadSafeDatabaseManager {
     private let databaseQueue: FMDatabaseQueue
-    
+
     init() {
         let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         let databaseURL = documentsPath.appendingPathComponent("mydatabase.sqlite")
         databaseQueue = FMDatabaseQueue(url: databaseURL)!
     }
-    
+
     func insertUserThreadSafe(name: String, email: String, age: Int) {
         databaseQueue.inDatabase { db in
             let insertSQL = "INSERT INTO Users (name, email, age) VALUES (?, ?, ?)"
@@ -202,25 +202,25 @@ class ThreadSafeDatabaseManager {
             }
         }
     }
-    
+
     func getAllUsersThreadSafe(completion: @escaping ([User]) -> Void) {
         databaseQueue.inDatabase { db in
             var users: [User] = []
             let querySQL = "SELECT * FROM Users"
-            
+
             do {
                 let resultSet = try db.executeQuery(querySQL, values: nil)
-                
+
                 while resultSet.next() {
                     let id = resultSet.int(forColumn: "id")
                     let name = resultSet.string(forColumn: "name") ?? ""
                     let email = resultSet.string(forColumn: "email") ?? ""
                     let age = resultSet.int(forColumn: "age")
-                    
+
                     let user = User(id: Int(id), name: name, email: email, age: Int(age))
                     users.append(user)
                 }
-                
+
                 DispatchQueue.main.async {
                     completion(users)
                 }
@@ -240,23 +240,23 @@ class ThreadSafeDatabaseManager {
 ```swift
 func performTransaction() {
     guard openDatabase() else { return }
-    
+
     do {
         try database.beginTransaction()
-        
+
         // Multiple operations
-        try database.executeUpdate("INSERT INTO Users (name, email, age) VALUES (?, ?, ?)", 
+        try database.executeUpdate("INSERT INTO Users (name, email, age) VALUES (?, ?, ?)",
                                  values: ["John", "john@example.com", 25])
-        try database.executeUpdate("INSERT INTO Users (name, email, age) VALUES (?, ?, ?)", 
+        try database.executeUpdate("INSERT INTO Users (name, email, age) VALUES (?, ?, ?)",
                                  values: ["Jane", "jane@example.com", 30])
-        
+
         try database.commit()
         print("Transaction completed successfully")
     } catch {
         try? database.rollback()
         print("Transaction failed: \(error.localizedDescription)")
     }
-    
+
     closeDatabase()
 }
 ```

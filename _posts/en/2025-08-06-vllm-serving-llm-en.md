@@ -58,6 +58,6 @@ vLLM is a high-performance library for large language model (LLM) inference and 
 ### Summary
 vLLM’s speed comes from a combination of optimized memory management (PagedAttention, chunked prefill), efficient request handling (continuous batching), hardware acceleration (CUDA/HIP graphs, optimized kernels, FlashAttention/FlashInfer), and model compression (quantization). Techniques like speculative decoding further enhance generation speed. Together, these features make vLLM a powerful tool for deploying LLMs at scale with high throughput and low latency.
 
-**References**:  
-[vLLM Documentation](https://vllm.ai/)  
+**References**:
+[vLLM Documentation](https://vllm.ai/)
 [FlashAttention Paper](https://arxiv.org/abs/2205.14135)

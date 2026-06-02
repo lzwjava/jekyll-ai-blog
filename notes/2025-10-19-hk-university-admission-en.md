@@ -46,7 +46,7 @@ Apply directly to each university (no central system like JUPAS). Main round: No
 
 For exact fit, email admissions (e.g., ugadmit@hku.hk). Congrats on 9 passes—solid foundation!
 
-[HKU Non-JUPAS](https://admissions.hku.hk/apply/international-qualifications)  
-[CUHK Non-JUPAS Requirements](https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/)  
-[CityU Non-JUPAS Year 1](https://www.cityu.edu.hk/admo/admissions/non-jupas-year-1-admission)  
+[HKU Non-JUPAS](https://admissions.hku.hk/apply/international-qualifications)
+[CUHK Non-JUPAS Requirements](https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/)
+[CityU Non-JUPAS Year 1](https://www.cityu.edu.hk/admo/admissions/non-jupas-year-1-admission)
 [HKBU Post-Secondary Admissions](https://admissions.hkbu.edu.hk/admissions/post-secondary-qualifications.html)

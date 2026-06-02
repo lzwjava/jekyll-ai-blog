@@ -12,7 +12,7 @@ type: note
 
 Question: Wireless Bridge Point to Point Outdoor WiFi Wireless Network Expansion Kit (Walmart 产品 1418553789) 的功能是什么？
 
-Answer: 
+Answer:
 
 这款产品是一个 **2件装户外 wireless bridge 套件**，旨在两个地点之间建立远距离、高速的 point-to-point (P2P) 无线连接。它可以在不铺设电缆的情况下，通过无线方式跨越较远距离扩展您的网络或 internet 接入，充当户外使用的“隐形 Ethernet 线路”。
 
@@ -34,7 +34,7 @@ Answer:
 
 简而言之，它为远距离网络扩展提供了替代挖掘壕沟铺设光纤或 Ethernet 电缆的无线方案，在户外/点对点设置中提供可靠、高速的连接。
 
-References:  
+References:
 
 - [Walmart Product Page](https://www.walmart.com/ip/Wireless-Bridge-Point-Point-Outdoor-WiFi-Wireless-Network-Expansion-Kit-Long-Range-High-Speed-5G-2-Units-Bridge-Kit-Complete-Pre-Configured-P2P-1000M/1418553789?classType=REGULAR&athbdg=L1600)
 - [Similar Product on Amazon (matching description)](https://www.amazon.com/Wireless-Outdoor-Expansion-Complete-Pre-Configured/dp/B0BJZLXYBG)

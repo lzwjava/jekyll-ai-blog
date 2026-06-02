@@ -92,5 +92,5 @@ or inside tmux: `Ctrl+b` then `:rename-session newname`
 
 This method works on Linux, macOS, and any system with tmux installed.
 
-References:  
+References:
 - [tmux man page](https://man7.org/linux/man-pages/man1/tmux.1.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: In programming, are iterative methods for solving problems and having a playground environment very important, especially for working with a compiler and getting quick feedback?
 
-Answer: 
+Answer:
 
 Yes, absolutely—they are crucial for effective programming and learning.
 

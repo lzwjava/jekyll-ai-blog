@@ -26,7 +26,7 @@ type: note
 
 简而言之：腌制长豆角在健康方面**不像加工肉类**。它们是一种加工蔬菜，在适量食用时大多有积极或中性影响，而加工肉类是少数具有明确致癌分类的食物。将腌制长豆角作为富含蔬菜饮食的一部分享受，但注意盐摄入——它们远优于加工肉类。
 
-参考文献：  
+参考文献：
 
 - [IARC classification on processed meat (Group 1 carcinogenic)](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)
 - [IARC on pickled vegetables (Group 2B, possibly carcinogenic, traditional Asian styles)](https://inchem.org/documents/iarc/vol56/02-pick.html)

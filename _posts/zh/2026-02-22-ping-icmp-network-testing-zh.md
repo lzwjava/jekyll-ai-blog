@@ -48,7 +48,7 @@ Reply from 8.8.8.8: bytes=32 time=15ms TTL=117
 ### 总结
 本质上，`ping` 只是一个用户友好的界面，它生成并监听特定类型的 ICMP 消息（Type 8 表示 Echo Request，Type 0 表示 Echo Reply）来诊断网络连接性。
 
-参考文献：  
+参考文献：
 
 - [RFC 792 - Internet Control Message Protocol](https://datatracker.ietf.org/doc/html/rfc792)
 - [How Ping Works - Cisco](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13730-3.html)

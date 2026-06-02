@@ -12,11 +12,11 @@ Finding a researcher who is an expert in all the areas you mentioned—large lan
 
 ### 1. **Yann LeCun**
    - **Affiliation**: Chief AI Scientist at Meta AI, Professor at NYU
-   - **Expertise**: 
+   - **Expertise**:
      - **Computer Vision**: A pioneer in deep learning, LeCun developed convolutional neural networks (CNNs), foundational to modern computer vision.
      - **Multimodal Learning**: His work at Meta AI includes advancing vision-language models and multimodal AI systems.
      - **Generative Models**: LeCun has explored generative models, including energy-based models and diffusion models, which are relevant to image and video generation.
-   - **Notable Contributions**: 
+   - **Notable Contributions**:
      - Early work on CNNs revolutionized image recognition.
      - Recent Meta AI projects like **ImageBind** (a multimodal model integrating text, images, audio, etc.) showcase his influence in multimodal learning.[](https://encord.com/blog/top-multimodal-models/)
    - **Why Relevant**: LeCun’s broad influence spans computer vision, multimodal systems, and generative AI, though his LLM work is less direct compared to vision.

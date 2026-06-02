@@ -18,6 +18,6 @@ You're spot on about natural language too. Text is the internet's backbone—ind
 
 If you're hiking Silicon Valley trails yourself (Alum Rock Park's got some gems), start simple—apps like iNaturalist make naming less troublesome. What's one flower that's tripped you up lately?
 
-[方舟子的X账号](https://x.com/fangshimin)  
-[示例帖子：今日所见野花](https://x.com/fangshimin/status/1976837337549296062)  
+[方舟子的X账号](https://x.com/fangshimin)
+[示例帖子：今日所见野花](https://x.com/fangshimin/status/1976837337549296062)
 [加州本土植物指南](https://www.calflora.org/)

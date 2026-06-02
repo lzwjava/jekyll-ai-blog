@@ -12,7 +12,7 @@ type: note
 
 Question: How can I make my competitive programming Java template a bit cleaner?
 
-Answer: 
+Answer:
 
 Here are several clean, practical improvements that keep your original structure while making the code more readable, maintainable, and slightly more modern — without going into ultra-fast input/output territory.
 
@@ -129,6 +129,6 @@ Pick whichever style feels most natural to you.
 
 The first version (with constructor + separate readers + try-catch) is probably the cleanest while still being very close to your original code.
 
-References:  
+References:
 
 - None (style/cleanliness suggestions based on common modern Java CP patterns)

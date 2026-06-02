@@ -45,11 +45,11 @@ type: note
   ```java
   /*
    * 类名
-   * 
+   *
    * 版本信息
-   * 
+   *
    * 日期
-   * 
+   *
    * 版权声明
    */
   ```
@@ -75,7 +75,7 @@ type: note
   ```java
   int level;        // 正确
   int size;         // 正确
-  
+
   // 避免：
   int level, size;  // 不推荐
   ```

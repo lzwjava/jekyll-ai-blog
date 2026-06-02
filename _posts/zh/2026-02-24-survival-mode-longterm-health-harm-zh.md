@@ -19,7 +19,7 @@ type: note
 
 当你的身体感知到持续威胁时，sympathetic nervous system 保持“开启”状态，向你的系统注入 cortisol 和 adrenaline。以下是其影响：
 
-  
+
 | 方面 | 短期（有益/适应性） | 长期（有害/非适应性） |
 | --- | --- | --- |
 | **大脑** | 注意力高度集中和快速反应。 | 记忆丧失、brain fog，以及 "amygdala hijack"（对小压力过度反应）。 |

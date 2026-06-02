@@ -31,7 +31,7 @@ Answer:
 
 - **何时 DigitalOcean “足够用”**：
   是的，对于大部分使用场景——个人项目、SaaS startups、web apps、APIs、databases、CI/CD、小型 ML workloads——DigitalOcean 完全胜任。open source 生态系统（PostgreSQL、Redis、Nginx、Traefik、Prometheus、Grafana 等）填补了大部分空白。你可以在 DO Droplets 上可靠地 self-host 几乎所有内容。
-  
+
   DigitalOcean 上流行的配置包括：
   - LAMP/LEMP stacks
   - Docker + Docker Compose

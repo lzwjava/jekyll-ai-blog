@@ -12,7 +12,7 @@ type: note
 
 Question: Which company is building the modular laptop?
 
-Answer: 
+Answer:
 
 致力于制造真正 **modular laptops**（几乎主要的组件，如 motherboard、CPU、RAM、storage、ports、battery、keyboard 等都可以由用户升级或更换）的主要公司是 **Framework Computer, Inc.**（通常简称为 Framework）。
 
@@ -33,7 +33,7 @@ Answer:
 
 在 2026 年，Framework 依然是制造真正 modular laptops 领域明确的领导者和最受认可的公司。
 
-References:  
+References:
 
 - [Framework official website](https://frame.work/)
 - [Framework Computer - Wikipedia](https://en.wikipedia.org/wiki/Framework_Computer)

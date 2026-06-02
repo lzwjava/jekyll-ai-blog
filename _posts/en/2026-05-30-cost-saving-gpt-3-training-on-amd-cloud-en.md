@@ -11,7 +11,7 @@ type: note
 
 Question: How can I reduce costs on AMD Developer Cloud while planning to train a GPT-3 model?
 
-Answer:  
+Answer:
 
 Training a GPT-3–scale model on AMD Developer Cloud can get expensive quickly due to GPU usage and storage costs. Here’s a structured approach to reduce costs:
 
@@ -47,9 +47,9 @@ Training a GPT-3–scale model on AMD Developer Cloud can get expensive quickly 
 
 > ⚠️ Full GPT-3 training (175B parameters) is extremely expensive, even on high-end GPUs like MI300X. Usually, researchers **fine-tune existing pretrained GPT-3 models** instead of training from scratch to save costs.
 
-References:  
-- [AMD Developer Cloud Documentation](https://developer.amd.com/amd-developer-cloud/)  
-- [Efficient Training Tips for Large Language Models](https://arxiv.org/abs/2203.15556)  
-- [OpenAI GPT-3 Fine-tuning Guide](https://platform.openai.com/docs/guides/fine-tuning)  
+References:
+- [AMD Developer Cloud Documentation](https://developer.amd.com/amd-developer-cloud/)
+- [Efficient Training Tips for Large Language Models](https://arxiv.org/abs/2203.15556)
+- [OpenAI GPT-3 Fine-tuning Guide](https://platform.openai.com/docs/guides/fine-tuning)
 
 If you want, I can create a **cost-minimized strategy for GPT-3 fine-tuning** specifically on AMD Dev Cloud, showing exactly which droplets, snapshots, and training tricks to use.

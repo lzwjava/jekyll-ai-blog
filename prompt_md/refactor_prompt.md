@@ -20,12 +20,12 @@ from sample_code import sample_code  # Importing the sample code function
 
 def generate_refactor_prompt(file_path):
     """Generate a refactor prompt for the given Python file with proper markdown formatting."""
-    
+
     sample = sample_code()
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-        
+
         prompt = f"""# Refactor Prompt
 
 ## Instructions
@@ -61,14 +61,14 @@ def save_prompt_to_md(prompt, original_path):
         # Get the base filename without extension
         base_name = os.path.basename(original_path)
         file_name = os.path.splitext(base_name)[0] + ".md"
-        
+
         # Define the output directory
         output_dir = "scripts/prompt_md"
         os.makedirs(output_dir, exist_ok=True)
-        
+
         # Define the full output path
         output_path = os.path.join(output_dir, file_name)
-        
+
         # Save the prompt to the markdown file
         with open(output_path, 'w', encoding='utf-8') as md_file:
             md_file.write(prompt)
@@ -79,12 +79,12 @@ def save_prompt_to_md(prompt, original_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate a refactor prompt for a Python file and save it as markdown.")
     parser.add_argument("file_path", help="Path to the Python file to refactor")
-    
+
     # Add test mode flag
     parser.add_argument("--test", action="store_true", help="Run in test mode with sample input")
-    
+
     args = parser.parse_args()
-    
+
     if args.test:
         # Test mode - use the script itself as sample input
         test_file = os.path.abspath(__file__)
@@ -117,7 +117,7 @@ def call_mistral_api(prompt):
     if not api_key:
         print("Error: MISTRAL_API_KEY environment variable not set.")
         return None
-    
+
     url = MISTRAL_API_URL
     headers = {
         "Content-Type": "application/json",
@@ -151,5 +151,5 @@ def call_mistral_api(prompt):
         return None
 
 if __name__ == "__main__":
-    print(call_mistral_api('hi'))    
+    print(call_mistral_api('hi'))
 ```

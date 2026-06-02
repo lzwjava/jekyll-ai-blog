@@ -45,7 +45,7 @@ Building a natural language to SQL (NL-to-SQL) system involves translating user 
    - The quality of NL-to-SQL depends heavily on how you instruct the AI. Use structured prompts with these elements:
      - **System Prompt Template**:
        ```
-       You are an expert SQL generator for PostgreSQL. Given the schema below and a natural language query, generate a safe, accurate SELECT query. 
+       You are an expert SQL generator for PostgreSQL. Given the schema below and a natural language query, generate a safe, accurate SELECT query.
 
        Schema:
        [Insert full schema here, e.g., CREATE TABLE users (...)]
@@ -77,7 +77,7 @@ Implementing this safely requires a backend layer (e.g., not executing SQL direc
 
 If you need code examples or help with specific parts (e.g., a Python implementation), provide more details!
 
-**References**  
-[PostgreSQL Documentation: Row-Level Security](https://www.postgresql.org/docs/current/ddl-rowsecurity.html)  
-[LangChain NL-to-SQL Tutorial](https://python.langchain.com/docs/tutorials/sql_qa/)  
+**References**
+[PostgreSQL Documentation: Row-Level Security](https://www.postgresql.org/docs/current/ddl-rowsecurity.html)
+[LangChain NL-to-SQL Tutorial](https://python.langchain.com/docs/tutorials/sql_qa/)
 [Preventing SQL Injection in Python](https://realpython.com/prevent-python-sql-injection/)

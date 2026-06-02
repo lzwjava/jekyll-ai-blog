@@ -135,15 +135,15 @@ func setupVPN() {
             print("Failed to load VPN preferences: \(error)")
             return
         }
-        
+
         let vpnProtocol = NEVPNProtocolIKEv2()
         vpnProtocol.serverAddress = "vpn.example.com" // Replace with your VPN server
         vpnProtocol.remoteIdentifier = "vpn.example.com"
         vpnProtocol.authenticationMethod = .certificate // Configure as needed
-        
+
         vpnManager.protocolConfiguration = vpnProtocol
         vpnManager.isEnabled = true
-        
+
         vpnManager.saveToPreferences { error in
             if let error = error {
                 print("Failed to save VPN preferences: \(error)")

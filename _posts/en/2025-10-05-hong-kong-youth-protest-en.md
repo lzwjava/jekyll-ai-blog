@@ -14,7 +14,7 @@ Yes, there has been notable criticism in Hong Kong from pro-establishment voices
 
 ### Key Points on the Criticism
 - **Focus on "Wasting Time" Over Studies**: During major protest waves (e.g., 2014 Umbrella Movement and 2019 anti-extradition bill actions), critics argued that students like Wong, who was a high schooler at the time, were neglecting their exams and future prospects. For instance, after the 2019 school boycotts, social backlash included comments like "students' duty is to sit in the classroom and attend class" or "what do middle schoolers know about politics?" This echoed broader complaints that activism turns educated youth into rebels rather than productive citizens.
-  
+
 - **Specific to Wong's Education**: Wong himself faced direct jabs about his academic performance. In 2014, after leading class boycotts, he scored poorly on his Diploma of Secondary Education (DSE) exams—the key university entrance test—and even considered appealing the results, which pro-government media and online critics mocked as "pathetic" evidence that protests ruined his studies. He later enrolled part-time in politics and sociology at Hong Kong's Open University, which allowed flexibility for activism but fueled claims he wasn't serious about "real" education like STEM or vocational training.
 
 - **"Waste Youth" Label**: This term became a common slur during the 2019 protests, accusing young activists of being rebellious, unemployable, and distracted by "petty" freedoms (e.g., democracy demands) instead of building skills or contributing economically. Pro-Beijing outlets like Global Times criticized student-led disruptions at universities as turning elite schools into "violent, unreasonable" places, implying protesters were throwing away their futures.

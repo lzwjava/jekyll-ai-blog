@@ -12,7 +12,7 @@ type: note
 
 Question: Is it normal for people to use VS Code to develop Java projects?
 
-Answer: 
+Answer:
 
 **Yes, it is completely normal** — and increasingly common — in 2025–2026.
 
@@ -42,7 +42,7 @@ That said, professional Java backend developers working on **large enterprise mo
 
 So yes — using VS Code for Java projects is **perfectly normal** today and not a red flag at all.
 
-References:  
+References:
 
 - [Most Popular Java IDEs in 2026 - JRebel](https://www.jrebel.com/blog/best-java-ide)
 - [Java in Visual Studio Code - Official Docs](https://code.visualstudio.com/docs/languages/java)

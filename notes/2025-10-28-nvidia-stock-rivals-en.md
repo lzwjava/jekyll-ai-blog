@@ -36,7 +36,7 @@ Overall, expect continued strength if NVIDIA maintains 70%+ gross margins on AI 
 ### Rivals: AMD and Google TPU
 
 #### AMD
-AMD is NVIDIA's closest direct rival in GPUs and AI accelerators, and it's been outperforming lately—up 93% year-to-date in 2025 vs. NVIDIA's 36%. AMD's data center revenue hit $3.2 billion in Q2 2025 (up 14% YoY), though it's dwarfed by NVIDIA's $41 billion (up 56%). 
+AMD is NVIDIA's closest direct rival in GPUs and AI accelerators, and it's been outperforming lately—up 93% year-to-date in 2025 vs. NVIDIA's 36%. AMD's data center revenue hit $3.2 billion in Q2 2025 (up 14% YoY), though it's dwarfed by NVIDIA's $41 billion (up 56%).
 - **2025–2026 Edge**: AMD's MI355X chip (launching late 2025) claims to match or beat NVIDIA's H200 in performance per watt, potentially eroding NVIDIA's moat. Analysts see AMD as "the next NVIDIA" for 2026, with stock targets implying 50–100% upside if it captures more hyperscaler deals (e.g., from Microsoft, Meta).
 - **Stock Performance**: AMD trades at ~50x forward earnings (cheaper than NVIDIA's premium), and it's positioned for "millionaire-maker" gains if AI chip diversity grows. However, NVIDIA still holds 80–90% market share.
 
@@ -63,11 +63,11 @@ NVIDIA launched **Project DIGITS** (also branded as DGX Spark) in early 2025 as 
 
 If you're investing, NVIDIA looks solid long-term, but diversify with AMD for exposure to the AI chip wave.
 
-**References**  
-[This AI Stock Will Become the First $6 Trillion Company](https://finance.yahoo.com/news/prediction-artificial-intelligence-ai-stock-230500946.html)  
-[Nvidia Can Reach $6 Trillion Market Cap on AI Growth](https://www.bloomberg.com/news/articles/2025-06-25/nvidia-can-reach-6-trillion-market-cap-on-ai-growth-loop-says)  
-[Prediction: This Will Be Nvidia's Stock Price in 2026](https://finance.yahoo.com/news/prediction-nvidias-stock-price-2026-101500678.html)  
-[Could AMD Be the Nvidia of 2026?](https://www.fool.com/investing/2025/10/27/could-amd-be-the-nvidia-of-2026/)  
-[TPU vs GPU: What's the Difference in 2025?](https://www.cloudoptimo.com/blog/tpu-vs-gpu-what-is-the-difference-in-2025/)  
-[NVIDIA Launches AI-First DGX Personal Computing Systems](https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers)  
+**References**
+[This AI Stock Will Become the First $6 Trillion Company](https://finance.yahoo.com/news/prediction-artificial-intelligence-ai-stock-230500946.html)
+[Nvidia Can Reach $6 Trillion Market Cap on AI Growth](https://www.bloomberg.com/news/articles/2025-06-25/nvidia-can-reach-6-trillion-market-cap-on-ai-growth-loop-says)
+[Prediction: This Will Be Nvidia's Stock Price in 2026](https://finance.yahoo.com/news/prediction-nvidias-stock-price-2026-101500678.html)
+[Could AMD Be the Nvidia of 2026?](https://www.fool.com/investing/2025/10/27/could-amd-be-the-nvidia-of-2026/)
+[TPU vs GPU: What's the Difference in 2025?](https://www.cloudoptimo.com/blog/tpu-vs-gpu-what-is-the-difference-in-2025/)
+[NVIDIA Launches AI-First DGX Personal Computing Systems](https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers)
 [Nvidia's $3,000 'Personal AI Supercomputer'](https://www.wired.com/story/nvidia-personal-supercomputer-ces/)

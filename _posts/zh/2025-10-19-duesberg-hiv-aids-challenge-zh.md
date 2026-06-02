@@ -47,6 +47,6 @@ type: note
 
 尽管因论述深度与反体制立场获卡里·穆利斯（PCR发明者）作序等赞誉，该书仍被广泛斥为艾滋病否定主义。主流科学界批评其选择性采用数据、忽视HIV在全球疫情中的作用，以及通过破坏治疗危及生命。杜斯伯格的观点助长了南非的否定主义运动，与该国超额死亡相关。本书为质疑正统观念者提供 provocative 读本，但不可替代共识医学。
 
-[《发明艾滋病病毒》- 维基百科](https://en.wikipedia.org/wiki/Inventing_the_AIDS_Virus)  
-[纽约时报书评：《怀疑论者》](https://www.nytimes.com/1996/04/07/books/the-unbeliever.html)  
+[《发明艾滋病病毒》- 维基百科](https://en.wikipedia.org/wiki/Inventing_the_AIDS_Virus)
+[纽约时报书评：《怀疑论者》](https://www.nytimes.com/1996/04/07/books/the-unbeliever.html)
 [亚马逊书籍描述](https://www.amazon.com/Inventing-AIDS-Virus-Peter-Duesberg/dp/0895264706)

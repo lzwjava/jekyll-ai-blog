@@ -25,54 +25,54 @@ The package itself (`@anthropic-ai/claude-code`) is legitimate—it's Anthropic'
 
 Try these steps in order. Run them as root or with `sudo` where noted, since this is a global install.
 
-1. **Manually Remove the Existing Directory**  
-   This clears out the problematic partial install:  
+1. **Manually Remove the Existing Directory**
+   This clears out the problematic partial install:
    ```
    sudo rm -rf /usr/lib/node_modules/@anthropic-ai/claude-code
-   ```  
-   - If the parent scoped directory (`@anthropic-ai`) is now empty, you can remove it too:  
+   ```
+   - If the parent scoped directory (`@anthropic-ai`) is now empty, you can remove it too:
      ```
      sudo rm -rf /usr/lib/node_modules/@anthropic-ai
-     ```  
-   Then retry your original command:  
+     ```
+   Then retry your original command:
    ```
    sudo npm i -g @anthropic-ai/claude-code --verbose
    ```
 
-2. **Clear npm Cache**  
-   If the above doesn't work, corrupted cache entries might be involved:  
+2. **Clear npm Cache**
+   If the above doesn't work, corrupted cache entries might be involved:
    ```
    sudo npm cache clean --force
    sudo npm cache verify
-   ```  
+   ```
    Retry the install after this.
 
-3. **Check for Running Processes**  
-   Ensure no other npm/Node processes are using the directory:  
+3. **Check for Running Processes**
+   Ensure no other npm/Node processes are using the directory:
    ```
    ps aux | grep npm
-   ```  
+   ```
    Kill any lingering ones if needed (e.g., `sudo kill <PID>`), then retry.
 
-4. **Alternative: Use npx for Testing**  
-   If you just want to test the tool without a full global install, try:  
+4. **Alternative: Use npx for Testing**
+   If you just want to test the tool without a full global install, try:
    ```
    npx @anthropic-ai/claude-code --help
-   ```  
+   ```
    This downloads and runs it temporarily without modifying your global modules.
 
 ### Additional Tips
-- **Permissions Best Practice**: Global installs with `sudo` can lead to ownership issues later. Consider using a node version manager like `nvm` to avoid `sudo` entirely, or set a custom global prefix:  
+- **Permissions Best Practice**: Global installs with `sudo` can lead to ownership issues later. Consider using a node version manager like `nvm` to avoid `sudo` entirely, or set a custom global prefix:
   ```
   mkdir ~/.npm-global
   npm config set prefix '~/.npm-global'
   export PATH=~/.npm-global/bin:$PATH
-  ```  
+  ```
   Then install without `sudo`.
 - **Verify After Install**: Once installed, check with `claude-code --version` (assuming that's the binary name—confirm in the docs).
 - If issues persist, share the output of `npm ls -g @anthropic-ai/claude-code` for more diagnostics.
 
 This should get you up and running quickly. If you hit another snag, paste the new log!
 
-[Claude Code on npm](https://www.npmjs.com/package/@anthropic-ai/claude-code)  
+[Claude Code on npm](https://www.npmjs.com/package/@anthropic-ai/claude-code)
 [Anthropic Docs: Set up Claude Code](https://docs.claude.com/en/docs/claude-code/setup)

@@ -13,7 +13,7 @@ This tutorial covers key concepts related to **vector spaces**, including **subs
 ---
 
 ### **1. Vector Spaces**
-A **vector space** (or linear space) is a set of vectors that satisfies certain properties under vector addition and scalar multiplication. 
+A **vector space** (or linear space) is a set of vectors that satisfies certain properties under vector addition and scalar multiplication.
 
 #### **Definition**
 A vector space \\( V \\) over a field \\( \mathbb{F} \\) (e.g., real numbers \\( \mathbb{R} \\) or complex numbers \\( \mathbb{C} \\)) is a set of elements (vectors) along with two operations:

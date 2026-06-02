@@ -92,7 +92,7 @@ REM Sample batch file to create a directory and log actions
 ECHO Starting script...
 
 :: Prompt for directory name
-SET /P DIRNAME=Enter directory name: 
+SET /P DIRNAME=Enter directory name:
 
 :: Check if input is empty
 IF "%DIRNAME%"=="" (

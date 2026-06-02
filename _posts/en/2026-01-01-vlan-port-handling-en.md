@@ -12,7 +12,7 @@ type: note
 
 Question: How does the overall process of VLAN tagging and frame handling work on switch ports, particularly with access ports and tagged frames?
 
-Answer: 
+Answer:
 
 ### Overview of VLANs and Switch Ports
 
@@ -66,7 +66,7 @@ This ensures end devices see only untagged traffic, while switches use tags inte
 
 This behavior aligns with IEEE 802.1Q principles and Cisco best practices.
 
-References:  
+References:
 
 - [Cisco Community: Tagged frames on access ports](https://community.cisco.com/t5/switching/tagged-frames-on-access-ports/td-p/1074967)
 - [Network Engineering Stack Exchange: What happens with tagged traffic on access port of Cisco switch?](https://networkengineering.stackexchange.com/questions/28888/what-happens-with-tagged-traffic-on-access-port-of-cisco-switch)

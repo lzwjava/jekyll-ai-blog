@@ -14,24 +14,24 @@ Based on the analysis of Zhiwei Li's own writings and reflections in the codebas
 ## Key Pitfalls/Cons
 
 **Financial Decision Making**
-- Made significant financial mistakes by not buying property early (missing 7,000 CNY/sqm opportunity that rose to 27,000 CNY) [1](#1-0) 
-- Bought house in 2022 despite knowing real estate economy was unsustainable, losing 1 million yuan by 2024 [2](#1-1) 
+- Made significant financial mistakes by not buying property early (missing 7,000 CNY/sqm opportunity that rose to 27,000 CNY) [1](#1-0)
+- Bought house in 2022 despite knowing real estate economy was unsustainable, losing 1 million yuan by 2024 [2](#1-1)
 
 **Attitude and Interpersonal Skills**
-- Admits to being "a little over confident" and caring less about people's emotions or relationships [3](#1-2) 
-- Previously tried to change others (wife, parents, friends) instead of focusing on self-improvement [4](#1-3) 
+- Admits to being "a little over confident" and caring less about people's emotions or relationships [3](#1-2)
+- Previously tried to change others (wife, parents, friends) instead of focusing on self-improvement [4](#1-3)
 
 **Learning Approach**
-- Tendency to program "towards Google" - searching for quick answers rather than deep thinking [5](#1-4) 
-- Prefers concise answers over thorough understanding, leading to superficial knowledge [5](#1-4) 
+- Tendency to program "towards Google" - searching for quick answers rather than deep thinking [5](#1-4)
+- Prefers concise answers over thorough understanding, leading to superficial knowledge [5](#1-4)
 
 **Money Management**
-- Lost 45,000 RMB of investment money due to poor attitude and management skills [6](#1-5) 
-- Became "floating" and less willing to work hard after receiving investment [7](#1-6) 
+- Lost 45,000 RMB of investment money due to poor attitude and management skills [6](#1-5)
+- Became "floating" and less willing to work hard after receiving investment [7](#1-6)
 
 **Social Pressure and Conformity**
-- Made housing decisions based on vanity and caring about others' opinions [8](#1-7) 
-- Choices based on conformity rather than following personal interests in technology [8](#1-7) 
+- Made housing decisions based on vanity and caring about others' opinions [8](#1-7)
+- Choices based on conformity rather than following personal interests in technology [8](#1-7)
 
 ## Major Areas for Improvement
 

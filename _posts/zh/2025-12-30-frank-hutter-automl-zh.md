@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to Frank Hutter in machine learning
 
-Answer: 
+Answer:
 
 Frank Hutter 是一位知名的德国计算机科学家，也是 **Automated Machine Learning (AutoML)** 领域的领军人物之一。他因开创了自动化设计和优化 Machine Learning 流水线的方法而广受认可，这些方法使先进的 ML 变得更加普及和高效。
 
@@ -46,7 +46,7 @@ Hutter 的论文引用量已超过 114,000 次（根据最近数据），使他�
 
 他的工作推动了 Machine Learning 的民主化，使非专业人士也能获得 State-of-the-art 的性能，并朝着更自动化、高效和可靠的 AI 系统迈进。
 
-References:  
+References:
 
 - [Frank Hutter's Lab Profile at University of Freiburg](https://ml.informatik.uni-freiburg.de/profile/hutter/)
 - [Frank Hutter on Wikipedia](https://en.wikipedia.org/wiki/Frank_Hutter)

@@ -17,16 +17,16 @@ type: note
 
 ## 通过 ABC 手机 App 可以做的事情
 
-**查看贷款详情和合同编号：**  
+**查看贷款详情和合同编号：**
 您可以打开 ABC App，在首页点击“Loan”（贷款），然后点击“View Details”（查看详情），再点击“Tax Information”（报税信息）查看您的贷款合同编号。
 
-**查看还款计划和详情：**  
+**查看还款计划和详情：**
 您可以前往 ABC 手机银行 → Loan → View Details → Personal Housing Loan → Loan Usage Records → Repayment Details → Repayment Plan 查看您的月度还款计划。
 
-**管理利率调整：**  
+**管理利率调整：**
 固定利率或基准利率抵押贷款客户可以登录 ABC 手机银行 App，导航至 Loan → Existing Mortgage Rate Adjustment (存量房贷利率调整) 处理利率转换请求。
 
-**查看贷款结清证明：**  
+**查看贷款结清证明：**
 您可以打开 ABC 手机银行 App，前往“My Account”（我的账户）→ “All” → “Loan Clearance Certificate”（贷款结清证明），在贷款全额还清后查看结清详情。
 
 ## 通过 App 很可能无法做的事情

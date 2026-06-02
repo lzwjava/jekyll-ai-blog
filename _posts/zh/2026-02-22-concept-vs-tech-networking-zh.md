@@ -40,7 +40,7 @@ type: note
 **结论：**
 问题询问由*过程流程*（建立、传输、拆除）定义的**网络服务**类型。**Connection-Oriented** 是此服务模型的标准术语。“Modem Dial-up”仅是利用此模型的历史技术示例，但并非服务模型本身的名称。
 
-参考资料：  
+参考资料：
 
 - [Connection-oriented communication - Wikipedia](https://en.wikipedia.org/wiki/Connection-oriented_communication)
 - [TCP vs UDP: Understanding the Difference - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-udp/)

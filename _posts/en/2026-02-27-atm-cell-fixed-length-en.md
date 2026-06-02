@@ -11,15 +11,15 @@ type: note
 
 Question: What is the fixed length of an ATM cell?
 
-Answer: 
+Answer:
 
 The correct answer is **C. 53 bytes**.
 
-**Detailed explanation**:  
+**Detailed explanation**:
 In ATM (Asynchronous Transfer Mode) networks, the basic unit of data transmission is called a **cell** (信元). This cell has a **fixed length** of **exactly 53 bytes**, which consists of:
 
-- **Header**: 5 bytes  
-- **Payload** (information field / 用户信息域): 48 bytes  
+- **Header**: 5 bytes
+- **Payload** (information field / 用户信息域): 48 bytes
 
 Total: 5 + 48 = **53 bytes**
 
@@ -35,6 +35,6 @@ Common incorrect options and why they are wrong:
 
 So the only correct answer is **C. 53 bytes**.
 
-References:  
+References:
 
 - None (standard ATM protocol definition, widely documented in networking textbooks and ITU-T I.150 / I.361 recommendations)

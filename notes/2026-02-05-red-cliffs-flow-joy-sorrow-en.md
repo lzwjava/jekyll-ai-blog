@@ -30,7 +30,7 @@ This is an excellent summary of the emotional progression in Su Shi's "First Pro
 
 ### **Stage 3: Return to Joy (乐)**
 - **Method**: Philosophical dialogue and mutual debate (相互辩驳)
-- **Su Shi's argument**: 
+- **Su Shi's argument**:
   - From the perspective of change, everything is transient
   - From the perspective of constancy, nothing truly perishes
   - The river and moon are eternal and freely available to enjoy

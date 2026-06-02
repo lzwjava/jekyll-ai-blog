@@ -49,9 +49,9 @@ Known for his data-driven, engineer-first mindset, Jun prioritizes long-term R&D
 At 65, Jun represents a generational bridge at Samsung, blending the tenacity of its founding era with modern tech imperatives. His vision centers on "AI everywhere," positioning Samsung as indispensable in the intelligent computing age.
 
 ### References
-- [Board of Directors - Samsung Global](https://www.samsung.com/global/ir/governance-csr/board-of-directors/)  
-- [Samsung Electronics - Wikipedia](https://en.wikipedia.org/wiki/Samsung_Electronics)  
-- [Young Hyun Jun - Bloomberg Profile](https://www.bloomberg.com/profile/person/18354211)  
-- [Jun Young-hyun - KoreaWho](https://www.koreawho.com/profile/JunYounghyun)  
-- [The Samsung Co-CEOs - Quartr Insights](https://quartr.com/insights/business-philosophy/the-samsung-co-ceos-jong-hee-han-young-hyun-jun)  
+- [Board of Directors - Samsung Global](https://www.samsung.com/global/ir/governance-csr/board-of-directors/)
+- [Samsung Electronics - Wikipedia](https://en.wikipedia.org/wiki/Samsung_Electronics)
+- [Young Hyun Jun - Bloomberg Profile](https://www.bloomberg.com/profile/person/18354211)
+- [Jun Young-hyun - KoreaWho](https://www.koreawho.com/profile/JunYounghyun)
+- [The Samsung Co-CEOs - Quartr Insights](https://quartr.com/insights/business-philosophy/the-samsung-co-ceos-jong-hee-han-young-hyun-jun)
 - [Samsung Electronics Appointment of New CEO - CBonds](https://cbonds.com/news/3316765/)

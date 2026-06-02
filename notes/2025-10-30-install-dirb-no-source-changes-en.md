@@ -50,7 +50,7 @@ If editing the source (like `variables.h`) isn't an option—maybe due to a read
 #### 3. **Download Pre-Built Binary (Limited Availability)**
    - Official SourceForge releases are mostly source tarballs (e.g., dirb222.tar.gz), which still require building.
    - No universal binaries, but if you're on Kali/Parrot OS, the package route is best.
-   - As a hack: If you have Docker, pull a Kali image and run DirB inside: 
+   - As a hack: If you have Docker, pull a Kali image and run DirB inside:
      ```
      docker run -it kalilinux/kali-rolling dirb http://example.com
      ```

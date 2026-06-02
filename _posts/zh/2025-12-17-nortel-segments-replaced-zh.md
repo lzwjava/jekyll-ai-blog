@@ -36,10 +36,10 @@ Nortel 曾经竞争的更广泛的市场——向运营商和企业提供基础�
 
 这些公司通过 5G/6G、光系统和云原生网络方面的创新，共同取代了 Nortel 先前的市场地位。Nortel 的旧设备仍在某些网络中使用，但正日益被这些供应商取代或支持。
 
-参考文献：  
+参考文献：
 
-- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)  
-- [Ericsson 的 Nortel 资产收购](https://www.ericsson.com/en/about-us/history/changing-the-world/the-future-is-now/what-happened)  
-- [Network Telecom 关于 Nortel 买家](https://network-telecom.com/nortel-networks-phones-business-telecom/)  
-- [全球电信设备市场洞察](https://www.gminsights.com/industry-analysis/telecom-equipment-market)  
+- [Nortel - Wikipedia](https://en.wikipedia.org/wiki/Nortel)
+- [Ericsson 的 Nortel 资产收购](https://www.ericsson.com/en/about-us/history/changing-the-world/the-future-is-now/what-happened)
+- [Network Telecom 关于 Nortel 买家](https://network-telecom.com/nortel-networks-phones-business-telecom/)
+- [全球电信设备市场洞察](https://www.gminsights.com/industry-analysis/telecom-equipment-market)
 - [2025 年顶级电信设备供应商](https://nubiapage.com/top-10-best-telecom-equipment-manufacturers-in-the-world-2025/)

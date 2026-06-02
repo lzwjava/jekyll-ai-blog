@@ -12,7 +12,7 @@ type: note
 
 Question: What does this video say? (https://www.youtube.com/watch?v=1GbDTTK3aR4)
 
-Answer: 
+Answer:
 
 The video is a Stanford CS25 lecture titled "How I Learned to Stop Worrying and Love the Transformer," presented by Ashish Vaswani on November 7, 2023. Ashish Vaswani, one of the co-authors of the seminal 2017 paper "Attention is All You Need" that introduced the Transformer architecture, discusses the motivations behind the Transformer, its evolution, and potential future research directions.
 
@@ -43,8 +43,8 @@ The video is a Stanford CS25 lecture titled "How I Learned to Stop Worrying and 
 
 The lecture emphasizes how the Transformer has consolidated many AI approaches into a scalable, efficient architecture driving modern advancements.
 
-References:  
+References:
 
-- [Video Page](https://www.youtube.com/watch?v=1GbDTTK3aR4)  
-- [Stanford CS25 Course Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)  
+- [Video Page](https://www.youtube.com/watch?v=1GbDTTK3aR4)
+- [Stanford CS25 Course Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 - [Stanford CS25 Course Website](https://web.stanford.edu/class/cs25/)

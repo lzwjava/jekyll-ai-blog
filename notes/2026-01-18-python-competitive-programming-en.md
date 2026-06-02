@@ -18,24 +18,24 @@ In Codeforces and most algorithm contest platforms, the large majority of seriou
 
 Here is a realistic breakdown of who tends to use **Python** on Codeforces:
 
-- **Beginners and newcomers to competitive programming**  
+- **Beginners and newcomers to competitive programming**
   Very common choice — Python has simple syntax, no manual memory management, quick prototyping, built-in big integers, very convenient list/dict/set operations, easy input reading, etc. Many people start CP with Python because they already know it (from school, data science, scripting, LeetCode interviews…).
 
-- **People who mainly do interviews (FAANG-style, LeetCode, etc.)**  
+- **People who mainly do interviews (FAANG-style, LeetCode, etc.)**
   They often keep using Python on Codeforces because it's their daily working language.
 
-- **Participants who mostly solve Div. 3 / Div. 4 / Educational rounds / easier problems (rating roughly <1800–1900)**  
+- **Participants who mostly solve Div. 3 / Div. 4 / Educational rounds / easier problems (rating roughly <1800–1900)**
   Python is perfectly fine here — time limits are usually generous enough, and code is shorter/faster to write.
 
-- **PyPy speed enthusiasts**  
+- **PyPy speed enthusiasts**
   A smaller group who deliberately use **PyPy** (especially PyPy 64-bit) and learn many speed tricks (fast input, list comprehensions over loops, avoiding slow operations, etc.). They can reach **Expert ~ Master** (≈1600–2100) quite comfortably and sometimes higher.
 
-- **People who hate boilerplate and want maximum readability**  
+- **People who hate boilerplate and want maximum readability**
   Some coders strongly prefer Python's clean style even if they sometimes get TLE and have to optimize heavily or switch to C++ for the hardest problems.
 
 **Who almost never uses Python as main language (especially at high level):**
 
-- Most **Candidate Master → International Grandmaster / Legendary Grandmaster** (≈2100+)  
+- Most **Candidate Master → International Grandmaster / Legendary Grandmaster** (≈2100+)
   Python users become very rare above ~2200–2300. Almost no consistent red/orange users (and definitely no top-100 reds) use Python as primary language. The tight time constraints, heavy constant-factor problems, and need for maximum speed make C++ strongly dominant.
 
 **Rough usage statistics (based on older & recent community posts / observations):**

@@ -128,6 +128,6 @@ In Azure Kubernetes Service (AKS), microservices are typically deployed as **Pod
 
 This setup ensures reliable, scalable communication without tight coupling. Start with basic Services, then layer on security/mesh as needed.
 
-[AKS Networking Overview](https://learn.microsoft.com/en-us/azure/aks/concepts-network)  
-[Kubernetes Services Documentation](https://kubernetes.io/docs/concepts/services-networking/service/)  
+[AKS Networking Overview](https://learn.microsoft.com/en-us/azure/aks/concepts-network)
+[Kubernetes Services Documentation](https://kubernetes.io/docs/concepts/services-networking/service/)
 [AKS Microservices Tutorial](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster)

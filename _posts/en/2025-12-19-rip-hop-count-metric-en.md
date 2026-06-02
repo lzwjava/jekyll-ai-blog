@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which routing protocol uses hop count as its metric?  
-A) OSPF  
-B) RIP  
-C) BGP  
+Question: Which routing protocol uses hop count as its metric?
+A) OSPF
+B) RIP
+C) BGP
 D) EIGRP
 
-Answer: 
+Answer:
 
 The correct answer is **B) RIP**.
 

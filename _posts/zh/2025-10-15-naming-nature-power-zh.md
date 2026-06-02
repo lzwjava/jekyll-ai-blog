@@ -18,6 +18,6 @@ type: note
 
 如果你也在硅谷小径徒步（阿尔姆罗克公园就有不少宝藏），可以从简单的开始——像iNaturalist这类应用能让命名变得轻松。最近有哪种花让你感到困惑吗？
 
-[方舟子的X账号](https://x.com/fangshimin)  
-[示例帖子：今日所见野花](https://x.com/fangshimin/status/1976837337549296062)  
+[方舟子的X账号](https://x.com/fangshimin)
+[示例帖子：今日所见野花](https://x.com/fangshimin/status/1976837337549296062)
 [加州本土植物指南](https://www.calflora.org/)

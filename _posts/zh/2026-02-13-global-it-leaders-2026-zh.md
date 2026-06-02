@@ -12,7 +12,7 @@ type: note
 
 Question: 全球有哪些顶尖的 IT services 公司（类似于 Accenture 和 Infosys），为银行及大型企业提供 IT services 和 Outsourcing？
 
-Answer: 
+Answer:
 
 顶尖的 **IT services companies**（也称为 IT consulting、Outsourcing 和 Systems integration 公司）专门为大型企业（包括银行和主要跨国公司）提供 Application development、Maintenance、Cloud services、Digital transformation 以及 Outsourcing 解决方案。
 
@@ -46,7 +46,7 @@ Answer:
 
 这些公司通常处理银行业（Core banking、Digital banking、Compliance）和大型企业（ERP implementations、Cloud migration、AI adoption）的大规模 Outsourcing 合同。
 
-References:  
+References:
 
 - [Brand Finance IT Services 2025 Report](https://brandirectory.com/reports/it-services/2025)
 - [Top 10 most valuable IT service brands in 2025-26](https://indianexpress.com/article/trending/top-10-listing/top-10-most-valuable-it-service-brands-in-2025-26-10492522)

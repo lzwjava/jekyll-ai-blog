@@ -12,11 +12,11 @@ type: note
 
 Question: What is the content of the blog post at https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?
 
-Answer: 
+Answer:
 
 # Context Engineering for AI Agents: Lessons from Building Manus
 
-**Author:** Yichao "Peak" Ji  
+**Author:** Yichao "Peak" Ji
 **Date:** July 18, 2025
 
 The blog post shares practical lessons on "context engineering" — the art of carefully shaping the input context for large language models (LLMs) — drawn from the author's experience building **Manus**, a general-purpose autonomous AI agent that executes complex computer-based tasks.
@@ -52,6 +52,6 @@ Uniform few-shot examples can cause the agent to over-imitate patterns, leading 
 ## Conclusion
 Context engineering is an emerging but essential discipline for AI agents. It determines speed, robustness, recovery, and scalability. The lessons from Manus emphasize thoughtful context shaping over relying solely on bigger models. The future of agents will be built "one context at a time."
 
-References:  
+References:
 
 - [Original blog post](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)

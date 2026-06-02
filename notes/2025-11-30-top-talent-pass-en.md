@@ -17,13 +17,13 @@ The Top Talent Pass Scheme (TTPS) is a flagship immigration initiative launched 
 #### Key Eligibility Categories
 The TTPS divides applicants into three straightforward categories, making it accessible and flexible:
 
-- **Category A: High-Income Professionals**  
+- **Category A: High-Income Professionals**
   Individuals with an annual income of at least HK$2.5 million (approximately US$320,000) in the year immediately before application, or an average of HK$2.5 million over the three years preceding the application. This category emphasizes experienced executives and specialists.
 
-- **Category B: Top University Graduates with Experience**  
+- **Category B: Top University Graduates with Experience**
   Graduates from one of the world's top 100 universities (as ranked by QS, Times Higher Education, or Shanghai Jiao Tong University) who have at least three years of relevant work experience. No income threshold applies here.
 
-- **Category C: Recent Top University Graduates**  
+- **Category C: Recent Top University Graduates**
   Graduates from eligible top 100 universities who obtained their bachelor's degree within the past five years and have less than three years of work experience. This is quota-limited (currently up to 10,000 annually, on a first-come, first-served basis) and excludes those who completed full-time, locally accredited programs in Hong Kong.
 
 Applicants must generally be non-Chinese nationals or non-permanent residents of Hong Kong, though certain exceptions apply. Full lists of eligible universities are available on the official Immigration Department website.

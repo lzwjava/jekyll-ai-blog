@@ -24,7 +24,7 @@ Answer:
 
 Spanner Studio 直接集成在 Google Cloud 控制台的 Spanner 栏目下，包含以下主要组件和功能：
 
-- **Explorer 面板**  
+- **Explorer 面板**
   显示数据库对象的层级视图：
   - Tables
   - Indexes
@@ -35,28 +35,28 @@ Spanner Studio 直接集成在 Google Cloud 控制台的 Spanner 栏目下，包
 
   该面板允许您轻松浏览和导航数据库结构。
 
-- **Schema 管理**  
+- **Schema 管理**
   - 查看和编辑 Table Schema
   - 创建、修改或删除 Tables、Columns、Indexes 和 Foreign keys
   - 预览并验证后应用 Schema 变更
   - Schema Insights (一项新功能) 为您的 Schema 设计提供优化建议，帮助在大规模下保持性能
 
-- **数据管理**  
+- **数据管理**
   - 在表格视图中直接插入、更新、删除和编辑行 (类似于电子表格)
   - 通过分页和过滤功能浏览表中的数据
   - 导入/导出数据 (通过控制台支持有限的格式)
 
-- **Query Editor**  
+- **Query Editor**
   - 编写并执行 SQL queries (GoogleSQL 或 PostgreSQL 方言)
   - 以表格格式查看查询结果
   - 解释 Query Plans 以进行性能分析
   - 运行 Read-only 或 Read-write transactions
 
-- **Graph 和 Vector Search 支持**  
+- **Graph 和 Vector Search 支持**
   - 可视化和查询图关系 (Spanner Graph)
   - 为 AI/ML 用例执行 Vector 相似性搜索
 
-- **其他工具**  
+- **其他工具**
   - 查看数据库统计信息和内置的内省分析表
   - 管理 Backups、Restores 和 IAM 权限 (尽管某些高级操作可能仍需要 gcloud 或 API)
 

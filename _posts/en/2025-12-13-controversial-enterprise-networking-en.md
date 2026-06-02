@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about enterprise networking?
 
-Answer: 
+Answer:
 
 Enterprise networking discussions often feature strong opinions on vendors, technologies, and design principles. Here are some ideas commonly viewed as unpopular or controversial among professionals, based on community debates:
 
@@ -32,13 +32,13 @@ Enterprise networking discussions often feature strong opinions on vendors, tech
 
 These views often stem from real-world experiences with costs, support, and operational challenges, contrasting vendor hype or trends.
 
-References:  
+References:
 
-- https://www.reddit.com/r/networking/comments/17t26ak/tell_me_your_thoughts_on_the_best_enterprise/  
-- https://www.reddit.com/r/networking/comments/1gy1sxd/is_anyone_seriously_considering_unifi_for_an/  
-- https://packetpushers.net/blog/enterprise-networkers-can-learn-service-providers-part-1/  
-- https://www.paloaltonetworks.com/cyberpedia/sd-wan-vs-mpls  
-- https://www.reddit.com/r/networking/comments/18jsxoa/how_unpopular_is_the_opinion_that_ipv4_and_nat/  
-- https://www.networkworld.com/article/4102599/ai-driven-network-management-gains-enterprise-trust.html  
-- https://www.techtarget.com/searchsecurity/tip/Top-risks-of-deploying-zero-trust-cybersecurity-model  
+- https://www.reddit.com/r/networking/comments/17t26ak/tell_me_your_thoughts_on_the_best_enterprise/
+- https://www.reddit.com/r/networking/comments/1gy1sxd/is_anyone_seriously_considering_unifi_for_an/
+- https://packetpushers.net/blog/enterprise-networkers-can-learn-service-providers-part-1/
+- https://www.paloaltonetworks.com/cyberpedia/sd-wan-vs-mpls
+- https://www.reddit.com/r/networking/comments/18jsxoa/how_unpopular_is_the_opinion_that_ipv4_and_nat/
+- https://www.networkworld.com/article/4102599/ai-driven-network-management-gains-enterprise-trust.html
+- https://www.techtarget.com/searchsecurity/tip/Top-risks-of-deploying-zero-trust-cybersecurity-model
 - https://www.reddit.com/r/networking/comments/dpa9eg/is_cisco_best_in_enterprise_class_on_anything/

@@ -12,14 +12,14 @@ type: note
 
 Question: In the Battle of Xiao described in "The Battle of Xiao between Qin and Jin", what is the fundamental reason for the outbreak of the Battle of Xiao?
 
-A. The Qin army passed through Eastern Zhou without proper courtesy  
-B. Qin's attack on Zheng angered the state of Jin  
-C. Qin and Jin were contending for hegemony over the Central Plains  
-D. Qin did not mourn the death of the ruler of Jin  
+A. The Qin army passed through Eastern Zhou without proper courtesy
+B. Qin's attack on Zheng angered the state of Jin
+C. Qin and Jin were contending for hegemony over the Central Plains
+D. Qin did not mourn the death of the ruler of Jin
 
 The correct answer is C.
 
-Answer: 
+Answer:
 
 The fundamental cause of the Battle of Xiao (殽之战, 627 BCE) was **the struggle between Qin and Jin for hegemony in the Central Plains**.
 
@@ -53,6 +53,6 @@ Therefore, the most fundamental reason for the outbreak of the Battle of Xiao is
 
 **C. Qin and Jin contending for hegemony over the Central Plains**
 
-References:  
+References:
 
 - None (analysis based on standard historical interpretation of the Spring and Autumn period as recorded in Zuozhuan and commonly accepted in Chinese historical textbooks)

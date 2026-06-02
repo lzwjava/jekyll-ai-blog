@@ -13,7 +13,7 @@ type: note
 ### Frequency in Physics and Waves
 Frequency refers to the number of times a periodic event (like a wave cycle or vibration) repeats in a given unit of time. It's a fundamental concept in physics, especially for describing waves, oscillations, and signals.
 
-- **Key Formula**: Frequency \\( f \\) is the reciprocal of the period \\( T \\) (the time for one complete cycle):  
+- **Key Formula**: Frequency \\( f \\) is the reciprocal of the period \\( T \\) (the time for one complete cycle):
   \\[
   f = \frac{1}{T}
   \\]

@@ -35,7 +35,7 @@ Standard Chartered 将自己定位为领先的国际跨境银行，重点连接�
 
 该部门通过专注于新兴和高增长市场，而不是西方市场的广泛国内零售主导，从而使 Standard Chartered 与许多通用银行区分开来。
 
-**参考资料：**  
+**参考资料：**
 
 - [Corporate & Investment Banking | Standard Chartered](https://www.sc.com/en/corporate-investment-banking)
 - [Standard Chartered Investor Overview – February 2026](https://www.sc.com/en/uploads/sites/66/content/docs/standard-chartered-investor-overview-february-2026.pdf)

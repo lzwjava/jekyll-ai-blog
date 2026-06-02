@@ -12,7 +12,7 @@ type: note
 
 Question: 我们需要通过线下现场还是在线参加 Google Cloud 认证考试？如果是在线，他们如何防止 AI 作弊？
 
-Answer: 
+Answer:
 
 Google Cloud 认证考试提供**两种选择** —— 你可以选择：
 

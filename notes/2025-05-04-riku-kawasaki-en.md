@@ -17,7 +17,7 @@ Riku Kawasaki is a student at the prestigious **University of Tokyo**, where he 
 Kawasaki’s competitive programming career is marked by a series of extraordinary accomplishments across major platforms and international competitions:
 
 - **Codeforces**: Kawasaki achieved a peak rating of **3650**, earning the title of **Legendary Grandmaster**. As of March 2021, he held the world rank 2 on Codeforces with a rating of 3555, trailing only the legendary Gennady Korotkevich. Notably, he was the highest-rated Codeforces user without a single round win for a period, having secured second place seven times before finally winning his first Codeforces Round in October 2020. His current rating stands at 3581, reflecting his consistent excellence.[](https://iq.opengenus.org/riku-kawasaki/)[](https://codeforces.com/profile/maroonrk)
-  
+
 - **AtCoder**: Kawasaki is a top-rated competitor on AtCoder, where he has participated in and coordinated high-profile contests like the **AtCoder Grand Contests** and **World Tour Finals**. His work with AtCoder highlights his dual role as a competitor and a contributor to the programming community.[](https://codeforces.com/topic/140421/en1)
 
 - **Topcoder**: Under the handle **maroon_kuri**, Kawasaki was an **Algorithmic Finalist** at the **Topcoder Open 2019**, showcasing his versatility across different competitive programming platforms.[](https://iq.opengenus.org/riku-kawasaki/)[](https://cphof.org/profile/topcoder:maroon_kuri)

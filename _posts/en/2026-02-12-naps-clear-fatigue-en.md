@@ -12,7 +12,7 @@ type: note
 
 Question: Why does the brain sometimes feel tired and hard to think, focus, or study, but feel fresh again after about an hour nap?
 
-Answer: 
+Answer:
 
 Your brain accumulates **adenosine** — a natural chemical byproduct of brain activity — while you stay awake and work hard. High adenosine levels create "homeostatic sleep pressure," making you feel mentally exhausted, foggy, unfocused, and unable to concentrate effectively. This is the main biological reason behind afternoon brain tiredness or the classic "mental slump."
 
@@ -32,7 +32,7 @@ During even a relatively short nap (typically 20–90 minutes), your brain activ
 
 In short: your tired brain is literally "full" of adenosine and metabolic fatigue. A nap is like hitting the reset button by clearing that chemical load and giving neural networks a brief recovery period — that's why you often return feeling dramatically sharper and more capable after just 45–60 minutes of sleep.
 
-References:  
+References:
 
 - [Harvard Health - The science behind power naps](https://www.health.harvard.edu/staying-healthy/can-a-quick-snooze-help-with-energy-and-focus-the-science-behind-power-naps)
 - [ZME Science - An hour nap restores your brain's energy](https://www.zmescience.com/medicine/an-hour-nap-restores-your-brains-energy)

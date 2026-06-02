@@ -21,7 +21,7 @@ type: note
   - 基于 pod 标签、命名空间、IP 块 (CIDR) 允许/拒绝流量。
   - 在端口和协议级别控制 ingress/egress。
   - 示例：“仅允许命名空间 prod 中标签为 app=frontend 的 pod 连接到标签为 app=backend 的 pod 的端口 8080”。
-- **Limitation**： 
+- **Limitation**：
   - 无身份感知（不知道 HTTP、gRPC 或用户身份）。
   - 无应用层 (L7) 策略，如基于 HTTP 路径/方法的路由。
   - 无法强制加密 (mTLS)。
@@ -93,7 +93,7 @@ type: note
    - 阻止绕过 mesh 的流量（例如 init containers、host networking pod、外部 ingress）。
    - 到外部服务的 egress 控制。
 
-简而言之：  
+简而言之：
 **mTLS** 提供加密 + 强大身份 → **Istio AuthorizationPolicy** 使用这些身份进行 L7 授权 → **Kubernetes NetworkPolicy** 添加额外的 L3/L4 安全网。
 
 它们并不相互排斥 — 在生产 Istio 设置中，应一起使用所有三个。

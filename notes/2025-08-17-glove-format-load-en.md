@@ -57,7 +57,7 @@ vec = np.asarray(line[1:], dtype=np.float32)
 
 ```python
 parts = line.rstrip().split(' ')
-if len(parts) < 2: 
+if len(parts) < 2:
     continue
 if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit():
     # looks like a word2vec-style header: "<vocab> <dim>"

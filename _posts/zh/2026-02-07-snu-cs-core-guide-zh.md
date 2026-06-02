@@ -66,7 +66,7 @@ type: note
 
 如需获取最新且完整的列表，请查看官方系所网站 (cse.snu.ac.kr) 的 academics/undergraduate/courses 或 curriculum 板块，或者查阅大学课程目录。
 
-**References:**  
+**References:**
 
 - [https://cse.snu.ac.kr/academics/undergraduate/courses](https://cse.snu.ac.kr/academics/undergraduate/courses)
 - [https://cse.snu.ac.kr/academics/undergraduate/curriculum](https://cse.snu.ac.kr/academics/undergraduate/curriculum)

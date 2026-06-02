@@ -32,7 +32,7 @@ While Alibaba does not disclose the specific datasets, the training involved sev
 * **Post-Training:** Extensive Reinforcement Learning (RL) was used to enhance "Thinking Mode" (internal reasoning) and agentic capabilities.
 
 ### **3. Hardware & Estimated Costs**
-The model is optimized for **NVIDIA GPU-accelerated systems** (H100/H200/B200 clusters). 
+The model is optimized for **NVIDIA GPU-accelerated systems** (H100/H200/B200 clusters).
 
 * **Card Requirements:** Due to its 397B total parameters, even with 4-bit quantization (~200GB+ VRAM), it typically requires a multi-GPU setup (e.g., **8x H100 80GB** or **4x B200**) just for inference. Training such a model would require thousands of interconnected GPUs.
 * **API Costs (per 1M tokens):** * **Input:** ~$0.39 - $0.60

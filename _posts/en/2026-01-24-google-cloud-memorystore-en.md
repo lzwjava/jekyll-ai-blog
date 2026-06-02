@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Memorystore in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 Memorystore is **Google Cloud's fully managed in-memory data store service**. It provides compatible implementations of popular open-source in-memory engines, allowing you to use them without managing servers, patching, backups, or high-availability setup yourself.
 
@@ -65,7 +65,7 @@ As of 2025–2026, Memorystore supports two main engines:
 
 In summary: Memorystore lets you get production-grade Redis-compatible (or Memcached) performance on Google Cloud with almost zero operational overhead. In most new projects today you should choose between **Memorystore for Valkey** (future-proof, open) or **Memorystore for Redis Cluster** (if you need features added after Redis 7.2 or have existing Redis 7.4+ dependencies).
 
-References:  
+References:
 
 - [Memorystore overview](https://cloud.google.com/memorystore)
 - [Memorystore for Redis overview](https://cloud.google.com/memorystore/docs/redis/memorystore-for-redis-overview)

@@ -25,5 +25,5 @@ Etsy or AliExpress have adjustable ones where you can spec exact widths—search
 
 Yeah, customization's the future fix—body-positive designs incoming, hopefully.
 
-[Compact Steering Wheel Tray Options](https://www.amazon.com/s?k=steering+wheel+tray+narrow)  
+[Compact Steering Wheel Tray Options](https://www.amazon.com/s?k=steering+wheel+tray+narrow)
 [Custom Narrow Car Desk](https://www.etsy.com/search?q=custom+steering+wheel+tray+narrow)

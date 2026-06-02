@@ -40,17 +40,17 @@ LLMs are **quite good dictionaries for most everyday purposes**, but they are **
 
 **Quick rule of thumb most people use in 2025–2026:**
 
-- Want to quickly understand a word/phrase in context?  
+- Want to quickly understand a word/phrase in context?
   → LLM is usually **faster and more helpful** than opening a dictionary
 
-- Writing academic paper, legal text, historical analysis, lexicography work, or very precise translation?  
+- Writing academic paper, legal text, historical analysis, lexicography work, or very precise translation?
   → Go to a proper dictionary (or multiple) + corpus evidence
 
-- Learning very new slang / extremely recent terminology (2025–2026 internet / crypto / AI / gaming slang)?  
+- Learning very new slang / extremely recent terminology (2025–2026 internet / crypto / AI / gaming slang)?
   → LLM often knows it weeks/months earlier than most dictionaries
 
-So yes — for 90–95% of daily life usage, LLMs are **excellent practical dictionaries**.  
+So yes — for 90–95% of daily life usage, LLMs are **excellent practical dictionaries**.
 But when precision, history, or verifiability really matter, they remain **only an approximation** of real lexicographic resources.
 
-**References:**  
+**References:**
 - None (general knowledge about LLM capabilities and dictionary standards as of early 2026)

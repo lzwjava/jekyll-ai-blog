@@ -20,7 +20,7 @@ type: note
 
 These are the two primary airports; Hong Kong's Shek Kong Airfield is mainly military and not for commercial use.
 
-**References**  
-- [Hong Kong International Airport - Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_International_Airport)  
-- [Macau International Airport - Wikipedia](https://en.wikipedia.org/wiki/Macau_International_Airport)  
+**References**
+- [Hong Kong International Airport - Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_International_Airport)
+- [Macau International Airport - Wikipedia](https://en.wikipedia.org/wiki/Macau_International_Airport)
 - [Hong Kong Airports - TravelTriangle](https://traveltriangle.com/blog/hong-kong-airports/)

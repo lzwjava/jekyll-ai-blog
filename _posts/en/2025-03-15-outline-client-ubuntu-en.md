@@ -14,29 +14,29 @@ Yes, you can install the Outline Client on Ubuntu, as it is a Debian-based Linux
 
 Follow these steps to install the Outline Client on your Ubuntu system:
 
-1. **Open a Terminal**  
+1. **Open a Terminal**
    Launch the terminal application on your Ubuntu system. You can do this by searching for "Terminal" in the applications menu or pressing `Ctrl + Alt + T`.
 
-2. **Install Outline’s Repository Key**  
+2. **Install Outline’s Repository Key**
    Run the following command to download and add the repository’s signing key to your system’s trusted keys. This ensures that packages from the repository are verified for authenticity:
    ```bash
    wget -qO- https://us-apt.pkg.dev/doc/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/gcloud-artifact-registry-us.gpg
    ```
 
-3. **Add the Outline Client Repository**  
+3. **Add the Outline Client Repository**
    Add the Outline Client repository to your system’s sources list by running this command. This tells Ubuntu where to find the Outline Client package:
    ```bash
    echo "deb [arch=amd64] https://us-apt.pkg.dev/projects/jigsaw-outline-apps outline-client main" | sudo tee /etc/apt/sources.list.d/outline-client.list
    ```
    - Note: The `[arch=amd64]` part specifies that this is for 64-bit systems. Most modern Ubuntu installations are 64-bit, but you can confirm your system’s architecture by running `uname -m`. If it outputs `x86_64`, you’re using a 64-bit system, and this command will work as is.
 
-4. **Update the Package List**  
+4. **Update the Package List**
    Refresh your system’s package list to include the newly added Outline repository:
    ```bash
    sudo apt update
    ```
 
-5. **Install the Outline Client**  
+5. **Install the Outline Client**
    Install the latest version of the Outline Client with this command:
    ```bash
    sudo apt install outline-client

@@ -37,7 +37,7 @@ A 3% hydrogen peroxide solution in a 500ml bottle, left open and undisturbed, wi
 - **Timeframe**: At 3% concentration, hydrogen peroxide is relatively stable compared to higher concentrations, but an open bottle could lose significant potency within days to weeks. Studies suggest that even in sealed conditions, 3% hydrogen peroxide can lose about 1-2% of its strength per year at room temperature. An open bottle will degrade faster—potentially losing effectiveness within a few days if exposed to air and light.
 - **Conditions**: If the bottle is left in a cool, dark place, decomposition will be slower than if it’s exposed to sunlight or heat. Light, especially UV, and higher temperatures catalyze the breakdown.
 
-**Practical Impact**: 
+**Practical Impact**:
 - For uses like disinfection or wound cleaning, the solution may still be somewhat effective for a short period (e.g., a day or two) if uncontaminated, but potency will decrease steadily. After a week or more, it may be too weak for reliable use.
 - To preserve effectiveness, store hydrogen peroxide in a sealed, opaque container in a cool, dark place.
 

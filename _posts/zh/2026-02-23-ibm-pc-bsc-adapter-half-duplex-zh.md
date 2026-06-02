@@ -22,7 +22,7 @@ type: note
 - Full-duplex 允许同时双向通信，这在没有额外硬件或协议增强的情况下，通常不被基本的 BSC 实现支持。
 - 因此，IBM PC BSC adapter 针对 **half-duplex** 环境进行了优化。
 
-**正确答案：**  
+**正确答案：**
 **A. 半双工传输线路设计的 (Designed for half-duplex transmission lines)**
 
 参考文献：

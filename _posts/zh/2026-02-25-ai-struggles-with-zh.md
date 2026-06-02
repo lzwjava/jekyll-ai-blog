@@ -27,23 +27,23 @@ type: note
 
 ### 视觉描述在前台失败的主要原因
 
-1. **自然语言中的海量信息丢失**  
-   “一个美丽的居中登录表单，带有现代蓝色按钮”  
+1. **自然语言中的海量信息丢失**
+   “一个美丽的居中登录表单，带有现代蓝色按钮”
    → 存在数百种有效实现（padding？font？border-radius？hover？mobile？contrast ratio？）
 
-2. **缺乏共享视觉基础**  
+2. **缺乏共享视觉基础**
    模型从未“见过”你的屏幕。它仅从训练截图 + 代码中了解统计模式。
 
-3. **CSS 高度上下文敏感**  
-   - `position: absolute` vs `flex` vs `grid` 会彻底改变一切  
-   - `gap` vs `margin` vs `padding` 与父元素交互不同  
+3. **CSS 高度上下文敏感**
+   - `position: absolute` vs `flex` vs `grid` 会彻底改变一切
+   - `gap` vs `margin` vs `padding` 与父元素交互不同
    - Tailwind vs CSS modules vs styled-components 会显著改变语法表面
 
-4. **UI 审美极度主观**  
+4. **UI 审美极度主观**
    你认为的“clean/minimal/elegant”可能与 GitHub 代码中的主流完全不同 → 模型偏向平均水平
 
-5. **聊天中缺乏迭代视觉反馈循环**  
-   Backend：“此字段返回 422 → 修复验证” → 1–2 轮  
+5. **聊天中缺乏迭代视觉反馈循环**
+   Backend：“此字段返回 422 → 修复验证” → 1–2 轮
    Frontend：“在移动端未居中” → 需要多轮截图 + 描述
 
 ### 2025–2026 年在前台明显更有效的实用模式
@@ -52,11 +52,11 @@ type: note
 
   1. 提供现有类似代码 + 说“让它看起来像这个但更改 X”
   2. 粘贴**非常详细**的 Figma 检查面板导出（spacing、颜色为 hex/hsl、font stack、weights、line-heights…）
-  3. 以文本形式给出精确的**组件分解**  
-     示例：  
-     - outer: flex col, items-center, min-h-screen, bg-gray-50  
-     - card: w-full max-w-md, p-8, bg-white, rounded-2xl, shadow-xl  
-     - logo: mb-8, h-12, mx-auto  
+  3. 以文本形式给出精确的**组件分解**
+     示例：
+     - outer: flex col, items-center, min-h-screen, bg-gray-50
+     - card: w-full max-w-md, p-8, bg-white, rounded-2xl, shadow-xl
+     - logo: mb-8, h-12, mx-auto
      - inputs: space-y-5 …
 
   4. 使用 Tailwind + 给出几乎逐行的 className 字符串
@@ -84,16 +84,16 @@ Task: centered login card containing: logo (h-10), email input, password input, 
 
 ### 总结
 
-Backend 发挥了语言模型的优势（符号推理 + 严格契约）。  
+Backend 发挥了语言模型的优势（符号推理 + 严格契约）。
 Frontend 暴露了它们的弱点（仅通过文本的空间推理 + 高审美变异）。
 
 在模型对**纯描述的视觉推理**大幅改进之前（或每个人都常规附加 Figma/实际截图），最有效的方式是：
 
-- 给出结构化文本规范（测量值、tokens、布局类型）  
+- 给出结构化文本规范（测量值、tokens、布局类型）
 - 或给出视觉参考 + 小修改请求
 
 这通常能缩小 70–80% 的质量差距，与“让它看起来 nice 和 modern”相比。
 
-参考文献：  
+参考文献：
 
 - 无（常见开发者经验观察，未使用特定外部来源）

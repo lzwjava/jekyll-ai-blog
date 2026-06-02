@@ -96,14 +96,14 @@ class CF123ATest {
 ---
 
 ### 4. 主要特性：
-1. **输入重定向**  
+1. **输入重定向**
    - 从 `src/test/resources` 读取 `1.in` 作为 `System.in`。
    - 使用 `ByteArrayOutputStream` 捕获 `System.out`。
 
-2. **输出验证**  
+2. **输出验证**
    - 根据期望输出进行断言（或检查关键模式）。
 
-3. **资源清理**  
+3. **资源清理**
    - 测试完成后恢复原始的 `System.in`/`System.out`。
 
 ---

@@ -45,8 +45,8 @@ type: note
 
 如需完整体验，请在YouTube上观看播放列表（搜索“Kyle Bass Miles Kwok Real Vision”）。
 
-参考资料：  
-- [China's Double Economy (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=5Fdsj46X84o)  
-- [Why Is Miles Kwok In America? (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=LCuMjMcwT9U)  
-- [Killing The Hong Kong Dollar (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=EH0aDAIEfDM)  
+参考资料：
+- [China's Double Economy (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=5Fdsj46X84o)
+- [Why Is Miles Kwok In America? (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=LCuMjMcwT9U)
+- [Killing The Hong Kong Dollar (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=EH0aDAIEfDM)
 - [Exiled Chinese Billionaire Tells All: An Interview with Kyle Bass and Miles Kwok | Real Vision](https://www.realvision.com/exiled-chinese-billionaire-tells-all)

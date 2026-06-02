@@ -76,8 +76,8 @@ result = subprocess.run("ls -l | grep .py", shell=True, capture_output=True, tex
 
 对于更高级的控制（例如，流式传输或超时），请使用 `subprocess.Popen()`，但 `run()` 涵盖了大多数常见情况。
 
-参考：  
+参考：
 
-- [Python 官方文档：subprocess — Subprocess management](https://docs.python.org/3/library/subprocess.html)  
-- [An Introduction to Python Subprocess: Basics and Examples | DataCamp](https://www.datacamp.com/tutorial/python-subprocess)  
+- [Python 官方文档：subprocess — Subprocess management](https://docs.python.org/3/library/subprocess.html)
+- [An Introduction to Python Subprocess: Basics and Examples | DataCamp](https://www.datacamp.com/tutorial/python-subprocess)
 - [The subprocess Module: Wrapping Programs With Python – Real Python](https://realpython.com/python-subprocess/)

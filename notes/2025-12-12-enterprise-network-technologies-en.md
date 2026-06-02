@@ -12,23 +12,23 @@ type: note
 
 Question: Provide a comprehensive introduction to key enterprise network technologies, including VRRP, MPLS VPN basics, QoS, and related topics.
 
-Answer: 
+Answer:
 
 Enterprise networks are large-scale, mission-critical networks that support organizations with high availability, security, performance, and scalability requirements. Below is a structured, comprehensive introduction to some of the most important technologies used in modern enterprise environments.
 
 ### 1. First-Hop Redundancy Protocols (FHRP)
 These protocols provide gateway redundancy for hosts, ensuring continuous connectivity if a default gateway fails.
 
-- **VRRP (Virtual Router Redundancy Protocol)**  
-  - Industry-standard (RFC 5798)  
-  - Multiple routers share a virtual IP and virtual MAC address  
-  - One router is Master (Active), others are Backup  
-  - Preemption is enabled by default (higher-priority router takes over)  
-  - Uses multicast 224.0.0.18, protocol number 112  
-  - Authentication deprecated in RFC 5798 (use IPsec if needed)  
+- **VRRP (Virtual Router Redundancy Protocol)**
+  - Industry-standard (RFC 5798)
+  - Multiple routers share a virtual IP and virtual MAC address
+  - One router is Master (Active), others are Backup
+  - Preemption is enabled by default (higher-priority router takes over)
+  - Uses multicast 224.0.0.18, protocol number 112
+  - Authentication deprecated in RFC 5798 (use IPsec if needed)
   - Common in multi-vendor environments (Cisco, Juniper, Arista, etc.)
 
-- **HSRP (Hot Standby Router Protocol)** – Cisco proprietary  
+- **HSRP (Hot Standby Router Protocol)** – Cisco proprietary
 - **GLBP (Gateway Load Balancing Protocol)** – Cisco proprietary, provides load balancing
 
 ### 2. Quality of Service (QoS)

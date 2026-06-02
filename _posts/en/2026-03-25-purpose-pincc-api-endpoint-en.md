@@ -36,7 +36,7 @@ If you’re looking to **interact with it programmatically**, the general struct
 
 ```
 POST https://v2-as.pincc.ai/responses
-Headers: 
+Headers:
   Content-Type: application/json
 Body:
   {

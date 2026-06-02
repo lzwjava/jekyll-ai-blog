@@ -40,7 +40,7 @@ Your understanding of the sequence, target, and tokenization is generally correc
 \\(\\)\text{Input Tensor Shape} = (B, N)\\(\\)
 
 * **Loss Calculation:** The **Cross-Entropy Loss** is calculated for *all* \\(B \times N\\) predictions in that single step. The final loss is usually the average of the loss calculated over all these tokens.
-* 
+*
 
 ---
 

@@ -11,7 +11,7 @@ type: note
 
 Question: How can I use reading to practice and improve writing in English? Is it effective to read something and then think about how to write it?
 
-Answer: 
+Answer:
 
 Yes, reading is one of the most powerful (and proven) ways to improve your English writing, but **passive reading alone gives only slow, limited improvement**. The real gains come when you turn reading into **active practice** for writing. Your idea ("every time read something, then think about how to write it") is already on the right track — it just needs more structure to become really effective.
 
@@ -79,7 +79,7 @@ Keep a simple notebook (digital or paper):
 
 If you do active versions of "read → think how to write it" consistently (especially rewriting and imitating), you will see noticeable improvement in 2–6 months, depending on how much you read and practice.
 
-References:  
+References:
 
 - [10 Reasons Why Reading a Lot Would Improve Your Writing Skills Unexpectedly](https://baos.pub/10-reasons-why-reading-a-lot-would-improve-your-writing-skills-unexpectedly-d07308c1c50d)
 - [Read to Be a Better Writer](https://tinateachesenglish.com/become-a-better-writer-through-reading)

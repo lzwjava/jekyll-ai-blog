@@ -12,7 +12,7 @@ type: note
 
 Question: What is the transparent liquid in fresh packets when receiving cold delivery products? It is like transparent small liquids; when I put it into the wash basket, it can actually stop the water from going down. I mean it is transparent, like porridge or other materials, they have size, size also not small, they like sand.
 
-Answer: 
+Answer:
 
 The substance you're describing from cold delivery packages (like meal kits, fresh food, or perishable items shipped with cooling) is most likely the gel from a **reusable gel ice pack** or cold pack.
 
@@ -39,7 +39,7 @@ These are **not** the small silica gel desiccant packets (those are dry beads fo
 
 This is a standard feature in cold-chain deliveries for food, groceries, or fresh products to maintain temperature without leaking water everywhere.
 
-References:  
+References:
 
 - [https://bringmethenews.com/minnesota-lifestyle/what-should-you-do-with-all-the-ice-packs-in-your-meal-delivery-kits](https://bringmethenews.com/minnesota-lifestyle/what-should-you-do-with-all-the-ice-packs-in-your-meal-delivery-kits)
 - [https://www.peltonshepherd.com/resources/industry-updates/what-is-the-gel-in-ice-packs](https://www.peltonshepherd.com/resources/industry-updates/what-is-the-gel-in-ice-packs)

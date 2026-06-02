@@ -28,6 +28,6 @@ Sutskever打趣道：“对不熟悉的人来说，LSTM是Transformer出现前�
 
 这一视角将LSTM重新定义为理解跳跃连接如何解锁多维度深度网络的关键基石，而非过时技术。
 
-[序列到序列学习十年回顾：演讲实录与视频](https://kingy.ai/news/sequence-to-sequence-learning-with-neural-networks-what-a-decade-transcript-video/)  
-[Ilya Sutskever NeurIPS 2024完整演讲](https://www.youtube.com/watch?v=1yvBqasHLZs)  
+[序列到序列学习十年回顾：演讲实录与视频](https://kingy.ai/news/sequence-to-sequence-learning-with-neural-networks-what-a-decade-transcript-video/)
+[Ilya Sutskever NeurIPS 2024完整演讲](https://www.youtube.com/watch?v=1yvBqasHLZs)
 [从Ilya的NeurIPS 2024演讲获得的启示](https://dlyog.com/papers/one_internet_v1)

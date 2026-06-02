@@ -26,9 +26,9 @@ pip install torch numpy transformers datasets tiktoken wandb tqdm
 nanoGPT 要求数据以包含令牌化整数的二进制文件（`train.bin` 和 `val.bin`）形式提供。您需要编写一个简单的准备脚本来处理原始文本。
 
 - **放置文本文件**：将原始文本文件（如 `input.txt`）放入 `data/` 下的新建文件夹中，例如 `data/my_dataset/`。
-  
+
 - **创建准备脚本**：从代码库复制并修改示例脚本（例如，字符级处理使用 `data/shakespeare_char/prepare.py`，GPT-2 BPE 令牌级处理使用 `data/openwebtext/prepare.py`）。
-  
+
   **字符级令牌化示例**（适用于小型数据集，将每个字符视为一个令牌）：
   ```python
   # 保存为 data/my_dataset/prepare.py

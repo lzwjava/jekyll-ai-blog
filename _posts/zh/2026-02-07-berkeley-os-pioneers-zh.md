@@ -12,7 +12,7 @@ type: note
 
 Question: Give some famous authors or contributors in above, like Richard Stallman, Ion Stoica etc.
 
-Answer: 
+Answer:
 
 以下是与 UC Berkeley 开源传统（主要包括 BSD 时代以及 Apache Spark 和 RISC-V 等现代项目）相关的一些最著名且最具影响力的贡献者。请注意，Richard Stallman 与 Berkeley 的开源工作并无直接联系 —— 他创立了 GNU Project 和 Free Software Foundation，与 Berkeley 推崇的宽松 BSD License 传统相比，他采取的是另一种（以 Copyleft 为核心）的方式。
 
@@ -41,7 +41,7 @@ Berkeley 通过其研究实验室持续产出重大的开源软件：
 
 这些人（特别是 BSD 时代的成员）帮助建立了影响现代计算的宽松开源模式，而像 Stoica 和 Asanović 这样的近期贡献者则延续了 Berkeley 在 Cloud、AI 和 Hardware 领域的传统。
 
-References:  
+References:
 
 - [History of the Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution)
 - [Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)

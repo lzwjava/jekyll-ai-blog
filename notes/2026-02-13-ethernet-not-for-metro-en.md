@@ -12,12 +12,12 @@ type: note
 
 Question: Which of the following network technologies cannot be used for metropolitan area networks (MAN)?
 
-A. FDDI  
-B. Ethernet  
-C. DQDB  
-D. ISDN  
+A. FDDI
+B. Ethernet
+C. DQDB
+D. ISDN
 
-Answer: 
+Answer:
 
 The correct answer is **B. Ethernet**.
 
@@ -35,6 +35,6 @@ The correct answer is **B. Ethernet**.
 
 Therefore, the correct choice is **B. Ethernet**.
 
-References:  
+References:
 
 - None (this is based on standard networking textbook classification in many Chinese IT certification materials)

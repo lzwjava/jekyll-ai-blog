@@ -4,7 +4,7 @@ def build_prompt(post_titles, years, recommend_desc):
     return f"""Here is a list of my blog post titles from the last {years} year(s):
 {"\n".join(all_posts_with_titles)}
 
-Recommend the ones that would be most interesting to a visitor who is a {recommend_desc}. Focus on topics that align with their interests. 
+Recommend the ones that would be most interesting to a visitor who is a {recommend_desc}. Focus on topics that align with their interests.
 
 First, select the most suitable titles and prepare brief reasons why each is suitable.
 

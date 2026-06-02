@@ -37,11 +37,11 @@ AI Assistant requires a JetBrains AI license (free trial available) and is power
 
 All these tools integrate AI deeply, but Cursor is the most AI-centric, VS Code/Copilot is flexible and widely used, and IntelliJ's AI is tailored for enterprise/Java-heavy workflows. Choose based on your preferred ecosystem.
 
-References:  
-[GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)  
-[Get started with GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/getting-started)  
-[Features | Cursor - The AI Code Editor](https://cursor.com/en/features)  
-[Cursor AI: A Guide With 10 Practical Examples](https://www.datacamp.com/tutorial/cursor-ai-code-editor)  
-[Use AI in editor | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)  
-[AI Assistant in JetBrains IDEs | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html)  
+References:
+[GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
+[Get started with GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/getting-started)
+[Features | Cursor - The AI Code Editor](https://cursor.com/en/features)
+[Cursor AI: A Guide With 10 Practical Examples](https://www.datacamp.com/tutorial/cursor-ai-code-editor)
+[Use AI in editor | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)
+[AI Assistant in JetBrains IDEs | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html)
 [Use AI prompts to explain and refactor your code | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/use-prompts-to-explain-and-refactor-your-code.html)

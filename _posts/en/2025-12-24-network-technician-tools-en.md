@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a summary of the YouTube video at https://www.youtube.com/watch?v=HAceoquch1c
 
-Answer: 
+Answer:
 
 The YouTube video titled **"Networking Tools - Hardware"** is an animated educational video from the channel **PowerCert Animated Videos**, uploaded on November 5, 2020.
 
@@ -34,6 +34,6 @@ It explains the essential hardware tools used by network technicians for creatin
 
 The video emphasizes practical applications, such as making custom Ethernet cables, identifying faults, and ensuring reliable network connections. It concludes by encouraging viewers to subscribe and follow the channel.
 
-References:  
+References:
 
 - [Original YouTube Video](https://www.youtube.com/watch?v=HAceoquch1c)

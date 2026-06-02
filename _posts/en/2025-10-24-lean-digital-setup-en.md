@@ -19,12 +19,12 @@ Take the stats: In the app economy, over 30% of apps scrape by with under 100 do
 Regretting those extra 200 installs? Totally valid—deleting feels like admitting defeat, but it's actually a power move. Here's a quick ritual to make it less painful:
 
 - **Audit ruthlessly**: Swipe through your home screens. Ask: "Have I opened this in 30 days? Does it overlap with Grok/Claude/Copilot?" If no, it's gone. Tools like App Usage trackers (built into iOS Settings > Screen Time) can quantify the dead weight.
-  
+
 - **Offload, don't delete**: iOS lets you remove apps from your device but keep data/docs in iCloud. Perfect for "maybe later" without the guilt.
 
 - **Curate categories**: Limit to 5–10 per folder (e.g., "Dev Essentials," "Brain Food"). And for games? Set a "one in, one out" rule—new download means axing an old one.
 
-In the end, it's liberating to remember: apps are tools, not treasures. You've already won by realizing less is more. What's one app you're eyeing to nuke first? Or hey, got a coding puzzle Claude's stumped on? Fire away—I'm here for the un-cluttered chats. 
+In the end, it's liberating to remember: apps are tools, not treasures. You've already won by realizing less is more. What's one app you're eyeing to nuke first? Or hey, got a coding puzzle Claude's stumped on? Fire away—I'm here for the un-cluttered chats.
 
-[App Store Statistics 2025: Revenue, Downloads, and Market Shifts](https://sqmagazine.co.uk/app-store-statistics/)  
+[App Store Statistics 2025: Revenue, Downloads, and Market Shifts](https://sqmagazine.co.uk/app-store-statistics/)
 [Do Mobile Applications Bring Longer Tail? An Empirical Study](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1403&context=icis2017)

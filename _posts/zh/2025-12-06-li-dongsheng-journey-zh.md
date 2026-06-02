@@ -34,11 +34,11 @@ type: note
 
 李东升荣获“全国劳动模范”称号，当选中国共产党第十六次全国代表大会代表，并被中央电视台评为“十年商业领袖”。2024年，63岁的他评论了美国主导的“技术脱钩”，倡导建立有韧性的供应链。他的哲学——“坚持竞争优势，拥抱创新，不断发展”——使TCL从一个小型作坊成长为一个市值超过200亿美元的巨头，激励着中国企业走向全球的雄心。
 
-参考文献：  
-- [Li Dongsheng and TCL](https://english.ckgsb.edu.cn/story/li-dongsheng-leader-of-the-globalization-of-chinas-electronics-industry/)  
-- [Mr. LI Dongsheng](https://electronics.tcl.com/en/cg/lidongsheng.php)  
-- [Li Dongsheng - Agenda Contributor | World Economic Forum](https://www.weforum.org/stories/authors/tomson-li-dongsheng/)  
-- [Li Dongsheng - CEO & Founder @ TCL Technology - Crunchbase Person Profile](https://www.crunchbase.com/person/li-dongsheng)  
-- [Li Dongsheng - 中国日报网](http://www.chinadaily.com.cn/m/bizleaders/2012-09/16/content_15738524.htm)  
-- [Li Dongsheng, pioneering entrepreneur with global vision-China Story](https://www.chinastory.cn/PCywdbk/english/v1/detail/20190929/1012700000042741569810730298767651_1.html)  
+参考文献：
+- [Li Dongsheng and TCL](https://english.ckgsb.edu.cn/story/li-dongsheng-leader-of-the-globalization-of-chinas-electronics-industry/)
+- [Mr. LI Dongsheng](https://electronics.tcl.com/en/cg/lidongsheng.php)
+- [Li Dongsheng - Agenda Contributor | World Economic Forum](https://www.weforum.org/stories/authors/tomson-li-dongsheng/)
+- [Li Dongsheng - CEO & Founder @ TCL Technology - Crunchbase Person Profile](https://www.crunchbase.com/person/li-dongsheng)
+- [Li Dongsheng - 中国日报网](http://www.chinadaily.com.cn/m/bizleaders/2012-09/16/content_15738524.htm)
+- [Li Dongsheng, pioneering entrepreneur with global vision-China Story](https://www.chinastory.cn/PCywdbk/english/v1/detail/20190929/1012700000042741569810730298767651_1.html)
 - [TCL founder Dongsheng Li says U.S. is driving deglobalization | Fortune](https://fortune.com/2024/04/01/tcl-founder-ceo-dongsheng-li-deglobalization-us-tech-restrictions/)

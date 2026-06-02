@@ -135,15 +135,15 @@ func setupVPN() {
             print("加载 VPN 偏好设置失败: \(error)")
             return
         }
-        
+
         let vpnProtocol = NEVPNProtocolIKEv2()
         vpnProtocol.serverAddress = "vpn.example.com" // 替换为您的 VPN 服务器
         vpnProtocol.remoteIdentifier = "vpn.example.com"
         vpnProtocol.authenticationMethod = .certificate // 根据需要配置
-        
+
         vpnManager.protocolConfiguration = vpnProtocol
         vpnManager.isEnabled = true
-        
+
         vpnManager.saveToPreferences { error in
             if let error = error {
                 print("保存 VPN 偏好设置失败: \(error)")

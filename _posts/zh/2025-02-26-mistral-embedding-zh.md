@@ -31,11 +31,11 @@ import numpy as np
 def call_mistral_embeddings_api(texts, model="mistral-embed"):
     """
     调用 Mistral AI 嵌入 API 为文本列表生成嵌入向量
-    
+
     参数：
         texts (list): 要嵌入的字符串列表
         model (str): 使用的嵌入模型（默认为 "mistral-embed"）
-    
+
     返回：
         list: 嵌入向量列表，如果请求失败则返回 None
     """
@@ -43,7 +43,7 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
     if not api_key:
         print("错误：未设置 MISTRAL_API_KEY 环境变量")
         return None
-    
+
     url = "https://api.mistral.ai/v1/embeddings"
     headers = {
         "Content-Type": "application/json",
@@ -54,7 +54,7 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
         "model": model,
         "input": texts
     }
-    
+
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
@@ -75,11 +75,11 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
 def calculate_similarity(emb1, emb2):
     """
     使用点积计算两个嵌入向量之间的相似度
-    
+
     参数：
         emb1 (list): 第一个嵌入向量
         emb2 (list): 第二个嵌入向量
-    
+
     返回：
         float: 相似度得分（点积，对于归一化向量等同于余弦相似度）
     """
@@ -92,18 +92,18 @@ if __name__ == "__main__":
         "Python is a great programming language.",
         "The weather is sunny today."
     ]
-    
+
     # 生成嵌入向量
     embeddings = call_mistral_embeddings_api(texts)
     if embeddings:
         # 打印嵌入维度
         print(f"嵌入维度：{len(embeddings[0])}")
-        
+
         # 计算成对相似度
         sim_12 = calculate_similarity(embeddings[0], embeddings[1])
         sim_13 = calculate_similarity(embeddings[0], embeddings[2])
         sim_23 = calculate_similarity(embeddings[1], embeddings[2])
-        
+
         # 显示结果
         print(f"\n相似度结果：")
         print(f"文本 1：'{texts[0]}'")

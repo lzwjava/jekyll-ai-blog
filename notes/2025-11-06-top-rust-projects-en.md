@@ -29,6 +29,6 @@ Based on GitHub stars as of late 2025, here are the top 10 most popular open sou
 
 These rankings highlight Rust's ecosystem growth in systems programming, web, and tooling. For more, check the full top 100 or curated lists.
 
-**References:**  
-[GitHub Ranking - Top 100 Stars in Rust](https://evanli.github.io/Github-Ranking/Top100/Rust.html)  
+**References:**
+[GitHub Ranking - Top 100 Stars in Rust](https://evanli.github.io/Github-Ranking/Top100/Rust.html)
 [TOP 61 Rust Open Source Projects in 2025](https://web3.career/learn-web3/top-rust-open-source-projects)

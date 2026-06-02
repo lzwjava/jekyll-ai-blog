@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an English introduction to 《九歌·湘夫人》 (from the Nine Songs: The Lady of the Xiang).
 
-Answer: 
+Answer:
 
 **Introduction to "Xiang Furen" (The Lady of the Xiang) from the Nine Songs**
 
@@ -25,7 +25,7 @@ The *Nine Songs* consists of eleven ritual hymns (despite the title saying "nine
 ### Main Themes and Content
 - The poem is written from the perspective of a male shaman or devotee anxiously awaiting and longing for the arrival of the goddess **Xiang Furen**.
 - It opens with some of the most celebrated lines in Chinese poetry:
-  - "帝子降兮北渚，目眇眇兮愁予。袅袅兮秋风，洞庭波兮木叶下。"  
+  - "帝子降兮北渚，目眇眇兮愁予。袅袅兮秋风，洞庭波兮木叶下。"
     (The lady descendant descends to the northern islet; her gaze is distant and sorrowful, troubling me. Gently the autumn wind sways, on Dongting Lake the waves rise, and leaves fall.)
 - These lines create a famous autumnal, melancholic atmosphere around **Dongting Lake** (洞庭湖), evoking longing, separation, and unfulfilled desire.
 - The speaker prepares a beautiful palace in the water (built of fragrant plants, herbs, and precious materials) to welcome the goddess, yet she fails to appear.
@@ -40,7 +40,7 @@ The *Nine Songs* consists of eleven ritual hymns (despite the title saying "nine
 
 In summary, "The Lady of the Xiang" is not only a beautiful religious hymn but also a timeless portrayal of longing, beauty in nature, and the bittersweet pain of unattainable love, making it one of the most beloved and frequently translated pieces from the *Chu Ci*.
 
-References:  
+References:
 
 - [Jiu Ge - Wikipedia](https://en.wikipedia.org/wiki/Jiu_Ge)
 - [List of Chu Ci contents - Wikipedia](https://en.wikipedia.org/wiki/List_of_Chu_Ci_contents)

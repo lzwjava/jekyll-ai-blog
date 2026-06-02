@@ -11,9 +11,9 @@ type: note
 
 Question: Translate the entire essay "Lights of Aierke" (or "Aierke's Lights") by Ba Jin into English.
 
-Answer: 
+Answer:
 
-**Aierke's Lights**  
+**Aierke's Lights**
 — Ba Jin
 
 At dusk, guided by the gradually fading last rays of sunlight, I passed by the old residence I had left eighteen years ago. The street and the building began to hide from my view, as if avoiding a long-lost old friend. Yet their altered appearance still felt deeply familiar to me. I recognized them, just as I recognized myself.
@@ -41,8 +41,8 @@ Suddenly, in the field ahead, amid the green broad beans and yellow rapeseed flo
 - The essay uses "lights" (灯光) symbolically in three layers: the dim light of the decaying old family home, the tragic waiting light of Aierke, and finally the enduring inner light of hope and personal direction.
 - The famous inscription "长宜子孙" is left in pinyin with literal translation in parentheses, as is conventional in English renditions of the piece.
 
-References:  
+References:
 
-- [https://baike.baidu.com/item/爱尔克的灯光/7213096](https://baike.baidu.com/item/%E7%88%B1%E5%B0%94%E5%85%8B%E7%9A%84%E7%81%AF%E5%85%89/7213096)  
-- [https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt](https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt)  
+- [https://baike.baidu.com/item/爱尔克的灯光/7213096](https://baike.baidu.com/item/%E7%88%B1%E5%B0%94%E5%85%8B%E7%9A%84%E7%81%AF%E5%85%89/7213096)
+- [https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt](https://xinyusi.us/xys/ebooks/literature/prose/Ba-Jin/dengguang.txt)
 - [https://m.99csw.com/article/3481.html](https://m.99csw.com/article/3481.html)

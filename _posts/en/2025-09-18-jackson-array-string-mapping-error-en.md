@@ -15,7 +15,7 @@ If you're using Jackson (a popular Java library for JSON serialization/deseriali
 
 ### Expected Error
 Jackson typically throws a `JsonMappingException` with a message indicating the type mismatch. For example:
-- If deserializing `[1, 2, 3]` to a `String field`, you'd see something like:  
+- If deserializing `[1, 2, 3]` to a `String field`, you'd see something like:
   `Cannot deserialize instance of 'java.lang.String' out of START_ARRAY token`
 
 The exact message may vary slightly by Jackson version (common in 2.x), but it's rooted in `com.fasterxml.jackson.core.JsonMappingException`.

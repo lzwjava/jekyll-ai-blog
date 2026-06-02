@@ -23,7 +23,7 @@ type: note
 - **Terms** 是被 + 或 − 分开的部分；**Like terms** 具有相同的 Variable 和 Exponents。
 - **Coefficient** 是与 Variable 相乘的数字。
 
-**示例**：简化 3x + 5 − 2x + 7  
+**示例**：简化 3x + 5 − 2x + 7
 → (3x − 2x) + (5 + 7) = x + 12
 
 ### 2. Linear Equations (one variable)
@@ -34,10 +34,10 @@ ax + b = cx + d 的步骤：
 2. 将 Constants 移到另一边。
 3. 除以 Variable 的 Coefficient。
 
-**示例**：3(x − 4) = 5x + 2  
-3x − 12 = 5x + 2  
-−12 − 2 = 5x − 3x  
-−14 = 2x  
+**示例**：3(x − 4) = 5x + 2
+3x − 12 = 5x + 2
+−12 − 2 = 5x − 3x
+−14 = 2x
 x = −7
 
 ### 3. Solving Linear Inequalities
@@ -48,14 +48,14 @@ x = −7
 - 乘以/除以正数：符号保持不变。
 - 乘以/除以负数：符号翻转。
 
-**示例**：−2x + 5 > 11  
-−2x > 6  
+**示例**：−2x + 5 > 11
+−2x > 6
 x < −3（翻转）
 
 Compound inequalities：−3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x < 3
 
 ### 4. Graphing Linear Equations (slope-intercept form)
-**Slope-intercept form**：y = mx + b  
+**Slope-intercept form**：y = mx + b
 - m = Slope（rise/run，斜率/陡度）
 - b = y-intercept（直线与 y 轴相交处）
 
@@ -64,7 +64,7 @@ Compound inequalities：−3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x <
 2. 从该点出发，利用 Slope (rise/run) 找到另一个点。
 3. 连接各点画出直线。
 
-**示例**：y = −3/2 x + 4  
+**示例**：y = −3/2 x + 4
 从 (0, 4) 开始，向下 3 右移 2 → (2, 1)，以此类推。
 
 ### 5. Systems of Linear Equations (solving methods)
@@ -75,10 +75,10 @@ Compound inequalities：−3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x <
 - **Substitution**：解出一个 Variable，代入另一个方程。
 - **Elimination**：加减方程以消除一个 Variable。
 
-**示例 (Elimination)**：  
-2x + 3y = 8  
-4x − 3y = 10  
-相加 → 6x = 18 → x = 3  
+**示例 (Elimination)**：
+2x + 3y = 8
+4x − 3y = 10
+相加 → 6x = 18 → x = 3
 代入 2(3) + 3y = 8 → y = 2/3
 
 ### 6. Exponents and Radicals (properties)
@@ -134,7 +134,7 @@ Compound inequalities：−3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x <
 - a < 0：开口向下 (maximum)
 - |a| > 1：变窄；|a| < 1：变宽
 
-Axis of symmetry（对称轴）：x = h  
+Axis of symmetry（对称轴）：x = h
 y-intercept：(0, k + ah²)
 
 ### 12. Rational Expressions (simplifying, operations)
@@ -168,7 +168,7 @@ y-intercept：(0, k + ah²)
 - **Exponential**：f(x) = a·bˣ (b > 0, b ≠ 1) → 增长/衰减
 
 ### 16. Inverse Functions
-f 和 f⁻¹ 互相撤销：f(f⁻¹(x)) = x  
+f 和 f⁻¹ 互相撤销：f(f⁻¹(x)) = x
 求解方法：交换 x 和 y，解出 y。
 
 **示例**：f(x) = 3x − 7 → y = 3x − 7 → x = 3y − 7 → y = (x + 7)/3 = f⁻¹(x)
@@ -176,7 +176,7 @@ f 和 f⁻¹ 互相撤销：f(f⁻¹(x)) = x
 One-to-one functions 具有 inverses（水平线判定法）。
 
 ### 17. Logarithmic Functions (definition, properties)
-**Logarithm**：log_b(a) = c 表示 b^c = a  
+**Logarithm**：log_b(a) = c 表示 b^c = a
 **Common logs**：log = log₁₀，ln = log_e (natural log)
 
 **属性**：
@@ -190,17 +190,17 @@ One-to-one functions 具有 inverses（水平线判定法）。
 - Exponential：孤立底数，两边取对数。
 - Logarithmic：两边取幂（重写为指数形式）。
 
-**示例**：5^x = 20 → x = log₅ 20 = ln20 / ln5  
+**示例**：5^x = 20 → x = log₅ 20 = ln20 / ln5
 **示例**：log₂(x + 3) = 4 → x + 3 = 2⁴ = 16 → x = 13
 
 ### 19. Sequences and Series
 - **Sequence**：有序列表 (a₁, a₂, ...)
-- **Arithmetic**（等差）：公差 d  
-  aₙ = a₁ + (n−1)d  
+- **Arithmetic**（等差）：公差 d
+  aₙ = a₁ + (n−1)d
   Sum Sₙ = n/2 (a₁ + aₙ) 或 n/2 [2a₁ + (n−1)d]
 
-- **Geometric**（等比）：公比 r  
-  aₙ = a₁ · r^(n−1)  
+- **Geometric**（等比）：公比 r
+  aₙ = a₁ · r^(n−1)
   Sum Sₙ = a₁ (1 − r^n)/(1 − r) （|r| < 1 时可求无穷和）
 
 ### 20. Absolute Value Equations and Inequalities
@@ -208,7 +208,7 @@ One-to-one functions 具有 inverses（水平线判定法）。
 - |x| < k → −k < x < k
 - |x| > k → x < −k 或 x > k
 
-**示例**：|2x − 3| = 7 → 2x − 3 = 7 或 2x − 3 = −7 → x = 5 或 x = −2  
+**示例**：|2x − 3| = 7 → 2x − 3 = 7 或 2x − 3 = −7 → x = 5 或 x = −2
 **示例**：|x + 4| ≤ 6 → −6 ≤ x + 4 ≤ 6 → −10 ≤ x ≤ 2
 
 参考文献：

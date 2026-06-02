@@ -57,7 +57,7 @@ TTL operates using bipolar junction transistors (BJTs) and works through a speci
 
 1. **Input Stage**: Uses a multi-emitter transistor where each emitter serves as an input.
 
-2. **Operation Principle**: 
+2. **Operation Principle**:
    - When all inputs are HIGH (~5V), the input transistor's base-collector junction is forward-biased, and its collector-emitter junction is reverse-biased, which turns OFF the output transistor.
    - When any input goes LOW (~0V), the input transistor saturates, turning ON the output transistor.
 

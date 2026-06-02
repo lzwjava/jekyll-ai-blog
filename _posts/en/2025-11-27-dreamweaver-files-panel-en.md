@@ -18,7 +18,7 @@ In Adobe Dreamweaver, the panel used to manage files and folders of the entire s
 
 ### 📂 **Dreamweaver Panels Overview**
 
-The **Files** panel (sometimes called the Files/Assets panel or simply the Site panel in older versions) is essential for site management in Dreamweaver. 
+The **Files** panel (sometimes called the Files/Assets panel or simply the Site panel in older versions) is essential for site management in Dreamweaver.
 
 * **Files (B):** This panel allows you to **organize, upload, download, move, rename, and delete** all the files and folders that make up your local and remote website. It provides a tree view of your entire defined site structure.
 * **Properties (A):** The **Properties inspector** displays and allows you to modify the attributes of a currently selected element (text, image, table, etc.) or a whole page.

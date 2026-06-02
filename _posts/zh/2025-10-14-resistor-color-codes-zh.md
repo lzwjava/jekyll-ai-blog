@@ -64,5 +64,5 @@ type: note
 - 若色环褪色或模糊，请使用万用表测量实际阻值
 - 零欧姆电阻（跳线）可能仅有一条黑色环带
 
-[如何读取电阻色环编码 | Arrow.com](https://www.arrow.com/en/research-and-events/articles/resistor-color-code)  
+[如何读取电阻色环编码 | Arrow.com](https://www.arrow.com/en/research-and-events/articles/resistor-color-code)
 [电阻色环编码指南 (PDF)](https://neurophysics.ucsd.edu/courses/physics_120/resistorcharts.pdf)

@@ -93,7 +93,7 @@ def process_audio_files(input_dir, output_dir):
             # Construct GCS URIs
             gcs_audio_uri = f"gs://test2x/audio-files/{filename}"  # Replace with your bucket and folder
             gcs_output_uri = f"gs://test2x/transcripts/{os.path.splitext(filename)[0]}" # Replace with your bucket and folder
-            
+
             # Upload the file to GCS if it doesn't exist
             # This part is not implemented, you would need to add code to upload the file to GCS
             # For example, using google-cloud-storage library
@@ -118,9 +118,9 @@ def process_audio_files(input_dir, output_dir):
 
             # Download the transcription
             output_gcs_uri_json = f"{gcs_output_uri}/{os.path.splitext(filename)[0]}_transcript_*.json"
-            
+
             blobs = storage_client.list_blobs("test2x", prefix=f"transcripts/{os.path.splitext(filename)[0]}")
-            
+
             for blob in blobs:
                 if blob.name.endswith(".json"):
                     local_output_path = os.path.join(output_dir, os.path.basename(blob.name))
@@ -218,7 +218,7 @@ Result. Modified to show a sample of the JSON output, with some values removed f
                             "endOffset": "10.300s",
                             "word": "the",
                             "confidence": 0.99904335
-                        }                        
+                        }
                     ]
                 }
             ],

@@ -15,31 +15,31 @@ I plan to convert some of Yin Wang's articles into audio using the Google Text-t
 
 ### Step 1: Set Up Google Cloud Account
 
-1. Create a Google Cloud Account  
+1. Create a Google Cloud Account
    If you don’t have one, sign up at the [Google Cloud Console](https://console.cloud.google.com/).
 
-2. Create a New Project  
+2. Create a New Project
    - In the Cloud Console, click on the project dropdown menu (top left).
    - Choose New Project, give it a name, and create the project.
 
-3. Enable the Text-to-Speech API  
+3. Enable the Text-to-Speech API
    - Visit the [Google Cloud Text-to-Speech API page](https://cloud.google.com/text-to-speech).
    - Click Enable to activate the API for your project.
 
-4. Create API Credentials  
+4. Create API Credentials
    - Navigate to APIs & Services > Credentials in the Cloud Console.
    - Click Create Credentials, then select Service Account.
-   - Follow the prompts to create the service account and download the private key file in JSON format.  
+   - Follow the prompts to create the service account and download the private key file in JSON format.
    - Keep this JSON file secure as it’s used to authenticate your API requests.
 
 ---
 
 ### Step 2: Install Google Cloud SDK and Client Library
 
-1. Install Google Cloud SDK  
+1. Install Google Cloud SDK
    If you haven't yet, follow the instructions to install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) for your operating system.
 
-2. Install the Python Client Library  
+2. Install the Python Client Library
    If you're using Python, install the `google-cloud-texttospeech` library with:
 
    ```bash
@@ -175,7 +175,7 @@ To generate a new key:
 
 ### Example Audio Output
 
-Once everything is set up, you can generate an audio file, which will be available here:  
+Once everything is set up, you can generate an audio file, which will be available here:
 [Download the audio file](assets/audios/output-audio.mp3).
 
 ---

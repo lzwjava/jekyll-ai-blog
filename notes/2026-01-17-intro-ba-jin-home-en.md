@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Ba Jin's work Home
 
-Answer: 
+Answer:
 
 **Home** (Chinese: 家, *Jiā*), published in 1933, is Ba Jin's most famous novel and the first part of his famous "Torrent Trilogy" (激流三部曲, Jīliú Sānbùqǔ). It is widely regarded as one of the most important works of modern Chinese literature and a landmark of 20th-century Chinese realist fiction.
 
@@ -59,6 +59,6 @@ The work is often compared to Western family sagas like Thomas Mann's *Buddenbro
 
 **Home** remains a key text in modern Chinese literature courses and is still widely read and discussed today for its powerful portrayal of family, tradition, and personal awakening.
 
-References:  
+References:
 
 - None required for this general literary introduction (information is based on widely established literary history and criticism of Ba Jin's work)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the wisdom of programming?
 
-Answer: 
+Answer:
 
 The "wisdom of programming" refers to the timeless principles, philosophies, and best practices that guide effective software development. These insights, distilled from decades of experience by pioneers and practitioners, emphasize clarity, maintainability, simplicity, and practicality over cleverness or complexity.
 
@@ -58,7 +58,7 @@ Many recurring themes appear across programming literature and advice:
 
 These principles transcend languages or tools—they apply to all programming. Mastering them leads to robust, scalable, and collaborative software. Books like *The Pragmatic Programmer*, *Clean Code*, and *The Art of Unix Programming* expand on these ideas.
 
-References:  
+References:
 
 - [Unix philosophy - Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)

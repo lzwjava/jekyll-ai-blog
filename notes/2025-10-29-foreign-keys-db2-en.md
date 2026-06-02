@@ -26,7 +26,7 @@ CREATE TABLE child_table (
     foreign_key_column datatype,
     -- Other columns...
     CONSTRAINT constraint_name
-    FOREIGN KEY (foreign_key_column) 
+    FOREIGN KEY (foreign_key_column)
     REFERENCES parent_table (parent_key_column)
 );
 ```
@@ -46,8 +46,8 @@ CREATE TABLE employees (
     emp_id INTEGER NOT NULL PRIMARY KEY,
     emp_name VARCHAR(100),
     dept_id INTEGER,
-    CONSTRAINT fk_emp_dept 
-    FOREIGN KEY (dept_id) 
+    CONSTRAINT fk_emp_dept
+    FOREIGN KEY (dept_id)
     REFERENCES departments (dept_id)
 );
 ```
@@ -59,18 +59,18 @@ Use `ALTER TABLE` to add the constraint after the table exists. The parent key m
 
 **Basic Syntax:**
 ```
-ALTER TABLE child_table 
-ADD CONSTRAINT constraint_name 
-FOREIGN KEY (foreign_key_column) 
+ALTER TABLE child_table
+ADD CONSTRAINT constraint_name
+FOREIGN KEY (foreign_key_column)
 REFERENCES parent_table (parent_key_column);
 ```
 
 **Example:**
 To add the same foreign key to an existing `employees` table:
 ```
-ALTER TABLE employees 
-ADD CONSTRAINT fk_emp_dept 
-FOREIGN KEY (dept_id) 
+ALTER TABLE employees
+ADD CONSTRAINT fk_emp_dept
+FOREIGN KEY (dept_id)
 REFERENCES departments (dept_id);
 ```
 
@@ -83,9 +83,9 @@ You can specify actions for what happens when a parent row is updated or deleted
 
 **Example with Options:**
 ```
-ALTER TABLE employees 
-ADD CONSTRAINT fk_emp_dept 
-FOREIGN KEY (dept_id) 
+ALTER TABLE employees
+ADD CONSTRAINT fk_emp_dept
+FOREIGN KEY (dept_id)
 REFERENCES departments (dept_id)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;

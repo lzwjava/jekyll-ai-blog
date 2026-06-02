@@ -28,22 +28,22 @@ Answer:
 
 ### 在经历过一次“完整周期”后，通常更适合 ESTP 的现实路径
 
-1. **Serial micro-entrepreneurship / indie hacking**  
+1. **Serial micro-entrepreneurship / indie hacking**
    继续进行中小型投注（6–24 个月的生命周期），接受许多项目会终结的事实，目标是获取持续性的 profit 而非孤注一掷地追求 unicorn。较低的 fundraising 压力意味着更多的自由。
 
-2. **0–50 人规模 Startups 的 Founder / co-founder（尤其是早期阶段）**  
+2. **0–50 人规模 Startups 的 Founder / co-founder（尤其是早期阶段）**
    你已经知道如何度过 0–10 到 10–50 的混乱阶段。寻找那些公司仍处于“只要有效就行”模式而非“万事皆流程化”模式的角色。
 
-3. **具有高自主权和浮动薪酬的 Sales / BD / Growth 职位**  
-   - Enterprise sales（重佣金）  
-   - 早期阶段 Startup 的 growth 或 partnerships lead  
-   - Crypto / web3 领域的 BD（非常适合 ESTP 的环境）  
+3. **具有高自主权和浮动薪酬的 Sales / BD / Growth 职位**
+   - Enterprise sales（重佣金）
+   - 早期阶段 Startup 的 growth 或 partnerships lead
+   - Crypto / web3 领域的 BD（非常适合 ESTP 的环境）
    这些职位提供了行动、社交、deals 和出差机会，且收益不设限，同时不会强迫你整天处理 Jira tickets。
 
-4. **Consulting / freelance agency 模式（但产品化）**  
+4. **Consulting / freelance agency 模式（但产品化）**
    建立一个你可以精简运行的小型服务业务，雇佣 contractors 而不是 full-time 员工。这能带给你多样性、直接的客户影响力，且没有董事会会议。
 
-5. **能够支撑自由的 "Lifestyle business"**  
+5. **能够支撑自由的 "Lifestyle business"**
    许多 20 岁后期或 30 岁的 ESTP 会建立一些只需极少维护时间便能达到每月约 10k–40k 美金 profit 的项目（如 SaaS 工具、niche e-commerce、内容 + 产品等），然后利用这些 cashflow 去资助下一次冒险、旅行或 side projects。
 
 ### 为你的下一步行动准备的快速自检问题

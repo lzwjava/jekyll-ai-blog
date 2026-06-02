@@ -12,7 +12,7 @@ type: note
 
 Question: 王维《辋川集》简介
 
-Answer: 
+Answer:
 
 **王维的《辋川集》 (Wangchuan Ji)**，通常被翻译为 *Wheel River Collection* 或 *Wang River Collection*，是唐代山水诗最著名且最具代表性的作品之一。
 
@@ -69,7 +69,7 @@ Answer:
 
 简而言之，《辋川集》不仅是一部诗集，更是王维对隐逸理想、禅悟境界以及自然和谐的综合艺术表达，至今仍是中国文学史上永恒的杰作。
 
-References:  
+References:
 
 - [辋川集 - 百度百科](https://baike.baidu.com/item/%E8%BE%8B%E5%B7%9D%E9%9B%86/8029841)
 - [Wangchuan ji - Wikipedia](https://en.wikipedia.org/wiki/Wangchuan_ji)

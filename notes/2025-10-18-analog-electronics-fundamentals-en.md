@@ -23,8 +23,8 @@ Circuit analysis starts with fundamental principles that describe how voltage, c
 - **Power (P)**: Energy consumption rate, given by \\( P = VI = I^2R = \frac{V^2}{R} \\), in watts (W).
 
 ### Ohm's Law
-Ohm's Law states that voltage across a resistor is directly proportional to the current through it:  
-\\[ V = IR \\]  
+Ohm's Law states that voltage across a resistor is directly proportional to the current through it:
+\\[ V = IR \\]
 or rearranged as \\( I = \frac{V}{R} \\) or \\( R = \frac{V}{I} \\).
 
 **Example**: In a circuit with a 12V battery and a 4Ω resistor, the current is \\( I = \frac{12}{4} = 3A \\). Power dissipated is \\( P = 12 \times 3 = 36W \\).
@@ -32,12 +32,12 @@ or rearranged as \\( I = \frac{V}{R} \\) or \\( R = \frac{V}{I} \\).
 ### Kirchhoff's Laws
 These laws ensure conservation of energy and charge in circuits.
 
-- **Kirchhoff's Current Law (KCL)**: The sum of currents entering a node equals the sum leaving it (charge conservation).  
-  \\[ \sum I_{\text{in}} = \sum I_{\text{out}} \\]  
+- **Kirchhoff's Current Law (KCL)**: The sum of currents entering a node equals the sum leaving it (charge conservation).
+  \\[ \sum I_{\text{in}} = \sum I_{\text{out}} \\]
   **Example**: At a junction, if 2A enters from one branch and 3A from another, 5A must leave via the third branch.
 
-- **Kirchhoff's Voltage Law (KVL)**: The sum of voltages around any closed loop is zero (energy conservation).  
-  \\[ \sum V = 0 \\] (drops and rises cancel out).  
+- **Kirchhoff's Voltage Law (KVL)**: The sum of voltages around any closed loop is zero (energy conservation).
+  \\[ \sum V = 0 \\] (drops and rises cancel out).
   **Example**: In a loop with a 10V source, a 2V drop across R1, and a 3V drop across R2, the remaining drop must be 5V to close the loop.
 
 **Tip**: Always draw a clear circuit diagram and label nodes/loops before applying these laws.
@@ -56,9 +56,9 @@ This method applies KCL at each node to form equations based on voltages. Ideal 
 4. Solve the system of equations for node voltages.
 5. Find branch currents if needed using Ohm's Law.
 
-**Example**: For a circuit with two nodes connected by resistors to a voltage source:  
-- Node 1 connected to 10V via 2Ω, to Node 2 via 3Ω, and to ground via 5Ω.  
-- KCL at Node 1: \\( \frac{10 - V_1}{2} + \frac{V_2 - V_1}{3} - \frac{V_1}{5} = 0 \\).  
+**Example**: For a circuit with two nodes connected by resistors to a voltage source:
+- Node 1 connected to 10V via 2Ω, to Node 2 via 3Ω, and to ground via 5Ω.
+- KCL at Node 1: \\( \frac{10 - V_1}{2} + \frac{V_2 - V_1}{3} - \frac{V_1}{5} = 0 \\).
 - Solve simultaneously with Node 2's equation.
 
 ### Superposition Theorem
@@ -93,12 +93,12 @@ So far, we've assumed steady-state DC (no time variation). Dynamic circuits incl
 Focus on first-order circuits (one storage element, like RC or RL series).
 
 - **RC Circuits (Step Response)**:
-  - Charging: Apply DC voltage V_s at t=0. \\( V_C(t) = V_s (1 - e^{-t/RC}) \\).  
+  - Charging: Apply DC voltage V_s at t=0. \\( V_C(t) = V_s (1 - e^{-t/RC}) \\).
     - Initial: V_C(0) = 0; Final: V_C(∞) = V_s.
   - Discharging: Short V_s. \\( V_C(t) = V_0 e^{-t/RC} \\).
 
 - **RL Circuits**:
-  - Current buildup: \\( I_L(t) = \frac{V_s}{R} (1 - e^{-Rt/L}) \\).  
+  - Current buildup: \\( I_L(t) = \frac{V_s}{R} (1 - e^{-Rt/L}) \\).
   - Decay: \\( I_L(t) = I_0 e^{-Rt/L} \\).
 
 **Example (RC Charging)**: R=1kΩ, C=1μF (τ=1ms), V_s=5V. At t=1ms, \\( V_C = 5(1 - e^{-1}) \approx 3.16V \\).
@@ -112,7 +112,7 @@ For second-order circuits (RLC), use differential equations or Laplace transform
 - Build: Use breadboards for simple RC/RL setups with a multimeter.
 - Advanced: Move to AC analysis (phasors) in Part II.
 
-For deeper dives:  
-[All About Circuits - Ohm's and Kirchhoff's Laws](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/kirchhoffs-laws/)  
-[Khan Academy - Circuit Analysis](https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic)  
+For deeper dives:
+[All About Circuits - Ohm's and Kirchhoff's Laws](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/kirchhoffs-laws/)
+[Khan Academy - Circuit Analysis](https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic)
 [Superposition Theorem Explained](https://www.electronics-tutorials.ws/dccircuits/superposition.html)

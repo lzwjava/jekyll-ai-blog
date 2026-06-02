@@ -11,12 +11,12 @@ type: note
 
 Question: What type of server provides complete data and directory information sharing for workstations on a local area network?
 
-Answer: 
+Answer:
 
 The correct answer is **C. 集散 (Distribution/Centralized-Distributed)**.
 
 **Explanation:**
-In the context of Local Area Networks (LANs), a **集散服务器** (often translated as a distribution server or a server managing centralized storage with distributed access) is specifically designed to provide workstations with shared access to complete data sets, file directories, and other resources. 
+In the context of Local Area Networks (LANs), a **集散服务器** (often translated as a distribution server or a server managing centralized storage with distributed access) is specifically designed to provide workstations with shared access to complete data sets, file directories, and other resources.
 
 - **Option A (联机/Online)** and **Option B (脱机/Offline)** refer to the connection status of a system rather than a specific server role dedicated to resource sharing architecture.
 - **Option D (分时/Time-sharing)** refers to a computing technique where multiple users share computer resources by dividing CPU time, which is a broader operating system concept rather than the specific function of a LAN file/resource server described in the question.

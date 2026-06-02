@@ -12,7 +12,7 @@ type: note
 
 Question: How does Auto Top Up in PayMe work in the Hong Kong digital app?
 
-Answer: 
+Answer:
 
 **Auto Top-Up** (中文也称为 "自动增值") 是 **PayMe from HSBC** 应用程序中一项便捷的功能。当您的 PayMe 钱包余额低于设定的阈值时，系统会自动为钱包增值。这可以确保您无需每次手动增值即可继续进行支付或转账。
 
@@ -39,7 +39,7 @@ Answer:
 
 该功能于 2023 年左右推出，旨在使支付流程更加顺畅，特别是对于频繁使用的用户。
 
-References:  
+References:
 
 - [How to Use PayMe from HSBC: Your Complete Guide - Wise](https://wise.com/hk/blog/payme-hsbc)
 - [常见问题及支援 - PayMe by HSBC](https://payme.hsbc.com.hk/zh-hk/help)

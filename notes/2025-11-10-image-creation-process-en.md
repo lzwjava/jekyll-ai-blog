@@ -32,7 +32,7 @@ Portable mini projectors like the Jimi H6 are typically DLP-based with LED lamps
 
 Here's a breakdown of typical components in a projector (using a DLP mini projector like the Jimi H6 as an example; specs can vary by model, but Jimi H6 is a budget Android-powered DLP projector with ~300-500 ANSI lumens, 1080p support, and built-in OS):
 
-1. **Light Source**: 
+1. **Light Source**:
    - LED lamp (in Jimi H6: multi-color LEDs lasting 20,000-30,000 hours). Provides the raw white/multicolor light. Brighter than old bulbs, cooler operation.
 
 2. **Image Engine/Chip**:

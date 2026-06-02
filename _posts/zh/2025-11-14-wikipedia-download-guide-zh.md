@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-这是来自官方维基媒体下载镜像之一的目录列表（通常是 https://dumps.wikimedia.org/enwiki/latest/）。  
+这是来自官方维基媒体下载镜像之一的目录列表（通常是 https://dumps.wikimedia.org/enwiki/latest/）。
 其中包含了截至2025年11月初的当前英文维基百科文章的所有下载方式。
 
 ### 主要格式及其实际内容
@@ -27,7 +27,7 @@ type: note
 
 事实上的标准方法（被LLaMA、Mistral、Qwen、DeepSeek、Gemma、Phi等使用）是：
 
-下载 **27个多流文件 + 对应的27个索引文件**  
+下载 **27个多流文件 + 对应的27个索引文件**
 （即所有以 `enwiki-latest-pages-articlesXX.xml-p…p….bz2` 开头以及匹配的 `…-indexXX…bz2` 文件）
 
 或者更简单：如果您的网络连接和磁盘能够处理，直接下载**单个巨型文件**：
@@ -70,5 +70,5 @@ wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.
 - Hugging Face `datasets` 的维基百科加载器（已为您完成所有处理）
 - DeepSeek 或 EleutherAI 的处理脚本等
 
-简而言之：  
+简而言之：
 下载单个24 GB的 `enwiki-latest-pages-articles.xml.bz2` 文件，或者27个分割文件 + 索引文件。列表中的其他所有内容要么是校验和、旧垃圾数据，要么是训练不需要的元数据。

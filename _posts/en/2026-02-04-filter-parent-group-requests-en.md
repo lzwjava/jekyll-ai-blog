@@ -24,7 +24,7 @@ If your groups have a hierarchical structure in ServiceNow:
 **Option 3: Create a Custom Filter**
 1. Go to Change > All
 2. Click the filter icon
-3. Add condition: `Assignment group` → `is one of` 
+3. Add condition: `Assignment group` → `is one of`
 4. Select your group and the parent group(s) you want
 5. Save this as a personal or shared filter for quick access
 

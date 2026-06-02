@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Ilya Loshchilov in machine learning?
 
-Answer: 
+Answer:
 
 Ilya Loshchilov is a prominent researcher in machine learning, currently working as a research scientist at NVIDIA. His expertise spans stochastic optimization, evolutionary computation, deep learning, and reinforcement learning.
 
@@ -24,10 +24,10 @@ Earlier in his career, Loshchilov focused on evolutionary algorithms, including 
 
 His publications have garnered over 55,000 citations (as per Google Scholar), reflecting significant impact in optimization methods for machine learning.
 
-References:  
+References:
 
-- [Google Scholar Profile](https://scholar.google.com/citations?user=GladWQwAAAAJ&hl=en)  
-- [Decoupled Weight Decay Regularization (AdamW paper on arXiv)](https://arxiv.org/abs/1711.05101)  
-- [SGDR: Stochastic Gradient Descent with Warm Restarts (arXiv)](https://arxiv.org/abs/1608.03983)  
-- [NVIDIA Affiliation and Recent Work](https://scholar.google.com/citations?user=GladWQwAAAAJ&hl=en)  
+- [Google Scholar Profile](https://scholar.google.com/citations?user=GladWQwAAAAJ&hl=en)
+- [Decoupled Weight Decay Regularization (AdamW paper on arXiv)](https://arxiv.org/abs/1711.05101)
+- [SGDR: Stochastic Gradient Descent with Warm Restarts (arXiv)](https://arxiv.org/abs/1608.03983)
+- [NVIDIA Affiliation and Recent Work](https://scholar.google.com/citations?user=GladWQwAAAAJ&hl=en)
 - [LinkedIn Profile](https://www.linkedin.com/in/ilya-loshchilov-3bb15054/)

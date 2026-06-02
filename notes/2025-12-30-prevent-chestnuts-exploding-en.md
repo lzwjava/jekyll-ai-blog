@@ -12,7 +12,7 @@ type: note
 
 Question: Why do some chestnuts bump, make popping sounds, and cause the air fryer basket to pop out and the machine to stop when cooking at 200 degrees for about 16 minutes?
 
-Answer: 
+Answer:
 
 The popping sounds, bumping, and occasional bursting you're experiencing with chestnuts in the air fryer are caused by steam building up inside the nuts during cooking. Chestnuts contain moisture, and when heated, this turns into steam. If there's no way for the steam to escape, pressure builds up, leading to the nut exploding or "bumping" with a loud pop.
 
@@ -34,7 +34,7 @@ Additional tips for better results at 200°C (about 392°F):
 
 With proper scoring, you should eliminate the popping explosions and machine shutdowns. If issues persist, ensure all chestnuts are evenly scored deeply enough.
 
-References:  
+References:
 
 - [Easy Air Fryer Roasted Chestnuts - Fork To Spoon](https://forktospoon.com/air-fryer-roasted-chestnuts/)
 - [Air Fryer Roasted Chestnuts – The Vegan Larder](https://theveganlarder.com/air-fryer-roasted-chestnuts/)

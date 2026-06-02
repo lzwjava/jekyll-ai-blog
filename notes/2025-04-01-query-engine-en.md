@@ -17,7 +17,7 @@ A query engine is a component of a database management system (DBMS) that interp
 ### 2. **Optimization:**
    - **Query Rewrite:** After parsing, the engine may rewrite the query to optimize it. This could involve simplifying certain parts of the query (e.g., removing redundant conditions or combining subqueries).
    - **Cost-Based Optimization:** The query optimizer generates multiple execution plans, and then evaluates the "cost" (based on factors like disk I/O, CPU usage, etc.) of each plan. The plan with the lowest cost is selected for execution. The optimizer may choose indexes, join methods (e.g., nested loops, hash join), and access paths based on statistics about the data.
-   
+
 ### 3. **Execution Plan Generation:**
    - The query engine selects the optimal execution plan. This includes deciding on how to fetch data (using indexes, sequential scans, etc.) and how to join multiple tables.
    - The plan may also involve operations like sorting, filtering, grouping, and aggregation.

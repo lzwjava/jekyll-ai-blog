@@ -47,7 +47,7 @@ type: note
 ### 现代发展
 如今，交换和路由在多层交换机等设备中融合。趋势包括虚拟化、云集成、安全功能（例如防火墙）以及对高带宽应用（5G、IoT）的支持。分组交换驱动着全球互联网，并在效率、安全性和可扩展性方面不断改进。
 
-参考文献：  
+参考文献：
 
 - [Packet switching - Wikipedia](https://en.wikipedia.org/wiki/Packet_switching)
 - [Packet Switching - Engineering and Technology History Wiki](https://ethw.org/Packet_Switching)

@@ -77,6 +77,6 @@ The UID/GID warnings suggest potential permission issues that could prevent the 
 
 After these steps, retry accessing http://localhost:3080. If logs show specific errors (e.g., Mongo connection), share them for more targeted help. This setup works for most users once UID/GID and dependencies are sorted.
 
-[Local Docker Build Fails to Serve on localhost:3080](https://github.com/danny-avila/LibreChat/discussions/3425)  
-[LibreChat Docker Docs](https://www.librechat.ai/docs/local/docker)  
+[Local Docker Build Fails to Serve on localhost:3080](https://github.com/danny-avila/LibreChat/discussions/3425)
+[LibreChat Docker Docs](https://www.librechat.ai/docs/local/docker)
 [Env File Configuration (UID/GID)](https://www.librechat.ai/docs/configuration/dotenv)

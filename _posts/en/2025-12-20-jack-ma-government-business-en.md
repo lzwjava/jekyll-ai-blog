@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand Jack Ma's statement that the government runs the best business model?
 
-Answer: 
+Answer:
 
 Jack Ma, the founder of Alibaba, has not been documented saying that "the government runs the best business model." Extensive searches across English and Chinese sources, including his known quotes, speeches, and interviews, do not reveal any such statement.
 
@@ -26,7 +26,7 @@ The rumored statement may be a misremembered or misinterpreted version of discus
 
 In summary, the quote appears apocryphal. Ma's philosophy prioritizes private innovation while respectfully cooperating with authorities, not viewing government as an ideal business exemplar.
 
-References:  
+References:
 
 - https://quotefancy.com/jack-ma-quotes ("Never ever do business with the government. Be in love with them, never marry them.")
 - https://graciousquotes.com/jack-ma/ (Collection of verified Jack Ma quotes including the government advice)

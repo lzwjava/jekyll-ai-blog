@@ -16,7 +16,7 @@ type: note
 ### 1. 切换到具备更大上下文窗口的模型
 
 * **Claude Sonnet 4** → 最高支持 **100 万令牌**
-* **Claude Opus 4** → 最高支持 **20 万令牌**  
+* **Claude Opus 4** → 最高支持 **20 万令牌**
 * **GPT-4.1 / GPT-5** → 最高支持 **12.8 万令牌**（具体取决于服务商配置）
 * **Gemini 1.5 Pro** → 最高支持 **200 万令牌**（通过 Google Vertex/AI Studio 使用）
 

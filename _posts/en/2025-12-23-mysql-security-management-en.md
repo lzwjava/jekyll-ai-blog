@@ -12,7 +12,7 @@ type: note
 
 Question: Please give a comprehensive lecture on MySQL Security Management covering the specified topics: privilege system, privilege tables, account management, granting/revoking privileges, roles, and views.
 
-Answer: 
+Answer:
 
 # Lecture: MySQL Security Management
 
@@ -33,37 +33,37 @@ MySQL uses a **privilege-based access control** model. Privileges determine what
 
 Privileges are granted at different **levels** (scopes):
 
-- **Global privileges** (administrative or apply to all databases):  
-  Examples: `CREATE USER`, `SUPER`, `FILE`, `SHUTDOWN`, `RELOAD`, `PROCESS`.  
+- **Global privileges** (administrative or apply to all databases):
+  Examples: `CREATE USER`, `SUPER`, `FILE`, `SHUTDOWN`, `RELOAD`, `PROCESS`.
   Stored with a `*.*` scope.
 
-- **Database-level privileges** (apply to all objects in a specific database):  
-  Examples: `CREATE`, `DROP`, `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `INDEX`.  
+- **Database-level privileges** (apply to all objects in a specific database):
+  Examples: `CREATE`, `DROP`, `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `INDEX`.
   Scope: `database_name.*`
 
-- **Table-level privileges** (apply to specific tables in a database):  
-  Examples: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE VIEW`, `TRIGGER`.  
+- **Table-level privileges** (apply to specific tables in a database):
+  Examples: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE VIEW`, `TRIGGER`.
   Scope: `database_name.table_name`
 
-- **Column-level privileges** (restrict operations to specific columns):  
-  Examples: `SELECT (col1, col2)`, `UPDATE (col3)`.  
+- **Column-level privileges** (restrict operations to specific columns):
+  Examples: `SELECT (col1, col2)`, `UPDATE (col3)`.
   These are stored in the `columns_priv` table.
 
-- **Routine-level privileges** (for stored procedures and functions):  
-  Examples: `EXECUTE`, `ALTER ROUTINE`, `GRANT OPTION`.  
+- **Routine-level privileges** (for stored procedures and functions):
+  Examples: `EXECUTE`, `ALTER ROUTINE`, `GRANT OPTION`.
   Stored in `procs_priv` table.
 
 - **Proxy privileges**: Allow one user to impersonate another.
 
 ### User Categories (Common Classification)
 
-- **DBA (Superusers)**:  
+- **DBA (Superusers)**:
   Users with broad global privileges (e.g., `ALL PRIVILEGES` or specific admin privileges like `SUPER`, `CREATE USER`). Often the `root` account.
 
-- **Database resource users** (Application users):  
+- **Database resource users** (Application users):
   Users that own or manage specific databases/schemas. They typically have full privileges on their own databases (`ALL ON db_name.*`) but limited or no access elsewhere.
 
-- **Ordinary users** (End users):  
+- **Ordinary users** (End users):
   Users with minimal privileges, often only `SELECT`, `INSERT`, `UPDATE`, `DELETE` on specific tables or views. They should never have administrative privileges.
 
 The goal is to grant only the privileges necessary for the user's tasks.
@@ -74,10 +74,10 @@ All privileges in MySQL are stored in the special `mysql` system database in gra
 
 Key privilege tables:
 
-- `mysql.user`: Global privileges, authentication details (host, user, password hash), and resource limits.  
+- `mysql.user`: Global privileges, authentication details (host, user, password hash), and resource limits.
   Columns include `Select_priv`, `Insert_priv`, ..., `Create_user_priv`, etc. (Y/N values).
 
-- `mysql.db`: Database-level privileges.  
+- `mysql.db`: Database-level privileges.
   Columns: `Host`, `Db`, `User`, and privilege columns similar to `user` table.
 
 - `mysql.tables_priv`: Table-level privileges.
@@ -289,10 +289,10 @@ Always follow best practices:
 
 Thank you for your attention. Any questions?
 
-References:  
+References:
 
-- [MySQL 8.0 Reference Manual - Privilege System](https://dev.mysql.com/doc/refman/8.0/en/privilege-system.html)  
-- [MySQL 8.0 Reference Manual - GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)  
-- [MySQL 8.0 Reference Manual - Roles](https://dev.mysql.com/doc/refman/8.0/en/roles.html)  
-- [MySQL 8.0 Reference Manual - Views](https://dev.mysql.com/doc/refman/8.0/en/views.html)  
+- [MySQL 8.0 Reference Manual - Privilege System](https://dev.mysql.com/doc/refman/8.0/en/privilege-system.html)
+- [MySQL 8.0 Reference Manual - GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
+- [MySQL 8.0 Reference Manual - Roles](https://dev.mysql.com/doc/refman/8.0/en/roles.html)
+- [MySQL 8.0 Reference Manual - Views](https://dev.mysql.com/doc/refman/8.0/en/views.html)
 - [MySQL 8.0 Reference Manual - Access Control](https://dev.mysql.com/doc/refman/8.0/en/access-control.html)

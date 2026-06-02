@@ -12,15 +12,15 @@ type: note
 
 Question: 如何在搭载 MSI MAG B760M Mortar WiFi 主板的电脑上进入 BIOS？
 
-Answer: 
+Answer:
 
 要在使用 **MSI MAG B760M Mortar WiFi** 主板（MSI B760 系列主板）的电脑上进入 **BIOS/UEFI** 设置，请按照以下步骤操作：
 
 ### 主要方法（开机过程中）：
 1. 完全 **关闭电脑**（关机，而不仅仅是睡眠或休眠）。
 2. **按下电源按钮** 开机。
-3. 系统启动后（甚至在屏幕出现 Logo 之前），立即 **连续狂按 Delete (Del) 键**。  
-   - 快速敲击直到 BIOS 设置界面加载完毕。  
+3. 系统启动后（甚至在屏幕出现 Logo 之前），立即 **连续狂按 Delete (Del) 键**。
+   - 快速敲击直到 BIOS 设置界面加载完毕。
    - 这是几乎所有现代 MSI 主板（包括您的 MAG B760M Mortar WiFi 等 B760 系列）的标准按键。
 4. 如果尝试几次后 Del 键无效，也可以在开机时尝试连续敲击 **F2** 键（部分 MSI 主板会将两者都列为备选，但台式机主板通常以 Del 键为主）。
 
@@ -45,7 +45,7 @@ Answer:
 
 这些步骤应该适用于您的这款 MSI 主板。
 
-References:  
+References:
 
 - MAG B760M MORTAR WIFI 官方支持页面: [https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI/support](https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI/support)
 - 多个 YouTube 教程和 MSI 论坛贴确认 B760 系列和 Mortar 型号使用 **Del** 键。

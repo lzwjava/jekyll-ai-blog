@@ -20,7 +20,7 @@ type: note
 
 如今，格里芬位列全球顶级富豪之列，净资产估值达数百亿美元。2022年，他将Citadel总部从芝加哥迁至迈阿密，称此举是为了寻求更有利的商业环境。在金融领域之外，格里芬是共和党事业、教育及医学研究的重要捐助者，曾向哈佛大学捐赠3亿美元用于助学金和癌症研究。以其低调却极具影响力的风格著称，他始终通过创新与风险管理推动着华尔街的演进。
 
-更多信息请参阅：  
-[维基百科：肯尼斯·C·格里芬](https://en.wikipedia.org/wiki/Kenneth_C._Griffin)  
-[福布斯：肯·格里芬人物档案](https://www.forbes.com/profile/ken-griffin/)  
+更多信息请参阅：
+[维基百科：肯尼斯·C·格里芬](https://en.wikipedia.org/wiki/Kenneth_C._Griffin)
+[福布斯：肯·格里芬人物档案](https://www.forbes.com/profile/ken-griffin/)
 [Citadel官网：肯尼斯·C·格里芬](https://www.citadel.com/who-we-are/leadership/kenneth-c-griffin/)

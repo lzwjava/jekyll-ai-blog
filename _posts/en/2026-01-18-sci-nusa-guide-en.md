@@ -12,7 +12,7 @@ type: note
 
 **Question: Which map in PUBG Mobile has the Science Center, and what places does this map contain?**
 
-**Answer:** 
+**Answer:**
 
 The Science Center is a key point of interest (POI) on the **Nusa** map in PUBG Mobile.
 
@@ -32,7 +32,7 @@ Nusa is PUBG Mobile's smallest battle royale map at **1x1 km**, introduced in th
 
 These ~11 POIs emphasize close-quarters combat and rapid rotations. Science Center and Flame Village are top hot drops for loot and action.
 
-**References:**  
+**References:**
 - [PUBG Mobile Nusa loot guide](https://gamingonphone.com/guides/pubg-mobile-bgmi-top-5-loot-locations-in-nusa)
 - [Nusa map trailer POIs](https://www.gamespot.com/articles/pubg-mobile-trailer-shows-off-nusa-map/1100-6507187)
 - [PUBG Mobile NA X post on Nusa drops](https://x.com/PUBGMOBILE_NA_/status/1782509956320596332)

@@ -18,7 +18,7 @@ The original training used 8 H100s, equivalent to about 264 H100-hours. Scaling 
 
 This assumes the training script (like run1000.sh) can fit and run on the 4070's 12 GB VRAM, possibly with adjustments like smaller batch sizes, gradient checkpointing, or optimizer offloading to avoid memory issues. In practice, training might be memory-bound or require tweaks, potentially increasing time further due to lower efficiency on consumer hardware. Power consumption would be around 200W, keeping electricity costs low compared to cloud.
 
-References:  
-[Which GPU(s) to Get for Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/)  
-[GPU Benchmarks NVIDIA H100 NVL (PCIe) vs. NVIDIA RTX 4090 vs. NVIDIA RTX 4080](https://bizon-tech.com/gpu-benchmarks/NVIDIA-H100-NVL-%28PCIe%29-vs-NVIDIA-RTX-4090-vs-NVIDIA-RTX-4080/632vs637vs638)  
+References:
+[Which GPU(s) to Get for Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/)
+[GPU Benchmarks NVIDIA H100 NVL (PCIe) vs. NVIDIA RTX 4090 vs. NVIDIA RTX 4080](https://bizon-tech.com/gpu-benchmarks/NVIDIA-H100-NVL-%28PCIe%29-vs-NVIDIA-RTX-4090-vs-NVIDIA-RTX-4080/632vs637vs638)
 [NVIDIA H100 PCIe vs SXM: Performance and Use Cases Compared](https://www.hyperstack.cloud/technical-resources/performance-benchmarks/comparing-nvidia-h100-pcie-vs-sxm-performance-use-cases-and-more)

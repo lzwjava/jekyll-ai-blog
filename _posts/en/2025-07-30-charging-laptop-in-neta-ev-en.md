@@ -47,8 +47,8 @@ In short, the cigarette port simply doesn't provide enough consistent power for 
 
 If this doesn't match your exact setup (e.g., specific Neta model or adapter details), provide more info for a tailored explanation!
 
-[Neta V User Manual](https://www.netaauto.co/resource/upload/User%27s%2520Manual%2520of%2520NETA%2520V.pdf)  
-[NETA V Official Specs](https://www.neta.co.th/en/product/NetaV)  
-[The Neta V Launched In Malaysia](https://cleantechnica.com/2023/05/15/the-neta-v-launched-in-malaysia-is-now-the-most-affordable-ev-in-the-country/)  
-[Vehicle to Load (V2L): What It Is & How It Works](https://www.joosup.com/vehicle-to-load/)  
+[Neta V User Manual](https://www.netaauto.co/resource/upload/User%27s%2520Manual%2520of%2520NETA%2520V.pdf)
+[NETA V Official Specs](https://www.neta.co.th/en/product/NetaV)
+[The Neta V Launched In Malaysia](https://cleantechnica.com/2023/05/15/the-neta-v-launched-in-malaysia-is-now-the-most-affordable-ev-in-the-country/)
+[Vehicle to Load (V2L): What It Is & How It Works](https://www.joosup.com/vehicle-to-load/)
 [Is it possible to charge a laptop in an ev](https://www.reddit.com/r/electricvehicles/comments/15jp7w1/is_it_possible_to_charge_a_laptop_in_an_ev/)

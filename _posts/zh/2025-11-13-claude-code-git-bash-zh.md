@@ -22,14 +22,14 @@ type: note
 2. Git是否正确安装
 3. 集成开发环境中的终端配置文件
 
-参考链接：  
-[Claude Code原生Windows环境Bash输出不可见 - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1m06s2l/claude_code_native_windows_bash_output_not_seen/)  
-[BUG Claude Code的VS Code扩展无法检测Git Bash - GitHub](https://github.com/anthropics/claude-code/issues/8674)  
-[Windows系统Claude Code安装故障排查 - Medium](https://medium.com/%40tomhag_17/troubleshooting-claude-code-installation-on-windows-from-tty-errors-to-success-1f44af03c9f2)  
-[无需WSL在Windows运行Claude Code - 博客](https://blog.shukebeta.com/2025/06/25/running-claude-code-on-windows-without-wsl/)  
-[AI代理Claude 4在默认终端为Git Bash时仍使用PowerShell执行命令 - 论坛](https://forum.cursor.com/t/ai-agent-claude-4-runs-commands-in-powershell-even-when-default-terminal-is-git-bash/137164)  
-[2025年Windows完整安装Claude Code指南 - Itecsonline](https://itecsonline.com/post/how-to-install-claude-code-on-windows)  
-[BUG Claude Code无法解析含空格的Git Bash路径 - GitHub](https://github.com/anthropics/claude-code/issues/4507)  
-[无需WSL在Windows安装Claude Code分步指南 - YouTube](https://www.youtube.com/watch?v=LtnxvLZjxAI)  
-[Windows用户必知的47个Claude Code WSL技巧 - Medium](https://medium.com/%40joe.njenga/47-claude-code-wsl-tricks-every-windows-user-should-know-5d42aaee2d93)  
+参考链接：
+[Claude Code原生Windows环境Bash输出不可见 - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1m06s2l/claude_code_native_windows_bash_output_not_seen/)
+[BUG Claude Code的VS Code扩展无法检测Git Bash - GitHub](https://github.com/anthropics/claude-code/issues/8674)
+[Windows系统Claude Code安装故障排查 - Medium](https://medium.com/%40tomhag_17/troubleshooting-claude-code-installation-on-windows-from-tty-errors-to-success-1f44af03c9f2)
+[无需WSL在Windows运行Claude Code - 博客](https://blog.shukebeta.com/2025/06/25/running-claude-code-on-windows-without-wsl/)
+[AI代理Claude 4在默认终端为Git Bash时仍使用PowerShell执行命令 - 论坛](https://forum.cursor.com/t/ai-agent-claude-4-runs-commands-in-powershell-even-when-default-terminal-is-git-bash/137164)
+[2025年Windows完整安装Claude Code指南 - Itecsonline](https://itecsonline.com/post/how-to-install-claude-code-on-windows)
+[BUG Claude Code无法解析含空格的Git Bash路径 - GitHub](https://github.com/anthropics/claude-code/issues/4507)
+[无需WSL在Windows安装Claude Code分步指南 - YouTube](https://www.youtube.com/watch?v=LtnxvLZjxAI)
+[Windows用户必知的47个Claude Code WSL技巧 - Medium](https://medium.com/%40joe.njenga/47-claude-code-wsl-tricks-every-windows-user-should-know-5d42aaee2d93)
 [Windows 11系统安装Claude Code指南：基于WSL2环境配置 - Claude AI](https://claude.ai/public/artifacts/03a4aa0c-67b2-427f-838e-63770900bf1d)

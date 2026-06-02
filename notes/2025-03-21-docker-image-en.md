@@ -181,23 +181,23 @@ From the error output you provided, there are a few issues preventing your `dock
 ---
 
 ### Issues Identified
-1. **Missing `docker-buildx` Plugin**  
-   Error: `fork/exec /Users/lzwjava/.docker/cli-plugins/docker-buildx: no such file or directory`  
+1. **Missing `docker-buildx` Plugin**
+   Error: `fork/exec /Users/lzwjava/.docker/cli-plugins/docker-buildx: no such file or directory`
    This suggests that Docker is trying to use the `buildx` plugin (a modern build tool), but it’s not installed or configured correctly.
 
-2. **Legacy Builder Deprecation Warning**  
-   Warning: `DEPRECATED: The legacy builder is deprecated...`  
+2. **Legacy Builder Deprecation Warning**
+   Warning: `DEPRECATED: The legacy builder is deprecated...`
    Docker recommends switching to BuildKit (`buildx`), but it’s falling back to the legacy builder, which is failing.
 
-3. **Docker Daemon Not Running**  
-   Error: `Cannot connect to the Docker daemon at unix:///Users/lzwjava/.docker/run/docker.sock. Is the docker daemon running?`  
+3. **Docker Daemon Not Running**
+   Error: `Cannot connect to the Docker daemon at unix:///Users/lzwjava/.docker/run/docker.sock. Is the docker daemon running?`
    The Docker daemon (the background service that manages containers) isn’t running on your system.
 
-4. **File Access Errors**  
-   Errors: `Can't add file ... to tar: io: read/write on closed pipe` and `Can't close tar writer...`  
+4. **File Access Errors**
+   Errors: `Can't add file ... to tar: io: read/write on closed pipe` and `Can't close tar writer...`
    These are secondary issues caused by the build process failing due to the daemon not running.
 
-5. **Proxy Settings Detected**  
+5. **Proxy Settings Detected**
    Your system is using proxies (`HTTP_PROXY` and `HTTPS_PROXY`). This might interfere with Docker if not configured properly.
 
 ---

@@ -24,7 +24,7 @@ Let’s break this down carefully:
 
 **From Confluence:**
 - Upload timestamp = when the attachment hit the Confluence server.
-- Usually stored/displayed in *server time* or converted to *Confluence user’s profile timezone*.  
+- Usually stored/displayed in *server time* or converted to *Confluence user’s profile timezone*.
 (You can check your Confluence profile → Settings → Timezone to confirm what you see.)
 
 **From UAT logs (log4j/slf4j):**
@@ -36,7 +36,7 @@ Let’s break this down carefully:
 ## 2. Why things won’t line up directly
 - Screenshot shows **tester’s local laptop** time.
 - Confluence stores **upload time in server/DB timezone**.
-- Logs show **Java server’s timezone**.  
+- Logs show **Java server’s timezone**.
 These three are not guaranteed to be the same.
 
 ---
@@ -44,19 +44,19 @@ These three are not guaranteed to be the same.
 ## 3. Method to reconcile
 Here’s how to consistently compare a tester’s screenshot with server logs:
 
-1. **Pick a common time standard – usually UTC**  
+1. **Pick a common time standard – usually UTC**
    - Convert all relevant timestamps to UTC (Excel, scripting, or by hand).
    - This avoids confusion across timezones.
 
-2. **Check JVM / log timezone**  
-   - Confirm in UAT server: `java -Duser.timezone` or check a known log entry vs `date` in Linux.  
+2. **Check JVM / log timezone**
+   - Confirm in UAT server: `java -Duser.timezone` or check a known log entry vs `date` in Linux.
    - If logs are not UTC, note offset.
 
-3. **Check Confluence server/Profile timezone**  
+3. **Check Confluence server/Profile timezone**
    - Verify whether the upload timestamp you see is already adjusted for your profile timezone.
    - Adjust back to raw UTC.
 
-4. **Align with screenshot clock**  
+4. **Align with screenshot clock**
    - If screenshot shows `2024-02-10 13:45` and you know tester was in `Asia/Kolkata (UTC+5:30)`, then that equals `2024-02-10 08:15 UTC`.
    - If logs show an event at `2024-02-10 08:15:23 UTC`, you can match them.
 
@@ -64,26 +64,26 @@ Here’s how to consistently compare a tester’s screenshot with server logs:
 
 ## 4. Process Workflow (recommended)
 
-- **Step 1:** Ask testers (or enforce in UAT instructions) to include their **timezone/location** when uploading screenshots, or even better, request them to set system clock correctly.  
-- **Step 2:** When checking logs, first convert screenshot timestamp (tester’s local clock) → UTC.  
-- **Step 3:** Convert log timestamp → UTC (by applying JVM’s timezone).  
+- **Step 1:** Ask testers (or enforce in UAT instructions) to include their **timezone/location** when uploading screenshots, or even better, request them to set system clock correctly.
+- **Step 2:** When checking logs, first convert screenshot timestamp (tester’s local clock) → UTC.
+- **Step 3:** Convert log timestamp → UTC (by applying JVM’s timezone).
 - **Step 4:** Compare.
 
 ---
 
 ## 5. Example Mapping
 
-- Screenshot: shows `2024-06-01 14:05` (tester in Berlin, UTC+2).  
-  → UTC = `2024-06-01 12:05`.  
+- Screenshot: shows `2024-06-01 14:05` (tester in Berlin, UTC+2).
+  → UTC = `2024-06-01 12:05`.
 
-- Confluence shows upload = `2024-06-01 12:07 UTC`.  
-  (makes sense – uploaded within ~2 minutes).  
+- Confluence shows upload = `2024-06-01 12:07 UTC`.
+  (makes sense – uploaded within ~2 minutes).
 
-- UAT log:  
+- UAT log:
   ```
   2024-06-01 12:05:20,456 INFO UAT-Service [thread-19] ...
   ```
-  JVM timezone = UTC.  
+  JVM timezone = UTC.
   → Perfect match.
 
 ---

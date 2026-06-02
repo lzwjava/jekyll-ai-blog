@@ -11,7 +11,7 @@ type: note
 
 Question: 在一台安装了 Linux Mint 的笔记本电脑（可能是 2010-2012 年左右的老旧 ThinkPad）上，我可以使用一个 Ethernet 端口作为 Internet 输入，并使用一个 USB-to-Ethernet adapter 作为输出，来运行 Clash 服务并将其作为家庭网络中的全局 Proxy 路由器吗？
 
-Answer: 
+Answer:
 
 是的，这是可行的，而且这是将旧笔记本电脑通过 Clash 变成简单的有线 Proxy 路由器的一种非常常见的方法。
 
@@ -106,6 +106,6 @@ Answer:
 
 这套设置作为小型家庭全局 Proxy 路由器效果很好。
 
-References:  
+References:
 
 - 此说明不需要特定参考资料 (常见的 Linux 连网 + Clash 知识)

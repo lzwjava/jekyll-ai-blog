@@ -11,7 +11,7 @@ type: note
 
 Question: Which operating system can be freely modified and redistributed by any individual or organization as long as they comply with the GNU General Public License?
 
-Answer: 
+Answer:
 
 The correct answer is **D: Linux**.
 

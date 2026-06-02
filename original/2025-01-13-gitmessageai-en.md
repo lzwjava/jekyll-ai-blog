@@ -25,7 +25,7 @@ def call_mistral_api(prompt):
     if not api_key:
         print("Error: MISTRAL_API_KEY environment variable not set.")
         return None
-    
+
     url = "https://api.mistral.ai/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
@@ -87,7 +87,7 @@ def call_deepseek_api(prompt):
     if not api_key:
         print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return None
-    
+
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
     try:
@@ -113,7 +113,7 @@ def call_deepseek_api(prompt):
 
 def gitmessageai(push=True, only_message=False, api='deepseek'):
     # Stage all changes
-    subprocess.run(["git", "add", "-A"], check=True)    
+    subprocess.run(["git", "add", "-A"], check=True)
 
     # Get a brief summary of the changes
     files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
@@ -134,7 +134,7 @@ Changed files:
 {changed_files}
 
 Commit message:
-"""    
+"""
 
     if api == 'deepseek':
         commit_message = call_deepseek_api(prompt)
@@ -158,7 +158,7 @@ Commit message:
     if not commit_message:
         print("Error: Empty commit message generated. Aborting commit.")
         return
-    
+
     if only_message:
         print(f"Suggested commit message: {commit_message}")
         return

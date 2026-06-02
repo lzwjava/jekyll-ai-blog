@@ -18,7 +18,7 @@ IBM WebSphere Application Server 是一款强大的企业级 Java 应用服务�
 WAS 专注于 Java 应用程序的完整生命周期，从开发部署到运行时管理及现代化改造。核心功能包括：
 
 - **应用部署与托管**：部署 Java EE/Jakarta EE 应用程序，包括 Servlet、JSP、EJB、Web 服务和微服务。通过“单元”架构支持跨多个操作系统实例的分布式计算，并可通过 XML 文件和部署管理器进行集中配置。
-  
+
 - **运行时管理**：通过集群、负载均衡和智能路由实现高可用性。会话管理、资源池（如 JDBC 连接）和滚动更新等功能可确保维护期间停机时间最小化。
 
 - **安全与集成**：实现 Java EE 安全模型，支持身份验证（如表单认证、Kerberos、LDAP）、授权和加密。可与 Apache HTTP、IIS 和 IBM HTTP Server 等 Web 服务器集成，并支持 WS-Security、JACC 等标准。
@@ -45,6 +45,6 @@ WAS 提供针对不同需求的版本：
 
 最新详情请查阅官方资源。
 
-[IBM WebSphere Application Server 产品页面](https://www.ibm.com/products/websphere-application-server)  
-[WebSphere Application Server 文档](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)  
+[IBM WebSphere Application Server 产品页面](https://www.ibm.com/products/websphere-application-server)
+[WebSphere Application Server 文档](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)
 [维基百科：IBM WebSphere Application Server](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)

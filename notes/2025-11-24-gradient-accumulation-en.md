@@ -16,7 +16,7 @@ In his YouTube video "Let's build GPT: from scratch, in code, spelled out" (a de
 
 #### Why Use Gradient Accumulation?
 - **Hardware Limitations**: Modern GPUs (like consumer-grade ones) can't fit massive batch sizes in memory due to the computational demands of transformer models. For instance, Karpathy targets a batch size of ~0.5M tokens to match research setups, but a single GPU might only handle micro-batches of 4-8 samples. Without accumulation, you'd be stuck with tiny batches, leading to noisy gradients and slower convergence.
-  
+
 - **Better Training Stability and Performance**: Larger effective batch sizes (achieved via accumulation) reduce gradient variance, making updates more reliable and speeding up training. Karpathy emphasizes this for reproducibility—sticking close to the GPT papers' hyperparams (e.g., paired with specific learning rate schedules) yields better results than naive small-batch training.
 
 - **Quote from Karpathy (around 2:51:40)**: "So we want to use a batch size of .5 million roughly but the question is how do we use .5 million if we only have a small GPU? Well, for that we need to use what’s called gradient accumulation... so we’re going to turn to that next and it allows us to simulate in a serial way any arbitrary batch size that we set."

@@ -9,16 +9,16 @@ translated: false
 type: note
 ---
 
-Question: Frame Relay is a data communication technology developed after X.25. From a principle perspective, Frame Relay, X.25, and ATM all belong to the same category of switching technology. Which of the following is correct?  
-A. Circuit switching  
-B. Packet switching  
-C. Message switching  
-D. Cell switching  
+Question: Frame Relay is a data communication technology developed after X.25. From a principle perspective, Frame Relay, X.25, and ATM all belong to the same category of switching technology. Which of the following is correct?
+A. Circuit switching
+B. Packet switching
+C. Message switching
+D. Cell switching
 
-Your answer: D  
-Correct answer: B  
+Your answer: D
+Correct answer: B
 
-Answer: 
+Answer:
 
 The correct answer is **B. Packet switching** (分组交换).
 
@@ -42,6 +42,6 @@ Although ATM is indeed cell-based switching, the question uses the phrasing "帧
 
 Therefore, the standard answer is **B**.
 
-References:  
+References:
 
 - None (based on standard network engineering teaching materials and certification exam patterns in China)

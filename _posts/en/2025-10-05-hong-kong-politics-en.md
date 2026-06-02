@@ -27,9 +27,9 @@ From a mainland view, it might look ungrateful, especially if your own gains cam
 
 In short, they're not mad or useless; they're guarding intangibles that make material life meaningful. If anything, ignoring that side of the story is what feels shortsighted. What do you think—does economic boom ever justify dialing back rights?
 
-**References:**  
-- [Disarticulating Qingnian (on "废青" term)](https://madeinchinajournal.com/2022/03/06/disarticulating-qingnian/)  
-- [Joshua Wong Wikipedia](https://en.wikipedia.org/wiki/Joshua_Wong)  
-- [BBC on Joshua Wong's activism](https://www.bbc.com/news/world-asia-29457900)  
-- [CFR on Hong Kong freedoms erosion](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china-crackdown)  
+**References:**
+- [Disarticulating Qingnian (on "废青" term)](https://madeinchinajournal.com/2022/03/06/disarticulating-qingnian/)
+- [Joshua Wong Wikipedia](https://en.wikipedia.org/wiki/Joshua_Wong)
+- [BBC on Joshua Wong's activism](https://www.bbc.com/news/world-asia-29457900)
+- [CFR on Hong Kong freedoms erosion](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china-crackdown)
 - [Wikipedia on 2019 Hong Kong protests](https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests)

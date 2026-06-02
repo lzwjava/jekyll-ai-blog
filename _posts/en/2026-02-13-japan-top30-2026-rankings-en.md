@@ -12,7 +12,7 @@ type: note
 
 **Question:** What are the top 30 largest companies in Japan?
 
-**Answer:** 
+**Answer:**
 
 Here are the **top 30 largest companies in Japan** by market capitalization as of mid-February 2026 (values are approximate in USD and can fluctuate daily; rankings based on recent data from financial tracking sites).
 
@@ -47,7 +47,7 @@ The Japanese market features strong representation from **automotive**, **bankin
 
 For the most up-to-date full list of 30+, check live sources like companiesmarketcap.com/japan or JPX (Japan Exchange Group) rankings, as values change with stock prices.
 
-**References:**  
+**References:**
 
 - [https://companiesmarketcap.com/japan/largest-companies-in-japan-by-market-cap](https://companiesmarketcap.com/japan/largest-companies-in-japan-by-market-cap)
 - [https://www.financecharts.com/screener/biggest-country-jp](https://www.financecharts.com/screener/biggest-country-jp)

@@ -15,13 +15,13 @@ When downloading videos on Android devices, users may notice that video playback
 #### 1. Resource Management and Prioritization
 
 - Android: Android offers more flexibility in managing resources, but this can also result in less optimized multitasking. The system may not always prioritize video playback resources when downloading content, which can cause lag. Background tasks like downloading large files or updates can consume system resources, leading to reduced performance for foreground tasks like video playback.
-  
+
 - iOS: iOS is optimized for efficient multitasking. The operating system prioritizes video playback, even when other tasks, like downloading content, are running in the background. This optimization ensures smoother video playback without interruption.
 
 #### 2. System-Level Optimization
 
 - Android: Although Android devices are optimized, there is more hardware variability across Android models. This diversity can lead to inconsistencies in how efficiently tasks like video playback and downloads are managed, which could cause performance issues like lag.
-  
+
 - iOS: Apple’s closed ecosystem allows iOS devices to be fine-tuned for specific hardware, offering better optimization for multitasking. This helps prevent performance degradation when multiple tasks are running simultaneously, like downloading files and playing videos.
 
 #### 3. Video Decoder/Player Differences

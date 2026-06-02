@@ -11,7 +11,7 @@ type: note
 
 Question: Explain this message about Guangdong self-study exam registration and candidate number.
 
-Answer: 
+Answer:
 
 This message is a notification or reminder from the Guangdong Province Higher Education Self-Taught Examination (commonly called "广东自考" or Guangdong Self-Study Exam) system. It informs candidates about how to handle registration when they have previously participated in the exam. Here is a clear breakdown of each part in English:
 
@@ -33,10 +33,10 @@ This message is a notification or reminder from the Guangdong Province Higher Ed
    - The online tool works only if your candidate record has a linked/bound mobile phone number.
    - If no phone is bound (or if the online method fails), you cannot use the website feature and must go in person to your local self-study exam office with your ID to get help (they may use other verification methods like face recognition via the provincial unified platform in some cases).
 
-**Summary / Key Advice**  
+**Summary / Key Advice**
 You already have a valid candidate record and number in the Guangdong self-study exam system, so use that to sign up for future exams instead of creating a new one. However, make sure your basic personal information (especially photo, name, ID, gender, and birth date) is fully filled in and correct — otherwise, you will be blocked from registering. Check it online soon, and fix any problems by contacting your local exam office early to avoid missing registration deadlines.
 
-References:  
+References:
 
 - [Guangdong Self-Taught Examination Official System](https://www.eeagd.edu.cn/selfec/)
 - [2026年4月广东省高等教育自学考试网上报名报考须知 (Yunfu example, similar notices across cities)](https://www.yunfu.gov.cn/jyj/tzgg/content/post_1987237.html)

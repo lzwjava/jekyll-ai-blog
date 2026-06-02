@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-你的系统目前处于 **非常危险的状态** —— `/usr/` 目录下的许多关键系统文件可能都被你的普通用户而非 root 所有。  
+你的系统目前处于 **非常危险的状态** —— `/usr/` 目录下的许多关键系统文件可能都被你的普通用户而非 root 所有。
 目前最重要的文件是 `/usr/bin/sudo`（取决于发行版，有时是 `/bin/sudo` 或 `/usr/local/bin/sudo`）。
 
 以下是现实的修复方案，按从最安全到最极端排序：
@@ -23,8 +23,8 @@ type: note
 
 任何仍能提供 root 权限的方法（即使是暂时的）：
 
-- **Recovery / single-user / rescue mode**（大多数发行版）  
-  重启 → 按住 Shift (GRUB) 或 Esc (某些 systemd 系统) → 选择 Advanced options → Recovery mode → root shell  
+- **Recovery / single-user / rescue mode**（大多数发行版）
+  重启 → 按住 Shift (GRUB) 或 Esc (某些 systemd 系统) → 选择 Advanced options → Recovery mode → root shell
   或者在启动菜单中选择 "(recovery mode)" 或 "Rescue"。
 
   进入 root shell 后：
@@ -39,8 +39,8 @@ type: note
   chmod -R u+s /usr/bin/sudo          # 以防万一
   ```
 
-- **Live USB**（非常可靠）  
-  从 Ubuntu / Fedora / Mint 的 live USB 启动  
+- **Live USB**（非常可靠）
+  从 Ubuntu / Fedora / Mint 的 live USB 启动
   打开 terminal → 挂载你的根文件系统：
 
   ```bash

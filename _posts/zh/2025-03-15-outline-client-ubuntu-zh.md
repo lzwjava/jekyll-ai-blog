@@ -14,29 +14,29 @@ type: note
 
 按照以下步骤在您的 Ubuntu 系统上安装 Outline Client：
 
-1.  **打开终端**  
+1.  **打开终端**
     启动您 Ubuntu 系统上的终端应用程序。您可以通过在应用程序菜单中搜索“Terminal”或按 `Ctrl + Alt + T` 来执行此操作。
 
-2.  **安装 Outline 的软件仓库密钥**  
+2.  **安装 Outline 的软件仓库密钥**
     运行以下命令，将软件仓库的签名密钥下载并添加到系统的受信任密钥中。这可以确保来自该软件仓库的软件包经过真实性验证：
     ```bash
     wget -qO- https://us-apt.pkg.dev/doc/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/gcloud-artifact-registry-us.gpg
     ```
 
-3.  **添加 Outline Client 软件仓库**  
+3.  **添加 Outline Client 软件仓库**
     通过运行以下命令，将 Outline Client 软件仓库添加到系统的源列表中。这会告诉 Ubuntu 在哪里可以找到 Outline Client 软件包：
     ```bash
     echo "deb [arch=amd64] https://us-apt.pkg.dev/projects/jigsaw-outline-apps outline-client main" | sudo tee /etc/apt/sources.list.d/outline-client.list
     ```
     - 注意：`[arch=amd64]` 部分指定这是用于 64 位系统。大多数现代 Ubuntu 安装都是 64 位的，但您可以通过运行 `uname -m` 来确认您系统的架构。如果输出是 `x86_64`，则表示您使用的是 64 位系统，此命令将按原样工作。
 
-4.  **更新软件包列表**  
+4.  **更新软件包列表**
     刷新系统的软件包列表以包含新添加的 Outline 软件仓库：
     ```bash
     sudo apt update
     ```
 
-5.  **安装 Outline Client**  
+5.  **安装 Outline Client**
     使用以下命令安装最新版本的 Outline Client：
     ```bash
     sudo apt install outline-client

@@ -12,33 +12,33 @@ type: note
 
 Question: What roles can we configure in Google Cloud Storage? For example, Storage Object Viewer IAM role, etc.
 
-Answer: 
+Answer:
 
 Google Cloud Storage 使用 **Identity and Access Management (IAM)** 来控制对 bucket 和 object 的访问。您可以在 project 级别、bucket 级别或（针对细粒度访问）object 级别分配 **predefined roles**（Google 管理）和 **custom roles**。
 
 以下是专属于 Cloud Storage 的主要 **predefined IAM roles**：
 
-- **Storage Object Viewer** (`roles/storage.objectViewer`)  
-  授予对 object 及其 metadata（不包括 ACLs）的只读访问权限。  
-  允许列出 bucket 中的 object (`storage.objects.list`) 以及读取 object 数据/metadata (`storage.objects.get`)。  
+- **Storage Object Viewer** (`roles/storage.objectViewer`)
+  授予对 object 及其 metadata（不包括 ACLs）的只读访问权限。
+  允许列出 bucket 中的 object (`storage.objects.list`) 以及读取 object 数据/metadata (`storage.objects.get`)。
   **不**允许查看或列出 bucket 本身。
 
-- **Storage Object Creator** (`roles/storage.objectCreator`)  
+- **Storage Object Creator** (`roles/storage.objectCreator`)
   允许创建 object (`storage.objects.create`)，但不能读取、删除或覆盖现有 object。
 
-- **Storage Object Admin** (`roles/storage.objectAdmin`)  
+- **Storage Object Admin** (`roles/storage.objectAdmin`)
   对 object 的完全控制权：创建、列出、获取、删除和更新 object 及其 metadata（但不包括 bucket 级别的配置）。
 
-- **Storage Legacy Bucket Reader** (`roles/storage.legacyBucketReader`)  
+- **Storage Legacy Bucket Reader** (`roles/storage.legacyBucketReader`)
   对 bucket metadata 的只读访问权限以及列出 object 的能力。
 
-- **Storage Legacy Bucket Writer** (`roles/storage.legacyBucketWriter`)  
+- **Storage Legacy Bucket Writer** (`roles/storage.legacyBucketWriter`)
   授予读取 + 创建/删除 object 的权限（相当于遗留版本的 object admin 加上部分 bucket 权限）。
 
-- **Storage Legacy Bucket Owner** (`roles/storage.legacyBucketOwner`)  
+- **Storage Legacy Bucket Owner** (`roles/storage.legacyBucketOwner`)
   对 bucket 及其 object 的完全控制权（legacy owner 角色）。
 
-- **Storage Admin** (`roles/storage.admin`)  
+- **Storage Admin** (`roles/storage.admin`)
   对 bucket 和 object 的完全控制权：创建/删除 bucket、管理 IAM policies、配置 lifecycle/rules 等。
 
 - **Storage Object Viewer**（已在上方列出 —— 最常用于只读 object 访问）
@@ -59,7 +59,7 @@ Google Cloud Storage 使用 **Identity and Access Management (IAM)** 来控制�
 
 有关最新且完整的列表（包括每个角色包含的具体权限），请参考 Google Cloud 官方文档。
 
-References:  
+References:
 
 - [IAM roles for Cloud Storage](https://docs.cloud.google.com/storage/docs/access-control/iam-roles)
 - [Cloud Storage roles and permissions](https://docs.cloud.google.com/iam/docs/roles-permissions/storage)

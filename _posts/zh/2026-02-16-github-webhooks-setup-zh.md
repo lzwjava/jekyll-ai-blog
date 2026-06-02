@@ -19,50 +19,50 @@ GitHub **webhooks** 允许你的外部服务器、服务或应用程序在 repos
 
 ### 创建 repository webhook 的逐步指南
 
-1. 进入你在 GitHub 上的 repository  
+1. 进入你在 GitHub 上的 repository
    打开 https://github.com 并导航到你想要添加 webhook 的 repository。
 
-2. 打开 Settings  
+2. 打开 Settings
    点击 **Settings**（你需要是该 repo 的所有者或拥有 admin 权限）。
 
-3. 进入 Webhooks 栏目  
+3. 进入 Webhooks 栏目
    在左侧边栏中，点击 **Webhooks** → 然后点击 **Add webhook**（或 **Create webhook**）。
 
 4. 填写 webhook 配置
 
-   - **Payload URL**  
-     最重要的字段。输入你的服务器/endpoint 的 HTTPS URL，用于接收 webhook 事件。  
+   - **Payload URL**
+     最重要的字段。输入你的服务器/endpoint 的 HTTPS URL，用于接收 webhook 事件。
      示例：`https://your-app.com/webhook/github` 或 `https://hooks.zapier.com/hooks/catch/123456/abcde/`
 
-   - **Content type**  
-     选择：  
-     - `application/json`（最常用且推荐）  
+   - **Content type**
+     选择：
+     - `application/json`（最常用且推荐）
      - 或 `application/x-www-form-urlencoded`
 
-   - **Secret**（强烈推荐）  
-     输入一个随机且安全的字符串（至少 30 个字符以上）。  
-     GitHub 将使用它创建 HMAC signature，你可以在服务器上进行验证，以确保请求确实来自 GitHub。  
+   - **Secret**（强烈推荐）
+     输入一个随机且安全的字符串（至少 30 个字符以上）。
+     GitHub 将使用它创建 HMAC signature，你可以在服务器上进行验证，以确保请求确实来自 GitHub。
      可以轻松生成一个：`openssl rand -hex 20` 或使用在线安全随机生成器。
 
-   - **SSL verification**  
+   - **SSL verification**
      保持启用状态（默认），除非你正在使用自签名证书进行测试（不推荐用于 production）。
 
-   - **Which events would you like to trigger this webhook?**  
-     - 选择 **Let me select individual events**（推荐）  
-     - 选择你关注的事件，例如：  
-       - Pushes（代码被推送）  
-       - Pull requests（打开、关闭、合并等）  
-       - Issues（打开、编辑、关闭）  
-       - Releases  
-       - Commits comments  
+   - **Which events would you like to trigger this webhook?**
+     - 选择 **Let me select individual events**（推荐）
+     - 选择你关注的事件，例如：
+       - Pushes（代码被推送）
+       - Pull requests（打开、关闭、合并等）
+       - Issues（打开、编辑、关闭）
+       - Releases
+       - Commits comments
        - ……（查看 GitHub docs 中的完整列表）
 
      或者为了测试简单选择 **Send me everything**（长期不推荐 —— 会产生不必要的流量）。
 
 5. 点击底部的 **Add webhook**。
 
-6. 测试（可选但推荐）  
-   创建后，GitHub 会显示 **Recent Deliveries** 栏目。  
+6. 测试（可选但推荐）
+   创建后，GitHub 会显示 **Recent Deliveries** 栏目。
    点击任何事件的 **Edit** → **Redeliver**，或者触发一个真实事件（git push、打开 PR 等），检查你的服务器是否收到了它。
 
 ### 你的服务器需要做什么

@@ -63,6 +63,6 @@ If you're copying from outside (e.g., select all in Notepad, Ctrl+C, then want t
 
 This should get you pasting smoothly! If it's still not working (e.g., share what exactly happens when you try `p`), or if you're pasting *from* external sources specifically, let me know for more tweaks.
 
-[How do you copy and paste into Git Bash](https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash)  
-[Copying from Windows clipboard in Vim](https://vi.stackexchange.com/questions/37599/copying-from-windows-clipboard)  
+[How do you copy and paste into Git Bash](https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash)
+[Copying from Windows clipboard in Vim](https://vi.stackexchange.com/questions/37599/copying-from-windows-clipboard)
 [How to copy paste contents in the vi editor](https://askubuntu.com/questions/256782/how-to-copy-paste-contents-in-the-vi-editor)

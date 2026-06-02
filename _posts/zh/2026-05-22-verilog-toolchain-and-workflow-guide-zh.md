@@ -89,7 +89,7 @@ yosys -p "read_verilog counter.v; synth -top counter; stat"
    → 语法高亮、语法检查、ctags导航
 
 2. "TerosHDL"
-   发布者: teros-technology  
+   发布者: teros-technology
    → 原理图查看器、测试激励生成器、文档
 
 3. "WaveTrace"
@@ -142,11 +142,11 @@ endmodule
 module counter_tb;
     reg clk = 0, rst = 1;
     wire [7:0] count;
-    
+
     counter dut(.clk(clk), .rst(rst), .count(count));
-    
+
     always #5 clk = ~clk;
-    
+
     initial begin
         $dumpfile("wave.vcd");
         $dumpvars(0, counter_tb);

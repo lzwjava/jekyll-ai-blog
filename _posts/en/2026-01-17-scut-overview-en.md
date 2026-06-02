@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to South China University of Technology
 
-Answer: 
+Answer:
 
 **South China University of Technology (SCUT)** (华南理工大学) is one of China's top public research universities, located in **Guangzhou**, Guangdong Province.
 
@@ -57,7 +57,7 @@ SCUT has developed strong international partnerships, offers many English-taught
 
 In summary, SCUT is widely regarded as one of the best universities in southern China, particularly for students interested in engineering, technology, innovation, and related interdisciplinary fields.
 
-References:  
+References:
 
 - [South China University of Technology - Wikipedia](https://en.wikipedia.org/wiki/South_China_University_of_Technology)
 - [Official Website - SCUT English](https://www.scut.edu.cn/en)

@@ -85,11 +85,11 @@ Using routes means setting them up as above, then leveraging them in your applic
 
 - **In Controllers**: Assume the route handles URL mapping; write methods expecting routed requests.
   - Example: For `$route['login']['POST'] = 'users/login';`, create a `Users.php` controller with a `login()` method that handles POST data (e.g., via `$this->input->post()`).
-  
+
 - **Generating URLs**: Use CodeIgniter's `site_url()` or `base_url()` with your route keys for links/buttons.
   - Example: In a view, `<a href="<?= site_url('login'); ?>">Login</a>` points to the routed URL, but your code defines what controller it hits.
 
-- **Testing Routes**: 
+- **Testing Routes**:
   - Use your web browser or API tools (e.g., Postman) to hit URLs like `/users/register`.
   - Check `application/logs/log-{date}.php` for errors if routes fail.
   - Add debug: Temporarily reset `$route['404_override']` and use var_dump in a test controller to see parameters.

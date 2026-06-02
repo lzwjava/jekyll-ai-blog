@@ -12,7 +12,7 @@ type: note
 
 Question: Why do I get a headache and dizziness after playing PUBG Mobile for several hours?
 
-Answer: 
+Answer:
 
 Playing PUBG Mobile for extended periods, like several hours, can commonly cause headaches and dizziness due to a combination of factors related to prolonged screen use and the game's intense visuals.
 
@@ -35,9 +35,9 @@ These issues are common in mobile gamers, especially with action-packed games li
 
 If symptoms persist even after short play or interfere with daily life, consult a doctor to rule out underlying issues like migraines or vision problems.
 
-References:  
-- [Why Video Games Make You Feel Sick](https://www.dramamine.com/blog/why-video-games-make-you-feel-sick)  
-- [How to avoid motion sickness while gaming | Popular Science](https://www.popsci.com/story/diy/how-to-fight-gaming-motion-sickness/)  
-- [Cybersickness: What It Is, Symptoms, Causes, and Treatments](https://www.healthline.com/health/cybersickness)  
-- [Gaming and Digital Eyestrain | AOA](https://www.aoa.org/healthy-eyes/caring-for-your-eyes/gaming-and-digital-eye-strain)  
+References:
+- [Why Video Games Make You Feel Sick](https://www.dramamine.com/blog/why-video-games-make-you-feel-sick)
+- [How to avoid motion sickness while gaming | Popular Science](https://www.popsci.com/story/diy/how-to-fight-gaming-motion-sickness/)
+- [Cybersickness: What It Is, Symptoms, Causes, and Treatments](https://www.healthline.com/health/cybersickness)
+- [Gaming and Digital Eyestrain | AOA](https://www.aoa.org/healthy-eyes/caring-for-your-eyes/gaming-and-digital-eye-strain)
 - [Headache after Playing Video Games - Causes and Management](https://painsportal.com/headache-after-playing-video-games/)

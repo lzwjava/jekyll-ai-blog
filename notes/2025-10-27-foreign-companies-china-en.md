@@ -65,8 +65,8 @@ These firms drive China's export economy, with FDI in high-tech manufacturing at
 
 This list isn't exhaustive but highlights the biggest based on scale and impact. For specific sectors or updates, more details can vary by source.
 
-**References**  
-[Foreign Investment in China - Santandertrade](https://santandertrade.com/en/portal/establish-overseas/china/foreign-investment)  
-[Top 10 Largest Banks in China - Registration China](https://www.registrationchina.com/articles/top-10-largest-banks-in-china/)  
-[China's Biggest Companies - MSA Advisory](https://msadvisory.com/china-biggest-companies/)  
+**References**
+[Foreign Investment in China - Santandertrade](https://santandertrade.com/en/portal/establish-overseas/china/foreign-investment)
+[Top 10 Largest Banks in China - Registration China](https://www.registrationchina.com/articles/top-10-largest-banks-in-china/)
+[China's Biggest Companies - MSA Advisory](https://msadvisory.com/china-biggest-companies/)
 [China Industries to Watch in 2025 - China Briefing](https://www.china-briefing.com/news/china-industries-to-watch-in-2025/)

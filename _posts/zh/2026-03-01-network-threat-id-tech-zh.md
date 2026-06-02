@@ -11,10 +11,10 @@ type: note
 
 问题：为了准确识别和辨识网络中的各种不安全因素，并进而进行相应的预防、消除和修复，使用的是哪种计算机网络安全技术？
 
-A. Encryption technology  
-B. Monitoring and auditing technology  
-C. Authentication technology (鉴别技术)  
-D. Access control technology  
+A. Encryption technology
+B. Monitoring and auditing technology
+C. Authentication technology (鉴别技术)
+D. Access control technology
 
 给出的正确答案是 C。
 
@@ -37,6 +37,6 @@ D. Access control technology
 
 根据问题的措辞和提供的官方解释，在此特定考试语境中，**C** 是预期的正确答案。
 
-**参考文献：**  
+**参考文献：**
 
 - 无（基于提供的题目解释）

@@ -35,15 +35,15 @@ type: note
 - 二手烟对儿童和非吸烟者具有 pernicious 后果。
 - 该 pernicious 谣言慢慢摧毁了她的声誉。
 
-同义词（视上下文而定）：  
+同义词（视上下文而定）：
 harmful · damaging · destructive · injurious · deleterious · toxic · poisonous · malign · malevolent · baleful · noxious · deadly · ruinous · insidious
 
-反义词：  
+反义词：
 beneficial · harmless · benign · helpful · wholesome
 
 这个词通常比单纯的“harmful”带有更强烈的道德或智力上的不满意味——它暗示某种**效果邪恶**或**特别阴险**的事物。
 
-参考资料：  
+参考资料：
 
 - [Merriam-Webster](https://www.merriam-webster.com/dictionary/pernicious)
 - [Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/pernicious)

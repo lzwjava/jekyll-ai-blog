@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-### Hewlett-Packard → HP Inc.  
+### Hewlett-Packard → HP Inc.
 **公司全面介绍 (2025版)**
 
 ### 快速概览 – 核心事实
@@ -91,7 +91,7 @@ type: note
 
 今天的 HP Inc. 是**全球最大的 PC 与打印公司之一** —— 它于 1939 年诞生于极具传奇色彩的车库，发明了许多延续至今的技术产品，在 2015 年经历了重组拆分，目前正专注于高端笔记本、高性能工作站、电竞业务，以及在打印与墨水订阅领域持续竞争。
 
-**参考资料：**  
+**参考资料：**
 
 - [HP Inc. Official Website - About HP](https://www.hp.com/us-en/hp-information/about-hp.html)
 - [HP Inc. Investor Relations - Financials & Reports](https://investor.hp.com)

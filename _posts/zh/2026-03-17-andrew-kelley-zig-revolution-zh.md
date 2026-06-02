@@ -11,7 +11,7 @@ type: note
 
 **问题：** 提供对 Andrew Kelley 的全面介绍，他是 Zig 编程语言的作者/创建者。
 
-**答案：** 
+**答案：**
 
 Andrew Kelley 是 **Zig** 的创建者、首席开发者以及主要推动力，**Zig** 是一种现代通用编程语言，被设计为 C 的更好替代品，强调健壮性、最优性能、简单性和可重用性。
 
@@ -58,7 +58,7 @@ Andrew 是会议和播客的常客演讲者：
 ### 总结
 Andrew Kelley 在系统编程社区中被广泛视为一位有原则、坚定且创新的人物，他单枪匹马启动了 Zig，并将其发展成最有前景的现代低级语言之一。通过技术卓越、对实验的开放态度（例如 comptime）以及对可持续开源资金的承诺，他将 Zig 定位为传统由 C 和 C++ 主导领域的有力竞争者。
 
-**参考资料：**  
+**参考资料：**
 
 - [Andrew Kelley's personal website](https://andrewkelley.me/)
 - [Zig Programming Language official site](https://ziglang.org/)

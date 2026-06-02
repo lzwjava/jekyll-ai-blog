@@ -11,7 +11,7 @@ type: note
 
 Question: 在 IEEE 802 系列标准中，哪一个用于 Ethernet？
 
-Answer: 
+Answer:
 
 正确答案是 **A. IEEE 802.3**。
 
@@ -29,5 +29,5 @@ Answer:
 
 你之前的选择（B. IEEE 802.4）是错误的 —— IEEE 802.4 是 Token Bus，而不是 Ethernet。
 
-References:  
+References:
 - 无（这是基于 IEEE 规范的标准网络知识）

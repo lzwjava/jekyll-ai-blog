@@ -218,12 +218,12 @@ gridView.setAdapter(new ImageAdapter(this, imageUrls));
 ---
 
 ### Troubleshooting
-- **Crash: "ImageLoader must be init with configuration"**  
+- **Crash: "ImageLoader must be init with configuration"**
   Ensure `ImageLoader.getInstance().init(config)` is called before any `displayImage` calls.
-- **Images Not Loading**  
+- **Images Not Loading**
   - Check internet permissions and URL validity.
   - Enable logging in the configuration (`.writeDebugLogs()`) to debug issues.
-- **Out of Memory Errors**  
+- **Out of Memory Errors**
   - Reduce `diskCacheSize` or `memoryCacheSize` in the configuration.
   - Use smaller images or enable downscaling in `DisplayImageOptions`.
 

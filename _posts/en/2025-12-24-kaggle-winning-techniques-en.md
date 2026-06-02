@@ -12,7 +12,7 @@ type: note
 
 Question: What common techniques are used in Kaggle competitions?
 
-Answer: 
+Answer:
 
 Kaggle competitions involve a wide range of machine learning tasks, and successful participants (especially top performers and grandmasters) rely on a set of proven techniques to achieve high rankings. These methods have evolved over time but remain consistent across tabular, computer vision, NLP, and other domains as of 2025. Below is a summary of the most common and effective techniques:
 
@@ -67,7 +67,7 @@ Kaggle competitions involve a wide range of machine learning tasks, and successf
 
 These techniques are timeless but adapt to new tools (e.g., better autoML, transformers for tabular). For domain-specific comps (CV/NLP), pre-trained models and fine-tuning are added, but the core pipeline remains similar.
 
-References:  
+References:
 
 - [Mastering Kaggle Competitions: Strategies, Techniques, and Insights for Success](https://www.analyticsvidhya.com/blog/2024/09/mastering-kaggle-competitions/)
 - [Winning Tips on Machine Learning Competitions by Kazanova](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)

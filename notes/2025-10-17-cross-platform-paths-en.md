@@ -23,7 +23,7 @@ Python provides robust tools like `os.path`, `pathlib`, and `configparser` to ma
 2. **Read and normalize paths**: Use `pathlib.Path` (recommended, Python 3.4+) for automatic handling. It accepts mixed separators and normalizes to the platform's style.
 3. **For subprocess**: Convert to `str(path)`—it uses native separators but accepts `/` on Windows.
 4. **For os.path**: Use `os.path.normpath` to clean up separators, or prefer `pathlib` for modernity.
-5. **Edge cases**: 
+5. **Edge cases**:
    - `//` (UNC paths on Windows or root on Linux): `pathlib` handles UNC as `\\server\share`.
    - `\\` in config: Treat as escaped `\`; replace or let `Path` parse.
 

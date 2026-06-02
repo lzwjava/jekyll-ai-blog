@@ -12,13 +12,13 @@ type: note
 
 Question: In this situation (broken sudo, system low on space after massive CUPS logs, currently booting from Ubuntu live USB), what files or directories in /usr can I safely delete to free up some space?
 
-Answer: 
+Answer:
 
 Since you're already in the live USB environment (or can chroot into the broken system), you have full root access via the live session — this is the perfect time to free space before fixing sudo. The goal is to **delete large, non-critical, regeneratable or safely removable data** inside `/usr` without breaking the system further.
 
 **Safest and most effective deletions in /usr (from live USB):**
 
-1. **The huge CUPS log files** (by far the biggest win — likely 200–300 GB)  
+1. **The huge CUPS log files** (by far the biggest win — likely 200–300 GB)
    These are **not** in `/usr` — they are in `/var/log/cups/`, but since you asked about `/usr`, I'll list them anyway as priority #1:
    ```
    sudo rm -rf /mnt/root/var/log/cups/*
@@ -97,16 +97,16 @@ sudo du -sh /mnt/root/boot/
 
 **Things you MUST NOT delete in /usr (will break system badly):**
 
-- /usr/bin, /usr/sbin, /usr/lib, /usr/libexec, /usr/lib64  
-- /usr/share/applications, /usr/share/glib-2.0, /usr/share/mime  
-- Anything containing libc, libstdc++, libgcc, openssl, ca-certificates, etc.  
+- /usr/bin, /usr/sbin, /usr/lib, /usr/libexec, /usr/lib64
+- /usr/share/applications, /usr/share/glib-2.0, /usr/share/mime
+- Anything containing libc, libstdc++, libgcc, openssl, ca-certificates, etc.
 - /usr/share/fonts (unless you know exactly what you're doing)
 
 **After freeing space** → continue with the chroot + fix sudo steps from the previous message.
 
 If you run `sudo du -sh /mnt/root/usr/* | sort -hr | head -20` you will see the actual largest directories and can decide more precisely.
 
-References:  
+References:
 
 - [Ask Ubuntu: How to free space on root partition](https://askubuntu.com/questions/19914/how-to-free-up-space-on-the-root-partition)
 - [Ubuntu Community Help: Freeing disk space](https://help.ubuntu.com/community/FreeingUpDiskSpace)

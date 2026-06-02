@@ -11,7 +11,7 @@ type: note
 
 Question: Comprehensive introduction to the modded-nanogpt project
 
-Answer: 
+Answer:
 
 **modded-nanogpt** is an open-source GitHub repository that serves as a high-performance "speedrun" benchmark for training a small GPT-style language model. It focuses on achieving a specific performance target—**3.28 cross-entropy validation loss** on the first 10,485,760 tokens of the **FineWeb** dataset—as quickly as possible using **8 NVIDIA H100 GPUs**.
 
@@ -79,9 +79,9 @@ While optimized for speed rather than readability, the core `train_gpt.py` (and 
 
 In summary, modded-nanogpt transforms a simple educational GPT trainer into a cutting-edge optimization playground. It highlights the rapid progress possible in LLM training through open collaboration and low-level engineering, turning what was once a 45-minute task into a sub-3-minute feat on high-end hardware.
 
-References:  
-- [https://github.com/KellerJordan/modded-nanogpt](https://github.com/KellerJordan/modded-nanogpt)  
-- [https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months](https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months)  
-- [https://damek.github.io/random/modded-nanogpt-walkthrough-i/](https://damek.github.io/random/modded-nanogpt-walkthrough-i/)  
-- [https://github.com/karpathy/llm.c](https://github.com/karpathy/llm.c) (for original baseline context)  
+References:
+- [https://github.com/KellerJordan/modded-nanogpt](https://github.com/KellerJordan/modded-nanogpt)
+- [https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months](https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months)
+- [https://damek.github.io/random/modded-nanogpt-walkthrough-i/](https://damek.github.io/random/modded-nanogpt-walkthrough-i/)
+- [https://github.com/karpathy/llm.c](https://github.com/karpathy/llm.c) (for original baseline context)
 - [https://kellerjordan.github.io/posts/muon/](https://kellerjordan.github.io/posts/muon/) (Muon optimizer writeup)

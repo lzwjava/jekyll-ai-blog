@@ -57,6 +57,6 @@ type: note
 
 可通过 ping 列表中的主机或检查浏览器代理行为来测试。如果出现问题（例如特定应用程序异常），环境变量方法通常能覆盖更多场景。
 
-[设置代理忽略所有本地地址](https://askubuntu.com/questions/11274/setting-up-proxy-to-ignore-all-local-addresses)  
-[如何在 Ubuntu 上配置代理设置](https://phoenixnap.com/kb/ubuntu-proxy-settings)  
+[设置代理忽略所有本地地址](https://askubuntu.com/questions/11274/setting-up-proxy-to-ignore-all-local-addresses)
+[如何在 Ubuntu 上配置代理设置](https://phoenixnap.com/kb/ubuntu-proxy-settings)
 [在 no_proxy 环境变量中设置网络范围](https://unix.stackexchange.com/questions/23452/set-a-network-range-in-the-no-proxy-environment-variable)

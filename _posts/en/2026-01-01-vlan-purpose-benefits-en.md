@@ -12,12 +12,12 @@ type: note
 
 Question: What is the main purpose of VLAN technology?
 
-A) To increase broadcast domains  
-B) To segment the network and isolate traffic between different departments  
-C) To improve routing speed across WANs  
+A) To increase broadcast domains
+B) To segment the network and isolate traffic between different departments
+C) To improve routing speed across WANs
 D) To encrypt data packets
 
-Answer: 
+Answer:
 
 The correct answer is **B**.
 

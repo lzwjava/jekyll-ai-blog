@@ -29,7 +29,7 @@ Stripe 于 2026 年 2 月 24 日发布了其 2025 年度信函，由联合创始
 
 完整信函可在 Stripe 网站上获取，公告中还链接了 PDF 版本。
 
-参考资料：  
+参考资料：
 
 - [Stripe’s 2025 annual letter](https://stripe.com/annual-updates/2025)
 - [Stripe publishes 2025 annual letter and announces tender offer](https://stripe.com/newsroom/news/stripe-2025-update)

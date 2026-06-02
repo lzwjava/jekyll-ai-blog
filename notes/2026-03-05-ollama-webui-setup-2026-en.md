@@ -92,7 +92,7 @@ Then configure Ollama as a custom endpoint inside the settings.
 | Default port (Docker)    | 3000 or 8080                        | 3080                               |
 | Community (2026)         | Very active & growing fast          | Also very active                   |
 
-Bottom line:  
+Bottom line:
 Start with **Open WebUI** — 90% of Ollama + web users go this route in 2026.
 
 Just run the Docker command, open localhost:3000, and you're good.

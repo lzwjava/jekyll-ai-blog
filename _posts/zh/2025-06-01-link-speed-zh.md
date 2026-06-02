@@ -32,15 +32,15 @@ sudo ethtool enp3s0
 ```
 设置项 enp3s0:
     支持的端口：[ TP ]
-    支持的链路模式：   10baseT/半双工 10baseT/全双工 
-                      100baseT/半双工 100baseT/全双工 
-                      1000baseT/全双工 
+    支持的链路模式：   10baseT/半双工 10baseT/全双工
+                      100baseT/半双工 100baseT/全双工
+                      1000baseT/全双工
     支持的暂停帧使用：否
     支持自动协商：是
     支持的 FEC 模式：未报告
-    通告的链路模式：  10baseT/半双工 10baseT/全双工 
-                      100baseT/半双工 100baseT/全双工 
-                      1000baseT/全双工 
+    通告的链路模式：  10baseT/半双工 10baseT/全双工
+                      100baseT/半双工 100baseT/全双工
+                      1000baseT/全双工
     通告的暂停帧使用：否
     通告自动协商：是
     通告的 FEC 模式：未报告

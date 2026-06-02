@@ -12,7 +12,7 @@ type: note
 
 Question: An interview mentioned that GoodMe, this company, found that fruits transported for thousands of kilometers can become over-mature, making the juice not as good as when you pick fruits on-site, juice them, and cool them right on the road. What's the situation here, and why is GoodMe so good? (Note: "GoodMe" refers to the Chinese tea and beverage brand 古茗, known for fruit-based drinks.)
 
-Answer: 
+Answer:
 
 The core issue raised in the interview aligns with a well-known challenge in the fruit supply chain: long-distance transportation (often thousands of kilometers for imported or cross-country fruits) can lead to quality degradation. Fruits are typically harvested early to withstand shipping, which delays their natural ripening and flavor development. By the time they arrive, some over-ripen or lose crispness, sweetness, and nutritional value due to stress from handling, temperature fluctuations, and time—resulting in juice that's less vibrant and fresh compared to on-site juicing. This "roadside" approach minimizes transit time, preserving peak maturity, enzymes, and antioxidants for superior taste and health benefits. Industry data shows up to 30% loss in fruit quality during extended logistics, making consumers' "blind box" experience (inconsistent freshness) a common complaint.
 
@@ -31,8 +31,8 @@ GoodMe (古茗), a leading Chinese tea-drink brand founded in 2010, excels in ad
 
 In essence, GoodMe doesn't just transport fruits—they reengineer the chain to deliver "farm-to-cup" vibrancy at scale, turning a industry pain point into a competitive edge. If you're trying it, go for their Hand-Peeled Granular Big Orange for that peak-fresh burst.
 
-References:  
-- [古茗 Baidu Encyclopedia](https://baike.baidu.com/item/%E5%8F%A4%E8%8C%97/23861860)  
-- [Gu Ming IPO: China's No. 2 Milk Tea Brand](https://pandayoo.com/post/gu-ming-ipo-chinas-no-2-milk-tea-brand-goes-public-amidst-market-frenzy/)  
-- [古茗上市！GMV超200亿](https://zhuanlan.zhihu.com/p/32553657353)  
+References:
+- [古茗 Baidu Encyclopedia](https://baike.baidu.com/item/%E5%8F%A4%E8%8C%97/23861860)
+- [Gu Ming IPO: China's No. 2 Milk Tea Brand](https://pandayoo.com/post/gu-ming-ipo-chinas-no-2-milk-tea-brand-goes-public-amidst-market-frenzy/)
+- [古茗上市！GMV超200亿](https://zhuanlan.zhihu.com/p/32553657353)
 - [从产地到家里只需72小时，水果就得按这个标准卷](https://iot.ofweek.com/2021-07/ART-132200-8500-30512135.html)

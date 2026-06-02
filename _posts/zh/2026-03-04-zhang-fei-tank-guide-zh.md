@@ -11,7 +11,7 @@ type: note
 
 问题：如何在 Kong of Honours 中玩 Zhang Fei
 
-回答：  
+回答：
 Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢迎的 MOBA 游戏，因为“Kong of Honours”似乎是拼写错误或变体，未找到独立游戏）是一个 **Support/Tank**（Guardian 子类），主要在 **Roaming** 线玩。他擅长前线发起、为盟友提供护盾、群体控制 (CC)，并通过 Madness 机制转变为耐久的输出英雄。他的双形态玩法——人类形态（变身前，用于叠层和支援）、Ferali 形态（变身后，用于进攻）——使他在团队战斗中强大，保护输出位如射手，同时干扰敌人。
 
 ### 核心机制：Madness & Transformation
@@ -72,7 +72,7 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 
 掌握叠层 + 时机大招，实现改变战局的开团！
 
-参考资料： 
+参考资料：
 - [Honor of Kings Wiki - Zhang Fei](https://honor-of-kings.fandom.com/wiki/Zhang_Fei)
 - [Sportskeeda - Zhang Fei Build Guide](https://www.sportskeeda.com/esports/honor-kings-zhang-fei-build-guide-best-equipment-arcanas-battle-spells-skill-combos)
 - [HOKBuild - Zhang Fei](https://hokbuild.com/hero/zhang-fei)

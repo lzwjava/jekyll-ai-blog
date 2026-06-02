@@ -20,16 +20,16 @@ Here is a clear explanation of the two sample test cases and why their outputs a
 
 **Automaton A** (3 states)
 
-- State 0: F=1 (accept), transitions: 0→-1, 1→1  
-- State 1: F=0, transitions: 0→-1, 1→2  
-- State 2: F=0, transitions: 0→-1, 1→0  
+- State 0: F=1 (accept), transitions: 0→-1, 1→1
+- State 1: F=0, transitions: 0→-1, 1→2
+- State 2: F=0, transitions: 0→-1, 1→0
 
 Start state = 0
 
 **Automaton B** (2 states)
 
-- State 0: F=1 (accept), transitions: 0→-1, 1→1  
-- State 1: F=0, transitions: 0→-1, 1→0  
+- State 0: F=1 (accept), transitions: 0→-1, 1→1
+- State 1: F=0, transitions: 0→-1, 1→0
 
 Start state = 0
 
@@ -46,17 +46,17 @@ Since both recognize exactly the same language (strings of only 1's, including t
 
 **Automaton A** (4 states)
 
-- State 0: F=1, 0→-1, 1→-1, 2→1  
-- State 1: F=1, 0→-1, 1→-1, 2→2  
-- State 2: F=1, 0→-1, 1→-1, 2→3  
-- State 3: F=1, 0→-1, 1→-1, 2→1  
+- State 0: F=1, 0→-1, 1→-1, 2→1
+- State 1: F=1, 0→-1, 1→-1, 2→2
+- State 2: F=1, 0→-1, 1→-1, 2→3
+- State 3: F=1, 0→-1, 1→-1, 2→1
 
 Start state = 0
 
 **Automaton B** (2 states)
 
-- State 0: F=1, 0→-1, 1→-1, 2→1  
-- State 1: F=1, 0→-1, 1→-1, 2→0  
+- State 0: F=1, 0→-1, 1→-1, 2→1
+- State 1: F=1, 0→-1, 1→-1, 2→0
 
 Start state = 0
 

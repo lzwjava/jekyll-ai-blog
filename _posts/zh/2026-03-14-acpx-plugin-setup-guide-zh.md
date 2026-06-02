@@ -67,8 +67,8 @@ openclaw config set browser.profile openclaw
 
 ### 3. 如果您想连接到您的**真实现有浏览器**（Extension Relay 模式）
 
-1. 安装 **OpenClaw Browser Relay** 扩展  
-   → Chrome Web Store：搜索 "OpenClaw Browser Relay" 或直接访问  
+1. 安装 **OpenClaw Browser Relay** 扩展
+   → Chrome Web Store：搜索 "OpenClaw Browser Relay" 或直接访问
    https://chromewebstore.google.com/detail/openclaw-browser-relay/……
 
 2. 在 Chrome 中启用开发者模式 → 加载未打包 → 如果手动克隆，请指向文件夹
@@ -86,7 +86,7 @@ openclaw config set browser.websocket ws://127.0.0.1:9222/devtools/browser/…�
 
 - 大多数人使用**托管隔离 profile**（`openclaw` profile）能获得良好结果 — 它更安全，避免干扰您的个人登录。
 - **relay 模式**更强大（使用您的真实 cookies/会话），但也更具风险 — 仅在您完全信任代理的操作时使用。
-- 配置 acpx 后，使用简单命令测试它，例如：  
+- 配置 acpx 后，使用简单命令测试它，例如：
   `openclaw "open google.com and tell me what the Google logo says"`
 
 如果这些步骤后仍出现“acpx 插件未配置”错误，请分享：

@@ -19,25 +19,25 @@ type: note
 
 当你给模型提供：
 
-- 同时多种不同的错误类型  
-- 数百或数千行/文件  
-- 多种问题的混合示例  
+- 同时多种不同的错误类型
+- 数百或数千行/文件
+- 多种问题的混合示例
 
 时，通常会出现以下效果：
 
-1. **Pattern competition**  
+1. **Pattern competition**
    模型开始混合不同类别的启发式规则 → 产生不一致或错误的修复（例如，在 `sun.misc.Unsafe` 块中应用 Jakarta XML 更改规则）。
 
-2. **Attention dilution**  
+2. **Attention dilution**
    上下文窗口中不同问题的越多，模型对任何一个问题的深度应用就越少 → 错过“主要”问题细微情况的几率越高。
 
-3. **Mode collapse / cherry-picking**  
+3. **Mode collapse / cherry-picking**
    模型往往会锁定在提示中第一个/最令人难忘的错误类型上 → 忽略或半修复其他类别。
 
-4. **Over-generalization**  
+4. **Over-generalization**
    它有时会发明一个试图同时解决一切的“超级规则” → 引入新 bug（经典示例：破坏无关代码的全面搜索替换）。
 
-5. **Higher variance per file**  
+5. **Higher variance per file**
    同一个逻辑错误在文件 3 和文件 87 中的修复方式不同 → 造成审查疲劳和不一致风格。
 
 **观察到的现实世界差异（来自多个中大型迁移的粗略数字，2024–2025）：**
@@ -70,8 +70,8 @@ type: note
 - 接受一批后 → **重新编译项目** → 将**同一家族**的**新**剩余错误反馈到下一个提示中（这利用了早期修复往往揭示同一家族隐藏成员的事实）。
 - 当工具允许时，每个家族使用单独的聊天会话/项目上下文（Cursor projects、Claude projects、Continue.dev named contexts 等）。
 
-底线：  
-**Focused = higher quality + fewer introduced bugs + faster overall progress**  
+底线：
+**Focused = higher quality + fewer introduced bugs + faster overall progress**
 仍是 2025–2026 年大多数严肃 Java 升级项目的主导经验。
 
 试图在一次“英雄提示”中“修复一切”几乎总会导致更慢、更痛苦，一旦计算人工审查 + bugfix 轮次。

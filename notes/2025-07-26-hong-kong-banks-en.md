@@ -69,17 +69,17 @@ A "Hong Kong Visa card" likely refers to a Visa-branded debit or credit card iss
 
 If you face issues, consider consulting the bank directly or a financial advisor in Hong Kong. Always check for updates, as regulations can change.
 
-**References**  
-[List of banks in Hong Kong - Wikipedia](https://en.wikipedia.org/wiki/List_of_banks_in_Hong_Kong)  
-[List of Licensed Banks in Hong Kong 2025 - China Briefing](https://www.china-briefing.com/doing-business-guide/hong-kong/tools/list-of-licensed-banks-in-hong-kong-2023)  
-[The 7 Best Banks To Use in Hong Kong in 2025 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)  
-[The Best Banks in Hong Kong for 2025 - InvestAsian](https://www.investasian.com/offshore-banking/hong-kong-banks/)  
-[How to Open a Hong Kong Account | International - HSBC HK](https://www.hsbc.com.hk/international/banking-in-hong-kong/)  
-[How to Open a Bank Account in Hong Kong - A Quick Guide [2025]](https://statrys.com/blog/open-hong-kong-bank-account)  
-[How Mainland Chinese Can Open a Personal HSBC Bank Account ...](https://www.linkedin.com/pulse/how-mainland-chinese-can-open-personal-hsbc-bank-account-vina-cao-oubpc)  
-[Mobile Account Opening | BOC (HK) Limited – Bank of China](https://www.bochk.com/en/more/ebanking/bba.html)  
-[Apply for a Visa Card](https://www.visa.com.hk/en_HK/pay-with-visa/find-a-card/apply-card.html)  
-[Hong Kong Banks Can Begin Issuing Credit Cards in Mainland ...](https://fintechnews.hk/32619/fintechchina/hong-kong-banks-to-issue-mainland-china-credit-cards/)  
-[Best debit cards in Hong Kong - Wise](https://wise.com/hk/blog/debit-cards-in-hong-kong)  
-[5 Best Debit Cards in Hong Kong [2025] - Statrys](https://statrys.com/guides/hong-kong/banking/best-debit-cards-hong-kong)  
+**References**
+[List of banks in Hong Kong - Wikipedia](https://en.wikipedia.org/wiki/List_of_banks_in_Hong_Kong)
+[List of Licensed Banks in Hong Kong 2025 - China Briefing](https://www.china-briefing.com/doing-business-guide/hong-kong/tools/list-of-licensed-banks-in-hong-kong-2023)
+[The 7 Best Banks To Use in Hong Kong in 2025 - Statrys](https://statrys.com/guides/hong-kong/banking/best-banks)
+[The Best Banks in Hong Kong for 2025 - InvestAsian](https://www.investasian.com/offshore-banking/hong-kong-banks/)
+[How to Open a Hong Kong Account | International - HSBC HK](https://www.hsbc.com.hk/international/banking-in-hong-kong/)
+[How to Open a Bank Account in Hong Kong - A Quick Guide [2025]](https://statrys.com/blog/open-hong-kong-bank-account)
+[How Mainland Chinese Can Open a Personal HSBC Bank Account ...](https://www.linkedin.com/pulse/how-mainland-chinese-can-open-personal-hsbc-bank-account-vina-cao-oubpc)
+[Mobile Account Opening | BOC (HK) Limited – Bank of China](https://www.bochk.com/en/more/ebanking/bba.html)
+[Apply for a Visa Card](https://www.visa.com.hk/en_HK/pay-with-visa/find-a-card/apply-card.html)
+[Hong Kong Banks Can Begin Issuing Credit Cards in Mainland ...](https://fintechnews.hk/32619/fintechchina/hong-kong-banks-to-issue-mainland-china-credit-cards/)
+[Best debit cards in Hong Kong - Wise](https://wise.com/hk/blog/debit-cards-in-hong-kong)
+[5 Best Debit Cards in Hong Kong [2025] - Statrys](https://statrys.com/guides/hong-kong/banking/best-debit-cards-hong-kong)
 [Top Credit Cards in Hong Kong: A 2025 Guide - Air Corporate](https://air-corporate.com/blog/top-credit-cards-in-hong-kong/)

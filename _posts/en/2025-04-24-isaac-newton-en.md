@@ -41,7 +41,7 @@ Newton’s most famous contribution to science is his formulation of the **three
 In the *Principia*, Newton proposed the **law of universal gravitation**, a groundbreaking idea that explained the force governing the motion of celestial bodies and objects on Earth.
 
 #### a. **Statement**
-- Every particle of matter in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. Mathematically:  
+- Every particle of matter in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. Mathematically:
   **F = G (m₁m₂ / r²)**, where **F** is the gravitational force, **m₁** and **m₂** are the masses, **r** is the distance, and **G** is the gravitational constant.
 - Newton did not determine the value of **G**; it was later measured by Henry Cavendish in 1798.
 

@@ -12,7 +12,7 @@ type: note
 
 Question: Explain Playwright vs Selenium
 
-Answer: 
+Answer:
 
 Playwright and Selenium are both open-source tools for browser automation, primarily used for end-to-end (E2E) web testing, UI automation, and web scraping. Selenium, released in 2004, is the long-established standard, while Playwright, developed by Microsoft and released in 2020, is a modern alternative designed to address many of Selenium's pain points.
 
@@ -58,7 +58,7 @@ Playwright and Selenium are both open-source tools for browser automation, prima
 
 In restricted environments (e.g., banking servers), Playwright is often easier to deploy as it bundles browsers and has fewer external dependencies than Selenium's driver management.
 
-References:  
+References:
 
 - [Playwright Official Documentation](https://playwright.dev/)
 - [Selenium Official Documentation](https://www.selenium.dev/documentation/)

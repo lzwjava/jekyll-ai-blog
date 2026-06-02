@@ -57,7 +57,7 @@ This is a **Chat Room View Controller** (`CDChatRoomVC`) from the LeanChat iOS a
 
 ### **Notification Handling**
 - `kCDNotificationMessageReceived`: New incoming messages
-- `kCDNotificationMessageDelivered`: Message delivery confirmations  
+- `kCDNotificationMessageDelivered`: Message delivery confirmations
 - `kCDNotificationConversationUpdated`: Conversation metadata changes
 - `kCDNotificationConnectivityUpdated`: Network connection changes
 

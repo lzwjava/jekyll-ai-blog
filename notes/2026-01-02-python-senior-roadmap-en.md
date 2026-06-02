@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive roadmap to become a senior Python engineer
 
-Answer: 
+Answer:
 
 ### Overview
 Becoming a senior Python engineer typically takes 5–10 years of experience, depending on your starting point, dedication, and opportunities. It involves progressing from beginner to expert in technical skills, while gaining practical experience in real-world projects, system design, leadership, and mentoring. Senior roles require not just coding proficiency but also architectural decision-making, performance optimization, team guidance, and understanding of production systems.
@@ -103,10 +103,10 @@ Soft skills:
 
 With persistence, you can reach senior level by building expertise and demonstrating impact in teams.
 
-References:  
+References:
 
-- [roadmap.sh/python](https://roadmap.sh/python)  
-- [Coursera Python Career Roadmap](https://www.coursera.org/resources/job-leveling-matrix-for-python-career-pathways)  
-- [Real Python Advanced Tutorials](https://realpython.com/tutorials/advanced/)  
-- [Medium: Ultimate Python Developer 2025 Roadmap](https://medium.com/@waadlingaadil/the-ultimate-python-developer-2025-roadmap-6d274438de28)  
+- [roadmap.sh/python](https://roadmap.sh/python)
+- [Coursera Python Career Roadmap](https://www.coursera.org/resources/job-leveling-matrix-for-python-career-pathways)
+- [Real Python Advanced Tutorials](https://realpython.com/tutorials/advanced/)
+- [Medium: Ultimate Python Developer 2025 Roadmap](https://medium.com/@waadlingaadil/the-ultimate-python-developer-2025-roadmap-6d274438de28)
 - [GeeksforGeeks Senior Python Developer Job Description](https://www.geeksforgeeks.org/senior-python-developer-job-description/)

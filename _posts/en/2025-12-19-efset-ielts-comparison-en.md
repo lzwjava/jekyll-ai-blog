@@ -12,7 +12,7 @@ type: note
 
 Question: How do EF SET and IELTS scores compare?
 
-Answer: 
+Answer:
 
 The **EF SET** (EF Standard English Test) and **IELTS** (International English Language Testing System) both measure English proficiency and align with the CEFR (Common European Framework of Reference for Languages), but they differ significantly in format, skills assessed, cost, and acceptance.
 
@@ -48,10 +48,10 @@ Your EF SET certificate will display the equivalent IELTS band range alongside y
 
 In summary, EF SET is a convenient, free tool for gauging reading and listening proficiency with reliable IELTS approximations, while IELTS is the gold standard for comprehensive, officially recognized certification.
 
-References:  
+References:
 
-- [EF SET English Score and CEFR Equivalency](https://www.efset.org/english-score/)  
-- [EF English Tests Score Comparison](https://www.ef.com/wwen/english-tests/test-comparison/)  
-- [EF SET IELTS Correlation Study Report](https://a.storyblok.com/f/79503/x/3044206eea/ef-set-ielts-correlation-study-report.pdf)  
-- [Wikipedia: EF Standard English Test](https://en.wikipedia.org/wiki/EF_Standard_English_Test)  
+- [EF SET English Score and CEFR Equivalency](https://www.efset.org/english-score/)
+- [EF English Tests Score Comparison](https://www.ef.com/wwen/english-tests/test-comparison/)
+- [EF SET IELTS Correlation Study Report](https://a.storyblok.com/f/79503/x/3044206eea/ef-set-ielts-correlation-study-report.pdf)
+- [Wikipedia: EF Standard English Test](https://en.wikipedia.org/wiki/EF_Standard_English_Test)
 - [TutorSpeak: EF SET vs IELTS Comparison](https://tutorspeak.com/is-ef-set-equivalent-to-ielts-or-comprehensive-comparison)

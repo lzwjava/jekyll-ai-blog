@@ -81,6 +81,6 @@ In amplifiers, you bias the transistor in the active region (e.g., at mid-point 
 
 If \\( \beta \\) varied more wildly, we'd need a full SPICE simulation, but for MCQs, 100 is the intended answer.
 
-For deeper reading:  
-[All About Circuits: BJT Fundamentals](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistor-bjt/)  
+For deeper reading:
+[All About Circuits: BJT Fundamentals](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistor-bjt/)
 [Electronics Tutorials: Transistor as an Amplifier](https://www.electronics-tutorials.ws/amplifier/transistor-amplifier.html)

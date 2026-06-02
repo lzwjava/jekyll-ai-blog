@@ -12,7 +12,7 @@ type: note
 
 Question: How to prepare for GCP's Professional Cloud Developer exam?
 
-Answer: 
+Answer:
 
 以下是针对 **Google Cloud Professional Cloud Developer** 认证（截至 2026 年初）的一个切实且最新的备考计划。
 
@@ -92,7 +92,7 @@ Answer:
 
 祝你好运 — 通过专注的 Hands-on 练习，这个目标是非常可以实现的！
 
-References:  
+References:
 
 - [Official Professional Cloud Developer Certification Page](https://cloud.google.com/learn/certification/cloud-developer)
 - [Official Exam Guide](https://cloud.google.com/learn/certification/guides/cloud-developer)

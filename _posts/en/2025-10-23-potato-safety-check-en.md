@@ -13,7 +13,7 @@ type: note
 Potatoes stored in a refrigerator at 6°C for two months can generally still be safe to eat, provided they show no signs of spoilage. Here’s a breakdown of your query regarding "Tudou" (potatoes) from Shandong, stored in Guangzhou, China, and cooked in an air fryer:
 
 ### Are the Potatoes Still Edible?
-1. **Storage Conditions**: 
+1. **Storage Conditions**:
    - Potatoes stored at 6°C (typical fridge temperature) can last for 1–3 months, depending on their condition at purchase. The cool temperature slows sprouting and spoilage, but prolonged refrigeration can increase sugar content, potentially affecting taste and cooking properties.
    - Check for spoilage signs:
      - **Smell**: A bad odor (musty, rotten, or moldy) indicates spoilage.

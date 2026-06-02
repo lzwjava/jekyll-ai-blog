@@ -30,6 +30,6 @@ Key benchmark highlights (from devices using this chip):
 
 In real-world use on the DragonBoard, expect smooth operation for development scripting or sensor integration, but it may throttle under sustained loads due to thermal limits and limited RAM. It's outperformed by even mid-range 2020-era chips (e.g., 5–10x slower than a Snapdragon 888 in multi-core tasks), so it's best for hobbyist projects rather than production high-performance needs.
 
-[DragonBoard 410c - 96Boards](https://www.96boards.org/product/dragonboard410c/)  
-[Qualcomm Snapdragon 410 Benchmarks - NotebookCheck](https://www.notebookcheck.net/Qualcomm-Snapdragon-410-APQ8016-Benchmarks-and-Specs.142822.0.html)  
+[DragonBoard 410c - 96Boards](https://www.96boards.org/product/dragonboard410c/)
+[Qualcomm Snapdragon 410 Benchmarks - NotebookCheck](https://www.notebookcheck.net/Qualcomm-Snapdragon-410-APQ8016-Benchmarks-and-Specs.142822.0.html)
 [CPU Benchmark - PassMark](https://www.cpubenchmark.net/cpu.php?cpu=Qualcomm%2BTechnologies%252C%2BInc%2BMSM8916&id=4009)

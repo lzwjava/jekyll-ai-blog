@@ -24,13 +24,13 @@ The core reason can be reduced to one fundamental theorem in computer science: *
 
 Here’s a step-by-step explanation of why this is true:
 
-1. **Memory safety requires knowing when an object dies**  
+1. **Memory safety requires knowing when an object dies**
    To free or reuse memory without dangling pointers or leaks, the system must know the exact moment an object becomes unreachable (i.e., no reference to it can ever be used again).
 
-2. **Reachability depends on control flow**  
+2. **Reachability depends on control flow**
    Whether a reference is used again depends on conditionals, loops, recursion, function pointers, higher-order functions, dynamic dispatch, etc.
 
-3. **A classic reduction to the Halting Problem**  
+3. **A classic reduction to the Halting Problem**
    Imagine you have a program P and you want to know if it halts on input x. You can construct the following program in almost any realistic language:
 
    ```pseudo
@@ -41,13 +41,13 @@ Here’s a step-by-step explanation of why this is true:
        keep a reference to O forever and use it
    ```
 
-   Now ask the static analyzer: “Can the memory for O be safely freed at this point (or at some fixed program point)?”  
+   Now ask the static analyzer: “Can the memory for O be safely freed at this point (or at some fixed program point)?”
    A correct answer requires knowing whether the `if` branch is taken — which is exactly the Halting Problem. Since the Halting Problem is undecidable, no static analyzer can correctly answer this for **all** programs.
 
-4. **Real languages make it even worse**  
-   - First-class functions / closures  
-   - Dynamic code loading / eval  
-   - Pointer arithmetic, interior pointers, XOR-linked lists, etc.  
+4. **Real languages make it even worse**
+   - First-class functions / closures
+   - Dynamic code loading / eval
+   - Pointer arithmetic, interior pointers, XOR-linked lists, etc.
    All of these make precise static lifetime analysis exponentially harder (or outright impossible).
 
 ### What can static analysis actually do?

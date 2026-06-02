@@ -51,19 +51,19 @@ type: post
 
 *2024.12.29*
 
-* The best way is to get a China Macao SIM card to use cellular data directly when needed. Visit [https://www.1888.com.mo](https://www.1888.com.mo). It costs around 80 CNY for 10 GB of cellular data, offering a fast and painless experience. 
+* The best way is to get a China Macao SIM card to use cellular data directly when needed. Visit [https://www.1888.com.mo](https://www.1888.com.mo). It costs around 80 CNY for 10 GB of cellular data, offering a fast and painless experience.
 
 * China Telecom Macao SIM cards are available in two types: red and blue. Red cards offer daily plans, typically costing 2, 3, or 5 Macao dollars per day. Blue cards provide data plans, such as 10GB for 98 Macao dollars or 20GB for 198 Macao dollars, without monthly charges.
 
-* If you need more network data or use a laptop frequently, consider using [Falemon](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.  
+* If you need more network data or use a laptop frequently, consider using [Falemon](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.
 
-* On iOS, use Shadowrocket with Shadowsocks rules: [https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever). Configure global routing to separate China traffic from overseas traffic.  
+* On iOS, use Shadowrocket with Shadowsocks rules: [https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever). Configure global routing to separate China traffic from overseas traffic.
 
-* On Android, use V2Ray. On Fire TV, use the V2Ray app. On Apple TV, use the Shadowrocket app. On Mac, use the ShadowsocksX-NG or ClashX app.  
+* On Android, use V2Ray. On Fire TV, use the V2Ray app. On Apple TV, use the Shadowrocket app. On Mac, use the ShadowsocksX-NG or ClashX app.
 
-* It is not recommended to set up a proxy server by yourself. Protocols like Shadowsocks, VMess, or Trojan are easily banned, regardless of the server used.  
+* It is not recommended to set up a proxy server by yourself. Protocols like Shadowsocks, VMess, or Trojan are easily banned, regardless of the server used.
 
-* To switch the App Store to the USA region, turn on a global proxy (USA), and it will show the payment option of "None," allowing you to switch openly.  
+* To switch the App Store to the USA region, turn on a global proxy (USA), and it will show the payment option of "None," allowing you to switch openly.
 
 * Use a Visa card to buy gift cards from Amazon or use the Apple gift card portal to charge your App Store account.
 
@@ -216,7 +216,7 @@ You can also find these on Taobao:
 
 *2025.01.03*
 
-Zhiwei: 
+Zhiwei:
 
 I went out for a barbeque with a friend and used Shadowsocks with a Singapore-based server as my proxy to bypass the Great Firewall (GFW). While using 5G outside, I couldn't connect, and the test timed out when trying to access YouTube. However, when I'm at home using 4G or my China Telecom home network, Shadowsocks works fine. Why is this happening?
 
@@ -264,7 +264,7 @@ It sounds like you're experiencing connectivity issues with your Shadowsocks pro
 
 By systematically checking these factors, you should be able to identify the cause of the connectivity issue and find a suitable solution.
 
--- 
+--
 
 Update:
 
@@ -292,7 +292,7 @@ In China, I personally recommend [https://www.1888.com.mo](https://www.1888.com.
 
 #### Apple Store Region
 
-To switch the App Store to the USA region, turn on a global proxy (USA), and it will display the "None" payment option, allowing you to switch freely.  
+To switch the App Store to the USA region, turn on a global proxy (USA), and it will display the "None" payment option, allowing you to switch freely.
 
 You can use a Visa card to buy gift cards from Amazon or use the Apple gift card portal to fund your App Store account.
 
@@ -306,6 +306,6 @@ Having a Visa card is convenient. However, Visa cards issued by China still have
 
 You may want to check out [Proxy Solutions in China](./proxy-en) and [Set Up Your Proxy Server](./diy-proxy-en).
 
-#### Identity 
+#### Identity
 
 I have a Chinese citizen identity card and passport, which can be helpful in certain situations.

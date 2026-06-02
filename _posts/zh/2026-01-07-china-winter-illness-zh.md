@@ -12,7 +12,7 @@ type: note
 
 Question: 中国人在冬季是否容易患咳嗽、高烧等类似症状的疾病？
 
-Answer: 
+Answer:
 
 是的，中国民众，特别是北方地区，在冬季通常会经历呼吸道疾病的增加，包括咳嗽、高烧、喉咙痛和鼻塞等症状。这是北半球寒冷月份常见的典型季节性模式。
 
@@ -26,10 +26,10 @@ Answer:
 
 这些疾病通常较轻，但对儿童、老人或有基础疾病的人群可能较为严重。预防措施包括接种疫苗（如流感疫苗）、保持手部卫生、在拥挤场所佩戴口罩以及保持良好通风。
 
-References:  
+References:
 
-- [WHO: Trends of acute respiratory infection, including human metapneumovirus, in the Northern Hemisphere](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON550)  
-- [PMC: Dual Seasonal Patterns for Influenza, China](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321959/)  
-- [PMC: Health Effects of Air Pollution in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC6068713/)  
-- [Euronews: What is HMPV, the respiratory virus spreading across China](https://www.euronews.com/health/2025/01/07/what-is-hmpv-the-respiratory-virus-straining-healthcare-systems-in-china)  
+- [WHO: Trends of acute respiratory infection, including human metapneumovirus, in the Northern Hemisphere](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON550)
+- [PMC: Dual Seasonal Patterns for Influenza, China](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321959/)
+- [PMC: Health Effects of Air Pollution in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC6068713/)
+- [Euronews: What is HMPV, the respiratory virus spreading across China](https://www.euronews.com/health/2025/01/07/what-is-hmpv-the-respiratory-virus-straining-healthcare-systems-in-china)
 - [Reuters: Winter surge of hMPV in China and elsewhere not unusual, WHO says](https://www.reuters.com/business/healthcare-pharmaceuticals/winter-surge-respiratory-illness-china-elsewhere-not-unusual-who-says-2025-01-08/)

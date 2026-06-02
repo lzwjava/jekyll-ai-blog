@@ -12,19 +12,19 @@ Ben Eater is an American YouTuber, software developer, and educator known for hi
 
 ### Key Points About Ben Eater:
 
-- **Channel Focus**:  
+- **Channel Focus**:
   Initially, his channel was dedicated to exploring vintage computers like the Commodore 64, Apple II, and IBM PC compatibles. He often demonstrated how older hardware works, repaired old machines, and explained the inner workings of classic technology.
 
-- **DIY Projects and Education**:  
+- **DIY Projects and Education**:
   He has collaborated with other educators (notably Dave Jones of EEVblog) on projects like building a **8-bit computer from scratch** on breadboards, which became one of his most popular series. These projects emphasize understanding how computers work at the lowest levels—using individual logic chips, registers, RAM, and custom assembly languages.
 
-- **Collaborations**:  
+- **Collaborations**:
   He's well-known for his work with **Dave Jones (EEVblog)** on the **"eater.net"** project, particularly the **"8-bit computer"** series that walks viewers through building a simple CPU-based computer using TTL logic chips.
 
-- **Programming & Software Content**:  
+- **Programming & Software Content**:
   In addition to hardware, Ben also covers programming topics, especially related to low-level development, reverse engineering, and understanding operating systems.
 
-- **Approach**:  
+- **Approach**:
   His teaching style is methodical and hands-on, appealing to hobbyists, students, and engineers who want to understand the fundamentals of computing.
 
 ---

@@ -29,10 +29,10 @@ Your single `<li class="list-group-item">` element contains:
 
 This means **one list item ≈ 5–6 DOM nodes** (plus any Bootstrap-added classes or pseudo-elements).
 
-- **7,000 items** → Roughly **35,000 – 42,000 DOM nodes** just from the list (plus the rest of your page).  
+- **7,000 items** → Roughly **35,000 – 42,000 DOM nodes** just from the list (plus the rest of your page).
   This is **likely to feel sluggish** on many devices, especially during scrolling, searching, or when the browser recalculates layout/styles. Initial page load and JavaScript operations will also slow down.
 
-- **20,000 items** → Roughly **100,000+ DOM nodes**.  
+- **20,000 items** → Roughly **100,000+ DOM nodes**.
   This is **generally not recommended** for good user experience. You will probably see:
   - Slow page loading
   - Janky or laggy scrolling
@@ -52,27 +52,27 @@ Even if the list renders, **scrolling through 7k+ or 20k items** becomes unpleas
 ### Recommended Solutions
 For lists this large, do **not** render every item at once. Use one of these approaches:
 
-1. **Virtual Scrolling / Windowing** (Best for 7k–20k+ items)  
-   Only render the items currently visible in the viewport (usually 10–30 items at a time). As the user scrolls, new items are added and old ones removed from the DOM.  
-   Popular libraries:  
-   - React: `react-window` or `react-virtualized`  
-   - Vue: `vue-virtual-scroller`  
-   - Angular: Angular CDK Virtual Scrolling  
+1. **Virtual Scrolling / Windowing** (Best for 7k–20k+ items)
+   Only render the items currently visible in the viewport (usually 10–30 items at a time). As the user scrolls, new items are added and old ones removed from the DOM.
+   Popular libraries:
+   - React: `react-window` or `react-virtualized`
+   - Vue: `vue-virtual-scroller`
+   - Angular: Angular CDK Virtual Scrolling
    - Vanilla JS: `Clusterize.js` or custom Intersection Observer implementation
 
-2. **Pagination**  
+2. **Pagination**
    Show 50–200 items per page with "Load more" or page numbers.
 
-3. **Infinite Scroll** (with virtualization)  
+3. **Infinite Scroll** (with virtualization)
    Load more items as the user scrolls, but still only keep a limited number in the DOM.
 
-4. **Filtering/Search on the server or client**  
+4. **Filtering/Search on the server or client**
    Let users search or filter first so fewer items are shown.
 
-5. **Simple optimizations if you must keep all items**  
-   - Use `will-change: transform;` or CSS containment  
-   - Avoid heavy CSS (complex selectors, shadows, etc.) on list items  
-   - Use `document.createDocumentFragment()` when building the list in JavaScript  
+5. **Simple optimizations if you must keep all items**
+   - Use `will-change: transform;` or CSS containment
+   - Avoid heavy CSS (complex selectors, shadows, etc.) on list items
+   - Use `document.createDocumentFragment()` when building the list in JavaScript
    - Consider a `<table>` with fixed layout or a canvas-based list for extreme cases
 
 ### Quick Test Recommendation
@@ -83,13 +83,13 @@ Try rendering your 7,000 items in an incognito window and check:
 
 If you notice lag with 7,000 items, you should implement virtualization before going to 20,000.
 
-In summary:  
-- 7,000 items is **borderline** — it may work but is not optimal.  
+In summary:
+- 7,000 items is **borderline** — it may work but is not optimal.
 - 20,000 items is **too much** for a simple rendered list and will likely degrade user experience.
 
 Switching to virtual scrolling will let you comfortably handle 20k, 50k, or even 100k+ items with smooth performance.
 
-References:  
+References:
 - https://developer.chrome.com/docs/lighthouse/performance/dom-size
 - https://web.dev/articles/dom-size-and-interactivity
 - https://www.debugbear.com/blog/excessive-dom-size

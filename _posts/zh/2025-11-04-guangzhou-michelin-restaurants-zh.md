@@ -47,7 +47,7 @@ type: note
 
 专业建议：广交会期间可感受沸腾食潮，但需提前通过大众点评等应用预订。体验传统点心可前往荔湾等老城区。
 
-[2025广州米其林指南发布公告](http://guide.michelin.com/mo/en/article/news-and-views/guangzhou-china-full-selection-release-2024)  
-[广州米其林星级餐厅完整名录（维基百科）](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)  
-[世界50最佳餐厅探索榜单-广州](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)  
+[2025广州米其林指南发布公告](http://guide.michelin.com/mo/en/article/news-and-views/guangzhou-china-full-selection-release-2024)
+[广州米其林星级餐厅完整名录（维基百科）](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)
+[世界50最佳餐厅探索榜单-广州](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)
 [Trip.com-景观餐厅精选](https://us.trip.com/toplist/tripbest/recommend/guangzhou/best-restaurants-for-views-and-experiences/100900005479/)

@@ -40,8 +40,8 @@ Hermes Agent是由Nous Research开发的开源自进化AI智能体框架。自20
 
 总而言之，Hermes Agent的卓越之处在于解决了当前AI智能体的核心局限——缺乏长期记忆和自我进化能力，同时保持了实用性、经济性和可扩展性。其受欢迎程度源于它提供了更“鲜活”且持续进化的AI体验，在处理复杂长期任务时展现出真正的实用价值。
 
-参考链接：  
-- [GitHub代码仓库](https://github.com/nousresearch/hermes-agent)  
-- [Hermes Agent文档](https://hermes-agent.nousresearch.com/docs/)  
-- [Turing Post关于Hermes与OpenClaw的对比文章](https://www.turingpost.com/p/hermes)  
+参考链接：
+- [GitHub代码仓库](https://github.com/nousresearch/hermes-agent)
+- [Hermes Agent文档](https://hermes-agent.nousresearch.com/docs/)
+- [Turing Post关于Hermes与OpenClaw的对比文章](https://www.turingpost.com/p/hermes)
 - [News.Bitcoin.com解读文章](https://news.bitcoin.com/what-is-hermes-agent-nous-researchs-self-improving-ai-explained/)

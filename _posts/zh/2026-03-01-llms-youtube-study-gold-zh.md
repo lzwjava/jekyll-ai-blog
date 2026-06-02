@@ -17,13 +17,13 @@ type: note
 
 以下是从口头 YouTube 视频获取经过 LLM 处理的 well-organized transcript（或 summary + structured notes）之所以非常有效的主要原因：
 
-- **捕捉了自然的思维过程**  
+- **捕捉了自然的思维过程**
   优秀的讲师、专家和有经验的教师经常大声思考 → 他们展示了真实的思维路径：疑虑、修正、类比、为什么放弃某种方法、直觉如何引导他们。原始 transcript 已经包含这些；经过清理 + 组织的版本让它更容易跟随。
 
-- **口头解释通常比纯文本更适合建立直觉**  
+- **口头解释通常比纯文本更适合建立直觉**
   许多深奥概念（尤其在 math、physics、programming、philosophy、history storytelling、psychology 等领域）通过口语 + 停顿 + 强调 + 示例来讲解，比 textbook-style 写作更容易理解。LLM 可以帮助保留那种口头风格，同时移除填充词、假启动和重复。
 
-- **LLM 非常擅长后处理口头内容**  
+- **LLM 非常擅长后处理口头内容**
   现代 LLM 擅长：
   - 移除 "um"、"you know"、"like"、重复短语
   - 将冗长的 rambling explanations 转为清晰的 numbered steps / hierarchical outlines
@@ -32,7 +32,7 @@ type: note
   - 创建不同长度的 summaries（TL;DR → 1-page → detailed version）
   - 甚至在提供 timestamps 时添加 timestamps 或 section headings
 
-- **主动学习益处**  
+- **主动学习益处**
   阅读干净、结构化的 long-form transcript 通常比被动观看（尤其在 1.5–2× speed）更主动且更易记忆。你可以：
   - 暂停思考
   - highlight / annotate
@@ -67,6 +67,6 @@ YouTube → Whisper / official transcript → 将长 transcript + good prompt �
 
 总体来说：强烈是的——针对你描述的视频类型，非常好的主意。
 
-**参考文献**：  
+**参考文献**：
 
 - 无（基于 2024–2026 观察到的常见 self-learning practices 的推理）

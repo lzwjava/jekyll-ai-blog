@@ -32,7 +32,7 @@ Below is a side-by-side comparison across key categories, based on the latest av
 
 ### Detailed Insights
 - **Financial Scale and Stability**: Citigroup dwarfs Standard Chartered in size, with assets over 2.8x larger, reflecting its diversified operations across consumer, institutional, and markets businesses. This gives Citi greater resilience but also more regulatory oversight. Standard Chartered's leaner model has driven faster profit growth (34% YoY in Q2 2025), but it's more sensitive to economic shifts in its core regions.
-  
+
 - **Global Reach**: Both banks support international clients, but Citi's network spans more jurisdictions, making it ideal for seamless U.S.-linked transactions. Standard Chartered shines in niche areas like African trade corridors.
 
 - **Services and Products**: Overlap is high in core banking (e.g., both offer competitive credit cards with cashback rewards), but Citi edges out in consumer perks like app-based budgeting tools and miles programs. Standard Chartered is preferred for business accounts in Asia, with lower fees for demand drafts in some markets. For offshore banking, Standard Chartered often has more accessible entry points.

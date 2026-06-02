@@ -25,13 +25,13 @@ To fix this, you should either avoid sharing mutable data between threads or use
         futures = []
         for filename in changed_files:
             input_file = filename
-            
+
             for lang in languages:
-                
+
                 print(f"Submitting translation job for {filename} to {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, os.path.join(f"_posts/{lang}", os.path.basename(filename).replace(".md", f"-{lang}.md")), lang, dry_run)
                 futures.append(future)
-            
+
         for future in concurrent.futures.as_completed(futures):
             try:
                 future.result()
@@ -70,12 +70,12 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
-        
+
         # Determine if the file is a translation
         original_lang = 'en' # Default to english
         if 'lang' in front_matter_dict:
             original_lang = front_matter_dict['lang']
-        
+
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
             front_matter_dict['translated'] = True
@@ -83,8 +83,8 @@ def translate_front_matter(front_matter, target_language, input_file):
         else:
             front_matter_dict['translated'] = False
             print(f"  Not marked as translated for: {input_file}")
-        
-        
+
+
         result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")
         return result
@@ -106,9 +106,9 @@ def translate_front_matter(front_matter, target_language, input_file):
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
             print(f"  Front matter after safe_load: {front_matter_dict}")
-        
+
         front_matter_dict_copy = front_matter_dict.copy()
-        
+
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
@@ -127,8 +127,8 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
- 
-        front_matter_dict_copy['lang'] = target_language        
+
+        front_matter_dict_copy['lang'] = target_language
         front_matter_dict_copy['translated'] = True
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"

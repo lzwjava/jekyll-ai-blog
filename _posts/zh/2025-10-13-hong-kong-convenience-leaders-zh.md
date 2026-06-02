@@ -14,7 +14,7 @@ type: note
 
 这些便利店遍布全港，提供零食、饮品、日用杂货、SIM卡、酒类和香烟等即时购物需求，多数实行24小时营业模式。
 
-[2025年香港便利店零售市场报告](https://uk.finance.yahoo.com/news/hong-kong-convenience-retailers-market-104300147.html)  
-[2023年香港主要便利店数量统计](https://www.statista.com/statistics/755067/hong-kong-number-of-convenience-stores/)  
-[759 Store - 维基百科](https://en.wikipedia.org/wiki/759_Store)  
+[2025年香港便利店零售市场报告](https://uk.finance.yahoo.com/news/hong-kong-convenience-retailers-market-104300147.html)
+[2023年香港主要便利店数量统计](https://www.statista.com/statistics/755067/hong-kong-number-of-convenience-stores/)
+[759 Store - 维基百科](https://en.wikipedia.org/wiki/759_Store)
 [7-Eleven与Circle K在香港的竞争态势](https://khwongk12.medium.com/7-eleven-vs-circle-k-5964b8f008e4)

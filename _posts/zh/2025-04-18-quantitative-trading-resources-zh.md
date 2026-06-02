@@ -79,67 +79,67 @@ type: note
 ### **在线课程**
 这些课程适合体系化学习，涵盖Python、量化金融、AI和交易策略开发。多数包含实践项目和回测。
 
-1. **QuantInsti – 算法交易高管课程**  
-   - **概述**：综合性行业导向项目，含120+小时直播讲座和150+小时录播内容。涵盖Python、数据分析、量化策略和交易机器学习。由Ernest Chan博士等专家授课。  
-   - **最适合**：致力于算法交易职业发展或自建交易团队的专业人士和有志者。  
-   - **主要特点**：实战项目、通过API的真实交易场景、个性化指导、300+招聘合作伙伴的终身就业支持。  
-   - **先修要求**：基础编程和交易知识。  
-   - **费用**：联系QuantInsti获取报价。  
-   - **来源**：[](https://www.quantinsti.com/epat)[](https://www.quantinsti.com/)[](https://www.quantinsti.com/algorithmic-trading-conference)  
+1. **QuantInsti – 算法交易高管课程**
+   - **概述**：综合性行业导向项目，含120+小时直播讲座和150+小时录播内容。涵盖Python、数据分析、量化策略和交易机器学习。由Ernest Chan博士等专家授课。
+   - **最适合**：致力于算法交易职业发展或自建交易团队的专业人士和有志者。
+   - **主要特点**：实战项目、通过API的真实交易场景、个性化指导、300+招聘合作伙伴的终身就业支持。
+   - **先修要求**：基础编程和交易知识。
+   - **费用**：联系QuantInsti获取报价。
+   - **来源**：[](https://www.quantinsti.com/epat)[](https://www.quantinsti.com/)[](https://www.quantinsti.com/algorithmic-trading-conference)
    - **链接**：[QuantInsti EPAT](https://www.quantinsti.com)
 
-2. **Udacity – AI交易纳米学位**  
-   - **概述**：基于项目的课程，专注AI与量化交易。涵盖Python、投资组合优化、NLP情感分析、信号处理和回测。  
-   - **最适合**：有Python经验的中级学习者，希望将AI/ML应用于交易。  
-   - **主要特点**：真实项目、导师支持、职业辅导、简历/LinkedIn优化。侧重量化岗位实用技能。  
-   - **先修要求**：Python熟练度和基础数学/统计知识。  
-   - **费用**：约$399/月。  
-   - **来源**：[](https://www.bankersbyday.com/algorithmic-trading-courses/)  
+2. **Udacity – AI交易纳米学位**
+   - **概述**：基于项目的课程，专注AI与量化交易。涵盖Python、投资组合优化、NLP情感分析、信号处理和回测。
+   - **最适合**：有Python经验的中级学习者，希望将AI/ML应用于交易。
+   - **主要特点**：真实项目、导师支持、职业辅导、简历/LinkedIn优化。侧重量化岗位实用技能。
+   - **先修要求**：Python熟练度和基础数学/统计知识。
+   - **费用**：约$399/月。
+   - **来源**：[](https://www.bankersbyday.com/algorithmic-trading-courses/)
    - **链接**：[Udacity AI for Trading](https://www.udacity.com/course/ai-for-trading--nd880)
 
-3. **Coursera – 机器学习用于交易**  
-   - **概述**：3门课程专项，教授使用Python的量化与算法交易。涵盖交易基础、机器学习、深度学习和强化学习在交易策略中的应用。  
-   - **最适合**：希望构建ML驱动交易模型的金融从业者和数据科学家。  
-   - **主要特点**：构建并回测配对交易策略、使用Keras/TensorFlow开发ML模型、学习优化技术。  
-   - **先修要求**：高级Python和ML/金融基础。  
-   - **费用**：免费旁听，证书约$49/月。  
-   - **来源**：[](https://www.coursera.org/specializations/machine-learning-trading)  
+3. **Coursera – 机器学习用于交易**
+   - **概述**：3门课程专项，教授使用Python的量化与算法交易。涵盖交易基础、机器学习、深度学习和强化学习在交易策略中的应用。
+   - **最适合**：希望构建ML驱动交易模型的金融从业者和数据科学家。
+   - **主要特点**：构建并回测配对交易策略、使用Keras/TensorFlow开发ML模型、学习优化技术。
+   - **先修要求**：高级Python和ML/金融基础。
+   - **费用**：免费旁听，证书约$49/月。
+   - **来源**：[](https://www.coursera.org/specializations/machine-learning-trading)
    - **链接**：[Coursera ML for Trading](https://www.coursera.org/specializations/machine-learning-trading)
 
-4. **Udemy – Python、机器学习与AWS实现算法交易A到Z**  
-   - **概述**：由金融AI专业人士Alexander主讲的数据驱动课程。涵盖日内交易机制、Python策略开发、ML/深度学习和AWS自动化。  
-   - **最适合**：希望利用AI和云计算实现交易自动化的交易员与数据科学家。  
-   - **主要特点**：100+更新讲座、回测、前向测试、模拟资金实盘测试。使用OANDA、盈透证券等经纪商。  
-   - **先修要求**：基础Python和交易知识。  
-   - **费用**：约$13–$100。  
-   - **来源**：[](https://www.udemy.com/course/algorithmic-trading-with-python-and-machine-learning/)  
+4. **Udemy – Python、机器学习与AWS实现算法交易A到Z**
+   - **概述**：由金融AI专业人士Alexander主讲的数据驱动课程。涵盖日内交易机制、Python策略开发、ML/深度学习和AWS自动化。
+   - **最适合**：希望利用AI和云计算实现交易自动化的交易员与数据科学家。
+   - **主要特点**：100+更新讲座、回测、前向测试、模拟资金实盘测试。使用OANDA、盈透证券等经纪商。
+   - **先修要求**：基础Python和交易知识。
+   - **费用**：约$13–$100。
+   - **来源**：[](https://www.udemy.com/course/algorithmic-trading-with-python-and-machine-learning/)
    - **链接**：[Udemy Algorithmic Trading A-Z](https://www.udemy.com/course/algorithmic-trading-with-python-and-machine-learning/)
 
-5. **牛津算法交易课程**  
-   - **概述**：6周在线项目，探索系统化交易、AI和行为金融学。非技术性课程，侧重算法模型评估与市场偏差。  
-   - **最适合**：寻求权威非编程算法交易入门知识的专业人士。  
-   - **主要特点**：使用Python构建简单动量模型、向行业思想领袖学习、同行交流。CPD认证。  
-   - **先修要求**：无需编程。  
-   - **费用**：约$2,000–$3,000。  
-   - **来源**：[](https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-algorithmic-trading-programme)[](https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series)  
+5. **牛津算法交易课程**
+   - **概述**：6周在线项目，探索系统化交易、AI和行为金融学。非技术性课程，侧重算法模型评估与市场偏差。
+   - **最适合**：寻求权威非编程算法交易入门知识的专业人士。
+   - **主要特点**：使用Python构建简单动量模型、向行业思想领袖学习、同行交流。CPD认证。
+   - **先修要求**：无需编程。
+   - **费用**：约$2,000–$3,000。
+   - **来源**：[](https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-algorithmic-trading-programme)[](https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series)
    - **链接**：[Oxford Algo Trading](https://www.sbs.ox.ac.uk/programmes/oxford-algorithmic-trading-programme)
 
-6. **Quantra – 量化交易入门**  
-   - **概述**：适合初学者的自主进度量化交易课程。涵盖Python库、数据收集、回测和风险管理。  
-   - **最适合**：具备基础Python技能的量化交易新人。  
-   - **主要特点**：交互式平台、实践练习、访问QuantInsti的Blueshift回测平台。  
-   - **先修要求**：基础Python和金融知识。  
-   - **费用**：约$50–$200。  
-   - **来源**：[](https://digitaldefynd.com/best-algorithmic-trading-courses/)[](https://quantra.quantinsti.com/courses)  
+6. **Quantra – 量化交易入门**
+   - **概述**：适合初学者的自主进度量化交易课程。涵盖Python库、数据收集、回测和风险管理。
+   - **最适合**：具备基础Python技能的量化交易新人。
+   - **主要特点**：交互式平台、实践练习、访问QuantInsti的Blueshift回测平台。
+   - **先修要求**：基础Python和金融知识。
+   - **费用**：约$50–$200。
+   - **来源**：[](https://digitaldefynd.com/best-algorithmic-trading-courses/)[](https://quantra.quantinsti.com/courses)
    - **链接**：[Quantra Courses](https://quantra.quantinsti.com/courses)
 
-7. **freeCodeCamp – Python算法交易**  
-   - **概述**：免费实践课程，教授使用Python设计和实现交易算法。涵盖Pandas、Matplotlib、数据分析和策略回测。  
-   - **最适合**：有Python基础的初学者和预算敏感学习者。  
-   - **主要特点**：实践导向、完全免费、为实盘交易环境打基础。  
-   - **先修要求**：基础Python。  
-   - **费用**：免费。  
-   - **来源**：[](https://digitaldefynd.com/best-algorithmic-trading-courses/)  
+7. **freeCodeCamp – Python算法交易**
+   - **概述**：免费实践课程，教授使用Python设计和实现交易算法。涵盖Pandas、Matplotlib、数据分析和策略回测。
+   - **最适合**：有Python基础的初学者和预算敏感学习者。
+   - **主要特点**：实践导向、完全免费、为实盘交易环境打基础。
+   - **先修要求**：基础Python。
+   - **费用**：免费。
+   - **来源**：[](https://digitaldefynd.com/best-algorithmic-trading-courses/)
    - **链接**：[freeCodeCamp Algo Trading](https://www.freecodecamp.org)
 
 ---
@@ -147,39 +147,39 @@ type: note
 ### **书籍**
 书籍提供深度理论与实践见解，适合自学或课程补充。这些为专业人士强烈推荐且更新至2025年适用。
 
-1. **Ernest P. Chan《量化交易》**  
-   - **概述**：构建量化交易系统的基础指南。涵盖阿尔法生成、风险管理、自动化执行和策略开发，含真实案例。  
-   - **最适合**：有志量化交易员和零售交易员。  
-   - **费用**：约$40–$60。  
-   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)  
+1. **Ernest P. Chan《量化交易》**
+   - **概述**：构建量化交易系统的基础指南。涵盖阿尔法生成、风险管理、自动化执行和策略开发，含真实案例。
+   - **最适合**：有志量化交易员和零售交易员。
+   - **费用**：约$40–$60。
+   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)
    - **链接**：亚马逊或Wiley有售。
 
-2. **Barry Johnson《算法交易与直接市场接入》**  
-   - **概述**：全面探讨算法交易、直接市场接入和市场微观结构。涵盖订单类型、交易成本和多资产交易。  
-   - **最适合**：中高级交易员和量化开发者。  
-   - **费用**：约$50–$80。  
-   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)  
+2. **Barry Johnson《算法交易与直接市场接入》**
+   - **概述**：全面探讨算法交易、直接市场接入和市场微观结构。涵盖订单类型、交易成本和多资产交易。
+   - **最适合**：中高级交易员和量化开发者。
+   - **费用**：约$50–$80。
+   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)
    - **链接**：亚马逊有售。
 
-3. **Andreas Clenow《进化交易》**  
-   - **概述**：使用Python进行系统化交易的实践指南。涵盖回测、策略开发及股票期货的行业标准工具。含源代码。  
-   - **最适合**：程序员和系统化交易员。  
-   - **费用**：约$30–$50。  
-   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)  
+3. **Andreas Clenow《进化交易》**
+   - **概述**：使用Python进行系统化交易的实践指南。涵盖回测、策略开发及股票期货的行业标准工具。含源代码。
+   - **最适合**：程序员和系统化交易员。
+   - **费用**：约$30–$50。
+   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)
    - **链接**：亚马逊有售。
 
-4. **Rishi K. Narang《黑箱之内》**  
-   - **概述**：清晰阐释量化与高频交易。更新版涵盖现代策略与风险管理。  
-   - **最适合**：寻求概念性概述的初中级学习者。  
-   - **费用**：约$20–$40。  
-   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)  
+4. **Rishi K. Narang《黑箱之内》**
+   - **概述**：清晰阐释量化与高频交易。更新版涵盖现代策略与风险管理。
+   - **最适合**：寻求概念性概述的初中级学习者。
+   - **费用**：约$20–$40。
+   - **来源**：[](https://analyzingalpha.com/best-algorithmic-trading-books)
    - **链接**：亚马逊有售。
 
-5. **Stefan Jansen《算法交易的机器学习》**  
-   - **概述**：专注ML在交易中的应用，包括数据获取、特征工程和策略优化。含Python代码与数据集。  
-   - **最适合**：有ML经验的数据科学家和交易员。  
-   - **费用**：约$40–$70。  
-   - **来源**：  
+5. **Stefan Jansen《算法交易的机器学习》**
+   - **概述**：专注ML在交易中的应用，包括数据获取、特征工程和策略优化。含Python代码与数据集。
+   - **最适合**：有ML经验的数据科学家和交易员。
+   - **费用**：约$40–$70。
+   - **来源**：
    - **链接**：亚马逊有售。
 
 ---
@@ -187,32 +187,32 @@ type: note
 ### **博客与在线资源**
 这些平台提供免费或低成本内容，含教程、案例研究和策略指南，适合持续学习。
 
-1. **QuantInsti博客**  
-   - **概述**：丰富的算法交易、Python、ML和高频交易指南资源。含专家见解与职业建议。  
-   - **最适合**：全水平学习者。  
-   - **费用**：免费。  
-   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)[](https://medium.com/%40experfy.editor/the-top-resources-for-learning-algorithmic-trading-8048e558b380)  
+1. **QuantInsti博客**
+   - **概述**：丰富的算法交易、Python、ML和高频交易指南资源。含专家见解与职业建议。
+   - **最适合**：全水平学习者。
+   - **费用**：免费。
+   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)[](https://medium.com/%40experfy.editor/the-top-resources-for-learning-algorithmic-trading-8048e558b380)
    - **链接**：[QuantInsti Blog](https://blog.quantinsti.com)
 
-2. **QuantStart**  
-   - **概述**：专注量化金融与算法交易。涵盖Python编程、策略开发和金融爱好者的回测。  
-   - **最适合**：程序员和量化从业者。  
-   - **费用**：免费。  
-   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)  
+2. **QuantStart**
+   - **概述**：专注量化金融与算法交易。涵盖Python编程、策略开发和金融爱好者的回测。
+   - **最适合**：程序员和量化从业者。
+   - **费用**：免费。
+   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)
    - **链接**：[QuantStart](https://www.quantstart.com)
 
-3. **Experfy Insights**  
-   - **概述**：关于AI、大数据和交易的文章、网络研讨会与访谈。探讨技术对金融的影响与最佳实践。  
-   - **最适合**：寻求思想领导力的专业人士。  
-   - **费用**：免费。  
-   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)  
+3. **Experfy Insights**
+   - **概述**：关于AI、大数据和交易的文章、网络研讨会与访谈。探讨技术对金融的影响与最佳实践。
+   - **最适合**：寻求思想领导力的专业人士。
+   - **费用**：免费。
+   - **来源**：[](https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses)
    - **链接**：[Experfy Insights](https://www.experfy.com/insights)
 
-4. **AlgoTrading101**  
-   - **概述**：Python、MetaTrader和交易策略开发的实践教程。由获Investopedia认可的对冲基金交易员Lucas运营。  
-   - **最适合**：初中级学习者。  
-   - **费用**：博客免费；付费课程约$200–$500。  
-   - **来源**：[](https://algotrading101.com)  
+4. **AlgoTrading101**
+   - **概述**：Python、MetaTrader和交易策略开发的实践教程。由获Investopedia认可的对冲基金交易员Lucas运营。
+   - **最适合**：初中级学习者。
+   - **费用**：博客免费；付费课程约$200–$500。
+   - **来源**：[](https://algotrading101.com)
    - **链接**：[AlgoTrading101](https://algotrading101.com)
 
 ---
@@ -220,32 +220,32 @@ type: note
 ### **社区与平台**
 参与社区和平台可获得社交网络、编码练习和实时洞见。
 
-1. **Reddit – r/algotrading**  
-   - **概述**：活跃的算法交易讨论社区，分享策略与寻求建议。适合发现资源与故障排除。  
-   - **最适合**：全水平学习者。  
-   - **费用**：免费。  
-   - **来源**：[](https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/)  
+1. **Reddit – r/algotrading**
+   - **概述**：活跃的算法交易讨论社区，分享策略与寻求建议。适合发现资源与故障排除。
+   - **最适合**：全水平学习者。
+   - **费用**：免费。
+   - **来源**：[](https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/)
    - **链接**：[r/algotrading](https://www.reddit.com/r/algotrading)
 
-2. **Hummingbot**  
-   - **概述**：加密货币算法交易的开源Python框架，专注做市与套利。提供1个月BotCamp策略开发课程。  
-   - **最适合**：具备Python技能的加密货币交易员。  
-   - **费用**：框架免费；BotCamp约$100–$300。  
-   - **来源**：[](https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/)  
+2. **Hummingbot**
+   - **概述**：加密货币算法交易的开源Python框架，专注做市与套利。提供1个月BotCamp策略开发课程。
+   - **最适合**：具备Python技能的加密货币交易员。
+   - **费用**：框架免费；BotCamp约$100–$300。
+   - **来源**：[](https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/)
    - **链接**：[Hummingbot](https://hummingbot.org)
 
-3. **Quantopian社区**  
-   - **概述**：开发、回测和分享交易算法的平台。提供AI驱动交易教程与社区。  
-   - **最适合**：程序员和量化从业者。  
-   - **费用**：免费。  
-   - **来源**：  
+3. **Quantopian社区**
+   - **概述**：开发、回测和分享交易算法的平台。提供AI驱动交易教程与社区。
+   - **最适合**：程序员和量化从业者。
+   - **费用**：免费。
+   - **来源**：
    - **链接**：[QuantConnect](https://www.quantconnect.com)
 
-4. **X平台**  
-   - **概述**：关注@aiquantfun、@quantopian或@svpino等交易员、量化从业者和教育者，获取AI交易更新、教程和课程推荐。  
-   - **最适合**：跟踪趋势与资源更新。  
-   - **费用**：免费。  
-   - **来源**：  
+4. **X平台**
+   - **概述**：关注@aiquantfun、@quantopian或@svpino等交易员、量化从业者和教育者，获取AI交易更新、教程和课程推荐。
+   - **最适合**：跟踪趋势与资源更新。
+   - **费用**：免费。
+   - **来源**：
    - **链接**：[X Platform](https://x.com)
 
 ---
@@ -253,39 +253,39 @@ type: note
 ### **免费与低成本资源**
 为预算敏感的学习者提供高价值低成本选择。
 
-1. **YouTube – 2023算法交易研讨会**  
-   - **概述**：3小时免费研讨会，讲解使用Python、AI和ChatGPT构建算法交易策略。涵盖实践编码与策略设计。  
-   - **最适合**：初中级学习者。  
-   - **费用**：免费。  
-   - **来源**：[](https://www.youtube.com/watch?v=u3aJCJSunWA)  
+1. **YouTube – 2023算法交易研讨会**
+   - **概述**：3小时免费研讨会，讲解使用Python、AI和ChatGPT构建算法交易策略。涵盖实践编码与策略设计。
+   - **最适合**：初中级学习者。
+   - **费用**：免费。
+   - **来源**：[](https://www.youtube.com/watch?v=u3aJCJSunWA)
    - **链接**：[YouTube Workshop](https://www.youtube.com/watch?v=some-video-id)
 
-2. **哈佛大学免费在线课程**  
-   - **概述**：适用于交易的量化金融与数据科学免费课程。例如统计建模和Python金融应用。  
-   - **最适合**：构建基础技能的初学者。  
-   - **费用**：免费。  
-   - **来源**：[](https://x.com/quantopian/status/1911034106059886793)  
+2. **哈佛大学免费在线课程**
+   - **概述**：适用于交易的量化金融与数据科学免费课程。例如统计建模和Python金融应用。
+   - **最适合**：构建基础技能的初学者。
+   - **费用**：免费。
+   - **来源**：[](https://x.com/quantopian/status/1911034106059886793)
    - **链接**：[Harvard edX](https://www.edx.org/school/harvardx)
 
-3. **Class Central – 算法交易课程**  
-   - **概述**：聚合哥伦比亚大学、印度理工坎普尔分校等高校免费付费课程。涵盖Python、技术分析和交易ML。  
-   - **最适合**：探索多样化选择。  
-   - **费用**：免费至约$500。  
-   - **来源**：[](https://www.classcentral.com/subject/algorithmic-trading)  
+3. **Class Central – 算法交易课程**
+   - **概述**：聚合哥伦比亚大学、印度理工坎普尔分校等高校免费付费课程。涵盖Python、技术分析和交易ML。
+   - **最适合**：探索多样化选择。
+   - **费用**：免费至约$500。
+   - **来源**：[](https://www.classcentral.com/subject/algorithmic-trading)
    - **链接**：[Class Central](https://www.classcentral.com/subject/algorithmic-trading)
 
 ---
 
 ### **按经验级别推荐**
-- **初学者**：从**freeCodeCamp的Python算法交易**、**Quantra的量化交易入门**或**Udemy的算法交易导论**开始。辅以**《黑箱之内》**和**QuantInsti博客**。  
-- **中级**：尝试**Udacity的AI交易**、**Coursera的ML交易**或**AlgoTrading101**。阅读**《量化交易》**并加入**r/algotrading**。  
-- **高级**：报名**QuantInsti的EPAT**、**牛津算法交易课程**或**Udemy的算法交易A-Z**。研读**《算法交易的机器学习》**并在**QuantConnect**上实践。  
+- **初学者**：从**freeCodeCamp的Python算法交易**、**Quantra的量化交易入门**或**Udemy的算法交易导论**开始。辅以**《黑箱之内》**和**QuantInsti博客**。
+- **中级**：尝试**Udacity的AI交易**、**Coursera的ML交易**或**AlgoTrading101**。阅读**《量化交易》**并加入**r/algotrading**。
+- **高级**：报名**QuantInsti的EPAT**、**牛津算法交易课程**或**Udemy的算法交易A-Z**。研读**《算法交易的机器学习》**并在**QuantConnect**上实践。
 
 ### **成功要诀**
-- **学习Python**：这是算法交易主导语言。在LeetCode或HackerRank等平台练习。  
-- **掌握回测**：理解数据准备、偏差消除和绩效指标。使用Blueshift或QuantConnect等工具。  
-- **从小起步**：实盘前先用模拟资金测试策略。盈透证券或OANDA等经纪商适合新手。  
-- **保持更新**：关注X账号和博客获取AI交易趋势。参加QuantInsti的GenAI与自动化交易峰会等网络研讨会。  
+- **学习Python**：这是算法交易主导语言。在LeetCode或HackerRank等平台练习。
+- **掌握回测**：理解数据准备、偏差消除和绩效指标。使用Blueshift或QuantConnect等工具。
+- **从小起步**：实盘前先用模拟资金测试策略。盈透证券或OANDA等经纪商适合新手。
+- **保持更新**：关注X账号和博客获取AI交易趋势。参加QuantInsti的GenAI与自动化交易峰会等网络研讨会。
 - **建立人脉**：参与r/algotrading或QuantInsti的Quant Network等社区获取指导和工作机会。
 
 ---

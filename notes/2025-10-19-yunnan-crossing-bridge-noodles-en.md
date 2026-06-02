@@ -16,13 +16,13 @@ Guoqiao mixian (过桥米线 in Chinese characters) is a famous Yunnan-style ric
 ### Pronunciation Guide
 In Mandarin Chinese (using pinyin romanization):
 
-- **Full name**: Guō qiáo mǐ xiàn  
-  - *Guō* (like "gwo" with a rising tone, as in "go" but with a rounded 'o')  
-  - *Qiáo* (like "ch-yow" with a falling-rising tone, 'ch' as in "cheese")  
-  - *Mǐ* (like "mee" with a falling tone)  
-  - *Xiàn* (like "shyen" with a falling tone, 'sh' as in "sheen")  
+- **Full name**: Guō qiáo mǐ xiàn
+  - *Guō* (like "gwo" with a rising tone, as in "go" but with a rounded 'o')
+  - *Qiáo* (like "ch-yow" with a falling-rising tone, 'ch' as in "cheese")
+  - *Mǐ* (like "mee" with a falling tone)
+  - *Xiàn* (like "shyen" with a falling tone, 'sh' as in "sheen")
 
-Stress the tones for authenticity: high-flat (guō), dipping (qiáo), falling (mǐ), falling (xiàn).  
+Stress the tones for authenticity: high-flat (guō), dipping (qiáo), falling (mǐ), falling (xiàn).
 
 For an audio example, search "guoqiao mixian pronunciation" on YouTube or Google—plenty of native speakers demonstrate it.
 

@@ -12,7 +12,7 @@ type: note
 
 Question: What is Muddy Waters Corp, the entity that pointed out Luckin Coffee's financial cheating?
 
-Answer: 
+Answer:
 
 "Mutter Water Corp" appears to be a misspelling or mishearing of **Muddy Waters Research** (also associated with Muddy Waters Capital LLC), a well-known activist short-selling research firm founded by Carson Block.
 
@@ -29,10 +29,10 @@ In the case of Luckin Coffee (a Chinese coffee chain that went public in 2019 an
 
 Muddy Waters' actions effectively "pointed out" and amplified the cheating, contributing to the exposure that forced Luckin's admission. The firm has a history of similar reports on other companies, particularly Chinese firms listed in the US.
 
-References:  
+References:
 
-- [Muddy Waters Research official site](https://muddywatersresearch.com/)  
-- [Wikipedia: Luckin Coffee scandal](https://en.wikipedia.org/wiki/Luckin_Coffee)  
-- [SEC press release on Luckin settlement](https://www.sec.gov/newsroom/press-releases/2020-319)  
-- [CNBC article on Luckin fraud revelation](https://www.cnbc.com/2020/04/02/luckin-coffee-stock-plummets-after-investigation-finds-coo-fabricated-sales.html)  
+- [Muddy Waters Research official site](https://muddywatersresearch.com/)
+- [Wikipedia: Luckin Coffee scandal](https://en.wikipedia.org/wiki/Luckin_Coffee)
+- [SEC press release on Luckin settlement](https://www.sec.gov/newsroom/press-releases/2020-319)
+- [CNBC article on Luckin fraud revelation](https://www.cnbc.com/2020/04/02/luckin-coffee-stock-plummets-after-investigation-finds-coo-fabricated-sales.html)
 - [Bloomberg on Muddy Waters and Luckin](https://www.bloomberg.com/news/articles/2020-04-02/muddy-waters-wins-twitter-war-with-citron-over-luckin-coffee)

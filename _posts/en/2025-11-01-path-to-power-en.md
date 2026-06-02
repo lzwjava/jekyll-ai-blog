@@ -58,6 +58,6 @@ Greene has authored or co-authored seven international bestsellers:
 
 His works remain polarizing: empowering for some, cynical for others, but undeniably impactful.
 
-**References:**  
-[Robert Greene (American author) - Wikipedia](https://en.wikipedia.org/wiki/Robert_Greene_(American_author))  
+**References:**
+[Robert Greene (American author) - Wikipedia](https://en.wikipedia.org/wiki/Robert_Greene_(American_author))
 [How Robert Greene Became an Overnight Success - Medium](https://medium.com/@nicopolicarpio/how-robert-greene-became-an-overnight-success-29939c2b1aa8)

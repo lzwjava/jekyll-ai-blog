@@ -57,11 +57,11 @@ ssh lzw@192.168.1.36 "tail -f /home/lzw/llama-server.log"
 ssh lzw@192.168.1.36 "
   # Edit config
   sed -i 's/reasoning-format.*/reasoning-format none/' openclaw.json
-  
+
   # Restart service
   kill \$(pgrep llama-server)
   nohup /home/lzw/projects/llama.cpp/build/bin/llama-server ... &
-  
+
   # Verify
   sleep 3 && curl http://localhost:8081/health
 "

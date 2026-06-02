@@ -25,7 +25,7 @@ type: note
 ### Does It Work With Angular 21 + Standalone Components?
 **Yes — it works perfectly well.**
 
-Angular 21 (like versions since ~19) uses **standalone: true** by default and eliminates most NgModules.  
+Angular 21 (like versions since ~19) uses **standalone: true** by default and eliminates most NgModules.
 Dependency-cruiser doesn't care about Angular's runtime module system or `@Component({ standalone: true, imports: […] })` — it only follows the **static import / export graph** in your TypeScript files.
 
 So it will correctly detect:
@@ -36,7 +36,7 @@ So it will correctly detect:
 
 **Important note about circular dependencies in standalone components**
 
-Angular itself sometimes requires `forwardRef(() => OtherComponent)` in the `imports: []` array to break circular *runtime* references.  
+Angular itself sometimes requires `forwardRef(() => OtherComponent)` in the `imports: []` array to break circular *runtime* references.
 **Dependency-cruiser ignores forwardRef** — it still sees the static `import` statement and will report the cycle.
 
 This is actually **desirable** behavior in most teams:

@@ -31,12 +31,12 @@ type: note
 
 对于债券和共同基金等投资产品，该应用强调通过数字平台实现便捷操作，允许您直接浏览、购买和追踪持仓。注：股票交易需使用独立的「汇丰香港简易投资」应用，而债券与基金交易均在主银行应用内进行。
 
-**参考资料**  
-[Vanguard: 什么是债券](https://investor.vanguard.com/investor-resources-education/understanding-investment-types/what-is-a-bond)  
-[Investopedia: 债券](https://www.investopedia.com/terms/b/bond.asp)  
-[Charles Schwab: 了解共同基金](https://www.schwab.com/mutual-funds/understand-mutual-funds)  
-[Investopedia: 共同基金](https://www.investopedia.com/terms/m/mutualfund.asp)  
-[汇丰香港: 手机银行功能](https://www.hsbc.com.hk/ways-to-bank/mobile-apps/banking/features/)  
-[汇丰香港: 债券与存款证](https://www.hsbc.com.hk/investments/products/bonds/)  
-[汇丰香港: 共同基金](https://www.hsbc.com.hk/investments/products/mutual-funds/)  
+**参考资料**
+[Vanguard: 什么是债券](https://investor.vanguard.com/investor-resources-education/understanding-investment-types/what-is-a-bond)
+[Investopedia: 债券](https://www.investopedia.com/terms/b/bond.asp)
+[Charles Schwab: 了解共同基金](https://www.schwab.com/mutual-funds/understand-mutual-funds)
+[Investopedia: 共同基金](https://www.investopedia.com/terms/m/mutualfund.asp)
+[汇丰香港: 手机银行功能](https://www.hsbc.com.hk/ways-to-bank/mobile-apps/banking/features/)
+[汇丰香港: 债券与存款证](https://www.hsbc.com.hk/investments/products/bonds/)
+[汇丰香港: 共同基金](https://www.hsbc.com.hk/investments/products/mutual-funds/)
 [汇丰新闻: 2025应用升级](https://www.about.hsbc.com.hk/news-and-media/hsbc-continues-to-innovate-mobile-banking-experience-with-fresh-features)

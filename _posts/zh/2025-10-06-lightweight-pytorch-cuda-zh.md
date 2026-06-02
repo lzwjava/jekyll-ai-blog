@@ -16,7 +16,7 @@ type: note
 这些微型重新实现复刻了PyTorch的核心机制（例如张量、反向传播），但剥离了所有其他功能。
 
 - **Micrograd**：一个超轻量自动微分引擎（不足200行），支持从零构建神经网络。它非常适合理解PyTorch的反向传播和梯度计算。Andrej Karpathy的配套视频教程逐步讲解了如何用它构建简单多层感知机。如果你想掌握PyTorch动态计算图的精髓，从这里开始最佳。
-  
+
 - **minGPT**：一个用约300行PyTorch代码实现的简洁可读版GPT。涵盖分词、Transformer层和训练/推理循环。能清晰展示PyTorch如何无缝衔接各个模块，非常适合生成模型爱好者。
 
 - **Mamba Minimal**：单文件实现的Mamba状态空间模型PyTorch版。核心代码仅约100行，且与官方输出结果一致，帮助你学习选择性扫描操作和序列建模内部原理。
@@ -39,11 +39,11 @@ type: note
 
 建议从micrograd或minGPT入手快速建立认知，它们最易于消化。如果以CUDA为目标，可直接跳转到从零实现PyTorch的项目。所有这些项目均托管于GitHub，欢迎克隆实践。
 
-[Micrograd](https://github.com/karpathy/micrograd)  
-[minGPT](https://github.com/karpathy/minGPT)  
-[Mamba Minimal](https://github.com/johnma2006/mamba-minimal)  
-[从零构建Mini TensorFlow](https://salviosage.medium.com/build-mini-tensorflow-like-library-from-scratch-fc28c9660037)  
-[Tract](https://github.com/sonos/tract)  
-[从零实现支持CUDA的PyTorch](https://medium.com/data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc)  
-[为PyTorch编写CUDA内核](https://tinkerd.net/blog/machine-learning/cuda-basics/)  
+[Micrograd](https://github.com/karpathy/micrograd)
+[minGPT](https://github.com/karpathy/minGPT)
+[Mamba Minimal](https://github.com/johnma2006/mamba-minimal)
+[从零构建Mini TensorFlow](https://salviosage.medium.com/build-mini-tensorflow-like-library-from-scratch-fc28c9660037)
+[Tract](https://github.com/sonos/tract)
+[从零实现支持CUDA的PyTorch](https://medium.com/data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc)
+[为PyTorch编写CUDA内核](https://tinkerd.net/blog/machine-learning/cuda-basics/)
 [PyTorch CUDA算子实现](https://medium.com/@justygwen/teach-you-to-implement-pytorch-cuda-operators-like-teaching-a-loved-one-dbd572410558)

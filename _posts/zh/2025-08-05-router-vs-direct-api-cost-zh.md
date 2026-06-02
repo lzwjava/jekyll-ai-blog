@@ -37,10 +37,10 @@ type: note
 
 如果您的使用量很大，百分比附加费会快速累积。对于低频使用或测试场景，差异可能不明显，但直接访问仍然更便宜。OpenRouter 的价值在于其统一 API 和路由功能，这些便利性可能值得您支付额外成本。
 
-[OpenRouter 常见问题解答](https://openrouter.ai/docs/faq)  
-[DeepSeek API 定价](https://api-docs.deepseek.com/quick_start/pricing)  
-[Mistral AI 定价](https://mistral.ai/pricing)  
-[Google Gemini API 定价](https://ai.google.dev/pricing)  
-[xAI API](https://x.ai/api)  
-[Mistral Large 2 分析报告](https://artificialanalysis.ai/models/mistral-large-2)  
+[OpenRouter 常见问题解答](https://openrouter.ai/docs/faq)
+[DeepSeek API 定价](https://api-docs.deepseek.com/quick_start/pricing)
+[Mistral AI 定价](https://mistral.ai/pricing)
+[Google Gemini API 定价](https://ai.google.dev/pricing)
+[xAI API](https://x.ai/api)
+[Mistral Large 2 分析报告](https://artificialanalysis.ai/models/mistral-large-2)
 [DeepSeek 定价指南](https://team-gpt.com/blog/deepseek-pricing/)

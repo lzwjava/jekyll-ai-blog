@@ -53,7 +53,7 @@ type: note
 
 如需最准确、最新的对比，请参考官方 Alibaba Cloud GPU instance families documentation。
 
-**References:**  
-- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)  
-- Alibaba Cloud ECS 定价和实例类型列表（各个区域的定价页面）  
+**References:**
+- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)
+- Alibaba Cloud ECS 定价和实例类型列表（各个区域的定价页面）
 - 详细说明 gn7t/gn7i 规格的公共云参考网站（例如 Cloud Mercato, SpareCores）

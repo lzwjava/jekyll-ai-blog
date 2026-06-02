@@ -66,8 +66,8 @@ I'll translate this to English for you.
 
 ## 🏆 Recommended 3-Day Itinerary
 
-**Day 1**: Hengqin → Dong'ao (¥80) → Beach time → Stay overnight  
-**Day 2**: Dong'ao → Xiangzhou (¥85) → Guishan (¥100) → Photos + cycling  
+**Day 1**: Hengqin → Dong'ao (¥80) → Beach time → Stay overnight
+**Day 2**: Dong'ao → Xiangzhou (¥85) → Guishan (¥100) → Photos + cycling
 **Day 3**: Guishan → Xiangzhou (¥100) → Depart
 
 **Total ferry cost**: ~¥365/person (visit 2 islands for slightly more than Wailingding round-trip)

@@ -94,6 +94,6 @@ partition(arr, low, high):  # Lomuto风格，枢轴在high
 
 "移动"发生在这些交换中：元素相互穿插移动，直至枢轴落定。用纸笔以5-6个元素练习——一旦理解分区，递归就会显得自然。若遇障碍，尝试在脑海中将其动画化为整理书架的过程。
 
-深入探索：  
-[快速排序可视化](https://visualgo.net/en/sorting?slide=9)  
+深入探索：
+[快速排序可视化](https://visualgo.net/en/sorting?slide=9)
 [CLRS 快速排序章节](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.3)

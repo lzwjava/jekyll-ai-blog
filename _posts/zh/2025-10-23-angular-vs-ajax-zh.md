@@ -28,8 +28,8 @@ AJAX（异步 JavaScript 和 XML）是一项基础技术，用于通过异步 HT
 
 简而言之，虽然 AJAX 适用于快速原型开发，但 Angular 能将前端开发转变为面向生产级应用的稳健高效流程。虽然初始学习曲线较陡峭，但长期来看将显著提升开发速度。
 
-[为什么我们使用 Angular 而非 Ajax？](https://www.quora.com/Why-do-we-use-Angular-instead-of-Ajax)  
-[我为何成为 Angular 开发者](https://medium.com/@gaspm/my-journey-in-web-development-why-i-became-an-angular-developer-and-why-i-have-no-plans-to-change-it-2e00ea9736e3)  
-[Angular 与 jQuery 全面对比](https://www.moontechnolabs.com/blog/angular-vs-jquery/)  
-[Angular 适用于前端开发的 10 大理由](https://www.linkedin.com/pulse/10-reasons-why-angular-perfect-front-end-development-sophia-tondon)  
+[为什么我们使用 Angular 而非 Ajax？](https://www.quora.com/Why-do-we-use-Angular-instead-of-Ajax)
+[我为何成为 Angular 开发者](https://medium.com/@gaspm/my-journey-in-web-development-why-i-became-an-angular-developer-and-why-i-have-no-plans-to-change-it-2e00ea9736e3)
+[Angular 与 jQuery 全面对比](https://www.moontechnolabs.com/blog/angular-vs-jquery/)
+[Angular 适用于前端开发的 10 大理由](https://www.linkedin.com/pulse/10-reasons-why-angular-perfect-front-end-development-sophia-tondon)
 [Ajax 与 Angular HTTP 服务的区别是什么？](https://www.urbanpro.com/angular-js/what-is-the-difference-between-ajax-and-angular)

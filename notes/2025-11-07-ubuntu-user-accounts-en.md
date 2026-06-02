@@ -44,5 +44,5 @@ The new user will have a home directory at `/home/username` and can log in immed
 
 This process works on Ubuntu 24.04 LTS and later versions.
 
-[User management - Ubuntu Server documentation](https://documentation.ubuntu.com/server/how-to/security/user-management/)  
+[User management - Ubuntu Server documentation](https://documentation.ubuntu.com/server/how-to/security/user-management/)
 [Add a new user account - Ubuntu Documentation](https://help.ubuntu.com/stable/ubuntu-help/user-add.html.en)

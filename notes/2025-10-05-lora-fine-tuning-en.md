@@ -32,7 +32,7 @@ This approach should yield runnable projects quickly—expect setup times of 10-
 Here are three solid, beginner-friendly open-source projects focused on LoRA fine-tuning. They're well-maintained, have examples, and cover different use cases:
 
 - **Microsoft's LoRA (Original Implementation)**: The foundational repo from the LoRA paper authors. It includes the `loralib` package for PyTorch integration and examples for Hugging Face models. Great for understanding the core math and adapting to custom setups. Stars: ~3k+.
-  
+
 - **Alpaca-LoRA**: A simple script to instruct-tune LLaMA models on consumer hardware using LoRA. Reproduces Stanford's Alpaca results with minimal code—ideal for your first run. Includes pre-trained weights and runs on a single GPU. Stars: ~5k+.
 
 - **Mistral-Finetune**: Official from Mistral AI for memory-efficient LoRA tuning of their models (e.g., Mistral-7B). Supports advanced features like quantization; perfect if you're targeting chat/instruction tasks. Stars: ~1k+.

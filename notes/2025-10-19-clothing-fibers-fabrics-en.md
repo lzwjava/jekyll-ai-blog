@@ -29,6 +29,6 @@ Clothing is made from a variety of fibers, which can be natural (from plants or 
 
 These materials are often blended (e.g., cotton-polyester) to combine benefits like comfort and durability. Trends shift toward sustainable options like organic cotton or recycled polyester due to environmental concerns.
 
-For more details on fabric care or sustainability:  
-[Common Fabrics Guide - Britannica](https://www.britannica.com/topic/textile/Fabrics)  
+For more details on fabric care or sustainability:
+[Common Fabrics Guide - Britannica](https://www.britannica.com/topic/textile/Fabrics)
 [Textile Fibers Overview - Textile Learner](https://textilelearner.net/types-of-fibres-used-in-textile-industry/)

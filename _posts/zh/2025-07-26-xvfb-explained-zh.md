@@ -47,6 +47,6 @@ Xvfb（X Virtual Framebuffer）是一种 X11 显示服务器，可在无需物�
 
 关于您粘贴的错误：似乎您的系统上没有安装 Xvfb（`FileNotFoundError` 提示找不到 'Xvfb'）。在 macOS 上（基于您的 Homebrew 路径），您可以通过 `brew install --cask xvfb` 或类似命令安装它，但请确认它已在您的 PATH 中。pyvirtualdisplay 依赖于它作为一个可执行文件可用。
 
-[Xvfb 手册页](https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml)  
-[维基百科：Xvfb](https://en.wikipedia.org/wiki/Xvfb)  
+[Xvfb 手册页](https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml)
+[维基百科：Xvfb](https://en.wikipedia.org/wiki/Xvfb)
 [如何将 Xvfb 用于无头测试](https://www.browserstack.com/guide/what-is-xvfb)

@@ -1,11 +1,11 @@
-lzw@to:~/projects/nanoGPT$ python3.10 data/shakespeare_char/prepare.py 
+lzw@to:~/projects/nanoGPT$ python3.10 data/shakespeare_char/prepare.py
 length of dataset in characters: 1,115,394
-all the unique characters: 
+all the unique characters:
  !$&',-.3:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 vocab size: 65
 train has 1,003,854 tokens
 val has 111,540 tokens
-lzw@to:~/projects/nanoGPT$ python3.10  train.py config/train_shakespeare_char.py 
+lzw@to:~/projects/nanoGPT$ python3.10  train.py config/train_shakespeare_char.py
 Overriding config with config/train_shakespeare_char.py:
 # train a miniature character-level shakespeare model
 # good for debugging and playing on macbooks and such

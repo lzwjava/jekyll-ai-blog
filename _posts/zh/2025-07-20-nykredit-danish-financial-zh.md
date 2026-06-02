@@ -16,7 +16,7 @@ Nykredit是丹麦主要的金融服务集团，尤以作为该国领先的抵押
 
 集团通过分支机构网络及与 Spar Nord Bank 等机构的合作，为丹麦全国的个人和企业客户提供服务。总部设于哥本哈根，强调客户所有的稳定性。最新财报显示其业绩表现强劲，2024年初创下季度纪录，并持续聚焦可持续金融领域。
 
-[Nykredit官方网站](https://www.nykredit.com/en-gb/om-os/)  
-[Nykredit - 维基百科](https://en.wikipedia.org/wiki/Nykredit)  
-[Nykredit银行简介 - 彭博社](https://www.bloomberg.com/profile/company/314767Z:DC)  
+[Nykredit官方网站](https://www.nykredit.com/en-gb/om-os/)
+[Nykredit - 维基百科](https://en.wikipedia.org/wiki/Nykredit)
+[Nykredit银行简介 - 彭博社](https://www.bloomberg.com/profile/company/314767Z:DC)
 [惠誉评级 - Nykredit Realkredit](https://www.fitchratings.com/research/banks/nykredit-realkredit-a-s-13-12-2024)

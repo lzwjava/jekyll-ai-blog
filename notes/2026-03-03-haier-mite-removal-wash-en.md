@@ -11,7 +11,7 @@ type: note
 
 Question: How about the 除螨洗 mode on a Haier washer?
 
-Answer: 
+Answer:
 
 **除螨洗 (Mite Removal / Dust Mite Wash)** is a specialized hygiene-focused cycle on many Haier washing machines (especially modern front-load/roller models in China/Asia). Its main purpose is to effectively remove and kill dust mites (螨虫), along with bacteria and allergens, from fabrics — particularly helpful for people with allergies, sensitive skin, babies, or asthma. Dust mites thrive in bedding, pillows, towels, plush toys, and clothing, feeding on dead skin cells.
 
@@ -49,7 +49,7 @@ If your model has **蒸汽除螨** (steam mite removal) as a variant or add-on, 
 
 This mode is part of Haier's health-focused lineup (often labeled "健康洗" or "除菌螨"). For exact details like temp/time on your machine, check the user manual or control panel icons.
 
-References:  
+References:
 
 - [Haier Official - EG100BD88PLUS Model (Mite Removal Details)](https://www.haier.com/laundry/20240509_237829.shtml)
 - [Haier Official - XQG100-H608H (Steam Deep Mite Removal)](https://www.haier.com/laundry/20241231_254457.shtml)

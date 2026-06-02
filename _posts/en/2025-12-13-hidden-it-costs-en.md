@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about the IT outsourcing business, particularly hiring technical consultants to outsource to banks and big corporations?
 
-Answer: 
+Answer:
 
 IT outsourcing, including the common practice of hiring technical consultants (often offshore) to provide services to banks and large corporations, is widely promoted for cost savings and access to talent. However, several unpopular or controversial ideas challenge this narrative, highlighting significant downsides that are often downplayed in industry discussions.
 
@@ -30,12 +30,12 @@ IT outsourcing, including the common practice of hiring technical consultants (o
 
 These ideas are unpopular because they contradict the dominant industry view that outsourcing is efficient and inevitable, often backed by consulting firms that profit from it.
 
-References:  
+References:
 
-- https://www.reddit.com/r/cscareerquestions/comments/nc7h49/why_do_people_here_hate_outsourcing_so_much/  
-- https://www.reddit.com/r/cscareerquestions/comments/1lxreen/how_bad_of_a_problem_is_outsourcing/  
-- https://www.pymnts.com/bank-regulation/2024/regulators-wary-of-banks-outsourcing-to-tech-firms/  
-- https://technologymagazine.com/it-procurement/outsourcing-technology-systemic-risk-banks  
-- https://www.itsasap.com/blog/problems-outsourcing-it  
-- https://en.wikipedia.org/wiki/Body_shopping  
+- https://www.reddit.com/r/cscareerquestions/comments/nc7h49/why_do_people_here_hate_outsourcing_so_much/
+- https://www.reddit.com/r/cscareerquestions/comments/1lxreen/how_bad_of_a_problem_is_outsourcing/
+- https://www.pymnts.com/bank-regulation/2024/regulators-wary-of-banks-outsourcing-to-tech-firms/
+- https://technologymagazine.com/it-procurement/outsourcing-technology-systemic-risk-banks
+- https://www.itsasap.com/blog/problems-outsourcing-it
+- https://en.wikipedia.org/wiki/Body_shopping
 - https://www.reddit.com/r/sysadmin/comments/umkhwp/has_outsourcing_it_ever_worked/

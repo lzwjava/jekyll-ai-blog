@@ -11,12 +11,12 @@ type: note
 
 Question: Should I rebuild llama.cpp first, or attempt a run with Flash Attention disabled using the `--no-flash-attn` flag to troubleshoot the consistent segfaults and OOM issues with the gemma4 MoE model?
 
-Answer: 
+Answer:
 
 Given the consistent segfault at the same memory offset (`+231000`), you are likely looking at a specific code path failure rather than a random hardware glitch. Here is the recommended path forward:
 
 ### 1. Try `--no-flash-attn` first
-Running with Flash Attention disabled is the fastest way to isolate the variable. Since you suspect the **Sliding Window Attention (SWA)** and **MoE indexing** logic, bypassing the FA kernels will tell you immediately if the issue lies in the optimized attention implementation or the underlying KV cache management. 
+Running with Flash Attention disabled is the fastest way to isolate the variable. Since you suspect the **Sliding Window Attention (SWA)** and **MoE indexing** logic, bypassing the FA kernels will tell you immediately if the issue lies in the optimized attention implementation or the underlying KV cache management.
 
 * **If it works:** The bug is likely in the FA kernels' handling of gemma4's specific tensor shapes or SWA logic.
 * **If it still segfaults:** The issue is likely in the broader MoE expert routing or the way the KV cache is being addressed in `libllama.so`, regardless of the attention mechanism.

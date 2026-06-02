@@ -58,7 +58,7 @@ This gives every note, bookmark, and todo immutable version control similar to a
 ### Installation (as of 2026)
 - **Homebrew** (macOS/Linux): `brew install xwmx/taps/nb`
 - **npm**: `npm install -g nb.sh`
-- **Manual** (most portable):  
+- **Manual** (most portable):
   ```bash
   sudo wget https://raw.githubusercontent.com/xwmx/nb/master/nb -O /usr/local/bin/nb
   sudo chmod +x /usr/local/bin/nb
@@ -106,7 +106,7 @@ nb sync --all
 
 Overall, `nb` is one of the most mature, feature-rich CLI-first plain-text notebook systems available, especially for users who value Git, plain text, and Zettelkasten principles.
 
-**References:**  
+**References:**
 
-- [https://github.com/xwmx/nb](https://github.com/xwmx/nb)  
+- [https://github.com/xwmx/nb](https://github.com/xwmx/nb)
 - [https://xwmx.github.io/nb/](https://xwmx.github.io/nb/) (demo / extended docs)

@@ -11,7 +11,7 @@ type: note
 
 Question: What is the fiscal year for HSBC Bank?
 
-Answer: 
+Answer:
 
 HSBC Holdings plc (the parent company of the HSBC banking group) uses a **calendar year** as its fiscal year. This means the fiscal year runs from **January 1 to December 31** each year.
 
@@ -19,7 +19,7 @@ This is standard for many large international banks and is explicitly confirmed 
 
 Note that while HSBC operates globally with subsidiaries in various countries (some of which may follow local fiscal calendars for tax or regulatory purposes), the group's consolidated financial reporting and fiscal year align with the calendar year.
 
-References:  
+References:
 
 - [HSBC Shareholder and dividend information](https://www.hsbc.com/investors/shareholder-and-dividend-information)
 - [HSBC Annual Results 2025 announcements and reports](https://www.hsbc.com/investors/results-and-announcements)

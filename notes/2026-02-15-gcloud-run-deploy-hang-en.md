@@ -11,7 +11,7 @@ type: note
 
 Question: The gcloud run deploy command is stuck / hanging, does gcloud have a verbose option?
 
-Answer: 
+Answer:
 
 Yes, **gcloud** supports a `--verbosity` flag to get more detailed output, which is very useful for debugging when a deployment hangs or takes unusually long.
 
@@ -70,7 +70,7 @@ Common reasons for long hangs (especially "Uploading sources..." or "Building an
    ```bash
    docker build -t gcr.io/$(gcloud config get-value project)/blog-server:latest .
    docker push gcr.io/$(gcloud config get-value project)/blog-server:latest
-   
+
    gcloud run deploy blog-server \
      --image gcr.io/$(gcloud config get-value project)/blog-server:latest \
      --region asia-northeast1 \
@@ -96,7 +96,7 @@ Common reasons for long hangs (especially "Uploading sources..." or "Building an
 
 Run with `--verbosity=debug` first — it will show exactly where it's spending time (e.g., uploading X MB, waiting for build step Y). If it still hangs forever (>20–30 min), cancel (Ctrl+C), clean up unnecessary files with `.gcloudignore`, or switch to manual image push.
 
-References:  
+References:
 
 - [gcloud CLI overview – verbosity flag](https://docs.cloud.google.com/sdk/gcloud)
 - [Deploy services from source code | Cloud Run](https://docs.cloud.google.com/run/docs/deploying-source-code)

@@ -12,7 +12,7 @@ type: note
 
 **Question:** According to "The Conquest of Happiness," is Yin Wang (from https://www.yinwang.org) living a happy life?
 
-**Answer:** 
+**Answer:**
 
 Bertrand Russell's *The Conquest of Happiness* (1930) divides unhappiness into causes like worry, envy, boredom, fatigue, and self-centeredness, while happiness arises from zest (interest/engagement in life), work (especially meaningful or constructive activity), affection, family, success in pursuits, and an outward-oriented attitude rather than excessive introspection or competition.
 
@@ -28,7 +28,7 @@ There is no direct evidence from the blog that Yin Wang explicitly references *T
 
 In short: Yes, by the standards outlined in *The Conquest of Happiness*, Yin Wang seems to be living a relatively happy life through sustained interest, purposeful work, and outward-oriented contributions, though only he could confirm his subjective state.
 
-**References:**  
+**References:**
 
-- [https://www.yinwang.org](https://www.yinwang.org) (Yin Wang's blog homepage and content summary)  
+- [https://www.yinwang.org](https://www.yinwang.org) (Yin Wang's blog homepage and content summary)
 - General knowledge of Bertrand Russell's *The Conquest of Happiness* (key themes from the book, widely available in public domain texts and summaries)

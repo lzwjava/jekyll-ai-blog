@@ -45,10 +45,10 @@ Here's the full review, Boss:
 
 **Affected code flow:**
 ```
-Request → Home::index() 
-  → BaseController.__construct() 
-    → new UserDao() 
-      → new JSSDK() 
+Request → Home::index()
+  → BaseController.__construct()
+    → new UserDao()
+      → new JSSDK()
         → get_instance() → null → 500 error
 ```
 

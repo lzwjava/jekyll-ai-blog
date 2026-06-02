@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand Harry Truman, especially regarding the idea that "if we don't care about credits belongs to whom, we can achieve great things"?
 
-Answer: 
+Answer:
 
 Harry S. Truman (1884–1972), the 33rd President of the United States (1945–1953), is often remembered for his straightforward, humble, and pragmatic leadership style. He took office suddenly after Franklin D. Roosevelt's death in 1945 and made some of the most consequential decisions in modern history, including ending World War II, launching the Marshall Plan, establishing NATO, and beginning the Cold War containment policy against Soviet expansion.
 
@@ -40,7 +40,7 @@ This quote captures a key part of Truman's philosophy and character. Here's how 
 
 Truman's quote is a reminder that **great historical or collective achievements often come from people willing to work selflessly** — not from those chasing individual fame. This mindset helped him navigate one of the most turbulent periods in American history.
 
-References:  
+References:
 
 - [https://www.goodreads.com/quotes/18093-it-is-amazing-what-you-can-accomplish-if-you-do](https://www.goodreads.com/quotes/18093-it-is-amazing-what-you-can-accomplish-if-you-do)
 - [https://www.trumanlibraryinstitute.org/truman/truman-quotes/page/5](https://www.trumanlibraryinstitute.org/truman/truman-quotes/page/5)

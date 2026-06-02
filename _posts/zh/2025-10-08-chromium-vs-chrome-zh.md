@@ -18,7 +18,7 @@ type: note
 
 ### 💡 Chromium 是什么
 
-**Chromium** 是由 **Google** 和开源社区创建并维护的 **开源网页浏览器项目**。  
+**Chromium** 是由 **Google** 和开源社区创建并维护的 **开源网页浏览器项目**。
 它是 Google Chrome 和许多其他浏览器（如 Edge、Brave 和 Opera）的 **基础**。
 
 换句话说：
@@ -68,7 +68,7 @@ type: note
 
 您可以这样理解：
 
-> **Chromium = Chrome 的开源核心，不含 Google 的附加功能。**  
+> **Chromium = Chrome 的开源核心，不含 Google 的附加功能。**
 > **Chrome = Chromium + Google 服务、编解码器和品牌。**
 
 ---

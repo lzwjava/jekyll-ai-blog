@@ -22,10 +22,10 @@ HGC还为其用户定制了专属测速工具 [hgcbroadband.speedtestcustom.com]
 
 若进行网速故障排查，建议始终选择HGC专属服务器进行测试以隔离网络问题。
 
-**参考链接：**  
-[HGC官方网站](https://www.hgc.com.hk/)  
-[HGC维基百科](https://en.wikipedia.org/wiki/HGC_Global_Communications)  
-[HGC宽带套餐](https://www.hgcbroadband.com/en/broadband)  
-[Speedtest服务器列表（含HGC）](https://gist.github.com/ofou/654efe67e173a6bff5c64ba26c09d058)  
-[HGC定制测速页](http://hgcbroadband.speedtestcustom.com/)  
+**参考链接：**
+[HGC官方网站](https://www.hgc.com.hk/)
+[HGC维基百科](https://en.wikipedia.org/wiki/HGC_Global_Communications)
+[HGC宽带套餐](https://www.hgcbroadband.com/en/broadband)
+[Speedtest服务器列表（含HGC）](https://gist.github.com/ofou/654efe67e173a6bff5c64ba26c09d058)
+[HGC定制测速页](http://hgcbroadband.speedtestcustom.com/)
 [HGC网络测速器](https://www.hgcbroadband.com/en/support/speedmeter)

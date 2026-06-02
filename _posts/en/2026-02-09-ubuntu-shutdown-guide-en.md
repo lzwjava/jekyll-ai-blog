@@ -62,5 +62,5 @@ sudo shutdown -h now
 
 All of these will close applications cleanly and power off the computer immediately.
 
-**References:**  
+**References:**
 - None needed (this is standard Ubuntu behavior across recent versions)

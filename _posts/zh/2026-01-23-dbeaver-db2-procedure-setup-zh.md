@@ -12,7 +12,7 @@ type: note
 
 Question: How to use DBeaver to call a stored procedure in DB2, and how to set the delimiter for BEGIN and END blocks?
 
-Answer: 
+Answer:
 
 Here’s how to handle **calling stored procedures** and **changing the statement delimiter** in DBeaver when working with **IBM DB2** (works for both LUW and z/OS in most cases).
 
@@ -110,7 +110,7 @@ END
 
 After you finish creating procedures, you can switch the delimiter back to `;` for normal SELECT/INSERT work.
 
-References:  
+References:
 
 - [DBeaver SQL Execution Documentation](https://dbeaver.com/docs/dbeaver/SQL-Execution)
 - [Stack Overflow – DB2 Stored Procedure IF/ELSE in DBeaver](https://stackoverflow.com/questions/69016820/db2-stored-procedure-if-else-what-am-i-missing)

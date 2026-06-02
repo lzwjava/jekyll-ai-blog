@@ -41,7 +41,7 @@ The problem requires the **lexicographically smallest** string you can obtain by
 
 That means the target sorted string is **always**:
 
-All '0's come **before** all '1's  
+All '0's come **before** all '1's
 → `000...0111...1` (exactly `zero` zeros followed by `one` ones)
 
 But your code is comparing the **current** string against this ideal sorted string and collecting **all** mismatch positions.
@@ -113,7 +113,7 @@ Read t
 For each test:
     Read n, s
     Count zeros = count of '0'
-    
+
     // Check if already sorted (non-decreasing)
     boolean sorted = true;
     for (int i = 1; i < n; i++) {
@@ -122,12 +122,12 @@ For each test:
             break;
         }
     }
-    
+
     if (sorted) {
         out.println("Bob");
         continue;
     }
-    
+
     // Find leftmost position where we have '1' but should be '0'
     int left = -1;
     for (int i = 0; i < zeros; i++) {
@@ -136,7 +136,7 @@ For each test:
             break;
         }
     }
-    
+
     // Find rightmost position where we have '0' but should be '1'
     int right = -1;
     for (int i = n-1; i >= zeros; i--) {
@@ -145,7 +145,7 @@ For each test:
             break;
         }
     }
-    
+
     // If we found both → one swap fixes it
     if (left != -1 && right != -1) {
         out.println("Alice");

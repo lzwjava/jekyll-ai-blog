@@ -62,10 +62,10 @@ Answer:
 
 持之以恒是关键——进步需要时间，但微小的步伐能建立信心。庆祝每一次胜利以强化积极的改变。随着时间的推移，恐惧会失去力量，让你获得更大的自由和满足感。
 
-References:  
+References:
 
-- [10 ways to fight your fears | NHS inform](https://www.nhsinform.scot/healthy-living/mental-wellbeing/fears-and-phobias/10-ways-to-fight-your-fears/)  
-- [Facing your fears - Every Mind Matters - NHS](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/facing-your-fears/)  
-- [How to manage fear and anxiety | Mental Health Foundation](https://www.mentalhealth.org.uk/explore-mental-health/publications/how-overcome-anxiety-and-fear)  
-- [Overcome your fear factor - Harvard Health](https://www.health.harvard.edu/mind-and-mood/overcome-your-fear-factor)  
+- [10 ways to fight your fears | NHS inform](https://www.nhsinform.scot/healthy-living/mental-wellbeing/fears-and-phobias/10-ways-to-fight-your-fears/)
+- [Facing your fears - Every Mind Matters - NHS](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/facing-your-fears/)
+- [How to manage fear and anxiety | Mental Health Foundation](https://www.mentalhealth.org.uk/explore-mental-health/publications/how-overcome-anxiety-and-fear)
+- [Overcome your fear factor - Harvard Health](https://www.health.harvard.edu/mind-and-mood/overcome-your-fear-factor)
 - [How to overcome a fear of fear – and open up your life | Psyche Guides](https://psyche.co/guides/how-to-overcome-a-fear-of-fear-and-open-up-your-life)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Spanning Tree Protocol (STP) election and operation process, and why is the provided summary confusing or hard to understand?
 
-Answer: 
+Answer:
 
 Spanning Tree Protocol (STP) is a Layer 2 protocol that prevents loops in Ethernet networks with redundant links by creating a loop-free logical topology. The provided summary is mostly accurate but can be confusing due to oversimplification and minor inaccuracies (e.g., all switches don't continuously send BPDUs every 2 seconds claiming to be root—only during initial convergence or changes). Here's a clear, step-by-step explanation of the classic IEEE 802.1D STP process:
 
@@ -93,7 +93,7 @@ Here are visual diagrams to help understand:
 
 
 
-References:  
+References:
 
 - https://www.networkacademy.io/ccna/spanning-tree/how-stp-works
 - https://www.geeksforgeeks.org/root-bridge-election-in-spanning-tree-protocol/

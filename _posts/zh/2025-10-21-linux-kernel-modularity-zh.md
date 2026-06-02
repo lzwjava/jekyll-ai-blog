@@ -104,6 +104,6 @@ module_exit(hello_exit);
 
 这种设置就是为什么 Linux 在实践中感觉是“模块化”的——它不是完整的微内核，但模块系统模拟了微内核以实现可扩展性。要动手实践，请尝试加载真实的驱动程序，如用于 FAT 文件系统的 `vfat`。
 
-[内核模块实验文档](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html)  
-[在 Medium 上理解内核模块](https://medium.com/@arashjafariwork/understanding-kernel-modules-enhancing-flexibility-in-operating-systems-ed348807ed7b)  
+[内核模块实验文档](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html)
+[在 Medium 上理解内核模块](https://medium.com/@arashjafariwork/understanding-kernel-modules-enhancing-flexibility-in-operating-systems-ed348807ed7b)
 [红帽内核管理指南](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/chap-documentation-kernel_administration_guide-working_with_kernel_modules)

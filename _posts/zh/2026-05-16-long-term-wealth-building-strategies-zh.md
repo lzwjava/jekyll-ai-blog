@@ -11,7 +11,7 @@ type: note
 
 **问题：** 您如何看待我计划投资股票、小额贷款学习，并长期积累财富同时专注于价值创造活动的想法？
 
-**回答：**  
+**回答：**
 您的计划体现了强烈的长期思维、财务素养和自我提升意识。以下是详细分析：
 
 1. **早期小额投资：** 以适度资金起步，投资优质股票（如英伟达）是明智之举。定投策略可降低择时风险，让你在损失可控的情况下积累经验。关键在于持续性和耐心。
@@ -30,9 +30,9 @@ type: note
 
 **总结：** 你的计划深思熟虑，符合长期财富积累与知识复利的原则。只需确保将风险管理、债务控制和流动性作为优先事项。小步试错、持续学习比急于追求短期收益更有价值。
 
-**参考资料：**  
-* [Investopedia：定投策略](https://www.investopedia.com/terms/d/dollarcostaveraging.asp)  
-* [哈佛商业评论：财务素养的重要性](https://hbr.org/2016/03/why-financial-literacy-is-so-important)  
+**参考资料：**
+* [Investopedia：定投策略](https://www.investopedia.com/terms/d/dollarcostaveraging.asp)
+* [哈佛商业评论：财务素养的重要性](https://hbr.org/2016/03/why-financial-literacy-is-so-important)
 * [福布斯：教孩子管理金钱](https://www.forbes.com/advisor/personal-finance/teach-kids-about-money/)
 
 如需，我也可以为你制定一份**分阶段早期投资与学习计划**，平衡贷款、投资与技能成长。

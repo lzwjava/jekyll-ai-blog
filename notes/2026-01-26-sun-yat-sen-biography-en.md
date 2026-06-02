@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Sun Yat-sen
 
-Answer: 
+Answer:
 
 Sun Yat-sen (November 12, 1866 – March 12, 1925), also known as Sun Zhongshan in Mandarin or Dr. Sun Yat-sen, is widely regarded as the **"Father of the Nation"** in the Republic of China (Taiwan today) and the **"Forerunner of the Revolution"** in mainland China. He was the most important revolutionary leader who played the central role in ending over 2,000 years of imperial rule in China.
 
@@ -47,16 +47,16 @@ Sun Yat-sen (November 12, 1866 – March 12, 1925), also known as Sun Zhongshan 
 ### Core Ideology: Three Principles of the People (Sanmin Zhuyi)
 Sun's most important political legacy — outlined in lectures given in 1924:
 
-1. **Nationalism (Minzu)**  
+1. **Nationalism (Minzu)**
    - Overthrow Manchu rule, achieve independence from foreign imperialism, and unite all ethnic groups in China.
 
-2. **Democracy / People's Rights (Minquan)**  
-   - Establish a republic with constitutional government.  
-   - Proposed "Four Rights" for citizens: election, recall, initiative, referendum.  
+2. **Democracy / People's Rights (Minquan)**
+   - Establish a republic with constitutional government.
+   - Proposed "Four Rights" for citizens: election, recall, initiative, referendum.
    - "Five-Power Constitution": executive, legislative, judicial + **examination** and **control** powers (inspired by traditional Chinese censorate system).
 
-3. **People's Livelihood / Welfare (Minsheng)**  
-   - Economic principle aiming at social equity.  
+3. **People's Livelihood / Welfare (Minsheng)**
+   - Economic principle aiming at social equity.
    - Key policies: equalization of land rights, regulation of capital, development of state capital in key industries.
 
 These principles became the official ideology of the Kuomintang and (with modifications) the founding doctrine of the Republic of China.
@@ -74,7 +74,7 @@ These principles became the official ideology of the Kuomintang and (with modifi
 
 Sun Yat-sen never fully unified or governed China, but his vision, persistence, and ideological framework fundamentally shaped modern Chinese history.
 
-References:  
+References:
 
 - [Sun Yat-sen - Wikipedia](https://en.wikipedia.org/wiki/Sun_Yat-sen)
 - [Sun Yat-sen | Biography, Achievements, & Facts - Britannica](https://www.britannica.com/biography/Sun-Yat-sen)

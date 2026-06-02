@@ -15,7 +15,7 @@ This is the README.md from github project [https://github.com/lzwjava/flower-rec
 
 ### Flower Recognition App
 
-This is a flower recognition Android application designed to help users identify flowers by capturing photos and drawing circles to aid in recognition. 
+This is a flower recognition Android application designed to help users identify flowers by capturing photos and drawing circles to aid in recognition.
 
 #### Features:
 - **Capture Photos**: Users can take pictures of flowers directly within the app.

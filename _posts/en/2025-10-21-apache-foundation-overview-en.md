@@ -30,5 +30,5 @@ The ASF hosts over 300 active open-source projects, many of which power critical
 
 Projects start in the Apache Incubator before graduating to top-level status. For a full list, visit the ASF's projects page.
 
-[Apache Software Foundation Official Website](https://www.apache.org/)  
+[Apache Software Foundation Official Website](https://www.apache.org/)
 [The Apache Software Foundation - Wikipedia](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation)

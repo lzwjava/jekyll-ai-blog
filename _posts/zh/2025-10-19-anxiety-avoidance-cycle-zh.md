@@ -32,5 +32,5 @@ type: note
 
 用现代术语来说，这就像是暴露疗法与正念的结合——恐惧因回避而滋长，行动却能将其消解。如果你正面临类似焦虑，森田疗法鼓励采取基于价值导向的微小行动，而非追求完美。
 
-[森田疗法概述](https://en.wikipedia.org/wiki/Morita_therapy)  
+[森田疗法概述](https://en.wikipedia.org/wiki/Morita_therapy)
 《神经衰弱和强迫观念的根治法》（节选）](https://sentianliaofa.org/archives/author/glefeng/page/15)

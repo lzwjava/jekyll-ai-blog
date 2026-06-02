@@ -26,8 +26,8 @@ Quick Taiwan-friendly tips:
 - After soaking, always pat dry with kitchen paper → this is the #1 trick for crispy air-fried potatoes
 - Add a tiny bit of cornstarch (too fen) to the sauce → helps it stick and makes them extra crispy
 
-So for your case:  
-If you have time → soak **20–30 minutes** → perfect flavor without making them soggy.  
+So for your case:
+If you have time → soak **20–30 minutes** → perfect flavor without making them soggy.
 In a rush → even 10 minutes is fine.
 
 Then air-fry 20 min at 200°C as planned. They’ll taste great! 🥔✨

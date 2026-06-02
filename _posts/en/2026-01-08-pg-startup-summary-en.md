@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a more comprehensive summary of Paul Graham's lecture in the YouTube video "Lecture 3 - Before the Startup".
 
-Answer: 
+Answer:
 
 Paul Graham's Lecture 3, titled "Before the Startup" (part of Y Combinator's 2014 "How to Start a Startup" course), focuses on the **counterintuitive nature of startups** and **how to generate good startup ideas**. He frames the advice as what he would tell his own children, emphasizing that startups are unnatural and often contradict everyday instincts, much like learning to ski as an adult.
 
@@ -55,8 +55,8 @@ Graham recommends his essay "How to Get Startup Ideas" for more depth.
 
 The lecture is humorous, insightful, and ends with Q&A (though transcript cuts off). It warns against common pitfalls while encouraging curiosity-driven preparation.
 
-References:  
+References:
 
-- [YouTube Video: Lecture 3 - Before the Startup](https://www.youtube.com/watch?v=ii1jcLg-eIQ)  
-- [Annotated Transcript on Genius](http://tech.genius.com/Paul-graham-lecture-3-counterintuitive-parts-of-startups-and-how-to-have-ideas-annotated)  
+- [YouTube Video: Lecture 3 - Before the Startup](https://www.youtube.com/watch?v=ii1jcLg-eIQ)
+- [Annotated Transcript on Genius](http://tech.genius.com/Paul-graham-lecture-3-counterintuitive-parts-of-startups-and-how-to-have-ideas-annotated)
 - [Paul Graham Essay: How to Get Startup Ideas](http://paulgraham.com/startupideas.html)

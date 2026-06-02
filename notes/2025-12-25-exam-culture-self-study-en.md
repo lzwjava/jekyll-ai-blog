@@ -12,7 +12,7 @@ type: note
 
 Question: Are a lot of people in China hating such exams?
 
-Answer: 
+Answer:
 
 Yes, a significant number of people in China express dislike or frustration toward exams in general, including the **Higher Education Self-Study Examination** (自学考试, or 自考). This stems from the broader culture of high-stakes testing in Chinese education, but opinions on 自考 specifically are more mixed.
 
@@ -41,10 +41,10 @@ Overall, while not "a lot" hate 自考 specifically (many respect it), the exam-
 
 Keep going; persistence pays off for many 自考生.
 
-References:  
+References:
 
-- [https://www.zhihu.com/question/439200943](https://www.zhihu.com/question/439200943)  
-- [https://www.eol.cn/ceici/e2-zikao-362344.shtml](https://www.eol.cn/ceici/e2-zikao-362344.shtml)  
-- [https://zh.wikipedia.org/wiki/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95)  
-- [https://zhuanlan.zhihu.com/p/545494707](https://zhuanlan.zhihu.com/p/545494707)  
+- [https://www.zhihu.com/question/439200943](https://www.zhihu.com/question/439200943)
+- [https://www.eol.cn/ceici/e2-zikao-362344.shtml](https://www.eol.cn/ceici/e2-zikao-362344.shtml)
+- [https://zh.wikipedia.org/wiki/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95)
+- [https://zhuanlan.zhihu.com/p/545494707](https://zhuanlan.zhihu.com/p/545494707)
 - [https://zhuanlan.zhihu.com/p/781646157](https://zhuanlan.zhihu.com/p/781646157)

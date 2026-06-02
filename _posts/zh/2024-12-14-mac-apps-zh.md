@@ -9,135 +9,135 @@ translated: true
 type: post
 ---
 
-A:  
-- Anaconda-Navigator  
-- Android Studio  
-- Apple Configurator  
+A:
+- Anaconda-Navigator
+- Android Studio
+- Apple Configurator
 
-C:  
-- CapCut  
-- ChatGPT  
-- ClashX Pro  
-- Color Picker  
-- Color Widgets  
-- Cursor  
+C:
+- CapCut
+- ChatGPT
+- ClashX Pro
+- Color Picker
+- Color Widgets
+- Cursor
 
-D:  
-- Developer  
-- Discord  
-- Docker  
-- DuckDuckGo  
+D:
+- Developer
+- Discord
+- Docker
+- DuckDuckGo
 
-E:  
-- Ecosia 浏览器  
+E:
+- Ecosia 浏览器
 
-F:  
-- FileZilla  
-- Firefox  
+F:
+- FileZilla
+- Firefox
 
-G:  
-- GitHub Desktop  
-- Google Chrome  
-- Google Docs  
-- Google Drive  
-- Google Sheets  
-- Google Slides  
-- Grammarly for Safari  
+G:
+- GitHub Desktop
+- Google Chrome
+- Google Docs
+- Google Drive
+- Google Sheets
+- Google Slides
+- Grammarly for Safari
 
-H:  
-- HP  
-- HP Easy Scan  
-- HP Smart  
-- Hewlett-Packard  
+H:
+- HP
+- HP Easy Scan
+- HP Smart
+- Hewlett-Packard
 
-I:  
-- Instapaper  
-- IntelliJ IDEA CE  
+I:
+- Instapaper
+- IntelliJ IDEA CE
 
-K:  
-- Keynote  
-- Kindle  
+K:
+- Keynote
+- Kindle
 
-L:  
-- Lark  
+L:
+- Lark
 
-M:  
-- Messenger  
-- Microsoft Bing for Safari  
-- Microsoft Edge  
-- Microsoft Outlook  
-- Microsoft Teams  
-- Microsoft To Do  
-- Multipass  
+M:
+- Messenger
+- Microsoft Bing for Safari
+- Microsoft Edge
+- Microsoft Outlook
+- Microsoft Teams
+- Microsoft To Do
+- Multipass
 
-N:  
-- Numbers  
-- Nutstore  
+N:
+- Numbers
+- Nutstore
 
-O:  
-- OBS  
-- OneDrive  
-- Opera  
-- Outline Manager  
-- Outline  
+O:
+- OBS
+- OneDrive
+- Opera
+- Outline Manager
+- Outline
 
-P:  
-- Pages  
-- ParbloTablet  
-- Playgrounds  
-- Postman  
-- PyCharm CE  
+P:
+- Pages
+- ParbloTablet
+- Playgrounds
+- Postman
+- PyCharm CE
 
-R:  
-- RescueTime  
+R:
+- RescueTime
 
-S:  
-- Safari  
-- Safe Connect  
-- Screen Mirror to TV & Device  
-- Shadowrocket  
-- ShadowsocksX-NG  
-- Sketch  
-- Slack  
-- Spotify  
+S:
+- Safari
+- Safe Connect
+- Screen Mirror to TV & Device
+- Shadowrocket
+- ShadowsocksX-NG
+- Sketch
+- Slack
+- Spotify
 
-T:  
-- Tailwind  
-- Telegram  
-- 腾讯文档  
-- 腾讯会议  
-- TeX  
-- TestFlight  
-- Twitter  
+T:
+- Tailwind
+- Telegram
+- 腾讯文档
+- 腾讯会议
+- TeX
+- TestFlight
+- Twitter
 
-U:  
-- Utilities  
+U:
+- Utilities
 
-V:  
-- V2RayXS  
-- Vivaldi  
-- VirtualBox  
-- Visual Studio Code  
-- VooV Meeting  
+V:
+- V2RayXS
+- Vivaldi
+- VirtualBox
+- Visual Studio Code
+- VooV Meeting
 
-W:  
-- 微信  
-- WeMeeting  
-- WhatsApp  
-- WhatsApp.localized  
-- WPS Office  
+W:
+- 微信
+- WeMeeting
+- WhatsApp
+- WhatsApp.localized
+- WPS Office
 
-X:  
-- Xcode  
+X:
+- Xcode
 
-Z:  
-- zoom.us  
+Z:
+- zoom.us
 
-C:  
-- calibre  
+C:
+- calibre
 
-I:  
-- iTerm  
+I:
+- iTerm
 
-N:  
+N:
 - 网易灵犀办公

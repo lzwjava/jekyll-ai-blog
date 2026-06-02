@@ -51,6 +51,6 @@ The entire model consists of a stack of \\(n_{layer}\\) identical **Transformer 
 * After the final Transformer Block, there's often a final **Layer Normalization**.
 * The output is passed through a final **`nn.Linear`** layer (the **unembedding** or **projection layer**) that maps the \\(n_{emb}\\) vector back to a vector of size \\(V\\) (the **vocabulary size**), which represents the **logits** (prediction scores) for the next token.
 
-**In summary, your understanding is spot-on!** It is the sequence of Embedding \\(\rightarrow\\) (LayerNorm \\(\rightarrow\\) Causal Attention \\(\rightarrow\\) Skip Connection) \\(\rightarrow\\) (LayerNorm \\(\rightarrow\\) MLP \\(\rightarrow\\) Skip Connection) repeated \\(N\\) times. 
+**In summary, your understanding is spot-on!** It is the sequence of Embedding \\(\rightarrow\\) (LayerNorm \\(\rightarrow\\) Causal Attention \\(\rightarrow\\) Skip Connection) \\(\rightarrow\\) (LayerNorm \\(\rightarrow\\) MLP \\(\rightarrow\\) Skip Connection) repeated \\(N\\) times.
 
 Would you like a more detailed explanation of a specific part, such as how the Multi-Head Attention works, or the role of the Layer Normalization?

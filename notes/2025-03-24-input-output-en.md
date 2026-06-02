@@ -23,7 +23,7 @@ Modern computer systems are built on the principle that several hardware compone
 ### 2.1 Definition and Role
 
 - **Bus:** A communication pathway connecting multiple devices within a computer. It serves as the medium for data, address, and control signals.
-- **Types of Buses:** 
+- **Types of Buses:**
   - **Data Bus:** Transfers actual data between components.
   - **Address Bus:** Carries memory addresses specifying where data should be read or written.
   - **Control Bus:** Sends control signals (such as read/write commands) that coordinate the actions of the computer components.
@@ -40,7 +40,7 @@ Modern computer systems are built on the principle that several hardware compone
 - **Arbitration:** The process of determining which device gets control of the bus. Methods include:
   - **Centralized Arbitration:** A central controller (often the CPU) manages access.
   - **Distributed Arbitration:** Devices negotiate among themselves for bus control.
-  
+
 **Practice Exercise:**
 
 - Sketch a diagram of a basic system bus connecting a CPU, memory, and two I/O devices. Label the data, address, and control lines, and explain the role of each.
@@ -51,11 +51,11 @@ Modern computer systems are built on the principle that several hardware compone
 
 ### 3.1 Categories and Characteristics
 
-- **Types of I/O Devices:** 
+- **Types of I/O Devices:**
   - **Input Devices:** (e.g., keyboards, mice, scanners) that send data to the system.
   - **Output Devices:** (e.g., monitors, printers, speakers) that receive data from the system.
   - **Storage Devices:** (e.g., hard drives, SSDs, USB flash drives) that store data.
-  
+
 - **Characteristics:**
   - **Data Transfer Rate:** Speed at which a device can send or receive data.
   - **Latency:** Delay between a request for data and its delivery.
@@ -78,18 +78,18 @@ Modern computer systems are built on the principle that several hardware compone
 ### 4.1 Definition and Importance
 
 - **Communication Protocols:** Rules and conventions that allow devices to communicate over a bus or network. Protocols ensure that data is transferred in an orderly and error-free manner.
-  
+
 ### 4.2 Common Protocols in I/O
 
 - **Serial vs. Parallel Communication:**
   - **Serial Communication:** Data is transmitted bit by bit along a single channel (e.g., USB, RS-232). It is simpler and suitable for long-distance communication.
   - **Parallel Communication:** Multiple bits are transmitted simultaneously over multiple channels (e.g., older printer ports, internal data buses). It offers higher speed over short distances.
-  
+
 - **Popular Protocol Examples:**
   - **USB (Universal Serial Bus):** A widely used protocol for connecting a variety of peripherals.
   - **PCI Express (PCIe):** A high-speed interface used primarily for internal components such as graphics cards and SSDs.
   - **SATA (Serial ATA):** Commonly used for connecting storage devices.
-  
+
 - **Handshake and Error Checking:** Protocols often include mechanisms like handshaking (synchronization between sender and receiver) and error-checking (using parity bits or CRC) to maintain data integrity.
 
 **Practice Exercise:**

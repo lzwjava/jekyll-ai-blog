@@ -21,7 +21,7 @@ It sounds like you're encountering a display issue where buy/sell signals (e.g.,
 
 ### How to Resolve or Work Around It:
 1. **Switch Timeframes as You've Done**: For reliable buy/sell signals, stick to weekly or monthly views on the K-line. In the chart tab on the stock page, tap the timeframe selector (e.g., "Week" or "M" for month) to toggle—signals should reappear.
-   
+
 2. **Check Indicator Settings**:
    - Open the stock page > Chart/K-Line tab.
    - Tap the edit/settings icon (⚙️ or wrench) on the chart.

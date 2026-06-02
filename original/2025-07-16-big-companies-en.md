@@ -111,7 +111,7 @@ In big companies, it is certain that many checks, tests, or approvals are unnece
 
 We should also eliminate all manager approvals. What knowledge do managers have that engineers do not? Could this knowledge be written into code to approve or reject the requests automatically?
 
-Because everything is slow there, workers are unlikely to change things. The change from a big monolithic project to microservices for a project that has run for a decade might take two years. 
+Because everything is slow there, workers are unlikely to change things. The change from a big monolithic project to microservices for a project that has run for a decade might take two years.
 
 For software, code and logic are tightly intertwined, especially in well-designed systems. Thus, the development, testing, or collaboration involved can be substantial.
 
@@ -125,7 +125,7 @@ Another thing big companies do well is maintain cash flow and profit discipline.
 
 One of my colleagues told me that big companies operate with a monopoly on certain products that require a lot of labor or time to build. That makes sense. They don't rely on speed but on their size, resources, and brand.
 
-How to surive in big companies? One is that do more, less talk. This is my deliver manager in an outsourcing vendor told me. 
+How to surive in big companies? One is that do more, less talk. This is my deliver manager in an outsourcing vendor told me.
 
 The second thing is to follow what others do; it is safe. Becoming an average engineer on the team is safe, just like being an average person on the street—neither too outstanding nor too neglected, but right in the middle.
 
@@ -137,23 +137,23 @@ Big companies are good at their strict policy control and management. Big compan
 
 But a lot of engineering can't be settled down into plain rules. The simplicity of design and optimization for every method or every Java class are not easy to check by rules.
 
-SonarQube Scan is a good thing, and high testing coverage is a good thing. But a lot of software design or engineering can't be that simply measured. 
+SonarQube Scan is a good thing, and high testing coverage is a good thing. But a lot of software design or engineering can't be that simply measured.
 
-The quality of APIs and the ease of use of functionalities can't be easily evaluated. 
+The quality of APIs and the ease of use of functionalities can't be easily evaluated.
 
-The parameters of methods can't be easily evaluated. The design of functions, branch strategy, development strategy are not easily measured, and neither is the naming. 
+The parameters of methods can't be easily evaluated. The design of functions, branch strategy, development strategy are not easily measured, and neither is the naming.
 
 Alibaba has its Java guide, and Google and Plantier have their Java formats. It is good. But not all things in a Java project can be automatically checked by code.
 
-About testing, it is true. There are a lot of auto testing tools. But not all test strategies, designs, philosophies, or techniques have fixed rules. 
+About testing, it is true. There are a lot of auto testing tools. But not all test strategies, designs, philosophies, or techniques have fixed rules.
 
-About products, it is true. There are a lot of A/B testing and data-driven product development. But not all product tech, skills, or insights can be measured by fixed rules. 
+About products, it is true. There are a lot of A/B testing and data-driven product development. But not all product tech, skills, or insights can be measured by fixed rules.
 
 Why do I want to discuss this? Because it means that our value lies in these sectors. What things are big companies not good at? So we can help them do those.
 
 Why do I mention engineering in big companies instead of engineering in companies? Actually, it is not just about big companies or small startups. They are formed with people; just the number of employees has some difference.
 
-Engineering in big companies is less diverse than in startups. 
+Engineering in big companies is less diverse than in startups.
 
 ## On Collaboration
 

@@ -36,10 +36,10 @@ While rare, English-speaking small startups do exist, particularly in niches lik
 
 If you're looking to find or start one, resources like Wellfound (formerly AngelList) list English-friendly startup jobs in China, and expat communities on platforms like LinkedIn or Reddit can connect you. Overall, the ecosystem favors Mandarin for scale and efficiency, but globalization is slowly creating more opportunities for English-speaking niches.
 
-[Top startups in China for November 2025 - StartupBlink](https://www.startupblink.com/top-startups/china)  
-[Best Startups in China to Watch in 2025 - Seedtable](https://www.seedtable.com/best-startups-in-china)  
-[Tech & Startup Jobs in China - Wellfound](https://wellfound.com/location/china)  
-[Top 15 EdTech startups in China (November 2025)](https://www.edtechstartups.org/country/China/)  
-[Ask HN: Is it difficult for non-Chinese to work in China? - Hacker News](https://news.ycombinator.com/item?id=12137103)  
-[Are there any foreigners living in China that work for foreign companies? - Reddit](https://www.reddit.com/r/chinalife/comments/1hc011w/are_there_any_foreigners_living_in_china_that/)  
+[Top startups in China for November 2025 - StartupBlink](https://www.startupblink.com/top-startups/china)
+[Best Startups in China to Watch in 2025 - Seedtable](https://www.seedtable.com/best-startups-in-china)
+[Tech & Startup Jobs in China - Wellfound](https://wellfound.com/location/china)
+[Top 15 EdTech startups in China (November 2025)](https://www.edtechstartups.org/country/China/)
+[Ask HN: Is it difficult for non-Chinese to work in China? - Hacker News](https://news.ycombinator.com/item?id=12137103)
+[Are there any foreigners living in China that work for foreign companies? - Reddit](https://www.reddit.com/r/chinalife/comments/1hc011w/are_there_any_foreigners_living_in_china_that/)
 [In China, 'AI English teacher' startup gets $100m - Tech in Asia](https://www.techinasia.com/ai-english-teacher-100m)

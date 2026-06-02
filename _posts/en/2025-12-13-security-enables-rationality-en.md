@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand Duan Yongping's quote: "People without a secure heart can't be rational"?
 
-Answer: 
+Answer:
 
 Duan Yongping (段永平), the renowned Chinese entrepreneur and investor (founder of BBK Electronics, investor in companies like Apple, Tencent, and Moutai), has frequently emphasized the importance of **sense of security** (安全感) in both child-rearing and decision-making.
 
@@ -28,10 +28,10 @@ The quote—"people without a secure heart can't be rational" (or more accuratel
 
 In essence, security acts as the emotional "safety margin" that enables clear, rational thinking—much like the "margin of safety" in value investing protects against errors.
 
-References:  
+References:
 
-- [段永平 2025 万字访谈录：投资、经营与人生的“本分”哲学 - 知乎](https://zhuanlan.zhihu.com/p/1971731350148064516)  
-- [段永平谈教育：父母做的一切，就是为了给孩子增加安全感 - 东方财富网](https://caifuhao.eastmoney.com/news/20251112114042093316210)  
-- [段永平最新专访全文｜谈投资、企业与人生选择：真正的价值藏在“不变”里 - 腾讯新闻](https://news.qq.com/rain/a/20251112A062J500)  
-- [Duan Yongping gives a rare public interview: "Without a sense of security, it’s hard to be rational" - Bitget News](https://www.bitget.com/news/detail/12560605057786)  
+- [段永平 2025 万字访谈录：投资、经营与人生的“本分”哲学 - 知乎](https://zhuanlan.zhihu.com/p/1971731350148064516)
+- [段永平谈教育：父母做的一切，就是为了给孩子增加安全感 - 东方财富网](https://caifuhao.eastmoney.com/news/20251112114042093316210)
+- [段永平最新专访全文｜谈投资、企业与人生选择：真正的价值藏在“不变”里 - 腾讯新闻](https://news.qq.com/rain/a/20251112A062J500)
+- [Duan Yongping gives a rare public interview: "Without a sense of security, it’s hard to be rational" - Bitget News](https://www.bitget.com/news/detail/12560605057786)
 - [段永平最新访谈：聊巴菲特、苹果、茅台、拼多多、特斯拉 - 观察者网](https://www.guancha.cn/economy/2025_11_14_797029.shtml)

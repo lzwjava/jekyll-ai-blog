@@ -19,4 +19,3 @@ However, there’s a problem with one module. For `PlaygroundUtils`, there’s n
 What do you think overall? What’s a good strategy here? Suppose I have a larger project with ten modules—how should I approach it? If handling all ten at once is too complex, we could start with one or two modules.
 
 Also, JaCoCo is more complicated than tools like Checkstyle or Spotless because it isn’t self-contained: it depends on external Python integration tests, and it requires JaCoCo exec files and JVM agent attachment. That makes things more complex.
-

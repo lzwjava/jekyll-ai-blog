@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Unix.
 
-Answer: 
+Answer:
 
 Unix is a family of **multitasking**, **multi-user** operating systems originally developed in the late 1960s and early 1970s. It has profoundly influenced modern computing, serving as the foundation for Linux, macOS, BSD variants, and many enterprise systems.
 
@@ -40,7 +40,7 @@ Unix systems follow a set of design principles that remain influential:
 
 ### Main Components of a Unix System
 
-1. **Kernel**  
+1. **Kernel**
    The core of the OS. Manages:
    - Process scheduling
    - Memory management
@@ -48,7 +48,7 @@ Unix systems follow a set of design principles that remain influential:
    - File system
    - System calls
 
-2. **Shell**  
+2. **Shell**
    Command-line interpreter that reads user input and executes commands. Popular shells:
    - **sh** (Bourne shell — original)
    - **bash** (Bourne-Again SHell — most common)
@@ -66,7 +66,7 @@ Unix systems follow a set of design principles that remain influential:
    - `/dev`            — device files
    - `/proc`           — virtual filesystem with process & kernel info (Linux)
 
-4. **Programs / Utilities**  
+4. **Programs / Utilities**
    Thousands of small tools: `ls`, `cat`, `grep`, `awk`, `sed`, `find`, `sort`, `wc`, etc.
 
 ### Key Features of Unix
@@ -128,7 +128,7 @@ Most people today use **Unix-like** systems rather than certified Unix:
 
 Learning Unix fundamentals means learning skills that transfer directly to Linux, macOS terminals, WSL, containers (Docker), cloud servers (AWS, GCP, Azure), and DevOps workflows.
 
-References:  
+References:
 
 - [Introduction to UNIX System - GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/introduction-to-unix-system)
 - [Unix - Wikipedia](https://en.wikipedia.org/wiki/Unix)

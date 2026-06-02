@@ -30,7 +30,7 @@ type: note
   - **alt_text**：用于无障碍访问/屏幕阅读器的替代文本，描述情感。
 
 - **在 CodeIgniter 中的用法**：使用 `$this->load->helper('smiley');` 加载助手，然后对包含表情符号代码的字符串调用 `parse_smileys($text)` 等函数。这将把代码替换为 `<img>` 标签，例如：
-  - 输入：`I'm happy :)`  
+  - 输入：`I'm happy :)`
     输出：`I'm happy <img src="http://example.com/smileys/smile.gif" width="19" height="19" alt="smile">`
 
 ### 条目详解

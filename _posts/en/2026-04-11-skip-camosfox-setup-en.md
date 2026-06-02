@@ -25,7 +25,7 @@ Yes, you can safely skip or delay **Camosfox** (also called **Camofox**) during 
 You mentioned you filled a fake location and some browser settings can be skipped — this matches the setup for stealth browsing in Hermes Agent.
 
 ### Can We Skip It During install.sh?
-**Yes, completely.**  
+**Yes, completely.**
 The script has no flag to force Camosfox. You can run the installer normally (or with `--skip-setup` if you want to skip the wizard):
 
 ```bash
@@ -92,7 +92,7 @@ If you run into any errors during install (e.g., missing dependencies or Node is
 
 The script you shared looks correct and up-to-date for the official Hermes Agent from Nous Research. No major issues in the provided code for skipping the optional stealth browser.
 
-References:  
-- https://github.com/NousResearch/hermes-agent  
-- https://hermes-agent.nousresearch.com/docs/user-guide/features/browser (Camofox setup guide)  
+References:
+- https://github.com/NousResearch/hermes-agent
+- https://hermes-agent.nousresearch.com/docs/user-guide/features/browser (Camofox setup guide)
 - https://github.com/jo-inc/camofox-browser

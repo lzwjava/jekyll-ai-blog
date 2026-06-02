@@ -12,7 +12,7 @@ type: note
 
 Question: Organize the provided information about the IELTS exam at South China University of Technology (SCUT) in Wuhan
 
-Answer: 
+Answer:
 
 Here is the organized information about taking the IELTS exam (computer-based) at South China University of Technology (SCUT), Wuhan test center:
 
@@ -43,6 +43,6 @@ Here is the organized information about taking the IELTS exam (computer-based) a
 - Speaking test is held at a **different time and different place** within the same test center compared to the computer-based part
 - Test center opens on time — arriving very early means you wait on the **4th floor**
 
-References:  
+References:
 
 - None (information is based solely on the details provided in the query)

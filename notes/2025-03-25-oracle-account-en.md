@@ -35,8 +35,8 @@ The `ORA-28000: The account is locked` error occurs when attempting to connect t
 #### 3. **Check the Account Status**
    Run the following SQL query to check the status of the locked account:
    ```sql
-   SELECT username, account_status, lock_date 
-   FROM dba_users 
+   SELECT username, account_status, lock_date
+   FROM dba_users
    WHERE username = 'YOUR_USERNAME';
    ```
    - Replace `YOUR_USERNAME` with the username you’re trying to connect with (e.g., `myuser`).
@@ -96,14 +96,14 @@ The `ORA-28000: The account is locked` error occurs when attempting to connect t
 #### 8. **Check for Profile Policies (Prevent Future Locks)**
    The account might have locked due to a security policy in the user’s profile (e.g., `FAILED_LOGIN_ATTEMPTS` or `PASSWORD_LOCK_TIME`). Check the profile assigned to the user:
    ```sql
-   SELECT profile 
-   FROM dba_users 
+   SELECT profile
+   FROM dba_users
    WHERE username = 'YOUR_USERNAME';
    ```
    Then, inspect the profile’s limits:
    ```sql
-   SELECT resource_name, limit 
-   FROM dba_profiles 
+   SELECT resource_name, limit
+   FROM dba_profiles
    WHERE profile = 'YOUR_PROFILE_NAME';
    ```
    Look for:
@@ -112,8 +112,8 @@ The `ORA-28000: The account is locked` error occurs when attempting to connect t
 
    To relax these settings (if appropriate), modify the profile:
    ```sql
-   ALTER PROFILE your_profile_name LIMIT 
-       FAILED_LOGIN_ATTEMPTS UNLIMITED 
+   ALTER PROFILE your_profile_name LIMIT
+       FAILED_LOGIN_ATTEMPTS UNLIMITED
        PASSWORD_LOCK_TIME UNLIMITED;
    ```
    Example:

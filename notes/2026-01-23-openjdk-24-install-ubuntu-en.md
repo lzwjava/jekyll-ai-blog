@@ -12,7 +12,7 @@ type: note
 
 Question: How to install OpenJDK 24 on Ubuntu?
 
-Answer: 
+Answer:
 
 OpenJDK 24 is **not** an LTS release (it is a short-term / feature release with only ~6 months support). Ubuntu LTS versions (such as 24.04) normally include only LTS versions of OpenJDK in the official repositories (currently OpenJDK 21, and later OpenJDK 25 when it becomes available).
 
@@ -56,7 +56,7 @@ Popular vendors that usually provide good .deb packages for non-LTS versions:
 - **Azul Zulu** (very reliable, free, TCK certified)
   - Go to → https://www.azul.com/downloads/?version=java-24
   - Select Linux / Ubuntu / .deb / JDK → download and install:
-  
+
   ```bash
   sudo dpkg -i zulu24.xx.x_linux_amd64.deb
   ```
@@ -93,7 +93,7 @@ export JAVA_HOME=/usr/lib/jvm/jdk-24
 
 Add it to `~/.bashrc` or `/etc/environment` for permanence.
 
-References:  
+References:
 
 - [https://jdk.java.net/archive/](https://jdk.java.net/archive/)
 - [https://ubuntuhandbook.org/index.php/2025/03/install-openjdk-24-ubuntu](https://ubuntuhandbook.org/index.php/2025/03/install-openjdk-24-ubuntu)

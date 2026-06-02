@@ -61,7 +61,7 @@ This is a powerful, high-end instance ideal when you need substantial parallel G
 
 Always verify the latest specifications, availability, and exact pricing in your target region through the Alibaba Cloud ECS console or official documentation, as details can be region-specific and subject to updates.
 
-**References:**  
-- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)  
-- [Alibaba Cloud ECS instance type details for gn7i](https://www.alibabacloud.com/help/en/ecs/user-guide/overview-of-instance-families)  
+**References:**
+- [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)
+- [Alibaba Cloud ECS instance type details for gn7i](https://www.alibabacloud.com/help/en/ecs/user-guide/overview-of-instance-families)
 - Third-party spec references: Cloud Mercato and SpareCores listings for ecs.gn7i-c32g1.32xlarge

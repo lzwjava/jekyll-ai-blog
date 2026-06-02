@@ -200,7 +200,7 @@ for epoch in range(num_reward_epochs):
 
         # Create labels tensor based on batch size
         labels = torch.ones(preferred_reward.size(0)).to(device)  # Shape: [1]
-        
+
         # Compute loss
         loss = reward_criterion(preferred_reward, less_preferred_reward, labels)
 
@@ -208,7 +208,7 @@ for epoch in range(num_reward_epochs):
         reward_optimizer.zero_grad()
         loss.backward()
         reward_optimizer.step()
-    
+
     print(f"Reward Epoch {epoch+1}, Loss: {loss.item()}")
 ```
 

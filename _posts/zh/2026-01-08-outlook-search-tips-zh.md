@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 Outlook 邮件中使用 "AND"、"OR" 或其他高级技巧进行搜索？
 
-Answer: 
+Answer:
 
 Microsoft Outlook 在桌面客户端和网页版 (Outlook on the web) 中均支持高级搜索技术，帮助您更精准地查找邮件。搜索框通常位于窗口或页面的顶部。
 
@@ -78,8 +78,8 @@ Outlook 使用带有 Keyword Query Language (KQL) 的 **Instant Search**。
 
 这些技术适用于大多数最新版本（Outlook for Microsoft 365、2021 等）。如果搜索结果不完整，请确保 Indexing 已完成（桌面端：File > Options > Search > Indexing Options）。
 
-References:  
+References:
 
-- [How to search in Outlook - Microsoft Support](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da)  
-- [Search Mail and People in Outlook on the web - Microsoft Support](https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-on-the-web-b27e5eb7-3255-4c61-bf16-1c6a16bc2e6b)  
+- [How to search in Outlook - Microsoft Support](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da)
+- [Search Mail and People in Outlook on the web - Microsoft Support](https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-on-the-web-b27e5eb7-3255-4c61-bf16-1c6a16bc2e6b)
 - [Instant Search query commands reference](https://www.howto-outlook.com/howto/searchcommands.htm)

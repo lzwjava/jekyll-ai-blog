@@ -11,7 +11,7 @@ type: note
 
 Question: Do people find the National Higher Education Self-study Examination (self-study exams in China) for associate degree (专科) and undergraduate degree (本科) very frustrating, especially since both require around 16 exams if taking them all by self-study?
 
-Answer: 
+Answer:
 
 Yes, many people find the **National Higher Education Self-study Examination** (commonly called 自考 or self-taught higher education examination in China) quite frustrating and challenging, especially when completing all subjects purely through self-study without much external help.
 
@@ -29,7 +29,7 @@ The frustration comes from several key factors:
 
 In short, while not impossible (hundreds of thousands graduate each year), the process is demanding and often frustrating for self-study candidates due to the number of exams, self-reliance, and long timeline. Choosing an easier major, using study aids, or joining tutorial classes significantly reduces the frustration level.
 
-References:  
+References:
 
 - [Self-study exam subject numbers and requirements](http://www.moe.gov.cn/srcsite/A07/s7055/202105/W020210531407125582316.pdf)
 - [Official education exam site on course counts](https://zikao.neea.edu.cn/xhtml1/report/2001/8133-1.htm)

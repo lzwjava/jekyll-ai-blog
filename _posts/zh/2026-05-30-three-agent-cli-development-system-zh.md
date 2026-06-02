@@ -115,7 +115,7 @@ class CodingAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         你是 `ww` 工具集的 Python CLI 编码 agent。
         你的工作：在 ww/**/*.py 中实现新命令或修复 bug。
-        
+
         规则：
         - 仅输出有效的 Python 代码块，每个代码块前缀为：
           FILE: <relative/path/to/file.py>
@@ -181,7 +181,7 @@ class TestingAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         你是 `ww` CLI 工具集的 Python 测试 agent。
         你的工作：为 ww 命令编写 pytest 测试。
-        
+
         规则：
         - 仅输出测试代码块，前缀为：
           FILE: tests/<test_file.py>
@@ -249,7 +249,7 @@ class DocAgent(BaseAgent):
     system_prompt = textwrap.dedent("""
         你是 `ww` CLI 工具集的文档 agent。
         你的工作：保持 README.md 和 docs/ 最新。
-        
+
         规则：
         - 输出 Markdown 块，前缀为：
           FILE: README.md   （或 docs/something.md）

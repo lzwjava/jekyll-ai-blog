@@ -25,7 +25,7 @@ type: note
 现在 Dock 将永久保留在屏幕底部（或侧面）。
 
 ### 使用键盘快捷键的快速替代方法（如果已启用）：
-- 按下 **Command (⌘) + Option (⌥) + D**  
+- 按下 **Command (⌘) + Option (⌥) + D**
   这将立即切换自动隐藏设置。如果关闭了自动隐藏，则操作完成。
 
 ### 如果设置会自动重新启用：
@@ -37,7 +37,7 @@ type: note
 这种情况偶尔发生在某些 beta 版本或特定的配置中（例如，开启了 Stage Manager 或特定的 window tiling 设置）。请尝试：
 - 临时关闭 Stage Manager（System Settings → Desktop & Dock → Stage Manager）
 - 重新启动 Mac
-- 作为最后手段，在 Terminal 中重置 Dock 偏好设置：  
+- 作为最后手段，在 Terminal 中重置 Dock 偏好设置：
   ```
   defaults delete com.apple.dock && killall Dock
   ```
@@ -45,7 +45,7 @@ type: note
 
 这些步骤在 macOS Ventura、Sonoma、Sequoia 和 Tahoe 中均适用。
 
-References:  
+References:
 
 - [Change Desktop & Dock settings on Mac - Apple Support](https://support.apple.com/guide/mac-help/change-desktop-dock-settings-mchlp1119/mac)
 - [Apple Support Communities - Dock keeps auto-hiding on macOS Tahoe](https://discussions.apple.com/thread/256140771)

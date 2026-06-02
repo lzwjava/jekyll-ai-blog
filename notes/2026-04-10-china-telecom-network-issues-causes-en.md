@@ -11,7 +11,7 @@ type: note
 
 Question: Explore common network problems and their causes for China Telecom.
 
-Answer: 
+Answer:
 
 China Telecom (中国电信) is one of the largest broadband and mobile service providers in China. Like other major ISPs, it experiences various network issues that can affect users in cities like Guangzhou and across the country. Below is a comprehensive overview of the most common network problems reported by China Telecom users, along with their typical causes.
 
@@ -79,7 +79,7 @@ Many issues are resolved quickly once reported, especially if multiple users in 
 
 If you are experiencing a specific issue right now (e.g., in Guangzhou on a particular date/time), providing more details such as symptoms, error messages, or your exact location can help narrow down the likely cause.
 
-References:  
-- Official China Telecom support pages and user forums (common troubleshooting guides).  
-- Historical user reports from platforms like Baidu Tieba, Weibo, and Zhihu discussing Guangdong/Guangzhou telecom issues.  
+References:
+- Official China Telecom support pages and user forums (common troubleshooting guides).
+- Historical user reports from platforms like Baidu Tieba, Weibo, and Zhihu discussing Guangdong/Guangzhou telecom issues.
 - General telecom industry analyses on fiber network reliability in high-density Chinese cities.

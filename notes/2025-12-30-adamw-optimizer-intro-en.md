@@ -12,7 +12,7 @@ type: note
 
 Question: What is a comprehensive introduction to the AdamW optimizer?
 
-Answer: 
+Answer:
 
 # Comprehensive Introduction to the AdamW Optimizer
 
@@ -32,23 +32,23 @@ The update rules for Adam are:
 
 1. Compute gradient: \\( g_t = \nabla_\theta f_t(\theta_{t-1}) \\)
 
-2. Update biased first moment:  
+2. Update biased first moment:
    \\( m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t \\)
 
-3. Update biased second moment:  
+3. Update biased second moment:
    \\( v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2 \\)
 
-4. Bias correction:  
-   \\( \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\)  
+4. Bias correction:
+   \\( \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\)
    \\( \hat{v}_t = \frac{v_t}{1 - \beta_2^t} \\)
 
-5. Parameter update:  
+5. Parameter update:
    \\( \theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 
-Default hyperparameters:  
-- Learning rate \\( \eta = 0.001 \\)  
-- \\( \beta_1 = 0.9 \\)  
-- \\( \beta_2 = 0.999 \\)  
+Default hyperparameters:
+- Learning rate \\( \eta = 0.001 \\)
+- \\( \beta_1 = 0.9 \\)
+- \\( \beta_2 = 0.999 \\)
 - \\( \epsilon = 10^{-8} \\)
 
 Adam is efficient and robust but sometimes generalizes worse than SGD with momentum when strong regularization is used.
@@ -99,10 +99,10 @@ Typical weight decay values: 0.01–0.1 (often 0.01 or 0.05 for transformers)
 
 In summary, AdamW is a small but crucial improvement over Adam that makes weight decay work as intended in adaptive optimizers, leading to superior performance in practice.
 
-References:  
+References:
 
-- [Decoupled Weight Decay Regularization (arXiv)](https://arxiv.org/abs/1711.05101)  
-- [Decoupled Weight Decay Regularization (OpenReview)](https://openreview.net/forum?id=Bkg6RiCqY7)  
-- [PyTorch AdamW Documentation](https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html)  
-- [Keras AdamW Documentation](https://keras.io/api/optimizers/adamw/)  
+- [Decoupled Weight Decay Regularization (arXiv)](https://arxiv.org/abs/1711.05101)
+- [Decoupled Weight Decay Regularization (OpenReview)](https://openreview.net/forum?id=Bkg6RiCqY7)
+- [PyTorch AdamW Documentation](https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html)
+- [Keras AdamW Documentation](https://keras.io/api/optimizers/adamw/)
 - [Cornell Optimization Wiki: AdamW](https://optimization.cbe.cornell.edu/index.php?title=AdamW)

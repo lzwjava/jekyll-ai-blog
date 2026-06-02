@@ -112,7 +112,7 @@ The **endmyopia community** (Jake Steiner) reports anecdotal reversals of 0.25D�
 
 ```
 Your theory in one line:
-Undercorrect → near focal point shifts anterior → myopic defocus → dopamine ↑ 
+Undercorrect → near focal point shifts anterior → myopic defocus → dopamine ↑
 → scleral remodeling → axial shortening → myopia reversal
 
 This is correct in mechanism. The biology supports it.

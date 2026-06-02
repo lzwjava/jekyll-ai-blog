@@ -12,7 +12,7 @@ type: note
 
 Question: In a switched network, what causes a broadcast storm?
 
-Answer: 
+Answer:
 
 The correct answer is **B) Network loops without STP**.
 

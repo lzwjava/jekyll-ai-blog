@@ -43,7 +43,7 @@ Answer:
 
 这些地点强调免费或低成本的户外活动，非常适合家庭出行。如需获取最新信息，可以查看滴滴 (Didi) 等本地应用进行导航，或通过 Trip.com 了解相关付费项目。
 
-References:  
+References:
 
 - [Tripadvisor 上的广州市儿童公园](https://www.tripadvisor.com/Attraction_Review-g298555-d9865062-Reviews-Guangzhou_Children_Park-Guangzhou_Guangdong.html)
 - [GZ Kidz 博客关于广州市儿童公园的文章](https://gzkidz.com/2024/09/20/guangzhou-childrens-park)

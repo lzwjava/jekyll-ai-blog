@@ -24,10 +24,10 @@ type: note
 
 相比之下，**细心和回应式养育**（支持但不过度控制）能建立安全的依恋和更强的亲子纽带。关键在于平衡：积极参与和关爱，同时允许符合年龄的独立，能培养更健康的亲子关系。
 
-参考文献：  
+参考文献：
 
-- [Moderating the Association Between Overparenting and Mental Health: Open Family Communication and Emerging Adult Children’s Trait Autonomy - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9811893/)  
-- [The Effects of Overparenting on Children - Psych Central](https://psychcentral.com/blog/the-effects-of-overparenting-on-children)  
-- [Explaining the negative association between overparenting and parent-child relationship satisfaction - Nature](https://www.nature.com/articles/s41599-025-06095-x)  
-- [Helicopter Parenting: Examples, Causes, Effects - Parents.com](https://www.parents.com/parenting/better-parenting/what-is-helicopter-parenting/)  
+- [Moderating the Association Between Overparenting and Mental Health: Open Family Communication and Emerging Adult Children’s Trait Autonomy - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9811893/)
+- [The Effects of Overparenting on Children - Psych Central](https://psychcentral.com/blog/the-effects-of-overparenting-on-children)
+- [Explaining the negative association between overparenting and parent-child relationship satisfaction - Nature](https://www.nature.com/articles/s41599-025-06095-x)
+- [Helicopter Parenting: Examples, Causes, Effects - Parents.com](https://www.parents.com/parenting/better-parenting/what-is-helicopter-parenting/)
 - [Study reveals impact of too much parental involvement - Stanford Report](https://news.stanford.edu/stories/2021/03/study-reveals-impact-much-parental-involvement)

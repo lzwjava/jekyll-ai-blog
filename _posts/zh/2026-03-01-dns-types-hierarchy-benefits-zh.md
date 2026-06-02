@@ -25,16 +25,16 @@ type: note
 
 DNS 名称服务器的 **四种主要类别** 是：
 
-1. **根名称服务器 (Root name servers)**  
+1. **根名称服务器 (Root name servers)**
    DNS 层次结构中的最高级别。它们知道所有顶级域名 (TLD) 的权威名称服务器的位置（IP 地址）。有 13 个逻辑根服务器组（标记为 A–M），由全球多个组织运营，使用 anycast 路由方式拥有众多物理实例。
 
-2. **顶级域名 (TLD) 名称服务器 (Top-level domain (TLD) name servers)**  
+2. **顶级域名 (TLD) 名称服务器 (Top-level domain (TLD) name servers)**
    负责特定顶级域名，例如 .com、.org、.net、.edu、.cn、.io 等。它们维护指向该 TLD 下注册域名的权威名称服务器的记录（例如 .com TLD 服务器知道 example.com 的权威服务器是谁）。
 
-3. **权威名称服务器 (Authoritative name servers)**（也称为权限名称服务器或权威 DNS 服务器）  
+3. **权威名称服务器 (Authoritative name servers)**（也称为权限名称服务器或权威 DNS 服务器）
    这些是由域名所有者指定的官方 DNS 服务器。它们持有特定域名或区域的权威资源记录（例如 example.com 的实际 A、AAAA、MX、CNAME、TXT 记录）。
 
-4. **本地名称服务器 (Local name servers)**（也称为递归解析器、缓存名称服务器或本地 DNS 服务器）  
+4. **本地名称服务器 (Local name servers)**（也称为递归解析器、缓存名称服务器或本地 DNS 服务器）
    通常由 ISP 或公共服务提供（例如 8.8.8.8 或 1.1.1.1）。它们代表客户端执行递归查询，在一段时间内（TTL）缓存结果，并将最终答案返回给用户设备。大多数终端用户 DNS 查询首先发送到本地/递归解析器。
 
 这四种类型以分层且协作的方式共同工作，使域名解析快速、可靠且全球可扩展。

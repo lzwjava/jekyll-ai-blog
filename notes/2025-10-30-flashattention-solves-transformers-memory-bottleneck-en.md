@@ -117,6 +117,6 @@ This handles masking/dropout; falls back to math kernel if unsupported. For cust
 
 FlashAttention revolutionized long-context training, powering models like Llama-2 (4k→70B) and beyond.
 
-[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)  
-[PyTorch 2.2: FlashAttention-v2 Integration](https://pytorch.org/blog/pytorch2-2/)  
+[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+[PyTorch 2.2: FlashAttention-v2 Integration](https://pytorch.org/blog/pytorch2-2/)
 [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)

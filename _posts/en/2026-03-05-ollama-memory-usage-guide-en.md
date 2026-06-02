@@ -11,7 +11,7 @@ type: note
 
 Question: Why does `ollama run qwen3.5:9b` show only 159 MB memory usage, which seems very small?
 
-Answer: 
+Answer:
 
 **The 159 MB figure you're seeing is not the actual memory used by the model — it's likely just the resident memory (RES) of the main Ollama server process itself, or a misleading partial reading from a tool like Activity Monitor / `top` / `htop` that doesn't account for how modern LLM runners handle memory.**
 
@@ -41,7 +41,7 @@ On Apple Silicon Macs (M2/M3), Ollama uses **memory-mapped files** and **unified
 
 In short: **159 MB is normal for the idle server process**. The model is actually using several GB when active — that's expected and efficient on Apple Silicon. If you're seeing poor performance or errors, check total system memory pressure instead of just the process size.
 
-References:  
+References:
 - [Ollama qwen3.5:9b model page (6.6 GB Q4_K_M)](https://ollama.com/library/qwen3.5:9b)
 - [Stack Overflow: Why doesn't Ollama use MORE RAM? (memory mapping explanation)](https://stackoverflow.com/questions/78068285/why-doesnt-ollama-use-more-ram)
 - [GitHub Ollama issues on memory reporting (file cache & under-reporting)](https://github.com/ollama/ollama/issues/2496)

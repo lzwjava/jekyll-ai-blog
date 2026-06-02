@@ -12,7 +12,7 @@ type: note
 
 Question: Tips for traveling from Yangmeikeng to Luzui Villa in Shenzhen's Dapeng area, including transportation options like car (around 16 CNY) or boat. You bought a round-trip boat ticket but returned by car and refunded the return boat ticket. What do you think of this plan, and what are good travel tips for Shenzhen's Dapeng Peninsula?
 
-Answer: 
+Answer:
 
 Your plan sounds practical and flexible—buying a round-trip boat ticket initially for convenience, then switching to a cheaper car option on the return and successfully getting a refund is a smart way to save money while adapting to the situation.
 
@@ -48,10 +48,10 @@ Overall, it's a good flexible approach. The shuttle is generally the best value 
 
 This area is one of Shenzhen's best escapes for nature and relaxation. Enjoy the beautiful coastline!
 
-References:  
+References:
 
-- [深圳杨梅坑到鹿嘴山庄如何去](https://travel.shenchuang.com/20210819/1604089.shtml)  
-- [深圳鹿嘴山庄怎么坐车去](https://m.bendibao.com/show839913.html)  
-- [深圳杨梅坑到鹿嘴山庄怎么去](https://m.bendibao.com/show871540.html)  
-- [Dapeng Travel Guide: Two days in Dapeng](https://www.eyeshenzhen.com/content/2024-12/13/content_31390306.htm)  
+- [深圳杨梅坑到鹿嘴山庄如何去](https://travel.shenchuang.com/20210819/1604089.shtml)
+- [深圳鹿嘴山庄怎么坐车去](https://m.bendibao.com/show839913.html)
+- [深圳杨梅坑到鹿嘴山庄怎么去](https://m.bendibao.com/show871540.html)
+- [Dapeng Travel Guide: Two days in Dapeng](https://www.eyeshenzhen.com/content/2024-12/13/content_31390306.htm)
 - [Shenzhens Beaches & the Dapeng Peninsula](https://shenzhenshopper.com/2580-shenzhens-beaches-the-dapeng-peninsula-inc-map-transport-and-where-to-stay.html)

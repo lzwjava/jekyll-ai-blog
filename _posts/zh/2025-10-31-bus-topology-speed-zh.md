@@ -38,6 +38,6 @@ type: note
 
 如果您在思考特定应用场景（如汽车中的CAN总线或传统的10BASE-T），其基本原理是相通的：协议+物理限制 > 电缆理论能力。
 
-扩展阅读：  
-[以太网总线拓扑基础](https://en.wikipedia.org/wiki/Bus_network)  
+扩展阅读：
+[以太网总线拓扑基础](https://en.wikipedia.org/wiki/Bus_network)
 [CSMA/CD技术局限](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)

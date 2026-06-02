@@ -20,17 +20,17 @@ Your GPG key listing shows a public key (pub) with the fingerprint `982740390B5D
    ```
 
 2. **Encrypt the file** using the `--encrypt` option and specify the recipient (your email or key ID). This creates an encrypted `.gpg` file.
-   
+
    - Using your email (simpler):
      ```
      gpg --encrypt --recipient lzwjava@gmail.com secret.txt
      ```
-   
+
    - Using the key ID (full fingerprint):
      ```
      gpg --encrypt --recipient 982740390B5D33E90B6B6133892BC5A4789B71CD secret.txt
      ```
-   
+
    This outputs `secret.txt.gpg`, which is the encrypted version. The original `secret.txt` remains unchanged.
 
 3. **Verify the encryption** (optional):

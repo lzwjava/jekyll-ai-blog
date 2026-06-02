@@ -12,7 +12,7 @@ type: note
 
 Question: One effective way to prepare for an exam is to have AI chatbots generate exam questions in multiple-choice format, and then use AI chatbots to research or verify the questions you are unsure about.
 
-Answer: 
+Answer:
 
 Yes, this is actually one of the more powerful and increasingly popular modern exam preparation strategies in 2025–2026. Here's why it works well and how to execute it most effectively:
 
@@ -29,7 +29,7 @@ Yes, this is actually one of the more powerful and increasingly popular modern e
      ```
      Create 20 multiple-choice questions (4 options, single correct answer) on [topic], university undergraduate / professional certification level, similar in style to [exam name, e.g. AWS Solutions Architect, LeetCode medium-hard, CFA Level 2, etc.].
      Include some questions that test common misconceptions.
-     Format: 
+     Format:
      Q1. Question text
      A) ...
      B) ...
@@ -78,6 +78,6 @@ This loop (generate → answer → verify → research weak points → generate 
 
 Do you have a specific subject or exam you're preparing for right now? I can start generating a small set of questions immediately if you'd like.
 
-References:  
+References:
 
 - None (this is a study methodology recommendation based on current learning science consensus and AI-assisted study patterns observed in 2025–2026)

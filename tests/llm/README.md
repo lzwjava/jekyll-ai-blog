@@ -173,13 +173,13 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../scripts'))
 from llm.new_client import call_new_api
 
 class TestNewClient(unittest.TestCase):
-    
+
     @patch.dict(os.environ, {'NEW_API_KEY': 'test_key'})
     @patch('llm.new_client.requests.post')
     def test_successful_api_call(self, mock_post):
         # Implementation here
         pass
-    
+
     # Add more tests following existing patterns
 ```
 

@@ -49,6 +49,6 @@ type: note
 | **缓冲门** | 纯三角形 → | 1 | 与输入相同 | 信号增强 |
 | **非门** | 尖端带圆圈的三角形 →○ | 1 | 输入取反 | 信号翻转 |
 
-参考文献：  
-[数字逻辑门符号 - 电子技术教程](https://www.electronics-tutorials.ws/logic/logic_1.html)  
+参考文献：
+[数字逻辑门符号 - 电子技术教程](https://www.electronics-tutorials.ws/logic/logic_1.html)
 [ANSI逻辑符号 - IEEE标准](https://standards.ieee.org/standard/91-1984.html)

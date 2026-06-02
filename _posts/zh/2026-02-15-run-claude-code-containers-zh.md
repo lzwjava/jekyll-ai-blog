@@ -11,7 +11,7 @@ type: note
 
 Question: 如何在容器或云服务器中运行 Claude code (Claude Code interpreter/agent)？
 
-Answer: 
+Answer:
 
 **Claude Code**（Anthropic 推出的基于终端的 AI coding agent / code interpreter 工具）通常在 **Docker containers** 中运行，以确保安全和隔离。这是许多场景下官方推荐的方法，因为 Claude Code 可以执行任意代码、安装软件包、运行服务器等。
 
@@ -106,7 +106,7 @@ ANTHROPIC_BASE_URL=http://localhost:12434 claude --model your-local-model ...
 - 开发工作流 → VS Code Dev Container
 - 24/7 云端 agent → VPS + Docker 或托管 sandbox (E2B, Cloudflare, RunPod)
 
-References:  
+References:
 
 - [Docker Sandboxes for Claude Code](https://docs.docker.com/ai/sandboxes/claude-code)
 - [Claude Code official docs – Dev Containers](https://code.claude.com/docs/en/devcontainer)

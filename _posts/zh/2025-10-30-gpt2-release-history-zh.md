@@ -20,6 +20,6 @@ GPT-2 论文《语言模型是无监督多任务学习者》于 2019 年 2 月 1
 - **大模型（7.74 亿参数）**：2019 年 8 月 20 日发布
 - **完整模型（15 亿参数）及开源代码**：2019 年 11 月 5 日发布，完整权重与实现代码在 GitHub 上全面公开
 
-参考文献：  
-[更优质的语言模型及其影响](https://openai.com/index/better-language-models/)  
+参考文献：
+[更优质的语言模型及其影响](https://openai.com/index/better-language-models/)
 [GPT-2：15 亿参数版本发布](https://openai.com/index/gpt-2-1-5b-release/)

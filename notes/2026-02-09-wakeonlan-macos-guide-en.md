@@ -12,7 +12,7 @@ type: note
 
 Question: How to install wakeonlan on macOS?
 
-Answer: 
+Answer:
 
 You can install the `wakeonlan` command-line tool on macOS using one of these main methods (the Homebrew approach is the most common and recommended).
 
@@ -74,7 +74,7 @@ If you prefer not to install Homebrew:
 
 Note: On very recent macOS versions (e.g., Sequoia), if you see a Perl-related error after `brew install`, try `brew reinstall wakeonlan` to fix the shebang/path.
 
-References:  
+References:
 
 - [https://formulae.brew.sh/formula/wakeonlan](https://formulae.brew.sh/formula/wakeonlan)
 - [https://www.cyberciti.biz/faq/apple-os-x-wake-on-lancommand-line-utility](https://www.cyberciti.biz/faq/apple-os-x-wake-on-lancommand-line-utility)

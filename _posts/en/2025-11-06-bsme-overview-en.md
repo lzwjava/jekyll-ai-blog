@@ -21,5 +21,5 @@ This department plays a critical role in the bank's broader transformation agend
 
 For more details on current roles or structure, check Standard Chartered's careers portal or annual reports.
 
-[Standard Chartered Annual Report 2024](https://www.sc.com/en/investors/financial-reports/)  
+[Standard Chartered Annual Report 2024](https://www.sc.com/en/investors/financial-reports/)
 [Standard Chartered Careers - Operations Roles](https://www.sc.com/en/global-careers/)

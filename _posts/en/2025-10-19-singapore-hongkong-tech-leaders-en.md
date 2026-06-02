@@ -24,9 +24,9 @@ type: note
 
 These are some prominent examples—Silicon Valley's talent pool includes many from these regions, often in AI, semiconductors, and startups. For more, check out diaspora networks like the Singapore Global Network.
 
-**References**  
-[From Silicon Valley to Switzerland, meet four Singaporeans leading global teams](https://www.edb.gov.sg/en/business-insights/insights/from-silicon-valley-to-switzerland-meet-four-singaporeans-leading-global-teams-in-semiconductors-healthcare-and-ai.html)  
-[Meet Singapore's Jonathan Teo, the Silicon Valley investor](https://www.thepeakmagazine.com.sg/people/meet-singapores-jonathan-teo-silicon-valley-investor-midas-touch)  
-[Meet the Bay Area founder helping leaders & women overcome adversity](https://singaporeglobalnetwork.gov.sg/stories/business/meet-the-bay-area-founder-helping-leaders-women-overcome-adversity/)  
-[Andrew Ng - Wikipedia](https://en.wikipedia.org/wiki/Andrew_Ng)  
+**References**
+[From Silicon Valley to Switzerland, meet four Singaporeans leading global teams](https://www.edb.gov.sg/en/business-insights/insights/from-silicon-valley-to-switzerland-meet-four-singaporeans-leading-global-teams-in-semiconductors-healthcare-and-ai.html)
+[Meet Singapore's Jonathan Teo, the Silicon Valley investor](https://www.thepeakmagazine.com.sg/people/meet-singapores-jonathan-teo-silicon-valley-investor-midas-touch)
+[Meet the Bay Area founder helping leaders & women overcome adversity](https://singaporeglobalnetwork.gov.sg/stories/business/meet-the-bay-area-founder-helping-leaders-women-overcome-adversity/)
+[Andrew Ng - Wikipedia](https://en.wikipedia.org/wiki/Andrew_Ng)
 [From Hong Kong to Silicon Valley: HK's Game-Changing Slam Dunk Startup](https://asiasociety.org/hong-kong/events/hong-kong-silicon-valley-hks-game-changing-slam-dunk-startup)

@@ -298,7 +298,7 @@ if __name__ == "__main__":
 - [B00TK1D/copilot-api — api.py reference implementation](https://github.com/B00TK1D/copilot-api/blob/main/api.py)
 - [Erick Christian's blog — Reverse engineering Copilot API](https://ericc-ch.github.io/blog/reverse-engineering-copilot-api/)
 - [LiteLLM — GitHub Copilot provider docs](https://docs.litellm.ai/docs/providers/github_copilot)
-- [GitHub Docs — Authenticating Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli) 
+- [GitHub Docs — Authenticating Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)
 
 ---
 
@@ -2393,26 +2393,26 @@ _Thinking:_
 <type>file</type>
 <content>1: const GITHUB_CLIENT_ID = 'Iv1.b507a08c87ecfe98'; // Standard GitHub Copilot Client ID
 2: const GITHUB_REDIRECT_URI = window.location.origin;
-3: 
+3:
 4: export interface CopilotTokenResponse {
 5:   token: string;
 6:   expires_at: number;
 7:   refresh_in: number;
 8: }
-9: 
+9:
 10: export const AuthService = {
 11:   getGithubToken(): string | null {
 12:     return localStorage.getItem('github_token');
 13:   },
-14: 
+14:
 15:   setGithubToken(token: string) {
 16:     localStorage.setItem('github_token', token);
 17:   },
-18: 
+18:
 19:   getCopilotToken(): string | null {
 20:     const tokenData = localStorage.getItem('copilot_token');
 21:     if (!tokenData) return null;
-22:     
+22:
 23:     const { token, expires_at } = JSON.parse(tokenData);
 24:     // Add 5 minute buffer
 25:     if (Date.now() / 1000 > (expires_at - 300)) {
@@ -2421,7 +2421,7 @@ _Thinking:_
 28:     }
 29:     return token;
 30:   },
-31: 
+31:
 32:   async fetchCopilotToken(githubToken: string): Promise<CopilotTokenResponse> {
 33:     const response = await fetch('https://api.github.com/copilot_internal/v2/token', {
 34:       headers: {
@@ -2430,20 +2430,20 @@ _Thinking:_
 37:         'Editor-Version': 'vscode/1.91.0',
 38:       },
 39:     });
-40: 
+40:
 41:     if (!response.ok) {
 42:       throw new Error('Failed to fetch Copilot token. Make sure you have Copilot access.');
 43:     }
-44: 
+44:
 45:     const data = await response.json();
 46:     localStorage.setItem('copilot_token', JSON.stringify({
 47:       token: data.token,
 48:       expires_at: data.expires_at,
 49:     }));
-50:     
+50:
 51:     return data;
 52:   },
-53: 
+53:
 54:   async getDeviceCode() {
 55:     const response = await fetch('https://github.com/login/device/code', {
 56:       method: 'POST',
@@ -2456,14 +2456,14 @@ _Thinking:_
 63:         scope: 'read:user',
 64:       }),
 65:     });
-66: 
+66:
 67:     if (!response.ok) throw new Error('Failed to get device code');
 68:     return await response.json();
 69:   },
-70: 
+70:
 71:   async pollForToken(deviceCode: string): Promise<string> {
 72:     const interval = 5000; // Poll every 5 seconds
-73:     
+73:
 74:     while (true) {
 75:       const response = await fetch('https://github.com/login/oauth/access_token', {
 76:         method: 'POST',
@@ -2477,22 +2477,22 @@ _Thinking:_
 84:           grant_type: 'urn:ietf:params:oauth:grant-type:device_code',
 85:         }),
 86:       });
-87: 
+87:
 88:       const data = await response.json();
-89: 
+89:
 90:       if (data.access_token) {
 91:         return data.access_token;
 92:       }
-93: 
+93:
 94:       if (data.error === 'authorization_pending') {
 95:         await new Promise(resolve => setTimeout(resolve, interval));
 96:         continue;
 97:       }
-98: 
+98:
 99:       throw new Error(data.error_description || 'Token polling failed');
 100:     }
 101:   },
-102: 
+102:
 103:   redirectToGithub() {
 104:     // This will be replaced by the Device Flow UI in App.tsx
 105:   },
@@ -2528,7 +2528,7 @@ _Thinking:_
 <content>1: import { useState, useEffect, useRef } from 'react'
 2: import './App.css'
 3: import { AuthService } from './services/auth'
-4: 
+4:
 5: function App() {
 6:   const [messages, setMessages] = useState<{ role: string; content: string }[]>([
 7:     { role: 'assistant', content: 'Hello! I am GitHub Copilot. How can I help you today?' }
@@ -2537,17 +2537,17 @@ _Thinking:_
 10:   const [isLoggedIn, setIsLoggedIn] = useState(false)
 11:   const [isLoading, setIsLoading] = useState(true)
 12:   const messagesEndRef = useRef<HTMLDivElement>(null)
-13: 
+13:
 14:   const scrollToBottom = () => {
 15:     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
 16:   }
-17: 
+17:
 18:   useEffect(() => {
 19:     scrollToBottom()
 20:   }, [messages])
-21: 
+21:
 22:   const [deviceData, setDeviceData] = useState<{ user_code: string, verification_uri: string, device_code: string } | null>(null)
-23: 
+23:
 24:   useEffect(() => {
 25:     const checkExistingAuth = () => {
 26:       const githubToken = AuthService.getGithubToken()
@@ -2558,14 +2558,14 @@ _Thinking:_
 31:     }
 32:     checkExistingAuth()
 33:   }, [])
-34: 
+34:
 35:   const handleLogin = async () => {
 36:     try {
 37:       setIsLoading(true)
 38:       const data = await AuthService.getDeviceCode()
 39:       setDeviceData(data)
 40:       setIsLoading(false)
-41:       
+41:
 42:       // Start polling
 43:       const token = await AuthService.pollForToken(data.device_code)
 44:       AuthService.setGithubToken(token)
@@ -2577,7 +2577,7 @@ _Thinking:_
 50:       setIsLoading(false)
 51:     }
 52:   }
-53: 
+53:
 54:   const handleLogout = () => {
 55:     localStorage.removeItem('github_token')
 56:     localStorage.removeItem('copilot_token')
@@ -2585,18 +2585,18 @@ _Thinking:_
 58:     setDeviceData(null)
 59:     setMessages([{ role: 'assistant', content: 'You have been logged out. Please login again to continue.' }])
 60:   }
-61: 
+61:
 62:   const handleSend = async () => {
 63:     if (!inputValue.trim()) return
-64: 
+64:
 65:     const userMessage = { role: 'user', content: inputValue }
 66:     setMessages(prev => [...prev, userMessage])
 67:     setInputValue('')
-68:     
+68:
 69:     try {
 70:       let copilotToken = AuthService.getCopilotToken()
 71:       const githubToken = AuthService.getGithubToken()
-72: 
+72:
 73:       if (!copilotToken && githubToken) {
 74:         try {
 75:           const data = await AuthService.fetchCopilotToken(githubToken)
@@ -2607,12 +2607,12 @@ _Thinking:_
 80:           return
 81:         }
 82:       }
-83: 
+83:
 84:       if (!copilotToken) {
 85:         setMessages(prev => [...prev, { role: 'assistant', content: 'Error: Please login with GitHub first.' }])
 86:         return
 87:       }
-88: 
+88:
 89:       const response = await fetch('https://api.githubcopilot.com/chat/completions', {
 90:         method: 'POST',
 91:         headers: {
@@ -2629,12 +2629,12 @@ _Thinking:_
 102:           stream: false,
 103:         })
 104:       })
-105: 
+105:
 106:       if (!response.ok) {
 107:         const errorData = await response.json().catch(() => ({}))
 108:         throw new Error(errorData.message || `Copilot API error: ${response.status}`)
 109:       }
-110: 
+110:
 111:       const data = await response.json()
 112:       const assistantMessage = data.choices[0].message
 113:       setMessages(prev => [...prev, assistantMessage])
@@ -2643,17 +2643,17 @@ _Thinking:_
 116:       setMessages(prev => [...prev, { role: 'assistant', content: `Error: ${error instanceof Error ? error.message : 'Unknown error'}` }])
 117:     }
 118:   }
-119: 
+119:
 120:   if (isLoading) {
 121:     return <div className="loading">Loading...</div>
 122:   }
-123: 
+123:
 124:   if (!isLoggedIn) {
 125:     return (
 126:       <div className="login-container">
 127:         <h1 className="login-title">Copilot Chat</h1>
 128:         <p className="login-subtitle">Enterprise Web Edition</p>
-129:         
+129:
 130:         {deviceData ? (
 131:           <div className="device-auth">
 132:             <p>Please visit <a href={deviceData.verification_uri} target="_blank" rel="noreferrer">{deviceData.verification_uri}</a></p>
@@ -2669,7 +2669,7 @@ _Thinking:_
 142:       </div>
 143:     )
 144:   }
-145: 
+145:
 146:   return (
 147:     <div className="chat-container">
 148:       <div className="chat-header">
@@ -2700,7 +2700,7 @@ _Thinking:_
 173:     </div>
 174:   )
 175: }
-176: 
+176:
 177: export default App
 
 (End of file - total 177 lines)
@@ -2922,7 +2922,7 @@ _Thinking:_
 
 explain why now , Copilot Chat
 Enterprise Web Edition
-Login with GitHub  , failed , Failed to initialize login. Please try again. why 
+Login with GitHub  , failed , Failed to initialize login. Please try again. why
 
 ---
 

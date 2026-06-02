@@ -68,7 +68,7 @@ def compare_rows(file1, file2, key_column=0):
     for key in common_keys:
         if data1[key] != data2[key]:
             differing_rows.append((key, data1[key], data2[key]))
-    
+
     return differing_rows  # List of (key, row_from_file1, row_from_file2)
 
 # Usage
@@ -109,7 +109,7 @@ def compare_columns(file1, file2, col_index=0):
     for i, (val1, val2) in enumerate(zip(col1, col2)):
         if val1 != val2:
             differences.append((i, val1, val2))
-    
+
     return are_equal, differences  # Bool for match, list of (row_index, val1, val2)
 
 # Usage

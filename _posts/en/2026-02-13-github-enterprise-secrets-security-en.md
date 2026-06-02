@@ -12,7 +12,7 @@ type: note
 
 Question: How can we prevent *.pem files or secret keys from being submitted to GitHub Enterprise in a corporate environment?
 
-Answer: 
+Answer:
 
 In a corporate GitHub Enterprise environment (especially GitHub Enterprise Cloud or Server ≥ 3.5–3.6+), preventing accidental commits of `.pem` files, private keys, certificates, and other secrets requires a **defense-in-depth** approach. Relying on one method is usually not enough.
 
@@ -76,7 +76,7 @@ Enforce hooks across the company via:
 - **Husky** + **lint-staged** (JavaScript teams)
 - **TruffleHog** or **Gitleaks** as pre-commit hooks
 
-Example company policy:  
+Example company policy:
 Mandate `pre-commit install` in developer onboarding + provide a shared `.pre-commit-config.yaml`.
 
 ### 4. Server-Side Pre-Receive Hooks (GitHub Enterprise Server only)
@@ -108,7 +108,7 @@ Even if something slips through:
 
 Follow this combination and `.pem` / private key leaks become very rare even with thousands of developers.
 
-References:  
+References:
 
 - [About secret scanning (GitHub Docs)](https://docs.github.com/code-security/secret-scanning/about-secret-scanning)
 - [Supported secret scanning patterns – includes private keys](https://docs.github.com/en/code-security/reference/secret-security/supported-secret-scanning-patterns)

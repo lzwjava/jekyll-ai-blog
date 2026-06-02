@@ -101,10 +101,10 @@ Any concerns?
 
 掌握这些习惯会让你成为一名更高效的工程师，减少误解，并加速项目的成功。
 
-References:  
+References:
 
-- [How to write an effective email as a software engineer](https://dev.to/scottshipp/how-to-write-an-effective-email-as-a-software-engineer-504j)  
-- [How To Write a Professional Email](https://www.indeed.com/career-advice/career-development/how-to-write-a-professional-email)  
-- [9 Effective Communication Tips for Software Developers](https://daily.dev/blog/9-effective-communication-tips-for-software-developers)  
-- [6 Communication Skills Software Developers Need](https://builtin.com/software-engineering-perspectives/communication-skills-developers-need)  
+- [How to write an effective email as a software engineer](https://dev.to/scottshipp/how-to-write-an-effective-email-as-a-software-engineer-504j)
+- [How To Write a Professional Email](https://www.indeed.com/career-advice/career-development/how-to-write-a-professional-email)
+- [9 Effective Communication Tips for Software Developers](https://daily.dev/blog/9-effective-communication-tips-for-software-developers)
+- [6 Communication Skills Software Developers Need](https://builtin.com/software-engineering-perspectives/communication-skills-developers-need)
 - [Professional Email Format - Writing as an Engineer or Scientist](https://www.craftofscientificwriting.org/email_format.html)

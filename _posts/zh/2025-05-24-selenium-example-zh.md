@@ -112,26 +112,26 @@ def scrape_ecommerce_site():
     try:
         # 导航到网站
         driver.get("https://example.com")
-        
+
         # 初始化页面对象
         search_page = SearchPage(driver)
         product_page = ProductListingPage(driver)
-        
+
         # 执行搜索
         search_page.search("laptop")
-        
+
         # 按价格排序
         product_page.sort_by_price()
-        
+
         # 抓取多个页面
         page_count = 0
         max_pages = 3  # 演示限制
-        
+
         while page_count < max_pages:
             products = product_page.get_products()
             all_products.extend(products)
             print(f"已抓取第 {page_count + 1} 页: {len(products)} 个产品")
-            
+
             if not product_page.go_to_next_page():
                 break
             page_count += 1
@@ -142,7 +142,7 @@ def scrape_ecommerce_site():
             "average_price": calculate_average_price(all_products),
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
         }
-        
+
         # 保存结果到JSON
         with open("product_data.json", "w") as f:
             json.dump({"products": all_products, "summary": summary}, f, indent=2)
@@ -150,7 +150,7 @@ def scrape_ecommerce_site():
 
     except Exception as e:
         print(f"发生错误: {e}")
-    
+
     finally:
         driver.quit()
 

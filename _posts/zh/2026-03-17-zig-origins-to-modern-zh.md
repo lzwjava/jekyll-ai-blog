@@ -65,7 +65,7 @@ Zig 是一个现代的、通用的、静态类型、编译型系统编程语言�
 
 Zig 的历史反映了一种罕见的组合：一个单人业余项目成长为一个严肃的、有资金支持、社区支持的语言，并采取非常审慎、耐心通往稳定性的道路。
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Zig_(programming_language)](https://en.wikipedia.org/wiki/Zig_(programming_language))
 - [https://andrewkelley.me/post/intro-to-zig.html](https://andrewkelley.me/post/intro-to-zig.html)

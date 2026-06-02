@@ -61,7 +61,7 @@ void getUserById_ReturnsUser_WhenUserExists() {
     when(userRepository.findById(1L)).thenReturn(mockUser);
 
     User result = userService.getUserById(1L);
-    
+
     assertEquals("Alice", result.getName());
 }
 ```
@@ -86,7 +86,7 @@ void getUserById_CallsRepository() {
 @Test
 void getUserById_ThrowsException_WhenRepositoryFails() {
     when(userRepository.findById(anyLong())).thenThrow(new RuntimeException("DB Error"));
-    
+
     assertThrows(RuntimeException.class, () -> userService.getUserById(1L));
 }
 ```
@@ -105,9 +105,9 @@ import static org.mockito.BDDMockito.*;
 @Test
 void bddStyleExample() {
     given(userRepository.findById(1L)).willReturn(new User(1L, "Alice"));
-    
+
     User result = userService.getUserById(1L);
-    
+
     then(userRepository).should().findById(1L);
     assertEquals("Alice", result.getName());
 }
@@ -119,9 +119,9 @@ Capture arguments to perform detailed assertions:
 @Test
 void saveUser_CapturesArgument() {
     ArgumentCaptor<User> userCaptor = ArgumentCaptor.forClass(User.class);
-    
+
     userService.saveUser("Charlie");
-    
+
     verify(userRepository).save(userCaptor.capture());
     assertEquals("Charlie", userCaptor.getValue().getName());
 }

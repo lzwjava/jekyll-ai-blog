@@ -11,7 +11,7 @@ type: note
 
 Question: What is a wave and what is wavelength?
 
-Answer: 
+Answer:
 
 Here are clear and simple definitions:
 
@@ -21,12 +21,12 @@ A **wave** is a **disturbance** or **vibration** that **transfers energy** from 
 
 There are two main big categories of waves:
 
-- **Mechanical waves**  
-  Need a medium (material) to travel through  
+- **Mechanical waves**
+  Need a medium (material) to travel through
   Examples: sound waves (air), water waves (water), seismic waves (Earth), waves on a rope/string
 
-- **Electromagnetic waves**  
-  Do **not** need a medium — can travel through vacuum  
+- **Electromagnetic waves**
+  Do **not** need a medium — can travel through vacuum
   Examples: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays
 
 All waves can be described by these basic properties:
@@ -53,26 +53,26 @@ Units: usually meters (m), but can be:
 - nanometers (nm) — especially for light
 
 **Examples of wavelengths (approximate)**:
-- Middle C sound wave in air → ~1.3 m  
-- Concert A (440 Hz) → ~0.78 m  
-- FM radio → 3–4 meters  
-- Wi-Fi (2.4 GHz) → ~12.5 cm  
-- Visible red light → ~700 nm (0.0007 mm)  
-- Visible violet light → ~400 nm  
+- Middle C sound wave in air → ~1.3 m
+- Concert A (440 Hz) → ~0.78 m
+- FM radio → 3–4 meters
+- Wi-Fi (2.4 GHz) → ~12.5 cm
+- Visible red light → ~700 nm (0.0007 mm)
+- Visible violet light → ~400 nm
 - X-rays → 0.01–10 nm
 
-**Key relationship** (very important):  
-**wave speed = frequency × wavelength**  
-or  
+**Key relationship** (very important):
+**wave speed = frequency × wavelength**
+or
 **v = f × λ**
 
 This formula connects all three quantities — if you know two, you can calculate the third.
 
 In short:
 
-- **Wave** = a moving pattern that carries energy  
+- **Wave** = a moving pattern that carries energy
 - **Wavelength** = the length of one complete wave cycle (measured in meters or smaller units)
 
-References:  
+References:
 
 - None needed for this basic physics concept explanation

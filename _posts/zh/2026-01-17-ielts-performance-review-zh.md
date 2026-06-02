@@ -12,7 +12,7 @@ type: note
 
 Question: How do you think about my comments after just finishing my IELTS Academic exam in Guangzhou?
 
-Answer: 
+Answer:
 
 你的考后总结听起来非常积极且具备良好的自我觉察。以下是对你反馈的详细分析：
 
@@ -32,7 +32,7 @@ Answer:
 
 总的来说，这看起来是一次非常扎实的尝试——比之前更顺利，且有着良好的自我评估。你有很大机会达到总分 6.5（在之前 6.0 的基础上有了明显进步，这非常容易实现），如果 Listening/Writing 表现稳健且分数进位对你有利，7.0 也不无可能。请等待官方成绩（纸笔考试通常为 13 天），但你冷静且深刻的总结表明你处理得比很多人都要好。保持这种定期练习的劲头——你显然正处于上升轨道！
 
-References:  
+References:
 
 - [IELTS scoring and band improvement examples](https://ieltsliz.com/ielts-reading-tips-how-can-i-improve-my-score)
 - [IELTS fee information in China](https://www.toeflresources.com/china)

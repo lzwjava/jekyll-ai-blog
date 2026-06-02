@@ -83,7 +83,7 @@ If it returns headers quickly, the proxy is working for downloads.
 
 Try the environment variable method first — it works for most users facing the same slow download issue with Camoufox in China. Let me know the exact proxy you are using (e.g., port and type) if it still doesn't work, and I can give more specific commands.
 
-References:  
-- https://www.mintlify.com/jo-inc/camofox-browser/installation (mentions setting HTTP_PROXY for camoufox-js fetch)  
-- https://github.com/daijro/camoufox/issues/342 (users discuss using ENV HTTP_PROXY / HTTPS_PROXY for fetch)  
+References:
+- https://www.mintlify.com/jo-inc/camofox-browser/installation (mentions setting HTTP_PROXY for camoufox-js fetch)
+- https://github.com/daijro/camoufox/issues/342 (users discuss using ENV HTTP_PROXY / HTTPS_PROXY for fetch)
 - General Node.js proxy behavior with environment variables

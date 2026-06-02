@@ -37,6 +37,6 @@ RNN（循环神经网络）依赖Xavier（亦称Glorot）初始化来配置权�
 
 简而言之，Xavier的核心在于*稳定性优先*：通过设置维度感知的适中权重，让梯度自由流动。而随机[0,1]初始化过于粗糙——就像未经动平衡就直接飙车。
 
-延伸阅读：  
-[理解深度前馈神经网络训练难点](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)（Glorot & Bengio, 2010）  
+延伸阅读：
+[理解深度前馈神经网络训练难点](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)（Glorot & Bengio, 2010）
 [循环神经网络正则化](https://arxiv.org/abs/1409.2329)（Zaremba等，关于RNN初始化问题）

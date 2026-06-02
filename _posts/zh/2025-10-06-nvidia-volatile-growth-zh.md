@@ -61,10 +61,10 @@ NVIDIA员工数量稳步增长，反映其从专业图形技术供应商向综�
 
 从2000年约400人到2010年超5700人，繁荣期年均增长率达30-40%，衰退期有所放缓。由此构建起多元化团队（如2005年报告显示男性占比约58%），重点培育支持PhysX集成（2008年收购Ageia）等创新的工程人才。
 
-参考文献：  
-[NVIDIA股票回报率](https://www.slickcharts.com/symbol/NVDA/returns)  
-[NVIDIA员工数据](https://www.xrilion.com/blog/stats/nvidia-stats)  
-[NVIDIA发展史](https://en.wikipedia.org/wiki/Nvidia)  
-[CUDA发布](https://developer.nvidia.com/about-cuda)  
-[黄仁勋传记](https://www.forbes.com/profile/jensen-huang/)  
+参考文献：
+[NVIDIA股票回报率](https://www.slickcharts.com/symbol/NVDA/returns)
+[NVIDIA员工数据](https://www.xrilion.com/blog/stats/nvidia-stats)
+[NVIDIA发展史](https://en.wikipedia.org/wiki/Nvidia)
+[CUDA发布](https://developer.nvidia.com/about-cuda)
+[黄仁勋传记](https://www.forbes.com/profile/jensen-huang/)
 [NVIDIA大事记](https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/)

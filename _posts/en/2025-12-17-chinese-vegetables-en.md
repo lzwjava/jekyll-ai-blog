@@ -12,7 +12,7 @@ type: note
 
 Question: What are common vegetables in China?
 
-Answer: 
+Answer:
 
 China is one of the world's largest producers and consumers of vegetables, with fresh vegetable consumption averaging around 110 kg per person annually. Vegetables play a central role in Chinese cuisine, often stir-fried, steamed, boiled in soups, or used in hotpots. Common ones include a mix of leafy greens, root vegetables, and others widely grown and eaten across regions.
 
@@ -33,7 +33,7 @@ Here are some of the most common vegetables in China:
 
 Other frequently mentioned ones include cauliflower, carrots, radishes (daikon), winter melon, bamboo shoots, and various mushrooms. Regional variations exist—leafy greens dominate in the south, while root vegetables are more common in the north.
 
-References:  
+References:
 
 - https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm
 - https://www.thespruceeats.com/chinese-vegetables-pictures-4121784

@@ -18,7 +18,7 @@ Guangzhou (also known as Canton) is a dynamic metropolis blending ancient Canton
 These sites showcase Guangzhou's 2,200-year legacy as a trading hub and cradle of Cantonese opera, architecture, and festivals.
 
 - **Chen Clan Academy (Chen Clan Ancestral Hall)**: A stunning 19th-century complex with intricate wood carvings, ceramics, and folk art exhibits. It's a window into clan culture and Guangdong's artisan heritage—perfect for understanding Confucian traditions. (Entry: ~¥10; best in morning for fewer crowds.)
-  
+
 - **Shamian Island**: A serene enclave of European-style colonial buildings from the 19th-century treaty port era. Stroll tree-lined paths, visit museums on foreign concessions, and feel the blend of East-West history. Great for photos and quiet reflection.
 
 - **Yongqing Fang (in Liwan District)**: A revitalized old town with preserved Qing Dynasty alleys, teahouses, and street art. It highlights Guangzhou's "riding the cow to find water" urban folklore and gentrified creative vibe—ideal for a half-day wander.
@@ -66,9 +66,9 @@ For a panoramic overview tying everything together, ascend the 600m tower at dus
 
 This itinerary balances depth and variety—start with history in the west (Liwan), move to modern east (Pazhou). For families, add Chimelong Safari; for foodies, extend to night markets. Guangzhou's subtropical vibe means packing light, and English signage is improving, but apps like Pleco help with menus.
 
-**References**  
-- [THE 15 BEST Things to Do in Guangzhou (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html)  
-- [24 Must-Visit Attractions In Guangzhou - Culture Trip](https://theculturetrip.com/asia/china/articles/20-must-visit-attractions-in-guangzhou)  
-- [Creative Industry Parks - Guangzhou International](https://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/creativeindustryparks/index.html)  
-- [Guangzhou Food, Cantonese Cuisines](https://www.asiaodysseytravel.com/guangzhou/cantonese-food.html)  
+**References**
+- [THE 15 BEST Things to Do in Guangzhou (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html)
+- [24 Must-Visit Attractions In Guangzhou - Culture Trip](https://theculturetrip.com/asia/china/articles/20-must-visit-attractions-in-guangzhou)
+- [Creative Industry Parks - Guangzhou International](https://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/creativeindustryparks/index.html)
+- [Guangzhou Food, Cantonese Cuisines](https://www.asiaodysseytravel.com/guangzhou/cantonese-food.html)
 - [Complete Guide to Canton Fair](https://www.reddit.com/r/guangzhou/comments/1n8h3fq/complete_guide_to_canton_fair/)

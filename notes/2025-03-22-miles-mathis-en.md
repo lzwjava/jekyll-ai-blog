@@ -47,7 +47,7 @@ A recurring theme in Mathis's work is that intelligence agencies, particularly t
 ---
 
 ### **Conclusion**
-Miles W. Mathis is a highly controversial figure whose theories reject mainstream historical and scientific consensus. While his work is dismissed by the academic community, he has a niche following that finds his perspective compelling. 
+Miles W. Mathis is a highly controversial figure whose theories reject mainstream historical and scientific consensus. While his work is dismissed by the academic community, he has a niche following that finds his perspective compelling.
 
 Would you like a deeper dive into any specific theory?
 
@@ -58,7 +58,7 @@ Miles W. Mathis has an extensive body of work covering a wide range of conspirac
 ---
 
 ## **1. Historical Conspiracy Theories**
-Mathis often argues that history as we know it has been manipulated by intelligence agencies, aristocratic families, and secret elites. 
+Mathis often argues that history as we know it has been manipulated by intelligence agencies, aristocratic families, and secret elites.
 
 ### **Faked or Controlled Historical Figures**
 - **Abraham Lincoln Was a Hoax** – He claims that Lincoln's assassination was staged and that Lincoln himself may have been a fictional or highly altered historical character.

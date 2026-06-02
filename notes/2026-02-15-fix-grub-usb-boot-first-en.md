@@ -11,7 +11,7 @@ type: note
 
 Question: How to proceed when entering GRUB mode during OpenWrt installation from a bootable USB on a Lenovo laptop?
 
-Answer: 
+Answer:
 
 You're currently seeing a GRUB prompt (likely `grub>` or `grub rescue>`) instead of booting directly into the OpenWrt console. This is a common issue when trying to boot the OpenWrt x86 combined image from USB, especially on Lenovo laptops or UEFI systems.
 
@@ -62,7 +62,7 @@ After successful boot from USB → proceed with the `dd` install to `/dev/sda` (
 
 Let me know exactly what the GRUB screen shows (grub> or grub rescue> or just "GRUB _") and whether you see any error messages — that helps narrow it down further.
 
-References:  
+References:
 
 - https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430
 - https://openwrt.org/docs/guide-user/installation/openwrt_x86

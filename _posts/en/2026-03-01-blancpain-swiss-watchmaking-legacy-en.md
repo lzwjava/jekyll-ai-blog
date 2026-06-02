@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Blancpain, the mechanical watch maker.
 
-Answer: 
+Answer:
 
 **Blancpain** is widely recognized as **the world's oldest watch brand** still in continuous operation, with its origins officially dated to **1735**. The brand specializes in **high-end mechanical watches**, emphasizing traditional Swiss watchmaking craftsmanship, in-house movement production, technical innovation, and elegant design.
 
@@ -49,7 +49,7 @@ Blancpain is celebrated for innovations like running equation-of-time displays, 
 
 In summary, Blancpain combines nearly three centuries of heritage with cutting-edge mechanical watchmaking, making it a cornerstone of haute horlogerie for collectors who value tradition, innovation, and understated excellence.
 
-References:  
+References:
 
 - [Blancpain Official History](https://www.blancpain.com/en-us/brand/history)
 - [Blancpain Villeret Collection](https://www.blancpain.com/en-us/collections/villeret-collection)

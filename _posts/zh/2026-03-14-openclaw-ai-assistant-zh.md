@@ -36,7 +36,7 @@ OpenClaw 是一个免费、开源的 autonomous AI agent（前身为 Clawdbot �
 
 简而言之，是的——OpenClaw 正是提供了您描述的 autonomous、computer-controlling 体验。它将任何 LLM 转变为自定向的数字员工，驻留在您的 laptop 内，能处理人类几乎能做的任何数字任务。
 
-**参考资料：**  
-- [OpenClaw Official Site](https://openclaw.ai/)  
-- [GitHub Repository](https://github.com/openclaw/openclaw)  
+**参考资料：**
+- [OpenClaw Official Site](https://openclaw.ai/)
+- [GitHub Repository](https://github.com/openclaw/openclaw)
 - [Complete Guide to OpenClaw](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md)

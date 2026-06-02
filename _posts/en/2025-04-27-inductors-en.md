@@ -59,9 +59,9 @@ In an ideal inductor in an AC circuit, the current lags the voltage by 90 degree
 
 $Z = R + jX_L$
 
-Where $j$ is the imaginary unit. The magnitude of the impedance is 
+Where $j$ is the imaginary unit. The magnitude of the impedance is
 
-\\[ 
+\\[
     |Z| = \sqrt{R^2 + X_L^2}$
 \\]
 

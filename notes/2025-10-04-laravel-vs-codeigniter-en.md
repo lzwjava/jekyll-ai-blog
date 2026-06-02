@@ -39,7 +39,7 @@ I'll break this down into key categories for clarity, followed by a summary tabl
    **Key Difference**: CodeIgniter is faster for simple apps; Laravel performs well with optimization but has more overhead.
 
 ### 5. **Features and Built-in Functionality**
-   - **Routing**: 
+   - **Routing**:
      - Laravel: Advanced, RESTful routing with route model binding, middleware groups, and API resource routes. Supports rate limiting and prefixes.
      - CodeIgniter: Basic but flexible routing with URI segments. Version 4 adds regex support and auto-routing, but it's less powerful than Laravel's.
    - **Database and ORM**:

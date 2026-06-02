@@ -73,11 +73,11 @@ type: note
                     # 进度报告
                     if i % 10000 == 0:
                         print(f"文件 {file_idx + 1} - 已处理 {i} 行，总计：{total_rows_processed}")
-                        
+
                         # ✨ 添加此行让系统得以喘息
                         # 数值（如0.1秒）可能需要调整
                         import time
-                        time.sleep(0.1) 
+                        time.sleep(0.1)
 ```
 
 ### 3. 优化文本提取（提升I/O效率）
@@ -99,14 +99,14 @@ for col in ['text', 'content', 'article', 'text_content', 'body']:
 if text_col:
     # 1. 选择文本列
     texts = df[text_col].astype(str).tolist()
-    
+
     # 2. 将此文件的所有文本合并为一个字符串
     # 应用分隔符'<|endoftext|><|endoftext|><|endoftext|>'
     file_output = "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n".join(texts)
-    
+
     # 3. 一次性写入整个文件内容
     f.write(file_output.strip() + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n")
-    
+
     total_rows_processed += len(df) # 更新整个DataFrame的计数
 ```
 

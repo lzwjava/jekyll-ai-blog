@@ -40,14 +40,14 @@ Paul Graham’s essays are widely considered among the best non-fiction writing 
 
 If you want to improve your own thinking and writing, the single best exercise is to read 20–30 of his essays slowly, then try to imitate his structure and tone in your own writing. Most people who do this report dramatic improvement.
 
-Best starting points:  
-- How to Get Startup Ideas  
-- Do Things That Don’t Scale  
-- The Lesson to Unlearn  
-- What You Can’t Say  
-- Keep Your Identity Small  
+Best starting points:
+- How to Get Startup Ideas
+- Do Things That Don’t Scale
+- The Lesson to Unlearn
+- What You Can’t Say
+- Keep Your Identity Small
 - The Refragmentation of Philosophy
 
-References:  
-- [Paul Graham’s complete essays](http://paulgraham.com/articles.html)  
+References:
+- [Paul Graham’s complete essays](http://paulgraham.com/articles.html)
 - [Paul Graham on his own writing process](http://www.paulgraham.com/writing44.html)

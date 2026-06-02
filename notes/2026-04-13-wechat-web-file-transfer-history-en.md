@@ -97,7 +97,7 @@ The gap between "feature exists" and "feature is actually used" is very real her
 
 **2021-2022**: Feature launches, tech media covers it enthusiastically
 
-**2023-2026**: 
+**2023-2026**:
 - Most print shops continue using the old "add friend" method
 - Tech-savvy users or privacy-conscious users discover and use the web version
 - The feature remains relatively niche

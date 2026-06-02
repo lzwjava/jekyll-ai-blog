@@ -21,6 +21,6 @@ type: note
 
 安装时可以使用 `pip install psycopg2-binary`（二进制版本对初学者更友好）。
 
-[Psycopg 官方文档](https://www.psycopg.org/docs/)  
-[GeeksforGeeks 介绍](https://www.geeksforgeeks.org/python/introduction-to-psycopg2-module-in-python/)  
+[Psycopg 官方文档](https://www.psycopg.org/docs/)
+[GeeksforGeeks 介绍](https://www.geeksforgeeks.org/python/introduction-to-psycopg2-module-in-python/)
 [PyPI 软件包页面](https://pypi.org/project/psycopg2/)

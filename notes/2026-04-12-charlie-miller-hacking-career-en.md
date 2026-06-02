@@ -11,7 +11,7 @@ type: note
 
 Question: Comprehensive introduction to Charlie Miller, the white-hat hacker
 
-Answer: 
+Answer:
 
 Charlie Miller, whose full name is Charles Alfred Miller, is a prominent American computer security researcher and ethical (white-hat) hacker known for his groundbreaking work in identifying and responsibly disclosing vulnerabilities in software, hardware, and connected systems. Often described as "one of the most technically proficient hackers on Earth" by Foreign Policy magazine, he has built a reputation for high-impact demonstrations that have forced major companies like Apple, Google, and Fiat Chrysler to improve their security. Unlike black-hat hackers who exploit flaws for malicious purposes, Miller uses his skills to expose weaknesses so they can be fixed, ultimately making technology safer for everyone.
 
@@ -47,9 +47,9 @@ Miller lives in Wildwood, Missouri, near his hometown. He maintains a relatively
 
 As a white-hat hacker, Charlie Miller exemplifies how deep technical expertise combined with ethical responsibility can drive positive change in cybersecurity. His work has not only exposed critical flaws but also influenced how companies approach secure design, especially in high-stakes areas like connected cars and mobile devices. In an era of increasing digital interconnectedness, researchers like Miller play a vital role in staying ahead of threats and building more resilient systems.
 
-References:  
-- https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)  
-- https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/  
-- https://blackhat.com/us-18/speakers/Charlie-Miller.html  
-- https://www.kepplerspeakers.com/speakers/dr-charlie-miller  
+References:
+- https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)
+- https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/
+- https://blackhat.com/us-18/speakers/Charlie-Miller.html
+- https://www.kepplerspeakers.com/speakers/dr-charlie-miller
 - https://www.forbes.com/sites/andygreenberg/2012/09/14/twitter-snags-elite-apple-hacker-charlie-miller-to-beef-up-its-security-team/

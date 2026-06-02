@@ -12,7 +12,7 @@ type: note
 
 Question: In the Evergrande case, why couldn't the audit company speak out early? Which company audited them?
 
-Answer: 
+Answer:
 
 The China Evergrande Group, a major real estate developer, faced a massive financial crisis starting around 2021, culminating in its default on debts exceeding $300 billion. This led to widespread scrutiny of its financial reporting and auditing practices. Below is a detailed explanation addressing the two parts of the query.
 
@@ -34,7 +34,7 @@ Auditors like PwC are responsible for providing an independent opinion on a comp
 
 In summary, PwC's failure to warn early stemmed from a combination of undetected (or overlooked) fraud, insufficient audit rigor, and environmental constraints. This case has damaged PwC's reputation in China, leading to partner exits and operational changes within the firm.
 
-References:  
+References:
 
 - [https://www.internationalaccountingbulletin.com/news/pwc-faces-partner-exits-evergrande-audit/](https://www.internationalaccountingbulletin.com/news/pwc-faces-partner-exits-evergrande-audit/)
 - [https://www.bbc.com/news/articles/cje2ejnwwx9o](https://www.bbc.com/news/articles/cje2ejnwwx9o)

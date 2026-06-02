@@ -12,7 +12,7 @@ type: note
 
 Question: What are the types of soft shoe insoles? Are thicker and softer ones better, unlike slim ones? Are they good for winter in Guangzhou, or is a normal one fine since it's not very cold?
 
-Answer: 
+Answer:
 
 There are several **types of soft shoe insoles** (also called shoe pads or inserts) available, especially those designed for comfort and cushioning:
 
@@ -40,7 +40,7 @@ However, a **normal/standard insole** (medium thickness, soft foam or basic cush
 
 If you want the plush feel you described ("more thick and soft, not like those slim one"), go for thicker soft ones — they work well year-round in Guangzhou, including summer (if breathable) and definitely help in the cooler season.
 
-References:  
+References:
 
 - [Guangzhou Climate, Weather By Month, Average Temperature](https://weatherspark.com/y/126769/Average-Weather-in-Guangzhou-China-Year-Round)
 - [Guangzhou climate: seasons, when to go, monthly averages](https://www.climatestotravel.com/climate/china/guangzhou)

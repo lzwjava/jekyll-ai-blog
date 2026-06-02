@@ -51,9 +51,9 @@ Replace `<your_command_here>` with the actual command you want to run.
 
 ```
 
-This way, Claude’s guidance is explicitly documented, and you can safely run commands that might otherwise hang indefinitely.  
+This way, Claude’s guidance is explicitly documented, and you can safely run commands that might otherwise hang indefinitely.
 
-If you want, I can also :contentReference[oaicite:0]{index=0} so you don’t have to manually edit each one.  
+If you want, I can also :contentReference[oaicite:0]{index=0} so you don’t have to manually edit each one.
 
 Do you want me to do that?
 ```

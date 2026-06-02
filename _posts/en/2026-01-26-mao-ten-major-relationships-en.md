@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to 《论十大关系》 in English.
 
-Answer: 
+Answer:
 
 **On the Ten Major Relationships** (Chinese: 《论十大关系》, pinyin: Lùn Shí Dà Guānxi) is one of the most important early theoretical works by **Mao Zedong** after the founding of the People's Republic of China.
 
@@ -26,15 +26,15 @@ In the speech, Mao systematically discussed **ten major contradictions/relations
 
 The **ten major relationships** are:
 
-1. The relationship between **heavy industry** on the one hand and **light industry and agriculture** on the other  
-2. The relationship between **industry in the coastal regions** and **industry in the interior**  
-3. The relationship between **economic construction** and **construction of national defense**  
-4. The relationship between the **state**, the **units of production**, and the **individual producers**  
-5. The relationship between **the central and local authorities**  
-6. The relationship between **the Party and the non-Party personages** (united front work)  
-7. The relationship between **revolution and counter-revolution**  
-8. The relationship between **right and wrong** (handling contradictions among the people)  
-9. The relationship between **China and other countries** (mainly learning from foreign countries)  
+1. The relationship between **heavy industry** on the one hand and **light industry and agriculture** on the other
+2. The relationship between **industry in the coastal regions** and **industry in the interior**
+3. The relationship between **economic construction** and **construction of national defense**
+4. The relationship between the **state**, the **units of production**, and the **individual producers**
+5. The relationship between **the central and local authorities**
+6. The relationship between **the Party and the non-Party personages** (united front work)
+7. The relationship between **revolution and counter-revolution**
+8. The relationship between **right and wrong** (handling contradictions among the people)
+9. The relationship between **China and other countries** (mainly learning from foreign countries)
 10. The relationship between **the Han nationality** and **the minority nationalities**
 
 ### Key Ideas and Influence
@@ -45,7 +45,7 @@ The **ten major relationships** are:
 
 Today, the work is still studied in China as part of **Mao Zedong Thought** and as an important document showing early efforts to combine Marxist principles with China's concrete reality.
 
-References:  
+References:
 
 - [Ten Major Relationships - Wikipedia](https://en.wikipedia.org/wiki/Ten_Major_Relationships)
 - [ON THE TEN MAJOR RELATIONSHIPS - Marxists.org](https://www.marxists.org/reference/archive/mao/selected-works/volume-5/mswv5_51.htm)

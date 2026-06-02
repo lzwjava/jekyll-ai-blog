@@ -80,7 +80,7 @@ KQL 查询是以分号 (`;`) 分隔的纯文本语句，采用数据流模型：
 
 如需实践练习，可在 Azure Data Explorer 中加载示例数据并进行实验。
 
-[参考文档]  
-[Kusto 查询语言 (KQL) 概述](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)  
-[编写并运行首个 KQL 查询](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuredataexplorer-cluster)  
+[参考文档]
+[Kusto 查询语言 (KQL) 概述](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
+[编写并运行首个 KQL 查询](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuredataexplorer-cluster)
 [常用 KQL 运算符](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuredataexplorer-cluster&tabs=beginner)

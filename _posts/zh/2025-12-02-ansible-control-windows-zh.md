@@ -18,32 +18,32 @@ Ansible的控制节点（你运行`ansible`或`ansible-playbook`的机器）**�
 
 ### Windows不被支持的主要原因
 
-1.  **os.set_blocking()仅限Unix**  
+1.  **os.set_blocking()仅限Unix**
     在多个地方（尤其是在Ansible的连接插件和进程处理中），Ansible会调用：
     ```python
     os.set_blocking(fd, False) # 使管道或套接字变为非阻塞
     ```
-    这个函数**在Windows上不存在**——它是Python 3.5+中仅在类Unix系统上添加的POSIX特定方法。在Windows上尝试调用它会引发`AttributeError`。  
+    这个函数**在Windows上不存在**——它是Python 3.5+中仅在类Unix系统上添加的POSIX特定方法。在Windows上尝试调用它会引发`AttributeError`。
     这在Ansible的`ansible-connection`进程和`persistent connection`逻辑中被大量使用。
 
-2.  **严重依赖fork()**  
+2.  **严重依赖fork()**
     Ansible历史上广泛使用`os.fork()`（尤其是在“策略”插件完全守护化之前）。Windows没有原生的`fork()`，只有有限的`subprocess`替代方案，这些方案要慢得多并且行为不同。
 
-3.  **POSIX路径、信号、伪终端（pty）和/dev/**  
+3.  **POSIX路径、信号、伪终端（pty）和/dev/**
     - 许多模块期望`/bin/sh`、`/usr/bin/python`等。
     - 代码使用`os.kill()`、`signal.SIGTERM`、`pty.fork()`等。
     - Windows直到最近才缺乏真正的`pty`实现（Windows 10+有“ConPTY” API，但Ansible不使用它）。
 
-4.  **Shebang和可执行文件假设**  
+4.  **Shebang和可执行文件假设**
     几乎所有的Ansible模块都使用`#!/usr/bin/python`或`#!/bin/bash`的shebang，而Windows无法原生解释这些。
 
-5.  **Windows Subsystem for Linux (WSL) 也不受官方支持**  
+5.  **Windows Subsystem for Linux (WSL) 也不受官方支持**
     尽管许多人成功地在WSL/WSL2中运行Ansible，但Red Hat/Ansible**并未官方支持或测试**它，原因在于进程处理、文件描述符行为和偶尔的死锁等方面的细微差异。
 
 ### 当前官方状态（截至2025年的Ansible 10.x / ansible-core 2.17+）
 
--   **控制节点**：仅限Linux、macOS和其他类Unix操作系统  
--   **受管节点**：Windows完全支持（通过WinRM/PowerShell远程连接）  
+-   **控制节点**：仅限Linux、macOS和其他类Unix操作系统
+-   **受管节点**：Windows完全支持（通过WinRM/PowerShell远程连接）
 -   **没有计划**让Windows成为一流的控制节点平台，因为需要重写的代码量巨大。
 
 ### 人们使用的变通方法
@@ -54,6 +54,6 @@ Ansible的控制节点（你运行`ansible`或`ansible-playbook`的机器）**�
 
 简而言之：导致Windows上立即出现导入/崩溃错误的直接技术障碍是`os.set_blocking()`，但真正的原因要深刻得多——Ansible从一开始就是基于POSIX环境构建的。
 
-*   [Ansible 文档 – 平台支持](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements)  
-*   [GitHub Issue 讨论 os.set_blocking 在 Windows 上的问题](https://github.com/ansible/ansible/issues/29676)  
+*   [Ansible 文档 – 平台支持](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements)
+*   [GitHub Issue 讨论 os.set_blocking 在 Windows 上的问题](https://github.com/ansible/ansible/issues/29676)
 *   [Ansible 连接框架 – set_blocking 用法](https://github.com/ansible/ansible/blob/devel/lib/ansible/executor/task_executor.py)

@@ -61,6 +61,6 @@ For 5-7 day trips, stick to domestic spots—safe, affordable, and packed with k
 
 Start with one of these based on your kids' ages/interests—Chengdu for animal lovers, Hainan for downtime. If international appeals (e.g., Singapore Zoo for a 7-day splurge), use 3-4 leave days on a 3-day holiday, but factor visas/flights. Track next year's holidays via official sites for planning.
 
-[China Public Holidays 2025](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html)  
-[Family Travel Guide to China](https://www.audleytravel.com/us/china/country-guides/family-china)  
+[China Public Holidays 2025](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html)
+[Family Travel Guide to China](https://www.audleytravel.com/us/china/country-guides/family-china)
 [Best Asia Family Spots](https://travelynnfamily.com/best-holiday-destinations-in-asia-for-family-travel/)

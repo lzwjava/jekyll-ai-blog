@@ -11,12 +11,12 @@ type: note
 
 在 time-division multiplexing 中，哪种类型以按照 **fixed order** 为各种信号分配 time slots 为特征？
 
-Answer: 
+Answer:
 
 那种按照 **fixed order** 为各种信号分配 time slots 的 time-division multiplexing 类型称为 **Synchronous Time-Division Multiplexing (STDM)**。
 
 ### 解释：
-- **Synchronous TDM**： 
+- **Synchronous TDM**：
   - Time slots 以 round-robin 方式预先分配给每个 input channel，无论该 channel 是否有数据要发送。
   - 传输顺序固定且可预测。
   - 如果 channel 没有数据，其 time slot 将保持为空，可能导致低效。
@@ -29,6 +29,6 @@ Answer:
 
 由于问题指定了“按照 fixed order 分配 time slots”，正确答案是 **Synchronous Time-Division Multiplexing**。
 
-References:  
+References:
 
 - [Time-division multiplexing - Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)

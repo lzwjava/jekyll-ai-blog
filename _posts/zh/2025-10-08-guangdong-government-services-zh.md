@@ -37,7 +37,7 @@ type: note
 
 多数服务支持电子签名在线申请，减少线下跑动次数。广州特色服务整合包括对接中山政务服务中心等本地大厅的跨域通办。如需查询回执或状态（如签注进度），可在自助终端扫描二维码，通过微信/支付宝登录后查看数字化结果。
 
-[广东政务服务网](https://www.gdzwfw.gov.cn/)  
-[广州市政府门户网站-政务服务](https://www.gz.gov.cn/zwfw/)  
-[港澳通行证办理指南](https://crj.gdga.gd.gov.cn/zwwbszy/ndlwgaot/wlgaotxzqz/202108/t20210816_1518.html)  
+[广东政务服务网](https://www.gdzwfw.gov.cn/)
+[广州市政府门户网站-政务服务](https://www.gz.gov.cn/zwfw/)
+[港澳通行证办理指南](https://crj.gdga.gd.gov.cn/zwwbszy/ndlwgaot/wlgaotxzqz/202108/t20210816_1518.html)
 [2025年广州港澳通行证办理流程](http://gz.bendibao.com/life/202313/332166.shtml)

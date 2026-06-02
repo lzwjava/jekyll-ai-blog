@@ -12,7 +12,7 @@ type: note
 
 Question: Why do people hate learning, taking exams, etc.?
 
-Answer: 
+Answer:
 
 Many people, especially students, dislike learning and exams not because they inherently hate acquiring knowledge, but due to how formal education systems present it. Humans are naturally curious and enjoy learning when it's self-directed, relevant, and enjoyable—such as through hobbies, games, or personal interests. However, structured schooling often turns it into a chore.
 
@@ -31,11 +31,11 @@ Many people, especially students, dislike learning and exams not because they in
 
 In summary, the dislike often targets the *system*—compulsory, pressurized, unengaging education—rather than learning itself. Reforms like more autonomy, real-world applications, gamification, and reduced emphasis on high-stakes testing could make it more enjoyable.
 
-References:  
+References:
 
-- [Why Do Most People Hate Learning — and How Can We Change That?](https://vocal.media/education/why-do-most-people-hate-learning-and-how-can-we-change-that)  
-- [How School Made Us Hate Learning](https://medium.com/@andrewmayor/how-school-made-us-hate-learning-68a1e91a8b2)  
-- [Why Don't Students Like School? Cognitive Science Explains](https://www.uopeople.edu/blog/cognitive-science-explains-why-students-dont-like-school/)  
-- [Test Anxiety - Wikipedia](https://en.wikipedia.org/wiki/Test_anxiety)  
-- [Why Students Dread Studying](https://www.tutordoctor.com/blog/2023/april/why-students-dread-studying-and-how-parents-can/)  
+- [Why Do Most People Hate Learning — and How Can We Change That?](https://vocal.media/education/why-do-most-people-hate-learning-and-how-can-we-change-that)
+- [How School Made Us Hate Learning](https://medium.com/@andrewmayor/how-school-made-us-hate-learning-68a1e91a8b2)
+- [Why Don't Students Like School? Cognitive Science Explains](https://www.uopeople.edu/blog/cognitive-science-explains-why-students-dont-like-school/)
+- [Test Anxiety - Wikipedia](https://en.wikipedia.org/wiki/Test_anxiety)
+- [Why Students Dread Studying](https://www.tutordoctor.com/blog/2023/april/why-students-dread-studying-and-how-parents-can/)
 - [Why do students hate exams? - Quora](https://www.quora.com/Why-do-students-hate-exams)

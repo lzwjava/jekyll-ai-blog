@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about living in Guangzhou?
 
-Answer: 
+Answer:
 
 Living in Guangzhou, a bustling southern Chinese metropolis known for its Cantonese culture and dim sum, elicits strong reactions from residents and expats. While many praise its food and green spaces, unpopular opinions often highlight its chaotic underbelly, relentless humidity, and social frictions. Below, I've compiled a list of recurring unpopular takes drawn from expat forums, social media, and personal accounts. These are subjective views that challenge the city's "underrated gem" narrative.
 
@@ -28,13 +28,13 @@ Living in Guangzhou, a bustling southern Chinese metropolis known for its Canton
 
 These views aren't universal—some love the food and history—but they represent the contrarian chorus from those who've stuck it out. If you're considering a move, short-term visits help gauge the vibe.
 
-References:  
-- [Pros and cons of Shanghai, Hangzhou, Guangzhou?](https://www.reddit.com/r/chinalife/comments/17pkpjd/pros_and_cons_of_shanghai_hangzhou_guangzhou/)  
-- [I wish I came as a tourist instead of living here](https://www.reddit.com/r/chinalife/comments/1fivaww/i_wish_i_came_as_a_tourist_instead_of_living_here/)  
-- [Good and Bad of Guangzhou](https://www.reddit.com/r/guangzhou/comments/1c4rsu/good_and_bad_of_guangzhou/)  
-- [How is life in Guangzhou?](https://www.reddit.com/r/guangzhou/comments/k9si11/how_is_life_in_guangzhou/)  
-- [Guangzhou, China expat life?](https://www.reddit.com/r/expats/comments/bmu4na/guangzhou_china_expat_life/)  
-- [How is Living in Guangzhou, China?](https://www.reddit.com/r/howislivingthere/comments/1jwsths/how_is_living_in_guangzhou_china/)  
-- [Guangzhou is a fancier version of Calcutta](https://x.com/mandate2049/status/1995385407823847835)  
-- [Guangzhou Observations](https://x.com/alreadydawn/status/1916880279479738407)  
+References:
+- [Pros and cons of Shanghai, Hangzhou, Guangzhou?](https://www.reddit.com/r/chinalife/comments/17pkpjd/pros_and_cons_of_shanghai_hangzhou_guangzhou/)
+- [I wish I came as a tourist instead of living here](https://www.reddit.com/r/chinalife/comments/1fivaww/i_wish_i_came_as_a_tourist_instead_of_living_here/)
+- [Good and Bad of Guangzhou](https://www.reddit.com/r/guangzhou/comments/1c4rsu/good_and_bad_of_guangzhou/)
+- [How is life in Guangzhou?](https://www.reddit.com/r/guangzhou/comments/k9si11/how_is_life_in_guangzhou/)
+- [Guangzhou, China expat life?](https://www.reddit.com/r/expats/comments/bmu4na/guangzhou_china_expat_life/)
+- [How is Living in Guangzhou, China?](https://www.reddit.com/r/howislivingthere/comments/1jwsths/how_is_living_in_guangzhou_china/)
+- [Guangzhou is a fancier version of Calcutta](https://x.com/mandate2049/status/1995385407823847835)
+- [Guangzhou Observations](https://x.com/alreadydawn/status/1916880279479738407)
 - [back in china after 5 years](https://x.com/henloitsjoyce/status/1991894542392680474)

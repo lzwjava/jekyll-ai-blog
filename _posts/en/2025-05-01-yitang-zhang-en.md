@@ -14,20 +14,20 @@ Yitang Zhang is a remarkable figure in modern mathematics, known for his groundb
 
 ### **His Story: A Journey of Perseverance**
 
-1. **Early Life and Education**  
+1. **Early Life and Education**
    - Born in 1955 in Shanghai, China, Zhang faced significant challenges during the Cultural Revolution, including being sent to rural labor camps. Despite this, he developed a deep love for mathematics.
    - He later studied at Peking University (B.S. in 1982) and pursued a Ph.D. at Purdue University in the U.S., focusing on algebraic geometry.
 
-2. **Struggles in Academia**  
+2. **Struggles in Academia**
    - After completing his Ph.D., Zhang struggled to secure a stable academic position due to personal and professional setbacks, including a lack of strong recommendation letters.
    - For years, he worked outside academia—cooking in a sandwich shop, working at a motel, and even doing accounting jobs—while continuing to think deeply about mathematics.
 
-3. **Breakthrough in Number Theory (2013)**  
+3. **Breakthrough in Number Theory (2013)**
    - In 2013, at age 58, Zhang published a landmark paper titled *"Bounded Gaps Between Primes"* in the *Annals of Mathematics*, one of the most prestigious journals in the field.
    - He proved a major result related to the **Twin Prime Conjecture**, showing that there are infinitely many pairs of prime numbers that differ by no more than a finite number (specifically, less than 70 million). This was the first time such a bound had been established.
    - His work shocked the mathematical community and earned him immediate recognition, including the **MacArthur Fellowship ("Genius Grant")**, the **Cole Prize**, and numerous invitations to speak at top universities.
 
-4. **Later Career**  
+4. **Later Career**
    - After his breakthrough, Zhang joined the faculty at the University of New Hampshire as a full professor.
    - He continues to work on number theory and other areas of mathematics, although his 2013 result remains his most celebrated achievement.
 

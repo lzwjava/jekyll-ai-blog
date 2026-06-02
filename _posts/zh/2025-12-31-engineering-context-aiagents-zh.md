@@ -12,11 +12,11 @@ type: note
 
 Question: What is the content of the blog post at https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?
 
-Answer: 
+Answer:
 
 # Context Engineering for AI Agents: Lessons from Building Manus
 
-**Author:** Yichao "Peak" Ji  
+**Author:** Yichao "Peak" Ji
 **Date:** July 18, 2025
 
 这篇博客分享了关于 "context engineering"（上下文工程）的实践经验——这是一门精心塑造 Large Language Models (LLMs) 输入上下文的艺术。这些经验源于作者构建 **Manus** 的过程，Manus 是一个能够执行复杂计算机任务的通用自主 AI Agent。
@@ -60,6 +60,6 @@ Best practices:
 
 Context engineering 是 AI Agent 领域一门新兴但至关重要的学科。它决定了速度、稳健性、恢复能力和可扩展性。Manus 的经验强调了深思熟虑的上下文塑造，而非仅仅依赖更大的模型。Agent 的未来将通过“一次一个上下文”地构建出来。
 
-References:  
+References:
 
 - [Original blog post](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)

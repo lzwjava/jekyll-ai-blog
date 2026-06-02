@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about GPT-5.2?
 
-Answer: 
+Answer:
 
 GPT-5.2, released by OpenAI on December 11-12, 2025, as an incremental update in the GPT-5 series, has garnered mixed reactions. While it excels in certain benchmarks (e.g., long-context reasoning, coding, and professional tasks), several unpopular or critical opinions have emerged from users, developers, and observers shortly after launch:
 
@@ -28,10 +28,10 @@ GPT-5.2, released by OpenAI on December 11-12, 2025, as an incremental update in
 
 These views contrast with OpenAI's positioning of GPT-5.2 as ideal for economic-value tasks (e.g., spreadsheets, code, multi-step projects), but early user feedback highlights frustration over trade-offs in usability and freedom.
 
-References:  
+References:
 
-- https://openai.com/index/introducing-gpt-5-2/  
-- https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/  
-- https://www.theverge.com/ai-artificial-intelligence/842529/openai-gpt-5-2-new-model-chatgpt  
-- https://venturebeat.com/ai/gpt-5-2-first-impressions-a-powerful-update-especially-for-business-tasks  
+- https://openai.com/index/introducing-gpt-5-2/
+- https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/
+- https://www.theverge.com/ai-artificial-intelligence/842529/openai-gpt-5-2-new-model-chatgpt
+- https://venturebeat.com/ai/gpt-5-2-first-impressions-a-powerful-update-especially-for-business-tasks
 - https://mashable.com/article/openai-gpt-5-2-vs-google-gemini-3-how-they-compare

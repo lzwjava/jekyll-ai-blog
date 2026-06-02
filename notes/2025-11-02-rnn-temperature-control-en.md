@@ -30,8 +30,8 @@ This sampling happens iteratively: feed the chosen character back as input, pred
 #### Low Temperature: Repetitive but Safe
 - **Effect**: \\(T < 1\\) (e.g., 0.5 or near 0) *sharpens* the distribution. High-confidence predictions get even higher probabilities, while low ones get squashed toward zero.
 - **Output**: The text stays "safe" and coherent but quickly becomes repetitive. The model sticks to the most probable paths, like getting trapped in a loop.
-- **Example from Karpathy's post** (generating Paul Graham-style essays): At very low temperature, it spits out something like:  
-  > “is that they were all the same thing that was a startup is that they were all the same thing that was a startup is that they were all the same thing that was a startup is that they were all the same”  
+- **Example from Karpathy's post** (generating Paul Graham-style essays): At very low temperature, it spits out something like:
+  > “is that they were all the same thing that was a startup is that they were all the same thing that was a startup is that they were all the same thing that was a startup is that they were all the same”
 
   It's confident and grammatically sound but lacks creativity—think infinite echoes of the training data.
 

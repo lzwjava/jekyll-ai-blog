@@ -42,7 +42,7 @@ Recent updates (e.g., from OpenAI DevDay 2025) focus more on model APIs and agen
 
 This stack prioritizes a "data flywheel" for faster iteration but trades portability for Azure's reliability at hyperscale. If you're building something similar, starting with AKS + Kafka could mimic it, but expect tweaks outside Azure.
 
-[How OpenAI Uses Kubernetes And Apache Kafka for GenAI](https://blog.bytebytego.com/p/how-openai-uses-kubernetes-and-apache)  
-[Securing Research Infrastructure for Advanced AI](https://openai.com/index/securing-research-infrastructure-for-advanced-ai/)  
-[OpenAI Kubernetes Case Study](https://kubernetes.io/case-studies/openai/)  
+[How OpenAI Uses Kubernetes And Apache Kafka for GenAI](https://blog.bytebytego.com/p/how-openai-uses-kubernetes-and-apache)
+[Securing Research Infrastructure for Advanced AI](https://openai.com/index/securing-research-infrastructure-for-advanced-ai/)
+[OpenAI Kubernetes Case Study](https://kubernetes.io/case-studies/openai/)
 [How OpenAI Scaled Kubernetes with Azure CNI](https://medium.com/@PlanB./how-openai-scaled-kubernetes-with-azure-cni-to-handle-7-500-nodes-591162d0efa5)

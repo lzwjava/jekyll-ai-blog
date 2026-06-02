@@ -21,7 +21,7 @@ The question asks: What writing technique is used in describing the life-and-dea
 - **A. 以形写神 (Conveying spirit through form)** - Your answer
   - This refers to depicting inner character/essence through external appearance
   - While the author does personify the ants, this is not the PRIMARY structural technique for this battle scene
-  
+
 - **B. 以点带面 (Using a focal point to represent the whole)** - ✓ **Correct answer**
   - **点 (point)**: The detailed battle between three specific warrior ants
   - **面 (surface/whole)**: The entire chaotic battle scene involving many ants
@@ -30,7 +30,7 @@ The question asks: What writing technique is used in describing the life-and-dea
 
 - **C. 今昔对比 (Contrast between past and present)**
   - Not applicable here
-  
+
 - **D. 侧面烘托 (Indirect/side description)**
   - This would mean describing the subject indirectly through other elements
   - Not the main technique used here
@@ -47,7 +47,7 @@ According to the explanation:
 
 2. **The Solution**: Zoom in on THREE specific ants fighting fiercely
 
-3. **The Effect**: 
+3. **The Effect**:
    - Readers get vivid, concrete details
    - Through this "sample," readers can imagine the entire battlefield
    - "透过典型细部而通览全局" (seeing the whole picture through typical details)

@@ -68,7 +68,7 @@ Ubuntu 上的 Steam 在其 UI 中没有内置的代理设置。它通过环境�
 - 如果在机构代理后面，请先在不受限制的网络上登录/更新 Steam，然后切换（下载可能仍需要代理）。
 - 注意：使用代理（尤其是用于区域更改）可能违反 Steam 的服务条款。
 
-参考：  
+参考：
 
 - [https://askubuntu.com/questions/227064/steam-linux-behind-a-proxy-server](https://askubuntu.com/questions/227064/steam-linux-behind-a-proxy-server)
 - [https://blog.navinda.xyz/using-steam-with-proxy/](https://blog.navinda.xyz/using-steam-with-proxy/)

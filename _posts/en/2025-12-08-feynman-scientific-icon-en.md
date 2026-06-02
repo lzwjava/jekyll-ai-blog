@@ -12,7 +12,7 @@ type: note
 
 Question: Please provide a comprehensive introduction to Richard Feynman.
 
-Answer: 
+Answer:
 
 # Richard Feynman: A Comprehensive Introduction
 

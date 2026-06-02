@@ -12,7 +12,7 @@ type: note
 
 Question: What does "trunking" mean?
 
-Answer: 
+Answer:
 
 "Trunking" is a term with multiple meanings depending on the context. Here are the primary definitions:
 
@@ -29,7 +29,7 @@ Answer:
 
 The most common technical usages today are in networking (VLAN trunking) and telecommunications/radio systems.
 
-References:  
+References:
 
 - [Trunking - Wikipedia](https://en.wikipedia.org/wiki/Trunking)
 - [What is Trunking? – Definition from TechTarget](https://www.techtarget.com/searchnetworking/definition/trunk)

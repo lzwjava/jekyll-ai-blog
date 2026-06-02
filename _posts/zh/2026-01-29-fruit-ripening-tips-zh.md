@@ -12,7 +12,7 @@ type: note
 
 问题：为什么收到绿色的香蕉和芒果在几天后会从绿色变成黄色，以及如何加速这一过程？
 
-答案： 
+答案：
 
 **香蕉** 和 **芒果** 都是 **climacteric fruits**，这意味着它们在收获后会继续成熟。从绿色到黄色的颜色变化是由一种称为 **ethylene gas** 的天然植物激素引起的。
 
@@ -49,7 +49,7 @@ type: note
 
 避免：绿色的放入冰箱——低温会减缓或停止成熟，并可能导致以后无法完全变黄/变甜。
 
-参考文献：  
+参考文献：
 
 - [Why Do Bananas Change To Yellow When Ripening?](https://www.scienceabc.com/nature/bananas-change-colour-upon-ripening.html)
 - [How to Ripen Fruit Fast: Tips to Soften Mangoes & More](https://www.clubhouse.ca/en-ca/articles/how-to-ripen-produce-quickly)

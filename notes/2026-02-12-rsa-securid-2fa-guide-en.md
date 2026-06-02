@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to RSA SecurID token.
 
-Answer: 
+Answer:
 
 RSA **SecurID** (often called RSA SecurID or just SecurID) is one of the most widely recognized **two-factor authentication** (2FA) systems, originally developed by RSA Security (later acquired by EMC, then Dell, and now operating under RSA as part of the broader identity portfolio).
 
@@ -24,7 +24,7 @@ The system generates **time-based one-time codes** (tokencodes) that change peri
 This is a classic example of a **Time-based One-Time Password** (TOTP)-like mechanism, but RSA uses its own proprietary algorithm (historically based on a symmetric key operation, now often AES-based in newer versions).
 
 ### Main Components
-1. **The Token / Authenticator**  
+1. **The Token / Authenticator**
    - **Hardware tokens** — Small key-fob style devices (e.g., SID700, SID800 series) with:
      - LCD display showing a 6-digit (sometimes 8-digit) code
      - Countdown dots/bars showing time left until next code
@@ -32,19 +32,19 @@ This is a classic example of a **Time-based One-Time Password** (TOTP)-like mech
      - No buttons needed — code is always visible
      - Battery life typically 3–5 years
 
-   - **Software tokens** (soft tokens)  
+   - **Software tokens** (soft tokens)
      - Mobile app (iOS / Android)
      - Desktop application (Windows / macOS)
      - Requires user to enter PIN inside the app in some implementations, producing an 8-digit passcode
 
-   - **On-demand / delivery tokens**  
+   - **On-demand / delivery tokens**
      - Tokencode sent via SMS, email, or voice call (no physical/software token provisioning required)
 
-2. **RSA Authentication Manager** (formerly ACE/Server)  
-   - Server-side software (on-premises) or cloud service  
-   - Stores a database of every token's unique **serial number** and secret **seed** (128-bit symmetric key)  
-   - Contains the same time source and algorithm as the token  
-   - Generates the expected code for each token at any moment  
+2. **RSA Authentication Manager** (formerly ACE/Server)
+   - Server-side software (on-premises) or cloud service
+   - Stores a database of every token's unique **serial number** and secret **seed** (128-bit symmetric key)
+   - Contains the same time source and algorithm as the token
+   - Generates the expected code for each token at any moment
    - Handles time drift compensation (tokens can drift slightly due to cheap internal clocks)
 
 3. **Authentication Flow** (classic example)
@@ -77,7 +77,7 @@ This is a classic example of a **Time-based One-Time Password** (TOTP)-like mech
 
 As of 2026, RSA SecurID remains widely deployed in enterprises (especially legacy/on-premises environments), though many organizations have supplemented or replaced pure token usage with modern MFA methods.
 
-References:  
+References:
 
 - [RSA SecurID - Wikipedia](https://en.wikipedia.org/wiki/RSA_SecurID)
 - [RSA official SecurID page](https://www.rsa.com/products/securid)

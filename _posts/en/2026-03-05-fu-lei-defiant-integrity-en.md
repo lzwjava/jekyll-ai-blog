@@ -11,7 +11,7 @@ type: note
 
 Question: Provide the full English translation of the essay "纪念傅雷" (In Memory of Fu Lei), which is a university-level Chinese text.
 
-Answer: 
+Answer:
 
 The essay titled **纪念傅雷** ("In Memory of Fu Lei") is a well-known commemorative piece written by the scholar and writer **施蛰存 (Shi Zhecun)** in 1986, marking the 20th anniversary of Fu Lei's death. It is frequently studied in Chinese university literature courses for its reflective style, biographical insight, and discussion of character, translation principles, and Confucian values.
 
@@ -45,8 +45,8 @@ Now, on my bookshelf are the 15 volumes of Fu Lei's Collected Translations and t
 
 This translation aims to preserve the original's reflective, personal tone while making it natural in English. The essay is concise yet profound, often analyzed in university settings for its portrayal of intellectual integrity during turbulent times.
 
-References:  
+References:
 
-- https://www.aisixiang.com/data/83698.html  
-- https://baike.baidu.com/item/%E7%BA%AA%E5%BF%B5%E5%82%85%E9%9B%B7/6154920  
+- https://www.aisixiang.com/data/83698.html
+- https://baike.baidu.com/item/%E7%BA%AA%E5%BF%B5%E5%82%85%E9%9B%B7/6154920
 - http://read.99csw.com/article/3484.html

@@ -19,6 +19,6 @@ type: note
 - **商业/贸易汇款**：企业向供应商支付发票款项或清偿债务
 - **经济影响**：汇款是许多发展中国家的重要收入来源，其规模常超过外国援助
 
-[韦氏词典：汇款定义](https://www.merriam-webster.com/dictionary/remittance)  
-[维基百科：汇款条目](https://en.wikipedia.org/wiki/Remittance)  
+[韦氏词典：汇款定义](https://www.merriam-webster.com/dictionary/remittance)
+[维基百科：汇款条目](https://en.wikipedia.org/wiki/Remittance)
 [Investopedia金融百科：汇款解析](https://www.investopedia.com/terms/r/remittance.asp)

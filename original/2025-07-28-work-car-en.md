@@ -27,21 +27,21 @@ I have realized that in life, there are many products whose full potential or fu
 
 When selecting the title of this essay, I considered whether I should include "EV" in it. Yes, I should. In a gas-powered car, it is not easy to work inside due to the loud engine noise and fuel costs. However, an EV is perfect for working in the car.
 
-Another thing to think about is where should I go. What's beautiful scene I want to view from my car? What's good places will I want to go? Human are still poor at this. Urbanizaion just happen in recent decades in China. People will go to tourism spot or shopping mall in weekened. Basically, in Earch, there are mountains and rivers. There is a chinese idom syaing like this, travel bewteen mountain and play with water. 
+Another thing to think about is where should I go. What's beautiful scene I want to view from my car? What's good places will I want to go? Human are still poor at this. Urbanizaion just happen in recent decades in China. People will go to tourism spot or shopping mall in weekened. Basically, in Earch, there are mountains and rivers. There is a chinese idom syaing like this, travel bewteen mountain and play with water.
 
-I have a DJI drone DJI mini 2. One way to find spot is through DJI community. There are recommmend DJI shooting places there. Another ways is to recall my memory, in Guangzhou, go to Changlong, some carniva, Beijing Street, Upside and down nine road, and Guangzhou tower, Baiyun mountain. 
+I have a DJI drone DJI mini 2. One way to find spot is through DJI community. There are recommmend DJI shooting places there. Another ways is to recall my memory, in Guangzhou, go to Changlong, some carniva, Beijing Street, Upside and down nine road, and Guangzhou tower, Baiyun mountain.
 
-I think travel is like anythine else, you need to do a lot and then you will more places or tourisum spot to visit. It is software or programming. YOu know more then you know more that you don't know. 
+I think travel is like anythine else, you need to do a lot and then you will more places or tourisum spot to visit. It is software or programming. YOu know more then you know more that you don't know.
 
 The liuxi river in Guangzhou is good. I want to approach them in different places. It is just like ocean. You can see them in differnt beaches with different feelings. I like ocean and beach a lot. It is probably when I grown up, I didn't see that much. I still remember the first time I see the beach, the dameisha beach in Shenzhen.
 
 I have two foldable chair in my car. I can use them but that for outside, it doesn't have air conditioner. So probably , in the season when I don't need air conditioner, I probably go out more like the winter or early Spring or late fall.
 
-I am sure I live in the future with this way. I live in Guangzhou for around 15 years as of 2025. But there are still a lot of places I didn't go, especailly for those office buildings or department community. Besides my home or my employer's office, why will I go to another office building. 
+I am sure I live in the future with this way. I live in Guangzhou for around 15 years as of 2025. But there are still a lot of places I didn't go, especailly for those office buildings or department community. Besides my home or my employer's office, why will I go to another office building.
 
-It can be understood that If I am startup founder and go to other office building to meet people to discuss about business things. 
+It can be understood that If I am startup founder and go to other office building to meet people to discuss about business things.
 
-I seldom do it. I just sometimes go to department buildings where my relatives live in there. 
+I seldom do it. I just sometimes go to department buildings where my relatives live in there.
 
 {: .centered }
 ![](assets/images/car/car.jpg){: .responsive }
@@ -61,6 +61,6 @@ Now I use a USB-powered lamp without a battery, so I don't need to turn it off m
 
 In the photo, you may observe the smart switch in the socket. I put it there without figuring out how to use it. I saw this at my home and thought that I could use it in the car one day. At home, I use the smart switch to control the water dispenser, which can be really disturbing when it makes noise while I am sleeping.
 
-{: .centered }  
-![](assets/images/car-lamp/c1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/car-lamp/c1.jpg){: .responsive }
 *Source: Self-captured*{: .caption }

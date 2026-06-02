@@ -218,7 +218,7 @@ Rather than neurochemical measurement, perhaps ask:
 Your parenthetical note "(中国的马拉松)" is a perfect case study. Chinese marathon participation exploded - but how much represents:
 
 - Genuine love of running vs. health anxiety
-- Intrinsic enjoyment vs. corporate team-building obligations  
+- Intrinsic enjoyment vs. corporate team-building obligations
 - Personal goals vs. social media performance
 - Individual preference vs. middle-class status signaling
 
@@ -244,7 +244,7 @@ Knowing that your tennis interest was socially constructed doesn't necessarily m
 
 ## Conclusion
 
-You're absolutely right that this is "太复杂" (too complex). The question of authentic happiness in activities can't be resolved with simple dopamine measurements or philosophical arguments. 
+You're absolutely right that this is "太复杂" (too complex). The question of authentic happiness in activities can't be resolved with simple dopamine measurements or philosophical arguments.
 
 What we can do:
 - Maintain some of Wang's healthy skepticism about whether we're doing things for ourselves

@@ -11,7 +11,7 @@ type: note
 
 Question: Where should I go and what should I see in Guangzhou during the Spring Festival week?
 
-Answer: 
+Answer:
 
 Guangzhou transforms into a vibrant "Flower City" during the Spring Festival (Chinese New Year), offering a unique blend of traditional Cantonese customs, spectacular light shows, and festive markets. Since the holiday usually falls in late January or early February, the weather is generally mild, making it perfect for outdoor exploration.
 

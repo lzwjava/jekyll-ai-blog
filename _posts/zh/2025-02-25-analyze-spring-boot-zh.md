@@ -29,10 +29,10 @@ from collections import defaultdict
 def find_java_files(root_dir):
     """
     递归查找给定目录及其子目录中的所有.java文件。
-    
+
     Args:
         root_dir (str): 开始搜索的根目录。
-    
+
     Yields:
         str: 每个.java文件的完整路径。
     """
@@ -44,11 +44,11 @@ def find_java_files(root_dir):
 def extract_paths(line, annotation_type):
     """
     从Spring注解（@GetMapping、@PostMapping或@RequestMapping）中提取路径值。
-    
+
     Args:
         line (str): 包含注解的行。
         annotation_type (str): 注解类型（'GetMapping'、'PostMapping'或'RequestMapping'）。
-    
+
     Returns:
         list: 从注解中提取的路径字符串列表。
     """
@@ -83,29 +83,29 @@ if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("Usage: python script.py <root_directory>")
         sys.exit(1)
-    
+
     root_dir = sys.argv[1]
     if not os.path.isdir(root_dir):
         print(f"[ERROR] The specified path is not a directory: {root_dir}")
         sys.exit(1)
-    
+
     print(f"[INFO] Starting analysis of directory: {root_dir}")
-    
+
     # 初始化字典以存储控制器映射
     controllers = defaultdict(lambda: {'GET': [], 'POST': []})
     total_files = 0
     error_files = 0
-    
+
     # 处理所有Java文件
     for java_file in find_java_files(root_dir):
         try:
             with open(java_file, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
-            
+
             # 检查文件是否为控制器
             if any('@Controller' in line or '@RestController' in line for line in lines):
                 controller_name = os.path.basename(java_file).replace('.java', '')
-                
+
                 # 查找类声明行以分离类级别和方法级别注解
                 class_line_index = None
                 for i, line in enumerate(lines):
@@ -114,7 +114,7 @@ if __name__ == '__main__':
                         break
                 if class_line_index is None:
                     continue
-                
+
                 # 提取类级别的@RequestMapping作为基础路径
                 base_paths = []
                 for line in lines[:class_line_index]:
@@ -123,7 +123,7 @@ if __name__ == '__main__':
                         break
                 if not base_paths:
                     base_paths = ['']
-                
+
                 # 提取方法级别的@GetMapping和@PostMapping
                 get_paths = []
                 post_paths = []
@@ -140,26 +140,26 @@ if __name__ == '__main__':
                             for path in paths:
                                 full_path = base + path
                                 post_paths.append(full_path)
-                
+
                 # 存储唯一路径
                 get_paths = sorted(list(set(get_paths)))
                 post_paths = sorted(list(set(post_paths)))
-                
+
                 if get_paths or post_paths:
                     controllers[controller_name]['GET'] = get_paths
                     controllers[controller_name]['POST'] = post_paths
-            
+
             total_files += 1
         except Exception as e:
             print(f"[ERROR] Could not read file {java_file}: {e}")
             error_files += 1
-    
+
     # 打印摘要
     print(f"[INFO] Total Java files attempted: {total_files + error_files}")
     print(f"[INFO] Successfully processed: {total_files}")
     print(f"[INFO] Files with errors: {error_files}")
     print(f"[INFO] Total controllers found: {len(controllers)}")
-    
+
     # 按指定格式打印结果
     for controller, mappings in sorted(controllers.items()):
         print(f"{controller}:")

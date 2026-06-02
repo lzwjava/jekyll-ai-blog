@@ -12,7 +12,7 @@ type: note
 
 Question: How to use CredHub in Cloud Foundry?
 
-Answer: 
+Answer:
 
 **CredHub** is the centralized secrets management component in many Cloud Foundry deployments (especially Tanzu Application Service / VMware Tanzu Platform, PAS, PCF). It stores and manages credentials such as passwords, certificates, keys, JSON blobs, and more securely.
 
@@ -131,7 +131,7 @@ Ask your platform operators:
 - What is the exact service offering name?
 - What UAA client credentials or mTLS setup is needed for direct CLI access?
 
-References:  
+References:
 
 - [CredHub Documentation – Cloud Foundry Docs](https://docs.cloudfoundry.org/credhub/index.html)
 - [Use CredHub Secrets Management – Broadcom Techdocs](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/credhub-secrets-management/services/credhub/using.html)

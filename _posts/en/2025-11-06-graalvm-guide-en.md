@@ -90,6 +90,6 @@ GraalVM's Native Image feature lets you build a standalone binary.
 
 For more details, see the official docs.
 
-[GraalVM Downloads](https://www.graalvm.org/downloads/)  
-[GraalVM User Guide](https://www.graalvm.org/latest/reference-manual/)  
+[GraalVM Downloads](https://www.graalvm.org/downloads/)
+[GraalVM User Guide](https://www.graalvm.org/latest/reference-manual/)
 [Native Image Tutorial](https://www.graalvm.org/latest/reference-manual/native-image/)

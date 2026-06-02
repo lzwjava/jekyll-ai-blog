@@ -62,15 +62,15 @@ type: post
 
 扩展阅读
 
-1. Hiring is Obsolete.  
-https://paulgraham.com/hiring.html 
+1. Hiring is Obsolete.
+https://paulgraham.com/hiring.html
 2. Paul Graham: 那些像Airbnb创始人一样的人
-3. Researchers and Founders. 
+3. Researchers and Founders.
 https://blog.samaltman.com/researchers-and-founders
-4. Billionaires Build. 
+4. Billionaires Build.
 http://www.paulgraham.com/ace.html
-5. 对智商的怀疑 
+5. 对智商的怀疑
 https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence
-6. 学习的智慧 
+6. 学习的智慧
 https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy
 7. 微信互联网平民创业

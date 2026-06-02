@@ -30,18 +30,18 @@ struct udp_header {
 void decode_udp_packet(unsigned char* buffer, int size) {
     // Assuming IP header is 20 bytes (without options)
     struct udp_header* udp = (struct udp_header*)(buffer + 20);
-    
+
     printf("\nUDP Header\n");
     printf("Source Port: %u\n", ntohs(udp->source_port));
     printf("Destination Port: %u\n", ntohs(udp->dest_port));
     printf("Length: %u\n", ntohs(udp->length));
     printf("Checksum: 0x%04x\n", ntohs(udp->checksum));
-    
+
     // Calculate data length and pointer
     int udp_header_size = 8;  // UDP header is 8 bytes
     int data_length = ntohs(udp->length) - udp_header_size;
     unsigned char* data = buffer + 20 + udp_header_size;
-    
+
     printf("Data: ");
     for(int i = 0; i < data_length && i < 20; i++) {  // Print first 20 bytes max
         printf("%02x ", data[i]);
@@ -53,42 +53,42 @@ int main() {
     int sockfd;
     struct sockaddr_in server_addr, client_addr;
     unsigned char buffer[65535];  // Max UDP packet size
-    
+
     // Create UDP socket
     sockfd = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
     if (sockfd < 0) {
         perror("Socket creation failed");
         return 1;
     }
-    
+
     // Initialize server address
     memset(&server_addr, 0, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = INADDR_ANY;
     server_addr.sin_port = htons(12345);  // Example port
-    
+
     // Bind socket
     if (bind(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
         perror("Bind failed");
         close(sockfd);
         return 1;
     }
-    
+
     printf("Listening for UDP packets on port 12345...\n");
-    
+
     while (1) {
         socklen_t client_len = sizeof(client_addr);
         int received_bytes = recvfrom(sockfd, buffer, sizeof(buffer), 0,
                                     (struct sockaddr*)&client_addr, &client_len);
-                                    
+
         if (received_bytes < 0) {
             perror("Receive failed");
             continue;
         }
-        
+
         decode_udp_packet(buffer, received_bytes);
     }
-    
+
     close(sockfd);
     return 0;
 }

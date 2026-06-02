@@ -27,7 +27,7 @@ Answer:
 
 2. **打开 Terminal**（在 Applications → Utilities 中找到，或通过 Spotlight 搜索）。
 
-3. **确定正确的磁盘编号**  
+3. **确定正确的磁盘编号**
    运行以下命令：
    ```
    diskutil list
@@ -58,7 +58,7 @@ Answer:
    diskutil unmountDisk /dev/disk2
    ```
 
-5. **使用 `dd` 将 ISO 写入 USB 驱动器**  
+5. **使用 `dd` 将 ISO 写入 USB 驱动器**
    使用 `/dev/rdiskN`（raw device — 比 `/dev/diskN` 快得多）。
 
    基础安全命令（推荐）：
@@ -84,7 +84,7 @@ Answer:
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=8m conv=fsync
    ```
 
-6. **等待完成**  
+6. **等待完成**
    - 取决于 USB 速度，通常需要 3–15 分钟。
    - 完成后，你会看到类似以下的输出：
      ```

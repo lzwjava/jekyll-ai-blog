@@ -8,7 +8,7 @@ translated: false
 type: note
 ---
 
-**Definition**:  
+**Definition**:
 GANs are a class of machine learning frameworks where two neural networks, the **generator** (\\(G\\)) and the **discriminator** (\\(D\\)), compete adversarially. The generator creates synthetic data, while the discriminator evaluates whether the data is real (from the training set) or fake (from \\(G\\)). Through this competition, \\(G\\) improves its ability to generate realistic data, and \\(D\\) becomes better at distinguishing real from fake.
 
 ---
@@ -61,7 +61,7 @@ class Generator(nn.Module):
             nn.Linear(512, img_dim),
             nn.Tanh()  # Outputs in [-1, 1]
         )
-    
+
     def forward(self, z):
         return self.model(z)
 
@@ -76,7 +76,7 @@ class Discriminator(nn.Module):
             nn.LeakyReLU(0.2),
             nn.Linear(256, 1),
         )
-    
+
     def forward(self, img):
         return self.model(img)
 
@@ -103,37 +103,37 @@ for epoch in range(epochs):
     for i, (real_imgs, _) in enumerate(dataloader):
         real_imgs = real_imgs.view(-1, img_dim)
         batch_size = real_imgs.size(0)
-        
+
         # Generate fake images
         z = torch.randn(batch_size, latent_dim)
         fake_imgs = generator(z)
-        
+
         # Train Discriminator
         optimizer_D.zero_grad()
-        
+
         # Loss on real images
         real_labels = torch.ones(batch_size, 1)
         real_outputs = discriminator(real_imgs)
         d_loss_real = criterion(real_outputs, real_labels)
-        
+
         # Loss on fake images
         fake_labels = torch.zeros(batch_size, 1)
         fake_outputs = discriminator(fake_imgs.detach())
         d_loss_fake = criterion(fake_outputs, fake_labels)
-        
+
         d_loss = d_loss_real + d_loss_fake
         d_loss.backward()
         optimizer_D.step()
-        
+
         # Train Generator
         optimizer_G.zero_grad()
-        
+
         # Fool the discriminator
         outputs = discriminator(fake_imgs)
         g_loss = criterion(outputs, real_labels)
         g_loss.backward()
         optimizer_G.step()
-        
+
     # Print losses or generate samples periodically
     print(f"Epoch [{epoch}/{epochs}] | D Loss: {d_loss.item():.4f} | G Loss: {g_loss.item():.4f}")
 

@@ -12,7 +12,7 @@ type: note
 
 Question: 作为 X.25 标准的扩展，CCITT 提出了三项与 Packet Assembler/Disassembler (PAD) 设施相关的标准。以下哪项是正确的？
 
-Answer: 
+Answer:
 
 正确答案是 **C. X.3, X.28 and X.29**。
 
@@ -22,5 +22,5 @@ Answer:
 
 CCITT（现为 ITU-T）专门为 PAD 运行定义了**三项紧密相关的建议书**：
 
-- **X.3** — Packet Assembly/Disassembly facility (PAD) parameters  
+- **X.3** — Packet Assembly/Disassembly facility (PAD) parameters
   定义

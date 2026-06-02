@@ -10,15 +10,15 @@ translated: false
 type: note
 ---
 
-Question: 1. In a switched network, what causes a broadcast storm?  
-A) Too many unicast frames  
-B) Network loops without STP  
-C) Misconfigured VLANs  
-D) High bandwidth usage  
+Question: 1. In a switched network, what causes a broadcast storm?
+A) Too many unicast frames
+B) Network loops without STP
+C) Misconfigured VLANs
+D) High bandwidth usage
 
 2. [The user indicates the answer is B]
 
-Answer: 
+Answer:
 
 ### Question 1 Explanation
 

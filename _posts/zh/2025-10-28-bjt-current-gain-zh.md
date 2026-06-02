@@ -81,6 +81,6 @@ BJT 有三个主要工作区域：
 
 如果 \\( \beta \\) 变化更剧烈，我们需要完整的 SPICE 模拟，但对于 MCQ，100 是预期答案。
 
-深入阅读：  
-[All About Circuits: BJT Fundamentals](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistor-bjt/)  
+深入阅读：
+[All About Circuits: BJT Fundamentals](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistor-bjt/)
 [Electronics Tutorials: Transistor as an Amplifier](https://www.electronics-tutorials.ws/amplifier/transistor-amplifier.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to compute units in NVIDIA GPUs: Tensor Cores, CUDA cores, load/store units, and warp schedulers.
 
-Answer: 
+Answer:
 
 NVIDIA GPUs are designed for massive parallel processing, particularly in graphics, scientific computing, and AI workloads. The core building block is the **Streaming Multiprocessor (SM)**, which contains various compute units responsible for executing instructions. These units work together under the SIMT (Single Instruction, Multiple Thread) model, where threads are grouped into **warps** of 32 threads that execute the same instruction simultaneously.
 
@@ -67,10 +67,10 @@ Instructions from selected warps are dispatched to the relevant units. This desi
 
 In summary, CUDA cores provide general compute, Tensor Cores accelerate AI-specific matrix ops, LD/ST units manage memory traffic, and warp schedulers orchestrate everything to hide latencies and achieve high parallelism. Understanding these units helps optimize CUDA kernels for specific workloads.
 
-References:  
+References:
 
-- [NVIDIA Volta Architecture Whitepaper](https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf)  
-- [NVIDIA Turing Architecture In-Depth](https://developer.nvidia.com/blog/nvidia-turing-architecture-in-depth/)  
-- [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)  
-- [A Beginner's Guide to NVIDIA GPUs in 2025](https://www.cudocompute.com/blog/a-beginners-guide-to-nvidia-gpus)  
+- [NVIDIA Volta Architecture Whitepaper](https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf)
+- [NVIDIA Turing Architecture In-Depth](https://developer.nvidia.com/blog/nvidia-turing-architecture-in-depth/)
+- [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
+- [A Beginner's Guide to NVIDIA GPUs in 2025](https://www.cudocompute.com/blog/a-beginners-guide-to-nvidia-gpus)
 - [CUDA Cores vs Tensor Cores](https://acecloud.ai/blog/cuda-cores-vs-tensor-cores/)

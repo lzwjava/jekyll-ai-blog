@@ -15,7 +15,7 @@ type: note
 DeepSeek OCR 是 DeepSeek AI 于 2025 年 10 月 20 日最新发布的 30 亿参数视觉语言模型（VLM），专门针对光学字符识别（OCR）和结构化文档处理进行了优化。根据早期评估和基准测试，其表现相当出色：
 
 - **压缩效率**：采用“光学上下文压缩”技术，将视觉数据压缩为更少的标记（例如，相同内容仅需 100 个视觉标记而非 1000+ 个文本标记），在 10 倍压缩比下实现约 97% 的解码精度，20 倍压缩比下仍能保持近乎无损的效果。这使得它在处理大型文档时非常高效，且不会丢失关键细节。
-  
+
 - **吞吐量**：在单 GPU 上每日可处理超过 20 万页文档，这对于档案数字化或表单自动提取等实际应用而言是重大突破。
 
 - **基准测试表现**：在文档理解任务中超越其他开源 OCR 模型，在结构化输出精度方面媲美或接近 GPT-4V 等闭源领先模型。早期测试突显了其在处理复杂布局、表格和多语言文本方面的优势。
@@ -34,9 +34,9 @@ DeepSeek OCR 是 DeepSeek AI 于 2025 年 10 月 20 日最新发布的 30 亿参
 
 视觉标记弥合了像素与语言之间的鸿沟，使 AI 能够以计算可行的方式“看见”世界。
 
-**参考资料**  
-[DeepSeek 刚刚发布 30 亿参数 OCR 模型](https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/)  
-[DeepSeek-OCR 的关键不是 OCR，而是标记压缩](https://medium.com/@olimiemma/deepseek-ocr-isnt-about-ocr-it-s-about-token-compression-db1747602e29)  
-[DeepSeek 新款 OCR 模型单 GPU 日处理超 20 万页](https://analyticsindiamag.com/ai-news-updates/deepseeks-new-ocr-model-can-process-over-2-lakh-pages-daily-on-a-single-gpu/)  
-[标记：AI 与机器学习定义](https://www.ultralytics.com/glossary/token)  
+**参考资料**
+[DeepSeek 刚刚发布 30 亿参数 OCR 模型](https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/)
+[DeepSeek-OCR 的关键不是 OCR，而是标记压缩](https://medium.com/@olimiemma/deepseek-ocr-isnt-about-ocr-it-s-about-token-compression-db1747602e29)
+[DeepSeek 新款 OCR 模型单 GPU 日处理超 20 万页](https://analyticsindiamag.com/ai-news-updates/deepseeks-new-ocr-model-can-process-over-2-lakh-pages-daily-on-a-single-gpu/)
+[标记：AI 与机器学习定义](https://www.ultralytics.com/glossary/token)
 [革命性 AI 视觉技术：视觉感知标记](https://kitemetric.com/blogs/revolutionizing-ai-vision-introducing-visual-perception-tokens)

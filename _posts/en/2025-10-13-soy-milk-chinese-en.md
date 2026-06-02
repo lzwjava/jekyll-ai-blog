@@ -14,7 +14,7 @@ type: note
 
 It's commonly paired with youtiao (fried dough sticks) for dipping. In Western contexts, it's similar to store-bought soy milk but often fresher and more watery when homemade.
 
-References:  
-- [Chinese English Pinyin Dictionary - dou jiang](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=dou%2Bjiang)  
-- [Soy milk - Wikipedia](https://en.wikipedia.org/wiki/Soy_milk)  
+References:
+- [Chinese English Pinyin Dictionary - dou jiang](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=dou%2Bjiang)
+- [Soy milk - Wikipedia](https://en.wikipedia.org/wiki/Soy_milk)
 - [History of Soymilk and Dairy-like Soymilk Products](https://www.soyinfocenter.com/HSS/soymilk1.php)

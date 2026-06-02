@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《论语》 (The Analects of Confucius)
 
-Answer: 
+Answer:
 
 **《论语》 (The Analects of Confucius) 简介**
 
@@ -77,7 +77,7 @@ Answer:
 
 阅读《论语》最好采取循序渐进的方式——每次读一两条——并理想地配合优秀的注释本，因为其含义往往通过反思和讨论而变得更加深厚。
 
-References:  
+References:
 
 - [Analects - Wikipedia](https://en.wikipedia.org/wiki/Analects)
 - [Chinese Text Project - 论语](https://ctext.org/analects/zhs)

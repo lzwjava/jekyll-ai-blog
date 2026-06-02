@@ -12,7 +12,7 @@ type: note
 
 Question: What is APIO in algorithm tests?
 
-Answer: 
+Answer:
 
 APIO stands for **Asia-Pacific Informatics Olympiad**. It is an annual online competitive programming contest focused on algorithmic problem-solving, similar in style to the International Olympiad in Informatics (IOI).
 
@@ -20,9 +20,9 @@ Participants solve 3 challenging problems involving algorithm design and impleme
 
 Problems typically require efficient algorithms, data structures, and programming skills in languages like C++, with partial scoring for subtasks.
 
-References:  
+References:
 
-- https://apio2025.uz/  
-- https://codeforces.com/blog/entry/142848  
-- https://hkoi.org/en/apio-2025/  
+- https://apio2025.uz/
+- https://codeforces.com/blog/entry/142848
+- https://hkoi.org/en/apio-2025/
 - https://ioinformatics.org/ (context on IOI-style contests)

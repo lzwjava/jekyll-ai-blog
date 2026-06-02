@@ -61,7 +61,7 @@ Eclipse 4.6.3 requires a Java Runtime Environment (JRE) or Java Development Kit 
 #### 4. **Consider a Corrupted Eclipse Installation**
 If the above steps don’t resolve the issue, your Eclipse installation might be corrupted.
 
-- **How to fix**: 
+- **How to fix**:
   - Re-download Eclipse 4.6.3 from the official website (eclipse.org).
   - Extract it to a new folder and try launching it again.
   - Optionally, delete the old Eclipse folder after backing up any custom settings or workspaces.

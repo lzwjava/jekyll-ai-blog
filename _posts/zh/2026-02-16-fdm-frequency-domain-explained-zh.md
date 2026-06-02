@@ -11,10 +11,10 @@ type: note
 
 问题：在频域中，信道带宽被划分为多个子信道，原始信号被调制到这些子信道对应的载波信号上，从而允许在一个信道上同时传输多个信号。这种信道复用技术被称为 ( )
 
-A Frequency Division Multiplexing (FDM)  
-B Time Division Multiplexing (TDM)  
-C Wavelength Division Multiplexing (WDM)  
-D Code Division Multiplexing (CDM)  
+A Frequency Division Multiplexing (FDM)
+B Time Division Multiplexing (TDM)
+C Wavelength Division Multiplexing (WDM)
+D Code Division Multiplexing (CDM)
 
 答案：A
 
@@ -36,13 +36,13 @@ FDM 的核心思想是：
 
 **与其他选项的简要对比：**
 
-- **B. Time Division Multiplexing (TDM)**  
+- **B. Time Division Multiplexing (TDM)**
   将信道划分为**时间片（time slots）** —— 不同的信号在不同的时刻轮流使用全部带宽。
 
-- **C. Wavelength Division Multiplexing (WDM)**  
+- **C. Wavelength Division Multiplexing (WDM)**
   原理与 FDM 相似，但专门用于 **optical fiber** 系统。它划分的是光谱（不同的波长 / 光的颜色）而不是电频率带宽。
 
-- **D. Code Division Multiplexing (CDM) / CDMA**  
+- **D. Code Division Multiplexing (CDM) / CDMA**
   所有信号在**同一时间使用同一频段**，但每个信号都乘以一个唯一的扩频码（spreading code）。接收端使用相同的代码来提取其目标信号（广泛应用于 3G 移动通信系统）。
 
 只有 **FDM** 符合描述：在频域中将带宽划分为多个子信道，并在不同的载波频率上同时传输多个调制信号。

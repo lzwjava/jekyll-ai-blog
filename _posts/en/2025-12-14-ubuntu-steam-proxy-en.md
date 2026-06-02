@@ -12,7 +12,7 @@ type: note
 
 Question: How to set a proxy for Steam on Ubuntu?
 
-Answer: 
+Answer:
 
 Steam on Ubuntu does not have built-in proxy settings in its UI. It partially supports HTTP/HTTPS proxies via environment variables for client updates, logins, and downloads, but much of Steam's traffic (including content servers and multiplayer gaming) uses UDP, which standard HTTP proxies do not support. This means full functionality (especially online gaming) may not work behind a typical proxy.
 
@@ -73,7 +73,7 @@ This forces more traffic through the proxy but may be slower or unstable for gam
 - If behind an institutional proxy, login/update Steam on unrestricted network first, then switch (downloads may still need proxy).
 - Note: Using proxies (especially for region changes) may violate Steam's terms of service.
 
-References:  
+References:
 
 - [https://askubuntu.com/questions/227064/steam-linux-behind-a-proxy-server](https://askubuntu.com/questions/227064/steam-linux-behind-a-proxy-server)
 - [https://blog.navinda.xyz/using-steam-with-proxy/](https://blog.navinda.xyz/using-steam-with-proxy/)

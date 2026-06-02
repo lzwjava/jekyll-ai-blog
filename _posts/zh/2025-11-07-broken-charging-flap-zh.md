@@ -35,6 +35,6 @@ type: note
 
 安装前建议参照MG电动车指南进行试装（操作流程类似）。若无法匹配，可直接联系广州哪吒服务中心——他们通常备有现货，价格约100-200元。需要安装指导或具体链接请随时告知！
 
-[EV充电口盖板更换指南（MG ZS EV）](https://www.youtube.com/watch?v=eAuHfesic1k)  
-[阿里国际站哪吒充电口保护盖](https://www.aliexpress.com/item/1005007696411860.html)  
+[EV充电口盖板更换指南（MG ZS EV）](https://www.youtube.com/watch?v=eAuHfesic1k)
+[阿里国际站哪吒充电口保护盖](https://www.aliexpress.com/item/1005007696411860.html)
 [亚马逊通用EV接口防尘罩](https://www.amazon.com/EV-Charger-Plug-Cover-Replacement/dp/B0DTHR8YR5)

@@ -35,8 +35,8 @@ type: note
 #### 3. **检查账户状态**
    执行以下 SQL 查询检查被锁定账户的状态：
    ```sql
-   SELECT username, account_status, lock_date 
-   FROM dba_users 
+   SELECT username, account_status, lock_date
+   FROM dba_users
    WHERE username = '您的用户名';
    ```
    - 将 `您的用户名` 替换为您尝试连接的用户名（如 `myuser`）。
@@ -96,14 +96,14 @@ type: note
 #### 8. **检查配置文件策略（防止再次锁定）**
    账户锁定可能源于用户配置文件的安策策略（如 `FAILED_LOGIN_ATTEMPTS` 或 `PASSWORD_LOCK_TIME`）。检查对应用户的配置文件：
    ```sql
-   SELECT profile 
-   FROM dba_users 
+   SELECT profile
+   FROM dba_users
    WHERE username = '您的用户名';
    ```
    随后查看配置文件的限制：
    ```sql
-   SELECT resource_name, limit 
-   FROM dba_profiles 
+   SELECT resource_name, limit
+   FROM dba_profiles
    WHERE profile = '您的配置文件名';
    ```
    重点关注：
@@ -112,8 +112,8 @@ type: note
 
    如需放宽这些设置（若适用），可修改配置文件：
    ```sql
-   ALTER PROFILE 您的配置文件名 LIMIT 
-       FAILED_LOGIN_ATTEMPTS UNLIMITED 
+   ALTER PROFILE 您的配置文件名 LIMIT
+       FAILED_LOGIN_ATTEMPTS UNLIMITED
        PASSWORD_LOCK_TIME UNLIMITED;
    ```
    示例：

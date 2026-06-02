@@ -12,7 +12,7 @@ type: note
 
 **Question: In GitHub Desktop, when viewing a history commit, in the middle panel's changed files list, does double-clicking a file open it in VS Code?**
 
-**Answer:** 
+**Answer:**
 
 **Yes, this is a supported feature in recent versions of GitHub Desktop.**
 
@@ -44,7 +44,7 @@ If double-click doesn't open VS Code for you:
 
 This makes reviewing commit history and quickly jumping to edit files in VS Code much smoother — a nice quality-of-life improvement!
 
-**References:**  
+**References:**
 
 - [GitHub Changelog: Community adds "Double click to Open External Editor"](https://github.blog/changelog/2023-08-16-github-desktop-community-adds-check-out-a-commit-and-double-click-to-open-external-editor)
 - [GitHub Desktop issue discussions on double-click behavior](https://github.com/desktop/desktop/issues?q=is%3Aissue+double+click+file+external+editor)

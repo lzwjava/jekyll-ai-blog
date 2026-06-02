@@ -11,7 +11,7 @@ type: note
 
 Question: Organize this transcript from the YouTube video, keeping the original text as much as possible while making it more coherent.
 
-Answer: 
+Answer:
 
 Here is an organized and cleaned-up version of the available transcript from the video "3.5-1 TCP Reliability, Flow Control, and Connection Management" (Part 1) by Jim Kurose. The original spoken text is preserved as closely as possible (including minor repetitions and natural speech patterns), but it has been formatted into coherent paragraphs, with removed excessive spacing/artifacts from the raw extraction, and minor punctuation added for readability. This covers the portion of the lecture captured in available sources (the video appears to be longer, but this is the extracted content).
 
@@ -69,7 +69,7 @@ Clearly we're going to want the timer values to depend somehow on the round-trip
 
 (Note: The available transcript cuts off here mid-sentence. The full video continues with RTT estimation, timeout calculation using EstimatedRTT and DevRTT, retransmission scenarios, and more.)
 
-References:  
+References:
 
 - [YouTube Video: 3.5-1 TCP Reliability, Flow Control, and Connection Management](https://www.youtube.com/watch?v=UYJP-6mhF6E)
 - [Playlist: Computer Networking: A Top-Down Approach - All Chapters](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)

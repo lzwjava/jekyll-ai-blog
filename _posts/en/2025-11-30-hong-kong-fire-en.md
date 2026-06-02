@@ -21,7 +21,7 @@ The fire started around 2:51 PM local time, engulfing the structures in thick sm
 The exact ignition source remains under investigation by Hong Kong authorities, but preliminary findings point to **gross negligence by a construction company performing restoration work on the site**. Police have arrested three individuals—two company directors and one engineering consultant—on suspicion of manslaughter, citing their use of unsafe materials that fueled the uncontrollable spread. Key contributing factors include:
 
 - **Unsafe construction materials**: Flammable Styrofoam panels (or foam boards) placed outside windows, along with netting and other exterior cladding, accelerated the fire's rapid vertical and horizontal spread. Authorities suspect these materials did not meet fire-safety standards, similar to issues seen in the 2017 Grenfell Tower fire in London.
-  
+
 - **Bamboo scaffolding**: The site was wrapped in traditional bamboo scaffolding, which Hong Kong officials have increasingly criticized for fire risks. A recent October 2025 office building fire was partly blamed on similar scaffolding, prompting government plans to phase it out in favor of steel.
 
 - **Failed fire alarms**: Alarms in all eight blocks malfunctioned or were not working effectively, delaying evacuation and response. The last fire safety inspection occurred on November 20, 2025, after complaints about workers smoking on-site, but no major issues were flagged at the time.

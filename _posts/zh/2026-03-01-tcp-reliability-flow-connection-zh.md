@@ -65,7 +65,7 @@ acknowledgement field 由接收方用于告诉发送方下一个期望从发送�
 
 （注：可用转录在此句中途中断。完整视频继续讨论 RTT estimation、使用 EstimatedRTT 和 DevRTT 的 timeout 计算、retransmission 场景等。）
 
-参考文献：  
+参考文献：
 
 - [YouTube Video: 3.5-1 TCP Reliability, Flow Control, and Connection Management](https://www.youtube.com/watch?v=UYJP-6mhF6E)
 - [Playlist: Computer Networking: A Top-Down Approach - All Chapters](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)

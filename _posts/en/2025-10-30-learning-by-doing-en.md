@@ -21,6 +21,6 @@ A quick breakdown:
 
 Tying back to your musings: yeah, we all die with blind spots, but Dewey would say that's the point—life's a series of do-overs, not a checklist. The internet's a start (like Dewey's libraries of his day), but without the "doing," it's just echoes. So, what's one "doing" on your horizon that could crack open a new world?
 
-[John Dewey's Philosophy of Education](https://plato.stanford.edu/entries/dewey/)  
-[Experience and Education by John Dewey](https://www.gutenberg.org/files/56836/56836-h/56836-h.htm)  
+[John Dewey's Philosophy of Education](https://plato.stanford.edu/entries/dewey/)
+[Experience and Education by John Dewey](https://www.gutenberg.org/files/56836/56836-h/56836-h.htm)
 [Dewey's Learning by Doing in Modern Contexts](https://www.edutopia.org/article/john-deweys-3-principles-learning)

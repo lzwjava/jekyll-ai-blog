@@ -34,23 +34,23 @@ Here is a clear comparison between **buffering** and **spooling** in the context
 
 ### Quick Summary – One-line distinction
 
-- **Buffering** = using a **memory buffer** to reduce the **number of physical I/O operations**  
+- **Buffering** = using a **memory buffer** to reduce the **number of physical I/O operations**
 - **Spooling** = using **disk space** as a large buffer to **completely decouple** a fast CPU from a very slow peripheral device
 
 ### Most common real-world examples today (2026)
 
-- **Buffering**  
-  - Almost every `write()`/`read()` call  
-  - `stdout` line buffering / block buffering  
-  - TCP send/receive buffers  
+- **Buffering**
+  - Almost every `write()`/`read()` call
+  - `stdout` line buffering / block buffering
+  - TCP send/receive buffers
   - Filesystem page cache
 
-- **Spooling**  
-  - Modern network print spooling (CUPS, Windows Print Spooler, cloud printing)  
-  - Batch job queues in HPC clusters  
+- **Spooling**
+  - Modern network print spooling (CUPS, Windows Print Spooler, cloud printing)
+  - Batch job queues in HPC clusters
   - Some backup systems that queue data before writing to tape/library
 
-**References:**  
+**References:**
 
-- Operating Systems Concepts (Silberschatz, Galvin, Gagne) – Chapter on I/O Systems  
+- Operating Systems Concepts (Silberschatz, Galvin, Gagne) – Chapter on I/O Systems
 - Modern Operating Systems (Tanenbaum) – sections on I/O software layers and spooling

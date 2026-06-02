@@ -22,7 +22,7 @@ Graham doesn't directly address performance evaluation or stock options, but his
 Yes, evidence suggests that top startups often handle employee performance evaluation more effectively than corporations, which contributes to their edge. Here's why:
 
 - **More Frequent and Actionable Feedback**: Startups can't afford annual reviews like big firms; they use ongoing, milestone-based check-ins tied to real goals (e.g., product launches or user growth). This keeps everyone aligned and spots issues early. For instance, successful startups like early Google or Airbnb emphasized rapid iterations and peer feedback over rigid hierarchies.
-  
+
 - **Higher Engagement and Visibility**: In small teams, impact is obvious—everyone sees how your work moves the needle. Studies and surveys show employee engagement is typically higher in startups (around 20-30% above corporate averages) because people feel connected to the mission and progress. This reduces "quiet quitting" and boosts retention of top talent.
 
 - **Outcome-Focused, Not Process-Heavy**: Unlike corporations' bureaucratic scorecards, startups evaluate based on results (e.g., revenue hit or feature adoption). Failures are learning opportunities, not black marks, fostering innovation. Graham echoes this: big companies pay uniformly and punish risks, while startups amplify winners.

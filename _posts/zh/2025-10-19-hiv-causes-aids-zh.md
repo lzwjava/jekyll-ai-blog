@@ -15,7 +15,7 @@ type: note
 关于医学界"从未确凿证明"HIV导致AIDS的说法是错误的。这是现代病毒学和流行病学的基石，得到全球多个独立机构数十年严谨、可重复证据的支持。这种因果关系最早于1983-1984年被提出，随后通过符合最高科学验证标准的方法（如适用于病毒的科赫法则、布拉德福德·希尔因果关系准则）得到确认。以下是关键证据的简明分析：
 
 - **分离与鉴定**：HIV于1983年由巴斯德研究所团队从AIDS患者体内分离出来，并在全球范围内获得独立验证。该病毒的基因序列于1985年被绘制，在近100%的AIDS病例中持续检测到该病毒，而健康个体中则不存在。
-  
+
 - **流行病学模式**：AIDS在20世纪80年代随着HIV传播模式（如通过血液、性行为、针头）出现。血清流行率研究显示HIV感染平均比AIDS发病早8-10年，进展速度与病毒载量相匹配。在未接触HIV的地区（如隔离人群），AIDS不会发生。
 
 - **实验性干预**：针对HIV复制的抗逆转录病毒疗法（ART）可阻止AIDS进展。临床试验（如1994年的ACTG 076）显示ART将母婴传播率降低70%，直接将HIV与疾病联系起来。动物模型（如猴子的SIV）重现了HIV-AIDS的发病机制。
@@ -38,8 +38,8 @@ type: note
 
 总之，科学通过解决缺陷而进步——例如通过开放数据（CERN）、重复性要求（NIH）或可解释的AI工具。关于整体"未经证实"的主张通常源于选择性挑选异常值或误解概率证据。真正的怀疑精神会加强科学；全盘否定则会损害公共健康（例如HIV否认主义在南非延误治疗，造成生命损失）。
 
-延伸阅读：  
-[CDC：HIV与AIDS基础知识](https://www.cdc.gov/hiv/basics/whatishiv.html)  
-[《自然》：HIV的发现](https://www.nature.com/articles/nm0710-753)  
-[《科学》：科学中的可重复性](https://www.science.org/doi/10.1126/science.aac4716)  
+延伸阅读：
+[CDC：HIV与AIDS基础知识](https://www.cdc.gov/hiv/basics/whatishiv.html)
+[《自然》：HIV的发现](https://www.nature.com/articles/nm0710-753)
+[《科学》：科学中的可重复性](https://www.science.org/doi/10.1126/science.aac4716)
 [CERN：希格斯玻色子详解](https://home.cern/science/physics/higgs-boson)

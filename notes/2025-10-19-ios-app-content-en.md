@@ -146,5 +146,5 @@ formulaLabel.text = dict[@"formula"];
 
 This setup keeps your app modular—easy to update content without UI changes. For full code, check Apple's samples.
 
-[Apple Foundation Framework Docs](https://developer.apple.com/documentation/foundation)  
+[Apple Foundation Framework Docs](https://developer.apple.com/documentation/foundation)
 [UITableView Tutorial](https://developer.apple.com/tutorials/app-dev-training/creating-a-list-with-a-table-view)

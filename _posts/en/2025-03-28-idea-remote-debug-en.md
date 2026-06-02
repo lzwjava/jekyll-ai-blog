@@ -15,7 +15,7 @@ To connect IntelliJ IDEA to the debug port of a WebSphere Liberty Server that yo
 ### Step 1: Start the WebSphere Liberty Server in Debug Mode
 When you run `server debug default` (assuming "default" is the name of your server; replace it with your actual server name if different), WebSphere Liberty starts with debugging enabled. By default, this command configures the server to listen for debug connections on port **7777**.
 
-- **Command**: 
+- **Command**:
   ```bash
   server debug default
   ```

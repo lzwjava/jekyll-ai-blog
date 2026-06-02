@@ -76,7 +76,7 @@ Codeberg 故意保持较小且更专注。它优先考虑独立性、长期可�
 
 简而言之：如果您想要 **类似 GitHub 的功能但没有 GitHub 公司**，Codeberg 目前（2026 年）是 FOSS 友好代码锻造景观中最成熟、稳定且理念纯净的选择之一。
 
-References:  
+References:
 
 - [Codeberg 官网](https://codeberg.org/)
 - [What is Codeberg? - Documentation](https://docs.codeberg.org/getting-started/what-is-codeberg)

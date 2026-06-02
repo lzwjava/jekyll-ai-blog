@@ -15,7 +15,7 @@ The following NEW packages will be installed:
 Need to get 1,512 B of archives.
 After this operation, 169 kB of additional disk space will be used.
 Get:1 http://hk.archive.ubuntu.com/ubuntu jammy/universe amd64 apt-transport-https all 2.4.5 [1,512 B]
-Fetched 1,512 B in 0s (5,337 B/s)               
+Fetched 1,512 B in 0s (5,337 B/s)
 Selecting previously unselected package apt-transport-https.
 (Reading database ... 495822 files and directories currently installed.)
 Preparing to unpack .../apt-transport-https_2.4.5_all.deb ...
@@ -23,34 +23,34 @@ Unpacking apt-transport-https (2.4.5) ...
 Setting up apt-transport-https (2.4.5) ...
 gpg: WARNING: unsafe ownership on homedir '/home/lzw/.gnupg'
 Get:1 file:/var/cuda-repo-ubuntu2204-12-2-local  InRelease [1,572 B]
-Get:2 file:/var/nccl-local-repo-ubuntu2204-2.18.3-cuda12.2  InRelease [1,572 B]                                                                                                                            
-Get:1 file:/var/cuda-repo-ubuntu2204-12-2-local  InRelease [1,572 B]                                                                                                                                       
-Get:2 file:/var/nccl-local-repo-ubuntu2204-2.18.3-cuda12.2  InRelease [1,572 B]                                                                                                                            
-Ign:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease                                                                                                                                               
-Hit:4 https://repo.steampowered.com/steam stable InRelease                                                                                                                                                 
-Hit:5 http://hk.archive.ubuntu.com/ubuntu jammy InRelease                                                                                                                                                  
-Hit:6 https://cli.github.com/packages stable InRelease                                                                                                                                                     
-Get:7 https://deb.nodesource.com/node_22.x nodistro InRelease [12.1 kB]                                                                                                                                    
-Hit:8 http://security.ubuntu.com/ubuntu jammy-security InRelease                                                                                  
-Hit:9 https://packages.mozilla.org/apt mozilla InRelease                                                        
-Hit:10 https://esm.ubuntu.com/apps/ubuntu jammy-apps-security InRelease                   
-Get:11 https://deb.nodesource.com/node_22.x nodistro/main amd64 Packages [7,417 B]        
-Hit:12 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease                          
-Hit:13 https://esm.ubuntu.com/apps/ubuntu jammy-apps-updates InRelease                      
+Get:2 file:/var/nccl-local-repo-ubuntu2204-2.18.3-cuda12.2  InRelease [1,572 B]
+Get:1 file:/var/cuda-repo-ubuntu2204-12-2-local  InRelease [1,572 B]
+Get:2 file:/var/nccl-local-repo-ubuntu2204-2.18.3-cuda12.2  InRelease [1,572 B]
+Ign:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease
+Hit:4 https://repo.steampowered.com/steam stable InRelease
+Hit:5 http://hk.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:6 https://cli.github.com/packages stable InRelease
+Get:7 https://deb.nodesource.com/node_22.x nodistro InRelease [12.1 kB]
+Hit:8 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:9 https://packages.mozilla.org/apt mozilla InRelease
+Hit:10 https://esm.ubuntu.com/apps/ubuntu jammy-apps-security InRelease
+Get:11 https://deb.nodesource.com/node_22.x nodistro/main amd64 Packages [7,417 B]
+Hit:12 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease
+Hit:13 https://esm.ubuntu.com/apps/ubuntu jammy-apps-updates InRelease
 Hit:14 https://ppa.launchpadcontent.net/longsleep/golang-backports/ubuntu jammy InRelease
-Hit:15 https://esm.ubuntu.com/infra/ubuntu jammy-infra-security InRelease                                              
-Hit:16 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu jammy InRelease                                           
-Ign:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease                                     
-Hit:17 https://esm.ubuntu.com/infra/ubuntu jammy-infra-updates InRelease                         
+Hit:15 https://esm.ubuntu.com/infra/ubuntu jammy-infra-security InRelease
+Hit:16 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu jammy InRelease
+Ign:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease
+Hit:17 https://esm.ubuntu.com/infra/ubuntu jammy-infra-updates InRelease
 Hit:18 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease
 Ign:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease
-Err:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease                                                                                                                                               
+Err:3 https://apt.packages.shiftkey.dev/ubuntu any InRelease
   Certificate verification failed: The certificate is NOT trusted. The name in the certificate does not match the expected.  Could not handshake: Error in the certificate verification. [IP: 127.0.0.1 7890]
-Fetched 19.6 kB in 8s (2,335 B/s)                                                                                                                                                                          
+Fetched 19.6 kB in 8s (2,335 B/s)
 Reading package lists... Done
 W: Failed to fetch https://apt.packages.shiftkey.dev/ubuntu/dists/any/InRelease  Certificate verification failed: The certificate is NOT trusted. The name in the certificate does not match the expected.  Could not handshake: Error in the certificate verification. [IP: 127.0.0.1 7890]
 W: Some index files failed to download. They have been ignored, or old ones used instead.
 2025-08-23 03:08:07 - Repository configured successfully.
 2025-08-23 03:08:07 - To install Node.js, run: apt-get install nodejs -y
 2025-08-23 03:08:07 - You can use N|solid Runtime as a node.js alternative
-2025-08-23 03:08:07 - To install N|solid Runtime, run: apt-get install nsolid -y 
+2025-08-23 03:08:07 - To install N|solid Runtime, run: apt-get install nsolid -y

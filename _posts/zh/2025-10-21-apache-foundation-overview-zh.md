@@ -30,5 +30,5 @@ ASF托管着300多个活跃开源项目，其中许多支撑着互联网关键�
 
 所有项目均需经过Apache孵化器培育才能晋升为顶级项目。完整列表请访问ASF项目页面。
 
-[Apache软件基金会官网](https://www.apache.org/)  
+[Apache软件基金会官网](https://www.apache.org/)
 [Apache软件基金会 - 维基百科](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation)

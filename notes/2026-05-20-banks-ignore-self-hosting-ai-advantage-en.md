@@ -32,7 +32,7 @@ Banks think of themselves as consumers of AI products (buy Copilot, buy Azure Op
 The hard part of LLM serving is already abstracted away:
 
 ```
-Weights (HuggingFace, MIT) 
+Weights (HuggingFace, MIT)
   → vLLM (OpenAI-compatible API, production battle-tested)
     → Internal API Gateway (Kong, Nginx — banks already have this)
       → All internal apps (zero code change, same /v1/chat/completions)

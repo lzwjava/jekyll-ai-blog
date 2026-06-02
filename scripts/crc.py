@@ -29,7 +29,7 @@ def crc_calculate(message: str, generator: str) -> tuple[str, str]:
     padded = message + "0" * r  # Step 1: append r zeros
 
     print(f"\n{'=' * 55}")
-    print(f"  CRC CALCULATION")
+    print("  CRC CALCULATION")
     print(f"{'=' * 55}")
     print(f"  Message          : {message}")
     print(f"  Generator        : {generator}  (degree = {r})")
@@ -66,7 +66,7 @@ def crc_verify(received: str, generator: str) -> bool:
     no_error = all(b == "0" for b in remainder)
 
     print(f"\n{'=' * 55}")
-    print(f"  CRC VERIFICATION")
+    print("  CRC VERIFICATION")
     print(f"{'=' * 55}")
     print(f"  Received frame   : {received}")
     print(f"  Generator        : {generator}")
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     corrupted[3] = "0" if corrupted[3] == "1" else "1"
     corrupted_frame = "".join(corrupted)
 
-    print(f"\n[Case B] Frame arrives WITH a bit error (bit 3 flipped):")
+    print("\n[Case B] Frame arrives WITH a bit error (bit 3 flipped):")
     print(f"  Original : {frame}")
     print(f"  Corrupted: {corrupted_frame}")
     crc_verify(corrupted_frame, GENERATOR)

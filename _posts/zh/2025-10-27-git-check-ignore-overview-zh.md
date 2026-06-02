@@ -72,6 +72,6 @@ git check-ignore <路径名>...
 - 对未跟踪的文件或已存在于仓库中的文件均有效（但会检查忽略规则）。
 - 更多详细信息，请参阅官方文档。
 
-[Git check-ignore 文档](https://git-scm.com/docs/git-check-ignore)  
-[Stack Overflow：Git 命令显示哪些特定文件被忽略](https://stackoverflow.com/questions/466764/git-command-to-show-which-specific-files-are-ignored-by-gitignore)  
+[Git check-ignore 文档](https://git-scm.com/docs/git-check-ignore)
+[Stack Overflow：Git 命令显示哪些特定文件被忽略](https://stackoverflow.com/questions/466764/git-command-to-show-which-specific-files-are-ignored-by-gitignore)
 [使用 git check-ignore 调试 .gitignore](https://alexwlchan.net/til/2020/using-git-check-ignore-to-debug-your-gitignore/)

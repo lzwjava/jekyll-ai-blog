@@ -81,5 +81,5 @@ Karpathy 称其为实用 LLM 训练的“颠覆性创新”：注意力机制在
 
 完整内容请观看 [2:58:00](https://www.youtube.com/watch?v=l8pRSuU81PU&t=10700s) 起的时间段。
 
-**参考文献**：  
+**参考文献**：
 - [FlashAttention 论文：具有 IO 感知的快速内存高效精确注意力机制（Dao 等人，2022）](https://arxiv.org/abs/2205.14135)

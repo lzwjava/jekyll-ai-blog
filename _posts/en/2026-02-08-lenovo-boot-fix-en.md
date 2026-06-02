@@ -12,7 +12,7 @@ type: note
 
 Question: Spam Fn + F12 (or F12) at the Lenovo logo to open the boot menu, but F2 doesn't work?
 
-Answer: 
+Answer:
 
 Yes, **Fn + F12** (or just **F12** on some models) is the correct and most reliable key for opening the **one-time boot menu** on Lenovo XiaoXin laptops (and most IdeaPad series). Spam it repeatedly right as the Lenovo logo appears during power-on or restart — timing is key, start pressing before the logo fully shows up.
 
@@ -55,7 +55,7 @@ Once in BIOS (via any method), make the changes we discussed earlier (disable Se
 
 If none of this works after trying the Fast Startup disable + full shutdown, your model might need a BIOS update from Lenovo's site (search your exact XiaoXin model number on their Chinese/global support page).
 
-References:  
+References:
 
 - [https://wiki.archlinux.org/title/Lenovo_XiaoXin_15are_2020](https://wiki.archlinux.org/title/Lenovo_XiaoXin_15are_2020)
 - [https://support.lenovo.com/us/en/solutions/ht104668-how-to-select-boot-device-from-bios-boot-menu-ideapad-thinkpad-thinkstation-thinkcentre-ideacentre](https://support.lenovo.com/us/en/solutions/ht104668-how-to-select-boot-device-from-bios-boot-menu-ideapad-thinkpad-thinkstation-thinkcentre-ideacentre)

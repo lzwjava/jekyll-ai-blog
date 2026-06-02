@@ -17,7 +17,7 @@ No, the Trump administration is not officially planning to fully eliminate NASA 
 However, the rumor isn't entirely baseless—it's amplified by real, ongoing tensions around NASA's future under Trump. The administration has proposed severe budget cuts, mission cancellations, and restructuring that could fundamentally shrink the agency's civilian role in space exploration and science. These moves align with broader efforts to prioritize military space programs (like Space Force) and private sector involvement (e.g., SpaceX), while slashing what the White House views as "non-essential" or climate-focused initiatives. Below, I'll break down the facts, context, and implications based on recent reports and discussions.
 
 #### Key Facts on NASA's Current Challenges
-- **Budget Cuts and Mission Cancellations**: 
+- **Budget Cuts and Mission Cancellations**:
   - The White House's FY2026 budget proposal, released in May 2025, calls for a **24% overall cut to NASA's budget** (from ~$25 billion to $18.8 billion, the lowest since 2015). Science programs face an even steeper **47-50% reduction**, down to about $3.9 billion.
   - This would cancel or end **over 40 active and planned missions**, including:
     - Mars Sample Return (a flagship effort to bring Martian soil back to Earth).
@@ -25,7 +25,7 @@ However, the rumor isn't entirely baseless—it's amplified by real, ongoing ten
     - Orbiting Carbon Observatory-2 (OCO-2, a key climate satellite tracking CO2 emissions).
     - Other deep-space efforts like Chandra X-ray Observatory and New Horizons (Pluto mission).
   - The Planetary Society, a nonprofit advocacy group, estimates **41 missions scrapped** so far due to FY2026 planning, with more at risk if Congress approves the cuts.
-  
+
 - **Workforce Reductions**:
   - Plans include laying off **up to 2,145 high-ranking employees** (about 12% of NASA's 18,000-person workforce), targeting specialized roles in science and management.
   - Recent examples: 550 layoffs at NASA's Jet Propulsion Laboratory (JPL) in July 2025, and broader "personnel purges" amid a government shutdown in October 2025 that halted operations.

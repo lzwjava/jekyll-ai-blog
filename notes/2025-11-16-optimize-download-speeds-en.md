@@ -24,16 +24,16 @@ To match the 20–60 MB/s speeds from the Wikimedia downloads, use these tweaks�
    mkdir -p fineweb_test_dump
    cd fineweb_test_dump
    echo "Downloading FineWeb shard via HF Mirror (faster for Asia)..."
-   
+
    # Replace huggingface.co with hf-mirror.com
    wget -c "https://hf-mirror.com/datasets/HuggingFaceFW/fineweb/resolve/main/data/CC-MAIN-2013-20/000_00000.parquet?download=true"
-   
+
    echo "Done! Shard size: ~500MB–1GB"
    echo "For more shards, loop over e.g., 000_00001.parquet, etc."
    echo "To load in Python: from datasets import load_dataset; ds = load_dataset('HuggingFaceFW/fineweb', name='CC-MAIN-2013-20', split='train', streaming=True)"
    ```
 
-   Run it: `./scripts/train/wget_fineweb_1.sh`  
+   Run it: `./scripts/train/wget_fineweb_1.sh`
    - If the mirror lags (rare), fall back to the official: `https://huggingface.co/datasets/...` (but add the speed tip in #2).
 
 ### 2. **Boost with hf_transfer (For Any HF Download—100x Faster on Resumable)**
@@ -45,7 +45,7 @@ To match the 20–60 MB/s speeds from the Wikimedia downloads, use these tweaks�
    export HF_HUB_ENABLE_HF_TRANSFER=1
    ```
 
-   Then re-run your original script. It accelerates the underlying `wget` calls to HF URLs.  
+   Then re-run your original script. It accelerates the underlying `wget` calls to HF URLs.
    - Pro tip: For full dataset streaming (no full download), use Python in your pipeline:
      ```python
      from datasets import load_dataset

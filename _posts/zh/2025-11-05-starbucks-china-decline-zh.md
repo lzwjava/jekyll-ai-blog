@@ -29,6 +29,6 @@ type: note
 
 在近期重大战略调整中，星巴克于2025年11月3日宣布将其中国业务的60%控股权以约40亿美元出售给博裕资本，成立合资公司并保留40%股权及完整品牌控制权。此次交易对中国业务总估值超130亿美元，标志着星巴克正通过引入本土力量应对持续竞争。
 
-[新鲜案例解析：星巴克为何在中国陷入困境](https://kathrynread.com/freshly-brewed-case-study-why-starbucks-is-struggling-in-china/)  
-[星巴克在中国增长乏力，原因何在](https://www.cnbc.com/2025/02/26/starbucks-is-struggling-to-grow-sales-in-china-heres-why.html)  
+[新鲜案例解析：星巴克为何在中国陷入困境](https://kathrynread.com/freshly-brewed-case-study-why-starbucks-is-struggling-in-china/)
+[星巴克在中国增长乏力，原因何在](https://www.cnbc.com/2025/02/26/starbucks-is-struggling-to-grow-sales-in-china-heres-why.html)
 [星巴克以40亿美元交易向博裕资本出让中国业务控股权](https://www.cnn.com/2025/11/03/business/starbucks-to-sell-control-of-china-business)

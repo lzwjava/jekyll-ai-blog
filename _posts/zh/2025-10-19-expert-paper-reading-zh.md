@@ -22,6 +22,6 @@ type: note
 
 简而言之，没错，他们阅读得既快又深，因为这个领域如同消防水带——错过一个关键思想，你就成了过时新闻。如果你想提升自己，可以从这种多遍阅读法开始；它能让你达到80%的目标。
 
-[如何阅读研究论文（Andrew Ng）](https://forums.fast.ai/t/how-to-read-research-papers-andrew-ng/66892)  
-[Yann LeCun关于阅读/发表的推文](https://x.com/ylecun/status/1845792947389755474)  
+[如何阅读研究论文（Andrew Ng）](https://forums.fast.ai/t/how-to-read-research-papers-andrew-ng/66892)
+[Yann LeCun关于阅读/发表的推文](https://x.com/ylecun/status/1845792947389755474)
 [理查德·萨顿的《苦涩的教训》](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)

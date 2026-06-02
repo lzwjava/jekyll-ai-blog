@@ -30,15 +30,15 @@ type: note
 │  File: ~/.openclaw/openclaw.json                                        │
 │  Keys:  baseUrl, webhookPublicUrl, botSecret, rooms[].requireMention    │
 │  Purpose: How OpenClaw validates and responds to Nextcloud              │
-│                                                                         
+│
 │  baseUrl = "http://localhost:8080"                                      │
 │    ↑ Must match X-Nextcloud-Talk-Backend header exactly                │
 │    ↓ Used for BOTH incoming signature validation AND outgoing API calls  │
-│                                                                         
+│
 │  webhookPublicUrl = "http://172.17.0.1:8788"                           │
 │    ↑ Where Nextcloud should send webhooks (must be reachable from       │
 │      inside Docker network)                                             │
-│                                                                         
+│
 │  botSecret = "bgCDXVAqsN3MX..."                                        │
 │    ↑ Shared secret for HMAC signature (must match bot registration)     │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -50,16 +50,16 @@ type: note
 │  Table: oc_talk_bots_server                                            │
 │  Columns: id, name, url, url_hash, secret, features, state               │
 │  Purpose: Nextcloud's internal record of registered bots                 │
-│                                                                         
+│
 │  url = "http://172.17.0.1:8788/nextcloud-talk-webhook"                 │
 │    ↑ The webhook URL Nextcloud calls when messages arrive               │
 │    ↑ Must match OpenClaw's webhookPublicUrl                            │
-│                                                                         
+│
 │  secret = "bgCDXVAqsN3MX..."                                           │
 │    ↑ Must match OpenClaw's botSecret                                   │
 │    ↑ Used by Nextcloud to sign outgoing webhooks                        │
 │    ↑ Used by OpenClaw to verify incoming signatures                     │
-│                                                                         
+│
 │  Table: oc_talk_bots_conversation                                      │
 │  Columns: id, bot_id, token, state                                     │
 │  Purpose: Which rooms the bot is enabled in                             │

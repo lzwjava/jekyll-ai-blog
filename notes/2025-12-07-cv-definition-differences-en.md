@@ -12,7 +12,7 @@ type: note
 
 Question: What is a Curriculum Vitae?
 
-Answer: 
+Answer:
 
 A **Curriculum Vitae** (often abbreviated as **CV**) is a document that provides a detailed overview of a person's professional and academic history. The term comes from Latin and literally means "course of life."
 

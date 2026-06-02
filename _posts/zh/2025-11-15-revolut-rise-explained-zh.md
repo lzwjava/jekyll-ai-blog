@@ -46,10 +46,10 @@ Revolut由尼古拉·斯托龙斯基（曾因高额外汇费用倍感困扰的�
 
 简而言之，Revolut通过融合用户中心创新、 relentless 扩张和重新定义银行为简约全球化服务的超级应用愿景，实现了“如此庞大”的规模。它不仅是银行——更是日常金融操作系统，证明了欧洲金融科技足以抗衡（并超越）硅谷。
 
-**参考资料**  
-- [Revolut关于页面](https://www.revolut.com/about/)  
-- [从初创到独角兽：Revolut的崛起](https://www.fintechfutures.com/fintech-start-ups/from-start-up-to-unicorn-the-rise-of-revolut)  
-- [Revolut 2024年业绩](https://www.revolut.com/news/record_growth_and_diverse_product_offering_drive_revolut_to_1_4bn_profit_in_2024/)  
-- [PYMNTS：Revolut实现10亿美元利润](https://www.pymnts.com/news/digital-banking/2025/revolut-delivers-first-1-billion-profit-as-subscription-wealth-units-boom)  
-- [深度解析：Revolut——一站式应用之王](https://www.fintechwrapup.com/p/deep-dive-revolut-one-app-to-rule)  
+**参考资料**
+- [Revolut关于页面](https://www.revolut.com/about/)
+- [从初创到独角兽：Revolut的崛起](https://www.fintechfutures.com/fintech-start-ups/from-start-up-to-unicorn-the-rise-of-revolut)
+- [Revolut 2024年业绩](https://www.revolut.com/news/record_growth_and_diverse_product_offering_drive_revolut_to_1_4bn_profit_in_2024/)
+- [PYMNTS：Revolut实现10亿美元利润](https://www.pymnts.com/news/digital-banking/2025/revolut-delivers-first-1-billion-profit-as-subscription-wealth-units-boom)
+- [深度解析：Revolut——一站式应用之王](https://www.fintechwrapup.com/p/deep-dive-revolut-one-app-to-rule)
 - [关于Revolut欧洲成功的X平台推文](https://x.com/SebJohnsonUK/status/1988982959915897214)

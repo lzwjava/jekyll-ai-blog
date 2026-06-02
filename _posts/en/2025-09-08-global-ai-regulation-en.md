@@ -40,6 +40,6 @@ AI regulations shape daily life by influencing privacy, fairness, access to serv
 
 In summary, the EU offers the strongest citizen protections through proactive risk management, the USA provides flexible but inconsistent safeguards via states, and China emphasizes controlled, ethical AI for public order. As of 2025, global trends suggest convergence on transparency and bias mitigation, but geopolitical tensions may deepen divides. Businesses and citizens should monitor updates, as enforcement evolves rapidly.
 
-[EU AI Act](https://artificialintelligenceact.eu/)  
-[US AI Legislation Tracker](https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation)  
+[EU AI Act](https://artificialintelligenceact.eu/)
+[US AI Legislation Tracker](https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation)
 [China Generative AI Measures](https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-china)

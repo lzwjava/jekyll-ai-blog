@@ -38,13 +38,13 @@ type: note
 
 总而言之，这些高收入群体确实举步维艰，使香港「人才枢纽」的光环成为双刃剑。近期政策调整（如减印花税）或使2026年形势稍缓，但眼下仍有众多高薪人士被拒于楼市门外。
 
-[2025年香港特别行政区金融分析师薪资](https://www.morganmckinley.com/hk/salary-guide/data/financial-analyst/hong-kong-sar)  
-[香港特别行政区金融分析师薪资（2025）](https://www.salaryexpert.com/salary/job/financial-analyst/hong-kong-sar)  
-[2025年香港IT与科技行业薪资指南](https://www.roberthalf.com/hk/en/insights/salary-guide/technology)  
-[香港特别行政区计算机工程师薪资（2025）](https://www.salaryexpert.com/salary/job/computer-engineer/hong-kong-sar)  
-[2025年香港住宅房地产市场分析](https://www.globalpropertyguide.com/asia/hong-kong/price-history)  
-[香港连续15年蝉联全球最难负担楼市](https://www.thestandard.com.hk/market/article/308955/Hong-Kong-remains-worlds-least-affordable-housing-market-for-15th-year-report)  
-[香港利率](https://tradingeconomics.com/hong-kong/interest-rate)  
-[利率更新 - 香港按揭证券有限公司](https://www.hkmc.com.hk/eng/information_centre/rates_update.html)  
-[香港年轻专业人士的生存挤压](https://sg.finance.yahoo.com/news/tight-squeeze-hong-kongs-young-professionals-045112600.html)  
+[2025年香港特别行政区金融分析师薪资](https://www.morganmckinley.com/hk/salary-guide/data/financial-analyst/hong-kong-sar)
+[香港特别行政区金融分析师薪资（2025）](https://www.salaryexpert.com/salary/job/financial-analyst/hong-kong-sar)
+[2025年香港IT与科技行业薪资指南](https://www.roberthalf.com/hk/en/insights/salary-guide/technology)
+[香港特别行政区计算机工程师薪资（2025）](https://www.salaryexpert.com/salary/job/computer-engineer/hong-kong-sar)
+[2025年香港住宅房地产市场分析](https://www.globalpropertyguide.com/asia/hong-kong/price-history)
+[香港连续15年蝉联全球最难负担楼市](https://www.thestandard.com.hk/market/article/308955/Hong-Kong-remains-worlds-least-affordable-housing-market-for-15th-year-report)
+[香港利率](https://tradingeconomics.com/hong-kong/interest-rate)
+[利率更新 - 香港按揭证券有限公司](https://www.hkmc.com.hk/eng/information_centre/rates_update.html)
+[香港年轻专业人士的生存挤压](https://sg.finance.yahoo.com/news/tight-squeeze-hong-kongs-young-professionals-045112600.html)
 [香港：住房危机创下新纪录](https://chinaworker.info/en/2019/03/25/20021/)

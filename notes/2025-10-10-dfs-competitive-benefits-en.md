@@ -15,7 +15,7 @@ type: note
 Depth-First Search (DFS) is a fundamental graph traversal algorithm that's widely used in competitive programming because it efficiently explores problems involving connectivity, paths, and recursive structures. Here's why it's particularly valuable:
 
 - **Efficiency for Deep Exploration**: DFS dives deep into one path before backtracking, making it ideal for problems where you need to find a single path, detect cycles, or explore all possibilities exhaustively (e.g., in backtracking scenarios). Its time complexity is O(V + E) for graphs (V = vertices, E = edges), which is linear and fast for most contest constraints.
-  
+
 - **Handles Recursive Problems Naturally**: Many problems can be modeled as trees or graphs with recursive subproblems (e.g., mazes, puzzles, or tree traversals). DFS uses the call stack for recursion, keeping code simple and memory-efficient compared to iterative approaches.
 
 - **Versatile for Graph Problems**: It's great for detecting connected components, finding bridges/articulation points, topological sorting, or solving bipartite graphs. In contests, graphs often hide in disguise (e.g., as strings or grids), and DFS shines there.

@@ -11,7 +11,7 @@ type: note
 
 Question: Do people still need physical credit cards nowadays, given that many products and services are available online and support Apple Pay, such as Uber or canteen dishes?
 
-Answer: 
+Answer:
 
 You're right that digital payments, especially through mobile wallets like **Apple Pay**, have become very common and convenient in 2026. Many everyday transactions — online shopping, ride-hailing apps like Uber, food delivery, in-store contactless payments at cafes, supermarkets, or even some canteens — can now be handled easily by adding a card to Apple Pay (or Google Pay, Samsung Pay, etc.) and tapping your phone or watch.
 
@@ -37,7 +37,7 @@ In terms of trends (as of early 2026):
 
 Overall, many people (especially in tech-forward areas or younger demographics) can go almost cardless day-to-day using Apple Pay and similar services. But for full flexibility, reliability, and certain use cases, most still keep at least one physical credit or debit card as a safety net. The future is hybrid — digital for convenience, physical for universality.
 
-References:  
+References:
 
 - [Digital Wallet Statistics (2026): Users, Growth Rate & Trends](https://capitaloneshopping.com/research/digital-wallet-statistics)
 - [Mobile wallet trends for banks to watch in 2026](https://www.americanbanker.com/payments/news/mobile-wallet-trends-for-banks-to-watch-in-2026)

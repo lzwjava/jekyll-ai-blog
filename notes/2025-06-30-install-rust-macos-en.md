@@ -10,10 +10,10 @@ type: note
 
 ## Installing Rust using rustup
 
-1. **Open Terminal**  
+1. **Open Terminal**
     You can find Terminal in **Applications > Utilities** or search for it using Spotlight.
 
-2. **Install rustup and Rust**  
+2. **Install rustup and Rust**
     Run the following command to download and run the rustup installation script:
 
     ```sh
@@ -22,7 +22,7 @@ type: note
 
     The script will prompt you to proceed. Press `1` for the default installation.
 
-3. **Configure Your Shell**  
+3. **Configure Your Shell**
     After installation, you may need to add Rust to your system `PATH`. The installer will provide a command similar to:
 
     ```sh
@@ -31,7 +31,7 @@ type: note
 
     Add this line to your shell configuration file (e.g., `.zshrc`, `.bashrc`, or `.bash_profile`) to make Rust available in future sessions.
 
-4. **Verify Installation**  
+4. **Verify Installation**
     Check that Rust is installed correctly:
 
     ```sh
@@ -68,7 +68,7 @@ Alternatively, you can use [Homebrew](https://brew.sh/) to install Rust, though 
 
 ## Compiling Rust Code
 
-1. **Write a Rust Program**  
+1. **Write a Rust Program**
     Create a file named `main.rs` with the following content:
 
     ```rust
@@ -77,7 +77,7 @@ Alternatively, you can use [Homebrew](https://brew.sh/) to install Rust, though 
     }
     ```
 
-2. **Compile the Program**  
+2. **Compile the Program**
     In the terminal, navigate to the directory containing your file and run:
 
     ```sh

@@ -12,7 +12,7 @@ type: note
 
 Question: How accurate is the claim that almost the entire original Bolshevik leadership was executed or murdered under Stalin's Soviet Union (e.g., Trotsky assassinated in Mexico, etc.)?
 
-Answer: 
+Answer:
 
 The claim is largely accurate. By the late 1930s, under Joseph Stalin’s rule, the vast majority of the original Bolshevik leadership from the October Revolution of 1917 had been executed, died in prison, or been assassinated abroad during the Great Purge (1936–1938) and related repressions.
 

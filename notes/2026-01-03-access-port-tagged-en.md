@@ -12,7 +12,7 @@ type: note
 
 Question: How does an access port handle VLAN-tagged frames?
 
-Answer: 
+Answer:
 
 An **access port** on a switch is designed to connect to end devices (e.g., PCs, printers, IP phones) and belongs to a single VLAN (configured as the access VLAN). It operates in **untagged** mode for that VLAN.
 

@@ -78,7 +78,7 @@ nginx -v
 
 After this you can use the `nginx` command and your directory listing setup at `/movies/` should work.
 
-**References:**  
+**References:**
 
-- [http://nginx.org/en/linux_packages.html](http://nginx.org/en/linux_packages.html)  
+- [http://nginx.org/en/linux_packages.html](http://nginx.org/en/linux_packages.html)
 - [https://nginx.org/en/docs/install.html](https://nginx.org/en/docs/install.html)

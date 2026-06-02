@@ -53,7 +53,7 @@ Hu Shi argues this principle explains:
 
 ## The Deeper Message
 
-Hu Shi's point is profound: **the greatest enemy of freedom isn't a particular ideology, but the psychology of absolute certainty**. 
+Hu Shi's point is profound: **the greatest enemy of freedom isn't a particular ideology, but the psychology of absolute certainty**.
 
 When anyone—whether religious reformer, political revolutionary, or ideological zealot—becomes convinced they possess absolute truth, intolerance inevitably follows.
 

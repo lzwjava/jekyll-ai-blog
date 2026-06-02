@@ -11,7 +11,7 @@ type: note
 
 Question: Given last year's Ikang体检 results showing moderate fatty liver, elevated ALT and AST, elevated total cholesterol and triglycerides, elevated absolute lymphocyte count, positive urine protein, and elevated BMI, which 2025 employee package (A regular, B no radiation, C with genetic testing, D with chest CT) should a 30-year-old male software engineer choose?
 
-Answer: 
+Answer:
 
 Your last year's results point to several common but actionable issues for a ~30-year-old sedentary office worker like a software engineer:
 
@@ -42,8 +42,8 @@ All packages likely include basics like liver function (ALT/AST), blood lipids, 
 
 If your company allows upgrading or adding items separately (some do for employee packages), consider adding fibroscan/liver elastography if offered, as it's excellent for fatty liver staging without radiation.
 
-References:  
+References:
 
-- [爱康国宾体检项目描述示例（肝功能、脂肪肝相关）](https://mall.ikang.com/special/82)  
-- [NAFLD与肺结节关联研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228712/)  
+- [爱康国宾体检项目描述示例（肝功能、脂肪肝相关）](https://mall.ikang.com/special/82)
+- [NAFLD与肺结节关联研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228712/)
 - [NAFLD影像筛查与辐射考虑](https://www.e-cmh.org/journal/view.php?doi=10.3350%2Fcmh.2017.0042)

@@ -28,11 +28,11 @@ Not exactly—there's an important distinction between **IP forwarding** (also c
 - To make a computer accessible from the internet, you normally need **port forwarding** (destination NAT) or a **1:1 NAT / DMZ / IP passthrough** configuration that actually maps a public IP to the internal device.
 - Some routers/ISPs offer a true “IP passthrough” or “bridge” mode where one LAN device gets the real public IP directly; in that case IP forwarding is still happening, but NAT is bypassed for that device.
 
-So in short:  
-Plain IP forwarding = routing packets.  
+So in short:
+Plain IP forwarding = routing packets.
 Making a LAN computer reachable from outside = usually port forwarding or 1:1 NAT, not just “IP forwarding.”
 
-References:  
-- [Wikipedia - Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation)  
-- [Wikipedia - Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)  
+References:
+- [Wikipedia - Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation)
+- [Wikipedia - Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
 - [Cisco - Understanding IP Routing](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13748-24.html)

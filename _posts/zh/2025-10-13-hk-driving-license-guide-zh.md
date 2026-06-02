@@ -54,6 +54,6 @@ type: note
 
 更多详情请直接访问香港运输署网站或致电热线（2804 2600）。若遇店铺强行推销，请果断离开——谨防受骗比贪图方便更重要。
 
-[持海外驾驶执照在香港驾驶](https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html)  
-[香港正式驾驶执照免试签发](https://www.info.gov.hk/gia/general/202507/23/P2025072300268.htm)  
+[持海外驾驶执照在香港驾驶](https://www.td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html)
+[香港正式驾驶执照免试签发](https://www.info.gov.hk/gia/general/202507/23/P2025072300268.htm)
 [内地居民申请香港驾照数量上升](https://www.scmp.com/news/hong-kong/transport/article/3316636/mainland-drivers-can-apply-hong-kong-entry-permits-november-under-southbound-scheme)

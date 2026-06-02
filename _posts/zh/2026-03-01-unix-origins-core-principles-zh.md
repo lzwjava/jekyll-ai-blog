@@ -36,7 +36,7 @@ Unix 系统遵循一套至今仍有影响的设计原则：
 
 ### Unix 系统的核心组件
 
-1. **Kernel**  
+1. **Kernel**
    操作系统的核心。管理：
    - 进程调度
    - 内存管理
@@ -44,7 +44,7 @@ Unix 系统遵循一套至今仍有影响的设计原则：
    - 文件系统
    - 系统调用
 
-2. **Shell**  
+2. **Shell**
    命令行解释器，读取用户输入并执行命令。流行 shell：
    - **sh**（Bourne shell —— 原始版）
    - **bash**（Bourne-Again SHell —— 最常见）
@@ -62,7 +62,7 @@ Unix 系统遵循一套至今仍有影响的设计原则：
    - `/dev`            — 设备文件
    - `/proc`           — 虚拟文件系统，包含进程及内核信息（Linux）
 
-4. **Programs / Utilities**  
+4. **Programs / Utilities**
    数千个小型工具：`ls`、`cat`、`grep`、`awk`、`sed`、`find`、`sort`、`wc` 等。
 
 ### Unix 的关键特性
@@ -124,7 +124,7 @@ tail -n 100 -f /var/log/syslog | grep error
 
 学习 Unix 基础意味着掌握直接适用于 Linux、macOS 终端、WSL、容器（Docker）、云服务器（AWS、GCP、Azure）和 DevOps 工作流的技能。
 
-参考文献：  
+参考文献：
 
 - [Introduction to UNIX System - GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/introduction-to-unix-system)
 - [Unix - Wikipedia](https://en.wikipedia.org/wiki/Unix)

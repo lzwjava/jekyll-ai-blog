@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-This blog post discusses a Flutter project, likely a personal blog application. The provided file structure suggests a standard Flutter project setup, including platform-specific directories (android, ios, linux, macos, web) and core Flutter files (lib/main.dart, pubspec.yaml). The absence of specific details necessitates a general overview. 
+This blog post discusses a Flutter project, likely a personal blog application. The provided file structure suggests a standard Flutter project setup, including platform-specific directories (android, ios, linux, macos, web) and core Flutter files (lib/main.dart, pubspec.yaml). The absence of specific details necessitates a general overview.
 
 A typical Flutter project involves building user interfaces with widgets, managing application state, handling user input, and integrating with platform-specific features or external APIs. The `main.dart` file serves as the entry point, defining the application's initial widget tree. The `pubspec.yaml` file manages dependencies and project metadata.
 

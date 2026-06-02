@@ -32,7 +32,7 @@ Agent A（编码者）："修复 Agent B 发现的失败"
 delegate_task(goal="使用 JWT 实现用户认证模块", toolsets=["terminal","file"])
 
 # 阶段 2：测试（独立代理，无阶段 1 的上下文）
-delegate_task(goal="审查并测试 /src/auth.py——编写 pytest 测试，运行它们，识别边缘情况，报告失败", 
+delegate_task(goal="审查并测试 /src/auth.py——编写 pytest 测试，运行它们，识别边缘情况，报告失败",
               toolsets=["terminal","file"])
 ```
 

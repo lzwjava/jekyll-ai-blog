@@ -12,7 +12,7 @@ type: note
 
 Question: Which layer of the OSI or TCP/IP model do iptables settings operate on?
 
-Answer: 
+Answer:
 
 iptables (the classic Linux kernel packet filtering framework) primarily operates at **Layer 3 (Network layer)** and **Layer 4 (Transport layer)** of the OSI model:
 

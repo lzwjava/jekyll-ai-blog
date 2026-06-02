@@ -144,7 +144,7 @@ type: note
 - **注意事项**：这些方案均基于标准 HTTP 协议故具备跨语言特性，需 JSON 结构验证时可搭配 `jsonschema` 等库，建议在 Jenkins 或 GitHub Actions 等 CI/CD 工具中运行
 
 ### 参考资料
-[2025 年值得切换的顶级 Python 测试框架](https://medium.com/@hadiyolworld007/top-python-testing-frameworks-in-2025-you-should-switch-to-6ddeb679ccd5)  
-[2025 年最值得关注的 10 大 Python 测试框架](https://www.lambdatest.com/blog/top-python-testing-frameworks/)  
-[2025 年 14 款最佳 Python 自动化测试工具](https://apidog.com/blog/best-python-testing-tools-2025/)  
+[2025 年值得切换的顶级 Python 测试框架](https://medium.com/@hadiyolworld007/top-python-testing-frameworks-in-2025-you-should-switch-to-6ddeb679ccd5)
+[2025 年最值得关注的 10 大 Python 测试框架](https://www.lambdatest.com/blog/top-python-testing-frameworks/)
+[2025 年 14 款最佳 Python 自动化测试工具](https://apidog.com/blog/best-python-testing-tools-2025/)
 [2025 年最佳开源 API 测试工具](https://testguild.com/12-open-source-api-testing-tools-rest-soap-services/)

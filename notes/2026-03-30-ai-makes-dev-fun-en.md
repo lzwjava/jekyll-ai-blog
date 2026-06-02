@@ -59,7 +59,7 @@ The core of enjoyment in any activity is:
 
 > **Effort → Feedback → Reward**
 
-Traditional coding stretched this loop over **days or weeks**.  
+Traditional coding stretched this loop over **days or weeks**.
 AI-assisted coding compresses it to **minutes or hours**.
 
 - You get dopamine hits **constantly**

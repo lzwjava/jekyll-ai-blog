@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about communication or collaboration in big corporate engineering teams?
 
-Answer: 
+Answer:
 
 Here are several contrarian or unpopular views on communication and collaboration practices commonly praised in large corporate engineering teams (e.g., at Big Tech or similar organizations). These challenge mainstream advice like "more meetings are better," "Agile/Scrum maximizes collaboration," or "constant open communication boosts productivity."
 
@@ -30,7 +30,7 @@ Here are several contrarian or unpopular views on communication and collaboratio
 
 These ideas are "unpopular" because they push back against dominant corporate cultures emphasizing hyper-collaboration, but proponents argue they lead to higher-quality output in complex engineering environments.
 
-References:  
+References:
 
 - https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/
 - https://stackoverflow.blog/2020/06/29/does-scrum-ruin-great-engineers-or-are-you-doing-it-wrong/

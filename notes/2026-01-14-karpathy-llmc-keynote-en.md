@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=aR6CzM0x-g0 say?
 
-Answer: 
+Answer:
 
 The video is a keynote talk titled **"CUDA Mode Keynote | Andrej Karpathy | Eureka Labs"** by Andrej Karpathy, presented at the first CUDA Mode IRL hackathon event organized by Accel.
 
@@ -43,7 +43,7 @@ The talk is technical but accessible if you're familiar with deep learning basic
 
 Karpathy also wrote a detailed accompanying Twitter/X thread breaking it down further.
 
-References:  
-- [YouTube Video](https://www.youtube.com/watch?v=aR6CzM0x-g0)  
-- [Andrej Karpathy's X thread on the keynote](https://x.com/karpathy/status/1841536804073439268)  
+References:
+- [YouTube Video](https://www.youtube.com/watch?v=aR6CzM0x-g0)
+- [Andrej Karpathy's X thread on the keynote](https://x.com/karpathy/status/1841536804073439268)
 - [Accel event page with more context](https://www.accel.com/noteworthy/6-keynotes-from-the-first-cuda-mode-irl-hackathon)

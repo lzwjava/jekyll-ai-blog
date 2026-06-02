@@ -53,7 +53,7 @@ def kill_process_on_port(port, kind='inet'):
     if not pids:
         print(f"No process found listening on port {port}.")
         return
-    
+
     for pid in pids:
         try:
             proc = psutil.Process(pid)

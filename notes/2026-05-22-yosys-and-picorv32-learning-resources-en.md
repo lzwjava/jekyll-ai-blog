@@ -81,7 +81,7 @@ Understanding KV cache, CUDA warp scheduling, tensor core layout
 Reading PicoRV32 will teach you:
 
 - **Register file** — how weights/activations live in hardware registers
-- **ALU pipeline** — how matrix ops decompose to add/multiply at gate level  
+- **ALU pipeline** — how matrix ops decompose to add/multiply at gate level
 - **Memory interface (AXI/Wishbone)** — foundation for understanding HBM, GDDR, memory coalescing
 - **Stall/hazard logic** — directly analogous to GPU warp stalls on memory latency
 
@@ -130,7 +130,7 @@ Running `stat` on PicoRV32 will show you ~2000-4000 cells — that's a real CPU 
 Given your trajectory toward GPU/AI hardware understanding:
 
 ```
-PicoRV32 (read the Verilog) 
+PicoRV32 (read the Verilog)
   → nanoGPT (which you've already done)
   → understand why matmul maps so well to GPU tensor cores
   → read "Why is GPU programming so hard?" by Tim Dettmers

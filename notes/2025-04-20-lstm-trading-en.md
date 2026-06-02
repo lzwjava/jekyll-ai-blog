@@ -102,64 +102,64 @@ class StockLSTM(nn.Module):
 def prepare_data(df, sequence_length=60, target_col='close'):
     scaler = MinMaxScaler()
     scaled_data = scaler.fit_transform(df[[target_col]].values)
-    
+
     X, y = [], []
     for i in range(len(scaled_data) - sequence_length):
         X.append(scaled_data[i:i + sequence_length])
         y.append(scaled_data[i + sequence_length])
-    
+
     X = np.array(X)
     y = np.array(y)
-    
+
     # Split into train and test
     train_size = int(0.8 * len(X))
     X_train, X_test = X[:train_size], X[train_size:]
     y_train, y_test = y[:train_size], y[train_size:]
-    
+
     return torch.Tensor(X_train), torch.Tensor(y_train), torch.Tensor(X_test), torch.Tensor(y_test), scaler
 
 # --- Training Loop ---
 def train_model(model, X_train, y_train, X_test, y_test, num_epochs=50, lr=3e-4):
     criterion = nn.MSELoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-    
+
     training_loss, validation_loss = [], []
-    
+
     for epoch in range(num_epochs):
         model.train()
         outputs = model(X_train)
         loss = criterion(outputs, y_train)
-        
+
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        
+
         training_loss.append(loss.item())
-        
+
         model.eval()
         with torch.no_grad():
             val_outputs = model(X_test)
             val_loss = criterion(val_outputs, y_test)
             validation_loss.append(val_loss.item())
-        
+
         if epoch % 5 == 0:
             print(f'Epoch {epoch}, Training Loss: {training_loss[-1]:.4f}, Validation Loss: {validation_loss[-1]:.4f}')
-    
+
     return training_loss, validation_loss
 
 # --- Main Execution ---
 if __name__ == '__main__':
     # Fetch historical data
     df = get_history_data(symbol='00700', limit=1000)
-    
+
     # Prepare data
     sequence_length = 60
     X_train, y_train, X_test, y_test, scaler = prepare_data(df, sequence_length=sequence_length, target_col='close')
-    
+
     # Initialize and train LSTM
     model = StockLSTM(input_size=1, hidden_size=50, num_layers=1)
     training_loss, validation_loss = train_model(model, X_train, y_train, X_test, y_test, num_epochs=50)
-    
+
     # Plot training and validation loss
     plt.figure()
     plt.plot(training_loss, 'r', label='Training Loss')
@@ -168,16 +168,16 @@ if __name__ == '__main__':
     plt.xlabel('Epoch')
     plt.ylabel('MSE Loss')
     plt.show()
-    
+
     # Make predictions
     model.eval()
     with torch.no_grad():
         predicted = model(X_test).numpy()
-    
+
     # Inverse transform predictions
     predicted = scaler.inverse_transform(predicted)
     y_test_actual = scaler.inverse_transform(y_test.numpy())
-    
+
     # Plot predictions vs actual
     plt.figure()
     plt.plot(y_test_actual, 'b', label='Actual Close Price')

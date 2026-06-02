@@ -12,7 +12,7 @@ type: note
 
 Question: How has the Meiri Youxian (每日优鲜, Everyday Freshness, also known as Missfresh) app platform in China performed in recent years?
 
-Answer: 
+Answer:
 
 Meiri Youxian (Missfresh), a pioneering online fresh grocery delivery platform in China known for its front-warehouse model promising fast delivery (e.g., 1-2 hours), experienced rapid growth in its early years but has faced severe decline and near-collapse in recent times.
 
@@ -36,11 +36,11 @@ Meiri Youxian (Missfresh), a pioneering online fresh grocery delivery platform i
 
 Overall, after burning through billions in funding, Missfresh represents a cautionary tale of over-expansion in China's competitive online grocery market.
 
-References:  
+References:
 
-- [Crunchbase: Missfresh Profile](https://www.crunchbase.com/organization/missfresh-e-commerce)  
-- [Yahoo Finance: Missfresh Delisting Notice (2023)](https://finance.yahoo.com/news/missfresh-receives-delisting-notice-nasdaq-120000582.html)  
-- [Nasdaq Delisting Announcement (2024)](https://finance.yahoo.com/news/delisting-securities-sono-group-n-210500806.html)  
-- [Missfresh Securities Settlement (2024)](https://www.missfreshsecuritiessettlement.com/)  
-- [TianYanCha: Company Risks (Chinese Business Registry)](https://www.tianyancha.com/company/24894644)  
+- [Crunchbase: Missfresh Profile](https://www.crunchbase.com/organization/missfresh-e-commerce)
+- [Yahoo Finance: Missfresh Delisting Notice (2023)](https://finance.yahoo.com/news/missfresh-receives-delisting-notice-nasdaq-120000582.html)
+- [Nasdaq Delisting Announcement (2024)](https://finance.yahoo.com/news/delisting-securities-sono-group-n-210500806.html)
+- [Missfresh Securities Settlement (2024)](https://www.missfreshsecuritiessettlement.com/)
+- [TianYanCha: Company Risks (Chinese Business Registry)](https://www.tianyancha.com/company/24894644)
 - [Official Website (Current State)](https://www.missfresh.cn/)

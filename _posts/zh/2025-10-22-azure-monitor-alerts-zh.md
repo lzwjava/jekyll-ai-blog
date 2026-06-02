@@ -103,7 +103,7 @@ Azure Monitor 支持多种警报类型，以适应不同的数据源：
 
 对于日志警报或其他类型，过程类似——将条件替换为查询即可。
 
-[Azure Monitor 警报概述](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)  
-[创建指标警报规则](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)  
-[创建日志警报规则](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-log-alert-rule)  
+[Azure Monitor 警报概述](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)
+[创建指标警报规则](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
+[创建日志警报规则](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-log-alert-rule)
 [Azure Monitor 定价](https://azure.microsoft.com/en-us/pricing/details/monitor/)

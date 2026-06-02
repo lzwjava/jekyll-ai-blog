@@ -32,5 +32,5 @@ For 1 layer: `--n_layer=1 --n_head=2 --n_embd=64` (further scaled to keep it lig
 
 In summary, 4 layers is a practical reduction for quick prototyping or low-resource runs (still usable output), while 1 layer is more educational than effective—great for understanding the block's role but not for serious modeling. If you're targeting GPT-2's 12 layers, dropping to 4 would roughly double the loss and halve coherence on benchmarks.
 
-[karpathy/nanoGPT GitHub](https://github.com/karpathy/nanoGPT)  
+[karpathy/nanoGPT GitHub](https://github.com/karpathy/nanoGPT)
 [VizuaraAI/nano-gpt-oss GitHub](https://github.com/VizuaraAI/nano-gpt-oss)

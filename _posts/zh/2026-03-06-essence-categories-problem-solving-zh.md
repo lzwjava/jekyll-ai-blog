@@ -11,7 +11,7 @@ type: note
 
 问题：基于提供的链接以及世界关乎分类和本质的想法，讨论了与使用 under-correction glasses 修复近视以及使用 AI 修复错误相关的强大分类思维方法是什么？
 
-回答： 
+回答：
 
 核心观点是，**categorization**（或将事物分类为不同的类型/本质/类别）是一种高度强大的思维工具和问题解决方法。通过识别根本“本质”或将相似问题归为一组，可以更有效地解决复杂问题——一次专注于一个类别，能带来更清晰、更快速和更高质量的结果。这种方法避免了注意力的分散，并防止不同问题类型之间的干扰。
 
@@ -49,7 +49,7 @@ type: note
 
 这种“按类别划分，一一征服”的思维被呈现为一种通用的、强大的硬问题解决方法。
 
-参考文献：  
+参考文献：
 
 - [Focused AI Fixes for Windows Issues](https://lzwjava.github.io/ai-fixes-win-focus-en)
 - [Yinwang's Post on Myopia](https://www.yinwang.org/posts/myopia)

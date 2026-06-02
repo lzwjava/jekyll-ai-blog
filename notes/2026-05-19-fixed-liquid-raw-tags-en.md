@@ -18,7 +18,7 @@ The problem: Jekyll's Liquid parser runs before markdown rendering, so `{{ }}` a
 The fix: Wrapped each affected fenced code block with `{% raw %}...{% endraw %}` so Liquid leaves the content untouched:
 
 - **Ansible posts** (2 topics): `{{ source_dir }}`, `{{ item.path | relpath(...) }}` etc.
-- **JSX post**: `{{ color: "red" }}` style objects  
+- **JSX post**: `{{ color: "red" }}` style objects
 - **Vault post**: Go template `{{.UserDN}}`
 - **Angular posts** (3 topics): `{{ count() }}`, `{{ totalItems$ | async }}`
 - **GitHub Actions post**: `{{ inputs.version || 'latest' }}`

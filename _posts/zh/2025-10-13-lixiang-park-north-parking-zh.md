@@ -34,7 +34,7 @@ type: note
 
 如需最新动态（如2025年10月活动），请关注"美丽深圳"公众号。祝您尽享荔枝飘香！
 
-[深圳荔香公园停车预约指南](https://m.bendibao.com/show923988.html)  
-[深圳公园一键预约停车](https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10716733.html)  
-[广州智慧停车政策](https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsfzhggwyh/content/post_8427247.html)  
+[深圳荔香公园停车预约指南](https://m.bendibao.com/show923988.html)
+[深圳公园一键预约停车](https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10716733.html)
+[广州智慧停车政策](https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsfzhggwyh/content/post_8427247.html)
 [荔香公园官方信息](https://www.sz.gov.cn/szzt2010/gysz/csgy/content/post_10788330.html)

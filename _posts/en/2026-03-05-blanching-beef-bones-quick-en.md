@@ -11,14 +11,14 @@ type: note
 
 Question: For beef bones, how long should we blanch them? For the portion for one person, is 30 minutes appropriate? And does it make sense to add cooking wine (料酒) when blanching, since the water volume is large and even one cup of cooking wine would be a very small proportion and have little overall effect, right?
 
-Answer: 
+Answer:
 
 Here are the standard and practical guidelines for **blanching beef bones** (mainly for making clear broth / soup stock):
 
 ### Recommended blanching time for beef bones
 - **Most common and recommended range**: **5–15 minutes** after the water returns to a full boil.
 - **Typical home practice in Chinese cooking**: **8–12 minutes** is the sweet spot for most people.
-- **For one person’s portion** (e.g. 500–800 g beef bones): **8–12 minutes** is usually sufficient.  
+- **For one person’s portion** (e.g. 500–800 g beef bones): **8–12 minutes** is usually sufficient.
   You do **not** need 30 minutes for blanching — 30 minutes is way too long and is closer to the start of actual simmering time, not blanching.
 
 ### Why 30 minutes is too long for blanching
@@ -60,9 +60,9 @@ So realistically:
 5. Drain, rinse bones under running cold water to wash off any remaining scum
 6. Then start the real soup: fresh cold water + bones + ginger + scallions + etc., bring to boil, then simmer 3–8 hours depending on the style
 
-**Summary**:  
-- Blanch **8–12 minutes** (not 30 minutes)  
+**Summary**:
+- Blanch **8–12 minutes** (not 30 minutes)
 - Adding 料酒 during blanching is optional and has only marginal effect — ginger is more important for odor control
 
-References:  
+References:
 - None (standard Chinese home cooking practice for beef bone broth / 清炖牛骨汤)

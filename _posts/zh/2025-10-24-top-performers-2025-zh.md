@@ -29,8 +29,8 @@ type: note
 
 作为参照，截至2025年第三季度标普500指数上涨约14%，所有机构均跑赢大盘。
 
-[桥水飙升26%领跑大型对冲基金阵营](https://www.bloomberg.com/news/articles/2025-10-02/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds)  
-[德劭通过对冲基金实现近10%的双倍回报](https://www.bloomberg.com/news/articles/2025-08-08/de-shaw-hedge-fund-doubled-returns-to-nearly-10-on-winning-week)  
-[简街101亿美元交易收入创华尔街纪录](https://www.bloomberg.com/news/articles/2025-09-02/jane-street-s-10-1-billion-trading-haul-sets-wall-street-record)  
-[桥水飙升26%领跑大型对冲基金阵营](https://www.investmentnews.com/equities/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds/262372)  
+[桥水飙升26%领跑大型对冲基金阵营](https://www.bloomberg.com/news/articles/2025-10-02/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds)
+[德劭通过对冲基金实现近10%的双倍回报](https://www.bloomberg.com/news/articles/2025-08-08/de-shaw-hedge-fund-doubled-returns-to-nearly-10-on-winning-week)
+[简街101亿美元交易收入创华尔街纪录](https://www.bloomberg.com/news/articles/2025-09-02/jane-street-s-10-1-billion-trading-haul-sets-wall-street-record)
+[桥水飙升26%领跑大型对冲基金阵营](https://www.investmentnews.com/equities/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds/262372)
 [2025年顶级50家对冲基金业绩表现](https://www.linkedin.com/posts/eric-uhlfelder-7a8335_1h2025-update-global-survey-of-the-top-50-activity-7373702240664076288-oxmj)

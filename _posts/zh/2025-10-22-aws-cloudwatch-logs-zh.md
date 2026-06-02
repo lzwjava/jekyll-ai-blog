@@ -68,6 +68,6 @@ aws logs filter-log-events --log-group-name my-log-group --filter-pattern "ERROR
 - **故障排查**：若无日志显示，请验证代理安装或服务日志功能是否启用
 - 实时监控可通过设置日志模式的指标过滤器或告警实现
 
-[使用日志组和日志流 - Amazon CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html)  
-[AWS CLI 的 CloudWatch Logs 示例](https://docs.aws.amazon.com/cli/v1/userguide/cli_cloudwatch-logs_code_examples.html)  
+[使用日志组和日志流 - Amazon CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html)
+[AWS CLI 的 CloudWatch Logs 示例](https://docs.aws.amazon.com/cli/v1/userguide/cli_cloudwatch-logs_code_examples.html)
 [使用 CloudWatch Logs Insights 分析日志数据](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html)

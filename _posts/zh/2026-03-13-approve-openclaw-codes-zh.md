@@ -122,7 +122,7 @@ openclaw pairing approve telegram <CODE>
 
 ## 重要说明
 
-  
+
 | Topic | Details |
 |---|---|
 | Code expiry | Codes expire after **1 hour** — if missed, the user must send another message to get a new code |

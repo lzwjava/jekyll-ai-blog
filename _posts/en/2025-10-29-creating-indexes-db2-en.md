@@ -48,12 +48,12 @@ ON users (email ASC);
 ```
 
 - This prevents inserting duplicate emails.
-- For partial uniqueness (e.g., ignore NULLs), add `WHERE NOT NULL`:  
+- For partial uniqueness (e.g., ignore NULLs), add `WHERE NOT NULL`:
   ```sql
   CREATE UNIQUE WHERE NOT NULL INDEX uidx_email
   ON users (email ASC);
   ```
-- You can include non-key columns for query coverage:  
+- You can include non-key columns for query coverage:
   ```sql
   CREATE UNIQUE INDEX uidx_email
   ON users (email ASC) INCLUDE (first_name, last_name);
@@ -83,7 +83,7 @@ ON orders (order_date ASC, customer_id DESC);
 - Indexes consume storage and slow inserts/updates—use them judiciously.
 - For partitioned tables or advanced options (e.g., clustering), refer to DB2 docs.
 
-[Db2 CREATE INDEX Statement](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=statements-create-index)  
-[Db2 Unique Indexes](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=attributes-unique-indexes)  
-[Db2 Composite Indexes Example](https://stackoverflow.com/questions/21597015/composite-index-creation-in-db2)  
+[Db2 CREATE INDEX Statement](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=statements-create-index)
+[Db2 Unique Indexes](https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=attributes-unique-indexes)
+[Db2 Composite Indexes Example](https://stackoverflow.com/questions/21597015/composite-index-creation-in-db2)
 [Db2 Unique Index Tutorial](https://www.db2tutorial.com/db2-index/db2-unique-index/)

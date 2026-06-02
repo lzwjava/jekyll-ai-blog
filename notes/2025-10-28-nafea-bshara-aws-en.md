@@ -28,9 +28,9 @@ Bshara's contributions extend beyond engineering; he's a sought-after speaker on
 
 Bshara's story is one of quiet determination—operating in "stealth mode" for years before emerging as a linchpin in one of the world's largest cloud providers.
 
-**References**  
-[How silicon innovation became the 'secret sauce' behind AWS's success](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)  
-[Nafea Bshara - the Israeli behind AWS's Graviton chip](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)  
-[Annapurna Labs - Wikipedia](https://en.wikipedia.org/wiki/Annapurna_Labs)  
-[The Stealthy Lab Cooking Up Amazon's Secret Sauce](https://www.wsj.com/tech/amazon-ai-chips-supercomputer-aws-annapurna-trainium-a943be71)  
+**References**
+[How silicon innovation became the 'secret sauce' behind AWS's success](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)
+[Nafea Bshara - the Israeli behind AWS's Graviton chip](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)
+[Annapurna Labs - Wikipedia](https://en.wikipedia.org/wiki/Annapurna_Labs)
+[The Stealthy Lab Cooking Up Amazon's Secret Sauce](https://www.wsj.com/tech/amazon-ai-chips-supercomputer-aws-annapurna-trainium-a943be71)
 [Silicon innovation in Cloud Computing at AWS Pace](https://ee.stanford.edu/event/10-02-2023/silicon-innovation-cloud-computing-aws-pace)

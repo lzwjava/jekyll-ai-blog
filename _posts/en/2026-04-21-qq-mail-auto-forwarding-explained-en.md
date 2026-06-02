@@ -11,7 +11,7 @@ type: note
 
 Question: In QQ Mail forwarding settings, what does the “auto forward emails” option mean, and is it part of the sending settings?
 
-Answer:  
+Answer:
 
 Yes, you are looking at the **QQ Mail “email forwarding (自动转发)” feature**, but it is not part of “sending settings”—it belongs to **mail receiving / forwarding rules**.
 
@@ -37,13 +37,13 @@ This is the destination email address (e.g. Gmail).
 
 After forwarding, QQ Mail lets you choose what happens to the original message:
 
-- **保留在本邮箱中 (Keep in this mailbox)**  
+- **保留在本邮箱中 (Keep in this mailbox)**
   → QQ Mail keeps a copy, nothing changes
 
-- **保留并标为已读 (Keep and mark as read)**  
+- **保留并标为已读 (Keep and mark as read)**
   → Still stored, but marked as read (helps avoid duplicate attention)
 
-- **自动删除 (Auto delete)**  
+- **自动删除 (Auto delete)**
   → After forwarding, QQ Mail deletes it (acts like full transfer, not backup)
 
 ---

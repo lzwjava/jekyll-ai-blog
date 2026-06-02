@@ -11,7 +11,7 @@ type: note
 
 Question: Compare solo entrepreneurs and employment in a big corporation. Should I start a startup or work in a big corp? What are the differences?
 
-Answer: 
+Answer:
 
 Here is a clear comparison between being a **solo entrepreneur** (running your own one-person business or startup as a solo founder) and being an **employee at a big corporation** (working for a large established company, often in tech, finance, or similar industries).
 
@@ -34,31 +34,31 @@ The choice depends heavily on your personality, risk tolerance, financial needs,
 
 ### Pros and Cons Summary
 
-**Solo Entrepreneur Pros**  
-- Complete freedom and ownership  
-- Unlimited earning potential  
-- Build something truly yours  
-- Fast, diverse skill development  
-- No office politics or bureaucracy  
+**Solo Entrepreneur Pros**
+- Complete freedom and ownership
+- Unlimited earning potential
+- Build something truly yours
+- Fast, diverse skill development
+- No office politics or bureaucracy
 
-**Solo Entrepreneur Cons**  
-- High financial and emotional risk  
-- Isolation and heavy workload  
-- No safety net (benefits, steady pay)  
-- Everything depends on you  
+**Solo Entrepreneur Cons**
+- High financial and emotional risk
+- Isolation and heavy workload
+- No safety net (benefits, steady pay)
+- Everything depends on you
 
-**Big Corporation Employee Pros**  
-- Stable income and benefits  
-- Job security (relatively)  
-- Resources, mentorship, and structure  
-- Better work-life balance on average  
-- Easier to build specialized expertise  
+**Big Corporation Employee Pros**
+- Stable income and benefits
+- Job security (relatively)
+- Resources, mentorship, and structure
+- Better work-life balance on average
+- Easier to build specialized expertise
 
-**Big Corporation Employee Cons**  
-- Less autonomy and slower pace  
-- Bureaucracy and politics  
-- Capped personal upside  
-- Feeling like a small cog in a big machine  
+**Big Corporation Employee Cons**
+- Less autonomy and slower pace
+- Bureaucracy and politics
+- Capped personal upside
+- Feeling like a small cog in a big machine
 
 ### Which Should You Choose?
 
@@ -69,7 +69,7 @@ A common hybrid path in recent years: Work at a big company for a few years (gai
 
 Ultimately, reflect on what matters most to you — security and steady progress, or freedom and high-reward potential.
 
-References:  
+References:
 
 - [https://foundersnetwork.com/startup-vs-big-company](https://foundersnetwork.com/startup-vs-big-company)
 - [https://www.civicrecruitment.co.uk/blog/2025/05/a-complete-guide-on-startups-vs-big-companies](https://www.civicrecruitment.co.uk/blog/2025/05/a-complete-guide-on-startups-vs-big-companies)

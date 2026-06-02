@@ -12,7 +12,7 @@ type: note
 
 Question: My Mercury 5-port 1000Mbps switch (model 5G105C, dark color, 5V 0.4A) does not act like a router and has no IP address for configuration. Is it not accessible via 192.168.2.1 or similar addresses?
 
-Answer: 
+Answer:
 
 Your device is a **Mercury** (or likely rebranded **Mercusys**) 5-port Gigabit Ethernet switch, with a model similar to SG105C, SG105M, or MS105G. These are **unmanaged desktop switches** designed for simple plug-and-play operation.
 
@@ -29,8 +29,8 @@ Your device is a **Mercury** (or likely rebranded **Mercusys**) 5-port Gigabit E
 
 If you need advanced features (e.g., a web config page), you would require a **managed switch** instead.
 
-References:  
+References:
 
-- https://skit.com.sg/products/mercury-sg105c-5-port-gigabit-ethernet-network-desktop-switch (Mercury SG105C described as plug-and-play hub)  
-- https://www.mercusys.com/en/product/details/ms105g/ (Mercusys MS105G: 5-port Gigabit unmanaged desktop switch, plug-and-play, no configuration)  
+- https://skit.com.sg/products/mercury-sg105c-5-port-gigabit-ethernet-network-desktop-switch (Mercury SG105C described as plug-and-play hub)
+- https://www.mercusys.com/en/product/details/ms105g/ (Mercusys MS105G: 5-port Gigabit unmanaged desktop switch, plug-and-play, no configuration)
 - https://www.newegg.com/luom-sg105m-5-x-rj45/p/0XP-018B-00003 (Similar Mercury SG105M listed as unmanaged, plug-and-play)

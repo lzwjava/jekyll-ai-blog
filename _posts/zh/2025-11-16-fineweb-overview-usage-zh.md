@@ -18,11 +18,11 @@ FineWeb 数据集是由 Hugging Face 开发的大规模高质量英文网络文�
 ### 环境准备
 - **Python 环境**：Python 3.8+ 并安装 Hugging Face 的 `datasets` 库
 - **存储空间**：完整数据集体积巨大（压缩后约 16TB）。建议使用流式传输进行训练时的实时处理
-- **加速选项**：安装支持 HF Transfer 的 `huggingface_hub`：  
+- **加速选项**：安装支持 HF Transfer 的 `huggingface_hub`：
   ```
   pip install huggingface_hub[hf_transfer]
   ```
-  然后设置环境变量：  
+  然后设置环境变量：
   ```
   export HF_HUB_ENABLE_HF_TRANSFER=1
   ```

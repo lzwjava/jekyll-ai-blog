@@ -34,7 +34,7 @@ OpenClaw nextcloud-talk 配置:
   botSecret: [隐藏]
   allowPrivateNetwork: true           ← 允许 Docker IP ✅
   rooms.eu42ecdy.requireMention: false
-  
+
 机器人注册:
   ID: 9, 状态: 1, 功能: webhook, response, reaction
   启用房间: eu42ecdy, 7df4dtc5

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to The Art of War for Managers.
 
-Answer: 
+Answer:
 
 **The Art of War for Managers** — Introduction
 
@@ -24,25 +24,25 @@ Many business leaders, CEOs, entrepreneurs, consultants, and executives have use
 
 The book is short (~6,000–7,000 characters in classical Chinese ≈ 60–80 pages in English translation), yet extremely dense with insight. Its value for managers lies in these recurring themes:
 
-1. **Know yourself and know your opponent**  
+1. **Know yourself and know your opponent**
    → Deep competitive intelligence + honest self-assessment of strengths/weaknesses is the foundation of good strategy.
 
-2. **Win without fighting**  
+2. **Win without fighting**
    → The highest form of victory is subduing the enemy without battle → best business outcome is often winning market share / customers / talent without price wars or destructive competition.
 
-3. **Deception and misdirection**  
+3. **Deception and misdirection**
    → “All warfare is based on deception” → managing perception, controlling information flow, creating surprise, and using feints remain powerful (product launches, negotiation, branding, talent poaching, etc.).
 
-4. **Shape the battlefield**  
+4. **Shape the battlefield**
    → Excellent managers shape the conditions of competition rather than just reacting (choose which markets to fight in, set industry standards, control key bottlenecks / platforms / data).
 
-5. **Speed, momentum & timing (shi 勢)**  
+5. **Speed, momentum & timing (shi 勢)**
    → Build and exploit momentum; act decisively when the moment is right; avoid attritional slugfests.
 
-6. **Leadership & organizational health**  
+6. **Leadership & organizational health**
    → Unity of purpose, clear command structure, motivated people, disciplined execution, and caring for soldiers (employees) are repeatedly emphasized.
 
-7. **Adaptability over rigid plans**  
+7. **Adaptability over rigid plans**
    → “Water shapes its course according to the nature of the ground over which it flows” → strategy must flex according to reality.
 
 ### Most Frequently Cited Chapters for Business Readers
@@ -76,7 +76,7 @@ These three ideas alone can serve as a surprisingly complete compass for most ma
 
 Would you like a deeper dive into any specific chapter or modern business case examples?
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/The_Art_of_War](https://en.wikipedia.org/wiki/The_Art_of_War)
 - [https://suntzusaid.com/](https://suntzusaid.com/) (full text with multiple translations)

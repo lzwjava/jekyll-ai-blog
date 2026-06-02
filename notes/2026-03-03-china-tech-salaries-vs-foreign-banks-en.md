@@ -11,7 +11,7 @@ type: note
 
 Question: Why do OPPO or Vivo pay better than foreign banks or corporations in China, like competing with Microsoft in Suzhou, and paying twice as much as foreign banks like HSBC, DBS, Standard Chartered?
 
-Answer: 
+Answer:
 
 Chinese consumer tech companies like **OPPO** and **Vivo** (both part of the BBK Electronics group) often offer higher salaries and bonuses than foreign banks (e.g., HSBC, DBS, Standard Chartered) and even some foreign tech firms in China due to several key factors in the local market dynamics.
 
@@ -34,7 +34,7 @@ Microsoft's Suzhou operations (R&D-focused) pay competitively for tech roles (e.
 
 In summary, OPPO and Vivo pay higher to compete in the cutthroat domestic tech talent market, fueled by high stakes in smartphones/AI and strong local revenue. Foreign banks offer stability but lower upside, while even foreign tech like Microsoft faces pressure from aggressive local offers.
 
-References:  
+References:
 
 - [Alibaba is best-paying tech firm in China but Oppo, Tencent more generous with bonuses](https://www.scmp.com/tech/big-tech/article/3179959/alibaba-best-paying-tech-firm-china-oppo-tencent-more-generous)
 - [China's tech giants offer lavish year-end bonuses amid AI talent war](https://finance.yahoo.com/news/chinas-tech-giants-offer-lavish-093000392.html)

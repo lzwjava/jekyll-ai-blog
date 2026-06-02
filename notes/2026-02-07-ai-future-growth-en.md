@@ -12,7 +12,7 @@ type: note
 
 Question: Why are open source projects the current and future of development, especially in AI, and how do they achieve rapid progress with volunteer or highly driven contributors, collaboration, and AI tools, as seen in examples like llama.cpp and PyTorch?
 
-Answer: 
+Answer:
 
 Open source projects represent both the **current reality** and the **future direction** of software development, particularly in AI and machine learning. They enable rapid innovation through global collaboration, low barriers to entry, and community-driven momentum, often outpacing proprietary alternatives in speed and adaptability.
 
@@ -52,7 +52,7 @@ Open source AI is exploding:
 
 In summary, open source — especially in AI — thrives on passionate collaboration, low friction, and AI-powered productivity. Projects like **llama.cpp** (built amazingly fast in ~3 years with thousands of high-quality commits and resolved issues) and **PyTorch** prove that volunteer-driven, highly collaborative models can deliver world-class results faster than closed development.
 
-References:  
+References:
 
 - [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
 - [https://thenewstack.io/open-source-inside-2025s-4-biggest-trends](https://thenewstack.io/open-source-inside-2025s-4-biggest-trends)

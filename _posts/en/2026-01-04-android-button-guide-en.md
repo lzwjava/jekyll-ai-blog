@@ -12,12 +12,12 @@ type: note
 
 Question: To set an onClick listener for a Button in code, which method is commonly used?
 
-A) button.setOnClickListener()  
-B) button.addClickListener()  
-C) button.onClick()  
+A) button.setOnClickListener()
+B) button.addClickListener()
+C) button.onClick()
 D) button.setClickEvent()
 
-Answer: 
+Answer:
 
 The correct answer is **A) button.setOnClickListener()**.
 
@@ -47,6 +47,6 @@ button.setOnClickListener {
 
 Note: The user's selection of "C" is incorrect. The correct choice is A.
 
-References:  
-- [https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener)](https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener))  
+References:
+- [https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener)](https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener))
 - [https://developer.android.com/develop/ui/views/components/button](https://developer.android.com/develop/ui/views/components/button)

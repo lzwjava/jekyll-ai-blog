@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 在小米MiMo平台上，1 Credit 等于 1 个 token 吗？  
+**问题：** 在小米MiMo平台上，1 Credit 等于 1 个 token 吗？
 **回答：**
 
 在小米MiMo平台上，**1 Credit = 1 token**——但实际使用时还会叠加模型特定的倍数。
@@ -31,5 +31,5 @@ Lite = ¥411.84/年 → 7.2亿 Credits；Standard = ¥1045.44/年 → 24亿 Cred
 
 **参考链接：**
 
-- [小米MiMo Token 套餐指南](https://codingplan.link/en/plans/xiaomimimo)  
+- [小米MiMo Token 套餐指南](https://codingplan.link/en/plans/xiaomimimo)
 - [MiMo 平台订阅文档](https://platform.xiaomimimo.com/docs/tokenplan/subscription)

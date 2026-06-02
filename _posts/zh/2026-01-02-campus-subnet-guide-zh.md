@@ -10,15 +10,15 @@ translated: true
 type: note
 ---
 
-Question: 1. In subnet planning, what is essential for a medium-sized campus network?  
-A) Using only public IP addresses  
-B) Proper IP address subnetting and allocation  
-C) Assigning the same subnet to all departments  
-D) Avoiding VLANs entirely  
+Question: 1. In subnet planning, what is essential for a medium-sized campus network?
+A) Using only public IP addresses
+B) Proper IP address subnetting and allocation
+C) Assigning the same subnet to all departments
+D) Avoiding VLANs entirely
 
 2. (The provided answer is B)
 
-Answer: 
+Answer:
 
 ### Question 1
 
@@ -40,6 +40,6 @@ Answer:
 
 如上所述，提供的答案 **B** 是正确的。
 
-References:  
-- [Cisco Campus Network Design Basics](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Campus/campover.html)  
+References:
+- [Cisco Campus Network Design Basics](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Campus/campover.html)
 - [RFC 1918 - Address Allocation for Private Internets](https://tools.ietf.org/html/rfc1918)

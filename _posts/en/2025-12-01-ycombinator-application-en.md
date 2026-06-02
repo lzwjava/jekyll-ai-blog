@@ -59,34 +59,34 @@ The form evolves slightly per batch, but core questions remain focused on your c
 #### Company Basics
 - **What is your company name?** (Or "TBD" if pre-incorporated.)
 - **What is your URL?** (Website, landing page, or "N/A.")
-- **What is your company’s one-sentence description?**  
+- **What is your company’s one-sentence description?**
   *Advice*: Make it punchy and novel, e.g., "We're Dropbox: like an answering service, but for email." (Avoid jargon; explain value simply.)
-- **What exactly does your company do? What problem are you solving? For whom?**  
+- **What exactly does your company do? What problem are you solving? For whom?**
   *Advice*: Be user-focused: "We help X do Y by Z." Include target market size and why now.
 
 #### Progress and Traction
-- **What have you built to date? Please include links to demos, videos, etc.**  
+- **What have you built to date? Please include links to demos, videos, etc.**
   *Advice*: Link everything; if nothing, explain your plan and any prototypes.
-- **What milestones have you hit to date? (e.g., launched a product, got X users, raised $Y)?**  
+- **What milestones have you hit to date? (e.g., launched a product, got X users, raised $Y)?**
   *Advice*: Quantify: "Acquired 500 beta users via Reddit; 20% retention." Progress > perfection.
-- **What’s new since your last update?** (If reapplying.)  
+- **What’s new since your last update?** (If reapplying.)
   *Advice*: Show iteration—e.g., "Grew from 10 to 100 users in 2 months."
 
 #### Founders and Team
-- **Tell us about the founders: backgrounds, how you met, why you're the right team.**  
+- **Tell us about the founders: backgrounds, how you met, why you're the right team.**
   *Advice*: Specific stories, e.g., "We built X together at Google; combined, we have 10 years in edtech." Highlight grit (e.g., "I bootstrapped my first app at 16").
 - **Who are your co-founders, if any?** (Names, roles, % equity.)
-- **What’s your most impressive achievement as a founder (not the startup itself)?**  
+- **What’s your most impressive achievement as a founder (not the startup itself)?**
   *Advice*: Personal, specific—e.g., "Wrote open-source tool used by 1K devs" vs. vague praise. YC sees this as the #1 question for founder fit.
 
 #### Idea and Market
-- **Why is now the right time for your company?**  
+- **Why is now the right time for your company?**
   *Advice*: Tie to trends/tech (e.g., "AI APIs now make X scalable").
-- **How do you acquire customers? What’s your go-to-market strategy?**  
+- **How do you acquire customers? What’s your go-to-market strategy?**
   *Advice*: Channels + metrics, e.g., "SEO + partnerships; CAC $20, LTV $200."
-- **Who are your competitors? What sets you apart?**  
+- **Who are your competitors? What sets you apart?**
   *Advice*: Acknowledge them; focus on your edge (e.g., "Like Uber for jobs, but for blue-collar workers").
-- **How will you make money? What’s your business model?**  
+- **How will you make money? What’s your business model?**
   *Advice*: Clear revenue: "Subscription at $10/mo; targeting $1B TAM."
 
 #### Logistics and Commitment

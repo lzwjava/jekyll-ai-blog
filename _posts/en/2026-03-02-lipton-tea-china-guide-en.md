@@ -33,7 +33,7 @@ Lipton also sells **powdered products** like milk tea powder (奶茶) and fruit 
 
 These are commonly available on platforms like JD.com, with many listings for black tea packets (often labeled as red tea), green tea, jasmine, and mixed assortments. Pack sizes vary from small portable packs to large bulk boxes for home or office use.
 
-References:  
+References:
 
 - [https://just-drinks.nridigital.com/just_drinks_magazine_nov24/lipton_tea_china_market](https://just-drinks.nridigital.com/just_drinks_magazine_nov24/lipton_tea_china_market)
 - [https://baike.baidu.com/item/%E7%AB%8B%E9%A1%BF%E7%BA%A2%E8%8C%B6/7636109](https://baike.baidu.com/item/%E7%AB%8B%E9%A1%BF%E7%BA%A2%E8%8C%B6/7636109)

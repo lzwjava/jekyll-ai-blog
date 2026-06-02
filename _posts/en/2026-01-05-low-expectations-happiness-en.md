@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand Charlie Munger's quote: "The first rule of a happy life is low expectations."
 
-Answer: 
+Answer:
 
 Charlie Munger, the late vice chairman of Berkshire Hathaway and a renowned investor and thinker, often shared practical wisdom on life, including happiness. His quote—"The first rule of a happy life is low expectations"—comes from responses he gave when asked about his own contentment and longevity in happiness.
 
@@ -37,7 +37,7 @@ Munger called this "one you can easily arrange"—it's a mindset shift under you
 
 In summary, the quote is a counterintuitive but profound recipe for contentment: Lower the bar for what "should" happen, and you'll find more joy in what does.
 
-References:  
+References:
 
 - [Charlie Munger’s 1st Rule of Happiness | Medium](https://medium.com/mind-cafe/charlie-mungers-1st-rule-of-happiness-8a818539db25)
 - ['The first rule of a happy life,’ according to 97-year-old Charlie Munger | Yahoo Finance](https://finance.yahoo.com/news/charlie-munger-rule-happy-life-141605326.html)

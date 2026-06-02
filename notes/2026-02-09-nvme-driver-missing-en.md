@@ -64,7 +64,7 @@ After install (either path), run Lenovo Vantage + Windows Update for full driver
 
 Try **Path 1 first** — BIOS disable fixes this instantly for most Lenovo IdeaPad/Slim models with Intel 13th/14th gen in 2026.
 
-**References:**  
+**References:**
 
 - [https://www.youtube.com/watch?v=Sp2AYnGfIOk](https://www.youtube.com/watch?v=Sp2AYnGfIOk)
 - [https://www.intel.com/content/www/us/en/support/articles/000092508/technologies.html](https://www.intel.com/content/www/us/en/support/articles/000092508/technologies.html)

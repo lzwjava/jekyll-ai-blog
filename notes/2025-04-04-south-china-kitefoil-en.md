@@ -15,14 +15,14 @@ Kitefoiling involves riding a hydrofoil-equipped board powered by a kite, ideal 
 
 ### Step 2: Find a Location Near Guangzhou
 Here are practical options within reach:
-- **Hainan Island (Bo’ao or Sanya)**  
+- **Hainan Island (Bo’ao or Sanya)**
   - **Why**: Hainan is South China’s kitefoiling paradise, with steady winds (15+ knots, February–June) and flat water. Bo’ao, on the east coast, is a top spot with a massive beach and kite schools.
   - **Travel**: Fly from Guangzhou Baiyun International Airport to Haikou (1 hour) or Sanya (1.5 hours), then take a high-speed train or taxi to Bo’ao (1–2 hours from Haikou). Flights cost ~300–600 RMB round-trip.
   - **Wind**: Peaks March–May, side-onshore, perfect for beginners.
-- **Shenzhen (Dameisha Beach)**  
+- **Shenzhen (Dameisha Beach)**
   - **Why**: Closer to Guangzhou, with decent wind in winter (December–February, 10–15 knots) and a sandy beach. It’s less consistent than Hainan but good for a weekend trip.
   - **Travel**: High-speed train from Guangzhou South Station to Shenzhen North (30–40 minutes, ~80 RMB one-way), then a taxi or bus to Dameisha (~30 minutes).
-- **Huizhou (Xunliao Bay)**  
+- **Huizhou (Xunliao Bay)**
   - **Why**: Another nearby coastal spot with occasional kiteable winds (10–15 knots, winter months) and beginner-friendly shallows.
   - **Travel**: Train from Guangzhou to Huizhou South (1.5 hours, ~100 RMB), then a 30-minute taxi ride.
 
@@ -39,7 +39,7 @@ In Guangzhou, no local shops specialize in kitefoiling, but online platforms lik
 
 ### Step 4: Take Lessons
 Kitefoiling’s steep learning curve demands instruction. Here’s where to go:
-- **Kitesurf China (Bo’ao, Hainan)**  
+- **Kitesurf China (Bo’ao, Hainan)**
   - IKO-certified school with English-speaking instructors (e.g., David, praised for professionalism). Offers beginner courses (6–10 hours, ~2,000–3,000 RMB) covering kite control, body dragging, and foiling. Book via their site or TripAdvisor reviews.
 - **Shenzhen Options**: Smaller outfits like Shenzhen Kiteboarding Club exist, but they’re less formal. Contact via WeChat groups (search “深圳风筝冲浪”) for lessons (~1,500 RMB for 6 hours).
 - **Guangzhou Meetups**: No formal schools in the city, but check WeChat or Douyin for expat water sports groups. They might organize trips to coastal spots.

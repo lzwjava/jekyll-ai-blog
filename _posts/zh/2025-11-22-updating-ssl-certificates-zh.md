@@ -51,8 +51,8 @@ type: note
 `server.xml` 中的默认密钥库配置通常如下所示（您需要 `location` 和 `password`）：
 
 ```xml
-<keyStore id="defaultKeyStore" 
-          location="${server.config.dir}/resources/security/key.p12" 
+<keyStore id="defaultKeyStore"
+          location="${server.config.dir}/resources/security/key.p12"
           password="{xor}..." />
 ```
 
@@ -63,7 +63,7 @@ type: note
 1.  **导入根/中间 CA 证书（到密钥/信任库）：**
     ```bash
     # 导航到 JRE/JDK bin 目录，例如 wlp/java/jre/bin
-    keytool -importcert -file <ca_root_cert_file>.cer -alias <root_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12 
+    keytool -importcert -file <ca_root_cert_file>.cer -alias <root_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     # 对任何中间证书重复此操作
     keytool -importcert -file <intermediate_cert_file>.cer -alias <intermediate_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     ```

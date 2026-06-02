@@ -11,11 +11,11 @@ type: note
 
 Question: Did a network outage occur for China Telecom broadband in Guangzhou around noon or early afternoon on April 9, 2026?
 
-Answer: 
+Answer:
 
 No confirmed widespread network outage for China Telecom (电信) broadband in Guangzhou was reported around noon or early afternoon on April 9, 2026.
 
-Searches across web sources and recent social media discussions (including real-time checks for April 9–10, 2026) did not reveal any major incidents, user complaints, or official announcements specifically matching this date, time, and location for fixed broadband services. 
+Searches across web sources and recent social media discussions (including real-time checks for April 9–10, 2026) did not reveal any major incidents, user complaints, or official announcements specifically matching this date, time, and location for fixed broadband services.
 
 China Telecom has experienced occasional network issues in Guangdong province in the past, such as:
 - A notable mobile network outage in June 2023 that affected Guangdong for several hours in the afternoon, linked to base station problems.
@@ -30,6 +30,6 @@ If you personally experienced a disruption, it could have been a localized probl
 
 For real-time updates, monitoring platforms like Weibo, local forums, or the China Telecom Guangdong official channels is useful during any suspected issues.
 
-References:  
-- Historical Guangdong Telecom outage reports (e.g., 2023 event) from various news summaries.  
+References:
+- Historical Guangdong Telecom outage reports (e.g., 2023 event) from various news summaries.
 - No direct April 9, 2026 reports found in current web or social searches.

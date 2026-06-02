@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major reports from Muddy Waters Research?
 
-Answer: 
+Answer:
 
 Muddy Waters Research, founded by Carson Block, is an activist short-selling firm known for publishing detailed due diligence reports alleging fraud, accounting issues, or misleading practices in publicly traded companies, often leading to significant stock price declines.
 
@@ -31,10 +31,10 @@ Muddy Waters Research, founded by Carson Block, is an activist short-selling fir
 
 These reports typically combine on-the-ground investigation, data analysis, and forensic accounting. The firm focuses on opacity in companies, historically many Chinese-listed, but increasingly global.
 
-References:  
+References:
 
-- [Muddy Waters Research Official Website](https://muddywatersresearch.com/)  
-- [Wikipedia: Muddy Waters Research](https://en.wikipedia.org/wiki/Muddy_Waters_Research)  
-- [AppLovin Report](https://muddywatersresearch.com/research/2025/mw-short-app/)  
-- [FTAI Report](https://muddywatersresearch.com/research/2025/mw-short-01152025/)  
+- [Muddy Waters Research Official Website](https://muddywatersresearch.com/)
+- [Wikipedia: Muddy Waters Research](https://en.wikipedia.org/wiki/Muddy_Waters_Research)
+- [AppLovin Report](https://muddywatersresearch.com/research/2025/mw-short-app/)
+- [FTAI Report](https://muddywatersresearch.com/research/2025/mw-short-01152025/)
 - [e.l.f. Beauty Report](https://muddywatersresearch.com/research/elf/mw-is-short-elf/)

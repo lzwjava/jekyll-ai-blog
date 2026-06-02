@@ -27,7 +27,7 @@ type: note
 1. 插入 USB
 2. 运行 `diskutil list` → 识别正确的磁盘（例如 `/dev/disk4`）
 3. 卸载其上的卷：`diskutil unmountDisk /dev/disk4`
-4. 运行 dd 命令：  
+4. 运行 dd 命令：
    `sudo dd if=/path/to/your.iso of=/dev/rdisk4 bs=4m` （或 `bs=1m`, `bs=8m` —— 使用 `rdisk` 通常更快）
 5. 等待（如果需要，按 **Ctrl+T** 查看进度）
 6. 完成后：`diskutil eject /dev/disk4`
@@ -51,10 +51,10 @@ type: note
 
 当人们在 `dd` 之前进行格式化时，**FAT32 + MBR** 是最流行的预格式化选择——它快速、兼容，并且在极少数 ISO 需要特定分区样式的情况下会有所帮助。
 
-**底线 (2026 年视角)**  
+**底线 (2026 年视角)**
 在绝大多数实际案例中——尤其是使用现代 Windows 11 ISO（包括 25H2 构建版本）时——你可以完全跳过抹掉/格式化步骤，在卸载后直接进行 `dd`。只需**极其小心**地确认磁盘标识符（`disk2`, `disk3` 等），以避免抹掉你的内置硬盘或其他重要磁盘。
 
-**References:**  
+**References:**
 
 - [https://unix.stackexchange.com/questions/75477/how-should-i-format-a-usb-prior-to-writing-an-iso-to-it](https://unix.stackexchange.com/questions/75477/how-should-i-format-a-usb-prior-to-writing-an-iso-to-it)
 - [https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/](https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/)

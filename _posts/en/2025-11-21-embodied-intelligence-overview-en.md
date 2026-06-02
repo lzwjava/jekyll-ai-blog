@@ -81,7 +81,7 @@ These three represent state-of-the-art approaches to learning robotic policies (
 
 These methods have democratized dexterous robotics: Tasks once requiring years of engineering now succeed with dozens of human demos. As datasets grow (e.g., Open X-Embodiment) and hardware improves (humanoids like Figure 01, Tesla Optimus), embodied AI is rapidly approaching versatile, helpful real-world robots.
 
-[Diffusion Policy Project Page](https://diffusion-policy.cs.columbia.edu/)  
-[RT-2 Announcement](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/)  
-[ALOHA / ACT Paper](https://tonyzhaozh.github.io/aloha/)  
+[Diffusion Policy Project Page](https://diffusion-policy.cs.columbia.edu/)
+[RT-2 Announcement](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/)
+[ALOHA / ACT Paper](https://tonyzhaozh.github.io/aloha/)
 [Open X-Embodiment Dataset](https://robotics-transformer-x.github.io/)

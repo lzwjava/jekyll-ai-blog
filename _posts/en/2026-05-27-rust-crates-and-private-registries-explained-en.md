@@ -159,7 +159,7 @@ company-platform/
 ├── Cargo.lock          # one lock file for everything
 ├── crates/
 │   ├── auth/           # internal library
-│   ├── db-client/      # internal library  
+│   ├── db-client/      # internal library
 │   ├── api-server/     # binary
 │   └── cli-tool/       # binary
 ```

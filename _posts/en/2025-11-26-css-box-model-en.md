@@ -14,22 +14,22 @@ The CSS box model describes how every element in a webpage is rendered as a rect
 
 Here is the correct structure, from the **inside** (center) to the **outside**:
 
-1. **Content**  
-   The innermost part: the actual text, image, or other content of the element.  
+1. **Content**
+   The innermost part: the actual text, image, or other content of the element.
    Controlled by properties like `width`, `height`, `font-size`, etc.
 
-2. **Padding**  
-   The space **inside** the element, between the content and the border.  
-   It is transparent (takes the background of the element).  
+2. **Padding**
+   The space **inside** the element, between the content and the border.
+   It is transparent (takes the background of the element).
    Controlled by `padding`, `padding-top`, `padding-right`, etc.
 
-3. **Border**  
-   The line that surrounds the padding (and content).  
+3. **Border**
+   The line that surrounds the padding (and content).
    Controlled by `border`, `border-width`, `border-style`, `border-color`, etc.
 
-4. **Margin**  
-   The outermost layer: transparent space **outside** the border, used to separate the element from neighboring elements.  
-   Controlled by `margin`, `margin-top`, etc.  
+4. **Margin**
+   The outermost layer: transparent space **outside** the border, used to separate the element from neighboring elements.
+   Controlled by `margin`, `margin-top`, etc.
    Can be negative and can cause margin collapsing.
 
 ### Visual order from inside → outside:
@@ -63,7 +63,7 @@ Some tutorials simplify it as:
 2. Padding/Border (grouped as "inner spacing + edge")
 3. Margin
 
-But technically and according to the official CSS specification, there are **four** parts in this exact order:  
+But technically and according to the official CSS specification, there are **four** parts in this exact order:
 **content → padding → border → margin**
 
 This order is critical when calculating the total space an element occupies (especially with `box-sizing: content-box` vs `box-sizing: border-box`).

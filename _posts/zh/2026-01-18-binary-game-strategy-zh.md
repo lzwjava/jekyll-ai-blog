@@ -25,7 +25,7 @@ The key point is:
 
 So the suggested move (leftmost 1 + rightmost 0) does **not** always sort the whole string — but it is still a valid winning first move because:
 
-After doing leftmost-1 → 0  and rightmost-0 → 1,  
+After doing leftmost-1 → 0  and rightmost-0 → 1,
 the new string has:
 
 - One more 0 moved leftward (to the position of the old leftmost 1)
@@ -46,7 +46,7 @@ The move you need to sort everything in one step is:
 
 But the simplest guaranteed way to sort in **one move** is:
 
-**Take every position i where s[i] = '1' and there exists at least one j > i with s[j] = '0'**  
+**Take every position i where s[i] = '1' and there exists at least one j > i with s[j] = '0'**
 (i.e. all '1's that are part of some inversion)
 
 Then sort those positions: put all the '0's from later positions into the earliest selected spots, and '1's to the later spots.
@@ -66,7 +66,7 @@ Example counter-example:
 
 s = "11010"
 
-Leftmost 1: pos 1 ('1')  
+Leftmost 1: pos 1 ('1')
 Rightmost 0: pos 5 ('0')
 
 Move: take 1 and 5 → sort to 0……1 → new string: **0**1 1 1 **1** = "01111"
@@ -77,14 +77,14 @@ Another example where size-2 doesn't fully sort:
 
 s = "1010"
 
-Leftmost 1: pos 1  
+Leftmost 1: pos 1
 Rightmost 0: pos 4
 
 Take 1 and 4 → becomes **0** 0 1 **1** = "0011" → sorted.
 
 Another: s = "1001"
 
-Leftmost 1: pos 1  
+Leftmost 1: pos 1
 Rightmost 0: pos 3
 
 Take 1 and 3 → **0** 0 **1** 1 = "0011" → sorted.

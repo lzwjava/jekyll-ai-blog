@@ -92,12 +92,12 @@ I utilize Google Text-to-Speech to generate audio versions of my blog posts. The
                 voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
             elif language_code == "ar-XA":
                 voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
-            
+
             text_to_speech(
-                text=article_text, 
-                output_filename=output_filename, 
-                task=task, 
-                language_code=language_code, 
+                text=article_text,
+                output_filename=output_filename,
+                task=task,
+                language_code=language_code,
                 dry_run=dry_run,
                 progress=progress
             )

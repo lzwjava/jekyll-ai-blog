@@ -79,7 +79,7 @@ Once toggled on, the interface will usually prompt you to paste the correspondin
 
 This setup makes Hermes Agent highly extensible without writing custom code.
 
-**References:**  
+**References:**
 - [Tools & Toolsets | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/)
 - [Configuration | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/)
 - [Environment Variables Reference](https://mintlify.com/NousResearch/hermes-agent/reference/environment-variables)

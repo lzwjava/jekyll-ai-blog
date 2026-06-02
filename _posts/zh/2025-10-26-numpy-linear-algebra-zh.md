@@ -85,5 +85,5 @@ NumPy 的 `solve` 在内部执行类似 LU 分解的运算（无需显式编写�
 
 **快速验证提示**：对于浮点数，始终使用 `np.allclose`；对于小的 n，手动进行行化简，然后与 `solve` 或 `eig` 的结果匹配。练习：代入你自己的 3×3 矩阵。
 
-[NumPy linalg 文档](https://numpy.org/doc/stable/reference/routines.linalg.html)  
+[NumPy linalg 文档](https://numpy.org/doc/stable/reference/routines.linalg.html)
 [NumPy 中的线性代数 - SciPy 讲义笔记](https://scipy-lectures.org/intro/numpy/auto_examples/plot_linear_algebra.html)

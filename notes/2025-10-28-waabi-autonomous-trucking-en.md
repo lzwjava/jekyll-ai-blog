@@ -23,8 +23,8 @@ Waabi's core innovation is an end-to-end interpretable and verifiable AI model t
 ### Recent Developments
 In June 2024, Waabi raised $200 million in Series B funding to accelerate driverless truck launches. They opened a purpose-built autonomous vehicle terminal in Lancaster, Texas, in 2025 to support operations. Partnerships with NVIDIA and others bolster their generative AI capabilities.
 
-[Waabi Official Website](https://waabi.ai/)  
-[Waabi Series B Announcement](https://waabi.ai/insights/waabi-series-b-announcement)  
-[Forbes Company Profile](https://www.forbes.com/companies/waabi/)  
-[NVIDIA Blog on Waabi](https://blogs.nvidia.com/blog/waabi-autonomous-trucking/)  
+[Waabi Official Website](https://waabi.ai/)
+[Waabi Series B Announcement](https://waabi.ai/insights/waabi-series-b-announcement)
+[Forbes Company Profile](https://www.forbes.com/companies/waabi/)
+[NVIDIA Blog on Waabi](https://blogs.nvidia.com/blog/waabi-autonomous-trucking/)
 [Lancaster Terminal News](https://waabi.ai/insights/lancaster-terminal)

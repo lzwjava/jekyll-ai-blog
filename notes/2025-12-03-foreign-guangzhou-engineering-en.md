@@ -12,7 +12,7 @@ type: note
 
 ### Question: What foreign companies and banks in Guangzhou, China, have offices there and hire for permanent or contract engineering roles (e.g., similar to HSBC, DBS, Standard Chartered)?
 
-### Answer: 
+### Answer:
 
 Foreign banks and multinational companies with offices in Guangzhou actively recruit for engineering roles, often in IT, software, financial technology, automation, and related fields. These positions can be permanent (full-time with benefits) or contract-based, depending on the role and project needs. Guangzhou's status as a hub in the Greater Bay Area attracts global firms, particularly in finance, manufacturing, and tech. Below is a curated list based on current office presences and active or recent hiring trends. Note that job availability fluctuates, so check official career sites or platforms like LinkedIn, Glassdoor, and Zhaopin for the latest openings. Engineering roles typically require relevant degrees (e.g., in computer science, electrical engineering) and may prefer bilingual candidates.
 

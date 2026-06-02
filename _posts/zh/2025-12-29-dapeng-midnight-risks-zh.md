@@ -12,7 +12,7 @@ type: note
 
 Question: Can I visit Shenzhen's Dapeng Peninsula at 2-3 AM?
 
-Answer: 
+Answer:
 
 Yes, you can technically visit Shenzhen's Dapeng Peninsula (including areas like Yangmeikeng, Xichong, Dongchong, and Jiaochangwei) at 2-3 AM, but it is **strongly not recommended**.
 

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the essay "On Reading" (《论阅读》) in the 04729 University Chinese course.
 
-Answer: 
+Answer:
 
 《论阅读》 is a selected modern essay appearing in the **04729 University Chinese** (大学语文) textbook, which serves as the designated material for the national higher education self-study examination (self-taught higher education examination) public course (non-Chinese major).
 
@@ -32,7 +32,7 @@ In the self-study exam context, this essay often appears in reading comprehensio
 
 The essay aligns with the course goal of using exemplary texts to inspire learners to develop better reading habits and humanistic qualities beyond their specialized fields.
 
-References:  
+References:
 
-- [大学语文（2018年版） - 中国教育考试网](https://zikao.neea.edu.cn/xhtml1/report/21121/151-1.htm)  
+- [大学语文（2018年版） - 中国教育考试网](https://zikao.neea.edu.cn/xhtml1/report/21121/151-1.htm)
 - Various self-study resources and exam outlines for course code 04729 (general knowledge from standard textbook description and common course content patterns)

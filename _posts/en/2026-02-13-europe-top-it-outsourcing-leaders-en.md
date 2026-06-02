@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top IT services companies in Europe, in the sense like Accenture / Infosys, those which are running IT services / outsourcing for banks / big corps etc?
 
-Answer: 
+Answer:
 
 The top **IT services and outsourcing companies** operating in Europe (similar to Accenture and Infosys in scale, providing consulting, managed services, outsourcing, digital transformation, and IT solutions to large corporations, banks, and enterprises) include a mix of global giants with strong European presence and major European-headquartered firms. These companies often serve banking/financial services, manufacturing, public sector, and other large enterprises through large-scale outsourcing contracts, application services, cloud, and AI-driven solutions.
 
@@ -32,7 +32,7 @@ Many global Indian-origin firms (like TCS, Infosys, Wipro) have large delivery c
 
 The ranking can vary by specific metrics (e.g., revenue in EMEA, managed services focus, or banking specialization), but Accenture, Capgemini, TCS, IBM, and Atos consistently appear at the top in reports for large-scale IT services and outsourcing in Europe.
 
-References:  
+References:
 
 - [https://sitsi.pacanalyst.com/top-15-it-services-in-emea](https://sitsi.pacanalyst.com/top-15-it-services-in-emea)
 - [https://www.mordorintelligence.com/industry-reports/europe-it-services-market/companies](https://www.mordorintelligence.com/industry-reports/europe-it-services-market/companies)

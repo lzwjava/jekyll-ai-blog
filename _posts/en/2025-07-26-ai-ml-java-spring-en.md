@@ -52,8 +52,8 @@ In Java Spring apps, integrate via Spring AI for AI APIs or embed ML models with
 
 Overall, AI/ML elevates these applications from mere data storage to intelligent systems, improving accuracy, user experience, and operational efficiency. Start small by adding AI endpoints in your Spring controllers, then scale with containerization (e.g., Docker/Kubernetes).
 
-[AI and Machine Learning in Finance | SPD Technology](https://spd.tech/machine-learning/ml-in-finance/)  
-[Spring AI: Revolutionizing the Future of AI-Driven Java Applications](https://halilural5.medium.com/spring-ai-revolutionizing-the-future-of-ai-driven-java-applications-1ce4ea393d88)  
-[AI in Education: 8 Use Cases & Real-Life Examples - Itransition](https://www.itransition.com/ai/education)  
-[Spring AI](https://spring.io/projects/spring-ai)  
+[AI and Machine Learning in Finance | SPD Technology](https://spd.tech/machine-learning/ml-in-finance/)
+[Spring AI: Revolutionizing the Future of AI-Driven Java Applications](https://halilural5.medium.com/spring-ai-revolutionizing-the-future-of-ai-driven-java-applications-1ce4ea393d88)
+[AI in Education: 8 Use Cases & Real-Life Examples - Itransition](https://www.itransition.com/ai/education)
+[Spring AI](https://spring.io/projects/spring-ai)
 [GenAI Meets Education:10 Use Cases for Educational Excellence](https://www.cloud4c.com/blogs/10-key-ai-ml-use-cases-in-education-sector)

@@ -15,12 +15,12 @@ The **Gram-Schmidt process** is a method for orthonormalizing a set of linearly 
 ### **Algorithm: Gram-Schmidt Process**
 Given a set of **linearly independent** vectors \\( \{v_1, v_2, \dots, v_n\} \\) in an inner product space, we construct an **orthonormal basis** \\( \{u_1, u_2, \dots, u_n\} \\) as follows:
 
-1. **Step 1: Compute the first orthonormal vector**  
+1. **Step 1: Compute the first orthonormal vector**
    \\[
    u_1 = \frac{v_1}{\|v_1\|}
    \\]
-   
-2. **Step 2: Make the second vector orthogonal to the first and normalize it**  
+
+2. **Step 2: Make the second vector orthogonal to the first and normalize it**
    \\[
    v_2' = v_2 - \text{proj}_{u_1}(v_2) = v_2 - \frac{\langle v_2, u_1 \rangle}{\langle u_1, u_1 \rangle} u_1
    \\]
@@ -28,7 +28,7 @@ Given a set of **linearly independent** vectors \\( \{v_1, v_2, \dots, v_n\} \\)
    u_2 = \frac{v_2'}{\|v_2'\|}
    \\]
 
-3. **Step 3: Repeat for the remaining vectors**  
+3. **Step 3: Repeat for the remaining vectors**
    For \\( k = 3, \dots, n \\):
    \\[
    v_k' = v_k - \sum_{j=1}^{k-1} \frac{\langle v_k, u_j \rangle}{\langle u_j, u_j \rangle} u_j
@@ -41,7 +41,7 @@ Here, \\( \text{proj}_{u_j}(v_k) = \frac{\langle v_k, u_j \rangle}{\langle u_j, 
 
 ---
 
-### **Example: Applying Gram-Schmidt to \\(\mathbb{R}^3\\)**  
+### **Example: Applying Gram-Schmidt to \\(\mathbb{R}^3\\)**
 Given the vectors:
 
 \\[

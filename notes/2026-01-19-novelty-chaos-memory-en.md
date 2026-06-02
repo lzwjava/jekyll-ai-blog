@@ -12,7 +12,7 @@ type: note
 
 Question: I saw a TikTok video claiming that many young people have poorer memory than older people because they live too stable lives, not due to phones or overwork (like 996 schedules), but because of a lack of brain stimulation. The suggested solution is to actively create chaos and vary routines, with evidence from studies like mice in cages. It also emphasized that deep thinking while walking is important. What do you think?
 
-Answer: 
+Answer:
 
 I find the idea from that TikTok video intriguing, but it's a bit oversimplified—though it does touch on some valid scientific concepts. Let me break down my thoughts step by step, drawing from what we know about cognitive science, neuroscience, and psychology. I'll address the core claims: the role of stability vs. novelty in memory, the dismissal of phones and work stress as factors, the "create chaos" approach, the mouse evidence, and the value of deep thinking while walking.
 
@@ -50,7 +50,7 @@ I partially agree with the video: Overly stable lives can dull memory by starvin
 
 If you're experiencing this, start small: Alternate your commute, journal thoughts during walks, or learn a new skill weekly. Track your memory with apps or tests to see improvements. What sparked your interest in this video—personal experience or curiosity?
 
-References:  
+References:
 
 - [Environmental Enrichment and Brain Plasticity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4087187/)
 - [Digital Amnesia and Smartphone Effects on Memory](https://www.sciencedirect.com/science/article/pii/S074756321630471X)

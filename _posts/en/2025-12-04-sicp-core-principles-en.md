@@ -25,36 +25,36 @@ Answer:
 
 ### Structure of the Book (5 chapters)
 
-1. **Building Abstractions with Procedures**  
-   - Functional programming basics  
-   - Higher-order functions (functions as first-class values)  
-   - Recursion vs iteration  
-   - Lambda expressions and lexical scoping  
+1. **Building Abstractions with Procedures**
+   - Functional programming basics
+   - Higher-order functions (functions as first-class values)
+   - Recursion vs iteration
+   - Lambda expressions and lexical scoping
    Famous quote: “Programs should be written for people to read, and only incidentally for machines to execute.”
 
-2. **Building Abstractions with Data**  
-   - Symbolic data, pairs, lists  
-   - Hierarchical data structures and trees  
-   - Data abstraction (interfaces vs implementations)  
-   - Symbolic differentiation, Huffman trees, generic operations  
+2. **Building Abstractions with Data**
+   - Symbolic data, pairs, lists
+   - Hierarchical data structures and trees
+   - Data abstraction (interfaces vs implementations)
+   - Symbolic differentiation, Huffman trees, generic operations
    Introduces the idea of **data abstraction barriers** and **wishful thinking** (assume a function exists, then implement it later).
 
-3. **Modularity, Objects, and State**  
-   - Assignment and mutable state (the “sin” that breaks referential transparency)  
-   - Object-oriented programming via message-passing and closures  
-   - Streams as delayed lists  
+3. **Modularity, Objects, and State**
+   - Assignment and mutable state (the “sin” that breaks referential transparency)
+   - Object-oriented programming via message-passing and closures
+   - Streams as delayed lists
    - Metacircular evaluator (a Scheme interpreter written in Scheme — mind-blowing for many readers)
 
-4. **Metalinguistic Abstraction**  
-   - Interpreters and compilers  
-   - Logic programming (a mini Prolog-like query system)  
-   - Lazy evaluation and non-deterministic computing (amb operator)  
+4. **Metalinguistic Abstraction**
+   - Interpreters and compilers
+   - Logic programming (a mini Prolog-like query system)
+   - Lazy evaluation and non-deterministic computing (amb operator)
    Shows that “language features are just patterns of control and data abstraction.”
 
-5. **Computing with Register Machines**  
-   - Low-level simulation of a register machine  
-   - Explicit control of memory and stacks  
-   - Compiling Scheme down to machine instructions  
+5. **Computing with Register Machines**
+   - Low-level simulation of a register machine
+   - Explicit control of memory and stacks
+   - Compiling Scheme down to machine instructions
    Connects high-level abstractions back to hardware.
 
 ### Key Takeaways Most Readers Remember
@@ -66,10 +66,10 @@ Answer:
 
 Paul Graham famously said he still re-reads it after 15+ years and learns something new each time. Many top programmers (including founders of Reddit, ITA Software, and others) credit SICP with profoundly shaping how they think.
 
-The full text and video lectures (the legendary MIT 6.001 course) are freely available online at:  
+The full text and video lectures (the legendary MIT 6.001 course) are freely available online at:
 https://mitpress.mit.edu/sites/default/files/sicp/index.html
 
-References:  
-- [Structure and Interpretation of Computer Programs, 2nd Edition](https://mitpress.mit.edu/sites/default/files/sicp/index.html)  
-- [SICP Official MIT Site with HTML version and lectures](https://mitpress.mit.edu/sites/default/files/sicp/index.html)  
+References:
+- [Structure and Interpretation of Computer Programs, 2nd Edition](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
+- [SICP Official MIT Site with HTML version and lectures](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
 - [Paul Graham on SICP](http://paulgraham.com/avg.html)

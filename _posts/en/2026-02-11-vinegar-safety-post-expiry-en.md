@@ -12,7 +12,7 @@ type: note
 
 Question: Is the vinegar I have after one year of use still fresh and normal, even if it seems a bit "expired" when eaten with dumplings, since the smell of the old bottle and a new bottle is the same, and I store it at room temperature in Guangzhou?
 
-Answer: 
+Answer:
 
 Yes, your vinegar is almost certainly **completely normal and still fresh/safe** to use. The "expiry date" of 2–3 years on vinegar bottles is usually a **"best by"** or quality date, **not** a true expiration or safety date. Vinegar has a very high acidity (pH around 2–3), which makes it self-preserving — harmful bacteria and molds basically cannot grow in it. This is why it has an **indefinite** or **virtually unlimited** shelf life for safety purposes.
 
@@ -31,12 +31,12 @@ About eating it with dumplings and feeling it "seems outdated":
 
 Other sauces (soy sauce, oyster sauce, chili sauce, etc.) often need refrigeration after opening because they have lower acidity, more sugars/proteins, and can grow mold/bacteria. Vinegar is different — it doesn't need the fridge for safety (though some people refrigerate unpasteurized types like apple cider vinegar with "mother" to slow aesthetic changes like cloudiness).
 
-**Bottom line**:  
-- Your one-year-old vinegar is safe and should taste normal/fresh.  
-- You can confidently continue using it.  
+**Bottom line**:
+- Your one-year-old vinegar is safe and should taste normal/fresh.
+- You can confidently continue using it.
 - No need to worry unless you see something extreme like mold (almost impossible in proper vinegar), very bad/off smell (not just strong vinegar smell), or strange appearance that isn't normal sediment/mother.
 
-References:  
+References:
 
 - [Iowa State University Extension - Vinegar Shelf Life and Safety](https://blogs.extension.iastate.edu/answerline/2021/05/11/vinegar-shelf-life-and-safety)
 - [America's Test Kitchen - Does Vinegar Expire?](https://www.americastestkitchen.com/articles/6756-does-vinegar-expire)

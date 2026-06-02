@@ -34,9 +34,9 @@ type: note
 
 总体而言，LinkedIn的这种生态折射出更宏观的企业文化：这个平台为进取者优化，而非为逆境者设计。若感到失落，请记住这更多是平台机制与系统规则使然，与个人价值无关。
 
-**参考资料**  
-[为何在LinkedIn发布裁员经历有助于求职](https://www.businessinsider.com/why-posting-to-linkedin-about-getting-laid-off-can-help-you-land-a-job-2022-7)  
-[是否该在LinkedIn公布被裁员消息？](https://www.success.com/announce-your-layoff-on-linkedin/)  
-[如何撰写出色的"求职中"LinkedIn帖子](https://www.alifeafterlayoff.com/how-to-write-a-great-open-to-work-linkedin-post/)  
-[刚被裁员？担心潜在裁员风险？应对指南](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)  
+**参考资料**
+[为何在LinkedIn发布裁员经历有助于求职](https://www.businessinsider.com/why-posting-to-linkedin-about-getting-laid-off-can-help-you-land-a-job-2022-7)
+[是否该在LinkedIn公布被裁员消息？](https://www.success.com/announce-your-layoff-on-linkedin/)
+[如何撰写出色的"求职中"LinkedIn帖子](https://www.alifeafterlayoff.com/how-to-write-a-great-open-to-work-linkedin-post/)
+[刚被裁员？担心潜在裁员风险？应对指南](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)
 [LinkedIn上这些"卖惨式"科技裁员帖正在变味](https://www.fishbowlapp.com/post/these-poor-me-tech-layoffs-posts-in-linkedin-are-getting-cringe-many-people-in-all-industries-gets-laid-off-you-are-not)

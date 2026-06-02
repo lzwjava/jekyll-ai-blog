@@ -12,7 +12,7 @@ type: note
 
 Question: What does this blog contain? (https://www.aleksagordic.com/blog)
 
-Answer: 
+Answer:
 
 The blog at https://www.aleksagordic.com/blog is maintained by **Aleksa Gordić**, a research engineer with experience at DeepMind and Microsoft, focusing on AI, machine learning, and high-performance computing. Its tagline is "Computers can be understood," and it aims to make complex computing concepts accessible through in-depth technical explanations.
 
@@ -37,7 +37,7 @@ The posts are highly technical, often featuring code analysis, diagrams, and dee
 
 The blog appears to have been revived in 2025 with advanced technical content after a hiatus, building on earlier educational posts.
 
-References:  
+References:
 
 - [Aleksa Gordić's Blog](https://www.aleksagordic.com/blog)
 - [Aleksa Gordić Homepage](https://www.aleksagordic.com/)

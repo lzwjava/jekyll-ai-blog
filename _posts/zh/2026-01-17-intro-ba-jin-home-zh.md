@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Ba Jin's work Home
 
-Answer: 
+Answer:
 
 **《家》** (英文：*Home*；拼音：*Jiā*) 出版于 1933 年，是 Ba Jin 最著名的长篇小说，也是他著名的 **激流三部曲** (Torrent Trilogy) 的第一部。它被广泛认为是现代中国文学最重要的作品之一，也是 20 世纪中国现实主义小说的里程碑。
 
@@ -62,6 +62,6 @@ Answer:
 
 **《家》** 至今仍是现代中国文学课程的核心文本，因其对家庭、传统和个人觉醒的有力刻画，目前仍被广泛阅读和讨论。
 
-References:  
+References:
 
 - None required for this general literary introduction (information is based on widely established literary history and criticism of Ba Jin's work)

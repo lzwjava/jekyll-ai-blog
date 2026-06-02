@@ -12,7 +12,7 @@ type: note
 
 **Question: What does a little soda powerdum can do?**
 
-**Answer:**  
+**Answer:**
 “Little soda” 指的是 sodium bicarbonate (NaHCO₃)，也称为 baking soda（小苏打），是一种常见的白色细粉末，通常以罐装或袋装形式销售供家庭使用。“Powerdum” 似乎是 “powder” 的拼写错误或语音转写，因此 “little soda powerdum can” 指的是一小罐 baking soda 粉末。
 
 Baking soda 是一种用途广泛的碱性化合物，具有许多实际用途：
@@ -25,9 +25,9 @@ Baking soda 是一种用途广泛的碱性化合物，具有许多实际用途�
 
 **安全提示**：仅限使用食品级产品进行食用；避免大量摄入（可能导致碱中毒）；除非有明确指导，否则请勿与强酸混合。
 
-**References：**  
-- [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)  
-- [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)  
-- [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)  
-- [ARM & HAMMER Baking Soda](https://www.armandhammer.com/en/baking-soda/baking-soda-products/pure-baking-soda/baking-soda-box-2-lb)  
+**References：**
+- [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)
+- [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)
+- [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)
+- [ARM & HAMMER Baking Soda](https://www.armandhammer.com/en/baking-soda/baking-soda-products/pure-baking-soda/baking-soda-box-2-lb)
 - [Baking Soda vs. Baking Powder](https://www.armandhammer.com/en/articles/baking-soda-vs-baking-powder)

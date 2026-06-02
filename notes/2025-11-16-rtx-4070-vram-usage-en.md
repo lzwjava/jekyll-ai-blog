@@ -69,7 +69,7 @@ You can't predict *exactly* without profiling (e.g., via `torch.utils.bottleneck
 
 #### Validation Against Similar Setups
 - NanoGPT/GPT-2 small (124M params, embd=768=2× yours, layers=12=2×, batch~8–16, seq=1024=2×) typically uses 6–10 GB in FP16 training. Your model is ~1/4 params but similar token volume (16×512 vs. 16×1024 /2 for scaling), so ~half would be 3–5 GB base—your extra comes from no checkpointing and compilation.
-- Tools for better prediction: 
+- Tools for better prediction:
   - Run `python -m torch.utils.bottleneck` during training for breakdown.
   - Use Hugging Face's `estimate_memory()` or libraries like `modelscope` for LLM estimators (adapt for nanoGPT).
   - Online calculators (e.g., from search results) input your params/batch/seq for ~5–7 GB estimate.

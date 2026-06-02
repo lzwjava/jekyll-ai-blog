@@ -24,15 +24,15 @@ type: note
 
 ### 根据需求推荐的方案
 
-1. 需要 5 分钟内跑完且体积最小 → **tiny_shakespeare**  
+1. 需要 5 分钟内跑完且体积最小 → **tiny_shakespeare**
    （nanoGPT 用户首选）
 
-2. 需要真实网络文本但体积小巧 → OpenWebText 前 1 万篇文档  
+2. 需要真实网络文本但体积小巧 → OpenWebText 前 1 万篇文档
    ```python
    dataset = load_dataset("openwebtext", split="train[:10000]")
    ```
 
-3. 需要当前（2025年）最高质量的小型数据集 → FineWeb-Edu 100 亿词元样本  
+3. 需要当前（2025年）最高质量的小型数据集 → FineWeb-Edu 100 亿词元样本
    （约 5000 万词元，比 OWT 更纯净，质量接近顶尖实验室标准）
 
    ```python
@@ -43,7 +43,7 @@ type: note
    )
    ```
 
-4. 需要小于 500MB 且内容多样 → RedPajama 2 亿词元版本样本  
+4. 需要小于 500MB 且内容多样 → RedPajama 2 亿词元版本样本
    ```python
    dataset = load_dataset("togethercomputer/RedPajama-Data-1T", name="sample-200M", split="train")
    ```

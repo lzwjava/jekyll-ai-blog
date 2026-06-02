@@ -27,6 +27,6 @@ To ensure her next session is smooth, you might want to:
 
 
 
-It is a pity the session was interrupted, but the "AI parenting" community is growing fast. Many parents are now using these tools to create custom bedtime stories where their children are the protagonists or to visualize "impossible" science questions (e.g., "What does a planet made of candy look like?"). 
+It is a pity the session was interrupted, but the "AI parenting" community is growing fast. Many parents are now using these tools to create custom bedtime stories where their children are the protagonists or to visualize "impossible" science questions (e.g., "What does a planet made of candy look like?").
 
 You are definitely on the right track—turning a backup device into a creative station is a brilliant way to introduce her to the future of technology!

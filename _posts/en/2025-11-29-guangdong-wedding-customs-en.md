@@ -28,13 +28,13 @@ In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, a
    - 8–12 courses (cold platter + shark fin/abalone-level dishes + whole suckling pig is still common in Guangdong, though some younger couples replace it with other luxury items now).
 
 ### Key Guangdong Wedding Customs You’ll See
-- **Red packets are king**  
+- **Red packets are king**
   Relatives, classmates, colleagues all give red packets (hongbao/利是). The amount matters a lot: classmates/colleagues usually ¥500–2000, close relatives ¥2000–20,000 or more. The couple uses this money to cover the banquet cost (which can easily be ¥300–800 per person × 400 people).
 
-- **Table hierarchy**  
+- **Table hierarchy**
   Closest family sits nearest the stage, then relatives, then classmates, colleagues, business partners, etc. Classmates often get one or two full tables.
 
-- **No wedding ceremony in front of guests**  
+- **No wedding ceremony in front of guests**
   Unlike Western weddings, there is usually no “vow exchange” or ring exchange during the banquet. Most couples just register at the Civil Affairs Bureau earlier (legal marriage), and the banquet is purely the celebration.
 
 - **Stage program (very lively)**
@@ -43,7 +43,7 @@ In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, a
   - Friends/classmates often prepare funny games or video montages.
   - Some hire professional emcee + live band or DJ.
 
-- **Candy & small gifts**  
+- **Candy & small gifts**
   When guests leave, they receive wedding candy (usually high-end brands) and sometimes small souvenirs.
 
 ### Regional Differences Inside Guangdong
@@ -56,7 +56,7 @@ In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, a
 - Bride’s gowns + grooming: ¥30,000–100,000
 - Photography/videography: ¥20,000–60,000
 - Car fleet (usually 5–10 same-color luxury cars): ¥5,000–20,000
-- Total: easily ¥400,000–1,000,000+  
+- Total: easily ¥400,000–1,000,000+
 Most of it is covered by red packets if you invite enough people.
 
 In short: Guangdong weddings are basically one huge banquet to show face (minamyan 面子), thank relatives, and let classmates/colleagues network and drink together. The louder and bigger, the more successful it’s considered!

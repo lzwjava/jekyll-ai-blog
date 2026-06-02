@@ -33,11 +33,11 @@ Insta360的成功在于将360度技术从小众VR工具转变为主流创意工�
 
 以下是一些热门的Insta360相机型号：
 
-References: 
+References:
 
-- [Insta360 Official About Page](https://www.insta360.com/about) 
-- [Wikipedia: Insta360](https://en.wikipedia.org/wiki/Insta360) 
-- [EqualOcean Analysis on Insta360 Success](https://equalocean.com/analysis/2023120720391) 
-- [Baiguan News: Insta360 Growth Story](https://www.baiguan.news/p/insta360-growth-ipo-panorama-camera-action-camera-ace-pro-go-camera-liu-jingkang-yolo-new-consumption-china-genz-consumer-market-involution-deflation-discretionary-brands-product-gopro-dji-apple-global-expansion--vlogging-cycling-extreme-sports-b2b-video) 
-- [Forbes: Insta360 IPO and Billionaire Founder](https://www.forbes.com/sites/catzxwang/2025/06/11/founder-of-chinese-camera-maker-insta360-becomes-a-billionaire-upon-ipo/) 
+- [Insta360 Official About Page](https://www.insta360.com/about)
+- [Wikipedia: Insta360](https://en.wikipedia.org/wiki/Insta360)
+- [EqualOcean Analysis on Insta360 Success](https://equalocean.com/analysis/2023120720391)
+- [Baiguan News: Insta360 Growth Story](https://www.baiguan.news/p/insta360-growth-ipo-panorama-camera-action-camera-ace-pro-go-camera-liu-jingkang-yolo-new-consumption-china-genz-consumer-market-involution-deflation-discretionary-brands-product-gopro-dji-apple-global-expansion--vlogging-cycling-extreme-sports-b2b-video)
+- [Forbes: Insta360 IPO and Billionaire Founder](https://www.forbes.com/sites/catzxwang/2025/06/11/founder-of-chinese-camera-maker-insta360-becomes-a-billionaire-upon-ipo/)
 - [South China Morning Post: Insta360 vs GoPro](https://www.scmp.com/tech/tech-trends/article/3313956/chinese-gopro-rival-insta360-sees-strong-debut-shanghai-ipo-firm-eyes-expansion)

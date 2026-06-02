@@ -99,10 +99,10 @@ KV cache 通过以下方式解决问题：
 
 KV cache 是实现大规模高效 LLM 推理的核心技术，它将潜在的、无法承受的平方级计算成本转化为可控的线性成本。
 
-References:  
+References:
 
-- [KV Caching Explained: Optimizing Transformer Inference Efficiency](https://huggingface.co/blog/not-lain/kv-caching)  
-- [Transformers Key-Value Caching Explained](https://neptune.ai/blog/transformers-key-value-caching)  
-- [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms)  
-- [Mastering LLM Techniques: Inference Optimization (NVIDIA)](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)  
+- [KV Caching Explained: Optimizing Transformer Inference Efficiency](https://huggingface.co/blog/not-lain/kv-caching)
+- [Transformers Key-Value Caching Explained](https://neptune.ai/blog/transformers-key-value-caching)
+- [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms)
+- [Mastering LLM Techniques: Inference Optimization (NVIDIA)](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)
 - [Hugging Face Documentation on KV Cache](https://huggingface.co/docs/transformers/en/kv_cache)

@@ -24,9 +24,9 @@ type: note
 
 以上为代表性案例——硅谷人才库中还有众多来自这些地区的精英，通常活跃于人工智能、半导体及创业领域。若需了解更多，可关注新加坡全球网络等海外侨胞社群。
 
-**参考资料**  
-[从硅谷到瑞士：四位领导全球团队的新加坡精英](https://www.edb.gov.sg/en/business-insights/insights/from-silicon-valley-to-switzerland-meet-four-singaporeans-leading-global-teams-in-semiconductors-healthcare-and-ai.html)  
-[结识新加坡籍硅谷投资人张立楷](https://www.thepeakmagazine.com.sg/people/meet-singapores-jonathan-teo-silicon-valley-investor-midas-touch)  
-[湾区创始人助力领导者与女性突破逆境](https://singaporeglobalnetwork.gov.sg/stories/business/meet-the-bay-area-founder-helping-leaders-women-overcome-adversity/)  
-[吴恩达 - 维基百科](https://en.wikipedia.org/wiki/Andrew_Ng)  
+**参考资料**
+[从硅谷到瑞士：四位领导全球团队的新加坡精英](https://www.edb.gov.sg/en/business-insights/insights/from-silicon-valley-to-switzerland-meet-four-singaporeans-leading-global-teams-in-semiconductors-healthcare-and-ai.html)
+[结识新加坡籍硅谷投资人张立楷](https://www.thepeakmagazine.com.sg/people/meet-singapores-jonathan-teo-silicon-valley-investor-midas-touch)
+[湾区创始人助力领导者与女性突破逆境](https://singaporeglobalnetwork.gov.sg/stories/business/meet-the-bay-area-founder-helping-leaders-women-overcome-adversity/)
+[吴恩达 - 维基百科](https://en.wikipedia.org/wiki/Andrew_Ng)
 [从香港到硅谷：香港颠覆传统的灌篮创业项目](https://asiasociety.org/hong-kong/events/hong-kong-silicon-valley-hks-game-changing-slam-dunk-startup)

@@ -27,9 +27,9 @@ type: note
 
 总之，他们并非疯狂或无用的群体，而是在守护使物质生活具有意义的无形价值。若要说短视，忽视故事的这一面才更值得警醒。您认为经济繁荣是否足以成为权利收缩的理由？
 
-**参考资料：**  
-- [解构"青年"（关于"废青"术语）](https://madeinchinajournal.com/2022/03/06/disarticulating-qingnian/)  
-- [黄之锋维基百科](https://en.wikipedia.org/wiki/Joshua_Wong)  
-- [BBC关于黄之锋 activism 的报道](https://www.bbc.com/news/world-asia-29457900)  
-- [美国外交关系协会关于香港自由侵蚀的报告](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china-crackdown)  
+**参考资料：**
+- [解构"青年"（关于"废青"术语）](https://madeinchinajournal.com/2022/03/06/disarticulating-qingnian/)
+- [黄之锋维基百科](https://en.wikipedia.org/wiki/Joshua_Wong)
+- [BBC关于黄之锋 activism 的报道](https://www.bbc.com/news/world-asia-29457900)
+- [美国外交关系协会关于香港自由侵蚀的报告](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china-crackdown)
 - [2019年香港抗议维基百科](https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests)

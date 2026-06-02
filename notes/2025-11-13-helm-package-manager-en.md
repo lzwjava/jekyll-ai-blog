@@ -307,6 +307,6 @@ helm rollback web-server 1
 - [Artifact Hub (Modern Chart Search)](https://artifacthub.io/)
 - [Helm Best Practices](https://helm.sh/docs/topics/charts/#chart-best-practices)
 
-[Helm Official Site](https://helm.sh)  
-[Bitnami Charts](https://github.com/bitnami/charts)  
+[Helm Official Site](https://helm.sh)
+[Bitnami Charts](https://github.com/bitnami/charts)
 [Helm in Jenkins X](https://www.jenkins-x.io/docs/)

@@ -30,11 +30,11 @@ DeepSeek V3.2 于 2025 年末发布，是中国人工智能公司 DeepSeek AI �
 
 总的来说，这些意见将 DeepSeek V3.2 和 Speciale 描绘成在效率和数学/编码小众领域取得的重大开源胜利，但并非某些人声称的 AGI 杀手。该模型在 Hugging Face 上采用 MIT 许可的权重，鼓励实验，但怀疑论者认为它暴露了 AI 更广泛的局限性：基准测试 ≠ 效用，廉价规模并不能解决幻觉或偏见。
 
-*Deepseek releases cheap general imo level model before openAI* (https://www.reddit.com/r/singularity/comments/1pbazan/deepseek_releases_cheap_general_imo_level_model/)  
-*deepseek-ai/DeepSeek-V3.2 · Hugging Face* (https://www.reddit.com/r/LocalLLaMA/comments/1pb9xm3/deepseekaideepseekv32_hugging_face/)  
-*Opinion: Deepseek models are overrated* (https://www.reddit.com/r/SillyTavernAI/comments/1kfxdc1/opinion_deepseek_models_are_overrated/)  
-*Unpopular Opinion: Deepseek has rat-effed OpenAI's 2025 business model* (https://www.reddit.com/r/ChatGPT/comments/1ibj4io/unpopular_opinion_deepseek_has_rateffed_openais/)  
-*DeepSeek is highly biased, don’t use it* (https://medium.com/data-science-in_your_pocket/deepseek-is_highly_biased_dont_use_it-2cb0358647f9)  
-*There’s real technical achievement, but the marketing is exaggerated* (@witec_ on X)  
-*DeepSeek V3.2 looks wild on benchmarks… but early testers aren’t impressed* (@VraserX on X)  
+*Deepseek releases cheap general imo level model before openAI* (https://www.reddit.com/r/singularity/comments/1pbazan/deepseek_releases_cheap_general_imo_level_model/)
+*deepseek-ai/DeepSeek-V3.2 · Hugging Face* (https://www.reddit.com/r/LocalLLaMA/comments/1pb9xm3/deepseekaideepseekv32_hugging_face/)
+*Opinion: Deepseek models are overrated* (https://www.reddit.com/r/SillyTavernAI/comments/1kfxdc1/opinion_deepseek_models_are_overrated/)
+*Unpopular Opinion: Deepseek has rat-effed OpenAI's 2025 business model* (https://www.reddit.com/r/ChatGPT/comments/1ibj4io/unpopular_opinion_deepseek_has_rateffed_openais/)
+*DeepSeek is highly biased, don’t use it* (https://medium.com/data-science-in_your_pocket/deepseek-is_highly_biased_dont_use_it-2cb0358647f9)
+*There’s real technical achievement, but the marketing is exaggerated* (@witec_ on X)
+*DeepSeek V3.2 looks wild on benchmarks… but early testers aren’t impressed* (@VraserX on X)
 *deepseek feels like it’s just optimizing for raw information retrieval* (@signulll on X)

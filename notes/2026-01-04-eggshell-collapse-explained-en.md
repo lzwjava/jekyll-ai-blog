@@ -12,7 +12,7 @@ type: note
 
 Question: How did the collapse of Eggshell Apartment (Danke Apartment) in China happen?
 
-Answer: 
+Answer:
 
 Eggshell Apartment, known in Chinese as 蛋壳公寓 and in English as Danke Apartment, was a major long-term apartment rental platform in China. Founded in 2015, it quickly grew by targeting young professionals in big cities like Beijing, Shanghai, and Shenzhen, offering renovated and affordable rental units.
 
@@ -42,10 +42,10 @@ By late 2020, Eggshell faced bankruptcy rumors, denied them ("not bankrupt, won'
 
 The incident became known as the "broken eggshell" (破蛋壳), symbolizing fragile promises in China's booming but risky sharing economy startups.
 
-References:  
+References:
 
-- [Danke Apartment: The 'broken eggshell' that left young Chinese homeless](https://www.bbc.com/news/world-asia-china-55571813)  
-- [Cover Story: How Chinese Apartment Rental Giant’s Business Fell Apart](https://www.caixinglobal.com/2020-12-07/cover-story-how-chinese-apartment-rental-giants-business-fell-apart-101636345.html)  
-- [New York-listed Eggshell has a great fall](https://www.asiatimesfinancial.com/new-york-listed-eggshell-has-a-great-fall)  
-- [Tens of thousands face eviction after Chinese rental company collapses](https://www.wsws.org/en/articles/2020/12/31/dank-d31.html)  
+- [Danke Apartment: The 'broken eggshell' that left young Chinese homeless](https://www.bbc.com/news/world-asia-china-55571813)
+- [Cover Story: How Chinese Apartment Rental Giant’s Business Fell Apart](https://www.caixinglobal.com/2020-12-07/cover-story-how-chinese-apartment-rental-giants-business-fell-apart-101636345.html)
+- [New York-listed Eggshell has a great fall](https://www.asiatimesfinancial.com/new-york-listed-eggshell-has-a-great-fall)
+- [Tens of thousands face eviction after Chinese rental company collapses](https://www.wsws.org/en/articles/2020/12/31/dank-d31.html)
 - [Crippled Rental Platform Danke Faces Delisting From NYSE](https://www.caixinglobal.com/2021-04-08/crippled-rental-platform-danke-faces-delisting-from-nyse-101687064.html)

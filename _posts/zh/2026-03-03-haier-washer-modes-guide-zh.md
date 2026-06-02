@@ -44,7 +44,7 @@ Haier 洗衣机（尤其是中国和亚洲流行的型号）提供针对不同�
 
 始终分离颜色（避免渗色），不要超载，并使用适量的 HE/低泡洗涤剂。为获得最佳效果，请参考特定型号的用户手册（通常可在 Haier 网站输入型号号下载）。
 
-**参考资料**：  
+**参考资料**：
 
 - [Haier India Blog - Washing Machine Cycles](https://shop.haierindia.com/blog/washing-machine-cycles-best-settings)
 - [Haier - Gentle Wash Cycle Explanation](https://www.haier.com/bd/about-haier/news/20250807_269514.shtml)

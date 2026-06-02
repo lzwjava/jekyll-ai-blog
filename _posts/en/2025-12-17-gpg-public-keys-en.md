@@ -12,7 +12,7 @@ type: note
 
 Question: Can we save a .gpg public key file in a Git repository?
 
-Answer: 
+Answer:
 
 Yes, it is safe and often recommended to store GPG **public key** files (typically exported as `.asc` or `.gpg` ASCII-armored files) in a Git repository.
 
@@ -29,7 +29,7 @@ GPG public keys are designed to be shared widely—this is fundamental to how as
 
 This is standard in open-source projects and supported by platforms like GitHub/GitLab, where public keys are routinely shared or uploaded for commit verification.
 
-References:  
+References:
 
 - [Reddit discussion on storing PGP public keys in repos](https://www.reddit.com/r/github/comments/1kn1hzu/is_it_safe_to_keep_a_pgp_key_in_a_public_repo_i/)
 - [Stack Overflow: Sharing public key in Git repo for signing verification](https://stackoverflow.com/questions/46318599/should-we-share-the-public-key-for-checking-signing-in-the-git-repository)

@@ -84,16 +84,16 @@ PopMenu 使用 Objective-C 编写，因此需按相应方式使用。以下是�
    定义弹出菜单中所需的项目。每个项目可包含标题、图标和辉光颜色。
    ```objective-c
    NSMutableArray *items = [[NSMutableArray alloc] init];
-   
-   MenuItem *menuItem1 = [[MenuItem alloc] initWithTitle:@"Flickr" 
-                                               iconName:@"post_type_bubble_flickr" 
-                                              glowColor:[UIColor grayColor] 
+
+   MenuItem *menuItem1 = [[MenuItem alloc] initWithTitle:@"Flickr"
+                                               iconName:@"post_type_bubble_flickr"
+                                              glowColor:[UIColor grayColor]
                                                   index:0];
    [items addObject:menuItem1];
-   
-   MenuItem *menuItem2 = [[MenuItem alloc] initWithTitle:@"Twitter" 
-                                               iconName:@"post_type_bubble_twitter" 
-                                              glowColor:[UIColor blueColor] 
+
+   MenuItem *menuItem2 = [[MenuItem alloc] initWithTitle:@"Twitter"
+                                               iconName:@"post_type_bubble_twitter"
+                                              glowColor:[UIColor blueColor]
                                                   index:1];
    [items addObject:menuItem2];
    ```

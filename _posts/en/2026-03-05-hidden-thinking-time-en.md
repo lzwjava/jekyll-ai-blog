@@ -11,7 +11,7 @@ type: note
 
 **Question:** What does Liu Weipeng say about "dark time" or productive guide in his Chinese book?
 
-**Answer:** 
+**Answer:**
 
 Liu Weipeng (刘未鹏), in his Chinese book **《暗时间》** (Dark Time / An Shi Jian, also translated as Hidden Time or Dark Time: Thinking Changes Life), introduces and elaborates on the core concept of **"暗时间" (dark time)**.
 
@@ -28,7 +28,7 @@ The book is not a step-by-step "productive guide" in the typical self-help sense
 
 In essence, Liu Weipeng views dark time as a hidden multiplier for productivity: masters of it "steal" extra years of growth by thinking deeply in moments others ignore.
 
-**References:**  
+**References:**
 
 - [百度百科 - 暗时间](https://baike.baidu.com/item/%E6%9A%97%E6%97%B6%E9%97%B4/6437171)
 - [暗时间：思维改变生活（第2版） product page](https://chinese-publishers.com/product/%E6%9A%97%E6%97%B6%E9%97%B4%EF%BC%9A%E6%80%9D%E7%BB%B4%E6%94%B9%E5%8F%98%E7%94%9F%E6%B4%BB%EF%BC%88%E7%AC%AC-2-%E7%89%88%EF%BC%89)

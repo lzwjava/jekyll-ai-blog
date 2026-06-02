@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么人们无法通过 Copilot、Azure 服务等使用 GPT-4o？
 
-Answer: 
+Answer:
 
 截至 2026 年 2 月 14 日（停用日期的次日），**GPT-4o 已不再在面向消费者的界面（如主要的 ChatGPT App/Web）中提供**，但其在不同平台上的可用性存在显著差异：
 
@@ -45,7 +45,7 @@ Answer:
 
 总结：截至 2026 年 2 月 14 日，你**不能**再在标准 ChatGPT 中使用 GPT-4o，但它通过 Azure OpenAI Service **仍然可以访问**（根据版本的不同，时间线可延续至 2026 年底）。Copilot 的可用性取决于 Microsoft 的具体实现，但它并未以同样突然的方式被完全阻断。
 
-References:  
+References:
 
 - [OpenAI announcement: Retiring GPT-4o and other models in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models)
 - [OpenAI Help Center: Retiring GPT-4o and other ChatGPT models](https://help.openai.com/en/articles/20001051-retiring-gpt-4o-and-other-chatgpt-models)

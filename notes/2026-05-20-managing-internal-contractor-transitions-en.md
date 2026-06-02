@@ -104,10 +104,10 @@ There's no formal letter between internal managers. It's almost always:
 ```
 Hi [Hiring Manager],
 
-Zhiwei has mentioned he's interested in your team's opening. 
+Zhiwei has mentioned he's interested in your team's opening.
 I've worked with him for [X months] — he's strong on [X, Y, Z].
 
-Happy to chat if useful. I'd ask for a reasonable transition 
+Happy to chat if useful. I'd ask for a reasonable transition
 period given current project timelines.
 
 [Current Manager]

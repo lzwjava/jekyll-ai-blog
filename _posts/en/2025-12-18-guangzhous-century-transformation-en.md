@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of Guangzhou in the last 100 years, including some key milestones?
 
-Answer: 
+Answer:
 
 Guangzhou (historically known as Canton), the capital of Guangdong Province in southern China, has undergone dramatic transformation over the past century (approximately 1925–2025). From a revolutionary hub in the early 20th century to a global manufacturing and trade powerhouse today, the city has evolved through political upheavals, wars, and economic reforms. Below is an overview with key milestones.
 
@@ -42,7 +42,7 @@ Guangzhou (historically known as Canton), the capital of Guangdong Province in s
 
 Guangzhou's trajectory reflects China's broader shift from isolation to global integration, turning it from a historical trade port into a modern megacity driving economic growth.
 
-References:  
+References:
 
 - [Timeline of Guangzhou - Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_Guangzhou)
 - [Guangzhou - Wikipedia](https://en.wikipedia.org/wiki/Guangzhou)

@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-### Hewlett-Packard → HP Inc.  
+### Hewlett-Packard → HP Inc.
 **Complete Company Introduction (2025 Edition)**
 
 ### Quick Overview – Most Important Facts
@@ -91,7 +91,7 @@ Office laser printing | Very strong reliability & service   | Brother • Xerox 
 
 HP Inc. today is **one of the world's largest PC + printing companies** — it started in a legendary garage in 1939, invented many of the products we still use today, went through a huge split in 2015, and is now mainly focused on beautiful laptops, powerful workstations, gaming, and the never-ending battle in the printer + ink business.
 
-**References:**  
+**References:**
 
 - [HP Inc. Official Website - About HP](https://www.hp.com/us-en/hp-information/about-hp.html)
 - [HP Inc. Investor Relations - Financials & Reports](https://investor.hp.com)

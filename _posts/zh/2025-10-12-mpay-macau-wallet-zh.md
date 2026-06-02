@@ -20,7 +20,7 @@ type: note
 
 这款应用深受本地居民和游客青睐，为这座现金仍普遍但数字化支付日益发展的城市提供了便捷的无现金支付体验。
 
-[MPay Google Play下载](https://play.google.com/store/apps/details?id=com.macaupass.rechargeEasy&hl=en_US)  
-[MPay App Store下载](https://apps.apple.com/us/app/mpay%25E6%25BE%25B3%25E9%2596%2580%25E9%258C%25A2%25E5%258C%2585/id1092594338)  
-[澳门通MPay官方页面](https://macaupass.com/MPay)  
+[MPay Google Play下载](https://play.google.com/store/apps/details?id=com.macaupass.rechargeEasy&hl=en_US)
+[MPay App Store下载](https://apps.apple.com/us/app/mpay%25E6%25BE%25B3%25E9%2596%2580%25E9%258C%25A2%25E5%258C%2585/id1092594338)
+[澳门通MPay官方页面](https://macaupass.com/MPay)
 [澳门通维基百科](https://en.wikipedia.org/wiki/Macau_Pass)

@@ -29,6 +29,6 @@ type: note
 
 这些餐厅彰显了香港兼容传统与创新的餐饮风貌。米其林星级餐厅务必提前预订，建议尽早规划行程。若需了解更多休闲美食推荐（如街头小吃或必比登推介），欢迎告知！
 
-**参考来源：**  
-[米其林指南香港澳门2025完整榜单](http://guide.michelin.com/hk/en/article/michelin-guide-ceremony/hong-kong-macau-full-list)  
+**参考来源：**
+[米其林指南香港澳门2025完整榜单](http://guide.michelin.com/hk/en/article/michelin-guide-ceremony/hong-kong-macau-full-list)
 [米芝林指南香港澳門2025完整名單](http://guide.michelin.com/hk/zh_HK/article/michelin-guide-ceremony/hong-kong-macau-full-list)

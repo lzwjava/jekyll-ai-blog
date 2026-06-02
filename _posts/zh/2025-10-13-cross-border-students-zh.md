@@ -55,8 +55,8 @@ type: note
 
 这种模式巧妙利用大湾区融合优势，但签证与配额仍是主要障碍。
 
-[深港跨境学童 - 维基百科](https://en.wikipedia.org/wiki/Shenzhen%25E2%2580%2593Hong_Kong_cross-boundary_students)  
-[香港与内地跨境学童研究](https://www.scirp.org/journal/paperinformation?paperid=135871)  
-[学生签证 | 香港入境事务处](https://www.immd.gov.hk/eng/services/visas/study.html)  
-[国际学历申请 | 香港大学招生办](https://admissions.hku.hk/apply/international-qualifications)  
+[深港跨境学童 - 维基百科](https://en.wikipedia.org/wiki/Shenzhen%25E2%2580%2593Hong_Kong_cross-boundary_students)
+[香港与内地跨境学童研究](https://www.scirp.org/journal/paperinformation?paperid=135871)
+[学生签证 | 香港入境事务处](https://www.immd.gov.hk/eng/services/visas/study.html)
+[国际学历申请 | 香港大学招生办](https://admissions.hku.hk/apply/international-qualifications)
 [内地高考生 - 香港中文大学](https://ug.bschool.cuhk.edu.hk/mainland-students-gaokao/)

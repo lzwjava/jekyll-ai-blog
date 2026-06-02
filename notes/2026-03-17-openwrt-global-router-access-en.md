@@ -22,7 +22,7 @@ Yes, you should absolutely go back to the OpenWrt solution on your Xiaomi WiFi r
 - **Performance & reliability**: Hysteria2 is UDP-heavy and benefits from router hardware. Your old laptop works, but a dedicated router will be more stable and use less electricity.
 
 ### Recommended tool: PassWall2 (not OpenClash)
-You mentioned "openclaw" (likely OpenClash) and LuCI. OpenClash is popular and can import your existing Clash config, but recent OpenWrt versions (especially kernel 6.6 in 24.10+) have occasional Hysteria2 compatibility issues under certain WAN types. 
+You mentioned "openclaw" (likely OpenClash) and LuCI. OpenClash is popular and can import your existing Clash config, but recent OpenWrt versions (especially kernel 6.6 in 24.10+) have occasional Hysteria2 compatibility issues under certain WAN types.
 
 **PassWall2** is the clear winner here:
 - Full native support for Hysteria2 via the sing-box backend (latest packages as of 2026 include hysteria 2.6.5+).

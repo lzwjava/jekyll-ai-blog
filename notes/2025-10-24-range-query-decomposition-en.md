@@ -22,7 +22,7 @@ Square Root Decomposition (often abbreviated as √-decomposition) is a techniqu
 #### How It Works
 1. **Divide into Blocks**: Split the array into blocks of size \\( \sqrt{n} \\) (rounded down). If \\( n = 100 \\), block size \\( b = 10 \\), so you get 10 blocks.
    - Each block stores precomputed information (e.g., sum of elements in that block for sum queries).
-   
+
 2. **Query a Range [L, R]**:
    - **Full Blocks**: For complete blocks entirely within [L, R], just fetch the precomputed value in \\( O(1) \\) per block. At most \\( O(\sqrt{n}) \\) full blocks.
    - **Partial Blocks**: For the edges (left and right partial blocks), iterate through the individual elements manually, which takes \\( O(\sqrt{n}) \\) time total (since each partial block is size \\( \sqrt{n} \\)).
@@ -53,22 +53,22 @@ class SqrtDecomp:
         self.arr = arr[:]
         self.block_sums = [0] * ((self.n + self.b - 1) // self.b)
         self._build()
-    
+
     def _build(self):
         for i in range(self.n):
             block_id = i // self.b
             self.block_sums[block_id] += self.arr[i]
-    
+
     def update(self, idx, val):
         diff = val - self.arr[idx]
         self.arr[idx] = val
         block_id = idx // self.b
         self.block_sums[block_id] += diff
-    
+
     def query(self, left, right):
         res = 0
         l_block, r_block = left // self.b, right // self.b
-        
+
         if l_block == r_block:
             for i in range(left, right + 1):
                 res += self.arr[i]

@@ -39,7 +39,7 @@ Answer:
 * **analysis paralysis**
 * **armchair expertise**
 
-Knowing *what* ≠ knowing *how*  
+Knowing *what* ≠ knowing *how*
 Knowing *how* ≠ actually *doing it repeatedly*
 
 Execution 是创造收入的关键。
@@ -199,8 +199,8 @@ No leverage → low income。
 
 你注意到了这个模式：
 
-**Talking ability > Doing ability**  
-**Confidence > Competence**  
+**Talking ability > Doing ability**
+**Confidence > Competence**
 **Opinion > Execution**
 
 而收入主要来自 **execution**。

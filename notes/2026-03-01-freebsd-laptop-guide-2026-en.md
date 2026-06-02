@@ -11,7 +11,7 @@ type: note
 
 Question: How to install FreeBSD on a laptop?
 
-Answer: 
+Answer:
 
 Here is a practical step-by-step guide to install **FreeBSD** on a modern laptop (as of early 2026, covering FreeBSD 14.3 or FreeBSD 15.0).
 
@@ -31,8 +31,8 @@ Check compatibility first:
 
 ### Step-by-step Installation
 
-1. **Download the correct image**  
-   Go to → https://www.freebsd.org/where/  
+1. **Download the correct image**
+   Go to → https://www.freebsd.org/where/
    Recommended choices for laptops in 2026:
 
    - **memstick.img** (most common) → write to ≥8 GB USB
@@ -41,18 +41,18 @@ Check compatibility first:
 
    Also download the **CHECKSUM.SHA256** file and verify.
 
-2. **Create bootable USB**  
+2. **Create bootable USB**
    - **Linux / FreeBSD / macOS**: `dd if=FreeBSD-*.img of=/dev/sdX bs=1M status=progress`
    - **Windows**: Use Rufus (DD Image mode) or balenaEtcher
 
-3. **Prepare the laptop BIOS/UEFI**  
+3. **Prepare the laptop BIOS/UEFI**
    - Enter BIOS (usually F2, Del, F12, Esc)
    - **Disable** Secure Boot
    - Set **UEFI** mode (almost always better in 2025+)
    - Set USB as first boot device or use one-time boot menu (F12 / F11 / Esc)
 
-4. **Boot the installer**  
-   Insert USB → reboot → select USB from boot menu  
+4. **Boot the installer**
+   Insert USB → reboot → select USB from boot menu
    You should see the FreeBSD loader → press Enter (or wait) → choose **Install**
 
 5. **Follow the bsdinstall menus** (text-based installer)
@@ -71,7 +71,7 @@ Check compatibility first:
    | System Configuration     | Enable **sshd** if you want remote access                     |       |
    | Final Configuration      | Usually **Yes** to all defaults                               |       |
 
-6. **Finish & Reboot**  
+6. **Finish & Reboot**
    Remove USB when prompted → system should boot into FreeBSD console (black screen with text login)
 
 ### After First Boot – Make the Laptop Usable
@@ -155,7 +155,7 @@ Check compatibility first:
 
 Good luck!
 
-References:  
+References:
 
 - [FreeBSD Handbook – Installing FreeBSD](https://docs.freebsd.org/en/books/handbook/bsdinstall)
 - [FreeBSD download page](https://www.freebsd.org/where)

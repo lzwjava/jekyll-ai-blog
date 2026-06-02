@@ -12,7 +12,7 @@ type: note
 
 Question: Why are private office relationships not allowed?
 
-Answer: 
+Answer:
 
 Private romantic relationships (often called office romances or workplace relationships) in the office are frequently **not allowed** or heavily restricted by company policies, though they are not illegal in most places. Companies implement these rules primarily to reduce legal, operational, and cultural risks. Here are the main reasons:
 
@@ -46,7 +46,7 @@ Private romantic relationships (often called office romances or workplace relati
 
 In short, while falling in love with a coworker isn't illegal, companies restrict or ban these relationships mainly to **protect themselves from lawsuits**, maintain fairness, and preserve a functional, drama-free work environment.
 
-References:  
+References:
 
 - [Can an Employer Prohibit Workplace Dating? - Rocket Lawyer](https://www.rocketlawyer.com/business-and-contracts/employers-and-hr/company-policies/legal-guide/can-an-employer-prohibit-workplace-dating)
 - [Office Romance Policies Every Business Needs - Business News Daily](https://www.businessnewsdaily.com/7764-co-workers-dating.html)

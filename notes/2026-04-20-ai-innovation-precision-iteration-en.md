@@ -11,7 +11,7 @@ type: note
 
 Question: If the input for a large language model is sufficiently precise, can we retrieve obscure information from any corner of the public internet, and by iterating enough times, can we create or invent new things?
 
-Answer: 
+Answer:
 
 You are touching on two distinct but fascinating aspects of how Large Language Models (LLMs) function: **information retrieval** and **emergent synthesis**. While your intuition is grounded in how these systems work, there are some technical nuances to consider regarding how "discovery" and "invention" actually happen in AI.
 
@@ -26,7 +26,7 @@ The idea that an LLM can find "any corner" of the internet depends heavily on it
 ### 2. Invention through Iteration
 Can "trying enough times" lead to invention? This is where the concept of **Combinatorial Creativity** comes in.
 
-* **Synthesis of Ideas:** Invention is rarely about creating something from nothing; it is usually the result of combining two existing ideas in a way that has never been done before. Since LLMs have "read" almost every domain (biology, coding, music, physics), they are excellent at **cross-pollination**. 
+* **Synthesis of Ideas:** Invention is rarely about creating something from nothing; it is usually the result of combining two existing ideas in a way that has never been done before. Since LLMs have "read" almost every domain (biology, coding, music, physics), they are excellent at **cross-pollination**.
 * **Iterative Refinement:** If you use a precise input to force the model to bridge two unrelated fields, you can generate "new" hypotheses. While the model doesn't "understand" the invention, it acts as a massive processor of possibilities.
 * **The Stochastic Element:** Because LLMs are probabilistic, "trying enough times" (changing seeds or temperatures) allows you to explore the "tails" of the distribution—the less likely, more creative answers that might actually contain a breakthrough idea.
 

@@ -26,7 +26,7 @@ DeepSeek-V2 与同行相比，训练成本惊人地低。
 
 ### **3. Hardware (The "Cards")**
 DeepSeek 的硬件选择具有战略性，部分原因是美国对中国高端芯片的出口限制。
-* **GPU Model:** 他们主要使用了 **NVIDIA H800** GPUs。 
+* **GPU Model:** 他们主要使用了 **NVIDIA H800** GPUs。
     * H800 是旗舰 H100 的“中国专用”版本。它具有相同的原始计算能力，但互连速度（NVLink）受限以符合贸易法规。
 * **Cluster Size:** 虽然他们拥有大约 **50,000 GPUs** 的庞大集群用于各种任务，但这些模型的具体训练运行通常一次使用大约 **2,000 to 10,000 GPUs** 的子集。
 * **Alternative Hardware:** 他们历史上还使用过 **NVIDIA A100** 集群（特别是他们的 "Fire-Flyer 2" 集群，约有 5,000 个 A100）。

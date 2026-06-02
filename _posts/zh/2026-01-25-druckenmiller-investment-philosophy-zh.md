@@ -12,7 +12,7 @@ type: note
 
 **Question:** 链接为 https://www.youtube.com/watch?v=hf0wWavJz7c 的 YouTube 视频讲了什么？
 
-**Answer:** 
+**Answer:**
 
 这段视频是一段采访剪辑（长约 9-10 分钟），主角是 Duquesne Capital 的创始人、传奇投资人 **Stan Druckenmiller**。该视频由 TheLeapTV 频道于 2013 年 10 月上传。
 
@@ -30,6 +30,6 @@ type: note
 
 这似乎是某次较长谈话或采访的摘录，地点可能是在大学或商学院（提到了 USC Marshall School of Business）。
 
-**References:**  
+**References:**
 
 - [Original video](https://www.youtube.com/watch?v=hf0wWavJz7c)

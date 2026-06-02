@@ -39,8 +39,8 @@ This is an important measure to help enterprises improve competitiveness and enh
 ## Memory Aid
 
 The core tasks of supply-side structural reform can be remembered as:
-> **Cut** overcapacity, **Cut** excess inventory, **Cut** leverage (Three Cuts)  
-> **Reduce** costs (One Reduction)  
+> **Cut** overcapacity, **Cut** excess inventory, **Cut** leverage (Three Cuts)
+> **Reduce** costs (One Reduction)
 > **Address** weak links (One Addition)
 
 This is an important policy measure to optimize market supply-demand structure and improve supply quality.

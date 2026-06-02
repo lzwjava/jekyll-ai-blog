@@ -11,7 +11,7 @@ type: note
 
 问题：共享介质局域网 (LAN) 中的介质访问控制 (MAC) 协议必须解决哪三个具体问题，以及 CSMA/CD 介质访问控制的基本概念如何简单概括？
 
-回答： 
+回答：
 
 ### 共享介质 LAN 中 MAC 协议解决的三个问题
 
@@ -30,6 +30,6 @@ type: note
 
 简而言之，核心逻辑是：**先听，然后发；边发边听。**
 
-参考文献：  
+参考文献：
 
 - [IEEE 802.3 Ethernet Standard Overview](https://www.ieee802.org/3/)

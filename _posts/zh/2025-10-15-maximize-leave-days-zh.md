@@ -61,6 +61,6 @@ type: note
 
 根据子女年龄与兴趣选择目的地——动物爱好者选成都，休闲放松选海南。若考虑国际旅行（如新加坡动物园7天豪华游），可在3天假期基础上追加3-4天年假，但需预留签证与航班时间。建议通过官方渠道持续关注次年假期安排以便提前规划。
 
-[2025年中国公共假期查询](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html)  
-[中国亲子旅行指南](https://www.audleytravel.com/us/china/country-guides/family-china)  
+[2025年中国公共假期查询](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html)
+[中国亲子旅行指南](https://www.audleytravel.com/us/china/country-guides/family-china)
 [亚洲最佳亲子目的地](https://travelynnfamily.com/best-holiday-destinations-in-asia-for-family-travel/)

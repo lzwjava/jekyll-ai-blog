@@ -11,7 +11,7 @@ type: note
 
 **问题：** 作为中国公民，我可以使用入境许可（Mainland Travel Permit for Hong Kong and Macao）开设 Bank of China Hong Kong 账户，然后在那里申请信用卡吗？可以申请哪些种类的信用卡，还是因为要求香港公民身份而没有任何信用卡可用？
 
-**回答：** 
+**回答：**
 
 是的，作为中国大陆公民，您可以使用**Mainland Travel Permit for Travelling to and from Hong Kong and Macao**（俗称 Home Visit Permit 或 entry permit）连同其他身份证件，如大陆身份证或护照，在**Bank of China (Hong Kong)** (BOCHK) 开立个人银行账户。BOCHK 为大陆访客/居民提供专门服务以开设账户，包括 Greater Bay Area 便利措施。
 
@@ -29,7 +29,7 @@ type: note
 
 有关最准确和最新的详情，请携带您的文件亲自前往香港的 BOCHK 分行，或直接查看其官方信用卡申请页面/表格，因为政策可能因卡类型而异并随时间变化。
 
-**参考资料：**  
+**参考资料：**
 
 - [https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)
 - [https://www.bochk.com/creditcard/pdf/eng/card/icard_form.pdf](https://www.bochk.com/creditcard/pdf/eng/card/icard_form.pdf)

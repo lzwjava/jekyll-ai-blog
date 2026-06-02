@@ -12,7 +12,7 @@ type: note
 
 Question: What are the average or median IT engineer salaries in China over the last 30 years?
 
-Answer: 
+Answer:
 
 Comprehensive historical data on average or median salaries specifically for IT engineers (or software developers/engineers) in China over the full last 30 years (1995–2025) is limited, as the modern IT sector in China emerged significantly in the late 1990s and boomed in the 2000s with internet growth. Early data from the 1990s is scarce and not well-documented in public sources.
 
@@ -34,11 +34,11 @@ For specific software/IT engineer roles in recent years (2023–2025), sources v
 
 Salaries have risen rapidly with China's economic growth, tech boom (e.g., mobile/internet/AI since 2010s), and demand for skilled talent. Pre-2010 estimates suggest much lower figures (likely under 50,000 CNY annually in urban areas during the early 2000s), adjusted for inflation and development stage.
 
-References:  
+References:
 
-- https://www.ceicdata.com/en/china/average-wage-by-industry/average-wage-information-transmission-software-and-information-technology-service  
-- https://teamedupchina.com/average-salaries-by-industry-in-china/  
-- https://www.statista.com/statistics/278350/average-annual-salary-of-an-employee-in-china-by-region/ (related sector data)  
-- https://teamedupchina.com/average-software-engineer-salary-in-china/  
-- https://worldsalaries.com/average-software-engineer-salary-in-china/  
+- https://www.ceicdata.com/en/china/average-wage-by-industry/average-wage-information-transmission-software-and-information-technology-service
+- https://teamedupchina.com/average-salaries-by-industry-in-china/
+- https://www.statista.com/statistics/278350/average-annual-salary-of-an-employee-in-china-by-region/ (related sector data)
+- https://teamedupchina.com/average-software-engineer-salary-in-china/
+- https://worldsalaries.com/average-software-engineer-salary-in-china/
 - https://www.levels.fyi/t/software-engineer/locations/china

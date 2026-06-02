@@ -61,10 +61,10 @@ NVIDIA's workforce expanded steadily, reflecting its shift from a niche graphics
 
 From ~400 in 2000 to over 5,700 in 2010, growth averaged 30-40% annually in boom years, with dips during downturns. This built a diverse team (e.g., ~58% male in 2005 reports), emphasizing engineering talent for innovations like PhysX integration (Ageia acquisition, 2008).
 
-References:  
-[NVIDIA Stock Returns (Slickcharts)](https://www.slickcharts.com/symbol/NVDA/returns)  
-[NVIDIA Employee Data (xrilion.com)](https://www.xrilion.com/blog/stats/nvidia-stats)  
-[NVIDIA History (Wikipedia)](https://en.wikipedia.org/wiki/Nvidia)  
-[CUDA Launch (NVIDIA Developer)](https://developer.nvidia.com/about-cuda)  
-[Jensen Huang Bio (Forbes)](https://www.forbes.com/profile/jensen-huang/)  
+References:
+[NVIDIA Stock Returns (Slickcharts)](https://www.slickcharts.com/symbol/NVDA/returns)
+[NVIDIA Employee Data (xrilion.com)](https://www.xrilion.com/blog/stats/nvidia-stats)
+[NVIDIA History (Wikipedia)](https://en.wikipedia.org/wiki/Nvidia)
+[CUDA Launch (NVIDIA Developer)](https://developer.nvidia.com/about-cuda)
+[Jensen Huang Bio (Forbes)](https://www.forbes.com/profile/jensen-huang/)
 [NVIDIA Timeline (NVIDIA.com)](https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/)

@@ -12,7 +12,7 @@ type: note
 
 Question: What businesses thrive during the Christmas holiday period, such as tourist spots or canteens?
 
-Answer: 
+Answer:
 
 During the Christmas holiday period (late December), when many offices, banks, and corporations are closed or operating with reduced staff, several businesses experience a surge in activity due to increased leisure time, travel, family gatherings, and festive celebrations.
 
@@ -26,12 +26,12 @@ During the Christmas holiday period (late December), when many offices, banks, a
 
 In contrast to quiet corporate sectors, consumer-facing leisure and experiential businesses benefit from people having time off and spending on celebrations/travel.
 
-References:  
+References:
 
-- https://newsroom.aaa.com/2025/12/aaa-year-end-holiday-travel-forecast/  
-- https://en.wikipedia.org/wiki/Economics_of_Christmas  
-- https://www.statista.com/statistics/243439/holiday-retail-sales-in-the-united-states/  
-- https://www.travelandleisure.com/holiday-travel/best-places-to-spend-christmas  
-- https://abcnews.go.com/US/holiday-travel-forecast-fly-drive-christmas-new-years/story?id=128277999  
-- https://www.nasdaq.com/articles/5-industries-set-for-a-holiday-season-boost-2020-10-07  
+- https://newsroom.aaa.com/2025/12/aaa-year-end-holiday-travel-forecast/
+- https://en.wikipedia.org/wiki/Economics_of_Christmas
+- https://www.statista.com/statistics/243439/holiday-retail-sales-in-the-united-states/
+- https://www.travelandleisure.com/holiday-travel/best-places-to-spend-christmas
+- https://abcnews.go.com/US/holiday-travel-forecast-fly-drive-christmas-new-years/story?id=128277999
+- https://www.nasdaq.com/articles/5-industries-set-for-a-holiday-season-boost-2020-10-07
 - https://beambox.com/townsquare/how-christmas-affects-the-hospitality-industry

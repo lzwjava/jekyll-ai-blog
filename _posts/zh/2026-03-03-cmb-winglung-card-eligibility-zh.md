@@ -11,7 +11,7 @@ type: note
 
 **问题：CMB Wing Lung Bank 的情况如何？我已经有那个账户了。**
 
-**回答：** 
+**回答：**
 
 是的，作为拥有 **CMB Wing Lung Bank** 现有个人账户的大陆中国公民（使用您的港澳通行证以及其他所需身份证件如 PRC ID card 或 passport 开设），您有资格申请某些 **信用卡**，特别是作为非香港居民。
 
@@ -33,7 +33,7 @@ CMB Wing Lung Bank 明确允许 **non-Hong Kong residents**（包括大陆中国
 
 有关最新详情、确认您的具体资格（基于账户资产和收入证明）或申请，请前往香港的 CMB Wing Lung 分行、使用其移动应用/在线渠道（如有信用卡申请功能），或致电客户服务热线 (852) 2309 5555。政策和要求可能更新，请直接向银行确认。
 
-**参考资料：**  
+**参考资料：**
 
 - [https://www.cmbwinglungbank.com/wlb_corporate/UserFiles/File/pdf/En/EnDocumentCreditCard.pdf](https://www.cmbwinglungbank.com/wlb_corporate/UserFiles/File/pdf/En/EnDocumentCreditCard.pdf)
 - [https://www.cmbwinglungbank.com/wlb_corporate/en/personal/credit-card/credit-card-products/wing-lung-cup-dual-currency-platinum-card/index.html](https://www.cmbwinglungbank.com/wlb_corporate/en/personal/credit-card/credit-card-products/wing-lung-cup-dual-currency-platinum-card/index.html)

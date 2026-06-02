@@ -41,7 +41,7 @@ Yes, Macau has several ports of entry that support 24-hour transit (customs clea
 
 If you have a specific route (e.g., Zhuhai-Macau) or other details, I can help query further!
 
-[Macao's new express gateway to mainland China](https://www.gcs.gov.mo/detail/en/M21KHkF5cs)  
-[Hengqin Port - Wikipedia](https://en.wikipedia.org/wiki/Hengqin_Port)  
-[Macau second-busiest border surpasses 100M crossings since opening](https://agbrief.com/news/macau/05/08/2025/macau-second-busiest-border-surpasses-100m-crossings-since-opening/)  
+[Macao's new express gateway to mainland China](https://www.gcs.gov.mo/detail/en/M21KHkF5cs)
+[Hengqin Port - Wikipedia](https://en.wikipedia.org/wiki/Hengqin_Port)
+[Macau second-busiest border surpasses 100M crossings since opening](https://agbrief.com/news/macau/05/08/2025/macau-second-busiest-border-surpasses-100m-crossings-since-opening/)
 [China Implements New Cross-Border Travel Reforms](https://phc.com.kw/news-detail/distribution-of-cash-dividend-%282017%29?s-news-4975428-2025-11-04-china-implements-new-cross-border-travel-reforms-to-boost-macau-integration-and-regional-mobility)

@@ -22,7 +22,7 @@ According to the material (p.179), strengthening and innovating social governanc
 
 Creating a social governance system with:
 - Party committee leadership
-- Government responsibility  
+- Government responsibility
 - Social coordination
 - Public participation
 - Rule of law guarantee
@@ -35,7 +35,7 @@ The goal is to "**build a social governance pattern of co-construction, co-gover
 - Everyone participates in building society together
 - Shared responsibility for development
 
-**共治 (Co-governance)**  
+**共治 (Co-governance)**
 - Collaborative governance among multiple parties
 - Government, society, and citizens govern together
 

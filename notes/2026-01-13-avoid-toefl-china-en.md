@@ -12,7 +12,7 @@ type: note
 
 Question: Is it not recommended to take the TOEFL iBT Home Edition at home in China due to poor home network and VPN issues?
 
-Answer: 
+Answer:
 
 Yes, it is generally **not recommended** to take the TOEFL iBT Home Edition at home in mainland China if your home network is unstable or requires a VPN for reliable connectivity. Here's why, based on user experiences, official guidelines, and technical realities:
 
@@ -29,7 +29,7 @@ Yes, it is generally **not recommended** to take the TOEFL iBT Home Edition at h
 
 In summary, if your home setup involves unreliable internet or heavy VPN reliance, skip the Home Edition to avoid wasting time/money — opt for a test center instead. Always run the official equipment check in advance and review China's specific page on toefl.cn.
 
-References:  
+References:
 
 - [ETS TOEFL iBT Home Edition page (China-specific policies)](https://toefl.cn/at-home)
 - [ETS official at-home test day info](https://www.ets.org/toefl/test-takers/ibt/test-day/at-home-test-day.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: How to use an Ansible playbook to copy *.sh, *.ksh, and *.py files from a source directory to a destination directory recursively?
 
-Answer: 
+Answer:
 
 To copy only files with specific extensions (`.sh`, `.ksh`, `.py`) recursively from a source directory to a destination directory while preserving the directory structure, use a combination of the `ansible.builtin.find` and `ansible.builtin.copy` modules. The `copy` module alone does not support filtering by multiple extensions during recursive copies.
 
@@ -68,8 +68,8 @@ dest: "{{ dest_dir }}/{{ item.path | basename }}"
 ```
 {% endraw %}
 
-References:  
+References:
 
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html  
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html  
+- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html
+- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html
 - https://stackoverflow.com/questions/36696952/copy-multiple-files-with-ansible

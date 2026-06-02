@@ -38,9 +38,9 @@ Stripe exemplifies how to scale globally with less redundancy: It provides a uni
 
 In practice, banks are moving this way: Many are adopting "banking-as-a-service" (BaaS) models or partnering with Stripe itself for embedded finance. However, legacy systems and stricter oversight (e.g., from the Fed in the US or MAS in Singapore) slow progress compared to nimble fintechs.
 
-[Standard Chartered Bank Apps on the App Store](https://apps.apple.com/kg/developer/standard-chartered-bank/id367337301)  
-[Mobile Banking App - Standard Chartered Singapore](https://www.sc.com/sg/bank-with-us/mobile-banking-services/standard-chartered-mobile/)  
-[Regulatory Challenges in Open Banking](https://adria-bt.com/en/regulatory-challenges-in-open-banking-best-practices-for-compliance/)  
-[Solutions for Global Businesses - Stripe](https://stripe.com/use-cases/global-businesses)  
-[GitHub Enterprise Cloud with Data Residency](https://github.com/enterprise/data-residency)  
+[Standard Chartered Bank Apps on the App Store](https://apps.apple.com/kg/developer/standard-chartered-bank/id367337301)
+[Mobile Banking App - Standard Chartered Singapore](https://www.sc.com/sg/bank-with-us/mobile-banking-services/standard-chartered-mobile/)
+[Regulatory Challenges in Open Banking](https://adria-bt.com/en/regulatory-challenges-in-open-banking-best-practices-for-compliance/)
+[Solutions for Global Businesses - Stripe](https://stripe.com/use-cases/global-businesses)
+[GitHub Enterprise Cloud with Data Residency](https://github.com/enterprise/data-residency)
 [Global Payment APIs Explained - Stripe](https://stripe.com/resources/more/global-payment-apis-explained-how-they-work-and-how-to-use-them)

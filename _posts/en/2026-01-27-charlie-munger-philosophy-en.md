@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Charlie Munger
 
-Answer: 
+Answer:
 
 **Charlie Munger** (full name: Charles Thomas Munger) was one of the most influential investors, thinkers, and business minds of the 20th and early 21st centuries. He is best known as the longtime vice chairman of **Berkshire Hathaway** and as Warren Buffett's closest partner and closest intellectual companion.
 
@@ -75,7 +75,7 @@ Some of his most influential concepts include:
 
 In short, Charlie Munger was not just a great investor — he was a **world-class thinker** who taught people how to think better about almost everything.
 
-References:  
+References:
 
 - [Charlie Munger - Wikipedia](https://en.wikipedia.org/wiki/Charlie_Munger)
 - [The Extraordinary Life of Charlie Munger - Quartr](https://quartr.com/insights/edge/the-extraordinary-life-of-charlie-munger)

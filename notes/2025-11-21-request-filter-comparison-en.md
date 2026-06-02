@@ -70,6 +70,6 @@ Add to `web.xml`:
 
 In summary, the **request chain filter concept is the same** (Servlet spec), but **Spring Boot makes it far simpler and more powerful** for most modern use cases, while WAS is more enterprise-heavy and configuration-intensive.
 
-[IBM WAS Servlet Filtering Documentation](https://www.ibm.com/docs/en/was/9.0.5?topic=extensions-servlet-filtering)  
-[Spring Boot Custom Filters](https://www.baeldung.com/spring-boot-add-filter)  
+[IBM WAS Servlet Filtering Documentation](https://www.ibm.com/docs/en/was/9.0.5?topic=extensions-servlet-filtering)
+[Spring Boot Custom Filters](https://www.baeldung.com/spring-boot-add-filter)
 [Spring Security Filter Chain](https://docs.spring.io/spring-security/reference/servlet/architecture.html)

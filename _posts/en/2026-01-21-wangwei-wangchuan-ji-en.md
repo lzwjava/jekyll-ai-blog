@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to Wang Wei's "Wangchuan Ji" (辋川集)
 
-Answer: 
+Answer:
 
 **Wang Wei's *Wangchuan Ji* (辋川集)**, often translated as the *Wheel River Collection* or *Wang River Collection*, is one of the most famous and representative works of Tang dynasty landscape poetry.
 
@@ -57,7 +57,7 @@ Commonly listed as:
   空山不见人，但闻人语响。
   返景入深林，复照青苔上。
   ```
-  (Empty mountains, no one in sight, yet voices are heard.  
+  (Empty mountains, no one in sight, yet voices are heard.
   Returning sunlight enters the deep forest, shining again on the green moss.)
 
 - Overall mood: mixture of gentle melancholy, philosophical reflection on impermanence, and serene acceptance.
@@ -70,7 +70,7 @@ Commonly listed as:
 
 In short, *Wangchuan Ji* is not just a poetry collection — it is a comprehensive artistic expression of Wang Wei's ideal world of reclusion, Zen insight, and harmony with nature, and remains a timeless masterpiece in Chinese literary history.
 
-References:  
+References:
 
 - [辋川集 - 百度百科](https://baike.baidu.com/item/%E8%BE%8B%E5%B7%9D%E9%9B%86/8029841)
 - [Wangchuan ji - Wikipedia](https://en.wikipedia.org/wiki/Wangchuan_ji)

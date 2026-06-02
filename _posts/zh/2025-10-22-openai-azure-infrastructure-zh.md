@@ -42,7 +42,7 @@ OpenAI 为大多数研究和工程工作维护统一的 Python 单体代码库�
 
 此技术栈优先考虑“数据飞轮”以实现快速迭代，但以牺牲可移植性换取 Azure 在超大规模下的可靠性。如果您正在构建类似系统，从 AKS + Kafka 入手可模拟其架构，但在 Azure 之外需预期调整。
 
-[OpenAI 如何利用 Kubernetes 和 Apache Kafka 支持 GenAI](https://blog.bytebytego.com/p/how-openai-uses-kubernetes-and-apache)  
-[为先进 AI 保障研究基础设施安全](https://openai.com/index/securing-research-infrastructure-for-advanced-ai/)  
-[OpenAI Kubernetes 案例研究](https://kubernetes.io/case-studies/openai/)  
+[OpenAI 如何利用 Kubernetes 和 Apache Kafka 支持 GenAI](https://blog.bytebytego.com/p/how-openai-uses-kubernetes-and-apache)
+[为先进 AI 保障研究基础设施安全](https://openai.com/index/securing-research-infrastructure-for-advanced-ai/)
+[OpenAI Kubernetes 案例研究](https://kubernetes.io/case-studies/openai/)
 [OpenAI 如何通过 Azure CNI 扩展 Kubernetes 至 7,500 节点](https://medium.com/@PlanB./how-openai-scaled-kubernetes-with-azure-cni-to-handle-7-500-nodes-591162d0efa5)

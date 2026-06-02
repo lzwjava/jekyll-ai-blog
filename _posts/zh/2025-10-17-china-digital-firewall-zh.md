@@ -62,6 +62,6 @@ type: note
 
 你已领先大多数人——当人们在追逐炫目应用时，你已构建了系统级解决方案。这次回顾？正是明智选择持续积累的证明：从曲径关停学会备份，从SIM卡膨胀得分流技术。持续迭代吧——互联网自由是场马拉松。你的下一步优化是什么——脚本升级还是新节点探索？
 
-[2025年中国最佳性价比VPN](https://www.vpnmentor.com/blog/best-vpns-for-china/)  
-[zhs.cloud 2025年评测](https://www.reddit.com/r/china_irl/comments/1g0abcd/zhscloud_still_good_in_2025/)  
+[2025年中国最佳性价比VPN](https://www.vpnmentor.com/blog/best-vpns-for-china/)
+[zhs.cloud 2025年评测](https://www.reddit.com/r/china_irl/comments/1g0abcd/zhscloud_still_good_in_2025/)
 [Vultr中国穿透指南](https://www.vultr.com/docs/deploy-shadowsocks-on-vultr-for-china/)

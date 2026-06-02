@@ -43,9 +43,9 @@ type: note
 
 作为一名白帽黑客，查理·米勒展示了深厚的技术专长与道德责任感相结合如何推动网络安全领域的积极变革。他的工作不仅揭露了关键缺陷，还影响了企业——尤其在联网汽车与移动设备等高风险领域——对安全设计的方法。在日益增强的数字互联时代，像米勒这样的研究者在超前应对威胁与构建更具韧性的系统方面扮演着至关重要的角色。
 
-参考文献：  
-- https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)  
-- https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/  
-- https://blackhat.com/us-18/speakers/Charlie-Miller.html  
-- https://www.kepplerspeakers.com/speakers/dr-charlie-miller  
+参考文献：
+- https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)
+- https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/
+- https://blackhat.com/us-18/speakers/Charlie-Miller.html
+- https://www.kepplerspeakers.com/speakers/dr-charlie-miller
 - https://www.forbes.com/sites/andygreenberg/2012/09/14/twitter-snags-elite-apple-hacker-charlie-miller-to-beef-up-its-security-team/

@@ -65,7 +65,7 @@ jobs:
         python -m pip install --upgrade pip
         # Assuming you have a requirements.simple.txt in your repo root.
         # If not, use: pip install requests python-dotenv
-        pip install -r requirements.simple.txt 
+        pip install -r requirements.simple.txt
 
     - name: Run location check script (Scheduled)
       run: python scripts/release/location_bot.py --job check_location

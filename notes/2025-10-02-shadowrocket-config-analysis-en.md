@@ -27,7 +27,7 @@ I'll explain it section by section, breaking down each part, what it does, and w
 This sets global app behaviors, DNS resolution, and network routing. It's like the "preferences" or "system settings" for Shadowrocket.
 
 - `bypass-system = true`: Ignore iOS's system proxy settings. Shadowrocket handles all proxying itself instead of relying on system-wide configs.
-  
+
 - `skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,captive.apple.com,*.ccb.com,*.abchina.com.cn,*.psbc.com,www.baidu.com`: A comma-separated list of domains/IP ranges to **always route directly** (no proxy). This includes:
   - Private networks (e.g., home Wi-Fi IPs like 192.168.x.x).
   - Local domains (*.local) and localhost.

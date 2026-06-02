@@ -11,7 +11,7 @@ type: note
 
 Question: What is Paul Graham's essay "When To Do What You Love" about?
 
-Answer: 
+Answer:
 
 Paul Graham published an essay titled **When To Do What You Love** in September 2024 on his website.
 
@@ -34,7 +34,7 @@ In short, Graham's updated view is pragmatic: follow your passion when possible 
 
 The full essay is available on his site and is relatively short, like most of his pieces.
 
-References:  
+References:
 
 - [When To Do What You Love - Paul Graham](https://paulgraham.com/when.html)
 - [Paul Graham Essays list](https://paulgraham.com/articles.html) (confirms publication date and context)

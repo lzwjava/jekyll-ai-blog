@@ -34,8 +34,8 @@ In a July 2024 interview, Liang laid bare his worldview: China must stop "freeri
 
 Liang's story is one of quiet persistence: from rural math whiz to quant billionaire to AI trailblazer, proving startups can disrupt with smarts, not just scale.
 
-[Who Is Liang Wenfeng, the Founder of AI Disruptor DeepSeek?](https://www.entrepreneur.com/business-news/who-is-liang-wenfeng-the-founder-of-ai-disruptor-deepseek/486564)  
-[Liang Wenfeng - Wikipedia](https://en.wikipedia.org/wiki/Liang_Wenfeng)  
-[Meet DeepSeek founder Liang Wenfeng, a hedge fund manager](https://fortune.com/2025/01/27/deepseek-founder-liang-wenfeng-hedge-fund-manager-high-flyer-quant-trading/)  
-[Interview with Deepseek Founder: We're Done Following](https://thechinaacademy.org/interview-with-deepseek-founder-were-done-following/)  
+[Who Is Liang Wenfeng, the Founder of AI Disruptor DeepSeek?](https://www.entrepreneur.com/business-news/who-is-liang-wenfeng-the-founder-of-ai-disruptor-deepseek/486564)
+[Liang Wenfeng - Wikipedia](https://en.wikipedia.org/wiki/Liang_Wenfeng)
+[Meet DeepSeek founder Liang Wenfeng, a hedge fund manager](https://fortune.com/2025/01/27/deepseek-founder-liang-wenfeng-hedge-fund-manager-high-flyer-quant-trading/)
+[Interview with Deepseek Founder: We're Done Following](https://thechinaacademy.org/interview-with-deepseek-founder-were-done-following/)
 [What's the story of DeepSeek and its founder Liang Wenfeng?](https://www.ourchinastory.com/en/14046/What%27s-the-story-of-DeepSeek-and-its-founder-Liang-Wenfeng?)

@@ -47,8 +47,8 @@ Smart Nation has transformed Singapore into a global digital hub, with initiativ
 
 For more details, visit the official resources below.
 
-**References**  
-- [Smart Nation Singapore Official Website](https://www.smartnation.gov.sg/)  
-- [Smart Nation 2.0 Report](https://file.go.gov.sg/smartnation2-report.pdf)  
-- [Smart Nation on Wikipedia](https://en.wikipedia.org/wiki/Smart_Nation)  
+**References**
+- [Smart Nation Singapore Official Website](https://www.smartnation.gov.sg/)
+- [Smart Nation 2.0 Report](https://file.go.gov.sg/smartnation2-report.pdf)
+- [Smart Nation on Wikipedia](https://en.wikipedia.org/wiki/Smart_Nation)
 - [Tech.gov.sg: Our Enhanced Smart Nation Vision](https://www.tech.gov.sg/technews/our-enhanced-smart-nation-vision-paving-the-way-for-a-new-digital-era/)

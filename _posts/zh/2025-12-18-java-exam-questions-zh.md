@@ -19,66 +19,66 @@ type: note
 ### 多项选择题 (1-10)
 
 1. 以下哪项是Java应用程序中声明`main`方法的正确方式？
-   - A. public void main(String[] args)  
-   - B. static public void main(String args[])  
-   - C. public static void main(String[] args)  
+   - A. public void main(String[] args)
+   - B. static public void main(String args[])
+   - C. public static void main(String[] args)
    - D. void main(String args)
 
 2. 在Java中，哪个数据类型用于存储单个字符？
-   - A. String  
-   - B. char  
-   - C. int  
+   - A. String
+   - B. char
+   - C. int
    - D. boolean
 
 3. 以下代码的输出是什么？
    ```java
    System.out.println(10 + 20 + "Hello" + 30 + 40);
-   ```  
-   - A. 70Hello3040  
-   - B. 30Hello70  
-   - C. 10 20 Hello 30 40  
+   ```
+   - A. 70Hello3040
+   - B. 30Hello70
+   - C. 10 20 Hello 30 40
    - D. Hello100
 
 4. 在Java中，哪个关键字用于定义子类？
-   - A. implements  
-   - B. extends  
-   - C. super  
+   - A. implements
+   - B. extends
+   - C. super
    - D. this
 
 5. `break`语句在`switch`块中有什么作用？
-   - A. 结束整个程序  
-   - B. 跳到下一次迭代  
-   - C. 退出`switch`语句  
+   - A. 结束整个程序
+   - B. 跳到下一次迭代
+   - C. 退出`switch`语句
    - D. 继续执行`default`情况
 
 6. 以下哪项在Java中**不是**有效的访问修饰符？
-   - A. public  
-   - B. protected  
-   - C. private  
+   - A. public
+   - B. protected
+   - C. private
    - D. open
 
 7. 在Java中，数组是：
-   - A. 基本数据类型  
-   - B. 对象  
-   - C. 方法  
+   - A. 基本数据类型
+   - B. 对象
+   - C. 方法
    - D. 接口
 
 8. 类中`boolean`实例变量的默认值是什么？
-   - A. true  
-   - B. false  
-   - C. null  
+   - A. true
+   - B. false
+   - C. null
    - D. 0
 
 9. 对象创建时会自动调用哪个方法？
-   - A. main()  
-   - B. Constructor  
-   - C. finalize()  
+   - A. main()
+   - B. Constructor
+   - C. finalize()
    - D. toString()
 
 10. 当整数除以零时会抛出哪个异常？
-    - A. NullPointerException  
-    - B. ArrayIndexOutOfBoundsException  
-    - C. ArithmeticException  
+    - A. NullPointerException
+    - B. ArrayIndexOutOfBoundsException
+    - C. ArithmeticException
     - D. ClassCastException
 
 ### 填空题 (11-15)

@@ -66,9 +66,9 @@ type: note
 
 这些发明体现了日本注重用户体验、高效节能且具全球推广价值的技术特点。日本专利申报数量持续位居世界前列，尤其在机器人领域（年均超1万项）。
 
-深度阅读推荐：  
-[日本科学技术发展概况](https://en.wikipedia.org/wiki/Science_and_technology_in_Japan)  
-[日本位居全球机器人制造榜首](https://ifr.org/news/japan-is-worlds-number-one-robot-maker/)  
-[日本顶尖科技企业名录](https://japan-dev.com/companies)  
-[日本发明与发现列表](https://en.wikipedia.org/wiki/List_of_Japanese_inventions_and_discoveries)  
+深度阅读推荐：
+[日本科学技术发展概况](https://en.wikipedia.org/wiki/Science_and_technology_in_Japan)
+[日本位居全球机器人制造榜首](https://ifr.org/news/japan-is-worlds-number-one-robot-maker/)
+[日本顶尖科技企业名录](https://japan-dev.com/companies)
+[日本发明与发现列表](https://en.wikipedia.org/wiki/List_of_Japanese_inventions_and_discoveries)
 [改变人类生活的日本发明](https://www.cnn.com/2017/06/13/world/gallery/japanese-inventions-changed-how-we-live)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why do switches have ports? The cables connect them, and then it is done. Switches are not routers and computers, right?
 
-Answer: 
+Answer:
 
 Network switches have multiple ports to allow physical connections via Ethernet cables to multiple devices (such as computers, printers, or other switches) at the same time. The ports are the entry points where cables plug in, enabling the switch to intelligently forward data packets only to the intended recipient device using MAC addresses. This creates an efficient local network (LAN) where many devices can communicate simultaneously without interference.
 
@@ -50,7 +50,7 @@ Here are comparison diagrams:
 
 
 
-References:  
+References:
 
 - https://en.wikipedia.org/wiki/Network_switch
 - https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/

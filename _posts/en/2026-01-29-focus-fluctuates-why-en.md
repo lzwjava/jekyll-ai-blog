@@ -12,7 +12,7 @@ type: note
 
 Question: Why is focus sometimes effortless, allowing me to complete dozens of exam questions, code, or reading materials quickly, while at other times even a single multiple-choice question feels impossible to concentrate on?
 
-Answer: 
+Answer:
 
 This extreme contrast in focus ability is extremely common — almost everyone who does deep cognitive work experiences it. The brain’s ability to focus is not a stable “skill level” but a **momentary state** that is influenced by many rapidly changing variables.
 
@@ -61,11 +61,11 @@ The key realization is: **focus is not mainly a willpower problem — it is most
 
 When you’re in the “magic focus” state, almost everything aligns biologically and psychologically. When you’re stuck, usually several of those factors are misaligned at the same time.
 
-So instead of fighting yourself with “I must focus!”, it’s usually more effective to ask:  
+So instead of fighting yourself with “I must focus!”, it’s usually more effective to ask:
 “What is currently blocking my brain’s natural focus engine?”
 
 Fix the biggest 1–2 blockers → focus often returns surprisingly quickly.
 
-References:  
+References:
 
 - None (this is synthesized from well-established neuroscience, psychology, and productivity patterns; no single source quoted)

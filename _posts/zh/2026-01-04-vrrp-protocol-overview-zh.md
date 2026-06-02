@@ -12,7 +12,7 @@ type: note
 
 Question: 请全面介绍网络中的 VRRP 协议。
 
-Answer: 
+Answer:
 
 ### VRRP 简介
 

@@ -17,7 +17,7 @@ The output is divided into three main sections: a header with software versions,
 
 ### Header
 ```
-Tue Oct  7 03:16:58 2025       
+Tue Oct  7 03:16:58 2025
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 535.247.01             Driver Version: 535.247.01   CUDA Version: 12.2     |
 ```

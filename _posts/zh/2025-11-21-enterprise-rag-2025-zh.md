@@ -192,12 +192,12 @@ def ask(question: str, project: str = None, source: str = None):
         filters.append({"key": "project", "value": project, "operator": "=="})
     if source:
         filters.append({"key": "source", "value": source, "operator": "=="})
-    
+
     response = query_engine.query(
         question,
         metadata_filters=filters or None,
     )
-    
+
     print("回答:", response.response)
     print("\n来源:")
     for node in response.source_nodes:

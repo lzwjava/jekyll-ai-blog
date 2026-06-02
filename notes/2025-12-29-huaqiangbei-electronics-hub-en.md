@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Huaqiangbei in China.
 
-Answer: 
+Answer:
 
 Huaqiangbei (华强北, literally "Huaqiang North") is a famous subdistrict and commercial area in Futian District, Shenzhen, Guangdong Province, China. It is widely recognized as the world's largest electronics market and a key hub in the global technology supply chain, often nicknamed "China's No. 1 Electronics Street," "China's Silicon Valley," or the "Silicon Valley of Hardware."
 
@@ -49,9 +49,9 @@ For visitors: Bargaining is essential, cash/WeChat Pay common, and caution advis
 
 Huaqiangbei embodies Shenzhen's transformation from a fishing village to a tech giant, making it a must-visit for anyone interested in electronics sourcing or innovation.
 
-References:  
-- [Huaqiangbei - Wikipedia](https://en.wikipedia.org/wiki/Huaqiangbei)  
-- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)  
-- [Huaqiangbei Electronic Market: Everything You Need to Know](https://www.ejet.com/huaqiangbei/)  
-- [Huaqiangbei, mecca of techies](https://www.szft.gov.cn/en/news/news/content/post_11362934.html)  
+References:
+- [Huaqiangbei - Wikipedia](https://en.wikipedia.org/wiki/Huaqiangbei)
+- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)
+- [Huaqiangbei Electronic Market: Everything You Need to Know](https://www.ejet.com/huaqiangbei/)
+- [Huaqiangbei, mecca of techies](https://www.szft.gov.cn/en/news/news/content/post_11362934.html)
 - [Back to the Future: A Walk through Huaqiangbei in 2025](https://positionspolitics.org/fan-yang-back-to-the-future-a-walk-through-huaqiangbei-in-2025/)

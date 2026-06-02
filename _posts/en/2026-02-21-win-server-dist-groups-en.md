@@ -11,7 +11,7 @@ type: note
 
 Question: In a Windows Server 2003 environment, which group type is used exclusively for distributing email and does not have security enabled?
 
-Answer: 
+Answer:
 
 The correct answer is **C. Distribution Group** (通信组).
 

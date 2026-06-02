@@ -21,22 +21,22 @@ type: post
 
 这场事故成了我终生的记忆。后来发生的车祸都微不足道。庆幸此生遭遇的车祸都没酿成悲剧，特此记录，祈愿余生少遇事故，也祝你平安。
 
-{: .centered }  
-![](assets/images/accident/a1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a1.jpg){: .responsive }
 *来源：自行拍摄*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a2.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a2.jpg){: .responsive }
 *来源：自行拍摄*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a3.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a3.jpg){: .responsive }
 *来源：自行拍摄*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a4.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a4.jpg){: .responsive }
 *来源：自行拍摄*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a5.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a5.jpg){: .responsive }
 *来源：自行拍摄*{: .caption }

@@ -20,6 +20,6 @@ Liu's book *Dark Time* (《暗时间》), published around 2012, is a compilatio
 
 If you're looking for specific articles, the blog archives older posts on similar themes, though the site may require a Chinese browser or translation tool for full access.
 
-[Weipeng Liu's LinkedIn Profile](https://www.linkedin.com/in/pongba/)  
-[Dark Time Book Summary (Chinese)](https://topic.alibabacloud.com/a/dark-time-new-book-by-liu-weipeng-microsoft-asia-research-institute_8_8_31850692.html)  
+[Weipeng Liu's LinkedIn Profile](https://www.linkedin.com/in/pongba/)
+[Dark Time Book Summary (Chinese)](https://topic.alibabacloud.com/a/dark-time-new-book-by-liu-weipeng-microsoft-asia-research-institute_8_8_31850692.html)
 [Reading Notes on Dark Time](http://www.apple4.cn/2012/01/10/2nd-reading-of-dark-time-from-liu-weipeng/)

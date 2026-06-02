@@ -12,7 +12,7 @@ type: note
 
 Question: What does the content of this YouTube video say? (https://www.youtube.com/watch?v=5vcj8kSwBCY&t=150s)
 
-Answer: 
+Answer:
 
 This is a Stanford CS224N lecture from Winter 2019 titled "NLP with Deep Learning | Lecture 14 – Transformers and Self-Attention". It features Professor Christopher Manning introducing guest speakers Ashish Vaswani and Anna Huang from Google, who explain the Transformer model (the architecture behind modern large language models like GPT and BERT).
 
@@ -32,7 +32,7 @@ The lecture discusses the limitations of recurrent neural networks (RNNs) for ha
 
 The video is educational, technical, and aimed at students familiar with deep learning basics. It includes slides with timestamps in the description for navigation.
 
-References:  
+References:
 
-- [Original YouTube Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)  
+- [Original YouTube Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)
 - [Stanford CS224N Course Page](http://web.stanford.edu/class/cs224n/)

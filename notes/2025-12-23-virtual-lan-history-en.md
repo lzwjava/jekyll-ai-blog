@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to the history of VLAN.
 
-Answer: 
+Answer:
 
 ### Introduction to the History of VLAN
 
@@ -26,7 +26,7 @@ To resolve this and provide a standardized, multivendor solution, the IEEE devel
 
 Since 1998, IEEE 802.1Q has been revised multiple times (e.g., incorporations in 2004, 2014), adding features like provider bridging (802.1ad for QinQ double tagging) and improvements for larger-scale networks. VLANs remain fundamental in modern networking, enhancing security, performance, and manageability in enterprise, data center, and cloud environments.
 
-References:  
+References:
 
 - [VLAN - Wikipedia](https://en.wikipedia.org/wiki/VLAN)
 - [IEEE 802.1Q - Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.1Q)

@@ -11,18 +11,18 @@ type: note
 
 Question: How to fix the WebSocket connection error "ws://192.168.1.36:18789/" failed: WebSocket is closed before the connection is established in OpenClaw gateway?
 
-Answer: 
+Answer:
 
 The error usually means the WebSocket handshake starts but the server immediately rejects and closes it (often with code 1008). This is **not** caused by using `ws://` (HTTP) instead of `wss://` (HTTPS) on a local LAN — plain HTTP + ws:// works fine in most cases.
 
 The root cause is almost always one (or both) of these server-side checks failing:
 
-1. **Origin not allowed** — the browser's `Origin` header doesn't match the allowed list  
+1. **Origin not allowed** — the browser's `Origin` header doesn't match the allowed list
 2. **Device identity required** — even for the Control UI, the gateway enforces device pairing/identity unless explicitly disabled
 
 ### Quick Fix Steps (LAN / HTTP setup)
 
-1. **Check your current config**  
+1. **Check your current config**
    Run this command (adjust if your CLI path differs):
 
    ```
@@ -30,7 +30,7 @@ The root cause is almost always one (or both) of these server-side checks failin
    ```
 
    Look for:
-   - `allowedOrigins`: should include your exact browser URL, e.g. `["http://192.168.1.36:18789"]`  
+   - `allowedOrigins`: should include your exact browser URL, e.g. `["http://192.168.1.36:18789"]`
      (no trailing slash, exact protocol + IP + port)
    - `dangerouslyDisableDeviceAuth`: should be `true`
 
@@ -97,7 +97,7 @@ The root cause is almost always one (or both) of these server-side checks failin
 
 After applying the config + restart, refresh the Control UI page — the WebSocket should connect.
 
-References:  
+References:
 
 - [https://docs.openclaw.ai/gateway/security](https://docs.openclaw.ai/gateway/security)
 - [https://github.com/openclaw/openclaw/issues/41043](https://github.com/openclaw/openclaw/issues/41043)

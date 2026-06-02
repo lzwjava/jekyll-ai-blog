@@ -109,6 +109,6 @@ Azure Application Insights 是 Azure Monitor 中的应用程序性能管理（AP
 - 通过 **使用情况和预估成本** 页面监控成本（通过 Log Analytics 计费）。
 - 对于浏览器监控，请将 JavaScript SDK 代码片段添加到您的网页中。
 
-[创建和配置 Application Insights 资源](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource)  
-[在 Application Insights 中启用 OpenTelemetry](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable)  
+[创建和配置 Application Insights 资源](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource)
+[在 Application Insights 中启用 OpenTelemetry](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable)
 [Application Insights 概述](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)

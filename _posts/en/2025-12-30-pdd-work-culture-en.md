@@ -12,7 +12,7 @@ type: note
 
 Question: Why do PDD employees work so hard?
 
-Answer: 
+Answer:
 
 PDD Holdings (the parent company of Pinduoduo and Temu, often abbreviated as PDD) is known for its intense and demanding work culture, which drives employees to work extremely hard. This stems from several key factors rooted in the company's aggressive growth strategy and internal practices.
 
@@ -32,11 +32,11 @@ While China has cracked down on extreme overtime (ruling "996" illegal in some c
 
 Overall, employees work hard due to a combination of explicit/implicit expectations, competitive pressure, and a performance-driven environment that rewards output over balance.
 
-References:  
+References:
 
-- [Temu Sister Company Pinduoduo Has '996,' or Even '9127' Work Culture - Business Insider](https://www.businessinsider.com/pinduoduo-temu-pdd-996-9127-work-culture-bernstein-analysts-2023-8)  
-- [Inside PDD, China's e-commerce titan behind Temu and Pinduoduo - Nikkei Asia](https://asia.nikkei.com/Spotlight/The-Big-Story/Inside-PDD-China-s-e-commerce-titan-behind-Temu-and-Pinduoduo)  
-- [How does the internal management of Pinduoduo operate? - Baiguan News](https://www.baiguan.news/p/how-does-the-internal-management)  
-- [Pinduoduo Reviews on Glassdoor](https://www.glassdoor.com/Reviews/Pinduoduo-Reviews-E2209578.htm)  
-- [Overtime Culture Back in Spotlight After Pinduoduo Employee’s Death - Sixth Tone](https://www.sixthtone.com/news/1006661)  
+- [Temu Sister Company Pinduoduo Has '996,' or Even '9127' Work Culture - Business Insider](https://www.businessinsider.com/pinduoduo-temu-pdd-996-9127-work-culture-bernstein-analysts-2023-8)
+- [Inside PDD, China's e-commerce titan behind Temu and Pinduoduo - Nikkei Asia](https://asia.nikkei.com/Spotlight/The-Big-Story/Inside-PDD-China-s-e-commerce-titan-behind-Temu-and-Pinduoduo)
+- [How does the internal management of Pinduoduo operate? - Baiguan News](https://www.baiguan.news/p/how-does-the-internal-management)
+- [Pinduoduo Reviews on Glassdoor](https://www.glassdoor.com/Reviews/Pinduoduo-Reviews-E2209578.htm)
+- [Overtime Culture Back in Spotlight After Pinduoduo Employee’s Death - Sixth Tone](https://www.sixthtone.com/news/1006661)
 - [996 working hour system - Wikipedia](https://en.wikipedia.org/wiki/996_working_hour_system)

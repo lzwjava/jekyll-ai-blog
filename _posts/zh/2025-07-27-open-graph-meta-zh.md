@@ -22,8 +22,8 @@ type: note
 您猜测的“open gx”已接近答案——实际应为“Open Graph”（“open gx”可能是“graph”的输入误差或自动校正）。
 
 ### 参考资料
-[开放图谱协议官网](https://ogp.me/)  
-[开放图谱元标签完全指南](https://ahrefs.com/blog/open-graph-meta-tags/)  
-[开放图谱协议及其应用详解](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)  
-[微信如何选择链接缩略图？](https://stackoverflow.com/questions/44564614/how-does-wechat-choose-the-links-thumbnail)  
+[开放图谱协议官网](https://ogp.me/)
+[开放图谱元标签完全指南](https://ahrefs.com/blog/open-graph-meta-tags/)
+[开放图谱协议及其应用详解](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)
+[微信如何选择链接缩略图？](https://stackoverflow.com/questions/44564614/how-does-wechat-choose-the-links-thumbnail)
 [微信元标签相关讨论](https://github.com/freeCodeCamp/freeCodeCamp/issues/38707)

@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 Ubuntu 电脑上查找 MAC address？
 
-Answer: 
+Answer:
 
 在 Ubuntu 上查找 **MAC address**（也称为 hardware address 或 physical address）最简单且最现代的方法是在 Terminal 中使用 `ip` 命令。这适用于当前的 Ubuntu 版本（包括 22.04、24.04 以及随后的 2026 版本）。
 
@@ -80,7 +80,7 @@ Answer:
 ### 关于 Wake-on-LAN 的小提示
 如果您是为了 WOL 查找 MAC（例如在原始测试步骤中），请使用有线 Ethernet interface 的 MAC，因为 Wake-on-LAN 通常只在 Ethernet 上工作。
 
-References:  
+References:
 
 - [https://itsfoss.com/find-mac-address-linux](https://itsfoss.com/find-mac-address-linux)
 - [https://askubuntu.com/questions/628383/output-only-mac-address-on-ubuntu](https://askubuntu.com/questions/628383/output-only-mac-address-on-ubuntu)

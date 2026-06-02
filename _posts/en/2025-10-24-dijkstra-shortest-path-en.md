@@ -77,7 +77,7 @@ Run Dijkstra from A:
   - Queue: D(9)
 - **Settle D** (dist=9).
 
-Final distances: A=0, B=4, C=2, D=9.  
+Final distances: A=0, B=4, C=2, D=9.
 Path to D: A → B → D (total 9, shorter than A → C → D=10).
 
 You can trace back paths using a "previous node" array.
@@ -93,19 +93,19 @@ def dijkstra(graph, start):
     distances[start] = 0
     previous = {node: None for node in graph}
     pq = [(0, start)]  # (distance, node)
-    
+
     while pq:
         current_dist, current = heapq.heappop(pq)
         if current_dist > distances[current]:
             continue  # Outdated entry
-        
+
         for neighbor, weight in graph[current].items():
             distance = current_dist + weight
             if distance < distances[neighbor]:
                 distances[neighbor] = distance
                 previous[neighbor] = current
                 heapq.heappush(pq, (distance, neighbor))
-    
+
     # Reconstruct path to target (e.g., 'D')
     path = []
     node = 'D'
@@ -126,5 +126,5 @@ def dijkstra(graph, start):
 
 This should click—start with the example, run it mentally a few times!
 
-[Wikipedia: Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)  
+[Wikipedia: Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 [GeeksforGeeks: Visual Explanation](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)

@@ -12,7 +12,7 @@ type: note
 
 Question: Since my IELTS Academic test in Guangzhou was computer-based, how many days do I need to wait for the results?
 
-Answer: 
+Answer:
 
 For **computer-delivered IELTS** (also called IELTS on computer), the results are released much faster than the paper-based version.
 
@@ -28,7 +28,7 @@ This is one of the biggest advantages of choosing computer-based — much quicke
 
 Good luck — fingers crossed for that 6.5 or 7.0!
 
-References:  
+References:
 
 - [Official IELTS computer-delivered results timeline](https://takeielts.britishcouncil.org/take-ielts/book/ielts-on-computer/results)
 - [IDP IELTS computer-based results information](https://ielts.idp.com/about/results)

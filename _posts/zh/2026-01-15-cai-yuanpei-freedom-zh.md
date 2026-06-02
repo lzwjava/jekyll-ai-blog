@@ -30,7 +30,7 @@ Cai Yuanpei（蔡元培）自 1917 年起担任 Peking University（北京大学
 
 因此，Cai Yuanpei 被广泛公认为中国现代教育史上这些理念的关键倡导者和实践者。
 
-References:  
+References:
 
 - [蔡元培：学术须自由，教育须独立 - 知乎](https://zhuanlan.zhihu.com/p/686730780)
 - [思想自由，兼容并包 - 知乎](https://zhuanlan.zhihu.com/p/408771573)

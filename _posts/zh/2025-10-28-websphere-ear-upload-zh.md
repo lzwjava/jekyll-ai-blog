@@ -46,11 +46,11 @@ type: note
 
 #### 操作步骤：
 1. 将新EAR文件复制至服务器可访问路径（如`/tmp/myapp.ear`）
-2. 启动wsadmin：  
+2. 启动wsadmin：
    ```
    /opt/IBM/WebSphere/AppServer/bin/wsadmin.sh -lang jython -user admin -password pass
    ```
-3. 运行以下Jython脚本进行更新：  
+3. 运行以下Jython脚本进行更新：
    ```python
    AdminApp.update('MyAppName', 'app', [-Map ModulesToApps, '[-MapWebModToVH [[default_host MyContext virtual_host]] ]'], [-Operation update], [-appname MyAppName], [-MapModulesToServers [[MyModule MyServer]]], [-nodefaultoptions], [-preCompileJSPs false], [-contextroot MyContext], [-noTxImport], [-connType SERVER], [ -contenturi /tmp/myapp.ear ])
    AdminConfig.save()

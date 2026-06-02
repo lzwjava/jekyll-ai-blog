@@ -18,74 +18,74 @@ type: note
 
 ### 推荐学习顺序 (从基础到高级/运维)
 
-1. **Dashboard**  
-   从这里开始 —— 这是登录后的落地页。  
-   学习如何查看：  
-   - Vault 状态 (sealed/unsealed, HA mode, version)  
-   - 已启用的 auth methods 和 secret engines  
-   - 高层级的健康指标和快速操作（如权限允许下的 seal/unseal）  
+1. **Dashboard**
+   从这里开始 —— 这是登录后的落地页。
+   学习如何查看：
+   - Vault 状态 (sealed/unsealed, HA mode, version)
+   - 已启用的 auth methods 和 secret engines
+   - 高层级的健康指标和快速操作（如权限允许下的 seal/unseal）
    这能让你立即获取 Vault 实例/集群的全局概览。
 
-2. **Secrets Engines** (日常使用最重要的板块)  
-   这是 Vault “存储/生成” 秘密的地方。  
-   核心学习点：  
-   - 如何 **enable** 新的引擎（例如：用于静态秘密的 KV v2，用于动态凭据的 database，用于云端凭据的 AWS/GCP，用于加密即服务的 transit）  
-   - 配置引擎特定设置 (path, versioning, lease TTL 等)  
-   - 在引擎内执行 Create/read/update/delete 秘密操作  
-   - 理解动态 (dynamic) 与 静态 (static) 秘密的区别  
-   - 调整挂载可见性 (mount visibility) 和列表行为  
+2. **Secrets Engines** (日常使用最重要的板块)
+   这是 Vault “存储/生成” 秘密的地方。
+   核心学习点：
+   - 如何 **enable** 新的引擎（例如：用于静态秘密的 KV v2，用于动态凭据的 database，用于云端凭据的 AWS/GCP，用于加密即服务的 transit）
+   - 配置引擎特定设置 (path, versioning, lease TTL 等)
+   - 在引擎内执行 Create/read/update/delete 秘密操作
+   - 理解动态 (dynamic) 与 静态 (static) 秘密的区别
+   - 调整挂载可见性 (mount visibility) 和列表行为
    **优先级**：在此投入最多时间 —— 这是 Vault 的核心价值所在。
 
-3. **Access** (Authentication + Entities & Groups)  
-   控制 **谁** 可以登录 Vault。  
-   学习如何：  
-   - 启用 auth methods (token, userpass, LDAP, OIDC/JWT, AppRole, Kubernetes 等)  
-   - 创建/管理用户、角色 (roles) 和绑定关系  
-   - 理解 Entities（跨不同认证方式整合身份）和 Groups  
-   - 配置 MFA (Enterprise)（如果适用）  
+3. **Access** (Authentication + Entities & Groups)
+   控制 **谁** 可以登录 Vault。
+   学习如何：
+   - 启用 auth methods (token, userpass, LDAP, OIDC/JWT, AppRole, Kubernetes 等)
+   - 创建/管理用户、角色 (roles) 和绑定关系
+   - 理解 Entities（跨不同认证方式整合身份）和 Groups
+   - 配置 MFA (Enterprise)（如果适用）
    该板块对于摆脱 root token 的依赖至关重要。
 
-4. **Policies**  
-   控制已认证的身份可以执行 **哪些** 操作（细粒度访问控制）。  
-   学习如何：  
-   - 编写并上传 HCL 策略（基于路径的规则，包含 capability：read, write, delete, list, sudo 等）  
-   - 将策略附加到 tokens, users, roles 或 groups  
-   - 使用策略模板和最佳实践（最小权限原则）  
-   - 理解 `path "secret/data/*" { capabilities = ["read"] }` 风格的语法  
+4. **Policies**
+   控制已认证的身份可以执行 **哪些** 操作（细粒度访问控制）。
+   学习如何：
+   - 编写并上传 HCL 策略（基于路径的规则，包含 capability：read, write, delete, list, sudo 等）
+   - 将策略附加到 tokens, users, roles 或 groups
+   - 使用策略模板和最佳实践（最小权限原则）
+   - 理解 `path "secret/data/*" { capabilities = ["read"] }` 风格的语法
    **非常重要** —— 糟糕的策略等于重大的安全风险。
 
-5. **Tools**  
-   UI 内部的实用工具功能。  
-   学习使用：  
-   - **Wrap** tokens（创建 response-wrapped 秘密）  
-   - **Lookup** token 或 lease 信息  
-   - **Renew** 和 **revoke** 租约 (leases)  
-   - 生成 **random** 字符串 / **hashes**  
-   - **Rewrite** 数据（对迁移很有用）  
+5. **Tools**
+   UI 内部的实用工具功能。
+   学习使用：
+   - **Wrap** tokens（创建 response-wrapped 秘密）
+   - **Lookup** token 或 lease 信息
+   - **Renew** 和 **revoke** 租约 (leases)
+   - 生成 **random** 字符串 / **hashes**
+   - **Rewrite** 数据（对迁移很有用）
    这些工具在排查故障和高级工作流中非常方便。
 
-6. **Seal Vault**  
-   安全与恢复操作。  
-   学习：  
-   - 如何 **seal** Vault（紧急锁定）  
-   - 如何使用密钥 **unseal** (shamir's secret sharing)  
-   - Auto-unseal 选项 (cloud KMS, HSM — Enterprise)  
+6. **Seal Vault**
+   安全与恢复操作。
+   学习：
+   - 如何 **seal** Vault（紧急锁定）
+   - 如何使用密钥 **unseal** (shamir's secret sharing)
+   - Auto-unseal 选项 (cloud KMS, HSM — Enterprise)
    理解为什么密封 (sealing) 很有用（例如在维护期间或怀疑遭到入侵时）。
 
-7. **Secrets Recovery** (仅限 Enterprise)  
-   高级灾难恢复功能。  
-   学习关于：  
-   - **Recovery keys** 的生成与使用  
-   - **Rekey** 操作（更改密钥阈值/数量）  
-   - **Raft storage** 快照与备份（如果使用集成存储）  
+7. **Secrets Recovery** (仅限 Enterprise)
+   高级灾难恢复功能。
+   学习关于：
+   - **Recovery keys** 的生成与使用
+   - **Rekey** 操作（更改密钥阈值/数量）
+   - **Raft storage** 快照与备份（如果使用集成存储）
    仅在生产环境中运行 Vault Enterprise 时需要。
 
-8. **Monitoring** + **Client Count**  
-   可观测性板块（在近期版本 / HCP Vault 中更为显著）。  
-   学习如何：  
-   - 查看实时指标 (request rate, latency, seal status)  
-   - 检查 **client count**（对 Vault Enterprise 授权非常重要 —— 统计一段时间内去重后的已认证客户端数量）  
-   - 理解 Vault 的 telemetry 接口以及与 Prometheus/Grafana 的集成  
+8. **Monitoring** + **Client Count**
+   可观测性板块（在近期版本 / HCP Vault 中更为显著）。
+   学习如何：
+   - 查看实时指标 (request rate, latency, seal status)
+   - 检查 **client count**（对 Vault Enterprise 授权非常重要 —— 统计一段时间内去重后的已认证客户端数量）
+   - 理解 Vault 的 telemetry 接口以及与 Prometheus/Grafana 的集成
    对生产运维和容量规划非常有用。
 
 ### 建议的操作练习顺序

@@ -79,5 +79,5 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
 - You can also start the Extension Development Host by opening the **Run and Debug** panel (`Ctrl+Shift+D` or `Cmd+Shift+D` on Mac) and selecting “Run Extension” from the dropdown, then clicking the green play button.
 - To reload the Extension Host after making changes, use `Ctrl+R` (Windows/Linux) or `Cmd+R` (Mac) in the Extension Development Host window, or restart it with F5.
 
-For more details, see the official VSCode extension development guide:  
+For more details, see the official VSCode extension development guide:
 [VS Code Extension Development](https://code.visualstudio.com/api/get-started/your-first-extension)

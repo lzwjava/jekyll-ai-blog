@@ -66,7 +66,7 @@ pip install torch --index-url https://download.pytorch.org/whl/rocm6.0
 ## Bottom Line
 
 - **For training nanoGPT-scale models**: AMD works fine, ROCm + PyTorch is solid
-- **For LoRA fine-tuning**: works well, HuggingFace stack is compatible  
+- **For LoRA fine-tuning**: works well, HuggingFace stack is compatible
 - **For inference with large models**: MI300X's 192GB VRAM is actually a **killer advantage** over H100
 - **Cost**: typically 30-50% cheaper than H100 equivalents
 - **Gotcha**: if you hit ROCm-incompatible ops, debugging is harder than CUDA

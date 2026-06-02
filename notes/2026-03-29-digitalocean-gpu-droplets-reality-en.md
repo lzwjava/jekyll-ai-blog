@@ -15,7 +15,7 @@ Here are the unpopular or less-discussed realities of GPU Droplets in 2026:
 
 ### 1. The "Hidden" Communication Tax
 While DO markets their 8-GPU H100 setups for large-scale training, power users often find that **4-GPU setups can actually be faster than 8-GPU setups** for specific inference tasks.
-* **The Argument:** In an 8-GPU cluster, the inter-GPU communication overhead (all_reduce/all_gather operations) can become a bottleneck. 
+* **The Argument:** In an 8-GPU cluster, the inter-GPU communication overhead (all_reduce/all_gather operations) can become a bottleneck.
 * **The Unpopular Take:** You are often paying for 8 GPUs but only getting the effective throughput of 6 due to synchronization latency. Some developers are finding that running two separate 2-GPU or 4-GPU instances with Tensor Parallelism (TP=2) yields higher tokens-per-second per dollar.
 
 ### 2. "Airbnb for GPUs" is actually cheaper
@@ -29,7 +29,7 @@ DigitalOcean is great because it's a "one-stop shop," but that's also its weakne
 * **The Unpopular Take:** If you start a project on a mid-tier RTX 4000 Ada and realize you need an H100, the migration isn't as seamless as "clicking a button," often requiring a full redeploy of your environment.
 
 ### 4. Better for "Inference" than "Frontier Training"
-DigitalOcean’s "Gradient" platform is heavily optimized for inference (running models). 
+DigitalOcean’s "Gradient" platform is heavily optimized for inference (running models).
 * **The Critique:** For researchers doing massive, multi-node "frontier" model training (training a GPT-5 competitor), DO lacks the specialized InfiniBand interconnect depth that providers like **CoreWeave** or **Azure** offer.
 * **The Verdict:** Using DO for training a 70B+ model from scratch is often seen as a "newbie mistake" by hardcore ML engineers—it's much better suited for fine-tuning (LoRA/QLoRA) or high-traffic production APIs.
 

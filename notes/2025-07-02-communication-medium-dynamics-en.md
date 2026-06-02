@@ -11,7 +11,7 @@ type: note
 The differences between human onsite one-to-one communication and using WhatsApp or WeChat to chat come down to the medium, context, and dynamics of interaction. Here’s a breakdown:
 
 ### 1. **Presence and Non-Verbal Cues**
-   - **Onsite One-to-One**: 
+   - **Onsite One-to-One**:
      - **Rich non-verbal communication**: You can see body language, facial expressions, and gestures, which convey emotions and intent (e.g., a smile, eye contact, or posture). Studies suggest 55-93% of communication is non-verbal (Mehrabian’s 7-38-55 rule, though context-dependent).
      - **Real-time emotional feedback**: Immediate reactions like tone of voice or a pause add depth to understanding.
      - **Physical context**: Shared environments (e.g., a coffee shop) can enhance connection or influence the conversation’s vibe.

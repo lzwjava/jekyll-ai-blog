@@ -21,7 +21,7 @@ Practical workflow:
 
 ```
 Agent A (coder):  "Implement feature X in module Y"
-Agent B (tester): "Review the implementation of X, write comprehensive tests, 
+Agent B (tester): "Review the implementation of X, write comprehensive tests,
                     run them, report failures back"
 Agent A (coder):  "Fix the failures Agent B found"
 ```
@@ -33,8 +33,8 @@ In Hermes you can actually orchestrate this with delegate_task:
 delegate_task(goal="Implement user auth module with JWT", toolsets=["terminal","file"])
 
 # Stage 2: test (separate agent, no context from stage 1)
-delegate_task(goal="Review and test /src/auth.py — write pytest tests, 
-                    run them, identify edge cases, report failures", 
+delegate_task(goal="Review and test /src/auth.py — write pytest tests,
+                    run them, identify edge cases, report failures",
               toolsets=["terminal","file"])
 ```
 

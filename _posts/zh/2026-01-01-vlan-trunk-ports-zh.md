@@ -16,7 +16,7 @@ B) Trunk port
 C) Hybrid port
 D) Console port
 
-Answer: 
+Answer:
 
 正确答案是 **B) Trunk port**。
 

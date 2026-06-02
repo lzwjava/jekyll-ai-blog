@@ -84,7 +84,7 @@ rerank_results = model.rerank(query, passages)
   _torch_pytree._register_pytree_node(
 /opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
   warnings.warn(
-tokenizer_config.json: 100%| 
+tokenizer_config.json: 100%|
 # ...
 /opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
   _torch_pytree._register_pytree_node(

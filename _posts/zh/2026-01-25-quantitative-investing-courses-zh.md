@@ -12,7 +12,7 @@ type: note
 
 Question: 我们可以在 Coursera、YouTube 等平台上参加哪些关于 Investing、Hedge Funds 或 Quantitative Trading 的在线课程或证书？
 
-Answer: 
+Answer:
 
 以下是一些在 **Investing**、**Hedge Funds**，尤其是 **Quantitative (quant) Trading** / Quantitative Finance 领域备受推崇的热门**在线课程和证书**。这些资源分布在 Coursera、Udemy、edX 等平台以及 YouTube 的免费资源中。
 
@@ -56,7 +56,7 @@ Answer:
 
 你可以循序渐进地构建技能：从 Investing 基础 → Quantitative Modeling → Algorithmic/Quant Trading。
 
-References:  
+References:
 
 - [Coursera Quantitative Finance Courses](https://www.coursera.org/courses?query=quantitative+finance)
 - [Coursera Finance & Quantitative Modeling Specialization](https://www.coursera.org/specializations/finance-quantitative-modeling-analysts)

@@ -11,15 +11,15 @@ type: note
 
 Question: In the ATM cell header format, the VPI/VCI fields are used for
 
-A. Error control  
-B. Flow control  
-C. Routing  
-D. Cell selection  
+A. Error control
+B. Flow control
+C. Routing
+D. Cell selection
 
-Your answer: D  
-Correct answer: C  
+Your answer: D
+Correct answer: C
 
-Answer: 
+Answer:
 
 The correct answer is **C. Routing** (路由选择).
 
@@ -28,7 +28,7 @@ The correct answer is **C. Routing** (路由选择).
 In the ATM (Asynchronous Transfer Mode) cell header (5-byte header), the main fields and their primary functions are:
 
 - **GFC** (Generic Flow Control) → Used for **flow control** (mainly at the UNI interface, 4 bits, local significance only)
-- **VPI** (Virtual Path Identifier) + **VCI** (Virtual Channel Identifier) → Used for **routing** / path selection  
+- **VPI** (Virtual Path Identifier) + **VCI** (Virtual Channel Identifier) → Used for **routing** / path selection
   These two fields together identify the virtual connection (VPC or VCC) and are the most important fields for forwarding the cell through the ATM network (just like IP destination address in IP networks).
 - **PT** (Payload Type) → Indicates the type of payload (user data / management data)
 - **CLP** (Cell Loss Priority) → Used for **congestion control** / cell discard priority
@@ -47,7 +47,7 @@ Therefore, VPI/VCI fields are clearly used for **routing selection** (路由选�
 
 **Your mistake**: You chose D (信元选择), but the correct choice is C (路由选择).
 
-References:  
+References:
 
-- ITU-T Recommendation I.361 - B-ISDN ATM Layer Specification  
+- ITU-T Recommendation I.361 - B-ISDN ATM Layer Specification
 - ATM Forum specifications (historical reference)

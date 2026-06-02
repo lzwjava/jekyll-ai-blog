@@ -11,7 +11,7 @@ type: note
 
 Question: What is the name of the series of standards developed by the Institute of Electrical and Electronics Engineers (IEEE) for local area network (LAN) technologies?
 
-Answer: 
+Answer:
 
 The Institute of Electrical and Electronics Engineers (IEEE) developed a major series of standards for Local Area Networks (LANs) and Metropolitan Area Networks (MANs), known as the **IEEE 802** family of standards.
 

@@ -12,7 +12,7 @@ type: note
 
 Question: Why is there a large latency gap between hops 8 and 9 in the traceroute to twitter.com, and what is between them?
 
-Answer: 
+Answer:
 
 The large latency increase from hop 8 (around 10-20 ms) to hop 9 (around 197-199 ms) occurs because this is the point where traffic exits China's domestic network and enters international routes.
 
@@ -24,8 +24,8 @@ The ~180 ms jump represents the added round-trip time for crossing international
 
 No specific intermediate hops are visible "between" 8 and 9 because traceroute only shows routers that respond to ICMP; the long-distance link itself doesn't add extra responding hops.
 
-References:  
+References:
 
-- [https://ipinfo.io/AS4134](https://ipinfo.io/AS4134)  
-- [https://bgpview.io/prefix/202.97.32.0/24](https://bgpview.io/prefix/202.97.32.0/24)  
+- [https://ipinfo.io/AS4134](https://ipinfo.io/AS4134)
+- [https://bgpview.io/prefix/202.97.32.0/24](https://bgpview.io/prefix/202.97.32.0/24)
 - [https://en.wikipedia.org/wiki/Great_Firewall](https://en.wikipedia.org/wiki/Great_Firewall)

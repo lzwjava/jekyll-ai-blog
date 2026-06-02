@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Urs Hölzle.
 
-Answer: 
+Answer:
 
 **Urs Hölzle** is a prominent **Swiss-American** software engineer, computer scientist, and technology executive best known for his foundational role at **Google**.
 
@@ -55,7 +55,7 @@ Answer:
 
 Urs Hölzle is widely regarded as one of the most influential behind-the-scenes architects of modern cloud-scale computing. His work enabled Google to grow from a small search engine into a global infrastructure powerhouse while pushing boundaries in efficiency, scale, and sustainability.
 
-References:  
+References:
 
 - [Urs Hölzle - Wikipedia](https://en.wikipedia.org/wiki/Urs_H%C3%B6lzle)
 - [Urs Hölzle - Google Research Profile](https://research.google/people/author79)

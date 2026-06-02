@@ -29,6 +29,6 @@ TiDB（来自 PingCAP）和 CockroachDB（来自 Cockroach Labs）都是云原�
 
 总结来说，若您的技术栈以 MySQL 为主或需要内置分析功能，建议选择 TiDB；若需要严格遵循 PostgreSQL 标准及多地域运维，则 CockroachDB 更合适。两者均已成熟稳定——PingCAP 的稳健性与 Cockroach Labs 的迅猛发展势均力敌。
 
-[TiDB 文档](https://docs.pingcap.com/tidb/stable/)  
-[CockroachDB 文档](https://www.cockroachlabs.com/docs/)  
+[TiDB 文档](https://docs.pingcap.com/tidb/stable/)
+[CockroachDB 文档](https://www.cockroachlabs.com/docs/)
 [DB-Engines 排名](https://db-engines.com/en/system/CockroachDB%3BTiDB)

@@ -23,22 +23,22 @@ The police found that the driver of the white car had consumed a significant amo
 
 This accident left a lifelong memory for me. Later accidents I've had have been trivial. I am glad that the car accidents in my life have not killed me. I record this here to wish for fewer car accidents in my later life, and I hope the same for you.
 
-{: .centered }  
-![](assets/images/accident/a1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a1.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a2.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a2.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a3.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a3.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a4.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a4.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/accident/a5.jpg){: .responsive }  
+{: .centered }
+![](assets/images/accident/a5.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }

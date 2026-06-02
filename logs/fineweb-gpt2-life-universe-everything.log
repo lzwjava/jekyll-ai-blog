@@ -1,4 +1,4 @@
-$ python sample.py --out_dir=out-fineweb  --start="What is the answer to life, the universe, and everything?"  
+$ python sample.py --out_dir=out-fineweb  --start="What is the answer to life, the universe, and everything?"
 Overriding: out_dir = out-fineweb
 Overriding: start = What is the answer to life, the universe, and everything?
 number of parameters: 40.56M

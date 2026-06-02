@@ -12,7 +12,7 @@ type: note
 
 Question: Why does the error "! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b2c0835c1c7c14323a162a90e17f8a78145e3f0a but expected 59383ebd13b30aab988c8eefcc0f64f103f0f44d)" occur when opening two windows/terminals to do git add -A, git commit, and git push?
 
-Answer: 
+Answer:
 
 This error occurs because **two Git processes are trying to update the same branch reference (`refs/heads/main`) on the remote server at roughly the same time**, creating a race condition.
 
@@ -33,7 +33,7 @@ Because the filesystem (index + working tree) is shared between the two terminal
   - Client asks server: “What is the current tip of main?”
   - Server replies: e.g. `59383ebd...`
   - Client says: “I want to fast-forward main from 59383ebd... to my new commit b2c0835c...”
-  - Server checks: “Is main still at 59383ebd...?”  
+  - Server checks: “Is main still at 59383ebd...?”
     → If **another push already succeeded**, main is now at a different hash → server rejects with:
 
     ```
@@ -70,10 +70,10 @@ This brings your local branch up-to-date and then pushes your new commit(s).
 
 ### Summary
 
-The error is **not a corruption** — it's Git's way of protecting the remote branch from concurrent conflicting updates.  
+The error is **not a corruption** — it's Git's way of protecting the remote branch from concurrent conflicting updates.
 It happens precisely **because you are pushing from two terminals almost simultaneously**.
 
-References:  
+References:
 
 - https://stackoverflow.com/questions/11796580/git-pull-error-error-remote-ref-is-at-but-expected
 - https://graphite.com/guides/git-error-cannot-lock-ref

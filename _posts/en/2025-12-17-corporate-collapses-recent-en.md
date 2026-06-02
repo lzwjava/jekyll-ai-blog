@@ -12,7 +12,7 @@ type: note
 
 Question: What are big falls in recent decades like Nortel?
 
-Answer: 
+Answer:
 
 Nortel Networks (formerly Northern Telecom) was a classic example of a massive corporate collapse during the **dot-com bubble burst** in the early 2000s. At its peak in 2000, Nortel had a market capitalization of around $250-300 billion CAD, briefly making it one of the world's most valuable companies. Its stock price soared due to hype around fiber-optic networks and internet infrastructure demand. However, overcapacity in telecom equipment, accounting scandals, mismanagement, and the bursting of the tech bubble led to a catastrophic decline: the stock fell over **99%** from its high, and the company filed for bankruptcy in 2009.
 
@@ -41,11 +41,11 @@ Other sector-wide events produced many similar falls:
 
 These cases highlight common patterns: hype-driven overvaluation, poor fundamentals exposed by economic shifts, fraud, or failure to innovate. Unlike broad market crashes (e.g., 2008 S&P 500 down 57%, 2020 COVID drop ~34% with quick recovery), these were company-specific destructions of wealth, often leading to bankruptcy and little/no recovery for shareholders.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Nortel  
-- https://en.wikipedia.org/wiki/Dot-com_bubble  
-- https://en.wikipedia.org/wiki/Enron_scandal  
-- https://en.wikipedia.org/wiki/WorldCom_scandal  
-- https://www.investopedia.com/terms/d/dotcom-bubble.asp  
+- https://en.wikipedia.org/wiki/Nortel
+- https://en.wikipedia.org/wiki/Dot-com_bubble
+- https://en.wikipedia.org/wiki/Enron_scandal
+- https://en.wikipedia.org/wiki/WorldCom_scandal
+- https://www.investopedia.com/terms/d/dotcom-bubble.asp
 - https://acquirersmultiple.com/2024/10/from-internet-backbone-to-bankruptcy-the-cautionary-tale-of-nortel/

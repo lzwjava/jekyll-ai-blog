@@ -16,7 +16,7 @@ type: note
 # Analysis of the Agent Collaboration Platform Project
 
 ## Project Summary
-This is a self-hostable **Agent Registry + Collaboration Scheduler**, positioned as "GitLab for Agents." It lets users discover heterogeneous AI Agents (from different platforms like Claude, Dify, OpenClaw, etc.), form temporary groups ("pull them into the same task context"), and orchestrate collaboration across machines via plugins and WebSocket reverse connections.  
+This is a self-hostable **Agent Registry + Collaboration Scheduler**, positioned as "GitLab for Agents." It lets users discover heterogeneous AI Agents (from different platforms like Claude, Dify, OpenClaw, etc.), form temporary groups ("pull them into the same task context"), and orchestrate collaboration across machines via plugins and WebSocket reverse connections.
 
 Key differentiators:
 - **Discovery** via Agent "business cards" (JSON with capabilities, inputs/outputs, tags).
@@ -75,16 +75,16 @@ Real-world evidence from 2026:
 These are solvable with open-source community help and clear "GitLab for Agents" branding.
 
 ### Final Verdict
-**Extremely useful** — especially right now in 2026.  
-The agent boom created exactly the fragmentation this project targets. Self-hosting + privacy + heterogeneous support + simple plugin model give it a unique edge over both protocol-only standards (A2A) and framework-only tools (CrewAI).  
+**Extremely useful** — especially right now in 2026.
+The agent boom created exactly the fragmentation this project targets. Self-hosting + privacy + heterogeneous support + simple plugin model give it a unique edge over both protocol-only standards (A2A) and framework-only tools (CrewAI).
 
-If executed well (solid MVP, good docs, first 2–3 plugins), it has strong potential to become a foundational open tool for multi-agent systems — much like how self-hosted GitLab filled a critical gap in devops.  
+If executed well (solid MVP, good docs, first 2–3 plugins), it has strong potential to become a foundational open tool for multi-agent systems — much like how self-hosted GitLab filled a critical gap in devops.
 
 For individuals, teams, or enterprises tired of siloed Agents and cloud dependency, **this project is a clear win**. Highly recommended to pursue.
 
-**References:**  
-- [Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)  
-- [A2A Protocol (Google) – Interoperability Standard](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)  
-- [AWS A2A Agent Registry on GitHub](https://github.com/awslabs/a2a-agent-registry-on-aws)  
-- [Top Open-Source Multi-Agent Frameworks 2026](https://aimultiple.com/open-source-ai-agents)  
+**References:**
+- [Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)
+- [A2A Protocol (Google) – Interoperability Standard](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)
+- [AWS A2A Agent Registry on GitHub](https://github.com/awslabs/a2a-agent-registry-on-aws)
+- [Top Open-Source Multi-Agent Frameworks 2026](https://aimultiple.com/open-source-ai-agents)
 - [AI Agent Protocols Guide 2026 (MCP + A2A)](https://getstream.io/blog/ai-agent-protocols/)

@@ -17,7 +17,7 @@ type: note
 `git filter-repo` is the recommended modern tool (faster and safer than the deprecated `git filter-branch` or BFG) for rewriting Git history, including permanently removing a specific file from all commits across the repository.
 
 ### Prerequisites
-- Install `git-filter-repo` if not already available (it's not included in Git by default).  
+- Install `git-filter-repo` if not already available (it's not included in Git by default).
   Installation instructions: https://github.com/newren/git-filter-repo#installation
 - **Backup your repository** first, as history rewriting is destructive and changes commit hashes.
 - Preferably work on a **fresh clone** of the repository to avoid safety checks:

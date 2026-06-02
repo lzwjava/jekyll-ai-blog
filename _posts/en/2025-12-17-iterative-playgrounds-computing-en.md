@@ -12,7 +12,7 @@ type: note
 
 Question: Is the iterative approach and having a "playground" environment with quick feedback important not just in programming, but in all computer-related fields, such as training machine learning models (using small models/datasets first), working with databases, and building products (getting quick user feedback through small actions)?
 
-Answer: 
+Answer:
 
 Yes, absolutely—the iterative approach combined with quick-feedback "playgrounds" is a fundamental principle across nearly all areas of computing and software development. It minimizes risk, accelerates learning, reduces costs, and leads to better outcomes.
 

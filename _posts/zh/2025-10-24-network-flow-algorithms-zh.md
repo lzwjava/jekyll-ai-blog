@@ -47,7 +47,7 @@ ASCII 可视化：
 A   B
 | \ / |
 8  2  9
- \ /  
+ \ /
   t
 ```
 
@@ -113,6 +113,6 @@ A   B
 - 在 LeetCode/HackerRank 上练习（如"Minimum Cost to Make at Least One Valid Path"）。
 - 可视化：在每次增广后绘制残差图。
 
-[网络流简介](https://www.geeksforgeeks.org/maximum-bipartite-matching/)  
-[最大流最小割定理](https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem)  
+[网络流简介](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
+[最大流最小割定理](https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem)
 [NetworkX 教程](https://networkx.org/documentation/stable/tutorial.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Prisoner's Dilemma?
 
-Answer: 
+Answer:
 
 **Prisoner's Dilemma** 是 game theory 中的一个核心概念，它描述了一种情境：两个理性的个体在追求自身利益最大化时，即使合作会带来更好的集体结果，也往往会选择不合作。
 

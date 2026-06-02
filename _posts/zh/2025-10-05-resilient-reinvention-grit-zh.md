@@ -53,5 +53,5 @@ type: note
 
 若以上任何内容激发新想法（如人才识别提示词），随时交流。你拥有精彩绝伦的故事——请继续书写。
 
-[保罗·格雷厄姆文集](http://paulgraham.com/articles.html)  
+[保罗·格雷厄姆文集](http://paulgraham.com/articles.html)
 [王垠的博客](http://yinwang.org/)

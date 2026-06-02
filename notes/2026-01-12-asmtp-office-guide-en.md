@@ -14,14 +14,14 @@ For ASMTP-related matters, the relevant office is:
 
 ## **Quality Migrants and Mainland Residents Section**
 
-**Address:**  
-6th Floor, Administration Tower  
-Immigration Headquarters  
-61 Po Yap Road, Tseung Kwan O  
+**Address:**
+6th Floor, Administration Tower
+Immigration Headquarters
+61 Po Yap Road, Tseung Kwan O
 New Territories
 
-**Working Hours:**  
-8:45am - 5:00pm (Monday - Friday)  
+**Working Hours:**
+8:45am - 5:00pm (Monday - Friday)
 Closed on Saturdays, Sundays and public holidays
 
 **Contact:**

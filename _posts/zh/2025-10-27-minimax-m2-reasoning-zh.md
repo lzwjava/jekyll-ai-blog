@@ -22,10 +22,10 @@ MiniMax-M2 是 MiniMax-AI 推出的百亿参数紧凑型语言模型，采用"�
 这种设计在智能体和工作流密集型应用中表现突出，此类任务通常需要经历规划、执行和优化的循环过程：
 
 - **代码调试**：MiniMax-M2 擅长"编码-运行-修复"循环，通过出声思考错误（例如 ``），借助工具执行测试，并迭代修正。在 SWE-bench Verified（69.4%成功率）和 Terminal-Bench（46.3%）等基准测试中，该模型处理真实仓库编辑和终端调试的速度超越许多竞争对手，在IDE或CI流水线中将调试周期从数小时缩短至分钟级。
-  
+
 - **工具链调用（如搜索+代码执行+验证）**：通过在不同接口（如命令行、浏览器或代码运行器）间交错思考与行动，模型支持长视野工具链。例如，它可能先执行 ``，然后将网络搜索与代码执行串联，并能基于可追溯证据从故障（如不稳定的API）中恢复。这在 GAIA（75.7% 纯文本得分）和 BrowseComp（44%）中表现出色，使其成为需要任务中途转向的多工具智能体的理想选择。
 
 总体而言，交错思考使 MiniMax-M2 成为"最小模型实现最大工作流"的典范——相较于 Claude 或 GPT-4 等庞然大物，这款为开发者和智能体设计的模型兼具轻量化与强大能力，同时具备更低延迟和成本。该模型特别适合开源设置、交互式终端或批量探索场景，在这些场景中保持完整思考上下文能激发其在规划和错误恢复方面的新兴能力。
 
-[MiniMax-M2 GitHub 仓库](https://github.com/MiniMax-AI/MiniMax-M2)  
+[MiniMax-M2 GitHub 仓库](https://github.com/MiniMax-AI/MiniMax-M2)
 [MiniMax-M2 在 Hugging Face 上的讨论](https://www.reddit.com/r/LocalLLaMA/comments/1oh57ys/minimaxaiminimaxm2_hugging_face/)

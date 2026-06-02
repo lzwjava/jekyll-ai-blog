@@ -49,7 +49,7 @@ type: note
 
 此模式属于 Haier 的健康洗系列（通常标为“健康洗”或“除菌螨”）。有关机器的具体温度/时间，请查阅用户手册或控制面板图标。
 
-参考资料：  
+参考资料：
 
 - [Haier Official - EG100BD88PLUS Model (Mite Removal Details)](https://www.haier.com/laundry/20240509_237829.shtml)
 - [Haier Official - XQG100-H608H (Steam Deep Mite Removal)](https://www.haier.com/laundry/20241231_254457.shtml)

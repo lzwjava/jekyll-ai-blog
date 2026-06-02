@@ -27,7 +27,7 @@ Torri 作为年轻天才崭露头角：
 
 她还多次打破 American records 和接力赛的 world records，确立了自己作为世界上顶级 butterfly 专家之一的地位。Torri 代表了多元文化的融合，并经常谈到在通过母亲的故事致敬中国根源的同时，实现“American Dream”。
 
-**References:**  
+**References:**
 
 - [Torri Huske - Wikipedia](https://en.wikipedia.org/wiki/Torri_Huske)
 - [The Stunning Transformation Of Olympic Swimmer Torri Huske - The List](https://www.thelist.com/1637652/olympic-swimmer-torri-huske-stunning-transformation)

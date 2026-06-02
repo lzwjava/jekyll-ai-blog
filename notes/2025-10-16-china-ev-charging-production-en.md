@@ -45,8 +45,8 @@ The cabinet also has wiring terminals for grid connection and EMI shielding to r
 
 This setup makes China's stations reliable and scalable, powering over 20 million EVs. If you're curious about a specific model or installation, let me know!
 
-[What Are The Main Components Of EV Chargers](https://sinoevse.com/what-are-the-main-components-of-ev-chargers/)  
-[Key Components of DC Fast Charging Stations](https://www.franklingrid.com/en/this-is-franklin-grid/blog/key-components-of-dc-fast-charging-stations/)  
-[Electric Vehicle Charging Station Cabinets: Types and Solutions 2025](https://linkwellelectrics.com/electric-vehicle-charging-station-cabinets/)  
-[Overview of AC/DC Converters for Fast-Charging Stations](https://www.powerelectronicsnews.com/overview-of-ac-dc-converters-for-fast-charging-stations/)  
+[What Are The Main Components Of EV Chargers](https://sinoevse.com/what-are-the-main-components-of-ev-chargers/)
+[Key Components of DC Fast Charging Stations](https://www.franklingrid.com/en/this-is-franklin-grid/blog/key-components-of-dc-fast-charging-stations/)
+[Electric Vehicle Charging Station Cabinets: Types and Solutions 2025](https://linkwellelectrics.com/electric-vehicle-charging-station-cabinets/)
+[Overview of AC/DC Converters for Fast-Charging Stations](https://www.powerelectronicsnews.com/overview-of-ac-dc-converters-for-fast-charging-stations/)
 [EV Charging Connector Types: A Complete Guide](https://www.power-sonic.com/ev-charging-connector-types/)

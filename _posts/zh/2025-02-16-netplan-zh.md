@@ -137,7 +137,7 @@ WantedBy=default.target
 
 ```bash
 # Create the service file
-sudo emacs /etc/systemd/system/clash.service 
+sudo emacs /etc/systemd/system/clash.service
 
 # Reload systemd daemon
 sudo systemctl daemon-reload
@@ -178,13 +178,13 @@ sudo systemctl status clash.service
 Host 192.168.1.*
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa 
+    IdentityFile ~/.ssh/id_rsa
 Host * !192.*.*.* !47.*.*.*
     ProxyCommand corkscrew localhost 7890 %h %p
 Host *
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa    
+    IdentityFile ~/.ssh/id_rsa
 ```
 
 ---

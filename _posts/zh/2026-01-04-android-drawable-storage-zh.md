@@ -10,13 +10,13 @@ translated: true
 type: note
 ---
 
-Question: 图像等 drawable 资源应该放置在哪个文件夹中？  
-A) res/values  
-B) res/layout  
-C) res/drawable  
+Question: 图像等 drawable 资源应该放置在哪个文件夹中？
+A) res/values
+B) res/layout
+C) res/drawable
 D) res/menu
 
-Answer: 
+Answer:
 
 正确答案是 **C) res/drawable**。
 

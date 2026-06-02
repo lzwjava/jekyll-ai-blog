@@ -12,7 +12,7 @@ type: note
 
 **Question:** Why are there so many of these Clash logs: "[TCP] dial DIRECT (match DomainSuffix/local) 127.0.0.1:... --> lzwjava.local:59822 error: couldn't find ip"?
 
-**Answer:** 
+**Answer:**
 
 These warning logs in Clash (likely Clash for Windows or a similar client like Clash Verge) indicate repeated failed attempts to resolve and connect to the hostname **lzwjava.local** on port 59822.
 
@@ -52,8 +52,8 @@ These warning logs in Clash (likely Clash for Windows or a similar client like C
 
 These logs are harmless warnings (not errors crashing Clash), but they spam if the app keeps retrying. Fixing the resolution or stopping the connection attempts will eliminate them.
 
-**References:**  
+**References:**
 
-- [GitHub Issue: clash-verge-rev #467 - Similar DNS resolve failed for direct-routed domains](https://github.com/clash-verge-rev/clash-verge-rev/issues/467)  
-- [GitHub Issue: vernesong/OpenClash #4244 - DNS resolution issues in Clash](https://github.com/vernesong/OpenClash/issues/4244)  
+- [GitHub Issue: clash-verge-rev #467 - Similar DNS resolve failed for direct-routed domains](https://github.com/clash-verge-rev/clash-verge-rev/issues/467)
+- [GitHub Issue: vernesong/OpenClash #4244 - DNS resolution issues in Clash](https://github.com/vernesong/OpenClash/issues/4244)
 - [Clash Documentation: Rules and DNS Behavior](https://en.clash.wiki/configuration/rules.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: In large corporations and banks, is it common for teams to build internal platforms and tools that essentially wrap existing open-source solutions like Ansible playbooks, Jenkins for building packages, and custom deployment platforms—when much of this could be done directly in Jenkins—primarily to create internal projects for career advancement, resulting in lower-quality tools with small user bases (10k–50k users), small maintenance teams, high long-term costs, and eventual obsolescence?
 
-Answer: 
+Answer:
 
 Yes, this is very normal—and unfortunately quite common—in large corporations, especially in highly regulated industries like banking and finance.
 

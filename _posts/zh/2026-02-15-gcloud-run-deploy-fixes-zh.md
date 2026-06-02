@@ -11,7 +11,7 @@ type: note
 
 Question: 为什么使用 `gcloud run deploy` 命令配合 `--source .` 会提示 "unrecognized arguments" 错误？如何修复它以将 blog-server 部署到 Cloud Run？
 
-Answer: 
+Answer:
 
 出现该错误是因为 shell（在您的情况下是 zsh）将换行符后的 flag 解释为独立命令，而不是 `gcloud` 的参数。
 
@@ -90,7 +90,7 @@ chmod +x deploy.sh
 
 成功部署后，您将看到一个类似 `https://blog-server-XXXXXX.a.run.app` 的服务 URL。
 
-References:  
+References:
 
 - [Deploy services from source code | Cloud Run](https://docs.cloud.google.com/run/docs/deploying-source-code)
 - [gcloud run deploy reference](https://docs.cloud.google.com/sdk/gcloud/reference/run/deploy)

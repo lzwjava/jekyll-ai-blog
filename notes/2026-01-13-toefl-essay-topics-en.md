@@ -21,7 +21,7 @@ However, the classic **Independent Writing-style topics** (still very relevant f
 ### Most Frequent Topic Categories
 - **Education** (by far the most common area)
   - Role of teachers, homework, class size, online vs. in-person learning, university education value, discipline in schools, qualities of good students/teachers
-- **Technology** 
+- **Technology**
   - Impact of the internet/social media/cell phones, technology in education/work, advantages/disadvantages of technological progress
 - **Work and Career**
   - Job satisfaction, working from home vs. office, qualities of good coworkers/bosses, choosing a career, retirement

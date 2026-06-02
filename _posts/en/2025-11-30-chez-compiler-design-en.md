@@ -24,8 +24,8 @@ He also criticizes MLIR (the newer compiler infrastructure used for machine-lear
 
 Then he quotes Kent Dybvig (the main author of Chez Scheme) with a very famous and influential philosophy:
 
-> “I actually just got the data structures right, and everything naturally became fast — not only the generated code runs fast, but the compiler itself is extremely fast too.  
-> A lot of compilers try to do many complex optimizations. Chez Scheme only does the most basic, simplest, and most useful ones.  
+> “I actually just got the data structures right, and everything naturally became fast — not only the generated code runs fast, but the compiler itself is extremely fast too.
+> A lot of compilers try to do many complex optimizations. Chez Scheme only does the most basic, simplest, and most useful ones.
 > It’s the programmer’s responsibility to avoid writing extremely inefficient code in the first place; optimizing obviously stupid code shouldn’t be the compiler’s job.”
 
 The poster says: if you truly understand the deep wisdom in this statement, you’ll understand why Chez Scheme is so extraordinarily fast while having an amazingly small code base — it was essentially written by one person (Kent Dybvig, with some contributions from others later).

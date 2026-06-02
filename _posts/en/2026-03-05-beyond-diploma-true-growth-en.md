@@ -11,7 +11,7 @@ type: note
 
 Question: Is the provided Bilibili comment right / correct / insightful?
 
-Answer: 
+Answer:
 
 Yes, the comment is fundamentally right, and it expresses a very mature and valuable perspective that many people come to realize only after actually going through the self-study examination (自考) process.
 
@@ -29,7 +29,7 @@ This is not just motivational talk — it matches what many long-term learners r
 
 The closing lines are especially sharp:
 
-- “即便我们最终什么都没有得到，但我们也不会失去什么，我们本来就一无所有不是吗？”  
+- “即便我们最终什么都没有得到，但我们也不会失去什么，我们本来就一无所有不是吗？”
   → This is both brutally honest and liberating. It removes the fear of “wasting time” because the starting point was already close to zero in terms of formal credentials or inner peace.
 
 So while the diploma may help with some job screenings or civil service exams, the comment correctly points out that **the deepest value of self-study is usually invisible and internal** — and that value can exist even if the external result is disappointing.
@@ -38,6 +38,6 @@ Different people will find different personal “meanings” in the process (car
 
 In short: the comment is not only “right”, it is wise.
 
-References:  
+References:
 
 - [Original Bilibili video comment source](https://www.bilibili.com/video/BV1LK4y1o7AS?spm_id_from=333.788.videopod.episodes&vd_source=89dab4a438fbb42994ef16c0af4d4e91&p=5)

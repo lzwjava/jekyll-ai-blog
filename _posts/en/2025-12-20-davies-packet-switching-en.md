@@ -12,7 +12,7 @@ type: note
 
 Question: What is the life story of Donald Davies, and how did he invent packet switching?
 
-Answer: 
+Answer:
 
 **Life Story of Donald Davies**
 
@@ -32,12 +32,12 @@ Davies' 1967 presentation influenced Larry Roberts and the ARPANET design in the
 
 His work laid foundational groundwork for modern computer networks and the Internet.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Donald_Davies  
-- https://www.britannica.com/biography/Donald-Davies  
-- https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/  
-- https://www.internethalloffame.org/inductee/donald-davies/  
-- https://en.wikipedia.org/wiki/Packet_switching  
-- https://ethw.org/Packet_Switching  
+- https://en.wikipedia.org/wiki/Donald_Davies
+- https://www.britannica.com/biography/Donald-Davies
+- https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/
+- https://www.internethalloffame.org/inductee/donald-davies/
+- https://en.wikipedia.org/wiki/Packet_switching
+- https://ethw.org/Packet_Switching
 - https://www.invent.org/inductees/donald-watts-davies

@@ -37,7 +37,7 @@ Both are free and open-source, but ab is ideal for simple, one-off tests, while 
 
 For hands-on examples, ab runs in seconds, while JMeter requires building a test plan but offers deeper insights.
 
-[Which gets the measurements right, JMeter or Apache ab?](https://stackoverflow.com/questions/10260526/which-gets-the-measurements-right-jmeter-or-apache-ab)  
-[Load testing an API with Apache Benchmark or JMeter](https://medium.com/@harrietty/load-testing-an-api-with-apache-benchmark-or-jmeter-24cfe39d3a23)  
-[JMeter vs Other Performance Testing Tools](https://automatenow.io/jmeter-vs-other-performance-testing-tools/)  
+[Which gets the measurements right, JMeter or Apache ab?](https://stackoverflow.com/questions/10260526/which-gets-the-measurements-right-jmeter-or-apache-ab)
+[Load testing an API with Apache Benchmark or JMeter](https://medium.com/@harrietty/load-testing-an-api-with-apache-benchmark-or-jmeter-24cfe39d3a23)
+[JMeter vs Other Performance Testing Tools](https://automatenow.io/jmeter-vs-other-performance-testing-tools/)
 [How does JMeter compare to other performance testing tools](https://www.linkedin.com/pulse/how-does-jmeter-compare-other-performance-testing-tools-abulencia-s17me)

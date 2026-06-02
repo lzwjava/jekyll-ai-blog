@@ -16,21 +16,21 @@ type: note
 ENTP (often called "The Debater", "The Visionary" or "The Entrepreneur") is one of the 16 Myers-Briggs Type Indicator (MBTI) personality types.
 
 ### Core acronym breakdown
-- **E** – Extraverted  
-- **N** – Intuitive  
-- **T** – Thinking  
+- **E** – Extraverted
+- **N** – Intuitive
+- **T** – Thinking
 - **P** – Perceiving
 
 ### Main characteristics of ENTPs
 
 **Cognitive functions stack** (most accepted order):
-1. **Ne** (Extraverted Intuition) – dominant  
+1. **Ne** (Extraverted Intuition) – dominant
    → seeing endless possibilities, pattern spotting, brainstorming, connecting unrelated ideas
-2. **Ti** (Introverted Thinking) – auxiliary  
+2. **Ti** (Introverted Thinking) – auxiliary
    → internal logical framework, love of dissecting systems, precision in reasoning
-3. **Fe** (Extraverted Feeling) – tertiary  
+3. **Fe** (Extraverted Feeling) – tertiary
    → can read social atmospheres, charm people when they want to, but usually not deeply value-driven by feelings
-4. **Si** (Introverted Sensing) – inferior  
+4. **Si** (Introverted Sensing) – inferior
    → weakest function – often struggle with routine, details, consistent habits, remembering specifics from the past
 
 ### Classic ENTP traits (how they usually show up)
@@ -70,10 +70,10 @@ ENTP (often called "The Debater", "The Visionary" or "The Entrepreneur") is one 
 - Captain Jack Sparrow, Tony Stark (Iron Man), The Joker (some versions), Tyrion Lannister
 - Modern examples often include: Elon Musk, Matt Damon, Amy Poehler, Sacha Baron Cohen
 
-**In one sentence:**  
+**In one sentence:**
 ENTPs are fast-thinking, possibility-obsessed, debate-loving, system-breaking, charmingly chaotic idea machines who live for novelty and hate being told what to do.
 
-**References:**  
+**References:**
 
 - [https://www.16personalities.com/entp-personality](https://www.16personalities.com/entp-personality)
 - [https://www.truity.com/personality-type/ENTP](https://www.truity.com/personality-type/ENTP)

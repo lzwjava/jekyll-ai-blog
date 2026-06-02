@@ -12,7 +12,7 @@ type: note
 
 Question: What are some kid playgrounds and parks in Guangzhou, like the Guangzhou Children's Park in Baiyun?
 
-Answer: 
+Answer:
 
 Guangzhou has several excellent parks and playgrounds designed for children and families. The most prominent one matching your example is **Guangzhou Children's Park** (广州市儿童公园) in Baiyun District, which is widely regarded as the best and largest dedicated children's park in the city.
 
@@ -41,7 +41,7 @@ Guangzhou has a system of district-level children's parks, but the Baiyun one st
 
 These spots emphasize free or low-cost outdoor play, making them great for families. For the latest updates, check local apps like Didi for navigation or Trip.com for any paid add-ons.
 
-References:  
+References:
 
 - [Guangzhou Children's Park on Tripadvisor](https://www.tripadvisor.com/Attraction_Review-g298555-d9865062-Reviews-Guangzhou_Children_Park-Guangzhou_Guangdong.html)
 - [GZ Kidz blog on Guangzhou Children's Park](https://gzkidz.com/2024/09/20/guangzhou-childrens-park)

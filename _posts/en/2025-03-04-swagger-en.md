@@ -138,7 +138,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @ApiOperation(value = "Create a new user")
 @PostMapping
 public ResponseEntity<User> createUser(
-        @ApiParam(value = "User object to be created", required = true) 
+        @ApiParam(value = "User object to be created", required = true)
         @RequestBody User user) {
     // Implementation
     return ResponseEntity.ok(user);
@@ -212,8 +212,8 @@ public class User {
 ### Step 4: Run and Access the Documentation
 
 1. Start your Spring Boot application.
-2. Open a browser and navigate to:  
-   **http://localhost:8080/swagger-ui.html**  
+2. Open a browser and navigate to:
+   **http://localhost:8080/swagger-ui.html**
    This URL displays the Swagger UI, an interactive interface showing your API documentation based on the annotations.
 
 ---

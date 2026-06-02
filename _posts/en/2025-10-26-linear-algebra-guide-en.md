@@ -68,5 +68,5 @@ As your engineering-focused tutor, this guide emphasizes verifiable, index-expli
 
 **Quick Verification Tip**: Always row-reduce [A - λI | 0] for eigenspaces; check det via expansion if n≤3.
 
-[Linear Algebra Cheat Sheet - Indexed Formulas](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)  
+[Linear Algebra Cheat Sheet - Indexed Formulas](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)
 [Self-Exam 02198 Review](https://doc.quark.cn/preview/jiaoyukaoshi-shijuan-gaokao/1130FC966EE595249D3822AFF5DF0167)

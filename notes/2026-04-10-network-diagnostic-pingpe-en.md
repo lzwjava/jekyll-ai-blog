@@ -11,7 +11,7 @@ type: note
 
 Question: What is an introduction to https://ping.pe and why is it good?
 
-Answer: 
+Answer:
 
 **Introduction to ping.pe**
 
@@ -27,24 +27,24 @@ ping.pe is a free, simple, and powerful online network diagnostic tool that allo
 
 ### Why ping.pe is Good / Advantages:
 
-1. **Global Perspective**  
+1. **Global Perspective**
    Most built-in ping commands on your computer only test from your own location. ping.pe lets you test connectivity from many different geographic locations, which is extremely useful for diagnosing whether a website or server issue is local to you or affects users worldwide.
 
-2. **No Installation Needed**  
+2. **No Installation Needed**
    Everything runs in your browser. Perfect for quick checks when you're on a restricted computer, mobile device, or just need fast results without downloading tools.
 
-3. **Speed and Simplicity**  
+3. **Speed and Simplicity**
    The interface is extremely lightweight and user-friendly. You enter a hostname or IP, choose the test type, and get results in seconds. It's ideal for both beginners and experienced network engineers.
 
-4. **Helpful for Troubleshooting**  
-   - Webmasters and developers use it to verify if their site is reachable globally.  
-   - IT professionals use it to debug connectivity problems, high latency routes, or firewall blocks.  
+4. **Helpful for Troubleshooting**
+   - Webmasters and developers use it to verify if their site is reachable globally.
+   - IT professionals use it to debug connectivity problems, high latency routes, or firewall blocks.
    - Gamers or VoIP users can check ping/latency from different regions.
 
-5. **Free and Reliable**  
+5. **Free and Reliable**
    The service has been consistently available for years and provides accurate real-world network data from actual servers around the world.
 
-6. **Privacy-Friendly**  
+6. **Privacy-Friendly**
    No login or personal data is required. Your tests are not stored long-term.
 
 ### Common Use Cases:

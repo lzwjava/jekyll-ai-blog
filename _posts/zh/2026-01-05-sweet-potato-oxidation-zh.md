@@ -12,7 +12,7 @@ type: note
 
 Question: Why do peeled and sliced sweet potatoes develop many dark spots on the surface that look like oxidation when air-fried, unlike when cooking them whole?
 
-Answer: 
+Answer:
 
 你在去皮切片的 sweet potatoes 表面看到的黑点是由 **oxidation**（氧化）引起的。这是一种自然的化学反应，当 sweet potato 的果肉在去皮和切开后暴露在空气中时就会发生。
 
@@ -25,7 +25,7 @@ Sweet potatoes 含有酚类化合物（如 chlorogenic acid），这些化合物
 - 高温会加速或加剧已经氧化区域的变黑现象。
 - 在某些情况下，过度烹饪会导致糖分发生 caramelization（焦糖化）或轻微烧焦，从而产生深色斑点（尽管你描述的是出现在表面，很可能是预烹饪时的 oxidation）。
 
-**可以安全食用吗？**  
+**可以安全食用吗？**
 是的，这些 oxidation 斑点完全无害，不会影响味道或安全性。你可以直接食用，或者如果为了美观，也可以切掉变黑的部分。
 
 **下次如何预防：**
@@ -37,7 +37,7 @@ Sweet potatoes 含有酚类化合物（如 chlorogenic acid），这些化合物
 
 这些步骤将使你的 air-fried sweet potato 切片保持鲜艳的橙色，而不会出现黑点。
 
-References:  
+References:
 
 - [https://foodsguy.com/black-spots-sweet-potatoes/](https://foodsguy.com/black-spots-sweet-potatoes/)
 - [https://cooking.stackexchange.com/questions/113146/why-is-my-white-sweet-potato-turning-black](https://cooking.stackexchange.com/questions/113146/why-is-my-white-sweet-potato-turning-black)

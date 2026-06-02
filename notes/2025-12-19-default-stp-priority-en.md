@@ -12,11 +12,11 @@ type: note
 
 Question: What is the default priority value for a switch in Spanning Tree Protocol (STP)?
 
-Answer: 
+Answer:
 
 The correct answer is **B) 32768**.
 
-In the original Spanning Tree Protocol (IEEE 802.1D), the default bridge priority value for a switch is 32768. The bridge priority is a 16-bit field in the Bridge ID (BID), which consists of the priority (higher 16 bits, in multiples of 4096) and the MAC address (lower 48 bits). 
+In the original Spanning Tree Protocol (IEEE 802.1D), the default bridge priority value for a switch is 32768. The bridge priority is a 16-bit field in the Bridge ID (BID), which consists of the priority (higher 16 bits, in multiples of 4096) and the MAC address (lower 48 bits).
 
 By default, the priority is set to 32768 (which is 0x8000 in hexadecimal), making the full extended priority portion align with this value when no modifications are made. This default allows for manual configuration in increments of 4096 (from 0 to 61440) to influence root bridge election, where lower BID wins.
 

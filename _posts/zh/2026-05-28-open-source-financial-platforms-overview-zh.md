@@ -111,7 +111,7 @@ import beancount.loader as loader
 
 def ai_validate_journal(beancount_file: str) -> str:
     entries, errors, options = loader.load_file(beancount_file)
-    
+
     client = anthropic.Anthropic()
     response = client.messages.create(
         model="claude-sonnet-4-20250514",

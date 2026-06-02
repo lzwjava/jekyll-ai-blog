@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major products in the Consumer Banking Group (CBG) department at DBS Bank?
 
-Answer: 
+Answer:
 
 The **Consumer Banking Group (CBG)** at DBS Bank, also commonly referred to as the Consumer Banking/Wealth Management segment, focuses on retail and individual customers. It provides a wide range of personal financial products and services designed for everyday banking, wealth accumulation, protection, and borrowing needs.
 
@@ -29,10 +29,10 @@ The **Consumer Banking Group (CBG)** at DBS Bank, also commonly referred to as t
 
 These products are supported by a strong emphasis on digital innovation, making DBS a leader in consumer digital banking in Asia. The group serves customers across key markets like Singapore, Hong Kong, China, Taiwan, India, and Indonesia.
 
-References:  
+References:
 
-- [DBS Bank Official Careers Page - Consumer Banking Group](https://www.dbs.com/careers/experienced-hires/consumer-banking-group)  
-- [DBS Annual Report References (e.g., 2024 Consumer Banking/Wealth Management)](https://www.dbs.com/annualreports/2024/consumer-banking-wealth-management.html)  
-- [GlobalData Company Profile - DBS Group Holdings Ltd](https://www.globaldata.com/company-profile/dbs-group-holdings-ltd/)  
-- [Forbes Company Overview - DBS](https://www.forbes.com/companies/dbs/)  
+- [DBS Bank Official Careers Page - Consumer Banking Group](https://www.dbs.com/careers/experienced-hires/consumer-banking-group)
+- [DBS Annual Report References (e.g., 2024 Consumer Banking/Wealth Management)](https://www.dbs.com/annualreports/2024/consumer-banking-wealth-management.html)
+- [GlobalData Company Profile - DBS Group Holdings Ltd](https://www.globaldata.com/company-profile/dbs-group-holdings-ltd/)
+- [Forbes Company Overview - DBS](https://www.forbes.com/companies/dbs/)
 - [Reuters Company Profile - DBS Group Holdings Ltd](https://www.reuters.com/markets/companies/DBSDY.PK/)

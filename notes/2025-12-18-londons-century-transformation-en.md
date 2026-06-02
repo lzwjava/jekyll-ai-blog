@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of London over the last 100 years, including some key events and milestones?
 
-Answer: 
+Answer:
 
 London's history from the mid-1920s to 2025 reflects its transition from an imperial capital to a modern global city, marked by economic shifts, wartime devastation, reconstruction, cultural revival, and contemporary challenges.
 
@@ -36,10 +36,10 @@ The Shard (completed 2012) and Crossrail (Elizabeth Line, opened 2022) enhanced 
 
 London has evolved from imperial powerhouse through war and decline to a diverse, resilient multicultural metropolis, with population growth, immigration, and global finance as key drivers.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/History_of_London_(1900%E2%80%931939)  
-- https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)  
-- https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)  
-- https://www.britannica.com/place/London/Reconstruction-after-World-War-II  
+- https://en.wikipedia.org/wiki/History_of_London_(1900%E2%80%931939)
+- https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)
+- https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)
+- https://www.britannica.com/place/London/Reconstruction-after-World-War-II
 - https://en.wikipedia.org/wiki/History_of_London

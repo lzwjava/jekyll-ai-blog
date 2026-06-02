@@ -40,7 +40,7 @@ Tolle emphasizes that the present moment is all that exists. The past is a memor
 
 ## Practical Applications
 
-The book offers practical ways to access presence: focusing on your breath, feeling the aliveness in your body (your "inner body"), bringing full attention to ordinary activities, and asking yourself "What is my relationship to the present moment?" 
+The book offers practical ways to access presence: focusing on your breath, feeling the aliveness in your body (your "inner body"), bringing full attention to ordinary activities, and asking yourself "What is my relationship to the present moment?"
 
 When facing challenges, Tolle suggests asking: "What problem do I have right now?" Often, you'll find that in this precise moment, there is no problem—only a situation to address or accept.
 

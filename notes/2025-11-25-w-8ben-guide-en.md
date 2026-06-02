@@ -10,8 +10,8 @@ translated: false
 type: note
 ---
 
-**Download the latest version here**:  
-[Form W-8BEN (Rev. October 2021)](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf)  
+**Download the latest version here**:
+[Form W-8BEN (Rev. October 2021)](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf)
 [Official Instructions (very helpful)](https://www.irs.gov/pub/irs-pdf/iw8ben.pdf)
 
 ### Who fills this form?
@@ -50,19 +50,19 @@ You are a **non-U.S. individual** (not a U.S. citizen, green-card holder, or U.S
 
 ### Frequently Asked Questions
 
-- **Do I have to mail a paper form?**  
+- **Do I have to mail a paper form?**
   No — almost all U.S. brokers (Interactive Brokers, Fidelity, Charles Schwab, etc.) and platforms (Upwork, PayPal, Amazon, Google) let you fill it out online or upload a signed PDF.
 
-- **How long is it valid?**  
+- **How long is it valid?**
   Generally 3 calendar years after the year you sign it. Example: signed Dec 2025 → valid until Dec 31, 2028.
 
-- **What if I don’t submit it?**  
+- **What if I don’t submit it?**
   The U.S. payer withholds 30% automatically (or may block payments entirely).
 
-- **I’m a freelancer paid by U.S. clients**  
+- **I’m a freelancer paid by U.S. clients**
   Still use W-8BEN (not W-9). Many clients use platforms like Upwork or Wise that collect it automatically.
 
-Quick cheat-sheet PDF most people use:  
+Quick cheat-sheet PDF most people use:
 [IRS W-8BEN Quick Reference for Common Countries](https://www.irs.gov/pub/irs-utl/Tax_Treaty_Table_1_2_3_4.pdf) (see Table 1–3 for rates)
 
 If you tell me your country and the type of income (dividends, royalties, freelance, etc.), I can give you the exact wording for line 10.

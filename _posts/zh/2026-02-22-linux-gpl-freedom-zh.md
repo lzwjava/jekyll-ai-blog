@@ -11,7 +11,7 @@ type: note
 
 问题：哪个操作系统可以被任何个人或组织自由修改和重新分发，只要他们遵守 **GNU General Public License**？
 
-答案： 
+答案：
 
 正确答案是 **D: Linux**。
 

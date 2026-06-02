@@ -12,7 +12,7 @@ type: note
 
 Question: Which command displays the routing table on a Cisco router, and why is D the correct answer?
 
-Answer: 
+Answer:
 
 The correct answer is **A) show ip route**.
 

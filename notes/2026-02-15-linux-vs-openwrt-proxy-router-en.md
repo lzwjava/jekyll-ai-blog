@@ -11,7 +11,7 @@ type: note
 
 Question: Is using a Linux Mint laptop with Clash (Ethernet in + USB-Ethernet out) better than installing OpenWrt on the same old ThinkPad laptop and using OpenWrt to handle routing and proxying?
 
-Answer: 
+Answer:
 
 No single method is universally "better" — it depends very strongly on your priorities, skills, and what problems you want to solve. Here's a realistic 2025–2026 comparison for an old ~2010–2012 ThinkPad used as a home proxy router.
 
@@ -52,7 +52,7 @@ No single method is universally "better" — it depends very strongly on your pr
 
 ### Quick verdict for most people in 2026 with old hardware like yours
 
-→ **Start with Linux Mint + Clash** (what you are already doing)  
+→ **Start with Linux Mint + Clash** (what you are already doing)
 → If it proves unstable, consumes too much power, or you want more router-like features → **then** try OpenWrt
 
 Many people who tried both end up going **Mint/Debian lightweight → OpenWrt** after a few months, but almost nobody regrets starting with the easier Mint method first.
@@ -62,9 +62,9 @@ If you decide to try OpenWrt later, look for:
 - People have success with models like ThinkPad X220/T420/T520 using community builds or mainline snapshots
 - Use iperf3/speedtest-cli to compare throughput & latency before/after
 
-So short answer:  
+So short answer:
 **No, your current way is not worse — for most people with old hardware it is actually the more practical and lower-risk starting point.**
 
-References:  
+References:
 
 - None required (comparison based on common real-world usage patterns of both systems in 2025–2026)

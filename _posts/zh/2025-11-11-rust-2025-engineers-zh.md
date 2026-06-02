@@ -48,7 +48,7 @@ type: note
 
 若追求绝对职业稳定，可继续深化Java/ML技能。若谋求技术突破，Rust是高风险回报的技术投资。
 
-[Rust程序设计语言电子书](https://doc.rust-lang.org/book/)  
-[Stack Overflow 2024开发者调查](https://survey.stackoverflow.co/2024/)  
-[GitHub 2025 Octoverse预览](https://octoverse.github.com/)  
+[Rust程序设计语言电子书](https://doc.rust-lang.org/book/)
+[Stack Overflow 2024开发者调查](https://survey.stackoverflow.co/2024/)
+[GitHub 2025 Octoverse预览](https://octoverse.github.com/)
 [CNCF 2024年度调查报告](https://www.cncf.io/reports/)

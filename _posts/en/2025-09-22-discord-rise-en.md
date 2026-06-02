@@ -28,8 +28,8 @@ Discord stands out as a versatile, user-friendly communication platform that's e
 
 In short, Discord nails the balance of fun, functionality, and flexibility, which is why it's stuck around and keeps growing.
 
-[Discord - Wikipedia](https://en.wikipedia.org/wiki/Discord)  
-[About Discord | Our Mission and Story](https://discord.com/company)  
-[When Did Discord Get Popular? The Inside Story - Fourthwall](https://fourthwall.com/blog/when-did-discord-get-popular-the-inside-story)  
-[What makes Discord successful? - Medium](https://medium.com/@stavykov/what-makes-discord-successful-cdbeb57ace01)  
+[Discord - Wikipedia](https://en.wikipedia.org/wiki/Discord)
+[About Discord | Our Mission and Story](https://discord.com/company)
+[When Did Discord Get Popular? The Inside Story - Fourthwall](https://fourthwall.com/blog/when-did-discord-get-popular-the-inside-story)
+[What makes Discord successful? - Medium](https://medium.com/@stavykov/what-makes-discord-successful-cdbeb57ace01)
 [The Social Revolution: Examining the Popularity of Discord](https://thebrandhopper.com/2023/07/01/the-social-revolution-examining-popularity-of-discord/)

@@ -11,7 +11,7 @@ type: note
 
 Question: Provide an introduction to https://coolshell.cn and its author.
 
-Answer: 
+Answer:
 
 **CoolShell.cn** (酷壳) is a highly influential Chinese technology blog focused on software development, system architecture, programming practices, and critiques of industry trends. Its Chinese tagline is "享受编程和技术所带来的快乐" ("Enjoy the joy brought by programming and technology"), with the English subtitle "Coding Your Ambition."
 
@@ -36,7 +36,7 @@ Chen Hao started sharing technical writings online around 2003 (initially on CSD
 
 After his passing in 2023, the community mourned him widely — he is remembered as a "technical evangelist," mentor to many developers, and one of the most impactful independent tech bloggers in China. The blog remains online as a valuable archive.
 
-References:  
+References:
 
 - [https://coolshell.cn/](https://coolshell.cn/)
 - [https://coolshell.cn/haoel](https://coolshell.cn/haoel)

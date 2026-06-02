@@ -17,7 +17,7 @@ Claude (and similar models like me) **cannot directly run Python code** on your 
 
 There are only two realistic ways this usually works:
 
-1. You run the code yourself → copy-paste the error (and relevant code/context) → ask the model to fix it  
+1. You run the code yourself → copy-paste the error (and relevant code/context) → ask the model to fix it
    (this is what you're currently doing)
 
 2. Use a model + tool setup that **actually can execute code**, for example:
@@ -56,6 +56,6 @@ Then we can fix it together iteratively without you needing to run anything loca
 
 Would you like to try that workflow? Just paste the code you'd normally run as `python xx.py` and describe what you're trying to achieve or what error you're getting.
 
-References:  
+References:
 
 - None

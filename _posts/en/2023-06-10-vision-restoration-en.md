@@ -38,7 +38,7 @@ In this paper, I present the results of an experiment that verifies the effectiv
 
 ### Background
 
-Myopia, also known as nearsightedness, is a prevalent condition that has been on the rise globally. Its causes are multifaceted, involving both genetic and environmental factors. Notably, modern lifestyles—characterized by prolonged near work (e.g., reading, screen time)—have been implicated in the increase of myopia cases. According to Todd Becker's method, first introduced in 2014, myopia can be reversed by gradually reducing the strength of corrective lenses, thereby encouraging the eye muscles to regain their natural shape. 
+Myopia, also known as nearsightedness, is a prevalent condition that has been on the rise globally. Its causes are multifaceted, involving both genetic and environmental factors. Notably, modern lifestyles—characterized by prolonged near work (e.g., reading, screen time)—have been implicated in the increase of myopia cases. According to Todd Becker's method, first introduced in 2014, myopia can be reversed by gradually reducing the strength of corrective lenses, thereby encouraging the eye muscles to regain their natural shape.
 
 Additionally, Yin Wang's work in 2022 further explored the methods of reversing myopia through lens adjustments and active focusing. He built upon Becker’s theory, proposing a mechanism by which reducing the strength of corrective lenses promotes the relaxation and reshaping of eye muscles, ultimately leading to improved vision. Wang’s research added a layer of understanding about the biological changes associated with this process.
 

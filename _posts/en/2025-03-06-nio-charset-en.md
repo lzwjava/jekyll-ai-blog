@@ -20,13 +20,13 @@ The primary class in this package is `Charset`, supported by additional classes 
 ---
 
 #### **Key Classes in `java.nio.charset`**
-1. **`Charset`**  
+1. **`Charset`**
    Represents a character encoding (e.g., UTF-8, ISO-8859-1). You use this class to specify the encoding for conversions between bytes and characters.
 
-2. **`StandardCharsets`**  
+2. **`StandardCharsets`**
    A utility class providing constants for commonly used charsets, such as `StandardCharsets.UTF_8` or `StandardCharsets.ISO_8859_1`. It eliminates the need to manually look up charset names.
 
-3. **`CharsetEncoder` and `CharsetDecoder`**  
+3. **`CharsetEncoder` and `CharsetDecoder`**
    These classes offer fine-grained control over encoding (characters to bytes) and decoding (bytes to characters), typically used with NIO buffers like `ByteBuffer` and `CharBuffer`.
 
 ---

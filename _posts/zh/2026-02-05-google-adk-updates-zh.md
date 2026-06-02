@@ -38,9 +38,9 @@ Google 的 Agent Development Kit (ADK) 是一个用于开发和部署 AI agents 
 
 不同语言的安装均非常直接：
 
-**Python**: `pip install google-adk`  
-**TypeScript**: `npm install @google/adk`  
-**Go**: `go get google.golang.org/adk`  
+**Python**: `pip install google-adk`
+**TypeScript**: `npm install @google/adk`
+**Go**: `go get google.golang.org/adk`
 **Java**: 通过 Maven 或 Gradle 添加依赖
 
 这是一个简单的 Python 示例：

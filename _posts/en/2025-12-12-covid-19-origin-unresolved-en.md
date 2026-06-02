@@ -12,7 +12,7 @@ type: note
 
 Question: What is the origin of COVID-19?
 
-Answer: 
+Answer:
 
 The origin of SARS-CoV-2, the virus that causes COVID-19, remains unresolved as of December 2025, despite extensive investigations by the World Health Organization (WHO), intelligence agencies, and independent scientists. The scientific consensus favors a natural zoonotic spillover—likely from bats to humans, possibly via an intermediate animal host at a wildlife market in Wuhan, China—but the alternative hypothesis of a laboratory-associated incident (often called the "lab leak") cannot be definitively ruled out due to gaps in data, particularly from China. No evidence supports claims of deliberate engineering or bioweapon development.
 
@@ -37,10 +37,10 @@ A 2024 NBER Bayesian analysis estimated 14,900:1 odds for lab leak over zoonosis
 
 In summary, while zoonosis has stronger scientific backing, the lab hypothesis persists due to circumstantial factors and incomplete transparency. Further declassification (e.g., under the 2023 COVID-19 Origin Act) could clarify this.
 
-References:  
-- [WHO SAGO Report on Origins of SARS-CoV-2 (2025)](https://www.who.int/publications/m/item/independent-assessment-of-the-origins-of-sars-cov-2-from-the-scientific-advisory-group-for-the-origins-of-novel-pathogens)  
-- [Wikipedia: Origin of SARS-CoV-2](https://en.wikipedia.org/wiki/Origin_of_SARS-CoV-2)  
-- [ODNI Unclassified Summary on COVID-19 Origins (2023)](https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf)  
-- [NBER Bayesian Assessment of COVID-19 Origins (2024)](https://www.nber.org/system/files/working_papers/w33428/w33428.pdf)  
-- [Cell: The Origins of SARS-CoV-2: A Critical Review (2021)](https://www.sciencedirect.com/science/article/pii/S0092867421009910)  
+References:
+- [WHO SAGO Report on Origins of SARS-CoV-2 (2025)](https://www.who.int/publications/m/item/independent-assessment-of-the-origins-of-sars-cov-2-from-the-scientific-advisory-group-for-the-origins-of-novel-pathogens)
+- [Wikipedia: Origin of SARS-CoV-2](https://en.wikipedia.org/wiki/Origin_of_SARS-CoV-2)
+- [ODNI Unclassified Summary on COVID-19 Origins (2023)](https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf)
+- [NBER Bayesian Assessment of COVID-19 Origins (2024)](https://www.nber.org/system/files/working_papers/w33428/w33428.pdf)
+- [Cell: The Origins of SARS-CoV-2: A Critical Review (2021)](https://www.sciencedirect.com/science/article/pii/S0092867421009910)
 - [medRxiv: Quantifying Scientific Consensus on COVID-19 Origins (2025)](https://www.medrxiv.org/content/10.1101/2025.06.06.25328995v1.full)

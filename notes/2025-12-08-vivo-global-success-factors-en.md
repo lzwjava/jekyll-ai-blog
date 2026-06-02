@@ -12,7 +12,7 @@ type: note
 
 Question: Why is the Vivo company so successful?
 
-Answer: 
+Answer:
 
 Vivo, a Chinese multinational technology company founded in 2009 and headquartered in Dongguan, Guangdong, has risen to become one of the world's top smartphone manufacturers. As of Q3 2025, it holds a global market share of approximately 8-9%, ranking among the top five vendors with shipments of around 27-29 million units per quarter. Its success stems from a combination of strategic innovation, aggressive expansion, and user-focused design, allowing it to capture over 400 million users across more than 60 countries and regions.
 
@@ -30,10 +30,10 @@ Vivo, a Chinese multinational technology company founded in 2009 and headquarter
 
 Challenges like geopolitical tensions (e.g., India tax raids) and competition from Samsung/Apple persist, but Vivo's 7-9% year-over-year shipment growth in 2025 underscores its resilience. Looking ahead, AI features and 5G dominance in mid-range segments position it for continued expansion.
 
-References:  
-- [Vivo (technology company) - Wikipedia](https://en.wikipedia.org/wiki/Vivo_%28technology_company%29)  
-- [Vivo Statistics By Market Share, Revenue, Trends, Insights And Facts(2025)](https://electroiq.com/stats/vivo-statistics/)  
-- [Global Smartphone Market Share: Quarterly](https://counterpointresearch.com/en/insights/global-smartphone-share)  
-- [IDC - Smartphone Market Share](https://www.idc.com/prodserv/smartphone-os-market-share.jsp)  
-- [The 5 Best And 5 Worst Things About Vivo Smartphones - SlashGear](https://www.slashgear.com/757699/the-5-best-and-5-worst-things-about-vivo-smartphones/)  
+References:
+- [Vivo (technology company) - Wikipedia](https://en.wikipedia.org/wiki/Vivo_%28technology_company%29)
+- [Vivo Statistics By Market Share, Revenue, Trends, Insights And Facts(2025)](https://electroiq.com/stats/vivo-statistics/)
+- [Global Smartphone Market Share: Quarterly](https://counterpointresearch.com/en/insights/global-smartphone-share)
+- [IDC - Smartphone Market Share](https://www.idc.com/prodserv/smartphone-os-market-share.jsp)
+- [The 5 Best And 5 Worst Things About Vivo Smartphones - SlashGear](https://www.slashgear.com/757699/the-5-best-and-5-worst-things-about-vivo-smartphones/)
 - [vivo | LinkedIn](https://www.linkedin.com/company/vivo-smartphone)

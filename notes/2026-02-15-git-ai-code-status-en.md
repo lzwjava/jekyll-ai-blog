@@ -11,7 +11,7 @@ type: note
 
 Question: What is the usage and benefit of running "git status" when working with coding assistants like Claude or Codex, especially in the context of modified and untracked files?
 
-Answer: 
+Answer:
 
 Yes — using `git status` is one of the most effective and lightweight ways to quickly understand **what a coding assistant (Claude, Cursor, Windsurf, Aider, Codex, etc.) has actually changed** in your project.
 
@@ -89,6 +89,6 @@ Then decide:
 
 So yes — `git status` is probably **the most valuable 5-character command** when you frequently use AI assistants to write or modify code.
 
-References:  
+References:
 
 - None required for this git usage explanation.

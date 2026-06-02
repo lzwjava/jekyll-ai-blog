@@ -19,10 +19,10 @@ Personality traits like being bad-tempered, harsh, arrogant or having a "big ego
 
 What research does show instead:
 
-- **Chronic stress from poverty** → higher baseline irritability, lower frustration tolerance, more reactive anger  
+- **Chronic stress from poverty** → higher baseline irritability, lower frustration tolerance, more reactive anger
   (This is mostly a situational response to constant threats to survival, housing instability, humiliation experiences, etc. — not a fixed personality change.)
 
-- **Lower subjective social status** → some people develop **defensive** forms of pride / sensitivity to disrespect ("don't look down on me")  
+- **Lower subjective social status** → some people develop **defensive** forms of pride / sensitivity to disrespect ("don't look down on me")
   This can sometimes be perceived as arrogance or "big ego" by others, but it is usually a protective mechanism rather than genuine grandiosity.
 
 - **Upper-class / wealthy individuals** actually score higher on average on measures of narcissism, entitlement, and self-perceived superiority in multiple studies (2010–2024 literature, especially Piff, Kraus, Dubois & Rucker, Manstead, etc.).
@@ -37,11 +37,11 @@ Some well-replicated patterns:
 
 In short:
 
-- Poor people are **not** inherently more arrogant, ego-driven or harsh.  
-- They are often **more quick to anger / defensive** because of higher chronic stress and more frequent experiences of disrespect / threat.  
+- Poor people are **not** inherently more arrogant, ego-driven or harsh.
+- They are often **more quick to anger / defensive** because of higher chronic stress and more frequent experiences of disrespect / threat.
 - Wealthier people tend to show higher **entitlement** and **superiority feelings** in many studies.
 
-The combination of visible irritability + loud defensiveness from some poor individuals is easily noticed and remembered → creates the stereotype.  
+The combination of visible irritability + loud defensiveness from some poor individuals is easily noticed and remembered → creates the stereotype.
 But calmer, more entitled arrogance from higher-status people is often less visible or socially punished → less remembered as "bad character".
 
 So the premise in the question is mostly a perception bias, not a factual ranking of character across income groups.

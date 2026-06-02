@@ -17,7 +17,7 @@ type: note
 
 ---
 
-**视频标题：** 线性代数的本质：叉积  
+**视频标题：** 线性代数的本质：叉积
 **链接：** https://www.youtube.com/watch?v=eu6i7WJeinw
 
 ---

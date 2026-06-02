@@ -19,7 +19,7 @@ Clash 指原始项目 (Dreamacro/clash)，包括其 **Premium** 闭源变体，�
 
 ### 核心比较
 
-- **Original Clash** → 经典开源版本 + Premium 闭源版本  
+- **Original Clash** → 经典开源版本 + Premium 闭源版本
 - **Mihomo** → 来自 MetaCubeX 组织的 Fork，从 Clash Meta 重命名为 mihomo（主要是由于商标问题）
 
 Mihomo 现在是 Clash 生态系统中开发更活跃且面向未来的核心（截至 2026 年）。

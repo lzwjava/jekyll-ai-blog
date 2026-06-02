@@ -12,25 +12,25 @@ Below, I’ll provide a few simple conceptual examples of Reinforcement Learning
 
 ### Simple Examples of Reinforcement Learning
 
-1. **Child Learning to Walk**  
-   - **Agent**: The child.  
-   - **Environment**: The floor or room.  
-   - **Action**: Take a step, crawl, or stand still.  
-   - **Reward**: Moving forward (+1), falling (-1).  
+1. **Child Learning to Walk**
+   - **Agent**: The child.
+   - **Environment**: The floor or room.
+   - **Action**: Take a step, crawl, or stand still.
+   - **Reward**: Moving forward (+1), falling (-1).
    - **Learning**: The child learns through trial and error that taking balanced steps leads to progress.
 
-2. **Training a Robot Arm to Pick Up Objects**  
-   - **Agent**: The robot arm.  
-   - **Environment**: A table with objects.  
-   - **Action**: Move up, down, left, right, or grasp.  
-   - **Reward**: Successfully picking up an object (+10), dropping it (-5).  
+2. **Training a Robot Arm to Pick Up Objects**
+   - **Agent**: The robot arm.
+   - **Environment**: A table with objects.
+   - **Action**: Move up, down, left, right, or grasp.
+   - **Reward**: Successfully picking up an object (+10), dropping it (-5).
    - **Learning**: The arm adjusts its movements to maximize successful grabs.
 
-3. **Grid World Game**  
-   - **Agent**: A character in a grid.  
-   - **Environment**: A 3x3 grid with a goal and obstacles.  
-   - **Action**: Move up, down, left, or right.  
-   - **Reward**: Reaching the goal (+10), hitting a wall (-1).  
+3. **Grid World Game**
+   - **Agent**: A character in a grid.
+   - **Environment**: A 3x3 grid with a goal and obstacles.
+   - **Action**: Move up, down, left, or right.
+   - **Reward**: Reaching the goal (+10), hitting a wall (-1).
    - **Learning**: The character learns the shortest path to the goal.
 
 ---
@@ -79,26 +79,26 @@ def step(state, action):
 for episode in range(episodes):
     state = 0  # Start at position 0
     done = False
-    
+
     while not done:
         # Exploration vs Exploitation
         if random.uniform(0, 1) < exploration_rate:
             action = random.randint(0, action_space - 1)  # Explore
         else:
             action = np.argmax(q_table[state])  # Exploit
-        
+
         # Take action and observe result
         new_state, reward, done = step(state, action)
-        
+
         # Update Q-table using the Q-learning formula
         old_value = q_table[state, action]
         next_max = np.max(q_table[new_state])
         new_value = (1 - learning_rate) * old_value + learning_rate * (reward + discount_factor * next_max)
         q_table[state, action] = new_value
-        
+
         # Move to new state
         state = new_state
-    
+
     # Decay exploration rate
     exploration_rate = max(min_exploration_rate, exploration_rate * exploration_decay)
 
@@ -126,7 +126,7 @@ print(q_table)
 2. **Actions**: The agent can move left (0) or right (1).
 3. **Rewards**: +10 for reaching the goal, -1 for each step (to encourage efficiency).
 4. **Q-Table**: A table storing the expected future rewards for each state-action pair.
-5. **Q-Learning**: The agent updates the Q-table using the formula:  
+5. **Q-Learning**: The agent updates the Q-table using the formula:
    `Q(s, a) = (1 - α) * Q(s, a) + α * (reward + γ * max(Q(s', a')))`, where:
    - `α` = learning rate
    - `γ` = discount factor

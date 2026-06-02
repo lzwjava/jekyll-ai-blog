@@ -15,31 +15,31 @@ type: note
 
 Here are the most popular and actively maintained Python code formatters besides **Black** (as of 2025–2026):
 
-- **ruff format**  
+- **ruff format**
   Extremely fast (written in Rust), very popular in 2024–2026, 90–95% Black-compatible by default, becoming the new de facto standard in many projects.
 
-- **isort**  
+- **isort**
   Only sorts imports (not a full formatter), but still widely used together with Black or others.
 
-- **autopep8**  
+- **autopep8**
   Automatically formats code to conform (mostly) to PEP 8. Conservative, configurable, but slower and less opinionated than Black/ruff.
 
-- **yapf**  
+- **yapf**
   Google’s formatter. Highly configurable — you can make it behave very close to Black, PEP 8, or completely custom style.
 
-- **blue**  
+- **blue**
   Almost identical to Black, but with 79-character line length (instead of 88) to match older projects / flake8 defaults.
 
-- **blacken-docs**  
+- **blacken-docs**
   Formats code blocks inside documentation (Markdown, RST, etc.) using Black.
 
-- **docformatter**  
+- **docformatter**
   Formats docstrings (mostly PEP 257 / Google / NumPy style).
 
-- **pyink**  
+- **pyink**
   Meta’s fork of Black with a few extra defaults/tweaks (used internally at Meta).
 
-- **darker**  
+- **darker**
   Only formats the changed lines (useful in pre-commit + CI to avoid big reformatting commits).
 
 **Quick comparison (2025–2026 popularity & philosophy):**
@@ -59,7 +59,7 @@ Here are the most popular and actively maintained Python code formatters besides
 3. **Black + isort** (or **ruff format + ruff check --select I**)
 4. **yapf** — mostly in companies with custom style guides
 
-**Bottom line in 2026:**  
+**Bottom line in 2026:**
 If you're starting a new project → **ruff format** is currently the strongest default choice for most teams.
 
 **References:**

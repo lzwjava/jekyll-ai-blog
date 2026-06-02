@@ -12,7 +12,7 @@ type: note
 
 Question: What does "disguise" mean in English?
 
-Answer: 
+Answer:
 
 **Disguise** can function as both a **noun** and a **verb**.
 

@@ -56,8 +56,8 @@ Spring Boot 通过基于 Spring 框架但减少样板代码的方式简化了 Ja
 ## 总结
 从 JSP 到 Spring Boot 的转变反映了向更简洁、更高效率工具演进的大趋势。若需维护遗留 JSP 代码，建议逐步迁移（例如转向 Thymeleaf）。新项目应直接采用 Spring Boot——这已是 2025 年的行业标准。了解 JSP 基础仍有助理解 Web 开发原理，但已非必要前提。
 
-[JSP 和 Servlet 是否仍有价值？(Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)  
-[学习 Spring 前是否需要掌握 JSP 和 Servlet？(Medium)](https://medium.com/@abhishekmalagi2002/before-spring-learn-jsp-servlets-24fc5596cbc4)  
-[JSP 是否已被替代？若是，如何替代？(Stack Overflow)](https://stackoverflow.com/questions/41309564/is-jsp-superseeded-and-if-so-how)  
-[Spring MVC 视图层：Thymeleaf 与 JSP 对比 (Thymeleaf.org)](https://www.thymeleaf.org/doc/articles/thvsjsp.html)  
+[JSP 和 Servlet 是否仍有价值？(Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)
+[学习 Spring 前是否需要掌握 JSP 和 Servlet？(Medium)](https://medium.com/@abhishekmalagi2002/before-spring-learn-jsp-servlets-24fc5596cbc4)
+[JSP 是否已被替代？若是，如何替代？(Stack Overflow)](https://stackoverflow.com/questions/41309564/is-jsp-superseeded-and-if-so-how)
+[Spring MVC 视图层：Thymeleaf 与 JSP 对比 (Thymeleaf.org)](https://www.thymeleaf.org/doc/articles/thvsjsp.html)
 [Spring 与 Spring Boot 对比分析 (Baeldung)](https://www.baeldung.com/spring-vs-spring-boot)

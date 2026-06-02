@@ -41,13 +41,13 @@ dmesg | grep -i nvidia
 Share outputs if needed for more tailored advice.
 
 ### Step 2: Quick Fixes (Try These First)
-1. **Reboot**: Simple but effective after kernel/driver changes.  
+1. **Reboot**: Simple but effective after kernel/driver changes.
    ```
    sudo reboot
    ```
    Then: `nvidia-smi`.
 
-2. **Reload Modules** (if partially loaded):  
+2. **Reload Modules** (if partially loaded):
    ```
    sudo modprobe nvidia
    nvidia-smi  # Test
@@ -59,18 +59,18 @@ Share outputs if needed for more tailored advice.
 ### Step 3: Disable Nouveau (If Conflicting)
 Nouveau (default open-source driver) often blocks NVIDIA's proprietary one. Blacklist it permanently:
 
-1. Create blacklist file:  
+1. Create blacklist file:
    ```
    echo 'blacklist nouveau' | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
    echo 'options nouveau modeset=0' | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf
    ```
 
-2. Update initramfs:  
+2. Update initramfs:
    ```
    sudo update-initramfs -u
    ```
 
-3. Reboot:  
+3. Reboot:
    ```
    sudo reboot
    ```
@@ -79,22 +79,22 @@ Nouveau (default open-source driver) often blocks NVIDIA's proprietary one. Blac
 As of October 2025, the latest stable Linux driver is version 580.95 (recommended for most GPUs; check [NVIDIA's site](https://www.nvidia.com/Download/index.aspx) for your model). Use Ubuntu's tools for easy DKMS integration (auto-rebuilds on kernel updates).
 
 #### For Ubuntu 22.04+ / Debian:
-1. **Add Graphics Drivers PPA** (for latest versions):  
+1. **Add Graphics Drivers PPA** (for latest versions):
    ```
    sudo add-apt-repository ppa:graphics-drivers/ppa
    sudo apt update
    ```
 
-2. **Auto-Detect and Install**:  
+2. **Auto-Detect and Install**:
    ```
    sudo ubuntu-drivers autoinstall  # Installs recommended (likely 580.x)
    ```
    Or specify: `sudo apt install nvidia-driver-580` (includes DKMS for stability).
 
-3. **If Secure Boot is Enabled** (check in BIOS):  
+3. **If Secure Boot is Enabled** (check in BIOS):
    - Disable it temporarily (easier), or enroll NVIDIA's MOK key during install (it'll prompt on reboot).
 
-4. **Reboot and Verify**:  
+4. **Reboot and Verify**:
    ```
    sudo reboot
    nvidia-smi  # Should show GPU table

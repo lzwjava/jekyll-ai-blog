@@ -12,8 +12,8 @@ type: note
 
 The three most commonly accepted **core principles** of visual design for web pages (and visual/UI design in general) are indeed boil down to:
 
-1. **Color**  
-2. **Layout** (also called composition or hierarchy)  
+1. **Color**
+2. **Layout** (also called composition or hierarchy)
 3. **Typography**
 
 These are widely taught as the foundational triad in web and UI/UX design education and are referenced in most major design systems (Google Material Design, Apple Human Interface Guidelines, Nielsen Norman Group articles, etc.).
@@ -29,10 +29,10 @@ These are widely taught as the foundational triad in web and UI/UX design educat
 ### Sometimes you’ll see slightly expanded lists
 Many designers and sources add 3–4 more principles, but they are usually considered supporting or derived from the core three:
 
-- Contrast (often treated as part of color + typography)  
-- Alignment & Proximity (part of layout/grid)  
-- Repetition & Consistency (brand application of the three above)  
-- White space (negative space – part of layout)  
+- Contrast (often treated as part of color + typography)
+- Alignment & Proximity (part of layout/grid)
+- Repetition & Consistency (brand application of the three above)
+- White space (negative space – part of layout)
 - Imagery/Iconography (sometimes listed separately)
 
 But when people ask for the “three fundamental” or “big three” principles of visual web design, the almost universal answer is:

@@ -32,8 +32,8 @@ Huang authored several seminal books on Chinese history, focusing on the Ming an
 
 Huang also contributed numerous essays and lectures, many compiled in anthologies like *Conversations with Ray Huang* (2001, posthumous). His influence extends to inspiring younger historians to view China through institutional lenses rather than dynastic cycles.
 
-For further reading:  
-[1587, A Year of No Significance](https://www.goodreads.com/book/show/335093.1587_A_Year_of_No_Significance)  
-[China: A Macro History](https://yalebooks.yale.edu/book/9780300077485/china/)  
-[Ray Huang's Wikipedia entry](https://en.wikipedia.org/wiki/Ray_Huang)  
+For further reading:
+[1587, A Year of No Significance](https://www.goodreads.com/book/show/335093.1587_A_Year_of_No_Significance)
+[China: A Macro History](https://yalebooks.yale.edu/book/9780300077485/china/)
+[Ray Huang's Wikipedia entry](https://en.wikipedia.org/wiki/Ray_Huang)
 [Obituary in The New York Times](https://www.nytimes.com/2000/01/15/nyregion/ray-huang-81-dies-author-and-historian-of-china.html)

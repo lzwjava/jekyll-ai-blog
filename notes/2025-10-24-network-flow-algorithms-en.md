@@ -47,7 +47,7 @@ ASCII visualization:
 A   B
 | \ / |
 8  2  9
- \ /  
+ \ /
   t
 ```
 
@@ -113,6 +113,6 @@ For min-cut: After max-flow, the cut is nodes reachable from s in final residual
 - Practice on LeetCode/HackerRank (e.g., "Minimum Cost to Make at Least One Valid Path").
 - Visualize: Draw residuals after each augmentation.
 
-[Introduction to Network Flows](https://www.geeksforgeeks.org/maximum-bipartite-matching/)  
-[Max Flow Min Cut Theorem](https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem)  
+[Introduction to Network Flows](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
+[Max Flow Min Cut Theorem](https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem)
 [NetworkX Tutorial](https://networkx.org/documentation/stable/tutorial.html)

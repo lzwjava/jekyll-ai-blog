@@ -24,13 +24,13 @@ It measures only the **application payload data** that is:
 
 ### Goodput vs. related terms
 
-- **Throughput**  
+- **Throughput**
   → Total number of bits successfully transmitted over the link per second (includes protocol headers, retransmissions, etc.)
 
-- **Goodput**  
+- **Goodput**
   → Only the **useful application data** that the receiver actually uses (excludes headers, control packets, retransmitted data, duplicate packets, etc.)
 
-- **Bandwidth**  
+- **Bandwidth**
   → Theoretical maximum capacity of the link
 
 ### Typical relationship (in decreasing order)
@@ -49,7 +49,7 @@ Bandwidth ≥ Throughput ≥ Goodput
 
 ### Summary – most common way people remember it
 
-**Goodput = Throughput – useless traffic**  
+**Goodput = Throughput – useless traffic**
 (useless = protocol headers + retransmissions + control packets + duplicates + padding + FEC overhead that didn't help)
 
 In performance-sensitive applications (file transfer, video streaming, gaming, real-time protocols), engineers care much more about **goodput** than raw throughput.

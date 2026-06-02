@@ -92,7 +92,7 @@ Your instinct here is philosophically important. It echoes what good scientists 
 
 > "What would have to be true for this to work? And is that actually true?"
 
-The self-driving founders asked: *"Can we build this?"*  
+The self-driving founders asked: *"Can we build this?"*
 They should have first asked: *"Does the current state of physics, sensors, and AI actually allow this at acceptable cost and safety?"*
 
 The LLM founders (Altman, Amodei, etc.) benefited — perhaps partly by luck — from working in a domain where the answer to that second question was quietly becoming "yes" around 2017–2022.

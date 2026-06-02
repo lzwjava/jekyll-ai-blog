@@ -16,34 +16,34 @@ type: note
 
 Spring 容器通过一个定义良好的 **lifecycle** 来管理 Bean。以下是按发生顺序排列的所有主要阶段（最完整版本，包括 aware callbacks 和所有常见扩展点）：
 
-1. **Instantiation**  
+1. **Instantiation**
    Spring 创建 Bean 实例（调用构造函数）。
 
-2. **Populate properties**  
+2. **Populate properties**
    进行 Dependency injection —— `@Autowired`、构造函数参数、setter 注入、`@Value` 等。
 
-3. **Aware interface callbacks**（按此顺序）：  
-   - `BeanNameAware.setBeanName()`  
-   - `BeanClassLoaderAware.setBeanClassLoader()`（很少使用）  
+3. **Aware interface callbacks**（按此顺序）：
+   - `BeanNameAware.setBeanName()`
+   - `BeanClassLoaderAware.setBeanClassLoader()`（很少使用）
    - `BeanFactoryAware.setBeanFactory()`（或对于 ApplicationContext 为 `ApplicationContextAware.setApplicationContext()`）
 
-4. **BeanPostProcessor.postProcessBeforeInitialization()**  
+4. **BeanPostProcessor.postProcessBeforeInitialization()**
    第一个扩展点 —— 为 *每一个* Bean 运行（自定义器、AOP proxies、`@Required` 检查等）。
 
-5. **Initialization callbacks**（其一）：  
-   - `@PostConstruct` 注解的方法  
-   - `InitializingBean.afterPropertiesSet()`  
+5. **Initialization callbacks**（其一）：
+   - `@PostConstruct` 注解的方法
+   - `InitializingBean.afterPropertiesSet()`
    - 在 XML 或 `@Bean(initMethod = "...")` 中定义的自定义 `init-method`
 
-6. **BeanPostProcessor.postProcessAfterInitialization()**  
+6. **BeanPostProcessor.postProcessAfterInitialization()**
    第二个扩展点 —— Spring 非常常用（AOP proxy 包装、caching decorators 等）。
 
-7. **Bean is ready**  
+7. **Bean is ready**
    Bean 已完全初始化并放入容器中 —— 现在可以被应用程序使用了。
 
-8. **Container shutdown / bean destruction phase**（当 context 关闭时）：  
-   - `@PreDestroy` 注解的方法  
-   - `DisposableBean.destroy()`  
+8. **Container shutdown / bean destruction phase**（当 context 关闭时）：
+   - `@PreDestroy` 注解的方法
+   - `DisposableBean.destroy()`
    - 在 XML 或 `@Bean(destroyMethod = "...")` 中定义的自定义 `destroy-method`
 
 ### Summary Table – Spring Bean Lifecycle (现代 Spring 中最常见的顺序)

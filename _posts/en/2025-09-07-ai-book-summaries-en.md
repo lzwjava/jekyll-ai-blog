@@ -36,8 +36,8 @@ Overall, it's a *good* idea if your goal is exposure and inspiration rather than
 
 This method can transform your work room from a dusty library into a personalized knowledge hub. If you share a specific book excerpt or title, I can demo a summary right now!
 
-[Benefits Of AI-Enhanced Book Summaries](https://simpleacademy.ai/blog/benefits-of-ai-enhanced-book-summaries/)  
-[AI is making reading books feel obsolete – and students have a lot to lose](https://theconversation.com/ai-is-making-reading-books-feel-obsolete-and-students-have-a-lot-to-lose-262680)  
-[AI-Generated Summaries Are a Problem--for Authors and Society as a Whole](https://nataliewexler.substack.com/p/ai-generated-summaries-are-a-problem)  
-[How to Summarize Books Using ChatGPT: 7 Experiments in AI Book Summarization](https://fortelabs.com/blog/how-to-summarize-books-using-chatgpt/)  
+[Benefits Of AI-Enhanced Book Summaries](https://simpleacademy.ai/blog/benefits-of-ai-enhanced-book-summaries/)
+[AI is making reading books feel obsolete – and students have a lot to lose](https://theconversation.com/ai-is-making-reading-books-feel-obsolete-and-students-have-a-lot-to-lose-262680)
+[AI-Generated Summaries Are a Problem--for Authors and Society as a Whole](https://nataliewexler.substack.com/p/ai-generated-summaries-are-a-problem)
+[How to Summarize Books Using ChatGPT: 7 Experiments in AI Book Summarization](https://fortelabs.com/blog/how-to-summarize-books-using-chatgpt/)
 [How AI Book Summarizers are Revolutionizing Reading](https://blog.plutoai.in/how-ai-book-summarizers-are-revolutionizing-reading/)

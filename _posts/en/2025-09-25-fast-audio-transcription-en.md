@@ -62,22 +62,22 @@ CHUNK_DURATION_SECS = 600  # 10 minutes per chunk; adjust as needed (e.g., 900 f
 def split_audio_file(input_file, chunk_duration_secs=CHUNK_DURATION_SECS):
     """
     Split audio file into smaller chunks using FFmpeg.
-    
+
     Args:
         input_file: Path to input audio.
         chunk_duration_secs: Duration of each chunk in seconds.
-    
+
     Returns:
         List of chunk file paths.
     """
     filename = os.path.basename(input_file)
     name_without_ext = os.path.splitext(filename)[0]
     dir_name = os.path.dirname(input_file)
-    
+
     # Create temp dir for chunks
     temp_dir = tempfile.mkdtemp()
     chunk_files = []
-    
+
     # FFmpeg command (no re-encoding for speed)
     cmd = [
         "ffmpeg", "-i", input_file,
@@ -88,7 +88,7 @@ def split_audio_file(input_file, chunk_duration_secs=CHUNK_DURATION_SECS):
         f"{temp_dir}/{name_without_ext}_chunk_%03d.{os.path.splitext(filename)[1][1:]}",  # Output pattern
         "-y"  # Overwrite
     ]
-    
+
     try:
         subprocess.run(cmd, check=True, capture_output=True)
         # Find generated chunks
@@ -157,10 +157,10 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
 
     print(f"Starting batch recognize for {filename}...")
     operation = client.batch_recognize(request=request)
-    
+
     # Poll for progress (see below for details)
     poll_operation_with_progress(operation, filename)
-    
+
     response = operation.result(timeout=3 * CHUNK_DURATION_SECS)  # Shorter timeout per chunk
     print(f"Completed transcription for {filename}. Response: {response}")
     return response
@@ -178,7 +178,7 @@ def poll_operation_with_progress(operation, filename):
                   f"Processed={getattr(metadata, 'progress_bytes', 'N/A')} bytes")
         except Exception:
             print(f"Waiting for {filename}... (checking every 30s)")
-        
+
         time.sleep(30)  # Poll every 30 seconds
     if operation.exception():
         raise operation.exception()
@@ -225,7 +225,7 @@ def process_audio_file(input_file, output_dir):
         chunk_filename = os.path.basename(chunk_file)
         base_name = os.path.splitext(filename)[0]
         chunk_name = f"{base_name}_chunk_{chunk_idx+1:03d}"
-        
+
         # Construct GCS paths
         gcs_audio_uri = f"gs://test2x/audio-files/{chunk_filename}"
         gcs_output_uri = f"gs://test2x/transcripts/{chunk_name}"

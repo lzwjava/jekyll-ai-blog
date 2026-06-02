@@ -12,7 +12,7 @@ type: note
 
 Question: 但令人遗憾的是，这台笔记本电脑只有一个 Ethernet 端口，且没有 WiFi。这对将其转变为 OpenWrt 软路由有什么影响，有哪些解决方案？
 
-Answer: 
+Answer:
 
 是的，这是许多旧笔记本电脑常见的局限性 —— 只有一个内置 Ethernet 端口（在 OpenWrt 中通常为 eth0）且没有可用的 WiFi 网卡（或者不受 OpenWrt 支持）。这使得仅靠硬件实现独立的 **WAN**（互联网输入）和 **LAN**（家庭网络输出）连接变得有些棘手。
 
@@ -75,7 +75,7 @@ Answer:
 
 在中国和其他地区，许多人正是使用这种配置（旧笔记本 + USB 网卡）作为家庭路由/代理的日常主力设备。
 
-References:  
+References:
 
 - [OpenWrt Wiki - Single-Port Devices / VLAN setup](https://openwrt.org/docs/guide-user/network/singleportrouter)
 - [OpenWrt Forum - USB Ethernet adapter drivers discussion](https://forum.openwrt.org/t/usb-2-0-to-ethernet-adapter-driver-for-openwrt/185891)

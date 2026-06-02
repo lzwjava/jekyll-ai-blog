@@ -12,7 +12,7 @@ type: note
 
 Question: Are being an entrepreneur or a CEO very tough jobs?
 
-Answer: 
+Answer:
 
 Yes, both being an entrepreneur and a CEO are widely regarded as very tough and demanding jobs, often involving high levels of stress, long hours, isolation, and significant personal risk.
 
@@ -39,7 +39,7 @@ Startup founders often serve as CEOs, blending both roles' difficulties. Establi
 
 In summary, these are among the most challenging careers, demanding resilience, but highly rewarding for those suited to them.
 
-References:  
+References:
 
 - [The Hard Truth About Being a CEO | Harvard Business School](https://www.library.hbs.edu/working-knowledge/the-hard-truth-about-being-a-ceo)
 - [The impossible job of being CEO | CNN Business](https://www.cnn.com/2019/11/07/success/ceos-impossible-job/index.html)

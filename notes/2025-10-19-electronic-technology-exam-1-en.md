@@ -33,39 +33,39 @@ Here are some key resources for past papers and exam questions:
 Below are some typical questions based on the exam pattern and textbook content. These cover core topics like analog/digital circuits, semiconductor devices, and practical applications.
 
 #### **1. Multiple-Choice Questions**
-1. **What is the relationship between RMS voltage and maximum voltage for a sine wave?**  
-   A. \\( V_{\text{RMS}} = V_{\text{max}} \\)  
-   B. \\( V_{\text{RMS}} = 0.707 \times V_{\text{max}} \\)  
-   C. \\( V_{\text{RMS}} = 1.414 \times V_{\text{max}} \\)  
-   D. \\( V_{\text{RMS}} = 0.5 \times V_{\text{max}} \\)  
+1. **What is the relationship between RMS voltage and maximum voltage for a sine wave?**
+   A. \\( V_{\text{RMS}} = V_{\text{max}} \\)
+   B. \\( V_{\text{RMS}} = 0.707 \times V_{\text{max}} \\)
+   C. \\( V_{\text{RMS}} = 1.414 \times V_{\text{max}} \\)
+   D. \\( V_{\text{RMS}} = 0.5 \times V_{\text{max}} \\)
    **Answer**: B 【turn0search14】
 
-2. **In a series DC circuit with a 3Ω and 5Ω resistor carrying 10A, what is the total voltage?**  
-   A. 10V  
-   B. 50V  
-   C. 80V  
-   D. 100V  
+2. **In a series DC circuit with a 3Ω and 5Ω resistor carrying 10A, what is the total voltage?**
+   A. 10V
+   B. 50V
+   C. 80V
+   D. 100V
    **Answer**: C (Calculation: \\( V = I \times R = 10A \times (3Ω + 5Ω) = 80V \\)) 【turn0search16】
 
 #### **2. Calculation and Analysis**
-1. **Amplifier Circuit**:  
+1. **Amplifier Circuit**:
    Given a BJT amplifier with \\( \beta = 100 \\), \\( R_C = 2.2kΩ \\), and \\( V_{CC} = 12V \\), calculate the collector current \\( I_C \\) and voltage gain \\( A_V \\) if the input resistance \\( R_{in} = 1kΩ \\).
 
-2. **Op-Amp Application**:  
+2. **Op-Amp Application**:
    Design an inverting amplifier with a gain of -10 using an ideal op-amp. Choose \\( R_{in} = 1kΩ \\) and determine \\( R_f \\).
 
 #### **3. Conceptual Questions**
-1. **Semiconductor Devices**:  
+1. **Semiconductor Devices**:
    Explain the difference between enhancement-mode and depletion-mode MOSFETs.
 
-2. **Digital Circuits**:  
+2. **Digital Circuits**:
    Describe the advantages of CMOS logic over TTL logic in terms of power consumption and noise immunity.
 
 #### **4. Practical Problem-Solving**
-1. **Oscillator Circuit**:  
+1. **Oscillator Circuit**:
    Draw a Colpitts oscillator circuit and explain how the feedback network generates sustained oscillations.
 
-2. **Power Supply**:  
+2. **Power Supply**:
    Design a simple 5V regulated power supply using a 7805 IC. Include the required components and calculate the minimum input voltage.
 
 ---
@@ -80,9 +80,9 @@ Based on the textbook and past exams, focus on these areas:
 ---
 
 ### 📖 **IV. Textbook Reference**
-- **Book**: *Fundamentals of Electronic Technology (III)*  
-- **Editor**: Wen Xidong (温希东)  
-- **Publisher**: Economic Science Press (经济科学出版社)  
+- **Book**: *Fundamentals of Electronic Technology (III)*
+- **Editor**: Wen Xidong (温希东)
+- **Publisher**: Economic Science Press (经济科学出版社)
 - **Edition**: 2006 【turn0search9】【turn0search12】
 
 ---

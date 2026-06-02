@@ -26,6 +26,6 @@ This wasn't just botany; it was Chu's soul laid bare. Prison had stripped him ba
 
 Zhou Hua's biography weaves this into Chu's arc as a redemption hymn—wartime scrap-picker to jailbird to orchard sage—emphasizing how a female journalist's (Zhou's) on-site immersions captured these unglamorous epiphanies amid Yunnan's mists. It's a reminder: greatness blooms in the spaces we dare to carve.
 
-[褚时健：无论做什么都要有敬畏心](https://www.jiemian.com/article/2177263.html)  
-[Biography of Chu Shijian by Zhou Hua](https://www.amazon.com/Biography-Chu-Shijian-Chinese-Zhou/dp/7508656350)  
+[褚时健：无论做什么都要有敬畏心](https://www.jiemian.com/article/2177263.html)
+[Biography of Chu Shijian by Zhou Hua](https://www.amazon.com/Biography-Chu-Shijian-Chinese-Zhou/dp/7508656350)
 [Chu Shijian: The Legendary Life](https://www.yunnanexploration.com/chu-shijian-the-legendary-life-of-chinas-cigarette-king.html)

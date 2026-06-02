@@ -12,7 +12,7 @@ type: note
 
 Question: Does the TP-Link AX3000 (Archer AX3000 series, such as AX55/AX3000 Wi-Fi 6 routers) support functioning as a wireless repeater (Repeater) or wireless bridging (WDS) to extend signals?
 
-Answer: 
+Answer:
 
 The TP-Link AX3000 series routers, including models like the Archer AX55 and similar AX3000 Wi-Fi 6 devices, **do not support traditional wireless repeater (Repeater) or WDS bridging modes** for extending Wi-Fi signals wirelessly.
 
@@ -54,7 +54,7 @@ To use the AX3000 for signal extension, a dedicated range extender (e.g., TP-Lin
 
 For a more precise recommendation, provide the exact model (e.g., Archer AX55 V1/V2) and the main router you want to extend (brand/model).
 
-References:  
+References:
 - [TP-Link Community: AX3000/AX55 no WDS option](https://community.tp-link.com/us/home/forum/topic/244588)
 - [TP-Link Community: Archer AX55 does not support WDS](https://community.tp-link.com/en/home/forum/topic/623082)
 - [TP-Link OneMesh Compatible Devices List](https://www.tp-link.com/onemesh/product-list)

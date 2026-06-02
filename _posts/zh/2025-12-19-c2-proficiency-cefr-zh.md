@@ -31,7 +31,7 @@ C2 并非严格意义上的“母语”水平（因为母语使用者在教育�
 
 参考资料：
 
-- [EF SET: English C2 Level](https://www.efset.org/cefr/c2/)  
-- [EF SET: English Score Ranges](https://www.efset.org/english-score/)  
-- [Council of Europe: CEFR Level Descriptions](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions)  
+- [EF SET: English C2 Level](https://www.efset.org/cefr/c2/)
+- [EF SET: English Score Ranges](https://www.efset.org/english-score/)
+- [Council of Europe: CEFR Level Descriptions](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions)
 - [British Council: C2 Proficiency](https://learnenglish.britishcouncil.org/english-levels/understand-your-english-level/c2-proficiency)

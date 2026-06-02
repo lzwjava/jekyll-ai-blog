@@ -26,7 +26,7 @@ China's total GDP in 2024 was approximately 134.9 trillion yuan (about $18.6 tri
 
 This structure reflects China's ongoing shift toward high-tech manufacturing and services, but secondary sectors continue to anchor economic stability and employment (over 200 million jobs in manufacturing alone). Challenges like U.S. tariffs and domestic property slumps could pressure these areas in 2025.
 
-**References:**  
-[Statistical Communiqué on 2024 National Economic and Social Development](https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html)  
-[Visualizing China’s $18.6 Trillion Economy by Sector in 2024](https://www.visualcapitalist.com/visualizing-chinas-18-6-trillion-economy-by-sector-in-2024/)  
+**References:**
+[Statistical Communiqué on 2024 National Economic and Social Development](https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html)
+[Visualizing China’s $18.6 Trillion Economy by Sector in 2024](https://www.visualcapitalist.com/visualizing-chinas-18-6-trillion-economy-by-sector-in-2024/)
 [China Manufacturing Industry Tracker - Key Data for 2025](https://www.china-briefing.com/news/china-manufacturing-industry-tracker-2024-25/)

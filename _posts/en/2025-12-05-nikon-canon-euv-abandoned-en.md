@@ -12,7 +12,7 @@ type: note
 
 Question: Nikon and Canon dominated deep ultraviolet (DUV) lithography but abandoned extreme ultraviolet (EUV) development after spending billions due to unachievable yields—how accurate is this story?
 
-Answer: 
+Answer:
 
 The story is largely accurate, with some nuances around the exact reasons for abandonment and the scale of costs. Nikon and Canon were indeed dominant in DUV lithography during the 1990s and early 2000s, holding significant market share for tools using wavelengths like 193nm ArF (argon fluoride) and earlier KrF systems. However, they both exited EUV development—Nikon more definitively and Canon earlier—due to insurmountable technical hurdles, including low yields, unreliable light sources, and escalating R&D expenses that reached billions collectively across the industry. This paved the way for ASML to monopolize EUV, now essential for sub-7nm chip production.
 

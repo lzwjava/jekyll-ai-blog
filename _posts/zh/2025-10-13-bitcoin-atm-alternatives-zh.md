@@ -24,7 +24,7 @@ type: note
 
 若需点对点替代方案（非ATM），Paxful或LocalCoinSwap等平台支持银行转账/线下现金交易，手续费更低（1-5%），但匿名性较差。
 
-[CoinATM雷达香港站](https://coinatmradar.com/city/74/bitcoin-atm-hong-kong/)  
-[CoinHero ATM概览](https://www.coinhero.hk/en)  
-[HK Bitcoin ATM](http://hkbitcoinatm.com/)  
+[CoinATM雷达香港站](https://coinatmradar.com/city/74/bitcoin-atm-hong-kong/)
+[CoinHero ATM概览](https://www.coinhero.hk/en)
+[HK Bitcoin ATM](http://hkbitcoinatm.com/)
 [Nitroswap网点查询](https://nitroswap.com/location-2/index.html)

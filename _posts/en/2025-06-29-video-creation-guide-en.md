@@ -69,7 +69,7 @@ def generate_audio(paragraphs, output_dir="audio"):
     client = texttospeech.TextToSpeechClient()
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
+
     audio_files = []
     for i, paragraph in enumerate(paragraphs):
         synthesis_input = texttospeech.SynthesisInput(text=paragraph)
@@ -115,7 +115,7 @@ def create_video(paragraphs, audio_files, output_file="educational_video.mp4"):
         # Add audio to video clip
         video_clip = video_clip.set_audio(audio_clip)
         clips.append(video_clip)
-    
+
     # Concatinate all clips
     final_clip = concatenate_videoclips(clips)
     # Write final video
@@ -130,15 +130,15 @@ def main():
     input_script = """
     Machine learning is a field of artificial intelligence that allows computers to learn from data without being explicitly programmed. It involves algorithms that identify patterns and make predictions. Applications include image recognition, natural language processing, and more. This technology is transforming industries like healthcare and finance.
     """
-    
+
     # Step 1: Refine script with DeepSeek
     refined_paragraphs = refine_script_with_deepseek(input_script)
     print("Refined Script:", refined_paragraphs)
-    
+
     # Step 2: Generate audio for each paragraph
     audio_files = generate_audio(refined_paragraphs)
     print("Audio files generated:", audio_files)
-    
+
     # Step 3: Create video with captions and black background
     create_video(refined_paragraphs, audio_files)
     print("Video created: educational_video.mp4")
@@ -174,8 +174,8 @@ if __name__ == "__main__":
 ### Example Output
 If your input script is about machine learning, the refined script might look like:
 ```
-["Machine learning, a branch of AI, enables computers to learn from data.", 
- "It uses algorithms to find patterns and predict outcomes.", 
+["Machine learning, a branch of AI, enables computers to learn from data.",
+ "It uses algorithms to find patterns and predict outcomes.",
  "Applications include image recognition and healthcare innovations."]
 ```
 - Each paragraph generates an audio file (e.g., `paragraph_1.mp3`, `paragraph_2.mp3`, etc.).

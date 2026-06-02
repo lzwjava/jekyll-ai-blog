@@ -14,7 +14,7 @@ I'd be happy to introduce "Mo Yu Er" (摸鱼儿), a famous Chinese *ci* poem (ly
 
 **"Mo Yu Er"** is a *ci* form that belongs to the *Man Ting Fang* style of classical Chinese poetry. The most celebrated version was written by **Xin Qiji** (辛弃疾, 1140-1207), one of the greatest poets of the Southern Song Dynasty.
 
-The poem is known for its passionate yet melancholic tone. Xin Qiji wrote it during a period of political frustration when he was sidelined from military service despite his burning desire to help recover northern territories lost to the Jin Dynasty. 
+The poem is known for its passionate yet melancholic tone. Xin Qiji wrote it during a period of political frustration when he was sidelined from military service despite his burning desire to help recover northern territories lost to the Jin Dynasty.
 
 The opening lines are particularly famous:
 

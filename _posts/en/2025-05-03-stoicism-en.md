@@ -8,7 +8,7 @@ translated: false
 type: note
 ---
 
-Stoicism is an ancient Greek and Roman philosophy founded in Athens by Zeno of Citium in the early 3rd century BCE. It teaches that the path to a virtuous and fulfilling life is based on practicing self-control, reason, and emotional resilience. 
+Stoicism is an ancient Greek and Roman philosophy founded in Athens by Zeno of Citium in the early 3rd century BCE. It teaches that the path to a virtuous and fulfilling life is based on practicing self-control, reason, and emotional resilience.
 
 Core principles include:
 - **Virtue is the only good**: Wisdom, courage, justice, and temperance are the highest values; external things like wealth or status are indifferent.

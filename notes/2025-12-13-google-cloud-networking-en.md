@@ -12,7 +12,7 @@ type: note
 
 Question: What typical networking services does Google Cloud provide, such as subnets, VNet equivalents, NAT, etc.?
 
-Answer: 
+Answer:
 
 Google Cloud's primary networking service is **Virtual Private Cloud (VPC)**, which is the equivalent of AWS VPC or Azure VNet. A VPC network is a global, scalable virtual network that provides connectivity for Compute Engine VM instances, Google Kubernetes Engine (GKE) clusters, and other resources.
 
@@ -31,9 +31,9 @@ Google Cloud's primary networking service is **Virtual Private Cloud (VPC)**, wh
 
 These services enable isolated, secure, and scalable networking similar to other clouds but with Google's global backbone advantages.
 
-References:  
+References:
 
-- [VPC networks | Google Cloud Documentation](https://cloud.google.com/vpc/docs/vpc)  
-- [Subnets | Google Cloud Documentation](https://cloud.google.com/vpc/docs/subnets)  
-- [Cloud NAT overview | Google Cloud Documentation](https://cloud.google.com/nat/docs/overview)  
+- [VPC networks | Google Cloud Documentation](https://cloud.google.com/vpc/docs/vpc)
+- [Subnets | Google Cloud Documentation](https://cloud.google.com/vpc/docs/subnets)
+- [Cloud NAT overview | Google Cloud Documentation](https://cloud.google.com/nat/docs/overview)
 - [Virtual Private Cloud (VPC) | Google Cloud](https://cloud.google.com/vpc)

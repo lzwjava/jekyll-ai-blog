@@ -63,6 +63,6 @@ UFW 日志仍然是无关的干扰信息。
 
 如果问题仍未解决，请运行 `ls -l /usr/bin/python*` 和 `dpkg -l | grep python3 | grep -E 'gi|default'` 并分享输出结果。
 
-[尝试安装新版 Python 3 后 gnome-terminal 无法启动](https://askubuntu.com/questions/880188/gnome-terminal-will-not-start-after-trying-to-install-newer-version-of-python-3)  
-[ImportError: cannot import name '_gi' from partially initialized module 'gi'](https://stackoverflow.com/questions/59838238/importerror-cannot-import-name-gi-from-partially-initialized-module-gi-mo)  
+[尝试安装新版 Python 3 后 gnome-terminal 无法启动](https://askubuntu.com/questions/880188/gnome-terminal-will-not-start-after-trying-to-install-newer-version-of-python-3)
+[ImportError: cannot import name '_gi' from partially initialized module 'gi'](https://stackoverflow.com/questions/59838238/importerror-cannot-import-name-gi-from-partially-initialized-module-gi-mo)
 [为什么终端无法打开？](https://www.reddit.com/r/Ubuntu/comments/1f9qh0a/why_wont_terminal_open/)

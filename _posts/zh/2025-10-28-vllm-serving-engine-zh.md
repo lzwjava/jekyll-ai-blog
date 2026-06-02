@@ -38,7 +38,7 @@ vLLM于2024年开始获得显著关注，从小众研究工具演进为开源LLM
 
 目前（2025年10月），项目已获得超5.5万星标，支持近100种模型架构，成为可扩展AI部署的基石技术。
 
-[PagedAttention arXiv论文](https://arxiv.org/abs/2309.06180)  
-[vLLM GitHub代码库](https://github.com/vllm-project/vllm)  
-[vLLM 2024回顾博客](https://blog.vllm.ai/2025/01/10/vllm-2024-wrapped-2025-vision.html)  
+[PagedAttention arXiv论文](https://arxiv.org/abs/2309.06180)
+[vLLM GitHub代码库](https://github.com/vllm-project/vllm)
+[vLLM 2024回顾博客](https://blog.vllm.ai/2025/01/10/vllm-2024-wrapped-2025-vision.html)
 [PyTorch集成公告](https://pytorch.org/blog/vllm-joins-pytorch/)

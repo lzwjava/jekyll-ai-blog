@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Ed Thorp in investing?
 
-Answer: 
+Answer:
 
 The name "Ed Thrope" appears to be a misspelling of **Edward O. Thorp** (often called Ed Thorp), a pioneering figure in quantitative investing and hedge fund management.
 
@@ -30,7 +30,7 @@ Thorp transitioned from academia (where he taught mathematics) to finance after 
 
 He is often praised for his risk management (using concepts like the Kelly criterion), emphasis on having a mathematical edge, and consistent outperformance, making him a legendary yet sometimes underrated figure compared to names like Warren Buffett or Jim Simons.
 
-References:  
+References:
 
 - [Edward O. Thorp - Wikipedia](https://en.wikipedia.org/wiki/Edward_O._Thorp)
 - [Edward Thorp: The Genius Who Beat the Casinos And The Stock Market - QuantifiedStrategies.com](https://www.quantifiedstrategies.com/edward-thorp/)

@@ -18,12 +18,12 @@ type: note
 
 然而，有一些平台和倡议与此非常接近，或者起到了类似的作用：
 
-- **LeetGPU** (leetgpu.com) — 目前最接近“CUDA 版 LeetCode/Codeforces”的产品。  
-  它提供类似于 LeetCode 风格的挑战，专门用于编写优化的 CUDA kernels（如 vector add、convolution、k-means、attention、matrix multiplication 等）。  
-  你可以在浏览器中编写 CUDA 代码（无需本地 GPU —— 使用 emulation），提交后根据性能进行排名/排行榜竞争，并比拼速度。  
+- **LeetGPU** (leetgpu.com) — 目前最接近“CUDA 版 LeetCode/Codeforces”的产品。
+  它提供类似于 LeetCode 风格的挑战，专门用于编写优化的 CUDA kernels（如 vector add、convolution、k-means、attention、matrix multiplication 等）。
+  你可以在浏览器中编写 CUDA 代码（无需本地 GPU —— 使用 emulation），提交后根据性能进行排名/排行榜竞争，并比拼速度。
   许多人称之为“CUDA 版 LeetCode”。
 
-- **Tensara** — 在一些社区中被描述为“GPU 编程的 Codeforces/Kaggle”。  
+- **Tensara** — 在一些社区中被描述为“GPU 编程的 Codeforces/Kaggle”。
   专注于提交和 benchmarking GPU kernels（主要针对 deep learning 负载），并根据 FLOPS 进行评分。
 
 - 过往/单次活动：
@@ -46,7 +46,7 @@ type: note
 
 目前 **LeetGPU** 是最实用且最接近“竞技性 CUDA 游乐场”的选择。
 
-References:  
+References:
 
 - [LeetGPU - The CUDA Challenges](https://leetgpu.com/challenges)
 - [Reddit discussion on LeetGPU](https://www.reddit.com/r/CUDA/comments/1j0is8k/leetgpu_challenges_leetcode_for_cuda_programming)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the key figures in classical Chinese philosophy and history from the Pre-Qin to Han periods, specifically Confucius (study The Analects for ethical teachings and aphoristic style), Mencius (explore human nature, benevolence, and political philosophy), Zhuangzi (famous for Daoist parables, relativism, and imaginative allegories), and Sima Qian (author of Records of the Grand Historian, praised as "the historian's greatest work, an unrhymed Li Sao").
 
-Answer: 
+Answer:
 
 The Pre-Qin (before 221 BCE) to Han (206 BCE–220 CE) era marks the foundational period of Chinese philosophy and historiography. This time, spanning the Spring and Autumn and Warring States periods through the early imperial unification under Qin and consolidation in Han, saw the emergence of major schools amid political chaos and intellectual flourishing (the "Hundred Schools of Thought"). Confucianism, Daoism, and historical writing took shape, influencing Chinese thought for millennia.
 
@@ -72,7 +72,7 @@ Despite personal tragedy (castration for defending a general), he completed it, 
 
 These figures represent core strands—Confucian ethics/politics, Daoist naturalism, and objective historiography—that defined classical Chinese thought.
 
-References:  
+References:
 
 - [Confucianism - Analects, Philosophy, Ethics | Britannica](https://www.britannica.com/topic/Confucianism/The-Analects-as-the-embodiment-of-Confucian-ideas)
 - [Confucius (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/confucius)

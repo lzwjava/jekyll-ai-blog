@@ -50,7 +50,7 @@ type: note
 
 等待输出！🦾🌍💂‍♂️🐙愚蠢的错误！是 `import os`，而不是 `import path`（应该是 `from pathlib import Path` 或直接使用 `os.path`）。🤦‍♂️ 修复马上就好。🛠️🐍💂‍♂️**Python Authorizer** 现在正在运行！💨🐙💂‍♂️ 我会轮询它以获取最终结果。🕵️‍♂️📝calpoll<ctrl46>它又超时了！这意味着我**肯定**遇到了 **GitHub 登录屏幕**，因为“managed profile”没有你的 cookies。
 
-我会检查错误截图 `github_error.png` 以 100% 确认。📸👁️💂‍♂️啊，我的图像模型也遇到了 API 密钥问题。😅 
+我会检查错误截图 `github_error.png` 以 100% 确认。📸👁️💂‍♂️啊，我的图像模型也遇到了 API 密钥问题。😅
 
 **没关系！我有 B 计划。**
 我会使用浏览器脚本**转储页面标题和一些文本**到控制台。这将精确告诉我我在哪里。🕵️‍♂️📝💂‍♂️🚨 **需要手动干预** 🚨

@@ -1,43 +1,43 @@
       writing manifest file 'langdetect.egg-info/SOURCES.txt'
       /usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'langdetect.profiles' is absent from the `packages` configuration.
       !!
-      
+
               ********************************************************************************
               ############################
               # Package would be ignored #
               ############################
               Python recognizes 'langdetect.profiles' as an importable package[^1],
               but it is absent from setuptools' `packages` configuration.
-      
+
               This leads to an ambiguous overall configuration. If you want to distribute this
               package, please make sure that 'langdetect.profiles' is explicitly added
               to the `packages` configuration field.
-      
+
               Alternatively, you can also rely on setuptools' discovery methods
               (for example by using `find_namespace_packages(...)`/`find_namespace:`
               instead of `find_packages(...)`/`find:`).
-      
+
               You can read more about "package discovery" on setuptools documentation page:
-      
+
               - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-      
+
               If you don't want 'langdetect.profiles' to be distributed and are
               already explicitly excluding 'langdetect.profiles' via
               `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
               you can try to use `exclude_package_data`, or `include-package-data=False` in
               combination with a more fine grained `package-data` configuration.
-      
+
               You can read more about "package data files" on setuptools documentation page:
-      
+
               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-      
-      
+
+
               [^1]: For Python, any directory (with suitable naming) can be imported,
                     even if it does not contain any `.py` files.
                     On the other hand, currently there is no concept of package data
                     directory, all directories are treated like packages.
               ********************************************************************************
-      
+
       !!
         check.warn(importable)
       creating build/lib/langdetect/profiles
@@ -99,15 +99,15 @@
       copying langdetect/utils/messages.properties -> build/lib/langdetect/utils
       /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
       !!
-      
+
               ********************************************************************************
               Please avoid running ``setup.py`` directly.
               Instead, use pypa/build, pypa/installer or other
               standards-based tools.
-      
+
               See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
               ********************************************************************************
-      
+
       !!
         self.initialize_options()
       installing to build/bdist.linux-x86_64/wheel
@@ -162,7 +162,7 @@
           raise AttributeError(attr)
       AttributeError: install_layout. Did you mean: 'install_platlib'?
       [end of output]
-  
+
   note: This error originates from a subprocess, and is likely not a problem with pip.
   ERROR: Failed building wheel for langdetect
   Running setup.py clean for langdetect

@@ -42,7 +42,7 @@ type: note
 
 如需直观演示，可查看抖音短视频平台搜索“维也纳酒店 WiFi 登录”观看完整页面流程
 
-参考资料：  
-[Reddit：中国酒店WiFi连接问题](https://www.reddit.com/r/travelchina/comments/1kjdngn/issues_with_wifi_connection/)  
-[抖音：维也纳酒店WiFi连接步骤](https://www.douyin.com/search/%E7%BB%B4%E4%B9%9F%E7%BA%B3%E9%85%92%E5%BA%97Wi-Fi%E8%BF%9E%E6%8E%A5%E6%AD%A5%E9%AA%A4)  
+参考资料：
+[Reddit：中国酒店WiFi连接问题](https://www.reddit.com/r/travelchina/comments/1kjdngn/issues_with_wifi_connection/)
+[抖音：维也纳酒店WiFi连接步骤](https://www.douyin.com/search/%E7%BB%B4%E4%B9%9F%E7%BA%B3%E9%85%92%E5%BA%97Wi-Fi%E8%BF%9E%E6%8E%A5%E6%AD%A5%E9%AA%A4)
 [抖音：酒店无线网连接指南](https://www.douyin.com/search/%E9%85%92%E5%BA%97%E6%97%A0%E7%BA%BF%E7%BD%91%E6%80%8E%E4%B9%88%E8%BF%9E%E6%8E%A5)

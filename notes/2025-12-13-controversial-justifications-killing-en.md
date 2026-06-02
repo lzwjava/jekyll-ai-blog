@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about killing people?
 
-Answer: 
+Answer:
 
 Unpopular ideas about the ethics, morality, or justification of killing people often challenge mainstream views that intentionally taking a human life is almost always wrong (except in clear cases like self-defense). These ideas tend to be controversial because they either expand justifications for killing or restrict them in ways that contradict common societal norms. Here are some notable examples drawn from philosophical, ethical, and public debates:
 
@@ -28,7 +28,7 @@ Unpopular ideas about the ethics, morality, or justification of killing people o
 
 These ideas are "unpopular" because they often provoke strong moral outrage, conflicting with widespread beliefs in the sanctity of life or human rights protections. Mainstream ethics typically limits justified killing to narrow cases like immediate self-defense.
 
-References:  
+References:
 
 - [Reddit: CMV death penalty is more humane than life imprisonment](https://www.reddit.com/r/changemyview/comments/1na161j/cmv_death_penalty_is_more_humane_than_life/)
 - [Reddit: TrueUnpopularOpinion on deserving the death penalty](https://www.reddit.com/r/TrueUnpopularOpinion/comments/1935cn3/there_are_100_horrible_and_disgusting_individuals/)

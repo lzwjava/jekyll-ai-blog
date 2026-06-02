@@ -8,11 +8,11 @@ translated: false
 type: note
 ---
 
-A **transaction table** in a banking system typically stores details of all financial transactions processed by the bank. This table is essential for tracking customer transactions, reconciling accounts, and ensuring regulatory compliance.  
+A **transaction table** in a banking system typically stores details of all financial transactions processed by the bank. This table is essential for tracking customer transactions, reconciling accounts, and ensuring regulatory compliance.
 
 ---
 
-### **Key Fields in a Banking Transaction Table**  
+### **Key Fields in a Banking Transaction Table**
 
 | **Field Name**           | **Data Type** | **Description** |
 |--------------------------|--------------|----------------|
@@ -38,7 +38,7 @@ A **transaction table** in a banking system typically stores details of all fina
 
 ---
 
-### **Example Transaction Records**  
+### **Example Transaction Records**
 
 | Transaction_ID | Account_Number | Type      | Amount  | Currency | Date                 | Debit/Credit | Counterparty | Mode   | Status  |
 |---------------|---------------|-----------|---------|----------|----------------------|--------------|--------------|--------|---------|
@@ -49,11 +49,11 @@ A **transaction table** in a banking system typically stores details of all fina
 
 ---
 
-### **How These Fields Are Used in Banking**  
-1. **Transaction Tracking:** Every transaction has a unique ID and can be tracked through its status.  
-2. **Account Reconciliation:** Helps in matching debits and credits for accurate financial records.  
-3. **Fraud Detection:** Suspicious transactions can be flagged using fraud check status and monitoring transaction patterns.  
-4. **Regulatory Reporting:** Ensures compliance with financial regulations (AML, KYC, Basel III).  
-5. **Customer Service:** Helps banks resolve disputes and inquiries regarding failed or pending transactions.  
+### **How These Fields Are Used in Banking**
+1. **Transaction Tracking:** Every transaction has a unique ID and can be tracked through its status.
+2. **Account Reconciliation:** Helps in matching debits and credits for accurate financial records.
+3. **Fraud Detection:** Suspicious transactions can be flagged using fraud check status and monitoring transaction patterns.
+4. **Regulatory Reporting:** Ensures compliance with financial regulations (AML, KYC, Basel III).
+5. **Customer Service:** Helps banks resolve disputes and inquiries regarding failed or pending transactions.
 
 Would you like a more detailed schema with SQL queries? 🚀

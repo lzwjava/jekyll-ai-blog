@@ -12,7 +12,7 @@ type: note
 
 Question: 如何使用 Remote Desktop 连接到 Windows 11 PC？
 
-Answer: 
+Answer:
 
 Microsoft 的 Remote Desktop 功能允许你从另一台设备连接并控制一台 Windows 11 PC。请注意，**你要连接的 Windows 11 PC（主机）**必须运行 Pro、Enterprise 或 Education 版本——Windows 11 Home 版不支持作为 Remote Desktop 的宿主机。
 
@@ -49,6 +49,6 @@ Microsoft 的 Remote Desktop 功能允许你从另一台设备连接并控制一
 - Firewall：启用功能时 Windows 通常会自动允许 RDP 通过，但请确保没有第三方 firewall 对其进行拦截。
 - Troubleshooting：如果连接失败，请检查主机是否处于唤醒状态、凭据是否正确，以及两台设备是否可以互相访问（尝试 ping 主机）。
 
-References:  
-- [How to use Remote Desktop - Microsoft Support](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)  
+References:
+- [How to use Remote Desktop - Microsoft Support](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
 - [Enable Remote Desktop on your PC | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remotepc/remote-desktop-allow-access)

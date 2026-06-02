@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about JDK 8?
 
-Answer: 
+Answer:
 
 JDK 8, released in 2014, introduced transformative features like lambdas, streams, and the Optional class, which many developers hail as a milestone for Java. However, it also sparked debate, with some views challenging the hype or highlighting overlooked flaws. Below is a curated list of unpopular opinions drawn from developer discussions, often expressed in forums like Reddit and X (formerly Twitter). These reflect minority sentiments amid widespread praise for JDK 8's functional programming additions.
 
@@ -34,9 +34,9 @@ JDK 8, released in 2014, introduced transformative features like lambdas, stream
 
 These opinions highlight JDK 8's double-edged sword: innovative yet divisive. While not universal, they underscore why some devs still cling to pre-8 eras or eye alternatives like Kotlin.
 
-References:  
-- [Love and hate for Java 8](https://www.infoworld.com/article/2171436/love-and-hate-for-java-8.html)  
-- [r/java: Java 8 – The Bad Parts](https://www.reddit.com/r/java/comments/7juy4n/java_8_the_bad_parts/)  
-- [r/java: Why most of the industry is still on Java 8?](https://www.reddit.com/r/java/comments/1je309a/why_most_of_the_industry_is_still_on_java_8/)  
-- [X Post: “the most important change to Java 8 is the new support for lambda expressions...”](https://x.com/krisajenkins/status/707181881222111232)  
+References:
+- [Love and hate for Java 8](https://www.infoworld.com/article/2171436/love-and-hate-for-java-8.html)
+- [r/java: Java 8 – The Bad Parts](https://www.reddit.com/r/java/comments/7juy4n/java_8_the_bad_parts/)
+- [r/java: Why most of the industry is still on Java 8?](https://www.reddit.com/r/java/comments/1je309a/why_most_of_the_industry_is_still_on_java_8/)
+- [X Post: “the most important change to Java 8 is the new support for lambda expressions...”](https://x.com/krisajenkins/status/707181881222111232)
 - [X Post: Unpopular opinion: stick to Java 8!](https://x.com/ArlonTM/status/1972709300419072277)

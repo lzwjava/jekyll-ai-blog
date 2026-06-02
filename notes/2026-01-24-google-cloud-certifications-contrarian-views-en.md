@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Google Cloud Professional certificates?
 
-Answer: 
+Answer:
 
 Here are some **unpopular** (or at least contrarian / minority) opinions about Google Cloud **Professional-level** certificates (such as Professional Cloud Architect, Professional Machine Learning Engineer, Professional Data Engineer, Professional Cloud DevOps Engineer, etc.) that surface in discussions, especially on forums like Reddit, LinkedIn, and tech blogs:
 
@@ -30,7 +30,7 @@ Here are some **unpopular** (or at least contrarian / minority) opinions about G
 
 These opinions are definitely not the majority view—many people praise the certs for depth, relevance to modern AI/ML workloads, and strong salary correlation in GCP-heavy roles—but they do represent recurring contrarian takes in community discussions.
 
-References:  
+References:
 
 - [https://www.reddit.com/r/googlecloud/comments/17pzi34/are_gcp_certs_really_valuable/](https://www.reddit.com/r/googlecloud/comments/17pzi34/are_gcp_certs_really_valuable/)
 - [https://www.reddit.com/r/googlecloud/comments/1o4qggr/are_google_cloud_certs_worth_it/](https://www.reddit.com/r/googlecloud/comments/1o4qggr/are_google_cloud_certs_worth_it/)

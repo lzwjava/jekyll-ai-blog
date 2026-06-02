@@ -73,7 +73,7 @@ Run it:
 python download_fineweb.py
 ```
 
-> ✅ `sample-10BT` = ~10B tokens, enough to match GPT-2 training scale  
+> ✅ `sample-10BT` = ~10B tokens, enough to match GPT-2 training scale
 > ✅ Streaming means you never load the full dataset into RAM
 
 ---

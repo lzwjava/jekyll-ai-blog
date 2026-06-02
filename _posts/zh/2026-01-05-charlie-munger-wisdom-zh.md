@@ -12,22 +12,22 @@ type: note
 
 Question: The wit and wisdom of Charlie Munger
 
-Answer: 
+Answer:
 
 Charlie Munger (1924–2023) 是 Berkshire Hathaway 的副主席，也是 Warren Buffett 的长期合作伙伴。Munger 以其敏锐的机智、多学科思维和实用的智慧而闻名，他强调理性、终身学习，并主张通过避免愚蠢而非追求卓越来获得成功。他的见解被收录在《Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger》（穷查理宝典）一书中，从中吸取了心理学、经济学、历史学等领域的知识，形成了用于投资和生活决策的“多元思维模型”（latticework of mental models）。
 
 ### Key Themes in Munger's Wisdom
 
-- **终身学习与普世智慧 (Worldly Wisdom)**  
+- **终身学习与普世智慧 (Worldly Wisdom)**
   Munger 提倡建立跨学科的广泛知识库以做出更好的判断。他认为真正的智慧源于将大理念联系起来，而不是孤立的事实。
 
-- **避免心理偏差 (Psychological Biases)**  
+- **避免心理偏差 (Psychological Biases)**
   在《The Psychology of Human Misjudgment》等演讲中，Munger 概述了导致错误决策的倾向，如激励机制引起的偏见、嫉妒和互惠倾向。识别并克服这些倾向至关重要。
 
-- **投资原则**  
+- **投资原则**
   专注于以公平价格收购的高质量企业，保持耐心和长期的复利（compounding）。避免投机和过度复杂化。
 
-- **过好生活**  
+- **过好生活**
   可靠性、低预期、延迟满足（deferred gratification）和避免嫉妒会带来成就感。成功往往源于持久的一致性和理性。
 
 ### Selected Memorable Quotes
@@ -45,7 +45,7 @@ Charlie Munger (1924–2023) 是 Berkshire Hathaway 的副主席，也是 Warren
 
 Munger 的方法——结合幽默、逆向思维（inversion，思考应该避免什么）和思维模型——影响了全世界的投资者、领导者和思想家。他的遗产在于推动清晰、理性的思考，以在商业和个人生活中获得更好的结果。
 
-References:  
+References:
 
 - [Poor Charlie's Almanack on Goodreads](https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack)
 - [Charlie Munger Quotes on fs.blog](https://fs.blog/intellectual-giants/charlie-munger/)

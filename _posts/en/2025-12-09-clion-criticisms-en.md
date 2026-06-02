@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about CLion, the C++ IDE?
 
-Answer: 
+Answer:
 
 CLion, JetBrains' cross-platform IDE for C and C++, is often praised for its refactoring tools, debugging capabilities, and CMake integration. However, it has drawn criticism for being resource-heavy and less intuitive for certain workflows. Here are some unpopular opinions drawn from developer discussions, highlighting perspectives that challenge the common hype:
 
@@ -30,13 +30,13 @@ CLion, JetBrains' cross-platform IDE for C and C++, is often praised for its ref
 
 These opinions reflect a vocal minority frustrated by CLion's enterprise focus, but they underscore how IDE preferences often boil down to project scale, hardware, and workflow needs.
 
-References:  
-- [Opinions on CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/1fde2de/opinions_on_clion/)  
-- [Is CLion worth it as an IDE for C++ development? (Quora)](https://www.quora.com/Is-CLion-worth-it-as-an-IDE-for-C-development)  
-- [CLion vs VSCode in 2023 for C++ (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/10pvgto/clion_vs_vscode_in_2023_for_c/)  
-- [Is it worth getting CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/93h8zj/is_it_worth_getting_clion/)  
-- [Why do people say CLion is great? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/n84wzh/why_do_people_say_clion_is_great/)  
-- [CLion IDE (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/lu8mhu/clion_ide/)  
-- [CLion, the new C/C++ IDE from JetBrains (Hacker News)](https://news.ycombinator.com/item?id=8283992)  
-- [Why the hype about CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/5fowev/why_the_hype_about_clion/)  
+References:
+- [Opinions on CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/1fde2de/opinions_on_clion/)
+- [Is CLion worth it as an IDE for C++ development? (Quora)](https://www.quora.com/Is-CLion-worth-it-as-an-IDE-for-C-development)
+- [CLion vs VSCode in 2023 for C++ (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/10pvgto/clion_vs_vscode_in_2023_for_c/)
+- [Is it worth getting CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/93h8zj/is_it_worth_getting_clion/)
+- [Why do people say CLion is great? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/n84wzh/why_do_people_say_clion_is_great/)
+- [CLion IDE (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/lu8mhu/clion_ide/)
+- [CLion, the new C/C++ IDE from JetBrains (Hacker News)](https://news.ycombinator.com/item?id=8283992)
+- [Why the hype about CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/5fowev/why_the_hype_about_clion/)
 - [Unpopular opinion: VSCode feels lighter than CLion (X post)](https://x.com/thomaskatalis/status/1751155310310695306)

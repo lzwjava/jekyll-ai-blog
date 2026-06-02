@@ -70,7 +70,7 @@ throw new Error("No replacement strategy succeeded")
 
 #### 策略详解
 
-  
+
 | 策略 | 功能描述 |
 |---|---|
 | `SimpleReplacer` | 原始 `content.indexOf(search)` — 精确匹配 |
@@ -133,7 +133,7 @@ EditTool.execute(filePath, oldString, newString, replaceAll)
 
 ## 比较：opencode 与 Claude Code 编辑工具
 
-  
+
 | 特性 | opencode `EditTool` | Claude Code `str_replace_based_edit_tool` |
 |---|---|---|
 | **语言** | TypeScript (Bun) | 无 schema（内置于模型） |

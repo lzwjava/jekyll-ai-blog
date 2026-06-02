@@ -18,10 +18,10 @@ Here's a comprehensive guide on the **Labs and Practical Sessions** section for 
 
 **1. Assembly Programming (Keyboard Input/Display Output)**
 
-- **Objective**: 
+- **Objective**:
    The primary goal of this lab is to learn how to write assembly programs that handle basic input and output operations on a microcomputer.
-  
-- **Key Concepts**: 
+
+- **Key Concepts**:
    - Understanding the **assembly language syntax**.
    - Interaction with I/O ports for **keyboard input** and **display output**.
    - Use of **interrupts** for processing input.
@@ -37,7 +37,7 @@ Here's a comprehensive guide on the **Labs and Practical Sessions** section for 
 
 **2. 8255A-Controlled LED/Keyboard Experiments**
 
-- **Objective**: 
+- **Objective**:
    This lab focuses on interfacing the **8255A Programmable Peripheral Interface (PPI)** with LEDs and a keyboard. This chip helps in managing the input/output operations, which is essential for efficient microcomputer systems.
 
 - **Key Concepts**:
@@ -58,7 +58,7 @@ Here's a comprehensive guide on the **Labs and Practical Sessions** section for 
 
 **1. Interrupt-Based Traffic Light Control System**
 
-- **Objective**: 
+- **Objective**:
    The main objective here is to build a traffic light system controlled by **interrupts**. This lab focuses on real-time control, using interrupts to manage different traffic light states efficiently.
 
 - **Key Concepts**:
@@ -77,7 +77,7 @@ Here's a comprehensive guide on the **Labs and Practical Sessions** section for 
 
 **2. Serial Communication (Data Transmission/Reception)**
 
-- **Objective**: 
+- **Objective**:
    This lab introduces **serial communication**, which is essential for data exchange between microcontrollers or computers and external devices.
 
 - **Key Concepts**:
@@ -97,7 +97,7 @@ Here's a comprehensive guide on the **Labs and Practical Sessions** section for 
 ### **Lab Safety and Troubleshooting**
 
 - **Safety**: When working with microcontrollers and interfacing devices, always ensure proper power handling and avoid short circuits. Understand the power ratings for components (e.g., voltage levels for microcontrollers).
-  
+
 - **Troubleshooting**: Common issues include incorrect wiring, faulty connections, and improper programming. Utilize debugging tools like **oscilloscopes** and **logic analyzers** to monitor signals and troubleshoot communication or timing issues.
 
 ---

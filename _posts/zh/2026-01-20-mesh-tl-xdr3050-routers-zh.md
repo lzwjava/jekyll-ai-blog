@@ -12,7 +12,7 @@ type: note
 
 Question: Is it possible to use 5 TL-XDR3050 routers in a 300 square meter house?
 
-Answer: 
+Answer:
 
 Yes, it is **possible** to use 5 TL-XDR3050 (EasyMesh edition) routers to form a mesh network in a **300 m² house**, but it may be overkill or not optimal depending on your house layout, wall materials, and whether you use wired (Ethernet) backhaul.
 
@@ -24,8 +24,8 @@ Yes, it is **possible** to use 5 TL-XDR3050 (EasyMesh edition) routers to form a
 
 - **EasyMesh support on TL-XDR3050** — 该型号完全支持 TP-Link 的 **EasyMesh (易展)**，可实现一键 mesh setup。根据真实用户报告（特别是来自知乎和 acwifi 等中文论坛），TP-Link EasyMesh 在一个网络中最多可支持 **8 台 routers**（1 台主路由 + 7 台子路由），不过在 **5–6 台及以下**时稳定性最佳。一些用户报告了使用 5 台以上设备的成功案例，尤其是在使用 Ethernet backhaul 的情况下。
 
-- **Wireless vs. Wired backhaul** —  
-  - **Wireless backhaul** (默认): 每次跳转都会显著降低速度（尤其是在 5 GHz 上）。对于 5 个 nodes，远端的节点可能会出现较低的 throughput 或不稳定性。  
+- **Wireless vs. Wired backhaul** —
+  - **Wireless backhaul** (默认): 每次跳转都会显著降低速度（尤其是在 5 GHz 上）。对于 5 个 nodes，远端的节点可能会出现较低的 throughput 或不稳定性。
   - **Wired/Ethernet backhaul** (推荐): 尽可能通过 Ethernet cables 连接 nodes —— 这能为 5 个以上的 nodes 提供全速性能和更好的稳定性。如果您的房屋预埋了 Ethernet 线或可以布线，5 个 nodes 的表现将非常出色。
 
 **Recommendation**:
@@ -36,10 +36,10 @@ Yes, it is **possible** to use 5 TL-XDR3050 (EasyMesh edition) routers to form a
 
 In short: **Yes, 5 is possible and can work very well** (尤其是采用有线连接时)，但除非房屋布局复杂或墙体极厚，否则你可能不需要那么多。
 
-References:  
+References:
 
-- [Zhihu discussion on TL-XDR3050 mesh with multiple units (mentions max ~8, practical limit lower)](https://www.zhihu.com/question/1919806007460229433)  
-- [TP-Link official product page for TL-XDR3050易展版 (EasyMesh support)](https://www.tp-link.com.cn/product_2196.html)  
-- [acwifi.net disassembly and review of TL-XDR3050 (coverage notes)](https://www.acwifi.net/18413.html)  
-- [TP-Link EasyMesh compatible devices list](https://www.tp-link.com/us/easymesh/product-list)  
+- [Zhihu discussion on TL-XDR3050 mesh with multiple units (mentions max ~8, practical limit lower)](https://www.zhihu.com/question/1919806007460229433)
+- [TP-Link official product page for TL-XDR3050易展版 (EasyMesh support)](https://www.tp-link.com.cn/product_2196.html)
+- [acwifi.net disassembly and review of TL-XDR3050 (coverage notes)](https://www.acwifi.net/18413.html)
+- [TP-Link EasyMesh compatible devices list](https://www.tp-link.com/us/easymesh/product-list)
 - [General mesh node count recommendations for large homes](https://us.hitrontech.com/learn/how-many-mesh-wi-fi-devices-are-needed-for-a-large-home)

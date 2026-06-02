@@ -12,7 +12,7 @@ type: note
 
 Question: Give some typical change requests for deploying applications or fixing bugs, etc., and explain how to fill each field, including impact, backout plan, duration, and change tasks.
 
-Answer: 
+Answer:
 
 Here are some **typical real-world examples** of change requests (often called RFCs — Requests for Change) in IT/production environments, especially for application deployments and bug fixes. These follow common ITIL/ServiceNow/Jira-style change management practices.
 
@@ -101,7 +101,7 @@ Here are some **typical real-world examples** of change requests (often called R
 
 These examples help get approval faster and reduce production incidents.
 
-References:  
+References:
 
 - [ITIL Request for Change (RFC) Template - Giva](https://www.givainc.com/blog/what-is-request-for-change-example-of-rfc-form-template)
 - [ServiceNow Change Management Fields](https://www.servicenow.com/community/itsm-forum/change-management-fields-definition-document/m-p/2665583)

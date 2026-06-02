@@ -25,5 +25,5 @@ type: note
 总之，虽然DeepSeek v32的降价真实且幅度显著，但实际节省成本取决于您的使用模式，未必与宣传百分比完全吻合ue202turn0search1,[1],[2]。
 
 引用来源：
-[1] https://x.com/deepseek_ai  
+[1] https://x.com/deepseek_ai
 [2] https://www.facebook.com/groups/developerkaki/posts/2615893198756577/

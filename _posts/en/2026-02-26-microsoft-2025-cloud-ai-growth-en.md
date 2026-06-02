@@ -11,7 +11,7 @@ type: note
 
 **Question: What does Microsoft say in its 2025 annual report?**
 
-**Answer:** 
+**Answer:**
 
 Microsoft's 2025 Annual Report covers the fiscal year ended June 30, 2025. It is available on the company's Investor Relations website and includes the Form 10-K filed with the SEC.
 
@@ -32,7 +32,7 @@ The report also discusses business operations, human capital, R&D, risks (includ
 
 The full report is structured with sections on financial review, business description, MD&A, and consolidated financial statements.
 
-**References:**  
+**References:**
 
 - [Microsoft 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/index.html)
 - [Microsoft Investor Relations - Annual Reports](https://www.microsoft.com/en-us/investor/annual-reports)

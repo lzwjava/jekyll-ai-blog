@@ -75,9 +75,9 @@ Note: RPE = total annual revenue / average employees. Data is fiscal 2024 or TTM
 - **Trends 2025**: AI boom boosts NVIDIA/OpenAI; energy volatility aids Aramco/Exxon. Adult platforms (OnlyFans, Aylo) punch above due to user-generated content.
 - **Limitations**: Privates (e.g., xAI) estimated; some 2024 data carried forward if no 2025 update. Full top 50 exhaustive lists don't exist publicly, so this synthesizes across sources.
 
-[Charted: Revenue per Employee of the World's Largest Companies](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)  
-[How Much Revenue Do Tech Giants Earn Per Employee?](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)  
-[Rajesh Exports Profile](https://pitchbook.com/profiles/company/65384-65)  
-[VICI Properties Statistics](https://stockanalysis.com/stocks/vici/statistics/)  
-[OnlyFans Revenue Efficiency](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)  
+[Charted: Revenue per Employee of the World's Largest Companies](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)
+[How Much Revenue Do Tech Giants Earn Per Employee?](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)
+[Rajesh Exports Profile](https://pitchbook.com/profiles/company/65384-65)
+[VICI Properties Statistics](https://stockanalysis.com/stocks/vici/statistics/)
+[OnlyFans Revenue Efficiency](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)
 [Valve Revenue Estimates](https://growjo.com/company/Valve)

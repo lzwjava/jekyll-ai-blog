@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Got it 👍 — you’re asking how to stop/kill **Cisco AnyConnect processes** like *NAM* (Network Access Manager) or the background service *vpnagent.exe* that runs when AnyConnect is installed.  
+Got it 👍 — you’re asking how to stop/kill **Cisco AnyConnect processes** like *NAM* (Network Access Manager) or the background service *vpnagent.exe* that runs when AnyConnect is installed.
 
 Here’s a breakdown:
 
@@ -34,7 +34,7 @@ Here’s a breakdown:
 ### Option B: Task Manager kill
 1. Press **Ctrl+Shift+Esc** to open Task Manager.
 2. Find `vpnagent.exe` or any Cisco AnyConnect process.
-3. Right-click → **End task**.  
+3. Right-click → **End task**.
    *(This only lasts until reboot or if the service relaunches automatically.)*
 
 ---

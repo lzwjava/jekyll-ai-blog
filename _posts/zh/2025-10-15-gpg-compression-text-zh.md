@@ -26,5 +26,5 @@ ls -lh test.srt  # 文件大小应与原始文件一致
 ```
 验证后请删除测试文件。GPG默认压缩级别为6（速度与压缩率的平衡点），若追求极致压缩，需先用`gzip -9`等工具进行预处理。
 
-[GPG文本文件压缩说明](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html#compress-options)  
+[GPG文本文件压缩说明](https://www.gnupg.org/documentation/manuals/gnupg/Encrypting-and-Decrypting.html#compress-options)
 [SRT文件高压缩率原理](https://superuser.com/questions/123456/why-do-text-files-compress-better-than-binary)

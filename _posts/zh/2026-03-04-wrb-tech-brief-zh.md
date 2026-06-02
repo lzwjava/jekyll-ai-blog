@@ -11,7 +11,7 @@ type: note
 
 **问题：** Standard Chartered Bank 中的 WRB Tech 是什么？
 
-**答案：** 
+**答案：**
 
 Standard Chartered Bank 中的 **WRB Tech** 指的是专用于支持银行 **Wealth and Retail Banking (WRB)** 业务部门的 **Technology** 函数或团队。
 
@@ -28,7 +28,7 @@ Standard Chartered Bank 中的 **WRB Tech** 指的是专用于支持银行 **Wea
 
 它作为银行整体 Technology 团队的一部分运营，但专门针对通过 technology 启用和转型 Wealth and Retail Banking 部门。
 
-**参考资料：**  
+**参考资料：**
 
 - [Standard Chartered Careers - Technology and Operations](https://www.sc.com/en/global-careers/business-areas/technology-and-operations)
 - [Standard Chartered Job Posting - Head, Domain Tech Lead, WRB Tech](https://jobs.standardchartered.com/job/Head,-Domain-Tech-Lead-Wealth-Digital-Products-&-Proposition,-WRB-Tech/49969-en_GB)

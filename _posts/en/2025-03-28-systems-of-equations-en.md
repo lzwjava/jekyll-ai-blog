@@ -8,13 +8,13 @@ translated: false
 type: note
 ---
 
-This tutorial provides a detailed guide on **systems of equations**, their representation, solutions, and the **Gaussian elimination** method used to solve them.  
+This tutorial provides a detailed guide on **systems of equations**, their representation, solutions, and the **Gaussian elimination** method used to solve them.
 
 ---
 
-## **1. Systems of Equations: Definition and Representation**  
+## **1. Systems of Equations: Definition and Representation**
 
-A **system of linear equations** consists of multiple linear equations that share variables. A general system with \\( n \\) variables and \\( m \\) equations can be written as:  
+A **system of linear equations** consists of multiple linear equations that share variables. A general system with \\( n \\) variables and \\( m \\) equations can be written as:
 
 \\[
 \begin{aligned}
@@ -25,20 +25,20 @@ a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n &= b_m
 \end{aligned}
 \\]
 
-where:  
-- \\( x_1, x_2, \dots, x_n \\) are the unknown variables.  
-- \\( a_{ij} \\) are the coefficients.  
-- \\( b_1, b_2, \dots, b_m \\) are the constants on the right-hand side.  
+where:
+- \\( x_1, x_2, \dots, x_n \\) are the unknown variables.
+- \\( a_{ij} \\) are the coefficients.
+- \\( b_1, b_2, \dots, b_m \\) are the constants on the right-hand side.
 
-### **Matrix Representation**  
+### **Matrix Representation**
 
-A system of equations can be represented using **matrices**:  
+A system of equations can be represented using **matrices**:
 
 \\[
 A \mathbf{x} = \mathbf{b}
 \\]
 
-where:  
+where:
 
 - \\( A \\) is the **coefficient matrix**:
 
@@ -76,13 +76,13 @@ where:
   \end{bmatrix}
   \\]
 
-The **augmented matrix** is written as:  
+The **augmented matrix** is written as:
 
 \\[
 [A | \mathbf{b}]
 \\]
 
-Example:  
+Example:
 \\[
 \begin{aligned}
 2x + 3y &= 8 \\
@@ -90,7 +90,7 @@ Example:
 \end{aligned}
 \\]
 
-Matrix representation:  
+Matrix representation:
 \\[
 \begin{bmatrix}
 2 & 3 \\
@@ -107,7 +107,7 @@ y
 \end{bmatrix}
 \\]
 
-Augmented matrix:  
+Augmented matrix:
 \\[
 \left[
 \begin{array}{cc|c}
@@ -119,7 +119,7 @@ Augmented matrix:
 
 ---
 
-## **2. Gaussian Elimination Method**  
+## **2. Gaussian Elimination Method**
 
 Gaussian elimination is a systematic method for solving systems of equations by transforming the augmented matrix into **row echelon form (REF)** and then solving for the variables using **back-substitution**.
 
@@ -128,14 +128,14 @@ Gaussian elimination is a systematic method for solving systems of equations by 
    - Swap rows if needed.
    - Multiply a row by a nonzero constant.
    - Add or subtract a multiple of one row from another.
-   
+
 2. **Back-substitution** to find the solution.
 
 ---
 
-### **Example 1: Solving a System using Gaussian Elimination**  
+### **Example 1: Solving a System using Gaussian Elimination**
 
-Solve the system:  
+Solve the system:
 \\[
 \begin{aligned}
 2x + y - z &= 3 \\
@@ -167,8 +167,8 @@ Divide row 1 by 2:
 \right]
 \\]
 
-#### **Step 3: Eliminate First Column Below Pivot**  
-Replace row 2 by subtracting 4 times row 1:  
+#### **Step 3: Eliminate First Column Below Pivot**
+Replace row 2 by subtracting 4 times row 1:
 Replace row 3 by adding 2 times row 1:
 
 \\[
@@ -181,7 +181,7 @@ Replace row 3 by adding 2 times row 1:
 \right]
 \\]
 
-#### **Step 4: Make Second Pivot 1**  
+#### **Step 4: Make Second Pivot 1**
 Divide row 2 by -8:
 
 \\[
@@ -194,7 +194,7 @@ Divide row 2 by -8:
 \right]
 \\]
 
-#### **Step 5: Eliminate Second Column Below Pivot**  
+#### **Step 5: Eliminate Second Column Below Pivot**
 Replace row 3 by subtracting 8 times row 2:
 
 \\[
@@ -207,8 +207,8 @@ Replace row 3 by subtracting 8 times row 2:
 \right]
 \\]
 
-#### **Step 6: Back Substitution**  
-Solve from bottom to top:  
+#### **Step 6: Back Substitution**
+Solve from bottom to top:
 - \\( 3z = 4 \Rightarrow z = \frac{4}{3} \\)
 - \\( y - 0.25z = 0.5 \Rightarrow y = 0.5 + 0.25(4/3) = \frac{7}{6} \\)
 - \\( x + 0.5y - 0.5z = 1.5 \Rightarrow x = 1.5 - 0.5(7/6) + 0.5(4/3) = \frac{11}{6} \\)
@@ -228,11 +228,11 @@ x = \frac{11}{6}, \quad y = \frac{7}{6}, \quad z = \frac{4}{3}
 ---
 
 ## **4. Homogeneous vs. Non-Homogeneous Systems**
-- **Homogeneous system**: \\( A\mathbf{x} = 0 \\)  
+- **Homogeneous system**: \\( A\mathbf{x} = 0 \\)
   - Always has at least the **trivial solution** \\( \mathbf{x} = 0 \\).
   - May have infinitely many solutions if the determinant of \\( A \\) is zero.
-  
-- **Non-homogeneous system**: \\( A\mathbf{x} = \mathbf{b} \\)  
+
+- **Non-homogeneous system**: \\( A\mathbf{x} = \mathbf{b} \\)
   - May have **unique, infinite, or no solutions**.
 
 ---

@@ -21,6 +21,6 @@ It's the second generation of the psycopg library (hence the "2"), and while psy
 
 For installation, you can use `pip install psycopg2-binary` (the binary version is easier for beginners).
 
-[Psycopg Official Documentation](https://www.psycopg.org/docs/)  
-[GeeksforGeeks Introduction](https://www.geeksforgeeks.org/python/introduction-to-psycopg2-module-in-python/)  
+[Psycopg Official Documentation](https://www.psycopg.org/docs/)
+[GeeksforGeeks Introduction](https://www.geeksforgeeks.org/python/introduction-to-psycopg2-module-in-python/)
 [PyPI Package Page](https://pypi.org/project/psycopg2/)

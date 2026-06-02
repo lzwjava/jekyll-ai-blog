@@ -26,19 +26,19 @@ type: note
 
 这些项目在讨论、博客草稿和社区列表中始终是最多 star 或被提及最多的：
 
-- **Freeyourgadget / Gadgetbridge**  
-  Codeberg 上明确的第一受欢迎仓库（star 和 forks 数量遥遥领先）。  
+- **Freeyourgadget / Gadgetbridge**
+  Codeberg 上明确的第一受欢迎仓库（star 和 forks 数量遥遥领先）。
   开源 Android 应用，用于管理和使用智能手表 / 健身手环（Pebble、Mi Band、Amazfit、Garmin 等），无需厂商云锁定。
 
-- **forgejo / forgejo**  
-  驱动 Codeberg 的实际软件（Gitea 的软分叉）。  
+- **forgejo / forgejo**
+  驱动 Codeberg 的实际软件（Gitea 的软分叉）。
   开发非常活跃，贡献者众多，是整个平台的核心。
 
-- **Codeberg / Community** & **Codeberg / org** 仓库  
+- **Codeberg / Community** & **Codeberg / org** 仓库
   讨论、治理、功能请求、基础设施主题。活动量天然较高。
 
-- **woodpecker-ci / woodpecker**  
-  Codeberg 上使用的主要 CI 系统（Woodpecker CI）。  
+- **woodpecker-ci / woodpecker**
+  Codeberg 上使用的主要 CI 系统（Woodpecker CI）。
   频繁更新，并被托管在那里的项目广泛使用。
 
 其他经常被提及或高可见度的类别/项目：
@@ -52,16 +52,16 @@ type: note
 
 ### 如何自己查找当前活跃 / “热门”项目
 
-1. 访问 https://codeberg.org/explore/repos  
-   - 按 **Most stars** 排序 → 显示历史最受欢迎的项目（Gadgetbridge 通常排名第一）  
-   - 按 **Recently updated** 排序 → 显示当前活跃开发的项目  
+1. 访问 https://codeberg.org/explore/repos
+   - 按 **Most stars** 排序 → 显示历史最受欢迎的项目（Gadgetbridge 通常排名第一）
+   - 按 **Recently updated** 排序 → 显示当前活跃开发的项目
    - 按 **Recently created** 排序 → 显示全新项目
 
 2. 查看 https://codeberg.org/explore/organizations → 大型组织通常有多个活跃仓库
 
-3. 检查主要组织的最近 commits / 活动：  
-   - https://codeberg.org/forgejo  
-   - https://codeberg.org/woodpecker-ci  
+3. 检查主要组织的最近 commits / 活动：
+   - https://codeberg.org/forgejo
+   - https://codeberg.org/woodpecker-ci
    - https://codeberg.org/Freeyourgadget
 
 4. 关注 Codeberg 公告 / 博客，或加入 https://codeberg.org/Codeberg/Community issue tracker 以获取焦点讨论。

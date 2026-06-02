@@ -12,7 +12,7 @@ type: note
 
 Question: Why do tides occur, and how does the Moon's gravity cause them, as mentioned in Richard Feynman's book?
 
-Answer: 
+Answer:
 
 Tides are the periodic rise and fall of ocean levels caused primarily by the **gravitational forces** from the Moon and, to a lesser extent, the Sun. The key is not the overall gravitational pull on Earth (which keeps Earth orbiting the Moon's common center), but the **difference** in gravitational strength across Earth's diameter—this is called the **tidal force** or **differential gravity**.
 
@@ -45,9 +45,9 @@ When Sun, Moon, and Earth align (full or new moon), tides reinforce for **spring
 
 In reality, tides are more complex due to continents, ocean depth, and Earth's rotation, but the basic mechanism is this gravitational stretching.
 
-References:  
+References:
 
-- [The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation](https://www.feynmanlectures.caltech.edu/I_07.html)  
-- [Tidal force - Wikipedia](https://en.wikipedia.org/wiki/Tidal_force)  
-- [Gravity, Inertia, and the Two Bulges - NOAA](https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html)  
+- [The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation](https://www.feynmanlectures.caltech.edu/I_07.html)
+- [Tidal force - Wikipedia](https://en.wikipedia.org/wiki/Tidal_force)
+- [Gravity, Inertia, and the Two Bulges - NOAA](https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html)
 - [Tides - NASA Science](https://science.nasa.gov/moon/tides/)

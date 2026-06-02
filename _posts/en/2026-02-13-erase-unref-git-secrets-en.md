@@ -102,8 +102,8 @@ Is the bad commit / blob reachable from any current branch, tag, open PR, releas
 
 ### Summary – most frequent answer in practice
 
-If the commit is truly unreachable from all current refs →  
-→ normal repo owner/collaborator with `git filter-repo` + force push is enough  
+If the commit is truly unreachable from all current refs →
+→ normal repo owner/collaborator with `git filter-repo` + force push is enough
 → GitHub Enterprise admin and manual server-side `git gc` is **not** required
 
 **References:**

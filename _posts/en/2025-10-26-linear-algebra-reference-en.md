@@ -98,6 +98,6 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 
 Good luck tomorrow—focus on understanding over memorizing!
 
-[Linear Algebra Cheat Sheet - Laurent Lessard](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)  
-[Linear Algebra Review - Yiping Lu](https://2prime.github.io/files/linear/finalsheet.pdf)  
+[Linear Algebra Cheat Sheet - Laurent Lessard](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)
+[Linear Algebra Review - Yiping Lu](https://2prime.github.io/files/linear/finalsheet.pdf)
 [2023 Self-Exam Linear Algebra Questions](https://doc.quark.cn/preview/jiaoyukaoshi-shijuan-gaokao/1130FC966EE595249D3822AFF5DF0167)

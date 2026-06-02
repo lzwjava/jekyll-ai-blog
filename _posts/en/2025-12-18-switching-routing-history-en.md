@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of switching and routing technology?
 
-Answer: 
+Answer:
 
 ### Overview
 Switching and routing technologies form the foundation of modern computer networks, enabling data transfer between devices. Switching operates primarily at Layer 2 (Data Link) of the OSI model, focusing on local networks (e.g., Ethernet LANs), while routing works at Layer 3 (Network), handling interconnections between networks (e.g., the Internet). The evolution shifted from circuit switching (dedicated paths, like traditional telephony) to packet switching (data divided into packets for efficient, shared transmission).
@@ -47,7 +47,7 @@ Packet switching became dominant for data networks due to its flexibility, fault
 ### Modern Developments
 Today, switching and routing converge in devices like multilayer switches. Trends include virtualization, cloud integration, security features (e.g., firewalls), and support for high-bandwidth applications (5G, IoT). Packet switching powers the global Internet, with ongoing improvements in efficiency, security, and scalability.
 
-References:  
+References:
 
 - [Packet switching - Wikipedia](https://en.wikipedia.org/wiki/Packet_switching)
 - [Packet Switching - Engineering and Technology History Wiki](https://ethw.org/Packet_Switching)

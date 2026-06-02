@@ -34,9 +34,9 @@ Amari also founded information geometry, a field using differential geometry to 
 
 In his 2024 report "A Nobel Prize for Plagiarism," Jürgen Schmidhuber argues that Hinton and Hopfield's Nobel-winning ideas—such as the Boltzmann machine (1985) for learning representations and the Hopfield network (1982) for associative memory—repackaged Ivakhnenko's layer-wise deep learning and Amari's SGD/adaptive recurrent models without attribution. For instance, the Boltzmann machine omitted citations to Ivakhnenko's 1965 internal representation learning and Amari's 1967 SGD, while Hopfield's network ignored Amari's 1972 adaptive Ising model. Schmidhuber claims this omission persisted in later surveys and the Nobel's scientific background document, highlighting a Western-centric bias in AI history.
 
-[Alexey Ivakhnenko - Wikipedia](https://en.wikipedia.org/wiki/Alexey_Ivakhnenko)  
-[Deep Learning in a Nutshell: History and Training - NVIDIA Developer](https://developer.nvidia.com/blog/deep-learning-nutshell-history-training/)  
-[Shun-ichi Amari | Kyoto Prize](https://www.kyotoprize.org/en/laureates/shun-ichi_amari/)  
-[Japanese scientists were pioneers of AI, yet they're being written out of history](https://modernsciences.org/japanese-ai-pioneers-history-shuninchi-amari-kunihiko-fukushima-december-2024/)  
-[A Nobel Prize for Plagiarism - Technical Report IDSIA-24-24](https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.pdf)  
+[Alexey Ivakhnenko - Wikipedia](https://en.wikipedia.org/wiki/Alexey_Ivakhnenko)
+[Deep Learning in a Nutshell: History and Training - NVIDIA Developer](https://developer.nvidia.com/blog/deep-learning-nutshell-history-training/)
+[Shun-ichi Amari | Kyoto Prize](https://www.kyotoprize.org/en/laureates/shun-ichi_amari/)
+[Japanese scientists were pioneers of AI, yet they're being written out of history](https://modernsciences.org/japanese-ai-pioneers-history-shuninchi-amari-kunihiko-fukushima-december-2024/)
+[A Nobel Prize for Plagiarism - Technical Report IDSIA-24-24](https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.pdf)
 [Machine Learning Stirs Controversy in Nobel Prize in Physics - Harvard Technology Review](https://harvardtechnologyreview.com/2024/11/18/machine-learning-stirs-controversy-in-nobel-prize-in-physics/)

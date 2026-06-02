@@ -109,4 +109,3 @@ B: Looking at all these examples—from united front tactics to ideological mech
 A: Exactly. Whether students can explain the 'why' and 'how' behind each question—rather than just the 'what' or 'when'—determines whether they’ve truly understood the material. This has been an excellent deep dive.
 
 B: Agreed. These conversations really bring out the living, practical character of the subject. Until next time.
-

@@ -22,8 +22,8 @@ Nginx fails to start because you changed the user to `lzw` (a normal non-root us
 
 When you run nginx as a non-root user (`lzw`), it cannot open `/var/log/nginx/error.log` → **Permission denied (13)** → emergency exit.
 
-The warning message  
-`the "user" directive makes sense only if the master process runs with super-user privileges, ignored`  
+The warning message
+`the "user" directive makes sense only if the master process runs with super-user privileges, ignored`
 confirms exactly this: nginx ignored your `user lzw;` line because it wasn't started as root.
 
 ### Recommended Fix – Keep nginx running as root (master) but drop to user `lzw` for workers

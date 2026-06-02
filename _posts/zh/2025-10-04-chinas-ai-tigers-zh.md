@@ -27,8 +27,8 @@ type: note
 
 简而言之，DeepSeek、智谱和Kimi已是明确的领跑者。DeepSeek凭借原始能力与可及性领先，智谱胜在生态广度（如通过GLM实现AGI愿景），Kimi则在中国用户实际应用体验上占优。这一格局变化反映了快速迭代能力：DeepSeek的R1模型在2025年初发布引发“中国AI再获投资”浪潮，为全行业吸引超50亿美元资金。百川与零一万物在企业级/闭源模型领域保持地位，但未能匹配开源热潮或基准测试的飞跃。若趋势延续，智谱将率先完成IPO，巩固三强格局。
 
-[中国开源模型构建者排名](https://www.interconnects.ai/p/chinas-top-19-open-model-labs)  
-[2025中国AI指数报告](https://www.athenasia.com/post/the-2025-china-ai-index-ranking-the-most-powerful-and-influential-models)  
-[认识中国AI“六虎将”](https://qz.com/china-six-tigers-ai-startup-zhipu-moonshot-minimax-01ai-1851768509)  
-[DeepSeek如何让中国AI重获投资青睐](https://www.deeptech.asia/p/how-deepseek-made-china-investible)  
+[中国开源模型构建者排名](https://www.interconnects.ai/p/chinas-top-19-open-model-labs)
+[2025中国AI指数报告](https://www.athenasia.com/post/the-2025-china-ai-index-ranking-the-most-powerful-and-influential-models)
+[认识中国AI“六虎将”](https://qz.com/china-six-tigers-ai-startup-zhipu-moonshot-minimax-01ai-1851768509)
+[DeepSeek如何让中国AI重获投资青睐](https://www.deeptech.asia/p/how-deepseek-made-china-investible)
 [智谱AI发布GLM-4.5模型](https://www.deeplearning.ai/the-batch/zhipu-ai-z-ai-releases-open-weights-glm-4-5-models-that-perform-comparably-to-the-latest-from-claude-and-deepseek/)

@@ -34,7 +34,7 @@ OpenClaw nextcloud-talk config:
   botSecret: [hidden]
   allowPrivateNetwork: true           ← Allows Docker IPs ✅
   rooms.eu42ecdy.requireMention: false
-  
+
 Bot Registration:
   ID: 9, State: 1, Features: webhook, response, reaction
   Enabled in: eu42ecdy, 7df4dtc5

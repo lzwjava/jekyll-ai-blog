@@ -12,7 +12,7 @@ type: note
 
 Question: What is the content of the webpage at https://solutions.d1r2ovdjcgi66m.amplifyapp.com/2024/06/finance-transformation-platform-hsbc.html?
 
-Answer: 
+Answer:
 
 该网页标题为 **HSBC’s Finance Transformation: A Platform for the Future**。
 
@@ -36,6 +36,6 @@ Answer:
 
 总的来说，内容展示了 HSBC 的 Finance Transformation 是一个战略性的、由技术驱动的演进，旨在创建一个面向未来的组织。
 
-References:  
+References:
 
 - [Original Webpage](https://solutions.d1r2ovdjcgi66m.amplifyapp.com/2024/06/finance-transformation-platform-hsbc.html)

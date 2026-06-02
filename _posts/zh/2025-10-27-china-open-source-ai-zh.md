@@ -14,6 +14,6 @@ type: note
 
 但这真的令人意外吗？放眼全局就会发现并非如此。中国多年来始终聚焦这一领域——回想2017年国家人工智能发展规划，向人才输送管道（清华等高校培养的大批STEM毕业生）投入资源，辅以国家资金支持，以及将AI视作新基建浪潮的社会共识。他们拥有庞大的中文训练数据集，更将美国芯片出口管制转化为优势，通过极致能效比实现突破（例如用囤积的中端GPU以远低于西方成本训练出顶尖模型）。Meta通过Llama推动开源确实大胆，但面对的是中国举国体制下快速规模化与自主可控的强力推进。若要说有什么令人惊讶的，反而是中国在开源领域占据领先地位所用的时间竟比预期更久。
 
-[中国在AI竞赛这一关键领域已超越美国](https://www.washingtonpost.com/technology/2025/10/13/china-us-open-source-ai/)  
-[中国AI突破为何早该在意料之中](https://www.weforum.org/stories/2025/06/china-ai-breakthroughs-no-surprise/)  
+[中国在AI竞赛这一关键领域已超越美国](https://www.washingtonpost.com/technology/2025/10/13/china-us-open-source-ai/)
+[中国AI突破为何早该在意料之中](https://www.weforum.org/stories/2025/06/china-ai-breakthroughs-no-surprise/)
 [震撼硅谷的中国开源AI革命](https://techwireasia.com/2025/07/china-open-source-ai-models-global-rankings/)

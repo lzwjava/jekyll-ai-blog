@@ -50,7 +50,7 @@ Laravel provides database-agnostic migrations that streamline schema changes, wh
 
 ### **Testing & REST APIs**
 
-Laravel enables developers to use PHPUnit for comprehensive and continuous unit testing of application code, while CodeIgniter doesn't include built-in unit testing tools. 
+Laravel enables developers to use PHPUnit for comprehensive and continuous unit testing of application code, while CodeIgniter doesn't include built-in unit testing tools.
 
 Laravel's RESTful Controllers enable developers to build REST APIs efficiently, while CodeIgniter requires writing extra code to create custom REST APIs.
 

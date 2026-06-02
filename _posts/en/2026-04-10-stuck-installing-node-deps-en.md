@@ -26,10 +26,10 @@ This is a very common issue with `npm install` on macOS (and other platforms). T
 
 ### How to fix it right now:
 
-1. **Cancel the current install**  
+1. **Cancel the current install**
    Press **Ctrl + C** (multiple times if needed) to stop the installer.
 
-2. **Go to the project folder**  
+2. **Go to the project folder**
    ```bash
    cd /Users/lzwjava/.hermes/hermes-agent
    ```
@@ -83,7 +83,7 @@ Once the Node.js dependencies install successfully, the rest of the Hermes setup
 
 If it still hangs, run the verbose command above, copy the last few lines of output, and share them here for more precise help. You can also check the official GitHub issues for Hermes Agent if this turns out to be a recent bug.
 
-References:  
-- https://github.com/NousResearch/hermes-agent (project repository and known installer behavior)  
-- https://hermes-agent.nousresearch.com/docs/reference/faq/ (official troubleshooting)  
+References:
+- https://github.com/NousResearch/hermes-agent (project repository and known installer behavior)
+- https://hermes-agent.nousresearch.com/docs/reference/faq/ (official troubleshooting)
 - Common npm install hanging solutions from Stack Overflow and npm community reports.

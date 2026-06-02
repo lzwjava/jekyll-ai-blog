@@ -85,6 +85,6 @@ Vim（Vi IMproved 的简称）是一款功能强大的模态文本编辑器，�
 
 以上内容涵盖快速编辑文件所需的核心功能。欲了解更多技巧，可在 Vim 内使用 `:help` 命令或查阅以下资源：
 
-[Vim 入门指南：基础篇](https://opensource.com/article/19/3/getting-started-vim)  
-[Vim 基础命令大全](https://www.geeksforgeeks.org/linux-unix/basic-vim-commands/)  
+[Vim 入门指南：基础篇](https://opensource.com/article/19/3/getting-started-vim)
+[Vim 基础命令大全](https://www.geeksforgeeks.org/linux-unix/basic-vim-commands/)
 [Vim 速查表](https://vim.rtorr.com/)

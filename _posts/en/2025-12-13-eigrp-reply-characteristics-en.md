@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: Which EIGRP packet is sent as a unicast and requires acknowledgment?  
-A) Hello  
-B) Update  
-C) Query  
+Question: Which EIGRP packet is sent as a unicast and requires acknowledgment?
+A) Hello
+B) Update
+C) Query
 D) Reply
 
-Answer: 
+Answer:
 
 **D) Reply**
 
@@ -27,9 +27,9 @@ In EIGRP, the Reply packet is always sent as a unicast to the router that origin
 - **Query** packets are typically multicast (retransmitted as unicast if needed) and reliable.
 - Only **Reply** consistently matches both criteria: always unicast and always requires acknowledgment.
 
-References:  
+References:
 
-- https://www.computernetworkingnotes.com/ccna-study-guide/eigrp-packet-types-and-rtp-protocol.html  
-- https://www.geeksforgeeks.org/computer-networks/types-of-eigrp-packet-in-computer-network/  
-- https://ipcisco.com/lesson/eigrp-packet-types-and-neighbourship-ccnp/  
+- https://www.computernetworkingnotes.com/ccna-study-guide/eigrp-packet-types-and-rtp-protocol.html
+- https://www.geeksforgeeks.org/computer-networks/types-of-eigrp-packet-in-computer-network/
+- https://ipcisco.com/lesson/eigrp-packet-types-and-neighbourship-ccnp/
 - https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html

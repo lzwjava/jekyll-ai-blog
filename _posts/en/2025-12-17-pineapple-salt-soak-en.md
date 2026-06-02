@@ -12,7 +12,7 @@ type: note
 
 Question: Is putting cut pineapple slices upside down into a bottle of salt water really a convenient method?
 
-Answer: 
+Answer:
 
 Cutting a pineapple into slices and placing them upside down in a bottle filled with salt water is not a widely recognized or documented kitchen hack. Extensive searches across recipes, food blogs, and forums reveal no evidence of this specific technique.
 
@@ -34,7 +34,7 @@ If the goal is convenient storage of pre-cut pineapple:
 
 This keeps the pineapple fresh, reduces mouth irritation, and makes it easy to grab as a snack.
 
-References:  
+References:
 
 - https://www.tasteofhome.com/article/pineapple-in-salt-water/
 - https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/

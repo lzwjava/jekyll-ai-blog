@@ -46,7 +46,7 @@ Most evangelical and many historic Protestant, Catholic, and Orthodox teachers s
 
 ### 3. Main interpretations today (2025 perspective)
 
-- **Futurist** (most common in evangelical circles)  
+- **Futurist** (most common in evangelical circles)
   → One literal future person — a charismatic world leader who will:
   - broker a major Middle East peace deal
   - later betray Israel
@@ -54,16 +54,16 @@ Most evangelical and many historic Protestant, Catholic, and Orthodox teachers s
   - enforce a global economic system (mark of the beast / 666)
   - be indwelt / empowered by Satan
 
-- **Preterist** (partial or full)  
+- **Preterist** (partial or full)
   → Most or all prophecies were fulfilled in the 1st century (Nero, Roman Empire, fall of Jerusalem in AD 70).
 
-- **Historicist** (older Protestant view)  
+- **Historicist** (older Protestant view)
   → Antichrist = a system/person manifesting throughout church history, most often identified with the papacy (16th–19th century Protestant view) or with various empires/popes/leaders over time.
 
-- **Idealist / symbolic**  
+- **Idealist / symbolic**
   → Antichrist represents the recurring spirit of opposition to Christ in every age (tyrants, false religion, secular ideologies, etc.).
 
-- **Catholic view** (mainstream)  
+- **Catholic view** (mainstream)
   Usually futurist but cautious — one final personal Antichrist before Christ returns, but the Church avoids dogmatic speculation about identity or exact timing.
 
 ### Quick summary – most frequent modern evangelical picture

@@ -12,7 +12,7 @@ type: note
 
 Question: Why do we need a 9V battery when six 1.5V batteries also provide 9V, and does the 9V battery occupy more space?
 
-Answer: 
+Answer:
 
 A standard **9V battery** (also known as PP3) is a compact package that internally contains six small 1.5V cells connected in series to deliver 9V. It was originally developed in the 1950s for portable transistor radios, which required a higher voltage (9V) in a small, convenient form factor.
 
@@ -32,9 +32,9 @@ The user mentions that the 9V "occupies more size," but this is likely comparing
 
 In summary, the 9V battery exists for compactness, ease of use, and standardized connection in devices requiring 9V without room for multiple larger cells. It does **not** occupy more size than six 1.5V cells—it occupies considerably less.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Nine-volt_battery  
-- https://electronics.stackexchange.com/questions/322908/batteries-why-use-9v  
-- https://paleblueearth.com/blogs/news/why-would-a-manufacturer-choose-9v-over-aa-batteries  
+- https://en.wikipedia.org/wiki/Nine-volt_battery
+- https://electronics.stackexchange.com/questions/322908/batteries-why-use-9v
+- https://paleblueearth.com/blogs/news/why-would-a-manufacturer-choose-9v-over-aa-batteries
 - https://www.baldengineer.com/9v-battery-energy-density.html

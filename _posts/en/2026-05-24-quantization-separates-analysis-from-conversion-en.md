@@ -91,7 +91,7 @@ Input → [LLM: format/convert/translate] → Output
               ↑
          NOT responsible for:
          - validating its own output
-         - making downstream decisions  
+         - making downstream decisions
          - analyzing whether the conversion was correct
 ```
 

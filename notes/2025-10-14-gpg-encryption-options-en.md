@@ -29,6 +29,6 @@ This encrypts `inputfile.txt` for `recipient@example.com` using keys from `/path
 
 For full details, run `gpg --help` or check the man page.
 
-[ArchWiki: GnuPG](https://wiki.archlinux.org/title/GnuPG)  
-[GPG Cheat Sheet](https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)  
+[ArchWiki: GnuPG](https://wiki.archlinux.org/title/GnuPG)
+[GPG Cheat Sheet](https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
 [GPG Command in Linux](https://www.tutorialspoint.com/unix_commands/gpg.htm)

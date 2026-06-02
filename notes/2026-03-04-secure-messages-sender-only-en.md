@@ -37,9 +37,9 @@ End-to-end encryption means the message stays in encrypted (ciphertext) form fro
 **Why the description emphasizes "even if a node is compromised, the message won't leak":**
 Because only the two communicating endpoints hold the decryption keys. Any middle node (server, router, CDN, ISP equipment, etc.) only forwards ciphertext and has no access to the plaintext or the private keys needed to decrypt it.
 
-In summary:  
+In summary:
 End-to-end encryption protects message content against everyone except the intended recipient — including the service provider itself.
 
-**References:**  
+**References:**
 
 - None (explanation based on standard cryptographic definitions and common industry usage)

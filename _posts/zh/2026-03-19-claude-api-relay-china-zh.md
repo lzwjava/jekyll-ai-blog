@@ -39,9 +39,9 @@ claude-relay-service 是一个自托管的 proxy/relay 工具，它允许用户�
 
 简而言之，中国公民使用上面描述的虚拟电话号码、国际邮箱、VPN 和 US 虚拟卡——没有使用大陆凭证直接合法购买 max plan 的方式。relay 服务使分发变得简单且盈利，前提是获取了主账户。
 
-References:  
-- [claude-relay-service README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)  
-- [2026 Latest Claude Pro Subscription & Registration Tutorial (Chinese methods)](https://github.com/imarvinle/Claude-Pro)  
-- [Claude Pro Payment with Virtual Cards Guide](https://sites.google.com/view/coinepaynet/visa_ka/Claude)  
-- [YouTube Tutorial on Safe Claude Registration with Virtual Number & WildCard](https://www.youtube.com/watch?v=vvD2jUZYPgI)  
+References:
+- [claude-relay-service README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
+- [2026 Latest Claude Pro Subscription & Registration Tutorial (Chinese methods)](https://github.com/imarvinle/Claude-Pro)
+- [Claude Pro Payment with Virtual Cards Guide](https://sites.google.com/view/coinepaynet/visa_ka/Claude)
+- [YouTube Tutorial on Safe Claude Registration with Virtual Number & WildCard](https://www.youtube.com/watch?v=vvD2jUZYPgI)
 - [How to Use Claude in Unsupported Countries (VPN + alternatives)](https://writingmate.ai/blog/how-to-use-claude-3-in-unsupported-countries)

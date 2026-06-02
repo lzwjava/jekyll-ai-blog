@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-Question: In which folder should drawable resources like images be placed?  
-A) res/values  
-B) res/layout  
-C) res/drawable  
+Question: In which folder should drawable resources like images be placed?
+A) res/values
+B) res/layout
+C) res/drawable
 D) res/menu
 
-Answer: 
+Answer:
 
 The correct answer is **C) res/drawable**.
 

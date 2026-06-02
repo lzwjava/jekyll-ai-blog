@@ -11,8 +11,8 @@ type: note
 
 Question: How is the local performance of the Qwen 3.5 27B model distilled from Claude 4.6 Opus, particularly when run using oMLX?
 
-Answer: 
-The **Qwen 3.5 27B Claude 4.6 Opus Reasoning Distill** (often referred to by the community as "Qwopus") has gained significant traction for its exceptional balance of size and intelligence. When paired with **oMLX** (an open-source MLX inference server optimized for Apple Silicon), it creates a highly capable local development environment. 
+Answer:
+The **Qwen 3.5 27B Claude 4.6 Opus Reasoning Distill** (often referred to by the community as "Qwopus") has gained significant traction for its exceptional balance of size and intelligence. When paired with **oMLX** (an open-source MLX inference server optimized for Apple Silicon), it creates a highly capable local development environment.
 
 Here is a breakdown of its performance and capabilities based on recent community testing:
 
@@ -30,7 +30,7 @@ If you are running this model on a Mac using oMLX, the performance is heavily au
 * **Paged SSD Caching:** oMLX persists the KV cache across a hot in-memory tier and a cold SSD tier. This means that if you change context mid-conversation or return to a previous coding session, past context is restored instantly from the SSD instead of being recomputed. This is a massive time-saver for long coding sessions.
 * **Continuous Batching:** It natively supports continuous batching and seamless integration with OpenAI-compatible clients, making it incredibly stable for local API usage without the model "overthinking" or looping endlessly.
 
-Overall, the Claude 4.6 Opus distilled version of Qwen 3.5 27B is currently considered one of the most practical and capable open-weights models for daily, local "vibe coding," provided you give it proper planning and clear context. 
+Overall, the Claude 4.6 Opus distilled version of Qwen 3.5 27B is currently considered one of the most practical and capable open-weights models for daily, local "vibe coding," provided you give it proper planning and clear context.
 
 References:
 * [Distilled qwen 3.5 27b is surprisingly good at driving Cursor. : r/LocalLLaMA - Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1s2ql21/distilled_qwen_35_27b_is_surprisingly_good_at/)

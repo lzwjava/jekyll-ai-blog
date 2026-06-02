@@ -11,7 +11,7 @@ type: note
 
 **Question:** What is the English version of "如何避免愚蠢的见识" (by Russell) from the University Chinese (大学语文, course code 04729) textbook?
 
-**Answer:** 
+**Answer:**
 
 The text "如何避免愚蠢的见识" included in the Chinese self-study examination course *University Chinese* (大学语文, code 04729) is a Chinese translation and adaptation of Bertrand Russell's essay **"How to Avoid Foolish Opinions"** (also commonly titled **"How to Avoid Foolish Impressions"** or similar variations in some collections). This short, practical essay appears in various anthologies of Russell's writings on clear thinking, skepticism, and intellectual humility, such as selections from *Mortals and Others* (1931–1935) or later compilations like *Unpopular Essays* and *The Bertrand Russell Pocket Library*.
 
@@ -51,7 +51,7 @@ The textbook version in 大学语文 (04729) usually highlights these main point
 
 These rules promote intellectual humility and rational inquiry.
 
-**References:**  
+**References:**
 
 - [山东自考04729《大学语文》复习资料：《如何避免愚蠢的见识》](https://www.sdzk.co/biji/2018/0903/10845.html)
 - [自考04729《大学语文》课程讲义：《如何避免愚蠢的见识》](http://www.fjzikao.net/biji/2015/0928/6887.html)

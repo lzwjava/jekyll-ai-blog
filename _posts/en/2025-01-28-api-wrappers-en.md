@@ -20,7 +20,7 @@ def translate_text(text, target_language, special=False):
         print(f"  Skipping translation for English: {text[:50]}...")
         return text
     print(f"  Translating text: {text[:50]}...")
-    
+
     retries = 3
     for attempt in range(retries):
         try:

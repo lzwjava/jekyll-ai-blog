@@ -63,7 +63,7 @@ import httpx
 class AuthService:
     def __init__(self, user_svc_url: str):
         self.user_svc = user_svc_url
-    
+
     async def login(self, email: str, password: str):
         # 同步调用用户服务
         async with httpx.AsyncClient() as client:
@@ -73,11 +73,11 @@ class AuthService:
             )
         if user_resp.status_code != 200:
             raise AuthError("用户未找到")
-        
+
         user = user_resp.json()
         if not self.verify_password(password, user['password_hash']):
             raise AuthError("密码无效")
-        
+
         token = self.generate_jwt(user['id'])
         return {"access_token": token, "user_id": user['id']}
 ```
@@ -90,7 +90,7 @@ class AuthService:
 class PaymentService:
     def __init__(self, queue_client):
         self.queue = queue_client
-    
+
     async def process_payment(self, user_id: str, amount: float):
         # 调用 Stripe API
         charge = stripe.Charge.create(
@@ -98,7 +98,7 @@ class PaymentService:
             currency="usd",
             customer=user_id
         )
-        
+
         # 向队列发射事件（异步通知）
         await self.queue.publish("payment.completed", {
             "user_id": user_id,
@@ -106,14 +106,14 @@ class PaymentService:
             "charge_id": charge.id,
             "timestamp": datetime.now().isoformat()
         })
-        
+
         return {"status": "completed", "charge_id": charge.id}
 
 # 任务工作进程（独立进程/服务）
 class NotificationWorker:
     def __init__(self, queue_client):
         self.queue = queue_client
-    
+
     async def run(self):
         async for event in self.queue.subscribe("payment.completed"):
             user = await self.get_user(event['user_id'])
@@ -246,16 +246,16 @@ async def verify_token(authorization: str = Header(None)):
     """将认证检查转发到认证服务"""
     if not authorization:
         raise HTTPException(status_code=401, detail="缺少认证头")
-    
+
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             f"{AUTH_SERVICE}/verify",
             json={"token": authorization.replace("Bearer ", "")}
         )
-    
+
     if resp.status_code != 200:
         raise HTTPException(status_code=401, detail="令牌无效")
-    
+
     return resp.json()
 
 @app.post("/api/v1/auth/login")
@@ -283,7 +283,7 @@ async def charge(amount: float, user_id: str, user_data = Depends(verify_token))
     """经过认证的请求转发到支付服务"""
     if user_data['user_id'] != user_id:
         raise HTTPException(status_code=403, detail="禁止访问")
-    
+
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             f"{PAYMENT_SERVICE}/charge",
@@ -329,16 +329,16 @@ async def login(req: LoginRequest):
             f"{USER_SERVICE}/users/by-email",
             params={"email": req.email}
         )
-    
+
     if user_resp.status_code != 200:
         raise HTTPException(status_code=401, detail="邮箱或密码无效")
-    
+
     user = user_resp.json()
-    
+
     # 生产环境中应使用 bcrypt 验证密码
     if not verify_password(req.password, user['password_hash']):
         raise HTTPException(status_code=401, detail="邮箱或密码无效")
-    
+
     # 生成 JWT
     payload = {
         "user_id": user['id'],
@@ -346,7 +346,7 @@ async def login(req: LoginRequest):
         "exp": datetime.utcnow() + timedelta(hours=24)
     }
     token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
-    
+
     return {"access_token": token, "user_id": user['id']}
 
 @app.post("/verify")

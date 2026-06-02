@@ -27,13 +27,13 @@ import pygetwindow as gw
 ### Getting Window Objects
 PyGetWindow represents windows as `Window` objects. You can retrieve windows by title, process, or other attributes.
 
-- **Get all window objects**:  
+- **Get all window objects**:
   Use `gw.getAllWindows()` to return a list of all open windows.
 
-- **Get windows by title**:  
+- **Get windows by title**:
   Use `gw.getWindowsWithTitle(title)` or `gw.getFirstWindowWithTitle(title)` for partial or exact matches.
 
-- **Get active window**:  
+- **Get active window**:
   Use `gw.getActiveWindow()` to get the currently focused window.
 
 Example:
@@ -47,7 +47,7 @@ notepad = gw.getWindowsWithTitle('Notepad')  # List of windows with 'Notepad' in
 Once you have a `Window` object, you can access properties and methods like:
 
 - **Properties**: `title`, `left`, `top`, `width`, `height`, `isMinimized`, `isMaximized`, `isActive`.
-- **Methods**: 
+- **Methods**:
   - `activate()`: Bring the window to the front and make it active.
   - `maximize()` / `minimize()` / `restore()` / `close()`: Control window state.
   - `resize() / move()`: Adjust size and position.

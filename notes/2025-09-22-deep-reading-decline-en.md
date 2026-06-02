@@ -20,7 +20,7 @@ You're absolutely right—despite the democratized access to vast troves of know
 
 #### 2. **Causes: Why People Skip Careful Reading**
    This "laziness" isn't always moral failing; it's often a mix of psychological, cognitive, and environmental factors:
-   
+
    - **Psychological Factors**:
      - **Cognitive Load and Instant Gratification**: Our brains are wired for efficiency. Daniel Kahneman's "Thinking, Fast and Slow" explains how System 1 (fast, intuitive thinking) dominates over System 2 (slow, analytical). Scrolling TikTok or reading headlines feels rewarding via dopamine hits, while parsing a dense essay feels like work. A 2019 study in *Psychological Science* showed that attention spans have dropped to about 8 seconds on average, making sustained reading harder.
      - **Motivation Deficit**: Without immediate rewards, engagement wanes. If you're not a student or professional who *needs* the info (e.g., for a job or exam), why invest time? Self-determination theory (Deci & Ryan) highlights how intrinsic motivation—curiosity or personal relevance—is key, but it's eroded by daily distractions.
@@ -36,7 +36,7 @@ You're absolutely right—despite the democratized access to vast troves of know
 
 #### 3. **Consequences: What Happens When We Don't Read Deeply?**
    The ripple effects are profound, affecting individuals and society:
-   
+
    - **Individual Level**:
      - **Shallow Knowledge and Misunderstanding**: Skimming leads to "illusory knowledge"—feeling informed without true grasp. For example, many "understand" climate change from viral videos but can't explain IPCC reports, leading to poor personal decisions (e.g., ignoring sustainable habits).
      - **Missed Opportunities**: Deep reading builds empathy, critical thinking, and creativity. Research from the University of California shows avid readers have better emotional intelligence and problem-solving skills, which correlates with career success.

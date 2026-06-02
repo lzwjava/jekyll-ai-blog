@@ -12,7 +12,7 @@ type: note
 
 问题：关于创伤有哪些不受欢迎的观点？
 
-回答： 
+回答：
 
 关于心理创伤，在公共讨论中，特别是在社交媒体、论坛和评论文章中，出现了一些有争议或不受欢迎的观点。这些观点常常挑战主流的创伤知情方法，后者强调广泛认识创伤的影响。请注意，这些是观点，并非临床共识，许多观点与已证实创伤具有深远影响的既定心理学研究相悖。
 
@@ -25,11 +25,11 @@ type: note
 
 这些观点在心理健康领域是不合时宜的，因为该领域强调验证所有的创伤经历以减少耻辱。然而，支持者通过指出普遍存在的过度诊断、滥用“triggered”等术语以及个人逃避责任的案例来证实这些观点。
 
-参考文献：  
+参考文献：
 
-- https://www.psychologytoday.com/us/blog/invisible-bruises/202305/why-is-everything-about-trauma-lately  
-- https://www.reddit.com/r/unpopularopinion/comments/gm4erl/not_everything_bad_that_happens_to_you_is_trauma/  
-- https://www.reddit.com/r/unpopularopinion/comments/tm3rcd/people_nowadays_are_way_too_focused_on_their/  
-- https://www.psychologytoday.com/us/blog/invisible-bruises/202504/a-trauma-history-is-no-excuse-for-abuse  
-- https://www.psychologytoday.com/us/blog/the-truth-about-exercise-addiction/202205/trauma-is-not-excuse  
+- https://www.psychologytoday.com/us/blog/invisible-bruises/202305/why-is-everything-about-trauma-lately
+- https://www.reddit.com/r/unpopularopinion/comments/gm4erl/not_everything_bad_that_happens_to_you_is_trauma/
+- https://www.reddit.com/r/unpopularopinion/comments/tm3rcd/people_nowadays_are_way_too_focused_on_their/
+- https://www.psychologytoday.com/us/blog/invisible-bruises/202504/a-trauma-history-is-no-excuse-for-abuse
+- https://www.psychologytoday.com/us/blog/the-truth-about-exercise-addiction/202205/trauma-is-not-excuse
 - https://cptsdfoundation.org/2025/06/23/when-everything-is-trauma-nothing-is-the-dangerous-fallout-of-diagnostic-buzzwords/

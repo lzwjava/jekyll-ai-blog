@@ -189,7 +189,7 @@ wb.save("output.xlsx")
 对于 100 万行 × 10 列：
 
 - `fastexcel` → 约 2 秒，约 200MB RAM
-- 通过 pandas 使用 `calamine` → 约 5 秒，约 400MB RAM  
+- 通过 pandas 使用 `calamine` → 约 5 秒，约 400MB RAM
 - `openpyxl` 默认模式 → 约 60 秒，约 2GB RAM
 - `openpyxl` read_only 流式模式 → 约 30 秒，约 50MB RAM
 

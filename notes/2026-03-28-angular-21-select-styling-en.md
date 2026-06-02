@@ -35,7 +35,7 @@ If you need to apply multiple classes based on a condition (e.g., "apply `high-p
 ```html
 <select>
   @for (opt of dropdownOptions; track opt.id) {
-    <option 
+    <option
       [value]="opt.id"
       [ngClass]="{
         'text-red': opt.isUrgent,

@@ -38,10 +38,10 @@ type: note
 
 如果这个理论成立（越来越多证据表明确实如此，尤其对积极干预的中低度近视成人），将彻底颠覆认知：眼镜不是元凶，*使用方式*才是。对基础问题的质疑可能让后代免于-10.00D的高度近视和手术之苦。您目前的进展如何——尝试过多焦点镜片了吗？
 
-[近视：一种现代却可逆的疾病 —— 托德·贝克尔](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)  
-[王垠自然视力恢复法的实验验证](https://lzwjava.github.io/vision-restoration-en)  
-[自然视力恢复："刚好看清"原则](https://lzwjava.github.io/barely-clear-en)  
-[运用多焦点渐进镜逆转近视](https://lzwjava.github.io/multifocal-en)  
-[矫正与否？关于配镜矫治的实际证据](https://pmc.ncbi.nlm.nih.gov/articles/PMC7356996/)  
-[近视欠矫与足矫的荟萃分析](https://pmc.ncbi.nlm.nih.gov/articles/PMC7752985/)  
+[近视：一种现代却可逆的疾病 —— 托德·贝克尔](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)
+[王垠自然视力恢复法的实验验证](https://lzwjava.github.io/vision-restoration-en)
+[自然视力恢复："刚好看清"原则](https://lzwjava.github.io/barely-clear-en)
+[运用多焦点渐进镜逆转近视](https://lzwjava.github.io/multifocal-en)
+[矫正与否？关于配镜矫治的实际证据](https://pmc.ncbi.nlm.nih.gov/articles/PMC7356996/)
+[近视欠矫与足矫的荟萃分析](https://pmc.ncbi.nlm.nih.gov/articles/PMC7752985/)
 [为何我们认为近视流行潮可被延缓](https://www.newscientist.com/article/mg26435170-700-why-we-now-think-the-myopia-epidemic-can-be-slowed-or-even-reversed/)

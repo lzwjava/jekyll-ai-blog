@@ -12,7 +12,7 @@ type: note
 
 Question: Kaggle 竞赛中常用的技术有哪些？
 
-Answer: 
+Answer:
 
 Kaggle 竞赛涉及广泛的 Machine Learning 任务，成功的参赛者（特别是顶级选手和 Grandmasters）依靠一套经过验证的技术来获得高排名。尽管这些方法随着时间的推移不断演进，但到 2025 年为止，它们在 Tabular Data、Computer Vision、NLP 和其他领域仍然保持一致。以下是最常用且有效的技术总结：
 
@@ -77,7 +77,7 @@ Kaggle 竞赛涉及广泛的 Machine Learning 任务，成功的参赛者（特�
 
 这些技术是经久不衰的，但会适配新的工具（例如更好的 AutoML，用于 Tabular Data 的 Transformers）。对于特定领域竞赛 (CV/NLP)，会加入 Pre-trained models 和 Fine-tuning，但核心 Pipeline 保持相似。
 
-References:  
+References:
 
 - [Mastering Kaggle Competitions: Strategies, Techniques, and Insights for Success](https://www.analyticsvidhya.com/blog/2024/09/mastering-kaggle-competitions/)
 - [Winning Tips on Machine Learning Competitions by Kazanova](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)

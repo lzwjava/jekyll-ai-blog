@@ -140,11 +140,11 @@ public class SimpleRocksDBExample {
     public static void main(String[] args) {
         RocksDB.loadLibrary();  // 加载原生库
         Options options = new Options().setCreateIfMissing(true);
-        
+
         try (RocksDB db = RocksDB.open(options, "/tmp/rocksdb_example")) {
             // 放入键值对
             db.put("hello".getBytes(), "world".getBytes());
-            
+
             // 获取值
             byte[] value = db.get("hello".getBytes());
             if (value != null) {

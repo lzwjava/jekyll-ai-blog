@@ -69,5 +69,5 @@ Based on GitHub stars as of November 2025, here's an expanded list of the top 50
 
 This list underscores Rust's dominance in tooling, web, and blockchain spaces. For the latest updates or deeper dives, explore GitHub directly.
 
-[GitHub Ranking - Top 100 Stars in Rust](https://evanli.github.io/Github-Ranking/Top100/Rust.html)  
+[GitHub Ranking - Top 100 Stars in Rust](https://evanli.github.io/Github-Ranking/Top100/Rust.html)
 [TOP 61 Rust Open Source Projects in 2025](https://web3.career/learn-web3/top-rust-open-source-projects)

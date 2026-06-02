@@ -19,7 +19,7 @@ At its heart, gradient boosting treats the learning process as an optimization p
 
 #### How It Works: Step-by-Step
 1. **Initialize the Model**: Start with a simple base model, often just the mean of the target variable (for regression) or log-odds (for classification).
-   
+
 2. **Compute Residuals (Pseudo-Residuals)**: For each iteration, calculate the residuals—the differences between actual and predicted values. These represent the "errors" the next model needs to address.
 
 3. **Fit a Weak Learner**: Train a new weak learner (e.g., a shallow decision tree) on these residuals. The goal is to predict the direction and magnitude of corrections needed.

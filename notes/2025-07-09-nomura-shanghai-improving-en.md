@@ -18,7 +18,7 @@ Net loss at Shanghai-based Nomura Orient International Securities narrowed 30% t
 
 The Shanghai operation has struggled since its launch. Nomura Orient International Securities, Nomura Holdings' Shanghai-based joint venture brokerage, lost 184.5 million yuan ($26 million) in 2023, marking the fourth straight year of losses since its launch. The losses have been substantial over the years:
 - 2024: 128.7 million yuan ($18 million) - improved
-- 2023: 184.5 million yuan ($26 million) 
+- 2023: 184.5 million yuan ($26 million)
 - 2022: 225 million yuan ($30.75 million)
 - 2021: 84 million yuan
 

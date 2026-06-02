@@ -12,7 +12,7 @@ type: note
 
 Question: Which command is used to configure a port as a trunk port on a switch?
 
-Answer: 
+Answer:
 
 The correct answer is **B) switchport mode trunk**.
 

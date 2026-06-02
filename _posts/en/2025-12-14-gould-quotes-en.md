@@ -12,7 +12,7 @@ type: note
 
 Question: What are Glenn Gould's quotes?
 
-Answer: 
+Answer:
 
 Glenn Gould (1932–1982), the renowned Canadian pianist famous for his interpretations of Bach, was also a thoughtful writer and speaker on music, art, and life. Here are some of his most notable and frequently cited quotes:
 
@@ -33,7 +33,7 @@ These quotes reflect Gould's views on solitude, the role of art, and his eccentr
 
 ![Glenn Gould in performance posture](https://jacquesmariemage.com/cdn/shop/files/Z-2ytndAxsiBwPwu_JMM_HP-1_JOURNAL_MAIN_DESKTOP.webp?v=1747861096)
 
-References:  
+References:
 
 - [Goodreads: Glenn Gould Quotes](https://www.goodreads.com/author/quotes/228947.Glenn_Gould)
 - [A-Z Quotes: Glenn Gould](https://www.azquotes.com/author/22110-Glenn_Gould)

@@ -43,8 +43,8 @@ Prices are for 18-hole green fees (including caddie and shared buggy unless note
 
 For more options, search BaiGolf for real-time availability. Affordable 9-hole rounds start at ~600 RMB in nearby areas like Dapeng.
 
-[GuangDong Tee Booking - Golf007](https://golf007.com/eng/guangdong-tee-booking/)  
-[Guangzhou South Lake G&C Club | BaiGolf](https://w.baigolf.com/course.php?act=detail&golf_course_id=5625&lan=en_us)  
-[THE BEST Guangzhou Golf Courses (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c61-t60-Guangzhou_Guangdong.html)  
-[How Much is China Golf Cost? Full 2025 Guide - GolfLux](https://www.golflux.com/how-much-is-china-golf-cost-full-2025-guide/)  
+[GuangDong Tee Booking - Golf007](https://golf007.com/eng/guangdong-tee-booking/)
+[Guangzhou South Lake G&C Club | BaiGolf](https://w.baigolf.com/course.php?act=detail&golf_course_id=5625&lan=en_us)
+[THE BEST Guangzhou Golf Courses (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-c61-t60-Guangzhou_Guangdong.html)
+[How Much is China Golf Cost? Full 2025 Guide - GolfLux](https://www.golflux.com/how-much-is-china-golf-cost-full-2025-guide/)
 [Dragon Lake Golf Club - Where2Golf](https://www.where2golf.com/china/dragon-lake-golf-club/)

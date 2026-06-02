@@ -13,7 +13,7 @@ type: note
 In his NeurIPS 2024 Test of Time award talk on the 2014 "Sequence to Sequence Learning with Neural Networks" paper, Ilya Sutskever reflected on key insights and missteps from that era. One major point he addressed under "what we got wrong" was the overcomplication and eventual limitations of LSTMs (Long Short-Term Memory networks), which powered early sequence modeling breakthroughs like machine translation.
 
 ### The Core Misconception About LSTMs
-We treated LSTMs as a fundamentally novel, intricate architecture tailored specifically for sequential data—something "special" that deep learning researchers had to painstakingly engineer to handle time dependencies, vanishing gradients, and recurrence. In reality, Sutskever explained, LSTMs were far simpler than that: **they're essentially a ResNet (Residual Network) rotated 90 degrees**. 
+We treated LSTMs as a fundamentally novel, intricate architecture tailored specifically for sequential data—something "special" that deep learning researchers had to painstakingly engineer to handle time dependencies, vanishing gradients, and recurrence. In reality, Sutskever explained, LSTMs were far simpler than that: **they're essentially a ResNet (Residual Network) rotated 90 degrees**.
 
 - **ResNets** (introduced in 2015) revolutionized image processing by adding skip connections (residuals) that let information flow directly across layers, enabling much deeper networks without training instability.
 - LSTMs (from 1997) did something analogous but in the *temporal dimension*: their gates and cell state act like residuals, allowing gradients and information to propagate over long sequences without fading. It's the same principle—just "rotated" from spatial stacking (e.g., pixels in an image) to temporal stacking (e.g., words in a sentence).
@@ -28,6 +28,6 @@ In hindsight, the "wrong" part wasn't inventing LSTMs—they were a heroic inter
 
 This perspective reframes LSTMs not as a relic, but as a foundational step in understanding how skip connections unlock depth across dimensions.
 
-[Sequence to Sequence Learning with Neural Networks: What a Decade – Transcript & Video](https://kingy.ai/news/sequence-to-sequence-learning-with-neural-networks-what-a-decade-transcript-video/)  
-[Ilya Sutskever NeurIPS 2024 full talk](https://www.youtube.com/watch?v=1yvBqasHLZs)  
+[Sequence to Sequence Learning with Neural Networks: What a Decade – Transcript & Video](https://kingy.ai/news/sequence-to-sequence-learning-with-neural-networks-what-a-decade-transcript-video/)
+[Ilya Sutskever NeurIPS 2024 full talk](https://www.youtube.com/watch?v=1yvBqasHLZs)
 [Reflections from Ilya's Full Talk at NeurIPS 2024](https://dlyog.com/papers/one_internet_v1)

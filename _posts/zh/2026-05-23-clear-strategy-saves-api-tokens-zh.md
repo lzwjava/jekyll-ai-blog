@@ -69,7 +69,7 @@ def compress_session(client, history):
     )
     # 现在清除历史，只注入总结
     return [{
-        "role": "user", 
+        "role": "user",
         "content": f"[会话恢复] 上下文：{summary.content[0].text}"
     }]
 ```

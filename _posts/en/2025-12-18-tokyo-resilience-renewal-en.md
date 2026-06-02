@@ -12,7 +12,7 @@ type: note
 
 Question: What is the history of Tokyo over the last 100 years, including some key events and milestones?
 
-Answer: 
+Answer:
 
 Tokyo's history over the past century (approximately 1925–2025) has been marked by devastating disasters, wartime destruction, remarkable post-war recovery, economic highs and lows, and ongoing urban transformation into a global metropolis.
 
@@ -36,7 +36,7 @@ The 2011 Tōhoku earthquake and tsunami indirectly affected Tokyo (liquefaction 
 
 Tokyo has evolved from a city repeatedly razed by disaster and war into one of the world's most populous, innovative, and resilient metropolises, with a population around 37 million in the greater area as of 2025.
 
-References:  
+References:
 
 - [History of Tokyo - Wikipedia](https://en.wikipedia.org/wiki/History_of_Tokyo)
 - [Great Kantō Earthquake - Wikipedia](https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake)

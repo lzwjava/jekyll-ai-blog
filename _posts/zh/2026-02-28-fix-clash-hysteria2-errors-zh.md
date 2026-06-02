@@ -19,7 +19,7 @@ Hysteria2 支持在 **Clash Meta** (mihomo) core 中从大约 version 1.16+ (202
 
 ### 快速修复选项 (Mac)
 
-1. **推荐：切换到 mihomo (Clash Meta core)**  
+1. **推荐：切换到 mihomo (Clash Meta core)**
    从官方 MetaCubeX/mihomo releases 下载最近的 macOS AMD64 二进制文件：
 
    - 前往 → https://github.com/MetaCubeX/mihomo/releases
@@ -32,22 +32,22 @@ Hysteria2 支持在 **Clash Meta** (mihomo) core 中从大约 version 1.16+ (202
 
    macOS 上的大多数现代 Clash GUI 客户端 (Clash Verge Rev、Mihomo Party、FlClash 等) 已经内置了最近的 mihomo cores，并开箱即用支持 hysteria2。
 
-2. **备选：使用现代 GUI 客户端代替命令行二进制文件**  
+2. **备选：使用现代 GUI 客户端代替命令行二进制文件**
    2025–2026 年 macOS 的热门选择：
 
-   - **Clash Verge Rev** → https://github.com/clash-verge-rev/clash-verge-rev/releases  
+   - **Clash Verge Rev** → https://github.com/clash-verge-rev/clash-verge-rev/releases
      (维护非常活跃，优秀的 hysteria2 / TUIC / VLESS Reality 支持)
 
-   - **Mihomo Party** → https://github.com/pompurin404/mihomo-party  
+   - **Mihomo Party** → https://github.com/pompurin404/mihomo-party
      (非常用户友好，专为 mihomo 构建)
 
    - **FlClash** → https://github.com/chen08209/FlClash
 
    这些客户端会自动处理 config 解析、core 更新和 hy2 节点。
 
-3. **如果你必须只使用命令行**  
+3. **如果你必须只使用命令行**
    - 下载 mihomo 二进制文件 (如选项 1)
-   - 或从源代码编译：https://github.com/MetaCubeX/mihomo  
+   - 或从源代码编译：https://github.com/MetaCubeX/mihomo
      (go install github.com/MetaCubeX/mihomo@alpha)
 
 ### 总结表格

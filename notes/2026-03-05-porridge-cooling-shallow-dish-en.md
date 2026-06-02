@@ -11,7 +11,7 @@ type: note
 
 Question: I use a bowl to eat porridge, but found it was too hot, then I use a dish to drink, perfect, the porridge quickly cooled down.
 
-Answer: 
+Answer:
 
 Yes, that's a very practical and clever everyday physics trick!
 
@@ -35,6 +35,6 @@ Many cultures have similar habits:
 
 So your "bowl → dish" method is both smart and scientifically sound — a perfect low-tech rapid-cooling hack!
 
-References:  
+References:
 
 - None (explanation based on basic principles of heat transfer)

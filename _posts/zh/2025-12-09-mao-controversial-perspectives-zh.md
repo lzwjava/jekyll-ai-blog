@@ -27,9 +27,9 @@ type: note
 
 这些观点在不同的语境下是“不受欢迎的”：强烈支持毛泽东的观点在大多数西方论述和许多海外华人中是禁忌，而“毛泽东只是另一个皇帝”的观点在官方中华人民共和国意识形态中是不可接受的。
 
-参考文献：  
-- [Frank Dikötter的《毛泽东的大饥荒》（反驳最小化叙事）](https://www.bloomsbury.com/us/maos-great-famine-9780802779236/)  
-- [Jung Chang & Jon Halliday的《毛：不为人知的故事》（极致批判观点）](https://www.penguinrandomhouse.com/books/175448/mao-by-jung-chang-and-jon-halliday/)  
-- [Philip Short的《毛：一生》（更平衡的传记）](https://us.macmillan.com/books/9780805066388/mao)  
-- [杨继绳的《墓碑》（关于大跃进饥荒的中文调查）](https://www.hup.harvard.edu/books/9780374277932)  
+参考文献：
+- [Frank Dikötter的《毛泽东的大饥荒》（反驳最小化叙事）](https://www.bloomsbury.com/us/maos-great-famine-9780802779236/)
+- [Jung Chang & Jon Halliday的《毛：不为人知的故事》（极致批判观点）](https://www.penguinrandomhouse.com/books/175448/mao-by-jung-chang-and-jon-halliday/)
+- [Philip Short的《毛：一生》（更平衡的传记）](https://us.macmillan.com/books/9780805066388/mao)
+- [杨继绳的《墓碑》（关于大跃进饥荒的中文调查）](https://www.hup.harvard.edu/books/9780374277932)
 - [Roderick MacFarquhar的《毛泽东的最后一次革命》（西方关于文化大革命的标准记述）](https://www.hup.harvard.edu/books/9780674027480)

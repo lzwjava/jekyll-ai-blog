@@ -12,7 +12,7 @@ type: note
 
 Question: What does "expats" mean?
 
-Answer: 
+Answer:
 
 **Expats** is the common shortened form of **expatriates**.
 

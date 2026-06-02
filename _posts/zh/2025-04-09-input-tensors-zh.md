@@ -200,7 +200,7 @@ for epoch in range(num_reward_epochs):
 
         # 基于批量大小创建标签张量
         labels = torch.ones(preferred_reward.size(0)).to(device)  # 形状: [1]
-        
+
         # 计算损失
         loss = reward_criterion(preferred_reward, less_preferred_reward, labels)
 
@@ -208,7 +208,7 @@ for epoch in range(num_reward_epochs):
         reward_optimizer.zero_grad()
         loss.backward()
         reward_optimizer.step()
-    
+
     print(f"奖励轮次 {epoch+1}, 损失: {loss.item()}")
 ```
 

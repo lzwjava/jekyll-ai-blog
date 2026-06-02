@@ -24,5 +24,5 @@ type: note
 
 如果您想获得确切的数量，可以使用 Hugging Face Hub API（例如，使用 `huggingface_hub.list_repo_files`）以编程方式计算，但上述大致数字是人们通常在下载或处理完整数据集时使用的。
 
-[FineWeb 数据集卡片](https://huggingface.co/datasets/HuggingFaceFW/fineweb)  
+[FineWeb 数据集卡片](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 [FineWeb 数据树（示例数据转储）](https://huggingface.co/datasets/HuggingFaceFW/fineweb/tree/main/data)

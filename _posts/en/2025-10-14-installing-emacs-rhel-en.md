@@ -19,22 +19,22 @@ Red Hat Enterprise Linux (RHEL) primarily uses the DNF package manager for insta
 - Your system should be registered with Red Hat Subscription Management if using official RHEL repositories.
 
 #### Installation Steps
-1. **Update your package cache** (recommended to ensure you get the latest available version):  
+1. **Update your package cache** (recommended to ensure you get the latest available version):
    ```
    sudo dnf update
    ```
 
-2. **Install Emacs**:  
+2. **Install Emacs**:
    ```
    sudo dnf install emacs
-   ```  
+   ```
    This will install the latest stable version available in the repositories (e.g., Emacs 28.x or 29.x, depending on your RHEL version).
 
-3. **Verify the installation**:  
-   Run the following to check the version:  
+3. **Verify the installation**:
+   Run the following to check the version:
    ```
    emacs --version
-   ```  
+   ```
    You should see output like `GNU Emacs 28.2` (or similar).
 
 #### Notes
@@ -42,5 +42,5 @@ Red Hat Enterprise Linux (RHEL) primarily uses the DNF package manager for insta
 - For the absolute latest Emacs version (e.g., 29+), you may need to compile from source or use third-party repositories like EPEL, as base repos might lag behind.
 - To launch Emacs, simply type `emacs` in the terminal.
 
-[GNU Emacs FAQ: Installing Emacs](https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Emacs.html)  
+[GNU Emacs FAQ: Installing Emacs](https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Emacs.html)
 [Red Hat Documentation: Managing Software with DNF](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/managing_software_with_the_dnf_tool/index)

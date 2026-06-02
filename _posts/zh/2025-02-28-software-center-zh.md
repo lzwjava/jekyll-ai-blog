@@ -17,16 +17,16 @@ type: note
 ---
 
 ### 这些服务及其作用是什么？
-**services.msc 概述**  
+**services.msc 概述**
 services.msc 是用于服务的 Microsoft 管理控制台，允许您查看和管理 Windows 计算机上的所有服务。要修复软件中心下载问题，您应使用它来确保 sms 代理主机服务正在运行。如果未运行，启动它可能会解决问题。
 
-**adaptiveclient 说明**  
+**adaptiveclient 说明**
 adaptiveclient 可能指的是 Adaptiva 客户端服务，属于 Adaptiva 系统管理软件的一部分，该软件与 Configuration Manager 集成 ([Adaptiva 官方网站](https://adaptiva.com))。如果此服务导致资源冲突或网络干扰，则可能会影响 Configuration Manager 客户端下载软件的能力。您可能需要管理或暂时停止此服务，以查看是否解决了问题。
 
-**wmi 性能适配器详细信息**  
+**wmi 性能适配器详细信息**
 wmi 性能适配器是一项 Windows 服务，通过 Windows Management Instrumentation (WMI) 提供性能数据 ([排查 WMI 性能问题](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues))。Configuration Manager 使用 WMI 执行各种管理任务，因此确保此服务正在运行对于 Configuration Manager 正常运行是必需的。
 
-**sms 代理主机角色**  
+**sms 代理主机角色**
 sms 代理主机是在计算机上运行 Configuration Manager 客户端的服务 ([关于 Configuration Manager 客户端管理的 Microsoft 文档](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients))。它对于软件中心和部署至关重要。如果它未运行，下载将无法进行。
 
 ### 它们与修复下载问题的关系
@@ -44,16 +44,16 @@ sms 代理主机是在计算机上运行 Configuration Manager 客户端的服�
 
 #### 理解每项服务
 
-**services.msc：服务管理控制台**  
+**services.msc：服务管理控制台**
 services.msc 本身不是服务，而是用于管理 Windows 服务的 Microsoft 管理控制台管理单元。它提供了一个图形界面来查看、启动、停止和配置服务，这些服务是系统和应用程序功能所必需的后台进程。在修复软件中心下载问题的背景下，services.msc 是用户用来检查关键服务（如 sms 代理主机和 wmi 性能适配器）状态的工具。确保这些服务正在运行是基本的故障排除步骤，因为任何服务故障都可能停止 Configuration Manager 操作，包括软件部署。
 
-**adaptiveclient：很可能是 Adaptiva 客户端服务**  
+**adaptiveclient：很可能是 Adaptiva 客户端服务**
 术语 "adaptiveclient" 并不直接对应于任何本机 Configuration Manager 服务，因此得出的结论是它很可能指的是 Adaptiva 客户端服务，属于 Adaptiva 系统管理套件的一部分 ([Adaptiva 官方网站](https://adaptiva.com))。Adaptiva 的软件（例如 OneSite）旨在增强 SCCM 的内容分发和管理能力，特别是补丁管理和端点健康。Adaptiva 客户端服务 (AdaptivaClientService.exe) 负责执行健康检查和内容交付优化等任务。鉴于其与 SCCM 的集成，如果此服务消耗过多的网络资源或与 SCCM 客户端操作冲突，则可能间接导致下载问题。例如，论坛讨论表明可能存在资源争用，例如用于缓存的磁盘空间使用，这可能会影响 SCCM 的性能 ([r/SCCM on Reddit: Adaptiva - Anyone have an Experience?](https://www.reddit.com/r/SCCM/comments/pb7325/adaptiva_anyone_have_an_experience/))。
 
-**wmi 性能适配器：用于性能数据的 Windows 服务**  
+**wmi 性能适配器：用于性能数据的 Windows 服务**
 wmi 性能适配器，或称 WMI 性能适配器 (wmiApSrv)，是一项 Windows 服务，它通过网络向客户端提供来自 WMI 高性能提供程序的性能库信息 ([WMI 性能适配器 | Windows 安全百科全书](https://www.windows-security.org/windows-service/wmi-performance-adapter-0))。它仅在性能数据帮助程序 (PDH) 激活时运行，并且对于通过 WMI 或 PDH API 提供系统性能计数器至关重要。Configuration Manager 严重依赖 WMI 执行清单收集和客户端健康监控等任务 ([排查 WMI 性能问题](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues))。如果此服务未运行，则可能会破坏 SCCM 收集必要数据的能力，这可能会间接影响软件中心下载，特别是在部署决策需要性能数据时。
 
-**sms 代理主机：Configuration Manager 客户端服务**  
+**sms 代理主机：Configuration Manager 客户端服务**
 sms 代理主机服务，也称为 CcmExec.exe，是安装在受管设备上的 Configuration Manager 客户端的核心服务 ([关于 Configuration Manager 客户端管理的 Microsoft 文档](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients))。它处理与 SCCM 服务器的通信，管理软件部署，收集清单，并通过软件中心促进用户交互。此服务对于任何部署活动都至关重要，包括下载和安装应用程序或更新。如果它未运行或遇到问题，例如由于计时问题而停止响应 ([Systems Management Server (SMS) Agent Host service (Ccmexec.exe) stops responding on a System Center Configuration Manager 2007 SP2 client computer](https://support.microsoft.com/en-us/topic/the-systems-management-server-sms-agent-host-service-ccmexec-exe-stops-responding-on-a-system-center-configuration-manager-2007-sp2-client-computer-6bd93824-d9ac-611f-62fc-eabc1ba20d47))，它会直接阻止下载进行，导致卡在 0% 的状态。
 
 #### 将这些服务与修复软件中心下载卡在 0% 的问题联系起来

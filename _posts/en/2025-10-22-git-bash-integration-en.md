@@ -14,6 +14,6 @@ Yes, Git Bash can run in a console window (it uses its own MinTTY terminal by de
 
 You're mistaken about Windows Terminal's limitations: it supports way more than just PowerShell and Command Prompt. Out of the box, it handles those two plus WSL distributions, Azure Cloud Shell, and even custom shells like Git Bash or Cygwin. It's designed as a flexible host for pretty much any command-line environment.
 
-[Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)  
-[Adding Git-Bash to Windows Terminal](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/)  
+[Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
+[Adding Git-Bash to Windows Terminal](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/)
 [In Windows Terminal, how do I add bash as one of the shell options?](https://superuser.com/questions/1763652/in-windows-terminal-how-do-i-add-bash-as-one-of-the-shell-options)

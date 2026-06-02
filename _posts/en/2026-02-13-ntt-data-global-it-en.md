@@ -49,7 +49,7 @@ NTT DATA is a full-spectrum **business and technology services** provider specia
 
 The company delivers end-to-end capabilities—from strategy and consulting to implementation, managed services, and ongoing support—often leveraging NTT Group's infrastructure strengths (networks, data centers) for robust, secure, and innovative outcomes. It serves a wide range of clients globally, with a focus on enabling long-term success in a digital-first world.
 
-**References:**  
+**References:**
 
 - [NTT DATA Group Official Website - About Us](https://www.nttdata.com/global/en/about-us)
 - [Wikipedia - NTT Data](https://en.wikipedia.org/wiki/NTT_Data)

@@ -18,8 +18,8 @@ type: note
 
 如今的海法不仅是经济重镇，聚集着众多科技巨头、海法大学，更拥有从山腰倾泻而下、被联合国教科文组织列入名录的巴哈伊阶梯花园——宛若绿色瀑布般的世界级圣殿。这座城市洋溢着闲适风情：您可以在生机勃勃的市集漫步，沿着卡梅尔山径徒步，或在卵石海滩享受惬意时光。无论您向往创新精神、灵性圣地还是海滨魅力，海法总能以静谧与活力交织的斑斓画卷，满足每一种心境期待。
 
-了解更多：  
-[海法 - 维基百科](https://en.wikipedia.org/wiki/Haifa)  
-[海法 | 以色列、地图、历史与事实 - 大英百科全书](https://www.britannica.com/place/Haifa)  
-[海法历史与概览 - 犹太虚拟图书馆](https://www.jewishvirtuallibrary.org/history-and-overview-of-haifa)  
+了解更多：
+[海法 - 维基百科](https://en.wikipedia.org/wiki/Haifa)
+[海法 | 以色列、地图、历史与事实 - 大英百科全书](https://www.britannica.com/place/Haifa)
+[海法历史与概览 - 犹太虚拟图书馆](https://www.jewishvirtuallibrary.org/history-and-overview-of-haifa)
 [万千心境游海法：探索以色列第三城的多种方式 - 孤独星球](https://www.lonelyplanet.com/articles/haifa-every-mood-neighbourhood-guide-israels-third-city)

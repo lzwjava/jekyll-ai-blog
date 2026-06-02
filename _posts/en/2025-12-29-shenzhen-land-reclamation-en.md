@@ -12,7 +12,7 @@ type: note
 
 Question: What is the status of the project in Shenzhen where a mountain was cut down to provide fill material for reclaiming sea land in the Qianhai and Houhai areas?
 
-Answer: 
+Answer:
 
 The Qianhai and Houhai areas in Shenzhen's Nanshan District were developed through extensive land reclamation by filling sea bays, creating approximately 15 square kilometers for Qianhai alone and additional areas for Houhai. These projects transformed former coastal waters and bays into modern urban districts, including commercial hubs, headquarters bases, and infrastructure like Shenzhen Bay Sports Center.
 
@@ -24,10 +24,10 @@ As of late 2025, the projects are complete and highly successful. Qianhai has ev
 
 Challenges included land subsidence in reclaimed areas due to soil compaction (observed in studies up to 2018) and ecological impacts like mangrove loss, but mitigation efforts (e.g., replanting red mangroves) have been implemented. The areas now contribute significantly to Shenzhen's economy, attracting foreign investment and integration with Hong Kong.
 
-References:  
+References:
 
-- [Qianhai - Wikipedia](https://en.wikipedia.org/wiki/Qianhai)  
-- [Big ambitions meet uneven reality as Qianhai returns to China’s opening-up spotlight - CNA](https://www.channelnewsasia.com/east-asia/china-qianhai-economic-zone-shenzhen-hong-kong-international-ambitions-5584761)  
-- [The new special economic zone of Qianhai in Shenzhen - China Britain Business Council](https://focus.cbbc.org/qianhai/)  
-- [Coastal Subsidence Monitoring Associated with Land Reclamation... Shenzhen, China](https://www.mdpi.com/2072-4292/8/8/652)  
+- [Qianhai - Wikipedia](https://en.wikipedia.org/wiki/Qianhai)
+- [Big ambitions meet uneven reality as Qianhai returns to China’s opening-up spotlight - CNA](https://www.channelnewsasia.com/east-asia/china-qianhai-economic-zone-shenzhen-hong-kong-international-ambitions-5584761)
+- [The new special economic zone of Qianhai in Shenzhen - China Britain Business Council](https://focus.cbbc.org/qianhai/)
+- [Coastal Subsidence Monitoring Associated with Land Reclamation... Shenzhen, China](https://www.mdpi.com/2072-4292/8/8/652)
 - [深圳填海三十年 - The Paper](https://www.thepaper.cn/newsDetail_forward_2473058)

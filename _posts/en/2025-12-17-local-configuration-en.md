@@ -12,7 +12,7 @@ type: note
 
 Question: In Python or Java projects, when configuration files like local.properties or config files differ between team members, can we provide a local_example.properties file, add local.properties to .gitignore, and allow each teammate to have their own version that isn't tracked in Git?
 
-Answer: 
+Answer:
 
 Yes, this is a common and recommended best practice in both Java and Python projects for handling local or sensitive configuration.
 

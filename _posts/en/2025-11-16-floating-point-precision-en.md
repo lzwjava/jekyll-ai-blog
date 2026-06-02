@@ -81,8 +81,8 @@ In large language models (LLMs) like GPT, Llama, or Grok:
 
 If you're implementing this in code, test on your hardware—bfloat16 shines on newer GPUs, while float16 is more universal but trickier with gradients.
 
-References:  
-[Understanding Floating Point Precision in Deep Learning](https://towardsdatascience.com/understanding-fp32-fp16-bf16-in-neural-networks-27075c96b4d3)  
-[Quantization Techniques for LLMs](https://huggingface.co/docs/transformers/quantization)  
-[Flash Attention Explained](https://arxiv.org/abs/2205.14135)  
+References:
+[Understanding Floating Point Precision in Deep Learning](https://towardsdatascience.com/understanding-fp32-fp16-bf16-in-neural-networks-27075c96b4d3)
+[Quantization Techniques for LLMs](https://huggingface.co/docs/transformers/quantization)
+[Flash Attention Explained](https://arxiv.org/abs/2205.14135)
 [Mixed Precision Training in PyTorch](https://pytorch.org/docs/stable/amp.html)

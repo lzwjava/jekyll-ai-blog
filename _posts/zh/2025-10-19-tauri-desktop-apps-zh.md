@@ -25,6 +25,6 @@ Tauri 是一个用于构建轻量级、安全且高性能桌面（及移动）�
 
 欲了解更多详情，请查阅官方文档或 GitHub 代码库。
 
-[官方 Tauri 网站](https://v2.tauri.app/)  
-[Tauri GitHub 代码库](https://github.com/tauri-apps/tauri)  
+[官方 Tauri 网站](https://v2.tauri.app/)
+[Tauri GitHub 代码库](https://github.com/tauri-apps/tauri)
 [Tauri 维基百科条目](https://en.wikipedia.org/wiki/Tauri_%28software_framework%29)

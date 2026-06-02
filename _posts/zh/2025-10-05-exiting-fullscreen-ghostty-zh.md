@@ -17,5 +17,5 @@ type: note
 - 若菜单栏可见：前往 **查看 > 退出全屏**（可能需要将鼠标悬停在屏幕顶部以唤出菜单栏）
 - 最后可尝试通过其他终端输入 `ghostty` 重启程序，或使用 `pkill ghostty` 终止进程后重新启动
 
-[ghostty-shortcuts.md](https://gist.github.com/hensg/43bc71c21d1f79385892352a390aa2ca)  
+[ghostty-shortcuts.md](https://gist.github.com/hensg/43bc71c21d1f79385892352a390aa2ca)
 [午夜司令器的键位绑定（Reddit）](https://www.reddit.com/r/Ghostty/comments/1lfxvsf/keybindings_for_midnight_commander/)

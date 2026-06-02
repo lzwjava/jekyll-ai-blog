@@ -17,7 +17,7 @@ Yes — this is currently (2025–2026) one of the most pragmatic and widely use
 
 The most common successful pattern looks like this:
 
-1. **First compile with the new JDK** (without any fixes)  
+1. **First compile with the new JDK** (without any fixes)
    → collect **all** errors (most IDEs / build tools can give you a categorized summary)
 
 2. **Group errors into 5–12 dominant families** (usually these cover 75–90% of problems):
@@ -39,8 +39,8 @@ The most common successful pattern looks like this:
 
 3. **Pick the 2–4 most frequent & easiest-to-automate families** first
 
-4. **Do one clean, correct, reviewable fix** for that family  
-   → commit it  
+4. **Do one clean, correct, reviewable fix** for that family
+   → commit it
    → run full test suite (or smoke tests)
 
 5. **Ask Copilot / Claude / Cursor / Windsurf / Continue.dev / Amazon Q / Cody** one of these styles:

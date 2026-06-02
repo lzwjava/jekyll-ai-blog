@@ -17,7 +17,7 @@ This is the README.md from github project [https://github.com/lzwjava/algorithm-
 
 Problem solutions of some algorithm problems from online judge platforms.
 
-| platform | problems solved | 
+| platform | problems solved |
 | ------------- | ------------- |
 |[UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
 |[Codeforces](https://codeforces.com/profile/lzwjava)|419|

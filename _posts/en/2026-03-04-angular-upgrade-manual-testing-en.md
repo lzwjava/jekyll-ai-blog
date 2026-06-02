@@ -11,7 +11,7 @@ type: note
 
 Question: If a frontend application is upgraded from Angular 9 to Angular 14, how should manual testing be performed, and what aspects of the app should we focus on?
 
-Answer: 
+Answer:
 
 Upgrading from **Angular 9 → 14** spans five major versions (10, 11, 12, 13, 14), so even when automated migrations (ng update) run successfully, many subtle and visual/behavioral regressions can appear. Manual exploratory testing becomes very important.
 
@@ -60,7 +60,7 @@ Follow the official **Angular Update Guide** (https://angular.dev/update-guide) 
 
 Careful manual testing + good before/after comparison is usually the difference between "it works on my machine" and "production is broken".
 
-References:  
+References:
 
 - [Angular Update Guide](https://angular.dev/update-guide)
 - [Angular 14 Release Notes & Breaking Changes Discussion](https://github.com/angular/angular/blob/main/CHANGELOG.md) (look for v10 to v14 sections)

@@ -12,7 +12,7 @@ type: note
 
 **Question:** What high-quality lossless audio, songs, music, or piano content can we find on The Pirate Bay?
 
-**Answer:** 
+**Answer:**
 
 The Pirate Bay hosts a large variety of **lossless audio** torrents (primarily in **FLAC** format, sometimes 24-bit hi-res), including full albums, compilations, and specific genres like pop, rock, classical, jazz, and piano-focused music. However, quality and availability vary greatly depending on uploaders, seeders, and age of the torrent. Many users report that while some excellent lossless files exist, dedicated music trackers or other sources often provide more consistent high-quality FLAC releases.
 
@@ -33,7 +33,7 @@ Here are the main types of high-quality lossless content commonly found on The P
 
 Note: Many audiophiles and torrent users in recent discussions (2025–2026) consider The Pirate Bay decent for casual lossless finds but recommend specialized alternatives like RuTracker.org or Soulseek for deeper catalogs and more reliable high-quality FLAC releases (especially for obscure or hi-res material). Always verify file integrity after downloading (e.g., check spectrograms or use foobar2000 for bit-perfect playback).
 
-**References:**  
+**References:**
 
 - [The Pirate Bay official site](https://thepiratebay.org/)
 - [SafetyDetectives - Best Music Torrent Sites 2026](https://www.safetydetectives.com/blog/best-music-torrent-sites)

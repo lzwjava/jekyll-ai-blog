@@ -27,8 +27,8 @@ type: note
 
 μP建立在Yang更宏大的"张量程序"框架基础上，该框架用于理解神经网络的无限宽度/深度极限。该技术仍在持续演进——截至2025年的最新研究强调其在超越超参数迁移的最大化特征学习中的作用。
 
-**参考文献**  
-- [张量程序V：通过零样本超参数迁移调试大模型](https://arxiv.org/abs/2203.03466)  
-- [最大更新参数化实践指南](https://www.cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization)  
-- [神经网络缩放指南](https://howtoscalenn.github.io/)  
+**参考文献**
+- [张量程序V：通过零样本超参数迁移调试大模型](https://arxiv.org/abs/2203.03466)
+- [最大更新参数化实践指南](https://www.cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization)
+- [神经网络缩放指南](https://howtoscalenn.github.io/)
 - [Greg Yang学术主页](https://thegregyang.com/)

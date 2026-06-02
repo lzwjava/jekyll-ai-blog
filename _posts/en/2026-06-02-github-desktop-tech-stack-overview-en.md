@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Yes. GitHub Desktop is a free, open source application. 
+Yes. GitHub Desktop is a free, open source application.
 
 It's an Electron-based app written in TypeScript and uses React. The source code is at [`desktop/desktop` on GitHub](https://github.com/desktop/desktop), so you can fork it, contribute, or file issues.
 

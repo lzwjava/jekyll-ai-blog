@@ -11,7 +11,7 @@ type: note
 
 Question: Will OpenRouter show much higher token usage on weekends because big tech engineers can use their personal laptops to code more freely, while people have more time to explore on weekends compared to weekdays when they handle normal jobs?
 
-Answer: 
+Answer:
 
 No, OpenRouter does not typically show significantly higher token usage on weekends due to big corp engineers coding on personal laptops or people having more free time to explore AI tools. In fact, available data and user observations suggest the opposite pattern in many cases: token usage often leans toward weekdays, with some activity dropping on weekends.
 
@@ -36,8 +36,8 @@ In short, while some hobbyist or side-project activity may rise on weekends, Ope
 
 If OpenRouter published granular daily/hourly breakdowns (beyond their high-level State of AI reports), we could confirm this more precisely — but current public data points to weekdays being busier for core coding workloads.
 
-References:  
+References:
 
-- https://openrouter.ai/state-of-ai (OpenRouter's 2025 State of AI report with 100T token analysis showing programming dominance)  
-- https://arxiv.org/html/2601.10088v1 (Empirical study based on OpenRouter data)  
+- https://openrouter.ai/state-of-ai (OpenRouter's 2025 State of AI report with 100T token analysis showing programming dominance)
+- https://arxiv.org/html/2601.10088v1 (Empirical study based on OpenRouter data)
 - Various discussions on X and Reddit noting weekday peaks and weekend inactivity in certain traffic segments.

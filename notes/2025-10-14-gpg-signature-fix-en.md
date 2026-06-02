@@ -12,7 +12,7 @@ type: note
 
 ### Understanding the Error
 
-The error you're seeing occurs because the `gpg --verify` command expects two arguments in most cases: the **signature file** (e.g., `zhs.tw.yaml.sig` or `zhs.tw.yaml.asc`) **first**, followed by the **actual file** to verify (e.g., `zhs.tw.yaml`). 
+The error you're seeing occurs because the `gpg --verify` command expects two arguments in most cases: the **signature file** (e.g., `zhs.tw.yaml.sig` or `zhs.tw.yaml.asc`) **first**, followed by the **actual file** to verify (e.g., `zhs.tw.yaml`).
 
 In your command:
 ```

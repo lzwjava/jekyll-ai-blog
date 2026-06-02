@@ -30,13 +30,13 @@ There are two main ways to install it:
 5. Restart Xcode.
 
 #### Option 2: Manual Installation
-1. Clone the repository:  
+1. Clone the repository:
    ```
    git clone https://github.com/lzwjava/Reveal-In-GitHub.git
    ```
 2. Open the `Reveal-In-GitHub.xcodeproj` file in Xcode.
 3. Build the project (Product > Build or ⌘B). This generates the `Reveal-In-GitHub.xcplugin` file.
-4. Move the plugin to:  
+4. Move the plugin to:
    `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`
 5. Restart Xcode.
 
@@ -60,7 +60,7 @@ Here's a quick reference for the built-in menu items and shortcuts (shortcuts fo
 | **Blame**      | ⌃⇧⌘B      | Opens blame view for current line | https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40 |
 | **Notifications**| ⌃⇧⌘N   | Opens repo notifications | https://github.com/lzwjava/LZAlbum/notifications?all=1 |
 
-- **Tips**: 
+- **Tips**:
   - Shortcuts don't conflict with Xcode's defaults.
   - If you're on a selected text range, some actions (like Blame) will anchor to that range (e.g., #L40-L43).
   - Test it: Open a project, go to a line, and hit ⌃⇧⌘B—it should open the blame page in your browser.

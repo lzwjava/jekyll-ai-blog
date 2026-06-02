@@ -38,7 +38,7 @@ DeepSeek-V2-Lite-Chat knowledge timeline:
           ...2022      Jan-Feb 2023   Mar 2023 →
                            ↑
                      cutoff zone
-                     
+
 Release date: May 2024  (~15 months after cutoff)
 ```
 

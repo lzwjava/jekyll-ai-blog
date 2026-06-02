@@ -12,7 +12,7 @@ type: note
 
 Question: How is ByteDance's Doubao phone performing, and how innovative is it?
 
-Answer: 
+Answer:
 
 ByteDance's "Doubao Phone" isn't a standalone device manufactured by the company but rather a collaboration with ZTE, debuting as the Nubia M153 engineering prototype. Launched in a technical preview on December 1, 2025, it's positioned as an AI-focused smartphone powered by ByteDance's Doubao large language model (LLM). Priced at ¥3,499 (~$495) for the 16GB RAM + 512GB storage variant, it's available for pre-order in limited quantities, targeted at developers, tech enthusiasts, and industry professionals rather than general consumers. ByteDance has emphasized that this is not a mature consumer product yet, with bi-weekly updates planned through March 2026 to refine features.
 

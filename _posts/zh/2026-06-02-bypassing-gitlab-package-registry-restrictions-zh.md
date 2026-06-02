@@ -27,7 +27,7 @@ type: note
 # 对于npm包
 npm config set registry https://artifactory.company.com/artifactory/api/npm/npm/
 
-# 对于pip包  
+# 对于pip包
 pip config set global.index-url https://artifactory.company.com/artifactory/api/pypi/pypi/index/simple/
 
 # 其他包管理器类似

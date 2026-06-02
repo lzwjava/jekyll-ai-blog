@@ -14,7 +14,7 @@ This outline is based on the standard syllabus for the National Higher Education
 
 ## I. Course Nature and Objectives
 - **Nature**: This is a foundational programming course focusing on object-oriented programming (OOP) using Java. Java is a platform-independent, secure, and versatile language ideal for network and application development.
-- **Objectives**: 
+- **Objectives**:
   - Understand basic programming concepts and Java's features.
   - Master Java syntax, data types, control structures, and methods.
   - Develop skills in creating simple programs, handling data structures like arrays, and implementing OOP principles.

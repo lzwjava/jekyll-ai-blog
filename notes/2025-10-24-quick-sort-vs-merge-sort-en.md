@@ -94,6 +94,6 @@ partition(arr, low, high):  # Lomuto style, pivot at high
 
 The "moving" happens in those swaps: elements dance past each other until the pivot settles. Practice on paper with 5-6 elements—once the partition clicks, the recursion feels natural. If you hit snags, try animating it mentally as that book-sorting shelf.
 
-For deeper dives:  
-[Quick Sort Visualization](https://visualgo.net/en/sorting?slide=9)  
+For deeper dives:
+[Quick Sort Visualization](https://visualgo.net/en/sorting?slide=9)
 [CLRS Chapter on Quicksort](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.3)

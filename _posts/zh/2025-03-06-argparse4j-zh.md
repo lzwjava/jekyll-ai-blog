@@ -74,7 +74,7 @@ public class Checksum {
         ArgumentParser parser = ArgumentParsers.newFor("Checksum").build()
             .defaultHelp(true)
             .description("计算指定文件的校验和。");
-        
+
         parser.addArgument("-t", "--type")
             .choices("SHA-256", "SHA-512", "SHA1").setDefault("SHA-256")
             .help("指定要使用的哈希函数");

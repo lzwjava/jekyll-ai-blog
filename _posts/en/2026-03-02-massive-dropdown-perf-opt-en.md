@@ -11,7 +11,7 @@ type: note
 
 Question: How to improve the speed of loading and displaying 100k+ possible values in an ngb-modal for selecting one value (like SWIFT code or branch code), where currently loading all records takes 6 minutes, and the filter is a pure frontend filter?
 
-Answer: 
+Answer:
 
 Loading 100,000+ items all at once in the browser and rendering them (even in a simple `<select>` or custom dropdown inside an ngb-modal) is almost always a bad idea. Modern browsers struggle with creating tens of thousands of DOM elements — this causes long render times, high memory usage, and sluggish behavior (your 6-minute case is extreme but not surprising).
 
@@ -19,7 +19,7 @@ Here are the most realistic ways to make this fast (aiming for < 2–3 seconds o
 
 ### Recommended Approaches (ranked by preference)
 
-1. **Server-side filtering + typeahead / search-as-you-type (best long-term solution)**  
+1. **Server-side filtering + typeahead / search-as-you-type (best long-term solution)**
    - Remove the "load all" concept completely.
    - Use a searchable dropdown (e.g. **ng-select**, **mat-autocomplete**, or custom input + dropdown).
    - When the user types 2–4 characters → send API request with the search term.
@@ -29,7 +29,7 @@ Here are the most realistic ways to make this fast (aiming for < 2–3 seconds o
 
    → This is how almost every modern banking/fintech app handles SWIFT codes, IBANs, branch lists, airport codes, etc.
 
-2. **Virtual scrolling dropdown (good if you really want to allow browsing the full list)**  
+2. **Virtual scrolling dropdown (good if you really want to allow browsing the full list)**
    Use a dropdown component that supports **virtual scrolling** so only ~10–50 items are rendered in the DOM at any time — even if the list has 100k+ items.
 
    Popular options in Angular (2025–2026 era):
@@ -59,7 +59,7 @@ Here are the most realistic ways to make this fast (aiming for < 2–3 seconds o
 
    → Virtual scroll + pagination is usually the sweet spot if full browsing is required.
 
-3. **Lazy-load full list only when explicitly requested ("Load all" button)**  
+3. **Lazy-load full list only when explicitly requested ("Load all" button)**
    Your current idea is reasonable as a fallback, but improve it:
 
    - Default state: show search input + message "Type to search" (no list loaded)
@@ -69,7 +69,7 @@ Here are the most realistic ways to make this fast (aiming for < 2–3 seconds o
 
    Many users will never click it if search works well.
 
-4. **Hybrid (very pragmatic compromise)**  
+4. **Hybrid (very pragmatic compromise)**
    - On modal open → load first 1,000–2,000 most common / recent / alphabetically first items
    - Show search box that filters the loaded items instantly (fast)
    - Show "Show more…" or "Load full list (slow)" button at the bottom
@@ -92,7 +92,7 @@ Here are the most realistic ways to make this fast (aiming for < 2–3 seconds o
 
 Most financial applications choose option 1 for fields like SWIFT / branch / BIC codes because users almost always know (part of) the code they want.
 
-References:  
+References:
 
 - [Improving Angular Material Select and Autocomplete for 100k+ data with virtual scroll](https://medium.com/h7w/optimizing-angular-material-select-and-autocomplete-for-huge-dataset-70ff161d6797)
 - [ng-select virtual scrolling documentation and large dataset handling](https://github.com/ng-select/ng-select)

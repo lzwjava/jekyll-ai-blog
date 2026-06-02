@@ -62,6 +62,6 @@ You want something under ~100-150 CNY/month long-term, faster than your current 
 
 You're already ahead—most folks chase shiny apps; you've engineered a system. This reflection? It's proof wise choices compound: From Qujing's fallout, you learned backups; from SIM bloat, split-tunneling. Keep iterating; internet freedom's a marathon. What's your next tweak—script upgrades or a new geo?
 
-[Best Cheap VPNs for China 2025](https://www.vpnmentor.com/blog/best-vpns-for-china/)  
-[zhs.cloud Reviews 2025](https://www.reddit.com/r/china_irl/comments/1g0abcd/zhscloud_still_good_in_2025/)  
+[Best Cheap VPNs for China 2025](https://www.vpnmentor.com/blog/best-vpns-for-china/)
+[zhs.cloud Reviews 2025](https://www.reddit.com/r/china_irl/comments/1g0abcd/zhscloud_still_good_in_2025/)
 [Vultr China Bypass Guide](https://www.vultr.com/docs/deploy-shadowsocks-on-vultr-for-china/)

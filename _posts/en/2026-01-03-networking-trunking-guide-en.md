@@ -12,7 +12,7 @@ type: note
 
 Question: What is said in the YouTube video at https://www.youtube.com/watch?v=bQ6D77QeMMg?
 
-Answer: 
+Answer:
 
 The video is a short educational explainer titled **What is Trunking in Networking?** from the channel CBT Nuggets, uploaded on May 6, 2024.
 
@@ -62,6 +62,6 @@ It's because DTP has two major modes: Auto and Desirable, right? I'll just put A
 
 In summary, the video teaches that **trunking** (specifically 802.1Q tagging) is the standard way to extend multiple VLANs across switches and other devices, distinguishing it from Cisco-specific features like VTP (VLAN replication) and DTP (automatic trunk negotiation).
 
-References:  
+References:
 
 - [YouTube Video: What is Trunking in Networking?](https://www.youtube.com/watch?v=bQ6D77QeMMg)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the default port for Open WebUI?
 
-Answer: 
+Answer:
 
 The **default port** for **Open WebUI** (the application itself) is **8080**.
 
@@ -28,7 +28,7 @@ You can change the port using the `PORT` environment variable (e.g., `-e PORT=99
 
 The version shown in your message (v0.5.10) is quite old — current versions (as of 2026) still use **8080** as the default internal/container port.
 
-References:  
+References:
 
 - [https://docs.openwebui.com/getting-started/quick-start](https://docs.openwebui.com/getting-started/quick-start)
 - [https://docs.openwebui.com/getting-started/env-configuration](https://docs.openwebui.com/getting-started/env-configuration)

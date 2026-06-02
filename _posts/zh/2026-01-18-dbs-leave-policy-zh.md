@@ -12,7 +12,7 @@ type: note
 
 **Question:** DBS Bank 的员工年假政策是什么？
 
-**Answer:** 
+**Answer:**
 
 DBS Bank（主要指新加坡的 DBS Bank，因为其总部位于那里）提供具有竞争力的年假政策，作为其员工 benefits package 的一部分。虽然 DBS 招聘官网并未以具体的数字格式公开披露官方细节，但来自 Glassdoor 和 Indeed 等来源的员工评价和报告提供了一致的见解：
 
@@ -26,7 +26,7 @@ DBS Bank（主要指新加坡的 DBS Bank，因为其总部位于那里）提供
 
 如需获取最准确和最新的信息，请在招聘期间直接咨询 DBS HR，或者如果您是员工，请参考您的 employment contract。
 
-**References:**  
+**References:**
 
 - [Glassdoor DBS Bank Benefits (Singapore)](https://www.glassdoor.sg/Benefits/DBS-Bank-Singapore-BNFT115_E611812_N217.htm)
 - [Glassdoor DBS Bank Vacation & Paid Time Off](https://www.glassdoor.com/Benefits/DBS-Bank-Vacation-and-Paid-Time-Off-BNFT115_E611812_N115.htm)

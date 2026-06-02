@@ -19,6 +19,6 @@ type: note
 
 对于像 `GNUPGHOME` 这样的环境变量，同样适用此规则：使用 `/` 来设置它（例如 `export GNUPGHOME=/c/Users/me/.gnupg`）。
 
-[MSYS2 文件系统路径](https://www.msys2.org/docs/filesystem-paths/)  
-[MSYS2 中关于 GNUPGHOME 的讨论](https://lists.gnupg.org/pipermail/gnupg-users/2025-February/067536.html)  
+[MSYS2 文件系统路径](https://www.msys2.org/docs/filesystem-paths/)
+[MSYS2 中关于 GNUPGHOME 的讨论](https://lists.gnupg.org/pipermail/gnupg-users/2025-February/067536.html)
 [Windows/MSYS2 上的 GPG --homedir 错误](https://www.reddit.com/r/GnuPG/comments/1cl4dw8/bug_windows_homedir_with_drive_letter_treated_as/)

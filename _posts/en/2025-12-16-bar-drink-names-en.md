@@ -12,7 +12,7 @@ type: note
 
 Question: How to name common alcoholic drinks in a bar, such as Mojito and others?
 
-Answer: 
+Answer:
 
 Common alcoholic cocktails in bars have specific names that you use when ordering. Simply say the name of the drink, and optionally specify variations (e.g., "frozen" or "on the rocks"). Here are some of the most popular and classic ones found in most bars worldwide:
 
@@ -51,10 +51,10 @@ Common alcoholic cocktails in bars have specific names that you use when orderin
 
 These are timeless staples—most bartenders know them by name. If unsure, ask for the bar's menu or a recommendation based on your preferences (e.g., "something refreshing with rum").
 
-References:  
+References:
 
-- [List of cocktails - Wikipedia](https://en.wikipedia.org/wiki/List_of_cocktails)  
-- [300+ Popular Cocktail Names & Recipes! – A Couple Cooks](https://www.acouplecooks.com/cocktail-names-list/)  
-- [The Top 50 Cocktail List and Recipes - AllRecipes](https://www.allrecipes.com/article/top-50-cocktail-list-and-recipes/)  
-- [44 Cocktails Every Bartender Should Know](https://www.nationalbartenders.com/blog/cocktails-every-bartender-should-know/)  
+- [List of cocktails - Wikipedia](https://en.wikipedia.org/wiki/List_of_cocktails)
+- [300+ Popular Cocktail Names & Recipes! – A Couple Cooks](https://www.acouplecooks.com/cocktail-names-list/)
+- [The Top 50 Cocktail List and Recipes - AllRecipes](https://www.allrecipes.com/article/top-50-cocktail-list-and-recipes/)
+- [44 Cocktails Every Bartender Should Know](https://www.nationalbartenders.com/blog/cocktails-every-bartender-should-know/)
 - [Most Popular Bar Drinks Ever - Town & Country](https://www.townandcountrymag.com/leisure/drinks/g13092298/popular-bar-drinks-to-order/)

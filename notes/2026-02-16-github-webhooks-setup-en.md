@@ -19,50 +19,50 @@ Here is the standard way to set up a repository webhook using the GitHub web int
 
 ### Step-by-step guide to create a repository webhook
 
-1. Go to your repository on GitHub  
+1. Go to your repository on GitHub
    Open https://github.com and navigate to the repository you want to add a webhook to.
 
-2. Open Settings  
+2. Open Settings
    Click **Settings** (you need to be owner or have admin permissions on the repo).
 
-3. Go to Webhooks section  
+3. Go to Webhooks section
    In the left sidebar, click **Webhooks** → then click **Add webhook** (or **Create webhook**).
 
 4. Fill in the webhook configuration
 
-   - **Payload URL**  
-     The most important field. Enter the HTTPS URL of your server/endpoint that will receive the webhook events.  
+   - **Payload URL**
+     The most important field. Enter the HTTPS URL of your server/endpoint that will receive the webhook events.
      Example: `https://your-app.com/webhook/github` or `https://hooks.zapier.com/hooks/catch/123456/abcde/`
 
-   - **Content type**  
-     Choose:  
-     - `application/json` (most common and recommended)  
+   - **Content type**
+     Choose:
+     - `application/json` (most common and recommended)
      - or `application/x-www-form-urlencoded`
 
-   - **Secret** (strongly recommended)  
-     Enter a random, secure string (at least 30+ characters).  
-     GitHub will use this to create an HMAC signature that you can verify on your server to make sure the request really came from GitHub.  
+   - **Secret** (strongly recommended)
+     Enter a random, secure string (at least 30+ characters).
+     GitHub will use this to create an HMAC signature that you can verify on your server to make sure the request really came from GitHub.
      Generate one easily: `openssl rand -hex 20` or use an online secure random generator.
 
-   - **SSL verification**  
+   - **SSL verification**
      Keep it enabled (default) unless you're testing with a self-signed certificate (not recommended for production).
 
-   - **Which events would you like to trigger this webhook?**  
-     - Select **Let me select individual events** (recommended)  
-     - Choose the events you care about, for example:  
-       - Pushes (code is pushed)  
-       - Pull requests (opened, closed, merged, etc.)  
-       - Issues (opened, edited, closed)  
-       - Releases  
-       - Commits comments  
+   - **Which events would you like to trigger this webhook?**
+     - Select **Let me select individual events** (recommended)
+     - Choose the events you care about, for example:
+       - Pushes (code is pushed)
+       - Pull requests (opened, closed, merged, etc.)
+       - Issues (opened, edited, closed)
+       - Releases
+       - Commits comments
        - … (see full list in GitHub docs)
 
      Or simply choose **Send me everything** for testing (not recommended long-term — creates unnecessary traffic).
 
 5. Click **Add webhook** at the bottom.
 
-6. Test it (optional but recommended)  
-   After creation, GitHub shows a **Recent Deliveries** section.  
+6. Test it (optional but recommended)
+   After creation, GitHub shows a **Recent Deliveries** section.
    Click **Edit** → **Redeliver** on any event, or trigger a real event (git push, open PR, etc.) and check if your server received it.
 
 ### What your server needs to do

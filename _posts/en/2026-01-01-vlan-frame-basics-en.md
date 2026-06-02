@@ -12,7 +12,7 @@ type: note
 
 Question: VLANs do not provide encryption; they only tag frames with VLAN IDs for segmentation. How are frames tagged, and when are they tagged? What are frames? Where do VLANs run? How do computers tag them? How does a computer know its frames will go to a VLAN?
 
-Answer: 
+Answer:
 
 ### What Are Frames?
 In computer networking, particularly in Ethernet-based local area networks (LANs), data is transmitted in units called **frames**. An Ethernet frame is a structured packet of data that includes:
@@ -59,7 +59,7 @@ Computers (end hosts like PCs) typically do not tag frames themselves because mo
 
 - **Requirements for Computer Tagging**:
   - **VLAN-Aware NIC**: The hardware must support 802.1Q (most modern NICs do).
-  - **Software Configuration**: 
+  - **Software Configuration**:
     - In Windows: Use Device Manager to enable VLAN tagging on the NIC properties, or use PowerShell/commands like `Set-NetAdapterBinding`.
     - In Linux: Use tools like `vconfig` (older) or `ip link` to create VLAN subinterfaces (e.g., `ip link add link eth0 name eth0.10 type vlan id 10`).
     - In macOS: Via System Preferences or `networksetup` command.

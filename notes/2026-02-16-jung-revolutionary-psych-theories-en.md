@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Carl Jung and his works.
 
-Answer: 
+Answer:
 
 **Carl Gustav Jung (1875–1961)** was a Swiss psychiatrist, psychoanalyst, and thinker who founded **analytical psychology**, a major school of depth psychology distinct from Sigmund Freud's psychoanalysis. Widely regarded as one of the most influential psychologists of the 20th century, Jung's ideas extended far beyond clinical practice into mythology, religion, anthropology, literature, philosophy, and the study of human symbolism.
 
@@ -57,7 +57,7 @@ Jung's influence remains strong in psychotherapy (Jungian analysis), dream work,
 
 Jung died on June 6, 1961, in Küsnacht, Switzerland, leaving a rich, complex body of thought that continues to inspire exploration of the depths of the human psyche.
 
-References:  
+References:
 
 - [Carl Jung - Wikipedia](https://en.wikipedia.org/wiki/Carl_Jung)
 - [Carl Jung | Biography, Archetypes, Books, Collective Unconscious, & Theory | Britannica](https://www.britannica.com/biography/Carl-Jung)

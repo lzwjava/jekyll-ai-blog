@@ -29,7 +29,7 @@ public class NIOFileReader {
         try {
             // 打开文件通道
             FileChannel fileChannel = FileChannel.open(
-                Paths.get("example.txt"), 
+                Paths.get("example.txt"),
                 StandardOpenOption.READ
             );
 
@@ -83,8 +83,8 @@ public class NIOFileWriter {
         try {
             // 打开文件写入通道
             FileChannel fileChannel = FileChannel.open(
-                Paths.get("output.txt"), 
-                StandardOpenOption.CREATE, 
+                Paths.get("output.txt"),
+                StandardOpenOption.CREATE,
                 StandardOpenOption.WRITE
             );
 

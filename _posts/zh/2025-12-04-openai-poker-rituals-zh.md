@@ -36,12 +36,12 @@ Chen 将此与他在 OpenAI 之前作为 Jane Street 交易员的经历联系起
 
 这些习惯通常会影响工作：Musk 的游戏为 Tesla 的 FSD 模拟提供了信息，而 Hassabis 的棋盘游戏则推动了 DeepMind 在 2025 年多模态推理方面的突破。扑克尤其象征着 AI 扩展的“计算过的冒险”，正如 Chen 所说。
 
-[参考文献：  
-- [OpenAI Code Red: Mark Chen Profile (Binaryverse AI)](https://binaryverseai.com/openai-code-red-gemini-3-panic-mark-chen-ads/)  
-- [r/singularity: Mark Chen on Gemini 3 (Reddit)](https://www.reddit.com/r/singularity/comments/1pbvgho/openais_mark_chen_reaction_to_gemini_3/)  
-- [How Sam Altman Used Poker Winnings (Cryptopolitan)](https://www.cryptopolitan.com/how-sam-altman-microsoft-apple-nvidia-openai/)  
-- [Elon Musk Poker with Ellison (Various Bios)](https://www.theguardian.com/technology/2025/jan/22/trump-ai-investment-tech-ceos)  
-- [Zuckerberg Poker Nights (Meta Histories)](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)  
-- [Nadella on Poker Mindset (Business Standard)](https://www.business-standard.com/technology/tech-news/how-microsoft-s-satya-nadella-became-tech-industry-s-steely-eyed-ai-gambler-124071601381_1.html)  
-- [Hassabis Chess/Go (DeepMind Profiles)](https://northwest.education/insights/innovation/10-influential-leaders-in-technology-innovation-to-follow/)  
+[参考文献：
+- [OpenAI Code Red: Mark Chen Profile (Binaryverse AI)](https://binaryverseai.com/openai-code-red-gemini-3-panic-mark-chen-ads/)
+- [r/singularity: Mark Chen on Gemini 3 (Reddit)](https://www.reddit.com/r/singularity/comments/1pbvgho/openais_mark_chen_reaction_to_gemini_3/)
+- [How Sam Altman Used Poker Winnings (Cryptopolitan)](https://www.cryptopolitan.com/how-sam-altman-microsoft-apple-nvidia-openai/)
+- [Elon Musk Poker with Ellison (Various Bios)](https://www.theguardian.com/technology/2025/jan/22/trump-ai-investment-tech-ceos)
+- [Zuckerberg Poker Nights (Meta Histories)](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)
+- [Nadella on Poker Mindset (Business Standard)](https://www.business-standard.com/technology/tech-news/how-microsoft-s-satya-nadella-became-tech-industry-s-steely-eyed-ai-gambler-124071601381_1.html)
+- [Hassabis Chess/Go (DeepMind Profiles)](https://northwest.education/insights/innovation/10-influential-leaders-in-technology-innovation-to-follow/)
 - [Thiel & Hoffman Poker (Zero to One Excerpts)](https://www.linkedin.com/in/markchen90/)]

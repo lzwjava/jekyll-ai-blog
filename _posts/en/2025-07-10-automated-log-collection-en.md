@@ -41,14 +41,14 @@ This completely eliminates the need for manual log copying - every run of your a
     <!-- Define log directory and file patterns -->
     <property name="LOG_DIR" value="logs"/>
     <property name="APP_NAME" value="myapp"/>
-    
+
     <!-- Console appender for development -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-    
+
     <!-- File appender for all logs -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}.log</file>
@@ -62,7 +62,7 @@ This completely eliminates the need for manual log copying - every run of your a
             <totalSizeCap>300MB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    
+
     <!-- Separate appender for ERROR logs only -->
     <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}-error.log</file>
@@ -81,7 +81,7 @@ This completely eliminates the need for manual log copying - every run of your a
             <totalSizeCap>100MB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    
+
     <!-- Separate appender for startup logs -->
     <appender name="STARTUP_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/${APP_NAME}-startup.log</file>
@@ -93,26 +93,26 @@ This completely eliminates the need for manual log copying - every run of your a
             <maxHistory>7</maxHistory>
         </rollingPolicy>
     </appender>
-    
+
     <!-- Application-specific logger for startup events -->
     <logger name="org.springframework.boot" level="INFO" additivity="false">
         <appender-ref ref="STARTUP_FILE"/>
         <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>
-    
+
     <!-- Capture SQL logs if using JPA -->
     <logger name="org.hibernate.SQL" level="DEBUG" additivity="false">
         <appender-ref ref="FILE"/>
     </logger>
-    
+
     <!-- Root logger configuration -->
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
         <appender-ref ref="ERROR_FILE"/>
     </root>
-    
+
     <!-- Profile-specific configurations -->
     <springProfile name="prod">
         <root level="WARN">
@@ -120,7 +120,7 @@ This completely eliminates the need for manual log copying - every run of your a
             <appender-ref ref="ERROR_FILE"/>
         </root>
     </springProfile>
-    
+
     <springProfile name="dev">
         <root level="DEBUG">
             <appender-ref ref="CONSOLE"/>
@@ -135,7 +135,7 @@ This completely eliminates the need for manual log copying - every run of your a
 spring:
   application:
     name: myapp
-  
+
 logging:
   config: classpath:logback-spring.xml
   level:
@@ -143,7 +143,7 @@ logging:
     com.yourpackage: DEBUG
     org.springframework.web: DEBUG
     org.hibernate.SQL: DEBUG
-    
+
 # Alternative: Direct configuration in application.yml (simpler approach)
   file:
     name: logs/${spring.application.name}.log
@@ -211,23 +211,23 @@ public class LoggingConfiguration {
 
     private void setupSessionLogger() {
         LoggerContext context = (LoggerContext) LoggerFactory.getILoggerFactory();
-        
+
         // Create session-specific log file
         String sessionId = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         String sessionLogFile = logPath + "/" + appName + "-session-" + sessionId + ".log";
-        
+
         // Setup session appender
         RollingFileAppender sessionAppender = new RollingFileAppender();
         sessionAppender.setContext(context);
         sessionAppender.setFile(sessionLogFile);
-        
+
         // Pattern encoder
         PatternLayoutEncoder encoder = new PatternLayoutEncoder();
         encoder.setContext(context);
         encoder.setPattern("%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n");
         encoder.start();
         sessionAppender.setEncoder(encoder);
-        
+
         // Rolling policy
         TimeBasedRollingPolicy rollingPolicy = new TimeBasedRollingPolicy();
         rollingPolicy.setContext(context);
@@ -236,10 +236,10 @@ public class LoggingConfiguration {
         rollingPolicy.setMaxHistory(7);
         rollingPolicy.setTotalSizeCap(FileSize.valueOf("100MB"));
         rollingPolicy.start();
-        
+
         sessionAppender.setRollingPolicy(rollingPolicy);
         sessionAppender.start();
-        
+
         // Add to root logger
         Logger rootLogger = context.getLogger(Logger.ROOT_LOGGER_NAME);
         rootLogger.addAppender(sessionAppender);
@@ -249,24 +249,24 @@ public class LoggingConfiguration {
 // Utility class for custom log collection
 @Component
 public class LogCollector {
-    
+
     private static final Logger logger = LoggerFactory.getLogger(LogCollector.class);
-    
+
     @Value("${logging.path:logs}")
     private String logPath;
-    
+
     @EventListener(ApplicationReadyEvent.class)
     public void onApplicationReady() {
         logger.info("Application started successfully at {}", LocalDateTime.now());
         logger.info("Log files are being collected in: {}", new File(logPath).getAbsolutePath());
     }
-    
+
     @EventListener(ContextClosedEvent.class)
     public void onApplicationShutdown() {
         logger.info("Application shutting down at {}", LocalDateTime.now());
         collectFinalLogs();
     }
-    
+
     private void collectFinalLogs() {
         // Optional: Compress or archive logs on shutdown
         try {

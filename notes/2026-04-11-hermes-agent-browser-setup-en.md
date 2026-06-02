@@ -15,14 +15,14 @@ Answer:
 
 The question seems to be about setting up the **Camosfox** browser specifically for the **Hermes Agent** on a fresh Linux installation. You mentioned you just installed Linux, haven't installed Camosfox yet, used a fake location, and some browser settings can be skipped. You're asking if we can avoid installing Camosfox during the `install.sh` run for Hermes Agent, and how to properly set it up.
 
-**Important clarification first:**  
+**Important clarification first:**
 I searched my knowledge and common open-source/AI agent projects, but I could not find any widely known project called "Hermes Agent" that requires or includes a browser named "Camosfox". "Camosfox" also does not appear to be a standard or known browser (it might be a typo, custom fork, or very niche tool). It could possibly be a misspelling or autocorrect for something like **"Firefox"** (common in Linux setups), **"Chrome"** (Chromium-based), or a custom browser used in specific automation/agent frameworks.
 
 If "Camosfox" is a custom or private browser for your Hermes Agent project, please provide more details (GitHub repo link, project name, or exact error messages) so I can give precise instructions.
 
 ### Assuming this might be related to Firefox or a Firefox-based setup (most common for Linux agents/automation):
 
-1. **Can we skip installing the browser during `install.sh`?**  
+1. **Can we skip installing the browser during `install.sh`?**
    - Many agent installation scripts (especially those involving browser automation like Selenium, Playwright, or Puppeteer) have options to skip browser installation.
    - Check the `install.sh` script for flags. Common patterns:
      ```
@@ -71,5 +71,5 @@ If "Camosfox" is a custom or private browser for your Hermes Agent project, plea
 
 If this doesn't match your setup or if "Camosfox" and "Hermes Agent" refer to a specific private/internal project, please reply with more context (error messages, script output, or repo link) and I'll help more precisely.
 
-References:  
+References:
 - None (based on general Linux/browser automation knowledge; no specific public project matched the exact names)

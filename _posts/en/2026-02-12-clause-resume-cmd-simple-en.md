@@ -32,30 +32,30 @@ or shorter versions that Claude usually accepts:
 claude resume 4cb1fd80
 ```
 
-- The number (e.g. `4cb1fd80`) is the **shortened conversation UUID**  
+- The number (e.g. `4cb1fd80`) is the **shortened conversation UUID**
   Claude usually shows only the first 8 characters in the UI when you ask it “what is my current conversation id” or when it appears in share links / debug info.
 
 ### Main use cases
 
-1. **Revive an old chat that scrolled off your history**  
+1. **Revive an old chat that scrolled off your history**
    → Very long conversations sometimes disappear from the sidebar. `--resume <id>` brings it back instantly.
 
-2. **Continue exact thread across devices / browsers**  
+2. **Continue exact thread across devices / browsers**
    → Copy the ID from one device, paste `--resume <id>` on another → same chat loads.
 
-3. **Recover after accidentally starting new chat**  
+3. **Recover after accidentally starting new chat**
    → Instead of copy-pasting 50 messages, just resume the old one.
 
-4. **Share / bookmark specific conversations**  
+4. **Share / bookmark specific conversations**
    → People sometimes share short IDs in Discord / forums so others can load the exact same thread state (if the conversation is still accessible to their account).
 
 ### Where to find conversation IDs
 
-- Ask Claude directly in any chat:  
-  “What is the short ID of this conversation?”  
+- Ask Claude directly in any chat:
+  “What is the short ID of this conversation?”
   → It usually replies with something like `Current short ID: 4cb1fd80`
 
-- In share links:  
+- In share links:
   `https://claude.ai/share/4cb1fd80-…` → first 8 chars are the short ID
 
 - Sometimes visible in browser dev tools or URL parameters when you switch chats
@@ -69,6 +69,6 @@ claude resume 4cb1fd80
 
 So in short: `--resume <id>` is Claude’s built-in “load conversation by ID” teleport command — very useful power-user feature, especially for people who generate dozens of long threads.
 
-**References:**  
+**References:**
 
 - None

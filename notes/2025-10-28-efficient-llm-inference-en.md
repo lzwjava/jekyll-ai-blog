@@ -55,5 +55,5 @@ Ray's strength is its unified API: Write once, scale anywhere, with low boilerpl
 ### Relation Between vLLM and Ray
 In systems like SLOs-Serve (from our earlier discussion), vLLM handles the low-level LLM batching/inference, while Ray orchestrates multi-replica deployments, routing requests across nodes for burst handling and scaling.
 
-[vLLM Documentation](https://docs.vllm.ai/en/latest/)  
+[vLLM Documentation](https://docs.vllm.ai/en/latest/)
 [Ray Documentation](https://docs.ray.io/en/latest/ray-overview/index.html)

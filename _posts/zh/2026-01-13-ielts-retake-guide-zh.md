@@ -49,7 +49,7 @@ IELTS One Skill Retake（也称为单项重考或单科重考）允许您在想�
 
 相比于重考全科，这一选项可以节省时间和金钱，特别是当您只有一个单项成绩不理想时。
 
-**References:**  
+**References:**
 
 - [IELTS Official - One Skill Retake](https://www.ielts.org/en-us/for-test-takers/ielts-one-skill-retake)
 - [British Council - One Skill Retake](https://takeielts.britishcouncil.org/take-ielts/one-skill-retake)

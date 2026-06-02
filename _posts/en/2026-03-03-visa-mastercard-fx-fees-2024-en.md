@@ -11,7 +11,7 @@ type: note
 
 Question: Why does ZA Bank's Visa debit card charge a 1.95% foreign exchange fee while HSBC's debit Mastercard does not?
 
-Answer: 
+Answer:
 
 ZA Bank's Visa debit card (ZA Card) charges a **1.95% foreign transaction handling fee** (also called foreign exchange fee or FX markup) on transactions in currencies other than Hong Kong dollars (HKD). This fee breaks down as:
 
@@ -30,7 +30,7 @@ The key reasons for this difference include:
 
 If you're frequently spending overseas, HSBC's debit Mastercard is generally more cost-effective for avoiding that 1.95% fee. Always check the latest fees directly with the banks, as terms can change.
 
-References:  
+References:
 
 - [ZA Bank Fees and Charges Guide](https://bank.za.group/assets/files/hk/terms/Fees%20and%20Charges%20Guide.pdf)
 - [ZA Bank ZA Card FAQ on ATM and FX fees](https://bank.za.group/en/faqs/Individuals/ZA_Card/ATM/6650360fb359be4a195230b1)

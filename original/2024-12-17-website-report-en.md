@@ -58,13 +58,13 @@ Summary of Issues Identified:
 
 Recommendations for Improvement:
 
-- Increase Memory Limit:  
+- Increase Memory Limit:
   Modify the `wp-config.php` file or server configuration to raise the WordPress memory limit, preventing fatal errors.
 
-- Check and Correct Permalinks:  
+- Check and Correct Permalinks:
   Review and update WordPress permalink settings. Ensure pages like the Climate Pledge Friendly page are linked correctly and do not return 404 errors.
 
-- Language Plugin Configuration:  
+- Language Plugin Configuration:
   Verify that the multilingual plugin and theme language files are set up properly. Ensure that language switching toggles function smoothly for English, Chinese, and German.
 
 - Ensure Navigation Functionality:

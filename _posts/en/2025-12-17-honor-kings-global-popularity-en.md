@@ -12,7 +12,7 @@ type: note
 
 Question: How popular is Honor of Kings worldwide, and which countries have the top user bases?
 
-Answer: 
+Answer:
 Honor of Kings (HoK), developed by Tencent's TiMi Studios, is the world's most popular mobile MOBA and highest-grossing mobile game ever, with billions in lifetime revenue (over $4.5B on App Store/Google Play alone, excluding China third-party Android). Its Chinese server (Wangzhe Rongyao) dominates globally:
 
 - **Daily Active Users (DAU)**: 139M on China server (record, Oct 2025); global estimates ~100M+ total.
@@ -41,11 +41,11 @@ Primarily by global downloads/revenue shares (launch data) + active rankings. Ch
 
 **Notes**: Active rankings from ActivePlayer.io (Google Play proxies, Dec 2025). SEA dominates global servers (Indonesia/PH/ML/TW/VN ~70%+). Brazil/US/Europe growing slowly. Projections: Continued SEA dominance; global MAU could hit 20M+ non-China by 2026 with esports push.
 
-References:  
-- [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)  
-- [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)  
-- [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)  
-- [ActivePlayer.io Stats](https://activeplayer.io/honor-of-kings/)  
-- [AppMagic Jun 2025 Revenue](https://gam3s.gg/news/mobile-game-rankings-for-june-2025/)  
-- [GameWorldObserver 50M Downloads](https://gameworldobserver.com/2024/07/22/honor-of-kings-50-million-downloads-outside-of-china)  
+References:
+- [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)
+- [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)
+- [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)
+- [ActivePlayer.io Stats](https://activeplayer.io/honor-of-kings/)
+- [AppMagic Jun 2025 Revenue](https://gam3s.gg/news/mobile-game-rankings-for-june-2025/)
+- [GameWorldObserver 50M Downloads](https://gameworldobserver.com/2024/07/22/honor-of-kings-50-million-downloads-outside-of-china)
 - [Wikipedia Revenue Breakdown](https://en.wikipedia.org/wiki/Honor_of_Kings)

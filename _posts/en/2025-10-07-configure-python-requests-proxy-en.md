@@ -87,6 +87,6 @@ This should show the proxy server's IP if configured correctly.
 
 This setup is simple, secure, and follows best practices for environment-based configuration.
 
-[Requests Documentation: Proxies](https://requests.readthedocs.io/en/latest/user/advanced/#proxies)  
+[Requests Documentation: Proxies](https://requests.readthedocs.io/en/latest/user/advanced/#proxies)
 [python-dotenv Documentation](https://github.com/theskumar/python-dotenv)
 ```

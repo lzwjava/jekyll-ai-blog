@@ -140,11 +140,11 @@ public class SimpleRocksDBExample {
     public static void main(String[] args) {
         RocksDB.loadLibrary();  // Load the native library
         Options options = new Options().setCreateIfMissing(true);
-        
+
         try (RocksDB db = RocksDB.open(options, "/tmp/rocksdb_example")) {
             // Put a key-value pair
             db.put("hello".getBytes(), "world".getBytes());
-            
+
             // Get the value
             byte[] value = db.get("hello".getBytes());
             if (value != null) {

@@ -21,7 +21,7 @@ TOEFL iBT Writing 部分包含两个任务，但当人们提到 "TOEFL essays" �
 ### Most Frequent Topic Categories
 - **Education**（目前为止最常见的领域）
   - 教师的角色、家庭作业、班级规模、Online vs. In-person learning、大学教育的价值、学校纪律、优秀学生/教师的品质
-- **Technology** 
+- **Technology**
   - Internet/Social media/Cell phones 的影响、科技在教育/工作中的应用、技术进步的优缺点
 - **Work and Career**
   - 工作满意度、Working from home vs. office、优秀同事/老板的品质、职业选择、退休

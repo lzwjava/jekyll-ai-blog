@@ -22,6 +22,6 @@ Japan has several major airports, with Tokyo's Haneda and Narita being the busie
 
 For more details on flights or ground transport, check official airport sites.
 
-References:  
-[List of the busiest airports in Japan](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Japan)  
+References:
+[List of the busiest airports in Japan](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Japan)
 [International Air Travel - Japan Guide](https://www.japan-guide.com/e/e2034.html)

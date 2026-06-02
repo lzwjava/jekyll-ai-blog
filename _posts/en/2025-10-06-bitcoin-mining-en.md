@@ -77,7 +77,7 @@ Users pay fees to prioritize transactions in blocks; low-fee ones wait.
 
 If you meant something specific (like hardware for mining), let me know!
 
-**References:**  
-[Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)  
-[Bitcoin Wiki: Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)  
+**References:**
+[Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
+[Bitcoin Wiki: Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)
 [Blockchain.com: Bitcoin Halving](https://www.blockchain.com/learning-crypto/bitcoin-halving)

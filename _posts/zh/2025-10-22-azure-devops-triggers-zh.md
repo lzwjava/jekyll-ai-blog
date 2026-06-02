@@ -114,5 +114,5 @@ pr:
 
 有关最新详细信息，请参阅官方文档。
 
-[构建 Azure Repos Git 仓库](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml)  
+[构建 Azure Repos Git 仓库](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml)
 [Azure Pipelines 中的触发器](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml)

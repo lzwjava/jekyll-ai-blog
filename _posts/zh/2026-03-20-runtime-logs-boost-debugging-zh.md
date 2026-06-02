@@ -96,7 +96,7 @@ Angular 有许多无声的 lifecycle events，会导致如 field value loss 等 
 2. 复现 bug（tab switch → field value lost）
 3. 复制边界日志块（从分隔符到分隔符）
 4. 粘贴到 Copilot/Claude，并附上：
-   "Here are the logs between tab switch start and end — 
+   "Here are the logs between tab switch start and end —
     why did the field value disappear?"
 ```
 

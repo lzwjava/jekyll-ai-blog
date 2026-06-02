@@ -57,19 +57,19 @@ JSP 文件使用 `.jsp` 扩展名，通过脚本片段 (`<% %>`)、表达式 (`<
 </head>
 <body>
     <h1>Welcome to JSP!</h1>
-    
+
     <!-- 脚本片段：Java 代码 -->
-    <% 
+    <%
         String name = request.getParameter("name") != null ? request.getParameter("name") : "World";
         java.util.Date now = new java.util.Date();
     %>
-    
+
     <!-- 表达式：输出值 -->
     <p>Hello, <%= name %>! The time is <%= now %>.</p>
-    
+
     <!-- 使用 EL 实现更简洁的输出 -->
     <p>Your name via EL: ${param.name}</p>
-    
+
     <!-- JSTL 示例：遍历列表 -->
     <c:set var="fruits" value="${{'Apple', 'Banana', 'Cherry'}}" />
     <ul>

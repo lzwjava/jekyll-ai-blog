@@ -13,7 +13,7 @@ Great question! Both `LinkedHashMap` and `TreeMap` are implementations of the `M
 ### 🌳 `TreeMap`
 - **Ordering**: Sorted by **natural order** of the keys (or by a custom `Comparator` if provided).
 - **Data Structure**: Backed by a **Red-Black Tree** (a type of self-balancing binary search tree).
-- **Performance**: 
+- **Performance**:
   - `O(log n)` for get/put/remove
   - Sorted order maintained at all times
 - **Use Case**: When you need **sorted keys**.

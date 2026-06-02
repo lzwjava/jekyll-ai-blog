@@ -27,8 +27,8 @@ The A800 excels in accelerating demanding tasks like machine learning training, 
 
 Variants include the A800 40GB Active (for workstations with active cooling) and server-oriented models like the A800 PCIe 80GB. It's not intended for consumer gaming but for enterprise and professional use.
 
-[NVIDIA A800 40GB Active Graphics Card](https://www.nvidia.com/en-us/design-visualization/a800/)  
-[NVIDIA A800 PCIe 40 GB Specs](https://www.techpowerup.com/gpu-specs/a800-pcie-40-gb.c3964)  
-[NVIDIA introduces A800 GPU to replace banned A100 for China](https://analyticsdrift.com/nvidia-introduces-a800-gpu-chips-to-replace-banned-a100-chips-for-china/)  
-[ThinkSystem NVIDIA A800 PCIe 4.0 GPUs](https://lenovopress.lenovo.com/lp1813-thinksystem-nvidia-a800-pcie-gpu)  
+[NVIDIA A800 40GB Active Graphics Card](https://www.nvidia.com/en-us/design-visualization/a800/)
+[NVIDIA A800 PCIe 40 GB Specs](https://www.techpowerup.com/gpu-specs/a800-pcie-40-gb.c3964)
+[NVIDIA introduces A800 GPU to replace banned A100 for China](https://analyticsdrift.com/nvidia-introduces-a800-gpu-chips-to-replace-banned-a100-chips-for-china/)
+[ThinkSystem NVIDIA A800 PCIe 4.0 GPUs](https://lenovopress.lenovo.com/lp1813-thinksystem-nvidia-a800-pcie-gpu)
 [Nvidia AI Chips: A100 A800 H100 H800 B200](https://www.fibermall.com/blog/nvidia-ai-chip.htm)

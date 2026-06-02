@@ -25,7 +25,7 @@ type: note
 
 这不仅仅是“相似”——它们在结构上完全相同：
 
-  
+
 | 概念 | 基础 | 扩展/额外 |
 |---|---|---|
 | RTT | Average latency | Jitter (variance) |

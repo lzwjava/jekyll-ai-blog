@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about the double pinyin input method?
 
-Answer: 
+Answer:
 
 Double Pinyin (双拼 / Shuangpin) is a Chinese input method that maps each syllable to exactly two keystrokes, making it theoretically faster than Full Pinyin (全拼) for many users. However, several unpopular or controversial opinions exist, often from experienced users, critics, or those who prefer alternatives. These views tend to be minority positions because Double Pinyin has a dedicated (though niche) following among speed typists.
 
@@ -34,7 +34,7 @@ Here are some **unpopular ideas** about Double Pinyin:
 
 These opinions are unpopular mainly because Double Pinyin communities (on Zhihu, Reddit's r/ChineseLanguage, V2EX, etc.) are full of success stories and speed comparisons that highlight its strengths. The counter-views usually come from people who tried it, didn't like it, and switched back — or from those who simply never felt the need to change.
 
-References:  
+References:
 
 - [全拼和双拼输入法之争 - 少数派](https://sspai.com/post/84175)
 - [r/ChineseLanguage various threads on Double Pinyin](https://www.reddit.com/r/ChineseLanguage/search/?q=double%20pinyin%20OR%20shuangpin)

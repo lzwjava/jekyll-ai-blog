@@ -68,6 +68,6 @@ Here's a list of practical devices, based on common V2L uses. Focus on items und
 
 This setup is a versatile feature—people use it for camping, power outages, or even powering home essentials like fridges during blackouts [1][2][3]. If you need product suggestions or troubleshooting, share more about your car!
 
-[1] https://www.reddit.com/r/electricvehicles/comments/1844ykm/people_with_cars_that_have_v2l_what_did_you_use/  
-[2] https://www.cleanenergyreviews.info/blog/vehicle-to-load-v2l-explained  
+[1] https://www.reddit.com/r/electricvehicles/comments/1844ykm/people_with_cars_that_have_v2l_what_did_you_use/
+[2] https://www.cleanenergyreviews.info/blog/vehicle-to-load-v2l-explained
 [3] https://www.racv.com.au/royalauto/transport/electric-vehicles/what-is-v2l-and-which-ev-phev-have-it.html

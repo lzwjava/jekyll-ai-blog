@@ -47,7 +47,7 @@ public class MyService {
 
 ```java
 @Component
-public class LegacyService 
+public class LegacyService
     implements InitializingBean, DisposableBean {
 
     @Override

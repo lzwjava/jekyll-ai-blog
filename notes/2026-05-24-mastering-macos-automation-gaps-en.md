@@ -217,7 +217,7 @@ The `permissions` one is especially interesting — TCC (Transparency, Consent, 
 cp ~/Library/Application\ Support/com.apple.TCC/TCC.db /tmp/
 sqlite3 /tmp/TCC.db "SELECT client, service, auth_value FROM access;"
 
-# Shows which apps have camera, microphone, screen recording, 
+# Shows which apps have camera, microphone, screen recording,
 # file access, etc.
 ```
 

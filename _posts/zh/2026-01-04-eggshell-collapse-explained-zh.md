@@ -42,10 +42,10 @@ type: note
 
 这一事件被称为“破蛋壳”，象征着中国蓬勃发展但充满风险的共享经济初创企业中脆弱的承诺。
 
-References:  
+References:
 
-- [Danke Apartment: The 'broken eggshell' that left young Chinese homeless](https://www.bbc.com/news/world-asia-china-55571813)  
-- [Cover Story: How Chinese Apartment Rental Giant’s Business Fell Apart](https://www.caixinglobal.com/2020-12-07/cover-story-how-chinese-apartment-rental-giants-business-fell-apart-101636345.html)  
-- [New York-listed Eggshell has a great fall](https://www.asiatimesfinancial.com/new-york-listed-eggshell-has-a-great-fall)  
-- [Tens of thousands face eviction after Chinese rental company collapses](https://www.wsws.org/en/articles/2020/12/31/dank-d31.html)  
+- [Danke Apartment: The 'broken eggshell' that left young Chinese homeless](https://www.bbc.com/news/world-asia-china-55571813)
+- [Cover Story: How Chinese Apartment Rental Giant’s Business Fell Apart](https://www.caixinglobal.com/2020-12-07/cover-story-how-chinese-apartment-rental-giants-business-fell-apart-101636345.html)
+- [New York-listed Eggshell has a great fall](https://www.asiatimesfinancial.com/new-york-listed-eggshell-has-a-great-fall)
+- [Tens of thousands face eviction after Chinese rental company collapses](https://www.wsws.org/en/articles/2020/12/31/dank-d31.html)
 - [Crippled Rental Platform Danke Faces Delisting From NYSE](https://www.caixinglobal.com/2021-04-08/crippled-rental-platform-danke-faces-delisting-from-nyse-101687064.html)

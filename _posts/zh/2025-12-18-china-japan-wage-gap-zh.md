@@ -30,11 +30,11 @@ type: note
 
 到21世纪初，随着工业化进程，中国的工资迅速上涨，显著缩小了这一差距。
 
-参考文献：  
+参考文献：
 
-- https://www.sciencedirect.com/science/article/pii/S1043951X20300596  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/  
-- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf  
-- https://www.asahi.com/ajw/articles/15166586  
-- https://en.wikipedia.org/wiki/Economy_of_China  
+- https://www.sciencedirect.com/science/article/pii/S1043951X20300596
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/
+- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf
+- https://www.asahi.com/ajw/articles/15166586
+- https://en.wikipedia.org/wiki/Economy_of_China
 - https://en.wikipedia.org/wiki/Lost_Decades

@@ -18,7 +18,7 @@ type: note
 修复方法：将每个受影响的围栏式代码块用 `{% raw %}...{% endraw %}` 包裹起来，这样Liquid就不会处理其中的内容：
 
 - **Ansible帖子**（2个主题）：`{{ source_dir }}`、`{{ item.path | relpath(...) }}` 等
-- **JSX帖子**：`{{ color: "red" }}` 样式对象  
+- **JSX帖子**：`{{ color: "red" }}` 样式对象
 - **Vault帖子**：Go模板 `{{.UserDN}}`
 - **Angular帖子**（3个主题）：`{{ count() }}`、`{{ totalItems$ | async }}`
 - **GitHub Actions帖子**：`{{ inputs.version || 'latest' }}`

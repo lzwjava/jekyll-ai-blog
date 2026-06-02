@@ -12,7 +12,7 @@ type: note
 
 Question: What does incest mean?
 
-Answer: 
+Answer:
 
 **Incest** 指的是血缘关系或婚姻关系密切的人（近亲）之间发生的性行为或性交，这在几乎所有社会中都被法律禁止或受到强烈的文化禁忌（taboo）。
 
@@ -36,6 +36,6 @@ Answer:
 
 在现代日常英语用法中，当有人说 "that's incest" 或 "they're committing incest" 时，他们几乎总是指父母/子女或兄弟/姐妹之间的性关系。
 
-References:  
+References:
 
 - None (standard dictionary + legal definition)

@@ -23,7 +23,7 @@ During the initial housing reform era, the goal was to house millions as quickly
 The landscape is shifting because the old "brute force" model is hitting its limits. Mainstream housing is increasingly incorporating high-tech elements through:
 
 *   **Prefabrication and Modular Integrated Construction (MiC):** Instead of pouring all concrete on-site, entire rooms or sections are now built in **smart factories** with millimeter precision and then hoisted into place. This reduces waste by 75% and slashes construction time.
-    
+
 *   **Digital Twins and BIM:** Building Information Modeling (BIM) allows engineers to create a 3D digital replica of a building before a single brick is laid, optimizing everything from plumbing to sunlight exposure.
 *   **Green Building Tech:** To meet "Dual Carbon" goals, new mainstream apartments are adopting "Passive House" technologies—high-performance insulation and triple-glazed windows that maintain temperature without heavy air conditioning.
 

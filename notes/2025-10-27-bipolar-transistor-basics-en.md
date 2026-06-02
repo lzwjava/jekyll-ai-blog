@@ -18,7 +18,7 @@ Think of it as a water valve: a small twist (input at the base) controls a big f
 
 ### Structure of a BJT
 
-A BJT is built like a sandwich of three thin layers of semiconductor material (usually silicon, doped with impurities to make it conduct electricity better). 
+A BJT is built like a sandwich of three thin layers of semiconductor material (usually silicon, doped with impurities to make it conduct electricity better).
 
 - **Emitter (E)**: The outer layer that "emits" (sends out) electrons or holes (positive charges). It's heavily doped, so lots of charge carriers are ready to move.
 - **Base (B)**: The super-thin middle layer that acts as the control gate. It's lightly doped, so it doesn't hold onto charges much—most pass right through.
@@ -35,7 +35,7 @@ The layers are joined at two junctions: emitter-base (EB) and base-collector (BC
 BJTs control current by letting a small current at the base steer a much larger one between collector and emitter. Here's the basic idea:
 
 1. **No Signal (Off State)**: Without any voltage at the base, both junctions block current. No flow happens—BJT is off.
-   
+
 2. **Small Signal (On State)**: Apply a tiny positive voltage to the base (for NPN). This forward-biases the EB junction, letting electrons flood from emitter into base. But the base is thin and lightly doped, so most electrons zip through to the collector (pulled by a positive voltage there). This reverse-biases the BC junction but still allows the electrons to cross.
 
 3. **Amplification Magic**: The base current (I_B) is small, but it triggers a huge collector current (I_C)—often 100 times bigger! The emitter current (I_E) is I_C + I_B. This ratio (I_C / I_B) is the **current gain (β or h_FE)**, usually 50–300. So, a weak signal in becomes a strong one out.

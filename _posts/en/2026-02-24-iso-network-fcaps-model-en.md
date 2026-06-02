@@ -11,7 +11,7 @@ type: note
 
 Question: According to the ISO definition of network management functions, what are the main aspects included?
 
-Answer: 
+Answer:
 
 According to the International Organization for Standardization (ISO), specifically within the **ISO/IEC 7498-4** standard (which is part of the Open Systems Interconnection or OSI model framework), network management is defined by five functional areas. These are commonly referred to as the **FCAPS** model.
 

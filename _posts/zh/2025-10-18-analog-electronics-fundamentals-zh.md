@@ -23,8 +23,8 @@ type: note
 - **功率 (P)**：能量消耗速率，计算公式为 \\( P = VI = I^2R = \frac{V^2}{R} \\)，单位瓦特 (W)
 
 ### 欧姆定律
-欧姆定律指出电阻两端电压与流过电流成正比：  
-\\[ V = IR \\]  
+欧姆定律指出电阻两端电压与流过电流成正比：
+\\[ V = IR \\]
 亦可变形为 \\( I = \frac{V}{R} \\) 或 \\( R = \frac{V}{I} \\)
 
 **示例**：在12V电池与4Ω电阻构成的电路中，电流为 \\( I = \frac{12}{4} = 3A \\)，消耗功率为 \\( P = 12 × 3 = 36W \\)
@@ -32,12 +32,12 @@ type: note
 ### 基尔霍夫定律
 这两大定律确保电路中能量与电荷的守恒。
 
-- **基尔霍夫电流定律 (KCL)**：流入节点的电流之和等于流出电流之和（电荷守恒）  
-  \\[ \sum I_{\text{流入}} = \sum I_{\text{流出}} \\]  
+- **基尔霍夫电流定律 (KCL)**：流入节点的电流之和等于流出电流之和（电荷守恒）
+  \\[ \sum I_{\text{流入}} = \sum I_{\text{流出}} \\]
   **示例**：某节点若从一条支路流入2A，另一支路流入3A，则第三条支路必须流出5A
 
-- **基尔霍夫电压定律 (KVL)**：任意闭合回路中电压代数和为零（能量守恒）  
-  \\[ \sum V = 0 \\]（压降与压升相互抵消）  
+- **基尔霍夫电压定律 (KVL)**：任意闭合回路中电压代数和为零（能量守恒）
+  \\[ \sum V = 0 \\]（压降与压升相互抵消）
   **示例**：某回路含10V电源，R1压降2V，R2压降3V，则剩余压降必为5V才能使回路闭合
 
 **技巧提示**：应用定律前务必绘制清晰电路图并标注节点与回路
@@ -56,9 +56,9 @@ type: note
 4. 求解节点电压方程组
 5. 如需支路电流可通过欧姆定律计算
 
-**示例**：两节点通过电阻与电压源连接的电路  
-- 节点1经2Ω接10V电源，经3Ω接节点2，经5Ω接地  
-- 节点1的KCL方程：\\( \frac{10 - V_1}{2} + \frac{V_2 - V_1}{3} - \frac{V_1}{5} = 0 \\)  
+**示例**：两节点通过电阻与电压源连接的电路
+- 节点1经2Ω接10V电源，经3Ω接节点2，经5Ω接地
+- 节点1的KCL方程：\\( \frac{10 - V_1}{2} + \frac{V_2 - V_1}{3} - \frac{V_1}{5} = 0 \\)
 - 与节点2方程联立求解
 
 ### 叠加定理
@@ -93,12 +93,12 @@ type: note
 重点讨论一阶电路（单个储能元件，如RC或RL串联电路）
 
 - **RC电路（阶跃响应）**：
-  - 充电过程：t=0时施加直流电压V_s，\\( V_C(t) = V_s (1 - e^{-t/RC}) \\)  
+  - 充电过程：t=0时施加直流电压V_s，\\( V_C(t) = V_s (1 - e^{-t/RC}) \\)
     - 初始值：V_C(0) = 0；终值：V_C(∞) = V_s
   - 放电过程：短接V_s，\\( V_C(t) = V_0 e^{-t/RC} \\)
 
 - **RL电路**：
-  - 电流建立：\\( I_L(t) = \frac{V_s}{R} (1 - e^{-Rt/L}) \\)  
+  - 电流建立：\\( I_L(t) = \frac{V_s}{R} (1 - e^{-Rt/L}) \\)
   - 电流衰减：\\( I_L(t) = I_0 e^{-Rt/L} \\)
 
 **示例（RC充电）**：R=1kΩ，C=1μF（τ=1ms），V_s=5V。当t=1ms时，\\( V_C = 5(1 - e^{-1}) ≈ 3.16V \\)
@@ -112,7 +112,7 @@ type: note
 - 实物搭建：用面包板配合万用表搭建简单RC/RL电路
 - 高阶内容：后续章节将涉及交流电路分析（相量法）
 
-深度阅读推荐：  
-[All About Circuits - 欧姆定律与基尔霍夫定律](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/kirchhoffs-laws/)  
-[可汗学院 - 电路分析专题](https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic)  
+深度阅读推荐：
+[All About Circuits - 欧姆定律与基尔霍夫定律](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/kirchhoffs-laws/)
+[可汗学院 - 电路分析专题](https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic)
 [叠加定理详解](https://www.electronics-tutorials.ws/dccircuits/superposition.html)

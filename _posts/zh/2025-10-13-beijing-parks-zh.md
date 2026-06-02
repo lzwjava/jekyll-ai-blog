@@ -30,6 +30,6 @@ type: note
 
 本清单参考游客评价精选高分园区。北京现存300余座公园，建议按季节特色探索——春日赏花，秋日观叶。
 
-[北京15大必去公园（2025年）- Tripadvisor](https://www.tripadvisor.com/Attractions-g294212-Activities-c57-t70-Beijing.html)  
-[北京五大经典公园 - 中国旅行规划师](https://www.thechinatravelplanner.com/china-inspiration/beijings-best-parks)  
+[北京15大必去公园（2025年）- Tripadvisor](https://www.tripadvisor.com/Attractions-g294212-Activities-c57-t70-Beijing.html)
+[北京五大经典公园 - 中国旅行规划师](https://www.thechinatravelplanner.com/china-inspiration/beijings-best-parks)
 [2025年北京最值得造访的公园 - Lost Plate美食之旅](https://lostplate.com/beijings-best-parks/)

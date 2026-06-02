@@ -11,7 +11,7 @@ type: note
 
 **问题：为什么在 Midea 空调的 extract humidity mode（dehumidify/dry mode）中，无法调节高温或低温温度设置？**
 
-**答案：**  
+**答案：**
 
 在大多数 **Midea air conditioners** 中，“extract humidity”模式（通常称为 **Dry mode** 或 **Dehumidify mode**）的主要设计目的是从空气中去除水分，而不是像 Cool mode 那样提供强大、可调节的制冷。
 
@@ -25,7 +25,7 @@ type: note
 
 某些较旧或特定 Midea 型号可能允许在 Dry mode 中进行有限的温度设置，但这种情况不常见。如果您的型号表现不同，请查阅确切型号的用户手册以确认。
 
-**参考资料：**  
+**参考资料：**
 
 - Midea U-shape window AC user manual: [https://www.midea.com/content/dam/midea-aem/us/air-conditioners/window-air-conditioners/u-shape-all-models/Midea%20U%20AC%20User%20Manual.pdf](https://www.midea.com/content/dam/midea-aem/us/air-conditioners/window-air-conditioners/u-shape-all-models/Midea%20U%20AC%20User%20Manual.pdf)
 - Midea portable AC manual example: [https://www.midea.com/content/dam/midea-aem/us/air-conditioners/portable-air-conditioners/map05s1awt-and-map07s1awt/MAP05S1AWT-MAP07S1AWT-Manual.pdf](https://www.midea.com/content/dam/midea-aem/us/air-conditioners/portable-air-conditioners/map05s1awt-and-map07s1awt/MAP05S1AWT-MAP07S1AWT-Manual.pdf)

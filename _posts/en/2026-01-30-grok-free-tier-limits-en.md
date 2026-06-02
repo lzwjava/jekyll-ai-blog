@@ -12,7 +12,7 @@ type: note
 
 Question: Is Grok the most generous with its free usage among Grok, Gemini, Claude, and ChatGPT?
 
-Answer: 
+Answer:
 
 No, **Grok is not clearly the most generous** with its free tier usage limits compared to the others — the "most generous" depends on how you use it, but Gemini often provides the most flexible or highest effective free access in many scenarios as of early 2026.
 
@@ -36,7 +36,7 @@ Grok's free tier improved over time (e.g., opened to non-X users with limits), a
 
 All four have moved toward tighter free limits in 2025–2026 to push paid subscriptions, so none are truly "unlimited" on free anymore.
 
-References:  
+References:
 
 - [AI Chatbot Rate Limits Compared: ChatGPT vs Claude vs Gemini vs Grok 2025](https://aionx.co/ai-comparisons/ai-chatbot-rate-limits-compared)
 - [LLM Usage Limits Comparison: Breaking Down AI Restrictions](https://exploreaitogether.com/llm-usage-limits-comparison)

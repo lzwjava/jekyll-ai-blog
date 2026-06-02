@@ -92,8 +92,8 @@ Standard employment visa for mainland pros with a HK job offer. Quota-free, no s
 
 For personalized help, visit ImmD counters or use their chat. Success depends on your profile—TTPS suits fresh top grads/high earners best.
 
-**References:**  
-- [ImmD TTPS Page](https://www.immd.gov.hk/eng/services/visas/TTPS.html)  
-- [ImmD QMAS Page](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)  
-- [GovHK ASMTP Guide](https://www.immd.gov.hk/eng/services/visas/mainland-talents-professionals.html)  
+**References:**
+- [ImmD TTPS Page](https://www.immd.gov.hk/eng/services/visas/TTPS.html)
+- [ImmD QMAS Page](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)
+- [GovHK ASMTP Guide](https://www.immd.gov.hk/eng/services/visas/mainland-talents-professionals.html)
 - [Fragomen 2025 Updates](https://www.fragomen.com/insights/hong-kong-sar-key-updates-for-top-talent-pass-scheme-and-quality-migrant-scheme-introduced.html)

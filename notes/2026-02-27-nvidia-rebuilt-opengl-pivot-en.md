@@ -11,7 +11,7 @@ type: note
 
 Question: What book did Jensen Huang buy to tell his team to learn from that book to build GPU? They failed and had to start over again.
 
-Answer: 
+Answer:
 
 The book Jensen Huang bought and instructed his team to study was the **OpenGL programming guide** (often referred to as the "OpenGL red book" or "OpenGL textbook"), authored by Jackie Neider, Tom Davis, and Mason Woo, with contributions from others like Mark Kilgard in later editions.
 
@@ -23,7 +23,7 @@ Huang has recounted this story in interviews (e.g., at Stanford GSB), crediting 
 
 This aligns with NVIDIA's early struggles: initial chips like NV1 failed in the market, requiring the team to pivot, refocus, and rebuild from a much smaller base.
 
-References:  
+References:
 
 - [Jensen Huang on How to Use First-Principles Thinking to Drive Decisions (Stanford GSB)](https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions)
 - Various NVIDIA history accounts in books like "The Nvidia Way" and "The Thinking Machine" (describing early failures and pivots, though the specific book reference appears in Huang's direct recollections)

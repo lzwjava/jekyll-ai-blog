@@ -11,7 +11,7 @@ type: note
 
 Question: One of the biggest mistakes people often make is thinking that if they work hard, they should automatically get a salary. Why aren't they getting paid? People tend to think only from their own perspective. I once created a startup; after it shut down, many people donated or supported me with money. How the world treats you depends on what you do, how you help people, and whether people actually feel the value or use it. The truth is that if people use it a lot, they will surely be grateful and pay you. Many projects, even from big corporations, fail because nobody feels the benefit, nobody uses it, nobody really likes it, or it just doesn't get released properly. For earning money, interacting with the world, or gaining fame, how good you or your product is one aspect; another important aspect is how others perceive it, feel about it, and use it. Right?
 
-Answer: 
+Answer:
 
 **Yes, you are absolutely right.** This is a profound and often overlooked truth about how the world rewards effort, creativity, and innovation. Hard work alone is not enough—it's the *perceived value* you deliver to others that determines your salary, support, fame, or success. Your personal story about the startup shutdown is a perfect real-world example: even after failure, people donated because they had felt the value or impact during its run. That gratitude translated into tangible support.
 

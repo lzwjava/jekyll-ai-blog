@@ -22,9 +22,9 @@ Yes, politics at the highest levels—especially in authoritarian and one-party 
 - According to the official Chinese version (released after 1971): Lin Biao, together with his wife Ye Qun and son Lin Liguo, plotted a coup codenamed “Project 571” to assassinate Mao (methods allegedly included bombing Mao’s train, air strikes, or poisoning).
 - The plot supposedly failed, and on September 13, 1971, Lin, his family, and several aides tried to flee China on a Trident jet (air force plane 256). The plane crashed in Mongolia at Undurkhaan after running out of fuel. Everyone on board died.
 - China’s official narrative: Lin was a traitor who died while fleeing after his coup failed.
-- Alternative theories (common among historians outside China):  
-  – The plane may have been shot down on Mao’s orders.  
-  – Lin may have been trying to flee because he already knew he was being purged.  
+- Alternative theories (common among historians outside China):
+  – The plane may have been shot down on Mao’s orders.
+  – Lin may have been trying to flee because he already knew he was being purged.
   – Some details of “Project 571” might have been exaggerated or fabricated after the fact to justify the purge of Lin’s faction.
 
 Whatever the exact truth, thousands of military officers connected to Lin were arrested, imprisoned, or executed in the following years. Politics under Mao routinely ended with purges, forced suicides, or mysterious deaths (Liu Shaoqi, Peng Dehuai, He Long, etc.).

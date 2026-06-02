@@ -12,7 +12,7 @@ type: note
 
 Question: What are Ashish Vaswani's comments on the Transformer and attention mechanisms based on his YouTube videos and papers? Provide a comprehensive lecture.
 
-Answer: 
+Answer:
 
 # Comprehensive Lecture: Ashish Vaswani's Perspectives on Transformers and Attention Mechanisms
 
@@ -72,10 +72,10 @@ Vaswani's motto—"advancing AI together"—underscores openness. He sees Transf
 ## Conclusion
 In summary, Ashish Vaswani views Transformers and attention as transformative forces that simplified AI, enabled scalability, and unified tasks under data-driven learning. From historical frustrations with RNNs to future visions of collaborative AI, his comments highlight innovation through openness and experimentation. As we build on this foundation, remember: attention isn't just all you need—it's the start of endless possibilities. Thank you for your attention!
 
-References:  
+References:
 
-- [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)  
-- [https://www.youtube.com/watch?v=1GbDTTK3aR4](https://www.youtube.com/watch?v=1GbDTTK3aR4)  
-- [https://www.youtube.com/watch?v=5vcj8kSwBCY](https://www.youtube.com/watch?v=5vcj8kSwBCY)  
-- [https://www.youtube.com/watch?v=_sbFi5gGdRA](https://www.youtube.com/watch?v=_sbFi5gGdRA)  
+- [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+- [https://www.youtube.com/watch?v=1GbDTTK3aR4](https://www.youtube.com/watch?v=1GbDTTK3aR4)
+- [https://www.youtube.com/watch?v=5vcj8kSwBCY](https://www.youtube.com/watch?v=5vcj8kSwBCY)
+- [https://www.youtube.com/watch?v=_sbFi5gGdRA](https://www.youtube.com/watch?v=_sbFi5gGdRA)
 - [https://blogs.nvidia.com/blog/gtc-2024-transformer-ai-research-panel-jensen/](https://blogs.nvidia.com/blog/gtc-2024-transformer-ai-research-panel-jensen/)

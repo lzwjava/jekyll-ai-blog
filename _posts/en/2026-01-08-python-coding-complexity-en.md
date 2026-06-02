@@ -12,7 +12,7 @@ type: note
 
 Question: How should the Zen of Python principle "Complex is better than complicated" be understood?
 
-Answer: 
+Answer:
 
 The phrase "Complex is better than complicated" is one of the guiding principles in **The Zen of Python** (import this in a Python interpreter to see it). It distinguishes between two similar but different concepts:
 
@@ -54,5 +54,5 @@ Monkey-patching built-in types or using obscure `__getattr__` tricks to avoid le
 
 In short: When a problem genuinely requires sophistication, embrace Python's rich tools to solve it elegantly ("complex"). Never twist the code into knots just to feel clever ("complicated"). This aligns with other Zen principles like "Simple is better than complex" (for simple problems) and "Readability counts."
 
-References:  
+References:
 - [The Zen of Python (Python.org)](https://peps.python.org/pep-0020/)

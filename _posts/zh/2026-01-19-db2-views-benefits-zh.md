@@ -78,7 +78,7 @@ Views 被广泛使用，因为它们提供了几个重要的好处：
 
 Views 是 DB2（以及通用的关系型数据库）中最强大且最常用的功能之一，用于构建可维护、安全且对用户友好的数据库应用程序。
 
-References:  
+References:
 
 - [DB2 Views - db2tutorial.com](https://www.db2tutorial.com/db2-view)
 - [IBM Db2 Documentation - CREATE VIEW](https://www.ibm.com/docs/en/db2/11.5?topic=statements-create-view)

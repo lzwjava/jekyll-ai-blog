@@ -89,10 +89,10 @@ type: note
 import numpy as np
 
 # 将线性方程组定义为矩阵
-A = np.array([[3, 1, -1], 
-              [1, 4, 1], 
+A = np.array([[3, 1, -1],
+              [1, 4, 1],
               [2, 1, 2]])
-              
+
 b = np.array([9, 7, 8])
 
 # 求解系统 Ax = b

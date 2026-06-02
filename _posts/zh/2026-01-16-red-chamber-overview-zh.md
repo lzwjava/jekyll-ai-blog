@@ -48,5 +48,5 @@ Answer:
 
 In short: 如果一个人一生只能读**一本**中国传统小说，大多数中国学者和资深读者都会推荐《红楼梦》。
 
-References:  
+References:
 - None (general literary knowledge)

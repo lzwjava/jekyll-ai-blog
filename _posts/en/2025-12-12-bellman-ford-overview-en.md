@@ -48,17 +48,17 @@ The Bellman-Ford algorithm is a single-source shortest path algorithm that compu
 def bellman_ford(graph, source):
     dist = {vertex: float('inf') for vertex in graph.vertices}
     dist[source] = 0
-    
+
     for _ in range(len(graph.vertices) - 1):
         for u, v, w in graph.edges:  # each edge (u → v) with weight w
             if dist[u] != float('inf') and dist[v] > dist[u] + w:
                 dist[v] = dist[u] + w
-    
+
     # Check for negative cycles
     for u, v, w in graph.edges:
         if dist[u] != float('inf') and dist[v] > dist[u] + w:
             raise ValueError("Graph contains a negative-weight cycle")
-    
+
     return dist
 ```
 

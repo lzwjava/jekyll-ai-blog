@@ -40,17 +40,17 @@ public class ExampleTest {
     public void testExamples() {
         // Basic equality
         assertThat(5, is(5));
-        
+
         // String matching
         String text = "Hello World";
         assertThat(text, containsString("World"));
         assertThat(text, startsWith("Hello"));
-        
+
         // Collection matching
         List<String> items = Arrays.asList("apple", "banana", "orange");
         assertThat(items, hasItem("banana"));
         assertThat(items, hasSize(3));
-        
+
         // Number comparisons
         assertThat(10, greaterThan(5));
         assertThat(3.14, closeTo(3.0, 0.2));

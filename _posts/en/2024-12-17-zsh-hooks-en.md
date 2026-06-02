@@ -41,7 +41,7 @@ In Zsh, hooks let you execute custom functions at specific points during shell o
 - Example:
   ```zsh
   precmd_functions+=(additional_precmd)
-  
+
   additional_precmd() {
     echo "Additional precmd task."
   }
@@ -105,7 +105,7 @@ In Zsh, hooks let you execute custom functions at specific points during shell o
 - Example:
   ```zsh
   add-zsh-hook precmd another_precmd
-  
+
   another_precmd() {
     echo "Another precmd function."
   }

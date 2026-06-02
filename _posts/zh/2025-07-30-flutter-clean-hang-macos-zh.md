@@ -10,17 +10,17 @@ translated: true
 type: note
 ---
 
-啊，我明白你的意思了 👍  
+啊，我明白你的意思了 👍
 有时候在 macOS 上 `flutter clean` 会看起来“卡住”——特别是当生成文件很多，或者 Xcode 的 `DerivedData` 文件夹特别庞大的时候。
 
 ---
 
 ### ✅ 尝试以下步骤
 
-1. **取消卡住的命令**  
+1. **取消卡住的命令**
    按 `CTRL + C`。
 
-2. **手动清理（效果与 `flutter clean` 相同）**  
+2. **手动清理（效果与 `flutter clean` 相同）**
    你可以自行删除这些构建/缓存文件夹：
    ```bash
    rm -rf build/ .dart_tool/ ios/Pods ios/Podfile.lock ios/Flutter/Flutter.framework ios/Flutter/Flutter.podspec
@@ -53,7 +53,7 @@ type: note
 ⚡ **提示：** 清理后的第一次构建可能会稍慢一些（因为 Flutter 需要重新生成 `.dart_tool`、`.pub-cache`、iOS Pods 等），但不应永远卡住。如果持续出现“卡住”情况，可能原因包括：
 
 - **Flutter SDK 过旧** → 运行 `flutter upgrade`
-- **CocoaPods 版本过旧** → 运行 `sudo gem install cocoapods`  
+- **CocoaPods 版本过旧** → 运行 `sudo gem install cocoapods`
 - **Rosetta / M1 芯片问题**：如果你使用 Apple Silicon 芯片，根据环境配置有时需要在 `ios` 文件夹内运行 `arch -x86_64 pod install`
 
 ---

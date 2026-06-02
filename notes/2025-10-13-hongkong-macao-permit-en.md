@@ -18,5 +18,5 @@ To recap quickly (with the updated name):
 
 If that's not quite what you meant or if you have more details on your travel plans, let me know!
 
-[Hong Kong and Macao Travel Permit - Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_and_Macao_Travel_Permit)  
+[Hong Kong and Macao Travel Permit - Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_and_Macao_Travel_Permit)
 [Exit-Entry Permit (EEP) - TravelDoc](https://infopages.traveldoc.aero/Information/ExitEntryPermit)

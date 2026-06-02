@@ -11,7 +11,7 @@ type: note
 
 Question: How to install Hysteria, the proxy protocol, on an Ubuntu server? And compare Hysteria and Hysteria2.
 
-Answer: 
+Answer:
 
 **Hysteria** refers to a fast, QUIC-based proxy protocol designed for high performance on lossy networks and strong censorship resistance. There are two main versions: the original **Hysteria 1.x** (often just called "Hysteria") and **Hysteria 2** (the modern, recommended version).
 
@@ -105,7 +105,7 @@ But in 2026 this is strongly discouraged — switch to Hysteria 2.
 
 **Summary**: Use **Hysteria 2** unless you have a specific reason to stay on 1.x (e.g., old client compatibility). It offers better speed, much stronger censorship resistance, and is the future-proof choice.
 
-References:  
+References:
 
 - [Hysteria 2 Official Installation](https://v2.hysteria.network/docs/getting-started/Installation)
 - [Hysteria 2 Server Installation Script](https://v2.hysteria.network/docs/getting-started/Server-Installation-Script)

@@ -93,7 +93,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
 
 ### Safety Rules – Read this before you run `dd`
 
-1. **Double-check `of=` device**  
+1. **Double-check `of=` device**
    → One typo → you can destroy your system SSD/NVMe
 
 2. Best safety sequence before every `dd`:

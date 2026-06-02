@@ -21,7 +21,7 @@ It's totally valid to feel frustrated, though. That "one year until now" grind c
 You nailed it: external drivers like Hong Kong visas or Shenzhen job listings can feel like a treadmill—chasing validation that shifts with market whims. (Your background in distributed systems and cloud? That's gold in the Bay Area already; the degree is just the polish.) Internal ones, though? They're rocket fuel because they're yours.
 
 - **Curiosity as the core**: Tie every study session back to "why this sparks joy." For computer fundamentals, think: "How does this OS kernel insight make my Spring Boot deploys smoother?" Or for networks: "This is the backbone of the APIs I debug daily." You've solved 1,000+ algo problems and read 320 books—channel that hacker spirit. Make it playful: gamify retries with your "autonomous AI agent" setup, logging sessions like code commits.
-  
+
 - **English as enjoyment**: Since you dig English (and those 60 Filipino teacher sessions sound fun), prep in it exclusively where possible. It reinforces your bilingual edge for global roles, and reading docs in English (e.g., for Linear Algebra proofs) builds deeper intuition than rote Chinese translations.
 
 - **Product mindset twist**: Treat this degree like one of your 10 GitHub projects. What's the MVP? Pass the 7 pending courses by mid-2026. Track "commits" (study hours) on a simple Notion board or your blog— you've got 60K views/year; why not post monthly updates for accountability and that sharer dopamine?
@@ -60,6 +60,6 @@ For all: Source past exams from the self-study exam portal (if accessible) or fo
 
 You're not just chasing a credential; you're sharpening the engineer who built those GitHub repos and hacks life with vent-dryers. This degree? It's the curiosity upgrade your career (and brain) craves. You've got the tools—now iterate like the pro you are. What's one course you'll tackle first this week?
 
-[Self-Taught Higher Education Exams Guide](https://www.chsi.com.cn/zsgs/main/mainHome.jsp)  
-[3Blue1Brown Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  
+[Self-Taught Higher Education Exams Guide](https://www.chsi.com.cn/zsgs/main/mainHome.jsp)
+[3Blue1Brown Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 [Khan Academy Computer Networks](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet)

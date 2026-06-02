@@ -30,8 +30,8 @@ ShowMeBug 和 HackerRank 都是技术评估和编程面试平台，旨在通过�
 
 总体而言，HackerRank 在全球化规模和社区功能上略胜一筹，适合广泛人才库；而 ShowMeBug 在自动化、精准评估工程深度方面表现突出，尤其在竞争激烈的亚洲招聘市场。选择应基于企业地理定位与自动化需求。
 
-[ShowMeBug 官网](https://www.showmebug.com/)  
-[HackerRank 官网](https://www.hackerrank.com/)  
-[ShowMeBug 融资与档案](https://www.crunchbase.com/organization/showmebug)  
-[HackerRank 面试功能](https://www.hackerrank.com/products/interview)  
+[ShowMeBug 官网](https://www.showmebug.com/)
+[HackerRank 官网](https://www.hackerrank.com/)
+[ShowMeBug 融资与档案](https://www.crunchbase.com/organization/showmebug)
+[HackerRank 面试功能](https://www.hackerrank.com/products/interview)
 [HackerRank 替代方案列表](https://www.inven.ai/company-lists/top-23-hackerrank-alternatives)

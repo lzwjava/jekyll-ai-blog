@@ -23,24 +23,24 @@ import argparse
 
 def clean_zip(zip_path):
     output_path = os.path.splitext(zip_path)[0] + "_output.zip"
-    
+
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         file_names = zip_ref.namelist()
-        
+
         # 分离有效文件与无扩展名文件（排除目录）
         valid_files = [f for f in file_names if os.path.splitext(os.path.basename(f))[1] or f.endswith('/')]
         removed_files = [f for f in file_names if not os.path.splitext(os.path.basename(f))[1] and not f.endswith('/')]
-        
+
         if not valid_files:
             print("未找到带扩展名的有效文件，程序终止")
             return
-        
+
         # 记录被移除文件
         if removed_files:
             print("正在移除以下文件（未检测到扩展名）：")
             for f in removed_files:
                 print(f" - {f}")
-        
+
         # 创建排除无效文件的新压缩包
         with zipfile.ZipFile(output_path, 'w') as clean_zip:
             for file in valid_files:

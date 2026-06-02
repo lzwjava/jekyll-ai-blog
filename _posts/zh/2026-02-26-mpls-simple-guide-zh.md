@@ -19,9 +19,9 @@ type: note
 
 ### MPLS 的关键点：
 
-- **工作原理**  
-  包在进入 MPLS 网络时（在 Label Edge Router – LER 处）被分配一个简短、固定长度的标签（MPLS 头部中的 20-bit label）。  
-  在网络内部，路由器（Label Switch Routers – LSR）仅基于标签值转发包 — 无需为每个跳数查找完整的 IP 目标地址。  
+- **工作原理**
+  包在进入 MPLS 网络时（在 Label Edge Router – LER 处）被分配一个简短、固定长度的标签（MPLS 头部中的 20-bit label）。
+  在网络内部，路由器（Label Switch Routers – LSR）仅基于标签值转发包 — 无需为每个跳数查找完整的 IP 目标地址。
   在出口 LER 处，移除标签，包继续进行正常的 IP 转发。
 
 - **主要优势**（为什么 MPLS 在 2000s–2020s 非常流行）
@@ -44,11 +44,11 @@ type: note
   - 与现代 Segment Routing（SR-MPLS 或 SRv6）共存并常在其上运行，后者正在一些网络中逐步简化或取代传统 MPLS
 
 - **当前状态（2026 年 2 月）**
-  MPLS 仍是全球 service provider 和大型 enterprise WAN 中部署最广泛的技术之一。  
+  MPLS 仍是全球 service provider 和大型 enterprise WAN 中部署最广泛的技术之一。
   虽然 **Segment Routing (SR-MPLS / SRv6)**、**EVPN** 和 **SD-WAN** 等新方法正在逐渐流行，但纯 IP/MPLS 网络在大多数大规模 carrier 和 enterprise 环境中仍占主导地位。
 
 简而言之：**MPLS = Multi-Protocol Label Switching** — 一种基于 label 的转发技术，为 IP 网络带来了 traffic engineering、VPN 服务和快速 QoS，并很大程度上取代了核心中的 ATM。
 
-参考文献：  
+参考文献：
 
 - 无（标准网络术语和行业知识）

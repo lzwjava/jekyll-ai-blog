@@ -36,8 +36,8 @@ Yes, it generally refers to enterprises across the board: large corporations (e.
 
 If this stat came from a specific source (e.g., a recent article or talk), feel free to share more details for deeper digging!
 
-**References**  
-[Public Cloud in China: Big Challenges, Big Upside (McKinsey, 2018)](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/public-cloud-in-china-big-challenges-big-upside)  
-[Cloud Adoption Statistics 2025 (SQ Magazine)](https://sqmagazine.co.uk/cloud-adoption-statistics/)  
-[90+ Cloud Computing Statistics (CloudZero, 2025)](https://www.cloudzero.com/blog/cloud-computing-statistics/)  
+**References**
+[Public Cloud in China: Big Challenges, Big Upside (McKinsey, 2018)](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/public-cloud-in-china-big-challenges-big-upside)
+[Cloud Adoption Statistics 2025 (SQ Magazine)](https://sqmagazine.co.uk/cloud-adoption-statistics/)
+[90+ Cloud Computing Statistics (CloudZero, 2025)](https://www.cloudzero.com/blog/cloud-computing-statistics/)
 [Why China's Cloud Lags (ChinaTalk, 2025)](https://www.chinatalk.media/p/the-political-economy-of-chinas-cloud)

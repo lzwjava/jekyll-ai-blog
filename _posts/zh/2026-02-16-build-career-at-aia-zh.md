@@ -11,7 +11,7 @@ type: note
 
 **Question:** Introduction to AIA careers, and how to apply for a job there using Workday.
 
-**Answer:** 
+**Answer:**
 
 AIA 是指 **AIA Group Limited**（友邦保险控股有限公司），是亚洲最大的上市人寿保险集团之一（总部位于香港）。它在亚太地区的 18 个市场运营，专注于人寿保险、健康和保健解决方案。AIA 的使命强调帮助人们过上 **Healthier, Longer, Better Lives**（健康、长久、美好生活），其职业发展体现了对创造积极影响、创新和可持续发展的承诺。
 
@@ -51,7 +51,7 @@ AIA 使用 **Workday** 作为其 Corporate 职位的核心招聘平台。
 
 注意：如果您感兴趣的是 American Institute of Architects (AIA)，那是另一个不同的组织，拥有自己的职业网站 —— 但根据查询背景（“AIA careers”和“Workday”），这通常是指 AIA Group 保险公司。
 
-**References:**  
+**References:**
 
 - [AIA Group Careers Overview](https://www.aia.com/en/careers/overview)
 - [AIA Workday Jobs Portal](https://aia.wd3.myworkdayjobs.com/External)

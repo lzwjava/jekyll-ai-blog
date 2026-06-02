@@ -40,10 +40,10 @@ In equation terms: Total time = (instructions × cycles/instr) / clock freq. For
 
 These setups were wild precursors to Unix's epoch—time as a counter, but you built it yourself. If you wanna dive deeper (like code snippets for Altair delays), hit me!
 
-[ENIAC Wikipedia](https://en.wikipedia.org/wiki/ENIAC)  
-[A Report on the ENIAC](https://ftp.arl.army.mil/mike/comphist/46eniac-report/chap1.html)  
-[Electronic Computing Circuits of the ENIAC](https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-r5367-1-ENIAC-circuits.pdf)  
-[Organization of the Altair 8800](https://ubuntourist.codeberg.page/Altair-8800/part-2.html)  
-[MITS Altair 8800 Brochure](https://vtda.org/docs/computing/MITS/MITS_Altair8800ComputerSystem_Brochure.pdf)  
-[Von Neumann Architecture - Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_architecture)  
+[ENIAC Wikipedia](https://en.wikipedia.org/wiki/ENIAC)
+[A Report on the ENIAC](https://ftp.arl.army.mil/mike/comphist/46eniac-report/chap1.html)
+[Electronic Computing Circuits of the ENIAC](https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-r5367-1-ENIAC-circuits.pdf)
+[Organization of the Altair 8800](https://ubuntourist.codeberg.page/Altair-8800/part-2.html)
+[MITS Altair 8800 Brochure](https://vtda.org/docs/computing/MITS/MITS_Altair8800ComputerSystem_Brochure.pdf)
+[Von Neumann Architecture - Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 [In a simple Von Neumann architecture, what exactly is a clock cycle?](https://www.quora.com/In-a-simple-Von-Neumann-architecture-what-exactly-is-a-clock-cycle)

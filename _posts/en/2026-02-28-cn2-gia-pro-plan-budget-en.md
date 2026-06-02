@@ -35,7 +35,7 @@ DMIT has multiple series for Los Angeles (LAX):
 - Only consider cheaper alternatives (EB/T1 ~$3–$5/mo effective) if you're okay downgrading network quality for cost savings.
 - Check the official site for exact current stock/pricing, as plans fluctuate (e.g., annual discounts often make it ~$7–8/mo effective).
 
-References:  
+References:
 
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)
 - [https://www.dmit.io/pages/cloud-instance](https://www.dmit.io/pages/cloud-instance)

@@ -11,7 +11,7 @@ type: note
 
 Question: 在 Lenovo 笔记本上使用启动 USB 安装 OpenWrt 时，进入 GRUB 模式该如何处理？
 
-Answer: 
+Answer:
 
 你目前看到的是 GRUB 提示符（可能是 `grub>` 或 `grub rescue>`），而不是直接进入 OpenWrt console。当你尝试从 USB 启动 OpenWrt x86 combined image 时，这是一个常见问题，尤其是在 Lenovo 笔记本或 UEFI 系统上。
 
@@ -62,7 +62,7 @@ Answer:
 
 请告知我 GRUB 屏幕具体显示的内容（grub> 或 grub rescue> 或仅是 "GRUB _"）以及是否看到任何错误消息 —— 这有助于进一步缩小问题范围。
 
-References:  
+References:
 
 - https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430
 - https://openwrt.org/docs/guide-user/installation/openwrt_x86

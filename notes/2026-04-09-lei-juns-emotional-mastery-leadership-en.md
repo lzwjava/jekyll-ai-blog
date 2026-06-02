@@ -11,7 +11,7 @@ type: note
 
 Question: Is Lei Jun a good CEO because of how he controls his emotions and handles obstacles?
 
-Answer: 
+Answer:
 
 Lei Jun is widely regarded as one of the most effective and resilient CEOs in the global tech industry. Your observation about his emotional control is a sentiment shared by many business analysts and fans. His leadership style and public image are defined by several key traits:
 
@@ -19,8 +19,8 @@ Lei Jun is widely regarded as one of the most effective and resilient CEOs in th
 Lei Jun has mastered the art of **"self-irony" and humility**. A famous example occurred in 2015 during a launch event in India. When his "Are you OK?" speech went viral and was mocked as a meme due to his English accent, he didn't react with anger or defensiveness. Instead, he embraced the meme, even allowing it to be used in Xiaomi’s marketing and on Bilibili. This ability to turn a potential embarrassment into a "brand win" shows a high level of emotional stability.
 
 ### 2. **The "Stoic" Entrepreneur**
-Building Xiaomi involved immense pressure—from early supply chain failures to fierce competition with Huawei and Apple. Most recently, his pivot to Electric Vehicles (the **Xiaomi SU7**) was a massive gamble that he called "the last major entrepreneurship project" of his life. 
-* **Public Sincerity:** In his annual speeches, he often shares "grievances" and failures, but he frames them as learning experiences rather than complaints. 
+Building Xiaomi involved immense pressure—from early supply chain failures to fierce competition with Huawei and Apple. Most recently, his pivot to Electric Vehicles (the **Xiaomi SU7**) was a massive gamble that he called "the last major entrepreneurship project" of his life.
+* **Public Sincerity:** In his annual speeches, he often shares "grievances" and failures, but he frames them as learning experiences rather than complaints.
 * **Discipline:** He is known for extreme work ethics (often working 12+ hours a day) and a calm, pragmatic demeanor during crises.
 
 ### 3. **Is he a "Good" CEO?**

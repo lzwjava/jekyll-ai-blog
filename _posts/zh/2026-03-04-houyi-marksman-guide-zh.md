@@ -16,16 +16,16 @@ type: note
 Hou Yi（某些指南中也称 Hoi 或 Hui）是《Honor of Kings》（《王者荣耀》的国际版）中适合新手的射手（ADC），擅长发育路（黄金路）。他通过多箭普攻造成高持续物理伤害，用远程大招提供全队控制，并在适当站位下在团战中大放异彩。他的技能组合简单，但需要风筝、叠层管理和大招预判才能掌握。
 
 ### 技能
-- **Passive: Chastising Shot**  
+- **Passive: Chastising Shot**
   普通攻击提供攻击速度和 1 层（最多 3 层）。达到 3 层时，强化攻击发射 **3 箭**（主目标满伤 + 2 溅射各 50-60% 伤害）。优先通过 AA（自动攻击）叠层，实现大量消耗和清线。
 
-- **Skill 1: Arrow Volley**（主要输出技能；优先点满）  
+- **Skill 1: Arrow Volley**（主要输出技能；优先点满）
   强化 5 秒普通攻击：伤害增加，命中 2 个额外附近敌人（50% 伤害）。与被动完美连招，实现多目标撕碎。
 
-- **Skill 2: Afterglow**（第二点满）  
+- **Skill 2: Afterglow**（第二点满）
   在区域投放箭矢：造成伤害，减速敌人，提供视野。用于消耗、减速、草丛侦查或区域控制。
 
-- **Ultimate: Burning Sun Arrow**（全局范围）  
+- **Ultimate: Burning Sun Arrow**（全局范围）
   向地图发射燃烧箭矢。击中首个目标造成击晕（根据飞行距离 0.75-3.5 秒），爆炸造成范围伤害 + 90% 减速（1 秒）。预判路径用于开团、收割或逃生。
 
 **技能优先级**：Skill 1 > Skill 2 > Ult。
@@ -68,7 +68,7 @@ Hou Yi 的连招围绕大招设置 + 强化 AA 狂轰。技能间始终 AA 以�
 
 在匹配模式练习：专注被动叠层（目标 100% 在线）和大招命中率，快速上分。
 
-参考资料： 
+参考资料：
 - [Honor of Kings Wiki - Hou Yi](https://honor-of-kings.fandom.com/wiki/Hou_Yi)
 - [GamingonPhone Hou Yi Guide](https://gamingonphone.com/guides/honor-of-kings-hou-yi-guide-gameplay-tips)
 - [Sportskeeda Best Build](https://www.sportskeeda.com/esports/best-hou-yi-build-honor-kings-equipments-arcanas-battle-spell-skill-combo)

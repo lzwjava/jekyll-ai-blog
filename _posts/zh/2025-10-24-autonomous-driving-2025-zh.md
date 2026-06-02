@@ -33,7 +33,7 @@ type: note
 
 本排名综合行业报告的部署规模、创新实力与法规进展得出。美国企业在安全数据透明度方面领先，而中国公司则在城市密度测试与政府支持测试方面表现突出。
 
-[十大自动驾驶汽车公司](https://evmagazine.com/top10/top-10-autonomous-vehicle-companies)  
-[28家顶尖自动驾驶汽车公司](https://builtin.com/articles/self-driving-car-companies)  
-[2025年中国领先自动驾驶汽车公司](https://www.renub.com/top-china-autonomous-vehicles-companies-bd.php)  
+[十大自动驾驶汽车公司](https://evmagazine.com/top10/top-10-autonomous-vehicle-companies)
+[28家顶尖自动驾驶汽车公司](https://builtin.com/articles/self-driving-car-companies)
+[2025年中国领先自动驾驶汽车公司](https://www.renub.com/top-china-autonomous-vehicles-companies-bd.php)
 [2025年顶尖自动驾驶汽车公司](https://www.linkedin.com/pulse/top-autonomous-cars-companies-how-compare-them-2025-ybomc)

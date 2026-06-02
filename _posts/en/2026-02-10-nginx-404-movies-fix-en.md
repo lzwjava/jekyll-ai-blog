@@ -19,7 +19,7 @@ A 404 error means nginx is running and responding, but it cannot find the reques
 ### 1. Wrong URL (most frequent reason)
 Make sure you're accessing the **exact** path:
 
-- Correct:  `http://localhost/movies/`  (with trailing slash)  
+- Correct:  `http://localhost/movies/`  (with trailing slash)
 - Also try: `http://your-server-ip/movies/` or `http://127.0.0.1/movies/`
 
 If you type `http://localhost/movies` (no trailing slash), nginx may return 404 depending on your config.

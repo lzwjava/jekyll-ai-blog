@@ -75,7 +75,7 @@ Munger 以推广思维和决策的**跨学科方法**而闻名。他的核心理
 
 简而言之，Charlie Munger 不仅仅是一位伟大的投资者，更是一位**世界级的思想家**，他教会了人们如何更好地思考几乎所有事情。
 
-References:  
+References:
 
 - [Charlie Munger - Wikipedia](https://en.wikipedia.org/wiki/Charlie_Munger)
 - [The Extraordinary Life of Charlie Munger - Quartr](https://quartr.com/insights/edge/the-extraordinary-life-of-charlie-munger)

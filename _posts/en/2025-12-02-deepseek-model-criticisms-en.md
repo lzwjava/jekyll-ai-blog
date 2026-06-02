@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about DeepSeek V3.2 and its Speciale model?
 
-Answer: 
+Answer:
 
 DeepSeek V3.2, released in late 2025, is an open-source large language model from the Chinese AI firm DeepSeek AI, featuring sparse attention mechanisms for efficiency and strong benchmark performance in reasoning tasks like math olympiads. Its Speciale variant is a fine-tuned version optimized for deep reasoning, though it lacks tool-calling support. While the model has garnered praise for its cost-effectiveness and accessibility, it has also sparked debate. Below, I've compiled key unpopular opinions drawn from developer forums, social media, and expert analyses. These views challenge the hype around its "frontier-level" capabilities, often highlighting gaps between benchmarks and real-world utility.
 
@@ -30,11 +30,11 @@ DeepSeek V3.2, released in late 2025, is an open-source large language model fro
 
 Overall, these opinions paint DeepSeek V3.2 and Speciale as a bold open-source win for efficiency and math/coding niches, but not the AGI-killer some claim. The model's MIT-licensed weights on Hugging Face invite experimentation, yet skeptics argue it exposes AI's broader limits: benchmarks ≠ utility, and cheap scale doesn't fix hallucinations or biases.
 
-*Deepseek releases cheap general imo level model before openAI* (https://www.reddit.com/r/singularity/comments/1pbazan/deepseek_releases_cheap_general_imo_level_model/)  
-*deepseek-ai/DeepSeek-V3.2 · Hugging Face* (https://www.reddit.com/r/LocalLLaMA/comments/1pb9xm3/deepseekaideepseekv32_hugging_face/)  
-*Opinion: Deepseek models are overrated* (https://www.reddit.com/r/SillyTavernAI/comments/1kfxdc1/opinion_deepseek_models_are_overrated/)  
-*Unpopular Opinion: Deepseek has rat-effed OpenAI's 2025 business model* (https://www.reddit.com/r/ChatGPT/comments/1ibj4io/unpopular_opinion_deepseek_has_rateffed_openais/)  
-*DeepSeek is highly biased, don’t use it* (https://medium.com/data-science-in-your-pocket/deepseek-is-highly-biased-dont-use-it-2cb0358647f9)  
-*There’s real technical achievement, but the marketing is exaggerated* (@witec_ on X)  
-*DeepSeek V3.2 looks wild on benchmarks… but early testers aren’t impressed* (@VraserX on X)  
+*Deepseek releases cheap general imo level model before openAI* (https://www.reddit.com/r/singularity/comments/1pbazan/deepseek_releases_cheap_general_imo_level_model/)
+*deepseek-ai/DeepSeek-V3.2 · Hugging Face* (https://www.reddit.com/r/LocalLLaMA/comments/1pb9xm3/deepseekaideepseekv32_hugging_face/)
+*Opinion: Deepseek models are overrated* (https://www.reddit.com/r/SillyTavernAI/comments/1kfxdc1/opinion_deepseek_models_are_overrated/)
+*Unpopular Opinion: Deepseek has rat-effed OpenAI's 2025 business model* (https://www.reddit.com/r/ChatGPT/comments/1ibj4io/unpopular_opinion_deepseek_has_rateffed_openais/)
+*DeepSeek is highly biased, don’t use it* (https://medium.com/data-science-in-your-pocket/deepseek-is-highly-biased-dont-use-it-2cb0358647f9)
+*There’s real technical achievement, but the marketing is exaggerated* (@witec_ on X)
+*DeepSeek V3.2 looks wild on benchmarks… but early testers aren’t impressed* (@VraserX on X)
 *deepseek feels like it’s just optimizing for raw information retrieval* (@signulll on X)

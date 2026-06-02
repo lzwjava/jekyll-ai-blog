@@ -33,7 +33,7 @@ g & h & i
 2. **Find the Cofactor Matrix \\( C \\)**:
    - The cofactor \\( C_{ij} \\) for element \\( a_{ij} \\) is \\( (-1)^{i+j} \\) times the determinant of the 2×2 submatrix obtained by deleting row \\( i \\) and column \\( j \\).
    - You don't need to compute *all* cofactors from scratch—you can compute them along one row (or column) and use properties to fill the rest, but for 3×3, it's quick to do all nine.
-   
+
    The cofactors are:
    \\[
    C_{11} = (-1)^{2} \det\begin{pmatrix} e & f \\ h & i \end{pmatrix} = ei - fh
@@ -62,7 +62,7 @@ g & h & i
    \\[
    C_{33} = (-1)^{6} \det\begin{pmatrix} a & b \\ d & e \end{pmatrix} = ae - bd
    \\]
-   
+
    So the cofactor matrix is:
    \\[
    C = \begin{pmatrix}

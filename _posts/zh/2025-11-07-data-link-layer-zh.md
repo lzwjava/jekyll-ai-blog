@@ -45,6 +45,6 @@ type: note
 
 是否有特定子主题（如ARP或VLAN）需要详解，或希望调整类比方式？随时提问！
 
-延伸阅读：  
-[OSI模型基础（思科）](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)  
+延伸阅读：
+[OSI模型基础（思科）](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)
 [数据链路层详解（GeeksforGeeks）](https://www.geeksforgeeks.org/data-link-layer/)

@@ -8,7 +8,7 @@ translated: false
 type: note
 ---
 
-You're using **Git Credential Manager (GCM) version 2.6.1** on **macOS**, and you've encountered an issue where `git config --global credential.helper manager-core` throws an error:  
+You're using **Git Credential Manager (GCM) version 2.6.1** on **macOS**, and you've encountered an issue where `git config --global credential.helper manager-core` throws an error:
 
 ```
 warning: credential.helper has multiple values
@@ -113,8 +113,8 @@ Once configured, the first time you interact with a remote repository over HTTPS
 
 ## **4. Store and Manage Credentials**
 GCM securely stores credentials in the OS's credential store:
-- **Windows**: Windows Credential Manager  
-- **macOS**: macOS Keychain  
+- **Windows**: Windows Credential Manager
+- **macOS**: macOS Keychain
 - **Linux**: GPG-encrypted file (`~/.git-credentials` or `~/.gitconfig`)
 
 To manually add a credential:

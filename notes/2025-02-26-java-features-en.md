@@ -16,7 +16,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: A class is the fundamental building block of Java, serving as a template or blueprint for creating objects. It encapsulates data (fields) and behavior (methods) that define the properties and actions of objects.
 - **Why it’s important**: Classes are the cornerstone of Java’s object-oriented programming (OOP) paradigm. They promote encapsulation (bundling data and methods), abstraction (hiding implementation details), and modularity, making code reusable and easier to maintain.
 - **How it’s used**: Classes model entities in a program, such as a `Person`, `Vehicle`, or `BankAccount`. They can include constructors, fields with access modifiers (`public`, `private`), and methods to manipulate the object’s state.
-- **Deep dive**: 
+- **Deep dive**:
   - Classes can be nested (inner classes) or abstract (cannot be instantiated directly).
   - They support inheritance, allowing a class to extend another and inherit its properties and methods.
 - **Example**:
@@ -24,13 +24,13 @@ Below is a detailed and expanded explanation of the **most used Java language fe
   public class Student {
       private String name;  // Instance field
       private int age;
-      
+
       // Constructor
       public Student(String name, int age) {
           this.name = name;
           this.age = age;
       }
-      
+
       // Method
       public void displayInfo() {
           System.out.println("Name: " + name + ", Age: " + age);
@@ -45,7 +45,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: An object is an instance of a class, created using the `new` keyword. It represents a specific realization of the class blueprint with its own state.
 - **Why it’s important**: Objects bring classes to life, allowing multiple instances with unique data. They enable the modeling of complex systems by representing real-world entities.
 - **How it’s used**: Objects are instantiated and manipulated via their methods and fields. For example, `Student student1 = new Student("Alice", 20);` creates a `Student` object.
-- **Deep dive**: 
+- **Deep dive**:
   - Objects are stored in the heap memory, and references to them are stored in variables.
   - Java uses pass-by-reference for objects, meaning changes to an object’s state are reflected across all references.
 - **Example**:
@@ -61,7 +61,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: Methods are blocks of code within a class that define the behavior of objects. They can take parameters, return values, or perform actions.
 - **Why it’s important**: Methods encapsulate logic, reduce redundancy, and improve code readability. They are the primary way to interact with an object’s state.
 - **How it’s used**: Methods are invoked on objects or statically on classes. Every Java application begins with the `public static void main(String[] args)` method.
-- **Deep dive**: 
+- **Deep dive**:
   - Methods can be overloaded (same name, different parameters) or overridden (redefined in a subclass).
   - They can be `static` (class-level) or instance-based (object-level).
 - **Example**:
@@ -70,7 +70,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
       public int add(int a, int b) {
           return a + b;
       }
-      
+
       public double add(double a, double b) {  // Method overloading
           return a + b;
       }
@@ -91,7 +91,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
   - **Local variables**: Declared inside methods, with scope limited to that method.
   - **Instance variables**: Declared in a class, tied to each object.
   - **Static variables**: Declared with `static`, shared across all instances of a class.
-- **Deep dive**: 
+- **Deep dive**:
   - Variables have default values (e.g., `0` for `int`, `null` for objects) if uninitialized (for instance/static variables only).
   - Java enforces strong typing, preventing incompatible assignments without explicit casting.
 - **Example**:
@@ -99,7 +99,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
   public class Counter {
       static int totalCount = 0;  // Static variable
       int instanceCount;          // Instance variable
-      
+
       public void increment() {
           int localCount = 1;     // Local variable
           instanceCount += localCount;
@@ -114,10 +114,10 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 ## 5. **Control Flow Statements**
 - **What it is**: Control flow statements dictate the execution path of a program, including conditionals (`if`, `else`, `switch`) and loops (`for`, `while`, `do-while`).
 - **Why it’s important**: They enable decision-making and repetition, which are essential for implementing complex logic.
-- **How it’s used**: 
+- **How it’s used**:
   - **Conditionals**: Execute code based on boolean conditions.
   - **Loops**: Iterate over data or repeat actions until a condition is met.
-- **Deep dive**: 
+- **Deep dive**:
   - The `switch` statement supports `String` (since Java 7) and enums, in addition to primitive types.
   - Loops can be nested, and `break`/`continue` keywords modify their behavior.
 - **Example**:
@@ -130,7 +130,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
   } else {
       System.out.println("C");
   }
-  
+
   for (int i = 0; i < 3; i++) {
       System.out.println("Loop iteration: " + i);
   }
@@ -143,7 +143,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: An interface is a contract specifying methods that implementing classes must define. It supports abstraction and multiple inheritance.
 - **Why it’s important**: Interfaces enable loose coupling and polymorphism, allowing different classes to share a common API.
 - **How it’s used**: Classes implement interfaces using the `implements` keyword. Since Java 8, interfaces can include default and static methods with implementations.
-- **Deep dive**: 
+- **Deep dive**:
   - Default methods allow backward-compatible evolution of interfaces.
   - Functional interfaces (with one abstract method) are key for lambda expressions.
 - **Example**:
@@ -154,7 +154,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
           System.out.println("Vehicle stopped");
       }
   }
-  
+
   public class Bike implements Vehicle {
       public void start() {
           System.out.println("Bike started");
@@ -173,7 +173,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: Exception handling manages runtime errors using `try`, `catch`, `finally`, `throw`, and `throws`.
 - **Why it’s important**: It ensures robustness by preventing crashes and allowing recovery from errors like file not found or division by zero.
 - **How it’s used**: Risky code goes in a `try` block, specific exceptions are caught in `catch` blocks, and `finally` executes cleanup code.
-- **Deep dive**: 
+- **Deep dive**:
   - Exceptions are objects derived from `Throwable` (`Error` or `Exception`).
   - Custom exceptions can be created by extending `Exception`.
 - **Example**:
@@ -195,7 +195,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: Generics allow type-safe, reusable code by parameterizing classes, interfaces, and methods with types.
 - **Why it’s important**: They catch type errors at compile time, reducing runtime bugs and eliminating the need for casting.
 - **How it’s used**: Common in collections (e.g., `List<String>`) and custom generic classes/methods.
-- **Deep dive**: 
+- **Deep dive**:
   - Wildcards (`? extends T`, `? super T`) handle type variance.
   - Type erasure removes generic type info at runtime for backward compatibility.
 - **Example**:
@@ -218,7 +218,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: Lambda expressions (Java 8+) are concise representations of anonymous functions, typically used with functional interfaces.
 - **Why it’s important**: They simplify code for event handling, collections processing, and functional programming.
 - **How it’s used**: Paired with interfaces like `Runnable`, `Comparator`, or custom ones with a single abstract method.
-- **Deep dive**: 
+- **Deep dive**:
   - Syntax: `(parameters) -> expression` or `(parameters) -> { statements; }`.
   - They enable the Streams API for functional-style data processing.
 - **Example**:
@@ -234,7 +234,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
 - **What it is**: Annotations are metadata tags (e.g., `@Override`, `@Deprecated`) applied to code elements, processed at compile time or runtime.
 - **Why it’s important**: They provide instructions to compilers, frameworks, or tools, enhancing automation and reducing boilerplate.
 - **How it’s used**: Used for configuration (e.g., `@Entity` in JPA), documentation, or enforcing rules.
-- **Deep dive**: 
+- **Deep dive**:
   - Custom annotations can be defined with `@interface`.
   - Retention policies (`SOURCE`, `CLASS`, `RUNTIME`) determine their lifespan.
 - **Example**:
@@ -244,7 +244,7 @@ Below is a detailed and expanded explanation of the **most used Java language fe
       public String toString() {
           return "Custom string";
       }
-      
+
       @Deprecated
       public void oldMethod() {
           System.out.println("Old way");

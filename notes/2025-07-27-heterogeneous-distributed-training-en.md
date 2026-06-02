@@ -59,10 +59,10 @@ Dask is another Python library for parallel computing, suitable for distributed 
 
 If you provide more details (e.g., framework like PyTorch/TensorFlow, model type, OS on desktop), I can refine this.
 
-[Being GPU Poor makes you creative](https://www.dilawar.ai/2025/07/04/Multi-Cluster%20Distributed%20Training%20on%20Heterogeneous%20Hardware/)  
-[Ray Documentation - Installation](https://docs.ray.io/en/latest/ray-overview/installation.html)  
-[Ray Train: Scalable Model Training](https://docs.ray.io/en/latest/train/train.html)  
-[Dask Documentation - GPUs](https://docs.dask.org/en/stable/gpu.html)  
-[Horovod Installation Guide](https://horovod.readthedocs.io/en/latest/install_include.html)  
-[HetSeq GitHub](https://github.com/yifding/hetseq)  
+[Being GPU Poor makes you creative](https://www.dilawar.ai/2025/07/04/Multi-Cluster%20Distributed%20Training%20on%20Heterogeneous%20Hardware/)
+[Ray Documentation - Installation](https://docs.ray.io/en/latest/ray-overview/installation.html)
+[Ray Train: Scalable Model Training](https://docs.ray.io/en/latest/train/train.html)
+[Dask Documentation - GPUs](https://docs.dask.org/en/stable/gpu.html)
+[Horovod Installation Guide](https://horovod.readthedocs.io/en/latest/install_include.html)
+[HetSeq GitHub](https://github.com/yifding/hetseq)
 [Accelerated PyTorch training on Mac](https://developer.apple.com/metal/pytorch/)

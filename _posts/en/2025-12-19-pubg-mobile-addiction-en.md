@@ -12,7 +12,7 @@ type: note
 
 Question: Why is gaming, like PUBG Mobile, so easy to get addicted to?
 
-Answer: 
+Answer:
 
 Gaming, particularly battle royale titles like PUBG Mobile, is highly addictive due to a combination of psychological, neurological, and design elements engineered to exploit human behavior. These games trigger powerful reward systems in the brain similar to gambling or social media scrolling, leading to compulsive play. Below, I'll break down the key reasons, drawing from psychological research and game design principles.
 
@@ -59,10 +59,10 @@ PUBG Mobile has 1B+ downloads, but addiction links to aggression, poor sleep, de
 
 In summary, PUBG Mobile isn't "evil"—it's masterfully designed for engagement. Awareness of these hooks empowers control.
 
-References:  
-- [Relationship between gaming disorder and PUBG](https://pmc.ncbi.nlm.nih.gov/articles/PMC10757960/)  
-- [PUBG Game Addiction and Aggression](https://bioresscientia.com/article/pubg-game-addiction-cognitive-reappraisal-and-aggressive--behaviour-in-students)  
-- [Reddit: Why is PUBG addictive?](https://www.reddit.com/r/PUBATTLEGROUNDS/comments/68srcr/why_is_this_game_so_addictive/)  
-- [Psychology of PUBG Mobile](https://www.youtube.com/watch?v=PL1qXIk2Zlo)  
-- [PUBG Addiction Impacts](https://www.lybrate.com/topic/pubg-addiction-know-how-it-impacts-the-overall-health/bde3b4231c2ae05d6b01247f08d9bb20)  
+References:
+- [Relationship between gaming disorder and PUBG](https://pmc.ncbi.nlm.nih.gov/articles/PMC10757960/)
+- [PUBG Game Addiction and Aggression](https://bioresscientia.com/article/pubg-game-addiction-cognitive-reappraisal-and-aggressive--behaviour-in-students)
+- [Reddit: Why is PUBG addictive?](https://www.reddit.com/r/PUBATTLEGROUNDS/comments/68srcr/why_is_this_game_so_addictive/)
+- [Psychology of PUBG Mobile](https://www.youtube.com/watch?v=PL1qXIk2Zlo)
+- [PUBG Addiction Impacts](https://www.lybrate.com/topic/pubg-addiction-know-how-it-impacts-the-overall-health/bde3b4231c2ae05d6b01247f08d9bb20)
 - [What makes PUBG addictive?](https://abhijeetzambare.medium.com/what-makes-pubg-so-addictive-e16e258d5ba6)

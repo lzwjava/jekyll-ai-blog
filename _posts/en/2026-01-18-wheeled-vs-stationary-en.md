@@ -12,7 +12,7 @@ type: note
 
 Question: What are the advantages of chairs without wheels, like the Walmart 2-pack reception/guest chairs with mesh back, compared to wheeled office chairs?
 
-Answer: 
+Answer:
 
 The Walmart product you linked is a **2-pack of stationary office guest chairs** designed for conference rooms, meeting areas, waiting rooms, or reception use. These chairs feature a breathable mesh back for lumbar support, a thick padded seat cushion, a sturdy iron frame with a sled-shaped base (no wheels/casters), anti-slip floor protectors, and a 250 lbs weight capacity. They are explicitly fixed-position chairs without any rolling mechanism.
 
@@ -38,7 +38,7 @@ Of course, the trade-off is reduced mobility — if you ever need to reach somet
 
 If you're considering this specific 2-pack for personal use, it could work well as a durable, low-maintenance option for a home office or secondary seating, especially since it's inexpensive and comes in pairs.
 
-References:  
+References:
 
 - [Walmart product page](https://www.walmart.com/ip/2-Pack-Reception-Chairs-Office-Guest-Chair-with-Padded-Mesh-Back-for-Conference-Waiting-Meeting-Room-Black/17400651282?classType=VARIANT&adsRedirect=true)
 - [ARTEIL Perth - Benefits of Office Chairs Without Wheels](https://www.arteil.com.au/blog/office-chairs-no-wheels-benefits)

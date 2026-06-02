@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive guide about MagicMock in Python
 
-Answer: 
+Answer:
 
 # Comprehensive Guide to MagicMock in Python
 
@@ -199,9 +199,9 @@ mock = create_autospec(RealClass)
 
 `MagicMock` 通过模拟真实的 object 行为，同时允许对交互进行详细的 assertions，使测试变得更加直观。
 
-References:  
+References:
 
-- [unittest.mock — mock object library — Python 3.13 documentation](https://docs.python.org/3/library/unittest.mock.html)  
-- [unittest.mock — getting started — Python 3.13 documentation](https://docs.python.org/3/library/unittest.mock-examples.html)  
-- [Mock vs MagicMock - Stack Overflow](https://stackoverflow.com/questions/17181687/mock-vs-magicmock)  
+- [unittest.mock — mock object library — Python 3.13 documentation](https://docs.python.org/3/library/unittest.mock.html)
+- [unittest.mock — getting started — Python 3.13 documentation](https://docs.python.org/3/library/unittest.mock-examples.html)
+- [Mock vs MagicMock - Stack Overflow](https://stackoverflow.com/questions/17181687/mock-vs-magicmock)
 - [Mastering unittest.mock in Python | Better Stack Community](https://betterstack.com/community/guides/scaling-python/python-unittest-mock/)

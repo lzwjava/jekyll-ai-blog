@@ -12,7 +12,7 @@ type: note
 
 Question: What is a comprehensive introduction to mHC (Manifold Hyper Connection) from DeepSeek, recently?
 
-Answer: 
+Answer:
 
 ### Overview of mHC
 Manifold-Constrained Hyper-Connections (mHC) is a novel neural network architecture innovation introduced by DeepSeek-AI in a research paper published on December 31, 2025 (arXiv:2512.24880). It represents a significant advancement in residual connection designs for large language models (LLMs) and other deep neural networks, aimed at improving training stability, scalability, and efficiency when scaling model capacity.
@@ -46,9 +46,9 @@ mHC introduces a new "scaling knob" for LLMs: enriching residual topology (wider
 
 This work, co-authored by DeepSeek founder Liang Wenfeng, signals ongoing innovation from the company, following breakthroughs like DeepSeek-V3 and R1. It may underpin upcoming models (potentially V4 or R2 variants).
 
-References:  
+References:
 
-- [arXiv: mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)  
-- [Hugging Face Paper Page](https://huggingface.co/papers/2512.24880)  
-- [South China Morning Post Article](https://www.scmp.com/tech/big-tech/article/3338427/deepseek-kicks-2026-paper-signalling-push-train-bigger-models-less)  
+- [arXiv: mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)
+- [Hugging Face Paper Page](https://huggingface.co/papers/2512.24880)
+- [South China Morning Post Article](https://www.scmp.com/tech/big-tech/article/3338427/deepseek-kicks-2026-paper-signalling-push-train-bigger-models-less)
 - [SiliconANGLE Coverage](https://siliconangle.com/2026/01/01/deepseek-develops-mhc-ai-architecture-boost-model-performance/)

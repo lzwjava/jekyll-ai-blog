@@ -79,7 +79,7 @@ config = types.GenerateImagesConfig(
     enhance_prompt=True,          # LLM-based prompt rewriting
     negative_prompt="exclude dogs",
     language="en",
-    safety_filter_level="block_medium_and_above",  
+    safety_filter_level="block_medium_and_above",
     person_generation="allow_adult",
 )
 ```

@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas from Charles Munger?
 
-Answer: 
+Answer:
 
 Charles Munger, the late vice chairman of Berkshire Hathaway and a renowned investor, was known for his contrarian thinking and blunt opinions that often challenged popular views. Here are some of his most notable unpopular or controversial ideas:
 
@@ -30,13 +30,13 @@ Charles Munger, the late vice chairman of Berkshire Hathaway and a renowned inve
 
 These views stemmed from Munger's emphasis on multidisciplinary thinking, rationality, and long-term consequences, often making him outspoken against trendy or speculative ideas.
 
-References:  
+References:
 
-- https://www.benzinga.com/general/entertainment/24/04/38457934/charlie-munger-was-known-to-always-speak-his-mind-these-were-his-5-most-controversial-takes  
-- https://www.investopedia.com/why-charlie-munger-hated-crypto-11758832  
-- https://fortune.com/2021/12/03/charlie-munger-criticizes-crypto-china/  
-- https://pictureperfectportfolios.com/charlie-mungers-philosophy-on-diversification-in-investing/  
-- https://fs.blog/great-talks/academic-economics-charlie-munger/  
-- https://www.cnn.com/2021/11/03/business/munger-china-economy/index.html  
-- https://acquirersmultiple.com/2018/11/charlie-munger-moral-investing-we-could-see-it-was-like-putting-100-million-in-a-bushel-basket-and-setting-it-on-fire-as-we-walked-away/  
+- https://www.benzinga.com/general/entertainment/24/04/38457934/charlie-munger-was-known-to-always-speak-his-mind-these-were-his-5-most-controversial-takes
+- https://www.investopedia.com/why-charlie-munger-hated-crypto-11758832
+- https://fortune.com/2021/12/03/charlie-munger-criticizes-crypto-china/
+- https://pictureperfectportfolios.com/charlie-mungers-philosophy-on-diversification-in-investing/
+- https://fs.blog/great-talks/academic-economics-charlie-munger/
+- https://www.cnn.com/2021/11/03/business/munger-china-economy/index.html
+- https://acquirersmultiple.com/2018/11/charlie-munger-moral-investing-we-could-see-it-was-like-putting-100-million-in-a-bushel-basket-and-setting-it-on-fire-as-we-walked-away/
 - https://www.goodreads.com/author/quotes/236437.Charles_T_Munger

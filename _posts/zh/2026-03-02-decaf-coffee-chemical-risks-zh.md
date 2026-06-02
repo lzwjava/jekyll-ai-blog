@@ -15,7 +15,7 @@ type: note
 
 这个 Substack 帖子由王垠撰写，用中文撰写，标题为 **低咖啡因咖啡豆是怎么来的**（英文翻译为“How Decaffeinated Coffee Beans Are Made” 或 “Where Low-Caffeine Coffee Beans Come From”）。
 
-**发布日期：** 2024 年 2 月 5 日  
+**发布日期：** 2024 年 2 月 5 日
 **作者：** 王垠（在他的通讯“垠的备忘录” / Yin's Memo 上）
 
 文章表达了对脱咖啡因（decaf）咖啡的强烈担忧。作者解释说他避免摄入含咖啡因饮料，也拒绝喝脱咖啡因咖啡。他的原因是大多数脱咖啡因咖啡豆使用有机溶剂处理来去除咖啡因，他认为这会留下有问题的化学残留物。

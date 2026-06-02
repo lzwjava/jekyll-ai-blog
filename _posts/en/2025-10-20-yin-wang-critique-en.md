@@ -52,12 +52,12 @@ Viewing "success" in China requires layering traditional values with modern pres
 
 Ultimately, China's success narrative is evolving toward sustainability (e.g., Xi's "common prosperity"), but Wang's warning endures: True freedom comes from your own yardstick, not the crowd's ruler.
 
-**References**  
-[What Does "Success" Mean to the Chinese?](https://www.speakchineselive.com/chinese-knowledge-hub/cultural-understanding/what-does-success-mean-to-the-chinese-understanding-cultural-values/)  
-[The Elusive Definition of Success (Chinese Materialism)](https://www.kidspiritonline.com/magazine/fulfillment/the-elusive-definition-of-success/)  
-[Surprising Results on Wealth, Education, Health in China](https://arts-sciences.buffalo.edu/news-and-events/recent-news/2022/may/wealth-education-health-china.html)  
-[China's E-Commerce Price Wars](https://money.usnews.com/investing/news/articles/2025-09-08/analysis-chinas-e-commerce-companies-are-getting-singed-by-a-price-war)  
-[What's Wrong with Chinese Corporate Profits?](https://www.seafarerfunds.com/prevailing-winds/what-s-wrong-with-chinese-corporate-profits)  
-[Most Chinese Ex-Unicorns Are Unprofitable](https://medium.com/swlh/most-chinese-ex-unicorns-are-unprofitable-but-fewer-than-in-america-c4eeec381fa1)  
-[王垠：所谓“成功” (Original Essay)](https://blog.csdn.net/Aria_Miazzy/article/details/103745026)  
+**References**
+[What Does "Success" Mean to the Chinese?](https://www.speakchineselive.com/chinese-knowledge-hub/cultural-understanding/what-does-success-mean-to-the-chinese-understanding-cultural-values/)
+[The Elusive Definition of Success (Chinese Materialism)](https://www.kidspiritonline.com/magazine/fulfillment/the-elusive-definition-of-success/)
+[Surprising Results on Wealth, Education, Health in China](https://arts-sciences.buffalo.edu/news-and-events/recent-news/2022/may/wealth-education-health-china.html)
+[China's E-Commerce Price Wars](https://money.usnews.com/investing/news/articles/2025-09-08/analysis-chinas-e-commerce-companies-are-getting-singed-by-a-price-war)
+[What's Wrong with Chinese Corporate Profits?](https://www.seafarerfunds.com/prevailing-winds/what-s-wrong-with-chinese-corporate-profits)
+[Most Chinese Ex-Unicorns Are Unprofitable](https://medium.com/swlh/most-chinese-ex-unicorns-are-unprofitable-but-fewer-than-in-america-c4eeec381fa1)
+[王垠：所谓“成功” (Original Essay)](https://blog.csdn.net/Aria_Miazzy/article/details/103745026)
 [Yin Wang's Substack (Ongoing Views)](https://yinwang1.substack.com/)

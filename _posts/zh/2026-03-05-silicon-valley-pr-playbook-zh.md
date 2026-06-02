@@ -11,7 +11,7 @@ type: note
 
 **问题**：Lulu Cheng Meservey 是硅谷市场和传播专家，她的一些想法有哪些？
 
-**回答**： 
+**回答**：
 
 Lulu Cheng Meservey 是硅谷知名的传播专家，以她在 Substack、Activision Blizzard、Anduril 等公司的合作而闻名。她是 Rostra 的创始人（一家专注于创始人主导传播的公司），经常分享关于现代 PR、叙事构建和直接受众互动的见解。她的核心想法挑战传统 PR，强调真实性、直接性和社交媒体驱动世界中的战略叙事。
 
@@ -35,7 +35,7 @@ Lulu Cheng Meservey 是硅谷知名的传播专家，以她在 Substack、Activi
 
 她的通讯“Flack”和播客露面扩展了这些赢得关注而不“cringe”或浪费时间的战术和战略想法。
 
-**参考资料**：  
+**参考资料**：
 
 - [Meet Silicon Valley's #1 PR Expert — Lulu Cheng Meservey (YouTube)](https://www.youtube.com/watch?v=QDHWyuNhs-E)
 - [Lulu Cheng Meservey on X (Twitter profile)](https://x.com/lulumeservey)

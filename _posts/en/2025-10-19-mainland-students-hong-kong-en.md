@@ -37,8 +37,8 @@ Yes, a mainland Chinese citizen can enroll in a Hong Kong public university to p
 
 For the latest details, visit individual university admissions pages directly.
 
-[HKU International/Non-JUPAS Admissions](https://admissions.hku.hk/apply/international-qualifications)  
-[CityU Mainland Gaokao Admissions](https://www.cityu.edu.hk/admo/admissions/mainland-gaokao-admission)  
-[HKUST Mainland JEE Applicants](https://bmundergrad.hkust.edu.hk/admissions/admission-information/mainland-jee)  
-[CUHK Non-JUPAS Requirements](https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/)  
+[HKU International/Non-JUPAS Admissions](https://admissions.hku.hk/apply/international-qualifications)
+[CityU Mainland Gaokao Admissions](https://www.cityu.edu.hk/admo/admissions/mainland-gaokao-admission)
+[HKUST Mainland JEE Applicants](https://bmundergrad.hkust.edu.hk/admissions/admission-information/mainland-jee)
+[CUHK Non-JUPAS Requirements](https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/)
 [Hong Kong Education Bureau Non-Local Quota Policy](https://www.thinkchina.sg/society/mainland-influx-tests-hong-kongs-global-education-ambitions)

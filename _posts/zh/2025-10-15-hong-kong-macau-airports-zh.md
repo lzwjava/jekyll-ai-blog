@@ -20,7 +20,7 @@ type: note
 
 上述为两地主要民航机场；香港的石岗机场属军用机场，不提供商业航空服务。
 
-**参考资料**  
-- [香港国际机场 - 维基百科](https://en.wikipedia.org/wiki/Hong_Kong_International_Airport)  
-- [澳门国际机场 - 维基百科](https://en.wikipedia.org/wiki/Macau_International_Airport)  
+**参考资料**
+- [香港国际机场 - 维基百科](https://en.wikipedia.org/wiki/Hong_Kong_International_Airport)
+- [澳门国际机场 - 维基百科](https://en.wikipedia.org/wiki/Macau_International_Airport)
 - [香港机场指南 - TravelTriangle](https://traveltriangle.com/blog/hong-kong-airports/)

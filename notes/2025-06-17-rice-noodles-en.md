@@ -11,7 +11,7 @@ type: note
 Cooking rice noodles is straightforward, but the method depends on the type (fresh, dried, thin, or wide) and the dish you're preparing. Here’s a concise guide for cooking dried rice noodles, which are the most common:
 
 ### Basic Method for Cooking Dried Rice Noodles
-1. **Soak (Optional)**: 
+1. **Soak (Optional)**:
    - For thin noodles (e.g., vermicelli), soak in cold water for 15–30 minutes to soften. For thicker noodles (e.g., flat rice noodles for pad thai), soak in warm water (not boiling) for 30–60 minutes until pliable but not mushy. Check the package for specific soaking times.
    - If you’re in a rush, some noodles can be boiled without soaking—check the instructions.
 

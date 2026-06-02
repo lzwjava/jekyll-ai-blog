@@ -128,6 +128,6 @@ type: note
 
 此设置确保了可靠、可扩展的通信，而无需紧密耦合。从基本的 Services 开始，然后根据需要添加安全/网格层。
 
-[AKS 网络概述](https://learn.microsoft.com/en-us/azure/aks/concepts-network)  
-[Kubernetes Services 文档](https://kubernetes.io/docs/concepts/services-networking/service/)  
+[AKS 网络概述](https://learn.microsoft.com/en-us/azure/aks/concepts-network)
+[Kubernetes Services 文档](https://kubernetes.io/docs/concepts/services-networking/service/)
 [AKS 微服务教程](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster)

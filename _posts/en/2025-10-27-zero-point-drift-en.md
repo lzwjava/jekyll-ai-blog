@@ -35,6 +35,6 @@ Zero-point drift (also called offset drift or DC offset drift) is an error in el
 
 In directly coupled multi-stage amplifiers (as discussed previously), it's especially tricky because DC signals pass through all stages, magnifying tiny drifts.
 
-[Zero Drift Amplifiers Explained](https://www.analog.com/en/resources/analog-dialogue/articles/zero-drift-amplifiers.html)  
-[Offset Drift in Op-Amps](https://www.ti.com/lit/an/sboa275/sboa275.pdf)  
+[Zero Drift Amplifiers Explained](https://www.analog.com/en/resources/analog-dialogue/articles/zero-drift-amplifiers.html)
+[Offset Drift in Op-Amps](https://www.ti.com/lit/an/sboa275/sboa275.pdf)
 [Wikipedia: Offset (electronics)](https://en.wikipedia.org/wiki/Offset_(electronics))

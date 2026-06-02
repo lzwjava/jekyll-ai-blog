@@ -40,7 +40,7 @@ The goal is to clear a grid of hidden mines using clues about the number of neig
 
 **Difficulty levels:**
 - Beginner: 9×9 grid, 10 mines
-- Intermediate: 16×16 grid, 40 mines  
+- Intermediate: 16×16 grid, 40 mines
 - Expert: 30×16 grid, 99 mines
 
 Want tips on any specific strategies or stuck on understanding a particular pattern?

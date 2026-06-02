@@ -32,7 +32,7 @@ def get_battery_info():
     try:
         # 使用 psutil 获取电池信息
         battery = psutil.sensors_battery()
-        
+
         if battery is None:
             print("未检测到电池")
             return
@@ -181,5 +181,5 @@ ls -l /sys/class/power_supply/BAT*/*
 ```
 这将有助于确定确切的文件名和权限。然后我可以进一步调整脚本以匹配您的系统配置。
 
-[psutil 文档](https://psutil.readthedocs.io/en/latest/)  
+[psutil 文档](https://psutil.readthedocs.io/en/latest/)
 [Linux sysfs 电源供应](https://www.kernel.org/doc/html/latest/power/power_supply_class.html)

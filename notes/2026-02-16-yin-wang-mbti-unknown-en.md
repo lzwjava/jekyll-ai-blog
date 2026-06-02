@@ -11,7 +11,7 @@ type: note
 
 Question: Is Yin Wang (from yinwang.org) an INTP?
 
-Answer: 
+Answer:
 
 There is **no public information** or direct statement from Yin Wang (王垠) indicating his MBTI personality type, including whether he is an INTP.
 
@@ -31,6 +31,6 @@ However, this is purely speculative inference based on writing style and topics 
 
 If Yin Wang has ever mentioned his MBTI type in a post, interview, or elsewhere that isn't easily searchable, it isn't documented in available sources as of February 2026.
 
-References:  
+References:
 
 - [https://www.yinwang.org](https://www.yinwang.org)

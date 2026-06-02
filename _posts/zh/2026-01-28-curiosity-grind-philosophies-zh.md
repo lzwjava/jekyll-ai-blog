@@ -123,7 +123,7 @@ type: note
 
 它们在**两个维度**上不同：
 
-  
+
 | Dimension           | 王垠风格     | 磨砺风格      |
 | ------------------- | ------------ | ------------- |
 | Motivation          | Internal     | External      |

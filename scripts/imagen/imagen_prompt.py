@@ -15,7 +15,7 @@ Generates images for Jekyll post files using AI.
 
 def generate_image_prompt_with_ai(content):
     """Generate image prompt using AI."""
-    prompt = f"""Please generate a detailed image prompt for the following markdown content. 
+    prompt = f"""Please generate a detailed image prompt for the following markdown content.
 Follow these rules:
 1. Create a vivid, descriptive prompt for image generation (1-2 sentences)
 2. Focus on visual elements that represent the main topic

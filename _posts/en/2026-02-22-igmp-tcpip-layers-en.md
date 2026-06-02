@@ -11,7 +11,7 @@ type: note
 
 Question: In which layer of the TCP/IP reference model does the Internet Group Management Protocol (IGMP) reside?
 
-Answer: 
+Answer:
 
 The Internet Group Management Protocol (IGMP) resides in the **Network Layer** (also referred to as the **Internet Layer** or **Network Interconnection Layer**) of the TCP/IP reference model.
 

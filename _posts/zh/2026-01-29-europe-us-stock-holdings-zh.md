@@ -12,7 +12,7 @@ type: note
 
 **问题：** Europeans 是否是 US stocks 的主要外国买家，占所有外国买家的 49%？
 
-**答案：** 
+**答案：**
 
 是的，Europeans（或来自 Europe 的投资者）目前是 US stocks（equities）的最大外国持有者群体，他们占总外国持有的 US corporate stocks/equities 的约 **49%**。
 
@@ -24,9 +24,9 @@ US Treasury International Capital (TIC) 系统提供外国对 US securities（�
 
 这与最近市场评论中关于如果 European investors 减少 exposure（例如，由于贸易或政策紧张）的潜在风险担忧一致。
 
-**参考文献：**  
+**参考文献：**
 
-- [Wall Street 应对新风险：欧洲买家罢买](https://finance.yahoo.com/news/wall-street-grapples-risk-european-140000668.html)  
-- [2024 年按地区划分的 U.S. Corporate Stocks 外国所有权](https://www.voronoiapp.com/wealth/-Foreign-Ownership-of-US-Corporate-Stocks-by-Region-in-2024-4502)  
-- [U.S. Securities 的外国 Portfolio Holdings（TIC 数据，2024 年 6 月）](https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2024r.pdf)  
+- [Wall Street 应对新风险：欧洲买家罢买](https://finance.yahoo.com/news/wall-street-grapples-risk-european-140000668.html)
+- [2024 年按地区划分的 U.S. Corporate Stocks 外国所有权](https://www.voronoiapp.com/wealth/-Foreign-Ownership-of-US-Corporate-Stocks-by-Region-in-2024-4502)
+- [U.S. Securities 的外国 Portfolio Holdings（TIC 数据，2024 年 6 月）](https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2024r.pdf)
 - [U.S. stocks 的欧洲所有权激增](https://www.mexc.co/news/569021)

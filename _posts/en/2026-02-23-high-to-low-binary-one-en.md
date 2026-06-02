@@ -11,7 +11,7 @@ type: note
 
 Question: In Manchester encoding, a voltage transition occurs in the middle of each bit duration; what does a transition from high voltage to low voltage represent?
 
-Answer: 
+Answer:
 
 In **Manchester encoding**, data is encoded such that there is always a transition in the middle of each bit period. This transition serves both as a clock signal and as the data carrier. The direction of the transition determines the binary value:
 
@@ -22,6 +22,6 @@ This scheme ensures synchronization between the sender and receiver, as there is
 
 Therefore, a high-to-low transition indicates the value **1**.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Manchester_code](https://en.wikipedia.org/wiki/Manchester_code)

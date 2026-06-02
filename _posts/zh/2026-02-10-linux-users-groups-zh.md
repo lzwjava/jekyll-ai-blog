@@ -75,7 +75,7 @@ groups www-data
 chmod -R o+rx /home/lzw/qDownloads
 ```
 
-→ 系统中的任何人（包括 www-data）都可以读取和列出该文件夹。  
+→ 系统中的任何人（包括 www-data）都可以读取和列出该文件夹。
 → 简单，但安全性较低——任何 service 或 user 都能看到你的下载内容。
 
 **方式 B – 使用 group 机制（推荐）**

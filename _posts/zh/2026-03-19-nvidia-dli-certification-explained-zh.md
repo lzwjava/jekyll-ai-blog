@@ -51,7 +51,7 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 
 ### 🔵 Associate 级别 (NCA) — 每场 $125 USD
 
-  
+
 | 考试代码 | 名称 | 时长 | 测试内容 |
 |---|---|---|---|
 | **NCA-GENL** | Generative AI with LLMs | 60 分钟 / 50 题 | 使用生成式 AI 和 LLMs 结合 NVIDIA 解决方案开发、集成和维护 AI 驱动应用的基礎概念 |
@@ -61,7 +61,7 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 
 ### 🟠 Professional 级别 (NCP) — $200–$400 USD
 
-  
+
 | 考试代码 | 名称 | 费用 | 测试内容 |
 |---|---|---|---|
 | **NCP-GENL** | Generative AI LLMs Professional | $200 | 分布式训练策略（tensor parallelism 与 pipeline parallelism）、PEFT、复杂 RAG 部署、Triton/TensorRT-LLM 推理 |
@@ -90,7 +90,7 @@ Associate 级别 (NCA) 考试每次尝试 $125 USD。Professional 级别开发�
 
 ## 重考与调度政策
 
-全球指南规定尝试之间需等待 **14 天**，每年最多 **五次尝试**。  
+全球指南规定尝试之间需等待 **14 天**，每年最多 **五次尝试**。
 您可以在考试开始前 **24 小时** 内取消或重新调度考试。考试在会话开始前 24 小时内不可退款，NVIDIA 不会为错过、通过或失败的考试退款。
 
 ---
@@ -103,7 +103,7 @@ Associate 级别 (NCA) 考试每次尝试 $125 USD。Professional 级别开发�
 
 ## 谁应该获得哪些认证？
 
-  
+
 | 您的背景 | 推荐路径 |
 |---|---|
 | AI 开发人员 / 软件工程师 | NCA-GENL → NCP-GENL 或 NCP-AAI |

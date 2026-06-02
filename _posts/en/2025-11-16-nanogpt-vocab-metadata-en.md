@@ -32,8 +32,8 @@ It’s a dictionary with these keys (example):
    - If it does **not** exist → nanoGPT builds a new vocabulary from the text in your dataset (usually with SentencePiece, tiktoken, or a simple char-level vocab) and saves it as `meta.pkl` for future use.
 
 2. During sampling/inference (`sample.py`):
-   - When you see the message  
-     `No meta.pkl found, assuming GPT-2 encodings...`  
+   - When you see the message
+     `No meta.pkl found, assuming GPT-2 encodings...`
      it means nanoGPT couldn’t find a meta.pkl file in your data directory.
    - So it falls back to the default GPT-2 BPE tokenizer (the same one used by OpenAI’s GPT-2) with vocab_size = 50257. That’s why your 29.94M parameter model (which is the smallest GPT-2 124M config but incorrectly reported sometimes) works fine even without meta.pkl when you train on OpenWebText or similar datasets.
 

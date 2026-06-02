@@ -12,7 +12,7 @@ type: note
 
 Question: 当摄影技术变得更加先进时，人们画画会变少吗？
 
-Answer: 
+Answer:
 
 不，摄影技术的进步并没有导致人们绘画的总量减少。相反，摄影的发明和演变通过将其重心从写实表现（realistic representation）中转移出来，深刻地影响了绘画，最终解放并振兴了这一媒介。
 
@@ -37,10 +37,10 @@ Answer:
 
 摄影技术的进步改变了人们绘画的“方式”和“原因”（更多的表达，更少的复制），但没有改变绘画的数量。绘画作为一种独特的工艺，强调创造力、质感和解读，这些是机械或数字捕捉无法完全取代的。
 
-References:  
+References:
 
-- [Role Reversal: How Paintings and Photography Switched Roles in the 20th Century](https://www.moas.org/Role-Reversal--How-Paintings-and-Photography-Switched-Roles-in-the-20th-Century-1-44.html)  
-- [Did Photography Really Kill Portrait Painting? - JSTOR Daily](https://daily.jstor.org/did-photography-really-kill-portrait-painting/)  
-- [How Photography Pioneered a New Understanding of Art | TheCollector](https://www.thecollector.com/how-photography-transformed-art/)  
-- [Photography Is Everywhere Now. Can Photo Auction Results Keep Pace?](https://news.artnet.com/market/photography-auction-industry-2655783)  
+- [Role Reversal: How Paintings and Photography Switched Roles in the 20th Century](https://www.moas.org/Role-Reversal--How-Paintings-and-Photography-Switched-Roles-in-the-20th-Century-1-44.html)
+- [Did Photography Really Kill Portrait Painting? - JSTOR Daily](https://daily.jstor.org/did-photography-really-kill-portrait-painting/)
+- [How Photography Pioneered a New Understanding of Art | TheCollector](https://www.thecollector.com/how-photography-transformed-art/)
+- [Photography Is Everywhere Now. Can Photo Auction Results Keep Pace?](https://news.artnet.com/market/photography-auction-industry-2655783)
 - [Art World Statistics Every Artist Needs to Know — CAI](https://www.contemporaryartissue.com/art-world-statistics-every-artist-needs-to-know/)

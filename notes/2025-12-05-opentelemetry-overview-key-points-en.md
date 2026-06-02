@@ -12,7 +12,7 @@ type: note
 
 Question: What is OpenTelemetry?
 
-Answer: 
+Answer:
 
 OpenTelemetry (often abbreviated as **OTel**) is a set of open-source tools, APIs, SDKs, and specifications designed to create and manage telemetry data (metrics, logs, and traces) from applications and infrastructure in a vendor-neutral, standardized way.
 

@@ -12,7 +12,7 @@ type: note
 
 Question: What does "syllabus" mean?
 
-Answer: 
+Answer:
 
 A **syllabus** is a document that outlines the plan for a course of study, typically in an educational setting such as a school, college, or university. It serves as a guide for both instructors and students.
 

@@ -41,6 +41,6 @@ In short: Silver weighs ~8x more in total stock, but its price is only ~1/85th o
 
 If silver's industrial demand keeps surging (e.g., solar needs could double usage by 2030), its price could climb to $60-100/oz, pushing the cap toward $4-5T. But gold's entrenched role as "digital gold" alternative will likely keep the overall imbalance intact. For real-time prices/stocks, check sources like the World Gold Council or Silver Institute.
 
-[Market Cap of Silver](https://companiesmarketcap.com/silver/marketcap/)  
-[Market Cap of Gold](https://companiesmarketcap.com/gold/marketcap/)  
+[Market Cap of Silver](https://companiesmarketcap.com/silver/marketcap/)
+[Market Cap of Gold](https://companiesmarketcap.com/gold/marketcap/)
 [A Guide to Gold and Silver Market Caps](https://kinesis.money/blog/gold/guide-gold-silver-market-caps/)

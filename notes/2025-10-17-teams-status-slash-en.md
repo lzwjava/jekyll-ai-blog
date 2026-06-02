@@ -31,6 +31,6 @@ These changes are temporary and may reset based on your activity (e.g., after 5 
 
 Slash commands are handy for quick toggles during conversations, but for more control, the profile menu is better.
 
-[Use commands in Microsoft Teams](https://support.microsoft.com/en-us/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b)  
-[Microsoft Teams - Setting Your Presence Status](https://www.dataprise.com/resources/blog/microsoft-teams-set-presence-status/)  
+[Use commands in Microsoft Teams](https://support.microsoft.com/en-us/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b)
+[Microsoft Teams - Setting Your Presence Status](https://www.dataprise.com/resources/blog/microsoft-teams-set-presence-status/)
 [Change your status in Microsoft Teams](https://support.microsoft.com/en-us/office/change-your-status-in-microsoft-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e)

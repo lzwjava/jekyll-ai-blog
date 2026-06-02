@@ -48,7 +48,7 @@ THE FULL FLOW (from source code):
      rsv  = 0x00
      atyp = 0x03 (DOMAINNAME) or 0x01 (IPv4) or 0x04 (IPv6)
      dst  = hostname bytes + port (2 bytes, network order)
-   
+
    Example for "github.com:22":
      [0x05, 0x01, 0x00, 0x03, 0x0A]
      + "github.com"

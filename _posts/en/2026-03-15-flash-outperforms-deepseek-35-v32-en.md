@@ -11,7 +11,7 @@ type: note
 
 **Question:** Is deepseek/deepseek-v3.2 better than stepfun/step-3.5-flash:free?
 
-**Answer:** 
+**Answer:**
 
 No single model is clearly "better" in every way — it depends on your priorities (reasoning quality, speed, cost, context length, or specific tasks). Here's a breakdown based on 2026 comparisons:
 
@@ -53,7 +53,7 @@ No single model is clearly "better" in every way — it depends on your prioriti
 
 In most day-to-day use cases in early 2026 (especially speed + cost + agent/coding performance), **Step-3.5-Flash** is considered the stronger and more practical choice by a majority of reviewers and blind tests.
 
-**References:**  
+**References:**
 
 - [OpenRouter model comparison – DeepSeek V3.2 vs Step 3.5 Flash](https://openrouter.ai/compare/deepseek/deepseek-v3.2/stepfun/step-3.5-flash)
 - [llm-stats.com – DeepSeek-V3.2-Exp vs Step-3.5-Flash](https://llm-stats.com/models/compare/deepseek-v3.2-exp-vs-step-3.5-flash)

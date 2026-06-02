@@ -12,7 +12,7 @@ type: note
 
 Question: What does incest mean?
 
-Answer: 
+Answer:
 
 **Incest** refers to sexual activity or sexual intercourse between people who are closely related by blood or by marriage (close family members), in ways that are prohibited by law or by strong cultural taboo in almost every society.
 
@@ -35,6 +35,6 @@ Common examples of relationships considered incestuous in most countries and cul
 
 In everyday English usage today, when someone says "that's incest" or "they're committing incest", they almost always mean sexual relations between parent/child or brother/sister.
 
-References:  
+References:
 
 - None (standard dictionary + legal definition)

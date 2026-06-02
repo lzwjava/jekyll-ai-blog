@@ -26,7 +26,7 @@ type: note
 
 简言之，这是周期之责：贪婪开发商、强力监管与转型经济体的混合作用。与其归咎个体，不如视作不可持续增长后的市场修正。若您选择持有，部分分析师认为2026年针对性支持政策将促市场企稳，但当前二手房流动性较低。建议咨询广州本地房产中介或理财顾问，他们可提供同类物业比对数据，并探讨出租等替代方案。请保持信心，市场低迷终将过去，只是当下确实艰难。
 
-[2025年中国住宅房地产市场分析](https://www.globalpropertyguide.com/asia/china/price-history)  
-[供应过剩拖累价格，中国楼市低迷加剧](https://www.asiapropertyawards.com/en/china-housing-slump-deepens-as-oversupply-drags-prices/)  
-[可视化解读中国房地产市场下行](https://www.visualcapitalist.com/visualizing-chinas-real-estate-market-downturn/)  
+[2025年中国住宅房地产市场分析](https://www.globalpropertyguide.com/asia/china/price-history)
+[供应过剩拖累价格，中国楼市低迷加剧](https://www.asiapropertyawards.com/en/china-housing-slump-deepens-as-oversupply-drags-prices/)
+[可视化解读中国房地产市场下行](https://www.visualcapitalist.com/visualizing-chinas-real-estate-market-downturn/)
 [中国房地产困局为何难解？](https://www.bloomberg.com/news/articles/2025-08-13/china-property-crisis-what-s-happening-to-evergrande-why-market-is-a-mess)

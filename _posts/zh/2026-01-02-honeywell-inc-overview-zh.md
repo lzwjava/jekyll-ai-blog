@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Honeywell company.
 
-Answer: 
+Answer:
 
 # Comprehensive Introduction to Honeywell International Inc.
 
@@ -60,9 +60,9 @@ Honeywell 正在经历重大的业务组合转型：
 
 Honeywell 继续在 quantum computing（通过 Quantinuum 合资企业）和可持续发展方面进行创新，使其在能源转型和 automation 等宏观趋势中处于增长地位。
 
-References:  
+References:
 
-- [Honeywell Official Website](https://www.honeywell.com/us/en)  
-- [Wikipedia: Honeywell](https://en.wikipedia.org/wiki/Honeywell)  
-- [Honeywell Investor Relations](https://investor.honeywell.com/)  
+- [Honeywell Official Website](https://www.honeywell.com/us/en)
+- [Wikipedia: Honeywell](https://en.wikipedia.org/wiki/Honeywell)
+- [Honeywell Investor Relations](https://investor.honeywell.com/)
 - [GlobalData Company Profile](https://www.globaldata.com/company-profile/honeywell-international-inc/)

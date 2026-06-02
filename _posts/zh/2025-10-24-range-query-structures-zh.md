@@ -60,6 +60,6 @@ type: note
 
 两者都是算法中的常客（例如在 LeetCode 或 Codeforces 上）。如果正在实现它们，可以从树状数组开始以简化操作！
 
-深入阅读：  
-[线段树教程 - GeeksforGeeks](https://www.geeksforgeeks.org/segment-tree-data-structure/)  
+深入阅读：
+[线段树教程 - GeeksforGeeks](https://www.geeksforgeeks.org/segment-tree-data-structure/)
 [树状数组详解 - CP-Algorithms](https://cp-algorithms.com/data_structures/fenwick.html)

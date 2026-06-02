@@ -18,10 +18,10 @@ type: note
 
 你怎么看？是否遇到过特别能印证这个观点的具体场景？
 
-**参考文献**  
-[年龄增长是否影响就业竞争力？系统性综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC7893083/)  
-[年龄多元化劳动力对组织绩效的影响](https://journals.sagepub.com/doi/full/10.1177/2158244021999058)  
-[情感共情能力会随年龄增长吗？最新元分析给出答案](https://www.psypost.org/does-emotional-empathy-increase-with-age-new-meta-analysis-has-an-answer/)  
-[探究现实生活中不同年龄段成年人的共情差异](https://www.nature.com/articles/s41598-022-06620-x)  
-[收购即将退休的企业为何是明智之举](https://www.entrepreneur.com/starting-a-business/why-buying-a-retiring-business-is-the-smartest-move-for/488824)  
+**参考文献**
+[年龄增长是否影响就业竞争力？系统性综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC7893083/)
+[年龄多元化劳动力对组织绩效的影响](https://journals.sagepub.com/doi/full/10.1177/2158244021999058)
+[情感共情能力会随年龄增长吗？最新元分析给出答案](https://www.psypost.org/does-emotional-empathy-increase-with-age-new-meta-analysis-has-an-answer/)
+[探究现实生活中不同年龄段成年人的共情差异](https://www.nature.com/articles/s41598-022-06620-x)
+[收购即将退休的企业为何是明智之举](https://www.entrepreneur.com/starting-a-business/why-buying-a-retiring-business-is-the-smartest-move-for/488824)
 [年长创业者为何更具优势](https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/age-of-successful-entrepreneurs/)

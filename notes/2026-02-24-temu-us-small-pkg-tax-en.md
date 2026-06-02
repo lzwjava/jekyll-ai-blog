@@ -11,7 +11,7 @@ type: note
 
 Question: Is Temu significantly hurt by the small package tax (de minimis tariff changes) in the USA market?
 
-Answer: 
+Answer:
 
 **Yes, Temu has been significantly hurt by the elimination of the de minimis exemption and related tariff changes in the US market.**
 
@@ -32,7 +32,7 @@ As of early 2026, the de minimis closure remains in effect (reaffirmed by the Wh
 
 In short, the "little thing tax" (de minimis tariffs on small packages) has been a major headwind for Temu in the US, contributing to a substantial slowdown compared to its pre-2025 rapid growth.
 
-References:  
+References:
 
 - [Trump Doubles Down on Closing Tax Loophole on Cheap Imports](https://www.nytimes.com/2026/02/21/business/trump-deminimis-loophole-closed.html)
 - [Retail panic: What the end of the 'de minimis' exemption means for brands across the globe](https://www.cnbc.com/2025/08/29/retail-impact-de-minimis-exemption-ends-globally.html)

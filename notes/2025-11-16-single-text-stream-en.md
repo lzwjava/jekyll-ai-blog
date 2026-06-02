@@ -48,7 +48,7 @@ That’s perfect. You should train on that single giant file (or the sharded bin
 That would destroy the model’s ability to learn long-range dependencies that span multiple documents and would drastically hurt performance.
 
 ### Summary
-Yes → Train on **one single massive concatenated text file** (exactly what `extract_fineweb.py` produces).  
+Yes → Train on **one single massive concatenated text file** (exactly what `extract_fineweb.py` produces).
 No → Do **not** train article-by-article as separate sequences.
 
 That’s how GPTs have always been trained, and it’s the reason nanoGPT’s `train.py` just treats the data as one long token stream.

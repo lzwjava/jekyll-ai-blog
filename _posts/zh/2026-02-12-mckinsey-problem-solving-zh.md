@@ -12,7 +12,7 @@ type: note
 
 Question: What is the McKinsey way of working?
 
-Answer: 
+Answer:
 
 **The McKinsey Way** 指的是全球领先的管理咨询公司 **McKinsey & Company** 独特的问题解决方法论、工作实践和文化。这种方式在 1999 年由前 McKinsey 顾问 Ethan M. Rasiel 所著的《The McKinsey Way》一书中被广为人知，而其核心原则至今仍是该公司运作的核心。
 
@@ -54,7 +54,7 @@ McKinsey 从第一天起就投入大量资源对顾问进行这些方法的培�
 
 虽然公司也在不断进化（融入了 digital tools、AI、agile 运作方式等），但其严谨、结构化、假设驱动的“McKinsey Way”问题解决方法论依然是其文化和客户工作的标志。
 
-References:  
+References:
 
 - [The McKinsey guide to problem solving](https://www.mckinsey.com/featured-insights/mckinsey-guide-to-problem-solving)
 - [How to master the seven-step problem-solving process](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-to-master-the-seven-step-problem-solving-process)

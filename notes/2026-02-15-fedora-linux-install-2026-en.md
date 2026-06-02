@@ -24,7 +24,7 @@ Here is a clear, step-by-step guide to install **Fedora Linux** (as of 2026, the
 
 #### Step 1 – Download Fedora
 
-- Go to the official website:  
+- Go to the official website:
   https://getfedora.org/
 
 - Choose **Fedora Workstation** (most popular choice)
@@ -126,7 +126,7 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
-Enjoy Fedora!  
+Enjoy Fedora!
 It is one of the most modern, up-to-date, and clean Linux distributions available.
 
 **References:**

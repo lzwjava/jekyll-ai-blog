@@ -21,7 +21,7 @@ type: note
 
 你想要解决以下这些问题之一（非常常见的模式）：
 
-- 将 N 个元素分成 **at most K groups** → 最小化所有分组的 **cost(group)** 之和  
+- 将 N 个元素分成 **at most K groups** → 最小化所有分组的 **cost(group)** 之和
   → cost(group) 通常是 convex 的，例如 (size)²、(max−min)²、直径² 等。
 
 - 使用 **at most K operations** 选择 / 合并 → 最小化 penalty
@@ -50,32 +50,32 @@ type: note
 
 ### How the Trick Works (Step by Step)
 
-1. **Rewrite the objective**  
-   与其最小化 ≤ K 个分组的 cost，我们针对固定的 **penalty λ**（我们将二分搜索的实数）考虑：  
-   min over all possible number of groups m:  
-   **real_cost(m) + λ × m**  
+1. **Rewrite the objective**
+   与其最小化 ≤ K 个分组的 cost，我们针对固定的 **penalty λ**（我们将二分搜索的实数）考虑：
+   min over all possible number of groups m:
+   **real_cost(m) + λ × m**
    （有时是 real_cost(m) − λ × m ——符号取决于最小化 cost 还是最大化 score）
 
-2. **Compute the DP without the K constraint**  
-   现在做 DP，每次“开始新分组 / 为额外项付费”时，向 cost **add λ**。  
+2. **Compute the DP without the K constraint**
+   现在做 DP，每次“开始新分组 / 为额外项付费”时，向 cost **add λ**。
    → DP 状态通常变为 **O(N)** 或 **O(N log N)** 而非 **O(N·K)**！
 
    非常常见的是，这个修改后的 DP 可以用 **convex hull trick / Li Chao tree / divide & conquer optimization**，因为转移变为线性/基于斜率的。
 
 3. **Count how many groups m(λ) were used** 在这个 λ 的最优解中。
 
-4. **Binary search on λ**  
-   - If m(λ) > K → 使用了太多分组 → 增加 λ（使开始新分组更昂贵）  
-   - If m(λ) < K → 使用太少 → 减少 λ  
+4. **Binary search on λ**
+   - If m(λ) > K → 使用了太多分组 → 增加 λ（使开始新分组更昂贵）
+   - If m(λ) < K → 使用太少 → 减少 λ
    - m(λ) 在 K 附近跳变的交叉点就是我们想要的。
 
-5. **Recover the true answer**  
-   二分搜索找到最优 m 围绕 K 的 λ 后：  
-   **true minimum cost ≈ DP_value(λ) − λ × K**  
+5. **Recover the true answer**
+   二分搜索找到最优 m 围绕 K 的 λ 后：
+   **true minimum cost ≈ DP_value(λ) − λ × K**
    （或 + λ×K，取决于符号约定）
 
-   因为：  
-   DP_value(λ) ≈ real_cost(K) + λ × K  
+   因为：
+   DP_value(λ) ≈ real_cost(K) + λ × K
    → real_cost(K) ≈ DP_value(λ) − λ × K
 
    重要：由于 convexity，通常存在 λ 范围使得最优 m 完全相同，恢复公式即使固定 m = K 也能给出正确的最小 cost。

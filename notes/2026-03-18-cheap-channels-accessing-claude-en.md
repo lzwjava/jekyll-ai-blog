@@ -49,8 +49,8 @@ These offer Claude (or close equivalents) at discounted rates compared to direct
 
 These options are popular in communities (GitHub, Reddit, Telegram channels for relays) as of March 2026, but availability and pricing change quickly.
 
-**References:**  
-- [https://github.com/decolua/9router](https://github.com/decolua/9router)  
-- [https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109](https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109)  
-- [https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading](https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading)  
+**References:**
+- [https://github.com/decolua/9router](https://github.com/decolua/9router)
+- [https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109](https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109)
+- [https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading](https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading)
 - [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)

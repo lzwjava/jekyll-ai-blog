@@ -132,7 +132,7 @@ When everyone has H200×8 or MI300X×8:
 
 The constraint shifts from **compute** to **data quality** and **evaluation**. Whoever has the best:
 - Domain-specific data
-- RLHF/GRPO feedback pipelines  
+- RLHF/GRPO feedback pipelines
 - Eval harnesses
 
 ...wins. Not whoever has the most GPUs.

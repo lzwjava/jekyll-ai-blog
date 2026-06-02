@@ -12,13 +12,13 @@ type: note
 
 Question: Explain AD groups in Windows and how to use them to control employee access in an enterprise environment?
 
-Answer: 
+Answer:
 
 **Active Directory (AD) groups** in Windows are objects in Active Directory that organize user accounts, computer accounts, and other groups. They simplify **access control** and permission management in enterprise environments.
 
 ### Main Types of Groups in Active Directory
 
-- **Security Groups** — Used to assign **permissions** (read, write, modify, full control, etc.) to resources like file shares, folders, printers, applications, databases, Azure resources, and more.  
+- **Security Groups** — Used to assign **permissions** (read, write, modify, full control, etc.) to resources like file shares, folders, printers, applications, databases, Azure resources, and more.
   They can also be assigned **user rights** (log on locally, remote desktop, etc.).
 
 - **Distribution Groups** — Used only for email distribution lists (e.g., in Exchange or Microsoft 365). They **cannot** be used for permissions.
@@ -39,10 +39,10 @@ Only **security groups** are relevant for controlling employee access.
 
 Microsoft strongly recommends **role-based access control (RBAC)** using **group nesting**. The two standard patterns are:
 
-1. **AGDLP** — Used in **single-domain** environments (most common)  
+1. **AGDLP** — Used in **single-domain** environments (most common)
    **A**ccounts → **G**lobal groups → **D**omain **L**ocal groups → **P**ermissions
 
-2. **AGUDLP** — Used in **multi-domain** forests  
+2. **AGUDLP** — Used in **multi-domain** forests
    **A**ccounts → **G**lobal groups → **U**niversal groups → **D**omain **L**ocal groups → **P**ermissions
 
 #### Real-world example (single domain – AGDLP)
@@ -90,7 +90,7 @@ Result: When John moves departments → you only change his global group members
 
 Using this structured approach (especially AGDLP/AGUDLP) dramatically reduces administrative effort, improves security, makes audits easier, and scales well even in very large enterprises (tens of thousands of users).
 
-References:  
+References:
 
 - [Active Directory Security Groups | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups)
 - [5 Best practices for AD security groups - ManageEngine](https://www.manageengine.com/products/active-directory-audit/kb/best-practices/active-directory-security-groups-best-practices.html)

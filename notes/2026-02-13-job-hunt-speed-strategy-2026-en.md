@@ -32,17 +32,17 @@ Quality > Quantity, but you still need enough volume to create opportunities. Re
 - Momentum matters: Recruiters and ATS systems favor active, recent applicants. Sporadic applying can make your profile look inactive.
 
 ### Better Practical Strategy
-1. **Aim for consistency over bursts**  
+1. **Aim for consistency over bursts**
    Apply **daily or 4–5 days/week** instead of once a month. Even 2 high-quality applications per day beats 3 random ones monthly.
 
-2. **Prioritize quality & tailoring (especially for Taleo banks)**  
-   - Spend time customizing resume/cover letter with job-specific keywords (e.g., "AML", "KYC", "Basel III", "digital transformation").  
-   - Research the role/company — mention recent news (e.g., DBS digital initiatives or HSBC sustainability focus).  
+2. **Prioritize quality & tailoring (especially for Taleo banks)**
+   - Spend time customizing resume/cover letter with job-specific keywords (e.g., "AML", "KYC", "Basel III", "digital transformation").
+   - Research the role/company — mention recent news (e.g., DBS digital initiatives or HSBC sustainability focus).
    - Track everything in a spreadsheet (job title, company, date applied, status, follow-up date).
 
-3. **Application cadence for same company (e.g., HSBC, DBS, SCB)**  
-   - It's fine (and often smart) to apply to **multiple roles** at the same bank if they genuinely match your skills.  
-   - Best practice: Apply to 1 role → wait 4–8 weeks (or until you hear back) before applying to another at the same company. Avoid spamming 5+ at once — it can look desperate.  
+3. **Application cadence for same company (e.g., HSBC, DBS, SCB)**
+   - It's fine (and often smart) to apply to **multiple roles** at the same bank if they genuinely match your skills.
+   - Best practice: Apply to 1 role → wait 4–8 weeks (or until you hear back) before applying to another at the same company. Avoid spamming 5+ at once — it can look desperate.
    - Taleo systems usually handle duplicates (they flag if you've applied to the exact same requisition), but different roles are treated separately.
 
 4. **Weekly routine example** (adjust to your situation)
@@ -51,8 +51,8 @@ Quality > Quantity, but you still need enough volume to create opportunities. Re
    - Track response rate — if <5–10% get replies after 50+ apps, refine resume/keywords.
 
 5. **Other key tips to boost success**
-   - Diversify sources: Bank career pages (Taleo), LinkedIn, eFinancialCareers, referrals.  
-   - Network aggressively — many banking roles fill via internal referrals before public posting.  
+   - Diversify sources: Bank career pages (Taleo), LinkedIn, eFinancialCareers, referrals.
+   - Network aggressively — many banking roles fill via internal referrals before public posting.
    - Be patient — banking hiring can take 1–3+ months per stage.
 
 Bottom line: Move from "3 jobs once a month" to a steady **10–15 quality applications per week** (or adjusted lower for banking). This gives you momentum without burnout and significantly improves your odds in a tough 2026 market.

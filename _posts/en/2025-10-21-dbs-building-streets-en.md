@@ -24,6 +24,6 @@ Here's a summary of the major streets immediately surrounding the building (with
 
 The layout forms a grid-like pattern with the MBFC complex at the intersection of Marina Boulevard and Straits View/Central Boulevard. Pedestrian paths, including underground linkways to Downtown MRT Station (DT17), make it highly walkable. For navigation, use apps like Google Maps or OneMap for real-time details.
 
-[Marina Bay Financial Centre - Mapcarta](https://mapcarta.com/W116905042)  
-[List of Roads in Downtown Core - SgWiki](https://sgwiki.com/wiki/List_of_Roads_in_Downtown_Core)  
+[Marina Bay Financial Centre - Mapcarta](https://mapcarta.com/W116905042)
+[List of Roads in Downtown Core - SgWiki](https://sgwiki.com/wiki/List_of_Roads_in_Downtown_Core)
 [Moovit Directions to MBFC Tower 3](https://moovitapp.com/index/en-gb/public_transportation-Marina_Bay_Financial_Centre_Tower_3_12_Marina_Blvd-Singapore_%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A1-site_249723791-1678)

@@ -16,38 +16,38 @@ type: note
 
 Graphviz 在这里很理想，因为脚本直接生成 DOT 格式输出，而 Graphviz 原生支持此格式。请按照以下步骤操作：
 
-1. **运行脚本**  
+1. **运行脚本**
    执行 Python 脚本，提供 Maven 项目的根目录作为参数。这将生成依赖关系图的 DOT 输出。
    ```bash
    python script.py /path/to/maven/project
    ```
 
-2. **将 DOT 输出保存到文件**  
+2. **将 DOT 输出保存到文件**
    将脚本的输出重定向到一个文件，例如 `dependencies.dot`。该文件将包含 DOT 格式的图描述。
    ```bash
    python script.py /path/to/maven/project > dependencies.dot
    ```
 
-3. **安装 Graphviz（如果尚未安装）**  
+3. **安装 Graphviz（如果尚未安装）**
    Graphviz 可用于 Windows、macOS 和 Linux。使用您的包管理器安装它：
-   - **Ubuntu/Debian**：  
+   - **Ubuntu/Debian**：
      ```bash
      sudo apt-get install graphviz
      ```
-   - **macOS（使用 Homebrew）**：  
+   - **macOS（使用 Homebrew）**：
      ```bash
      brew install graphviz
      ```
    - **Windows**：从 [Graphviz 网站](https://graphviz.org/download/) 下载并安装。
 
-4. **生成可视化图像**  
+4. **生成可视化图像**
    使用 Graphviz 的 `dot` 命令将 DOT 文件转换为图像。例如，要创建 PNG 文件：
    ```bash
    dot -Tpng dependencies.dot -o dependencies.png
    ```
    - 您可以根据偏好将 `-Tpng` 替换为其他格式，如用于 SVG 的 `-Tsvg` 或用于 PDF 的 `-Tpdf`。
 
-5. **查看图**  
+5. **查看图**
    使用任何图像查看器打开生成的 `dependencies.png` 文件，查看依赖关系图。每个节点将代表一个模块的 `artifactId`，箭头将指示模块间的依赖关系。
 
 ---

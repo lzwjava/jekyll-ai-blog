@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么我在一家英语环境的全球性公司工作了 3 年，我的 IELTS 听力分数仍然停留在 6 分？使用 Zoom captions 对我的听力提高有什么影响，特别是针对 Indian accents？大脑在这种方法下随着时间推移而适应，真的具有“魔力”吗？
 
-Answer: 
+Answer:
 
 你的经历在职业环境中的非母语英语使用者中非常普遍，你对大脑适应能力的观察确实有其实际依据，并且得到了 Second Language Acquisition 研究的支持。
 
@@ -60,7 +60,7 @@ Zoom captions（AI 生成的英文标题）充当了 **Same-language captions/su
 
 总的来说，你的 Captions 策略并没有阻碍你，反而可能正在促成缓慢但真实的进步。大脑确实会随着时间和适当的支持而适应，就像词汇量通过坚持查阅而增长一样。将 Captions 作为一种工具保留，但要逐渐在脱离它们的情况下挑战自己，以打破平台期。
 
-References:  
+References:
 
 - [Video Captions Benefit Everyone - PMC - NIH](https://pmc.ncbi.nlm.nih.gov/articles/PMC5214590)
 - [A New Starring Role for Video Captions: Language Learning - Maryland Today](https://today.umd.edu/a-new-starring-role-video-captions-language-learning)

@@ -31,6 +31,6 @@ GitHub仓库 [https://github.com/unionlabs/union](https://github.com/unionlabs/u
 
 开发者可通过`git clone`获取代码库，使用`make install`安装依赖，执行`make build`进行编译。更多细节请查阅[文档目录](https://github.com/unionlabs/union/tree/main/docs)或访问Union Labs官网。
 
-[Union Labs官网](https://union.build/)  
-[Union白皮书](https://union.build/whitepaper)  
+[Union Labs官网](https://union.build/)
+[Union白皮书](https://union.build/whitepaper)
 [GitHub代码库](https://github.com/unionlabs/union)

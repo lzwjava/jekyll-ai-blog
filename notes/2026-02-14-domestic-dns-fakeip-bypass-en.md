@@ -12,12 +12,12 @@ type: note
 
 Question: Why in this case (using domestic DoH/DoT servers like doh.pub and AliDNS) do we not need to configure enhanced-mode: fake-ip and fake-ip-range?
 
-Answer: 
+Answer:
 
 You **do not strictly need** `enhanced-mode: fake-ip` (and its `fake-ip-range`) when using **purely domestic / China-based DNS servers** like:
 
-- `https://doh.pub/dns-query`  
-- `https://dns.alidns.com/dns-query`  
+- `https://doh.pub/dns-query`
+- `https://dns.alidns.com/dns-query`
 - `tls://223.5.5.5:853` (AliDNS DoT)
 
 because these servers usually do **not suffer from serious DNS pollution / poisoning** for the domains most users care about in this setup.
@@ -80,11 +80,11 @@ dns:
 
 Most Clash Verge / Mihomo users in China run **without fake-ip** when they stick to domestic DoH/DoT — and it works perfectly fine for daily proxy use.
 
-Bottom line:  
-In this exact config → **you can safely skip fake-ip** for simplicity and speed.  
+Bottom line:
+In this exact config → **you can safely skip fake-ip** for simplicity and speed.
 If you later switch back to Cloudflare/Google DoH or notice any weird resolution → add fake-ip then.
 
-References:  
+References:
 
 - [MetaCubeX mihomo DNS enhanced-mode explanation](https://wiki.metacubex.one/en/config/dns)
 - [Clash fake-ip vs redir-host discussion (Chinese community)](https://github.com/MetaCubeX/mihomo/discussions/456)

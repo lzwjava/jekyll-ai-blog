@@ -11,7 +11,7 @@ type: note
 
 Question: What is the general transmission method used in local area networks (LANs)?
 
-Answer: 
+Answer:
 
 The correct answer is **广播** (broadcast).
 
@@ -37,5 +37,5 @@ Even though modern switched Ethernet has greatly reduced unnecessary broadcast t
 
 So the reference answer **广播** is correct.
 
-References:  
+References:
 None

@@ -12,7 +12,7 @@ type: note
 
 Question: How to use the arp -a command?
 
-Answer: 
+Answer:
 
 The `arp -a` command is used to display the contents of the ARP (Address Resolution Protocol) cache on your computer. The ARP cache is a table that maps IP addresses to physical (MAC) addresses of devices on your local network that your computer has recently communicated with. This is helpful for network troubleshooting, such as identifying devices, checking for duplicate IPs, or verifying MAC addresses.
 
@@ -58,7 +58,7 @@ The `arp -a` command is used to display the contents of the ARP (Address Resolut
 
 This command works on Windows, Linux, and macOS with minor differences in syntax and output format.
 
-References:  
+References:
 
 - [Microsoft Learn: arp command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp)
 - [GeeksforGeeks: arp command in Linux](https://www.geeksforgeeks.org/linux-unix/arp-command-in-linux-with-examples/)

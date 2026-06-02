@@ -27,6 +27,6 @@ While the "10-minute bot read" is fast, it often lacks the depth of the original
 * **Retention:** Cognitive studies often suggest that the effort of reading—flipping pages, highlighting, and following a long-form narrative—leads to better long-term retention than scanning bullet points.
 
 ## **The Verdict**
-Reading through a bot is a fantastic tool for **filtering** what is worth your time. You can use it to "audition" a book: ask for the summary, and if the ideas are truly transformative, go buy the book to live with those ideas more deeply. 
+Reading through a bot is a fantastic tool for **filtering** what is worth your time. You can use it to "audition" a book: ask for the summary, and if the ideas are truly transformative, go buy the book to live with those ideas more deeply.
 
 For technical manuals or "fluff" non-fiction, the bot is likely enough. For literature, philosophy, or deep strategy, the bot gives you the map, but the book is the journey.

@@ -63,8 +63,8 @@ public extension TelegramEngine {
         public func deleteMessagesInteractively(messageIds: [MessageId], type: InteractiveMessagesDeletionType) -> Signal<Void, NoError> {
             self.account.stateManager.messagesRemovedContext.addIsMessagesDeletedInteractively(
                 ids: messageIds.map { id -> DeletedMessageId in
-                    if id.namespace == Namespaces.Message.Cloud && 
-                       (id.peerId.namespace == Namespaces.Peer.CloudUser || 
+                    if id.namespace == Namespaces.Message.Cloud &&
+                       (id.peerId.namespace == Namespaces.Peer.CloudUser ||
                         id.peerId.namespace == Namespaces.Peer.CloudGroup) {
                         return .global(id.id)
                     } else {
@@ -196,7 +196,7 @@ public final class Signal<T, E> {
         self.generator = generator
     }
 
-    public func start(next: ((T) -> Void)! = nil, error: ((E) -> Void)! = nil, 
+    public func start(next: ((T) -> Void)! = nil, error: ((E) -> Void)! = nil,
                       completed: (() -> Void)! = nil) -> Disposable {
         let subscriber = Subscriber<T, E>(next: next, error: error, completed: completed)
         let disposable = self.generator(subscriber)
@@ -252,9 +252,9 @@ public protocol ValueBox {
     func commit()
     func checkpoint()
 
-    func range(_ table: ValueBoxTable, start: ValueBoxKey, end: ValueBoxKey, 
+    func range(_ table: ValueBoxTable, start: ValueBoxKey, end: ValueBoxKey,
                values: (ValueBoxKey, ReadBuffer) -> Bool, limit: Int)
-    func filteredRange(_ table: ValueBoxTable, start: ValueBoxKey, end: ValueBoxKey, 
+    func filteredRange(_ table: ValueBoxTable, start: ValueBoxKey, end: ValueBoxKey,
                        values: (ValueBoxKey, ReadBuffer) -> ValueBoxFilterResult, limit: Int)
     func get(_ table: ValueBoxTable, key: ValueBoxKey) -> ReadBuffer?
     func set(_ table: ValueBoxTable, key: ValueBoxKey, value: MemoryBuffer)
@@ -263,9 +263,9 @@ public protocol ValueBox {
     func count(_ table: ValueBoxTable, start: ValueBoxKey, end: ValueBoxKey) -> Int
 
     // 内置全文搜索
-    func fullTextSet(_ table: ValueBoxFullTextTable, collectionId: String, 
+    func fullTextSet(_ table: ValueBoxFullTextTable, collectionId: String,
                      itemId: String, contents: String, tags: String)
-    func fullTextMatch(_ table: ValueBoxFullTextTable, collectionId: String?, 
+    func fullTextMatch(_ table: ValueBoxFullTextTable, collectionId: String?,
                        query: String, tags: String?, values: (String, String) -> Bool)
 
     // 用于账户迁移的加密导出

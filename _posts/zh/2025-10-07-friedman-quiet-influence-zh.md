@@ -22,6 +22,6 @@ type: note
 
 在这个痴迷能见度的领域，弗里德曼的谦卑显得如此颠覆——近乎一场反叛。他让作品（及其激起的涟漪，如启发Clojure开发者们）如温暖社群拥抱般回馈自身。恰如他曾描述的那场温暖迎新，这种特质反而放大其影响力：那些通过著作或印第安纳大学课程寻踪而来的人，终将遇见一位深刻存在的引路人。
 
-[伟大的教师弗里德曼（简书文章）](https://www.jianshu.com/p/84192328586b)  
-[《小类型家》播客访谈](https://corecursive.com/023-little-typer-and-pie-language/)  
+[伟大的教师弗里德曼（简书文章）](https://www.jianshu.com/p/84192328586b)
+[《小类型家》播客访谈](https://corecursive.com/023-little-typer-and-pie-language/)
 [与丹·弗里德曼的对话（YouTube文字稿摘要）](https://www.youtube.com/watch?v=cfZQYVQcspE)

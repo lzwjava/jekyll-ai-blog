@@ -18,6 +18,6 @@ Roosevelt connected this to education by advocating that the U.S. should help ed
 
 This initiative began in 1908 after congressional approval, and it marked a significant early example of U.S.-China educational exchange.
 
-[Boxer Indemnity Scholarship - Wikipedia](https://en.wikipedia.org/wiki/Boxer_Indemnity_Scholarship)  
-[December 3, 1907: Seventh Annual Message | Miller Center](https://millercenter.org/the-presidency/presidential-speeches/december-3-1907-seventh-annual-message)  
+[Boxer Indemnity Scholarship - Wikipedia](https://en.wikipedia.org/wiki/Boxer_Indemnity_Scholarship)
+[December 3, 1907: Seventh Annual Message | Miller Center](https://millercenter.org/the-presidency/presidential-speeches/december-3-1907-seventh-annual-message)
 [Chinese students in US can be agents of peace - Chinadaily.com.cn](https://global.chinadaily.com.cn/a/201911/12/WS5dc9db76a310cf3e35576b33.html)

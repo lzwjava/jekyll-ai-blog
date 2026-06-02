@@ -15,20 +15,20 @@ type: note
 
 Here are the most notable, high-impact, and widely recognized projects that are **primarily or substantially written in Zig** (as of early 2026). These tend to be the ones people point to when discussing Zig's real-world success in performance-critical or systems-level domains.
 
-- **Bun**  
-  A very fast all-in-one JavaScript/TypeScript runtime, bundler, test runner, and package manager.  
+- **Bun**
+  A very fast all-in-one JavaScript/TypeScript runtime, bundler, test runner, and package manager.
   It uses Zig + JavaScriptCore (from WebKit/Safari) and is one of the highest-profile Zig projects, showing massive adoption in the JavaScript ecosystem.
 
-- **TigerBeetle**  
-  A distributed financial transactions database designed for extreme performance and safety in high-throughput payment/ledger systems.  
+- **TigerBeetle**
+  A distributed financial transactions database designed for extreme performance and safety in high-throughput payment/ledger systems.
   Used in production by fintech companies; often cited as a flagship example of Zig in mission-critical financial software.
 
-- **Ghostty**  
-  A fast, GPU-accelerated terminal emulator (alternative to iTerm2, Alacritty, Kitty, etc.).  
+- **Ghostty**
+  A fast, GPU-accelerated terminal emulator (alternative to iTerm2, Alacritty, Kitty, etc.).
   Gained significant attention for its performance and native feel across platforms.
 
-- **Lightpanda**  
-  A headless browser built specifically for AI agents and automation tasks.  
+- **Lightpanda**
+  A headless browser built specifically for AI agents and automation tasks.
   One of the newer high-visibility projects (trending strongly on GitHub in recent periods).
 
 Other impactful / production-used Zig projects (sometimes mixed with other languages but with large Zig components):

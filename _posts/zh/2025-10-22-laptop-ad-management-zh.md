@@ -64,6 +64,6 @@ AD 在管理笔记本电脑访问权限方面非常强大，因为它能集中�
 
 此设置确保员工使用 AD 凭据登录，继承基于组的权限，并且无法绕过限制——非常适合合规性和安全性要求。为避免中断，可从测试 OU 开始小规模实施。
 
-[Active Directory 域服务概述](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)  
-[配置用户访问控制和权限](https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/configure/user-access-control)  
+[Active Directory 域服务概述](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+[配置用户访问控制和权限](https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/configure/user-access-control)
 [Windows Server 的组策略概述](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)

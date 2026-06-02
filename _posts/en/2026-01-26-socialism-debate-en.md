@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about socialism?
 
-Answer: 
+Answer:
 
 Here are some **unpopular** or **controversial/counterintuitive ideas** about socialism that tend to provoke strong disagreement depending on the audience (whether among socialists themselves, liberals, conservatives, or the general public). These views often go against the most common narratives on either side.
 
@@ -38,7 +38,7 @@ Here are some **unpopular** or **controversial/counterintuitive ideas** about so
 
 These ideas are "unpopular" either because they defend aspects of historical socialism that most people condemn, challenge romantic views of decentralized socialism, or highlight inconvenient comparisons.
 
-References:  
+References:
 
 - [Reddit thread: unpopular opinions among socialists](https://www.reddit.com/r/socialism/comments/4k2o1v/what_is_an_unpopular_opinion_you_as_a_socialist)
 - [Reddit discussion on socialism in the US](https://www.reddit.com/r/TrueUnpopularOpinion/comments/17re8xt/socialism_would_never_work_in_the_us)

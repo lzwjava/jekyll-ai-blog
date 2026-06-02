@@ -11,7 +11,7 @@ type: note
 
 **Question:** 五仁酱丁可以吃吗？
 
-**Answer:** 
+**Answer:**
 
 是的，一般来说吃 **五仁酱丁**（也写作 Wu Ren Jiang Ding）是可以的，这是一种受欢迎的中国腌制小菜/调味品。
 
@@ -40,7 +40,7 @@ type: note
 
 就像任何咸味泡菜/调味品一样，适量食用即可。
 
-**References:**  
+**References:**
 
 - [https://baike.baidu.com/item/%E4%BA%94%E4%BB%81%E9%85%B1%E4%B8%81/49961135](https://baike.baidu.com/item/%E4%BA%94%E4%BB%81%E9%85%B1%E4%B8%81/49961135)
 - [https://health.baidu.com/m/detail/ar_6689159764392828013](https://health.baidu.com/m/detail/ar_6689159764392828013)

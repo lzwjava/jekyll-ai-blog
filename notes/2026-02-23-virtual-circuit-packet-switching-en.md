@@ -11,7 +11,7 @@ type: note
 
 Question: Packet switching can be divided into two types: datagram packet switching and ______ packet switching.
 
-Answer: 
+Answer:
 
 Packet switching is a method of grouping data into packets that are transmitted over a digital network. It is primarily categorized into two distinct approaches based on how the connection is managed:
 
@@ -20,7 +20,7 @@ Packet switching is a method of grouping data into packets that are transmitted 
 
 Therefore, the missing term is **virtual circuit**.
 
-References:  
+References:
 
 - [Virtual Circuit vs. Datagram - GeeksforGeeks](https://www.geeksforgeeks.org/virtual-circuit-vs-datagram/)
 - [Packet Switching - Wikipedia](https://en.wikipedia.org/wiki/Packet_switching)

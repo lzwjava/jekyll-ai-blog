@@ -83,6 +83,6 @@ LibreChat is an open-source AI chat platform that supports multiple AI models (e
 
 This should get you up and running quickly. If you encounter errors, share the output for more help!
 
-[LibreChat Official Docs](https://docs.librechat.ai/install/installation/docker_compose.html)  
-[Ubuntu Docker Guide](https://docs.librechat.ai/install/installation/docker_ubuntu.html)  
+[LibreChat Official Docs](https://docs.librechat.ai/install/installation/docker_compose.html)
+[Ubuntu Docker Guide](https://docs.librechat.ai/install/installation/docker_ubuntu.html)
 [It's FOSS Tutorial](https://itsfoss.com/librechat-linux/)

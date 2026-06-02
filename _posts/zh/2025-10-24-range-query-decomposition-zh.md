@@ -22,7 +22,7 @@ type: note
 #### 实现原理
 1. **分块处理**：将数组分割为大小为 \\( \sqrt{n} \\)（向下取整）的块。若 \\( n = 100 \\)，则块大小 \\( b = 10 \\)，共10个块。
    - 每个块存储预计算信息（例如针对求和查询存储块内元素总和）。
-   
+
 2. **区间查询 [L, R]**：
    - **完整块**：对完全位于 [L, R] 内的整块，直接获取预计算值，每块耗时 \\( O(1) \\)。最多涉及 \\( O(\sqrt{n}) \\) 个整块。
    - **边缘块**：对左右两侧的不完整块，手动遍历单个元素，总耗时 \\( O(\sqrt{n}) \\)（因为每个边缘块大小不超过 \\( \sqrt{n} \\)）。
@@ -53,22 +53,22 @@ class SqrtDecomp:
         self.arr = arr[:]
         self.block_sums = [0] * ((self.n + self.b - 1) // self.b)
         self._build()
-    
+
     def _build(self):
         for i in range(self.n):
             block_id = i // self.b
             self.block_sums[block_id] += self.arr[i]
-    
+
     def update(self, idx, val):
         diff = val - self.arr[idx]
         self.arr[idx] = val
         block_id = idx // self.b
         self.block_sums[block_id] += diff
-    
+
     def query(self, left, right):
         res = 0
         l_block, r_block = left // self.b, right // self.b
-        
+
         if l_block == r_block:
             for i in range(left, right + 1):
                 res += self.arr[i]

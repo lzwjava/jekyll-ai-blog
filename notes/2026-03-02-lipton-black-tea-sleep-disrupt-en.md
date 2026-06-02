@@ -11,7 +11,7 @@ type: note
 
 Question: Will drinking red tea cause sleep issues? The red tea is Lipton black tea packets bought from JD.com.
 
-Answer: 
+Answer:
 
 **Yes, drinking Lipton black tea (which is red tea / 红茶 in Chinese terminology) can potentially cause sleep issues for some people, mainly due to its caffeine content.**
 
@@ -28,7 +28,7 @@ In many contexts, especially in China, "red tea" (红茶) refers to what is know
 
 In short, moderate evening consumption of this Lipton black tea might contribute to sleep problems if you're caffeine-sensitive, but it's unlikely to cause severe issues for most people when drunk earlier in the day.
 
-References:  
+References:
 
 - [https://www.caffeineinformer.com/caffeine-content/lipton-tea](https://www.caffeineinformer.com/caffeine-content/lipton-tea)
 - [https://www.amazon.com/Lipton-Naturally-Smooth-Support-Healthy/dp/B08V34B96W](https://www.amazon.com/Lipton-Naturally-Smooth-Support-Healthy/dp/B08V34B96W)

@@ -12,7 +12,7 @@ type: note
 
 Question: Explain the post criticizing the trend of startups claiming to use Rust for backends, arguing that most web backends are IO-bound and performance issues stem from poor engineering rather than language choice.
 
-Answer: 
+Answer:
 
 The post expresses strong skepticism about the recent surge in tech companies—especially startups—claiming to build their "backend" in **Rust**. The author views this as a bandwagon/herd behavior, possibly driven by hype rather than genuine technical need.
 
@@ -81,7 +81,7 @@ For **truly IO-heavy** simple CRUD APIs with moderate load, Go, Java, C#, or eve
 
 The author's central point remains valid for the majority of cases: hype and language-switching cannot substitute for solid computer science fundamentals, good architecture, and competent profiling/fixing of actual bottlenecks.
 
-References:  
+References:
 
 - [Why Rust is Winning in Backend Systems: A Startup Must-Know](https://dockyard.com/blog/2025/03/18/why-rust-is-winning-backend-systems-startup-must-know)
 - [Why you should use Rust on the backend](https://www.shuttle.dev/blog/2024/07/31/rust-on-the-backend)

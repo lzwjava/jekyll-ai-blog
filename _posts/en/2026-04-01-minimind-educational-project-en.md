@@ -22,7 +22,7 @@ Unlike mainstream frameworks (like Hugging Face `transformers` or `peft`) that w
 * **Efficiency Techniques:** LoRA (Low-Rank Adaptation) and Mixture of Experts (MoE) implemented from the ground up.
 
 ### 2. Technical Specifications
-The models in the MiniMind series are extremely lightweight, ranging from **26M to 145M parameters** (about 1/7000th the size of GPT-3). 
+The models in the MiniMind series are extremely lightweight, ranging from **26M to 145M parameters** (about 1/7000th the size of GPT-3).
 
 | Feature | Description |
 | :--- | :--- |

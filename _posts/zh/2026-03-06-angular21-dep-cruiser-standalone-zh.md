@@ -25,7 +25,7 @@ type: note
 ### 它支持 Angular 21 + Standalone Components 吗？
 **是的——它工作得非常完美。**
 
-Angular 21（类似于 ~19 之后的版本）默认使用 **standalone: true** 并消除了大多数 NgModules。  
+Angular 21（类似于 ~19 之后的版本）默认使用 **standalone: true** 并消除了大多数 NgModules。
 Dependency-cruiser 不关心 Angular 的运行时模块系统或 `@Component({ standalone: true, imports: […] })`——它仅跟踪 TypeScript 文件中的 **static import / export graph**。
 
 因此它能正确检测：
@@ -36,7 +36,7 @@ Dependency-cruiser 不关心 Angular 的运行时模块系统或 `@Component({ s
 
 **关于 standalone components 中循环依赖的重要说明**
 
-Angular 本身有时需要在 `imports: []` 数组中使用 `forwardRef(() => OtherComponent)` 来打破循环 *runtime* 引用。  
+Angular 本身有时需要在 `imports: []` 数组中使用 `forwardRef(() => OtherComponent)` 来打破循环 *runtime* 引用。
 **Dependency-cruiser 忽略 forwardRef**——它仍会看到静态的 `import` 语句并报告循环。
 
 这在大多数团队中实际上是 **理想** 的行为：

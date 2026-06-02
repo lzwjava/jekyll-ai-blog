@@ -24,8 +24,8 @@ type: note
 
 简言之，西方怀疑论者群体庞大且常融合智识严谨与个人热忱，但马西斯更接近创造性颠覆者而非直接对应者。若需寻找兼具自然情怀的类似人物，大卫·爱登堡（兼具自然学家与科学倡导者身份）或许更贴近，尽管他更偏向传播者而非打假人角色。
 
-参考文献：  
-[迈尔斯·威廉姆斯·马西斯详传](https://mileswmathis.com/bio.html)  
-[迈尔斯·马西斯 - 理性维基](https://rationalwiki.org/wiki/Miles_Mathis)  
-《华尔街日报：揭秘不良科学家的打假团队》  
+参考文献：
+[迈尔斯·威廉姆斯·马西斯详传](https://mileswmathis.com/bio.html)
+[迈尔斯·马西斯 - 理性维基](https://rationalwiki.org/wiki/Miles_Mathis)
+《华尔街日报：揭秘不良科学家的打假团队》
 [尼采对抗阿米什——迈尔斯·马西斯](https://mileswmathis.com/tol2.html)

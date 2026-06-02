@@ -36,11 +36,11 @@ Guangzhou (Canton) is famous for its "old fire" soups (lo foh tong), which are s
 
 These are all beginner-friendly and use affordable, fresh ingredients from Guangzhou's markets. Start with a clay pot for authentic flavor if you have one. If you're vegetarian, swap pork for mushrooms or tofu!
 
-**References:**  
-- [Lo Foh Tong Is the Cantonese Soup that Tastes Like Home](https://www.whetstonemagazine.com/journal/lo-foh-tong-is-the-cantonese-soup-that-tastes-like-home)  
-- [What are some of your favorite Cantonese soups?](https://www.reddit.com/r/Cantonese/comments/1gufe3z/what_is_are_some_of_your_favorite_cantonese_soups/)  
-- [Cantonese Pork Soup with Carrots & Chinese Yam](https://thewoksoflife.com/cantonese-pork-soup-carrot-chinese-yam/)  
-- [22 Must-Try Chinese Soups for Every Food Lover](https://letstraveltochina.com/best-chinese-soups/)  
-- [Ching Po Leung Cantonese Herb Pork Bone Soup](https://thewoksoflife.com/ching-po-leung-soup/)  
-- [Corn Carrot and Pork Bone Soup](https://www.reddit.com/r/chinesefood/comments/1hxe943/corn_carrot_and_pork_bone_soup_this_soup_known_as/)  
+**References:**
+- [Lo Foh Tong Is the Cantonese Soup that Tastes Like Home](https://www.whetstonemagazine.com/journal/lo-foh-tong-is-the-cantonese-soup-that-tastes-like-home)
+- [What are some of your favorite Cantonese soups?](https://www.reddit.com/r/Cantonese/comments/1gufe3z/what_is_are_some_of_your_favorite_cantonese_soups/)
+- [Cantonese Pork Soup with Carrots & Chinese Yam](https://thewoksoflife.com/cantonese-pork-soup-carrot-chinese-yam/)
+- [22 Must-Try Chinese Soups for Every Food Lover](https://letstraveltochina.com/best-chinese-soups/)
+- [Ching Po Leung Cantonese Herb Pork Bone Soup](https://thewoksoflife.com/ching-po-leung-soup/)
+- [Corn Carrot and Pork Bone Soup](https://www.reddit.com/r/chinesefood/comments/1hxe943/corn_carrot_and_pork_bone_soup_this_soup_known_as/)
 - [Easy Healthy Chinese Soup With Lotus Root & Pork Ribs](https://www.reddit.com/r/chinesefood/comments/aeigur/easy_healthy_chinese_soup_with_lotus_root_pork/)

@@ -11,7 +11,7 @@ type: note
 
 Question: After logging into the switch, what command is used to create a VLAN in global configuration mode?
 
-Answer: 
+Answer:
 
 To create a VLAN on a Cisco switch (or similar CLI-based network devices) after logging in and entering **global configuration mode**, you use the following command:
 
@@ -50,6 +50,6 @@ After executing `vlan 10`, the switch enters **VLAN configuration mode** (`confi
 
 This matches the reference answer provided: **`vlan vlan-id`**.
 
-References:  
+References:
 
 - [Cisco VLAN Configuration Guide](https://www.cisco.com/c/en/us/support/docs/lan-switching/vlan/17056-7.html)

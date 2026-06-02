@@ -22,10 +22,10 @@ You're spot on about the buzz from founder Ethan (Yuanming) Hu's recent LinkedIn
 Meshy.ai has been on a tear, showing hyper-growth in a competitive AI landscape. Here's a quick breakdown based on public metrics:
 
 - **Revenue Surge**: 18x growth over the past 12 months (ending November 2025), with ongoing 30% month-over-month (MoM) increases. Hitting $15M ARR puts it in elite company for AI startups focused on creative tools.
-  
+
 - **User and Asset Generation**: Over 3 million creators worldwide, who've generated more than 20 million 3D assets in 2024 alone. The community is active, with features like model sharing driving viral adoption.
 
-- **Product Milestones**: 
+- **Product Milestones**:
   - Meshy-4 launch in September 2024, which VentureBeat called "sci-fi level" for its multimodal AI advancements.
   - New fellowship program in late 2024, distributing $60K in grants to 20+ researchers in 3D AI and graphics (winners get $10K prizes plus premium subscriptions).
   - Partnerships ramping up: Integrated with Gaxos.ai for game devs (July 2024) and featured as the *only* 3D AI tool in a16z's 2024 AI Tools Survey.

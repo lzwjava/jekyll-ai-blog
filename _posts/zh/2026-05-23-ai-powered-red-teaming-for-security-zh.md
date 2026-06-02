@@ -116,7 +116,7 @@ def dispatch_tool(name, inputs):
         cmd = f"nuclei -u {inputs['target']} -t {inputs['templates']}"
     else:
         return "unknown tool"
-    
+
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=60)
     return result.stdout + result.stderr
 
@@ -136,7 +136,7 @@ def run_red_team_agent(target: str):
 请有条理地进行。根据你的发现迭代使用工具。"""
         }
     ]
-    
+
     while True:
         response = client.messages.create(
             model="claude-sonnet-4-20250514",
@@ -144,10 +144,10 @@ def run_red_team_agent(target: str):
             tools=TOOLS,
             messages=messages
         )
-        
+
         # 追加助手轮次
         messages.append({"role": "assistant", "content": response.content})
-        
+
         if response.stop_reason == "end_turn":
             # 提取最终报告
             for block in response.content:
@@ -155,7 +155,7 @@ def run_red_team_agent(target: str):
                     print("\n=== 最终报告 ===")
                     print(block.text)
             break
-        
+
         if response.stop_reason == "tool_use":
             tool_results = []
             for block in response.content:
@@ -168,7 +168,7 @@ def run_red_team_agent(target: str):
                         "tool_use_id": block.id,
                         "content": output
                     })
-            
+
             messages.append({"role": "user", "content": tool_results})
 
 # 使用方式——仅在你拥有或获得书面许可的系统上测试

@@ -37,7 +37,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    - Topics: what domains they tag themselves in
    - pushed_at: are they still active? or dormant since 2020?
    - Forks vs originals: contributor or creator?
-   
+
    Patterns to look for:
    - Dotfiles/config repos = tooling nerd
    - Many tutorial/cheatsheet repos = learner/teacher
@@ -52,7 +52,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    - What ecosystem they're investing in
    - Their taste in tools and frameworks
    - Emerging interests (recently starred)
-   
+
    Often more honest than repos -- repos show what they
    finished, stars show what they care about.
 
@@ -64,7 +64,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    - Push events: which repos are actively developed
    - Issue/PR activity: do they collaborate or solo?
    - Watch events: what communities they follow
-   
+
 5. ORGS API  --  /users/{name}/orgs
    curl -s 'https://api.github.com/users/{name}/orgs'
 
@@ -79,7 +79,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    Who they follow = who they learn from.
 
 7. PERSONAL SITE  --  {blog} from profile
-   
+
    If they have blog/notes (like .github.io):
    - Writing reveals depth of thinking
    - Topics reveal what they care enough to write about
@@ -87,7 +87,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    - Post frequency reveals consistency
 
 8. LANGUAGE DISTRIBUTION
-   
+
    Don't just count repos -- count RECENT repos.
    A dev with 20 Java repos but last 3 in Rust is
    a Rust developer now, not a Java one.
@@ -95,7 +95,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    Language timeline = career trajectory visible in data.
 
 9. REPO NAMING & DESCRIPTIONS
-   
+
    - Professional descriptions = corporate background
    - Emoji/quirky descriptions = startup/open-source culture
    - Chinese descriptions = likely China-based, bilingual
@@ -103,7 +103,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
    - No description = just ships, doesn't market
 
 10. CONTRIBUTION GRAPH (not in API, but visible)
-    
+
     github.com/{name} shows green squares:
     - Consistent = disciplined, daily coder
     - Bursty = project-driven, deadline-driven
@@ -135,7 +135,7 @@ Great question. Here's a systematic framework for profiling an engineer through 
   3. Topic overlap --> shared domains
   4. Common orgs --> same communities
   5. Common followers --> professional circle overlap
-  
+
   Star overlap is the most honest signal because:
   - People star what genuinely interests them
   - No social pressure (stars are private-ish)

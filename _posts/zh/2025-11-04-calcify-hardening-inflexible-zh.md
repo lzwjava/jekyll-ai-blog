@@ -17,6 +17,6 @@ type: note
 - **地质层面**：某些岩石通过碳酸钙的沉积作用发生钙化
 - **比喻用法**：长期持有的信念可能固化为僵化观点
 
-[韦氏词典定义](https://www.merriam-webster.com/dictionary/calcify)  
-[剑桥英语词典](https://dictionary.cambridge.org/us/dictionary/english/calcify)  
+[韦氏词典定义](https://www.merriam-webster.com/dictionary/calcify)
+[剑桥英语词典](https://dictionary.cambridge.org/us/dictionary/english/calcify)
 [Dictionary.com](https://www.dictionary.com/browse/calcify)

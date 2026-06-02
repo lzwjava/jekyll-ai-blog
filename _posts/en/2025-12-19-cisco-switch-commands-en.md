@@ -12,7 +12,7 @@ type: note
 
 Question: What are common commands in switches in networking?
 
-Answer: 
+Answer:
 
 In networking, **switches** are primarily Layer 2 devices that forward frames based on MAC addresses. The most common commands refer to the Command Line Interface (CLI) on managed switches, with **Cisco IOS** being the dominant platform due to its widespread use in enterprise networks. Many other vendors (e.g., Aruba, some Dell models) offer "Cisco-like" CLIs for compatibility, but syntax varies significantly on platforms like Juniper Junos or HP Comware.
 
@@ -74,7 +74,7 @@ Below is a categorized list of **common Cisco switch commands**, including their
 
 These commands form the foundation for most switch management tasks. For non-Cisco switches, concepts like VLANs and port modes are similar, but syntax differs (e.g., Juniper uses "set" commands in a hierarchical structure).
 
-References:  
+References:
 
 - [https://www.comparitech.com/net-admin/cisco-cli-switch-command-cheat-sheet/](https://www.comparitech.com/net-admin/cisco-cli-switch-command-cheat-sheet/)
 - [https://netwrix.com/en/resources/guides/cisco-commands-cheat-sheet-for-device-configuration/](https://netwrix.com/en/resources/guides/cisco-commands-cheat-sheet-for-device-configuration/)

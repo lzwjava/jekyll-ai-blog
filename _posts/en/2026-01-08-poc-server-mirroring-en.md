@@ -12,7 +12,7 @@ type: note
 
 Question: Due to restrictions in banking environments, many software libraries cannot be installed on private or cloud servers. For technical points, is it better to perform tech POCs in the server environment as well, beyond just local testing? For example, Python/Java API tests are easy because of their libraries, while Selenium needs specific drivers, etc. Is that correct?
 
-Answer: 
+Answer:
 
 Yes, you are absolutely correct.
 

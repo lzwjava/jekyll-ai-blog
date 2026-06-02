@@ -12,7 +12,7 @@ type: note
 
 Question: 既然 AI 在解决 Codeforces 问题方面已经如此先进，那么比赛还有意义吗？人们可以轻松作弊并完成 3 到 4 道题，对吧？
 
-Answer: 
+Answer:
 
 **是的，比赛仍然有意义——但 2025-2026 年的情况已经发生了显著变化。**
 
@@ -44,12 +44,12 @@ AI（特别是像 OpenAI 的 o3 / o4 系列模型）在 competitive programming 
 
 而不是纯粹的 rating 追逐。
 
-**底线**：如果你的目标是诚实的自我提升、智力挑战和享受过程 → 比赛仍然非常有意义。  
+**底线**：如果你的目标是诚实的自我提升、智力挑战和享受过程 → 比赛仍然非常有意义。
 如果你的唯一目标是高 rating / 顶尖排名 → 是的，由于普遍的作弊现象和 AI 的能力，现在这变得更加困难和令人沮丧。
 
 社区中的大多数人之所以继续参与，是因为他们热爱这个过程，而不仅仅是为了那个数字。
 
-References:  
+References:
 
 - [Codeforces blog on AI cheating and top rank rollbacks (2026)](https://codeforces.com/blog/entry/149941)
 - [OpenAI o3 model Codeforces performance discussion](https://codeforces.com/blog/entry/134002)

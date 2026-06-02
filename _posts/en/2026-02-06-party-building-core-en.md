@@ -23,7 +23,7 @@ The key phrase is "贯穿...各项建设之中" (runs through all aspects of con
 According to the material (p.197), comprehensive strict Party governance includes:
 
 1. **Ideological building** (思想建设)
-2. **Organizational building** (组织建设)  
+2. **Organizational building** (组织建设)
 3. **Work style building** (作风建设)
 4. **Institutional building runs through all the above** (制度建设贯穿党的各项建设之中)
 5. **Anti-corruption struggle**

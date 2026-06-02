@@ -14,16 +14,16 @@ type: note
 
 This appears to be a follow-up post or comment, starting with "no," (possibly rejecting a prior counterargument), and building on the previous conspiracy claim. It targets photography enthusiasts, proposing a "simple experiment" to "prove" space photos are faked. Here's a direct English translation:
 
-> No,  
-> 
-> I want to add something that photography enthusiasts can understand, hoping to draw the attention of people who've learned a bit of photography knowledge.  
-> 
-> Regarding the lack of stars in space photos, many official explanations say "the sun is too bright, so stars can't be captured." But if you truly understand camera principles, you'll realize that bright light in the scene only triggers automatic exposure adjustment (if using "auto mode"). Ultimately, it's the camera's exposure that determines the photo, not the presence of nearby bright objects.  
-> 
-> So my experiment uses manual exposure adjustment, completely avoiding interference from the "external light source" condition. This experiment reveals the fact: If exposure is set low enough to exclude stars, it also fails to capture dark-part details on other objects. This is because stars are brighter than the dark areas of ordinary objects.  
-> 
-> With such low exposure, the result is basically black paper—not a usable photo. This doesn't match "space photos," which show dark-part details and object depth/3D sense, yet the black sky has zero stars. This is a contradiction, violating camera exposure rules.  
-> 
+> No,
+>
+> I want to add something that photography enthusiasts can understand, hoping to draw the attention of people who've learned a bit of photography knowledge.
+>
+> Regarding the lack of stars in space photos, many official explanations say "the sun is too bright, so stars can't be captured." But if you truly understand camera principles, you'll realize that bright light in the scene only triggers automatic exposure adjustment (if using "auto mode"). Ultimately, it's the camera's exposure that determines the photo, not the presence of nearby bright objects.
+>
+> So my experiment uses manual exposure adjustment, completely avoiding interference from the "external light source" condition. This experiment reveals the fact: If exposure is set low enough to exclude stars, it also fails to capture dark-part details on other objects. This is because stars are brighter than the dark areas of ordinary objects.
+>
+> With such low exposure, the result is basically black paper—not a usable photo. This doesn't match "space photos," which show dark-part details and object depth/3D sense, yet the black sky has zero stars. This is a contradiction, violating camera exposure rules.
+>
 > This experiment is so simple—anyone can do it—and it uncovers the world's biggest secret. I hope everyone takes it seriously; I think it rivals Galileo's Leaning Tower of Pisa experiment in importance, equivalent to Copernicus overthrowing the geocentric model. It threatens the existence of the Matrix religious theocracy.
 
 The author claims a hands-on test (manually underexposing to hide stars) proves space images impossible: visible shadows/details should force stars to appear, but they don't in official photos. They frame this as a paradigm-shifting revelation akin to historical scientific revolutions, implying a vast cover-up (e.g., "Matrix" as a metaphor for simulated reality or elite control).
@@ -37,7 +37,7 @@ This argument misunderstands key concepts in photography, especially **dynamic r
      - Bright areas (sunlit Earth/ISS) can be 10,000–1,000,000 times brighter than stars.
      - To avoid overexposing the bright parts (turning them white blobs), you set a short exposure. This works for the foreground but starves the faint sky.
    - The claim "bright objects don't affect exposure" is half-right for *manual mode*—you control it—but ignores that manual settings are *chosen* based on the scene's brightest elements to prevent blowout. Auto mode meters off the dominant light (e.g., the Sun/Earth), but pros (like NASA photographers) use manual or histograms for precision.
-   - Crucially: **Stars aren't "brighter than shadows."** 
+   - Crucially: **Stars aren't "brighter than shadows."**
      - A star's light is concentrated in a tiny **point source** (one pixel or less), making it faint overall (e.g., magnitude 1–6 stars deliver ~10^-6 lux to the sensor).
      - Shadows on a sunlit object (e.g., ISS struts) are **extended sources**—diffuse reflected sunlight over many pixels (e.g., 0.01–1 lux). Even dim shadows outshine stars *per area* because they're closer and larger.
      - Result: Exposure for shadows captures their bulk light, but stars remain too dim for that setting.

@@ -11,7 +11,7 @@ type: note
 
 Question: What is a comprehensive introduction to Allan Jude?
 
-Answer: 
+Answer:
 
 **Allan Jude** is a prominent **FreeBSD** developer, **OpenZFS** expert, entrepreneur, educator, and community leader in the BSD ecosystem. Based in Hamilton, Ontario, Canada, he has been a key figure in advancing FreeBSD and ZFS technologies for many years.
 
@@ -38,7 +38,7 @@ As of early 2026, Allan continues to be active as a FreeBSD and OpenZFS develope
 
 Allan Jude is respected for his deep technical knowledge, practical approach to complex storage and OS challenges, and dedication to the open-source BSD community. He bridges the gap between advanced development, real-world deployment, and accessible education, making him one of the most influential voices in modern FreeBSD and ZFS usage.
 
-References:  
+References:
 
 - [Allan Jude personal site](http://www.allanjude.com/)
 - [LinkedIn profile](https://ca.linkedin.com/in/allanjude)

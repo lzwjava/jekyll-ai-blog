@@ -37,7 +37,7 @@ Run once:
 codex
 ```
 
-→ Browser opens → sign in with ChatGPT account (Plus/Pro/... includes access)  
+→ Browser opens → sign in with ChatGPT account (Plus/Pro/... includes access)
 or choose "Use API key" and paste your OpenAI API key from https://platform.openai.com/api-keys
 
 **Option B – Headless / script-friendly (env variable)**

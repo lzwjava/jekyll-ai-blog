@@ -17,7 +17,7 @@ type: note
 `cups.service/stop` refers to **stopping the CUPS printing service** on Ubuntu using systemd (the most common way to control services).
 
 ### What is CUPS?
-CUPS stands for **Common UNIX Printing System**. It is the standard printing system on Ubuntu (and most Linux distributions, as well as macOS).  
+CUPS stands for **Common UNIX Printing System**. It is the standard printing system on Ubuntu (and most Linux distributions, as well as macOS).
 It handles:
 - Managing local and network printers
 - Processing print jobs
@@ -57,7 +57,7 @@ sudo systemctl stop cups.service
 | Check status                  | `sudo systemctl status cups`                 | Shows running/stopped + recent logs |
 | Stop + disable (no auto-start)| `sudo systemctl stop cups`<br>`sudo systemctl disable cups` | Common on servers |
 
-**Note about modern Ubuntu versions (22.04+ / 24.04+):**  
+**Note about modern Ubuntu versions (22.04+ / 24.04+):**
 Sometimes CUPS is delivered as a **snap** package (especially `cups` and `cups-browsed`). In that case `systemctl` may not work and you need:
 
 ```bash
@@ -73,7 +73,7 @@ systemctl status cups.service
 snap list | grep cups
 ```
 
-**References:**  
+**References:**
 
 - [Ubuntu Server Documentation - CUPS](https://documentation.ubuntu.com/server/how-to/networking/cups-print-server)
 - [Ask Ubuntu - How to stop and disable CUPS](https://askubuntu.com/questions/1463463/how-to-stop-and-disable-cups-service-in-ubuntu-22-04)

@@ -11,7 +11,7 @@ type: note
 
 Question: What are the big updates in macOS 26.4.1 and in recent releases over the past half a year?
 
-Answer: 
+Answer:
 
 macOS 26 Tahoe is the current major version of macOS (the successor to macOS 15 Sequoia). It was first released on September 15, 2025, and uses year-based versioning starting from 26. The latest point release as of April 2026 is **macOS 26.4.1** (released April 9, 2026), which primarily includes unspecified bug fixes and security improvements with no major new features highlighted in Apple's release notes.
 
@@ -37,9 +37,9 @@ Overall, the past half-year has emphasized polishing the Liquid Glass design sys
 
 macOS 26 remains the actively supported version, with older releases like Sequoia (15.x) still receiving security patches but no major new features.
 
-References:  
-- https://www.macworld.com/article/672681/list-of-all-macos-versions-including-the-latest-macos.html  
-- https://en.wikipedia.org/wiki/MacOS_version_history  
-- https://appleinsider.com/articles/26/04/09/apple-has-released-macos-2641-with-unspecified-bug-fixes  
-- https://9to5mac.com/2026/04/09/apple-releases-macos-26-4-1-software-update-details-here/  
+References:
+- https://www.macworld.com/article/672681/list-of-all-macos-versions-including-the-latest-macos.html
+- https://en.wikipedia.org/wiki/MacOS_version_history
+- https://appleinsider.com/articles/26/04/09/apple-has-released-macos-2641-with-unspecified-bug-fixes
+- https://9to5mac.com/2026/04/09/apple-releases-macos-26-4-1-software-update-details-here/
 - https://support.apple.com/en-us/100100 (Apple security updates)

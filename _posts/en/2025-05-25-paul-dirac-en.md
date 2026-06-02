@@ -52,28 +52,28 @@ Paul Dirac’s contributions to physics combine mathematical brilliance with pro
 
 Paul Dirac was primarily a theoretical physicist, not a prolific author of popular science books, so his written works are mostly technical and aimed at physicists or advanced students. Below is a list of his most significant books, with brief descriptions to help you choose based on your interests and background. I’ve focused on works directly authored or closely associated with Dirac, emphasizing their importance and accessibility.
 
-1. **The Principles of Quantum Mechanics (1930, revised editions 1935, 1947, 1958)**  
-   - **Description**: This is Dirac’s magnum opus, a foundational text that formalized the mathematical structure of quantum mechanics. It introduced key concepts like bra-ket notation, the Dirac delta function, and a general framework for quantum theory. The book is rigorous, blending mathematical elegance with physical insight, and is considered a classic in theoretical physics.  
-   - **Why Read It?**: Essential for understanding Dirac’s approach to quantum mechanics and his philosophy of mathematical beauty. It’s a must for serious students of physics or those interested in the historical development of quantum theory.  
-   - **Accessibility**: Highly technical, best suited for readers with a strong background in physics and mathematics (e.g., linear algebra, quantum theory). Later editions are slightly more accessible due to refinements.  
+1. **The Principles of Quantum Mechanics (1930, revised editions 1935, 1947, 1958)**
+   - **Description**: This is Dirac’s magnum opus, a foundational text that formalized the mathematical structure of quantum mechanics. It introduced key concepts like bra-ket notation, the Dirac delta function, and a general framework for quantum theory. The book is rigorous, blending mathematical elegance with physical insight, and is considered a classic in theoretical physics.
+   - **Why Read It?**: Essential for understanding Dirac’s approach to quantum mechanics and his philosophy of mathematical beauty. It’s a must for serious students of physics or those interested in the historical development of quantum theory.
+   - **Accessibility**: Highly technical, best suited for readers with a strong background in physics and mathematics (e.g., linear algebra, quantum theory). Later editions are slightly more accessible due to refinements.
    - **Where to Find**: Available in academic libraries, online bookstores, or digital formats (e.g., Oxford University Press reprints).
 
-2. **Lectures on Quantum Mechanics (1964)**  
-   - **Description**: This slim volume compiles four lectures Dirac delivered at Yeshiva University in 1964, focusing on the mathematical foundations of quantum mechanics, including the Hamiltonian formulation and constraints in quantum systems. It’s a concise distillation of his later thoughts on the subject.  
-   - **Why Read It?**: Offers a more focused and slightly less dense introduction to Dirac’s ideas than *The Principles*. Ideal for those interested in his later perspectives on quantum mechanics and field theory.  
-   - **Accessibility**: Still technical, requiring familiarity with quantum mechanics and mathematical physics, but more approachable than his main text for advanced students.  
+2. **Lectures on Quantum Mechanics (1964)**
+   - **Description**: This slim volume compiles four lectures Dirac delivered at Yeshiva University in 1964, focusing on the mathematical foundations of quantum mechanics, including the Hamiltonian formulation and constraints in quantum systems. It’s a concise distillation of his later thoughts on the subject.
+   - **Why Read It?**: Offers a more focused and slightly less dense introduction to Dirac’s ideas than *The Principles*. Ideal for those interested in his later perspectives on quantum mechanics and field theory.
+   - **Accessibility**: Still technical, requiring familiarity with quantum mechanics and mathematical physics, but more approachable than his main text for advanced students.
    - **Where to Find**: Available through Dover Publications (affordable paperback) or academic libraries.
 
-3. **General Theory of Relativity (1975)**  
-   - **Description**: A short book based on Dirac’s lectures on Einstein’s general relativity, covering the mathematical framework of gravitational theory. It reflects his interest in applying his rigorous approach to cosmology and relativity later in his career.  
-   - **Why Read It?**: A compact introduction to general relativity from Dirac’s unique perspective, emphasizing mathematical clarity. Suitable for those curious about his contributions beyond quantum mechanics.  
-   - **Accessibility**: Requires knowledge of tensor calculus and basic relativity. Less comprehensive than modern relativity texts but valuable for its concise elegance.  
+3. **General Theory of Relativity (1975)**
+   - **Description**: A short book based on Dirac’s lectures on Einstein’s general relativity, covering the mathematical framework of gravitational theory. It reflects his interest in applying his rigorous approach to cosmology and relativity later in his career.
+   - **Why Read It?**: A compact introduction to general relativity from Dirac’s unique perspective, emphasizing mathematical clarity. Suitable for those curious about his contributions beyond quantum mechanics.
+   - **Accessibility**: Requires knowledge of tensor calculus and basic relativity. Less comprehensive than modern relativity texts but valuable for its concise elegance.
    - **Where to Find**: Published by Princeton University Press, available in print or digital formats.
 
-4. **Directions in Physics (1978)**  
-   - **Description**: A collection of lectures Dirac gave in Australia, covering topics like quantum mechanics, cosmology, and his speculative ideas on large numbers hypothesis and the future of theoretical physics. It’s less formal than his other works, offering insights into his broader scientific philosophy.  
-   - **Why Read It?**: Provides a glimpse into Dirac’s later thoughts and his reflections on the state of physics. Less technical, making it more accessible to non-specialists interested in his worldview.  
-   - **Accessibility**: Suitable for readers with some physics background (undergraduate level) but less demanding than his primary texts.  
+4. **Directions in Physics (1978)**
+   - **Description**: A collection of lectures Dirac gave in Australia, covering topics like quantum mechanics, cosmology, and his speculative ideas on large numbers hypothesis and the future of theoretical physics. It’s less formal than his other works, offering insights into his broader scientific philosophy.
+   - **Why Read It?**: Provides a glimpse into Dirac’s later thoughts and his reflections on the state of physics. Less technical, making it more accessible to non-specialists interested in his worldview.
+   - **Accessibility**: Suitable for readers with some physics background (undergraduate level) but less demanding than his primary texts.
    - **Where to Find**: Out of print but available through used bookstores or academic libraries.
 
 ### Notes and Recommendations

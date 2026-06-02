@@ -34,7 +34,7 @@ According to Adler, everyone feels some inferiority early on (it's universal, li
 
 If you're diving into the book, it flips envy from a dead-end emotion into a call to grow. Ever notice how the most secure people seem envy-proof? That's Adler's point: transcendence isn't suppressing feelings; it's channeling them productively.
 
-[Why Are People Jealous? Exploring Reasons For Envy](https://www.betterhelp.com/advice/general/why-are-people-jealous-of-others/)  
-[The Psychology and Philosophy of Envy](https://www.psychologytoday.com/us/blog/hide-and-seek/201408/the-psychology-and-philosophy-of-envy)  
-[Inferiority Complex: Definition, Examples, & Psychology](https://www.berkeleywellbeing.com/inferiority-complex.html)  
+[Why Are People Jealous? Exploring Reasons For Envy](https://www.betterhelp.com/advice/general/why-are-people-jealous-of-others/)
+[The Psychology and Philosophy of Envy](https://www.psychologytoday.com/us/blog/hide-and-seek/201408/the-psychology-and-philosophy-of-envy)
+[Inferiority Complex: Definition, Examples, & Psychology](https://www.berkeleywellbeing.com/inferiority-complex.html)
 [The Evolutionary Psychology of Envy and Jealousy](https://pmc.ncbi.nlm.nih.gov/articles/PMC5609545/)

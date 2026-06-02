@@ -59,7 +59,7 @@ Answer:
 
 总之，这份2013年的《决定》被认为是迄今为止21世纪中国现代化改革最全面、系统、且具有雄心的顶层设计文件。
 
-References:  
+References:
 
-- [http://www.gov.cn/jrzg/2013-11/15/content_2528179.htm](Official Chinese full text - Xinhua)  
+- [http://www.gov.cn/jrzg/2013-11/15/content_2528179.htm](Official Chinese full text - Xinhua)
 - [https://www.chinafile.com/document-9-chinafile-translation](ChinaFile English translation of selected key parts)

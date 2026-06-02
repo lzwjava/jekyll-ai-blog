@@ -12,7 +12,7 @@ type: note
 
 Question: 关门睡觉且没有空气流通是否会影响睡眠质量，例如因吸入氧气水平降低而产生影响？
 
-Answer: 
+Answer:
 
 在一个门窗紧闭且空气流通较差的房间里睡觉确实会由于 Carbon Dioxide (CO2) 的堆积（而非由于氧气水平显著下降）而对睡眠质量产生负面影响。
 
@@ -40,10 +40,10 @@ Answer:
 
 总而言之，虽然氧气保持充足，但缺乏流通导致的 CO2 升高会显著损害恢复性睡眠。
 
-References:  
+References:
 
-- [Ventilation causing an average CO2 concentration of 1,000 ppm negatively affects sleep: A field-lab study](https://www.sciencedirect.com/science/article/pii/S0360132323011459)  
-- [The effects of bedroom air quality on sleep and next-day performance](https://pubmed.ncbi.nlm.nih.gov/26452168/)  
-- [The Influence of Bedroom CO2 Concentration on Sleep Quality](https://www.mdpi.com/2075-5309/13/11/2768)  
-- [Does Carbon Dioxide (CO2) Affect My Sleep?](https://learn.kaiterra.com/en/air-academy/can-carbon-dioxide-affect-my-sleep)  
+- [Ventilation causing an average CO2 concentration of 1,000 ppm negatively affects sleep: A field-lab study](https://www.sciencedirect.com/science/article/pii/S0360132323011459)
+- [The effects of bedroom air quality on sleep and next-day performance](https://pubmed.ncbi.nlm.nih.gov/26452168/)
+- [The Influence of Bedroom CO2 Concentration on Sleep Quality](https://www.mdpi.com/2075-5309/13/11/2768)
+- [Does Carbon Dioxide (CO2) Affect My Sleep?](https://learn.kaiterra.com/en/air-academy/can-carbon-dioxide-affect-my-sleep)
 - [Does Closing the Room Door Starve Us of Oxygen?](https://smartairfilters.com/en/blog/does-closing-the-windows-starve-us-of-oxygen/)

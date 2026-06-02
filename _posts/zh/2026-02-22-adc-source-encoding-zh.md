@@ -11,7 +11,7 @@ type: note
 
 问题：A/D conversion 涉及 sampling、quantization 和 encoding；这是在哪个阶段进行的？
 
-答案： 
+答案：
 
 Analog-to-Digital (A/D) conversion 过程，包括 **sampling**、**quantization** 和 **encoding**，是在数字通信系统中的 **Source Encoding**（或 **信源编码**）阶段进行的。
 
@@ -27,7 +27,7 @@ Analog-to-Digital (A/D) conversion 过程，包括 **sampling**、**quantization
 
 因此，由于 A/D conversion 将原始 analog 源信息转换为数字格式，它完全属于 **Source Encoding** 的范畴。
 
-参考文献：  
+参考文献：
 
 - [Analog-to-Digital Conversion - Wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
 - [Source Coding - Britannica](https://www.britannica.com/technology/source-coding)

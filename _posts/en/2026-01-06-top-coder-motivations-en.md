@@ -12,7 +12,7 @@ type: note
 
 Question: What motivates Codeforces grandmasters or high-profile competitive programmers?
 
-Answer: 
+Answer:
 
 Codeforces grandmasters (rated 2400+) and high-profile competitive programmers are driven by a mix of intrinsic and extrinsic factors. The primary motivation for many is **pure enjoyment of problem-solving**—treating competitive programming (CP) as a fun hobby, puzzle, or mental sport rather than a chore.
 
@@ -31,11 +31,11 @@ Codeforces grandmasters (rated 2400+) and high-profile competitive programmers a
 
 High-profile programmers often stress enjoying the journey over fixating on results, as extrinsic rewards (like rating) provide only temporary happiness. Consistent practice stems from loving the activity itself.
 
-References:  
+References:
 
-- [https://codeforces.com/blog/entry/138488](https://codeforces.com/blog/entry/138488)  
-- [https://codeforces.com/blog/entry/111521](https://codeforces.com/blog/entry/111521)  
-- [https://codeforces.com/blog/entry/68288](https://codeforces.com/blog/entry/68288)  
-- [https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st](https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st)  
-- [https://en.wikipedia.org/wiki/Gennady_Korotkevich](https://en.wikipedia.org/wiki/Gennady_Korotkevich)  
+- [https://codeforces.com/blog/entry/138488](https://codeforces.com/blog/entry/138488)
+- [https://codeforces.com/blog/entry/111521](https://codeforces.com/blog/entry/111521)
+- [https://codeforces.com/blog/entry/68288](https://codeforces.com/blog/entry/68288)
+- [https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st](https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st)
+- [https://en.wikipedia.org/wiki/Gennady_Korotkevich](https://en.wikipedia.org/wiki/Gennady_Korotkevich)
 - [https://www.geeksforgeeks.org/blogs/why-should-you-do-competitive-programming/](https://www.geeksforgeeks.org/blogs/why-should-you-do-competitive-programming/)

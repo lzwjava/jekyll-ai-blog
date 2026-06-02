@@ -15,7 +15,7 @@ type: note
 NVIDIA is wrapping up its GTC Washington D.C. conference (October 27–29), with several major reveals today focused on AI infrastructure, telecom advancements, and next-gen hardware. Here's a breakdown of the key ones:
 
 #### Building America's AI Infrastructure
-NVIDIA announced collaborations with the U.S. Department of Energy's national labs (Argonne and Los Alamos) and leading companies to deploy massive AI supercomputers and create a blueprint for gigawatt-scale "AI factories." 
+NVIDIA announced collaborations with the U.S. Department of Energy's national labs (Argonne and Los Alamos) and leading companies to deploy massive AI supercomputers and create a blueprint for gigawatt-scale "AI factories."
 - **Key systems**: Solstice (100,000 NVIDIA Blackwell GPUs, DOE's largest AI supercomputer, built with Oracle) and Equinox (10,000 Blackwell GPUs, operational in 2026) at Argonne, delivering up to 2,200 exaflops. Additional systems like Tara, Minerva, Janus at Argonne, and Mission/Vision at LANL using the upcoming Vera Rubin platform.
 - **Partners**: Includes Oracle for Solstice, HPE for hardware, Bechtel/Jacobs for digital twins, and power/cooling firms like Eaton, GE Vernova, and Tesla. Cloud providers such as Google Cloud, Microsoft Azure, and xAI are scaling AI factories with Blackwell and GB300 racks.
 - **Goal**: Accelerate scientific discovery, economic growth, and the "next industrial revolution" through American-led AI innovation. NVIDIA is launching an AI Factory Research Center in Virginia powered by Vera Rubin.
@@ -41,7 +41,7 @@ This powers the AI factories and supercomputers mentioned above, with 2–12x pe
 
 Other notes: Yesterday's Palantir integration (CUDA-X and Nemotron into AIP for enterprise AI) ties into today's infrastructure push, and NVIDIA contributed to open robotics frameworks at ROSCon (ending today).
 
-[ NVIDIA and Partners Build America’s AI Infrastructure](https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america)  
-[ NVIDIA and Nokia to Pioneer the AI Platform for 6G](https://nvidianews.nvidia.com/news/nvidia-nokia-ai-telecommunications)  
-[ NVIDIA Shows Next-Gen Vera Rubin Superchip](https://wccftech.com/nvidia-shows-next-gen-vera-rubin-superchip-two-massive-gpus-production-next-year/)  
+[ NVIDIA and Partners Build America’s AI Infrastructure](https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america)
+[ NVIDIA and Nokia to Pioneer the AI Platform for 6G](https://nvidianews.nvidia.com/news/nvidia-nokia-ai-telecommunications)
+[ NVIDIA Shows Next-Gen Vera Rubin Superchip](https://wccftech.com/nvidia-shows-next-gen-vera-rubin-superchip-two-massive-gpus-production-next-year/)
 [ GTC Washington D.C. Event Page](https://www.nvidia.com/gtc/dc/)

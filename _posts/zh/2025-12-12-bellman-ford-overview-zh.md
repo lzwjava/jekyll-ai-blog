@@ -48,17 +48,17 @@ Bellman-Ford 算法是一种单源最短路径算法，用于计算加权图中�
 def bellman_ford(graph, source):
     dist = {vertex: float('inf') for vertex in graph.vertices}
     dist[source] = 0
-    
+
     for _ in range(len(graph.vertices) - 1):
         for u, v, w in graph.edges:  # 每条边 (u → v) 权重为 w
             if dist[u] != float('inf') and dist[v] > dist[u] + w:
                 dist[v] = dist[u] + w
-    
+
     # 检查负环
     for u, v, w in graph.edges:
         if dist[u] != float('inf') and dist[v] > dist[u] + w:
             raise ValueError("Graph contains a negative-weight cycle")
-    
+
     return dist
 ```
 

@@ -28,7 +28,7 @@ This has been the standard option for many years for Microsoft role-based certif
 
 So Azure does have "onsite cert" options — there is no fundamental difference in exam delivery availability compared to GCP's Professional Cloud Developer exam.
 
-**References:**  
+**References:**
 
 - [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer)
 - [Microsoft certification testing with Pearson VUE](https://www.pearsonvue.com/us/en/microsoft.html)

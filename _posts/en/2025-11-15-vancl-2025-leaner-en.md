@@ -31,7 +31,7 @@ As of late 2025, VANCL is operational and stable but operates on a smaller scale
 
 ### Recent Developments and Challenges
 - **Recovery from Past Struggles**: VANCL faced near-collapse in 2011-2012 due to over-expansion, inventory buildup (~RMB 1 billion in unsold stock), and losses exceeding RMB 600 million. Its planned $1 billion U.S. IPO was canceled amid market skepticism. By 2023, it had restructured, clearing RMB 1.9 billion in debts and achieving profitability. In 2024-2025, CEO Chen Nian highlighted a "renaissance" with inventory optimization and diversified verticals (e.g., solar, nuclear, roads).
-- **2025 Highlights**: 
+- **2025 Highlights**:
   - Exploring new categories like women's hygiene products for a "medically reliable" launch.
   - Emphasis on digital marketing, including Weibo campaigns (historically 2nd most retweeted brand on Sina Weibo).
   - No major pivots reported, but steady integration with China's e-commerce ecosystem (e.g., enhanced mobile/app features).

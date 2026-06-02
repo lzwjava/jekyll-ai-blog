@@ -12,7 +12,7 @@ type: note
 
 Question: Can you provide some examples of open-source GitHub projects that use Trunk-Based Development for learning purposes?
 
-Answer: 
+Answer:
 
 Trunk-Based Development (TBD) emphasizes short-lived branches (or none at all) and frequent integration into a single main branch (the "trunk") to enable fast feedback, reduce merge conflicts, and support continuous delivery. While many large-scale open-source projects approximate TBD through high-velocity contributions, direct commits, and CI/CD pipelines, pure examples are rarer in OSS due to the distributed nature of contributors. Below are curated GitHub projects that either explicitly adopt TBD, demonstrate it effectively, or serve as learning resources (e.g., via documentation or structure). I've focused on active repos with clear workflows you can study through their commit history, PR patterns, and configs.
 
@@ -43,7 +43,7 @@ Trunk-Based Development (TBD) emphasizes short-lived branches (or none at all) a
 
 To dive deeper, clone these repos and run `git log --graph --oneline main` to visualize the trunk's linear history (minimal branching). Pair with tools like GitHub Actions for CI on main. For broader inspiration, check trunkbaseddevelopment.com, which references scaled OSS-like setups at Google/Facebook. Start with Flipt if you're into Go/infra—it's the most production-ready example.
 
-References:  
+References:
 
 - [Trunk Based Development](https://trunkbaseddevelopment.com/)
 - [GitHub Topics: trunk-based-development](https://github.com/topics/trunk-based-development)

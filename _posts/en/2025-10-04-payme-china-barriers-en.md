@@ -39,9 +39,9 @@ PayMe, HSBC's mobile payment app launched in 2017, is indeed heavily marketed in
 
 In short, these barriers aren't unique to PayMe; they're why many HK brands (e.g., in retail or food) fade across the border despite geographic proximity. It's less about quality and more about ecosystems that don't overlap. If you're working on PayMe-related projects, focusing on Bay Area pilots could be a smart entry point.
 
-**References**  
-- [HSBC's PayMe goes global with UnionPay](https://www.scmp.com/business/article/3273539/hsbcs-payme-goes-global-access-34-million-merchants-46-markets-unionpay)  
-- [FinTech and the Greater Bay Area: Breaking down the barriers (PwC Report)](https://www.pwccn.com/en/research-and-insights/Fintech/fintech-greater-bay-area-breaking-down-barriers.pdf)  
-- [Contrasting consumer habits: Hong Kong vs Mainland China](https://daxueconsulting.com/contrasting-consumer-habits-hong-kong-vs-mainland-china/)  
-- [Hong Kong and Macau: For You, They're Not China (Harris Sliwoski)](https://harris-sliwoski.com/chinalawblog/hong-kong-and-macau-for-you-theyre-not-china/)  
+**References**
+- [HSBC's PayMe goes global with UnionPay](https://www.scmp.com/business/article/3273539/hsbcs-payme-goes-global-access-34-million-merchants-46-markets-unionpay)
+- [FinTech and the Greater Bay Area: Breaking down the barriers (PwC Report)](https://www.pwccn.com/en/research-and-insights/Fintech/fintech-greater-bay-area-breaking-down-barriers.pdf)
+- [Contrasting consumer habits: Hong Kong vs Mainland China](https://daxueconsulting.com/contrasting-consumer-habits-hong-kong-vs-mainland-china/)
+- [Hong Kong and Macau: For You, They're Not China (Harris Sliwoski)](https://harris-sliwoski.com/chinalawblog/hong-kong-and-macau-for-you-theyre-not-china/)
 - [Case Study: Launching PayMe from HSBC](https://www.mindtheproduct.com/case-study-launching-payme-from-hsbc/)

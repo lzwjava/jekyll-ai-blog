@@ -48,5 +48,5 @@ Technion has produced influential figures across science, technology, business, 
 
 These alumni underscore Technion's role in Israel's "Startup Nation" status, with graduates founding thousands of companies and earning numerous global awards.
 
-[100 Notable Alumni of Technion](https://edurank.org/uni/technion-israel-institute-of-technology/alumni/)  
+[100 Notable Alumni of Technion](https://edurank.org/uni/technion-israel-institute-of-technology/alumni/)
 [Technion – Israel Institute of Technology - Wikipedia](https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology)

@@ -51,8 +51,8 @@ The **`keytool`** utility, which is part of the Java Runtime Environment (JRE/JD
 The default keystore configuration in `server.xml` often looks like this (you'll need the `location` and `password`):
 
 ```xml
-<keyStore id="defaultKeyStore" 
-          location="${server.config.dir}/resources/security/key.p12" 
+<keyStore id="defaultKeyStore"
+          location="${server.config.dir}/resources/security/key.p12"
           password="{xor}..." />
 ```
 
@@ -63,7 +63,7 @@ This method is used when you have a **new certificate signed by a CA** correspon
 1.  **Import Root/Intermediate CA Certificates (into the Key/Trust Store):**
     ```bash
     # Navigate to the JRE/JDK bin directory, e.g., wlp/java/jre/bin
-    keytool -importcert -file <ca_root_cert_file>.cer -alias <root_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12 
+    keytool -importcert -file <ca_root_cert_file>.cer -alias <root_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     # Repeat for any intermediate certs
     keytool -importcert -file <intermediate_cert_file>.cer -alias <intermediate_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     ```

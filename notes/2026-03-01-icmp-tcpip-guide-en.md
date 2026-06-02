@@ -11,7 +11,7 @@ type: note
 
 Question: In the TCP/IP reference model, the Internet Control Message Protocol (ICMP) operates at which layer?
 
-Answer: 
+Answer:
 
 **网络互联层** (Internet layer / Network layer)
 
@@ -30,6 +30,6 @@ Therefore, the correct answer is **网络互联层**.
 
 The reference answer "网络互联" is correct and matches the standard classification in most Chinese teaching materials and certification exams (such as soft exam / Huawei / H3C certification).
 
-References:  
+References:
 
 - None (standard textbook knowledge of TCP/IP model)

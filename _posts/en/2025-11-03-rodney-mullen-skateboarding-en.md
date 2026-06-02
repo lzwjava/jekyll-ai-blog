@@ -32,6 +32,6 @@ Rodney Mullen is an American professional skateboarder widely regarded as the "G
 ### Beyond Skating
 Mullen is also an inventor and entrepreneur with interests in technology and neuroscience. He holds patents for a robotic exoskeleton and has explored AI and robotics through his company, Autodidactic Studios. In 2013, he delivered a TED Talk titled "Population growth, the environment and our future," blending skating analogies with discussions on innovation and sustainability. As of 2025, he remains active in skate culture, occasionally teaching clinics and advocating for mental health awareness in extreme sports.
 
-[Rodney Mullen Wikipedia](https://en.wikipedia.org/wiki/Rodney_Mullen)  
-[Rodney Mullen Official Site](https://rodneymullen.com/)  
+[Rodney Mullen Wikipedia](https://en.wikipedia.org/wiki/Rodney_Mullen)
+[Rodney Mullen Official Site](https://rodneymullen.com/)
 [TED Talk: The Art of Invention](https://www.ted.com/talks/rodney_mullen_the_art_of_invention)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is TrustMRR (from https://trustmrr.com/)?
 
-Answer: 
+Answer:
 
 TrustMRR is a specialized online database that aggregates and displays verified monthly recurring revenue (MRR) data from startups. It serves as a transparent resource for tracking startup financial performance, with all revenue figures authenticated through direct integrations with payment platforms like Stripe, LemonSqueezy, and Polar—updated on an hourly basis.
 
@@ -28,5 +28,5 @@ Primarily aimed at startup founders, investors, and entrepreneurs interested in 
 
 No pricing details are mentioned on the site for accessing or using the database.
 
-References:  
+References:
 - [TrustMRR Homepage](https://trustmrr.com/)

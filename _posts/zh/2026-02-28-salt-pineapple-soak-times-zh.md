@@ -11,7 +11,7 @@ type: note
 
 问题：菠萝在吃前应该在盐水中浸泡多长时间？
 
-回答： 
+回答：
 
 新鲜菠萝含有一种叫做 **bromelain** 的酶，这种酶会在舌头和口腔中引起刺痛、灼烧或刺激感（通常被称为“pineapple burn”，即菠萝烧灼感）。将切好的菠萝浸泡在盐水中，可以在口腔外激活 **bromelain**，在食用前使其大部分失活，从而减少或消除刺激感。盐还能通过平衡酸度使菠萝尝起来更甜。
 
@@ -30,7 +30,7 @@ type: note
 
 注意：此方法无法像加热那样完全去除 **bromelain**（例如，烤菠萝或罐装菠萝），但这是新鲜生菠萝的流行有效技巧。如果烧灼感严重，加热水果是最可靠的完全失活酶的方法。
 
-参考资料：  
+参考资料：
 
 - [https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain](https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain)
 - [https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak](https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak)

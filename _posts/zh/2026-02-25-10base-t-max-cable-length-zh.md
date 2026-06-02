@@ -11,12 +11,12 @@ type: note
 
 问题：根据 10BASE-T Ethernet 技术规范，HUB 和网络接口卡 (NIC) 之间的最大距离是多少？
 
-A. 20m  
-B. 50m  
-C. 100m  
+A. 20m
+B. 50m
+C. 100m
 D. 200m
 
-答案： 
+答案：
 
 **C. 100m**
 
@@ -39,7 +39,7 @@ D. 200m
 - 20m 和 50m 远低于标准允许值
 - 200m 超出规范，会导致信号衰减过度和时序问题
 
-参考文献：  
+参考文献：
 
-- IEEE 802.3-1990 标准 (10BASE-T 子句)  
+- IEEE 802.3-1990 标准 (10BASE-T 子句)
 - [https://standards.ieee.org/ieee/802.3/1990/](https://standards.ieee.org/ieee/802.3/1990/)

@@ -201,7 +201,7 @@ def main():
             send_reminder(args.message)
         else:
             print("No message provided for send_message job.")
-            
+
 if __name__ == '__main__':
     main()
 ```

@@ -108,28 +108,28 @@ driver = webdriver.Chrome()
 try:
     # Navigate to login page
     driver.get("https://example.com/login")
-    
+
     # Find username and password fields
     username = driver.find_element(By.ID, "username")
     password = driver.find_element(By.ID, "password")
-    
+
     # Enter credentials
     username.send_keys("testuser")
     password.send_keys("testpassword")
-    
+
     # Submit the form
     password.send_keys(Keys.RETURN)
-    
+
     # Wait for page to load
     time.sleep(2)
-    
+
     # Verify login success (check for a welcome message)
     welcome_message = driver.find_element(By.CLASS_NAME, "welcome").text
     print(f"Login successful! Welcome message: {welcome_message}")
-    
+
 except Exception as e:
     print(f"An error occurred: {e}")
-    
+
 finally:
     # Close the browser
     driver.quit()
@@ -152,7 +152,7 @@ Selenium provides two types of waits to handle dynamic web pages:
   driver.implicitly_wait(10)  # Wait up to 10 seconds for elements to appear
   ```
 - **Explicit Wait**: Waits for a specific condition (e.g., element is clickable).
-  
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -164,18 +164,18 @@ driver = webdriver.Chrome()
 
 try:
     driver.get("https://example.com")
-    
+
     # Wait until an element is clickable (up to 10 seconds)
     button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.ID, "submit-button"))
     )
     button.click()
-    
+
     print("Button clicked successfully!")
-    
+
 except Exception as e:
     print(f"An error occurred: {e}")
-    
+
 finally:
     driver.quit()
 ```
@@ -235,10 +235,10 @@ driver = webdriver.Chrome(options=chrome_options)
 try:
     driver.get("https://www.example.com")
     print(f"Page title: {driver.title}")
-    
+
 except Exception as e:
     print(f"An error occurred: {e}")
-    
+
 finally:
     driver.quit()
 ```
@@ -265,7 +265,7 @@ class LoginPage:
         self.username_field = (By.ID, "username")
         self.password_field = (By.ID, "password")
         self.submit_button = (By.ID, "submit-button")
-    
+
     def login(self, username, password):
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(self.username_field)

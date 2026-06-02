@@ -20,5 +20,5 @@ type: note
 
 这一机制已持续多年且截至 2025 年末仍保持不变——`schedule` 事件暂未提供原生时区参数（这与 Dependabot 等 GitHub 其他功能有所不同）。
 
-[触发工作流的事件 - GitHub 文档](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)  
+[触发工作流的事件 - GitHub 文档](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)
 [GitHub Actions 的工作流语法 - GitHub 文档](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on-schedule)

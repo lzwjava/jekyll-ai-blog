@@ -17,37 +17,37 @@ Beyond Compare is a powerful paid tool for comparing and merging files, folders,
 
 ### Top free alternatives
 
-- **KDiff3**  
-  Fully free and open-source.  
-  Excellent 3-way merge tool, good for text/code files and directories.  
-  Still one of the strongest free options for developers who need conflict resolution.  
+- **KDiff3**
+  Fully free and open-source.
+  Excellent 3-way merge tool, good for text/code files and directories.
+  Still one of the strongest free options for developers who need conflict resolution.
   Native macOS builds available.
 
-- **P4Merge** (Helix Visual Merge Tool from Perforce)  
-  Completely free (no paid tiers).  
-  Very clean 3-way merge interface, great for code.  
-  Handles text files and basic folder comparison well.  
+- **P4Merge** (Helix Visual Merge Tool from Perforce)
+  Completely free (no paid tiers).
+  Very clean 3-way merge interface, great for code.
+  Handles text files and basic folder comparison well.
   Many developers use it as their daily free Beyond Compare replacement.
 
-- **DiffMerge** (SourceGear)  
-  Free for personal & most commercial use (check current license).  
-  Solid visual diff/merge for files and folders.  
+- **DiffMerge** (SourceGear)
+  Free for personal & most commercial use (check current license).
+  Solid visual diff/merge for files and folders.
   Nice side-by-side view and syntax highlighting.
 
-- **Meld**  
-  Free and open-source.  
-  Very intuitive visual diff and 3-way merge.  
-  Good folder comparison support.  
+- **Meld**
+  Free and open-source.
+  Very intuitive visual diff and 3-way merge.
+  Good folder comparison support.
   macOS version usually installed via Homebrew (`brew install --cask meld`).
 
-- **FileMerge** (built into Xcode Command Line Tools)  
-  Completely free — comes with macOS if you install the Xcode command line tools (`xcode-select --install`).  
-  Apple's own 3-way merge tool.  
+- **FileMerge** (built into Xcode Command Line Tools)
+  Completely free — comes with macOS if you install the Xcode command line tools (`xcode-select --install`).
+  Apple's own 3-way merge tool.
   Very capable for code/text, though the UI is dated.
 
-- **FreeFileSync**  
-  Free and open-source.  
-  Best choice when your main need is **folder comparison + synchronization** (not line-by-line code merging).  
+- **FreeFileSync**
+  Free and open-source.
+  Best choice when your main need is **folder comparison + synchronization** (not line-by-line code merging).
   Very fast folder diffs, visual overview, sync preview — closest to Beyond Compare's folder mode.
 
 ### Quick recommendation table (2026 perspective)
@@ -61,8 +61,8 @@ Beyond Compare is a powerful paid tool for comparing and merging files, folders,
 | FileMerge     | Free & already on Mac        | Very good   | Limited              | Native            | Xcode CLI tools       |
 | FreeFileSync  | Folder backup/sync           | No          | Excellent            | Good              | Official download     |
 
-If you're mainly doing **code review / git merges** → start with **P4Merge** or **KDiff3**.  
-If you're mostly doing **folder synchronization** → **FreeFileSync** is usually the winner.  
+If you're mainly doing **code review / git merges** → start with **P4Merge** or **KDiff3**.
+If you're mostly doing **folder synchronization** → **FreeFileSync** is usually the winner.
 If you want the closest overall experience to Beyond Compare's UI and capabilities for free → **Meld** or **DiffMerge** are strong contenders.
 
 All of these are still actively mentioned and used in 2025–2026 developer discussions.

@@ -11,7 +11,7 @@ type: note
 
 Question: Investors provide capital to enable value creation for users. If a company prioritizes pleasing investors while ignoring or disrespecting users, will the users eventually leave, followed by the investors?
 
-Answer: 
+Answer:
 
 Yes, your assessment is fundamentally correct. This scenario describes a classic failure mode in business strategy where short-term financial engineering overrides long-term value creation. Here is a comprehensive breakdown of why this dynamic inevitably leads to business failure:
 

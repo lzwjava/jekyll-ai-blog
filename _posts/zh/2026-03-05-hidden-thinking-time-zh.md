@@ -11,7 +11,7 @@ type: note
 
 **问题：** Liu Weipeng 在他的中文书中关于“dark time”或生产力指南说了什么？
 
-**回答：** 
+**回答：**
 
 Liu Weipeng（刘未鹏），在他的中文书籍**《暗时间》**（Dark Time / An Shi Jian，也译作 Hidden Time 或 Dark Time: Thinking Changes Life）中，介绍了并阐述了核心概念**“暗时间”（dark time）**。
 
@@ -28,7 +28,7 @@ Liu Weipeng（刘未鹏），在他的中文书籍**《暗时间》**（Dark Tim
 
 本质上，刘未鹏将暗时间视为生产力的隐藏乘数：掌握它的人在他人忽略的时刻通过深度思考“偷取”额外的成长年份。
 
-**参考资料：**  
+**参考资料：**
 
 - [百度百科 - 暗时间](https://baike.baidu.com/item/%E6%9A%97%E6%97%B6%E9%97%B4/6437171)
 - [暗时间：思维改变生活（第2版） product page](https://chinese-publishers.com/product/%E6%9A%97%E6%97%B6%E9%97%B4%EF%BC%9A%E6%80%9D%E7%BB%B4%E6%94%B9%E5%8F%98%E7%94%9F%E6%B4%BB%EF%BC%88%E7%AC%AC-2-%E7%89%88%EF%BC%89)

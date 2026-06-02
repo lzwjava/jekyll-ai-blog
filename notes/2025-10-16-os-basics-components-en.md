@@ -20,13 +20,13 @@ Think of the OS as the "boss" of your computer: it allocates resources (e.g., me
 
 Yes, the OS includes (or relies on) the components you listed. Here's a quick breakdown:
 
-- **File System**:  
+- **File System**:
   This is the OS's method for organizing, storing, and retrieving files on storage devices (like hard drives or SSDs). It defines how data is structured into folders, handles permissions (who can read/write), and manages space. Examples: NTFS (Windows), APFS (macOS), ext4 (Linux). Without it, files would be a chaotic mess.
 
-- **Scheduler** (likely meaning the CPU Scheduler):  
+- **Scheduler** (likely meaning the CPU Scheduler):
   The scheduler decides which processes (running programs) get to use the CPU and for how long. It prioritizes tasks to prevent one app from hogging resources, ensuring fair and efficient multitasking. This is crucial for smooth performance, especially on multi-core processors.
 
-- **Task Manager** (or Process Manager):  
+- **Task Manager** (or Process Manager):
   This is a built-in tool (prominent in Windows as "Task Manager") that lets users monitor and control running processes, CPU/memory usage, and system performance. It's part of the OS's process management subsystem, allowing you to end frozen apps, check resource hogs, or start new tasks. In other OSes, equivalents include Activity Monitor (macOS) or `top`/`htop` commands (Linux).
 
 These are just a few parts of a larger ecosystem in an OS, which also includes memory management, device drivers, and security features. If you're curious about a specific OS or deeper details, let me know!

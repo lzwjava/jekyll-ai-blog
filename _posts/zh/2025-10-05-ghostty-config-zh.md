@@ -34,7 +34,7 @@ type: note
 
 因此，对于默认的 zsh 设置会加载 `~/.zprofile`，若使用 bash 则会加载 `~/.bash_profile`。您可以根据需要通过 Ghostty 的配置切换 shell 或调整设置。
 
-[Shell 集成 - Ghostty](https://ghostty.org/docs/features/shell-integration)  
-[macOS 登录 Shell - Ghostty](https://ghostty.org/docs/help/macos-login-shells)  
-[潜在缺陷：启动时未读取 .bashrc - GitHub 讨论区](https://github.com/ghostty-org/ghostty/discussions/3437)  
+[Shell 集成 - Ghostty](https://ghostty.org/docs/features/shell-integration)
+[macOS 登录 Shell - Ghostty](https://ghostty.org/docs/help/macos-login-shells)
+[潜在缺陷：启动时未读取 .bashrc - GitHub 讨论区](https://github.com/ghostty-org/ghostty/discussions/3437)
 [Bash 启动文件 - GNU 手册](https://www.gnu.org/software/bash/manual/bash.html#Bash-Startup-Files)

@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about ResNet?
 
-Answer: 
+Answer:
 
 ResNet (Residual Network), introduced in 2015, revolutionized deep learning by enabling the training of very deep neural networks through skip connections. However, despite its widespread adoption as a backbone for computer vision tasks, it has sparked several contrarian views in the machine learning community. These "unpopular opinions" often challenge the hype around ResNet's universality, depth obsession, and perceived simplicity. Below, I've compiled key ones drawn from discussions in forums like Reddit's r/MachineLearning, academic papers, and expert commentary on platforms like X (formerly Twitter). These highlight debates on its limitations, overreliance, and evolving relevance.
 
@@ -36,12 +36,12 @@ ResNet (Residual Network), introduced in 2015, revolutionized deep learning by e
 
 These opinions reflect a maturing field where ResNet is respected but no longer untouchable. For practitioners, it's still a solid starting point, but experimenting with hybrids (e.g., ResNeXt for multi-path) or alternatives pays off for edge cases.
 
-References:  
-- [Has the ResNet Hypothesis been debunked? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/)  
-- [Are ResNets as good as it gets? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/nbgb6a/d_are_resnets_as_good_as_it_gets/)  
-- [Why don't people use ResNet as GAN discriminator? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/esj4m7/d_why_dont_people_use_typical_classification/)  
-- [Why do residual networks work? (Cross Validated)](https://stats.stackexchange.com/questions/237152/why-do-residual-networks-work)  
-- [Wider or Deeper: Revisiting the ResNet Model (arXiv)](https://arxiv.org/abs/1611.10080)  
-- [ResNets still don't make sense to me (X post)](https://x.com/_notapenguin/status/1995480100322586677)  
-- [99% of CV apps can be handled with simple ResNet (X post)](https://x.com/tunguz/status/1580594479211216900)  
+References:
+- [Has the ResNet Hypothesis been debunked? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/)
+- [Are ResNets as good as it gets? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/nbgb6a/d_are_resnets_as_good_as_it_gets/)
+- [Why don't people use ResNet as GAN discriminator? (Reddit r/MachineLearning)](https://www.reddit.com/r/MachineLearning/comments/esj4m7/d_why_dont_people_use_typical_classification/)
+- [Why do residual networks work? (Cross Validated)](https://stats.stackexchange.com/questions/237152/why-do-residual-networks-work)
+- [Wider or Deeper: Revisiting the ResNet Model (arXiv)](https://arxiv.org/abs/1611.10080)
+- [ResNets still don't make sense to me (X post)](https://x.com/_notapenguin/status/1995480100322586677)
+- [99% of CV apps can be handled with simple ResNet (X post)](https://x.com/tunguz/status/1580594479211216900)
 - [ViTs over classic ConvNets like ResNet (X post)](https://x.com/ZRozsypalek/status/1996217103246885243)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the story of Insta360 founder Liu?
 
-Answer: 
+Answer:
 
 Liu Jingkang, commonly known as JK Liu, is the founder and CEO of Insta360, a leading Chinese company specializing in 360-degree and action cameras. Born in 1991 in Guangdong, China, Liu showed an early talent for technology. While studying computer science at Nanjing University, he gained notoriety for clever tech projects, such as decoding a CEO's phone number from keypad tones.
 
@@ -26,10 +26,10 @@ Liu was featured on Forbes 30 Under 30 Asia in 2017. In June 2025, Insta360 went
 
 Liu's philosophy, inspired by Apple—"make a good product, and users will come"—emphasizes bold innovation and product excellence. From humble dorm-room beginnings to leading a global powerhouse, his story exemplifies perseverance, technical vision, and turning immersive imaging into a mainstream success.
 
-References:  
+References:
 
-- [Who is Liu Jingkang (JK Liu)? The Visionary Behind Insta360’s Global Success](https://www.bitrue.com/blog/who-is-liu-jingkang-jk-liu)  
-- [Founder Of Chinese Camera Maker Insta360 Becomes A Billionaire Upon IPO](https://www.forbes.com/sites/catzxwang/2025/06/11/founder-of-chinese-camera-maker-insta360-becomes-a-billionaire-upon-ipo/)  
-- [Insta360’s Journey: From Dorm-Room Startup to Global Camera Powerhouse and IPO Triumph](https://pro.pandaily.com/p/insta360s-journey-from-dorm-room)  
-- [Insta360 - Wikipedia](https://en.wikipedia.org/wiki/Insta360)  
+- [Who is Liu Jingkang (JK Liu)? The Visionary Behind Insta360’s Global Success](https://www.bitrue.com/blog/who-is-liu-jingkang-jk-liu)
+- [Founder Of Chinese Camera Maker Insta360 Becomes A Billionaire Upon IPO](https://www.forbes.com/sites/catzxwang/2025/06/11/founder-of-chinese-camera-maker-insta360-becomes-a-billionaire-upon-ipo/)
+- [Insta360’s Journey: From Dorm-Room Startup to Global Camera Powerhouse and IPO Triumph](https://pro.pandaily.com/p/insta360s-journey-from-dorm-room)
+- [Insta360 - Wikipedia](https://en.wikipedia.org/wiki/Insta360)
 - [Insta360 Goes Public in China, 33-Year-Old Founder Now a Billionaire](https://petapixel.com/2025/06/11/insta360-goes-public-in-china-33-year-old-founder-now-a-billionaire/)

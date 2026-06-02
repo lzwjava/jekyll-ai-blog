@@ -11,7 +11,7 @@ type: note
 
 Question: If I live in Guangzhou, China, should I buy the DMIT.io LAX.AN5.Pro.TINY instance at $9.99/month (datacenter in USA Los Angeles)?
 
-Answer: 
+Answer:
 
 **Yes, it can be a good choice if your needs match its strengths**, especially for users in Guangzhou who prioritize stable, low-latency US-to-China connectivity over the absolute cheapest options or local/HK providers.
 
@@ -48,7 +48,7 @@ Answer:
 
 If your main workload is China-only (no need for US IP), consider local providers instead. But for mixed US/China use, this tiny Pro plan punches above its weight.
 
-References:  
+References:
 
 - [https://www.dmit.io/](https://www.dmit.io/)
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)

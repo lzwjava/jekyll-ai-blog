@@ -27,8 +27,8 @@ In SP, the variance of weights grows unstably, leading to exploding/vanishing gr
 
 μP builds on Yang's broader "Tensor Programs" framework for understanding infinite-width/depth limits in NNs, and it's still evolving—recent work (as of 2025) emphasizes its role in maximal feature learning beyond just HP transfer.
 
-**References**  
-- [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466)  
-- [The Practitioner's Guide to the Maximal Update Parameterization](https://www.cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization)  
-- [How To Scale (Blog on μP and Scaling)](https://howtoscalenn.github.io/)  
+**References**
+- [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466)
+- [The Practitioner's Guide to the Maximal Update Parameterization](https://www.cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization)
+- [How To Scale (Blog on μP and Scaling)](https://howtoscalenn.github.io/)
 - [Greg Yang's Professional Page](https://thegregyang.com/)

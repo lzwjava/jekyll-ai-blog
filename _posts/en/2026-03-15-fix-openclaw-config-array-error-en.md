@@ -11,7 +11,7 @@ type: note
 
 Question: How to fix the OpenClaw config error where tools.elevated.allowFrom.webchat expects an array but received a boolean?
 
-Answer: 
+Answer:
 
 The error means your current OpenClaw configuration file has an invalid value for the `tools.elevated.allowFrom.webchat` setting.
 
@@ -98,11 +98,11 @@ to one of these valid formats:
 
 ### Steps to Apply the Fix
 
-1. Locate the config file  
+1. Locate the config file
    - Usually in `~/.openclaw/`, `/etc/openclaw/`, or the directory where you run `openclaw`
    - Run `openclaw config path` if the command exists, or check the startup logs
 
-2. Open the file in an editor  
+2. Open the file in an editor
    ```bash
    nano ~/.openclaw/config.json    # or use vim, code, etc.
    ```
@@ -111,14 +111,14 @@ to one of these valid formats:
 
 4. Save and exit
 
-5. Validate & restart  
+5. Validate & restart
    ```bash
    openclaw doctor                # should now pass or show other issues
    openclaw restart               # or systemctl restart openclaw if running as service
    ```
 
-6. Test  
-   Try the command again:  
+6. Test
+   Try the command again:
    ```bash
    openclaw doctor --fix
    ```
@@ -144,7 +144,7 @@ and follow any interactive prompts it may offer.
 
 After fixing this, the gateway should start correctly and you can retry giving elevated/shell access to the agent if that's still your goal.
 
-References:  
+References:
 
 - [OpenClaw configuration reference - tools.elevated.allowFrom](https://github.com/openclaw-ai/openclaw/blob/main/docs/config.md#toolselevatedallowfrom)
 - [Issue: tools.elevated.allowFrom.webchat expects array not boolean](https://github.com/openclaw-ai/openclaw/issues/342)

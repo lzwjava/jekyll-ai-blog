@@ -35,7 +35,7 @@ A basic SR Latch is typically built using two **NOR gates** (or NAND gates in a 
 The term **latch** refers to the circuit's ability to **hold (or "latch onto") a stable state** over time, without needing continuous input power to maintain it. It's like a switch that stays in position after you flip it—until you flip it again.
 
 - **Not just abstract**: While "latch" is a conceptual idea in digital logic design (an abstraction for memory behavior), it's implemented as a **real electric circuit**. You can build it with physical components like transistors or logic gates on a chip (e.g., in ICs like the 7400 series).
-  
+
 - **Logic vs. Circuit**: It's both!
   - **Logic setup**: In theory, it's a boolean logic model where the outputs depend on inputs and feedback (e.g., Q = ¬(S ∨ ¬Q) in the NOR version).
   - **Electric circuit**: In practice, it's wired hardware that operates on voltage levels (e.g., 5V logic). The gates are powered by electricity, and signals propagate as currents/voltages.

@@ -65,5 +65,5 @@ I'll break it down step by step, tying in your `ping` and `traceroute` output fo
 
 In short, yes—computer → router → ISP → global router mesh → server. It's a beautifully distributed system built on IP routing. If you share a full traceroute or want to dive into a specific part (e.g., TCP handshake for web), let me know!
 
-[TCP/IP Illustrated (Book on Networking Basics)](https://www.oreilly.com/library/view/tcp-ip-illustrated-volume/0201633469/)  
+[TCP/IP Illustrated (Book on Networking Basics)](https://www.oreilly.com/library/view/tcp-ip-illustrated-volume/0201633469/)
 [How Traceroute Works (Cloudflare Explanation)](https://www.cloudflare.com/learning/network-layer/what-is-traceroute/)

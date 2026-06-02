@@ -35,8 +35,8 @@ type: note
 **在 server.xml 中配置 shutdown timeout**：
 
 ```xml
-<executor name="defaultExecutor" 
-          coreThreads="5" 
+<executor name="defaultExecutor"
+          coreThreads="5"
           maxThreads="25"
           keepAlive="60s"
           stealPolicy="STRICT"

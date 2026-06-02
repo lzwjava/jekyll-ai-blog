@@ -32,7 +32,7 @@ Luo left XDF in 2006 over a pay dispute (he demanded more for his fame; Yu refus
 
 If it's not quite matching what you recall, it might blend with similar tales (e.g., his pal Li Xiaolai did a similar TOEFL lock-in). Luo's full arc—from TOEFL hermit to billionaire (briefly)—is peak underdog porn.
 
-[Wikipedia: Luo Yonghao](https://en.wikipedia.org/wiki/Luo_Yonghao)  
-[MBA Think Tank: Luo Yonghao Bio](https://wiki.mbalib.com/wiki/%E7%BD%97%E6%B0%B8%E6%B5%A9)  
-[PingWest: New Oriental as Entrepreneur Cradle](https://www.pingwest.com/a/178410)  
+[Wikipedia: Luo Yonghao](https://en.wikipedia.org/wiki/Luo_Yonghao)
+[MBA Think Tank: Luo Yonghao Bio](https://wiki.mbalib.com/wiki/%E7%BD%97%E6%B0%B8%E6%B5%A9)
+[PingWest: New Oriental as Entrepreneur Cradle](https://www.pingwest.com/a/178410)
 [163 News: Luo's XDF Journey](https://edu.163.com/15/0212/10/AI8EJ31900294MPA.html)

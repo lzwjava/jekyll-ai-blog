@@ -12,7 +12,7 @@ type: note
 
 Question: What is the story of BYD founder Wang Chuanfu?
 
-Answer: 
+Answer:
 
 Wang Chuanfu's life story is a classic tale of resilience, innovation, and rags-to-riches success, transforming from an orphaned farm boy in rural China to the billionaire CEO of BYD, the world's largest electric vehicle (EV) manufacturer. Born on April 8, 1966, in Wuwei County, Anhui Province—one of China's poorest regions—Wang was the youngest of eight children in a struggling farming family. The year of his birth brought devastating natural disasters, exacerbating their poverty as rice crops failed. Tragedy struck early: his father died of illness when Wang was just 13, and his mother passed away shortly after, leaving him orphaned and raised by his older siblings, particularly his brother and sister-in-law, who sacrificed to support his education.
 
@@ -28,11 +28,11 @@ Under Wang's leadership, BYD expanded into EVs, solar panels, and energy storage
 
 Known for his modest, low-profile style—flying economy, eating in the company cafeteria, and living in employee housing—Wang remains deeply involved in BYD's operations. He set ambitious goals in 2008: dominate China's auto market by 2015 (achieved) and become the world's largest carmaker by 2025 (on track). A member of the Chinese Communist Party, Wang credits two key influences—his siblings for enabling his education and the battery institute for his expertise—as life-changers. His journey embodies China's economic miracle, proving that strategic vision and relentless execution can turn personal adversity into global dominance.
 
-References:  
-- [Wang Chuanfu - Wikipedia](https://en.wikipedia.org/wiki/Wang_Chuanfu)  
-- [BYD's founder Wang Chuanfu: Two people changed his whole life](https://www.ourchinastory.com/en/13225/BYD%27s-founder-Wang-Chuanfu:-Two-people-changed-his-whole-life)  
-- [BYD founder Wang Chuanfu, the peasant who became China’s richest man](https://english.elpais.com/economy-and-business/2025-10-25/byd-founder-wang-chuanfu-the-peasant-who-became-chinas-richest-man.html)  
-- [Wang Chuanfu: The Innovator Behind BYD's Global Success](https://evmagazine.com/articles/wang-chuanfu-the-innovator-behind-byds-global-success)  
-- [How BYD founder Wang Chuanfu went from orphan to billionaire EV empire builder](https://www.businessinsider.com/byd-founder-wang-chuanfu-biggest-chinese-global-ev-automaker-2024-1)  
-- [The orphan who built the world's largest EV company, BYD](https://economictimes.indiatimes.com/us/business/the-orphan-who-built-the-worlds-largest-ev-company-byd-heres-the-incredible-story-of-wang-chuanfu/articleshow/119605195.cms?from=mdr)  
+References:
+- [Wang Chuanfu - Wikipedia](https://en.wikipedia.org/wiki/Wang_Chuanfu)
+- [BYD's founder Wang Chuanfu: Two people changed his whole life](https://www.ourchinastory.com/en/13225/BYD%27s-founder-Wang-Chuanfu:-Two-people-changed-his-whole-life)
+- [BYD founder Wang Chuanfu, the peasant who became China’s richest man](https://english.elpais.com/economy-and-business/2025-10-25/byd-founder-wang-chuanfu-the-peasant-who-became-chinas-richest-man.html)
+- [Wang Chuanfu: The Innovator Behind BYD's Global Success](https://evmagazine.com/articles/wang-chuanfu-the-innovator-behind-byds-global-success)
+- [How BYD founder Wang Chuanfu went from orphan to billionaire EV empire builder](https://www.businessinsider.com/byd-founder-wang-chuanfu-biggest-chinese-global-ev-automaker-2024-1)
+- [The orphan who built the world's largest EV company, BYD](https://economictimes.indiatimes.com/us/business/the-orphan-who-built-the-worlds-largest-ev-company-byd-heres-the-incredible-story-of-wang-chuanfu/articleshow/119605195.cms?from=mdr)
 - [Lifetime of Achievement: Wang Chuanfu, Founder & CEO of BYD](https://manufacturingdigital.com/articles/lifetime-of-achievement-wang-chuanfu-founder-ceo-of-byd)

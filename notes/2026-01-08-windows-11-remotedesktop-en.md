@@ -12,7 +12,7 @@ type: note
 
 Question: How to use Remote Desktop to connect to a Windows 11 PC?
 
-Answer: 
+Answer:
 
 Microsoft's Remote Desktop feature allows you to connect to and control a Windows 11 PC from another device. Note that the **Windows 11 PC you want to connect to (the host)** must be running the Pro, Enterprise, or Education edition—Windows 11 Home does not support hosting Remote Desktop connections.
 
@@ -45,6 +45,6 @@ You will now have full control of the remote desktop session.
 - Firewall: Windows usually allows RDP automatically when enabled, but ensure no third-party firewall blocks it.
 - Troubleshooting: If connection fails, check that the host is awake, credentials are correct, and both devices can reach each other (try pinging the host).
 
-References:  
-- [How to use Remote Desktop - Microsoft Support](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)  
+References:
+- [How to use Remote Desktop - Microsoft Support](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
 - [Enable Remote Desktop on your PC | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remotepc/remote-desktop-allow-access)

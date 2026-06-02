@@ -12,9 +12,9 @@ type: note
 
 Question: Is Cisco AnyConnect available to normal users for free? Or are there any substitute tools?
 
-Answer: 
+Answer:
 
-**No, Cisco AnyConnect (now officially called Cisco Secure Client) is not freely available for normal individual/personal use in the way consumer VPNs are.**  
+**No, Cisco AnyConnect (now officially called Cisco Secure Client) is not freely available for normal individual/personal use in the way consumer VPNs are.**
 It is an **enterprise-grade SSL VPN client** designed for organizations connecting to Cisco-based VPN headends (like ASA firewalls or other Cisco gear). Cisco does not sell or provide it directly to individual consumers for personal VPN servers or general use.
 
 ### Availability and "Free" Aspects
@@ -61,7 +61,7 @@ If you need a similar SSL VPN client (especially to connect to an existing Cisco
 
 For connecting specifically to a Cisco-based corporate VPN without installing the official client, **OpenConnect** is the most reliable free substitute — many universities and companies even recommend it unofficially when the official client has issues.
 
-References:  
+References:
 
 - [Cisco AnyConnect Licensing FAQ](https://www.cisco.com/c/en/us/products/collateral/security/anyconnect-secure-mobility-client/qa_c67-712937.html)
 - [Cisco Secure Client Downloads](https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client-v4-x/model.html)

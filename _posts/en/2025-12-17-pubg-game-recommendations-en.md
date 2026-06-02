@@ -12,7 +12,7 @@ type: note
 
 Question: What mobile games would you recommend if I like PUBG Mobile, Genshin Impact, and Honor of Kings?
 
-Answer: 
+Answer:
 You enjoy a mix of intense battle royale action (PUBG Mobile), expansive open-world exploration and gacha RPG elements (Genshin Impact), and strategic team-based MOBA battles (Honor of Kings). Here are my top 8 free-to-play mobile recommendations (all available on Android and iOS) that align with those preferences, focusing on popular 2025 titles with active communities, regular updates, and high player counts. I've prioritized games blending these genres for variety.
 
 ### Battle Royale Shooters (like PUBG Mobile)
@@ -42,9 +42,9 @@ You enjoy a mix of intense battle royale action (PUBG Mobile), expansive open-wo
 
 Start with Call of Duty: Mobile or Wild Rift for immediate familiarity. All have cross-play and controller support. Download from Google Play/App Store—most are region-free globally.
 
-References:  
-- [48+ Games Like Honor of Kings - MiniReview](https://minireview.io/moba/honor-of-kings/games-like)  
-- [Most Played Mobile Games in 2025 by Player Count - Udonis Blog](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)  
-- [20 Games Like PUBG: Battle Royale Alternatives - NoPing](https://noping.com/blog/games-like-pubg)  
-- [Top 10 BEST Battle Royale Games for Android & iOS 2025 - YouTube](https://www.youtube.com/watch?v=2joR14tpU84)  
+References:
+- [48+ Games Like Honor of Kings - MiniReview](https://minireview.io/moba/honor-of-kings/games-like)
+- [Most Played Mobile Games in 2025 by Player Count - Udonis Blog](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)
+- [20 Games Like PUBG: Battle Royale Alternatives - NoPing](https://noping.com/blog/games-like-pubg)
+- [Top 10 BEST Battle Royale Games for Android & iOS 2025 - YouTube](https://www.youtube.com/watch?v=2joR14tpU84)
 - [10 Must-Play Mobile RPGs You Can't Miss in 2025 - FoxData](https://foxdata.com/en/blogs/10-mustplay-mobile-rpgs-you-cant-miss-in-2025/)

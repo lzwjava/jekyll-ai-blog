@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the different views in Huawei's Versatile Routing Platform (VRP).
 
-Answer: 
+Answer:
 
 ### Overview of Views in Huawei VRP
 

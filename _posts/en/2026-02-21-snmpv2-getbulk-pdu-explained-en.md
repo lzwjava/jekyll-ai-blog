@@ -11,7 +11,7 @@ type: note
 
 Question: To retrieve the maximum amount of management information with the minimum number of exchanges, or to request the largest possible response packet from the manager, which PDU was added in SNMPv2?
 
-Answer: 
+Answer:
 
 The correct answer is **C: GetBulkRequestPDU**.
 
@@ -32,6 +32,6 @@ To address this, **SNMPv2 introduced the `GetBulkRequestPDU`**. Its primary func
 
 Therefore, `GetBulkRequestPDU` is the specific enhancement designed to solve the problem of efficient bulk data retrieval.
 
-References:  
+References:
 
 - [RFC 1905 - Protocol Operations for Version 2 of the Simple Network Management Protocol (SNMPv2)](https://datatracker.ietf.org/doc/html/rfc1905)

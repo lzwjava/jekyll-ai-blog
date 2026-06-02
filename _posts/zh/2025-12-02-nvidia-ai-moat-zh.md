@@ -23,16 +23,16 @@ NVIDIA 在 AI/数据中心 GPU 领域的“护城河”目前异常宽广深远�
 
 ### 总结 – 最重要的事情（2025-2027 年）
 
-1. CUDA 仍然是迄今为止最大的护城河  
+1. CUDA 仍然是迄今为止最大的护城河
    → 对于大型实验室来说，将整个代码库从 CUDA 迁移到 ROCm 或 SYCL 需要数亿美元和 1-2 年的时间。
 
-2. NVLink + 全机架规模系统 (DGX GB200 NVL72/NVL576)  
+2. NVLink + 全机架规模系统 (DGX GB200 NVL72/NVL576)
    → 目前没有竞争对手能以如此高效的方式训练 10 万+ GPU 集群。
 
-3. HBM 供应扼制  
+3. HBM 供应扼制
    → 即使竞争对手明天设计出完美的 GPU，在 2027 年之前也无法大规模出货，因为没有 HBM。
 
-4. 软件 + 服务锁定  
+4. 软件 + 服务锁定
    → 一旦您使用 NVIDIA 的 Base Command、DGX Cloud、NVIDIA AI Enterprise 等，转换成本是巨大的。
 
 AMD、英特尔和初创公司（Groq、Cerebras、Tenstorrent 等）在硬件方面进步迅速，但软件生态系统、互连规模和内存供应将使 NVIDIA 在未来 3-4 年内在大规模 AI 训练和推理领域几乎无法被取代。

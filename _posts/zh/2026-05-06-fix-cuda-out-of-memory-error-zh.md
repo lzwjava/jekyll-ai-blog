@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：**  
+**问题：**
 在 RTX 4070 GPU 上运行 Whisper 时，如何解决 CUDA 显存不足的错误？
 
 ---

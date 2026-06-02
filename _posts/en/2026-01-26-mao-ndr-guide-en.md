@@ -93,9 +93,9 @@ In summary, the **New Democratic Revolution** was Mao Zedong's creative applicat
 
 **References:**
 
-- Mao Zedong, *On New Democracy* (1940)  
+- Mao Zedong, *On New Democracy* (1940)
   [https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm](https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm)
-- Mao Zedong, *On the People's Democratic Dictatorship* (1949)  
+- Mao Zedong, *On the People's Democratic Dictatorship* (1949)
   [https://www.marxists.org/reference/archive/mao/selected-works/volume-4/mswv4_65.htm](https://www.marxists.org/reference/archive/mao/selected-works/volume-4/mswv4_65.htm)
-- Official CPC history documents (various)  
+- Official CPC history documents (various)
   [http://www.idcpc.org.cn/english2023/tjzl/cxzl/](http://www.idcpc.org.cn/english2023/tjzl/cxzl/)

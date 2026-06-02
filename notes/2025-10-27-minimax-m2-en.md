@@ -36,8 +36,8 @@ Yes, it's exceptionally good—especially if you're into coding, agents, or cost
 
 User buzz on X is electric—folks are calling it a "game changer" and "crazy" for outperforming pricier models in dev stacks. One dev stack tip: Pair it with Cursor for a "perfect" free alternative to premium tools. That said, it's brand new, so real-world testing (beyond benchmarks) is ongoing; a few early Reddit takes note it shines superficially but can falter on deep, custom coding. Overall, if agents or code are your jam, it's a no-brainer to try—especially free right now.
 
-[MiniMax M2 Official Announcement](https://www.minimax.io/news/minimax-m2)  
-[GitHub Repo & Benchmarks](https://github.com/MiniMax-AI/MiniMax-M2)  
-[Artificial Analysis Overview](https://artificialanalysis.ai/models/minimax-m2)  
-[Analytics Vidhya Review](https://www.analyticsvidhya.com/blog/2025/10/minimax-m2/)  
+[MiniMax M2 Official Announcement](https://www.minimax.io/news/minimax-m2)
+[GitHub Repo & Benchmarks](https://github.com/MiniMax-AI/MiniMax-M2)
+[Artificial Analysis Overview](https://artificialanalysis.ai/models/minimax-m2)
+[Analytics Vidhya Review](https://www.analyticsvidhya.com/blog/2025/10/minimax-m2/)
 [Reddit Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1oh9hx6/the_performance_of_minimaxm2_is_truly_impressive/)

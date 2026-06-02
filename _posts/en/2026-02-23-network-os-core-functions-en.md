@@ -11,7 +11,7 @@ type: note
 
 Question: Briefly describe the basic tasks of a network operating system.
 
-Answer: 
+Answer:
 
 A Network Operating System (NOS) is specialized software designed to manage network resources, facilitate communication between computers, and provide services to users within a network environment. Its basic tasks can be summarized as follows:
 

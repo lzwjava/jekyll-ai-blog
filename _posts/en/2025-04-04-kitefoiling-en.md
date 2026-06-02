@@ -51,7 +51,7 @@ Since you asked about "how to do kitefoiling" after mentioning Max Maeder, a kit
   - Start in light wind (8–12 knots) and flat water for control.
   - Water-start as before, but once moving, shift weight forward slightly to lift the board. The foil will rise when you hit 5–7 knots.
   - Stay low, knees bent, and avoid overcorrecting—small movements control the foil’s height.
-- **Riding the Foil**: 
+- **Riding the Foil**:
   - Keep the kite at a steady angle (e.g., 11 o’clock) for consistent pull.
   - Use front-foot pressure to rise higher, back-foot pressure to descend. Too much lift? You’ll breach (board jumps out); too little, you’ll sink.
   - Aim for smooth, quiet gliding—that’s the sweet spot.

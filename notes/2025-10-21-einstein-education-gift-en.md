@@ -16,5 +16,5 @@ Yes, that quote is indeed attributed to Albert Einstein. The original English ve
 
 It aligns closely with the Chinese translation you shared, emphasizing education's joyful essence over obligation.
 
-[Ultimate Quotable Einstein](https://press.princeton.edu/books/hardcover/9780691160146/ultimate-quotable-einstein)  
+[Ultimate Quotable Einstein](https://press.princeton.edu/books/hardcover/9780691160146/ultimate-quotable-einstein)
 [Ideas and Opinions by Albert Einstein](https://www.goodreads.com/book/show/937850.Ideas_and_Opinions)

@@ -40,9 +40,9 @@ For kids, the brain is still developing. So experiences like:
 can create associations such as:
 
 ```
-Parent → fear  
-Parent → pressure  
-Parent → not safe  
+Parent → fear
+Parent → pressure
+Parent → not safe
 Parent → criticism
 ```
 
@@ -72,8 +72,8 @@ If parents repeatedly experience:
 They may build:
 
 ```
-Child → frustration  
-Child → disappointment  
+Child → frustration
+Child → disappointment
 Child → stress
 ```
 
@@ -152,7 +152,7 @@ New experiences can slowly change associations:
 Over time:
 
 ```
-Parent → safe again  
+Parent → safe again
 Child → relaxed again
 ```
 

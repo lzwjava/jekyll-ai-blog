@@ -12,7 +12,7 @@ type: note
 
 Question: What does run-rate revenue mean?
 
-Answer: 
+Answer:
 
 **Run-rate revenue**（也称为 **annualized run rate** 或 **ARR run rate**）是一种根据当前的业绩表现，假设在没有任何变化的情况下持续发展，来推算公司全年总收入的方法。
 
@@ -24,23 +24,23 @@ Answer:
 
 ### Main ways to calculate run-rate revenue
 
-1. **最常见的公式 (Monthly run rate)**  
+1. **最常见的公式 (Monthly run rate)**
    Annual Run Rate (ARR) = 当前的 Monthly recurring revenue (MRR) × 12
 
-   Example:  
-   如果一家 SaaS 公司在 2026 年 1 月的 MRR 为 $85,000  
+   Example:
+   如果一家 SaaS 公司在 2026 年 1 月的 MRR 为 $85,000
    → Run-rate revenue = $85,000 × 12 = **$1,020,000 ARR**
 
-2. **Quarterly run rate**  
+2. **Quarterly run rate**
    Annual Run Rate = 当前季度收入 × 4
 
-   Example:  
-   第一季度收入 = $320,000  
+   Example:
+   第一季度收入 = $320,000
    → Run-rate revenue = $320,000 × 4 = **$1,280,000**
 
-3. **Last month / last week annualized**（通常用于极早期阶段或超高增长阶段）  
-   上个月收入 × 12  
-   或  
+3. **Last month / last week annualized**（通常用于极早期阶段或超高增长阶段）
+   上个月收入 × 12
+   或
    上周收入 × 52
 
 ### Important caveats
@@ -58,9 +58,9 @@ Answer:
 | Run-rate revenue | 如果当前节奏持续 12 个月的结果 | Future (projected) | No – 往往更高 |
 | ARR (SaaS) | 年度化的已签约经常性收入 | Current + future | 比原始 Run-rate 更保守 |
 
-简而言之：  
+简而言之：
 Run-rate revenue = 一种简单的表达方式，意思是 **“如果我们保持现在的表现，一整年的业绩大概就是这样。”**
 
-References:  
+References:
 
 - None (standard business/finance term, no specific source needed)

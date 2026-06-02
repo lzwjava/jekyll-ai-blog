@@ -12,7 +12,7 @@ type: note
 
 问题：在过去15年里，美国初创公司中有哪些引人注目的失败案例，例如Cruise等？
 
-回答： 
+回答：
 
 在过去15年（2010年至2025年）中，一些备受关注的美国初创公司经历了戏剧性的失败，这些公司通常获得巨额融资、受到极力追捧，但由于欺诈、运营问题、市场不匹配或外部因素而迅速崩溃。这些“引人注目”的案例凸显了风险投资支持的创新项目所固有的风险。以下是一些值得注意的例子：
 
@@ -32,15 +32,15 @@ type: note
 
 这些失败案例通常源于对未经证实技术的过度炒作、市场匹配度差、领导层问题或欺诈，尽管获得了顶级风险投资公司数十亿美元的资金。
 
-参考文献：  
+参考文献：
 
-- https://www.cbinsights.com/research/biggest-startup-failures/  
-- https://www.failory.com/failures  
-- https://en.wikipedia.org/wiki/Theranos  
-- https://en.wikipedia.org/wiki/WeWork  
-- https://en.wikipedia.org/wiki/Quibi  
-- https://en.wikipedia.org/wiki/Bankruptcy_of_FTX  
-- https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)  
-- https://www.theguardian.com/technology/2017/sep/01/juicero-silicon-valley-shutting-down  
-- https://techcrunch.com/2021/06/01/softbank-backed-construction-giant-katerra-said-to-be-shutting-down-after-raising-billions/  
+- https://www.cbinsights.com/research/biggest-startup-failures/
+- https://www.failory.com/failures
+- https://en.wikipedia.org/wiki/Theranos
+- https://en.wikipedia.org/wiki/WeWork
+- https://en.wikipedia.org/wiki/Quibi
+- https://en.wikipedia.org/wiki/Bankruptcy_of_FTX
+- https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)
+- https://www.theguardian.com/technology/2017/sep/01/juicero-silicon-valley-shutting-down
+- https://techcrunch.com/2021/06/01/softbank-backed-construction-giant-katerra-said-to-be-shutting-down-after-raising-billions/
 - https://www.cnbc.com/2024/12/15/end-of-gm-cruise-driverless-robotaxi.html

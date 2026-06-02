@@ -12,7 +12,7 @@ type: note
 
 Question: Please explain the following Chinese personal story in English, which is a testimony about overcoming neurosis through Morita therapy.
 
-Answer: 
+Answer:
 
 This is a personal testimony from someone who suffered from neurosis (referred to as "neurosis" or "shinkeishitsu" in Morita therapy contexts) for over a decade, experiencing intense fear, anxiety, and obsessive-compulsive symptoms during much of their school years. After practicing **Morita therapy**, they experienced a profound "shift in perspective" and suddenly left behind years of neurotic suffering, describing it as a rebirth. Motivated by this, they share their painful experiences, the path out of the neurosis, and their insights into Morita therapy, hoping to inspire others trapped in similar despair to persist and seek the right treatment through self-awareness and realization.
 
@@ -58,8 +58,8 @@ The author encourages those suffering: choose the hard path of authentic action,
 
 Morita therapy, developed by Japanese psychiatrist Shoma Morita in the early 20th century, emphasizes accepting emotions and symptoms as natural while focusing on purposeful action in reality, rather than fighting or analyzing them directly.
 
-References:  
+References:
 
-- [Morita therapy - Wikipedia](https://en.wikipedia.org/wiki/Morita_therapy)  
-- [Morita Therapy and the True Nature of Anxiety-Based Disorders (Shinkeishitsu) by Shoma Morita](https://sunypress.edu/Books/M/Morita-Therapy-and-the-True-Nature-of-Anxiety-Based-Disorders-Shinkeishitsu)  
+- [Morita therapy - Wikipedia](https://en.wikipedia.org/wiki/Morita_therapy)
+- [Morita Therapy and the True Nature of Anxiety-Based Disorders (Shinkeishitsu) by Shoma Morita](https://sunypress.edu/Books/M/Morita-Therapy-and-the-True-Nature-of-Anxiety-Based-Disorders-Shinkeishitsu)
 - [The Morita School of Japanese Psychology](http://www.moritaschool.com/read-me)

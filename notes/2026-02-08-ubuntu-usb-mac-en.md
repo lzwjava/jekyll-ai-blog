@@ -12,7 +12,7 @@ type: note
 
 Question: How to use dd to create a bootable Ubuntu disk from ubuntu-24.04.3-desktop-amd64.iso on macOS?
 
-Answer: 
+Answer:
 
 Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04.3 Desktop (amd64)** using the `dd` command on macOS. This method works reliably for both Intel and Apple Silicon Macs when targeting standard PC hardware (BIOS or UEFI).
 
@@ -27,7 +27,7 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
 
 2. **Open Terminal** (found in Applications → Utilities or via Spotlight).
 
-3. **Identify the correct disk number**  
+3. **Identify the correct disk number**
    Run this command:
    ```
    diskutil list
@@ -58,7 +58,7 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
    diskutil unmountDisk /dev/disk2
    ```
 
-5. **Write the ISO to the USB drive using `dd`**  
+5. **Write the ISO to the USB drive using `dd`**
    Use `/dev/rdiskN` (raw device — much faster than `/dev/diskN`).
 
    Basic safe command (recommended):
@@ -84,7 +84,7 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=8m conv=fsync
    ```
 
-6. **Wait for completion**  
+6. **Wait for completion**
    - It usually takes 3–15 minutes depending on USB speed.
    - When finished you’ll see output like:
      ```
@@ -116,7 +116,7 @@ You can now use this USB to:
 
 Good luck and triple-check the disk number before pressing Enter on the `dd` command!
 
-References:  
+References:
 
 - [https://documentation.ubuntu.com/desktop/en/latest/how-to/create-a-bootable-usb-stick](https://documentation.ubuntu.com/desktop/en/latest/how-to/create-a-bootable-usb-stick)
 - [https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command](https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command)

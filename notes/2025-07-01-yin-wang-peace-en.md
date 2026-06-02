@@ -9,27 +9,27 @@ type: note
 ---
 
 ### Key Points
-- Research suggests Yin Wang shows no signs of upset due to a focus on inner peace over external success.  
-- It seems likely he does not pursue success, prioritizing authenticity and intellectual honesty.  
-- The evidence leans toward him being brave, as he expresses controversial opinions fearlessly.  
-- His characteristics include resilience, intellectual courage, and a philosophical approach to life.  
-- We can learn from him to value truth, embrace authenticity, and find fulfillment beyond societal metrics.  
+- Research suggests Yin Wang shows no signs of upset due to a focus on inner peace over external success.
+- It seems likely he does not pursue success, prioritizing authenticity and intellectual honesty.
+- The evidence leans toward him being brave, as he expresses controversial opinions fearlessly.
+- His characteristics include resilience, intellectual courage, and a philosophical approach to life.
+- We can learn from him to value truth, embrace authenticity, and find fulfillment beyond societal metrics.
 
 ---
 
-### Why Yin Wang Shows No Signs of Upset  
+### Why Yin Wang Shows No Signs of Upset
 Yin Wang, a computer scientist and blogger, appears to show no signs of upset due to his focus on inner peace rather than external validation. His blog titles, such as "Surely I Am Joking" ([Yin Wang's WordPress Blog](https://yinwang0.wordpress.com/)) and "当然我在扯淡" (Of course I'm talking nonsense) on his main blog ([Yin Wang's Blog](http://www.yinwang.org/)), suggest a humorous and self-deprecating tone, indicating he does not take societal expectations of success too seriously. This aligns with a philosophical approach, possibly influenced by Eastern traditions like Taoism, where one accepts life's natural flow and does not cling to outcomes.
 
-### Not Pursuing Success and Not Upset by It  
+### Not Pursuing Success and Not Upset by It
 Yin Wang does not seem to pursue traditional success, as his writings focus on technical clarity and personal reflections rather than self-promotion. His lack of upset over this is likely tied to his prioritization of authenticity and intellectual honesty over societal metrics. For example, his Substack posts ([Yin Wang's Substack](https://yinwang0.substack.com/)) often delve into deep technical and philosophical topics, suggesting he values contribution over recognition.
 
-### Very Brave  
+### Very Brave
 Yin Wang's bravery is evident in his willingness to express controversial opinions, particularly in the tech community. His readiness to critique mainstream ideas, as seen in his blog posts, shows he is not afraid of backlash, aligning with the user's description of him as "very brave."
 
-### Analyzing His Characteristics  
+### Analyzing His Characteristics
 Yin Wang's characteristics include resilience, as he remains unfazed by criticism; intellectual courage, shown by his fearless expression of ideas; and a philosophical approach, likely influenced by a blend of Eastern and Stoic philosophies, emphasizing inner peace and truth.
 
-### What We Can Learn from Him  
+### What We Can Learn from Him
 From Yin Wang, we can learn to prioritize inner fulfillment over external success, embrace authenticity by staying true to our beliefs, cultivate intellectual courage to challenge norms, and value truth and clarity in our pursuits. His approach encourages finding personal satisfaction beyond societal metrics.
 
 ---

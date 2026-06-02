@@ -17,7 +17,7 @@ Avaloq is a proprietary core banking software platform used by financial institu
 #### Typical Structure of Avaloq Errors
 From general knowledge of Avaloq's system (based on developer forums, support snippets, and industry reports), errors often follow this pattern:
 - **Format**: Errors are usually prefixed with "ERR-" or a numeric code, followed by a descriptive message. They can be categorized by module (e.g., ACS for Core Services, AMS for Asset Management).
-- **Code Ranges**: 
+- **Code Ranges**:
   - Common codes are in the 1000–9999 range, often grouped by severity or type:
     - **1000s**: General system errors (e.g., authentication failures, invalid inputs).
     - **2000s**: Business logic errors (e.g., insufficient funds, invalid transaction types).

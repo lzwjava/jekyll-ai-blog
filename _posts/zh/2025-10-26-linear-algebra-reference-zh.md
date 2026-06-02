@@ -98,6 +98,6 @@ type: note
 
 明日考试顺利——重在理解而非死记！
 
-[线性代数速查表 - Laurent Lessard](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)  
-[线性代数复习 - Yiping Lu](https://2prime.github.io/files/linear/finalsheet.pdf)  
+[线性代数速查表 - Laurent Lessard](https://laurentlessard.com/teaching/ece532/cheat_sheet.pdf)
+[线性代数复习 - Yiping Lu](https://2prime.github.io/files/linear/finalsheet.pdf)
 [2023年自测线性代数试题](https://doc.quark.cn/preview/jiaoyukaoshi-shijuan-gaokao/1130FC966EE595249D3822AFF5DF0167)

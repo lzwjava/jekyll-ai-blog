@@ -58,6 +58,6 @@ vLLM 是一个专为大语言模型（LLM）推理与服务设计的高性能库
 ### 总结
 vLLM 的高性能源于多重技术组合：优化的内存管理（PagedAttention、分块预填充）、高效的请求处理（持续批处理）、硬件加速（CUDA/HIP 图、优化内核、FlashAttention/FlashInfer）以及模型压缩（量化）。推测解码等技术进一步增强了生成速度。这些特性共同使 vLLM 成为支撑高吞吐、低延迟大规模 LLM 部署的强大工具。
 
-**参考文献**：  
-[vLLM 文档](https://vllm.ai/)  
+**参考文献**：
+[vLLM 文档](https://vllm.ai/)
 [FlashAttention 论文](https://arxiv.org/abs/2205.14135)

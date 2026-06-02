@@ -33,7 +33,7 @@ Here is a quiz based on the "Microcomputer and Interface Technology" course outl
 **4. Which of the following is NOT a data transfer mode?**
 * Program-controlled
 * Interrupt-driven
-* Direct Memory Access 
+* Direct Memory Access
 * Multithreading
 
 **5. What is the primary function of the 8259A chip?**

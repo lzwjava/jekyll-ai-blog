@@ -22,30 +22,30 @@ The Spanning Tree Protocol (STP) is a Layer 2 network protocol defined in IEEE 8
 - Operates transparently to end devices (PCs, servers, etc.) – they see only one active path.
 
 ### Core Components of STP (Original 802.1D)
-1. **Bridge ID (BID)**  
-   8 bytes: 2-byte Bridge Priority (default 32768) + 6-byte MAC address).  
+1. **Bridge ID (BID)**
+   8 bytes: 2-byte Bridge Priority (default 32768) + 6-byte MAC address).
    Lower BID = more likely to become Root Bridge.
 
-2. **Root Bridge**  
-   The “reference point” of the entire spanning-tree topology.  
-   Every other switch calculates its best path toward the Root.  
+2. **Root Bridge**
+   The “reference point” of the entire spanning-tree topology.
+   Every other switch calculates its best path toward the Root.
    Only one Root Bridge per network (or per VLAN in later versions).
 
-3. **Path Cost**  
-   Cost of traversing a link, based on bandwidth (IEEE 802.1D-1998 values):  
-   - 10 Mbps → 100  
-   - 100 Mbps → 19  
-   - 1 Gbps → 4  
-   - 10 Gbps → 2  
+3. **Path Cost**
+   Cost of traversing a link, based on bandwidth (IEEE 802.1D-1998 values):
+   - 10 Mbps → 100
+   - 100 Mbps → 19
+   - 1 Gbps → 4
+   - 10 Gbps → 2
    (Modern “short mode” in 802.1t uses smaller numbers: 1G = 20 000, 10G = 2 000, etc.)
 
-4. **Port Roles**  
-   - Root Port (RP): Best path toward the Root Bridge on each non-root switch (lowest cumulative path cost). Only one per switch (except Root).  
-   - Designated Port (DP): Port that forwards traffic toward the Root on each LAN segment. Only one per segment.  
+4. **Port Roles**
+   - Root Port (RP): Best path toward the Root Bridge on each non-root switch (lowest cumulative path cost). Only one per switch (except Root).
+   - Designated Port (DP): Port that forwards traffic toward the Root on each LAN segment. Only one per segment.
    - Blocked Port (Alternate/Backup): All other ports – they listen but do not forward any traffic (prevents loops).
 
-5. **Port States** (original 802.1D – very slow convergence)  
-   - Blocking → Listening → Learning → Forwarding (20–50 seconds total)  
+5. **Port States** (original 802.1D – very slow convergence)
+   - Blocking → Listening → Learning → Forwarding (20–50 seconds total)
    - Disabled
 
 ### STP Election and Operation Process
@@ -85,7 +85,7 @@ The Spanning Tree Protocol (STP) is a Layer 2 network protocol defined in IEEE 8
 ### Example Topology (simple)
 
 ```
-         [SW1 - Root] 
+         [SW1 - Root]
         /    1G    \
    1G /            \ 1G
 [SW2]              [SW3]
@@ -94,8 +94,8 @@ The Spanning Tree Protocol (STP) is a Layer 2 network protocol defined in IEEE 8
      [SW4]------[SW5]
 ```
 
-SW1 will be Root (assume lowest BID).  
-SW2 and SW3 will have their ports to SW1 as Root Ports.  
+SW1 will be Root (assume lowest BID).
+SW2 and SW3 will have their ports to SW1 as Root Ports.
 The link SW2–SW4–SW5–SW3 will have the highest cost path, so one port on that segment (likely on SW4 or SW5) will be blocked.
 
 ### Summary Table of STP Timers (default)
@@ -112,7 +112,7 @@ In modern networks, almost everyone uses Rapid STP (802.1w) or its Cisco variant
 STP is the foundation of Layer 2 redundancy in Ethernet networks. Even with newer technologies (TRILL, SPB, VXLAN with EVPN), understanding classic and rapid STP remains essential for any network engineer.
 
 References:
-- IEEE 802.1D-2004 Standard  
-- IEEE 802.1w-2001 (Rapid Spanning Tree Protocol)  
-- IEEE 802.1Q-2018 (includes MSTP)  
+- IEEE 802.1D-2004 Standard
+- IEEE 802.1w-2001 (Rapid Spanning Tree Protocol)
+- IEEE 802.1Q-2018 (includes MSTP)
 - Cisco Press – “CCNP SWITCH 300-115 Official Cert Guide” (Chapters on STP)

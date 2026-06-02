@@ -30,8 +30,8 @@ type: note
 
 这些产品服务于零售、交通、公共安全、智慧城市等行业，着重通过AI技术融合提升运营效率。
 
-[产品总览 - 海康威视美国](https://www.hikvision.com/us-en/products/)  
-[海康威视网络产品](https://www.hikvision.com/en/products/IP-Products/)  
-[海康威视摄像机与监控产品](https://www.surveillance-video.com/hikvision)  
-[产品指南 | 2023-2024冬季版 | 海康威视](https://www.hikvision.com/content/dam/hikvision/usa/marketing/materials/product-quick-guide/ADI-PQG_Winter_2023-2024.pdf)  
+[产品总览 - 海康威视美国](https://www.hikvision.com/us-en/products/)
+[海康威视网络产品](https://www.hikvision.com/en/products/IP-Products/)
+[海康威视摄像机与监控产品](https://www.surveillance-video.com/hikvision)
+[产品指南 | 2023-2024冬季版 | 海康威视](https://www.hikvision.com/content/dam/hikvision/usa/marketing/materials/product-quick-guide/ADI-PQG_Winter_2023-2024.pdf)
 [海康威视 - ADI](https://www.adiglobaldistribution.us/shop-brands/hikvision)

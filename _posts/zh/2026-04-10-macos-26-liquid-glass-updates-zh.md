@@ -37,9 +37,9 @@ macOS 26 Tahoe是当前macOS的主要版本（接替macOS 15 Sequoia）。它于
 
 macOS 26仍是当前受支持的主要版本，而Sequoia（15.x）等较早版本虽然仍接收安全补丁，但已无重大新功能。
 
-参考来源：  
-- https://www.macworld.com/article/672681/list-of-all-macos-versions-including-the-latest-macos.html  
-- https://en.wikipedia.org/wiki/MacOS_version_history  
-- https://appleinsider.com/articles/26/04/09/apple-has-released-macos-2641-with-unspecified-bug-fixes  
-- https://9to5mac.com/2026/04/09/apple-releases-macos-26-4-1-software-update-details-here/  
+参考来源：
+- https://www.macworld.com/article/672681/list-of-all-macos-versions-including-the-latest-macos.html
+- https://en.wikipedia.org/wiki/MacOS_version_history
+- https://appleinsider.com/articles/26/04/09/apple-has-released-macos-2641-with-unspecified-bug-fixes
+- https://9to5mac.com/2026/04/09/apple-releases-macos-26-4-1-software-update-details-here/
 - https://support.apple.com/en-us/100100 (Apple安全更新)

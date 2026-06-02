@@ -11,7 +11,7 @@ type: note
 
 Question: According to topology structure, computer networks can be classified into bus networks, ______, star networks, tree networks, and mesh networks. What is the missing type?
 
-Answer: 
+Answer:
 
 The missing type is **Ring Network** (or **环形网络** in Chinese).
 

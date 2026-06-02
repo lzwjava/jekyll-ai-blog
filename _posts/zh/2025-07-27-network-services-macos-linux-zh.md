@@ -33,7 +33,7 @@ type: note
 
 这些术语常见于 `netstat`、`lsof` 或防火墙配置（如 macOS 的 pf、Linux 的 iptables/ufw）等工具中。如需准确定义，请查阅系统的 `/etc/services` 文件或 IANA 端口注册表。
 
-**参考资料**  
-[服务名称与传输协议端口号注册表](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)  
-[什么是带有 commplex-link 的开放端口？ - Apple 社区](https://discussions.apple.com/thread/7747034)  
+**参考资料**
+[服务名称与传输协议端口号注册表](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+[什么是带有 commplex-link 的开放端口？ - Apple 社区](https://discussions.apple.com/thread/7747034)
 [在 macOS 上运行 virt-manager 和 libvirt](https://www.arthurkoziel.com/running-virt-manager-and-libvirt-on-macos/)

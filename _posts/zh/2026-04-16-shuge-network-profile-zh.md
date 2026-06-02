@@ -57,7 +57,7 @@ type: note
 
 **海外业务定位**：专注于为全球用户开发和运营**有趣的休闲游戏**
 
-**官方网站**：www.shugechina.com 
+**官方网站**：www.shugechina.com
 
 ---
 

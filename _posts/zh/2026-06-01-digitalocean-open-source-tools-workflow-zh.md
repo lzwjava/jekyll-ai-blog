@@ -93,10 +93,10 @@ case $1 in
       --ssh-keys $(doctl compute ssh-key list --no-header --format ID) \
       --wait \
       --format ID --no-header)
-    
+
     # 挂载卷
     doctl compute volume-action attach $VOLUME_ID $DROPLET_ID --wait
-    
+
     # 获取 IP
     IP=$(doctl compute droplet get $DROPLET_ID --format PublicIPv4 --no-header)
     echo "已就绪：ssh root@$IP"

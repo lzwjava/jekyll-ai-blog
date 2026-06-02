@@ -34,8 +34,8 @@ In the context of IBM WebSphere Application Server (WAS), JMS is natively suppor
 - **Choose Kafka** for scalable, event-driven architectures needing historical data access or integration with non-WAS systems (e.g., big data ingestion from WAS apps).
 - Hybrid setups are common: Use JMS for intra-WAS messaging and Kafka for outbound streaming, bridged via connectors.
 
-[Comparison: JMS Message Queue vs. Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)  
-[Configuring JMS resources in WebSphere Application Server](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)  
-[Creating a Kafka channel for publishing MDM data](https://www.ibm.com/docs/en/imdm/12.0.0?topic=kafka-creating-channel-publishing-mdm-data)  
-[When to use JMS with WebSphere inbuilt messaging provider vs. a full-fledged MQ](https://stackoverflow.com/questions/11215031/when-to-use-jms-with-websphere-inbuilt-messaging-provider-vs-a-full-fledged-mq)  
+[Comparison: JMS Message Queue vs. Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)
+[Configuring JMS resources in WebSphere Application Server](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)
+[Creating a Kafka channel for publishing MDM data](https://www.ibm.com/docs/en/imdm/12.0.0?topic=kafka-creating-channel-publishing-mdm-data)
+[When to use JMS with WebSphere inbuilt messaging provider vs. a full-fledged MQ](https://stackoverflow.com/questions/11215031/when-to-use-jms-with-websphere-inbuilt-messaging-provider-vs-a-full-fledged-mq)
 [IBM MQ vs. Kafka vs. ActiveMQ: Comparing Message Brokers](https://www.openlogic.com/blog/ibm-mq-vs-kafka-vs-activemq)

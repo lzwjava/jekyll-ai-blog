@@ -11,7 +11,7 @@ type: note
 
 Question: Why is the answer "Connection-Oriented service" instead of "Modem Dial-up service"?
 
-Answer: 
+Answer:
 
 The reason the answer is **Connection-Oriented service** rather than **Modem Dial-up service** lies in the distinction between a **network architecture concept** and a specific **physical technology**.
 
@@ -38,7 +38,7 @@ If the answer were "Modem Dial-up," it would imply that *only* systems that phys
 **Conclusion:**
 The question asks for the type of **network service** defined by the *process flow* (setup, transfer, teardown). **Connection-Oriented** is the standard terminology for this service model. "Modem Dial-up" is merely a historical example of a technology that utilized this model, but it is not the name of the service model itself.
 
-References:  
+References:
 
 - [Connection-oriented communication - Wikipedia](https://en.wikipedia.org/wiki/Connection-oriented_communication)
 - [TCP vs UDP: Understanding the Difference - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-udp/)

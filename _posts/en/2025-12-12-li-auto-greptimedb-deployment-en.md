@@ -12,7 +12,7 @@ type: note
 
 Question: Do all Li Auto cars use GreptimeDB?
 
-Answer: 
+Answer:
 
 No, not every Li Auto car uses GreptimeDB.
 

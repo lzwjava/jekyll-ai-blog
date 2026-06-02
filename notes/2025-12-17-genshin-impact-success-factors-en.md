@@ -12,7 +12,7 @@ type: note
 
 Question: Why is Genshin Impact so successful?
 
-Answer: 
+Answer:
 
 Genshin Impact, developed by HoYoverse (formerly miHoYo), has been a global phenomenon since its 2020 launch, generating over $10 billion in lifetime revenue by late 2025 (with projections hitting that milestone by year-end) and maintaining 15-17 million monthly active users as of December 2025. It remains one of the top-grossing mobile and cross-platform games, earning around $0.7-0.8 billion annually even five years in. Its success stems from a perfect storm of innovative design, accessibility, and business savvy.
 
@@ -36,10 +36,10 @@ Genshin Impact, developed by HoYoverse (formerly miHoYo), has been a global phen
 
 In 2025, with Natlan wrapped and Snezhnaya teased, Genshin's formula—quality-first F2P live service—ensures enduring dominance, proving Chinese studios can rival global giants.
 
-References:  
-- [Genshin Impact Wikipedia](https://en.wikipedia.org/wiki/Genshin_Impact)  
-- [Genshin Impact Revenue & Stats (Business of Apps)](https://www.businessofapps.com/data/genshin-impact-statistics/)  
-- [Genshin Impact Live Player Count (ActivePlayer.io)](https://activeplayer.io/genshin-impact/)  
-- [Genshin Impact 2025: 15.2M Players & $0.8B Revenue (BitTopup)](https://news.bittopup.com/news/genshin-impact-2025-15.2m-players-0.8b-revenue)  
-- [Why Genshin Impact is So Popular (TopUpLive)](https://www.topuplive.com/news/Why-genshin-impact-is-so-popular-a-deep-dive-into-its-success.html)  
+References:
+- [Genshin Impact Wikipedia](https://en.wikipedia.org/wiki/Genshin_Impact)
+- [Genshin Impact Revenue & Stats (Business of Apps)](https://www.businessofapps.com/data/genshin-impact-statistics/)
+- [Genshin Impact Live Player Count (ActivePlayer.io)](https://activeplayer.io/genshin-impact/)
+- [Genshin Impact 2025: 15.2M Players & $0.8B Revenue (BitTopup)](https://news.bittopup.com/news/genshin-impact-2025-15.2m-players-0.8b-revenue)
+- [Why Genshin Impact is So Popular (TopUpLive)](https://www.topuplive.com/news/Why-genshin-impact-is-so-popular-a-deep-dive-into-its-success.html)
 - [Research on the Reasons for the Success of Genshin Impact (ResearchGate)](https://www.researchgate.net/publication/373922639_Research_on_the_Reasons_for_the_Success_of_Genshin_Impact)

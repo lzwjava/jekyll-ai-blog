@@ -12,7 +12,7 @@ type: note
 
 Question: Does "unicast" in networking mean "unique cast"? What is the original meaning of this word?
 
-Answer: 
+Answer:
 
 Yes, "unicast" in networking effectively means a "unique cast" or transmission to a single, unique recipient. It refers to **one-to-one communication**, where data packets are sent from one sender to exactly one specific receiver, identified by a unique network address (such as an IP address).
 
@@ -30,7 +30,7 @@ The word "unicast" was coined in the context of packet-switched networks in the 
 
 Unicast is the most common form of network traffic today, used in everyday activities like browsing websites, sending emails, or streaming video to a single user.
 
-References:  
+References:
 
 - [Unicast - Wikipedia](https://en.wikipedia.org/wiki/Unicast)
 - [Unicast, Broadcast, and Multicast - University of Aberdeen](https://erg.abdn.ac.uk/users/gorry/course/intro-pages/uni-b-mcast.html)

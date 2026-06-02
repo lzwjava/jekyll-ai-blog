@@ -28,7 +28,7 @@ type: note
 
 #### 对你的优势：
 - **技能互补**：你的 Java 经验会让 Rust 的语法感觉有些熟悉（两者都是类 C 语言且强类型），但 Rust 在 Java 可能显得冗长或性能不足的领域表现出色，例如底层系统工作、并发或优化分布式系统。你对网络、容器、微服务和云平台（阿里云、AWS、Azure）的熟悉，将使 Rust 成为后端工具库的有力补充——例如构建更快的 API、CLI 工具，或与基于 Rust 的服务（如 AWS 内部越来越多使用的服务）集成。
-  
+
 - **职业与机会提升**：Rust 的日益普及为进入科技巨头、金融科技（与你的汇丰/星展银行外包经验相符）、Web3/区块链或嵌入式/IoT 项目的高需求岗位打开了大门。作为一名拥有开源贡献（10 个 GitHub 项目）的自由职业者，掌握 Rust 可以让你处理性能关键的开源工作，或为 Actix（Web）或 Tokio（异步）等生态做出贡献。你的算法解决背景（1000+ 问题，NOIP 前 300）将有助于应对 Rust 借用检查器的挑战，而你的自学能力（辍学后通过自学获得专科学历）适合 Rust 陡峭但回报丰厚的学习曲线。
 
 - **更广泛的益处**：作为一名生活黑客和 AI 爱好者（阅读 2000+ AI 答案，广泛使用工具），Rust 的安全特性对于构建可靠的 AI 代理或 ML 管道（例如通过 ndarray 或 tch-rs 等 crate 集成 Torch）具有吸引力。它符合你的创业思维——例如原型化高效应用或游戏（你通过工具使用 pygame，但 Rust 有 Bevy 用于游戏开发）。在中国/广州，Rust 在科技中心逐渐受到关注，可能适用于跨境项目（你的美国旅行经历和英语能力）。
@@ -37,20 +37,20 @@ type: note
 
 #### 劣势与考量：
 - **学习曲线与时间成本**：Rust 的所有权模型和生命周期最初可能令人沮丧，尤其是如果你习惯了 Java/JS 等垃圾回收语言。如果你当前的技术栈（Java、JS、移动开发）能满足大部分需求，除非你关注系统编程或在项目中替代 C/C++ 等特定领域，否则学习 Rust 可能并不紧迫。
-  
+
 - **与工作的相关性**：你在银行/外包领域（TEKsystems、LeanCloud）的角色通常优先考虑快速开发而非微优化。Rust 在新项目或重写中表现出色，但在企业全栈中的采用可能落后于 Java/Go。如果你专注于前端/ML，学习 Rust 可能有些过度。
 
 - **替代方案**：如果时间有限，可以考虑学习 Go 以简化并发，或坚持使用 Java 以保持稳定。但如果你对当前技术栈感到厌倦（作为一名测试过 500+ 应用的产品导向工程师），Rust 可能会重新点燃你的热情。
 
 总的来说，我认为是的——如果你希望让技能面向未来、深入性能工程或扩展开源/作品集，学习 Rust 是值得的。可以从小型项目开始（例如用 Rust 重写一个 Java CLI）来试水。你的个人资料显示出“自主学习能力极强”，因此你一定能胜任。
 
-参考文献：  
-[Is Rust the Future of Programming? | The RustRover Blog](https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/)  
-[Once again, Rust is the most admired language in the 2025 Stack ...](https://www.reddit.com/r/rust/comments/1mcjdc9/once_again_rust_is_the-most_admired_language_in/)  
-[Is Rust Still Surging in 2025? Usage and Ecosystem Insights](https://www.zenrows.com/blog/rust-popularity)  
-[6 Strategic Use Cases for Migrating to Rust in 2025 - Evrone](https://evrone.com/blog/migrating-to-rust-in-2025)  
-[Rust adoption guide following the example of tech giants - Xenoss](https://xenoss.io/blog/rust-adoption-and-migration-guide)  
-[The Future of Rust Programming Language: Unleashing a New Era ...](https://hblabgroup.com/the-future-of-rust-programming-language/)  
-[Technology | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology)  
-[Rust Overtakes C in System Programming Adoption Rates](https://dev.to/srijan-xi/rust-overtakes-c-in-system-programming-adoption-ra-c06)  
+参考文献：
+[Is Rust the Future of Programming? | The RustRover Blog](https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/)
+[Once again, Rust is the most admired language in the 2025 Stack ...](https://www.reddit.com/r/rust/comments/1mcjdc9/once_again_rust_is_the-most_admired_language_in/)
+[Is Rust Still Surging in 2025? Usage and Ecosystem Insights](https://www.zenrows.com/blog/rust-popularity)
+[6 Strategic Use Cases for Migrating to Rust in 2025 - Evrone](https://evrone.com/blog/migrating-to-rust-in-2025)
+[Rust adoption guide following the example of tech giants - Xenoss](https://xenoss.io/blog/rust-adoption-and-migration-guide)
+[The Future of Rust Programming Language: Unleashing a New Era ...](https://hblabgroup.com/the-future-of-rust-programming-language/)
+[Technology | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology)
+[Rust Overtakes C in System Programming Adoption Rates](https://dev.to/srijan-xi/rust-overtakes-c-in-system-programming-adoption-ra-c06)
 [Rust in 2025: Trends, Tools, and Controversies](https://lucisqr.substack.com/p/rust-in-2025-trends-tools-and-controversies)

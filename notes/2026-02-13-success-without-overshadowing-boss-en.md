@@ -12,7 +12,7 @@ type: note
 
 Question: How to avoid outshining your boss in a corporate environment, and what should a software engineer be careful about?
 
-Answer: 
+Answer:
 
 In corporate settings — especially in software engineering — the old advice from Robert Greene's *48 Laws of Power* still applies in many places: **Never outshine the master**. This doesn't mean you should hide your talent or underperform. It means being strategic about **visibility**, **credit**, **timing**, and **framing** so you don't unintentionally trigger insecurity, jealousy, or political backlash from your manager or higher-ups.
 
@@ -20,27 +20,27 @@ Many talented engineers have damaged (or even ended) their run at a company by b
 
 ### Key Things Software Engineers Should Be Careful About
 
-1. **Publicly correcting your manager in meetings / reviews / architecture discussions**  
-   - Even when they are clearly wrong about a technical fact, never correct them in front of others without softening it heavily.  
-   - Preferred pattern: “Building on what X just said, I was thinking we could also explore Y because of Z — what do you think?”  
+1. **Publicly correcting your manager in meetings / reviews / architecture discussions**
+   - Even when they are clearly wrong about a technical fact, never correct them in front of others without softening it heavily.
+   - Preferred pattern: “Building on what X just said, I was thinking we could also explore Y because of Z — what do you think?”
    - Worst pattern: “Actually that's not correct, the right way is …”
 
-2. **Taking solo credit for big wins that the manager wants to present**  
-   - When you fix a production outage overnight, discover a major cost-saving optimization, or deliver a high-visibility feature early → **feed the win upward through your manager first**.  
-   - Say: “I think this could look good in your next leadership update — would you like me to prepare some slides / numbers?”  
+2. **Taking solo credit for big wins that the manager wants to present**
+   - When you fix a production outage overnight, discover a major cost-saving optimization, or deliver a high-visibility feature early → **feed the win upward through your manager first**.
+   - Say: “I think this could look good in your next leadership update — would you like me to prepare some slides / numbers?”
    - Many insecure managers will quietly block or marginalize people who bypass them to higher leadership.
 
-3. **Repeatedly showing deeper technical knowledge than your manager in their presence**  
-   - Especially dangerous if your manager used to be (or still thinks they are) a strong engineer.  
-   - They may feel threatened and start micromanaging, gatekeeping opportunities, or giving you bad reviews.  
+3. **Repeatedly showing deeper technical knowledge than your manager in their presence**
+   - Especially dangerous if your manager used to be (or still thinks they are) a strong engineer.
+   - They may feel threatened and start micromanaging, gatekeeping opportunities, or giving you bad reviews.
    - Counter-measure: ask questions you already know the answer to so they can demonstrate expertise.
 
-4. **Bypassing hierarchy with “great ideas” directly to directors / VP / CTO**  
-   - Even if your Slack/Teams message to a senior leader is brilliant, it can be seen as political manoeuvring.  
+4. **Bypassing hierarchy with “great ideas” directly to directors / VP / CTO**
+   - Even if your Slack/Teams message to a senior leader is brilliant, it can be seen as political manoeuvring.
    - Safe route: loop your manager in (“cc-ing my manager for visibility”) or ask them to forward it.
 
-5. **Becoming the go-to person for everything (the team's real leader)**  
-   - If people start treating you as the de-facto tech lead while the official lead exists, you create a parallel power structure.  
+5. **Becoming the go-to person for everything (the team's real leader)**
+   - If people start treating you as the de-facto tech lead while the official lead exists, you create a parallel power structure.
    - This almost always ends badly unless your manager is extremely secure.
 
 ### Practical Tactics That Let You Shine Without Burning Bridges
@@ -61,7 +61,7 @@ Many talented engineers have damaged (or even ended) their run at a company by b
 
 Be excellent. Just be excellent **strategically**.
 
-References:  
+References:
 
 - [The 48 Laws of Power — Law 1: Never Outshine the Master (Farnam Street summary)](https://fs.blog/never-outshine-the-master)
 - [A Software Developer's Guide to Dealing With Your Boss (Simple Programmer)](https://simpleprogrammer.com/dealing-with-your-boss)

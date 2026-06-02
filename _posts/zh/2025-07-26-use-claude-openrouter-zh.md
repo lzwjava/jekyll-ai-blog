@@ -107,8 +107,8 @@ print(data['choices'][0]['message']['content'])
 
 此设置让您无需直接访问 Anthropic 即可编程使用 Claude。如果您需要与特定工具（例如 Cursor IDE 或 Make.com）集成，请搜索相关教程。
 
-参考文献：  
-[OpenRouter 文档](https://openrouter.ai/docs)  
-[OpenRouter 上的 Anthropic Claude](https://openrouter.ai/anthropic/claude-3.5-sonnet)  
-[在中国使用 OpenRouter](https://medium.com/ai-simplified-in-plain-english/not-re-inventing-the-wheel-in-ai-2ec3e76ae2bd)  
+参考文献：
+[OpenRouter 文档](https://openrouter.ai/docs)
+[OpenRouter 上的 Anthropic Claude](https://openrouter.ai/anthropic/claude-3.5-sonnet)
+[在中国使用 OpenRouter](https://medium.com/ai-simplified-in-plain-english/not-re-inventing-the-wheel-in-ai-2ec3e76ae2bd)
 [如何在中国使用 Claude](https://www.comparitech.com/blog/vpn-privacy/how-to-use-claude-in-china/)

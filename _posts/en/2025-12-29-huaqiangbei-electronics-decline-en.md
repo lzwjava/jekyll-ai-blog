@@ -12,7 +12,7 @@ type: note
 
 Question: One of the reasons that Huaqiangbei has not returned to its peak is that, besides online shopping, there are now many cities with official Apple, Xiaomi, and Huawei stores, similar to how Tianhe Computer City in Guangzhou has changed. In the 2000s, people would go to physical stores to buy electronics onsite, right? And even Tianhe Computer City has now shifted to repair shops and canteens, etc.
 
-Answer: 
+Answer:
 
 Yes, your observation is largely correct. Huaqiangbei in Shenzhen, once the undisputed global hub for electronics retail and components during its peak in the 2000s and early 2010s, has not fully regained that dominance due to several interconnected factors.
 
@@ -28,7 +28,7 @@ Regarding **Tianhe Computer City** in Guangzhou (part of the Gangding/Tianhe ele
 
 Overall, the shift from chaotic, independent electronics markets to organized official channels and online platforms reflects broader changes in China's consumer electronics landscape.
 
-References:  
+References:
 
 - [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
 - [Reddit discussion on Huaqiangbei decline (2024)](https://www.reddit.com/r/shenzhen/comments/1f2fhph/disappointed_in_huaqiangbei_am_i_looking_in_the/)

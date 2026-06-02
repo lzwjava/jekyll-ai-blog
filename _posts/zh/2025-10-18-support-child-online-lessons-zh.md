@@ -37,8 +37,8 @@ type: note
 
 持续性胜过强度是关键；即使每周2-3节课加上家庭火花也会在1-2个月内显示结果，比如他们出乎意料地主动说出水果名称。您已经通过早期开始做得很好了——保持快乐！
 
-**参考资料**  
-[如何开始在家教孩子英语](https://learnenglishkids.britishcouncil.org/parents/helping-your-child/how-start-teaching-kids-english-home)  
-[如何在家教孩子说英语（12个技巧）](https://preply.com/en/blog/teach-a-kid-to-speak-english/)  
-[帮助孩子在家学习英语的五大技巧](https://www.britishcouncil.my/english/courses-children/resources/help-your-child-learn-english-home)  
+**参考资料**
+[如何开始在家教孩子英语](https://learnenglishkids.britishcouncil.org/parents/helping-your-child/how-start-teaching-kids-english-home)
+[如何在家教孩子说英语（12个技巧）](https://preply.com/en/blog/teach-a-kid-to-speak-english/)
+[帮助孩子在家学习英语的五大技巧](https://www.britishcouncil.my/english/courses-children/resources/help-your-child-learn-english-home)
 [激励孩子学习英语：技巧与策略](https://onlineteachersuk.com/motivate-child-to-learn-english/)

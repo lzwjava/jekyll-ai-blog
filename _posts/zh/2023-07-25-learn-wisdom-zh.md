@@ -17,12 +17,12 @@ type: post
 
 接下来，我会分享更多关于王垠的网站信息：
 
-中国微博账号：不再关心人类de垠  
-中国WordPress博客：https://yinwang1.wordpress.com  
-中文博客：http://www.yinwang.org  
-英文Substack：https://yinwang0.substack.com  
-英文WordPress：https://yinwang0.wordpress.com  
-英文Twitter：https://twitter.com/yinwang0  
+中国微博账号：不再关心人类de垠
+中国WordPress博客：https://yinwang1.wordpress.com
+中文博客：http://www.yinwang.org
+英文Substack：https://yinwang0.substack.com
+英文WordPress：https://yinwang0.wordpress.com
+英文Twitter：https://twitter.com/yinwang0
 
 我将在未来介绍更多关于他的内容。现在，我们来聚焦于关于学习智慧的讨论。
 
@@ -176,19 +176,19 @@ type: post
 
 就像我的女儿，我发现她对于只是走路已经感到相当无聊，她开始跑步了。她对于五颜六色的书也有些厌倦了，她非常喜欢动画片。而她真正喜欢的是动画本身，语言并不那么重要。所以她很愿意看英语动画片。几个月后，我发现她竟能唱出《Baby Shark》这首歌的一半。
 
-> Baby Shark, doo-doo, doo-doo  
-> Baby Shark, doo-doo, doo-doo   
-> Mommy Shark, doo-doo, doo-doo   
-> Mommy Shark, doo-doo, doo-doo  
-> Daddy Shark, doo-doo, doo-doo  
+> Baby Shark, doo-doo, doo-doo
+> Baby Shark, doo-doo, doo-doo
+> Mommy Shark, doo-doo, doo-doo
+> Mommy Shark, doo-doo, doo-doo
+> Daddy Shark, doo-doo, doo-doo
 > Daddy Shark, doo-doo, doo-doo
 
 就像我一样，我发现我在听了大约500遍之后竟能唱出日本歌曲《真夜中のドア》的一部分。
 
-> 私は私 貴方は貴方と   
-> 昨夜言ってた そんな気もするわ   
-> ...  
-> Stay with me…   
-> 真夜中のドアをたたき  
+> 私は私 貴方は貴方と
+> 昨夜言ってた そんな気もするわ
+> ...
+> Stay with me…
+> 真夜中のドアをたたき
 
 随着机器学习现在非常火热，我可能需要把它变成一种爱好，而不是一份严肃的工作。所以对于你，我希望你也能把你需要学习的东西或当下的事情变成一种爱好。这样，即使我们在考试、面试、工作上表现不好，或难带小孩，至少我们会有一些乐趣。

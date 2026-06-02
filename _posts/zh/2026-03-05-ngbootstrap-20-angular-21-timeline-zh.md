@@ -11,7 +11,7 @@ type: note
 
 问题：ng-bootstrap 20.0.0 发布时，哪些 Angular 21 版本已经发布？
 
-回答： 
+回答：
 
 **ng-bootstrap 20.0.0 于 2025 年 12 月 12 日发布。**
 
@@ -27,10 +27,10 @@ type: note
 
 这符合该项目的模式：ng-bootstrap 主要版本通常在相应的 Angular 主要版本之后不久跟随，以更新 peer dependencies 并确保兼容性。
 
-参考资料：  
+参考资料：
 
-- [https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0](https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0)  
-- [https://angular.dev/reference/releases](https://angular.dev/reference/releases)  
-- [https://github.com/angular/angular/releases](https://github.com/angular/angular/releases)  
-- [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)  
+- [https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0](https://github.com/ng-bootstrap/ng-bootstrap/releases/tag/20.0.0)
+- [https://angular.dev/reference/releases](https://angular.dev/reference/releases)
+- [https://github.com/angular/angular/releases](https://github.com/angular/angular/releases)
+- [https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)
 - [https://github.com/ng-bootstrap/ng-bootstrap/blob/master/CHANGELOG.md](https://github.com/ng-bootstrap/ng-bootstrap/blob/master/CHANGELOG.md)

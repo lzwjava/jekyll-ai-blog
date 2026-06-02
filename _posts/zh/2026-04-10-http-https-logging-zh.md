@@ -60,7 +60,7 @@ NODE_DEBUG=http,https npm install --loglevel=http --verbose
 ```
 
 ### 提示
-- 输出可能非常冗长——如有需要可重定向至文件：  
+- 输出可能非常冗长——如有需要可重定向至文件：
   `NODE_DEBUG=http,https npm install --verbose > npm-http.log 2>&1`
 - 这些日志有助于调试网络问题，如 registry 连接、代理问题、SSL 错误或下载缓慢。
 - `NODE_DEBUG` 适用于任何 Node.js 进程，不仅仅是 npm。

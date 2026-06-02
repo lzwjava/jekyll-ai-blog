@@ -27,50 +27,50 @@ class DecisionStump:
         self.threshold = None
         self.left_val = None
         self.right_val = None
-    
+
     def fit(self, X, y):
         n_samples, n_features = X.shape
         best_mse = np.inf
         best_idx, best_thresh = -1, -1
         best_left, best_right = None, None
-        
+
         for idx in range(n_features):
             # 按特征排序并尝试中点作为阈值
             sorted_idx = np.argsort(X[:, idx])
             thresholds = (X[sorted_idx[:-1], idx] + X[sorted_idx[1:], idx]) / 2
-            
+
             for thresh in thresholds:
                 left_mask = X[:, idx] <= thresh
                 right_mask = ~left_mask
-                
+
                 if np.sum(left_mask) == 0 or np.sum(right_mask) == 0:
                     continue
-                
+
                 left_val = np.mean(y[left_mask])
                 right_val = np.mean(y[right_mask])
-                
+
                 y_pred = np.zeros(n_samples)
                 y_pred[left_mask] = left_val
                 y_pred[right_mask] = right_val
-                
+
                 mse = np.mean((y - y_pred) ** 2)
-                
+
                 if mse < best_mse:
                     best_mse = mse
                     best_idx = idx
                     best_thresh = thresh
                     best_left = left_val
                     best_right = right_val
-        
+
         self.feature_idx = best_idx
         self.threshold = best_thresh
         self.left_val = best_left
         self.right_val = best_right
-    
+
     def predict(self, X):
         if self.feature_idx is None:
             return np.zeros(X.shape[0])
-        
+
         left_mask = X[:, self.feature_idx] <= self.threshold
         y_pred = np.zeros(X.shape[0])
         y_pred[left_mask] = self.left_val
@@ -84,26 +84,26 @@ class GradientBoostingRegressor:
         self.learning_rate = learning_rate
         self.models = []
         self.initial_pred = None
-    
+
     def fit(self, X, y):
         n_samples = X.shape[0]
         # 用均值初始化（平方损失的最小化器）
         self.initial_pred = np.mean(y)
         current_pred = np.full(n_samples, self.initial_pred)
-        
+
         for _ in range(self.n_estimators):
             # 伪残差：L = 1/2 (y - F)^2 的负梯度，所以 r = y - F
             residuals = y - current_pred
-            
+
             # 将弱学习器拟合到残差
             stump = DecisionStump()
             stump.fit(X, residuals)
             self.models.append(stump)
-            
+
             # 使用收缩率更新（为简化未进行线性搜索；可添加argmin gamma）
             update = self.learning_rate * stump.predict(X)
             current_pred += update
-    
+
     def predict(self, X):
         current_pred = np.full(X.shape[0], self.initial_pred)
         for model in self.models:

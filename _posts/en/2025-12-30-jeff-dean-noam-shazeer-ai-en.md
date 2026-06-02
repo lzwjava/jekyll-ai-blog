@@ -12,7 +12,7 @@ type: note
 
 Question: What does Noam Shazeer say in the YouTube video at https://www.youtube.com/watch?v=v0gjI__RyCY&t=4s?
 
-Answer: 
+Answer:
 
 The video is a 2+ hour podcast interview titled "Jeff Dean & Noam Shazeer — 25 years at Google: from PageRank to AGI," hosted by Dwarkesh Patel (uploaded February 2025). It features Google's Chief Scientist Jeff Dean and Noam Shazeer (co-inventor of the Transformer architecture, Mixture of Experts, and other key AI technologies) discussing their careers at Google, the evolution of AI systems, hardware trends, scaling laws, future of large language models, and paths toward artificial general intelligence (AGI).
 
@@ -38,7 +38,7 @@ The video starts near the beginning (t=4s is essentially the intro), where the h
 
 For the full detailed transcript of everything Noam Shazeer says, refer to the official transcript linked in the video description.
 
-References:  
+References:
 
-- [YouTube Video](https://www.youtube.com/watch?v=v0gjI__RyCY)  
+- [YouTube Video](https://www.youtube.com/watch?v=v0gjI__RyCY)
 - [Full Transcript](https://www.dwarkeshpatel.com/p/jeff-dean-and-noam-shazeer)

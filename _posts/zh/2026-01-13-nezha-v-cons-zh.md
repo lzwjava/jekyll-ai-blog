@@ -12,7 +12,7 @@ type: note
 
 Question: What are the disadvantages and shortcomings of the Nezha V?
 
-Answer: 
+Answer:
 
 Nezha V (哪吒V) 是一款价格极具竞争力的入门级纯电动小型 SUV，但根据真实车主的反馈和测评，该车存在一些明显的缺点。这些问题主要集中在动力平庸、实际 Range 缩水、质量/可靠性问题、售后服务糟糕，以及——特别是在 2025–2026 年间——由于公司层面爆发严重危机，导致持有该车的风险大幅增加。
 

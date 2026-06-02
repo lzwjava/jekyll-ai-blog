@@ -13,11 +13,11 @@ type: note
 
 ### 问题摘要（非常简化的）
 
-给定 **N 个兴趣点**（最多 2000 个）位于一个 **grid** 上（坐标高达 ~10^9，但 N 较小）。  
-需要使用 **至多 K 个 axis-aligned squares**（最难子任务中 K 高达 2000）覆盖所有这些点。  
+给定 **N 个兴趣点**（最多 2000 个）位于一个 **grid** 上（坐标高达 ~10^9，但 N 较小）。
+需要使用 **至多 K 个 axis-aligned squares**（最难子任务中 K 高达 2000）覆盖所有这些点。
 每个 square 可以是 **任意大小** 并放置在任意位置（但有一个特殊属性：两个对角角位于同一条对角线上——实际上是在 taxicab/Chebyshev 距离意义下的 45° 旋转 squares）。
 
-square 的 cost 是 **(side length)²** ——基本上是它覆盖的 **unit cells** 数量。  
+square 的 cost 是 **(side length)²** ——基本上是它覆盖的 **unit cells** 数量。
 目标：**最小化覆盖的总 cells 数量**（所有 squares 的 union），同时覆盖每个点至少一次，使用 ≤ K 个 squares。
 
 这本质上是一个 **minimum cost set cover** 类型的几何问题，被转化为一个非常巧妙的 DP。

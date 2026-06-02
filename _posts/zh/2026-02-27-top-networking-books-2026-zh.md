@@ -26,21 +26,21 @@ type: note
 
 ### 根据您的需求的有力替代方案
 
-- **如果您想要经典的、非常详细的参考书（bottom-up 风格）**  
-  **Computer Networks**（第 6 版或更高）作者 Andrew S. Tanenbaum & David Wetherall  
+- **如果您想要经典的、非常详细的参考书（bottom-up 风格）**
+  **Computer Networks**（第 6 版或更高）作者 Andrew S. Tanenbaum & David Wetherall
   → 极其详尽，非常适合深入理解原则，仍备受尊重。
 
-- **如果您偏好协议级深度和 packet traces（非常实用）**  
-  **TCP/IP Illustrated, Volume 1: The Protocols**（第 2 版）作者 W. Richard Stevens（由 Kevin Fall 更新）  
+- **如果您偏好协议级深度和 packet traces（非常实用）**
+  **TCP/IP Illustrated, Volume 1: The Protocols**（第 2 版）作者 W. Richard Stevens（由 Kevin Fall 更新）
   → 以使用真实捕获展示协议确切行为而闻名。
 
-- **如果您更感兴趣于 network engineering / operations / Cisco-style 知识**  
-  - **Network Warrior**（第 2 版）作者 Gary Donahue  
-  - **Routing TCP/IP, Volume 1 & 2** 作者 Jeff Doyle  
+- **如果您更感兴趣于 network engineering / operations / Cisco-style 知识**
+  - **Network Warrior**（第 2 版）作者 Gary Donahue
+  - **Routing TCP/IP, Volume 1 & 2** 作者 Jeff Doyle
   → 适用于真实世界的配置和 troubleshooting 的优秀资源。
 
-- **如果您是完全的初学者，想要更简单的东西**  
-  **Networking All-in-One For Dummies**（最新版）作者 Doug Lowe  
+- **如果您是完全的初学者，想要更简单的东西**
+  **Networking All-in-One For Dummies**（最新版）作者 Doug Lowe
   → 更温和的介绍，较少学术性。
 
 ### 快速推荐总结（2026 年视角）
@@ -54,7 +54,7 @@ type: note
 
 如果您告诉我更多关于您的经验水平以及具体想实现什么（例如理解 Internet 如何工作、准备 CCNA、构建 networked applications 等），我可以给出更个性化的建议。
 
-References:  
+References:
 
 - [10 Best Computer Networking Books To Learn From [2025 Updated]](https://www.geeksforgeeks.org/blogs/best-computer-networks-books)
 - [12 Best Computer Networking Books for Beginners & Experts in 2026](https://www.networkstraining.com/best-computer-networks-textbooks)

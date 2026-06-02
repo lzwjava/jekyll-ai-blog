@@ -22,7 +22,7 @@ type: note
 
 要了解更多命令详情，你可以像之前那样运行 `claude --help`，这应该会显示更新版本中的选项。
 
-[CLI 参考 - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/cli-reference)  
-[如何专业地设置和使用 Claude CLI 工具](https://medium.com/@riccardo.bernardi.advisor/unlocking-claude-pros-power-how-to-set-up-and-use-the-claude-cli-tool-like-a-pro-against-github-d29f8f682a03)  
-[GitHub - anthropics/claude-code](https://github.com/anthropics/claude-code)  
+[CLI 参考 - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
+[如何专业地设置和使用 Claude CLI 工具](https://medium.com/@riccardo.bernardi.advisor/unlocking-claude-pros-power-how-to-set-up-and-use-the-claude-cli-tool-like-a-pro-against-github-d29f8f682a03)
+[GitHub - anthropics/claude-code](https://github.com/anthropics/claude-code)
 [Claude Code 概述 - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/overview)

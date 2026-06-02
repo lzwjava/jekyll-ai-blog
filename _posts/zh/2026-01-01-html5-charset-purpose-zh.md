@@ -12,9 +12,9 @@ type: note
 
 问题：HTML5 中 `<meta charset="utf-8">` 标签的主要作用是什么？
 
-A) 设置页面背景颜色  
-B) 指定文档的 character encoding  
-C) 定义页面标题  
+A) 设置页面背景颜色
+B) 指定文档的 character encoding
+C) 定义页面标题
 D) 链接外部 CSS 文件
 
 答案：

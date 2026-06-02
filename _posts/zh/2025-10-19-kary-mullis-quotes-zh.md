@@ -34,7 +34,7 @@ type: note
 
 10. “1985年某个午夜，我在加州北部林间小屋邂逅一只骑着霓虹橙摩托的发光浣熊。午夜钟声敲响时，这只浣熊竟幻化成了歌唱的海豚。”
 
-[Goodreads: 凯利·穆利斯语录](https://www.goodreads.com/author/quotes/27178.Kary_Mullis)  
-[维基语录: 凯利·穆利斯](https://en.wikiquote.org/wiki/Kary_Mullis)  
-[A-Z Quotes: 凯利·穆利斯](https://www.azquotes.com/author/10544-Kary_Mullis)  
+[Goodreads: 凯利·穆利斯语录](https://www.goodreads.com/author/quotes/27178.Kary_Mullis)
+[维基语录: 凯利·穆利斯](https://en.wikiquote.org/wiki/Kary_Mullis)
+[A-Z Quotes: 凯利·穆利斯](https://www.azquotes.com/author/10544-Kary_Mullis)
 [QuoteFancy: 凯利·穆利斯名言](https://quotefancy.com/kary-mullis-quotes)

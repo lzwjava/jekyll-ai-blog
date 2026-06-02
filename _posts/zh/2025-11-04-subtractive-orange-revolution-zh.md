@@ -26,6 +26,6 @@ type: note
 
 周桦的传记将这段历程编织成褚时健的救赎史诗——从战时拾荒者到阶下囚再到果园哲人——着重呈现了女性记者（周桦本人）在云南山雾中捕捉到的这些质朴顿悟。这提醒着我们：伟大，往往孕育于敢于割舍的留白处。
 
-[褚时健：无论做什么都要有敬畏心](https://www.jiemian.com/article/2177263.html)  
-[周桦著《褚时健传》](https://www.amazon.com/Biography-Chu-Shijian-Chinese-Zhou/dp/7508656350)  
+[褚时健：无论做什么都要有敬畏心](https://www.jiemian.com/article/2177263.html)
+[周桦著《褚时健传》](https://www.amazon.com/Biography-Chu-Shijian-Chinese-Zhou/dp/7508656350)
 [褚时健：传奇人生](https://www.yunnanexploration.com/chu-shijian-the-legendary-life-of-chinas-cigarette-king.html)

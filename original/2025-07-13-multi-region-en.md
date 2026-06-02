@@ -13,7 +13,7 @@ For international companies, there are often projects that serve multiple region
 
 I have worked on some projects that serve multiple regions' users. Doing it right in backend projects is not easy.
 
-For Standard Chartered Bank, there are apps like SC Mobile India and SC Mobile Hong Kong. For McDonald's, there are versions like McDonald's China and McDonald's USA. For Starbucks, there are Starbucks USA and Starbucks China. Essentially, they provide different countries with their own apps. Often, the login methods differ for users in China and international users. Besides using mobile phones, Chinese users often have the option to log in with WeChat, while international users can log in with Facebook, Google, or Apple. 
+For Standard Chartered Bank, there are apps like SC Mobile India and SC Mobile Hong Kong. For McDonald's, there are versions like McDonald's China and McDonald's USA. For Starbucks, there are Starbucks USA and Starbucks China. Essentially, they provide different countries with their own apps. Often, the login methods differ for users in China and international users. Besides using mobile phones, Chinese users often have the option to log in with WeChat, while international users can log in with Facebook, Google, or Apple.
 
 These apps likely use different backend servers and have some differing features, but they maintain the same design language. This is probably wrong to do that. In the first years, it seems simple or doable. But after a decade, they will know it is very painful. The maintenance cost or synchronization cost, the testing cost—there are tons of duplicate efforts.
 

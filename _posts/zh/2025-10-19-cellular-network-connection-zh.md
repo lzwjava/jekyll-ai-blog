@@ -24,6 +24,6 @@ type: note
 
 简而言之，您的直觉完全正确：城市依靠密集基站实现全面覆盖，而偏远地区因蜂窝覆盖稀疏常出现信号减弱或中断。若身处无信号区域，可借助信号增强器或卫星方案（如星链）弥补通信空白。
 
-[美国城乡5G无线连接现状分析](https://www.ookla.com/articles/5g-wireless-rural-urban-us-states)  
-[4G与5G信号塔核心差异解读](https://www.signalboosters.com/blog/what-are-the-differences-between-a-4g-and-a-5g-tower/)  
+[美国城乡5G无线连接现状分析](https://www.ookla.com/articles/5g-wireless-rural-urban-us-states)
+[4G与5G信号塔核心差异解读](https://www.signalboosters.com/blog/what-are-the-differences-between-a-4g-and-a-5g-tower/)
 [5G网络覆盖规划与分析研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8512478/)

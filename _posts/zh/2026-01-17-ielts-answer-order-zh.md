@@ -12,9 +12,9 @@ type: note
 
 Question: 在 IELTS 考试中，对于 Reading 和 Listening 部分，我们可以先完成某一部分后面的题目吗？这是否意味着我们不需要遵循严格的顺序，从而可以更加灵活和放松？
 
-Answer: 
+Answer:
 
-**是的，在 IELTS Academic 和 General Training 中，你都可以在每个 section 内按照自己喜欢的任何顺序回答问题。**  
+**是的，在 IELTS Academic 和 General Training 中，你都可以在每个 section 内按照自己喜欢的任何顺序回答问题。**
 你**不需要**遵循题目的严格顺序。
 
 ### Listening (最为灵活)
@@ -43,11 +43,11 @@ Answer:
 - 你避免了卡在一道难题上浪费 3–5 分钟的情况（这是一个非常常见的错误）。
 - 在 Reading Passage 3 或 Listening Section 4 时间紧迫时特别有用。
 
-**最佳实践建议**：  
+**最佳实践建议**：
 在练习过程中，尝试**几种不同的顺序**（例如：最简单的题优先 vs. 最后一篇文章优先 vs. Listening 中的关键词跳跃法），看看哪种心理策略能让你感觉最冷静且得分最高。然后在考试当天使用该策略。
 
-References:  
+References:
 
-- Official IELTS website guidance on test format and question answering order  
-  [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)  
+- Official IELTS website guidance on test format and question answering order
+  [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)
   [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading)

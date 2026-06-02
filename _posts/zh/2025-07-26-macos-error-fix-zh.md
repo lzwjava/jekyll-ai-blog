@@ -65,6 +65,6 @@ type: note
 如果完成以上步骤后问题仍然存在，请提供更多详细信息，包括 macOS 版本、具体操作内容（例如删除特定文件），以及问题出现在废纸篓还是其他位置。
 
 ### 参考文档
-[Apple 支持：在 Mac 上更改文件、文件夹或磁盘的权限](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)  
-[如何修复 Mac 上的「操作无法完成」错误](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)  
+[Apple 支持：在 Mac 上更改文件、文件夹或磁盘的权限](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)
+[如何修复 Mac 上的「操作无法完成」错误](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)
 [当提示文件正在使用时清空废纸篓](https://apple.stackexchange.com/questions/52257/empty-trash-when-it-says-files-are-in-use)

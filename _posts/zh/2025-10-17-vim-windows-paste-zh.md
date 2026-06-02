@@ -63,6 +63,6 @@ type: note
 
 这样应该能让你顺利粘贴了！如果仍然不工作（例如分享尝试 `p` 时的具体现象），或者你 specifically 是从外部源粘贴，请告诉我以便进一步调整。
 
-[如何在 Git Bash 中复制和粘贴](https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash)  
-[在 Vim 中从 Windows 剪贴板复制](https://vi.stackexchange.com/questions/37599/copying-from-windows-clipboard)  
+[如何在 Git Bash 中复制和粘贴](https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash)
+[在 Vim 中从 Windows 剪贴板复制](https://vi.stackexchange.com/questions/37599/copying-from-windows-clipboard)
 [如何在 vi 编辑器中复制粘贴内容](https://askubuntu.com/questions/256782/how-to-copy-paste-contents-in-the-vi-editor)

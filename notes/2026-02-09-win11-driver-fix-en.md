@@ -12,15 +12,15 @@ type: note
 
 Question: I successfully created a bootable USB with dd on macOS, plugged it into the target machine, but during Windows 11 installation I get stuck at the "安装驱动程序以显示硬件" screen with two options: first C, second X, and I don't know which to choose so I can't continue.
 
-Answer: 
+Answer:
 
 The screen you're seeing ("安装驱动程序以显示硬件") is the Chinese-language version of the Windows Setup prompt that appears when the installer cannot detect your storage drives (SSD, NVMe, SATA HDD, etc.). This is a very common issue during Windows 11 installation, especially on newer hardware like recent Intel/AMD platforms, laptops with Intel VMD (Volume Management Device) enabled, RAID configurations, or certain NVMe controllers.
 
 ### What the buttons mean (based on standard Windows Setup behavior):
-- **First option (C)** → Usually "Continue" or "取消" / "跳过" (skip / proceed without loading a driver).  
+- **First option (C)** → Usually "Continue" or "取消" / "跳过" (skip / proceed without loading a driver).
   Selecting this often leads to no drives being shown → you can't select where to install Windows → setup fails or loops.
 
-- **Second option (X)** → Usually "Load driver" / "浏览" / "安装驱动程序" (browse to load a driver).  
+- **Second option (X)** → Usually "Load driver" / "浏览" / "安装驱动程序" (browse to load a driver).
   This is the correct choice in almost all cases when drives are not visible.
 
 **What you should do right now**:
@@ -57,7 +57,7 @@ This prompt almost always means missing **storage controller driver** (SATA/AHCI
 
 Once you load the correct driver, the drives appear, and installation proceeds normally. This is **not** a problem with your dd-created USB; it's expected on many modern systems.
 
-References:  
+References:
 
 - [https://learn.microsoft.com/en-us/answers/questions/5488804/windows-11-installation-error-install-driver-to-sh](https://learn.microsoft.com/en-us/answers/questions/5488804/windows-11-installation-error-install-driver-to-sh)
 - [https://www.elevenforum.com/t/install-driver-to-show-hardware-issue-on-ryzen-cpus-using-bootable-usb-from-win11-media-creation-tool.29536](https://www.elevenforum.com/t/install-driver-to-show-hardware-issue-on-ryzen-cpus-using-bootable-usb-from-win11-media-creation-tool.29536)

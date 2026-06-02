@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the Routing Information Protocol (RIP).
 
-Answer: 
+Answer:
 
 ### Overview
 The Routing Information Protocol (RIP) is one of the oldest distance-vector routing protocols used in computer networks. It is an Interior Gateway Protocol (IGP) designed for routing within a single autonomous system. RIP enables routers to exchange routing information to determine the best paths for forwarding data packets, primarily using hop count as its routing metric—the number of routers a packet traverses to reach its destination.
@@ -27,13 +27,13 @@ The IP version of RIP was implemented in the 1982 Berkeley Software Distribution
 ### Versions
 There are three main standardized versions:
 
-- **RIPv1** (RFC 1058, 1988):  
+- **RIPv1** (RFC 1058, 1988):
   A classful routing protocol that does not include subnet mask information in updates. It uses broadcast updates (to 255.255.255.255) and lacks authentication. Routes are determined solely by IP destination and hop count.
 
-- **RIPv2** (RFC 2453, 1998; obsoletes earlier RFCs like 1723 and 1388):  
+- **RIPv2** (RFC 2453, 1998; obsoletes earlier RFCs like 1723 and 1388):
   A classless protocol that supports Variable Length Subnet Masking (VLSM), Classless Inter-Domain Routing (CIDR), and route summarization. It introduces multicast updates (to 224.0.0.9) for efficiency, authentication (plain text or MD5), and a route tag field. It maintains backward compatibility with RIPv1.
 
-- **RIPng** (RIP Next Generation, RFC 2080):  
+- **RIPng** (RIP Next Generation, RFC 2080):
   An extension for IPv6 networks, similar to RIPv2 but using 128-bit addresses and multicast group ff02::9 on UDP port 521. It does not include authentication (relying on IPsec instead).
 
 No standard RIPv3 exists; RIPng serves as the IPv6 adaptation.
@@ -80,7 +80,7 @@ RIP has been largely replaced by advanced protocols like OSPF, IS-IS, EIGRP, and
 
 It is still relevant for understanding distance-vector principles and occasional deployment in constrained setups.
 
-References:  
+References:
 
 - [Wikipedia: Routing Information Protocol](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 - [RFC 1058: Routing Information Protocol](https://datatracker.ietf.org/doc/html/rfc1058)

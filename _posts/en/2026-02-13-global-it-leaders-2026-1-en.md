@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 20 IT services companies in the world?
 
-Answer: 
+Answer:
 
 The **top IT services companies** (focusing on consulting, outsourcing, digital transformation, and services for banks/big corporations, similar to Accenture/Infosys) are ranked here primarily based on **Brand Finance IT Services 25 (2026)** report, which measures brand value as of early 2026. This is a key industry benchmark for these firms, reflecting global perception, strength, and relevance in IT services/outsourcing.
 
@@ -42,22 +42,22 @@ Here are the **top 20** (top 10 are explicitly detailed in sources; positions 11
 
 11–20 (commonly recognized in top 25 IT services/outsourcing rankings and frequently mentioned alongside):
 
-11. **Fujitsu (IT Services)** (Japan)  
-12. **Persistent Systems** (India) — Noted as fastest-growing in 2026 report  
-13. **EPAM Systems** (USA/Belarus)  
-14. **Genpact** (USA/India)  
-15. **LTIMindtree** (India)  
-16. **DXC Technology** (USA)  
-17. **Tech Mahindra** (India)  
-18. **Kyndryl** (USA) — Spun from IBM, focused on infrastructure services  
-19. **Deloitte Consulting** (USA) — Advisory/IT services arm  
+11. **Fujitsu (IT Services)** (Japan)
+12. **Persistent Systems** (India) — Noted as fastest-growing in 2026 report
+13. **EPAM Systems** (USA/Belarus)
+14. **Genpact** (USA/India)
+15. **LTIMindtree** (India)
+16. **DXC Technology** (USA)
+17. **Tech Mahindra** (India)
+18. **Kyndryl** (USA) — Spun from IBM, focused on infrastructure services
+19. **Deloitte Consulting** (USA) — Advisory/IT services arm
 20. **Hexaware Technologies** (India) — Or similar mid-tier like Atos/others in top 25.
 
 Note: Exact positions beyond top 10 vary slightly by metric (brand value vs. revenue vs. market share). Revenue-based rankings (e.g., TCS ~$30B+, Accenture larger) often place TCS/Accenture at the top. These firms dominate large-scale outsourcing contracts for banks (core banking, payments, compliance) and corporations (ERP, cloud migration, AI/digital).
 
 Indian players excel in cost-effective, large-scale delivery, while others lead in premium consulting/strategy.
 
-References:  
+References:
 
 - [Brand Finance IT Services 25 2026 Report](https://brandirectory.com/reports/it-services)
 - [Top 10 most valuable IT service brands in 2025-26](https://indianexpress.com/article/trending/top-10-listing/top-10-most-valuable-it-service-brands-in-2025-26-10492522)

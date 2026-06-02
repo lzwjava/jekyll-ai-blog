@@ -53,9 +53,9 @@ loss = -torch.min(ratio * advantage, clipped * advantage).mean()
 
 这很昂贵，但为了正确性必不可少。这就是为什么 RLHF 训练很慢——你在训练循环内部进行生成（自回归、序列化）。
 
-**REINFORCE / 原始策略梯度** = 严格 on-policy，每批 rollout 做一次更新  
-**PPO** = on-policy，带有小额重用窗口（同一批数据上做几个 epoch，并截断）  
-**DPO** = 技术上 off-policy（在预先收集的偏好对上训练，没有实时 rollout）  
+**REINFORCE / 原始策略梯度** = 严格 on-policy，每批 rollout 做一次更新
+**PPO** = on-policy，带有小额重用窗口（同一批数据上做几个 epoch，并截断）
+**DPO** = 技术上 off-policy（在预先收集的偏好对上训练，没有实时 rollout）
 **GRPO** = 类似 PPO 的 on-policy，但没有单独的评论家网络
 
 所以是的——on-policy 意味着“每次更新前，我必须从当前的自己生成全新数据。”一旦你将数据存入经验回放缓冲区并在之后采样，你就变成了 off-policy。

@@ -46,8 +46,8 @@ It is recommended to:
 - Compare it with other popular self-study resources (e.g., 自考365, 中公教育自考, 学而思网校自考版, etc.).
 - Still use official textbooks as the core, and treat apps as auxiliary brushing/practice tools.
 
-**References:**  
+**References:**
 
-- [https://www.biguotk.com/](https://www.biguotk.com/)  
-- [https://www.biguotk.com/app_download.html](https://www.biguotk.com/app_download.html)  
+- [https://www.biguotk.com/](https://www.biguotk.com/)
+- [https://www.biguotk.com/app_download.html](https://www.biguotk.com/app_download.html)
 - [https://www.biguotk.com/news-2378.html](https://www.biguotk.com/news-2378.html)

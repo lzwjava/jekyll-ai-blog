@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a tutorial based on the YouTube video https://www.youtube.com/watch?v=C2FrTZxi_NI
 
-Answer: 
+Answer:
 # Tutorial: Understanding Collision Domains vs. Broadcast Domains in Networking
 
 This tutorial is based on the animated video "Collision Domain vs Broadcast Domain" by PowerCert Animated Videos. It provides a clear, step-by-step explanation of these fundamental networking concepts. Collision domains and broadcast domains are key to understanding how data flows in local area networks (LANs), why collisions happen, and how devices like hubs, switches, and routers manage network traffic.
@@ -20,7 +20,7 @@ This tutorial is based on the animated video "Collision Domain vs Broadcast Doma
 We'll break it down into sections: definitions, how devices affect them, visual examples (described in text with simple diagrams), and practical benefits.
 
 ## 1. What is a Collision Domain?
-A **collision domain** is a network segment where data packets from multiple devices can collide if sent simultaneously. 
+A **collision domain** is a network segment where data packets from multiple devices can collide if sent simultaneously.
 
 ### Key Points:
 - **Collisions occur** when two or more devices transmit data at the same time on shared media.
@@ -30,7 +30,7 @@ A **collision domain** is a network segment where data packets from multiple dev
 **Simple ASCII Diagram of Collision:**
 ```
 Device A ---------------- Hub ---------------- Device B
-                          | 
+                          |
                           |
                        Device C
 (All in ONE collision domain: If A and B send at once → COLLISION!)
@@ -48,7 +48,7 @@ Hubs are basic Layer 1 devices that repeat signals to **all ports**.
 4 computers connected to a hub:
 ```
 PC1 -- Hub -- PC2
-       | 
+       |
        |
       PC3 -- PC4
 ```
@@ -67,7 +67,7 @@ Switches are intelligent Layer 2 devices that learn MAC addresses and forward da
 Same 4 computers on a switch:
 ```
 PC1 -- Switch -- PC2
-      | 
+      |
       |
      PC3 -- PC4
 ```
@@ -151,5 +151,5 @@ Small Domain1 -- Router -- Small Domain2 -- Router -- Small Domain3
 
 This tutorial captures the video's core animations and explanations in a structured, easy-to-follow format.
 
-References:  
+References:
 - [Collision Domain vs Broadcast Domain (Original Video)](https://www.youtube.com/watch?v=C2FrTZxi_NI)

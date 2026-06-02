@@ -12,7 +12,7 @@ type: note
 
 Question: 我的 Ubuntu USB 是通过 `dd` 命令而不是 Etcher 制作的。在我的 Lenovo XiaoXin 笔记本上，当我在 Boot Menu 中选择 Ubuntu 选项时，它仍然会进入正常模式 (Windows) 而不是 Ubuntu。我该怎么办？
 
-Answer: 
+Answer:
 
 使用 `dd` 命令创建 Ubuntu USB **不是**问题所在 —— `dd` 是一种完全有效且常用的制作引导 Ubuntu USB 的方法（它会创建 ISO 的精确副本）。在大多数情况下，它产生的结果与 Etcher 或 Rufus 相同，通过 `dd` 写入的 Ubuntu ISO 通常可以正常启动。问题几乎肯定出在你的 Lenovo XiaoXin 笔记本的 BIOS/UEFI 设置上，而不是 USB 的制作方法。
 
@@ -65,7 +65,7 @@ Lenovo XiaoXin 笔记本（中国国内的 IdeaPad 系列）使用的 UEFI 固�
 
 在禁用 Secure Boot 并启用 CSM/Both 模式后，大多数用户反映 USB 可以正确引导进入 Ubuntu 安装程序/Live 会话。Ubuntu 安装完成后，如果你愿意，可以重新开启 Secure Boot（Ubuntu 会对其 Bootloader 进行签名）。
 
-References:  
+References:
 
 - [https://support.lenovo.com/us/en/solutions/ht500207-how-to-boot-from-usb-disk-in-the-bios-boot-menu-windows-8-windows-10-ideapadlenovo-laptops](https://support.lenovo.com/us/en/solutions/ht500207-how-to-boot-from-usb-disk-in-the-bios-boot-menu-windows-8-windows-10-ideapadlenovo-laptops)
 - [https://askubuntu.com/questions/891248/ubuntu-16-04-how-can-i-disable-secure-boot](https://askubuntu.com/questions/891248/ubuntu-16-04-how-can-i-disable-secure-boot)

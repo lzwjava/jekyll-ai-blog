@@ -19,7 +19,7 @@ In the context of GraalVM's introduction, **Native Image** refers to a feature t
   1. **Static Analysis**: It scans your entire application (including dependencies) to identify all reachable code paths, classes, methods, and resources. This creates a "closed-world" assumption, resolving dynamic behaviors at build time.
   2. **Partial Evaluation**: The compiler evaluates parts of the code symbolically (e.g., reflection, dynamic class loading) ahead of time, replacing them with optimized machine code.
   3. **Code Generation**: It generates a native executable using low-level virtual machine (LLVM) or SubstrateVM (GraalVM's embedded VM) to produce platform-specific binaries (e.g., for Linux, Windows, macOS, or even embedded systems).
-  
+
 - **SubstrateVM**: This is the core runtime underneath Native Image. It's a lightweight, embeddable VM that strips away JVM features not needed for AOT (like just-in-time compilation) and includes only what's statically linked from your app.
 
 The result is a self-contained binary—no external JVM, no JRE installation required. Tools like `native-image` CLI or Maven/Gradle plugins handle the build.

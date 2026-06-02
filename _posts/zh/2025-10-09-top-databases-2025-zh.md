@@ -31,5 +31,5 @@ type: note
 
 受云服务与人工智能融合驱动，整体数据库管理系统市场规模预计在2026年将突破1500亿美元。
 
-[参考文献](https://www.baremon.eu/10-best-databases-of-2025/)  
+[参考文献](https://www.baremon.eu/10-best-databases-of-2025/)
 [DB-Engines排名](https://db-engines.com/en/ranking)

@@ -35,27 +35,27 @@ Here is a clear comparison between **ATM (Asynchronous Transfer Mode)** and **IP
 
 ### Key Summary – Why ATM lost and IP won
 
-- **ATM advantages** (in the 1990s–early 2000s)  
-  - Excellent QoS for real-time applications (voice, video)  
-  - Very low jitter and predictable delay  
+- **ATM advantages** (in the 1990s–early 2000s)
+  - Excellent QoS for real-time applications (voice, video)
+  - Very low jitter and predictable delay
   - Fine-grained traffic engineering and admission control
 
-- **ATM disadvantages** (fatal in the long run)  
-  - High cell tax / bandwidth inefficiency  
-  - Expensive hardware (specialized ATM switches)  
-  - Complex network management  
+- **ATM disadvantages** (fatal in the long run)
+  - High cell tax / bandwidth inefficiency
+  - Expensive hardware (specialized ATM switches)
+  - Complex network management
   - Did not adapt well to bursty Internet traffic
 
-- **IP/MPLS/Ethernet advantages** that displaced ATM  
-  - Much better bandwidth efficiency  
-  - Cheap hardware (commodity Ethernet + routers)  
-  - Simpler architecture  
-  - MPLS later provided most of ATM’s traffic engineering & QoS features  
+- **IP/MPLS/Ethernet advantages** that displaced ATM
+  - Much better bandwidth efficiency
+  - Cheap hardware (commodity Ethernet + routers)
+  - Simpler architecture
+  - MPLS later provided most of ATM’s traffic engineering & QoS features
   - Scales extremely well to 100/400/800 Gbps links
 
-**Conclusion (2026 perspective)**  
+**Conclusion (2026 perspective)**
 ATM was a very sophisticated technology that excelled in guaranteed QoS and real-time traffic — but it was ultimately too expensive and too inefficient for the bursty, best-effort-dominated Internet traffic model. Today almost no production carrier or enterprise network uses native ATM anymore; it has been almost completely replaced by IP/MPLS/Ethernet combinations.
 
-References:  
+References:
 
 - None (based on established telecommunications and networking knowledge)

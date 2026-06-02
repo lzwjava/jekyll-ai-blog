@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Dave Cutler?
 
-Answer: 
+Answer:
 
 **Dave Cutler** (全名：David Neil Cutler Sr.，生于 1942 年 3 月 13 日）是一位极具影响力的美国 software engineer 和 operating systems architect，被广泛认为是现代 operating systems 历史上最重要的人物之一。
 
@@ -42,7 +42,7 @@ Cutler 因其在 operating system 设计、reliability engineering 和 software 
 
 简而言之，Dave Cutler 是三个主要成功 operating system 家族 (DEC 的 RSX-11M/VMS，以及 Microsoft 的 Windows NT/modern Windows) 背后的架构师，这使他成为计算历史上最具影响力的工程师之一。
 
-References:  
+References:
 
 - [Dave Cutler - Wikipedia](https://en.wikipedia.org/wiki/Dave_Cutler)
 - [The engineer's engineer: Computer industry luminaries salute Dave Cutler's five-decade-long quest for quality - Microsoft Source](https://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality)

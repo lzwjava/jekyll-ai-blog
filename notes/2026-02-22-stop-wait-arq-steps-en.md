@@ -11,7 +11,7 @@ type: note
 
 Question: In the error control technology of data communication, Stop-and-Wait ARQ is one of the common methods for error detection and retransmission. The diagram below describes the process of using Stop-and-Wait ARQ when the sender and receiver transmit data. Please write out the content of items ① to ⑥ in the diagram.
 
-Answer: 
+Answer:
 
 Since the specific image mentioned in your question is not provided, I will deduce the standard content for items ① to ⑥ based on the typical workflow of the **Stop-and-Wait ARQ (Automatic Repeat reQuest)** protocol found in computer networking examinations and textbooks.
 
@@ -44,7 +44,7 @@ Based on this standard logic, here are the likely contents for ① to ⑥:
 
 This mechanism ensures reliable data transfer over unreliable channels by combining error detection, timeouts, and retransmissions.
 
-References:  
+References:
 
 - [Stop-and-Wait ARQ - GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 - [Automatic Repeat Request (ARQ) - Wikipedia](https://en.wikipedia.org/wiki/Automatic_repeat_request)

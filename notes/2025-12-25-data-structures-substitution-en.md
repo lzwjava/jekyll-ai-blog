@@ -12,7 +12,7 @@ type: note
 
 Question: Is it correct that for the course 02142 (mapped to 13181) Introduction to Data Structures in the Guangdong University of Foreign Studies National Higher Education Self-Study Examination for professional code 510201 (old code 610201), the practical course is not required, as it is a combined course where one course substitutes for two, based on the review comment?
 
-Answer: 
+Answer:
 
 Yes, your understanding appears correct.
 
@@ -35,8 +35,8 @@ As long as all required courses in the current 510201 plan are covered by your p
 
 For absolute confirmation, it is recommended to check your personal record on the official Guangdong Education Examination Authority website (eea.gd.gov.cn) or contact the GDUFS continuing education/self-exam office.
 
-References:  
+References:
 
-- [广东省高等教育自学考试专业调整有关事项的通知 (includes course substitution tables)](https://eea.gd.gov.cn/attachment/0/532/532589/4262692.pdf)  
-- [GDUFS Continuing Education College - 510201 Computer Application Technology (old 610201)](https://jxjy.gdufs.edu.cn/info/1019/18206.htm)  
+- [广东省高等教育自学考试专业调整有关事项的通知 (includes course substitution tables)](https://eea.gd.gov.cn/attachment/0/532/532589/4262692.pdf)
+- [GDUFS Continuing Education College - 510201 Computer Application Technology (old 610201)](https://jxjy.gdufs.edu.cn/info/1019/18206.htm)
 - [Guangdong Self-Exam Professional Plans and Substitution Tables (various sources summarizing official adjustments)](https://www.zikaoben.cn/archives/1196.html)

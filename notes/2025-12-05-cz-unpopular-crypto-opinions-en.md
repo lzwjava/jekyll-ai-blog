@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions from Binance CEO Changpeng Zhao (CZ)?
 
-Answer: 
+Answer:
 
 Changpeng Zhao, commonly known as CZ and the founder and former CEO of Binance, has shared several opinions on X (formerly Twitter) and in interviews that he explicitly labeled as "unpopular" or which sparked debate in the crypto community due to their contrarian nature. These views often challenge hype-driven trends in crypto, emphasizing long-term value, caution, and utility over speculation. Below is a curated list of key examples, drawn from his direct statements, with context where relevant:
 
@@ -38,9 +38,9 @@ Changpeng Zhao, commonly known as CZ and the founder and former CEO of Binance, 
 
 These opinions reflect CZ's broader philosophy of patience, ethics, and real-world utility in crypto, often clashing with the sector's speculative ethos. While some drew backlash (e.g., accusations of hypocrisy on decentralization), they consistently garnered significant engagement.
 
-References:  
-- [Binance CZ Shares Unpopular Opinion on Building Wealth in Crypto](https://thecryptobasic.com/2025/03/10/binance-cz-shares-unpopular-opinion-on-building-wealth-in-crypto/)  
-- [CZ says 'Buy Fear, Sell Greed'—Crypto X says 'Yeah, sure'](https://crypto.news/cz-says-buy-fear-sell-greed-crypto-x-yeah-sure-buddy/)  
-- ['Not every agent needs its own token' - Binance's CZ shares unpopular opinion](https://www.cryptopolitan.com/not-every-agent-needs-token-binance-cz/)  
-- [Ex-Binance Boss CZ Makes Important Community Statement: Details](https://u.today/ex-binance-boss-cz-makes-important-community-statement-details)  
+References:
+- [Binance CZ Shares Unpopular Opinion on Building Wealth in Crypto](https://thecryptobasic.com/2025/03/10/binance-cz-shares-unpopular-opinion-on-building-wealth-in-crypto/)
+- [CZ says 'Buy Fear, Sell Greed'—Crypto X says 'Yeah, sure'](https://crypto.news/cz-says-buy-fear-sell-greed-crypto-x-yeah-sure-buddy/)
+- ['Not every agent needs its own token' - Binance's CZ shares unpopular opinion](https://www.cryptopolitan.com/not-every-agent-needs-token-binance-cz/)
+- [Ex-Binance Boss CZ Makes Important Community Statement: Details](https://u.today/ex-binance-boss-cz-makes-important-community-statement-details)
 - [CZ Addresses Binance Listing Fees & Airdrops After Silence](https://www.coinspeaker.com/cz-addresses-listing-fees-airdrops/)

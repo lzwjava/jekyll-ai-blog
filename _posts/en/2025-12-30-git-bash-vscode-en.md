@@ -12,7 +12,7 @@ type: note
 
 Question: In VS Code on Windows, how to set Git Bash as a profile of the terminal?
 
-Answer: 
+Answer:
 
 There are two main ways to set Git Bash as a terminal profile in Visual Studio Code on Windows: the easiest GUI method (recommended) and manually editing the settings.json file.
 
@@ -58,9 +58,9 @@ Adjust the path if your Git installation is elsewhere (common paths: `C:\\Progra
 
 This will make Git Bash appear as a selectable profile and set it as the default when opening new terminals.
 
-References:  
+References:
 
-- [https://code.visualstudio.com/docs/terminal/profiles](https://code.visualstudio.com/docs/terminal/profiles)  
-- [https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal)  
-- [https://bobbyhadz.com/blog/vscode-change-default-terminal](https://bobbyhadz.com/blog/vscode-change-default-terminal)  
+- [https://code.visualstudio.com/docs/terminal/profiles](https://code.visualstudio.com/docs/terminal/profiles)
+- [https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal)
+- [https://bobbyhadz.com/blog/vscode-change-default-terminal](https://bobbyhadz.com/blog/vscode-change-default-terminal)
 - [https://neutrondev.com/vs-code-integrate-git-bash-default-terminal/](https://neutrondev.com/vs-code-integrate-git-bash-default-terminal/)

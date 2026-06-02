@@ -23,21 +23,21 @@ type: note
 
 门客们认为冯谖无用，只给他粗食。过了一些日子，冯谖倚柱而歌：
 
-“Long sword, let us return!  
+“Long sword, let us return!
 There is no fish in the meals here.”
 
 管家报告给孟尝君。孟尝君说：“给他鱼，和其他受优待的人一样。”
 
 几天后，冯谖又唱道：
 
-“Long sword, let us return!  
+“Long sword, let us return!
 There is no carriage here for me to ride。”
 
 管家再次告诉孟尝君。孟尝君下令：“给他马车，像有车子的客人一样对待。”
 
 不久，冯谖再次唱道：
 
-“Long sword, let us return!  
+“Long sword, let us return!
 I cannot support my family here。”
 
 这时门客们讨厌他，认为他贪婪。但孟尝君问：“冯谖有家人吗？”得知冯谖有老母。孟尝君于是命人送粮送钱供养其母，从此冯谖不再唱歌。

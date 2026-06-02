@@ -47,7 +47,7 @@ BEGIN
     DECLARE c1 CURSOR WITH RETURN FOR s1;
 
     SET v_sql = '
-    SELECT 
+    SELECT
         period_start,
         period_end,
         SUM(debit)          AS total_debit,
@@ -71,19 +71,19 @@ BEGIN
         SET v_sql = REPLACE(v_sql, 'period_end',   'DATE(t.trx_date) AS period_end');
     ELSEIF p_period = 'WEEK' THEN
         SET v_sql = v_sql || ' TRUNC(t.trx_date - DAYOFWEEK(t.trx_date) + 1, ''DD'') ';
-        SET v_sql = REPLACE(v_sql, 'period_start', 
+        SET v_sql = REPLACE(v_sql, 'period_start',
             'TRUNC(t.trx_date - DAYOFWEEK(t.trx_date) + 1, ''DD'') AS period_start');
-        SET v_sql = REPLACE(v_sql, 'period_end',   
+        SET v_sql = REPLACE(v_sql, 'period_end',
             'TRUNC(t.trx_date - DAYOFWEEK(t.trx_date) + 7, ''DD'') AS period_end');
     ELSEIF p_period = 'MONTH' THEN
         SET v_sql = v_sql || ' DATE_TRUNC(''MONTH'', t.trx_date) ';
         SET v_sql = REPLACE(v_sql, 'period_start', 'DATE_TRUNC(''MONTH'', t.trx_date) AS period_start');
-        SET v_sql = REPLACE(v_sql, 'period_end',   
+        SET v_sql = REPLACE(v_sql, 'period_end',
             'LAST_DAY(t.trx_date) AS period_end');
     ELSEIF p_period = 'QUARTER' THEN
         SET v_sql = v_sql || ' DATE_TRUNC(''QUARTER'', t.trx_date) ';
         SET v_sql = REPLACE(v_sql, 'period_start', 'DATE_TRUNC(''QUARTER'', t.trx_date) AS period_start');
-        SET v_sql = REPLACE(v_sql, 'period_end',   
+        SET v_sql = REPLACE(v_sql, 'period_end',
             'DATE_TRUNC(''QUARTER'', t.trx_date) + 3 MONTHS - 1 DAY AS period_end');
     ELSEIF p_period = 'YEAR' THEN
         SET v_sql = v_sql || ' YEAR(t.trx_date) ';
@@ -126,13 +126,13 @@ LANGUAGE SQL
 BEGIN
 
     DECLARE c1 CURSOR WITH RETURN FOR
-        SELECT 
+        SELECT
             MONTH(trx_date)               AS month_number,
             VARCHAR_FORMAT(trx_date, 'Month') AS month_name,
             SUM(CASE WHEN type = 'REVENUE'  THEN amount ELSE 0 END) AS revenue,
             SUM(CASE WHEN type = 'EXPENSE'  THEN amount ELSE 0 END) AS expenses,
-            SUM(CASE WHEN type = 'REVENUE'  THEN amount 
-                     WHEN type = 'EXPENSE'  THEN -amount 
+            SUM(CASE WHEN type = 'REVENUE'  THEN amount
+                     WHEN type = 'EXPENSE'  THEN -amount
                      ELSE 0 END)           AS profit
         FROM financial_transactions
         WHERE YEAR(trx_date) = p_year
@@ -159,17 +159,17 @@ BEGIN
 
     DECLARE c1 CURSOR WITH RETURN FOR
         WITH running AS (
-            SELECT 
+            SELECT
                 trx_date,
                 SUM(amount) OVER (
-                    ORDER BY trx_date 
+                    ORDER BY trx_date
                     ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
                 ) AS balance
             FROM financial_transactions
             WHERE account_id = p_account_id
               AND trx_date BETWEEN p_from_date AND p_to_date
         )
-        SELECT 
+        SELECT
             trx_date,
             balance
         FROM running

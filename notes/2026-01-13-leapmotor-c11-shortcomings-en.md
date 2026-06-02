@@ -12,7 +12,7 @@ type: note
 
 Question: Translate the previous response about Leapmotor C11 disadvantages to English.
 
-Answer: 
+Answer:
 
 Leapmotor C11 (including both pure electric and extended-range versions) is a mid-size SUV in the 150,000–200,000 RMB price range. It is widely recognized for its high cost-performance, rich features, spacious interior, but real owner feedback from 2024–2025 (forums, Qichezhijia, etc.) also reveals several common **shortcomings and pain points**. The latest facelifts have addressed some issues, but older/early units still show these problems more frequently.
 
@@ -48,13 +48,13 @@ Leapmotor C11 (including both pure electric and extended-range versions) is a mi
 - Occasional rattles (door panels, trunk curtain, panoramic sunroof, etc.) on some batches.
 - AC airflow logic is strange (neck stays cool while head feels hot); huge panoramic roof causes serious heat soak in summer.
 
-**In one sentence**: Leapmotor C11 is a typical new-energy brand product — **excellent hardware value / feature stacking, but software tuning, NVH refinement, and long-term quality control are still catching up**.  
-If you prioritize bang-for-buck, space, loaded features, smart triple screen, and low running cost, and can tolerate the typical “new force” trade-offs listed above, it remains a very attractive choice.  
+**In one sentence**: Leapmotor C11 is a typical new-energy brand product — **excellent hardware value / feature stacking, but software tuning, NVH refinement, and long-term quality control are still catching up**.
+If you prioritize bang-for-buck, space, loaded features, smart triple screen, and low running cost, and can tolerate the typical “new force” trade-offs listed above, it remains a very attractive choice.
 But if you care a lot about seat comfort, chassis refinement, cabin quietness, or hate dealing with small annoyances, then alternatives like Deepal S7, BYD Song PLUS DM-i, or AITO M5 are usually more polished and reliable.
 
-Model year differences are significant — **2025–2026 facelifts (especially 8295 chip + LiDAR versions) have clearly improved infotainment, ADAS, seats, and chassis tuning**.  
+Model year differences are significant — **2025–2026 facelifts (especially 8295 chip + LiDAR versions) have clearly improved infotainment, ADAS, seats, and chassis tuning**.
 Recommendation: test drive the latest model in person and talk to owners who took delivery in the past 6–12 months for the most up-to-date real-world experience.
 
-References:  
+References:
 
 - None (information is synthesized from multiple Chinese EV owner forums, Qichezhijia complaints, Autohome reviews, and Weibo/Xiaohongshu owner threads up to early 2026)

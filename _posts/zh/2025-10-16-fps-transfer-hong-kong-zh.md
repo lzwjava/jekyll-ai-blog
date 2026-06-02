@@ -14,6 +14,6 @@ type: note
 
 请确保您和收款人都在参与银行或储值支付工具（SVF）开通了FPS服务，且代理识别码已正确登记。
 
-[香港金管局FPS概述](https://www.hkma.gov.hk/eng/smart-consumers/faster-payment-system/)  
-[汇丰银行FPS指南](https://www.hsbc.com.hk/campaigns/fps/)  
+[香港金管局FPS概述](https://www.hkma.gov.hk/eng/smart-consumers/faster-payment-system/)
+[汇丰银行FPS指南](https://www.hsbc.com.hk/campaigns/fps/)
 [恒生银行FPS信息](https://www.hangseng.com/en-hk/personal/banking/fps/)

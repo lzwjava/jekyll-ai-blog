@@ -56,6 +56,6 @@ PyTorch considers a GPU "big enough" only if it has a substantial number of SMs 
 
 In most real-world cases, the performance difference from missing full `max_autotune_gemm` is small (a few percent), and `max-autotune-no-cudagraphs` gets you 95%+ of the way there on consumer GPUs.
 
-[PyTorch Inductor utils.py source](https://github.com/pytorch/pytorch/blob/main/torch/_inductor/utils.py)  
-[Torch.compile warning discussion](https://discuss.pytorch.org/t/torch-compile-warning-not-enough-sms-to-use-max-autotune-gemm-mode/184405)  
+[PyTorch Inductor utils.py source](https://github.com/pytorch/pytorch/blob/main/torch/_inductor/utils.py)
+[Torch.compile warning discussion](https://discuss.pytorch.org/t/torch-compile-warning-not-enough-sms-to-use-max-autotune-gemm-mode/184405)
 [Dissecting torch.compile](https://themlsurgeon.substack.com/p/dissecting-torchcompile-surgical)

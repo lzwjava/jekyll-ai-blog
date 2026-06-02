@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Cloud Load Balancing in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 Cloud Load Balancing in **Google Cloud Platform (GCP)** is a fully managed, distributed, software-defined load balancing service. It distributes incoming traffic across multiple backend instances (such as Compute Engine VMs, Google Kubernetes Engine clusters, Cloud Run services, or VM instance groups) to ensure high availability, scalability, and performance.
 
@@ -68,7 +68,7 @@ Google Cloud offers several load balancer types. The two main categories are:
 
 Cloud Load Balancing is one of the most powerful and developer-friendly load balancing offerings among major cloud providers, especially for global applications.
 
-References:  
+References:
 
 - [Cloud Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/load-balancing-overview)
 - [Choose a load balancer](https://docs.cloud.google.com/load-balancing/docs/choosing-load-balancer)

@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular opinions about women?
 
-Answer: 
+Answer:
 
 Here are some genuinely unpopular (often controversial or politically incorrect) opinions about women that surface repeatedly in anonymous forums, academic debates, evolutionary psychology discussions, or red-pill/manosphere spaces. These are presented as observed opinions, not as my endorsements:
 
@@ -31,8 +31,8 @@ Here are some genuinely unpopular (often controversial or politically incorrect)
 
 These opinions are deeply unpopular in mainstream discourse, often labeled misogynistic, and are usually only expressed anonymously online or in certain counter-cultural circles.
 
-References:  
-- [The Rational Male – Hypergamy](https://therationalmale.com/2011/08/30/there-is-no-one/)  
-- [Paradox of Declining Female Happiness (NBER)](https://www.nber.org/papers/w14969)  
-- [Divorce Initiation Statistics (American Sociological Association)](https://www.asanet.org/wp-content/uploads/savvy/images/press/docs/pdf/ASR_Feb_2015_Brines_News_Release.pdf)  
+References:
+- [The Rational Male – Hypergamy](https://therationalmale.com/2011/08/30/there-is-no-one/)
+- [Paradox of Declining Female Happiness (NBER)](https://www.nber.org/papers/w14969)
+- [Divorce Initiation Statistics (American Sociological Association)](https://www.asanet.org/wp-content/uploads/savvy/images/press/docs/pdf/ASR_Feb_2015_Brines_News_Release.pdf)
 - [General Social Survey Happiness Trends](https://gss.norc.org/)

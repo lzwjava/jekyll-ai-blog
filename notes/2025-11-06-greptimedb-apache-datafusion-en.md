@@ -14,7 +14,7 @@ GreptimeDB, an open-source cloud-native time-series database for observability d
 
 ### Key Reasons for This Dependency:
 - **Performance and Efficiency**: DataFusion enables fast query execution by utilizing Arrow's zero-copy data model, which minimizes serialization overhead and supports vectorized operations. This is crucial for handling massive volumes of time-series data in GreptimeDB without compromising speed.
-  
+
 - **Extensibility and Customization**: GreptimeDB extends DataFusion to add time-series-specific features, such as:
   - Support for PromQL (Prometheus Query Language) as a dialect for observability queries.
   - Enhanced SQL syntax tailored to time-series workloads.
@@ -27,5 +27,5 @@ GreptimeDB, an open-source cloud-native time-series database for observability d
 
 Without DataFusion, GreptimeDB would need to reimplement a full query engine from scratch, which would be resource-intensive and harder to maintain. Instead, this dependency accelerates development and delivers production-grade query performance.
 
-[Greptime Engineer Ruihang Xia Presented at CMUDB Seminar — Apache DataFusion Database Practices](https://greptime.com/blogs/2024-12-19-apache-datafusion-database-practices)  
+[Greptime Engineer Ruihang Xia Presented at CMUDB Seminar — Apache DataFusion Database Practices](https://greptime.com/blogs/2024-12-19-apache-datafusion-database-practices)
 [Functions | GreptimeDB Documentation](https://docs.greptime.com/reference/sql/functions/overview/)

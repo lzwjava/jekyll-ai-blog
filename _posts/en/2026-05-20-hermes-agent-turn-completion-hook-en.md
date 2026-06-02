@@ -71,9 +71,9 @@ terminal-notifier \
 
 Uses [`terminal-notifier`](https://github.com/julienXX/terminal-notifier) (a macOS notification CLI tool — installable via `brew install terminal-notifier`) to:
 
-- Show a notification like:  
-  **Hermes Agent — hermes-agent**  
-  *msg: what's the  |  turns: 3*  
+- Show a notification like:
+  **Hermes Agent — hermes-agent**
+  *msg: what's the  |  turns: 3*
   Hermes has completed one turn.
 - Plays the `Glass` system sound
 - `-activate com.mitchellh.ghostty` makes clicking the notification bring **Ghostty** (your terminal emulator) to front instead of just opening Notification Center

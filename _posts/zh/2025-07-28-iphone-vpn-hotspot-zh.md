@@ -17,6 +17,6 @@ type: note
 
 如果你希望 Mac 的流量也使用 VPN，需要在 Mac 设备上单独配置 VPN 服务。
 
-[VPN 是否会监控我的热点流量？- Accountable2You 技术支持](https://support.accountable2you.com/article/791-faq-does-the-vpn-monitor-my-hotspot-traffic)  
-[如果在笔记本电脑上连接手机热点且手机已开启 VPN，笔记本电脑是否能获得 VPN 安全保护？- Quora](https://www.quora.com/If-I-am-connected-to-my-phones-hotspot-on-my-laptop-and-VPN-is-activated-on-the-phone-does-the-laptop-also-get-VPN-security-protection)  
+[VPN 是否会监控我的热点流量？- Accountable2You 技术支持](https://support.accountable2you.com/article/791-faq-does-the-vpn-monitor-my-hotspot-traffic)
+[如果在笔记本电脑上连接手机热点且手机已开启 VPN，笔记本电脑是否能获得 VPN 安全保护？- Quora](https://www.quora.com/If-I-am-connected-to-my-phones-hotspot-on-my-laptop-and-VPN-is-activated-on-the-phone-does-the-laptop-also-get-VPN-security-protection)
 [为什么从 iPhone 共享给笔记本电脑的 WiFi 连接（个人热点）不经过 VPN？- Apple Stack Exchange](https://apple.stackexchange.com/questions/400853/why-does-shared-wifi-connection-from-iphone-to-laptop-personal-hotspot-not-go)

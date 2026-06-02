@@ -61,7 +61,7 @@ def call_mistral_api(prompt):
     if not api_key:
         print("Error: MISTRAL_API_KEY environment variable not set.")
         return None
-    
+
     url = MISTRAL_API_URL
     headers = {
         "Content-Type": "application/json",
@@ -95,5 +95,5 @@ def call_mistral_api(prompt):
         return None
 
 if __name__ == "__main__":
-    print(call_mistral_api('hi'))    
+    print(call_mistral_api('hi'))
 ```

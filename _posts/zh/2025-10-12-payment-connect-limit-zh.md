@@ -22,6 +22,6 @@ type: note
 
 若使用具体银行，建议通过其App或客服确认最新限额，因机构可能调整政策。更多细节可参考中国人民银行网站或香港金管局公告。
 
-[中国人民银行支付通公告](http://www.pbc.gov.cn/en/3688110/3688172/5637600/index.html)  
-[香港金管局新闻稿](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/06/20250622-3/)  
+[中国人民银行支付通公告](http://www.pbc.gov.cn/en/3688110/3688172/5637600/index.html)
+[香港金管局新闻稿](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/06/20250622-3/)
 [工商银行支付通指南](https://www.icbc.com.cn/icbc/en/crossborder/paymentconnect/)

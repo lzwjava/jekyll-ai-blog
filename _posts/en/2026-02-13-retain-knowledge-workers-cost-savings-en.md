@@ -12,7 +12,7 @@ type: note
 
 Question: Why is employee retention particularly important for knowledge workers such as software engineers, product managers, IT workers, and hardware engineers in companies?
 
-Answer: 
+Answer:
 
 **Yes — high retention is one of the most critical factors for knowledge-intensive organizations.**
 
@@ -54,11 +54,11 @@ For a senior backend engineer making $220k total comp, losing them can easily co
 Because the **marginal cost of keeping a good-but-not-elite performer is usually much lower** than the cost of replacing them, many high-performing engineering cultures tolerate “good enough but not rockstar” engineers far longer than people expect — precisely because continuity and deep context have such high value.
 
 ### Bottom line
-In software / hardware / complex product companies, **institutional memory and context are among the scarcest and most valuable assets**.  
+In software / hardware / complex product companies, **institutional memory and context are among the scarcest and most valuable assets**.
 Losing people is not just losing headcount — it is **losing months or years of accumulated system understanding** that is extremely hard and expensive to rebuild.
 
 That is why retention (through good culture, fair compensation, meaningful work, psychological safety, career growth, etc.) is usually considered **more important than almost any other single lever** for engineering productivity and product quality in mature organizations.
 
-References:  
+References:
 
 - None (this is synthesized from widely accepted industry observations in software/hardware engineering management literature and practice)

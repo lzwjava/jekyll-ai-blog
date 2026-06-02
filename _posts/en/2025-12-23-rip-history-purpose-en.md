@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to the history of the RIP Protocol in networking and why we need it
 
-Answer: 
+Answer:
 
 ### Introduction to RIP
 
@@ -57,7 +57,7 @@ RIP was essential in early IP networks for enabling automated, distributed routi
 
 While modern networks prefer protocols with faster convergence and better scalability, RIP's historical role laid the foundation for dynamic routing in the Internet.
 
-References:  
+References:
 
 - [Routing Information Protocol - Wikipedia](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 - [What is Routing Information Protocol (RIP)? | Definition from TechTarget](https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol)

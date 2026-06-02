@@ -12,7 +12,7 @@ type: note
 
 **Question: What does a little soda powerdum can do?**
 
-**Answer:**  
+**Answer:**
 "Little soda" refers to sodium bicarbonate (NaHCO₃), also known as baking soda, a fine white powder commonly packaged in cans or bags for household use. "Powerdum" appears to be a likely misspelling or phonetic rendering of "powder," so "little soda powerdum can" describes a small can of baking soda powder.
 
 Baking soda is a versatile alkali compound with many practical uses:
@@ -25,9 +25,9 @@ Baking soda is a versatile alkali compound with many practical uses:
 
 **Safety note**: Use food-grade only for consumption; avoid large ingestion (can cause alkalosis); don't mix with strong acids except as directed.
 
-**References:**  
-- [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)  
-- [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)  
-- [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)  
-- [ARM & HAMMER Baking Soda](https://www.armandhammer.com/en/baking-soda/baking-soda-products/pure-baking-soda/baking-soda-box-2-lb)  
+**References:**
+- [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)
+- [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)
+- [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)
+- [ARM & HAMMER Baking Soda](https://www.armandhammer.com/en/baking-soda/baking-soda-products/pure-baking-soda/baking-soda-box-2-lb)
 - [Baking Soda vs. Baking Powder](https://www.armandhammer.com/en/articles/baking-soda-vs-baking-powder)

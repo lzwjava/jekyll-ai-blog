@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 Ubuntu server 上使用命令行下载 torrent 文件？qBittorrent 是 GUI 程序吗？
 
-Answer: 
+Answer:
 
 是的，标准的 **qBittorrent** 软件包是一个 GUI 应用程序（它需要 X11/Wayland 等桌面环境）。
 
@@ -82,8 +82,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now qbittorrent-nox
 ```
 
-现在在浏览器中打开：  
-**http://your-server-ip:8080**  
+现在在浏览器中打开：
+**http://your-server-ip:8080**
 (默认登录: admin / adminadmin — 请立即更改！)
 
 你可以直接从 web 界面添加 .torrent 文件或 magnet 链接。
@@ -107,15 +107,15 @@ transmission-cli -w /path/to/downloads ubuntu-24.04-desktop-amd64.iso.torrent
 ```bash
 sudo apt install aria2
 
-aria2c "magnet:?xt=urn:btih:..." 
+aria2c "magnet:?xt=urn:btih:..."
 # 或者
 aria2c file.torrent --dir=/downloads --seed-time=0   # 下载完成后停止 seeding
 ```
 
-如果你想要友好的界面和丰富的功能，请选择 **qbittorrent-nox**。  
+如果你想要友好的界面和丰富的功能，请选择 **qbittorrent-nox**。
 如果你只想进行快速的命令行单次下载，请选择 **aria2c** 或 **transmission-cli**。
 
-References:  
+References:
 
 - [qBittorrent 官方网站](https://www.qbittorrent.org/)
 - [Ubuntu torrent 客户端概览](https://linuxconfig.org/ubuntu-22-04-list-of-torrent-clients)

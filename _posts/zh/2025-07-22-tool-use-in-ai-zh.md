@@ -86,13 +86,13 @@ tool_calls = response.choices[0].message.tool_calls
 if tool_calls:
     # 将模型的响应附加到消息列表中
     messages.append(response.choices[0].message)
-    
+
     # 模拟执行工具（在实际代码中，调用真实的 API）
     tool_call = tool_calls[0]
     if tool_call.function.name == "get_weather":
         location = eval(tool_call.function.arguments)["location"]
         weather_result = "24°C，晴朗"  # 替换为真实的函数调用
-        
+
         # 附加工具结果
         messages.append({
             "role": "tool",
@@ -100,7 +100,7 @@ if tool_calls:
             "name": tool_call.function.name,
             "content": weather_result
         })
-    
+
     # 第二次 API 调用：模型生成最终响应
     final_response = client.chat.complete(model=model, messages=messages)
     print(final_response.choices[0].message.content)

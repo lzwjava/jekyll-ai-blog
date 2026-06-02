@@ -12,7 +12,7 @@ type: note
 
 Question: 在进入 recovery mode 或通过 Ubuntu live USB 进行 chroot 后，尝试启动图形界面或重启时，系统仍然提示 "Failed to start gdm.service" (GNOME Display Manager 启动失败)。该如何修复？
 
-Answer: 
+Answer:
 
 "Failed to start gdm.service" 错误通常意味着 GDM 因为权限问题、文件缺失/损坏或 dependencies 损坏而无法启动——在你运行过 `sudo chown -R $(whoami) /usr/` 之后，这些情况极易发生。以下是按推荐顺序排列的最有效的修复步骤。
 
@@ -134,8 +134,8 @@ reboot
 
 **不要**再对系统目录运行任何递归的 chown/chmod —— 这是导致问题的根源。
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)  
-- [https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions](https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions)  
+- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)
+- [https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions](https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions)
 - [https://wiki.ubuntu.com/RecoveryMode](https://wiki.ubuntu.com/RecoveryMode)

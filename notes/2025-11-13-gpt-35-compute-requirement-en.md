@@ -25,6 +25,6 @@ Beyond raw FLOPs, training a large language model like GPT-3.5 requires:
 
 If you're interested in smaller-scale experiments, consider fine-tuning pre-trained models or training tiny LLMs (e.g., with 1-10 billion parameters) on consumer hardware—these can be done with far less compute, often in days or weeks.
 
-[Demystifying GPT-3](https://lambda.ai/blog/demystifying-gpt-3)  
-[Why Training ChatGPT (GPT-3.5) Takes 35 YEARS on a Single GPU!](https://www.youtube.com/watch?v=YsLl2DhMgQo)  
+[Demystifying GPT-3](https://lambda.ai/blog/demystifying-gpt-3)
+[Why Training ChatGPT (GPT-3.5) Takes 35 YEARS on a Single GPU!](https://www.youtube.com/watch?v=YsLl2DhMgQo)
 [The FLOPs Calculus of Language Model Training](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)

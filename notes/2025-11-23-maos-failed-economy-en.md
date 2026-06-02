@@ -22,7 +22,7 @@ Mao's regime implemented a **command economy** based on the Soviet model, marked
 
 * **Centralized Planning:** The State Planning Commission allocated industrial inputs and outputs. Wages were set, and skilled workers were assigned jobs by the government.
 * **Abolition of Private Enterprise:** Household agriculture was abolished in favor of **collectives** (Agricultural Producer Cooperatives and later **Rural People's Communes**). Private farming was prohibited and persecuted.
-* **Mass Mobilization and Ideology:** Key campaigns, most notably the **Great Leap Forward** (1958-1962), relied on a top-down mass mobilization approach, prioritizing ideological goals and political control over sound economic principles and technical expertise. 
+* **Mass Mobilization and Ideology:** Key campaigns, most notably the **Great Leap Forward** (1958-1962), relied on a top-down mass mobilization approach, prioritizing ideological goals and political control over sound economic principles and technical expertise.
 * **Lack of Freedom and Incentives:** All key consumer goods were strictly rationed, and producers had little to no material incentive to increase output or innovate beyond state quotas.
 
 ### The Consequences of Top-Down Control

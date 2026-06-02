@@ -25,126 +25,126 @@ The vast majority of important options are **common** to llama-cli and llama-ser
 
 ### 1. Model Loading – Most Important Flags
 
-- `-m, --model FNAME`  
+- `-m, --model FNAME`
   Path to GGUF model file (`.gguf`)
 
-- `-hf, --hf-repo REPO` + `--hf-file FILE`  
+- `-hf, --hf-repo REPO` + `--hf-file FILE`
   Download model directly from Hugging Face (e.g. `-hf bartowski/Llama-3.1-8B-Instruct-GGUF --hf-file Llama-3.1-8B-Instruct-Q5_K_M.gguf`)
 
-- `--mmproj FNAME`  
+- `--mmproj FNAME`
   Path to multimodal projector (for vision/language models like llava, bakllava, obsidian, …)
 
 ### 2. Context & KV Cache Control
 
-- `-c, --ctx-size N` / `--context-length N`  
+- `-c, --ctx-size N` / `--context-length N`
   Maximum context length in tokens (default usually 4096 or 8192, 0 = model default)
 
-- `--no-context-shift`  
+- `--no-context-shift`
   Disable context shifting when context is full (newer models often prefer this)
 
-- `--rope-scaling yarn` / `--rope-scale N` / `--rope-freq-base` / `--rope-freq-scale`  
+- `--rope-scaling yarn` / `--rope-scale N` / `--rope-freq-base` / `--rope-freq-scale`
   Advanced RoPE scaling (important for context > original training length)
 
 ### 3. GPU / Acceleration Layers
 
-- `-ngl, --n-gpu-layers N`  
-  Number of layers to put on GPU (very important for speed)  
-  - `999` / `-1` = try to put everything on GPU  
+- `-ngl, --n-gpu-layers N`
+  Number of layers to put on GPU (very important for speed)
+  - `999` / `-1` = try to put everything on GPU
   - `0` = CPU only
 
-- `-fa, --flash-attn`  
+- `-fa, --flash-attn`
   Enable Flash Attention (usually faster & lower VRAM usage on modern GPUs)
 
-- `-sm row` / `-sm block`  
+- `-sm row` / `-sm block`
   Split mode for model layers on multiple GPUs (row / block / layer)
 
-- `--main-gpu INDEX` / `--tensor-split "0,0.5,0.5,…"`  
+- `--main-gpu INDEX` / `--tensor-split "0,0.5,0.5,…"`
   Multi-GPU splitting control
 
-- `--rpc-tensors` / `--no-rpc-tensors`  
+- `--rpc-tensors` / `--no-rpc-tensors`
   Offload tensors via RPC to another machine
 
 ### 4. Performance / Threading
 
-- `-t, --threads N`  
+- `-t, --threads N`
   Number of CPU threads for generation (default ≈ all physical cores)
 
-- `-tb, --threads-batch N`  
+- `-tb, --threads-batch N`
   Threads used for prompt processing / batch (often same as `-t` or slightly higher)
 
-- `-b, --batch-size N`  
+- `-b, --batch-size N`
   Logical batch size (default 2048, 512–4096 common)
 
-- `-ub, --ubatch-size N`  
+- `-ub, --ubatch-size N`
   Physical micro-batch size (often 512–1024, important for very large prompts)
 
-- `--cont-batching` / `--no-cont-batching`  
+- `--cont-batching` / `--no-cont-batching`
   Enable continuous batching (usually faster for server / parallel requests)
 
-- `--no-mmap`  
+- `--no-mmap`
   Disable memory mapping (sometimes needed on certain file systems or WSL)
 
 ### 5. Sampling – Controls creativity & quality
 
-- `--temp N`  
+- `--temp N`
   Temperature (0.0 = deterministic, 0.7–1.2 = creative, default ~0.8)
 
-- `--top-k N`  
+- `--top-k N`
   Keep only top K tokens (20–50 common)
 
-- `--top-p N`  
+- `--top-p N`
   Cumulative probability threshold (0.9–0.95 common)
 
-- `--min-p N`  
+- `--min-p N`
   Minimum probability relative to the most likely token (0.05–0.1 very popular 2025+)
 
-- `--tfs N` / `--typical N` / `--mirostat 2 --mirostat-tau 5.0 --mirostat-et 0.1`  
+- `--tfs N` / `--typical N` / `--mirostat 2 --mirostat-tau 5.0 --mirostat-et 0.1`
   Advanced samplers (mirostat v2 is very good default in 2025–2026)
 
-- `--repeat-penalty N` / `--presence-penalty` / `--frequency-penalty`  
+- `--repeat-penalty N` / `--presence-penalty` / `--frequency-penalty`
   Discourage repetition
 
-- `--dry` family (dry-multipliers, dry-base, dry-sequence-breakers)  
+- `--dry` family (dry-multipliers, dry-base, dry-sequence-breakers)
   Newer repetition penalty method (2025+)
 
 ### 6. Prompt & Chat Control (especially llama-cli)
 
-- `-cnv, --color --no-display-prompt --simple-io`  
+- `-cnv, --color --no-display-prompt --simple-io`
   Pretty terminal chat mode
 
-- `--chat-template TEMPLATE` / `--chat-template-file FILE`  
+- `--chat-template TEMPLATE` / `--chat-template-file FILE`
   Choose/alter chat template (chatml, llama-3, mistral, gemma, …)
 
-- `-s, --simple-io`  
+- `-s, --simple-io`
   Raw input/output (no fancy formatting)
 
-- `--reverse-prompt STR` / `--in-prefix` / `--in-suffix`  
+- `--reverse-prompt STR` / `--in-prefix` / `--in-suffix`
   Custom stop strings / prompt wrapping
 
-- `-p, --prompt TEXT` / `-f, --file FILE`  
+- `-p, --prompt TEXT` / `-f, --file FILE`
   Initial non-interactive prompt
 
-- `-n, --n-predict N` / `-c, --ctx-size N`  
+- `-n, --n-predict N` / `-c, --ctx-size N`
   How many tokens to generate (-1 = infinite until stop)
 
 ### 7. llama-server Specific (OpenAI compatible API)
 
-- `--host 0.0.0.0 --port 8080`  
+- `--host 0.0.0.0 --port 8080`
   Listen address/port
 
-- `--path PREFIX`  
+- `--path PREFIX`
   API base path (default /v1)
 
-- `--slots` / `--parallel N`  
+- `--slots` / `--parallel N`
   Maximum concurrent requests / slots
 
-- `--embedding`  
+- `--embedding`
   Enable embedding endpoint
 
-- `--reasoning-format deepseek` / `--jinja`  
+- `--reasoning-format deepseek` / `--jinja`
   Special handling for reasoning models / full jinja templates
 
-- `--api-key-file` / `--ssl-key-file` / `--ssl-cert-file`  
+- `--api-key-file` / `--ssl-key-file` / `--ssl-cert-file`
   Authentication & HTTPS
 
 ### 8. Quick Reference – Popular 2025–2026 Combinations

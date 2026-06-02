@@ -10,13 +10,13 @@ translated: true
 type: note
 ---
 
-问题：在华为路由器中，哪个命令用于显示当前 OSPF 邻居表？  
-A) display ospf peer  
-B) display ospf neighbor  
-C) display ospf interface  
+问题：在华为路由器中，哪个命令用于显示当前 OSPF 邻居表？
+A) display ospf peer
+B) display ospf neighbor
+C) display ospf interface
 D) display ospf routing-table
 
-**答案：** 
+**答案：**
 
 正确答案是 **A) display ospf peer**。
 
@@ -26,8 +26,8 @@ D) display ospf routing-table
 - `display ospf interface` 显示有关启用 OSPF 的接口信息，而不是邻居表。
 - `display ospf routing-table` (或 `display ospf routing`) 显示 OSPF 路由表，而不是邻居。
 
-**参考资料：**  
+**参考资料：**
 
-- [华为支持：display ospf peer (各种型号)](https://support.huawei.com/enterprise/en/doc/EDOC1100096312/9dc18ce0/display-ospf-peer)  
-- [华为支持：排查 OSPF 邻居问题](https://info.support.huawei.com/network/ptmngsys/Web/tsrev_ar/en/content/ar/17_edesk_ospf_peer_status_abnormal/edesk_ospf_peer_status_abnormal_edesk001.html)  
+- [华为支持：display ospf peer (各种型号)](https://support.huawei.com/enterprise/en/doc/EDOC1100096312/9dc18ce0/display-ospf-peer)
+- [华为支持：排查 OSPF 邻居问题](https://info.support.huawei.com/network/ptmngsys/Web/tsrev_ar/en/content/ar/17_edesk_ospf_peer_status_abnormal/edesk_ospf_peer_status_abnormal_edesk001.html)
 - [华为命令参考示例](https://support.huawei.com/enterprise/en/doc/EDOC1100197525/9dc18ce0/display-ospf-peer)

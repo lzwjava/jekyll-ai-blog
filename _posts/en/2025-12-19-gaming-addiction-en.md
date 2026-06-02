@@ -12,7 +12,7 @@ type: note
 
 Question: Why is gaming so easy to get addicted to, like Honor of Kings?
 
-Answer: 
+Answer:
 
 Gaming, particularly titles like *Honor of Kings* (known as *王者荣耀* in China), is highly addictive due to a combination of psychological mechanisms, clever game design, and social factors. These elements hijack the brain's reward system, creating a cycle that's hard to break. Below, I'll break it down step by step, drawing from psychological research and specifics about *Honor of Kings*, one of the world's most popular mobile games with over 100 million daily active users.
 
@@ -47,9 +47,9 @@ Gaming, particularly titles like *Honor of Kings* (known as *王者荣耀* in Ch
 
 Addiction isn't inevitable—set limits, play socially, or use tools like screen-time apps. If it interferes with life (e.g., skipping work/school), seek help; it's classified as "Internet Gaming Disorder" by WHO.
 
-References:  
-- [Video Game Addiction: What It Is, Symptoms & Treatment (Cleveland Clinic)](https://my.clevelandclinic.org/health/diseases/23124-video-game-addiction)  
-- [Video Game Addiction (Psychology Today)](https://www.psychologytoday.com/us/basics/video-game-addiction)  
-- [Honour of Kings: China's most vilified online game (BBC)](https://www.bbc.com/news/business-40516125)  
-- [Honor of Kings (Wikipedia)](https://en.wikipedia.org/wiki/Honor_of_Kings)  
+References:
+- [Video Game Addiction: What It Is, Symptoms & Treatment (Cleveland Clinic)](https://my.clevelandclinic.org/health/diseases/23124-video-game-addiction)
+- [Video Game Addiction (Psychology Today)](https://www.psychologytoday.com/us/basics/video-game-addiction)
+- [Honour of Kings: China's most vilified online game (BBC)](https://www.bbc.com/news/business-40516125)
+- [Honor of Kings (Wikipedia)](https://en.wikipedia.org/wiki/Honor_of_Kings)
 - [Video Game Addiction in China (Wikipedia)](https://en.wikipedia.org/wiki/Video_game_addiction_in_China)

@@ -12,7 +12,7 @@ type: note
 
 Question: 链接为 https://www.youtube.com/watch?v=GVs1V1pPgac 的 YouTube 视频说了什么？
 
-Answer: 
+Answer:
 
 该视频标题为 **"Steve Cohen on How to Build Your Investing Career: Part One"**（Steve Cohen 谈如何建立你的投资职业生涯：第一部分），由 Point72 的 YouTube 频道（由 Steve Cohen 创立的 hedge fund）发布。
 
@@ -32,6 +32,6 @@ Answer:
 
 该视频不构成投资建议（包含标准免责声明）。
 
-References:  
+References:
 
 - [https://www.youtube.com/watch?v=GVs1V1pPgac](https://www.youtube.com/watch?v=GVs1V1pPgac)

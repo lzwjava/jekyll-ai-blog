@@ -12,7 +12,7 @@ type: note
 
 **Question: Without exporting proxy environment variables, the Python script times out when querying Cloudflare DoH (https://1.1.1.1/dns-query). How to find a proper DNS server in China, or can we route DNS requests through the Clash proxy?**
 
-**Answer:** 
+**Answer:**
 
 Your test shows the classic problem in mainland China: direct access to foreign DoH servers like `https://1.1.1.1/dns-query` often fails or times out because of **GFW-level blocking** on the DoH endpoint (TLS handshake or SNI filtering), even when plain UDP DNS to 1.1.1.1 might partially work.
 
@@ -112,7 +112,7 @@ This confirms the block is on direct outbound HTTPS to Cloudflare DoH.
 
 Use the `#PROXY` method for cleanest long-term fix.
 
-**References:**  
+**References:**
 
 - [MetaCubeX mihomo DNS Configuration (nameserver #proxy support)](https://wiki.metacubex.one/en/config/dns)
 - [Clash DNS upstream through proxy discussion](https://github.com/MetaCubeX/mihomo/discussions/1434)

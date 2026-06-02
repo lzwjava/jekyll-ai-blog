@@ -15,7 +15,7 @@ type: note
 **Answer:**
 
 ### About Su Jianlin
-Su Jianlin (苏剑林), born in 1993 in a small village in Yunfu, Guangdong, China, is a Chinese researcher, blogger, and machine learning practitioner known online as **BoJone**. He holds a Bachelor's degree in Mathematics from South China Normal University and a Master's degree in Fundamental Mathematics (with a focus on mathematical biology applications) from Sun Yat-sen University (graduated in 2019). 
+Su Jianlin (苏剑林), born in 1993 in a small village in Yunfu, Guangdong, China, is a Chinese researcher, blogger, and machine learning practitioner known online as **BoJone**. He holds a Bachelor's degree in Mathematics from South China Normal University and a Master's degree in Fundamental Mathematics (with a focus on mathematical biology applications) from Sun Yat-sen University (graduated in 2019).
 
 From a young age, he showed strong interest in science, particularly mathematics and chemistry, which later expanded to physics, astronomy, and computing. He idolizes physicist Richard Feynman and describes himself as someone who loves "drilling into the corners" of problems—persistently exploring deep details until breakthroughs. His hobbies include reading, writing, Chinese chess, cooking, and theoretical pursuits in various sciences.
 

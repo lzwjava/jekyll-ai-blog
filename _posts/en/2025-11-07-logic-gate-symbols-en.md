@@ -49,6 +49,6 @@ If this doesn't match what you saw (e.g., share a description of the diagram), f
 | **Buffer** | Plain triangle → | 1 | Same as input | Signal boosting |
 | **NOT**  | Triangle with circle at tip →○ | 1 | Inverted input | Flipping signals |
 
-References:  
-[Digital Logic Gate Symbols - Electronics Tutorials](https://www.electronics-tutorials.ws/logic/logic_1.html)  
+References:
+[Digital Logic Gate Symbols - Electronics Tutorials](https://www.electronics-tutorials.ws/logic/logic_1.html)
 [ANSI Logic Symbols - IEEE Standard](https://standards.ieee.org/standard/91-1984.html)

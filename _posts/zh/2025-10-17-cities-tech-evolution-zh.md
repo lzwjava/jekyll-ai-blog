@@ -39,10 +39,10 @@ type: note
 
 静态砖瓦与动态字节之间的这种不匹配令人沮丧，但它正在激发真正的创新。模块化+AI可以使城市感觉像你的最新设备一样新鲜——适应性强、高效且充满生机。
 
-**参考资料**  
-[模块化住房提供优良设计、效率与价值](https://www.forbes.com/sites/jennifercastenson/2025/05/29/modular-housing-offers-good-design-efficiency-and-value/)  
-[2025年模块化建筑：成本、效益及为何代表未来](https://builtfront.com/blog/modular-construction/)  
-[重新构想智能家居技术的未来](https://www.forbes.com/sites/jennifercastenson/2025/07/23/smart-home-technology-reimagined-the-future-is-so-much-smart/)  
-[智能家居技术的未来：革命性趋势](https://digitalholics.com/the-future-of-smart-home-technology/)  
-[为何高层公寓正在占据城市](https://thegreenfortune.com/high-rise-apartment/)  
+**参考资料**
+[模块化住房提供优良设计、效率与价值](https://www.forbes.com/sites/jennifercastenson/2025/05/29/modular-housing-offers-good-design-efficiency-and-value/)
+[2025年模块化建筑：成本、效益及为何代表未来](https://builtfront.com/blog/modular-construction/)
+[重新构想智能家居技术的未来](https://www.forbes.com/sites/jennifercastenson/2025/07/23/smart-home-technology-reimagined-the-future-is-so-much-smart/)
+[智能家居技术的未来：革命性趋势](https://digitalholics.com/the-future-of-smart-home-technology/)
+[为何高层公寓正在占据城市](https://thegreenfortune.com/high-rise-apartment/)
 [如何防止智能技术老化](https://smartbuildingsmagazine.com/news/how-to-stop-your-smart-technology-from-ageing)

@@ -19,6 +19,6 @@ Yes, you're correct. In Git Bash on Windows (which runs on an MSYS2/Cygwin-like 
 
 For environment variables like `GNUPGHOME`, the same rule applies: set it with `/` (e.g., `export GNUPGHOME=/c/Users/me/.gnupg`).
 
-[MSYS2 Filesystem Paths](https://www.msys2.org/docs/filesystem-paths/)  
-[GNUPGHOME in MSYS2 Discussion](https://lists.gnupg.org/pipermail/gnupg-users/2025-February/067536.html)  
+[MSYS2 Filesystem Paths](https://www.msys2.org/docs/filesystem-paths/)
+[GNUPGHOME in MSYS2 Discussion](https://lists.gnupg.org/pipermail/gnupg-users/2025-February/067536.html)
 [GPG --homedir Bug on Windows/MSYS2](https://www.reddit.com/r/GnuPG/comments/1cl4dw8/bug_windows_homedir_with_drive_letter_treated_as/)

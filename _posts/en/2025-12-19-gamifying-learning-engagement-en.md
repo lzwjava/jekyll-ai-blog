@@ -12,7 +12,7 @@ type: note
 
 Question: How to make learning like gaming?
 
-Answer: 
+Answer:
 
 Gamification involves applying game design elements—such as points, badges, levels, leaderboards, challenges, rewards, and narratives—to learning activities. This transforms studying into an engaging, motivating experience similar to playing video games, boosting retention, focus, and enjoyment.
 
@@ -51,7 +51,7 @@ Gamification involves applying game design elements—such as points, badges, le
 
 Start small: Pick one subject, apply 2-3 elements, and adjust based on what keeps you engaged. Over time, this makes learning addictive and effective.
 
-References:  
+References:
 
 - [10 Gamification in Education Ideas to Make Learning Fun](https://pce.sandiego.edu/gamification-in-education/)
 - [Gamification of learning - Wikipedia](https://en.wikipedia.org/wiki/Gamification_of_learning)

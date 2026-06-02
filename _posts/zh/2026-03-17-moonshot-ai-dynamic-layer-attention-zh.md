@@ -42,7 +42,7 @@ x_{l} = x_{l-1} + F_l(x_{l-1})
 对于第 l 层：
 
 - 学习一个 **pseudo-query vector** qₗ（每层一个向量，通常维度较小或共享）
-- 计算对先前隐藏状态的 attention scores：  
+- 计算对先前隐藏状态的 attention scores：
   α_{l,i} = softmax( qₗ · h_i ) 对于 i = 1…l-1
 - 第 l 层的新的输入变为 **weighted sum**：
 

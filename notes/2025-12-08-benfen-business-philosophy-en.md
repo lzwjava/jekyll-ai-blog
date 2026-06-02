@@ -12,7 +12,7 @@ type: note
 
 Question: How can one understand the concept of "benfen" as emphasized by Vivo CEO Shen Wei and entrepreneur Duan Yongping?
 
-Answer: 
+Answer:
 
 The Chinese term **"benfen" (本分)** is a foundational philosophy in business and personal conduct, deeply rooted in Confucian principles of duty, propriety, and self-restraint. It translates roughly to "knowing one's proper role" or "fulfilling one's duty responsibly," emphasizing humility, integrity, and focus on what is essential without overreaching or seeking undue advantage. In the corporate world, particularly at Vivo (a major smartphone brand), it serves as a guiding ethos for sustainable growth, user-centric innovation, and ethical decision-making. Below, I'll break it down through the lenses of Duan Yongping (the "godfather" of China's smartphone industry and Vivo's indirect founder) and Shen Wei (Vivo's current CEO), drawing on their applications of the concept.
 
@@ -46,9 +46,9 @@ To truly understand *benfen*, contrast it with Western hustle culture: It's not 
 
 Duan and Shen demonstrate *benfen*'s power: Duan's quiet billions and Vivo's $20B+ revenue (as of 2024) prove that knowing (and honoring) your place yields outsized results. For deeper dives, explore Duan's interviews or Vivo's annual reports.
 
-References:  
-- [A Beginner’s Guide to China Big Tech Culture](https://technode.com/2021/05/14/beyond-996-beginners-guide-to-working-at-chinese-tech-companies/)  
-- [Who Is China’s Warren Buffett?](https://pro.pandaily.com/p/who-is-chinas-warren-buffett)  
-- [vivo Sustainability Report](https://www.vivo.com/en/activity/csr)  
-- [vivo CEO Letter on Benfen](https://www.vivo.com/pk/about-vivo/news/ceo-letter)  
+References:
+- [A Beginner’s Guide to China Big Tech Culture](https://technode.com/2021/05/14/beyond-996-beginners-guide-to-working-at-chinese-tech-companies/)
+- [Who Is China’s Warren Buffett?](https://pro.pandaily.com/p/who-is-chinas-warren-buffett)
+- [vivo Sustainability Report](https://www.vivo.com/en/activity/csr)
+- [vivo CEO Letter on Benfen](https://www.vivo.com/pk/about-vivo/news/ceo-letter)
 - [Meet the ‘Godfather’ of China’s Smartphone Industry](https://www.scmp.com/tech/big-tech/article/2184877/meet-godfather-chinas-smartphone-industry)

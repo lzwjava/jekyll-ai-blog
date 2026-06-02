@@ -30,11 +30,11 @@ Answer:
 
 **3. 经常出现延迟 —— 在配合 OpenRouter 使用时尤为明显**
 
-- Latency（延迟）链路如下：  
-  User → LibreChat frontend → LibreChat backend → OpenRouter → 实际模型提供商 → 返回  
+- Latency（延迟）链路如下：
+  User → LibreChat frontend → LibreChat backend → OpenRouter → 实际模型提供商 → 返回
   → 每个环节都会增加 100–600+ ms，具体取决于地理位置和负载。
-- 官方入口通常是：  
-  User → Cloudflare/edge → model inference → response  
+- 官方入口通常是：
+  User → Cloudflare/edge → model inference → response
   → 路径更短 + 更好的 peering（对等互联）+ 优先级队列。
 - 与直接调用提供商相比，OpenRouter 本身已经增加了额外的延迟，而 LibreChat 在其之上又增加了一层。
 

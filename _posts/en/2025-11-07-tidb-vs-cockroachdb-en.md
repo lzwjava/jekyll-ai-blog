@@ -29,6 +29,6 @@ Both TiDB (from PingCAP) and CockroachDB (from Cockroach Labs) are cloud-native,
 
 In summary, choose TiDB if you're in a MySQL-heavy stack or need built-in analytics. Go for CockroachDB for strict Postgres fidelity and multi-region ops. Both are mature, with no major red flags—PingCAP's stability holds up well against Cockroach Labs' aggressive growth.
 
-[TiDB Documentation](https://docs.pingcap.com/tidb/stable/)  
-[CockroachDB Docs](https://www.cockroachlabs.com/docs/)  
+[TiDB Documentation](https://docs.pingcap.com/tidb/stable/)
+[CockroachDB Docs](https://www.cockroachlabs.com/docs/)
 [DB-Engines Ranking](https://db-engines.com/en/system/CockroachDB%3BTiDB)

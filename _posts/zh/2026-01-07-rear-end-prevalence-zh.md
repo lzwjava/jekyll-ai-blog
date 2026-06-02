@@ -12,7 +12,7 @@ type: note
 
 Question: 追尾事故在交通事故中频繁发生吗？
 
-Answer: 
+Answer:
 
 是的，追尾事故（Rear-end collisions）确实是全球范围内（包括中国和美国）最常见的交通事故类型之一。
 
@@ -40,9 +40,9 @@ Answer:
 
 为了降低风险：请保持安全跟车距离，避免分心，并尽可能使用 Automatic Emergency Braking 等功能。
 
-References:  
+References:
 
-- [NHTSA Rear-End Crash Analyses](https://nhtsa.gov/document/analyses-rear-end-crashes-and-near-crashes-100-car-naturalistic-driving-study-support-rear)  
-- [Insurance Information Institute Highway Safety Facts](https://www.iii.org/fact-statistic/facts-statistics-highway-safety)  
-- [Japan Traffic Safety White Paper (via 内閣府)](https://www.ms-ins.com/labo/higoro/article/083.html)  
+- [NHTSA Rear-End Crash Analyses](https://nhtsa.gov/document/analyses-rear-end-crashes-and-near-crashes-100-car-naturalistic-driving-study-support-rear)
+- [Insurance Information Institute Highway Safety Facts](https://www.iii.org/fact-statistic/facts-statistics-highway-safety)
+- [Japan Traffic Safety White Paper (via 内閣府)](https://www.ms-ins.com/labo/higoro/article/083.html)
 - [China Road Traffic Accident Studies (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426775/)

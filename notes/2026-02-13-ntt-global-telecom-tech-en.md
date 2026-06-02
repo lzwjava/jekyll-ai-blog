@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to NTT, the company.
 
-Answer: 
+Answer:
 
 **NTT, Inc.** (formerly known as **Nippon Telegraph and Telephone Corporation**) is one of the world's largest telecommunications and information technology companies, headquartered in Tokyo, Japan.
 
@@ -56,7 +56,7 @@ NTT continues aggressive global expansion and innovation:
 
 NTT remains a cornerstone of Japan's digital infrastructure while expanding its footprint as a global technology and telecommunications leader, driving innovation toward a sustainable, connected future.
 
-References:  
+References:
 
 - [Nippon Telegraph and Telephone - Wikipedia](https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone)
 - [NTT Group Official Site](https://group.ntt/en)

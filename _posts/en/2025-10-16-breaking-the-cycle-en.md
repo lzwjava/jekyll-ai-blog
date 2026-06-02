@@ -59,7 +59,7 @@ Often, this stems from perfectionism, anxiety, or past experiences. Shifting to 
 Remember, change takes time, but the payoff is huge: restored confidence, stronger relationships, and space for creativity to thrive. If this resonates deeply, talking to a pro can accelerate the process.
 
 ### References
-- [How to Stop Being So Critical of Yourself](https://www.psychologytoday.com/us/blog/the-squeaky-wheel/201310/how-stop-being-so-critical-yourself)  
-- [The Power of Positive Feedback: Why Praise Matters More Than Criticism](https://hbr.org/2020/05/the-power-of-positive-feedback)  
-- [Overcoming Learned Helplessness](https://www.verywellmind.com/what-is-learned-helplessness-2795326)  
+- [How to Stop Being So Critical of Yourself](https://www.psychologytoday.com/us/blog/the-squeaky-wheel/201310/how-stop-being-so-critical-yourself)
+- [The Power of Positive Feedback: Why Praise Matters More Than Criticism](https://hbr.org/2020/05/the-power-of-positive-feedback)
+- [Overcoming Learned Helplessness](https://www.verywellmind.com/what-is-learned-helplessness-2795326)
 - [How to Give Constructive Feedback Without Demoralizing Your Team](https://www.forbes.com/sites/forbescoachescouncil/2021/03/15/how-to-give-constructive-feedback-without-demoralizing-your-team/)

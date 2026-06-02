@@ -12,7 +12,7 @@ type: note
 
 Question: How do I set variables and use the `when` conditional in an Ansible playbook?
 
-Answer: 
+Answer:
 
 Here are the most common and recommended ways to set variables and use the `when` clause in modern Ansible playbooks:
 

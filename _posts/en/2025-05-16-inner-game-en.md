@@ -19,7 +19,7 @@ The book’s central premise is that the biggest obstacle to success is not exte
 
 Gallwey breaks this down through several key ideas:
 1. **Self 1 vs. Self 2**: Gallwey personifies the mind as two entities. Self 1 is the critical, judgmental voice that overanalyzes and undermines performance (“You’re going to miss this shot”). Self 2 is the intuitive, capable part of you that performs best when trusted. The goal is to quiet Self 1 and let Self 2 take over.
-   
+
 2. **Non-Judgmental Awareness**: Instead of criticizing mistakes, Gallwey advocates observing them objectively, like a scientist studying data. This reduces anxiety and fosters learning by focusing on what *is* rather than what *should be*.
 
 3. **Focus and Flow**: By concentrating fully on the present moment—such as the ball’s spin or the sound of the racket—you bypass overthinking and enter a state of effortless performance, akin to Mihaly Csikszentmihalyi’s concept of “flow.”

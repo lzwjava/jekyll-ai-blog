@@ -12,7 +12,7 @@ type: note
 
 Question: In this computer with the MSI MAG B760M Mortar WiFi motherboard, how to boot into BIOS/UEFI and enable “Wake-on-LAN” or “PCIe/PCI Wake” under power management settings?
 
-Answer: 
+Answer:
 
 For your PC with the **MSI MAG B760M Mortar WiFi** motherboard (MSI B760 series), follow these exact steps to enter the BIOS and enable Wake-on-LAN (WoL). The process is standard for recent MSI gaming motherboards like yours.
 
@@ -38,7 +38,7 @@ Once inside the BIOS (it may start in EZ Mode — press **F7** to switch to Adva
 
 1. Use the mouse or arrow keys to select **SETTINGS** (usually on the top/left menu).
 2. Go to **Advanced** → **Power Management Setup** (or sometimes directly under **Advanced**).
-3. Find **ErP Ready** (or **EuP 2013** / **ERP Ready**) and set it to **Disabled**.  
+3. Find **ErP Ready** (or **EuP 2013** / **ERP Ready**) and set it to **Disabled**.
    - This is important — ErP enabled cuts power to PCIe devices (including the network controller) during shutdown, which prevents WoL from working.
 4. Go back (or navigate) to **SETTINGS** → **Advanced** → **Wake Up Event Setup** (sometimes called **Wake Event Setup** or similar).
 5. Locate **Resume By PCI-E Device**, **Resume By PCI-E/Networking Device**, **Resume By PCIe Device**, or **Power On By PCI-E Device**.
@@ -58,7 +58,7 @@ For WoL to fully work after shutdown:
 
 This configuration matches official MSI WoL guides and user reports for B760-series Mortar boards. Test by shutting down the PC completely and sending a magic packet from another device (using tools like WakeMeOnLan or apps).
 
-References:  
+References:
 
 - [MSI Official Wake-On-LAN Setup Guide](https://www.msi.com/support/technical_details/MB_Wake_On_LAN)
 - [MSI Forum and Reddit threads confirming "Resume By PCI-E Device" and ErP Disabled for B760/B560/MAG Mortar series](https://forum-en.msi.com/index.php?threads/wake-on-lan-mag-b560-mortar.375270/)

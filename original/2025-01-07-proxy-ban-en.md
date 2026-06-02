@@ -63,7 +63,7 @@ server {
     listen 443 ssl;
     server_name www.some-domain.xyz;
 
-    ssl_certificate /etc/letsencrypt/live/www.some-domain.xyz/fullchain.pem; # managed by 
+    ssl_certificate /etc/letsencrypt/live/www.some-domain.xyz/fullchain.pem; # managed by
     # ...
     location / {
 
@@ -222,9 +222,9 @@ Despite my efforts, my proxy server continues to be banned. To mitigate this, I'
 
 Today, I discovered that the ChatGPT iOS app now allows logging in with a VPN in China. Previously, it displayed a blocking prompt, like the one shown below.
 
-However, as of today, it works fine with a VPN.  
+However, as of today, it works fine with a VPN.
 
-I remember that when the ChatGPT iOS app was first released, using it with a VPN was not an issue. Later, VPN detection became more stringent, making it difficult to log in. Thankfully, it seems that this restriction has been eased recently.  
+I remember that when the ChatGPT iOS app was first released, using it with a VPN was not an issue. Later, VPN detection became more stringent, making it difficult to log in. Thankfully, it seems that this restriction has been eased recently.
 
 Upon further testing, I found that when using a DigitalOcean Singapore region VPN, I couldn't access the app. However, when using VPNs from Taiwan or the UK (provided by https://zhs.cloud), it worked perfectly.
 

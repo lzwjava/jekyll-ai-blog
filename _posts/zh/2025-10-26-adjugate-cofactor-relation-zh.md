@@ -60,5 +60,5 @@ type: note
 
 如果你需要代码示例（例如使用 NumPy/SymPy 在 Python 中计算伴随矩阵）或想更深入了解高斯的构建方法，请告诉我！
 
-[伴随矩阵 - 维基百科](https://en.wikipedia.org/wiki/Adjugate_matrix)  
+[伴随矩阵 - 维基百科](https://en.wikipedia.org/wiki/Adjugate_matrix)
 [「伴随」一词的首次使用 - 科学史与数学史 Stack Exchange](https://hsm.stackexchange.com/questions/5908/what-is-the-first-usage-of-the-term-adjoint-and-why-was-this-word-chosen)

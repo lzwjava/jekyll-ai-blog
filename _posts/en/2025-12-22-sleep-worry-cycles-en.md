@@ -12,7 +12,7 @@ type: note
 
 Question: Why is it sometimes hard to sleep, what happened in my case where I woke up at 3am due to a mosquito (even after fixing it), scrolled on X, couldn't fall back asleep because I was thinking about the next day's plans, overslept until 11am, and felt tired in the afternoon? How does a subtle thought make a big difference (like "yi nian zhi cha"), how to analyze my case, how to worry less, and how to avoid this in the future?
 
-Answer: 
+Answer:
 
 It's common to have difficulty sleeping, especially falling back asleep after waking up in the middle of the night—a condition known as **sleep maintenance insomnia**. This affects many people and can be triggered by environmental factors (like mosquitoes), stress, anxiety, or subtle worries that keep the mind alert.
 
@@ -49,11 +49,11 @@ The brain is highly sensitive at night—without daytime distractions, even a sm
 
 With practice, these can reduce episodes significantly. If frequent, consult a doctor to rule out underlying issues.
 
-References:  
+References:
 
-- https://www.sleepfoundation.org/sleep-faqs/how-to-fall-back-asleep  
-- https://www.hopkinsmedicine.org/health/wellness-and-prevention/up-in-the-middle-of-the-night-how-to-get-back-to-sleep  
-- https://my.clevelandclinic.org/health/diseases/12119-insomnia  
-- https://www.health.harvard.edu/staying-healthy/too-early-to-get-up-too-late-to-get-back-to-sleep  
-- https://www.medicalnewstoday.com/articles/325294  
+- https://www.sleepfoundation.org/sleep-faqs/how-to-fall-back-asleep
+- https://www.hopkinsmedicine.org/health/wellness-and-prevention/up-in-the-middle-of-the-night-how-to-get-back-to-sleep
+- https://my.clevelandclinic.org/health/diseases/12119-insomnia
+- https://www.health.harvard.edu/staying-healthy/too-early-to-get-up-too-late-to-get-back-to-sleep
+- https://www.medicalnewstoday.com/articles/325294
 - https://www.sleepfoundation.org/mental-health/anxiety-and-sleep

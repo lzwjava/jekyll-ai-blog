@@ -12,7 +12,7 @@ type: note
 
 **Question:** How many days will pork meat degenerate (spoil) in the refrigerator at around 6 or 8 degrees Celsius?
 
-**Answer:** 
+**Answer:**
 
 Raw pork meat stored in a refrigerator at around **6–8°C** (which is slightly warmer than the ideal refrigerator temperature of 4°C or below) typically remains safe and of good quality for **3–5 days**, depending on the cut and initial freshness.
 
@@ -34,7 +34,7 @@ For maximum safety:
 
 Always prioritize smell, appearance, and texture over strict calendar days when deciding if meat is still good.
 
-**References:**  
+**References:**
 
 - [USDA / FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts)
 - [USDA Fresh Pork From Farm to Table](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/fresh-pork-farm-table)

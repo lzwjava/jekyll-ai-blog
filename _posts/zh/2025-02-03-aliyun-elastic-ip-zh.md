@@ -76,7 +76,7 @@ class Sample:
                 logging.error(f"建议：{error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
-    
+
     @staticmethod
     def unbind_eip(
         region_id: str,
@@ -129,7 +129,7 @@ class Sample:
                 logging.error(f"建议：{error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return None
-    
+
     @staticmethod
     def release_eip(
         allocation_id: str,
@@ -245,7 +245,7 @@ class Sample:
             else:
                 print("未找到可处理的EIP。")
                 return
-            
+
             # 解绑当前EIP
             if current_allocation_id:
                 if Sample.unbind_eip(region_id, current_allocation_id, parsed_args.instance_id):
@@ -253,7 +253,7 @@ class Sample:
                 else:
                     print(f"解除EIP {current_allocation_id}与实例 {parsed_args.instance_id} 的绑定失败。")
                     return
-            
+
             # 创建新的EIP
             new_allocation_id = Sample.create_eip(region_id)
             if new_allocation_id:
@@ -261,21 +261,21 @@ class Sample:
             else:
                 print("EIP创建过程失败。")
                 return
-            
+
             # 绑定新的EIP
             if Sample.bind_eip(region_id, new_allocation_id, parsed_args.instance_id):
                 print(f"已成功将新的EIP {new_allocation_id}绑定到实例 {parsed_args.instance_id}。")
             else:
                 print(f"将新的EIP {new_allocation_id}绑定到实例 {parsed_args.instance_id}失败。")
                 return
-            
+
             # 释放旧的EIP
             if current_allocation_id:
                 if Sample.release_eip(current_allocation_id):
                     print(f"已成功释放旧的EIP {current_allocation_id}。")
                 else:
                     print(f"释放旧的EIP {current_allocation_id}失败。")
-            
+
             # 再次查询以显示最终状态
             final_allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if final_allocation_id:

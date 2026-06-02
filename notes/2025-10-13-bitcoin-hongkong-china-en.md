@@ -17,7 +17,7 @@ Thanks for sharing that story—it's a perfect snapshot of how crypto like Bitco
 #### Hong Kong: Crypto as Part of the Daily Grind
 HK has positioned itself as Asia's "Web3 hub," with supportive policies that make Bitcoin feel like just another payment option. Your encounter with the CoinUnit ATM isn't unusual—it's one of over 200 Bitcoin ATMs scattered across the city, from malls like K11 Art Mall to commercial centers in Tsim Sha Tsui and Shek Tong Tsui. These machines let people buy/sell BTC with cash or cards in minutes, often with low fees (around 5-8%) and multilingual support.
 
-- **Real-life examples**: 
+- **Real-life examples**:
   - Walk into a spot like Yee Wo Street or Siu Hei Commercial Centre, and you'll see locals (young professionals, shop owners like your guy) using them for quick top-ups or remittances. Recent expansions by operators like COINHERO added more transparent-fee ATMs in high-traffic areas, making it even easier.
   - In daily scenes: Expats and traders hit ATMs near Central or Causeway Bay for BTC to hedge against HKD volatility. I've seen reports of street vendors accepting crypto via apps tied to these ATMs, and events like Web3 festivals draw crowds testing stablecoins.
   - Adoption stats: HK ranks 5th globally in Chainalysis' 2025 Crypto Adoption Index, with high DeFi and NFT activity. Over 10% of adults have touched crypto, fueled by licensed exchanges and no capital gains tax on it.

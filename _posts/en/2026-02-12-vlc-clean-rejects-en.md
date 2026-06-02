@@ -12,7 +12,7 @@ type: note
 
 Question: Who built VLC? And who rejected investing to keep it ad-free?
 
-Answer: 
+Answer:
 
 **VLC media player** was originally developed as a student project called "VideoLAN Client" starting in 1996 by students at **École Centrale Paris** (a French engineering school). It began as part of the larger **VideoLAN** project to stream and play MPEG-2 content over the campus network. The software was rewritten from scratch in 1998 and released under the GNU GPL in 2001.
 
@@ -22,7 +22,7 @@ Regarding rejecting investment/offers to keep it ad-free: Jean-Baptiste Kempf (o
 
 This decision has helped maintain VLC's reputation as one of the most trusted and widely used media players (with billions of downloads) without compromising its principles.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/VLC_media_player](https://en.wikipedia.org/wiki/VLC_media_player)
 - [https://en.wikipedia.org/wiki/Jean-Baptiste_Kempf](https://en.wikipedia.org/wiki/Jean-Baptiste_Kempf)

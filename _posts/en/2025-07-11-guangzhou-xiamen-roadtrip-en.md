@@ -61,7 +61,7 @@ I've planned a 5-day road trip itinerary for you, starting from Guangzhou on Jul
 - **Morning Drive:** Depart Xiamen at 9 AM. Drive ~160 km west to Longyan on G76 highway.
 - **Estimated Time:** 2 hours (arrive ~11 AM). No charge needed.
 - **Arrival in Longyan:** Check in by noon.
-- **Activities:** 
+- **Activities:**
   - Afternoon: Explore Yongding Tulou (UNESCO site)—cluster of earthen buildings. Not beachy, but scenic hills and cultural immersion (hiking trails with river views).
   - Evening: Visit Chuxi Tulou cluster for more architecture; optional Guanzhai Mountain for nature walks.
 - **Overnight:** Longyan (e.g., Tulou guesthouse for authentic stay).

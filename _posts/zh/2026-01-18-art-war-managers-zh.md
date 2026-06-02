@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to The Art of War for Managers.
 
-Answer: 
+Answer:
 
 **The Art of War for Managers** —— 导论
 
@@ -24,25 +24,25 @@ Answer:
 
 这本书篇幅简短（文言文约6,000–7,000字，英文翻译约60–80页），但洞察力极高。它对 Managers 的价值在于这些反复出现的主题：
 
-1. **知己知彼**  
+1. **知己知彼**
    → 深入的 Competitive Intelligence + 对自身优劣势的诚实自我评估是制定良好 Strategy 的基础。
 
-2. **不战而屈人之兵**  
+2. **不战而屈人之兵**
    → 胜利的最高境界是不通过战斗就使敌人屈服 → 最好的商业结果往往是在不进行价格战或破坏性竞争的情况下赢得 Market Share / 客户 / 人才。
 
-3. **诡道与误导**  
+3. **诡道与误导**
    → “兵者，诡道也” → 管理认知、控制信息流、制造惊喜以及使用虚招仍然非常强大（如 Product Launches、谈判、Branding、人才挖角等）。
 
-4. **塑造战场**  
+4. **塑造战场**
    → 优秀的 Managers 会塑造竞争条件而非仅仅做出反应（选择在哪个市场竞争、制定行业标准、控制关键瓶颈 / Platforms / Data）。
 
-5. **速度、势能与时机 (Shi 勢)**  
+5. **速度、势能与时机 (Shi 勢)**
    → 建立并利用势能（Momentum）；在时机成熟时果断行动；避免消耗性的拉锯战。
 
-6. **Leadership 与组织健康**  
+6. **Leadership 与组织健康**
    → 目标一致、清晰的指挥结构、受激励的员工、纪律严明的执行以及关爱士兵（员工）是被反复强调的重点。
 
-7. **Adaptability 胜过僵化的计划**  
+7. **Adaptability 胜过僵化的计划**
    → “水因地而制流” → Strategy 必须根据现实情况灵活调整。
 
 ### 商业读者最常引用的章节
@@ -76,7 +76,7 @@ Answer:
 
 您是否想深入了解特定章节或现代商业案例研究？
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/The_Art_of_War](https://en.wikipedia.org/wiki/The_Art_of_War)
 - [https://suntzusaid.com/](https://suntzusaid.com/)（包含多种译文的全文）

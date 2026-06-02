@@ -11,7 +11,7 @@ type: note
 
 Question: How does Liu Zongyuan's "The Biography of Camelback Guo the Tree Planter" serve as a perfect analogy for modern investing, particularly explaining why investors like Warren Buffett and Duan Yongping succeed by doing very little and mostly waiting, while many individual investors constantly do too much?
 
-Answer: 
+Answer:
 
 Liu Zongyuan’s essay **“The Biography of Camelback Guo the Tree Planter”** provides one of the most elegant and timeless metaphors for successful long-term investing.
 
@@ -53,7 +53,7 @@ Guo’s wisdom, and Buffett’s / Duan’s practice, can be summarized in one se
 
 That is why the essay remains one of the purest and most powerful explanations of patient, high-conviction, low-activity investing ever written.
 
-References:  
+References:
 
 - [Chinese Text Project - 种树郭橐驼传](https://ctext.org/text.pl?node=3230&if=gb)
 - Warren Buffett’s Berkshire Hathaway shareholder letters (especially 1988 Coca-Cola purchase discussion and “favorite holding period is forever” quote)

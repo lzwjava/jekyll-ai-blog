@@ -13,7 +13,7 @@ type: note
 To ensure that `gem` (RubyGems) is using your proxy (e.g., at `http://127.0.0.1:7890`) during installation, follow these steps. Based on the verbose output you shared, it *already appears to be using the proxy*—the "Connecting to 127.0.0.1:7890... connected" line is a strong indicator from the underlying HTTP client (likely `net/http` or `curl`-like behavior in verbose mode).
 
 ### 1. **Configure the Proxy (if not already set)**
-   - **Option A: Use environment variables (recommended for one-off or sudo commands)**  
+   - **Option A: Use environment variables (recommended for one-off or sudo commands)**
      These tell `gem` to route traffic through the proxy. Run this before your install:
      ```
      export http_proxy=http://127.0.0.1:7890
@@ -23,7 +23,7 @@ To ensure that `gem` (RubyGems) is using your proxy (e.g., at `http://127.0.0.1:
      - The `-E` flag preserves your environment variables when using `sudo`.
      - For persistent setup, add the `export` lines to your `~/.bashrc` or `~/.profile`.
 
-   - **Option B: Configure in `~/.gemrc` (user-level, no sudo needed for future installs)**  
+   - **Option B: Configure in `~/.gemrc` (user-level, no sudo needed for future installs)**
      Create or edit `~/.gemrc`:
      ```
      echo 'http_proxy: http://127.0.0.1:7890' >> ~/.gemrc
@@ -36,7 +36,7 @@ To ensure that `gem` (RubyGems) is using your proxy (e.g., at `http://127.0.0.1:
      - `HEAD https://index.rubygems.org/` followed by proxy connection details.
      - `Connecting to 127.0.0.1:7890... connected.` (this confirms proxy usage).
      - If it shows direct connections to `rubygems.org` (e.g., IP addresses without proxy mention), it's bypassing the proxy.
-   
+
    - **Test with a dry-run or info fetch**:
      ```
      gem fetch jekyll --verbose --platform=ruby

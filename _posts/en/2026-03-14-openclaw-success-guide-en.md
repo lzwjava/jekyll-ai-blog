@@ -85,7 +85,7 @@ Instead of one giant prompt, break it into phases:
 
 ```
 Phase 1: "Scaffold the React project with folder structure and routing"
-Phase 2: "Build the Task model and CRUD operations"  
+Phase 2: "Build the Task model and CRUD operations"
 Phase 3: "Build the sidebar with project navigation"
 Phase 4: "Add keyboard shortcuts and search"
 Phase 5: "Polish UI and add animations"
@@ -101,8 +101,8 @@ Each phase = one Claude Code session. **Review before moving to next phase.**
 Read this PRD carefully before writing any code.
 [paste PRD]
 
-Step 1 only: Scaffold the project structure, install dependencies, 
-and create empty component files with comments describing what 
+Step 1 only: Scaffold the project structure, install dependencies,
+and create empty component files with comments describing what
 each will do. Do not implement logic yet. Show me the file tree when done.
 ```
 

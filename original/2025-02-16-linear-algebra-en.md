@@ -29,7 +29,7 @@ type: post
 
 What is the use of the rank concept? It tells us how many rows retain information during a linear transformation. In contrast, the nullity (dimension of the null space) counts how many rows are mapped to zero.
 
-What is the difference between a matrix and a plain array of numbers? An array has no inherent direction, whereas a matrix does.  
+What is the difference between a matrix and a plain array of numbers? An array has no inherent direction, whereas a matrix does.
 
 What is the difference between a matrix and a vector? A vector is a one-dimensional column of numbers and has a direction.
 

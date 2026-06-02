@@ -32,9 +32,9 @@ Naively computing this requires materializing a large \\(N \times N\\) attention
 #### How the Code Uses Flash Attention
 ```python
 y = torch.nn.functional.scaled_dot_product_attention(
-    q, k, v, 
-    attn_mask=None, 
-    dropout_p=self.dropout if self.training else 0, 
+    q, k, v,
+    attn_mask=None,
+    dropout_p=self.dropout if self.training else 0,
     is_causal=True
 )
 ```
@@ -45,7 +45,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
   - Shapes: Compatible (see below).
   - Masks: `attn_mask=None` and `is_causal=True` enables the causal mask internally without materializing it.
   - No other constraints (e.g., no custom `attn_mask` or certain head dimensions that break tiling).
-  
+
   If met, it uses Flash Attention 2 (or 3 in newer PyTorch) kernels. Otherwise, it falls back to standard (slower, memory-hungry) implementation. You can verify with `torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False)` to force/enable it.
 
 - **Dropout**: Applied during training (`dropout_p > 0`) to the attention weights for regularization. In eval mode, it's 0.

@@ -40,7 +40,7 @@ type: note
 
 总之：在报告中看到“prostate calcification foci”非常常见，通常无害——就像前列腺内发现旧愈合疤痕一样。不要惊慌。关注是否有尿路或盆腔症状；如果没有，通常只需监测。
 
-参考文献：  
+参考文献：
 
 - [https://m.baidu.com/bh/m/detail/sv_7612124416066660639](https://m.baidu.com/bh/m/detail/sv_7612124416066660639)
 - [https://zhuanlan.zhihu.com/p/622420628](https://zhuanlan.zhihu.com/p/622420628)

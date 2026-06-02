@@ -63,8 +63,8 @@ About 40% theory and 60% hands-on, with emphasis on command-line interfaces and 
 
 For official syllabi or past papers, check the National Education Examinations Authority (教育部考试中心) website or provincial self-exam offices.
 
-**References**  
-- [Self-Exam 02141 Computer Networks Past Papers](https://www.zikaosw.cn/lnzt/subject-791.html)  
-- [Routing and Switching Technology Textbook Overview](https://www.ryjiaoyu.com/book/details/47556)  
-- [MOOC: Computer Networks (Harbin Institute of Technology)](https://www.icourse163.org/course/HIT-154005)  
+**References**
+- [Self-Exam 02141 Computer Networks Past Papers](https://www.zikaosw.cn/lnzt/subject-791.html)
+- [Routing and Switching Technology Textbook Overview](https://www.ryjiaoyu.com/book/details/47556)
+- [MOOC: Computer Networks (Harbin Institute of Technology)](https://www.icourse163.org/course/HIT-154005)
 - [MOOC: Routing and Switching Technologies](https://www.icourse163.org/course/HCIT-1001754308)

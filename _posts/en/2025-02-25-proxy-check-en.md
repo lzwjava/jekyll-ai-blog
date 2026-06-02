@@ -91,7 +91,7 @@ proxy_check() {
     local cmd
     # Extract the first word of the command
     cmd=$(echo "$BASH_COMMAND" | awk '{print $1}')
-    
+
     for network_cmd in "${network_commands[@]}"; do
         if [[ "$cmd" == "$network_cmd" ]]; then
             # Check if any proxy environment variables are set
@@ -219,7 +219,7 @@ Set-PSReadLineOption -CommandValidationHandler {
     param($command)
     # Extract the first word of the command
     $cmd = ($command -split ' ')[0]
-    
+
     if ($networkCommands -contains $cmd) {
         # Check if any proxy environment variables are set
         if ($env:HTTP_PROXY -or $env:http_proxy -or $env:HTTPS_PROXY -or $env:https_proxy -or $env:ALL_PROXY -or $env:all_proxy) {

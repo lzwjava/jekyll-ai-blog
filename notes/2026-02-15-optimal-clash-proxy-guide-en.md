@@ -30,13 +30,13 @@ In mainland China, when using a typical Clash configuration with these common Ch
 
 **Recommended priority order for choosing a selector (in mainland China, 2026 context):**
 
-1. **🚀 节点选择**  
+1. **🚀 节点选择**
    → Most common and recommended default/global selector for general browsing, almost all foreign traffic goes here in well-configured rules.
 
-2. **漏网之鱼**  
+2. **漏网之鱼**
    → If you want stricter / more conservative routing (everything not explicitly matched goes through proxy). Very popular second choice.
 
-3. **国外媒体** or **YouTube**  
+3. **国外媒体** or **YouTube**
    → Only if your main usage is streaming (Netflix, YouTube, etc.) and you want dedicated nodes for them (sometimes these have better unlocking ability).
 
 ### Quick mapping of common behavior in mainland China rule sets

@@ -49,7 +49,7 @@ Step 3: Fix ONE error from Type A manually or with AI help
 Step 4: Prompt the AI:
   "Here is ONE example of the error and its fix:
    [ERROR SAMPLE] → [FIXED CODE SAMPLE]
-   
+
    Now here are 8 similar errors from the same build.
    Apply the same fix pattern to each:
    [paste all 8 errors]"

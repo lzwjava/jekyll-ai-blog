@@ -12,7 +12,7 @@ type: note
 
 **Question:** 从 webpack-dev-middleware 5.3.3 更新到 5.3.4 是安全修复更新吗？由于 @angular-devkit/build-angular 使用了该 package，我们能否使用 overrides 而不是将 Angular 14 升级到更高版本？
 
-**Answer:** 
+**Answer:**
 
 是的，从 **webpack-dev-middleware 5.3.3** 到 **5.3.4** 的更新专门是一个 **security fix** 版本。
 
@@ -42,7 +42,7 @@ type: note
 
 注意：Overrides 是一个很好的临时修复手段，但为了长期维护，请考虑迁移到较新的 Angular 版本（使用更新的 dependencies）或切换到现代的 esbuild-based builder（在较新的 Angular 版本中可用）。
 
-**References:**  
+**References:**
 
 - [https://nvd.nist.gov/vuln/detail/CVE-2024-29180](https://nvd.nist.gov/vuln/detail/CVE-2024-29180)
 - [https://github.com/webpack/webpack-dev-middleware/security/advisories/GHSA-wr3j-pwj9-hqq6](https://github.com/webpack/webpack-dev-middleware/security/advisories/GHSA-wr3j-pwj9-hqq6)

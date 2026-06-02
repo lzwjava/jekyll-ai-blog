@@ -24,7 +24,7 @@ TabsKiller.app is NOT in /Applications/.
 This is why it keeps disappearing. Safari's extension registry points to a path inside DerivedData. Every time ANY of these happens, the path breaks and Safari unloads it:
 
   1. You do "Clean Build Folder" in Xcode
-  2. Xcode auto-purges old DerivedData (it does this periodically)  
+  2. Xcode auto-purges old DerivedData (it does this periodically)
   3. You rebuild and Xcode creates a NEW DerivedData folder with a different hash
   4. macOS updates or Safari gets updated
   5. System restart (Safari re-validates extension paths on boot)

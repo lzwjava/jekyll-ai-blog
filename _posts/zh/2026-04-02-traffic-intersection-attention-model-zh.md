@@ -26,8 +26,8 @@ type: note
 
 更精确的版本：
 
-将 **attention 想象成一个繁忙的路口** 🚦  
-每个 **token 是一辆车**  
+将 **attention 想象成一个繁忙的路口** 🚦
+每个 **token 是一辆车**
 每辆车同时拥有：
 
 * Q (Query) → 我想去哪里
@@ -96,5 +96,5 @@ new_token = weighted_sum(other_tokens)
 
 所以你的“三叉路口”想法非常好——只需记住：
 
-不是三条路。  
+不是三条路。
 每个 token **同时在所有方向开车**。

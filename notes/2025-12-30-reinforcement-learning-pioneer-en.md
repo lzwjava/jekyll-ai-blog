@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Richard Sutton
 
-Answer: 
+Answer:
 
 Richard S. Sutton is a prominent Canadian computer scientist widely regarded as one of the founding fathers of modern reinforcement learning (RL), a key branch of artificial intelligence focused on how agents learn to make decisions by interacting with an environment to maximize rewards.
 
@@ -31,10 +31,10 @@ His accolades include the 2024 ACM A.M. Turing Award (shared with Barto) — oft
 
 Sutton's influential 2019 essay "The Bitter Lesson" argues that leveraging computation over human-designed features drives long-term AI progress. He continues to advocate for RL as central to achieving general intelligence, emphasizing prediction, interaction, and scale.
 
-References:  
+References:
 
-- [Wikipedia: Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)  
-- [Amii: Richard S. Sutton Profile](https://www.amii.ca/people/richard-s-sutton)  
-- [ACM Turing Award: Richard Sutton](https://awards.acm.org/award-recipients/sutton_0160594)  
-- [Incomplete Ideas: Rich Sutton's Home Page](http://incompleteideas.net/)  
+- [Wikipedia: Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)
+- [Amii: Richard S. Sutton Profile](https://www.amii.ca/people/richard-s-sutton)
+- [ACM Turing Award: Richard Sutton](https://awards.acm.org/award-recipients/sutton_0160594)
+- [Incomplete Ideas: Rich Sutton's Home Page](http://incompleteideas.net/)
 - [CIFAR: Richard Sutton Bio](https://cifar.ca/bios/richard-sutton/)

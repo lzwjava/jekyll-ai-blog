@@ -23,6 +23,6 @@ type: note
 
 这类产品以"小空间强洁净"著称，契合现代都市生活需求。根据机型与销售渠道差异，售价通常在800-1500美元区间。
 
-[水槽洗碗机 | 方太](https://us.fotileglobal.com/collections/in-sink-dishwasher)  
-[方太官网：吸油烟机、燃气灶、蒸烤箱、洗碗机](https://us.fotileglobal.com/)  
+[水槽洗碗机 | 方太](https://us.fotileglobal.com/collections/in-sink-dishwasher)
+[方太官网：吸油烟机、燃气灶、蒸烤箱、洗碗机](https://us.fotileglobal.com/)
 [方太BD2B-G2-Y洗碗机 | Hydro-Jet清洗技术](https://www.bestbuy.ca/en-ca/product/fotile-bd2b-g2-y-dishwasher-hydro-jet-washing-tech-sanitization-hot-air-drying-long-lasting-storage-moonshadow-grey/18594812)

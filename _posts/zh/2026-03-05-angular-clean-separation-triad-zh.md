@@ -101,7 +101,7 @@ export class ProductService {
 - **Component (.ts)** → “这个屏幕 **如何行为**？显示什么数据？点击时发生什么？”
 - **Service (.ts)** → “如何 **获取/转换/共享** 数据？**business rule** 是什么？”
 
-**Component 拥有 template**  
+**Component 拥有 template**
 **Service 被多个 components 拥有**（或整个应用）
 
 这种结构是 Angular 应用即使增长到数百个 components 仍能保持可维护性的主要原因。

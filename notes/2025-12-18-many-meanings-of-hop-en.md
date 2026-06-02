@@ -12,7 +12,7 @@ type: note
 
 Question: What does "hop" mean in English?
 
-Answer: 
+Answer:
 
 "Hop" is a versatile English word with several meanings depending on context:
 
@@ -32,7 +32,7 @@ Answer:
 
 The most common modern meanings are the jumping action and the beer ingredient.
 
-References:  
+References:
 
 - [Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/hop)
 - [Cambridge English Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hop)

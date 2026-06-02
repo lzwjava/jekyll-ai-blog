@@ -36,6 +36,6 @@ Yes, Git Bash is based on MinGW-w64. MinGW-w64 (Minimalist GNU for Windows, 64-b
 
 In short, Git Bash leverages MinGW-w64 via MSYS2 to bridge the gap between Windows and Unix shells, making it a portable, no-install-required option for Git users.
 
-[Why is "MINGW64" appearing on my Git bash?](https://stackoverflow.com/questions/32356595/why-is-mingw64-appearing-on-my-git-bash)  
-[How to understand what is Shell, Terminal, MinGW, Bash, Git Bash etc](https://superuser.com/questions/1481401/how-to-understand-what-is-shell-terminal-mingw-bash-git-bash-etc)  
+[Why is "MINGW64" appearing on my Git bash?](https://stackoverflow.com/questions/32356595/why-is-mingw64-appearing-on-my-git-bash)
+[How to understand what is Shell, Terminal, MinGW, Bash, Git Bash etc](https://superuser.com/questions/1481401/how-to-understand-what-is-shell-terminal-mingw-bash-git-bash-etc)
 [Git for Windows](https://gitforwindows.org/)

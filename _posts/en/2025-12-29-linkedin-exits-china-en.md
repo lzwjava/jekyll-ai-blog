@@ -12,7 +12,7 @@ type: note
 
 Question: Why did LinkedIn shut down its China office?
 
-Answer: 
+Answer:
 
 LinkedIn, owned by Microsoft, gradually withdrew from the Chinese market in two main phases due to a combination of regulatory pressures, compliance challenges, and market competition.
 
@@ -33,7 +33,7 @@ LinkedIn, owned by Microsoft, gradually withdrew from the Chinese market in two 
 
 LinkedIn now maintains a minimal presence focused on helping Chinese companies hire, market, and train talent abroad, without a consumer-facing app in China. The exit reflects broader difficulties for foreign tech firms navigating China's strict internet regulations and competitive domestic market.
 
-References:  
+References:
 
 - [CNN Business (2023): LinkedIn layoffs and China app exit](https://www.cnn.com/2023/05/09/tech/linkedin-layoffs-exit-china-app-intl-hnk)
 - [The New York Times (2021): LinkedIn shuts down service in China](https://www.nytimes.com/2021/10/14/technology/linkedin-china-microsoft.html)

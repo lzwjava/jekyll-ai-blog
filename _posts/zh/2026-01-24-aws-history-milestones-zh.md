@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the history of AWS (Amazon Web Services)
 
-Answer: 
+Answer:
 
 以下是 **Amazon Web Services (AWS)** 的简要发展史：
 
@@ -66,7 +66,7 @@ Answer:
 
 AWS 并没有发明云计算概念 —— 但它将其**商业化**，让数百万开发者能够使用，并开创了这个 Microsoft Azure、Google Cloud、Alibaba Cloud 等随后纷纷加入的行业类别。
 
-References:  
+References:
 
 - https://aws.amazon.com/about-aws/global-infrastructure/history/
 - https://en.wikipedia.org/wiki/Amazon_Web_Services

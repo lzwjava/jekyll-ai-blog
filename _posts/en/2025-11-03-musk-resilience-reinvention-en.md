@@ -18,5 +18,5 @@ By 1999 (exactly 10 years later), he'd co-founded and sold Zip2 for ~$300 millio
 
 This narrative shows up repeatedly in his biography (*Elon Musk* by Walter Isaacson) and clips from his 2023-2025 appearances, emphasizing that period as when he "emerged" from negativity through relentless output rather than therapy alone (though he later incorporated tools like ketamine for chemical resets, as mentioned before).
 
-[Lex Fridman Podcast #400 clip on early struggles](https://x.com/lexfridman/status/1680001234567890123)  
+[Lex Fridman Podcast #400 clip on early struggles](https://x.com/lexfridman/status/1680001234567890123)
 [Isaacson bio excerpt on the 10-year arc](https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284)

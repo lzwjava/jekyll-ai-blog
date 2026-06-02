@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular or controversial ideas from the work of Daniel P. Friedman, the Indiana University computer science professor?
 
-Answer: 
+Answer:
 
 Daniel P. Friedman is a renowned computer science professor emeritus at Indiana University Bloomington, best known for his influential work on programming languages, functional programming, and logic programming. His books, such as *The Little Schemer* series (co-authored with Matthias Felleisen and others), *Essentials of Programming Languages* (with Mitchell Wand), and *The Reasoned Schemer* (with William E. Byrd and Oleg Kiselyov), have shaped how generations of students and researchers approach Scheme, Lisp dialects, continuations, lazy evaluation, and relational programming. Despite his stature, Friedman's ideas have sparked debate in niche academic and practitioner circles, often for challenging conventional wisdom in programming paradigms. Below, I'll outline some of his less mainstream or "unpopular" ideas, focusing on those that have drawn criticism or resistance for being unconventional, abstract, or hard to apply practically. These aren't broadly "controversial" in the political sense but represent ideas that push against dominant trends in software engineering.
 

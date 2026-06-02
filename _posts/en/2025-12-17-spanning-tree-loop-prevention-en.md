@@ -12,7 +12,7 @@ type: note
 
 Question: Provide more of the transcript from the video.
 
-Answer: 
+Answer:
 
 The video does not have a publicly available full verbatim transcript, but here is a detailed, near-complete paraphrase and summary of the narration based on the video content (structured chronologically to serve as an extended transcript):
 
@@ -34,18 +34,18 @@ The network becomes flooded, CPUs on switches max out, lights flash rapidly, and
 STP was invented to solve this. It allows redundant links but logically blocks some ports to create a single, loop-free path (a "tree" topology) while keeping backups ready.
 
 ### How STP Operates
-1. **Electing the Root Bridge**  
-   All switches send **BPDUs** (Bridge Protocol Data Units) containing their **Bridge ID** (default priority 32768 + MAC address).  
+1. **Electing the Root Bridge**
+   All switches send **BPDUs** (Bridge Protocol Data Units) containing their **Bridge ID** (default priority 32768 + MAC address).
    The switch with the lowest Bridge ID becomes the **root bridge** (the "boss" switch). If priorities tie, the lowest MAC address wins.
 
-2. **Port Roles**  
-   - On the root bridge: All active ports are **designated ports** (forwarding traffic away from the root).  
-   - On non-root switches: Each selects one **root port**—the port with the lowest cumulative **path cost** to reach the root bridge.  
-     Path costs (examples):  
-     - 10 Mbps link: cost 100  
-     - 100 Mbps link: cost 19  
-     - 1 Gbps link: cost 4  
-   - For each network segment (link between two switches), one port becomes designated (usually the one closer to the root).  
+2. **Port Roles**
+   - On the root bridge: All active ports are **designated ports** (forwarding traffic away from the root).
+   - On non-root switches: Each selects one **root port**—the port with the lowest cumulative **path cost** to reach the root bridge.
+     Path costs (examples):
+     - 10 Mbps link: cost 100
+     - 100 Mbps link: cost 19
+     - 1 Gbps link: cost 4
+   - For each network segment (link between two switches), one port becomes designated (usually the one closer to the root).
    - The remaining ports on redundant links are **blocked** (they listen for BPDUs but do not forward traffic).
 
 If a link fails, STP reconverges and unblocks a backup port to restore connectivity (though original STP takes 30–50 seconds).
@@ -61,6 +61,6 @@ Thanks to Brilliant.org for sponsoring—interactive courses in math, science, c
 
 This covers essentially the entire 11:55 video content.
 
-References:  
+References:
 
 - https://www.youtube.com/watch?v=6MW5P6Ci7lw

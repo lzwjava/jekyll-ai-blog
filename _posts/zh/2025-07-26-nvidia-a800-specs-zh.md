@@ -27,8 +27,8 @@ A800在加速机器学习训练、推理、科学模拟和可视化等高性能�
 
 产品变体包括面向工作站的A800 40GB主动散热版，以及适用于服务器的A800 PCIe 80GB等型号。该产品并非面向消费级游戏市场，而是专为企业级和专业应用场景设计。
 
-[NVIDIA A800 40GB 主动散热显卡](https://www.nvidia.com/en-us/design-visualization/a800/)  
-[NVIDIA A800 PCIe 40 GB 规格详情](https://www.techpowerup.com/gpu-specs/a800-pcie-40-gb.c3964)  
-[英伟达推出A800 GPU替代受禁运的A100中国版本](https://analyticsdrift.com/nvidia-introduces-a800-gpu-chips-to-replace-banned-a100-chips-for-china/)  
-[ThinkSystem NVIDIA A800 PCIe 4.0 GPU解决方案](https://lenovopress.lenovo.com/lp1813-thinksystem-nvidia-a800-pcie-gpu)  
+[NVIDIA A800 40GB 主动散热显卡](https://www.nvidia.com/en-us/design-visualization/a800/)
+[NVIDIA A800 PCIe 40 GB 规格详情](https://www.techpowerup.com/gpu-specs/a800-pcie-40-gb.c3964)
+[英伟达推出A800 GPU替代受禁运的A100中国版本](https://analyticsdrift.com/nvidia-introduces-a800-gpu-chips-to-replace-banned-a100-chips-for-china/)
+[ThinkSystem NVIDIA A800 PCIe 4.0 GPU解决方案](https://lenovopress.lenovo.com/lp1813-thinksystem-nvidia-a800-pcie-gpu)
 [英伟达AI芯片系列：A100 A800 H100 H800 B200](https://www.fibermall.com/blog/nvidia-ai-chip.htm)

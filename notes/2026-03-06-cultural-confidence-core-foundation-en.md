@@ -11,7 +11,7 @@ type: note
 
 Question: In the context of adhering to and developing socialism with Chinese characteristics in the new era, which of the "Four Confidences" is considered more fundamental, extensive, and profound?
 
-Answer: 
+Answer:
 
 The correct answer is **D. Cultural Confidence (文化自信)**.
 

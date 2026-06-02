@@ -30,6 +30,6 @@ IBM WebSphere Application Server (WAS) traditional, often called WAS Classic or 
 
 In summary, choose traditional WAS for feature-complete, established enterprise setups where legacy support is critical. Opt for WLP when prioritizing speed, modularity, and cloud agility—it's often a drop-in replacement for modern apps with minimal rework. Migration from WAS to WLP is straightforward using tools like the WebSphere Application Migration Toolkit, and hybrids (e.g., via Job Manager) allow phased transitions.
 
-[Comparing IBM WebSphere vs. IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)  
-[Choosing between traditional WebSphere and Liberty (PDF)](https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/documentation/ChoosingTraditionalWASorLiberty-16.0.0.4.pdf)  
+[Comparing IBM WebSphere vs. IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)
+[Choosing between traditional WebSphere and Liberty (PDF)](https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/documentation/ChoosingTraditionalWASorLiberty-16.0.0.4.pdf)
 [WebSphere Liberty Overview](https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-overview)

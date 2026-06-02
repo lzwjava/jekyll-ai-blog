@@ -12,7 +12,7 @@ type: note
 
 Question: Do 5GHz and 2.4GHz WiFi signals really differ a lot in speed?
 
-Answer: 
+Answer:
 
 **Yes, 5GHz WiFi is typically **significantly faster** than 2.4GHz WiFi in real-world use — often **2× to 10× faster** (or more) depending on conditions, distance, interference, and hardware.**
 
@@ -49,7 +49,7 @@ Answer:
 
 The speed difference is **real and often very noticeable** unless your internet plan is slow (<100 Mbps), your environment has almost no interference, or you're very far from the router.
 
-References:  
+References:
 
 - [Intel — 2.4 GHz vs. 5 GHz vs. 6 GHz](https://www.intel.com/content/www/us/en/products/docs/wireless/2-4-vs-5ghz.html)
 - [BroadbandNow — 2.4 GHz vs 5 GHz Wi-Fi](https://broadbandnow.com/guides/2-4-ghz-vs-5-ghz-wifi)

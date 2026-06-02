@@ -22,7 +22,7 @@ The `ww note` pattern is:
 
 This beats `y/n` for three reasons:
 1. **Zero cognitive load** — "do I type y or yes? case?" gone
-2. **One keystroke** vs three (y + Enter)  
+2. **One keystroke** vs three (y + Enter)
 3. **Muscle memory** — Ctrl+C already means "abort" everywhere in terminal
 
 ---

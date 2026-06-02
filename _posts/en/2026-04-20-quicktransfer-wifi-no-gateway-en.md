@@ -40,7 +40,7 @@ The DJI Mini 3's **QuickTransfer** mode creates a direct peer-to-peer Wi-Fi conn
 
 This direct-connection design keeps transfers fast and simple without needing internet or a controller. It is not a bug — the missing gateway is by design.
 
-References:  
-- https://support.dji.com/help/content?customId=01700011149&spaceId=17&re=US&lang=en (DJI Official QuickTransfer Guidelines)  
-- https://www.heliguy.com/blogs/knowledge-base/how-do-i-use-dji-mini-3-s-quicktransfer/  
+References:
+- https://support.dji.com/help/content?customId=01700011149&spaceId=17&re=US&lang=en (DJI Official QuickTransfer Guidelines)
+- https://www.heliguy.com/blogs/knowledge-base/how-do-i-use-dji-mini-3-s-quicktransfer/
 - DJI Mini 3 User Manual and multiple user reports confirming direct Wi-Fi behavior.

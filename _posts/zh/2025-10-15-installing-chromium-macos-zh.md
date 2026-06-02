@@ -29,8 +29,8 @@ type: note
 
 安装完成后，您可以在“系统设置”>“桌面与程序坞”>“默认网页浏览器”中将 Chromium 设置为默认浏览器。
 
-[下载 Chromium](https://www.chromium.org/getting-involved/download-chromium/)  
-[Homebrew Formula](https://formulae.brew.sh/cask/chromium)  
-[在 Apple Silicon 上安装](https://dev.to/pixelrena/installing-chromium-on-mac-apple-m2-pro-tutorial-4i4i)  
-[MacUpdate 下载](https://chromium.macupdate.com/)  
+[下载 Chromium](https://www.chromium.org/getting-involved/download-chromium/)
+[Homebrew Formula](https://formulae.brew.sh/cask/chromium)
+[在 Apple Silicon 上安装](https://dev.to/pixelrena/installing-chromium-on-mac-apple-m2-pro-tutorial-4i4i)
+[MacUpdate 下载](https://chromium.macupdate.com/)
 [最新版本](https://chromium.woolyss.com/download/en/)

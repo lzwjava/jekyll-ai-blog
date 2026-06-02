@@ -12,7 +12,7 @@ type: note
 
 Question: In the LLM era, many people read chatbot answers. Why do we still need to read books? How should we read books now?
 
-Answer: 
+Answer:
 
 Books remain valuable — and in many ways more important — in the LLM era, even though chatbots provide fast, convenient answers.
 
@@ -20,26 +20,26 @@ Books remain valuable — and in many ways more important — in the LLM era, ev
 
 Here are the main reasons books still matter (and often outperform pure chatbot usage):
 
-- **Deep, coherent, long-chain reasoning and worldview building**  
+- **Deep, coherent, long-chain reasoning and worldview building**
   A good book usually presents one coherent argument, narrative, or system of thought over 200–500 pages. LLMs tend to give fragmented, context-window-limited, sometimes internally inconsistent answers. Reading the full book lets you internalize a complete mental model.
 
-- **Original thinking, nuance, and personality**  
+- **Original thinking, nuance, and personality**
   Books contain the author's unique voice, subtle reasoning, anecdotes, metaphors, and hard-won insights that LLMs usually average out or dilute. LLM outputs often feel "sanitized" or generic.
 
-- **Long-term retention and schema formation**  
+- **Long-term retention and schema formation**
   Actively reading (especially with notes, reflection, re-reading hard parts) creates much stronger memory traces and conceptual connections in your brain than skimming chatbot summaries. Neuroscience still shows deep reading activates broader neural networks over days/weeks.
 
-- **Trust and source grounding**  
+- **Trust and source grounding**
   With a book you know exactly whose knowledge, biases, and evidence you're absorbing. LLM answers frequently mix high-quality and low-quality sources without clear attribution.
 
-- **Emotional, aesthetic, and moral depth**  
+- **Emotional, aesthetic, and moral depth**
   Fiction, philosophy, history, memoirs → these train empathy, taste, ethical intuition, and pattern recognition in ways that pure information retrieval does not. Chatbots are weak at transmitting "felt experience."
 
-- **Escape from optimization & dopamine loops**  
+- **Escape from optimization & dopamine loops**
   Book reading is one of the few remaining high-value activities that resists being gamified or turned into short-form content.
 
-In short:  
-Chatbots → excellent for **lookup, quick explanations, surface-level synthesis**  
+In short:
+Chatbots → excellent for **lookup, quick explanations, surface-level synthesis**
 Books → superior for **deep understanding, original frameworks, character, taste, long-term intellectual growth**
 
 ### How to read books effectively in 2025–2026 (LLM era)
@@ -78,10 +78,10 @@ Quick decision framework:
 | Build deep worldview / taste      | Full slow read, minimal LLM interference  | 10–50 hours    |
 | Stay current broadly              | LLM-powered "awareness" reading of many books | 30–90 min/book |
 
-Bottom line in 2026:  
+Bottom line in 2026:
 Use LLMs to **filter** and **accelerate** → but protect time for real **deep reading** of the 5–15 books/year that can actually change how you think.
 
-References:  
+References:
 
 - [Why Read Books When You Can Use Chatbots to Talk to Them Instead?](https://www.wired.com/story/why-read-books-when-you-can-use-chatbots-to-talk-to-them-instead)
 - [How Andrej Karpathy Reads Books With LLMs](https://www.jermainebrown.org/posts/how-andrej-karpathy-reads-books-with-llms)

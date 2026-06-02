@@ -12,7 +12,7 @@ type: note
 
 Question: In Zoom AI Companion, how can I extract as much detailed information as possible from the chat box, such as a comprehensive 10-minute summary without word limits like 500 words, a structured transcript for a one-hour meeting (e.g., by time segments or individual speakers like "what one speaker said" vs. "what David said"), and an organized or refined transcript overall?
 
-Answer: 
+Answer:
 
 ### Enabling and Accessing Zoom AI Companion for Detailed Outputs
 Zoom AI Companion is an AI-powered assistant integrated into Zoom meetings that generates real-time transcripts, summaries, and answers based on the conversation. To get the most out of it—especially for long meetings like one hour—start by enabling it in your Zoom settings (under **Settings > AI Companion** in the web portal). As the host, you can toggle features like **Meeting Summary** and **Ask AI Companion** before or during the meeting. This uses a temporary transcript (no full recording needed unless you want one). For guests, request the host to enable sharing.
@@ -65,12 +65,12 @@ For a one-hour meeting, this might take 5-10 iterative prompts (2-3 minutes each
 
 This method turns AI Companion into a powerful tool for detailed, speaker-aware transcripts without needing third-party apps.
 
-References:  
-- [Accessing Full Transcript of AI Companion](https://community.zoom.com/t5/Zoom-AI-Companion/Accessing-full-transcript-of-AI-Companion/m-p/207315)  
-- [Using Meeting Summary with AI Companion](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013)  
-- [Zoom AI Companion FAQ](https://uis.georgetown.edu/zoom/zoom-ai/zoom-ai-faq/)  
-- [How to Use Zoom AI Transcription Tool](https://tactiq.io/learn/zoom-ai-transcription-tool)  
-- [Use Zoom’s AI Companion to Take Notes and Summarize Meetings](https://www.wired.com/story/zoom-ai-companion-take-notes-summarize-meetings/)  
-- [The Ultimate Guide To Zoom AI Companion](https://getvoip.com/blog/zoom-ai-companion/)  
-- [Favorite AI Companion Tips and Tricks](https://www.zoom.com/en/blog/ai-companion-tips-and-tricks/)  
+References:
+- [Accessing Full Transcript of AI Companion](https://community.zoom.com/t5/Zoom-AI-Companion/Accessing-full-transcript-of-AI-Companion/m-p/207315)
+- [Using Meeting Summary with AI Companion](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013)
+- [Zoom AI Companion FAQ](https://uis.georgetown.edu/zoom/zoom-ai/zoom-ai-faq/)
+- [How to Use Zoom AI Transcription Tool](https://tactiq.io/learn/zoom-ai-transcription-tool)
+- [Use Zoom’s AI Companion to Take Notes and Summarize Meetings](https://www.wired.com/story/zoom-ai-companion-take-notes-summarize-meetings/)
+- [The Ultimate Guide To Zoom AI Companion](https://getvoip.com/blog/zoom-ai-companion/)
+- [Favorite AI Companion Tips and Tricks](https://www.zoom.com/en/blog/ai-companion-tips-and-tricks/)
 - [Zoom AI Companion Explained](https://tactiq.io/learn/zoom-ai-companion-explained)

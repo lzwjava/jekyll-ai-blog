@@ -12,7 +12,7 @@ type: note
 
 Question: Can you play League of Legends on Steam?
 
-Answer: 
+Answer:
 
 No, you cannot play the main **League of Legends** (LoL) MOBA game natively on Steam. It is not available for purchase, download, or launch directly from the Steam store or library. Riot Games distributes LoL exclusively through their own **Riot Client**, which you must download from the official League of Legends website.
 
@@ -32,9 +32,9 @@ This doesn't make it a "Steam game"—it still requires the Riot Client and acco
 
 **Note**: On devices like Steam Deck, LoL faces additional hurdles due to Riot's Vanguard anti-cheat, which doesn't support Linux (SteamOS). Dual-booting Windows or remote play from a PC is required.
 
-References:  
-- [Is League of Legends on Steam? (PCGamesN)](https://www.pcgamesn.com/league-of-legends/steam)  
-- [League of Legends Official Homepage & Download](https://www.leagueoflegends.com/en-us/)  
-- [Steam Store Search for "League of Legends"](https://store.steampowered.com/search/?term=League+of+Legends)  
-- [League of Legends Old Steam Page (Unplayable)](https://store.steampowered.com/app/20590)  
+References:
+- [Is League of Legends on Steam? (PCGamesN)](https://www.pcgamesn.com/league-of-legends/steam)
+- [League of Legends Official Homepage & Download](https://www.leagueoflegends.com/en-us/)
+- [Steam Store Search for "League of Legends"](https://store.steampowered.com/search/?term=League+of+Legends)
+- [League of Legends Old Steam Page (Unplayable)](https://store.steampowered.com/app/20590)
 - [Reddit Discussion on Rare Steam Version](https://www.reddit.com/r/leagueoflegends/comments/1fjtx8y/league_of_legends_on_steam/)

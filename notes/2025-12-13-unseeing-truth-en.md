@@ -26,7 +26,7 @@ Not always. It depends on the person, the strength of the truth, and how deeply 
 
   Studies on belief perseverance show that even when people are shown their beliefs are factually wrong, they frequently keep the belief and just invent new justifications.
 
-So: You personally might not be able to unsee the truth once it hits you hard enough.  
+So: You personally might not be able to unsee the truth once it hits you hard enough.
 But plenty of others absolutely can—and do—go right back to sleep.
 
 The uncomfortable reality: "Seeing" isn’t just about eyes. It’s about willingness.

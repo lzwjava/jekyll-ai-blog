@@ -48,7 +48,7 @@ The central bank is **Danmarks Nationalbank**, which oversees monetary policy bu
 
 For a complete and up-to-date list, including smaller institutions, consult official sources like Finanstilsynet or banking directories, as the sector can change due to mergers or regulations.
 
-[List of banks in Denmark - Wikipedia](https://en.wikipedia.org/wiki/List_of_banks_in_Denmark)  
-[A list of the top banks in Denmark - Wise](https://wise.com/gb/blog/banks-in-denmark)  
-[List of Banks in Denmark - TheBanks.eu](https://thebanks.eu/banks-by-country/Denmark)  
+[List of banks in Denmark - Wikipedia](https://en.wikipedia.org/wiki/List_of_banks_in_Denmark)
+[A list of the top banks in Denmark - Wise](https://wise.com/gb/blog/banks-in-denmark)
+[List of Banks in Denmark - TheBanks.eu](https://thebanks.eu/banks-by-country/Denmark)
 [Top 10 Banks in Denmark - Elevate Pay](https://www.elevatepay.co/br/blog/banks-in-denmark)

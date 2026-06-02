@@ -60,6 +60,6 @@ For array [1, 3, 5, 7], the Fenwick array might be [1, 4, 5, 16] (cumulative adj
 
 Both are staples in algorithms (e.g., on LeetCode or Codeforces). If you're implementing them, start with Fenwick for simplicity!
 
-For deeper dives:  
-[Segment Tree Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/segment-tree-data-structure/)  
+For deeper dives:
+[Segment Tree Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/segment-tree-data-structure/)
 [Fenwick Tree Explained - CP-Algorithms](https://cp-algorithms.com/data_structures/fenwick.html)

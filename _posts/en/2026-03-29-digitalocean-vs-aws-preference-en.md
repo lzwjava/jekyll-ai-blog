@@ -31,7 +31,7 @@ Yes, many users and developers do prefer DigitalOcean (DO) over Google Cloud Pla
 
 - **When DigitalOcean is "just enough"**:
   Yes, for a large percentage of use cases — personal projects, SaaS startups, web apps, APIs, databases, CI/CD, small ML workloads — DigitalOcean is perfectly capable. The open source ecosystem (PostgreSQL, Redis, Nginx, Traefik, Prometheus, Grafana, etc.) fills in most gaps. You can self-host almost everything reliably on DO Droplets.
-  
+
   Popular setups on DigitalOcean include:
   - LAMP/LEMP stacks
   - Docker + Docker Compose

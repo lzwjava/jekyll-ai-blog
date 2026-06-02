@@ -91,7 +91,7 @@ proxy_check() {
     local cmd
     # 提取命令的第一个词
     cmd=$(echo "$BASH_COMMAND" | awk '{print $1}')
-    
+
     for network_cmd in "${network_commands[@]}"; do
         if [[ "$cmd" == "$network_cmd" ]]; then
             # 检查是否设置了任何代理环境变量
@@ -219,7 +219,7 @@ Set-PSReadLineOption -CommandValidationHandler {
     param($command)
     # 提取命令的第一个词
     $cmd = ($command -split ' ')[0]
-    
+
     if ($networkCommands -contains $cmd) {
         # 检查是否设置了任何代理环境变量
         if ($env:HTTP_PROXY -or $env:http_proxy -or $env:HTTPS_PROXY -or $env:https_proxy -or $env:ALL_PROXY -or $env:all_proxy) {

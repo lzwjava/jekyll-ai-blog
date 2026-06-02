@@ -98,11 +98,11 @@ import { test, expect } from '@playwright/test';
 test('基础测试示例', async ({ page }) => {
   // 导航到页面
   await page.goto('https://example.com');
-  
+
   // 与元素交互
   await page.click('button');
   await page.fill('input[name="username"]', 'testuser');
-  
+
   // 断言
   await expect(page.locator('h1')).toHaveText('Welcome');
   await expect(page).toHaveURL(/dashboard/);
@@ -190,7 +190,7 @@ test('API 测试', async ({ request }) => {
       email: 'john@example.com'
     }
   });
-  
+
   expect(response.ok()).toBeTruthy();
   const userData = await response.json();
   expect(userData.name).toBe('John Doe');
@@ -205,7 +205,7 @@ test('模拟 API 响应', async ({ page }) => {
     const json = [{ id: 1, name: 'Mock User' }];
     await route.fulfill({ json });
   });
-  
+
   await page.goto('/users');
   await expect(page.locator('.user-name')).toHaveText('Mock User');
 });
@@ -215,10 +215,10 @@ test('模拟 API 响应', async ({ page }) => {
 ```javascript
 test('可视化对比', async ({ page }) => {
   await page.goto('/dashboard');
-  
+
   // 全页面截图
   await expect(page).toHaveScreenshot('dashboard.png');
-  
+
   // 元素截图
   await expect(page.locator('.header')).toHaveScreenshot('header.png');
 });
@@ -263,9 +263,9 @@ export const test = base.extend({
     await page.fill('[name="password"]', 'password');
     await page.click('button[type="submit"]');
     await page.waitForURL('/dashboard');
-    
+
     await use(page);
-    
+
     // 测试后清理
     await page.goto('/logout');
   },
@@ -406,15 +406,15 @@ const { Builder, By, until } = require('selenium-webdriver');
 
 describe('登录流程', () => {
   let driver;
-  
+
   beforeEach(async () => {
     driver = await new Builder().forBrowser('chrome').build();
   });
-  
+
   afterEach(async () => {
     await driver.quit();
   });
-  
+
   it('应成功登录', async () => {
     await driver.get('http://localhost:3000/login');
     await driver.findElement(By.name('email')).sendKeys('user@example.com');

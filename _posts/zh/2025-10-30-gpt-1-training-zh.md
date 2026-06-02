@@ -54,5 +54,5 @@ GPT-1（生成式预训练 Transformer 1）是 OpenAI 于 2018 年推出的奠�
 
 GPT-1 证明了单一预训练模型通过简单输入格式化即可有效迁移至多种 NLP 任务，当时超越了部分经过任务调优的模型。但与现代大语言模型（如 GPT-3 参数量达 1750 亿）相比规模较小，且上下文长度限制为 512 个标记。该架构为整个 GPT 系列奠定了基础，强调了预训练的可扩展性。
 
-[通过生成式预训练提升语言理解能力](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)  
+[通过生成式预训练提升语言理解能力](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 [GPT-1 - 维基百科](https://en.wikipedia.org/wiki/GPT-1)

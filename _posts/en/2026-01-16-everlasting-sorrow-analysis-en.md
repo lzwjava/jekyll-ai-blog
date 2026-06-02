@@ -12,12 +12,12 @@ type: note
 
 Question: Who is the main figure whose emotions are primarily depicted in the poem "Song of Everlasting Sorrow" (《长恨歌》)?
 
-A. Yang Guifei (杨贵妃)  
-B. Li Bai (李白)  
-C. Du Fu (杜甫)  
+A. Yang Guifei (杨贵妃)
+B. Li Bai (李白)
+C. Du Fu (杜甫)
 D. Bai Juyi (白居易)
 
-Answer: 
+Answer:
 
 The correct answer is **A. 杨贵妃** (Yang Guifei / Yang Yuhuan).
 
@@ -32,6 +32,6 @@ So while the emperor’s “long regret” is the title’s literal meaning, the
 
 Correct answer: **A. 杨贵妃**
 
-References:  
-- [https://zh.wikipedia.org/wiki/长恨歌](https://zh.wikipedia.org/wiki/%E9%95%BF%E6%81%A8%E6%AD%8C)  
+References:
+- [https://zh.wikipedia.org/wiki/长恨歌](https://zh.wikipedia.org/wiki/%E9%95%BF%E6%81%A8%E6%AD%8C)
 - Standard Chinese high-school literature curriculum (《长恨歌》教学内容)

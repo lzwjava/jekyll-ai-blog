@@ -37,7 +37,7 @@ The platform covers over 3,000 service items across major categories, with high-
 
 Most services allow online applications with electronic signatures, reducing in-person visits. Guangzhou-specific integrations include links to local halls like the Zhongshan Government Service Center for cross-boundary services. For receipts or status (e.g., endorsements), scan a QR code at kiosks to log in via WeChat/Alipay and view digitally.
 
-[Guangdong Government Services Network](https://www.gdzwfw.gov.cn/)  
-[Guangzhou Government Portal - Government Services](https://www.gz.gov.cn/zwfw/)  
-[Handling HK/Macau Travel Permits Guide](https://crj.gdga.gd.gov.cn/zwwbszy/ndlwgaot/wlgaotxzqz/202108/t20210816_1518.html)  
+[Guangdong Government Services Network](https://www.gdzwfw.gov.cn/)
+[Guangzhou Government Portal - Government Services](https://www.gz.gov.cn/zwfw/)
+[Handling HK/Macau Travel Permits Guide](https://crj.gdga.gd.gov.cn/zwwbszy/ndlwgaot/wlgaotxzqz/202108/t20210816_1518.html)
 [Guangzhou HK/Macau Permit Process 2025](http://gz.bendibao.com/life/202313/332166.shtml)

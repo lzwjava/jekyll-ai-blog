@@ -40,17 +40,17 @@ public class ExampleTest {
     public void testExamples() {
         // 基础相等性测试
         assertThat(5, is(5));
-        
+
         // 字符串匹配
         String text = "Hello World";
         assertThat(text, containsString("World"));
         assertThat(text, startsWith("Hello"));
-        
+
         // 集合匹配
         List<String> items = Arrays.asList("apple", "banana", "orange");
         assertThat(items, hasItem("banana"));
         assertThat(items, hasSize(3));
-        
+
         // 数字比较
         assertThat(10, greaterThan(5));
         assertThat(3.14, closeTo(3.0, 0.2));

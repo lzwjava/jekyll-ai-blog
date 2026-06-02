@@ -11,7 +11,7 @@ type: note
 
 Question: Is allocating required I/O devices to user processes one of the functions of the operating system's device management?
 
-Answer: 
+Answer:
 
 Yes, the statement is correct.
 
@@ -19,22 +19,22 @@ Allocating required I/O devices to user processes is indeed one of the important
 
 Device management (also called I/O management) is a core component of the operating system. Its main responsibilities include:
 
-- **Device allocation and deallocation**  
+- **Device allocation and deallocation**
   When a user process requests an I/O operation (e.g., reading from disk, writing to printer, accessing network interface), the operating system decides whether and when to assign the requested device to that process. This is usually done using one of several allocation strategies:
   - Dedicated / exclusive allocation
   - Time-shared allocation
   - Virtual device allocation (e.g., spooling for printers)
 
-- **Device scheduling**  
+- **Device scheduling**
   When multiple processes want to use the same device, the OS schedules the requests to optimize performance (e.g., shortest seek time first for disks, priority-based scheduling, FCFS, etc.).
 
-- **Device driver management**  
+- **Device driver management**
   Providing the interface between the hardware and higher-level software by loading and managing appropriate device drivers.
 
-- **Buffering, caching, and spooling**  
+- **Buffering, caching, and spooling**
   Improving I/O efficiency and reducing direct device-process interaction.
 
-- **Error handling and device status monitoring**  
+- **Error handling and device status monitoring**
   Detecting and recovering from device faults when possible.
 
 In the classic I/O request lifecycle:
@@ -47,6 +47,6 @@ In the classic I/O request lifecycle:
 
 Therefore, "allocating required I/O devices to user processes" is a fundamental and essential function of device management in operating systems.
 
-References:  
+References:
 
 - None (this is standard operating systems theory)

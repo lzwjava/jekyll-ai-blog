@@ -16,7 +16,7 @@ The real resolution involved parallel team efforts: patching DynamoDB endpoints,
 
 If you're digging into the outage for work or curiosity, the full RCA should drop soon—AWS usually follows up within a week.
 
-[AWS Outage Post-Mortem Tease](https://aws.amazon.com/premiumsupport/technology/aws-service-health-dashboard/)  
-[TeamBlind Thread on the Meme](https://www.teamblind.com/post/distinguished-engineer-fixed-aws-outage-in-4-minutes-46jllgcs)  
-[X Thread with Status Screenshot](https://x.com/NotTuxedoSam/status/1980412758127775977)  
+[AWS Outage Post-Mortem Tease](https://aws.amazon.com/premiumsupport/technology/aws-service-health-dashboard/)
+[TeamBlind Thread on the Meme](https://www.teamblind.com/post/distinguished-engineer-fixed-aws-outage-in-4-minutes-46jllgcs)
+[X Thread with Status Screenshot](https://x.com/NotTuxedoSam/status/1980412758127775977)
 [LinkedIn Breakdown of What Actually Broke](https://www.linkedin.com/posts/charlesmartin14_apparently-amazons-top-engineer-lives-on-activity-7386236616094203904-XoUz)

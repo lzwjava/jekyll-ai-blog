@@ -65,7 +65,7 @@ output = torch.zeros_like(x)
 for k in range(8):
     expert_idx   = topk_ids[:, k]          # which expert for each token
     expert_score = topk_vals[:, k]         # its weight   [B*T]
-    
+
     # Each token goes to its assigned expert
     # (in real impl, tokens are batched per expert for efficiency)
     for b in range(x.shape[0]):

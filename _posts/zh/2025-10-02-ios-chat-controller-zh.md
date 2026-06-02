@@ -79,7 +79,7 @@ self.messageTableView.keyboardWillChange = ^(CGRect keyboardRect, UIViewAnimatio
 完整的语音录制实现：
 ```objc
 - (void)startRecord;
-- (void)finishRecorded; 
+- (void)finishRecorded;
 - (void)cancelRecord;
 ```
 通过`XHVoiceRecordHUD`提供视觉反馈。

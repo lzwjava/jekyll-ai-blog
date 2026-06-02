@@ -12,7 +12,7 @@ type: note
 
 Question: Compare APFS and NTFS file systems
 
-Answer: 
+Answer:
 
 Here is a clear comparison between **APFS** (Apple File System) and **NTFS** (New Technology File System) as of 2026:
 
@@ -55,7 +55,7 @@ Here is a clear comparison between **APFS** (Apple File System) and **NTFS** (Ne
 
 Both are excellent, modern journaling file systems — **APFS** simply feels more "2020s" and SSD-first, while **NTFS** remains extremely capable and still dominates the Windows world.
 
-References:  
+References:
 
 - [APFS vs NTFS – MiniTool Partition Wizard](https://www.partitionwizard.com/news/apfs-vs-ntfs.html)
 - [File Systems Comparison: NTFS, Ext4, APFS and ZFS – Hostragons](https://www.hostragons.com/en/blog/file-systems-ntfs-ext4-apfs-zfs-comparison)

@@ -32,7 +32,7 @@ tok_emb + pos_emb
 因此加法运算实际为：
 ```
 (B, T, n_embd)
-     + 
+     +
 (1, T, n_embd)   ← 通过广播自动扩展
      =
 (B, T, n_embd)

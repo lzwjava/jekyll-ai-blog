@@ -33,24 +33,24 @@ PWA 由谷歌于 2015 年提出，现已成为所有主流浏览器（Chrome、E
 
 ### PWA 的核心技术
 
-1. **Service Workers**  
-   - 在后台运行的 JavaScript 文件（与网页分离）。  
+1. **Service Workers**
+   - 在后台运行的 JavaScript 文件（与网页分离）。
    - 实现离线缓存、后台同步、推送通知和快速加载。
 
-2. **Web 应用清单**（manifest.json）  
+2. **Web 应用清单**（manifest.json）
    - JSON 文件，用于告知浏览器应用安装后的行为方式（名称、图标、主题色、启动 URL、显示模式：全屏/独立显示等）。
 
-3. **HTTPS**  
+3. **HTTPS**
    - 出于安全考虑及 Service Workers 正常工作所必需。
 
 ### 知名 PWA 实际案例
 
-- Twitter → Twitter Lite（现为 twitter.com）  
-- Starbucks → 支持离线点咖啡  
-- Pinterest → 移动端网页的完整应用体验  
-- Spotify → 可安装的网页播放器  
-- Uber → 2016 年推出的 PWA，即使在 2G 网络下也能运行  
-- Flipkart Lite → 在印度为许多用户取代了原生 Android 应用  
+- Twitter → Twitter Lite（现为 twitter.com）
+- Starbucks → 支持离线点咖啡
+- Pinterest → 移动端网页的完整应用体验
+- Spotify → 可安装的网页播放器
+- Uber → 2016 年推出的 PWA，即使在 2G 网络下也能运行
+- Flipkart Lite → 在印度为许多用户取代了原生 Android 应用
 - Trivago、阿里巴巴、Tinder 等
 
 ### PWA 与传统原生应用的优势对比

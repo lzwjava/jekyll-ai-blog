@@ -33,7 +33,7 @@ public class Main {
     private void solve() throws IOException {
         String line = in.readLine();
         if (line == null) return;
-        
+
         int t = Integer.parseInt(line.trim());
         while (t-- > 0) {
             int n = Integer.parseInt(in.readLine().trim());

@@ -1,4 +1,4 @@
-python data/fineweb/prepare.py 
+python data/fineweb/prepare.py
 HTTP_PROXY: http://127.0.0.1:7890
 HTTPS_PROXY: http://127.0.0.1:7890
 Reading from local file: /home/lzw/projects/nanoGPT/data/fineweb/train_fineweb.txt

@@ -38,7 +38,7 @@ Viewport 是网页在浏览器窗口（或屏幕）内**当前对用户可见的
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-使用此 meta 标签 → 布局 viewport ≈ 以 CSS 像素为单位的物理设备宽度  
+使用此 meta 标签 → 布局 viewport ≈ 以 CSS 像素为单位的物理设备宽度
 不使用它 → 布局 viewport = 980px（或类似值），即使在小小的手机上也是如此
 
 这就是为什么在手机上，如果你忘记添加 meta 标签，100vw 看起来会很大的原因。
@@ -77,10 +77,10 @@ Viewport 是网页在浏览器窗口（或屏幕）内**当前对用户可见的
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { margin:0; font-family:sans-serif; }
-    .box { 
-      width: 100vw; 
-      height: 100vh; 
-      background: #f06d06; 
+    .box {
+      width: 100vw;
+      height: 100vh;
+      background: #f06d06;
       color: white;
       display: grid;
       place-items: center;

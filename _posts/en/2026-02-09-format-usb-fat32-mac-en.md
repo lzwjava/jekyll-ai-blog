@@ -24,7 +24,7 @@ macOS **Disk Utility** no longer shows FAT32 (MS-DOS FAT) as a direct option in 
 4. Click **Erase** at the top
 5. Set the following options:
    - **Name**: whatever you want
-   - **Format**: Choose **MS-DOS (FAT)**  
+   - **Format**: Choose **MS-DOS (FAT)**
      → This is the real name for FAT32 on macOS
    - **Scheme**: **Master Boot Record** (MBR) ← very important for maximum compatibility!
 6. Click **Erase**

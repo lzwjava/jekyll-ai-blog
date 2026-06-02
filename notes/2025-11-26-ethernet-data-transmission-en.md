@@ -13,11 +13,11 @@ type: note
 Here's how Ethernet actually "talks" over twisted-pair copper cables (like Cat5e, Cat6, etc.) and turns electricity into digital bits:
 
 ### 1. Basic idea: Voltage changes represent 1s and 0s
-Ethernet sends data by changing the voltage on the copper wires.  
+Ethernet sends data by changing the voltage on the copper wires.
 Different voltage levels or transitions mean different bits.
 
 ### 2. Twisted-pair wiring in Ethernet (e.g., Cat5e/Cat6)
-A typical Ethernet cable has 4 twisted pairs (8 wires).  
+A typical Ethernet cable has 4 twisted pairs (8 wires).
 For most modern Ethernet (100 Mbps and faster), only 2 or all 4 pairs are used bidirectionally.
 
 ### 3. How electrical signals become bits (by speed)
@@ -58,11 +58,11 @@ Your network card or switch has a PHY (Physical Layer) chip that does this:
 - Magnetics (transformers) at both ends isolate and protect against ground differences and surges.
 
 ### Summary in simple words
-Electricity itself doesn't become bits.  
-The Ethernet PHY deliberately changes the voltage on the copper wires in very specific patterns and levels.  
+Electricity itself doesn't become bits.
+The Ethernet PHY deliberately changes the voltage on the copper wires in very specific patterns and levels.
 The receiver constantly measures that voltage, and through encoding rules + heavy math (DSP), it figures out exactly which bits you sent.
 
-So:  
+So:
 Digital bits → encoding → precise voltage levels/timings → sent over copper → received → sampled → DSP magic → clean digital bits again.
 
 That’s how 10 billion bits per second can fly reliably over ordinary copper twisted-pair cables you buy for a few dollars.

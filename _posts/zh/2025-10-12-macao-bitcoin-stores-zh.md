@@ -40,8 +40,8 @@ type: note
 
 如需更多细节（如特定交易所推荐），随时提问！
 
-**参考资料**  
-- [CoinATMRadar比特币ATM地图](https://coinatmradar.com/)  
-- [Bitcoin.com在澳门购买比特币指南](https://www.bitcoin.com/exchanges/macau/)  
-- [澳门金融管理局监管条例](https://www.amcm.gov.mo/en/)  
+**参考资料**
+- [CoinATMRadar比特币ATM地图](https://coinatmradar.com/)
+- [Bitcoin.com在澳门购买比特币指南](https://www.bitcoin.com/exchanges/macau/)
+- [澳门金融管理局监管条例](https://www.amcm.gov.mo/en/)
 - [Binance P2P交易指南](https://www.binance.com/en/p2p)

@@ -21,8 +21,8 @@ That's exactly why it's slow now (and why it was much faster when you used `mirr
 | `mirror.accum.se` (previous)   | Redirector → automatically gave you an **Asian mirror** (almost always `ftp.acc.umu.se` **via** the **Japan** or **Singapore** backend, or sometimes directly the Hong Kong mirror) | China → (domestic) → Taiwan proxy → **Asia-Pacific Wikimedia mirror** (low latency, high bandwidth) | 20–60 MB/s easily possible |
 | `ftp.acc.umu.se` (now)          | Forces the **European/Sweden** server | China → Taiwan proxy → cross the Pacific twice → Europe (Sweden) → back | Usually 1–6 MB/s, sometimes drops below 1 MB/s |
 
-In short:  
-When you used `mirror.accum.se`, their redirector saw your Taiwan exit IP and intelligently sent you to the closest/fastest mirror (often Japan or Singapore).  
+In short:
+When you used `mirror.accum.se`, their redirector saw your Taiwan exit IP and intelligently sent you to the closest/fastest mirror (often Japan or Singapore).
 Now you're forcing the Swedish server, so your traffic has to go Guangzhou → Taiwan → USA/undersea cables → Sweden → back the same long way. Round-trip latency jumps from ~30 ms to ~280–350 ms, and bandwidth gets throttled hard.
 
 ### Proof from real-world tests (Nov 2025)
@@ -36,14 +36,14 @@ From Taiwan exit nodes right now:
 
 ### Quick fixes (choose one)
 
-1. **Best & fastest**: Switch to an East-Asia mirror (recommended)  
+1. **Best & fastest**: Switch to an East-Asia mirror (recommended)
    ```bash
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles2.xml-p41243p151573.bz2
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles3.xml-p151574p311329.bz2
    ```
    From Taiwan proxy you'll easily pull 30–80 MB/s.
 
-2. Go back to the redirector (it’s smart again)  
+2. Go back to the redirector (it’s smart again)
    ```bash
    wget -c https://mirror.accum.se/mirror/wikimedia.org/dumps/enwiki/20251101/...
    ```

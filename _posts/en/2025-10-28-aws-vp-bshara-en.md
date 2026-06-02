@@ -37,7 +37,7 @@ Not entirely—Technion gave him a rock-solid foundation in engineering, plus me
 
 Bshara's low-key (no big X presence), but his impact on AI chips is huge—making AWS a custom-silicon leader without Nvidia dependency.
 
-**References**  
-- [Nafea Bshara - the Israeli behind AWS's Graviton chip](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)  
-- [How silicon innovation became the ‘secret sauce’ behind AWS’s success](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)  
+**References**
+- [Nafea Bshara - the Israeli behind AWS's Graviton chip](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)
+- [How silicon innovation became the ‘secret sauce’ behind AWS’s success](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)
 - [Inside the AI chip race: Amazon's strategy vs. Microsoft and Google](https://www.geekwire.com/2023/inside-the-ai-chip-race-how-a-pivotal-happy-hour-changed-amazons-strategy-in-the-cloud/)

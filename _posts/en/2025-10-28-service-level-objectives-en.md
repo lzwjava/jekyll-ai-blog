@@ -30,6 +30,6 @@ In large language model serving, SLOs are often stage-specific:
 
 SLOs help balance throughput and latency in shared environments, preventing violations during bursts.
 
-For deeper reading:  
-[SRE Book: Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)  
+For deeper reading:
+[SRE Book: Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
 [SLOs-Serve Paper](https://arxiv.org/abs/2504.08784)

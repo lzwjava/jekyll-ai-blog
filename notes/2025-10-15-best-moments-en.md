@@ -26,7 +26,7 @@ Life's best moments are deeply personal, but patterns emerge from what people sh
 
 Ultimately, the "best" ones are those you savor—pausing to feel them fully boosts well-being. What stands out for you might blend these, like a partner's hand in yours during a beautiful scene after a hard-won achievement.
 
-[Revealed: Happiest moments in life](https://www.beaglestreet.com/blog/revealed-happiest-moments-in-life/)  
-[What Are the Moments That Matter Most in Life?](https://www.psychologytoday.com/us/blog/happy-together/202312/what-are-the-moments-that-matter-most-in-life)  
-[What are some of the best moments in life that are often forgotten](https://www.quora.com/What-are-some-of-the-best-moments-in-life-that-are-often-forgotten-Why-do-we-tend-to-overlook-them)  
+[Revealed: Happiest moments in life](https://www.beaglestreet.com/blog/revealed-happiest-moments-in-life/)
+[What Are the Moments That Matter Most in Life?](https://www.psychologytoday.com/us/blog/happy-together/202312/what-are-the-moments-that-matter-most-in-life)
+[What are some of the best moments in life that are often forgotten](https://www.quora.com/What-are-some-of-the-best-moments-in-life-that-are-often-forgotten-Why-do-we-tend-to-overlook-them)
 [Best Moments That Made You Feel Life's Beauty?](https://www.reddit.com/r/AskOldPeople/comments/1d1muz0/best_moments_that_made_you_feel_lifes_beauty/)

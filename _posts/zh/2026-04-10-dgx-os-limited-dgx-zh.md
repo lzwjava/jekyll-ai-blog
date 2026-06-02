@@ -15,7 +15,7 @@ type: note
 
 不能。一台配备Intel酷睿i9处理器和NVIDIA RTX 4070 GPU的标准消费级台式机无法以官方支持的方式安装或运行NVIDIA DGX OS。
 
-**什么是NVIDIA DGX OS？**  
+**什么是NVIDIA DGX OS？**
 DGX OS是Ubuntu Linux的定制化加固版本（当前基于Ubuntu 22.04或24.04，具体取决于发行版本），由NVIDIA专门针对其DGX系列AI超级计算机和工作站（如DGX H100、DGX A100、DGX Station以及DGX Spark等新系统）进行优化和支持。它包括：
 
 - 平台专用驱动程序、内核优化（包括针对GPU直接存储等功能的NVIDIA优化内核）

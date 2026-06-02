@@ -12,7 +12,7 @@ type: note
 
 Question: To be good at PUBG Mobile, besides flexible fingers, do you also need to be patient—like waiting or observing a lot? If you know where the enemy is, it's easy to kill them and expose yourself less, right?
 
-Answer: 
+Answer:
 
 Yes, you're spot on. Flexible fingers (quick aiming, movement, and recoil control) are essential for mechanical skill, but **patience and observation are what separate good players from great ones**. In PUBG Mobile, a battle royale where survival is 80% strategy and positioning, rushing exposes you to third-parties, bad angles, and unnecessary fights. Knowing enemy positions through observation lets you strike with advantage—killing easily while minimizing your exposure.
 
@@ -37,10 +37,10 @@ Yes, you're spot on. Flexible fingers (quick aiming, movement, and recoil contro
 
 Combine this with gyro/4-finger claw for "flexible fingers," and you'll climb ranks fast. Pros win by outthinking, not outgunning.
 
-References:  
-- [PUBG Mobile Combat Tips (IGN)](https://www.ign.com/wikis/playerunknowns-battlegrounds/PUBG_Mobile_-_Combat_Tips_and_Engagement_Tactics)  
-- [Spotting Enemies Guide](https://www.youtube.com/watch?v=OigNWytfPqo)  
-- [Final Circle Positioning (Reddit)](https://www.reddit.com/r/PUBGMobile/comments/1dhkqve/what_do_you_do_in_final_situations/)  
-- [Flanking Like Pros (Sportskeeda)](https://www.sportskeeda.com/esports/pubg-mobile-guide-flanking-enemies-like-pro-players)  
-- [PUBG Mobile Beginners Guide (LootBar)](https://lootbar.gg/blog/en/pubg-mobile-beginners-guide-and-tips.html)  
+References:
+- [PUBG Mobile Combat Tips (IGN)](https://www.ign.com/wikis/playerunknowns-battlegrounds/PUBG_Mobile_-_Combat_Tips_and_Engagement_Tactics)
+- [Spotting Enemies Guide](https://www.youtube.com/watch?v=OigNWytfPqo)
+- [Final Circle Positioning (Reddit)](https://www.reddit.com/r/PUBGMobile/comments/1dhkqve/what_do_you_do_in_final_situations/)
+- [Flanking Like Pros (Sportskeeda)](https://www.sportskeeda.com/esports/pubg-mobile-guide-flanking-enemies-like-pro-players)
+- [PUBG Mobile Beginners Guide (LootBar)](https://lootbar.gg/blog/en/pubg-mobile-beginners-guide-and-tips.html)
 - [Sanhok Third-Party Guide (BitTopup)](https://news.bittopup.com/news/pubg-mobile-sanhok-third-party-guide-master-bootcamp)

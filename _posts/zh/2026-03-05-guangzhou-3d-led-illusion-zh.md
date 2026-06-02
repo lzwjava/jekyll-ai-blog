@@ -40,7 +40,7 @@ type: note
 
 简而言之：魔力主要来自巧妙的内容创作 + 倾斜屏幕几何，通过专业的LED媒体服务器和控制软件播放——远比OBS更先进和可靠。
 
-**参考资料**：  
+**参考资料**：
 
 - [https://www.yaham.com/guangzhou-led-display-king-was-born-naked-eye-3d-big-screen-debut.html](https://www.yaham.com/guangzhou-led-display-king-was-born-naked-eye-3d-big-screen-debut.html)
 - [https://www.unit-led.com/3d-billboard-china](https://www.unit-led.com/3d-billboard-china)

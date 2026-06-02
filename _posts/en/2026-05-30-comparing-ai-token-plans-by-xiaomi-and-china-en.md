@@ -13,7 +13,7 @@ Question: Does China Mobile Guangdong offer token subscription plans similar to 
 
 Answer:
 
-Yes, China Mobile has launched token services in multiple provinces and cities including Beijing, Jiangsu and Guangdong. 
+Yes, China Mobile has launched token services in multiple provinces and cities including Beijing, Jiangsu and Guangdong.
 
 Both Xiaomi MIMO and China Mobile follow the same subscription model: fixed monthly/annual token quotas for AI inference. However, they differ in scope:
 

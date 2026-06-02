@@ -101,7 +101,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/apernet/hysteria/master/scri
 
 **总结**：除非有特定原因留在 1.x（例如旧客户端兼容），否则使用 **Hysteria 2**。它提供更好的速度、更强的审查抗性，并且是面向未来的选择。
 
-参考资料：  
+参考资料：
 
 - [Hysteria 2 官方安装](https://v2.hysteria.network/docs/getting-started/Installation)
 - [Hysteria 2 服务器安装脚本](https://v2.hysteria.network/docs/getting-started/Server-Installation-Script)

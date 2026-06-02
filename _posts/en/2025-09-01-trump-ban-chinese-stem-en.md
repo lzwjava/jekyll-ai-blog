@@ -25,18 +25,18 @@ The policy was introduced in the context of worsening **U.S.–China relations**
 
 ## Key Provisions
 
-1. **Scope of Restriction**  
+1. **Scope of Restriction**
    - Applies to **Chinese nationals seeking F or J visas** (students or researchers).
    - Specifically targets **graduate-level students and researchers** with ties to Chinese institutions that **support or implement the PRC’s “Military-Civil Fusion (MCF)” strategy**.
 
-2. **Exemptions**  
-   - **Undergraduate students** are not affected.  
-   - Individuals conducting research in fields deemed not related to MCF.  
-   - Lawful permanent residents of the U.S.  
-   - Spouses of U.S. citizens.  
+2. **Exemptions**
+   - **Undergraduate students** are not affected.
+   - Individuals conducting research in fields deemed not related to MCF.
+   - Lawful permanent residents of the U.S.
+   - Spouses of U.S. citizens.
    - Other exceptions granted on a **case-by-case basis**.
 
-3. **Rationale Stated**  
+3. **Rationale Stated**
    - The U.S. government argued that some Chinese students and researchers were **exploiting educational exchange** to acquire advanced technologies and intellectual property, which could **benefit the Chinese military**.
    - The policy framed this as a **national security threat**.
 
@@ -44,40 +44,40 @@ The policy was introduced in the context of worsening **U.S.–China relations**
 
 ## Historical Context
 
-- **U.S.–China Tensions**: By 2020, disputes over trade, intellectual property theft, Huawei/5G, and COVID-19 origins heightened suspicions.  
-- **Military-Civil Fusion (MCF)**: A Chinese national strategy that blurs lines between civilian research and military applications.  
+- **U.S.–China Tensions**: By 2020, disputes over trade, intellectual property theft, Huawei/5G, and COVID-19 origins heightened suspicions.
+- **Military-Civil Fusion (MCF)**: A Chinese national strategy that blurs lines between civilian research and military applications.
 - **Visa Crackdown Trend**: Proclamation 10043 came alongside other restrictions on **H-1B visas, work permits, and technology exports**.
 
 ---
 
 ## Implementation
 
-- Chinese students applying for **F-1 (academic student)** or **J-1 (exchange visitor)** visas began receiving **visa denials or cancellations** if U.S. consular officers found links to restricted Chinese universities, labs, or military institutions.  
-- Consulates compiled a list of **universities and entities considered tied to MCF**, though the list was never fully published.  
+- Chinese students applying for **F-1 (academic student)** or **J-1 (exchange visitor)** visas began receiving **visa denials or cancellations** if U.S. consular officers found links to restricted Chinese universities, labs, or military institutions.
+- Consulates compiled a list of **universities and entities considered tied to MCF**, though the list was never fully published.
 - Reports suggest **1,000–3,000 students annually** were impacted, though estimates vary.
 
 ---
 
 ## Impacts
 
-1. **On Chinese Students**  
-   - Many master’s and PhD applicants in fields like **AI, robotics, aerospace, materials science, and computer engineering** faced visa rejections.  
+1. **On Chinese Students**
+   - Many master’s and PhD applicants in fields like **AI, robotics, aerospace, materials science, and computer engineering** faced visa rejections.
    - Caused uncertainty for students planning overseas study, forcing some to turn to **Canada, the UK, or Europe**.
 
-2. **On U.S. Universities**  
-   - Concerns about **loss of talent and tuition revenue**, since Chinese students make up a large portion of STEM graduate cohorts.  
+2. **On U.S. Universities**
+   - Concerns about **loss of talent and tuition revenue**, since Chinese students make up a large portion of STEM graduate cohorts.
    - Universities and professional associations criticized the policy as overly broad and harmful to **academic freedom**.
 
-3. **On U.S.–China Relations**  
-   - Reinforced the perception in China that the U.S. was **weaponizing education and technology access**.  
+3. **On U.S.–China Relations**
+   - Reinforced the perception in China that the U.S. was **weaponizing education and technology access**.
    - Became a symbol of the **decoupling trend** in science and technology.
 
 ---
 
 ## Current Status (as of 2025)
 
-- Proclamation 10043 **remains in effect**, though enforcement intensity varies.  
-- Under the Biden administration, there was **review but no repeal**—national security concerns around China persisted.  
+- Proclamation 10043 **remains in effect**, though enforcement intensity varies.
+- Under the Biden administration, there was **review but no repeal**—national security concerns around China persisted.
 - Visa denial cases continue, but Chinese students still make up a large share of U.S. international student enrollment (especially at the undergraduate level).
 
 ---

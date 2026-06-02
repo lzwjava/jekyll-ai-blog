@@ -12,7 +12,7 @@ type: note
 
 Question: How to visit Huaqiangbei, what to look for, and what are the main stores?
 
-Answer: 
+Answer:
 
 Huaqiangbei (also known as Huaqiang North) in Shenzhen, China, is the world's largest electronics market and a major hub for gadgets, components, and tech shopping. It's a bustling pedestrian area in Futian District, often called "China's No. 1 Electronics Street."
 
@@ -53,7 +53,7 @@ These are interconnected, so wander between them. Maps/apps like Amap or Apple M
 
 Huaqiangbei is overwhelming but exciting – perfect for tech enthusiasts. If you're new, consider a guided tour for bargaining help and hidden spots.
 
-References:  
+References:
 
 - [How to Explore Huaqiangbei: Shenzhen’s Ultimate Electronics Market Guide](https://www.eastchinatrip.com/huaqiangbei-shenzhen-guide/)
 - [Best 10 Huaqiangbei Electronics Markets To Wholesale In 2025](https://leelinesourcing.com/huaqiangbei-electronics-markets/)

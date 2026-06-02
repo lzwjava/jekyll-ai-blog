@@ -18,7 +18,7 @@ type: note
 
 这个估算的前提是训练脚本（如 run1000.sh）能够适配并在 4070 的 12 GB 显存上运行，可能需要通过减小批处理大小、梯度检查点或优化器卸载等技术避免内存问题。实际训练可能会受内存限制或需要调整参数，由于消费级硬件的效率较低，可能导致训练时间进一步增加。功耗方面约为 200W，与云服务相比电力成本较低。
 
-参考文献：  
-[Which GPU(s) to Get for Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/)  
-[GPU Benchmarks NVIDIA H100 NVL (PCIe) vs. NVIDIA RTX 4090 vs. NVIDIA RTX 4080](https://bizon-tech.com/gpu-benchmarks/NVIDIA-H100-NVL-%28PCIe%29-vs-NVIDIA-RTX-4090-vs-NVIDIA-RTX-4080/632vs637vs638)  
+参考文献：
+[Which GPU(s) to Get for Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/)
+[GPU Benchmarks NVIDIA H100 NVL (PCIe) vs. NVIDIA RTX 4090 vs. NVIDIA RTX 4080](https://bizon-tech.com/gpu-benchmarks/NVIDIA-H100-NVL-%28PCIe%29-vs-NVIDIA-RTX-4090-vs-NVIDIA-RTX-4080/632vs637vs638)
 [NVIDIA H100 PCIe vs SXM: Performance and Use Cases Compared](https://www.hyperstack.cloud/technical-resources/performance-benchmarks/comparing-nvidia-h100-pcie-vs-sxm-performance-use-cases-and-more)

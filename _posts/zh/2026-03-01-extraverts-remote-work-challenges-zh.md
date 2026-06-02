@@ -36,7 +36,7 @@ type: note
 
 总之，E 类型由于社交刺激减少，通常**不如 I 类型自然适合**纯远程工作，这可能导致孤独和能量降低。然而，这远非不可能——适合度取决于个人、工作角色、团队沟通风格和主动应对策略。
 
-参考资料：  
+参考资料：
 
 - [Psychology Today - How Your Personality Determines If You Can Work Remotely](https://www.psychologytoday.com/us/blog/intentional-insights/202302/how-your-personality-determines-if-you-can-work-remotely)
 - [Business News Daily - Personality Types Compatible With Remote Work](https://www.businessnewsdaily.com/7965-personality-work-from-home.html)

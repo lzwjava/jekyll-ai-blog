@@ -30,5 +30,5 @@ For ingredients to make it closer to a restaurant-style Bún Riêu (tangy, umami
 
 Start with smaller amounts to test—aim for a loose, soupy consistency. Total cook time: 20-30 mins on low heat. If this isn't Bún Riêu, describe the restaurant version more (e.g., what proteins or flavors stand out?) and I can refine!
 
-[ Bún Riêu Recipe (Hungry Huy) ](https://www.hungryhuy.com/bun-rieu-recipe/)  
+[ Bún Riêu Recipe (Hungry Huy) ](https://www.hungryhuy.com/bun-rieu-recipe/)
 [ Bún Riêu (Takes Two Eggs) ](https://takestwoeggs.com/bun-rieu/)

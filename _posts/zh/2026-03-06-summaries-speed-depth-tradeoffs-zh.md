@@ -46,7 +46,7 @@ type: note
 
 简而言之：摘要是**效率和广度**的绝佳工具，但不能替代**深度和准确性**。它们就像听下属转述他们认为重要的内容——对管理有用，但如果你需要真正理解或做出高风险决策，则不可靠。
 
-参考文献：  
+参考文献：
 
 - [https://readingraphics.com/guide-reading-full-book-vs-summary-for-learning](https://readingraphics.com/guide-reading-full-book-vs-summary-for-learning)
 - [https://www.scotthyoung.com/blog/2016/12/06/book-reading-deep-shallow](https://www.scotthyoung.com/blog/2016/12/06/book-reading-deep-shallow)

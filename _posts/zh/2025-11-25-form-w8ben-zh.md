@@ -39,6 +39,6 @@ type: note
 ### 示例说明
 一位收取美国出版商特许权使用费的加拿大自由职业者，通过填写W-8BEN表格援引《美加税收协定》第十二条，成功将预扣税率从30%降至**0%**，避免了前期缴纳30%税款。
 
-IRS官方页面：  
-[W-8BEN表格](https://www.irs.gov/forms-pubs/about-form-w-8-ben)  
+IRS官方页面：
+[W-8BEN表格](https://www.irs.gov/forms-pubs/about-form-w-8-ben)
 [W-8BEN表格填写指南](https://www.irs.gov/instructions/iw8ben)

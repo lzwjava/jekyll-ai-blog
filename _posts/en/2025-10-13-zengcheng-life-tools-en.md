@@ -56,7 +56,7 @@ Based on your Zengcheng house and interest in practical daily life tools, I've f
 
 These emphasize your Zengcheng base for bills (quick, local) and GBA mobility (efficient, cross-border). Start with 穗好办 for home setup and 湾事通OneStop for next trip—your 3-phone system will make switching seamless. If tweaking for vision experiments (e.g., low-light bill scans), your dev skills can customize notifications.
 
-[超方便！广州水电燃气费可以用微信查询、缴纳了！](https://www.163.com/dy/article/CNP9SJO505149RNB.html)  
-[如何通过微信小程序缴纳电信宽带费用？](https://www.ikuandai.cn/68360.html)  
-[“湾事通OneStop”微信小程序上线！大湾区跨境吃、住、行、游“万事通”](http://auto.cyol.com/gb/articles/2023-12/12/content_4wO2QEhA9Z.html)  
+[超方便！广州水电燃气费可以用微信查询、缴纳了！](https://www.163.com/dy/article/CNP9SJO505149RNB.html)
+[如何通过微信小程序缴纳电信宽带费用？](https://www.ikuandai.cn/68360.html)
+[“湾事通OneStop”微信小程序上线！大湾区跨境吃、住、行、游“万事通”](http://auto.cyol.com/gb/articles/2023-12/12/content_4wO2QEhA9Z.html)
 [湾区智慧通小程序](https://www.lingnanpass.com/productinfo/784899.html)

@@ -75,7 +75,7 @@ VM options:
 -Dfile.input=$MODULE_DIR$/src/main/resources/p2190A/1.in
 ```
 
-当你想要更改题目时 →  
+当你想要更改题目时 →
 按 **Ctrl+Shift+R** → **Replace in File** → 替换 `p2190A` → 速度非常快
 
 ### 2025+ 最流行的现代方式 —— 方案 4：每个 contest 一个 run config + folder 宏

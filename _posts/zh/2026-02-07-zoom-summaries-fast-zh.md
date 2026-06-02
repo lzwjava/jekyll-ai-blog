@@ -26,7 +26,7 @@ type: note
 
 会议期间，每隔 5 分钟逐步提问：
 - "Summarize minutes 0-5 without names"
-- "Summarize minutes 5-10 without names" 
+- "Summarize minutes 5-10 without names"
 - "Summarize minutes 10-15 without names"
 
 立即将每个回复复制到你的文档中。

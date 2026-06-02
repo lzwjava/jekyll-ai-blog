@@ -57,6 +57,6 @@ Andrej Karpathy's lecture, part of Stanford's CS25 Transformers United course, i
 
 This lecture shines for its visual analogies (e.g., attention as a "cursor" in translation) and code walkthroughs, making abstract ideas concrete. It's hailed as a top intro because it builds intuition without overwhelming math—ideal for newcomers.
 
-[Stanford CS25: Transformers United Lecture Summary](https://www.deciphr.ai/podcast/stanford-cs25-v2-i-introduction-to-transformers-w-andrej-karpathy-2)  
-[Intro to Transformers Notes](https://ersantana.com/llm/stanford_cs25_transformers/02_intro_to_transformers)  
+[Stanford CS25: Transformers United Lecture Summary](https://www.deciphr.ai/podcast/stanford-cs25-v2-i-introduction-to-transformers-w-andrej-karpathy-2)
+[Intro to Transformers Notes](https://ersantana.com/llm/stanford_cs25_transformers/02_intro_to_transformers)
 [YouTube Video](https://www.youtube.com/watch?v=XfpMkf4rD6E)

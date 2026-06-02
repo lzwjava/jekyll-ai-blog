@@ -19,9 +19,9 @@ type: note
 
 ### 1. 创建/编辑"流水线"任务
 
-- 任务类型 → 流水线  
-- 在流水线部分选择：  
-  **定义**: 来自SCM的流水线脚本  
+- 任务类型 → 流水线
+- 在流水线部分选择：
+  **定义**: 来自SCM的流水线脚本
 - SCM → Git
 
 ### 2. 填写Git配置
@@ -64,7 +64,7 @@ type: note
 | ID                  | 例如`internal-ghe-ssh-key`                                           |
 | 描述         | 内部GitHub Enterprise SSH密钥                                     |
 
-仓库URL必须使用SSH格式：  
+仓库URL必须使用SSH格式：
 `git@github.internal.company.com:org/repo.git`
 
 ### 4. 其他实用选项（位于任务的Git配置部分）
@@ -84,7 +84,7 @@ type: note
 - 事件：仅推送事件（或"发送所有事件"）
 - 确保内部GitHub可以访问Jenkins（防火墙/反向代理）
 
-然后在Jenkins任务中启用：  
+然后在Jenkins任务中启用：
 流水线 → 构建触发器 → GitHub钩子触发GITScm轮询
 
 完成设置后，Jenkins将使用所选凭据克隆仓库，并执行根目录（或指定路径）下`Jenkinsfile`中的内容。

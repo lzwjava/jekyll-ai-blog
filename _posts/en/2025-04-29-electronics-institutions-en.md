@@ -124,6 +124,6 @@ Today’s electronics landscape, including smartphones, IoT, and AI, is shaped b
 
 Institutions, from historic universities like Cambridge to modern innovators like TSMC and xAI, have been the backbone of electronics’ evolution. They provided the environments for discoveries like the transistor, integrated circuit, and microprocessor, transforming electricity from a curiosity into the foundation of modern technology. If you’d like more details on any institution’s role or specific technologies, let me know!
 
---- 
+---
 
 This response maintains the original narrative’s depth, replacing individual contributions with institutional roles while ensuring accuracy and relevance to the history of electronics.

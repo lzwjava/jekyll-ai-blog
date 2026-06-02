@@ -28,7 +28,7 @@ This appears to be the console output from generating a new OpenPGP key pair usi
 The process succeeded: "public and secret key created and signed." Your keys are now stored in `~/.gnupg/` (public in `pubring.kbx`, private in `private-keys-v1.d/`).
 
 ### What the .rev File Means
-The file in question is the revocation certificate (`.rev` extension) stored in the `openpgp-revocs.d` directory. This is **not** your private key—it's a special signed document that lets you (or anyone with it) revoke the key pair if it's compromised, lost, or no longer needed. 
+The file in question is the revocation certificate (`.rev` extension) stored in the `openpgp-revocs.d` directory. This is **not** your private key—it's a special signed document that lets you (or anyone with it) revoke the key pair if it's compromised, lost, or no longer needed.
 
 - **Purpose**: Revocation proves the key is invalid, preventing its use for signing or encryption. GPG generates it automatically during key creation for safety.
 - **How It Works**: If needed, import this file back into GPG with `gpg --import [file.rev]`, which publishes the revocation to keyservers or updates your keyring.

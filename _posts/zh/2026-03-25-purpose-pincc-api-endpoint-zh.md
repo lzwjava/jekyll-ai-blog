@@ -36,7 +36,7 @@ https://v2-as.pincc.ai/responses
 
 ```
 POST https://v2-as.pincc.ai/responses
-Headers: 
+Headers:
   Content-Type: application/json
 Body:
   {

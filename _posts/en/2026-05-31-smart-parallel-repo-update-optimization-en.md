@@ -13,7 +13,7 @@ type: note
 
 ```
 Sequential (old):            ~99 × 4.4s ≈ 435s (7+ min)
-Parallel pull (no check):    ~99 × 4.4s ÷ 8 ≈ 55s  
+Parallel pull (no check):    ~99 × 4.4s ÷ 8 ≈ 55s
 Smart fetch-first (current): 28s  (98 up-to-date did fetch-only, 1 pulled)
 ```
 
@@ -24,7 +24,7 @@ Repo that's up-to-date:
   Old:  git fetch (negotiate refs) + git merge (no-op) + verbose output parsing
   New:  git fetch (negotiate refs) → see 0 behind → skip
 
-Repo that needs update:  
+Repo that needs update:
   Old:  git fetch + git merge + verbose output
   New:  git fetch → see N behind → git pull (fetch again + merge)
 ```

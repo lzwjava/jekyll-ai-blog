@@ -42,7 +42,7 @@ public class Main {
     public static void main(String[] args) {
         // Create a sample object
         User user = new User("Alice", 25);
-        
+
         // Serialize to JSON string
         String jsonString = JSON.toJSONString(user);
         System.out.println(jsonString);
@@ -81,7 +81,7 @@ import com.alibaba.fastjson.JSON;
 public class Main {
     public static void main(String[] args) {
         String jsonString = "{\"age\":25,\"name\":\"Alice\"}";
-        
+
         // Deserialize to User object
         User user = JSON.parseObject(jsonString, User.class);
         System.out.println("Name: " + user.getName() + ", Age: " + user.getAge());
@@ -104,7 +104,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         String jsonArray = "[{\"name\":\"Alice\",\"age\":25},{\"name\":\"Bob\",\"age\":30}]";
-        
+
         // Deserialize to List<User>
         List<User> users = JSON.parseArray(jsonArray, User.class);
         for (User user : users) {
@@ -133,7 +133,7 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 public class Main {
     public static void main(String[] args) {
         User user = new User("Alice", 25);
-        
+
         // Use PrettyFormat for readable output
         String jsonString = JSON.toJSONString(user, SerializerFeature.PrettyFormat);
         System.out.println(jsonString);
@@ -163,7 +163,7 @@ public class Main {
     public static void main(String[] args) {
         Address address = new Address("123 Main St", "NY");
         User user = new User("Alice", 25, address);
-        
+
         String jsonString = JSON.toJSONString(user);
         System.out.println(jsonString);
 

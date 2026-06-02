@@ -14,7 +14,7 @@ def find_markdown_links(content: str):
 
 def normalize_target(target: str) -> str:
     # Remove surrounding spaces and quotes
-    target = target.strip().strip('"\'')
+    target = target.strip().strip("\"'")
     # Drop query/fragments
     target = target.split("#", 1)[0].split("?", 1)[0]
     return target

@@ -12,7 +12,7 @@ type: note
 
 Question: 深圳大鹏杨梅坑到鹿嘴山庄的旅游攻略，包括汽车（约 16 CNY）或船等交通选择。你购买了往返船票，但返回时选择了坐车并退掉了回程船票。你觉得这个方案如何？对于深圳大鹏半岛有哪些好的旅游建议？
 
-Answer: 
+Answer:
 
 你的计划听起来既实用又灵活——最初为了方便购买往返船票，回程时切换到更便宜的汽车选项并成功退票，这是一个在适应实际情况的同时节省开支的聪明做法。
 
@@ -48,10 +48,10 @@ Answer:
 
 这里是深圳感受自然和放松的最佳去处之一，祝你享受美丽的海岸线！
 
-References:  
+References:
 
-- [深圳杨梅坑到鹿嘴山庄如何去](https://travel.shenchuang.com/20210819/1604089.shtml)  
-- [深圳鹿嘴山庄怎么坐车去](https://m.bendibao.com/show839913.html)  
-- [深圳杨梅坑到鹿嘴山庄怎么去](https://m.bendibao.com/show871540.html)  
-- [Dapeng Travel Guide: Two days in Dapeng](https://www.eyeshenzhen.com/content/2024-12/13/content_31390306.htm)  
+- [深圳杨梅坑到鹿嘴山庄如何去](https://travel.shenchuang.com/20210819/1604089.shtml)
+- [深圳鹿嘴山庄怎么坐车去](https://m.bendibao.com/show839913.html)
+- [深圳杨梅坑到鹿嘴山庄怎么去](https://m.bendibao.com/show871540.html)
+- [Dapeng Travel Guide: Two days in Dapeng](https://www.eyeshenzhen.com/content/2024-12/13/content_31390306.htm)
 - [Shenzhens Beaches & the Dapeng Peninsula](https://shenzhenshopper.com/2580-shenzhens-beaches-the-dapeng-peninsula-inc-map-transport-and-where-to-stay.html)

@@ -21,23 +21,23 @@ The startup’s goal is **validated learning**—rapidly testing whether your vi
 
 ### The Five Key Principles and Tools
 
-1. **Entrepreneurs Are Everywhere**  
+1. **Entrepreneurs Are Everywhere**
    The Lean Startup method applies to any organization or individual creating new products/services under uncertainty (startups inside big companies, nonprofits, etc.).
 
-2. **Entrepreneurship Is Management**  
+2. **Entrepreneurship Is Management**
    Startups need a new kind of management specifically geared toward extreme uncertainty.
 
-3. **Validated Learning**  
+3. **Validated Learning**
    The fundamental activity is running experiments to test business hypotheses. Success is measured by learning, not by vanity metrics (total users, total revenue) but by actionable metrics that show cause-and-effect (e.g., cohort retention, conversion rates).
 
-4. **Build–Measure–Learn Feedback Loop**  
+4. **Build–Measure–Learn Feedback Loop**
    The core loop you repeat thousands of times:
    - Turn ideas into products (Build)
    - Measure how customers respond (Measure)
    - Learn whether to pivot or persevere (Learn)
    → Then feed that learning back into the next iteration as fast as possible.
 
-5. **Innovation Accounting**  
+5. **Innovation Accounting**
    A rigorous way to measure progress when traditional metrics fail:
    - Establish the baseline (build an MVP and measure it)
    - Tune the engine (run experiments to move the metrics)
@@ -45,10 +45,10 @@ The startup’s goal is **validated learning**—rapidly testing whether your vi
 
 ### Key Tactical Tools
 
-- **Minimum Viable Product (MVP)**  
+- **Minimum Viable Product (MVP)**
   The smallest thing you can build that delivers customer value and maximizes learning about what they actually want. Examples: landing-page test, concierge MVP, wizard-of-oz MVP, not necessarily a half-finished product.
 
-- **Pivot (or Persevere)**  
+- **Pivot (or Persevere)**
   A structured course correction when the data shows your current strategy is wrong. Types of pivots:
   - Zoom-in pivot
   - Zoom-out pivot
@@ -66,13 +66,13 @@ The startup’s goal is **validated learning**—rapidly testing whether your vi
   2. **Viral** – Customers bring other customers (viral coefficient > 1)
   3. **Paid** – Customer lifetime value > customer acquisition cost
 
-- **Cohort Analysis & Actionable Metrics vs. Vanity Metrics**  
+- **Cohort Analysis & Actionable Metrics vs. Vanity Metrics**
   Replace “we have 100k users” with “Of the users who signed up this week, X% came back and did the key action.”
 
-- **Kanban & Continuous Deployment**  
+- **Kanban & Continuous Deployment**
   Practical engineering practices that let you release tiny changes multiple times per day to support rapid experimentation.
 
-- **The Five Whys**  
+- **The Five Whys**
   A root-cause analysis technique: keep asking “why” five times to uncover the real problem and invest proportionally to fix it.
 
 ### Overall Philosophy

@@ -52,7 +52,7 @@ Total: ~60M parameters, ~650K neurons. The input dimensionality is 150,528, tape
 The paper's novelty lay not just in scale but in practical tweaks that addressed training speed, overfitting, and generalization:
 
 - **ReLU Activation**: Replaced saturating functions (tanh/sigmoid) with f(x) = max(0, x), accelerating convergence 6x on CIFAR-10 (see Figure 1 in paper). This "non-saturating" unit avoids gradient vanishing, enabling deeper nets.
-  
+
 - **Dropout Regularization**: Applied to the two largest FC layers (p=0.5 during training; scale outputs by 0.5 at test). It prevents neuron co-adaptation by randomly zeroing hidden units, mimicking ensemble averaging at ~2x training cost. Without it, severe overfitting occurred despite 1.2M examples.
 
 - **Overlapping Max-Pooling**: Used 3×3 pools with stride 2 (s=2, z=3) instead of non-overlapping (s=z=2). This denser sampling reduced top-1/5 errors by 0.4%/0.3% and curbed overfitting.

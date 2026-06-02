@@ -54,7 +54,7 @@ Here's a breakdown of deep reasoning models and their API availability, designed
         )
         print(response.choices[^0].message.content)
         ```
-        
+
 *   **Grok (xAI)**: xAI's Grok models, including Grok-3 and Grok-3 mini, are designed with strong reasoning capabilities. While Grok-1.5 was available to early testers, Grok 3 is coming soon via API [^11]. Grok 3 (Think) and Grok 3 mini (Think) models were trained using reinforcement learning to refine its chain-of-thought process, enabling advanced reasoning in a data-efficient manner [^12].
 
     *   **API Access:** Grok 3 API is anticipated to be released soon [^11].

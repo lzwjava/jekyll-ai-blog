@@ -49,9 +49,9 @@ type: note
 65岁的全永铉代表着三星的代际桥梁，既秉承创始年代的坚韧精神，又融合现代科技发展需求。其愿景聚焦“泛在AI”，致力将三星定位为智能计算时代不可或缺的力量。
 
 ### 参考资料
-- [董事会 - 三星全球官网](https://www.samsung.com/global/ir/governance-csr/board-of-directors/)  
-- [三星电子 - 维基百科](https://en.wikipedia.org/wiki/Samsung_Electronics)  
-- [全永铉 - 彭博人物档案](https://www.bloomberg.com/profile/person/18354211)  
-- [全永铉 - KoreaWho人物库](https://www.koreawho.com/profile/JunYounghyun)  
-- [三星共同首席执行官体系 - Quartr洞察](https://quartr.com/insights/business-philosophy/the-samsung-co-ceos-jong-hee-han-young-hyun-jun)  
+- [董事会 - 三星全球官网](https://www.samsung.com/global/ir/governance-csr/board-of-directors/)
+- [三星电子 - 维基百科](https://en.wikipedia.org/wiki/Samsung_Electronics)
+- [全永铉 - 彭博人物档案](https://www.bloomberg.com/profile/person/18354211)
+- [全永铉 - KoreaWho人物库](https://www.koreawho.com/profile/JunYounghyun)
+- [三星共同首席执行官体系 - Quartr洞察](https://quartr.com/insights/business-philosophy/the-samsung-co-ceos-jong-hee-han-young-hyun-jun)
 - [三星电子新CEO任命公告 - CBonds](https://cbonds.com/news/3316765/)

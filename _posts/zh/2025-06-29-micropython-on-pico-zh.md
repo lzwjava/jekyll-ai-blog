@@ -46,7 +46,7 @@ type: note
 3. **验证 MicroPython 运行状态**：
    - 在 Thonny 的 **Shell** 面板中应看到 MicroPython REPL 提示符：
      ```
-     >>> 
+     >>>
      ```
    - 输入简单命令进行测试，例如：
      ```python

@@ -24,9 +24,9 @@ iOS 个人热点功能（根据上下文推断您所指的“personal hubspot”
 
 若遇到频繁断连或网速缓慢，可尝试重启设备、升级至最新iOS版本、关闭低电量模式或重置网络设置（设置 > 通用 > 传输或还原iPhone > 还原 > 还原网络设置）。若问题持续存在，建议检查运营商流量套餐限制或联系苹果官方支持。
 
-[苹果支持：设置个人热点](https://support.apple.com/en-us/HT204023)  
-[Ask Different：个人热点无法保持连接](https://apple.stackexchange.com/questions/332984/personal-hotspot-not-staying-connected)  
-[Reddit：iPhone热点频繁断开连接解决方案](https://www.reddit.com/r/iphone/comments/170i24n/your_iphones_hotspot_keep_disconnecting_i_think_i/)  
-[MacRumors：5G热点需保持屏幕常亮问题讨论](https://forums.macrumors.com/threads/ios-15-3-1-hotspot-on-5g-stops-unless-i-keep-screen-on.2336283/)  
-[wikiHow：提升iPhone热点速度指南](https://www.wikihow.com/Make-Hotspot-Faster-iPhone)  
+[苹果支持：设置个人热点](https://support.apple.com/en-us/HT204023)
+[Ask Different：个人热点无法保持连接](https://apple.stackexchange.com/questions/332984/personal-hotspot-not-staying-connected)
+[Reddit：iPhone热点频繁断开连接解决方案](https://www.reddit.com/r/iphone/comments/170i24n/your_iphones_hotspot_keep_disconnecting_i_think_i/)
+[MacRumors：5G热点需保持屏幕常亮问题讨论](https://forums.macrumors.com/threads/ios-15-3-1-hotspot-on-5g-stops-unless-i-keep-screen-on.2336283/)
+[wikiHow：提升iPhone热点速度指南](https://www.wikihow.com/Make-Hotspot-Faster-iPhone)
 [BroadbandNow：热点速度缓慢原因解析](https://broadbandnow.com/guides/why-is-my-hotspot-so-slow)

@@ -38,13 +38,13 @@ Government caps (e.g., debt-to-income ratio at 50%) help prevent over-borrowing,
 
 In short, yes—it's been a grind for these earners, turning HK's "talent hub" status into a double-edged sword. Recent policy tweaks (like stamp duty cuts) might ease things by 2026, but for now, many are still "priced out" despite strong paychecks.
 
-[2025 Financial Analyst Salaries in Hong Kong SAR](https://www.morganmckinley.com/hk/salary-guide/data/financial-analyst/hong-kong-sar)  
-[Financial Analyst Salary in Hong Kong SAR (2025)](https://www.salaryexpert.com/salary/job/financial-analyst/hong-kong-sar)  
-[2025 Hong Kong IT and Technology Salary Guide](https://www.roberthalf.com/hk/en/insights/salary-guide/technology)  
-[Computer Engineer Salary in Hong Kong SAR (2025)](https://www.salaryexpert.com/salary/job/computer-engineer/hong-kong-sar)  
-[Hong Kong's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/hong-kong/price-history)  
-[Hong Kong remains world's least affordable housing market for 15th year](https://www.thestandard.com.hk/market/article/308955/Hong-Kong-remains-worlds-least-affordable-housing-market-for-15th-year-report)  
-[Hong Kong Interest Rate](https://tradingeconomics.com/hong-kong/interest-rate)  
-[Rates Update - The Hong Kong Mortgage Corporation Limited](https://www.hkmc.com.hk/eng/information_centre/rates_update.html)  
-[Tight squeeze for Hong Kong's young professionals](https://sg.finance.yahoo.com/news/tight-squeeze-hong-kongs-young-professionals-045112600.html)  
+[2025 Financial Analyst Salaries in Hong Kong SAR](https://www.morganmckinley.com/hk/salary-guide/data/financial-analyst/hong-kong-sar)
+[Financial Analyst Salary in Hong Kong SAR (2025)](https://www.salaryexpert.com/salary/job/financial-analyst/hong-kong-sar)
+[2025 Hong Kong IT and Technology Salary Guide](https://www.roberthalf.com/hk/en/insights/salary-guide/technology)
+[Computer Engineer Salary in Hong Kong SAR (2025)](https://www.salaryexpert.com/salary/job/computer-engineer/hong-kong-sar)
+[Hong Kong's Residential Property Market Analysis 2025](https://www.globalpropertyguide.com/asia/hong-kong/price-history)
+[Hong Kong remains world's least affordable housing market for 15th year](https://www.thestandard.com.hk/market/article/308955/Hong-Kong-remains-worlds-least-affordable-housing-market-for-15th-year-report)
+[Hong Kong Interest Rate](https://tradingeconomics.com/hong-kong/interest-rate)
+[Rates Update - The Hong Kong Mortgage Corporation Limited](https://www.hkmc.com.hk/eng/information_centre/rates_update.html)
+[Tight squeeze for Hong Kong's young professionals](https://sg.finance.yahoo.com/news/tight-squeeze-hong-kongs-young-professionals-045112600.html)
 [Hong Kong: Housing crisis sets new records](https://chinaworker.info/en/2019/03/25/20021/)

@@ -11,7 +11,7 @@ type: note
 
 Question: Why did I get this TypeError: terminated with ETIMEDOUT when running start_proxy in hermes-agent on Node.js v25.3.0?
 
-Answer: 
+Answer:
 
 This error is a network timeout issue that occurred inside Node.js's HTTP/HTTPS client (using the undici library) while your `hermes-agent` was trying to make an outgoing request.
 
@@ -46,5 +46,5 @@ If the error keeps happening, share:
 
 That will help narrow it down further.
 
-References:  
+References:
 - None (error analysis based on standard Node.js/undici behavior)

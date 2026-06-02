@@ -27,7 +27,7 @@ type: note
 
 这些技巧相互关联——例如接收反馈与迎接挑战相辅相成。关键在于保持连贯：建议每日投入10-15分钟。若出现反复，这正是绝佳的成长素材——请不带评判地进行分析。长此以往，这将改变你应对目标的方式，无论是学业还是技术追求。
 
-[什么是成长型思维及如何培养？](https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/)  
-[成长型思维与强化学习](https://teachingcommons.stanford.edu/teaching-guides/foundations-course-design/learning-activities/growth-mindset-and-enhanced-learning)  
-[成长型思维培养指南](https://www.tavahealth.com/resources/guide-growth-mindset)  
+[什么是成长型思维及如何培养？](https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/)
+[成长型思维与强化学习](https://teachingcommons.stanford.edu/teaching-guides/foundations-course-design/learning-activities/growth-mindset-and-enhanced-learning)
+[成长型思维培养指南](https://www.tavahealth.com/resources/guide-growth-mindset)
 [培养成长型思维：技巧指南](https://www.therapistaid.com/therapy-worksheet/growth-mindset-tips)

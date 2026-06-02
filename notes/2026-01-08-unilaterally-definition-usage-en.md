@@ -12,7 +12,7 @@ type: note
 
 Question: What does "unilaterally" mean?
 
-Answer: 
+Answer:
 
 **Unilaterally** is an adverb that means:
 

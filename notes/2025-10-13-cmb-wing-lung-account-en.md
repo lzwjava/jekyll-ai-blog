@@ -22,19 +22,19 @@ To open a **personal / individual account** (or joint) at CMB Wing Lung:
    You need a government-issued photo ID. Options include:
 
    * Valid passport or travel document.
-   * Exit-Entry Permit for Travelling to and from Hong Kong and Macau. 
-   * If you also hold a Mainland Resident Identity Card, that may be required in some cases. 
+   * Exit-Entry Permit for Travelling to and from Hong Kong and Macau.
+   * If you also hold a Mainland Resident Identity Card, that may be required in some cases.
 
 2. **Proof of residential address**
-   Typically a utility bill, bank statement, government correspondence issued within the last 3 months, bearing your name and matching the address on your identity docs. 
+   Typically a utility bill, bank statement, government correspondence issued within the last 3 months, bearing your name and matching the address on your identity docs.
 
 3. **Other information / supporting documents**
    The bank may ask for additional information like:
 
-   * Your occupation/employment/business details. 
-   * Purpose of opening the account. 
-   * Source of funds and/or wealth (i.e. where your initial deposit or incoming funds are from). 
-   * Expected level of account activity (how often you’ll use it, what types of transactions). 
+   * Your occupation/employment/business details.
+   * Purpose of opening the account.
+   * Source of funds and/or wealth (i.e. where your initial deposit or incoming funds are from).
+   * Expected level of account activity (how often you’ll use it, what types of transactions).
 
 4. **Minimum deposit?**
    The bank may require a minimum deposit when opening the account. The exact amount depends on the branch/products. ([cmbwinglungbank.com][1])
@@ -60,7 +60,7 @@ To open a **personal / individual account** (or joint) at CMB Wing Lung:
 ## Possible restrictions / things to watch out for
 
 * **Non-Hong Kong residents** (which includes those without HKID) may face extra restrictions or requirements. Some services (e.g. cheques, RMB services) have limitations. ([cmbwinglungbank.com][1])
-* **RMB (Renminbi) account** special rules apply if you are not a Hong Kong resident. For example, you may not be able to use RMB cheques in Mainland China; there may be caps on usage, etc. 
+* **RMB (Renminbi) account** special rules apply if you are not a Hong Kong resident. For example, you may not be able to use RMB cheques in Mainland China; there may be caps on usage, etc.
 * Sometimes banks require proof of financial standing or history (e.g. average balances, source of income). Without that, your application might be delayed or rejected.
 
 ---

@@ -56,6 +56,6 @@ Based on your profile as a self-taught full-stack developer with a competitive p
 
 These picks emphasize utility over gimmicks, leveraging WeChat's ecosystem for your Guangzhou-based, mobile-heavy life. Start with 微信读书 and Ctrip for immediate wins. If you dive deeper into any (e.g., customizing via dev tools), your programming skills will shine.
 
-[值得收藏的36个小程序，让你的生活更有情趣，工作更加高效！](https://cloud.tencent.com/developer/article/1196015)  
-[微信官方整理多款好用的微信工具：涉及AI效率、AI创意、AI学习](https://soft.china.com/article/1352018.html)  
+[值得收藏的36个小程序，让你的生活更有情趣，工作更加高效！](https://cloud.tencent.com/developer/article/1196015)
+[微信官方整理多款好用的微信工具：涉及AI效率、AI创意、AI学习](https://soft.china.com/article/1352018.html)
 [The 2025 Ultimate Guide to Using WeChat for Your China Tour](https://chinaexplorertour.com/2025/blog/the-2025-ultimate-guide-to-using-wechat-for-your-china-tour/)

@@ -12,7 +12,7 @@ type: note
 
 Question: "sinusoidal" 是什么意思？
 
-Answer: 
+Answer:
 
 "Sinusoidal" 是一个形容词，用来描述具有 **sine wave**（正弦波，或余弦波）特征的事物。
 

@@ -32,8 +32,8 @@ type: note
 
 卢伟冰被业界视为小米创始人雷军之后的"二号人物"，以其用户导向的凌厉风格广受认可。
 
-**参考资料：**  
-- [卢伟冰：小米全球成功背后的远见领袖](https://xiaomiforall.com/lu-weibing-2025/)  
-- [卢伟冰 | 管理层 - 投资者关系 | 小米公司](https://ir.mi.com/management/lu-weibing)  
-- [小米新二号人物：为何笑到最后的是卢伟冰？](https://news.futunn.com/en/post/22848724/xiaomi-s-new-no-2-character-why-did-lu-weibing)  
+**参考资料：**
+- [卢伟冰：小米全球成功背后的远见领袖](https://xiaomiforall.com/lu-weibing-2025/)
+- [卢伟冰 | 管理层 - 投资者关系 | 小米公司](https://ir.mi.com/management/lu-weibing)
+- [小米新二号人物：为何笑到最后的是卢伟冰？](https://news.futunn.com/en/post/22848724/xiaomi-s-new-no-2-character-why-did-lu-weibing)
 - [卢伟冰个人简介](https://www.bloomberg.com/profile/person/20918484)

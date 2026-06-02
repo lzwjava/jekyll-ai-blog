@@ -15,40 +15,40 @@ Based on the courses you listed—Computer Organization and Architecture, Comput
 Unfortunately, without direct access to the 2025 Guangdong self-study exam catalog for major 610201, I cannot provide precise course codes. However, I can estimate based on typical conventions and available patterns from national and provincial self-study exam systems. Below is an informed approximation:
 
 ### Estimated Course Codes for Major 610201 (Guangdong Self-Study Exam)
-1. **Computer Organization and Architecture**  
-   - Possible Code: 04734 (or similar, often used for computer architecture courses in self-study exams)  
+1. **Computer Organization and Architecture**
+   - Possible Code: 04734 (or similar, often used for computer architecture courses in self-study exams)
    - This is a core course in computer-related majors.
 
-2. **Computer Networks**  
-   - Possible Code: 04735 (or similar, common for network-related courses)  
+2. **Computer Networks**
+   - Possible Code: 04735 (or similar, common for network-related courses)
    - A staple in computer science and technology programs.
 
-3. **Basic Electronic Technology (III)**  
-   - Possible Code: 02197 (or a variant like 02198 for part III)  
+3. **Basic Electronic Technology (III)**
+   - Possible Code: 02197 (or a variant like 02198 for part III)
    - Electronics courses often fall under the 02XXX series; the "III" suggests a specific level or part.
 
-4. **Microcomputer and Interface Technology**  
-   - Possible Code: 04732 (or similar, tied to microcomputer systems)  
+4. **Microcomputer and Interface Technology**
+   - Possible Code: 04732 (or similar, tied to microcomputer systems)
    - Focuses on hardware interfacing, common in technical majors.
 
-5. **College Chinese**  
-   - Possible Code: 00529 (or 03706 for foundational Chinese courses)  
+5. **College Chinese**
+   - Possible Code: 00529 (or 03706 for foundational Chinese courses)
    - A general education requirement for most self-study majors.
 
-6. **Mao Zedong Thought and Theory of Socialism with Chinese Characteristics**  
-   - Possible Code: 03709  
+6. **Mao Zedong Thought and Theory of Socialism with Chinese Characteristics**
+   - Possible Code: 03709
    - This is a mandatory ideological course across many programs, updated to reflect current political theory.
 
-7. **Ideological and Moral Cultivation and Legal Basics**  
-   - Possible Code: 03708  
+7. **Ideological and Moral Cultivation and Legal Basics**
+   - Possible Code: 03708
    - Another compulsory course emphasizing ethics and law, standard in Chinese higher education.
 
-8. **Linear Algebra**  
-   - Possible Code: 02198 (or 04185 in some regions)  
+8. **Linear Algebra**
+   - Possible Code: 02198 (or 04185 in some regions)
    - A foundational math course often required for technical majors.
 
-9. **Introduction to Law**  
-   - Possible Code: 05677 (or similar, introductory law courses vary by program)  
+9. **Introduction to Law**
+   - Possible Code: 05677 (or similar, introductory law courses vary by program)
    - Likely a general education or elective course depending on the major.
 
 ### Notes:
@@ -71,15 +71,15 @@ Since I can search the web and X for more information, I could refine this furth
 ### Estimated Course Codes
 Below are the estimated course codes for the listed subjects under major 610201 in Guangdong, based on standard practices in Chinese self-study exams. Please note these are approximations, and for official confirmation, consult the Guangdong Education Examination Institute.
 
-- **Computer Organization and Architecture**: 04734  
-- **Computer Networks**: 04735  
-- **Basic Electronic Technology (III)**: 02197  
-- **Microcomputer and Interface Technology**: 04732  
-- **College Chinese**: 00529  
-- **Mao Zedong Thought and Theory of Socialism with Chinese Characteristics**: 03709  
-- **Ideological and Moral Cultivation and Legal Basics**: 03708  
-- **Linear Algebra**: 02198  
-- **Introduction to Law**: 05677  
+- **Computer Organization and Architecture**: 04734
+- **Computer Networks**: 04735
+- **Basic Electronic Technology (III)**: 02197
+- **Microcomputer and Interface Technology**: 04732
+- **College Chinese**: 00529
+- **Mao Zedong Thought and Theory of Socialism with Chinese Characteristics**: 03709
+- **Ideological and Moral Cultivation and Legal Basics**: 03708
+- **Linear Algebra**: 02198
+- **Introduction to Law**: 05677
 
 These codes reflect common patterns in the self-study exam system, where technical courses often fall under the 04XXX series, ideological courses under 03XXX, and foundational subjects like math and Chinese under 02XXX or 00XXX series. However, regional variations may exist, especially in Guangdong, which was noted to implement specific regulations for self-study exams in 2021.
 

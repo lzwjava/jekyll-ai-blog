@@ -22,7 +22,7 @@ Regarding APIs, FPS itself does not currently offer dedicated APIs for external 
 
 For detailed technical specs, banks must contact HKICL directly upon enrollment, as they are not publicly downloadable.
 
-[Faster Payment System (FPS) - HKMA](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/financial-market-infrastructure/faster-payment-system-fps/)  
-[Scheme Documentation - HKICL FPS](https://fps.hkicl.com.hk/eng/fps/about_fps/scheme_documentation.php)  
-[World Bank FPS Case Study: Hong Kong](https://fastpayments.worldbank.org/sites/default/files/2021-09/World_Bank_FPS_Hong_Kong_SAR_China_FPS_Case_Study.pdf)  
+[Faster Payment System (FPS) - HKMA](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/financial-market-infrastructure/faster-payment-system-fps/)
+[Scheme Documentation - HKICL FPS](https://fps.hkicl.com.hk/eng/fps/about_fps/scheme_documentation.php)
+[World Bank FPS Case Study: Hong Kong](https://fastpayments.worldbank.org/sites/default/files/2021-09/World_Bank_FPS_Hong_Kong_SAR_China_FPS_Case_Study.pdf)
 [Open API Framework for the Banking Sector - HKMA](https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/open-application-programming-interface-api-for-the-banking-sector/)

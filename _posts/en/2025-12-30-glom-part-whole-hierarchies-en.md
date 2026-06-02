@@ -31,8 +31,8 @@ Geoffrey Hinton gave a guest lecture in Stanford's CS25: Transformers United cou
 
 This talk was a special/guest lecture, not part of the regular instructor series, and was released on YouTube in August 2022 (recorded earlier). It reflects Hinton's ongoing thinking on improving neural networks beyond standard Transformers, tying into his broader views on AI representation and understanding.
 
-References:  
+References:
 
-- [Stanford CS25: Represent part-whole hierarchies in a neural network, Geoff Hinton (YouTube Video)](https://www.youtube.com/watch?v=CYaju6aCMoQ)  
-- [CS25 Course Website (mentions Hinton as a past speaker)](https://web.stanford.edu/class/cs25/)  
+- [Stanford CS25: Represent part-whole hierarchies in a neural network, Geoff Hinton (YouTube Video)](https://www.youtube.com/watch?v=CYaju6aCMoQ)
+- [CS25 Course Website (mentions Hinton as a past speaker)](https://web.stanford.edu/class/cs25/)
 - [Speaker Deck Summary of CS25 Lectures (includes Hinton's GLOM talk)](https://speakerdeck.com/sadahry/cs25-transformers-united-2785d644-be02-4be6-8812-e8d9c93790ae)

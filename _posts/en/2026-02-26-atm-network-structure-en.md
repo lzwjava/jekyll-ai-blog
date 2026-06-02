@@ -11,7 +11,7 @@ type: note
 
 Question: The ATM network environment consists of two parts: ATM end users and  .
 
-Answer: 
+Answer:
 
 The complete and correct statement is:
 

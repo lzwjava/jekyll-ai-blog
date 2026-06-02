@@ -11,7 +11,7 @@ type: note
 
 Question: What are the three essential elements of a computer network protocol?
 
-Answer: 
+Answer:
 
 The three essential elements of a computer network protocol are **Syntax**, **Semantics**, and **Timing** (also referred to as Synchronization).
 

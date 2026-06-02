@@ -15,7 +15,7 @@ type: note
 
 ### 时间估算
 
-当前 VPS (1vCPU)：**~10 小时** 对 61GB 进行 tokenize  
+当前 VPS (1vCPU)：**~10 小时** 对 61GB 进行 tokenize
 2 vCPU 使用 multiprocessing：**~5-6 小时**
 
 脚本使用 `mp.Pool`，workers 数量为 `cpu_count // 2`。2 个 CPU → 只有 **1 个 worker**（和现在一样）。加速来自于稍快的 CPU，而不是并行化。
@@ -29,7 +29,7 @@ type: note
 增加 +50GB 后：  总计 60GB
           ├── 61GB 原始文件  ← 需要 61GB
           └── 30GB bin 文件
-          
+
 结果：仍然不够（需要 91GB，只有 60GB）
 ```
 

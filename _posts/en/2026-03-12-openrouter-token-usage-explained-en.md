@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question:  
+Question:
 Is OpenRouter processing about 13 trillion tokens per **day or per week** recently, and how did usage grow so fast from about 5 trillion tokens in September? Also, what might token usage look like in the next two years?
 
 Answer:
@@ -17,13 +17,13 @@ Answer:
 ## 1. Is the **13 trillion tokens** figure per day or per week?
 The **13 trillion tokens** figure refers to **weekly token usage**, not daily.
 
-- In the **week ending February 9, 2026**, OpenRouter processed about **13 trillion tokens in a week**. citeturn0news12  
-- Earlier in **early January 2026**, it was about **6.4 trillion tokens per week**, meaning the volume roughly **doubled within a few weeks**. citeturn0news12  
+- In the **week ending February 9, 2026**, OpenRouter processed about **13 trillion tokens in a week**. citeturn0news12
+- Earlier in **early January 2026**, it was about **6.4 trillion tokens per week**, meaning the volume roughly **doubled within a few weeks**. citeturn0news12
 
 Other reports confirm similar scale:
 
-- Total weekly token consumption on OpenRouter reached **about 12.1 trillion tokens**, representing **~12.7× growth year-over-year**. citeturn0search3  
-- In **March 2025**, weekly usage was only **1.24 trillion tokens** for top models; by **February 2026**, it had risen to **~13.95 trillion tokens weekly**. citeturn0search5  
+- Total weekly token consumption on OpenRouter reached **about 12.1 trillion tokens**, representing **~12.7× growth year-over-year**. citeturn0search3
+- In **March 2025**, weekly usage was only **1.24 trillion tokens** for top models; by **February 2026**, it had risen to **~13.95 trillion tokens weekly**. citeturn0search5
 
 ### Approximate daily equivalent
 If the platform processes **13T tokens/week**:
@@ -50,7 +50,7 @@ The growth has been extremely rapid.
 | Jan 2026 | ~6.4T/week |
 | Feb 2026 | ~13T/week |
 
-Sources confirm this trajectory, including a jump from **~5T weekly in September 2025** to **over 13T in early 2026**. citeturn0search1turn0news12  
+Sources confirm this trajectory, including a jump from **~5T weekly in September 2025** to **over 13T in early 2026**. citeturn0search1turn0news12
 
 This means:
 
@@ -76,14 +76,14 @@ Now many systems run:
 AI agent → search → code → call APIs → think → retry → answer
 ```
 
-These workflows generate **many internal model calls**, multiplying token consumption. citeturn0search3  
+These workflows generate **many internal model calls**, multiplying token consumption. citeturn0search3
 
-Agent platforms such as autonomous coding tools and workflow automation systems are now major drivers. citeturn0news12  
+Agent platforms such as autonomous coding tools and workflow automation systems are now major drivers. citeturn0news12
 
 ---
 
 ## 2. Coding use cases dominate
-Programming tasks now consume **more than half of all tokens** on OpenRouter. citeturn0search7  
+Programming tasks now consume **more than half of all tokens** on OpenRouter. citeturn0search7
 
 Examples:
 
@@ -97,7 +97,7 @@ These workflows require **long contexts and repeated calls**, dramatically incre
 ---
 
 ## 3. Much cheaper models
-Some models are **10–20× cheaper** than frontier models. citeturn0search3  
+Some models are **10–20× cheaper** than frontier models. citeturn0search3
 
 Example pricing comparison:
 
@@ -118,7 +118,7 @@ OpenRouter sits behind many tools:
 - research assistants
 - prompt pipelines
 
-It aggregates **400+ models from 60+ providers** through one API. citeturn0search3  
+It aggregates **400+ models from 60+ providers** through one API. citeturn0search3
 
 That makes it a hub for **LLM infrastructure**, so usage grows with the entire ecosystem.
 
@@ -177,18 +177,18 @@ So total global LLM tokens are **far larger** than OpenRouter statistics.
 
 ✅ **Key takeaway**
 
-- The **13 trillion tokens number is weekly**, not daily.  
-- Daily equivalent is roughly **~1.8 trillion tokens/day**.  
-- Growth is driven mainly by **AI agents, coding automation, and cheaper models**.  
+- The **13 trillion tokens number is weekly**, not daily.
+- Daily equivalent is roughly **~1.8 trillion tokens/day**.
+- Growth is driven mainly by **AI agents, coding automation, and cheaper models**.
 - If trends continue, **100T+ tokens per week across platforms could happen within 2 years**.
 
 ---
 
-If you want, I can also show a **global estimate of total LLM tokens (OpenAI + Anthropic + Google + Chinese models)** — the real number is probably **10–20× larger than OpenRouter**, which is quite shocking.  
+If you want, I can also show a **global estimate of total LLM tokens (OpenAI + Anthropic + Google + Chinese models)** — the real number is probably **10–20× larger than OpenRouter**, which is quite shocking.
 
 References:
 
-- https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2  
-- https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter  
-- https://eu.36kr.com/en/p/3700980530851712  
+- https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2
+- https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter
+- https://eu.36kr.com/en/p/3700980530851712
 - https://gigazine.net/gsc_news/en/20251208-empirical-100-trillion-token-study

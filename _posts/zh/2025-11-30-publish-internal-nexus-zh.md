@@ -63,7 +63,7 @@ publishing {
     repositories {
         maven {
             name = "InternalNexus"
-            url = version.endsWith('SNAPSHOT') 
+            url = version.endsWith('SNAPSHOT')
                 ? "https://your-nexus.company.com/repository/maven-snapshots/"
                 : "https://your-nexus.company.com/repository/maven-releases/"
             credentials {

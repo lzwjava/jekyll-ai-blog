@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Larry Blair in networking? What is his life story?
 
-Answer: 
+Answer:
 
 Larry Blair is a prominent figure in the field of **computer networking**, recognized as a high-tech pioneer for his foundational contributions to Ethernet switching technology.
 
@@ -24,10 +24,10 @@ Earlier in his career, Blair worked at Eastman Kodak Company as a senior project
 
 Blair is described as a key marketer and strategist who played a significant role in promoting and establishing these networking innovations.
 
-References:  
+References:
 
-- [Kalpana, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Kalpana,_Inc.)  
-- [Larry Blair LinkedIn Profile](https://www.linkedin.com/in/blairventures/)  
-- [A Sort of Homecoming | Life in the Finger Lakes](https://www.lifeinthefingerlakes.com/a-sort-of-homecoming/)  
-- [Father of Ethernet Switching Strikes Again - Free Online Library](https://www.thefreelibrary.com/FATHER+OF+ETHERNET+SWITCHING+STRIKES+AGAIN.-a054488933)  
+- [Kalpana, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Kalpana,_Inc.)
+- [Larry Blair LinkedIn Profile](https://www.linkedin.com/in/blairventures/)
+- [A Sort of Homecoming | Life in the Finger Lakes](https://www.lifeinthefingerlakes.com/a-sort-of-homecoming/)
+- [Father of Ethernet Switching Strikes Again - Free Online Library](https://www.thefreelibrary.com/FATHER+OF+ETHERNET+SWITCHING+STRIKES+AGAIN.-a054488933)
 - [Ipsilon Networks, Inc. Blog Post](https://akapugs.blog/2021/04/10/ipsilon-networks-inc/)

@@ -25,7 +25,7 @@ ASIC 是 **Application-Specific Integrated Circuit** 的缩写。这些是针对
 
 ### ASIC 的主要类型（按定制程度分类）
 
-  
+
 | Type              | Customization level       | Development cost & time | Flexibility after production | Typical examples                          |
 |-------------------|----------------------------|--------------------------|------------------------------|--------------------------------------------|
 | Full-custom ASIC  | Every transistor designed by hand | Highest / longest       | None                         | High-end smartphone application processors (some parts) |
@@ -46,7 +46,7 @@ ASIC 是 **Application-Specific Integrated Circuit** 的缩写。这些是针对
 
 ### ASIC 与其他处理技术比较（快速对比 – 2026 现实）
 
-  
+
 | Feature                | CPU             | GPU               | FPGA             | ASIC              |
 |------------------------|-----------------|-------------------|------------------|-------------------|
 | Flexibility            | Very high       | High              | Medium–high      | Zero              |
@@ -56,7 +56,7 @@ ASIC 是 **Application-Specific Integrated Circuit** 的缩写。这些是针对
 | Development cost       | Very high       | Very high         | Medium           | Extremely high    |
 | Time to market         | Fastest         | Fast              | Medium           | Slowest           |
 
-简而言之：  
+简而言之：
 如果您需要**最大效率**，并且计划销售**数百万单位**完全相同功能的设备（挖矿、AI 推理、智能手机 SoC、5G 调制解调器等），最终会转向 ASIC。2026 年，几乎所有达到真正大规模并关注每操作焦耳数的应用最终都会变成 ASIC。
 
 **参考文献：**

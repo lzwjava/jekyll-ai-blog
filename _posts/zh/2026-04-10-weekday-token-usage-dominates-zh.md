@@ -36,8 +36,8 @@ type: note
 
 如果OpenRouter发布详细的每日/每小时细分数据（而不只是高层次的“AI现状报告”），我们或许能更精确地证实这一点——但目前公开数据指向，核心编码工作负载在工作日更为繁忙。
 
-参考：  
+参考：
 
-- https://openrouter.ai/state-of-ai（OpenRouter的2025年AI现状报告，包含100T token分析，显示编程的主导地位）  
-- https://arxiv.org/html/2601.10088v1（基于OpenRouter数据的实证研究）  
+- https://openrouter.ai/state-of-ai（OpenRouter的2025年AI现状报告，包含100T token分析，显示编程的主导地位）
+- https://arxiv.org/html/2601.10088v1（基于OpenRouter数据的实证研究）
 - X和Reddit上的各种讨论，指出某些流量段落在工作日有峰值而周末不活跃。

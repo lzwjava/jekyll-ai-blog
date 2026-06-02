@@ -31,7 +31,7 @@ This text is a company overview from Standard Chartered (often called "StanChart
 
 #### 4. **Purpose and Brand Promise**
    - **Key Quote**: "Our purpose, to drive commerce and prosperity through our unique diversity, together with our brand promise, to be here for good..."
-   - **What It Means**: 
+   - **What It Means**:
      - **Purpose**: Help businesses and economies grow by leveraging their global, diverse workforce (e.g., employees from 60+ countries).
      - **Brand Promise**: "Here for good" = committed long-term, ethically (not just "here for now" like some banks during crises).
    - **Why It Matters**: Ties into ESG (Environmental, Social, Governance) trends. They achieve this through "valued behaviours" (everyday actions), not just words.

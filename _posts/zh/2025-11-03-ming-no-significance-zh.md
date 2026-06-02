@@ -48,6 +48,6 @@ type: note
 
 这部约200页的著作影响深远，启发了史景迁等学者的微观史研究。若要理解明朝这样的超级大国为何衰落，本书实为必读之作。
 
-[《万历十五年》在Goodreads的页面](https://www.goodreads.com/book/show/139404.1587_A_Year_of_No_Significance)  
-[黄仁宇维基百科词条](https://en.wikipedia.org/wiki/Ray_Huang)  
+[《万历十五年》在Goodreads的页面](https://www.goodreads.com/book/show/139404.1587_A_Year_of_No_Significance)
+[黄仁宇维基百科词条](https://en.wikipedia.org/wiki/Ray_Huang)
 [《纽约书评》相关书评](https://www.nybooks.com/articles/1982/04/29/the-ming-dynasty-in-1587/)

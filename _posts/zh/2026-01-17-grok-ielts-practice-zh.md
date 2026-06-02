@@ -21,9 +21,9 @@ type: note
 1. 访问 https://grok.x.ai（或在 X app 中打开 Grok）
 2. 点击你的头像/图标 → 寻找 "Custom instructions" 或 "Customize Grok"（通常在 settings 或你的名字下方）
 3. 这里有两个主要的文本框：
-   - **What would you like Grok to know about you to provide better responses?**  
+   - **What would you like Grok to know about you to provide better responses?**
      → 在这里输入个人背景（考 IELTS 可选填）。
-   - **How would you like Grok to respond?**  
+   - **How would you like Grok to respond?**
      → 这是最重要的部分——在这里写下你的规则。
 
 4. 将下面的示例之一粘贴或修改后放入第二个框中，然后保存。
@@ -51,7 +51,7 @@ Whenever I ask for IELTS Writing Task 1 or Task 2 model answers, or Speaking Par
 ### 获得最佳效果的建议
 
 - 从 **选项 A** 开始——它很有挑战性但不会让人崩溃。
-- 设置好指令后，立即通过提问进行测试：  
+- 设置好指令后，立即通过提问进行测试：
   "Give me a band 9 Task 2 model essay on the topic: Some people believe that the best way to increase road safety is to increase the minimum legal age for driving cars or motorbikes."
 - 如果仍然觉得太简单，可以加入类似这样的短语："increase lexical and grammatical complexity even further" 或 "imitate The Economist / academic journals style"。
 - 如需临时覆盖指令：只需说 "ignore custom instructions for this question" 或 "use easy mode"。

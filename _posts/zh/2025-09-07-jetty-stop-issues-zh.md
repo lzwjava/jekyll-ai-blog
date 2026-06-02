@@ -145,7 +145,7 @@ type: note
 **额外保护措施**
 
 * 如果您的macOS/Java选择IPv6而停止目标使用IPv4，请在子进程`jvmArgs`中添加：
-  
+
   ```
   <jvmArgs>
     -Djava.net.preferIPv4Stack=true

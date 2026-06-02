@@ -1,4 +1,4 @@
-lzw@to:~/projects/greptimedb$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
+lzw@to:~/projects/greptimedb$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 info: downloading installer
 
 Welcome to Rust!
@@ -51,23 +51,23 @@ info: default host triple is x86_64-unknown-linux-gnu
 info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
 info: latest update on 2025-10-30, rust version 1.91.0 (f8297e351 2025-10-28)
 info: downloading component 'cargo'
- 10.2 MiB /  10.2 MiB (100 %)   3.0 MiB/s in  3s         
+ 10.2 MiB /  10.2 MiB (100 %)   3.0 MiB/s in  3s
 info: downloading component 'clippy'
-  4.4 MiB /   4.4 MiB (100 %)   3.8 MiB/s in  1s         
+  4.4 MiB /   4.4 MiB (100 %)   3.8 MiB/s in  1s
 info: downloading component 'rust-docs'
- 20.4 MiB /  20.4 MiB (100 %)   4.6 MiB/s in  5s         
+ 20.4 MiB /  20.4 MiB (100 %)   4.6 MiB/s in  5s
 info: downloading component 'rust-std'
- 27.9 MiB /  27.9 MiB (100 %)   5.0 MiB/s in  6s         
+ 27.9 MiB /  27.9 MiB (100 %)   5.0 MiB/s in  6s
 info: downloading component 'rustc'
- 74.5 MiB /  74.5 MiB (100 %)   3.9 MiB/s in 19s         
+ 74.5 MiB /  74.5 MiB (100 %)   3.9 MiB/s in 19s
 info: downloading component 'rustfmt'
 info: installing component 'cargo'
 info: installing component 'clippy'
 info: installing component 'rust-docs'
 info: installing component 'rust-std'
- 27.9 MiB /  27.9 MiB (100 %)  24.5 MiB/s in  1s         
+ 27.9 MiB /  27.9 MiB (100 %)  24.5 MiB/s in  1s
 info: installing component 'rustc'
- 74.5 MiB /  74.5 MiB (100 %)  25.9 MiB/s in  2s         
+ 74.5 MiB /  74.5 MiB (100 %)  25.9 MiB/s in  2s
 info: installing component 'rustfmt'
 info: default toolchain set to 'stable-x86_64-unknown-linux-gnu'
 

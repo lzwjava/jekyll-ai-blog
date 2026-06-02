@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about obstacles in life?
 
-Answer: 
+Answer:
 
 Here are several contrarian or unpopular perspectives on obstacles and challenges in life, drawn from various discussions and philosophical views. These challenge common narratives like "obstacles build character" or "overcoming them is always rewarding."
 
@@ -30,10 +30,10 @@ Here are several contrarian or unpopular perspectives on obstacles and challenge
 
 These ideas push against motivational clichés that glorify endless struggle, suggesting a more nuanced view: obstacles aren't always enemies to conquer but signals, teachers, or even necessities.
 
-References:  
+References:
 
-- https://lifecoach-usa.com/5-reasons-obstacles-are-good/  
-- https://www.reddit.com/r/unpopularopinion/comments/17fhq6r/working_hard_to_overcome_difficultychallenges/  
-- https://www.lifehack.org/900288/what-are-obstacles  
-- https://www.reddit.com/r/Retconned/comments/13u8wrv/life_is_just_too_hard_now_always_an_obstacle/  
+- https://lifecoach-usa.com/5-reasons-obstacles-are-good/
+- https://www.reddit.com/r/unpopularopinion/comments/17fhq6r/working_hard_to_overcome_difficultychallenges/
+- https://www.lifehack.org/900288/what-are-obstacles
+- https://www.reddit.com/r/Retconned/comments/13u8wrv/life_is_just_too_hard_now_always_an_obstacle/
 - https://www.harpertherapy.com/blog/everyone-experiences-obstacles

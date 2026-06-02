@@ -92,6 +92,6 @@ Assuming you're working on a Linux/Unix-like system (e.g., Ubuntu, CentOS) with 
 
 This setup gives you comprehensive visibility without external tools. Test in a VM first.
 
-[Linux ss Command Man Page](https://man7.org/linux/man-pages/man8/ss.8.html)  
-[Tcpdump Tutorial](https://www.tcpdump.org/manpages/tcpdump.1.html)  
+[Linux ss Command Man Page](https://man7.org/linux/man-pages/man8/ss.8.html)
+[Tcpdump Tutorial](https://www.tcpdump.org/manpages/tcpdump.1.html)
 [Apache Access Log Format](https://httpd.apache.org/docs/2.4/logs.html)

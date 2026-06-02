@@ -22,7 +22,7 @@ After updating, you might need to log in again by running `claude /login` (or so
 
 For more details on commands, you can run `claude --help` as you did, which should show options in the updated version.
 
-[CLI reference - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/cli-reference)  
-[How to Set Up and Use the Claude CLI Tool Like a Pro](https://medium.com/@riccardo.bernardi.advisor/unlocking-claude-pros-power-how-to-set-up-and-use-the-claude-cli-tool-like-a-pro-against-github-d29f8f682a03)  
-[GitHub - anthropics/claude-code](https://github.com/anthropics/claude-code)  
+[CLI reference - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
+[How to Set Up and Use the Claude CLI Tool Like a Pro](https://medium.com/@riccardo.bernardi.advisor/unlocking-claude-pros-power-how-to-set-up-and-use-the-claude-cli-tool-like-a-pro-against-github-d29f8f682a03)
+[GitHub - anthropics/claude-code](https://github.com/anthropics/claude-code)
 [Claude Code overview - Anthropic API](https://docs.anthropic.com/en/docs/claude-code/overview)

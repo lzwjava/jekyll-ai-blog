@@ -183,23 +183,23 @@ docker ps
 ---
 
 ### 已识别问题
-1. **缺少 `docker-buildx` 插件**  
-   错误：`fork/exec /Users/lzwjava/.docker/cli-plugins/docker-buildx: no such file or directory`  
+1. **缺少 `docker-buildx` 插件**
+   错误：`fork/exec /Users/lzwjava/.docker/cli-plugins/docker-buildx: no such file or directory`
    表明 Docker 尝试使用 `buildx` 插件（现代构建工具），但未正确安装或配置
 
-2. **旧版构建器弃用警告**  
-   警告：`DEPRECATED: The legacy builder is deprecated...`  
+2. **旧版构建器弃用警告**
+   警告：`DEPRECATED: The legacy builder is deprecated...`
    Docker 推荐切换到 BuildKit（`buildx`），但当前回退到已失败的旧版构建器
 
-3. **Docker 守护进程未运行**  
-   错误：`Cannot connect to the Docker daemon at unix:///Users/lzwjava/.docker/run/docker.sock. Is the docker daemon running?`  
+3. **Docker 守护进程未运行**
+   错误：`Cannot connect to the Docker daemon at unix:///Users/lzwjava/.docker/run/docker.sock. Is the docker daemon running?`
    Docker 守护进程（管理容器的后台服务）未在系统中运行
 
-4. **文件访问错误**  
-   错误：`Can't add file ... to tar: io: read/write on closed pipe` 和 `Can't close tar writer...`  
+4. **文件访问错误**
+   错误：`Can't add file ... to tar: io: read/write on closed pipe` 和 `Can't close tar writer...`
    由于守护进程未运行导致构建失败引发的次要问题
 
-5. **检测到代理设置**  
+5. **检测到代理设置**
    系统正在使用代理（`HTTP_PROXY` 和 `HTTPS_PROXY`），若未正确配置可能影响 Docker 运行
 
 ---

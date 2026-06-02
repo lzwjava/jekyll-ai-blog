@@ -31,7 +31,7 @@ type: note
 
 1. **创建 Google Play 开发者账户**：
    - 前往 [Google Play Console](https://play.google.com/console) 并注册。你需要一个 Google 账户和一次性费用 25 美元。
-   
+
 2. **准备发布版本的应用**：
    - **构建发布版本**：在 Android Studio 中，生成签名的 APK 或应用包（Google 推荐使用 AAB）。使用“Build > Generate Signed Bundle/APK”选项。
    - **应用签名**：你必须使用 keystore 对应用进行签名。你可以：

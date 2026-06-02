@@ -11,7 +11,7 @@ type: note
 
 Question: What are the current usage rules and limits for OpenAI's ChatGPT free tier?
 
-Answer: 
+Answer:
 
 As of April 2026, OpenAI’s usage policies for ChatGPT generally follow a tiered structure based on the model version and user subscription status. While specific numerical limits (such as exact message counts per hour) can fluctuate dynamically based on server load and demand, the general framework is as follows:
 

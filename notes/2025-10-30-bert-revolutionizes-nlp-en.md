@@ -16,7 +16,7 @@ BERT (Bidirectional Encoder Representations from Transformers) is a transformer-
 ### Key Innovations
 BERT's breakthroughs lie in its pre-training strategy, architecture, and fine-tuning approach. Here's a breakdown:
 
-- **Bidirectional Pre-Training**: 
+- **Bidirectional Pre-Training**:
   Unlike earlier models like GPT (left-to-right) or ELMo (shallow bidirectional), BERT reads text in both directions simultaneously. This allows it to capture richer contextual representations by considering the full context around each word, not just one direction.
 
 - **Masked Language Modeling (MLM)**:
@@ -33,5 +33,5 @@ BERT's breakthroughs lie in its pre-training strategy, architecture, and fine-tu
 
 These innovations shifted NLP from task-specific models to general-purpose pre-trained embeddings, paving the way for models like RoBERTa and T5. BERT's impact is evident in its adoption across industries for everything from search engines to chatbots.
 
-[BERT Paper](https://arxiv.org/abs/1810.04805)  
+[BERT Paper](https://arxiv.org/abs/1810.04805)
 [BERT GitHub Repository](https://github.com/google-research/bert)

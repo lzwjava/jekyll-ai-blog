@@ -12,7 +12,7 @@ type: note
 
 Question: 近年来中国有哪些重大的公司失败或倒闭案例？
 
-Answer: 
+Answer:
 
 在之前的案例基础上，以下是 2021–2025 年期间中国值得关注的更多公司倒闭和陷入困境的案例，主要集中在 Property、Electric Vehicle (EV)、Shadow Banking 等行业。持续的房地产危机仍是主要驱动因素，导致数千家小型开发商破产，而产能过剩和融资枯竭则打击了 EV 和 Tech Startups。
 
@@ -41,11 +41,11 @@ Answer:
 
 这些失败案例凸显了中国从债务驱动型增长的转型，破产数量不断上升（法院在 2023–2024 年处理了约 29,000–30,000 起案件），但通常采用管理式重组以尽量减少连锁反应。
 
-References:  
+References:
 
-- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_(2020%E2%80%93present))  
-- [China’s manufacturers are going broke | The Economist](https://www.economist.com/business/2024/08/08/chinas-manufacturers-are-going-broke)  
-- [Shadow bank Zhongzhi files for bankruptcy | CNBC](https://www.cnbc.com/2024/01/08/zhongzhi-latest-casualty-of-chinas-deepening-debt-and-property-crisis-.html)  
-- [400 Chinese EV companies ceased operations between 2018-2025 | EVBoosters](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)  
-- [China Vanke Gets Temporary Lifeline | The New York Times](https://www.nytimes.com/2025/12/22/business/china-vanke-real-estate-default.html)  
+- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_(2020%E2%80%93present))
+- [China’s manufacturers are going broke | The Economist](https://www.economist.com/business/2024/08/08/chinas-manufacturers-are-going-broke)
+- [Shadow bank Zhongzhi files for bankruptcy | CNBC](https://www.cnbc.com/2024/01/08/zhongzhi-latest-casualty-of-chinas-deepening-debt-and-property-crisis-.html)
+- [400 Chinese EV companies ceased operations between 2018-2025 | EVBoosters](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)
+- [China Vanke Gets Temporary Lifeline | The New York Times](https://www.nytimes.com/2025/12/22/business/china-vanke-real-estate-default.html)
 - [China’s murky bankruptcies expose hazards | Reuters](https://www.reuters.com/world/china/chinas-murky-bankruptcies-expose-hazards-foreign-investors-2025-04-15/)

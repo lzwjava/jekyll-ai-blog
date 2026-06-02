@@ -51,7 +51,7 @@ Finally, when you have found an opinion which you think is true, try to find the
 
 这些规则促进智力谦逊和理性探究。
 
-**参考文献：**  
+**参考文献：**
 
 - [山东自考04729《大学语文》复习资料：《如何避免愚蠢的见识》](https://www.sdzk.co/biji/2018/0903/10845.html)
 - [自考04729《大学语文》课程讲义：《如何避免愚蠢的见识》](http://www.fjzikao.net/biji/2015/0928/6887.html)

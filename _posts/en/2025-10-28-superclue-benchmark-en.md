@@ -24,6 +24,6 @@ SuperCLUE is a comprehensive benchmark suite designed to evaluate Chinese large 
 
 The benchmark is open-source and actively maintained, with evaluations often shared via arXiv papers and GitHub.
 
-[SuperCLUE: A Comprehensive Chinese Large Language Model Benchmark](https://arxiv.org/abs/2307.15020)  
-[SuperCLUE GitHub Repository](https://github.com/CLUEbenchmark/SuperCLUE)  
+[SuperCLUE: A Comprehensive Chinese Large Language Model Benchmark](https://arxiv.org/abs/2307.15020)
+[SuperCLUE GitHub Repository](https://github.com/CLUEbenchmark/SuperCLUE)
 [ChinAI: SuperCLUE Benchmarks —2025 Midyear Check-in](https://chinai.substack.com/p/chinai-324-superclue-large-model)

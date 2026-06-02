@@ -113,8 +113,8 @@ git config --global credential.helper
 
 ## **4. 存储和管理凭据**
 GCM 将凭据安全地存储在操作系统的凭据存储中：
-- **Windows**：Windows 凭据管理器  
-- **macOS**：macOS 钥匙串  
+- **Windows**：Windows 凭据管理器
+- **macOS**：macOS 钥匙串
 - **Linux**：GPG 加密文件 (`~/.git-credentials` 或 `~/.gitconfig`)
 
 手动添加凭据：

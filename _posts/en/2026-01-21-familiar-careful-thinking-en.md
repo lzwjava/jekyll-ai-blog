@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Zhu Xi's "Shu Du Jing Si" (熟读精思).
 
-Answer: 
+Answer:
 
 **Introduction to Zhu Xi's "熟读精思" (Shu Du Jing Si)**
 
@@ -28,7 +28,7 @@ Only when both are combined can one truly "obtain something" (有得) from the t
 
 ### Key Principles from Zhu Xi's Own Words
 
-> 大抵观书，先须熟读，使其言皆若出于吾之口；继以精思，使其意皆若出于吾之心，然后可以有得尔。  
+> 大抵观书，先须熟读，使其言皆若出于吾之口；继以精思，使其意皆若出于吾之心，然后可以有得尔。
 > (Generally speaking, when reading books, first one must read熟熟 until the words seem to come from one's own mouth; then follow with refined thinking until the meaning seems to come from one's own heart/mind. Only then can one gain something.)
 
 He also stressed the famous **"Three Arrivals" (三到)** when reading:
@@ -55,7 +55,7 @@ Zhu Xi's method counters superficial skimming or "extensive but shallow reading"
 
 Even today, "熟读精思" remains a widely taught principle in Chinese language and classical studies, reminding learners to combine **memorization** with **critical reflection**.
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E7%86%9F%E8%AF%BB%E7%B2%BE%E6%80%9D/4602104](https://baike.baidu.com/item/%E7%86%9F%E8%AF%BB%E7%B2%BE%E6%80%9D/4602104)
 - [https://www.sohu.com/a/201078689_228930](https://www.sohu.com/a/201078689_228930)

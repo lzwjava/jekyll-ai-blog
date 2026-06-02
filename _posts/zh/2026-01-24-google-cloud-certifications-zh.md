@@ -12,7 +12,7 @@ type: note
 
 Question: What certificates can we get in Google Cloud?
 
-Answer: 
+Answer:
 
 Google Cloud 提供了一系列的 **certifications**，分为三个主要级别：Foundational、Associate 和 Professional。这些认证验证了在使用 Google Cloud 产品和服务方面不同深度的知识和技能。
 
@@ -45,6 +45,6 @@ Google Cloud 认证的有效期为 **2–3 年**，具体取决于级别（Found
 
 有关最新、最完整的列表（包括 2025-2026 年新增的任何认证），请直接查看官方页面。
 
-References:  
-- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification)  
+References:
+- [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification)
 - [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (official Google Cloud certifications page)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the meaning of life?
 
-Answer: 
+Answer:
 
 The question "What is the meaning of life?" has puzzled humanity for centuries, with no single, universally agreed-upon answer. Perspectives vary widely across philosophy, religion, science, and culture.
 
@@ -34,9 +34,9 @@ The question "What is the meaning of life?" has puzzled humanity for centuries, 
 
 Ultimately, many thinkers conclude that meaning is subjective and personal: It's what you make of your experiences, relationships, pursuits, and impact. Rather than a fixed truth "out there," it's often found in living fully, connecting with others, and aligning actions with your values.
 
-References:  
+References:
 
-- [Meaning of life - Wikipedia](https://en.wikipedia.org/wiki/Meaning_of_life)  
-- [The Meaning of Life (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/life-meaning/)  
-- [Phrases from The Hitchhiker's Guide to the Galaxy - Wikipedia](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy)  
+- [Meaning of life - Wikipedia](https://en.wikipedia.org/wiki/Meaning_of_life)
+- [The Meaning of Life (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/life-meaning/)
+- [Phrases from The Hitchhiker's Guide to the Galaxy - Wikipedia](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy)
 - [What Is the Meaning of Life? | Psychology Today](https://www.psychologytoday.com/us/blog/hide-and-seek/201803/what-is-the-meaning-of-life)

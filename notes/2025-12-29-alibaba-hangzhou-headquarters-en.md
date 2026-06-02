@@ -12,7 +12,7 @@ type: note
 
 Question: Alibaba's headquarters in Hangzhou
 
-Answer: 
+Answer:
 
 Alibaba Group's **global headquarters** is located in **Hangzhou**, Zhejiang Province, China. As of 2025, the primary address for the principal executive offices is **969 West Wen Yi Road, Yuhang District, Hangzhou, Zhejiang, 311121**.
 
@@ -24,7 +24,7 @@ This corresponds to the **Xixi Campus** (also known as Alibaba Xixi Park or Taob
 
 Alibaba remains deeply rooted in Hangzhou, where it was founded in 1999, and this location continues to be its main operational and executive base.
 
-References:  
+References:
 
 - [Alibaba Group Official - Corporate Information](https://www.alibabagroup.com/en-US/faqs-corporate-information)
 - [Alibaba Opens New Global Headquarters (2024)](https://www.scmp.com/tech/big-tech/article/3262246/alibaba-opens-new-global-headquarters-hangzhou-china-annual-family-day)

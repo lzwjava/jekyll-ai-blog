@@ -98,7 +98,7 @@ Refine for consistency. Goal: CF 2000+ (top 10% Div. 2); ICPC regional gold (top
 - **Tracking Progress:** CF rating graph; log solved ratings. If plateaued, grind 20% harder problems.
 - **ICPC-Specific:** Register via icpc.global (team of 3, coach). Prelims on Codedrills; regionals onsite. Practice team comms (e.g., "I have partial on #3").
 - **Common Pitfalls:** Skipping upsolves, ignoring math/geometry, poor debugging (use prints, not just IDE).
-- **Books/Resources:** 
+- **Books/Resources:**
   - "Competitive Programming" by Halim (algorithms bible).
   - USACO Guide (free, topic-based).
   - CP-Algorithms (quick refs).

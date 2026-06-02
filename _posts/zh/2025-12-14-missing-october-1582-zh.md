@@ -29,7 +29,7 @@ Julian calendar 由尤利乌斯·凯撒于公元前45年引入，它稍微高估
 
 Apple的Calendar app精确地模拟了这一历史过渡，因此当你回溯到1582年10月时，它会从4日跳到15日——正如实际发生的那样。
 
-参考资料:  
+参考资料:
 
 - [https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar](https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar)
 - [https://en.wikipedia.org/wiki/Gregorian_calendar](https://en.wikipedia.org/wiki/Gregorian_calendar)

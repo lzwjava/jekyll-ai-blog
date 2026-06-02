@@ -21,8 +21,8 @@ type: note
 - 了解考试格式：
   - **Listening**：4 个部分，40 道题，约 30 分钟 + 10 分钟誊写时间（纸笔模式）
   - **Reading**：3 篇文章，40 道题，60 分钟（Academic = 更多学术文章；GT = 日常 + 工作话题）
-  - **Writing**：60 分钟  
-    - Task 1：Academic = 描述图表（约 150 词）；GT = 写一封信  
+  - **Writing**：60 分钟
+    - Task 1：Academic = 描述图表（约 150 词）；GT = 写一封信
     - Task 2：大作文，两者均为议论文（约 250 词）
   - **Speaking**：11–14 分钟面对面或视频通话（3 个部分）
 - 在 ielts.org 上阅读官方 band descriptors（公开的 6.0–8.0 评分标准），确切了解考官的要求。

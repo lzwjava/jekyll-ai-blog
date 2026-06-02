@@ -31,11 +31,11 @@ import numpy as np
 def call_mistral_embeddings_api(texts, model="mistral-embed"):
     """
     Call the Mistral AI embeddings API to generate embeddings for a list of texts.
-    
+
     Args:
         texts (list): List of strings to embed.
         model (str): The embedding model to use (default: "mistral-embed").
-    
+
     Returns:
         list: List of embedding vectors, or None if the request fails.
     """
@@ -43,7 +43,7 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
     if not api_key:
         print("Error: MISTRAL_API_KEY environment variable not set.")
         return None
-    
+
     url = "https://api.mistral.ai/v1/embeddings"
     headers = {
         "Content-Type": "application/json",
@@ -54,7 +54,7 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
         "model": model,
         "input": texts
     }
-    
+
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
@@ -75,11 +75,11 @@ def call_mistral_embeddings_api(texts, model="mistral-embed"):
 def calculate_similarity(emb1, emb2):
     """
     Calculate the similarity between two embeddings using dot product.
-    
+
     Args:
         emb1 (list): First embedding vector.
         emb2 (list): Second embedding vector.
-    
+
     Returns:
         float: Similarity score (dot product, equivalent to cosine similarity for normalized vectors).
     """
@@ -92,18 +92,18 @@ if __name__ == "__main__":
         "Python is a great programming language.",
         "The weather is sunny today."
     ]
-    
+
     # Generate embeddings
     embeddings = call_mistral_embeddings_api(texts)
     if embeddings:
         # Print embedding dimension
         print(f"Embedding dimension: {len(embeddings[0])}")
-        
+
         # Calculate pairwise similarities
         sim_12 = calculate_similarity(embeddings[0], embeddings[1])
         sim_13 = calculate_similarity(embeddings[0], embeddings[2])
         sim_23 = calculate_similarity(embeddings[1], embeddings[2])
-        
+
         # Display results
         print(f"\nSimilarity Results:")
         print(f"Text 1: '{texts[0]}'")

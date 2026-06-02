@@ -12,7 +12,7 @@ type: note
 
 Question: What is the content of this document?
 
-Answer: 
+Answer:
 
 This document is the official **Guangdong University of Foreign Studies (GDUFS) 2025 Second Half-Year Practical Assessment Registration Notice for Social Candidates** (self-examination/practice link assessment, exam batch 202506), issued on June 9, 2025.
 
@@ -26,10 +26,10 @@ This document is the official **Guangdong University of Foreign Studies (GDUFS) 
   - June 11, 2025 (10:00) – June 18, 2025 (12:00)
 
 - **Payment period**:
-  - June 19, 2025 (10:00) – June 23, 2025 (10:00)  
+  - June 19, 2025 (10:00) – June 23, 2025 (10:00)
     (No payment after deadline = automatic withdrawal, no refund for wrong/multiple registrations)
 
-- **Exam dates**: November 1–2, 2025  
+- **Exam dates**: November 1–2, 2025
 - **Exam venue**: Guangdong University of Foreign Studies, Baiyunshan Campus (No. 2 Baiyun Avenue North, Guangzhou)
 
 - **Fees**:

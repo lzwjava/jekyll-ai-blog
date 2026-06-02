@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major reports from Muddy Waters Research?
 
-Answer: 
+Answer:
 
 Muddy Waters Research 由 Carson Block 创立，是一家著名的激进派 short-selling 机构。该公司以发布详尽的 due diligence 报告而闻名，这些报告通常指控上市公司存在欺诈、会计问题或误导性陈述，往往导致相关股价大幅下跌。
 
@@ -34,10 +34,10 @@ Muddy Waters Research 由 Carson Block 创立，是一家著名的激进派 shor
 
 这些报告通常结合了实地调查、数据分析和 forensic accounting。该公司专注于揭露财务不透明的企业，历史上曾针对多家中概股公司，但目前正日益扩展至全球范围。
 
-References:  
+References:
 
-- [Muddy Waters Research Official Website](https://muddywatersresearch.com/)  
-- [Wikipedia: Muddy Waters Research](https://en.wikipedia.org/wiki/Muddy_Waters_Research)  
-- [AppLovin Report](https://muddywatersresearch.com/research/2025/mw-short-app/)  
-- [FTAI Report](https://muddywatersresearch.com/research/2025/mw-short-01152025/)  
+- [Muddy Waters Research Official Website](https://muddywatersresearch.com/)
+- [Wikipedia: Muddy Waters Research](https://en.wikipedia.org/wiki/Muddy_Waters_Research)
+- [AppLovin Report](https://muddywatersresearch.com/research/2025/mw-short-app/)
+- [FTAI Report](https://muddywatersresearch.com/research/2025/mw-short-01152025/)
 - [e.l.f. Beauty Report](https://muddywatersresearch.com/research/elf/mw-is-short-elf/)

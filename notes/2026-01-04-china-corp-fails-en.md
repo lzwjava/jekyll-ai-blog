@@ -12,7 +12,7 @@ type: note
 
 Question: What are more major company failures or collapses in China in recent years?
 
-Answer: 
+Answer:
 
 Building on the previous examples, here are additional notable company collapses and distress cases in China from 2021–2025, primarily in the property, electric vehicle (EV), shadow banking, and other sectors. The ongoing property crisis remains the dominant driver, with thousands of smaller developers failing, while overcapacity and funding droughts hit EVs and tech startups.
 
@@ -37,11 +37,11 @@ Building on the previous examples, here are additional notable company collapses
 
 These failures underscore China's shift from debt-fueled growth, with rising bankruptcies (courts handled ~29,000–30,000 cases in 2023–2024) but often managed restructurings to minimize contagion.
 
-References:  
+References:
 
-- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_(2020%E2%80%93present))  
-- [China’s manufacturers are going broke | The Economist](https://www.economist.com/business/2024/08/08/chinas-manufacturers-are-going-broke)  
-- [Shadow bank Zhongzhi files for bankruptcy | CNBC](https://www.cnbc.com/2024/01/08/zhongzhi-latest-casualty-of-chinas-deepening-debt-and-property-crisis-.html)  
-- [400 Chinese EV companies ceased operations between 2018-2025 | EVBoosters](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)  
-- [China Vanke Gets Temporary Lifeline | The New York Times](https://www.nytimes.com/2025/12/22/business/china-vanke-real-estate-default.html)  
+- [Chinese property sector crisis (2020–present) - Wikipedia](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_(2020%E2%80%93present))
+- [China’s manufacturers are going broke | The Economist](https://www.economist.com/business/2024/08/08/chinas-manufacturers-are-going-broke)
+- [Shadow bank Zhongzhi files for bankruptcy | CNBC](https://www.cnbc.com/2024/01/08/zhongzhi-latest-casualty-of-chinas-deepening-debt-and-property-crisis-.html)
+- [400 Chinese EV companies ceased operations between 2018-2025 | EVBoosters](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)
+- [China Vanke Gets Temporary Lifeline | The New York Times](https://www.nytimes.com/2025/12/22/business/china-vanke-real-estate-default.html)
 - [China’s murky bankruptcies expose hazards | Reuters](https://www.reuters.com/world/china/chinas-murky-bankruptcies-expose-hazards-foreign-investors-2025-04-15/)

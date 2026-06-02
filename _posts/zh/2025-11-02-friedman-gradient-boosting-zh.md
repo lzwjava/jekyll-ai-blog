@@ -45,9 +45,9 @@ type: note
 
 截至2025年，85岁的弗里德曼仍作为荣休教授与斯坦福大学统计系保持联系，通过他的遗产和偶尔的工作持续影响该领域。他的斯坦福个人资料将他列为机器学习的活跃研究者，最近的更新（例如，美国艺术与科学院，2025年9月）强调了他持续获得的认可。没有完全退休的迹象——鉴于他的历史，他可能偶尔进行咨询或指导。他居住在湾区，忠于他的加州根源。
 
-**参考文献**  
-- [杰罗姆·H·弗里德曼 - 维基百科](https://en.wikipedia.org/wiki/Jerome_H._Friedman)  
-- [杰罗姆·H·弗里德曼 | 斯坦福大学统计系](https://statistics.stanford.edu/people/jerome-h-friedman)  
-- [与杰里·弗里德曼的对话（arXiv PDF）](https://arxiv.org/pdf/1507.08502)  
-- [简历 - 杰罗姆·H·弗里德曼（PDF）](https://jerryfriedman.su.domains/ftp/vita.pdf)  
+**参考文献**
+- [杰罗姆·H·弗里德曼 - 维基百科](https://en.wikipedia.org/wiki/Jerome_H._Friedman)
+- [杰罗姆·H·弗里德曼 | 斯坦福大学统计系](https://statistics.stanford.edu/people/jerome-h-friedman)
+- [与杰里·弗里德曼的对话（arXiv PDF）](https://arxiv.org/pdf/1507.08502)
+- [简历 - 杰罗姆·H·弗里德曼（PDF）](https://jerryfriedman.su.domains/ftp/vita.pdf)
 - [杰罗姆·H·弗里德曼 | 美国艺术与科学院](https://www.amacad.org/person/jerome-h-friedman)

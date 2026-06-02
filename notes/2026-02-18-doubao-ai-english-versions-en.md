@@ -11,7 +11,7 @@ type: note
 
 Question: Does Doubao AI by ByteDance have an English version?
 
-Answer: 
+Answer:
 
 Yes, Doubao AI by ByteDance does have English support, but with important distinctions between its domestic and international versions:
 

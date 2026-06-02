@@ -26,6 +26,6 @@ Runtime permissions change this by requiring the app to ask the user for permiss
 * **Granular Control:** The user can grant or deny specific permissions individually. For instance, they might allow an app to use the **Camera** but deny access to their **Contacts** or **GPS** location.
 * **Revocation Anytime:** Users can go into the device's settings and **revoke** a previously granted permission at any time, even while the app is installed. The app must then handle the loss of this permission gracefully.
 
-This mechanism ensures that access to sensitive resources—like the **Camera** for taking photos, the **GPS** for location tracking, or the **Microphone** for voice recording—is based on the user's explicit and current approval. 
+This mechanism ensures that access to sensitive resources—like the **Camera** for taking photos, the **GPS** for location tracking, or the **Microphone** for voice recording—is based on the user's explicit and current approval.
 
 [Image of a mobile app requesting location permission]

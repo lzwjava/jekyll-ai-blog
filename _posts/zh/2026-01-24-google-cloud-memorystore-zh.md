@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Memorystore in Google Cloud Platform (GCP)?
 
-Answer: 
+Answer:
 
 Memorystore 是 **Google Cloud 的全托管 in-memory data store 服务**。它提供与流行的开源 in-memory 引擎兼容的实现，让你无需亲自管理服务器、打补丁、备份或设置高可用性（high-availability）即可使用它们。
 
@@ -69,7 +69,7 @@ Memorystore 是 **Google Cloud 的全托管 in-memory data store 服务**。它�
 
 总结：Memorystore 让你在 Google Cloud 上以几乎为零的运维开销获得生产级的 Redis 兼容（或 Memcached）性能。在当今的大多数新项目中，你应该在 **Memorystore for Valkey**（面向未来、开放）或 **Memorystore for Redis Cluster**（如果你需要 Redis 7.2 之后新增的特性或已有 Redis 7.4+ 的依赖）之间做出选择。
 
-References:  
+References:
 
 - [Memorystore overview](https://cloud.google.com/memorystore)
 - [Memorystore for Redis overview](https://cloud.google.com/memorystore/docs/redis/memorystore-for-redis-overview)

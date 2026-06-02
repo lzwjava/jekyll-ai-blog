@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the play 《雷雨》 (Thunderstorm) by Cao Yu, in the form of an essay-like overview.
 
-Answer: 
+Answer:
 
 **Introduction to Thunderstorm (雷雨) by Cao Yu**
 
@@ -40,7 +40,7 @@ Answer:
 
 《雷雨》帮助“话剧”在中国树立了严肃文学和戏剧形式的地位，使其从传统戏曲转向现代现实主义。它对人类普遍弱点——贪婪、欲望、罪恶感以及历史负担——的探讨，结合尖锐的社会批判，确保了其在创作近一个世纪后依然具有持久的生命力。
 
-References:  
+References:
 
 - [Thunderstorm (play) - Wikipedia](https://en.wikipedia.org/wiki/Thunderstorm_(play))
 - [Cao Yu - Wikipedia](https://en.wikipedia.org/wiki/Cao_Yu)

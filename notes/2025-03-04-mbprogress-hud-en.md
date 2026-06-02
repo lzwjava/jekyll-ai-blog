@@ -63,11 +63,11 @@ end
   class ViewController: UIViewController {
       override func viewDidLoad() {
           super.viewDidLoad()
-          
+
           // Show a simple HUD with a loading indicator
           let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
           hud.label.text = "Loading..."
-          
+
           // Hide it after some time (e.g., 2 seconds)
           DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
               hud.hide(animated: true)
@@ -86,11 +86,11 @@ end
   @implementation ViewController
   - (void)viewDidLoad {
       [super viewDidLoad];
-      
+
       // Show a simple HUD with a loading indicator
       MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
       hud.label.text = @"Loading...";
-      
+
       // Hide it after some time (e.g., 2 seconds)
       dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
           [hud hideAnimated:YES];

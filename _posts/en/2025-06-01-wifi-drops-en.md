@@ -16,20 +16,20 @@ Wi-Fi disconnections on Ubuntu while wired connections remain stable can be caus
 Your MSI B760M Mortar WiFi motherboard likely uses an **Intel Wi-Fi 6E AX211/AX210** card. While Intel drivers are generally well-supported in Linux, issues can still arise.
 
 #### **Steps:**
-- **Identify your Wi-Fi chipset:**  
-  Run in terminal:  
+- **Identify your Wi-Fi chipset:**
+  Run in terminal:
   ```bash
   lspci -knn | grep -iA3 net
   ```
   Look for the Wi-Fi adapter (likely `Intel Corporation Device [8086:...]`).
 
-- **Check if the correct driver is loaded:**  
+- **Check if the correct driver is loaded:**
   ```bash
   lsmod | grep iwlwifi
   ```
   If nothing appears, the driver isn’t loaded.
 
-- **Install/Update drivers:**  
+- **Install/Update drivers:**
   Intel Wi-Fi drivers (`iwlwifi`) are included in the Linux kernel, but you may need firmware updates:
   ```bash
   sudo apt update && sudo apt install --reinstall linux-firmware
@@ -41,7 +41,7 @@ Your MSI B760M Mortar WiFi motherboard likely uses an **Intel Wi-Fi 6E AX211/AX2
 Linux sometimes aggressively powers down the Wi-Fi card to save energy, causing drops.
 
 #### **Steps:**
-- Temporarily disable power saving:  
+- Temporarily disable power saving:
   ```bash
   sudo sed -i 's/wifi.powersave = 3/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
   ```
@@ -51,7 +51,7 @@ Linux sometimes aggressively powers down the Wi-Fi card to save energy, causing 
   ```
   (Replace `wlan0` with your interface name from `ip a`.)
 
-- **Apply changes:**  
+- **Apply changes:**
   ```bash
   sudo systemctl restart NetworkManager
   ```
@@ -97,7 +97,7 @@ sudo apt install linux-image-generic-hwe-22.04
 ---
 
 ### **6. Disable Hardware Encryption (if applicable)**
-Some Intel Wi-Fi cards have issues with hardware encryption.  
+Some Intel Wi-Fi cards have issues with hardware encryption.
 Edit `/etc/modprobe.d/iwlwifi.conf` (create if missing):
 ```plaintext
 options iwlwifi 11n_disable=1

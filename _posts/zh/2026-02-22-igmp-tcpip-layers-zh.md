@@ -11,7 +11,7 @@ type: note
 
 **问题**：Internet Group Management Protocol (IGMP) 位于 TCP/IP 参考模型的哪一层？
 
-**答案**：  
+**答案**：
 
 Internet Group Management Protocol (IGMP) 位于 TCP/IP 参考模型的 **Network Layer**（也称为 **Internet Layer** 或 **Network Interconnection Layer**）。
 

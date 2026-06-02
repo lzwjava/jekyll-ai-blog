@@ -12,7 +12,7 @@ type: note
 
 ### Current progress
 - You've just passed iter 2800 (out of your target 20,000)
-- Stable speed right now: **≈ 3.91 seconds per iteration**  
+- Stable speed right now: **≈ 3.91 seconds per iteration**
   (the occasional 19-second logs at eval steps are only every 500 iters and don’t change the average much)
 
 ### Remaining iterations

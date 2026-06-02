@@ -12,7 +12,7 @@ type: note
 
 Question: 提供成为一名 senior Python engineer 的全面路线图
 
-Answer: 
+Answer:
 
 ### Overview
 成为一名 senior Python engineer 通常需要 5–10 年的经验，具体取决于你的起点、投入程度和机遇。这涉及从技术能力的初学者成长为专家，同时在实际项目、system design、领导力和 mentoring 方面积累实践经验。Senior 角色不仅要求精通编码，还需要具备架构决策、performance optimization、团队指导以及对 production systems 的理解。
@@ -103,10 +103,10 @@ Answer:
 
 通过坚持不懈地积累专业知识并展示在团队中的影响力，你可以达到 senior 级别。
 
-References:  
+References:
 
-- [roadmap.sh/python](https://roadmap.sh/python)  
-- [Coursera Python Career Roadmap](https://www.coursera.org/resources/job-leveling-matrix-for-python-career-pathways)  
-- [Real Python Advanced Tutorials](https://realpython.com/tutorials/advanced/)  
-- [Medium: Ultimate Python Developer 2025 Roadmap](https://medium.com/@waadlingaadil/the-ultimate-python-developer-2025-roadmap-6d274438de28)  
+- [roadmap.sh/python](https://roadmap.sh/python)
+- [Coursera Python Career Roadmap](https://www.coursera.org/resources/job-leveling-matrix-for-python-career-pathways)
+- [Real Python Advanced Tutorials](https://realpython.com/tutorials/advanced/)
+- [Medium: Ultimate Python Developer 2025 Roadmap](https://medium.com/@waadlingaadil/the-ultimate-python-developer-2025-roadmap-6d274438de28)
 - [GeeksforGeeks Senior Python Developer Job Description](https://www.geeksforgeeks.org/senior-python-developer-job-description/)

@@ -85,5 +85,5 @@ Quadratic Form: `u @ A @ u` = 27.0 (x^T A x with x_i = u_i; for pos def, all eig
 
 **Quick Verification Tip**: Always `np.allclose` for floats; row-reduce manually for small n, then match `solve` or `eig`. Practice: Swap in your 3×3 matrices.
 
-[NumPy linalg Documentation](https://numpy.org/doc/stable/reference/routines.linalg.html)  
+[NumPy linalg Documentation](https://numpy.org/doc/stable/reference/routines.linalg.html)
 [Linear Algebra in NumPy - SciPy Lecture Notes](https://scipy-lectures.org/intro/numpy/auto_examples/plot_linear_algebra.html)

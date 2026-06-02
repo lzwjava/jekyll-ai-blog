@@ -37,7 +37,7 @@ type: note
   try:
       if not isJVMStarted():
           startJVM("-Djava.class.path=/path/to/java-agent.jar", "-ea")
-      
+
       # 从 Java Agent 加载类
       AgentClass = JClass("com.example.Agent")
       agent_instance = AgentClass()

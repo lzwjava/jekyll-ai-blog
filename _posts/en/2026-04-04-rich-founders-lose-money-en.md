@@ -60,6 +60,6 @@ Those who preserve and grow wealth post-success usually:
 
 In short: Startup success rewards bold, asymmetric bets and deep domain effort. Investing rewards patience, humility, diversification, and continuous learning in a probabilistic field. Without applying the same effort to learn investing as they did building their product, the money often slips away through overconfidence, speculation, or neglect.
 
-The pattern isn't universal — some founders become excellent investors (e.g., by applying their analytical skills thoughtfully) — but it's common because the skills don't transfer automatically, and most don't invest the time to bridge the gap. 
+The pattern isn't universal — some founders become excellent investors (e.g., by applying their analytical skills thoughtfully) — but it's common because the skills don't transfer automatically, and most don't invest the time to bridge the gap.
 
 Your observation is insightful and largely correct.

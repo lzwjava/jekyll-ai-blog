@@ -26,9 +26,9 @@ pip install torch numpy transformers datasets tiktoken wandb tqdm
 nanoGPT expects your data as binary files (`train.bin` and `val.bin`) containing tokenized integers. You'll need to write a simple preparation script to process your raw text.
 
 - **Place Your Text File**: Put your raw text (e.g., `input.txt`) in a new folder under `data/`, like `data/my_dataset/`.
-  
+
 - **Create a Preparation Script**: Copy and adapt an example from the repo (e.g., `data/shakespeare_char/prepare.py` for character-level or `data/openwebtext/prepare.py` for GPT-2 BPE token-level).
-  
+
   **Example for Character-Level Tokenization** (simple for small datasets; treats each character as a token):
   ```python
   # Save as data/my_dataset/prepare.py

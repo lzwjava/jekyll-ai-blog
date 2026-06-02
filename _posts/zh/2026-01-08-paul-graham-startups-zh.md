@@ -12,7 +12,7 @@ type: note
 
 Question: 演讲者在 YouTube 视频 https://www.youtube.com/watch?v=ii1jcLg-eIQ 中说了什么？
 
-Answer: 
+Answer:
 
 该视频是名为 "Lecture 3 - Before the Startup" 的讲座，由 **Paul Graham** 在 Y Combinator 的 "How to Start a Startup" 课程中发表（2014 年上传）。
 
@@ -31,7 +31,7 @@ Paul Graham 讨论了 **startups 的反直觉特性**以及**如何产生好的 
 
 提供完整的带注释 transcript（链接见视频描述）。
 
-References:  
+References:
 
-- [YouTube Video](https://www.youtube.com/watch?v=ii1jcLg-eIQ)  
+- [YouTube Video](https://www.youtube.com/watch?v=ii1jcLg-eIQ)
 - [Annotated Transcript on Genius](http://tech.genius.com/Paul-graham-lecture-3-counterintuitive-parts-of-startups-and-how-to-have-ideas-annotated)

@@ -129,10 +129,10 @@ def parse_markdown(md_text):
 def translate_post(english_md_path):
     with open(english_md_path, 'r') as f:
         md_text = f.read()
-    
+
     blocks = parse_markdown(md_text)
     cache = load_cache()
-    
+
     for lang in LANGUAGES:
         translated_blocks = []
         for block_type, content in blocks:
@@ -146,13 +146,13 @@ def translate_post(english_md_path):
                     translation = ai_translate(content, lang)
                     cache[h][lang] = translation
                 translated_blocks.append(cache[h][lang])
-        
+
         # 用换行符重新组装
         translated_md = '\n\n'.join(translated_blocks)  # 根据 Markdown 格式化调整
         output_path = english_md_path.replace('.md', f'_{lang}.md')
         with open(output_path, 'w') as f:
             f.write(translated_md)
-    
+
     save_cache(cache)
     print("Translations updated.")
 

@@ -36,7 +36,7 @@ Multiple compatibility problems with Codex:
 
 For your custom provider config.toml with cheaper options that **actually work reliably** in Codex:
 - **GPT-4o Mini** (safest, proven)
-- **GPT-4.1 Mini** (better performance)  
+- **GPT-4.1 Mini** (better performance)
 - **o3-Mini** (cheapest reasoning)
 
 Avoid Gemini Flash and Kimi-K2.5 for Codex tool calling until these compatibility issues are resolved.

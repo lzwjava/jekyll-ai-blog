@@ -29,5 +29,5 @@ type: note
 
 **参考资料：**
 
-* [Apple 支持 – 群组信息](https://support.apple.com/en-us/HT207006)  
+* [Apple 支持 – 群组信息](https://support.apple.com/en-us/HT207006)
 * [福布斯 – 群组消息的最佳实践](https://www.forbes.com/sites/forbestechcouncil/2021/06/01/the-benefits-of-group-messaging-in-business/)

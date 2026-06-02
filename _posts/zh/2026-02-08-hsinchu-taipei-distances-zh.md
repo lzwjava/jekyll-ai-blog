@@ -21,10 +21,10 @@ type: note
 - **驾车时间**：通常为 **55–70 分钟**，取决于交通状况和路线（经由 National Highway 1 或其他高速公路）。
 
 **常见的交通方式**：
-- **High Speed Rail (THSR / Taiwan High Speed Rail)** — 最快且最受欢迎的选择  
-  - 旅程时间：**31–36 分钟**（大部分车次约为 34 分钟）  
-  - 行驶距离：约 78–80 km  
-  - 班次非常频繁（通常每 15–30 分钟一班）  
+- **High Speed Rail (THSR / Taiwan High Speed Rail)** — 最快且最受欢迎的选择
+  - 旅程时间：**31–36 分钟**（大部分车次约为 34 分钟）
+  - 行驶距离：约 78–80 km
+  - 班次非常频繁（通常每 15–30 分钟一班）
   - 非常舒适，向大多数人推荐
 - **普通列车** (TRA)：约需 1–1.5 小时
 - **Bus**：通常为 1.2–1.5 小时
@@ -32,7 +32,7 @@ type: note
 
 Hsinchu 是著名的科技城市（许多半导体公司所在地），而 Taipei 是首府。两地距离很近且交通便利，往返一日游非常方便。
 
-**References：**  
+**References：**
 
 - [https://www.rome2rio.com/s/Hsinchu/Taipei](https://www.rome2rio.com/s/Hsinchu/Taipei)
 - [https://en.thsrc.com.tw/](https://en.thsrc.com.tw/) (Taiwan High Speed Rail 官网)

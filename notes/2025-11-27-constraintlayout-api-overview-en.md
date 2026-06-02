@@ -63,7 +63,7 @@ While standard `android:layout_width` and `android:layout_height` are used, `Con
 
 ## 3. 🛠️ Helper Objects (Advanced Features)
 
-These are special, non-visible views that you can add to the layout to manage groups of views or create reusable constraints. 
+These are special, non-visible views that you can add to the layout to manage groups of views or create reusable constraints.
 
 | Helper Object | Function | Key Attributes |
 | :--- | :--- | :--- |

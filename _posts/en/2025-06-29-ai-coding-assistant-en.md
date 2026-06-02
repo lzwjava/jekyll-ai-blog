@@ -69,10 +69,10 @@ Prompt: “Write a Python function to sort a list of numbers, handling both posi
 def sort_numbers(numbers):
     """
     Sorts a list of numbers (positive and negative) in ascending order.
-    
+
     Args:
         numbers (list): List of integers or floats.
-    
+
     Returns:
         list: Sorted list of numbers.
     """
@@ -107,11 +107,11 @@ Claude might respond: “The TypeError occurs because `a` is a string and `b` is
 def add_numbers(a, b):
     """
     Adds two numbers, converting strings to numbers if necessary.
-    
+
     Args:
         a: First number (int, float, or string).
         b: Second number (int, float, or string).
-    
+
     Returns:
         float or int: Sum of the two numbers.
     """

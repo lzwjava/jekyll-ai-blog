@@ -16,7 +16,7 @@ Cloud Run is a fully managed, serverless compute platform in GCP that lets you r
 - **Serverless Execution**: Deploy containerized code (supporting any language or runtime) that scales automatically from zero to thousands of instances based on incoming requests or traffic.
 - **Pay-Per-Use Pricing**: Billed only for the resources you consume—per request or per instance duration—making it cost-effective for variable workloads.
 - **Built-in Integrations**: Works seamlessly with other GCP services like Cloud SQL for databases, Cloud Storage for files, Pub/Sub for messaging, and more. It also supports VPC for private networking.
-- **Deployment Options**: 
+- **Deployment Options**:
   - Push a pre-built container image from Artifact Registry or Docker Hub.
   - Deploy directly from source code using Cloud Build (supports languages like Node.js, Python, Java, Go, .NET, and Ruby).
   - Use Cloud Run Functions for simpler, function-as-a-service style deployments.
@@ -29,7 +29,7 @@ To get started, you can deploy via the GCP Console, gcloud CLI, or CI/CD pipelin
 The Cloud Run section in the GCP Console provides an intuitive dashboard for managing your deployments. Here's a breakdown based on the Services view you shared:
 
 - **Overview**: The main "Cloud Run > Services" page lists all your deployed services in a table format. It starts with a helpful recommendation banner like "Run your app on a fully managed platform" to encourage quick starts if you're new.
-  
+
 - **Table Columns** (as shown in your snippet):
   - **Name**: The unique identifier for each service (e.g., "my-api").
   - **Deployment Type**: Indicates how it was deployed—e.g., "Container" for images or "Source" for code-based deploys.
@@ -44,5 +44,5 @@ The Cloud Run section in the GCP Console provides an intuitive dashboard for man
 
 This console makes it easy to monitor performance, view logs, and iterate on deployments without leaving the browser. For hands-on exploration, navigate to [console.cloud.google.com/run](https://console.cloud.google.com/run) after enabling the API.
 
-[What is Cloud Run](https://cloud.google.com/run/docs/overview/what-is-cloud-run)  
+[What is Cloud Run](https://cloud.google.com/run/docs/overview/what-is-cloud-run)
 [Cloud Run Documentation](https://cloud.google.com/run/docs)

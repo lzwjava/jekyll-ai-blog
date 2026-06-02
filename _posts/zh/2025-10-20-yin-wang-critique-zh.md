@@ -52,12 +52,12 @@ type: note
 
 最终，中国的成功叙事正在向可持续性演变（如习近平的“共同富裕”），但王垠的警告历久弥新：真正的自由源于你自己的尺度，而非众人的标尺。
 
-**参考文献**  
-[What Does "Success" Mean to the Chinese?](https://www.speakchineselive.com/chinese-knowledge-hub/cultural-understanding/what-does-success-mean-to-the-chinese-understanding-cultural-values/)  
-[The Elusive Definition of Success (Chinese Materialism)](https://www.kidspiritonline.com/magazine/fulfillment/the-elusive-definition-of-success/)  
-[Surprising Results on Wealth, Education, Health in China](https://arts-sciences.buffalo.edu/news-and-events/recent-news/2022/may/wealth-education-health-china.html)  
-[China's E-Commerce Price Wars](https://money.usnews.com/investing/news/articles/2025-09-08/analysis-chinas-e-commerce-companies-are-getting-singed-by-a-price-war)  
-[What's Wrong with Chinese Corporate Profits?](https://www.seafarerfunds.com/prevailing-winds/what-s-wrong-with-chinese-corporate-profits)  
-[Most Chinese Ex-Unicorns Are Unprofitable](https://medium.com/swlh/most-chinese-ex-unicorns-are-unprofitable-but-fewer-than-in-america-c4eeec381fa1)  
-[王垠：所谓“成功” (原文)](https://blog.csdn.net/Aria_Miazzy/article/details/103745026)  
+**参考文献**
+[What Does "Success" Mean to the Chinese?](https://www.speakchineselive.com/chinese-knowledge-hub/cultural-understanding/what-does-success-mean-to-the-chinese-understanding-cultural-values/)
+[The Elusive Definition of Success (Chinese Materialism)](https://www.kidspiritonline.com/magazine/fulfillment/the-elusive-definition-of-success/)
+[Surprising Results on Wealth, Education, Health in China](https://arts-sciences.buffalo.edu/news-and-events/recent-news/2022/may/wealth-education-health-china.html)
+[China's E-Commerce Price Wars](https://money.usnews.com/investing/news/articles/2025-09-08/analysis-chinas-e-commerce-companies-are-getting-singed-by-a-price-war)
+[What's Wrong with Chinese Corporate Profits?](https://www.seafarerfunds.com/prevailing-winds/what-s-wrong-with-chinese-corporate-profits)
+[Most Chinese Ex-Unicorns Are Unprofitable](https://medium.com/swlh/most-chinese-ex-unicorns-are-unprofitable-but-fewer-than-in-america-c4eeec381fa1)
+[王垠：所谓“成功” (原文)](https://blog.csdn.net/Aria_Miazzy/article/details/103745026)
 [Yin Wang's Substack (持续观点)](https://yinwang1.substack.com/)

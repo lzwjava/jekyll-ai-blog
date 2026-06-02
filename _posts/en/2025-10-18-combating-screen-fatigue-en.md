@@ -28,8 +28,8 @@ I totally get it—staring at a screen when your brain feels foggy can feel like
 
 Start with one or two that resonate most, and be kind to yourself—progress isn't linear. You've already got insight by recognizing the pattern, which is half the battle.
 
-[Combating Screen Fatigue - CU Denver](https://www.ucdenver.edu/student/stories/library/stories-from-the-hub/combating-screen-fatigue)  
-[Managing Screen Fatigue | Rutgers](https://learningcenters.rutgers.edu/resources/managing-screen-fatigue)  
-[7 Ways to Avoid Screen Fatigue](https://partnerstack.com/articles/ways-to-avoid-screen-fatigue)  
-[How to Beat Screen Fatigue for Improved Study Performance - ACAP](https://www.acap.edu.au/news-and-opinion/how-to-beat-screen-fatigue-for-improved-study-performance/)  
+[Combating Screen Fatigue - CU Denver](https://www.ucdenver.edu/student/stories/library/stories-from-the-hub/combating-screen-fatigue)
+[Managing Screen Fatigue | Rutgers](https://learningcenters.rutgers.edu/resources/managing-screen-fatigue)
+[7 Ways to Avoid Screen Fatigue](https://partnerstack.com/articles/ways-to-avoid-screen-fatigue)
+[How to Beat Screen Fatigue for Improved Study Performance - ACAP](https://www.acap.edu.au/news-and-opinion/how-to-beat-screen-fatigue-for-improved-study-performance/)
 [Computer Vision Syndrome: Symptoms, Treatment & Prevention](https://my.clevelandclinic.org/health/diseases/24802-computer-vision-syndrome)

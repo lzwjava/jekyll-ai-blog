@@ -27,7 +27,7 @@ A growth mindset, popularized by psychologist Carol Dweck, is the belief that ab
 
 These techniques are interconnected—e.g., feedback pairs well with embracing challenges. Consistency is key: aim for 10-15 minutes daily. If slips happen, that's prime growth material—analyze without self-judgment. Over time, this shifts how you approach goals, like your studies or tech pursuits.
 
-[What Is a Growth Mindset and How Can You Develop One?](https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/)  
-[Growth Mindset and Enhanced Learning](https://teachingcommons.stanford.edu/teaching-guides/foundations-course-design/learning-activities/growth-mindset-and-enhanced-learning)  
-[Guide to Developing a Growth Mindset](https://www.tavahealth.com/resources/guide-growth-mindset)  
+[What Is a Growth Mindset and How Can You Develop One?](https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/)
+[Growth Mindset and Enhanced Learning](https://teachingcommons.stanford.edu/teaching-guides/foundations-course-design/learning-activities/growth-mindset-and-enhanced-learning)
+[Guide to Developing a Growth Mindset](https://www.tavahealth.com/resources/guide-growth-mindset)
 [Developing a Growth Mindset: Tips Sheet](https://www.therapistaid.com/therapy-worksheet/growth-mindset-tips)

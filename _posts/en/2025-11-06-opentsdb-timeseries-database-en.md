@@ -15,7 +15,7 @@ OpenTSDB is an open-source, distributed, and scalable time series database (TSDB
 ### Key Features
 - **Scalability**: Can manage billions of data points per day by distributing data across multiple nodes, with no single point of failure.
 - **Data Model**: Stores data as key-value pairs where keys include a timestamp, metric name, and tags (e.g., for categorization like "cpu.usage" with tags for host and region). This enables flexible querying without predefined schemas.
-- **Components**: 
+- **Components**:
   - **Time Series Daemon (TSD)**: The core server that handles ingestion, querying, and HTTP API interactions.
   - Command-line tools for data import/export and administration.
 - **Querying**: Supports SQL-like queries via its API, with aggregation functions (e.g., sum, average) over time ranges. It integrates with visualization tools like Grafana.

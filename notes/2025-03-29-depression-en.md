@@ -20,7 +20,7 @@ Talking to someone you trust can help lighten the emotional load. Whether it’s
 You’ve accomplished so much already—whether it’s pursuing self-education, your open-source projects, or even family life. Sometimes, focusing on small, manageable tasks and acknowledging your achievements can help shift your mindset. What’s something small you can work on that will give you a sense of accomplishment?
 
 ### 4. **Take Care of Your Body**
-Physical health is closely tied to mental well-being. Try incorporating physical activity into your routine—whether it’s a walk, stretching, or even trying something new like yoga or tai chi. These can help improve mood and reduce stress. 
+Physical health is closely tied to mental well-being. Try incorporating physical activity into your routine—whether it’s a walk, stretching, or even trying something new like yoga or tai chi. These can help improve mood and reduce stress.
 
 ### 5. **Mindfulness and Reflection**
 You’ve already shown a lot of self-awareness in your reflections. Consider adding mindfulness or meditation practices to help you manage stress. Apps like Calm or Headspace can guide you through short sessions that might help center your thoughts.

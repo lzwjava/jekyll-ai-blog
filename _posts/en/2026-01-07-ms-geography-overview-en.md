@@ -12,7 +12,7 @@ type: note
 
 Question: What is the typical knowledge or syllabus for a middle school geography course?
 
-Answer: 
+Answer:
 
 Middle school geography courses (typically grades 6-8, ages 11-14) focus on building foundational understanding of the world, combining physical geography, human geography, and essential skills. Curricula vary by country and school, but common elements draw from national standards like the U.S. *Geography for Life: National Geography Standards* (with expectations up to 8th grade) and similar frameworks internationally.
 
@@ -50,7 +50,7 @@ Lessons often include hands-on activities: mapping projects, virtual tours, case
 
 In the U.S., geography is integrated into social studies; internationally (e.g., UK Key Stage 3), it includes similar physical/human topics with local case studies.
 
-References:  
+References:
 
 - [Students of History World Geography Curriculum](https://www.studentsofhistory.com/world-geography-curriculum)
 - [National Geography Standards – National Council for Geographic Education](https://ncge.org/teacher-resources/national-geography-standards/)

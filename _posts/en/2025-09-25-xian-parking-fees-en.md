@@ -16,7 +16,7 @@ Parking fees in Xi'an (a major city in Shaanxi Province) vary depending on the l
 
 #### 1. **Street Parking (Roadside)**
    - **Common Rates**: 2–5 RMB (about 0.28–0.70 USD) per hour in urban areas like the city center (e.g., around Bell Tower, Drum Tower, or Muslim Quarter).
-   - **Details**: 
+   - **Details**:
      - Daytime (7 AM–9 PM): Often metered or app-based; free for the first 15–30 minutes in some spots.
      - Overnight (9 PM–7 AM): May be 1–2 RMB per hour or a flat fee of 5–10 RMB for the night.
      - Restrictions: Many streets have time limits (e.g., 1–2 hours max) and enforced zones. Illegal parking can lead to fines of 50–200 RMB or towing.

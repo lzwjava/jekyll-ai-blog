@@ -12,7 +12,7 @@ type: note
 
 ### Question: Why did the Chinese O2O startup for laundry services (likely referring to "Order to Help" or a similar platform like Edaixi or 24Tidy) fail?
 
-### Answer: 
+### Answer:
 
 The query appears to refer to a Chinese O2O (online-to-offline) laundry startup, possibly a phonetic or mistranslated name like "Order to Help" for platforms such as Edaixi (eWash) or 24Tidy, which were prominent in China's on-demand laundry sector during the mid-2010s O2O boom. While no exact match for "Order to Help Washing Clothes" exists, the sector saw widespread failures amid the 2015-2016 O2O bust, where hundreds of startups collapsed. Based on analysis of the industry, here are the key reasons such ventures failed, drawn from the broader Chinese O2O laundry landscape:
 

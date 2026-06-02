@@ -59,10 +59,10 @@ Dask 是另一个用于并行计算的 Python 库，适用于分布式数据处�
 
 如果你提供更多细节（例如框架如 PyTorch/TensorFlow、模型类型、台式机操作系统），我可以进一步细化这一点。
 
-[GPU 贫穷让你更有创造力](https://www.dilawar.ai/2025/07/04/Multi-Cluster%20Distributed%20Training%20on%20Heterogeneous%20Hardware/)  
-[Ray 文档 - 安装](https://docs.ray.io/en/latest/ray-overview/installation.html)  
-[Ray Train：可扩展的模型训练](https://docs.ray.io/en/latest/train/train.html)  
-[Dask 文档 - GPU](https://docs.dask.org/en/stable/gpu.html)  
-[Horovod 安装指南](https://horovod.readthedocs.io/en/latest/install_include.html)  
-[HetSeq GitHub](https://github.com/yifding/hetseq)  
+[GPU 贫穷让你更有创造力](https://www.dilawar.ai/2025/07/04/Multi-Cluster%20Distributed%20Training%20on%20Heterogeneous%20Hardware/)
+[Ray 文档 - 安装](https://docs.ray.io/en/latest/ray-overview/installation.html)
+[Ray Train：可扩展的模型训练](https://docs.ray.io/en/latest/train/train.html)
+[Dask 文档 - GPU](https://docs.dask.org/en/stable/gpu.html)
+[Horovod 安装指南](https://horovod.readthedocs.io/en/latest/install_include.html)
+[HetSeq GitHub](https://github.com/yifding/hetseq)
 [在 Mac 上加速 PyTorch 训练](https://developer.apple.com/metal/pytorch/)

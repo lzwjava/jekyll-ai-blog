@@ -37,8 +37,8 @@ Below is a summary of the key investment strategies, focuses, and approximate as
 
 These firms often overlap in multi-strategy elements but differentiate via scale, tech, or niche expertise. Performance varies with market conditions, like AI/tech rallies boosting equity-focused funds in 2024-2025.
 
-[America’s Richest Hedge Fund Managers 2025](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)  
-[The Rich List: Highest-Earning Hedge Fund Managers](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)  
-[Top Hedge Funds by AUM](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)  
-[Macro Hedge Fund Returns 2025](https://www.hedgeweek.com/macro-hedge-fund-returns-diverge-amid-tariff-volatility/)  
+[America’s Richest Hedge Fund Managers 2025](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)
+[The Rich List: Highest-Earning Hedge Fund Managers](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)
+[Top Hedge Funds by AUM](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)
+[Macro Hedge Fund Returns 2025](https://www.hedgeweek.com/macro-hedge-fund-returns-diverge-amid-tariff-volatility/)
 [Tiger Cub Funds 2025 Performance](https://www.bloomberg.com/news/articles/2025-07-03/tiger-cubs-led-by-mandel-s-lone-pine-log-strong-first-half-gains)

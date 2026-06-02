@@ -12,7 +12,7 @@ type: note
 
 Question: Which method is called automatically when an object is created? A. main() B. Constructor C. finalize() D. toString()
 
-Answer: 
+Answer:
 
 The correct answer is **B. Constructor**.
 
@@ -24,7 +24,7 @@ In object-oriented programming (particularly in languages like Java and C++), th
 
 This concept is fundamental in OOP for ensuring proper object initialization.
 
-References:  
+References:
 
 - [Java Documentation: Constructors](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
 - [GeeksforGeeks: Constructors in Java](https://www.geeksforgeeks.org/constructors-in-java/)

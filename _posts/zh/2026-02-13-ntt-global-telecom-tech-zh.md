@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to NTT, the company.
 
-Answer: 
+Answer:
 
 **NTT, Inc.**（前身为 **Nippon Telegraph and Telephone Corporation**）是全球最大的电信和 Information Technology 公司之一，总部位于日本东京。
 
@@ -64,7 +64,7 @@ NTT 继续积极进行全球扩张和创新：
 
 NTT 仍然是日本数字基础设施的基石，同时也在不断扩大其作为全球技术和电信领导者的足迹，推动创新走向可持续、互联的未来。
 
-References:  
+References:
 
 - [Nippon Telegraph and Telephone - Wikipedia](https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone)
 - [NTT Group Official Site](https://group.ntt/en)

@@ -64,7 +64,7 @@ The issue you're facing is that the Camoufox download is extremely slow (estimat
 
 The "15659 seconds" (~4.35 hours) is the estimated time remaining based on current download speed. At 0% with such high ETA, it usually means the connection is either extremely throttled or barely moving.
 
-**Best immediate action:**  
+**Best immediate action:**
 Cancel it (`Ctrl+C`), remove proxychains from the command, and retry the fetch. It should complete in seconds or a couple of minutes on normal internet.
 
 If it still fails, please provide:

@@ -23,7 +23,7 @@ Since your exam is on the weekend and you need to wake at 7am, start adjusting *
 
 **Monday-Thursday**: Shift your sleep schedule by 1-1.5 hours each day
 - Monday: Sleep 1:30am → Wake 10:30am
-- Tuesday: Sleep 12am → Wake 9am  
+- Tuesday: Sleep 12am → Wake 9am
 - Wednesday: Sleep 10:30pm → Wake 7:30am
 - Thursday: Sleep 10pm → Wake 7am
 - Friday: Sleep 10pm → Wake 7am (practice run)

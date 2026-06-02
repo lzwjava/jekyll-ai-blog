@@ -26,12 +26,12 @@ $$
 
 其中：
 
-- **Q** — 有限且非空的 **states** 集合  
-- **Σ** — 有限且非空的 **input symbols** 集合（alphabet）  
-- **δ** — transition function：  
-  δ : Q × Σ → Q  
-  （对于每一个 state 和每一个 input symbol，有且仅有一个对应的 next state —— 这正是其 deterministic 的原因）  
-- **q₀** ∈ Q — **start state**（initial state）  
+- **Q** — 有限且非空的 **states** 集合
+- **Σ** — 有限且非空的 **input symbols** 集合（alphabet）
+- **δ** — transition function：
+  δ : Q × Σ → Q
+  （对于每一个 state 和每一个 input symbol，有且仅有一个对应的 next state —— 这正是其 deterministic 的原因）
+- **q₀** ∈ Q — **start state**（initial state）
 - **F** ⊆ Q — **accepting** (final) states 集合
 
 ### How a DFA Works (直观解释)
@@ -55,11 +55,11 @@ $$
 
 ### Simple Example
 
-Alphabet: Σ = {0, 1}  
+Alphabet: Σ = {0, 1}
 Language: 所有以 **1 结尾** 的二进制字符串
 
-States:  
-- q₀ : 尚未看到结尾的 1  
+States:
+- q₀ : 尚未看到结尾的 1
 - q₁ : 最后一个 symbol 是 1 (accepting state)
 
 Transitions:
@@ -70,10 +70,10 @@ q₀ → q₀     q₁
 q₁ → q₀     q₁
 ```
 
-- q₀ = start state  
+- q₀ = start state
 - F = {q₁}
 
-Accepted strings: 1, 01, 001, 101, 111, 0001, …  
+Accepted strings: 1, 01, 001, 101, 111, 0001, …
 Rejected: ε (empty), 0, 00, 10, 000, …
 
 ### Comparison: DFA vs NFA (快速总结)

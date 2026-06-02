@@ -12,7 +12,7 @@ type: note
 
 Question: Specifically, for Ping An car insurance, how to use their app to handle a car accident?
 
-Answer: 
+Answer:
 
 ### Using the Ping An "Good Car Owner" App (平安好车主APP) for Car Accident Handling
 
@@ -67,10 +67,10 @@ Ping An Insurance's primary app for car owners is called **平安好车主** (Pi
 
 This makes minor accidents handleable in minutes online, reducing wait times.
 
-References:  
+References:
 
-- [https://u.pingan.com/upingan/chexianlipei.shtml](https://u.pingan.com/upingan/chexianlipei.shtml)  
-- [https://www.4008000000.com/help/hczEn/hczSyn.shtml](https://www.4008000000.com/help/hczEn/hczSyn.shtml)  
-- [https://baoxian.pingan.com/baoxianfuwu/lipeiliucheng.shtml](https://baoxian.pingan.com/baoxianfuwu/lipeiliucheng.shtml)  
-- [https://app.xinhuanet.com/news/article.html?articleId=04b16ea51bb1fdf434bbae4a80c48939](https://app.xinhuanet.com/news/article.html?articleId=04b16ea51bb1fdf434bbae4a80c48939)  
+- [https://u.pingan.com/upingan/chexianlipei.shtml](https://u.pingan.com/upingan/chexianlipei.shtml)
+- [https://www.4008000000.com/help/hczEn/hczSyn.shtml](https://www.4008000000.com/help/hczEn/hczSyn.shtml)
+- [https://baoxian.pingan.com/baoxianfuwu/lipeiliucheng.shtml](https://baoxian.pingan.com/baoxianfuwu/lipeiliucheng.shtml)
+- [https://app.xinhuanet.com/news/article.html?articleId=04b16ea51bb1fdf434bbae4a80c48939](https://app.xinhuanet.com/news/article.html?articleId=04b16ea51bb1fdf434bbae4a80c48939)
 - [https://apps.apple.com/cn/app/%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB-%E8%BD%A6%E6%9C%8D%E5%8A%A1-%E4%B9%B0%E4%BF%9D%E9%99%A9-%E5%8A%9E%E7%90%86%E8%B5%94/id796339836](https://apps.apple.com/cn/app/%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB-%E8%BD%A6%E6%9C%8D%E5%8A%A1-%E4%B9%B0%E4%BF%9D%E9%99%A9-%E5%8A%9E%E7%90%86%E8%B5%94/id796339836)

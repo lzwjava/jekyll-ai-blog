@@ -12,7 +12,7 @@ type: note
 
 Question: What maps does PUBG Mobile provide?
 
-Answer: 
+Answer:
 
 PUBG Mobile offers a variety of battle royale maps, primarily in Classic mode, with sizes ranging from 1x1 km to 8x8 km. These maps feature unique terrains, player counts, and gameplay paces. The core maps available as of 2026 are:
 
@@ -33,7 +33,7 @@ PUBG Mobile offers a variety of battle royale maps, primarily in Classic mode, w
 - **Recent Updates**: Loot Trucks added to Erangel, Livik, and Miramar in v4.1 (Nov 2025). Paramo is in beta/testing but not fully released globally yet.
 - Maps may vary slightly by region/server, but these are standard in Global.
 
-References: 
+References:
 - [PUBG Mobile Wiki - Maps](https://pubgmobile.fandom.com/wiki/Maps)
 - [PUBG Maps Wiki](https://pubg.fandom.com/wiki/Maps)
 - [PUBG Mobile Official Events](https://www.pubgmobile.com/en-US/events.shtml)

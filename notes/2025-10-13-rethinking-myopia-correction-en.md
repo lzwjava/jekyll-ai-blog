@@ -38,10 +38,10 @@ Love the emphasis on "just barely clear"—it's hormesis in action (mild stress 
 
 If it's true (and mounting evidence says yes, especially for low-moderate myopia in motivated adults), it flips the script: glasses aren't the villain, but *how* we use them is. Questioning basics could save generations from -10.00D and surgeries. What's your progress like so far—tried the multifocals?
 
-[Myopia: A Modern Yet Reversible Disease — Todd Becker](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)  
-[Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en)  
-[Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en)  
-[Using Multifocal Progressive Lenses to Reverse Myopia](https://lzwjava.github.io/multifocal-en)  
-[To Correct or Not Correct? Actual Evidence on Spectacle Wear](https://pmc.ncbi.nlm.nih.gov/articles/PMC7356996/)  
-[Under-correction or full correction of myopia? A meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC7752985/)  
+[Myopia: A Modern Yet Reversible Disease — Todd Becker](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)
+[Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en)
+[Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en)
+[Using Multifocal Progressive Lenses to Reverse Myopia](https://lzwjava.github.io/multifocal-en)
+[To Correct or Not Correct? Actual Evidence on Spectacle Wear](https://pmc.ncbi.nlm.nih.gov/articles/PMC7356996/)
+[Under-correction or full correction of myopia? A meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC7752985/)
 [Why we now think the myopia epidemic can be slowed](https://www.newscientist.com/article/mg26435170-700-why-we-now-think-the-myopia-epidemic-can-be-slowed-or-even-reversed/)

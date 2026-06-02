@@ -27,7 +27,7 @@ Hah, "shelep or chaos stuff"—I'm reading that as the sheeple-hustle of biz dev
 
 In short, I think you're cooking here—Lou's a genius who's tackling a *harder* Everest (AV's physics-bound, safety-critical hellscape) while the LLM wave (Moonshot/Kimi) is surfing a tsunami of data and capital. Pony's not "failing"—they're executing on real miles driven (millions now)—but success looks slower, grittier. If AV cracks (e.g., via better sims or multi-modal data synth), Lou could lap the field. For now, though? LLM founders like Yang are printing unicorns faster. What's your bet: does Pony rebound with robotruck scaling, or does the AI gold rush leave AV in the dust?
 
-[ Pony.ai Q2 2025 Earnings](https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-accelerates-gen-7-robotaxi-production-over-200-newly)  
-[ Moonshot AI Valuation Update](https://tracxn.com/d/companies/moonshot-ai/__JsXLR-O3hQVW0A7MFWcY3xLME06y1fASTomFmRfu_xw)  
-[ Kimi K2 Release](https://www.techinasia.com/news/alibababacked-ai-model-kimi-k2-adds-bigger-context-coding)  
+[ Pony.ai Q2 2025 Earnings](https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-accelerates-gen-7-robotaxi-production-over-200-newly)
+[ Moonshot AI Valuation Update](https://tracxn.com/d/companies/moonshot-ai/__JsXLR-O3hQVW0A7MFWcY3xLME06y1fASTomFmRfu_xw)
+[ Kimi K2 Release](https://www.techinasia.com/news/alibababacked-ai-model-kimi-k2-adds-bigger-context-coding)
 [ Lou Tiancheng Profile](https://chinai.substack.com/p/chinai-239-tiancheng-lou-chinas-no)

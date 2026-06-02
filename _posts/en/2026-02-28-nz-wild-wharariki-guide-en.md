@@ -11,7 +11,7 @@ type: note
 
 Question: What is an introduction to Wharariki Beach?
 
-Answer: 
+Answer:
 
 **Wharariki Beach** is a remote and dramatically beautiful beach located on the northwestern coast of New Zealand's South Island, in the Golden Bay area of the Tasman District. It lies just west of Cape Farewell, the northernmost point of the South Island, facing the Tasman Sea.
 
@@ -25,18 +25,18 @@ This wild, windswept beach is famous for its rugged and untouched landscape, fea
 
 The beach is often described as one of New Zealand's most spectacular and photogenic coastal spots, offering a raw, cinematic beauty with strong winds, powerful waves, and a sense of isolation.
 
-**Access**:  
+**Access**:
 There is no direct road to the beach. Visitors park at the end of Wharariki Road (near the small settlement of Pūponga), then follow an easy 20-minute walking track through farmland, grassy paddocks, and coastal forest to reach the shore. The path is family-friendly and suitable for children, though sturdy shoes are recommended. A longer route along the beach is possible at low tide.
 
-**Best time to visit**:  
+**Best time to visit**:
 Low tide is ideal for exploring rock pools, caves, and walking farther along the beach or closer to the Archway Islands. The area can be very windy, and swimming is not recommended due to strong riptides and currents — several incidents have occurred over the years.
 
-**Nearby context**:  
+**Nearby context**:
 Wharariki Beach sits within or adjacent to Puponga Farm Park and near the northern edge of Kahurangi National Park. It is often visited in combination with nearby Farewell Spit, another iconic natural feature.
 
 Overall, Wharariki Beach rewards those willing to make the journey with an unforgettable, pristine coastal experience far from crowds and development.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Wharariki_Beach](https://en.wikipedia.org/wiki/Wharariki_Beach)
 - [https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/farewell-spit-and-puponga-farm-park/things-to-do/tracks/wharariki-beach-track](https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/farewell-spit-and-puponga-farm-park/things-to-do/tracks/wharariki-beach-track)

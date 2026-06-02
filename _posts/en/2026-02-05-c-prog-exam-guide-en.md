@@ -17,7 +17,7 @@ type: note
 
 ## I. Assessment Objectives
 
-This course aims to cultivate students' computational thinking and programming skills, laying a solid programming foundation for subsequent specialized courses (such as "Advanced Programming Language" and "Data Structures"). 
+This course aims to cultivate students' computational thinking and programming skills, laying a solid programming foundation for subsequent specialized courses (such as "Advanced Programming Language" and "Data Structures").
 
 **Specific assessment objectives:**
 
@@ -33,8 +33,8 @@ This course aims to cultivate students' computational thinking and programming s
 
 ## II. Reference Textbook
 
-**"Computer Programming Fundamentals"**  
-Edited by Sun Jianzhi, Xiao Yuanyuan, and Zhang Yingxin  
+**"Computer Programming Fundamentals"**
+Edited by Sun Jianzhi, Xiao Yuanyuan, and Zhang Yingxin
 Mechanical Industry Press, 2024 edition
 
 ---
@@ -228,23 +228,23 @@ int main() {
     int arr[5];
     int i;
     float avg, sum = 0.0;
-    
+
     // Blank 1: Loop to input 5 integers into array arr
     for (i = 0; i < 5; i++) {
-        ____________________; 
+        ____________________;
     }
-    
+
     // Blank 2: Loop to accumulate array elements into sum
     for (i = 0; i < 5; i++) {
-        ____________________; 
+        ____________________;
     }
-    
+
     // Blank 3: Calculate average (sum divided by number of elements 5)
-    avg = ____________________; 
-    
+    avg = ____________________;
+
     // Blank 4: Output average, retain 1 decimal place
-    ____________________; 
-    
+    ____________________;
+
     return 0;
 }
 ```
@@ -275,21 +275,21 @@ int countOdd(int arr[], int n);
 
 int main() {
     int arr[N], n, cnt;
-    
+
     // Input number of array elements
     scanf("%d", &n);
-    
+
     // Input n integers into array
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    
+
     // Call function to count odd numbers
     cnt = countOdd(arr, n);
-    
+
     // Output result
     printf("Number of odd numbers: %d\n", cnt);
-    
+
     return 0;
 }
 
@@ -301,7 +301,7 @@ int main() {
 ```c
 int countOdd(int arr[], int n) {
     int count = 0; // Initialize odd number counter to 0
-    
+
     // Traverse the first n elements of the array
     for (int i = 0; i < n; i++) {
         // Check if current element is odd (remainder not 0 when divided by 2)
@@ -309,7 +309,7 @@ int countOdd(int arr[], int n) {
             count++; // Increment odd number counter by 1
         }
     }
-    
+
     return count; // Return number of odd numbers
 }
 ```
@@ -320,7 +320,7 @@ int countOdd(int arr[], int n) {
 
 **Question Description:**
 
-Write a complete program to implement "student grade level judgment" function. 
+Write a complete program to implement "student grade level judgment" function.
 
 **Specific requirements:**
 
@@ -344,13 +344,13 @@ int main() {
     char name[3][11]; // 3 strings, each maximum 10 characters (plus '\0')
     int score[3];
     char grade; // Store individual student's grade
-    
+
     // Input information for 3 students
     for (int i = 0; i < 3; i++) {
         printf("Please enter the name and score of student %d (separated by space): ", i+1);
         scanf("%s %d", name[i], &score[i]); // Name without spaces, use %s for input
     }
-    
+
     // Process and output results
     for (int i = 0; i < 3; i++) {
         // Determine grade based on score
@@ -365,11 +365,11 @@ int main() {
         } else {
             grade = 'E';
         }
-        
+
         // Output result
         printf("%s: %d-%c\n", name[i], score[i], grade);
     }
-    
+
     return 0;
 }
 ```

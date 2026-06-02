@@ -11,7 +11,7 @@ type: note
 
 Question: How does the ping command relate to ICMP?
 
-Answer: 
+Answer:
 
 The `ping` command is a network utility that relies entirely on the **Internet Control Message Protocol (ICMP)** to function. It is the most common practical application of ICMP used to test the reachability of a host on an Internet Protocol (IP) network and to measure the round-trip time for messages sent from the originating host to a destination computer.
 
@@ -48,7 +48,7 @@ Reply from 8.8.8.8: bytes=32 time=15ms TTL=117
 ### Summary
 In essence, `ping` is simply a user-friendly interface that generates and listens for specific types of ICMP messages (Type 8 for Echo Request and Type 0 for Echo Reply) to diagnose network connectivity.
 
-References:  
+References:
 
 - [RFC 792 - Internet Control Message Protocol](https://datatracker.ietf.org/doc/html/rfc792)
 - [How Ping Works - Cisco](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13730-3.html)

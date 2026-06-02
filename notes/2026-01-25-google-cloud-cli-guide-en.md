@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Google Cloud CLI
 
-Answer: 
+Answer:
 
 The **Google Cloud CLI** (most commonly called **gcloud CLI**) is the official command-line interface for interacting with Google Cloud Platform (GCP). It is the primary tool developers, DevOps engineers, and administrators use to create, manage, configure, and automate almost every Google Cloud resource directly from the terminal.
 
@@ -28,8 +28,8 @@ The modern Google Cloud CLI is a single bundled distribution that contains sever
 
 ### Key Features and Concepts
 
-- **Hierarchical command structure**  
-  Commands follow the pattern:  
+- **Hierarchical command structure**
+  Commands follow the pattern:
   `gcloud [GROUP] [COMMAND] [SUB-COMMAND] [FLAGS] [ARGUMENTS]`
 
   Examples:
@@ -119,7 +119,7 @@ sudo snap install google-cloud-cli --classic  # Ubuntu
 
 The gcloud CLI remains (together with **terraform**, **pulumi**, and the **Google Cloud Console**) one of the most powerful and widely used ways to interact with Google Cloud in 2026.
 
-References:  
+References:
 
 - [gcloud CLI overview](https://docs.cloud.google.com/sdk/gcloud)
 - [Google Cloud CLI main page](https://cloud.google.com/cli)

@@ -110,9 +110,9 @@ CREATE TABLE employees (
 );
 
 -- Add constraints
-ALTER TABLE employees 
-ADD CONSTRAINT fk_dept_id 
-FOREIGN KEY (department_id) 
+ALTER TABLE employees
+ADD CONSTRAINT fk_dept_id
+FOREIGN KEY (department_id)
 REFERENCES departments(department_id);
 
 -- Create index
@@ -134,7 +134,7 @@ CREATE INDEX idx_emp_dept ON employees(department_id);
 #### Advanced Queries
 ```sql
 -- Window functions
-SELECT 
+SELECT
     employee_id,
     first_name,
     last_name,
@@ -172,13 +172,13 @@ BEGIN
     SELECT COUNT(*) INTO v_employee_count
     FROM employees
     WHERE department_id = 10;
-    
+
     IF v_employee_count > 0 THEN
         SELECT department_name INTO v_department_name
         FROM departments
         WHERE department_id = 10;
-        
-        DBMS_OUTPUT.PUT_LINE('Department: ' || v_department_name || 
+
+        DBMS_OUTPUT.PUT_LINE('Department: ' || v_department_name ||
                            ' has ' || v_employee_count || ' employees');
     END IF;
 EXCEPTION
@@ -202,11 +202,11 @@ BEGIN
     SELECT salary INTO v_current_salary
     FROM employees
     WHERE employee_id = p_employee_id;
-    
+
     UPDATE employees
     SET salary = v_current_salary + p_salary_increase
     WHERE employee_id = p_employee_id;
-    
+
     COMMIT;
 EXCEPTION
     WHEN NO_DATA_FOUND THEN
@@ -223,7 +223,7 @@ BEGIN
     SELECT salary INTO v_monthly_salary
     FROM employees
     WHERE employee_id = p_employee_id;
-    
+
     RETURN v_monthly_salary * 12;
 EXCEPTION
     WHEN NO_DATA_FOUND THEN
@@ -273,7 +273,7 @@ VALUES (emp_seq.NEXTVAL, 'John', 'Doe');
 ```sql
 -- Create view
 CREATE VIEW employee_details AS
-SELECT e.employee_id, e.first_name, e.last_name, 
+SELECT e.employee_id, e.first_name, e.last_name,
        d.department_name, e.salary
 FROM employees e
 JOIN departments d ON e.department_id = d.department_id;
@@ -317,11 +317,11 @@ public class OracleConnection {
     private static final String URL = "jdbc:oracle:thin:@localhost:1521:XE";
     private static final String USERNAME = "your_username";
     private static final String PASSWORD = "your_password";
-    
+
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USERNAME, PASSWORD);
     }
-    
+
     public static void main(String[] args) {
         try (Connection conn = getConnection()) {
             System.out.println("Connected to Oracle Database!");
@@ -344,7 +344,7 @@ public class Employee {
     private Date hireDate;
     private double salary;
     private int departmentId;
-    
+
     // Constructors, getters, and setters
     // ...
 }
@@ -359,36 +359,36 @@ public interface EmployeeDAO {
 
 public class EmployeeDAOImpl implements EmployeeDAO {
     private Connection connection;
-    
+
     public EmployeeDAOImpl(Connection connection) {
         this.connection = connection;
     }
-    
+
     @Override
     public void createEmployee(Employee employee) {
         String sql = "INSERT INTO employees (employee_id, first_name, last_name, email, salary, department_id) VALUES (emp_seq.NEXTVAL, ?, ?, ?, ?, ?)";
-        
+
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setString(1, employee.getFirstName());
             pstmt.setString(2, employee.getLastName());
             pstmt.setString(3, employee.getEmail());
             pstmt.setDouble(4, employee.getSalary());
             pstmt.setInt(5, employee.getDepartmentId());
-            
+
             pstmt.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException("Error creating employee", e);
         }
     }
-    
+
     @Override
     public Employee getEmployeeById(int id) {
         String sql = "SELECT * FROM employees WHERE employee_id = ?";
-        
+
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setInt(1, id);
             ResultSet rs = pstmt.executeQuery();
-            
+
             if (rs.next()) {
                 return mapResultSetToEmployee(rs);
             }
@@ -397,15 +397,15 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         }
         return null;
     }
-    
+
     @Override
     public List<Employee> getAllEmployees() {
         List<Employee> employees = new ArrayList<>();
         String sql = "SELECT * FROM employees ORDER BY employee_id";
-        
+
         try (Statement stmt = connection.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
-            
+
             while (rs.next()) {
                 employees.add(mapResultSetToEmployee(rs));
             }
@@ -414,11 +414,11 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         }
         return employees;
     }
-    
+
     @Override
     public void updateEmployee(Employee employee) {
         String sql = "UPDATE employees SET first_name = ?, last_name = ?, email = ?, salary = ?, department_id = ? WHERE employee_id = ?";
-        
+
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setString(1, employee.getFirstName());
             pstmt.setString(2, employee.getLastName());
@@ -426,17 +426,17 @@ public class EmployeeDAOImpl implements EmployeeDAO {
             pstmt.setDouble(4, employee.getSalary());
             pstmt.setInt(5, employee.getDepartmentId());
             pstmt.setInt(6, employee.getEmployeeId());
-            
+
             pstmt.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException("Error updating employee", e);
         }
     }
-    
+
     @Override
     public void deleteEmployee(int id) {
         String sql = "DELETE FROM employees WHERE employee_id = ?";
-        
+
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setInt(1, id);
             pstmt.executeUpdate();
@@ -444,7 +444,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
             throw new RuntimeException("Error deleting employee", e);
         }
     }
-    
+
     private Employee mapResultSetToEmployee(ResultSet rs) throws SQLException {
         Employee employee = new Employee();
         employee.setEmployeeId(rs.getInt("employee_id"));
@@ -462,34 +462,34 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 ### Working with Stored Procedures
 ```java
 public class StoredProcedureExample {
-    
+
     public void updateEmployeeSalary(int employeeId, double salaryIncrease) {
         String sql = "{call update_employee_salary(?, ?)}";
-        
+
         try (Connection conn = OracleConnection.getConnection();
              CallableStatement cstmt = conn.prepareCall(sql)) {
-            
+
             cstmt.setInt(1, employeeId);
             cstmt.setDouble(2, salaryIncrease);
             cstmt.execute();
-            
+
         } catch (SQLException e) {
             throw new RuntimeException("Error calling stored procedure", e);
         }
     }
-    
+
     public double getAnnualSalary(int employeeId) {
         String sql = "{? = call calculate_annual_salary(?)}";
-        
+
         try (Connection conn = OracleConnection.getConnection();
              CallableStatement cstmt = conn.prepareCall(sql)) {
-            
+
             cstmt.registerOutParameter(1, Types.NUMERIC);
             cstmt.setInt(2, employeeId);
             cstmt.execute();
-            
+
             return cstmt.getDouble(1);
-            
+
         } catch (SQLException e) {
             throw new RuntimeException("Error calling function", e);
         }
@@ -506,7 +506,7 @@ import oracle.ucp.jdbc.PoolDataSourceFactory;
 
 public class ConnectionPoolManager {
     private static PoolDataSource poolDataSource;
-    
+
     static {
         try {
             poolDataSource = PoolDataSourceFactory.getPoolDataSource();
@@ -514,19 +514,19 @@ public class ConnectionPoolManager {
             poolDataSource.setUser("your_username");
             poolDataSource.setPassword("your_password");
             poolDataSource.setConnectionFactoryClassName("oracle.jdbc.pool.OracleDataSource");
-            
+
             // Pool configuration
             poolDataSource.setInitialPoolSize(5);
             poolDataSource.setMinPoolSize(5);
             poolDataSource.setMaxPoolSize(20);
             poolDataSource.setConnectionWaitTimeout(5);
             poolDataSource.setInactiveConnectionTimeout(300);
-            
+
         } catch (SQLException e) {
             throw new RuntimeException("Error initializing connection pool", e);
         }
     }
-    
+
     public static Connection getConnection() throws SQLException {
         return poolDataSource.getConnection();
     }
@@ -536,13 +536,13 @@ public class ConnectionPoolManager {
 ### Transaction Management
 ```java
 public class TransactionExample {
-    
+
     public void transferFunds(int fromAccount, int toAccount, double amount) {
         Connection conn = null;
         try {
             conn = ConnectionPoolManager.getConnection();
             conn.setAutoCommit(false); // Start transaction
-            
+
             // Debit from source account
             String debitSql = "UPDATE accounts SET balance = balance - ? WHERE account_id = ?";
             try (PreparedStatement debitStmt = conn.prepareStatement(debitSql)) {
@@ -550,7 +550,7 @@ public class TransactionExample {
                 debitStmt.setInt(2, fromAccount);
                 debitStmt.executeUpdate();
             }
-            
+
             // Credit to destination account
             String creditSql = "UPDATE accounts SET balance = balance + ? WHERE account_id = ?";
             try (PreparedStatement creditStmt = conn.prepareStatement(creditSql)) {
@@ -558,9 +558,9 @@ public class TransactionExample {
                 creditStmt.setInt(2, toAccount);
                 creditStmt.executeUpdate();
             }
-            
+
             conn.commit(); // Commit transaction
-            
+
         } catch (SQLException e) {
             if (conn != null) {
                 try {
@@ -603,7 +603,7 @@ public class TransactionExample {
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
-        
+
         <!-- Connection pool -->
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -620,40 +620,40 @@ public class TransactionExample {
 @Table(name = "employees")
 @SequenceGenerator(name = "emp_seq", sequenceName = "emp_seq", allocationSize = 1)
 public class Employee {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "emp_seq")
     @Column(name = "employee_id")
     private Integer employeeId;
-    
+
     @Column(name = "first_name", nullable = false, length = 20)
     private String firstName;
-    
+
     @Column(name = "last_name", nullable = false, length = 25)
     private String lastName;
-    
+
     @Column(name = "email", unique = true, length = 50)
     private String email;
-    
+
     @Column(name = "hire_date")
     @Temporal(TemporalType.DATE)
     private Date hireDate;
-    
+
     @Column(name = "salary", precision = 8, scale = 2)
     private BigDecimal salary;
-    
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "department_id")
     private Department department;
-    
+
     @CreationTimestamp
     @Column(name = "created_at")
     private Timestamp createdAt;
-    
+
     @UpdateTimestamp
     @Column(name = "updated_at")
     private Timestamp updatedAt;
-    
+
     // Constructors, getters, and setters
     // ...
 }
@@ -674,7 +674,7 @@ spring:
       idle-timeout: 300000
       max-lifetime: 1800000
       connection-timeout: 30000
-      
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -697,7 +697,7 @@ spring:
 CREATE INDEX idx_emp_dept_salary ON employees(department_id, salary);
 
 -- Use hints when necessary
-SELECT /*+ INDEX(e idx_emp_dept_salary) */ 
+SELECT /*+ INDEX(e idx_emp_dept_salary) */
        e.employee_id, e.first_name, e.last_name
 FROM employees e
 WHERE department_id = 10 AND salary > 50000;
@@ -711,12 +711,12 @@ SELECT * FROM employees WHERE employee_id = :employee_id;
 // Use batch processing for multiple inserts
 public void batchInsertEmployees(List<Employee> employees) {
     String sql = "INSERT INTO employees (employee_id, first_name, last_name, email, salary, department_id) VALUES (emp_seq.NEXTVAL, ?, ?, ?, ?, ?)";
-    
+
     try (Connection conn = ConnectionPoolManager.getConnection();
          PreparedStatement pstmt = conn.prepareStatement(sql)) {
-        
+
         conn.setAutoCommit(false);
-        
+
         for (Employee emp : employees) {
             pstmt.setString(1, emp.getFirstName());
             pstmt.setString(2, emp.getLastName());
@@ -725,10 +725,10 @@ public void batchInsertEmployees(List<Employee> employees) {
             pstmt.setInt(5, emp.getDepartmentId());
             pstmt.addBatch();
         }
-        
+
         pstmt.executeBatch();
         conn.commit();
-        
+
     } catch (SQLException e) {
         throw new RuntimeException("Error in batch insert", e);
     }
@@ -738,17 +738,17 @@ public void batchInsertEmployees(List<Employee> employees) {
 public List<Employee> getAllEmployeesOptimized() {
     List<Employee> employees = new ArrayList<>();
     String sql = "SELECT * FROM employees ORDER BY employee_id";
-    
+
     try (Connection conn = ConnectionPoolManager.getConnection();
          PreparedStatement pstmt = conn.prepareStatement(sql)) {
-        
+
         pstmt.setFetchSize(1000); // Optimize fetch size
         ResultSet rs = pstmt.executeQuery();
-        
+
         while (rs.next()) {
             employees.add(mapResultSetToEmployee(rs));
         }
-        
+
     } catch (SQLException e) {
         throw new RuntimeException("Error retrieving employees", e);
     }
@@ -783,17 +783,17 @@ Connection conn = DriverManager.getConnection(url, props);
 public Employee findEmployeeByEmail(String email) {
     String sql = "SELECT * FROM employees WHERE email = ?"; // Safe
     // String sql = "SELECT * FROM employees WHERE email = '" + email + "'"; // DANGEROUS!
-    
+
     try (Connection conn = ConnectionPoolManager.getConnection();
          PreparedStatement pstmt = conn.prepareStatement(sql)) {
-        
+
         pstmt.setString(1, email);
         ResultSet rs = pstmt.executeQuery();
-        
+
         if (rs.next()) {
             return mapResultSetToEmployee(rs);
         }
-        
+
     } catch (SQLException e) {
         throw new RuntimeException("Error finding employee", e);
     }
@@ -806,7 +806,7 @@ public Employee findEmployeeByEmail(String email) {
 ### Database Monitoring Queries
 ```sql
 -- Check table sizes
-SELECT table_name, 
+SELECT table_name,
        ROUND(((num_rows * avg_row_len) / 1024 / 1024), 2) as size_mb
 FROM user_tables
 ORDER BY size_mb DESC;
@@ -839,18 +839,18 @@ WHERE total.tablespace_name = free.tablespace_name(+);
 ```java
 // Connection pool monitoring
 public class ConnectionPoolMonitor {
-    
+
     public void printPoolStatistics() {
         try {
             oracle.ucp.jdbc.PoolDataSource pds = (oracle.ucp.jdbc.PoolDataSource) poolDataSource;
-            
+
             System.out.println("=== Connection Pool Statistics ===");
             System.out.println("Available Connections: " + pds.getAvailableConnectionsCount());
             System.out.println("Borrowed Connections: " + pds.getBorrowedConnectionsCount());
             System.out.println("Peak Pool Size: " + pds.getPeakPoolSize());
             System.out.println("Connection Pool Size: " + pds.getPoolSize());
             System.out.println("================================");
-            
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -859,22 +859,22 @@ public class ConnectionPoolMonitor {
 
 // Query performance monitoring
 public class QueryPerformanceMonitor {
-    
+
     public <T> T executeWithTiming(String operationName, Supplier<T> operation) {
         long startTime = System.currentTimeMillis();
-        
+
         try {
             T result = operation.get();
             long duration = System.currentTimeMillis() - startTime;
-            
+
             System.out.println(operationName + " executed in " + duration + "ms");
-            
+
             if (duration > 1000) { // Log slow queries
                 System.out.println("SLOW QUERY DETECTED: " + operationName);
             }
-            
+
             return result;
-            
+
         } catch (Exception e) {
             System.err.println("Error in " + operationName + ": " + e.getMessage());
             throw e;

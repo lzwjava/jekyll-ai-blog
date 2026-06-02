@@ -15,31 +15,31 @@ type: note
 ### 理论试卷模拟题（标准100分卷）
 
 #### 一、单项选择题（每题1分，共20分）
-1. 下列哪项是HTML5文档的正确结构？  
-   - A. `<html><head><body>`  
-   - B. `<!DOCTYPE html><html><head><body>`  
-   - C. `<head><html><body>`  
+1. 下列哪项是HTML5文档的正确结构？
+   - A. `<html><head><body>`
+   - B. `<!DOCTYPE html><html><head><body>`
+   - C. `<head><html><body>`
    - D. `<body><html><head>`
 
-2. 在CSS中，哪种选择器的优先级最高？  
-   - A. `#header`  
-   - B. `.nav`  
-   - C. `div`  
+2. 在CSS中，哪种选择器的优先级最高？
+   - A. `#header`
+   - B. `.nav`
+   - C. `div`
    - D. `p`
 
-3. 链接外部CSS文件的正确定义方式是：  
-   - A. `<link rel="stylesheet" type="text/css" href="style.css">`  
-   - B. `<style src="style.css">`  
-   - C. `<css href="style.css">`  
+3. 链接外部CSS文件的正确定义方式是：
+   - A. `<link rel="stylesheet" type="text/css" href="style.css">`
+   - B. `<style src="style.css">`
+   - C. `<css href="style.css">`
    - D. `<link href="style.css" type="stylesheet">`
 
 （后续继续包含HTML标签、CSS盒模型、色彩模式、文件路径等题型）
 
 #### 二、多项选择题（每题2分，共10分）
-1. 以下哪些是HTML中的块级元素？（ ）  
+1. 以下哪些是HTML中的块级元素？（ ）
    - A. `<div>`  B. `<span>`  C. `<p>`  D. `<img>`
 
-2. CSS中哪些单位属于相对单位？（ ）  
+2. CSS中哪些单位属于相对单位？（ ）
    - A. px  B. em  C. %  D. rem
 
 #### 三、判断题（每题1分，共10分）
@@ -71,7 +71,7 @@ type: note
 #### 任务一 —— 基础静态页面（40分）
 仅使用HTML和CSS（禁用JavaScript及框架），创建符合以下要求的完整网站：
 
-1. 文件夹结构：  
+1. 文件夹结构：
    ```
    exam/
    ├─ index.html

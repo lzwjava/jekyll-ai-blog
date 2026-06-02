@@ -19,7 +19,7 @@ Cline might not be detecting a newly created file due to delays in workspace ind
 - **Refresh the Workspace**: After creating a new file, manually refresh VSCode’s workspace to ensure Cline picks it up.
   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette.
   - Type `Reload Window` and select it. This reloads VSCode and forces Cline to re-index the workspace.
-  
+
 - **Check File Creation Method**: If you’re creating files outside VSCode (e.g., via terminal or another editor), VSCode’s file watcher might not immediately detect them.
   - Try creating the file directly in VSCode (right-click in Explorer > New File) and see if Cline recognizes it.
   - If using an external tool, ensure the file is saved in the workspace directory Cline is monitoring.

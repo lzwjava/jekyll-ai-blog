@@ -29,6 +29,6 @@ Starbucks' cost-cutting amid slumping sales has led to complaints of rushed, imp
 
 In a dramatic recent move, Starbucks announced on November 3, 2025, that it's selling a controlling 60% stake in its China operations to investment firm Boyu Capital for about $4 billion, forming a joint venture while retaining 40% ownership and full brand control. This values the business at over $13 billion total and signals a strategic pivot to leverage local expertise against ongoing competition.
 
-[Freshly brewed case study: why Starbucks is Struggling in China](https://kathrynread.com/freshly-brewed-case-study-why-starbucks-is-struggling-in-china/)  
-[Starbucks is struggling to grow sales in China. Here's why](https://www.cnbc.com/2025/02/26/starbucks-is-struggling-to-grow-sales-in-china-heres-why.html)  
+[Freshly brewed case study: why Starbucks is Struggling in China](https://kathrynread.com/freshly-brewed-case-study-why-starbucks-is-struggling-in-china/)
+[Starbucks is struggling to grow sales in China. Here's why](https://www.cnbc.com/2025/02/26/starbucks-is-struggling-to-grow-sales-in-china-heres-why.html)
 [Starbucks to sell control of China business to Boyu Capital in $4 billion deal](https://www.cnn.com/2025/11/03/business/starbucks-to-sell-control-of-china-business)

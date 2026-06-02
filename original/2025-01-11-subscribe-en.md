@@ -8,19 +8,19 @@ title: Subscribe
 type: post
 ---
 
-Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on [HuggingFace](https://huggingface.co/lzwjava) or X (Twitter).  
+Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on [HuggingFace](https://huggingface.co/lzwjava) or X (Twitter).
 
-- RSS Feed:  
-  Subscribe using this link: [https://lzwjava.github.io/feeds/feed.xml](https://lzwjava.github.io/feeds/feed.xml).  
+- RSS Feed:
+  Subscribe using this link: [https://lzwjava.github.io/feeds/feed.xml](https://lzwjava.github.io/feeds/feed.xml).
 
-- Audio Feed:  
+- Audio Feed:
   Subscribe using this link: [https://lzwjava.github.io/feeds/audio-feed.xml](https://lzwjava.github.io/feeds/audio-feed.xml).
 
-- Conversation Feed:  
+- Conversation Feed:
   Subscribe using this link: [https://lzwjava.github.io/feeds/conversation-feed.xml](https://lzwjava.github.io/feeds/conversation-feed.xml).
 
-- X (Twitter):  
-  Follow me at [@lzwjava](https://mobile.twitter.com/lzwjava) for updates and more.  
+- X (Twitter):
+  Follow me at [@lzwjava](https://mobile.twitter.com/lzwjava) for updates and more.
 
 Besides, here are some of my platform accounts:
 

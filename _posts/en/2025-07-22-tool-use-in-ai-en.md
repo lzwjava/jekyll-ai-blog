@@ -24,7 +24,7 @@ This is commonly inspired by OpenAI's function calling API, and many providers l
 
 Both Mistral AI and DeepSeek AI support tool calling in their APIs, making them suitable for building agents or applications that require external integrations. Here's a quick comparison based on available information:
 
-- **Support for Tool Use**: 
+- **Support for Tool Use**:
   - Both follow a similar structure to OpenAI's API, allowing easy integration with tools via JSON schemas.
   - Mistral supports it across models like Mistral Large and Medium, with options for agent-based workflows.
   - DeepSeek supports it primarily through its "deepseek-chat" model and is fully compatible with OpenAI's SDK.
@@ -86,13 +86,13 @@ tool_calls = response.choices[0].message.tool_calls
 if tool_calls:
     # Append the model's response to messages
     messages.append(response.choices[0].message)
-    
+
     # Simulate executing the tool (in real code, call an actual API)
     tool_call = tool_calls[0]
     if tool_call.function.name == "get_weather":
         location = eval(tool_call.function.arguments)["location"]
         weather_result = "24°C and sunny"  # Replace with real function call
-        
+
         # Append tool result
         messages.append({
             "role": "tool",
@@ -100,7 +100,7 @@ if tool_calls:
             "name": tool_call.function.name,
             "content": weather_result
         })
-    
+
     # Second API call: Model generates final response
     final_response = client.chat.complete(model=model, messages=messages)
     print(final_response.choices[0].message.content)

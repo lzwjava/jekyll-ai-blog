@@ -40,7 +40,7 @@ type: note
 | **Signal clarity** | Cleaner curves | More noise per point |
 | **Early stopping** | 5 min reaction time | 2 min reaction time |
 
-**My take:** 
+**My take:**
 - For **sweeps/hyperparameter tuning** → `100` makes sense (tighter feedback)
 - For **final training runs** → `250` is fine (you care about trend, not minute-by-minute)
 

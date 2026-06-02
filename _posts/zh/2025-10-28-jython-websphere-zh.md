@@ -24,7 +24,7 @@ type: note
 
 **运行 Jython 脚本的基本步骤：**
 1. 创建 Jython 脚本文件（例如 `example.py`）并编写代码。使用 AdminConfig、AdminControl 和 AdminApp 对象执行 WebSphere 特定操作。
-   
+
    列出所有已安装应用程序的示例脚本（`listApps.py`）：
    ```
    # 列出所有应用程序
@@ -37,17 +37,17 @@ type: note
    ```
 
 2. 使用 `wsadmin` 运行脚本：
-   - 通过 SOAP 连接（远程默认方式）：  
+   - 通过 SOAP 连接（远程默认方式）：
      ```
      wsadmin.sh -lang jython -f listApps.py -host <主机名> -port <soap_port> -user <管理员用户> -password <管理员密码>
      ```
-   - 本地连接（无需主机/端口）：  
+   - 本地连接（无需主机/端口）：
      ```
      wsadmin.sh -lang jython -f listApps.py
      ```
    - 示例输出：列出类似 `DefaultApplication` 的应用程序。
 
-3. 交互模式（REPL）：  
+3. 交互模式（REPL）：
    ```
    wsadmin.sh -lang jython
    ```
@@ -64,13 +64,13 @@ type: note
   ```
   运行：`wsadmin.sh -lang jython -f deployApp.py`。
 
-- **启动/停止服务器：**  
+- **启动/停止服务器：**
   ```
   server = AdminControl.completeObjectName('type=Server,process=server1,*')
   AdminControl.invoke(server, 'start')  # 或 'stop'
   ```
 
-- **指定 Jython 版本（如需要）：** 显式使用 Jython 2.1：  
+- **指定 Jython 版本（如需要）：** 显式使用 Jython 2.1：
   `wsadmin.sh -usejython21 true -f script.py`。对于自定义版本，添加到类路径：`-wsadmin_classpath /path/to/jython.jar`。
 
 **提示：**
@@ -89,7 +89,7 @@ type: note
 3. 导航至 **服务器 > 服务器类型 > WebSphere 应用程序服务器 > [您的服务器]**。
 4. 进入 **Java 和进程管理 > 进程定义 > Java 虚拟机 > 类路径**。
 5. 添加 `jython.jar` 的完整路径（例如 `/opt/.../jython.jar`）。
-6. 在 **通用 JVM 参数** 中添加 Python 路径：  
+6. 在 **通用 JVM 参数** 中添加 Python 路径：
    `-Dpython.path=/opt/.../jython.jar/Lib`（指向 Jython 的标准库）。
 7. 点击 **确定**，保存配置并重启服务器。
 8. 如果在集群环境中，同步节点（通过 **系统管理 > 节点 > 同步**）。
@@ -123,9 +123,9 @@ type: note
 
 如果这与您的具体场景不匹配（例如特定的 WAS 版本或使用案例），请提供更多细节以获取定制建议。
 
-**参考资料：**  
-- [使用 Jython 进行 wsadmin 脚本编写（IBM 文档）](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-using-wsadmin-jython)  
-- [在 WebSphere 上部署 Jython（Oracle 指南）](https://docs.oracle.com/en/applications/jd-edwards/cross-product/9.2/eotos/deploying-jython-on-ais-server-on-ibm-websphere-application.html)  
-- [WebSphere Jython 集成（Stack Overflow）](https://stackoverflow.com/questions/25187577/will-the-ibm-websphere-application-server-run-the-python-jython-script-without-p)  
-- [WebSphere 上的 Jython Wiki](https://wiki.python.org/jython/WebSphere)  
+**参考资料：**
+- [使用 Jython 进行 wsadmin 脚本编写（IBM 文档）](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-using-wsadmin-jython)
+- [在 WebSphere 上部署 Jython（Oracle 指南）](https://docs.oracle.com/en/applications/jd-edwards/cross-product/9.2/eotos/deploying-jython-on-ais-server-on-ibm-websphere-application.html)
+- [WebSphere Jython 集成（Stack Overflow）](https://stackoverflow.com/questions/25187577/will-the-ibm-websphere-application-server-run-the-python-jython-script-without-p)
+- [WebSphere 上的 Jython Wiki](https://wiki.python.org/jython/WebSphere)
 - [使用 Jython 部署应用程序示例](https://jobhunterssite.wordpress.com/2016/05/12/deploy-an-application-in-websphere-using-jython-automation/)

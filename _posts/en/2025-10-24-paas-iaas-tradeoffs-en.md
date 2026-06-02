@@ -39,7 +39,7 @@ You're right—the big clouds excel here by democratizing "bare metal" without a
 
 In short, PaaS/BaaS like Parse/Firebase democratize dev for speed but sacrifice depth, making them "popular enough" for indies—not empires. If your project's simple/real-time, start there; otherwise, the big clouds' flexibility wins out.
 
-[Comparing Cloud Giants: Firebase, AWS, and Azure for Your 2024 Projects](https://lucidsoftech.com/blog/comparing-cloud-giants-firebase-aws-and-azure-for-your-2024-projects)  
-[Firebase vs AWS vs Azure - What are the differences?](https://blog.back4app.com/firebase-vs-aws-vs-azure/)  
-[PaaS vs IaaS vs SaaS: What's the difference?](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)  
+[Comparing Cloud Giants: Firebase, AWS, and Azure for Your 2024 Projects](https://lucidsoftech.com/blog/comparing-cloud-giants-firebase-aws-and-azure-for-your-2024-projects)
+[Firebase vs AWS vs Azure - What are the differences?](https://blog.back4app.com/firebase-vs-aws-vs-azure/)
+[PaaS vs IaaS vs SaaS: What's the difference?](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)
 [AWS vs. Azure vs. Google Cloud: A Complete Comparison](https://www.datacamp.com/blog/aws-vs-azure-vs-gcp)

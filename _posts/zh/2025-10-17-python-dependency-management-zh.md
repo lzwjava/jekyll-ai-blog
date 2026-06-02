@@ -32,16 +32,16 @@ Poetry 通过单一配置文件（`pyproject.toml`）管理依赖关系，创建
 1. 如需安装 `pipx`（可通过系统包管理器或 `python -m pip install --user pipx` 安装）。
 2. 运行：`pipx install poetry`。
 
-更新方法：`pipx upgrade poetry`。  
+更新方法：`pipx upgrade poetry`。
 卸载方法：`pipx uninstall poetry`。
 
 启用 Shell 自动补全（例如 Bash：`poetry completions bash >> ~/.bash_completion`）。
 
 ### 基本用法
-初始化新项目：`poetry init`。  
-添加依赖项：`poetry add requests`。  
-根据锁定文件安装：`poetry install`。  
-运行脚本：`poetry run python script.py`。  
+初始化新项目：`poetry init`。
+添加依赖项：`poetry add requests`。
+根据锁定文件安装：`poetry install`。
+运行脚本：`poetry run python script.py`。
 构建包：`poetry build`。
 
 完整命令请查阅文档。

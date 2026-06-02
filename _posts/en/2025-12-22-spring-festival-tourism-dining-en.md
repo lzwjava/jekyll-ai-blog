@@ -12,7 +12,7 @@ type: note
 
 Question: What businesses thrive during the Spring Festival in China, specifically tourist spots and canteens?
 
-Answer: 
+Answer:
 
 During China's **Spring Festival** (also known as Chinese New Year or Chunjie), the week-long holiday triggers a massive travel rush called *Chunyun*, with billions of trips for family reunions and leisure. This period drives explosive growth in certain industries, particularly tourism and related services.
 
@@ -44,10 +44,10 @@ The overall retail and catering sector benefits from festive spending on meals, 
 
 In summary, **tourist spots and the broader tourism industry** (including hotels, attractions, and transport) thrive the most, while restaurants benefit significantly from festive dining. Canteens, however, generally see reduced activity during this family-focused holiday.
 
-References:  
+References:
 
-- https://english.www.gov.cn/archive/statistics/202502/06/content_WS67a3f8bdc6d0868f4e8ef62a.html  
-- https://news.cgtn.com/news/2025-01-31/Festive-frenzy-Spring-Festival-ignites-China-s-economy-1AC4Uf2y1gI/index.html  
-- https://www.chinadaily.com.cn/a/202502/08/WS67a6d086a310a2ab06eaaea8.html  
-- https://pandayoo.com/post/chinese-spring-festival-tourism-soars-economic-impact-cultural-trends-the-rise-of-county-travel/  
+- https://english.www.gov.cn/archive/statistics/202502/06/content_WS67a3f8bdc6d0868f4e8ef62a.html
+- https://news.cgtn.com/news/2025-01-31/Festive-frenzy-Spring-Festival-ignites-China-s-economy-1AC4Uf2y1gI/index.html
+- https://www.chinadaily.com.cn/a/202502/08/WS67a6d086a310a2ab06eaaea8.html
+- https://pandayoo.com/post/chinese-spring-festival-tourism-soars-economic-impact-cultural-trends-the-rise-of-county-travel/
 - https://www.travelandtourworld.com/news/article/how-did-chinas-spring-festival-spark-a-record-breaking-surge-in-travel-and-consumption-redefining-the-nations-economic-and-cultural-landscape/

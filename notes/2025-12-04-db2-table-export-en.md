@@ -79,11 +79,11 @@ db2 "EXPORT TO filename OF export_format [options] SELECT_statement"
 | `STRIPBLANKS`       | Trim trailing blanks |
 
 ### Alternative Methods
-- **db2look** – to export table structure (DDL) only  
+- **db2look** – to export table structure (DDL) only
   `db2look -d MYDB -t SCHEMA.TABLE -e > table_ddl.sql`
-- **db2move** – to export multiple/all tables at once (IXF format)  
+- **db2move** – to export multiple/all tables at once (IXF format)
   `db2move MYDB EXPORT`
 
-References:  
-- [IBM DB2 EXPORT command documentation](https://www.ibm.com/docs/en/db2/11.5?topic=commands-export)  
+References:
+- [IBM DB2 EXPORT command documentation](https://www.ibm.com/docs/en/db2/11.5?topic=commands-export)
 - [db2move utility](https://www.ibm.com/docs/en/db2/11.5?topic=commands-db2move)

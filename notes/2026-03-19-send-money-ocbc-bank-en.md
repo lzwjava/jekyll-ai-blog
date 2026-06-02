@@ -11,7 +11,7 @@ type: note
 
 **Question:** If I send money through HSBC HK using "pay to global payee" with the next business day option for a 70 HKD fee, should I send it to an OCBC Global Savings Account, a Statement Savings Account, or a Visa card?
 
-**Answer:** 
+**Answer:**
 
 When using HSBC Hong Kong's "pay to global payee" (likely referring to Global Money Transfers or "Send like a local" under Global Payments for non-HSBC accounts), the **70 HKD fee** typically applies to eligible transfers to other banks in supported countries/regions (including Singapore in SGD), often with next business day or 1-2 business day arrival and potential savings on overseas charges.
 
@@ -25,7 +25,7 @@ You should send the money to an **OCBC bank account** (either the Global Savings
 
 For the most accurate/current confirmation, check the HSBC HK App under the transfer options for Singapore or refer to HSBC's latest tariff guide (section on global payments), as options can depend on your HSBC account type (e.g., Premier/One may have waivers or better terms).
 
-**References:**  
+**References:**
 
 - [HSBC HK International Transfers / Global Payments](https://www.hsbc.com.hk/transfer-payments/products/international)
 - [HSBC HK Send Like a Local / Global Money Transfers to other banks](https://www.hsbc.com.hk/transfer-payments/products/international/global-transfers-to-other-banks)

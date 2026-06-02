@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to the Computer History Museum
 
-Answer: 
+Answer:
 
 **Computer History Museum**（通常简称为 **CHM**）是一家位于加利福尼亚州 **Mountain View**、硅谷核心地带的非营利性博物馆。它被广泛认为是全球最大、最重要的计算文物收藏地，致力于保存计算机、software 以及更广泛的信息时代的历史。
 
@@ -43,7 +43,7 @@ Answer:
 
 该博物馆尤其吸引科技爱好者、学生、历史学家，以及任何对计算机如何改变世界感兴趣的人。它常被描述为硅谷的“必游之地”，因为它全面且生动地展示了从前电子时代到当今数字时代的计算故事。
 
-References:  
+References:
 
 - [Computer History Museum Official Website](https://computerhistory.org/)
 - [Wikipedia: Computer History Museum](https://en.wikipedia.org/wiki/Computer_History_Museum)

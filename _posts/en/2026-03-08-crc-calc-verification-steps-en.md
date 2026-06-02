@@ -54,7 +54,7 @@ Step-by-step XOR long division:
   11001
   ---------
    10111           ← XOR result (drop leading 0)
-   
+
   101110           ← bring down next bit
   11001
   ---------

@@ -12,7 +12,7 @@ type: note
 
 Question: What is an Ethernet bridge? How does it work?
 
-Answer: 
+Answer:
 
 An **Ethernet bridge** (also known as a network bridge) is a Layer 2 (Data Link layer) networking device that connects multiple Ethernet network segments into a single logical network. It filters and forwards Ethernet frames based on MAC addresses, reducing unnecessary traffic and collisions compared to hubs or repeaters.
 
@@ -26,7 +26,7 @@ An **Ethernet bridge** (also known as a network bridge) is a Layer 2 (Data Link 
 ### How It Works
 Ethernet bridges use a process called **transparent bridging** (IEEE 802.1D standard), involving learning, forwarding, filtering, and flooding:
 
-1. **Learning**: 
+1. **Learning**:
    - The bridge maintains a **forwarding table** (MAC address table or CAM table).
    - When a frame arrives on a port, the bridge records the **source MAC address** and the incoming port in its table.
    - Entries age out after a timeout (typically 300 seconds) if not refreshed.
@@ -53,7 +53,7 @@ Ethernet bridges use a process called **transparent bridging** (IEEE 802.1D stan
 
 In practice, bridges were common in early Ethernet networks but have been largely replaced by switches, which perform the same functions faster and with more ports.
 
-References:  
+References:
 
 - [Network bridge - Wikipedia](https://en.wikipedia.org/wiki/Network_bridge)
 - [Bridges - How Ethernet Works | HowStuffWorks](https://computer.howstuffworks.com/ethernet12.htm)

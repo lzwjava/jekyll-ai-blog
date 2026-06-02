@@ -31,7 +31,7 @@ type: note
 export MIMO_API_KEY="your_key_here"
 ```
 
-基础 URL：`https://api.xiaomimimo.com/v1`  
+基础 URL：`https://api.xiaomimimo.com/v1`
 最新模型：`mimo-v2.5-pro`
 
 ## 2 天内高效消耗令牌的方法

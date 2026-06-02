@@ -12,10 +12,10 @@ type: note
 
 Question: In the essay "The Lights of Aierke," the reason "I" seemed to see the lights on Halishi Island is because
 
-A. a familiar voice gently sang this old European legend in my ear  
-B. I also once had a sister and had promised to come back one day to see her  
-C. the lights were calling me, and I wished wings would grow under my arms so I could fly there immediately  
-D. this must be the lamp of my soul, which always shows me the way I should go  
+A. a familiar voice gently sang this old European legend in my ear
+B. I also once had a sister and had promised to come back one day to see her
+C. the lights were calling me, and I wished wings would grow under my arms so I could fly there immediately
+D. this must be the lamp of my soul, which always shows me the way I should go
 
 Answer: B
 
@@ -41,6 +41,6 @@ In other words, it is the parallel between his own life experience (having a sis
 
 The most immediate and textually supported reason is the memory of his sister and the unfulfilled promise → **B**.
 
-References:  
+References:
 
 - None (analysis based on the original text of Ba Jin's 《爱尔克的灯光》)

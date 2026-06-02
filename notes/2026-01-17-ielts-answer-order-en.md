@@ -12,9 +12,9 @@ type: note
 
 Question: In the IELTS exam, for sections like Reading and Listening, can we finish the later (tail/end) part of the questions in a section first? Does that mean we don't need to follow a strict order, allowing us to be more flexible and relaxed?
 
-Answer: 
+Answer:
 
-**Yes, in both IELTS Academic and General Training, you are allowed to answer questions in any order you prefer within each section.**  
+**Yes, in both IELTS Academic and General Training, you are allowed to answer questions in any order you prefer within each section.**
 You do **not** have to follow the strict order of the questions.
 
 ### Listening (most flexible)
@@ -43,11 +43,11 @@ You do **not** have to follow the strict order of the questions.
 - You avoid getting stuck on one difficult question and wasting 3–5 minutes (very common mistake).
 - Especially useful when time is tight in Reading Passage 3 or in Listening Section 4.
 
-**Best practice tip**:  
+**Best practice tip**:
 During practice, try **several different orders** (e.g. easiest questions first vs. last passage first vs. keyword-jumping in Listening) and see which mental approach makes **you** feel calmest and score highest. Then use that same strategy on test day.
 
-References:  
+References:
 
-- Official IELTS website guidance on test format and question answering order  
-  [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)  
+- Official IELTS website guidance on test format and question answering order
+  [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)
   [https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading)

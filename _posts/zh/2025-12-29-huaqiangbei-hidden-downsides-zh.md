@@ -26,7 +26,7 @@ type: note
 
 这些观点与华强北作为充满惊喜、物美价廉的科技天堂的流行形象形成了鲜明对比，但它们反映了资深游客、当地人和行业观察者的担忧，他们认为这里乱象丛生且已巅峰不再。
 
-References:  
+References:
 
 - [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
 - [没人关心华强北的明天 (No one cares about Huaqiangbei's tomorrow)](https://www.jiemian.com/article/3718423.html)

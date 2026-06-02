@@ -22,9 +22,9 @@ Wait — turns out this **is** on your server (`lzw-server`), not the laptop. It
 
 **Theoretical FLOPS (RTX 4070):**
 - **FP32:** ~29.1 TFLOPS
-- **FP16:** ~58.2 TFLOPS  
+- **FP16:** ~58.2 TFLOPS
 - **Tensor Cores (FP16, sparse):** ~233 TFLOPS
 
-Only Xorg and gnome-shell are using the GPU (~207 MiB total). It's basically twiddling its thumbs right now. 
+Only Xorg and gnome-shell are using the GPU (~207 MiB total). It's basically twiddling its thumbs right now.
 
 So your **laptop** has the 4070 Ti — this server has the regular 4070. Want to put this thing to work?

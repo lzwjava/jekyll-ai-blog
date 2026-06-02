@@ -14,51 +14,51 @@ To add a group to a Change Request in ServiceNow, you need to assign a group to 
 
 ### Step-by-Step Guide
 
-1. **Navigate to the Change Request Module**  
-   - Log in to your ServiceNow instance.  
-   - In the left-hand navigation pane, type "Change" in the filter navigator.  
+1. **Navigate to the Change Request Module**
+   - Log in to your ServiceNow instance.
+   - In the left-hand navigation pane, type "Change" in the filter navigator.
    - Select **Change > All** to view the list of all Change Requests.
 
-2. **Open the Change Request**  
-   - Locate the specific Change Request you want to assign a group to. You can use the search bar or filters (e.g., by Change Request number or short description).  
+2. **Open the Change Request**
+   - Locate the specific Change Request you want to assign a group to. You can use the search bar or filters (e.g., by Change Request number or short description).
    - Click on the Change Request to open its form.
 
-3. **Locate the Assignment Group Field**  
+3. **Locate the Assignment Group Field**
    - On the Change Request form, find the **Assignment group** field. This is typically located in the "Planning" or "Assignment" section of the form, depending on your instance’s configuration.
 
-4. **Select the Group**  
-   - Click the magnifying glass icon (reference lookup) next to the **Assignment group** field.  
-   - A pop-up window will display a list of available groups.  
-   - Type the name of the group in the search box to filter the list, then select the desired group by clicking on it.  
+4. **Select the Group**
+   - Click the magnifying glass icon (reference lookup) next to the **Assignment group** field.
+   - A pop-up window will display a list of available groups.
+   - Type the name of the group in the search box to filter the list, then select the desired group by clicking on it.
    - If you know the exact group name, you can also start typing it directly in the field, and ServiceNow will suggest matching groups.
 
-5. **Save the Changes**  
+5. **Save the Changes**
    - After selecting the group, click **Update** or **Save** (usually found at the top or bottom of the form) to save your changes to the Change Request.
 
 ---
 
 ### Important Considerations
 
-- **Group Type**  
-   Ensure the group you want to assign is configured with an appropriate group type (e.g., "Change" or "ITIL"). Some ServiceNow instances restrict the groups available in the **Assignment group** field based on their type. To check or update a group’s type:  
+- **Group Type**
+   Ensure the group you want to assign is configured with an appropriate group type (e.g., "Change" or "ITIL"). Some ServiceNow instances restrict the groups available in the **Assignment group** field based on their type. To check or update a group’s type:
    - Go to **User Administration > Groups**, find the group, and verify its "Type" field.
 
-- **Permissions**  
+- **Permissions**
    You need sufficient permissions to assign groups to a Change Request. Typically, roles like `change_manager` or equivalent are required. If you can’t assign a group, contact your ServiceNow administrator to confirm your access.
 
-- **Reference Qualifiers**  
+- **Reference Qualifiers**
    The **Assignment group** field might have filters (reference qualifiers) that limit which groups appear. If the group you want isn’t listed, it could be due to a configuration in the field’s dictionary settings. An administrator can check this under **System Definition > Dictionary**.
 
-- **Automated Assignment (Optional)**  
+- **Automated Assignment (Optional)**
    While this guide covers manual assignment, note that groups can also be assigned automatically using workflows or assignment rules configured by your organization.
 
 ---
 
 ### Troubleshooting
-- **Group Not Appearing?**  
-   - Verify the group exists in **User Administration > Groups**.  
-   - Check its group type and any reference qualifiers on the **Assignment group** field.  
-- **No Permission to Save?**  
+- **Group Not Appearing?**
+   - Verify the group exists in **User Administration > Groups**.
+   - Check its group type and any reference qualifiers on the **Assignment group** field.
+- **No Permission to Save?**
    - Ensure you have the necessary role to edit Change Requests.
 
 By following these steps and considering the above points, you should be able to successfully add a group to a Change Request in ServiceNow. If you encounter issues, consult your ServiceNow administrator for assistance tailored to your instance’s setup.

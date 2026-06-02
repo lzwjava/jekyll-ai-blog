@@ -12,7 +12,7 @@ type: note
 
 Question: In what cases does DHCP fail when connecting an iPhone and Mac via adapters/converters to a 5-port Mercury Ethernet switch, which is then connected to a router, and why does the connection order matter (e.g., needing to connect the iPhone first after disconnecting the Mac)?
 
-Answer: 
+Answer:
 
 Your setup involves connecting both an iPhone (likely via a USB-C/Lightning to Ethernet adapter) and a Mac (via Thunderbolt/USB-C to Ethernet adapter) to a 5-port unmanaged Ethernet switch (probably a Mercusys or similar brand basic switch), with one port on the switch uplinked to your router. The router acts as the DHCP server, assigning IP addresses to devices on the network.
 
@@ -46,10 +46,10 @@ The intermittent DHCP issues, where one device (often the iPhone) fails to get a
 
 This behavior is a known quirk in some home networks with switches and USB Ethernet adapters, particularly with Apple devices.
 
-References:  
+References:
 
-- https://apple.stackexchange.com/questions/317888/apple-usb-ethernet-adapter-has-a-self-assigned-ip-address-and-will-not-be-able-t  
-- https://discussions.apple.com/thread/6497865  
-- https://apple.stackexchange.com/questions/297328/my-mac-wont-connect-with-ethernet-but-will-to-wireless  
-- https://forums.tomshardware.com/threads/can-dhcp-be-effected-by-a-network-switch.3696191/  
+- https://apple.stackexchange.com/questions/317888/apple-usb-ethernet-adapter-has-a-self-assigned-ip-address-and-will-not-be-able-t
+- https://discussions.apple.com/thread/6497865
+- https://apple.stackexchange.com/questions/297328/my-mac-wont-connect-with-ethernet-but-will-to-wireless
+- https://forums.tomshardware.com/threads/can-dhcp-be-effected-by-a-network-switch.3696191/
 - https://serverfault.com/questions/161225/router-dhcp-not-working-with-switch

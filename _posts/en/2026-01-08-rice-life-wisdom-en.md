@@ -12,7 +12,7 @@ type: note
 
 Question: What is the wisdom of growing rice? What can we learn from that?
 
-Answer: 
+Answer:
 
 The "wisdom of growing rice" primarily refers to profound life lessons and cultural values derived from rice cultivation, especially in Asian societies where rice farming has shaped philosophies, proverbs, and social norms for centuries.
 
@@ -36,7 +36,7 @@ These insights appear in proverbs across China, Japan, Indonesia, and Southeast 
 
 Overall, growing rice symbolizes that true growth—personal or societal—comes from humility, sustained effort, community, and patience.
 
-References:  
+References:
 
 - [Chicago Booth Review: What Rice Farming Can Teach Us about Happiness](https://www.chicagobooth.edu/review/what-rice-farming-can-teach-us-about-happiness)
 - [Medium: Life Lessons from a Rice Field](https://medium.com/@arjeanvlog/life-lessons-from-a-rice-field-7559280b4022)

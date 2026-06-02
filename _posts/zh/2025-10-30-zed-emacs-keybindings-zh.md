@@ -89,7 +89,7 @@ Zed 的 Emacs 模式是预定义的，无需为基本操作手动设置绑定。
 
 这应该能让您获得 80% 的基础 Emacs 体验。从内置功能开始，然后逐步迭代！
 
-[键位绑定文档](https://zed.dev/docs/key-bindings)  
-[配置 Zed](https://zed.dev/docs/configuring-zed)  
-[Emacs 键位映射讨论](https://github.com/zed-industries/zed/discussions/6572)  
+[键位绑定文档](https://zed.dev/docs/key-bindings)
+[配置 Zed](https://zed.dev/docs/configuring-zed)
+[Emacs 键位映射讨论](https://github.com/zed-industries/zed/discussions/6572)
 [Emacs 兼容性问题](https://github.com/zed-industries/zed/issues/4856)

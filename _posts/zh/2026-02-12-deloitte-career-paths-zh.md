@@ -12,7 +12,7 @@ type: note
 
 **Question:** Deloitte 最近在 Job titles 方面做了哪些调整，包括取消长期使用的头衔、增加 Skills labels，以及允许 Individual contributors (ICs) 达到 Partner 级别？
 
-**Answer:** 
+**Answer:**
 
 Deloitte（特别是美国分部）在 2026 年 1 月宣布对其 Job titles 和 Talent architecture 进行重大改革，变更将于 2026 年 6 月 1 日起生效。这适用于全美各部门约 181,500 名员工。
 
@@ -38,7 +38,7 @@ Deloitte（特别是美国分部）在 2026 年 1 月宣布对其 Job titles 和
 
 这主要是 2026 年初宣布的美国分部变动；随着时间的推移，它可能会影响全球实践，但目前尚未在其他地区确认。
 
-**References:**  
+**References:**
 
 - [Deloitte is overhauling job titles for its US workforce — here's why](https://www.businessinsider.com/deloitte-gives-us-employees-new-job-titles-leader-role-2026-1)
 - ['Talent architecture' | Deloitte US launches company-wide overhaul of job titles amid AI shift](https://www.hrgrapevine.com/us/content/article/2026-01-30-deloitte-plans-us-wide-reset-of-job-titles-as-it-incorporates-ai)

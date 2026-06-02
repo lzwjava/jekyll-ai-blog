@@ -63,7 +63,7 @@ HTTP_PROXY=http://127.0.0.1:7890 curl -I https://www.google.com
 
 您是否需要手动查找和清除 Camoufox 下载缓存的命令，以便重新开始？
 
-参考资料：  
-- https://github.com/apify/camoufox-js  
-- https://www.npmjs.com/package/@askjo/camoufox-browser  
+参考资料：
+- https://github.com/apify/camoufox-js
+- https://www.npmjs.com/package/@askjo/camoufox-browser
 - https://www.mintlify.com/jo-inc/camofox-browser/installation

@@ -26,7 +26,7 @@ Your issue is very typical for people in mainland China (especially South China 
 - So even though you are “detouring” through the proxy, the actual path is much faster than the direct international exit from mainland China.
 
 ### In short
-Direct (even via hf-mirror.com) from Guangzhou → slow because the real storage is still in the US, and China → US bandwidth for big files is terrible in 2025.  
+Direct (even via hf-mirror.com) from Guangzhou → slow because the real storage is still in the US, and China → US bandwidth for big files is terrible in 2025.
 Clash proxy (HK/TW/JP/SG node) → fast because those nodes have excellent connectivity to US AWS.
 
 ### Recommended solutions (from fastest to slowest)

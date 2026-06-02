@@ -11,7 +11,7 @@ type: note
 
 **问题：** 如何为 Claude Code 制作插件，以及我们可以使用哪些 API 来与 Claude Code 集成？
 
-**回答：** 
+**回答：**
 
 **Claude Code** 是 Anthropic 的 agentic coding tool（基于终端，支持 VS Code / JetBrains 扩展），它允许 Claude 阅读/编辑文件、运行命令并处理开发工作流。
 
@@ -30,7 +30,7 @@ type: note
    mkdir -p .claude-plugin
    ```
 
-2. **创建 manifest 文件**  
+2. **创建 manifest 文件**
    这是必需的——将其放置在 `.claude-plugin/plugin.json`
 
    最小示例：
@@ -87,36 +87,36 @@ Claude Code 本身 **不** 暴露传统的公共 REST API 用于插件（大多�
 
 然而，存在几个集成点：
 
-- **Anthropic API (Messages / Tool Use API)**  
-  构建自定义 agents/tools 与 Claude 模型交互的核心方式。  
+- **Anthropic API (Messages / Tool Use API)**
+  构建自定义 agents/tools 与 Claude 模型交互的核心方式。
   您可以构建外部 tools/servers，Claude Code 通过 **tool use** 调用它们。
 
-- **Code Execution Tool** (in API: `code_execution_20250825`)  
+- **Code Execution Tool** (in API: `code_execution_20250825`)
   允许 Claude 在 sandbox 中运行 Python/Node/Bash——许多插件间接利用由此驱动的模型能力。
 
-- **Computer Use Tool** (beta)  
-  允许 Claude 控制桌面（截图、鼠标、键盘）。  
+- **Computer Use Tool** (beta)
+  允许 Claude 控制桌面（截图、鼠标、键盘）。
   对于非常高级的自动化插件很有用。
 
-- **MCP Servers** (Multi-step Custom Processes)  
+- **MCP Servers** (Multi-step Custom Processes)
   您可以编写轻量级 HTTP 服务器，Claude Code 在复杂工作流中调用它们。
 
-- **Agent SDK** (for programmatic control)  
+- **Agent SDK** (for programmatic control)
   允许以编程方式加载插件并从代码构建自定义 Claude Code 会话。
 
-- **External APIs via Tool Use**  
+- **External APIs via Tool Use**
   您以标准的 Anthropic tool-use 格式定义 tools → Claude 决定何时调用它们 → 您的代码执行 API 调用（GitHub、天气、数据库、Slack 等）。
 
-对于 2026 年的大多数插件作者，您 **无需** 编写 API 服务器——只需编写优秀的 Markdown prompts/commands/skills。  
+对于 2026 年的大多数插件作者，您 **无需** 编写 API 服务器——只需编写优秀的 Markdown prompts/commands/skills。
 如果需要深度编程集成（调用外部 API、持久状态等），请结合 **tool use + 您自己的 backend**。
 
-**官方起点**  
+**官方起点**
 → https://code.claude.com/docs/en/plugins
 
-**示例与灵感**  
+**示例与灵感**
 在 GitHub 上搜索 "claude-code-plugin" 或访问社区 marketplace 如 buildwithclaude.com
 
-参考资料：  
+参考资料：
 
 - [Create plugins - Claude Code Docs](https://code.claude.com/docs/en/plugins)
 - [How to Build Claude Code Plugins: A Step-by-Step Guide | DataCamp](https://www.datacamp.com/tutorial/how-to-build-claude-code-plugins)

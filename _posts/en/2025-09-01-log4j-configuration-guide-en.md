@@ -48,7 +48,7 @@ If you're using Log4j 1.x, upgrade to 2.x—it's faster and has better features.
    ```java
    import org.apache.logging.log4j.LogManager;
    import org.apache.logging.log4j.Logger;
-   
+
    public class MyClass {
        private static final Logger logger = LogManager.getLogger(MyClass.class);
        // Log messages: logger.debug("Debug message"); logger.info("Info message");

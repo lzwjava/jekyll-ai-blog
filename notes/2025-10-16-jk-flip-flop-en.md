@@ -39,7 +39,7 @@ The JK flip-flop is essentially an SR flip-flop with a clever **feedback mechani
 
 The key upgrade is internal feedback from the outputs (Q and Q̅) that feeds back into the gates. This makes the behavior when J=1 and K=1 **toggle** instead of undefined—meaning the output Q flips to the opposite of its current value (0 becomes 1, or 1 becomes 0).
 
-Why does this happen? 
+Why does this happen?
 - In the SR, S=1 and R=1 directly conflicts.
 - In JK, the feedback uses AND gates: The J input is ANDed with Q̅ (not Q), and K is ANDed with Q. This creates a "delayed" or conditional set/reset that resolves the conflict by toggling.
 
@@ -57,7 +57,7 @@ Here's the truth table for a JK flip-flop (edge-triggered on rising clock):
 #### 3. How the Feedback Mechanism Works (Intuitive View)
 Imagine the JK as an SR with "smart wiring":
 - Without feedback, J=1 and K=1 would jam the SR into conflict.
-- The feedback adds logic: 
+- The feedback adds logic:
   - For J: It only "sets" if Q is currently 0 (via Q̅ feedback).
   - For K: It only "resets" if Q is currently 1 (via Q feedback).
 - When both are 1, it effectively does a "set if low, reset if high"—which is exactly toggling!

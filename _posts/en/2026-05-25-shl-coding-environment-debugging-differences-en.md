@@ -50,7 +50,7 @@ public class Solution {
         // test inline
         System.out.println(solve(new int[]{1,2,3}));
     }
-    
+
     static int solve(int[] arr) {
         // your logic
         return 0;

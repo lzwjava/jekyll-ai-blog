@@ -57,6 +57,6 @@ type: note
 
 本讲座通过可视化类比（如将注意力比作翻译中的"光标"）和代码逐行解析，将抽象概念具象化，被誉为最佳入门教程。其以直觉构建取代复杂公式的教学方式，尤其适合初学者入门。
 
-[斯坦福CS25：Transformer统一架构讲座摘要](https://www.deciphr.ai/podcast/stanford-cs25-v2-i-introduction-to-transformers-w-andrej-karpathy-2)  
-[Transformer导论笔记](https://ersantana.com/llm/stanford_cs25_transformers/02_intro_to_transformers)  
+[斯坦福CS25：Transformer统一架构讲座摘要](https://www.deciphr.ai/podcast/stanford-cs25-v2-i-introduction-to-transformers-w-andrej-karpathy-2)
+[Transformer导论笔记](https://ersantana.com/llm/stanford_cs25_transformers/02_intro_to_transformers)
 [YouTube视频](https://www.youtube.com/watch?v=XfpMkf4rD6E)

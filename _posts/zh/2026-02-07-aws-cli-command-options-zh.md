@@ -12,7 +12,7 @@ type: note
 
 Question: 请对 AWS CLI 命令选项进行全面的介绍。
 
-Answer: 
+Answer:
 
 **AWS Command Line Interface (AWS CLI)** 是从终端管理 AWS 服务的统一工具。大多数命令遵循以下通用结构：
 

@@ -11,9 +11,9 @@ type: note
 
 Question: In a network environment configured with QoS, what characteristic of network performance is enhanced, allowing for effective bandwidth allocation and more reasonable utilization of network resources?
 
-Answer: 
+Answer:
 
-In a network environment configured with **Quality of Service (QoS)**, the **predictability** (or **foreseeability**) of network performance is enhanced. 
+In a network environment configured with **Quality of Service (QoS)**, the **predictability** (or **foreseeability**) of network performance is enhanced.
 
 ### Explanation:
 - **QoS Mechanisms**: QoS technologies prioritize specific types of traffic (e.g., voice, video, critical business applications) over less time-sensitive data. This is achieved through techniques like traffic classification, marking, queuing, policing, and shaping.

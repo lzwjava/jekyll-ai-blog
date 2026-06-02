@@ -35,6 +35,6 @@ type: note
 -  ping CN2测试站点 `www.cn2.net`，若延迟低于200ms可能具备部分CN2访问能力
 - 联系美宜佳或中国电信客服确认线路类型（升级时可询问“CN2 GIA”）
 
-[中国电信CN2概览](https://www.ctamericas.com/company/global-network/cn2/)  
-[203.215.237.42 IP信息](https://ipinfo.io/203.215.237.42)  
+[中国电信CN2概览](https://www.ctamericas.com/company/global-network/cn2/)
+[203.215.237.42 IP信息](https://ipinfo.io/203.215.237.42)
 [CN2与ChinaNet指南](http://chihengcloud.com/en/blog/cloudservice/what-is-cn2-network-a-3-minute-guide-to-types-and-features/)

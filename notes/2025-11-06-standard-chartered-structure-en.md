@@ -38,5 +38,5 @@ This structure aligns with SCB's "One Bank" strategy, emphasizing collaboration 
 
 For the most current details, refer to SCB's official resources.
 
-[Standard Chartered Annual Report 2024](https://www.sc.com/en/investors/financial-reports/)  
+[Standard Chartered Annual Report 2024](https://www.sc.com/en/investors/financial-reports/)
 [Standard Chartered About Us - Our Structure](https://www.sc.com/en/about/)

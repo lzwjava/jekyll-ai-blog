@@ -25,7 +25,7 @@ class MyopiaCalculator {
         if (calculateBtn) {
             calculateBtn.addEventListener('click', () => this.calculateImprovement());
         }
-        
+
         if (addMeasurementBtn) {
             addMeasurementBtn.addEventListener('click', () => this.addMeasurement());
         }
@@ -96,7 +96,7 @@ class MyopiaCalculator {
 
         this.measurements.push(measurement);
         this.measurements.sort((a, b) => new Date(a.date) - new Date(b.date));
-        
+
         this.displayMeasurements();
         this.calculateImprovement();
         this.clearForm();
@@ -210,7 +210,7 @@ class MyopiaCalculator {
             ['myopia', 'astigmatism'].forEach(condition => {
                 const data = improvements[eye][condition];
                 const monthlyImprovement = data.improvement / monthsElapsed;
-                
+
                 if (monthlyImprovement > 0 && data.current > 0) {
                     const monthsToRecovery = data.current / monthlyImprovement;
                     projections[eye][condition] = {
@@ -299,24 +299,24 @@ class MyopiaCalculator {
             <div class="results-summary">
                 <h3>Vision Improvement Analysis</h3>
                 <p><strong>Time Period:</strong> ${results.timeSpan.months} months (${results.timeSpan.years} years)</p>
-                
+
                 <div class="eye-results">
                     <div class="left-eye">
                         <h4>Left Eye</h4>
                         <div class="improvement-stats">
-                            <p><strong>Myopia:</strong> ${results.leftEye.myopia.initial}° ’ ${results.leftEye.myopia.current}° 
+                            <p><strong>Myopia:</strong> ${results.leftEye.myopia.initial}° ’ ${results.leftEye.myopia.current}°
                                (${results.leftEye.myopia.improvement > 0 ? '-' : ''}${Math.abs(results.leftEye.myopia.improvement)}°, ${results.leftEye.myopia.percentage}% improvement)</p>
-                            <p><strong>Astigmatism:</strong> ${results.leftEye.astigmatism.initial}° ’ ${results.leftEye.astigmatism.current}° 
+                            <p><strong>Astigmatism:</strong> ${results.leftEye.astigmatism.initial}° ’ ${results.leftEye.astigmatism.current}°
                                (${results.leftEye.astigmatism.improvement > 0 ? '-' : ''}${Math.abs(results.leftEye.astigmatism.improvement)}°, ${results.leftEye.astigmatism.percentage}% improvement)</p>
                         </div>
                     </div>
-                    
+
                     <div class="right-eye">
                         <h4>Right Eye</h4>
                         <div class="improvement-stats">
-                            <p><strong>Myopia:</strong> ${results.rightEye.myopia.initial}° ’ ${results.rightEye.myopia.current}° 
+                            <p><strong>Myopia:</strong> ${results.rightEye.myopia.initial}° ’ ${results.rightEye.myopia.current}°
                                (${results.rightEye.myopia.improvement > 0 ? '-' : ''}${Math.abs(results.rightEye.myopia.improvement)}°, ${results.rightEye.myopia.percentage}% improvement)</p>
-                            <p><strong>Astigmatism:</strong> ${results.rightEye.astigmatism.initial}° ’ ${results.rightEye.astigmatism.current}° 
+                            <p><strong>Astigmatism:</strong> ${results.rightEye.astigmatism.initial}° ’ ${results.rightEye.astigmatism.current}°
                                (${results.rightEye.astigmatism.improvement > 0 ? '-' : ''}${Math.abs(results.rightEye.astigmatism.improvement)}°, ${results.rightEye.astigmatism.percentage}% improvement)</p>
                         </div>
                     </div>

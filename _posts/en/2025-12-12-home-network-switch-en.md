@@ -25,7 +25,7 @@ Internet → Modem → Router
                   ↘ Computer 2 (LAN port 2)
                   ↘ Computer 3 (LAN port 3)
 ```
-Works fine if your router has at least 3 free LAN ports (most have 4).  
+Works fine if your router has at least 3 free LAN ports (most have 4).
 No switch required.
 
 ### 2. Most Common Home Setup – Router + One Switch (Recommended)

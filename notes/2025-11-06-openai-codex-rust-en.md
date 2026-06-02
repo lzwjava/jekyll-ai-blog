@@ -41,8 +41,8 @@ OpenAI switched from TypeScript/Node.js to Rust primarily to address limitations
 
 The migration was announced around June 2025, with a burndown list tracking tasks like README updates and Homebrew formula changes. It's still experimental, so expect ongoing refinements.
 
-**References**  
-- [GitHub Repo Overview](https://github.com/openai/codex)  
-- [Reddit Discussion on Rust Rewrite](https://www.reddit.com/r/rust/comments/1lkdu2m/openai_is_ditching_typescript_to_rebuild_codex/)  
-- [Heise Article on Security & Performance Switch](https://www.heise.de/en/news/Security-and-performance-OpenAI-Codex-CLI-switches-from-TypeScript-to-Rust-10425172.html)  
+**References**
+- [GitHub Repo Overview](https://github.com/openai/codex)
+- [Reddit Discussion on Rust Rewrite](https://www.reddit.com/r/rust/comments/1lkdu2m/openai_is_ditching_typescript_to_rebuild_codex/)
+- [Heise Article on Security & Performance Switch](https://www.heise.de/en/news/Security-and-performance-OpenAI-Codex-CLI-switches-from-TypeScript-to-Rust-10425172.html)
 - [SSOJet Blog on Efficiency Gains](https://ssojet.com/blog/openai-codex-transitions-to-rust-enhancing-efficiency-and-power)

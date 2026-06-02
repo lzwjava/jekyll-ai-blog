@@ -43,5 +43,5 @@ If this isn't the exact notification you mean (e.g., if it's an in-app toast lik
 
 Test by running a command that triggers a bell, like `echo -e '\a'`.
 
-[Ghostty Config Reference](https://ghostty.org/docs/config/reference)  
+[Ghostty Config Reference](https://ghostty.org/docs/config/reference)
 [Ghostty Bell Features Discussion](https://github.com/ghostty-org/ghostty/discussions/3242)

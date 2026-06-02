@@ -55,7 +55,7 @@ AlphaGo evolved through several versions, each showing significant improvements:
 
 ### **3. Key Improvements in AlphaGo and its Successors**
 - **Self-Improvement**: One of the most significant improvements was AlphaGo Zero's ability to teach itself from scratch. This removed human bias and allowed it to find novel strategies that humans had never considered.
-  
+
 - **Generalization**: AlphaZero’s ability to generalize across multiple games (not just Go) showed that the architecture was highly versatile and adaptable.
 
 - **Speed and Efficiency**: The efficiency of AlphaGo Master and AlphaGo Zero’s algorithms was drastically improved, enabling quicker decision-making and more in-depth analysis.

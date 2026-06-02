@@ -12,7 +12,7 @@ type: note
 
 Question: What does "coercion" mean?
 
-Answer: 
+Answer:
 
 **Coercion** is the practice of persuading or forcing someone to do something by using threats, intimidation, pressure, or other forms of compulsion, rather than through voluntary agreement or free choice.
 

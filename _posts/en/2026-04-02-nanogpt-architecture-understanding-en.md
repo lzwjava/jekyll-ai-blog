@@ -16,7 +16,7 @@ You're asking exactly the right questions to understand how nanoGPT works under 
 Here's how all the components you mentioned come together to form a complete GPT model:
 
 ```
-Input Tokens (IDs) 
+Input Tokens (IDs)
     ↓
 Token Embeddings + Positional Embeddings
     ↓

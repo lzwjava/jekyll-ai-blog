@@ -30,13 +30,13 @@ Reveal-In-GitHub 是一款 Xcode 插件，可让您从 Xcode 工作区快速跳�
 5. 重启 Xcode
 
 #### 方案二：手动安装
-1. 克隆代码库：  
+1. 克隆代码库：
    ```
    git clone https://github.com/lzwjava/Reveal-In-GitHub.git
    ```
 2. 在 Xcode 中打开 `Reveal-In-GitHub.xcodeproj` 文件
 3. 编译项目（Product > Build 或 ⌘B），将生成 `Reveal-In-GitHub.xcplugin` 文件
-4. 将插件移动至：  
+4. 将插件移动至：
    `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`
 5. 重启 Xcode
 
@@ -60,7 +60,7 @@ Reveal-In-GitHub 是一款 Xcode 插件，可让您从 Xcode 工作区快速跳�
 | **追溯**       | ⌃⇧⌘B      | 打开当前行追溯视图 | https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40 |
 | **通知**       | ⌃⇧⌘N   | 打开代码库通知 | https://github.com/lzwjava/LZAlbum/notifications?all=1 |
 
-- **使用技巧**： 
+- **使用技巧**：
   - 快捷键不会与 Xcode 默认快捷键冲突
   - 若选中文本范围，部分操作（如追溯）将定位到该范围（例如 #L40-L43）
   - 测试方法：打开项目定位到某行，按 ⌃⇧⌘B 即可在浏览器中打开追溯页面

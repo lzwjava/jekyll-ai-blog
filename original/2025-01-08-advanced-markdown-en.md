@@ -28,8 +28,8 @@ You can apply classes to images in Markdown like this:
 
 This will render the image with the specified classes:
 
-{: .centered }  
-![](assets/images/pin/pin.jpg){: .responsive }  
+{: .centered }
+![](assets/images/pin/pin.jpg){: .responsive }
 *Source: Telegram*{: .caption }
 
 ## Table of Contents

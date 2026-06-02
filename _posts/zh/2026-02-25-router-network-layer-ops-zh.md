@@ -27,7 +27,7 @@ D. Application Layer
 
 ### OSI 模型概述（相关层）
 
- 
+
 
 | Layer | Name | Example Devices |
 |---|---|---|
@@ -40,7 +40,7 @@ D. Application Layer
 
 ### 关键比较：Bridge 与 Router
 
- 
+
 
 | 特性 | Bridge | Router |
 |---|---|---|

@@ -46,7 +46,7 @@ import { prepare, layout } from '@chenglou/pretext';
 const prepared = prepare('Hello world! 🚀', '16px Inter');
 
 // 2. Layout: Pure arithmetic (safe to call on every frame/resize)
-const { height, lineCount } = layout(prepared, 300, 20); 
+const { height, lineCount } = layout(prepared, 300, 20);
 // returns height for a 300px width with 20px line-height
 ```
 

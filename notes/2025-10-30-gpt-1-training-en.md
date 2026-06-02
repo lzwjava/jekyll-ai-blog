@@ -54,5 +54,5 @@ Unlike bidirectional models like BERT, GPT-1 uses **masked self-attention** to e
 
 GPT-1 demonstrated that a single pre-trained model could transfer effectively to diverse NLP tasks via simple input formatting, outperforming some task-tuned models at the time. However, it was relatively small compared to modern LLMs (e.g., GPT-3 has 175B parameters) and limited to 512-token contexts. The architecture laid the groundwork for the entire GPT series, emphasizing scalability in pre-training.
 
-[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)  
+[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 [GPT-1 - Wikipedia](https://en.wikipedia.org/wiki/GPT-1)

@@ -12,7 +12,7 @@ type: note
 
 Question: When in the 1990s or before was information mainly spread by word of mouth, such as Jack Ma introducing the internet to his Alibaba cofounders who didn't know what it was because there was no immediate way to demonstrate it? Also, around 2000, people used phones like Nokia for calls, messages, and Snake game only. Regarding Yu Minhong (New Oriental founder) going to Canada to find Xu Xiaoping, and Donald Trump using his phone for business calls as mentioned in his book cover, and in the first season of the TV series "Old Friends" (likely referring to Friends), were there phones and TVs but no apparent internet?
 
-Answer: 
+Answer:
 
 **Yes, your observation is accurate.** In the **1990s and earlier**, especially in China, information and new concepts like the **internet** spread primarily through **word of mouth**, personal stories, newspapers, books, TV, or face-to-face explanations because access to the internet was extremely limited or nonexistent for most people.
 
@@ -33,7 +33,7 @@ Overall, the shift to instant digital demos and widespread information access ha
 
 Your examples perfectly illustrate how recently the world changed from **word-of-mouth + basic phone** to **instant visual/digital sharing**.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Jack_Ma](https://en.wikipedia.org/wiki/Jack_Ma)
 - [https://www.cnnic.com.cn/IDR/hlwfzdsj/201306/t20130628_40563.htm](https://www.cnnic.com.cn/IDR/hlwfzdsj/201306/t20130628_40563.htm)

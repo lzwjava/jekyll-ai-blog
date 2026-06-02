@@ -29,7 +29,7 @@ You mentioned that MiniMax might be more expensive due to a `/think` or reasonin
 * **Xiaomi's Approach:** Xiaomi MiMo-V2-Pro also has a **Reasoning Mode**, but it typically uses fewer tokens to reach an answer compared to MiniMax. However, because its base price is so much higher ($3.00 vs $1.20), the "cheaper" total for Xiaomi only happens on very short, simple tasks where reasoning is minimal.
 
 ### 3. Summary of Cost Differences
-* **Why MiniMax seems "more expensive" in practice:** If you use MiniMax for a complex task, it might generate 2,000 "thinking" tokens to give you a 100-token answer. You are billed for all 2,100 tokens. 
+* **Why MiniMax seems "more expensive" in practice:** If you use MiniMax for a complex task, it might generate 2,000 "thinking" tokens to give you a 100-token answer. You are billed for all 2,100 tokens.
 * **Why Xiaomi is objectively more expensive:** For any fixed amount of data (e.g., a 10,000-word document), Xiaomi will always cost more to process because its base rate per token is higher.
 * **The Context Factor:** Xiaomi offers a much larger **1-million token context window**, which requires more expensive hardware to maintain, contributing to its higher $1/$3 price point.
 

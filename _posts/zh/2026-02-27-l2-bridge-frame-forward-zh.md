@@ -11,12 +11,12 @@ type: note
 
 问题：在 OSI seven-layer reference model 中，bridge 在 data link layer 工作，它实现的转发功能是：
 
-A. Bit forwarding  
-B. Frame forwarding  
-C. Packet forwarding  
-D. Message forwarding  
+A. Bit forwarding
+B. Frame forwarding
+C. Packet forwarding
+D. Message forwarding
 
-答案： 
+答案：
 
 **B. Frame forwarding**
 
@@ -36,6 +36,6 @@ D. Message forwarding
 
 bridge 读取 frame 中的 destination MAC address，在其 MAC address table（也称为 forwarding table 或 CAM table）中查找，并决定从哪个 port 输出 frame —— 这是经典的 **frame forwarding**。
 
-参考文献：  
+参考文献：
 
 - 无（来自 OSI model 和 IEEE 802.1D bridging specification 的标准网络知识）

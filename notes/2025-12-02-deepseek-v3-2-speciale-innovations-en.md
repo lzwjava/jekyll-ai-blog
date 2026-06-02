@@ -12,7 +12,7 @@ type: note
 
 Question: What is special about DeepSeek V3.2 and its Speciale model?
 
-Answer: 
+Answer:
 
 DeepSeek V3.2 is a cutting-edge open-source AI model series from the Chinese AI company DeepSeek, released on December 1, 2025. It builds on the earlier experimental V3.2-Exp version and represents a major advancement in efficient, reasoning-focused large language models (LLMs). The series includes the standard DeepSeek-V3.2 (optimized for everyday use) and the high-compute DeepSeek-V3.2-Speciale variant (tailored for elite reasoning tasks). Both share a 671B-parameter Mixture-of-Experts (MoE) architecture with 37B active parameters per token and a 128K context window, but they excel in balancing computational efficiency with top-tier performance, rivaling or surpassing closed-source models like OpenAI's GPT-5 and Google's Gemini 3.0 Pro.
 

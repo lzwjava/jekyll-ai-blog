@@ -148,7 +148,7 @@ While Discover is for raw checking, visualize for patterns.
 
 ### Create Visualizations:
 1. Go to **Visualize Library** > **Create new visualization**.
-2. Choose type: 
+2. Choose type:
    - **Lens** (easy): Drag fields to buckets (e.g., X-axis: `@timestamp`, Y-axis: count of errors).
    - **Area/Line Chart**: For log volume over time (Metrics: Count, Buckets: Date Histogram on `@timestamp`).
    - **Data Table**: Tabular log summary.
@@ -170,7 +170,7 @@ Example: Error Rate Dashboard
   - Enable ML jobs (Stack Management > Machine Learning) to detect anomalies in log volumes.
 
 - **Dev Tools**:
-  - Console for raw Elasticsearch queries: e.g., 
+  - Console for raw Elasticsearch queries: e.g.,
     ```
     GET logs-*/_search
     {

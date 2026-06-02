@@ -11,7 +11,7 @@ type: note
 
 Question: What is the introduction to the NVIDIA GeForce RTX 5070?
 
-Answer: 
+Answer:
 ## **Overview of the NVIDIA GeForce RTX 5070**
 The **NVIDIA GeForce RTX 5070** is the mid-to-high-range cornerstone of NVIDIA's **Blackwell** architecture. Released in **early 2025**, it is designed primarily as a high-performance **1440p** gaming card that can also handle **4K** gaming in many titles, especially when leveraging its exclusive AI features.
 

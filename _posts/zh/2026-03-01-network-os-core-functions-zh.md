@@ -29,31 +29,31 @@ type: note
 
 ### 使 **network operating system** 区别于一般（stand-alone）operating system 的特定功能：
 
-- **File service**  
+- **File service**
   在网络中提供集中式文件存储、共享、访问控制、同步和锁定机制（NOS 的最基本和核心功能）。
 
-- **Print service**  
+- **Print service**
   实现网络打印机共享、打印队列管理、优先级调度和 spooling 服务。
 
-- **Database service**（在某些 NOS 定义中）  
+- **Database service**（在某些 NOS 定义中）
   在网络上提供分布式或集中式数据库访问、事务管理和数据一致性机制。
 
-- **Communication service**  
+- **Communication service**
   提供网络节点之间可靠的数据传输，包括 message passing、remote procedure call (RPC)、named pipes、sockets 等。
 
-- **Network management service**  
+- **Network management service**
   包括用户账户管理、权限控制、网络监控、故障检测、性能统计、安全审计和集中式网络管理。
 
-- **Internet/Intranet service**  
+- **Internet/Intranet service**
   提供 TCP/IP protocol stack、web 服务（HTTP/HTTPS）、email 服务（SMTP/POP3/IMAP）、FTP 服务、DNS 解析、DHCP 服务、远程访问（VPN、terminal services）等的支持。
 
-- **Directory service**（在现代 NOS 中非常重要）  
+- **Directory service**（在现代 NOS 中非常重要）
   提供集中式用户认证、名称解析和资源定位服务（例如 Active Directory、LDAP、NIS、eDirectory）。
 
-- **Name service / name resolution**  
+- **Name service / name resolution**
   将资源名称映射到网络地址（不同于 DNS，更专注于内部网络命名）。
 
-- **Remote management and remote execution**  
+- **Remote management and remote execution**
   允许管理员管理远程服务器、远程执行命令以及进行软件分发/修补。
 
 总之，**network operating system** 最经典和常用列出的 **核心特定功能** 是：

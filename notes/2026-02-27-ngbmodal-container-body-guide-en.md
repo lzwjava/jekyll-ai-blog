@@ -30,11 +30,11 @@ this.modalService.open(content, {
 });
 ```
 
-- **`container: 'body'`** (default in most cases)  
-  → The modal dialog is **appended directly to the `<body>`** element (portal / detached from its original place in the component tree).  
+- **`container: 'body'`** (default in most cases)
+  → The modal dialog is **appended directly to the `<body>`** element (portal / detached from its original place in the component tree).
   This is the recommended and most common setting.
 
-- **`container: '#my-app-root'`** or any other selector  
+- **`container: '#my-app-root'`** or any other selector
   → The modal is appended inside that specific element instead of `<body>`.
 
 This setting is important when:
@@ -65,7 +65,7 @@ This is **not** an option — it's part of the **HTML structure** you write insi
 
 So when people say "container body" in ngb-modal conversations, they almost always mean:
 
-> Use `container: 'body'` in the modal **options**  
+> Use `container: 'body'` in the modal **options**
 > and put your main content inside `<div class="modal-body">` in the template.
 
 ### Quick summary table
@@ -87,7 +87,7 @@ this.modalService.open(content, { container: 'body', centered: true });
 </div>
 ```
 
-References:  
+References:
 
 - [https://ng-bootstrap.github.io/#/components/modal/api](https://ng-bootstrap.github.io/#/components/modal/api)
 - [https://ng-bootstrap.github.io/#/components/modal/examples](https://ng-bootstrap.github.io/#/components/modal/examples)

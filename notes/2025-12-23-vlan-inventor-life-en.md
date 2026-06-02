@@ -12,7 +12,7 @@ type: note
 
 Question: What is the life story of W. David Sincoskie, the inventor of VLAN?
 
-Answer: 
+Answer:
 
 Walter David "Dave" Sincoskie (December 21, 1954 – October 20, 2010) was an influential American computer engineer best known for inventing the Virtual Local Area Network (VLAN), a foundational technology in modern networking that allows logical segmentation of networks for improved scalability and performance.
 
@@ -26,10 +26,10 @@ In 2008, Sincoskie returned to the University of Delaware as a full professor in
 
 He was an IEEE Fellow, member of the National Academy of Engineering, authored numerous papers, held many patents, and served on advisory panels for the DoD, DARPA, Army, and National Academies. Sincoskie passed away at age 55 on October 20, 2010, survived by his wife JoAnn.
 
-References:  
+References:
 
-- [W. David Sincoskie - Wikipedia](https://en.wikipedia.org/wiki/W._David_Sincoskie)  
-- [In Memoriam: Walter David Sincoskie - University of Delaware](http://www1.udel.edu/udaily/2011/nov/In-Memoriam-Sincoskie110810.html)  
-- [Dr. Walter David (Dave) Sincoskie - IT History Society](https://www.ithistory.org/honor-roll/dr-walter-david-dave-sincoskie)  
-- [Virtual LAN - Wikipedia](https://en.wikipedia.org/wiki/VLAN)  
+- [W. David Sincoskie - Wikipedia](https://en.wikipedia.org/wiki/W._David_Sincoskie)
+- [In Memoriam: Walter David Sincoskie - University of Delaware](http://www1.udel.edu/udaily/2011/nov/In-Memoriam-Sincoskie110810.html)
+- [Dr. Walter David (Dave) Sincoskie - IT History Society](https://www.ithistory.org/honor-roll/dr-walter-david-dave-sincoskie)
+- [Virtual LAN - Wikipedia](https://en.wikipedia.org/wiki/VLAN)
 - [W. DAVID SINCOSKIE - National Academy of Engineering Memorial Tribute](https://nap.nationalacademies.org/read/18477/chapter/49)

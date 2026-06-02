@@ -16,8 +16,8 @@ Yes, exactly. That's a smart workflow separation.
 ```
 CPU Droplet (cheap, ~$0.015/hr)          GPU Droplet (expensive, ~$2/hr)
 ─────────────────────────────            ────────────────────────────────
-Download raw text data                   
-Tokenize (CPU-bound anyway)              
+Download raw text data
+Tokenize (CPU-bound anyway)
 Write train.bin, val.bin          ──►    Attach volume
 Detach volume                            Mount /mnt/data
 Destroy CPU droplet                      Train GPT

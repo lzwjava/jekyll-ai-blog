@@ -11,7 +11,7 @@ type: note
 
 **问题：** Framery DEV iOS app 如何使用 laptop、card、eyeglasses、computer graphics 等测量眼镜的 prescription？
 
-**答案：** 
+**答案：**
 
 提到的 app 是 iOS 上的 "The Framery"（App Store ID 1153638659），以前称为 GlassesOn（由 6over6 开发，现已更名为 1-800 Contacts/The Framery）。它与 "Framery" 办公室 pod 公司无关。"DEV" 可能指其开发起源或旧版/测试名称，但当前公开 app 是 "The Framery"。
 
@@ -42,7 +42,7 @@ type: note
 
 laptop/screen + graphics 专门用于 **prescription (Rx) 提取** 部分，通过显示的 test patterns 实现镜片功率分析。
 
-**参考资料：**  
+**参考资料：**
 
 - [The Framery on the App Store](https://apps.apple.com/us/app/the-framery/id1153638659)
 - [The Framery PD tool page (mentions card usage)](https://www.theframery.com/pupillary-distance)

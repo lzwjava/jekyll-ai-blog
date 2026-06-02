@@ -84,7 +84,7 @@ public class MyClass {
     public static void main(String[] args) {
         // 演示用设置
         ExecutionContext.getCurrent().setValue("myNamespace", "myKey", "Hello, World!");
-        
+
         new MyClass().retrieveKeyFromNamespace();
     }
 }
@@ -113,10 +113,10 @@ public class MyClass {
     public Object getKeyFromRequestScope(String key) {
         // 步骤1：访问当前执行上下文（请求属性）
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        
+
         if (attributes != null) {
             HttpServletRequest request = attributes.getRequest();
-            
+
             // 步骤2：请求作用域本身作为命名空间
             // 步骤3：获取键值
             return request.getAttribute(key);

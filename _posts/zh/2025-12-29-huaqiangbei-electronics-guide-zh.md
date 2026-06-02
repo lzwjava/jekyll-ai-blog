@@ -12,7 +12,7 @@ type: note
 
 Question: 如何游览 Huaqiangbei，有哪些值得关注的内容，以及主要的商层有哪些？
 
-Answer: 
+Answer:
 
 位于中国深圳的 Huaqiangbei（华强北）是全球最大的 Electronics Market，也是 Gadgets、Components 和科技购物的主要枢纽。这是一个位于福田区（Futian District）的繁华步行区，常被称为“中国电子第一街”。
 
@@ -56,7 +56,7 @@ Tips：大胆砍价（这是常见做法），货比三家，并警惕以新机�
 
 Huaqiangbei 虽然节奏紧凑得令人目不暇接，但对于科技爱好者来说却充满惊喜。如果你是第一次来，可以考虑寻找向导协助砍价或寻找隐藏的宝藏店铺。
 
-References:  
+References:
 
 - [How to Explore Huaqiangbei: Shenzhen’s Ultimate Electronics Market Guide](https://www.eastchinatrip.com/huaqiangbei-shenzhen-guide/)
 - [Best 10 Huaqiangbei Electronics Markets To Wholesale In 2025](https://leelinesourcing.com/huaqiangbei-electronics-markets/)

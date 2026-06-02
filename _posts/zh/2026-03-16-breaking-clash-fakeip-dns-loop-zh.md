@@ -36,7 +36,7 @@ type: note
 **“鸡与蛋” DNS 问题** 是最大的障碍：
 
 ```
-iPad → Clash → 需要 proxy → 解析 proxy domain → 获取 FAKE IP (198.18.x.x) 
+iPad → Clash → 需要 proxy → 解析 proxy domain → 获取 FAKE IP (198.18.x.x)
 → 尝试路由 fake IP → TUN 拦截 → 返回 Clash → 无限循环
 ```
 

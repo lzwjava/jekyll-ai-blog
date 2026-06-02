@@ -10,10 +10,10 @@ translated: false
 type: note
 ---
 
-**Question:** Which of the following VPN technologies on Huawei devices uses GRE over IPsec by default in route-based mode?  
-A) L2TP VPN  
-B) GRE VPN  
-C) IPsec VPN  
+**Question:** Which of the following VPN technologies on Huawei devices uses GRE over IPsec by default in route-based mode?
+A) L2TP VPN
+B) GRE VPN
+C) IPsec VPN
 D) VxLAN VPN
 
 **Answer:**

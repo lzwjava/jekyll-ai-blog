@@ -25,12 +25,12 @@ type: note
 
 综合分析，你的经历精准捕捉到羽田机场的核心优势：紧凑的布局、极致高效的运营和人性化设计，这些特质在突发状况时尤为凸显。这种组合优势使其在2010年后扩建中快速提升机场排名，将潜在的噩梦之旅转化为"体验尚可"的回忆。甚至可以说，你的描述可能还低估了它保持这种口碑的稳定性——直到今日它仍位列全球最洁净机场榜单。若还记得更多细节（如具体航司或航站楼），我很乐意进一步探讨。
 
-**参考资料：**  
-[东京机场洁净度对比分析](https://tokyo-airports.com/2025/08/10/a-comparative-analysis-of-cleanliness-at-tokyo-airports-how-do-they-measure-up/)  
-[羽田机场荣膺全球最洁净机场 | SKYTRAX](https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/)  
-[东京国际机场羽田荣获三项第一](https://www.tokyo-airport-bldg.co.jp/files/en/ir/190328_en.pdf)  
-[航班延误或取消相关费用规定 - 日航](https://www.jal.co.jp/jp/en/inter/change/expenses/)  
-[航班延误与取消 | 全日空](https://www.ana.co.jp/en/us/travel-information/cancellation-and-delays/)  
-[高效、礼貌、细致——羽田机场体验评价](https://www.tripadvisor.com/ShowUserReviews-g1066454-d3747565-r339789203-Tokyo_International_Airport_Haneda_Terminal_1_Observation_Deck-Ota_Tokyo_Tokyo_Prefecture_Kanto_.html)  
-[羽田机场拉面世田谷评价](https://www.tripadvisor.com/Restaurant_Review-g1066454-d3758838-Reviews-Ramen_Setagaya_Haneda_Airport-Ota_Tokyo_Tokyo_Prefecture_Kanto.html)  
+**参考资料：**
+[东京机场洁净度对比分析](https://tokyo-airports.com/2025/08/10/a-comparative-analysis-of-cleanliness-at-tokyo-airports-how-do-they-measure-up/)
+[羽田机场荣膺全球最洁净机场 | SKYTRAX](https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/)
+[东京国际机场羽田荣获三项第一](https://www.tokyo-airport-bldg.co.jp/files/en/ir/190328_en.pdf)
+[航班延误或取消相关费用规定 - 日航](https://www.jal.co.jp/jp/en/inter/change/expenses/)
+[航班延误与取消 | 全日空](https://www.ana.co.jp/en/us/travel-information/cancellation-and-delays/)
+[高效、礼貌、细致——羽田机场体验评价](https://www.tripadvisor.com/ShowUserReviews-g1066454-d3747565-r339789203-Tokyo_International_Airport_Haneda_Terminal_1_Observation_Deck-Ota_Tokyo_Tokyo_Prefecture_Kanto_.html)
+[羽田机场拉面世田谷评价](https://www.tripadvisor.com/Restaurant_Review-g1066454-d3758838-Reviews-Ramen_Setagaya_Haneda_Airport-Ota_Tokyo_Tokyo_Prefecture_Kanto.html)
 [羽田机场面立拉面专评](https://jcfoodreviews.blogspot.com/2016/10/shinatatsu-ramen.html)

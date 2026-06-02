@@ -44,7 +44,7 @@ In Control-M, a **workflow** is a series of dependent jobs organized together in
   - A database query.
   - A file transfer.
   - An API call or cloud workflow trigger.
-  
+
 - **Folder**: A logical container for multiple jobs/tasks. It:
   - Groups together related jobs.
   - Represents end-to-end workflow logic.
@@ -64,10 +64,10 @@ All four jobs are placed inside a folder named **"Daily_ETL_Process"**. Control-
 
 ---
 
-✅ In summary:  
-- **Job** = individual unit of execution.  
-- **Folder** = container grouping related jobs.  
-- **Dependency** = condition(s) defining when jobs can run.  
+✅ In summary:
+- **Job** = individual unit of execution.
+- **Folder** = container grouping related jobs.
+- **Dependency** = condition(s) defining when jobs can run.
 - **Workflow** = sequence of jobs (in a folder) connected by dependencies.
 
 ---

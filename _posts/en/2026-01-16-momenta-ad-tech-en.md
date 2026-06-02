@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Momenta, the autopilot/autonomous driving company?
 
-Answer: 
+Answer:
 
 **Momenta** is a leading Chinese autonomous driving technology company, specializing in developing AI-powered software for intelligent driving systems. Founded in September 2016 by CEO Cao Xudong (a former Microsoft Research scientist and SenseTime executive), the company is headquartered in Suzhou and Beijing, China.
 
@@ -33,7 +33,7 @@ Key partnerships and milestones (as of early 2026):
 
 Momenta's goal is safer mobility (vision to save 1 million lives in 10 years) through scalable, data-optimized autonomy. It stands out for its strong mass-production track record (dozens of models, extensive OEM "friends circle") and balanced focus on both assisted driving revenue and full autonomy R&D.
 
-References:  
+References:
 
 - [Momenta Official Website](https://www.momenta.ai/en/)
 - [Momenta - Wikipedia](https://en.wikipedia.org/wiki/Momenta)

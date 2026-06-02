@@ -23,30 +23,30 @@ type: note
 
 ### 常见模式和示例
 
-- **make a remonstrance** / **present a remonstrance**  
+- **make a remonstrance** / **present a remonstrance**
   → 大使就边境侵犯事件向外交部提出了强烈抗议。
 
-- **in spite of remonstrance** / **despite remonstrance**  
+- **in spite of remonstrance** / **despite remonstrance**
   → 尽管科学家们的抗议，他仍继续进行危险的实验。
 
-- **remonstrance against** something  
+- **remonstrance against** something
   → 家长们针对拟议的校服政策发出了集体抗议。
 
-同义词（视上下文而定）：  
-- protest  
-- objection  
-- complaint  
-- rebuke  
-- admonition  
+同义词（视上下文而定）：
+- protest
+- objection
+- complaint
+- rebuke
+- admonition
 - expostulation（含义非常接近，且稍显正式/古旧）
 
-反义词：  
-- approval  
-- acquiescence  
+反义词：
+- approval
+- acquiescence
 - acceptance
 
 这个词源自拉丁语 *remonstrāre* = “to demonstrate, show again” → “to point out firmly / to protest”。
 
-参考文献：  
+参考文献：
 
 - 无（标准英语词典定义）

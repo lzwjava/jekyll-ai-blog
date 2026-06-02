@@ -35,6 +35,6 @@ type: note
 | 京造系列             | 100 Cool Quick-Dry T-shirt | 棉涤混纺、夏日透气 | 京东专属、高性价比 |
 | 优衣库AIRism系列     | Quick-drying base layer | 抗菌处理、超柔肤感   | 优衣库全球产品线   |
 
-[户外运动速干T恤定制](https://www.tshe.com/sugan)  
-[京造男士速干运动T恤](https://www.noon.com/uae-en/jd-jingzao-100-cool-quick-dry-men-s-sports-short-sleeve-t-shirt-cotton-for-running-fitness-outdoor-summer-gray-xxl/Z78CB642A6F0DE5533A14Z/p/)  
+[户外运动速干T恤定制](https://www.tshe.com/sugan)
+[京造男士速干运动T恤](https://www.noon.com/uae-en/jd-jingzao-100-cool-quick-dry-men-s-sports-short-sleeve-t-shirt-cotton-for-running-fitness-outdoor-summer-gray-xxl/Z78CB642A6F0DE5533A14Z/p/)
 [优衣库AIRism技术解析](https://www.uniqlo.com/us/en/special-feature/airism)

@@ -16,5 +16,5 @@ type: note
 
 鼠标右侧布局与传统鼠标一致：食指负责左键点击，中指负责右键点击，而滚轮位于两者之间便于拇指操作。
 
-[PChome商品页面](https://24h.pchome.com.tw/prod/DGBH6O-A9006F6R5)  
+[PChome商品页面](https://24h.pchome.com.tw/prod/DGBH6O-A9006F6R5)
 [中关村在线类似型号评测](https://diy.zol.com.cn/932/9323820.html)

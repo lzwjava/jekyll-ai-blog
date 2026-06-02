@@ -53,11 +53,11 @@ Here are practical, evidence-based strategies you can start solo today. Aim for 
 
 Consistency is key: These aren't quick fixes but cumulative habits that compound over weeks. Track your mood weekly to see shifts, and be kind during setbacks—they're data, not defeats. You've got this inner strength; it's about accessing it one breath at a time.
 
-**References**  
-- [Depression self-help guide | NHS inform](https://www.nhsinform.scot/illnesses-and-conditions/mental-health/mental-health-self-help-guides/depression-self-help-guide/)  
-- [Self-care for depression | Mind](https://www.mind.org.uk/information-support/types-of-mental-health-problems/depression/self-care/)  
-- [7 Ways to Overcome Depression Without Medication | Intermountain Healthcare](https://intermountainhealthcare.org/blogs/7-ways-to-overcome-depression-without-medication)  
-- [Caring for Your Mental Health | NIMH](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)  
-- [Depression Self-Help Resources | CCI](https://www.cci.health.wa.gov.au/resources/looking-after-yourself/depression)  
-- [How to cope with depression | NHS](https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/)  
+**References**
+- [Depression self-help guide | NHS inform](https://www.nhsinform.scot/illnesses-and-conditions/mental-health/mental-health-self-help-guides/depression-self-help-guide/)
+- [Self-care for depression | Mind](https://www.mind.org.uk/information-support/types-of-mental-health-problems/depression/self-care/)
+- [7 Ways to Overcome Depression Without Medication | Intermountain Healthcare](https://intermountainhealthcare.org/blogs/7-ways-to-overcome-depression-without-medication)
+- [Caring for Your Mental Health | NIMH](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+- [Depression Self-Help Resources | CCI](https://www.cci.health.wa.gov.au/resources/looking-after-yourself/depression)
+- [How to cope with depression | NHS](https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/)
 - [The no-drug approach to mild depression | Harvard Health](https://www.health.harvard.edu/mind-and-mood/the-no-drug-approach-to-mild-depression)

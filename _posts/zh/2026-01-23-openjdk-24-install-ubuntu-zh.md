@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 Ubuntu 上安装 OpenJDK 24？
 
-Answer: 
+Answer:
 
 OpenJDK 24 **不是**一个 LTS 版本（它是一个短期/特性发布版本，仅提供约 6 个月的支持）。Ubuntu LTS 版本（如 24.04）通常在官方仓库中只包含 OpenJDK 的 LTS 版本（目前是 OpenJDK 21，以及未来可用的 OpenJDK 25）。
 
@@ -56,7 +56,7 @@ java --version
 - **Azul Zulu**（非常可靠，免费，通过 TCK 认证）
   - 访问 → https://www.azul.com/downloads/?version=java-24
   - 选择 Linux / Ubuntu / .deb / JDK → 下载并安装：
-  
+
   ```bash
   sudo dpkg -i zulu24.xx.x_linux_amd64.deb
   ```
@@ -93,7 +93,7 @@ export JAVA_HOME=/usr/lib/jvm/jdk-24
 
 将其添加到 `~/.bashrc` 或 `/etc/environment` 以使设置永久生效。
 
-References:  
+References:
 
 - [https://jdk.java.net/archive/](https://jdk.java.net/archive/)
 - [https://ubuntuhandbook.org/index.php/2025/03/install-openjdk-24-ubuntu](https://ubuntuhandbook.org/index.php/2025/03/install-openjdk-24-ubuntu)

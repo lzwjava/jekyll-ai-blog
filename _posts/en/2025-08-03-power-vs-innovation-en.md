@@ -32,7 +32,7 @@ Let me break this down thoughtfully. It's not a black-and-white issue—human na
 
 If this doesn't fully address what you meant (your question has a poetic, stream-of-consciousness feel), feel free to clarify! For now, I'd say yes, those engineers and IT workers behind the apps often embody more everyday honesty and kindness, simply because their world rewards quiet competence over conquest.
 
-**References**  
-[Gallup Poll on Professional Honesty and Ethics](https://news.gallup.com/poll/1654/honesty-ethics-professions.aspx)  
-[ACM Code of Ethics for Computing Professionals](https://www.acm.org/code-of-ethics)  
+**References**
+[Gallup Poll on Professional Honesty and Ethics](https://news.gallup.com/poll/1654/honesty-ethics-professions.aspx)
+[ACM Code of Ethics for Computing Professionals](https://www.acm.org/code-of-ethics)
 [Tao Te Ching by Lao Tzu (English Translation)](https://terebess.hu/english/tao/gia.html)

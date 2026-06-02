@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Summary Note:**  
+**Summary Note:**
 
 User successfully created a GPU droplet on the AMD Developer Cloud using Alipay as the payment method, after their HSBC MasterCard HK debit failed. The setup process was smooth, and they plan to explore AMD's ROCm software soon.
 

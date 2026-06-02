@@ -11,7 +11,7 @@ type: note
 
 Question: 使用 generator polynomial 位串 11001 的 CRC校验 (Cyclic Redundancy Check) 时，在对信息位串执行 GF(2) 上的多项式除法以计算 CRC 冗余位之前，必须在信息位串末尾附加多少个零？
 
-Answer: 
+Answer:
 
 正确答案是 **C (4)**。
 

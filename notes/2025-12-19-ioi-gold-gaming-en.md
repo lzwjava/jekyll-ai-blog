@@ -12,7 +12,7 @@ type: note
 
 Question: Are there any IOI or IMO gold medal winners who like to play games a lot?
 
-Answer: 
+Answer:
 
 Yes, there are notable examples, particularly from the International Olympiad in Informatics (IOI), where competitive programming overlaps with gaming interests.
 

@@ -47,8 +47,8 @@ type: note
 
 简言之，传统巨头的包袱使商汤在初创企业的冲刺赛中暂处下风，但其多模态战略布局更着眼于实际应用场景而非单纯基准竞赛。
 
-[ChinAI #324：SuperCLUE基准测试——2025年中盘点](https://chinai.substack.com/p/chinai-324-superclue-large-model)  
-[商汤SenseNova基础模型跻身行业前三](https://www.sensetime.com/en/news-detail/51169429?categoryId=1072)  
-[中国AI独角兽全景概览](https://www.topbots.com/chinese-ai-tigers-overview/)  
-[商汤业务重组聚焦生成式AI增长](https://www.reuters.com/technology/artificial-intelligence/chinas-sensetime-reshapes-focus-generative-ai-growth-2024-12-04/)  
+[ChinAI #324：SuperCLUE基准测试——2025年中盘点](https://chinai.substack.com/p/chinai-324-superclue-large-model)
+[商汤SenseNova基础模型跻身行业前三](https://www.sensetime.com/en/news-detail/51169429?categoryId=1072)
+[中国AI独角兽全景概览](https://www.topbots.com/chinese-ai-tigers-overview/)
+[商汤业务重组聚焦生成式AI增长](https://www.reuters.com/technology/artificial-intelligence/chinas-sensetime-reshapes-focus-generative-ai-growth-2024-12-04/)
 [商汤发布日日新6.5AI模型与Mynie平台](https://forntend-test-5sqwmq-3a22a9-107-172-80-230.traefik.me/sensetime-unveils-daydaynew-6-5-ai-model-and-mynie-platform-1753705726167)

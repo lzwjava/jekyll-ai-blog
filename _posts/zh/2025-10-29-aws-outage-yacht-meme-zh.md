@@ -16,7 +16,7 @@ type: note
 
 若您因工作或兴趣深究此次故障，完整根因分析报告即将发布——AWS通常在一周内跟进。
 
-[AWS故障报告预告](https://aws.amazon.com/premiumsupport/technology/aws-service-health-dashboard/)  
-[Blind论坛相关梗讨论串](https://www.teamblind.com/post/distinguished-engineer-fixed-aws-outage-in-4-minutes-46jllgcs)  
-[含状态截图的推特讨论串](https://x.com/NotTuxedoSam/status/1980412758127775977)  
+[AWS故障报告预告](https://aws.amazon.com/premiumsupport/technology/aws-service-health-dashboard/)
+[Blind论坛相关梗讨论串](https://www.teamblind.com/post/distinguished-engineer-fixed-aws-outage-in-4-minutes-46jllgcs)
+[含状态截图的推特讨论串](https://x.com/NotTuxedoSam/status/1980412758127775977)
 [LinkedIn实际故障原理解析](https://www.linkedin.com/posts/charlesmartin14_apparently-amazons-top-engineer-lives-on-activity-7386236616094203904-XoUz)

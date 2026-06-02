@@ -44,15 +44,15 @@ Most small personal or group-run relays (like the GitHub claude-relay-service ho
 - Risks that do happen: Anthropic bans the master accounts (especially after their 2025 policy blocking Chinese-controlled entities), payment platforms freeze accounts if flagged, or CAC issues takedown notices if the service spreads sensitive content.
 - Government sectors and banks are now restricted from foreign AI proxies, but private individuals and small businesses face low enforcement.
 
-**Bottom line**  
-For a single person or small group self-hosting claude-relay-service on an overseas server and sharing with friends or a few paying users → **very low legal risk** from Chinese authorities (mainly Anthropic ToS and account ban risk).  
+**Bottom line**
+For a single person or small group self-hosting claude-relay-service on an overseas server and sharing with friends or a few paying users → **very low legal risk** from Chinese authorities (mainly Anthropic ToS and account ban risk).
 For a public commercial service selling to thousands of users without CAC filing or data export compliance → **technically violates regulations** and could face fines or shutdown if reported or scaled too big.
 
 Most Chinese operators treat it as a gray-area business and accept the risk, similar to how ChatGPT/GPT proxies have run for years. Always consult a Chinese lawyer for your specific setup if you plan to run it commercially.
 
-**References:**  
-- [Interim Measures for the Management of Generative Artificial Intelligence Services (official CAC rules)](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)  
-- [Anthropic 2025 China ban policy & relay context](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)  
-- [V2EX discussion on compliance for Claude in China](https://v2ex.com/t/1183984)  
-- [Example commercial relay (mentions domestic payment & no VPN)](https://www.yiboot.com/article/userguide/claude-4-5-02.html)  
+**References:**
+- [Interim Measures for the Management of Generative Artificial Intelligence Services (official CAC rules)](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+- [Anthropic 2025 China ban policy & relay context](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)
+- [V2EX discussion on compliance for Claude in China](https://v2ex.com/t/1183984)
+- [Example commercial relay (mentions domestic payment & no VPN)](https://www.yiboot.com/article/userguide/claude-4-5-02.html)
 - [Zhihu guide explicitly stating VPN use is not illegal under Chinese law](https://aifreeapi.com/zh/posts/claude-unsupported-region-solution)

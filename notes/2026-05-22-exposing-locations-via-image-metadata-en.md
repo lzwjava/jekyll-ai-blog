@@ -101,7 +101,7 @@ def strip_gps(input_path, output_path):
 Even without GPS, EXIF contains:
 - **Camera make/model** → narrows identity
 - **Lens serial number** → unique identifier
-- **Software version** → OS fingerprint  
+- **Software version** → OS fingerprint
 - **Timestamp** → timezone inference, routine mapping
 - **Thumbnail** → sometimes retains original framing even after crop
 

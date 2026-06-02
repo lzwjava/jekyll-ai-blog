@@ -36,6 +36,6 @@ type: note
 
 这是 2026 年 3 月 account-management 重构后的常见升级后行为；不是您的设置 bug。
 
-**参考：**  
-- [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)  
+**参考：**
+- [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
 - [https://github.com/Wei-Shaw/claude-relay-service/releases](https://github.com/Wei-Shaw/claude-relay-service/releases)

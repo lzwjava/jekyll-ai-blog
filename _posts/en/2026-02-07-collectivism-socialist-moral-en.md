@@ -12,15 +12,15 @@ type: note
 
 Question: What is the basic principle of socialist ideological and moral construction?
 
-A. 国际主义 (Internationalism)  
-B. 爱国主义 (Patriotism)  
-C. 集体主义 (Collectivism)  
+A. 国际主义 (Internationalism)
+B. 爱国主义 (Patriotism)
+C. 集体主义 (Collectivism)
 D. 个人主义 (Individualism)
 
-Your answer: B  
+Your answer: B
 Correct answer: C
 
-Answer: 
+Answer:
 
 The **correct answer is C. 集体主义** (Collectivism).
 
@@ -43,7 +43,7 @@ Therefore, the only correct choice among the four options is **C. 集体主义**
 
 This is a very standard and frequently tested point in Chinese ideological and political examinations (e.g., civil service exams, university entrance political theory, Party membership applications, etc.).
 
-References:  
+References:
 
-- Official CPC document: 《公民道德建设实施纲要》 (Outline for the Implementation of Citizen Moral Construction), 2001  
+- Official CPC document: 《公民道德建设实施纲要》 (Outline for the Implementation of Citizen Moral Construction), 2001
 - Standard university textbook content for “思想道德与法治” (Ideological and Moral Cultivation and Legal Basics) and “毛泽东思想和中国特色社会主义理论体系概论” courses (multiple editions, 2006–present)

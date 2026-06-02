@@ -12,7 +12,7 @@ type: note
 
 Question: What is Paul Baran's life story, and how did he invent packet switching?
 
-Answer: 
+Answer:
 
 Paul Baran was a pioneering American engineer born on April 29, 1926, in Grodno, Poland (then part of Poland, now in Belarus), with the Yiddish name Pesach Baran. His family immigrated to the United States in 1928, settling first in Boston and then in Philadelphia, where his father opened a grocery store. Baran grew up helping in the family business.
 
@@ -30,7 +30,7 @@ Baran's ideas influenced the development of ARPANET (the precursor to the Intern
 
 Baran received many honors, including induction into the National Inventors Hall of Fame, the National Medal of Technology and Innovation, and recognition as an Internet pioneer. He remained humble, viewing the Internet as a collective achievement. He died on March 26, 2011, in Palo Alto, California, from complications of lung cancer, at age 84.
 
-References:  
+References:
 
 - [Paul Baran - Wikipedia](https://en.wikipedia.org/wiki/Paul_Baran)
 - [Paul Baran | Biography, Packet Switching, Distributed Networks, & Facts | Britannica](https://www.britannica.com/biography/Paul-Baran)

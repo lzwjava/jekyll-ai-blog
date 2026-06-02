@@ -12,7 +12,7 @@ type: note
 
 Question: What is Malthus's population theory?
 
-Answer: 
+Answer:
 
 Thomas Robert Malthus, an English economist and demographer, outlined his famous population theory in his 1798 book *An Essay on the Principle of Population*. The core idea is that **human population tends to grow exponentially (geometrically)**, while **food production and resources increase only linearly (arithmetically)**. This imbalance inevitably leads to overpopulation, where population outstrips available resources, resulting in checks that reduce population growth.
 
@@ -51,10 +51,10 @@ In later editions, Malthus softened his pessimism slightly, highlighting moral r
 ### Influence and Criticisms
 Malthus's ideas influenced Charles Darwin's theory of natural selection and sparked debates on poverty, welfare, and resource limits. Critics argue that technological advances (e.g., Green Revolution, industrialization) have allowed food production to grow faster than predicted, delaying or avoiding the catastrophe. Neo-Malthusians apply similar concerns to modern issues like environmental degradation.
 
-References:  
+References:
 
-- [Malthusianism - Wikipedia](https://en.wikipedia.org/wiki/Malthusianism)  
-- [Thomas Robert Malthus - Britannica](https://www.britannica.com/money/Thomas-Malthus)  
-- [Malthusian Theory of Population - Intelligent Economist](https://www.intelligenteconomist.com/malthusian-theory/)  
-- [An Essay on the Principle of Population - Online Library of Liberty](https://oll.libertyfund.org/titles/malthus-an-essay-on-the-principle-of-population-1798-1st-ed)  
+- [Malthusianism - Wikipedia](https://en.wikipedia.org/wiki/Malthusianism)
+- [Thomas Robert Malthus - Britannica](https://www.britannica.com/money/Thomas-Malthus)
+- [Malthusian Theory of Population - Intelligent Economist](https://www.intelligenteconomist.com/malthusian-theory/)
+- [An Essay on the Principle of Population - Online Library of Liberty](https://oll.libertyfund.org/titles/malthus-an-essay-on-the-principle-of-population-1798-1st-ed)
 - [Understanding Evolution - Berkeley](https://evolution.berkeley.edu/the-history-of-evolutionary-thought/pre-1800/the-ecology-of-human-populations-thomas-malthus/)

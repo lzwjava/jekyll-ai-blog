@@ -55,12 +55,12 @@ Other insurances (e.g., medical, life) are voluntary, though many companies offe
 
 This setup keeps Hong Kong's tax burden low (effective rate often under 15%) but shifts more retirement/health planning to individuals.
 
-**References**  
-[Tax Rates of Salaries Tax & Personal Assessment - GovHK](https://www.gov.hk/en/residents/taxes/taxfiling/taxrates/salariesrates.htm)  
-[Hong Kong SAR - Individual - Taxes on personal income - PwC](https://taxsummaries.pwc.com/hong-kong-sar/individual/taxes-on-personal-income)  
-[2025/26 Hong Kong Tax Facts and Figures - PwC](https://www.pwchk.com/en/tax/hong-kong-budget-2025-2026/tax-facts-and-figures-en.pdf)  
-[Mandatory Provident Fund Schemes Authority](https://www.mpfa.org.hk/en)  
-[Mandatory Provident Fund - Wikipedia](https://en.wikipedia.org/wiki/Mandatory_Provident_Fund)  
-[Mandatory Provident Fund (MPF) System - GovHK](https://www.gov.hk/en/residents/employment/mpf/)  
-[Social Insurance in Hong Kong - China Briefing](https://www.china-briefing.com/doing-business-guide/hong-kong/human-resources-and-payroll/social-insurance)  
+**References**
+[Tax Rates of Salaries Tax & Personal Assessment - GovHK](https://www.gov.hk/en/residents/taxes/taxfiling/taxrates/salariesrates.htm)
+[Hong Kong SAR - Individual - Taxes on personal income - PwC](https://taxsummaries.pwc.com/hong-kong-sar/individual/taxes-on-personal-income)
+[2025/26 Hong Kong Tax Facts and Figures - PwC](https://www.pwchk.com/en/tax/hong-kong-budget-2025-2026/tax-facts-and-figures-en.pdf)
+[Mandatory Provident Fund Schemes Authority](https://www.mpfa.org.hk/en)
+[Mandatory Provident Fund - Wikipedia](https://en.wikipedia.org/wiki/Mandatory_Provident_Fund)
+[Mandatory Provident Fund (MPF) System - GovHK](https://www.gov.hk/en/residents/employment/mpf/)
+[Social Insurance in Hong Kong - China Briefing](https://www.china-briefing.com/doing-business-guide/hong-kong/human-resources-and-payroll/social-insurance)
 [The Social Security System in Hong Kong - IDE](https://www.ide.go.jp/library/English/Publish/Periodicals/De/pdf/04_02_04.pdf)

@@ -11,7 +11,7 @@ type: note
 
 Question: Comprehensive introduction to the cofounder of Nous Research known as Teknium (likely intended instead of "novoresearch").
 
-Answer: 
+Answer:
 
 Teknium, also known by the handle @Teknium1 on X (formerly Twitter) and as Ryan Teknium in some professional contexts, is a prominent AI researcher, engineer, and cofounder of Nous Research, an open-source AI lab focused on developing advanced, human-centric large language models (LLMs).
 
@@ -45,9 +45,9 @@ His technical GitHub (github.com/teknium1) highlights releases of LLMs, datasets
 
 Overall, Teknium represents a new wave of AI leaders who rose through online communities and open collaboration rather than traditional academic or corporate paths. His work at Nous Research has helped push forward accessible, high-quality open models that compete with or complement frontier closed systems.
 
-References:  
-- [Teknium's personal site](https://teknium.io/)  
-- [Nous Research company information and team details](https://www.linkedin.com/company/nousresearch)  
-- [Hermes 4 Technical Report](https://nousresearch.com/wp-content/uploads/2025/08/Hermes_4_Technical_Report.pdf)  
-- [Crunchbase profile on Ryan Teknium](https://www.crunchbase.com/person/ryan-teknium)  
+References:
+- [Teknium's personal site](https://teknium.io/)
+- [Nous Research company information and team details](https://www.linkedin.com/company/nousresearch)
+- [Hermes 4 Technical Report](https://nousresearch.com/wp-content/uploads/2025/08/Hermes_4_Technical_Report.pdf)
+- [Crunchbase profile on Ryan Teknium](https://www.crunchbase.com/person/ryan-teknium)
 - [GitHub profile](https://github.com/teknium1)

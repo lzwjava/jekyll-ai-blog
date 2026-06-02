@@ -12,7 +12,7 @@ type: note
 
 Question: What is your opinion on the observation that courses in Chinese universities, the National Higher Education Self-study Examination, and middle school education rarely change over decades, are mostly taught in Chinese, and reflect a bureaucratic system where education officials primarily manage exam schedules year after year?
 
-Answer: 
+Answer:
 
 The observation highlights some persistent features of China's education system, such as its centralized structure and emphasis on stability, but it overstates the lack of change. While core elements like the primary use of Chinese as the language of instruction and a bureaucratic, exam-focused approach remain consistent, there have been significant reforms over the past decades.
 
@@ -30,13 +30,13 @@ The system's stability provides consistency and scalability for over 1.4 billion
 
 Overall, the system reflects a pragmatic bureaucracy prioritizing national unity and meritocracy through exams—a legacy of the imperial examination tradition. It is not stagnant but evolves gradually in response to societal needs, though deeper decentralization could foster more dynamism.
 
-References:  
+References:
 
-- https://en.wikipedia.org/wiki/Education_in_China  
-- https://wenr.wes.org/2019/12/education-in-china-3  
-- https://files.eric.ed.gov/fulltext/EJ756220.pdf  
-- https://onlinelibrary.wiley.com/doi/full/10.1002/fer3.8  
-- https://en.wikipedia.org/wiki/Gaokao  
-- https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations  
-- https://www.quora.com/What-is-the-medium-of-instruction-in-Chinese-universities-English-or-Chinese  
+- https://en.wikipedia.org/wiki/Education_in_China
+- https://wenr.wes.org/2019/12/education-in-china-3
+- https://files.eric.ed.gov/fulltext/EJ756220.pdf
+- https://onlinelibrary.wiley.com/doi/full/10.1002/fer3.8
+- https://en.wikipedia.org/wiki/Gaokao
+- https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations
+- https://www.quora.com/What-is-the-medium-of-instruction-in-Chinese-universities-English-or-Chinese
 - https://en.wikipedia.org/wiki/Higher_education_in_China

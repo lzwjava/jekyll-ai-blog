@@ -15,7 +15,7 @@ type: note
 
 **Lightpanda** 是一个从零构建的开源 **headless browser**，专为机器/自动化用例设计——最显著的是 AI agents、大型语言模型 (LLM) 训练数据收集、大规模 web scraping、自动化测试以及一般的快速 web 自动化。
 
-**仓库：** [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)  
+**仓库：** [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 **网站：** [https://lightpanda.io](https://lightpanda.io)
 
 ### 核心理念与定位

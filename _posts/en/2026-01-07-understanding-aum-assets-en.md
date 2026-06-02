@@ -12,14 +12,14 @@ type: note
 
 Question: What does "assets under management" mean?
 
-Answer: 
+Answer:
 
 **Assets Under Management (AUM)** is a key term in finance that refers to the total market value of all the financial assets—such as stocks, bonds, cash, or other investments—that a financial institution, investment firm, fund manager, or portfolio manager controls and invests on behalf of its clients.
 
 ### Key Points:
 - **Definition**: AUM represents the current market value of investments managed for clients, not owned by the manager itself.
 - **Common Users**: It applies to mutual funds, hedge funds, private equity firms, venture capital firms, wealth managers, and even decentralized finance (DeFi) protocols.
-- **Why It Matters**: 
+- **Why It Matters**:
   - A higher AUM often indicates the size, success, and trustworthiness of the investment firm, as it attracts more clients and generates higher management fees (typically charged as a percentage of AUM, e.g., 1%).
   - It serves as a performance indicator: growing AUM suggests positive investment returns, new client inflows, or strong marketing.
 - **How AUM Changes**:
@@ -32,7 +32,7 @@ Answer:
 
 In summary, AUM measures how much money an investment professional or firm is responsibly handling for others, and it's a primary metric for evaluating the scale and revenue potential of asset management businesses.
 
-References:  
+References:
 
 - [Assets Under Management (AUM): Definition, Calculation, and Example](https://www.investopedia.com/terms/a/aum.asp)
 - [Assets under management - Wikipedia](https://en.wikipedia.org/wiki/Assets_under_management)

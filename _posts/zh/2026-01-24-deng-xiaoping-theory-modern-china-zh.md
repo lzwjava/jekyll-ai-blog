@@ -21,7 +21,7 @@ Answer: **邓小平理论** (Deng Xiaoping Theory) 是由邓小平首创的一�
 该理论建立在几个务实的概念之上，使中国从僵化的意识形态斗争转向经济现代化。
 
 * **“实事求是” (Seeking Truth from Facts)：** 这是该理论的思想灵魂。它主张政策应当基于实践结果，而非教条。
-* **“一个中心，两个基本点” (One Center, Two Basic Points)：** 
+* **“一个中心，两个基本点” (One Center, Two Basic Points)：**
     * **一个中心：** 经济建设。
     * **两个基本点：** 坚持四项基本原则（政治稳定）和坚持改革开放 (Reform and Opening-up)。
 * **中国特色社会主义 (Socialism with Chinese Characteristics)：** 认为中国正处于“社会主义初级阶段”，在实现真正的共产主义之前，必须利用市场机制来发展“生产力” (productive forces)。

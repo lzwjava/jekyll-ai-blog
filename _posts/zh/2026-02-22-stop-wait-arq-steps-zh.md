@@ -11,7 +11,7 @@ type: note
 
 问题：在数据通信的错误控制技术中，Stop-and-Wait ARQ 是错误检测和重传的常用方法之一。下图描述了发送方和接收方传输数据时使用 Stop-and-Wait ARQ 的过程。请写出图中①至⑥的内容。
 
-答案： 
+答案：
 
 由于您的问题中未提供具体的图像，我将基于计算机网络考试和教材中典型的 **Stop-and-Wait ARQ (Automatic Repeat reQuest)** 协议工作流程，推断①至⑥的标准内容。
 
@@ -44,7 +44,7 @@ type: note
 
 此机制通过结合错误检测、超时和重传，确保在不可靠信道上可靠地传输数据。
 
-参考资料：  
+参考资料：
 
 - [Stop-and-Wait ARQ - GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 - [Automatic Repeat Request (ARQ) - Wikipedia](https://en.wikipedia.org/wiki/Automatic_repeat_request)

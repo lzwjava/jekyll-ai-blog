@@ -61,7 +61,7 @@ Answer:
 
 ### Bottom line（总结）
 
-在软件 / 硬件 / 复杂产品公司中，**institutional memory（机构记忆）和 context 是最稀缺、最宝贵的资产之一**。  
+在软件 / 硬件 / 复杂产品公司中，**institutional memory（机构记忆）和 context 是最稀缺、最宝贵的资产之一**。
 失去人才不仅是失去 headcount（员额）—— 而是 **失去了数月或数年积累的系统理解**，而这些理解是极其难以且昂贵地重建的。
 
 这就是为什么在成熟的组织中，retention（通过良好的 culture、公平的 compensation、有意义的工作、psychological safety、职业成长等手段）通常被认为比几乎任何其他单一手段对 engineering 生产力和产品质量都 **更为重要**。

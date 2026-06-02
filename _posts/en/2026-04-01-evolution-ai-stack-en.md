@@ -17,7 +17,7 @@ Your assessment is largely correct. As of 2026, the industry has shifted from pu
 
 ### **1. The Token Economy: Generation to Inference**
 The journey from **token generation** to **inference** is the mechanical heartbeat of the AI economy.
-* **Token Generation:** This is the "raw material." Value here lies in **cost-efficiency** (cheaper tokens) and **quality** (higher density of information per token). 
+* **Token Generation:** This is the "raw material." Value here lies in **cost-efficiency** (cheaper tokens) and **quality** (higher density of information per token).
 * **Inference Optimization:** This is where the engineering "will" (skill/effort) becomes valuable. Companies are paying premiums for engineers who can reduce latency through techniques like **Quantization**, **Speculative Decoding**, and **KV Cache management**.
 
 

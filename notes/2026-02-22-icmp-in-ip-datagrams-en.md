@@ -11,7 +11,7 @@ type: note
 
 Question: In what is an ICMP message encapsulated for transmission?
 
-Answer: 
+Answer:
 
 ICMP (Internet Control Message Protocol) messages are encapsulated within **IP datagrams** (or IP packets) for transmission.
 

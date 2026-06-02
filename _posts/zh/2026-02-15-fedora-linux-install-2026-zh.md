@@ -24,7 +24,7 @@ type: note
 
 #### 步骤 1 – 下载 Fedora
 
-- 访问官方网站：  
+- 访问官方网站：
   https://getfedora.org/
 
 - 选择 **Fedora Workstation**（最受欢迎的选择）
@@ -126,7 +126,7 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
-尽情享受 Fedora 吧！  
+尽情享受 Fedora 吧！
 它是目前最先进、最及时、最纯净的 Linux 发行版之一。
 
 **参考资料：**

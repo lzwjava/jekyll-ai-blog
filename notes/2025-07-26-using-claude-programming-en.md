@@ -58,13 +58,13 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
    def factorial(n):
        """
        Calculate the factorial of a non-negative integer using recursion.
-       
+
        Args:
        n (int): The number to calculate factorial for.
-       
+
        Returns:
        int: The factorial of n.
-       
+
        Raises:
        ValueError: If n is negative.
        """
@@ -107,6 +107,6 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
 
 If you provide a specific programming task or language, I can give a tailored example!
 
-[OpenRouter Documentation](https://openrouter.ai/docs)  
-[Anthropic Prompting Guide for Coding](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)  
+[OpenRouter Documentation](https://openrouter.ai/docs)
+[Anthropic Prompting Guide for Coding](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
 [Claude 3.5 Sonnet Model Card](https://www.anthropic.com/news/claude-3-5-sonnet)

@@ -24,10 +24,10 @@ LangGraph isn't a separate project—it's a low-level extension *built by the La
 
 It's open-source, integrates seamlessly with LangChain, and powers things like production-grade RAG (retrieval-augmented generation) or custom LLM apps. If LangChain is the Lego bricks for LLMs, LangGraph is the blueprint for building intricate machines. No distinct founder; it's a natural outgrowth of LangChain's ecosystem.
 
-**References:**  
-- [LangChain Wikipedia](https://en.wikipedia.org/wiki/LangChain)  
-- [Harrison Chase LinkedIn](https://www.linkedin.com/in/harrison-chase-961287118)  
-- [Forbes Profile: Harrison Chase](https://www.forbes.com/profile/harrison-chase/)  
-- [Founder Story: Harrison Chase](https://www.frederick.ai/blog/harrison-chase-langchain)  
-- [LangGraph Official Page](https://www.langchain.com/langgraph)  
+**References:**
+- [LangChain Wikipedia](https://en.wikipedia.org/wiki/LangChain)
+- [Harrison Chase LinkedIn](https://www.linkedin.com/in/harrison-chase-961287118)
+- [Forbes Profile: Harrison Chase](https://www.forbes.com/profile/harrison-chase/)
+- [Founder Story: Harrison Chase](https://www.frederick.ai/blog/harrison-chase-langchain)
+- [LangGraph Official Page](https://www.langchain.com/langgraph)
 - [IBM on LangGraph](https://www.ibm.com/think/topics/langgraph)

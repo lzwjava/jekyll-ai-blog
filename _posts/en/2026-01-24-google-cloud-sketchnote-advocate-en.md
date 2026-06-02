@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Priyanka Vergadia, the Google Cloud developer advocate?
 
-Answer: 
+Answer:
 
 **Priyanka Vergadia** is a prominent figure in the cloud computing and developer relations (DevRel) space. She is best known for her work as a **Staff Developer Advocate** at **Google Cloud**, where she focused on helping developers and enterprises understand, adopt, and build on Google Cloud Platform (GCP) services.
 
@@ -30,7 +30,7 @@ She is widely recognized by her nickname **"The Cloud Girl"** and for her unique
 
 She is active on social platforms (especially X/Twitter @pvergadia, LinkedIn, YouTube "The Cloud Girl", and her website thecloudgirl.dev), where she shares cloud insights, career advice, and visual explainers.
 
-References:  
+References:
 - [Google Cloud Blog - Meet Priyanka Vergadia](https://cloud.google.com/blog/topics/inside-google-cloud/meet-people-google-cloud-priyanka-vergadia)
 - [Her book on Amazon](https://www.amazon.com/Visualizing-Google-Cloud-Illustrated-References/dp/1119816327)
 - [GCPSketchnote GitHub repository](https://github.com/priyankavergadia/GCPSketchnote)

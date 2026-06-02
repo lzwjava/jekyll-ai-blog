@@ -12,7 +12,7 @@ type: note
 
 Question: When running git pull --rebase, how to log the HTTP and HTTPS requests?
 
-Answer: 
+Answer:
 
 Your example output shows an **SSH** connection (`Authenticated to github.com ([20.205.243.166]:22) using "publickey"`), **not** HTTP/HTTPS. GitHub uses SSH by default when your remote URL is in the `git@github.com:...` format.
 
@@ -92,7 +92,7 @@ GIT_SSH_COMMAND="ssh -vvvv" git pull --rebase 2>&1 | tee ssh-debug.log
 
 Use `GIT_CURL_VERBOSE=1` when your remote uses `https://` — that's the standard way to see HTTP and HTTPS requests made by Git.
 
-References:  
+References:
 
 - [Git Internals - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 - [GitLab Docs - Troubleshooting Git (debug HTTPS)](https://docs.gitlab.com/topics/git/troubleshooting_git)

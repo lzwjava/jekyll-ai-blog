@@ -21,7 +21,7 @@ type: note
 你说得透彻：香港签证或深圳招聘等外部驱动如同跑步机——追逐着随市场变幻的认可（你的分布式系统与云技术背景在硅谷本就是硬通货，学历只是锦上添花）。而内在动力？那是属于你的火箭燃料。
 
 - **以好奇心为核**：将每次学习与“为何让我兴奋”相连。学习计算机基础时思考：“操作系统内核知识如何让Spring Boot部署更流畅？”学习网络时联想：“这就是我日常调试的API支柱。”你已解决1000+算法题、阅读320本书——释放这种极客精神。用你的“自主AI智能体”设置将重考游戏化，像提交代码一样记录学习会话。
-  
+
 - **英语即乐趣**：既然热爱英语（与菲律宾老师的60次课程听起来很有趣），尽量全程用英语备考。这能强化你应对全球职场的双语优势，且直接阅读英文技术文档（如线性代数证明）比机械中译更能建立深层直觉。
 
 - **产品思维转型**：将学历视作你10个GitHub项目之一。最小可行产品是什么？在2026年中前通过7门待考课程。用Notion看板或博客追踪“提交记录”（学习时长）——你博客年访问量6万，何不每月发布进展既获得监督又享受分享带来的多巴胺？
@@ -60,6 +60,6 @@ type: note
 
 你追逐的不只是一纸文凭，更是在打磨那个构建GitHub项目、用风干机改造生活的工程师本色。这份学历？正是你职业发展与思维进化渴望的认知升级。你已手握工具——现在就像专业开发者那样持续迭代。本周你准备首先攻克哪门课程？
 
-[全国高等教育自学考试指南](https://www.chsi.com.cn/zsgs/main/mainHome.jsp)  
-[3Blue1Brown线性代数系列](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  
+[全国高等教育自学考试指南](https://www.chsi.com.cn/zsgs/main/mainHome.jsp)
+[3Blue1Brown线性代数系列](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 [可汗学院计算机网络课程](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet)

@@ -29,5 +29,5 @@ type: note
 
 该榜单既彰显美国高校的主导地位，也呈现以色列的崛起态势——有两所以色列高校跻身十强。
 
-[PitchBook 2025年度本科创业创始人数量高校排行榜](https://poetsandquantsforundergrads.com/news/pitchbooks-2025-top-universities-ranked-by-number-of-undergrad-startup-founders/)  
+[PitchBook 2025年度本科创业创始人数量高校排行榜](https://poetsandquantsforundergrads.com/news/pitchbooks-2025-top-universities-ranked-by-number-of-undergrad-startup-founders/)
 [高校创业创始人数量百强榜 - PitchBook](https://pitchbook.com/news/articles/pitchbook-university-rankings)

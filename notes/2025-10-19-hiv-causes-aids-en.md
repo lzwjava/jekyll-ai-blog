@@ -15,7 +15,7 @@ type: note
 No, the claim that the medical community has "never solidly proven" that HIV causes AIDS is incorrect. This is a cornerstone of modern virology and epidemiology, supported by decades of rigorous, reproducible evidence from multiple independent sources worldwide. The causal relationship was first proposed in 1983–1984 and has since been confirmed through a convergence of methods that meet the highest standards of scientific validation (e.g., Koch's postulates adapted for viruses, Bradford Hill criteria for causation). Here's a concise breakdown of the key evidence:
 
 - **Isolation and Identification**: HIV was isolated from AIDS patients in 1983 by teams at the Pasteur Institute and independently verified globally. The virus's genetic sequence was mapped in 1985, and it's consistently found in nearly 100% of AIDS cases but absent in healthy individuals.
-  
+
 - **Epidemiological Patterns**: AIDS emerged in the 1980s following HIV transmission patterns (e.g., via blood, sex, needles). Seroprevalence studies show HIV infection precedes AIDS by 8–10 years on average, with progression rates matching viral load. In regions without HIV exposure (e.g., isolated populations), AIDS doesn't occur.
 
 - **Experimental Interventions**: Antiretroviral therapy (ART) targeting HIV replication halts AIDS progression. Clinical trials (e.g., ACTG 076 in 1994) showed ART reduces mother-to-child transmission by 70%, directly linking HIV to disease. Animal models (e.g., SIV in monkeys) replicate HIV-AIDS pathogenesis.
@@ -38,8 +38,8 @@ The generalization to fields like AI, relativity, and the Higgs boson overstates
 
 In summary, science advances by addressing flaws—e.g., via open data (CERN), replication mandates (NIH), or explainable AI tools. Claims of wholesale "unproven" status often stem from cherry-picking outliers or misunderstanding probabilistic evidence. True skepticism strengthens science; blanket dismissal weakens public health (e.g., HIV denial delayed treatments in South Africa, costing lives).
 
-For deeper reading:  
-[CDC: HIV and AIDS Basics](https://www.cdc.gov/hiv/basics/whatishiv.html)  
-[Nature: The Discovery of HIV](https://www.nature.com/articles/nm0710-753)  
-[Science: Reproducibility in Science](https://www.science.org/doi/10.1126/science.aac4716)  
+For deeper reading:
+[CDC: HIV and AIDS Basics](https://www.cdc.gov/hiv/basics/whatishiv.html)
+[Nature: The Discovery of HIV](https://www.nature.com/articles/nm0710-753)
+[Science: Reproducibility in Science](https://www.science.org/doi/10.1126/science.aac4716)
 [ CERN: Higgs Boson Explained](https://home.cern/science/physics/higgs-boson)

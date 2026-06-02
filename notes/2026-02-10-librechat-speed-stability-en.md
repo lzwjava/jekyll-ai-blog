@@ -30,11 +30,11 @@ Here are the most common real-world pain points with LibreChat that match what y
 
 **3. Often slow — especially noticeable with OpenRouter**
 
-- Latency stack looks like this:  
-  User → LibreChat frontend → LibreChat backend → OpenRouter → actual model provider → back  
+- Latency stack looks like this:
+  User → LibreChat frontend → LibreChat backend → OpenRouter → actual model provider → back
   → Each hop adds 100–600+ ms depending on location and load.
-- Official portals usually have:  
-  User → Cloudflare/edge → model inference → response  
+- Official portals usually have:
+  User → Cloudflare/edge → model inference → response
   → much shorter path + better peering + priority queuing.
 - OpenRouter itself already adds extra latency compared to calling providers directly, and LibreChat adds yet another layer on top.
 
@@ -74,6 +74,6 @@ Many people end up using both:
 - Official portals for quick / serious work
 - LibreChat / Open WebUI / SillyTavern for experimenting with many models or when they need a model not offered officially
 
-References:  
+References:
 
 - None (based on widespread community reports and usage patterns observed across GitHub issues, Reddit, and Discord discussions)

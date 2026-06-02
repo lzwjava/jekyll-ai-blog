@@ -19,7 +19,7 @@ Machine learning optimization isn't about directly minimizing the cost function 
 - **Indirect goals**: The cost \\( J(\theta) \\) proxies for an intractable measure like 0-1 loss. Surrogate losses (e.g., negative log-likelihood for classification) are used because true losses often lack useful gradients.
 - **Decomposability**: \\( J(\theta) \\) averages over examples, enabling empirical risk minimization (ERM): \\( J(\theta) \approx \frac{1}{m} \sum_{i=1}^m L(f(x^{(i)};\theta), y^{(i)}) \\).
 - **Overfitting risks**: High-capacity models can memorize training data, so early stopping (based on validation performance) is crucial, even if training loss keeps decreasing.
-- **Batch strategies**: 
+- **Batch strategies**:
   - **Batch methods**: Use the full dataset for exact gradients (deterministic but slow for large data).
   - **Stochastic gradient descent (SGD)**: Uses single examples (noisy but fast updates).
   - **Minibatch methods**: Balance of both, common in deep learning (sizes like 32–256). Noise from small batches aids regularization; shuffling prevents bias.

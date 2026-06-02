@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题**：  
+**问题**：
 在已配置 Linux Mint、Scratch Desktop 和 YouTube 的环境下，如何通过兴趣驱动学习（例如先观看1–2个教程，再让孩子自由创作）向5岁女儿介绍 Scratch？
 
 **回答**：
@@ -135,7 +135,7 @@ Scratch 更像是：
 
 Scratch Desktop 在 Linux 上运行良好，所以系统配置是可靠的。
 
-Linux Mint 本身对此用途也很稳定：  
+Linux Mint 本身对此用途也很稳定：
 Linux Mint
 
 真正的瓶颈不会是系统，而在于：

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the book 《老子》 (Laozi / Dao De Jing).
 
-Answer: 
+Answer:
 
 《老子》, also widely known as **《道德经》** (Tao Te Ching / Dao De Jing), is one of the most important and influential works in Chinese philosophy and world literature. It is the foundational text of **Daoism** (Taoism).
 
@@ -31,8 +31,8 @@ Answer:
 ### Core Ideas
 The book opens with one of the most famous lines in Chinese philosophy:
 
-> 道可道，非常道。名可名，非常名。  
-> The Dao that can be spoken of is not the eternal Dao.  
+> 道可道，非常道。名可名，非常名。
+> The Dao that can be spoken of is not the eternal Dao.
 > The name that can be named is not the eternal name.
 
 Key philosophical concepts include:
@@ -56,7 +56,7 @@ The language is poetic, paradoxical, and concise — often deliberately obscure 
 
 In short, 《老子》 is not just an ancient Chinese classic — it is a timeless guide to living in harmony with the universe, offering profound wisdom through simplicity and paradox.
 
-References:  
+References:
 
 - [Wikipedia: 老子 (書)](https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_(%E6%9B%B8))
 - [Baidu Baike: 道德经](https://baike.baidu.com/item/%E9%81%93%E5%BE%B7%E7%BB%8F/327138)

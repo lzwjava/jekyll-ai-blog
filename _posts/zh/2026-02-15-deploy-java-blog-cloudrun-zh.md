@@ -89,7 +89,7 @@ Answer:
   ```
 - 如果你使用了环境变量或 secrets：
   ```bash
-  --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..." 
+  --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..."
   ```
 
 #### 其他常见的 Google Cloud 选项（当 Cloud Run 不适用时）

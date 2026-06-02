@@ -116,7 +116,7 @@ type: note
 - **课程**：NeetCode.io（免费视频）；普林斯顿大学Coursera算法课
 - **社区**：Blind、Levels.fyi获取面经分享
 
-[数据结构与算法路线图](https://roadmap.sh/datastructures-and-algorithms)  
-[高级工程师攻克FAANG编程面试指南](https://medium.com/@keizee01119/a-senior-engineers-roadmap-to-mastering-faang-coding-interview-questions-125cc15357ae)  
-[技术面试手册：DSA速查表](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)  
+[数据结构与算法路线图](https://roadmap.sh/datastructures-and-algorithms)
+[高级工程师攻克FAANG编程面试指南](https://medium.com/@keizee01119/a-senior-engineers-roadmap-to-mastering-faang-coding-interview-questions-125cc15357ae)
+[技术面试手册：DSA速查表](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
 [斩获高级软件工程师职位的学习计划](https://betterprogramming.pub/study-plan-to-land-senior-software-engineer-positions-at-meta-google-and-more-cd5362dda84)

@@ -12,7 +12,7 @@ type: note
 
 Question: What protocol does OpenWrt implement or have?
 
-Answer: 
+Answer:
 
 OpenWrt is a Linux-based open-source firmware for embedded devices like routers. It does not implement a single specific protocol but supports a wide range of networking protocols through its core Linux kernel, configuration system (UCI/network config), and installable packages (via opkg).
 
@@ -44,9 +44,9 @@ Key categories of protocols supported:
 
 OpenWrt's extensibility allows adding more protocols via thousands of available packages. Many require installing specific packages (e.g., openvpn-openssl for OpenVPN).
 
-References:  
+References:
 
-- https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols  
-- https://en.wikipedia.org/wiki/OpenWrt  
-- https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/  
+- https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols
+- https://en.wikipedia.org/wiki/OpenWrt
+- https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/
 - https://teklager.se/en/knowledge-base/openwrt-4g-wwan-configuration/

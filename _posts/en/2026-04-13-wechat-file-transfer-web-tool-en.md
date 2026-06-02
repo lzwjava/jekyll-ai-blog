@@ -13,7 +13,7 @@ Question: Is there a way to use WeChat Web only for file transfer (like File Tra
 
 Answer:
 
-**YES! This is EXACTLY what you were looking for!** 
+**YES! This is EXACTLY what you were looking for!**
 
 You are completely correct — WeChat has released a dedicated "File Transfer Assistant Web Version" (微信文件传输助手网页版) at https://filehelper.weixin.qq.com/ that is independent from the regular WeChat Web and focuses solely on file transfer.
 

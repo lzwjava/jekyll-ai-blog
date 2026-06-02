@@ -12,12 +12,12 @@ type: note
 
 Question: What are the important companies in the switching and routing technology field?
 
-Answer: 
+Answer:
 
 In the field of switching and routing technology, which involves core network devices like switches and routers for LANs, WANs, and enterprise networks, the most important companies are the major vendors that dominate the market with their equipment, operating systems, and certifications. These are particularly relevant in educational contexts like the provided syllabus, which focuses on practical configuration using simulators (e.g., Huawei's eNSP and VRP).
 
 ### Leading Companies:
-- **Huawei**: 
+- **Huawei**:
   - A global leader in networking equipment.
   - Their Versatile Routing Platform (VRP) is the operating system prominently featured in the syllabus.
   - The eNSP (Enterprise Network Simulation Platform) simulator is Huawei-specific and central to the course's hands-on projects.
@@ -50,8 +50,8 @@ Huawei and Cisco together hold the largest shares of the global Ethernet switch 
 
 For students studying this syllabus (Guangdong Self-Study Exam course 13833), **Huawei** is the primary focus due to the use of VRP and eNSP, but understanding Cisco concepts transfers well because many foundational technologies (VLANs, STP/RSTP, OSPF, NAT, ACLs) are industry standards implemented similarly across vendors.
 
-References:  
+References:
 - [Huawei Enterprise Networking](https://e.huawei.com/en/products/enterprise-networking)
 - [Cisco Networking](https://www.cisco.com/c/en/us/products/switches/index.html)
-- [Dell'Oro Group Market Reports (summary)](https://www.delloro.com/market-research/ethernet-switch-router/)  
+- [Dell'Oro Group Market Reports (summary)](https://www.delloro.com/market-research/ethernet-switch-router/)
 - [IDC Worldwide Ethernet Switch & Router Tracker](https://www.idc.com/getdoc.jsp?containerId=prUS51234523)

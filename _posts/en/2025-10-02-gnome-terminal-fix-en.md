@@ -18,7 +18,7 @@ The issue seems specific to the GNOME Terminal app (default terminal emulator) g
 The "journal command" you're referring to is likely `journalctl`, part of systemd for viewing logs. It helps identify what's happening when GNOME Terminal tries to launch. Here's how to use it step-by-step:
 
 1. **Access a Working Terminal**: Use VSCode's terminal (or switch to a virtual console as described below).
-2. **Run Basic Log Check**: 
+2. **Run Basic Log Check**:
    - View all recent logs: `sudo journalctl -b` (this shows logs from the last boot; add `-n 50` to limit to the last 50 lines).
    - Search for terminal-related errors: `sudo journalctl -b | grep -i terminal` (looks for mentions of "terminal" in logs).
    - Look for specific errors like "failed to launch" or profile issues. Common outputs might include permission denials or GTK/GNOME initialization failures.
@@ -33,7 +33,7 @@ Based on common reports from Ubuntu forums and troubleshooting guides[1][2], try
 1. **Use a Virtual Console (TTY) for Emergency Access**:
    - Press `Ctrl + Alt + F3` (or F4, F5, etc.) to switch to a text-based login. Enter your username/password.
    - From here, you have full command-line access without GUI conflicts. Example: Run `sudo apt update` or fix commands.
-   - Switch back to GUI with `Ctrl + Alt + F2` (usually the main display).  
+   - Switch back to GUI with `Ctrl + Alt + F2` (usually the main display).
      *Note*: If this fails due to display issues, it might indicate deeper GNOME problems[3].
 
 2. **Try Launching GNOME Terminal Manually from VSCode Terminal**:
@@ -49,9 +49,9 @@ Based on common reports from Ubuntu forums and troubleshooting guides[1][2], try
    - This fixes corrupted settings without reinstalling\+ things[1].
 
 4. **Reinstall GNOME Terminal and Related Packages**:
-   - In VSCode terminal or TTY: Update sources then reinstall:  
+   - In VSCode terminal or TTY: Update sources then reinstall:
      `sudo apt update && sudo apt install --reinstall gnome-terminal`.
-   - For broader GNOME issues (since Settings works but terminal doesn't), try reinstalling core desktop:  
+   - For broader GNOME issues (since Settings works but terminal doesn't), try reinstalling core desktop:
      `sudo apt install --reinstall ubuntu-gnome-desktop gnome-control-center` (this can fix dependent conflicts without affecting your data)[2][4].
    - After reinstall, log out/in.
 

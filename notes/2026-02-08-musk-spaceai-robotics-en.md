@@ -12,7 +12,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=BYXbuik3dgA say?
 
-Answer: 
+Answer:
 
 The video is a podcast episode titled **Elon Musk – "In 36 months, the cheapest place to put AI will be space”**, uploaded by Dwarkesh Patel on February 5, 2026. It features an in-depth interview with Elon Musk (joined by John Collison from Stripe in parts), covering topics like AI infrastructure, space-based computing, robotics, xAI's goals, and more.
 
@@ -36,7 +36,7 @@ The core content is a long-form discussion (likely 3+ hours based on timestamps)
 
 Overall, the video is a technical and forward-looking conversation about overcoming Earth's constraints on AI growth through space infrastructure, robotics for labor/manufacturing advantages, truth-seeking AI development, and policy needs to keep the US competitive.
 
-References:  
+References:
 
 - [YouTube Video](https://www.youtube.com/watch?v=BYXbuik3dgA)
 - [Transcript on Dwarkesh.com](https://www.dwarkesh.com/p/elon-musk)

@@ -116,7 +116,7 @@ Simulate senior interviews: full problem-solving under constraints, plus system 
 - **Courses**: NeetCode.io (free videos); Coursera's Algorithms by Princeton.
 - **Communities**: Blind, Levels.fyi for interview experiences.
 
-[Data Structures and Algorithms Roadmap](https://roadmap.sh/datastructures-and-algorithms)  
-[A Senior Engineer’s Roadmap to Mastering FAANG Coding Interview Questions](https://medium.com/@keizee01119/a-senior-engineers-roadmap-to-mastering-faang-coding-interview-questions-125cc15357ae)  
-[Tech Interview Handbook: DSA Cheatsheets](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)  
+[Data Structures and Algorithms Roadmap](https://roadmap.sh/datastructures-and-algorithms)
+[A Senior Engineer’s Roadmap to Mastering FAANG Coding Interview Questions](https://medium.com/@keizee01119/a-senior-engineers-roadmap-to-mastering-faang-coding-interview-questions-125cc15357ae)
+[Tech Interview Handbook: DSA Cheatsheets](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
 [Study Plan to Land Senior Software Engineer Positions](https://betterprogramming.pub/study-plan-to-land-senior-software-engineer-positions-at-meta-google-and-more-cd5362dda84)

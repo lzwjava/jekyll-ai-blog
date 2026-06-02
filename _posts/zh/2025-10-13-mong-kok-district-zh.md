@@ -62,8 +62,8 @@ type: note
 
 美食爱好者不可错过藏身商区的添好运（米其林星级点心）。市集需议价，商场则明码标价。
 
-[维基百科：旺角](https://en.wikipedia.org/wiki/Mong_Kok)  
-[猫途鹰：旺角玩乐指南](https://www.tripadvisor.com/Attractions-g294217-Activities-zfn7350426-Hong_Kong.html)  
-[Yelp：旺角周边银行](https://www.yelp.com/search?cflt=banks&find_loc=Mong%2BKok)  
-[香港省钱攻略：旺角指南](https://hongkongcheapo.com/locations/kowloon/mong-kok/)  
+[维基百科：旺角](https://en.wikipedia.org/wiki/Mong_Kok)
+[猫途鹰：旺角玩乐指南](https://www.tripadvisor.com/Attractions-g294217-Activities-zfn7350426-Hong_Kong.html)
+[Yelp：旺角周边银行](https://www.yelp.com/search?cflt=banks&find_loc=Mong%2BKok)
+[香港省钱攻略：旺角指南](https://hongkongcheapo.com/locations/kowloon/mong-kok/)
 [City Unscripted：旺角漫游指南](https://www.cityunscripted.com/travel-magazine/things-to-do-in-mong-kok-hong-kong)

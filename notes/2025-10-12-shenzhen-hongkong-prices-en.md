@@ -18,7 +18,7 @@ Your observation about the doujiang vendor's comment—and the broader contrast 
 Shenzhen, as China's premier migrant hub, draws millions from rural villages and smaller cities each year. These newcomers—often the "complainers" you mentioned—arrive with lower baseline expectations from back home, where even basic goods cost a fraction of urban rates. For them, 2.5 CNY for 250ml doujiang *feels* expensive if their daily wage is around 100-150 CNY (common for entry-level service jobs). This creates a hyper-competitive street economy:
 
 - **Labor Supply Overload**: With ~12-15 million migrants in the metro area, workers accept slim margins (average monthly wage ~16,000 CNY or ~$2,200 USD in 2025) because it's a step up from rural incomes (~5,000-8,000 CNY). They "don't complain much" as the alternative is returning home, but they're vocal about prices to stretch every yuan.
-  
+
 - **Fear of "Expensive" Feedback**: Vendors like your shop sister face fierce rivalry—another stall is always a block away. Raising prices risks alienating these budget-conscious migrants, who prioritize volume over markup. Studies on China's urban markets show this migration-driven sensitivity keeps informal sector prices 40-60% below what they'd be in less competitive spots. It's a survival game: low prices mean steady foot traffic, even if profits are thin.
 
 - **Broader Context**: Overall cost of living in Shenzhen is about 50% lower than Hong Kong (e.g., rent, food, transport), so low earnings still cover basics. But for migrants, it's a grind—high density and informal work amplify the "earn little, okay" mindset.

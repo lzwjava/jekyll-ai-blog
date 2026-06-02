@@ -55,7 +55,7 @@ Answer:
 
 你的 Software Engineering 背景已经在实践课程中给了你很强的优势——许多自考学生缺乏这种现实世界的 Context。通过更有针对性的练习（特别是剩余笔试和实践课的真题）、更深入的查漏补缺以及稳定的日常节奏，缩小差距并达到更高的平均分（80+ 甚至 90+）是非常现实的，这取决于**更强度地应用这些原则**。许多人达到高水平仅仅是因为他们真正执行了别人“知道应该做”但从未彻底执行的事情。
 
-References:  
+References:
 
 - [https://zhuanlan.zhihu.com/p/343781759](https://zhuanlan.zhihu.com/p/343781759)
 - [https://www.zhihu.com/question/442477294](https://www.zhihu.com/question/442477294)

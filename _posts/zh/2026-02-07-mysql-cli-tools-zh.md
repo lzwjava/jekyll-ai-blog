@@ -99,7 +99,7 @@ mysqldump -u root -p --single-transaction --quick --set-gtid-purged=OFF prod ord
 mysql prod -B -N -e "SELECT * FROM users" > users.tsv
 
 # 以排序方式获取所有数据库的大小
-mysql -u root -p -e "SELECT table_schema 'DB', ROUND(SUM(data_length+index_length)/1024/1024,1) 'Size_MB' 
+mysql -u root -p -e "SELECT table_schema 'DB', ROUND(SUM(data_length+index_length)/1024/1024,1) 'Size_MB'
                      FROM information_schema.tables GROUP BY 1 ORDER BY 2 DESC"
 
 # 每 2 秒查看一次 processlist
@@ -116,7 +116,7 @@ watch -n 2 'mysql -u root -p -e "SHOW PROCESSLIST\G" | grep -v Sleep'
 # 我想要使用文件中的连接设置 ................ mysql --defaults-file=...
 ```
 
-你最常使用哪种风格或用例？  
+你最常使用哪种风格或用例？
 (我可以针对特定目的为你提供更多专业的示例)
 
 **References:**

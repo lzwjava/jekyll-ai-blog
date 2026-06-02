@@ -12,7 +12,7 @@ type: note
 
 Question: How to understand the observation that Jensen Huang appeared low-profile in a Shanghai fruit shop (no bodyguards, close to normal people, gave red packets, bought fruit) but still has a high presence?
 
-Answer: 
+Answer:
 
 Jensen Huang's recent visit to a fruit market (wet market) in Shanghai's Lujiazui area on January 24, 2026, shows a classic example of **low-profile behavior combined with high presence** — two qualities that are not mutually exclusive and often reinforce each other in charismatic or high-status individuals.
 
@@ -31,7 +31,7 @@ These actions signal humility, cultural respect (especially giving hongbao as a 
 - The very act of a billionaire casually shopping in a crowded public market becomes extraordinary precisely *because* it's unexpected, amplifying interest.
 
 ### How both can coexist
-High presence is often **inherent** (charisma, fame, aura), while low-profile is **behavioral** (choices about how to act in public).  
+High presence is often **inherent** (charisma, fame, aura), while low-profile is **behavioral** (choices about how to act in public).
 Many powerful figures master this combination:
 - They avoid ostentatious displays (private jets to the market entrance, large security details, etc.) → low-profile.
 - Their natural aura, reputation, and subtle confidence still make them the center of gravity in any room/space → high presence.
@@ -42,7 +42,7 @@ In Jensen Huang's case:
 
 It's not a contradiction; it's a powerful personal brand: **approachable yet undeniably exceptional**.
 
-References:  
+References:
 
 - [Global Times - Nvidia CEO Jensen Huang visits Shanghai wet market](https://www.globaltimes.cn/page/202601/1354122.shtml)
 - [South China Morning Post - Jensen Huang celebrates Lunar New Year with Nvidia employees in Shanghai](https://www.scmp.com/tech/big-tech/article/3341148/jensen-huang-celebrates-lunar-new-year-nvidia-employees-shanghai)

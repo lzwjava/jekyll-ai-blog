@@ -58,13 +58,13 @@ type: note
    def factorial(n):
        """
        Calculate the factorial of a non-negative integer using recursion.
-       
+
        Args:
        n (int): The number to calculate factorial for.
-       
+
        Returns:
        int: The factorial of n.
-       
+
        Raises:
        ValueError: If n is negative.
        """
@@ -107,6 +107,6 @@ type: note
 
 如果您提供具体的编程任务或语言，我可以给出量身定制的示例！
 
-[OpenRouter 文档](https://openrouter.ai/docs)  
-[Anthropic 编程提示工程指南](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)  
+[OpenRouter 文档](https://openrouter.ai/docs)
+[Anthropic 编程提示工程指南](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
 [Claude 3.5 Sonnet 模型卡](https://www.anthropic.com/news/claude-3-5-sonnet)

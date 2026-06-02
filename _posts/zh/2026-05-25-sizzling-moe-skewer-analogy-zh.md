@@ -65,7 +65,7 @@ output = torch.zeros_like(x)
 for k in range(8):
     expert_idx   = topk_ids[:, k]          # 每个 token 对应的专家编号
     expert_score = topk_vals[:, k]         # 对应权重   [B*T]
-    
+
     # 每个 token 被发送到其分配的专家
     # （实际实现中，为效率考虑，会按专家对 token 进行批处理）
     for b in range(x.shape[0]):

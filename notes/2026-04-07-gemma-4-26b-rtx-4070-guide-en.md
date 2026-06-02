@@ -11,7 +11,7 @@ type: note
 
 thought;Question: What is the best configuration for Gemma-4-26B-A4B-it-GGUF to run on an RTX 4070 (12GB VRAM) with OpenClaw and llama.cpp, while maintaining a long context size?
 
-Answer: To run **Gemma-4-26B-A4B-it** effectively on an RTX 4070 with 12GB of VRAM for agentic tasks like OpenClaw, you must balance the model's weight size against the VRAM required for a long KV cache. 
+Answer: To run **Gemma-4-26B-A4B-it** effectively on an RTX 4070 with 12GB of VRAM for agentic tasks like OpenClaw, you must balance the model's weight size against the VRAM required for a long KV cache.
 
 ### Recommended Quantization
 For a 12GB VRAM limit, you should use **IQ3_M** or **IQ3_S** (Importance Quantization) versions.

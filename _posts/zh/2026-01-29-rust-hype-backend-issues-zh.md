@@ -77,7 +77,7 @@ type: note
 
 作者的核心观点对大多数情况仍然有效：炒作和切换语言无法替代扎实的 computer science fundamentals、良好的 architecture，以及 competent profiling/fixing 实际瓶颈。
 
-References:  
+References:
 
 - [Why Rust is Winning in Backend Systems: A Startup Must-Know](https://dockyard.com/blog/2025/03/18/why-rust-is-winning-backend-systems-startup-must-know)
 - [Why you should use Rust on the backend](https://www.shuttle.dev/blog/2024/07/31/rust-on-the-backend)

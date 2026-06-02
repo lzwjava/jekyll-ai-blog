@@ -32,8 +32,8 @@ Learned helplessness—the phenomenon where people (or animals) stop trying to e
 
 These opinions tend to come from behaviorists, cross-cultural researchers, libertarian-leaning psychologists, critics of victim-blaming narratives, or hardcore resilience advocates—none of whom represent the textbook consensus.
 
-References:  
-- [Critiques of learned helplessness in cultural context – Nisbett & Miyamoto (2005) cross-cultural work implications](https://pubmed.ncbi.nlm.nih.gov/16173871/)  
-- [Animal ethics and methodological critiques of the original triadic design – Church (1969) and later reviews](https://psycnet.apa.org/record/1969-13935-001)  
-- [Economic/rational choice reinterpretations – e.g., Matell & Meck (1999) on optimal foraging and “quitting”](https://pubmed.ncbi.nlm.nih.gov/10442032/)  
+References:
+- [Critiques of learned helplessness in cultural context – Nisbett & Miyamoto (2005) cross-cultural work implications](https://pubmed.ncbi.nlm.nih.gov/16173871/)
+- [Animal ethics and methodological critiques of the original triadic design – Church (1969) and later reviews](https://psycnet.apa.org/record/1969-13935-001)
+- [Economic/rational choice reinterpretations – e.g., Matell & Meck (1999) on optimal foraging and “quitting”](https://pubmed.ncbi.nlm.nih.gov/10442032/)
 - [Victim-blaming critique in social psychology – Jost & Hunyady (2005) system justification theory](https://psycnet.apa.org/record/2005-06376-003)

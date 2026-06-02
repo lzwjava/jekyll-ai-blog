@@ -34,5 +34,5 @@ AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 
 这将在指定节点上创建一个基础应用服务器。如需更多选项（如端口、JVM 设置），请参阅完整的 AdminTask 文档。
 
-[AdminTask 对象的 ServerManagement 命令组](https://www.ibm.com/docs/en/was-nd/9.0.5?topic=scripting-servermanagement-command-group-admintask-object)  
+[AdminTask 对象的 ServerManagement 命令组](https://www.ibm.com/docs/en/was-nd/9.0.5?topic=scripting-servermanagement-command-group-admintask-object)
 [使用脚本创建服务器](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-creating-server-using)

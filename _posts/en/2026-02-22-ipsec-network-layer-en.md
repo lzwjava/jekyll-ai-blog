@@ -11,7 +11,7 @@ type: note
 
 Question: At which layer does the IPsec secure communication mechanism operate?
 
-Answer: 
+Answer:
 
 IPsec (Internet Protocol Security) operates at the **Network Layer** (Layer 3) of the OSI model.
 

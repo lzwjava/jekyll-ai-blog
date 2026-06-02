@@ -91,7 +91,7 @@ Install these extensions:
    → syntax highlight, lint, ctags navigation
 
 2. "TerosHDL"
-   publisher: teros-technology  
+   publisher: teros-technology
    → schematic viewer, testbench generator, documentation
 
 3. "WaveTrace"
@@ -144,11 +144,11 @@ Create `counter_tb.v`:
 module counter_tb;
     reg clk = 0, rst = 1;
     wire [7:0] count;
-    
+
     counter dut(.clk(clk), .rst(rst), .count(count));
-    
+
     always #5 clk = ~clk;
-    
+
     initial begin
         $dumpfile("wave.vcd");
         $dumpvars(0, counter_tb);

@@ -33,7 +33,7 @@ The **wheel** group in macOS is a special user group inherited from its BSD Unix
 - The `/private/tmp` (and therefore `/tmp`) directory is owned by group **wheel** → files you create there often show group **wheel** (this is normal and inherited from the parent directory; it doesn't give extra access because default permissions are usually 644/755).
 - You may see **wheel** in file permissions in Finder's "Get Info" window or when running `ls -l` in Terminal.
 
-In short:  
+In short:
 On current macOS, **wheel** is mostly a historical artifact with very limited active meaning — the real administrative group is **admin**.
 
 You can check group memberships with these commands in Terminal:

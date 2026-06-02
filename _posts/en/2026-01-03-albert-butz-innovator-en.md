@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to Albert Butz
 
-Answer: 
+Answer:
 
 **Albert Butz** (1849–1905) was a Swiss-born American inventor and businessman best known for pioneering automatic temperature control systems, laying the foundation for the modern thermostat industry.
 
@@ -35,7 +35,7 @@ Butz held additional patents (at least 11 more), but the damper flapper remains 
 
 His work marked the beginning of automated home heating, influencing modern thermostats and the broader field of control systems.
 
-References:  
+References:
 
 - [Wikipedia: Albert Butz](https://en.wikipedia.org/wiki/Albert_Butz)
 - [Honeywell Official History](https://www.honeywell.com/us/en/company/our-history)

@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么 BitTorrent 下载速度这么快，为什么 P2P 下载能轻松超过 10 MB/s？
 
-Answer: 
+Answer:
 
 BitTorrent（以及现代 P2P 协议）可以实现极高的下载速度——在连接良好的情况下通常能达到 10–100+ MB/s——这是由于其协议的工作原理与传统的直接下载（HTTP/FTP）有着本质的不同。以下是它通常快得惊人的原因：
 
@@ -70,7 +70,7 @@ BitTorrent（以及现代 P2P 协议）可以实现极高的下载速度——�
 
 **底线**：BitTorrent 之所以快，是因为它将下载变成了一个大规模并行、协作的过程，而不是依赖于单一的中心点。该协议专门设计为随参与者数量的增加而扩展——分享的人越多，每个人获取文件的速度就越快。
 
-References:  
+References:
 
 - [BitTorrent protocol specification (bittorrent.org)](http://bittorrent.org/beps/bep_0003.html)
 - [How BitTorrent Works (Cloudflare explanation)](https://www.cloudflare.com/learning/cdn/what-is-bittorrent/)

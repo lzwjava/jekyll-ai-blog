@@ -23,60 +23,60 @@ This course aims to equip students with foundational knowledge and practical ski
 - Familiarity with fundamental mathematics (e.g., Linear Algebra may be helpful for network algorithms).
 
 #### Course Content
-1. **Introduction to Computer Networks**  
-   - Definition and scope of computer networks.  
-   - Network classifications (LAN, WAN, MAN, PAN).  
-   - Network topologies (star, bus, ring, mesh).  
+1. **Introduction to Computer Networks**
+   - Definition and scope of computer networks.
+   - Network classifications (LAN, WAN, MAN, PAN).
+   - Network topologies (star, bus, ring, mesh).
    - Overview of network applications and their importance.
 
-2. **Network Architecture and Models**  
-   - OSI Reference Model (7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application).  
-   - TCP/IP Protocol Suite (4 layers: Link, Internet, Transport, Application).  
-   - Comparison of OSI and TCP/IP models.  
+2. **Network Architecture and Models**
+   - OSI Reference Model (7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application).
+   - TCP/IP Protocol Suite (4 layers: Link, Internet, Transport, Application).
+   - Comparison of OSI and TCP/IP models.
    - Layered architecture functions and responsibilities.
 
-3. **Physical Layer**  
-   - Transmission media (wired: twisted pair, coaxial, fiber optic; wireless: radio, microwave).  
-   - Signal encoding techniques (analog vs. digital).  
-   - Data transmission basics (bandwidth, throughput, noise).  
+3. **Physical Layer**
+   - Transmission media (wired: twisted pair, coaxial, fiber optic; wireless: radio, microwave).
+   - Signal encoding techniques (analog vs. digital).
+   - Data transmission basics (bandwidth, throughput, noise).
    - Hardware components (hubs, repeaters, cables).
 
-4. **Data Link Layer**  
-   - Functions: framing, error detection/correction, flow control.  
-   - Protocols: Ethernet (IEEE 802.3), PPP (Point-to-Point Protocol).  
-   - Medium Access Control (MAC) methods (CSMA/CD, CSMA/CA).  
-   - Switching techniques (circuit, packet, message switching).  
+4. **Data Link Layer**
+   - Functions: framing, error detection/correction, flow control.
+   - Protocols: Ethernet (IEEE 802.3), PPP (Point-to-Point Protocol).
+   - Medium Access Control (MAC) methods (CSMA/CD, CSMA/CA).
+   - Switching techniques (circuit, packet, message switching).
    - Introduction to LAN technologies.
 
-5. **Network Layer**  
-   - Functions: logical addressing, routing, forwarding.  
-   - IP addressing (IPv4 and IPv6 structure, subnetting).  
-   - Routing algorithms (static vs. dynamic, distance vector, link state).  
-   - Protocols: IP, ICMP, ARP.  
+5. **Network Layer**
+   - Functions: logical addressing, routing, forwarding.
+   - IP addressing (IPv4 and IPv6 structure, subnetting).
+   - Routing algorithms (static vs. dynamic, distance vector, link state).
+   - Protocols: IP, ICMP, ARP.
    - Network devices (routers, gateways).
 
-6. **Transport Layer**  
-   - Functions: end-to-end communication, reliability, congestion control.  
-   - Protocols: TCP (connection-oriented), UDP (connectionless).  
-   - Port numbers and multiplexing.  
+6. **Transport Layer**
+   - Functions: end-to-end communication, reliability, congestion control.
+   - Protocols: TCP (connection-oriented), UDP (connectionless).
+   - Port numbers and multiplexing.
    - Flow and error control mechanisms.
 
-7. **Application Layer**  
-   - Common protocols: HTTP, FTP, SMTP, DNS, SNMP.  
-   - Client-server and peer-to-peer models.  
-   - Network services (email, web browsing, file transfer).  
+7. **Application Layer**
+   - Common protocols: HTTP, FTP, SMTP, DNS, SNMP.
+   - Client-server and peer-to-peer models.
+   - Network services (email, web browsing, file transfer).
    - Introduction to network security basics (e.g., encryption, authentication).
 
-8. **Network Performance and Management**  
-   - Metrics: latency, bandwidth, jitter, packet loss.  
-   - Network troubleshooting tools (ping, traceroute).  
-   - Basics of network configuration and management.  
+8. **Network Performance and Management**
+   - Metrics: latency, bandwidth, jitter, packet loss.
+   - Network troubleshooting tools (ping, traceroute).
+   - Basics of network configuration and management.
    - Quality of Service (QoS) concepts.
 
-9. **Emerging Technologies (Optional/Advanced Topics)**  
-   - Wireless networks (Wi-Fi, Bluetooth, cellular networks).  
-   - Network virtualization and cloud computing basics.  
-   - Introduction to Software-Defined Networking (SDN).  
+9. **Emerging Technologies (Optional/Advanced Topics)**
+   - Wireless networks (Wi-Fi, Bluetooth, cellular networks).
+   - Network virtualization and cloud computing basics.
+   - Introduction to Software-Defined Networking (SDN).
    - IoT (Internet of Things) and its networking requirements.
 
 #### Learning Outcomes
@@ -88,15 +88,15 @@ By the end of the course, students should be able to:
 - Apply networking principles to real-world scenarios.
 
 #### Assessment (Typical for Self-Study Exam)
-- **Format**: Written examination (closed-book, multiple-choice, and short-answer questions).  
-- **Duration**: Approximately 2-3 hours.  
-- **Weight**: Likely 100% of the course grade (self-study exams typically rely on a single final exam).  
-- **Passing Score**: 60/100 (standard passing threshold in China’s self-study system).  
+- **Format**: Written examination (closed-book, multiple-choice, and short-answer questions).
+- **Duration**: Approximately 2-3 hours.
+- **Weight**: Likely 100% of the course grade (self-study exams typically rely on a single final exam).
+- **Passing Score**: 60/100 (standard passing threshold in China’s self-study system).
 - **Content Distribution**: Questions may cover theoretical concepts (60-70%) and practical applications (30-40%).
 
 #### Recommended Study Materials
-- **Textbook**: A standard reference like *Computer Networks* by Tanenbaum or *Data Communications and Networking* by Forouzan (Chinese editions are widely used in self-study exams).  
-- **Supplementary Resources**: Guangdong-specific self-study guides (e.g., published by Higher Education Press or local exam authorities), past exam papers, and online tutorials.  
+- **Textbook**: A standard reference like *Computer Networks* by Tanenbaum or *Data Communications and Networking* by Forouzan (Chinese editions are widely used in self-study exams).
+- **Supplementary Resources**: Guangdong-specific self-study guides (e.g., published by Higher Education Press or local exam authorities), past exam papers, and online tutorials.
 - **Practice**: Hands-on exercises with network simulation tools (e.g., Packet Tracer) if available.
 
 ---

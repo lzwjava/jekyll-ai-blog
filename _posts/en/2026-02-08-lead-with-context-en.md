@@ -12,7 +12,7 @@ type: note
 
 Question: Often the CEO shouldn't be too micromanaging or caring too much about details, but should focus more on the company's direction and strategy, like Zhang Yiming's "more context / less control" approach, right?
 
-Answer: 
+Answer:
 
 Yes, that's generally a sound principle for CEOs, especially in fast-growing, innovative, or large-scale companies — and Zhang Yiming's philosophy aligns closely with it.
 
@@ -37,7 +37,7 @@ Zhang Yiming (founder of ByteDance, parent of TikTok) explicitly promoted **"Con
 - Minimizing top-down directives, approvals, and rigid rules ("control")
 - Trusting high-caliber people to make good decentralized decisions when armed with that context
 
-He described an ideal organization formula along the lines of:  
+He described an ideal organization formula along the lines of:
 **Excellent people + Ample context + Minimal controls = High-quality decisions + Low-cost coordination**
 
 This approach helped ByteDance scale rapidly while staying innovative and avoiding typical "big company disease" issues like bureaucracy, "managing up," or ego-driven centralization.
@@ -54,7 +54,7 @@ That said, it's not universal or one-size-fits-all:
 
 Overall, you're correct: for most mature/growing tech companies, the CEO staying out of the weeds and focusing on direction/strategy — while providing strong context to enable autonomous teams — tends to produce better outcomes. Zhang Yiming's "context, not control" is one of the clearest and most influential articulations of this idea in recent years.
 
-References:  
+References:
 
 - [ByteDance’s Zhang Yiming on “Context, not control”](https://sourcecodecap.com/code-class-post/bytedances-zhang-yiming-bring-outside-in-and-avoid-managing-up-how-to-protect-the-comp)
 - [Analysis of ByteDance leadership principles and "Context over Control"](https://www.oreateai.com/blog/bytedance-leadership-principles-indepth-analysis-of-context-management-and-control-management-models/0e62ec200ae4f97269f827994c035dd0)

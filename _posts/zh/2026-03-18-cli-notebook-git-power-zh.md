@@ -58,7 +58,7 @@ README 中的 **#-revision-history** 部分解释了基于 Git 的版本控制�
 ### 安装（截至 2026 年）
 - **Homebrew**（macOS/Linux）：`brew install xwmx/taps/nb`
 - **npm**：`npm install -g nb.sh`
-- **手动**（最便携）：  
+- **手动**（最便携）：
   ```bash
   sudo wget https://raw.githubusercontent.com/xwmx/nb/master/nb -O /usr/local/bin/nb
   sudo chmod +x /usr/local/bin/nb
@@ -106,7 +106,7 @@ nb sync --all
 
 总体而言，`nb` 是最成熟、功能丰富的 CLI 优先纯文本笔记本系统之一，特别是对于重视 Git、纯文本和 Zettelkasten 原则的用户。
 
-**参考资料：**  
+**参考资料：**
 
-- [https://github.com/xwmx/nb](https://github.com/xwmx/nb)  
+- [https://github.com/xwmx/nb](https://github.com/xwmx/nb)
 - [https://xwmx.github.io/nb/](https://xwmx.github.io/nb/)（演示 / 扩展文档）

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《论语》 (The Analects of Confucius)
 
-Answer: 
+Answer:
 
 **《论语》 (The Analects of Confucius) Introduction**
 
@@ -73,7 +73,7 @@ Despite being over 2,500 years old, many ideas remain surprisingly applicable:
 
 The Analects is best read slowly — one or two passages at a time — and ideally with a good commentary, as the meaning often deepens through reflection and discussion.
 
-References:  
+References:
 
 - [Analects - Wikipedia](https://en.wikipedia.org/wiki/Analects)
 - [Chinese Text Project - 论语](https://ctext.org/analects/zhs)

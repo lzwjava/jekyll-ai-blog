@@ -26,19 +26,19 @@ Instead, popularity is usually judged by:
 
 These consistently appear as the most starred or most referenced across discussions, blog drafts, and community lists:
 
-- **Freeyourgadget / Gadgetbridge**  
-  The clear #1 most popular repository on Codeberg (most stars + most forks by a wide margin).  
+- **Freeyourgadget / Gadgetbridge**
+  The clear #1 most popular repository on Codeberg (most stars + most forks by a wide margin).
   Open-source Android app for managing & using smartwatches / fitness bands (Pebble, Mi Band, Amazfit, Garmin, etc.) without vendor cloud lock-in.
 
-- **forgejo / forgejo**  
-  The actual software that powers Codeberg (soft fork of Gitea).  
+- **forgejo / forgejo**
+  The actual software that powers Codeberg (soft fork of Gitea).
   Very active development, many contributors, central to the whole platform.
 
-- **Codeberg / Community** & **Codeberg / org** repositories  
+- **Codeberg / Community** & **Codeberg / org** repositories
   Discussions, governance, feature requests, infrastructure topics. High activity by definition.
 
-- **woodpecker-ci / woodpecker**  
-  The main CI system used on Codeberg (Woodpecker CI).  
+- **woodpecker-ci / woodpecker**
+  The main CI system used on Codeberg (Woodpecker CI).
   Frequently updated and widely used by projects hosted there.
 
 Other frequently mentioned or high-visibility categories/projects:
@@ -52,16 +52,16 @@ Other frequently mentioned or high-visibility categories/projects:
 
 ### How to Find Currently Active / "Hot" Projects Yourself
 
-1. Visit https://codeberg.org/explore/repos  
-   - Sort by **Most stars** → shows all-time popular ones (Gadgetbridge usually #1)  
-   - Sort by **Recently updated** → shows currently active development  
+1. Visit https://codeberg.org/explore/repos
+   - Sort by **Most stars** → shows all-time popular ones (Gadgetbridge usually #1)
+   - Sort by **Recently updated** → shows currently active development
    - Sort by **Recently created** → brand new projects
 
 2. Look at https://codeberg.org/explore/organizations → large orgs often have multiple active repos
 
-3. Check recent commits / activity on major orgs:  
-   - https://codeberg.org/forgejo  
-   - https://codeberg.org/woodpecker-ci  
+3. Check recent commits / activity on major orgs:
+   - https://codeberg.org/forgejo
+   - https://codeberg.org/woodpecker-ci
    - https://codeberg.org/Freeyourgadget
 
 4. Follow Codeberg announcements / blog or join the https://codeberg.org/Codeberg/Community issue tracker for spotlight discussions.

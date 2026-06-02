@@ -84,7 +84,7 @@ BEGIN
     DECLARE v_sqlcode INTEGER DEFAULT 0;
     DECLARE v_sqlstate CHAR(5) DEFAULT '00000';
     DECLARE v_error_message VARCHAR(256);
-    
+
     -- 为任何异常声明退出处理器
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
@@ -92,18 +92,18 @@ BEGIN
             v_sqlcode = DB2_RETURNED_SQLCODE,
             v_sqlstate = RETURNED_SQLSTATE,
             v_error_message = MESSAGE_TEXT;
-            
+
         -- 将错误详情记录到表或文件
         INSERT INTO error_log (sqlcode, sqlstate, message, timestamp)
         VALUES (v_sqlcode, v_sqlstate, v_error_message, CURRENT_TIMESTAMP);
-        
+
         ROLLBACK;
     END;
-    
+
     -- 您的事务逻辑在此
     UPDATE employee SET salary = salary + 1000 WHERE job = 'MANAGER';
     INSERT INTO audit_log VALUES (CURRENT_TIMESTAMP, 'Salary update');
-    
+
     COMMIT;
 END
 ```

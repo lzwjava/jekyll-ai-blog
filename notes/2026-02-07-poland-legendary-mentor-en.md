@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Ryszard Szubartowski, the programming teacher.
 
-Answer: 
+Answer:
 
 **Ryszard Szubartowski** (born August 30, 1952, in Kraśnik, Poland) is one of the most influential and successful informatics and programming teachers in Poland. Widely regarded as a legendary mentor, he is often called "Wielki Szu" (Great Szu) by his students and admirers. He holds the title of **Professor of Education** (profesor oświaty) and is a Knight of the Order of Polonia Restituta (Krzyż Kawalerski Orderu Odrodzenia Polski).
 
@@ -51,7 +51,7 @@ He has been critical of the traditional Polish school system, arguing that it of
 
 At 73+ years old (as of early 2026), Ryszard Szubartowski remains active, still teaching in the same modest classroom in Gdynia and continuing to shape some of the brightest minds in global technology and artificial intelligence.
 
-References:  
+References:
 
 - [https://pl.wikipedia.org/wiki/Ryszard_Szubartowski](https://pl.wikipedia.org/wiki/Ryszard_Szubartowski)
 - [https://talent.edu.pl/ryszard-szubartowski](https://talent.edu.pl/ryszard-szubartowski)

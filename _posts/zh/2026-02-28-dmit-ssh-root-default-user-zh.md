@@ -53,7 +53,7 @@ ssh -i id_rsa.pem root@your-server-ip
 
 如果您的实例使用自定义安装的不同 OS 模板更改了默认用户（罕见），请检查欢迎邮件或客户区域中的具体凭据。但在标准的 DMIT 设置中，它是 **root**。
 
-参考资料：  
+参考资料：
 
 - [https://www.dmit.io/index.php?rp=/knowledgebase/56/How-to-connect-DMIT-VPS-via-SSH-Key-using-PuTTY.html](https://www.dmit.io/index.php?rp=/knowledgebase/56/How-to-connect-DMIT-VPS-via-SSH-Key-using-PuTTY.html)（提到在 Auto-login username 中输入 "root"）
 - [https://www.dmit.io/index.php?rp=/knowledgebase/64/How-to-connect-DMIT-VPS-via-SSH-Key-using-Termius.html](https://www.dmit.io/index.php?rp=/knowledgebase/64/How-to-connect-DMIT-VPS-via-SSH-Key-using-Termius.html)（在 "Username" 中输入 "root"）

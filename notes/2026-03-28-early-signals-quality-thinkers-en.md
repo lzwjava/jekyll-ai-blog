@@ -37,6 +37,6 @@ To verify if a group or person has true "execution wisdom," ask:
 2.  **Did they build a "toy" version early?** (Look at their GitHub commits from 12+ months ago.)
 3.  **Are they discussing the "boring" parts?** (High-quality execution usually focuses on latency, error handling, and security—not just the "magic" demo.)
 
-It's a very sharp observation. Tracking the **history of an interest** is often more revealing than the interest itself. 
+It's a very sharp observation. Tracking the **history of an interest** is often more revealing than the interest itself.
 
 **Would you like me to help you find some specific "early signal" thinkers or repositories for a particular AI niche you're following?**

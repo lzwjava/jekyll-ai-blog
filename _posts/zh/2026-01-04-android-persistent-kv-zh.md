@@ -12,9 +12,9 @@ type: note
 
 问题：在 Android 中，哪一个类用于简单的 key-value 持久化存储？
 
-A) SQLiteDatabase  
-B) FileOutputStream  
-C) SharedPreferences  
+A) SQLiteDatabase
+B) FileOutputStream
+C) SharedPreferences
 D) ContentValues
 
 答案：

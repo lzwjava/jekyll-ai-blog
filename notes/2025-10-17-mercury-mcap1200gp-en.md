@@ -39,7 +39,7 @@ The Mercury MCAP1200GP is a ceiling-mounted wireless Access Point (AP) router de
 
 This model is geared toward professional setups rather than home use, emphasizing reliability and scalability.
 
-**References**  
-- [Mercury Official Product Specs](https://www.mercurycom.com.cn/m/product-383?type=spec)  
-- [Yoycart Product Listing](https://m.yoycart.com/Product/585666964167/)  
+**References**
+- [Mercury Official Product Specs](https://www.mercurycom.com.cn/m/product-383?type=spec)
+- [Yoycart Product Listing](https://m.yoycart.com/Product/585666964167/)
 - [Taobao Overview](https://world.taobao.com/lang/en-us/goods/-100109722363.htm)

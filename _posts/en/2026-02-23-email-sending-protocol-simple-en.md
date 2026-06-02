@@ -11,7 +11,7 @@ type: note
 
 Question: What protocol is used to send an email from a user agent to a mail server?
 
-Answer: 
+Answer:
 
 The correct protocol used to send an email from a user agent (such as Outlook, Thunderbird, or a webmail interface acting as a client) to a mail server is **SMTP** (Simple Mail Transfer Protocol).
 

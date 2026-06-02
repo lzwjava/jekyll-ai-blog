@@ -25,8 +25,8 @@ This output comes from the macOS `dd` command (used with `sudo dd if=... of=/dev
 908066816 bytes transferred in 43.725150 secs (20767609 bytes/sec)
 ```
 
-- **records in / records out**: How many blocks were read from the ISO and written to the USB.  
-  Here each record = **bs=1m** = 1 MiB = 1,048,576 bytes  
+- **records in / records out**: How many blocks were read from the ISO and written to the USB.
+  Here each record = **bs=1m** = 1 MiB = 1,048,576 bytes
   So 866 records ≈ 866 MiB written so far.
 - **bytes transferred**: Total data written up to now (in bytes).
 - **in Xs secs**: How much real time has passed since dd started.
@@ -43,8 +43,8 @@ The overall average speed dropped to about **15.5–16 MB/s** toward the end.
 
 ### Is this speed good or bad?
 
-- **Typical cheap / older USB 3.0 flash drives**: Sustained write 10–30 MB/s when writing large continuous data (like an ISO).  
-- **Good USB 3.0/3.1 flash drives**: 40–100+ MB/s sustained write.  
+- **Typical cheap / older USB 3.0 flash drives**: Sustained write 10–30 MB/s when writing large continuous data (like an ISO).
+- **Good USB 3.0/3.1 flash drives**: 40–100+ MB/s sustained write.
 - **Very fast modern ones** (USB 3.2 Gen 2, SLC/MLC, or premium models): 150–300+ MB/s possible, but rare for normal thumb drives.
 
 **Your speed (15–21 MB/s)** is quite typical for:
@@ -52,7 +52,7 @@ The overall average speed dropped to about **15.5–16 MB/s** toward the end.
 - A USB 2.0 port (even if the drive is 3.0)
 - A drive that's getting full / thermal throttling / fake-high-capacity fake drive
 
-It's **not very fast**, but also **not unusually slow** for many common USB sticks when writing ~5–6 GB continuously.  
+It's **not very fast**, but also **not unusually slow** for many common USB sticks when writing ~5–6 GB continuously.
 If you want faster ISO → USB creation (2–4× faster), try:
 - A better USB flash drive (look for ones advertising 100+ MB/s write)
 - Confirm you're using a real USB 3.0/3.1 port (blue port usually)

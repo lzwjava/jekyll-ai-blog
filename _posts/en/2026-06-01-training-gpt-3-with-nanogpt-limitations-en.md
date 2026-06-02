@@ -22,7 +22,7 @@ nanoGPT as-is: **No for 6.7B**. It's designed for GPT-2 scale (up to ~1.5B comfo
 ```python
 # nanoGPT max practical config (Karpathy's own runs)
 n_layer = 36
-n_head = 20  
+n_head = 20
 n_embd = 1280  # GPT-2 XL
 # ~1.5B params — that's the ceiling Karpathy targets
 ```
@@ -44,7 +44,7 @@ n_embd = 1280  # GPT-2 XL
 ```
 6.7B model on nanoGPT default (fp32 AdamW):
   weights:   26.8GB
-  grads:     26.8GB  
+  grads:     26.8GB
   m + v:     53.6GB
   activations (batch=4, seq=2048): ~30GB
   ─────────────────────────────────────────

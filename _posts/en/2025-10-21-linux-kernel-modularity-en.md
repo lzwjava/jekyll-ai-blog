@@ -104,6 +104,6 @@ Changes aren't permanent across reboots:
 
 This setup is why Linux feels "modular" in practice—it's not a full microkernel, but the module system mimics one for extensibility. For hands-on, try loading a real driver like `vfat` for FAT filesystems.
 
-[KERNEL Modules Lab Documentation](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html)  
-[Understanding Kernel Modules on Medium](https://medium.com/@arashjafariwork/understanding-kernel-modules-enhancing-flexibility-in-operating-systems-ed348807ed7b)  
+[KERNEL Modules Lab Documentation](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html)
+[Understanding Kernel Modules on Medium](https://medium.com/@arashjafariwork/understanding-kernel-modules-enhancing-flexibility-in-operating-systems-ed348807ed7b)
 [Red Hat Kernel Administration Guide](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/chap-documentation-kernel_administration_guide-working_with_kernel_modules)

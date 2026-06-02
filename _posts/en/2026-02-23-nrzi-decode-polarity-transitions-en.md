@@ -11,7 +11,7 @@ type: note
 
 Question: Which of the following statements about Differential Non-Return-to-Zero Inverted (NRZI) encoding is correct?
 
-Answer: 
+Answer:
 
 The correct answer is **C**.
 
@@ -23,7 +23,7 @@ Differential Non-Return-to-Zero Inverted (NRZI) is a method of mapping binary si
 **2. Analysis of the Options**
 
 *   **Option A: "100BASE-TX and 100BASE-T4 both use NRZI encoding"**
-    *   **Incorrect.** 
+    *   **Incorrect.**
         *   **100BASE-TX** uses 4B/5B block coding followed by **MLT-3** line coding (which itself often uses NRZI principles internally for state changes, but the primary line code cited is MLT-3).
         *   **100BASE-T4** uses 8B/6T coding.
         *   While 100BASE-FX uses NRZI, stating that both TX and T4 use it as their primary line encoding scheme is inaccurate in this context.
@@ -41,7 +41,7 @@ Differential Non-Return-to-Zero Inverted (NRZI) is a method of mapping binary si
         *   *Note:* Your provided explanation says: "'1' maintains level, '0' transitions". Option D states: "'0' has transition, '1' has no transition". Wait, let's re-read Option D carefully.
         *   Option D says: "Each '0' ... has transition", "Each '1' ... has no transition".
         *   The explanation says: "'1' keeps level unchanged, '0' happens transition".
-        *   Technically, under the convention where 0=Transition and 1=No Transition, Option D describes the mechanism correctly. **However**, in many academic contexts regarding this specific question, Option C is preferred because it describes the *general mechanism* (decoding via transitions) without committing to a specific bit-mapping convention (since some standards invert the logic, i.e., 1=Transition, 0=No Transition). Furthermore, Option C explicitly mentions "adjacent code elements," which highlights the *differential* nature essential to the definition. 
+        *   Technically, under the convention where 0=Transition and 1=No Transition, Option D describes the mechanism correctly. **However**, in many academic contexts regarding this specific question, Option C is preferred because it describes the *general mechanism* (decoding via transitions) without committing to a specific bit-mapping convention (since some standards invert the logic, i.e., 1=Transition, 0=No Transition). Furthermore, Option C explicitly mentions "adjacent code elements," which highlights the *differential* nature essential to the definition.
         *   More critically, looking at the provided "Reference Answer" and "Explanation": The explanation emphasizes "decoding via transition of adjacent code elements." Option C captures the *definition* of the decoding process perfectly. Option D is a specific implementation rule that might be considered secondary to the fundamental definition in Option C, or potentially the question assumes the reverse convention (1=Transition) which was used in older magnetic recording, though less common in modern data comms. Given the exam key is **C**, the focus is on the **method of decoding** (transitions between adjacent units) rather than the specific bit assignment.
 
 **3. Conclusion**

@@ -61,10 +61,10 @@ For more advanced diagnosis, some tools also provide traceroute to see where the
 
 These methods give you a clear picture of whether the IP is blocked specifically by the GFW and how the server's performance looks globally.
 
-References:  
-- https://www.chinafirewalltest.com/  
-- https://www.websitepulse.com/tools/china-firewall-test  
-- https://en.greatfire.org/analyzer  
-- https://tools.keycdn.com/ping  
-- https://globalping.io/  
+References:
+- https://www.chinafirewalltest.com/
+- https://www.websitepulse.com/tools/china-firewall-test
+- https://en.greatfire.org/analyzer
+- https://tools.keycdn.com/ping
+- https://globalping.io/
 - https://www.iozoom.com/client/knowledgebase/127/China-Great-Firewall-GFW-block.html

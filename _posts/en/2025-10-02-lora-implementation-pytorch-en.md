@@ -45,7 +45,7 @@ def create_toy_dataset(n_samples=1000):
 def train_model(model, X, y, epochs=10, lr=0.01):
     criterion = nn.MSELoss()
     optimizer = optim.Adam([param for param in model.parameters() if param.requires_grad], lr=lr)
-    
+
     for epoch in range(epochs):
         model.train()
         optimizer.zero_grad()
@@ -59,19 +59,19 @@ def train_model(model, X, y, epochs=10, lr=0.01):
 def main():
     # Set random seed for reproducibility
     torch.manual_seed(42)
-    
+
     # Create toy dataset
     X, y = create_toy_dataset()
-    
+
     # Initialize model with LoRA
     model = LoRALayer(in_features=64, out_features=10, rank=4)
-    
+
     # Count trainable parameters
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     total_params = sum(p.numel() for p in model.parameters())
     print(f"Trainable parameters: {trainable_params}")
     print(f"Total parameters: {total_params}")
-    
+
     # Train the model
     train_model(model, X, y)
 

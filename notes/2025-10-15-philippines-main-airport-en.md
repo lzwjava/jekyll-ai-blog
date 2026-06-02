@@ -16,6 +16,6 @@ Other notable airports include Mactan–Cebu International Airport (in Cebu City
 
 A new mega-airport, the New Manila International Airport in Bulacan, is under construction and expected to open in 2026, which will eventually rival or surpass NAIA in capacity.
 
-[Wikipedia: Ninoy Aquino International Airport](https://en.wikipedia.org/wiki/Ninoy_Aquino_International_Airport)  
-[List of busiest airports in the Philippines](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_Philippines)  
+[Wikipedia: Ninoy Aquino International Airport](https://en.wikipedia.org/wiki/Ninoy_Aquino_International_Airport)
+[List of busiest airports in the Philippines](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_Philippines)
 [New Manila International Airport](https://en.wikipedia.org/wiki/New_Manila_International_Airport)

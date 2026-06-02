@@ -43,6 +43,6 @@ type: note
 
 如果您在具体项目中遇到这些问题，主要痛点是什么——测试、运维还是其他？我可以帮您构思解决方案。
 
-[Apache Kafka 文档：精确一次语义](https://kafka.apache.org/documentation/#semantics)  
-[Martin Fowler：何为"最终一致性"？](https://martinfowler.com/articles/patterns-of-distributed-systems/eventual-consistency.html)  
+[Apache Kafka 文档：精确一次语义](https://kafka.apache.org/documentation/#semantics)
+[Martin Fowler：何为"最终一致性"？](https://martinfowler.com/articles/patterns-of-distributed-systems/eventual-consistency.html)
 [Confluent：事件驱动应用测试指南](https://www.confluent.io/blog/testing-event-driven-applications/)

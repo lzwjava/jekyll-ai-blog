@@ -116,7 +116,7 @@ def dispatch_tool(name, inputs):
         cmd = f"nuclei -u {inputs['target']} -t {inputs['templates']}"
     else:
         return "unknown tool"
-    
+
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=60)
     return result.stdout + result.stderr
 
@@ -124,11 +124,11 @@ def run_red_team_agent(target: str):
     messages = [
         {
             "role": "user",
-            "content": f"""You are an expert penetration tester. 
+            "content": f"""You are an expert penetration tester.
 Your target is: {target}
 Systematically test for vulnerabilities:
 1. Port scan and service enumeration
-2. Check for known CVEs on discovered services  
+2. Check for known CVEs on discovered services
 3. Test common web vulnerabilities (SQLi, XSS, path traversal, SSRF)
 4. Check for misconfigurations (open dirs, exposed admin panels, default creds)
 5. Report findings with severity ratings
@@ -136,7 +136,7 @@ Systematically test for vulnerabilities:
 Be methodical. Use tools iteratively based on what you discover."""
         }
     ]
-    
+
     while True:
         response = client.messages.create(
             model="claude-sonnet-4-20250514",
@@ -144,10 +144,10 @@ Be methodical. Use tools iteratively based on what you discover."""
             tools=TOOLS,
             messages=messages
         )
-        
+
         # append assistant turn
         messages.append({"role": "assistant", "content": response.content})
-        
+
         if response.stop_reason == "end_turn":
             # extract final report
             for block in response.content:
@@ -155,7 +155,7 @@ Be methodical. Use tools iteratively based on what you discover."""
                     print("\n=== FINAL REPORT ===")
                     print(block.text)
             break
-        
+
         if response.stop_reason == "tool_use":
             tool_results = []
             for block in response.content:
@@ -168,7 +168,7 @@ Be methodical. Use tools iteratively based on what you discover."""
                         "tool_use_id": block.id,
                         "content": output
                     })
-            
+
             messages.append({"role": "user", "content": tool_results})
 
 # Usage — only on systems you own or have written permission to test

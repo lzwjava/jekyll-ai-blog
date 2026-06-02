@@ -12,7 +12,7 @@ type: note
 
 Question: What is the primary benefit of link aggregation?
 
-Answer: 
+Answer:
 
 The correct answer is **B) It increases bandwidth and provides redundancy on backbone links**.
 

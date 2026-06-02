@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive guide to high school geometry covering these topics: 1. Points, Lines, and Planes; 2. Angles (types, relationships); 3. Parallel and Perpendicular Lines; 4. Triangles (types, properties, angle sum); 5. Congruent Triangles (postulates, theorems); 6. Similar Triangles (properties, ratios); 7. Pythagorean Theorem; 8. Special Right Triangles (30-60-90, 45-45-90); 9. Quadrilaterals (types, properties); 10. Polygons (properties, angle sums); 11. Circles (parts, properties, circumference, area); 12. Area of Triangles and Quadrilaterals; 13. Volume of Solids (prisms, cylinders, pyramids, cones, spheres); 14. Coordinate Geometry (distance, midpoint, slope); 15. Transformations (translation, reflection, rotation, dilation); 16. Trigonometry (right triangle ratios: sine, cosine, tangent); 17. Angles of Elevation and Depression; 18. Unit Circle; 19. Trigonometric Functions (graphs, properties); 20. Law of Sines and Law of Cosines.
 
-Answer: 
+Answer:
 
 Here is a structured, comprehensive overview of high school geometry topics. Each section includes key definitions, properties, theorems, and important formulas.
 
@@ -166,7 +166,7 @@ Here is a structured, comprehensive overview of high school geometry topics. Eac
 
 This guide covers the core concepts, theorems, and formulas needed for high school geometry success.
 
-References:  
+References:
 
 - [Khan Academy Geometry Units](https://www.khanacademy.org/math/geometry-home)
 - [MathGuy.US Geometry Handbook](https://mathguy.us/Handbooks/GeometryHandbook.pdf)

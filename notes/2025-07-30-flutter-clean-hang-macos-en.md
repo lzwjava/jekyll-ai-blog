@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Ah, I see what you mean 👍  
+Ah, I see what you mean 👍
 Sometimes `flutter clean` can appear to "hang" on macOS — especially if there are a lot of generated files, or if Xcode’s `DerivedData` folders are huge.
 
 ---
@@ -20,7 +20,7 @@ Sometimes `flutter clean` can appear to "hang" on macOS — especially if there 
 1. **Cancel the stuck command**
    Hit `CTRL + C`.
 
-2. **Clean manually (same effect as `flutter clean`)**  
+2. **Clean manually (same effect as `flutter clean`)**
    You can delete these build/cache folders yourself:
    ```bash
    rm -rf build/ .dart_tool/ ios/Pods ios/Podfile.lock ios/Flutter/Flutter.framework ios/Flutter/Flutter.podspec
@@ -53,7 +53,7 @@ Sometimes `flutter clean` can appear to "hang" on macOS — especially if there 
 ⚡ **Tip:** The first time after cleaning may take a little longer (since Flutter needs to regenerate `.dart_tool`, `.pub-cache`, iOS Pods, etc.), but it should not stay frozen forever. If you keep seeing it "stuck", it might be related to:
 
 - **Outdated Flutter SDK** → Run `flutter upgrade`
-- **Outdated CocoaPods** → Run `sudo gem install cocoapods`  
+- **Outdated CocoaPods** → Run `sudo gem install cocoapods`
 - **Rosetta / M1 chip issues**: If you’re on Apple Silicon, sometimes you need to run `arch -x86_64 pod install` inside the `ios` folder, depending on your setup.
 
 ---

@@ -1,103 +1,103 @@
 $ docker pull ghcr.io/librechat/librechat:latest
- 
+
 Error response from daemon: Head "https://ghcr.io/v2/librechat/librechat/manifests/latest": denied
-lzw@to:~/projects/LibreChat$ 
-lzw@to:~/projects/LibreChat$ sudo docker-compose up -d 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
+lzw@to:~/projects/LibreChat$
+lzw@to:~/projects/LibreChat$ sudo docker-compose up -d
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
 [+] Running 1/1
- ! api  Interrupted                                                                                                                                                                                    1.4s 
+ ! api  Interrupted                                                                                                                                                                                    1.4s
 ^C
-lzw@to:~/projects/LibreChat$ docker-compose up -d 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
+lzw@to:~/projects/LibreChat$ docker-compose up -d
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
 [+] Running 6/19
- ⠸ api [⣿⣿⣿⣿⣿⣤⣶⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀] Pulling                                                                                                                                                                  186.4s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s 
-   ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s 
-   ✔ fd345d7e43c5 Already exists                                                                                                                                                                       0.0s 
-   ✔ 0de821d16564 Already exists                                                                                                                                                                       0.0s 
-   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                       16.8s 
-   ⠴ 34a6168e6b77 Downloading [=========================>                         ]   14.8MB/29.55MB                                                                                                 182.6s 
-   ⠴ 3de258fdbe6b Downloading [==========================================>        ]  14.24MB/16.79MB                                                                                                 181.5s 
-   ✔ 4f4fb700ef54 Download complete                                                                                                                                                                   25.6s 
-   ⠙ 96e847c3faaa Downloading                                                                                                                                                                        168.1s 
-   ⠇ 15632718f060 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 2342ee4437be Waiting                                                                                                                                                                            167.8s 
-   ⠇ 2c5b9219aa53 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 7de7a80a77c1 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 07d09a7e2978 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 533c4740f1b7 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 43c9f792b172 Waiting                                                                                                                                                                            167.8s 
-   ⠇ ecc30d1de444 Waiting                                                                                                                                                                            167.8s 
-   ⠇ 21b84076d1e2 Waiting                                                                                                                                                                            167.8s 
+ ⠸ api [⣿⣿⣿⣿⣿⣤⣶⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀] Pulling                                                                                                                                                                  186.4s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s
+   ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s
+   ✔ fd345d7e43c5 Already exists                                                                                                                                                                       0.0s
+   ✔ 0de821d16564 Already exists                                                                                                                                                                       0.0s
+   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                       16.8s
+   ⠴ 34a6168e6b77 Downloading [=========================>                         ]   14.8MB/29.55MB                                                                                                 182.6s
+   ⠴ 3de258fdbe6b Downloading [==========================================>        ]  14.24MB/16.79MB                                                                                                 181.5s
+   ✔ 4f4fb700ef54 Download complete                                                                                                                                                                   25.6s
+   ⠙ 96e847c3faaa Downloading                                                                                                                                                                        168.1s
+   ⠇ 15632718f060 Waiting                                                                                                                                                                            167.8s
+   ⠇ 2342ee4437be Waiting                                                                                                                                                                            167.8s
+   ⠇ 2c5b9219aa53 Waiting                                                                                                                                                                            167.8s
+   ⠇ 7de7a80a77c1 Waiting                                                                                                                                                                            167.8s
+   ⠇ 07d09a7e2978 Waiting                                                                                                                                                                            167.8s
+   ⠇ 533c4740f1b7 Waiting                                                                                                                                                                            167.8s
+   ⠇ 43c9f792b172 Waiting                                                                                                                                                                            167.8s
+   ⠇ ecc30d1de444 Waiting                                                                                                                                                                            167.8s
+   ⠇ 21b84076d1e2 Waiting                                                                                                                                                                            167.8s
 net/http: TLS handshake timeout
-lzw@to:~/projects/LibreChat$ docker-compose up -d 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "UID" variable is not set. Defaulting to a blank string. 
-WARN[0000] The "GID" variable is not set. Defaulting to a blank string. 
+lzw@to:~/projects/LibreChat$ docker-compose up -d
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "UID" variable is not set. Defaulting to a blank string.
+WARN[0000] The "GID" variable is not set. Defaulting to a blank string.
 [+] Running 17/19
- ⠧ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.4MB / 498.3MB Pulling                                                                                                                                                       955.8s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                              0.0s 
-   ✔ c88300f8759a Already exists                                                                                                                                                                              0.0s 
-   ✔ fd345d7e43c5 Already exists                                                                                                                                                                              0.0s 
-   ✔ 0de821d16564 Already exists                                                                                                                                                                              0.0s 
-   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                               2.3s 
-   ✔ 34a6168e6b77 Pull complete                                                                                                                                                                             101.9s 
-   ✔ 3de258fdbe6b Pull complete                                                                                                                                                                             102.1s 
-   ✔ 4f4fb700ef54 Pull complete                                                                                                                                                                             102.3s 
-[+] Running 17/19 Pull complete                                                                                                                                                                             [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                957.9s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.1s [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.2s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.4s [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                959.5s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.0s  ⠋ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.1s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s [+] Running 17/19 Already exists                                                                                                                                                                       0.0s 
- ⠙ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.2s    ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s 
-[+] Running 17/19 Already exists                                                                                                                                                                       0.0s  ⠹ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.3s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s    ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s 
-[+] Running 17/19 Already exists                                                                                                                                                                       0.0s  ⠸ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.4s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s [+] Running 17/19 Already exists                                                                                                                                                                       0.0s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.5s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.6s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                960.9s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                961.7s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                961.8s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.0s 
-[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.1s 
-[+] Running 19/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.3s 
- ✔ api Pulled                                                                                                                                                                                       1438.2s 
-   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s 
-   ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s 
-   ✔ fd345d7e43c5 Already exists                                                                                                                                                                       0.0s 
-   ✔ 0de821d16564 Already exists                                                                                                                                                                       0.0s 
-   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                        2.3s 
-   ✔ 34a6168e6b77 Pull complete                                                                                                                                                                      101.9s 
-   ✔ 3de258fdbe6b Pull complete                                                                                                                                                                      102.1s 
-   ✔ 4f4fb700ef54 Pull complete                                                                                                                                                                      102.3s 
-   ✔ 96e847c3faaa Pull complete                                                                                                                                                                      102.7s 
-   ✔ 15632718f060 Pull complete                                                                                                                                                                      104.0s 
-   ✔ 2342ee4437be Pull complete                                                                                                                                                                      104.0s 
-   ✔ 2c5b9219aa53 Pull complete                                                                                                                                                                      104.6s 
-   ✔ 7de7a80a77c1 Pull complete                                                                                                                                                                      105.3s 
-   ✔ 07d09a7e2978 Pull complete                                                                                                                                                                      105.3s 
-   ✔ 533c4740f1b7 Pull complete                                                                                                                                                                      105.8s 
-   ✔ 43c9f792b172 Pull complete                                                                                                                                                                     1434.8s 
-   ✔ ecc30d1de444 Pull complete                                                                                                                                                                     1435.5s 
-   ✔ 21b84076d1e2 Pull complete                                                                                                                                                                     1436.0s 
+ ⠧ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.4MB / 498.3MB Pulling                                                                                                                                                       955.8s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                              0.0s
+   ✔ c88300f8759a Already exists                                                                                                                                                                              0.0s
+   ✔ fd345d7e43c5 Already exists                                                                                                                                                                              0.0s
+   ✔ 0de821d16564 Already exists                                                                                                                                                                              0.0s
+   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                               2.3s
+   ✔ 34a6168e6b77 Pull complete                                                                                                                                                                             101.9s
+   ✔ 3de258fdbe6b Pull complete                                                                                                                                                                             102.1s
+   ✔ 4f4fb700ef54 Pull complete                                                                                                                                                                             102.3s
+[+] Running 17/19 Pull complete                                                                                                                                                                             [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                957.9s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.1s [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.2s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 347.9MB / 498.3MB Pulling                                                                                                                                                958.4s [+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                959.5s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.0s  ⠋ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.1s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s [+] Running 17/19 Already exists                                                                                                                                                                       0.0s
+ ⠙ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.2s    ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s
+[+] Running 17/19 Already exists                                                                                                                                                                       0.0s  ⠹ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.3s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s    ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s
+[+] Running 17/19 Already exists                                                                                                                                                                       0.0s  ⠸ api [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.4s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s [+] Running 17/19 Already exists                                                                                                                                                                       0.0s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.5s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿] 348.4MB / 498.3MB Pulling                                                                                                                                                960.6s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                960.9s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                961.7s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                961.8s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.0s
+[+] Running 17/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.1s
+[+] Running 19/19⣿⣿⣿⣿⣿⣿⣦⣿⣿]   349MB / 498.3MB Pulling                                                                                                                                                962.3s
+ ✔ api Pulled                                                                                                                                                                                       1438.2s
+   ✔ 9824c27679d3 Already exists                                                                                                                                                                       0.0s
+   ✔ c88300f8759a Already exists                                                                                                                                                                       0.0s
+   ✔ fd345d7e43c5 Already exists                                                                                                                                                                       0.0s
+   ✔ 0de821d16564 Already exists                                                                                                                                                                       0.0s
+   ✔ ee6a71bf18fe Pull complete                                                                                                                                                                        2.3s
+   ✔ 34a6168e6b77 Pull complete                                                                                                                                                                      101.9s
+   ✔ 3de258fdbe6b Pull complete                                                                                                                                                                      102.1s
+   ✔ 4f4fb700ef54 Pull complete                                                                                                                                                                      102.3s
+   ✔ 96e847c3faaa Pull complete                                                                                                                                                                      102.7s
+   ✔ 15632718f060 Pull complete                                                                                                                                                                      104.0s
+   ✔ 2342ee4437be Pull complete                                                                                                                                                                      104.0s
+   ✔ 2c5b9219aa53 Pull complete                                                                                                                                                                      104.6s
+   ✔ 7de7a80a77c1 Pull complete                                                                                                                                                                      105.3s
+   ✔ 07d09a7e2978 Pull complete                                                                                                                                                                      105.3s
+   ✔ 533c4740f1b7 Pull complete                                                                                                                                                                      105.8s
+   ✔ 43c9f792b172 Pull complete                                                                                                                                                                     1434.8s
+   ✔ ecc30d1de444 Pull complete                                                                                                                                                                     1435.5s
+   ✔ 21b84076d1e2 Pull complete                                                                                                                                                                     1436.0s
 [+] Running 6/6
- ✔ Network librechat_default   Created                                                                                                                                                                 0.2s 
- ✔ Container vectordb          Started                                                                                                                                                                 1.3s 
- ✔ Container chat-mongodb      Started                                                                                                                                                                 1.3s 
- ✔ Container chat-meilisearch  Started                                                                                                                                                                 1.3s 
- ✔ Container rag_api           Started                                                                                                                                                                 0.4s 
- ✔ Container LibreChat         Started                        
+ ✔ Network librechat_default   Created                                                                                                                                                                 0.2s
+ ✔ Container vectordb          Started                                                                                                                                                                 1.3s
+ ✔ Container chat-mongodb      Started                                                                                                                                                                 1.3s
+ ✔ Container chat-meilisearch  Started                                                                                                                                                                 1.3s
+ ✔ Container rag_api           Started                                                                                                                                                                 0.4s
+ ✔ Container LibreChat         Started

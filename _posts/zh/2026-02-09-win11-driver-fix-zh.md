@@ -60,7 +60,7 @@ Answer:
 
 一旦加载了正确的驱动程序，驱动器就会出现，安装将正常进行。这**不是**你用 dd 创建的 USB 的问题；这是许多现代系统的预期行为。
 
-References:  
+References:
 
 - [https://learn.microsoft.com/en-us/answers/questions/5488804/windows-11-installation-error-install-driver-to-sh](https://learn.microsoft.com/en-us/answers/questions/5488804/windows-11-installation-error-install-driver-to-sh)
 - [https://www.elevenforum.com/t/install-driver-to-show-hardware-issue-on-ryzen-cpus-using-bootable-usb-from-win11-media-creation-tool.29536](https://www.elevenforum.com/t/install-driver-to-show-hardware-issue-on-ryzen-cpus-using-bootable-usb-from-win11-media-creation-tool.29536)

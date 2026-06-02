@@ -11,7 +11,7 @@ type: note
 
 问题：Citrini Research 对 2028 年有何预测？
 
-答案： 
+答案：
 
 **Citrini Research**（经常被拼写为“Citrinic”）于 2026 年 2 月发布了一份病毒式传播的报告，标题为 *"THE 2028 GLOBAL INTELLIGENCE CRISIS"*。这份报告被呈现为一份虚构的“2028 年 6 月的宏观备忘录”——明确描述为**一种情景和思想练习**，而非坚定的预测或基准预测。
 
@@ -26,7 +26,7 @@ type: note
 
 Citrini Research 专注于主题投资和宏观洞见（如早期对 AI、GLP-1 药物、Nvidia 的预测），但这份报告是一个推测性情景，用于突出 AI 的潜在二阶和三阶效应，而非他们对 2028 年的官方预测。
 
-参考资料：  
+参考资料：
 
 - [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic)
 - [Citadel Securities demolishes viral AI doomsday essay](https://fortune.com/2026/02/26/citadel-demolishes-viral-doomsday-ai-essay-citrini-macro-fundamentals-engels-pause)

@@ -11,7 +11,7 @@ type: note
 
 Question: What is the advantage of OpenClaw over "Claude Code" as a code assistant, particularly regarding its ability to execute many sudo commands in a more direct way, while Claude Code can run commands but more indirectly?
 
-Answer: 
+Answer:
 
 **OpenClaw** is an open-source, self-hosted personal AI assistant (originally known as Clawdbot/Moltbot) designed to run autonomously as an agent. It integrates with messaging apps (e.g., WhatsApp, Telegram) and uses large language models like Claude to perform real-world tasks, including executing shell commands directly on your local machine or server.
 
@@ -46,7 +46,7 @@ The user's claim highlights a perceived advantage in **direct execution of many 
 
 In summary, OpenClaw's main edge here is its **direct local access to run privileged (sudo) commands** more freely due to self-hosted nature, while Claude Code uses gated/indirect methods for safety. Use OpenClaw cautiously if you need unrestricted execution.
 
-References:  
+References:
 
 - [https://openclaw.ai/](https://openclaw.ai/)
 - [https://github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)

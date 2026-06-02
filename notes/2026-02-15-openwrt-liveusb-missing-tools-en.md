@@ -11,7 +11,7 @@ type: note
 
 Question: Both commands (zcat and dd) not found when trying to install OpenWrt to internal disk from USB boot
 
-Answer: 
+Answer:
 
 You're booted into the OpenWrt live system from USB (root login, no password), but basic commands like `lsblk`, `dd`, or `zcat` are reporting "command not found". This happens because the **combined .img** boot environment in recent OpenWrt versions (especially snapshots or some stable builds) is very minimal — it uses busybox with only essential applets, and many common utilities (including `dd`, `lsblk`, `zcat`, `gzip`, etc.) are **not included** by default to keep the image small.
 
@@ -54,7 +54,7 @@ The official OpenWrt x86 guide no longer recommends installing *from* the booted
    ```
    - Replace `/dev/sda` with your internal disk.
    - Wait for it to finish (may take 5–20 minutes).
-6. 
+6.
    ```
    sync
    ```
@@ -82,7 +82,7 @@ Most people abandon this and switch to a full Linux live USB — it's faster and
 
 Backup any data first (though you mentioned it can run Linux Mint, so presumably nothing critical left). If you tell me exactly what `ls` or `busybox` shows, or the full error, I can refine further.
 
-References:  
+References:
 
 - [https://openwrt.org/docs/guide-user/installation/openwrt_x86](https://openwrt.org/docs/guide-user/installation/openwrt_x86)
 - [https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430](https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430)

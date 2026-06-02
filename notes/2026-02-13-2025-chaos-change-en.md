@@ -44,7 +44,7 @@ type: note
 
 Overall, 2025 was characterized by instability, with heightened conflicts, major leadership transitions, economic disruptions from tariffs, and few unifying positive global moments.
 
-**References:**  
+**References:**
 
 - [https://en.wikipedia.org/wiki/2025](https://en.wikipedia.org/wiki/2025)
 - [https://www.cfr.org/articles/ten-most-significant-world-events-2025](https://www.cfr.org/articles/ten-most-significant-world-events-2025)

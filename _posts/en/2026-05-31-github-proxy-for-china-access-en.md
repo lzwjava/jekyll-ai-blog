@@ -22,7 +22,7 @@ It proxies:
 - GitHub Gist files
 - Archive downloads (`.tar.gz`, `.zip`)
 
-**How it works:**  
+**How it works:**
 You prepend the proxy URL to any GitHub URL:
 
 ```bash
@@ -38,7 +38,7 @@ Or for `raw.githubusercontent.com`:
 https://ghfast.top/https://raw.githubusercontent.com/owner/repo/main/file.txt
 ```
 
-**Typical use case for you:**  
+**Typical use case for you:**
 If you're `pip install`-ing or `wget`-ing GitHub-hosted model weights, binaries, or scripts from your Guangzhou machine (or the Ubuntu workstation), and it's crawling — this proxy can unblock it. Similar services include `ghproxy.com`, `mirror.ghproxy.com`, etc. They come and go as the GFW adapts.
 
 **Trustworthiness caveat:** These are third-party proxies run by individuals. Don't pipe untrusted binaries through them without verifying checksums — `sha256sum` everything.

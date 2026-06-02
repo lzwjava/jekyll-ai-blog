@@ -22,6 +22,6 @@ From what emerges in profiles, interviews, and student recollections, his low-ke
 
 In a field obsessed with visibility, Friedman's humility feels radical—almost a rebellion. He lets the work (and its ripple effects, like inspiring Clojure devs) hug him back, as he once described a warm community welcome. If anything, it amplifies his influence: those who seek him out (via books or his IU courses) find a mentor who's profoundly present.
 
-[Great Teacher Friedman (Jianshu article)](https://www.jianshu.com/p/84192328586b)  
-[The Little Typer Podcast Interview](https://corecursive.com/023-little-typer-and-pie-language/)  
+[Great Teacher Friedman (Jianshu article)](https://www.jianshu.com/p/84192328586b)
+[The Little Typer Podcast Interview](https://corecursive.com/023-little-typer-and-pie-language/)
 [A Conversation with Dan Friedman (YouTube Transcript Summary)](https://www.youtube.com/watch?v=cfZQYVQcspE)

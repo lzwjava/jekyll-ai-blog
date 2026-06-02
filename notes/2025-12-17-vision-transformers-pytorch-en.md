@@ -12,7 +12,7 @@ type: note
 
 Question: How do Vision Transformers work? Provide some PyTorch examples.
 
-Answer: 
+Answer:
 
 Vision Transformers (ViT) apply the Transformer architecture, originally designed for natural language processing, to computer vision tasks like image classification. Unlike convolutional neural networks (CNNs), which use convolutions to capture local spatial features, ViTs treat images as sequences of patches and rely on self-attention to model global relationships.
 
@@ -87,7 +87,7 @@ class PatchEmbedding(nn.Module):
         super().__init__()
         self.num_patches = (img_size // patch_size) ** 2
         self.proj = nn.Conv2d(in_channels, embed_dim, kernel_size=patch_size, stride=patch_size)
-    
+
     def forward(self, x):
         x = self.proj(x)  # (B, embed_dim, num_patches_h, num_patches_w)
         x = x.flatten(2).transpose(1, 2)  # (B, num_patches, embed_dim)
@@ -98,25 +98,25 @@ class ViT(nn.Module):
         super().__init__()
         self.patch_embed = PatchEmbedding(img_size, patch_size, embed_dim=embed_dim)
         num_patches = self.patch_embed.num_patches
-        
+
         self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
         self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
-        
+
         encoder_layer = nn.TransformerEncoderLayer(d_model=embed_dim, nhead=num_heads, dim_feedforward=embed_dim * mlp_ratio, activation='gelu')
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=depth)
-        
+
         self.mlp_head = nn.Linear(embed_dim, num_classes)
-    
+
     def forward(self, x):
         B = x.shape[0]
         x = self.patch_embed(x)
-        
+
         cls_tokens = self.cls_token.expand(B, -1, -1)
         x = torch.cat((cls_tokens, x), dim=1)
-        
+
         x = x + self.pos_embed
         x = self.transformer(x)
-        
+
         cls_output = x[:, 0]
         return self.mlp_head(cls_output)
 
@@ -128,10 +128,10 @@ outputs = model(img)  # (2, 10)
 
 This captures the core mechanics; real implementations add dropout, normalization details, etc.
 
-References:  
+References:
 
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Original ViT Paper)](https://arxiv.org/abs/2010.11929)  
-- [torchvision VisionTransformer Documentation](https://pytorch.org/vision/stable/models/generated/torchvision.models.vit_b_16.html)  
-- [Wikipedia: Vision Transformer](https://en.wikipedia.org/wiki/Vision_transformer)  
-- [V7 Labs: Vision Transformer Guide](https://www.v7labs.com/blog/vision-transformer-guide)  
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Original ViT Paper)](https://arxiv.org/abs/2010.11929)
+- [torchvision VisionTransformer Documentation](https://pytorch.org/vision/stable/models/generated/torchvision.models.vit_b_16.html)
+- [Wikipedia: Vision Transformer](https://en.wikipedia.org/wiki/Vision_transformer)
+- [V7 Labs: Vision Transformer Guide](https://www.v7labs.com/blog/vision-transformer-guide)
 - [GeeksforGeeks: Vision Transformer Architecture](https://www.geeksforgeeks.org/deep-learning/vision-transformer-vit-architecture/)

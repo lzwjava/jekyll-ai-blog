@@ -48,12 +48,12 @@ U.S. 维持着全球最大的军事预算以及 NATO 等联盟，但其全球影
 
 总结来说，U.S. 正面临巨大的阻力，这可能会削弱其相对于 China 等新兴大国的超级大国地位。然而，它并不是必然“走向衰落之路”——在债务管理、两党合作和国际参与方面的针对性改革可以扭转趋势。未来几年，特别是面对潜在经济动荡和政治考验的 2026 年，将是关键。这是一种相对衰落而非绝对崩溃，但忽视它将面临加速这一进程的风险。
 
-参考文献：  
+参考文献：
 
-- [https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx](https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx)  
-- [https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f](https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f)  
-- [https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really](https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really)  
-- [https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy](https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy)  
-- [https://en.wikipedia.org/wiki/American_decline](https://en.wikipedia.org/wiki/American_decline)  
-- [https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed](https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed)  
+- [https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx](https://news.gallup.com/poll/700448/americans-predict-challenging-2026-across-dimensions.aspx)
+- [https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f](https://www.wsj.com/opinion/america-is-in-decline-the-data-beg-to-differ-economy-allies-war-5ab06a0f)
+- [https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really](https://www.aljazeera.com/economy/2026/1/19/the-us-economy-seems-strong-after-a-year-of-trump-but-is-it-really)
+- [https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy](https://www.theguardian.com/us-news/2026/jan/21/trump-american-democracy)
+- [https://en.wikipedia.org/wiki/American_decline](https://en.wikipedia.org/wiki/American_decline)
+- [https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed](https://thehill.com/opinion/white-house/5668693-america-decline-trump-exposed)
 - [https://www.project-syndicate.org/onpoint/where-is-the-us-economy-headed-in-2026](https://www.project-syndicate.org/onpoint/where-is-the-us-economy-headed-in-2026)

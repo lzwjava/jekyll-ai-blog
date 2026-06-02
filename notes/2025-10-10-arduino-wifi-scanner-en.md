@@ -46,7 +46,7 @@ HardwareSerial gpsSerial(1);
 void setup() {
   Serial.begin(115200);
   gpsSerial.begin(9600, SERIAL_8N1, 16, 17);  // RX=16, TX=17 for GPS
-  
+
   // Initialize SD card
   if (!SD.begin(chipSelect)) {
     Serial.println("SD Card initialization failed!");
@@ -64,7 +64,7 @@ void loop() {
     File dataFile = SD.open("/wifi_log.txt", FILE_APPEND);
     if (dataFile) {
       dataFile.print("Scan at: " + String(millis()) + "ms | ");
-      
+
       // Optional: Add GPS if available
       if (gpsSerial.available() > 0) {
         if (gps.encode(gpsSerial.read())) {
@@ -73,7 +73,7 @@ void loop() {
           }
         }
       }
-      
+
       for (int i = 0; i < n; ++i) {
         dataFile.print("SSID: " + WiFi.SSID(i) + " | RSSI: " + String(WiFi.RSSI(i)) + "dBm | Ch: " + String(WiFi.channel(i)) + " | Enc: " + String(WiFi.encryptionType(i)) + " | ");
         // Bitrate estimate: Rough calc from RSSI (not precise, but approx)
@@ -85,7 +85,7 @@ void loop() {
       Serial.println("Data logged to SD");
     }
   }
-  
+
   WiFi.scanDelete();  // Clear results
   delay(10000);  // Scan every 10 seconds (adjust for flight speed)
 }

@@ -21,7 +21,7 @@ type: note
 ### 近期动态与艺术传承
 除吉卜力作品外，木村弓已发行多张展现其里拉琴演奏功力与原创作品的专辑，作品中常融入民谣与古典音乐元素。她曾出演《Music Station》等电视节目，并持续开展现场演出，保持着稳定而忠实的观众群体。虽未进行高调的个人巡演或频繁媒体曝光，但其充满永恒魅力的动画歌曲仍在动漫文化中持续发挥着影响力。截至2025年，木村弓仍活跃于乐坛，偶尔参与配乐制作与演出活动，以沉静内省的艺术气质持续传递着关于坚持与奇迹的共鸣。
 
-更多详细信息请参阅：  
-[木村弓 - 维基百科](https://en.wikipedia.org/wiki/Youmi_Kimura)  
-[木村弓 - IMDb](https://www.imdb.com/name/nm1175835/)  
+更多详细信息请参阅：
+[木村弓 - 维基百科](https://en.wikipedia.org/wiki/Youmi_Kimura)
+[木村弓 - IMDb](https://www.imdb.com/name/nm1175835/)
 [木村弓 - Last.fm](https://www.last.fm/music/%E6%9C%A8%E6%9D%91%E5%BC%93/%2Bwiki)

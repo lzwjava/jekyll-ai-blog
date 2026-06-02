@@ -27,10 +27,10 @@ This insider distortion happens in every domain:
 
 There are two useful takeaways from this phenomenon:
 
-1. **Humility for insiders**  
+1. **Humility for insiders**
    The moment you catch yourself saying “this is trash, how do people not see it?”, remember that your taste has been ruined (or upgraded) by exposure. The median human has never seen anything better, so of course they’re happy.
 
-2. **Reality check for outsiders**  
+2. **Reality check for outsiders**
    When insiders dismiss something as “easy” or “solved” or “not real intelligence/design/skill”, they’re usually measuring against an internal, elite standard that literally 0.01 % of humanity operates at.
 
 In short: the gap between “insider mediocre” and “outsider incredible” is enormous, and both sides usually fail to realize it. That’s why truly great products, papers, or art often feel simultaneously “overhyped” to experts and “life-changing” to everyone else.

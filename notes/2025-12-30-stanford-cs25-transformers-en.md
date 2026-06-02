@@ -12,7 +12,7 @@ type: note
 
 Question: What is the standard CS25 course? Which videos are good?
 
-Answer: 
+Answer:
 
 Stanford **CS25: Transformers United** is a popular seminar course at Stanford University focused on Transformer architectures in deep learning. Introduced since around 2022, it has run multiple iterations (V1 to V5 as of 2025). The course explores how Transformers, since their 2017 debut in the "Attention Is All You Need" paper, have revolutionized fields like natural language processing (NLP), computer vision (CV), reinforcement learning (RL), and beyond—including applications in large language models (e.g., GPT, Gemini), image/video generation (e.g., DALL-E, Sora), biology, robotics, neuroscience, and more.
 
@@ -36,10 +36,10 @@ The full collection of lectures from all versions is available in one YouTube pl
 
 To get the most out of it, start with an overview lecture, then watch guest talks on topics of interest.
 
-References:  
+References:
 
-- [Official Course Website](https://web.stanford.edu/class/cs25/)  
-- [YouTube Playlist: Stanford CS25 - Transformers United](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)  
-- [Andrej Karpathy Introduction (V2 Example)](https://www.youtube.com/watch?v=XfpMkf4rD6E)  
-- [Overview of Transformers (V5 Example)](https://www.youtube.com/watch?v=JKbtWimlzAE)  
+- [Official Course Website](https://web.stanford.edu/class/cs25/)
+- [YouTube Playlist: Stanford CS25 - Transformers United](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+- [Andrej Karpathy Introduction (V2 Example)](https://www.youtube.com/watch?v=XfpMkf4rD6E)
+- [Overview of Transformers (V5 Example)](https://www.youtube.com/watch?v=JKbtWimlzAE)
 - [Overview of Transformers (V4 Example)](https://www.youtube.com/watch?v=fKMB5UlVY1E)

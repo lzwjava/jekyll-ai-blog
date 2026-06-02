@@ -12,7 +12,7 @@ type: note
 
 Question: How do I use the `ping6` command on macOS?
 
-Answer: 
+Answer:
 
 `ping6` is the IPv6 version of the classic `ping` tool on macOS (and some other Unix-like systems). Unlike the GNU/Linux version, macOS's `ping6` (provided by Apple) has a slightly different syntax and does not support `--help` or long options.
 
@@ -61,7 +61,7 @@ ping6 -b en0 2001:db8::1
 ping6 -c 4 ipv6.google.com
 ```
 
-If you get replies → IPv6 is working.  
+If you get replies → IPv6 is working.
 If you get “No route to host” or 100% packet loss → IPv6 is disabled or not provided by your ISP.
 
 That’s essentially all you need for daily use of `ping6` on macOS!

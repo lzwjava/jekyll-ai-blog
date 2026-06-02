@@ -49,8 +49,8 @@ type: note
 
 这些选项在社区（GitHub、Reddit、Telegram relay 渠道）中流行，截至 2026 年 3 月，但可用性和定价变化迅速。
 
-**参考：**  
-- [https://github.com/decolua/9router](https://github.com/decolua/9router)  
-- [https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109](https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109)  
-- [https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading](https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading)  
+**参考：**
+- [https://github.com/decolua/9router](https://github.com/decolua/9router)
+- [https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109](https://gist.github.com/htvgubz/eba9acb406f3c9a4a29643700d4f5109)
+- [https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading](https://www.juheapi.com/blog/best-claude-api-alternatives-for-2025-with-wisdom-gate-leading)
 - [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)

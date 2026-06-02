@@ -42,8 +42,8 @@ When you configure the agent (via onboarding or the `openclaw.json` / agent conf
 You are running on the machine "lzw-server" at 192.168.1.36.
 This is NOT a laptop. It is a dedicated second computer (Linux server).
 The user accesses you remotely via an SSH tunnel: ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36
-When the user says "localhost" in a URL, they may mean localhost on THEIR laptop, 
-not this server. Always clarify if a service like Gitea (running on THIS machine at 
+When the user says "localhost" in a URL, they may mean localhost on THEIR laptop,
+not this server. Always clarify if a service like Gitea (running on THIS machine at
 192.168.1.36) is intended before acting on any localhost reference.
 Services on THIS machine include: Gitea, OpenClaw itself.
 The user's laptop is a separate machine and has its own filesystem.
@@ -68,8 +68,8 @@ Every 30 minutes, the agent wakes up, reads a `HEARTBEAT.md` file for instructio
 Develop a habit of starting sessions with a context-setting message:
 
 ```
-Context: You are running on my second computer (192.168.1.36, Linux). 
-I'm on my laptop accessing you via SSH tunnel. 
+Context: You are running on my second computer (192.168.1.36, Linux).
+I'm on my laptop accessing you via SSH tunnel.
 When I say "Gitea", it's running on YOU (192.168.1.36:3000), not my laptop.
 When I say "my laptop", I mean a separate machine — you cannot access it directly.
 ```

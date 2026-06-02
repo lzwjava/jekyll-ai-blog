@@ -77,5 +77,5 @@ StormEvents
 
 以上示例可直接在Azure数据资源管理器Web界面或Log Analytics中运行。更多案例请探索官方示例库。
 
-[Kusto查询语言（KQL）完整指南](https://medium.com/@danushidk507/comprehensive-guide-to-kusto-query-language-kql-from-beginner-to-advanced-8dff3bd7568e)  
+[Kusto查询语言（KQL）完整指南](https://medium.com/@danushidk507/comprehensive-guide-to-kusto-query-language-kql-from-beginner-to-advanced-8dff3bd7568e)
 [教程：掌握常用Kusto查询语言运算符](https://learn.microsoft.com/en-us/kusto/query/tutorials/learn-common-operators?view=microsoft-fabric)

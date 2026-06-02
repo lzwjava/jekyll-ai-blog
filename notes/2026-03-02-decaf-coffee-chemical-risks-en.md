@@ -11,11 +11,11 @@ type: note
 
 Question: What does the Substack post at https://yinwang1.substack.com/p/8be say?
 
-Answer: 
+Answer:
 
 The Substack post is written in Chinese by Yin Wang (王垠) and is titled **低咖啡因咖啡豆是怎么来的** (which translates to "How Decaffeinated Coffee Beans Are Made" or "Where Low-Caffeine Coffee Beans Come From").
 
-**Publication date:** February 5, 2024  
+**Publication date:** February 5, 2024
 **Author:** Yin Wang (on his newsletter "垠的备忘录" / Yin's Memo)
 
 The article expresses strong concerns about decaffeinated (decaf) coffee. The author explains that he avoids caffeinated drinks and also refuses to drink decaf coffee. His reason is that most decaf coffee beans are processed using organic solvents to remove caffeine, and he believes this leaves problematic chemical residues.
@@ -40,7 +40,7 @@ The post appears to be paywalled (marked as "Paid"), so the publicly visible por
 
 Overall message: The author is highly suspicious of conventional decaf coffee due to potential chemical contamination from the solvent extraction process and recommends avoiding it.
 
-References:  
+References:
 
 - [Original Substack post](https://yinwang1.substack.com/p/8be)
 - [Referenced source article (The Conversation)](https://theconversation.com/how-is-decaf-coffee-made-and-is-it-really-caffeine-free-215546)

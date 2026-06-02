@@ -228,7 +228,7 @@ _思考：_
 4: import reactRefresh from 'eslint-plugin-react-refresh'
 5: import tseslint from 'typescript-eslint'
 6: import { defineConfig, globalIgnores } from 'eslint/config'
-7: 
+7:
 8: export default defineConfig([
 9:   globalIgnores(['dist']),
 10:   {

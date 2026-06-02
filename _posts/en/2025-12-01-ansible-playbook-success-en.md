@@ -52,7 +52,7 @@ Update your playbook like this:
 ```
 {% endraw %}
 
-Key change:  
+Key change:
 `{{ ansible_date_time.date }}` → `{{ ansible_facts.date_time.date }}`
 
 (You can also use `{{ ansible_facts['date_time']['date'] }}` — both work.)

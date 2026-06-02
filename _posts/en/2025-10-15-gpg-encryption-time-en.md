@@ -19,6 +19,6 @@ GPG encryption time for a file this size varies based on your hardware (CPU spee
 
 For even faster results on large files, consider symmetric encryption with a passphrase (`gpg --symmetric --cipher-algo AES256`) if you don't need recipient-specific asymmetric keys.
 
-[YTS Movie Page](https://yts.mx/movie/the-matrix-1999)  
-[NASA GPG Benchmarks](https://www.nas.nasa.gov/hecc/support/kb/using-gpg-to-encrypt-your-data_242.html)  
+[YTS Movie Page](https://yts.mx/movie/the-matrix-1999)
+[NASA GPG Benchmarks](https://www.nas.nasa.gov/hecc/support/kb/using-gpg-to-encrypt-your-data_242.html)
 [Reddit GPG Speed Discussion](https://www.reddit.com/r/linuxadmin/comments/12jetbr/gpg_what_is_the_fastest_way_to_encrypt_large_files/)

@@ -12,7 +12,7 @@ type: note
 
 Question: 在中国，由于家庭网络质量差和 VPN 问题，是否不建议在家参加 TOEFL iBT Home Edition？
 
-Answer: 
+Answer:
 
 是的，如果您的家庭网络不稳定，或者需要依靠 VPN 才能获得可靠的连接，通常**不建议**在中国大陆参加 TOEFL iBT Home Edition。根据用户体验、官方指南和技术现实，原因如下：
 
@@ -29,7 +29,7 @@ Answer:
 
 总结：如果您的家庭网络环境涉及不稳定的互联网或重度依赖 VPN，请跳过 Home Edition 以避免浪费时间和金钱，转而选择线下考点。请务必提前运行官方设备检查 (equipment check)，并查看 toefl.cn 上的中国区专属页面。
 
-References:  
+References:
 
 - [ETS TOEFL iBT Home Edition page (China-specific policies)](https://toefl.cn/at-home)
 - [ETS official at-home test day info](https://www.ets.org/toefl/test-takers/ibt/test-day/at-home-test-day.html)

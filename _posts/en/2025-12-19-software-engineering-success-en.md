@@ -12,7 +12,7 @@ type: note
 
 Question: How to succeed as a software engineer
 
-Answer: 
+Answer:
 
 Succeeding as a software engineer requires a combination of strong technical skills, continuous learning, effective soft skills, and strategic career habits. The field is highly competitive and rapidly evolving, especially with advancements in AI, cloud computing, and security as of 2025. Below is a comprehensive guide based on common advice from experienced engineers and industry insights.
 
@@ -48,18 +48,18 @@ Succeeding as a software engineer requires a combination of strong technical ski
 
 Success takes time—many top engineers emphasize persistence, humility, and enjoying the process. Start small, consistently improve, and focus on creating real value.
 
-References:  
+References:
 
-- https://medium.com/edf-data-and-tech/how-to-succeed-as-a-software-engineer-9f24e2055a7  
-- https://newsletter.techworld-with-milan.com/p/how-to-become-a-great-software-engineer  
-- https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55  
-- https://jessup.edu/blog/engineering-technology/skills-for-software-engineer/  
-- https://www.freecodecamp.org/news/how-to-become-a-great-software-developer  
-- https://www.manning.com/books/skills-of-a-successful-software-engineer  
-- https://vadimkravcenko.com/shorts/habits-of-great-software-engineers/  
-- https://willdom.com/blog/how-to-become-a-successful-software-engineer/  
-- https://www.designgurus.io/blog/software-engineering-goals  
-- https://dev.to/hadil/15-skills-every-software-engineer-should-have-in-2025-47ph  
-- https://www.digitalwaffle.co/blog/top-software-engineer-skills  
-- https://codesignal.com/blog/engineering/how-to-become-a-better-software-engineer/  
+- https://medium.com/edf-data-and-tech/how-to-succeed-as-a-software-engineer-9f24e2055a7
+- https://newsletter.techworld-with-milan.com/p/how-to-become-a-great-software-engineer
+- https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55
+- https://jessup.edu/blog/engineering-technology/skills-for-software-engineer/
+- https://www.freecodecamp.org/news/how-to-become-a-great-software-developer
+- https://www.manning.com/books/skills-of-a-successful-software-engineer
+- https://vadimkravcenko.com/shorts/habits-of-great-software-engineers/
+- https://willdom.com/blog/how-to-become-a-successful-software-engineer/
+- https://www.designgurus.io/blog/software-engineering-goals
+- https://dev.to/hadil/15-skills-every-software-engineer-should-have-in-2025-47ph
+- https://www.digitalwaffle.co/blog/top-software-engineer-skills
+- https://codesignal.com/blog/engineering/how-to-become-a-better-software-engineer/
 - https://www.springboard.com/blog/software-engineering/software-engineer-career-path/

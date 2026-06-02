@@ -22,9 +22,9 @@ The platform is positioned as a tool to empower organizations globally by shifti
 
 For more details, check the official site or related profiles.
 
-**References**  
-[Solvexia Official Website](https://www.solvexia.com/)  
-[Solvexia LinkedIn](https://au.linkedin.com/company/solvexia-automation)  
-[SolveXia Company Profile on PitchBook](https://pitchbook.com/profiles/company/453321-19)  
-[SolveXia on Crunchbase](https://www.crunchbase.com/organization/solvexia-pty-ltd)  
+**References**
+[Solvexia Official Website](https://www.solvexia.com/)
+[Solvexia LinkedIn](https://au.linkedin.com/company/solvexia-automation)
+[SolveXia Company Profile on PitchBook](https://pitchbook.com/profiles/company/453321-19)
+[SolveXia on Crunchbase](https://www.crunchbase.com/organization/solvexia-pty-ltd)
 [SolveXia Finance Automation on Microsoft AppSource](https://appsource.microsoft.com/en-us/product/web-apps/solvexiaptyltd1616474134034.solvexia?tab=overview)

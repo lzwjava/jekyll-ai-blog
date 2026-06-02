@@ -12,7 +12,7 @@ type: note
 
 Question: Compare fiber optic cable to RJ45 cable
 
-Answer: 
+Answer:
 
 **RJ45 cable** 通常指使用 **RJ45 connector** 的双绞线铜质 Ethernet cables（如 Cat5e、Cat6、Cat6a 或 Cat8）。这些是大多数人用于家庭和办公室 LAN 连接的标准网络电缆。相比之下，**fiber optic cable** 使用光信号通过玻璃或塑料纤维传输数据，并使用不同的连接器（如 LC、SC 或 MPO），而不使用 RJ45。
 
@@ -36,23 +36,23 @@ Answer:
 
 ### Summary: Which is better?
 
-- **在以下情况下选择 RJ45 copper cable**：  
-  - 距离在 100 m 以内  
-  - 需要 PoE 供电  
-  - 预算有限  
-  - 希望实现简单的 plug-and-play 安装  
-  - 现有基础设施基于铜缆  
+- **在以下情况下选择 RJ45 copper cable**：
+  - 距离在 100 m 以内
+  - 需要 PoE 供电
+  - 预算有限
+  - 希望实现简单的 plug-and-play 安装
+  - 现有基础设施基于铜缆
 
-- **在以下情况下选择 fiber optic cable**：  
-  - 需要距离 >100 m  
-  - 需要极高速度（40G/100G/400G+）  
-  - 环境有高 EMI 干扰（工厂、医院、布线密集区域）  
-  - 对未来扩展性（Future-proofing）要求高  
-  - 安全性或极低 Latency 至关重要  
+- **在以下情况下选择 fiber optic cable**：
+  - 需要距离 >100 m
+  - 需要极高速度（40G/100G/400G+）
+  - 环境有高 EMI 干扰（工厂、医院、布线密集区域）
+  - 对未来扩展性（Future-proofing）要求高
+  - 安全性或极低 Latency 至关重要
 
 在 2026 年，由于成本和兼容性原因，铜缆 (RJ45) 仍主导着短距离 LAN 和家庭网络，而光纤则主导着企业主干网、数据中心和长途连接。许多现代建筑采用混合方案：主干/垂直布线使用光纤，水平布线至桌面/设备使用铜缆。
 
-References:  
+References:
 
 - [trueCABLE: Fiber Optics vs Ethernet](https://www.truecable.com/blogs/cable-academy/fiber-optics-vs-ethernet-understanding-the-key-differences)
 - [Optcore: Fiber vs Ethernet Cable](https://www.optcore.net/fiber-vs-ethernet-cable)

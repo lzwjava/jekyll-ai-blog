@@ -30,5 +30,5 @@ SLOs-Serve extends vLLM by integrating it as the core batching engine while addi
 
 In summary, vLLM excels in raw efficiency for throughput-oriented serving but falls short on SLO compliance in complex, real-world scenarios—leading to the 2x+ gains in SLOs-Serve via targeted optimizations. If your workload is purely throughput-maximizing without latency guarantees, vLLM remains simpler and faster to deploy.
 
-[SLOs-Serve: Optimized Serving of Multi-SLO LLMs](https://arxiv.org/abs/2504.08784)  
+[SLOs-Serve: Optimized Serving of Multi-SLO LLMs](https://arxiv.org/abs/2504.08784)
 [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://arxiv.org/abs/2309.06180)

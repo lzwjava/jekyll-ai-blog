@@ -16,7 +16,7 @@ To train GPT-3 (specifically the 175B parameter version), OpenAI used a massive 
 ---
 
 ### **1. Training Cost**
-The cost of a single training run for GPT-3 is estimated to be between **$4.6 million and $5 million**. 
+The cost of a single training run for GPT-3 is estimated to be between **$4.6 million and $5 million**.
 
 * **Compute Expenses:** This figure primarily covers the rental or operational cost of the high-end GPU instances in the cloud (Microsoft Azure).
 * **Total Budget:** While the raw compute was ~$5M, the total cost for OpenAI—including research, personnel, and multiple failed or experimental runs—was likely significantly higher.

@@ -14,28 +14,28 @@ Wang Xing (founder and CEO of Meituan) made this famous remark around 2018–201
 
 “真正的高科技不是别人想卡你，而是你不卖给别人，别人会着急。比如芯片。”
 
-Translation:  
+Translation:
 “The real high-tech is not when others want to choke you, but when you refuse to sell it to others, and they get anxious. For example, chips.”
 
 ### What he really meant (core idea)
 
 He was drawing a sharp distinction between two levels of technology competitiveness:
 
-1. **Mid-tier / “neck-stuck” technology (被卡脖子)**  
-   - You depend on others for critical parts/components.  
-   - If they stop selling to you, your industry grinds to a halt.  
-   - Classic example at the time: China’s inability to produce advanced lithography machines (ASML’s EUV) or high-end EDA software → the US can sanction you and you’re helpless.  
+1. **Mid-tier / “neck-stuck” technology (被卡脖子)**
+   - You depend on others for critical parts/components.
+   - If they stop selling to you, your industry grinds to a halt.
+   - Classic example at the time: China’s inability to produce advanced lithography machines (ASML’s EUV) or high-end EDA software → the US can sanction you and you’re helpless.
    - This is the situation most Chinese tech companies (including Meituan itself in some areas) were in. You live in fear of being “blocked.”
 
-2. **True “threshold” technology (卡脖子能力)**  
-   - You control the irreplaceable, monopolistic part of the supply chain.  
-   - Other countries need YOU more than you need them.  
-   - If you impose export controls, the other side panics.  
-   - Classic example:  
-     - American/Japanese/Dutch dominance in semiconductor equipment and materials (EUV machines, photoresists, silicon wafers, etc.)  
+2. **True “threshold” technology (卡脖子能力)**
+   - You control the irreplaceable, monopolistic part of the supply chain.
+   - Other countries need YOU more than you need them.
+   - If you impose export controls, the other side panics.
+   - Classic example:
+     - American/Japanese/Dutch dominance in semiconductor equipment and materials (EUV machines, photoresists, silicon wafers, etc.)
      - When the US restricts advanced chips/node to China, Chinese fab construction slows dramatically, but when China restricted gallium/germanium/antimony exports in 2023–2024, Western defense and auto industries freaked out.
 
-Wang Xing’s point was brutally honest:  
+Wang Xing’s point was brutally honest:
 Most of what China calls “high-tech” (internet platforms, apps, EVs without the core chips, etc.) is actually the first category — impressive, profitable, but ultimately vulnerable. Real, strategic high technology flips the power dynamic: you hold the choke point, not the neck that gets choked.
 
 ### Why he said it (context)

@@ -11,7 +11,7 @@ type: note
 
 Question: What does "remonstrance" mean?
 
-Answer: 
+Answer:
 
 **Remonstrance** (noun) means:
 
@@ -23,30 +23,30 @@ It is most commonly used in formal, serious, or somewhat old-fashioned English t
 
 ### Common patterns and examples
 
-- **make a remonstrance** / **present a remonstrance**  
+- **make a remonstrance** / **present a remonstrance**
   → The ambassador made a strong remonstrance to the foreign ministry about the border violation.
 
-- **in spite of remonstrance** / **despite remonstrance**  
+- **in spite of remonstrance** / **despite remonstrance**
   → He continued the dangerous experiment despite the scientists' remonstrances.
 
-- **remonstrance against** something  
+- **remonstrance against** something
   → Parents sent a collective remonstrance against the proposed school uniform policy.
 
-Synonyms (depending on context):  
-- protest  
-- objection  
-- complaint  
-- rebuke  
-- admonition  
+Synonyms (depending on context):
+- protest
+- objection
+- complaint
+- rebuke
+- admonition
 - expostulation (very close in meaning and slightly more formal/old-fashioned)
 
-Antonyms:  
-- approval  
-- acquiescence  
+Antonyms:
+- approval
+- acquiescence
 - acceptance
 
 The word comes from Latin *remonstrāre* = "to demonstrate, show again" → "to point out firmly / to protest".
 
-References:  
+References:
 
 - None (standard English dictionary definition)

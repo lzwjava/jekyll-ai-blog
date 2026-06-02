@@ -402,7 +402,7 @@ jobs:
     environment: github-pages
     env:
       TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
-      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}    
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -422,5 +422,5 @@ jobs:
 
       - name: Run news bot script
         run: python scripts/nytimes/news_bot.py
-              
+
 ```

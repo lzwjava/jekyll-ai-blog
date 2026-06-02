@@ -32,7 +32,7 @@ Anthropic 的 CEO Dario Amodei 最近参加了 Dwarkesh Patel 主持的名为“
 
 Dwarkesh Patel 的这一集被认为是目前最全面、最深入的详细讨论。
 
-References:  
+References:
 
 - [Dwarkesh Podcast: Dario Amodei — “We are near the end of the exponential”](https://www.dwarkesh.com/p/dario-amodei-2)
 - [YouTube: Dario Amodei — “We are near the end of the exponential”](https://www.youtube.com/watch?v=n1E9IZfvGMA)

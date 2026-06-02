@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the WeChat app?
 
-Answer: 
+Answer:
 
 **WeChat** (known as **Weixin** in China) is a multi-purpose mobile app developed by **Tencent** and launched in 2011. It started as a messaging application but has evolved into one of the world's most powerful **"super apps"**, combining communication, social networking, payments, e-commerce, and many daily services in a single platform.
 
@@ -43,7 +43,7 @@ WeChat continues to expand with trends like enhanced AI integration (especially 
 
 While hugely dominant in China, its international version is mainly used by Chinese diaspora communities, people doing business with China, or travelers in Asia who need WeChat Pay or communication.
 
-References:  
+References:
 
 - [WeChat - Wikipedia](https://en.wikipedia.org/wiki/WeChat)
 - [WeChat Essentials: An Introduction to the Super App](https://www.cwauthors.com/article/WeChat-Essentials-An-Introduction-To-The-Super-App)

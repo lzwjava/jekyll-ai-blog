@@ -40,7 +40,7 @@ type: note
 
 air fryers 对于小份量的脆度效果通常更高效，而 ovens 对于大分量或由于需要温和平稳烘烤（even baking）的食物效果更好。
 
-References:  
+References:
 
 - [https://www.everydayfamilycooking.com/air-fryer-conversion-chart-calculator](https://www.everydayfamilycooking.com/air-fryer-conversion-chart-calculator)
 - [https://drizzleanddip.com/2023/03/15/easy-oven-to-air-fryer-conversion-guide](https://drizzleanddip.com/2023/03/15/easy-oven-to-air-fryer-conversion-guide)

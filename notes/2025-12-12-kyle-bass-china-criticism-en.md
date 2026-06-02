@@ -12,7 +12,7 @@ type: note
 
 Question: What are Kyle Bass's general comments on China?
 
-Answer: 
+Answer:
 
 Kyle Bass, the founder and CIO of Hayman Capital Management, is a prominent hedge fund manager known for his prescient bets against markets, including the 2008 U.S. housing crisis. His views on China are overwhelmingly critical, framing the country as an existential threat to the United States and the Western world. Bass portrays China under the Chinese Communist Party (CCP) and President Xi Jinping as an authoritarian regime driven by belligerence, economic fragility, and aggressive expansionism. He argues that the U.S. must decouple economically and prepare militarily, often emphasizing that the U.S. holds decisive leverage in any confrontation.
 
@@ -37,12 +37,12 @@ Bass urges immediate action: seizing counterfeit goods in U.S. warehouses, depor
 
 These opinions, expressed consistently across interviews, podcasts, and his X posts (@Jkylebass), position Bass as a vocal China hawk, blending investment analysis with national security advocacy.
 
-References:  
-- [Kyle Bass Hails Trump’s China Hawks as ‘Realists’ on Xi Threat](https://www.bloomberg.com/news/articles/2024-11-12/kyle-bass-hails-trump-s-china-hawks-as-realists-on-xi-threat)  
-- [Kyle Bass: China’s Economic Spiral and the Coming Taiwan War](https://podcasts.apple.com/us/podcast/kyle-bass-chinas-economic-spiral-and-the-coming-taiwan-war/id1471411980?i=1000714734594)  
-- [The Bear Case for China w/ Kyle Bass](https://www.theinvestorspodcast.com/episodes/the-bear-case-for-china-w-kyle-bass/)  
-- ['Cripple China's Economy Overnight' – Hedge Funder Kyle Bass Gives Roadmap To Protect Taiwan](https://www.benzinga.com/news/24/08/40541438/cripple-chinas-economy-overnight-hedge-funder-kyle-bass-gives-roadmap-to-protect-taiwan-the-usa-hold)  
-- ['China is a paper tiger,' says Kyle Bass, Hayman Capital Management](https://www.globalcapital.com/article/b1nqr87fqy82dk/39china-is-a-paper-tiger39-says-kyle-bass-hayman-capital-management)  
-- [Investing in China is a big mistake, Chinese stocks posted gains for five out of the last 20 years, says Kyle Bass](https://economictimes.indiatimes.com/news/international/us/investing-in-china-is-a-big-mistake-chinese-stocks-posted-gains-for-five-out-of-the-last-20-years-says-kyle-bass/articleshow/113884246.cms?from=mdr)  
-- [Kyle Bass: The US-China trade war is ‘bigger than economics’](https://finance.yahoo.com/news/kyle-bass-talks-china-after-yuan-weakening-trade-war-escalation-183918609.html)  
+References:
+- [Kyle Bass Hails Trump’s China Hawks as ‘Realists’ on Xi Threat](https://www.bloomberg.com/news/articles/2024-11-12/kyle-bass-hails-trump-s-china-hawks-as-realists-on-xi-threat)
+- [Kyle Bass: China’s Economic Spiral and the Coming Taiwan War](https://podcasts.apple.com/us/podcast/kyle-bass-chinas-economic-spiral-and-the-coming-taiwan-war/id1471411980?i=1000714734594)
+- [The Bear Case for China w/ Kyle Bass](https://www.theinvestorspodcast.com/episodes/the-bear-case-for-china-w-kyle-bass/)
+- ['Cripple China's Economy Overnight' – Hedge Funder Kyle Bass Gives Roadmap To Protect Taiwan](https://www.benzinga.com/news/24/08/40541438/cripple-chinas-economy-overnight-hedge-funder-kyle-bass-gives-roadmap-to-protect-taiwan-the-usa-hold)
+- ['China is a paper tiger,' says Kyle Bass, Hayman Capital Management](https://www.globalcapital.com/article/b1nqr87fqy82dk/39china-is-a-paper-tiger39-says-kyle-bass-hayman-capital-management)
+- [Investing in China is a big mistake, Chinese stocks posted gains for five out of the last 20 years, says Kyle Bass](https://economictimes.indiatimes.com/news/international/us/investing-in-china-is-a-big-mistake-chinese-stocks-posted-gains-for-five-out-of-the-last-20-years-says-kyle-bass/articleshow/113884246.cms?from=mdr)
+- [Kyle Bass: The US-China trade war is ‘bigger than economics’](https://finance.yahoo.com/news/kyle-bass-talks-china-after-yuan-weakening-trade-war-escalation-183918609.html)
 - [China Tariffs: US Has Upper Hand in Trade War Negotiations, Kyle Bass Says](https://www.businessinsider.com/china-tariffs-us-trade-war-trump-negotiations-kyle-bass-2025-4)

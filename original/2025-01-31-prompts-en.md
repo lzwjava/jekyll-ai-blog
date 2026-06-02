@@ -28,7 +28,7 @@ Compose a dynamic and in-depth dialogue between two experts, A and B, on a speci
 - Do not give lines that A is always asking and B is always answering. Make dialogue more balanced.
 
 
-Ensure the dialogue flows naturally, with a balanced exchange of ideas and perspectives. 
+Ensure the dialogue flows naturally, with a balanced exchange of ideas and perspectives.
 
 One line at most three sentences and 100 Chinese characters because we need to use Chirp 3 HD to do text-to-speech. For English topic, keep one line around 300 characters.
 
@@ -85,7 +85,7 @@ About the PDF content. The format should be as follows:
 
 A: Hey, I’ve been hearing a lot about some topic. Can you break it down for me?
 
-B: Sure! Let’s start with the basics. 
+B: Sure! Let’s start with the basics.
 
 ---
 

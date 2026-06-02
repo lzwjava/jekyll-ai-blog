@@ -1,12 +1,12 @@
-AUTHOR = 'Zhiwei Li'
+AUTHOR = "Zhiwei Li"
 SITENAME = "Zhiwei Li's Blog"
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = 'Asia/Shanghai'
+TIMEZONE = "Asia/Shanghai"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

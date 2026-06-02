@@ -65,12 +65,12 @@ server {
 
 修改配置后：
 
-1. 检查语法：  
+1. 检查语法：
    `sudo nginx -t`
 
-2. 重载 nginx：  
-   `sudo systemctl reload nginx`  
-   或  
+2. 重载 nginx：
+   `sudo systemctl reload nginx`
+   或
    `sudo nginx -s reload`
 
 现在 http://your-server-ip/movies/ 应该会显示 `/home/lzw/qDownloads/` 的内容。

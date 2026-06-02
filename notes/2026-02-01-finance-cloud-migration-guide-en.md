@@ -12,7 +12,7 @@ type: note
 
 Question: How would a finance platform with IBM Db2, Java Spring, Angular, Python scripts, and other on-premise technologies migrate to Google Cloud, such as replacing IBM Db2 with Cloud SQL or similar services?
 
-Answer: 
+Answer:
 
 Migrating an on-premise finance platform (handling financial data processing, import/validation/export, submission/approval workflows, ledger, banking systems, etc.) to Google Cloud Platform (GCP) involves careful planning due to regulatory compliance (e.g., data security, auditability, and financial regulations like GDPR, PCI-DSS, or local banking rules), minimal downtime, and data integrity. The platform uses Java Spring (backend), Angular (frontend), IBM Db2 (database), Python scripts (automation/testing), Maven/Nexus, HashiCorp Vault (secrets), Ansible (automation), Control-M (scheduling), and IBM WebSphere (application server).
 
@@ -84,7 +84,7 @@ IBM Db2 is not natively managed in GCP like Cloud SQL. Options include:
 
 This migration can take months to years depending on complexity, but yields benefits like scalability, lower maintenance, and AI/ML integration (e.g., via Vertex AI for fraud detection).
 
-References:  
+References:
 
 - [Migrate to Google Cloud: Best practices](https://docs.cloud.google.com/architecture/migration-to-google-cloud-best-practices)
 - [Database Migration Service](https://cloud.google.com/database-migration)

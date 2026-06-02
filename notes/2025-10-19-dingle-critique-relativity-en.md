@@ -17,14 +17,14 @@ Herbert Dingle's *Science at the Crossroads* (1972) is a passionate critique of 
 Dingle's central claim revolves around what he calls the "clock paradox" (or twin paradox), a symmetry problem in STR:
 
 - **The Core Contradiction**: STR's postulates—(1) the relativity of uniform motion (no absolute rest) and (2) the constant speed of light regardless of source motion—lead to the prediction that two identical clocks in uniform relative motion will each run slower than the other. As Dingle puts it: "According to the special theory of relativity, two similar clocks, A and B, which are in uniform relative motion... work at different rates. The situation is therefore entirely symmetrical... If A works faster than B, B must work faster than A. Since this is impossible, the theory must be false."
-  
+
 - **Why It Matters**: This isn't resolvable by acceleration or reference frames (as some defenders claim); it's a baked-in asymmetry without justification. Dingle demands: "How is the slower-working clock distinguished?" He dismisses "proofs" like muon decay or cosmic ray data as circular, assuming STR's validity to "confirm" it.
 
 The book divides into ethical and technical sections:
 
 - **Ethical Critique (Part One)**: Dingle documents rejections from scientific elites (e.g., P.M.S. Blackett, Lawrence Bragg) who dismissed his work without engaging it, prioritizing consensus over evidence. He accuses the community of violating principles like those of Sir Henry Dale: science should pursue "objective truth... not tolerating any lapse from precision or neglect of any anomaly." This evasion, he argues, mirrors pre-WWII dogmatism, eroding science's moral authority.
 
-- **Technical and Historical Critique (Part Two)**: 
+- **Technical and Historical Critique (Part Two)**:
   - Traces STR's origins to confusions in 19th-century physics (e.g., Michelson-Morley experiment misinterpreted without ether).
   - Highlights four "outstanding errors" in STR's acceptance: (1) mistaking math for physics (equations can't dictate reality); (2) conflating meanings of "time" (eternity vs. clock readings); (3) treating coordinate systems as literal "observers"; (4) literalizing metaphors like length contraction.
   - Contrasts STR with alternatives like Hendrik Lorentz's ether-based theory (physical effects explain observations without paradoxes) or Walther Ritz's emission hypothesis for light.

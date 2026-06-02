@@ -12,19 +12,19 @@ type: note
 
 Question: What is the meaning or origin of the quote about wanting to change the world when young, then failing at progressively smaller scopes (world → surroundings → family), and finally realizing one should change oneself first — and if given the chance to go back, starting with self-change to possibly influence family and beyond?
 
-Answer: 
+Answer:
 
 This is a very well-known reflective saying about personal growth, humility, maturity, and the realistic order of influence in life.
 
 The most common full version in English is something like this:
 
-> When I was young and free and my imagination had no limits, I dreamed of changing the world.  
-> As I grew older and wiser, I discovered the world would not change, so I shortened my sights somewhat and decided to change only my country.  
-> But it, too, seemed immovable.  
-> As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.  
-> And now as I lie on my deathbed, I suddenly realize:  
-> **If I had only changed myself first**, then by example I would have changed my family.  
-> From their inspiration and encouragement, I would then have been able to better my country,  
+> When I was young and free and my imagination had no limits, I dreamed of changing the world.
+> As I grew older and wiser, I discovered the world would not change, so I shortened my sights somewhat and decided to change only my country.
+> But it, too, seemed immovable.
+> As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.
+> And now as I lie on my deathbed, I suddenly realize:
+> **If I had only changed myself first**, then by example I would have changed my family.
+> From their inspiration and encouragement, I would then have been able to better my country,
 > and who knows, I may have even changed the world.
 
 There are several popular attributions:
@@ -36,12 +36,12 @@ There are several popular attributions:
 
 The Chinese version you saw is the most widely circulated short form in Chinese-speaking communities:
 
-> 年轻时我想改变世界，后来发现不行；  
-> 然后我想改变周围的人，还是不行；  
-> 再后来我想改变我的家人，仍然失败；  
-> 最后我决定先改变自己。  
-> 如果能回到过去，我会先从改变自己开始——  
-> 也许那样我就有机会改变家庭，  
+> 年轻时我想改变世界，后来发现不行；
+> 然后我想改变周围的人，还是不行；
+> 再后来我想改变我的家人，仍然失败；
+> 最后我决定先改变自己。
+> 如果能回到过去，我会先从改变自己开始——
+> 也许那样我就有机会改变家庭，
 > 进而影响周围的人，甚至改变世界。
 
 **Core message / takeaway**
@@ -56,6 +56,6 @@ The quote captures several deep truths:
 
 In short: **Change starts with the person in the mirror.** Almost every serious philosophy of self-improvement, leadership, and even social change eventually arrives at roughly the same conclusion.
 
-References:  
+References:
 
 - None (this is a widely paraphrased traditional/reflective saying without a single verifiable original author or publication)

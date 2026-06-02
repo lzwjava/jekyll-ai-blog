@@ -50,7 +50,7 @@ Once deployed exploded, WAS's built-in mechanisms can kick in for partial hot re
 WAS provides native support for hot reloading certain components without a full restart, but it's limited. This relies on the server's **file polling** mechanism, where WAS periodically scans the exploded deployment directory for changes (configurable via JVM args like `-DwasStatusCheckInterval=5` for 5-second checks).
 
 **What WAS supports out-of-the-box:**
-- **JSPs (JavaServer Pages):** 
+- **JSPs (JavaServer Pages):**
   - JSPs are dynamically compiled into servlets on first access. If you modify a JSP file in an exploded WAR, WAS can detect the change, recompile it, and reload the servlet.
   - **How it works:** Set `reloadInterval` in `ibm-web-ext.xmi` (under WEB-INF) to a low value (e.g., 1 second) for frequent checks. Or use the global setting in **Servers > Server Types > WebSphere application servers > [your_server] > Java and Process Management > Process definition > Java Virtual Machine > Custom properties** with `com.ibm.ws.webcontainer.invokefilterscompatibility=true`.
   - **Limitations:** Only works for JSPs that haven't been cached aggressively. Complex JSPs with includes or tags might require a module restart.
@@ -123,8 +123,8 @@ To achieve seamless code changes (e.g., editing a method body in a debugger-atta
 
 In summary, these techniques transform WAS from a heavyweight server into a more agile dev environment, cutting iteration times from minutes to seconds. Start with exploded WARs for immediate gains, then layer on tools as needed. If you're hitting specific errors, share more details for troubleshooting.
 
-**References:**  
-[JRebel Documentation for WebSphere](https://www.jrebel.com/products/jrebel/tutorials/deploy-jrebel-websphere)  
-[DCEVM GitHub Repo](https://github.com/dcevm/dcevm)  
-[HotSwapAgent GitHub Repo](https://github.com/HotswapProjects/HotswapAgent)  
+**References:**
+[JRebel Documentation for WebSphere](https://www.jrebel.com/products/jrebel/tutorials/deploy-jrebel-websphere)
+[DCEVM GitHub Repo](https://github.com/dcevm/dcevm)
+[HotSwapAgent GitHub Repo](https://github.com/HotswapProjects/HotswapAgent)
 [IBM Knowledge Center: WebSphere Hot Deployment](https://www.ibm.com/docs/en/was/9.0.5?topic=applications-hot-deployment)

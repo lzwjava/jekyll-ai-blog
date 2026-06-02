@@ -12,7 +12,7 @@ type: note
 
 Question: Explain VLAN tagging in detail
 
-Answer: 
+Answer:
 
 ### What is VLAN Tagging?
 VLAN tagging is a mechanism defined by the IEEE 802.1Q standard to identify which Virtual Local Area Network (VLAN) an Ethernet frame belongs to when traversing links that carry traffic from multiple VLANs. It allows switches to segment broadcast domains logically while sharing physical links (trunk ports) between switches or other devices.
@@ -63,7 +63,7 @@ The native VLAN handles **untagged traffic** on trunk ports:
 
 VLAN tagging is essential for efficient, secure multi-VLAN networks in enterprise environments.
 
-References:  
+References:
 
 - [IEEE 802.1Q - Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.1Q)
 - [Fundamentals of 802.1Q VLAN Tagging - Cisco Meraki Documentation](https://documentation.meraki.com/Platform_Management/Dashboard_Administration/Design_and_Configure/Configuration_Guides/Routing_and_Firewall/Fundamentals_of_802.1Q_VLAN_Tagging)

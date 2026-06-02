@@ -15,7 +15,7 @@ Yes, your calculation is roughly correct.
 Let's compute it precisely:
 
 - 1 MB = 1,000,000 bytes (using the common network approximation; strictly 1 MiB = 1,048,576 bytes, but the difference is small)
-- Maximum TCP payload per segment on Ethernet with IPv4 and no options: **1460 bytes**  
+- Maximum TCP payload per segment on Ethernet with IPv4 and no options: **1460 bytes**
   (This comes from: Ethernet MTU 1500 bytes − 20 bytes IPv4 header − 20 bytes TCP header = 1460 bytes)
 
 So:

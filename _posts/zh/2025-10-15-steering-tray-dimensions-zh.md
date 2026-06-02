@@ -25,5 +25,5 @@ Etsy或阿里速卖通有可定制尺寸的款式——搜索“定制窄款方�
 
 没错，定制化才是终极解决方案——期待早日推出包容不同体型的友好设计。
 
-[窄款方向盘托盘精选](https://www.amazon.com/s?k=steering+wheel+tray+narrow)  
+[窄款方向盘托盘精选](https://www.amazon.com/s?k=steering+wheel+tray+narrow)
 [定制窄版车载桌](https://www.etsy.com/search?q=custom+steering+wheel+tray+narrow)

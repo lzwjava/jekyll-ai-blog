@@ -33,7 +33,7 @@ These terms appear to refer primarily to network service names, often defined in
 
 These are commonly seen in tools like `netstat`, `lsof`, or firewall configurations (e.g., pf on macOS, iptables/ufw on Linux). For exact definitions, consult your system's `/etc/services` file or the IANA port registry.
 
-**References**  
-[Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)  
-[what is an open port with a commplex-link? - Apple Community](https://discussions.apple.com/thread/7747034)  
+**References**
+[Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+[what is an open port with a commplex-link? - Apple Community](https://discussions.apple.com/thread/7747034)
 [Running virt-manager and libvirt on macOS](https://www.arthurkoziel.com/running-virt-manager-and-libvirt-on-macos/)

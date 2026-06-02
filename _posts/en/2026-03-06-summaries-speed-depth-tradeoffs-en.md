@@ -11,7 +11,7 @@ type: note
 
 Question: What are the pros and cons of reading summaries of long essays?
 
-Answer: 
+Answer:
 
 Reading summaries of long essays (or similar long-form content like articles, reports, or books) can be very useful in many situations, but it does come with trade-offs — especially regarding depth and nuance. Your comparison to reading reports from subordinates is spot-on: summaries often filter information through someone else's lens, which can lead to **lost details**, **oversimplification**, and a **shallower understanding** in many cases.
 
@@ -46,7 +46,7 @@ Use summaries strategically:
 
 In short: Summaries are excellent tools for **efficiency and breadth**, but poor substitutes for **depth and accuracy**. They are like hearing second-hand what your subordinate thinks is important — useful for management, but unreliable if you need to truly understand or make high-stakes decisions.
 
-References:  
+References:
 
 - [https://readingraphics.com/guide-reading-full-book-vs-summary-for-learning](https://readingraphics.com/guide-reading-full-book-vs-summary-for-learning)
 - [https://www.scotthyoung.com/blog/2016/12/06/book-reading-deep-shallow](https://www.scotthyoung.com/blog/2016/12/06/book-reading-deep-shallow)

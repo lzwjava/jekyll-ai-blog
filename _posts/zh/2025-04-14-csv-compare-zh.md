@@ -26,10 +26,10 @@ def main():
     parser = argparse.ArgumentParser(description='比较两个单行CSV文件的共有项和独有项')
     parser.add_argument('file1_path', help='第一个CSV文件的路径')
     parser.add_argument('file2_path', help='第二个CSV文件的路径')
-    
+
     # 解析参数
     args = parser.parse_args()
-    
+
     try:
         # 读取第一个CSV文件的第一行
         with open(args.file1_path, 'r') as file1:
@@ -37,54 +37,54 @@ def main():
             for row in reader1:
                 values1 = row
                 break
-        
+
         # 读取第二个CSV文件的第一行
         with open(args.file2_path, 'r') as file2:
             reader2 = csv.reader(file2)
             for row in reader2:
                 values2 = row
                 break
-        
+
         # 转换为集合进行比较
         set1 = set(values1)
         set2 = set(values2)
-        
+
         # 查找共有项和独有项
         common_items = set1.intersection(set2)
         unique_to_file1 = set1.difference(set2)
         unique_to_file2 = set2.difference(set1)
-        
+
         # 确定输出目录（使用第一个文件的目录）
         output_dir = os.path.dirname(args.file1_path) or '.'
         output_file = os.path.join(output_dir, 'comparison.txt')
-        
+
         # 将结果写入输出文件
         with open(output_file, 'w') as file:
             file.write("比较结果：\n\n")
-            
+
             file.write("共有项（同时存在于两个文件）：\n")
             if common_items:
                 for item in sorted(common_items):
                     file.write(f"{item}\n")
             else:
                 file.write("无\n")
-                
+
             file.write("\n仅存在于第一个文件的项：\n")
             if unique_to_file1:
                 for item in sorted(unique_to_file1):
                     file.write(f"{item}\n")
             else:
                 file.write("无\n")
-                
+
             file.write("\n仅存在于第二个文件的项：\n")
             if unique_to_file2:
                 for item in sorted(unique_to_file2):
                     file.write(f"{item}\n")
             else:
                 file.write("无\n")
-        
+
         print(f"比较完成。结果已保存至 {output_file}")
-        
+
     except FileNotFoundError as e:
         print(f"错误：文件未找到 - {e}")
     except Exception as e:

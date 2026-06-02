@@ -70,7 +70,7 @@ class Classifier(nn.Module):
         super().__init__()
         self.fc1 = nn.Linear(input_size, 128)
         self.fc2 = nn.Linear(128, num_classes)
-    
+
     def forward(self, x):
         x = torch.relu(self.fc1(x))
         return self.fc2(x)
@@ -141,7 +141,7 @@ class Autoencoder(nn.Module):
             nn.ReLU(),
             nn.Linear(256, input_size)
         )
-    
+
     def forward(self, x):
         emb = self.encoder(x)
         return self.decoder(emb)

@@ -76,6 +76,6 @@ Muscles are categorized by location and function. Here are key ones:
 
 If you want more details on a specific part (like diagrams or functions), or names in another language, let me know!
 
-**References**  
-[Human Body Basics - Britannica](https://www.britannica.com/science/human-body)  
+**References**
+[Human Body Basics - Britannica](https://www.britannica.com/science/human-body)
 [Anatomy of the Human Body - Khan Academy](https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology)

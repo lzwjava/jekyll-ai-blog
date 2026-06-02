@@ -43,8 +43,8 @@ To make it click, let's break it down step by step, focusing on the key responsi
 
 This layer shines in LANs (local area networks) but fades out over WANs, where higher layers take more control. If you're revisiting for a cert (CCNA?) or just curiosity, tinker with Wireshark to capture Ethernet frames—seeing the headers live makes it stick.
 
-Got a specific sub-topic (like ARP or VLANs) tripping you up, or want an analogy tweak? Fire away! 
+Got a specific sub-topic (like ARP or VLANs) tripping you up, or want an analogy tweak? Fire away!
 
-For deeper reads:  
-[OSI Model Basics (Cisco)](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)  
+For deeper reads:
+[OSI Model Basics (Cisco)](https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/10561-3.html)
 [Data Link Layer Explained (GeeksforGeeks)](https://www.geeksforgeeks.org/data-link-layer/)

@@ -46,19 +46,19 @@ Notice you can **group** those six terms according to which entry in the first r
 * Terms containing \$a\_{11}\$:
 
   $$
-    a_{11}\,(a_{22}a_{33} - a_{23}a_{32}) 
+    a_{11}\,(a_{22}a_{33} - a_{23}a_{32})
     = a_{11}\det\!\begin{pmatrix}a_{22}&a_{23}\\a_{32}&a_{33}\end{pmatrix}.
   $$
 * Terms containing \$a\_{12}\$:
 
   $$
-    a_{12}\,(a_{23}a_{31} - a_{21}a_{33}) 
+    a_{12}\,(a_{23}a_{31} - a_{21}a_{33})
     = -\,a_{12}\det\!\begin{pmatrix}a_{21}&a_{23}\\a_{31}&a_{33}\end{pmatrix}.
   $$
 * Terms containing \$a\_{13}\$:
 
   $$
-    a_{13}\,(a_{21}a_{32} - a_{22}a_{31}) 
+    a_{13}\,(a_{21}a_{32} - a_{22}a_{31})
     = \;a_{13}\det\!\begin{pmatrix}a_{21}&a_{22}\\a_{31}&a_{32}\end{pmatrix}.
   $$
 

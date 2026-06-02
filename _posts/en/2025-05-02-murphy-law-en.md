@@ -9,7 +9,7 @@ type: note
 ---
 
 **Definition:**
-Murphy's Law is a popular adage that states:  
+Murphy's Law is a popular adage that states:
 > **"Anything that can go wrong, will go wrong."**
 
 This principle is often invoked to highlight the inevitability of problems occurring, especially in complex systems or situations involving multiple variables and human involvement. It serves as a reminder of the importance of planning for contingencies, anticipating failure, and designing with robustness in mind.

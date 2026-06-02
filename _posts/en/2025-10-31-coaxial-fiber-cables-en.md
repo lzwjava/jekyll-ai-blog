@@ -11,7 +11,7 @@ type: note
 ---
 
 ### What is Coax?
-Coax refers to **coaxial cable** (often shortened to "coax"). It's a type of electrical cable designed for transmitting high-frequency signals, like radio waves, TV signals, or internet data. 
+Coax refers to **coaxial cable** (often shortened to "coax"). It's a type of electrical cable designed for transmitting high-frequency signals, like radio waves, TV signals, or internet data.
 
 - **Structure**: It has a central copper wire (conductor) surrounded by a layer of insulation, then a braided metal shield, and an outer protective jacket. This setup minimizes signal loss and interference.
 - **How it works**: Electromagnetic waves travel along the cable at speeds typically 60-80% of the speed of light in vacuum (about 5 ns per meter delay, as mentioned—due to the material's properties slowing the wave).
@@ -42,7 +42,7 @@ Yes, but not in the engineered, mass-produced way we use today—nature has anal
 
 - **For Fiber-Like Materials (Optical Waveguides)**:
   - **Silica in Nature**: Optical fibers are mostly silica (glass), which forms naturally in volcanic rock, quartz crystals, or even diatom shells (microscopic algae). Diatoms use silica nanostructures to guide light for photosynthesis—essentially natural photonic crystals.
-  - **Biological Optical Fibers**: 
+  - **Biological Optical Fibers**:
     - Some deep-sea creatures like squid or jellyfish have light-guiding tissues (e.g., chromatophores or fiber-like nerves) that channel bioluminescent signals with low loss, similar to total internal reflection in fiber.
     - Spider silk: Certain orb-weaver spiders produce silk with nanoscale structures that act as optical waveguides, transmitting light along the thread for prey detection. Studies show it can guide visible light with ~70% efficiency, akin to plastic optical fibers.
     - Plant fibers: Hollow plant stems (like in reeds) or xylem tubes can guide light crudely, used in natural "fiber" experiments.

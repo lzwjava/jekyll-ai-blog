@@ -51,11 +51,11 @@ type: note
 
 最佳游览路线以西关为起点辐射周边，地铁（如1号线长寿路站可达沙面）便捷通达。这些景点多为免费或低价开放，但需注意部分场所提早闭馆。
 
-**参考资料**：  
-- [9处广州历史街区 - WildChina](https://wildchina.com/2021/12/historic-guangzhou-neighborhoods/)  
-- [这七条广州老街你都走过吗？](https://www.newsgd.com/node_c8f73edf09/98d20bbb20.shtml)  
-- [速写广州永庆坊](https://www.facebook.com/groups/591380185148774/posts/1664628117823970/)  
-- [2025广州老街推荐](https://www.trip.com/moments/theme/destination-guangzhou-152-old-streets-1000396/)  
-- [西关老广州](https://airial.travel/attractions/china/guang-zhou-shi/xiguan-old-guangzhou-ePPmfS_Q)  
-- [广州老建筑最佳观赏地](https://www.topchinatravel.com/community/blog/best-places-to-see-old-buildings-in-guangzhou.htm)  
+**参考资料**：
+- [9处广州历史街区 - WildChina](https://wildchina.com/2021/12/historic-guangzhou-neighborhoods/)
+- [这七条广州老街你都走过吗？](https://www.newsgd.com/node_c8f73edf09/98d20bbb20.shtml)
+- [速写广州永庆坊](https://www.facebook.com/groups/591380185148774/posts/1664628117823970/)
+- [2025广州老街推荐](https://www.trip.com/moments/theme/destination-guangzhou-152-old-streets-1000396/)
+- [西关老广州](https://airial.travel/attractions/china/guang-zhou-shi/xiguan-old-guangzhou-ePPmfS_Q)
+- [广州老建筑最佳观赏地](https://www.topchinatravel.com/community/blog/best-places-to-see-old-buildings-in-guangzhou.htm)
 - [2025广州西关老区步行导览](https://www.tripadvisor.com/AttractionProductReview-g298555-d14014947-Guangzhou_Walking_Tour_To_Explore_The_Old_Xiguan_Area-Guangzhou_Guangdong.html)

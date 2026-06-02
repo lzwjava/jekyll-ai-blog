@@ -36,15 +36,15 @@ Based on the search results, here is the parking information for Zhuhai Museum i
 
 ### 🔔 Important Reminders
 
-1. **Entrance Adjustment**: Since September 6, 2025, the parking lot entrance has been relocated to **Qinglv Middle Road (Haitian Park side)**; the original Haihong Road entrance is now an **exit-only** 
+1. **Entrance Adjustment**: Since September 6, 2025, the parking lot entrance has been relocated to **Qinglv Middle Road (Haitian Park side)**; the original Haihong Road entrance is now an **exit-only**
 2. **Holiday Tips**: During holidays like Mid-Autumn Festival and National Day, the "Two Museums" (Zhuhai Museum + Zhuhai Planning Exhibition Hall) parking lot has offered **free parking** . On regular days, arrive early or choose nearby alternatives
-3. **Reservation Required**: The museum requires advance booking through its official WeChat public account, with timed entry 
+3. **Reservation Required**: The museum requires advance booking through its official WeChat public account, with timed entry
 
 ---
 
 ### 🚌 Public Transit (If You Prefer Not to Drive)
 
-You can take bus routes **B2, B3, 4, 5, 12, 14, 15, 16, 204**, etc. 
+You can take bus routes **B2, B3, 4, 5, 12, 14, 15, 16, 204**, etc.
 
 ---
 

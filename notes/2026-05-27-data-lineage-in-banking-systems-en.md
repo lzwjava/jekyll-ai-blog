@@ -59,17 +59,17 @@ Easy to build. Not enough for regulators.
 
 ### 2. Column-level (medium)
 ```
-raw.transactions.amount 
-  → [sum, group by trade_date] 
+raw.transactions.amount
+  → [sum, group by trade_date]
   → mart.daily_pnl.gross_amount
-  → [*fx_rate] 
+  → [*fx_rate]
   → report.risk_dashboard.usd_equivalent
 ```
 This is the minimum viable lineage for BCBS 239.
 
 ### 3. Value-level / Record-level (fine)
 ```
-trade_id=T12345, amount=1,000,000 CNY 
+trade_id=T12345, amount=1,000,000 CNY
   → fx_rate=7.24 (sourced from Reuters 2024-01-15 09:00 UTC)
   → usd_equivalent=138,122.17
   → appears in row 47 of RWA report filed 2024-01-16
@@ -107,7 +107,7 @@ for col in ast.find_all(sqlglot.exp.Column):
 
 Tools: **sqlglot**, **sqlparse**, **OpenLineage parsers**
 
-Pros: Zero pipeline changes. Works on legacy SQL.  
+Pros: Zero pipeline changes. Works on legacy SQL.
 Cons: Can't track runtime transformations (Python Pandas ops, stored procs with dynamic SQL).
 
 ---
@@ -374,7 +374,7 @@ import sqlglot
 from sqlglot.lineage import lineage
 
 sql = """
-SELECT 
+SELECT
     t.amount * fx.rate AS usd_amount,
     t.trade_date
 FROM raw.transactions t

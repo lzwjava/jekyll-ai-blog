@@ -12,7 +12,7 @@ type: note
 
 Question: What is the Nash Equilibrium concept?
 
-Answer: 
+Answer:
 
 **Nash Equilibrium** 是博弈论（game theory）中的一个核心概念，以数学家 John Nash 的名字命名。它描述了非合作博弈中的一种状态：假设所有其他博弈方都不改变策略，**任何参与者都无法通过单方面改变自己的策略来获得更高的收益**。
 

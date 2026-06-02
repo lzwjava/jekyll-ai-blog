@@ -34,7 +34,7 @@ Many users report that consistent use of the mock tests and targeted practice on
 
 It is widely regarded as one of the most valuable free official resources available when booking with the British Council.
 
-**References:**  
+**References:**
 
 - [British Council IELTS Ready page](https://takeielts.britishcouncil.org/take-ielts/prepare/ielts-ready)
 - [British Council announcement and features](https://www.britishcouncil.org.br/en/exam/ielts/ready-premium)

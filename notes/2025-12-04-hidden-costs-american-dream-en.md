@@ -38,8 +38,8 @@ Here are some genuinely unpopular (or at least heavily down-voted when expressed
 
 These opinions are routinely called “ungrateful” or “you just hate America” when voiced publicly, which is exactly why they remain unpopular.
 
-References:  
-- [Reddit – r/expats thread on “What made you leave the US?” (various dates 2023–2025)](https://www.reddit.com/r/expats/)  
-- [Reddit – r/AmerExit megathreads](https://www.reddit.com/r/AmerExit/)  
-- [TeamBlind anonymous salary & lifestyle discussions (2024–2025)](https://www.teamblind.com/)  
+References:
+- [Reddit – r/expats thread on “What made you leave the US?” (various dates 2023–2025)](https://www.reddit.com/r/expats/)
+- [Reddit – r/AmerExit megathreads](https://www.reddit.com/r/AmerExit/)
+- [TeamBlind anonymous salary & lifestyle discussions (2024–2025)](https://www.teamblind.com/)
 - Various Quora answers under “Why did you move back from the USA?” (filtered for non-American authors)

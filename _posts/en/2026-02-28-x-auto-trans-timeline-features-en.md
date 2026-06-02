@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-Twitter (now X) first experimented with and began rolling out **automatic tweet translation** (where tweets in other languages are translated by default without manual clicking) in **August 2020**. 
+Twitter (now X) first experimented with and began rolling out **automatic tweet translation** (where tweets in other languages are translated by default without manual clicking) in **August 2020**.
 
 It started as a limited test in Brazil, where English tweets were automatically translated to Portuguese for some users on iOS and Android, based on their account's preferred/display language. Users could see the translation immediately on their homepage/feed, with options to view the original or toggle back. This was an expansion of the existing "Translate Tweet" button feature (powered initially by Bing, later Google), which required manual clicks.
 

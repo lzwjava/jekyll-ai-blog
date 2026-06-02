@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about user growth jobs in tech?
 
-Answer: 
+Answer:
 
 User growth roles in tech, such as Growth Product Managers or growth hackers focused on user acquisition and retention, often face criticism despite their prominence in startups and big tech. Here are some unpopular or controversial ideas drawn from industry discussions:
 
@@ -30,12 +30,12 @@ User growth roles in tech, such as Growth Product Managers or growth hackers foc
 
 These views challenge the glamour around growth roles, emphasizing that real product-market fit and retention drive lasting success over acquisition tactics.
 
-References:  
+References:
 
-- https://www.reddit.com/r/ProductManagement/comments/1bf7xr0/what_are_your_unpopular_opinions_as_a_product/  
-- https://www.reddit.com/r/ProductManagement/comments/gp8yd3/growth_product_management/  
-- https://www.reddit.com/r/ProductManagement/comments/1anzk7o/any_growth_product_managers/  
-- https://www.reddit.com/r/ProductManagement/comments/su0izr/wtf_is_a_growth_pm/  
-- https://www.reddit.com/r/ProductManagement/comments/1d7b0bv/what_are_the_pro_and_cons_of_growth_product/  
-- https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/  
+- https://www.reddit.com/r/ProductManagement/comments/1bf7xr0/what_are_your_unpopular_opinions_as_a_product/
+- https://www.reddit.com/r/ProductManagement/comments/gp8yd3/growth_product_management/
+- https://www.reddit.com/r/ProductManagement/comments/1anzk7o/any_growth_product_managers/
+- https://www.reddit.com/r/ProductManagement/comments/su0izr/wtf_is_a_growth_pm/
+- https://www.reddit.com/r/ProductManagement/comments/1d7b0bv/what_are_the_pro_and_cons_of_growth_product/
+- https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/
 - https://andrewchen.substack.com/p/10-years-after-growth-hacking

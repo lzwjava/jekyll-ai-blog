@@ -25,7 +25,7 @@ type: note
   - Acclime
   - PTL Group
   - Multiplier、Skuad 等。
-  
+
   这些特别适用于收入来源国际或作为 independent contractor 工作的情况。他们收取服务费（通常按员工/contractor 每月）。
 
 - **部分国内 HR/payroll outsourcing 平台** — 如 雇主易 (Guzhuyi) 的 乾通发薪 等平台，提供多类收入分发（工资、劳务费、佣金），支持个人税申报，并可能处理某些个人场景，但仍主要面向企业。通常需要支付“客户”或实体通过平台发起付款。
@@ -43,10 +43,10 @@ type: note
 - 如果付款方是公司，他们有时可以作为劳务费（劳务费）支付你，并附增值税普通发票或不开票，自己预扣税款——无需平台。
 - 对于非常小额或不定期金额——只需正常个人转账并自行年度申报税款。
 
-**总结推荐（2026 背景）**：  
+**总结推荐（2026 背景）**：
 如果您是真正的 freelancer/independent 个人而无公司，避免伪装成灵活就业的“代发工资”——近年来法律和税务风险显著。优先选择直接付款 + 自行申报，或如果需要正式 payroll 处理和 compliance（尤其是海外客户），使用知名国际**EOR/PEO 平台**。始终咨询中国税务顾问或律师以确保您的具体情况合规。
 
-**参考资料：**  
+**参考资料：**
 
 - [Deel Global Payroll](https://www.deel.com/zh-cn/payroll/global)
 - [Papaya Global China PEO](https://www.papayaglobal.com/peo-china)

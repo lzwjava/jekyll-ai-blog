@@ -20,5 +20,5 @@ There is no built-in support for specifying a different timezone directly in the
 
 This has been consistent for years and remains the case as of late 2025 — no native timezone parameter exists for the `schedule` event (unlike some other GitHub features like Dependabot).
 
-[Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)  
+[Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)
 [Workflow syntax for GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on-schedule)

@@ -11,7 +11,7 @@ translated: true
 type: note
 ---
 
-明白了 👍 你正在编辑 LibreChat 的 `.env` 文件。  
+明白了 👍 你正在编辑 LibreChat 的 `.env` 文件。
 这个文件正是你设置 `OPENAI_REVERSE_PROXY` 的地方。
 
 ---

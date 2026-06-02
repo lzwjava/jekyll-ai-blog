@@ -55,7 +55,7 @@ type: note
 
 在 2026 年初大多数日常使用场景中（尤其是 speed + cost + agent/coding performance），**Step-3.5-Flash** 被大多数审阅者和 blind tests 视为更强且更实用的选择。
 
-**参考资料：**  
+**参考资料：**
 
 - [OpenRouter model comparison – DeepSeek V3.2 vs Step 3.5 Flash](https://openrouter.ai/compare/deepseek/deepseek-v3.2/stepfun/step-3.5-flash)
 - [llm-stats.com – DeepSeek-V3.2-Exp vs Step-3.5-Flash](https://llm-stats.com/models/compare/deepseek-v3.2-exp-vs-step-3.5-flash)

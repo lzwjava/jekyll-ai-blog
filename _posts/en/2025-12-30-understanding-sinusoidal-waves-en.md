@@ -12,9 +12,9 @@ type: note
 
 Question: What does "sinusoidal" mean?
 
-Answer: 
+Answer:
 
-"Sinusoidal" is an adjective that describes something having the characteristics of a **sine wave** (or cosine wave). 
+"Sinusoidal" is an adjective that describes something having the characteristics of a **sine wave** (or cosine wave).
 
 A sine wave is a smooth, periodic oscillation that follows the mathematical function \\( y = A \sin(2\pi ft + \phi) \\), where:
 - \\( A \\) is the amplitude (maximum height),

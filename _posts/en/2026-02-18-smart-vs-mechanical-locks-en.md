@@ -49,7 +49,7 @@ Here is a clear side-by-side comparison (based on 2025–2026 reviews and trends
 
 Many people use a hybrid approach: a smart lock on the main entry (with mechanical key backup) and traditional locks elsewhere.
 
-**References:**  
+**References:**
 
 - [Smart Door Lock vs Traditional: Key Differences and Benefits](https://valleylockanddoor.com/smart-door-lock-vs-traditional)
 - [Best and Worst Door Locks of 2026 - Consumer Reports](https://www.consumerreports.org/home-garden/door-locks/best-and-worst-door-locks-a1022071701)

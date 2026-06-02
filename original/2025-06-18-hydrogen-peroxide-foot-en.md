@@ -25,8 +25,8 @@ I've lived in Guangzhou, China, in recent years. So in the summer, even in a roo
 
 I began to learn more about hydrogen peroxide with AI chatbots. It's a useful chemical ingredient. To save hydrogen peroxide, I started using disposable foot covers. After soaking my feet, I use the remaining liquid to soak my slippers and sandals.
 
-{: .centered }  
-![](/assets/images/hydrogen/h1.jpg){: .responsive }  
+{: .centered }
+![](/assets/images/hydrogen/h1.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
 
 {: .centered }

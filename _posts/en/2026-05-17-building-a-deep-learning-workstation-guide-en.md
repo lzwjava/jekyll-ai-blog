@@ -54,7 +54,7 @@ Also: using an all-AMD system (Ryzen CPU + Radeon GPU) enables **AMD Smart Acces
 
 ### Motherboard — MSI MAG X670E Tomahawk WiFi or ASUS ROG Strix X670E-E
 
-For the AM5 socket with the Ryzen 9 9900X, you need an **X670 or X670E** chipset board (or the newer X870/X870E). 
+For the AM5 socket with the Ryzen 9 9900X, you need an **X670 or X670E** chipset board (or the newer X870/X870E).
 
 The X670E chipset offers the most cutting-edge features, including PCIe 5.0 support for the primary graphics slot and M.2 slots, ensuring maximum compatibility with the RX 7900 XTX's PCIe 4.0 capabilities and future-proofing for next-gen GPUs and fast storage. Robust VRM is more than capable of handling demanding Ryzen CPUs.
 

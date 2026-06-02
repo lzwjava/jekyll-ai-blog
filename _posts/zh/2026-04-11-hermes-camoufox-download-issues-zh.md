@@ -56,8 +56,8 @@ type: note
 
 如果以上方法无法解决，请分享确切的命令/输出/错误信息以获得更有针对性的帮助。
 
-参考：  
-- https://github.com/daijro/camoufox/issues/324（针对卡住获取的手动扩展下载变通方法）  
-- https://github.com/daijro/camoufox/issues/409（指纹下载的速率限制）  
-- https://github.com/daijro/camoufox/issues/342（获取的代理支持请求）  
+参考：
+- https://github.com/daijro/camoufox/issues/324（针对卡住获取的手动扩展下载变通方法）
+- https://github.com/daijro/camoufox/issues/409（指纹下载的速率限制）
+- https://github.com/daijro/camoufox/issues/342（获取的代理支持请求）
 - 安装指南中关于特定网络下载缓慢/部分的说明。

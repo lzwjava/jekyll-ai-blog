@@ -11,7 +11,7 @@ type: note
 
 Question: Why is it hard to change people's opinions about you or someone, and how does this highlight the greatness of startups where success comes from building a product for a specific group rather than trying to please everyone, including colleagues or engineers? Also, explain how this relates to why Elon Musk, PayPal/X.com, Zip2, and current AI startup trends succeeded from the 1990s to the 2020s, given that those founders struggled to get their original colleagues or leads to like or value them, implying promotions are slow in big corporations due to external perceptions.
 
-Answer: 
+Answer:
 
 It's inherently difficult to change people's entrenched opinions about you or someone else because perceptions form quickly based on first impressions, past interactions, biases, and group dynamics. Once set, these views resist change due to **confirmation bias** (people seek evidence that supports their existing beliefs) and social inertia (especially in professional settings where colleagues form cliques or hierarchies). In a big corporation or established team, this makes it tough for innovative or unconventional individuals to gain recognition or influence from their immediate peers or superiors.
 
@@ -29,7 +29,7 @@ In big corporations, promotions are often **slow** (and recognition limited) bec
 
 This dynamic has driven much tech innovation: misfits or visionaries who can't "win over" their immediate circle go external, build for passionate early adopters, and often outpace the slow-moving incumbents.
 
-References:  
+References:
 
 - [Elon Musk ousted from PayPal by colleagues](https://www.foxbusiness.com/markets/elon-musk-dethroned-peter-thiel-coup-led-paypal-mafia)
 - [PayPal Mafia overview and influence](https://en.wikipedia.org/wiki/PayPal_Mafia)

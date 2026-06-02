@@ -33,7 +33,7 @@ In summary:
 - Tritan is **not called plain PCT** — it's a specific, modified form.
 - Yes, in China it is commonly called **"changed/modified PCT"** (改性PCT), and this is the standard term in standards, product labels, and industry discussions there.
 
-**References:**  
+**References:**
 
 - [Tritan copolyester - Wikipedia](https://en.wikipedia.org/wiki/Tritan_copolyester)
 - [tritan_百度百科](https://baike.baidu.com/item/tritan/10326032)

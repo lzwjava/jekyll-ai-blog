@@ -24,7 +24,7 @@ These are smaller networks compared to the big two, so coverage is patchier—be
 
 If you need P2P alternatives (no ATM), options like Paxful or LocalCoinSwap let you buy via bank transfer/cash meetups with lower fees (1-5%), but less anonymity.
 
-[CoinHero ATM Overview](https://www.coinhero.hk/en)  
-[HK Bitcoin ATM](http://hkbitcoinatm.com/)  
-[Nitroswap Locations](https://nitroswap.com/location-2/index.html)  
+[CoinHero ATM Overview](https://www.coinhero.hk/en)
+[HK Bitcoin ATM](http://hkbitcoinatm.com/)
+[Nitroswap Locations](https://nitroswap.com/location-2/index.html)
 [CoinATM Radar HK](https://coinatmradar.com/city/74/bitcoin-atm-hong-kong/)

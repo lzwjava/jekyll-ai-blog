@@ -30,7 +30,7 @@ Answer:
 
 这些景观在北半球的 12 月至 2 月以及南半球的 6 月至 8 月最为显著。冬季还带来了更清晰的观星天空，以及诸如雾凇（冰霜覆盖的树木）或蒸汽升腾的地热区与白雪形成的对比（例如美国的 Yellowstone National Park）。
 
-References:  
+References:
 
 - [32 Winter Wonderlands Around the World | Condé Nast Traveler](https://www.cntraveler.com/gallery/25-winter-wonderlands-around-the-world)
 - [12 Beautiful Places for Winter Landscapes in the World](https://worldwildschooling.com/beautiful-places-for-winter-landscapes-in-the-world/)

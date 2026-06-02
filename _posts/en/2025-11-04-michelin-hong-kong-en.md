@@ -29,6 +29,6 @@ Hong Kong's dining scene is world-class, with a strong emphasis on Cantonese cui
 
 These selections highlight Hong Kong's blend of tradition and innovation. Reservations are essential, especially for Michelin-starred spots—book well in advance. For more casual top picks (e.g., street food or Bib Gourmand), let me know!
 
-**References:**  
-[Michelin Guide Hong Kong & Macau 2025 Full List](http://guide.michelin.com/hk/en/article/michelin-guide-ceremony/hong-kong-macau-full-list)  
+**References:**
+[Michelin Guide Hong Kong & Macau 2025 Full List](http://guide.michelin.com/hk/en/article/michelin-guide-ceremony/hong-kong-macau-full-list)
 [米芝林指南香港澳門2025完整名單](http://guide.michelin.com/hk/zh_HK/article/michelin-guide-ceremony/hong-kong-macau-full-list)

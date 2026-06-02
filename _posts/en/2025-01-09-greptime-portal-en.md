@@ -33,7 +33,7 @@ The primary issue with the GreptimeDB portal's mobile responsiveness is that the
 
 - **Add Viewport Meta Tag**: Ensure the inclusion of the viewport meta tag in the HTML `<head>` section to facilitate proper scaling and rendering on mobile devices.
 
-By addressing these aspects, the GreptimeDB portal can achieve a more polished and user-friendly appearance on mobile browsers. 
+By addressing these aspects, the GreptimeDB portal can achieve a more polished and user-friendly appearance on mobile browsers.
 
 ## Update
 

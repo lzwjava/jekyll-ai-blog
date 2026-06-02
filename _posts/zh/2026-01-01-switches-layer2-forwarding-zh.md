@@ -12,7 +12,7 @@ type: note
 
 Question: Switches 主要在 OSI 的哪一层进行基本转发？
 
-Answer: 
+Answer:
 
 Switches 主要在 OSI model 的 **Layer 2 (Data Link Layer)** 运行，用于实现基本转发。
 
@@ -36,7 +36,7 @@ OSI (Open Systems Interconnection) model 是一个将网络系统功能标准化
 
 如果你正在准备认证考试（例如：CCNA），请记住：基础 Ethernet switches 是 Layer 2 设备。
 
-References:  
+References:
 - [Network Switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)
 - [Layer 2 vs Layer 3 Switches - GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/difference-between-layer-2-and-layer-3-switches/)
 - [What is a Network Switch? - Network World](https://www.networkworld.com/article/969239/what-is-a-network-switch-and-how-does-it-work.html)

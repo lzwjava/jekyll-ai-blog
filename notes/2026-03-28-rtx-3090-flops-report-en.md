@@ -15,8 +15,8 @@ Answer:
 
 The RTX 3090 in your server has the following theoretical peak FLOPS performance based on its GA102 GPU architecture:
 
-- **FP32 (Single Precision)**: Approximately 35.6 TFLOPS  
-- **FP16 (Half Precision)**: Approximately 142 TFLOPS (using Tensor Cores)  
+- **FP32 (Single Precision)**: Approximately 35.6 TFLOPS
+- **FP16 (Half Precision)**: Approximately 142 TFLOPS (using Tensor Cores)
 
 These numbers represent the raw theoretical maximum compute performance of the card. In real-world usage, actual achieved FLOPS will be lower depending on the workload, cooling, power limits, and software optimization.
 
@@ -29,10 +29,10 @@ Your server has a capable Intel Xeon Platinum 8369B CPU with full AVX-512 suppor
 
 The main blocker right now is the missing NVIDIA driver. Until the driver is installed and `nvidia-smi` works, you won't be able to utilize the GPU's FLOPS at all — CUDA applications simply won't see the hardware.
 
-**Recommendation**:  
+**Recommendation**:
 Yes, installing the NVIDIA driver is the next step. Once installed, you can run benchmarks like `nvidia-smi` to confirm the GPU is healthy, then test real performance with tools like TensorFlow/PyTorch benchmarks or CUDA samples to see sustained FLOPS in practice.
 
 If you want, I can provide commands to install the latest compatible NVIDIA driver for your Linux setup (assuming it's a common distro like Ubuntu or CentOS on the Alibaba ECS instance).
 
-References:  
+References:
 - NVIDIA GeForce RTX 3090 official specifications (theoretical TFLOPS values)

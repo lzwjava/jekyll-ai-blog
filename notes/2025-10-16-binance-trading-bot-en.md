@@ -27,7 +27,7 @@ Key features include AI-driven suggestions for parameters, portfolio rebalancing
 Binance offers several built-in bot strategies tailored to different market conditions. Here's a list of the primary ones:
 
 - **Spot Grid Trading**: Ideal for sideways or volatile markets. The bot places multiple buy orders below the current price and sell orders above, creating a "grid" of price levels. It buys low and sells high within the range, profiting from price fluctuations without predicting direction.
-  
+
 - **Futures Grid Trading**: Similar to spot grid but on futures contracts with leverage (up to 125x). Suited for amplified returns in ranging markets, but higher risk due to liquidation potential.
 
 - **Spot-Futures Arbitrage**: Exploits temporary price differences between spot and futures markets. The bot simultaneously buys on the cheaper market and sells on the pricier one, locking in risk-free profits (minus fees). Best for low-volatility periods.
@@ -40,6 +40,6 @@ Binance offers several built-in bot strategies tailored to different market cond
 
 These strategies can be combined or customized, with options for trending (momentum-based) or scalping adaptations via parameters.
 
-[Binance Trading Bot Review (2025)](https://www.cryptoninjas.net/exchange/binance-trading-bot/)  
-[What Are Crypto Trading Bots and How Do They Work?](https://academy.binance.com/en/articles/what-are-crypto-trading-bots-and-how-do-they-work)  
+[Binance Trading Bot Review (2025)](https://www.cryptoninjas.net/exchange/binance-trading-bot/)
+[What Are Crypto Trading Bots and How Do They Work?](https://academy.binance.com/en/articles/what-are-crypto-trading-bots-and-how-do-they-work)
 [Binance Trading Bots: How to Automate Your Success?](https://www.bitdegree.org/crypto/tutorials/binance-trading-bots)

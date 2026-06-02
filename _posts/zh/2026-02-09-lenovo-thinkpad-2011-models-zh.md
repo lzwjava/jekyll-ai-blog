@@ -19,7 +19,7 @@ type: note
 ### 最可能的系列与型号
 
 - **ThinkPad T series**（非常吻合）：
-  
+
   - ThinkPad **T410** / **T420** (2010–2011)
   - 通常配备 Intel Core i5-520M / i5-540M / i5-2520M 等。
   - 标准配置包含 250–500GB HDD (5400 或 7200 rpm)。
@@ -27,21 +27,21 @@ type: note
   - 14.1 英寸屏幕，坚固耐用，在 2011 年非常流行。
 
 - **ThinkPad L series**（预算级商用系列，非常契合）：
-  
+
   - ThinkPad **L420** / **L520** (2011 更新版)
   - Core i5 选项（例如 i5-2520M, i5-2540M）。
   - 通常提供高达 500GB 7200rpm HDD 的选项。
   - Ethernet 是标配；WiFi 是可选/可配置的（某些企业版本为了削减成本或出于安全策略跳过了无线网卡）。
 
 - **ThinkPad Edge / E series**（入门级商用，2011）：
-  
+
   - ThinkPad Edge **E420** / **E520**
   - Core i5-2520M 等。
   - 规格说明中列有 500GB HDD 选项。
   - 类似地：内置 Ethernet，通常包含 WiFi 但在特定 SKU 中可能缺失。
 
 - 可能性较低但仍有可能的型号：
-  
+
   - **IdeaPad** 消费级型号（如 Y560, Z570, V470, Z370）在 2011 年配置 i5 和 500GB HDD 时几乎都有内置 WiFi (Intel Centrino 或类似型号)。除非网卡损坏或后来被拆除，否则“无 WiFi”的情况很不寻常。
 
 ### 为什么会出现“无 WiFi，仅有 Ethernet”的情况？

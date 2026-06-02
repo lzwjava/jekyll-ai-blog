@@ -21,7 +21,7 @@ Two issues found in `~/Library/Logs/Zed/Zed.log`:
 
 1. **Path canonicalization failure** (primary):
    ```
-   ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference": 
+   ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference":
    canonicalizing "/mnt/data/deepseek-v4-inference": No such file or directory (os error 2)
    ```
    The Zed remote server process could see the path (it attempted file watching) but failed during `std::fs::canonicalize()`. Likely a stale remote server binary that had cached bad state.

@@ -13,7 +13,7 @@ Question: What is special about Hermes Agent v0.8.0, and give some example tasks
 
 Answer:
 
-Hermes Agent v0.8.0 (released 2026.4.8) is a specialized AI agent system designed as a powerful, tool-equipped assistant with a focus on browser automation, web interaction, and task execution capabilities. 
+Hermes Agent v0.8.0 (released 2026.4.8) is a specialized AI agent system designed as a powerful, tool-equipped assistant with a focus on browser automation, web interaction, and task execution capabilities.
 
 ### What makes Hermes Agent special:
 
@@ -58,5 +58,5 @@ These tasks highlight Hermes Agent's ability to go beyond simple Q&A and actuall
 
 Hermes Agent v0.8.0 appears to be a capable tool-augmented agent particularly strong in browser automation scenarios.
 
-References:  
+References:
 - None (information derived directly from the provided ASCII banner and tool list in your query)

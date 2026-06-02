@@ -41,10 +41,10 @@ Solvexia（前身为 SolveXia）专注于财务流程的无代码自动化领域
 
 这些竞争对手在定价模式（从订阅制 SaaS 到企业许可）、目标市场规模（中小型企业到全球企业）和专注领域（如对账与全面 FP&A）上各有不同。Solvexia 的差异化优势在于其对复杂定性财务任务的无代码自动化支持。如需深入比较，可通过 Gartner Peer Insights 等工具查看这些平台在财务对账市场的评级。
 
-**参考资料**  
-[最佳 BlackLine 替代方案：2025 年顶级竞争对手对比](https://www.solvexia.com/blog/blackline-alternatives)  
-[2025 年 SolveXia 最佳替代方案](https://slashdot.org/software/p/SolveXia/alternatives)  
-[PitchBook 上的 SolveXia 公司简介](https://pitchbook.com/profiles/company/453321-19)  
-[ZoomInfo 上的 SolveXia 信息](https://www.zoominfo.com/c/solvexia-pty-ltd/351443285)  
-[Techimply 上的 SolveXia 替代方案](https://www.techimply.com/solvexia/alternatives)  
+**参考资料**
+[最佳 BlackLine 替代方案：2025 年顶级竞争对手对比](https://www.solvexia.com/blog/blackline-alternatives)
+[2025 年 SolveXia 最佳替代方案](https://slashdot.org/software/p/SolveXia/alternatives)
+[PitchBook 上的 SolveXia 公司简介](https://pitchbook.com/profiles/company/453321-19)
+[ZoomInfo 上的 SolveXia 信息](https://www.zoominfo.com/c/solvexia-pty-ltd/351443285)
+[Techimply 上的 SolveXia 替代方案](https://www.techimply.com/solvexia/alternatives)
 [Craft.co 上的 Solvexia 竞争对手排名](https://craft.co/solvexia/competitors)

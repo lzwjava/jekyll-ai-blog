@@ -12,7 +12,7 @@ type: note
 
 Question: Why do people love GPT-4o so much, and why do they show such emotional anger and unhappiness when OpenAI stops or limits it?
 
-Answer: 
+Answer:
 
 People loved **GPT-4o** (released in 2024) for a combination of strong technical improvements and a uniquely appealing personality that set it apart from later models like GPT-5 and its variants.
 
@@ -34,7 +34,7 @@ OpenAI repeatedly limited access (tighter rate limits for free/Plus users in 202
 
 In short, GPT-4o wasn't just the "best model" technically for everyone — it was the one that felt most alive and caring. When OpenAI phased it out to prioritize safer, more professional successors, a vocal group experienced it as losing a relationship, not just a software update.
 
-References:  
+References:
 
 - [Reddit discussion on why people want GPT-4o back](https://www.reddit.com/r/ChatGPT/comments/1mn8iyl/to_all_people_asking_why_people_want_4o_back_here)
 - [HackerNoon article: Everyone is Missing GPT-4o](https://hackernoon.com/everyone-is-missing-gpt-4o-why-people-prefer-it-to-gpt-5)

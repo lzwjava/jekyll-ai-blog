@@ -22,7 +22,7 @@ type: note
 例如：
 
 * `"cat"` → 1个token
-* `"cats"` → 可能被分割为`"cat"` + `"s"` → 2个token  
+* `"cats"` → 可能被分割为`"cat"` + `"s"` → 2个token
 * `"You're handsome."` → 可能分割为`"You"`, `"'re"`, `" handsome"`, `"."` → **4个token**
 
 所以token实际上是**子词单元**，经过优化后能让模型高效处理多种语言和生僻词

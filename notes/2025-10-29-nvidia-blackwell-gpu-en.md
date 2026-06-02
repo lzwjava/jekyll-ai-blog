@@ -49,7 +49,7 @@ Blackwell excels in:
 
 Blackwell represents a leap in AI hardware, enabling the shift from training-focused systems to efficient, real-time reasoning at planetary scale.
 
-**References**  
-- [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)  
-- [NVIDIA Blackwell Platform Announcement](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)  
+**References**
+- [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)
+- [NVIDIA Blackwell Platform Announcement](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)
 - [Blackwell Microarchitecture on Wikipedia](https://en.wikipedia.org/wiki/Blackwell_%28microarchitecture%29)

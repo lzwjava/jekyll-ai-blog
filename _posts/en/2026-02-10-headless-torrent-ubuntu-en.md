@@ -12,7 +12,7 @@ type: note
 
 Question: How to use the command line to download torrent files on an Ubuntu server? Is qBittorrent a GUI program?
 
-Answer: 
+Answer:
 
 Yes, the regular **qBittorrent** package is a GUI application (it requires a desktop environment with X11/Wayland).
 
@@ -82,8 +82,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now qbittorrent-nox
 ```
 
-Now open in browser:  
-**http://your-server-ip:8080**  
+Now open in browser:
+**http://your-server-ip:8080**
 (default login: admin / adminadmin — change it immediately!)
 
 You can add .torrent files or magnet links directly from the web interface.
@@ -107,15 +107,15 @@ transmission-cli -w /path/to/downloads ubuntu-24.04-desktop-amd64.iso.torrent
 ```bash
 sudo apt install aria2
 
-aria2c "magnet:?xt=urn:btih:..." 
+aria2c "magnet:?xt=urn:btih:..."
 # or
 aria2c file.torrent --dir=/downloads --seed-time=0   # stop seeding after download
 ```
 
-Choose **qbittorrent-nox** if you want a nice interface and many features.  
+Choose **qbittorrent-nox** if you want a nice interface and many features.
 Choose **aria2c** or **transmission-cli** if you only want quick command-line one-shot downloads.
 
-References:  
+References:
 
 - [qBittorrent official site](https://www.qbittorrent.org/)
 - [Ubuntu torrent clients overview](https://linuxconfig.org/ubuntu-22-04-list-of-torrent-clients)

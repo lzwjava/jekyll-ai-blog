@@ -21,7 +21,7 @@ This module is part of Python's standard library, so no installation is needed. 
 - **Opening an existing tar file**: Use `tarfile.open()` with a mode. Modes include `'r'` (read), `'w'` (write empty), `'a'` (append), or variants with compression like `'r:gz'` for gzip.
   ```python
   import tarfile
-  
+
   # Open for reading (uncompressed)
   with tarfile.open('example.tar', 'r') as tar:
       # Work with tar here
@@ -44,7 +44,7 @@ This module is part of Python's standard library, so no installation is needed. 
 - **Add multiple files or a directory**: Use `add()` in a loop or add entire directories recursively.
   ```python
   import os
-  
+
   with tarfile.open('backup.tar', 'w') as tar:
       for root, dirs, files in os.walk('my_folder'):
           for file in files:

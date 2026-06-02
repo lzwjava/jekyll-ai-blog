@@ -26,9 +26,9 @@ type: note
 
 总体而言，小额购买尚可行，但频繁或大额交易体验欠佳——许多用户因此更倾向亲赴香港获取更快捷、低风险的交易体验。
 
-[Sanction Scanner：中国加密货币监管政策](https://www.sanctionscanner.com/blog/cryptocurrency-regulations-in-china-1221)  
-[CNN：中国在香港培育加密货币市场](https://www.cnn.com/2025/09/02/business/china-hong-kong-crypto-regulation-intl-hnk-dst)  
-[福布斯：不，中国并未再次禁止比特币](https://www.forbes.com/sites/digital-assets/2025/06/04/no-china-did-not-just-ban-bitcoin-again/)  
-[CoinATM雷达：香港比特币ATM分布](https://coinatmradar.com/country/96/bitcoin-atm-hong-kong/)  
-[99Bitcoins：中国比特币购买指南](https://99bitcoins.com/buy-bitcoin/china/)  
+[Sanction Scanner：中国加密货币监管政策](https://www.sanctionscanner.com/blog/cryptocurrency-regulations-in-china-1221)
+[CNN：中国在香港培育加密货币市场](https://www.cnn.com/2025/09/02/business/china-hong-kong-crypto-regulation-intl-hnk-dst)
+[福布斯：不，中国并未再次禁止比特币](https://www.forbes.com/sites/digital-assets/2025/06/04/no-china-did-not-just-ban-bitcoin-again/)
+[CoinATM雷达：香港比特币ATM分布](https://coinatmradar.com/country/96/bitcoin-atm-hong-kong/)
+[99Bitcoins：中国比特币购买指南](https://99bitcoins.com/buy-bitcoin/china/)
 [币安：P2P加密货币交易四大常见误区](https://www.binance.com/en/blog/all/421499824684901588)

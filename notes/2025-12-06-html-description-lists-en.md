@@ -12,7 +12,7 @@ type: note
 
 Question: What does `<dl>`, `<dt>`, and `<dd>` mean in HTML?
 
-Answer: 
+Answer:
 
 In HTML, `<dl>`, `<dt>`, and `<dd>` are tags used together to create a **description list** (formerly called a definition list). This is the standard way to mark up glossaries, metadata, question-and-answer pairs, or any list where each item has a **term** and one or more **descriptions/details**.
 
@@ -40,14 +40,14 @@ In HTML, `<dl>`, `<dt>`, and `<dd>` are tags used together to create a **descrip
 
 This renders as a clean, semantic list (browsers usually indent the `<dd>` content):
 
-**HTML**  
+**HTML**
  HyperText Markup Language – the standard language for creating web pages.
 
-**CSS**  
- Cascading Style Sheets – used to style and layout web pages.  
+**CSS**
+ Cascading Style Sheets – used to style and layout web pages.
  Can be written inline, internally, or in external files.
 
-**JavaScript**  
+**JavaScript**
  A programming language that adds interactivity to websites.
 
 Using these tags instead of plain `<ul>` or `<div>`s is better for accessibility (screen readers announce them as definition lists) and SEO.

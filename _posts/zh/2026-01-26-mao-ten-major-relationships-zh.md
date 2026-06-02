@@ -12,7 +12,7 @@ type: note
 
 Question: Give an introduction to 《论十大关系》 in English.
 
-Answer: 
+Answer:
 
 **《论十大关系》**（英文：On the Ten Major Relationships）是**Mao Zedong**在中华人民共和国成立后最重要的早期理论著作之一。
 
@@ -48,7 +48,7 @@ Answer:
 
 今天，这部著作仍在中国作为**Mao Zedong Thought**的一部分被深入研究，是展示早期将 Marxism 原理与中国具体实际相结合的重要文献。
 
-References:  
+References:
 
 - [Ten Major Relationships - Wikipedia](https://en.wikipedia.org/wiki/Ten_Major_Relationships)
 - [ON THE TEN MAJOR RELATIONSHIPS - Marxists.org](https://www.marxists.org/reference/archive/mao/selected-works/volume-5/mswv5_51.htm)

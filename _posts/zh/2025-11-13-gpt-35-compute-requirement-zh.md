@@ -28,6 +28,6 @@ type: note
 - 在消费级硬件上训练轻量级语言模型（如 10-100 亿参数）
 这类实验通常仅需数天或数周即可完成。
 
-[揭秘 GPT-3](https://lambda.ai/blog/demystifying-gpt-3)  
-[为何单张 GPU 训练 ChatGPT（GPT-3.5）需要 35 年！](https://www.youtube.com/watch?v=YsLl2DhMgQo)  
+[揭秘 GPT-3](https://lambda.ai/blog/demystifying-gpt-3)
+[为何单张 GPU 训练 ChatGPT（GPT-3.5）需要 35 年！](https://www.youtube.com/watch?v=YsLl2DhMgQo)
 [语言模型训练的浮点运算考量](https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4)

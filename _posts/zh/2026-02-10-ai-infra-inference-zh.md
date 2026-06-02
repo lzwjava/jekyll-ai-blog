@@ -12,7 +12,7 @@ type: note
 
 Question: What does AI infra mean? What about inference / scheduler? What does it involve?
 
-Answer: 
+Answer:
 
 **AI infra**（**AI infrastructure** 的缩写）是指为支持人工智能工作负载的全生命周期而构建的 **hardware**、**software**、**networking** 及相关系统的专门组合。这包括开发、training、fine-tuning，尤其是 **deploying/running** AI models（特别是近年来的 large language models 和 generative AI）。
 
@@ -25,7 +25,7 @@ Answer:
 
 ### 在此语境下 "inference" 的含义
 
-**Inference** 是“推理”或“生产”阶段，即预训练模型接收新输入（prompt、图像等）并产生输出的过程。  
+**Inference** 是“推理”或“生产”阶段，即预训练模型接收新输入（prompt、图像等）并产生输出的过程。
 对于像 GPT、Llama、Claude 等大型模型：
 
 - 它是 autoregressive 的（一次生成一个 token）
@@ -66,7 +66,7 @@ AI infra 中的 **scheduler**（特别是针对 **inference**）是一个软件�
 
 简而言之：当今的 "AI infra" 核心在于构建高效、可扩展且具成本效益的系统，以实现大规模的 **run inference** —— 而 schedulers 是决定你的 GPU cluster 效率是提升 2 倍还是 5 倍的最关键环节之一。
 
-References:  
+References:
 
 - [What is AI Infrastructure? - IBM](https://www.ibm.com/think/topics/ai-infrastructure)
 - [AI Infrastructure: Key Components - Cloudian](https://cloudian.com/guides/ai-infrastructure/ai-infrastructure-key-components-and-6-factors-driving-success)

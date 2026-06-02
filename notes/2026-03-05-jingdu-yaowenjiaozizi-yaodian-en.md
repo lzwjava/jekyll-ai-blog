@@ -30,7 +30,7 @@ type: note
 ### Core Thesis (中心论点)
 The central argument of the essay is clearly stated by Zhu himself:
 
-> “在文学，无论阅读或写作，我们必须有一字不肯放松的谨严。”  
+> “在文学，无论阅读或写作，我们必须有一字不肯放松的谨严。”
 > (In literature, whether reading or writing, we must maintain a strictness that refuses to let go of even a single word.)
 
 This sentence is the most frequently tested and quoted main idea in 04729 exams.

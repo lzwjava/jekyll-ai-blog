@@ -103,6 +103,6 @@ Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只�
 
 如果这不能解决问题或者你分享了你的 `docker-compose.yml`，我可以进一步优化建议！
 
-[LibreChat 官方文档 - Docker 优化](https://docs.librechat.ai/install/providers/docker.html)  
-[LibreChat 手动安装指南](https://docs.librechat.ai/install/installation/manual_install.html)  
+[LibreChat 官方文档 - Docker 优化](https://docs.librechat.ai/install/providers/docker.html)
+[LibreChat 手动安装指南](https://docs.librechat.ai/install/installation/manual_install.html)
 [Docker Desktop 在 macOS 上的资源限制](https://docs.docker.com/desktop/settings/mac/)

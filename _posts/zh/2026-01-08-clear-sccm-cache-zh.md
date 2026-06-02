@@ -12,7 +12,7 @@ type: note
 
 Question: In Windows 的 Software Center 中，有些 Package 安装失败，如何删除 ccmcache 以重新安装？
 
-Answer: 
+Answer:
 
 Windows 上的 **Software Center** 是 Microsoft Endpoint Configuration Manager (原 SCCM/MECM) 的一部分，用于显示部署的任务、更新和 Package。安装失败通常是由于 Client Cache 文件夹 (**ccmcache**，通常位于 `C:\Windows\ccmcache`) 中的文件损坏或不完整导致的。清理此 Cache 会强制 Client 重新下载内容，从而允许重新尝试安装。
 
@@ -59,9 +59,9 @@ $Cache.GetCacheElements() | ForEach-Object {
 
 通过强制进行全新的重新下载，这些步骤应能解决大多数 Package 安装失败的问题。
 
-References:  
+References:
 
-- [https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache)  
-- [https://areit.wordpress.ncsu.edu/software-center-troubleshooting/](https://areit.wordpress.ncsu.edu/software-center-troubleshooting/)  
-- [https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/](https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/)  
+- [https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/configure-client-cache)
+- [https://areit.wordpress.ncsu.edu/software-center-troubleshooting/](https://areit.wordpress.ncsu.edu/software-center-troubleshooting/)
+- [https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/](https://www.reddit.com/r/SCCM/comments/4poj0i/force_software_center_to_redownload_appsupdates/)
 - [https://learn.microsoft.com/en-us/answers/questions/1694202/how-to-cleanup-ccmcache](https://learn.microsoft.com/en-us/answers/questions/1694202/how-to-cleanup-ccmcache)

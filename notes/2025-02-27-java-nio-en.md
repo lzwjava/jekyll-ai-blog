@@ -31,7 +31,7 @@ public class NIOFileReader {
         try {
             // Open a file channel
             FileChannel fileChannel = FileChannel.open(
-                Paths.get("example.txt"), 
+                Paths.get("example.txt"),
                 StandardOpenOption.READ
             );
 
@@ -85,8 +85,8 @@ public class NIOFileWriter {
         try {
             // Open a file channel for writing
             FileChannel fileChannel = FileChannel.open(
-                Paths.get("output.txt"), 
-                StandardOpenOption.CREATE, 
+                Paths.get("output.txt"),
+                StandardOpenOption.CREATE,
                 StandardOpenOption.WRITE
             );
 

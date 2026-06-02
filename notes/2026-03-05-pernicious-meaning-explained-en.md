@@ -11,7 +11,7 @@ type: note
 
 Question: What does "pernicious" mean?
 
-Answer: 
+Answer:
 
 **Pernicious** (adjective) means:
 
@@ -35,15 +35,15 @@ Typical sentences:
 - Second-hand smoke has pernicious consequences for children and non-smokers.
 - The pernicious rumor slowly destroyed her reputation.
 
-Synonyms (depending on context):  
+Synonyms (depending on context):
 harmful · damaging · destructive · injurious · deleterious · toxic · poisonous · malign · malevolent · baleful · noxious · deadly · ruinous · insidious
 
-Antonyms:  
+Antonyms:
 beneficial · harmless · benign · helpful · wholesome
 
 The word often carries a slightly stronger moral or intellectual disapproval compared to just "harmful" — it suggests something **evil in its effects** or **particularly insidious**.
 
-References:  
+References:
 
 - [Merriam-Webster](https://www.merriam-webster.com/dictionary/pernicious)
 - [Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/pernicious)

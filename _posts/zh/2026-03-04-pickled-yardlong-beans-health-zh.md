@@ -31,7 +31,7 @@ type: note
 
 总之，腌长豇豆作为均衡饮食的一部分通常是**健康的**——尤其是自制低钠或发酵版本——提供 **fiber**、维生素、矿物质和可能的肠道益处。它们不是“超级食物”，但是一种营养丰富、美味的吃更多蔬菜的方式。关注 sodium 摄入的人应选择低盐版本或少量食用。
 
-参考文献：  
+参考文献：
 
 - [Yardlong beans nutrition and health benefits](https://foodstruct.com/food/yardlongbean-raw)
 - [Long beans benefits](https://www.vegaproduce.com/long-beans-benefits)

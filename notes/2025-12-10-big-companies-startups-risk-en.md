@@ -24,35 +24,35 @@ Yes, you’re largely correct—this is a very well-observed and widely discusse
 Here’s why it happens and why the contrast with startups is so stark:
 
 ### In Big Tech / Mature Corporations
-1. **Asymmetric incentives**  
-   - Success → modest bonus, maybe a slightly bigger scope, promotion queue moves slowly.  
-   - Failure → public blame, stalled promotion, sometimes laid off in the next reorg.  
+1. **Asymmetric incentives**
+   - Success → modest bonus, maybe a slightly bigger scope, promotion queue moves slowly.
+   - Failure → public blame, stalled promotion, sometimes laid off in the next reorg.
    → Rational behavior = minimize downside, even if it means forgoing big upside.
 
-2. **HIPPO culture (Highest Paid Person’s Opinion)**  
+2. **HIPPO culture (Highest Paid Person’s Opinion)**
    Senior executives often kill risky projects because they threaten existing revenue streams or because they personally don’t “get it.”
 
-3. **Budget and headcount games**  
+3. **Budget and headcount games**
    Managers fight to grow or at least protect their empire. Launching something that might cannibalize your own product or fail spectacularly jeopardizes next year’s budget.
 
-4. **Coordination overhead**  
+4. **Coordination overhead**
    Any truly innovative project in a 100,000-person company needs buy-in from dozens of teams (legal, privacy, security, internationalization, accessibility, marketing, PR, finance…). Each team can say “no” but almost no one is rewarded for saying “yes” to risk.
 
-5. **Stock-based compensation effect**  
+5. **Stock-based compensation effect**
    Once a company is public or very large, most employees’ net worth is tied to the stock price staying stable or slowly climbing. Big bets can cause volatility → stock drops → everyone loses money. Again, rational to avoid.
 
 ### In Startups (especially 0→1 stage)
-1. **Symmetric incentives**  
-   - If you don’t innovate and find PMF → company dies, everyone loses job and equity anyway.  
+1. **Symmetric incentives**
+   - If you don’t innovate and find PMF → company dies, everyone loses job and equity anyway.
    - If you take big bets and win → 10–1000× personal wealth, fame, independence.
 
-2. **Founder-led risk tolerance**  
+2. **Founder-led risk tolerance**
    Founders have huge personal upside and usually only one shot; they are willing to bet the company (literally).
 
-3. **Small teams, fast feedback**  
+3. **Small teams, fast feedback**
    You can ship something in weeks, see if users love it, iterate or kill it with almost zero bureaucracy.
 
-4. **No existing revenue to protect**  
+4. **No existing revenue to protect**
    Cannibalization is not a problem when current revenue is ~$0.
 
 ### Real-world examples

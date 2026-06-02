@@ -12,7 +12,7 @@ type: note
 
 Question: If people are in an angry or negative emotional state, does it impact study or focus?
 
-Answer: 
+Answer:
 
 Yes, being in an angry or negative emotional state generally impairs focus, concentration, and study performance, though the effects can vary by emotion type, intensity, and context.
 
@@ -29,13 +29,13 @@ Yes, being in an angry or negative emotional state generally impairs focus, conc
 
 Managing emotions through regulation (e.g., mindfulness, breaks) can mitigate these impacts and improve study effectiveness.
 
-References:  
+References:
 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC5836010/  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC8472431/  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC3482624/  
-- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02678/full  
-- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1599543/full  
-- https://www.betterup.com/blog/how-emotions-affect-learning  
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC5009014/  
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5836010/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8472431/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3482624/
+- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02678/full
+- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1599543/full
+- https://www.betterup.com/blog/how-emotions-affect-learning
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5009014/
 - https://pubmed.ncbi.nlm.nih.gov/26011662/

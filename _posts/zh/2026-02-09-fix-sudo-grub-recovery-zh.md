@@ -12,7 +12,7 @@ type: note
 
 Question: I am now at the GRUB menu showing options like Ubuntu, Advanced options, Memory test, etc. How do I proceed to fix the broken sudo?
 
-Answer: 
+Answer:
 
 Since your main goal is to recover the broken sudo (due to wrong ownership after the chown mistake), **do not** select the normal "Ubuntu" entry yet — it will boot into the broken system and you still won't have sudo.
 
@@ -78,7 +78,7 @@ Instead, follow one of these two paths from the current GRUB screen (both can wo
   - 运行与上方相同的 chown/chmod 命令
   - 退出，卸载分区，拔掉 USB 重启
 
-**快速提示：** 如果你能通过 Recovery Mode（方案 1）成功修复，速度会快得多 — 无需动用 USB。 
+**快速提示：** 如果你能通过 Recovery Mode（方案 1）成功修复，速度会快得多 — 无需动用 USB。
 如果它没有给你一个可用的 root shell（例如掉进了 busybox 或出现文件系统错误），请直接采用方案 2。
 
 修复 sudo 后，你还可以在修复好的系统中清理巨大的 CUPS 日志：
@@ -88,7 +88,7 @@ sudo truncate -s 0 /var/log/cups/error_log*
 
 祝你好运 — 胜利在望。
 
-References:  
+References:
 
 - [Ask Ubuntu: How to boot into recovery mode](https://askubuntu.com/questions/156209/how-do-i-boot-to-recovery-mode)
 - [Ubuntu Community Help: RecoveryMode](https://help.ubuntu.com/community/RecoveryMode)

@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-* To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).  
+* To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).
 
 * Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, and Linode. For optimal performance, choose server locations in Singapore or Tokyo. While Hong Kong is also a viable option, be aware that certain AI tools like ChatGPT and Claude are restricted in that region.
 
@@ -19,13 +19,13 @@ type: post
 
 * For optimal speed, I recommend using an Aliyun Hong Kong server with a BGP (premium) elastic IP. The elastic IP feature allows quick replacement if the current IP gets blocked. Aliyun Cloud's optimized BGP (premium) connection ensures fast performance. The service costs 3CNY per 1GB of traffic.
 
-* Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
+* Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.
 
 * Linode's IP Transfer feature allows you to quickly migrate your server to a new location, thus obtaining a new IP address.
 
-* You may need a script to automatically renew your server every day.  
+* You may need a script to automatically renew your server every day.
 
-* If the proxy server gets banned by the GFW or encounters other issues, you can use a China Telecom Macau SIM card to share cellular data with your laptop. This allows you to set up a new server.  
+* If the proxy server gets banned by the GFW or encounters other issues, you can use a China Telecom Macau SIM card to share cellular data with your laptop. This allows you to set up a new server.
 
 * For cloud services like Google Cloud Platform, configuring a new server requires an existing proxy server. However, providers like DigitalOcean or Vultr can be set up directly without needing a proxy server.
 

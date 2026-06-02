@@ -31,31 +31,31 @@ server <action> [serverName] [options]
 
 ### 主要 Action (命令)
 
-- **create** — 创建新的 server 目录和基础配置文件  
+- **create** — 创建新的 server 目录和基础配置文件
   示例：`server create myServer`
 
-- **start** — 在 **后台** 启动 server (最常用于生产环境)  
+- **start** — 在 **后台** 启动 server (最常用于生产环境)
   示例：`server start myServer`
 
-- **run** — 在 **前台** 启动 server (控制台输出保留在当前终端；适用于开发/调试)  
+- **run** — 在 **前台** 启动 server (控制台输出保留在当前终端；适用于开发/调试)
   示例：`server run myServer`
 
-- **stop** — 正常停止 server  
+- **stop** — 正常停止 server
   示例：`server stop myServer`
 
-- **status** — 检查 server 是否正在运行  
+- **status** — 检查 server 是否正在运行
   示例：`server status myServer`
 
-- **package** — 将 server (包括配置和应用程序) 打包成 .zip, .jar, 或 .tar.gz 文件  
+- **package** — 将 server (包括配置和应用程序) 打包成 .zip, .jar, 或 .tar.gz 文件
   示例：`server package myServer --include=usr`
 
-- **dump** — 创建诊断快照 (thread dump, configuration, trace 等)  
+- **dump** — 创建诊断快照 (thread dump, configuration, trace 等)
   示例：`server dump myServer`
 
-- **javadump** — 从运行中的 server 请求 Java core dump / heap dump  
+- **javadump** — 从运行中的 server 请求 Java core dump / heap dump
   示例：`server javadump myServer`
 
-- **help** — 显示 server 命令或特定 action 的帮助信息  
+- **help** — 显示 server 命令或特定 action 的帮助信息
   示例：`server help start`
 
 ### 常用选项 (适用于 start/run/stop/package/dump 等)
@@ -111,7 +111,7 @@ server dump testServer
 
 "Server command options" → https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options
 
-对于 Open Liberty (语法非常相似，近年来通常完全一致)：  
+对于 Open Liberty (语法非常相似，近年来通常完全一致)：
 https://openliberty.io/docs/latest/reference/command/server-commands.html
 
 在你安装的版本中运行 `server help` 或 `server help start`，可以查看该特定 Liberty 版本所支持的准确选项。

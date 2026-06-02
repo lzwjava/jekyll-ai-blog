@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a tutorial on MySQL backup and recovery covering: (1) Data backup: full vs. incremental backup; mysqldump command (2) Transaction logs: concept, recovery principles; MySQL’s 7 types of log files and their roles; binary log operations (3) Incremental backup using binary logs: enabling/disabling binlog, performing incremental backup (4) Recovery: simple and full recovery models; restoring from mysqldump backups and binary logs.
 
-Answer: 
+Answer:
 
 # MySQL Backup and Recovery Tutorial
 
@@ -162,10 +162,10 @@ For complete PITR:
 
 Always test recoveries in a non-production environment!
 
-References:  
+References:
 
-- https://dev.mysql.com/doc/refman/8.4/en/server-logs.html  
-- https://dev.mysql.com/doc/refman/8.4/en/binary-log.html  
-- https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html  
-- https://dev.mysql.com/doc/refman/8.4/en/point-in-time-recovery.html  
+- https://dev.mysql.com/doc/refman/8.4/en/server-logs.html
+- https://dev.mysql.com/doc/refman/8.4/en/binary-log.html
+- https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html
+- https://dev.mysql.com/doc/refman/8.4/en/point-in-time-recovery.html
 - https://dev.mysql.com/doc/refman/8.4/en/innodb-redo-log.html

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to the company at https://www.metax-tech.com.
 
-Answer: 
+Answer:
 
 MetaX Tech (Chinese name: 沐曦 MetaX, stock code: 688802 on the Shanghai Stock Exchange STAR Market) is a Chinese high-tech company specializing in the design and development of **high-performance Graphics Processing Units (GPUs)** and related computing platforms. Founded in September 2020 and headquartered in Shanghai, the company aims to become a world-class GPU enterprise by providing domestically developed, full-stack GPU solutions that emphasize energy efficiency, high versatility, and independent intellectual property rights.
 
@@ -32,7 +32,7 @@ The company focuses on delivering "safe and reliable" GPU technology using advan
 ### History and Growth
 - **Founded**: September 2020 in Shanghai, China.
 - **Expansion**: Quickly established wholly-owned subsidiaries and R&D centers in major cities including Beijing, Nanjing, Chengdu, Hangzhou, Shenzhen, Wuhan, and Changsha.
-- **Achievements**: 
+- **Achievements**:
   - Recognized as one of KPMG's Top 50 global emerging companies for multiple years.
   - Included in the Hurun Report's 2023 Global Unicorn List (valued over $1 billion as an unlisted company at the time).
   - Successfully went public on the Shanghai STAR Market.
@@ -54,9 +54,9 @@ The company boasts a "top-tier" team with rich mass-production experience in GPU
 ### Significance
 In the context of increasing demand for AI computing power and restrictions on foreign GPU exports to China, MetaX represents one of China's emerging domestic GPU champions. It competes in a space dominated globally by NVIDIA and AMD, focusing on self-developed IP to support national digital economy goals.
 
-References:  
+References:
 
-- [Official Website (English)](https://www.metax-tech.com/en)  
-- [About MetaX](https://www.metax-tech.com/en/about/about.html)  
-- [Products and Solutions](https://www.metax-tech.com/en/goods/product.html)  
+- [Official Website (English)](https://www.metax-tech.com/en)
+- [About MetaX](https://www.metax-tech.com/en/about/about.html)
+- [Products and Solutions](https://www.metax-tech.com/en/goods/product.html)
 - [Company News Examples](https://www.metax-tech.com/en/about/news.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Ansible playbooks?
 
-Answer: 
+Answer:
 
 Ansible playbooks, while widely praised for simplifying infrastructure automation, draw some sharp criticism in niche discussions among DevOps practitioners. Here are several unpopular opinions drawn from community threads and posts, focusing on their limitations, misuse, and alternatives. These views often challenge the tool's "agentless simplicity" hype:
 
@@ -32,10 +32,10 @@ Ansible playbooks, while widely praised for simplifying infrastructure automatio
 
 These opinions highlight Ansible's strengths in quick, agentless automation but underscore frustrations with scaling it into full-fledged systems. If you're building playbooks, prioritize simplicity: use modules over shell commands, test idempotency rigorously, and know when to pivot to code.
 
-References:  
-- [Ansible Playbooks with 3,400 lines aren't better than bash](https://x.com/brankopetric00/status/1997053364690211182)  
-- [Open Source Collection of Ansible Good and Bad Practices](https://www.reddit.com/r/ansible/comments/xw588g/open_source_collection_of_ansible_good_and_bad/)  
-- [Source of Truth is not important](https://www.reddit.com/r/ansible/comments/1dqtjja/source_of_truth_is_not_important/)  
-- [Good Practices for Ansible - The Zen of Ansible](https://redhat-cop.github.io/automation-good-practices/)  
-- [The ultimate guide for writing high-quality Ansible Playbooks](https://steampunk.si/spotter/blog/ultimate-guide-for-high-quality-ansible-playbooks/)  
+References:
+- [Ansible Playbooks with 3,400 lines aren't better than bash](https://x.com/brankopetric00/status/1997053364690211182)
+- [Open Source Collection of Ansible Good and Bad Practices](https://www.reddit.com/r/ansible/comments/xw588g/open_source_collection_of_ansible_good_and_bad/)
+- [Source of Truth is not important](https://www.reddit.com/r/ansible/comments/1dqtjja/source_of_truth_is_not_important/)
+- [Good Practices for Ansible - The Zen of Ansible](https://redhat-cop.github.io/automation-good-practices/)
+- [The ultimate guide for writing high-quality Ansible Playbooks](https://steampunk.si/spotter/blog/ultimate-guide-for-high-quality-ansible-playbooks/)
 - [What is "best"? One playbook doing everything, or many?](https://www.reddit.com/r/ansible/comments/11m70hi/what_is_best_one_playbook_doing_everything_or/)

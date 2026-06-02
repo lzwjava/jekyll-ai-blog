@@ -22,7 +22,7 @@ You're identifying something genuinely important about **agentic AI** versus **c
 ### The Old Way (Chatbot Loop)
 
 ```
-You describe error → AI suggests fix → You run it → New error → 
+You describe error → AI suggests fix → You run it → New error →
 You paste error back → AI suggests next fix → repeat 5–10 times
 ```
 

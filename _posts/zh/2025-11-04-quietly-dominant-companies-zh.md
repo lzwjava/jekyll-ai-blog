@@ -41,9 +41,9 @@ type: note
 
 这些企业通过深耕B2B领域、私有化运营或专业细分市场取得成功，而非依赖消费者热度。对投资者或求职者而言，它们提供了远离知名企业波动性的稳定选择。若需针对特定行业或区域优化清单，欢迎进一步交流。
 
-**参考资料**  
-- [嘉吉在全球农业的静默统治](https://www.forbes.com/sites/forbesbusinesscouncil/2025/01/15/the-unsung-heroes-of-global-supply-chains/)  
-- [英迈B2B科技业务激增](https://www.crunchbase.com/organization/ingram-micro/company_overview)  
-- [玛氏家族帝国分析](https://www.bloomberg.com/features/2024-mars-inc-private-power/)  
-- [REI合作社2024年度报告](https://www.rei.com/about-rei/annual-report)  
+**参考资料**
+- [嘉吉在全球农业的静默统治](https://www.forbes.com/sites/forbesbusinesscouncil/2025/01/15/the-unsung-heroes-of-global-supply-chains/)
+- [英迈B2B科技业务激增](https://www.crunchbase.com/organization/ingram-micro/company_overview)
+- [玛氏家族帝国分析](https://www.bloomberg.com/features/2024-mars-inc-private-power/)
+- [REI合作社2024年度报告](https://www.rei.com/about-rei/annual-report)
 - [戈尔公司的创新壁垒](https://hbr.org/2025/03/the-secret-to-gore-s-enduring-success)

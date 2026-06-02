@@ -12,7 +12,7 @@ type: note
 
 Question: After booting into recovery mode or chroot from the Ubuntu live USB, when trying to start the graphical interface or after reboot, the system still complains "Failed to start gdm.service" (GNOME Display Manager failed to start). How to fix this?
 
-Answer: 
+Answer:
 
 The "Failed to start gdm.service" error usually means GDM cannot start because of permission problems, missing/corrupted files, or broken dependencies — all very likely after you ran `sudo chown -R $(whoami) /usr/`. Here are the most effective repair steps in order of recommendation.
 
@@ -127,8 +127,8 @@ This usually resolves 90% of chown-destroyed GNOME setups without full reinstall
 
 Do **not** run any more recursive chown/chmod on system directories — that was the root cause.
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)  
-- [https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions](https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions)  
+- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)
+- [https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions](https://askubuntu.com/questions/1029472/gdm-failed-to-start-after-changing-permissions)
 - [https://wiki.ubuntu.com/RecoveryMode](https://wiki.ubuntu.com/RecoveryMode)

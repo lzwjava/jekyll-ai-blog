@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to NGINX Ingress Controller in GCP
 
-Answer: 
+Answer:
 
 The **NGINX Ingress Controller** is one of the most popular ways to expose HTTP/HTTPS services in Kubernetes clusters, including those running on **Google Kubernetes Engine (GKE)** in Google Cloud Platform (GCP).
 
@@ -50,10 +50,10 @@ Most teams choose **NGINX Ingress** when they need more powerful routing capabil
 
 ### Quick Comparison of Installation Methods on GKE (2025/2026)
 
-- **Official manifests** (most common)  
+- **Official manifests** (most common)
   `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.x/deploy/static/provider/cloud/deploy.yaml`
 
-- **Helm** (very popular)  
+- **Helm** (very popular)
   ```bash
   helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
   helm repo update
@@ -100,7 +100,7 @@ spec:
 - Need simple setup + deep Google integration → use **GKE native Ingress**
 - Need advanced routing / annotations / canaries / auth / regex → use **NGINX Ingress Controller**
 
-References:  
+References:
 
 - [Kubernetes Ingress-NGINX Official Documentation](https://kubernetes.github.io/ingress-nginx/)
 - [ExternalDNS with NGINX on GKE](https://kubernetes-sigs.github.io/external-dns/latest/docs/tutorials/gke-nginx)

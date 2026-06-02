@@ -26,9 +26,9 @@ Yes, using Binance P2P or OKX P2P to buy Bitcoin with Alipay, WeChat Pay, or ban
 
 Overall, it's doable for small buys but frustrating for frequent or larger ones—many users prefer traveling to Hong Kong instead for a quicker, lower-risk experience.
 
-[Sanction Scanner: Cryptocurrency Regulations in China](https://www.sanctionscanner.com/blog/cryptocurrency-regulations-in-china-1221)  
-[CNN: China's Incubating Crypto in Hong Kong](https://www.cnn.com/2025/09/02/business/china-hong-kong-crypto-regulation-intl-hnk-dst)  
-[Forbes: No, China Did Not Just Ban Bitcoin Again](https://www.forbes.com/sites/digital-assets/2025/06/04/no-china-did-not-just-ban-bitcoin-again/)  
-[CoinATM Radar: Bitcoin ATMs in Hong Kong](https://coinatmradar.com/country/96/bitcoin-atm-hong-kong/)  
-[99Bitcoins: How to Buy Bitcoin in China](https://99bitcoins.com/buy-bitcoin/china/)  
+[Sanction Scanner: Cryptocurrency Regulations in China](https://www.sanctionscanner.com/blog/cryptocurrency-regulations-in-china-1221)
+[CNN: China's Incubating Crypto in Hong Kong](https://www.cnn.com/2025/09/02/business/china-hong-kong-crypto-regulation-intl-hnk-dst)
+[Forbes: No, China Did Not Just Ban Bitcoin Again](https://www.forbes.com/sites/digital-assets/2025/06/04/no-china-did-not-just-ban-bitcoin-again/)
+[CoinATM Radar: Bitcoin ATMs in Hong Kong](https://coinatmradar.com/country/96/bitcoin-atm-hong-kong/)
+[99Bitcoins: How to Buy Bitcoin in China](https://99bitcoins.com/buy-bitcoin/china/)
 [Binance: 4 Common P2P Crypto Trading Mistakes](https://www.binance.com/en/blog/all/421499824684901588)

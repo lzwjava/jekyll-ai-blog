@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-**Me and the Temple of Earth**  
+**Me and the Temple of Earth**
 **By Shi Tiesheng**
 
 **Part One**

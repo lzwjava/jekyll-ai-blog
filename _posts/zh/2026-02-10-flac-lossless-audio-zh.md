@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to the FLAC audio format?
 
-Answer: 
+Answer:
 
 **FLAC** (Free Lossless Audio Codec) 是一种流行的 **open-source** 音频格式，专为数字音频的 **lossless compression** 而设计。
 
@@ -69,7 +69,7 @@ FLAC 压缩音频文件（通常将其减小到原始大小的 **50–70%**）�
 
 总之，FLAC 在 2026 年仍然是开放、免版税、高质量 lossless 音频存储和播放的 **de facto standard** — 它结合了出色的音质、合理的体积和极广泛的兼容性。
 
-References:  
+References:
 
 - [https://xiph.org/flac](https://xiph.org/flac)
 - [https://en.wikipedia.org/wiki/FLAC](https://en.wikipedia.org/wiki/FLAC)

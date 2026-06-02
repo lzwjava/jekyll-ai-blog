@@ -44,8 +44,8 @@ type: note
 
 阿勒坎平易近人的作风与对开源实践（如极化码仿真器）的坚持，使先进编码工具得以普及。他始终活跃于信息论学界，担任期刊编委并组织学术研讨会。其学术遗产不仅在于奠定了5G技术的理论基础，更在于激励新一代工程师探索兼具理论严谨性与实践可行性的全球互联解决方案。
 
-延伸阅读：  
-[维基百科：埃尔达尔·阿勒坎](https://en.wikipedia.org/wiki/Erdal_Ar%C4%B1kan)  
-[比尔肯特大学个人主页](https://ee.bilkent.edu.tr/~arikan/)  
-[IEEE汉明奖章获奖辞](https://www.ieee.org/about/awards/recipients/hamming-r2022.html)  
+延伸阅读：
+[维基百科：埃尔达尔·阿勒坎](https://en.wikipedia.org/wiki/Erdal_Ar%C4%B1kan)
+[比尔肯特大学个人主页](https://ee.bilkent.edu.tr/~arikan/)
+[IEEE汉明奖章获奖辞](https://www.ieee.org/about/awards/recipients/hamming-r2022.html)
 [3GPP极化码采用公告](https://www.3gpp.org/news-events/3gpp-news/1716-eutra)

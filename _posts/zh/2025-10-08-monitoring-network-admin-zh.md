@@ -93,12 +93,12 @@ type: note
 - **工具组合使用：** 将 `tcpdump` 输出管道至 `grep` 进行模式匹配，例如：`sudo tcpdump -i any tcp port 80 -A | grep "User-Agent"`
 - **Wireshark 可视化分析：** 安装 Wireshark（`sudo apt install wireshark`）后以 root 权限运行，打开 `.pcap` 文件进行分析
 - **安全加固：** 监控结束后若存在敏感日志，可使用 `sudo truncate -s 0 /var/log/access.log` 清空日志
-- **跨平台说明：** 
+- **跨平台说明：**
   - Windows（管理员权限）：使用 `netstat -anob` 查看 TCP，事件查看器查看日志
   - macOS：使用 `netstat -an` 和 `tcpdump`
 
 此方案无需外部工具即可实现全面监控，建议先在虚拟机中测试。
 
-[Linux ss 命令手册页](https://man7.org/linux/man-pages/man8/ss.8.html)  
-[Tcpdump 使用教程](https://www.tcpdump.org/manpages/tcpdump.1.html)  
+[Linux ss 命令手册页](https://man7.org/linux/man-pages/man8/ss.8.html)
+[Tcpdump 使用教程](https://www.tcpdump.org/manpages/tcpdump.1.html)
 [Apache 访问日志格式](https://httpd.apache.org/docs/2.4/logs.html)

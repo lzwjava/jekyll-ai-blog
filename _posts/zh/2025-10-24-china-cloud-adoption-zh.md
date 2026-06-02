@@ -36,8 +36,8 @@ type: note
 
 若此数据源自特定来源（如近期文章或演讲），欢迎提供更多细节以便深入探究！
 
-**参考文献**  
-[中国公有云：巨大挑战与潜力（麦肯锡，2018）](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/public-cloud-in-china-big-challenges-big-upside)  
-[2025年云采用统计数据（SQ Magazine）](https://sqmagazine.co.uk/cloud-adoption-statistics/)  
-[90+项云计算统计数据（CloudZero，2025）](https://www.cloudzero.com/blog/cloud-computing-statistics/)  
+**参考文献**
+[中国公有云：巨大挑战与潜力（麦肯锡，2018）](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/public-cloud-in-china-big-challenges-big-upside)
+[2025年云采用统计数据（SQ Magazine）](https://sqmagazine.co.uk/cloud-adoption-statistics/)
+[90+项云计算统计数据（CloudZero，2025）](https://www.cloudzero.com/blog/cloud-computing-statistics/)
 [中国云服务为何滞后（ChinaTalk，2025）](https://www.chinatalk.media/p/the-political-economy-of-chinas-cloud)

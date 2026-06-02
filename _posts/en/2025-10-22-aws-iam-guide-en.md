@@ -52,7 +52,7 @@ Users inherit all group permissions. A user can belong to multiple groups.
 ### 3. Create and Attach Policies
 Policies define what actions are allowed.
 
-- **Types**: 
+- **Types**:
   - AWS-managed: Pre-built for common jobs (e.g., "ReadOnlyAccess").
   - Customer-managed: Custom JSON for your needs.
   - Inline: Embedded directly in a user/group/role (use sparingly).

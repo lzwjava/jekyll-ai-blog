@@ -102,25 +102,25 @@ The term comes from the prefix "inter-" (meaning "between" or "among") and "disc
 
 The word **"itinerary"** refers to a planned route or schedule of a journey, trip, or travel plan. It usually includes details like destinations, transportation, accommodations, and activities.
 
-### **Pronunciation:**  
-**/aɪˈtɪn.ə.rer.i/** (eye-TIN-uh-rer-ee) – American English  
-**/ɪˈtɪn.ər.əri/** (ih-TIN-uh-rer-ee) – British English  
+### **Pronunciation:**
+**/aɪˈtɪn.ə.rer.i/** (eye-TIN-uh-rer-ee) – American English
+**/ɪˈtɪn.ər.əri/** (ih-TIN-uh-rer-ee) – British English
 
 Would you like an example of an itinerary? 😊
 
 ---
 
-"Authoritative" means having recognized or official power, expertise, or credibility in a particular area. It can describe a person, a source of information, or a statement that is reliable and commands respect.  
+"Authoritative" means having recognized or official power, expertise, or credibility in a particular area. It can describe a person, a source of information, or a statement that is reliable and commands respect.
 
-### Different Contexts:  
-1. **People** – An authoritative leader is confident, knowledgeable, and commands obedience or respect.  
-   *Example:* "The professor is an authoritative figure in the field of neuroscience."  
+### Different Contexts:
+1. **People** – An authoritative leader is confident, knowledgeable, and commands obedience or respect.
+   *Example:* "The professor is an authoritative figure in the field of neuroscience."
 
-2. **Information** – An authoritative source is trustworthy, well-researched, and widely accepted.  
-   *Example:* "The Oxford English Dictionary is an authoritative reference for English words."  
+2. **Information** – An authoritative source is trustworthy, well-researched, and widely accepted.
+   *Example:* "The Oxford English Dictionary is an authoritative reference for English words."
 
-3. **Tone or Manner** – An authoritative voice or statement is firm, confident, and leaves little room for doubt.  
-   *Example:* "Her authoritative tone made it clear that the discussion was over."  
+3. **Tone or Manner** – An authoritative voice or statement is firm, confident, and leaves little room for doubt.
+   *Example:* "Her authoritative tone made it clear that the discussion was over."
 
 Would you like a specific example or further clarification?
 
@@ -128,9 +128,9 @@ Would you like a specific example or further clarification?
 
 "Miniaturize" means to make something smaller in size or scale, often while retaining its functionality or proportions. It’s commonly used in contexts like technology, design, or manufacturing to describe reducing the size of devices, models, or components.
 
-"Miniaturize" is pronounced as **/ˈmɪn.i.ə.tʃəˌraɪz/** in American English. 
+"Miniaturize" is pronounced as **/ˈmɪn.i.ə.tʃəˌraɪz/** in American English.
 
-- Breakdown: 
+- Breakdown:
   - **MIN** (like "min" in "minute")
   - **ee** (short "e" sound)
   - **uh** (schwa sound, like the "a" in "about")

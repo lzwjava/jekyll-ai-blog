@@ -59,10 +59,10 @@ type: note
 
 这些方法可以帮助您清晰了解IP是否被GFW屏蔽，以及服务器在全球的性能表现。
 
-参考资料：  
-- https://www.chinafirewalltest.com/  
-- https://www.websitepulse.com/tools/china-firewall-test  
-- https://en.greatfire.org/analyzer  
-- https://tools.keycdn.com/ping  
-- https://globalping.io/  
+参考资料：
+- https://www.chinafirewalltest.com/
+- https://www.websitepulse.com/tools/china-firewall-test
+- https://en.greatfire.org/analyzer
+- https://tools.keycdn.com/ping
+- https://globalping.io/
 - https://www.iozoom.com/client/knowledgebase/127/China-Great-Firewall-GFW-block.html

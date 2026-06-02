@@ -46,16 +46,16 @@ GFW 会在更换后最终继续封锁您的 IP 地址。更换 IP 不是推荐�
 
 ## ✅ 长期缓解措施
 
-**1. 启用端口跳跃（Hysteria2 内置功能）**  
+**1. 启用端口跳跃（Hysteria2 内置功能）**
 Hysteria2 有一个名为“port hopping”的功能，可帮助避免 UDP 限速和封锁。配置它定期轮换端口，使流量模式更难被 GFW 指纹识别。
 
-**2. 如果可用，使用 IPv6**  
+**2. 如果可用，使用 IPv6**
 IPv6 当前限制较少——“IPv6 上的墙更低”。您可以在 IPv6 上使用 Hysteria2 而无需端口跳跃，即使下载大文件也不会限速，不过取决于所用网络。
 
-**3. 设置合理的带宽限制**  
+**3. 设置合理的带宽限制**
 使用 Hysteria2 时，确保设置合理的带宽限制——某些提供商将大量 UDP 流量视为攻击。高持续 UDP 流量是 GFW 标记 IP 的主要触发因素之一。
 
-**4. 考虑替代协议**  
+**4. 考虑替代协议**
 除了 Hysteria2，您可以尝试 Xray 搭配 VLESS+REALITY+XTLS-RPRX-VISION，这是一个强大的组合。支持此功能的客户端应用包括 V2rayNG（Android）、V2rayN（Windows）和 Shadowrocket（iOS）。
 
 ---

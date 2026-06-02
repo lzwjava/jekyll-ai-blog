@@ -53,9 +53,9 @@ This matches exactly what the Claude Code team calls verification-first workflow
 This prompt works for almost any long-running ML job:
 
 ```
-"Try running [command], kill it after [short time], 
-check for errors/warnings/bad params, 
-adjust anything that looks wrong, 
+"Try running [command], kill it after [short time],
+check for errors/warnings/bad params,
+adjust anything that looks wrong,
 then give me the final production command to run for real."
 ```
 
@@ -85,11 +85,11 @@ When Claude Code runs and kills your training job, it's checking:
 ### Your Prompt Improved (Even Sharper Version)
 
 ```
-Run a 1-minute smoke test of the training command. 
-Watch stdout for OOM errors, NaN loss, CUDA errors, or 
-abnormally slow step times. Kill it after 1 min. 
-Fix any param issues you find. 
-At the end, give me one clean final command I can paste 
+Run a 1-minute smoke test of the training command.
+Watch stdout for OOM errors, NaN loss, CUDA errors, or
+abnormally slow step times. Kill it after 1 min.
+Fix any param issues you find.
+At the end, give me one clean final command I can paste
 into a tmux session to run overnight.
 ```
 

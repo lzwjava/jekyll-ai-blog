@@ -53,8 +53,8 @@ const db = low(adapter);
 
 如果您的数据具有模式定义，可分享以便定制转储脚本。
 
-[版本控制、Git、NoSQL 与 MongoDB](https://medium.com/@chathranavoda/version-controlling-git-nosql-and-mongodb-28ae3d8775b6)  
-[redis-dump：Redis 与 JSON 互转工具](https://github.com/delano/redis-dump)  
-[如何将数据库纳入 Git 版本控制](https://stackoverflow.com/questions/846659/how-can-i-put-a-database-under-git-version-control)  
-[Python 中 SQLite 的 NoSQL 替代方案](https://stackoverflow.com/questions/58673748/nosql-alternative-of-sqlite-in-python)  
+[版本控制、Git、NoSQL 与 MongoDB](https://medium.com/@chathranavoda/version-controlling-git-nosql-and-mongodb-28ae3d8775b6)
+[redis-dump：Redis 与 JSON 互转工具](https://github.com/delano/redis-dump)
+[如何将数据库纳入 Git 版本控制](https://stackoverflow.com/questions/846659/how-can-i-put-a-database-under-git-version-control)
+[Python 中 SQLite 的 NoSQL 替代方案](https://stackoverflow.com/questions/58673748/nosql-alternative-of-sqlite-in-python)
 [持久化、Git 友好的本地数据库](https://clojureverse.org/t/persistent-git-friendly-local-database-any-suggestions/3919)

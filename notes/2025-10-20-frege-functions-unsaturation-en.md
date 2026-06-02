@@ -17,7 +17,7 @@ Gottlob Frege's short essay, originally titled *Was ist eine Funktion?* and publ
 #### Key Arguments and Structure
 Frege starts by acknowledging the intuitive success of function notation in math (e.g., sin x, log x, or x²) but argues that sloppy usage hides deeper logical problems. He builds on his earlier ideas from "Function and Concept" (1891), where he first treated functions as building blocks of logic, not just arithmetic tools. The essay has three main threads:
 
-1. **The Unsaturated Nature of Functions**: 
+1. **The Unsaturated Nature of Functions**:
    - Frege insists that a function isn't a complete "thing" like a number or object—it's *unsaturated* (or "incomplete"). Think of it as a gap waiting to be filled: the expression ξ² + 3ξ (using ξ as a placeholder) denotes the function itself, but it can't stand alone as a meaningful entity. Only when you insert an argument (e.g., replace ξ with 2) does it "saturate" and yield a value (like 2² + 3·2 = 10).
    - This contrasts with everyday math teaching, where y = x² + 3x is presented as "the function" equated to y (a complete value). Frege says this blurs lines: the left side (y) is saturated (an object), but the right side is unsaturated until x is specified. The notation tricks us into treating the function like a static formula, ignoring its dynamic, logical role.
 
@@ -43,8 +43,8 @@ This resolves your students' confusion: The "function" isn't the whole y = x² +
 
 If you'd like, I can suggest ways to explain this in a beginner class or dive into related Frege essays.
 
-**References**  
-- [Russell and Frege on the Logic of Functions (PDF summary/discussion)](https://newprairiepress.org/cgi/viewcontent.cgi?article=1023&context=biyclc)  
-- [The Philosophy of Gottlob Frege (excerpt on functions)](https://assets.cambridge.org/052183/6697/excerpt/0521836697_excerpt.htm)  
-- [Stanford Encyclopedia of Philosophy: Gottlob Frege](https://plato.stanford.edu/entries/frege/)  
+**References**
+- [Russell and Frege on the Logic of Functions (PDF summary/discussion)](https://newprairiepress.org/cgi/viewcontent.cgi?article=1023&context=biyclc)
+- [The Philosophy of Gottlob Frege (excerpt on functions)](https://assets.cambridge.org/052183/6697/excerpt/0521836697_excerpt.htm)
+- [Stanford Encyclopedia of Philosophy: Gottlob Frege](https://plato.stanford.edu/entries/frege/)
 - [Collected Papers on Mathematics, Logic, and Philosophy (contains English translation)](https://www.oxfordbibliographies.com/display/document/obo-9780195396577/obo-9780195396577-0065.xml)

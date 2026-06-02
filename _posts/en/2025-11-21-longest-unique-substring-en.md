@@ -14,7 +14,7 @@ type: note
 
 **Solution**: Sliding Window + HashMap (or array since lowercase letters)
 
-We use two pointers (`left` and `right`) to maintain a window `[left, right]`.  
+We use two pointers (`left` and `right`) to maintain a window `[left, right]`.
 As we move `right`, we check if `s[right]` already appeared in the current window:
 - If yes, move `left` forward until the duplicate is removed.
 - Track the position where each character was last seen to jump `left` directly.
@@ -25,25 +25,25 @@ This runs in **O(n)** time and **O(1)** space (at most 26 or 128 characters).
 def lengthOfLongestSubstring(s: str) -> int:
     if not s:
         return 0
-    
+
     # char -> last seen index
     last_seen = {}
     max_len = 0
     left = 0
-    
+
     for right in range(len(s)):
         ch = s[right]
-        
+
         # If character is already in current window, shrink from left
         if ch in last_seen and last_seen[ch] >= left:
             left = last_seen[ch] + 1
         else:
             # Update max length when window is valid
             max_len = max(max_len, right - left + 1)
-        
+
         # Record the latest position of this character
         last_seen[ch] = right
-    
+
     return max_len
 ```
 

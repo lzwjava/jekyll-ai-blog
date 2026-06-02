@@ -29,23 +29,23 @@ public class RowCountExample {
         String url = "jdbc:mysql://localhost:3306/your_database";
         String username = "your_username";
         String password = "your_password";
-        
+
         Connection conn = null;
         Statement stmt = null;
         ResultSet rs = null;
-        
+
         try {
             conn = DriverManager.getConnection(url, username, password);
             stmt = conn.createStatement(
-                    ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.TYPE_SCROLL_INSENSITIVE,
                     ResultSet.CONCUR_READ_ONLY);
             rs = stmt.executeQuery("SELECT * FROM your_table");
-            
+
             // Move to the last row to count the total number of rows
             if (rs.last()) {
                 int rowCount = rs.getRow();
                 System.out.println("Total rows: " + rowCount);
-                
+
                 // Optionally, move back to the first row
                 rs.first();
             }

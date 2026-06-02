@@ -11,25 +11,25 @@ type: note
 
 **Question:** Which models are good at being used in OpenClaw?
 
-**Answer:** 
+**Answer:**
 
 OpenClaw is an open-source, local-first personal AI agent framework (not an LLM itself) that connects to external large language models via APIs or local servers. It excels with models that have strong tool-calling reliability, low hallucination on instructions, good long-context handling, and recovery from errors — since it runs persistent, multi-step agent loops (browser, file ops, shell, emails, etc.).
 
 As of March 2026, here are the most recommended and highly regarded models for OpenClaw, based on community usage, docs, Reddit/Discord feedback, and practical tier lists:
 
 ### Top Tier (S/A — most reliable for serious agent work)
-- **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)  
-  Still widely considered the gold standard for OpenClaw. Extremely consistent JSON/tool calling, excellent at multi-step reasoning, recovers well from partial failures, and handles long contexts without losing track.  
-  - Best default for most users (daily tasks, coding, research).  
+- **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)
+  Still widely considered the gold standard for OpenClaw. Extremely consistent JSON/tool calling, excellent at multi-step reasoning, recovers well from partial failures, and handles long contexts without losing track.
+  - Best default for most users (daily tasks, coding, research).
   - Start with Sonnet for cost/reason balance; use Opus for complex production code or deep tasks.
 
-- **Moonshot Kimi series** (Kimi K2.5, Kimi K2 Thinking)  
+- **Moonshot Kimi series** (Kimi K2.5, Kimi K2 Thinking)
   Very popular (especially in China), strong reasoning, multimodal, sub-agent support, and cost-effective. Frequently tops community votes for agentic workflows.
 
-- **MiniMax models** (M2.5, MiMo-V2-Flash)  
+- **MiniMax models** (M2.5, MiMo-V2-Flash)
   Fast, efficient for coding/productivity, great local/offline performance (via LM Studio), low cost. Often used for heartbeats/background tasks or full local stacks.
 
-- **DeepSeek family** (DeepSeek V3.2, DeepSeek R1, DeepSeek-Coder)  
+- **DeepSeek family** (DeepSeek V3.2, DeepSeek R1, DeepSeek-Coder)
   Excellent price/performance, strong coding/math, reliable tool use in agent loops. Frequently recommended for budget-conscious or high-volume use.
 
 ### Strong Local / Self-Hosted Options (via Ollama, LM Studio, llama.cpp)
@@ -51,7 +51,7 @@ These run fully private/no API cost (need decent hardware, e.g., 32GB+ RAM Mac/P
 
 OpenClaw supports model routing/failover natively — many users set a strong primary (e.g. Claude) + cheap fallback (e.g. MiniMax or DeepSeek) to optimize cost and uptime. Check OpenClaw docs for exact provider/model strings and auth setup.
 
-**References:**  
+**References:**
 
 - [OpenClaw official docs - Models](https://docs.openclaw.ai/concepts/models)
 - [OpenClaw GitHub repository](https://github.com/openclaw/openclaw)

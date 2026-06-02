@@ -12,7 +12,7 @@ type: note
 
 Question: 请解释 Windows 中的 AD groups，以及如何使用它们在企业环境中控制员工访问权限？
 
-Answer: 
+Answer:
 
 Windows 中的 **Active Directory (AD) groups** 是 Active Directory 中的对象，用于组织用户账户（user accounts）、计算机账户（computer accounts）和其他组。它们简化了企业环境中的 **access control**（访问控制）和权限管理。
 
@@ -39,10 +39,10 @@ Windows 中的 **Active Directory (AD) groups** 是 Active Directory 中的对�
 
 Microsoft 强烈建议使用 **group nesting**（组嵌套）来实现 **role-based access control (RBAC)**。两种标准模式是：
 
-1. **AGDLP** — 用于 **single-domain** 环境（最常用）  
+1. **AGDLP** — 用于 **single-domain** 环境（最常用）
    **A**ccounts → **G**lobal groups → **D**omain **L**ocal groups → **P**ermissions
 
-2. **AGUDLP** — 用于 **multi-domain** 森林 (forests)  
+2. **AGUDLP** — 用于 **multi-domain** 森林 (forests)
    **A**ccounts → **G**lobal groups → **U**niversal groups → **D**omain **L**ocal groups → **P**ermissions
 
 #### 实际案例（单域 – AGDLP）
@@ -90,7 +90,7 @@ Microsoft 强烈建议使用 **group nesting**（组嵌套）来实现 **role-ba
 
 使用这种结构化方法（特别是 AGDLP/AGUDLP）可以显著减少管理工作量，提高安全性，简化审计，并且即使在拥有数万名用户的超大型企业中也能保持良好的扩展性。
 
-References:  
+References:
 
 - [Active Directory Security Groups | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups)
 - [5 Best practices for AD security groups - ManageEngine](https://www.manageengine.com/products/active-directory-audit/kb/best-practices/active-directory-security-groups-best-practices.html)

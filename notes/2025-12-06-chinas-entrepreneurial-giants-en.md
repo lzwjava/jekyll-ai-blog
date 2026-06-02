@@ -12,7 +12,7 @@ type: note
 
 Question: Who are low-profile yet highly successful entrepreneurs in China?
 
-Answer: 
+Answer:
 
 China's entrepreneurial landscape is dominated by high-profile figures like Jack Ma and Pony Ma, but several low-key individuals have built massive empires through quiet determination, strategic focus, and avoidance of the media spotlight. These "hidden champions" often prioritize innovation, long-term execution, and industry dominance over personal fame. Below is a curated list of five notable examples, based on their business achievements, net worth estimates (as of late 2025), and reputation for maintaining a low public profile. I've focused on those who rarely grant interviews or seek celebrity status, drawing from reliable reports on their careers.
 
@@ -48,8 +48,8 @@ China's entrepreneurial landscape is dominated by high-profile figures like Jack
 
 These entrepreneurs exemplify China's shift from state-led to private innovation, often succeeding by betting on underserved markets and enduring failures quietly. Their stories highlight resilience amid regulatory pressures, with many drawing from engineering backgrounds rather than flashy marketing.
 
-References:  
-- [Famous Chinese Entrepreneurs](https://www.thefamouspeople.com/chinese-business-people.php)  
-- [So who are China’s five most admired entrepreneurs?](https://www.scmp.com/news/china/money-wealth/article/1839034/so-who-are-chinas-five-most-admired-entrepreneurs)  
-- [Top 10 Chinese Entrepreneurs](https://www.linkedin.com/pulse/top-10-chinese-entrepreneurs-olivia-tin)  
+References:
+- [Famous Chinese Entrepreneurs](https://www.thefamouspeople.com/chinese-business-people.php)
+- [So who are China’s five most admired entrepreneurs?](https://www.scmp.com/news/china/money-wealth/article/1839034/so-who-are-chinas-five-most-admired-entrepreneurs)
+- [Top 10 Chinese Entrepreneurs](https://www.linkedin.com/pulse/top-10-chinese-entrepreneurs-olivia-tin)
 - [沈南鹏：创业者背后的创业者](http://www.ccg.org.cn/archives/28242)

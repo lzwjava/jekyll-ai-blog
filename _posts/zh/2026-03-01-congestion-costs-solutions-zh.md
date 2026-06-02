@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**整理字幕：3.6 Principles of Congestion Control (continued)**  
+**整理字幕：3.6 Principles of Congestion Control (continued)**
 *(Jim Kurose 讲课，摘自 Computer Networking: A Top-Down Approach)*
 
 ……即使收到了两个副本。所以这里就是不必要的重传情况——有时称为“spurious retransmissions”或“premature timeouts”。
@@ -26,20 +26,20 @@ type: note
 
 所以我们现在已经看到了拥塞的几个成本：
 
-1. 大型排队延迟（即使有无限缓冲区）  
-2. 需要重传的数据包丢失（有限缓冲区）  
-3. 由于 premature timeouts 导致的重复数据包浪费带宽  
+1. 大型排队延迟（即使有无限缓冲区）
+2. 需要重传的数据包丢失（有限缓冲区）
+3. 由于 premature timeouts 导致的重复数据包浪费带宽
 4. Goodput 崩溃——在极端情况下，网络吞吐量接近零，而 offered load 很高
 
 这些观察结果引出了拥塞控制的两种广泛方法：
 
-**End-to-end congestion control**  
+**End-to-end congestion control**
 网络不向发送方提供关于拥塞的明确反馈。发送方必须从自己的观察中推断拥塞——通常是 packet loss 和/或延迟增加。TCP 采用这种方法。
 
-**Network-assisted congestion control**  
-网络向发送方提供关于拥塞的明确反馈。这种反馈有两种形式：  
-- 来自拥塞路由器向发送方的直接通知（“backwards” explicit congestion notification）  
-- 路由器在向前发送到接收方的数据包中标记或设置一个位，然后接收方将此信息反馈给发送方（“forward” explicit congestion notification）  
+**Network-assisted congestion control**
+网络向发送方提供关于拥塞的明确反馈。这种反馈有两种形式：
+- 来自拥塞路由器向发送方的直接通知（“backwards” explicit congestion notification）
+- 路由器在向前发送到接收方的数据包中标记或设置一个位，然后接收方将此信息反馈给发送方（“forward” explicit congestion notification）
 
 Network-assisted 方法的例子包括 DECbit（20 世纪 80 年代早期）、IP 中的 Explicit Congestion Notification (ECN)，以及各种 ATM ABR 方案。
 
@@ -51,6 +51,6 @@ Network-assisted 方法的例子包括 DECbit（20 世纪 80 年代早期）、I
 
 *(3.6 节结束)*
 
-References:  
+References:
 
 - [Original Video: 3.6 Principles of Congestion Control](https://www.youtube.com/watch?v=Fm92xvIp6JY)

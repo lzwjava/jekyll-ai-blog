@@ -32,8 +32,8 @@ type: note
 
 黄仁宇尚有大量论文及演讲收录于《黄仁宇对话录》（2001，遗作）等文集。其学术影响启迪新生代史学家以制度视角而非王朝循环论解读中国。
 
-延伸阅读：  
-[《万历十五年》好书评介](https://www.goodreads.com/book/show/335093.1587_A_Year_of_No_Significance)  
-[《中国大历史》耶鲁出版社页面](https://yalebooks.yale.edu/book/9780300077485/china/)  
-[黄仁宇维基百科词条](https://en.wikipedia.org/wiki/Ray_Huang)  
+延伸阅读：
+[《万历十五年》好书评介](https://www.goodreads.com/book/show/335093.1587_A_Year_of_No_Significance)
+[《中国大历史》耶鲁出版社页面](https://yalebooks.yale.edu/book/9780300077485/china/)
+[黄仁宇维基百科词条](https://en.wikipedia.org/wiki/Ray_Huang)
 [《纽约时报》讣告](https://www.nytimes.com/2000/01/15/nyregion/ray-huang-81-dies-author-and-historian-of-china.html)

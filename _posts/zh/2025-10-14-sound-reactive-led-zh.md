@@ -44,5 +44,5 @@ type: note
 
 完整电路图及步骤请参考：
 
-[简易声音感应LED电路](https://www.circuits-diy.com/simple-sound-reactive-leds-circuit/)  
+[简易声音感应LED电路](https://www.circuits-diy.com/simple-sound-reactive-leds-circuit/)
 [制作音频感应LED电路（更简化的单LED版本）](https://www.instructables.com/Creating-An-Audio-Reactive-LED-Circuit/)

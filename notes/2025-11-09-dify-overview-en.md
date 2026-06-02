@@ -52,15 +52,15 @@ It's solid for indie devs and mid-market B2B, but enterprises note it's still ma
 ### Why It's Gaining Traction
 Dify shines in 2025's "agent economy" by bridging no-code accessibility with pro extensibility, all open-source. As AI moves from hype to ops (e.g., automating research or customer interactions), its focus on observable, scalable workflows positions it well. If you're building LLM apps, it's a top pick—free tier for starters, paid for teams ($59+/mo inferred from complaints, but check site).
 
-References:  
-[Dify AI Review 2025](https://www.gptbots.ai/blog/dify-ai)  
-[How Dify Hit $3.1M Revenue](https://getlatka.com/companies/dify.ai)  
-[Dify Buyer's Guide 2025](https://skywork.ai/blog/dify-review-buyers-guide-2025/)  
-[Dify Strategic Overview](https://www.baytechconsulting.com/blog/what-is-dify-ai-2025)  
-[Dify Funding Profile](https://pitchbook.com/profiles/company/539409-43)  
-[Dify G2 Reviews](https://www.g2.com/products/dify-ai/reviews)  
-[Dify v1.0.0 Release](https://dify.ai/blog)  
-[Dify Traffic Analytics](https://www.similarweb.com/website/dify.ai/)  
-[Dify Integrations Blog](https://dify.ai/blog/dify-x-qdrant-building-and-powering-the-next-gen-ai-applications)  
-[Dify Forum Launch](https://forum.dify.ai/)  
+References:
+[Dify AI Review 2025](https://www.gptbots.ai/blog/dify-ai)
+[How Dify Hit $3.1M Revenue](https://getlatka.com/companies/dify.ai)
+[Dify Buyer's Guide 2025](https://skywork.ai/blog/dify-review-buyers-guide-2025/)
+[Dify Strategic Overview](https://www.baytechconsulting.com/blog/what-is-dify-ai-2025)
+[Dify Funding Profile](https://pitchbook.com/profiles/company/539409-43)
+[Dify G2 Reviews](https://www.g2.com/products/dify-ai/reviews)
+[Dify v1.0.0 Release](https://dify.ai/blog)
+[Dify Traffic Analytics](https://www.similarweb.com/website/dify.ai/)
+[Dify Integrations Blog](https://dify.ai/blog/dify-x-qdrant-building-and-powering-the-next-gen-ai-applications)
+[Dify Forum Launch](https://forum.dify.ai/)
 [Dify X Posts](https://x.com/dify_ai)

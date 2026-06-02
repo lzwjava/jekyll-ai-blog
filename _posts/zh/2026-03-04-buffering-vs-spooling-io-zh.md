@@ -15,7 +15,7 @@ type: note
 
 在输入/输出操作的上下文中，以下是 **buffering** 和 **spooling** 的清晰比较：
 
-  
+
 | 方面                    | Buffering                                      | Spooling (Simultaneous Peripheral Operations On-Line) |
 |-------------------------|------------------------------------------------|---------------------------------------------------------|
 | **主要目的**            | 通过在内存中收集数据来减少慢速 I/O 操作的数量  | 允许程序以 CPU 速度运行，同时 I/O 独立发生（将 CPU 与慢速设备解耦） |
@@ -35,23 +35,23 @@ type: note
 
 ### 快速总结 – 一行区分
 
-- **Buffering** = 使用 **memory buffer** 来减少 **physical I/O operations** 的数量  
+- **Buffering** = 使用 **memory buffer** 来减少 **physical I/O operations** 的数量
 - **Spooling** = 使用 **disk space** 作为大 buffer 来 **完全解耦** 快速 CPU 与非常慢的 peripheral device
 
 ### 当今（2026）最常见的真实世界示例
 
-- **Buffering**  
-  - 几乎每个 `write()`/`read()` 调用  
-  - `stdout` 的 line buffering / block buffering  
-  - TCP send/receive buffers  
+- **Buffering**
+  - 几乎每个 `write()`/`read()` 调用
+  - `stdout` 的 line buffering / block buffering
+  - TCP send/receive buffers
   - Filesystem page cache
 
-- **Spooling**  
-  - 现代 network print spooling（CUPS、Windows Print Spooler、cloud printing）  
-  - HPC clusters 中的 batch job queues  
+- **Spooling**
+  - 现代 network print spooling（CUPS、Windows Print Spooler、cloud printing）
+  - HPC clusters 中的 batch job queues
   - 一些在写入 tape/library 前 queue 数据的 backup systems
 
-**参考文献：**  
+**参考文献：**
 
-- Operating Systems Concepts (Silberschatz, Galvin, Gagne) – I/O Systems 章节  
+- Operating Systems Concepts (Silberschatz, Galvin, Gagne) – I/O Systems 章节
 - Modern Operating Systems (Tanenbaum) – I/O software layers 和 spooling 部分

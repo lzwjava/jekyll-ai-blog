@@ -36,6 +36,6 @@ If the block reasons point to upstream Anthropic errors, you may need to add per
 
 This is a common post-upgrade behavior after the March 2026 account-management refactor; it is not a bug in your setup.
 
-**References:**  
-- [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)  
+**References:**
+- [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
 - [https://github.com/Wei-Shaw/claude-relay-service/releases](https://github.com/Wei-Shaw/claude-relay-service/releases)

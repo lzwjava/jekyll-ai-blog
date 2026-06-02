@@ -118,14 +118,14 @@ with open(input_file, "r", encoding="utf-8") as f:
             tok = [EOT]
         else:
             tok = enc.encode_ordinary(line)
-        
+
         if line_num < split_line:
             train_chunks.extend(tok)
             train_count += 1
         else:
             val_chunks.extend(tok)
             val_count += 1
-        
+
         # Flush every 50M tokens to avoid RAM explosion
         if len(train_chunks) > 50_000_000 and line_num < split_line:
             arr = np.array(train_chunks, dtype=np.uint16)

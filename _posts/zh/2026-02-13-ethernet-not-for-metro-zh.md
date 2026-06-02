@@ -12,12 +12,12 @@ type: note
 
 Question: 下列哪种网络技术不能用于 Metropolitan Area Network (MAN)？
 
-A. FDDI  
-B. Ethernet  
-C. DQDB  
-D. ISDN  
+A. FDDI
+B. Ethernet
+C. DQDB
+D. ISDN
 
-Answer: 
+Answer:
 
 正确答案是 **B. Ethernet**。
 
@@ -35,6 +35,6 @@ Answer:
 
 因此，正确选项是 **B. Ethernet**。
 
-References:  
+References:
 
 - 无（本题基于许多中文 IT 认证材料中标准网络教材的分类）

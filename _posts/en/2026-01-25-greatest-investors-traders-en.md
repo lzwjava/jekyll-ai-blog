@@ -12,7 +12,7 @@ type: note
 
 Question: Who are the greatest investors, hedge fund traders, stock traders, etc.?
 
-Answer: 
+Answer:
 
 There is no single "greatest" investor or trader, as it depends on criteria like long-term compound returns, risk-adjusted performance, influence on the industry, consistency over decades, or legendary single trades. Here are some of the most widely regarded names across different categories, based on historical performance, reputation, and impact.
 
@@ -49,7 +49,7 @@ These are more known for shorter-term trading, big bets, or technical approaches
 
 Many current top performers (as of 2025) include Citadel (Ken Griffin), Millennium (Izzy Englander), and others, but historical legends like Simons, Buffett, and Soros tend to dominate "all-time greatest" discussions.
 
-References:  
+References:
 
 - [Investopedia: The World's 11 Greatest Investors](https://www.investopedia.com/world-s-11-greatest-investors-4773356)
 - [Institutional Investor: Highest-Earning Hedge Fund Managers](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)

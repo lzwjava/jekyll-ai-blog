@@ -45,8 +45,8 @@ No, topping up at 7-Eleven requires **cash only**—you insert notes or coins in
 
 For tourists, the app is handy if you have a compatible phone; otherwise, 7-Eleven or MTR machines are quick and widespread.
 
-[Octopus card - Wikipedia](https://en.wikipedia.org/wiki/Octopus_card)  
-[Use of Octopus - Octopus Hong Kong](https://www.octopus.com.hk/en/consumer/tourist/usages/index.html)  
-[Other Ways To Reload - Octopus Hong Kong](https://www.octopus.com.hk/en/consumer/octopus-cards/reload/index.html)  
-[The Octopus Card: How to Use It & Where to Get One | Hong Kong Cheapo](https://hongkongcheapo.com/getting-around/octopus-card/)  
+[Octopus card - Wikipedia](https://en.wikipedia.org/wiki/Octopus_card)
+[Use of Octopus - Octopus Hong Kong](https://www.octopus.com.hk/en/consumer/tourist/usages/index.html)
+[Other Ways To Reload - Octopus Hong Kong](https://www.octopus.com.hk/en/consumer/octopus-cards/reload/index.html)
+[The Octopus Card: How to Use It & Where to Get One | Hong Kong Cheapo](https://hongkongcheapo.com/getting-around/octopus-card/)
 [Hong Kong: Octopus card top up - Tripadvisor Forum](https://www.tripadvisor.ca/ShowTopic-g294217-i1496-k14933468-Hong_Kong_Octopus_card_top_up-Hong_Kong.html)

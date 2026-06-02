@@ -34,7 +34,7 @@ type: note
 
 若在DGX Spark运行DGX OS的系统规格、日志或`lscpu`/`cat /proc/cpuinfo`输出中看到这些参数，其所指正是上述内容。
 
-参考文献：  
-- https://docs.nvidia.com/dgx/dgx-spark/hardware.html  
-- https://www.nvidia.com/en-us/products/workstations/dgx-spark/  
+参考文献：
+- https://docs.nvidia.com/dgx/dgx-spark/hardware.html
+- https://www.nvidia.com/en-us/products/workstations/dgx-spark/
 - https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai

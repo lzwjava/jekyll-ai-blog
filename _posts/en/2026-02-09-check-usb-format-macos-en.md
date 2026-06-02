@@ -12,7 +12,7 @@ type: note
 
 Question: In macOS, how to know what format a USB disk is (FAT32 or others)?
 
-Answer: 
+Answer:
 
 Here are the easiest ways to check the file system format (such as FAT32, exFAT, APFS, Mac OS Extended, NTFS, etc.) of a USB drive on macOS:
 
@@ -61,7 +61,7 @@ This method works on any recent macOS version and is the fastest for most users.
 
 These methods work on macOS Ventura, Sonoma, Sequoia, and earlier versions.
 
-References:  
+References:
 
 - [How to Determine File System of a Drive on Mac - OS X Daily](https://osxdaily.com/2023/01/30/how-to-determine-file-system-of-a-drive-on-mac)
 - [Server Fault - How do I identify the file system of a drive in Mac OS?](https://serverfault.com/questions/276091/how-do-i-identify-the-file-system-of-a-drive-in-mac-os)

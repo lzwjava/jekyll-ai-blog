@@ -49,8 +49,8 @@ IntelliJ IDEA offers robust shortcuts for selecting functions/methods:
 
 IntelliJ has the most precise built-in shortcut for selecting methods (`Ctrl+W`), while Cursor’s AI integration is the most seamless for editing selected code. VS Code is flexible but may require extensions for faster function selection.
 
-References:  
-[Code Navigation in Visual Studio Code](https://code.visualstudio.com/docs/editor/editingevolved)  
-[Cursor AI: A Guide With 10 Practical Examples](https://www.datacamp.com/tutorial/cursor-ai-code-editor)  
-[Code Editing in IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-source-code.html)  
+References:
+[Code Navigation in Visual Studio Code](https://code.visualstudio.com/docs/editor/editingevolved)
+[Cursor AI: A Guide With 10 Practical Examples](https://www.datacamp.com/tutorial/cursor-ai-code-editor)
+[Code Editing in IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-source-code.html)
 [Use AI in editor | IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/use-ai-in-editor.html)

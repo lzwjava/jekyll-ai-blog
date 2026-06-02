@@ -11,7 +11,7 @@ type: note
 
 Question: Is collecting 10 or 20 different credit cards a waste of time, or can it provide a lot of enjoyable perks?
 
-Answer: 
+Answer:
 
 Collecting 10 or 20 different credit cards is a popular hobby for some people, often called the "points and miles hobby" or credit card churning/optimization. Whether it's a waste of time or highly rewarding depends on your financial discipline, spending habits, goals (like travel), and how much time you're willing to invest.
 
@@ -33,7 +33,7 @@ Collecting 10 or 20 different credit cards is a popular hobby for some people, o
 
 If your goal is purely financial optimization without much effort, stick to a simple setup (e.g., one cash-back card + one travel card). If you love the strategy and can handle the complexity responsibly, the hobby can be rewarding and fun.
 
-References:  
+References:
 
 - [https://thepointsguy.com/credit-cards/how-many-credit-cards-should-you-have](https://thepointsguy.com/credit-cards/how-many-credit-cards-should-you-have)
 - [https://onemileatatime.com/insights/credit-card-fatigue](https://onemileatatime.com/insights/credit-card-fatigue)

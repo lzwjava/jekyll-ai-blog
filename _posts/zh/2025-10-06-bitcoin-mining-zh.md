@@ -77,7 +77,7 @@ PoW使得验证区块成本低廉而创建区块代价高昂，有效防范51%�
 
 若您特指某些具体场景（如挖矿硬件），请告知！
 
-**参考资料**：  
-[比特币白皮书](https://bitcoin.org/bitcoin.pdf)  
-[比特币维基：工作量证明](https://en.bitcoin.it/wiki/Proof_of_work)  
+**参考资料**：
+[比特币白皮书](https://bitcoin.org/bitcoin.pdf)
+[比特币维基：工作量证明](https://en.bitcoin.it/wiki/Proof_of_work)
 [Blockchain.com：比特币减半机制](https://www.blockchain.com/learning-crypto/bitcoin-halving)

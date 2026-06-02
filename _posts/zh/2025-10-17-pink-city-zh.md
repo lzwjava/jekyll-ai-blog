@@ -24,7 +24,7 @@ type: note
 
 这座城市充盈着排灯节、妇女节等节庆气息，传统民间音乐与缤纷街头美食交织出鲜活画卷。无论白昼探访城堡遗迹，还是夜晚品味烤肉盛宴，斋浦尔都能带您沉浸式体验印度辉煌历史与斑斓现实。
 
-[斋浦尔 | 拉贾斯坦邦、土邦、历史、地图、人口与事实](https://www.britannica.com/place/Jaipur-India)  
-[斋浦尔被誉为「粉红之城」的由来](https://www.insightvacations.com/blog/story-jaipur-pink-city/)  
-[斋浦尔旅游景点与行程指南 - 拉贾斯坦邦旅游局](https://www.tourism.rajasthan.gov.in/jaipur.html)  
+[斋浦尔 | 拉贾斯坦邦、土邦、历史、地图、人口与事实](https://www.britannica.com/place/Jaipur-India)
+[斋浦尔被誉为「粉红之城」的由来](https://www.insightvacations.com/blog/story-jaipur-pink-city/)
+[斋浦尔旅游景点与行程指南 - 拉贾斯坦邦旅游局](https://www.tourism.rajasthan.gov.in/jaipur.html)
 [斋浦尔 | 印度旅行指南 - 简明指南](https://www.roughguides.com/india/rajasthan/jaipur-around/)

@@ -377,7 +377,7 @@ public class test {
 }
 ```
 
-**Answers**: 
+**Answers**:
 - Class name should be `Test` (capital T) and match filename
 - `Public` → `public`, `Static` → `static`, `Void` → `void`
 - `string` → `String`

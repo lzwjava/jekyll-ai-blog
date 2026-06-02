@@ -76,6 +76,6 @@ type: note
 
 如果你想要更多关于特定部位的详细信息（如图表或功能），或其他语言的名称，请告诉我！
 
-**参考资料**  
-[人体基础 - 大英百科全书](https://www.britannica.com/science/human-body)  
+**参考资料**
+[人体基础 - 大英百科全书](https://www.britannica.com/science/human-body)
 [人体解剖学 - 可汗学院](https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology)

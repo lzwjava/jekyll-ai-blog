@@ -11,7 +11,7 @@ type: note
 
 Question: Is pickled yard-long beans good for health?
 
-Answer: 
+Answer:
 
 **Pickled yard-long beans** (also known as pickled asparagus beans, Chinese long beans, or snake beans) can be good for health in moderation, as they retain many of the nutritional benefits of fresh yard-long beans while adding potential advantages from the pickling process. However, the overall health impact depends on the preparation method (especially salt/vinegar content) and portion size.
 
@@ -31,7 +31,7 @@ Answer:
 
 In summary, pickled yard-long beans are generally **healthy** as part of a balanced diet — especially homemade low-sodium or fermented versions — offering fiber, vitamins, minerals, and possible gut benefits. They are not a "superfood," but they are a nutritious, tasty way to eat more vegetables. People watching sodium should choose low-salt versions or eat them in small amounts.
 
-References:  
+References:
 
 - [Yardlong beans nutrition and health benefits](https://foodstruct.com/food/yardlongbean-raw)
 - [Long beans benefits](https://www.vegaproduce.com/long-beans-benefits)

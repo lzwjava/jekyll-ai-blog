@@ -78,7 +78,7 @@ type: note
    # 授予 nginx 组访问你的下载文件夹的权限
    sudo chgrp -R www-data /home/lzw/qDownloads
    sudo chmod -R g+rx /home/lzw/qDownloads
-   
+
    # 允许 nginx 进入你的 home 目录
    sudo chmod g+x /home/lzw
    ```

@@ -20,6 +20,6 @@ pp/models ln -s /mnt/volume_atl1_1780280110689/llama-models /root/llama.cpp/mode
 pp/models echo '===' # Now move containerd data (59G) echo '=== Stopping containerd ===' systemctl stop
  containerd sleep 2 echo '=== Moving containerd data ===' rsync -a --progress /var/lib/containerd/ /mnt
 /volume_atl1_1780280110689/containerd-data/ " 2>&1  (06m13s)
- 
- ⚕ mimo-v2.5-pro │ 96.9K/1M │ [█░░░░░░░░░] 9% │ 35m │ ⏱ 9m 13s 
+
+ ⚕ mimo-v2.5-pro │ 96.9K/1M │ [█░░░░░░░░░] 9% │ 35m │ ⏱ 9m 13s
 ───────────────────────────────────────────────────────────────────

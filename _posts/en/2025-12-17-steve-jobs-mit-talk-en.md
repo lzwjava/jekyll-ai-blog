@@ -12,7 +12,7 @@ type: note
 
 Question: What does Steve Jobs say in this talk? (https://www.youtube.com/watch?v=Gk-9Fd2mEnI&t=310s)
 
-Answer: 
+Answer:
 
 This video is a recording of Steve Jobs speaking at the MIT Sloan School of Management Distinguished Speaker Series in the spring of 1992. At the time, he was President and CEO of NeXT Computer Corporation (after leaving Apple) and is also introduced in connection with Apple.
 
@@ -38,6 +38,6 @@ The talk is informal, consisting of Jobs' opening remarks followed by an extende
 
 The talk (around 1 hour 15 minutes long) is conversational, with Jobs answering student questions candidly about business challenges, technology trends, and his experiences.
 
-References:  
+References:
 
 - https://www.youtube.com/watch?v=Gk-9Fd2mEnI

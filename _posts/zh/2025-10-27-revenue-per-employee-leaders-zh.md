@@ -41,9 +41,9 @@ type: note
 - **初创公司/AI领域**：低人员配置与病毒式产品推高人均收入。OpenAI数据基于3000名员工和130亿美元年化营收（2025年7月预测），随业务增长可能进一步提升。
 - 数据缺口：xAI等私营企业仅能获取估算值。招聘激增（如AI公司增员数千人）可能导致人均收入波动。
 
-[图表解析：全球最大公司的人均收入](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)  
-[科技巨头人均创收能力深度分析](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)  
-[OpenAI营收、估值与增长率追踪](https://sacra.com/c/openai/)  
-[xAI：营收、竞争者与替代方案](https://growjo.com/company/xAI)  
-[Aylo：营收、竞争者与替代方案](https://growjo.com/company/Aylo)  
+[图表解析：全球最大公司的人均收入](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)
+[科技巨头人均创收能力深度分析](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)
+[OpenAI营收、估值与增长率追踪](https://sacra.com/c/openai/)
+[xAI：营收、竞争者与替代方案](https://growjo.com/company/xAI)
+[Aylo：营收、竞争者与替代方案](https://growjo.com/company/Aylo)
 [OnlyFans以人均3760万美元创效称冠](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)

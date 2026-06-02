@@ -38,37 +38,37 @@ ISBN: 978-7-302-57284-8
 - **编辑器**：Visual Studio Code安装与使用；安装常用插件（简体中文、JS-CSS-HTML Formatter等）；创建、编辑、保存、预览Web文件；常用快捷键使用。
 
 ### 2. HTML5网页设计
-1. **HTML基础**  
+1. **HTML基础**
    文件命名规则、基本结构（`<html>`, `<head>`, `<body>`, `<title>`), HTML5新特性（DOCTYPE、meta charset、语义化标签）、编写规范、缩进、注释。
-2. **基本HTML元素**  
+2. **基本HTML元素**
    `meta`, `p`, `br`, `h1~h6`, `font`, `pre`, `hr`等及其属性。
-3. **超链接与锚链接**  
+3. **超链接与锚链接**
    绝对/相对/根路径，`href`与`target`属性，页内与页间锚链接。
-4. **图像**  
+4. **图像**
    插入图像（`img`），常用格式（BMP, GIF, JPEG, PNG），属性（`src`, `width`, `height`, `alt`, `border`, `align`），图像地图（`map`, `area`）。
-5. **表格**  
+5. **表格**
    创建规则与不规则表格，属性（`width`, `height`, `border`, `colspan`, `rowspan`），标签（`table`, `tr`, `td`, `th`, `caption`）。
-6. **表单**  
+6. **表单**
    `form`标签及属性（`method`, `action`, `enctype`），`input`类型（text, password, radio, checkbox, submit, image, hidden, file），`select`, `option`, `textarea`，HTML5新属性（`placeholder`, `required`, `autofocus`, `list/datalist`），新input类型（email, url, number, date等）。
-7. **视频与音频**  
+7. **视频与音频**
    `video`与`audio`标签，支持格式，属性（`src`, `controls`, `autoplay`, `loop`, `height`等）。
-8. **HTML5新增语义化元素**  
+8. **HTML5新增语义化元素**
    结构元素（`section`, `article`, `nav`, `aside`, `header`, `hgroup`, `footer`, `address`等）。
-9. **其他常用元素**  
+9. **其他常用元素**
    行内`span`，块级`div`，两者差异，`marquee`滚动文本。
 
 ### 3. CSS3基础与使用
-1. **CSS基础**  
+1. **CSS基础**
    与HTML关系、特点与应用场景。
-2. **CSS语法**  
+2. **CSS语法**
    选择器（元素、类、ID、后代、子、相邻兄弟、通用兄弟），伪类（`:link`, `:visited`, `:hover`, `:active`），选择器优先级，三种链接方式（外部、内部、行内），命名规范。
-3. **CSS中单位**  
+3. **CSS中单位**
    绝对/相对长度单位，百分比，颜色表示（关键字、十六进制、rgb/rgba）。
-4. **常用CSS属性（重点）**  
-   - 文本/字体：`font-family`, `font-size`, `font-style`, `font-weight`, `font`, `color`, `text-decoration`, `text-align`, `text-indent`, `text-shadow`等。  
-   - 盒子模型：`width`, `height`, `padding`, `margin`, `float`, `display`  
-   - 背景：`background-color`, `background-image`, `background-repeat`, `background-position`, `background-attachment`  
-   - 边框：`border-style`, `border-width`, `border-color`, `border-radius`  
+4. **常用CSS属性（重点）**
+   - 文本/字体：`font-family`, `font-size`, `font-style`, `font-weight`, `font`, `color`, `text-decoration`, `text-align`, `text-indent`, `text-shadow`等。
+   - 盒子模型：`width`, `height`, `padding`, `margin`, `float`, `display`
+   - 背景：`background-color`, `background-image`, `background-repeat`, `background-position`, `background-attachment`
+   - 边框：`border-style`, `border-width`, `border-color`, `border-radius`
    - 列表：`list-style-type`, `list-style-image`, `list-style-position`
 
 ### 4. HTML5 + CSS3综合网页开发
@@ -79,11 +79,11 @@ ISBN: 978-7-302-57284-8
 5. **综合网站开发** – 运用DIV+CSS构建完整网站（个人博客、电商首页），常见区块：容器、页头、菜单、主体内容、页脚。
 
 ## 四、考核形式（总分：100分）
-1. **HTML5网页设计题** – 2道综合题（30分）  
+1. **HTML5网页设计题** – 2道综合题（30分）
    考察字体、图片、链接、表格、表单、音频/视频、跨浏览器一致性。
-2. **CSS3样式设计题** – 2道综合题（40分）  
+2. **CSS3样式设计题** – 2道综合题（40分）
    考察选择器、单位、颜色、字体/块/列表/背景/边框/盒子属性、链接方式。
-3. **HTML5 + CSS3综合题** – 1道题（30分）  
+3. **HTML5 + CSS3综合题** – 1道题（30分）
    DIV+CSS整页布局，多区块，跨浏览器一致性。
 
 ## 五、考试要求

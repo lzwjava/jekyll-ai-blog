@@ -66,7 +66,7 @@ type: note
 
 你描述的想法（AI agent 自由点击、打开东西、探索）不再是科幻——它现在正在被构建、演示，并在生产试点中使用。
 
-参考资料：  
+参考资料：
 
 - [WebProber: AI Agent-based Web Testing Framework (arxiv)](https://arxiv.org/html/2509.05197v1)
 - [Replit Agent – App Testing with real user simulation](https://docs.replit.com/replitai/agent)

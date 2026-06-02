@@ -12,7 +12,7 @@ type: note
 
 Question: What is ETF?
 
-Answer: 
+Answer:
 
 An **Exchange-Traded Fund (ETF)** is a type of investment fund that holds a diversified basket of assets, such as stocks, bonds, commodities, or a combination thereof, and trades on stock exchanges throughout the day at market-determined prices, similar to individual stocks.
 
@@ -36,7 +36,7 @@ ETFs have grown immensely popular since the first U.S. ETF (SPDR S&P 500 ETF, ti
 | Expense Ratios      | Generally lower               | Often higher                  |
 | Tax Efficiency      | Usually higher                | Lower due to more redemptions |
 
-References:  
+References:
 
 - [Exchange-Traded Fund (ETF): What It Is and How to Invest](https://www.investopedia.com/terms/e/etf.asp)
 - [Exchange-traded fund - Wikipedia](https://en.wikipedia.org/wiki/Exchange-traded_fund)

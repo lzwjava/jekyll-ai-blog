@@ -17,7 +17,7 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 ### RS Flip-Flop
 - **Function**: The Set-Reset flip-flop is the most basic memory element
 - **Inputs**: Set (S) and Reset (R)
-- **Behavior**: 
+- **Behavior**:
   - S=1, R=0: Output Q=1 (Set state)
   - S=0, R=1: Output Q=0 (Reset state)
   - S=0, R=0: Maintains previous state (Memory)
@@ -44,7 +44,7 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 ### T Flip-Flop
 - **Function**: Toggle flip-flop, changes state with every clock pulse when enabled
 - **Inputs**: Toggle (T) and Clock
-- **Behavior**: 
+- **Behavior**:
   - T=0: No change
   - T=1: Output toggles with each clock pulse
 - **Applications**: Counters, frequency dividers (divide-by-2 circuits)

@@ -11,7 +11,7 @@ type: note
 
 Question: Provide an introduction to the Realtek RTL8152 Fast Ethernet adapter.
 
-Answer: 
+Answer:
 
 The **Realtek RTL8152** (often seen as RTL8152B-VB or similar variants) is a popular, low-cost **USB-to-Ethernet controller chipset** designed for **10/100 Mbps Fast Ethernet** connections.
 
@@ -57,7 +57,7 @@ Even in 2026 the RTL8152 remains widely available because:
 
 If you only need basic wired connectivity and don't require gigabit speeds, an RTL8152-based adapter is still a perfectly reasonable, reliable, and inexpensive choice.
 
-References:  
+References:
 
 - [Realtek official product page for RTL8152B-VB-CG](https://www.realtek.com/Product/Index?cate_id=786&id=4079)
 - [Realtek USB Ethernet software downloads (including RTL8152B)](https://www.realtek.com/Download/List?cate_id=585)

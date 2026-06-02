@@ -12,7 +12,7 @@ type: note
 
 Question: When does Tencent build its building in Tencent Binhai?
 
-Answer: 
+Answer:
 
 The **Tencent Binhai Mansion** (also known as Tencent Seafront Towers or 腾讯滨海大厦), Tencent's global headquarters in Shenzhen's Nanshan District, had its construction timeline as follows:
 
@@ -23,7 +23,7 @@ The **Tencent Binhai Mansion** (also known as Tencent Seafront Towers or 腾讯�
 
 The building consists of twin skyscrapers connected by skybridges and has been in use since 2017.
 
-References:  
+References:
 
 - [Tencent Binhai Mansion - Wikipedia](https://en.wikipedia.org/wiki/Tencent_Binhai_Mansion)
 - [Foundation Laying for Tencent Binhai Building - Tencent Official](https://www.tencent.com/en-us/articles/80064.html)

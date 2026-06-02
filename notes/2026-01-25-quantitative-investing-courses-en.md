@@ -12,7 +12,7 @@ type: note
 
 Question: What online courses or certificates can we take for investing, hedge funds, or quantitative trading on platforms like Coursera, YouTube, etc.?
 
-Answer: 
+Answer:
 
 Here are some popular and highly regarded **online courses and certificates** for **investing**, **hedge funds**, and especially **quantitative (quant) trading** / quantitative finance. These are available on platforms like Coursera, Udemy, edX, and free resources on YouTube.
 
@@ -42,7 +42,7 @@ For serious quant roles (e.g., at hedge funds), structured programs like the **C
 
 These can build skills step-by-step: start with investing basics → quantitative modeling → algorithmic/quant trading.
 
-References:  
+References:
 
 - [Coursera Quantitative Finance Courses](https://www.coursera.org/courses?query=quantitative+finance)
 - [Coursera Finance & Quantitative Modeling Specialization](https://www.coursera.org/specializations/finance-quantitative-modeling-analysts)

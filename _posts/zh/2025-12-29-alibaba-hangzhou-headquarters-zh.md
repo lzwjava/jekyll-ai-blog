@@ -12,7 +12,7 @@ type: note
 
 Question: Alibaba's headquarters in Hangzhou
 
-Answer: 
+Answer:
 
 Alibaba Group 的**全球总部**位于中国浙江省**杭州**。截至 2025 年，其主要行政办公地址为：**浙江省杭州市余杭区文一西路 969 号，邮编 311121**。
 
@@ -24,7 +24,7 @@ Alibaba Group 的**全球总部**位于中国浙江省**杭州**。截至 2025 �
 
 Alibaba 依然深深扎根于 1999 年创立时的所在地杭州，这里继续作为其主要的运营和行政基地。
 
-References:  
+References:
 
 - [Alibaba Group Official - Corporate Information](https://www.alibabagroup.com/en-US/faqs-corporate-information)
 - [Alibaba Opens New Global Headquarters (2024)](https://www.scmp.com/tech/big-tech/article/3262246/alibaba-opens-new-global-headquarters-hangzhou-china-annual-family-day)

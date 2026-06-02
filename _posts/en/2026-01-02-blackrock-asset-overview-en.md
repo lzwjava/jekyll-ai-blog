@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to BlackRock, the company.
 
-Answer: 
+Answer:
 
 # BlackRock: A Comprehensive Introduction
 
@@ -50,9 +50,9 @@ Despite these, BlackRock maintains it acts as a fiduciary for clients and has ad
 
 BlackRock remains a pivotal player in shaping global investment trends, technology in finance, and debates on sustainable capitalism.
 
-References:  
+References:
 
-- [BlackRock Official Website](https://www.blackrock.com/corporate)  
-- [Wikipedia: BlackRock](https://en.wikipedia.org/wiki/BlackRock)  
-- [BlackRock Q3 2025 Earnings Release](https://s24.q4cdn.com/856567660/files/doc_financials/2025/Q3/BLK-3Q25-Earnings-Release.pdf)  
+- [BlackRock Official Website](https://www.blackrock.com/corporate)
+- [Wikipedia: BlackRock](https://en.wikipedia.org/wiki/BlackRock)
+- [BlackRock Q3 2025 Earnings Release](https://s24.q4cdn.com/856567660/files/doc_financials/2025/Q3/BLK-3Q25-Earnings-Release.pdf)
 - [Statista: BlackRock AUM](https://www.statista.com/statistics/891292/assets-under-management-blackrock/)

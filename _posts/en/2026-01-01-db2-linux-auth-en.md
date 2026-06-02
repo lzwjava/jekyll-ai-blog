@@ -12,7 +12,7 @@ type: note
 
 Question: In DB2 on Linux, why is a username and password sometimes required when connecting to a database, and sometimes not? Should the user always be the logged-in user?
 
-Answer: 
+Answer:
 
 In IBM DB2 for Linux, UNIX, and Windows (LUW), authentication behavior when connecting to a database depends on several factors: whether the connection is **local** or **remote**, the instance's **authentication type** (configured in the Database Manager Configuration via `AUTHENTICATION` parameter), and whether credentials are explicitly provided.
 
@@ -56,14 +56,14 @@ In IBM DB2 for Linux, UNIX, and Windows (LUW), authentication behavior when conn
 | Explicit user (`user xyz using pwd`) | Any            | Any      | Yes                 | Different from current user |
 | Remote client to server           | Remote         | SERVER   | Yes                 | Validates on server OS |
 
-To check your instance's auth type:  
+To check your instance's auth type:
 `db2 get dbm cfg | grep AUTHENTICATION`
 
 For most secure setups, keep `SERVER` and rely on strong OS security for local access.
 
-References:  
+References:
 
-- [IBM Documentation: Authentication methods for servers](https://www.ibm.com/docs/en/db2/11.5?topic=details-authentication-methods-servers)  
-- [DB2 Basics: Users, Authentication, and Authorization](https://datageek.blog/2013/03/01/db2-basics-users-authentication-and-authorization/)  
-- [DB2 OS authentication example](https://zhefeng.wordpress.com/2009/01/06/db2-os-authentication/)  
+- [IBM Documentation: Authentication methods for servers](https://www.ibm.com/docs/en/db2/11.5?topic=details-authentication-methods-servers)
+- [DB2 Basics: Users, Authentication, and Authorization](https://datageek.blog/2013/03/01/db2-basics-users-authentication-and-authorization/)
+- [DB2 OS authentication example](https://zhefeng.wordpress.com/2009/01/06/db2-os-authentication/)
 - [Stack Overflow: DB2 connection without username/password](https://stackoverflow.com/questions/8291677/db2-connection-without-specifying-username-and-password)

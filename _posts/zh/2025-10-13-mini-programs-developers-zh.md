@@ -56,6 +56,6 @@ type: note
 
 这些选择强调实用性而非噱头，利用微信生态系统服务于您以广州为基础、高度移动化的生活。从微信读书和携程开始使用，立竿见影。如果您深入使用任何一款（例如通过开发者工具进行定制），您的编程技能将大放异彩。
 
-[值得收藏的36个小程序，让你的生活更有情趣，工作更加高效！](https://cloud.tencent.com/developer/article/1196015)  
-[微信官方整理多款好用的微信工具：涉及AI效率、AI创意、AI学习](https://soft.china.com/article/1352018.html)  
+[值得收藏的36个小程序，让你的生活更有情趣，工作更加高效！](https://cloud.tencent.com/developer/article/1196015)
+[微信官方整理多款好用的微信工具：涉及AI效率、AI创意、AI学习](https://soft.china.com/article/1352018.html)
 [The 2025 Ultimate Guide to Using WeChat for Your China Tour](https://chinaexplorertour.com/2025/blog/the-2025-ultimate-guide-to-using-wechat-for-your-china-tour/)

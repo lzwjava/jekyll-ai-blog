@@ -32,8 +32,8 @@ Geoffrey Hinton 在 Stanford 的 CS25: Transformers United 课程中发表了一
 
 这次演讲是一场特别/客座讲座，不属于常规讲师系列，于 2022 年 8 月在 YouTube 上发布（录制时间更早）。它反映了 Hinton 对在标准 Transformers 基础上改进 Neural Networks 的持续思考，并与其关于 AI 表示和理解的更广泛观点相联系。
 
-References:  
+References:
 
-- [Stanford CS25: Represent part-whole hierarchies in a neural network, Geoff Hinton (YouTube Video)](https://www.youtube.com/watch?v=CYaju6aCMoQ)  
-- [CS25 Course Website (mentions Hinton as a past speaker)](https://web.stanford.edu/class/cs25/)  
+- [Stanford CS25: Represent part-whole hierarchies in a neural network, Geoff Hinton (YouTube Video)](https://www.youtube.com/watch?v=CYaju6aCMoQ)
+- [CS25 Course Website (mentions Hinton as a past speaker)](https://web.stanford.edu/class/cs25/)
 - [Speaker Deck Summary of CS25 Lectures (includes Hinton's GLOM talk)](https://speakerdeck.com/sadahry/cs25-transformers-united-2785d644-be02-4be6-8812-e8d9c93790ae)

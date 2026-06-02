@@ -12,7 +12,7 @@ type: note
 
 Question: How has San Francisco been in the latest 100 years? Give some key milestones.
 
-Answer: 
+Answer:
 
 San Francisco has undergone remarkable transformation over the past 100 years (roughly 1925–2025), evolving from a recovering post-earthquake city into a global hub for culture, innovation, and technology. It has faced challenges like economic depressions, earthquakes, social upheavals, pandemics, and housing crises, but consistently demonstrated resilience through rebuilding, cultural movements, and economic booms. The city solidified its iconic status with landmark infrastructure, became a center for counterculture and civil rights, and emerged as a tech powerhouse, though recent years have seen struggles with downtown recovery and social issues.
 
@@ -49,7 +49,7 @@ Here are some key milestones, organized chronologically:
 
 San Francisco's history in this period reflects themes of innovation, diversity, and adaptation, making it one of the world's most dynamic cities.
 
-References:  
+References:
 
 - [Timeline of San Francisco - Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_San_Francisco)
 - [History of San Francisco - Wikipedia](https://en.wikipedia.org/wiki/History_of_San_Francisco)

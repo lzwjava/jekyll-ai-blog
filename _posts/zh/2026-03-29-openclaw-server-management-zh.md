@@ -64,5 +64,5 @@ type: note
 
 你需要一份可以交给 agent 的 CUDA + Ollama 安装 bash script 模板，还是关于如何为此类 digital employee 设置安全配置 SSH/sudo 的建议？
 
-References:  
+References:
 - None

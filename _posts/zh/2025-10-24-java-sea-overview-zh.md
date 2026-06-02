@@ -25,5 +25,5 @@ type: note
 
 作为区域贸易、航运要道，这片海域在印尼海洋遗产中占据着举足轻重的地位。
 
-[爪哇海 - 维基百科](https://en.wikipedia.org/wiki/Java_Sea)  
+[爪哇海 - 维基百科](https://en.wikipedia.org/wiki/Java_Sea)
 [爪哇海 | 地图、历史与事实 - 大英百科全书](https://www.britannica.com/place/Java-Sea)

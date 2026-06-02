@@ -11,7 +11,7 @@ type: note
 
 Question: What types of data are included in a computer?
 
-Answer: 
+Answer:
 
 In computer science, **data** refers to any symbolic representation that can be input into a computer and processed by computer programs. It encompasses a wide variety of forms, including:
 

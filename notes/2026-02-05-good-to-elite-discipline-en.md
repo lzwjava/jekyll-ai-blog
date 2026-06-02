@@ -12,7 +12,7 @@ type: note
 
 Question: What is the difference between scoring around 70 on average versus 90+ in exams like China's self-study higher education exams (self-taught examination), and how do high achievers reach those levels compared to Gaokao high scorers or competitive programming ratings?
 
-Answer: 
+Answer:
 
 Your observation is accurate: the gap between an average of around **70** (solid pass level in self-study exams, where 60 is the passing threshold) and **90+** is significant, but it is rarely due to "magic" or innate genius. High scores in academic exams—whether self-study higher education exams (自考), Gaokao, or even competitive settings like Codeforces—are typically the result of **consistent application of effective principles**: deliberate practice, targeting weaknesses, doing far more exercises, building deep familiarity with knowledge points, and maintaining disciplined habits.
 
@@ -49,7 +49,7 @@ There is **no magic or genius** required for high achievement in these areas. Hi
 
 Your software engineering background already gives you a strong edge in practical courses—many self-study students lack that real-world context. With more focused exercises (especially past papers for the remaining written and practical exams), deeper weakness-fixing, and consistent routines, closing the gap to higher averages (80+ or even 90+) is realistic and comes down to **applying those principles more intensely**. Many people reach high levels simply by doing what others know they should do—but actually execute relentlessly.
 
-References:  
+References:
 
 - [https://zhuanlan.zhihu.com/p/343781759](https://zhuanlan.zhihu.com/p/343781759)
 - [https://www.zhihu.com/question/442477294](https://www.zhihu.com/question/442477294)

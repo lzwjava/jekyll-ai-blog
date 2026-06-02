@@ -24,7 +24,7 @@ for _ in range(eval_iters):  # 循环200次！
     logits, loss = model(x, y)
 ```
 
-每个`get_batch`返回`batch_size × block_size`个标记 → 16 × 1024  
+每个`get_batch`返回`batch_size × block_size`个标记 → 16 × 1024
 当eval_iters=200时 → 200次独立前向传播，但如果不注意，PyTorch会在整个评估循环期间持续保留计算图和中间激活状态。再加上巨大的KV缓存（12层×12头×1024×576×2字节 FP16 ≈ 1.6GB仅缓存），以及逻辑张量（16×1024×50304×2字节 ≈ 每次前向1.6GB），即使训练本身正常，也很容易突破12GB显存限制。
 
 ### 快速解决方案（可单选或组合使用）

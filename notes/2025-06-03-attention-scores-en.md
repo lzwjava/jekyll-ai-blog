@@ -10,7 +10,7 @@ type: note
 
 Dividing by the square root of the key dimension, \\(\sqrt{d_k}\\), in the scaled dot-product attention mechanism (as in the formula \\(\text{Scaled Scores} = \frac{Q K^T}{\sqrt{d_k}}\\)) is a deliberate choice to stabilize gradients and prevent large values, particularly in the context of transformers. Here's why \\(\sqrt{d_k}\\) is used instead of just \\(d_k\\):
 
-1. **Variance of Dot Product**: 
+1. **Variance of Dot Product**:
    - The dot product \\( Q K^T \\) computes the similarity between query (\\( Q \\)) and key (\\( K \\)) vectors, where each vector has dimension \\( d_k \\). If the elements of \\( Q \\) and \\( K \\) are assumed to be independent and have a mean of 0 and variance of 1 (common after initialization or normalization), the dot product \\( Q_i \cdot K_j \\) (for a single pair of query and key vectors) has a variance of \\( d_k \\). This is because the variance of the sum of \\( d_k \\) independent products of two standard normal variables scales linearly with \\( d_k \\).
    - Without scaling, the magnitude of \\( Q K^T \\) grows with \\( d_k \\), leading to very large values for large \\( d_k \\) (common in transformers, where \\( d_k \\) might be 64, 128, or larger). Large values in the attention scores can cause issues when passed through the softmax function.
 

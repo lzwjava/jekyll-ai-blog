@@ -12,7 +12,7 @@ type: note
 
 Question: 请对 NVIDIA GPU 中的计算单元进行全面介绍：Tensor Cores、CUDA cores、load/store units 以及 warp schedulers。
 
-Answer: 
+Answer:
 
 NVIDIA GPU 专为大规模并行处理设计，特别是在图形处理、科学计算和 AI 工作负载方面。其核心构建模块是 **Streaming Multiprocessor (SM)**，其中包含负责执行指令的各种计算单元。这些单元在 SIMT (Single Instruction, Multiple Thread) 模型下协同工作，在该模型中，线程被分组为包含 32 个线程的 **warps**，并同时执行相同的指令。
 
@@ -67,10 +67,10 @@ Warp schedulers 管理 SM 内 warps 的执行。它们对于隐藏延迟和最�
 
 总结来说，CUDA cores 提供通用计算，Tensor Cores 加速 AI 特有的矩阵运算，LD/ST units 管理内存流量，而 warp schedulers 编排一切以隐藏延迟并实现高并行性。了解这些单元有助于针对特定工作负载优化 CUDA kernels。
 
-References:  
+References:
 
-- [NVIDIA Volta Architecture Whitepaper](https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf)  
-- [NVIDIA Turing Architecture In-Depth](https://developer.nvidia.com/blog/nvidia-turing-architecture-in-depth/)  
-- [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)  
-- [A Beginner's Guide to NVIDIA GPUs in 2025](https://www.cudocompute.com/blog/a-beginners-guide-to-nvidia-gpus)  
+- [NVIDIA Volta Architecture Whitepaper](https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf)
+- [NVIDIA Turing Architecture In-Depth](https://developer.nvidia.com/blog/nvidia-turing-architecture-in-depth/)
+- [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
+- [A Beginner's Guide to NVIDIA GPUs in 2025](https://www.cudocompute.com/blog/a-beginners-guide-to-nvidia-gpus)
 - [CUDA Cores vs Tensor Cores](https://acecloud.ai/blog/cuda-cores-vs-tensor-cores/)

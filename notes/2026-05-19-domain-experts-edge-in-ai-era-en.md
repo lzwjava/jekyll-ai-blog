@@ -69,7 +69,7 @@ The winner is **domain expert + AI fluent**. That's where you're heading.
 Not domain knowledge — but **workflow habits**:
 
 - "Let me Google this for 2 hours" → negative
-- "I must write this myself to understand it" → sometimes negative  
+- "I must write this myself to understand it" → sometimes negative
 - "This is how we've always architected it" → negative
 - Resistance to agents doing the boring work → very negative
 

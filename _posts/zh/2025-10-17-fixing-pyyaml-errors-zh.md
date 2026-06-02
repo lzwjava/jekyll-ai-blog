@@ -73,6 +73,6 @@ type: note
 
 如果以上方法仍无法解决问题（例如由于 Python 3.13 的特殊性），请提供更多详细信息，如具体执行的命令和操作系统版本。
 
-[在 Mac 上构建 - 找不到 _yaml.c](https://github.com/yaml/pyyaml/issues/122)  
-[扩展 _yaml 未构建](https://github.com/yaml/pyyaml/issues/179)  
+[在 Mac 上构建 - 找不到 _yaml.c](https://github.com/yaml/pyyaml/issues/122)
+[扩展 _yaml 未构建](https://github.com/yaml/pyyaml/issues/179)
 [在 MacOS 上安装支持 libyaml 的 Pyyaml](https://akasurde.github.io/installing-pyyaml-with-libyaml-on-macos.html)

@@ -34,8 +34,8 @@ DeepSeek诞生于2023年5月，当时梁文锋宣布幻方向通用人工智能�
 
 梁文锋的故事展现了沉静的坚持：从乡村数学天才到量化亿万富翁，再到AI开拓者，证明了初创公司可以凭智慧而非仅规模实现颠覆。
 
-[谁是AI颠覆者DeepSeek的创始人梁文锋？](https://www.entrepreneur.com/business-news/who-is-liang-wenfeng-the-founder-of-ai-disruptor-deepseek/486564)  
-[梁文锋 - 维基百科](https://en.wikipedia.org/wiki/Liang_Wenfeng)  
-[遇见DeepSeek创始人梁文锋，一位对冲基金经理](https://fortune.com/2025/01/27/deepseek-founder-liang-wenfeng-hedge-fund-manager-high-flyer-quant-trading/)  
-[DeepSeek创始人专访：我们不再追随](https://thechinaacademy.org/interview-with-deepseek-founder-were-done-following/)  
+[谁是AI颠覆者DeepSeek的创始人梁文锋？](https://www.entrepreneur.com/business-news/who-is-liang-wenfeng-the-founder-of-ai-disruptor-deepseek/486564)
+[梁文锋 - 维基百科](https://en.wikipedia.org/wiki/Liang_Wenfeng)
+[遇见DeepSeek创始人梁文锋，一位对冲基金经理](https://fortune.com/2025/01/27/deepseek-founder-liang-wenfeng-hedge-fund-manager-high-flyer-quant-trading/)
+[DeepSeek创始人专访：我们不再追随](https://thechinaacademy.org/interview-with-deepseek-founder-were-done-following/)
 [DeepSeek及其创始人梁文锋有何故事？](https://www.ourchinastory.com/en/14046/What%27s-the-story-of-DeepSeek-and-its-founder-Liang-Wenfeng?)

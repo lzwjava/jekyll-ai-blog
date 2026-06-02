@@ -15,20 +15,20 @@ type: note
 
 以下是截至 2026 年初最值得注意、高影响力和广为人知的项目，这些项目**主要或实质上是用 Zig 编写的**。这些通常是人们在讨论 Zig 在性能关键或系统级领域的实际成功时所指的项目。
 
-- **Bun**  
-  一个非常快速的 JavaScript/TypeScript 全功能运行时、打包器、测试运行器和包管理器。  
+- **Bun**
+  一个非常快速的 JavaScript/TypeScript 全功能运行时、打包器、测试运行器和包管理器。
   它使用 Zig + JavaScriptCore（来自 WebKit/Safari），是最高调的 Zig 项目之一，在 JavaScript 生态系统中显示出大规模采用。
 
-- **TigerBeetle**  
-  一个分布式金融交易数据库，专为高吞吐量支付/账本系统中的极端性能和安全性而设计。  
+- **TigerBeetle**
+  一个分布式金融交易数据库，专为高吞吐量支付/账本系统中的极端性能和安全性而设计。
   被金融科技公司用于生产环境；经常被引述为 Zig 在关键金融软件中的旗舰示例。
 
-- **Ghostty**  
-  一个快速的 GPU-accelerated 终端模拟器（iTerm2、Alacritty、Kitty 等替代品）。  
+- **Ghostty**
+  一个快速的 GPU-accelerated 终端模拟器（iTerm2、Alacritty、Kitty 等替代品）。
   因其跨平台性能和原生体验而获得广泛关注。
 
-- **Lightpanda**  
-  一个专为 AI 代理和自动化任务构建的无头浏览器。  
+- **Lightpanda**
+  一个专为 AI 代理和自动化任务构建的无头浏览器。
   众多较新的高可见度项目之一（最近在 GitHub 上趋势强劲）。
 
 其他有影响力的/生产环境中使用的 Zig 项目（有时与其他语言混合，但包含大量 Zig 组件）：

@@ -11,7 +11,7 @@ type: note
 
 Question: What is the most widely used network management protocol in TCP/IP networks?
 
-Answer: 
+Answer:
 
 The most widely used network management protocol in TCP/IP networks is **SNMP (Simple Network Management Protocol)**.
 

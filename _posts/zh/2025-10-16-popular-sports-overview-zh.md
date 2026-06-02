@@ -27,5 +27,5 @@ type: note
 
 这些体育项目通常能产生数十亿美元的收入，并在世界杯、奥运会等重大赛事期间凝聚全球观众。
 
-[全球十大最受欢迎体育运动](https://www.topendsports.com/world/lists/popular-sport/fans.htm)  
+[全球十大最受欢迎体育运动](https://www.topendsports.com/world/lists/popular-sport/fans.htm)
 [全球收视率最高的体育赛事](https://www.statista.com/topics/1740/soccer/)

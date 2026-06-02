@@ -27,8 +27,8 @@ type: note
 
 这些事件凸显了 GCP 的发展阵痛，从 2000 年代末的早期 App Engine 问题到近期的系统性故障。Google 通常会发布事后分析和补救计划，例如将组件模块化以“故障开放”。有关最新状态，请查看 [Google Cloud Service Health](https://status.cloud.google.com/)。
 
-[Google Cloud 和数据中心故障史](https://www.datacenterknowledge.com/outages/a-history-of-google-cloud-and-data-center-outages)  
-[Google 服务中断 - 维基百科](https://en.wikipedia.org/wiki/Google_services_outages)  
-[Google Cloud 故障历史 | StatusGator](https://statusgator.com/blog/google-cloud-outage-history/)  
-[2025 年至今十大云中断事件 - CRN](https://www.crn.com/news/cloud/2025/the-10-biggest-cloud-outages-of-2025-so-far)  
+[Google Cloud 和数据中心故障史](https://www.datacenterknowledge.com/outages/a-history-of-google-cloud-and-data-center-outages)
+[Google 服务中断 - 维基百科](https://en.wikipedia.org/wiki/Google_services_outages)
+[Google Cloud 故障历史 | StatusGator](https://statusgator.com/blog/google-cloud-outage-history/)
+[2025 年至今十大云中断事件 - CRN](https://www.crn.com/news/cloud/2025/the-10-biggest-cloud-outages-of-2025-so-far)
 [Google Cloud 故障分析：2025 年 6 月 12 日 - ThousandEyes](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the truth about successful careers? Why do some people job hunt a lot over tens of years in their career, while others achieve a proven track record of accomplishments and easily reach positions that others can't access?
 
-Answer: 
+Answer:
 
 关于成功的职业生涯（Successful careers），并没有唯一的普世“真相”——不同的策略取决于行业、时机、个人优势和运气——但从真实世界的数据和观察中可以总结出一些规律。
 
@@ -50,7 +50,7 @@ Answer:
 
 成功最终源于**持续的高绩效 + 聪明的定位**（在正确的地方发挥正确的技能），而不仅仅是纯粹的忠诚或纯粹的跳槽。盲目忠诚于糟糕的雇主是有害的；没有成果产出的频繁被动跳槽同样有害。赢家会将职业变动与明确的价值创造对齐。
 
-References:  
+References:
 
 - 关于 Job hopping 与任期影响的各项讨论（例如 ADP 薪资报告显示跳槽者薪资增幅约 14%，而留任者约为 7%）
 - LinkedIn 及职业建议来源关于声誉、Networking 和精英职业轨迹的分析

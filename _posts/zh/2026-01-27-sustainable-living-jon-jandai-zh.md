@@ -12,7 +12,7 @@ type: note
 
 **Question:** Jon Jandai 的 YouTube channel 内容主要关于什么，他最受欢迎的视频有哪些？
 
-**Answer:** 
+**Answer:**
 
 Jon Jandai 的 YouTube channel 名为 **Jon Jandai Life is Easy** (@JonJandaiLifeisEasy)，拥有约 19.8 万订阅者和超过 570 个视频。
 
@@ -31,7 +31,7 @@ Jon Jandai 是一位泰国农民，也是 Pun Pun Center for Self-Reliance 的�
 
 在他自己的频道上，视频的观看次数通常较低（通常在几千到几万之间），最近的视频侧重于 practical 话题，如 no-till gardening、水井和季节性准备。他频道上较旧的或谈话类视频，例如关于改变生活或“改变世界的两句话”的视频，也获得了不错的关注（例如，一些视频的观看量在 5K-20K+ 范围内）。TEDx 演讲为他赢得了大部分知名度，而他的频道则作为提供实用的 sustainable living 技巧的持续资源。
 
-**References:**  
+**References:**
 
-- [Jon Jandai Life is Easy YouTube Channel](https://www.youtube.com/c/JonJandaiLifeisEasy)  
+- [Jon Jandai Life is Easy YouTube Channel](https://www.youtube.com/c/JonJandaiLifeisEasy)
 - [Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep](https://www.youtube.com/watch?v=21j_OCNLuYg)

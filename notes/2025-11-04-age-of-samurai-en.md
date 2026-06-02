@@ -16,7 +16,7 @@ The series you're describing sounds like **Age of Samurai: Battle for Japan**, a
 The series chronicles the bloody power struggles among Japan's daimyo (warlords) as they fight to unify a fractured country torn by civil war. It focuses on three key figures who rise from the chaos:
 
 - **Oda Nobunaga** (Episodes 1–3): A ruthless innovator who inherits a small clan and uses clever tactics (like guns and surprise attacks) to conquer rivals. He burns temples, slaughters thousands, and earns the nickname "Demon King" for his ferocity, but he's betrayed and forced to commit seppuku (ritual suicide) by one of his own generals.
-  
+
 - **Toyotomi Hideyoshi** (Episodes 3–5): A lowborn peasant who climbs the ranks under Nobunaga, then seizes control after his master's death. He crushes remaining warlords, declares himself regent, and even launches disastrous invasions of Korea to chase dreams of conquering China. His paranoia and failed wars lead to his downfall, leaving his young son vulnerable.
 
 - **Tokugawa Ieyasu** (Episodes 5–6): A patient survivor who allies with the others but waits for his moment. After Hideyoshi's death, he outmaneuvers rivals in massive battles, betrayals, and sieges to become shogun, founding a dynasty that brings 250+ years of peace (the Edo period).
@@ -28,6 +28,6 @@ You're spot-on about that grim post-battle ritual: it's a recurring element draw
 
 If this isn't the one (maybe you're thinking of the 2024 *Shōgun* adaptation, which has similar vibes but more dialogue and isn't primarily on Netflix), feel free to give more details!
 
-[Age of Samurai: Battle for Japan on Netflix](https://www.netflix.com/title/80237990)  
-[Wikipedia Summary](https://en.wikipedia.org/wiki/Age_of_Samurai:_Battle_for_Japan)  
+[Age of Samurai: Battle for Japan on Netflix](https://www.netflix.com/title/80237990)
+[Wikipedia Summary](https://en.wikipedia.org/wiki/Age_of_Samurai:_Battle_for_Japan)
 [Review Mentioning Graphic Scenes](https://www.jetaa.org.uk/news/review-age-of-samurai-battle-for-japan/)

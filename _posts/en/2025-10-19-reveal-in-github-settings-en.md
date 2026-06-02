@@ -43,7 +43,7 @@ The file's root is a `<document>` containing `<dependencies>` (for the Cocoa plu
    - **Content View** (ID: `se5-gp-TjO`): A full-size view (651x497) that autoresizes with the window. It contains all subviews, positioned with fixed frames (though Auto Layout is enabled, suggesting constraints might be added programmatically or in a .storyboard companion).
 
    **Subviews Layout** (all use fixed frames for positioning; y-coordinates increase downward from the top):
-   
+
    | Element | Type | Position (x, y) | Size (w x h) | Description |
    |---------|------|-----------------|--------------|-------------|
    | **Save Button** | `NSButton` (ID: `EuN-9g-Vcg`) | (14, 13) | 137x32 | Bottom-left "Save" button (rounded bezel). Triggers `saveButtonClcked:` action on the controller. Uses small system font (13pt). |

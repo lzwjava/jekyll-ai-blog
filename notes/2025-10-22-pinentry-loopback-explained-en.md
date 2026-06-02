@@ -16,7 +16,7 @@ In GNU Privacy Guard (GPG), the `--pinentry-mode loopback` option controls how t
 
 #### Key Meaning and Purpose
 - **Loopback Mode**: This sets the pinentry to "loopback" behavior, where GPG doesn't launch an external pinentry program (e.g., a GUI popup). Instead, it fakes the pinentry by sending inquiries directly back to the calling process (like a script or application). This allows the passphrase to be provided programmatically, such as via standard input (STDIN), environment variables, or files, without interactive user prompts.
-  
+
 - **Why Use It?**
   - Ideal for **automation**: In bash scripts, CI/CD pipelines (e.g., GitHub Actions), or headless environments (like SSH sessions) where a graphical dialog can't appear.
   - Avoids hanging or failing in non-interactive setups.

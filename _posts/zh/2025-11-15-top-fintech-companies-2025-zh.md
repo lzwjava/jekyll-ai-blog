@@ -60,9 +60,9 @@ type: note
 
 若您对特定地区、类别或深度分析（如融资轮次）感兴趣，欢迎告知！
 
-**参考资料**  
-- [CB Insights 2025金融科技100强](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)  
-- [福布斯2025金融科技50强](https://www.forbes.com/lists/fintech50/)  
-- [CNBC 2025全球顶尖金融科技公司](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)  
-- [StartupBlink 2025顶尖金融科技初创企业](https://www.startupblink.com/blog/top-fintech-startups/)  
+**参考资料**
+- [CB Insights 2025金融科技100强](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)
+- [福布斯2025金融科技50强](https://www.forbes.com/lists/fintech50/)
+- [CNBC 2025全球顶尖金融科技公司](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)
+- [StartupBlink 2025顶尖金融科技初创企业](https://www.startupblink.com/blog/top-fintech-startups/)
 - [金融科技杂志全球前十](https://fintechmagazine.com/news/top-10-fintech-companies-globally)

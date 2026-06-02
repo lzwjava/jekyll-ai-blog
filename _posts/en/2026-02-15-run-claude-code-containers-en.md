@@ -11,7 +11,7 @@ type: note
 
 Question: How to run Claude code (Claude Code interpreter/agent) in a container or cloud server?
 
-Answer: 
+Answer:
 
 **Claude Code** (Anthropic's terminal-based AI coding agent / code interpreter tool) is commonly run inside **Docker containers** for safety and isolation. This is the officially recommended approach in many cases because Claude Code can execute arbitrary code, install packages, run servers, etc.
 
@@ -102,7 +102,7 @@ Choose method depending on your goal:
 - Development workflow → VS Code Dev Container
 - 24/7 cloud agent → VPS + Docker or managed sandbox (E2B, Cloudflare, RunPod)
 
-References:  
+References:
 
 - [Docker Sandboxes for Claude Code](https://docs.docker.com/ai/sandboxes/claude-code)
 - [Claude Code official docs – Dev Containers](https://code.claude.com/docs/en/devcontainer)

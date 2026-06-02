@@ -11,7 +11,7 @@ type: note
 
 Question: Which 2025 Ikang employee physical examination package should a 30-year-old male software engineer choose among A (regular), B (no radiation projects), C (with genetic testing), and D (with chest CT)?
 
-Answer: 
+Answer:
 
 As a 30-year-old male software engineer, your choice depends on your health priorities, radiation concerns, budget, and company rules (since this is an employee package, usually only one option is allowed). Here's a breakdown based on the package names and typical Ikang (爱康国宾)体检 patterns for similar employee/group packages:
 
@@ -25,7 +25,7 @@ As a 30-year-old male software engineer, your choice depends on your health prio
 
 **Recommendation for you (30 yo male software engineer, assuming no major known risks):**
 
-The **best default choice is usually 套餐A (regular package)**.  
+The **best default choice is usually 套餐A (regular package)**.
 It provides good all-around screening without extras you may not need yet. At 30, serious disease risks are still low for most people, and the standard package catches the most common issues (liver/kidney function, blood lipids, basic tumor markers, heart, etc.).
 
 - Choose **套餐D** instead if: You live in a heavily polluted city (e.g., northern China), have any smoking history (even light/past), chronic cough, or family lung issues — the chest CT upgrade is meaningful for early lung nodule detection.
@@ -36,8 +36,8 @@ Most people in your age and occupation (no heavy physical labor, no extreme envi
 
 If you share more details (e.g., smoking status, family disease history, city pollution level, or if budget/company limits apply), the recommendation can be more precise.
 
-References:  
+References:
 
-- [爱康国宾官网体检套餐页面](https://mall.ikang.com/)  
-- [爱康国宾员工/职场相关体检描述示例](https://mall.ikang.com/product/212)  
+- [爱康国宾官网体检套餐页面](https://mall.ikang.com/)
+- [爱康国宾员工/职场相关体检描述示例](https://mall.ikang.com/product/212)
 - [爱康国宾部分套餐项目参考](https://mall.ikang.com/searchList?product_first_type_id=232)

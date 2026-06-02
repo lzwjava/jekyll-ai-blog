@@ -37,6 +37,6 @@ type: note
 
 更多动态可关注"美丽深圳"微信公众号——这是获取本地交通攻略的首选渠道。
 
-[深圳莲花山公园游玩攻略](https://www.trip.com/moments/poi-lian-hua-shan-park-83245/)  
-[莲花山公园停车攻略（百度经验）](https://jingyan.baidu.com/article/495ba8419ed8fa79b30edeec.html)  
+[深圳莲花山公园游玩攻略](https://www.trip.com/moments/poi-lian-hua-shan-park-83245/)
+[莲花山公园停车攻略（百度经验）](https://jingyan.baidu.com/article/495ba8419ed8fa79b30edeec.html)
 [深圳需要预约的热门公园清单（知乎）](https://zhuanlan.zhihu.com/p/522497801)

@@ -30,11 +30,11 @@ Pony.ai and comma.ai are both prominent players in the autonomous driving space,
 ### Summary
 Pony.ai leads in enterprise-scale AV commercialization, backed by massive capital and regulatory wins, making it a direct rival to Waymo or Baidu Apollo. comma.ai excels in accessible, hackable tech for everyday drivers, bootstrapping profitability without VC bloat—ideal for enthusiasts but not yet at fleet level. If you're building a robotaxi empire, bet on Pony; for upgrading your daily commuter, comma.ai wins on cost and openness.
 
-[ Pony.ai Official Site](https://pony.ai/)  
-[ comma.ai Official Site](https://comma.ai/)  
-[ Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)  
-[ comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)  
-[ Pony.ai Wikipedia](https://en.wikipedia.org/wiki/Pony.ai)  
-[ George Hotz Wikipedia](https://en.wikipedia.org/wiki/George_Hotz)  
-[ Pony.ai Funding on Tracxn](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)  
+[ Pony.ai Official Site](https://pony.ai/)
+[ comma.ai Official Site](https://comma.ai/)
+[ Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)
+[ comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)
+[ Pony.ai Wikipedia](https://en.wikipedia.org/wiki/Pony.ai)
+[ George Hotz Wikipedia](https://en.wikipedia.org/wiki/George_Hotz)
+[ Pony.ai Funding on Tracxn](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)
 [ comma.ai PitchBook Profile](https://pitchbook.com/profiles/company/155326-69)

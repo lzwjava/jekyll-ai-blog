@@ -12,7 +12,7 @@ type: note
 
 Cooking dried squid in an air fryer is a quick and easy way to achieve a crispy, flavorful snack. Here’s a simple guide based on available methods:
 
-1. **Soak the Squid**: 
+1. **Soak the Squid**:
    - Rinse the dried squid under cold water to remove excess salt or debris.
    - Soak in lukewarm water for 10-15 minutes to soften slightly. This reduces toughness and excess saltiness. Pat dry with paper towels afterward.
 

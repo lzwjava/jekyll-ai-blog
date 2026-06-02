@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to Cloud Build in Google Cloud
 
-Answer: 
+Answer:
 
 Cloud Build is **Google Cloud's fully managed, serverless CI/CD (Continuous Integration / Continuous Delivery) platform**. It allows you to automatically build, test, and deploy your software whenever code changes occur.
 
@@ -133,7 +133,7 @@ Most teams pay very little unless running hundreds of large builds daily.
 
 Cloud Build remains one of the fastest, most cost-effective, and best-integrated CI/CD solutions in the Google Cloud ecosystem in 2026.
 
-References:  
+References:
 
 - [Overview of Cloud Build | Google Cloud](https://docs.cloud.google.com/build/docs/overview)
 - [Cloud Build documentation home](https://docs.cloud.google.com/build/docs)

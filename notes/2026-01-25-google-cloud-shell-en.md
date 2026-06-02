@@ -32,7 +32,7 @@ It is ideal for quick experiments, learning GCP, running gcloud commands, managi
 ### How to Launch Cloud Shell
 
 1. Go to the Google Cloud Console → https://console.cloud.google.com
-2. Click the **Cloud Shell icon** (terminal symbol) in the top-right toolbar  
+2. Click the **Cloud Shell icon** (terminal symbol) in the top-right toolbar
    → or use direct link: https://shell.cloud.google.com
 3. First time → it provisions your machine (takes ~10–30 seconds)
 4. You get a Bash terminal at the bottom of the screen (can be popped out to new tab)

@@ -11,7 +11,7 @@ type: note
 
 问题：如何在 macOS 中添加服务以保持 mihomo-darwin-amd64-v1-alpha-3035ae8 始终运行？
 
-回答： 
+回答：
 
 要在 macOS 上让 **mihomo** (Clash Meta core) 作为后台服务自动运行，并在崩溃时保持重启，请使用 **launchd** (macOS 内置的服务管理器)。
 
@@ -153,7 +153,7 @@ type: note
 
 此设置将使 mihomo 始终运行，即使在重启或崩溃后。
 
-参考资料：  
+参考资料：
 
 - [https://wiki.metacubex.one/en/startup/service](https://wiki.metacubex.one/en/startup/service) (Linux 示例，但有用概念)
 - [https://note.okhk.net/use-launchctl-to-start-clash-meta-kernel-on-macos](https://note.okhk.net/use-launchctl-to-start-clash-meta-kernel-on-macos)

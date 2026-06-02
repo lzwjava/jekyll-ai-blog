@@ -30,7 +30,7 @@ Here are the key reasons developers and teams make this switch:
 
 Migrations can be incremental—start by exposing APIs from your existing Java backend and gradually refactor the frontend. Challenges like initial learning curves exist, but the long-term gains in efficiency often outweigh them.
 
-[Why I like the Angular / Spring Boot / Hibernate combination](https://medium.com/@a.mueller3/why-i-like-the-angular-spring-boot-hibernate-combination-for-full-stack-web-development-1efb4af6cef0)  
-[Migrating a Spring Web MVC application from JSP to AngularJS](https://spring.io/blog/2015/08/19/migrating-a-spring-web-mvc-application-from-jsp-to-angularjs)  
-[Migrating from jQuery to Angular](https://medium.com/@prakhar-webdev/migrating-from-jquery-to-angular-modernizing-your-web-apps-without-losing-your-mind-9631730b35dd)  
+[Why I like the Angular / Spring Boot / Hibernate combination](https://medium.com/@a.mueller3/why-i-like-the-angular-spring-boot-hibernate-combination-for-full-stack-web-development-1efb4af6cef0)
+[Migrating a Spring Web MVC application from JSP to AngularJS](https://spring.io/blog/2015/08/19/migrating-a-spring-web-mvc-application-from-jsp-to-angularjs)
+[Migrating from jQuery to Angular](https://medium.com/@prakhar-webdev/migrating-from-jquery-to-angular-modernizing-your-web-apps-without-losing-your-mind-9631730b35dd)
 [JSF to Angular migration](https://belitsoft.com/angular-development/jsf-to-angular-migration)

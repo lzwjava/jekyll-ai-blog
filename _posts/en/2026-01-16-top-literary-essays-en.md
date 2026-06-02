@@ -12,7 +12,7 @@ type: note
 
 Question: What are the top 30 best literary essays or long-form essays?
 
-Answer: 
+Answer:
 
 There is no single universally agreed-upon list of the "top 30" best literary essays or long-form pieces, as rankings are highly subjective and vary by source, era, and criteria (classic vs. modern, personal vs. critical, etc.). However, based on aggregated literary lists, anthologies, critic picks, and reader consensus from sources like meta-lists, The New Yorker, Literary Hub, and essay compilations, here is a synthesized selection of 30 highly regarded literary essays and long-form pieces. These span classics to more contemporary works and are frequently cited as exemplary in the genre.
 
@@ -82,7 +82,7 @@ For modern long-form journalism blended with literary style, sites like Longform
 
 If you're looking for classics, start with Montaigne, Orwell, Didion, and Baldwin. For contemporary, explore Wallace, Biss, Gay, and long-form from the outlets above.
 
-References:  
+References:
 
 - [Best Essays of All Time – Ranked (meta-list)](https://beckchris.com/literature-lists/best-essays-of-all-time-ranked)
 - [40 Best Essays of All Time (With Links)](https://rafalreyzer.com/40-best-essays-of-all-time)

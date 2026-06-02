@@ -61,12 +61,12 @@ mihomo receives the HTTP CONNECT request, opens a TCP connection to GitHub, says
 
 Big company (SSH path):
   Engineer → Team Lead → Director → VP → CTO → VP → Director → Team Lead → Engineer
-  
+
   Each person reads the message, understands it, rewrites it in their own words, passes it on. Information degrades, latency accumulates.
 
 Startup (HTTPS path):
   Engineer → Engineer
-  
+
   Direct communication. Same language. No translation loss.
 
 The "flatter" the protocol stack, the fewer translations between layers, the faster information flows. That's why removing ncat (a relay that just copies bytes) and the SOCKS5 layer (an extra protocol negotiation) made such a huge difference.

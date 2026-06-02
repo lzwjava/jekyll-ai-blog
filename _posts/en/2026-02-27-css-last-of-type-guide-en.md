@@ -89,7 +89,7 @@ Use it when you want to target the **last occurrence of a specific element type*
 - You cannot rely on `:last-child` because the last element might not be the type you want
 - You are styling repeating elements like paragraphs, list items, articles, table cells, etc.
 
-**References:**  
+**References:**
 
-- [MDN Web Docs: :last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)  
+- [MDN Web Docs: :last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)
 - [CSS Tricks: :nth-child and :nth-of-type explained](https://css-tricks.com/how-nth-child-works/)

@@ -18,11 +18,11 @@ Yes — several practical approaches exist. Here are the most realistic ones in 
 
 ### Recommended options (ranked by ease + reliability)
 
-1. **macOS – Use Shortcuts.app + global keyboard shortcut** (easiest if you're on macOS)  
-   - Open Shortcuts app  
-   - Create new shortcut  
-   - Add action **Run Shell Script**  
-   - Set “Shell” = `/bin/zsh` or `/bin/bash`  
+1. **macOS – Use Shortcuts.app + global keyboard shortcut** (easiest if you're on macOS)
+   - Open Shortcuts app
+   - Create new shortcut
+   - Add action **Run Shell Script**
+   - Set “Shell” = `/bin/zsh` or `/bin/bash`
    - Paste:
 
      ```bash
@@ -30,15 +30,15 @@ Yes — several practical approaches exist. Here are the most realistic ones in 
      python3 scripts/create/create_note.py grok-fast
      ```
 
-   - (optional) Add **Open URLs** → `github.com/lzwjava/blog-source/…` if you usually want to see the file  
-   - Give the shortcut a name e.g. “New Grok Note”  
+   - (optional) Add **Open URLs** → `github.com/lzwjava/blog-source/…` if you usually want to see the file
+   - Give the shortcut a name e.g. “New Grok Note”
    - Menu bar → Shortcuts → Settings → Keyboard Shortcuts → Services → assign e.g. `⌃⌥⌘ N`
 
    → Global shortcut, no terminal window appears (if you turn off “Show terminal”)
 
-2. **Windows – PowerToys + Run command / .bat wrapper**  
-   - Install Microsoft PowerToys (free)  
-   - Enable **Keyboard Manager** or **PowerToys Run**  
+2. **Windows – PowerToys + Run command / .bat wrapper**
+   - Install Microsoft PowerToys (free)
+   - Enable **Keyboard Manager** or **PowerToys Run**
    - Create small `.bat` or `.cmd` file next to the repo:
 
      ```bat
@@ -59,7 +59,7 @@ Yes — several practical approaches exist. Here are the most realistic ones in 
      }
      ```
 
-3. **Linux – xbindkeys / sxhkd / AutoKey / custom .desktop shortcut**  
+3. **Linux – xbindkeys / sxhkd / AutoKey / custom .desktop shortcut**
    Most popular quick solutions:
 
    - **sxhkd** (if you use bspwm/sway/awesome/xmonad)
@@ -82,8 +82,8 @@ Yes — several practical approaches exist. Here are the most realistic ones in 
 
 4. **Cross-platform – Raycast / Alfred / Ulauncher extension** (very convenient if you already use them)
 
-   - **Raycast** (macOS, very popular in 2025)  
-     Create a new script command → type the cd + python line → assign hotkey  
+   - **Raycast** (macOS, very popular in 2025)
+     Create a new script command → type the cd + python line → assign hotkey
      Bonus: you can make it accept arguments later (`grok-fast`, `claude`, etc.)
 
    - **Alfred** (macOS) – same idea, Workflow → Run Script
@@ -94,7 +94,7 @@ Yes — several practical approaches exist. Here are the most realistic ones in 
 
    Workarounds people actually use:
 
-   - Extension sends POST request to localhost:port  
+   - Extension sends POST request to localhost:port
    - You run a tiny HTTP server in background (FastAPI / Flask / http.server) that executes the command when it receives the request
 
      ```python

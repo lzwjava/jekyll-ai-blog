@@ -118,8 +118,8 @@ Make mistakes 对于学习非常强大。Errors（错误）能抓取 Attention�
 
 （演讲时长约为 18 分钟。）
 
-References:  
+References:
 
-- [YouTube Video](https://www.youtube.com/watch?v=kKvK2foOTJM)  
-- [TED.com Talk Page with Transcript](https://www.ted.com/talks/lila_landowski_brain_hack_6_secrets_to_learning_faster_backed_by_neuroscience/transcript)  
+- [YouTube Video](https://www.youtube.com/watch?v=kKvK2foOTJM)
+- [TED.com Talk Page with Transcript](https://www.ted.com/talks/lila_landowski_brain_hack_6_secrets_to_learning_faster_backed_by_neuroscience/transcript)
 - [Full Transcript on Singju Post](https://singjupost.com/transcript-6-secrets-to-learning-faster-backed-by-neuroscience-w-lila-landowski/)

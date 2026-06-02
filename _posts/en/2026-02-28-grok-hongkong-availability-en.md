@@ -11,7 +11,7 @@ type: note
 
 Question: Was Grok by xAI supported in the Hong Kong region early on like in 2023 or 2024, and is it now banned?
 
-Answer: 
+Answer:
 
 **Grok has been available and supported in Hong Kong since its early days and remains available now (as of February 2026). It is not banned in Hong Kong.**
 
@@ -25,7 +25,7 @@ In summary:
 - **Early support (2023–2024)**: Yes, it rolled out progressively and was usable in Hong Kong.
 - **Current status (2026)**: Still supported and not banned — only regulatory warnings exist over content risks.
 
-References:  
+References:
 
 - [https://www.scmp.com/news/hong-kong/law-and-crime/article/3340033/hong-kong-watchdog-warns-against-using-musks-grok-ai-bot-create-indecent-images](https://www.scmp.com/news/hong-kong/law-and-crime/article/3340033/hong-kong-watchdog-warns-against-using-musks-grok-ai-bot-create-indecent-images)
 - [https://www.reddit.com/r/HongKong/comments/1mniija/elon_musks_xai_makes_grok_4_free_for_all_users](https://www.reddit.com/r/HongKong/comments/1mniija/elon_musks_xai_makes_grok_4_free_for_all_users)

@@ -19,25 +19,25 @@ The core mechanism is **context dilution** + **attention fragmentation** + **inc
 
 When you give the model:
 
-- Many different error types at the same time  
-- Hundreds or thousands of lines/files  
-- Mixed examples of several problems  
+- Many different error types at the same time
+- Hundreds or thousands of lines/files
+- Mixed examples of several problems
 
 the following effects usually appear:
 
-1. **Pattern competition**  
+1. **Pattern competition**
    The model starts mixing heuristics from different families → produces inconsistent or broken fixes (e.g. applies Jakarta XML change rules inside a `sun.misc.Unsafe` block).
 
-2. **Attention dilution**  
+2. **Attention dilution**
    The more different problems are in the context window, the less depth the model can apply to any single one → higher chance of missing subtle cases of the “main” problem.
 
-3. **Mode collapse / cherry-picking**  
+3. **Mode collapse / cherry-picking**
    The model often latches onto whichever error type appears first/most memorably in the prompt → ignores or half-fixes other families.
 
-4. **Over-generalization**  
+4. **Over-generalization**
    It sometimes invents a “super rule” that tries to address everything at once → introduces new bugs (classic example: blanket search-replace that breaks unrelated code).
 
-5. **Higher variance per file**  
+5. **Higher variance per file**
    The same logical error gets fixed differently in file 3 vs file 87 → creates review fatigue and inconsistent style.
 
 **Observed real-world difference (rough numbers from multiple mid-large migrations 2024–2025):**
@@ -70,8 +70,8 @@ the following effects usually appear:
 - After accepting a batch → **recompile the project** → feed the **new** remaining errors of **that same family** back in the next prompt (this exploits the fact that earlier fixes often reveal hidden members of the same family).
 - Use separate chat sessions / project contexts per family when the tool allows it (Cursor projects, Claude projects, Continue.dev named contexts, etc.).
 
-Bottom line:  
-**Focused = higher quality + fewer introduced bugs + faster overall progress**  
+Bottom line:
+**Focused = higher quality + fewer introduced bugs + faster overall progress**
 is still the dominant experience across most serious Java upgrade projects in 2025–2026.
 
 Trying to do “fix everything” in one hero prompt almost always ends up slower and more painful once you count human review + bugfix rounds.

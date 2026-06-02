@@ -77,7 +77,7 @@ The model improves with more training tokens. Your current config targets ~10B t
 max_iters = 5000
 lr_decay_iters = 5000
 
-# Medium run (~30h): 5B tokens  
+# Medium run (~30h): 5B tokens
 max_iters = 9500
 lr_decay_iters = 9500
 

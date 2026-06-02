@@ -39,5 +39,5 @@ AIDS 是 **获得性免疫缺陷综合征** 的缩写。它不是一种独立的
 
 早期 HIV 检测和治疗对于预防 AIDS 至关重要。
 
-[关于 HIV - 美国疾控中心](https://www.cdc.gov/hiv/about/index.html)  
+[关于 HIV - 美国疾控中心](https://www.cdc.gov/hiv/about/index.html)
 [HIV 术语与定义 - 美国疾控中心](https://www.cdc.gov/hiv/glossary/index.html)

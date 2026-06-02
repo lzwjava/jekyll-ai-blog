@@ -12,12 +12,12 @@ type: note
 
 Question: Which class is used for simple key-value persistent storage in Android?
 
-A) SQLiteDatabase  
-B) FileOutputStream  
-C) SharedPreferences  
+A) SQLiteDatabase
+B) FileOutputStream
+C) SharedPreferences
 D) ContentValues
 
-Answer: 
+Answer:
 
 The correct answer is **C) SharedPreferences**.
 

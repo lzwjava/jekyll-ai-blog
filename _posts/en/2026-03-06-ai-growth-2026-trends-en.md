@@ -11,7 +11,7 @@ type: note
 
 Question: What are the big news stories in tech and AI in 2026 so far?
 
-Answer: 
+Answer:
 
 As of early March 2026, the tech and AI landscape continues its rapid evolution, shifting from hype and experimentation toward scaled deployment, infrastructure buildout, agentic systems, and real-world impact. Here are some of the most prominent themes and developments highlighted across recent reports and predictions:
 
@@ -31,7 +31,7 @@ As of early March 2026, the tech and AI landscape continues its rapid evolution,
 
 Overall, 2026 feels like the year AI "grows up"—moving from flashy demos to reliable, embedded systems that reshape industries, research, and daily tools. The emphasis is increasingly on efficiency, reliability, real-world deployment, and balancing massive infrastructure costs with tangible returns.
 
-References:  
+References:
 
 - [What's next in AI: 7 trends to watch in 2026](https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026)
 - [Hyperscale AI data centers: 10 Breakthrough Technologies 2026](https://www.technologyreview.com/2026/01/12/1129982/hyperscale-ai-data-centers-energy-usage-2026-breakthrough-technology)

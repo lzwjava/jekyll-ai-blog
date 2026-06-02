@@ -12,7 +12,7 @@ type: note
 
 Question: What does the Wireless Bridge Point to Point Outdoor WiFi Wireless Network Expansion Kit (Walmart product 1418553789) do?
 
-Answer: 
+Answer:
 
 This product is a **2-pack outdoor wireless bridge kit** designed to create a long-range, high-speed point-to-point (P2P) wireless connection between two locations. It extends your network or internet access wirelessly over significant distances without running cables, acting like an "invisible Ethernet cable" for outdoor use.
 
@@ -32,7 +32,7 @@ This product is a **2-pack outdoor wireless bridge kit** designed to create a lo
 
 In short, it provides a wireless alternative to trenching fiber or Ethernet cables for long-distance network extension, offering reliable, high-speed connectivity in outdoor/point-to-point setups.
 
-References:  
+References:
 
 - [Walmart Product Page](https://www.walmart.com/ip/Wireless-Bridge-Point-Point-Outdoor-WiFi-Wireless-Network-Expansion-Kit-Long-Range-High-Speed-5G-2-Units-Bridge-Kit-Complete-Pre-Configured-P2P-1000M/1418553789?classType=REGULAR&athbdg=L1600)
 - [Similar Product on Amazon (matching description)](https://www.amazon.com/Wireless-Outdoor-Expansion-Complete-Pre-Configured/dp/B0BJZLXYBG)

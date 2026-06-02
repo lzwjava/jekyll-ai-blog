@@ -12,7 +12,7 @@ type: note
 
 Question: Who advocated "academic freedom" and "inclusive tolerance" in education? A. Cai Yuanpei B. Hu Shi C. Tao Xingzhi D. Liang Qichao
 
-Answer: 
+Answer:
 
 The correct answer is **A. Cai Yuanpei**.
 
@@ -29,7 +29,7 @@ In contrast:
 
 Thus, Cai Yuanpei is widely recognized as the key advocate and practitioner of these ideas in modern Chinese education history.
 
-References:  
+References:
 
 - [蔡元培：学术须自由，教育须独立 - 知乎](https://zhuanlan.zhihu.com/p/686730780)
 - [思想自由，兼容并包 - 知乎](https://zhuanlan.zhihu.com/p/408771573)

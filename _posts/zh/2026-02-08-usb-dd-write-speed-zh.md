@@ -26,8 +26,8 @@ type: note
 908066816 bytes transferred in 43.725150 secs (20767609 bytes/sec)
 ```
 
-- **records in / records out**: 从 ISO 读取并写入 USB 的 block 数量。  
-  这里每个 record = **bs=1m** = 1 MiB = 1,048,576 bytes  
+- **records in / records out**: 从 ISO 读取并写入 USB 的 block 数量。
+  这里每个 record = **bs=1m** = 1 MiB = 1,048,576 bytes
   因此 866 records ≈ 累计写入了 866 MiB。
 - **bytes transferred**: 截至目前写入的总数据量（单位：bytes）。
 - **in Xs secs**: 自 dd 开始以来经过的实际时间。
@@ -53,7 +53,7 @@ type: note
 - 连接到了 USB 2.0 端口（即使驱动器本身是 3.0）
 - 驱动器已满 / 触发热节流 (thermal throttling) / 扩容盘（fake-high-capacity）
 
-这**不算快**，但对于许多常见的 USB 棒连续写入 ~5–6 GB 数据来说，也**不算异常缓慢**。  
+这**不算快**，但对于许多常见的 USB 棒连续写入 ~5–6 GB 数据来说，也**不算异常缓慢**。
 如果你想要更快的 ISO → USB 制作速度（快 2–4 倍），请尝试：
 - 使用更好的 USB flash drive（寻找标称写入速度 100+ MB/s 的型号）
 - 确认你使用的是真正的 USB 3.0/3.1 端口（通常是蓝色端口）

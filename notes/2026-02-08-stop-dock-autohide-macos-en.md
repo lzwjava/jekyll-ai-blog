@@ -12,7 +12,7 @@ type: note
 
 Question: How to make the macOS Dock not hide automatically in the latest version?
 
-Answer: 
+Answer:
 
 In the latest macOS version (macOS Tahoe 26.x as of February 2026), follow these steps to stop the **Dock** from automatically hiding and keep it always visible:
 
@@ -25,7 +25,7 @@ In the latest macOS version (macOS Tahoe 26.x as of February 2026), follow these
 The Dock will now stay visible permanently at the bottom (or side) of your screen.
 
 ### Quick alternative method using keyboard shortcut (if enabled):
-- Press **Command (⌘) + Option (⌥) + D**  
+- Press **Command (⌘) + Option (⌥) + D**
   This toggles the auto-hide setting instantly. If it turns off auto-hide, you're done.
 
 ### If the setting keeps re-enabling itself:
@@ -37,7 +37,7 @@ The Dock will now stay visible permanently at the bottom (or side) of your scree
 This occasionally happens in certain betas or configurations (e.g., with Stage Manager or specific window tiling settings). Try:
 - Turning Stage Manager off temporarily (System Settings → Desktop & Dock → Stage Manager)
 - Restarting your Mac
-- As a last resort, reset Dock preferences in Terminal:  
+- As a last resort, reset Dock preferences in Terminal:
   ```
   defaults delete com.apple.dock && killall Dock
   ```
@@ -45,7 +45,7 @@ This occasionally happens in certain betas or configurations (e.g., with Stage M
 
 These steps work consistently in macOS Ventura, Sonoma, Sequoia, and Tahoe.
 
-References:  
+References:
 
 - [Change Desktop & Dock settings on Mac - Apple Support](https://support.apple.com/guide/mac-help/change-desktop-dock-settings-mchlp1119/mac)
 - [Apple Support Communities - Dock keeps auto-hiding on macOS Tahoe](https://discussions.apple.com/thread/256140771)

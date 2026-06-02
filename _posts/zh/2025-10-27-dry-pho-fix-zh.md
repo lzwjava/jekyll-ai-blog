@@ -30,5 +30,5 @@ type: note
 
 初次尝试建议少量添加，目标应是稀薄的汤粉状态。总烹饪时间：小火20-30分钟。如果这不是Bún Riêu，请详细描述餐厅版本的特色（例如突出哪种蛋白质或风味），我会进一步优化建议！
 
-[Bún Riêu食谱 (Hungry Huy)](https://www.hungryhuy.com/bun-rieu-recipe/)  
+[Bún Riêu食谱 (Hungry Huy)](https://www.hungryhuy.com/bun-rieu-recipe/)
 [Bún Riêu (Takes Two Eggs)](https://takestwoeggs.com/bun-rieu/)

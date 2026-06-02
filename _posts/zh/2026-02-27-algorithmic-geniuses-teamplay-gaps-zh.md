@@ -11,7 +11,7 @@ type: note
 
 **问题：** 同事们如何描述他们的 ACM ICPC 金牌得主 / IOI 金牌得主同事？他们在日常工作中表现如何？
 
-**回答：** 
+**回答：**
 
 在专业职场环境中（尤其是像 Google 等科技公司、高频交易公司、初创公司或产品公司），对 ACM ICPC 金牌得主或 IOI 金牌得主的描述差异很大，但开发者讨论、招聘轶事和团队经验中出现了一些反复出现的模式。
 
@@ -42,7 +42,7 @@ type: note
 
 简而言之：同事们常常将他们描述为**艰难孤立问题的天才**，但**不一定是日常产品工作中的最佳全面工程师**。最高表现者（多枚金牌、传奇 CF/AtCoder/IOI/ICPC 记录）往往是例外，通常会进入匹配他们优势的环境。
 
-**参考资料：**  
+**参考资料：**
 
 - [https://news.ycombinator.com/item?id=9324209](https://news.ycombinator.com/item?id=9324209)
 - [https://www.reddit.com/r/programming/comments/6lvux0/being_good_at_programming_competitions_correlates](https://www.reddit.com/r/programming/comments/6lvux0/being_good_at_programming_competitions_correlates)

@@ -12,7 +12,7 @@ type: note
 
 Question: What typical networking services does Azure provide, such as subnets, VPC equivalents, NAT, etc.?
 
-Answer: 
+Answer:
 
 Azure provides a comprehensive set of **networking services** to build secure, scalable, and connected cloud infrastructures. The core foundation is **Azure Virtual Network (VNet)**, which is the equivalent of AWS VPC—a logically isolated private network in the cloud where you deploy resources like virtual machines, containers, and PaaS services.
 
@@ -32,7 +32,7 @@ Azure provides a comprehensive set of **networking services** to build secure, s
 
 These services allow hybrid setups, secure segmentation, and global connectivity while integrating with monitoring tools like Network Watcher.
 
-References:  
+References:
 
 - [Azure Virtual Network Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 - [Azure NAT Gateway Overview](https://learn.microsoft.com/en-us/azure/nat-gateway/nat-overview)

@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Arch Linux.
 
-Answer: 
+Answer:
 
 **Arch Linux** is one of the most respected and influential **Linux distributions** in 2026. It follows a philosophy of **simplicity**, **minimalism**, **user-centric design**, and providing the most up-to-date software through a **rolling release** model.
 
@@ -120,7 +120,7 @@ has made Arch significantly more approachable than it was 5–10 years ago, whil
 
 Many people now start with EndeavourOS or CachyOS (Arch-based), gain confidence, and later move to pure Arch — or stay on the derivative forever.
 
-References:  
+References:
 
 - [Arch Linux Official Website](https://archlinux.org/)
 - [Arch Wiki - Installation Guide](https://wiki.archlinux.org/title/Installation_guide)

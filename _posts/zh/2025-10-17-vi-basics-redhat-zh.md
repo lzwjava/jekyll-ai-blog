@@ -15,12 +15,12 @@ Vi 是一款功能强大的键盘驱动文本编辑器，是 Linux 系统（包�
 ## 安装
 Vi 已预装在大多数 Red Hat 系统中。如需完整 `vim` 功能包（或系统未安装），可通过包管理器安装：
 
-- RHEL 7/8 系统：  
+- RHEL 7/8 系统：
   ```
   sudo yum install vim
   ```
 
-- RHEL 9+ 系统：  
+- RHEL 9+ 系统：
   ```
   sudo dnf install vim
   ```
@@ -29,10 +29,10 @@ Vi 已预装在大多数 Red Hat 系统中。如需完整 `vim` 功能包（或�
 
 ## 启动 Vi
 1. 打开终端
-2. 运行 `vi 文件名.txt`（将 `文件名.txt` 替换为实际路径）  
-   - 文件存在时：打开编辑  
-   - 文件不存在时：创建新空文件  
-3. 无文件启动（练习用）：`vi`  
+2. 运行 `vi 文件名.txt`（将 `文件名.txt` 替换为实际路径）
+   - 文件存在时：打开编辑
+   - 文件不存在时：创建新空文件
+3. 无文件启动（练习用）：`vi`
 Vi 默认进入**命令模式**，界面显示空白屏幕或文件内容，光标位于左上角。
 
 ## 模式解析
@@ -103,7 +103,7 @@ Vi 有三种主要模式，熟练切换是关键：
 - 全局替换：`:%s/旧文本/新文本/g`（添加 `c` 可确认，如 `:%s/旧文本/新文本/gc`）
 
 ## Red Hat 用户贴士
-- 通过 `~/.vimrc` 自定义配置（不存在时可创建）：  
+- 通过 `~/.vimrc` 自定义配置（不存在时可创建）：
   ```
   set number          # 显示行号
   syntax on           # 语法高亮
@@ -117,6 +117,6 @@ Vi 有三种主要模式，熟练切换是关键：
 Vi 需练习才能熟练，但掌握后极为高效。从简单操作开始，勤用 `Esc` 键！
 
 ## 参考资源
-[Vi 编辑器入门指南 - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)  
-[LFCS 第二讲：Linux 中安装使用 Vi/Vim 完整教程](https://www.tecmint.com/vi-editor-usage/)  
+[Vi 编辑器入门指南 - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)
+[LFCS 第二讲：Linux 中安装使用 Vi/Vim 完整教程](https://www.tecmint.com/vi-editor-usage/)
 [Linux 系统 vi 编辑器详解 - GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/vi-editor-unix/)

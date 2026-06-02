@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Dave Cutler?
 
-Answer: 
+Answer:
 
 **Dave Cutler** (full name: David Neil Cutler Sr., born March 13, 1942) is a highly influential American software engineer and operating systems architect, widely regarded as one of the most important figures in the history of modern operating systems.
 
@@ -38,7 +38,7 @@ Cutler has received widespread acclaim for his contributions to operating system
 
 In summary, Dave Cutler is the architect behind three major successful operating system families (RSX-11M/VMS at DEC, and Windows NT/modern Windows at Microsoft), making him one of the most impactful engineers in computing history.
 
-References:  
+References:
 
 - [Dave Cutler - Wikipedia](https://en.wikipedia.org/wiki/Dave_Cutler)
 - [The engineer's engineer: Computer industry luminaries salute Dave Cutler's five-decade-long quest for quality - Microsoft Source](https://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality)

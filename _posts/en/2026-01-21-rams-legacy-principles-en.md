@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Dieter Rams
 
-Answer: 
+Answer:
 
 **Dieter Rams** is one of the most influential industrial designers of the 20th century. Born on May 20, 1932, in Wiesbaden, Germany, he is best known for his long collaboration with **Braun** (the German consumer electronics company) and for developing the famous **"Ten Principles of Good Design"**, which continue to shape modern product design philosophy.
 
@@ -61,7 +61,7 @@ Even in his 90s, Rams continues to reflect on design through the **Dieter and In
 
 In summary, Dieter Rams represents a philosophy that prioritizes clarity, longevity, and respect for both people and the planet—principles that feel even more relevant in today's world of fast-changing technology and consumerism.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Dieter_Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
 - [https://www.vitsoe.com/us/about/good-design](https://www.vitsoe.com/us/about/good-design)

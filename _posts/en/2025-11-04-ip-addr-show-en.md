@@ -15,34 +15,34 @@ type: note
 This command shows detailed info on your Ethernet interface (enp4s0), which is the one handling your local LAN connection from the routing table we discussed. It's up and running smoothly—great for basic connectivity. I'll parse it line by line, then summarize.
 
 #### Key Sections Explained
-- **Interface Status**:  
-  `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`  
-  - Index 2 (second interface, after lo).  
-  - Flags: Supports broadcast/multicast, fully UP (link detected and operational).  
-  - MTU: 1500 bytes (standard Ethernet frame size—no jumbo frames).  
-  - Queue discipline: fq_codel (fair queuing for low-latency traffic, common on modern Linux).  
+- **Interface Status**:
+  `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`
+  - Index 2 (second interface, after lo).
+  - Flags: Supports broadcast/multicast, fully UP (link detected and operational).
+  - MTU: 1500 bytes (standard Ethernet frame size—no jumbo frames).
+  - Queue discipline: fq_codel (fair queuing for low-latency traffic, common on modern Linux).
   - State: UP (ready to send/receive).
 
-- **Link Layer (MAC Address)**:  
-  `link/ether 04:7c:16:d9:54:5b brd ff:ff:ff:ff:ff:ff`  
-  - Your hardware MAC: 04:7c:16:d9:54:5b (unique to this NIC).  
+- **Link Layer (MAC Address)**:
+  `link/ether 04:7c:16:d9:54:5b brd ff:ff:ff:ff:ff:ff`
+  - Your hardware MAC: 04:7c:16:d9:54:5b (unique to this NIC).
   - Broadcast: ff:ff:ff:ff:ff:ff (all-ones for Ethernet broadcasts).
 
-- **IPv4 Address**:  
-  `inet 192.168.1.35/24 brd 192.168.1.255 scope global dynamic noprefixroute enp4s0`  
-  `valid_lft 4790sec preferred_lft 4790sec`  
-  - IP: 192.168.1.35 with /24 subnet (255.255.255.0 mask). Matches the "src 192.168.1.35" in your route table.  
-  - Broadcast: 192.168.1.255 (for subnet-wide broadcasts).  
-  - Scope: global (routable beyond this host).  
-  - Dynamic: Assigned via DHCP (from your router at 192.168.1.1).  
-  - No prefix route: Doesn't auto-add a connected route (but kernel did anyway, as seen in `ip route`).  
+- **IPv4 Address**:
+  `inet 192.168.1.35/24 brd 192.168.1.255 scope global dynamic noprefixroute enp4s0`
+  `valid_lft 4790sec preferred_lft 4790sec`
+  - IP: 192.168.1.35 with /24 subnet (255.255.255.0 mask). Matches the "src 192.168.1.35" in your route table.
+  - Broadcast: 192.168.1.255 (for subnet-wide broadcasts).
+  - Scope: global (routable beyond this host).
+  - Dynamic: Assigned via DHCP (from your router at 192.168.1.1).
+  - No prefix route: Doesn't auto-add a connected route (but kernel did anyway, as seen in `ip route`).
   - Lease: ~79 minutes left (4790 seconds) before renewal.
 
-- **IPv6 Address**:  
-  `inet6 fe80::a884:a0f6:e8b4:4a7d/64 scope link noprefixroute`  
-  `valid_lft forever preferred_lft forever`  
-  - Link-local IPv6: fe80::... (auto-generated from MAC; only for local link communication, like neighbor discovery).  
-  - /64 prefix, scope link (not routable off this interface).  
+- **IPv6 Address**:
+  `inet6 fe80::a884:a0f6:e8b4:4a7d/64 scope link noprefixroute`
+  `valid_lft forever preferred_lft forever`
+  - Link-local IPv6: fe80::... (auto-generated from MAC; only for local link communication, like neighbor discovery).
+  - /64 prefix, scope link (not routable off this interface).
   - Permanent (no expiration).
 
 #### Quick Summary Table

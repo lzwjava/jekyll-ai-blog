@@ -60,10 +60,10 @@ def analyze_whitespace(image, width, height):
                     found_content = True
                 right_margin_px = max(right_margin_px, x)
                 bottom_margin_px = max(bottom_margin_px, y)
-    
+
     if not found_content:
         return None, None, None, None
-    
+
     right_margin_px = width - right_margin_px
     bottom_margin_px = height - bottom_margin_px
     return left_margin_px, right_margin_px, top_margin_px, bottom_margin_px
@@ -80,10 +80,10 @@ def calculate_scale_factor(input_pdf):
         if not images:
             print("  Could not convert PDF to image.")
             return None
-        
+
         image = images[0]
         width, height, width_points, height_points, dpi = get_image_dimensions(image)
-        
+
         margins = analyze_whitespace(image, width, height)
         if margins[0] is None:
             print("  Could not determine content bounding box.")
@@ -95,7 +95,7 @@ def calculate_scale_factor(input_pdf):
             left_margin_px, right_margin_px, top_margin_px, bottom_margin_px = margins
             content_width_px = right_margin_px - left_margin_px
             content_height_px = bottom_margin_px - top_margin_px
-            
+
             left_margin_points = convert_pixels_to_points(left_margin_px, dpi[0])
             right_margin_points = convert_pixels_to_points(right_margin_px, dpi[0])
             top_margin_points = convert_pixels_to_points(top_margin_px, dpi[1])
@@ -108,8 +108,8 @@ def calculate_scale_factor(input_pdf):
         print(f"  Detected dimensions: width={width_points}, height={height_points}")
 
         width_margin_points = min(left_margin_points, right_margin_points)
-        height_margin_points = min(top_margin_points, bottom_margin_points)        
-        
+        height_margin_points = min(top_margin_points, bottom_margin_points)
+
         content_width = width_points - width_margin_points * 2
         content_height = height_points - height_margin_points * 2
 
@@ -124,13 +124,13 @@ def calculate_scale_factor(input_pdf):
         if content_width <= 0 or content_height <= 0:
             print("Error: Could not determine content dimensions.")
             return None
-        
+
         print(f"  Target dimensions: width={target_width}, height={target_height}")
         print(f"  Calculated width scale: {width_scale}, height scale: {height_scale}")
-        
+
         scale_factor = min(width_scale, height_scale)
         print(f"  Final scale factor: {scale_factor}")
-        
+
         return scale_factor
 
     except Exception as e:
@@ -168,7 +168,7 @@ if __name__ == "__main__":
     input_pdf = sys.argv[1]
     output_pdf = sys.argv[2]
     print(f"Input PDF: {input_pdf}, Output PDF: {output_pdf}")
-    
+
     if not os.path.exists(input_pdf):
         print(f"Error: Input PDF file not found: {input_pdf}")
         sys.exit(1)

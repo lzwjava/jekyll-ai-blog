@@ -54,7 +54,7 @@ def text_to_speech(text, output_filename, voice_name=None):
             audio_encoding=texttospeech.AudioEncoding.MP3,
             effects_profile_id=["small-bluetooth-speaker-class-device"]
         )
-        
+
         retries = 5
         for attempt in range(1, retries + 1):
             try:
@@ -91,7 +91,7 @@ def process_conversation(filename):
         return
 
     temp_files = []
-    
+
     voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
     voice_name_A = random.choice(voice_options)
     voice_name_B = random.choice(voice_options)
@@ -105,13 +105,13 @@ def process_conversation(filename):
             continue
         temp_file = os.path.join(OUTPUT_DIRECTORY, f"temp_{idx}.mp3")
         temp_files.append(temp_file)
-        
+
         voice_name = None
         if speaker == "A":
             voice_name = voice_name_A
         elif speaker == "B":
             voice_name = voice_name_B
-        
+
         if not text_to_speech(line, temp_file, voice_name=voice_name):
             print(f"Failed to generate audio for line {idx+1} of {filename}")
             # Clean up temp files
@@ -129,7 +129,7 @@ def process_conversation(filename):
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
             f.write(f"file '{os.path.abspath(temp_file)}'\n")
-    
+
     try:
         subprocess.run(
             ['ffmpeg', '-f', 'concat', '-safe', '0', '-i', concat_file, '-c', 'copy', output_filename],

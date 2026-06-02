@@ -66,7 +66,7 @@ No egress fees for your use case (internal API calls stay free within the same r
 
 Sign up for the $300 free trial if new to GCP. Monitor costs in the Billing dashboard.
 
-[Cloud Run Pricing](https://cloud.google.com/run/pricing)  
-[GCP Regions Guide](https://www.cloudzero.com/blog/gcp-regions/)  
+[Cloud Run Pricing](https://cloud.google.com/run/pricing)
+[GCP Regions Guide](https://www.cloudzero.com/blog/gcp-regions/)
 [Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
 ```

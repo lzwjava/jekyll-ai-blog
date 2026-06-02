@@ -49,7 +49,7 @@ Blackwell架构在以下领域表现卓越：
 
 Blackwell架构标志着AI硬件的重大飞跃，推动系统从以训练为核心转向支持行星级规模的高效实时推理。
 
-**参考来源**  
-- [NVIDIA Blackwell架构官网](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)  
-- [NVIDIA Blackwell平台公告](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)  
+**参考来源**
+- [NVIDIA Blackwell架构官网](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)
+- [NVIDIA Blackwell平台公告](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)
 - [维基百科Blackwell微架构词条](https://en.wikipedia.org/wiki/Blackwell_%28microarchitecture%29)

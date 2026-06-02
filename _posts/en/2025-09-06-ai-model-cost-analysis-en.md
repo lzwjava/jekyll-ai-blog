@@ -18,10 +18,10 @@ type: note
 6. Compare the performance of the shortlisted models in real-world scenarios or benchmarks to make an informed decision based on empirical data.
 # Comparative Analysis of Cost-Effective and High-Performance AI Models for Optimized Use Cases
 
-> - DeepSeek-R1-Distill-Llama-8B offers the lowest cost at $0.05 per 1M tokens total, with strong reasoning and math performance but weaker coding ability.  
-> - Llama-3.2-90B-Vision-Instruct (Vertex AI) provides multimodal capabilities and high benchmark performance at $5e-06 (input) and $1.6e-05 (output) per token, with broad ecosystem support.  
-> - Qwen2.5-Coder-32B-Instruct excels in coding tasks with competitive performance at very low cost ($6e-08 input, $2e-07 output per token), supporting over 40 programming languages and a 128K context window.  
-> - All models have different trade-offs in speed, context window size, and provider-specific limitations such as rate limits and availability.  
+> - DeepSeek-R1-Distill-Llama-8B offers the lowest cost at $0.05 per 1M tokens total, with strong reasoning and math performance but weaker coding ability.
+> - Llama-3.2-90B-Vision-Instruct (Vertex AI) provides multimodal capabilities and high benchmark performance at $5e-06 (input) and $1.6e-05 (output) per token, with broad ecosystem support.
+> - Qwen2.5-Coder-32B-Instruct excels in coding tasks with competitive performance at very low cost ($6e-08 input, $2e-07 output per token), supporting over 40 programming languages and a 128K context window.
+> - All models have different trade-offs in speed, context window size, and provider-specific limitations such as rate limits and availability.
 > - OpenRouter adds no additional overhead fees, and some models offer free tiers or trial credits, influencing budget impact.
 
 ---
@@ -74,65 +74,65 @@ Budget estimates for 10M input + 5M output tokens per month range from $0.60 (Qw
 
 ## Budget Impact Analysis
 
-- **DeepSeek-R1-Distill-Llama-8B**:  
-  - 10M input + 5M output tokens = 15M tokens total  
-  - Cost = 15M tokens * $0.05/1M tokens = **$0.75**  
+- **DeepSeek-R1-Distill-Llama-8B**:
+  - 10M input + 5M output tokens = 15M tokens total
+  - Cost = 15M tokens * $0.05/1M tokens = **$0.75**
   - *Note: Actual cost may vary with tiered pricing or bulk discounts.*
 
-- **Llama-3.2-90B-Vision-Instruct**:  
-  - 10M input tokens * $5e-06 = $0.05  
-  - 5M output tokens * $1.6e-05 = $0.08  
-  - Total = **$0.13**  
+- **Llama-3.2-90B-Vision-Instruct**:
+  - 10M input tokens * $5e-06 = $0.05
+  - 5M output tokens * $1.6e-05 = $0.08
+  - Total = **$0.13**
   - *Note: Vertex AI pricing may include additional infrastructure costs.*
 
-- **Qwen2.5-Coder-32B-Instruct**:  
-  - 10M input tokens * $6e-08 = $0.0006  
-  - 5M output tokens * $2e-07 = $0.001  
-  - Total = **$0.0016**  
+- **Qwen2.5-Coder-32B-Instruct**:
+  - 10M input tokens * $6e-08 = $0.0006
+  - 5M output tokens * $2e-07 = $0.001
+  - Total = **$0.0016**
   - *Note: Open-source model may require self-hosting costs (e.g., GPU infrastructure).*
 
 ---
 
 ## Provider-Specific Considerations
 
-- **OpenRouter**:  
-  - No additional overhead fees or markup on model costs.  
-  - Provides a unified API for multiple models, simplifying integration.  
+- **OpenRouter**:
+  - No additional overhead fees or markup on model costs.
+  - Provides a unified API for multiple models, simplifying integration.
   - Some models may have rate limits or require access requests.
 
-- **Vertex AI (Google Cloud)**:  
-  - Offers a fully managed, serverless Model-as-a-Service (MaaS) platform.  
-  - Eliminates infrastructure management overhead.  
+- **Vertex AI (Google Cloud)**:
+  - Offers a fully managed, serverless Model-as-a-Service (MaaS) platform.
+  - Eliminates infrastructure management overhead.
   - Supports multimodal inputs and provides tools for deployment and scaling.
 
-- **AWS and IBM watsonx.ai**:  
-  - Support deployment of distilled models via custom model import.  
+- **AWS and IBM watsonx.ai**:
+  - Support deployment of distilled models via custom model import.
   - Provide enterprise-grade AI developer studios with customization options.
 
 ---
 
 ## Latency vs. Cost Trade-off
 
-- **DeepSeek-R1-Distill-Llama-8B**:  
-  - Moderate latency due to distilled model architecture.  
+- **DeepSeek-R1-Distill-Llama-8B**:
+  - Moderate latency due to distilled model architecture.
   - 30% cheaper than some alternatives but responses may take 1.5–2x longer.
 
-- **Llama-3.2-90B-Vision-Instruct**:  
-  - Optimized for high throughput and low latency on edge devices.  
+- **Llama-3.2-90B-Vision-Instruct**:
+  - Optimized for high throughput and low latency on edge devices.
   - Higher token cost but faster response times.
 
-- **Qwen2.5-Coder-32B-Instruct**:  
-  - Fast inference on GPU hardware.  
+- **Qwen2.5-Coder-32B-Instruct**:
+  - Fast inference on GPU hardware.
   - Very low token cost but requires self-hosting or cloud GPU resources.
 
 ---
 
 ## Appendix: Sources
 
-- Pricing and context window data:   
-- Benchmark metrics and model performance:   
-- Provider-specific documentation:   
-- Community insights and user forums:   
+- Pricing and context window data:
+- Benchmark metrics and model performance:
+- Provider-specific documentation:
+- Community insights and user forums:
 
 ---
 

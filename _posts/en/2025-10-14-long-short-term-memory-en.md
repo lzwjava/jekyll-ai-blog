@@ -12,7 +12,7 @@ type: note
 
 ## What is LSTM?
 
-Long Short-Term Memory (LSTM) is a specialized type of recurrent neural network (RNN) architecture designed to handle and learn from sequential data, such as time series, natural language, or speech. Introduced in 1997 by Sepp Hochreiter and Jürgen Schmidhuber, LSTM addresses key limitations of traditional RNNs, particularly their struggle with long-range dependencies in data. 
+Long Short-Term Memory (LSTM) is a specialized type of recurrent neural network (RNN) architecture designed to handle and learn from sequential data, such as time series, natural language, or speech. Introduced in 1997 by Sepp Hochreiter and Jürgen Schmidhuber, LSTM addresses key limitations of traditional RNNs, particularly their struggle with long-range dependencies in data.
 
 At its core, an LSTM is a neural network cell that processes input sequences one step at a time while maintaining a "memory" of previous inputs. This memory allows it to capture patterns over extended periods, making it powerful for tasks where context from far back in the sequence matters. LSTMs are widely used in deep learning frameworks like TensorFlow and PyTorch, forming the backbone of many state-of-the-art models in artificial intelligence.
 

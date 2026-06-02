@@ -12,7 +12,7 @@ type: note
 
 Question: What do enzymes mean?
 
-Answer: 
+Answer:
 
 Enzymes are biological catalysts, primarily proteins produced by living cells, that speed up the rate of chemical reactions in organisms without being consumed or permanently altered in the process.
 
@@ -25,7 +25,7 @@ Enzymes are biological catalysts, primarily proteins produced by living cells, t
 
 Though rare exceptions exist (e.g., ribozymes, which are RNA-based catalysts), the vast majority of enzymes are proteins.
 
-References:  
+References:
 
 - [Enzyme - Wikipedia](https://en.wikipedia.org/wiki/Enzyme)
 - [Enzyme | Definition, Mechanisms, & Nomenclature | Britannica](https://www.britannica.com/science/enzyme)

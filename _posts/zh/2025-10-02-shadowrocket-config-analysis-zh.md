@@ -27,7 +27,7 @@ type: note
 设置全局应用行为、DNS 解析和网络路由。类似于 Shadowrocket 的"偏好设置"或"系统设置"。
 
 - `bypass-system = true`：忽略 iOS 系统代理设置。Shadowrocket 自行处理所有代理，不依赖系统级配置。
-  
+
 - `skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,captive.apple.com,*.ccb.com,*.abchina.com.cn,*.psbc.com,www.baidu.com`：逗号分隔的域名/IP 范围列表，**始终直连**（不经过代理）。包括：
   - 私有网络（例如家庭 Wi-Fi IP，如 192.168.x.x）。
   - 本地域名（*.local）和 localhost。

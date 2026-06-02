@@ -22,7 +22,7 @@ def call_mistral_api(prompt, model="mistral-small-2501", use_function_calling=Fa
     if not api_key:
         print("错误：未设置 MISTRAL_API_KEY 环境变量。")
         return None
-    
+
     url = "https://api.mistral.ai/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
@@ -107,7 +107,7 @@ def call_codestral_api(prompt, model="codestral-latest"):
     if not api_key:
         print("错误：未设置 MISTRAL_API_KEY 环境变量。")
         return None
-    
+
     url = "https://api.mistral.ai/v1/fim/completions"
     headers = {
         "Content-Type": "application/json",

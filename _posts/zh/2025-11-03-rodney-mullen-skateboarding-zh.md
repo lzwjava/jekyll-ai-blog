@@ -32,6 +32,6 @@ type: note
 ### 滑板之外
 马伦同时也是发明家与企业家，涉足科技与神经科学领域。他持有机器人外骨骼专利，并通过其公司Autodidactic Studios探索人工智能与机器人技术。2013年他在TED演讲《人口增长、环境与我们的未来》中，将滑板类比与创新可持续发展议题相融合。截至2025年，他仍活跃于滑板文化圈，不定期举办教学讲座并倡导极限运动中的心理健康意识。
 
-[罗德尼·马伦维基百科](https://en.wikipedia.org/wiki/Rodney_Mullen)  
-[罗德尼·马伦官方网站](https://rodneymullen.com/)  
+[罗德尼·马伦维基百科](https://en.wikipedia.org/wiki/Rodney_Mullen)
+[罗德尼·马伦官方网站](https://rodneymullen.com/)
 [TED演讲：创新的艺术](https://www.ted.com/talks/rodney_mullen_the_art_of_invention)

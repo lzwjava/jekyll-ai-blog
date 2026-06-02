@@ -12,7 +12,7 @@ type: note
 
 **Question:** 对于 Lenovo Xiaoxin IAH8，进入 BIOS 的按键是哪个？
 
-**Answer:** 
+**Answer:**
 
 对于 Lenovo Xiaoxin IAH8（中国市场的 IdeaPad 系列笔记本电脑），进入完整 BIOS/UEFI 设置的按键通常是 **F2** 或 **Fn + F2**。
 
@@ -24,7 +24,7 @@ type: note
 
 这与 IdeaPad/XiaoXin 系列中大多数近期 Lenovo 消费级笔记本电脑（包括许多 2024–2026 年的 Xiaoxin 型号）的标准方法一致。可能需要尝试几次——时机很重要，快速敲击会有所帮助。如果这些方法都不起作用，请检查 Windows 中的 fast boot/fast startup 功能（通过电源选项禁用它），或通过 Lenovo 的 Vantage App / 支持网站更新 BIOS，因为这有时能解决按键识别问题。
 
-**References:**  
+**References:**
 
 - [Lenovo official guidance on entering BIOS (F1 or F2 / Fn+F2 depending on model)](https://support.lenovo.com/us/en/videos/vid100750-how-to-enter-the-bios-setup-utility-in-window-8-10)
 - [Lenovo IdeaPad BIOS entry (F2 or Fn+F2)](https://support.lenovo.com/us/en/products/laptops-and-netbooks/700-series/730s-13iwl/solutions/ht500216-recommended-way-to-enter-bios-ideapad)

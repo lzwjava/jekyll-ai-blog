@@ -12,7 +12,7 @@ type: note
 
 **Question:** 谁是 Computer History Museum 的 Fellows？
 
-**Answer:** 
+**Answer:**
 
 Computer History Museum (CHM) 通过其 **CHM Fellow Awards** 项目表彰杰出的技术先驱。该项目始于 1987 年，第一位 Fellow 是 Grace Murray Hopper。该项目旨在表彰对 Computing 以及信息时代演进做出杰出贡献的个人（偶尔也包括团队）。Fellows 会入选博物馆的 **Hall of Fellows**。
 
@@ -40,7 +40,7 @@ Computer History Museum (CHM) 通过其 **CHM Fellow Awards** 项目表彰杰出
 
 如需查看包含传记和入选年份的完整历史及当前名单，请访问上方链接的官方 Hall of Fellows 页面。
 
-**References:**  
+**References:**
 
 - [Hall of Fellows - Computer History Museum](https://computerhistory.org/hall-of-fellows)
 - [Fellow Awards - Computer History Museum](https://computerhistory.org/fellow-awards)

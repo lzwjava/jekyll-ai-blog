@@ -12,7 +12,7 @@ type: note
 
 Question: How to install Steam on macOS?
 
-Answer: 
+Answer:
 
 Installing Steam on macOS is straightforward and uses the official client from Valve. As of December 2025, Steam supports the latest macOS versions (including macOS 15 and newer) and works on both Intel-based and Apple Silicon (M-series) Macs. On Apple Silicon Macs, the client now runs natively, with improved performance.
 
@@ -47,7 +47,7 @@ That's it—Steam is now installed and ready to browse, purchase, and play games
 - If the app bounces in the Dock but doesn't open, try right-clicking the icon and selecting **Open**, or restart your Mac.
 - For the best experience on Apple Silicon, use the latest Steam client, which includes native support.
 
-References:  
+References:
 
 - [Official Steam Download Page](https://store.steampowered.com/about/)
 - [How to Download and Install Steam on macOS (GeeksforGeeks, 2024)](https://www.geeksforgeeks.org/installation-guide/download-and-install-steam-on-macos/)

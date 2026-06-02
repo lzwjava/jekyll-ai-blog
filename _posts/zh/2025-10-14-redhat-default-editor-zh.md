@@ -26,5 +26,5 @@ type: note
 
 初学者可通过输入 `vimtutor` 启动交互式教程快速入门。
 
-[Vi 编辑器入门指南 - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)  
+[Vi 编辑器入门指南 - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)
 [Linux 技能：9 个教程助你更高效使用文本编辑器 - Red Hat](https://www.redhat.com/en/blog/text-editor-roundup-2022)

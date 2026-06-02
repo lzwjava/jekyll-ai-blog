@@ -38,7 +38,7 @@ Without this line in `<head>`, mobile Safari assumes you want the old desktop be
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-With this meta tag → layout viewport ≈ physical device width in CSS pixels  
+With this meta tag → layout viewport ≈ physical device width in CSS pixels
 Without it → layout viewport = 980px (or similar) even on a tiny phone
 
 That’s why on mobile, 100vw can look huge if you forget the meta tag.
@@ -77,10 +77,10 @@ Paste this into any HTML file and open it on phone vs Mac:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { margin:0; font-family:sans-serif; }
-    .box { 
-      width: 100vw; 
-      height: 100vh; 
-      background: #f06d06; 
+    .box {
+      width: 100vw;
+      height: 100vh;
+      background: #f06d06;
       color: white;
       display: grid;
       place-items: center;

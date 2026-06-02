@@ -20,5 +20,5 @@ Apache DataFusion, an extensible query engine for analytical applications, was d
 
 Overall, Rust enables DataFusion to outperform single-node engines like DuckDB or ClickHouse in benchmarks while remaining lightweight and modular.
 
-[Apache DataFusion Documentation - Introduction](https://datafusion.apache.org/user-guide/introduction.html)  
+[Apache DataFusion Documentation - Introduction](https://datafusion.apache.org/user-guide/introduction.html)
 [Rust is for Big Data by Andy Grove](https://andygrove.io/2018/01/rust-is-for-big-data/)

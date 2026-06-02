@@ -79,7 +79,7 @@ config = types.GenerateImagesConfig(
     enhance_prompt=True,          # 基于 LLM 的提示词重写
     negative_prompt="排除狗",
     language="en",
-    safety_filter_level="block_medium_and_above",  
+    safety_filter_level="block_medium_and_above",
     person_generation="allow_adult",
 )
 ```

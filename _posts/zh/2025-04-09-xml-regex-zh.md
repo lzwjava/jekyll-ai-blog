@@ -19,11 +19,11 @@ def extract_look_tags(xml_file):
     # 读取 XML 文件内容
     with open(xml_file, 'r') as file:
         xml_content = file.read()
-    
+
     # 使用正则表达式查找所有 <c:look> 标签
     pattern = r'<c:look>(\d+)</c:look>'
     matches = re.findall(pattern, xml_content)
-    
+
     # 打印数字
     for number in matches:
         print(number)
@@ -32,10 +32,10 @@ def main():
     # 设置参数解析器
     parser = argparse.ArgumentParser(description='从 XML 文件的 <c:look> 标签中提取数字')
     parser.add_argument('file_path', help='XML 文件路径')
-    
+
     # 解析参数
     args = parser.parse_args()
-    
+
     # 处理文件
     extract_look_tags(args.file_path)
 

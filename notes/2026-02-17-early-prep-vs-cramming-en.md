@@ -11,7 +11,7 @@ type: note
 
 Question: What is the importance of preparing well in advance for exams like IELTS, Gaokao, TOEFL, GRE, or SAT, compared to last-minute cramming?
 
-Answer: 
+Answer:
 
 Preparing thoroughly and consistently over a long period is one of the most effective strategies for high-stakes exams such as IELTS, Gaokao, TOEFL, GRE, and SAT. Here are the main advantages of early and steady preparation compared to last-minute studying:
 
@@ -41,6 +41,6 @@ Preparing thoroughly and consistently over a long period is one of the most effe
 
 In short, the single biggest advantage of preparing well in advance is not only higher scores — it is the ability to walk into the exam room calm, well-rested, properly equipped, and mentally fresh. That combination of emotional stability + solid knowledge gives a much stronger chance of performing close to your true potential.
 
-References:  
+References:
 
 - None (general study psychology and test-preparation principles)

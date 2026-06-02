@@ -27,25 +27,25 @@ type: note
 
 ### 快速决策指南 – 2026 年笔记本电脑现实情况
 
-- **你想要最顺畅的 BSD 笔记本体验**  
-  → **FreeBSD 15.x**（或最新的季度分支）+ KDE Plasma 或 GNOME  
+- **你想要最顺畅的 BSD 笔记本体验**
+  → **FreeBSD 15.x**（或最新的季度分支）+ KDE Plasma 或 GNOME
   或者如果你喜欢更“发行版式”的开箱即用体验，从 **GhostBSD**（MATE/XFCE）开始。
 
-- **你热爱安全审计且讨厌遥测/复杂性**  
+- **你热爱安全审计且讨厌遥测/复杂性**
   → **OpenBSD**（可能使用 Isotop 桌面版本）
 
-- **你有非常旧的硬件或想在非寻常架构上运行 BSD**  
+- **你有非常旧的硬件或想在非寻常架构上运行 BSD**
   → **NetBSD**
 
-- **你想尝试不同的 SMP/文件系统方法**  
+- **你想尝试不同的 SMP/文件系统方法**
   → **DragonFly BSD**（但需预期更多调整）
 
-- **你只是想试用 BSD 而不想承诺**  
+- **你只是想试用 BSD 而不想承诺**
   → 下载 **NomadBSD** live 镜像或 **GhostBSD**，先从 USB 启动。
 
 在 2026 年的实践中，**~80–90% 日常在笔记本上成功运行 BSD 的人选择某种形式的 FreeBSD**（纯版、GhostBSD、NomadBSD 等）。FreeBSD 与其他系统在日常笔记本使用（Wi-Fi 稳定性、图形加速、挂起/恢复、触控板/手势、电池寿命调整）方面的差距进一步拉大。
 
-参考资料：  
+参考资料：
 
 - [FreeBSD official site](https://www.freebsd.org)
 - [GhostBSD download page](https://www.ghostbsd.org)

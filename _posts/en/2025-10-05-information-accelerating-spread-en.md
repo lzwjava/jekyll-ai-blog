@@ -24,13 +24,13 @@ And typhoons? Spot on again—social media has turbocharged that. Pre-2010s, you
 
 In short, the 90s/00s had the tech for "fast" by that era's standards, but it was linear and gatekept. Now it's a wildfire—richer, messier, and relentless. What do you think drives the biggest difference: the tools or just more voices?
 
-**References**  
-- [Timeline: Tiananmen protests - BBC News](https://www.bbc.com/news/world-asia-china-27404764)  
-- [Timeline: What Led to the Tiananmen Square Massacre - PBS](https://www.pbs.org/wgbh/frontline/article/timeline-tiananmen-square/)  
-- [September 11 Attacks: Facts, Background & Impact | HISTORY](https://www.history.com/topics/21st-century/9-11-attacks)  
-- [Timeline of bad information in first wave of Kobe Bryant story](https://www.nwpb.org/uncategorized/2020-01-26/timeline-of-bad-information-in-first-wave-of-kobe-bryant-story)  
-- [TMZ, first to report death of Kobe Bryant, scolded by police - CNN](https://www.cnn.com/2020/01/26/media/tmz-death-report-kobe-bryant)  
-- [What to know about Charlie Kirk, Trump ally and conservative activist](https://www.bbc.com/news/articles/cdxqnkwerj7o)  
-- [The Assassination of Charlie Kirk: A Complicated Battle for Free Speech](https://lawreview.syr.edu/the-assassination-of-charlie-kirk-a-complicated-battle-for-free-speech/)  
-- [Watching chaos through a screen: How social media is changing the way we follow extreme weather events](https://reutersinstitute.politics.ox.ac.uk/news/watching-chaos-through-screen-how-social-media-changing-way-we-follow-extreme-weather-events)  
+**References**
+- [Timeline: Tiananmen protests - BBC News](https://www.bbc.com/news/world-asia-china-27404764)
+- [Timeline: What Led to the Tiananmen Square Massacre - PBS](https://www.pbs.org/wgbh/frontline/article/timeline-tiananmen-square/)
+- [September 11 Attacks: Facts, Background & Impact | HISTORY](https://www.history.com/topics/21st-century/9-11-attacks)
+- [Timeline of bad information in first wave of Kobe Bryant story](https://www.nwpb.org/uncategorized/2020-01-26/timeline-of-bad-information-in-first-wave-of-kobe-bryant-story)
+- [TMZ, first to report death of Kobe Bryant, scolded by police - CNN](https://www.cnn.com/2020/01/26/media/tmz-death-report-kobe-bryant)
+- [What to know about Charlie Kirk, Trump ally and conservative activist](https://www.bbc.com/news/articles/cdxqnkwerj7o)
+- [The Assassination of Charlie Kirk: A Complicated Battle for Free Speech](https://lawreview.syr.edu/the-assassination-of-charlie-kirk-a-complicated-battle-for-free-speech/)
+- [Watching chaos through a screen: How social media is changing the way we follow extreme weather events](https://reutersinstitute.politics.ox.ac.uk/news/watching-chaos-through-screen-how-social-media-changing-way-we-follow-extreme-weather-events)
 - [Global online social response to a natural disaster and its socioeconomic predictors](https://www.nature.com/articles/s41599-023-01922-5)

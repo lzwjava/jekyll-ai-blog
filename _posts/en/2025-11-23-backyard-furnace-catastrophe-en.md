@@ -25,7 +25,7 @@ The campaign was launched with the goal of rapidly transforming China from an ag
 
 ### 🏡 The Method: Backyard Furnaces
 
-* Instead of relying solely on large, industrial steel mills, the campaign mobilized the entire population to produce steel in small, homemade furnaces built in **villages, communes, schools, and even city backyards**. 
+* Instead of relying solely on large, industrial steel mills, the campaign mobilized the entire population to produce steel in small, homemade furnaces built in **villages, communes, schools, and even city backyards**.
 * Millions of peasants, who had no knowledge of metallurgy, were pulled from their fields to participate in the campaign.
 
 ### 🗑️ The Consequence: Melting Down the Useful

@@ -57,7 +57,7 @@ type: note
 
 如果在尝试禁用 Fast Startup 并完全关机后仍然无效，你的型号可能需要从 Lenovo 官网获取 BIOS 更新（在其中文或全球镜像支持页面搜索你具体的 XiaoXin 型号代码）。
 
-References:  
+References:
 
 - [https://wiki.archlinux.org/title/Lenovo_XiaoXin_15are_2020](https://wiki.archlinux.org/title/Lenovo_XiaoXin_15are_2020)
 - [https://support.lenovo.com/us/en/solutions/ht104668-how-to-select-boot-device-from-bios-boot-menu-ideapad-thinkpad-thinkstation-thinkcentre-ideacentre](https://support.lenovo.com/us/en/solutions/ht104668-how-to-select-boot-device-from-bios-boot-menu-ideapad-thinkpad-thinkstation-thinkcentre-ideacentre)

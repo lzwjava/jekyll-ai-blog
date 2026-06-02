@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 `~/.ssh/config` 中创建 aliases，以便在 ssh 命令中使用短名称而不是输入完整的 IP 地址或长主机名？
 
-Answer: 
+Answer:
 
 你可以轻松地在 `~/.ssh/config` 文件中为服务器创建简短且便于记忆的名称（aliases/Host shortcuts）。
 
@@ -127,7 +127,7 @@ ssh myserver
 
 这是处理几十个甚至几百个服务器时最整洁、最流行的方法。
 
-References:  
+References:
 
 - [OpenSSH official documentation - ssh_config](https://man.openbsd.org/ssh_config)
 - [Common SSH config patterns](https://linux.die.net/man/5/ssh_config)

@@ -25,7 +25,7 @@ Your 30 projects were great for breadth, but to go deep, reimplement architectur
   - Week 1-2: Videos 1-4 (micrograd/backprop engine, MLP from scratch).
   - Week 3-4: Videos 5-7 (Makemore bigram/ngram models to LSTM).
   - Extend: Port one to your agent setup (e.g., train on bank docs for a simple predictor).
-  
+
 - **Next: Reimplement 3-5 Core Papers**
   - Transformer (Attention is All You Need): Code a basic version in PyTorch (no Hugging Face). Resources: Annotated Transformer notebook on GitHub.
   - GPT-2 architecture: From Karpathy's nanoGPT repo—train on tiny datasets, then debug scaling issues (e.g., why longer contexts fail).
@@ -44,7 +44,7 @@ Since you mentioned GPT, lean into generative models. Build end-to-end apps that
 - **How to Study/Iterate**:
   - **Daily Habit**: 30-min code sprints (e.g., fix one bug in your impl). Karpathy: "Patience and detail win."
   - **Debug Deep**: When stuck, visualize tensors (e.g., Matplotlib for attention maps). Join Discord/Reddit (r/MachineLearning) for quick feedback.
-  - **Resources**: 
+  - **Resources**:
     - nanoGPT repo (Karpathy's own).
     - Fast.ai's Practical Deep Learning (free, project-heavy).
     - EleutherAI's GPT-NeoX for scaling tips.
@@ -53,7 +53,7 @@ Since you mentioned GPT, lean into generative models. Build end-to-end apps that
 Your bank experience is gold—use ML to automate *more*. This keeps learning practical and resume-boosting.
 
 - **Integrate into Work**: Propose an ML pilot, like using your agents for anomaly detection in releases (LSTM on logs). Copilot + DL = powerhouse.
-- **Community/Output**: 
+- **Community/Output**:
   - Contribute to 1-2 OSS (e.g., Hugging Face datasets for finance).
   - Share: Blog one project/month on Medium (but code-first, per Karpathy). Or tweet threads on X.
   - Compete: Kaggle for DL comps (e.g., tabular data with embeddings).

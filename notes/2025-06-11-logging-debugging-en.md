@@ -144,7 +144,7 @@ public class LoggingAgent {
     public static void premain(String args, Instrumentation inst) {
         new AgentBuilder.Default()
             .type(ElementMatchers.any())
-            .transform((builder, type, classLoader, module) -> 
+            .transform((builder, type, classLoader, module) ->
                 builder.method(ElementMatchers.any())
                        .intercept(MethodDelegation.to(LoggingInterceptor.class)))
             .installOn(inst);

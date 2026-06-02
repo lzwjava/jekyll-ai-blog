@@ -55,7 +55,7 @@ Because you’re using iCloud Photos, deleting them from your Mac only removes t
 
 ### Bonus: Drag-and-drop from Photos (quick but loses some organization)
 
-You can also just select photos → drag them directly from Photos app to a folder on your external disk in Finder.  
+You can also just select photos → drag them directly from Photos app to a folder on your external disk in Finder.
 This creates copies with sequential names (IMG_0001, etc.) and keeps edits, but splits Live Photos and may not preserve all metadata perfectly.
 
 ### Summary – Recommended workflow

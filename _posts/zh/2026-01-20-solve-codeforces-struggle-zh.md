@@ -37,7 +37,7 @@ Answer:
 
 简而言之：是的，**很多人** 都有这种经历，并且公开抱怨/讨论这种情况 —— 这基本上是 Codeforces 进阶之路的必经礼。
 
-References:  
+References:
 
 - https://codeforces.com/blog/entry/112965
 - https://codeforces.com/blog/entry/60810

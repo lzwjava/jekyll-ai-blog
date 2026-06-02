@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**就任北京大学校长之演说**  
+**就任北京大学校长之演说**
 （蔡元培，1917年1月）
 
 五年前，严几道（严复）先生任本校校长时，我在教育部任职，曾在开学典礼上为学校尽了一点力。你们大多数人是修完预科后来的，所以那天的情形你们大概还记得。“一日不见如隔三秋”，何况几年工夫，你们一定比那时大有进步了。
@@ -38,8 +38,8 @@ type: note
 
 这篇著名的演说是中国现代教育史上的重要文献，批判了大学求学的功利动机，并将大学重新定义为纯粹学术追求的场所，而不是通往财富或权力的垫脚石。它在蔡元培的改革中发挥了奠基作用，将北京大学转变为学术自由和新文化运动的中心。
 
-参考文献：  
+参考文献：
 
-- [https://zhuanlan.zhihu.com/p/31364265](https://zhuanlan.zhihu.com/p/31364265) (contains a full English translation by alexcwlin)  
-- [https://zh.wikisource.org/wiki/就任北京大學校長之演說](https://zh.wikisource.org/wiki/%E5%B0%B1%E4%BB%BB%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%95%B7%E4%B9%8B%E6%BC%94%E8%AA%AA) (original Chinese text)  
+- [https://zhuanlan.zhihu.com/p/31364265](https://zhuanlan.zhihu.com/p/31364265) (contains a full English translation by alexcwlin)
+- [https://zh.wikisource.org/wiki/就任北京大學校長之演說](https://zh.wikisource.org/wiki/%E5%B0%B1%E4%BB%BB%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%95%B7%E4%B9%8B%E6%BC%94%E8%AA%AA) (original Chinese text)
 - Various Peking University historical archives and educational materials

@@ -46,8 +46,8 @@ type: note
 - 与其他热门自学资源比较（例如，自考365、中公教育自考、学而思网校自考版等）。
 - 仍以官方教材为核心，将 App 作为辅助刷题/练习工具。
 
-**参考资料：**  
+**参考资料：**
 
-- [https://www.biguotk.com/](https://www.biguotk.com/)  
-- [https://www.biguotk.com/app_download.html](https://www.biguotk.com/app_download.html)  
+- [https://www.biguotk.com/](https://www.biguotk.com/)
+- [https://www.biguotk.com/app_download.html](https://www.biguotk.com/app_download.html)
 - [https://www.biguotk.com/news-2378.html](https://www.biguotk.com/news-2378.html)

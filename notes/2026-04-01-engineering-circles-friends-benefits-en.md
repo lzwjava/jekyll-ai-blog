@@ -16,7 +16,7 @@ Answer: Absolutely. Running a technical group within a social circle creates a u
 Here are the primary values such a group provides:
 
 ### 1. Accelerated Mutual Learning
-In a professional setting, people often hesitate to admit what they don’t know. In a group of friends, you can bypass the "imposter syndrome" and dive straight into raw, honest technical discussions. 
+In a professional setting, people often hesitate to admit what they don’t know. In a group of friends, you can bypass the "imposter syndrome" and dive straight into raw, honest technical discussions.
 * **Knowledge Cross-Pollination:** One friend might excel at backend architecture while another is a DevOps specialist; sharing these niches elevates the entire group’s "full-stack" IQ.
 * **Low-Stakes Failure:** You can pitch "bad" ideas or experimental technologies without fear of professional consequences.
 

@@ -65,5 +65,5 @@ type: note
 
 简而言之，是的——计算机 → 路由器 → ISP → 全球路由器网络 → 服务器。这是一个建立在IP路由之上的精美分布式系统。如果你分享完整的traceroute结果或想深入了解某个部分（例如网页的TCP握手），请告诉我！
 
-[TCP/IP详解（网络基础书籍）](https://www.oreilly.com/library/view/tcp-ip-illustrated-volume/0201633469/)  
+[TCP/IP详解（网络基础书籍）](https://www.oreilly.com/library/view/tcp-ip-illustrated-volume/0201633469/)
 [Traceroute工作原理（Cloudflare详解）](https://www.cloudflare.com/learning/network-layer/what-is-traceroute/)

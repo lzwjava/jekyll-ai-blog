@@ -25,16 +25,16 @@ Setting up a proxy server in Google Cloud allows you to route your internet traf
 Before setting up the proxy server, you'll need to create a virtual machine (VM) instance in Google Cloud.
 
 1. Log in to Google Cloud Console: Go to [Google Cloud Console](https://console.cloud.google.com/) and log in to your account.
-   
+
 2. Create a New VM Instance:
    - Navigate to Compute Engine > VM instances.
    - Click on Create Instance.
    - Choose the desired Region and Machine Type. For simplicity, you can use the default settings or choose a lightweight configuration like the `e2-micro` instance.
    - Under the Firewall section, select both Allow HTTP traffic and Allow HTTPS traffic to enable web access.
-   
+
 3. Set up SSH Access:
    - Under the SSH Keys section, add your SSH public key to access the instance remotely. This is critical for configuring your proxy server later.
-   
+
 4. Click on Create to launch your VM.
 
 After the VM is set up, you can connect to it using SSH from the Google Cloud Console or via the terminal with:
@@ -81,7 +81,7 @@ After configuring the firewall, it’s time to test your proxy server.
    You can configure your local machine’s browser or system proxy settings to use the external IP address of your Google Cloud VM and the port that your proxy server is listening on (e.g., `3128`).
 
 2. Test with Command Line:
-   
+
    You can also test the proxy with `curl` by setting the proxy environment variables:
 
 ```bash

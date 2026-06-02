@@ -32,6 +32,6 @@ Spring request filters (often implemented via `javax.servlet.Filter` or Spring's
 
 Filters execute outside the Spring DispatcherServlet, making them ideal for low-level concerns, unlike interceptors which are more Spring-specific and controller-focused. For implementation, extend `OncePerRequestFilter` to avoid multiple executions per request.
 
-[Filters :: Spring Framework](https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html)  
-[HandlerInterceptors vs. Filters in Spring MVC | Baeldung](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter)  
+[Filters :: Spring Framework](https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html)
+[HandlerInterceptors vs. Filters in Spring MVC | Baeldung](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter)
 [Spring Boot - Servlet Filter - GeeksforGeeks](https://www.geeksforgeeks.org/springboot/spring-boot-servlet-filter/)

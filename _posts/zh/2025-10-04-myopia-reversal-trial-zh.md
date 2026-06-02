@@ -20,9 +20,9 @@ type: note
 
 请坚持——逆转近视本非直线进程，但像你这样系统的方法？正是持久见效之道。
 
-[近视：一种现代却可逆的疾病，M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF)  
-[近视：一种现代却可逆的疾病](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)  
-[王垠自然视力恢复法的实验验证](https://lzwjava.github.io/vision-restoration-en)  
-[自然视力恢复：「刚好清晰」原则](https://lzwjava.github.io/barely-clear-en)  
-[自然视力恢复实用技巧](https://lzwjava.github.io/vision-tips-en)  
+[近视：一种现代却可逆的疾病，M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF)
+[近视：一种现代却可逆的疾病](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/)
+[王垠自然视力恢复法的实验验证](https://lzwjava.github.io/vision-restoration-en)
+[自然视力恢复：「刚好清晰」原则](https://lzwjava.github.io/barely-clear-en)
+[自然视力恢复实用技巧](https://lzwjava.github.io/vision-tips-en)
 [运用多焦点渐进镜逆转近视](https://lzwjava.github.io/multifocal-en)

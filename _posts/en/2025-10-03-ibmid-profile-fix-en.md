@@ -13,7 +13,7 @@ type: note
 It sounds like you're encountering a validation error when trying to update your IBMid profile to download the DB2 Community Edition (which is free from IBM). This is likely due to the form's strict input rules—commas (",") can sometimes trigger parsing issues in older web forms or databases, especially if they're not escaped properly. Here's how to troubleshoot and resolve this:
 
 ### Quick Fixes for the Form Fields
-1. **Remove Commas Entirely**: 
+1. **Remove Commas Entirely**:
    - Scan each field (e.g., Full Company Name, Street Address) and replace any commas with alternative separators like "and", " - ", or spaces. For example:
      - "ABC Company, Inc." → "ABC Company Inc."
      - "123 Main St., Apt 4" → "123 Main St Apt 4"
@@ -22,7 +22,7 @@ It sounds like you're encountering a validation error when trying to update your
 2. **Other Common Restrictions to Check**:
    - Avoid special characters like semicolons (;), quotes (" or '), or backslashes (\) if possible.
    - Keep inputs concise—some fields might have length limits (e.g., 100 characters).
-   - Use standard formats: 
+   - Use standard formats:
      - Country: Select from dropdown if available (e.g., "United States" not "USA, Inc.").
      - State/Province: Use two-letter codes if prompted (e.g., "CA" for California).
      - Zip Code: No letters or hyphens if it's causing issues; try without the hyphen (e.g., "90210" instead of "90210-1234").

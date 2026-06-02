@@ -12,7 +12,7 @@ type: note
 
 Question: Is winning in PUBG Mobile like life, where one needs to learn from mistakes, be patient, have a long-term view, and some luck?
 
-Answer: 
+Answer:
 
 Yes, that's a spot-on analogy! PUBG Mobile (and battle royale games in general) mirrors life's challenges in many ways. Success isn't just about raw talent or reflexes—it's a grind that rewards smart habits over time. Let's break it down point by point, with real strategies from pro tips and player experiences that back this up.
 
@@ -42,11 +42,11 @@ Yes, that's a spot-on analogy! PUBG Mobile (and battle royale games in general) 
 
 Stack 100+ games, and these habits compound. Pros don't win every match—they win the meta. Same in life: consistency beats talent lacking discipline.
 
-References:  
-- [Reddit: Tips that helped PUBG gameplay](https://www.reddit.com/r/PUBGMobile/comments/1caocwk/what_are_some_tipstricks_that_drastically_helped/)  
-- [Red Bull: PUBG Mobile Pro Tips](https://www.redbull.com/mea-en/pubg-mobile-pro-tips-from-the-pros)  
-- [Quora: Top 10 tips to top 10](https://www.quora.com/What-are-your-top-10-tips-for-PUBG-Mobile-to-consistently-reach-top-10)  
-- [YouTube: Learn from mistakes series](https://www.youtube.com/watch?v=gHxKvOEuxgE)  
-- [Duelmasters: Common mistakes to avoid](https://www.duelmasters.io/blog/pubg-mobile-common-mistakes)  
-- [YouTube: #1 Skill - Positioning](https://www.youtube.com/watch?v=CQDDZ8OchV4)  
+References:
+- [Reddit: Tips that helped PUBG gameplay](https://www.reddit.com/r/PUBGMobile/comments/1caocwk/what_are_some_tipstricks_that_drastically_helped/)
+- [Red Bull: PUBG Mobile Pro Tips](https://www.redbull.com/mea-en/pubg-mobile-pro-tips-from-the-pros)
+- [Quora: Top 10 tips to top 10](https://www.quora.com/What-are-your-top-10-tips-for-PUBG-Mobile-to-consistently-reach-top-10)
+- [YouTube: Learn from mistakes series](https://www.youtube.com/watch?v=gHxKvOEuxgE)
+- [Duelmasters: Common mistakes to avoid](https://www.duelmasters.io/blog/pubg-mobile-common-mistakes)
+- [YouTube: #1 Skill - Positioning](https://www.youtube.com/watch?v=CQDDZ8OchV4)
 - [X Post: Staying in the game for skill+luck](https://x.com/Piana100x/status/1999927315321733357)

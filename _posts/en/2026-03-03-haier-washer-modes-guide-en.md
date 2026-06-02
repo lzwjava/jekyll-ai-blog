@@ -11,7 +11,7 @@ type: note
 
 Question: How to choose the right mode on a Haier washer with options like 新衣, 混合, 丝绸, 摇篮柔洗, 定时, etc.?
 
-Answer: 
+Answer:
 
 Haier washing machines (especially models popular in China and Asia) offer specialized cycles tailored to different fabric types and needs. Here's a breakdown of the modes you mentioned, based on common Haier washer programs and standard Chinese labeling:
 
@@ -44,7 +44,7 @@ Haier washing machines (especially models popular in China and Asia) offer speci
 
 Always separate colors (to avoid bleeding), don't overload, and use the right amount of HE/low-foam detergent. For best results, refer to your specific model's user manual (often available on Haier’s website by entering your model number).
 
-References:  
+References:
 
 - [Haier India Blog - Washing Machine Cycles](https://shop.haierindia.com/blog/washing-machine-cycles-best-settings)
 - [Haier - Gentle Wash Cycle Explanation](https://www.haier.com/bd/about-haier/news/20250807_269514.shtml)

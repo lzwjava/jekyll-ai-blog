@@ -26,7 +26,7 @@ Here:
 - v = eigenvector (a direction)
 - λ = eigenvalue (a number, the scaling factor)
 
-In words:  
+In words:
 **The matrix A stretches or shrinks the eigenvector v, but does not change its direction** (it might flip it if λ is negative).
 
 So after applying A, the vector is still pointing in the same (or opposite) direction — only its length changes by factor |λ|.
@@ -59,7 +59,7 @@ You said:
 
 > "(A−λE) * eigenvector = 0 , but that like 3×3 ⋅ 3×1 = 3×1 matrix, how can it be zero?"
 
-Yes, the result is a 3×1 vector.  
+Yes, the result is a 3×1 vector.
 But **It is the zero vector** (i.e., [0, 0, 0]ᵀ), **not the zero matrix**.
 
 So:
@@ -70,13 +70,13 @@ So:
              [0]
 ```
 
-This does **not** mean that (A − λI) is the zero matrix!  
-It just means that v is in the **null space** of (A − λI).  
+This does **not** mean that (A − λI) is the zero matrix!
+It just means that v is in the **null space** of (A − λI).
 The matrix (A − λI) sends the special vector v to zero, but sends other vectors elsewhere.
 
 ### Simple Example (2×2 matrix)
 
-Let  
+Let
 ```
 A = [2  1]
     [0  2]
@@ -84,7 +84,7 @@ A = [2  1]
 
 Try v = [1, 0]ᵀ
 
-Then  
+Then
 A v = [2 1] [1] = [2×1 + 1×0] = [2] = 2 × [1
       [0 2] [0]   [0×1 + 2×0]   [0]     [0]
 

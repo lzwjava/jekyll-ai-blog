@@ -16,8 +16,8 @@ type: note
 
 ### 快速解决方案（任选其一）
 
-1. **最佳推荐：使用官方流式 FineWeb-Edu 下载器替代本地文件**  
-   完全不要使用 nanoGPT 的 `data/fineweb/prepare.py`。  
+1. **最佳推荐：使用官方流式 FineWeb-Edu 下载器替代本地文件**
+   完全不要使用 nanoGPT 的 `data/fineweb/prepare.py`。
    使用 Karpathy 专为 FineWeb-Edu 100 亿标记（或更大规模）编写的新脚本：
 
    ```bash
@@ -26,12 +26,12 @@ type: note
    python fineweb.py
    ```
 
-   该脚本通过 `datasets.load_dataset(..., streaming=True)` 和多进程流式下载并标记化 FineWeb-Edu sample-10BT（100 亿标记，原始数据约 15-20 GB）。它永远不会将完整数据集加载到内存中，并会在类似 `edu_fineweb10B/` 的文件夹中生成 nanoGPT 预期格式的 `.bin` 分片文件。  
+   该脚本通过 `datasets.load_dataset(..., streaming=True)` 和多进程流式下载并标记化 FineWeb-Edu sample-10BT（100 亿标记，原始数据约 15-20 GB）。它永远不会将完整数据集加载到内存中，并会在类似 `edu_fineweb10B/` 的文件夹中生成 nanoGPT 预期格式的 `.bin` 分片文件。
    该脚本可在 32-64 GB 内存的机器上正常运行（如果减少脚本中的 `num_proc_load_dataset` 和 `num_proc` 参数，甚至可在更小内存环境中运行）。
 
    如需处理完整 100B 或 1T 版本，只需将 `remote_name = "sample-10BT"` 改为 `"100BT"` 或所需版本即可。
 
-2. **如需保留本地 10 个 parquet → txt 文件**  
+2. **如需保留本地 10 个 parquet → txt 文件**
    修改 `data/fineweb/prepare.py` 使其分块处理文本而非全量加载：
 
    打开脚本并将 `with open(local_file, 'r', encoding='utf-8') as f: data = f.read()` 代码块替换为：
@@ -55,8 +55,8 @@ type: note
 
    这样即使处理 15 GB 文件也能将峰值内存控制在约 10-15 GB。
 
-3. **硬件临时解决方案（非理想方案）**  
-   - 增加大量交换空间（例如 64-128 GB 交换文件）。开始交换后会极其缓慢，但可能完成处理。  
+3. **硬件临时解决方案（非理想方案）**
+   - 增加大量交换空间（例如 64-128 GB 交换文件）。开始交换后会极其缓慢，但可能完成处理。
      ```bash
      sudo fallocate -l 64G /swapfile
      sudo chmod 600 /swapfile
@@ -68,5 +68,5 @@ type: note
 ### 总结
 直接运行 build-nanogpt 中的官方 `fineweb.py` 是最简洁的解决方案，也是目前处理 FineWeb 的通用方法。问题根源在于您拼接的 15 GB txt 文件，而非 FineWeb 本身。
 
-[官方 FineWeb-Edu 下载脚本](https://raw.githubusercontent.com/karpathy/build-nanogpt/master/fineweb.py)  
+[官方 FineWeb-Edu 下载脚本](https://raw.githubusercontent.com/karpathy/build-nanogpt/master/fineweb.py)
 [FineWeb-Edu 数据集页面](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)

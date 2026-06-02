@@ -21,6 +21,6 @@ type: note
 
 回归你的思考：是的，我们都带着认知盲区离开人世，但杜威会说这正是生命的意义所在——人生是持续修正的过程，而非打卡清单。互联网是个起点（如同杜威时代的图书馆），但若缺少“实践”，就只是空洞的回响。那么，在你视野中，哪项“实践”即将为你开启新世界？
 
-[约翰·杜威教育哲学](https://plato.stanford.edu/entries/dewey/)  
-[杜威《经验与教育》](https://www.gutenberg.org/files/56836/56836-h/56836-h.htm)  
+[约翰·杜威教育哲学](https://plato.stanford.edu/entries/dewey/)
+[杜威《经验与教育》](https://www.gutenberg.org/files/56836/56836-h/56836-h.htm)
 [杜威“从做中学”在现代语境中的应用](https://www.edutopia.org/article/john-deweys-3-principles-learning)

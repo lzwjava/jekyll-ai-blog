@@ -46,16 +46,16 @@ Virtual threads 在 JDK 21 中成为永久特性，被视为近年来 Java 平�
 
 Java 正在迅速成为严肃的 AI 平台：
 
-**Spring AI 1.0 GA（2025 年 5 月）**  
+**Spring AI 1.0 GA（2025 年 5 月）**
 Spring AI 1.0 GA 带来了企业级功能，包括用于文档摄取的 ETL 框架（S3 到 MongoDB）、通过 Spring Boot Actuator 的全面可观测性，以及针对长对话的内存管理功能。它支持所有主要 AI 提供商——Anthropic、OpenAI、Microsoft、Amazon、Google 和 Ollama——并将 AI 响应直接映射到 POJO 的结构化输出。
 
-**LangChain4j 1.0（2025 年 5 月）**  
+**LangChain4j 1.0（2025 年 5 月）**
 LangChain4j 作为一个对 Java 开发者感觉原生的框架构建，拥抱 Java 习惯用法，如强类型、注解驱动编程和编译时检查。它在广泛的 beta 测试后于 2025 年 5 月稳定为 1.0 版本。到 2025 年，它将多模态模型和代理式多代理架构作为一流模式支持。
 
-**新型 Agent 框架**  
+**新型 Agent 框架**
 Embabel Agent Framework 和 Koog —— 分别由 Spring Framework 创始人 Rod Johnson 和 JetBrains 创建 —— 是 2025 年 Q2 引入的新的 JVM 开源代理平台，专为开发者构建和运行 AI 代理而设计。
 
-**MCP Java SDK**  
+**MCP Java SDK**
 于 2024 年 12 月引入的 MCP Java SDK 使 Java 应用能够通过标准化接口与 AI 模型和工具交互，支持同步和异步通信模式。
 
 ---

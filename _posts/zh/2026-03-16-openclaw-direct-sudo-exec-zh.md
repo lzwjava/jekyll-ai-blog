@@ -46,7 +46,7 @@ type: note
 
 总之，OpenClaw 在此的主要优势是由于其自托管性质，能够**更自由地直接本地访问运行特权（sudo）命令**，而 Claude Code 使用门控/间接方法以确保安全。如果您需要无限制执行，请谨慎使用 OpenClaw。
 
-参考文献：  
+参考文献：
 
 - [https://openclaw.ai/](https://openclaw.ai/)
 - [https://github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)

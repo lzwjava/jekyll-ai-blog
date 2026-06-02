@@ -33,7 +33,7 @@ If you're looking for more public-friendly options without university affiliatio
 
 For pure public use, start with the Central Library—it's spacious (10+ floors) and hosts regular tech events. University libraries like HKUST offer deeper, specialized depth if you can access them.
 
-[HKUST Library Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology_Library)  
-[HKUST Library Official Site](https://library.hkust.edu.hk/)  
-[Hong Kong Central Library](https://www.hkpl.gov.hk/en/locations/hong-kong-central-library.html)  
+[HKUST Library Wikipedia](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology_Library)
+[HKUST Library Official Site](https://library.hkust.edu.hk/)
+[Hong Kong Central Library](https://www.hkpl.gov.hk/en/locations/hong-kong-central-library.html)
 [6 Best Public Libraries in Hong Kong](https://www.localiiz.com/post/culture-literature-best-public-libraries-hong-kong)

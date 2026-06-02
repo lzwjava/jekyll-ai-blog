@@ -12,7 +12,7 @@ type: note
 
 Question: 什么是前 30 名最优秀的文学、散文或长篇作品，类似于《1984》和《老人与海》？
 
-Answer: 
+Answer:
 
 这里为您整理了一份包含 30 部备受推崇的 **Literary Novels**（侧重于文学虚构类的经典与杰作）以及一些杰出的 **Long-form essays/nonfiction** 的清单。这份清单综合了 Modern Library's 100 Best Novels、Goodreads 文学排名以及“最伟大书籍”汇总来源的共识。您的示例（George Orwell 的 *1984* 和 Ernest Hemingway 的 *The Old Man and the Sea*）均属于反乌托邦及简练的文学经典，因此本评选侧重于具有深度、风格独特且极具持久影响力的思考性作品。
 
@@ -82,7 +82,7 @@ Answer:
 
 这些作品因其文体创新、主题深度和文化影响而经常在文学史上名列前茅。许多作品出现在 Modern Library、Goodreads 和“最伟大书籍”合辑中。如果您想要快速而有力的阅读体验，可以从 *The Old Man and the Sea* 或 Orwell 的散文等较短的作品开始。
 
-References:  
+References:
 
 - [Modern Library 100 Best Novels](https://en.wikipedia.org/wiki/Modern_Library%27s_100_Best_Novels)
 - [The Greatest Books of All Time](https://thegreatestbooks.org/)

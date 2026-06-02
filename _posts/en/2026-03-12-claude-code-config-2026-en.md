@@ -40,31 +40,31 @@ Your current file configures three main things:
 
 ### What each setting does and how it's used
 
-- **`env.ANTHROPIC_BASE_URL`**  
-  Changes the API endpoint Claude Code talks to (instead of official api.anthropic.com).  
+- **`env.ANTHROPIC_BASE_URL`**
+  Changes the API endpoint Claude Code talks to (instead of official api.anthropic.com).
   → You are pointing it to a reverse proxy / third-party provider / custom Anthropic-compatible server.
 
-- **`env.ANTHROPIC_AUTH_TOKEN`**  
-  The API key / bearer token sent to that custom endpoint.  
+- **`env.ANTHROPIC_AUTH_TOKEN`**
+  The API key / bearer token sent to that custom endpoint.
   → Format usually starts with `sk-` (same as official Anthropic keys).
 
-- **`env.CLAUDE_CODE_ATTRIBUTION_HEADER`** set to `"0"`  
+- **`env.CLAUDE_CODE_ATTRIBUTION_HEADER`** set to `"0"`
   Most likely disables the attribution / "Powered by Claude" header or watermark that some providers force.
 
-- **`skipDangerousModePermissionPrompt`: true**  
-  Automatically accepts / skips the confirmation prompt when using dangerous tools (file write, shell commands, etc.).  
+- **`skipDangerousModePermissionPrompt`: true**
+  Automatically accepts / skips the confirmation prompt when using dangerous tools (file write, shell commands, etc.).
   → Useful for fully automated workflows, but increases risk.
 
 ### How to make it work
 
-1. **Save the file correctly**  
+1. **Save the file correctly**
    Make sure the path is exactly `~/.claude/settings.json` (create the `.claude` folder if it doesn't exist).
 
-2. **Restart Claude Code sessions**  
-   - Terminal: close & reopen terminal, then run `claude` again  
+2. **Restart Claude Code sessions**
+   - Terminal: close & reopen terminal, then run `claude` again
    - VS Code extension: reload VS Code window (`Ctrl+R` or `Cmd+R` on Mac) or restart the extension
 
-3. **Test it**  
+3. **Test it**
    Run in terminal:
    ```
    claude

@@ -68,12 +68,12 @@ public class ConsoleExample {
     public static void main(String[] args) throws Exception {
         // Create Terminal
         Terminal terminal = TerminalBuilder.builder().build();
-        
+
         // Create LineReader
         LineReader reader = LineReaderBuilder.builder()
             .terminal(terminal)
             .build();
-        
+
         // Read input in a loop
         String line;
         while ((line = reader.readLine("> ")) != null) {

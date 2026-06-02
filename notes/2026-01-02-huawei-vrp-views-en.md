@@ -12,7 +12,7 @@ type: note
 
 Question: Which command view in Huawei VRP is used for basic configuration tasks?
 
-Answer: 
+Answer:
 
 The correct answer is **B) System view**.
 

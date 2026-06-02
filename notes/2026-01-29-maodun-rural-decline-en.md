@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《香市》 by Mao Dun.
 
-Answer: 
+Answer:
 
 **《香市》** is a famous prose essay (散文) written by the renowned Chinese writer **Mao Dun** (茅盾, real name Shen Dehong / 沈德鸿) in 1933. It was first published in *Shen Bao Monthly* (《申报月刊》).
 
@@ -38,7 +38,7 @@ Although the essay is short, it is highly artistic:
 
 Today, Wuzhen has revived the "香市" as a cultural tourism festival, partly inspired by Mao Dun's essay, allowing visitors to experience echoes of the scene he described.
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E9%A6%99%E5%B8%82/7382239](https://baike.baidu.com/item/%E9%A6%99%E5%B8%82/7382239)
 - [http://www.wuzhen.com.cn/web/folk/details?id=2](http://www.wuzhen.com.cn/web/folk/details?id=2)

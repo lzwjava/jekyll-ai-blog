@@ -38,11 +38,11 @@ From rural Jiangxi roots and exam cramming to Beijing assignments, Duan credits 
 
 This interview highlights Duan's Buffett-inspired value approach, now adapting to AI/tech shifts. His portfolio reflects this: Heavy in proven giants, dipping into growth like Nvidia/ASML.
 
-**References**  
-- [Duan Yongping Rarely Speaks Out: AI, Moutai, GE Logic](https://www.bitget.site/news/detail/12560605060215)  
-- [Rare Interview: Stocks as Companies](https://www.bitget.com/news/detail/12560605057786)  
-- [50 Key Takeaways from 2-Hour Talk](https://www.panewslab.com/en/articles/e3681069-bdd4-4d57-8370-0ea7ebbb110a)  
-- [$14.7B Portfolio & Holdings](https://news.futunn.com/en/post/64982688/duan-yongping-s-us-stock-portfolio-is-valued-at-14)  
-- [Nvidia: Don't Miss AI](https://www.bitget.com/news/detail/12560605079124)  
-- [Moutai for Nvidia?](https://www-web.itiger.com/news/1127287160)  
+**References**
+- [Duan Yongping Rarely Speaks Out: AI, Moutai, GE Logic](https://www.bitget.site/news/detail/12560605060215)
+- [Rare Interview: Stocks as Companies](https://www.bitget.com/news/detail/12560605057786)
+- [50 Key Takeaways from 2-Hour Talk](https://www.panewslab.com/en/articles/e3681069-bdd4-4d57-8370-0ea7ebbb110a)
+- [$14.7B Portfolio & Holdings](https://news.futunn.com/en/post/64982688/duan-yongping-s-us-stock-portfolio-is-valued-at-14)
+- [Nvidia: Don't Miss AI](https://www.bitget.com/news/detail/12560605079124)
+- [Moutai for Nvidia?](https://www-web.itiger.com/news/1127287160)
 - [Tesla Shift Post-Interview](https://news.futunn.com/en/post/65199807/has-duan-yongping-admitted-defeat-from-not-liking-elon-musk)

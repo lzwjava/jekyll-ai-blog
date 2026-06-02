@@ -27,23 +27,23 @@ type: note
 
 ### 现代中文（简体字，附标点）
 
-床前明月光，  
-疑是地上霜。  
-举头望明月，  
+床前明月光，
+疑是地上霜。
+举头望明月，
 低头思故乡。
 
 ### 常见英文翻译 (Common English Translations)
 
-**字面直译 (Literal translation)**  
-Before my bed the moonlight glows,  
-It seems like frost upon the floor.  
-I raise my head to watch the bright moon,  
+**字面直译 (Literal translation)**
+Before my bed the moonlight glows,
+It seems like frost upon the floor.
+I raise my head to watch the bright moon,
 Then bow my head and miss my home.
 
-**流行的诗意翻译 (A very popular poetic translation)**  
-Before my bed a pool of moonlight —  
-Oh, is it frost upon the ground?  
-I lift my eyes to see the moon,  
+**流行的诗意翻译 (A very popular poetic translation)**
+Before my bed a pool of moonlight —
+Oh, is it frost upon the ground?
+I lift my eyes to see the moon,
 I bend my head and think of home.
 
 ### 为什么它如此著名且深受喜爱

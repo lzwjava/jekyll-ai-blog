@@ -22,7 +22,7 @@ type: note
 \\]
 
 - \\(Q\\): 查询矩阵（需要查询的内容）
-- \\(K\\): 键矩阵（被匹配的内容）  
+- \\(K\\): 键矩阵（被匹配的内容）
 - \\(V\\): 值矩阵（最终提取的内容）
 
 传统实现需要显式构造 \\(N \times N\\) 的注意力矩阵（\\(N\\) 为序列长度），内存占用达 \\(O(N^2)\\)——对长序列（如 \\(N > 10k\\)）极为不利。
@@ -32,9 +32,9 @@ type: note
 #### 代码如何运用 Flash Attention
 ```python
 y = torch.nn.functional.scaled_dot_product_attention(
-    q, k, v, 
-    attn_mask=None, 
-    dropout_p=self.dropout if self.training else 0, 
+    q, k, v,
+    attn_mask=None,
+    dropout_p=self.dropout if self.training else 0,
     is_causal=True
 )
 ```
@@ -45,7 +45,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
   - 张量形状：符合要求（见下文）
   - 掩码：`attn_mask=None` 且 `is_causal=True` 时自动启用因果掩码
   - 无其他限制条件（如自定义 `attn_mask` 或非常规头维度）
-  
+
   满足条件时自动调用 Flash Attention 2（或新版 PyTorch 中的 3）内核，否则回退到标准实现。可通过 `torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False)` 强制启用。
 
 - **Dropout**：训练时对注意力权重进行正则化，评估模式下为 0

@@ -159,6 +159,6 @@ src/
 
 This produces different EARs tailored for each environment from the **same codebase**. If you truly need separate artifacts names (e.g., `myapp-local.ear` vs `myapp.ear`), add `<finalName>${project.artifactId}-${profile}</finalName>` in profile-specific `<build>` sections.
 
-[Maven Profiles Guide](https://maven.apache.org/guides/introduction/introduction-to-profiles.html)  
-[Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)  
+[Maven Profiles Guide](https://maven.apache.org/guides/introduction/introduction-to-profiles.html)
+[Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)
 [IBM WAS Maven Integration](https://www.ibm.com/docs/en/wasdtfe/9.7.0?topic=suye-configuring-dependency-pom-files-that-emulate-classpath-specific-websphere-runtime-environments)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why in October 1582 does the iOS calendar show October 4 followed directly by October 15, missing 10 days?
 
-Answer: 
+Answer:
 
 The iOS Calendar (and many other digital calendars) accurately reflects a real historical event: the transition from the **Julian calendar** to the **Gregorian calendar** in 1582.
 
@@ -40,7 +40,7 @@ Apple's Calendar app models this historical transition precisely, so when you sc
 
 
 
-References:  
+References:
 
 - [https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar](https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar)
 - [https://en.wikipedia.org/wiki/Gregorian_calendar](https://en.wikipedia.org/wiki/Gregorian_calendar)

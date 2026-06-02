@@ -19,19 +19,19 @@ In a Java Spring Boot project, there’s no direct equivalent to JavaScript’s 
 ### Steps to Implement
 Here’s how you can structure your solution in a Spring Boot project:
 
-1. **Define the Asynchronous Tasks**  
+1. **Define the Asynchronous Tasks**
    Each iteration of your for loop represents a task that can run independently. These tasks will return `CompletableFuture` instances, representing their eventual results.
 
-2. **Collect the Futures**  
+2. **Collect the Futures**
    Store all `CompletableFuture` objects in a list as you create them in the loop.
 
-3. **Wait for All Tasks to Complete**  
+3. **Wait for All Tasks to Complete**
    Use `CompletableFuture.allOf` to combine the futures into a single future that completes when all tasks are finished.
 
-4. **Retrieve and Use the Results**  
+4. **Retrieve and Use the Results**
    After all tasks are complete, extract the results from each `CompletableFuture` and process them as needed.
 
-5. **Handle Exceptions**  
+5. **Handle Exceptions**
    Account for potential errors during task execution.
 
 ### Example Implementation

@@ -1,4 +1,4 @@
-$ python train.py config/train_openwebtext.py 
+$ python train.py config/train_openwebtext.py
 Overriding config with config/train_openwebtext.py:
 # train on openwebtext dataset
 # uses data prepared by data/openwebtext_local/prepare.py

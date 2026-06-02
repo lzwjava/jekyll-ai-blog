@@ -58,7 +58,7 @@ The `org.jetbrains:annotations` library is **not outdated** and remains actively
 
 ### Key Points on Relevance and Compatibility:
 - **Active Maintenance**: The library is regularly updated. As of recent data, the latest version is `26.0.2` (GitHub - JetBrains/java-annotations). JetBrains continues to release updates to support modern Java development practices.[](https://github.com/JetBrains/java-annotations)
-- **JDK Compatibility**: 
+- **JDK Compatibility**:
   - The `annotations` artifact requires **JDK 1.8 or higher**. For projects using older JDK versions (1.5, 1.6, or 1.7), JetBrains provides a legacy `annotations-java5` artifact, which is no longer updated.[](https://github.com/JetBrains/java-annotations)
   - It is fully compatible with higher JDK versions, including **JDK 17, 21, and beyond**, as these are supported by IntelliJ IDEA for development. The library works seamlessly with modern Java features like lambdas, streams, and modules introduced in JDK 8 and later.[](https://www.jetbrains.com/help/idea/supported-java-versions.html)
 - **Purpose and Usage**: The annotations (e.g., `@NotNull`, `@Nullable`, `@Contract`) enhance static analysis in IDEs, catching potential errors like null pointer exceptions at design time. They are metadata-only, meaning they have no runtime dependency and are compatible across JDK versions without affecting runtime behavior.[](https://www.jetbrains.com/help/idea/annotating-source-code.html)

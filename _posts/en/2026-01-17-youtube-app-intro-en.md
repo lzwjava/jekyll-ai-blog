@@ -12,7 +12,7 @@ type: note
 
 **Question:** What is an introduction to the YouTube app?
 
-**Answer:** 
+**Answer:**
 
 The **YouTube app** is the official mobile application from Google for watching, discovering, and interacting with videos on smartphones and tablets (available on both **Android** and **iOS**). It provides a richer, more optimized experience compared to using YouTube in a mobile browser.
 
@@ -52,7 +52,7 @@ The **YouTube app** is the official mobile application from Google for watching,
 
 The app is regularly updated with new features like improved AI recommendations, better Shorts tools, enhanced creator collaboration options, and visual/player improvements (as of 2026).
 
-**References:**  
+**References:**
 
 - [YouTube app on Google Play](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 - [Download the YouTube mobile app - Android - YouTube Help](https://support.google.com/youtube/answer/3227660?co=GENIE.Platform%3DAndroid)

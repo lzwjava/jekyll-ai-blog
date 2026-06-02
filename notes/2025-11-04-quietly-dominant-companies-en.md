@@ -41,9 +41,9 @@ Here are several companies that maintain a deliberately low public profile—oft
 
 These companies thrive by excelling in B2B, private ownership, or niche expertise rather than consumer buzz. For investors or career seekers, they offer stability without the volatility of high-profile names. If you're interested in a specific industry or region, I can refine this list.
 
-**References:**  
-- [Cargill's Quiet Dominance in Global Agribusiness](https://www.forbes.com/sites/forbesbusinesscouncil/2025/01/15/the-unsung-heroes-of-global-supply-chains/)  
-- [Ingram Micro's B2B Tech Boom](https://www.crunchbase.com/organization/ingram-micro/company_overview)  
-- [Mars Inc. Family Empire Analysis](https://www.bloomberg.com/features/2024-mars-inc-private-power/)  
-- [REI Co-op's 2024 Annual Report](https://www.rei.com/about-rei/annual-report)  
+**References:**
+- [Cargill's Quiet Dominance in Global Agribusiness](https://www.forbes.com/sites/forbesbusinesscouncil/2025/01/15/the-unsung-heroes-of-global-supply-chains/)
+- [Ingram Micro's B2B Tech Boom](https://www.crunchbase.com/organization/ingram-micro/company_overview)
+- [Mars Inc. Family Empire Analysis](https://www.bloomberg.com/features/2024-mars-inc-private-power/)
+- [REI Co-op's 2024 Annual Report](https://www.rei.com/about-rei/annual-report)
 - [Gore's Innovation Edge](https://hbr.org/2025/03/the-secret-to-gore-s-enduring-success)

@@ -29,7 +29,7 @@ Got the docs. The API is OpenAI-compatible, so you can drop it into anything imm
 export MIMO_API_KEY="your_key_here"
 ```
 
-Base URL: `https://api.xiaomimimo.com/v1`  
+Base URL: `https://api.xiaomimimo.com/v1`
 Latest model: `mimo-v2.5-pro`
 
 ## High-Value Ways to Burn Tokens in 2 Days

@@ -12,7 +12,7 @@ type: note
 
 Question: Is there any tool to download EPUB books one by one less troublesomely, or can I search for collections of computer programming related books?
 
-Answer: 
+Answer:
 
 Downloading individual EPUB files one by one from torrent sites can indeed be tedious. Here are some practical suggestions to make it easier or find better alternatives, while prioritizing **legal and safe options** where possible.
 
@@ -47,7 +47,7 @@ If you're focused on machine learning/AI topics, the free collections above have
 
 Avoid shady download sites or unverified torrents to prevent malware or legal issues.
 
-References:  
+References:
 
 - [FreeComputerBooks.com](https://freecomputerbooks.com/)
 - [FreeTechBooks.com](http://www.freetechbooks.com/)

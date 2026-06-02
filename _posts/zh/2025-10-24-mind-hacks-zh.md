@@ -44,7 +44,7 @@ type: note
 
 总体而言，《思维黑客》论证了大脑拥有"自主生命"，这些探索技巧能短暂揭开其神秘面纱。对于渴望摆脱术语束缚学习神经科学的读者，本书能持续带来"顿悟"时刻，堪称完美启蒙读物。
 
-[SoBrief书摘](https://sobrief.com/books/mind-hacks)  
-[思维黑客官网](https://mindhacks.com/book/)  
-[Goodreads页面](https://www.goodreads.com/book/show/228047.Mind_Hacks)  
+[SoBrief书摘](https://sobrief.com/books/mind-hacks)
+[思维黑客官网](https://mindhacks.com/book/)
+[Goodreads页面](https://www.goodreads.com/book/show/228047.Mind_Hacks)
 [维基百科词条](https://en.wikipedia.org/wiki/Mind_Hacks)

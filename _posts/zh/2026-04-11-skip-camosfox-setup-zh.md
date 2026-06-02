@@ -21,7 +21,7 @@ type: note
 你提到填写了虚假位置，并且可以跳过一些浏览器设置 —— 这与 Hermes Agent 中隐身浏览的设置相符。
 
 ### 能否在运行 install.sh 时跳过它？
-**是的，完全可以。**  
+**是的，完全可以。**
 脚本没有强制安装 Camosfox 的选项。你可以正常运行安装程序（或使用 `--skip-setup` 来跳过向导）：
 
 ```bash
@@ -88,7 +88,7 @@ curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scri
 
 你分享的脚本看起来是正确的，并且与 Nous Research 官方的 Hermes Agent 保持同步。所提供的代码中，在跳过可选隐身浏览器方面没有重大问题。
 
-参考：  
-- https://github.com/NousResearch/hermes-agent  
-- https://hermes-agent.nousresearch.com/docs/user-guide/features/browser (Camofox 设置指南)  
+参考：
+- https://github.com/NousResearch/hermes-agent
+- https://hermes-agent.nousresearch.com/docs/user-guide/features/browser (Camofox 设置指南)
 - https://github.com/jo-inc/camofox-browser

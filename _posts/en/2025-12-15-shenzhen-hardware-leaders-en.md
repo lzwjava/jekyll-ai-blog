@@ -12,7 +12,7 @@ type: note
 
 Question: What are good hardware companies in Shenzhen?
 
-Answer: 
+Answer:
 
 Shenzhen is widely regarded as the "Silicon Valley of Hardware" due to its unparalleled electronics manufacturing ecosystem, rapid prototyping capabilities, and concentration of innovative companies. It hosts a mix of global tech giants, leading manufacturers, and dynamic startups specializing in consumer electronics, drones, telecom, smart home devices, and more.
 
@@ -34,11 +34,11 @@ Many companies benefit from Shenzhen's integrated supply chain, allowing fast it
 
 These companies are considered "good" based on their market leadership, innovation, global impact, and contributions to the hardware industry.
 
-References:  
-- https://www.weforum.org/stories/2017/11/inside-shenzhen-china-s-gadget-capital/  
-- https://itimanufacturing.com/silicon-valley-hardware-made-china/  
-- https://www.failory.com/startups/shenzhen  
-- https://www.startupblink.com/top-startups/shenzhen-cn  
-- https://www.diamandis.com/blog/shenzhen-global-hardware-capital  
-- https://en.wikipedia.org/wiki/Huaqiangbei  
+References:
+- https://www.weforum.org/stories/2017/11/inside-shenzhen-china-s-gadget-capital/
+- https://itimanufacturing.com/silicon-valley-hardware-made-china/
+- https://www.failory.com/startups/shenzhen
+- https://www.startupblink.com/top-startups/shenzhen-cn
+- https://www.diamandis.com/blog/shenzhen-global-hardware-capital
+- https://en.wikipedia.org/wiki/Huaqiangbei
 - https://www.elecrow.com/blog/intro-about-huaqiangbei-electronic-market-and-source-electronic-parts-here.html

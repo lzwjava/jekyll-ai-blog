@@ -133,7 +133,7 @@ This is the most critical human-value layer — **the only reason you exist in t
 **What a dead loop looks like:**
 ```
 Agent tries solution A → fails
-Agent tries solution B → fails  
+Agent tries solution B → fails
 Agent tries solution C → variation of A → fails
 Agent tries solution D → variation of B → fails
 ... forever
@@ -145,7 +145,7 @@ def detect_loop(agent_history):
     # Check if last N attempts are semantically similar
     recent_approaches = agent_history[-5:]
     similarity_score = embed_and_compare(recent_approaches)
-    
+
     if similarity_score > 0.85:  # too similar = looping
         escalate_to_human(agent_id, summary)
 ```
@@ -193,7 +193,7 @@ You **never check dashboards.** The system talks to you.
 async def notify_human(type, agent_id, context):
     message = format_message(type, agent_id, context)
     await telegram.send(HUMAN_CHAT_ID, message)
-    
+
     # Wait for reply
     reply = await wait_for_reply(timeout=30min)
     return inject_reply_into_agent_context(reply)
@@ -237,7 +237,7 @@ Auto: run integration tests
     ↓
 Auto: visual diff (if UI change)
     ↓
-Pass? → notify human "PR ready, merge?" 
+Pass? → notify human "PR ready, merge?"
     ↓
 Human replies "yes" (or auto-merge if confidence high)
     ↓

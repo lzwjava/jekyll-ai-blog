@@ -51,9 +51,9 @@ jobs:
 我遇到以下错误：
 
 ```
-2025-01-07T22:34:58.6493408Z 
+2025-01-07T22:34:58.6493408Z
 2025-01-07T22:34:58.6493741Z ! LaTeX Error: File adjustbox.sty' not found.
-2025-01-07T22:34:58.6494172Z 
+2025-01-07T22:34:58.6494172Z
 2025-01-07T22:34:58.6494593Z Type X to quit or <RETURN> to proceed,
 2025-01-07T22:34:58.6495322Z or enter new name. (Default extension: sty)
 ```

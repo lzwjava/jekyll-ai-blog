@@ -69,5 +69,5 @@ type: note
 
 此列表突显了 Rust 在工具、Web 和区块链领域的主导地位。如需获取最新更新或深入了解，请直接探索 GitHub。
 
-[GitHub 排名 - Rust 语言前 100 星标项目](https://evanli.github.io/Github-Ranking/Top100/Rust.html)  
+[GitHub 排名 - Rust 语言前 100 星标项目](https://evanli.github.io/Github-Ranking/Top100/Rust.html)
 [2025 年 61 大 Rust 开源项目](https://web3.career/learn-web3/top-rust-open-source-projects)

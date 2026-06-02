@@ -34,7 +34,7 @@ type: note
 
 若深入研读此书，你会发现它将嫉妒从死胡同情绪转化为成长契机。可曾注意到那些内心安定之人似乎对嫉妒免疫？这正是阿德勒的核心观点：超越不是压抑感受，而是将其导向建设性方向。
 
-[人们为何嫉妒？探索嫉妒的根源](https://www.betterhelp.com/advice/general/why-are-people-jealous-of-others/)  
-[嫉妒的心理学与哲学解读](https://www.psychologytoday.com/us/blog/hide-and-seek/201408/the-psychology-and-philosophy-of-envy)  
-[自卑情结：定义、案例与心理学分析](https://www.berkeleywellbeing.com/inferiority-complex.html)  
+[人们为何嫉妒？探索嫉妒的根源](https://www.betterhelp.com/advice/general/why-are-people-jealous-of-others/)
+[嫉妒的心理学与哲学解读](https://www.psychologytoday.com/us/blog/hide-and-seek/201408/the-psychology-and-philosophy-of-envy)
+[自卑情结：定义、案例与心理学分析](https://www.berkeleywellbeing.com/inferiority-complex.html)
 [嫉妒与妒忌的进化心理学](https://pmc.ncbi.nlm.nih.gov/articles/PMC5609545/)

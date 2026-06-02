@@ -12,31 +12,31 @@ type: note
 
 Question: What is an introduction to Cloud Spanner in Google Cloud?
 
-Answer: 
+Answer:
 
 Cloud Spanner is **Google Cloud's fully managed, horizontally scalable, globally distributed relational database service**. It is designed for mission-critical applications that require **strong consistency**, high availability, and virtually unlimited scale without sacrificing SQL support.
 
 ### Key Features of Cloud Spanner
 
-- **Global distribution with strong consistency**  
+- **Global distribution with strong consistency**
   Spanner provides **external consistency** (a very strong form of consistency) across regions and continents while still offering low-latency reads and writes.
 
-- **Horizontal scalability**  
+- **Horizontal scalability**
   You can scale from a few nodes to thousands of nodes. Compute and storage scale independently, and Spanner automatically handles sharding and replication.
 
-- **Fully managed**  
+- **Fully managed**
   No need to manage servers, patching, backups, replication, or failover — Google handles all operational aspects.
 
-- **ACID transactions**  
+- **ACID transactions**
   Full support for ACID-compliant transactions, even across globally distributed data.
 
-- **Standard SQL**  
+- **Standard SQL**
   Uses ANSI SQL 2011 with extensions, compatible with most tools and ORMs that work with PostgreSQL or MySQL-like dialects.
 
-- **Multi-model capabilities (recent evolution)**  
+- **Multi-model capabilities (recent evolution)**
   In addition to relational data, Spanner now supports **graph**, **key-value**, and **vector search** workloads in the same database (as of recent updates).
 
-- **High availability**  
+- **High availability**
   99.999% availability SLA for multi-regional instances (five 9s).
 
 ### Main Use Cases
@@ -67,7 +67,7 @@ Choose Spanner when you need **both**:
 
 If your workload is smaller, regional-only, or doesn't require global strong consistency, Cloud SQL or AlloyDB are usually more cost-effective.
 
-References:  
+References:
 
 - [Cloud Spanner Official Page](https://cloud.google.com/spanner)
 - [Spanner Documentation Overview](https://docs.cloud.google.com/spanner/docs)

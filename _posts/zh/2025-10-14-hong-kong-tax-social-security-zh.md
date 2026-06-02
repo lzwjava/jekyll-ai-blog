@@ -55,12 +55,12 @@ type: note
 
 此模式使香港税负保持低位（实际税率常低于15%），但将更多退休/健康规划责任转移至个人。
 
-**参考资料**  
-[薪俸税税率及个人入息课税 - 香港政府一站通](https://www.gov.hk/sc/residents/taxes/taxfiling/taxrates/salariesrates.htm)  
-[香港特别行政区 - 个人 - 个人所得税 - 普华永道](https://taxsummaries.pwc.com/hong-kong-sar/individual/taxes-on-personal-income)  
-[2025/26香港税务资料与数据 - 普华永道](https://www.pwchk.com/sc/tax/hong-kong-budget-2025-2026/tax-facts-and-figures-sc.pdf)  
-[强制性公积金计划管理局](https://www.mpfa.org.hk/sc)  
-[强制性公积金 - 维基百科](https://zh.wikipedia.org/wiki/強積金)  
-[强制性公积金制度 - 香港政府一站通](https://www.gov.hk/sc/residents/employment/mpf/)  
-[香港社会保险 - 中国简报](https://www.china-briefing.com/doing-business-guide/hong-kong/human-resources-and-payroll/social-insurance)  
+**参考资料**
+[薪俸税税率及个人入息课税 - 香港政府一站通](https://www.gov.hk/sc/residents/taxes/taxfiling/taxrates/salariesrates.htm)
+[香港特别行政区 - 个人 - 个人所得税 - 普华永道](https://taxsummaries.pwc.com/hong-kong-sar/individual/taxes-on-personal-income)
+[2025/26香港税务资料与数据 - 普华永道](https://www.pwchk.com/sc/tax/hong-kong-budget-2025-2026/tax-facts-and-figures-sc.pdf)
+[强制性公积金计划管理局](https://www.mpfa.org.hk/sc)
+[强制性公积金 - 维基百科](https://zh.wikipedia.org/wiki/強積金)
+[强制性公积金制度 - 香港政府一站通](https://www.gov.hk/sc/residents/employment/mpf/)
+[香港社会保险 - 中国简报](https://www.china-briefing.com/doing-business-guide/hong-kong/human-resources-and-payroll/social-insurance)
 [香港社会保障体系 - 日本贸易振兴机构](https://www.ide.go.jp/library/Japanese/Publish/Periodicals/De/pdf/04_02_04.pdf)

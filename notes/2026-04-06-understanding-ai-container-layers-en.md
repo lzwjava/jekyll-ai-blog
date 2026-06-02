@@ -13,7 +13,7 @@ Question: Why is a second layer required for an AI model download, and what does
 
 Answer:
 
-When you pull a model like `qwen3.5-opus-4.6:9b`, you are essentially downloading a containerized package. These packages are built in **layers**, which are stacked on top of one another to form the final environment. 
+When you pull a model like `qwen3.5-opus-4.6:9b`, you are essentially downloading a containerized package. These packages are built in **layers**, which are stacked on top of one another to form the final environment.
 
 ### Why the Second Layer Exists
 AI models aren't just a single raw file; they require a specific environment to run. Here is why you see multiple layers:

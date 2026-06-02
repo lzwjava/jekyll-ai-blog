@@ -65,8 +65,8 @@ type: note
 
 本清单未尽全面，但突出了具有规模和影响力的主要企业。具体行业数据可能因信息来源有所不同。
 
-**参考资料**  
-[Foreign Investment in China - Santandertrade](https://santandertrade.com/en/portal/establish-overseas/china/foreign-investment)  
-[Top 10 Largest Banks in China - Registration China](https://www.registrationchina.com/articles/top-10-largest-banks-in-china/)  
-[China's Biggest Companies - MSA Advisory](https://msadvisory.com/china-biggest-companies/)  
+**参考资料**
+[Foreign Investment in China - Santandertrade](https://santandertrade.com/en/portal/establish-overseas/china/foreign-investment)
+[Top 10 Largest Banks in China - Registration China](https://www.registrationchina.com/articles/top-10-largest-banks-in-china/)
+[China's Biggest Companies - MSA Advisory](https://msadvisory.com/china-biggest-companies/)
 [China Industries to Watch in 2025 - China Briefing](https://www.china-briefing.com/news/china-industries-to-watch-in-2025/)

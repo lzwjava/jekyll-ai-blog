@@ -11,7 +11,7 @@ type: note
 
 问题：Sam Altman 在 Y Combinator 时期有哪些黑历史？
 
-回答： 
+回答：
 
 Sam Altman 从大约 2014 年起担任 **Y Combinator**（YC，这一知名创业加速器）的 **President**，直到 2019 年初。在此期间，他帮助 YC 实现了显著增长，支持了 Airbnb、Stripe 和 Dropbox 等成功公司。然而，他的领导力和行为引发了几项批评和争议，这些在回顾中常被描述为后来在 OpenAI 重新出现的模式的一部分。
 
@@ -27,7 +27,7 @@ Sam Altman 从大约 2014 年起担任 **Y Combinator**（YC，这一知名创�
 
 这些问题当时相比后来的 OpenAI 事件（他在 2023 年短暂被解雇，原因是“不够坦诚”、虐待行为指控以及安全担忧）相对低调。许多人视 YC 时期为围绕信任、坦诚和自身利益的反复主题的早期指标。支持者认为他的 YC 任期总体成功，增长强劲，且在其活跃领导期间无重大公开丑闻。
 
-参考资料：  
+参考资料：
 
 - [Washington Post 关于 Altman 从 YC 离职及欺骗模式的报道](https://www.washingtonpost.com/technology/2023/11/22/sam-altman-fired-y-combinator-paul-graham/)
 - [Forbes 关于 Paul Graham 澄清 Altman 未被 YC 解雇的报道](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)

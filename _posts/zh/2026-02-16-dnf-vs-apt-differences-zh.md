@@ -60,7 +60,7 @@ Answer:
 
 在 2026 年，两者都是成熟、安全且可靠的工具。
 
-References:  
+References:
 
 - [https://docs.fedoraproject.org/en-US/quick-docs/dnf-vs-apt](https://docs.fedoraproject.org/en-US/quick-docs/dnf-vs-apt)
 - [https://opensource.com/article/21/7/dnf-vs-apt](https://opensource.com/article/21/7/dnf-vs-apt)

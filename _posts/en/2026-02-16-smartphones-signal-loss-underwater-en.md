@@ -11,7 +11,7 @@ type: note
 
 Question: How do electromagnetic waves behave in water, and what happens to a smartphone's signal if thrown into water inside a bag?
 
-Answer: 
+Answer:
 
 Electromagnetic (EM) waves, including radio waves used by smartphones (cell signals, Wi-Fi, Bluetooth), behave very differently in water compared to air due to **absorption** and **attenuation** caused by water's electrical properties.
 
@@ -40,7 +40,7 @@ Modern smartphones use high-frequency radio waves for cellular, Wi-Fi, and Bluet
 
 In summary: Throwing a smartphone (even in a waterproof bag) into water will cause it to **quickly lose all wireless signal** (cellular, Wi-Fi, data) in both fresh and salt water. The phone might still work internally (screen, apps, etc.) if waterproof, but it will be offline until brought back near or above the surface.
 
-References:  
+References:
 
 - [https://en.wikipedia.org/wiki/Electromagnetic_absorption_by_water](https://en.wikipedia.org/wiki/Electromagnetic_absorption_by_water)
 - [https://www.researchgate.net/figure/Attenuation-experienced-by-EM-signals-in-fresh-and-seawater-for-different-frequencies_fig1_302259776](https://www.researchgate.net/figure/Attenuation-experienced-by-EM-signals-in-fresh-and-seawater-for-different-frequencies_fig1_302259776)

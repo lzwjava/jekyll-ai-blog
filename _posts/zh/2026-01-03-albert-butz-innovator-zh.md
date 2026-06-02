@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to Albert Butz
 
-Answer: 
+Answer:
 
 **Albert Butz** (1849–1905) 是一位瑞士裔美国发明家及商人，他以开创自动温度控制系统（automatic temperature control systems）而闻名，为现代 thermostat 行业奠定了基础。
 
@@ -35,7 +35,7 @@ Butz 还拥有其他专利（至少还有 11 项），但 damper flapper 仍然�
 
 他的工作标志着自动化家庭采暖的开始，影响了现代 thermostats 以及更广泛的 control systems 领域。
 
-References:  
+References:
 
 - [Wikipedia: Albert Butz](https://en.wikipedia.org/wiki/Albert_Butz)
 - [Honeywell Official History](https://www.honeywell.com/us/en/company/our-history)

@@ -48,7 +48,7 @@ Log4j 是一款流行的 Java 日志框架，可用于控制日志输出级别�
    ```java
    import org.apache.logging.log4j.LogManager;
    import org.apache.logging.log4j.Logger;
-   
+
    public class MyClass {
        private static final Logger logger = LogManager.getLogger(MyClass.class);
        // 记录日志：logger.debug("调试信息"); logger.info("信息消息");

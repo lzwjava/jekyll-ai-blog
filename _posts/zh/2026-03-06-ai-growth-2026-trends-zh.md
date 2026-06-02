@@ -31,7 +31,7 @@ type: note
 
 总体而言，2026年感觉像是AI“成熟”的一年——从炫酷演示转向可靠、嵌入式系统，重塑产业、研究和日常工具。重点越来越转向效率、可靠性、现实世界部署，以及平衡巨额基础设施成本与切实回报。
 
-参考文献：  
+参考文献：
 
 - [What's next in AI: 7 trends to watch in 2026](https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026)
 - [Hyperscale AI data centers: 10 Breakthrough Technologies 2026](https://www.technologyreview.com/2026/01/12/1129982/hyperscale-ai-data-centers-energy-usage-2026-breakthrough-technology)

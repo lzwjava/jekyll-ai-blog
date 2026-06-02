@@ -40,6 +40,6 @@ type: note
 
 本质上，银行业的监管铠甲虽具保护作用，却可能将持续纠错武器化，反噬自身员工。它塑造出充满不足与恐惧的环境，在追求完美合规的过程中逐步瓦解信心与创新。要想蓬勃发展，银行必须平衡监督与赋能——通过游戏化培训、征集反馈、超越清单信任员工——重建驱动金融进步的人类精神。
 
-[过度监管如何摧毁员工士气与绩效](https://medium.com/@rvzkrhvqz/how-over-regulation-destroys-employee-morale-and-performance-ef27cf01ed71)  
-[2025年银行业25+项顶尖员工敬业度活动](https://www.culturemonkey.io/employee-engagement/employee-engagement-activities-in-banking-sector/)  
+[过度监管如何摧毁员工士气与绩效](https://medium.com/@rvzkrhvqz/how-over-regulation-destroys-employee-morale-and-performance-ef27cf01ed71)
+[2025年银行业25+项顶尖员工敬业度活动](https://www.culturemonkey.io/employee-engagement/employee-engagement-activities-in-banking-sector/)
 [2025年银行业提升员工敬业度：经理指南](https://www.athpower.com/employee-engagement-in-banking-guide-2025/)

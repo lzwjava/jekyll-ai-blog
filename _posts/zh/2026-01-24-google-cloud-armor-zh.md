@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Google Cloud Armor?
 
-Answer: 
+Answer:
 
 Google Cloud Armor 是 Google Cloud 的 **network security service**，旨在保护应用程序和基础设施免受各种基于互联网的威胁，特别是 **DDoS attacks** 和常见的 web application attacks。
 
@@ -63,7 +63,7 @@ Cloud Armor policies 主要附加到：
 
 简而言之：Cloud Armor 是 Google 的 **always-on DDoS scrubbing** + **managed WAF** + **edge policy enforcement** 的结合体，充分利用了 Google 庞大的全球网络和威胁情报。
 
-References:  
+References:
 
 - [Google Cloud Armor Overview](https://docs.cloud.google.com/armor/docs/cloud-armor-overview)
 - [Google Cloud Armor Product Page](https://cloud.google.com/security/products/armor)

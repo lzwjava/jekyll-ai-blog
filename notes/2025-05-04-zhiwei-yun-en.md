@@ -35,23 +35,23 @@ Yun’s research lies at the intersection of representation theory, number theor
 
 Below are some of Yun’s key contributions, explained for both general and technical audiences:
 
-1. **Global Springer Theory and the Langlands Program**  
-   Yun’s Ph.D. thesis introduced global Springer theory, a generalization of Springer theory, which studies the action of Weyl groups on the cohomology of Springer fibers (subvarieties of flag manifolds). Yun extended this to Hitchin fibers, inspired by prior work by Gérard Laumon and Fields Medalist Bao-Châu Ngô. His global Springer theory provides a geometric framework for understanding affine Weyl group actions on cohomology, opening new avenues in the Langlands program. This work has been described as “opening whole new vistas” in the field.  
+1. **Global Springer Theory and the Langlands Program**
+   Yun’s Ph.D. thesis introduced global Springer theory, a generalization of Springer theory, which studies the action of Weyl groups on the cohomology of Springer fibers (subvarieties of flag manifolds). Yun extended this to Hitchin fibers, inspired by prior work by Gérard Laumon and Fields Medalist Bao-Châu Ngô. His global Springer theory provides a geometric framework for understanding affine Weyl group actions on cohomology, opening new avenues in the Langlands program. This work has been described as “opening whole new vistas” in the field.
    *Technical Impact*: Yun’s 2011 paper in *Advances in Mathematics* (“Global Springer Theory”) and 2012 paper in *Compositio Mathematica* (“Langlands Duality and Global Springer Theory”) formalized these ideas, providing tools to study automorphic forms and their geometric interpretations.
 
-2. **Rigid Automorphic Forms and the Inverse Galois Problem**  
-   During his time as a Moore Instructor at MIT, Yun developed the theory of rigid automorphic forms, which he used to address an open question posed by Jean-Pierre Serre on motives (algebraic structures that capture geometric and arithmetic properties). This work led to a major breakthrough on the inverse Galois problem, a classical question in number theory about realizing Galois groups as symmetries of algebraic equations.  
+2. **Rigid Automorphic Forms and the Inverse Galois Problem**
+   During his time as a Moore Instructor at MIT, Yun developed the theory of rigid automorphic forms, which he used to address an open question posed by Jean-Pierre Serre on motives (algebraic structures that capture geometric and arithmetic properties). This work led to a major breakthrough on the inverse Galois problem, a classical question in number theory about realizing Galois groups as symmetries of algebraic equations.
    *Technical Impact*: His 2014 paper in *Inventiones Mathematicae* (“Motives with Exceptional Galois Groups and the Inverse Galois Problem”) provided a uniform construction of motives with exceptional Galois groups, a problem sought by Serre and Grothendieck for over 40 years. This is considered one of the most significant advances in motive theory in recent decades.
 
-3. **Geometric Interpretations of L-Functions**  
-   In collaboration with Wei Zhang, Yun has made significant contributions to the arithmetic of L-functions, which are complex functions central to number theory and the Langlands program. Their joint work provides geometric interpretations of higher derivatives of automorphic L-functions in terms of intersection numbers, offering new insights into conjectures like the Birch and Swinnerton-Dyer conjecture, one of the Clay Mathematics Institute’s Millennium Prize Problems.  
+3. **Geometric Interpretations of L-Functions**
+   In collaboration with Wei Zhang, Yun has made significant contributions to the arithmetic of L-functions, which are complex functions central to number theory and the Langlands program. Their joint work provides geometric interpretations of higher derivatives of automorphic L-functions in terms of intersection numbers, offering new insights into conjectures like the Birch and Swinnerton-Dyer conjecture, one of the Clay Mathematics Institute’s Millennium Prize Problems.
    *Technical Impact*: Their 2017 paper and subsequent work, recognized by the 2018 New Horizons Breakthrough Prize, advanced the global Gan-Gross-Prasad conjecture, connecting L-functions to geometric structures in function fields.
 
-4. **Collaborative Work and Interdisciplinary Connections**  
+4. **Collaborative Work and Interdisciplinary Connections**
    Yun has co-authored influential papers with mathematicians like Davesh Maulik (*Macdonald Formula for Curves with Planar Singularities*, 2014) and Roman Bezrukavnikov (*On Koszul Duality for Kac-Moody Groups*, 2013). His work often bridges algebraic geometry and representation theory, as seen in his 2016 paper with Alexei Oblomkov on geometric representations of Cherednik algebras. These collaborations highlight his ability to connect seemingly disparate mathematical fields, a hallmark of his approach.
 
-5. **Recent Work on Shtukas and Moduli Spaces**  
-   Yun’s recent research explores Drinfeld shtukas and their moduli stacks, which are geometric objects used to study function fields in the Langlands program. His 2022 YouTube lecture series on shtukas outlines their geometric and cohomological properties, contributing to the Kudla program and higher theta series for unitary groups.  
+5. **Recent Work on Shtukas and Moduli Spaces**
+   Yun’s recent research explores Drinfeld shtukas and their moduli stacks, which are geometric objects used to study function fields in the Langlands program. His 2022 YouTube lecture series on shtukas outlines their geometric and cohomological properties, contributing to the Kudla program and higher theta series for unitary groups.
    *Technical Impact*: Papers like “Higher Siegel–Weil Formula for Unitary Groups” (with Wei Zhang) and “Geometric Langlands for Hypergeometric Sheaves” (with Konstantin Jakob) demonstrate his ongoing work on derived algebraic geometry and endoscopy in Hecke categories.
 
 Yun’s publications, which number over 39 with more than 1,161 citations, reflect his prolific output and influence. His work is characterized by a blend of deep geometric intuition and rigorous number-theoretic insight, often leveraging tools from cohomology, motives, and derived algebraic geometry to tackle long-standing problems.
@@ -61,13 +61,13 @@ Yun’s publications, which number over 39 with more than 1,161 citations, refle
 ### Awards and Recognition
 Yun’s contributions have been recognized with numerous prestigious awards, cementing his status as a leading figure in mathematics:
 
-- **SASTRA Ramanujan Prize (2012)**: Awarded for his outstanding contributions to areas influenced by Srinivasa Ramanujan, particularly his work on global Springer theory and motives. Yun joined an elite list of young mathematicians, including Terence Tao and Manjul Bhargava.  
-- **Packard Fellowship (2013)**: Recognized his interdisciplinary work at the crossroads of algebraic geometry, representation theory, and number theory.  
-- **Morningside Silver Medal of Mathematics (2016)**: Awarded by the International Congress of Chinese Mathematicians (ICCM).  
-- **New Horizons Breakthrough Prize in Mathematics (2018)**: Shared with Wei Zhang for their work on the global Gan-Gross-Prasad conjecture and geometric interpretations of L-functions.  
-- **ICCM Gold Medal of Mathematics (2019)**: Formerly the Morningside Gold Medal, recognizing his continued excellence.  
-- **Fellow of the American Mathematical Society (2019)**: Elected for his contributions to mathematics.  
-- **Simons Investigatorship in Mathematics (2020)**: A five-year, $500,000 research fund from the Simons Foundation, awarded to outstanding researchers. Yun was the only Chinese scholar to receive this honor in 2020.  
+- **SASTRA Ramanujan Prize (2012)**: Awarded for his outstanding contributions to areas influenced by Srinivasa Ramanujan, particularly his work on global Springer theory and motives. Yun joined an elite list of young mathematicians, including Terence Tao and Manjul Bhargava.
+- **Packard Fellowship (2013)**: Recognized his interdisciplinary work at the crossroads of algebraic geometry, representation theory, and number theory.
+- **Morningside Silver Medal of Mathematics (2016)**: Awarded by the International Congress of Chinese Mathematicians (ICCM).
+- **New Horizons Breakthrough Prize in Mathematics (2018)**: Shared with Wei Zhang for their work on the global Gan-Gross-Prasad conjecture and geometric interpretations of L-functions.
+- **ICCM Gold Medal of Mathematics (2019)**: Formerly the Morningside Gold Medal, recognizing his continued excellence.
+- **Fellow of the American Mathematical Society (2019)**: Elected for his contributions to mathematics.
+- **Simons Investigatorship in Mathematics (2020)**: A five-year, $500,000 research fund from the Simons Foundation, awarded to outstanding researchers. Yun was the only Chinese scholar to receive this honor in 2020.
 
 Yun was also an invited speaker at the 2018 International Congress of Mathematicians (ICM), a significant honor in the mathematical community. His work has been praised for its depth and innovation, with peers noting its potential to influence the Langlands program for decades to come.
 
@@ -85,7 +85,7 @@ Yun’s mentorship has also shaped the next generation of mathematicians. His th
 ### Conclusion
 Zhiwei Yun is a towering figure in modern mathematics, whose work on the Langlands program, global Springer theory, and geometric interpretations of L-functions has reshaped our understanding of number theory, algebraic geometry, and representation theory. From his early days as an IMO gold medalist in Changzhou to his current role as a professor at MIT, Yun’s career is a testament to the power of curiosity, rigor, and collaboration. His numerous awards, including the SASTRA Ramanujan Prize, New Horizons Breakthrough Prize, and Simons Investigatorship, reflect his profound impact on the field. As he continues to explore the “endless treasure” of mathematics, Yun’s contributions promise to inspire and guide mathematicians for generations to come.
 
-**Sources**:  
+**Sources**:
 - Wikipedia: Zhiwei Yun  [](https://en.wikipedia.org/wiki/Zhiwei_Yun)
 - MIT News: “Mathematician finds balance and beauty in math”  [](https://news.mit.edu/2019/professor-mathematics-zhiwei-yun-0213)
 - DayDayNews: “Yun Zhiwei: A world-class mathematician born from Changzhou Tianning”  [](https://daydaynews.cc/en/technology/686004.html)

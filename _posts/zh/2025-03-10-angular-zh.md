@@ -15,26 +15,26 @@ Angular 是一个用于构建动态单页面应用（SPA）的强大框架。本
 ## 第一步：环境搭建与安装
 在开始使用 Angular 前，请确保你的开发环境准备就绪。
 
-- **环境要求**：  
-  - 安装 [Node.js](https://nodejs.org/)（推荐 LTS 版本）及 npm（Node.js 已内置）  
+- **环境要求**：
+  - 安装 [Node.js](https://nodejs.org/)（推荐 LTS 版本）及 npm（Node.js 已内置）
   - 推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑器，配合 Angular 扩展获得卓越开发体验
 
-- **安装 Angular CLI**：  
+- **安装 Angular CLI**：
   Angular 命令行工具（CLI）能简化项目创建和管理流程。全局安装命令：
   ```bash
   npm install -g @angular/cli
   ```
 
-- **创建新项目**：  
+- **创建新项目**：
   通过以下命令生成 Angular 应用：
   ```bash
   ng new my-angular-app
   ```
-  在设置过程中会提示：  
-  - 是否启用路由（SPA 应用建议开启）  
+  在设置过程中会提示：
+  - 是否启用路由（SPA 应用建议开启）
   - 选择样式表格式（如 CSS 或 SCSS）
 
-- **启动应用**：  
+- **启动应用**：
   运行开发服务器：
   ```bash
   ng serve
@@ -47,7 +47,7 @@ Angular 是一个用于构建动态单页面应用（SPA）的强大框架。本
 Angular 应用围绕几个基本概念构建。
 
 ### 组件
-组件是用户界面的构建单元，每个组件包含独立的 HTML、CSS 和 TypeScript 逻辑  
+组件是用户界面的构建单元，每个组件包含独立的 HTML、CSS 和 TypeScript 逻辑
 - 示例（`app.component.ts`）：
   ```typescript
   import { Component } from '@angular/core';
@@ -63,7 +63,7 @@ Angular 应用围绕几个基本概念构建。
   ```
 
 ### 模块
-模块将应用组织为内聚的功能块，根模块为 `AppModule`  
+模块将应用组织为内聚的功能块，根模块为 `AppModule`
 - 示例（`app.module.ts`）：
   ```typescript
   import { NgModule } from '@angular/core';
@@ -79,17 +79,17 @@ Angular 应用围绕几个基本概念构建。
   ```
 
 ### 服务
-服务用于处理共享逻辑或数据访问，通过依赖注入提供给组件  
+服务用于处理共享逻辑或数据访问，通过依赖注入提供给组件
 - 生成服务：
   ```bash
   ng generate service data
   ```
 
 ### 数据绑定
-数据绑定将组件数据与 UI 连接，Angular 支持：  
-- **插值表达式**：`{{ value }}`  
-- **属性绑定**：`[property]="value"`  
-- **事件绑定**：`(event)="handler()"`  
+数据绑定将组件数据与 UI 连接，Angular 支持：
+- **插值表达式**：`{{ value }}`
+- **属性绑定**：`[property]="value"`
+- **事件绑定**：`(event)="handler()"`
 - **双向绑定**：`[(ngModel)]="value"`（需导入 `FormsModule`）
 
 ---
@@ -97,10 +97,10 @@ Angular 应用围绕几个基本概念构建。
 ## 第三步：路由配置
 Angular 路由器支持 SPA 的无刷新页面导航。
 
-- **初始化设置**：  
+- **初始化设置**：
   创建项目时启用路由（`ng new my-angular-app --routing`），会自动生成 `app-routing.module.ts`
 
-- **定义路由**：  
+- **定义路由**：
   在 `app-routing.module.ts` 中配置：
   ```typescript
   import { NgModule } from '@angular/core';
@@ -120,10 +120,10 @@ Angular 路由器支持 SPA 的无刷新页面导航。
   export class AppRoutingModule {}
   ```
 
-- **路由出口**：  
+- **路由出口**：
   在 `app.component.html` 中添加 `<router-outlet></router-outlet>` 渲染路由组件
 
-- **导航链接**：  
+- **导航链接**：
   使用 `routerLink` 创建链接：
   ```html
   <a routerLink="/">首页</a>
@@ -139,7 +139,7 @@ Angular 提供两种处理用户输入的表单方案。
 简单表单场景可使用 `ngModel` 实现双向绑定，需导入 `FormsModule`
 
 ### 响应式表单（推荐）
-响应式表单提供更强控制力，适合复杂场景  
+响应式表单提供更强控制力，适合复杂场景
 - 示例（`my.component.ts`）：
   ```typescript
   import { Component } from '@angular/core';
@@ -173,7 +173,7 @@ Angular 提供两种处理用户输入的表单方案。
 ## 第五步：HTTP 请求
 通过 Angular 的 `HttpClient` 从后端获取数据。
 
-- **初始配置**：  
+- **初始配置**：
   在 `app.module.ts` 中导入 `HttpClientModule`：
   ```typescript
   import { HttpClientModule } from '@angular/common/http';
@@ -184,7 +184,7 @@ Angular 提供两种处理用户输入的表单方案。
   export class AppModule {}
   ```
 
-- **发起请求**：  
+- **发起请求**：
   创建服务（`data.service.ts`）：
   ```typescript
   import { Injectable } from '@angular/core';
@@ -202,7 +202,7 @@ Angular 提供两种处理用户输入的表单方案。
   }
   ```
 
-- **组件调用**：  
+- **组件调用**：
   订阅 Observable 数据流：
   ```typescript
   import { Component } from '@angular/core';
@@ -224,19 +224,19 @@ Angular 提供两种处理用户输入的表单方案。
 ---
 
 ## 第六步：最佳实践
-- **善用 TypeScript**：通过类型和接口提升代码安全性与整洁度  
-- **保持组件精简**：将大型组件拆分为可复用模块  
-- **惰性加载模块**：在路由中使用 `loadChildren` 提升性能  
-- **活用 Angular CLI**：使用自动化命令（如 `ng generate component my-component`）  
-- **AOT 编译优化**：启用预编译（`ng build --aot`）  
+- **善用 TypeScript**：通过类型和接口提升代码安全性与整洁度
+- **保持组件精简**：将大型组件拆分为可复用模块
+- **惰性加载模块**：在路由中使用 `loadChildren` 提升性能
+- **活用 Angular CLI**：使用自动化命令（如 `ng generate component my-component`）
+- **AOT 编译优化**：启用预编译（`ng build --aot`）
 - **遵循风格指南**：查阅 [官方 Angular 风格指南](https://angular.io/guide/styleguide)
 
 ---
 
 ## 进阶学习
-- [Angular 官方文档](https://angular.io/docs)  
-- [Angular 大学](https://angular-university.io/)  
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/angular) 社区答疑  
+- [Angular 官方文档](https://angular.io/docs)
+- [Angular 大学](https://angular-university.io/)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/angular) 社区答疑
 
 ---
 

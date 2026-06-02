@@ -37,6 +37,6 @@ Lanka concludes that the "virus misconception" has led to misguided medicine, fe
 
 This is a fringe perspective, widely debunked by mainstream science, which affirms viruses' existence through genomic sequencing, epidemiological data, and vaccines' efficacy. For balance, see critiques from sources like the CDC or virology journals.
 
-[Original PDF](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)  
-[Stefan Lanka's Background (Wikipedia)](https://en.wikipedia.org/wiki/Stefan_Lanka)  
+[Original PDF](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)
+[Stefan Lanka's Background (Wikipedia)](https://en.wikipedia.org/wiki/Stefan_Lanka)
 [Virology Overview (Nature Reviews)](https://www.nature.com/subjects/virology)

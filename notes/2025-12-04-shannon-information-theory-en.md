@@ -12,7 +12,7 @@ type: note
 
 Question: What is a comprehensive introduction to Claude Shannon?
 
-Answer: 
+Answer:
 
 Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern digital communication and information theory**. His groundbreaking 1948 paper introduced the entire field of **information theory** and laid the mathematical foundations for virtually all digital technology we use today.
 
@@ -27,21 +27,21 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 
 ### Core Concepts from Shannon’s 1948 Paper
 
-1. **Information Entropy**  
-   H = −Σ p(i) log₂ p(i) bits  
+1. **Information Entropy**
+   H = −Σ p(i) log₂ p(i) bits
    Measures the average uncertainty or information content of a message source.
 
-2. **The Bit**  
+2. **The Bit**
    Shannon popularized the term “bit” (binary digit) as the basic unit of information.
 
-3. **Noisy-Channel Coding Theorem** (Shannon’s Second Theorem)  
-   There exists a maximum channel capacity C. If you transmit below C, error can be made arbitrarily small; above C, errors are unavoidable.  
+3. **Noisy-Channel Coding Theorem** (Shannon’s Second Theorem)
+   There exists a maximum channel capacity C. If you transmit below C, error can be made arbitrarily small; above C, errors are unavoidable.
    C = B log₂(1 + S/N) bits/second for AWGN (Shannon–Hartley theorem).
 
-4. **Source Coding Theorem** (Shannon’s First Theorem)  
+4. **Source Coding Theorem** (Shannon’s First Theorem)
    You cannot compress data losslessly below its entropy rate without error.
 
-5. **Separation Principle**  
+5. **Separation Principle**
    Source coding (compression) and channel coding (error correction) can be designed separately and optimally — a result that enabled the entire architecture of modern digital communication.
 
 ### Impact
@@ -67,7 +67,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 
 Shannon’s work is one of the rare cases in science where a single person essentially created an entire field that now underpins the modern digital world.
 
-References:  
-- [A Mathematical Theory of Communication (1948)](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)  
-- [A Symbolic Analysis of Relay and Switching Circuits (1937)](https://dspace.mit.edu/handle/1721.1/11173)  
+References:
+- [A Mathematical Theory of Communication (1948)](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+- [A Symbolic Analysis of Relay and Switching Circuits (1937)](https://dspace.mit.edu/handle/1721.1/11173)
 - [A Mind at Play – Biography](https://www.simonandschuster.com/books/A-Mind-at-Play/Jimmy-Soni/9781476766683)

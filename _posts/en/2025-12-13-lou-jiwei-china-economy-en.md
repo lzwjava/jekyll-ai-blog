@@ -12,7 +12,7 @@ type: note
 
 Question: How does former Finance Minister Lou Jiwei comment on China's economy and its housing market?
 
-Answer: 
+Answer:
 
 Former Finance Minister Lou Jiwei, who served from 2013 to 2016 and remains an influential economic advisor, has been outspoken about China's economic challenges, particularly the ongoing property sector downturn. His recent comments emphasize the housing market's persistent drag on growth, deflationary pressures, and the need for bold policy responses. Below is a summary of his key views, drawn primarily from his November 2025 speech at the Caixin Summit in Beijing and earlier statements.
 
@@ -29,7 +29,7 @@ Former Finance Minister Lou Jiwei, who served from 2013 to 2016 and remains an i
 
 ### Recommended Solutions
 - **Expansionary Policies**: China needs sustained loose fiscal and monetary measures, including a larger budget deficit (beyond the current 3.8% of GDP) and direct subsidies to low-income households to boost consumption and cushion the transition.
-- **Structural Reforms**: 
+- **Structural Reforms**:
   - Reform hukou to ease rural-urban migration, unlocking housing demand and labor flows.
   - Convert excess properties into affordable housing to clear inventory.
   - Advance land, welfare, and tax reforms (e.g., property taxes, first piloted in 2011 in Shanghai and Chongqing) to address inequality without targeting the wealthy punitively.
@@ -38,9 +38,9 @@ Former Finance Minister Lou Jiwei, who served from 2013 to 2016 and remains an i
 
 Lou's views align with broader expert consensus on the need for market-oriented fixes over short-term stimulus, though implementation faces political hurdles. His November 2025 prognosis underscores urgency, as unresolved property issues risk prolonging deflation and eroding confidence.
 
-References:  
-- [China’s property slump could hinder growth 5 more years: ex-finance minister](https://www.scmp.com/economy/china-economy/article/3332844/chinas-property-slump-could-hinder-growth-5-more-years-ex-finance-minister)  
-- [China’s Ex-Finance Chief Warns Property Bust to Worsen Deflation](https://www.bloomberg.com/news/articles/2025-11-14/china-s-ex-finance-chief-warns-property-bust-to-worsen-deflation)  
-- [Lou Jiwei says structural reforms are now imperative](https://www.eastisread.com/p/lou-jiwei-says-structural-reforms)  
-- [Land, welfare and tax reforms needed to address China’s inequality: Lou Jiwei](https://www.scmp.com/economy/china-economy/article/3206567/chinas-urban-rural-dual-economic-structure-fueling-inequality-says-ex-finance-minister)  
+References:
+- [China’s property slump could hinder growth 5 more years: ex-finance minister](https://www.scmp.com/economy/china-economy/article/3332844/chinas-property-slump-could-hinder-growth-5-more-years-ex-finance-minister)
+- [China’s Ex-Finance Chief Warns Property Bust to Worsen Deflation](https://www.bloomberg.com/news/articles/2025-11-14/china-s-ex-finance-chief-warns-property-bust-to-worsen-deflation)
+- [Lou Jiwei says structural reforms are now imperative](https://www.eastisread.com/p/lou-jiwei-says-structural-reforms)
+- [Land, welfare and tax reforms needed to address China’s inequality: Lou Jiwei](https://www.scmp.com/economy/china-economy/article/3206567/chinas-urban-rural-dual-economic-structure-fueling-inequality-says-ex-finance-minister)
 - [China must relax residency curbs, land rights to offset effect of trade war, former finance minister says](https://www.scmp.com/economy/china-economy/article/3035793/china-must-relax-residency-curbs-land-rights-offset-effect)

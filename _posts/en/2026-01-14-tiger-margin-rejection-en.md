@@ -12,7 +12,7 @@ type: note
 
 Question: Explain the Tiger Trade rejection message: "201:Order rejected - Reason: YOUR ORDER IS NOT ACCEPTED. IN ORDER TO OBTAIN THE DESIRED POSITION YOUR EQUITY WITH LOAN VALUE [636.45 USD] MUST EXCEED THE INITIAL MARGIN [736.92 USD]"
 
-Answer: 
+Answer:
 
 This error message from **Tiger Trade** (Tiger Brokers' platform) means your order was rejected because your account does not have enough equity to meet the **initial margin requirement** for the trade you are trying to open.
 
@@ -46,7 +46,7 @@ The message specifically says your **Equity with Loan Value ($636.45)** is **les
 
 In short: Your account's usable equity ($636.45) is too low to support the new position's initial margin need ($736.92). Add funds or trade smaller to resolve it.
 
-References:  
+References:
 
 - [Tiger Trade Help - Margin & Leverage](https://www.tigertrade.app/help/detail/07532949)
 - [Tiger Trade Help - Risk State](https://www.tigertrade.app/help/detail/68026009)

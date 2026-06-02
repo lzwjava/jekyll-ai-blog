@@ -24,7 +24,7 @@ After the meeting ends:
 ### **Strategy 2: Incremental Extraction During Meeting**
 Every 5 minutes, ask progressively:
 - "Summarize minutes 0-5 without names"
-- "Summarize minutes 5-10 without names" 
+- "Summarize minutes 5-10 without names"
 - "Summarize minutes 10-15 without names"
 
 Copy each response immediately to your document.

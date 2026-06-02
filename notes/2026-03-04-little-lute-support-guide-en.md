@@ -11,21 +11,21 @@ type: note
 
 Question: How to play Little Lute in Honor of Kings
 
-Answer: 
+Answer:
 
 Little Lute, also known as Cai Yan or Cai Wenji, is a Support hero (roamer lane) in Honor of Kings (the international version of King of Glory / 王者荣耀). She excels as a healing and crowd control support, providing strong team sustain, buffs, and disruption. Her kit is beginner-friendly, focusing on keeping allies alive in fights while controlling enemies. She's balanced across all game stages but shines in team fights.
 
 ### Skills
-- **Passive: Can't Touch This**  
+- **Passive: Can't Touch This**
   When taking damage (from heroes, minions, or monsters), gain 35-70% decaying movement speed for 2s and heal for 250-530 (+50% magic power) HP per second for 2s (10s cooldown). Great for escaping ganks or sustaining in lane.
 
-- **Skill 1: Healing Hymn** (Max first)  
+- **Skill 1: Healing Hymn** (Max first)
   Play a melody, boosting your movement speed by 40% for 3s. Heals you and nearby allies for 60-120 (+20-25% magic power) HP every 0.5s for 3s (50% effect on non-heroes). Cooldown: 12-15s, Mana: 100. Use to sustain during laning or poke trades.
 
-- **Skill 2: Earworm**  
+- **Skill 2: Earworm**
   Fire a sound wave that bounces up to 6 times between enemies, dealing 270-540 (+48% magic power) magic damage and stunning for 0.75s per bounce (max 2 hits/target; 2nd hit 25% damage). Cooldown: 8-10s, Mana: 70. Primary poke/CC tool—aim at clustered foes or minion waves.
 
-- **Ultimate: Tune of Tranquility**  
+- **Ultimate: Tune of Tranquility**
   Create a zone healing the lowest-HP ally for 90-180 (+45-70% magic power) HP every 0.5s for 5s, plus 200-450 (+25-30% magic power) physical/magic defense. Enemies lingering 2s+ lose armor/resists. Cooldown: 50-60s, Mana: 120. Core team fight tool—position to cover multiple allies.
 
 **Skill Priority**: 1 > 2 > Ultimate. Take **Heal** or **Stun** summoner spell.
@@ -77,7 +77,7 @@ Focus on magic power (for healing/damage), cooldown reduction (CDR), health, and
 
 Master positioning and timing for massive impact!
 
-References: 
+References:
 - [Honor of Kings Little Lute Guide](https://gaminggblog.com/honor-of-kings-little-lute-builds)
 - [Cai Yan Fandom Wiki](https://honor-of-kings.fandom.com/wiki/Cai_Yan)
 - [Cai Yan HoK Guide](https://www.joytify.com/blog/en-ph/cai-yan-honor-of-kings)

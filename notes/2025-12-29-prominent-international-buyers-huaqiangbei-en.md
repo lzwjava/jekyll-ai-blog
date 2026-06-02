@@ -12,7 +12,7 @@ type: note
 
 Question: What are the most prominent or numerous groups of visitors in Huaqiangbei (HQB)?
 
-Answer: 
+Answer:
 
 Huaqiangbei (HQB) in Shenzhen, China, is primarily a wholesale and sourcing hub for electronics, attracting far more domestic Chinese buyers and traders than international visitors. Sources consistently note that international buyers are significantly fewer in number compared to locals, with many vendors geared toward domestic payment methods and sales.
 
@@ -34,10 +34,10 @@ Other groups include:
 
 No single nationality dominates the international crowd, and the market's multilingual atmosphere (beyond English and Chinese) reflects buyers from developing markets where cheap electronics are in high demand. Professional importers and business traders outnumber casual visitors.
 
-References:  
+References:
 
-- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)  
-- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)  
-- [Huaqiangbei Electronics Market: a Ultimate Guide for One-Stop Sourcing](https://insights.made-in-china.com/Huaqiangbei-Electronics-Market-a-Ultimate-Guide-for-One-Stop-Sourcing_caGfxSbKqmiD.html)  
-- [Huaqiangbei Shenzhen China: Inside the World's Electronics](https://www.sohoinchina.com/huaqiangbei-shenzhen-china/)  
+- [Huaqiangbei Electronics Market – Full Story and Complete Guide](https://jingsourcing.com/b-huaqiangbei-electronics-market/)
+- ['Bring an empty suitcase!' Foreign tourists flock to S China's Shenzhen for tech shopping spree](https://en.people.cn/n3/2025/0610/c98649-20325438.html)
+- [Huaqiangbei Electronics Market: a Ultimate Guide for One-Stop Sourcing](https://insights.made-in-china.com/Huaqiangbei-Electronics-Market-a-Ultimate-Guide-for-One-Stop-Sourcing_caGfxSbKqmiD.html)
+- [Huaqiangbei Shenzhen China: Inside the World's Electronics](https://www.sohoinchina.com/huaqiangbei-shenzhen-china/)
 - [Top 8 Guangzhou Electronics Wholesale Market You Won’t Miss](https://www.rz-sourcing.com/guangzhou-electronics-wholesale-market/)

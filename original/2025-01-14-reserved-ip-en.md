@@ -59,7 +59,7 @@ def unassign_ip_from_droplet(ip_address, droplet_id, droplet_name):
     headers = get_digitalocean_headers()
     if not headers:
         return False
-    
+
     try:
         url = f"https://api.digitalocean.com/v2/reserved_ips/{ip_address}"
         resp = requests.delete(url, headers=headers)
@@ -75,7 +75,7 @@ def assign_ip_to_droplet(ip_address, droplet_id, droplet_name):
     headers = get_digitalocean_headers()
     if not headers:
         return False
-    
+
     try:
         url = f"https://api.digitalocean.com/v2/reserved_ips/{ip_address}/actions"
         req = {
@@ -116,7 +116,7 @@ def process_reserved_ips(reserved_ips, droplet_name, only_check=False):
                 if droplet_id:
                     if unassign_ip_from_droplet(ip_address, droplet_id, droplet_name):
                         # Attempt to assign a new IP after unassigning
-                        
+
                         new_ip = create_new_reserved_ip(droplet_id)
                         if new_ip:
                             print("Sleeping for 10 seconds before assigning new IP...")
@@ -127,7 +127,7 @@ def process_reserved_ips(reserved_ips, droplet_name, only_check=False):
                                 print(f"Failed to reassign new IP {new_ip} to droplet {droplet_name}")
                         else:
                             print("No available IP to assign")
-                    
+
                 else:
                     print(f"Could not unassign IP {ip_address} because droplet ID was not found.")
                 return None
@@ -176,7 +176,7 @@ def get_reserved_ip(droplet_name=None, only_check=False):
     if reserved_ips is None:
         return None
     return process_reserved_ips(reserved_ips, droplet_name, only_check)
-    
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Get DigitalOcean reserved IP address.")
     parser.add_argument("--droplet-name", required=True, help="Name of the droplet to check if the reserved IP is assigned to.")

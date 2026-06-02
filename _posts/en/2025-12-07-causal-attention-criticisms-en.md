@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about Causal Self-Attention in large language models (LLMs)?
 
-Answer: 
+Answer:
 
 Causal self-attention is the core mechanism in decoder-only transformer architectures (like those powering GPT models), where attention is masked to ensure each token only attends to previous tokens in the sequence, enabling autoregressive generation. While it's foundational to modern LLMs, it draws criticism for inefficiencies, biases, and fundamental limitations. Below, I've compiled key unpopular opinions drawn from discussions in AI research communities, often expressed by prominent figures and researchers. These challenge the hype around scaling transformers as the path to AGI.
 
@@ -43,14 +43,14 @@ Causal self-attention is the core mechanism in decoder-only transformer architec
 
 These opinions highlight a growing skepticism: causal self-attention excels at short-term fluency but falters on efficiency, reasoning, and robustness. Future LLMs may evolve toward hybrid or post-transformer designs to address them.
 
-References:  
-- [Yann LeCun on autoregressive LLMs](https://x.com/ylecun/status/1625118108082995203)  
-- [François Fleuret hot-take on auto-regression](https://x.com/francoisfleuret/status/1922174021619097741)  
-- [Teortaxes on Sutton's LLM critiques](https://x.com/teortaxesTex/status/1971854577755377748)  
-- [Aran Komatsuzaki on attention rank collapse](https://x.com/arankomatsuzaki/status/1368742681631805443)  
-- [Google DeepMind on causal self-delusions](https://x.com/GoogleDeepMind/status/1452987196768653313)  
-- [Eliezer Yudkowsky on LLM misalignment](https://x.com/ESYudkowsky/status/1933578067580235897)  
-- [r/MachineLearning: Alternative to self-attention](https://www.reddit.com/r/MachineLearning/comments/134x9zg/research_an_alternative_to_selfattention/)  
-- [r/MachineLearning: Limitations of Transformers](https://www.reddit.com/r/MachineLearning/comments/18qh1hp/discussion_in_this_age_of_llms_what_are_the/)  
-- [r/MachineLearning: Causality research scam](https://www.reddit.com/r/MachineLearning/comments/qs7g4t/d_causality_research_in_ml_is_a_scam_warning/)  
+References:
+- [Yann LeCun on autoregressive LLMs](https://x.com/ylecun/status/1625118108082995203)
+- [François Fleuret hot-take on auto-regression](https://x.com/francoisfleuret/status/1922174021619097741)
+- [Teortaxes on Sutton's LLM critiques](https://x.com/teortaxesTex/status/1971854577755377748)
+- [Aran Komatsuzaki on attention rank collapse](https://x.com/arankomatsuzaki/status/1368742681631805443)
+- [Google DeepMind on causal self-delusions](https://x.com/GoogleDeepMind/status/1452987196768653313)
+- [Eliezer Yudkowsky on LLM misalignment](https://x.com/ESYudkowsky/status/1933578067580235897)
+- [r/MachineLearning: Alternative to self-attention](https://www.reddit.com/r/MachineLearning/comments/134x9zg/research_an_alternative_to_selfattention/)
+- [r/MachineLearning: Limitations of Transformers](https://www.reddit.com/r/MachineLearning/comments/18qh1hp/discussion_in_this_age_of_llms_what_are_the/)
+- [r/MachineLearning: Causality research scam](https://www.reddit.com/r/MachineLearning/comments/qs7g4t/d_causality_research_in_ml_is_a_scam_warning/)
 - [r/learnmachinelearning: LLM capabilities critique](https://www.reddit.com/r/learnmachinelearning/comments/1dvsh9m/tell_me_what_you_dont_agree_in_this_list_about/)

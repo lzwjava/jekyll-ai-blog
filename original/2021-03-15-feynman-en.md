@@ -63,7 +63,7 @@ Here’s an example:
 <div class="MathJax_Display">
     <span class="MathJax MathJax_FullWidth" id="MathJax-Element-10-Frame" tabindex="0" style="">
               <span class="mi" id="MathJax-Span-159" style="font-family: MathJax_Math-italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;">
-                </span>  
+                </span>
     </span>
 </div>
 <script type="math/tex; mode=display" id="MathJax-Element-10">\begin{equation}
@@ -197,10 +197,10 @@ Don't forget to include examples of topicalization.
 They look like this:
 
 {\small
-\enumsentence{Topicalization from sentential subject:\\ 
-\shortex{7}{a John$_i$ [a & kltukl & [el & 
+\enumsentence{Topicalization from sentential subject:\\
+\shortex{7}{a John$_i$ [a & kltukl & [el &
   {\bf l-}oltoir & er & ngii$_i$ & a Mary]]}
-{ & {\bf R-}clear & {\sc comp} & 
+{ & {\bf R-}clear & {\sc comp} &
   {\bf IR}.{\sc 3s}-love   & P & him & }
 {John, (it's) clear that Mary loves (him).}}
 }
@@ -282,7 +282,7 @@ This denotes the section title.
 This denotes a subsection title.
 
 ```latex
-\shortex{7}{a John$_i$ [a & kltukl & [el & 
+\shortex{7}{a John$_i$ [a & kltukl & [el &
   {\bf l-}oltoir & er & ngii$_i$ & a Mary]]}
 ```
 
@@ -387,16 +387,16 @@ for mathjax in mathjaxs:
     mathjax.insert_after(svg)
     # print(out['svg'])
     # break
-    # mathjax.replaceWith(out['svg'])    
-    
+    # mathjax.replaceWith(out['svg'])
+
     # print(dir(mathjax))
     # break
-    
-    # out = latex2svg(wrap)    
+
+    # out = latex2svg(wrap)
     # print(out['svg'])
 
 # print(len(soup.contents))
-    
+
 output_file = open('out.html', 'w')
 output_file.write(soup.prettify())
 output_file.close()
@@ -534,11 +534,11 @@ def clean_mathjax(soup, name, cls):
     previews = soup.findAll(name, {'class': cls})
     for preview in previews:
         preview.decompose()
-        
+
 def clean_script(soup):
     scripts = soup.findAll('script')
     for s in scripts:
-        s.decompose()    
+        s.decompose()
 
 def wrap_latex(mathjax, equation = False):
     wrap = ''
@@ -548,7 +548,7 @@ def wrap_latex(mathjax, equation = False):
         wrap = '$' + mathjax.string + '$'
     wrap = wrap.replace('label', 'tag')
     return wrap
- 
+
 def wrap_svg(svg, equation):
     if equation:
         p = BeautifulSoup(f'<div style="text-align:center;"></div>', features="lxml")
@@ -563,48 +563,48 @@ def to_svg(mathjaxs, equation=False):
     else:
         svg_prefix = 'in_'
     i = 0
-    for mathjax in mathjaxs:     
+    for mathjax in mathjaxs:
         print(mathjax.string)
-        wrap = wrap_latex(mathjax, equation=equation)   
+        wrap = wrap_latex(mathjax, equation=equation)
         out = {}
         try:
-            out = latex2svg(wrap)   
+            out = latex2svg(wrap)
         except subprocess.CalledProcessError as err:
-            raise err      
-            
+            raise err
+
         f = open(f'svgs/{svg_prefix}{i}.svg', 'w')
         f.write(out['svg'])
         f.close()
-        
+
         node = BeautifulSoup('<img>', features="lxml")
         img = node.find('img')
         img.attrs['src'] = f'./svgs/{svg_prefix}{i}.svg'
         img.attrs['style'] = 'vertical-align: middle; margin: 0.5em 0;'
-        
+
         p = wrap_svg(img, equation)
         mathjax.insert_after(p)
         i +=1
 
-def main():    
+def main():
     file = open('The Feynman Lectures on Physics Vol. I Ch. 13_ Work and Potential Energy (A).html')
     content = file.read()
-    
+
     soup = BeautifulSoup(content, features="lxml")
     clean_mathjax(soup, 'span', 'MathJax')
     clean_mathjax(soup, 'div', 'MathJax_Display')
     clean_mathjax(soup, 'span', 'MathJax_Preview')
-    
+
     mathjaxs = soup.findAll('script', {'type': 'math/tex'})
     to_svg(mathjaxs, equation=False)
-    
-    mathjaxs = soup.findAll('script', {'type': 'math/tex; mode=display'})   
+
+    mathjaxs = soup.findAll('script', {'type': 'math/tex; mode=display'})
     to_svg(mathjaxs, equation=True)
-    
+
     clean_script(soup)
-    
+
     output_file = open('out.html', 'w')
     output_file.write(soup.prettify())
-    output_file.close()    
+    output_file.close()
 
 main()
 ```
@@ -646,8 +646,8 @@ Remove them all.
 ```python
     mathjaxs = soup.findAll('script', {'type': 'math/tex'})
     to_svg(mathjaxs, equation=False)
-    
-    mathjaxs = soup.findAll('script', {'type': 'math/tex; mode=display'})   
+
+    mathjaxs = soup.findAll('script', {'type': 'math/tex; mode=display'})
     to_svg(mathjaxs, equation=True)
 ```
 
@@ -736,9 +736,9 @@ Next, `latex2svg.py` is called.
 ```python
         out = {}
         try:
-            out = latex2svg(wrap)   
+            out = latex2svg(wrap)
         except subprocess.CalledProcessError as err:
-            raise err    
+            raise err
 ```
 
 Let's look at `latex2svg.py`.
@@ -843,7 +843,7 @@ def wrap_svg(svg, equation):
         return p.div
     else:
         return svg
-      
+
 p = wrap_svg(img, equation)
 ```
 
@@ -859,8 +859,8 @@ Here, the `div` or `img` tag is added after the original `script`.
 def clean_script(soup):
     scripts = soup.findAll('script')
     for s in scripts:
-        s.decompose()    
-        
+        s.decompose()
+
 clean_script(soup)
 ```
 
@@ -871,7 +871,7 @@ Finally, write the modified entire `html` to a file.
 ```python
     output_file = open('out.html', 'w')
     output_file.write(soup.prettify())
-    output_file.close()    
+    output_file.close()
 ```
 
 Then, use the `pandoc` tool to convert to `epub`.

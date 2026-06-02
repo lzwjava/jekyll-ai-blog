@@ -53,7 +53,7 @@ Here are a few approaches to prevent this automatic generation:
 
 2. **VSCode specific settings**:
    In VSCode, you might be using the Java or Maven extensions. You can check their settings to see if you can disable the automatic Eclipse project file generation or modification:
-   
+
    - Open settings (Ctrl+,)
    - Search for "maven" or "java" settings related to project generation
    - Look for options like "Update Configuration" or "Project Generation"

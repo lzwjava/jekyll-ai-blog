@@ -12,7 +12,7 @@ type: note
 
 Question: What is LOL (League of Legends)?
 
-Answer: 
+Answer:
 **League of Legends (LoL)** is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Riot Games. First released on October 27, 2009, for Windows (with macOS support added in 2013), it has grown into one of the world's most popular games, boasting over 150 million monthly players and a massive esports scene.
 
 ### Core Gameplay
@@ -33,8 +33,8 @@ The game is strategy-heavy, emphasizing teamwork, map awareness, mechanics, and 
 
 New players can download it from the official site and try tutorials or bots to learn. It's rated Teen for fantasy violence and mild language.
 
-References:  
-- [League of Legends Official Site](https://www.leagueoflegends.com/en-us/)  
-- [League of Legends Wikipedia](https://en.wikipedia.org/wiki/League_of_Legends)  
-- [Riot Games Official Site](https://www.riotgames.com/en)  
+References:
+- [League of Legends Official Site](https://www.leagueoflegends.com/en-us/)
+- [League of Legends Wikipedia](https://en.wikipedia.org/wiki/League_of_Legends)
+- [Riot Games Official Site](https://www.riotgames.com/en)
 - [How to Play Guide](https://www.leagueoflegends.com/en-us/how-to-play/)

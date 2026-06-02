@@ -13,7 +13,7 @@ type: note
 Yes, buying car insurance is essential in China—specifically, third-party liability insurance (which covers damages or injuries you cause to others) is **mandatory** under Chinese law. You can't legally drive without at least the minimum coverage, and skipping it could lead to fines, license suspension, or worse if you're in an accident. Your father's advice makes a lot of sense, especially in big cities like Beijing, Shanghai, or Guangzhou, where luxury cars (e.g., Mercedes, BMWs, or even supercars) are common, and repair/replacement costs can easily exceed 1 million RMB. Let me break this down to help you decide on the 1M, 2M, or 3M levels for property damage coverage (the bodily injury parts are usually fixed at higher minimums).
 
 ### Quick Basics of Third-Party Insurance in China
-- **Minimum requirements**: 
+- **Minimum requirements**:
   - Bodily injury: 50,000 RMB per person / 100,000 RMB per accident (often bundled higher in policies).
   - Property damage: 100,000 RMB minimum, but almost everyone buys more because it's not enough for modern cars.
 - **Common add-ons**: Many policies include theft, collision, or comprehensive coverage, but you're focusing on third-party liability, which pays for the other party's losses if you're at fault.

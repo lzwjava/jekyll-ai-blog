@@ -12,7 +12,7 @@ type: note
 
 Question: What is R. Kent Dybvig's programming style like? He seems quite low-profile and doesn't appear to care much about news or media attention.
 
-Answer: 
+Answer:
 
 R. Kent Dybvig is a highly respected figure in the programming language community, best known as the principal developer of Chez Scheme—a fast, optimizing Scheme implementation started in 1985—and as the author of *The Scheme Programming Language* (often abbreviated TSPL).
 
@@ -24,9 +24,9 @@ His programming style, as reflected in both Chez Scheme and TSPL, is characteriz
 
 Regarding his public presence, Dybvig is indeed very low-profile. He has no notable media interviews, social media activity, or frequent public appearances. After retiring from Indiana University and joining Cisco (where Chez Scheme was open-sourced in 2016), he largely stepped back from public view. His contributions are primarily through code, papers, and his influential book, rather than conferences, blogs, or news. This suggests a focus on substantive work over self-promotion or engagement with trends and media.
 
-References:  
+References:
 
-- [R. Kent Dybvig - Wikipedia](https://en.wikipedia.org/wiki/R._Kent_Dybvig)  
-- [The Scheme Programming Language, 4th Edition - MIT Press](https://mitpress.mit.edu/9780262512985/the-scheme-programming-language/)  
-- [Chez Scheme - Wikipedia](https://en.wikipedia.org/wiki/Chez_Scheme)  
+- [R. Kent Dybvig - Wikipedia](https://en.wikipedia.org/wiki/R._Kent_Dybvig)
+- [The Scheme Programming Language, 4th Edition - MIT Press](https://mitpress.mit.edu/9780262512985/the-scheme-programming-language/)
+- [Chez Scheme - Wikipedia](https://en.wikipedia.org/wiki/Chez_Scheme)
 - [Amazon reviews and description of TSPL](https://www.amazon.com/Scheme-Programming-Language-MIT-Press/dp/026251298X)

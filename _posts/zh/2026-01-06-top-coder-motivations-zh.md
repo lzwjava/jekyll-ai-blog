@@ -12,7 +12,7 @@ type: note
 
 Question: 什么是驱动 Codeforces grandmasters 或高水平 competitive programmers 的动力？
 
-Answer: 
+Answer:
 
 Codeforces grandmasters（rating 2400+）以及高水平的 competitive programmers 是由内在和外在因素共同驱动的。对于许多人来说，首要动力是**对 problem-solving 纯粹的享受**——将 competitive programming (CP) 视为一种有趣的爱好、智力拼图或脑力运动，而不是一项苦差事。
 
@@ -32,11 +32,11 @@ Codeforces grandmasters（rating 2400+）以及高水平的 competitive programm
 
 高水平程序员通常强调享受过程胜过关注结果，因为外在奖励（如 rating）只能带来短暂的快乐。持续的练习源于对活动本身的热爱。
 
-References:  
+References:
 
-- [https://codeforces.com/blog/entry/138488](https://codeforces.com/blog/entry/138488)  
-- [https://codeforces.com/blog/entry/111521](https://codeforces.com/blog/entry/111521)  
-- [https://codeforces.com/blog/entry/68288](https://codeforces.com/blog/entry/68288)  
-- [https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st](https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st)  
-- [https://en.wikipedia.org/wiki/Gennady_Korotkevich](https://en.wikipedia.org/wiki/Gennady_Korotkevich)  
+- [https://codeforces.com/blog/entry/138488](https://codeforces.com/blog/entry/138488)
+- [https://codeforces.com/blog/entry/111521](https://codeforces.com/blog/entry/111521)
+- [https://codeforces.com/blog/entry/68288](https://codeforces.com/blog/entry/68288)
+- [https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st](https://www.linkedin.com/posts/shahjalalshohag_after-5-years-and-8-months-and-solving-5000-activity-7076542042373320705-D0st)
+- [https://en.wikipedia.org/wiki/Gennady_Korotkevich](https://en.wikipedia.org/wiki/Gennady_Korotkevich)
 - [https://www.geeksforgeeks.org/blogs/why-should-you-do-competitive-programming/](https://www.geeksforgeeks.org/blogs/why-should-you-do-competitive-programming/)

@@ -49,7 +49,7 @@ IELTS One Skill Retake (also called single skill retake or 单科重考) allows 
 
 This option saves time and money compared to retaking the full test, especially if only one skill was holding you back.
 
-**References:**  
+**References:**
 
 - [IELTS Official - One Skill Retake](https://www.ielts.org/en-us/for-test-takers/ielts-one-skill-retake)
 - [British Council - One Skill Retake](https://takeielts.britishcouncil.org/take-ielts/one-skill-retake)

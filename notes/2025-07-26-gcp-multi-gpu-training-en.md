@@ -118,6 +118,6 @@ This is more hands-on but gives full control.
 - For free/limited GPU training, try Google Colab (up to 1-2 GPUs, but not guaranteed multi-GPU or 4090-equivalent).
 - Always check quotas and request increases if needed via the GCP console.
 
-[Configure compute resources for custom training | Vertex AI | Google Cloud](https://cloud.google.com/vertex-ai/docs/training/configure-compute)  
-[GPU machine types | Compute Engine Documentation | Google Cloud](https://cloud.google.com/compute/docs/gpus)  
+[Configure compute resources for custom training | Vertex AI | Google Cloud](https://cloud.google.com/vertex-ai/docs/training/configure-compute)
+[GPU machine types | Compute Engine Documentation | Google Cloud](https://cloud.google.com/compute/docs/gpus)
 [Cloud GPUs (Graphics Processing Units) - Google Cloud](https://cloud.google.com/gpu)

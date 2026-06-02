@@ -12,7 +12,7 @@ type: note
 
 Question: Is it normal for people to use VS Code to develop Java projects?
 
-Answer: 
+Answer:
 
 **Yes, it is completely normal** — 并且在 2025–2026 年变得越来越普遍。
 
@@ -42,7 +42,7 @@ Answer:
 
 所以，是的 —— 在今天使用 VS Code 开发 Java 项目是 **完全正常** 的，绝对不是什么异常情况。
 
-References:  
+References:
 
 - [Most Popular Java IDEs in 2026 - JRebel](https://www.jrebel.com/blog/best-java-ide)
 - [Java in Visual Studio Code - Official Docs](https://code.visualstudio.com/docs/languages/java)

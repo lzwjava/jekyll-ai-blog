@@ -17,16 +17,16 @@ type: note
 ---
 
 ### What Are These Services and Their Role?
-**services.msc Overview**  
+**services.msc Overview**
 services.msc is the Microsoft Management Console for services, allowing you to view and manage all services on your Windows machine. To fix the software center download issue, you should use it to ensure the sms agent host service is running. If it's not, starting it might resolve the problem.
 
-**adaptiveclient Explanation**  
+**adaptiveclient Explanation**
 adaptiveclient likely refers to the Adaptiva Client Service, part of Adaptiva's systems management software that integrates with Configuration Manager ([Adaptiva Official Website](https://adaptiva.com)). If this service is causing resource conflicts or network interference, it might be affecting the Configuration Manager client's ability to download software. You might need to manage or stop this service temporarily to see if that resolves the issue.
 
-**wmi performance adapter Details**  
+**wmi performance adapter Details**
 The wmi performance adapter is a Windows service that provides performance data through Windows Management Instrumentation (WMI) ([Troubleshoot WMI Performance Issues](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues)). Configuration Manager uses WMI for various management tasks, so ensuring this service is running is necessary for Configuration Manager to function correctly.
 
-**sms agent host Role**  
+**sms agent host Role**
 The sms agent host is the service that runs the Configuration Manager client on the machine ([Microsoft Documentation on Configuration Manager Client Management](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients)). It's essential for the software center and deployments. If it's not running, the download won't proceed.
 
 ### How They Relate to Fixing the Download Issue
@@ -44,16 +44,16 @@ This section provides a detailed examination of the services mentioned—service
 
 #### Understanding Each Service
 
-**services.msc: The Service Management Console**  
+**services.msc: The Service Management Console**
 services.msc is not a service itself but the Microsoft Management Console snap-in for managing Windows services. It provides a graphical interface to view, start, stop, and configure services, which are background processes essential for system and application functionality. In the context of fixing software center download issues, services.msc is the tool users would use to check the status of critical services like sms agent host and wmi performance adapter. Ensuring these services are running is a fundamental troubleshooting step, as any service failure could halt Configuration Manager operations, including software deployments.
 
-**adaptiveclient: Likely the Adaptiva Client Service**  
+**adaptiveclient: Likely the Adaptiva Client Service**
 The term "adaptiveclient" does not directly correspond to any native Configuration Manager service, leading to the conclusion that it likely refers to the Adaptiva Client Service, part of Adaptiva's systems management suite ([Adaptiva Official Website](https://adaptiva.com)). Adaptiva's software, such as OneSite, is designed to enhance SCCM's content distribution and management capabilities, particularly for patch management and endpoint health. The Adaptiva Client Service (AdaptivaClientService.exe) is responsible for executing tasks like health checks and content delivery optimization. Given its integration with SCCM, if this service is consuming excessive network resources or conflicting with SCCM client operations, it could indirectly cause download issues. For instance, forum discussions indicate potential resource contention, such as disk space usage for cache, which could affect SCCM's performance ([r/SCCM on Reddit: Adaptiva - Anyone have an Experience?](https://www.reddit.com/r/SCCM/comments/pb7325/adaptiva_anyone_have_an_experience/)).
 
-**wmi performance adapter: Windows Service for Performance Data**  
+**wmi performance adapter: Windows Service for Performance Data**
 The wmi performance adapter, or WMI Performance Adapter (wmiApSrv), is a Windows service that provides performance library information from WMI high-performance providers to clients on the network ([WMI Performance Adapter | Windows security encyclopedia](https://www.windows-security.org/windows-service/wmi-performance-adapter-0)). It runs only when Performance Data Helper (PDH) is activated and is crucial for making system performance counters available through WMI or PDH APIs. Configuration Manager relies heavily on WMI for tasks like inventory collection and client health monitoring ([Troubleshoot WMI Performance Issues](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues)). If this service is not running, it could potentially disrupt SCCM's ability to gather necessary data, which might indirectly affect software center downloads, especially if performance data is needed for deployment decisions.
 
-**sms agent host: The Configuration Manager Client Service**  
+**sms agent host: The Configuration Manager Client Service**
 The sms agent host service, also known as CcmExec.exe, is the core service for the Configuration Manager client installed on managed devices ([Microsoft Documentation on Configuration Manager Client Management](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients)). It handles communication with the SCCM server, manages software deployments, collects inventory, and facilitates user interactions through the software center. This service is critical for any deployment activity, including downloading and installing applications or updates. If it is not running or encounters issues, as seen in cases where it stops responding due to timing issues ([The Systems Management Server (SMS) Agent Host service (Ccmexec.exe) stops responding on a System Center Configuration Manager 2007 SP2 client computer](https://support.microsoft.com/en-us/topic/the-systems-management-server-sms-agent-host-service-ccmexec-exe-stops-responding-on-a-system-center-configuration-manager-2007-sp2-client-computer-6bd93824-d9ac-611f-62fc-eabc1ba20d47)), it directly prevents downloads from proceeding, leading to the 0% stuck state.
 
 #### Relating These Services to Fixing Software Center Download Issues at 0%

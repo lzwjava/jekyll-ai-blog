@@ -24,7 +24,7 @@ type: note
 **Option 3: 创建自定义过滤器**
 1. 进入 Change > All
 2. 点击过滤器图标
-3. 添加条件：`Assignment group` → `is one of` 
+3. 添加条件：`Assignment group` → `is one of`
 4. 选择您的组以及您想要的 parent group
 5. 将其保存为个人或共享过滤器以便快速访问
 

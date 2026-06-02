@@ -11,7 +11,7 @@ type: note
 
 Question: What are some ideas from Lulu Cheng Meservey, the Silicon Valley market and communications expert?
 
-Answer: 
+Answer:
 
 Lulu Cheng Meservey is a prominent communications expert in Silicon Valley, known for her work with companies like Substack, Activision Blizzard, Anduril, and others. She is the founder of Rostra (a firm focused on founder-led communications) and often shares insights on modern PR, narrative building, and direct audience engagement. Her key ideas challenge traditional PR and emphasize authenticity, directness, and strategic storytelling in a social media-driven world.
 
@@ -35,7 +35,7 @@ Here are some of her notable ideas and principles:
 
 Her newsletter "Flack" and podcast appearances expand on these tactical and strategic ideas for winning attention without being "cringe" or wasting time.
 
-References:  
+References:
 
 - [Meet Silicon Valley's #1 PR Expert — Lulu Cheng Meservey (YouTube)](https://www.youtube.com/watch?v=QDHWyuNhs-E)
 - [Lulu Cheng Meservey on X (Twitter profile)](https://x.com/lulumeservey)

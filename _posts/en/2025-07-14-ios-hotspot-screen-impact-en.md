@@ -24,9 +24,9 @@ Regarding speed: There's no evidence or reports indicating that the screen being
 
 If you're experiencing disconnections or slow speeds, try restarting your iPhone, updating to the latest iOS, disabling Low Power Mode, or resetting network settings (Settings > General > Transfer or Reset iPhone > Reset > Reset Network Settings). For persistent issues, check your carrier's data plan limits or contact Apple Support.
 
-[Apple Support: Set up Personal Hotspot](https://support.apple.com/en-us/HT204023)  
-[Ask Different: Personal Hotspot not staying Connected](https://apple.stackexchange.com/questions/332984/personal-hotspot-not-staying-connected)  
-[Reddit: iPhone hotspot keep disconnecting](https://www.reddit.com/r/iphone/comments/170i24n/your_iphones_hotspot_keep_disconnecting_i_think_i/)  
-[MacRumors: Hotspot on 5G stops unless screen on](https://forums.macrumors.com/threads/ios-15-3-1-hotspot-on-5g-stops-unless-i-keep-screen-on.2336283/)  
-[wikiHow: Make Your iPhone Hotspot Faster](https://www.wikihow.com/Make-Hotspot-Faster-iPhone)  
+[Apple Support: Set up Personal Hotspot](https://support.apple.com/en-us/HT204023)
+[Ask Different: Personal Hotspot not staying Connected](https://apple.stackexchange.com/questions/332984/personal-hotspot-not-staying-connected)
+[Reddit: iPhone hotspot keep disconnecting](https://www.reddit.com/r/iphone/comments/170i24n/your_iphones_hotspot_keep_disconnecting_i_think_i/)
+[MacRumors: Hotspot on 5G stops unless screen on](https://forums.macrumors.com/threads/ios-15-3-1-hotspot-on-5g-stops-unless-i-keep-screen-on.2336283/)
+[wikiHow: Make Your iPhone Hotspot Faster](https://www.wikihow.com/Make-Hotspot-Faster-iPhone)
 [BroadbandNow: Why Is My Hotspot So Slow?](https://broadbandnow.com/guides/why-is-my-hotspot-so-slow)

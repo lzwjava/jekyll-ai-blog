@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular opinions about the Rust programming language, using Rust to develop projects, or adopting it in startups or big corporations?
 
-Answer: 
+Answer:
 
 Rust is widely praised for its memory safety, performance, and concurrency features, but it also attracts strong criticism, especially around its complexity and fit for certain environments. Below, I've compiled a list of unpopular opinions drawn from developer discussions, blog posts, and forums. These highlight trade-offs in productivity, hiring, and real-world use cases. I've grouped them into categories for clarity, focusing on those that challenge the hype around Rust.
 

@@ -27,7 +27,7 @@ Torri rose to prominence as a young talent:
 
 She has also set American records and world records in relays, establishing herself as one of the top butterfly specialists in the world. Torri represents a blend of heritages and often speaks about living the "American Dream" while honoring her Chinese roots through her mother's story.
 
-**References:**  
+**References:**
 
 - [Torri Huske - Wikipedia](https://en.wikipedia.org/wiki/Torri_Huske)
 - [The Stunning Transformation Of Olympic Swimmer Torri Huske - The List](https://www.thelist.com/1637652/olympic-swimmer-torri-huske-stunning-transformation)

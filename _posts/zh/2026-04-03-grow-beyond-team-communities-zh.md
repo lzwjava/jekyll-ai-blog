@@ -123,22 +123,22 @@ type: note
 
 典型路径：
 
-2019–2020  
+2019–2020
 小型群体探索 transformers
 
-2021  
+2021
 玩 GPT-2 / GPT-3
 
-2022  
+2022
 尝试 Stable Diffusion
 
-2023  
+2023
 构建 LLM tools
 
-2024  
+2024
 开发 agent systems
 
-2025  
+2025
 成为“AI engineer” / 创办公司
 
 他们没有等待团队。

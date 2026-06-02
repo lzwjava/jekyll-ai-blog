@@ -16,9 +16,9 @@ From reviews, it's topped Shenzhen's must-eat lists on platforms like Dianping f
 
 Overall, if you like subtle, umami-packed Chinese comfort food, go for it—it's legit good and not too heavy.
 
-References:  
-[深圳新店 金戈戈香港豉油鸡 打工人的下饭神器 - Dianping](https://www.dianping.com/discovery/1436849166)  
-[金戈戈香港豉油鸡(卓悦中心店) - Ctrip](https://you.ctrip.com/food/26/78199957.html)  
-[豉油鸡以我在深圳吃了不下50家来说可以排 - Dianping](http://m.dianping.com/review/2353484187)  
-[深圳排队王、2年必吃榜，它靠一道豉油鸡冲出烧腊的大赛道！ - Red Meal Net](https://m.canyin88.com/zixun/2020/12/18/82314.html)  
+References:
+[深圳新店 金戈戈香港豉油鸡 打工人的下饭神器 - Dianping](https://www.dianping.com/discovery/1436849166)
+[金戈戈香港豉油鸡(卓悦中心店) - Ctrip](https://you.ctrip.com/food/26/78199957.html)
+[豉油鸡以我在深圳吃了不下50家来说可以排 - Dianping](http://m.dianping.com/review/2353484187)
+[深圳排队王、2年必吃榜，它靠一道豉油鸡冲出烧腊的大赛道！ - Red Meal Net](https://m.canyin88.com/zixun/2020/12/18/82314.html)
 [深圳美食｜绝对不能错过的豉油鸡天花板 - Dianping](https://www.dianping.com/discovery/692138089)

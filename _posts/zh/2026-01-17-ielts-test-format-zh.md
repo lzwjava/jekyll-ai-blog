@@ -49,7 +49,7 @@ Answer:
 - **Writing**（Academic 版本）
   时长：**60 分钟**完成 2 个任务。
   - **Task 1**（至少 150 字，建议用时 20 分钟）：
-    描述、总结或解释视觉信息（如：graph、chart、表格、图解、地图、流程）。这属于信息性写作，通常涉及数据、趋势或阶段的比较。  
+    描述、总结或解释视觉信息（如：graph、chart、表格、图解、地图、流程）。这属于信息性写作，通常涉及数据、趋势或阶段的比较。
   - **Task 2**（至少 250 字，建议用时 40 分钟）：
     针对某一观点、论点或问题写一篇议论文。这属于基于观点的写作（如：讨论两种观点并给出你的看法、同意/不同意、优缺点分析、问题解决对策）。
   Task 2 在评分中占比权重更高。
@@ -67,7 +67,7 @@ Listening、Reading 和 Writing 部分通常在同一天进行，且中间没有
 
 References:
 
-- [IELTS test format explained | British Council](https://takeielts.britishcouncil.org/take-ielts/test-format)  
-- [IELTS Academic format: Listening | IELTS.org](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)  
-- [IELTS Academic test sample questions | IELTS.org](https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test)  
+- [IELTS test format explained | British Council](https://takeielts.britishcouncil.org/take-ielts/test-format)
+- [IELTS Academic format: Listening | IELTS.org](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening)
+- [IELTS Academic test sample questions | IELTS.org](https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test)
 - [Cambridge English IELTS test format](https://www.cambridgeenglish.org/exams-and-tests/ielts/test-format)

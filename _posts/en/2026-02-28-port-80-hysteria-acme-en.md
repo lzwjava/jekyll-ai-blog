@@ -40,12 +40,12 @@ Hysteria's documentation explicitly warns:
 
 **Alternatives to keep port 80 closed all the time:**
 
-1. Use only **tls-alpn-01** challenge  
-   Set `disableHTTP: true` in the acme section → Hysteria will try **tls-alpn-01** (port 443 only).  
+1. Use only **tls-alpn-01** challenge
+   Set `disableHTTP: true` in the acme section → Hysteria will try **tls-alpn-01** (port 443 only).
    This works if port 443 is open (which it must be anyway for Hysteria).
 
-2. Use **DNS-01** challenge  
-   This doesn't require any ports open on your server.  
+2. Use **DNS-01** challenge
+   This doesn't require any ports open on your server.
    You must use an ACME client that supports your DNS provider's API (e.g., acme.sh, certbot with DNS plugin, or manual setup), then point Hysteria to the obtained certificate files.
 
 3. Use an **external tool** like certbot in `--standalone` or `--webroot` mode (temporarily open port 80 only during renewal via hooks/scripts).

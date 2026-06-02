@@ -11,7 +11,7 @@ type: note
 
 Question: Is it okay to eat 五仁酱丁?
 
-Answer: 
+Answer:
 
 Yes, it is generally okay to eat **五仁酱丁** (also written as Wu Ren Jiang Ding), a popular Chinese pickled side dish / condiment.
 
@@ -40,7 +40,7 @@ If you have **no nut allergy**, **no strict low-sodium requirement**, and you bu
 
 Just eat in moderation like any salty pickle / condiment.
 
-References:  
+References:
 
 - [https://baike.baidu.com/item/%E4%BA%94%E4%BB%81%E9%85%B1%E4%B8%81/49961135](https://baike.baidu.com/item/%E4%BA%94%E4%BB%81%E9%85%B1%E4%B8%81/49961135)
 - [https://health.baidu.com/m/detail/ar_6689159764392828013](https://health.baidu.com/m/detail/ar_6689159764392828013)

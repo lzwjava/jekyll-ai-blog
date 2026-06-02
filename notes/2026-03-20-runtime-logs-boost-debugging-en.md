@@ -95,8 +95,8 @@ Without logs showing **which of these fired and when**, even AI cannot diagnose 
 1. Add lifecycle logs + separator logs
 2. Reproduce the bug (tab switch → field value lost)
 3. Copy the bounded log block (from separator to separator)
-4. Paste to Copilot/Claude with: 
-   "Here are the logs between tab switch start and end — 
+4. Paste to Copilot/Claude with:
+   "Here are the logs between tab switch start and end —
     why did the field value disappear?"
 ```
 

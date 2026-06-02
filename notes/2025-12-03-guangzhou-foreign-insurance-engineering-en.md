@@ -12,7 +12,7 @@ type: note
 
 ### Question: What about foreign insurance companies like AIA and Fuwei in Guangzhou, China, that have offices there and hire for permanent or contract engineering roles?
 
-### Answer: 
+### Answer:
 
 AIA Group, a major foreign (Hong Kong-based) life insurance provider, has a significant presence in Guangzhou and actively hires for engineering roles, particularly in IT, software, and data engineering to support its digital transformation and fintech initiatives. "Fuwei insurance," however, appears to be a misnomer or lesser-known entity—searches point to Fuwei Group (a pan-Asian life insurer attempting an IPO in 2022) or Guangzhou Fuwei Electronic Technology Co., Ltd. (a Chinese high-tech firm in industrial sensors, not insurance). Neither has confirmed engineering hiring in Guangzhou insurance contexts, so I've focused on AIA and expanded to other relevant foreign insurers with Guangzhou offices. These firms often recruit for roles like software engineers, data engineers, and solution architects in their tech/operations hubs. As with banks, opportunities are permanent or contract-based, favoring bilingual candidates with engineering degrees. Availability varies; monitor LinkedIn, Glassdoor, and company sites.
 

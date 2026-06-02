@@ -48,7 +48,7 @@ The determinant of a matrix \\(\mathbf{A}\\) can be found by expanding along **a
 * **Expansion along the \\(j\\)-th column:**
     \\(\\)\det(\mathbf{A}) = \sum_{i=1}^{n} a_{ij} C_{ij} = a_{1j}C_{1j} + a_{2j}C_{2j} + \cdots + a_{nj}C_{nj}\\(\\)
 
-So yes, the product of an element \\(a_{ij}\\) and its cofactor \\(C_{ij}\\) is the **term** used when calculating the determinant along that specific row or column. 
+So yes, the product of an element \\(a_{ij}\\) and its cofactor \\(C_{ij}\\) is the **term** used when calculating the determinant along that specific row or column.
 
 ---
 

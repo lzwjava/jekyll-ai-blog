@@ -44,7 +44,7 @@ import { prepare, layout } from '@chenglou/pretext';
 const prepared = prepare('Hello world! 🚀', '16px Inter');
 
 // 2. Layout: 纯数学计算（可以在每一帧或每次 resize 时安全调用）
-const { height, lineCount } = layout(prepared, 300, 20); 
+const { height, lineCount } = layout(prepared, 300, 20);
 // 返回在 300px 宽度和 20px 行高下的高度
 ```
 

@@ -12,11 +12,11 @@ type: note
 
 Question: Translate the following Chinese Zhihu article to English.
 
-Answer: 
+Answer:
 
-Author: Chenyue  
-Link: <https://www.zhihu.com/question/658625912/answer/1990866399384577090>  
-Source: Zhihu  
+Author: Chenyue
+Link: <https://www.zhihu.com/question/658625912/answer/1990866399384577090>
+Source: Zhihu
 Copyright belongs to the author. For commercial reprint, please contact the author for authorization; for non-commercial reprint, please indicate the source.
 
 What you see as internal friction and a disaster, executives see as an ecosystem.
@@ -155,6 +155,6 @@ Do not expect a utopia without struggle. True maturity is, after seeing through 
 
 This is the truth of the workplace.
 
-References:  
+References:
 
 - [Original Zhihu Answer](https://www.zhihu.com/question/658625912/answer/1990866399384577090)

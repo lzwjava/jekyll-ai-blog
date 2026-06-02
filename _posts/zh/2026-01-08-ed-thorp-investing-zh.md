@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Ed Thorp in investing?
 
-Answer: 
+Answer:
 
 "Ed Thrope" 这个名字似乎是 **Edward O. Thorp**（通常被称为 Ed Thorp）的拼写错误，他是 Quantitative Investing（量化投资）和 Hedge Fund 管理领域的先驱人物。
 
@@ -33,7 +33,7 @@ Thorp 在成功应用类似的概率思维击败赌场游戏后，从学术界�
 
 他因其 Risk Management（使用 Kelly Criterion 等概念）、对拥有数学优势（Mathematical Edge）的强调以及持续的超额收益而备受称赞，这使他成为一个传奇人物，尽管与 Warren Buffett 或 Jim Simons 等名字相比，他在大众中的知名度有时被低估。
 
-References:  
+References:
 
 - [Edward O. Thorp - Wikipedia](https://en.wikipedia.org/wiki/Edward_O._Thorp)
 - [Edward Thorp: The Genius Who Beat the Casinos And The Stock Market - QuantifiedStrategies.com](https://www.quantifiedstrategies.com/edward-thorp/)

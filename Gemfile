@@ -37,5 +37,3 @@ gem 'bigdecimal'
 gem "jekyll-include-cache"
 
 gem 'jekyll-theme-cayman'
-
-

@@ -12,13 +12,13 @@ type: note
 
 Question: What is the central argument of Ouyang Xiu's "Preface to the Biography of Lingguan" in the History of the Five Dynasties?
 
-Answer: 
+Answer:
 
 The correct answer is **C. Diligence builds a country, indulgence destroys it**.
 
 This preface (《新五代史·伶官传序》) is one of Ouyang Xiu's most famous pieces of historical writing. Its core thesis is clearly expressed in the famous line:
 
-> **“忧劳可以兴国，逸豫可以亡身。”**  
+> **“忧劳可以兴国，逸豫可以亡身。”**
 > (Worry and toil can raise up a state; ease and pleasure can destroy both body and country.)
 
 Ouyang Xiu uses the rise of the Later Tang under Emperor Zhuangzong (Li Cunxu) — who achieved great military success through diligence and hardship — and its rapid collapse due to indulgence in music, theater, and favorites (including actors/伶官) as a concrete historical lesson.
@@ -35,7 +35,7 @@ Among the options:
 
 Therefore, **C** is the best answer, and the user-indicated choice **B** is not the central argument of this specific preface.
 
-References:  
+References:
 
-- [Ouyang Xiu - Preface to the Biographies of Actors (伶官传序)](https://ctext.org/wiki.pl?if=gb&chapter=594&remap=gb) (Chinese Text Project)  
+- [Ouyang Xiu - Preface to the Biographies of Actors (伶官传序)](https://ctext.org/wiki.pl?if=gb&chapter=594&remap=gb) (Chinese Text Project)
 - Standard interpretations in Chinese literary/history textbooks and exam materials for classical Chinese prose

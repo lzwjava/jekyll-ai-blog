@@ -12,7 +12,7 @@ type: note
 
 Question: What is the content of the YouTube video at https://www.youtube.com/watch?v=pCcJFdYNamc? Please provide a refined and organized version of its transcript.
 
-Answer: 
+Answer:
 
 这视频的标题是 **"Default Gateway Explained"**，由 *PowerCert Animated Videos* 频道发布。这是一段讲解计算机网络中 Default Gateway（默认网关）是什么、其工作原理以及 IP address 和 Subnet Mask 等相关概念的教育动画视频。
 
@@ -51,6 +51,6 @@ Answer:
 
 以上就是对 Default Gateway 的解释。
 
-References:  
+References:
 
 - [YouTube Video: Default Gateway Explained](https://www.youtube.com/watch?v=pCcJFdYNamc)

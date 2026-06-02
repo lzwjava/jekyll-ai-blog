@@ -12,7 +12,7 @@ type: note
 
 Question: What is the EF SET English certificate?
 
-Answer: 
+Answer:
 
 The **EF SET English Certificate** is a free, online standardized English proficiency certificate provided by the EF Standard English Test (EF SET), developed by EF Education First, a global language training company.
 
@@ -26,9 +26,9 @@ The **EF SET English Certificate** is a free, online standardized English profic
 
 The EF SET is built to high academic standards and is considered reliable for measuring receptive skills, making it popular for job applications or personal development.
 
-References:  
+References:
 
-- [Official EF SET Website](https://www.efset.org/)  
-- [EF SET English Certificate Explanation](https://www.ef.com/wwen/english-tests/efset/english-certificate/)  
-- [Wikipedia: EF Standard English Test](https://en.wikipedia.org/wiki/EF_Standard_English_Test)  
+- [Official EF SET Website](https://www.efset.org/)
+- [EF SET English Certificate Explanation](https://www.ef.com/wwen/english-tests/efset/english-certificate/)
+- [Wikipedia: EF Standard English Test](https://en.wikipedia.org/wiki/EF_Standard_English_Test)
 - [EF SET Certificate Page](https://www.efset.org/english-certificate/)

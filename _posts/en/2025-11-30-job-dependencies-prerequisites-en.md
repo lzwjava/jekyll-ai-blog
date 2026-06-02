@@ -62,12 +62,12 @@ Then on Job B add both conditions with **OR** logic.
 
 ### Quick Example Summary
 
-**Job A (any type)**  
-Post-Processing → Add Condition:  
+**Job A (any type)**
+Post-Processing → Add Condition:
 `A-OK  ODAT  Add`
 
-**Job B (any type)**  
-Prerequisites → In-Condition:  
+**Job B (any type)**
+Prerequisites → In-Condition:
 `A-OK  ODAT  And/Or: (blank)`
 
 That’s it — Job B will start automatically as soon as Job A ends OK.

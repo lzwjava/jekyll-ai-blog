@@ -12,7 +12,7 @@ type: note
 
 Question: Why is the brain sometimes very clear and allows clear thinking, but other times it is hard to focus, read, or learn?
 
-Answer: 
+Answer:
 
 Mental clarity 和 focus 会因为生理、生活方式和环境等多种因素而波动。这种波动是正常的，当 clarity 降低时通常被称为 "brain fog"——其特征是难以集中注意力、memory issues、困惑以及 cognitive performance 下降。
 
@@ -37,9 +37,9 @@ To improve consistency:
 - 将高要求任务安排在 peak times。
 - 加入规律的运动和 mental breaks。
 
-References:  
+References:
 
-- [Brain Fog: 6 Potential Causes](https://www.healthline.com/health/brain-fog)  
-- [Brain Fog: What It Is, Causes, Symptoms & Treatment](https://my.clevelandclinic.org/health/symptoms/brain-fog)  
-- [Diurnal variation in variables related to cognitive performance](https://link.springer.com/article/10.1007/s11325-023-02895-0)  
+- [Brain Fog: 6 Potential Causes](https://www.healthline.com/health/brain-fog)
+- [Brain Fog: What It Is, Causes, Symptoms & Treatment](https://my.clevelandclinic.org/health/symptoms/brain-fog)
+- [Diurnal variation in variables related to cognitive performance](https://link.springer.com/article/10.1007/s11325-023-02895-0)
 - [The effects of time of day and chronotype on cognitive and physical performance](https://link.springer.com/article/10.1186/s40798-018-0162-z)

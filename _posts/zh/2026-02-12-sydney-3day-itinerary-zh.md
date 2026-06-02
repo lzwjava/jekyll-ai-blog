@@ -35,7 +35,7 @@ Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市�
 
 ### 初次访客 3 日 Sydney 行程
 
-**第 1 天：海港标志与城市核心**  
+**第 1 天：海港标志与城市核心**
 重点 → 拍摄明信片般的照片，感受 Sydney Harbour 的活力。
 
 - **上午** — 从 **Circular Quay** 开始。近距离观赏 **Sydney Opera House**（绕其步行，从各个角度拍照；可选室内导览，约 1 小时）。
@@ -45,7 +45,7 @@ Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市�
 - **下午** — 探索 **The Rocks**（最古老的街区，鹅卵石街道，画廊）和 **Barangaroo**（现代滨水区）。
 - **晚上** — 欣赏海港日落美景，并在 Circular Quay / The Rocks 享用晚餐。可选：短程海港游船（约 1–2 小时）。
 
-**第 2 天：海滩日 – Bondi 与东郊**  
+**第 2 天：海滩日 – Bondi 与东郊**
 重点 → 体验 Sydney 著名的海滩生活方式。
 
 - **上午** — 从 Circular Quay 乘坐 333 或 380 路巴士（约 30–40 分钟）前往 **Bondi Beach**。步行体验标志性的 **Bondi to Coogee Coastal Walk**（单程 6 公里，2–3 小时，拥有壮丽的悬崖、海滩和岩礁泳池）。需要适度的体力；请涂抹防晒霜并穿舒适的鞋子。
@@ -53,7 +53,7 @@ Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市�
 - **下午** — 在 Bondi Beach 放松、游泳（如果天气温暖），或继续前往 Bronte / Coogee。之后乘巴士返回。
 - **晚上** — Darling Harbour 区域（灯光、餐厅，如果感兴趣可以去 SEA LIFE Aquarium）或前往 Surry Hills 体验时尚酒吧和晚餐。
 
-**第 3 天：水上冒险与野生动物**  
+**第 3 天：水上冒险与野生动物**
 重点 → 从水上看 Sydney + 亲近动物。
 
 - **上午** — 乘坐著名的 **Manly Ferry**（约 30 分钟的景观航程，从 Circular Quay 频繁发船）。漫步 Manly Beach 漫步道，喝杯咖啡或享用早餐。

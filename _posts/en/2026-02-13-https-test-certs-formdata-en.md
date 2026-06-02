@@ -12,7 +12,7 @@ type: note
 
 Question: What are key.pem and cert.pem used for in the test/fixture directory of the form-data GitHub npm package?
 
-Answer: 
+Answer:
 
 In the `form-data` npm package's GitHub repository (https://github.com/form-data/form-data), the `test/fixture` directory contains test fixture files used in integration tests. Specifically:
 
@@ -46,7 +46,7 @@ This setup allows testing the submission of multipart/form-data over HTTPS in a 
 
 Note that the `form-data` library itself does not handle HTTP/HTTPS requests or TLS configuration—it only builds the form-data streams. These fixtures are purely for the repository's integration tests to simulate real-world usage with an HTTPS endpoint.
 
-References:  
+References:
 
 - [https://github.com/form-data/form-data/commit/afe1959ec711f23e57038ab5cb20fedd86271f29](https://github.com/form-data/form-data/commit/afe1959ec711f23e57038ab5cb20fedd86271f29)
 - [https://github.com/form-data/form-data/commit/4d5ec50e81109ad2addf3dbb56dc7c134df5ff87](https://github.com/form-data/form-data/commit/4d5ec50e81109ad2addf3dbb56dc7c134df5ff87)

@@ -19,7 +19,7 @@ The configuration is stored in a TOML file at `~/.codex/config.toml` (create it 
 #### Step 1: Get Your OpenRouter API Key
 - Sign up at [openrouter.ai](https://openrouter.ai) if you haven't.
 - Generate an API key from your account dashboard.
-- Set it as an environment variable:  
+- Set it as an environment variable:
   ```
   export OPENROUTER_API_KEY=your_api_key_here
   ```
@@ -49,11 +49,11 @@ model = "openai/gpt-4o-mini"  # Replace with any OpenRouter model ID, e.g., "ant
 
 #### Step 3: Use the Configuration
 - Install Codex CLI if needed: `npm install -g @openai/codex` (or via Homebrew: `brew install codex`).
-- Run Codex with your profile:  
+- Run Codex with your profile:
   ```
   codex --profile openrouter-gpt
   ```
-  Or set a default profile in the config:  
+  Or set a default profile in the config:
   ```toml
   [default_profile]
   name = "openrouter-gpt"

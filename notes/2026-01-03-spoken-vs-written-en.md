@@ -12,7 +12,7 @@ type: note
 
 Question: What do you think about the idea that sometimes human-spoken language, such as YouTube transcripts or video lectures, is better than a comprehensive written introduction to some materials? The spoken versions feel more communicative, use easier words, and reflect normal human thinking.
 
-Answer: 
+Answer:
 
 I largely agree with this observation. Spoken explanations, especially in casual formats like YouTube videos, often have distinct advantages over densely written comprehensive introductions.
 

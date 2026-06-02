@@ -12,7 +12,7 @@ type: note
 
 Question: Which Google Cloud resource hierarchy level is the root node where billing is attached and Organization Policies are typically enforced? A) Folder B) Project C) Organization D) Resource
 
-Answer: 
+Answer:
 
 **The correct answer is C) Organization.**
 
@@ -38,7 +38,7 @@ Why the other options are incorrect:
 
 So the root node where billing is attached and where Organization Policies are typically enforced is the **Organization**.
 
-References:  
+References:
 
 - [Google Cloud Resource Hierarchy Documentation](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
 - [Organization Policy Overview](https://cloud.google.com/resource-manager/docs/organization-policy/overview)

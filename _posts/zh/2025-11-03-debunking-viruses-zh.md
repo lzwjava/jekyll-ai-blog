@@ -37,6 +37,6 @@ Lanka总结认为"病毒误解"导致医学实践误入歧途，引发恐慌（�
 
 需注意此为边缘观点，主流科学界通过基因组测序、流行病学数据及疫苗有效性等证据驳斥其主张。平衡视角可参考疾控中心或病毒学期刊的批判性论述。
 
-[原始PDF](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)  
-[Stefan Lanka背景资料（维基百科）](https://en.wikipedia.org/wiki/Stefan_Lanka)  
+[原始PDF](https://wissenschafftplus.de/uploads/article/wissenschafftplus-the-virus-misconception-part-1.pdf)
+[Stefan Lanka背景资料（维基百科）](https://en.wikipedia.org/wiki/Stefan_Lanka)
 [病毒学概述（Nature Reviews）](https://www.nature.com/subjects/virology)

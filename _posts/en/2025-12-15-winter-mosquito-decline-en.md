@@ -12,7 +12,7 @@ type: note
 
 Question: Why are mosquitoes less active in winter in Guangzhou?
 
-Answer: 
+Answer:
 
 Guangzhou has a subtropical climate with mild winters, where average temperatures range from about 10–20°C (50–68°F), with lows occasionally dropping below 10°C. Mosquitoes, particularly the dominant species in the area like *Aedes albopictus* (Asian tiger mosquito), are highly sensitive to temperature.
 
@@ -24,9 +24,9 @@ Mosquito activity decreases in winter primarily because:
 
 Although some development and limited transmission potential persist in Guangzhou's winter (milder than truly temperate areas), overall mosquito presence and biting are noticeably reduced compared to warmer seasons.
 
-References:  
+References:
 
-- [Mosquito Forecast for Guangzhou](https://www.mosquito-forecast.org/en/forecast/China/Guangzhou)  
-- [Effects of Guangzhou seasonal climate change on Aedes albopictus](https://pmc.ncbi.nlm.nih.gov/articles/PMC8975156/)  
-- [Guangzhou Climate Overview](https://www.climatestotravel.com/climate/china/guangzhou)  
+- [Mosquito Forecast for Guangzhou](https://www.mosquito-forecast.org/en/forecast/China/Guangzhou)
+- [Effects of Guangzhou seasonal climate change on Aedes albopictus](https://pmc.ncbi.nlm.nih.gov/articles/PMC8975156/)
+- [Guangzhou Climate Overview](https://www.climatestotravel.com/climate/china/guangzhou)
 - [Mosquito Activity and Temperature Thresholds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6316560/)

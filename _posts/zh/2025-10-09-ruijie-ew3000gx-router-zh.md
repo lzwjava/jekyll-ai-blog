@@ -21,7 +21,7 @@ type: note
 
 实际测试中其穿墙性能优于同级别竞品，在 50-80 美元价位段极具性价比，适合多设备家庭用户。
 
-参考链接：  
-[RG-EW3000GX 产品页](https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/wifi6-router/rg-ew3000gx)  
-[RG-EW3000GX 规格概要](https://www.epcom.net/product/RG-EW3000GX-RUIJIE-230509.html)  
+参考链接：
+[RG-EW3000GX 产品页](https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/wifi6-router/rg-ew3000gx)
+[RG-EW3000GX 规格概要](https://www.epcom.net/product/RG-EW3000GX-RUIJIE-230509.html)
 [速率对比测试](https://www.facebook.com/RuijieReyeeGlobal/posts/conducting-a-speed-test-rg-ew3000-gx-vs-other-ax3000-home-routers-in-a-real-worl/122255685554020144/)

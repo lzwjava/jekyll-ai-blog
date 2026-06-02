@@ -36,8 +36,8 @@ T1 is a North American digital transmission standard that multiplexes **24 voice
 | Framing/Sync bit | **+1 bit** | One synchronization bit added per frame |
 | **Total bits per frame** | **193 bits** | 192 + 1 = 193 |
 
-> **Formula:**  
-> Total bits = (Number of channels × bits per sample) + 1 sync bit  
+> **Formula:**
+> Total bits = (Number of channels × bits per sample) + 1 sync bit
 > = (24 × 8) + 1 = **193 bits**
 
 ---

@@ -35,9 +35,9 @@ type: note
 
 上述区间受地理位置（如香港、纽约等高成本地区较高）、业务线（科技 vs 金融）及市场环境影响。个性化建议请查阅汇丰内部工具或于录用阶段咨询人力资源部门。
 
-[汇丰全球代表数据](https://www.hsbc.com/who-we-are/our-people/inclusion-at-hsbc/global-representation-data)  
-[汇丰内部实况解读](https://www.efinancialcareers.com/news/2021/07/hsbc-new-hierarchy)  
-[汇丰职级与头衔详解](https://www.quora.com/What-are-the-different-grade-levels-and-titles-at-HSBC)  
-[汇丰全球服务中心职级体系](https://www.fishbowlapp.com/post/what-are-the-hierarchy-for-hsbc-gsc)  
-[按等级查询汇丰薪资](https://www.ambitionbox.com/salaries/hsbc-group-salaries)  
+[汇丰全球代表数据](https://www.hsbc.com/who-we-are/our-people/inclusion-at-hsbc/global-representation-data)
+[汇丰内部实况解读](https://www.efinancialcareers.com/news/2021/07/hsbc-new-hierarchy)
+[汇丰职级与头衔详解](https://www.quora.com/What-are-the-different-grade-levels-and-titles-at-HSBC)
+[汇丰全球服务中心职级体系](https://www.fishbowlapp.com/post/what-are-the-hierarchy-for-hsbc-gsc)
+[按等级查询汇丰薪资](https://www.ambitionbox.com/salaries/hsbc-group-salaries)
 [GCB5软件工程师薪资](https://www.levels.fyi/companies/hsbc/salaries/software-engineer/levels/gcb5)

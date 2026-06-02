@@ -12,7 +12,7 @@ type: note
 
 Question: Why did state-owned enterprises in China lay off so many people in the 1990s? Was it because they offered secure jobs with no competition, employees were lazy, and there were no incentives to work?
 
-Answer: 
+Answer:
 
 No, the massive layoffs in China's **state-owned enterprises (SOEs)** during the 1990s were not primarily because employees were "lazy" or lacked incentives in a simplistic way. The root cause was deep structural inefficiency in the entire SOE system under the planned economy, combined with the urgent need to transition toward a market-oriented economy.
 
@@ -32,7 +32,7 @@ In short, the layoffs were a painful but deliberate part of China's shift from a
 
 The "secure jobs + no competition → laziness" view oversimplifies the issue. The lack of incentives was built into the old socialist model itself, not mainly a moral failing of the workers.
 
-References:  
+References:
 
 - [Wikipedia: Xiagang](https://en.wikipedia.org/wiki/Xiagang)
 - [The Shattered Iron Rice Bowl: How China Sacked Millions in the 1990s](https://ayanmajumdar.substack.com/p/the-shattered-iron-rice-bowl-how)

@@ -50,7 +50,7 @@ Yes, the noise cancellation on the Redmi Buds 6 is **good for the price**, offer
 ### **Verdict**
 The Redmi Buds 6 are a strong contender in the budget TWS market, offering robust ANC, good sound quality, and long battery life for an affordable price. The noise cancellation is effective for low-frequency noises and suitable for most daily scenarios, though it’s not flawless for high-pitched sounds or in extremely noisy settings. If you’re looking for cost-effective earbuds with solid ANC and versatile features, the Redmi Buds 6 are a great choice, especially if you use a Xiaomi device to unlock their full potential. For more details, check the Xiaomi Earbuds app or official product pages.[](https://www.smartprix.com/bytes/redmi-buds-6-review-pros-and-cons/)[](https://www.dokkantech.com/products/xiaomi-redmi-buds-6-exceptional-sound-advanced-features)
 
-**Sources**:  
+**Sources**:
 - [Xiaomi Redmi Buds 6 Review: flagship sound quality + long life](https://www.vopmart.com)  [](https://www.vopmart.com/blog/post/redmi-buds-6-review)
 - [Redmi Buds 6 review - GSMArena.com](https://www.gsmarena.com)  [](https://www.gsmarena.com/redmi_buds_6_review-news-65741.php)
 - [Redmi Buds 6 review: The sweet spot between the Pro and Lite?](https://www.scarbir.com)  [](https://www.scarbir.com/tws/redmi-buds-6-review)
@@ -60,5 +60,5 @@ The Redmi Buds 6 are a strong contender in the budget TWS market, offering robus
 - [Redmi Buds 6 Launched with Boosted ANC and a New Spatial Sound](https://www.nextpit.com)  [](https://www.nextpit.com/xiaomi-redmi-buds-6-price-us-europe-specs-launch)
 - [r/Earbuds: Redmi Buds 6 Lite Initial Thoughts](https://www.reddit.com)  [](https://www.reddit.com/r/Earbuds/comments/1fkj4l4/redmi_buds_6_lite_initial_thoughts/)
 - [r/Earbuds: What's up with Redmi Buds 6 Lite/Active/Play?](https://www.reddit.com)  [](https://www.reddit.com/r/Earbuds/comments/1fg3boc/whats_up_with_redmi_buds_6_liteactiveplay_good/)
-- [Xiaomi Post on Redmi Buds 6](https://t.co/6pduh61Xee)  
+- [Xiaomi Post on Redmi Buds 6](https://t.co/6pduh61Xee)
 - [Xiaomi India Post on Redmi Buds 6](https://t.co/yAAcvnSjWv)

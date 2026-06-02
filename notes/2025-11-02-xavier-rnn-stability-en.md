@@ -37,6 +37,6 @@ Here's why this is crucial for RNNs, and why a simple uniform random draw from [
 
 In short, Xavier is about *stability first*: It sets weights small-but-not-too-small, dimension-aware, to let gradients flow freely. Random [0,1] is too crude—like flooring a car without balancing the tires.
 
-For deeper dives:  
-[Understanding the Difficulty of Training Deep Feedforward Neural Networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) (Glorot & Bengio, 2010)  
+For deeper dives:
+[Understanding the Difficulty of Training Deep Feedforward Neural Networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) (Glorot & Bengio, 2010)
 [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329) (Zaremba et al., on RNN init issues)

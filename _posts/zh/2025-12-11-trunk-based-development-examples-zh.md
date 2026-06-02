@@ -43,7 +43,7 @@ Trunk-Based Development (TBD) 强调短生命周期分支（或根本没有分�
 
 要深入了解，请克隆这些仓库并运行 `git log --graph --oneline main` 以可视化主干的线性历史（最小分支）。与 GitHub Actions 等工具结合使用，用于主分支上的 CI。要获得更广泛的启发，请查看 trunkbaseddevelopment.com，该网站引用了 Google/Facebook 等公司的规模化类似开源的设置。如果您对 Go/infra 感兴趣，请从 Flipt 开始——它是最接近生产就绪的示例。
 
-参考文献：  
+参考文献：
 
 - [Trunk Based Development](https://trunkbaseddevelopment.com/)
 - [GitHub Topics: trunk-based-development](https://github.com/topics/trunk-based-development)

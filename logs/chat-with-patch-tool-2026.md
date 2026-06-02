@@ -1097,7 +1097,7 @@ class Users extends BaseController
     public $weChatPlatform;
     public $liveDao;
 
-    
+
 
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
@@ -1173,7 +1173,7 @@ class Users extends BaseController
     public $weChatPlatform;
     public $liveDao;
 
-    
+
 
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
@@ -1324,7 +1324,7 @@ public $qiniuDao;
     public $weChatPlatform;
     public $liveDao;
 
-    
+
 
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {

@@ -14,7 +14,7 @@ type: note
 
 **Answer:**
 
-在 **Squirrel SQL Client** 中，默认的语句分隔符是 `;`。  
+在 **Squirrel SQL Client** 中，默认的语句分隔符是 `;`。
 当创建或调用在主体（BEGIN … END 代码块）内包含 `;` 的 stored procedures / functions / triggers 时，你必须临时更改分隔符。
 
 以下是在 Squirrel-SQL 中实现此操作的主要方法：

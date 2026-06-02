@@ -65,7 +65,7 @@ Choosing between working on legacy systems (e.g., in big tech's maintenance-heav
    }
    ```
 
-   - **Assess yourself:** 
+   - **Assess yourself:**
      - Introvert/systems thinker? Legacy for focused deep dives.
      - Extrovert/builder? Startup for collaborative chaos.
      - Risk tolerance: Legacy for predictable growth; startup if you're okay with 20–30% failure rate (but high rewards).

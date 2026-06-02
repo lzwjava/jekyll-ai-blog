@@ -31,7 +31,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 2. Data Link Layer
 - **Function:** Ensures error-free data transfer between two directly connected nodes.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Frames data (adds headers/trailers to bits).
   - Detects and corrects errors (e.g., using checksums).
   - Manages access to the shared medium (e.g., Ethernet’s MAC addressing).
@@ -41,7 +41,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 3. Network Layer
 - **Function:** Routes data between different networks.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Determines the best path for data (routing).
   - Uses logical addressing (e.g., IP addresses).
 - **Examples:** IP (IPv4/IPv6), routers.
@@ -50,7 +50,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 4. Transport Layer
 - **Function:** Provides reliable data transfer between devices.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Ensures data arrives in order and without loss (e.g., TCP).
   - Manages flow control and error correction.
   - Offers connectionless service (e.g., UDP).
@@ -60,7 +60,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 5. Session Layer
 - **Function:** Manages sessions (connections) between applications.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Establishes, maintains, and terminates sessions.
   - Handles session recovery if interrupted.
 - **Examples:** NetBIOS, RPC.
@@ -69,7 +69,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 6. Presentation Layer
 - **Function:** Translates data between application format and network format.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Encrypts/decrypts data (e.g., SSL/TLS).
   - Compresses data.
   - Converts data (e.g., text to ASCII, JPEG encoding).
@@ -79,7 +79,7 @@ The **OSI (Open Systems Interconnection) Model** is a theoretical framework with
 
 #### 7. Application Layer
 - **Function:** Provides network services directly to user applications.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Supports protocols for email, web browsing, file transfer, etc.
 - **Examples:** HTTP (web), SMTP (email), FTP (file transfer).
 - **Key Concepts:** User interface, application protocols.
@@ -100,21 +100,21 @@ The **TCP/IP Protocol Suite** is a practical model used in real-world networks (
 
 #### 2. Internet Layer
 - **Function:** Moves packets across networks (like OSI’s Network layer).
-- **Responsibilities:** 
+- **Responsibilities:**
   - IP addressing and routing.
 - **Examples:** IP (IPv4/IPv6), ICMP (ping).
 - **Key Concepts:** Packet switching, IP headers.
 
 #### 3. Transport Layer
 - **Function:** Same as OSI’s Transport layer.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Reliable (TCP) or fast (UDP) data delivery.
 - **Examples:** TCP, UDP.
 - **Key Concepts:** Ports, reliability vs. speed trade-off.
 
 #### 4. Application Layer
 - **Function:** Combines OSI’s Session, Presentation, and Application layers.
-- **Responsibilities:** 
+- **Responsibilities:**
   - Handles all user-facing protocols and data formatting.
 - **Examples:** HTTP, FTP, SMTP, DNS.
 - **Key Concepts:** End-user services.

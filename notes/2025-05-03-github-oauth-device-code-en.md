@@ -12,7 +12,7 @@ type: note
 
 ### Overview
 
-This JavaScript code implements the OAuth 2.0 Device Authorization Grant flow (also known as the Device Code grant) to authenticate with GitHub and obtain an access token. The flow is typically used for headless applications (e.g., CLI tools or embedded systems) where the user can't interact directly with a web browser to approve the authentication. 
+This JavaScript code implements the OAuth 2.0 Device Authorization Grant flow (also known as the Device Code grant) to authenticate with GitHub and obtain an access token. The flow is typically used for headless applications (e.g., CLI tools or embedded systems) where the user can't interact directly with a web browser to approve the authentication.
 
 In this specific case, it appears to be mimicking requests from the GitHub Copilot plugin (e.g., for Neovim or Vim), using headers that spoof a Copilot client to potentially integrate with or access GitHub's authentication system. The goal is to generate an access token that could be used for GitHub API calls requiring user authentication, such as reading user info (per the `scope: "read:user"`).
 
@@ -155,7 +155,7 @@ async function getAccessToken(deviceCode: string) {
   - Calls `getAccessToken(device_code)`.
   - If the response has an `error`: Logs it (e.g., keep waiting if "authorization_pending").
   - If it has `access_token`: Logs the full token object (formatted with indentation) and exits the loop.
-- **Edge Cases/Issues**: 
+- **Edge Cases/Issues**:
   - If `getDeviceCode()` fails, destructuring might error (code doesn't check for this).
   - No loop timeout—keeps polling indefinitely unless the access token is received or the script crashes.
   - Logging the access token to console exposes it; in production, you'd save it securely (e.g., to a file or database).

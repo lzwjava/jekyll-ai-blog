@@ -26,24 +26,24 @@ DHCP使用UDP端口：67（服务器）和68（客户端）。
 ### DHCP过程：DORA
 获取新IP地址的核心过程称为**DORA**（Discover, Offer, Request, Acknowledge）。所有初始消息都是广播的，因为客户端尚未拥有IP地址。
 
-1. **Discover (DHCPDISCOVER)**  
-   客户端广播DHCPDISCOVER消息以查找可用的服务器。  
-   - 源IP: 0.0.0.0  
-   - 目标IP: 255.255.255.255 (广播)  
+1. **Discover (DHCPDISCOVER)**
+   客户端广播DHCPDISCOVER消息以查找可用的服务器。
+   - 源IP: 0.0.0.0
+   - 目标IP: 255.255.255.255 (广播)
    - 它包含客户端的MAC地址用于识别。
 
-2. **Offer (DHCPOFFER)**  
-   一个或多个DHCP服务器以DHCPOFFER消息响应，提议一个IP地址和配置选项。  
-   - 广播（因为客户端尚未拥有IP）。  
+2. **Offer (DHCPOFFER)**
+   一个或多个DHCP服务器以DHCPOFFER消息响应，提议一个IP地址和配置选项。
+   - 广播（因为客户端尚未拥有IP）。
    - 包括提议的IP、租用期限、子网掩码、网关、DNS等。
 
-3. **Request (DHCPREQUEST)**  
-   客户端选择一个Offer（通常是第一个收到的）并广播DHCPREQUEST以接受它。  
+3. **Request (DHCPREQUEST)**
+   客户端选择一个Offer（通常是第一个收到的）并广播DHCPREQUEST以接受它。
    - 这会通知其他服务器它们的Offer已被拒绝。
 
-4. **Acknowledge (DHCPACK)**  
-   选定的服务器发送DHCPACK以确认分配。  
-   - 客户端现在可以使用IP地址。  
+4. **Acknowledge (DHCPACK)**
+   选定的服务器发送DHCPACK以确认分配。
+   - 客户端现在可以使用IP地址。
    - 如果服务器无法履行（例如，地址已被使用），它会发送DHCPNAK（否定确认）。
 
 ### 其他消息类型

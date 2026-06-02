@@ -18,7 +18,7 @@ Answer:
 
 ### 按经验级别推荐的策略
 
-**Beginner / Early-intermediate (LeetCode rating < ~1600–1800 / Codeforces < ~1400)**  
+**Beginner / Early-intermediate (LeetCode rating < ~1600–1800 / Codeforces < ~1400)**
 → **一次一个问题 + 极强的完成政策**
 
 - 选定一个问题
@@ -30,20 +30,20 @@ Answer:
 
 → 在此阶段**不要**同时开启 3 道题 —— 否则你会学得很浅，且遗忘得很快。
 
-**Mid-level (大约 1600–2100 LeetCode / 1400–1900 Codeforces)**  
+**Mid-level (大约 1600–2100 LeetCode / 1400–1900 Codeforces)**
 → **1 个核心 + 1–2 个背景任务**（最受欢迎的高效模式）
 
 典型的每日节奏：
 
-1. 选定当天的**主课题**（通常是新的或稍难的题目）  
+1. 选定当天的**主课题**（通常是新的或稍难的题目）
    → 目标是 **solve + 充分理解 + clean code**
-2. 在思考 / 等待灵感 / 卡住时 → 开启 1–2 道**同主题**或**近期 contest** 的简单/中等难度题目  
+2. 在思考 / 等待灵感 / 卡住时 → 开启 1–2 道**同主题**或**近期 contest** 的简单/中等难度题目
    → 作为“积极休息 (active rest)”快速解决它们
 3. 带着全新的眼光回到主课题
 
 通过这种方式，你可以获得**对一个主题的深度 + 相关题目的广度**。
 
-**Advanced / 时间非常紧迫的人（面试准备，高分 coders）**  
+**Advanced / 时间非常紧迫的人（面试准备，高分 coders）**
 → **并行 + 激进的跳过策略 (skip policy)**
 
 常见的工作流：
@@ -76,6 +76,6 @@ Answer:
 
 选择那种能让你**保持动力并不断前进**，且不会让你连续卡住好几天的风格 —— 那通常就是目前最适合你的。
 
-References:  
+References:
 
 - None (based on common competitive programming and interview preparation patterns)

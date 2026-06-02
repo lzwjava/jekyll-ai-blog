@@ -44,7 +44,7 @@ I use it most of the daytime when I drive my car. It is too comfortable wearing 
 
 ### Newest iPhone, Around 10000 CNY
 
-When you upgrade your mobile phone, then you notice how fast technology evolves. You play with your new phone and old phone at the same time, then you notice the big difference between them. The most significant difference is that the screen is larger, and so is the phone. The new phone may seem too big. And the next moment you realize that it will seem small when you upgrade the phone after 3 years. 
+When you upgrade your mobile phone, then you notice how fast technology evolves. You play with your new phone and old phone at the same time, then you notice the big difference between them. The most significant difference is that the screen is larger, and so is the phone. The new phone may seem too big. And the next moment you realize that it will seem small when you upgrade the phone after 3 years.
 
 <div align="center"><img src="/assets/images/buys/iphone.jpg" width="400px"/><img/></div>
 
@@ -54,7 +54,7 @@ I began using iPhones in Jan 2015. My first iPhone is the iPhone 6. I upgraded i
 
 ### 2 Newmine Bluetooth Speaker, Total 218 CNY
 
-I recently bought 2 Bluetooth speakers. I set them up in my room and play lectures or music on them at the same time. They used a technology called TWS, True Wireless Stereo. This technology allows them to pair with each other via Bluetooth. So you can hear the sound from them at the same time. It is amazing. 
+I recently bought 2 Bluetooth speakers. I set them up in my room and play lectures or music on them at the same time. They used a technology called TWS, True Wireless Stereo. This technology allows them to pair with each other via Bluetooth. So you can hear the sound from them at the same time. It is amazing.
 
 <div align="center"><img src="/assets/images/buys/speaker.jpg" width="250px"/><img/></div>
 
@@ -62,7 +62,7 @@ I remember that I try to use Mac to reach the same effect. I use Mac to connect 
 
 ### MonQiQi On-ear Headphone, 188 CNY
 
-Not only the speaker can use the technology TWS, but also the headphone. MonQiQi on-ear headphone buds used TWS to pair each other. This kind of on-ear headphones is different from the kind of in-ear headphones. So you can listen to others carefully while listening to the headphone at the same time. 
+Not only the speaker can use the technology TWS, but also the headphone. MonQiQi on-ear headphone buds used TWS to pair each other. This kind of on-ear headphones is different from the kind of in-ear headphones. So you can listen to others carefully while listening to the headphone at the same time.
 
 <div align="center"><img src="/assets/images/buys/headphone.jpg" width="250px"/><img/></div>
 
@@ -74,11 +74,11 @@ Originally, I bought another kind of on-ear headphones, the below one. However, 
 
 ### Neta V 400 Lite, 86900 CNY
 
-New energy vehicles are hot in 2022. It is probably the turning point year in the new energy vehicle history. I also bought one two months ago. 
+New energy vehicles are hot in 2022. It is probably the turning point year in the new energy vehicle history. I also bought one two months ago.
 
 <div align="center"><img src="/assets/images/buys/netav.jpg" width="250px"/><img/></div>
 
-I need to write another long article to share its advantages and disadvantages. There are two perspectives, one is comparing it to gasoline vehicles, and another is comparing it to other new energy vehicles. 
+I need to write another long article to share its advantages and disadvantages. There are two perspectives, one is comparing it to gasoline vehicles, and another is comparing it to other new energy vehicles.
 
 To be short, driving new energy vehicles is free. You will not worry about the refueling cost anymore. Do you want to go far to visit a friend? Do you want to do some random road trip? Just go. Never worry about the refueling cost. It is wonderful. The electricity cost is just approximately one-tenth of the gas cost. My previous car is Volkswagen Polo 2010. It costs me 300 CNY to refuel and it can run for 400 KM. Now, It costs me 30 CNY to fully charge the Neta car to run 400 KM.
 
@@ -88,15 +88,15 @@ Regarding its disadvantages, Neta V doesn't have an English language setting opt
 
 ### Changdi Electric Oven, 479 CNY
 
-My wife bought it. If it turns to me to buy the electric oven, I will buy the product whose price is around 200 CNY. However, it deserves such regarding its position in my recent years of life. 
+My wife bought it. If it turns to me to buy the electric oven, I will buy the product whose price is around 200 CNY. However, it deserves such regarding its position in my recent years of life.
 
 <div align="center"><img src="/assets/images/buys/oven.jpg" width="250px"/><img/></div>
 
-I tried many ways to cook beginning in 2019, using a frying pan, using a microwave oven, using an electric oven and using other electric kitchen appliances. I even once went to a nearby wasteland to cook with dry leaves. 
+I tried many ways to cook beginning in 2019, using a frying pan, using a microwave oven, using an electric oven and using other electric kitchen appliances. I even once went to a nearby wasteland to cook with dry leaves.
 
 However, there is only one way to last until today. This is the electric oven way. It is so easy that you don't think cooking waste your time. I do the most basic cooking, just heat the food.
 
-I like to heat up dried squids, beef meatballs, Xiangjiang Naan bread, hot dogs, chicken wings, beef, etc. And most of the time, I don't need to spread the sauce before putting the food into the oven. Like the dried squid, when it is finished heating, I just glued it with soy sauce, then it is delicious. 
+I like to heat up dried squids, beef meatballs, Xiangjiang Naan bread, hot dogs, chicken wings, beef, etc. And most of the time, I don't need to spread the sauce before putting the food into the oven. Like the dried squid, when it is finished heating, I just glued it with soy sauce, then it is delicious.
 
 Regarding cooking, the ingredients are the most important. Regarding the sauce, a few are enough. This is my simple cooking philosophy.
 

@@ -15,7 +15,7 @@ Got it — you’re asking about **Alpine Dark Theme** in **AG Grid** when using
 ---
 
 ### 🔹 What is Alpine Dark Theme?
-AG Grid provides several built-in themes for styling the grid.  
+AG Grid provides several built-in themes for styling the grid.
 One of them is the **Alpine** theme, which comes in both **light** and **dark** variants:
 
 - `ag-theme-alpine` → Alpine Light theme (default modern look).

@@ -11,12 +11,12 @@ type: note
 
 Question: Why is it better to have good sleep, not eat after evening, and not drink anything in the morning before a health check?
 
-Answer: 
+Answer:
 
 These recommendations are common for a **routine health checkup** (especially one including **blood tests** like lipid profile, glucose, etc.) to ensure the most **accurate results**.
 
 ### 1. Not eating after evening (fasting overnight)
-Many blood tests require **fasting** for 8–12 hours (often from after dinner until the morning appointment).  
+Many blood tests require **fasting** for 8–12 hours (often from after dinner until the morning appointment).
 Eating food — especially in the evening or night — affects key measurements because nutrients get absorbed into your bloodstream:
 
 - **Glucose (blood sugar)**: Food (carbs/sugars) raises blood glucose levels temporarily. Fasting gives a true **baseline** reading, important for detecting diabetes or prediabetes.
@@ -35,13 +35,13 @@ Good sleep helps in several ways during a health checkup:
 - **Better overall test reliability**: Lack of sleep affects metabolism, glucose regulation, and inflammation markers. Chronic poor sleep impacts health, but even one bad night can slightly alter some results (e.g., blood sugar response or perceived fatigue-related findings).
 - **Mental clarity and cooperation**: You feel more alert, which helps during any questionnaires, physical exams, or procedures (like ECG, ultrasound, etc.).
 
-In short:  
-- **No food/drink after evening** → Gives clean, fasting-state blood results (especially for sugar, fats, and related markers).  
-- **Good sleep** → Helps keep blood pressure, heart rate, and metabolic markers closer to your normal baseline and improves how you feel during the visit.  
+In short:
+- **No food/drink after evening** → Gives clean, fasting-state blood results (especially for sugar, fats, and related markers).
+- **Good sleep** → Helps keep blood pressure, heart rate, and metabolic markers closer to your normal baseline and improves how you feel during the visit.
 
 Following these steps reduces the chance of inaccurate results, unnecessary repeat tests, or misinterpretation of your health status.
 
-References:  
+References:
 
 - [Fasting for a Blood Test - MedlinePlus](https://medlineplus.gov/lab-tests/fasting-for-a-blood-test)
 - [Fasting for Blood Work - Cleveland Clinic](https://my.clevelandclinic.org/health/articles/fasting-for-blood-work)

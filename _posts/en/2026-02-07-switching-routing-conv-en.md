@@ -161,4 +161,3 @@ B: Absolutely. Physical actions are faster than typing commands, so you spend le
 A: Finally, how do you document your labs? The exam emphasizes practical projects, and documentation is key.
 
 B: I dedicate one laptop to documentation—screenshots of CLI outputs, network diagrams, and step-by-step notes. It’s a habit that mirrors real-world network administration.
-

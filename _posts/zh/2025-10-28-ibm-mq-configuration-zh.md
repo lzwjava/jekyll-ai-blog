@@ -98,6 +98,6 @@ type: note
 
 有关版本特定详情（例如 WAS 9.x 与 MQ 9.x），请参考 IBM 官方文档。
 
-[结合使用 WebSphere Application Server 与 IBM MQ](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=together-using-websphere-application-server-mq)  
-[配置 WebSphere Application Server 以使用 IBM MQ](https://help.hcl-software.com/commerce/9.0.0/integration/tasks/tcvconfigure_was_for_mq.html)  
+[结合使用 WebSphere Application Server 与 IBM MQ](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=together-using-websphere-application-server-mq)
+[配置 WebSphere Application Server 以使用 IBM MQ](https://help.hcl-software.com/commerce/9.0.0/integration/tasks/tcvconfigure_was_for_mq.html)
 [创建 WebSphere MQ 服务器定义](https://www.ibm.com/docs/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/tjfp0004_.html)

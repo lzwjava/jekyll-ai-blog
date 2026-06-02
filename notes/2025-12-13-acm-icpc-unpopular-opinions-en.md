@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about the ACM/ICPC World Finals contest?
 
-Answer: 
+Answer:
 
 The ACM International Collegiate Programming Contest (ICPC) World Finals is widely regarded as a prestigious event, but several unpopular or contrarian opinions exist within the competitive programming community. These views often challenge its perceived importance, format, or relevance:
 
@@ -30,11 +30,11 @@ The ACM International Collegiate Programming Contest (ICPC) World Finals is wide
 
 These ideas are debated on platforms like Reddit, Quora, and Codeforces, where participants and observers note that while ICPC is fun and challenging, it's a niche activity not indicative of broader success in computer science.
 
-References:  
+References:
 
-- https://www.quora.com/Why-do-the-worlds-top-ranking-universities-fail-to-perform-really-well-in-the-ACM-ICPC-World-Finals  
-- https://www.reddit.com/r/UBC/comments/1c77kfq/ubcs_performance_in_recent_acm_icpc_world_finals/  
-- https://www.reddit.com/r/uwaterloo/comments/4k26qk/waterloo_finishes_13th_in_the_world_at_the/  
-- https://www.reddit.com/r/UIUC/comments/8dg292/acm_icpc_world_finals_scoreboard/  
-- https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest  
+- https://www.quora.com/Why-do-the-worlds-top-ranking-universities-fail-to-perform-really-well-in-the-ACM-ICPC-World-Finals
+- https://www.reddit.com/r/UBC/comments/1c77kfq/ubcs_performance_in_recent_acm_icpc_world_finals/
+- https://www.reddit.com/r/uwaterloo/comments/4k26qk/waterloo_finishes_13th_in_the_world_at_the/
+- https://www.reddit.com/r/UIUC/comments/8dg292/acm_icpc_world_finals_scoreboard/
+- https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest
 - https://www.reddit.com/r/developersIndia/comments/w4k5k7/why_indians_have_not_won_a_single_icpc/

@@ -12,7 +12,7 @@ type: note
 
 Question: What are the unpopular or controversial ideas of Yin Wang, the author of https://www.yinwang.org?
 
-Answer: 
+Answer:
 
 Yin Wang (王垠), a computer science educator and former Google engineer with over 20 years of experience, runs the blog *Surely I am Joking* (https://www.yinwang.org), where he shares contrarian views on programming languages, education, AI, and more. His ideas often challenge mainstream consensus in tech and academia, drawing criticism for being overly opinionated or dismissive of established norms. Below is a curated list of some of his most unpopular or controversial ideas, drawn from his posts, with brief explanations:
 
@@ -36,12 +36,12 @@ Yin Wang (王垠), a computer science educator and former Google engineer with o
 
 These ideas stem from Wang's emphasis on deep fundamentals over hype, but they often provoke debates (e.g., on Reddit and Hacker News) for their blunt tone. His blog mixes English and Chinese posts, with many critiques evolving from his work on the Yin programming language.
 
-References:  
-- [Surely I am Joking Blog Overview](https://www.yinwang.org/)  
-- [On Object-Oriented Programming](https://www.yinwang.org/blog-en/2013/09/18/why-everything-is-not-an-object)  
-- [Programming Paradigms as Sects](https://www.yinwang.org/blog-cn/2015/04/03/paradigms)  
-- [Superhuman Machine Vision Myth](https://www.yinwang.org/blog-cn/2023/03/12/machine-vs-human)  
-- [Philosophy of Learning](https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy)  
-- [Critique of China's Education](https://www.yinwang.org/blog-cn/2018/10/15/china-education)  
-- [P vs. NP Discussion](https://www.yinwang.org/blog-cn/2019/07/21/pnp2)  
+References:
+- [Surely I am Joking Blog Overview](https://www.yinwang.org/)
+- [On Object-Oriented Programming](https://www.yinwang.org/blog-en/2013/09/18/why-everything-is-not-an-object)
+- [Programming Paradigms as Sects](https://www.yinwang.org/blog-cn/2015/04/03/paradigms)
+- [Superhuman Machine Vision Myth](https://www.yinwang.org/blog-cn/2023/03/12/machine-vs-human)
+- [Philosophy of Learning](https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy)
+- [Critique of China's Education](https://www.yinwang.org/blog-cn/2018/10/15/china-education)
+- [P vs. NP Discussion](https://www.yinwang.org/blog-cn/2019/07/21/pnp2)
 - [Reddit Thread on OOP Critique](https://www.reddit.com/r/programming/comments/1trrgn/yin_wang_on_objectoriented_programming/)

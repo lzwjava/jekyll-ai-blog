@@ -141,5 +141,5 @@ Julia 拥有活跃包容的社区，贡献者超千人。资源包括：
 
 近期版本聚焦性能与可用性提升，如 Julia 1.11 的公共 API 增强和 1.12 预览版对 Unicode 及解析器的改进。2025 年 5 月社区通讯展示了软件包生态的增长与相关活动。通过 JuliaHub 获得的资金支持与商业应用持续扩展。
 
-[Julia 官网](https://julialang.org/)  
+[Julia 官网](https://julialang.org/)
 [Julia 维基百科](https://en.wikipedia.org/wiki/Julia_(programming_language))

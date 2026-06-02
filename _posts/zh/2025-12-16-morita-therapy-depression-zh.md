@@ -25,11 +25,11 @@ type: note
 
 包括预试验和荟萃分析在内的研究证据表明，森田疗法对抑郁症有效，特别是作为其他治疗的辅助手段，当接受取代抵抗时，通过减轻严重程度和提高缓解率来实现。
 
-参考文献：  
+参考文献：
 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/  
-- https://en.wikipedia.org/wiki/Morita_therapy  
-- https://bmjopen.bmj.com/content/8/8/e021605  
-- https://pubmed.ncbi.nlm.nih.gov/30380592/  
-- http://www.moritaschool.com/read-me  
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/
+- https://en.wikipedia.org/wiki/Morita_therapy
+- https://bmjopen.bmj.com/content/8/8/e021605
+- https://pubmed.ncbi.nlm.nih.gov/30380592/
+- http://www.moritaschool.com/read-me
 - https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/

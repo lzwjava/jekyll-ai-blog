@@ -24,7 +24,7 @@ macOS **Disk Utility** 在现代 macOS 版本（尤其是 Ventura 及更高版�
 4. 点击顶部的 **Erase**
 5. 设置以下选项：
    - **Name**: 随你喜欢
-   - **Format**: 选择 **MS-DOS (FAT)**  
+   - **Format**: 选择 **MS-DOS (FAT)**
      → 这是 FAT32 在 macOS 上的正式名称
    - **Scheme**: **Master Boot Record** (MBR) ← 这对于实现最大兼容性非常重要！
 6. 点击 **Erase**

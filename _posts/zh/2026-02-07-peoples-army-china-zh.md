@@ -12,12 +12,12 @@ type: note
 
 问题：谁是保卫祖国、建设中国特色社会主义的重要力量？
 
-A. 工人 (Workers)  
-B. 农民 (Peasants)  
-C. 知识分子 (Intellectuals)  
+A. 工人 (Workers)
+B. 农民 (Peasants)
+C. 知识分子 (Intellectuals)
 D. 人民军队 (People's Army)
 
-你的答案：A  
+你的答案：A
 正确答案：D
 
 回答：

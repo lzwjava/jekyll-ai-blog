@@ -12,7 +12,7 @@ type: note
 
 Question: What does Dario Amodei say in his recent podcast?
 
-Answer: 
+Answer:
 
 Dario Amodei, CEO of Anthropic, appeared in a recent podcast episode with Dwarkesh Patel titled “We are near the end of the exponential,” released around February 13, 2026. In this in-depth interview, he discusses AI progress, timelines, economics, regulation, and geopolitics.
 
@@ -32,7 +32,7 @@ Other recent appearances include:
 
 The Dwarkesh Patel episode stands out as the most comprehensive and recent detailed discussion.
 
-References:  
+References:
 
 - [Dwarkesh Podcast: Dario Amodei — “We are near the end of the exponential”](https://www.dwarkesh.com/p/dario-amodei-2)
 - [YouTube: Dario Amodei — “We are near the end of the exponential”](https://www.youtube.com/watch?v=n1E9IZfvGMA)

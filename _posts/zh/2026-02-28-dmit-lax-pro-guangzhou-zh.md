@@ -44,7 +44,7 @@ type: note
 
 如果您的主要工作负载仅限于中国（无需美国 IP），请考虑本地提供商。但对于混合美中用途，这个小型 Pro 计划性价比很高。
 
-参考资料：  
+参考资料：
 
 - [https://www.dmit.io/](https://www.dmit.io/)
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)

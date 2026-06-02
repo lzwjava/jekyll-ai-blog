@@ -25,7 +25,7 @@ Your explanation is **exactly right**—let's confirm and expand on it step by s
    - Each octet (e.g., 255) is 8 bits, so the full mask is 32 bits.
    - 255 = `11111111` (all bits "on").
    - 0 = `00000000` (all bits "off").
-   - So, 255.255.255.0 in binary is:  
+   - So, 255.255.255.0 in binary is:
      `11111111.11111111.11111111.00000000`
    - This means:
      - **First 24 bits (three 255s)**: Fixed as the **network prefix**. These can't change for devices in the same subnet—they define *which subnet* you're on.

@@ -41,6 +41,6 @@ MEF-550通过多维度检测关联健康风险的污染物（如家具挥发的�
 
 在科学测试中（如空气净化研究），该设备能稳定监测高达99%的污染物去除率，并保持一致的衰减曲线追踪。但与其他电化学甲醛传感器类似，在复杂环境中可能因酒精或高湿度等干扰物产生交叉敏感，导致估值偏高10-20%。定期校准至关重要，其精度优于基础比色式检测仪，但低于实验室级光声光谱仪。用户评价较少，但在医院等专业场景中被认为适合快速抽查。关键应用建议配合定期实验室验证。
 
-[ 负氧离子与空气净化试点研究（MDPI） ](https://www.mdpi.com/2073-4433/15/7/860)  
-[ 手术室空气暴露研究（PMC） ](https://pmc.ncbi.nlm.nih.gov/articles/PMC10835182/)  
+[ 负氧离子与空气净化试点研究（MDPI） ](https://www.mdpi.com/2073-4433/15/7/860)
+[ 手术室空气暴露研究（PMC） ](https://pmc.ncbi.nlm.nih.gov/articles/PMC10835182/)
 [ 甲醛传感器综述（Smart Air） ](https://smartairfilters.com/en/blog/formaldehyde-detectors-not-accurate-monitor-formaldehyde-home/)

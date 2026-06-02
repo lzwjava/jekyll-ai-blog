@@ -42,7 +42,7 @@ Let the outputs of previous layers be {h₁, h₂, ..., h_{l-1}}
 For layer l:
 
 - Learn a **pseudo-query vector** qₗ (one vector per layer, typically small dimension or shared)
-- Compute attention scores over previous hidden states:  
+- Compute attention scores over previous hidden states:
   α_{l,i} = softmax( qₗ · h_i ) for i = 1…l-1
 - The new input to layer l becomes a **weighted sum**:
 

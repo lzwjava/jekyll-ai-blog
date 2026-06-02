@@ -12,7 +12,7 @@ type: note
 
 Question: How popular is Honor of Kings worldwide, and which countries have the top user bases?
 
-Answer: 
+Answer:
 《王者荣耀》(Honor of Kings, HoK) 由腾讯天美工作室开发，是全球最受欢迎的MOBA手游，也是史上收入最高的手游，其终身收入达数十亿美元（仅App Store/Google Play平台就超过45亿美元，不包括中国第三方安卓平台）。其中国服务器（《王者荣耀》）在全球范围内占据主导地位：
 
 - **日活跃用户 (DAU)**：中国服务器达1.39亿（2025年10月创纪录）；全球总计约1亿+。
@@ -41,11 +41,11 @@ Answer:
 
 **备注**：活跃度排名来自ActivePlayer.io（Google Play代理数据，2025年12月）。东南亚地区在全球服务器中占据主导地位（印度尼西亚/菲律宾/马来西亚/台湾/越南合计超过70%）。巴西/美国/欧洲地区正在缓慢增长。预测：东南亚地区将持续主导；随着电竞赛事的推动，到2026年，非中国地区的全球MAU可能达到2000万+。
 
-参考文献：  
-- [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)  
-- [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)  
-- [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)  
-- [ActivePlayer.io Stats](https://activeplayer.io/honor-of-kings/)  
-- [AppMagic Jun 2025 Revenue](https://gam3s.gg/news/mobile-game-rankings-for-june-2025/)  
-- [GameWorldObserver 50M Downloads](https://gameworldobserver.com/2024/07/22/honor-of-kings-50-million-downloads-outside-of-china)  
+参考文献：
+- [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)
+- [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)
+- [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)
+- [ActivePlayer.io Stats](https://activeplayer.io/honor-of-kings/)
+- [AppMagic Jun 2025 Revenue](https://gam3s.gg/news/mobile-game-rankings-for-june-2025/)
+- [GameWorldObserver 50M Downloads](https://gameworldobserver.com/2024/07/22/honor-of-kings-50-million-downloads-outside-of-china)
 - [Wikipedia Revenue Breakdown](https://en.wikipedia.org/wiki/Honor_of_Kings)

@@ -36,7 +36,7 @@ While incredibly powerful, users note it requires careful security setup (e.g., 
 
 In short, yes — OpenClaw delivers exactly the autonomous, computer-controlling experience you described. It turns any LLM into a self-directed digital employee that lives inside your laptop and can handle almost any digital task a human could.
 
-**References:**  
-- [OpenClaw Official Site](https://openclaw.ai/)  
-- [GitHub Repository](https://github.com/openclaw/openclaw)  
+**References:**
+- [OpenClaw Official Site](https://openclaw.ai/)
+- [GitHub Repository](https://github.com/openclaw/openclaw)
 - [Complete Guide to OpenClaw](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md)

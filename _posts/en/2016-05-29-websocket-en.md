@@ -13,7 +13,7 @@ type: post
 
 ---
 
-Hello, I’m Li Zhiwei. As the founder and CTO of CodeReview platform and a former engineer at LeanCloud, I have extensive experience with WebSocket, especially through the development of the IM SDK. 
+Hello, I’m Li Zhiwei. As the founder and CTO of CodeReview platform and a former engineer at LeanCloud, I have extensive experience with WebSocket, especially through the development of the IM SDK.
 
 ### The Relevance of WebSocket
 WebSocket is a protocol providing full-duplex communication channels over a single TCP connection. It's widely used in modern applications requiring real-time interaction such as instant messaging, real-time comments, multiplayer games, collaborative editing, and live stock prices.

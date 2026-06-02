@@ -13,7 +13,7 @@ type: post
 
 Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Zhiwei shared his entrepreneurial insights with us. Here is the video link:
 
-[Tencent Video Link](https://v.qq.com/x/page/w0535il6ab5.html) 
+[Tencent Video Link](https://v.qq.com/x/page/w0535il6ab5.html)
 
 We created this platform in what way?
 What did Quzhibo intend to do?

@@ -18,7 +18,7 @@ MetaMask is a popular cryptocurrency wallet app for managing Ethereum and other 
 
 2. **Search for MetaMask**: In the search bar at the top, type "MetaMask" and hit search.
 
-3. **Verify the Official App**: 
+3. **Verify the Official App**:
    - Look for the app developed by **Consensys Software Inc.** (the official publisher).
    - It should have over 10 million downloads and around 50K+ ratings.
    - The app icon is a fox with an orange background.

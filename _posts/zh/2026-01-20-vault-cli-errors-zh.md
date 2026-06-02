@@ -16,8 +16,8 @@ type: note
 
 This is a typical beginner-to-intermediate HashiCorp Vault workflow demonstration showing:
 
-1. How Vault client discovers the server address  
-2. The very common TLS/http protocol mismatch error  
+1. How Vault client discovers the server address
+2. The very common TLS/http protocol mismatch error
 3. Writing and reading a secret using KV v2 engine
 
 Here’s a step-by-step explanation of what happened:
@@ -88,8 +88,8 @@ version          1
 
 Key points:
 
-- 显示的 Path 是 `secret/data/prod/database`  
-  → 这证明你正在使用 **KV version 2** engine  
+- 显示的 Path 是 `secret/data/prod/database`
+  → 这证明你正在使用 **KV version 2** engine
   (KV v1 仅会显示 `secret/prod/database`)
 - Vault 自动在 KV v2 的 API path 中添加了 `/data/`
 - Version = 1 → 这是对该路径的第一次写入
@@ -111,7 +111,7 @@ Two important observations:
 
    这是 Vault 1.10+ 之后的首选方式，它清晰地将 mount point 与 secret path 分开。
 
-2. 但在你粘贴的内容中输出是不完整的  
+2. 但在你粘贴的内容中输出是不完整的
    (你在实际数据出现前截断了它)
 
    预期的完整输出应如下所示：
@@ -140,13 +140,13 @@ Two important observations:
 
 ### Quick Fix Checklist for next time
 
-1. 使用 dev server 时务必设置 `VAULT_ADDR`  
+1. 使用 dev server 时务必设置 `VAULT_ADDR`
    `export VAULT_ADDR=http://127.0.0.1:8200`
 
 2. 使用 `-mount=` 语法 — 它更清晰且更具前瞻性
 
-3. 检查 engine 版本：  
-   `vault kv metadata get -mount=secret prod/database`  
+3. 检查 engine 版本：
+   `vault kv metadata get -mount=secret prod/database`
    或者观察路径中是否出现了 `/data/`
 
 希望这能解释清楚整个过程！

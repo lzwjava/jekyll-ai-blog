@@ -11,7 +11,7 @@ type: note
 
 Question: What is the new NVIDIA DGX OS from last month, and in the context of NVIDIA's DGX Spark or similar systems, do the numbers for "10 Cortex" and "10 Cortex in CPU" have to match? What do they respectively mean?
 
-Answer: 
+Answer:
 
 NVIDIA DGX OS is a customized Linux distribution (based on Ubuntu) designed specifically for NVIDIA DGX systems. It comes pre-installed with optimized drivers, the full NVIDIA AI software stack (including CUDA, cuDNN, TensorRT, and more), diagnostic tools, and platform-specific tweaks for stable, high-performance AI, machine learning, and analytics workloads. Recent releases, such as DGX OS 7.x versions, support the latest hardware like the DGX Spark. It is essentially a tuned version of Ubuntu Linux with NVIDIA enhancements baked in for better compatibility and performance on their Grace Blackwell-based platforms.
 
@@ -34,7 +34,7 @@ This setup pairs with a powerful Blackwell GPU (up to 1 petaFLOP AI performance 
 
 If you're seeing this in system specs, logs, or `lscpu`/`cat /proc/cpuinfo` output on a DGX Spark running DGX OS, that's exactly what it describes.
 
-References:  
-- https://docs.nvidia.com/dgx/dgx-spark/hardware.html  
-- https://www.nvidia.com/en-us/products/workstations/dgx-spark/  
+References:
+- https://docs.nvidia.com/dgx/dgx-spark/hardware.html
+- https://www.nvidia.com/en-us/products/workstations/dgx-spark/
 - https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai

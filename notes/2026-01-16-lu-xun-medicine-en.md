@@ -12,7 +12,7 @@ type: note
 
 Question: Introduce Lu Xun's short story "Medicine" in English.
 
-Answer: 
+Answer:
 
 **"Medicine" (药, Yào)** is one of the most famous and powerful short stories written by **Lu Xun** (鲁迅), widely regarded as the greatest modern Chinese writer and the founder of modern Chinese literature.
 
@@ -45,6 +45,6 @@ The story is set in the late Qing dynasty, around the time of the failed **1898 
 
 It is still one of the most frequently taught and analyzed works in Chinese middle schools and universities, and remains a classic example of how literature can expose social illness without offering easy comfort or solutions.
 
-References:  
-- Lu Xun. *Call to Arms* (呐喊). 1923. (various English translations available, most commonly by Julia Lovell or William A. Lyell)  
+References:
+- Lu Xun. *Call to Arms* (呐喊). 1923. (various English translations available, most commonly by Julia Lovell or William A. Lyell)
 - [https://en.wikipedia.org/wiki/Medicine_(short_story)](https://en.wikipedia.org/wiki/Medicine_(short_story))

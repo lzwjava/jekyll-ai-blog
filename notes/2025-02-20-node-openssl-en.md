@@ -110,20 +110,20 @@ This should resolve the "error 0308010C digital envelope routines::unsupported" 
 
 <details type="reasoning" done="true" duration="9">
 <summary>Thought for 9 seconds</summary>
-> Okay, so the user is encountering an error after running `ng build` in their Angular project. The error message is `error 0308010C digital envelope routines:: unsupported`. I remember that this error is related to the Node.js crypto module, specifically with the OpenSSL library. 
-> 
+> Okay, so the user is encountering an error after running `ng build` in their Angular project. The error message is `error 0308010C digital envelope routines:: unsupported`. I remember that this error is related to the Node.js crypto module, specifically with the OpenSSL library.
+>
 > First, I need to figure out why this error is happening. It might be due to a recent update in Node.js or OpenSSL. I recall that Node.js versions beyond 17.x started using the newer OpenSSL 3.x by default, which might have some breaking changes. The error code 0308010C suggests it's an issue with the digital envelope routines, which are part of the crypto module.
-> 
+>
 > I should check if the project is using environment variables to specify the OpenSSL provider. If the project is using `NODE_OPTIONS=--openssl-legacy-provider`, that might be causing the issue. I can suggest removing or modifying that environment variable.
-> 
+>
 > Another thought is whether the project has any dependencies that might be incompatible with the newer OpenSSL version. Maybe some packages were built against an older OpenSSL and are now causing issues. Updating or downgrading those dependencies could help.
-> 
+>
 > If the user is using a specific version of Node.js, they might need to switch back to a version that uses OpenSSL 1.x. Alternatively, they could try using the legacy OpenSSL provider by setting the environment variable before running `ng build`.
-> 
+>
 > I should also consider if there are any known issues with Angular and the newer OpenSSL versions. Perhaps Angular has made adjustments, but maybe the user's project hasn't been updated yet.
-> 
+>
 > Lastly, if none of these solutions work, there might be a need to adjust the project's configuration or even consider building a custom OpenSSL setup, though that's more advanced.
-> 
+>
 > I should present these solutions in a clear, step-by-step manner, starting with the simplest fixes and moving to more involved options. That way, the user can try each until they find what works for them.
 </details>
 The error `error 0308010C digital envelope routines:: unsupported` typically occurs when there is an issue with the OpenSSL library used by Node.js. This error can happen due to a newer version of OpenSSL being used, which might not be fully compatible with your project's requirements. Here's how you can fix it:

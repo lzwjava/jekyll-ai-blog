@@ -12,7 +12,7 @@ type: note
 
 Question: Why am I getting "Error opening terminal: xterm-ghostty" when running htop and "'xterm-ghostty': unknown terminal type" with top?
 
-Answer: 
+Answer:
 
 You're using **Ghostty** as your terminal emulator (likely on macOS or Linux), which sets the `TERM` environment variable to `xterm-ghostty`. This is intentional — Ghostty ships with its own terminfo entry to support its advanced features.
 
@@ -25,7 +25,7 @@ This is a very common issue with newer terminal emulators (similar problems happ
 
 ### Quick Fixes (choose one)
 
-1. **Best quick fix — tell Ghostty to use a widely supported TERM value**  
+1. **Best quick fix — tell Ghostty to use a widely supported TERM value**
    Add this line to your Ghostty configuration file:
 
    ```
@@ -35,10 +35,10 @@ This is a very common issue with newer terminal emulators (similar problems happ
    - macOS location: `~/Library/Application Support/com.mitchellh.ghostty/config`
    - Linux location: `~/.config/ghostty/config`
 
-   Save the file, **fully quit Ghostty** (not just close the window — quit the app), then restart it and open a new SSH session.  
+   Save the file, **fully quit Ghostty** (not just close the window — quit the app), then restart it and open a new SSH session.
    This keeps good color support and works on almost every server without any remote changes.
 
-2. **Override TERM only when using Ghostty (shell-based workaround)**  
+2. **Override TERM only when using Ghostty (shell-based workaround)**
    Add this to your shell config on your **local** machine (e.g. `~/.zshrc` or `~/.bashrc`):
 
    ```bash
@@ -49,7 +49,7 @@ This is a very common issue with newer terminal emulators (similar problems happ
 
    Then source the file (`source ~/.zshrc`) or open a new terminal tab. This avoids changing Ghostty's config and only affects Ghostty sessions.
 
-3. **SSH-specific fix (recommended if you only have problems over SSH)**  
+3. **SSH-specific fix (recommended if you only have problems over SSH)**
    Add this to your local `~/.ssh/config`:
 
    ```
@@ -57,10 +57,10 @@ This is a very common issue with newer terminal emulators (similar problems happ
        SetEnv TERM=xterm-256color
    ```
 
-   (Requires OpenSSH ≥ 8.7; very common nowadays.)  
+   (Requires OpenSSH ≥ 8.7; very common nowadays.)
    This forces `xterm-256color` for all SSH connections without affecting local terminal usage.
 
-4. **Proper but more work — install Ghostty's terminfo on the remote server**  
+4. **Proper but more work — install Ghostty's terminfo on the remote server**
    From your local machine (where Ghostty is installed):
 
    ```bash
@@ -75,7 +75,7 @@ Use option 1 (set `term = xterm-256color` in Ghostty config) — it's the simple
 
 After applying the fix, both `htop` and `top` should launch normally.
 
-References:  
+References:
 
 - [https://ghostty.org/docs/help/terminfo](https://ghostty.org/docs/help/terminfo)
 - [https://travis.media/blog/ghostty-ssh-unknown-terminal-error](https://travis.media/blog/ghostty-ssh-unknown-terminal-error)

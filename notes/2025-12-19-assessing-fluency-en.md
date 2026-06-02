@@ -12,7 +12,7 @@ type: note
 
 Question: How to evaluate candidates in a technical interview, particularly regarding English fluency and the quality of answers to technical questions? Are fluent and good technical answers really hard to fake?
 
-Answer: 
+Answer:
 
 In technical interviews, evaluators assess multiple aspects of a candidate's suitability, including technical knowledge, problem-solving skills, communication, and cultural fit. English fluency and the quality of technical answers are two key areas, but they serve different purposes and are evaluated differently.
 
@@ -35,7 +35,7 @@ In technical interviews, evaluators assess multiple aspects of a candidate's sui
   - Consistency: Check if concepts align across different questions (e.g., if they claim expertise in distributed systems, do they handle related questions coherently?).
   - Practicality: Do they mention real-world considerations (performance, maintainability, debugging)?
   - Communication structure: Good answers are organized (problem restatement → approach → solution → optimization).
-- **Is it hard to fake?**  
+- **Is it hard to fake?**
   Yes, genuinely good and fluent technical answers are very hard to fake for candidates without real depth. Reasons:
   - Memorized answers break under follow-up questions. Interviewers routinely probe beyond standard LeetCode/scripted responses.
   - Deep understanding shows in the ability to connect concepts, handle variations, and explain trade-offs spontaneously.

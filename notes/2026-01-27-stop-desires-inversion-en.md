@@ -20,11 +20,11 @@ Charlie Munger did not have a widely known direct quote specifically using the p
 
 - On "sharing" personal matters: Some interpretations and secondary sources attribute to Munger (or similar wisdom in his style) the idea that excessive desire to share personal problems or vulnerabilities is unwise. For example, he reportedly advised against broadly sharing your troubles because most people are indifferent, and some may even take pleasure in your difficulties. A related viral interpretation links "the desire to share" (perhaps personal wealth, problems, or status) as a path toward poverty or loss, though this appears more as commentary on his teachings than a verbatim quote.
 
-A close related famous Munger principle on desires is:  
-"To get what you want, you have to deserve what you want. The world is not yet a crazy enough place to reward a whole bunch of undeserving people."  
+A close related famous Munger principle on desires is:
+"To get what you want, you have to deserve what you want. The world is not yet a crazy enough place to reward a whole bunch of undeserving people."
 This applies to personal goals, relationships, success, etc.—focus on becoming worthy rather than just wishing or envying.
 
-Regarding the **"stop doing list"**:  
+Regarding the **"stop doing list"**:
 Charlie Munger did not explicitly create or publish a personal "stop doing list," but his philosophy strongly aligns with the concept. He advocated **inversion thinking** — instead of only asking "how do I succeed?", also ask "how do I fail/misjudge?" and then avoid those behaviors. Many people inspired by Munger recommend maintaining a "stop doing list" as a practical application of his inversion approach to stay focused, avoid stupidity, and improve outcomes.
 
 Examples of things Munger advised stopping or avoiding include:
@@ -36,7 +36,7 @@ Examples of things Munger advised stopping or avoiding include:
 
 In essence, Munger's approach encourages ruthless elimination of counterproductive habits and tendencies to create space for what truly matters.
 
-**References:**  
+**References:**
 
 - [Billionaire Charlie Munger: World is 'driven by envy,' not 'greed'](https://www.cnbc.com/2022/12/10/billionaire-charlie-munger-world-is-driven-by-envy-not-greed.html)
 - [Quote: “To get what you want, you have to deserve what you want...”](https://www.goodreads.com/quotes/1399571-to-get-what-you-want-you-have-to-deserve-what)

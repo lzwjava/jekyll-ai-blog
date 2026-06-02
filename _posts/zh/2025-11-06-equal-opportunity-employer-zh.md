@@ -19,5 +19,5 @@ type: note
 
 若您在招聘广告或政策中看到此声明，这是倡导公平性的标准表述。具体地区细则请查阅当地劳动法。
 
-[美国平等就业机会委员会概述](https://www.eeoc.gov/employers/small-business/equal-employment-opportunity)  
+[美国平等就业机会委员会概述](https://www.eeoc.gov/employers/small-business/equal-employment-opportunity)
 [韦氏词典定义](https://www.merriam-webster.com/dictionary/equal%20opportunity%20employer)

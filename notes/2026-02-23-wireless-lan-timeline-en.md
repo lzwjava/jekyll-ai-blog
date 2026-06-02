@@ -11,7 +11,7 @@ type: note
 
 Question: What is the earliest released wireless LAN standard?
 
-Answer: 
+Answer:
 
 The earliest released wireless LAN standard is **IEEE 802.11**.
 

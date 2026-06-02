@@ -19,7 +19,7 @@ Hysteria2 support was added in the **Clash Meta** (mihomo) core starting around 
 
 ### Quick Fix Options (Mac)
 
-1. **Recommended: Switch to mihomo (Clash Meta core)**  
+1. **Recommended: Switch to mihomo (Clash Meta core)**
    Download a recent macOS AMD64 binary from the official MetaCubeX/mihomo releases:
 
    - Go to → https://github.com/MetaCubeX/mihomo/releases
@@ -32,22 +32,22 @@ Hysteria2 support was added in the **Clash Meta** (mihomo) core starting around 
 
    Most modern Clash GUI clients on macOS (Clash Verge Rev, Mihomo Party, FlClash, etc.) already bundle recent mihomo cores and support hysteria2 out of the box.
 
-2. **Alternative: Use a modern GUI client instead of command-line binary**  
+2. **Alternative: Use a modern GUI client instead of command-line binary**
    Popular choices in 2025–2026 for macOS:
 
-   - **Clash Verge Rev** → https://github.com/clash-verge-rev/clash-verge-rev/releases  
+   - **Clash Verge Rev** → https://github.com/clash-verge-rev/clash-verge-rev/releases
      (very actively maintained, excellent hysteria2 / TUIC / VLESS Reality support)
 
-   - **Mihomo Party** → https://github.com/pompurin404/mihomo-party  
+   - **Mihomo Party** → https://github.com/pompurin404/mihomo-party
      (very user-friendly, built specifically around mihomo)
 
    - **FlClash** → https://github.com/chen08209/FlClash
 
    These clients handle config parsing, core updates, and hy2 nodes automatically.
 
-3. **If you must keep using command-line only**  
+3. **If you must keep using command-line only**
    - Download mihomo binary (as in option 1)
-   - Or compile from source: https://github.com/MetaCubeX/mihomo  
+   - Or compile from source: https://github.com/MetaCubeX/mihomo
      (go install github.com/MetaCubeX/mihomo@alpha)
 
 ### Summary Table

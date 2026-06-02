@@ -30,6 +30,6 @@ type: note
 
 在DragonBoard实际使用中，开发脚本编写或传感器集成等任务运行流畅，但受限于散热设计与内存容量，持续高负载可能引发降频。其性能甚至不及2020年的中端芯片（例如多核性能比骁龙888低5-10倍），因此更适合爱好者项目而非高性能生产环境。
 
-[DragonBoard 410c - 96Boards](https://www.96boards.org/product/dragonboard410c/)  
-[Qualcomm Snapdragon 410 Benchmarks - NotebookCheck](https://www.notebookcheck.net/Qualcomm-Snapdragon-410-APQ8016-Benchmarks-and-Specs.142822.0.html)  
+[DragonBoard 410c - 96Boards](https://www.96boards.org/product/dragonboard410c/)
+[Qualcomm Snapdragon 410 Benchmarks - NotebookCheck](https://www.notebookcheck.net/Qualcomm-Snapdragon-410-APQ8016-Benchmarks-and-Specs.142822.0.html)
 [CPU Benchmark - PassMark](https://www.cpubenchmark.net/cpu.php?cpu=Qualcomm%2BTechnologies%252C%2BInc%2BMSM8916&id=4009)

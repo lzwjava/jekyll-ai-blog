@@ -11,23 +11,23 @@ type: note
 
 Question: What does "mildew" mean?
 
-Answer: 
+Answer:
 
 **Mildew** refers to a type of **fungus** that grows in warm, damp, and poorly ventilated conditions. It usually appears as:
 
-- A thin, powdery or fuzzy coating  
+- A thin, powdery or fuzzy coating
 - Most commonly **white, grayish-white, or light-colored** (sometimes yellowish or black)
 
 There are two main types people usually mean when they say "mildew":
 
-1. **Powdery mildew**  
-   - Very common on plant leaves (especially roses, cucumbers, grapes, zucchini, lilacs, etc.)  
-   - Looks like someone dusted white talcum powder or flour on the leaves  
+1. **Powdery mildew**
+   - Very common on plant leaves (especially roses, cucumbers, grapes, zucchini, lilacs, etc.)
+   - Looks like someone dusted white talcum powder or flour on the leaves
    - Does not usually kill the plant but weakens it
 
-2. **Mold/mildew in homes** (often just called "mildew")  
-   - Thin, flat growth on bathroom tiles, shower curtains, windowsills, basement walls, leather, fabric, books, etc.  
-   - Usually white → gray → black as it grows older  
+2. **Mold/mildew in homes** (often just called "mildew")
+   - Thin, flat growth on bathroom tiles, shower curtains, windowsills, basement walls, leather, fabric, books, etc.
+   - Usually white → gray → black as it grows older
    - Has a characteristic **musty, damp, unpleasant smell**
 
 Quick comparison people often confuse:
@@ -39,5 +39,5 @@ Quick comparison people often confuse:
 
 In everyday language, when people say "mildew" they usually mean the white/grayish thin fungal growth in damp household areas (especially bathrooms), while darker, thicker, more toxic growth is usually called "mold".
 
-References:  
+References:
 - None needed for this basic definition

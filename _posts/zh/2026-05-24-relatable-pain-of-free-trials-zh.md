@@ -15,7 +15,7 @@ type: note
 
 以下几点值得了解：
 
-**在 6 月 20 日之前，还有什么价值可以榨取吗？**  
+**在 6 月 20 日之前，还有什么价值可以榨取吗？**
 Google AI Pro 包含 Gemini Advanced（可使用 2.0 Flash/Pro 版本）、5TB 的 Drive 存储空间以及 NotebookLM Plus。考虑到你的工作流——每年 1.5B tokens、大量使用 LLM——你可以通过以下方式挤出一些价值：
 - 测试 Gemini 2.5 Pro 在编程任务上的表现（它在代码基准测试中现在实际上与 Claude/GPT-4o 不相上下）
 - 在订阅结束前，利用 5TB 的 Drive 作为大数据集的临时存储

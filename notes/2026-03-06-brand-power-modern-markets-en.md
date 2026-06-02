@@ -11,7 +11,7 @@ type: note
 
 **Question:** What does Paul Graham's essay "Brand Age" say?
 
-**Answer:** 
+**Answer:**
 
 Paul Graham published an essay titled **"The Brand Age"** (also referred to as "Brand Age") on his website at paulgraham.com/brandage.html.
 
@@ -29,7 +29,7 @@ The essay fits into Graham's broader themes of how power laws, reputation, and p
 
 (Note: The essay appears to be a relatively recent addition to his collection, as references to it show up in recent X posts by Graham himself linking to the piece.)
 
-**References:**  
+**References:**
 
-- [The Brand Age - paulgraham.com](https://paulgraham.com/brandage.html)  
+- [The Brand Age - paulgraham.com](https://paulgraham.com/brandage.html)
 - [Paul Graham's X post linking to the essay](https://x.com/paulg/status/2029612393660133547)

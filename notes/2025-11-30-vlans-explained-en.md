@@ -14,8 +14,8 @@ type: note
 
 A VLAN is a technology that lets you create **multiple separate LANs (broadcast domains) on the same physical network switch** without needing separate switches or cables.
 
-Think of it like this:  
-Normally, all devices plugged into the same switch are on the same network and can talk to each other freely (same broadcast domain).  
+Think of it like this:
+Normally, all devices plugged into the same switch are on the same network and can talk to each other freely (same broadcast domain).
 With VLANs, you can logically split that one physical switch into many isolated networks — even if the devices are connected to the same switch.
 
 #### Why use VLANs? (Main benefits)

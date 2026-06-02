@@ -12,7 +12,7 @@ type: note
 
 Question: 如果我们将数据库从 DB2 迁移到 PostgreSQL，应该如何操作？成本高吗？关于 Stored Procedures、SQL 以及 Java JDBC Driver 有哪些注意事项？
 
-Answer: 
+Answer:
 
 将 **IBM DB2**（通常是 DB2 LUW）迁移到 **PostgreSQL** 是一种常见的异构数据库迁移，主要是由于消除了 DB2 的 Licensing 和维护费用，从长远来看可以大幅节省成本。然而，迁移本身可能会产生中到高的成本，这取决于数据库的复杂度，特别是如果你大量使用了 Stored Procedures、DB2 特有的 SQL 特性，或者拥有庞大的代码库。
 
@@ -31,10 +31,10 @@ Answer:
 
 ### 如何迁移（主要步骤）
 
-1. **评估与规划 (Assessment & Planning)**  
+1. **评估与规划 (Assessment & Planning)**
    分析 Schema、Data types、Stored Procedures、Triggers、Functions、Views 以及应用程序 SQL 的不兼容性。估算工作量和成本。AWS Schema Conversion Tool (SCT) 等工具可以生成迁移评估报告。
 
-2. **Schema 转换**  
+2. **Schema 转换**
    将 DB2 DDL 转换为 PostgreSQL 兼容的 DDL。关键差异包括：
    - Data types：DB2 DECIMAL → PostgreSQL NUMERIC；某些 DB2 特有的类型需要映射。
    - Sequences vs. Identity Columns。
@@ -43,7 +43,7 @@ Answer:
 
    工具：AWS SCT（对 AWS 用户免费）、db2topg（开源）、Ispirer Toolkit（商业，自动化程度高）或手动调整。
 
-3. **Stored Procedures & Functions**  
+3. **Stored Procedures & Functions**
    这通常是**最昂贵且最耗时**的部分。
    - DB2 使用 SQL PL（类似于 PL/SQL）。
    - PostgreSQL 使用 **PL/pgSQL**（语法相似但不完全相同）。
@@ -52,22 +52,22 @@ Answer:
    - 自动化工具（Ispirer, AWS SCT）在理想情况下可以自动转换 70–90%，但复杂的逻辑（如 Handlers、返回结果集的 Cursors）往往需要手动修正。
    - Triggers 也需要重写（DB2 `MODE DB2SQL` → PL/pgSQL `EXECUTE FUNCTION`）。
 
-4. **应用程序 SQL 查询**  
+4. **应用程序 SQL 查询**
    大多数标准 ANSI SQL 运行良好，但需注意：
    - DB2 特有的 Functions（例如 `RAND()` → `RANDOM()`）。
    - `FETCH FIRST n ROWS ONLY`（虽然兼容，但有语法细微差别）。
    - Date/time 处理、String 函数和隐式类型转换 (Implicit type casts)。
    - 应用程序可能需要调整查询，或使用抽象层（如 JPA/Hibernate 可以减少改动）。
 
-5. **数据迁移 (Data Migration)**  
+5. **数据迁移 (Data Migration)**
    - 一次性全量加载：使用 DB2 `EXPORT` 到分隔符文件 → PostgreSQL `COPY`。
    - 最小化停机时间：AWS DMS (Database Migration Service) 等工具支持从 DB2 到 PostgreSQL 的增量同步 (CDC)。
    - 迁移后验证 Row counts、Sums 和样本数据。
 
-6. **Java JDBC Driver 注意事项**  
+6. **Java JDBC Driver 注意事项**
    - 从 **IBM DB2 JDBC driver**（如 `com.ibm.db2.jcc.DB2Driver`）切换到 **PostgreSQL JDBC driver** (`org.postgresql.Driver`)。
-   - URL 变化：  
-     DB2: `jdbc:db2://host:port/dbname`  
+   - URL 变化：
+     DB2: `jdbc:db2://host:port/dbname`
      PostgreSQL: `jdbc:postgresql://host:port/dbname`
    - 大多数标准 JDBC 代码（PreparedStatement, ResultSet, Transactions）工作方式相似。
    - 微小差异可能出现在：
@@ -77,7 +77,7 @@ Answer:
      - Connection Pooling（连接池）属性。
    - 如果使用 ORM（Hibernate, Spring Data JPA），更新 Dialect (`org.hibernate.dialect.PostgreSQLDialect`) 和 Driver 依赖；许多更改会自动完成。
 
-7. **测试与切换**  
+7. **测试与切换**
    - 对 Procedures 和应用查询进行单元/集成测试。
    - 性能测试（通常需要对 PostgreSQL 进行 Tuning）。
    - 如果可能，进行并行运行或 Shadow Testing。

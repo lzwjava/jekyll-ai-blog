@@ -112,26 +112,26 @@ def scrape_ecommerce_site():
     try:
         # Navigate to the website
         driver.get("https://example.com")
-        
+
         # Initialize page objects
         search_page = SearchPage(driver)
         product_page = ProductListingPage(driver)
-        
+
         # Perform search
         search_page.search("laptop")
-        
+
         # Sort by price
         product_page.sort_by_price()
-        
+
         # Scrape multiple pages
         page_count = 0
         max_pages = 3  # Limit for demo
-        
+
         while page_count < max_pages:
             products = product_page.get_products()
             all_products.extend(products)
             print(f"Scraped page {page_count + 1}: {len(products)} products")
-            
+
             if not product_page.go_to_next_page():
                 break
             page_count += 1
@@ -142,7 +142,7 @@ def scrape_ecommerce_site():
             "average_price": calculate_average_price(all_products),
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
         }
-        
+
         # Save results to JSON
         with open("product_data.json", "w") as f:
             json.dump({"products": all_products, "summary": summary}, f, indent=2)
@@ -150,7 +150,7 @@ def scrape_ecommerce_site():
 
     except Exception as e:
         print(f"An error occurred: {e}")
-    
+
     finally:
         driver.quit()
 

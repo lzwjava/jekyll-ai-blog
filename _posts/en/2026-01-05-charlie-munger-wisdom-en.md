@@ -12,22 +12,22 @@ type: note
 
 Question: The wit and wisdom of Charlie Munger
 
-Answer: 
+Answer:
 
 Charlie Munger (1924–2023) was the vice chairman of Berkshire Hathaway and Warren Buffett's longtime partner. Known for his sharp wit, multidisciplinary thinking, and practical wisdom, Munger emphasized rationality, lifelong learning, and avoiding stupidity over chasing brilliance. His insights, compiled in the book *Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger*, draw from psychology, economics, history, and more to form a "latticework of mental models" for better decision-making in investing and life.
 
 ### Key Themes in Munger's Wisdom
 
-- **Lifelong Learning and Worldly Wisdom**  
+- **Lifelong Learning and Worldly Wisdom**
   Munger advocated building a broad knowledge base across disciplines to make better judgments. He believed true wisdom comes from connecting big ideas rather than isolated facts.
 
-- **Avoiding Psychological Biases**  
+- **Avoiding Psychological Biases**
   In speeches like "The Psychology of Human Misjudgment," Munger outlined tendencies like incentive-caused bias, envy, and reciprocation that lead to poor decisions. Recognizing and countering them is essential.
 
-- **Investing Principles**  
+- **Investing Principles**
   Focus on high-quality businesses at fair prices, patience, and long-term compounding. Avoid speculation and overcomplication.
 
-- **Living a Good Life**  
+- **Living a Good Life**
   Reliability, low expectations, deferred gratification, and avoiding envy lead to fulfillment. Success often comes from consistency and rationality.
 
 ### Selected Memorable Quotes
@@ -45,7 +45,7 @@ Charlie Munger (1924–2023) was the vice chairman of Berkshire Hathaway and War
 
 Munger's approach—combining humor, inversion (thinking about what to avoid), and mental models—has influenced investors, leaders, and thinkers worldwide. His legacy lies in promoting clear, rational thinking for better outcomes in business and personal life.
 
-References:  
+References:
 
 - [Poor Charlie's Almanack on Goodreads](https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack)
 - [Charlie Munger Quotes on fs.blog](https://fs.blog/intellectual-giants/charlie-munger/)

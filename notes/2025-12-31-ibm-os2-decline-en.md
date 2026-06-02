@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to IBM OS/2.
 
-Answer: 
+Answer:
 
 # IBM OS/2: A Comprehensive Introduction
 
@@ -58,7 +58,7 @@ OS/2 influenced modern OS design (e.g., multitasking concepts in Windows NT). It
 
 OS/2 represents a "what if" in computing history—an superior OS undermined by business dynamics rather than technical flaws.
 
-References:  
+References:
 
 - [IBM OS/2 | Definition, History, & Facts | Britannica](https://www.britannica.com/technology/IBM-OS-2)
 - [OS/2 - Wikipedia](https://en.wikipedia.org/wiki/OS/2)

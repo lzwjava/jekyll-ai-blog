@@ -12,7 +12,7 @@ type: note
 
 Question: 在 Android Studio 中创建新的 Android project 时，通常会为基础的空 app 选择哪个模板？
 
-Answer: 
+Answer:
 
 正确答案是 **A) Empty Activity**。
 
@@ -24,5 +24,5 @@ Answer:
 
 "Empty Activity"（在较新的模板中育时也被标记为 "Empty Views Activity"）仍然是作为最简单起点的标准选择。
 
-References:  
+References:
 - [Android Developers - Create a project](https://developer.android.com/studio/projects/create-project)

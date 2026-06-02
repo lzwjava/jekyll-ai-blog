@@ -13,7 +13,7 @@ type: note
 你的 `wget` 命令正在访问 `https://mirror.accum.se/mirror/wikimedia.org/dumps/...` 并收到指向 `https://laotzu.ftp.acc.umu.se/...` 的 **302 重定向**。这对 **accum.se** 镜像站来说是完全正常且预期的行为——以下是原因说明：
 
 ### 重定向发生的原因
-`mirror.accum.se` 只是瑞典于默奥大学学术计算机俱乐部（ACC）运营的**重定向器/负载均衡器**。  
+`mirror.accum.se` 只是瑞典于默奥大学学术计算机俱乐部（ACC）运营的**重定向器/负载均衡器**。
 它本身**并不托管文件**，而是：
 
 - 根据你 IP 的地理位置（或有时根据负载情况）

@@ -47,8 +47,8 @@ Pease was a prolific writer, known for his engaging and sometimes controversial 
 - **Known for driving a ancient, rusty Volvo** (which he claimed was the most reliable car).
 - **Disliked SPICE simulations**, preferring hand calculations and real-world testing.
 - **Outspoken and humorous**, often criticizing poor engineering practices.
-- **Famous quotes**:  
-  - *"When a problem comes along, you must whip it."*  
+- **Famous quotes**:
+  - *"When a problem comes along, you must whip it."*
   - *"If you don’t know what it’s supposed to do, you’ll never figure out what’s wrong."*
 
 ---

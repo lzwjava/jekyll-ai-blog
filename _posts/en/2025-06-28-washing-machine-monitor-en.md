@@ -14,22 +14,22 @@ To create a system that detects when your Maytag MHW8630HW washing machine stops
 
 ### Tech Stack
 #### Hardware
-1. **Arduino Board**: 
+1. **Arduino Board**:
    - **ESP32-CAM** (recommended) – Combines a microcontroller with a built-in OV2640 camera and Wi-Fi capability, perfect for image processing and Telegram integration.
    - Alternative: Arduino Uno + separate camera module (e.g., OV7670) and ESP8266 for Wi-Fi, but this is more complex to set up.
-2. **Camera Module**: 
+2. **Camera Module**:
    - OV2640 (included with ESP32-CAM) – 2MP camera sufficient for detecting the panel light.
-3. **Light Sensor (Optional)**: 
+3. **Light Sensor (Optional)**:
    - Photoresistor (LDR) or TSL2561 – To supplement camera-based light detection for redundancy or simpler setups.
-4. **Power Supply**: 
+4. **Power Supply**:
    - 5V USB power adapter or battery pack for the ESP32-CAM.
-5. **Mounting**: 
+5. **Mounting**:
    - Small enclosure or 3D-printed case to hold the ESP32-CAM, with a clear view of the washing machine’s control panel.
-6. **Wi-Fi Router**: 
+6. **Wi-Fi Router**:
    - For the ESP32-CAM to connect to the internet and communicate with the Telegram bot.
 
 #### Software
-1. **Arduino IDE**: 
+1. **Arduino IDE**:
    - For programming the ESP32-CAM.
 2. **Libraries**:
    - **Universal Arduino Telegram Bot Library** by Brian Lough – For Telegram bot integration.
@@ -37,7 +37,7 @@ To create a system that detects when your Maytag MHW8630HW washing machine stops
    - **ESP32-CAM Camera Libraries** – Built-in libraries for capturing and processing images.
 3. **Telegram Bot**:
    - Use BotFather on Telegram to create a bot and obtain a bot token and chat ID.
-4. **Programming Language**: 
+4. **Programming Language**:
    - C++ (Arduino sketch).
 5. **Optional Tools**:
    - OpenCV (Python) for prototyping image processing algorithms on a computer before porting to Arduino (simplified for ESP32-CAM).

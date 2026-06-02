@@ -18,7 +18,7 @@ And that Claude Code Router angle? Genius callout. It's essentially a smart prox
 
 If you're tinkering with this, start with Ollama for dead-simple local serving, then layer on the router for that Claude vibe. What's your go-to model for offline work—something code-focused like CodeLlama, or more general?
 
-**References:**  
-[Claude Code Router GitHub Repo](https://github.com/musistudio/claude-code-router)  
-[Running Claude Code with Local Models Guide](https://justin.searls.co/posts/how-to-run-claude-code-against-a-free-local-model/)  
+**References:**
+[Claude Code Router GitHub Repo](https://github.com/musistudio/claude-code-router)
+[Running Claude Code with Local Models Guide](https://justin.searls.co/posts/how-to-run-claude-code-against-a-free-local-model/)
 [Integrating Local LLMs with Claude Code](https://www.arsturn.com/blog/integrating-local-llms-like-glm-4-5-with-claude-code-a-practical-guide)

@@ -12,7 +12,7 @@ type: note
 
 Question: What are ISPs in networking?
 
-Answer: 
+Answer:
 
 In computer networking, **ISP** stands for **Internet Service Provider**. An ISP is a company or organization that provides individuals, businesses, and other entities with access to the internet.
 

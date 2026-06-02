@@ -20,7 +20,7 @@ type: note
 - **创新设施**：学习共享区设有小组讨论、创意媒体及技术实验专区（早期曾率先部署CD-ROM网络、基于XML的发现工具及关联数据技术）。配备数据分析、编程协作及STEM团队作业所需的专业设备。
 - **开放政策**：向公众开放学术研究服务——访客可在线或现场申办访客证（免费，需说明研究目的）。假期延长开放时间，科大成员享有全权限访问。
 
-地址：九龙清水湾（港铁彩虹站转乘巴士可达）  
+地址：九龙清水湾（港铁彩虹站转乘巴士可达）
 官方网站：[香港科技大学图书馆](https://library.hkust.edu.hk/)
 
 #### 优质备选方案
@@ -34,7 +34,7 @@ type: note
 
 若纯粹面向公众使用，建议首选中央图书馆——其十余层空间宽敞且定期举办科技活动。而如港科大等高校图书馆则提供更专业的深度资源（若具备访问权限）。
 
-[香港科技大学图书馆维基百科](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology_Library)  
-[香港科技大学图书馆官网](https://library.hkust.edu.hk/)  
-[香港中央图书馆](https://www.hkpl.gov.hk/en/locations/hong-kong-central-library.html)  
+[香港科技大学图书馆维基百科](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology_Library)
+[香港科技大学图书馆官网](https://library.hkust.edu.hk/)
+[香港中央图书馆](https://www.hkpl.gov.hk/en/locations/hong-kong-central-library.html)
 [香港6大最佳公共图书馆](https://www.localiiz.com/post/culture-literature-best-public-libraries-hong-kong)

@@ -30,7 +30,7 @@ type: note
 ### Overall Profile
 Shuo Yang's career spans drone innovation at DJI, advanced legged/humanoid robotics research at CMU, cutting-edge humanoid development at Tesla Optimus, and now entrepreneurial efforts at Mondo Tech to make robotics more personal and accessible. His path reflects a progression from aerial systems to ground-based and humanoid platforms, with strong expertise in control algorithms, perception, estimation, and real-world product deployment. He maintains an active online presence, including a personal website detailing his work and an X account (@ShuoYangAIR).
 
-**References:**  
+**References:**
 
 - [Shuo Yang's Personal Website](https://shuoyangrobotics.github.io/)
 - [Shuo Yang's CV](https://shuoyangrobotics.github.io/cv)

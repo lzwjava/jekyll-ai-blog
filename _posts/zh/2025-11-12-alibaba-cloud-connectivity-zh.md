@@ -36,9 +36,9 @@ type: note
 
 如果您需要最佳的海外速度且不介意轻微的中转，选择带CN2的香港区域是理想方案。如果严格限定在中国大陆，GIA通过优质路由能让您接近同等效果。
 
-参考文献：  
-[全球互联网访问 - 阿里云](https://www.alibabacloud.com/en/solutions/global-internet-access)  
-[阿里云香港服务器搭建SSR指南](https://www.tipsforchina.com/tips-for-alibaba-hong-kong-aliyun.html)  
-[阿里云中国大陆VPS反馈 - LowEndTalk](https://lowendtalk.com/discussion/111525/alibaba-mainland-china-vps-feedback)  
-[哪些云服务提供商在中国和美国都表现良好？ - Quora](https://www.quora.com/What-cloud-service-providers-work-well-in-both-China-and-the-US)  
+参考文献：
+[全球互联网访问 - 阿里云](https://www.alibabacloud.com/en/solutions/global-internet-access)
+[阿里云香港服务器搭建SSR指南](https://www.tipsforchina.com/tips-for-alibaba-hong-kong-aliyun.html)
+[阿里云中国大陆VPS反馈 - LowEndTalk](https://lowendtalk.com/discussion/111525/alibaba-mainland-china-vps-feedback)
+[哪些云服务提供商在中国和美国都表现良好？ - Quora](https://www.quora.com/What-cloud-service-providers-work-well-in-both-China-and-the-US)
 [使用BGP Pro降低您在中国应用的延迟](https://albertoroura.com/lower-the-latency-of-your-application-in-china-with-bgp-pro/)

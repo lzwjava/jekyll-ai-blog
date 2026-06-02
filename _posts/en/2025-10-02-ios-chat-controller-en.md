@@ -35,7 +35,7 @@ typedef NS_ENUM(NSUInteger, XHInputViewType) {
 
 The controller manages multiple input states with smooth transitions between:
 - Text keyboard
-- Emotion picker  
+- Emotion picker
 - Share menu
 - Voice recording
 
@@ -79,7 +79,7 @@ Manages transitions between different input modes while maintaining proper layou
 Complete voice recording implementation:
 ```objc
 - (void)startRecord;
-- (void)finishRecorded; 
+- (void)finishRecorded;
 - (void)cancelRecord;
 ```
 With visual feedback via `XHVoiceRecordHUD`.
@@ -114,7 +114,7 @@ await methodChannel.invokeMethod('presentChat');
 
 ### **Native Integration Points**
 1. **Camera/Photo Library** - Use `image_picker` plugin
-2. **Location Services** - Use `location` plugin  
+2. **Location Services** - Use `location` plugin
 3. **Voice Recording** - Use `audio_recorder` or similar
 4. **Keyboard Handling** - Flutter has built-in `KeyboardVisibility`
 
@@ -135,7 +135,7 @@ await methodChannel.invokeMethod('presentChat');
 
 This code demonstrates:
 - **Complex UI state management**
-- **Smooth animations and transitions** 
+- **Smooth animations and transitions**
 - **Multiple input modality handling**
 - **Performance optimization** (cell reuse, background queueing)
 - **Modular design** with helper classes

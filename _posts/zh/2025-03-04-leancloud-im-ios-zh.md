@@ -71,7 +71,7 @@ pod --version
    pod install
    ```
    - 此命令将下载并集成 `AVOSCloudIM` 库（版本 3.1.6.2）到项目中
-   - 成功时将显示类似输出：  
+   - 成功时将显示类似输出：
      ```
      Pod installation complete! There are X dependencies from the Podfile and X total pods installed.
      ```

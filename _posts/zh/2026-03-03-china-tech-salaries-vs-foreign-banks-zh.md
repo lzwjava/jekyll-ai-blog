@@ -34,7 +34,7 @@ Microsoft 在苏州的运营（以 R&D 为重点）为 tech roles 支付有竞�
 
 总之，OPPO 和 Vivo 通过更高的薪资在中国残酷的本土科技 talent 市场中竞争，这得益于智能手机/AI 的高风险和高回报以及强劲的本地收入。外国银行提供稳定性但上行潜力较低，而像 Microsoft 这样的外国科技公司也面临本土激进报价的压力。
 
-参考资料：  
+参考资料：
 
 - [Alibaba is best-paying tech firm in China but Oppo, Tencent more generous with bonuses](https://www.scmp.com/tech/big-tech/article/3179959/alibaba-best-paying-tech-firm-china-oppo-tencent-more-generous)
 - [China's tech giants offer lavish year-end bonuses amid AI talent war](https://finance.yahoo.com/news/chinas-tech-giants-offer-lavish-093000392.html)

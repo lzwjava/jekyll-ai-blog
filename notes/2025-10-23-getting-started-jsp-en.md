@@ -57,19 +57,19 @@ Example: Create `index.jsp` in your app's root:
 </head>
 <body>
     <h1>Welcome to JSP!</h1>
-    
+
     <!-- Scriptlet: Java code -->
-    <% 
+    <%
         String name = request.getParameter("name") != null ? request.getParameter("name") : "World";
         java.util.Date now = new java.util.Date();
     %>
-    
+
     <!-- Expression: Output value -->
     <p>Hello, <%= name %>! The time is <%= now %>.</p>
-    
+
     <!-- Using EL (Expression Language) for cleaner output -->
     <p>Your name via EL: ${param.name}</p>
-    
+
     <!-- JSTL example: Loop over a list -->
     <c:set var="fruits" value="${{'Apple', 'Banana', 'Cherry'}}" />
     <ul>

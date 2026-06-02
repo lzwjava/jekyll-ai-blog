@@ -40,7 +40,7 @@ It’s not marketing hype — it’s routine for mature teams using this pattern
 - Very large monoliths without good feature-flag infrastructure (but even then, most teams eventually invest in flags and move to trunk).
 - Regulated environments that legally require “release packages” (healthcare, aerospace) — though even many of those are moving to flag-based continuous deployment with audit trails.
 
-Bottom line  
+Bottom line
 Yes, the case is extremely solid. For almost all product/development teams today, long-lived feature branches are an anti-pattern that directly causes slow, risky, painful releases. Switching to one main branch + feature flags routinely delivers the 10–100× improvement in deployment frequency and stability that the poster claims.
 
 References:

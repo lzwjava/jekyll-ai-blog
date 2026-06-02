@@ -69,6 +69,6 @@ type: note
 
 这种供电方案具有高度灵活性——用户常将其用于露营、停电应急，甚至在断电时维持冰箱等家庭必需电器运行[1][2][3]。如需产品推荐或故障排除，欢迎分享更多车辆信息！
 
-[1] https://www.reddit.com/r/electricvehicles/comments/1844ykm/people_with_cars_that_have_v2l_what_did_you_use/  
-[2] https://www.cleanenergyreviews.info/blog/vehicle-to-load-v2l-explained  
+[1] https://www.reddit.com/r/electricvehicles/comments/1844ykm/people_with_cars_that_have_v2l_what_did_you_use/
+[2] https://www.cleanenergyreviews.info/blog/vehicle-to-load-v2l-explained
 [3] https://www.racv.com.au/royalauto/transport/electric-vehicles/what-is-v2l-and-which-ev-phev-have-it.html

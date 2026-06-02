@@ -12,7 +12,7 @@ type: note
 
 Question: What does the video at https://www.youtube.com/watch?v=6MW5P6Ci7lw&t=497s say?
 
-Answer: 
+Answer:
 
 The video is an animated educational explanation titled "Spanning Tree Protocol | CCNA - Explained" by the channel PowerCert Animated Videos. It explains the Spanning Tree Protocol (STP) in networking, aimed at CCNA-level understanding.
 
@@ -60,6 +60,6 @@ The video then discusses blocked ports (around 7:34), development/history (aroun
 ### Around the Specific Timestamp (t=497s ≈ 8:17)
 The narration transitions to the history: discussing the development of STP (originally by Radia Perlman at Digital Equipment Corporation in the 1980s) and its evolution (e.g., improvements in later standards like RSTP).
 
-References:  
+References:
 
 - https://www.youtube.com/watch?v=6MW5P6Ci7lw

@@ -41,11 +41,11 @@ Group Finance Director 为 Anna Cross，负责 Finance、Tax、Treasury 和 Inve
 
 这些转型旨在提高股东回报、增强运营韧性，并在经济和监管环境变化中巩固其作为以英国为中心的全球金融领导者的地位。
 
-References:  
+References:
 
-- [Barclays Corporate Strategy](https://home.barclays/who-we-are/our-strategy/)  
-- [Barclays Investor Update 2024](https://home.barclays/investor-update-2024/)  
-- [Barclays Progress Update 2024](https://home.barclays/progress-update-2024/)  
-- [Barclays Transition Update 2025](https://home.barclays/news/press-releases/2025/07/barclays-publishes-its-transition-update/)  
-- [Reuters: Barclays CFO on Client Returns](https://www.reuters.com/business/finance/barclays-cfo-says-client-returns-under-tight-scrutiny-2025-03-18/)  
+- [Barclays Corporate Strategy](https://home.barclays/who-we-are/our-strategy/)
+- [Barclays Investor Update 2024](https://home.barclays/investor-update-2024/)
+- [Barclays Progress Update 2024](https://home.barclays/progress-update-2024/)
+- [Barclays Transition Update 2025](https://home.barclays/news/press-releases/2025/07/barclays-publishes-its-transition-update/)
+- [Reuters: Barclays CFO on Client Returns](https://www.reuters.com/business/finance/barclays-cfo-says-client-returns-under-tight-scrutiny-2025-03-18/)
 - [Barclays Annual Report 2024](https://home.barclays/investor-relations/reports-and-events/annual-reports/)

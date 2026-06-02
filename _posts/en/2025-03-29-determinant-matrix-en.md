@@ -28,7 +28,7 @@ If the **determinant of matrix \\( A \\) is zero**, the system **may** have infi
 - If \\( \det(A) = 0 \\), it means that at least one row is dependent on another.
 - This means at least **one free variable** exists, allowing an infinite number of solutions.
 
-**Example:**  
+**Example:**
 \\[
 \begin{aligned}
 x + y + z &= 0 \\
@@ -44,7 +44,7 @@ x + y + z &= 0 \\
 - If \\( \det(A) = 0 \\), the system is **either inconsistent (no solution) or has infinitely many solutions**.
 - The system has **infinitely many solutions** when the number of independent equations is **less than the number of variables**.
 
-**Example:**  
+**Example:**
 \\[
 \begin{aligned}
 x + y + z &= 5 \\

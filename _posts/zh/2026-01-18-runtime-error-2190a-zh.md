@@ -41,7 +41,7 @@ for (i = 0; i < n; i++) {
 
 这意味着目标排序字符串**始终**是：
 
-所有的 '0' 都在所有的 '1' **之前**  
+所有的 '0' 都在所有的 '1' **之前**
 → `000...0111...1`（恰好是 `zero` 个 0 后面跟着 `one` 个 1）
 
 但你的代码是将**当前**字符串与这个理想的排序字符串进行比较，并收集**所有**不匹配的位置。
@@ -113,7 +113,7 @@ Read t
 For each test:
     Read n, s
     Count zeros = count of '0'
-    
+
     // 检查是否已经有序 (non-decreasing)
     boolean sorted = true;
     for (int i = 1; i < n; i++) {
@@ -122,12 +122,12 @@ For each test:
             break;
         }
     }
-    
+
     if (sorted) {
         out.println("Bob");
         continue;
     }
-    
+
     // 寻找我们拥有 '1' 但在 target 中应该是 '0' 的最左侧位置
     int left = -1;
     for (int i = 0; i < zeros; i++) {
@@ -136,7 +136,7 @@ For each test:
             break;
         }
     }
-    
+
     // 寻找我们拥有 '0' 但在 target 中应该是 '1' 的最右侧位置
     int right = -1;
     for (int i = n-1; i >= zeros; i--) {
@@ -145,7 +145,7 @@ For each test:
             break;
         }
     }
-    
+
     // 如果两个都找到了 → 一次交换即可修复
     if (left != -1 && right != -1) {
         out.println("Alice");

@@ -11,7 +11,7 @@ type: note
 
 Question: Which of the following functions belongs to the category of configuration management? A. Test management function, B. Data collection function, C. Workload monitoring function, D. Defining and modifying interconnection relationships between network elements.
 
-Answer: 
+Answer:
 
 The correct answer is **D**.
 

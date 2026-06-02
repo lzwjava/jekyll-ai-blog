@@ -21,8 +21,8 @@ type: note
 | `mirror.accum.se`（先前使用）| 重定向器 → 自动分配**亚洲镜像**（多数情况下经由**日本**或**新加坡**后端访问 `ftp.acc.umu.se`，有时直接分配香港镜像） | 中国 →（境内路由）→ 台湾代理 → **亚太区维基媒体镜像**（低延迟、高带宽） | 轻松达到 20–60 MB/s |
 | `ftp.acc.umu.se`（当前使用） | 强制使用**欧洲/瑞典**服务器 | 中国 → 台湾代理 → 两次穿越太平洋 → 欧洲（瑞典） → 原路返回 | 通常 1–6 MB/s，有时会跌破 1 MB/s |
 
-简而言之：  
-当你使用 `mirror.accum.se` 时，其重定向器会根据你的台湾出口 IP 智能分配至最近/最快的镜像节点（通常是日本或新加坡）。  
+简而言之：
+当你使用 `mirror.accum.se` 时，其重定向器会根据你的台湾出口 IP 智能分配至最近/最快的镜像节点（通常是日本或新加坡）。
 而现在你强制使用瑞典服务器，导致流量必须经过广州 → 台湾 → 跨太平洋海底光缆 → 瑞典 → 再原路返回。往返延迟从约 30 ms 飙升至 280–350 ms，带宽也被严重限制。
 
 ### 实际测试佐证（2025年11月）
@@ -36,14 +36,14 @@ type: note
 
 ### 快速解决方案（任选其一）
 
-1. **最佳且最快速**：切换至东亚镜像节点（推荐）  
+1. **最佳且最快速**：切换至东亚镜像节点（推荐）
    ```bash
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles2.xml-p41243p151573.bz2
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles3.xml-p151574p311329.bz2
    ```
    通过台湾代理下载可轻松达到 30–80 MB/s。
 
-2. 恢复使用智能重定向器  
+2. 恢复使用智能重定向器
    ```bash
    wget -c https://mirror.accum.se/mirror/wikimedia.org/dumps/enwiki/20251101/...
    ```

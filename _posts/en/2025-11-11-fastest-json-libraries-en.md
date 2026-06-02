@@ -28,7 +28,7 @@ To compare the fastest JSON libraries in Rust and Java, we need to look at perfo
 - **Weaknesses**: Newer lib, less mature ecosystem than serde_json.
 
 #### Fastest in Java: DSL-JSON or simdjson-java (tied, depending on use case)
-- **Overview**: 
+- **Overview**:
   - DSL-JSON uses compile-time code generation (via annotations like @CompiledJson) to avoid reflection and minimize GC, making it exceptionally fast for deserialization in high-load scenarios.
   - simdjson-java is a Java port of the simdjson C++ library, using SIMD for gigabyte-per-second parsing. It's especially strong for large inputs but has limitations like partial Unicode support in early versions.
 - **Key Performance Highlights**:

@@ -37,7 +37,7 @@ type: note
 
 ### 如何正确修复：
 
-1. **清理并尝试在更好的控制下重新安装**  
+1. **清理并尝试在更好的控制下重新安装**
    首先，删除部分已安装的包：
    ```bash
    rm -rf node_modules/@askjo/camoufox-browser
@@ -82,5 +82,5 @@ npx camoufox-js fetch
 
 是否需要我提供命令来检查你的网络速度或查看 camoufox 正在尝试下载哪些文件？只需告诉我尝试手动 `npx camoufox-js fetch` 后的结果。
 
-参考文献：  
+参考文献：
 - 无

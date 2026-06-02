@@ -65,9 +65,9 @@ Hedge fund AUM hit a record $5 trillion in Q3 2025. Rankings vary slightly by so
 
 These lists highlight overlaps—managers like Griffin, Englander, and Cohen dominate both wealth/earnings and fund size. Performance in 2025 has been strong overall, driven by AI/tech rallies and macro shifts.
 
-**References:**  
-- [America’s Richest Hedge Fund Managers 2025](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)  
-- [The Rich List: Highest-Earning Hedge Fund Managers](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)  
-- [Top Hedge Funds by AUM](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)  
-- [Largest Hedge Funds Ranking](https://www.pionline.com/data-rankings/largest-hedge-funds/pi-largest-hedge-funds-ranking/)  
+**References:**
+- [America’s Richest Hedge Fund Managers 2025](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)
+- [The Rich List: Highest-Earning Hedge Fund Managers](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)
+- [Top Hedge Funds by AUM](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)
+- [Largest Hedge Funds Ranking](https://www.pionline.com/data-rankings/largest-hedge-funds/pi-largest-hedge-funds-ranking/)
 - [Billion Dollar Club H1 2025](https://www.withintelligence.com/insights/billion-dollar-club-h1-2025/)

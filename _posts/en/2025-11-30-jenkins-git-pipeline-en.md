@@ -64,7 +64,7 @@ Then select this credential in the job’s “Credentials” dropdown.
 | ID                  | e.g. `internal-ghe-ssh-key`                                           |
 | Description         | Internal GitHub Enterprise SSH key                                     |
 
-Repository URL must then be the SSH form:  
+Repository URL must then be the SSH form:
 `git@github.internal.company.com:org/repo.git`
 
 ### 4. Additional useful options (inside the Git section of the job)
@@ -84,7 +84,7 @@ Repository URL must then be the SSH form:
 - Events: Just the push event (or “Send me everything”)
 - Make sure Jenkins is reachable from the internal GitHub (firewall / reverse proxy)
 
-Then in the Jenkins job enable:  
+Then in the Jenkins job enable:
 Pipeline → Build Triggers → GitHub hook trigger for GITScm polling
 
 That’s it. Once saved, Jenkins will clone the repo using the credential you selected and execute whatever is in the `Jenkinsfile` at the root (or the path you specified).

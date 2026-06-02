@@ -11,7 +11,7 @@ type: note
 
 Question: 尝试从 USB 启动将 OpenWrt 安装到内部磁盘时，找不到命令（zcat 和 dd）
 
-Answer: 
+Answer:
 
 你已经通过 USB 启动进入了 OpenWrt live 系统（root 登录，无密码），但执行 `lsblk`、`dd` 或 `zcat` 等基础命令时显示 "command not found"。这是因为最近版本的 OpenWrt（特别是 snapshots 或某些 stable builds）中的 **combined .img** 启动环境非常精简 —— 它使用的 busybox 仅包含必要的 applets，为了保持镜像足够小，许多常用工具（包括 `dd`、`lsblk`、`zcat`、`gzip` 等）默认**未包含**在内。
 
@@ -56,7 +56,7 @@ busybox
    ```
    - 将 `/dev/sda` 替换为你的内部磁盘。
    - 等待完成（可能需要 5-20 分钟）。
-6. 
+6.
    ```
    sync
    ```
@@ -84,7 +84,7 @@ busybox
 
 请先备份所有数据（虽然你提到它可以运行 Linux Mint，所以大概没有留下什么关键内容）。如果你告诉我 `ls` 或 `busybox` 显示的具体内容，或完整的错误信息，我可以进一步优化建议。
 
-References:  
+References:
 
 - [https://openwrt.org/docs/guide-user/installation/openwrt_x86](https://openwrt.org/docs/guide-user/installation/openwrt_x86)
 - [https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430](https://forum.openwrt.org/t/openwrt-x86-on-usb-stick/142430)

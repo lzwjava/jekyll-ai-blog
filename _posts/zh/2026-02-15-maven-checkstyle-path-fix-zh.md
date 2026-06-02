@@ -19,7 +19,7 @@ type: note
 
 ### 最可能的原因
 
-1. **代码库中缺少 checks.xml 文件**  
+1. **代码库中缺少 checks.xml 文件**
    你的 `pom.xml` 中可能包含类似以下的代码：
 
    ```xml
@@ -45,12 +45,12 @@ type: note
 
    但是 `checks.xml` 文件（或你使用的任何名称）并未出现在项目的根目录（或路径所预期的位置）。
 
-2. **使用了绝对路径 (/app/checks.xml) 而不是相对路径**  
-   `/app/checks.xml` 是 container 内部的绝对路径。  
-   除非你的 Dockerfile 明确将文件复制到 `/app/checks.xml`，否则 Maven 将无法找到它。  
+2. **使用了绝对路径 (/app/checks.xml) 而不是相对路径**
+   `/app/checks.xml` 是 container 内部的绝对路径。
+   除非你的 Dockerfile 明确将文件复制到 `/app/checks.xml`，否则 Maven 将无法找到它。
    Cloud Build 通常将你的代码库 checkout 到 `/workspace`，而不是 `/app`。
 
-3. **文件在 .gitignore 中或未提交**  
+3. **文件在 .gitignore 中或未提交**
    如果 `checks.xml` 仅存在于你的本地机器上，但被忽略或未 push，它在 Cloud Build 中将不可用。
 
 ### 推荐的修复方案（选择其一）

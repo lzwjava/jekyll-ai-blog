@@ -10,7 +10,7 @@ type: post
 
 The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
 
-This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners. 
+This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners.
 
 I am grateful for the opportunities and experiences these collaborations have provided, and I look forward to continuing to contribute my skills and expertise to future endeavors.
 
@@ -39,7 +39,7 @@ Developed a flower recognition Android application designed to help users identi
 
 ## iword, Android, 2014.3
 
-An Android application to help users learn English by watching movie clips. 
+An Android application to help users learn English by watching movie clips.
 
 **Technologies Used:** Android SDK, Java
 
@@ -160,7 +160,7 @@ Open Sourced at [GitHub](https://github.com/lzwjava/Reveal-In-GitHub), 57 commit
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
-CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. 
+CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code.
 
 **Technologies Used:** PHP, Vue.js, CodeIgniter, Alibaba Cloud
 
@@ -185,7 +185,7 @@ Open Sourced at GitHub.
 
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
-Fun Live is a knowledge live broadcast platform where users can participate in various knowledge lectures such as programming or design. Users can pay fees to attend live sessions or reward the lecturer. 
+Fun Live is a knowledge live broadcast platform where users can participate in various knowledge lectures such as programming or design. Users can pay fees to attend live sessions or reward the lecturer.
 
 **Technologies Used:** PHP, MySQL, Vue.js, CodeIgniter, Alibaba Cloud, SRS streaming, WeChat SDK
 
@@ -373,7 +373,7 @@ Contributed to DBS Client Connect, an AI- and data-driven customer-relationship 
 
 ## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
 
-DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go. 
+DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go.
 
 Contributed to DBS DigiBank CN, focusing on backend development for mutual funds micro-services as part of a collaborative team.
 
@@ -394,9 +394,9 @@ Contributed to DBS DigiBank CN, focusing on backend development for mutual funds
 <p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p></div>
 
 
-## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
+## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7
 
-PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
+PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline.
 
 **Technologies Used:** Java, Spring, Kafka, Azure, Azure DevOps, AWS
 
@@ -435,12 +435,12 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 **Technologies Used:** Java, Spring Boot, IBM Db2, Multithreading, Maven, Nexus, Angular, Python, Windows, Control-M, IBM WebSphere Application Server, Copilot, YourKit
 
 **Responsibilities:**
-- Backend Engineer outsourced to HSBC Bank under TEKsystems, developing and optimizing backend systems for a module of the Finance Transformation Platform in HSBC’s Enterprise Technology Department. 
+- Backend Engineer outsourced to HSBC Bank under TEKsystems, developing and optimizing backend systems for a module of the Finance Transformation Platform in HSBC’s Enterprise Technology Department.
 - Maintained features for financial data processing including import, validation, and export, while enhancing submission and approval workflows for new financial headers. Gained experience in accounting, ledger, and banking systems.
 - Participated in the full development lifecycle, from local development to UAT testing and production releases. Helped decommission legacy applications running on WebSphere Application Server. Automated releases using Ansible and Jenkins, assisted in upgrading Angular to a major version, and enjoyed tackling all kinds of tasks—especially resolving bottlenecks for the team.
 - Led integration and API testing for the module, using the Copilot API to auto-generate around 70 test cases covering Spring Filters in Java, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
 - Made myself an autonomous humanoid AI agent to automate as much as possible—through scripting, logging, documenting, and sharing. By implementing caching and validation of LLM outputs, creating dedicated prompts and contexts for 20 customized agents, and leveraging 400 reusable Copilot-written scripts and 1,100 Copilot-written guides across the tech stack, the engineering experience in a large bank has started to feel good.
-- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, Python, HashiCorp Vault, Ansible, along with tools including Windows, Control-M, IBM WebSphere Liberty Profile, and Copilot.  
+- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, Python, HashiCorp Vault, Ansible, along with tools including Windows, Control-M, IBM WebSphere Liberty Profile, and Copilot.
 - Joined the internal HSBC AI Community; stayed updated on AI progress after work; trained small models using Andrej Karpathy's nanoGPT; utilized OpenRouter and Claude Code for extensive coding in personal projects; consumed approximately 320 million tokens over the past year; learned a bit about MCP, LangChain, Codex, reasoning, and more.
 
 Below is a screenshot of the HSBC Business Internet Banking platform, which showcases the type of enterprise financial system where similar technologies and architectures are deployed.

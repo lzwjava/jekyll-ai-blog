@@ -12,7 +12,7 @@ type: note
 
 Question: What is the global desktop Linux market share? Who are the tops?
 
-Answer: 
+Answer:
 
 截至 2026 年初（根据 2026 年 1 月/2 月的最新可用数据），根据最可靠且被广泛引用的来源 **StatCounter Global Stats**，**全球 desktop Linux 市场份额**约为 **4%**。
 
@@ -47,10 +47,10 @@ Answer:
 
 Linux desktop 份额一直在缓慢但稳步上升（从几年前的 ~2–3% 增长到现在的 ~4%），受 Windows 政策变化、隐私关注以及更好的游戏支持（如 Proton/Steam Deck 的影响）等因素推动，2026 年仍有进一步增长的潜力。
 
-References:  
+References:
 
-- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)  
-- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)  
-- [https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)  
-- [https://itsfoss.com/linux-market-share](https://itsfoss.com/linux-market-share)  
+- [https://gs.statcounter.com/os-market-share/desktop/worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide)
+- [https://commandlinux.com/statistics/most-popular-linux-distributions-market-share](https://commandlinux.com/statistics/most-popular-linux-distributions-market-share)
+- [https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)
+- [https://itsfoss.com/linux-market-share](https://itsfoss.com/linux-market-share)
 - [https://en.wikipedia.org/wiki/Usage_share_of_operating_systems](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems)

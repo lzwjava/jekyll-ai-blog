@@ -12,15 +12,15 @@ type: note
 
 Question: What was the transitional form adopted by China for the socialist transformation of capitalist industry and commerce?
 
-A. Mutual aid teams  
-B. Primary agricultural cooperatives  
-C. Advanced agricultural cooperatives  
-D. State capitalism  
+A. Mutual aid teams
+B. Primary agricultural cooperatives
+C. Advanced agricultural cooperatives
+D. State capitalism
 
-Your answer: A  
-Correct answer: D  
+Your answer: A
+Correct answer: D
 
-Answer: 
+Answer:
 
 The correct answer is **D. State capitalism**.
 
@@ -50,7 +50,7 @@ Therefore, the transitional form specifically used for the socialist transformat
 
 Options A, B, and C all refer to forms used in the **agricultural cooperation movement**, not in the transformation of capitalist industry and commerce.
 
-References:  
+References:
 
-- [中共中央文献研究室. 建国以来重要文献选编（第4册）](https://www.cppcc.gov.cn/)  
+- [中共中央文献研究室. 建国以来重要文献选编（第4册）](https://www.cppcc.gov.cn/)
 - Standard Chinese modern history / socialist transformation textbooks (e.g., higher education teaching materials on the history of the Communist Party of China)

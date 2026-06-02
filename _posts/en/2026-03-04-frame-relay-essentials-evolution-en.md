@@ -11,7 +11,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Frame Relay.
 
-Answer: 
+Answer:
 
 **Comprehensive Introduction to Frame Relay**
 
@@ -109,7 +109,7 @@ However, understanding Frame Relay remains valuable for:
 - Understanding evolution of WAN technologies
 - Concepts like virtual circuits, statistical multiplexing, CIR, congestion notification that appear in modified forms in MPLS and SD-WAN.
 
-References:  
+References:
 
 - [Introduction to Frame-Relay](https://networklessons.com/wide-area-network/introduction-to-frame-relay)
 - [Comprehensive Guide to Configuring and Troubleshooting Frame Relay - Cisco](https://www.cisco.com/c/en/us/support/docs/wan/frame-relay/16563-12.html)

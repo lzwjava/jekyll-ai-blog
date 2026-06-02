@@ -49,10 +49,10 @@ Pro tip: For skewers, a quick dip in chili sauce post-grill amps up the flavor.
 
 This covers the essentials—street food is all about bold, portable bites. If you're recreating at home, start with cumin-heavy beef skewers for that authentic Xinjiang vibe!
 
-**References:**  
-[RECIPE: Niu Rou Chuan; spicy, sizzling beef skewers](https://www.washingtontimes.com/news/2024/may/20/recipe-niu-rou-chuan-spicy-sizzling-beef-skewers/)  
-[Spicy Chinese Beef Skewers](https://www.177milkstreet.com/2022/06/spicy-chinese-beef-skewers)  
-[Shāokǎo / Chuàn'r – Barbecued Skewers/Kebabs](https://sh-streetfood.org/shao-kao-chuanr-barbecued-skewerskebabs-%25E7%2583%25A7%25E7%2583%25A4-%25E4%25B8%25B2%25E5%2584%25BF/)  
-[A Variety of Chinese Vegetables](https://www.thespruceeats.com/chinese-vegetables-pictures-4121784)  
-[Authentic Chinese Vegetable Recipes](https://omnivorescookbook.com/ingredient/vegetables/)  
+**References:**
+[RECIPE: Niu Rou Chuan; spicy, sizzling beef skewers](https://www.washingtontimes.com/news/2024/may/20/recipe-niu-rou-chuan-spicy-sizzling-beef-skewers/)
+[Spicy Chinese Beef Skewers](https://www.177milkstreet.com/2022/06/spicy-chinese-beef-skewers)
+[Shāokǎo / Chuàn'r – Barbecued Skewers/Kebabs](https://sh-streetfood.org/shao-kao-chuanr-barbecued-skewerskebabs-%25E7%2583%25A7%25E7%2583%25A4-%25E4%25B8%25B2%25E5%2584%25BF/)
+[A Variety of Chinese Vegetables](https://www.thespruceeats.com/chinese-vegetables-pictures-4121784)
+[Authentic Chinese Vegetable Recipes](https://omnivorescookbook.com/ingredient/vegetables/)
 [Chinese Sauces // The Complete Guide to 27 Chinese Condiments](https://ltl-shanghai.com/chinese-sauces/)

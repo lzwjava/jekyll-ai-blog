@@ -46,7 +46,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - Pass through the stack of `n_layer` (12) transformer blocks: `x = block(x)` for each.
    - Final LayerNorm: `x = self.ln_f(x)`.
    - Linear projection: `logits = self.lm_head(x)` → output shape `[B, T, vocab_size]`.
-   
+
    Snippet (simplified):
    ```python
    def forward(self, idx, targets=None):
@@ -64,7 +64,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - Self-attention: `x = x + attn(ln1(x))` (residual).
    - Apply `ln2` to the result.
    - MLP: `x = x + mlp(ln2(x))` (residual).
-   
+
    Snippet (simplified):
    ```python
    def forward(self, x):
@@ -78,9 +78,9 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - Split into heads, apply causal mask, scaled dot-product attention.
    - Concat heads, project back with `c_proj`.
    - Residual add (but in block, it's added outside).
-   
+
    Key: Causal mask ensures future tokens are ignored. Output shape preserved as `[B, T, n_embd]`.
-   
+
    Snippet (core attention computation, simplified):
    ```python
    def forward(self, x):
@@ -97,7 +97,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - First projection: `x = self.c_fc(x)` → to intermediate size.
    - GELU: `x = F.gelu(x)`.
    - Second projection: `x = self.c_proj(x)` → back to `n_embd`.
-   
+
    Snippet:
    ```python
    def forward(self, x):

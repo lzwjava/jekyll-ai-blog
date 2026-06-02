@@ -26,7 +26,7 @@ Here is a list of **impactful mathematicians** who have made significant contrib
    - His **Disquisitiones Arithmeticae** revolutionized number theory and helped establish it as a rigorous branch of mathematics.
 
 ### 5. **Pierre-Simon Laplace (1749–1827)**
-   - Known for his work in **celestial mechanics**, **probability theory**, and **statistics**. 
+   - Known for his work in **celestial mechanics**, **probability theory**, and **statistics**.
    - Laplace developed the **Laplace transform**, a key tool in engineering and physics, and was instrumental in the formulation of **Laplace’s equation**.
 
 ### 6. **Bernhard Riemann (1826–1866)**

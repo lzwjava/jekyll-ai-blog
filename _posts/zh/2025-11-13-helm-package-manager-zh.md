@@ -307,6 +307,6 @@ helm rollback web-server 1
 - [Artifact Hub（现代 Chart 搜索）](https://artifacthub.io/)
 - [Helm 最佳实践](https://helm.sh/docs/topics/charts/#chart-best-practices)
 
-[Helm 官网](https://helm.sh)  
-[Bitnami Charts](https://github.com/bitnami/charts)  
+[Helm 官网](https://helm.sh)
+[Bitnami Charts](https://github.com/bitnami/charts)
 [Jenkins X 中的 Helm](https://www.jenkins-x.io/docs/)

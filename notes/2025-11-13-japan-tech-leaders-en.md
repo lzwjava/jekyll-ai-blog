@@ -66,9 +66,9 @@ Japan has patented over 3 million inventions since the 19th century, many revolu
 
 These inventions emphasize user-friendly, efficient tech that scales globally. Japan's patent filings remain top-tier, especially in robotics (over 10,000 annually).
 
-For more depth, check these sources:  
-[Science and technology in Japan](https://en.wikipedia.org/wiki/Science_and_technology_in_Japan)  
-[Japan is World’s number one Robot Maker](https://ifr.org/news/japan-is-worlds-number-one-robot-maker/)  
-[Top Tech Companies in Japan](https://japan-dev.com/companies)  
-[List of Japanese inventions and discoveries](https://en.wikipedia.org/wiki/List_of_Japanese_inventions_and_discoveries)  
+For more depth, check these sources:
+[Science and technology in Japan](https://en.wikipedia.org/wiki/Science_and_technology_in_Japan)
+[Japan is World’s number one Robot Maker](https://ifr.org/news/japan-is-worlds-number-one-robot-maker/)
+[Top Tech Companies in Japan](https://japan-dev.com/companies)
+[List of Japanese inventions and discoveries](https://en.wikipedia.org/wiki/List_of_Japanese_inventions_and_discoveries)
 [Japanese inventions that changed the way we live](https://www.cnn.com/2017/06/13/world/gallery/japanese-inventions-changed-how-we-live)

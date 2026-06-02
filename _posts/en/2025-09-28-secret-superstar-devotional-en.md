@@ -14,49 +14,49 @@ type: note
 
 "Nachdi Phira" is a Punjabi-Hindi song from the 2017 Bollywood film *Secret Superstar*, composed by Amit Trivedi and sung by Meghna Mishra. The lyrics are written by Amitabh Bhattacharya. Below are the full lyrics:
 
-**Verse 1**  
-Teri hi boli boloongi main  
-Teri hi baani gaaungi main  
-Tere ishq da chola pehan ke  
-Main tujhme hi rang jaungi  
-Tere ishq da chooda pehan ke  
-Main tujhme hi saj jaungi  
+**Verse 1**
+Teri hi boli boloongi main
+Teri hi baani gaaungi main
+Tere ishq da chola pehan ke
+Main tujhme hi rang jaungi
+Tere ishq da chooda pehan ke
+Main tujhme hi saj jaungi
 
-**Chorus**  
-Mai nachdi phira  
-Ban than baliye ho  
-Main nachdi phira  
-Chham chham chhaliye ho  
+**Chorus**
+Mai nachdi phira
+Ban than baliye ho
+Main nachdi phira
+Chham chham chhaliye ho
 
-**Verse 2**  
-Kehti hai duniya  
-Main hoon banwariya  
-Sudh se gayi main  
-Khud se gayi main  
-Teri ho gayi main  
-Par jag kya jaane  
-Man ke fasane  
-Kho kar khud ko  
-Paa kar tujh ko  
-Meri ho gayi main  
+**Verse 2**
+Kehti hai duniya
+Main hoon banwariya
+Sudh se gayi main
+Khud se gayi main
+Teri ho gayi main
+Par jag kya jaane
+Man ke fasane
+Kho kar khud ko
+Paa kar tujh ko
+Meri ho gayi main
 
-**Verse 3**  
-Teri nagariya jaungi main  
-Teri nazariya varoongi main  
-Tere ishq da chola pehan ke  
-Main tujhme hi rang jaungi  
-Tere ishq da chooda pehan ke  
-Main tujhme hi saj jaungi  
+**Verse 3**
+Teri nagariya jaungi main
+Teri nazariya varoongi main
+Tere ishq da chola pehan ke
+Main tujhme hi rang jaungi
+Tere ishq da chooda pehan ke
+Main tujhme hi saj jaungi
 
-**Chorus (Repeated)**  
-Mai nachdi phira  
-Ban than baliye ho  
-Main nachdi phira  
-Chham chham chhaliye ho  
-Mai nachdi phira  
-Ban than baliye ho  
-Main nachdi phira  
-Chham chham chhaliye ho  
+**Chorus (Repeated)**
+Mai nachdi phira
+Ban than baliye ho
+Main nachdi phira
+Chham chham chhaliye ho
+Mai nachdi phira
+Ban than baliye ho
+Main nachdi phira
+Chham chham chhaliye ho
 
 ### Explanation
 
@@ -73,7 +73,7 @@ In the context of *Secret Superstar*, which follows a young girl's pursuit of he
 
 Overall, the song's upbeat rhythm, laced with dhol and flute, creates an infectious energy that invites listeners to embrace vulnerability as strength. It's a reminder that in love – whether for God, a person, or one's passion – true fulfillment comes from letting go and spinning into the unknown.
 
-**References:**  
-- [AZLyrics - Nachdi Phira Lyrics](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)  
-- [Bollywood Hungama - Nachdi Phira Lyrics](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)  
+**References:**
+- [AZLyrics - Nachdi Phira Lyrics](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)
+- [Bollywood Hungama - Nachdi Phira Lyrics](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)
 - [Musixmatch - Nachdi Phira Lyrics](https://www.musixmatch.com/lyrics/Amit-Trivedi-Meghna-Mishra/Nachdi-Phira-From-Secret-Superstar)

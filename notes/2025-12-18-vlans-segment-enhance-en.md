@@ -12,9 +12,9 @@ type: note
 
 Question: What is the purpose of VLANs in a switched network?
 
-Answer: 
+Answer:
 
-Virtual LANs (VLANs) are used in switched networks to logically segment a physical network into multiple separate broadcast domains without requiring additional physical hardware. 
+Virtual LANs (VLANs) are used in switched networks to logically segment a physical network into multiple separate broadcast domains without requiring additional physical hardware.
 
 The primary purposes are:
 - **Reducing broadcast domains**: In a flat Layer 2 switched network, broadcasts (e.g., ARP requests) flood to all devices, consuming bandwidth and potentially causing performance issues in large networks. VLANs confine broadcasts to only the devices within the same VLAN.

@@ -28,12 +28,12 @@ type: note
 
 截至2025年中的部分数据显示，单程证持有者约3.2万人，与当前趋势相符。总体而言，来自内地的移民流有效对冲了香港的净迁出（如2023年净流失3,427人）及低出生率问题，使2024年中人口稳定在约753万，为十年来首次实现企稳。
 
-**参考资料**  
-- [2020年年终人口统计](https://www.censtatd.gov.hk/en/press_release_detail.html?id=4825)  
-- [2021年人口普查简要结果](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5156)  
-- [持单程证入读香港学校的内地学生数量](https://www.scmp.com/news/hong-kong/education/article/3263219/number-mainland-chinese-1-way-permit-holders-joining-hong-kong-schools-jumped-most-record-last-year)  
-- [2023年年终人口统计](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5386)  
-- [2024年香港人口微增0.1%至逾753万](https://hongkongfp.com/2025/02/19/hong-kong-population-up-0-1-to-over-7-53-million-in-2024-due-to-net-inflow-of-residents/)  
-- [香港人口「几无变动」首现十年企稳](https://www.scmp.com/news/hong-kong/society/article/3321876/virtually-unchanged-hong-kongs-population-stabilises-first-time-decade)  
-- [为何部分内地人才获香港签证后选择离开](https://hongkongfp.com/2025/03/16/hong-kong-as-a-plan-b-why-some-mainland-chinese-turn-their-back-on-city-after-acquiring-top-talent-visas/)  
+**参考资料**
+- [2020年年终人口统计](https://www.censtatd.gov.hk/en/press_release_detail.html?id=4825)
+- [2021年人口普查简要结果](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5156)
+- [持单程证入读香港学校的内地学生数量](https://www.scmp.com/news/hong-kong/education/article/3263219/number-mainland-chinese-1-way-permit-holders-joining-hong-kong-schools-jumped-most-record-last-year)
+- [2023年年终人口统计](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5386)
+- [2024年香港人口微增0.1%至逾753万](https://hongkongfp.com/2025/02/19/hong-kong-population-up-0-1-to-over-7-53-million-in-2024-due-to-net-inflow-of-residents/)
+- [香港人口「几无变动」首现十年企稳](https://www.scmp.com/news/hong-kong/society/article/3321876/virtually-unchanged-hong-kongs-population-stabilises-first-time-decade)
+- [为何部分内地人才获香港签证后选择离开](https://hongkongfp.com/2025/03/16/hong-kong-as-a-plan-b-why-some-mainland-chinese-turn-their-back-on-city-after-acquiring-top-talent-visas/)
 - [香港人口流动中的智力流失与智力汇聚](https://www.migrationpolicy.org/article/hong-kong-migration-shuffle)

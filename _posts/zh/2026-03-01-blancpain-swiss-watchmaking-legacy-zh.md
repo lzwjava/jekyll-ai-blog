@@ -45,7 +45,7 @@ Blancpain 以走时方程显示、陀飞轮和大明火珐琅表盘等创新闻�
 
 总之，Blancpain 将近三个世纪的传承与前沿机械钟表工艺相结合，成为收藏家重视传统、创新和低调卓越的高级钟表基石。
 
-参考资料：  
+参考资料：
 
 - [Blancpain 官方历史](https://www.blancpain.com/en-us/brand/history)
 - [Blancpain Villeret 系列](https://www.blancpain.com/en-us/collections/villeret-collection)

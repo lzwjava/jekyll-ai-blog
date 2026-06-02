@@ -12,7 +12,7 @@ type: note
 
 Question: How to play football (soccer) when I was in primary/middle school and sometimes played it?
 
-Answer: 
+Answer:
 
 Football (also called **soccer** in some countries) is a simple and fun game, especially in school. Here is an easy guide to help you understand and enjoy it better, based on how most kids play it in primary and middle school.
 
@@ -33,24 +33,24 @@ Football (also called **soccer** in some countries) is a simple and fun game, es
 - **Game length**: Often 2 halves of 15–30 minutes each in school matches.
 
 ### Basic Skills to Practice (Most Important for School Kids)
-1. **Dribbling**  
+1. **Dribbling**
    Kick the ball gently forward while running, using the inside and outside of your foot. Keep the ball close so you can change direction quickly. Practice: dribble in and out of cones or around friends.
 
-2. **Passing**  
-   Use the **inside** of your foot for short, accurate passes (like a push).  
-   Use the **instep** (laces) for longer passes.  
+2. **Passing**
+   Use the **inside** of your foot for short, accurate passes (like a push).
+   Use the **instep** (laces) for longer passes.
    Practice: pass back and forth with a friend – aim for their feet.
 
-3. **Shooting / Kicking**  
-   Use the **instep** (laces part) to shoot hard toward the goal.  
-   Keep your head down and follow through.  
+3. **Shooting / Kicking**
+   Use the **instep** (laces part) to shoot hard toward the goal.
+   Keep your head down and follow through.
    Practice: shoot at a wall or into a small goal.
 
-4. **Stopping / Controlling the Ball**  
-   Use the bottom or inside of your foot to stop the ball softly when it comes to you.  
+4. **Stopping / Controlling the Ball**
+   Use the bottom or inside of your foot to stop the ball softly when it comes to you.
    This is called "first touch" – very important!
 
-5. **Heading** (only when older / middle school)  
+5. **Heading** (only when older / middle school)
    Use your forehead (not top of head). Jump and hit the ball with power.
 
 ### Positions (Common in School Games)
@@ -68,7 +68,7 @@ Football (also called **soccer** in some countries) is a simple and fun game, es
 
 Start with these basics and you will improve quickly. Many great players started exactly like you – just playing sometimes in school.
 
-References:  
+References:
 
 - [Teach Your Kid to Play Soccer](https://gokidpower.org/how-to-play-soccer-tips-for-kids)
 - [Basic Soccer Rules for Kids and Parents](https://www.soccerstars.com/basic-soccer-rules-for-kids-and-parents)

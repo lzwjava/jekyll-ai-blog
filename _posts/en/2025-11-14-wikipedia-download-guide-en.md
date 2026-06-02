@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-This is a directory listing from one of the official Wikimedia download mirrors (usually https://dumps.wikimedia.org/enwiki/latest/).  
+This is a directory listing from one of the official Wikimedia download mirrors (usually https://dumps.wikimedia.org/enwiki/latest/).
 It contains all the different ways you can download the current English Wikipedia articles (as of early November 2025).
 
 ### Main formats and what they actually contain
@@ -27,7 +27,7 @@ It contains all the different ways you can download the current English Wikipedi
 
 The de-facto standard way (used by LLaMA, Mistral, Qwen, DeepSeek, Gemma, Phi, etc.) is:
 
-Download the **27 multistream files + their 27 index files**  
+Download the **27 multistream files + their 27 index files**
 (that is everything that starts with `enwiki-latest-pages-articlesXX.xml-p…p….bz2` and the matching `…-indexXX…bz2`)
 
 Or even simpler: just download the **single giant file** if your connection and disk can handle it:
@@ -70,5 +70,5 @@ After that you normally process it with tools like:
 - the Hugging Face `datasets` Wikipedia loader (already does everything for you)
 - DeepSeek’s or EleutherAI’s processing scripts, etc.
 
-So in short:  
+So in short:
 Download either the single 24 GB `enwiki-latest-pages-articles.xml.bz2` or the 27 split files + indexes. Everything else in that list is either checksums, old garbage, or metadata you don’t need for training.

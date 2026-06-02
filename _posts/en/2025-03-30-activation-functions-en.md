@@ -11,7 +11,7 @@ type: note
 The **sigmoid**, **ReLU**, and **Leaky ReLU** are all activation functions used in neural networks. Each of them has unique characteristics and is suited for different tasks depending on the type of problem being solved. Here's a breakdown of the differences:
 
 ### 1. **Sigmoid**:
-   - **Formula**:  
+   - **Formula**:
      \\[
      \sigma(x) = \frac{1}{1 + e^{-x}}
      \\]
@@ -25,7 +25,7 @@ The **sigmoid**, **ReLU**, and **Leaky ReLU** are all activation functions used 
    - **Use case**: Often used in the output layer for binary classification tasks (e.g., in logistic regression).
 
 ### 2. **ReLU (Rectified Linear Unit)**:
-   - **Formula**:  
+   - **Formula**:
      \\[
      f(x) = \max(0, x)
      \\]
@@ -39,7 +39,7 @@ The **sigmoid**, **ReLU**, and **Leaky ReLU** are all activation functions used 
    - **Use case**: Very commonly used in hidden layers of deep networks, especially in convolutional and deep neural networks.
 
 ### 3. **Leaky ReLU**:
-   - **Formula**:  
+   - **Formula**:
      \\[
      f(x) = \max(\alpha x, x)
      \\]
@@ -57,13 +57,13 @@ The **sigmoid**, **ReLU**, and **Leaky ReLU** are all activation functions used 
 
 ### **Comparison Summary**:
 
-- **Sigmoid**:  
+- **Sigmoid**:
   Best for output layers in binary classification tasks, but suffers from the vanishing gradient problem.
-  
-- **ReLU**:  
+
+- **ReLU**:
   A good general-purpose activation function for hidden layers. It speeds up training and works well for large networks, but it may suffer from the dying neuron problem.
 
-- **Leaky ReLU**:  
+- **Leaky ReLU**:
   A modification of ReLU that addresses the dying ReLU problem by allowing a small, non-zero gradient for negative inputs. It is widely used for deeper models.
 
 ### **In practice**:

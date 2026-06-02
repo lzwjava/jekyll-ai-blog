@@ -89,5 +89,5 @@ type: note
 
 关于高级配置（例如安全性、集群），请参阅 IBM 文档。
 
-[配置 IBM WebSphere Application Server 以运行 Decision Server](https://docs.redhat.com/en/documentation/red_hat_decision_manager/7.4/html/installing_and_configuring_decision_server_on_ibm_websphere_application_server/was-configure-proc)  
+[配置 IBM WebSphere Application Server 以运行 Decision Server](https://docs.redhat.com/en/documentation/red_hat_decision_manager/7.4/html/installing_and_configuring_decision_server_on_ibm_websphere_application_server/was-configure-proc)
 [使用默认消息传递提供程序管理消息传递](https://www.ibm.com/docs/en/was/9.0.5?topic=resources-managing-messaging-default-messaging-provider)

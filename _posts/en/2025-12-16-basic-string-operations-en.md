@@ -12,7 +12,7 @@ type: note
 
 Question: What are the basic operations on strings in Python?
 
-Answer: 
+Answer:
 
 Strings in Python are immutable sequences of characters. They support a variety of built-in operations and methods for manipulation.
 

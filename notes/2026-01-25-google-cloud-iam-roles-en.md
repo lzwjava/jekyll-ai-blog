@@ -12,33 +12,33 @@ type: note
 
 Question: What roles can we configure in Google Cloud Storage? For example, Storage Object Viewer IAM role, etc.
 
-Answer: 
+Answer:
 
 Google Cloud Storage uses **Identity and Access Management (IAM)** to control access to buckets and objects. You can assign both **predefined roles** (Google-managed) and **custom roles** at the project level, bucket level, or (for fine-grained access) object level.
 
 Here are the main **predefined IAM roles** specific to Cloud Storage:
 
-- **Storage Object Viewer** (`roles/storage.objectViewer`)  
-  Grants read-only access to objects and their metadata (excluding ACLs).  
-  Allows listing objects in a bucket (`storage.objects.list`) and reading object data/metadata (`storage.objects.get`).  
+- **Storage Object Viewer** (`roles/storage.objectViewer`)
+  Grants read-only access to objects and their metadata (excluding ACLs).
+  Allows listing objects in a bucket (`storage.objects.list`) and reading object data/metadata (`storage.objects.get`).
   Does **not** allow viewing or listing buckets themselves.
 
-- **Storage Object Creator** (`roles/storage.objectCreator`)  
+- **Storage Object Creator** (`roles/storage.objectCreator`)
   Allows creating objects (`storage.objects.create`), but not reading, deleting, or overwriting existing objects.
 
-- **Storage Object Admin** (`roles/storage.objectAdmin`)  
+- **Storage Object Admin** (`roles/storage.objectAdmin`)
   Full control over objects: create, list, get, delete, and update objects and their metadata (but not bucket-level configuration).
 
-- **Storage Legacy Bucket Reader** (`roles/storage.legacyBucketReader`)  
+- **Storage Legacy Bucket Reader** (`roles/storage.legacyBucketReader`)
   Read-only access to bucket metadata and the ability to list objects.
 
-- **Storage Legacy Bucket Writer** (`roles/storage.legacyBucketWriter`)  
+- **Storage Legacy Bucket Writer** (`roles/storage.legacyBucketWriter`)
   Grants read + create/delete objects (legacy equivalent to object admin + some bucket permissions).
 
-- **Storage Legacy Bucket Owner** (`roles/storage.legacyBucketOwner`)  
+- **Storage Legacy Bucket Owner** (`roles/storage.legacyBucketOwner`)
   Full control over a bucket and its objects (legacy owner role).
 
-- **Storage Admin** (`roles/storage.admin`)  
+- **Storage Admin** (`roles/storage.admin`)
   Full control over buckets and objects: create/delete buckets, manage IAM policies, configure lifecycle/rules, etc.
 
 - **Storage Object Viewer** (already listed above — most commonly used for read-only object access)
@@ -59,7 +59,7 @@ Other commonly used broader roles that grant Cloud Storage permissions:
 
 For the most up-to-date and complete list (including exact permissions each role includes), refer to the official Google Cloud documentation.
 
-References:  
+References:
 
 - [IAM roles for Cloud Storage](https://docs.cloud.google.com/storage/docs/access-control/iam-roles)
 - [Cloud Storage roles and permissions](https://docs.cloud.google.com/iam/docs/roles-permissions/storage)

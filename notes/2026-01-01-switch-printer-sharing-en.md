@@ -12,7 +12,7 @@ type: note
 
 Question: One of the advantages of switches is that they have multiple ports, while a typical computer has only one Ethernet (RJ45) port. If multiple computers need to share a resource like a printer, does a switch help connect them and enable printer sharing?
 
-Answer: 
+Answer:
 
 Yes, you are correct—a network switch is very helpful in this scenario.
 

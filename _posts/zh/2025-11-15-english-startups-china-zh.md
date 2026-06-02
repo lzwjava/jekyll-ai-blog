@@ -36,10 +36,10 @@ type: note
 
 如果您想寻找或创办这样的企业，Wellfound（前身为AngelList）等资源列出了中国英语友好的初创企业职位，而LinkedIn或Reddit等平台上的外籍社区可以帮助您建立联系。总体而言，生态系统更倾向于使用普通话以实现规模和效率，但全球化正在慢慢为英语利基市场创造更多机会。
 
-[2025年11月中国顶级初创企业 - StartupBlink](https://www.startupblink.com/top-startups/china)  
-[2025年值得关注的中国最佳初创企业 - Seedtable](https://www.seedtable.com/best-startups-in-china)  
-[中国科技与初创企业职位 - Wellfound](https://wellfound.com/location/china)  
-[中国前15大教育科技初创企业（2025年11月）](https://www.edtechstartups.org/country/China/)  
-[Ask HN：非中国人在中国工作困难吗？ - Hacker News](https://news.ycombinator.com/item?id=12137103)  
-[有没有在中国生活并为外国公司工作的外国人？ - Reddit](https://www.reddit.com/r/chinalife/comments/1hc011w/are_there_any_foreigners_living_in_china_that/)  
+[2025年11月中国顶级初创企业 - StartupBlink](https://www.startupblink.com/top-startups/china)
+[2025年值得关注的中国最佳初创企业 - Seedtable](https://www.seedtable.com/best-startups-in-china)
+[中国科技与初创企业职位 - Wellfound](https://wellfound.com/location/china)
+[中国前15大教育科技初创企业（2025年11月）](https://www.edtechstartups.org/country/China/)
+[Ask HN：非中国人在中国工作困难吗？ - Hacker News](https://news.ycombinator.com/item?id=12137103)
+[有没有在中国生活并为外国公司工作的外国人？ - Reddit](https://www.reddit.com/r/chinalife/comments/1hc011w/are_there_any_foreigners_living_in_china_that/)
 [中国“AI英语教师”初创企业获1亿美元融资 - Tech in Asia](https://www.techinasia.com/ai-english-teacher-100m)

@@ -12,7 +12,7 @@ type: note
 
 Question: What does BCE stand for? Is it Before Century Era?
 
-Answer: 
+Answer:
 
 **BCE** stands for **Before Common Era**.
 
@@ -31,10 +31,10 @@ Both BC/BCE refer to the same years. For example:
 
 The switch to BCE/CE is mainly used in academic writing, textbooks, Wikipedia, and by people/organizations who want to avoid religious references in historical dating while keeping exactly the same timeline (with year 1 being the same point).
 
-So in short:  
-**BCE = Before Common Era**  
+So in short:
+**BCE = Before Common Era**
 (not Before Century Era)
 
-References:  
+References:
 
 - None needed for this standard definition

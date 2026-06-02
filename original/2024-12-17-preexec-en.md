@@ -8,8 +8,8 @@ title: Display Proxy Settings Before Running Commands
 type: post
 ---
 
-<div style="text-align: center;">  
-    <img class="responsive" src="/assets/images/preexec/pe1.png" alt="prexec" />  
+<div style="text-align: center;">
+    <img class="responsive" src="/assets/images/preexec/pe1.png" alt="prexec" />
 </div>
 
 Living in China or working within companies that use VPNs and proxies can complicate software development. Forgetting to configure these settings often leads to connectivity issues. To streamline your workflow, I created a simple Zsh script with the help of ChatGPT that automatically displays your proxy settings when you run specific network-dependent commands.
@@ -92,7 +92,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break

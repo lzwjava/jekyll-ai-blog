@@ -11,7 +11,7 @@ type: note
 
 Question: What three specific problems must the Medium Access Control (MAC) protocol in a shared-medium LAN solve, and how can the basic concept of the CSMA/CD medium access control be simply summarized?
 
-Answer: 
+Answer:
 
 ### Three Problems Solved by MAC Protocols in Shared-Medium LANs
 
@@ -30,6 +30,6 @@ In a local area network (LAN) where multiple nodes share the same transmission m
 
 In short, the core logic is: **Listen first, then send; listen while sending.**
 
-References:  
+References:
 
 - [IEEE 802.3 Ethernet Standard Overview](https://www.ieee802.org/3/)

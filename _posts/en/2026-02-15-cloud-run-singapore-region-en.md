@@ -11,7 +11,7 @@ type: note
 
 Question: If I want to deploy to Singapore for low latency, which Google Cloud Run region should I select?
 
-Answer: 
+Answer:
 
 For Singapore (or users in/near Singapore), select the region **`asia-southeast1`**.
 
@@ -51,7 +51,7 @@ Or check the official docs/console for the latest.
 
 This should give you much better performance than your previous `asia-northeast1` (Tokyo) choice!
 
-References:  
+References:
 
 - [Cloud Run locations](https://docs.cloud.google.com/run/docs/locations)
 - [Google Cloud regions and zones](https://cloud.google.com/about/locations)

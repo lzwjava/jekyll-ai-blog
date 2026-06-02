@@ -32,8 +32,8 @@ Here's what it does step by step:
 
 So every time I finish responding to you, a notification pops up saying something like:
 
-> **Hermes Agent — hermes-agent**  
-> msg: what's this  |  turns: 3  
+> **Hermes Agent — hermes-agent**
+> msg: what's this  |  turns: 3
 > Hermes has completed one turn.
 
 It's very much a personal productivity / awareness thing — lets you know when the agent is done without staring at the terminal. Cleanly written. Want me to customize it or disable it?

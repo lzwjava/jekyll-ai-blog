@@ -9,8 +9,8 @@ translated: true
 type: note
 ---
 
-**问题：** Zed 是否像 VS Code 的 Remote SSH 扩展一样支持远程 SSH 服务器？  
-**回答：**  
+**问题：** Zed 是否像 VS Code 的 Remote SSH 扩展一样支持远程 SSH 服务器？
+**回答：**
 
 是的，Zed 提供 SSH 远程开发支持，而且效果相当不错——在某些方面甚至比 VS Code 的 Remote SSH 更简洁。
 
@@ -24,7 +24,7 @@ UI 完全在本地运行（120fps GPU 渲染），但语言服务器、任务和
 
 使用 `ctrl-cmd-shift-o`（macOS）或 `alt-ctrl-shift-o`（Linux）打开“远程项目”对话框。点击“连接新服务器”并输入 SSH 命令。Zed 会在远程主机上下载服务器二进制文件并自动启动。
 
-对于简单情况，你也可以直接运行：  
+对于简单情况，你也可以直接运行：
 ```
 zed ssh://[user@]host[:port]/path
 ```
@@ -57,6 +57,6 @@ zed ssh://lzw@192.168.1.36/path/to/project
 
 **参考资料：**
 
-- [Zed 远程开发文档](https://zed.dev/docs/remote-development)  
-- [SSH 远程功能已到来 —— Zed 博客](https://zed.dev/blog/remote-development)  
+- [Zed 远程开发文档](https://zed.dev/docs/remote-development)
+- [SSH 远程功能已到来 —— Zed 博客](https://zed.dev/blog/remote-development)
 - [Zed for Windows（WSL/SSH 架构细节）](https://zed.dev/blog/zed-for-windows-is-here)

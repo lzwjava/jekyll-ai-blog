@@ -51,7 +51,7 @@ type: note
    - Pagination + 缺失或损坏的全局 Search
    - 用户必须手动点击 100 多页来寻找某个东西
 
-**快速建议**  
+**快速建议**
 如果你的用户经常需要通过 Ctrl+F / 快速视觉扫描来索引项目，且总数通常 < ~8,000–15,000 行：
 
 → 考虑完全移除 Pagination，改用 Virtualized list + Debounce search input。
@@ -62,6 +62,6 @@ type: note
 
 这通常比盲目分页能提供更好的整体体验。
 
-**References:**  
+**References:**
 
 - None (General frontend development knowledge and common UX patterns)

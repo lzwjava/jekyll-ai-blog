@@ -41,9 +41,9 @@ These include a mix of tech platforms, energy giants, and distributors. Small, h
 - **Startups/AI**: High RPE from low headcount and viral products. OpenAI's figure assumes 3,000 employees and $13B annualized revenue (July 2025 projection); it could rise with growth.
 - Data gaps: Private firms like xAI have estimates only. RPE can fluctuate with hiring booms (e.g., AI firms adding thousands).
 
-[Charted: Revenue per Employee of the World's Largest Companies](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)  
-[How Much Revenue Do Tech Giants Earn Per Employee?](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)  
-[OpenAI revenue, valuation & growth rate](https://sacra.com/c/openai/)  
-[xAI: Revenue, Competitors, Alternatives](https://growjo.com/company/xAI)  
-[Aylo: Revenue, Competitors, Alternatives](https://growjo.com/company/Aylo)  
+[Charted: Revenue per Employee of the World's Largest Companies](https://www.visualcapitalist.com/charted-revenue-per-employee-of-the-worlds-largest-companies/)
+[How Much Revenue Do Tech Giants Earn Per Employee?](https://www.visualcapitalist.com/how-much-revenue-do-tech-giants-earn-per-employee/)
+[OpenAI revenue, valuation & growth rate](https://sacra.com/c/openai/)
+[xAI: Revenue, Competitors, Alternatives](https://growjo.com/company/xAI)
+[Aylo: Revenue, Competitors, Alternatives](https://growjo.com/company/Aylo)
 [OnlyFans Generates $37.6 Million Per Employee](https://www.ndtv.com/world-news/onlyfans-outperforms-tech-giants-tops-revenue-efficiency-rankings-in-2024-9508524)

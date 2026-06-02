@@ -12,7 +12,7 @@ type: note
 
 Question: Is Yunnan Baiyao spray great to use before sleep when feet swell due to a misstep while walking, because the liquid can be absorbed into the skin?
 
-Answer: 
+Answer:
 
 Yunnan Baiyao (云南白药) 气雾剂是一种受欢迎的中药产品，通常用于：
 
@@ -50,6 +50,6 @@ Yunnan Baiyao (云南白药) 气雾剂是一种受欢迎的中药产品，通常
 
 总的来说，是的——许多人（尤其是中国及熟悉 TCM 的用户）认为 Yunnan Baiyao 喷雾是针对这种轻微外伤导致的脚部/脚踝肿胀及疼痛较好的非处方外用药之一，且睡前使用是一个非常普遍的习惯。
 
-References:  
+References:
 
 - None (based on general product knowledge and common user reports)

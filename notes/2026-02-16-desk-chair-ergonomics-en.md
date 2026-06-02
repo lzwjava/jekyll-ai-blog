@@ -11,20 +11,20 @@ type: note
 
 Question: Why is desk height important, and how should we match desk height, chair height, and our body size for comfortable and happy laptop work?
 
-Answer: 
+Answer:
 
 Yes, **desk height and chair height** are both very important for comfortable, healthy, and productive laptop work. When they are well matched to each other and to your body size, you can work for longer periods with much less strain, pain, or fatigue.
 
 ### Ideal Ergonomic Guidelines for Laptop / Desk Work (2025–2026 standards)
 
-1. **Feet flat on the floor**  
-   - Thighs roughly parallel to the floor or slightly sloping down  
-   - Knees at ~90–110° angle  
+1. **Feet flat on the floor**
+   - Thighs roughly parallel to the floor or slightly sloping down
+   - Knees at ~90–110° angle
    → This almost always determines the **correct chair seat height**
 
-2. **Elbows at 90–110°** (most people feel best near 95–105°)  
-   - Shoulders relaxed (not shrugged up or falling forward)  
-   - Forearms roughly parallel to the floor or sloping slightly down toward the keyboard  
+2. **Elbows at 90–110°** (most people feel best near 95–105°)
+   - Shoulders relaxed (not shrugged up or falling forward)
+   - Forearms roughly parallel to the floor or sloping slightly down toward the keyboard
 
 3. **Recommended heights (approximate ranges)**
 
@@ -60,19 +60,19 @@ Legs falling asleep / pressure        | Seat too high → pressure under thighs 
 
 ### Practical Recommendations (2026)
 
-- Best long-term solution:  
-  laptop stand (15–20 cm lift) + external keyboard + external mouse  
+- Best long-term solution:
+  laptop stand (15–20 cm lift) + external keyboard + external mouse
   → turns almost any table into a much better workstation
 
-- Good compromise:  
+- Good compromise:
   adjust chair first → get feet flat → then see where elbows and screen are
 
-- If you cannot change desk height:  
-  - Too high desk → raise chair + use footrest  
+- If you cannot change desk height:
+  - Too high desk → raise chair + use footrest
   - Too low desk → use desk riser / laptop stand + possibly thicker seat cushion
 
 When desk + chair + your body are well matched, you can work happily for hours with far less tiredness and almost no pain.
 
-References:  
+References:
 
 - None (based on widely accepted ergonomic guidelines from OSHA, Cornell University Ergonomics, and clinical physiotherapy recommendations)

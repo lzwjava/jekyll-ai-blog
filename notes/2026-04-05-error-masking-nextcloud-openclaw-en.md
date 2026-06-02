@@ -22,9 +22,9 @@ Time (HKT)    Nextcloud Log                    OpenClaw Log
                ↓
 02:38         401 Invalid signature            (webhook received, signature failed)
                ↓
-               (we fix payload type "Activity")  
+               (we fix payload type "Activity")
                ↓
-02:47         400 Invalid payload format        (schema validation failed)  
+02:47         400 Invalid payload format        (schema validation failed)
                ↓
                (we patch OpenClaw for "Activity")
                ↓
@@ -130,7 +130,7 @@ Step 1: See 401 "Invalid backend"
    └─ Can't see payload format (rejected before parsing)
    └─ Can't see API URL issue (rejected before sending reply)
 
-Step 2: Fix signature, see 400 "Invalid payload"  
+Step 2: Fix signature, see 400 "Invalid payload"
    └─ Focuses attention on payload schema
    └─ Miss the API URL problem (still masked by 400)
 

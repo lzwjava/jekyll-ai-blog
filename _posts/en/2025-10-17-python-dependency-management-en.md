@@ -32,16 +32,16 @@ Install Poetry in an isolated environment using `pipx` (recommended for global a
 1. Install `pipx` if needed (via your OS package manager or `python -m pip install --user pipx`).
 2. Run: `pipx install poetry`.
 
-For updates: `pipx upgrade poetry`.  
+For updates: `pipx upgrade poetry`.
 For uninstall: `pipx uninstall poetry`.
 
 Enable shell completions (e.g., for Bash: `poetry completions bash >> ~/.bash_completion`).
 
 ### Basic Usage
-Initialize a new project: `poetry init`.  
-Add a dependency: `poetry add requests`.  
-Install from lockfile: `poetry install`.  
-Run scripts: `poetry run python script.py`.  
+Initialize a new project: `poetry init`.
+Add a dependency: `poetry add requests`.
+Install from lockfile: `poetry install`.
+Run scripts: `poetry run python script.py`.
 Build package: `poetry build`.
 
 For full commands, check the docs.

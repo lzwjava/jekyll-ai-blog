@@ -12,7 +12,7 @@ type: note
 
 在“编排（Ansible/Salt）”的语境中，**Salt** 指的是 **SaltStack**（通常简称为 **Salt**）——一款流行的开源配置管理和**编排**工具，与 Ansible 非常相似。
 
-因此这个短语的意思是：  
+因此这个短语的意思是：
 “我们讨论的是编排工具，特指 Ansible 或 SaltStack。”
 
 ### 快速对比说明此处的“Salt”：

@@ -11,7 +11,7 @@ type: note
 
 Question: To research and use computer networks, one must first have a set of criteria to evaluate how well a network is performing ().
 
-Answer: 
+Answer:
 
 The correct answer is **性能指标** (performance indicators / performance metrics).
 
@@ -21,7 +21,7 @@ When studying or working with computer networks, the most fundamental way to jud
 
 These indicators are generally divided into two main categories:
 
-1. **Quantitative performance metrics** (定量指标) – can be measured numerically  
+1. **Quantitative performance metrics** (定量指标) – can be measured numerically
    Common examples include:
    - Rate / bandwidth (速率 / 带宽)
    - Delay / latency (时延)
@@ -32,7 +32,7 @@ These indicators are generally divided into two main categories:
    - Availability (可用性)
    - Reliability (可靠性)
 
-2. **Qualitative / non-quantitative performance aspects** (非定量指标)  
+2. **Qualitative / non-quantitative performance aspects** (非定量指标)
    These are more subjective or harder to express purely in numbers, such as:
    - Ease of use
    - Scalability
@@ -43,6 +43,6 @@ These indicators are generally divided into two main categories:
 
 Therefore, the complete and standard fill-in-the-blank answer for this question is **性能指标**.
 
-References:  
+References:
 
 - None (standard computer networking textbook knowledge, commonly appears in Chinese university computer network exams)

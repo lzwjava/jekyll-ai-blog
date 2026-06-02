@@ -22,5 +22,5 @@ type: note
 
 该品种的天然甜味在空气炸锅中无需额外加糖即可充分展现。剩余薯块可冷藏保存不超过4天。
 
-[食用或丢弃：发芽的甘薯](https://www.eatortoss.com/the-surprisingly-edible-truth-about-sprouted-sweet-potatoes/)  
+[食用或丢弃：发芽的甘薯](https://www.eatortoss.com/the-surprisingly-edible-truth-about-sprouted-sweet-potatoes/)
 [食品鉴别：如何判断甘薯是否变质](https://www.foodfidelity.com/how-to-tell-if-a-sweet-potato-is-bad/)

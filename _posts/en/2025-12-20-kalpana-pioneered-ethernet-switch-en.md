@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Kalpana in networking?
 
-Answer: 
+Answer:
 
 Kalpana refers to **Kalpana, Inc.**, a pioneering American computer networking equipment company based in Sunnyvale, California, during the early 1990s. It is historically significant for inventing and manufacturing the **first commercial multiport Ethernet switch** (the seven-port EtherSwitch) in 1990.
 
@@ -22,9 +22,9 @@ The company was co-founded by Vinod Bhardwaj (an entrepreneur of Indian origin) 
 
 Kalpana (the company) is credited as the inventor of Ethernet switching, which became foundational to modern networking.
 
-References:  
+References:
 
-- [Kalpana, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Kalpana,_Inc.)  
-- [Cisco to Acquire Kalpana (1994 Announcement)](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1994/m10/cisco-to-acquire-kalpana-leading-ethernet-switching-company.html)  
-- [Cisco Completes Acquisition of Kalpana (1994)](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1994/m12/cisco-systems-completes-acquisition-of-kalpana.html)  
+- [Kalpana, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Kalpana,_Inc.)
+- [Cisco to Acquire Kalpana (1994 Announcement)](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1994/m10/cisco-to-acquire-kalpana-leading-ethernet-switching-company.html)
+- [Cisco Completes Acquisition of Kalpana (1994)](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1994/m12/cisco-systems-completes-acquisition-of-kalpana.html)
 - [The Birth of the Network Switch](https://www.todahika.com/news/the-birth-of-the-network-switch-revolutionizing-digital-communication/)

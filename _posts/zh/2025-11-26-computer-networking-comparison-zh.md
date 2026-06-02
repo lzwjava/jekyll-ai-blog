@@ -63,8 +63,8 @@ type: note
 
 获取官方大纲或历年真题可访问教育部考试中心网站或各省自考办官网。
 
-**参考资料**  
-- [自考02141计算机网络历年真题](https://www.zikaosw.cn/lnzt/subject-791.html)  
-- [路由与交换技术教材概览](https://www.ryjiaoyu.com/book/details/47556)  
-- [慕课：计算机网络（哈尔滨工业大学）](https://www.icourse163.org/course/HIT-154005)  
+**参考资料**
+- [自考02141计算机网络历年真题](https://www.zikaosw.cn/lnzt/subject-791.html)
+- [路由与交换技术教材概览](https://www.ryjiaoyu.com/book/details/47556)
+- [慕课：计算机网络（哈尔滨工业大学）](https://www.icourse163.org/course/HIT-154005)
 - [慕课：路由与交换技术](https://www.icourse163.org/course/HCIT-1001754308)

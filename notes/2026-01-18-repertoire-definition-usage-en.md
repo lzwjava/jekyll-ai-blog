@@ -12,32 +12,32 @@ type: note
 
 **Question:** What does "repertoire" mean?
 
-**Answer:** 
+**Answer:**
 
 **Repertoire** (pronounced /ˈrɛp.ər.twɑːr/) is a noun with several related meanings depending on the context:
 
-1. **The collection of works/skills a performer knows and can perform**  
-   The most common modern usage — especially in music, theater, dance, and acting.  
-   - A pianist's repertoire  
-   - A singer's repertoire  
-   - The orchestra's standard repertoire  
+1. **The collection of works/skills a performer knows and can perform**
+   The most common modern usage — especially in music, theater, dance, and acting.
+   - A pianist's repertoire
+   - A singer's repertoire
+   - The orchestra's standard repertoire
 
-   Example:  
-   "She has an impressive repertoire of Chopin pieces."  
+   Example:
+   "She has an impressive repertoire of Chopin pieces."
    → She knows and can play many Chopin works well.
 
-2. **The set of things someone is capable of doing** (figurative / extended use)  
-   Example:  
-   - "His conversational repertoire includes dad jokes, philosophy, and tech talk."  
+2. **The set of things someone is capable of doing** (figurative / extended use)
+   Example:
+   - "His conversational repertoire includes dad jokes, philosophy, and tech talk."
    - "The chef's repertoire doesn't include spicy food."
 
-3. **All the plays / pieces a theater company, band, or artist regularly performs**  
-   Example:  
+3. **All the plays / pieces a theater company, band, or artist regularly performs**
+   Example:
    "The theater's repertoire this season includes both classics and new works."
 
-4. **(Biology / Immunology)**  
-   The complete range of something produced by a system  
-   - "antibody repertoire" = all the different antibodies an organism can produce  
+4. **(Biology / Immunology)**
+   The complete range of something produced by a system
+   - "antibody repertoire" = all the different antibodies an organism can produce
    - "T-cell repertoire"
 
 **Quick summary of most frequent meanings today:**
@@ -51,6 +51,6 @@ type: note
 
 In short: **repertoire ≈ the stock / collection of things you have mastered and are ready to use/perform/show.**
 
-**References:**  
+**References:**
 
 - None needed (standard English word definition)

@@ -12,7 +12,7 @@ type: note
 
 **Question:** 我们在 The Pirate Bay 上能找到哪些高质量的 lossless audio、歌曲、音乐或 piano 内容？
 
-**Answer:** 
+**Answer:**
 
 The Pirate Bay 托管着种类繁多的 **lossless audio** 种子（主要是 **FLAC** 格式，有时包含 24-bit hi-res），包括完整专辑、合辑以及流行、摇滚、古典、爵士和以 piano 为主的特定流派。然而，质量和可用性很大程度上取决于 uploader、seeder 以及种子的发布时间。许多用户反映，虽然存在一些优秀的 lossless 文件，但专门的 music trackers 或其他来源通常能提供更稳定高质量的 FLAC 资源。
 
@@ -34,7 +34,7 @@ The Pirate Bay 托管着种类繁多的 **lossless audio** 种子（主要是 **
 
 注意：在最近（2025–2026年）的讨论中，许多音响发烧友和 torrent 用户认为 The Pirate Bay 对于随意的 lossless 查找还算不错，但对于更深层的目录和更可靠的高质量 FLAC 资源（尤其是冷门或 hi-res 材料），建议使用 RuTracker.org 或 Soulseek 等专业替代方案。下载后务必验证文件完整性（例如检查 spectrograms 或使用 foobar2000 进行 bit-perfect 播放）。
 
-**References:** 
+**References:**
 
 - [The Pirate Bay official site](https://thepiratebay.org/)
 - [SafetyDetectives - Best Music Torrent Sites 2026](https://www.safetydetectives.com/blog/best-music-torrent-sites)

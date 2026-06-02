@@ -12,7 +12,7 @@ type: note
 
 Question: Do people who treat work, study, or learning as a hassle or chore eventually give up on it one day?
 
-Answer: 
+Answer:
 
 Not necessarily. Whether someone eventually gives up depends on several factors, not just their initial attitude.
 

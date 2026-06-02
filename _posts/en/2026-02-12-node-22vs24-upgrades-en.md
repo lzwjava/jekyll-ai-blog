@@ -48,7 +48,7 @@ Node.js 24 brings meaningful improvements in performance (in most cases), modern
 
 Overall, as of February 2026, Node.js 24 is the recommended version for most new projects and for upgrading production workloads from Node.js 22, provided you handle the migration steps.
 
-**References:**  
+**References:**
 
 - [Node.js v22 to v24 migration guide](https://nodejs.org/en/blog/migrations/v22-to-v24)
 - [Node.js 24.0.0 release announcement](https://nodejs.org/en/blog/release/v24.0.0)

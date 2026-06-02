@@ -12,7 +12,7 @@ type: note
 
 Question: How does Weng Jiayi say about OpenAI in his recent podcast?
 
-Answer: 
+Answer:
 
 Weng Jiayi (翁家翌 / Jiayi Weng, @Trinkle23897), a Member of Technical Staff at OpenAI working on post-training and RL infrastructure (contributed to GPT-4 and later models), appeared as a guest on the Chinese-language podcast "WhynotTV Podcast #4" hosted by Tairan He (何泰然) in early 2026 (likely January, based on related X discussions around Jan 17-19, 2026).
 
@@ -30,7 +30,7 @@ Overall, his comments portray OpenAI as a place of significant impact and opport
 
 The podcast title (in Chinese) is roughly: "翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast #4".
 
-References:  
+References:
 
 - [WhynotTV Podcast episode discussion on LinkedIn](https://www.linkedin.com/posts/shen-sean-chen_%E7%BF%81%E5%AE%B6%E7%BF%8Copenaigpt%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0infra%E5%90%8E%E8%AE%AD%E7%BB%83%E5%A4%A9%E6%8E%88tuixue%E5%BC%80%E6%BA%90-activity-7419007679907471360-xMBs)
 - [YouTube link shared on X](https://www.youtube.com/watch?v=I0DrcsDf3Os)

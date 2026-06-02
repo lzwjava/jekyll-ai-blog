@@ -12,7 +12,7 @@ type: note
 
 Question: What part of the explanation for the IPv6 stateless address autoconfiguration question do you not understand?
 
-Answer: 
+Answer:
 
 Since your message is "don't understand," I'll provide a simpler and more detailed breakdown of the question and answer to help clarify.
 

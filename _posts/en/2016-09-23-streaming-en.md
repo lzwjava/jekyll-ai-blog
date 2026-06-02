@@ -63,7 +63,7 @@ FFmpeg is a comprehensive multimedia framework that can decode, encode, transcod
     ```
 3. **Automate Streaming**: Create a script to continuously stream a video file.
     ```sh
-    for ((;;)); do 
+    for ((;;)); do
         ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key;
         sleep 1;
     done

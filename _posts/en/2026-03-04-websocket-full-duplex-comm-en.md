@@ -49,7 +49,7 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 - `101 Switching Protocols` = "okay, switching now"
-- `Sec-WebSocket-Accept` = special hash:  
+- `Sec-WebSocket-Accept` = special hash:
   `base64( SHA-1( client-key + "258EAFA5-E914-47DA-95CA-C5AB0DC85B11" ) )`
 
 After this response — **the connection is no longer HTTP**. It is now a **WebSocket connection** on the same TCP socket.

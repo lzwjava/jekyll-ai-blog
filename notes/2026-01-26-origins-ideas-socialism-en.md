@@ -12,7 +12,7 @@ type: note
 
 Question: How did socialism originate? What were Lenin's ideas? What were Marx's ideas?
 
-Answer: 
+Answer:
 
 Socialism emerged primarily as a response to the harsh social and economic conditions created by the **Industrial Revolution** in Europe during the late 18th and early 19th centuries. The rapid growth of factories led to terrible working conditions, long hours, child labor, poverty, and huge wealth gaps between factory owners (capitalists) and workers.
 
@@ -46,7 +46,7 @@ Lenin's ideas became the foundation of Soviet communism and influenced many 20th
 
 In summary: Socialism arose from reactions to industrial capitalism's inequalities → Marx provided the theoretical foundation and predicted proletarian revolution → Lenin turned it into a practical strategy for seizing power in Russia and building a socialist state.
 
-References:  
+References:
 
 - [History of socialism - Wikipedia](https://en.wikipedia.org/wiki/History_of_socialism)
 - [Socialism - Definition, Origins & Countries - History.com](https://www.history.com/articles/socialism)

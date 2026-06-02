@@ -45,11 +45,11 @@ type: note
   ```java
   /*
    * Classname
-   * 
+   *
    * Version information
-   * 
+   *
    * Date
-   * 
+   *
    * Copyright notice
    */
   ```
@@ -71,11 +71,11 @@ type: note
 
 ### 4.1 Number Per Line
 - One declaration per line
-- Recommended: 
+- Recommended:
   ```java
   int level;        // Correct
   int size;         // Correct
-  
+
   // Avoid:
   int level, size;  // Not recommended
   ```

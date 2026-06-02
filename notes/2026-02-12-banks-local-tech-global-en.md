@@ -12,7 +12,7 @@ type: note
 
 Question: Are banks localized in each country with local apps and branches, unlike truly globalized companies like TikTok, Meta, Google, and Apple that offer cohesive global products?
 
-Answer: 
+Answer:
 
 Yes, your observation is largely correct — there is a meaningful difference between how most traditional banks operate compared to the big global tech platforms.
 
@@ -55,6 +55,6 @@ Some newer fintech / neo-banks are trying to become more "global-product-like":
 
 So yes — traditional banking remains far more **localized** even when the parent company is international, while the consumer internet giants (and to a lesser extent some fintechs) have achieved much more **cohesive global products**.
 
-References:  
+References:
 
 - None required for this conceptual comparison (based on widely known industry structures)

@@ -30,7 +30,7 @@ Here's the full picture:
 | Used | 728GB |
 | Available | 142GB |
 
-**Problem:** Not critical yet, but 84% is getting high for a root partition with Docker.  
+**Problem:** Not critical yet, but 84% is getting high for a root partition with Docker.
 **Actionable reclaimables:**
 - 22.9GB unused images (62% of images are reclaimable)
 - 220MB stopped container writable layers

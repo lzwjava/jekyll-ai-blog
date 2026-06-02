@@ -12,7 +12,7 @@ type: note
 
 Question: Which HTML element is used to create a dropdown list in a form?
 
-Answer: 
+Answer:
 
 The correct HTML element for creating a dropdown list (also known as a select menu) in a form is **`<select>`**, used in combination with `<option>` elements for the individual choices.
 
@@ -33,6 +33,6 @@ The correct HTML element for creating a dropdown list (also known as a select me
 
 Since the provided options (A) B) C) D)) appear incomplete and one is listed as `<dropdown>`, which is **not a valid HTML element**, the standard and correct answer is **`<select>`**.
 
-References:  
-- [MDN Web Docs - <select> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)  
+References:
+- [MDN Web Docs - <select> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [W3Schools - HTML <select> Tag](https://www.w3schools.com/tags/tag_select.asp)

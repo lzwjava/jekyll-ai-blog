@@ -55,4 +55,3 @@ translated: false
 | Subject | Score |
 |---------|--------|
 | Fundamentals of Computer Programming | 74 |
-

@@ -12,7 +12,7 @@ type: note
 
 Question: 最近的 xAI 全员会议说了什么？
 
-Answer: 
+Answer:
 
 最近一次 xAI 全员会议发生在 2026 年 2 月 10 日至 11 日左右（根据 2 月 11 日至 12 日的报道）。会议由 Elon Musk 主持，并在 X 上公开了一段约 45 分钟的完整视频，这对于公司内部会议来说非常罕见。
 
@@ -36,7 +36,7 @@ Answer:
 
 此次会议发生在 SpaceX 收购/合并 xAI 之后，且正值创始人/员工更替之际，但会议重点高度集中在势头（Momentum）、招聘（仍在积极为这些团队招人）以及将 AI 与太空基础设施相结合的大胆愿景上。
 
-References:  
+References:
 
 - [xAI lays out interplanetary ambitions in public all-hands](https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/)
 - [3 takeaways from Elon Musk's xAI all-hands](https://www.businessinsider.com/takeaways-from-elon-musks-xai-all-hands-meeting-2026-2)

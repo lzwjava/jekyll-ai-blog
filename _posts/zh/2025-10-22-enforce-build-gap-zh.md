@@ -53,7 +53,7 @@ jobs:
 
           # 提取最近成功运行的completed_at时间戳（ISO 8601格式）
           LAST_COMPLETED_AT=$(echo "$RUNS_RESPONSE" | jq -r '.[0].completed_at // empty')
-          
+
           if [ -z "$LAST_COMPLETED_AT" ] || [ "$LAST_COMPLETED_AT" = "null" ]; then
             echo "未找到先前成功运行记录。继续执行构建。"
             echo "skip_build=false" >> $GITHUB_OUTPUT

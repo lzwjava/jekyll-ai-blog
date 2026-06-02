@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《尚书》 (Shangshu / Book of Documents).
 
-Answer: 
+Answer:
 
 **《尚书》** (Shàngshū), also known as **《书经》** (Shūjīng), **Book of Documents**, or **Classic of History**, is one of the **Five Classics** (五经) of Confucianism and the oldest existing collection of historical documents in China.
 
@@ -56,7 +56,7 @@ The literary forms include six main types:
 ### Modern Importance
 《尚书》 is difficult to read due to its archaic language (古文), but it remains essential for understanding early Chinese political thought, history, and civilization origins. It is the foundational text for studying how ancient Chinese viewed legitimate rule, moral governance, and the relationship between Heaven and humanity.
 
-References:  
+References:
 
 - [Book of Documents - Wikipedia](https://en.wikipedia.org/wiki/Book_of_Documents)
 - [尚书 - 百度百科](https://baike.baidu.com/item/%E5%B0%9A%E4%B9%A6/6297)

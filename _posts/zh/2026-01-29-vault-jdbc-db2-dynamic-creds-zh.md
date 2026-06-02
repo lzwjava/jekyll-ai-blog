@@ -36,14 +36,14 @@ type: note
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-vault-config</artifactId>
     </dependency>
-    
+
     <!-- DB2 JDBC Driver -->
     <dependency>
         <groupId>com.ibm.db2</groupId>
         <artifactId>jcc</artifactId>
         <version>11.5.8.0</version>
     </dependency>
-    
+
     <!-- Spring Boot JDBC -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -98,7 +98,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class DataSourceConfig {
-    
+
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
     public DataSource dataSource() {
@@ -173,25 +173,25 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class VaultDB2Integration {
-    
+
     private static final String VAULT_ADDR = "http://localhost:8200";
     private static final String VAULT_TOKEN = "your-vault-token";
     private static final String SECRET_PATH = "secret/data/myapp";
-    
+
     public static DataSource createDataSource() throws VaultException {
         // 初始化 Vault 客户端
         VaultConfig config = new VaultConfig()
             .address(VAULT_ADDR)
             .token(VAULT_TOKEN)
             .build();
-        
+
         Vault vault = new Vault(config);
-        
+
         // 从 Vault 获取凭据
         LogicalResponse response = vault.logical().read(SECRET_PATH);
         String username = response.getData().get("username");
         String password = response.getData().get("password");
-        
+
         // 创建 DB2 DataSource
         DB2SimpleDataSource dataSource = new DB2SimpleDataSource();
         dataSource.setServerName("localhost");
@@ -200,10 +200,10 @@ public class VaultDB2Integration {
         dataSource.setDriverType(4);
         dataSource.setUser(username);
         dataSource.setPassword(password);
-        
+
         return dataSource;
     }
-    
+
     public static void main(String[] args) {
         try {
             DataSource ds = createDataSource();
@@ -265,10 +265,10 @@ import java.sql.Connection;
 
 @Component
 public class DatabaseConnectionTest implements CommandLineRunner {
-    
+
     @Autowired
     private DataSource dataSource;
-    
+
     @Override
     public void run(String... args) throws Exception {
         try (Connection conn = dataSource.getConnection()) {

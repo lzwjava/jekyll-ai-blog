@@ -12,7 +12,7 @@ type: note
 
 Question: 如何修复在 Codex 中调用 files.read_mcp_resource 时出现的 "unknown MCP server 'files'" 错误？
 
-Answer: 
+Answer:
 
 出现该错误的原因是 Codex (OpenAI 的 coding agent/CLI tool) 尝试使用 **MCP** (Model Context Protocol) 函数 `read_mcp_resource` (或类似的 `files.read_mcp_resource`) 来访问文件，但在你的环境中并没有实际配置或运行名为 `"files"` 的 **MCP server**。
 
@@ -23,7 +23,7 @@ Codex 的 model 有时会混淆普通的文件读取逻辑与基于 MCP 的读�
 
 ### 如何修复
 
-1. **最常用且快速的解决方案**  
+1. **最常用且快速的解决方案**
    直接在 **chat / prompt 中明确告诉 Codex** 停止在文件操作中使用 MCP：
 
    ```
@@ -37,7 +37,7 @@ Codex 的 model 有时会混淆普通的文件读取逻辑与基于 MCP 的读�
 
    然后重新发送你的原始请求。
 
-2. **如果你确实想通过 MCP 访问文件系统（可选，高级选项）**  
+2. **如果你确实想通过 MCP 访问文件系统（可选，高级选项）**
    你可以实际设置一个本地文件系统 MCP server（存在多个社区版本），并将其命名为 `"files"`，这样调用就能生效：
 
    - 在 GitHub 上搜索 "filesystem MCP server" 或 "local files MCP Codex"
@@ -59,10 +59,10 @@ Codex 的 model 有时会混淆普通的文件读取逻辑与基于 MCP 的读�
    - 明确询问："list_mcp_resources" → 如果显示为空或没有 "files"，则证实了确实没有该 server
    - 暂时降级 model（如果正在使用 gpt-5-codex 等 preview models） —— 某些版本对 MCP 的幻觉更严重
 
-简而言之：  
+简而言之：
 最彻底的修复方法通常是**在 prompt 中明确禁止 MCP file calls** —— Codex 非常擅长遵循此类指令。
 
-References:  
+References:
 
 - [Model sometimes tries to use MCP tool to read skills](https://github.com/openai/codex/issues/7639)
 - [Codex not finding MCP servers](https://github.com/openai/codex/issues/6215)

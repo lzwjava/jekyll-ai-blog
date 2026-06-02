@@ -39,7 +39,7 @@ A square matrix where all diagonal elements are **1**, and all off-diagonal elem
 I = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
 \\]
 
-For any matrix \\( A \\), multiplying by \\( I \\) leaves it unchanged:  
+For any matrix \\( A \\), multiplying by \\( I \\) leaves it unchanged:
 \\[
 A \cdot I = I \cdot A = A
 \\]
@@ -140,9 +140,9 @@ A^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}
 \\]
 
 ### **Properties of Transpose**
-1. \\( (A^T)^T = A \\)  
-2. \\( (A + B)^T = A^T + B^T \\)  
-3. \\( (kA)^T = kA^T \\)  
+1. \\( (A^T)^T = A \\)
+2. \\( (A + B)^T = A^T + B^T \\)
+3. \\( (kA)^T = kA^T \\)
 4. \\( (AB)^T = B^T A^T \\)
 
 ---

@@ -12,7 +12,7 @@ type: note
 
 Question: What does LC-LC, SC-SC, etc. mean for fiber optic cables?
 
-Answer: 
+Answer:
 
 **LC-LC**, **SC-SC**, and similar notations describe **fiber optic patch cables** (also called jumper cables) by specifying the **connector types** on each end.
 
@@ -23,15 +23,15 @@ Answer:
 These are the most widely used types of **duplex** (two-fiber) patch cords in networking, data centers, telecom, and fiber-to-the-home installations.
 
 ### What do LC and SC stand for?
-- **LC** → **Lucent Connector** (also called Little Connector or Local Connector)  
-  - Uses a small **1.25 mm** ceramic ferrule.  
-  - Very compact size (about half the footprint of SC).  
-  - Uses a small latch clip to lock in place (similar to an RJ45 clip).  
+- **LC** → **Lucent Connector** (also called Little Connector or Local Connector)
+  - Uses a small **1.25 mm** ceramic ferrule.
+  - Very compact size (about half the footprint of SC).
+  - Uses a small latch clip to lock in place (similar to an RJ45 clip).
   - Dominant in modern high-density environments like data centers, SFP/SFP+/QSFP transceivers, and high-speed switches/routers.
 
-- **SC** → **Subscriber Connector** (also called Square Connector or Standard Connector)  
-  - Uses a larger **2.5 mm** ceramic ferrule.  
-  - Square-shaped body with a push-pull mechanism and a locking tab.  
+- **SC** → **Subscriber Connector** (also called Square Connector or Standard Connector)
+  - Uses a larger **2.5 mm** ceramic ferrule.
+  - Square-shaped body with a push-pull mechanism and a locking tab.
   - Very common in older telecom equipment, PON networks (GPON/EPON), cable TV, and many enterprise installations from the 1990s–2010s.
 
 ### Quick comparison of LC vs SC
@@ -54,7 +54,7 @@ Both LC and SC provide excellent optical performance (low insertion loss and hig
 
 In short: **LC-LC** = both ends are small modern LC connectors, **SC-SC** = both ends are larger classic SC connectors.
 
-References:  
+References:
 
 - [Fiber Optic Connector Types Explained | FiberCablesDirect](https://fibercablesdirect.com/content/23-fiber-optic-connector-types-explained)
 - [LC vs SC Connectors: Which to Choose? - VCELINK](https://www.vcelink.com/blogs/focus/lc-vs-sc-connectors)

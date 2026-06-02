@@ -22,7 +22,7 @@ type: note
 都市中的避世之所，地铁备用交通便利，但驱车更适合携带工作设备。
 
 - **中央公园峡谷与洛克溪（北树林）：** 林木覆盖的峡谷配有多处人造瀑布，水流汇入洛克溪——如同迷你峡谷徒步的森林意境。可停放在102街横向停车场（收费约2美元/小时），步行5分钟即达；小径深处最为宁静。
-  
+
 - **瓦格纳湾（西72街）：** 细窄水湾配以涟漪水波与眺望缓流的亭台——极致宁静的隐秘角落。中央公园西侧有邻近车库；若需休憩，岸边设有多处长椅。
 
 - **佩利公园（中城53街，麦迪逊与第五大道之间）：** 袖珍公园内设20英尺高都市水幕墙——持续轻柔的白噪音有效隔绝城市喧嚣。周边有街边计费位或车库；可在园内长椅小坐，或停车对街观赏水景。
@@ -67,11 +67,11 @@ type: note
 
 建议从曼哈顿的快捷点位开始探索，再乘渡轮至斯塔滕岛进行一日游。秋季清扫可能关闭部分路径——请查询nycgovparks.org。若遇交通拥堵，电动自行车租赁可衔接路程。
 
-[纽约市隐秘瀑布指南](https://www.6sqft.com/where-to-find-new-york-citys-secret-waterfalls/)  
-[中央公园瀑布群](https://www.centralpark.com/things-to-do/attractions/waterfalls/)  
-[纽约市魔法瀑布](https://yourbrooklynguide.com/new-york-city-waterfalls/)  
-[展望公园徒步路线](https://www.nycgovparks.org/parks/prospectpark/facilities/hikingtrails)  
-[艾莉森池塘公园](https://www.nycgovparks.org/park-features/hiking/allison-pond-park-and-goodhue-park)  
-[克洛夫湖公园评价](https://www.yelp.com/biz/clove-lakes-park-statue-of-liberty-national-monument-new-york)  
-[高岩公园](https://www.nycgovparks.org/parks/high-rock-park)  
+[纽约市隐秘瀑布指南](https://www.6sqft.com/where-to-find-new-york-citys-secret-waterfalls/)
+[中央公园瀑布群](https://www.centralpark.com/things-to-do/attractions/waterfalls/)
+[纽约市魔法瀑布](https://yourbrooklynguide.com/new-york-city-waterfalls/)
+[展望公园徒步路线](https://www.nycgovparks.org/parks/prospectpark/facilities/hikingtrails)
+[艾莉森池塘公园](https://www.nycgovparks.org/park-features/hiking/allison-pond-park-and-goodhue-park)
+[克洛夫湖公园评价](https://www.yelp.com/biz/clove-lakes-park-statue-of-liberty-national-monument-new-york)
+[高岩公园](https://www.nycgovparks.org/parks/high-rock-park)
 [沃尔夫池塘公园](https://www.nycgovparks.org/parks/wolfes-pond-park)

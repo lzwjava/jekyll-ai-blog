@@ -58,7 +58,7 @@ Deployment options include on-premises, private cloud, or public cloud on OCI, w
 Organizations choose PeopleSoft for its depth and reliability in handling intricate processes that generic ERPs might overlook. Key benefits include:
 
 - **Cost Efficiency**: Lowers total cost of ownership through reduced customization needs and extended support, avoiding frequent rip-and-replace cycles.
-  
+
 - **Agility and Scalability**: Enables rapid adaptation to business changes, such as regulatory shifts or market demands, with minimal downtime.
 
 - **Enhanced User Adoption**: The intuitive UI and mobile access boost productivity, reducing training time and errors.
@@ -76,8 +76,8 @@ Looking ahead, Oracle's 2036 support commitment ensures longevity, positioning P
 
 For hands-on learning, Oracle University offers certifications in PeopleSoft administration and development, while documentation portals provide extensive guides.
 
-[Oracle PeopleSoft Applications](https://www.oracle.com/applications/peoplesoft/)  
-[PeopleSoft 101: Essential Guide for New Users](https://questoraclecommunity.org/learn/blogs/peoplesoft-101-for-new-peoplesoft-users/)  
-[Introduction to Oracle PeopleSoft Admin Training](https://www.multisoftvirtualacademy.com/articles/introduction-to-oracle-peoplesoft-admin-training)  
-[Oracle PeopleSoft Documentation Home](https://docs.oracle.com/en/applications/peoplesoft/index.html)  
+[Oracle PeopleSoft Applications](https://www.oracle.com/applications/peoplesoft/)
+[PeopleSoft 101: Essential Guide for New Users](https://questoraclecommunity.org/learn/blogs/peoplesoft-101-for-new-peoplesoft-users/)
+[Introduction to Oracle PeopleSoft Admin Training](https://www.multisoftvirtualacademy.com/articles/introduction-to-oracle-peoplesoft-admin-training)
+[Oracle PeopleSoft Documentation Home](https://docs.oracle.com/en/applications/peoplesoft/index.html)
 [PeopleSoft Support Extension to 2036](https://blogs.oracle.com/peoplesoft/post/peoplesoft-support-2036)

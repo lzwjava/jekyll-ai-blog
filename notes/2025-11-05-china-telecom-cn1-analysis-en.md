@@ -35,6 +35,6 @@ If you want to confirm or test further:
 - Ping a CN2 test site like `www.cn2.net`—if latency is under 200ms, you might have partial CN2 access.
 - Contact Meiyijia or China Telecom support for your line type (mention "CN2 GIA" if upgrading).
 
-[China Telecom CN2 Overview](https://www.ctamericas.com/company/global-network/cn2/)  
-[IPinfo for 203.215.237.42](https://ipinfo.io/203.215.237.42)  
+[China Telecom CN2 Overview](https://www.ctamericas.com/company/global-network/cn2/)
+[IPinfo for 203.215.237.42](https://ipinfo.io/203.215.237.42)
 [CN2 vs ChinaNet Guide](http://chihengcloud.com/en/blog/cloudservice/what-is-cn2-network-a-3-minute-guide-to-types-and-features/)

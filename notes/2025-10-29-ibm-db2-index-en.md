@@ -18,12 +18,12 @@ IBM DB2 uses **B+ trees** as the primary data structure for its indexes. This is
 A B+ tree in DB2 is organized into a hierarchy of **pages** (also called nodes), each typically 4KB in size on disk. The tree is self-balancing, meaning all leaf nodes are at the same depth, and it grows or shrinks dynamically as data changes. Here's the breakdown:
 
 - **Root Page**: The entry point at the top of the tree. It contains sorted key values and pointers to child pages below it. For small indexes, the root may directly point to leaf pages.
-  
+
 - **Internal (Non-Leaf) Pages**: These intermediate levels act as directories. Each page holds:
   - A sorted list of **index keys** (the values from the indexed column(s), e.g., employee IDs).
   - Pointers to child pages (one more pointer than keys, separating ranges).
   - Specifically, each entry is the **highest key value** in the subtree below it, paired with a **Record Identifier (RID)**—a unique pointer to the page and slot where the actual data row lives in the table.
-  
+
   Non-leaf pages do *not* store actual data pointers; they guide traversal.
 
 - **Leaf Pages**: The bottom level, linked bidirectionally (forward and backward) for efficient range scans. Each leaf page contains:
@@ -66,8 +66,8 @@ These operations maintain balance automatically, with minimal page splits/merges
 
 B+ trees excel in DB2 because they minimize random I/O (key for disk-bound systems) and support sorted access without full table scans.
 
-[Index structure - IBM](https://www.ibm.com/docs/en/db2/11.1.0?topic=indexes-index-structure)  
-[DB2 LUW Indexes: B-Tree Details](https://datageek.blog/2013/09/19/db2-luw-basics-indexes/)  
-[Inside Db2 for z/OS: How Optimized B+ Trees Power High-Speed Indexing](https://planetmainframe.com/2025/06/inside-db2-for-z-os-how-optimized-b-trees-power-high-speed-indexing/)  
-[How to Understand DB2 B-Tree Index Quickly](https://srinimf.com/2021/07/26/db2-how-to-understand-b-tree-structure-of-index/)  
+[Index structure - IBM](https://www.ibm.com/docs/en/db2/11.1.0?topic=indexes-index-structure)
+[DB2 LUW Indexes: B-Tree Details](https://datageek.blog/2013/09/19/db2-luw-basics-indexes/)
+[Inside Db2 for z/OS: How Optimized B+ Trees Power High-Speed Indexing](https://planetmainframe.com/2025/06/inside-db2-for-z-os-how-optimized-b-trees-power-high-speed-indexing/)
+[How to Understand DB2 B-Tree Index Quickly](https://srinimf.com/2021/07/26/db2-how-to-understand-b-tree-structure-of-index/)
 [Db2 Index Overview](https://www.idug.org/news/db2-index-overview)

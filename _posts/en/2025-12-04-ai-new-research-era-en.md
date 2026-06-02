@@ -12,7 +12,7 @@ type: note
 
 Question: What did Ilya Sutskever say in his most recent podcast appearance?
 
-Answer: 
+Answer:
 
 Ilya Sutskever, co-founder of OpenAI and founder of Safe Superintelligence (SSI), appeared on the *Dwarkesh Podcast* on November 25, 2025—his first major interview since leaving OpenAI. The episode, titled "We're moving from the age of scaling to the age of research," spans about 1 hour and 36 minutes and covers AI progress, SSI's strategy, generalization challenges, alignment, and the path to artificial superintelligence (ASI). Below is a summary of his key statements, drawn from the transcript and discussions.
 
@@ -30,7 +30,7 @@ ASI could arrive in 5–20 years, but impacts will diffuse gradually through the
 
 The full episode is available on [YouTube](https://www.youtube.com/watch?v=aR20FWCCjAs), [Apple Podcasts](https://podcasts.apple.com/tm/podcast/ilya-sutskever-were-moving-from-the-age-of-scaling/id1516093381?i=1000738363711), or the [Dwarkesh Podcast site](https://www.dwarkesh.com/p/ilya-sutskever-2).
 
-References:  
-- [Ilya Sutskever – We're moving from the age of scaling to the age of research (Dwarkesh Podcast)](https://www.dwarkesh.com/p/ilya-sutskever-2)  
-- [Ilya Sutskever breaks silence on AI’s future (The Rundown AI)](https://stephenslighthouse.com/2025/11/26/ilya-sutskever-breaks-silence-on-ais-future/)  
+References:
+- [Ilya Sutskever – We're moving from the age of scaling to the age of research (Dwarkesh Podcast)](https://www.dwarkesh.com/p/ilya-sutskever-2)
+- [Ilya Sutskever breaks silence on AI’s future (The Rundown AI)](https://stephenslighthouse.com/2025/11/26/ilya-sutskever-breaks-silence-on-ais-future/)
 - [Key points from Ilya Sutskever podcast (X post by @slow_developer)](https://x.com/slow_developer/status/1993416904162328880)

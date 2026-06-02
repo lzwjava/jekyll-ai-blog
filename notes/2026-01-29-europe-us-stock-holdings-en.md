@@ -12,7 +12,7 @@ type: note
 
 **Question:** Are Europeans the main foreign buyers of US stocks, accounting for 49% of all foreign buyers?
 
-**Answer:** 
+**Answer:**
 
 Yes, Europeans (or investors from Europe) are currently the largest group of foreign holders of US stocks (equities), and they account for approximately **49%** of total foreign holdings of US corporate stocks/equities.
 
@@ -24,9 +24,9 @@ Note that "buyers" here refers more to holders/owners rather than short-term pur
 
 This aligns with concerns in recent market commentary about potential risks if European investors reduce exposure (e.g., due to trade or policy tensions).
 
-**References:**  
+**References:**
 
-- [Wall Street Grapples With New Risk: A European Buyers’ Strike](https://finance.yahoo.com/news/wall-street-grapples-risk-european-140000668.html)  
-- [Foreign Ownership of U.S. Corporate Stocks by Region in 2024](https://www.voronoiapp.com/wealth/-Foreign-Ownership-of-US-Corporate-Stocks-by-Region-in-2024-4502)  
-- [Foreign Portfolio Holdings of U.S. Securities (TIC data, June 2024)](https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2024r.pdf)  
+- [Wall Street Grapples With New Risk: A European Buyers’ Strike](https://finance.yahoo.com/news/wall-street-grapples-risk-european-140000668.html)
+- [Foreign Ownership of U.S. Corporate Stocks by Region in 2024](https://www.voronoiapp.com/wealth/-Foreign-Ownership-of-US-Corporate-Stocks-by-Region-in-2024-4502)
+- [Foreign Portfolio Holdings of U.S. Securities (TIC data, June 2024)](https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2024r.pdf)
 - [European ownership of U.S. stocks surges](https://www.mexc.co/news/569021)

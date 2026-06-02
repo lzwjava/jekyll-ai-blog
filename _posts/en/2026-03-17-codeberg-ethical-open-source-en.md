@@ -11,7 +11,7 @@ type: note
 
 Question: What is a comprehensive introduction to Codeberg?
 
-Answer: 
+Answer:
 
 **Codeberg** is a **non-profit**, **community-driven** platform for hosting and collaborating on **free and open-source software** (FOSS) projects. It serves as a popular ethical and privacy-focused alternative to commercial services like **GitHub**.
 
@@ -80,7 +80,7 @@ Membership is **not required** to use the service — using Codeberg is free for
 
 In short: if you want **GitHub-like functionality without GitHub company**, Codeberg is currently (2026) one of the most mature, stable and ideologically clean options in the FOSS-friendly code forge landscape.
 
-References:  
+References:
 
 - [Codeberg Official Site](https://codeberg.org/)
 - [What is Codeberg? - Documentation](https://docs.codeberg.org/getting-started/what-is-codeberg)

@@ -76,7 +76,7 @@ Assistant: suggested changes
 User: make it async
 ```
 
-Claude Code **不会保留完整历史**  
+Claude Code **不会保留完整历史**
 它会压缩/总结较旧的回合。
 
 这很重要：

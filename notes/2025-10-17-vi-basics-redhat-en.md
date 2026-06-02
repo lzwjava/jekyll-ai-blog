@@ -15,12 +15,12 @@ Vi is a powerful, keyboard-driven text editor that's standard on Linux systems, 
 ## Installation
 Vi is pre-installed on most Red Hat systems. If you need the full `vim` package (or it's missing), install it via the package manager:
 
-- For RHEL 7/8:  
+- For RHEL 7/8:
   ```
   sudo yum install vim
   ```
 
-- For RHEL 9+:  
+- For RHEL 9+:
   ```
   sudo dnf install vim
   ```
@@ -29,10 +29,10 @@ After installation, you can use `vi` or `vim` interchangeably.
 
 ## Starting Vi
 1. Open a terminal.
-2. Run `vi filename.txt` (replace `filename.txt` with your file path).  
-   - If the file exists, it opens for editing.  
-   - If not, a new empty file is created.  
-3. To open without a file (for practice): `vi`.  
+2. Run `vi filename.txt` (replace `filename.txt` with your file path).
+   - If the file exists, it opens for editing.
+   - If not, a new empty file is created.
+3. To open without a file (for practice): `vi`.
 Vi starts in **command mode** (the default). You'll see a blank screen or file contents with a cursor at the top-left.
 
 ## Understanding Modes
@@ -103,7 +103,7 @@ If you're stuck, `:q!` gets you out safely.
 - Replace all: `:%s/old/new/g` (global replace; add `c` for confirmation, e.g., `:%s/old/new/gc`).
 
 ## Tips for Red Hat Users
-- Customize in `~/.vimrc` (create if needed):  
+- Customize in `~/.vimrc` (create if needed):
   ```
   set number          # Show line numbers
   syntax on           # Syntax highlighting
@@ -117,6 +117,6 @@ If you're stuck, `:q!` gets you out safely.
 Vi takes practice but becomes intuitive. Start simple and use `Esc` often!
 
 ## References
-[How to get started with the Vi editor - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)  
-[LFCS #2: How to Install and Use Vi/Vim as a Full Text Editor in Linux](https://www.tecmint.com/vi-editor-usage/)  
+[How to get started with the Vi editor - Red Hat](https://www.redhat.com/en/blog/get-started-vi-editor)
+[LFCS #2: How to Install and Use Vi/Vim as a Full Text Editor in Linux](https://www.tecmint.com/vi-editor-usage/)
 [vi Editor in Linux - GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/vi-editor-unix/)

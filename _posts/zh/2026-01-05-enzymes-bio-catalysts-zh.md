@@ -12,7 +12,7 @@ type: note
 
 Question: What do enzymes mean? (什么是酶？)
 
-Answer: 
+Answer:
 
 Enzymes 是生物催化剂，主要是由活细胞产生的 Proteins，它们在生物体内的化学反应中起加速作用，而自身在反应过程中不会被消耗或发生永久性改变。
 
@@ -26,7 +26,7 @@ Enzymes 是生物催化剂，主要是由活细胞产生的 Proteins，它们在
 
 虽然存在极少数例外（例如 ribozymes，这是一种以 RNA 为基础的催化剂），但绝大多数 Enzymes 都是 Proteins。
 
-References:  
+References:
 
 - [Enzyme - Wikipedia](https://en.wikipedia.org/wiki/Enzyme)
 - [Enzyme | Definition, Mechanisms, & Nomenclature | Britannica](https://www.britannica.com/science/enzyme)

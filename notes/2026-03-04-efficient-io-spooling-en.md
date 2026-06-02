@@ -11,7 +11,7 @@ type: note
 
 Question: What does spooling mean?
 
-Answer: 
+Answer:
 
 **Spooling** (which stands for **Simultaneous Peripheral Operations On-Line**) is a technique used in computer systems to manage input and output operations more efficiently.
 
@@ -27,10 +27,10 @@ This way:
 - The slow device is kept busy without holding up the CPU or user programs.
 
 ### Classic and still very common examples
-- **Printing spooling** (most people know this meaning)  
+- **Printing spooling** (most people know this meaning)
   When you print a document, it doesn't go directly to the printer. It goes to the **print spooler** → saved on disk → then slowly sent to the printer page by page. That's why you can print 20 documents and immediately continue working.
 
-- **Batch job spooling** (older mainframe systems)  
+- **Batch job spooling** (older mainframe systems)
   Card readers and tape drives were extremely slow → jobs were spooled to disk first.
 
 ### Other contexts where "spooling" is used
@@ -40,9 +40,9 @@ This way:
 
 But in almost all computer science, IT, and programming contexts → **spooling = managing slow I/O via intermediate disk storage**.
 
-Modern term summary:  
+Modern term summary:
 Spooling = temporarily storing output data on disk so that a program doesn't have to wait for a slow peripheral device.
 
-References:  
+References:
 
 - None needed for this general computing concept explanation

@@ -84,13 +84,13 @@ npm audit fix --package-lock-only
 
 Most teams now prefer:
 
-1. `npm audit --audit-level=high`  
+1. `npm audit --audit-level=high`
    → only care about high + critical
 
-2. `npm audit fix`  
+2. `npm audit fix`
    → apply safe fixes regularly
 
-3. Dependabot, Renovate or Socket.dev  
+3. Dependabot, Renovate or Socket.dev
    → create PRs for both version updates **and** security fixes
 
 `npm audit fix` is convenient, but it's not magic — it cannot fix vulnerabilities that require:

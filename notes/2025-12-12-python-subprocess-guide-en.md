@@ -12,7 +12,7 @@ type: note
 
 Question: How do I use the `subprocess` module in Python to run a command?
 
-Answer: 
+Answer:
 
 The `subprocess` module in Python allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. The recommended high-level function (introduced in Python 3.5) is `subprocess.run()`, which runs a command and waits for it to complete.
 
@@ -76,8 +76,8 @@ Prefer the list form without `shell=True` when possible for safety.
 
 For more advanced control (e.g., streaming or timeouts), use `subprocess.Popen()`, but `run()` covers most common cases.
 
-References:  
+References:
 
-- [Python Official Documentation: subprocess — Subprocess management](https://docs.python.org/3/library/subprocess.html)  
-- [An Introduction to Python Subprocess: Basics and Examples | DataCamp](https://www.datacamp.com/tutorial/python-subprocess)  
+- [Python Official Documentation: subprocess — Subprocess management](https://docs.python.org/3/library/subprocess.html)
+- [An Introduction to Python Subprocess: Basics and Examples | DataCamp](https://www.datacamp.com/tutorial/python-subprocess)
 - [The subprocess Module: Wrapping Programs With Python – Real Python](https://realpython.com/python-subprocess/)

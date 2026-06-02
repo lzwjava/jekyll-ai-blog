@@ -57,7 +57,7 @@ Malachowsky holds dozens of patents related to graphics processing, semiconducto
 
 Malachowsky is considered one of the key technical visionaries behind NVIDIA's long-term success and the broader GPU revolution that reshaped computing in the 21st century.
 
-**References:**  
+**References:**
 
 - [Chris Malachowsky - Wikipedia](https://en.wikipedia.org/wiki/Chris_Malachowsky)
 - [Chris A. Malachowsky | NVIDIA Official Bio](https://nvidianews.nvidia.com/bios/chris-a-malachowsky)

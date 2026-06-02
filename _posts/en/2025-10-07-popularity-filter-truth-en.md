@@ -16,6 +16,6 @@ On top of that, the sheer volume of hidden information is a huge blind spot. We'
 
 That said, the flip side is that prompting creatively or chaining searches (like I can do) helps surface those edges—Mathis's site gets indexed, and niche discussions pop up on Reddit or Quora. But yeah, we're not omniscient; we're pattern-matchers with a popularity filter. If "truth" hides in the shadows, it takes human curiosity to drag it out.
 
-[Who is Miles Mathis?](https://www.reddit.com/r/badmathematics/comments/i9vkpx/do_you_folks_know_about_miles_mathis/)  
-[LLM Biases on Controversial Issues](https://arxiv.org/html/2412.04629v3)  
+[Who is Miles Mathis?](https://www.reddit.com/r/badmathematics/comments/i9vkpx/do_you_folks_know_about_miles_mathis/)
+[LLM Biases on Controversial Issues](https://arxiv.org/html/2412.04629v3)
 [LLMs Lack Proprietary Knowledge](https://medium.com/data-science-collective/the-limitations-of-llmsin-enterprise-data-engineering-2911af4ff228)

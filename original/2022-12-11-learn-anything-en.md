@@ -14,7 +14,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 2. Find the real expert on the Internet. They really know, and they share a lot, Like the teacher Yin Wang.
 
-3. Find a lot of interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google. 
+3. Find a lot of interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google.
 
 4. Start small. You can watch any short videos or long videos as long as they have English.
 
@@ -32,12 +32,12 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 11. Keep finding ways to learn interestingly. Like using DeepL to translate or Grammarly to check your grammar. Like finding foreign friends to talk to online. Like using simple English words to chat with your Chinese friend on WeChat.
 
-12. The ultimate way is using English to think all the time. Talk to yourself in English all the time.  
+12. The ultimate way is using English to think all the time. Talk to yourself in English all the time.
 
-13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math. 
+13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math.
 
 14. And then you find that you don't need to learn, you just live with it. It is your soulmate, then you live all the time with your soulmate.
 
---- 
+---
 
 Comment: What does life actually do to Zhiwei? Though he lives in China, to survive, he talks to himself in English silently as long as awake.

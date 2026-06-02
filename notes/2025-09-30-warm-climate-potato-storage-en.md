@@ -14,10 +14,10 @@ It looks like you're providing context on the storage conditions—specifically,
 
 ### Impact on Potato Storage and Sprouting
 - **Ideal vs. Your Conditions:** Potatoes store best in cool, dark, dry places at 7-13°C (45-55°F) to slow sprouting and prevent rot. Guangzhou's September climate is consistently warm and humid, which accelerates sprouting and spoilage. At 25-35°C, sprouting can start within days or a week, much faster than in cooler environments—your 20+ days might be enough for heavy sprouting due to the heat.
-  
-- **Are Sprouted Potatoes Still Edible Here?**  
-  Similar rules apply as before: Lightly sprouted ones (small shoots, firm flesh) are generally safe if you trim the sprouts, peel off green areas, and cook well to neutralize solanine. But in tropical-like warmth, the risk of mold, rot, or higher solanine buildup increases. Discard if they're soft, wrinkly, mushy, heavily green, or smelly—don't risk food poisoning.  
-  - **Evidence:** Food safety research (e.g., from organizations like the UN FAO or USDA) shows potatoes in warm climates spoil 2-3x faster due to enzymatic activity and humidity. In places like Guangzhou, aim to store in a cool spot (e.g., shaded room or fridge if possible) and consume sooner.  
+
+- **Are Sprouted Potatoes Still Edible Here?**
+  Similar rules apply as before: Lightly sprouted ones (small shoots, firm flesh) are generally safe if you trim the sprouts, peel off green areas, and cook well to neutralize solanine. But in tropical-like warmth, the risk of mold, rot, or higher solanine buildup increases. Discard if they're soft, wrinkly, mushy, heavily green, or smelly—don't risk food poisoning.
+  - **Evidence:** Food safety research (e.g., from organizations like the UN FAO or USDA) shows potatoes in warm climates spoil 2-3x faster due to enzymatic activity and humidity. In places like Guangzhou, aim to store in a cool spot (e.g., shaded room or fridge if possible) and consume sooner.
 
 ### Tips for Handling in Warm Climates
 - **Short-Term Storage:** Keep them in a breathable bag in a dark, ventilated area away from direct sun or heat sources. A root cellar or even an insulated box with damp sand can help mimic cooler temps.

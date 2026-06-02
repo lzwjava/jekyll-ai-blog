@@ -21,7 +21,7 @@ This is the simplest possible Python program.
 
 ```python
 # This is a comment. Comments are ignored by Python.
-print("Hello, World!") 
+print("Hello, World!")
 ```
 
 **Explanation:**
@@ -40,7 +40,7 @@ name = input("What is your name? ") # Get input from the user
 age_str = input("How old are you? ")
 
 # Convert age from string to integer for calculations
-age = int(age_str) 
+age = int(age_str)
 
 # Basic arithmetic
 year_of_birth = 2023 - age # Assuming current year is 2023 for simplicity

@@ -24,6 +24,6 @@ gpg --delete-key 3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C
 ```
 （系统将提示确认；此操作仅删除公钥，不影响已完成的验证签名）
 
-[Arch Linux ISO 下载页面](https://archlinux.org/download/)  
-[Arch 维基：在 Mac 上安装 Arch Linux](https://wiki.archlinux.org/title/Install_Arch_Linux_on_Mac)  
+[Arch Linux ISO 下载页面](https://archlinux.org/download/)
+[Arch 维基：在 Mac 上安装 Arch Linux](https://wiki.archlinux.org/title/Install_Arch_Linux_on_Mac)
 [Pierre Schmitz 的 GPG 密钥](https://pierre-schmitz.com/gpg-keys/)

@@ -21,7 +21,7 @@ type: note
 
 微信（腾讯的旗舰产品）在AI领域表现非常出色——它不再仅仅是一个聊天应用。腾讯已将混元驱动的功能嵌入其中，如元宝AI聊天机器人（用于在应用内无缝进行自然对话）、AI增强搜索以及用于支付/企业的代理工具（例如企业微信集成）。这推动了巨大的用户参与度，预计每日AI用户将超过1亿，使微信成为中国按规模计算最大的AI应用。
 
-[探索中国领先的AI中心](https://www.china-briefing.com/news/exploring-chinas-leading-ai-hubs-a-regional-analysis/)  
-[中国顶尖的19家开源模型实验室](https://www.linkedin.com/posts/natolambert_chinas-top-19-open-model-labs-from-the-activity-7362872312125140992-bYfg)  
-[腾讯押注微信帝国以在中国AI竞赛中取得领先](https://www.cnbc.com/2025/05/15/tencent-bets-on-wechat-empire-to-get-ahead-in-china-ai-race.html)  
+[探索中国领先的AI中心](https://www.china-briefing.com/news/exploring-chinas-leading-ai-hubs-a-regional-analysis/)
+[中国顶尖的19家开源模型实验室](https://www.linkedin.com/posts/natolambert_chinas-top-19-open-model-labs-from-the-activity-7362872312125140992-bYfg)
+[腾讯押注微信帝国以在中国AI竞赛中取得领先](https://www.cnbc.com/2025/05/15/tencent-bets-on-wechat-empire-to-get-ahead-in-china-ai-race.html)
 [腾讯在微信中添加AI聊天机器人朋友](https://www.scmp.com/tech/big-tech/article/3303934/tencent-adds-ai-chatbot-friend-wechat-keep-users-glued-super-app)

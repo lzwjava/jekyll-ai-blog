@@ -11,7 +11,7 @@ type: note
 
 Question: Which concept of excellent traditional Chinese culture does the path of peaceful development, a characteristic of Chinese modernization, inherit?
 
-Answer: 
+Answer:
 
 The correct answer is **B: 协和万邦 (Harmony among all nations)**.
 

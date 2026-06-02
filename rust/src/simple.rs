@@ -47,37 +47,37 @@ fn describe_shape(shape: &Shape) -> String {
 pub fn run_simple() {
     // Mutable variable binding
     let mut point = Point { x: 3, y: 4 };
-    
+
     // Immutable borrow to call method
     println!("Distance from origin: {}", point.distance_from_origin());
-    
+
     // Mutable borrow to modify point
     point.translate(2, 1);
     println!("After translation: ({}, {})", point.x, point.y);
-    
+
     // Create a shape (ownership transferred to variable)
     let circle = Shape::Circle(point, 5.0);
-    
+
     // Immutable borrow of shape to describe it
     println!("Shape: {}", describe_shape(&circle));
-    
+
     // Vector with ownership of elements
     let mut shapes: Vec<Shape> = Vec::new();
     shapes.push(circle);
     shapes.push(Shape::Rectangle(Point { x: 0, y: 0 }, 10, 20));
-    
+
     // Iterate with immutable borrow
     for shape in &shapes {
         println!("Shape in vec: {}", describe_shape(shape));
     }
-    
+
     // Option and pattern matching
     let maybe_number: Option<i32> = Some(42);
     match maybe_number {
         Some(num) => println!("Got a number: {}", num),
         None => println!("No number"),
     }
-    
+
     // Result for error handling
     let result: Result<i32, &str> = Ok(100);
     if let Ok(value) = result {

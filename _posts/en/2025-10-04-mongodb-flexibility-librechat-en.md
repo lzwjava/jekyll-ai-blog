@@ -16,5 +16,5 @@ A developer from the LibreChat team has noted that MongoDB is "easily distribute
 
 While MySQL and PostgreSQL are robust for transactional, relational data, they would add complexity for LibreChat's semi-structured data like user conversations, endpoints, and metadata. The project doesn't officially support switching to them without custom modifications, though community discussions explore MongoDB-compatible alternatives like FerretDB for fully open-source setups.
 
-[Why LibreChat Uses MongoDB](https://www.librechat.ai/docs/user_guides/mongodb)  
+[Why LibreChat Uses MongoDB](https://www.librechat.ai/docs/user_guides/mongodb)
 [Free/Libre DB instead of MongoDB GitHub Discussion](https://github.com/danny-avila/LibreChat/discussions/3985)

@@ -33,8 +33,8 @@ type: note
 
 ## II. 参考教材
 
-**《计算机程序设计基础》**  
-孙建忠、肖源源、张迎新 主编  
+**《计算机程序设计基础》**
+孙建忠、肖源源、张迎新 主编
 机械工业出版社，2024年版
 
 ---
@@ -228,23 +228,23 @@ int main() {
     int arr[5];
     int i;
     float avg, sum = 0.0;
-    
+
     // 空 1：循环读取 5 个整数到数组 arr
     for (i = 0; i < 5; i++) {
-        ____________________; 
+        ____________________;
     }
-    
+
     // 空 2：循环将数组元素累加到 sum
     for (i = 0; i < 5; i++) {
-        ____________________; 
+        ____________________;
     }
-    
+
     // 空 3：计算平均值（sum 除以元素个数 5）
-    avg = ____________________; 
-    
+    avg = ____________________;
+
     // 空 4：输出平均值，保留 1 位小数
-    ____________________; 
-    
+    ____________________;
+
     return 0;
 }
 ```
@@ -275,21 +275,21 @@ int countOdd(int arr[], int n);
 
 int main() {
     int arr[N], n, cnt;
-    
+
     // 输入数组元素个数
     scanf("%d", &n);
-    
+
     // 输入 n 个整数到数组
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    
+
     // 调用函数统计奇数
     cnt = countOdd(arr, n);
-    
+
     // 输出结果
     printf("Number of odd numbers: %d\n", cnt);
-    
+
     return 0;
 }
 
@@ -301,7 +301,7 @@ int main() {
 ```c
 int countOdd(int arr[], int n) {
     int count = 0; // 初始化奇数计数器为 0
-    
+
     // 遍历数组的前 n 个元素
     for (int i = 0; i < n; i++) {
         // 检查当前元素是否为奇数（除以 2 余数不为 0）
@@ -309,7 +309,7 @@ int countOdd(int arr[], int n) {
             count++; // 奇数计数器加 1
         }
     }
-    
+
     return count; // 返回奇数个数
 }
 ```
@@ -344,13 +344,13 @@ int main() {
     char name[3][11]; // 3 个字符串，每个最多 10 个字符（加 '\0'）
     int score[3];
     char grade; // 存储单个学生的等级
-    
+
     // 输入 3 名学生的信息
     for (int i = 0; i < 3; i++) {
         printf("Please enter the name and score of student %d (separated by space): ", i+1);
         scanf("%s %d", name[i], &score[i]); // 姓名不含空格，使用 %s 输入
     }
-    
+
     // 处理并输出结果
     for (int i = 0; i < 3; i++) {
         // 根据成绩判断等级
@@ -365,11 +365,11 @@ int main() {
         } else {
             grade = 'E';
         }
-        
+
         // 输出结果
         printf("%s: %d-%c\n", name[i], score[i], grade);
     }
-    
+
     return 0;
 }
 ```

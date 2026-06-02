@@ -17,7 +17,7 @@ Yes — your approach is actually very reasonable and quite productive for many 
 
 Here are the most common sane patterns people use in 2025–2026 with Ghostty / WezTerm / Kitty / iTerm2 / Alacritty + tmux/zellij, sorted roughly from "most minimalist" to "more split":
 
-**Very clean & fast Command+Tab style (your style)**  
+**Very clean & fast Command+Tab style (your style)**
 Typical setup for one serious project:
 
 - Window 1 → main editor work (nvim + small splits or just one big file)
@@ -29,12 +29,12 @@ Typical setup for one serious project:
 
 **Even more minimalist variants people actually use**
 
-- 2 windows  
-  - Editor  
+- 2 windows
+  - Editor
   - Everything else in tmux/zellij (split panes: run + logs + git + repl)
 
-- 1 window only  
-  - Full-screen nvim + toggle term (toggleterm.nvim, neovim built-in :terminal, or kitty/konsole dropdown)  
+- 1 window only
+  - Full-screen nvim + toggle term (toggleterm.nvim, neovim built-in :terminal, or kitty/konsole dropdown)
   - Or full-screen zellij with many panes
 
 **Why 3–4 is usually a sweet spot (without tabs)**
@@ -71,6 +71,6 @@ Just add these tiny habits and it becomes even smoother:
 
 You're not doing anything weird — many experienced developers settled on roughly this pattern.
 
-**References:**  
+**References:**
 
 - None (this is workflow advice based on common developer patterns observed in recent years)

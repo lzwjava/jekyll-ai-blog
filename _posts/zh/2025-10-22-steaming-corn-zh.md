@@ -34,6 +34,6 @@ type: note
 
 如果“蜜封”或“air strict”指的是特定品种、品牌或工具（比如空气炸锅？），请提供更多细节，我可以给出更有针对性的建议。祝你下一锅玉米蒸制成功！
 
-[蒸玉米棒小贴士](https://www.thekitchn.com/best-method-cook-corn-skills-showdown-23045869)  
-[补救干玉米的方法](https://www.bonappetit.com/test-kitchen/ingredients/article/what-to-do-with-bad-corn)  
+[蒸玉米棒小贴士](https://www.thekitchn.com/best-method-cook-corn-skills-showdown-23045869)
+[补救干玉米的方法](https://www.bonappetit.com/test-kitchen/ingredients/article/what-to-do-with-bad-corn)
 [电饭煲蒸制指南](https://eatlittlebird.com/steamed-rice-with-corn/)

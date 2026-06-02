@@ -12,7 +12,7 @@ type: note
 
 Question: How about using C/C++ to implement a proxy application like Clash?
 
-Answer: 
+Answer:
 
 Implementing a **full-featured Clash-like proxy client** (with 100+ protocol variants, TUN transparent proxy, fake-IP, advanced rule engine, Clash Meta API compatibility, etc.) in **pure C or C++** is more feasible than in Java, but still **very challenging** and rare in practice as of February 2026. No major, actively maintained project has fully rewritten **mihomo** (Clash Meta) or **sing-box** in C/C++ — the ecosystem remains dominated by **Go** (mihomo / Clash Premium) and **Rust** (sing-box).
 
@@ -98,7 +98,7 @@ That said, C/C++ offers excellent performance, low-level control (especially for
 
 In short: C/C++ can deliver a **faster, leaner** proxy than Go/Rust in many cases, especially for TUN-heavy or low-resource scenarios — but achieving **full Clash compatibility** remains extremely time-intensive and is why almost nobody has done it.
 
-References:  
+References:
 
 - [wtdcode/tun2socks GitHub (pure C++ tun2socks)](https://github.com/wtdcode/tun2socks)
 - [shadowsocks-libev (high-performance C Shadowsocks)](https://github.com/shadowsocks/shadowsocks-libev)

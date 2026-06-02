@@ -35,7 +35,7 @@ type: note
 ```html
 <select>
   @for (opt of dropdownOptions; track opt.id) {
-    <option 
+    <option
       [value]="opt.id"
       [ngClass]="{
         'text-red': opt.isUrgent,

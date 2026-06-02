@@ -12,7 +12,7 @@ type: note
 
 Question: How to fix the error "unknown MCP server 'files'" when calling files.read_mcp_resource in Codex?
 
-Answer: 
+Answer:
 
 The error occurs because Codex (OpenAI's coding agent/CLI tool) is trying to use the **MCP** (Model Context Protocol) function `read_mcp_resource` (or similar: `files.read_mcp_resource`) to access a file, but there is **no MCP server** actually named `"files"` configured or running in your environment.
 
@@ -23,7 +23,7 @@ Codex's model sometimes confuses normal file reading with MCP-based reading (esp
 
 ### How to fix it
 
-1. **Most common & quick solution**  
+1. **Most common & quick solution**
    Just **tell Codex explicitly in the chat / prompt** to stop using MCP for file operations:
 
    ```
@@ -37,7 +37,7 @@ Codex's model sometimes confuses normal file reading with MCP-based reading (esp
 
    Then re-ask your original request.
 
-2. **If you want real filesystem access via MCP (optional, advanced)**  
+2. **If you want real filesystem access via MCP (optional, advanced)**
    You can actually set up a local filesystem MCP server (several community ones exist), and name it `"files"` so the call would work:
 
    - Search GitHub for "filesystem MCP server" or "local files MCP Codex"
@@ -59,10 +59,10 @@ Codex's model sometimes confuses normal file reading with MCP-based reading (esp
    - Explicitly ask: "list_mcp_resources" → if it shows empty or no "files", that's confirmation there is no such server
    - Downgrade model temporarily (if using preview models like gpt-5-codex) — some versions hallucinate MCP more
 
-In short:  
+In short:
 The cleanest fix is usually **explicitly forbidding MCP file calls in your prompt** — Codex listens very well to such instructions.
 
-References:  
+References:
 
 - [Model sometimes tries to use MCP tool to read skills](https://github.com/openai/codex/issues/7639)
 - [Codex not finding MCP servers](https://github.com/openai/codex/issues/6215)

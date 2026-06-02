@@ -11,7 +11,7 @@ type: note
 
 Question: From the perspective of preventing computer viruses, good computer usage habits combined with the use of antivirus software can greatly reduce the risk of what?
 
-Answer: 
+Answer:
 
 Good computer usage habits combined with the use of antivirus software can greatly reduce the risk of **computer virus infection** (or simply **infection**).
 

@@ -11,7 +11,7 @@ type: note
 
 问题：对于那些追逐金钱、名声或所谓社会成功的人，他们在生活中是否经常受挫？因为更好的工作、product-market fit 或 startup 成功都需要耐心和理性思考，而想要快速致富或名声则会导致不耐心和浅薄思考。
 
-回答： 
+回答：
 
 是的，有大量证据和心理学洞见支持这样的观点：那些主要追逐**快速致富**、**名声**或“社会成功”的 superficial markers 的人往往在生活中面临挫折、失败或不满。这种模式源于驱动此类追求的**不耐心**和**短期焦点**与职业、startup、投资或技能建设等领域真正可持续成就的**长期要求**之间的不匹配。
 
@@ -27,7 +27,7 @@ type: note
 
 简而言之，“快速追逐”心态经常导致“受挫”（财务、职业或情感上），因为大多数竞争领域的高水平成功远更奖励耐心、深度和现实思考，而不是捷径或炒作。
 
-参考文献：  
+参考文献：
 
 - [Why Start-ups Fail (Harvard Business Review)](https://hbr.org/2021/05/why-start-ups-fail)
 - [The Marshmallow Experiment and the Power of Delayed Gratification](https://jamesclear.com/delayed-gratification)

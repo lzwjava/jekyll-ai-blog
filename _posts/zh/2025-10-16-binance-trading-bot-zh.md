@@ -40,6 +40,6 @@ type: note
 
 这些策略支持组合使用或自定义参数，可通过调整设置适配趋势跟踪或高频刷单等场景。
 
-[币安交易机器人深度评测（2025）](https://www.cryptoninjas.net/exchange/binance-trading-bot/)  
-[什么是加密货币交易机器人及其运作原理？](https://academy.binance.com/en/articles/what-are-crypto-trading-bots-and-how-do-they-work)  
+[币安交易机器人深度评测（2025）](https://www.cryptoninjas.net/exchange/binance-trading-bot/)
+[什么是加密货币交易机器人及其运作原理？](https://academy.binance.com/en/articles/what-are-crypto-trading-bots-and-how-do-they-work)
 [币安交易机器人：如何自动化实现成功交易？](https://www.bitdegree.org/crypto/tutorials/binance-trading-bots)

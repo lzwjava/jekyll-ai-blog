@@ -116,7 +116,7 @@ type: note
 
   public class Main {
       public static void main(String[] args) {
-          AnnotationConfigApplicationContext context = 
+          AnnotationConfigApplicationContext context =
               new AnnotationConfigApplicationContext(AppConfig.class);
           MyService service = context.getBean(MyService.class);
           service.doSomething();
@@ -132,7 +132,7 @@ type: note
 
   public class Main {
       public static void main(String[] args) {
-          ClassPathXmlApplicationContext context = 
+          ClassPathXmlApplicationContext context =
               new ClassPathXmlApplicationContext("beans.xml");
           MyService service = context.getBean("myService", MyService.class);
           service.doSomething();

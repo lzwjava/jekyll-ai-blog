@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to Louis Gerstner.
 
-Answer: 
+Answer:
 
 Louis Vincent Gerstner Jr. (March 1, 1942 – December 27, 2025) was an influential American businessman widely regarded as one of the most successful corporate turnaround executives in history. He is best known for leading IBM from near-collapse in the 1990s to renewed profitability and relevance, transforming it into a services-oriented technology giant.
 
@@ -52,7 +52,7 @@ Gerstner's IBM turnaround is studied as a classic case in business schools, demo
 
 Gerstner passed away on December 27, 2025, at age 83, just days before the current date.
 
-References:  
+References:
 
 - [Lou Gerstner - Wikipedia](https://en.wikipedia.org/wiki/Lou_Gerstner)
 - [Louis V. Gerstner, Who Revived a Faltering IBM in the ’90s, Dies at 83 - The New York Times](https://www.nytimes.com/2025/12/29/business/louis-v-gerstner-dead.html)

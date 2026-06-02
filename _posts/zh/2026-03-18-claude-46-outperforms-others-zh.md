@@ -29,8 +29,8 @@ Anthropic 的 Claude Sonnet 4.6（2026 年 2 月 17 日发布）和 Claude Opus 
 
 简而言之，并不是其他模型“差”——它们只是优化方向不同。Claude Sonnet 4.6 和 Opus 4.6 代表了专为最艰难编码挑战而工程化的代际飞跃。
 
-**参考文献：**  
-- [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)  
-- [Introducing Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)  
-- [Claude Sonnet 4.6 vs Gemini 3 Flash comparison](https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gemini-3-flash-ai-model-comparison-2026)  
+**参考文献：**
+- [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)
+- [Introducing Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)
+- [Claude Sonnet 4.6 vs Gemini 3 Flash comparison](https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gemini-3-flash-ai-model-comparison-2026)
 - [Claude Opus 4.6 vs Sonnet 4.6 Coding Comparison](https://dev.to/tensorlake/claude-opus-46-vs-sonnet-46-coding-comparison-55jn)

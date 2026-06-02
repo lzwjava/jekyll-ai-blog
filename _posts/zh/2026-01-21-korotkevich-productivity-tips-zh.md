@@ -12,7 +12,7 @@ type: note
 
 **Question:** 关于保持专注，Gennady "tourist" Korotkevich 有哪些建议？
 
-**Answer:** 
+**Answer:**
 
 Gennady Korotkevich 在竞争性编程（Competitive Programming）界以其 ID **tourist** 闻名遐迩，他因在压力巨大的编程竞赛中保持高度**专注（Focus）**的非凡能力而极具传奇色彩。虽然他没有发布过专门的“专注技巧”列表，但从他的采访、直播、参赛行为以及社群观察中，可以总结出他在编程和解决问题时所体现或间接分享的几个关于集中注意力和效率的核心原则。
 
@@ -32,7 +32,7 @@ Gennady Korotkevich 在竞争性编程（Competitive Programming）界以其 ID 
 
 如果你在寻找直接的引用，最接近的公开资源是他的“Day Zero: Tips and Tricks from Gennady Korotkevich”演讲（基于 ICPC 经验），不过该演讲更多关注通用的 Competitive Programming 策略，而非纯粹的专注技巧。
 
-**References:**  
+**References:**
 
 - [Day Zero: Tips and Tricks from Gennady Korotkevich (YouTube)](https://www.youtube.com/watch?v=cB5jSWxYmrs)
 - [Greeting and an interview with the legendary Gennady Korotkevich (Codeforces)](https://codeforces.com/blog/entry/67525)

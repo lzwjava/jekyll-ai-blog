@@ -62,22 +62,22 @@ CHUNK_DURATION_SECS = 600  # 每块10分钟；根据需要调整（例如，900�
 def split_audio_file(input_file, chunk_duration_secs=CHUNK_DURATION_SECS):
     """
     使用 FFmpeg 将音频文件分割成更小的块。
-    
+
     参数：
         input_file: 输入音频路径。
         chunk_duration_secs: 每块的持续时间（秒）。
-    
+
     返回：
         块文件路径列表。
     """
     filename = os.path.basename(input_file)
     name_without_ext = os.path.splitext(filename)[0]
     dir_name = os.path.dirname(input_file)
-    
+
     # 为块创建临时目录
     temp_dir = tempfile.mkdtemp()
     chunk_files = []
-    
+
     # FFmpeg 命令（无需重新编码以提高速度）
     cmd = [
         "ffmpeg", "-i", input_file,
@@ -88,7 +88,7 @@ def split_audio_file(input_file, chunk_duration_secs=CHUNK_DURATION_SECS):
         f"{temp_dir}/{name_without_ext}_chunk_%03d.{os.path.splitext(filename)[1][1:]}",  # 输出模式
         "-y"  # 覆盖
     ]
-    
+
     try:
         subprocess.run(cmd, check=True, capture_output=True)
         # 查找生成的块
@@ -157,10 +157,10 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
 
     print(f"开始为 {filename} 进行批量识别...")
     operation = client.batch_recognize(request=request)
-    
+
     # 轮询进度（详见下文）
     poll_operation_with_progress(operation, filename)
-    
+
     response = operation.result(timeout=3 * CHUNK_DURATION_SECS)  # 每块更短的超时时间
     print(f"完成 {filename} 的转录。响应：{response}")
     return response
@@ -178,7 +178,7 @@ def poll_operation_with_progress(operation, filename):
                   f"已处理={getattr(metadata, 'progress_bytes', 'N/A')} 字节")
         except Exception:
             print(f"等待 {filename}...（每30秒检查一次）")
-        
+
         time.sleep(30)  # 每30秒轮询一次
     if operation.exception():
         raise operation.exception()
@@ -225,7 +225,7 @@ def process_audio_file(input_file, output_dir):
         chunk_filename = os.path.basename(chunk_file)
         base_name = os.path.splitext(filename)[0]
         chunk_name = f"{base_name}_chunk_{chunk_idx+1:03d}"
-        
+
         # 构建 GCS 路径
         gcs_audio_uri = f"gs://test2x/audio-files/{chunk_filename}"
         gcs_output_uri = f"gs://test2x/transcripts/{chunk_name}"

@@ -29,8 +29,8 @@ type: note
 
 深度探索可参阅《暗时间》（第二版），收录38篇博客文章，多聚焦心理学主题。
 
-[如何评价刘未鹏《暗时间》](https://en.zhihu.com/answer/131577580)  
-[为何部分年轻人具备超凡认知能力](https://www.moneymind.blog/posts/dark-time-cognitive-advantage-young-minds)  
-[中国畅销书目录（暗时间简介）](https://chinese-publishers.com/wp-content/uploads/2025/09/Chinese-Bestselling-Books-2025-Frankfurt-Book-Fair-Rights-Catalog.pdf)  
-[暗时间相关文章链接](https://www.carzyuncle.com/2853.html)  
+[如何评价刘未鹏《暗时间》](https://en.zhihu.com/answer/131577580)
+[为何部分年轻人具备超凡认知能力](https://www.moneymind.blog/posts/dark-time-cognitive-advantage-young-minds)
+[中国畅销书目录（暗时间简介）](https://chinese-publishers.com/wp-content/uploads/2025/09/Chinese-Bestselling-Books-2025-Frankfurt-Book-Fair-Rights-Catalog.pdf)
+[暗时间相关文章链接](https://www.carzyuncle.com/2853.html)
 [BetterExplained：如何高效记忆与学习](https://m.douban.com/note/322736693/)

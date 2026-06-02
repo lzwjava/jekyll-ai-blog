@@ -12,7 +12,7 @@ type: note
 
 Question: What is the story of Zhang Xue related to motorcycles?
 
-Answer: 
+Answer:
 
 Zhang Xue is a prominent figure in the Chinese motorcycle industry, known for his rags-to-riches journey and passion for motorcycles.
 
@@ -28,10 +28,10 @@ In late 2024, at the Chongqing Motorcycle Show, he debuted the brand's first mod
 
 Zhang Xue's story is inspirational in the motorcycle community: from a poor rural kid chasing dreams on a beat-up bike to building successful brands and competing globally. His company reportedly generates significant revenue, and he's often compared to visionary leaders in the industry.
 
-References:  
+References:
 
-- https://www.scmp.com/news/people-culture/china-personalities/article/3334052/chinese-man-chases-tv-crew-100km-show-motorcycle-skills-now-owns-us99-million-firm  
-- https://news.imotorbike.com/en/2024/11/zhang-xue-kove-moto-chongqing/  
-- https://www.rideapart.com/news/739322/kove-former-ceo-founder-zhang-xue/  
-- https://www.advrider.com/look-where-koves-big-boss-ended-up/  
+- https://www.scmp.com/news/people-culture/china-personalities/article/3334052/chinese-man-chases-tv-crew-100km-show-motorcycle-skills-now-owns-us99-million-firm
+- https://news.imotorbike.com/en/2024/11/zhang-xue-kove-moto-chongqing/
+- https://www.rideapart.com/news/739322/kove-former-ceo-founder-zhang-xue/
+- https://www.advrider.com/look-where-koves-big-boss-ended-up/
 - https://barebonesmc.com/shock-news-kove-resignation/

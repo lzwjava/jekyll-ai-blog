@@ -23,5 +23,5 @@ type: note
 
 如需查看完整地址列表或确认设备运行状态，可登录广州公安官方网站或通过微信公众号等平台获取实时信息。
 
-[广州24小时港澳签注自助机分布图](https://m.gz.bendibao.com/life/334636.html)  
+[广州24小时港澳签注自助机分布图](https://m.gz.bendibao.com/life/334636.html)
 [广州公安：港澳通行证及签注办理指南](https://gaj.gz.gov.cn/jmhd/zsk/crj/content/post_9641770.html)

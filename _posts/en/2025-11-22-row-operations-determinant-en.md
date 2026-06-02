@@ -14,7 +14,7 @@ That's a great question! Let's address the row operations and their effect on th
 
 ## 📐 Achieving Row Echelon Form (REF)
 
-You are correct that **swapping rows**, **multiplying a row by a scalar**, and **adding a multiple of one row to another** are the three elementary row operations used to achieve **Row Echelon Form (REF)**. 
+You are correct that **swapping rows**, **multiplying a row by a scalar**, and **adding a multiple of one row to another** are the three elementary row operations used to achieve **Row Echelon Form (REF)**.
 
 ---
 

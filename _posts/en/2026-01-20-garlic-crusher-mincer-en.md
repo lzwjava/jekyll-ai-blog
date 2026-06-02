@@ -12,7 +12,7 @@ type: note
 
 Question: What are the advantages of using a wooden garlic crusher compared to a garlic mincer tool, and what are the differences?
 
-Answer: 
+Answer:
 
 A **wooden garlic crusher** is typically a manual tool (often a wooden pestle-like masher, hammer, or rocker-style crusher) used to smash or grind garlic, usually against a cutting board or in a bowl. A **garlic mincer tool** (also called a garlic press or chopper) is most commonly a metal (or sometimes plastic) lever-operated press that forces peeled or unpeeled garlic cloves through small holes to create a fine mince or paste.
 
@@ -37,7 +37,7 @@ A **wooden garlic crusher** is typically a manual tool (often a wooden pestle-li
 
 Both tools save time compared to knife-mincing, but the choice often comes down to personal taste in garlic intensity and kitchen workflow.
 
-References:  
+References:
 
 - [https://www.seriouseats.com/how-to-mince-chop-garlic-microplane-vs-garlic-press](https://www.seriouseats.com/how-to-mince-chop-garlic-microplane-vs-garlic-press)
 - [https://dorotgardens.com/crushed-garlic-vs-minced](https://dorotgardens.com/crushed-garlic-vs-minced)

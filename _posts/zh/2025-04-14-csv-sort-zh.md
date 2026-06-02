@@ -20,19 +20,19 @@ def main():
     # 设置参数解析器
     parser = argparse.ArgumentParser(description='对单行CSV文件进行字母顺序排序')
     parser.add_argument('file_path', help='输入CSV文件的路径')
-    
+
     # 解析参数
     args = parser.parse_args()
-    
+
     try:
         # 获取目录和文件名
         file_dir = os.path.dirname(args.file_path)
         file_name = os.path.basename(args.file_path)
-        
+
         # 创建输出文件名
         base_name, ext = os.path.splitext(file_name)
         output_file = os.path.join(file_dir, f"{base_name}_sorted{ext}")
-        
+
         # 读取输入CSV文件
         with open(args.file_path, 'r') as file:
             reader = csv.reader(file)
@@ -40,17 +40,17 @@ def main():
             for row in reader:
                 values = row
                 break
-        
+
         # 按字母顺序排序值
         sorted_values = sorted(values)
-        
+
         # 写入输出文件
         with open(output_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(sorted_values)
-        
+
         print(f"成功排序值并保存到 {output_file}")
-        
+
     except FileNotFoundError:
         print(f"错误：未找到文件 '{args.file_path}'")
     except Exception as e:

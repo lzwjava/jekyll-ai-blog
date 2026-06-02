@@ -12,7 +12,7 @@ type: note
 
 Question: What are the disadvantages and shortcomings of the Nezha V?
 
-Answer: 
+Answer:
 
 The Nezha V (哪吒V) is an entry-level pure electric small SUV with a very low price, but real owner feedback and reviews highlight several clear shortcomings. These mainly involve weak performance, poor real-world range, quality/reliability issues, terrible after-sales service, and — especially in 2025–2026 — major company-level crises that have made ownership very risky.
 
@@ -47,11 +47,11 @@ The Nezha V (哪吒V) is an entry-level pure electric small SUV with a very low 
 - Brand awareness and trust remain weak; exterior design is polarizing.
 - Early delivery delays were also a frequent complaint when the model first launched.
 
-**Summary**  
-The Nezha V can be an ultra-cheap option for very short urban commutes on a tight budget, but it is **not recommended** for families, long trips, or anyone who values reliability and future support.  
-Especially now (2026), buying a new or used Nezha V carries extremely high risk due to the company’s near-collapse and widespread lack of parts & service.  
+**Summary**
+The Nezha V can be an ultra-cheap option for very short urban commutes on a tight budget, but it is **not recommended** for families, long trips, or anyone who values reliability and future support.
+Especially now (2026), buying a new or used Nezha V carries extremely high risk due to the company’s near-collapse and widespread lack of parts & service.
 
 Better alternatives in the same price range usually include the BYD Dolphin, Wuling Bingo / Starlight Mini, or other small EVs from more stable brands. Always test drive thoroughly and check the latest owner groups / complaint platforms before deciding.
 
-References:  
+References:
 - None (information synthesized from multiple Chinese owner forums, complaint platforms, and industry news up to early 2026; no single URL is authoritative enough to list alone)

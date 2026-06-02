@@ -16,6 +16,6 @@ While his work centers on quantum phenomena in 2D materials rather than classica
 
 In short, not only does he grasp the basics you described—he's pushed the boundaries of it in nanoscale quantum electronics.
 
-[Unconventional superconductivity in magic-angle graphene superlattices](http://ciqm.harvard.edu/uploads/2/3/3/4/23349210/cao_fatemi_fang2018.pdf)  
-[Physicists create tunable superconductivity in twisted graphene 'nanosandwich'](https://physics.mit.edu/news/physicists-create-tunable-superconductivity-in-twisted-graphene-nanosandwich/)  
+[Unconventional superconductivity in magic-angle graphene superlattices](http://ciqm.harvard.edu/uploads/2/3/3/4/23349210/cao_fatemi_fang2018.pdf)
+[Physicists create tunable superconductivity in twisted graphene 'nanosandwich'](https://physics.mit.edu/news/physicists-create-tunable-superconductivity-in-twisted-graphene-nanosandwich/)
 [Entropic evidence for a Pomeranchuk effect in magic angle graphene](https://ciqm.harvard.edu/uploads/2/3/3/4/23349210/rozen_inpress.pdf)

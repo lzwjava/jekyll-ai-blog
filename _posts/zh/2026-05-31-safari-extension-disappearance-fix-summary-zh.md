@@ -27,7 +27,7 @@ type: note
    - `SafariWebExtensionHandler.swift`（原生消息处理器）
    - `Info.plist`（扩展bundle配置）
    - `Resources/`（popup.html、popup.js、manifest.json、css/、js/、img/）
-   
+
    缺少这些文件，导致从干净的克隆中无法构建扩展目标。
 
 3. **Bundle ID大小写不匹配**

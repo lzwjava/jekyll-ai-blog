@@ -26,16 +26,16 @@ However, when he flows eastward to the Northern Sea and beholds its limitless ex
 
 ### Central Philosophical Themes
 
-**Relativism and Perspectivism**  
+**Relativism and Perspectivism**
 The chapter argues that all human judgments are relative to our limited standpoint. Size, value, knowledge, and even truth itself are contextual rather than absolute. What appears enormous from one perspective is tiny from another; what seems precious in one context is worthless in another.
 
-**The Limits of Language and Knowledge**  
+**The Limits of Language and Knowledge**
 "Qiushui" emphasizes that language inevitably fails to capture the fullness of reality (道 *Dao*). Words create artificial distinctions and categories that don't reflect the fluid, interconnected nature of existence. True understanding requires going beyond conceptual thinking.
 
-**The Danger of Partiality**  
+**The Danger of Partiality**
 The text critiques the human tendency to mistake partial knowledge for complete understanding, using the famous metaphor of the frog in the well who knows nothing of the great ocean. This warns against intellectual arrogance and the limitations of conventional wisdom.
 
-**Spontaneity and Naturalness**  
+**Spontaneity and Naturalness**
 Like much Daoist philosophy, "Qiushui" advocates for *ziran* (自然, "self-so-ness" or naturalness), suggesting we should align ourselves with the natural flow of things rather than imposing artificial human standards and values.
 
 ### Literary Style and Rhetorical Devices

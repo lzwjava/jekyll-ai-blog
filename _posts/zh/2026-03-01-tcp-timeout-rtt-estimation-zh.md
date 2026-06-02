@@ -77,7 +77,7 @@ TimeoutInterval = EstimatedRTT + 4 × DevRTT
 
 （注：此视频为 2 部分中的第 1 部分。它通常在 Fast Retransmit 介绍和基本重传场景结束。第 2 部分继续讨论更复杂的丢失场景、selective acknowledgments (SACK)、使用 receive window 的 flow control，以及连接管理的 three-way handshake。）
 
-参考资料：  
+参考资料：
 
 - [YouTube Video: 3.5-1 TCP Reliability, Flow Control, and Connection Management](https://www.youtube.com/watch?v=UYJP-6mhF6E)
 - [Playlist: Computer Networking: A Top-Down Approach - All Chapters](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)

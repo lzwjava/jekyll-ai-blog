@@ -22,7 +22,7 @@ The report surveyed over 10,000 affluent adults across 12 global markets. Here a
 * **Duration and Timing:**
     * **Preferred Duration:** 6 to 12 months.
     * **Ideal Age for First Break:** Approximately **47 years old** globally (though in India, the ideal age is slightly younger at 44).
-* **The Motivation Shift:** * **87%** of people who have taken a micro-retirement report an improvement in their overall quality of life. 
+* **The Motivation Shift:** * **87%** of people who have taken a micro-retirement report an improvement in their overall quality of life.
     * Top reasons include spending quality time with family (34%), traveling without work constraints (30%), and focusing on personal wellbeing or career pivots (25-28%).
 * **Generational Drivers:** Gen Z and Millennials are leading the trend. They aspire to take an average of **3.0 mini-retirements**, viewing them as opportunities for personal development or starting a business rather than just a "rest."
 

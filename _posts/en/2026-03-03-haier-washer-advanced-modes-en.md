@@ -11,7 +11,7 @@ type: note
 
 Question: What other modes are available on a Haier washer besides 新衣, 混合, 丝绸, 摇篮柔洗, and 定时?
 
-Answer: 
+Answer:
 
 Haier washing machines (particularly front-load/roller models common in Asia/China) include many additional specialized wash programs beyond the ones you mentioned. The exact list varies by model series (e.g., crystal drum, smart series, or specific like HW or XQG lines), but here are the most common additional modes found across Haier washers:
 
@@ -59,7 +59,7 @@ Many models also have:
 
 Check your model's control panel or user manual (search online by model number) for the exact icons/names, as some are combined or renamed. Most Haier machines let you adjust temperature, spin speed, and extras (like extra rinse or steam) on top of the base program.
 
-References:  
+References:
 
 - [Haier India Blog - Washing Machine Cycles](https://shop.haierindia.com/blog/washing-machine-cycles-best-settings)
 - [Haier Washing Machine Programs Guide](https://guide.washerhouse.com/en/rezhimy-sm-haier)

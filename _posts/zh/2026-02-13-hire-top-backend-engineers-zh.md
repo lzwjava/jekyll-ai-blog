@@ -12,7 +12,7 @@ type: note
 
 Question: 招聘 Backend 工程师的最佳方式是什么？
 
-Answer: 
+Answer:
 
 在 2026 年，招聘 Backend 工程师的竞争依然激烈 —— 优秀的人才通常手握多个 Offer，且往往更倾向于被直接联系，而不是去投递通用的职位发布。
 
@@ -82,7 +82,7 @@ Answer:
 
 选择 2–3 个符合你预算和时间表的渠道并并行推进 —— 仅等待单一来源很少会有好结果。
 
-References:  
+References:
 
 - [How to Hire the Perfect Backend Developer in 2026](https://ixceed-solutions.com/how-to-hire-the-perfect-backend-developer)
 - [How to Hire Software Engineers in 2026 - Juicebox](https://juicebox.ai/blog/how-to-hire-software-engineers)

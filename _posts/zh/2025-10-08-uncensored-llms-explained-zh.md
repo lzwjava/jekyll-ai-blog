@@ -65,8 +65,8 @@ type: note
 
 深度探索推荐资源：
 
-[无审查大语言模型完全指南](https://docs.jarvislabs.ai/blog/llm_uncensored)  
-[DeepSeek-R1蒸馏模型详解](https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d)  
-[Dolphin Mistral无审查版使用指南](https://www.youtube.com/watch?v=yqMBI_Q0_Yc)  
-[Liberated Qwen模型概述](https://venturebeat.com/ai/meet-liberated-qwen-an-uncensored-llm-that-strictly-adheres-to-system-prompts)  
+[无审查大语言模型完全指南](https://docs.jarvislabs.ai/blog/llm_uncensored)
+[DeepSeek-R1蒸馏模型详解](https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d)
+[Dolphin Mistral无审查版使用指南](https://www.youtube.com/watch?v=yqMBI_Q0_Yc)
+[Liberated Qwen模型概述](https://venturebeat.com/ai/meet-liberated-qwen-an-uncensored-llm-that-strictly-adheres-to-system-prompts)
 [Qwen 2.5-32B无审查版试用](https://eduardo-rogers.medium.com/you-can-try-uncensored-qwen-2-5-32b-model-here-3560e31cc3b5)

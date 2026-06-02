@@ -14,7 +14,7 @@ type: note
 
 xdotool is a command-line automation tool for X11 (Linux desktop environments) that allows you to:
 - Control mouse movements and clicks
-- Send keystrokes to applications  
+- Send keystrokes to applications
 - Manipulate windows (move, resize, focus)
 - Search for windows by various criteria
 - Automate desktop interactions programmatically

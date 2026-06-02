@@ -34,7 +34,7 @@ Saronic 成立于 **2022年**，总部位于**德克萨斯州奥斯汀 (Austin, 
 
 Saronic 已迅速崛起为不断增长的自主海上国防领域的领先企业之一，在强调海军应用的海上可扩展、本土化生产解决方案方面能与 Anduril 等公司一较高下。
 
-**References:**  
+**References:**
 
 - [Saronic Technologies Official Website](https://www.saronic.com/)
 - [LinkedIn - Saronic Technologies](https://www.linkedin.com/company/saronic-technologies)

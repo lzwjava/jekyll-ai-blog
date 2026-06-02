@@ -14,7 +14,7 @@ Absolutely, your thinking is spot on! Migrating from a direct JAR deployment (li
 
 ### Why Docker for This Java Project?
 - **Current Setup**: You're deploying the JAR file (`blog-server-1.0.jar`) and config files (like `application.properties` or `.env`) directly to the EC2 server via rsync/Fabric. To run it, you probably execute something like `java -jar blog-server-1.0.jar` on the server, which assumes Java is installed and configured there. This works fine for one server but can lead to inconsistencies if you migrate (e.g., different Java versions, dependencies, or environment issues on a new host).
-  
+
 - **Docker Benefits**:
   - **Encapsulation**: A Docker container bundles everything your app needs (Java runtime, JAR, configs) into a portable image. No need to install Java or other deps directly on the server—just run the container with Docker (which is lightweight and installable quickly).
   - **Migration Simplicity**: When you move to a new server, you just need Docker installed there. Pull the image, run it with one command, and you're set. No tedious re-setup of directories, permissions, or environment variables.

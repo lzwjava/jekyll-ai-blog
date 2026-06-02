@@ -40,6 +40,6 @@ type: note
 
 完整条款请访问中银香港官网。若近期出行，建议先在香港进行小额取现测试。
 
-[中银卡详情](https://www.bochk.com/en/more/boccard/personal.html)  
-[中银香港服务收费](https://www.bochk.com/en/servicecharge.html)  
+[中银卡详情](https://www.bochk.com/en/more/boccard/personal.html)
+[中银香港服务收费](https://www.bochk.com/en/servicecharge.html)
 [银联全球受理网络](https://www.unionpayintl.com/en/)

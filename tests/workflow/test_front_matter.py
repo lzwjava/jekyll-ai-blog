@@ -85,7 +85,7 @@ def scan_markdown_files_for_front_matter_issues():
                             }
                         )
 
-                except (UnicodeDecodeError, IOError) as e:
+                except (UnicodeDecodeError, IOError):
                     # Skip files that can't be read
                     continue
 

@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Andy Rubin, Android's founder.
 
-Answer: 
+Answer:
 
 Andy Rubin, born Andrew E. Rubin on March 13, 1963, in Chappaqua, New York, is an American computer programmer, engineer, entrepreneur, and venture capitalist best known as the co-founder and "father" of the Android operating system, which powers the majority of smartphones worldwide.
 
@@ -47,7 +47,7 @@ As of late 2025, reports indicate Rubin is working on a stealth humanoid robotic
 
 Rubin's contributions revolutionized mobile computing, making smartphones accessible and open-source driven, but his legacy is complex due to professional achievements intertwined with personal controversies.
 
-References:  
+References:
 
 - [Wikipedia: Andy Rubin](https://en.wikipedia.org/wiki/Andy_Rubin)
 - [The New York Times: How Google Protected Andy Rubin](https://www.nytimes.com/2018/10/25/technology/google-sexual-harassment-andy-rubin.html)

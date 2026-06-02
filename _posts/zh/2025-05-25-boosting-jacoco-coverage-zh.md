@@ -90,23 +90,23 @@ type: note
 // 服务层测试
 @ExtendWith(MockitoExtension.class)
 class UserServiceTest {
-    
+
     @Mock
     private UserRepository userRepository;
-    
+
     @InjectMocks
     private UserService userService;
-    
+
     @Test
     void shouldCreateUserSuccessfully() {
         // 前置条件
         UserRequest request = new UserRequest("john", "john@email.com");
         User user = User.builder().name("john").email("john@email.com").build();
         when(userRepository.save(any(User.class))).thenReturn(user);
-        
+
         // 操作
         UserResponse response = userService.createUser(request);
-        
+
         // 断言
         assertThat(response.getName()).isEqualTo("john");
         verify(userRepository).save(any(User.class));
@@ -116,22 +116,22 @@ class UserServiceTest {
 // 仓库层测试
 @DataJpaTest
 class UserRepositoryTest {
-    
+
     @Autowired
     private TestEntityManager entityManager;
-    
+
     @Autowired
     private UserRepository userRepository;
-    
+
     @Test
     void shouldFindByEmail() {
         // 前置条件
         User user = User.builder().name("john").email("john@email.com").build();
         entityManager.persist(user);
-        
+
         // 操作
         Optional<User> found = userRepository.findByEmail("john@email.com");
-        
+
         // 断言
         assertThat(found).isPresent();
         assertThat(found.get().getName()).isEqualTo("john");
@@ -145,22 +145,22 @@ class UserRepositoryTest {
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @TestPropertySource(locations = "classpath:application-test.properties")
 class UserIntegrationTest {
-    
+
     @Autowired
     private TestRestTemplate restTemplate;
-    
+
     @Test
     void shouldCreateUserViaApi() {
         // 前置条件
         UserRequest request = new UserRequest("john", "john@email.com");
-        
+
         // 操作
         ResponseEntity<UserResponse> response = restTemplate.postForEntity(
-            "/api/users", 
-            request, 
+            "/api/users",
+            request,
             UserResponse.class
         );
-        
+
         // 断言
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
         assertThat(response.getBody().getName()).isEqualTo("john");
@@ -172,19 +172,19 @@ class UserIntegrationTest {
 ```java
 @WebMvcTest(UserController.class)
 class UserControllerTest {
-    
+
     @Autowired
     private MockMvc mockMvc;
-    
+
     @MockBean
     private UserService userService;
-    
+
     @Test
     void shouldReturnUserById() throws Exception {
         // 前置条件
         UserResponse userResponse = new UserResponse(1L, "john", "john@email.com");
         when(userService.getUserById(1L)).thenReturn(userResponse);
-        
+
         // 操作 & 断言
         mockMvc.perform(get("/api/users/1"))
                .andExpect(status().isOk())
@@ -198,7 +198,7 @@ class UserControllerTest {
 ### 测试数据构建器
 ```java
 public class UserTestBuilder {
-    
+
     public static User.UserBuilder defaultUser() {
         return User.builder()
                   .id(1L)
@@ -228,7 +228,7 @@ void shouldValidateEmailFormat(String email) {
 void shouldThrowUserNotFoundException() {
     // 前置条件
     when(userRepository.findById(999L)).thenReturn(Optional.empty());
-    
+
     // 操作 & 断言
     assertThatThrownBy(() -> userService.getUserById(999L))
         .isInstanceOf(UserNotFoundException.class)
@@ -244,15 +244,15 @@ void shouldThrowUserNotFoundException() {
 void shouldLoadConfigurationProperties() {
     // 前置条件
     EnvironmentTestUtils.addEnvironment(
-        context, 
+        context,
         "app.security.jwt.secret=secret",
         "app.security.jwt.expiration=3600"
     );
-    
+
     // 操作
     context.refresh();
     JwtProperties props = context.getBean(JwtProperties.class);
-    
+
     // 断言
     assertThat(props.getSecret()).isEqualTo("secret");
 }
@@ -264,11 +264,11 @@ void shouldLoadConfigurationProperties() {
 void shouldHandleValidationException() throws Exception {
     // 前置条件
     MethodArgumentNotValidException exception = mock(MethodArgumentNotValidException.class);
-    
+
     // 操作
-    ResponseEntity<ErrorResponse> response = 
+    ResponseEntity<ErrorResponse> response =
         exceptionHandler.handleValidationException(exception);
-    
+
     // 断言
     assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
 }
@@ -280,10 +280,10 @@ void shouldHandleValidationException() throws Exception {
 void shouldMapUserToUserResponse() {
     // 前置条件
     User user = UserTestBuilder.defaultUser().build();
-    
+
     // 操作
     UserResponse response = userMapper.toResponse(user);
-    
+
     // 断言
     assertThat(response.getId()).isEqualTo(1L);
     assertThat(response.getName()).isEqualTo("john");
@@ -299,11 +299,11 @@ void shouldCoverAllUserStatusScenarios() {
     // 测试ACTIVE状态
     User activeUser = UserTestBuilder.defaultUser().status(UserStatus.ACTIVE).build();
     assertThat(activeUser.canLogin()).isTrue();
-    
+
     // 测试INACTIVE状态
     User inactiveUser = UserTestBuilder.defaultUser().status(UserStatus.INACTIVE).build();
     assertThat(inactiveUser.canLogin()).isFalse();
-    
+
     // 测试SUSPENDED状态
     User suspendedUser = UserTestBuilder.defaultUser().status(UserStatus.SUSPENDED).build();
     assertThat(suspendedUser.canLogin()).isFalse();
@@ -315,17 +315,17 @@ void shouldCoverAllUserStatusScenarios() {
 @Testcontainers
 @SpringBootTest
 class UserRepositoryIT {
-    
+
     @Container
     static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:13");
-    
+
     @DynamicPropertySource
     static void configureProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", postgres::getJdbcUrl);
         registry.add("spring.datasource.username", postgres::getUsername);
         registry.add("spring.datasource.password", postgres::getPassword);
     }
-    
+
     @Test
     void shouldPersistUserWithDatabase() {
         // 真实的数据库集成测试

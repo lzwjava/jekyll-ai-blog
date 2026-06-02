@@ -16,7 +16,7 @@ Identifying the "biggest stars" in the International Olympiads—International O
 
 The IMO, the oldest and most prestigious of the science Olympiads, has seen numerous standout performers since its inception in 1959. In recent decades, the following individuals stand out:
 
-- **Lisa Sauermann (Germany)**: 
+- **Lisa Sauermann (Germany)**:
   - **Achievements**: Competed in IMO from 2007 to 2011, earning four gold medals and one silver, with a perfect score in 2011. She is the only female participant to achieve a perfect score and ranks among the all-time top scorers with a cumulative score of 184 points across five years.
   - **Notable Impact**: Sauermann pursued a Ph.D. in mathematics at Stanford and is now a professor at MIT, specializing in combinatorics. Her IMO success marked her as a prodigy, and her academic career has solidified her reputation.
   - **Source**: Wikipedia’s list of IMO participants.[](https://en.wikipedia.org/wiki/List_of_International_Mathematical_Olympiad_participants)

@@ -22,6 +22,6 @@ Motorcycles fall under separate categories:
 
 To get a motorcycle license, you typically apply for D, E, or F based on the bike type, with age requirements starting at 18 (up to 60 for D/E, 70 for F). The process involves theory and practical tests at a local traffic management bureau.
 
-[Driving license in China - Wikipedia](https://en.wikipedia.org/wiki/Driving_license_in_China)  
-[Foreigners Driving in China - Road Pioneer](https://www.roadpioneer.com/foreigners-driving-in-china/)  
+[Driving license in China - Wikipedia](https://en.wikipedia.org/wiki/Driving_license_in_China)
+[Foreigners Driving in China - Road Pioneer](https://www.roadpioneer.com/foreigners-driving-in-china/)
 [Driving Licence in China - Yunnan Exploration](https://www.yunnanexploration.com/driving-licence-in-china.html)

@@ -12,7 +12,7 @@ type: note
 
 Question: Why does my home internet speed seem capped under 100 Mb/s?
 
-Answer: 
+Answer:
 
 Your speed test results show a download speed of **89.93 Mbps** and upload of **58.08 Mbps**, which is very close to (but slightly below) 100 Mbps download. This suggests your connection is likely limited to a **100 Mbps plan** (or similar, such as 100M/60M), as these speeds align closely with the advertised rates for entry-level fiber or broadband plans in Taiwan.
 
@@ -33,8 +33,8 @@ To confirm and potentially get faster speeds:
 
 Your current speeds are still solid for general use (streaming, browsing, etc.), but upgrading the plan should break the ~100 Mbps barrier if desired.
 
-References:  
+References:
 
-- [Chunghwa Telecom Broadband Plans Overview](https://www.cht.com.tw/en/home/cht/about-cht/products-and-services/broadband)  
-- [Speedtest Performance in Douliu](https://www.speedtest.net/performance/taiwan/taiwan-province/douliu)  
+- [Chunghwa Telecom Broadband Plans Overview](https://www.cht.com.tw/en/home/cht/about-cht/products-and-services/broadband)
+- [Speedtest Performance in Douliu](https://www.speedtest.net/performance/taiwan/taiwan-province/douliu)
 - [Taiwan Fixed Broadband Reports (Ookla)](https://www.ookla.com/research/reports/taiwan-speedtest-connectivity-report-h2-2024)

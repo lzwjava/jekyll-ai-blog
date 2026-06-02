@@ -61,37 +61,37 @@ fn describe_shape(shape: &Shape) -> String {
 fn main() {
     // 可变变量绑定
     let mut point = Point { x: 3, y: 4 };
-    
+
     // 不可变借用来调用方法
     println!("到原点的距离: {}", point.distance_from_origin());
-    
+
     // 可变借用来修改点
     point.translate(2, 1);
     println!("平移后坐标: ({}, {})", point.x, point.y);
-    
+
     // 创建形状（所有权转移给变量）
     let circle = Shape::Circle(point, 5.0);
-    
+
     // 对形状的不可变借用来描述它
     println!("形状: {}", describe_shape(&circle));
-    
+
     // 拥有元素所有权的向量
     let mut shapes: Vec<Shape> = Vec::new();
     shapes.push(circle);
     shapes.push(Shape::Rectangle(Point { x: 0, y: 0 }, 10, 20));
-    
+
     // 使用不可变借用迭代
     for shape in &shapes {
         println!("向量中的形状: {}", describe_shape(shape));
     }
-    
+
     // Option 和模式匹配
     let maybe_number: Option<i32> = Some(42);
     match maybe_number {
         Some(num) => println!("获得数字: {}", num),
         None => println!("没有数字"),
     }
-    
+
     // 用于错误处理的 Result
     let result: Result<i32, &str> = Ok(100);
     if let Ok(value) = result {

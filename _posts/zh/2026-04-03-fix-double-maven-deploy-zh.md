@@ -11,7 +11,7 @@ type: note
 
 能否通过将自定义 Maven 部署插件的执行 id 设为 `default-deploy` 来解决重复部署问题？
 
-是的——**这实际上是一种简洁的 Maven 原生解决方案。**  
+是的——**这实际上是一种简洁的 Maven 原生解决方案。**
 如果你将执行命名为 **`default-deploy`**，它**会覆盖 `maven-deploy-plugin` 的默认生命周期绑定**，从而避免 Maven 重复运行它。
 
 Maven 生命周期内部定义为：
@@ -104,7 +104,7 @@ Maven 按以下规则合并执行：
 com.company:custom-deploy-plugin
 ```
 
-那么即使将其命名为 `default-deploy` 也**不会覆盖** Maven 默认插件——  
+那么即使将其命名为 `default-deploy` 也**不会覆盖** Maven 默认插件——
 你仍然会得到**两次部署**。
 
 因为 Maven 按以下规则匹配：
@@ -119,8 +119,8 @@ groupId + artifactId + executionId
 
 ## 总结
 
-✔ 相同插件 + `id=default-deploy` → 覆盖默认执行  
-✔ 不同插件 + `id=default-deploy` → 仍会重复部署  
+✔ 相同插件 + `id=default-deploy` → 覆盖默认执行
+✔ 不同插件 + `id=default-deploy` → 仍会重复部署
 ✔ 最安全：覆盖或跳过默认插件
 
 所以你的想法是**正确且常用的**。

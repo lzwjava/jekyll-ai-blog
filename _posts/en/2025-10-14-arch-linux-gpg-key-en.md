@@ -24,6 +24,6 @@ gpg --delete-key 3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C
 ```
 (You'll be prompted to confirm; it only deletes the public key, not any signatures you've already verified.)
 
-[Arch Linux ISO Download Page](https://archlinux.org/download/)  
-[Arch Wiki: Install Arch Linux on a Mac](https://wiki.archlinux.org/title/Install_Arch_Linux_on_Mac)  
+[Arch Linux ISO Download Page](https://archlinux.org/download/)
+[Arch Wiki: Install Arch Linux on a Mac](https://wiki.archlinux.org/title/Install_Arch_Linux_on_Mac)
 [Pierre Schmitz's GPG Keys](https://pierre-schmitz.com/gpg-keys/)

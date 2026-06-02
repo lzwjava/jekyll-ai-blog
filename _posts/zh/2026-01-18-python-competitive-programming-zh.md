@@ -18,24 +18,24 @@ type: note
 
 以下是在 Codeforces 上倾向于使用 **Python** 的选手的真实分布情况：
 
-- **算法竞赛的初学者和新人**  
+- **算法竞赛的初学者和新人**
   这是一个非常普遍的选择 —— Python 拥有简单的语法、无需手动内存管理、快速原型开发能力、内置大数运算（Big integers）、非常方便的 list/dict/set 操作以及简单的输入读取等优点。许多人开始 CP 时使用 Python 是因为他们已经掌握了它（通过学校课程、Data science、脚本编写、LeetCode 面试等）。
 
-- **以面试为主要目的的人群（FAANG 风格、LeetCode 等）**  
+- **以面试为主要目的的人群（FAANG 风格、LeetCode 等）**
   他们通常在 Codeforces 上继续使用 Python，因为这是他们日常工作的语言。
 
-- **主要解决 Div. 3 / Div. 4 / Educational rounds 或较简单题目的参赛者（Rating 大致 < 1800–1900）**  
+- **主要解决 Div. 3 / Div. 4 / Educational rounds 或较简单题目的参赛者（Rating 大致 < 1800–1900）**
   在这些场景下，Python 完全没问题 —— Time limits 通常足够宽松，且代码更短、编写速度更快。
 
-- **PyPy 性能爱好者**  
+- **PyPy 性能爱好者**
   一小部分专门使用 **PyPy**（尤其是 PyPy 64-bit）并学习了许多 Speed tricks（如 Fast input、用 List comprehensions 代替循环、避免低效操作等）的选手。他们可以相当轻松地达到 **Expert ~ Master** (≈1600–2100) 甚至更高水平。
 
-- **讨厌样板代码（Boilerplate）并追求最高可读性的人**  
+- **讨厌样板代码（Boilerplate）并追求最高可读性的人**
   有些程序员强烈偏好 Python 的简洁风格，即使有时会遇到 TLE 且必须进行深度优化，或在面对最难的题目时不得不切换到 C++。
 
 **谁几乎从不将 Python 作为主语言（尤其是在高水平阶层）：**
 
-- 大多数 **Candidate Master → International Grandmaster / Legendary Grandmaster** (≈2100+)  
+- 大多数 **Candidate Master → International Grandmaster / Legendary Grandmaster** (≈2100+)
   在 2200–2300 分段以上，Python 用户非常罕见。几乎没有稳定的 Red/Orange 选手（绝对没有 Top-100 的 Red 选手）将 Python 作为首选语言。严苛的时间限制、繁重的 Constant-factor 问题以及对极致速度的需求，使得 C++ 占据绝对主导地位。
 
 **粗略的使用统计（基于过往和近期的社区帖子/观察）：**

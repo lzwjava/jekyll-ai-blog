@@ -152,27 +152,27 @@ These multiply, not add.
 ```python
 def csa_forward(q, K_full, V_full, k_blocks=64, window=512):
     N, d = K_full.shape
-    
+
     # 1. Compress KV cache: N → N/4
     K_c, V_c = compress_kv(K_full, block_size=4)  # (N/4, d) each, stored FP8
-    
+
     # 2. Lightning indexer: score compressed blocks in FP4 with ReLU
     scores = relu(quantize_fp4(q) @ quantize_fp4(K_c).T)  # (N/4,)
     top_k_block_indices = topk(scores, k=k_blocks)         # (k_blocks,)
-    
+
     # 3. Gather original KV for selected blocks (4 original tokens per block)
     selected_positions = expand_blocks(top_k_block_indices, block_size=4)  # (k_blocks*4,)
     K_sel = K_full[selected_positions]  # (k_blocks*4, d)
     V_sel = V_full[selected_positions]
-    
+
     # 4. Global sparse attention over selected positions
     attn_global = softmax_attention(q, K_sel, V_sel)
-    
+
     # 5. Local sliding window attention (recency)
     K_local = K_full[-window:]
     V_local = V_full[-window:]
     attn_local = softmax_attention(q, K_local, V_local)
-    
+
     # 6. Combine
     return merge(attn_global, attn_local)
 

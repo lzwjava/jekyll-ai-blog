@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a set of sample exam questions for HCIA (Huawei Certified ICT Associate) and HCIP (Huawei Certified ICT Professional) level certifications, without revealing the answers.
 
-Answer: 
+Answer:
 
 ### HCIA-Level Sample Questions (Mostly HCIA-Routing & Switching, HCIA-Datacom, HCIA-Storage, etc.)
 

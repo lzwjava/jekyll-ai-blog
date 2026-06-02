@@ -32,7 +32,7 @@ So with 8 threads doing git pull:
 
 ```
 Thread 1: fork git → sleep (GIL released) ──────────── wake up → done
-Thread 2: fork git → sleep (GIL released) ──────────── wake up → done  
+Thread 2: fork git → sleep (GIL released) ──────────── wake up → done
 Thread 3: fork git → sleep (GIL released) ────────── wake up → done
 ...
 All 8 git subprocesses run in parallel on 8 OS processes
@@ -45,9 +45,9 @@ The GIL doesn't matter because your Python threads are sleeping 99% of the time.
 ```
 Multiprocessing: 8 full Python interpreters in memory
   - Each ~30-50MB RSS
-  - Pickle/unpickle data between processes (serialization overhead)  
+  - Pickle/unpickle data between processes (serialization overhead)
   - Spawn cost: fork() + import world
-  
+
 Threading: 8 lightweight threads in ONE process
   - Each ~8KB stack
   - Shared memory (no serialization)

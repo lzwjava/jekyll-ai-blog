@@ -12,13 +12,13 @@ type: note
 
 Question: For Codeforces, when input is provided, does putting the mouse cursor over one test case highlight it with a yellow background and also highlight the corresponding output section in the output area?
 
-Answer: 
+Answer:
 
 Yes, that's **exactly** how it works on Codeforces.
 
 When you look at a problem's sample input/output:
 
-- If you hover the mouse over any line (or group of lines) in the **Input** section,  
+- If you hover the mouse over any line (or group of lines) in the **Input** section,
   that line/block gets a **yellow background highlight**.
 
 - At the same time, the **corresponding part** in the **Output** section also gets highlighted with the same yellow background.

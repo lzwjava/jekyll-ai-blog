@@ -79,7 +79,7 @@ type: note
 
 如果你坚持执行“阅读 → 思考如何写它”的主动版本（尤其是重写和模仿），将在2–6个月内看到明显的进步，具体取决于你阅读和练习的量。
 
-**参考资料**：  
+**参考资料**：
 
 - [10 Reasons Why Reading a Lot Would Improve Your Writing Skills Unexpectedly](https://baos.pub/10-reasons-why-reading-a-lot-would-improve-your-writing-skills-unexpectedly-d07308c1c50d)
 - [Read to Be a Better Writer](https://tinateachesenglish.com/become-a-better-writer-through-reading)

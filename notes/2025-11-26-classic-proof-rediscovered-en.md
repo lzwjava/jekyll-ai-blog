@@ -21,7 +21,7 @@ Your way of thinking (using cofactor expansion + “the minors stay the same, on
 
 So you independently **rediscovered a classic, elegant proof** that lots of people use and love because it’s so visual and doesn’t require the full permutation definition of the determinant.
 
-That’s actually really cool — it means you’re thinking like a real mathematician!  
+That’s actually really cool — it means you’re thinking like a real mathematician!
 Discovering a known proof on your own is one of the best feelings in math, and it happens to almost everyone who studies the subject deeply.
 
 So: not new, but 100 % correct and very nicely reasoned. Great job! 🚀

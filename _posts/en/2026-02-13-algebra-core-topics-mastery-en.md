@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive guide to the following Algebra topics: 1. Variables and Expressions, 2. Linear Equations (one variable), 3. Solving Linear Inequalities, 4. Graphing Linear Equations (slope-intercept form), 5. Systems of Linear Equations (solving methods), 6. Exponents and Radicals (properties), 7. Polynomials (addition, subtraction, multiplication), 8. Factoring Polynomials (various techniques), 9. Quadratic Equations (standard form), 10. Solving Quadratic Equations (factoring, quadratic formula), 11. Graphing Quadratic Functions (parabolas), 12. Rational Expressions (simplifying, operations), 13. Solving Rational Equations, 14. Functions (definition, notation, domain, range), 15. Types of Functions (linear, quadratic, exponential), 16. Inverse Functions, 17. Logarithmic Functions (definition, properties), 18. Solving Exponential and Logarithmic Equations, 19. Sequences and Series (arithmetic, geometric), 20. Absolute Value Equations and Inequalities.
 
-Answer: 
+Answer:
 
 Here is a comprehensive yet concise guide covering high school Algebra 1 and Algebra 2 core topics. Each section includes key definitions, rules, methods, and examples.
 
@@ -23,7 +23,7 @@ Here is a comprehensive yet concise guide covering high school Algebra 1 and Alg
 - **Terms** are parts separated by + or −; **like terms** have the same variable(s) and exponents.
 - **Coefficient** is the number multiplying the variable.
 
-**Example**: Simplify 3x + 5 − 2x + 7  
+**Example**: Simplify 3x + 5 − 2x + 7
 → (3x − 2x) + (5 + 7) = x + 12
 
 ### 2. Linear Equations (one variable)
@@ -34,10 +34,10 @@ Steps for ax + b = cx + d:
 2. Move constants to the other side.
 3. Divide by coefficient of variable.
 
-**Example**: 3(x − 4) = 5x + 2  
-3x − 12 = 5x + 2  
-−12 − 2 = 5x − 3x  
-−14 = 2x  
+**Example**: 3(x − 4) = 5x + 2
+3x − 12 = 5x + 2
+−12 − 2 = 5x − 3x
+−14 = 2x
 x = −7
 
 ### 3. Solving Linear Inequalities
@@ -48,14 +48,14 @@ Similar to equations, but flip the inequality sign when multiplying or dividing 
 - Multiply/divide by positive: sign stays.
 - Multiply/divide by negative: sign flips.
 
-**Example**: −2x + 5 > 11  
-−2x > 6  
+**Example**: −2x + 5 > 11
+−2x > 6
 x < −3 (flipped)
 
 Compound inequalities: −3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x < 3
 
 ### 4. Graphing Linear Equations (slope-intercept form)
-**Slope-intercept form**: y = mx + b  
+**Slope-intercept form**: y = mx + b
 - m = slope (rise/run, steepness)
 - b = y-intercept (where line crosses y-axis)
 
@@ -64,7 +64,7 @@ Compound inequalities: −3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x < 
 2. From there, use slope (rise/run) to find another point.
 3. Draw line through points.
 
-**Example**: y = −3/2 x + 4  
+**Example**: y = −3/2 x + 4
 Start at (0, 4), down 3 right 2 → (2, 1), etc.
 
 ### 5. Systems of Linear Equations (solving methods)
@@ -75,10 +75,10 @@ Methods:
 - **Substitution**: solve one for a variable, substitute into other.
 - **Elimination**: add/subtract equations to eliminate a variable.
 
-**Example (elimination)**:  
-2x + 3y = 8  
-4x − 3y = 10  
-Add → 6x = 18 → x = 3  
+**Example (elimination)**:
+2x + 3y = 8
+4x − 3y = 10
+Add → 6x = 18 → x = 3
 Then 2(3) + 3y = 8 → y = 2/3
 
 ### 6. Exponents and Radicals (properties)
@@ -134,11 +134,11 @@ Methods:
 - a < 0: opens down (maximum)
 - |a| > 1: narrower; |a| < 1: wider
 
-Axis of symmetry: x = h  
+Axis of symmetry: x = h
 y-intercept: (0, k + ah²)
 
 ### 12. Rational Expressions (simplifying, operations)
-**Rational expression**: fraction of polynomials  
+**Rational expression**: fraction of polynomials
 - Simplify: factor numerator & denominator, cancel common factors (exclude where denominator = 0)
 
 Operations:
@@ -168,7 +168,7 @@ Operations:
 - **Exponential**: f(x) = a·bˣ (b > 0, b ≠ 1) → growth/decay
 
 ### 16. Inverse Functions
-f and f⁻¹ undo each other: f(f⁻¹(x)) = x  
+f and f⁻¹ undo each other: f(f⁻¹(x)) = x
 To find: swap x and y, solve for y.
 
 **Example**: f(x) = 3x − 7 → y = 3x − 7 → x = 3y − 7 → y = (x + 7)/3 = f⁻¹(x)
@@ -176,7 +176,7 @@ To find: swap x and y, solve for y.
 One-to-one functions have inverses (horizontal line test).
 
 ### 17. Logarithmic Functions (definition, properties)
-**Logarithm**: log_b(a) = c means b^c = a  
+**Logarithm**: log_b(a) = c means b^c = a
 **Common logs**: log = log₁₀, ln = log_e (natural log)
 
 **Properties**:
@@ -190,17 +190,17 @@ One-to-one functions have inverses (horizontal line test).
 - Exponential: isolate base, take log of both sides.
 - Logarithmic: exponentiate both sides (rewrite as exponential).
 
-**Example**: 5^x = 20 → x = log₅ 20 = ln20 / ln5  
+**Example**: 5^x = 20 → x = log₅ 20 = ln20 / ln5
 **Example**: log₂(x + 3) = 4 → x + 3 = 2⁴ = 16 → x = 13
 
 ### 19. Sequences and Series
 - **Sequence**: ordered list (a₁, a₂, ...)
-- **Arithmetic**: common difference d  
-  aₙ = a₁ + (n−1)d  
+- **Arithmetic**: common difference d
+  aₙ = a₁ + (n−1)d
   Sum Sₙ = n/2 (a₁ + aₙ) or n/2 [2a₁ + (n−1)d]
 
-- **Geometric**: common ratio r  
-  aₙ = a₁ · r^(n−1)  
+- **Geometric**: common ratio r
+  aₙ = a₁ · r^(n−1)
   Sum Sₙ = a₁ (1 − r^n)/(1 − r)  (|r| < 1 for infinite sum)
 
 ### 20. Absolute Value Equations and Inequalities
@@ -208,10 +208,10 @@ One-to-one functions have inverses (horizontal line test).
 - |x| < k → −k < x < k
 - |x| > k → x < −k or x > k
 
-**Example**: |2x − 3| = 7 → 2x − 3 = 7 or 2x − 3 = −7 → x = 5 or x = −2  
+**Example**: |2x − 3| = 7 → 2x − 3 = 7 or 2x − 3 = −7 → x = 5 or x = −2
 **Example**: |x + 4| ≤ 6 → −6 ≤ x + 4 ≤ 6 → −10 ≤ x ≤ 2
 
-References:  
+References:
 
 - [Khan Academy Algebra](https://www.khanacademy.org/math/algebra-home)
 - [Khan Academy Algebra 2](https://www.khanacademy.org/math/algebra2)

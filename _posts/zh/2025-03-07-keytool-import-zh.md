@@ -47,36 +47,36 @@ keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts
 
 1. **确保在提示时正确输入密码**
    重新运行命令：
-   
+
    ```
    keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts -alias myalias
    ```
-   
+
    当出现密码提示时，仔细输入 **"changeit"**（全小写，无空格）并按 Enter 键。请仔细检查拼写错误或键盘布局问题。
 
 2. **在命令行中直接指定密码**
    为避免交互式提示问题（例如脚本执行或终端行为异常），可使用 `-storepass` 选项直接包含密码：
-   
+
    ```
    keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts -alias myalias -storepass changeit
    ```
-   
+
    这将显式传递 "changeit" 作为密码，绕过提示。如果此操作无错误执行，则问题很可能源于之前密码输入方式。
 
 3. **检查权限设置**
    由于 `cacerts` 位于 JRE 目录（例如 Linux 上的 `/usr/lib/jvm/java-11-openjdk/lib/security/cacerts` 或 Windows 上的类似路径），请确保您具有写入权限。如需管理员权限：
    - Linux/Mac：使用 `sudo keytool ...`
    - Windows：以管理员身份运行命令提示符
-   
+
    不过由于您的错误是关于密码验证而非文件访问，这很可能不是核心问题——但仍建议确认。
 
 4. **验证密码有效性**
    如果 "changeit" 仍然失败，可能是您环境中的密码已被修改。尝试以下命令测试密码（不修改密钥库）：
-   
+
    ```
    keytool -list -keystore /path/to/jre/lib/security/cacerts
    ```
-   
+
    出现提示时输入 "changeit"。如果成功列出证书，则密码正确；如果出现相同错误，则密码与默认值不同。
 
 ### 如果 "changeit" 不是正确密码怎么办？

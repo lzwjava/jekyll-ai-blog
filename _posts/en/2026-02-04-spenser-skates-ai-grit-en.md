@@ -29,7 +29,7 @@ The episode gets quite personal, exploring:
 - "The ultimate founder" concept
 - "Becoming the person you hate" - an honest discussion about founder evolution
 - Balancing family and work (46:41 mark)
-- "Being the person I want to be" 
+- "Being the person I want to be"
 - The challenges of being a "tired founder"
 - His roles as "chief general, chief justice, chief priest" in the organization
 

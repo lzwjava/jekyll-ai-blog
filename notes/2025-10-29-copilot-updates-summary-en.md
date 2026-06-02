@@ -17,7 +17,7 @@ Version 1.388.0 of the GitHub Copilot extension was released on October 24, 2025
 #### Key Updates in the Last 6 Months (May–October 2025)
 GitHub Copilot's major enhancements are typically announced alongside monthly VS Code releases. Here's a summary of significant updates for the extension and related features during this period:
 
-- **October 2025 (VS Code 1.105 / Extension ~1.388)**: 
+- **October 2025 (VS Code 1.105 / Extension ~1.388)**:
   - OpenAI Codex integration now available in VS Code Insiders for Copilot Pro+ subscribers, enabling advanced code synthesis directly in the editor.
   - New "mission control" interface for assigning, steering, and tracking Copilot coding agent tasks across sessions.
   - Agent Sessions view expanded to support the GitHub Copilot CLI for managing local and cloud-based agents.
@@ -45,9 +45,9 @@ GitHub Copilot's major enhancements are typically announced alongside monthly VS
 
 These updates emphasize agentic workflows, model performance, and seamless integration with VS Code's ecosystem. For the full extension history, check the VS Code Marketplace. Major announcements often tie into VS Code's monthly cycles.
 
-[GitHub Copilot in VS Code gets upgraded](https://github.blog/changelog/2025-10-28-github-copilot-in-visual-studio-code-gets-upgraded/)  
-[Copilot-SWE model rolling out to Visual Studio Code Insiders](https://github.blog/changelog/2025-09-22-copilot-swe-model-rolling-out-to-visual-studio-code-insiders/)  
-[GitHub Copilot in VS Code April release (v1.100)](https://github.blog/changelog/2025-05-08-github-copilot-in-vs-code-april-release-v1-100/)  
-[GitHub Copilot in VS Code March release (v1.99)](https://github.blog/changelog/2025-04-03-github-copilot-in-vs-code-march-release-v1-99/)  
-[September 2025 (version 1.105) - Visual Studio Code](https://code.visualstudio.com/updates)  
+[GitHub Copilot in VS Code gets upgraded](https://github.blog/changelog/2025-10-28-github-copilot-in-visual-studio-code-gets-upgraded/)
+[Copilot-SWE model rolling out to Visual Studio Code Insiders](https://github.blog/changelog/2025-09-22-copilot-swe-model-rolling-out-to-visual-studio-code-insiders/)
+[GitHub Copilot in VS Code April release (v1.100)](https://github.blog/changelog/2025-05-08-github-copilot-in-vs-code-april-release-v1-100/)
+[GitHub Copilot in VS Code March release (v1.99)](https://github.blog/changelog/2025-04-03-github-copilot-in-vs-code-march-release-v1-99/)
+[September 2025 (version 1.105) - Visual Studio Code](https://code.visualstudio.com/updates)
 [GitHub Copilot Marketplace Page](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)

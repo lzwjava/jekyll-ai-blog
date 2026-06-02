@@ -39,7 +39,7 @@ The provided text is a course description for "Lesson 2: Recursion," written in 
 
 #### Key Thoughts Broken Down:
 - **Why Recursion Matters**: It's portrayed as a cornerstone of CS/math, not just a trick but a way to model natural problem-solving (e.g., how fractals or biological growth work recursively). The lesson builds from basics to avoid overwhelming learners.
-  
+
 - **The Misunderstanding Trap**: People often "get" recursion superficially through toy examples like Tower of Hanoi (moving disks between pegs) or Eight Queens (placing queens on a chessboard without attacks). These are classic but artificial—they don't translate to everyday coding challenges like API parsing or graph algorithms. The text critiques this: true mastery means seeing recursion as a tool for *any* nested, self-similar problem, not just puzzles.
 
 - **Critique of Traditional Teaching**: Programming books (e.g., some intro CS texts) focus on recursion's downsides—like stack overflows or inefficiency—and push iteration as a "fix." This creates fear, making learners avoid recursion altogether. The course counters this by reframing recursion as powerful when used thoughtfully, not something to eradicate.

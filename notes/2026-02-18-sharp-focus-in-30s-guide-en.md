@@ -11,7 +11,7 @@ type: note
 
 Question: How can I stay focused and maintain cognitive performance in my 30s?
 
-Answer: 
+Answer:
 
 Staying focused in your 30s requires a strategic approach that addresses both biological changes and lifestyle demands. Research shows that cognitive shifts begin around this age, with the prefrontal cortex (responsible for executive function) becoming slightly less efficient [[5]]. Here are evidence-based strategies to maintain and even enhance your focus:
 

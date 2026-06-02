@@ -12,7 +12,7 @@ type: note
 
 Question: After attempting to boot from the USB on the Lenovo XiaoXin 14 IAH8 laptop (currently running Ubuntu), it fails to boot and shows the error "failed to start gdm gnome display manager". This happened because previously, to fix a Claude code CLI upgrade issue, the command `sudo chown -R $(whoami) /usr/` was run, which changed ownership of /usr/ (and subdirectories) from root to the user lzwjava. How to fix this broken GNOME Display Manager (GDM) login screen issue?
 
-Answer: 
+Answer:
 
 The command `sudo chown -R lzwjava /usr/` (or whatever your username is) is extremely dangerous. It broke system binaries, libraries, configuration files, and services that must be owned by **root** (or sometimes specific system users like systemd-*, messagebus, etc.). GDM failing to start is just the most visible symptom — many other parts of the system are likely also broken or have permission issues.
 
@@ -24,7 +24,7 @@ The command `sudo chown -R lzwjava /usr/` (or whatever your username is) is extr
    - If GRUB is hidden, hold **Shift** (or spam **Esc**) right after powering on.
 3. In GRUB, highlight your normal Ubuntu entry → press **e** to edit.
 4. Find the line that starts with `linux` (usually contains `quiet splash`).
-5. At the end of that line, add a space and then:  
+5. At the end of that line, add a space and then:
    `rw init=/bin/bash`
 6. Press **Ctrl + X** or **F10** to boot.
 7. You should drop into a root shell (no login required).
@@ -101,8 +101,8 @@ reboot
 
 If you get stuck at any step (e.g. specific error messages), provide them and I can give more targeted commands.
 
-References:  
+References:
 
-- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)  
-- [https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous](https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous)  
+- [https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr](https://askubuntu.com/questions/26496/how-to-recover-from-accidentally-changing-ownership-of-usr)
+- [https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous](https://unix.stackexchange.com/questions/132281/chown-really-recursive-and-dangerous)
 - [https://help.ubuntu.com/community/Boot-Repair](https://help.ubuntu.com/community/Boot-Repair)

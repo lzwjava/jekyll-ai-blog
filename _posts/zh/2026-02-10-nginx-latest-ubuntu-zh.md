@@ -78,7 +78,7 @@ nginx -v
 
 完成这些步骤后，你就可以使用 `nginx` 命令，并且你在 `/movies/` 下配置的 directory listing 应该可以正常工作了。
 
-**References:**  
+**References:**
 
-- [http://nginx.org/en/linux_packages.html](http://nginx.org/en/linux_packages.html)  
+- [http://nginx.org/en/linux_packages.html](http://nginx.org/en/linux_packages.html)
 - [https://nginx.org/en/docs/install.html](https://nginx.org/en/docs/install.html)

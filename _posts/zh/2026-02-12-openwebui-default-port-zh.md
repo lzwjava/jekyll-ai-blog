@@ -12,7 +12,7 @@ type: note
 
 Question: Open WebUI 的默认 Port 是多少？
 
-Answer: 
+Answer:
 
 **Open WebUI**（应用程序本身）的 **Default Port** 是 **8080**。
 
@@ -28,7 +28,7 @@ Answer:
 
 你消息中显示的版本 (v0.5.10) 比较旧 —— 截至 2026 年的当前版本仍然使用 **8080** 作为默认的 Internal/Container Port。
 
-References:  
+References:
 
 - [https://docs.openwebui.com/getting-started/quick-start](https://docs.openwebui.com/getting-started/quick-start)
 - [https://docs.openwebui.com/getting-started/env-configuration](https://docs.openwebui.com/getting-started/env-configuration)

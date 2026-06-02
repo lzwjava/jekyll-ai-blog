@@ -146,5 +146,5 @@ formulaLabel.text = dict[@"formula"];
 
 这种设置使您的应用保持模块化——无需更改 UI 即可轻松更新内容。有关完整代码，请查阅 Apple 的示例。
 
-[Apple Foundation 框架文档](https://developer.apple.com/documentation/foundation)  
+[Apple Foundation 框架文档](https://developer.apple.com/documentation/foundation)
 [UITableView 教程](https://developer.apple.com/tutorials/app-dev-training/creating-a-list-with-a-table-view)

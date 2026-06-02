@@ -38,5 +38,5 @@ type: note
 
 最新详细信息请参阅渣打银行官方资源：
 
-[渣打银行2024年度报告](https://www.sc.com/en/investors/financial-reports/)  
+[渣打银行2024年度报告](https://www.sc.com/en/investors/financial-reports/)
 [渣打银行关于我们——组织架构](https://www.sc.com/en/about/)

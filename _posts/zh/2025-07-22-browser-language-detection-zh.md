@@ -35,7 +35,7 @@ if (savedSort) {
 } else {
   // 如果没有保存的偏好，则检测浏览器语言
   let lang = navigator.language.toLowerCase().split('-')[0]; // 例如 'en-US' -> 'en'
-  
+
   // 对中文变体进行特殊处理（繁体中文为 zh-Hant）
   if (lang === 'zh') {
     const fullLang = navigator.language.toLowerCase();
@@ -132,6 +132,6 @@ if (savedSort) {
 
 如果这不起作用或者您可以分享错误信息，请提供更多详细信息！
 
-[Country.is API](https://country.is/)  
-[IP-API 地理定位](https://ip-api.com/)  
+[Country.is API](https://country.is/)
+[IP-API 地理定位](https://ip-api.com/)
 [ipgeolocation.io](https://ipgeolocation.io/)

@@ -12,7 +12,7 @@ type: note
 
 Question: What does "isomorphic" mean?
 
-Answer: 
+Answer:
 
 **Isomorphic** means "having the same shape/structure/form" — two things are isomorphic if they are structurally identical, even if they look different on the surface.
 
@@ -23,18 +23,18 @@ Two objects are **isomorphic** if there exists a **bijective** (one-to-one and o
 
 Examples by field:
 
-- **Graph theory**  
+- **Graph theory**
   Two graphs are isomorphic if you can relabel the vertices of one graph so that it becomes exactly the same as the other (same connections).
 
-- **Group theory**  
-  Two groups (G, ⋅) and (H, ∗) are isomorphic if there is a bijection φ: G → H such that  
-  φ(a ⋅ b) = φ(a) ∗ φ(b) for all a, b ∈ G  
+- **Group theory**
+  Two groups (G, ⋅) and (H, ∗) are isomorphic if there is a bijection φ: G → H such that
+  φ(a ⋅ b) = φ(a) ∗ φ(b) for all a, b ∈ G
   (they have exactly the same multiplication table, just with different names for elements)
 
-- **Linear algebra**  
+- **Linear algebra**
   Two vector spaces are isomorphic if they have the same dimension (there exists a linear bijection between them).
 
-- **Category theory**  
+- **Category theory**
   Two objects are isomorphic if there is an isomorphism (a morphism that has an inverse morphism) between them.
 
 Quick summary table:
@@ -53,9 +53,9 @@ Quick summary table:
 - **Programming / databases**: two data structures / schemas are isomorphic if they can represent exactly the same information with a lossless conversion.
 - **Everyday language** (rare): "structurally the same" or "equivalent in form".
 
-**Most common correct short answer in math/CS**:  
+**Most common correct short answer in math/CS**:
 "Isomorphic = there is a structure-preserving bijection between them."
 
-References:  
+References:
 
 - None (this is standard mathematical terminology)

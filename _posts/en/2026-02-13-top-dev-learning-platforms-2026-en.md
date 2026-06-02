@@ -12,7 +12,7 @@ type: note
 
 Question: What are good sites to learn or deepen skills in software engineering, backend, fullstack, or AI engineering?
 
-Answer: 
+Answer:
 
 Here are some of the strongest websites and platforms in 2026 for learning or leveling up in **software engineering**, **backend**, **fullstack**, and **AI engineering**. I've grouped them by focus and included both free and paid/high-quality options that are frequently recommended for practical, up-to-date content.
 
@@ -22,7 +22,7 @@ Here are some of the strongest websites and platforms in 2026 for learning or le
 - **CS50 (Harvard via edX or YouTube)** — One of the best free computer science introductions; great foundation even for experienced developers.
 
 ### Full-Stack Development
-- **Full Stack Open (University of Helsinki)** → https://fullstackopen.com/  
+- **Full Stack Open (University of Helsinki)** → https://fullstackopen.com/
   Extremely modern (React, TypeScript, Node.js, GraphQL, React Query, etc.), free, high quality — widely considered one of the best free full-stack courses in 2025–2026.
 - **Coursera / IBM Full Stack Software Developer Professional Certificate** — Structured, job-oriented, covers cloud + containers + frontend/backend.
 - **Udemy** — Search for “The Web Developer Bootcamp 202X”, “Angular + NestJS”, “.NET + React” etc. (wait for $10–15 sales).
@@ -35,10 +35,10 @@ Here are some of the strongest websites and platforms in 2026 for learning or le
 - **GeeksforGeeks** and **roadmap.sh** articles for backend frameworks comparison (very useful in 2026).
 
 ### AI Engineering / ML / Generative AI
-- **DeepLearning.AI (Coursera)**  
-  Andrew Ng courses remain gold standard:  
-  - Machine Learning Specialization  
-  - Deep Learning Specialization  
+- **DeepLearning.AI (Coursera)**
+  Andrew Ng courses remain gold standard:
+  - Machine Learning Specialization
+  - Deep Learning Specialization
   - Generative AI with LLMs (with AWS)
 - **DataCamp** → Associate AI Engineer tracks (for Developers and for Data Scientists) — interactive, practical.
 - **Hugging Face** → Free courses (Transformers, LLMs, Diffusion models, Agents).
@@ -61,7 +61,7 @@ Here are some of the strongest websites and platforms in 2026 for learning or le
 
 **Pro tip (2026)**: Focus on **building and deploying real projects** (GitHub + Vercel / Railway / Fly.io / Render) more than collecting certificates. Companies care much more about working RAG apps, agents, scalable APIs, or clean full-stack repos than course completion badges.
 
-References:  
+References:
 
 - [Full Stack Open – University of Helsinki](https://fullstackopen.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)

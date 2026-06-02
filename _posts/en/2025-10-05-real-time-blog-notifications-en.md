@@ -18,7 +18,7 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
 1. **Create a Telegram Bot**:
    - Message @BotFather on Telegram, use `/newbot` to create one, and note the bot token (e.g., `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`).
    - Start a chat with your bot, then message @userinfobot to get your chat ID (e.g., `123456789`).
-   - Test sending a message via curl:  
+   - Test sending a message via curl:
      ```
      curl -X POST "https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage" \
      -H "Content-Type: application/json" \
@@ -60,18 +60,18 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
      - This runs on every matching request, logs basic visitor info, and sends it via Telegram without delaying the page load.
 
 4. **Configure Environment Variables**:
-   - In the worker settings > Variables > Add:  
-     - `TELEGRAM_BOT_TOKEN`: Your bot token.  
-     - `TELEGRAM_CHAT_ID`: Your chat ID.  
+   - In the worker settings > Variables > Add:
+     - `TELEGRAM_BOT_TOKEN`: Your bot token.
+     - `TELEGRAM_CHAT_ID`: Your chat ID.
    - Save and redeploy.
 
 5. **Route the Worker to Your Blog**:
-   - In Workers settings > Triggers > Add route.  
-   - Set it to your blog's domain/path (e.g., `yourblog.com/*`).  
+   - In Workers settings > Triggers > Add route.
+   - Set it to your blog's domain/path (e.g., `yourblog.com/*`).
    - This ensures the worker runs on every visit before hitting your origin server.
 
 6. **Test and Monitor**:
-   - Visit your blog— you should get a Telegram ping instantly.  
+   - Visit your blog— you should get a Telegram ping instantly.
    - Check worker logs in the dashboard for errors. If you hit rate limits (e.g., Telegram's 30 msgs/sec), add debouncing with KV storage.
 
 ### Alternatives If Workers Don't Fit
@@ -81,6 +81,6 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
 
 This setup turns your Cloudflare traffic into actionable, instant alerts. If you need code tweaks or help with errors, share more details!
 
-[Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)  
-[Telegram Bot API](https://core.telegram.org/bots/api)  
+[Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
+[Telegram Bot API](https://core.telegram.org/bots/api)
 [Cloudflare Instant Logs](https://developers.cloudflare.com/logs/instant-logs/)

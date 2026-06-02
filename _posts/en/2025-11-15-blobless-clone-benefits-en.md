@@ -59,5 +59,5 @@ git repack -a -d             # optional, forces downloading all blobs
 ```bash
 git clone --filter=blob:none https://github.com/example/repo.git
 ```
-= “Give me the full history and structure immediately, but download file contents on-demand later.”  
+= “Give me the full history and structure immediately, but download file contents on-demand later.”
 Great for huge monorepos or when you just want to browse history without waiting hours.

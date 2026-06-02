@@ -110,10 +110,10 @@ cmake --install build
 
 ---
 
-✅ **Summary**:  
-- **`cmake ..`** → Configure and generate platform-specific project/build files.  
-- **`cmake --build .`** → Actually compiles using the chosen build tool.  
-- On Windows, you’ll often use **Visual Studio generators** or **Ninja** for better performance.  
+✅ **Summary**:
+- **`cmake ..`** → Configure and generate platform-specific project/build files.
+- **`cmake --build .`** → Actually compiles using the chosen build tool.
+- On Windows, you’ll often use **Visual Studio generators** or **Ninja** for better performance.
 
 ---
 

@@ -12,7 +12,7 @@ type: note
 
 Question: Introduction to Guangzhou Institute of Applied Science and Technology in Zhucun
 
-Answer: 
+Answer:
 
 **Guangzhou Institute of Applied Science and Technology** (广州应用科技学院, abbreviated as 广应科 or GCAST) is a full-time private undergraduate university approved by China's Ministry of Education. It is located in the Guangdong-Hong Kong-Macao Greater Bay Area.
 
@@ -28,7 +28,7 @@ The school's Guangzhou campus is situated in Zhucun (朱村), specifically at **
 
 This is the primary institution matching your query — the Guangzhou campus is directly located in the Zhucun (朱村) area of Zengcheng District.
 
-References:  
+References:
 
 - [Official School Website](https://www.gzasc.edu.cn/)
 - [School Introduction Page](https://www.gzasc.edu.cn/xxgks/xxjj.htm)

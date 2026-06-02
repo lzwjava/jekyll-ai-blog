@@ -12,7 +12,7 @@ type: note
 
 Question: How can I use custom instructions in Grok to improve my IELTS preparation by making its answers harder to read and more challenging?
 
-Answer: 
+Answer:
 
 You can use Grok's **custom instructions** feature (available on grok.x.ai or the X app for logged-in users) to permanently shape how Grok responds to you across conversations. This is perfect for IELTS practice because you can instruct Grok to raise the difficulty level deliberately — forcing you to read more carefully, deal with advanced vocabulary, complex sentence structures, and subtle ideas — which directly trains reading comprehension, vocabulary range, and overall language processing speed.
 
@@ -21,9 +21,9 @@ You can use Grok's **custom instructions** feature (available on grok.x.ai or th
 1. Go to https://grok.x.ai (or open Grok in the X app)
 2. Click your profile picture/icon → look for "Custom instructions" or "Customize Grok" (usually in settings or under your name)
 3. There are two main text boxes:
-   - **What would you like Grok to know about you to provide better responses?**  
+   - **What would you like Grok to know about you to provide better responses?**
      → Put personal context here (optional for IELTS).
-   - **How would you like Grok to respond?**  
+   - **How would you like Grok to respond?**
      → This is the most important part — write your rules here.
 
 4. Paste or adapt one of the examples below into the second box, then save.
@@ -47,7 +47,7 @@ Whenever I ask for IELTS Writing Task 1 or Task 2 model answers, or Speaking Par
 
 ### Tips for best results
 - Start with **Option A** — it's challenging but not overwhelming.
-- After setting instructions, test it immediately by asking:  
+- After setting instructions, test it immediately by asking:
   "Give me a band 9 Task 2 model essay on the topic: Some people believe that the best way to increase road safety is to increase the minimum legal age for driving cars or motorbikes."
 - If it's still too easy, add phrases like: "increase lexical and grammatical complexity even further" or "imitate The Economist / academic journals style".
 - To temporarily override: just say "ignore custom instructions for this question" or "use easy mode".
@@ -55,7 +55,7 @@ Whenever I ask for IELTS Writing Task 1 or Task 2 model answers, or Speaking Par
 
 This setup turns Grok into a very demanding IELTS coach that pushes your receptive and productive skills harder than standard responses — exactly what many people need to break through from 6.5–7.0 to 7.5+.
 
-References:  
+References:
 
-- [How to set custom instructions in Grok](https://x.ai/grok)  
+- [How to set custom instructions in Grok](https://x.ai/grok)
 - [Official Grok help page on customization](https://help.x.com/en/using-x/grok)

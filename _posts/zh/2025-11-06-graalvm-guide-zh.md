@@ -90,6 +90,6 @@ Hello, World from GraalVM!
 
 更多详细信息请参阅官方文档。
 
-[GraalVM 下载页面](https://www.graalvm.org/downloads/)  
-[GraalVM 用户指南](https://www.graalvm.org/latest/reference-manual/)  
+[GraalVM 下载页面](https://www.graalvm.org/downloads/)
+[GraalVM 用户指南](https://www.graalvm.org/latest/reference-manual/)
 [Native Image 教程](https://www.graalvm.org/latest/reference-manual/native-image/)

@@ -21,7 +21,7 @@ type: note
 
 1.  **此上下文中 Asynchronous 的定义**：
     在传统的 synchronous 传输（如 TDM - Time Division Multiplexing）中，时间槽被预先分配给特定信道。即使信道没有数据要发送，其时间槽仍保持空闲但被保留，并在线路上传输时周期性地出现。
-    
+
     相比之下，ATM 使用 **statistical multiplexing**。cells 仅在有实际数据要发送时才传输。没有为特定连接分配固定的、周期性的时间槽。包含用户信息的 cell 可以随时出现，来自同一源的 cells 之间的间隙会根据流量负载而变化。
 
 2.  **为什么不是 Synchronous**：

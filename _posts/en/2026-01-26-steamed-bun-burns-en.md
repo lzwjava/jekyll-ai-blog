@@ -18,20 +18,20 @@ This is a very classic and very dangerous characteristic of **steamed stuffed bu
 
 ### Main reasons why the inside stays very hot while the outside cools quickly
 
-1. **Very strong heat insulation effect of the dough/skin**  
+1. **Very strong heat insulation effect of the dough/skin**
    → The steamed bun skin + the air layer inside act like a very good **thermal insulator** (like a thermos)
 
-2. **Huge difference in heat capacity**  
-   Red bean paste / lotus paste / custard / meat with lots of juice → contain a lot of **water**  
+2. **Huge difference in heat capacity**
+   Red bean paste / lotus paste / custard / meat with lots of juice → contain a lot of **water**
    → **water has very high specific heat capacity** (takes a lot of energy to heat up, and also releases a lot of heat when cooling down)
 
-3. **Very small surface area compared to volume**  
-   Inside filling → big ball of hot stuffing  
-   Outside skin → relatively very thin layer  
+3. **Very small surface area compared to volume**
+   Inside filling → big ball of hot stuffing
+   Outside skin → relatively very thin layer
    → The **surface area to volume ratio is very small** → heat escapes very slowly
 
-4. **Almost no air convection inside the bun**  
-   The hot filling is almost **completely sealed** inside  
+4. **Almost no air convection inside the bun**
+   The hot filling is almost **completely sealed** inside
    → cannot lose heat through fast air movement (convection)
 
 ### Quick comparison table (how fast different parts cool down)
@@ -59,5 +59,5 @@ Center of the filling  | Extremely slow       | excellent insulation + huge heat
 - You can also **cut it in half** with chopsticks or spoon
 - Put it on a plate and let it release heat for a while before eating
 
-Enjoy your dou sha bao〜  
+Enjoy your dou sha bao〜
 but **please don't burn your tongue** ~~ :( ~~

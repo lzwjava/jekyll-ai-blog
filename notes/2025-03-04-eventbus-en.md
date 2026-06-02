@@ -24,11 +24,11 @@ Create a simple POJO class to represent your event:
 ```java
 public class MessageEvent {
     private String message;
-    
+
     public MessageEvent(String message) {
         this.message = message;
     }
-    
+
     public String getMessage() {
         return message;
     }
@@ -44,23 +44,23 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         // Register to EventBus
         EventBus.getDefault().register(this);
     }
-    
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
         // Unregister to prevent memory leaks
         EventBus.getDefault().unregister(this);
     }
-    
+
     // Subscriber method
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
@@ -141,13 +141,13 @@ public class ReceiverActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EventBus.getDefault().register(this);
     }
-    
+
     @Override
     protected void onDestroy() {
         EventBus.getDefault().unregister(this);
         super.onDestroy();
     }
-    
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onDataEvent(DataEvent event) {
         textView.setText("Received: " + event.getData());

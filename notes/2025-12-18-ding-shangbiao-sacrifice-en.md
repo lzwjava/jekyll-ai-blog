@@ -12,7 +12,7 @@ type: note
 
 Question: What is the story of "含泪活着" (Living with Tears) and Ding Shangbiao?
 
-Answer: 
+Answer:
 
 "含泪活着" (known in Japanese as "Nakinagara Ikite" or "Living with Tears") is a highly acclaimed documentary film directed by Chinese filmmaker Zhang Liling (Leeling Zhang). Released in theaters in Japan in 2009 (after initial TV broadcast in 2006 on Fuji TV), it chronicles the real-life struggles of Ding Shangbiao, a man from Shanghai, and his family over a span of 15 years. The film, shot over 10 years across China, Japan, and the United States, deeply moved Japanese audiences, breaking viewership records, changing perceptions about Chinese immigrants, and winning awards for its portrayal of perseverance and family sacrifice.
 
@@ -28,11 +28,11 @@ In 2004, with his daughter nearing graduation and starting a career as a doctor,
 
 The documentary's power lies in its raw depiction of sacrifice, resilience, and parental love, resonating especially in Japan amid high suicide rates, highlighting Ding's unyielding spirit. It portrays an ordinary man's extraordinary determination to change his family's destiny across generations.
 
-References:  
+References:
 
-- https://baike.baidu.com/item/%E4%B8%81%E5%B0%9A%E5%BD%AA/10472911  
-- https://zh.wikipedia.org/wiki/%E5%90%AB%E6%B3%AA%E6%B4%BB%E7%9D%80  
-- https://movie.douban.com/subject/2342568/  
-- https://user.guancha.cn/main/content?id=183782  
-- https://www.sohu.com/a/731823692_639570  
+- https://baike.baidu.com/item/%E4%B8%81%E5%B0%9A%E5%BD%AA/10472911
+- https://zh.wikipedia.org/wiki/%E5%90%AB%E6%B3%AA%E6%B4%BB%E7%9D%80
+- https://movie.douban.com/subject/2342568/
+- https://user.guancha.cn/main/content?id=183782
+- https://www.sohu.com/a/731823692_639570
 - https://zhuanlan.zhihu.com/p/23301207

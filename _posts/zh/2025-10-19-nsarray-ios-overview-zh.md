@@ -96,5 +96,5 @@ NSMutableArray *mutableFruits = [NSMutableArray arrayWithArray:fruits];
 - 性能：访问为 O(1)，搜索为 O(n)。
 - 现代 iOS：对于新项目，考虑使用 Swift 的 `Array`——它更具类型安全性。
 
-[NSArray 文档](https://developer.apple.com/documentation/foundation/nsarray)  
+[NSArray 文档](https://developer.apple.com/documentation/foundation/nsarray)
 [NSMutableArray 文档](https://developer.apple.com/documentation/foundation/nsmutablearray)

@@ -117,6 +117,6 @@ with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False):
 
 FlashAttention彻底改变了长上下文训练，赋能了如Llama-2（4k→70B）等模型及其后续发展。
 
-[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)  
-[PyTorch 2.2: FlashAttention-v2 Integration](https://pytorch.org/blog/pytorch2-2/)  
+[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+[PyTorch 2.2: FlashAttention-v2 Integration](https://pytorch.org/blog/pytorch2-2/)
 [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)

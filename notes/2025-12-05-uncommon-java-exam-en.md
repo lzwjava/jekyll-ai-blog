@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular or uncommon questions on the 08553 Introduction to Programming—Java exam for the National Higher Education Self-study Examination?
 
-Answer: 
+Answer:
 
 The 08553 Introduction to Programming—Java exam (also known as "程序设计入门—Java" in Chinese) is a foundational course in China's National Higher Education Self-study Examination (自学考试) system, focusing on Java basics, object-oriented programming, control structures, arrays, and simple applications. Based on analysis of past exam papers, syllabi, and preparation resources, "unpopular" questions refer to those that appear infrequently—often less than once every 2-3 years—covering niche concepts or edge cases that candidates might overlook. These differ from high-frequency topics like basic syntax, loops, conditionals, or simple class definitions.
 
@@ -53,8 +53,8 @@ Unpopular questions typically test subtle mechanics, theoretical details, or adv
 
 Focusing on these can differentiate high scores (80+), as they reward conceptual depth.
 
-References:  
-- [Java语言程序设计自考试题历年试题](https://www.zikao365.com/shiti/downlist-7-3595.html)  
-- [04747 Java语言程序设计(一)自考真题及答案](https://blog.csdn.net/weixin_45467181/article/details/123350567)  
-- [自考08553程序设计入门—Java资料](https://www.zikaosw.cn/news/22066665.html)  
+References:
+- [Java语言程序设计自考试题历年试题](https://www.zikao365.com/shiti/downlist-7-3595.html)
+- [04747 Java语言程序设计(一)自考真题及答案](https://blog.csdn.net/weixin_45467181/article/details/123350567)
+- [自考08553程序设计入门—Java资料](https://www.zikaosw.cn/news/22066665.html)
 - [江苏省自考大纲 04747 Java语言程序设计（一）](https://www.jseea.cn/webfile/upload/2025/01-15/11-18-010872-1709595710.pdf)

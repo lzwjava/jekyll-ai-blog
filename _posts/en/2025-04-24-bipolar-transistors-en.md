@@ -37,11 +37,11 @@ BJTs operate in three primary modes, determined by the biasing (voltage applied)
    - **Base-Emitter Junction**: Forward-biased (turned "on," allowing current to flow).
    - **Base-Collector Junction**: Reverse-biased (blocks current, but allows controlled flow of carriers).
    - In NPN BJTs, a small base current (I_B) injects electrons from the emitter into the base. Most of these electrons diffuse across the thin base and are swept into the collector, producing a larger collector current (I_C).
-   - **Current Amplification**: The collector current is proportional to the base current, with a current gain (β) typically ranging from 20 to 1000. Mathematically:  
+   - **Current Amplification**: The collector current is proportional to the base current, with a current gain (β) typically ranging from 20 to 1000. Mathematically:
      \\[
      I_C = \beta \cdot I_B
      \\]
-   - The emitter current is the sum of base and collector currents:  
+   - The emitter current is the sum of base and collector currents:
      \\[
      I_E = I_B + I_C
      \\]
@@ -128,7 +128,7 @@ The behavior of a BJT in active mode is best understood through its **characteri
   α is typically 0.95–0.999, close to 1.
 - **Base-Emitter Voltage (V_BE)**:
   - ~0.7V for silicon BJTs in active mode.
-  - Follows the diode equation:  
+  - Follows the diode equation:
     \\[
     I_B \propto e^{V_{BE}/V_T}
     \\]

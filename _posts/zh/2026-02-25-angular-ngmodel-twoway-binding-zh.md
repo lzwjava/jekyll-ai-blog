@@ -90,7 +90,7 @@ import { FormsModule } from '@angular/forms';
 
 ```html
 <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
-  <input 
+  <input
     type="email"
     name="email"
     [(ngModel)]="user.email"

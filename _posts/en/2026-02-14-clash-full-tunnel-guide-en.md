@@ -12,7 +12,7 @@ type: note
 
 Question: How to configure Clash (using the provided partial config snippet) to achieve full-tunnel-like behavior or better proxy routing?
 
-Answer: 
+Answer:
 
 Your current partial Clash config already looks like a typical Clash/Clash Meta/Clash Verge base:
 
@@ -134,7 +134,7 @@ dns:
 
 If you share more of your config (especially proxy-groups and rules), I can give a more precise recommendation.
 
-References:  
+References:
 
 - [Clash Meta TUN Mode Documentation](https://github.com/MetaCubeX/mihomo/wiki/TUN-device)
 - [Clash Verge User Guide - TUN Setup](https://github.com/clash-verge-rev/clash-verge-rev/wiki)

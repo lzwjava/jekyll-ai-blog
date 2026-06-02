@@ -30,12 +30,12 @@ Yes, you can definitely use Jenkins properties for npm commands! Here's how:
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         NPM_AUTH_URL = 'https://registry.npmjs.org/'
         NPM_TOKEN = credentials('npm-token-id')
     }
-    
+
     stages {
         stage('Install') {
             steps {

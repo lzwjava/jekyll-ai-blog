@@ -120,7 +120,7 @@ Arch 提供一个**极小的基础系统**（安装后约 600–800 MB）—— 
 
 现在许多人先从 EndeavourOS 或 CachyOS (基于 Arch) 开始，获得信心后，再迁移到纯净的 Arch —— 或者永远留在衍生版中。
 
-References:  
+References:
 
 - [Arch Linux Official Website](https://archlinux.org/)
 - [Arch Wiki - Installation Guide](https://wiki.archlinux.org/title/Installation_guide)

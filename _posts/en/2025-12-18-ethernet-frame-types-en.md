@@ -12,7 +12,7 @@ type: note
 
 Question: What are unicast frames? What are the other types of frames?
 
-Answer: 
+Answer:
 
 In computer networking, particularly at the data link layer (Layer 2) in Ethernet networks, frames are classified based on their destination MAC address. This classification determines how switches and other devices handle and forward them.
 
@@ -42,9 +42,9 @@ Note: There is no "anycast" at the Ethernet frame level, as anycast is a Layer 3
 
 These classifications help efficiently manage network traffic: unicast for direct communication, multicast for group efficiency, and broadcast for reaching everyone locally.
 
-References:  
+References:
 
-- [Unicast, Multicast, and Broadcast Addresses - Study CCNA](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)  
-- [Unicast, Multicast, and Broadcast Explained](https://www.computernetworkingnotes.com/ccna-study-guide/unicast-multicast-and-broadcast-explained.html)  
-- [Identifying Ethernet Multicast - Brad Hedlund](https://bradhedlund.com/2007/11/21/identifying-ethernet-multicast/)  
+- [Unicast, Multicast, and Broadcast Addresses - Study CCNA](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)
+- [Unicast, Multicast, and Broadcast Explained](https://www.computernetworkingnotes.com/ccna-study-guide/unicast-multicast-and-broadcast-explained.html)
+- [Identifying Ethernet Multicast - Brad Hedlund](https://bradhedlund.com/2007/11/21/identifying-ethernet-multicast/)
 - [Unicast, multicast, broadcast addresses | CCNA](https://geek-university.com/unicast-multicast-broadcast-addresses/)

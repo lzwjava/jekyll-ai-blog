@@ -32,10 +32,10 @@ The code is a single file combining template, script, and styles.
 The `<template>` defines the UI layout using Vue's directives (e.g., `v-for` for loops, `:src` for dynamic attributes). It's divided into sections that visually organize the live stream's details.
 
 - **Root Element**: `<div class="intro-view">` – The main container for the entire page.
-  
+
 - **Navigation**: `<list-nav :mode="0" :title="introTitle" :live-id="liveId"></list-nav>` – A custom component for navigation, passing the live title (computed as `${live.owner.username}的直播`) and ID.
 
-- **Cover Section**: 
+- **Cover Section**:
   - `<img class="cover-img" :src="live.coverUrl" alt="cover" @click="clickCover"/>` – Displays the live stream's cover image. Clicking it triggers `clickCover()`, which may initiate attend/join flow.
 
 - **Header Section**: `<div class="header-section card-group">`
@@ -59,7 +59,7 @@ The `<template>` defines the UI layout using Vue's directives (e.g., `v-for` for
 - **Attend Section** (Fixed at bottom):
   - **Left Buttons**: Conditional buttons for "发起直播" (start a live, if not owner) or "编辑介绍页" (edit page, if owner).
   - **Main Attend Button**: Dynamic text (computed `btnTitle`) based on status (e.g., "报名参与直播" for free sign-up, or "赞助并参与直播 ￥X" for paid). Handles join/pay logic.
-  
+
 - **Overlays and Toasts**:
   - `<overlay>`: For modal popups (e.g., payment options, share prompts, QR code for payment).
   - `<toast>`: Loading/Success/error messages.

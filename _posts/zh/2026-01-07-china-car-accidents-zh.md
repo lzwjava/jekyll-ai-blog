@@ -73,10 +73,10 @@ type: note
 
 保持冷静，安全第一，并记录下所有过程。
 
-References:  
+References:
 
-- [https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm](https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm)  
-- [https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html](https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html)  
-- [https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China](https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China)  
-- [https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html](https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html)  
+- [https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm](https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm)
+- [https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html](https://english.shanghai.gov.cn/en-FAQs-LivinginShanghai/20240122/738879b39fa9436bb4026fc2cc25eaa3.html)
+- [https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China](https://www.echinacities.com/expat-life/A-Crash-Course-in-Handling-Traffic-Accidents-in-China)
+- [https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html](https://property.picc.com/xfzqybhzl/fxts/202203/t20220322_64584.html)
 - [https://www.autohome.com.cn/ask/2235566.html](https://www.autohome.com.cn/ask/2235566.html)

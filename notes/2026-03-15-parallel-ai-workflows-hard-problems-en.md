@@ -120,8 +120,8 @@ mkdir alphago-research && cd alphago-research && git init
 
 # 2. Scaffold the project with an Opus session
 claude --model claude-opus-4-6
-> "Design the repo structure for reimplementing AlphaGo Zero. 
->  Create a TASKS.md breaking work into: MCTS engine, 
+> "Design the repo structure for reimplementing AlphaGo Zero.
+>  Create a TASKS.md breaking work into: MCTS engine,
 >  policy/value network, self-play loop, training loop."
 
 # 3. Spawn parallel worktrees for each component

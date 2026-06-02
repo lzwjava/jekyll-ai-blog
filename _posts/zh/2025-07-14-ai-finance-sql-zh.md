@@ -17,9 +17,9 @@ type: note
 SELECT *
 FROM users
 WHERE first_name ILIKE 'andy'
-  AND CAST(created_at AS DATE) BETWEEN 
-      (CURRENT_DATE - INTERVAL '1 MONTH' - INTERVAL '1 DAY') 
-      AND 
+  AND CAST(created_at AS DATE) BETWEEN
+      (CURRENT_DATE - INTERVAL '1 MONTH' - INTERVAL '1 DAY')
+      AND
       (CURRENT_DATE - INTERVAL '1 MONTH' + INTERVAL '1 DAY')
   AND EXTRACT(YEAR FROM AGE(date_of_birth)) = 20
   AND last_login >= CURRENT_TIMESTAMP - INTERVAL '7 DAYS';
@@ -72,11 +72,11 @@ WHERE first_name ILIKE 'andy'
 
 若正在构建AI代理，可考虑LangChain等开源框架来串联日志分析与SQL生成。关于API或订阅定价，请查阅官方站点了解详情。
 
-**参考资料**  
-- [人工智能与银行软件开发 | 德勤洞察](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)  
-- [银行业AI应用：场景、优势与案例 | 谷歌云](https://cloud.google.com/discover/ai-in-banking)  
-- [银行业AI价值挖掘：企业重构 | 麦肯锡](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)  
-- [金融AI应用：场景、案例与优势 | 谷歌云](https://cloud.google.com/discover/finance-ai)  
-- [2025年金融领域顶级AI应用：[效益与成功案例] | Acropolium](https://acropolium.com/blog/artificial-intelligence-applications-in-finance-real-world-success-cases/)  
-- [QueryGPT - 基于生成式AI的自然语言转SQL | Uber技术博客](https://www.uber.com/blog/query-gpt/)  
+**参考资料**
+- [人工智能与银行软件开发 | 德勤洞察](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)
+- [银行业AI应用：场景、优势与案例 | 谷歌云](https://cloud.google.com/discover/ai-in-banking)
+- [银行业AI价值挖掘：企业重构 | 麦肯锡](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)
+- [金融AI应用：场景、案例与优势 | 谷歌云](https://cloud.google.com/discover/finance-ai)
+- [2025年金融领域顶级AI应用：[效益与成功案例] | Acropolium](https://acropolium.com/blog/artificial-intelligence-applications-in-finance-real-world-success-cases/)
+- [QueryGPT - 基于生成式AI的自然语言转SQL | Uber技术博客](https://www.uber.com/blog/query-gpt/)
 - [使用BigQuery和Gemini实现自然语言转SQL | 谷歌云博客](https://cloud.google.com/blog/products/data-analytics/nl2sql-with-bigquery-and-gemini)

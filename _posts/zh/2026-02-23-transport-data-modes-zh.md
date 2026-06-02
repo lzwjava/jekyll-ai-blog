@@ -11,7 +11,7 @@ type: note
 
 Question: transport layer 在两个 transport entities 之间的数据传输服务模式是什么？
 
-Answer: 
+Answer:
 
 正确答案是 **B**。
 

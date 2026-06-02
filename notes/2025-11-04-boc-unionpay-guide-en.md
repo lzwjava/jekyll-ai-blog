@@ -40,6 +40,6 @@ Your BOC HK (Bank of China Hong Kong) physical debit card, which is UnionPay-bra
 
 For full terms, visit the BOCHK site. If you're traveling soon, test a small withdrawal in HK first.
 
-[BOC Card Details](https://www.bochk.com/en/more/boccard/personal.html)  
-[BOCHK Service Charges](https://www.bochk.com/en/servicecharge.html)  
+[BOC Card Details](https://www.bochk.com/en/more/boccard/personal.html)
+[BOCHK Service Charges](https://www.bochk.com/en/servicecharge.html)
 [UnionPay Global Acceptance](https://www.unionpayintl.com/en/)

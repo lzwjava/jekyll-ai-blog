@@ -12,7 +12,7 @@ type: note
 
 Question: Why are many middle school and even primary school students in China now very good at PUBG Mobile and Honor of Kings, able to beat their teachers with quick fingers and operations?
 
-Answer: 
+Answer:
 
 Many primary (ages 6-12) and middle school (ages 12-15) students in China excel at mobile games like PUBG Mobile (known locally as *Game for Peace* or *和平精英*) and *Honor of Kings* (王者荣耀, often called King of Glory), often outperforming adults including their teachers. This phenomenon stems from a combination of cultural popularity, easy access, intense competition, biological advantages of youth, and circumvention of regulations. Here's a breakdown:
 
@@ -42,10 +42,10 @@ Many primary (ages 6-12) and middle school (ages 12-15) students in China excel 
 
 This isn't new but intensified post-2017 boom. Regulations curb excess, yet passion persists—kids treat it like a second job, beating "noobs" like teachers routinely.
 
-References:  
-- [Are there really elementary school students who play King's Glory? (Zhihu)](https://en.zhihu.com/answer/1650141489)  
-- [Comparative study of online gaming in high/low-performing Chinese students (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10825474/)  
-- [Why are Chinese players so good at online gaming? (Quora)](https://www.quora.com/Why-are-Chinese-players-so-good-at-online-gaming)  
-- [Honor of Kings popularity among kids (BBC)](https://www.bbc.com/news/business-40516125)  
-- [Primary students beating teachers in Honor of Kings (Bilibili search)](https://m.bilibili.com/search?keyword=%25E5%25B0%258F%25E5%25AD%25A6%25E7%2594%259F%25E7%2594%25B5%25E7%25AB%259E/)  
+References:
+- [Are there really elementary school students who play King's Glory? (Zhihu)](https://en.zhihu.com/answer/1650141489)
+- [Comparative study of online gaming in high/low-performing Chinese students (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10825474/)
+- [Why are Chinese players so good at online gaming? (Quora)](https://www.quora.com/Why-are-Chinese-players-so-good-at-online-gaming)
+- [Honor of Kings popularity among kids (BBC)](https://www.bbc.com/news/business-40516125)
+- [Primary students beating teachers in Honor of Kings (Bilibili search)](https://m.bilibili.com/search?keyword=%25E5%25B0%258F%25E5%25AD%25A6%25E7%2594%259F%25E7%2594%25B5%25E7%25AB%259E/)
 - [PUBG Mobile kids' skills (Zhihu)](https://www.zhihu.com/question/329973775/answer/1133471166)

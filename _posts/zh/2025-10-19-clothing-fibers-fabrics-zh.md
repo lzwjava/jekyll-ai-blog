@@ -29,6 +29,6 @@ type: note
 
 这些材料常被混纺（如棉涤混纺）以兼顾舒适性与耐用性等优势。出于环保考量，行业趋势正转向有机棉或再生聚酯纤维等可持续选择。
 
-如需了解面料护理与可持续性的更多信息：  
-[常见面料指南 - 大英百科全书](https://www.britannica.com/topic/textile/Fabrics)  
+如需了解面料护理与可持续性的更多信息：
+[常见面料指南 - 大英百科全书](https://www.britannica.com/topic/textile/Fabrics)
 [纺织纤维概述 - 纺织学者](https://textilelearner.net/types-of-fibres-used-in-textile-industry/)

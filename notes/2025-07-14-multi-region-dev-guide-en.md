@@ -16,7 +16,7 @@ We'll cover the key aspects step by step, focusing on backend-heavy projects (e.
 
 Before coding, map out what varies by region. This prevents over-engineering or unnecessary splits.
 
-- **Compliance and Regulations**: 
+- **Compliance and Regulations**:
   - Data residency (e.g., GDPR in EU, CCPA in California, PDPA in Singapore, or China's data localization laws) often requires storing data in specific regions.
   - Financial apps may need audit trails or encryption standards varying by country (e.g., PCI DSS globally, but with local tweaks).
   - Action: Conduct a compliance audit early. Use tools like legal checklists or consult experts. Isolate compliance logic (e.g., data encryption) in dedicated services.

@@ -21,13 +21,13 @@ Most people experience this without ever thinking about the term:
 
 ### Why most elevators are half-duplex
 
-1. **Oldest and still most common system**: simple analog intercom using a single voice wire pair  
+1. **Oldest and still most common system**: simple analog intercom using a single voice wire pair
    → physically impossible to do full-duplex without echo cancellers
 
-2. **Cost-optimized 2-wire systems** (even many post-2000 installations)  
+2. **Cost-optimized 2-wire systems** (even many post-2000 installations)
    → They use "push-to-talk" style half-duplex operation (like old walkie-talkies or many cheap VoIP door phones)
 
-3. **Acoustic reality inside small metal box**  
+3. **Acoustic reality inside small metal box**
    Even when the hardware technically allows full-duplex, echo + very high gain → howling/Larsen effect very easily → most manufacturers deliberately keep it half-duplex or add very aggressive echo suppression that basically makes it feel half-duplex anyway.
 
 ### You usually get full-duplex only when:
@@ -39,11 +39,11 @@ Most people experience this without ever thinking about the term:
 
 **TL;DR meme version most people would recognize:**
 
-Elevator intercom:  
-You: "HELLO?? I'M STUCK BETWEEN 7 AND 8!!!"  
-Control room: "…hello can you hear me?"  
-You: (still holding button) "YES HELLO???"  
-Control room: (talking at same time) "please release the button so I can—"  
+Elevator intercom:
+You: "HELLO?? I'M STUCK BETWEEN 7 AND 8!!!"
+Control room: "…hello can you hear me?"
+You: (still holding button) "YES HELLO???"
+Control room: (talking at same time) "please release the button so I can—"
 → both talking on top of each other → nobody understands anything → classic half-duplex pain
 
 So yeah… elevator is half duplex. 😭

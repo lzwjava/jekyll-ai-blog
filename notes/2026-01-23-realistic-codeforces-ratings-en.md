@@ -12,24 +12,24 @@ type: note
 
 Question: If one works hard with a normal 985/211 or Ivy League background and high IQ, what Codeforces rating can one normally achieve?
 
-Answer: 
+Answer:
 
 For a student from a normal (mid-to-high tier) **985/211** university or an **Ivy League** school who **works really hard** on competitive programming and has **above-average to high IQ** (roughly 125–140+ range), the realistically achievable Codeforces rating under normal circumstances falls into these ranges:
 
-- **Most common realistic target (very solid result)**  
-  **2100–2350** (Master → International Master)  
+- **Most common realistic target (very solid result)**
+  **2100–2350** (Master → International Master)
   This is achievable for the majority of hard-working students from strong CS/math programs if they train seriously for 2–4 years.
 
-- **Good but not rare outcome (top 20–40% of such hard workers)**  
-  **2350–2600** (high International Master → low Grandmaster)  
+- **Good but not rare outcome (top 20–40% of such hard workers)**
+  **2350–2600** (high International Master → low Grandmaster)
   Requires good pattern recognition speed + consistent contest performance + strong math.
 
-- **Excellent / quite rare outcome (top ~10–15% among the hard workers in this group)**  
-  **2600–2900** (solid Grandmaster)  
+- **Excellent / quite rare outcome (top ~10–15% among the hard workers in this group)**
+  **2600–2900** (solid Grandmaster)
   Almost always needs very strong combinatorial / algorithmic intuition + thousands of quality virtual contests + excellent contest temperament.
 
-- **Exceptional / very rare (top 1–5%)**  
-  **2900+** (high Grandmaster / International Grandmaster)  
+- **Exceptional / very rare (top 1–5%)**
+  **2900+** (high Grandmaster / International Grandmaster)
   Usually requires either exceptional talent, extremely early start (high school olympiad level), or becoming basically a full-time competitive programmer for several years.
 
 ### Rough mapping (assuming serious training 15–30+ hours/week for multiple years)
@@ -49,12 +49,12 @@ For a student from a normal (mid-to-high tier) **985/211** university or an **Iv
 - **Speed & implementation under pressure** — many people plateau because they cannot code fast & bug-free when rated contests matter.
 - **Age/start time** — starting seriously at 18–20 vs 14–16 makes a big difference in final ceiling.
 
-**Summary for most hard-working 985/Ivy students with good (but not genius) IQ**  
-→ **2100–2400 is a very respectable and realistic long-term level**  
-→ **2500+ is excellent and requires everything to go quite well**  
+**Summary for most hard-working 985/Ivy students with good (but not genius) IQ**
+→ **2100–2400 is a very respectable and realistic long-term level**
+→ **2500+ is excellent and requires everything to go quite well**
 → **2700+ is already in the "gifted + extreme dedication" zone** for most people without very early olympiad background.
 
-References:  
+References:
 
 - [Codeforces rating interpretation and percentiles](https://codeforces.com/blog/entry/68288)
 - [Organization ratings (Tsinghua etc.)](https://codeforces.com/ratings/organizations)

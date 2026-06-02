@@ -67,10 +67,10 @@ RIP 路由器维护一个路由表，其中包含已知网络的条目，包括�
 
 由于其简单性，RIP 在小型网络、传统系统或教育目的中仍然有用。
 
-参考文献：  
+参考文献：
 
-- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/  
-- https://en.wikipedia.org/wiki/Routing_Information_Protocol  
-- https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol  
-- https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip  
+- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/
+- https://en.wikipedia.org/wiki/Routing_Information_Protocol
+- https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol
+- https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip
 - https://www.juniper.net/documentation/us/en/software/junos/rip/topics/topic-map/rip-and-ripng-overview.html

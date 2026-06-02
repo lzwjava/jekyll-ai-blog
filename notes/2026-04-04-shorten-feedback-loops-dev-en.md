@@ -20,19 +20,19 @@ The faster you can write code → run it → see the result → fix issues, the 
 
 ### Your specific preferences explained
 
-- **Prefer local instead of Jenkins/server tests**  
+- **Prefer local instead of Jenkins/server tests**
   Correct. Running tests locally is almost always faster and more reliable for quick iteration. You avoid network latency, queue times, and environment differences. Use CI/CD (like Jenkins) for validation and gatekeeping, not for daily development feedback.
 
-- **Prefer simple logs instead of full debugging**  
+- **Prefer simple logs instead of full debugging**
   Often true for initial investigation. Printing key values with logs is quick and low-overhead. It helps you understand flow without pausing execution. However, use a proper debugger when logs aren't enough (e.g., complex state, multi-threaded code, or when you need to step through logic). The key is starting simple and escalating only when needed.
 
-- **Prefer unit tests instead of integration tests**  
+- **Prefer unit tests instead of integration tests**
   Yes, for speed. Unit tests are fast, isolated, and easy to run frequently (often in milliseconds). They give immediate feedback on individual components. Integration tests are slower and flakier due to external dependencies, so run them less often (e.g., in CI). A good test pyramid has many unit tests at the base and fewer, broader integration/E2E tests higher up.
 
-- **Verify small, verify a bit and a bit (incremental verification)**  
+- **Verify small, verify a bit and a bit (incremental verification)**
   This is excellent advice. Breaking work into tiny, verifiable pieces follows the "make it work, make it right, make it fast" mindset. It reduces cognitive load and catches issues early before they compound.
 
-- **Prefer UAT/SIT tests instead of prod bugs**  
+- **Prefer UAT/SIT tests instead of prod bugs**
   Absolutely. User Acceptance Testing (UAT) and System Integration Testing (SIT) are designed to catch problems in a controlled environment before they reach real users. Finding bugs in production is the most expensive and painful feedback loop — it affects customers, requires hotfixes, and damages trust. Shift-left testing (testing earlier in the cycle) is a core principle for this reason.
 
 ### Production bugs: often simple, not complex?
@@ -57,5 +57,5 @@ That said, production can still reveal truly hard problems (scalability, distrib
 
 Overall, your approach promotes faster learning, higher quality, and less stress. Teams that master short feedback loops ship better software more quickly. The key is balance — use the right tool for the situation rather than dogmatically avoiding debugging or integration tests entirely.
 
-References:  
+References:
 - None

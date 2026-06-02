@@ -12,7 +12,7 @@ Building genuine professional relationships in the corporate world—especially 
 
 ### Addressing Your Examples
 - **Starting a Blog**: This is a solid approach. By sharing your insights on industry trends, tech challenges, or lessons learned (e.g., via Medium, your own site, or LinkedIn articles), you position yourself as a thoughtful contributor rather than just a job-seeker. It attracts people who resonate with your ideas, leading to organic conversations in comments or DMs. Over time, this builds credibility and draws in collaborators or mentors. Tip: Keep it consistent (e.g., one post a month) and engage with readers' responses to turn it into two-way interactions.
-  
+
 - **DMing People Once or Twice a Year**: This can maintain connections, but it's often too infrequent to feel "real" unless the messages are personalized and meaningful. A generic "Happy holidays!" might get ignored, but referencing a shared experience (e.g., "Saw your post on AI ethics—reminded me of our project at XYZ. How's that going?") shows genuine interest. Aim for quality: Use these touchpoints to offer help or share something useful, not just to check in.
 
 ### Broader Tips for Building Real Relationships
@@ -34,8 +34,8 @@ Here are actionable steps to create deeper bonds. Start small, like with 3-5 peo
 
 Remember, this isn't overnight; it might take months to see depth, but strong relationships often lead to referrals, advice during layoffs, or even partnerships. If it feels overwhelming, track your efforts in a simple CRM app or notes to stay organized. The key is shifting from "what can I get?" to "how can we grow together?"
 
-[How to Build Real Relationships at Work - Harvard Business Review](https://hbr.org/2022/08/how-to-build-real-relationships-at-work)  
-[How to Build Business Relationships - Professional & Executive Development | Harvard DCE](https://professional.dce.harvard.edu/blog/how-to-build-business-relationships/)  
-[How To Build And Maintain Professional Relationships - Forbes](https://www.forbes.com/councils/forbescoachescouncil/2023/02/02/how-to-build-and-maintain-professional-relationships/)  
-[How to build meaningful professional relationships - Fast Company](https://www.fastcompany.com/91113961/how-to-build-meaningful-professional-relationships)  
+[How to Build Real Relationships at Work - Harvard Business Review](https://hbr.org/2022/08/how-to-build-real-relationships-at-work)
+[How to Build Business Relationships - Professional & Executive Development | Harvard DCE](https://professional.dce.harvard.edu/blog/how-to-build-business-relationships/)
+[How To Build And Maintain Professional Relationships - Forbes](https://www.forbes.com/councils/forbescoachescouncil/2023/02/02/how-to-build-and-maintain-professional-relationships/)
+[How to build meaningful professional relationships - Fast Company](https://www.fastcompany.com/91113961/how-to-build-meaningful-professional-relationships)
 [8 Ways To Build Strong Relationships in the Workplace | Indeed.com](https://www.indeed.com/career-advice/career-development/how-to-build-relationships)

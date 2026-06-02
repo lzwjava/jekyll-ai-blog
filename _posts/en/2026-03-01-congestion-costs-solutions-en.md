@@ -11,9 +11,9 @@ type: note
 
 Question: Continue the organized transcript from the YouTube video and provide the latter part.
 
-Answer: 
+Answer:
 
-**Organized Transcript: 3.6 Principles of Congestion Control (continued)**  
+**Organized Transcript: 3.6 Principles of Congestion Control (continued)**
 *(Lecture by Jim Kurose, from Computer Networking: A Top-Down Approach)*
 
 ...even though two copies arrived. So here we have the case of unnecessary retransmissions — sometimes called “spurious retransmissions” or “premature timeouts.”
@@ -30,20 +30,20 @@ This graph is one of the most famous in networking: it shows the knee and then t
 
 So we've now seen several costs of congestion:
 
-1. Large queuing delays (even with infinite buffers)  
-2. Packet loss requiring retransmissions (with finite buffers)  
-3. Wasted bandwidth on duplicate packets due to premature timeouts  
+1. Large queuing delays (even with infinite buffers)
+2. Packet loss requiring retransmissions (with finite buffers)
+3. Wasted bandwidth on duplicate packets due to premature timeouts
 4. Goodput collapse — in the extreme case, network throughput approaching zero while offered load is very high
 
 These observations lead us to two broad approaches to congestion control:
 
-**End-to-end congestion control**  
+**End-to-end congestion control**
 The network provides no explicit feedback to the senders about congestion. The senders must infer congestion from their own observations — typically packet loss and/or increasing delay. TCP follows this approach.
 
-**Network-assisted congestion control**  
-The network provides explicit feedback to the senders about congestion. This feedback can come in two forms:  
-- Direct notification from the congested router to the sender (“backwards” explicit congestion notification)  
-- A router marks or sets a bit in packets going forward to the receiver, and the receiver then feeds this information back to the sender (“forward” explicit congestion notification)  
+**Network-assisted congestion control**
+The network provides explicit feedback to the senders about congestion. This feedback can come in two forms:
+- Direct notification from the congested router to the sender (“backwards” explicit congestion notification)
+- A router marks or sets a bit in packets going forward to the receiver, and the receiver then feeds this information back to the sender (“forward” explicit congestion notification)
 
 Examples of network-assisted approaches include DECbit (early 1980s), Explicit Congestion Notification (ECN) in IP, and various ATM ABR schemes.
 
@@ -55,6 +55,6 @@ That concludes our high-level principles of congestion control. We’ve seen the
 
 *(End of section 3.6)*
 
-References:  
+References:
 
 - [Original Video: 3.6 Principles of Congestion Control](https://www.youtube.com/watch?v=Fm92xvIp6JY)

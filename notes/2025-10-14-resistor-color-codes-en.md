@@ -64,5 +64,5 @@ These offer higher precision with an extra significant digit.
 - If bands are faded or unclear, use a multimeter to measure the actual resistance.
 - Zero-ohm resistors (jumpers) may have a single black band.
 
-[How To Read Resistor Color Codes | Arrow.com](https://www.arrow.com/en/research-and-events/articles/resistor-color-code)  
+[How To Read Resistor Color Codes | Arrow.com](https://www.arrow.com/en/research-and-events/articles/resistor-color-code)
 [RESISTOR COLOR CODE GUIDE (PDF)](https://neurophysics.ucsd.edu/courses/physics_120/resistorcharts.pdf)

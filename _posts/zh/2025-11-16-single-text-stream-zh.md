@@ -48,7 +48,7 @@ $ python ./scripts/train/extract_fineweb.py
 这些错误做法会破坏模型学习跨文档长程依赖的能力，并严重损害性能表现。
 
 ### 核心要点
-正确 → 基于**单个巨型拼接文本文件**训练（正是`extract_fineweb.py`生成的格式）  
+正确 → 基于**单个巨型拼接文本文件**训练（正是`extract_fineweb.py`生成的格式）
 错误 → **禁止**按文章逐个作为独立序列训练
 
 这是GPT系列始终采用的训练方式，也是nanoGPT的`train.py`将数据视为长令牌流的原因。

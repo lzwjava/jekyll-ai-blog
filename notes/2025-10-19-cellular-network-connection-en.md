@@ -24,6 +24,6 @@ Here's a simple breakdown:
 
 In short, your hunch is spot on: cities get blanket coverage from a network of nearby bases, while heading to remote spots stretches those cells thin, often dropping to weaker signals or nothing. If you're in a no-signal area, things like signal boosters or satellite options (e.g., Starlink) can help bridge the gap.
 
-[5G Wireless Rural/Urban Connectivity in the U.S. States](https://www.ookla.com/articles/5g-wireless-rural-urban-us-states)  
-[What Are the Differences Between a 4G and a 5G Tower?](https://www.signalboosters.com/blog/what-are-the-differences-between-a-4g-and-a-5g-tower/)  
+[5G Wireless Rural/Urban Connectivity in the U.S. States](https://www.ookla.com/articles/5g-wireless-rural-urban-us-states)
+[What Are the Differences Between a 4G and a 5G Tower?](https://www.signalboosters.com/blog/what-are-the-differences-between-a-4g-and-a-5g-tower/)
 [5G Network Coverage Planning and Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8512478/)

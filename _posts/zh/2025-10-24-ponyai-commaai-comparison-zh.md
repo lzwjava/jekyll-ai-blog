@@ -30,11 +30,11 @@ Pony.ai 与 comma.ai 均是自动驾驶领域的重要参与者，但两者的�
 ### 总结
 Pony.ai 凭借雄厚资本与法规突破，在企业级自动驾驶商业化领域占据领先地位，成为Waymo、百度Apollo的直接竞争对手。comma.ai 则擅长为日常驾驶者提供亲民、可定制化的技术，在没有风险投资扩张的情况下实现盈利，更适合爱好者群体而非车队级应用。若志在构建机器人出租车帝国，可押注Pony.ai；若想升级日常座驾，comma.ai 在成本与开放性上更具优势。
 
-[ Pony.ai 官网](https://pony.ai/)  
-[ comma.ai 官网](https://comma.ai/)  
-[ Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)  
-[ comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)  
-[ Pony.ai 维基百科](https://en.wikipedia.org/wiki/Pony.ai)  
-[ 乔治·霍兹维基百科](https://en.wikipedia.org/wiki/George_Hotz)  
-[ Pony.ai Tracxn融资数据](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)  
+[ Pony.ai 官网](https://pony.ai/)
+[ comma.ai 官网](https://comma.ai/)
+[ Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)
+[ comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)
+[ Pony.ai 维基百科](https://en.wikipedia.org/wiki/Pony.ai)
+[ 乔治·霍兹维基百科](https://en.wikipedia.org/wiki/George_Hotz)
+[ Pony.ai Tracxn融资数据](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)
 [ comma.ai PitchBook档案](https://pitchbook.com/profiles/company/155326-69)

@@ -48,7 +48,7 @@ jobs:
           else
             echo "notes_updated=false" >> "$GITHUB_OUTPUT"
           fi
-      
+
       - name: Commit Notes Link Changes
         if: steps.update_notes_links.outputs.notes_updated == 'true'
         run: |
@@ -91,7 +91,7 @@ jobs:
         id: dry_run_pdf
         run: |
           DRY_RUN_PDF_OUTPUT=$(python scripts/pdf/update_pdf.py --max_files 1000 --dry_run)
-          echo "$DRY_RUN_PDF_OUTPUT" 
+          echo "$DRY_RUN_PDF_OUTPUT"
 
           if [[ "$DRY_RUN_PDF_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
             echo "pdf_updated=false" >> "$GITHUB_OUTPUT"
@@ -100,32 +100,32 @@ jobs:
           fi
 
       - name: Install Microsoft Core Fonts
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
           sudo apt-get install -y ttf-mscorefonts-installer
           fc-cache -fv
 
       - name: Install Noto Fonts
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
           sudo apt-get install -y fonts-noto
 
       - name: Install Noto CJK
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
           sudo apt-get install -y fonts-noto-cjk
 
       - name: Install DejaVu Fonts
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
           sudo apt-get install -y fonts-dejavu
 
       - name: List Installed Fonts
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: fc-list
 
       - name: Setup TeX Live
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         uses: teatimeguest/setup-texlive-action@v3
         with:
           packages: |
@@ -146,19 +146,19 @@ jobs:
             footnote
 
       - name: Install Pandoc
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Run Pdf-Pipeline.py
         if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
           python scripts/pdf/update_pdf.py --max_files 1000
-          
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/pdfs/**/*.pdf
           git diff --cached --quiet || git commit -m "chore(pdf): Update PDF files"
-          
+
           git push || {
             echo "Push failed, attempting pull and merge"
             git pull --rebase
@@ -207,7 +207,7 @@ jobs:
       - name: Run Audio Pipeline
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
-          python scripts/audio/audio_pipeline.py --task posts --n 2 --max_files 20          
+          python scripts/audio/audio_pipeline.py --task posts --n 2 --max_files 20
 
       - name: Commit generated audio files
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
@@ -246,7 +246,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/conversations/*.mp3
-          git add *.xml          
+          git add *.xml
           git diff --cached --quiet || git commit -m "feat(audio): Add generated conversation audio files"
           git push || {
             echo "Push failed, attempting pull and merge"
@@ -256,7 +256,7 @@ jobs:
 
       - name: Clean Up Credentials
         run: |
-          rm -f ./gha-creds-*.json            
+          rm -f ./gha-creds-*.json
 
       - name: Update Release Hash
         run: python scripts/release/update_release.py

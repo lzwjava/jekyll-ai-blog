@@ -12,53 +12,53 @@ type: note
 
 ### 精选YouTube视频
 
-1. **《电学发展史》by Kathy Loves Physics & History**  
-   - **频道**：Kathy Loves Physics & History  
-   - **时长**：约30分钟  
-   - **链接**：在YouTube搜索“The History of Electricity Kathy Loves Physics”  
-   - **简介**：本视频以引人入胜的叙事方式展现电学演进历程，从古希腊泰勒斯观察静电现象，到19世纪重大突破。涵盖本杰明·富兰克林实验、亚历山德罗·伏打电池（1800年）及迈克尔·法拉第电磁感应（1831年）。凯茜结合历史轶事讲解库仑定律在静电力中的应用，使数学概念更易理解。故事化叙述适合初学者和高中生，将历史人物与电场、电势等概念有机串联。  
+1. **《电学发展史》by Kathy Loves Physics & History**
+   - **频道**：Kathy Loves Physics & History
+   - **时长**：约30分钟
+   - **链接**：在YouTube搜索“The History of Electricity Kathy Loves Physics”
+   - **简介**：本视频以引人入胜的叙事方式展现电学演进历程，从古希腊泰勒斯观察静电现象，到19世纪重大突破。涵盖本杰明·富兰克林实验、亚历山德罗·伏打电池（1800年）及迈克尔·法拉第电磁感应（1831年）。凯茜结合历史轶事讲解库仑定律在静电力中的应用，使数学概念更易理解。故事化叙述适合初学者和高中生，将历史人物与电场、电势等概念有机串联。
    - **推荐理由**：凯茜融合历史与物理的讲述方式让复杂概念生动有趣，完美契合您对库仑定律历史背景的探索需求。
 
-2. **《欧姆定律详解》by The Engineering Mindset**  
-   - **频道**：The Engineering Mindset  
-   - **时长**：约15分钟  
-   - **链接**：在YouTube搜索“Ohm’s Law Explained The Engineering Mindset”  
-   - **简介**：视频深入解析乔治·欧姆1827年的发现，阐释电压、电流与电阻的关系（V=IR）。通过动画展示欧姆如何利用导线和伏打电池进行实验，并探讨导体电阻问题。同时涉及功率计算（P=VI），与高中物理及《电子技术基础》课程内容高度相关。电路电流计算等实例使其更具实践性。  
+2. **《欧姆定律详解》by The Engineering Mindset**
+   - **频道**：The Engineering Mindset
+   - **时长**：约15分钟
+   - **链接**：在YouTube搜索“Ohm’s Law Explained The Engineering Mindset”
+   - **简介**：视频深入解析乔治·欧姆1827年的发现，阐释电压、电流与电阻的关系（V=IR）。通过动画展示欧姆如何利用导线和伏打电池进行实验，并探讨导体电阻问题。同时涉及功率计算（P=VI），与高中物理及《电子技术基础》课程内容高度相关。电路电流计算等实例使其更具实践性。
    - **推荐理由**：内容精炼、视觉清晰，直击查询核心的欧姆定律。该频道以面向学生和爱好者的工程概念解析著称。
 
-3. **《基尔霍夫定律教程》by The Organic Chemistry Tutor**  
-   - **频道**：The Organic Chemistry Tutor  
-   - **时长**：约20分钟  
-   - **链接**：在YouTube搜索“Kirchhoff’s Law, Junction & Loop Rule, Ohm’s Law - KCL & KVL Circuit Analysis”  
-   - **简介**：本物理教程详解古斯塔夫·基尔霍夫1845年提出的电流定律（KCL）与电压定律（KVL）。通过电路图演示如何应用KCL（节点电流代数和为零）和KVL（回路电压代数和为零）求解复杂直流电路，结合欧姆定律进行多回路算例分析，适合高中及大学低年级学生。  
+3. **《基尔霍夫定律教程》by The Organic Chemistry Tutor**
+   - **频道**：The Organic Chemistry Tutor
+   - **时长**：约20分钟
+   - **链接**：在YouTube搜索“Kirchhoff’s Law, Junction & Loop Rule, Ohm’s Law - KCL & KVL Circuit Analysis”
+   - **简介**：本物理教程详解古斯塔夫·基尔霍夫1845年提出的电流定律（KCL）与电压定律（KVL）。通过电路图演示如何应用KCL（节点电流代数和为零）和KVL（回路电压代数和为零）求解复杂直流电路，结合欧姆定律进行多回路算例分析，适合高中及大学低年级学生。
    - **推荐理由**：直击查询关键基尔霍夫定律，提供清晰解题步骤。该频道是STEM教育领域的权威资源。
 
-4. **《从真空管到晶体管》by Veritasium**  
-   - **频道**：Veritasium  
-   - **时长**：约25分钟  
-   - **链接**：在YouTube搜索“The Most Important Invention of the 20th Century: Transistors Veritasium”  
-   - **简介**：德里克·穆勒探讨电子学从真空管到晶体管的关键转型。涵盖李·德福雷斯特1906年发明的三极管在早期收音机的应用，以及1947年巴丁、布拉顿和肖克利在贝尔实验室发明的晶体管。阐释以硅为代表的半导体如何取代笨重真空管，实现设备小型化与高效化。历史影像与动画生动展示热电子发射与半导体物理原理。  
+4. **《从真空管到晶体管》by Veritasium**
+   - **频道**：Veritasium
+   - **时长**：约25分钟
+   - **链接**：在YouTube搜索“The Most Important Invention of the 20th Century: Transistors Veritasium”
+   - **简介**：德里克·穆勒探讨电子学从真空管到晶体管的关键转型。涵盖李·德福雷斯特1906年发明的三极管在早期收音机的应用，以及1947年巴丁、布拉顿和肖克利在贝尔实验室发明的晶体管。阐释以硅为代表的半导体如何取代笨重真空管，实现设备小型化与高效化。历史影像与动画生动展示热电子发射与半导体物理原理。
    - **推荐理由**：其生动叙事与晶体管专题完美契合查询需求，搭建起模拟电路（真空管）与数字电路（晶体管）的桥梁，为《电子技术基础》课程提供背景脉络。
 
-5. **《集成电路革命》by Asianometry**  
-   - **频道**：Asianometry  
-   - **时长**：约20分钟  
-   - **链接**：在YouTube搜索“The History of the Integrated Circuit Asianometry”  
-   - **简介**：详述1958年杰克·基尔比与罗伯特·诺伊斯发明集成电路（IC），实现电路单芯片微型化的历程。探讨硅材料的作用、摩尔定律（1965年）的影响，以及微处理器与存储芯片推动的数字电子崛起。视频同时涉及半导体产业发展，提及CMOS技术在现代IC中的应用。  
+5. **《集成电路革命》by Asianometry**
+   - **频道**：Asianometry
+   - **时长**：约20分钟
+   - **链接**：在YouTube搜索“The History of the Integrated Circuit Asianometry”
+   - **简介**：详述1958年杰克·基尔比与罗伯特·诺伊斯发明集成电路（IC），实现电路单芯片微型化的历程。探讨硅材料的作用、摩尔定律（1965年）的影响，以及微处理器与存储芯片推动的数字电子崛起。视频同时涉及半导体产业发展，提及CMOS技术在现代IC中的应用。
    - **推荐理由**：对IC这一关键课题的深度挖掘，聚焦历史与技术细节，适合关注《电子技术基础》课程中数字电子学方向的学习者。
 
-6. **《电子学简史》by CrashCourse**  
-   - **频道**：CrashCourse  
-   - **时长**：约12分钟  
-   - **链接**：在YouTube搜索“CrashCourse History of Science Electronics”  
-   - **简介**：作为科学史系列组成部分，本视频纵览从法拉第电磁感应到真空管、晶体管及集成电路的发展脉络。简要提及欧姆定律、基尔霍夫定律及交直流电流之战，呈现这些发现如何塑造现代科技。快节奏动画形式对年轻受众极具吸引力。  
+6. **《电子学简史》by CrashCourse**
+   - **频道**：CrashCourse
+   - **时长**：约12分钟
+   - **链接**：在YouTube搜索“CrashCourse History of Science Electronics”
+   - **简介**：作为科学史系列组成部分，本视频纵览从法拉第电磁感应到真空管、晶体管及集成电路的发展脉络。简要提及欧姆定律、基尔霍夫定律及交直流电流之战，呈现这些发现如何塑造现代科技。快节奏动画形式对年轻受众极具吸引力。
    - **推荐理由**：以精炼易懂的概述覆盖查询涉及的多个主题，适合高中生或需要广度视角的观众。
 
-7. **《半导体工作原理》by Branch Education**  
-   - **频道**：Branch Education  
-   - **时长**：约18分钟  
-   - **链接**：在YouTube搜索“How Do Semiconductors Work? Branch Education”  
-   - **简介**：解析半导体物理机制——晶体管与集成电路的核心基础。涵盖费迪南德·布劳恩1874年发现的整流现象，硅材料的作用，以及掺杂形成二极管与晶体管PN结的原理。动画演示晶体管作为开关或放大器的运作方式，关联数字与模拟电子技术。  
+7. **《半导体工作原理》by Branch Education**
+   - **频道**：Branch Education
+   - **时长**：约18分钟
+   - **链接**：在YouTube搜索“How Do Semiconductors Work? Branch Education”
+   - **简介**：解析半导体物理机制——晶体管与集成电路的核心基础。涵盖费迪南德·布劳恩1874年发现的整流现象，硅材料的作用，以及掺杂形成二极管与晶体管PN结的原理。动画演示晶体管作为开关或放大器的运作方式，关联数字与模拟电子技术。
    - **推荐理由**：精细的可视化呈现与半导体专题使其成为理解晶体管与IC的优质资源，该频道以高品质STEM动画闻名。
 
 ### 补充说明

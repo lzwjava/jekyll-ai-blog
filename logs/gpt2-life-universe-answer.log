@@ -1,4 +1,4 @@
-$ python sample.py --out_dir=out-openwebtext/  --start="What is the answer to life, the universe, and everything?" 
+$ python sample.py --out_dir=out-openwebtext/  --start="What is the answer to life, the universe, and everything?"
 Overriding: out_dir = out-openwebtext/
 Overriding: start = What is the answer to life, the universe, and everything?
 number of parameters: 29.94M

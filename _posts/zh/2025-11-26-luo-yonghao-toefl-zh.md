@@ -32,7 +32,7 @@ type: note
 
 若与你记忆略有出入，可能是与其他相似经历交织（如其友李笑来亦有闭关备战托福事迹）。罗永浩从托福隐士到一度跻身亿万富翁的完整轨迹，堪称逆袭传奇的典型范本。
 
-[维基百科：罗永浩](https://en.wikipedia.org/wiki/Luo_Yonghao)  
-[MBA智库百科：罗永浩词条](https://wiki.mbalib.com/wiki/%E7%BD%97%E6%B0%B8%E6%B5%A9)  
-[品玩：新东方作为创业者摇篮](https://www.pingwest.com/a/178410)  
+[维基百科：罗永浩](https://en.wikipedia.org/wiki/Luo_Yonghao)
+[MBA智库百科：罗永浩词条](https://wiki.mbalib.com/wiki/%E7%BD%97%E6%B0%B8%E6%B5%A9)
+[品玩：新东方作为创业者摇篮](https://www.pingwest.com/a/178410)
 [网易教育：罗永浩的新东方之路](https://edu.163.com/15/0212/10/AI8EJ31900294MPA.html)

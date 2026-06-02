@@ -77,7 +77,7 @@ Azure CLI excels at VM lifecycle management.
 5. **Delete VM**: `az vm delete --name "MyVM" --resource-group "MyResourceGroup" --yes`
 
 ## Managing Storage Accounts
-1. **Create Storage Account**: 
+1. **Create Storage Account**:
    ```
    az storage account create \
      --name mystorageaccount \
@@ -103,6 +103,6 @@ For scripting, combine with Bash/PowerShell loops or use Azure CLI in CI/CD pipe
 - Security: Avoid hardcoding credentials; use environment variables or Azure Key Vault.
 
 ## References
-[Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)  
-[Azure CLI Reference](https://learn.microsoft.com/en-us/cli/azure/)  
+[Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+[Azure CLI Reference](https://learn.microsoft.com/en-us/cli/azure/)
 [Azure CLI Quickstart](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)

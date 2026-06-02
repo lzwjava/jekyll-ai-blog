@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about Java NIO?
 
-Answer: 
+Answer:
 
 Java NIO (New I/O), introduced in Java 1.4, is often praised for enabling non-blocking I/O, buffers, channels, and selectors, which allow handling many connections efficiently. However, several unpopular opinions challenge its widespread hype and perceived superiority over traditional blocking I/O (java.io).
 
@@ -30,11 +30,11 @@ Here are some key unpopular ideas drawn from developer discussions:
 
 These views contrast with the common narrative that NIO is always "better" or modern. In practice, choose based on needs: simplicity and readability often win over premature optimization for concurrency.
 
-References:  
+References:
 
-- https://www.reddit.com/r/java/comments/5ns3ad/is_reactive_nio_being_overhyped/  
-- https://mailinator.blogspot.com/2008/02/kill-myth-please-nio-is-not-faster-than.html  
-- https://stackoverflow.com/questions/12892536/how-to-choose-java-nio-vs-io  
-- https://stackoverflow.com/questions/5223175/advantages-of-java-nio-in-blocking-mode-versus-traditional-i-o  
-- https://www.reddit.com/r/java/comments/56y6nh/why_is_nio_still_not_popular/  
+- https://www.reddit.com/r/java/comments/5ns3ad/is_reactive_nio_being_overhyped/
+- https://mailinator.blogspot.com/2008/02/kill-myth-please-nio-is-not-faster-than.html
+- https://stackoverflow.com/questions/12892536/how-to-choose-java-nio-vs-io
+- https://stackoverflow.com/questions/5223175/advantages-of-java-nio-in-blocking-mode-versus-traditional-i-o
+- https://www.reddit.com/r/java/comments/56y6nh/why_is_nio_still_not_popular/
 - https://stackoverflow.com/questions/4877292/java-nio-vs-new-thread-for-each-socket

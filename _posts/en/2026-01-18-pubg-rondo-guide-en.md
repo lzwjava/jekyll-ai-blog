@@ -12,7 +12,7 @@ type: note
 
 Question: Which map in PUBG Mobile has the Yu Lin location, and what places does this map contain?
 
-Answer: 
+Answer:
 The **Rondo** map in PUBG Mobile features the Yu Lin location. Rondo is an 8x8 km battle royale map introduced in the 3.7 update (March 2025), supporting up to 100 players. It blends traditional Eastern architecture with modern urban elements, diverse terrain (forests, deserts, lakes, bamboo groves, ridges), and unique features like escalators, EMP zones, destructible terrain, two flight routes, in-map stores, and exclusive items such as the JS9 SMG.
 
 Yu Lin is a serene, traditional area surrounded by lush forests, lakes, ponds, and greenery, offering a mix of architecture and nature—ideal for stealthy playstyles but prone to close-quarters fights in tight streets.
@@ -41,7 +41,7 @@ Rondo contains around 20 named locations, categorized below for clarity:
 
 Rondo's design promotes varied playstyles: urban combat in cities, stealth in forests, and vehicle-heavy rotations via unique rides like Coupe SUV.
 
-References: 
+References:
 - [PUBG Official Rondo Page](https://www.pubg.com/en/game-info/maps/rondo)
 - [Liquipedia Rondo Guide](https://liquipedia.net/pubgmobile/Rondo)
 - [PUBG Mobile Rondo Map Guide](https://gamingonphone.com/guides/pubg-mobile-rondo-map-guide-best-loot-locations-and-strategies)

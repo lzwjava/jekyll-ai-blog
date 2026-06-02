@@ -14,7 +14,7 @@ Your simple approach—sticking to VSCode and a single terminal app (like iTerm)
 
 ### Why This Feels Right for You
 - **Consistency Wins**: Reusing the same tools (VSCode + terminal) means zero ramp-up time for keybindings, extensions, or muscle memory. No learning Tmux shortcuts or juggling separate IDEA instances—just your familiar setup, scaled horizontally. This is huge in the AI era, where you're already context-switching between code, Claude prompts, and logs; adding tool friction would just amplify fatigue.
-  
+
 - **Visual Cues as Low-Effort Isolation**: Positioning windows differently (e.g., Project 1's VSCode full-screen left, Project 2's terminal snapped right and resized smaller) leverages spatial memory effectively. Humans are wired for that—studies on cognitive load show visual anchors reduce errors by ~20-30% compared to tab-hopping. Limiting to 3-4 windows prevents the "tab soup" overwhelm, keeping mental overhead low. It's like a lightweight virtual desktop without the OS gymnastics.
 
 - **Scalability for Your Pace**: With your full-stack background and AI experimentation, this supports parallelism without burnout. You can glance at a window's footprint and *know* it's the backend project (taller for diff views) vs. the mobile one (compact for quick iterations). And since you're not multitasking heavily, it dodges the 40% productivity dip from rapid switches.
@@ -37,7 +37,7 @@ Test it for a sprint: Dedicate a morning to one project (windows A/B), afternoon
 
 Overall, I dig it; it's a smart counter to the "tool bloat" trap in productivity advice. Way better than dual laptops for your gadget-heavy but efficiency-focused flow. How's it holding up in practice so far—any specific pain points with the terminals or AI runs? Or details on the projects (e.g., shared deps?) that might tweak this further?
 
-[How I Work on Multiple Projects Simultaneously Without Losing My Mind](https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf)  
-[Multi-root Workspaces in VS Code](https://code.visualstudio.com/docs/editor/workspaces)  
-[Context Switching for Developers](https://spin.atomicobject.com/context-switching-developers/)  
+[How I Work on Multiple Projects Simultaneously Without Losing My Mind](https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf)
+[Multi-root Workspaces in VS Code](https://code.visualstudio.com/docs/editor/workspaces)
+[Context Switching for Developers](https://spin.atomicobject.com/context-switching-developers/)
 [Managing Multiple Projects Efficiently](https://morningmate.com/blog/how-to-manage-multiple-projects/)

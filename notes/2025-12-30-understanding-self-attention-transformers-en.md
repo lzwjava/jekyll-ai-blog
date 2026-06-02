@@ -12,7 +12,7 @@ type: note
 
 Question: How does the video comment on and extend the explanation of the Self-Attention Mechanism?
 
-Answer: 
+Answer:
 
 The video dedicates a significant portion to explaining the self-attention mechanism in detail, particularly starting around the 14:06 timestamp ("Attention is Cheap!") and continuing into sections like 37:52 ("Attention: a weighted average").
 
@@ -32,8 +32,8 @@ The video dedicates a significant portion to explaining the self-attention mecha
 
 This explanation closely follows the "Attention Is All You Need" paper but includes live demonstrations, examples (e.g., attention visualizations), and extensions to generative models in other domains.
 
-References:  
+References:
 
-- [Lecture Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)  
-- [Lecture Slides (2019 Lecture 14 - Transformers)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture14-transformers.pdf)  
+- [Lecture Video](https://www.youtube.com/watch?v=5vcj8kSwBCY)
+- [Lecture Slides (2019 Lecture 14 - Transformers)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture14-transformers.pdf)
 - [Original Transformer Paper: Attention Is All You Need](https://arxiv.org/abs/1706.03762)

@@ -12,7 +12,7 @@ type: note
 
 Question: Compare the TOEFL exam format to the IELTS exam format
 
-Answer: 
+Answer:
 
 Here is a detailed comparison between the **TOEFL iBT** (current format as of January 2026) and **IELTS Academic** (format remains consistent in 2026). Both tests assess the four core English skills: Listening, Reading, Speaking, and Writing, but they differ significantly in structure, delivery, question types, timing, and experience.
 
@@ -65,14 +65,14 @@ Here is a detailed comparison between the **TOEFL iBT** (current format as of Ja
 - **Accent & English Variety** — TOEFL: Primarily American English. IELTS: Mix of British, Australian, etc.
 - **Purpose & Acceptance** — Both widely accepted for university admissions; IELTS often preferred/required for immigration in UK, Australia, Canada.
 
-**Which to choose?**  
+**Which to choose?**
 TOEFL suits those comfortable with computers, adaptive testing, and American English/academic focus. IELTS suits those preferring human interaction in Speaking, varied question types, or needing paper-based options/immigration purposes.
 
 For the latest official details, always check the ETS (TOEFL) and British Council/IDP/IELTS.org websites, as minor refinements can occur.
 
-References:  
-- [ETS TOEFL iBT Content Overview](https://www.ets.org/toefl/test-takers/ibt/about/content.html)  
-- [ETS Upcoming Updates January 2026](https://www.ets.org/toefl/test-takers/ibt/upcoming-updates-jan-2026.html)  
-- [IELTS Test Format Explained](https://takeielts.britishcouncil.org/take-ielts/test-format)  
-- [TOEFL vs IELTS Comparison Articles](https://www.educations.com/articles-and-advice/toefl-vs-ielts-a-comparison-17418)  
+References:
+- [ETS TOEFL iBT Content Overview](https://www.ets.org/toefl/test-takers/ibt/about/content.html)
+- [ETS Upcoming Updates January 2026](https://www.ets.org/toefl/test-takers/ibt/upcoming-updates-jan-2026.html)
+- [IELTS Test Format Explained](https://takeielts.britishcouncil.org/take-ielts/test-format)
+- [TOEFL vs IELTS Comparison Articles](https://www.educations.com/articles-and-advice/toefl-vs-ielts-a-comparison-17418)
 - [IELTS Academic Format](https://ielts.org/take-a-test/test-types/ielts-academic-test)

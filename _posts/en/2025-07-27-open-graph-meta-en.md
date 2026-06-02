@@ -22,8 +22,8 @@ While it was created for Facebook, many other platforms and apps support Open Gr
 Your guess of "open gx" seems close—it's actually "Open Graph," not "open gx" (possibly a typo or autocorrect for "graph"?).
 
 ### References
-[The Open Graph protocol](https://ogp.me/)  
-[Open Graph Meta Tags: Everything You Need to Know](https://ahrefs.com/blog/open-graph-meta-tags/)  
-[What is Open Graph and how can I use it for my website?](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)  
-[How does wechat choose the link's thumbnail?](https://stackoverflow.com/questions/44564614/how-does-wechat-choose-the-links-thumbnail)  
+[The Open Graph protocol](https://ogp.me/)
+[Open Graph Meta Tags: Everything You Need to Know](https://ahrefs.com/blog/open-graph-meta-tags/)
+[What is Open Graph and how can I use it for my website?](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)
+[How does wechat choose the link's thumbnail?](https://stackoverflow.com/questions/44564614/how-does-wechat-choose-the-links-thumbnail)
 [Meta tag - WeChat](https://github.com/freeCodeCamp/freeCodeCamp/issues/38707)

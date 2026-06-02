@@ -12,16 +12,16 @@ type: note
 
 Question: "月明星稀，乌鹊南飞" 是谁的诗句？ A. 李白 B. 苏轼 C. 曹操 D. 杜甫
 
-Answer: 
+Answer:
 
 正确答案是 **C. 曹操**。
 
 诗句 "月明星稀，乌鹊南飞" 出自曹操著名的诗作 **《短歌行》** (Short Song Row)，创作于东汉末年（约公元 3 世纪初）。
 
 相关段落全文：
-> 月明星稀，乌鹊南飞。  
-> 绕树三匝，何枝可依？  
-> 山不厌高，海不厌深。  
+> 月明星稀，乌鹊南飞。
+> 绕树三匝，何枝可依？
+> 山不厌高，海不厌深。
 > 周公吐哺，天下归心。
 
 这是曹操最著名的作品之一。它**不是**由李白、杜甫（唐代诗人）或苏轼（宋代诗人）所作。
@@ -33,7 +33,7 @@ Answer:
 
 只有曹操符合这一诗句的历史时期以及特定的意象和风格。
 
-References:  
+References:
 
 - [《短歌行》 - Baidu Baike](https://baike.baidu.com/item/%E7%9F%AD%E6%AD%8C%E8%A1%8C/6777)
 - [Cao Cao - Short Song Row (English translation and original)](https://en.wikipedia.org/wiki/Short_Song_Row)

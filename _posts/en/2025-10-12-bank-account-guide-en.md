@@ -70,6 +70,6 @@ This is straightforward if you prefer face-to-face or don't qualify for mobile. 
 - Update any info changes promptly via app or branch.
 - Tourist visas/EEPs allow this, but ensure your EEP covers your stay.
 
-[FAQ for BOCHK Mobile Account Opening](https://www.bochk.com/dam/more/accountopening/images/faq_en.pdf)  
-[Account Opening Process and Required Documents](https://www.bochk.com/dam/bochk/desktop/interface/AC_Open_en.pdf)  
+[FAQ for BOCHK Mobile Account Opening](https://www.bochk.com/dam/more/accountopening/images/faq_en.pdf)
+[Account Opening Process and Required Documents](https://www.bochk.com/dam/bochk/desktop/interface/AC_Open_en.pdf)
 [How to Open a Bank Account in Hong Kong - A Quick Guide [2025]](https://statrys.com/blog/open-hong-kong-bank-account)

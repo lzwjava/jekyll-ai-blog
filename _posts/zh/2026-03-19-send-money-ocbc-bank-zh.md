@@ -11,7 +11,7 @@ type: note
 
 **问题：** 如果我通过 HSBC HK 使用 "pay to global payee" 并选择次日营业日选项（费用 70 HKD），我应该发送到 OCBC Global Savings Account、Statement Savings Account，还是 Visa 卡？
 
-**答案：** 
+**答案：**
 
 在使用 HSBC Hong Kong 的 "pay to global payee"（可能指 Global Money Transfers 或 Global Payments 下针对非 HSBC 账户的 "Send like a local"）时，**70 HKD 费用** 通常适用于支持的国家/地区其他银行的合格转账（包括新加坡的 SGD），通常次日营业日或 1-2 个营业日到账，并可能节省海外费用。
 
@@ -25,7 +25,7 @@ type: note
 
 为获取最准确/最新的确认，请在 HSBC HK App 的转账选项中检查新加坡相关内容，或参考 HSBC 的最新关税指南（全球支付部分），因为选项可能取决于您的 HSBC 账户类型（例如 Premier/One 可能有豁免或更好条款）。
 
-**参考资料：**  
+**参考资料：**
 
 - [HSBC HK International Transfers / Global Payments](https://www.hsbc.com.hk/transfer-payments/products/international)
 - [HSBC HK Send Like a Local / Global Money Transfers to other banks](https://www.hsbc.com.hk/transfer-payments/products/international/global-transfers-to-other-banks)

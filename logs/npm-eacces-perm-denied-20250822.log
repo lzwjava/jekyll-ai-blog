@@ -1,5 +1,5 @@
 $ npm install -g @anthropic-ai/claude-code
- 
+
 npm error code EACCES
 npm error syscall mkdir
 npm error path /usr/lib/node_modules/@anthropic-ai

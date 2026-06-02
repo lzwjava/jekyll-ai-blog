@@ -12,7 +12,7 @@ type: note
 
 Question: How has the internet and digital content significantly changed things, particularly in that recorded videos, text, and images become more valuable over time, and teachers no longer need to repeat the same lessons year after year, saving a lot of effort?
 
-Answer: 
+Answer:
 
 Yes, you're describing one of the most fundamental transformations brought by the internet and digital media — **the shift from ephemeral, repeated live delivery to permanent, cumulative, and compounding digital assets**.
 
@@ -51,11 +51,11 @@ The winners are usually:
 - Lab / hands-on / physical-skill training
 
 So the pattern is increasingly:
-**High-quality evergreen digital content handles explanation & examples**  
+**High-quality evergreen digital content handles explanation & examples**
 **Humans handle inspiration, clarification, application, and human connection**
 
 In short: yes — the internet turned knowledge transmission from a mostly **repeating labor** activity into a **create-once, serve-forever** activity for a large portion of factual / conceptual teaching. This is probably the single biggest productivity improvement in education in the past 500 years.
 
-References:  
+References:
 
 - None (this is mostly structural observation based on 15+ years of watching online education evolve)

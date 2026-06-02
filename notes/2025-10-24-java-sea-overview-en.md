@@ -25,5 +25,5 @@ The Java Sea is infamous for the Battle of the Java Sea in February–March 1942
 
 This sea plays a crucial role in regional trade, navigation, and Indonesia's maritime heritage.
 
-[Java Sea - Wikipedia](https://en.wikipedia.org/wiki/Java_Sea)  
+[Java Sea - Wikipedia](https://en.wikipedia.org/wiki/Java_Sea)
 [Java Sea | Map, History, & Facts - Britannica](https://www.britannica.com/place/Java-Sea)

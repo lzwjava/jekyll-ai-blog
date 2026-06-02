@@ -29,6 +29,6 @@ gpg --homedir /自定义目录路径 -e -r recipient@example.com 输入文件.tx
 
 如需完整说明，请运行 `gpg --help` 或查阅手册页面。
 
-[ArchWiki: GnuPG](https://wiki.archlinux.org/title/GnuPG)  
-[GPG 速查手册](https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)  
+[ArchWiki: GnuPG](https://wiki.archlinux.org/title/GnuPG)
+[GPG 速查手册](https://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
 [Linux 中的 GPG 命令](https://www.tutorialspoint.com/unix_commands/gpg.htm)

@@ -53,19 +53,19 @@ From Jan 2 – Jan 10 → **Pure Revision & Exam Practice Mode**
 
 ### Daily Template (Weekdays after work)
 
-7:00–7:30 pm – Reach home, freshen up, dinner  
-7:30–9:00 pm  – Session 1 (90 min focused study)  
-9:00–9:15 pm  – Break  
-9:15–10:45 pm – Session 2 (90 min)  
-10:45–11:00 pm – Quick recap of the day + plan tomorrow  
+7:00–7:30 pm – Reach home, freshen up, dinner
+7:30–9:00 pm  – Session 1 (90 min focused study)
+9:00–9:15 pm  – Break
+9:15–10:45 pm – Session 2 (90 min)
+10:45–11:00 pm – Quick recap of the day + plan tomorrow
 → Sleep by 11:30 pm latest (you need 7 hrs sleep with 9–6 job)
 
 ### Weekend Template
 
-9:00 am – 1:00 pm   → Session 1 (4 hrs with 10-min breaks)  
-1:00 – 2:00 pm      → Lunch + rest  
-2:00 – 6:00 pm      → Session 2  
-6:00 – 7:30 pm      → Break, walk, family  
+9:00 am – 1:00 pm   → Session 1 (4 hrs with 10-min breaks)
+1:00 – 2:00 pm      → Lunch + rest
+2:00 – 6:00 pm      → Session 2
+6:00 – 7:30 pm      → Break, walk, family
 7:30 – 10:30 pm     → Session 3 (if needed)
 
 ### Extra Tips for Success with Full-time Job

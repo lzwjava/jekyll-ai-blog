@@ -24,7 +24,7 @@ I'll break this down point by point based on standard optometry knowledge, ergon
 
 #### 3. **Trial lenses: -3.75 / -1.75 as base myopia correction, -0.25 / -0.25 and -0.50 / -0.50 as incremental/decremental, -1.00 / -1.00 for astigmatism**
    - **Reasonable?** Yes, these values are standard and plausible.
-   - **Explanation:** 
+   - **Explanation:**
      - **Base:** -3.75 diopters (D) sphere is moderate myopia (corrects nearsightedness up to about 20/40–20/50 uncorrected). -1.75 D cylinder is mild-moderate astigmatism. The "/" notation typically means sphere/cylinder, which fits.
      - **Increments:** ±0.25 D and ±0.50 D are the smallest standard steps for fine-tuning refraction—optometrists use these to dial in the sharpest vision without over-correction.
      - **Astigmatism:** -1.00 D cylinder is a common correction for irregular corneal curvature.
@@ -36,7 +36,7 @@ I'll break this down point by point based on standard optometry knowledge, ergon
 
 #### 5. **Trial glasses cost around 48 CNY, trial lenses about 28 CNY on Pinduoduo in China**
    - **Reasonable?** Plausible for basic/low-end versions, but on the lower side—likely for minimal kits or individual pieces.
-   - **Explanation:** 
+   - **Explanation:**
      - **Trial glasses (frame):** Basic adjustable plastic/metal trial frames start at 40–100 CNY on Chinese platforms like Pinduoduo or AliExpress (e.g., lightweight models with PD adjustment 48–80 mm). 48 CNY fits "bargain" listings for non-professional use.
      - **Trial lenses:** Full sets (266+ pieces) run 500–800 CNY, but individual lenses or small packs (e.g., 4–10 pieces in your range) are 10–30 CNY each on discount sites. 28 CNY could cover a handful of your specified powers (-0.25, -0.50, -1.00 cylinders). Pinduoduo is known for flash sales undercutting Alibaba prices, so this tracks for hobbyist/self-testing gear.
 
@@ -47,9 +47,9 @@ I'll break this down point by point based on standard optometry knowledge, ergon
 ### Summary
 Your setup is sensible for DIY optometry tweaks, especially for computer use. The optical facts and frame mechanics check out perfectly, and prices align with cheap Chinese e-commerce options (though verify current listings, as they fluctuate). If you're buying, ensure the lenses are glass/quality CR-39 for accuracy—plastic can warp. Great idea to experiment; it could indeed save time and hassle!
 
-**References**  
-- [Ideal Distance from Computer Screen to Eyes](https://www.autonomous.ai/ourblog/ideal-distance-from-computer-screen-to-eyes)  
-- [How to Read an Eyeglasses Prescription](https://www.deltadentalia.com/a-healthy-life/vision-health/how-to-read-an-eye-prescription/)  
-- [Trial Frame Refraction](https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/trial-frame-refraction/index.htm)  
-- [Trial Lens Set on Alibaba](https://www.alibaba.com/countrysearch/CN/trial-lens-set.html)  
+**References**
+- [Ideal Distance from Computer Screen to Eyes](https://www.autonomous.ai/ourblog/ideal-distance-from-computer-screen-to-eyes)
+- [How to Read an Eyeglasses Prescription](https://www.deltadentalia.com/a-healthy-life/vision-health/how-to-read-an-eye-prescription/)
+- [Trial Frame Refraction](https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/trial-frame-refraction/index.htm)
+- [Trial Lens Set on Alibaba](https://www.alibaba.com/countrysearch/CN/trial-lens-set.html)
 - [Individual Trial Lens on AliExpress](https://www.aliexpress.com/item/1005005218039452.html)

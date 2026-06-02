@@ -12,7 +12,7 @@ type: note
 
 Question: What is the initial story of Android, was the team very small, and when did the project begin?
 
-Answer: 
+Answer:
 
 Android operating system 起初是一个初创项目，于 **2003年10月** 在加利福尼亚州 Palo Alto 成立。最初的团队规模非常小，由四位核心成员组成：Andy Rubin（Danger 的联合创始人，以 T-Mobile Sidekick 闻名）、Rich Miner、Nick Sears（T-Mobile 前副总裁）和 Chris White（曾在 WebTV 负责 interface design）。
 
@@ -24,9 +24,9 @@ Android operating system 起初是一个初创项目，于 **2003年10月** 在�
 
 这个由相机 OS 构想演变而来的、起步于小团队的平凡开端，最终创造了世界上使用最广泛的移动 operating system。
 
-References:  
+References:
 
-- [Android (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Android_(operating_system))  
-- [The history of Android - Android Authority](https://www.androidauthority.com/history-android-os-name-789433/)  
-- [Android History | Android Wiki](https://android.fandom.com/wiki/Android_History)  
+- [Android (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Android_(operating_system))
+- [The history of Android - Android Authority](https://www.androidauthority.com/history-android-os-name-789433/)
+- [Android History | Android Wiki](https://android.fandom.com/wiki/Android_History)
 - [Andy Rubin - Wikipedia](https://en.wikipedia.org/wiki/Andy_Rubin)

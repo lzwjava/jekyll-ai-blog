@@ -11,7 +11,7 @@ type: note
 
 Question: What does the health check report about elevated aspartate aminotransferase (AST), alanine aminotransferase (ALT), and gamma-glutamyl transferase (GGT) mean? How to improve?
 
-Answer: 
+Answer:
 
 Elevated **AST**, **ALT**, and **GGT** in a health check report indicate that your liver is under stress or experiencing some degree of damage or inflammation. These are liver enzymes measured in blood tests:
 
@@ -48,7 +48,7 @@ In many reversible cases (e.g., alcohol-related, early fatty liver, medication-i
 
 **Important**: Do not self-diagnose or ignore this — see your doctor for proper interpretation, additional tests, and personalized advice.
 
-References:  
+References:
 - [Elevated Liver Enzymes: What Is It, Causes, Prevention & Treatment](https://my.clevelandclinic.org/health/symptoms/17679-elevated-liver-enzymes)
 - [Elevated liver enzymes Causes](https://www.mayoclinic.org/symptoms/elevated-liver-enzymes/basics/causes/sym-20050830)
 - [Gamma-glutamyl Transferase (GGT) Test](https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test)

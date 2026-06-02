@@ -57,8 +57,8 @@ For **summer daytime (11am–4pm)** , working in a car is **not comfortable** ev
 
 ## Bottom line:
 
-> **Shaded surface parking + morning/evening hours** = viable.  
-> **Underground parking** = cool but no signal (deal breaker for work).  
+> **Shaded surface parking + morning/evening hours** = viable.
+> **Underground parking** = cool but no signal (deal breaker for work).
 > **Noon summer in car** = don’t do it.
 
 Honestly, your original idea of mixing car + coffee shop is already the smartest path. Summer just shifts the balance toward coffee shops more.

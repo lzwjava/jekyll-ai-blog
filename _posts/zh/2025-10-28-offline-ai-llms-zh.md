@@ -18,7 +18,7 @@ type: note
 
 若您正着手尝试，建议从Ollama开始搭建极简本地服务，再叠加路由层实现类Claude体验。您离线工作时首选哪种模型——是CodeLlama这类代码专用模型，还是通用型模型？
 
-**参考链接：**  
-[Claude Code Router GitHub仓库](https://github.com/musistudio/claude-code-router)  
-[本地模型运行Claude Code指南](https://justin.searls.co/posts/how-to-run-claude-code-against-a-free-local-model/)  
+**参考链接：**
+[Claude Code Router GitHub仓库](https://github.com/musistudio/claude-code-router)
+[本地模型运行Claude Code指南](https://justin.searls.co/posts/how-to-run-claude-code-against-a-free-local-model/)
 [本地大模型与Claude Code集成实践](https://www.arsturn.com/blog/integrating-local-llms-like-glm-4-5-with-claude-code-a-practical-guide)

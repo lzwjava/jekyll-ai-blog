@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about JUnit tests?
 
-Answer: 
+Answer:
 
 While JUnit is widely regarded as the standard for unit testing in Java, several unpopular or controversial opinions exist among developers, often shared in forums, blogs, and discussions. These views challenge the mainstream emphasis on extensive unit testing and high coverage. Here are some notable ones:
 
@@ -30,7 +30,7 @@ While JUnit is widely regarded as the standard for unit testing in Java, several
 
 These opinions are minority views in the TDD/agile community but highlight practical frustrations with overzealous testing practices.
 
-References:  
+References:
 
 - [devRant: Unpopular opinion: unit tests are often overrated](https://devrant.com/rants/5139684/unpopular-opinion-unit-tests-are-often-overrated-although-a-well-written-test-su)
 - [Reddit r/java: I find JUnit testing hard](https://www.reddit.com/r/java/comments/86x1m0/i_find_junit_testing_hard_can_anyone_give_out/)

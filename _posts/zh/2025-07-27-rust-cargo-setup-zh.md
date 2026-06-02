@@ -103,5 +103,5 @@ type: note
 
 如果这与你的设置不匹配（例如，提供 `example.rs` 的内容或更多细节），请告诉我以获取更精确的步骤。
 
-[宣布 Rust 1.88.0](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)  
+[宣布 Rust 1.88.0](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)
 [Rust | endoflife.date](https://endoflife.date/rust)

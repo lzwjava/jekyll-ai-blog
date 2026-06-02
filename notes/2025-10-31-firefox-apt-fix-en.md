@@ -55,5 +55,5 @@ If the repo keeps failing and you just want updated Firefox:
 
 If these don't resolve it, share more details like your proxy setup or full `/etc/apt/sources.list.d/mozilla.list` contents for deeper troubleshooting.
 
-[Ubuntu 23.10 - Update Problems](https://askubuntu.com/questions/1507571/ubuntu-23-10-update-problems-some-index-files-failed-to-download)  
+[Ubuntu 23.10 - Update Problems](https://askubuntu.com/questions/1507571/ubuntu-23-10-update-problems-some-index-files-failed-to-download)
 [Firefox apt repository error](https://www.reddit.com/r/firefox/comments/1ois308/firefox_apt_repository_error/)

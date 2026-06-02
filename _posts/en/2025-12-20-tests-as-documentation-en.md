@@ -12,7 +12,7 @@ type: note
 
 Question: What is one good benefit of unit tests, integration tests, or automated tests in general?
 
-Answer: 
+Answer:
 
 One significant advantage of unit tests, integration tests, and automated tests is that they **explicitly document and share testing knowledge in a maintainable, reusable form**.
 
@@ -28,7 +28,7 @@ In contrast, pure manual testing often keeps critical testing details (scripts, 
 
 Automated tests turn testing into a durable, collaborative engineering practice rather than an individual craft.
 
-References:  
+References:
 
 - [Martin Fowler on the value of tests as documentation](https://martinfowler.com/bliki/TestAsDocumentation.html)
 - [Google Testing Blog: The Value of Automated Testing](https://testing.googleblog.com/2015/11/why-automated-testing.html)

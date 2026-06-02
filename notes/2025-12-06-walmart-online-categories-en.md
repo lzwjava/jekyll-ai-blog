@@ -12,7 +12,7 @@ type: note
 
 Question: What are the major categories in Walmart's online shop?
 
-Answer: 
+Answer:
 
 Walmart's online shop organizes its products into several major categories, making it easy to browse essentials, electronics, home goods, and more. Based on the current structure of Walmart.com, here are the primary categories, along with some key subcategories under each:
 
@@ -32,5 +32,5 @@ Walmart's online shop organizes its products into several major categories, maki
 
 These categories cover the vast majority of Walmart's online inventory, with thousands of products available for delivery or pickup. The exact layout may vary slightly by season or promotions, but this reflects the core structure.
 
-References:  
+References:
 - [Walmart.com Shop by Department](https://www.walmart.com/cp/shop-by-department/976759)

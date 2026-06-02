@@ -33,8 +33,8 @@ type: note
 
 这些景点可通过高效地铁或渡轮接驳——建议购买八达通卡便捷出行。完整行程可从中环（经济/文化）启程，转战九龙（历史/美食），终至西九龙（创新）。当前十一月正值理想游览期：气候温和，暑期后客流渐疏。
 
-**参考来源：**  
-- [香港15大必游景点（2025版）](https://www.tripadvisor.com/Attractions-g294217-Activities-Hong_Kong.html)  
-- [不可错过的9项香港文化艺术体验](https://www.discoverhongkong.com/us/explore/arts/dont-miss-these-hong-kong-arts-and-culture-activities.html)  
-- [香港24大必游清单](https://www.cntraveler.com/gallery/best-things-to-do-in-hong-kong)  
+**参考来源：**
+- [香港15大必游景点（2025版）](https://www.tripadvisor.com/Attractions-g294217-Activities-Hong_Kong.html)
+- [不可错过的9项香港文化艺术体验](https://www.discoverhongkong.com/us/explore/arts/dont-miss-these-hong-kong-arts-and-culture-activities.html)
+- [香港24大必游清单](https://www.cntraveler.com/gallery/best-things-to-do-in-hong-kong)
 - [香港二十大旅游景点](https://www.chinadiscovery.com/hongkong-tours/top-tourist-attractions-in-hong-kong.html)

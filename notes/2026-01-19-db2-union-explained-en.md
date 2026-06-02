@@ -18,12 +18,12 @@ In DB2 (and in SQL in general), both **UNION** and **UNION ALL** are set operato
 
 ### Key Differences
 
-- **UNION**  
-  Combines the result sets and **automatically removes duplicate rows** (performs deduplication).  
+- **UNION**
+  Combines the result sets and **automatically removes duplicate rows** (performs deduplication).
   This is the default behavior when you write just `UNION`.
 
-- **UNION ALL**  
-  Combines the result sets and **keeps all rows**, including duplicates.  
+- **UNION ALL**
+  Combines the result sets and **keeps all rows**, including duplicates.
   No deduplication is performed.
 
 ### Comparison Table
@@ -60,7 +60,7 @@ SELECT CITY FROM SUPPLIERS;
 
 ### Performance Note
 
-`UNION ALL` is almost always faster than `UNION` because DB2 does not have to compare rows for duplicates (which usually involves sorting or hashing).  
+`UNION ALL` is almost always faster than `UNION` because DB2 does not have to compare rows for duplicates (which usually involves sorting or hashing).
 Use `UNION ALL` by default unless you explicitly need to remove duplicates.
 
 ### Special Case

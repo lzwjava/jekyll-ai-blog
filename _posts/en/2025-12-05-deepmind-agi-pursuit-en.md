@@ -12,13 +12,13 @@ type: note
 
 Question: What does the documentary "The Thinking Game" say?
 
-Answer: 
+Answer:
 
 "The Thinking Game" (2024) is a feature-length documentary directed by Greg Kohs that provides an intimate, behind-the-scenes look at Google DeepMind, one of the world's leading AI research labs. Filmed over five years, it follows founder Demis Hassabis and his team as they pursue artificial general intelligence (AGI)—AI systems capable of matching or surpassing human-level performance across a wide range of tasks. The film blends archival footage, candid interviews, and real-time moments of triumph and setback, emphasizing the human drive behind scientific breakthroughs.
 
 ### Key Themes and Narrative
 - **The Pursuit of AGI**: At its core, the documentary explores DeepMind's mission to "unravel the mysteries of intelligence and life itself." Hassabis, a former chess prodigy and Nobel Prize winner in Chemistry (2024 for AlphaFold), frames AI not just as a tool for efficiency but as a force for positive global change. He stresses building "machines that are smart" but also ethical, drawing parallels to historic feats like the moon landing or the Manhattan Project—though with a focus on moral reflection absent in the latter.
-  
+
 - **Milestones in AI Development**:
   - **Games as Training Grounds**: The film highlights how games like Go (via AlphaGo) and StarCraft served as disciplined environments to train AI, teaching systems to "think" like humans across diverse challenges. A poignant line from Hassabis as a child describes chess as "a good thinking game," underscoring his lifelong inspiration.
   - **AlphaFold Breakthrough**: A centerpiece is the team's exhilaration in solving the 50-year-old protein-folding puzzle—a grand challenge in biology that earned a Nobel Prize. This moment captures the "thrilling highs and crushing lows" of discovery, showing the shift from game-based AI to real-world scientific applications.

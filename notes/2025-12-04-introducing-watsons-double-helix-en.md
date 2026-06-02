@@ -12,7 +12,7 @@ type: note
 
 Question: What is a good introduction to the book *The Double Helix* by James D. Watson?
 
-Answer: 
+Answer:
 
 *The Double Helix: A Personal Account of the Discovery of the Structure of DNA* (1968) is James D. Watson’s candid, controversial, and highly readable first-person memoir of how he and Francis Crick, together with crucial contributions from Rosalind Franklin, Maurice Wilkins, and others, solved one of the greatest scientific puzzles of the 20th century: the three-dimensional structure of DNA.
 

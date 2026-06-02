@@ -11,7 +11,7 @@ type: note
 
 Question: In Manchester encoding, a level transition occurs in the middle of each bit duration. What does a transition from high level to low level represent?
 
-Answer: 
+Answer:
 
 Based on the provided reference answer, a transition from **high level to low level** represents a logical **1**.
 
@@ -32,6 +32,6 @@ It is important to note that there are two common conventions for defining the l
 **Context for This Question:**
 Since the provided reference answer is **1**, this specific question adheres to the **G.E. Thomas convention**. Therefore, within the context of this exam problem, a transition from high电平 (high level) to low电平 (low level) in the middle of the bit duration signifies a binary **1**.
 
-References:  
+References:
 
 - [Manchester code - Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)

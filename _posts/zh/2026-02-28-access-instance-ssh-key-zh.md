@@ -82,7 +82,7 @@ type: note
 - 通过将卷挂载到其他地方重置访问权限
 - 或创建并添加新的 key pair
 
-**参考资料：**  
+**参考资料：**
 
 - [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
 - [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)

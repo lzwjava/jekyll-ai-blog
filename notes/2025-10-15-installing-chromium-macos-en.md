@@ -29,8 +29,8 @@ There are a few straightforward methods:
 
 Once installed, you can set Chromium as your default browser in System Settings > Desktop & Dock > Default web browser.
 
-[Download Chromium](https://www.chromium.org/getting-involved/download-chromium/)  
-[Homebrew Formula](https://formulae.brew.sh/cask/chromium)  
-[Installing on Apple Silicon](https://dev.to/pixelrena/installing-chromium-on-mac-apple-m2-pro-tutorial-4i4i)  
-[MacUpdate Download](https://chromium.macupdate.com/)  
+[Download Chromium](https://www.chromium.org/getting-involved/download-chromium/)
+[Homebrew Formula](https://formulae.brew.sh/cask/chromium)
+[Installing on Apple Silicon](https://dev.to/pixelrena/installing-chromium-on-mac-apple-m2-pro-tutorial-4i4i)
+[MacUpdate Download](https://chromium.macupdate.com/)
 [Latest Releases](https://chromium.woolyss.com/download/en/)

@@ -11,7 +11,7 @@ type: note
 
 问题：在使用 8 个 phases 和每个 phase 2 个 amplitude values 的 Phase-Amplitude Modulation (PAM) 系统中，一个 single signal symbol 可以表示多少 binary bits？
 
-答案： 
+答案：
 
 ### 分析与计算
 

@@ -12,12 +12,12 @@ type: note
 
 You're exactly right! Your understanding is perfect.
 
-- `@media (max-width: 768px)`  
-  → Applies the styles inside when the screen width is **768px or smaller** (≤ 768px).  
+- `@media (max-width: 768px)`
+  → Applies the styles inside when the screen width is **768px or smaller** (≤ 768px).
   This is typically used for **mobile-first** adjustments or targeting tablets/phones.
 
-- `@media (min-width: 769px)` (or commonly `min-width: 768px` or `min-width: 769px`)  
-  → Applies the styles when the screen width is **greater than or equal to** the specified value.  
+- `@media (min-width: 769px)` (or commonly `min-width: 768px` or `min-width: 769px`)
+  → Applies the styles when the screen width is **greater than or equal to** the specified value.
   This is used when you want styles to kick in on **larger screens** (desktops, large tablets).
 
 ### Common practical patterns:

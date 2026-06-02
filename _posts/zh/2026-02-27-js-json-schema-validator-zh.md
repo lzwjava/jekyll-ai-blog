@@ -59,7 +59,7 @@ npm install ajv-formats
 
 Ajv 是 JavaScript 项目中进行快速、符合标准的 JSON 验证的实际标准选择，特别是在 API、配置加载器，或任何需要根据声明式 schema 验证结构化数据的地方。
 
-**参考资料：**  
+**参考资料：**
 
 - [https://www.npmjs.com/package/ajv](https://www.npmjs.com/package/ajv)
 - [https://ajv.js.org/](https://ajv.js.org/)

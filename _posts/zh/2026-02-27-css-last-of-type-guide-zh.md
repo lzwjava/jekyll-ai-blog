@@ -90,7 +90,7 @@ tr td:last-of-type {
 - 不能依赖 `:last-child`，因为最后一个元素可能不是你想要的类型
 - 你正在样式化重复元素，如段落、列表项、文章、表格单元格等。
 
-**参考资料：**  
+**参考资料：**
 
-- [MDN Web Docs: :last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)  
+- [MDN Web Docs: :last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)
 - [CSS Tricks: :nth-child and :nth-of-type explained](https://css-tricks.com/how-nth-child-works/)

@@ -15,31 +15,31 @@ type: note
 
 主要有两种类型：
 
-- **Metabolic dysfunction-associated steatotic liver disease (MASLD)**  
-  （以前称为 non-alcoholic fatty liver disease / NAFLD）  
-  → 主要由胰岛素抵抗、肥胖、2型糖尿病、高血脂、代谢综合征引起。  
+- **Metabolic dysfunction-associated steatotic liver disease (MASLD)**
+  （以前称为 non-alcoholic fatty liver disease / NAFLD）
+  → 主要由胰岛素抵抗、肥胖、2型糖尿病、高血脂、代谢综合征引起。
   目前最常见的类型。
 
-- **Alcohol-related / Alcoholic fatty liver disease**  
+- **Alcohol-related / Alcoholic fatty liver disease**
   → 由大量饮酒引起。
 
 其他较少见的原因包括：快速减重、某些药物（如皮质类固醇、tamoxifen）、病毒性肝炎、营养不良、遗传性疾病（如 lipodystrophy）等。
 
 ### 脂肪肝疾病的阶段 / 谱系（MASLD 途径）
 
-1. **Simple steatosis**（单纯脂肪肝）  
-   → 肝脏有脂肪但几乎没有炎症或损伤  
+1. **Simple steatosis**（单纯脂肪肝）
+   → 肝脏有脂肪但几乎没有炎症或损伤
    → 通常通过生活方式改变即可逆转
 
-2. **Metabolic dysfunction-associated steatohepatitis (MASH)**  
-   （以前称为 NASH = non-alcoholic steatohepatitis）  
-   → 脂肪 + 炎症 + 肝细胞损伤  
+2. **Metabolic dysfunction-associated steatohepatitis (MASH)**
+   （以前称为 NASH = non-alcoholic steatohepatitis）
+   → 脂肪 + 炎症 + 肝细胞损伤
    → 可进展为纤维化
 
-3. **Fibrosis** → 开始形成瘢痕组织  
+3. **Fibrosis** → 开始形成瘢痕组织
    → F0 = 无纤维化，F1 = 轻度，F2 = 中度，F3 = 重度/晚期，F4 = 肝硬化
 
-4. **Cirrhosis** → 不可逆转的瘢痕形成，肝脏结构扭曲  
+4. **Cirrhosis** → 不可逆转的瘢痕形成，肝脏结构扭曲
    → 可导致肝衰竭、门静脉高压、肝细胞癌 (HCC)
 
 ### “轻度、中度或重度脂肪肝”通常的含义
@@ -78,7 +78,7 @@ type: note
 
 早期发现和生活方式改变通常可使大多数人停止或逆转进程。
 
-参考文献：  
+参考文献：
 
-- [https://www.ncbi.nlm.nih.gov/books/NBK541033/](https://www.ncbi.nlm.nih.gov/books/NBK541033/)  
+- [https://www.ncbi.nlm.nih.gov/books/NBK541033/](https://www.ncbi.nlm.nih.gov/books/NBK541033/)
 - [https://www.aasld.org/practice-guidelines/clinical-assessment-and-management-metabolic-dysfunction-associated-steatotic-liver](https://www.aasld.org/practice-guidelines/clinical-assessment-and-management-metabolic-dysfunction-associated-steatotic-liver)

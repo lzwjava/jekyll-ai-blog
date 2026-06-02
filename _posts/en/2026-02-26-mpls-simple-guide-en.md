@@ -11,7 +11,7 @@ type: note
 
 Question: What does MPLS mean?
 
-Answer: 
+Answer:
 
 **MPLS** stands for **Multi-Protocol Label Switching**.
 
@@ -19,9 +19,9 @@ It is a high-performance routing technique used in telecommunications and enterp
 
 ### Key points about MPLS:
 
-- **How it works**  
-  Packets are assigned a short, fixed-length label (20-bit label in the MPLS header) when they enter the MPLS network (at the Label Edge Router – LER).  
-  Inside the network, routers (Label Switch Routers – LSR) forward packets based only on the label value — no need to look up the full IP destination address for every hop.  
+- **How it works**
+  Packets are assigned a short, fixed-length label (20-bit label in the MPLS header) when they enter the MPLS network (at the Label Edge Router – LER).
+  Inside the network, routers (Label Switch Routers – LSR) forward packets based only on the label value — no need to look up the full IP destination address for every hop.
   At the egress LER, the label is removed, and the packet continues with normal IP forwarding.
 
 - **Main advantages** (why MPLS became very popular in the 2000s–2020s)
@@ -44,11 +44,11 @@ It is a high-performance routing technique used in telecommunications and enterp
   - Coexists with and often runs over modern Segment Routing (SR-MPLS or SRv6), which is gradually simplifying or replacing traditional MPLS in some networks
 
 - **Current status (February 2026)**
-  MPLS remains one of the most widely deployed technologies in service provider and large enterprise WANs worldwide.  
+  MPLS remains one of the most widely deployed technologies in service provider and large enterprise WANs worldwide.
   While newer approaches like **Segment Routing (SR-MPLS / SRv6)**, **EVPN**, and **SD-WAN** are gaining ground, pure IP/MPLS networks are still dominant in most large-scale carrier and enterprise environments.
 
 In short: **MPLS = Multi-Protocol Label Switching** — a label-based forwarding technology that brought traffic engineering, VPN services, and fast QoS to IP networks and largely displaced ATM in the core.
 
-References:  
+References:
 
 - None (standard networking terminology and industry knowledge)

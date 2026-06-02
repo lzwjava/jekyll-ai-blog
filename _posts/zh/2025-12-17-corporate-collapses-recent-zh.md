@@ -41,11 +41,11 @@ type: note
 
 这些案例突显了常见模式：炒作驱动的估值过高、经济转变暴露出的基本面不佳、欺诈或未能创新。与广泛的市场崩盘（例如2008年标普500指数下跌57%、2020年COVID疫情下跌约34%并迅速恢复）不同，这些是公司特定的财富毁灭，通常导致破产，股东几乎没有或完全没有恢复。
 
-参考文献：  
+参考文献：
 
-- https://en.wikipedia.org/wiki/Nortel  
-- https://en.wikipedia.org/wiki/Dot-com_bubble  
-- https://en.wikipedia.org/wiki/Enron_scandal  
-- https://en.wikipedia.org/wiki/WorldCom_scandal  
-- https://www.investopedia.com/terms/d/dotcom-bubble.asp  
+- https://en.wikipedia.org/wiki/Nortel
+- https://en.wikipedia.org/wiki/Dot-com_bubble
+- https://en.wikipedia.org/wiki/Enron_scandal
+- https://en.wikipedia.org/wiki/WorldCom_scandal
+- https://www.investopedia.com/terms/d/dotcom-bubble.asp
 - https://acquirersmultiple.com/2024/10/from-internet-backbone-to-bankruptcy-the-cautionary-tale-of-nortel/

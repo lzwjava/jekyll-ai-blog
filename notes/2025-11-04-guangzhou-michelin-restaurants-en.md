@@ -47,7 +47,7 @@ For trendy spots (from World's 50 Best Discovery):
 
 Pro tip: Visit during the Canton Fair season for bustling energy, but book ahead via apps like Dianping. For casual dim sum, head to older districts like Liwan.
 
-[MICHELIN Guide Guangzhou 2025 Announcement](http://guide.michelin.com/mo/en/article/news-and-views/guangzhou-china-full-selection-release-2024)  
-[List of Michelin-Starred Restaurants in Guangzhou (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)  
-[World's 50 Best Discovery - Guangzhou](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)  
+[MICHELIN Guide Guangzhou 2025 Announcement](http://guide.michelin.com/mo/en/article/news-and-views/guangzhou-china-full-selection-release-2024)
+[List of Michelin-Starred Restaurants in Guangzhou (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Guangzhou)
+[World's 50 Best Discovery - Guangzhou](https://www.theworlds50best.com/discovery/sitemap/china/guangzhou)
 [Trip.com - Best Restaurants for Views](https://us.trip.com/toplist/tripbest/recommend/guangzhou/best-restaurants-for-views-and-experiences/100900005479/)

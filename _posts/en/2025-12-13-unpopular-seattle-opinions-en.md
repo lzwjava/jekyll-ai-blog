@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about Seattle?
 
-Answer: 
+Answer:
 
 Seattle often ranks as one of the most desirable U.S. cities due to its natural beauty, tech jobs, and progressive vibe, but many residents and observers hold unpopular opinions criticizing aspects of life there. These views, frequently shared in online forums and articles, challenge the city's polished image. Here are some common unpopular ideas:
 
@@ -26,11 +26,11 @@ Seattle often ranks as one of the most desirable U.S. cities due to its natural 
 
 These opinions vary widely—many love Seattle's nature access and opportunities—but they highlight frustrations among locals and transplants.
 
-References:  
+References:
 
-- https://www.reddit.com/r/Seattle/comments/tvr2xr/whats_your_unpopular_seattle_opinion/  
-- https://www.reddit.com/r/SeattleWA/comments/pvgxa2/share_your_most_unpopular_opinion_about_seattle/  
-- https://sammamishwashington.com/hate-seattle/  
-- https://thehonestlocal.com/living-seattle-pros-cons/  
-- https://www.reddit.com/r/unpopularopinion/comments/csa4iq/seattle_is_overrated_as_shit_and_i_have_no_idea/  
+- https://www.reddit.com/r/Seattle/comments/tvr2xr/whats_your_unpopular_seattle_opinion/
+- https://www.reddit.com/r/SeattleWA/comments/pvgxa2/share_your_most_unpopular_opinion_about_seattle/
+- https://sammamishwashington.com/hate-seattle/
+- https://thehonestlocal.com/living-seattle-pros-cons/
+- https://www.reddit.com/r/unpopularopinion/comments/csa4iq/seattle_is_overrated_as_shit_and_i_have_no_idea/
 - https://www.thestranger.com/features/2019/02/13/38868961/whats-the-worst-thing-about-seattle

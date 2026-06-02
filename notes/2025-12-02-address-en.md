@@ -16,9 +16,9 @@ Answer: ARP (Address Resolution Protocol) is a fundamental protocol in TCP/IP ne
 
 ### How ARP Works
 1. A device (e.g., Computer A) wants to send data to another device (Computer B) on the same LAN and knows Computer B's IP address but not its MAC address.
-2. Computer A broadcasts an ARP Request packet to the entire local network:  
+2. Computer A broadcasts an ARP Request packet to the entire local network:
    “Who has IP address 192.168.1.10? Tell 192.168.1.5” (including its own MAC and IP).
-3. All devices on the LAN receive the broadcast, but only the device with the matching IP (Computer B) replies with an ARP Reply (unicast):  
+3. All devices on the LAN receive the broadcast, but only the device with the matching IP (Computer B) replies with an ARP Reply (unicast):
    “IP 192.168.1.10 is at MAC 00:1A:2B:3C:4D:5E”.
 4. Computer A receives the reply, updates its local ARP cache (a temporary table of IP-to-MAC mappings), and can now send Ethernet frames directly to Computer B’s MAC address.
 

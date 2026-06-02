@@ -85,7 +85,7 @@ type: note
 ### 示例拓扑（简单）
 
 ```
-         [SW1 - Root] 
+         [SW1 - Root]
         /    1G    \
    1G /            \ 1G
 [SW2]              [SW3]

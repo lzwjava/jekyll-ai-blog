@@ -11,7 +11,7 @@ type: note
 
 Question: 为什么我的 Google Cloud GPU 配额请求 (GPUS_ALL_REGIONS) 被拒绝了，而我的 CPU 配额却获得了批准？这是因为我是中国公民使用 Google Cloud 的原因吗？
 
-Answer: 
+Answer:
 
 您的 Google Cloud 关于 **CPUS**（在 us-central1 和全局范围内）的配额请求已获批准（调整为 208），但 **GPUS_ALL_REGIONS**（全局）的请求被拒绝了。这是许多用户常遇到的情况，并非专门针对中国公民。
 

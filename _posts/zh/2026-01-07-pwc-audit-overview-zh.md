@@ -79,10 +79,10 @@ PwC 审计师向公司的内部团队（例如财务、会计、运营和合规�
 
 PwC 的审计旨在通过技术（例如用于全样本测试的数据分析）减少干扰，同时提供更深层次的见解。如果出现问题，审计师可能会上报至审计委员会。最终产出是一份带有审计意见（无保留意见、保留意见等）的审计报告，对于上市公司，该报告会公开备查（例如在 Form 10-K 中）。
 
-References:  
+References:
 
-- [https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf](https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf)  
-- [https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html](https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html)  
-- [https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/](https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/)  
-- [https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies](https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies)  
+- [https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf](https://www.pwc.com/im/en/services/Assurance/pwc-understanding-financial-statement-audit.pdf)
+- [https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html](https://www.pwc.com/us/en/services/audit-assurance/financial-statement-audit.html)
+- [https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/](https://www.mgocpa.com/perspective/how-to-prepare-your-tech-company-for-a-financial-audit/)
+- [https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies](https://www.fdic.gov/bank-examinations/external-auditors-reports-communication-internal-control-deficiencies)
 - [https://www.illumeo.com/what-documents-do-i-need-for-an-audit-2/](https://www.illumeo.com/what-documents-do-i-need-for-an-audit-2/)

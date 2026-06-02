@@ -45,8 +45,8 @@ type: note
 
 对游客而言，若手机支持则使用App最为方便；否则遍布全港的7-Eleven或港铁充值机也是快捷之选。
 
-[八达通卡 - 维基百科](https://en.wikipedia.org/wiki/Octopus_card)  
-[八达通使用指南 - 香港八达通官网](https://www.octopus.com.hk/en/consumer/tourist/usages/index.html)  
-[其他充值方式 - 香港八达通官网](https://www.octopus.com.hk/en/consumer/octopus-cards/reload/index.html)  
-[八达通卡：使用指南与购买渠道 | 香港省钱攻略](https://hongkongcheapo.com/getting-around/octopus-card/)  
+[八达通卡 - 维基百科](https://en.wikipedia.org/wiki/Octopus_card)
+[八达通使用指南 - 香港八达通官网](https://www.octopus.com.hk/en/consumer/tourist/usages/index.html)
+[其他充值方式 - 香港八达通官网](https://www.octopus.com.hk/en/consumer/octopus-cards/reload/index.html)
+[八达通卡：使用指南与购买渠道 | 香港省钱攻略](https://hongkongcheapo.com/getting-around/octopus-card/)
 [香港：八达通卡充值 - Tripadvisor论坛](https://www.tripadvisor.ca/ShowTopic-g294217-i1496-k14933468-Hong_Kong_Octopus_card_top_up-Hong_Kong.html)

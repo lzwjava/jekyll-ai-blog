@@ -21,7 +21,7 @@ When you have a DP where you minimize **cost** while using **exactly/at most K**
 
 You want to solve one of these (very common patterns):
 
-- Divide N elements into **at most K groups** → minimize sum of **cost(group)** over groups  
+- Divide N elements into **at most K groups** → minimize sum of **cost(group)** over groups
   → cost(group) is often convex, e.g. (size)², (max−min)², diameter², etc.
 
 - Select / merge with **at most K operations** → minimize penalty
@@ -50,32 +50,32 @@ When f is convex, the function g(λ) = min over k of [f(k) + λ · k]  is achiev
 
 ### How the Trick Works (Step by Step)
 
-1. **Rewrite the objective**  
-   Instead of min cost with ≤ K groups, we consider for a fixed **penalty λ** (a real number we will binary search):  
-   min over all possible number of groups m:  
-   **real_cost(m) + λ × m**  
+1. **Rewrite the objective**
+   Instead of min cost with ≤ K groups, we consider for a fixed **penalty λ** (a real number we will binary search):
+   min over all possible number of groups m:
+   **real_cost(m) + λ × m**
    (or sometimes real_cost(m) − λ × m — sign depends on whether we minimize cost or maximize score)
 
-2. **Compute the DP without the K constraint**  
-   Now do DP where each time you "start a new group / pay for an extra item", you **add λ to the cost**.  
+2. **Compute the DP without the K constraint**
+   Now do DP where each time you "start a new group / pay for an extra item", you **add λ to the cost**.
    → The DP state usually becomes **O(N)** or **O(N log N)** instead of **O(N·K)** !
 
    Very often this modified DP can use **convex hull trick / Li Chao tree / divide & conquer optimization** because the transitions become linear/slope-based.
 
 3. **Count how many groups m(λ) were used** in the optimal solution for this λ.
 
-4. **Binary search on λ**  
-   - If m(λ) > K → we used too many groups → increase λ (make starting new groups more expensive)  
-   - If m(λ) < K → we used too few → decrease λ  
+4. **Binary search on λ**
+   - If m(λ) > K → we used too many groups → increase λ (make starting new groups more expensive)
+   - If m(λ) < K → we used too few → decrease λ
    - The crossing point where m(λ) jumps around K is what we want.
 
-5. **Recover the true answer**  
-   After binary search finds a good λ where optimal m is around K:  
-   **true minimum cost ≈ DP_value(λ) − λ × K**  
+5. **Recover the true answer**
+   After binary search finds a good λ where optimal m is around K:
+   **true minimum cost ≈ DP_value(λ) − λ × K**
    (or + λ×K depending on sign convention)
 
-   Because:  
-   DP_value(λ) ≈ real_cost(K) + λ × K  
+   Because:
+   DP_value(λ) ≈ real_cost(K) + λ × K
    → real_cost(K) ≈ DP_value(λ) − λ × K
 
    Important: because of convexity, there often exists a range of λ where the optimal m is exactly the same, and the formula gives the correct min cost even if we fix m = K in the recovery.

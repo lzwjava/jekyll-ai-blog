@@ -11,7 +11,7 @@ type: note
 
 Question: In a Phase-Amplitude Modulation (PAM) system using 8 phases and 2 amplitude values per phase, how many binary bits can a single signal symbol represent?
 
-Answer: 
+Answer:
 
 ### Analysis and Calculation
 

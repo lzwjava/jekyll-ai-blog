@@ -1,4 +1,4 @@
-$ python data/openwebtext_10k/prepare.py 
+$ python data/openwebtext_10k/prepare.py
 HTTP_PROXY: http://127.0.0.1:7890
 HTTPS_PROXY: http://127.0.0.1:7890
 '(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 33bd3e07-39ed-42f7-9049-652d3d5f51fe)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
@@ -99,7 +99,7 @@ Traceback (most recent call last):
     raise FileNotFoundError(f"Local file {url_or_filename} doesn't exist")
 FileNotFoundError: Local file /home/lzw/projects/nanoGPT/subsets/urlsf_subset00.tar doesn't exist
 lzw@to:~/projects/nanoGPT$ export HF_HUB_DISABLE_XETHUB=0
-lzw@to:~/projects/nanoGPT$ python data/openwebtext_10k/prepare.py 
+lzw@to:~/projects/nanoGPT$ python data/openwebtext_10k/prepare.py
 HTTP_PROXY: http://127.0.0.1:7890
 HTTPS_PROXY: http://127.0.0.1:7890
 '(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 1aa20529-4da1-4484-b46a-da549860476e)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
@@ -108,4 +108,3 @@ No config specified, defaulting to the single config: openwebtext/plain_text
 Loading Dataset Infos from /home/lzw/.cache/huggingface/modules/datasets_modules/datasets/openwebtext/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521
 Generating dataset openwebtext (/home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521)
 Downloading and preparing dataset openwebtext/plain_text to /home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521...
-

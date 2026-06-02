@@ -21,7 +21,7 @@ This overestimation peaks among novices and declines as people gain more experti
 Beyond Dunning-Kruger, several interconnected reasons contribute to this tendency:
 
 - **Illusion of Superiority**: Most people believe they perform better than average in everyday tasks (e.g., driving or grammar). This stems from a natural human drive to maintain a positive self-image, where we compare ourselves favorably to others but ignore objective benchmarks.
-  
+
 - **Self-Serving Bias**: We attribute successes to our innate talents ("I'm just naturally good at this") and failures to external factors ("The test was unfair"). This protects our ego but skews self-perception over time.
 
 - **Lack of Calibration Through Feedback**: In environments without honest critique—like social media echo chambers or unchallenged workplaces—people rarely get the reality checks needed to adjust their views. Without diverse perspectives, overconfidence festers.

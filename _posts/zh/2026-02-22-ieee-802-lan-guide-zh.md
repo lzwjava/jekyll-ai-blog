@@ -11,7 +11,7 @@ type: note
 
 问题：电气和电子工程师协会 (Institute of Electrical and Electronics Engineers, IEEE) 为局域网 (local area network, LAN) 技术开发的系列标准的名称是什么？
 
-答案： 
+答案：
 
 电气和电子工程师协会 (Institute of Electrical and Electronics Engineers, IEEE) 为局域网 (Local Area Networks, LANs) 和城域网 (Metropolitan Area Networks, MANs) 开发了一系列主要标准，称为 **IEEE 802** 标准系列。
 

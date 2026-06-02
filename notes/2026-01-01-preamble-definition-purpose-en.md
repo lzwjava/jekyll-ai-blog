@@ -12,7 +12,7 @@ type: note
 
 Question: What does "preamble" mean?
 
-Answer: 
+Answer:
 
 A **preamble** is an introductory statement or section that explains the purpose, background, or reasons for a document, law, speech, or agreement.
 
@@ -31,6 +31,6 @@ A **preamble** is an introductory statement or section that explains the purpose
 A preamble is the opening part of an important document that tells you **why** it exists and **what** it aims to achieve.
 
 ### Word Origin
-From Latin *praeambulus* ("walking in front"). 
+From Latin *praeambulus* ("walking in front").
 
 If you have a specific context (e.g., a certain constitution, law, or document), feel free to provide it for a more detailed explanation!

@@ -9,11 +9,11 @@ translated: true
 type: note
 ---
 
-Question:  
+Question:
 今年 NVIDIA H200 的价格在错过去年后上涨了 80 万 (80w)，这是真的吗？
 
-Answer:  
-简短回答：**不是 —— NVIDIA H200 本身的价格并没有暴涨 80 万人民币。**  
+Answer:
+简短回答：**不是 —— NVIDIA H200 本身的价格并没有暴涨 80 万人民币。**
 你可能混淆了**单颗 GPU 价格**与**整机服务器 / 8-GPU 节点价格**。
 
 ### 1. 单颗 H200 GPU 价格（实际市场）

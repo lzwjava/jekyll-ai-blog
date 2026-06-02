@@ -11,7 +11,7 @@ type: note
 
 Question: Bisphenol A 的简介是什么？
 
-Answer: 
+Answer:
 
 **Bisphenol A (BPA)** 是一种自 1950 年代以来广泛用于制造塑料和树脂的工业化学化合物。
 
@@ -37,7 +37,7 @@ BPA 是一种 **endocrine-disrupting chemical (EDC)**，因为它可以模仿雌
 
 尽管进行了广泛研究，但关于实际暴露水平下风险的科学辩论仍在继续。许多卫生机构建议尽量减少暴露，特别是孕妇、婴儿和儿童，使用玻璃、不锈钢或标有 BPA-free 的产品。
 
-References:  
+References:
 
 - [Bisphenol A - Wikipedia](https://en.wikipedia.org/wiki/Bisphenol_A)
 - [Bisphenol A (BPA) | National Institute of Environmental Health Sciences](https://www.niehs.nih.gov/health/topics/agents/sya-bpa)

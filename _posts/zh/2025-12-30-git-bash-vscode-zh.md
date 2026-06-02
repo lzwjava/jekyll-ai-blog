@@ -62,9 +62,9 @@ VS Code 通常会自动检测 Git Bash，因此这一行通常就足够了。保
 
 这将使 Git Bash 作为一个可选的 profile 出现，并在打开新 terminal 时将其设为默认。
 
-References:  
+References:
 
-- [https://code.visualstudio.com/docs/terminal/profiles](https://code.visualstudio.com/docs/terminal/profiles)  
-- [https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal)  
-- [https://bobbyhadz.com/blog/vscode-change-default-terminal](https://bobbyhadz.com/blog/vscode-change-default-terminal)  
+- [https://code.visualstudio.com/docs/terminal/profiles](https://code.visualstudio.com/docs/terminal/profiles)
+- [https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal)
+- [https://bobbyhadz.com/blog/vscode-change-default-terminal](https://bobbyhadz.com/blog/vscode-change-default-terminal)
 - [https://neutrondev.com/vs-code-integrate-git-bash-default-terminal/](https://neutrondev.com/vs-code-integrate-git-bash-default-terminal/)

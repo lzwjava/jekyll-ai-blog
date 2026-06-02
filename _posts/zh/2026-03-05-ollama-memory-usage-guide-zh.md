@@ -37,7 +37,7 @@ type: note
 
 简而言之：**159 MB 对于空闲服务器进程是正常的**。模型在活动时实际使用数 GB——这是 Apple Silicon 上预期的且高效的。如果您看到性能差或错误，请检查总系统内存压力，而不是仅看进程大小。
 
-References:  
+References:
 - [Ollama qwen3.5:9b 模型页面 (6.6 GB Q4_K_M)](https://ollama.com/library/qwen3.5:9b)
 - [Stack Overflow: 为什么 Ollama 不使用更多 RAM？(memory mapping 解释)](https://stackoverflow.com/questions/78068285/why-doesnt-ollama-use-more-ram)
 - [GitHub Ollama issues 关于内存报告 (file cache & under-reporting)](https://github.com/ollama/ollama/issues/2496)

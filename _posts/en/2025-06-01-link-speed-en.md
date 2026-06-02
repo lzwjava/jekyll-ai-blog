@@ -32,15 +32,15 @@ Look for the `Speed` and `Duplex` fields in the output:
 ```
 Settings for enp3s0:
     Supported ports: [ TP ]
-    Supported link modes:   10baseT/Half 10baseT/Full 
-                            100baseT/Half 100baseT/Full 
-                            1000baseT/Full 
+    Supported link modes:   10baseT/Half 10baseT/Full
+                            100baseT/Half 100baseT/Full
+                            1000baseT/Full
     Supported pause frame use: No
     Supports auto-negotiation: Yes
     Supported FEC modes: Not reported
-    Advertised link modes:  10baseT/Half 10baseT/Full 
-                            100baseT/Half 100baseT/Full 
-                            1000baseT/Full 
+    Advertised link modes:  10baseT/Half 10baseT/Full
+                            100baseT/Half 100baseT/Full
+                            1000baseT/Full
     Advertised pause frame use: No
     Advertised auto-negotiation: Yes
     Advertised FEC modes: Not reported

@@ -12,7 +12,7 @@ type: note
 
 Question: One of the conflicts in the world is that on the internet most information, free chatbots, YouTube, blogs, etc. are free, but travel, flight tickets, highways, and trains still require payment.
 
-Answer: 
+Answer:
 
 This contrast you pointed out is real and reflects two very different economic realities.
 
@@ -27,12 +27,12 @@ Result → huge amounts of high-quality knowledge, entertainment, education, and
 
 ### Why physical movement (travel, transport) stays expensive
 
-- **Marginal cost is high and real**: 
+- **Marginal cost is high and real**:
   - Every additional passenger on a plane requires fuel, a seat, cabin crew time, airport handling, etc.
   - Every car on a highway causes wear, congestion, pollution, and needs road maintenance.
   - Trains consume electricity/diesel, need drivers, track maintenance, signaling systems.
 - **Very high fixed + operating costs**: Airplanes cost $100–400 million each, airports billions, high-speed rail lines tens of billions. These costs must be recovered.
-- **Limited supply & physical constraints**: 
+- **Limited supply & physical constraints**:
   - You cannot instantly add another runway, another train path, or another 10,000 hotel rooms in a popular city.
   - Airport slots, airspace, landing rights are scarce and rationed.
 - **Energy & materials are not free**: Kerosene, electricity, steel, concrete, lithium for batteries — all have real commodity prices that have not collapsed like digital storage & bandwidth have.
@@ -54,6 +54,6 @@ It also drives political & social debates:
 
 In short: the internet made copying & distribution basically free, but physics, energy, land and safety did **not** become free. That is the root cause of the contrast you feel.
 
-References:  
+References:
 
 - None required for this conceptual explanation.

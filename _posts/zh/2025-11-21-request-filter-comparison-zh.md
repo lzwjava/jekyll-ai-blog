@@ -70,6 +70,6 @@ public class LoggingFilter implements Filter {
 
 总之，**请求链过滤器的概念是相同的**（Servlet 规范），但对于大多数现代用例，**Spring Boot 使其更加简单和强大**，而 WAS 则更偏向企业级重量级和配置密集型。
 
-[IBM WAS Servlet 过滤文档](https://www.ibm.com/docs/en/was/9.0.5?topic=extensions-servlet-filtering)  
-[Spring Boot 自定义过滤器](https://www.baeldung.com/spring-boot-add-filter)  
+[IBM WAS Servlet 过滤文档](https://www.ibm.com/docs/en/was/9.0.5?topic=extensions-servlet-filtering)
+[Spring Boot 自定义过滤器](https://www.baeldung.com/spring-boot-add-filter)
 [Spring Security 过滤器链](https://docs.spring.io/spring-security/reference/servlet/architecture.html)

@@ -16,7 +16,7 @@ JD.com and Taobao, being high-traffic platforms in a mobile-first market, freque
 
 ## 💻 Desktop vs. Mobile Implementation
 
-The core difference in implementation lies in layout and information density, reflecting the distinct usage patterns of desktop and mobile users. 
+The core difference in implementation lies in layout and information density, reflecting the distinct usage patterns of desktop and mobile users.
 
 ---
 

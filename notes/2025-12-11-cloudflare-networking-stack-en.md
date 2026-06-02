@@ -12,7 +12,7 @@ type: note
 
 Question: What networking technology does Cloudflare use?
 
-Answer: 
+Answer:
 Cloudflare operates a global anycast network spanning over 330 cities, leveraging a combination of proprietary software, open-source tools, and modern cloud-native architectures to deliver networking services like CDN, DDoS protection, WAN optimization, and Zero Trust security. Their stack emphasizes edge computing, intelligent routing, and protocol optimizations rather than traditional hardware-centric approaches. Below is a breakdown of key networking technologies Cloudflare uses or supports, based on their infrastructure and services.
 
 ### Core Network Infrastructure
@@ -38,10 +38,10 @@ Cloudflare's platform is infrastructure-agnostic, supporting hybrid setups with 
 
 This stack enables Cloudflare to handle petabytes of traffic daily while minimizing latency and costs, often outperforming traditional providers in global benchmarks.
 
-References:  
-- [Cloudflare Tech Stack](https://stackshare.io/cloudflare-inc/cloudflare)  
-- [Fullstack Applications Reference](https://developers.cloudflare.com/reference-architecture/diagrams/serverless/fullstack-application/)  
-- [Upgrading Cloudflare's Software Stack](https://blog.cloudflare.com/upgrading-one-of-the-oldest-components-in-cloudflare-software-stack/)  
-- [How We Made Our DNS Stack 3x Faster](https://blog.cloudflare.com/how-we-made-our-dns-stack-3x-faster/)  
-- [Cloudflare Network Services](https://www.cloudflare.com/network-services/products/)  
+References:
+- [Cloudflare Tech Stack](https://stackshare.io/cloudflare-inc/cloudflare)
+- [Fullstack Applications Reference](https://developers.cloudflare.com/reference-architecture/diagrams/serverless/fullstack-application/)
+- [Upgrading Cloudflare's Software Stack](https://blog.cloudflare.com/upgrading-one-of-the-oldest-components-in-cloudflare-software-stack/)
+- [How We Made Our DNS Stack 3x Faster](https://blog.cloudflare.com/how-we-made-our-dns-stack-3x-faster/)
+- [Cloudflare Network Services](https://www.cloudflare.com/network-services/products/)
 - [What is Enterprise Networking?](https://www.cloudflare.com/learning/network-layer/what-is-networking/)

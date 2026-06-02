@@ -21,7 +21,7 @@ The parent POM defines the modules and manages shared configurations. Set its pa
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -66,7 +66,7 @@ Directory structure: `web-module/pom.xml`
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -110,7 +110,7 @@ Directory structure: `ear-module/pom.xml`
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -143,13 +143,13 @@ Directory structure: `ear-module/pom.xml`
                 <configuration>
                     <!-- EAR version (e.g., for Java EE) -->
                     <version>8</version>
-                    
+
                     <!-- Directory for libraries in EAR -->
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
-                    
+
                     <!-- Skinny WARs (exclude dependencies already in EAR libs) -->
                     <skinnyWars>true</skinnyWars>
-                    
+
                     <!-- Define modules to include -->
                     <modules>
                         <webModule>
@@ -181,5 +181,5 @@ Directory structure: `ear-module/pom.xml`
 
 For more details, see the official Maven EAR plugin docs.
 
-[Apache Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)  
+[Apache Maven EAR Plugin](https://maven.apache.org/plugins/maven-ear-plugin/)
 [Maven Multi-Module Projects](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Multi-module_Projects)

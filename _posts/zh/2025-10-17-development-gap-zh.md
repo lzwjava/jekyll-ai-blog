@@ -27,9 +27,9 @@ type: note
 
 至1990年代回归前夕，虽有人才外流，但香港的全球地位依然稳固，在贸易总额与亿万富豪密度上超越众多同类城市。它虽与那些国际都市不尽相同（规模更小，更具亚热带混沌感），但确实以超乎体量的能量，成为野心家们的世界级竞技场。
 
-[香港与中国内地的经济融合](https://www.elibrary.imf.org/display/book/9781589062948/ch02.xml)  
-[中国农村电气化1950-2004](https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/WP_60%2C_Rural_Elec_China.pdf)  
-[中国农村电气化接入模式](https://www.dmu.ac.uk/documents/technology-documents/research-faculties/oasys/project-outputs/peer-reviewed-journal-articles/pj5--chinese-electricity-access---energy-policy-paper.pdf)  
-[香港与东京作为国际银行中心的崛起](https://core.ac.uk/download/pdf/1396665.pdf)  
-[香港维基百科-经济章节](https://en.wikipedia.org/wiki/Hong_Kong)  
+[香港与中国内地的经济融合](https://www.elibrary.imf.org/display/book/9781589062948/ch02.xml)
+[中国农村电气化1950-2004](https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/WP_60%2C_Rural_Elec_China.pdf)
+[中国农村电气化接入模式](https://www.dmu.ac.uk/documents/technology-documents/research-faculties/oasys/project-outputs/peer-reviewed-journal-articles/pj5--chinese-electricity-access---energy-policy-paper.pdf)
+[香港与东京作为国际银行中心的崛起](https://core.ac.uk/download/pdf/1396665.pdf)
+[香港维基百科-经济章节](https://en.wikipedia.org/wiki/Hong_Kong)
 [为何香港在1980年代末处于黄金时期](https://www.scmp.com/business/global-economy/article/1986529/why-hong-kong-was-its-best-late-1980splenty-tech-innovations)

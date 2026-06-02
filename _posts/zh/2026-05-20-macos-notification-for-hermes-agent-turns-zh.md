@@ -32,8 +32,8 @@ type: note
 
 因此，每次我完成对你的回复后，会弹出一条通知，内容大致如下：
 
-> **Hermes Agent — hermes-agent**  
-> msg: what's this  |  turns: 3  
+> **Hermes Agent — hermes-agent**
+> msg: what's this  |  turns: 3
 > Hermes 已完成一轮。
 
 这纯粹是一个个人生产力/提醒功能——让你无需盯着终端就能知道代理已完成任务。代码写得干净利落。需要我对其进行自定义或禁用它吗？

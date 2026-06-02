@@ -25,9 +25,9 @@ type: note
 
 所有这些领域都与眼镜案例有着相同的魔力：低风险、高回报——快速试错、迭代优化、开放共享。如果您怀疑某种常规认知（比如"基因决定健康"），只需准备笔记本或20美元工具包，开展为期一个月的试验，就能获得支撑新见解的数据。这正是外界推动进步的方式，从家酿啤酒配方到登月计划皆如此。是否有特定领域想深入探讨？
 
-[DIY生物学 - 维基百科](https://en.wikipedia.org/wiki/Do-it-yourself_biology)  
-[DIYbiosphere社区项目](https://sphere.diybio.org/browse/)  
-[量化自我精选GitHub仓库](https://github.com/woop/awesome-quantified-self)  
-[量化自我入门指南](https://quantifiedself.com/get-started/)  
-[创客运动概览 - PBS](https://www.pbslearningmedia.org/resource/maker-movement-macarthur/maker-movement-macarthur/)  
+[DIY生物学 - 维基百科](https://en.wikipedia.org/wiki/Do-it-yourself_biology)
+[DIYbiosphere社区项目](https://sphere.diybio.org/browse/)
+[量化自我精选GitHub仓库](https://github.com/woop/awesome-quantified-self)
+[量化自我入门指南](https://quantifiedself.com/get-started/)
+[创客运动概览 - PBS](https://www.pbslearningmedia.org/resource/maker-movement-macarthur/maker-movement-macarthur/)
 [科学DIY项目 - Make杂志](https://makezine.com/category/science/)

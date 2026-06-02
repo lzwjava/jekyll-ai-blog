@@ -12,9 +12,9 @@ type: note
 
 Question: Give a comprehensive introduction to SRS, the Simple RTMP Streaming open-source project.
 
-Answer: 
+Answer:
 
-**SRS (Simple Realtime Server)** is one of the most popular and widely used **open-source real-time media streaming servers**.  
+**SRS (Simple Realtime Server)** is one of the most popular and widely used **open-source real-time media streaming servers**.
 
 It started primarily as a high-performance **RTMP server** but has evolved into a very capable, all-protocol real-time streaming gateway.
 
@@ -105,7 +105,7 @@ Play:
 
 SRS remains one of the best choices when you want an open-source, high-performance, multi-protocol real-time streaming server — especially if you need **RTMP ingestion + WebRTC/HLS delivery** in the same box.
 
-References:  
+References:
 
 - [SRS Official Website](https://ossrs.net/lts/en-us)
 - [SRS GitHub Repository](https://github.com/ossrs/srs)

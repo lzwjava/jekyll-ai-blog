@@ -12,7 +12,7 @@ type: note
 
 Question: How to use GitHub Copilot when fixing, editing, or using agent mode on large Java files with 2000–3000 lines of code?
 
-Answer: 
+Answer:
 
 GitHub Copilot (in VS Code, JetBrains, or Visual Studio) struggles with very large single files (≥1500–2000 LoC), especially Java classes. Common problems include:
 
@@ -78,7 +78,7 @@ Here are practical strategies that work reasonably well in 2025–2026 for **200
 
 Bottom line: **First refactor mechanically / manually to split the file → then let Copilot help with the pieces.** This is still the most time-efficient path in late 2025 / early 2026.
 
-References:  
+References:
 
 - [Best practices for using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices)
 - [Introducing GitHub Copilot agent mode (preview)](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)

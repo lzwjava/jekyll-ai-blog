@@ -30,7 +30,7 @@ The file ensures direct access is blocked via `defined('BASEPATH') OR exit('No d
   - **alt_text**: Alternative text for accessibility/screen readers, describing the emotion.
 
 - **Usage in CodeIgniter**: Load the helper with `$this->load->helper('smiley');`, then call functions like `parse_smileys($text)` on strings containing emoticon codes. This replaces codes with `<img>` tags, e.g.:
-  - Input: `I'm happy :)`  
+  - Input: `I'm happy :)`
     Output: `I'm happy <img src="http://example.com/smileys/smile.gif" width="19" height="19" alt="smile">`
 
 ### Breakdown of Entries

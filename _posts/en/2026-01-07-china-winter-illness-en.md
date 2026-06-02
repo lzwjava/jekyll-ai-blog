@@ -12,7 +12,7 @@ type: note
 
 Question: Do people in China easily get sick with coughs, high fevers, and similar symptoms during winter?
 
-Answer: 
+Answer:
 
 Yes, people in China, particularly in northern regions, commonly experience increased respiratory illnesses during winter, including symptoms like cough, high fever, sore throat, and congestion. This is a typical seasonal pattern seen globally in the Northern Hemisphere during colder months.
 
@@ -25,10 +25,10 @@ Yes, people in China, particularly in northern regions, commonly experience incr
 
 These illnesses are generally mild but can be severe in children, elderly, or those with underlying conditions. Prevention includes vaccination (e.g., flu shots), hand hygiene, masks in crowded places, and good ventilation.
 
-References:  
+References:
 
-- [WHO: Trends of acute respiratory infection, including human metapneumovirus, in the Northern Hemisphere](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON550)  
-- [PMC: Dual Seasonal Patterns for Influenza, China](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321959/)  
-- [PMC: Health Effects of Air Pollution in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC6068713/)  
-- [Euronews: What is HMPV, the respiratory virus spreading across China](https://www.euronews.com/health/2025/01/07/what-is-hmpv-the-respiratory-virus-straining-healthcare-systems-in-china)  
+- [WHO: Trends of acute respiratory infection, including human metapneumovirus, in the Northern Hemisphere](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON550)
+- [PMC: Dual Seasonal Patterns for Influenza, China](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321959/)
+- [PMC: Health Effects of Air Pollution in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC6068713/)
+- [Euronews: What is HMPV, the respiratory virus spreading across China](https://www.euronews.com/health/2025/01/07/what-is-hmpv-the-respiratory-virus-straining-healthcare-systems-in-china)
 - [Reuters: Winter surge of hMPV in China and elsewhere not unusual, WHO says](https://www.reuters.com/business/healthcare-pharmaceuticals/winter-surge-respiratory-illness-china-elsewhere-not-unusual-who-says-2025-01-08/)

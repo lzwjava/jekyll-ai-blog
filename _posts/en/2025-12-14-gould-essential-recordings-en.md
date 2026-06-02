@@ -12,7 +12,7 @@ type: note
 
 Question: What are Glenn Gould's best works?
 
-Answer: 
+Answer:
 
 Glenn Gould (1932–1982) is widely regarded as one of the greatest pianists of the 20th century, particularly renowned for his interpretations of Johann Sebastian Bach's keyboard music. His playing emphasized clarity, precision, contrapuntal detail, and often unconventional tempos, making his recordings both iconic and polarizing.
 
@@ -33,7 +33,7 @@ Other highly regarded recordings include:
 
 While Gould recorded some Romantic composers (e.g., Brahms, Beethoven concertos), his Bach interpretations remain his enduring legacy and are most frequently cited as his finest contributions.
 
-References:  
+References:
 
 - [Glenn Gould: an introduction to the life and best recordings](https://www.gramophone.co.uk/features/article/glenn-gould-an-introduction-to-the-life-and-best-recordings-of-a-piano-icon)
 - [The Essential Glenn Gould](https://www.sfcv.org/articles/feature/essential-glenn-gould)

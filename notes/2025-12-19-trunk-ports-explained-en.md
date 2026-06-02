@@ -12,7 +12,7 @@ type: note
 
 Question: What is a trunk port in a switch?
 
-Answer: 
+Answer:
 
 A **trunk port** on a network switch is a special type of port configured to carry traffic for **multiple Virtual Local Area Networks (VLANs)** over a single physical link. This is in contrast to an **access port**, which is dedicated to a single VLAN and typically connects to end devices like computers or printers.
 
@@ -37,7 +37,7 @@ A **trunk port** on a network switch is a special type of port configured to car
 
 Trunk ports make networks more efficient by reducing the need for multiple physical cables—one trunk link can replace many separate links for each VLAN. However, they require careful configuration to avoid security issues or misrouting.
 
-References:  
+References:
 
 - [JumpCloud: What Is a Trunk Port?](https://jumpcloud.com/it-index/what-is-a-trunk-port)
 - [N-able: VLAN Trunking Overview](https://www.n-able.com/blog/vlan-trunking)

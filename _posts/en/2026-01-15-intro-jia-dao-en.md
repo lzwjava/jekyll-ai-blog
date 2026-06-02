@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to Jia Dao (贾岛), including his life and works.
 
-Answer: 
+Answer:
 
 **Jia Dao** (贾岛, 779–843), courtesy name Langxian (浪仙 or 阆仙), also known by his self-given name Jieshi Shanren (碣石山人), was a prominent Chinese poet of the mid-Tang dynasty. He is often called "the poet slave" (诗奴) or "Jia Changjiang" (贾长江) due to one of his official posts. Together with Meng Jiao (孟郊), he represents the "bitter chanting" (苦吟) school of poetry, and their styles are famously summarized by Su Shi as "Meng郊寒岛瘦" (Meng's coldness and Jia's leanness).
 
@@ -35,16 +35,16 @@ His poetry is characterized by:
 - Avoidance of ornate or popular styles (contrasting with the lighter Yuanhe era poets like Bai Juyi and Yuan Zhen).
 
 Famous poems include:
-- "Seeking the Recluse but Not Meeting Him" (寻隐者不遇):  
-  松下问童子，言师采药去。  
-  只在此山中，云深不知处。  
-  (Under the pine I ask the boy; he says the master has gone herb-gathering.  
+- "Seeking the Recluse but Not Meeting Him" (寻隐者不遇):
+  松下问童子，言师采药去。
+  只在此山中，云深不知处。
+  (Under the pine I ask the boy; he says the master has gone herb-gathering.
   Only in this mountain — deep clouds, unknown whereabouts.)
 - Lines like "the autumn wind rises on the Wei River, fallen leaves fill Chang'an" (秋风生渭水，落叶满长安), which became widely quoted in later literature.
 
 Although some critics (like Su Shi) called his work "thin" or limited, Jia Dao's meticulous style influenced late-Tang poets (such as the "Yao-Jia school" with Yao He) and later "bitter poets." His influence extended into the Song and beyond, with some admirers treating his image and poems almost reverently.
 
-References:  
+References:
 
 - [Jia Dao - Wikipedia](https://en.wikipedia.org/wiki/Jia_Dao)
 - [贾岛 - 百度百科](https://baike.baidu.com/item/%E8%B4%BE%E5%B2%9B/1017726)

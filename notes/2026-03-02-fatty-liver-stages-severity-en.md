@@ -11,7 +11,7 @@ type: note
 
 Question: Comprehensive introduction to fatty liver, and what do mild, moderate, or severe fatty liver mean?
 
-Answer: 
+Answer:
 
 **Fatty Liver – Comprehensive Introduction**
 
@@ -19,31 +19,31 @@ Fatty liver (also called **hepatic steatosis**) occurs when excess fat builds up
 
 There are two main categories:
 
-- **Metabolic dysfunction-associated steatotic liver disease (MASLD)**  
-  (previously called non-alcoholic fatty liver disease / NAFLD)  
-  → Caused mainly by insulin resistance, obesity, type 2 diabetes, high blood lipids, metabolic syndrome.  
+- **Metabolic dysfunction-associated steatotic liver disease (MASLD)**
+  (previously called non-alcoholic fatty liver disease / NAFLD)
+  → Caused mainly by insulin resistance, obesity, type 2 diabetes, high blood lipids, metabolic syndrome.
   Most common form today.
 
-- **Alcohol-related / Alcoholic fatty liver disease**  
+- **Alcohol-related / Alcoholic fatty liver disease**
   → Caused by heavy alcohol consumption.
 
 Other less common causes include: rapid weight loss, certain medications (e.g., corticosteroids, tamoxifen), viral hepatitis, malnutrition, genetic disorders (e.g., lipodystrophy), etc.
 
 ### Stages / Spectrum of Fatty Liver Disease (MASLD pathway)
 
-1. **Simple steatosis** (pure fatty liver)  
-   → Fat in liver but little to no inflammation or damage  
+1. **Simple steatosis** (pure fatty liver)
+   → Fat in liver but little to no inflammation or damage
    → Usually reversible with lifestyle change
 
-2. **Metabolic dysfunction-associated steatohepatitis (MASH)**  
-   (previously NASH = non-alcoholic steatohepatitis)  
-   → Fat + inflammation + liver cell injury  
+2. **Metabolic dysfunction-associated steatohepatitis (MASH)**
+   (previously NASH = non-alcoholic steatohepatitis)
+   → Fat + inflammation + liver cell injury
    → Can progress to fibrosis
 
-3. **Fibrosis** → scar tissue starts forming  
+3. **Fibrosis** → scar tissue starts forming
    → F0 = no fibrosis, F1 = mild, F2 = moderate, F3 = severe/advanced, F4 = cirrhosis
 
-4. **Cirrhosis** → irreversible scarring, distorted liver architecture  
+4. **Cirrhosis** → irreversible scarring, distorted liver architecture
    → Can lead to liver failure, portal hypertension, liver cancer (HCC)
 
 ### What “mild, moderate, severe fatty liver” usually means
@@ -82,7 +82,7 @@ Grading is subjective and approximate (especially on ultrasound):
 
 Early detection and lifestyle change usually stop or reverse the process in the majority of people.
 
-References:  
+References:
 
-- [https://www.ncbi.nlm.nih.gov/books/NBK541033/](https://www.ncbi.nlm.nih.gov/books/NBK541033/)  
+- [https://www.ncbi.nlm.nih.gov/books/NBK541033/](https://www.ncbi.nlm.nih.gov/books/NBK541033/)
 - [https://www.aasld.org/practice-guidelines/clinical-assessment-and-management-metabolic-dysfunction-associated-steatotic-liver](https://www.aasld.org/practice-guidelines/clinical-assessment-and-management-metabolic-dysfunction-associated-steatotic-liver)

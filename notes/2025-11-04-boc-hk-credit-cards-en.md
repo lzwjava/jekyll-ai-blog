@@ -17,7 +17,7 @@ As a mainland Chinese citizen (non-Hong Kong resident), you can apply for most B
 Key points:
 - **Non-resident status**: You'll apply as a non-HK resident (no HKID required). Submit a valid passport, Mainland Travel Permit for Hong Kong and Macao Residents (Home Return Permit), and a copy of your mainland ID (hukou or residence permit). Proof of address (e.g., utility bill or bank statement from the last 3 months) is also needed.
 - **Dual Currency Cards**: Many popular options are UnionPay Dual Currency cards (HKD + CNY), ideal for cross-border use, with no foreign transaction fees on CNY spends in mainland China.
-- **Application Methods**: 
+- **Application Methods**:
   - **Online**: Via BOC HK mobile app, website (bochk.com), or BOC Credit Card online portal. Upload documents digitally.
   - **Branch**: Visit any BOC HK branch in Hong Kong with originals.
   - **Phone**: Call 24-hour hotline (852) 2853 8828 for guidance.
@@ -45,7 +45,7 @@ Most cards are open to non-residents like you. Below is a table of popular optio
 
 If denied, alternatives include mainland BOC cards (e.g., Great Wall International), but HK versions offer better global acceptance.
 
-[Customer Declaration for Non-HK Residents](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)  
-[BOC HK Credit Card Application](https://mobile.boccc.com.hk/oca/NOCAWEB/supcard/index.html?SCode=217&BCode=012&lang=en)  
-[HK Banks Issuing Cards in Mainland](https://www.scmp.com/business/banking-finance/article/3299493/beijing-allows-hong-kong-banks-issue-credit-cards-mainland-march-1)  
+[Customer Declaration for Non-HK Residents](https://www.bochk.com/dam/boccreditcard/UPI_CORECARD_EN.pdf)
+[BOC HK Credit Card Application](https://mobile.boccc.com.hk/oca/NOCAWEB/supcard/index.html?SCode=217&BCode=012&lang=en)
+[HK Banks Issuing Cards in Mainland](https://www.scmp.com/business/banking-finance/article/3299493/beijing-allows-hong-kong-banks-issue-credit-cards-mainland-march-1)
 [BOC HK Products Overview](https://www.bochk.com/en/creditcard/details.html)

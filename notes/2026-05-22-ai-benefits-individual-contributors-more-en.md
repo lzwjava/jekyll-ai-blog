@@ -48,7 +48,7 @@ AI collapses that gap. You can now:
 
 ```
 Personal tax strategy     → Claude + your docs
-Legal contract review     → Claude + jurisdiction context  
+Legal contract review     → Claude + jurisdiction context
 Medical symptom triage    → Claude + PubMed search
 Investment research       → Claude + financial data tools
 Home repair diagnosis     → Claude + photos

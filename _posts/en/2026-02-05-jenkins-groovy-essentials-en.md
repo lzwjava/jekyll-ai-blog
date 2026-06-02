@@ -26,11 +26,11 @@ node('linux') {
     stage('Checkout') {
         git branch: 'main', url: 'https://github.com/user/repo.git'
     }
-    
+
     stage('Build') {
         sh 'mvn clean package'
     }
-    
+
     stage('Test') {
         sh 'mvn test'
     }
@@ -42,7 +42,7 @@ node('linux') {
 ```groovy
 pipeline {
     agent any
-    
+
     stages {
         stage('Build') {
             steps {
@@ -50,7 +50,7 @@ pipeline {
                 sh 'make build'
             }
         }
-        
+
         stage('Test') {
             steps {
                 echo 'Testing...'
@@ -254,24 +254,24 @@ echo "Deploying to ${targetEnv.url} with ${targetEnv.replicas} replicas"
 ```groovy
 pipeline {
     agent any
-    
+
     environment {
         DOCKER_REGISTRY = 'registry.example.com'
         APP_NAME = 'my-app'
     }
-    
+
     parameters {
         choice(name: 'DEPLOY_ENV', choices: ['dev', 'staging', 'prod'])
         booleanParam(name: 'RUN_TESTS', defaultValue: true)
     }
-    
+
     stages {
         stage('Checkout') {
             steps {
                 checkout scm
             }
         }
-        
+
         stage('Build') {
             steps {
                 script {
@@ -282,7 +282,7 @@ pipeline {
                 sh "docker build -t ${DOCKER_REGISTRY}/${APP_NAME}:${env.VERSION} ."
             }
         }
-        
+
         stage('Test') {
             when {
                 expression { params.RUN_TESTS == true }
@@ -291,7 +291,7 @@ pipeline {
                 sh 'npm test'
             }
         }
-        
+
         stage('Deploy') {
             steps {
                 script {
@@ -306,7 +306,7 @@ pipeline {
             }
         }
     }
-    
+
     post {
         success {
             echo 'Pipeline succeeded!'

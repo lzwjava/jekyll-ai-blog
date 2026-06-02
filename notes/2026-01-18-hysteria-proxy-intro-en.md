@@ -42,7 +42,7 @@ You typically run a Hysteria **server** on a VPS/cloud host (with a domain and T
 - Vs WireGuard/OpenVPN → More stealthy (looks like HTTPS), usually faster in bad conditions, but not a full L3 VPN (no ICMP/ping by default in TUN mode)
 - Vs Reality/VLESS → Different masquerading approach (HTTP/3 vs TLS-in-TLS); Hysteria often wins on unstable links
 
-Official project: https://github.com/apernet/hysteria  
+Official project: https://github.com/apernet/hysteria
 Documentation (Hysteria 2): https://v2.hysteria.network/
 
 **References:**

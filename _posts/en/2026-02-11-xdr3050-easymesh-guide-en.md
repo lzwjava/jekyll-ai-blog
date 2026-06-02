@@ -12,7 +12,7 @@ type: note
 
 Question: Translate the previous conversation or response to English.
 
-Answer: 
+Answer:
 
 Here is the full translation of my last response (about the TL-XDR3050 EasyMesh version) into natural English:
 
@@ -68,6 +68,6 @@ EasyMesh supports **wireless + wired hybrid networking**, and can connect up to 
 
 If you have two XDR3050 EasyMesh routers now, just use one-touch pairing to set up two levels of repeating! If pairing still fails, tell me the exact light behavior or share a screenshot of the admin page, and I’ll help troubleshoot further. Official page: https://www.tp-link.com.cn/product_2196.html (specs and firmware are there).
 
-References:  
+References:
 
 - [https://www.tp-link.com.cn/product_2196.html](https://www.tp-link.com.cn/product_2196.html)

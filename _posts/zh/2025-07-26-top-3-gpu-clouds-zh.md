@@ -20,7 +20,7 @@ type: note
 
 这些服务商的入选基于其频繁登顶行业榜单、用户采纳度以及针对AI工作负载的定制功能。大型企业可优先考虑CoreWeave，独立开发者则更适合选择RunPod或Lambda。
 
-[2025年30大云GPU服务商及其GPU型号](https://research.aimultiple.com/cloud-gpu-providers/)  
-[2025年12大AI与机器学习云GPU服务商](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)  
-[2025年15大AI/ML云平台](https://saturncloud.io/blog/top-15-ai-ml-cloud-platforms-in-2025/)  
+[2025年30大云GPU服务商及其GPU型号](https://research.aimultiple.com/cloud-gpu-providers/)
+[2025年12大AI与机器学习云GPU服务商](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
+[2025年15大AI/ML云平台](https://saturncloud.io/blog/top-15-ai-ml-cloud-platforms-in-2025/)
 [2025年10大AI与深度学习云GPU服务商](https://dataoorts.com/top-10-cloud-gpu-providers-for-ai-and-deep-learning-in-2025/)

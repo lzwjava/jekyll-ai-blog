@@ -40,12 +40,12 @@ type: note
 如果您遇到超出这些原因的频繁断开连接，可能是软件故障——尝试重启 iPhone 或联系 Apple 支持/运营商。行为可能因 iPhone 型号（如 iPhone 16 系列）或 iOS 版本而略有不同。
 
 #### 参考文献（Markdown 引用）
-[1]: Apple 讨论区 (web:0)  
-[2]: Ask Different (web:2, web:13, web:25)  
-[3]: Alphr 文章 (web:23, web:31)  
-[4]: Quora (web:15, web:29)  
-[5]: Apple 培训片段 (web:26)  
-[6]: Wondershare (web:6, web:24) 和 Alphr (web:31)  
-[7]: Reddit (web:1, web:11)  
-[8]: Reddit (web:1)  
+[1]: Apple 讨论区 (web:0)
+[2]: Ask Different (web:2, web:13, web:25)
+[3]: Alphr 文章 (web:23, web:31)
+[4]: Quora (web:15, web:29)
+[5]: Apple 培训片段 (web:26)
+[6]: Wondershare (web:6, web:24) 和 Alphr (web:31)
+[7]: Reddit (web:1, web:11)
+[8]: Reddit (web:1)
 [9]: Apple 支持 (web:4) 和 Alphr (web:31)

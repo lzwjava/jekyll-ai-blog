@@ -70,8 +70,8 @@ $$
   w_1*a_1 +...+ w_6*a_6+b_1 = c_1 \\
   w_1*a_1 +...+ w_6*a_6+b_2 = c_2 \\
   w_1*a_1 +...+ w_6*a_6+b_3 = c_3 \\
-  w_1*a_1 +...+ w_6*a_6+b_4 = c_4 
-\end{eqnarray}  
+  w_1*a_1 +...+ w_6*a_6+b_4 = c_4
+\end{eqnarray}
 $$
 
 这里，方程1有一组权重，方程2有另一组权重。因此，方程1中的$w_1$与方程2中的$w_1$不同。因此，在第二层和第三层之间，我们有以下方程组。
@@ -80,8 +80,8 @@ $$
 \begin{eqnarray}
   w_1*c_1 + ... + w_4*c_4+b_1 = d_1 \\
   w_1*c_1 + ... + w_4*c_4+b_2 = d_2 \\
-  w_1*c_1 + ... + w_4*c_4+b_3 = d_3 
-\end{eqnarray}  
+  w_1*c_1 + ... + w_4*c_4+b_3 = d_3
+\end{eqnarray}
 $$
 
 在第三层到最后一层，我们有以下方程。
@@ -99,7 +99,7 @@ $$
 我们不需要对sigma符号$\sigma$感到害怕。它只是一个符号，就像符号a一样。如果我们将输入设为0.5，则其值为
 
 $$
- \frac{1}{1+e^{-0.5}} \approx 0.622459 
+ \frac{1}{1+e^{-0.5}} \approx 0.622459
 $$
 
 而且，
@@ -124,7 +124,7 @@ $$
   \sigma(w_1*a_1 + ... + w_6*a_6+b_1) = c_1 \\
   \sigma(w_1*a_1 + ... + w_6*a_6+b_2) = c_2 \\
   \sigma(w_1*a_1 + ... + w_6*a_6+b_3) = c_3 \\
-  \sigma(w_1*a_1 + ... + w_6*a_6+b_4) = c_4 
+  \sigma(w_1*a_1 + ... + w_6*a_6+b_4) = c_4
 \end{eqnarray}
 $$
 
@@ -137,7 +137,7 @@ $$
 我们如何更新$w_1$的新权重？也就是说，
 
 $$
-    w_1 \rightarrow w_1' = w_1- \Delta w 
+    w_1 \rightarrow w_1' = w_1- \Delta w
 $$
 
 对于方程，
@@ -181,7 +181,7 @@ $$
 
 $$
 \frac{\sigma(z)}{1-\sigma(z)} * a_1 * \Delta w = \Delta C \\
-\Delta w = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)} * a_1} 
+\Delta w = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)} * a_1}
 $$
 
 对于偏置$b_1$，
@@ -200,7 +200,7 @@ $$
 def print_shape(array):
     arr = np.array(array)
     print(arr.shape)
-    
+
 print(len(test_data[0][0])) # 10
 print_shape(training_results[0]) # (784, 1)
 print(list(training_data)[0:1]) # <class 'list'>
@@ -228,7 +228,7 @@ def load_data_wrapper():
 def vectorized_result(j):
     e = np.zeros((10, 1))
     e[j] = 1.0
-    return e    
+    return e
 ```
 
 在这里，变量的维度很复杂。然而，当我们思考作者的初衷时，我们就有了一些线索。看看代码，它由三个类似部分组合在一起。每个部分几乎相同，尽管变量的名称不同。现在，对我来说，这似乎非常容易了。zip函数，对列表的“for”操作和reshape函数。理解仅仅是在数百次打印变量和试图弄清楚变量的值为何如此之间的累积。

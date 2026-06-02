@@ -51,19 +51,19 @@ type: post
 
 *2024.12.29*
 
-* 最佳方法是获取一张中国澳门 SIM 卡，在需要时直接使用蜂窝数据。访问 [https://www.1888.com.mo](https://www.1888.com.mo)。它提供约 10 GB 蜂窝数据，费用约 80 元人民币，体验快速无痛。 
+* 最佳方法是获取一张中国澳门 SIM 卡，在需要时直接使用蜂窝数据。访问 [https://www.1888.com.mo](https://www.1888.com.mo)。它提供约 10 GB 蜂窝数据，费用约 80 元人民币，体验快速无痛。
 
 * 中国电信澳门 SIM 卡有两种类型：红色和蓝色。红色卡提供每日套餐，通常每天 2、3 或 5 澳门元。蓝色卡提供数据套餐，例如 10GB 98 澳门元或 20GB 198 澳门元，无月租费。
 
-* 如果需要更多网络数据或经常使用笔记本电脑，考虑使用 [Falemon](https://falz.pics)。它每月仅 30 元人民币，提供约 15 个全球代理服务器访问。  
+* 如果需要更多网络数据或经常使用笔记本电脑，考虑使用 [Falemon](https://falz.pics)。它每月仅 30 元人民币，提供约 15 个全球代理服务器访问。
 
-* 在 iOS 上，使用 Shadowrocket 配合 Shadowsocks 规则：[https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)。配置全局路由，将中国流量与海外流量分离。  
+* 在 iOS 上，使用 Shadowrocket 配合 Shadowsocks 规则：[https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)。配置全局路由，将中国流量与海外流量分离。
 
-* 在 Android 上，使用 V2Ray。在 Fire TV 上，使用 V2Ray 应用。在 Apple TV 上，使用 Shadowrocket 应用。在 Mac 上，使用 ShadowsocksX-NG 或 ClashX 应用。  
+* 在 Android 上，使用 V2Ray。在 Fire TV 上，使用 V2Ray 应用。在 Apple TV 上，使用 Shadowrocket 应用。在 Mac 上，使用 ShadowsocksX-NG 或 ClashX 应用。
 
-* 不推荐自己搭建代理服务器。Shadowsocks、VMess 或 Trojan 等协议很容易被封禁，无论使用什么服务器。  
+* 不推荐自己搭建代理服务器。Shadowsocks、VMess 或 Trojan 等协议很容易被封禁，无论使用什么服务器。
 
-* 要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许公开切换。  
+* 要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许公开切换。
 
 * 使用 Visa 卡从 Amazon 购买礼品卡，或使用 Apple 礼品卡门户为 App Store 账户充值。
 
@@ -216,7 +216,7 @@ type: post
 
 *2025.01.03*
 
-智维： 
+智维：
 
 我和朋友外出烧烤，使用以新加坡服务器为基础的 Shadowsocks 代理绕过长城防火墙 (GFW)。在外使用 5G 时，无法连接，访问 YouTube 测试超时。然而，在家使用 4G 或中国电信家庭网络时，Shadowsocks 工作正常。为什么会这样？
 
@@ -264,7 +264,7 @@ Mistral:
 
 通过系统检查这些因素，你应该能找出连接问题的原因并找到合适解决方案。
 
--- 
+--
 
 更新：
 
@@ -292,7 +292,7 @@ Mistral:
 
 #### Apple Store 地区
 
-要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许自由切换。  
+要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许自由切换。
 
 你可以使用 Visa 卡从 Amazon 购买礼品卡，或使用 Apple 礼品卡门户为 App Store 账户充值。
 
@@ -306,6 +306,6 @@ Mistral:
 
 你可以查看 [Proxy Solutions in China](./proxy-en) 和 [Set Up Your Proxy Server](./diy-proxy-en)。
 
-#### 身份 
+#### 身份
 
 我有中国公民身份证和护照，在某些情况下有帮助。

@@ -12,7 +12,7 @@ type: note
 
 Question: Access port 如何处理带有 VLAN-tagged 的数据帧？
 
-Answer: 
+Answer:
 
 交换机上的 **access port** 旨在连接终端设备（如 PC、打印机、IP 电话），并且属于单个 VLAN（配置为 access VLAN）。它在该 VLAN 中以 **untagged** 模式运行。
 

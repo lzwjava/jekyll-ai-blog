@@ -42,18 +42,18 @@ These numbers reflect hyper-growth: from a Berlin startup to a unicorn in under 
 ### Why Now? The Bigger Picture
 n8n's success isn't accidental—it's the convergence of open-source ethos, AI tailwinds, and dev-friendly design in a market craving affordable, flexible automation. As businesses grapple with AI overload, n8n simplifies orchestration without lock-in. If you're technical, it's a no-brainer; for teams, it's a efficiency multiplier. Expect it to keep dominating as AI agents mature.
 
-References:  
-[Why n8n is Leading the AI Workflow Revolution](https://medium.com/@missionsdone/why-n8n-is-leading-the-ai-workflow-revolution-and-why-this-trend-wont-die-down-f413ad6b38dc)  
-[n8n Case Studies](https://n8n.io/case-studies/)  
-[What The Heck is n8n And Why Are AI Nerds Obsessed](https://www.christopherspenn.com/2025/04/almost-timely-news-%F0%9F%97%9E%EF%B8%8F-what-the-heck-is-n8n-and-why-are-ai-nerds-obsessed-with-it-2025-04-13/)  
-[The Good and Bad of n8n](https://www.altexsoft.com/blog/n8n-pros-and-cons/)  
-[n8n Review 2025](https://softailed.com/blog/n8n-review)  
-[n8n Raises $180M Series C](https://blog.n8n.io/series-c/)  
-[How n8n.io Hit $40M Revenue](https://getlatka.com/companies/n8nio)  
-[n8n Raises €55M](https://www.highlandeurope.com/n8n-raises-e55-million-from-highland-europe-to-transform-workflow-automation-for-technical-teams-by-unifying-ai-code-and-human-building-blocks/)  
-[n8n Valuation $2.5B](https://mlq.ai/news/n8n-raises-180m-series-c-reaches-25b-valuation-to-accelerate-ai-orchestration/)  
-[n8n Wikipedia](https://en.wikipedia.org/wiki/N8n)  
-[n8n Secures $180M](https://www.linkedin.com/posts/nicorosberg_europe-can-build-world-class-ai-one-of-activity-7383365884310110208-Gj60)  
-[n8n $180M Funding](https://vestbee.com/insights/articles/n8n-secures-180-m)  
-[Accel Leading Round for n8n](https://www.bloomberg.com/news/articles/2025-08-07/accel-leading-round-for-ai-startup-n8n-at-2-3-billion-valuation)  
+References:
+[Why n8n is Leading the AI Workflow Revolution](https://medium.com/@missionsdone/why-n8n-is-leading-the-ai-workflow-revolution-and-why-this-trend-wont-die-down-f413ad6b38dc)
+[n8n Case Studies](https://n8n.io/case-studies/)
+[What The Heck is n8n And Why Are AI Nerds Obsessed](https://www.christopherspenn.com/2025/04/almost-timely-news-%F0%9F%97%9E%EF%B8%8F-what-the-heck-is-n8n-and-why-are-ai-nerds-obsessed-with-it-2025-04-13/)
+[The Good and Bad of n8n](https://www.altexsoft.com/blog/n8n-pros-and-cons/)
+[n8n Review 2025](https://softailed.com/blog/n8n-review)
+[n8n Raises $180M Series C](https://blog.n8n.io/series-c/)
+[How n8n.io Hit $40M Revenue](https://getlatka.com/companies/n8nio)
+[n8n Raises €55M](https://www.highlandeurope.com/n8n-raises-e55-million-from-highland-europe-to-transform-workflow-automation-for-technical-teams-by-unifying-ai-code-and-human-building-blocks/)
+[n8n Valuation $2.5B](https://mlq.ai/news/n8n-raises-180m-series-c-reaches-25b-valuation-to-accelerate-ai-orchestration/)
+[n8n Wikipedia](https://en.wikipedia.org/wiki/N8n)
+[n8n Secures $180M](https://www.linkedin.com/posts/nicorosberg_europe-can-build-world-class-ai-one-of-activity-7383365884310110208-Gj60)
+[n8n $180M Funding](https://vestbee.com/insights/articles/n8n-secures-180-m)
+[Accel Leading Round for n8n](https://www.bloomberg.com/news/articles/2025-08-07/accel-leading-round-for-ai-startup-n8n-at-2-3-billion-valuation)
 [n8n.io Homepage](https://n8n.io/)

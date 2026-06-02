@@ -15,7 +15,7 @@ Wi-Fi 7, officially known as IEEE 802.11be (Extreme High Throughput or EHT), is 
 
 ### Key New Features
 - **Multi-Link Operation (MLO)**: A flagship innovation allowing devices to connect across multiple frequency bands (e.g., 2.4, 5, and 6 GHz) simultaneously for a single session. This aggregates bandwidth for higher throughput, cuts latency by up to 4x compared to Wi-Fi 6, and improves reliability by dynamically avoiding interference or congestion. Unlike single-band operation in prior standards, MLO enables seamless handoffs in mesh networks and boosts stability for real-time apps.
-  
+
 - **Wider Channel Bandwidth (320 MHz)**: Doubles the 160 MHz max from Wi-Fi 6/6E, primarily in the 6 GHz band, allowing more data to flow at once—like adding extra lanes to a highway. This supports up to 5x greater network capacity and is key to the overall speed boost.
 
 - **4096-QAM Modulation (4K-QAM)**: Encodes 12 bits per symbol (vs. 10 bits in Wi-Fi 6's 1024-QAM or 8 bits in Wi-Fi 5's 256-QAM), squeezing 20% more data into each transmission. It requires cleaner signals, so it's most effective in low-interference setups, enhancing efficiency for high-bandwidth tasks.

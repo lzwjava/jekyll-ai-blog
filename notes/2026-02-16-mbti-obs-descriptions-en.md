@@ -11,7 +11,7 @@ type: note
 
 Question: Even though MBTI personality types might be nonsense, by assigning people to these types, observers can identify specific aspects of their personality and detailed behavior descriptions, right? How did they create such detailed descriptions for each type?
 
-Answer: 
+Answer:
 
 Yes, that's a fair point—even if the **MBTI** system lacks strong scientific support as a rigorous psychological model (it's often criticized for poor reliability, binary categories, and limited predictive power), it does provide a framework that groups people into categories. Once someone is typed (or self-identifies), the detailed profiles allow quick pattern-matching to observed behaviors, strengths, weaknesses, communication styles, etc. This can feel useful for shorthand understanding, team-building, or self-reflection, regardless of the system's validity.
 
@@ -34,7 +34,7 @@ In short, the rich, narrative descriptions aren't purely from large-scale empiri
 
 Later publishers (like CPP/The Myers-Briggs Company) and sites (e.g., 16personalities.com) have expanded or rephrased these, often making them more engaging or positive, but the foundational detailed portraits trace back to Myers' synthesis of theory and observation.
 
-References:  
+References:
 
 - [Myers–Briggs Type Indicator - Wikipedia](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)
 - [The history of the MBTI® assessment - The Myers-Briggs Company](https://eu.themyersbriggs.com/en/tools/MBTI/Myers-Briggs-history)

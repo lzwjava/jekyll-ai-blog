@@ -13,16 +13,16 @@ type: note
 
 三种跳过审批的方式，从最简单到最持久：
 
-1. **`/yolo` 斜杠命令**（最简单，按会话生效）  
+1. **`/yolo` 斜杠命令**（最简单，按会话生效）
    在 hermes 会话内直接输入 `/yolo`，即可切换 YOLO 模式的开启/关闭。所有危险命令在该会话中都会被自动批准。该设置不会持久化到配置中——重启 hermes 后即重置。
 
-2. **`HERMES_YOLO_MODE=1` 环境变量**（按进程生效，无需编辑配置文件）  
+2. **`HERMES_YOLO_MODE=1` 环境变量**（按进程生效，无需编辑配置文件）
    ```bash
    HERMES_YOLO_MODE=1 hermes
    ```
    在模块导入时即被固定（`tools/approval.py` 第 29 行）——即使通过提示注入也无法在会话中途更改。适合“在此 shell 中始终跳过”的场景。
 
-3. **编辑 `~/.hermes/config.yaml`**（持久化，适用于所有会话）  
+3. **编辑 `~/.hermes/config.yaml`**（持久化，适用于所有会话）
    ```yaml
    approvals:
      mode: off

@@ -12,7 +12,7 @@ type: note
 
 Question: Who is Priyanka Vergadia, the Google Cloud developer advocate?
 
-Answer: 
+Answer:
 
 **Priyanka Vergadia** 是 Cloud Computing 和 Developer Relations (DevRel) 领域的知名人物。她最广为人知的身份是 **Google Cloud** 的 **Staff Developer Advocate**，致力于帮助开发者和企业理解、采用并基于 Google Cloud Platform (GCP) 服务进行构建。
 
@@ -31,7 +31,7 @@ Answer:
 
 她在社交平台（特别是 X/Twitter @pvergadia、LinkedIn、YouTube "The Cloud Girl" 以及她的个人网站 thecloudgirl.dev）上非常活跃，分享 Cloud 见解、职业建议和视觉解释。
 
-References:  
+References:
 - [Google Cloud Blog - Meet Priyanka Vergadia](https://cloud.google.com/blog/topics/inside-google-cloud/meet-people-google-cloud-priyanka-vergadia)
 - [Her book on Amazon](https://www.amazon.com/Visualizing-Google-Cloud-Illustrated-References/dp/1119816327)
 - [GCPSketchnote GitHub repository](https://github.com/priyankavergadia/GCPSketchnote)

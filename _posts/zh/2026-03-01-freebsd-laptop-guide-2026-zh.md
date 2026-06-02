@@ -32,8 +32,8 @@ FreeBSD 在许多 ThinkPads、一些 Dell Latitudes/Precisions 和 Framework 笔
 
 ### 分步安装
 
-1. **下载正确的镜像**  
-   前往 → https://www.freebsd.org/where/  
+1. **下载正确的镜像**
+   前往 → https://www.freebsd.org/where/
    2026 年笔记本电脑的推荐选择：
 
    - **memstick.img**（最常见）→ 写入 ≥8 GB USB
@@ -42,18 +42,18 @@ FreeBSD 在许多 ThinkPads、一些 Dell Latitudes/Precisions 和 Framework 笔
 
    同时下载 **CHECKSUM.SHA256** 文件并验证。
 
-2. **创建可引导 USB**  
+2. **创建可引导 USB**
    - **Linux / FreeBSD / macOS**：`dd if=FreeBSD-*.img of=/dev/sdX bs=1M status=progress`
    - **Windows**：使用 Rufus（DD Image 模式）或 balenaEtcher
 
-3. **准备笔记本电脑 BIOS/UEFI**  
+3. **准备笔记本电脑 BIOS/UEFI**
    - 进入 BIOS（通常是 F2、Del、F12、Esc）
    - **禁用** Secure Boot
    - 设置 **UEFI** 模式（在 2025 年后几乎总是更好）
    - 将 USB 设置为首选启动设备，或使用一次性启动菜单（F12 / F11 / Esc）
 
-4. **启动安装程序**  
-   插入 USB → 重启 → 从启动菜单选择 USB  
+4. **启动安装程序**
+   插入 USB → 重启 → 从启动菜单选择 USB
    您应该看到 FreeBSD loader → 按 Enter（或等待）→ 选择 **Install**
 
 5. **跟随 bsdinstall 菜单**（基于文本的安装程序）
@@ -72,7 +72,7 @@ FreeBSD 在许多 ThinkPads、一些 Dell Latitudes/Precisions 和 Framework 笔
    | System Configuration     | 如果需要远程访问，则启用 **sshd**                   |      |
    | Final Configuration      | 通常对所有默认值选择 **Yes**                        |      |
 
-6. **完成并重启**  
+6. **完成并重启**
    在提示时移除 USB → 系统应启动到 FreeBSD 控制台（黑色屏幕带文本登录）
 
 ### 首次启动后 – 使笔记本电脑可用
@@ -156,7 +156,7 @@ FreeBSD 在许多 ThinkPads、一些 Dell Latitudes/Precisions 和 Framework 笔
 
 祝好运！
 
-参考资料：  
+参考资料：
 
 - [FreeBSD Handbook – Installing FreeBSD](https://docs.freebsd.org/en/books/handbook/bsdinstall)
 - [FreeBSD download page](https://www.freebsd.org/where)

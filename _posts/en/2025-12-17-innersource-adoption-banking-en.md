@@ -12,7 +12,7 @@ type: note
 
 Question: What are some examples of inner sourcing (innersource) practices or adoption in banks and financial institutions?
 
-Answer: 
+Answer:
 
 Inner sourcing (also called innersource) involves applying open-source development principles—such as collaborative contributions, transparency, code sharing, and community-driven improvements—internally within an organization to break down silos, improve code reuse, and accelerate innovation.
 
@@ -32,12 +32,12 @@ Additionally, organizations like the **FINOS (Fintech Open Source Foundation)** 
 
 These examples show innersource gaining traction in banking to foster collaboration while maintaining compliance and security.
 
-References:  
+References:
 
-- https://www.capitalone.com/tech/open-source/innersourcing-enterprise-applications/  
-- https://www.capitalone.com/tech/open-source/innersource-singular-software-delivery-pipeline/  
-- https://www.finextra.com/newsarticle/44113/lloyds-collaborates-with-red-hat-on-innersource-engineering-programme  
-- https://www.infoworld.com/article/2270568/inner-source-in-the-enterprise-gains-momentum.html  
-- https://www.devopsdigest.com/discover-technology-inner-source  
-- https://osr.finos.org/docs/innersource/introduction  
+- https://www.capitalone.com/tech/open-source/innersourcing-enterprise-applications/
+- https://www.capitalone.com/tech/open-source/innersource-singular-software-delivery-pipeline/
+- https://www.finextra.com/newsarticle/44113/lloyds-collaborates-with-red-hat-on-innersource-engineering-programme
+- https://www.infoworld.com/article/2270568/inner-source-in-the-enterprise-gains-momentum.html
+- https://www.devopsdigest.com/discover-technology-inner-source
+- https://osr.finos.org/docs/innersource/introduction
 - https://bitergia.com/blog/innersource/innersource-for-financial-services-a-way-to-improve-digital-transformation/

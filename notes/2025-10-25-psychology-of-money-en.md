@@ -58,5 +58,5 @@ Housel distills his insights into these practical, psychology-driven lessons:
 
 These lessons emphasize timeless principles over get-rich-quick schemes, encouraging readers to prioritize emotional resilience and personal fit in their financial lives.
 
-[Summary and Notes on The Psychology of Money](https://calvinrosser.com/notes/psychology-of-money-morgan-housel/)  
+[Summary and Notes on The Psychology of Money](https://calvinrosser.com/notes/psychology-of-money-morgan-housel/)
 [You Exec Book Summary](https://youexec.com/book-summaries/psychology-of-money)

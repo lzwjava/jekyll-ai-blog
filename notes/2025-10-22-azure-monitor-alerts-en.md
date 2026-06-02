@@ -103,7 +103,7 @@ Once created, the alert will fire when conditions are met, sending notifications
 
 For log alerts or other types, the process is analogous—replace the condition with a query.
 
-[Overview of Azure Monitor alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)  
-[Create metric alert rule](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)  
-[Create log alert rule](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-log-alert-rule)  
+[Overview of Azure Monitor alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)
+[Create metric alert rule](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
+[Create log alert rule](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-log-alert-rule)
 [Azure Monitor pricing](https://azure.microsoft.com/en-us/pricing/details/monitor/)

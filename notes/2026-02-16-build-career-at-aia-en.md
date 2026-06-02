@@ -11,7 +11,7 @@ type: note
 
 **Question:** Introduction to AIA careers, and how to apply for a job there using Workday.
 
-**Answer:** 
+**Answer:**
 
 AIA refers to **AIA Group Limited**, one of the largest listed life insurance groups in Asia (headquartered in Hong Kong). It operates in 18 markets across the Asia-Pacific region and focuses on life insurance, health, and wellness solutions. AIA's mission emphasizes helping people live **Healthier, Longer, Better Lives**, and its careers reflect a commitment to creating positive impact, innovation, and sustainability.
 
@@ -49,7 +49,7 @@ AIA uses **Workday** as its primary recruitment platform for corporate positions
 
 Note: If you're interested in the American Institute of Architects (AIA), that's a different organization with its own career site — but based on the query context ("AIA careers" and "Workday"), this refers to AIA Group the insurer.
 
-**References:**  
+**References:**
 
 - [AIA Group Careers Overview](https://www.aia.com/en/careers/overview)
 - [AIA Workday Jobs Portal](https://aia.wd3.myworkdayjobs.com/External)

@@ -21,6 +21,6 @@ Unlike HSBC HK, which explicitly restricts Payment Connect to Hong Kong resident
 
 If you're a Mainland citizen without a BOCHK account yet, opening one is possible with valid ID (e.g., Mainland ID/passport), though some services may require HK address proof—contact a branch for details.
 
-[BOCHK Payment Connect Press Release](https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/250620026_Press_Release_EN.pdf)  
-[HKMA Payment Connect Overview](https://www.hkma.gov.hk/eng/smart-consumers/payment-connect/)  
+[BOCHK Payment Connect Press Release](https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/250620026_Press_Release_EN.pdf)
+[HKMA Payment Connect Overview](https://www.hkma.gov.hk/eng/smart-consumers/payment-connect/)
 [HSBC FPS FAQ (Restrictions)](https://www.hsbc.com.hk/campaigns/fps/faq/)

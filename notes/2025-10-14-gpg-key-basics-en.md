@@ -109,6 +109,6 @@ Reasons for revocation: compromised, no longer used, superseded. Always publish 
 
 For hands-on, experiment in a test directory with `gpg --homedir ./test-gpg`.
 
-[GnuPG Handbook: Key Management](https://www.gnupg.org/gph/en/manual/c235.html)  
-[GNU Privacy Guard Manual: OpenPGP Key Management](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)  
+[GnuPG Handbook: Key Management](https://www.gnupg.org/gph/en/manual/c235.html)
+[GNU Privacy Guard Manual: OpenPGP Key Management](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)
 [GnuPG Getting Started](https://www.gnupg.org/gph/en/manual/c14.html)

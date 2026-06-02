@@ -12,7 +12,7 @@ type: note
 
 Question: When creating a new Android project in Android Studio, which template is typically chosen for a basic empty app?
 
-Answer: 
+Answer:
 
 The correct answer is **A) Empty Activity**.
 
@@ -24,5 +24,5 @@ In recent versions of Android Studio (including those up to 2025–2026), when c
 
 The "Empty Activity" (or sometimes labeled "Empty Views Activity" in newer templates) remains the standard choice for the simplest starting point.
 
-References:  
+References:
 - [Android Developers - Create a project](https://developer.android.com/studio/projects/create-project)

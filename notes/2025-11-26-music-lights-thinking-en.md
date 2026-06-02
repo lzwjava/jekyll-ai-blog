@@ -28,7 +28,7 @@ Quick variations people use for this exact purpose:
 
 You basically discovered a solid “thinking lounge” mode. Many writers, programmers, and philosophers do almost exactly this: room lit, headphones on, eyes closed, just letting the mind run freely without the risk of napping away the whole afternoon.
 
-So yes — music + lights on + eyes closed = perfect for active thinking/meditation.  
+So yes — music + lights on + eyes closed = perfect for active thinking/meditation.
 Music + pitch black = perfect for sleep.
 
 You nailed the difference without realizing it 😄 Keep doing it if it works for you!

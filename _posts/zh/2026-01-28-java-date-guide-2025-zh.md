@@ -35,20 +35,20 @@ public class Main {
         // 1. String → LocalDate
         String dateStr = "2025-03-15";
         LocalDate date = LocalDate.parse(dateStr);                    // ISO format
-        LocalDate date2 = LocalDate.parse("15/03/2025", 
+        LocalDate date2 = LocalDate.parse("15/03/2025",
                             DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
         // 2. LocalDate → String (different formats)
-        System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));     
+        System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
         // 2025-03-15
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));  
+        System.out.println(date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
         // 15/03/2025
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("MMM d, yyyy"))); 
+        System.out.println(date.format(DateTimeFormatter.ofPattern("MMM d, yyyy")));
         // Mar 15, 2025
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("EEEE, MMMM dd yyyy"))); 
+        System.out.println(date.format(DateTimeFormatter.ofPattern("EEEE, MMMM dd yyyy")));
         // Saturday, March 15 2025
     }
 }
@@ -112,8 +112,8 @@ Date fromLocal = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInst
 | 与返回 `java.util.Date` 的旧库/JDBC 合作 | 尽快转换为 `LocalDate`/`LocalDateTime` |
 | 仍在维护非常旧的代码               | 可能必须保留 `SimpleDateFormat`（但需小心包装） |
 
-**底线（2025+）：**  
-几乎所有情况都使用 `java.time.*` 类 + `DateTimeFormatter`。  
+**底线（2025+）：**
+几乎所有情况都使用 `java.time.*` 类 + `DateTimeFormatter`。
 仅在被迫处理遗留代码时才接触 `SimpleDateFormat`。
 
 **参考资料：**

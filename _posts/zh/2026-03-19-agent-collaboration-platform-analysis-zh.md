@@ -75,16 +75,16 @@ AI agent 生态系统在 2025–2026 年爆发式增长。Gartner 预测 **40% �
 这些可以通过开源社区帮助和清晰的“GitLab for Agents”品牌解决。
 
 ### 最终 verdict
-**极其有用** — 尤其在 2026 年当下。  
-agent 热潮正是这个项目针对的碎片化。自托管 + 隐私 + heterogeneous 支持 + 简单插件模型，使其在协议-only 标准（A2A）和框架-only 工具（CrewAI）上具有独特优势。  
+**极其有用** — 尤其在 2026 年当下。
+agent 热潮正是这个项目针对的碎片化。自托管 + 隐私 + heterogeneous 支持 + 简单插件模型，使其在协议-only 标准（A2A）和框架-only 工具（CrewAI）上具有独特优势。
 
-如果执行良好（solid MVP、好文档、前 2–3 个插件），它有强大潜力成为多 agent 系统的基础开源工具 — 类似于自托管 GitLab 如何填补 devops 的关键差距。  
+如果执行良好（solid MVP、好文档、前 2–3 个插件），它有强大潜力成为多 agent 系统的基础开源工具 — 类似于自托管 GitLab 如何填补 devops 的关键差距。
 
 对于厌倦 siloed Agents 和云依赖的个人、团队或企业，**这个项目是明显的胜利**。强烈推荐推进。
 
-**参考文献：**  
-- [Gartner 预测到 2026 年 40% 的企业应用将包含任务特定 AI agents（2025 年不到 5%）](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)  
-- [A2A Protocol (Google) – 互操作性标准](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)  
-- [AWS A2A Agent Registry on GitHub](https://github.com/awslabs/a2a-agent-registry-on-aws)  
-- [2026 年顶级开源多 agent 框架](https://aimultiple.com/open-source-ai-agents)  
+**参考文献：**
+- [Gartner 预测到 2026 年 40% 的企业应用将包含任务特定 AI agents（2025 年不到 5%）](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)
+- [A2A Protocol (Google) – 互操作性标准](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)
+- [AWS A2A Agent Registry on GitHub](https://github.com/awslabs/a2a-agent-registry-on-aws)
+- [2026 年顶级开源多 agent 框架](https://aimultiple.com/open-source-ai-agents)
 - [2026 年 AI Agent 协议指南 (MCP + A2A)](https://getstream.io/blog/ai-agent-protocols/)

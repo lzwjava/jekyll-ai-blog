@@ -18,18 +18,18 @@ OpenClaw 是一个开源的、本地优先的个人 AI agent 框架（本身不�
 截至 2026 年 3 月，以下是基于社区使用、docs、Reddit/Discord 反馈以及实际 tier lists 的最推荐和备受推崇的 OpenClaw 模型：
 
 ### 顶级层级 (S/A — 最适合严肃 agent 工作的可靠模型)
-- **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)  
-  仍然被广泛认为是 OpenClaw 的黄金标准。极度一致的 JSON/tool calling，在多步骤推理方面出色，能够很好地从部分失败中恢复，并且在不丢失跟踪的情况下处理长上下文。  
-  - 大多数用户的最佳默认选择（日常任务、coding、research）。  
+- **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)
+  仍然被广泛认为是 OpenClaw 的黄金标准。极度一致的 JSON/tool calling，在多步骤推理方面出色，能够很好地从部分失败中恢复，并且在不丢失跟踪的情况下处理长上下文。
+  - 大多数用户的最佳默认选择（日常任务、coding、research）。
   - 对于成本/推理平衡，从 Sonnet 开始；对于复杂生产代码或深度任务，使用 Opus。
 
-- **Moonshot Kimi series** (Kimi K2.5, Kimi K2 Thinking)  
+- **Moonshot Kimi series** (Kimi K2.5, Kimi K2 Thinking)
   非常受欢迎（尤其在中国），推理能力强、多模态、支持 sub-agent，并且性价比高。在 agentic workflows 中经常位居社区投票榜首。
 
-- **MiniMax models** (M2.5, MiMo-V2-Flash)  
+- **MiniMax models** (M2.5, MiMo-V2-Flash)
   快速、高效用于 coding/productivity，优秀的本地/offline 性能（via LM Studio），低成本。通常用于 heartbeats/后台任务或完整的本地栈。
 
-- **DeepSeek family** (DeepSeek V3.2, DeepSeek R1, DeepSeek-Coder)  
+- **DeepSeek family** (DeepSeek V3.2, DeepSeek R1, DeepSeek-Coder)
   出色的性价比，强大的 coding/math，可靠的工具使用在 agent loops 中。经常被推荐用于预算有限或高容量使用。
 
 ### 强大的本地 / 自托管选项 (via Ollama, LM Studio, llama.cpp)
@@ -51,7 +51,7 @@ OpenClaw 是一个开源的、本地优先的个人 AI agent 框架（本身不�
 
 OpenClaw 原生支持 model routing/failover——许多用户设置强大的主模型（例如 Claude）+ 廉价 fallback（例如 MiniMax 或 DeepSeek）来优化成本和 uptime。请查看 OpenClaw docs 以获取确切的 provider/model strings 和 auth 设置。
 
-**参考资料：**  
+**参考资料：**
 
 - [OpenClaw official docs - Models](https://docs.openclaw.ai/concepts/models)
 - [OpenClaw GitHub repository](https://github.com/openclaw/openclaw)

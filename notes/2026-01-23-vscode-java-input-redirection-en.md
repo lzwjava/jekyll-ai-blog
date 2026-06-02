@@ -34,7 +34,7 @@ In VS Code's `launch.json` for Java, there are several correct ways to redirect 
 }
 ```
 
-**Note:** Use **double quotes** around the path if it contains spaces.  
+**Note:** Use **double quotes** around the path if it contains spaces.
 This is the most widely used method in competitive programming communities.
 
 ### Method 2 – Using `redirector` (old style – still works in many setups)
@@ -51,7 +51,7 @@ This is the most widely used method in competitive programming communities.
 }
 ```
 
-**Important:**  
+**Important:**
 This format only works if your Java extension supports the `redirector` attribute (older versions did, newer ones sometimes ignore it or require different syntax).
 
 ### Method 3 – Cleanest & most reliable in recent VS Code + Java Extension (2024–2026)

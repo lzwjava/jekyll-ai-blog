@@ -19,9 +19,9 @@ type: note
 ### Basic Syntax
 
 ```sql
-SELECT 
-    function_name(column) 
-FROM table 
+SELECT
+    function_name(column)
+FROM table
 [WHERE ...]
 [GROUP BY ...]
 [HAVING ...]
@@ -48,7 +48,7 @@ FROM table
 
 ```sql
 -- 1. 简单的总和与平均值
-SELECT 
+SELECT
     SUM(salary)          AS total_salary,
     AVG(salary)          AS avg_salary,
     ROUND(AVG(salary), 2) AS avg_salary_rounded,
@@ -58,7 +58,7 @@ FROM employees;
 
 
 -- 2. 按部门分组 (Group by)
-SELECT 
+SELECT
     dept_id,
     dept_name,
     COUNT(*)               AS headcount,
@@ -72,7 +72,7 @@ ORDER BY avg_salary DESC;
 
 
 -- 3. 统计分布 (方差与标准差)
-SELECT 
+SELECT
     department,
     AVG(salary)            AS mean_salary,
     STDDEV(salary)         AS stddev_salary,
@@ -85,7 +85,7 @@ ORDER BY stddev_salary DESC;
 
 
 -- 4. 结合过滤与四舍五入
-SELECT 
+SELECT
     product_category,
     ROUND(SUM(sales_amount), 2)          AS total_sales,
     ROUND(AVG(sales_amount), 2)          AS avg_sale_per_order,
@@ -98,7 +98,7 @@ ORDER BY total_sales DESC;
 
 
 -- 5. 组合多个具有不同精度的聚合
-SELECT 
+SELECT
     region,
     COUNT(DISTINCT customer_id)     AS unique_customers,
     SUM(order_total)                AS total_revenue,
@@ -115,7 +115,7 @@ GROUP BY region;
 - `COUNT(*)` 会计算所有行（包括 NULL）
 - 在使用 `AVG`、`STDDEV` 等函数时，使用 `DECIMAL`、`DOUBLE`、`DECFLOAT` 或 `REAL` 类型可以获得更好的精度
 - `ROUND(AVG(salary), 2)` 是非常常用的组合操作
-- 为了在大表上获得更好的性能，建议在 `GROUP BY` 的列上创建适当的 indexes 
+- 为了在大表上获得更好的性能，建议在 `GROUP BY` 的列上创建适当的 indexes
 
 您目前尝试在查询中使用哪种模式？
 

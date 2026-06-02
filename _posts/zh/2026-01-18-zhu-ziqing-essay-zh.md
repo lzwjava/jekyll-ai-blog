@@ -29,7 +29,7 @@ type: note
 ### 主要内容与核心思想
 这篇散文围绕著名的儒家格言展开：
 
-> 君子之交淡如水  
+> 君子之交淡如水
 > The friendship of superior men is plain / insipid like water.
 
 朱自清以这句古语为核心论点，对真正友谊的本质进行了温和且内省的冥想。

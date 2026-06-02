@@ -213,9 +213,9 @@ Thus, the polar coordinate form of the current is:
 
 ---
 
-In logic circuits and digital design, a **minterm** (also called a **standard product term** or **product term**) is a logical function that outputs **1** for one specific combination of input variable values and **0** for all other combinations. 
+In logic circuits and digital design, a **minterm** (also called a **standard product term** or **product term**) is a logical function that outputs **1** for one specific combination of input variable values and **0** for all other combinations.
 
-For example, consider a function with three input variables: A, B, and C. A minterm corresponds to a unique combination of these variables, such as ABC (where A=1, B=1, C=1), and is typically represented as a product (AND) of the variables or their complements. For instance, the minterm for A=1, B=0, C=1 is written as A·B'·C, where B' denotes the complement of B. 
+For example, consider a function with three input variables: A, B, and C. A minterm corresponds to a unique combination of these variables, such as ABC (where A=1, B=1, C=1), and is typically represented as a product (AND) of the variables or their complements. For instance, the minterm for A=1, B=0, C=1 is written as A·B'·C, where B' denotes the complement of B.
 
 Each minterm is true (1) only for its specific input combination and false (0) for all others, making minterms fundamental in constructing truth tables and designing logic circuits, such as in **sum-of-products** expressions.
 

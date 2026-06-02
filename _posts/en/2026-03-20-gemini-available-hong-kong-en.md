@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-Yes, as of March 2026, Google has started rolling out Gemini (the AI chatbot and web app) to all users in Hong Kong. 
+Yes, as of March 2026, Google has started rolling out Gemini (the AI chatbot and web app) to all users in Hong Kong.
 
 - This is a gradual rollout that began around mid-March 2026.
 - It starts with the Gemini web app (accessible at gemini.google.com), allowing general public access without needing a VPN or workarounds like before.

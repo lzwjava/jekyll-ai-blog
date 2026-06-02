@@ -16,7 +16,7 @@ BitNet LLM refers to a family of innovative large language models (LLMs) develop
 
 #### Key Features and Architecture
 - **1-Bit (Ternary) Weights**: The core innovation is the BitLinear layer, which replaces traditional linear layers in Transformer architectures. Weights are natively trained to these low-bit values, avoiding the performance degradation often seen in post-training quantization.
-- **Efficiency Gains**: 
+- **Efficiency Gains**:
   - Memory footprint: A 2B-parameter model uses ~400MB, compared to ~4GB for similar full-precision models.
   - Speed: Up to 6x faster inference on CPUs, with energy savings of 70-80%.
   - Latency and Throughput: Ideal for edge devices, enabling a 100B-parameter model to run at 5-7 tokens/second on a single CPU.

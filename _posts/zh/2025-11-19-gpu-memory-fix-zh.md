@@ -30,7 +30,7 @@ type: note
 
 你的有效批次大小是：
 
-有效批次大小 = batch_size × gradient_accumulation_steps  
+有效批次大小 = batch_size × gradient_accumulation_steps
 = 16 × 32 = 512条序列
 
 这个512才是影响梯度质量/噪声的关键。微批次大小（16）主要影响VRAM和速度。
@@ -68,7 +68,7 @@ torch.set_float32_matmul_precision('medium')  # 如果设置了此项，可移�
 ```
 
 ### 总结
-是的——将batch_size改为8，gradient_accumulation_steps改为64。  
+是的——将batch_size改为8，gradient_accumulation_steps改为64。
 这样能保持相同的有效批次大小（512），相同的模型质量，相同的标记处理量，但VRAM消耗会降至适合12GB显存的水平。
 
 调整后问题就能解决。祝你训练顺利！

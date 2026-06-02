@@ -11,7 +11,7 @@ type: note
 
 Question: Jensen Huang 买了哪本书，告诉他的团队从那本书中学习来构建 GPU？他们失败了，不得不重新开始。
 
-Answer: 
+Answer:
 
 Jensen Huang 购买并指示他的团队学习的书是 **OpenGL programming guide**（通常被称为“OpenGL red book”或“OpenGL textbook”），作者是 Jackie Neider、Tom Davis 和 Mason Woo，后续版本有 Mark Kilgard 等人的贡献。
 
@@ -23,7 +23,7 @@ Huang 在采访中讲述了这个故事（例如在 Stanford GSB），将该书�
 
 这与 NVIDIA 的早期挣扎一致：像 NV1 这样的初始芯片在市场上失败，需要团队转向、重新聚焦，并从更小的基础重新构建。
 
-参考文献：  
+参考文献：
 
 - [Jensen Huang on How to Use First-Principles Thinking to Drive Decisions (Stanford GSB)](https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions)
 - 像“The Nvidia Way”和“The Thinking Machine”这样的书籍中各种 NVIDIA 历史记载（描述了早期的失败和转向，尽管具体的书籍引用出现在 Huang 的直接回忆中）

@@ -26,7 +26,7 @@ CREATE TABLE child_table (
     foreign_key_column datatype,
     -- 其他列...
     CONSTRAINT constraint_name
-    FOREIGN KEY (foreign_key_column) 
+    FOREIGN KEY (foreign_key_column)
     REFERENCES parent_table (parent_key_column)
 );
 ```
@@ -46,8 +46,8 @@ CREATE TABLE employees (
     emp_id INTEGER NOT NULL PRIMARY KEY,
     emp_name VARCHAR(100),
     dept_id INTEGER,
-    CONSTRAINT fk_emp_dept 
-    FOREIGN KEY (dept_id) 
+    CONSTRAINT fk_emp_dept
+    FOREIGN KEY (dept_id)
     REFERENCES departments (dept_id)
 );
 ```
@@ -59,18 +59,18 @@ CREATE TABLE employees (
 
 **基本语法：**
 ```
-ALTER TABLE child_table 
-ADD CONSTRAINT constraint_name 
-FOREIGN KEY (foreign_key_column) 
+ALTER TABLE child_table
+ADD CONSTRAINT constraint_name
+FOREIGN KEY (foreign_key_column)
 REFERENCES parent_table (parent_key_column);
 ```
 
 **示例：**
 要向现有的 `employees` 表添加相同的外键：
 ```
-ALTER TABLE employees 
-ADD CONSTRAINT fk_emp_dept 
-FOREIGN KEY (dept_id) 
+ALTER TABLE employees
+ADD CONSTRAINT fk_emp_dept
+FOREIGN KEY (dept_id)
 REFERENCES departments (dept_id);
 ```
 
@@ -83,9 +83,9 @@ REFERENCES departments (dept_id);
 
 **带选项的示例：**
 ```
-ALTER TABLE employees 
-ADD CONSTRAINT fk_emp_dept 
-FOREIGN KEY (dept_id) 
+ALTER TABLE employees
+ADD CONSTRAINT fk_emp_dept
+FOREIGN KEY (dept_id)
 REFERENCES departments (dept_id)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;

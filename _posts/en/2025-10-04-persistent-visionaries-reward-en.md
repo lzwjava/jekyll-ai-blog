@@ -20,6 +20,6 @@ And academia? Spot on with NeurIPS (née NIPS). Their Test of Time Award honors 
 
 It's a reminder: In a world of noise, truth (or at least usefulness) has asymmetric upside. The few who insist? They're not crazy; they're early. What's one "unpopular truth" you're betting on right now?
 
-[Python's Rise: From Hobby to Hegemony](https://realpython.com/python-history/)  
-[Nvidia's Underdog Journey](https://www.forbes.com/sites/moorinsights/2023/05/25/nvidias-underdog-story-how-a-gaming-chip-maker-became-an-ai-powerhouse/)  
+[Python's Rise: From Hobby to Hegemony](https://realpython.com/python-history/)
+[Nvidia's Underdog Journey](https://www.forbes.com/sites/moorinsights/2023/05/25/nvidias-underdog-story-how-a-gaming-chip-maker-became-an-ai-powerhouse/)
 [NeurIPS Test of Time Awards](https://neurips.cc/Conferences/2023/TestOfTimeAward)

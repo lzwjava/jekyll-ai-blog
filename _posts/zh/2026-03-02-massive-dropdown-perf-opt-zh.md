@@ -11,7 +11,7 @@ type: note
 
 问题：如何改进在 ngb-modal 中加载和显示 100k+ 可能值以选择一个值（如 SWIFT code 或 branch code）的速度，目前加载所有记录需要 6 分钟，并且过滤是纯前端过滤？
 
-回答： 
+回答：
 
 在浏览器中一次性加载 100,000+ 项并渲染它们（即使是在简单的 `<select>` 或 ngb-modal 中的自定义下拉菜单）几乎总是一个坏主意。现代浏览器在创建数万个 DOM 元素时会遇到困难——这会导致漫长的渲染时间、高内存使用和迟钝的行为（你的 6 分钟情况极端但并不令人惊讶）。
 
@@ -19,7 +19,7 @@ type: note
 
 ### 推荐方法（按优先级排序）
 
-1. **服务器端过滤 + typeahead / 边输入边搜索（最佳长期解决方案）**  
+1. **服务器端过滤 + typeahead / 边输入边搜索（最佳长期解决方案）**
    - 完全移除“加载全部”的概念。
    - 使用可搜索的下拉菜单（例如 **ng-select**、**mat-autocomplete** 或自定义输入 + 下拉菜单）。
    - 当用户输入 2–4 个字符时 → 发送 API 请求并携带搜索词。
@@ -29,7 +29,7 @@ type: note
 
    → 这几乎是每个现代银行/金融科技应用处理 SWIFT codes、IBANs、分支列表、机场代码等的做法。
 
-2. **虚拟滚动下拉菜单（如果你真的想允许浏览完整列表，这是个好选择）**  
+2. **虚拟滚动下拉菜单（如果你真的想允许浏览完整列表，这是个好选择）**
    使用支持 **virtual scrolling** 的下拉组件，这样任何时候 DOM 中仅渲染 ~10–50 项——即使列表有 100k+ 项。
 
    Angular 中的流行选项（2025–2026 时代）：
@@ -59,7 +59,7 @@ type: note
 
    → 虚拟滚动 + 分页通常是需要完整浏览时的最佳平衡点。
 
-3. **仅在明确请求时延迟加载完整列表（“加载全部”按钮）**  
+3. **仅在明确请求时延迟加载完整列表（“加载全部”按钮）**
    你当前的思路作为后备方案合理，但可以改进：
 
    - 默认状态：显示搜索输入 + 消息“输入以搜索”（未加载列表）
@@ -69,7 +69,7 @@ type: note
 
    如果搜索效果好，许多用户永远不会点击它。
 
-4. **混合方案（非常务实的折中）**  
+4. **混合方案（非常务实的折中）**
    - 模态框打开时 → 加载前 1,000–2,000 个最常见/最近/字母序前面的项
    - 显示搜索框，可即时过滤已加载项（快速）
    - 在底部显示“显示更多…”或“加载完整列表 (慢)”按钮
@@ -92,7 +92,7 @@ type: note
 
 大多数金融应用为 SWIFT / branch / BIC codes 等字段选择选项 1，因为用户几乎总是知道他们想要的（部分）代码。
 
-参考资料：  
+参考资料：
 
 - [Improving Angular Material Select and Autocomplete for 100k+ data with virtual scroll](https://medium.com/h7w/optimizing-angular-material-select-and-autocomplete-for-huge-dataset-70ff161d6797)
 - [ng-select virtual scrolling documentation and large dataset handling](https://github.com/ng-select/ng-select)

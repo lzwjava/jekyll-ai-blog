@@ -21,13 +21,13 @@ type: note
    - **目标？** 并非"获取所有用户"，而是"精准营销的邮件列表"
    - **剪裁什么？** 仅SELECT `email`（或为追踪添加`id`）。分页时补充`LIMIT 1000`
    - **调整顺序？** 在应用逻辑前将过滤推给SQL（WHERE子句）。为`region`和`purchase_date`建立索引以缩减扫描时间
-   
+
    效果：查询从10秒降至50毫秒。如同代理筛选：何必搬运53个节点当14个就足够？代码示例：
    ```python:disable-run
    # 欠佳：全量获取后过滤
    all_users = db.query("SELECT * FROM users")
    eu_premium = [u for u in all_users if u.region == 'EU' and u.is_premium]
-   
+
    # 优化：从源头过滤
    eu_premium = db.query("SELECT email FROM users WHERE region='EU' AND is_premium=1 LIMIT 1000")
    ```
@@ -39,14 +39,14 @@ type: note
    - **目标？** 汇总价格，而非逐个击破
    - **剪裁什么？** 先对ID去重（`unique_items = set(item.id for item in items)`——立即减少50%）
    - **调整顺序？** 批量化请求（若API支持`/batch?ids=1,2,3`）或使用`asyncio.gather([api.get(id) for id in unique_items])`异步并行。增加Redis缓存层："一小时内见过此ID？直接跳过"
-   
+
    代理并行原理：那些并发TCP日志？如出一辙——同时测试多个延迟而非串行执行。将秒级操作压缩至毫秒级。代码示例：
    ```python
    import asyncio
-   
+
    async def fetch_prices(ids):
        return await asyncio.gather(*[api.get(id) for id in set(ids)])  # 去重+并行
-   
+
    totals = sum(await fetch_prices(items))  # 一次批处理完成
    ```
 
@@ -57,7 +57,7 @@ type: note
    - **目标？** 输出有效编辑后图像，而非处理垃圾文件
    - **剪裁什么？** 快速有效性检查（如用`try/except`执行`PIL.Image.open`——失败则立即终止）
    - **调整顺序？** 先验证有效性，仅对存活文件流水线处理。性能分析：80%时间耗在缩放？异步生成预览缩略图
-   
+
    与代理超时警告异曲同工：遇到504错误？脚本快速标记，不让其影响前20排序。实践代码：
    ```python
    def process_image(path):
@@ -68,7 +68,7 @@ type: note
            img.save(f"{path}_edited.jpg")
        except Exception:
            logging.warning(f"已跳过损坏文件：{path}")
-   
+
    [process_image(p) for p in valid_paths]  # 预过滤列表
    ```
 

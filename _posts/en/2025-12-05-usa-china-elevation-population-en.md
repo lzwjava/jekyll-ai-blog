@@ -14,7 +14,7 @@ Question: What is the middle part of the USA geographically? Is Denver or Washin
 
 Answer:
 
-The geographic center of the contiguous United States (the lower 48 states) is near **Lebanon, Kansas** (very rural, flat farmland).  
+The geographic center of the contiguous United States (the lower 48 states) is near **Lebanon, Kansas** (very rural, flat farmland).
 If you include Alaska and Hawaii, the center shifts a bit but is still in the Great Plains.
 
 ### Quick breakdown of major regions and elevation
@@ -31,11 +31,11 @@ If you include Alaska and Hawaii, the center shifts a bit but is still in the Gr
 
 ### Where are Denver and Washington?
 
-- **Denver (Colorado)**  
-- Lies at the foot of the **Rocky Mountains**, about 1,600 m (one mile) above sea level → “Mile High City”.  
+- **Denver (Colorado)**
+- Lies at the foot of the **Rocky Mountains**, about 1,600 m (one mile) above sea level → “Mile High City”.
 - It is in the **western half** of the country, not the middle.
 
-**Washington, D.C.**  
+**Washington, D.C.**
 - On the East Coast, almost at sea level, in the flat coastal plain.
 
 Neither is in the “middle” of the USA.
@@ -49,7 +49,7 @@ Neither is in the “middle” of the USA.
 | Where most people live | Eastern third (Beijing–Shanghai–Guangzhou corridor) – flat & low | Eastern third + California coast – mostly low elevation |
 | “Empty” high land       | Tibetan Plateau, Xinjiang, Inner Mongolia      | Great Plains, Mountain West (Colorado, Utah, Nevada, etc.) |
 
-So the pattern is very similar:  
+So the pattern is very similar:
 Both countries have **high, rugged, sparsely populated west** and **low, flat, densely populated east**.
 
 The big difference:
@@ -58,10 +58,10 @@ The big difference:
 
 ### Simple mental map of USA elevation
 
-- Everything east of the Mississippi River → mostly <500 m, gentle hills at most.  
-- Between Mississippi and Rocky Mountains (the Great Plains) → flat to rolling, 300–1,000 m, gets drier westward.  
-- Rocky Mountains → sudden wall of high peaks.  
-- Behind the Rockies (Utah, Nevada) → high desert basins and more mountain ranges.  
+- Everything east of the Mississippi River → mostly <500 m, gentle hills at most.
+- Between Mississippi and Rocky Mountains (the Great Plains) → flat to rolling, 300–1,000 m, gets drier westward.
+- Rocky Mountains → sudden wall of high peaks.
+- Behind the Rockies (Utah, Nevada) → high desert basins and more mountain ranges.
 - California → narrow coastal plain, then Sierra Nevada mountains, then desert again.
 
 So the true “middle” of the USA is flat, windy, and covered in corn, wheat, cattle ranches, and tornadoes — not mountains like Denver or coastal cities like Washington, D.C.

@@ -12,7 +12,7 @@ type: note
 
 Question: What is the C2 proficient level?
 
-Answer: 
+Answer:
 
 The **C2 Proficient level** is the highest level in the Common European Framework of Reference for Languages (CEFR), representing mastery of the English language. It is often described as "near-native" or "bilingual" proficiency, equivalent to that of a highly educated native speaker in terms of precision, fluency, and sophistication.
 
@@ -29,9 +29,9 @@ The **C2 Proficient level** is the highest level in the Common European Framewor
 
 C2 is not strictly "native" level (as native speakers may vary in education and vocabulary), but it signifies exceptional command suitable for the highest academic, professional, or literary contexts.
 
-References:  
+References:
 
-- [EF SET: English C2 Level](https://www.efset.org/cefr/c2/)  
-- [EF SET: English Score Ranges](https://www.efset.org/english-score/)  
-- [Council of Europe: CEFR Level Descriptions](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions)  
+- [EF SET: English C2 Level](https://www.efset.org/cefr/c2/)
+- [EF SET: English Score Ranges](https://www.efset.org/english-score/)
+- [Council of Europe: CEFR Level Descriptions](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions)
 - [British Council: C2 Proficiency](https://learnenglish.britishcouncil.org/english-levels/understand-your-english-level/c2-proficiency)

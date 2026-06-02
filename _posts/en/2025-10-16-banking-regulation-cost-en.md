@@ -40,6 +40,6 @@ The article nails it: isolated minor corrections—like tweaking a footnote in a
 
 In essence, banking's regulatory armor, while protective, can weaponize constant correction against its own people. It crafts an environment of inadequacy and fear, slowly dismantling confidence and innovation in pursuit of flawless adherence. To thrive, banks must balance oversight with empowerment—gamifying training, soliciting feedback, and trusting staff beyond the checklist—to rebuild the spirit that fuels financial progress.
 
-[How Over-Regulation Destroys Employee Morale and Performance](https://medium.com/@rvzkrhvqz/how-over-regulation-destroys-employee-morale-and-performance-ef27cf01ed71)  
-[25+ Top employee engagement activities for the banking sector in 2025](https://www.culturemonkey.io/employee-engagement/employee-engagement-activities-in-banking-sector/)  
+[How Over-Regulation Destroys Employee Morale and Performance](https://medium.com/@rvzkrhvqz/how-over-regulation-destroys-employee-morale-and-performance-ef27cf01ed71)
+[25+ Top employee engagement activities for the banking sector in 2025](https://www.culturemonkey.io/employee-engagement/employee-engagement-activities-in-banking-sector/)
 [How to Boost Employee Engagement in Banking: A Manager's Guide for 2025](https://www.athpower.com/employee-engagement-in-banking-guide-2025/)

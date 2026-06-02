@@ -77,23 +77,23 @@ Here’s a quiz based on the content you provided:
 #### **True/False Questions:**
 
 11. **A Generative Model learns to classify data into predefined categories.**
-   - True  
+   - True
    - False
 
 12. **In a Recurrent Neural Network (RNN), the model’s hidden state is passed through time steps.**
-   - True  
+   - True
    - False
 
 13. **Dropout is a technique used to encourage overfitting.**
-   - True  
+   - True
    - False
 
 14. **Attention Heads in Transformers allow the model to process input in parallel, improving representational power.**
-   - True  
+   - True
    - False
 
 15. **Self-Attention mechanisms allow a model to consider the entire sequence when making predictions.**
-   - True  
+   - True
    - False
 
 #### **Short Answer Questions:**
@@ -183,35 +183,35 @@ Here are more questions to expand the quiz:
 ### **Additional True/False Questions:**
 
 31. **Generative Adversarial Networks (GANs) consist of a generator and a discriminator that compete with each other.**
-   - True  
+   - True
    - False
 
 32. **In “Causal Language Modeling,” the model predicts the next token based on all previous tokens in a sequence.**
-   - True  
+   - True
    - False
 
 33. **Precision is the ratio of true positive predictions to all predictions, including false positives.**
-   - True  
+   - True
    - False
 
 34. **Batch Normalization helps in stabilizing the training of deep networks by normalizing layer outputs.**
-   - True  
+   - True
    - False
 
 35. **The purpose of “Positional Encoding” in Transformers is to prevent the model from learning any sequence information.**
-   - True  
+   - True
    - False
 
 36. **Residual connections in neural networks help mitigate the vanishing gradient problem by allowing the gradient to flow more easily through the network.**
-   - True  
+   - True
    - False
 
 37. **Model Overfitting occurs when the model fails to perform well on training data but works well on new data.**
-   - True  
+   - True
    - False
 
 38. **Federated Learning trains models across decentralized devices without exchanging local data.**
-   - True  
+   - True
    - False
 
 ---

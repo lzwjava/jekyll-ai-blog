@@ -39,5 +39,5 @@ type: note
 
 这种方法既保留营养又避免生芋刺激。轻松制作——享受您的芋头船吧！
 
-[烤芋头食谱](https://www.allrecipes.com/recipe/241313/baked-taro/)  
+[烤芋头食谱](https://www.allrecipes.com/recipe/241313/baked-taro/)
 [芋头安全处理指南](https://www.seriouseats.com/taro-root-how-to-prepare-and-cook)

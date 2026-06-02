@@ -46,7 +46,7 @@ Angular 14 was already a very solid and modern version (especially after typed f
 
 Many teams that skipped 15 went directly from 14 → 16/17 and found the migration quite smooth, especially when adopting standalone components gradually.
 
-**References:**  
+**References:**
 
 - https://blog.angular.dev/angular-v14-is-now-available-391a6db736af
 - https://blog.angular.dev/angular-v16-is-here-4d7a28ec680d

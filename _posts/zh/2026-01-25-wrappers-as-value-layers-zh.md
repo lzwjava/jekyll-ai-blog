@@ -12,7 +12,7 @@ type: note
 
 Question: 互联网和产品中的一切本质上都是 wrapper（包装器）——例如，Perplexity AI 是 LLM models 的 wrapper，LLM models 是 PyTorch 的 wrapper，PyTorch 是 CUDA 的 wrapper，Google Cloud 是物理机和 Linux 的 wrapper，甚至 Python 的 requests 库也是一个 wrapper。但 wrapper 仍然具有真实价值，尽管非常薄/轻量级的 wrapper 通常提供的价值很小。
 
-Answer: 
+Answer:
 
 是的 —— 几乎整个软件和互联网技术栈都可以被理解为 **nested layers of wrappers/abstractions**（嵌套的包装层/抽象层），每一层都在增加（有时是减少）价值。
 
@@ -73,6 +73,6 @@ Wrapper 越厚（层次越高），它能创造的价值就越多 —— 即使�
 
 所以，是的 —— “一切皆为 wrapper”，但 **伟大的 wrapper 会胜出**，平庸的通常会逐渐消失。
 
-References:  
+References:
 
 - None

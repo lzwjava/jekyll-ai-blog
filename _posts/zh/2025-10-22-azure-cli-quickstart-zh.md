@@ -103,6 +103,6 @@ Azure CLI 擅长管理虚拟机生命周期。
 - 安全性：避免硬编码凭据；使用环境变量或 Azure Key Vault。
 
 ## 参考文档
-[安装 Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)  
-[Azure CLI 参考文档](https://learn.microsoft.com/en-us/cli/azure/)  
+[安装 Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+[Azure CLI 参考文档](https://learn.microsoft.com/en-us/cli/azure/)
 [Azure CLI 快速入门](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)

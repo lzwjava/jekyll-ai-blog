@@ -12,7 +12,7 @@ type: note
 
 Question: Give a comprehensive introduction to Honeywell company.
 
-Answer: 
+Answer:
 
 # Comprehensive Introduction to Honeywell International Inc.
 
@@ -55,9 +55,9 @@ Other activities include acquisitions (e.g., Johnson Matthey's Catalyst Technolo
 
 Honeywell continues to innovate in quantum computing (via Quantinuum joint venture) and sustainability, positioning itself for growth in megatrends like energy transition and automation.
 
-References:  
+References:
 
-- [Honeywell Official Website](https://www.honeywell.com/us/en)  
-- [Wikipedia: Honeywell](https://en.wikipedia.org/wiki/Honeywell)  
-- [Honeywell Investor Relations](https://investor.honeywell.com/)  
+- [Honeywell Official Website](https://www.honeywell.com/us/en)
+- [Wikipedia: Honeywell](https://en.wikipedia.org/wiki/Honeywell)
+- [Honeywell Investor Relations](https://investor.honeywell.com/)
 - [GlobalData Company Profile](https://www.globaldata.com/company-profile/honeywell-international-inc/)

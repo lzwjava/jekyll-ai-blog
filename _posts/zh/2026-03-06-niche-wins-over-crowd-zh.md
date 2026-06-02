@@ -11,7 +11,7 @@ type: note
 
 **问题**：为什么改变人们对你的看法或对某人的看法如此困难，以及这如何凸显了初创公司的伟大之处，即成功来自于为特定群体构建产品，而不是试图取悦所有人，包括同事或工程师？此外，解释这如何与Elon Musk、PayPal/X.com、Zip2以及从1990年代到2020年代的当前AI初创公司趋势的成功相关联，因为这些创始人在争取原同事或领导喜欢或重视他们时遇到了困难，这暗示了大公司中由于外部看法而晋升缓慢。
 
-**回答**： 
+**回答**：
 
 改变人们对你的看法或对某人的固有看法本质上很困难，因为人们基于第一印象、过去互动、偏见和群体动态快速形成看法。一旦形成，这些观点由于**confirmation bias**（人们寻求支持他们现有信念的证据）和社交惯性（尤其在专业环境中，同事形成小团体或层级结构）而难以改变。在大公司或成熟团队中，这使得创新或非传统个体很难从直接同侪或上级那里获得认可或影响力。
 
@@ -29,7 +29,7 @@ type: note
 
 这一动态推动了许多科技创新：那些无法“赢得”直接圈子认可的异类或远见者转向外部，为热情的早期采用者构建，并往往超越缓慢行动的现有企业。
 
-**参考资料**：  
+**参考资料**：
 
 - [Elon Musk ousted from PayPal by colleagues](https://www.foxbusiness.com/markets/elon-musk-dethroned-peter-thiel-coup-led-paypal-mafia)
 - [PayPal Mafia overview and influence](https://en.wikipedia.org/wiki/PayPal_Mafia)

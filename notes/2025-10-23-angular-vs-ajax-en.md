@@ -28,8 +28,8 @@ AJAX (Asynchronous JavaScript and XML) is a foundational technique for making as
 
 In short, while AJAX is lightweight for quick prototypes, Angular transforms frontend development into a robust, efficient process for production-grade apps. The learning curve is steeper initially, but it pays off in long-term velocity.
 
-[Why do we use Angular instead of Ajax?](https://www.quora.com/Why-do-we-use-Angular-instead-of-Ajax)  
-[Why I Became an Angular Developer](https://medium.com/@gaspm/my-journey-in-web-development-why-i-became-an-angular-developer-and-why-i-have-no-plans-to-change-it-2e00ea9736e3)  
-[Angular vs jQuery: A Comprehensive Comparison](https://www.moontechnolabs.com/blog/angular-vs-jquery/)  
-[10 Reasons Why Angular Is Perfect For Front-End Development](https://www.linkedin.com/pulse/10-reasons-why-angular-perfect-front-end-development-sophia-tondon)  
+[Why do we use Angular instead of Ajax?](https://www.quora.com/Why-do-we-use-Angular-instead-of-Ajax)
+[Why I Became an Angular Developer](https://medium.com/@gaspm/my-journey-in-web-development-why-i-became-an-angular-developer-and-why-i-have-no-plans-to-change-it-2e00ea9736e3)
+[Angular vs jQuery: A Comprehensive Comparison](https://www.moontechnolabs.com/blog/angular-vs-jquery/)
+[10 Reasons Why Angular Is Perfect For Front-End Development](https://www.linkedin.com/pulse/10-reasons-why-angular-perfect-front-end-development-sophia-tondon)
 [What is the difference between Ajax and Angular HTTP service?](https://www.urbanpro.com/angular-js/what-is-the-difference-between-ajax-and-angular)

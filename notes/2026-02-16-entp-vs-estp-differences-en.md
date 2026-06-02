@@ -11,7 +11,7 @@ type: note
 
 Question: What's the difference between ENTP and ESTP?
 
-Answer: 
+Answer:
 
 Both **ENTP** and **ESTP** are extroverted, thinking, perceiving types (ExTP) in MBTI. They share many traits: quick-witted, adaptable, logical, charming, competitive, and often entrepreneurial or persuasive. However, the core difference lies in their dominant cognitive function — **Ne (Extraverted Intuition)** for ENTP vs. **Se (Extraverted Sensing)** for ESTP — which creates very distinct ways of perceiving and engaging with the world.
 
@@ -43,7 +43,7 @@ Both **ENTP** and **ESTP** are extroverted, thinking, perceiving types (ExTP) in
 
 Both types are charismatic "doers" who hate boredom, but **ENTPs live in the world of possibilities** while **ESTPs live in the world of immediacy and action**.
 
-References:  
+References:
 
 - [Boo.world - ENTP vs ESTP](https://boo.world/entp-personality/entp-vs-estp)
 - [Tumblr - funkymbtifiction on ENTP vs ESTP](https://www.tumblr.com/funkymbtifiction/104526613385/entp-vs-estp-i-understand-that-one-is-about-ideas)

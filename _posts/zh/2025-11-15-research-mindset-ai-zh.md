@@ -22,5 +22,5 @@ type: note
 
 如果他专栏里某篇具体文章或某个句子让你感到困惑（或激起兴趣），不妨贴到这里——我将与你共同以研究态度来探讨。最近他的哪篇内容让你对此有了更深的体会？
 
-[垠的备忘录 | Yin Wang](https://yinwang1.substack.com/)  
+[垠的备忘录 | Yin Wang](https://yinwang1.substack.com/)
 [Yin's Memos (英文版)](https://yinwang0.substack.com/)

@@ -28,9 +28,9 @@ type: note
 
 布沙拉的故事展现了沉静坚韧的力量——在"隐身模式"中潜心耕耘数年，最终成为全球最大云服务提供商的核心人物。
 
-**参考资料**  
-[芯片创新如何成为AWS成功的"秘密配方"](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)  
-[纳菲亚·布沙拉——AWS Graviton芯片背后的以色列推手](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)  
-[安娜普尔纳实验室-维基百科](https://en.wikipedia.org/wiki/Annapurna_Labs)  
-[为亚马逊炮制秘密配方的隐身实验室](https://www.wsj.com/tech/amazon-ai-chips-supercomputer-aws-annapurna-trainium-a943be71)  
+**参考资料**
+[芯片创新如何成为AWS成功的"秘密配方"](https://www.amazon.science/how-silicon-innovation-became-the-secret-sauce-behind-awss-success)
+[纳菲亚·布沙拉——AWS Graviton芯片背后的以色列推手](https://en.globes.co.il/en/article-nafea-bshara-the-israeli-behind-amazons-graviton-chip-1001420744)
+[安娜普尔纳实验室-维基百科](https://en.wikipedia.org/wiki/Annapurna_Labs)
+[为亚马逊炮制秘密配方的隐身实验室](https://www.wsj.com/tech/amazon-ai-chips-supercomputer-aws-annapurna-trainium-a943be71)
 [AWS步调下的云计算芯片创新](https://ee.stanford.edu/event/10-02-2023/silicon-innovation-cloud-computing-aws-pace)

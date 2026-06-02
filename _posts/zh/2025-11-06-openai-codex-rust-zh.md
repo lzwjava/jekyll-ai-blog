@@ -41,8 +41,8 @@ OpenAI 从 TypeScript/Node.js 切换到 Rust，主要是为了解决 JS 生态�
 
 迁移大约在 2025 年 6 月宣布，并有一个燃尽列表跟踪诸如 README 更新和 Homebrew 配方更改等任务。它仍然是实验性的，因此预计会有持续的改进。
 
-**参考资料**  
-- [GitHub 仓库概览](https://github.com/openai/codex)  
-- [关于 Rust 重写的 Reddit 讨论](https://www.reddit.com/r/rust/comments/1lkdu2m/openai_is_ditching_typescript_to_rebuild_codex/)  
-- [关于安全与性能切换的 Heise 文章](https://www.heise.de/en/news/Security-and-performance-OpenAI-Codex-CLI-switches-from-TypeScript-to-Rust-10425172.html)  
+**参考资料**
+- [GitHub 仓库概览](https://github.com/openai/codex)
+- [关于 Rust 重写的 Reddit 讨论](https://www.reddit.com/r/rust/comments/1lkdu2m/openai_is_ditching_typescript_to_rebuild_codex/)
+- [关于安全与性能切换的 Heise 文章](https://www.heise.de/en/news/Security-and-performance-OpenAI-Codex-CLI-switches-from-TypeScript-to-Rust-10425172.html)
 - [SSOJet 博客关于效率提升的文章](https://ssojet.com/blog/openai-codex-transitions-to-rust-enhancing-efficiency-and-power)

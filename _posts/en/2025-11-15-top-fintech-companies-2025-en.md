@@ -60,9 +60,9 @@ These selections represent a mix of established giants (e.g., Stripe, valued at 
 
 If you're interested in a specific region, category, or deeper dive (e.g., funding rounds), let me know!
 
-**References**  
-- [CB Insights Fintech 100 2025](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)  
-- [Forbes Fintech 50 2025](https://www.forbes.com/lists/fintech50/)  
-- [CNBC World's Top Fintech Companies 2025](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)  
-- [StartupBlink Top Fintech Startups 2025](https://www.startupblink.com/blog/top-fintech-startups/)  
+**References**
+- [CB Insights Fintech 100 2025](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)
+- [Forbes Fintech 50 2025](https://www.forbes.com/lists/fintech50/)
+- [CNBC World's Top Fintech Companies 2025](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)
+- [StartupBlink Top Fintech Startups 2025](https://www.startupblink.com/blog/top-fintech-startups/)
 - [FinTech Magazine Top 10 Globally](https://fintechmagazine.com/news/top-10-fintech-companies-globally)

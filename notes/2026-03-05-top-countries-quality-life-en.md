@@ -11,13 +11,13 @@ type: note
 
 Question: Which countries are at the top of the quality of life index?
 
-Answer: 
+Answer:
 
 The top countries for quality of life vary depending on the specific index used, as different organizations measure it with different criteria (such as purchasing power, safety, healthcare, pollution, cost of living, work-life balance, and more).
 
 Here are the most prominent and up-to-date rankings as of early 2026:
 
-**Numbeo Quality of Life Index (2026 data, crowd-sourced and widely referenced)**  
+**Numbeo Quality of Life Index (2026 data, crowd-sourced and widely referenced)**
 This is one of the most comprehensive and frequently updated indices for overall quality of life by country.
 
 Top 10 countries:
@@ -34,7 +34,7 @@ Top 10 countries:
 
 (Note: Some mid-2025 Numbeo-based reports placed Luxembourg or Netherlands slightly differently, but the latest 2026 figures show Netherlands at the top.)
 
-**U.S. News & World Report Best Countries for Quality of Life (recent ranking)**  
+**U.S. News & World Report Best Countries for Quality of Life (recent ranking)**
 This perception-based ranking emphasizes factors like job market, affordability, family-friendliness, income equality, and political stability.
 
 Top countries:
@@ -48,7 +48,7 @@ Other indices (such as expat-focused or retirement-oriented ones) may highlight 
 
 European countries (especially Nordic and Western European) consistently dominate most quality-of-life rankings due to strong social systems, safety, healthcare, and low pollution.
 
-References:  
+References:
 
 - [Numbeo Quality of Life Index by Country 2026](https://www.numbeo.com/quality-of-life/rankings_by_country.jsp)
 - [U.S. News Best Countries for Quality of Life](https://www.usnews.com/news/best-countries/rankings/quality-of-life)

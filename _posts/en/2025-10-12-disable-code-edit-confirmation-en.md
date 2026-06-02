@@ -54,6 +54,6 @@ To disable the edit confirmation popup in Claude Code (so it just applies edits 
 
 This should make your workflow faster without interruptions. If you're in an enterprise setup, check with your admin, as managed policies might override user settings.
 
-[Claude Code Settings Docs](https://docs.claude.com/en/docs/claude-code/settings)  
+[Claude Code Settings Docs](https://docs.claude.com/en/docs/claude-code/settings)
 [Disable Claude Code Permission Prompts Guide](https://www.arsturn.com/blog/how-to-disable-claude-code-permission-prompts)
 ```

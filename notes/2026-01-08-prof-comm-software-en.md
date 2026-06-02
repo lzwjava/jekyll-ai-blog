@@ -12,7 +12,7 @@ type: note
 
 Question: How to write professionally as a software engineer in emails, daily discussions, and technical discussions in a corporate environment?
 
-Answer: 
+Answer:
 
 As a software engineer in a corporate setting, effective communication is crucial for collaboration, clarity, and career growth. Strong writing and speaking skills help convey technical ideas, resolve issues quickly, and build professional relationships. Below are best practices tailored to emails, daily discussions (e.g., Slack chats, stand-ups), and technical discussions (e.g., meetings, design reviews).
 
@@ -94,10 +94,10 @@ Focus on collaboration and decision-making.
 
 Mastering these habits makes you a more effective engineer, reduces misunderstandings, and accelerates project success.
 
-References:  
+References:
 
-- [How to write an effective email as a software engineer](https://dev.to/scottshipp/how-to-write-an-effective-email-as-a-software-engineer-504j)  
-- [How To Write a Professional Email](https://www.indeed.com/career-advice/career-development/how-to-write-a-professional-email)  
-- [9 Effective Communication Tips for Software Developers](https://daily.dev/blog/9-effective-communication-tips-for-software-developers)  
-- [6 Communication Skills Software Developers Need](https://builtin.com/software-engineering-perspectives/communication-skills-developers-need)  
+- [How to write an effective email as a software engineer](https://dev.to/scottshipp/how-to-write-an-effective-email-as-a-software-engineer-504j)
+- [How To Write a Professional Email](https://www.indeed.com/career-advice/career-development/how-to-write-a-professional-email)
+- [9 Effective Communication Tips for Software Developers](https://daily.dev/blog/9-effective-communication-tips-for-software-developers)
+- [6 Communication Skills Software Developers Need](https://builtin.com/software-engineering-perspectives/communication-skills-developers-need)
 - [Professional Email Format - Writing as an Engineer or Scientist](https://www.craftofscientificwriting.org/email_format.html)

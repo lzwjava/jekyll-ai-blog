@@ -45,7 +45,7 @@ Mixue Bingcheng (蜜雪冰城), a popular Chinese chain known for affordable sof
 
 ### How Mixue Bingcheng Ice Cream Melts
 
-Mixue's ice cream melts similarly to standard soft-serve but can hold its shape a bit longer due to formulation tweaks like high-melting-point oils and stabilizers, which are common in budget Asian brands to reduce mess during serving. 
+Mixue's ice cream melts similarly to standard soft-serve but can hold its shape a bit longer due to formulation tweaks like high-melting-point oils and stabilizers, which are common in budget Asian brands to reduce mess during serving.
 
 - **Melting Process**: At room temperature (around 20–25°C or 68–77°F), it begins softening in 5–10 minutes, turning from firm to creamy as the fats and water separate. Full liquefaction happens in 15–30 minutes, forming a puddle without much dripping initially (thanks to emulsifiers). Unlike premium ice creams, it may separate slightly, with watery whey pooling first.
 

@@ -16,8 +16,8 @@ type: note
 
 **Ambient** 的含义包括：
 
-1. **与周围环境或气氛相关的**  
-   → 存在于或涉及紧邻的周围环境  
+1. **与周围环境或气氛相关的**
+   → 存在于或涉及紧邻的周围环境
    常见的日常用法
 
    Examples:
@@ -25,7 +25,7 @@ type: note
    - ambient noise = 环境噪音（环境中的背景噪音）
    - ambient lighting = 环境照明（柔和的普照光，非直射光或聚光灯）
 
-2. **Ambient music / ambient genre（环境音乐）**  
+2. **Ambient music / ambient genre（环境音乐）**
    一种音乐风格，具有以下特点：
    - 营造氛围
    - 通常节奏缓慢、平静、具有空间感
@@ -48,6 +48,6 @@ type: note
 | Science / technology | 正常的周围环境条件                                  | ambient pressure, ambient humidity      |
 | Product marketing    | 柔和的、非侵入式的、环境相关的                       | ambient scent, ambient experience       |
 
-**References:**  
+**References:**
 
 - 无（常用词汇定义，无需特定来源）

@@ -12,7 +12,7 @@ type: note
 
 Question: Why do PDD employees work so hard?
 
-Answer: 
+Answer:
 
 PDD Holdings（Pinduoduo 和 Temu 的母公司，通常简称为 PDD）以其高强度和苛刻的工作文化而闻名，这种文化驱动员工极其努力地工作。这源于植根于公司激进增长战略和内部实践的几个关键因素。
 
@@ -36,11 +36,11 @@ PDD 的工作时间一直被认为超过了中国科技行业臭名昭著的 "99
 
 总的来说，PDD 员工之所以努力工作，是由于显性/隐性预期、竞争压力以及一种奖励产出而非平衡的 performance-driven 环境共同作用的结果。
 
-References:  
+References:
 
-- [Temu Sister Company Pinduoduo Has '996,' or Even '9127' Work Culture - Business Insider](https://www.businessinsider.com/pinduoduo-temu-pdd-996-9127-work-culture-bernstein-analysts-2023-8)  
-- [Inside PDD, China's e-commerce titan behind Temu and Pinduoduo - Nikkei Asia](https://asia.nikkei.com/Spotlight/The-Big-Story/Inside-PDD-China-s-e-commerce-titan-behind-Temu-and-Pinduoduo)  
-- [How does the internal management of Pinduoduo operate? - Baiguan News](https://www.baiguan.news/p/how-does-the-internal-management)  
-- [Pinduoduo Reviews on Glassdoor](https://www.glassdoor.com/Reviews/Pinduoduo-Reviews-E2209578.htm)  
-- [Overtime Culture Back in Spotlight After Pinduoduo Employee’s Death - Sixth Tone](https://www.sixthtone.com/news/1006661)  
+- [Temu Sister Company Pinduoduo Has '996,' or Even '9127' Work Culture - Business Insider](https://www.businessinsider.com/pinduoduo-temu-pdd-996-9127-work-culture-bernstein-analysts-2023-8)
+- [Inside PDD, China's e-commerce titan behind Temu and Pinduoduo - Nikkei Asia](https://asia.nikkei.com/Spotlight/The-Big-Story/Inside-PDD-China-s-e-commerce-titan-behind-Temu-and-Pinduoduo)
+- [How does the internal management of Pinduoduo operate? - Baiguan News](https://www.baiguan.news/p/how-does-the-internal-management)
+- [Pinduoduo Reviews on Glassdoor](https://www.glassdoor.com/Reviews/Pinduoduo-Reviews-E2209578.htm)
+- [Overtime Culture Back in Spotlight After Pinduoduo Employee’s Death - Sixth Tone](https://www.sixthtone.com/news/1006661)
 - [996 working hour system - Wikipedia](https://en.wikipedia.org/wiki/996_working_hour_system)

@@ -48,7 +48,7 @@ type: note
 
 如需获取包含小型金融机构的完整最新名单，建议查阅丹麦金融监管局等官方渠道或银行名录，该行业可能因并购或监管政策而动态调整。
 
-[丹麦银行列表 - 维基百科](https://en.wikipedia.org/wiki/List_of_banks_in_Denmark)  
-[丹麦顶尖银行名录 - Wise](https://wise.com/gb/blog/banks-in-denmark)  
-[丹麦银行列表 - TheBanks.eu](https://thebanks.eu/banks-by-country/Denmark)  
+[丹麦银行列表 - 维基百科](https://en.wikipedia.org/wiki/List_of_banks_in_Denmark)
+[丹麦顶尖银行名录 - Wise](https://wise.com/gb/blog/banks-in-denmark)
+[丹麦银行列表 - TheBanks.eu](https://thebanks.eu/banks-by-country/Denmark)
 [丹麦十大银行 - Elevate Pay](https://www.elevatepay.co/br/blog/banks-in-denmark)

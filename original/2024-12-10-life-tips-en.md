@@ -103,7 +103,7 @@ type: post
 
 * You are upset that something doesn't work as expected. Just accept the facts or change your worldview to adapt to it. Learn from it.
 
-* The good welfare of you depends yourself, your family, your company, your country. Comparing them wisely in the world. If they are all good, you will have good life. 
+* The good welfare of you depends yourself, your family, your company, your country. Comparing them wisely in the world. If they are all good, you will have good life.
 
 * Almost everything can be changed. Think about your nationality. Think about where you were born. Remove every limit and start thinking about how to have the best life in the world. Start to notice the big gap and work towards closing it.
 
@@ -216,11 +216,11 @@ type: post
 
 * Learning is mainly about trying new things or thinking in new ways. Keep exploring.
 
-* To learn is to better enjoy life. For example, learning a new language is like opening a new world. 
+* To learn is to better enjoy life. For example, learning a new language is like opening a new world.
 
-* When learning a subject, directly approaching the core concepts or doing the final exam exercises is okay. You can learn backward to the fundamental things. A hard start leads to an easy end. Quickly overcome the fear or discomfort associated with new knowledge. 
+* When learning a subject, directly approaching the core concepts or doing the final exam exercises is okay. You can learn backward to the fundamental things. A hard start leads to an easy end. Quickly overcome the fear or discomfort associated with new knowledge.
 
-* Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your companion, friends, or even street buddies. 
+* Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your companion, friends, or even street buddies.
 
 * Write blogs, make videos, or create other content to share. People are narcissistic. By reviewing what you create, you will notice imperfections. That will give you the urge to improve.
 

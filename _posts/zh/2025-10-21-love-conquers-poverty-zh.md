@@ -18,8 +18,8 @@ type: note
 
 贫困会榨干家庭的资源，这毋庸置疑，但不会真空密封心灵。爱显现在坚韧中：糟糕日子后的拥抱，烛光下的睡前故事，账单逼近时人们的相守相依。金钱买来安逸，爱铸就耐力。如果说有什么不同，贫困家庭往往向我们展示了当浮华褪去时，什么才是真正重要的。
 
-[贫困对亲子关系的影响](https://pmc.ncbi.nlm.nih.gov/articles/PMC9081330/)  
-[社会经济地位与亲密关系](https://pmc.ncbi.nlm.nih.gov/articles/PMC8179854/)  
-["一切始于家庭"：跨代贫困的形成机制](https://www.tandfonline.com/doi/full/10.1080/10875549.2021.2010872)  
-[吉特拉与穆图拉贾：未被诉说的爱情故事](https://ruralindiaonline.org/article/chitra-and-muthuraja-an-untold-love-story)  
+[贫困对亲子关系的影响](https://pmc.ncbi.nlm.nih.gov/articles/PMC9081330/)
+[社会经济地位与亲密关系](https://pmc.ncbi.nlm.nih.gov/articles/PMC8179854/)
+["一切始于家庭"：跨代贫困的形成机制](https://www.tandfonline.com/doi/full/10.1080/10875549.2021.2010872)
+[吉特拉与穆图拉贾：未被诉说的爱情故事](https://ruralindiaonline.org/article/chitra-and-muthuraja-an-untold-love-story)
 [贫困中的善意故事](https://x.com/fopminui/status/1979443037777309956)

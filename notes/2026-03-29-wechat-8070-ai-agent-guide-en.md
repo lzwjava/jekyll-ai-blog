@@ -20,8 +20,8 @@ Tencent has added a hidden menu in this version specifically for OpenClaw. If yo
 * If it’s there, enable it. This is the "official" way to link your local OpenClaw gateway without using third-party web-bridge hacks that risk account bans.
 
 ### 2. Why the "Upgrade" Pop-up?
-Since 8.0.70 is currently in a "Gray Release" (灰度测试), the WeChat server might still push upgrade notifications to "stabilize" the version or move you to the full public build. 
-* **If you are on iOS:** 8.0.70 is the stable target. If it keeps asking to upgrade, it might be a minor build patch (e.g., 8.0.70.xx). 
+Since 8.0.70 is currently in a "Gray Release" (灰度测试), the WeChat server might still push upgrade notifications to "stabilize" the version or move you to the full public build.
+* **If you are on iOS:** 8.0.70 is the stable target. If it keeps asking to upgrade, it might be a minor build patch (e.g., 8.0.70.xx).
 * **If you are on Android:** This version is rolling out slower. If you manually installed an APK, the official store (Play Store/Tencent App Gem) might be trying to "revert" you to the last fully verified public version (like 8.0.69).
 
 ### 3. Connection Issues (The "Half-Open" State)

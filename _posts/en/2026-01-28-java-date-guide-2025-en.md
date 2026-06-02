@@ -35,20 +35,20 @@ public class Main {
         // 1. String → LocalDate
         String dateStr = "2025-03-15";
         LocalDate date = LocalDate.parse(dateStr);                    // ISO format
-        LocalDate date2 = LocalDate.parse("15/03/2025", 
+        LocalDate date2 = LocalDate.parse("15/03/2025",
                             DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
         // 2. LocalDate → String (different formats)
-        System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));     
+        System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
         // 2025-03-15
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));  
+        System.out.println(date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
         // 15/03/2025
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("MMM d, yyyy"))); 
+        System.out.println(date.format(DateTimeFormatter.ofPattern("MMM d, yyyy")));
         // Mar 15, 2025
 
-        System.out.println(date.format(DateTimeFormatter.ofPattern("EEEE, MMMM dd yyyy"))); 
+        System.out.println(date.format(DateTimeFormatter.ofPattern("EEEE, MMMM dd yyyy")));
         // Saturday, March 15 2025
     }
 }
@@ -112,8 +112,8 @@ Need to show date to user (different countries) | `DateTimeFormatter.ofPattern(.
 Working with old libraries / JDBC that return `java.util.Date` | Convert to `LocalDate`/`LocalDateTime` as soon as possible
 Still maintaining very old code       | You may have to keep `SimpleDateFormat` (but wrap it carefully)
 
-**Bottom line (2025+):**  
-Use `java.time.*` classes + `DateTimeFormatter` for almost everything.  
+**Bottom line (2025+):**
+Use `java.time.*` classes + `DateTimeFormatter` for almost everything.
 Only touch `SimpleDateFormat` when you are forced to work with legacy code.
 
 **References:**

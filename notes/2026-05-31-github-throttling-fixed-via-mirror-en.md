@@ -19,7 +19,7 @@ The slowness is NOT ncat or the proxy. It's China→GitHub ISP throttling.
 
 Speed tests:
   Direct to GitHub:         33 KB/s
-  Via Hysteria2 proxy:      59 KB/s  
+  Via Hysteria2 proxy:      59 KB/s
   Via ghfast.top mirror:    2.4 MB/s  (70x faster)
 
 Both direct and proxied paths are throttled by Chinese ISPs. The Hysteria2 proxy (DMIT LA) doesn't help because the bottleneck is the last-mile China exit, not the proxy itself.

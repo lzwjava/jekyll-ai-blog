@@ -32,6 +32,6 @@ Spring 请求过滤器（通常通过 `javax.servlet.Filter` 或 Spring 的 `Onc
 
 过滤器在 Spring DispatcherServlet 外部执行，使其非常适合处理底层关注点，这与更专注于 Spring 特定功能和控制器的拦截器不同。在实现时，可继承 `OncePerRequestFilter` 以避免每个请求的多次执行。
 
-[过滤器 :: Spring 框架](https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html)  
-[Spring MVC 中的处理程序拦截器与过滤器 | Baeldung](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter)  
+[过滤器 :: Spring 框架](https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html)
+[Spring MVC 中的处理程序拦截器与过滤器 | Baeldung](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter)
 [Spring Boot - Servlet 过滤器 - GeeksforGeeks](https://www.geeksforgeeks.org/springboot/spring-boot-servlet-filter/)

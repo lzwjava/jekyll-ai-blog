@@ -144,7 +144,7 @@ def simulate_flip_flop():
 
     else:
         print("Invalid choice. Try again.")
-    
+
     simulate_flip_flop()  # Restart the menu
 
 # Run the simulator

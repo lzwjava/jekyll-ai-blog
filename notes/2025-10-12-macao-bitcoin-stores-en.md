@@ -40,8 +40,8 @@ Based on the latest search results (as of October 2025), Macao currently **does 
 
 If you need more details (like specific exchange recommendations), just ask!
 
-**References**  
-- [CoinATMRadar Bitcoin ATM Map](https://coinatmradar.com/)  
-- [Bitcoin.com Buy Bitcoin in Macao](https://www.bitcoin.com/exchanges/macau/)  
-- [Macao Monetary Authority Regulations](https://www.amcm.gov.mo/en/)  
+**References**
+- [CoinATMRadar Bitcoin ATM Map](https://coinatmradar.com/)
+- [Bitcoin.com Buy Bitcoin in Macao](https://www.bitcoin.com/exchanges/macau/)
+- [Macao Monetary Authority Regulations](https://www.amcm.gov.mo/en/)
 - [Binance P2P Trading Guide](https://www.binance.com/en/p2p)

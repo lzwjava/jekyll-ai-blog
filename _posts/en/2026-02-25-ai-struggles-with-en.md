@@ -11,7 +11,7 @@ type: note
 
 Question: In frontend development, why is it often harder to get good results from AI models like Claude or Codex when describing UI visually, compared to backend development where describing APIs and field errors works better?
 
-Answer: 
+Answer:
 
 You're observing a very real and common limitation when using current LLMs (Claude, o1, Gemini, Grok, GPT-4o etc.) for coding in 2025–2026.
 
@@ -27,23 +27,23 @@ You're observing a very real and common limitation when using current LLMs (Clau
 
 ### Main reasons why visual descriptions fail more often on frontend
 
-1. **Massive loss of information in natural language**  
-   "A beautiful centered login form with modern blue button"  
+1. **Massive loss of information in natural language**
+   "A beautiful centered login form with modern blue button"
    → hundreds of valid implementations exist (padding? font? border-radius? hover? mobile? contrast ratio?)
 
-2. **No shared visual grounding**  
+2. **No shared visual grounding**
    The model has never "seen" your screen. It only knows statistical patterns from training screenshots + code.
 
-3. **CSS is very context-sensitive**  
-   - `position: absolute` vs `flex` vs `grid` changes everything  
-   - `gap` vs `margin` vs `padding` interacts differently with parents  
+3. **CSS is very context-sensitive**
+   - `position: absolute` vs `flex` vs `grid` changes everything
+   - `gap` vs `margin` vs `padding` interacts differently with parents
    - Tailwind vs CSS modules vs styled-components changes the syntax surface dramatically
 
-4. **UI taste is extremely subjective**  
+4. **UI taste is extremely subjective**
    What you consider "clean/minimal/elegant" can be completely different from what the majority of GitHub code looks like → model biases toward the average
 
-5. **Lack of iterative visual feedback loop in chat**  
-   Backend: "this field returned 422 → fix validation" → 1–2 turns  
+5. **Lack of iterative visual feedback loop in chat**
+   Backend: "this field returned 422 → fix validation" → 1–2 turns
    Frontend: "it's not centered on mobile" → needs multiple screenshot + description rounds
 
 ### Practical patterns that work noticeably better in 2025–2026 (frontend)
@@ -52,11 +52,11 @@ You're observing a very real and common limitation when using current LLMs (Clau
 
   1. Provide existing similar code + say "make it look like this but change X"
   2. Paste a **very detailed** Figma inspection panel export (spacing, colors in hex/hsl, font stack, weights, line-heights…)
-  3. Give a precise **component breakdown** in text  
-     example:  
-     - outer: flex col, items-center, min-h-screen, bg-gray-50  
-     - card: w-full max-w-md, p-8, bg-white, rounded-2xl, shadow-xl  
-     - logo: mb-8, h-12, mx-auto  
+  3. Give a precise **component breakdown** in text
+     example:
+     - outer: flex col, items-center, min-h-screen, bg-gray-50
+     - card: w-full max-w-md, p-8, bg-white, rounded-2xl, shadow-xl
+     - logo: mb-8, h-12, mx-auto
      - inputs: space-y-5 …
 
   4. Use Tailwind + give almost line-by-line className strings you want
@@ -84,16 +84,16 @@ Task: centered login card containing: logo (h-10), email input, password input, 
 
 ### Summary
 
-Backend plays to the strength of language models (symbolic reasoning + strict contracts).  
+Backend plays to the strength of language models (symbolic reasoning + strict contracts).
 Frontend plays to their weakness (spatial reasoning through text only + high aesthetic variance).
 
 Until models get dramatically better at **purely visual reasoning from descriptions alone** (or everyone routinely attaches Figma/actual screenshots), the most effective way is:
 
-- give structured textual specs (measurements, tokens, layout type)  
+- give structured textual specs (measurements, tokens, layout type)
 - OR give visual reference + small modification request
 
 That usually closes 70–80% of the quality gap compared to "make it look nice and modern".
 
-References:  
+References:
 
 - None (common developer experience observation, no specific external source used)

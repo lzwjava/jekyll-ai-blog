@@ -71,7 +71,7 @@ AI coding assistants 现在能理解整个 repository，而不仅仅是你正在
 
 ### 总结
 
- 
+
 
 | Old Era | AI Era |
 |---|---|

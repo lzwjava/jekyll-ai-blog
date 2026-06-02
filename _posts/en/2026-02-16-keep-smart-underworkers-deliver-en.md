@@ -11,7 +11,7 @@ type: note
 
 Question: In an organization, startup, or company, there are engineers who are smart enough to fix hard problems but do not work very hard—typically putting in a little less than the required work hours. However, since they handle normal jobs well and solve difficult problems effectively, should we keep them? This is because their ability to solve tough issues shows they put in significant effort behind the scenes, which is very valuable.
 
-Answer: 
+Answer:
 
 **Yes, in most cases you should keep them—especially in startups and high-skill technical environments—provided they deliver real, consistent value and do not create disproportionate downsides for the team or organization.**
 
@@ -37,7 +37,7 @@ Not every "smart but low-hours" engineer is automatically valuable. Consider let
 
 In short: **Talent that reliably solves the hardest problems is extremely scarce and expensive to replace.** If their net contribution is strongly positive, the hours difference is usually noise — not a reason to let them go. Focus on impact, not clock-watching.
 
-References:  
+References:
 
 - [Why Software Engineers Should Work Only 4 Hours a Day](https://medium.com/@schaman762/why-software-engineers-should-work-only-4-hours-a-day-3bea223ea9c7)
 - [Work 40 hours (or less)](https://codewithoutrules.com/worklife)

@@ -28,8 +28,8 @@ type: note
 
 从最触动你的一两个方法开始尝试，善待自己——进步从来不是直线前进的。你能意识到这种状态已是破局的关键一步。
 
-[应对屏幕疲劳 - 科罗拉多大学丹佛分校](https://www.ucdenver.edu/student/stories/library/stories-from-the-hub/combating-screen-fatigue)  
-[管理屏幕疲劳 | 罗格斯大学](https://learningcenters.rutgers.edu/resources/managing-screen-fatigue)  
-[避免屏幕疲劳的7种方法](https://partnerstack.com/articles/ways-to-avoid-screen-fatigue)  
-[如何克服屏幕疲劳提升学习效能 - ACAP](https://www.acap.edu.au/news-and-opinion/how-to-beat-screen-fatigue-for-improved-study-performance/)  
+[应对屏幕疲劳 - 科罗拉多大学丹佛分校](https://www.ucdenver.edu/student/stories/library/stories-from-the-hub/combating-screen-fatigue)
+[管理屏幕疲劳 | 罗格斯大学](https://learningcenters.rutgers.edu/resources/managing-screen-fatigue)
+[避免屏幕疲劳的7种方法](https://partnerstack.com/articles/ways-to-avoid-screen-fatigue)
+[如何克服屏幕疲劳提升学习效能 - ACAP](https://www.acap.edu.au/news-and-opinion/how-to-beat-screen-fatigue-for-improved-study-performance/)
 [计算机视觉综合征：症状、治疗与预防](https://my.clevelandclinic.org/health/diseases/24802-computer-vision-syndrome)

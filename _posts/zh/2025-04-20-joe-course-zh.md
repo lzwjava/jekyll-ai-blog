@@ -29,12 +29,12 @@ type: note
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://www.youtube.com/watch?v=SpqwAasxY7U  
-[^2]: https://www.youtube.com/watch?v=_4zSRze0_bk  
-[^3]: https://www.youtube.com/watch?v=FEK6lH_rtG8  
-[^4]: https://www.youtube.com/watch?v=nb4ovfwqup8  
-[^5]: https://www.youtube.com/watch?v=VRATZ7x7Kn8  
-[^6]: https://catalog.lwtech.edu/content.php?catoid=4\&navoid=157  
-[^7]: https://www.linkedin.com/posts/joe-gryniuk-9a23099_education-teaching-teaching-activity-6972980828175839233-u62m  
-[^8]: https://www.youtube.com/watch?v=0cISPOtQyeE  
+[^1]: https://www.youtube.com/watch?v=SpqwAasxY7U
+[^2]: https://www.youtube.com/watch?v=_4zSRze0_bk
+[^3]: https://www.youtube.com/watch?v=FEK6lH_rtG8
+[^4]: https://www.youtube.com/watch?v=nb4ovfwqup8
+[^5]: https://www.youtube.com/watch?v=VRATZ7x7Kn8
+[^6]: https://catalog.lwtech.edu/content.php?catoid=4\&navoid=157
+[^7]: https://www.linkedin.com/posts/joe-gryniuk-9a23099_education-teaching-teaching-activity-6972980828175839233-u62m
+[^8]: https://www.youtube.com/watch?v=0cISPOtQyeE
 [^9]: https://cis.bbent.com/Resources/

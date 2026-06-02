@@ -12,7 +12,7 @@ type: note
 
 Question: How do you view being "peaky" (being highly perfectionistic or demanding), especially the difference between those who are peaky in a negative way (complaining a lot, blaming the environment, lazy to change) and those who are peaky in a positive way (having high standards directed at oneself or one's own work, like Steve Jobs)?
 
-Answer: 
+Answer:
 
 "Being peaky" (perfectionistic, demanding, or hard to satisfy) is neither inherently good nor bad—it entirely depends on **where the perfectionism is directed** and **how it is expressed**.
 

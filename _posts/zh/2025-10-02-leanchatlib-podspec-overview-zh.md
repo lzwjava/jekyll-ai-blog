@@ -88,5 +88,5 @@ s.dependency 'FMDB', '2.5'
 
 如果您正在构建 iOS 聊天应用，这个 pod 能节省大量基础工作。注意：版本号（0.2.6）和 iOS 7.0 支持表明它大概来自 2015–2016 年，请查看 GitHub 仓库获取更新。
 
-[LeanChat iOS GitHub 仓库](https://github.com/leancloud/leanchat-ios)  
+[LeanChat iOS GitHub 仓库](https://github.com/leancloud/leanchat-ios)
 [CocoaPods 文档](https://guides.cocoapods.org/syntax/podspec.html)

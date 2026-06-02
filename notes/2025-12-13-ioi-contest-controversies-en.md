@@ -12,7 +12,7 @@ type: note
 
 Question: What are unpopular ideas about the IOI contest?
 
-Answer: 
+Answer:
 
 The International Olympiad in Informatics (IOI) is widely regarded as a prestigious high-school-level competitive programming contest, but several unpopular or controversial opinions emerge from discussions in competitive programming communities:
 
@@ -30,12 +30,12 @@ The International Olympiad in Informatics (IOI) is widely regarded as a prestigi
 
 These views often come from experienced programmers who value contests but critique their limitations.
 
-References:  
+References:
 
-- https://www.teamblind.com/post/unpopular-opinions-about-competitive-programming-lqnif3wt  
-- https://www.freecodecamp.org/news/mythbusting-competitive-programming/  
-- https://www.researchgate.net/publication/220396150_The_IOI_is_not_a_science_olympiad  
-- https://codeforces.com/blog/entry/145502  
-- https://ioinformatics.org/journal/INFOL047.pdf  
-- https://www.reddit.com/r/leetcode/comments/1ghs5zx/why_cant_adults_compete_at_top_programming/  
+- https://www.teamblind.com/post/unpopular-opinions-about-competitive-programming-lqnif3wt
+- https://www.freecodecamp.org/news/mythbusting-competitive-programming/
+- https://www.researchgate.net/publication/220396150_The_IOI_is_not_a_science_olympiad
+- https://codeforces.com/blog/entry/145502
+- https://ioinformatics.org/journal/INFOL047.pdf
+- https://www.reddit.com/r/leetcode/comments/1ghs5zx/why_cant_adults_compete_at_top_programming/
 - https://codeforces.com/blog/entry/61780

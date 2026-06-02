@@ -32,7 +32,7 @@ But for **smaller demos**, it uses even tinier configs (e.g., 64M or less).
 
 > "for every 512 tokens, they have GPT model"
 
-**No.**  
+**No.**
 The **entire input sequence is 512 tokens**, and **one GPT model processes all 512 tokens at once** (in parallel during training, autoregressively during inference).
 
 So:

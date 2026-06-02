@@ -12,7 +12,7 @@ type: note
 
 Question: My Ubuntu USB was made with the dd command, not Etcher. On my Lenovo XiaoXin laptop, when I select the Ubuntu option in the boot menu, it still boots into normal mode (Windows) instead of Ubuntu. What should I do?
 
-Answer: 
+Answer:
 
 The fact that you used `dd` to create the Ubuntu USB is **not** the problem — `dd` is a perfectly valid and commonly used method for making bootable Ubuntu USBs (it creates an exact copy of the ISO). It produces the same result as Etcher or Rufus in most cases, and Ubuntu ISOs boot fine when written with `dd`. The issue is almost certainly with your Lenovo XiaoXin laptop's BIOS/UEFI settings, not the USB creation method.
 
@@ -26,7 +26,7 @@ Lenovo XiaoXin laptops (Chinese domestic IdeaPad series) use UEFI firmware with 
 
 1. **Enter BIOS Setup** (not just the boot menu):
    - Power off the laptop completely.
-   - Power on and **immediately spam F2** (or Fn+F2) repeatedly when the Lenovo logo appears.  
+   - Power on and **immediately spam F2** (or Fn+F2) repeatedly when the Lenovo logo appears.
      (Some XiaoXin models use Fn+F2, Novo button if present, or F1/Fn+F1 — try variations.)
    - This should enter the full BIOS/UEFI setup menu.
 
@@ -39,7 +39,7 @@ Lenovo XiaoXin laptops (Chinese domestic IdeaPad series) use UEFI firmware with 
 3. **Check/Change Boot Mode** (very important for many Lenovo models):
    - Go to **Boot** or **Startup** tab.
    - Look for **Boot Mode**, **UEFI/Legacy Boot**, or **CSM** (Compatibility Support Module).
-   - Change it to **Both** (UEFI + Legacy/CSM) or **Legacy First** if "Both" isn't available.  
+   - Change it to **Both** (UEFI + Legacy/CSM) or **Legacy First** if "Both" isn't available.
      (Ubuntu works best in UEFI mode, but enabling CSM often helps detection on picky Lenovo firmware.)
    - Ensure **USB Boot** or **External Device Boot** is enabled if such an option exists.
 
@@ -65,7 +65,7 @@ Lenovo XiaoXin laptops (Chinese domestic IdeaPad series) use UEFI firmware with 
 
 After disabling Secure Boot and enabling CSM/Both mode, most users report the USB boots correctly into the Ubuntu installer/live session. Once Ubuntu is installed, you can re-enable Secure Boot if desired (Ubuntu signs its bootloader).
 
-References:  
+References:
 
 - [https://support.lenovo.com/us/en/solutions/ht500207-how-to-boot-from-usb-disk-in-the-bios-boot-menu-windows-8-windows-10-ideapadlenovo-laptops](https://support.lenovo.com/us/en/solutions/ht500207-how-to-boot-from-usb-disk-in-the-bios-boot-menu-windows-8-windows-10-ideapadlenovo-laptops)
 - [https://askubuntu.com/questions/891248/ubuntu-16-04-how-can-i-disable-secure-boot](https://askubuntu.com/questions/891248/ubuntu-16-04-how-can-i-disable-secure-boot)

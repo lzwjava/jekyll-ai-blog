@@ -70,7 +70,7 @@ gcloud config set core/verbosity debug
    ```bash
    docker build -t gcr.io/$(gcloud config get-value project)/blog-server:latest .
    docker push gcr.io/$(gcloud config get-value project)/blog-server:latest
-   
+
    gcloud run deploy blog-server \
      --image gcr.io/$(gcloud config get-value project)/blog-server:latest \
      --region asia-northeast1 \

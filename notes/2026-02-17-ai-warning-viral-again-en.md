@@ -11,7 +11,7 @@ type: note
 
 Question: What does the recent hot X tweet saying "something big is happening" refer to?
 
-Answer: 
+Answer:
 
 Recent posts on X containing phrases like "something big is happening" are mostly casual or promotional replies, not tied to one massive viral event today. Many echo a popular recent essay by AI entrepreneur **Matt Shumer** titled **"Something Big Is Happening"** (published around early February 2026), which has gone extremely viral.
 
@@ -32,7 +32,7 @@ Other recent uses of the phrase on X today appear in scattered contexts:
 
 No single new "hot" breaking-news tweet dominates with that exact phrase right now; the biggest recurring hot topic linked to it remains Matt Shumer's viral AI warning essay from earlier this month.
 
-References:  
+References:
 
 - [Something big is happening in AI — and most people will be blindsided | Fortune](https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer)
 - [Why is “Something Big Is Happening” Trending Today? | IT Jobs at Risk? Matt Shumer Warning | AI News (YouTube)](https://www.youtube.com/watch?v=Twzlk4flhFo)

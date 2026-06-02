@@ -18,6 +18,6 @@ type: note
 
 该计划于1908年经国会批准后启动，成为中美教育交流史上重要的早期范例。
 
-[庚子赔款奖学金 - 维基百科](https://en.wikipedia.org/wiki/Boxer_Indemnity_Scholarship)  
-[1907年12月3日：第七次年度国情咨文 | 米勒中心](https://millercenter.org/the-presidency/presidential-speeches/december-3-1907-seventh-annual-message)  
+[庚子赔款奖学金 - 维基百科](https://en.wikipedia.org/wiki/Boxer_Indemnity_Scholarship)
+[1907年12月3日：第七次年度国情咨文 | 米勒中心](https://millercenter.org/the-presidency/presidential-speeches/december-3-1907-seventh-annual-message)
 [留美中国学生可成为和平使者 - 中国日报网](https://global.chinadaily.com.cn/a/201911/12/WS5dc9db76a310cf3e35576b33.html)

@@ -101,7 +101,7 @@ export class ProductService {
 - **Component (.ts)** → "How does it **behave** for this screen? What data do I show? What happens on click?"
 - **Service (.ts)** → "How do I **get/transform/share** data? What's the **business rule**?"
 
-**Component owns the template**  
+**Component owns the template**
 **Service is owned by many components** (or the whole app)
 
 This structure is the main reason Angular applications can stay maintainable even when they grow to hundreds of components.

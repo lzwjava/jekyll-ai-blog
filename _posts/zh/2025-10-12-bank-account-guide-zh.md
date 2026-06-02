@@ -70,6 +70,6 @@ type: note
 - 信息变更请及时通过App或分行更新
 - 旅游签注/通行证均可办理，需确保签注覆盖停留期
 
-[中银香港手机开户常见问答](https://www.bochk.com/dam/more/accountopening/images/faq_en.pdf)  
-[开户流程及所需文件](https://www.bochk.com/dam/bochk/desktop/interface/AC_Open_en.pdf)  
+[中银香港手机开户常见问答](https://www.bochk.com/dam/more/accountopening/images/faq_en.pdf)
+[开户流程及所需文件](https://www.bochk.com/dam/bochk/desktop/interface/AC_Open_en.pdf)
 [2025年最新指南：如何在香港开设银行账户](https://statrys.com/blog/open-hong-kong-bank-account)

@@ -23,10 +23,10 @@ The file you provided belongs to "Reveal-In-GitHub," an Xcode plugin (`.xcplugin
 
 #### Key Concepts in the File
 
-1. **Objects and UUIDs**  
+1. **Objects and UUIDs**
    The file is a giant dictionary (or "object graph") starting with `objects = { ... };`. Every entity—whether it’s a file, a build phase, or a target—gets a unique identifier (UUID) like `706F254E1BE7C76E00CA15B4`. These IDs link everything together. For example, a source file’s UUID in the `PBXFileReference` section might be referenced in the `PBXBuildFile` section to say, “Hey, compile this!”
 
-2. **Sections for Organization**  
+2. **Sections for Organization**
    The file is split into labeled sections, each handling a specific part of the build process:
    - **`PBXBuildFile`**: Lists files to be compiled or processed (e.g., `.m` files for Objective-C source).
    - **`PBXFileReference`**: Catalogues all files in the project—source code, headers, resources (like `.xib` files), and frameworks.
@@ -37,33 +37,33 @@ The file you provided belongs to "Reveal-In-GitHub," an Xcode plugin (`.xcplugin
    - **`PBXResourcesBuildPhase` and `PBXSourcesBuildPhase`**: Separate build steps for resources (e.g., UI files) and source code.
    - **`XCBuildConfiguration` and `XCConfigurationList`**: Store build settings for Debug and Release modes.
 
-3. **Build Phases**  
+3. **Build Phases**
    Building an app isn’t just “compile everything.” It’s a phased process:
    - **Sources**: Compile `.m` files (e.g., `RIGConfig.m`).
    - **Frameworks**: Link libraries like `Cocoa.framework`.
    - **Resources**: Bundle assets like `RIGSettingWindowController.xib` (a UI file).
    These phases ensure the right things happen in the right order.
 
-4. **File Types and Roles**  
+4. **File Types and Roles**
    The plugin uses Objective-C (`.h` and `.m` files) and includes a `.xib` for a settings window. The `.xcplugin` extension tells us it’s an Xcode plugin, a special type of macOS bundle. Frameworks like `Foundation` (core utilities) and `Cocoa` (UI and app-level tools) are standard for macOS development.
 
-5. **Build Configurations**  
+5. **Build Configurations**
    The file defines two build flavors: `Debug` and `Release`. Debug mode includes extra checks (e.g., `DEBUG=1`) and unoptimized code for easier debugging, while Release mode strips debug info and optimizes for performance. Settings like `MACOSX_DEPLOYMENT_TARGET = 10.10` ensure compatibility with macOS versions.
 
 ---
 
 #### Patterns to Notice
 
-1. **UUID References**  
+1. **UUID References**
    Notice how UUIDs connect the dots? In `PBXBuildFile`, a file like `RIGConfig.m` is tied to its `PBXFileReference` entry via the same UUID. This modular linking keeps the file structured and scalable.
 
-2. **Hierarchical Grouping**  
+2. **Hierarchical Grouping**
    The `PBXGroup` section mimics a file tree. The top-level group includes frameworks, the plugin’s source files, and a “Products” folder for the output (`Reveal-In-GitHub.xcplugin`). This hierarchy helps Xcode present a clean UI to developers.
 
-3. **Repetition with Purpose**  
+3. **Repetition with Purpose**
    Files appear multiple times—once in `PBXFileReference` (defining them), again in `PBXBuildFile` (marking them for compilation), and in build phases (specifying their role). This repetition ensures every file’s purpose is clear.
 
-4. **Configuration Flexibility**  
+4. **Configuration Flexibility**
    Build settings use variables like `$(inherited)` or `$(TARGET_NAME)` to stay flexible. This lets the same settings adapt to different targets or environments without hardcoding.
 
 ---

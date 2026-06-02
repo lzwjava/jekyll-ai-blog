@@ -21,8 +21,8 @@ Here is a practical, up-to-date preparation roadmap for the IELTS exam (valid fo
 - Know the format:
   - **Listening**: 4 sections, 40 questions, ~30 min + 10 min transfer (paper-based)
   - **Reading**: 3 passages, 40 questions, 60 min (Academic = more academic texts; GT = everyday + work topics)
-  - **Writing**: 60 min  
-    - Task 1: Academic = describe chart/graph (~150 words); GT = write a letter  
+  - **Writing**: 60 min
+    - Task 1: Academic = describe chart/graph (~150 words); GT = write a letter
     - Task 2: Essay for both (~250 words)
   - **Speaking**: 11–14 min face-to-face or video call (3 parts)
 - Read official band descriptors (public band 6.0–8.0 criteria) on ielts.org to know exactly what examiners want.

@@ -33,5 +33,5 @@ BERT的突破性进展主要体现在预训练策略、架构设计和微调方�
 
 这些创新推动自然语言处理从任务特定模型转向通用预训练嵌入范式，为RoBERTa、T5等模型铺平了道路。BERT的影响力体现在从搜索引擎到聊天机器人等各行各业的广泛应用中。
 
-[BERT论文](https://arxiv.org/abs/1810.04805)  
+[BERT论文](https://arxiv.org/abs/1810.04805)
 [BERT代码仓库](https://github.com/google-research/bert)

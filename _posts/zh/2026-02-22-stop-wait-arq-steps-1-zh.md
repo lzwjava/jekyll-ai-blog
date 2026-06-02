@@ -52,7 +52,7 @@ type: note
 
 此场景突显了在 Stop-and-Wait ARQ 中使用 NAK 的效率，因为当接收方立即检测到错误时，避免了等待超时期。
 
-**参考资料：**  
+**参考资料：**
 
 - [Stop-and-Wait ARQ Protocol - GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 - [Error Control: Flow Control & Error Control - Tutorialspoint](https://www.tutorialspoint.com/data_communication_computer_network/error_control.htm)

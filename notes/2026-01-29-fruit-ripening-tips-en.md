@@ -12,7 +12,7 @@ type: note
 
 Question: Why do bananas and mangoes turn from green to yellow after some days when received green, and how can we speed up this process?
 
-Answer: 
+Answer:
 
 Both **bananas** and **mangoes** are climacteric fruits, meaning they continue to ripen after being harvested. The color change from green to yellow happens due to a natural plant hormone called **ethylene gas**.
 
@@ -49,7 +49,7 @@ The most effective and safe home method is to trap the ethylene gas around the f
 
 Avoid: Putting in fridge while still green — low temperature slows or stops ripening and can prevent full yellow color/sweetness later.
 
-References:  
+References:
 
 - [Why Do Bananas Change To Yellow When Ripening?](https://www.scienceabc.com/nature/bananas-change-colour-upon-ripening.html)
 - [How to Ripen Fruit Fast: Tips to Soften Mangoes & More](https://www.clubhouse.ca/en-ca/articles/how-to-ripen-produce-quickly)

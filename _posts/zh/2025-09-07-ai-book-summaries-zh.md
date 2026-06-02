@@ -36,8 +36,8 @@ type: note
 
 这种方法能将你的工作室从积尘图书馆转化为个性化知识中心。如果你分享具体书籍节选或书名，我现在就可以示范总结！
 
-[AI增强型书籍总结的益处](https://simpleacademy.ai/blog/benefits-of-ai-enhanced-book-summaries/)  
-[AI正让阅读书籍显得过时——而学生将损失良多](https://theconversation.com/ai-is-making-reading-books-feel-obsolete-and-students-have-a-lot-to-lose-262680)  
-[AI生成总结是个问题——对作者和整个社会而言](https://nataliewexler.substack.com/p/ai-generated-summaries-are-a-problem)  
-[如何使用ChatGPT总结书籍：AI书籍总结的7次实验](https://fortelabs.com/blog/how-to-summarize-books-using-chatgpt/)  
+[AI增强型书籍总结的益处](https://simpleacademy.ai/blog/benefits-of-ai-enhanced-book-summaries/)
+[AI正让阅读书籍显得过时——而学生将损失良多](https://theconversation.com/ai-is-making-reading-books-feel-obsolete-and-students-have-a-lot-to-lose-262680)
+[AI生成总结是个问题——对作者和整个社会而言](https://nataliewexler.substack.com/p/ai-generated-summaries-are-a-problem)
+[如何使用ChatGPT总结书籍：AI书籍总结的7次实验](https://fortelabs.com/blog/how-to-summarize-books-using-chatgpt/)
 [AI书籍总结工具如何革新阅读](https://blog.plutoai.in/how-ai-book-summarizers-are-revolutionizing-reading/)

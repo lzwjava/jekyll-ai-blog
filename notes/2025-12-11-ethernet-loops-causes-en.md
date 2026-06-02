@@ -22,16 +22,16 @@ An **Ethernet network** is simply a network built using Ethernet standards (IEEE
 ### Why do loops occur in Ethernet networks?
 Loops are not accidental misconfigurations in most enterprise or data-center designs—they are deliberately created for **redundancy and high availability**. Here’s why:
 
-1. **Redundancy and Fault Tolerance**  
-   If a single switch or link fails, you want traffic to automatically take an alternate path so the network stays up.  
-   Example topology:  
-   - Two or more switches connected by multiple links (e.g., Switch A ↔ Switch B and Switch A ↔ Switch C ↔ Switch B) create parallel paths.  
+1. **Redundancy and Fault Tolerance**
+   If a single switch or link fails, you want traffic to automatically take an alternate path so the network stays up.
+   Example topology:
+   - Two or more switches connected by multiple links (e.g., Switch A ↔ Switch B and Switch A ↔ Switch C ↔ Switch B) create parallel paths.
    - This forms physical loops while providing backup routes.
 
-2. **Common design scenarios that create loops**  
-   - Core/distribution/access layers with multiple uplinks  
-   - Dual-homed servers (connected to two switches)  
-   - Mesh or partial-mesh topologies in data centers  
+2. **Common design scenarios that create loops**
+   - Core/distribution/access layers with multiple uplinks
+   - Dual-homed servers (connected to two switches)
+   - Mesh or partial-mesh topologies in data centers
    - Accidental loops when someone plugs both ends of a patch cable into the same switch or creates a cable loop between switches
 
 ### Why are loops a problem in Ethernet (Layer 2)?
@@ -51,5 +51,5 @@ The Spanning Tree Protocol (STP) allows the physical loops to exist for redundan
 
 So traffic flows in a loop-free logical tree while alternate paths remain available for failoverhop backup if a link fails (convergence takes ~30–50 seconds in classic 802.1D STP; newer versions like RSTP are much faster).
 
-In short:  
+In short:
 Ethernet networks have loops **intentionally** for resiliency, but without STP (or newer alternatives like RSTP, MSTP, or technologies such as TRILL/SPB or simply Layer 3 routing), those loops would destroy the network via broadcast storms. STP turns a physically looped topology into a logically loop-free tree.

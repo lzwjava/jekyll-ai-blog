@@ -12,7 +12,7 @@ type: note
 
 Question: What technology enables inter-VLAN communication using a single physical router interface?
 
-Answer: 
+Answer:
 
 正确答案是 **B) One-arm routing**。
 

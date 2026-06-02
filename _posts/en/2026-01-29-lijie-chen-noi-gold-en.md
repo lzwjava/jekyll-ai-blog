@@ -12,7 +12,7 @@ type: note
 
 **Question:** How did Cheng Lijie (Tsinghua and UC Berkeley professor) start with programming, how did he win in NOI, and it seems he was obsessed with games in middle school before suddenly winning in NOI?
 
-**Answer:** 
+**Answer:**
 
 The person you are referring to is **Lijie Chen** (陈立杰 in Chinese), an Assistant Professor at UC Berkeley's EECS department (in the Theory Group), previously at Tsinghua University's Yao Class (a elite CS program), and later a PhD from MIT. He is a prominent researcher in theoretical computer science, especially computational complexity.
 
@@ -34,7 +34,7 @@ Lijie Chen's NOI 2012 gold medal performance allowed direct entry to Tsinghua Ya
 
 His story is more one of consistent excellence in theory/algorithms from high school onward rather than a "sudden" turnaround from gaming.
 
-**References:**  
+**References:**
 
 - [Lijie Chen's personal website](https://chen-lijie.github.io/)
 - [UC Berkeley EECS faculty page](https://www2.eecs.berkeley.edu/Faculty/Homepages/lijiechen.html)

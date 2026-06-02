@@ -13,7 +13,7 @@ Change and improvement are powerful drivers of growth, but they can indeed have 
 
 - **Pros of embracing change and learning**: Continuous improvement fuels innovation, adaptability, and resilience. It pushes individuals and societies to evolve, solve problems, and avoid stagnation. For example, learning from past mistakes has driven technological leaps, like safer cars or more efficient renewable energy.
 
-- **Cons of over-optimizing**: Relentless pursuit of "better" can paralyze decision-making. Overthinking small choices—like agonizing over the perfect word in an email—wastes time and mental energy. It can also create "analysis paralysis," where people delay action waiting for more information or the ideal solution. Studies suggest decision fatigue reduces willpower, leading to poorer choices over time [Decision Fatigue, APA]. 
+- **Cons of over-optimizing**: Relentless pursuit of "better" can paralyze decision-making. Overthinking small choices—like agonizing over the perfect word in an email—wastes time and mental energy. It can also create "analysis paralysis," where people delay action waiting for more information or the ideal solution. Studies suggest decision fatigue reduces willpower, leading to poorer choices over time [Decision Fatigue, APA].
 
 - **Balance is key**: The trick is knowing when to act decisively versus when to reflect and improve. A practical approach is the 80/20 rule: aim for 80% certainty, then move forward, adjusting as needed. This prevents getting stuck in minor details while still allowing room for growth. For instance, successful entrepreneurs often launch "good enough" products and iterate based on feedback, rather than waiting for perfection.
 

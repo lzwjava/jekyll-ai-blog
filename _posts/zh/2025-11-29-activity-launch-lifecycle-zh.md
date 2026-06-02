@@ -16,20 +16,20 @@ type: note
 
 当 Activity 首次创建时（例如应用启动或用户跳转到新 Activity），系统会按以下固定顺序调用回调方法：
 
-1. **onCreate()**  
-   - Activity 正在创建  
-   - 在此方法中设置布局（setContentView()）、初始化视图和准备核心组件  
+1. **onCreate()**
+   - Activity 正在创建
+   - 在此方法中设置布局（setContentView()）、初始化视图和准备核心组件
    - 此时 Activity 对用户不可见
 
-2. **onStart()**  
-   - Activity 开始对用户可见  
+2. **onStart()**
+   - Activity 开始对用户可见
    - 此时界面已显示但尚未进入前台交互状态
 
-3. **onResume()**  
-   - Activity 进入前台并完全进入交互状态  
+3. **onResume()**
+   - Activity 进入前台并完全进入交互状态
    - 此时 Activity 获得焦点并正常运行，用户可与其进行交互
 
-因此正确顺序为：  
+因此正确顺序为：
 **onCreate() → onStart() → onResume()**
 
 其他选项错误原因：

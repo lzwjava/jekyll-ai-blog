@@ -24,16 +24,16 @@ type: note
    mkdir -p fineweb_test_dump
    cd fineweb_test_dump
    echo "正在通过 HF 镜像站下载 FineWeb 分片（亚洲地区加速）..."
-   
+
    # 将 huggingface.co 替换为 hf-mirror.com
    wget -c "https://hf-mirror.com/datasets/HuggingFaceFW/fineweb/resolve/main/data/CC-MAIN-2013-20/000_00000.parquet?download=true"
-   
+
    echo "完成！分片大小：约500MB–1GB"
    echo "更多分片请循环下载，例如：000_00001.parquet 等"
    echo "Python 加载方式：from datasets import load_dataset; ds = load_dataset('HuggingFaceFW/fineweb', name='CC-MAIN-2013-20', split='train', streaming=True)"
    ```
 
-   运行：`./scripts/train/wget_fineweb_1.sh`  
+   运行：`./scripts/train/wget_fineweb_1.sh`
    - 若镜像站延迟（罕见情况），可回退官方地址：`https://huggingface.co/datasets/...`（但需配合第2条速度优化技巧）
 
 ### 2. **启用 hf_transfer 加速（适用于所有 HF 下载——断点续传速度提升100倍）**
@@ -45,7 +45,7 @@ type: note
    export HF_HUB_ENABLE_HF_TRANSFER=1
    ```
 
-   重新运行原始脚本。该工具会加速底层对 HF URL 的 `wget` 调用。  
+   重新运行原始脚本。该工具会加速底层对 HF URL 的 `wget` 调用。
    - 专业建议：若需完整数据集流式传输（无需完整下载），请在管道中使用 Python：
      ```python
      from datasets import load_dataset

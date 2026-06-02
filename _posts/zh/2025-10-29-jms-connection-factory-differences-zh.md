@@ -45,7 +45,7 @@ type: note
 
 综上所述，在 WAS 上的现代 JMS 应用中，为获得通用性应选择常规连接工厂，而队列连接工厂则是专为面向队列或遗留场景保留的特殊化方案。
 
-[连接工厂集合 - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-connection-factory-collection)  
-[队列连接工厂集合 - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-queue-connection-factory-collection)  
-[JMS QueueConnectionFactory 与 ConnectionFactory 对比 - Stack Overflow](https://stackoverflow.com/questions/30121654/jms-queueconnectionfactory-vs-connectionfactory)  
+[连接工厂集合 - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-connection-factory-collection)
+[队列连接工厂集合 - IBM](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=settings-queue-connection-factory-collection)
+[JMS QueueConnectionFactory 与 ConnectionFactory 对比 - Stack Overflow](https://stackoverflow.com/questions/30121654/jms-queueconnectionfactory-vs-connectionfactory)
 [队列连接工厂 VS 连接工厂 - MQSeries.net](https://mqseries.net/phpBB/viewtopic.php?p=102901)

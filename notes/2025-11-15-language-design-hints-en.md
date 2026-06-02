@@ -20,36 +20,36 @@ Hoare’s central thesis is that **programming language design has been dominate
 
 ### Key Hints / Ideas in the Paper
 
-1. **Premature optimization is the root of all evil** (in language design)  
+1. **Premature optimization is the root of all evil** (in language design)
    Don’t add features just because they give 10–20 % performance gains if they complicate the language forever.
 
-2. **Simplicity over power**  
-   “The price of reliability is the pursuit of the utmost simplicity.”  
+2. **Simplicity over power**
+   “The price of reliability is the pursuit of the utmost simplicity.”
    A language should have as few concepts as possible. Complexity should be pushed into libraries, not the core language.
 
-3. **Avoid “one language to rule them all”**  
+3. **Avoid “one language to rule them all”**
    He criticizes huge general-purpose languages (especially PL/I and ALGOL 68). Better to have small, clean languages tailored to specific domains.
 
-4. **Orthogonality and regularity**  
+4. **Orthogonality and regularity**
    Language features should combine in predictable, non-surprising ways (a principle later made famous by Perl’s “there’s more than one way to do it” — which Hoare would hate).
 
-5. **Abstraction and information hiding**  
+5. **Abstraction and information hiding**
    Strong support for modules, abstract data types, and encapsulation — ideas that directly influenced CLU, Modula-2, and later Ada and object-oriented languages.
 
-6. **Security and reliability first**  
+6. **Security and reliability first**
    Languages should make it easy to write correct, provable programs. He was already pushing for strong typing, proofs of correctness, and avoiding features that make verification hard.
 
-7. **Concrete syntax matters, but not as much as people think**  
+7. **Concrete syntax matters, but not as much as people think**
    Curly braces vs BEGIN/END is relatively unimportant compared to semantic clarity.
 
-8. **Historical regrets**  
+8. **Historical regrets**
    He reflects on ALGOL 60 (which he loved for its elegance) vs ALGOL 68 (which he thought was a disaster of over-engineering).
 
-9. **Ideal language vision (1973!)**  
-   - Very small core  
-   - Powerful module/abstraction system  
-   - Strong static typing  
-   - Separate compilation  
+9. **Ideal language vision (1973!)**
+   - Very small core
+   - Powerful module/abstraction system
+   - Strong static typing
+   - Separate compilation
    - Facilities for concurrent programming (Communicating Sequential Processes — CSP — is already hinted at here; he published CSP five years later in 1978)
 
 ### Famous Quotes from the Paper
@@ -64,7 +64,7 @@ This 1973 talk basically predicted the next 30–40 years of language design phi
 - His criticism of ALGOL 68 and PL/I is still quoted when people complain about C++, Java, or Scala bloat
 
 ### Where to read it
-The original 1973 Stanford technical report version (most commonly cited):  
+The original 1973 Stanford technical report version (most commonly cited):
 [Hints on Programming Language Design – C. A. R. Hoare (1973)](http://i.stanford.edu/pub/cstr/reports/cs/tr/73/403/CS-TR-73-403.pdf)
 
 A slightly cleaned-up version appears in the book *Programming Language Design and Implementation* and in Hoare’s collected works.

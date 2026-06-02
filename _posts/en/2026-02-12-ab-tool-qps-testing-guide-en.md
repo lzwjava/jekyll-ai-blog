@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive introduction to AB performance testing, the AB command, the AB tool, and how to test QPS.
 
-Answer: 
+Answer:
 
 **ApacheBench (ab)** is a simple, lightweight, command-line benchmarking and load testing tool included with the **Apache HTTP Server** distribution. It is designed to measure the **performance** of HTTP/HTTPS servers by sending a large number of requests and reporting key metrics.
 
@@ -162,7 +162,7 @@ Key metrics to watch:
 
 **ab** remains one of the fastest ways to get a rough but useful QPS/latency picture of any HTTP endpoint.
 
-References:  
+References:
 
 - [Official ApacheBench documentation](https://httpd.apache.org/docs/2.4/programs/ab.html)
 - [Datadog guide on using ApacheBench](https://www.datadoghq.com/blog/apachebench)

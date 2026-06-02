@@ -76,10 +76,10 @@ Since you're already blog/GitHub-native:
 ```bash
 # predictions.md in your blog repo
 ## 2025-05-23 | Confidence: 75%
-**Prediction**: Anthropic cuts Opus price >30% by May 2026  
+**Prediction**: Anthropic cuts Opus price >30% by May 2026
 **Review**: [fill in 2026-05-23]
 
-## 2025-05-23 | Confidence: 60%  
+## 2025-05-23 | Confidence: 60%
 **Prediction**: Still using Hermes over Claude Code in 6 months
 **Review**: [fill in 2025-11-23]
 ```

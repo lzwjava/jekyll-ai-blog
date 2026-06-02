@@ -24,6 +24,6 @@ type: note
 
 简言之，当今体系更具全球化（危机快速传导但遏制更迅捷）、多元化（可从股票转向AI代币或太阳能债券），且汲取了历次危机的教训——如2008年后压力测试使银行体系更坚韧。1929年的幽灵仍在泡沫心理中游荡，但这些演进让我们得以避免重蹈覆辙。若要说相似，2025年更像2008年的加强复刻版：贪婪依旧，刹车升级。
 
-[从150年股市崩盘中我们学到了什么](https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes)  
-[市场与1929年如出一辙，但投资者仍在涌入](https://medium.com/@finomicsedge/the-market-looks-exactly-like-1929-but-everyone-keeps-buying-anyway-f710c4a71c62)  
+[从150年股市崩盘中我们学到了什么](https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes)
+[市场与1929年如出一辙，但投资者仍在涌入](https://medium.com/@finomicsedge/the-market-looks-exactly-like-1929-but-everyone-keeps-buying-anyway-f710c4a71c62)
 [1929年幽灵为2025年投资者提供启示](https://www.reuters.com/markets/us/ghosts-1929-offer-lessons-investors-today-fridson-2025-04-25/)

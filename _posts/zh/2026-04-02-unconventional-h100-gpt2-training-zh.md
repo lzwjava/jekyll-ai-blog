@@ -14,7 +14,7 @@ type: note
 ---
 
 ### 1. **使用 1 个 H100 来训练 124M 模型**
-大多数人会为这个小型模型使用单个 A100 甚至 V100。使用 H100 是过度杀鸡用牛刀——但这正是重点。  
+大多数人会为这个小型模型使用单个 A100 甚至 V100。使用 H100 是过度杀鸡用牛刀——但这正是重点。
 **不受欢迎的转折**：不要并行化。在 **一个 H100** 上运行，使用巨大的 batch size，利用 H100 的 FP8 支持通过 gradient accumulation 模拟更大的有效 batch size。这保持简单，避免通信开销，并且不浪费 GPU 潜力。
 
 ---
@@ -25,7 +25,7 @@ H100 原生支持 FP8。大多数人会保留 FP32 的 master weights 以确保�
 ---
 
 ### 3. **使用 8 个 H100，但禁用所有并行机制**
-不要使用 data parallelism、tensor parallelism 或 pipeline parallelism，只需在同一实例上启动 **8 个独立的训练运行**，每个使用不同的 random seed。并行进行 hyperparameter sweep。  
+不要使用 data parallelism、tensor parallelism 或 pipeline parallelism，只需在同一实例上启动 **8 个独立的训练运行**，每个使用不同的 random seed。并行进行 hyperparameter sweep。
 为什么不受欢迎？人们期望分布式训练加速单个模型，但这里你能在相同时间内获得 8 个训练变体。
 
 ---

@@ -16,16 +16,16 @@ Got it. You're using **GitHub Copilot in VS Code**, and you're asking if there's
 GitHub Copilot generates suggestions inline as **ghost text**. These suggestions are *not actual edits* until you explicitly accept them. Because of this design, there is **no "accept all" button** — you can only accept suggestions one at a time.
 
 ### Options You Have
-1. **Accept a suggestion:**  
+1. **Accept a suggestion:**
    - Press `Tab` or `Ctrl`+`Enter` (depending on your keybinding) when the ghost text appears.
    - This applies the suggestion into the buffer.
 
-2. **Accept word-by-word or line-by-line:**  
-   - `Tab` → Accept the entire suggestion.  
+2. **Accept word-by-word or line-by-line:**
+   - `Tab` → Accept the entire suggestion.
    - `Ctrl` + `→` (Windows/Linux) or `Option` + `→` (macOS) can accept parts of the suggestion step by step, if supported.
 
-3. **If Copilot Chat (or Copilot Edits) is used:**  
-   - In Copilot Chat, when code edits are proposed (like a diff in the inline editor), you **can accept/reject the whole file** or each chunk separately.  
+3. **If Copilot Chat (or Copilot Edits) is used:**
+   - In Copilot Chat, when code edits are proposed (like a diff in the inline editor), you **can accept/reject the whole file** or each chunk separately.
    - Currently, you must go chunk by chunk. There’s no "apply all chunks" option.
 
 ---

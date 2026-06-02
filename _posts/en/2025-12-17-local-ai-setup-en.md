@@ -12,7 +12,7 @@ type: note
 
 Question: What are the best tools and setups for local computer-based AI development, including not just programming but all aspects like training small models, using lightweight models for experimentation, databases, small datasets, and quick prototyping of products with user interactions?
 
-Answer: 
+Answer:
 
 To develop AI applications locally on your computer—covering programming assistance, experimenting with small models, fine-tuning or training on small datasets, lightweight databases, and rapid prototyping of interactive products—here is a comprehensive setup using free, open-source tools as of late 2025.
 
@@ -49,12 +49,12 @@ Example workflow: Run model via Ollama API → Build UI in Gradio/Streamlit → 
 
 This local stack enables full-cycle development: experiment with models, handle data, and prototype user-facing products quickly—all offline, private, and cost-free.
 
-References:  
+References:
 
-- https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips  
-- https://www.unite.ai/best-llm-tools-to-run-models-locally/  
-- https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/  
-- https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally  
-- https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/  
-- https://www.gradio.app/  
+- https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips
+- https://www.unite.ai/best-llm-tools-to-run-models-locally/
+- https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/
+- https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally
+- https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/
+- https://www.gradio.app/
 - https://clickup.com/blog/streamlit-alternatives/

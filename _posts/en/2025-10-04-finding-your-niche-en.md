@@ -18,7 +18,7 @@ Focusing on "now and future" as you said, here's a practical playbook to scout a
 These are global but with strong China/Asia ties—great for async chats on full-stack experiments, distributed systems, or using AI as an "autonomous agent" like you do.
 
 - **Cloud Native Guangzhou (CNCF Community)**: A developer-focused group on cloud tech, containers, and microservices (your Alibaba/AWS/Azure wheelhouse). They host talks and hack sessions; jump in via their Slack or forums to discuss real-world logging/testing setups. Active with passionate devs who geek out on future-proof architectures.
-  
+
 - **Reddit's r/MachineLearning and r/LearnMachineLearning**: Dive into threads on big data tools or self-taught ML paths. Your 1 year in ML + 1000+ algo problems? Post about your freelance experiments or AI logging hacks—folks here love niche "how I built X" stories. Bonus: Search for "China AI self-study" for local angles.
 
 - **EndMyopia Forum (from endmyopia.org)**: Perfect for your 3-year myopia reversal research. It's a tight-knit community sharing experiments inspired by Todd Becker and similar (Yin Wang vibes too). Post your academic-style papers or gadget hacks (like EMF meters for eye strain?); they've got success stories from high-myopia reversals and ongoing trials. Super niche, low noise—ideal for deep bonds.
@@ -46,13 +46,13 @@ Leverage your road-trip energy—hit these for face-to-face chats on algorithms,
 
 You're already ahead with that knowledge-sharing habit and experimental spirit—friends will gravitate once you plant those seeds in the right soils. If a specific niche (e.g., more on vision or Android hacks) clicks, hit me with details for tailored hunts. What's one interest you're itching to geek out on first?
 
-**References**  
-[Cloud Native Guangzhou](https://community.cncf.io/cloud-native-guangzhou/)  
-[Startup Grind Guangzhou](https://www.startupgrind.com/guangzhou/)  
-[Eventbrite Guangzhou IT Meetups](https://www.eventbrite.com/d/china--guangzhou/it-meetups/)  
-[Meetup Guangzhou Networking](https://www.meetup.com/find/cn--guangzhou/networking/)  
-[IEEE PCCE 2025](https://www.eventbrite.com/b/china--guangzhou/science-and-tech/)  
-[Guangzhou AI Workshop 2025](https://www.itsoc.org/event/2025-guangzhou-hong-kong-and-taipei-joint-workshop-artificial-intelligence-communications-and)  
-[EndMyopia Community](https://endmyopia.org/)  
-[Reddit r/myopia](https://www.reddit.com/r/myopia/)  
+**References**
+[Cloud Native Guangzhou](https://community.cncf.io/cloud-native-guangzhou/)
+[Startup Grind Guangzhou](https://www.startupgrind.com/guangzhou/)
+[Eventbrite Guangzhou IT Meetups](https://www.eventbrite.com/d/china--guangzhou/it-meetups/)
+[Meetup Guangzhou Networking](https://www.meetup.com/find/cn--guangzhou/networking/)
+[IEEE PCCE 2025](https://www.eventbrite.com/b/china--guangzhou/science-and-tech/)
+[Guangzhou AI Workshop 2025](https://www.itsoc.org/event/2025-guangzhou-hong-kong-and-taipei-joint-workshop-artificial-intelligence-communications-and)
+[EndMyopia Community](https://endmyopia.org/)
+[Reddit r/myopia](https://www.reddit.com/r/myopia/)
 [AI Night Schools in China](https://www.globaltimes.cn/page/202506/1335436.shtml)

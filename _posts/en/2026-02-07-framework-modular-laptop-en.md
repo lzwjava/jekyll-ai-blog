@@ -12,7 +12,7 @@ type: note
 
 Question: Which company is building the modular laptop?
 
-Answer: 
+Answer:
 
 The primary company building truly **modular laptops** (where nearly every major component like the motherboard, CPU, RAM, storage, ports, battery, keyboard, and more can be user-upgraded or replaced) is **Framework Computer, Inc.** (commonly known as Framework).
 
@@ -33,7 +33,7 @@ These are steps toward better repairability but don't match Framework's level of
 
 Framework remains the clear leader and most recognized for building genuinely modular laptops in 2026.
 
-References:  
+References:
 
 - [Framework official website](https://frame.work/)
 - [Framework Computer - Wikipedia](https://en.wikipedia.org/wiki/Framework_Computer)

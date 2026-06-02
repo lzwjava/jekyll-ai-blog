@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular ideas or opinions about Huaqiangbei in Shenzhen?
 
-Answer: 
+Answer:
 
 Huaqiangbei (often abbreviated as HQB) in Shenzhen is widely celebrated as the world's largest electronics market, a hub for innovation, cheap gadgets, and the birthplace of China's hardware startup culture. However, several unpopular or critical views challenge this positive narrative, often highlighting its downsides, decline, or ethical issues. These opinions are less commonly voiced in mainstream hype but appear in forums, articles, and expert analyses. Here are some key unpopular ideas:
 
@@ -26,10 +26,10 @@ Huaqiangbei (often abbreviated as HQB) in Shenzhen is widely celebrated as the w
 
 These views contrast with the popular image of HQB as an exciting, bargain-filled tech paradise, but they reflect concerns from experienced visitors, locals, and industry observers who see it as chaotic or past its prime.
 
-References:  
+References:
 
-- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)  
-- [没人关心华强北的明天 (No one cares about Huaqiangbei's tomorrow)](https://www.jiemian.com/article/3718423.html)  
-- [Reddit threads on scams and fakes in Huaqiangbei](https://www.reddit.com/r/shenzhen/comments/1phu0sr/people_always_talk_about_huaqiangbeiyou_can_get/)  
-- [HuaQiangBei in the Electronics Supply Chain](https://qualityinspection.org/huaqiangbei/)  
+- [Why Is Huaqiangbei Electronic Market Not Good for Importers Anymore?](https://www.maplesourcing.com/why-is-huaqiangbei-electronic-market-not-good-for-importers-anymore.html)
+- [没人关心华强北的明天 (No one cares about Huaqiangbei's tomorrow)](https://www.jiemian.com/article/3718423.html)
+- [Reddit threads on scams and fakes in Huaqiangbei](https://www.reddit.com/r/shenzhen/comments/1phu0sr/people_always_talk_about_huaqiangbeiyou_can_get/)
+- [HuaQiangBei in the Electronics Supply Chain](https://qualityinspection.org/huaqiangbei/)
 - [“华强北山寨手机”研究 (Research on Huaqiangbei shanzhai phones)](https://www.esmchina.com/info/55891.html)

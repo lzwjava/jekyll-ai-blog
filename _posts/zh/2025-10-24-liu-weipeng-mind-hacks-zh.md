@@ -20,6 +20,6 @@ http://mindhacks.cn 是刘未鹏的个人博客。作为微软首席软件工程
 
 若需查阅特定文章，博客档案馆存有历年相关主题文章，访问时建议配备中文浏览器或翻译工具。
 
-[刘未鹏领英档案](https://www.linkedin.com/in/pongba/)  
-[《暗时间》中文导读](https://topic.alibabacloud.com/a/dark-time-new-book-by-liu-weipeng-microsoft-asia-research-institute_8_8_31850692.html)  
+[刘未鹏领英档案](https://www.linkedin.com/in/pongba/)
+[《暗时间》中文导读](https://topic.alibabacloud.com/a/dark-time-new-book-by-liu-weipeng-microsoft-asia-research-institute_8_8_31850692.html)
 [《暗时间》阅读札记](http://www.apple4.cn/2012/01/10/2nd-reading-of-dark-time-from-liu-weipeng/)

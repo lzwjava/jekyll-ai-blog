@@ -19,6 +19,6 @@ A **remittance** is the transfer of money from one person or entity to another, 
 - **Business/Commercial**: Payments for invoices or debts, such as a company remitting funds to a supplier.
 - **Economic Impact**: Remittances are a major source of income for many developing countries, often exceeding foreign aid.
 
-[Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/remittance)  
-[Wikipedia: Remittance](https://en.wikipedia.org/wiki/Remittance)  
+[Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/remittance)
+[Wikipedia: Remittance](https://en.wikipedia.org/wiki/Remittance)
 [Investopedia: Remittance](https://www.investopedia.com/terms/r/remittance.asp)

@@ -32,13 +32,13 @@ Result: CPM (earnings per 1,000 followers) drops hard. Many who were making 7 fi
 ### Long-term value of the “personal brand”
 This is the key question. There are actually three quite different outcomes I’ve observed:
 
-1. **Cash out & exit (most common)**  
+1. **Cash out & exit (most common)**
    Sell the account/shop to a bigger MCN (multi-channel network) or brand, take the money, disappear or pivot. This is rational. A 24-year-old who made $2–5M in 4 years and stops is not a failure.
 
-2. **Turn the audience into a real brand (rare, but huge winners)**  
+2. **Turn the audience into a real brand (rare, but huge winners)**
    Examples: Li Jiaqi (Austin Li), Viya, Xinba, or smaller ones like 董先生 (Mr. Dong selling pearls). They stopped being “just an influencer” and became the face of their own supply chain / private label. They own factories, logistics, IP. Their personal brand now has moat. These people will still be rich in 20 years.
 
-3. **Slow decline / pivot (the majority after the peak)**  
+3. **Slow decline / pivot (the majority after the peak)**
    They keep live-streaming but with lower numbers, or they pivot to course-selling (“I teach you how to be an influencer”), or open physical stores, or just live off past savings. Not tragic, but no longer glamorous.
 
 ### Are the “old-school private” people outdated?

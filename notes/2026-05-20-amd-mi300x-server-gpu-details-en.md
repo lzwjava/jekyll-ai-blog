@@ -30,7 +30,7 @@ Done. Here's the summary:
 amd-smi
 ```
 
-I installed it at `/usr/local/bin/amd-smi` on the server. It reads sysfs/lspci directly since the GPU is an SR-IOV virtual function and the KFD (compute) interface isn't exposed — `rocm-smi` shows "No AMD GPUs specified" for the same reason. 
+I installed it at `/usr/local/bin/amd-smi` on the server. It reads sysfs/lspci directly since the GPU is an SR-IOV virtual function and the KFD (compute) interface isn't exposed — `rocm-smi` shows "No AMD GPUs specified" for the same reason.
 
 For full compute access (HIP, ROCm libraries, etc.), you'll need:
 ```

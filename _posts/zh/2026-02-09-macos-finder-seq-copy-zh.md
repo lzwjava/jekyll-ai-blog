@@ -43,12 +43,12 @@ type: note
 - 在 USB 3.0/3.1 Flash drive、外置 HDD 或网络拷贝上 → 单文件夹拷贝明显更可靠且通常更快。
 - 如果你追求极致速度且不介意使用命令行 → 对父文件夹使用 `cp -R` 或 `rsync -a`，通常比 Finder 更快。
 
-**总结经验法则 (macOS Finder)：**  
+**总结经验法则 (macOS Finder)：**
 单次大型拷贝操作 > 多个文件夹的并行拷贝 > 一个接一个的顺序拷贝。
 
-**References:**  
+**References:**
 
-- [https://discussions.apple.com/thread/1211440](https://discussions.apple.com/thread/1211440)  
-- [https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time](https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time)  
-- [https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198](https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198)  
+- [https://discussions.apple.com/thread/1211440](https://discussions.apple.com/thread/1211440)
+- [https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time](https://superuser.com/questions/252959/which-is-faster-copying-everything-at-once-or-one-thing-at-a-time)
+- [https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198](https://forums.macrumors.com/threads/what-is-the-best-most-reliable-way-to-copy-large-amounts-of-files-finder-or-the-terminal.2340198)
 - [https://discussions.apple.com/thread/255971420](https://discussions.apple.com/thread/255971420)

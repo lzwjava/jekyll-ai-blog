@@ -11,7 +11,7 @@ type: note
 
 Question: 简要描述 Network Operating System 的基本任务。
 
-Answer: 
+Answer:
 
 Network Operating System (NOS) 是一种专为管理网络资源、促进计算机间通信并为网络环境中的用户提供服务而设计的专用软件。其基本任务可总结如下：
 

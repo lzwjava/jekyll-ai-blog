@@ -22,7 +22,7 @@ nanoGPT 本身：**不能用于 6.7B**。它专为 GPT-2 规模设计（最高�
 ```python
 # nanoGPT 最大实际配置（Karpathy 自己的运行）
 n_layer = 36
-n_head = 20  
+n_head = 20
 n_embd = 1280  # GPT-2 XL
 # ~1.5B 参数 — 这是 Karpathy 设定的上限
 ```
@@ -44,7 +44,7 @@ n_embd = 1280  # GPT-2 XL
 ```
 6.7B 模型在 nanoGPT 默认配置下（fp32 AdamW）：
   权重：       26.8GB
-  梯度：       26.8GB  
+  梯度：       26.8GB
   动量 + 二阶矩：53.6GB
   激活（batch=4, seq=2048）：~30GB
   ─────────────────────────────────────────

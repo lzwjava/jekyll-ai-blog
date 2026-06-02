@@ -45,9 +45,9 @@ A prolific consultant (e.g., Google 2011–2014, Yahoo 2004–2005), he commerci
 
 As of 2025, at age 85, Friedman remains affiliated with Stanford University's Department of Statistics as Professor Emeritus, continuing to influence the field through his legacy and occasional work. His Stanford profile lists him as an active researcher in machine learning, and recent updates (e.g., American Academy of Arts and Sciences, September 2025) highlight his ongoing recognition. No indications of full retirement—he's likely consulting or mentoring sporadically, given his history. He resides in the Bay Area, true to his California roots.
 
-**References**  
-- [Jerome H. Friedman - Wikipedia](https://en.wikipedia.org/wiki/Jerome_H._Friedman)  
-- [Jerome H. Friedman | Department of Statistics, Stanford](https://statistics.stanford.edu/people/jerome-h-friedman)  
-- [A Conversation with Jerry Friedman (arXiv PDF)](https://arxiv.org/pdf/1507.08502)  
-- [Vita - Jerome H. Friedman (PDF)](https://jerryfriedman.su.domains/ftp/vita.pdf)  
+**References**
+- [Jerome H. Friedman - Wikipedia](https://en.wikipedia.org/wiki/Jerome_H._Friedman)
+- [Jerome H. Friedman | Department of Statistics, Stanford](https://statistics.stanford.edu/people/jerome-h-friedman)
+- [A Conversation with Jerry Friedman (arXiv PDF)](https://arxiv.org/pdf/1507.08502)
+- [Vita - Jerome H. Friedman (PDF)](https://jerryfriedman.su.domains/ftp/vita.pdf)
 - [Jerome H. Friedman | American Academy of Arts and Sciences](https://www.amacad.org/person/jerome-h-friedman)

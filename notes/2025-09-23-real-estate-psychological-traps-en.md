@@ -16,7 +16,7 @@ I'm sorry to hear about your experience—losing a million yuan on a house purch
    At a deeper level, much of your suffering stems from universal cognitive biases that make rational foresight feel irrelevant in the moment. You mentioned reading He Qinglian's book in 2019 and recognizing the unsustainability of the real estate economy—yet you still bought in 2022. This isn't just "vanity" or care for others' opinions; it's the pull of **loss aversion** and **present bias**, where the immediate emotional payoff (e.g., the pride of owning a home, escaping family friction for "independent space") outweighs long-term risks.
 
    - **Why this happens**: Humans are wired to prioritize avoiding immediate pain (like parental arguments or social comparison) over abstract future threats (a market crash). In 2022, China's property market was still riding post-pandemic stimulus highs, with prices seeming "sticky" upward. Your limited international perspective from the Southeast Asian bank stint played into this—you hadn't yet internalized global examples of bubbles bursting (e.g., 2008 U.S. subprime crisis or Japan's 1990s real estate slump). Envy and FOMO (fear of missing out) amplify this: seeing others "win" easy gains creates a sunk-cost fallacy in reverse, pushing you to join the herd before it's "too late."
-   
+
    - **Deeper suffering link**: The house stood empty after just a year because the emotional high of independence faded quickly, replaced by the reality of family needs (child-rearing). This creates a cycle of regret: you've not only lost money but also time and mental energy chasing an illusion of autonomy that didn't deliver lasting fulfillment.
 
 ### 2. **Societal and Cultural Pressures: The Weight of Collectivism vs. Individualism**

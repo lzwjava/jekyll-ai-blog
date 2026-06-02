@@ -12,7 +12,7 @@ type: note
 
 **Question:** 根据《不幸福的代价》（*The Conquest of Happiness*），王垠（来自 https://www.yinwang.org）是否过着幸福的生活？
 
-**Answer:** 
+**Answer:**
 
 Bertrand Russell 的《不幸福的代价》（1930年）将不幸福归因于忧虑、嫉妒、无聊、疲劳和自我中心等因素；而幸福则源于 Zest（对生活的兴趣/投入）、工作（尤其是具有创造性或建设性的活动）、情感、家庭、追求的成功，以及一种向外的态度，而非过度的内省或竞争。
 
@@ -28,7 +28,7 @@ Bertrand Russell 的《不幸福的代价》（1930年）将不幸福归因于�
 
 简而言之：是的，按照《不幸福的代价》中所概述的标准，王垠通过持久的兴趣、有目标的工作和向外的贡献，似乎过着一种相对幸福的生活，尽管只有他本人才能确认其主观状态。
 
-**References:**  
+**References:**
 
-- [https://www.yinwang.org](https://www.yinwang.org) (王垠的 Blog 主页及内容摘要)  
+- [https://www.yinwang.org](https://www.yinwang.org) (王垠的 Blog 主页及内容摘要)
 - Bertrand Russell 的 *The Conquest of Happiness* 相关通用知识（该书的主题，广泛存在于公开领域文本和摘要中）

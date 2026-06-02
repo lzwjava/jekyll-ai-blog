@@ -12,7 +12,7 @@ type: note
 
 Question: 在这个世界上，成功的公司和人并不是由他们使用的办公语言（中文或英文）决定的，而是由他们的产品以及他们对趋势的把握能力决定的，比如 ByteDance 或 OpenAI。他们利用 internet/digital tech 为全球用户服务，语言只是他们产品中很小的一部分，而大部分是 code、content 和 algorithms。对吗？
 
-Answer: 
+Answer:
 
 是的，你说得完全正确。
 

@@ -12,7 +12,7 @@ type: note
 
 Question: What is an introduction to Google Cloud Armor?
 
-Answer: 
+Answer:
 
 Google Cloud Armor is Google Cloud's **network security service** that protects applications and infrastructure from various internet-based threats, particularly **DDoS attacks** and common web application attacks.
 
@@ -58,7 +58,7 @@ It does **not** directly protect Compute Engine VMs or non-load-balanced traffic
 
 In short: Cloud Armor is Google’s combination of **always-on DDoS scrubbing** + **managed WAF** + **edge policy enforcement**, leveraging Google’s massive global network and threat intelligence.
 
-References:  
+References:
 
 - [Google Cloud Armor Overview](https://docs.cloud.google.com/armor/docs/cloud-armor-overview)
 - [Google Cloud Armor Product Page](https://cloud.google.com/security/products/armor)

@@ -27,7 +27,7 @@ Typical safe workflow (most common and recommended in 2025–2026):
 1. Insert USB
 2. Run `diskutil list` → identify the correct disk (e.g. `/dev/disk4`)
 3. Unmount volumes on it: `diskutil unmountDisk /dev/disk4`
-4. Run the dd command:  
+4. Run the dd command:
    `sudo dd if=/path/to/your.iso of=/dev/rdisk4 bs=4m` (or `bs=1m`, `bs=8m` — `rdisk` is usually faster)
 5. Wait (press **Ctrl+T** to see progress if needed)
 6. When finished: `diskutil eject /dev/disk4`
@@ -51,10 +51,10 @@ If you decide to erase it first, here are the common choices:
 
 **FAT32 + MBR** is the most popular pre-format choice when people do format before `dd` — it is fast, compatible, and helps in rare cases where the ISO expects a certain partition style.
 
-**Bottom line (2026 perspective)**  
+**Bottom line (2026 perspective)**
 In the vast majority of real-world cases — especially with modern Windows 11 ISOs (including 25H2 builds) — you can skip erasing/formatting completely and go straight to `dd` after unmounting. Just be **extremely careful** with the disk identifier (`disk2`, `disk3`, etc.) to avoid erasing your internal drive or another important disk.
 
-**References:**  
+**References:**
 
 - [https://unix.stackexchange.com/questions/75477/how-should-i-format-a-usb-prior-to-writing-an-iso-to-it](https://unix.stackexchange.com/questions/75477/how-should-i-format-a-usb-prior-to-writing-an-iso-to-it)
 - [https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/](https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/)

@@ -19,26 +19,26 @@ The first moment a bee stings you, your finger will have an immediate reaction, 
 
 I didn't go and waited a few more days. Then, I noticed that the skin started to break a bit on its own, and liquid began to come out. I used a needle to help enlarge the opening.
 
-{: .centered }  
-![](assets/images/bee/bee1.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee1.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/bee/bee2.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee2.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/bee/bee3.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee3.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/bee/bee4.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee4.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/bee/bee5.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee5.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }
 
-{: .centered }  
-![](assets/images/bee/bee6.jpg){: .responsive }  
+{: .centered }
+![](assets/images/bee/bee6.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }

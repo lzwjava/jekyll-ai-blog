@@ -17,7 +17,7 @@ type: note
 
 ### 推荐配置步骤
 
-**步骤 1 — 为 PinCC 添加 auth profile 引用（可选但推荐）**  
+**步骤 1 — 为 PinCC 添加 auth profile 引用（可选但推荐）**
 由于 PinCC 是自定义 provider，您可以在 `openclaw.json` 的 `"auth.profiles"` 下为其定义一个命名 auth profile。这保持了凭据管理的统一性。
 
 将以下内容添加到现有的 `auth` 部分或合并：
@@ -45,7 +45,7 @@ openclaw auth set pincc:default --key "YOUR_PINCC_API_TOKEN_HERE"
 
 如果您跳过此步骤并在下面的 provider 块中使用内联 `apiKey`，OpenClaw 仍然可以工作，但使用 profiles 更安全，并且与 OpenRouter 的处理方式一致。
 
-**步骤 2 — 在 `models` 部分添加 PinCC 自定义 provider**  
+**步骤 2 — 在 `models` 部分添加 PinCC 自定义 provider**
 在 `~/.openclaw/openclaw.json` 中创建或扩展 `models` 块。使用 `mode: "merge"` 来保留内置 providers（包括 OpenRouter）。
 
 ```json
@@ -85,7 +85,7 @@ openclaw auth set pincc:default --key "YOUR_PINCC_API_TOKEN_HERE"
 }
 ```
 
-**步骤 3 — 将 PinCC 设置为主（带 OpenRouter 回退）**  
+**步骤 3 — 将 PinCC 设置为主（带 OpenRouter 回退）**
 更新代理默认设置：
 
 ```json
@@ -101,17 +101,17 @@ openclaw auth set pincc:default --key "YOUR_PINCC_API_TOKEN_HERE"
 }
 ```
 
-**步骤 4 — 验证、重启并测试**  
-- 验证 JSON：`python3 -m json.tool ~/.openclaw/openclaw.json`  
-- 重启：`openclaw restart`（或如果作为服务运行则 `sudo systemctl restart openclaw`）  
-- 列出模型：`openclaw models list` — 查找 `pincc/...` 条目  
+**步骤 4 — 验证、重启并测试**
+- 验证 JSON：`python3 -m json.tool ~/.openclaw/openclaw.json`
+- 重启：`openclaw restart`（或如果作为服务运行则 `sudo systemctl restart openclaw`）
+- 列出模型：`openclaw models list` — 查找 `pincc/...` 条目
 - 直接 relay 测试（如前）：使用 curl 测试 `https://v2-as.pincc.ai/v1/messages`，带您的 token 和 `"anthropic-version": "2023-06-01"` header。
 
 这种方法有效是因为自定义 providers 需要明确的 `models.providers` 定义，而像 OpenRouter 这样的内置 providers 只依赖 auth profiles + 模型引用如 `openrouter/...`。
 
 如果遇到验证错误（例如，无法识别的键），请检查 OpenClaw 日志或运行 `openclaw doctor`。有关最新 schema 详情，请参考官方配置参考。
 
-References:  
+References:
 
 - [OpenClaw Configuration Reference](https://docs.openclaw.ai/gateway/configuration)
 - [OpenClaw Model Providers Documentation](https://docs.openclaw.ai/concepts/model-providers)

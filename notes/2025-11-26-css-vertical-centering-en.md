@@ -15,7 +15,7 @@ It's not *actually* hard anymore (since ~2015), but it **feels** hard because CS
 Here’s why it used to be a nightmare and why most old tutorials still traumatize people:
 
 ### The Dark Ages (before Flexbox/Grid)
-1. **Block elements don’t have natural height centering**  
+1. **Block elements don’t have natural height centering**
    `margin: auto` only works horizontally. Vertically? Nothing. The box model simply had no built-in way.
 
 2. **The terrible hacks people actually used in production:**

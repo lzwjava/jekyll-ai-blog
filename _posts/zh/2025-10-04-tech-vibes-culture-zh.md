@@ -26,7 +26,7 @@ type: note
 
 所谓"氛围差距"实则关乎速度与表现力。新加坡与欧洲更注重可持续的幕后耕耘，通过论文与合作稳步传递知识，而非依赖病毒式推文。这两大地区正在迎头赶上——新加坡斥资数十亿布局AI领域，欧洲酝酿自建社交平台以抗衡科技巨头。创新的火花始终闪耀，只是未必在你的信息流中喧哗。
 
-[东南亚社交媒体使用习惯](https://www.gwi.com/blog/social-media-south-east-Asia)  
-[欧美社交媒体对比](https://www.eurodev.com/blog/american-vs.-european-social-media-an-american-interns-perspective)  
-[各国社交媒体使用现状：2025年需关注的20大平台](https://www.ecinnovations.com/blog/social-media-around-the-world-20-country-specific-platforms-you-need-to-know-in-2025/)  
+[东南亚社交媒体使用习惯](https://www.gwi.com/blog/social-media-south-east-Asia)
+[欧美社交媒体对比](https://www.eurodev.com/blog/american-vs.-european-social-media-an-american-interns-perspective)
+[各国社交媒体使用现状：2025年需关注的20大平台](https://www.ecinnovations.com/blog/social-media-around-the-world-20-country-specific-platforms-you-need-to-know-in-2025/)
 [2025数字全球概览报告](https://datareportal.com/reports/digital-2025-global-overview-report)

@@ -105,15 +105,15 @@ def callback():
     if request.method == 'GET':
         # 与企业微信进行URL验证
         return verify_signature(request)
-    
+
     # 解析传入的XML消息
     xml_data = ET.fromstring(request.data)
     user_query = xml_data.find('Content').text
     from_user = xml_data.find('FromUserName').text
-    
+
     # 查询你的知识库或LLM
     answer = query_knowledge_base(user_query)
-    
+
     # 通过企业微信API发送回复
     send_wecom_message(from_user, answer)
     return 'success'

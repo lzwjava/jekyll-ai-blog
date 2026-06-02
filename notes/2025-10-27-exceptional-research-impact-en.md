@@ -26,29 +26,29 @@ These metrics place him among the elite in AI/computer vision— for comparison,
 
 Junjie's research centers on visual object tracking, person re-identification, face recognition, and object detection using deep neural networks. His most influential papers often introduce novel architectures (e.g., Siamese networks) that balance accuracy and speed, earning thousands of citations each. Here are his top five most-cited works:
 
-1. **High Performance Visual Tracking With Siamese Region Proposal Network** (2018, CVPR)  
-   - Co-authors: B. Li et al.  
-   - Citations: 3,522  
+1. **High Performance Visual Tracking With Siamese Region Proposal Network** (2018, CVPR)
+   - Co-authors: B. Li et al.
+   - Citations: 3,522
    - Key contribution: Introduced Siamese Region Proposal Networks (SiamRPN) for fast, accurate visual tracking, a breakthrough that became a standard in the field.
 
-2. **SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks** (2019, CVPR)  
-   - Co-authors: B. Li et al.  
-   - Citations: 2,976  
+2. **SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks** (2019, CVPR)
+   - Co-authors: B. Li et al.
+   - Citations: 2,976
    - Key contribution: Extended SiamRPN with deeper ResNet backbones, improving robustness for long-term tracking in complex scenes.
 
-3. **Distractor-Aware Siamese Networks for Visual Object Tracking** (2018, ECCV)  
-   - Co-authors: Z. Zhu et al.  
-   - Citations: 1,818  
+3. **Distractor-Aware Siamese Networks for Visual Object Tracking** (2018, ECCV)
+   - Co-authors: Z. Zhu et al.
+   - Citations: 1,818
    - Key contribution: Enhanced Siamese trackers to handle distractors (similar objects) via response upsampling and channel attention.
 
-4. **Spindle Net: Person Re-Identification with Human Body Region Guided Feature Decomposition and Fusion** (2017, CVPR)  
-   - Co-authors: H. Zhao et al.  
-   - Citations: 1,125  
+4. **Spindle Net: Person Re-Identification with Human Body Region Guided Feature Decomposition and Fusion** (2017, CVPR)
+   - Co-authors: H. Zhao et al.
+   - Citations: 1,125
    - Key contribution: A multi-branch CNN for person re-ID, decomposing features by body regions for better pose invariance.
 
-5. **A Face Antispoofing Database with Diverse Attacks** (2012, ICB)  
-   - Co-authors: Z. Zhang et al.  
-   - Citations: 1,055  
+5. **A Face Antispoofing Database with Diverse Attacks** (2012, ICB)
+   - Co-authors: Z. Zhang et al.
+   - Citations: 1,055
    - Key contribution: Created a comprehensive dataset for face liveness detection, advancing anti-spoofing in biometrics.
 
 These papers, primarily from his time at SenseTime and earlier, demonstrate his ability to solve real-world problems with elegant, scalable solutions. Post-MiniMax, his focus has shifted toward entrepreneurial applications, but his foundational research continues to cite heavily.

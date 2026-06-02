@@ -103,9 +103,9 @@ The **bottleneck is the international exit**.
 Your **first hop already unstable**:
 
 ```
-1. 192.168.1.1  
-Loss 2.3%  
-Avg 21.9 ms  
+1. 192.168.1.1
+Loss 2.3%
+Avg 21.9 ms
 Worst 194 ms
 ```
 

@@ -61,7 +61,7 @@ Solution: Remove kramdown-specific attributes in Markdown intended for PDF gener
 If {:.responsive} is critical for your Jekyll HTML layout, consider adding it selectively for web output while omitting it in the PDF generation process.
 
 Workflow for Dual Compatibility
-	
+
 1.	Write Markdown content with minimal dependencies on kramdown-specific features.
 2.	For advanced styling in HTML, apply CSS classes directly in your Jekyll templates rather than inline in Markdown.
 3.	Use Pandoc options to control PDF formatting while maintaining Markdown portability.

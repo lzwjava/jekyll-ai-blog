@@ -12,7 +12,7 @@ type: note
 
 Question: What are some unpopular ideas of Yin Wang, the author of https://www.yinwang.org?
 
-Answer: 
+Answer:
 
 Yin Wang (also known as 王寅, a Chinese computer scientist and programmer) is the author of the blog at https://www.yinwang.org, where he shares essays on programming, technology, philosophy, and culture. His writing often features contrarian, politically incorrect, or unconventional viewpoints that challenge mainstream narratives in tech, academia, and society. These ideas frequently spark debate due to their direct criticism of popular figures, institutions, and trends. Below is a curated list of some of his notable unpopular ideas, drawn from key blog posts (translated and summarized for clarity where needed; original posts are primarily in Chinese with some English). These reflect his emphasis on individualism, skepticism toward "groupthink," and disdain for hype-driven tech culture.
 
@@ -33,12 +33,12 @@ Yin Wang (also known as 王寅, a Chinese computer scientist and programmer) is 
 
 Wang's style is polemical and personal, often blending autobiography (e.g., his Princeton days, move to China) with rants, which amplifies their unpopularity. His ideas appeal to disillusioned techies but provoke backlash for being "edgy" or culturally insensitive. For deeper dives, explore his blog's archives under categories like "Thoughts" or "Programming."
 
-[References:  
-- [Surely I Am Joking (Blog Homepage)](https://www.yinwang.org/)  
-- [Why Python Sucks](https://www.yinwang.org/2015/12/15/python.html)  
-- [The Lisp Curse](https://www.yinwang.org/2011/03/31/lisp-curse.html)  
-- [Fake Intellectuals](https://www.yinwang.org/2017/07/29/fake.html)  
-- [Feminism and Society](https://www.yinwang.org/2019/05/20/feminism.html)  
-- [China's Tech Monopolies](https://www.yinwang.org/2018/10/15/china-tech.html)  
-- [Democracy vs. Autocracy](https://www.yinwang.org/2020/11/10/democracy.html)  
+[References:
+- [Surely I Am Joking (Blog Homepage)](https://www.yinwang.org/)
+- [Why Python Sucks](https://www.yinwang.org/2015/12/15/python.html)
+- [The Lisp Curse](https://www.yinwang.org/2011/03/31/lisp-curse.html)
+- [Fake Intellectuals](https://www.yinwang.org/2017/07/29/fake.html)
+- [Feminism and Society](https://www.yinwang.org/2019/05/20/feminism.html)
+- [China's Tech Monopolies](https://www.yinwang.org/2018/10/15/china-tech.html)
+- [Democracy vs. Autocracy](https://www.yinwang.org/2020/11/10/democracy.html)
 - [Cultural Relativism on Food](https://www.yinwang.org/2016/08/20/food-taboo.html)]

@@ -18,8 +18,8 @@ type: note
 
 是的，美宜佳作为中国最大的便利店连锁品牌（在广东拥有超过33,000家门店并正向全国扩张），其监控系统采用了海康威视的产品。相关操作指南中明确提及使用海康威视软件工具（如从海康威视官网下载“设备网络搜索工具”以在电脑端查看录像与实时画面），这表明美宜佳门店运营中集成了海康威视的摄像头、录像机等硬件设备，用于安防与远程监控。
 
-**参考资料：**  
-- [海康威视 - 维基百科](https://en.wikipedia.org/wiki/Hikvision)  
-- [海康威视官方网站](https://www.hikvision.com/us-en/)  
-- [美宜佳 - 维基百科（中文）](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%AE%9C%E4%BD%B3)  
+**参考资料：**
+- [海康威视 - 维基百科](https://en.wikipedia.org/wiki/Hikvision)
+- [海康威视官方网站](https://www.hikvision.com/us-en/)
+- [美宜佳 - 维基百科（中文）](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%AE%9C%E4%BD%B3)
 - [抖音教程：通过海康威视工具访问美宜佳监控](https://www.douyin.com/search/%E7%BE%8E%E5%AE%9C%E4%BD%B3%E7%9B%91%E6%8E%A7%E8%AE%BE%E5%A4%87%E5%9C%A8%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F)

@@ -138,7 +138,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @ApiOperation(value = "创建新用户")
 @PostMapping
 public ResponseEntity<User> createUser(
-        @ApiParam(value = "要创建的用户对象", required = true) 
+        @ApiParam(value = "要创建的用户对象", required = true)
         @RequestBody User user) {
     // 实现
     return ResponseEntity.ok(user);
@@ -212,8 +212,8 @@ public class User {
 ### 步骤 4：运行并访问文档
 
 1. 启动您的 Spring Boot 应用程序。
-2. 打开浏览器并导航至：  
-   **http://localhost:8080/swagger-ui.html**  
+2. 打开浏览器并导航至：
+   **http://localhost:8080/swagger-ui.html**
    此 URL 将显示 Swagger UI，这是一个基于注解生成的 API 文档的交互式界面。
 
 ---

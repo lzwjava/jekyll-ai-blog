@@ -12,7 +12,7 @@ type: note
 
 Question: Provide a comprehensive comparison between USB 2.0, USB 3.2 Gen 1, and USB 3.2 Gen 2.
 
-Answer: 
+Answer:
 
 Here is a comprehensive comparison of **USB 2.0**, **USB 3.2 Gen 1**, and **USB 3.2 Gen 2** (the most commonly referred versions in practice, typically ×1 lane configurations).
 
@@ -35,25 +35,25 @@ Here is a comprehensive comparison of **USB 2.0**, **USB 3.2 Gen 1**, and **USB 
 
 ### Key Differences Summary
 
-- **Speed** — The most significant difference:  
-  USB 3.2 Gen 1 is about 10 times faster than USB 2.0.  
+- **Speed** — The most significant difference:
+  USB 3.2 Gen 1 is about 10 times faster than USB 2.0.
   USB 3.2 Gen 2 is about twice as fast as Gen 1 (and ~20 times faster than USB 2.0).
 
 - **Power** — Both USB 3.2 generations provide almost twice the standard power of USB 2.0 (900 mA vs 500 mA), which helps charge devices faster and support more power-hungry peripherals (higher power possible with USB Power Delivery on USB-C).
 
 - **Architecture** — USB 3.x added dedicated send/receive pairs (full-duplex), allowing simultaneous upload/download and much higher efficiency compared to USB 2.0's half-duplex shared pair.
 
-- **Naming history** (why it's confusing):  
-  USB 3.0 → renamed USB 3.1 Gen 1 → now USB 3.2 Gen 1 (all = 5 Gbps).  
-  USB 3.1 Gen 2 → now USB 3.2 Gen 2 (10 Gbps).  
+- **Naming history** (why it's confusing):
+  USB 3.0 → renamed USB 3.1 Gen 1 → now USB 3.2 Gen 1 (all = 5 Gbps).
+  USB 3.1 Gen 2 → now USB 3.2 Gen 2 (10 Gbps).
   (Note: USB 3.2 also defines rarer Gen 2×2 = 20 Gbps, but that's not what "Gen 2" usually means in product specs.)
 
-- **Practical advice in 2026** —  
-  For basic peripherals (mouse, keyboard, printer), USB 2.0 is still fine and very cheap.  
-  For storage devices (flash drives, external SSDs), prefer at least USB 3.2 Gen 1; choose Gen 2 if you frequently transfer very large files (>50 GB) and your devices support it.  
+- **Practical advice in 2026** —
+  For basic peripherals (mouse, keyboard, printer), USB 2.0 is still fine and very cheap.
+  For storage devices (flash drives, external SSDs), prefer at least USB 3.2 Gen 1; choose Gen 2 if you frequently transfer very large files (>50 GB) and your devices support it.
   Always check actual device specs — many "USB 3.2 Gen 2" products are limited by the flash memory or controller and don't reach full 10 Gbps.
 
-References:  
+References:
 
 - [Kingston Technology - USB 3.0, 3.2 Gen 1 and Gen 2 explanation](https://www.kingston.com/en/usb-flash-drives/usb-30)
 - [Tom's Hardware - USB 3.2 and 3.1 Explained](https://www.tomshardware.com/news/usb-3-2-explained)

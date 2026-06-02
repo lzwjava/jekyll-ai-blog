@@ -12,7 +12,7 @@ type: note
 
 Question: In winter, what views can we see in this world? Like snow land, ice land, etc.
 
-Answer: 
+Answer:
 
 Winter transforms many parts of the world into breathtaking landscapes covered in snow and ice, creating magical views often described as winter wonderlands. Here are some of the most stunning winter sights you can experience globally:
 
@@ -30,7 +30,7 @@ Winter transforms many parts of the world into breathtaking landscapes covered i
 
 These views are most prominent in the Northern Hemisphere from December to February, and in the Southern Hemisphere during June to August. Winter also brings clearer skies for stargazing and unique phenomena like frost-covered trees or steaming geothermal areas contrasted with snow (e.g., Yellowstone National Park, USA).
 
-References:  
+References:
 
 - [32 Winter Wonderlands Around the World | Condé Nast Traveler](https://www.cntraveler.com/gallery/25-winter-wonderlands-around-the-world)
 - [12 Beautiful Places for Winter Landscapes in the World](https://worldwildschooling.com/beautiful-places-for-winter-landscapes-in-the-world/)

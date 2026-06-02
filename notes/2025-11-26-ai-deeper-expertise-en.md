@@ -42,15 +42,15 @@ If you don’t already understand:
 
 So yes, AI is now like having a very patient senior engineer sitting next to you 24/7, but **you still need enough domain knowledge to steer the conversation and verify the output**.
 
-That’s actually the new bottleneck skill:  
+That’s actually the new bottleneck skill:
 **Prompt engineering + critical evaluation** has partially replaced “reading 500 pages of documentation,” but it has **not** replaced understanding.
 
 People who think “I don’t need to learn anything anymore, AI will do it” are the ones who will ship broken, insecure, unperformant, or just weird apps.
 
 People who already have solid foundations (like your 1 year of iOS experience) are now 5–10× faster and can compete with teams of 10.
 
-So your intuition is spot-on:  
-AI didn’t remove the need to learn.  
+So your intuition is spot-on:
+AI didn’t remove the need to learn.
 It raised the bar for what “learning” means — now it’s about judgment, taste, and knowing which questions reveal the real constraints.
 
 Keep learning the fundamentals. The AI will multiply your power, not replace your brain.

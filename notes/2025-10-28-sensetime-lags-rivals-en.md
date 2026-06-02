@@ -47,8 +47,8 @@ They're doubling down on B2B (e.g., cloud services, device embeds) rather than c
 
 In short, SenseTime's legacy weighs it down in a startup sprint, but their multimodal bet positions them for practical wins over pure benchmark chases.
 
-[ChinAI #324: SuperCLUE Benchmarks —2025 Midyear Check-in](https://chinai.substack.com/p/chinai-324-superclue-large-model)  
-[SenseTime's SenseNova Foundation Models Among Top Three](https://www.sensetime.com/en/news-detail/51169429?categoryId=1072)  
-[An Overview of Chinese AI Tigers](https://www.topbots.com/chinese-ai-tigers-overview/)  
-[China's SenseTime Reshapes to Focus on Generative AI Growth](https://www.reuters.com/technology/artificial-intelligence/chinas-sensetime-reshapes-focus-generative-ai-growth-2024-12-04/)  
+[ChinAI #324: SuperCLUE Benchmarks —2025 Midyear Check-in](https://chinai.substack.com/p/chinai-324-superclue-large-model)
+[SenseTime's SenseNova Foundation Models Among Top Three](https://www.sensetime.com/en/news-detail/51169429?categoryId=1072)
+[An Overview of Chinese AI Tigers](https://www.topbots.com/chinese-ai-tigers-overview/)
+[China's SenseTime Reshapes to Focus on Generative AI Growth](https://www.reuters.com/technology/artificial-intelligence/chinas-sensetime-reshapes-focus-generative-ai-growth-2024-12-04/)
 [SenseTime Unveils DayDayNew 6.5 AI Model](https://forntend-test-5sqwmq-3a22a9-107-172-80-230.traefik.me/sensetime-unveils-daydaynew-6-5-ai-model-and-mynie-platform-1753705726167)

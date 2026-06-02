@@ -11,7 +11,7 @@ type: note
 
 问题：Temu 是否受到美国市场小包裹税（de minimis 关税变动）的重大影响？
 
-回答： 
+回答：
 
 **是的，Temu 受到了美国市场 de minimis 豁免取消及相关关税变动的重大影响。**
 
@@ -32,7 +32,7 @@ de minimis 规则此前允许价值低于 800 美元的货物免税进入美国�
 
 简而言之，“小物件税”（小包裹的 de minimis 关税）已成为 Temu 在美国的主要逆风，相比 2025 年之前的快速增长，导致了大幅放缓。
 
-参考文献：  
+参考文献：
 
 - [Trump Doubles Down on Closing Tax Loophole on Cheap Imports](https://www.nytimes.com/2026/02/21/business/trump-deminimis-loophole-closed.html)
 - [Retail panic: What the end of the 'de minimis' exemption means for brands across the globe](https://www.cnbc.com/2025/08/29/retail-impact-de-minimis-exemption-ends-globally.html)

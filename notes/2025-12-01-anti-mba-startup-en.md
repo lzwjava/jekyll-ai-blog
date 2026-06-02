@@ -28,7 +28,7 @@ Paul Graham (founder of Y Combinator) has written several essays that directly o
 
 In short, Paul Graham’s philosophy can be summarized as:
 
-Traditional MBA → optimized for managing existing large organizations in relatively static industries.  
+Traditional MBA → optimized for managing existing large organizations in relatively static industries.
 Paul Graham / YC philosophy → optimized for creating brand-new technology companies in highly uncertain, fast-changing environments.
 
 He essentially argues that almost everything taught in a classic MBA program is either irrelevant or actively harmful if your goal is to found the next Google, Airbnb, or Stripe.

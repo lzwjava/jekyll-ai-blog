@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题**：  
+**问题**：
 为何 `/home/lzw/projects/llama.cpp/models/DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` 能在 OpenClaw（AI 代理）中运行，但我却收到“Connect your tools to Claude… This isn't working right now”的错误提示？
 
 **回答**：
@@ -176,8 +176,8 @@ openclaw dev
 
 ## 总结
 
-你的模型运行正常 ✅  
-Claude 工具未连接 ❌  
+你的模型运行正常 ✅
+Claude 工具未连接 ❌
 OpenClaw 本地模式不受影响 ✅
 
 因此，问题是 **Claude 工具集成**，而非：

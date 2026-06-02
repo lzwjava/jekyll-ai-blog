@@ -12,7 +12,7 @@ type: note
 
 Question: 为什么我在运行 htop 时出现 "Error opening terminal: xterm-ghostty"，而在运行 top 时出现 "'xterm-ghostty': unknown terminal type"？
 
-Answer: 
+Answer:
 
 你正在使用 **Ghostty** 作为你的 terminal emulator（可能是在 macOS 或 Linux 上），它将 `TERM` 环境变量设置为 `xterm-ghostty`。这是有意为之的 —— Ghostty 附带了自己的 terminfo 条目以支持其高级功能。
 
@@ -25,7 +25,7 @@ Answer:
 
 ### 快速修复（任选其一）
 
-1. **最佳快速修复 —— 让 Ghostty 使用广泛支持的 TERM 值**  
+1. **最佳快速修复 —— 让 Ghostty 使用广泛支持的 TERM 值**
    在你的 Ghostty 配置文件中添加这一行：
 
    ```
@@ -35,10 +35,10 @@ Answer:
    - macOS 路径：`~/Library/Application Support/com.mitchellh.ghostty/config`
    - Linux 路径：`~/.config/ghostty/config`
 
-   保存文件，**完全退出 Ghostty**（不仅是关闭窗口 —— 退出应用程序），然后重新启动它并开启一个新的 SSH 会话。  
+   保存文件，**完全退出 Ghostty**（不仅是关闭窗口 —— 退出应用程序），然后重新启动它并开启一个新的 SSH 会话。
    这能保持良好的颜色支持，且几乎在所有服务器上都能工作，无需进行任何远程更改。
 
-2. **仅在使用 Ghostty 时覆盖 TERM（基于 shell 的临时方案）**  
+2. **仅在使用 Ghostty 时覆盖 TERM（基于 shell 的临时方案）**
    在**本地**机器的 shell 配置（例如 `~/.zshrc` 或 `~/.bashrc`）中添加以下内容：
 
    ```bash
@@ -49,7 +49,7 @@ Answer:
 
    然后 source 配置文件（`source ~/.zshrc`）或打开一个新的终端标签页。这可以避免修改 Ghostty 的全局配置，仅影响 Ghostty 会话。
 
-3. **SSH 特定修复（如果你仅在 SSH 时遇到问题，推荐此项）**  
+3. **SSH 特定修复（如果你仅在 SSH 时遇到问题，推荐此项）**
    在本地的 `~/.ssh/config` 中添加：
 
    ```
@@ -57,10 +57,10 @@ Answer:
        SetEnv TERM=xterm-256color
    ```
 
-   （需要 OpenSSH ≥ 8.7；现在已经非常普遍。）  
+   （需要 OpenSSH ≥ 8.7；现在已经非常普遍。）
    这会为所有 SSH 连接强制使用 `xterm-256color`，而不影响本地终端的使用。
 
-4. **更规范但也更麻烦 —— 在远程服务器上安装 Ghostty 的 terminfo**  
+4. **更规范但也更麻烦 —— 在远程服务器上安装 Ghostty 的 terminfo**
    从你的本地机器（已安装 Ghostty）执行：
 
    ```bash
@@ -75,7 +75,7 @@ Answer:
 
 应用修复后，`htop` 和 `top` 应该都能正常启动。
 
-References:  
+References:
 
 - [https://ghostty.org/docs/help/terminfo](https://ghostty.org/docs/help/terminfo)
 - [https://travis.media/blog/ghostty-ssh-unknown-terminal-error](https://travis.media/blog/ghostty-ssh-unknown-terminal-error)

@@ -12,7 +12,7 @@ type: note
 
 Question: What does the provided document about querying exam room and seat numbers for the April 19-20, 2025 self-study practical assessment say?
 
-Answer: 
+Answer:
 
 The document is a notice from Guangdong University of Foreign Studies (GUFS) Self-Study Examination Office, dated April 8, 2025, regarding the query of exam rooms and seat numbers for the practical assessment of the self-study exams scheduled for April 19-20, 2025, at the Baiyunshan Campus. It outlines entry requirements, query instructions, required documents, exam location, and important notes. Below is a structured English translation and summary of the key sections:
 

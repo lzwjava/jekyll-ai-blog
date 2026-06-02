@@ -28,9 +28,9 @@ Yes, their saga inspired a blockbuster: *American Dreams in China* (2013), direc
 
 Overall, New Oriental's story is a rollercoaster of grit, betrayal, and reinvention—quintessential Chinese entrepreneurship, where personal drama fuels empire-building.
 
-**References:**  
-[Yu Minhong - Wikipedia](https://en.wikipedia.org/wiki/Yu_Minhong)  
-[American Dreams in China - Wikipedia](https://en.wikipedia.org/wiki/American_Dreams_in_China)  
-[Transformational leadership style and small business growth (PDF)](https://www.shs-conferences.org/articles/shsconf/pdf/2022/10/shsconf_iteme2022_01051.pdf)  
-[Capitalist Fantasy Tops China Box Office (WSJ)](https://www.wsj.com/articles/BL-CJB-17768)  
+**References:**
+[Yu Minhong - Wikipedia](https://en.wikipedia.org/wiki/Yu_Minhong)
+[American Dreams in China - Wikipedia](https://en.wikipedia.org/wiki/American_Dreams_in_China)
+[Transformational leadership style and small business growth (PDF)](https://www.shs-conferences.org/articles/shsconf/pdf/2022/10/shsconf_iteme2022_01051.pdf)
+[Capitalist Fantasy Tops China Box Office (WSJ)](https://www.wsj.com/articles/BL-CJB-17768)
 [Netizens in China debate: Are Chinese entrepreneurs all bad guys? (ThinkChina)](https://www.thinkchina.sg/economy/netizens-china-debate-are-chinese-entrepreneurs-all-bad-guys)

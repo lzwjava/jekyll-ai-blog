@@ -11,7 +11,7 @@ type: note
 
 Question: One simple fact showing that our body and health are number one in human life, far greater than fame or money, so as long as I have a healthy body and am still young, I'm probably better off than those 60- or 70-year-old billionaires, right?
 
-Answer: 
+Answer:
 
 Yes — **health is the true foundation** that makes everything else (money, fame, power) actually enjoyable.
 
@@ -27,12 +27,12 @@ So yes — a healthy 25–40-year-old with average finances is **objectively bet
 
 The brutal reality is captured in this very common late-life sentiment (paraphrased from several ultra-wealthy people):
 
-> "I spent the first half of my life sacrificing health to make money.  
-> Now I'm spending the second half spending money to try to get health back.  
+> "I spent the first half of my life sacrificing health to make money.
+> Now I'm spending the second half spending money to try to get health back.
 > And it doesn't work nearly as well as people think."
 
 Having a strong, pain-free, energetic body while still young **is already winning one of the most important games in life** — even if your bank account is modest compared to the ultra-rich.
 
-References:  
+References:
 
 - None (this is philosophical reasoning based on widely reported interviews and public behavior of aging billionaires)

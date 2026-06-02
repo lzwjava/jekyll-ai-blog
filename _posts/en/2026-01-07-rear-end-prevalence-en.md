@@ -12,7 +12,7 @@ type: note
 
 Question: Are rear-end collisions (zhui wei accidents) frequent in car accidents?
 
-Answer: 
+Answer:
 
 Yes, rear-end collisions, known as "zhui wei" accidents in Chinese (追尾事故), are indeed one of the most frequent types of car accidents worldwide, including in China and the US.
 
@@ -38,9 +38,9 @@ Although often less fatal than head-on or single-vehicle crashes, they cause man
 
 To reduce risk: Maintain safe following distance, avoid distractions, and use features like automatic emergency braking if available.
 
-References:  
+References:
 
-- [NHTSA Rear-End Crash Analyses](https://nhtsa.gov/document/analyses-rear-end-crashes-and-near-crashes-100-car-naturalistic-driving-study-support-rear)  
-- [Insurance Information Institute Highway Safety Facts](https://www.iii.org/fact-statistic/facts-statistics-highway-safety)  
-- [Japan Traffic Safety White Paper (via 内閣府)](https://www.ms-ins.com/labo/higoro/article/083.html)  
+- [NHTSA Rear-End Crash Analyses](https://nhtsa.gov/document/analyses-rear-end-crashes-and-near-crashes-100-car-naturalistic-driving-study-support-rear)
+- [Insurance Information Institute Highway Safety Facts](https://www.iii.org/fact-statistic/facts-statistics-highway-safety)
+- [Japan Traffic Safety White Paper (via 内閣府)](https://www.ms-ins.com/labo/higoro/article/083.html)
 - [China Road Traffic Accident Studies (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426775/)

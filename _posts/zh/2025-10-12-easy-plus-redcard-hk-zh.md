@@ -40,6 +40,6 @@ type: note
 
 若经常往返三地，此卡性价比极高，尤其限速后无限流量可满足基础使用。实际体验可能因信号覆盖而异，建议自行测试。
 
-[中国电信澳门易+红卡官方页面](https://www.ctm.net/en/personal/mobile/prepaid/easyplus)  
-[澳门电信漫游指南](https://www.ctm.net/en/personal/mobile/roaming)  
+[中国电信澳门易+红卡官方页面](https://www.ctm.net/en/personal/mobile/prepaid/easyplus)
+[澳门电信漫游指南](https://www.ctm.net/en/personal/mobile/roaming)
 [香港使用用户指南](https://www.taobao.com/list/product/easy-red-card-hk.htm)

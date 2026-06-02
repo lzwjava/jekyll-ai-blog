@@ -67,9 +67,9 @@ Key responsibilities:
 
 - (void)windowDidLoad {
     [super windowDidLoad];
-    
+
     self.configs = [self displayConfigs];
-    
+
     self.configCellsView = [[RIGConfigCellsView alloc] initWithFrame:CGRectMake(kOutterXMargin, kOutterYMargin, CGRectGetWidth(self.configsView.frame) - 2 * kOutterXMargin, [RIGConfigCellsView heightForConfigs:self.configs])];
     self.configCellsView.configs = self.configs;
     [self.configsView addSubview:self.configCellsView];

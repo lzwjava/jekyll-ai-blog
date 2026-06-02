@@ -21,7 +21,7 @@ type: note
 
 ### 3. **Major Pain Points: EMC and Reliability**
    - **What they said**：EMC (Electromagnetic Compatibility) 和可靠性“极其困难”。他们花了两年时间，制作了数十块板，才最终改善可靠性。
-   - **Analysis**： 
+   - **Analysis**：
      - **EMC**：这涉及确保设备不会产生过量电磁干扰 (EMI) 或受其影响，这对于高频开关的变频器（如基于 IGBT/MOSFET 的 PWM 驱动）至关重要。常见问题包括辐射/传导噪声影响附近电子设备，尤其在电梯井道等封闭空间。通过 EMC 测试（如 CISPR 或 FCC 标准）通常需要屏蔽、滤波器和布局优化——正如他们描述的，需要多次板迭代的试错过程。
      - **Reliability**：电梯变频器必须承受恶劣条件（振动、温度波动、电源浪涌），并实现数千小时的 MTBF (Mean Time Between Failures)。组件选择（如易失效的电容）、热管理和故障保护电路是关键因素。他们“数十块板”花了两年时间，指向迭代原型设计、调试硬件故障（如组件烧毁、短路）和验证测试。这在硬件研发中很典型，早期的版本往往由于忽略边缘情况而 spectacularly 失败。
 

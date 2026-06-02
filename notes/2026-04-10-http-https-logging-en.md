@@ -60,7 +60,7 @@ NODE_DEBUG=http,https npm install --loglevel=http --verbose
 ```
 
 ### Tips
-- This output can be very verbose — redirect it to a file if needed:  
+- This output can be very verbose — redirect it to a file if needed:
   `NODE_DEBUG=http,https npm install --verbose > npm-http.log 2>&1`
 - These logs help debug network issues like registry connectivity, proxy problems, SSL errors, or slow downloads.
 - `NODE_DEBUG` works for any Node.js process, not just npm.

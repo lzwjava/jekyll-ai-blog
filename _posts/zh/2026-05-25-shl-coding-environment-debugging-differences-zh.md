@@ -50,7 +50,7 @@ public class Solution {
         // 内联测试
         System.out.println(solve(new int[]{1,2,3}));
     }
-    
+
     static int solve(int[] arr) {
         // 你的逻辑
         return 0;

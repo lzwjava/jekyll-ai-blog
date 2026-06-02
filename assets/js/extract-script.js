@@ -93,10 +93,10 @@ window.addEventListener('load', function () {
       'ar': 'مترجم',
       'hant': '翻譯'
     };
-    
+
     const [, langFilter2] = sortSelect.value.split('|');
     const translatedText = translations[langFilter2] || translations['en'];
-    
+
     const type = postNumber.dataset.type || 'posts';
     postNumber.innerHTML = `${processedPosts.length} ${type} (${translatedCount} ${translatedText} by <a href="https://openrouter.ai">AI</a>)`;
 
@@ -111,7 +111,7 @@ window.addEventListener('load', function () {
   } else {
     // Detect browser language if no saved preference
     let lang = navigator.language.toLowerCase().split('-')[0]; // e.g., 'en-US' -> 'en'
-    
+
     // Special handling for Chinese variants (zh-Hant for traditional)
     if (lang === '极') {
       const fullLang = navigator.language.toLowerCase();
@@ -135,7 +135,7 @@ window.addEventListener('load', function () {
       'hant': 'date-desc|hant'
     };
 
-    sortSelect.value = langMap[lang] || 'date-desc|en';    
+    sortSelect.value = langMap[lang] || 'date-desc|en';
   }
 
   updatePosts();

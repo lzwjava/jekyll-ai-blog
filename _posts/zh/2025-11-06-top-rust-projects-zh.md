@@ -29,6 +29,6 @@ type: note
 
 这些排名彰显了 Rust 在系统编程、Web 开发和工具链领域的生态增长。如需了解更多，可查看完整的前 100 名榜单或精选列表。
 
-**参考资料：**  
-[GitHub 排名 - Rust 语言前 100 星标项目](https://evanli.github.io/Github-Ranking/Top100/Rust.html)  
+**参考资料：**
+[GitHub 排名 - Rust 语言前 100 星标项目](https://evanli.github.io/Github-Ranking/Top100/Rust.html)
 [2025 年 61 个顶级 Rust 开源项目](https://web3.career/learn-web3/top-rust-open-source-projects)

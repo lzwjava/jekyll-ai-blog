@@ -12,7 +12,7 @@ type: note
 
 Question: 如何在 ServiceNow 中使用 filters 搜索 change requests？
 
-Answer: 
+Answer:
 
 在 ServiceNow 中，change requests 存储在 **change_request** 表中。要有效地搜索和过滤它们，请按照以下步骤操作：
 
@@ -25,7 +25,7 @@ Answer:
    - **My Changes**（您分配到的或创建的 changes）
    - **My Group Changes**（您管理的 groups 的 changes）
    - **Open** 或其他分类视图。
-   
+
    或者，直接进入 **Change > All**，或在 navigator 中搜索 "change_request.list" 以打开完整的 list view。
 
 ### 在 List View 中使用 Filters
@@ -59,8 +59,8 @@ Answer:
 
 Filters 可以与排序（点击列标题）和列个性化（右键点击标题 > Configure > List Layout）结合使用。
 
-References:  
+References:
 
-- [https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html](https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html)  
-- [https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24](https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24)  
+- [https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html](https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/task/t_CreateAChange.html)
+- [https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24](https://community.servicenow.com/community?id=community_question&sys_id=720b7d861bfcccd0ada243f6fe4bcb24)
 - [https://docs.servicenow.com/en-US/bundle/tokyo-platform-user-interface/page/use/using-lists/task/t_SavingFilters.html](https://docs.servicenow.com/en-US/bundle/tokyo-platform-user-interface/page/use/using-lists/task/t_SavingFilters.html)

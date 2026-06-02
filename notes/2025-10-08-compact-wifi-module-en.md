@@ -26,7 +26,7 @@ The ESP-01S is a compact WiFi module based on the ESP8266 microcontroller chip f
 
 To get started, you'll need a USB-to-serial adapter (like FTDI) for flashing firmware, as it doesn't have a built-in USB port. It's inexpensive (under $5) and widely available, but handle it carefully to avoid damaging the pins.
 
-[How to use an ESP-01S module](https://www.taydaelectronics.com/datasheets/files/ESP-01S.pdf)  
-[Getting Started With the ESP8266 ESP-01](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)  
-[ESP-01S Introduction](https://lonelybinary.com/en-us/blogs/learn/what-is-esp-01s)  
+[How to use an ESP-01S module](https://www.taydaelectronics.com/datasheets/files/ESP-01S.pdf)
+[Getting Started With the ESP8266 ESP-01](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)
+[ESP-01S Introduction](https://lonelybinary.com/en-us/blogs/learn/what-is-esp-01s)
 [ESP-01S / ESP01S ESP8266 Module](https://hobbycomponents.com/esp8266/1176-esp-01s-esp01s-esp8266-module)

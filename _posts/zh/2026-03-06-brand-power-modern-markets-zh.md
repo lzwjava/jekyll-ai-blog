@@ -11,7 +11,7 @@ type: note
 
 **问题：** Paul Graham 的文章 “Brand Age” 说了什么？
 
-**回答：** 
+**回答：**
 
 Paul Graham 在他的网站 paulgraham.com/brandage.html 上发布了一篇题为 **"The Brand Age"**（也称为 "Brand Age"）的文章。
 
@@ -29,7 +29,7 @@ Paul Graham 在他的网站 paulgraham.com/brandage.html 上发布了一篇题�
 
 （注：这篇文章似乎是他文集中最近添加的，因为 Graham 本人最近的 X 帖子中链接到了这篇文章。）
 
-**参考文献：**  
+**参考文献：**
 
-- [The Brand Age - paulgraham.com](https://paulgraham.com/brandage.html)  
+- [The Brand Age - paulgraham.com](https://paulgraham.com/brandage.html)
 - [Paul Graham 的 X 帖子，链接到文章](https://x.com/paulg/status/2029612393660133547)

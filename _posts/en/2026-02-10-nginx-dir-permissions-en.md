@@ -12,46 +12,46 @@ type: note
 
 **Question:** Explain the permissions here for the nginx directory and its files:
 
-lzw@to:~$ ls -alrt nginx  
-total 28  
-drwxr-x--- 81 lzw lzw 4096 Feb 10 02:53 ..  
-drwxrwxr-x 2 lzw lzw 4096 Feb 10 02:56 .  
--rw-r--r-- 1 lzw lzw 412 Feb 10 02:58 access.log  
+lzw@to:~$ ls -alrt nginx
+total 28
+drwxr-x--- 81 lzw lzw 4096 Feb 10 02:53 ..
+drwxrwxr-x 2 lzw lzw 4096 Feb 10 02:56 .
+-rw-r--r-- 1 lzw lzw 412 Feb 10 02:58 access.log
 -rw-r--r-- 1 lzw lzw 14938 Feb 10 02:58 error.log
 
 **Answer:**
 
-This output shows a custom directory `/home/lzw/nginx` (or similar) that you probably created to store nginx logs when trying to run nginx fully as user `lzw`.  
+This output shows a custom directory `/home/lzw/nginx` (or similar) that you probably created to store nginx logs when trying to run nginx fully as user `lzw`.
 Let’s break down every part of the permissions and ownership step by step.
 
 ### Directory listing explained line by line
 
-1. `drwxr-x--- 81 lzw lzw 4096 Feb 10 02:53 ..`  
-   - This is the **parent directory** (most likely `/home/lzw`).  
-   - Permissions: `drwxr-x---`  
-     - `d` → it is a directory  
-     - Owner (lzw): rwx (read, write, execute)  
-     - Group (lzw): r-x (read + execute, no write)  
-     - Others: --- (nothing – no access at all)  
+1. `drwxr-x--- 81 lzw lzw 4096 Feb 10 02:53 ..`
+   - This is the **parent directory** (most likely `/home/lzw`).
+   - Permissions: `drwxr-x---`
+     - `d` → it is a directory
+     - Owner (lzw): rwx (read, write, execute)
+     - Group (lzw): r-x (read + execute, no write)
+     - Others: --- (nothing – no access at all)
    → Only you (`lzw`) can write into your home folder. Other users (including www-data) cannot even list or enter it unless you give extra permissions.
 
-2. `drwxrwxr-x 2 lzw lzw 4096 Feb 10 02:56 .`  
-   - This is **the current directory** (`nginx` folder itself).  
-   - Permissions: `drwxrwxr-x`  
-     - Owner (lzw): rwx (full access)  
-     - Group (lzw): rwx (full access – unusual, normally groups get r-x)  
-     - Others: r-x (can list files and enter the folder, but cannot write)  
+2. `drwxrwxr-x 2 lzw lzw 4096 Feb 10 02:56 .`
+   - This is **the current directory** (`nginx` folder itself).
+   - Permissions: `drwxrwxr-x`
+     - Owner (lzw): rwx (full access)
+     - Group (lzw): rwx (full access – unusual, normally groups get r-x)
+     - Others: r-x (can list files and enter the folder, but cannot write)
    → **Important:** Because “others” have `r-x`, the nginx process (when running as www-data) **can enter this folder and see the file names** — but only if it can also reach `/home/lzw` first (which currently blocks it with `---` for others).
 
-3. `-rw-r--r-- 1 lzw lzw 412 Feb 10 02:58 access.log`  
-   - Regular file (`-`)  
-   - Permissions: `rw-r--r--`  
-     - Owner (lzw): rw- (can read + write)  
-     - Group (lzw): r-- (can only read)  
-     - Others: r-- (everyone else can read)  
+3. `-rw-r--r-- 1 lzw lzw 412 Feb 10 02:58 access.log`
+   - Regular file (`-`)
+   - Permissions: `rw-r--r--`
+     - Owner (lzw): rw- (can read + write)
+     - Group (lzw): r-- (can only read)
+     - Others: r-- (everyone else can read)
    → Any process (including www-data) that can reach the file **can read** it, but only you can write to it.
 
-4. `-rw-r--r-- 1 lzw lzw 14938 Feb 10 02:58 error.log`  
+4. `-rw-r--r-- 1 lzw lzw 14938 Feb 10 02:58 error.log`
    - Same as access.log: readable by everyone, writable only by owner `lzw`.
 
 ### Why this setup is causing problems right now

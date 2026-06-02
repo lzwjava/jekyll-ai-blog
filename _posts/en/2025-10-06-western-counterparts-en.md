@@ -24,8 +24,8 @@ On the "obsessed with flowers" angle, Mathis doesn't seem to have that at all. A
 
 In short, Western skeptics exist in droves and often blend intellectual rigor with personal passions, but Mathis is more of a creative disruptor than a direct match. If you're thinking of someone specific like him for the nature tie-in, folks like David Attenborough (naturalist with a science advocacy bent) come closer, though he's more broadcaster than debunker.
 
-References:  
-[Extended biography of Miles Williams Mathis](https://mileswmathis.com/bio.html)  
-[Miles Mathis - RationalWiki](https://rationalwiki.org/wiki/Miles_Mathis)  
-[The Band of Debunkers Busting Bad Scientists - WSJ](https://www.wsj.com/science/data-colada-debunk-stanford-president-research-14664f3)  
+References:
+[Extended biography of Miles Williams Mathis](https://mileswmathis.com/bio.html)
+[Miles Mathis - RationalWiki](https://rationalwiki.org/wiki/Miles_Mathis)
+[The Band of Debunkers Busting Bad Scientists - WSJ](https://www.wsj.com/science/data-colada-debunk-stanford-president-research-14664f3)
 [Nietzsche v. the Amish - Miles Mathis](https://mileswmathis.com/tol2.html)

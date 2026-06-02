@@ -12,7 +12,7 @@ type: note
 
 Question: Compare the TOEFL exam format to the IELTS exam format
 
-Answer: 
+Answer:
 
 以下是 **TOEFL iBT**（截至 2026 年 1 月的最新考试形式）与 **IELTS Academic**（2026 年形式保持一致）的详细对比。这两项考试都评估四项核心英语技能：Listening、Reading、Speaking 和 Writing，但在结构、交付方式、题型、时间安排和考试体验方面存在显著差异。
 

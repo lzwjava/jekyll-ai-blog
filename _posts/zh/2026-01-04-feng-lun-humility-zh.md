@@ -12,7 +12,7 @@ type: note
 
 Question: 如何理解 Wantong 创始人之冯仑 (Feng Lun) 所说的：“脸贴在地上，才能吃到肉”？
 
-Answer: 
+Answer:
 
 冯仑 (Feng Lun) 是 Wantong Group (万通集团) 的创始人兼董事长，是中国著名的房地产企业家，以其对商业和人生的机智且深刻的见解而闻名。
 

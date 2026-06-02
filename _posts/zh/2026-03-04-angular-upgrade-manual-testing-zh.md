@@ -60,7 +60,7 @@ type: note
 
 仔细的手动测试 + 良好的前后比较通常是“在我机器上能工作”和“生产环境崩溃”之间的区别。
 
-引用：  
+引用：
 
 - [Angular Update Guide](https://angular.dev/update-guide)
 - [Angular 14 Release Notes & Breaking Changes Discussion](https://github.com/angular/angular/blob/main/CHANGELOG.md)（查找 v10 到 v14 部分）

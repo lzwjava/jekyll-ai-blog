@@ -15,7 +15,7 @@ Answer:
 
 No, a standard consumer desktop PC with an Intel Core i9 processor and NVIDIA RTX 4070 GPU cannot officially install or run NVIDIA DGX OS in a supported way.
 
-**What is NVIDIA DGX OS?**  
+**What is NVIDIA DGX OS?**
 DGX OS is a customized, hardened version of Ubuntu Linux (currently based on Ubuntu 22.04 or 24.04 depending on the release) that NVIDIA specifically optimizes and supports for its DGX family of AI supercomputers and workstations (such as DGX H100, DGX A100, DGX Station, and newer systems like DGX Spark). It includes:
 
 - Platform-specific drivers, kernel optimizations (including NVIDIA-optimized kernel for features like GPU Direct Storage).

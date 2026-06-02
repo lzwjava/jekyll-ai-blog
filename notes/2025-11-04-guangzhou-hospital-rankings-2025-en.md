@@ -23,7 +23,7 @@ For context, here are a few other highly ranked ones based on national and regio
 
 Rankings can vary by specialty (e.g., Zhongshan Ophthalmic Center is #1 for eye care), so the "top" depends on needs. For expats, options like Guangzhou United Family Hospital offer English-speaking services.
 
-[Hospital Rankings - China 2025 (Scimago)](https://www.scimagoir.com/rankings.php?country=CHN&sector=Health)  
-[Sun Yat-sen University (Wikipedia)](https://en.wikipedia.org/wiki/Sun_Yat-sen_University)  
-[Top-tier Hospitals in Guangzhou (MedChina Guide)](https://www.medchinaguide.com/china-top-hospitals/shanghai-hospitals/?search=Guangzhou)  
+[Hospital Rankings - China 2025 (Scimago)](https://www.scimagoir.com/rankings.php?country=CHN&sector=Health)
+[Sun Yat-sen University (Wikipedia)](https://en.wikipedia.org/wiki/Sun_Yat-sen_University)
+[Top-tier Hospitals in Guangzhou (MedChina Guide)](https://www.medchinaguide.com/china-top-hospitals/shanghai-hospitals/?search=Guangzhou)
 [3 Tianhe Hospitals National Top 100 (China Daily)](http://regional.chinadaily.com.cn/guangzhou/tianhe/2024-11/21/c_1046998.htm)

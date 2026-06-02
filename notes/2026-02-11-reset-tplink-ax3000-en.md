@@ -12,7 +12,7 @@ type: note
 
 Question: How to perform a complete factory reset (hard reset) on the TP-Link AX3000 (Archer AX3000 series Wi-Fi 6 router)?
 
-Answer: 
+Answer:
 
 A **complete factory reset** (also called factory default reset or hard reset) on the TP-Link AX3000 series Wi-Fi 6 router will erase all custom settings, including Wi-Fi name (SSID), password, admin password, port forwarding, parental controls, and any other configurations. The router will return to its original out-of-the-box state.
 
@@ -34,7 +34,7 @@ There are two main methods. The **hardware reset** is strongly recommended, espe
 **After successful reset:**
 - Default Wi-Fi name (SSID) and password → printed on the label on the bottom or back of the router (usually starts with **TP-Link_XXXX** and a random password).
 - Web management address → http://tplinkwifi.net or http://192.168.0.1 or http://192.168.1.1
-- Default login → username: **admin** / password: **admin**  
+- Default login → username: **admin** / password: **admin**
   (Note: On many newer firmware versions there is no default admin/admin; the first login forces you to create a new password.)
 
 **Tip:** If you see no change in lights (no fast blinking or reboot), the button may not have been pressed properly. Try again with more force or a sharper tool. A small number of users report needing to hold for 12–15 seconds on certain units.
@@ -58,6 +58,6 @@ After either method, you will need to set up the router again:
 - Check the exact model (e.g. Archer AX55, AX3000 Pro, etc.) on the TP-Link official support website for model-specific LED behavior and reset timing.
 - Slight differences exist between firmware versions and sub-models, but holding RESET for 10 seconds is almost universally effective across the AX3000 series.
 
-References:  
+References:
 
 - None (information is based on standard TP-Link Archer AX series factory reset procedure, consistent across official TP-Link documentation and user manuals as of 2026)

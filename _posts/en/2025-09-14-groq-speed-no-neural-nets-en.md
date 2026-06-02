@@ -11,19 +11,19 @@ translated: false
 type: note
 ---
 
-## Short answer  
+## Short answer
 
-**No – GROQ itself does not run a transformer‑style neural network (no “K‑Q‑V” attention, no tensor‑matrix math, no GPT‑style inference).**  
-Its speed comes from classic database‑engine tricks (column‑store layout, index‑driven filtering, compiled query plans, streaming execution, parallel workers, and aggressive caching).  
+**No – GROQ itself does not run a transformer‑style neural network (no “K‑Q‑V” attention, no tensor‑matrix math, no GPT‑style inference).**
+Its speed comes from classic database‑engine tricks (column‑store layout, index‑driven filtering, compiled query plans, streaming execution, parallel workers, and aggressive caching).
 
 If a Sanity project *does* use a transformer‑based service (e.g., embeddings for semantic search, OpenAI‑style completions, or a custom “AI‑field”), that part of the pipeline is **separate** from the GROQ engine and will have the latency characteristics of any other ML inference service. The two can be combined, but the “instant” feel you get when you run a plain GROQ query is **not** because a transformer is doing the heavy lifting.
 
 Below is a deeper dive that explains:
 
-1. **What GROQ actually is and why it’s fast** (a recap of the previous answer, trimmed to the essentials).  
-2. **Why transformer inference is a different beast** and why it’s generally slower than a pure index‑driven query.  
-3. **When and how you *might* see transformers in a Sanity workflow**, and what tricks providers use to make that part faster.  
-4. **A quick comparison table** showing the typical latency trade‑offs between pure‑GROQ queries, transformer‑based semantic search, and “hybrid” approaches.  
+1. **What GROQ actually is and why it’s fast** (a recap of the previous answer, trimmed to the essentials).
+2. **Why transformer inference is a different beast** and why it’s generally slower than a pure index‑driven query.
+3. **When and how you *might* see transformers in a Sanity workflow**, and what tricks providers use to make that part faster.
+4. **A quick comparison table** showing the typical latency trade‑offs between pure‑GROQ queries, transformer‑based semantic search, and “hybrid” approaches.
 
 ---
 
@@ -57,7 +57,7 @@ Even a **highly‑optimised, quantised** transformer (e.g., 8‑bit or 4‑bit) 
 
 ### Bottom‑line physics
 
-* **Index look‑ups** → O(1)–O(log N) reads of a few kilobytes → < 5 ms on a typical CPU.  
+* **Index look‑ups** → O(1)–O(log N) reads of a few kilobytes → < 5 ms on a typical CPU.
 * **Transformer inference** → O(L · D²) floating‑point ops (L = layers, D = hidden size) → 10‑100 ms on a GPU, > 100 ms on a CPU.
 
 So when you see a **“GROQ is fast”** claim, it is *not* because Sanity has somehow replaced the mathematics of attention with a secret shortcut; it is because the problem they are solving (filtering and projecting structured content) is *much better suited* to classic database techniques.
@@ -118,18 +118,18 @@ Overall ≈ 40 ms – fast enough for many UI experiences, but **the bottlen
 
 ## 5. TL;DR for your exact question
 
-- **GROQ does not use transformers, K‑Q‑V attention, or any tensor‑matrix math.**  
-- Its speed comes from **database‑engine optimisations** (column store, index‑driven filtering, compiled plans, streaming, parallel workers, caching).  
-- **If you add a transformer to the pipeline** (e.g., embeddings for semantic search), that part will be **slower** than the pure GROQ query; the overall latency is the sum of the two.  
-- Sanity’s “fast” claim **only applies to the GROQ portion**. Any AI‑heavy step is separate and will have the latency characteristics of the underlying model and serving infrastructure.  
+- **GROQ does not use transformers, K‑Q‑V attention, or any tensor‑matrix math.**
+- Its speed comes from **database‑engine optimisations** (column store, index‑driven filtering, compiled plans, streaming, parallel workers, caching).
+- **If you add a transformer to the pipeline** (e.g., embeddings for semantic search), that part will be **slower** than the pure GROQ query; the overall latency is the sum of the two.
+- Sanity’s “fast” claim **only applies to the GROQ portion**. Any AI‑heavy step is separate and will have the latency characteristics of the underlying model and serving infrastructure.
 
 ---
 
 ### What to do next?
 
-1. **Identify the part of your workflow that really needs a transformer** (semantic search, auto‑generation, classification).  
-2. **Isolate that step**: run it on a dedicated AI endpoint (OpenAI, Anthropic, self‑hosted quantised model).  
-3. **Keep the GROQ side pure**: after you have the AI‑derived IDs/tags, fetch the final data with a *regular* GROQ query – you’ll retain the sub‑30 ms latency for the data‑retrieval part.  
-4. **Measure** both stages separately (use `console.time` or a tracing tool). If AI latency dominates, experiment with quantisation, edge inference, or caching of embeddings.  
+1. **Identify the part of your workflow that really needs a transformer** (semantic search, auto‑generation, classification).
+2. **Isolate that step**: run it on a dedicated AI endpoint (OpenAI, Anthropic, self‑hosted quantised model).
+3. **Keep the GROQ side pure**: after you have the AI‑derived IDs/tags, fetch the final data with a *regular* GROQ query – you’ll retain the sub‑30 ms latency for the data‑retrieval part.
+4. **Measure** both stages separately (use `console.time` or a tracing tool). If AI latency dominates, experiment with quantisation, edge inference, or caching of embeddings.
 
 By separating the two concerns, you get the best of both worlds: **AI‑powered insight** when you need it, and **instant content retrieval** for everything else.

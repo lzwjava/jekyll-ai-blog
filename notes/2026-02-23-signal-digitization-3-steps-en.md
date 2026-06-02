@@ -11,7 +11,7 @@ type: note
 
 Question: What are the three stages included in the conversion process of analog signal digitization, which are sampling, quantization, and ______?
 
-Answer: 
+Answer:
 
 The conversion process of analog signal digitization involves three fundamental steps:
 
@@ -21,6 +21,6 @@ The conversion process of analog signal digitization involves three fundamental 
 
 Therefore, the missing term is **encoding** (or coding).
 
-References:  
+References:
 
 - No external references provided for this standard theoretical concept.

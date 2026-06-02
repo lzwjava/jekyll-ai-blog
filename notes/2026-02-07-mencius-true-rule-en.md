@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to 《寡人之于国也》.
 
-Answer: 
+Answer:
 
 《寡人之于国也》 is a famous chapter from the book **Mencius** (《孟子》), specifically from the section "Liang Hui Wang Shang" (梁惠王上). It records a dialogue between **Mencius** (孟子) and **King Hui of Liang** (梁惠王), and is one of the most important texts showcasing Mencius's core political philosophy of **"benevolent government" (仁政)**.
 
@@ -24,28 +24,28 @@ Answer:
 ### Main Content Summary
 The dialogue can be divided into three parts:
 
-1. **The King's Question**  
+1. **The King's Question**
    King Hui complains: "I do my utmost for the state. During famines in Henei, I move people to Hedong and grain to Henei, and vice versa. No neighboring ruler cares as much as I do. Yet my people do not increase while others do not decrease. Why?"
 
-2. **Mencius's Analogy (The famous "Fifty paces laughing at a hundred paces")**  
-   Mencius uses a battlefield metaphor: soldiers flee battle — some run 100 paces, some 50 paces. Can the 50-pace runners mock the 100-pace ones? The king admits they cannot, as both fled.  
+2. **Mencius's Analogy (The famous "Fifty paces laughing at a hundred paces")**
+   Mencius uses a battlefield metaphor: soldiers flee battle — some run 100 paces, some 50 paces. Can the 50-pace runners mock the 100-pace ones? The king admits they cannot, as both fled.
    Mencius then points out: the king's policies are only slightly better than neighbors', but still based on **profit-seeking and temporary relief** rather than true benevolent rule, so he cannot expect significantly better results.
 
-3. **The Ideal of Benevolent Government (仁政)**  
-   Mencius explains the true way to attract and keep people:  
-   - Do not disrupt farming seasons → grain will be more than enough.  
-   - Do not use fine nets in deep ponds → fish and turtles will be abundant.  
-   - Cut trees only in season → timber will be plentiful.  
-   → This ensures people can support the living and mourn the dead without regret — **the beginning of the Kingly Way (王道之始)**.  
+3. **The Ideal of Benevolent Government (仁政)**
+   Mencius explains the true way to attract and keep people:
+   - Do not disrupt farming seasons → grain will be more than enough.
+   - Do not use fine nets in deep ponds → fish and turtles will be abundant.
+   - Cut trees only in season → timber will be plentiful.
+   → This ensures people can support the living and mourn the dead without regret — **the beginning of the Kingly Way (王道之始)**.
 
-   He then describes concrete policies:  
-   - Plant mulberry trees around homes → people over 50 can wear silk.  
-   - Raise livestock at proper times → people over 70 can eat meat.  
-   - Give 100 mu of fields and do not interfere with farming → families can avoid hunger.  
-   - Promote education in schools and emphasize filial piety → the elderly will not carry burdens on roads.  
+   He then describes concrete policies:
+   - Plant mulberry trees around homes → people over 50 can wear silk.
+   - Raise livestock at proper times → people over 70 can eat meat.
+   - Give 100 mu of fields and do not interfere with farming → families can avoid hunger.
+   - Promote education in schools and emphasize filial piety → the elderly will not carry burdens on roads.
 
-   Final famous line:  
-   **"When those of seventy wear silk and eat meat, and the common people are neither hungry nor cold, yet the ruler does not become a true King — such a thing has never existed."**  
+   Final famous line:
+   **"When those of seventy wear silk and eat meat, and the common people are neither hungry nor cold, yet the ruler does not become a true King — such a thing has never existed."**
 
    He criticizes rulers who let dogs and pigs eat human food while people starve in the streets, then blame "bad years" instead of their own policies — comparing it to stabbing someone and saying "it wasn't me, it was the weapon."
 
@@ -57,7 +57,7 @@ The dialogue can be divided into three parts:
 
 This dialogue shows Mencius's sharp criticism of superficial "good governance" and his deep belief that only true benevolence can unify the world.
 
-References:  
+References:
 
 - [《寡人之于国也》原文、翻译及赏析 - 古诗文网](https://m.gushiwen.cn/shiwenv_25e4b27d3f50.aspx)
 - [寡人之于国也 - 百度百科](https://baike.baidu.com/item/%E5%AF%A1%E4%BA%BA%E4%B9%8B%E4%BA%8E%E5%9B%BD%E4%B9%9F/10382430)

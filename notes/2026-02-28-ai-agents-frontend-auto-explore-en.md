@@ -11,7 +11,7 @@ type: note
 
 Question: What about agentic exploration testing, using AI agents to test frontend by exploration? It will automatically open things and click here and there to do testing?
 
-Answer: 
+Answer:
 
 Yes, this concept — often called **agentic exploratory testing** or **autonomous exploration testing** — is becoming a real and rapidly growing area in 2025–2026.
 
@@ -66,7 +66,7 @@ Many teams run:
 
 The idea you described (AI agent freely clicking around, opening things, exploring) is no longer science fiction — it's actively being built, demoed, and used in production pilots right now.
 
-References:  
+References:
 
 - [WebProber: AI Agent-based Web Testing Framework (arxiv)](https://arxiv.org/html/2509.05197v1)
 - [Replit Agent – App Testing with real user simulation](https://docs.replit.com/replitai/agent)

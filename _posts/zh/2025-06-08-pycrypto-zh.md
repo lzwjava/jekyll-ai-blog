@@ -11,13 +11,13 @@ type: note
 该错误是因为 `pycrypto` 包需要 Python 头文件 `longintrepr.h`，该文件属于 Python 开发头文件。您的 Python 3.13 环境中缺少此文件。解决方法如下：
 
 ### 解决方案：
-1. **安装 Python 开发头文件**  
+1. **安装 Python 开发头文件**
    为您的操作系统安装 Python 3.13 开发包。在 Ubuntu/Debian 上运行：
    ```bash
    sudo apt-get install python3.13-dev
    ```
 
-2. **重新安装 `pycrypto`**  
+2. **重新安装 `pycrypto`**
    安装头文件后，重试安装：
    ```bash
    pip install pycrypto
@@ -26,14 +26,14 @@ type: note
 ---
 
 ### 替代建议：
-**选项 1：将 `pycrypto` 替换为 `pycryptodome`（推荐）**  
+**选项 1：将 `pycrypto` 替换为 `pycryptodome`（推荐）**
 `pycrypto` 已弃用且无人维护。切换到维护中的分支 `pycryptodome`，它 API 兼容：
 ```bash
 pip uninstall pycrypto
 pip install pycryptodome
 ```
 
-**选项 2：使用旧版 Python**  
+**选项 2：使用旧版 Python**
 如果兼容性允许，使用 Python ≤3.9（已知 `pycrypto` 可在该版本运行）：
 ```bash
 # 使用 pyenv 示例
@@ -62,8 +62,8 @@ pip install -r requirements.txt
 
 ```bash
 pip show pycrypto
-```  
-或  
+```
+或
 ```bash
 pipdeptree | grep -i pycrypto
 ```
@@ -77,7 +77,7 @@ pipdeptree | grep -i pycrypto
    ```bash
    pip uninstall pycrypto
    pip install pycryptodome
-   ```  
+   ```
    某些包接受 `pycryptodome` 作为直接替代。
 
 2. **强制重新安装依赖**以确保没有隐藏链接：

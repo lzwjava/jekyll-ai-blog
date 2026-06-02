@@ -27,7 +27,7 @@ Then configure:
 # For npm packages
 npm config set registry https://artifactory.company.com/artifactory/api/npm/npm/
 
-# For pip packages  
+# For pip packages
 pip config set global.index-url https://artifactory.company.com/artifactory/api/pypi/pypi/index/simple/
 
 # For other package managers, similar pattern

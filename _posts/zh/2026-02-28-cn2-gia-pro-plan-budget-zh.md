@@ -35,7 +35,7 @@ DMIT 在洛杉矶 (LAX) 有多个系列：
 - 仅在您愿意为节省成本而降低网络质量时，才考虑更便宜的替代方案（EB/T1 年化 ~$3–$5/月）。
 - 请查看官网确切当前库存/定价，因为套餐会波动（例如年度折扣常使其有效 ~$7–8/月）。
 
-参考资料：  
+参考资料：
 
 - [https://www.dmit.io/pages/pricing](https://www.dmit.io/pages/pricing)
 - [https://www.dmit.io/pages/cloud-instance](https://www.dmit.io/pages/cloud-instance)

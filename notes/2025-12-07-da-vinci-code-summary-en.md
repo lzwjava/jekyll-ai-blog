@@ -37,7 +37,7 @@ The central mystery revolves around the legendary Holy Grail. The book claims (t
 - Claims about Opus Dei, the Priory of Sion (later proven to be a 20th-century hoax by Pierre Plantard), Leonardo’s paintings, and early Christianity are almost entirely fictional or wildly speculative.
 - Despite this, the book became a global phenomenon, selling over 80 million copies and spawning a 2006 film starring Tom Hanks.
 
-In short: it’s a fast-paced, page-turning conspiracy thriller that speculates Jesus and Mary Magdalene were married and that the Church has hidden this for 2,000 years, using Leonardo da Vinci’s art as a giant clue trail. Treat it as entertainment, not history. 
+In short: it’s a fast-paced, page-turning conspiracy thriller that speculates Jesus and Mary Magdalene were married and that the Church has hidden this for 2,000 years, using Leonardo da Vinci’s art as a giant clue trail. Treat it as entertainment, not history.
 
 References:
 - [The Da Vinci Code - Wikipedia](https://en.wikipedia.org/wiki/The_Da_Vinci_Code)

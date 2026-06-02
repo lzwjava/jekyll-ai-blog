@@ -18,11 +18,11 @@ There are variants like FineWeb-Edu (filtered for educational content) and FineW
 ### Prerequisites
 - **Python Environment**: Python 3.8+ with the `datasets` library from Hugging Face.
 - **Storage**: The full dataset is massive (~16TB compressed). Use streaming for on-the-fly processing during training.
-- **Optional for Speed**: Install `huggingface_hub` with HF Transfer support:  
+- **Optional for Speed**: Install `huggingface_hub` with HF Transfer support:
   ```
   pip install huggingface_hub[hf_transfer]
   ```
-  Then set the environment variable:  
+  Then set the environment variable:
   ```
   export HF_HUB_ENABLE_HF_TRANSFER=1
   ```

@@ -12,7 +12,7 @@ type: note
 
 Question: Which Etcher version should I choose for a MacBook Air M2?
 
-Answer: 
+Answer:
 
 For a **MacBook Air with M2 chip** (Apple Silicon / ARM64 architecture), choose:
 
@@ -25,7 +25,7 @@ This is the native version built specifically for Apple Silicon Macs (M1, M2, M3
 
 The MacBook Air M2 uses Apple Silicon (ARM64), so the ARM64 build matches your hardware perfectly.
 
-References:  
+References:
 
 - [https://etcher.balena.io/](https://etcher.balena.io/)
 - [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)

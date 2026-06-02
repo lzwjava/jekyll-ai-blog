@@ -12,7 +12,7 @@ type: note
 
 Question: Provide an introduction to the history of AWS (Amazon Web Services)
 
-Answer: 
+Answer:
 
 Here is a concise history of **Amazon Web Services (AWS)**:
 
@@ -23,9 +23,9 @@ Here is a concise history of **Amazon Web Services (AWS)**:
 - Key insight: Amazon realized it was becoming extremely good at running internet-scale infrastructure — far better than most companies.
 
 ### The Birth of AWS – Public Services (2006)
-- **March 2006**: Amazon S3 (Simple Storage Service) launched — the first publicly available AWS service  
+- **March 2006**: Amazon S3 (Simple Storage Service) launched — the first publicly available AWS service
   → Object storage with 99.999999999% ("11 9s") durability promise
-- **August 2006**: Amazon EC2 (Elastic Compute Cloud) launched in beta  
+- **August 2006**: Amazon EC2 (Elastic Compute Cloud) launched in beta
   → Rent virtual machines by the hour — revolutionary at the time
 - These two services are widely considered the **birth of modern cloud computing**.
 
@@ -61,7 +61,7 @@ Here is a concise history of **Amazon Web Services (AWS)**:
 
 AWS did not invent cloud computing — but it **commercialized it**, made it accessible to millions of developers, and created the category that Azure, Google Cloud, Alibaba Cloud, and others later entered.
 
-References:  
+References:
 
 - https://aws.amazon.com/about-aws/global-infrastructure/history/
 - https://en.wikipedia.org/wiki/Amazon_Web_Services

@@ -11,7 +11,7 @@ type: note
 
 Question: In the process of network technology development, network products produced by different manufacturers often have significant differences. Networks that use different communication technologies and operating protocols are usually called what?
 
-Answer: 
+Answer:
 
 The correct term is **heterogeneous network**.
 
@@ -28,6 +28,6 @@ The description in the question directly matches the definition of a **heterogen
 
 Therefore, the reference answer "异构网络" is correct.
 
-References:  
+References:
 
 - None (standard networking terminology)

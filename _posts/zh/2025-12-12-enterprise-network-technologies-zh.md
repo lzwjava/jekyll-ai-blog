@@ -12,23 +12,23 @@ type: note
 
 问题：全面介绍关键的企业网络技术，包括 VRRP、MPLS VPN 基础、QoS 和相关主题。
 
-答案： 
+答案：
 
 企业网络是支持组织高可用性、安全性、性能和可扩展性要求的大规模、任务关键型网络。下面将对现代企业环境中使用的一些最重要技术进行结构化、全面的介绍。
 
 ### 1. 第一跳冗余协议（FHRP）
 这些协议为主机提供网关冗余，确保在默认网关出现故障时也能持续连接。
 
-- **VRRP (Virtual Router Redundancy Protocol)**  
-  - 行业标准 (RFC 5798)  
-  - 多个路由器共享一个虚拟 IP 和虚拟 MAC 地址  
-  - 一个路由器是主（Master），其他是备份（Backup）  
-  - 抢占默认启用（优先级更高的路由器接管）  
-  - 使用组播 224.0.0.18，协议号 112  
-  - RFC 5798 中已弃用认证（如果需要，请使用 IPsec）  
+- **VRRP (Virtual Router Redundancy Protocol)**
+  - 行业标准 (RFC 5798)
+  - 多个路由器共享一个虚拟 IP 和虚拟 MAC 地址
+  - 一个路由器是主（Master），其他是备份（Backup）
+  - 抢占默认启用（优先级更高的路由器接管）
+  - 使用组播 224.0.0.18，协议号 112
+  - RFC 5798 中已弃用认证（如果需要，请使用 IPsec）
   - 常见于多厂商环境（Cisco、Juniper、Arista 等）
 
-- **HSRP (Hot Standby Router Protocol)** – Cisco 专有  
+- **HSRP (Hot Standby Router Protocol)** – Cisco 专有
 - **GLBP (Gateway Load Balancing Protocol)** – Cisco 专有，提供负载均衡
 
 ### 2. 服务质量（QoS）

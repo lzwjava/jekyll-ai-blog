@@ -103,7 +103,7 @@ Phase 1: GPT-3 Small (125M), 10B tokens
          ~4 hours, ~$8
          Goal: validate pipeline, data, checkpointing
 
-Phase 2: GPT-3 XL (1.3B), 30B tokens  
+Phase 2: GPT-3 XL (1.3B), 30B tokens
          ~5 days, ~$240
          Goal: confirm loss curves, MFU, wandb tracking
 

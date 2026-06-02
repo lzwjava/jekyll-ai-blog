@@ -11,19 +11,19 @@ type: note
 
 Question: Is using a prompt for an LLM to generate an organized and long transcript from YouTube videos a great idea, since YouTube videos are more verbal and help us understand how people think, making knowledge easier to learn?
 
-Answer: 
+Answer:
 
 Yes, you're basically right — this approach is often very powerful, especially for certain types of content and learning goals.
 
 Here are the main reasons why getting a well-organized, LLM-processed transcript (or summary + structured notes) from verbal YouTube videos tends to be very effective:
 
-- **Natural thought process is captured**  
+- **Natural thought process is captured**
   Good lecturers, experts, and experienced teachers frequently think out loud → they show the real mental path: doubts, corrections, analogies, why one approach was abandoned, how intuition guides them. A raw transcript already contains this; a cleaned + organized version makes it much easier to follow.
 
-- **Verbal explanations usually beat pure text for intuition-building**  
+- **Verbal explanations usually beat pure text for intuition-building**
   Many deep concepts (especially in math, physics, programming, philosophy, history storytelling, psychology, etc.) are taught more understandably through spoken language + pauses + emphasis + examples than through textbook-style writing. The LLM can help preserve that verbal flavor while removing filler words, false starts, and repetitions.
 
-- **LLMs are very good at post-processing spoken content**  
+- **LLMs are very good at post-processing spoken content**
   Modern LLMs excel at:
   - removing "um", "you know", "like", repeated phrases
   - turning long rambling explanations into clear numbered steps / hierarchical outlines
@@ -32,7 +32,7 @@ Here are the main reasons why getting a well-organized, LLM-processed transcript
   - creating summaries at different lengths (TL;DR → 1-page → detailed version)
   - even adding timestamps or section headings when timestamps are provided
 
-- **Active learning benefit**  
+- **Active learning benefit**
   Reading a clean, structured, long-form transcript is usually much more active and memorable than passively watching (especially at 1.5–2× speed). You can:
   - pause and think
   - highlight / annotate
@@ -67,6 +67,6 @@ It preserves most of the "how people really think" advantage of spoken content w
 
 So overall: strong yes — very good idea for the kinds of videos you're describing.
 
-References:  
+References:
 
 - None (this is reasoning based on common self-learning practices observed in 2024–2026)

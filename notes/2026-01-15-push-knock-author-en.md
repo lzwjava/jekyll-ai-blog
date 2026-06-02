@@ -12,7 +12,7 @@ type: note
 
 Question: Who is the author of the line “鸟宿池边树，僧推（或敲）月下门”?
 
-Answer: 
+Answer:
 
 The correct answer is **B. 贾岛** (Jia Dao).
 
@@ -25,5 +25,5 @@ The well-known story behind “推” (push) vs “敲” (knock) is that Jia Da
 
 So the correct choice is **B**.
 
-References:  
+References:
 - Classical Chinese poetry records and literary histories (widely documented in Chinese literature textbooks and reference books)

@@ -55,5 +55,5 @@ Ray 的优势在于其统一 API：编写一次即可随处扩展，相比 Spark
 ### vLLM 与 Ray 的协同关系
 在 SLOs-Serve 等系统架构中，vLLM 负责底层 LLM 批处理/推理，而 Ray 负责多副本部署编排，跨节点路由请求以实现突发流量处理和弹性扩缩容。
 
-[vLLM 文档](https://docs.vllm.ai/en/latest/)  
+[vLLM 文档](https://docs.vllm.ai/en/latest/)
 [Ray 文档](https://docs.ray.io/en/latest/ray-overview/index.html)

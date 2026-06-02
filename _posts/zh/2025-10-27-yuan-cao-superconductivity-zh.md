@@ -23,8 +23,8 @@ type: note
 - **教育背景**：北京大学学士；麻省理工学院博士（约2020年完成）
 - **荣誉奖项**：《自然》十大科学人物（2018）；《福布斯》30位30岁以下科学精英（2020）
 
-[维基百科：曹原](https://en.wikipedia.org/wiki/Yuan_Cao)  
-[《自然》十大人物：曹原](https://www.nature.com/articles/d41586-018-07737-9)  
-[麻省理工新闻：扭转的科学](https://news.mit.edu/2019/yuan-cao-graphene-superconductivity-0108)  
-[CGTN：走近22岁的中国科学家](https://news.cgtn.com/news/3d3d674d774d444e31457a6333566d54/index.html)  
+[维基百科：曹原](https://en.wikipedia.org/wiki/Yuan_Cao)
+[《自然》十大人物：曹原](https://www.nature.com/articles/d41586-018-07737-9)
+[麻省理工新闻：扭转的科学](https://news.mit.edu/2019/yuan-cao-graphene-superconductivity-0108)
+[CGTN：走近22岁的中国科学家](https://news.cgtn.com/news/3d3d674d774d444e31457a6333566d54/index.html)
 [谷歌学术：曹原](https://scholar.google.com/citations?user=kJhEIh0AAAAJ&hl=en)

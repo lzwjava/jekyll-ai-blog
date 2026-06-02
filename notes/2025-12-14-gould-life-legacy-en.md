@@ -12,7 +12,7 @@ type: note
 
 Question: What is Glenn Gould's life story?
 
-Answer: 
+Answer:
 
 Glenn Gould was a renowned Canadian pianist, celebrated for his brilliant and often unconventional interpretations of classical music, particularly the works of Johann Sebastian Bach.
 
@@ -46,7 +46,7 @@ On October 4, 1982, just days after his 50th birthday, Gould suffered a massive 
 
 His legacy endures through iconic recordings (including a 1981 re-recording of the *Goldberg Variations*), influence on Bach performance, and cultural impact— inspiring films like *Thirty Two Short Films About Glenn Gould* (1993), books, and ongoing admiration as a visionary artist who embraced technology and challenged traditions.
 
-References:  
+References:
 
 - [Glenn Gould - Wikipedia](https://en.wikipedia.org/wiki/Glenn_Gould)
 - [Glenn Gould | Britannica](https://www.britannica.com/biography/Glenn-Gould)

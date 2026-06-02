@@ -13,14 +13,14 @@ The error occurs during the installation of the `pyperclip` package, specificall
 
 ### Steps to Resolve
 
-1. **Update `setuptools` and `pip`**  
+1. **Update `setuptools` and `pip`**
    Ensure you have the latest versions of `setuptools` and `pip`, as outdated versions can cause compatibility issues.
 
    ```bash
    pip install --upgrade pip setuptools
    ```
 
-2. **Install `pyperclip` with a Specific Version**  
+2. **Install `pyperclip` with a Specific Version**
    The error may be due to an older or incompatible version of `pyperclip`. Try installing a specific, stable version of `pyperclip`.
 
    ```bash
@@ -33,7 +33,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
    pip install pyperclip
    ```
 
-3. **Use the `--no-binary` Option**  
+3. **Use the `--no-binary` Option**
    If the wheel-building process fails, you can bypass it by installing the source distribution directly:
 
    ```bash
@@ -42,7 +42,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
 
    This forces `pip` to install from the source rather than trying to build a wheel.
 
-4. **Check Python Version Compatibility**  
+4. **Check Python Version Compatibility**
    Ensure your Python version is compatible with `pyperclip`. As of 2025, `pyperclip` supports Python 3.6 and above, but older versions may have issues. Check your Python version:
 
    ```bash
@@ -51,14 +51,14 @@ The error occurs during the installation of the `pyperclip` package, specificall
 
    If you're using an older Python version (e.g., Python 3.5 or earlier), upgrade to a newer version (e.g., Python 3.8+). You can manage Python versions using tools like `pyenv`.
 
-5. **Clear pip Cache**  
+5. **Clear pip Cache**
    A corrupted `pip` cache can cause issues. Clear it and try again:
 
    ```bash
    pip cache purge
    ```
 
-6. **Use a Virtual Environment**  
+6. **Use a Virtual Environment**
    To avoid conflicts with system packages, create a virtual environment:
 
    ```bash
@@ -68,7 +68,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
    pip install pyperclip
    ```
 
-7. **Downgrade `setuptools` (if needed)**  
+7. **Downgrade `setuptools` (if needed)**
    If updating `setuptools` doesn't resolve the issue, try downgrading to a version known to work with `pyperclip`. For example:
 
    ```bash
@@ -76,7 +76,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
    pip install pyperclip
    ```
 
-8. **Check for System-Specific Issues**  
+8. **Check for System-Specific Issues**
    The error mentions `/usr/lib/python3/dist-packages`, indicating you might be using a system Python installation (e.g., on Ubuntu). System Python installations can have restricted permissions or conflicts with globally installed packages. Using a virtual environment (Step 6) is the best way to avoid this. Alternatively, ensure you have permissions to install packages:
 
    ```bash
@@ -85,7 +85,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
 
    However, avoid using `sudo` unless necessary, as it can mess with system Python.
 
-9. **Alternative: Install via `apt` (Ubuntu/Debian)**  
+9. **Alternative: Install via `apt` (Ubuntu/Debian)**
    If you're on a Debian-based system and `pip` continues to fail, you can install `pyperclip` using the system package manager:
 
    ```bash
@@ -93,7 +93,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
    sudo apt install python3-pyperclip
    ```
 
-10. **Debug Further**  
+10. **Debug Further**
     If none of the above work, check the `pyperclip` GitHub page or PyPI for known issues or compatibility notes. You can also try installing from the source directly:
 
     ```bash

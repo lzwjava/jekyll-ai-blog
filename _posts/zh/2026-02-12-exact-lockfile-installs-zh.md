@@ -78,7 +78,7 @@ npm ERR! cb() never called!
 - 正在开发 / 添加 / 更新 dependencies → `npm install`
 - 想要与 lockfile 中完全一致的 dependency tree (CI, tests, Docker, production builds) → `npm ci`
 
-**核心结论：**  
+**核心结论：**
 `npm ci` = "完全按照 package-lock.json 安装，不进行任何改动，也不触碰 lockfile"
 
 **References:**

@@ -11,7 +11,7 @@ type: note
 
 Question: What's the best book about computer networking technology?
 
-Answer: 
+Answer:
 
 There is no single "best" book for everyone — it depends on your background, goals (theory vs. practice, beginner vs. advanced), and learning style. However, as of 2026, one book stands out as the most widely recommended and respected introduction to modern computer networking technology:
 
@@ -29,21 +29,21 @@ Most recent recommendations (2024–2026) from educators, engineers on Hacker Ne
 
 ### Strong alternatives depending on your needs
 
-- **If you want the classic, very detailed reference (bottom-up style)**  
-  **Computer Networks** (6th edition or later) by Andrew S. Tanenbaum & David Wetherall  
+- **If you want the classic, very detailed reference (bottom-up style)**
+  **Computer Networks** (6th edition or later) by Andrew S. Tanenbaum & David Wetherall
   → Extremely thorough, great for deep understanding of principles, still widely respected.
 
-- **If you prefer protocol-level depth with packet traces (very practical)**  
-  **TCP/IP Illustrated, Volume 1: The Protocols** (2nd edition) by W. Richard Stevens (updated by Kevin Fall)  
+- **If you prefer protocol-level depth with packet traces (very practical)**
+  **TCP/IP Illustrated, Volume 1: The Protocols** (2nd edition) by W. Richard Stevens (updated by Kevin Fall)
   → Legendary for showing exactly how protocols behave using real captures.
 
-- **If you're more interested in network engineering / operations / Cisco-style knowledge**  
-  - **Network Warrior** (2nd edition) by Gary Donahue  
-  - **Routing TCP/IP, Volume 1 & 2** by Jeff Doyle  
+- **If you're more interested in network engineering / operations / Cisco-style knowledge**
+  - **Network Warrior** (2nd edition) by Gary Donahue
+  - **Routing TCP/IP, Volume 1 & 2** by Jeff Doyle
   → Excellent for real-world configuration and troubleshooting.
 
-- **If you're a complete beginner wanting something easier**  
-  **Networking All-in-One For Dummies** (latest edition) by Doug Lowe  
+- **If you're a complete beginner wanting something easier**
+  **Networking All-in-One For Dummies** (latest edition) by Doug Lowe
   → Much gentler introduction, less academic.
 
 ### Quick recommendation summary (2026 perspective)
@@ -57,7 +57,7 @@ Most recent recommendations (2024–2026) from educators, engineers on Hacker Ne
 
 If you tell me more about your experience level and what specifically you want to achieve (e.g. understand how the Internet works, prepare for CCNA, build networked applications, etc.), I can give a more personalized suggestion.
 
-References:  
+References:
 
 - [10 Best Computer Networking Books To Learn From [2025 Updated]](https://www.geeksforgeeks.org/blogs/best-computer-networks-books)
 - [12 Best Computer Networking Books for Beginners & Experts in 2026](https://www.networkstraining.com/best-computer-networks-textbooks)

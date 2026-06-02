@@ -38,7 +38,7 @@ root = tree.getroot()
 Once parsed, you can traverse the XML tree:
 
 - **Access children**: Use `root[0]` for indexed access or iterate with `for child in root:`.
-- **Find elements**: 
+- **Find elements**:
   - `root.find('tag')` gets the first matching child.
   - `root.findall('tag')` gets all matching children.
 - **Access text and attributes**:

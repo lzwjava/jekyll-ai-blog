@@ -71,7 +71,7 @@ pod --version
    pod install
    ```
    - This downloads and integrates the `AVOSCloudIM` library (version 3.1.6.2) into your project.
-   - If successful, you’ll see output like:  
+   - If successful, you’ll see output like:
      ```
      Pod installation complete! There are X dependencies from the Podfile and X total pods installed.
      ```

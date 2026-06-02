@@ -23,6 +23,6 @@ Tennis courts are tiny (just 2,106 square feet), but Federer thrived by zooming 
 
 In short, Federer's edge was mental toughness wrapped in quiet intensity: work like hell, forgive fast, and live large. These aren't just tennis hacks—they're life upgrades.
 
-[2024 Commencement Address by Roger Federer](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer)  
-[Roger Federer’s psychological game made him Wimbledon’s best male player](https://theconversation.com/roger-federers-psychological-game-made-him-wimbledons-best-male-player-heres-the-secret-to-his-winning-mindset-234128)  
+[2024 Commencement Address by Roger Federer](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer)
+[Roger Federer’s psychological game made him Wimbledon’s best male player](https://theconversation.com/roger-federers-psychological-game-made-him-wimbledons-best-male-player-heres-the-secret-to-his-winning-mindset-234128)
 [The 4% Edge: How Roger Federer's Secret to Greatness Can Transform Your Business](https://www.redrocksp.com/post/the-4-edge)

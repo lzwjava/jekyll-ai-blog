@@ -12,7 +12,7 @@ type: note
 
 Question: Comprehensive introduction to crontab command options
 
-Answer: 
+Answer:
 
 The `crontab` command in Linux/Unix systems manages per-user cron tables — files that schedule recurring tasks (cron jobs) for automatic execution by the cron daemon.
 
@@ -34,39 +34,39 @@ There are two primary syntax forms:
 
 ### Most common options (available on virtually all systems)
 
-- `-e`  
-  Edit the current user's crontab using the editor defined in `$VISUAL` or `$EDITOR` (falls back to `vi`/`vim` if unset).  
+- `-e`
+  Edit the current user's crontab using the editor defined in `$VISUAL` or `$EDITOR` (falls back to `vi`/`vim` if unset).
   This is the most frequently used option for creating or modifying scheduled tasks interactively.
 
-- `-l`  
+- `-l`
   List (display) the current crontab on standard output.
 
-- `-r`  
-  Remove (delete) the current crontab entirely.  
+- `-r`
+  Remove (delete) the current crontab entirely.
   **Warning**: This is irreversible unless you have a backup.
 
-- `-u username`  
-  Operate on the crontab of the specified user instead of the current user.  
-  Requires root privileges (or appropriate sudo rights) in most implementations.  
+- `-u username`
+  Operate on the crontab of the specified user instead of the current user.
+  Requires root privileges (or appropriate sudo rights) in most implementations.
   Example: `sudo crontab -u www-data -e`
 
 ### Additional / less universal options (depend on the cron implementation)
 
-- `-i`  
-  Interactive/confirm mode — used together with `-r`.  
-  Asks for confirmation before removing the crontab.  
+- `-i`
+  Interactive/confirm mode — used together with `-r`.
+  Asks for confirmation before removing the crontab.
   Example: `crontab -r -i`
 
-- `-s`  
-  Show crontab in "system" format (shows SELinux security context if applicable).  
+- `-s`
+  Show crontab in "system" format (shows SELinux security context if applicable).
   Mainly relevant on systems using SELinux.
 
-- `-T` (syntax test / validation mode — available in modern versions, e.g. Vixie cron, systemd timers related implementations)  
-  Test the syntax of a crontab file without installing it.  
-  Example: `crontab -T myjobs.txt`  
+- `-T` (syntax test / validation mode — available in modern versions, e.g. Vixie cron, systemd timers related implementations)
+  Test the syntax of a crontab file without installing it.
+  Example: `crontab -T myjobs.txt`
   Returns exit code 0 if valid, non-zero otherwise. Very useful in scripts/CI.
 
-- `-n hostname` / `-c`  
+- `-n hostname` / `-c`
   Very rare — mostly in specialized or distributed cron variants (not standard Vixie cron).
 
 ### Quick reference table of typical usages
@@ -92,7 +92,7 @@ There are two primary syntax forms:
 
 For the syntax *inside* the crontab file itself (the 5 time fields + command), see `man 5 crontab`.
 
-References:  
+References:
 
 - [https://man7.org/linux/man-pages/man1/crontab.1.html](https://man7.org/linux/man-pages/man1/crontab.1.html)
 - [https://man7.org/linux/man-pages/man5/crontab.5.html](https://man7.org/linux/man-pages/man5/crontab.5.html)

@@ -11,9 +11,9 @@ type: note
 
 Question: Provide the English translation of "种树郭橐驼传" (Liu Zongyuan)
 
-Answer: 
+Answer:
 
-**The Biography of Camelback Guo the Tree Planter**  
+**The Biography of Camelback Guo the Tree Planter**
 (Translated from Liu Zongyuan's "Zhong Shu Guo Tuo Tuo Zhuan")
 
 There was a man in Chang'an whose surname was Guo and whose given name people did not know. Because he had a hump on his back like a camel's, he was called Camelback Guo. He lived in the market of Fengle and made his living by planting trees. All the wealthy families of Chang'an who wanted beautiful gardens, as well as those who sold fruit, all competed to invite him to plant trees for them. When Guo planted trees, those he had planted or transplanted never died, and they always grew large, luxuriant, early to bear fruit, and abundant in produce. Other tree planters, even if they watched him stealthily and imitated him, could never surpass him.
@@ -28,7 +28,7 @@ Guo laughed and said, "I am only a planter of trees. Governing the people is not
 
 I was greatly moved by his words and recorded them as a warning to those who act as officials.
 
-References:  
+References:
 
 - [Classical Chinese Literature](https://ctext.org/text.pl?node=3230&if=gb&remap=gb) (Chinese Text Project - original text)
 - Various public domain translations including those by Herbert Giles and others in anthologies of Tang prose

@@ -12,7 +12,7 @@ type: note
 
 Question: Is the reason my Ubuntu USB isn't booting on the Lenovo XiaoXin because I selected the first option in the boot menu, and should I instead select the second option that says something like "lite xx Veno" or similar?
 
-Answer: 
+Answer:
 
 Yes, this is **very likely the exact reason** your laptop is still booting into normal Windows mode instead of showing the Ubuntu live environment.
 
@@ -54,7 +54,7 @@ If it still doesn't work:
 
 In 90% of similar Lenovo XiaoXin cases reported online, switching to the second / "lite" / fallback option in the boot menu solves exactly this problem.
 
-References:  
+References:
 
 - [https://forums.lenovo.com/t5/Linux-Discussion/USB-boot-issues-on-IdeaPad/m-p/5123456](https://forums.lenovo.com/t5/Linux-Discussion/USB-boot-issues-on-IdeaPad/m-p/5123456)
 - [https://www.reddit.com/r/Ubuntu/comments/12j4k5m/lenovo_boot_menu_shows_two_ubuntu_entries_one/](https://www.reddit.com/r/Ubuntu/comments/12j4k5m/lenovo_boot_menu_shows_two_ubuntu_entries_one/)

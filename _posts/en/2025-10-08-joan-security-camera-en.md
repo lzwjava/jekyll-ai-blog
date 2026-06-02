@@ -16,7 +16,7 @@ Shenzhen JOOAN Technology Co., Ltd. (also known as Qiao An Technology) specializ
 Their IP cameras are designed for home and outdoor surveillance, featuring WiFi/4G connectivity, motion detection, night vision, two-way audio, and optional cloud storage for event clips and live streaming. Popular models include:
 
 - **JA-366 HD 720p Cloud IP Camera**: A wireless indoor/outdoor model with 1280x720 resolution, pan-tilt zoom (PTZ), night vision up to 10m, and built-in cloud support for remote viewing on mobile apps. Supports SD card local storage or paid cloud plans.
-  
+
 - **Q3R-U Outdoor Security Camera**: 2K (3MP) resolution, IP66 waterproof, 360° PTZ, auto-tracking, color night vision, and dual-lens options for panoramic views. Integrates with cloud for motion alerts and 24/7 recording.
 
 - **A2R-U WiFi Camera**: Indoor plug-in model with 1080p HD, 360° rotation, human detection, and two-way talk. Cloud-enabled for easy setup via app, with options for encrypted video storage.

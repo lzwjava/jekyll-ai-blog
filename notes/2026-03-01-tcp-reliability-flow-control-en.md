@@ -11,7 +11,7 @@ type: note
 
 Question: What does the YouTube video at https://www.youtube.com/watch?v=UYJP-6mhF6E say?
 
-Answer: 
+Answer:
 
 This YouTube video is a lecture titled **"3.5-1 TCP Reliability, Flow Control, and Connection Management"** (Part 1 of 2), presented by Jim Kurose as part of a computer networking course based on the textbook *Computer Networking: A Top-Down Approach* (8th edition) by Kurose and Ross.
 
@@ -31,7 +31,7 @@ The lecture uses animations, diagrams, and step-by-step examples to illustrate t
 
 This is part of a larger playlist covering all chapters of the textbook.
 
-References:  
+References:
 
 - [Video page](https://www.youtube.com/watch?v=UYJP-6mhF6E)
 - [Full playlist (Computer Networking: A Top-Down Approach - All Chapters)](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)

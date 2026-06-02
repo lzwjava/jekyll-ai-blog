@@ -38,7 +38,7 @@ Link encryption（也称为 **online encryption**）在 **Data Link Layer** 运�
 
 这是一个细微但关键的区别：
 
- 
+
 
 | 位置 | 数据状态 |
 |---|---|
