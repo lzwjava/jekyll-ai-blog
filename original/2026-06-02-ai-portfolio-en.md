@@ -93,6 +93,33 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 ---
 
+## 🖥️ LLM Training & Inference — My Hardware Setup
+
+Built my machine learning workstation in 2023 and have been training and learning ever since.
+
+**Hardware experience:**
+
+| GPU | VRAM | Experience | Where |
+|-----|------|------------|-------|
+| NVIDIA RTX 4070 | 12 GB | 3 years | Home workstation |
+| NVIDIA H200 | 141 GB | 3 months | RunPod / DigitalOcean |
+| AMD MI300X | 192 GB HBM3 | 3 months | AMD Developer Cloud |
+
+**What I've trained:**
+- **GPT-2 124M** from scratch on FineWeb dataset (nanoGPT) — on RTX 4070, H200, and MI300X.
+- **GPT-2 760M** from scratch on AMD MI300X (192 GB HBM3) — exploring nanochat, DeepSeek v4 MoE.
+- Various experiments on hyperparameter tuning, learning rate schedules, and dataset preprocessing.
+
+**The workstation:**
+
+![My ML learning station — built in 2023, RTX 4070 12GB, used for daily training and experiments](/assets/images/ai-portfolio/learning-station.jpg)
+
+**AMD Developer Cloud — MI300X 192GB HBM3:**
+
+![AMD Dev Cloud — MI300X instance for large-scale model training](/assets/images/ai-portfolio/amd-dev-cloud.png)
+
+---
+
 ## 🎓 Certificates
 
 ### Machine Learning Specialization — DeepLearning.AI & Stanford University
