@@ -4,14 +4,18 @@ generated: false
 image: false
 lang: zh
 layout: post
-title: 我的AI代币在各平台上的使用情况
+title: 我的AI代币跨平台使用情况
 translated: true
 ---
 
-OpenRouter 过去一年的使用情况：
+去年在 OpenRouter 上：
 
 ![OpenRouter 活动仪表盘](/assets/image/token-usage/openrouter-activity-dashboard.png)
 
-某个平台的一个月使用情况：
+一个月在某个平台上：
 
-![SsssAICode 2026年4月使用量](/assets/image/token-usage/sssaicode-usage-april-2026.png)
+![SsssAICode 2026年4月使用情况](/assets/image/token-usage/sssaicode-usage-april-2026.png)
+
+小米 MIMO 订阅仪表盘：
+
+![小米 MIMO 订阅仪表盘](/assets/image/token-usage/xiaomi-mimo-subscription-dashboard.png)

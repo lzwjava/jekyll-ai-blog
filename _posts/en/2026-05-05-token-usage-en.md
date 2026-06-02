@@ -15,3 +15,7 @@ Past Year in OpenRouter:
 One Month in a platform:
 
 ![SsssAICode Usage April 2026](/assets/image/token-usage/sssaicode-usage-april-2026.png)
+
+Xiaomi MIMO Subscription Dashboard:
+
+![Xiaomi MIMO Subscription Dashboard](/assets/image/token-usage/xiaomi-mimo-subscription-dashboard.png)
