@@ -17,7 +17,7 @@ I'm a software engineer with 12 years of hands-on experience across iOS, Android
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
 - AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage
 - Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), learning nanoGPT/nanochat, exploring DeepSeek v4 MoE
-- Consume ~1B LLM tokens in the past month (including 4.6B free from Xiaomi MiMo)
+- Consume ~1B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
 - Build CLI agents and automation tools (ww, iclaw, zz)
 - Self-taught, dropped out of university, learn by building
