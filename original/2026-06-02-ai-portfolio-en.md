@@ -156,7 +156,30 @@ Available commands:
 
 ### Other Projects
 
-- **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070.
+### zz — Dataset Processing & Training Utilities
+
+[zz](https://github.com/lzwjava/zz) is a toolkit for ML training pipelines — dataset download, tokenization, extraction, and inference utilities. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070. Also hosted on [Hugging Face](https://huggingface.co/lzwjava/zz).
+
+```
+lzwjava@lzw-mac zz % tree -L 1
+scripts/
+  download/     # Dataset download scripts (FineWeb, Wikimedia, HF mirrors)
+  extract/      # Data extraction, tokenization, and renaming
+  analysis/     # Training duration and metric evaluation
+  deepseek/     # LLM inference scripts (DeepSeek-V2-Lite)
+logs/           # Training logs and outputs
+datasets/       # Downloaded dataset storage
+```
+
+**Key capabilities:**
+- **FineWeb download** — Plan and download shards to hit a token budget (10B, 100B+ tokens), resumable with progress tracking.
+- **hf-mirror.com support** — wget scripts for China access when HuggingFace is blocked.
+- **Parquet extraction** — Memory-safe iteration via pyarrow iter_batches.
+- **Tokenization** — Convert raw text to training-ready formats.
+- **Training analysis** — Duration calculation, metric evaluation from training logs.
+- **DeepSeek inference** — LLM inference scripts for DeepSeek-V2-Lite.
+
+![zz on Hugging Face — dataset processing & training utilities, 22 commits, 3 contributors](/assets/images/ai-portfolio/zz-huggingface.png)
 ### jekyll-ai-blog — AI-Powered Blog Platform
 
 [jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog) is the source for [lzwjava.github.io](https://lzwjava.github.io) — a Jekyll blog enhanced with AI-powered automation. 10,000+ English posts, 10,000+ Chinese posts, 9,700+ AI answer notes. ~70,000 page views in the past month (Cloudflare Analytics).
