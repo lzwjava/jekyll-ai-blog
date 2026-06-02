@@ -156,7 +156,36 @@ Available commands:
 ### Other Projects
 
 - **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070.
-- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, and GitHub Actions workflows.
+### jekyll-ai-blog — AI-Powered Blog Platform
+
+[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog) is the source for [lzwjava.github.io](https://lzwjava.github.io) — a Jekyll blog enhanced with AI-powered automation. 10,000+ English posts, 10,000+ Chinese posts, 9,700+ AI answer notes. ~70,000 page views in the past month (Cloudflare Analytics).
+
+```
+lzwjava@lzw-mac jekyll-ai-blog % ls README.md
+README.md
+```
+
+**What makes it different from a standard Jekyll blog:**
+
+- **AI-Powered Translation** — LLM-based translation pipeline expands every post to multiple languages automatically via GitHub Actions.
+- **Google Cloud Text-to-Speech** — Audio versions of posts generated automatically for accessibility.
+- **XeLaTeX PDF/EPUB Generation** — High-quality print-ready PDFs and ebook exports from Markdown source.
+- **GitHub Actions CI/CD** — Automated building, testing, translation, and deployment workflows.
+- **8,000+ AI Answer Notes** — Knowledge base built from daily LLM-assisted research, searchable on the blog.
+- **MathJax, Night Mode, RSS, Bilingual Content** — Standard features enhanced with custom CSS and theme.
+
+**Scale:**
+
+| Metric | Count |
+|--------|-------|
+| English posts | 10,264 |
+| Chinese posts | 10,259 |
+| AI answer notes | 9,794 |
+| Python scripts | 323 |
+| ML scripts | 191 |
+| Page views (past month) | ~70,000 |
+
+![jekyll-ai-blog — AI-powered blog with 10K+ posts, translation, TTS, and PDF pipelines](/assets/images/ai-portfolio/blog.png)
 - **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — ~400 original posts, ~8,000 AI answer notes, ~70,000 page views in the past month.
 
 ---
