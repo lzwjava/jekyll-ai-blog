@@ -88,7 +88,7 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 | OpenRouter | 927M | Past year | $192 |
 | SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
 | Xiaomi MIMO | 500M | Current plan | Free 4.6B credit |
-| **Total** | **~1.5B+** | **Past year** | **—** |
+| **Total** | **~1.54B** | **Past year** | **—** |
 
 ---
 
