@@ -206,6 +206,18 @@ README.md
 
 ## 🤖 Other AI Projects
 
+### Tree_Of_Thought — Physics Problem-Solving with Tree-of-Thought Reasoning
+
+[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought) is a friend's project — an external Tree-of-Thought reasoning system for physics-heavy problem solving. Instead of relying on a model's hidden chain-of-thought in one opaque completion, it turns reasoning into an explicit, inspectable, controllable tree with live state, scoring, pruning, and deterministic tool support.
+
+The system combines a FastAPI service for long-lived reasoning sessions, a browser UI for inspecting and pruning branches, a node-level FSM and tree scheduler, a SymPy-backed skill layer for exact symbolic computation, and multi-model routing for planning, modeling, review, and evaluation.
+
+**My contribution (1 PR):** Added an OpenAI-compatible requester and `python-dotenv` config so the system can connect to any OpenAI-compatible endpoint (local or cloud).
+
+**Context:** I mentor a high school student who built this system. During a meeting, he walked me through the full architecture — the reasoning tree, the FSM-based review, the route-local incremental refinement. I introduced him to AI PhD researchers and helped him think about research direction. He's now exploring physics problem-solving with LLMs, using tools like Codex (GPT-5.4) and building multi-agent collaborative coding systems.
+
+![Tree of Thought — terminal tree explorer with node inspection, frontier management, and branch pruning](/assets/images/ai-portfolio/tree-of-thought.jpg)
+
 ### iclaw — Terminal AI Agent (REPL)
 
 [iclaw](https://github.com/lzwjava/iclaw) is a terminal AI agent that codes, searches, and runs commands autonomously — works on personal machines and locked-down enterprise ones. A minimal openclaw implementation, built as a plain Python CLI with no browser extensions or IDE plugins, powered by GitHub Copilot.
