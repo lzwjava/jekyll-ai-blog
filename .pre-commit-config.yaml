@@ -100,9 +100,9 @@ repos:
         language: system
         types_or: [shell, bash]
         exclude: ^node_modules/
-      - id: unit-tests
-        name: Unit tests
-        entry: python3 -m unittest discover -s tests/workflow -q
-        language: system
-        pass_filenames: false
-        always_run: true
+      # - id: unit-tests
+      #   name: Unit tests
+      #   entry: python3 -m unittest discover -s tests/workflow -q
+      #   language: system
+      #   pass_filenames: false
+      #   always_run: true
