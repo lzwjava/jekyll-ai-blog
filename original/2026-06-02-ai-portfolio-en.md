@@ -234,7 +234,7 @@ README.md
 
 ---
 
-## 🌳 Tree_Of_Thought — Physics Problem-Solving with Tree-of-Thought Reasoning
+## 🌳 Tree_Of_Thought — Worked with a High School Student on Tree-of-Thought Reasoning
 
 [Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought) is a friend's project — an external Tree-of-Thought reasoning system for physics-heavy problem solving. Instead of relying on a model's hidden chain-of-thought in one opaque completion, it turns reasoning into an explicit, inspectable, controllable tree with live state, scoring, pruning, and deterministic tool support.
 
