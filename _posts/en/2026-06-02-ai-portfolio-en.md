@@ -110,7 +110,51 @@ Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Struct
 
 ## 🤖 Other AI Projects
 
-- **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter.
+### iclaw — Terminal AI Agent (REPL)
+
+[iclaw](https://github.com/lzwjava/iclaw) is a terminal AI agent that codes, searches, and runs commands autonomously — works on personal machines and locked-down enterprise ones. A minimal openclaw implementation, built as a plain Python CLI with no browser extensions or IDE plugins, powered by GitHub Copilot.
+
+```
+lzwjava@lzw-mac iclaw % iclaw
+
+  ██  █████  ██       █████  ██   ██
+  ██ ██      ██      ██   ██ ██   ██
+  ██ ██      ██      ███████ ██ █ ██
+  ██ ██      ██      ██   ██ ██████
+  ██  █████  ███████ ██   ██  ███ ██
+
+Available commands:
+  /provider_model      Select and authenticate with the model provider
+  /model               Select specific model from your provider
+  /search              Web search (usage: /search <query>)
+  /provider_search     Select the web search provider
+  /proxy               Set HTTP/HTTPS proxy (usage: /proxy [url|off])
+  /ca_bundle           Set CA bundle for HTTPS (usage: /ca_bundle [path|off])
+  /log                 Set log verbosity (usage: /log [verbose|info])
+  /copy                Copy last Copilot response to clipboard
+  /read                Print file contents to terminal (usage: /read <path>)
+  /clear               Clear conversation history
+  /compact             Compact conversation history using LLM
+  /export              Export full conversation history to JSON file
+  /status              Show current settings
+  /help                Show available commands
+  /exit                Quit the REPL.
+```
+
+**Key features:**
+- **Multi-turn conversations** with GitHub Copilot or OpenRouter in your terminal.
+- **Multiple Model Providers**: GitHub Copilot (OAuth device flow) and OpenRouter (API key).
+- **Native Tool Calling**: The model autonomously invokes web search, executes shell commands, and edits files — no human in the loop.
+- **Multiple Search Providers**: DuckDuckGo, Startpage, Bing, and Tavily.
+- **Enterprise-friendly**: No IDE plugins or browser extensions required. Works behind corporate firewalls with proxy and CA bundle support.
+- **Default model**: GPT-5.2.
+
+![iclaw — Terminal AI agent REPL with native tool calling](/assets/images/ai-portfolio/iclaw.jpg)
+
+![iclaw — Execution log showing autonomous coding and shell commands](/assets/images/ai-portfolio/iclaw-log.png)
+
+### Other Projects
+
 - **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070.
 - **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, and GitHub Actions workflows.
 - **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — ~400 original posts, ~8,000 AI answer notes, ~70,000 page views in the past month.
