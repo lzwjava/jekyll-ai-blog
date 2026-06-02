@@ -20,10 +20,6 @@ I was born in 1995 in Meizhou, Guangdong — a small city known for Hakka cultur
 ![](assets/images/childhood/c1.jpg){: .responsive }
 *Primary school photo, Meizhou*{: .caption }
 
-{: .centered }
-![](assets/images/childhood/c2.jpg){: .responsive }
-*Source: Photographer*{: .caption }
-
 Meizhou wasn't a tech hub. No hackathons, no startup meetups, no developer communities. Just mountains, Hakka food, and a kid who was curious about everything. That curiosity would eventually drive me to teach myself programming, drop out of university, and chase a career in software — but it started here, in a small city where the biggest technology event was getting broadband internet.
 
 ---
