@@ -120,7 +120,13 @@ At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of Gi
 - Earned a **Contribution Award** for the high-profile AIPlayer project.
 - Joined HSBC's internal AI community.
 
-![GitHub Copilot — 16M+ installs, AI pair programmer integrated into VS Code](/assets/images/ai-portfolio/copilot.png)
+<div align="center">
+
+<img src="/assets/images/ai-portfolio/copilot.png" width="100%" /><img/>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">Image Source: GitHub Copilot — Visual Studio Code Marketplace</a></p>
+
+</div>
 
 ![HSBC AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
 
