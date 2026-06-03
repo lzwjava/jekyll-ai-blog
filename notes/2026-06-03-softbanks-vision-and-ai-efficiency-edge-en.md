@@ -16,6 +16,7 @@ type: note
 SoftBank acquired ARM in 2016 for $32 billion (£24.3 billion), paying a ~43% premium to public markets. Masayoshi Son saw ARM's potential in an interconnected future and significant investments in AI and autonomous vehicles. But the 2016 bet and the 2024-2025 AI explosion are two different stories.
 
 ## 2016: Mobile Internet & IoT Vision
+
 ARM does not manufacture chips but licenses its designs and instruction sets, earning a cut from every chip manufactured using its IP. At acquisition, ARM's processor and graphics technology was used by Samsung, Huawei and Apple in their in-house designed microchips. Son's vision: ubiquitous computing everywhere—phones, IoT, autonomous vehicles. A power-play in the foundation layer.
 
 ## 2024-2025: Why ARM is Now AI-Critical

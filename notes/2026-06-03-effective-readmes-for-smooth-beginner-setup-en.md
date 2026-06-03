@@ -66,6 +66,7 @@ echo "✅ Setup complete! Run: source venv/bin/activate && python main.py"
 ```
 
 **Key advantages:**
+
 - Detects missing Python → explicit error message
 - Isolates with venv → no system path pollution
 - Respects corporate pip configs → no retry loop
@@ -90,15 +91,17 @@ python main.py --help
 ## Setup Troubleshooting
 
 ### "python: command not found"
+
 You have Python 3 installed, but it's not in PATH.
 
 **macOS:** `brew install python3`
 **Ubuntu:** `sudo apt install python3 python3-venv python3-pip`
-**Windows:** Download from https://www.python.org (check "Add Python to PATH")
+**Windows:** Download from <https://www.python.org> (check "Add Python to PATH")
 
 Verify: `python3 --version` (should show 3.9+)
 
 ### "ModuleNotFoundError: No module named 'openai'"
+
 You skipped the venv or didn't run `pip install -r requirements.txt`.
 
 ```bash
@@ -107,11 +110,13 @@ pip install -r requirements.txt
 ```
 
 ### "OPENAI_API_KEY not found"
+
 1. Copy `.env.example` to `.env`
 2. Add your API key: `OPENAI_API_KEY=sk-...`
 3. Run: `python main.py`
 
 ### Corporate Proxy / Self-Hosted pip
+
 If pip fails behind a corporate firewall:
 
 ```bash
@@ -131,6 +136,7 @@ bash setup.sh
 ## Code Examples
 
 ### Basic API Call
+
 ```python
 import os
 from openai import OpenAI
@@ -148,6 +154,7 @@ print(response.choices[0].message.content)
 Run: `python -m main` (or just `python main.py`)
 
 ### Using the CLI
+
 ```bash
 python -m mytool --input "What is 2+2?" --model gpt-4
 ```
@@ -160,6 +167,7 @@ If you don't have Python or want to avoid setup altogether:
 docker build -t mytool .
 docker run --env OPENAI_API_KEY=$OPENAI_API_KEY mytool
 ```
+
 ```
 ## 3. **Minimal Dockerfile for Corporate Environments**
 
@@ -190,6 +198,7 @@ requests>=2.31.0
 Include `python-dotenv` so users can put secrets in `.env` without exporting them manually.
 
 **Load in code:**
+
 ```python
 from dotenv import load_dotenv
 import os
@@ -270,6 +279,7 @@ Users run `python test_setup.py` to debug in seconds.
 Most README friction comes from **hoping users follow steps perfectly**. Instead:
 
 ✅ **What works:**
+
 - One-liner setup script that handles all edge cases
 - Docker for "I don't want to think about this"
 - Validation scripts that diagnose failures
@@ -277,6 +287,7 @@ Most README friction comes from **hoping users follow steps perfectly**. Instead
 - Copy-pasteable troubleshooting with exact commands
 
 ❌ **What doesn't:**
+
 - "Install Python" (which version? where?)
 - "Set OPENAI_API_KEY" (how? where?)
 - Lists of prerequisites (users skip them)
@@ -285,6 +296,7 @@ Most README friction comes from **hoping users follow steps perfectly**. Instead
 ---
 
 For your own tools, I'd ship:
+
 1. **setup.sh** — handles everything
 2. **test_setup.py** — validates environment
 3. **Dockerfile** — zero-friction alternative

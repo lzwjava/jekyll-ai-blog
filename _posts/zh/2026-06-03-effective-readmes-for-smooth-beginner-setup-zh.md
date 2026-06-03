@@ -66,6 +66,7 @@ echo "✅ 设置完成！运行: source venv/bin/activate && python main.py"
 ```
 
 **关键优势：**
+
 - 检测缺失 Python → 明确的错误信息
 - 使用 venv 隔离 → 避免系统路径污染
 - 遵循企业 pip 配置 → 无需重试循环
@@ -90,15 +91,17 @@ python main.py --help
 ## 设置故障排除
 
 ### "python: command not found"
+
 你已经安装了 Python 3，但它不在 PATH 中。
 
 **macOS:** `brew install python3`
 **Ubuntu:** `sudo apt install python3 python3-venv python3-pip`
-**Windows:** 从 https://www.python.org 下载（勾选“Add Python to PATH”）
+**Windows:** 从 <https://www.python.org> 下载（勾选“Add Python to PATH”）
 
 验证: `python3 --version`（应显示 3.9+）
 
 ### "ModuleNotFoundError: No module named 'openai'"
+
 你跳过了 venv 或者没有运行 `pip install -r requirements.txt`。
 
 ```bash
@@ -107,11 +110,13 @@ pip install -r requirements.txt
 ```
 
 ### "OPENAI_API_KEY not found"
+
 1. 将 `.env.example` 复制为 `.env`
 2. 添加你的 API 密钥: `OPENAI_API_KEY=sk-...`
 3. 运行: `python main.py`
 
 ### 企业代理 / 自托管 pip
+
 如果 pip 在企业防火墙后失败：
 
 ```bash
@@ -131,6 +136,7 @@ bash setup.sh
 ## 代码示例
 
 ### 基本 API 调用
+
 ```python
 import os
 from openai import OpenAI
@@ -148,6 +154,7 @@ print(response.choices[0].message.content)
 运行: `python -m main`（或直接 `python main.py`）
 
 ### 使用 CLI
+
 ```bash
 python -m mytool --input "What is 2+2?" --model gpt-4
 ```
@@ -160,6 +167,7 @@ python -m mytool --input "What is 2+2?" --model gpt-4
 docker build -t mytool .
 docker run --env OPENAI_API_KEY=$OPENAI_API_KEY mytool
 ```
+
 ```
 ## 3. **适用于企业环境的最小化 Dockerfile**
 
@@ -190,6 +198,7 @@ requests>=2.31.0
 包含 `python-dotenv`，这样用户可以将密钥放在 `.env` 中，而无需手动导出。
 
 **在代码中加载：**
+
 ```python
 from dotenv import load_dotenv
 import os
@@ -270,6 +279,7 @@ if __name__ == "__main__":
 大多数 README 摩擦源于**希望用户完美地遵循步骤**。相反：
 
 ✅ **有效的做法：**
+
 - 处理所有边缘情况的一行设置脚本
 - 对于“我不想考虑这些”的情况使用 Docker
 - 诊断失败的验证脚本
@@ -277,6 +287,7 @@ if __name__ == "__main__":
 - 包含确切命令的可复制粘贴故障排除
 
 ❌ **无效的做法：**
+
 - “安装 Python”（哪个版本？哪里？）
 - “设置 OPENAI_API_KEY”（如何设置？哪里设置？）
 - 依赖项列表（用户会跳过）
@@ -285,6 +296,7 @@ if __name__ == "__main__":
 ---
 
 对于你自己的工具，我会提供：
+
 1. **setup.sh** —— 处理所有事情
 2. **test_setup.py** —— 验证环境
 3. **Dockerfile** —— 零摩擦的替代方案

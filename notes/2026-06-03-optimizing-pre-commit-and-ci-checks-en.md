@@ -37,6 +37,7 @@ You've identified the core tradeoff correctly: **pre-commit is synchronous frict
 ### Recommended Split
 
 **Pre-commit (keep local, fast feedback):**
+
 ```yaml
 - Basic hygiene: trailing-ws, end-of-file, mixed-line-ending, case-conflict
 - Structured data: check-yaml, check-toml, check-json (fast, deterministic)
@@ -47,6 +48,7 @@ You've identified the core tradeoff correctly: **pre-commit is synchronous frict
 ```
 
 **GitHub Actions (async, comprehensive):**
+
 ```yaml
 - pyright (type-checking)
 - bandit (security scan)
@@ -58,6 +60,7 @@ You've identified the core tradeoff correctly: **pre-commit is synchronous frict
 ### Config Optimization
 
 **Make ruff faster on pre-commit:**
+
 ```yaml
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.9.10
@@ -69,6 +72,7 @@ You've identified the core tradeoff correctly: **pre-commit is synchronous frict
 ```
 
 **Move pyright to GH Actions:**
+
 ```yaml
 # .github/workflows/type-check.yml
 name: Type Check
@@ -89,6 +93,7 @@ Remove from pre-commit entirely. Add to GH Actions, runs once per PR.
 ### Measuring Impact
 
 Before changing anything, measure your current setup:
+
 ```bash
 # Time each hook
 time pre-commit run --all-files
@@ -101,6 +106,7 @@ If any hook takes >2s, move it to CI. Rule of thumb: **if devs see >3s total pre
 ### Your Specific Case
 
 Given you:
+
 - Ship fast
 - Use CLI-first workflows
 - Have a heterogeneous codebase (Python, shell, YAML, markdown)
@@ -122,6 +128,7 @@ Given you:
 ```
 
 Then add to `.github/workflows/quality.yml`:
+
 - Full pyright scan
 - bandit security scan
 - Any integration tests
@@ -131,12 +138,14 @@ This way: **commit is instant, feedback is comprehensive async, and you never fe
 ### The Question You Asked: "How Frequently Do They Fail?"
 
 This depends on your team discipline. In a well-maintained codebase:
+
 - Basic hygiene checks fail <1% (mostly accidental)
 - Ruff lint fails ~5-10% (catches real issues)
 - Pyright fails ~10-20% (types are stricter)
 - Bandit fails <1% (mostly false positives you skip anyway)
 
 If you see >30% failure rate on any hook, either:
+
 1. The hook is too strict (disable/configure)
 2. Your codebase quality is degrading (address root cause)
 
