@@ -275,6 +275,20 @@ Self-taught through China's higher education self-study examination system (自�
 
 ---
 
+## 🍳 Cooking
+
+I picked up cooking as a practical skill — not as a hobby, but as a way to eat better and save time. The air fryer became my go-to tool: a Midea KZE5004 for around 126 CNY. It replaced my electric oven (my wife vetoed having both — too much clutter in our already-packed kitchen). With it I've made fries, chicken wings, roasted chicken, and various stir-fried dishes.
+
+Beyond the air fryer, I've learned to make porridge with meat and vegetables, noodle soups, and stovetop stir-fries. The key lessons are simple: oil has a higher boiling point than water so stir-frying heats food more effectively; cut ingredients into small pieces for even cooking; and add ingredients in the right order since broccoli needs more time than mushrooms. A vegetable chopper, mortar and pestle, and parchment paper are underrated tools.
+
+Cooking mirrors programming more than I expected — the same process or function applies to similar ingredients, the order of operations matters, and the goal is always to get the output right (fully cooked, safe to eat).
+
+{: .centered }
+![](assets/images/portfolio/cooking_collage.jpg){: .responsive }
+*Home cooking — stir-fry, porridge, and air fryer dishes*{: .caption }
+
+---
+
 ## 🏃 What's Next
 
 The journey continues. I'm transitioning fully into AI engineering — not as a side activity, but as the main career. The goal is deep competency in:
