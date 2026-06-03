@@ -16,6 +16,7 @@ Root cause: `ww/main.py` was missing `if __name__ == "__main__": main()`. The He
 Why it was hard to notice: the plugin had a safety check that warns if `ww note watch` isn't running. Since the watcher WAS running, no warning appeared. The plugin printed "Queued." and the user assumed it worked. Classic silent failure — no error, no output, no queue entry.
 
 Two fixes applied:
+
 1. `ww/main.py` — added `if __name__ == "__main__": main()` at end
 2. Plugin — switched from `sys.executable -m ww.main` to `shutil.which("ww")` CLI call
 
