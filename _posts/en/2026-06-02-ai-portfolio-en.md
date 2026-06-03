@@ -242,6 +242,8 @@ README.md
 
 ![jekyll-ai-blog — AI-powered blog with 10K+ posts, translation, TTS, and PDF pipelines](/assets/images/ai-portfolio/blog.png)
 
+![Cloudflare Web Analytics — 38.9K visits, 45.2K page views, 930ms load time, 82% good LCP](/assets/images/ai-portfolio/cloudflare-analytics.png)
+
 GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
 
 ---
