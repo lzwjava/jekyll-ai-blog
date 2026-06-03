@@ -93,6 +93,22 @@ The key insight: **outsourcing isn't glamorous, but it teaches you how business 
 
 ---
 
+## 👥 AI & Fun Live — The Engineer Community
+
+Fun Live was more than a live-streaming platform — it became a community. Around 2016-2017, as we hosted lectures on programming, design, and tech, users gathered in WeChat groups. What started as notification channels for upcoming talks evolved into something much larger: a network of roughly 3,000 engineers across 27 WeChat groups.
+
+The composition tells the story of China's tech scene at that time: about three-quarters iOS engineers, the rest Android developers, machine learning practitioners, startup founders, and internet professionals. These were people building the mobile internet in real time — the apps, platforms, and services that millions of Chinese users relied on daily.
+
+We hosted around 80 lectures with 30,000 users and millions of page views. After each talk, the speaker would join the WeChat group for a short Q&A — a tradition that kept the groups alive long after the live stream ended. The groups became a persistent layer of technical discussion, job referrals, and peer support that outlived the platform itself.
+
+Even today, these groups remain active. I share materials across all 27 groups — different audiences, different discussions, but the same spirit of learning in public. The community taught me something the business metrics didn't capture: **the most valuable thing you can build isn't a product — it's a room full of people who want to learn from each other.**
+
+{: .centered }
+![](assets/images/portfolio/group.jpg){: .responsive }
+*WeChat groups — AI & Fun Live, still active since 2016*{: .caption }
+
+---
+
 ## 🌏 Silicon Valley & America
 
 My first trip to Silicon Valley in 2016 was transformative. I visited Google, Stanford, the Computer History Museum, and Y Combinator. I watched an NBA game, walked across the Golden Gate Bridge, and had conversations with people from completely different backgrounds.
