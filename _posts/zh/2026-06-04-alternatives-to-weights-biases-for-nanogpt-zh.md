@@ -28,6 +28,7 @@ MLflow在灵活性和自托管部署方面领先，具有强大的模型注册�
 开源、自托管、零云依赖。MLflow Tracking默认将数据记录到本地`mlruns`目录，并可配置远程数据库和云存储。
 
 **安装：**
+
 ```bash
 pip install mlflow
 ```
@@ -67,6 +68,7 @@ with mlflow.start_run(run_name="run-1"):
 ```
 
 查看实验：
+
 ```bash
 mlflow ui
 # 打开 http://localhost:5000
@@ -77,6 +79,7 @@ mlflow ui
 ### **选项2：Aim（推荐用于轻量快速）**
 
 专注于训练跟踪，具有卓越的UI可扩展性——可流畅处理数千个指标，在探索数百次运行时性能优于MLflow UI。安装：
+
 ```bash
 pip install aim
 ```
@@ -105,6 +108,7 @@ for step in range(max_iters):
 ```
 
 查看仪表板：
+
 ```bash
 aim up
 # 打开 http://localhost:43800
@@ -115,11 +119,13 @@ aim up
 ### **选项3：MLflow + Aim混合（最佳UI+完全控制）**
 
 用MLflow记录，用Aim的卓越UI可视化。安装aimlflow：
+
 ```bash
 pip install aimlflow
 ```
 
 按上述方式用MLflow训练，然后转换：
+
 ```bash
 aimlflow sync -m /path/to/mlruns
 aim up
@@ -169,7 +175,7 @@ with open(log_dir / "metrics.json", "w") as f:
 
 参考资料：
 
-- https://mlflow.org/docs/latest/ml/tracking/
-- https://github.com/aimhubio/aim
-- https://aimstack.io/blog/tutorials/exploring-mlflow-experiments-with-a-powerful-ui
-- https://medium.com/@bingqian/building-and-tracking-nanogpt-training-in-databricks-with-mlflow-2ce499183881
+- <https://mlflow.org/docs/latest/ml/tracking/>
+- <https://github.com/aimhubio/aim>
+- <https://aimstack.io/blog/tutorials/exploring-mlflow-experiments-with-a-powerful-ui>
+- <https://medium.com/@bingqian/building-and-tracking-nanogpt-training-in-databricks-with-mlflow-2ce499183881>

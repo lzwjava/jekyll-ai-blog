@@ -20,6 +20,7 @@ type: note
 ## 具体体现
 
 **1. 函数调用（基础层面）**
+
 ```python
 def process_user(user_dict):
     return user_dict["email"].lower()  # 假设存在email键
@@ -30,6 +31,7 @@ process_user(user)  # KeyError — 消费者无法处理
 ```
 
 **2. REST API**
+
 ```python
 @app.post("/users")
 def create_user(data):
@@ -40,6 +42,7 @@ POST /users {"age": "not-a-number"}  # 400 Bad Request
 ```
 
 **3. 线程/异步任务队列**
+
 ```python
 class TaskQueue:
     def enqueue(self, task_func, *args):
@@ -51,6 +54,7 @@ class TaskQueue:
 ```
 
 **4. 数据库约束**
+
 ```sql
 -- 生产者（应用代码）断言：此INSERT操作遵守外键约束
 INSERT INTO orders (user_id, product_id) VALUES (999, 1);
@@ -58,6 +62,7 @@ INSERT INTO orders (user_id, product_id) VALUES (999, 1);
 ```
 
 **5. Kafka/消息队列（具体实例）**
+
 ```python
 # 生产者发布消息
 producer.send("orders", {"user_id": 123, "items": "not-a-list"})
@@ -108,6 +113,7 @@ def consume(message):
 ## Kafka特有的复杂性
 
 Kafka使得这种情况**更加明显**，原因在于：
+
 1. 生产者和消费者在**时间和空间上解耦**——生产者无法实时看到消费者失败
 2. **数据结构漂移**：生产者可能发出新字段，导致旧消费者崩溃
 3. **异步特性**：错误不会立即向上传递

@@ -18,6 +18,7 @@ OK, I've read all the note code. Here's what's actually there:
 2. **`ww note --sync`** → `note_workflow.main()` — the OLD path: check uncommitted, pull, create note, fix mathjax, commit+push, open browser. This is NOT queued — it's a full synchronous pipeline.
 
 **Queue processing:**
+
 - `ww note process` → drains pending entries from queue, creates notes, commits+pushes
 - `ww note watch` → background daemon that polls the queue file every 2s and auto-processes
 

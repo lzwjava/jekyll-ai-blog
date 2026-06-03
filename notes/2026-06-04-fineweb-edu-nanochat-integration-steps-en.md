@@ -58,6 +58,7 @@ cd /mnt/data/nanochat
 ```
 
 Key flags to adjust based on your VRAM:
+
 - `--depth` — model depth (4 = tiny/debug, 12 = small, 20 = default)
 - `--device-batch-size` — reduce to 1-2 if OOM
 - `--max-seq-len` — context length (512 conserves VRAM)
@@ -66,6 +67,7 @@ Key flags to adjust based on your VRAM:
 - `--num-iterations` — how many steps to train
 
 **Important notes:**
+
 - nanochat uses its OWN tokenizer (BPE, 32K vocab) — completely different from GPT-2's tokenizer in tiktoken
 - The `.bin` files from nanoGPT are pre-tokenized with GPT-2 tokenizer and can't be reused
 - Your raw text parquets ARE the right input for nanochat

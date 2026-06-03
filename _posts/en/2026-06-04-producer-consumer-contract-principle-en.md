@@ -20,6 +20,7 @@ The core principle: **Whoever calls/enqueues work makes a claim; whoever handles
 ## Where It Shows Up
 
 **1. Function calls (basic level)**
+
 ```python
 def process_user(user_dict):
     return user_dict["email"].lower()  # ASSUMES email key exists
@@ -30,6 +31,7 @@ process_user(user)  # KeyError — consumer can't handle
 ```
 
 **2. REST APIs**
+
 ```python
 @app.post("/users")
 def create_user(data):
@@ -40,6 +42,7 @@ POST /users {"age": "not-a-number"}  # 400 Bad Request
 ```
 
 **3. Thread/async task queues**
+
 ```python
 class TaskQueue:
     def enqueue(self, task_func, *args):
@@ -51,6 +54,7 @@ class TaskQueue:
 ```
 
 **4. Database constraints**
+
 ```sql
 -- Producer (application code) claims: this INSERT respects foreign keys
 INSERT INTO orders (user_id, product_id) VALUES (999, 1);
@@ -58,6 +62,7 @@ INSERT INTO orders (user_id, product_id) VALUES (999, 1);
 ```
 
 **5. Kafka/message queues (specific instance)**
+
 ```python
 # Producer publishes message
 producer.send("orders", {"user_id": 123, "items": "not-a-list"})
@@ -108,6 +113,7 @@ def consume(message):
 ## The Kafka-Specific Wrinkle
 
 Kafka makes this **more visible** because:
+
 1. Producer and consumer are **decoupled in time/space** — producer can't see consumer fail in real-time
 2. **Schema drift**: Producer might emit new fields; old consumer crashes
 3. **Async nature**: Failures don't bubble up immediately

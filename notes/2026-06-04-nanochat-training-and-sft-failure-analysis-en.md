@@ -18,6 +18,7 @@ NANOCHAT (Karpathy's nanochat) — /mnt/data/nanochat
 Status: COMPLETED (Jun 2, 2026) — but SFT stage produced NaN loss.
 
 What happened:
+
   1. Downloaded 9 shards (~2B chars) of ClimbMix data to ~/.cache/nanochat/base_data_climbmix/
   2. Trained a BPE tokenizer (32,503 merges, vocab_size=32768)
   3. BASE PRETRAINING (depth=8, ~40M params):
@@ -94,7 +95,9 @@ The pipeline is: data -> tokenizer -> pretrain -> SFT -> eval -> chat
 3. Chat with your trained model:
 
    python -m scripts.chat_cli -p "Why is the sky blue?"
-   # or web UI:
+
+   # or web UI
+
    python -m scripts.chat_web
 
 4. Scale up — try depth=12 (GPT-1 sized, ~100M params):
@@ -113,6 +116,7 @@ The immediate fix: SFT NaN. Want me to SSH in and:
   (c) Test the chat CLI with the fixed model?
 
 Or if you want to experiment differently, you could also:
-  - Try depth=12 or depth=16 on RTX 4070 (with smaller batch)
-  - Use the nanoGPT fineweb checkpoint (~200M) for actual generation
-  - Run the RL training stage (scripts/chat_rl.py) after SFT works
+
+- Try depth=12 or depth=16 on RTX 4070 (with smaller batch)
+- Use the nanoGPT fineweb checkpoint (~200M) for actual generation
+- Run the RL training stage (scripts/chat_rl.py) after SFT works

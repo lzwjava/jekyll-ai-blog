@@ -324,6 +324,7 @@ Viral marketing H5 for a "21-Day Math Reading Training Camp." Users generate sha
 ### Page 25 — Company Overview
 
 Square Root Technology team overview:
+
 - ~15 person development team (frontend, backend, iOS, Android, WeChat Mini Program, UI/UX design, business)
 - 40+ historical projects across Web, iOS, Android, WeChat Mini Apps
 - Clients include top-tier education company Yuan TiKu (猿题库), blockchain startups, and hardware companies

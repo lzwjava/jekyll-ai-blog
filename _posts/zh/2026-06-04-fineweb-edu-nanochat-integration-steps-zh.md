@@ -58,6 +58,7 @@ cd /mnt/data/nanochat
 ```
 
 根据您的显存调整的关键参数：
+
 - `--depth` — 模型深度（4 = 微型/调试，12 = 小型，20 = 默认）
 - `--device-batch-size` — 如果显存不足（OOM），请减少到 1-2
 - `--max-seq-len` — 上下文长度（512 节省显存）
@@ -66,6 +67,7 @@ cd /mnt/data/nanochat
 - `--num-iterations` — 训练的步数
 
 **重要说明：**
+
 - nanochat 使用**自己的**分词器（BPE，32K 词汇量）——这与 tiktoken 中 GPT-2 的分词器完全不同
 - nanoGPT 生成的 `.bin` 文件是使用 GPT-2 分词器预分词的，无法重复使用
 - 您的原始文本 parquet 文件正是 nanochat 所需的正确输入

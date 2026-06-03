@@ -16,6 +16,7 @@ Answer:
 **Short take:** CLI is your native habitat and ships faster. HTML GUI unlocks a different market (non-engineers), but only build it if that market is actually worth serving. Don't optimize for "everyone" — optimize for your core user first.
 
 **When CLI is the right call:**
+
 - You (engineer) use it daily
 - Your users are engineers/terminal-native
 - Iteration speed matters more than polish
@@ -24,6 +25,7 @@ Answer:
 You ship faster, maintain less surface area, and stay in flow.
 
 **When HTML GUI makes sense:**
+
 - Non-engineers need to use it (accountants, ops, PMs)
 - The tool solves a business problem with repeating users
 - You have adoption goals beyond yourself
@@ -47,11 +49,13 @@ class DataProcessor:
 **Then:** Two thin layers on top:
 
 1. **CLI wrapper** (20 lines of Click/Typer):
+
 ```bash
 myapp process --input data.csv --output result.json
 ```
 
 2. **HTML GUI** (self-contained, ~300-500 lines of HTML/JS):
+
 ```html
 <!-- index.html -->
 <input type="file" id="upload">

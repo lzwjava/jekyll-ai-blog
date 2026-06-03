@@ -16,6 +16,7 @@ type: note
 **简短回答：** CLI是你的原生环境，交付速度更快。HTML GUI能打开不同的市场（非工程师），但只有这个市场确实值得服务时才去构建。不要为“所有人”优化——首先要为核心用户优化。
 
 **何时选择CLI：**
+
 - 你（工程师）每天都在使用
 - 你的用户是工程师/终端原生用户
 - 迭代速度比精致更重要
@@ -24,6 +25,7 @@ type: note
 你交付更快，维护面更小，且能保持工作流顺畅。
 
 **何时选择HTML GUI：**
+
 - 非工程师需要它（会计、运维、产品经理）
 - 该工具解决了一个有重复用户的业务问题
 - 你有超越个人层面的采用目标
@@ -47,11 +49,13 @@ class DataProcessor:
 **然后：** 在其上添加两个薄层：
 
 1. **CLI封装**（约20行Click/Typer代码）：
+
 ```bash
 myapp process --input data.csv --output result.json
 ```
 
 2. **HTML GUI**（独立，约300-500行HTML/JS）：
+
 ```html
 <!-- index.html -->
 <input type="file" id="upload">

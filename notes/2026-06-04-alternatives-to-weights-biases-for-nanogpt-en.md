@@ -28,6 +28,7 @@ MLflow leads in flexibility and self-hosted deployments with strong model regist
 Open-source, self-hosted, zero cloud dependency. MLflow Tracking logs data to a local `mlruns` directory by default, with ability to configure remote databases and cloud storage.
 
 **Install:**
+
 ```bash
 pip install mlflow
 ```
@@ -67,6 +68,7 @@ with mlflow.start_run(run_name="run-1"):
 ```
 
 View experiments:
+
 ```bash
 mlflow ui
 # Open http://localhost:5000
@@ -77,6 +79,7 @@ mlflow ui
 ### **Option 2: Aim (Recommended for Lightweight Speed)**
 
 Focused on training tracking, with superior UI scalability — can handle thousands of metrics smoothly, outperforming MLflow UI when exploring hundreds of runs. Install:
+
 ```bash
 pip install aim
 ```
@@ -105,6 +108,7 @@ for step in range(max_iters):
 ```
 
 View dashboard:
+
 ```bash
 aim up
 # Open http://localhost:43800
@@ -115,11 +119,13 @@ aim up
 ### **Option 3: MLflow + Aim Hybrid (Best UI + Full Control)**
 
 Log with MLflow, visualize with Aim's superior UI. Install aimlflow:
+
 ```bash
 pip install aimlflow
 ```
 
 Train with MLflow as shown above, then convert:
+
 ```bash
 aimlflow sync -m /path/to/mlruns
 aim up
@@ -169,7 +175,7 @@ The `mlruns/` folder stays local, versioned, reproducible. No cloud sync delays,
 
 References:
 
-- https://mlflow.org/docs/latest/ml/tracking/
-- https://github.com/aimhubio/aim
-- https://aimstack.io/blog/tutorials/exploring-mlflow-experiments-with-a-powerful-ui
-- https://medium.com/@bingqian/building-and-tracking-nanogpt-training-in-databricks-with-mlflow-2ce499183881
+- <https://mlflow.org/docs/latest/ml/tracking/>
+- <https://github.com/aimhubio/aim>
+- <https://aimstack.io/blog/tutorials/exploring-mlflow-experiments-with-a-powerful-ui>
+- <https://medium.com/@bingqian/building-and-tracking-nanogpt-training-in-databricks-with-mlflow-2ce499183881>

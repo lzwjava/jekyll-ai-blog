@@ -18,6 +18,7 @@ NANOCHAT (Karpathy's nanochat) — /mnt/data/nanochat
 状态：已完成（2026 年 6 月 2 日）——但 SFT 阶段产生了 NaN loss。
 
 发生了什么：
+
   1. 下载了 9 个 shard（约 2B 字符）的 ClimbMix 数据到 ~/.cache/nanochat/base_data_climbmix/
   2. 训练了一个 BPE tokenizer（32,503 次合并，vocab_size=32768）
   3. 基础预训练（depth=8，约 40M 参数）：
@@ -92,7 +93,9 @@ NANOGPT (Karpathy's nanoGPT) — /mnt/data/nanoGPT
 3. 与训练好的模型对话：
 
    python -m scripts.chat_cli -p "天空为什么是蓝色的？"
-   # 或使用 Web UI：
+
+   # 或使用 Web UI
+
    python -m scripts.chat_web
 
 4. 扩展规模——尝试 depth=12（GPT-1 大小，约 100M 参数）：
@@ -111,6 +114,7 @@ NANOGPT (Karpathy's nanoGPT) — /mnt/data/nanoGPT
   (c) 用修复后的模型测试对话 CLI？
 
 或者如果你想尝试不同的方式，你还可以：
-  - 在 RTX 4070 上尝试 depth=12 或 depth=16（使用更小的 batch）
-  - 使用 nanoGPT 的 fineweb 检查点（约 200M）进行实际生成
-  - 在 SFT 成功后运行 RL 训练阶段（scripts/chat_rl.py）
+
+- 在 RTX 4070 上尝试 depth=12 或 depth=16（使用更小的 batch）
+- 使用 nanoGPT 的 fineweb 检查点（约 200M）进行实际生成
+- 在 SFT 成功后运行 RL 训练阶段（scripts/chat_rl.py）
