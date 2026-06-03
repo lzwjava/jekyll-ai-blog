@@ -22,6 +22,7 @@ C:\Users\<用户名>\AppData\Local\Programs\Python\Python3xx\Lib\site-packages\
 ```
 
 或者如果你在虚拟环境中：
+
 ```
 <venv-path>\Lib\site-packages\
 ```
@@ -35,6 +36,7 @@ C:\Users\<用户名>\AppData\Local\Programs\Python\Python3xx\Scripts\
 ```
 
 或者在虚拟环境中：
+
 ```
 <venv-path>\Scripts\
 ```
@@ -46,6 +48,7 @@ C:\Users\<用户名>\AppData\Local\Programs\Python\Python3xx\Scripts\
 ### 选项 1：将 Python Scripts 添加到系统 PATH（永久生效）
 
 1. 找到你的 Python Scripts 路径：
+
 ```python
 import site
 import os
@@ -60,6 +63,7 @@ print(os.path.dirname(site.PREFIXES[0]))  # 显示 Python 根目录
    - 重启终端
 
 3. 现在可以直接运行命令：
+
 ```bash
 black myfile.py
 pytest

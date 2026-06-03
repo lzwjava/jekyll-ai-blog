@@ -20,6 +20,7 @@ type: note
 ## 工作原理
 
 当你运行：
+
 ```bash
 python -m black myfile.py
 ```
@@ -39,6 +40,7 @@ python -c "import sys; print('\n'.join(sys.path))"
 ```
 
 典型系统输出：
+
 ```
 /current/working/directory
 /usr/lib/python3.11
@@ -72,6 +74,7 @@ black/
 ```
 
 `__main__.py`：
+
 ```python
 import sys
 from black import main
@@ -81,6 +84,7 @@ if __name__ == "__main__":
 ```
 
 当你运行 `python -m black` 时，Python：
+
 1. 导入 `black` 包
 2. 找到 `black/__main__.py`
 3. 以 `__name__ == "__main__"` 执行它
@@ -123,6 +127,7 @@ myapp/
 ```
 
 `__main__.py`：
+
 ```python
 import sys
 from myapp.cli import main
@@ -132,6 +137,7 @@ if __name__ == "__main__":
 ```
 
 `cli.py`：
+
 ```python
 def main(args):
     print(f"Running with args: {args}")
@@ -139,6 +145,7 @@ def main(args):
 ```
 
 现在运行它：
+
 ```bash
 python -m myapp arg1 arg2
 # 输出：Running with args: ['arg1', 'arg2']

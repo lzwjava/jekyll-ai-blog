@@ -26,6 +26,7 @@ I checked: Liang Wenfeng is the founder and CEO of DeepSeek based in Hangzhou. H
 ### The Broader Pattern
 
 **Yes, hotel-living is real among some executives**, but it's not universal. More common patterns:
+
 - **Apartment in each city** (renting, not hotels)
 - **Headquarters in one city, commute when needed** (Beijing is exhausting; Hangzhou/Shenzhen execs do travel)
 - **Extended hotel stays during critical periods** (fundraising, major launches, regulatory meetings)
@@ -33,6 +34,7 @@ I checked: Liang Wenfeng is the founder and CEO of DeepSeek based in Hangzhou. H
 ### Practical for You
 
 **Beijing position at ByteDance/Kuaishou is strategically sound:**
+
 1. **Base of operations** — both companies are there, so no geographic bet
 2. **Interview experience** — direct access to top short video talent for future networking
 3. **Salary premium** — Beijing market typically pays higher than Shenzhen for equivalent roles

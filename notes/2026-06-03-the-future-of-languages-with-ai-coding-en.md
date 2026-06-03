@@ -24,6 +24,7 @@ You're correct that **type safety matters more when AI is generating code at sca
 - Teams using weak typing (Python-only backend, loose JS) will hit correctness walls faster. The friction of manual code review increases as velocity increases.
 
 **Rust specifically:** Yes, hotter. Not because it's trendy, but because:
+
 - Systems code (databases, infrastructure, agents) can't afford correctness bugs
 - AI doesn't reduce the need for unsafe code review; it increases it
 - Rust's compiler is your teammate when AI writes concurrent/async code

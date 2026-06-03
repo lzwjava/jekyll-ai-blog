@@ -20,6 +20,7 @@ type: note
 ## The mechanics
 
 When you run:
+
 ```bash
 python -m black myfile.py
 ```
@@ -39,6 +40,7 @@ python -c "import sys; print('\n'.join(sys.path))"
 ```
 
 Output on typical system:
+
 ```
 /current/working/directory
 /usr/lib/python3.11
@@ -72,6 +74,7 @@ black/
 ```
 
 `__main__.py`:
+
 ```python
 import sys
 from black import main
@@ -81,6 +84,7 @@ if __name__ == "__main__":
 ```
 
 When you run `python -m black`, Python:
+
 1. Imports the `black` package
 2. Finds `black/__main__.py`
 3. Executes it with `__name__ == "__main__"`
@@ -123,6 +127,7 @@ myapp/
 ```
 
 `__main__.py`:
+
 ```python
 import sys
 from myapp.cli import main
@@ -132,6 +137,7 @@ if __name__ == "__main__":
 ```
 
 `cli.py`:
+
 ```python
 def main(args):
     print(f"Running with args: {args}")
@@ -139,6 +145,7 @@ def main(args):
 ```
 
 Now run it:
+
 ```bash
 python -m myapp arg1 arg2
 # Output: Running with args: ['arg1', 'arg2']

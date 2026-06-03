@@ -22,6 +22,7 @@ C:\Users\<USERNAME>\AppData\Local\Programs\Python\Python3xx\Lib\site-packages\
 ```
 
 Or if you're in a virtual environment:
+
 ```
 <venv-path>\Lib\site-packages\
 ```
@@ -35,6 +36,7 @@ C:\Users\<USERNAME>\AppData\Local\Programs\Python\Python3xx\Scripts\
 ```
 
 Or in a venv:
+
 ```
 <venv-path>\Scripts\
 ```
@@ -46,6 +48,7 @@ By default, Windows doesn't know where `Scripts\` is. You have two options:
 ### Option 1: Add Python Scripts to system PATH (permanent)
 
 1. Find your Python Scripts path:
+
 ```python
 import site
 import os
@@ -60,6 +63,7 @@ print(os.path.dirname(site.PREFIXES[0]))  # Shows Python root
    - Restart terminal
 
 3. Now run commands directly:
+
 ```bash
 black myfile.py
 pytest
