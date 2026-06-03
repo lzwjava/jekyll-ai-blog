@@ -112,6 +112,7 @@ Attach: `tmux attach -t train`
 ### OOM Troubleshooting
 
 If you run out of VRAM, reduce in this order:
+
 1. `--device-batch-size 4` (or 2, or 1)
 2. `--max-seq-len 1024` (or 512)
 3. `--depth 8` (smaller model)

@@ -108,6 +108,7 @@ tmux new-session -d -s train 'cd /mnt/data/nanochat && \
 ### OOM 故障排除
 
 如果 VRAM 不足，按以下顺序减少：
+
 1. `--device-batch-size 4` (或 2, 或 1)
 2. `--max-seq-len 1024` (或 512)
 3. `--depth 8` (更小的模型)

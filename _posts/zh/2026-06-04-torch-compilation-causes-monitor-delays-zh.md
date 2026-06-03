@@ -16,6 +16,7 @@ type: note
 **torch.compile冷启动编译对于depth=12的模型很慢。**
 
 当你运行第一个迭代时：
+
 1. PyTorch 在 GPU 上编译前向/反向计算图（这是 JIT 编译的开销）
 2. depth=12 是 768 维模型——比你之前测试的 depth=4 更大
 3. 在你的 RTX 4070 上 torch.compile 冷启动：通常需要 60–120 秒

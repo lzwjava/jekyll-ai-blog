@@ -16,6 +16,7 @@ Answer:
 **torch.compile cold-start compilation is slow for depth=12.**
 
 When you run the first iteration:
+
 1. PyTorch compiles the forward/backward graph on GPU (this is the JIT cost)
 2. `depth=12` is a 768-dim model — bigger than `depth=4` you tested earlier
 3. torch.compile cold-start on your RTX 4070: ~60–120s typical
