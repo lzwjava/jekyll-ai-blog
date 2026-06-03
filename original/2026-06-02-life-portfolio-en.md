@@ -232,6 +232,22 @@ These influences converge in how I work: build things, write about them publicly
 
 ---
 
+## 📊 Impact — 100 Million People and Counting
+
+Over 12 years of engineering, my code and content have reached more than 100 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
+
+| Project | Role | Impact |
+|---------|------|--------|
+| **Chongding Conference** (冲顶大会) | Backend engineer | ~30 million users — a mobile trivia app similar to HQ Trivia, one of the hottest apps in China in early 2018 |
+| **PayMe by HSBC** | Backend engineer | ~3 million users — Hong Kong's leading peer-to-peer payment app |
+| **LeanCloud** | SDK engineer | 200,000+ developers served, indirectly impacting ~50 million end users through apps built on the platform |
+| **WeChat Video Channel / YouTube** | Content creator | ~2 million views across video content |
+| **lzwjava.github.io** | Writer | ~500,000 readers — 400+ technical posts and 8,000+ AI notes |
+
+The numbers matter less than the pattern: every project I've touched, from a 3,500-user campus app at age 19 to a 30-million-user trivia game at 22 to banking infrastructure at 27, has been about building things that real people use. The scale grew, but the intent stayed the same — write code that works, share what I learn, and keep moving forward.
+
+---
+
 ## 📚 Passed Courses
 
 Self-taught through China's higher education self-study examination system (自学考试), while working full-time. This is how I earned my degree without attending university full-time — studying on my own schedule, passing exams one by one.
