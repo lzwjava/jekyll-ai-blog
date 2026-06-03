@@ -188,6 +188,29 @@ Family grounds you. Startups come and go, code gets rewritten, models get deprec
 
 ---
 
+## 👓 Reversing Myopia — A 4-Year Experiment
+
+<div align="center"><img src="/assets/images/portfolio/glasses.jpeg" width="400px" /></div>
+
+I started reversing myopia in 2022, inspired by Todd Becker's 2014 talk "Myopia: A Modern Yet Reversible Disease" and Yin Wang's 2022 blog post on natural vision restoration. The core idea is simple: wear glasses with a prescription reduced by about 150 degrees for daily use (phone, computer, reading), and let your eye muscles gradually recover their natural shape.
+
+Over four years, my results:
+
+| Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism |
+|------|-----------------|----------------------|------------------|-----------------------|
+| 2022.03 | -3.50 | -2.25 | -5.75 | -1.75 |
+| 2023.04 | -3.00 | -1.25 | -5.00 | -1.25 |
+| 2024.11 | -2.50 | -1.00 | -4.25 | -1.25 |
+| 2025.08 | -3.00 | -1.00 | -5.00 | -1.00 |
+
+Both myopia and astigmatism reduced by roughly 100 degrees. The progress isn't linear — there are plateaus and setbacks — but the trend is clear.
+
+I've shared this method with around 1,000 people in my surroundings. About 15 of them have been running the experiment alongside me for years, seeing reductions of 100 degrees or more. Some netizens found me through my articles — parents of primary school kids with 400 or 500 degrees of myopia, desperate for an alternative to surgery. The method works, but it requires patience and consistency. Most people who try it seriously see results within 6-12 months.
+
+I wrote three papers documenting the journey: [Experimental Verification](https://lzwjava.github.io/vision-restoration-en), [The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en), and [Natural Vision Restoration Tips](https://lzwjava.github.io/vision-tips-en).
+
+---
+
 ## 🎯 Philosophy & Influences
 
 My technical philosophy is heavily influenced by **Yin Wang** (王垠) — a Chinese programmer known for his deep, sometimes controversial critiques of programming languages, operating systems, and the software industry. His writing taught me to:
