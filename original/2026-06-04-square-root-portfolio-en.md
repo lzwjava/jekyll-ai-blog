@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: /assets/images/portfolio/square_root_portfolio/squareroot-page-01.png
+image: true
 lang: en
 layout: post
 title: Square Root Technology Case Collection (平方根科技案例集)
