@@ -20,17 +20,20 @@ Microsoft just released Intelligent Terminal as an open-source fork of Windows T
 Here's the architecture comparison:
 
 **Intelligent Terminal** (just landed)
+
 - Agent status bar, docked configurable pane, automatic error detection, compatible with different AI agents like GitHub Copilot
 - Windows-only (v0.1 experimental)
 - Agent as a *sibling process* (separate pane, can run in background)
 - Supports "favorite agent, whether that's GitHub Copilot, Claude Code, Codex, or others"
 
 **Warp** (existing, macOS/Linux)
+
 - AI-native from the ground up (not a fork)
 - Workflows, command memory, AI completions *embedded*
 - Smaller terminal market share but the UX is polished
 
 **Alacritty** (your recent experiment)
+
 - GPU-accelerated, minimal, Rust, blazing fast
 - No AI integration yet—pure speed and correctness
 - Cross-platform (macOS, Linux, Windows)
@@ -38,6 +41,7 @@ Here's the architecture comparison:
 **The practical take:** For you on MacBook Air M2, Warp already does what Intelligent Terminal is rolling out. The real pattern here is that developers can detect errors, click a button, and the agent spins up—similar to Warp. This is becoming table stakes.
 
 Where this is heading:
+
 1. **Agent as shell standard** — in 2-3 years, every terminal will have a pluggable agent interface (like MCP for terminals)
 2. **Context awareness** — terminals tracking state (working dir, recent errors, git branch, shell history) and feeding that to Claude/Copilot automatically
 3. **Live execution** — agents running commands directly, not just suggesting them

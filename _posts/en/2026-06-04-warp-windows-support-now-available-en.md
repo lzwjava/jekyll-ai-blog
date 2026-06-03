@@ -20,6 +20,7 @@ But the historical "why it took so long" is worth understanding:
 ## Technical Reasons for the Delay
 
 **Graphics rendering:** Warp is a totally native app written in Rust with direct GPU rendering, not an Electron or VS Code-based wrapper. This means the team had to implement platform-specific graphics calls for three separate graphics APIs:
+
 - macOS: Metal
 - Linux: Vulkan
 - Windows: Direct3D 12
@@ -33,6 +34,7 @@ Each has different event handling, driver integration, and performance character
 ## Why This Matters to You
 
 If you're on Windows or considering it, Warp is now a viable terminal choice. The Rust-based approach gives you:
+
 - Zero-overhead GPU acceleration (no Electron bloat)
 - Same AI-native features across all platforms
 - Native integration with WSL (useful if you need Linux for dev work while staying on Windows)

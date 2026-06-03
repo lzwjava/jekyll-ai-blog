@@ -20,6 +20,7 @@ type: note
 ## 延迟的技术原因
 
 **图形渲染：** Warp 是用 Rust 编写的完全原生应用，采用直接 GPU 渲染，而非基于 Electron 或 VS Code 的包装器。这意味着团队需要为三种不同的图形 API 实现平台特定的图形调用：
+
 - macOS：Metal
 - Linux：Vulkan
 - Windows：Direct3D 12
@@ -33,6 +34,7 @@ type: note
 ## 这对你意味着什么
 
 如果你在使用 Windows 或正考虑使用，Warp 现在是一个可行的终端选择。基于 Rust 的方法为你带来：
+
 - 零开销 GPU 加速（无 Electron 臃肿）
 - 跨平台相同的 AI 原生功能
 - 与 WSL 原生集成（如果你需要在 Windows 上进行 Linux 开发工作，这很有用）

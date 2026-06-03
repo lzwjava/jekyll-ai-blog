@@ -16,10 +16,12 @@ type: note
 This is a regulatory compliance notice from Tiger International (a cross-border brokerage platform) announcing service restrictions for mainland China investors effective June 12, 2026. Here's what it says:
 
 **Core restrictions:**
+
 - **Trading:** New positions and adding to existing positions are suspended for all products (stocks, etc.). Only selling/closing positions allowed.
 - **Capital transfers:** Transfers into the platform are suspended. Transfers out remain open. Fund safety is guaranteed.
 
 **What's NOT affected:**
+
 - Services to investors outside mainland China continue normally
 - Existing assets remain safe
 - You can still view your account, hold positions, and sell existing holdings

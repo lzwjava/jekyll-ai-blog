@@ -20,17 +20,20 @@ type: note
 以下是架构对比：
 
 **Intelligent Terminal**（刚刚落地）
+
 - 代理状态栏、可停靠的可配置面板、自动错误检测、兼容不同的 AI 代理（如 GitHub Copilot）
 - 仅限 Windows（v0.1 实验版）
 - 代理作为 *兄弟进程*（独立面板，可在后台运行）
 - 支持“最喜欢的代理，无论是 GitHub Copilot、Claude Code、Codex 还是其他”
 
 **Warp**（已有，macOS/Linux）
+
 - 从底层开始就是 AI 原生（并非分支）
 - 工作流、命令记忆、AI 补全 *内嵌*
 - 终端市场份额较小，但用户体验打磨得很好
 
 **Alacritty**（您最近的试验）
+
 - GPU 加速、极简、Rust 编写、速度飞快
 - 尚无 AI 集成——纯粹追求速度和正确性
 - 跨平台（macOS、Linux、Windows）
@@ -38,6 +41,7 @@ type: note
 **实际看法：** 对于您在 MacBook Air M2 上的使用，Warp 已经实现了 Intelligent Terminal 正在推出的功能。这里真正的模式是，开发者可以检测错误，点击一个按钮，代理就会启动——这和 Warp 类似。这正在成为行业标配。
 
 未来趋势：
+
 1. **代理作为 shell 标准** —— 在未来 2-3 年内，每个终端都将拥有一个可插拔的代理接口（类似于终端领域的 MCP）
 2. **上下文感知** —— 终端跟踪工作目录、近期错误、git 分支、shell 历史等状态，并自动将这些信息提供给 Claude/Copilot
 3. **实时执行** —— 代理直接运行命令，而不仅仅是提供建议
