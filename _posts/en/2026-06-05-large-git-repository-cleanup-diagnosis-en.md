@@ -35,6 +35,7 @@ That alone frees 23 GB — your disk goes from 900MB free to ~23 GB free.
 After that, the remaining 35 GB in 23 packs likely also has bloat from the interrupted cycles. A proper `git gc --aggressive` would repack everything into one compact pack.
 
 Want me to:
+
 1. Delete the 10 temp packs (safe, instant, ~23 GB freed)
 2. Then run `git gc --aggressive` on the repo (may take 5-10 min, could save another 5-10 GB)
 
