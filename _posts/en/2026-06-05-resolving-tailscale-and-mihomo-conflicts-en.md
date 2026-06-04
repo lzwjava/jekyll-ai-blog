@@ -20,22 +20,28 @@ Yes, there can be conflicts, but they're **manageable with proper configuration*
 ## The Conflicts
 
 ### 1. **Virtual Network Interface Conflict**
+
 Both Tailscale and mihomo create virtual network interfaces:
+
 - **Tailscale:** Creates `utun0` (macOS) or `tun0` (Linux) for kernel-mode networking
 - **Mihomo:** Creates virtual interfaces for traffic interception (iptables on Linux, pf on macOS)
 
 **Result:** Routing policy conflicts, packet loops, or dropped traffic.
 
 ### 2. **DNS Conflict**
+
 Mihomo has recently fixed DNS resolution for Tailscale (commit: "use our internal DNS resolution logic for tailscale"), but:
+
 - Both try to rewrite DNS queries
 - Tailscale's MagicDNS (if enabled) conflicts with mihomo's DNS interception
 - Conflicting nameserver configs
 
 ### 3. **IP Address Range Conflict**
+
 If the other VPN uses IP addresses from the CGNAT range (100.64.0.0–100.127.255.255) that Tailscale uses, they will conflict with Tailscale's 100.x.y.z addresses.
 
 ### 4. **Traffic Routing Loop**
+
 Mihomo tries to hijack `100.x.x.x` traffic (Tailscale IPs) but doesn't know how to route it → packets loop or drop.
 
 ---
@@ -134,6 +140,7 @@ Then mihomo only intercepts non-Tailscale traffic.
 ## China-Specific Considerations
 
 **Tailscale in China:**
+
 - Users suggest using Hysteria2 as the primary tunnel for GFW bypass, since it's specifically designed to evade Chinese firewall detection.
 - Tailscale + WireGuard are not explicitly blocked but may be deprioritized by QoS.
 - **Better approach:** Use hysteria2 (primary) → access Tailscale mesh inside the tunnel
@@ -145,6 +152,7 @@ Machine → Mihomo (hysteria2 to DMIT server) → Inside tunnel: access Tailscal
 ```
 
 This way:
+
 1. **Hysteria2 handles GFW evasion** (your primary concern)
 2. **Tailscale runs inside** the hysteria2 tunnel (no conflicts)
 3. **Fallback:** If P2P Tailscale breaks, hysteria2 relay works

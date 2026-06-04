@@ -20,6 +20,7 @@ Tailscale is a **mesh VPN on top of WireGuard**. It solves the hard problem: con
 ## The Core Architecture
 
 **Two planes:**
+
 1. **Control plane** — Tailscale's servers (coordination, discovery, key distribution)
 2. **Data plane** — Direct peer-to-peer WireGuard tunnels (encrypted traffic)
 
@@ -30,6 +31,7 @@ The control plane *never* touches your data. It only orchestrates connections.
 ## How It Works (Step by Step)
 
 ### 1. **Initial Setup**
+
 ```bash
 tailscale up
 # Opens browser, you authenticate with your account
@@ -39,11 +41,13 @@ tailscale up
 ```
 
 At this point, Tailscale knows:
+
 - Your machine's identity and public key
 - Your public IP (or carrier-grade NAT endpoint)
 - Your internal network info (for subnet routing)
 
 ### 2. **Peer Discovery**
+
 When you try to reach another machine on your tailnet (e.g., `ssh lzw@100.64.1.2`):
 
 ```
@@ -65,6 +69,7 @@ Control servers respond:
 Your machine caches this and doesn't ask again (unless machine goes offline).
 
 ### 3. **Direct Connection (Best Case)**
+
 If both machines are reachable, Tailscale uses **WireGuard directly**:
 
 ```
@@ -94,6 +99,7 @@ Packets punch through and establish direct connection.
 ```
 
 **This works because:**
+
 - NAT routers allow inbound traffic if outbound traffic initiated first
 - Tailscale coordinates the timing via control servers
 - Both sides learn each other's external endpoint
@@ -113,6 +119,7 @@ Your Mac → DERP relay (encrypted) → Workstation
 ```
 
 DERP is a last-resort relay. It:
+
 - Runs on Tailscale-controlled servers
 - Cannot decrypt traffic (WireGuard encryption is end-to-end)
 - Adds latency (Tailscale routes through nearest region)
@@ -132,6 +139,7 @@ Tailscale wraps WireGuard with smart coordination. WireGuard itself does the cry
 ```
 
 **Key properties:**
+
 - **Stateless** — WireGuard doesn't track connections (unlike IPsec/OpenVPN)
 - **Small overhead** — adds ~100 bytes per packet
 - **Forward secrecy** — old packets unrecoverable if key compromised
@@ -219,6 +227,7 @@ Same LAN means:
 ```
 
 Cross-internet (Mac at coffee shop → Workstation at home):
+
 - Direct connection: ~50-100ms (ISP routing)
 - With DERP relay: ~100-200ms (relay adds hop)
 
@@ -239,6 +248,7 @@ Cross-internet (Mac at coffee shop → Workstation at home):
 ## Summary
 
 Tailscale = **smart orchestration around WireGuard**:
+
 - Control plane finds peers and exchanges keys
 - Data plane uses WireGuard for encrypted tunnels
 - UDP hole punching solves NAT

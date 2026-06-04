@@ -20,22 +20,28 @@ type: note
 ## 冲突点
 
 ### 1. **虚拟网络接口冲突**
+
 Tailscale 和 mihomo 都会创建虚拟网络接口：
+
 - **Tailscale：** 创建 `utun0`（macOS）或 `tun0`（Linux）用于内核模式网络
 - **Mihomo：** 创建用于流量拦截的虚拟接口（Linux 上使用 iptables，macOS 上使用 pf）
 
 **结果：** 路由策略冲突、数据包循环或流量丢弃。
 
 ### 2. **DNS 冲突**
+
 Mihomo 最近修复了 Tailscale 的 DNS 解析（提交信息：“use our internal DNS resolution logic for tailscale”），但仍存在：
+
 - 两者都尝试重写 DNS 查询
 - Tailscale 的 MagicDNS（如果启用）与 mihomo 的 DNS 拦截冲突
 - DNS 服务器配置相互矛盾
 
 ### 3. **IP 地址范围冲突**
+
 如果其他 VPN 使用了 Tailscale 所使用的 CGNAT 范围（100.64.0.0–100.127.255.255）内的 IP 地址，则会与 Tailscale 的 100.x.y.z 地址产生冲突。
 
 ### 4. **流量路由循环**
+
 Mihomo 试图劫持 `100.x.x.x` 流量（Tailscale IP），但不知道如何路由 → 数据包循环或丢弃。
 
 ---
@@ -134,6 +140,7 @@ iptables -t mangle -I OUTPUT -o tailscale0 -j RETURN
 ## 中国地区的特殊考量
 
 **在中国使用 Tailscale：**
+
 - 用户建议使用 Hysteria2 作为主要隧道来绕过 GFW，因为它专门设计用于规避中国防火墙检测。
 - Tailscale + WireGuard 并未被明确封锁，但可能因 QoS 而被降级。
 - **更好的方法：** 使用 hysteria2（主要）→ 在隧道内访问 Tailscale 网状网络
@@ -145,6 +152,7 @@ iptables -t mangle -I OUTPUT -o tailscale0 -j RETURN
 ```
 
 这样：
+
 1. **Hysteria2 处理 GFW 规避**（你的主要关注点）
 2. **Tailscale 运行在 hysteria2 隧道内部**（无冲突）
 3. **备用方案：** 如果 P2P Tailscale 失效，hysteria2 中继仍可工作

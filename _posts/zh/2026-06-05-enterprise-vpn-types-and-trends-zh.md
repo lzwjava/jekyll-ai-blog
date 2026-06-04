@@ -16,11 +16,13 @@ type: note
 这是一份涵盖三类方案的混合列表，以下是关键分析：
 
 ## 企业/传统 VPN
+
 这些是基于客户端、设备级隧道的方案（IPsec 或专有协议）：
 
 - **Cisco AnyConnect**、**Palo Alto GlobalProtect**、**FortiClient**、**Ivanti** —— 传统阵营。需要终端代理，笨重、专有，但与企业网络深度集成。银行和大型企业常见，大规模管理困难。
 
 ## 零信任 / 现代企业
+
 这些方案从“VPN 作为隧道”转向“身份优先访问”：
 
 - **Cloudflare** (Warp) —— 面向个人和组织的零信任网络。DNS 级过滤，轻量级。如果你的组织基于 Cloudflare，效果良好。
@@ -29,10 +31,12 @@ type: note
 - **Google IAP** (Identity-Aware Proxy) —— GCP 原生方案。基于 IAM 访问内部资源。适合重度使用 GCP 的环境，可完全替代 VPN 用于内部基础设施。
 
 ## 云原生 / 开源
+
 - **AWS Client VPN** —— AWS 中托管的 OpenVPN 兼容隧道。适合工作负载完全在 AWS 上时使用。
 - **OpenVPN**、**Pritunl** —— 通用隧道协议。Pritunl 增加了集中管理能力。两者均可自托管。
 
 ## 小众/专项
+
 - **Cato Networks** —— SD-WAN + 安全，更适用于多站点基础设施而非用户级访问。
 - **Netskope** —— 云安全态势，类似 Zscaler。
 

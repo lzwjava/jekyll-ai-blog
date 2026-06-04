@@ -20,6 +20,7 @@ Tailscale 是一个 **基于 WireGuard 的网状 VPN**。它解决了一个难�
 ## 核心架构
 
 **两个平面：**
+
 1. **控制平面** — Tailscale 的服务器（协调、发现、密钥分发）
 2. **数据平面** — 直接的点对点 WireGuard 隧道（加密流量）
 
@@ -30,6 +31,7 @@ Tailscale 是一个 **基于 WireGuard 的网状 VPN**。它解决了一个难�
 ## 工作原理（逐步说明）
 
 ### 1. **初始设置**
+
 ```bash
 tailscale up
 # 打开浏览器，你用账户进行身份验证
@@ -39,11 +41,13 @@ tailscale up
 ```
 
 此时，Tailscale 知道：
+
 - 你机器的身份和公钥
 - 你的公网 IP（或运营商级 NAT 端点）
 - 你的内部网络信息（用于子网路由）
 
 ### 2. **对端发现**
+
 当你尝试访问 tailnet 中的另一台机器时（例如 `ssh lzw@100.64.1.2`）：
 
 ```
@@ -65,6 +69,7 @@ tailscale up
 你的机器缓存此信息，不再重复询问（除非机器离线）。
 
 ### 3. **直接连接（最佳情况）**
+
 如果两台机器均可访问，Tailscale 使用 **直接 WireGuard 连接**：
 
 ```
@@ -94,6 +99,7 @@ Tailscale STUN 服务器告诉每台机器：
 ```
 
 **这样做的原因是：**
+
 - 如果出站流量先发起，NAT 路由器允许入站流量
 - Tailscale 通过控制服务器协调时序
 - 双方都学习到对方的外部端点
@@ -113,6 +119,7 @@ Tailscale STUN 服务器告诉每台机器：
 ```
 
 DERP 是最后手段的中继。它：
+
 - 运行在 Tailscale 控制的服务器上
 - 无法解密流量（WireGuard 加密是端到端的）
 - 增加延迟（Tailscale 通过最近区域路由）
@@ -132,6 +139,7 @@ Tailscale 通过智能协调封装了 WireGuard。WireGuard 本身完成加密�
 ```
 
 **关键特性：**
+
 - **无状态** — WireGuard 不跟踪连接（与 IPsec/OpenVPN 不同）
 - **小开销** — 每个数据包增加约 100 字节
 - **前向保密** — 密钥泄露后，旧数据包无法恢复
@@ -219,6 +227,7 @@ wg_tunnel = wireguard.connect(
 ```
 
 跨互联网（咖啡店的 Mac → 家里的工作站）：
+
 - 直接连接：约 50-100ms（ISP 路由）
 - 通过 DERP 中继：约 100-200ms（中继增加一跳）
 
@@ -239,6 +248,7 @@ wg_tunnel = wireguard.connect(
 ## 总结
 
 Tailscale = **围绕 WireGuard 的智能编排**：
+
 - 控制平面发现对端并交换密钥
 - 数据平面使用 WireGuard 进行加密隧道
 - UDP 打洞解决 NAT 问题

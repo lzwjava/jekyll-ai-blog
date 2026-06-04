@@ -16,6 +16,7 @@ type: note
 是的，基本没问题。你的设置正确遵循了安全模型：
 
 **安全的地方：**
+
 - **WireGuard 加密** — Tailscale 的隧道在密码学上是稳固的、点对点的，且具有前向安全性。你的 Mac 和工作站之间的流量默认端到端加密。
 - **公钥 SSH 认证** — 你在使用最强的 SSH 认证机制，没有密码暴露面。
 - **无入站暴露** — 位于 NAT 后面的机器如果不属于你的 tailnet，就无法从公共互联网访问。Tailscale 内部处理 NAT 穿越。
@@ -32,6 +33,7 @@ type: note
 4. **Tailscale 的基础设施** — 你在信任 Tailscale Inc. 进行协调。理论上他们能看到元数据（哪些设备连接、大致时间）。他们无法看到加密流量内容。这对于家庭/个人使用是可接受的；如果你运行敏感的业务工作负载，自托管 WireGuard 是替代方案。
 
 **快速改进：**
+
 - 将两台机器都更新到最新的 Tailscale（Mac 上 `brew upgrade tailscale`，Ubuntu 上 `sudo apt upgrade tailscale`）。
 - 在 Tailscale 管理控制台中启用 MagicDNS — 比记住 IP 地址更清晰，减少可能误连到错误机器的拼写错误。
 - 锁定工作站的 SSH：在 `/etc/ssh/sshd_config` 中禁用密码认证（你已经在做了，但请确认），限制为仅公钥方式。

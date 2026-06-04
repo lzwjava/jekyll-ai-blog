@@ -16,6 +16,7 @@ type: note
 Yes, fundamentally sound. Your setup follows the security model correctly:
 
 **What's secure:**
+
 - **WireGuard encryption** — Tailscale's tunnel is cryptographically solid, peer-to-peer, with forward secrecy. Traffic between your Mac and workstation is encrypted end-to-end by default.
 - **Public key SSH auth** — you're using the strongest SSH auth mechanism. No password exposure surface.
 - **No inbound exposure** — machines behind NAT are unreachable from the public internet without being part of your tailnet. Tailscale handles NAT traversal internally.
@@ -32,6 +33,7 @@ Yes, fundamentally sound. Your setup follows the security model correctly:
 4. **Tailscale's infrastructure** — you're trusting Tailscale Inc. for coordination. They can theoretically see metadata (which devices connect, rough timing). They cannot see encrypted traffic content. This is acceptable for home/personal use; if you run sensitive business workloads, self-hosting WireGuard is the alternative.
 
 **Quick wins:**
+
 - Update both machines to latest Tailscale (`brew upgrade tailscale` on Mac, `sudo apt upgrade tailscale` on Ubuntu).
 - Enable MagicDNS in the Tailscale admin console — cleaner than remembering IPs and reduces typos that could hit wrong machines.
 - Lock down SSH on your workstation: disable password auth in `/etc/ssh/sshd_config` (you already are, but verify), restrict to public key only.

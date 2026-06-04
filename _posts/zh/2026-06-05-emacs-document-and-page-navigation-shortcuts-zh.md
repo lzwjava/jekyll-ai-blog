@@ -27,6 +27,7 @@ type: note
 **为什么这样设计：** Emacs 使用修饰键+按键组合作为命令语言。`C-` = Ctrl（控制键），`M-` = Meta（在现代键盘上通常为 Alt）。`<`和`>`键（配合 Shift）在视觉上表示“跳转到开头/结尾”。
 
 **如果你希望使用类似 vim 的导航方式**，可考虑 evil-mode：
+
 ```elisp
 ;; 在 init.el 或 Emacs 配置中
 (use-package evil
@@ -38,6 +39,7 @@ type: note
 之后即可使用 `G`（文件末尾）、`gg`（文件开头）、`C-f`（向下翻页）——熟悉的 vim 语义。
 
 **自定义提示：** 如果你偏好不同按键，可重新绑定：
+
 ```elisp
 (global-set-key (kbd "C-S-e") 'end-of-buffer)
 (global-set-key (kbd "C-S-h") 'beginning-of-buffer)

@@ -14,6 +14,7 @@ Question: How's this nanochat training run?
 Answer:
 
 **The good:**
+
 - Clean training curve, zero NaN, zero crashes. Monotonic improvement end-to-end is what you want.
 - ~56k tok/sec throughput on RTX 4070 is solid for a bfloat16 run without Flash Attention.
 - 78% VRAM utilization leaves headroom. Your memory management is tight.
@@ -42,12 +43,14 @@ This explains the sample quality perfectly. The model *knows* facts exist (lists
 **What you should do:**
 
 **Option 1 (recommended given MI300X access): Scale down, train to Chinchilla ratio**
+
 - Use 64M or 128M params instead of 286M
 - Train on your full 655M tokens → you'll hit optimal ratio
 - Inference will be faster, sample quality much better
 - Can run locally on RTX 4070, iterate faster
 
 **Option 2 (if you want to push 286M): Train 10x longer on MI300X**
+
 - 40k-50k steps instead of 10k (get to ~5.7B tokens)
 - You have 192GB HBM3 — can do batch_size=262144, seq=2048 without blinking
 - Your throughput will be ~500k tok/sec (vs 56k on RTX 4070)
@@ -55,6 +58,7 @@ This explains the sample quality perfectly. The model *knows* facts exist (lists
 - This is the "train to saturation" path if you want to validate the model's true ceiling
 
 **The hardware reality:**
+
 - RTX 4070 is good for iteration and prototyping, but hits a wall at ~60k tok/sec
 - MI300X is where you scale. For 286M + 5.7B tokens, target 100-200 steps/minute (easily doable)
 - If you're training >500M token runs regularly, the AMD cloud droplet at $2/hr is cheaper per token than RTX 4070 electricity over time

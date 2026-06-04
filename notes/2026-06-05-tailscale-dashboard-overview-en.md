@@ -31,6 +31,7 @@ Team members with access to your Tailnet. Shows email, last login, MFA status. Y
 
 **Access controls (ACLs)**
 The firewall rules of your Tailnet. Written in HCL (HashiCorp Configuration Language), these define **who can connect to what**. Examples:
+
 ```hcl
 {
   "acls": [
@@ -47,6 +48,7 @@ The firewall rules of your Tailnet. Written in HCL (HashiCorp Configuration Lang
   ]
 }
 ```
+
 Uses tags (assigned to machines) and users for policy. Critical for zero-trust networking.
 
 **Logs**
@@ -75,12 +77,14 @@ Your account level:
 ## Practical Use Cases
 
 **Your setup (MacBook Air + workstation):**
+
 - Machines: Both should appear here
 - ACLs: Tag workstation as `tag:gpu`, restrict GPU tasks to your user
 - DNS: Add `gpu.local` → workstation IP
 - Keys: Generate auth key for headless AMD Dev Cloud instance to auto-join Tailnet
 
 **Example ACL for your workflow:**
+
 ```hcl
 {
   "acls": [
@@ -100,6 +104,7 @@ Your account level:
 
 **For CLI automation (ww, iclaw, zz):**
 Generate an Auth key in **Settings → Personal Settings → Keys**, then:
+
 ```bash
 tailscale up --authkey=<KEY> --hostname=automation-box
 ```

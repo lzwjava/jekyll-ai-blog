@@ -36,10 +36,10 @@ type: note
 
 ## 你还需要做（在其他设备上）
 
-  - 在你的 MacBook（192.168.1.49）上安装 Tailscale：https://tailscale.com/download/mac
-  - 如需移动端访问，请在手机上安装
-  - 使用同一账户登录（lzwjava@）
-  - 然后你就可以从这些设备访问这台机器了
+- 在你的 MacBook（192.168.1.49）上安装 Tailscale：<https://tailscale.com/download/mac>
+- 如需移动端访问，请在手机上安装
+- 使用同一账户登录（lzwjava@）
+- 然后你就可以从这些设备访问这台机器了
 
 ## 常用命令
 
@@ -51,7 +51,7 @@ type: note
 
 ## 可选增强功能
 
-  - MagicDNS：通过名称而非 IP 访问机器（在 Tailscale 管理控制台中启用）
-  - Exit node：在公共 WiFi 上时，将所有流量通过此机器路由
-  - Subnet routes：将整个 192.168.1.0/24 局域网暴露给远程设备
-  - Tailscale SSH：内置 SSH，无需管理密钥
+- MagicDNS：通过名称而非 IP 访问机器（在 Tailscale 管理控制台中启用）
+- Exit node：在公共 WiFi 上时，将所有流量通过此机器路由
+- Subnet routes：将整个 192.168.1.0/24 局域网暴露给远程设备
+- Tailscale SSH：内置 SSH，无需管理密钥

@@ -16,11 +16,13 @@ type: note
 This is a mixed bag spanning three categories. Here's what matters:
 
 ## Enterprise/Legacy VPNs
+
 These are client-based, device-level tunnels (IPsec or proprietary protocols):
 
 - **Cisco AnyConnect**, **Palo Alto GlobalProtect**, **FortiClient**, **Ivanti** — The old guard. Require endpoint agents. Heavy, proprietary, but deeply integrated into corporate networks. You'll encounter these at banks and large enterprises. Pain to manage at scale.
 
 ## Zero Trust / Modern Enterprise
+
 These shifted from "VPN as a tunnel" to "identity-first access":
 
 - **Cloudflare** (Warp) — ZT network for individuals + orgs. DNS-level filtering. Lightweight. Works well if your org is Cloudflare-native.
@@ -29,10 +31,12 @@ These shifted from "VPN as a tunnel" to "identity-first access":
 - **Google IAP** (Identity-Aware Proxy) — GCP-native. IAM-driven access to internal resources. Perfect if you're GCP-heavy. Can replace VPN entirely for internal infrastructure.
 
 ## Cloud-Native / Open-Source
+
 - **AWS Client VPN** — Managed OpenVPN-compatible tunnel in AWS. Useful if your workload is entirely on AWS.
 - **OpenVPN**, **Pritunl** — Commodity tunneling protocols. Pritunl adds centralized management. Both are self-hostable.
 
 ## Niche/Specialized
+
 - **Cato Networks** — SD-WAN + security. More for multi-site infrastructure than per-user access.
 - **Netskope** — Cloud security posture. Similar to Zscaler.
 

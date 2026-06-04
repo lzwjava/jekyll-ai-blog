@@ -31,6 +31,7 @@ Tailscale应用（Beta/早期访问功能）。允许你通过Tailnet公开HTTP�
 
 **访问控制（ACL）**
 Tailnet的防火墙规则。使用HCL（HashiCorp配置语言）编写，定义了**谁可以连接什么**。例如：
+
 ```hcl
 {
   "acls": [
@@ -47,6 +48,7 @@ Tailnet的防火墙规则。使用HCL（HashiCorp配置语言）编写，定义�
   ]
 }
 ```
+
 使用标签（分配给设备）和用户来制定策略。对零信任网络至关重要。
 
 **日志**
@@ -75,12 +77,14 @@ Tailnet的自定义DNS记录。你可以定义`internal-service.tailnet-name.ts.
 ## 实际用例
 
 **你的配置（MacBook Air + 工作站）：**
+
 - 设备：两者都应出现在此处
 - ACL：将工作站标记为`tag:gpu`，将GPU任务限制为仅你的用户
 - DNS：添加`gpu.local`指向工作站IP
 - 密钥：为无头AMD Dev Cloud实例生成认证密钥，使其自动加入Tailnet
 
 **适用于你工作流的ACL示例：**
+
 ```hcl
 {
   "acls": [
@@ -100,6 +104,7 @@ Tailnet的自定义DNS记录。你可以定义`internal-service.tailnet-name.ts.
 
 **用于CLI自动化（ww, iclaw, zz）：**
 在**设置→个人设置→密钥**中生成一个认证密钥，然后执行：
+
 ```bash
 tailscale up --authkey=<密钥> --hostname=automation-box
 ```

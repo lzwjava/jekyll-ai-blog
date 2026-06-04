@@ -36,10 +36,10 @@ Installed Tailscale v1.98.4 on this machine (Ubuntu 24.04 Noble, 192.168.1.36) a
 
 ## What you still need to do (on your other devices)
 
-  - Install Tailscale on your MacBook (192.168.1.49): https://tailscale.com/download/mac
-  - Install on your phone if you want mobile access
-  - Log in with the same account (lzwjava@)
-  - Then you can reach this machine from those devices
+- Install Tailscale on your MacBook (192.168.1.49): <https://tailscale.com/download/mac>
+- Install on your phone if you want mobile access
+- Log in with the same account (lzwjava@)
+- Then you can reach this machine from those devices
 
 ## Useful commands
 
@@ -51,7 +51,7 @@ Installed Tailscale v1.98.4 on this machine (Ubuntu 24.04 Noble, 192.168.1.36) a
 
 ## Optional enhancements
 
-  - MagicDNS: access machines by name instead of IP (enable in Tailscale admin console)
-  - Exit node: route all traffic through this machine when on public WiFi
-  - Subnet routes: expose your entire 192.168.1.0/24 LAN to remote devices
-  - Tailscale SSH: built-in SSH with no key management needed
+- MagicDNS: access machines by name instead of IP (enable in Tailscale admin console)
+- Exit node: route all traffic through this machine when on public WiFi
+- Subnet routes: expose your entire 192.168.1.0/24 LAN to remote devices
+- Tailscale SSH: built-in SSH with no key management needed
