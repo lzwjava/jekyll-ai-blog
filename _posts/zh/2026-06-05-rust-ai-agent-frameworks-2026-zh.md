@@ -18,6 +18,7 @@ type: note
 ## 主要框架
 
 ### **Rig**（最成熟）
+
 Rig 是一个用于构建模块化、可扩展 LLM 应用的 Rust 库，通过简洁的 `CompletionClient` trait 提供了对 OpenAI、Cohere 和 Anthropic 的特定提供商集成。用法直接明了：
 
 ```rust
@@ -41,12 +42,15 @@ async fn main() -> Result<(), anyhow::Error> {
 Rig 内置了 PDF 处理、嵌入和 RAG 功能，通过特性标志启用，例如 `rig-core = { version = "0.5.0", features = ["pdf", "derive"] }`。
 
 ### **SamurAI**（教学参考）
+
 一个教学性质的 Rust 框架，演示了具有清晰架构边界的高质量 AI 智能体，涵盖内存管理、工具执行和安全护栏，通过模块化工作区示例实现。包含以下示例：
+
 - 带记忆的聊天机器人（OpenAI/Anthropic/Ollama）
 - 带工具调用的研究助手
 - 基于本地 Ollama 的智能体（零 API 成本）
 
 ### **rs-agent**（Lattice 框架移植版）
+
 Lattice AI 智能体框架的 Rust 实现，具有可插拔的 LLM 适配器（Gemini、Ollama、Anthropic、OpenAI）、支持检索的记忆、CodeMode 执行，以及通过 `Tool` trait 和 `ToolCatalog` 实现的多智能体协调。
 
 ## 生产现状
@@ -91,13 +95,15 @@ async fn main() {
 将其部署到你的工作站；它能以零 GC 延迟处理工具编排，同时保持 LLM 调用的无状态特性。对于生产级代码工作，这比 Python 智能体管道更可靠。
 
 ### 生态系统势头
+
 89% 的 Rust 开发者尝试过 AI 工具，78% 的开发者主动使用 AI 驱动的编码助手，专用工具如 Rust Coding Assistant 能处理通用工具难以应对的所有权模型复杂性。
 
 ---
 
 **参考：**
+
 - Zylos Research：Rust 原生 AI 智能体框架（2026 年 4 月）
 - Zylos Research：性能与生产运行时层（2026 年 3 月）
-- https://github.com/0xPlaygrounds/rig
-- https://github.com/netologist/SamurAI
-- https://lib.rs/crates/rs-agent
+- <https://github.com/0xPlaygrounds/rig>
+- <https://github.com/netologist/SamurAI>
+- <https://lib.rs/crates/rs-agent>

@@ -27,6 +27,7 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
    - This keeps GPU hot while you sleep and work
 
 2. **Design for async checking**
+
    ```python
    # Start training, write metadata to disk
    config = {
@@ -44,6 +45,7 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
    ```
 
    Then wake up and check:
+
    ```bash
    # Quick check: final loss
    tail -1 runs/exp_*.jsonl | jq '.loss'
@@ -53,6 +55,7 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
    ```
 
 3. **Use checkpointing strategically**
+
    ```python
    # Save every N steps so you don't lose work
    if step % checkpoint_interval == 0:
@@ -65,6 +68,7 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
    ```
 
 4. **Queue multiple experiments**
+
    ```bash
    # Start 3 runs in sequence before sleep (won't all run in parallel, but queued)
    for seed in 42 43 44; do
@@ -72,7 +76,9 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
    done
    wait
    ```
+
    Or better: use a job scheduler (Ray Tune, Weights & Biases, or simple queue):
+
    ```python
    # With Ray
    for config in [{"lr": 1e-4}, {"lr": 5e-5}, {"lr": 1e-5}]:
@@ -87,16 +93,19 @@ The core insight is correct: training is **compute-bound, not developer-bound**.
 **Practical reality from your setup:**
 
 With RTX 4070 (12GB) or MI300X (192GB):
+
 - **nanoGPT scale** (125M-760M params): 6-12 hour runs are normal
 - **Pre-sleep workflow**: Start training job + eval pass at 10 PM, check results at 8 AM
 - **During day**: Quick ablations on a subset of data (5-10 min), design next night's experiment
 
 **What NOT to do:**
+
 - Don't obsessively log/tensorboard during runs (adds overhead)
 - Don't start experiments you won't analyze (analysis takes time too)
 - Don't assume more experiments = better learning. One thoughtful experiment beats 20 random ones
 
 **Tools for async checking:**
+
 ```bash
 # Monitor from anywhere
 watch -n 60 'tail -20 training.log | grep "loss"'

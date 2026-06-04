@@ -18,12 +18,14 @@ type: note
 ## Core Uses
 
 **1. Module paths**
+
 ```rust
 use std::collections::HashMap;  // :: navigates the module tree
 use tokio::spawn;
 ```
 
 **2. Associated functions & types** (not methods)
+
 ```rust
 String::new()           // Associated function on String
 Vec::<i32>::new()       // Type-specific constructor
@@ -31,6 +33,7 @@ std::io::Result::Ok(5)  // Associated type on enum
 ```
 
 **3. Trait methods (disambiguate)**
+
 ```rust
 trait Speak { fn say(&self); }
 struct Dog;
@@ -44,6 +47,7 @@ impl Speak for Dog {
 ```
 
 **4. Static paths (global scope)**
+
 ```rust
 ::mymodule::function()  // Absolute path from crate root
 ```

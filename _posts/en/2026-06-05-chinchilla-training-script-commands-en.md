@@ -16,16 +16,19 @@ Checkpoint at step 10,000 already exists. Script is ready:
 ```
 
 To run fresh from step 0:
+
 ```
 bash /mnt/data/nanochat/run_rtx4070_chinchilla.sh
 ```
 
 To resume from the existing step 10k checkpoint:
+
 ```
 bash /mnt/data/nanochat/run_rtx4070_chinchilla.sh --resume-from-step=10000
 ```
 
 What it does:
+
 ```
   87,000 steps x 65,536 batch = 5.7B tokens (Chinchilla optimal)
   Checkpoints every 10k steps (crash-safe)

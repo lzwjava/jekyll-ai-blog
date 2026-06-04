@@ -16,16 +16,19 @@ type: note
 ```
 
 从第0步开始全新运行：
+
 ```
 bash /mnt/data/nanochat/run_rtx4070_chinchilla.sh
 ```
 
 从已存在的第10k步检查点恢复运行：
+
 ```
 bash /mnt/data/nanochat/run_rtx4070_chinchilla.sh --resume-from-step=10000
 ```
 
 功能说明：
+
 ```
   87,000步 x 65,536批次 = 57亿token（Chinchilla最优）
   每10k步保存检查点（防崩溃）

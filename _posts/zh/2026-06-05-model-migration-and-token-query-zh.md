@@ -29,6 +29,7 @@ huggingface-cli login
 ```
 
 或者如果你想使用 token：
+
 ```
 git config --global credential.helper store
 echo "https://lzwjava:YOUR_HF_TOKEN@huggingface.co" >> ~/.git-credentials

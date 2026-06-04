@@ -42,6 +42,7 @@ Three-tier structure now: Neo (budget, A18 Pro) → Air M5 (mainstream) → Pro 
 ### For your setup
 
 Your M2 Air is still capable, but M5 would give you:
+
 - Better GPU (10-12 cores vs your 8-core GPU)
 - Faster neural engine for local inference
 - Better thermal headroom for longer compute sessions

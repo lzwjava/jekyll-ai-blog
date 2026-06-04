@@ -18,6 +18,7 @@ VSCode 的代理处理分散在多个层级，任一配置出错都会导致重�
 ## 根本问题
 
 VSCode 并非只有一套代理设置——不同组件各自独立处理代理：
+
 1. **VSCode 本身**（Electron）
 2. **Node.js 进程**（扩展、语言服务器）
 3. **Git**（用于源代码管理）
@@ -121,16 +122,19 @@ Import-Certificate -FilePath "C:\path\to\corporate-ca.crt" -CertStoreLocation "C
 如果弹窗仍然出现：
 
 1. **检查 VSCode 实际看到的内容：**
+
    ```bash
    code --verbose 2>&1 | grep -i proxy
    ```
 
 2. **确认环境变量已加载：**
+
    ```bash
    env | grep -i proxy
    ```
 
 3. **直接测试代理：**
+
    ```bash
    curl -x http://<代理主机>:<端口> https://api.github.com
    ```

@@ -18,6 +18,7 @@ Yes — 2026 is the year the Rust AI agent ecosystem crossed from experimental t
 ## Key Frameworks
 
 ### **Rig** (most mature)
+
 Rig is a Rust library for building modular and scalable LLM applications, with provider-specific integration for OpenAI, Cohere, and Anthropic through a clean CompletionClient trait. It's straightforward:
 
 ```rust
@@ -41,12 +42,15 @@ async fn main() -> Result<(), anyhow::Error> {
 Rig includes built-in PDF processing, embeddings, and RAG capabilities through feature flags like `rig-core = { version = "0.5.0", features = ["pdf", "derive"] }`.
 
 ### **SamurAI** (educational reference)
+
 An educational Rust framework demonstrating production-quality AI agents with clear architectural boundaries, covering memory management, tool execution, and safety guardrails through modular workspace examples. Includes examples for:
+
 - Chatbot with memory (OpenAI/Anthropic/Ollama)
 - Research assistant with tool calling
 - Local Ollama-based agents (zero API cost)
 
 ### **rs-agent** (Lattice framework port)
+
 A Rust implementation of the Lattice AI Agent Framework with pluggable LLM adapters (Gemini, Ollama, Anthropic, OpenAI), retrieval-capable memory, CodeMode execution, and multi-agent coordination through the Tool trait and ToolCatalog.
 
 ## The Production Reality
@@ -91,13 +95,15 @@ async fn main() {
 Deploy that to your workstation; it'll handle tool orchestration with zero-GC latency while keeping the LLM calls stateless. Way more reliable than Python agentic pipelines for production code work.
 
 ### Ecosystem Momentum
+
 89% of Rust developers have tried AI tools, and 78% actively use AI-powered coding assistants, with specialized tools like Rust Coding Assistant handling ownership model complexity that generic tools struggle with.
 
 ---
 
 **References:**
+
 - Zylos Research: Rust-Native AI Agent Frameworks (April 2026)
 - Zylos Research: Performance & Production Runtime Layer (March 2026)
-- https://github.com/0xPlaygrounds/rig
-- https://github.com/netologist/SamurAI
-- https://lib.rs/crates/rs-agent
+- <https://github.com/0xPlaygrounds/rig>
+- <https://github.com/netologist/SamurAI>
+- <https://lib.rs/crates/rs-agent>

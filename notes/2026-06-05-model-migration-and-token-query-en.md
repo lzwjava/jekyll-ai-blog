@@ -29,6 +29,7 @@ huggingface-cli login
 ```
 
 Or if you want to use a token:
+
 ```
 git config --global credential.helper store
 echo "https://lzwjava:YOUR_HF_TOKEN@huggingface.co" >> ~/.git-credentials
