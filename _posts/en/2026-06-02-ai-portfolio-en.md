@@ -97,6 +97,25 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 ![Xiaomi MIMO Pro Plan — 500M tokens consumed, ~4.6B free credit remaining](/assets/images/ai-portfolio/xiaomi-mimo-usage.png)
 
+#### May 2026 Daily Token Usage
+
+![Xiaomi MIMO May 2026 — daily token usage detail across mimo-v2.5, mimo-v2.5-pro, mimo-v2-pro](/assets/images/ai-portfolio/xiaomi-mimo-may2026.png)
+
+| Date | Model | Total Tokens | Input (Cache Hit) | Input (Cache Miss) | Output |
+|------|-------|-------------:|-------------------:|--------------------:|-------:|
+| 2026-05-31 | mimo-v2.5 | 1,498 | 192 | 943 | 363 |
+| 2026-05-31 | mimo-v2.5-pro | 132,198,274 | 128,108,096 | 3,478,691 | 611,487 |
+| 2026-05-30 | mimo-v2.5 | 70,745 | 3,200 | 39,429 | 28,116 |
+| 2026-05-30 | mimo-v2.5-pro | 124,459,514 | 120,774,848 | 3,111,678 | 572,988 |
+| 2026-05-29 | mimo-v2.5-pro | 17,534,693 | 16,141,184 | 1,204,155 | 189,354 |
+| 2026-05-28 | mimo-v2.5 | 14,217 | 1,344 | 9,589 | 3,284 |
+| 2026-05-28 | mimo-v2.5-pro | 10,946,159 | 8,842,496 | 2,010,722 | 92,941 |
+| 2026-05-28 | mimo-v2-pro | 3,389,424 | 2,860,224 | 522,989 | 6,211 |
+| 2026-05-27 | mimo-v2.5 | 1,631 | 192 | 945 | 494 |
+| 2026-05-27 | mimo-v2.5-pro | 12,646,146 | 12,001,216 | 580,332 | 64,598 |
+
+> mimo-v2.5-pro dominates usage (~300M tokens in 5 days). High cache hit rate (~96% on mimo-v2.5-pro) keeps costs efficient.
+
 ### Summary
 
 | Platform | Tokens | Period | Cost |
