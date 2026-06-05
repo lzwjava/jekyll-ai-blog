@@ -20,10 +20,12 @@ iOS restricts to **one active VPN at a time**, so you need a routing strategy. H
 The cleanest approach: run Shadowsocks as a **SOCKS5/HTTP proxy** (not VPN mode), then Tailscale as the VPN.
 
 **iOS setup:**
+
 - Install **Shadowrocket** (paid, most flexible) or **Quantumult X** (more powerful)
 - Configure your Shadowsocks server as a proxy rule (SOCKS5), not as VPN
 - Enable Tailscale VPN independently
 - In Shadowrocket, set:
+
   ```
   [Proxy]
   ProxyName = SOCKS5, <SS_SERVER_IP>, <SS_PORT>, chacha20-poly1305, <PASSWORD>
@@ -53,6 +55,7 @@ If you need both features to work globally:
 ```
 
 **iOS config in Shadowrocket:**
+
 ```
 [Proxy]
 Gateway = <TAILSCALE_IP_OF_SS_GATEWAY>, 1080
@@ -73,6 +76,7 @@ If Shadowsocks is more critical (which it likely is in China):
 - **Secondary:** Tailscale access via **Shadowsocks-routed HTTP proxy** → Tailscale control server
 
 This requires configuring Tailscale to use a SOCKS5 proxy:
+
 ```bash
 # Tailscale CLI doesn't directly support proxy, but you can:
 # 1. SSH into Tailscale peer through Shadowsocks proxy
@@ -102,6 +106,7 @@ sudo tailscale up
 ```
 
 iOS Shadowrocket config:
+
 ```
 [Proxy]
 ShadowsocksGW = SOCKS5, 100.x.x.x (Tailscale IP), 1080

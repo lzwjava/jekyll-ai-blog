@@ -12,6 +12,7 @@ type: note
 You're identifying a real asymmetry: **positions are transient, but capabilities and public work are durable.**
 
 The problem with the LinkedIn model is it conflates two things:
+
 - **Status markers** (job title, company name, salary) — these evaporate instantly on layoff
 - **Actual competence** (what you can *do*, what you've *built*) — these compound and travel with you
 

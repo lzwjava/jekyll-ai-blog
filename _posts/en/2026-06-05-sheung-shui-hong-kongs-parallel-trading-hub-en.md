@@ -10,6 +10,7 @@ type: note
 ---
 
 ## Question
+
 What is Sheung Shui and what's happening there currently?
 
 ## Answer

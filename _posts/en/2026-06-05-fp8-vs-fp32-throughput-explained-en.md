@@ -23,6 +23,7 @@ These **multiply**, not add: 4 × 4 = 16x.
 Here's the GPU perspective:
 
 **Memory side:**
+
 ```
 Same 900 GB/s memory bandwidth, but:
 - FP32: 900 GB/s ÷ 4 bytes = 225 GFLOPS (memory-limited)
@@ -31,12 +32,14 @@ Same 900 GB/s memory bandwidth, but:
 
 **Hardware execution side:**
 Modern GPUs (NVIDIA Hopper, H100) pack multiple FP8 operations per tensor core instruction:
+
 ```
 FP32: 1 multiply-accumulate (MAC) per core per clock
 FP8:  4 MACs per core per clock (in the same physical space)
 ```
 
 When you have dense matrix operations (the 2614.9 TFLOPS figure), you're hitting **both advantages simultaneously**:
+
 - 4x more data flows through (bandwidth)
 - 4x more ops execute per clock (hardware)
 - Result: 16x throughput

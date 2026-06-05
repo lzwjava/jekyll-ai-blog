@@ -53,6 +53,7 @@ MIOpen（相当于cuDNN）仍为部分支持——意味着FP8卷积操作尚未
 **PyTorch on ROCm：FP8被列为支持**
 
 根据pytorch-compatibility.rst，PyTorch on ROCm列出：
+
 - `torch.float8_e4m3fn` — 支持
 - `torch.float8_e5m2` — 支持
 

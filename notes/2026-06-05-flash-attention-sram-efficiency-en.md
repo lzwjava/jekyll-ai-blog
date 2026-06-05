@@ -32,11 +32,13 @@ SRAM bandwidth is **~10-100x faster** than HBM. On RTX 4070, SRAM bandwidth ≈ 
 Standard attention computes: `Attention(Q, K, V) = softmax(Q @ K^T / √d) @ V`
 
 **Naive approach** (what NVIDIA did for years):
+
 1. Load all Q, K, V from HBM → GPU registers/SRAM
 2. Compute full `Q @ K^T` (N×N matrix) — **must live in HBM because it's too big for SRAM**
 3. Compute softmax row-by-row, with O(N²) HBM accesses
 
 **Flash Attention approach**:
+
 1. Tile Q into blocks of size M = SRAM_size / (3 × d × sizeof(float))
 2. For each Q block, loop through K, V blocks
 3. **All intermediate computation stays in SRAM** — load, compute, accumulate, write back
@@ -45,11 +47,13 @@ Standard attention computes: `Attention(Q, K, V) = softmax(Q @ K^T / √d) @ V`
 ## The Math (Simplified)
 
 Say you have:
+
 - Sequence length N = 4096, d_model = 128
 - SRAM available ≈ 96 KB for tensors
 - Block size: M = 96_000 / (3 × 128 × 4) ≈ 62 tokens
 
 For each block of 62 Q tokens:
+
 ```python
 # Pseudocode
 m = -inf  # row max (for numerically stable softmax)
@@ -81,6 +85,7 @@ The key: **all of Q_block, K_block, V_block, scores, and O live in SRAM**. Only 
 ## Why This Matters for Your MI300X
 
 On AMD MI300X (192 GB HBM3):
+
 - HBM3 bandwidth: 5.2 TB/s (much better than RTX 4070)
 - But SRAM bandwidth on MI300X is insane: cores can hit 100+ TB/s to local SRAM
 - The efficiency gain is **smaller** (your gap is smaller), but still critical
@@ -90,6 +95,7 @@ For a 4B token model, Flash Attention saves ~4-10x HBM pressure depending on seq
 ## Implementation Notes
 
 If you're training nanoGPT-scale models:
+
 - torch.nn.functional.scaled_dot_product_attention (PyTorch 2.0+) uses Flash Attention automatically when possible
 - For manual CUDA, use `cutlass::gemm` for Q @ K^T and accumulate carefully
 - The MI300X has 64 MB L3 cache per chiplet — even more room to tile aggressively

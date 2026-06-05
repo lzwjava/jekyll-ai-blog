@@ -35,6 +35,7 @@ The analogy: FlashAttention doesn't compute faster (same FLOPs), it *avoids redu
 Multiple dishes = **sequential cooling** (one batch at a time, in parallel).
 
 GPU tiling ≠ pure parallelism. It's:
+
 1. **Compute decomposition** (break attention into (Q, K, V) tiles)
 2. **Memory hierarchy exploitation** (L2 cache → SRAM → registers)
 3. **Hardware parallelism** (SMs execute blocks concurrently)

@@ -18,6 +18,7 @@ VSCode's proxy handling is fragmented across multiple layers, and misconfiguring
 ## The Root Problem
 
 VSCode doesn't just have one proxy setting — different components handle proxies independently:
+
 1. **VSCode itself** (Electron)
 2. **Node.js processes** (extensions, language servers)
 3. **Git** (for source control)
@@ -121,16 +122,19 @@ Then VSCode can safely verify SSL with `"http.proxyStrictSSL": true`.
 If popups persist:
 
 1. **Check what VSCode actually sees:**
+
    ```bash
    code --verbose 2>&1 | grep -i proxy
    ```
 
 2. **Verify environment variables are loaded:**
+
    ```bash
    env | grep -i proxy
    ```
 
 3. **Test the proxy directly:**
+
    ```bash
    curl -x http://<PROXY_HOST>:<PORT> https://api.github.com
    ```

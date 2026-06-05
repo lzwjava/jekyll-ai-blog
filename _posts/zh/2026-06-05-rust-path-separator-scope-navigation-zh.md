@@ -18,12 +18,14 @@ type: note
 ## 核心用途
 
 **1. 模块路径**
+
 ```rust
 use std::collections::HashMap;  // :: 导航模块树
 use tokio::spawn;
 ```
 
 **2. 关联函数和关联类型**（非方法）
+
 ```rust
 String::new()           // String 上的关联函数
 Vec::<i32>::new()       // 特定类型的构造函数
@@ -31,6 +33,7 @@ std::io::Result::Ok(5)  // 枚举上的关联类型
 ```
 
 **3. 特型方法（消除歧义）**
+
 ```rust
 trait Speak { fn say(&self); }
 struct Dog;
@@ -44,6 +47,7 @@ impl Speak for Dog {
 ```
 
 **4. 静态路径（全局作用域）**
+
 ```rust
 ::mymodule::function()  // 从 crate 根开始的绝对路径
 ```

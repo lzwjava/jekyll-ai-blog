@@ -20,10 +20,12 @@ iOS 限制**同时只能有一个 VPN 活动**，因此需要路由策略。以�
 最清晰的方法：将 Shadowsocks 作为 **SOCKS5/HTTP 代理**（非 VPN 模式），然后 Tailscale 作为 VPN。
 
 **iOS 设置：**
+
 - 安装 **Shadowrocket**（付费，最灵活）或 **Quantumult X**（功能更强）
 - 将 Shadowsocks 服务器配置为代理规则（SOCKS5），而非 VPN
 - 独立启用 Tailscale VPN
 - 在 Shadowrocket 中设置：
+
   ```
   [Proxy]
   ProxyName = SOCKS5, <SS_SERVER_IP>, <SS_PORT>, chacha20-poly1305, <PASSWORD>
@@ -53,6 +55,7 @@ iOS 限制**同时只能有一个 VPN 活动**，因此需要路由策略。以�
 ```
 
 **Shadowrocket 中的 iOS 配置：**
+
 ```
 [Proxy]
 Gateway = <TAILSCALE_IP_OF_SS_GATEWAY>, 1080
@@ -73,6 +76,7 @@ FINAL,DIRECT
 - **次要：** 通过 **Shadowsocks 路由的 HTTP 代理** → Tailscale 控制服务器访问 Tailscale
 
 这需要将 Tailscale 配置为使用 SOCKS5 代理：
+
 ```bash
 # Tailscale CLI 不直接支持代理，但你可以：
 # 1. 通过 Shadowsocks 代理 SSH 进入 Tailscale 对端
@@ -102,6 +106,7 @@ sudo tailscale up
 ```
 
 iOS Shadowrocket 配置：
+
 ```
 [Proxy]
 ShadowsocksGW = SOCKS5, 100.x.x.x (Tailscale IP), 1080

@@ -35,6 +35,7 @@ FlashAttention:   token_throughput ∝ SRAM_bandwidth / compute_time
 多个盘子 = **顺序冷却**（一次一批，并行进行）。
 
 GPU tiling ≠ 纯粹并行。它是：
+
 1. **计算分解**（将 attention 拆分为 (Q, K, V) tile）
 2. **内存层级利用**（L2 缓存 → SRAM → 寄存器）
 3. **硬件并行性**（SM 并发执行 block）

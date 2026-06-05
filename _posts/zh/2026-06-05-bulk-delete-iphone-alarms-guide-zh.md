@@ -121,7 +121,7 @@ xcrun lldb --no-lldbinit -b \
 open "shortcuts://run-shortcut?name=Delete%20All%20Alarms"
 ```
 
-## 我的建议：
+## 我的建议
 
 **最快：** 选项 1（迁移到提醒事项，批量删除）。
 

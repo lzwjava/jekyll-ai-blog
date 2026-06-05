@@ -30,6 +30,7 @@ While FP8 can "halve storage and memory bandwidth requirements compared to FP16"
 **Practical Consequence**
 
 For your workload (nanoGPT-scale training, LoRA fine-tuning), the speedup from FP8 on RTX 4070 is negligible because:
+
 1. Framework support is still immature
 2. Memory bandwidth is the bottleneck, not compute
 3. Most quantization in practice uses INT8 or FP16 with better tooling

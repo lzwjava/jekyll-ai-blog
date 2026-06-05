@@ -121,7 +121,7 @@ Then trigger from macOS:
 open "shortcuts://run-shortcut?name=Delete%20All%20Alarms"
 ```
 
-## My recommendation for you:
+## My recommendation for you
 
 **Fastest:** Option 1 (migrate to Reminders, bulk-delete).
 

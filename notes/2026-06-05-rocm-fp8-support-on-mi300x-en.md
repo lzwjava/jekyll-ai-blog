@@ -57,6 +57,7 @@ MIOpen (the cuDNN equivalent) is still partial — meaning FP8 conv operations a
 **PyTorch on ROCm: FP8 is listed as supported**
 
 From pytorch-compatibility.rst, PyTorch on ROCm lists:
+
 - `torch.float8_e4m3fn` — supported
 - `torch.float8_e5m2` — supported
 
