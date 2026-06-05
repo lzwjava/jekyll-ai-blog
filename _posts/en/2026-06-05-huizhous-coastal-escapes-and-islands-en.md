@@ -16,10 +16,12 @@ Huizhou (惠州) is located in southeastern Guangdong Province and is the second
 **What to Do:**
 
 **Beaches/Bays:**
+
 - Xunliao Bay (寻梦湾) has a 27-kilometer coastline with more than ten miles of half moon beach with fine white sand, known as "Tianci Baishadi" (天赐白沙地), with clear green sea and flat solid sea floor. It includes Mozishi Park (磨子石公园) with strange stone formations and Delta Island, plus marine sports like sailing and diving.
 - Shuangyue Bay (双月湾) is another major coastal area with scenic road access
 
 **Nature/Lakes:**
+
 - Huizhou West Lake (惠州西湖) is a park and lake for walking/nature activities
 
 **Islands:**

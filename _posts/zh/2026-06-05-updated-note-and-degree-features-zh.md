@@ -12,7 +12,7 @@ type: note
 ## 1. 触发了 gh-pages 工作流
 
 在 jekyll-ai-blog 仓库上运行了 `gh workflow run gh-pages.yml`。确认已在以下地址启动：
-https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396
+<https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396>
 
 ---
 
@@ -27,6 +27,7 @@ https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396
 - `README.md` / `README-CN.md` — 在 degree 命令表格中添加了 `--months` 行。
 
 **用法：**
+
 ```
 ww degree              # 最近 3 个月（默认）
 ww degree --months 6   # 最近 6 个月
@@ -41,6 +42,7 @@ ww degree --months 0   # 所有文章（不过滤）
 ## 3. 重复笔记检测修复
 
 **问题：** 在 2026-06-05 创建了两篇内容相同的笔记：
+
 - `2026-06-05-embedding-in-english-and-ai-explained-en.md`
 - `2026-06-05-embeddings-from-language-to-ai-models-en.md`
 

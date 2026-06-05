@@ -122,6 +122,7 @@ vectors = vectorize_sql_rows("SELECT * FROM users", batch_size=512)
 ```
 
 **GPU的重要性：**
+
 - 文本编码（Transformer前向传播）实际上是**矩阵乘法** → 非常适合GPU
 - RTX 4070上批大小512：每批约10-50ms（每秒10K行）
 - CPU等效：每批200-500ms
@@ -131,6 +132,7 @@ vectors = vectorize_sql_rows("SELECT * FROM users", batch_size=512)
 一旦拥有向量，你可以实现：
 
 #### 1. **相似度搜索/推荐**
+
 ```python
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -143,6 +145,7 @@ print(f"与用户1相似的用户: {similar_users}")
 ```
 
 #### 2. **聚类**
+
 ```python
 from sklearn.cluster import KMeans
 
@@ -154,6 +157,7 @@ df['cluster'] = labels
 ```
 
 #### 3. **分类（有监督）**
+
 ```python
 from sklearn.linear_model import LogisticRegression
 
@@ -168,6 +172,7 @@ print(f"流失概率: {churn_prob:.2%}")
 ```
 
 #### 4. **异常检测**
+
 ```python
 from sklearn.ensemble import IsolationForest
 
@@ -179,6 +184,7 @@ fraud_candidates = df[anomalies]
 ```
 
 #### 5. **向量搜索（索引）**
+
 ```python
 # 使用FAISS在GPU上进行百万级最近邻搜索
 import faiss
@@ -216,6 +222,7 @@ combined = np.concatenate(list(field_vecs.values()))
 ```
 
 **应用场景：**
+
 - **信用风险** → 分类为风险等级
 - **欺诈检测** → 交易向量的异常检测
 - **客户细分** → 按财务行为聚类

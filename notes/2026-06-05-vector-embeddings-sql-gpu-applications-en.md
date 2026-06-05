@@ -122,6 +122,7 @@ vectors = vectorize_sql_rows("SELECT * FROM users", batch_size=512)
 ```
 
 **Why GPU matters:**
+
 - Text encoding (forward pass through transformer) is **matrix multiplication** → perfect for GPU
 - Batch size 512 on RTX 4070: ~10-50ms per batch (10K rows/sec)
 - CPU equivalent: 200-500ms per batch
@@ -131,6 +132,7 @@ vectors = vectorize_sql_rows("SELECT * FROM users", batch_size=512)
 Once you have vectors, you unlock:
 
 #### 1. **Similarity Search / Recommendation**
+
 ```python
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -143,6 +145,7 @@ print(f"Users similar to user 1: {similar_users}")
 ```
 
 #### 2. **Clustering**
+
 ```python
 from sklearn.cluster import KMeans
 
@@ -154,6 +157,7 @@ df['cluster'] = labels
 ```
 
 #### 3. **Classification (supervised)**
+
 ```python
 from sklearn.linear_model import LogisticRegression
 
@@ -168,6 +172,7 @@ print(f"Churn probability: {churn_prob:.2%}")
 ```
 
 #### 4. **Anomaly Detection**
+
 ```python
 from sklearn.ensemble import IsolationForest
 
@@ -179,6 +184,7 @@ fraud_candidates = df[anomalies]
 ```
 
 #### 5. **Vector Search (Index)**
+
 ```python
 # Use FAISS for million-scale nearest neighbor search on GPU
 import faiss
@@ -216,6 +222,7 @@ combined = np.concatenate(list(field_vecs.values()))
 ```
 
 **Use cases:**
+
 - **Credit risk** → classify into risk tiers
 - **Fraud detection** → anomaly detection on transaction vectors
 - **Customer segmentation** → clustering by financial behavior

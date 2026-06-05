@@ -18,6 +18,7 @@ Yes, but with real constraints. Here's the practical breakdown:
 ## EV Power Output Specs
 
 **V2L (Vehicle to Load)** — most EVs have this:
+
 - **Standard output**: 1-2.4 kW @ 120V-240V (depending on market)
 - **High-end**: Tesla, Kia, Hyundai EV6/Ioniq = 3.6-11 kW with proper equipment
 - **Typical connector**: Standard outlet (North America), IEC 62196 variants (Europe/Asia)
@@ -38,12 +39,14 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 ## Better Options
 
 ### Option 1: Skip car AC, use natural cool hours + portable fan
+
 - Morning/early evening workouts: 8am-10am, 4pm-7pm (seasons dependent)
 - Add a **small USB/battery-powered fan** (10-30W) → works great with 120V outlet
 - Laptop draws ~120W, fan ~20W = 140W total. EV can handle indefinitely
 - **Win**: Simplest, cheapest, uses the car's 1-2.4 kW V2L capacity
 
 ### Option 2: Portable AC unit + EV power
+
 - **Portable AC (7500-9000 BTU)**: 800-1200W, runs 6-8 hours on EV battery
 - Requires cable routing from trunk outlet to work area
 - **Cable math**: Standard 120V outlet up to ~100 feet is OK (voltage drop <3%), but anything beyond needs heavier gauge wire
@@ -52,6 +55,7 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 - **Empirical**: One 7500 BTU unit = ~250W average (not peak), so EV drains maybe 25-30% per 8-hour day
 
 ### Option 3: Hardest option — car AC while parked
+
 - Only works if your EV has **climate** or **battery heat pump** mode without engine
 - Tesla: Yes (can run AC on battery for extended time)
 - Kia/Hyundai: Yes (PTC heater, can run briefly)
@@ -61,6 +65,7 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 ## Cable Extension Reality
 
 **Standard 120V outlet + weather-sealed extension cord**:
+
 - Up to 50 feet: 12 AWG cord, minimal voltage drop
 - 50-100 feet: 10 AWG required
 - >100 feet: Impractical (voltage drop kills power), use 8 AWG (expensive, heavy)
@@ -70,11 +75,13 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 ## Practical Recommendation
 
 **Buy**:
+
 1. **Weatherproof extension cord** (50 ft, 12 AWG, grounded) — $30-50
 2. **Portable AC unit (7500 BTU)** if you must have AC — $200-400
 3. **USB-powered fan** as fallback — $15-30
 
 **Workflow**:
+
 - Park EV in lot, open power outlet (usually rear bumper or side)
 - Run extension cord to your workstation
 - Cool mornings/evenings → just the fan + laptop
@@ -86,6 +93,7 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 ---
 
 References:
+
 - Tesla V2L capabilities and climate while parked
 - EV power outlet standards (IEC 62196, SAE J1772)
 - Portable AC power consumption ratings

@@ -14,6 +14,7 @@ type: note
 The Guangzhou–Shanwei high-speed railway opened September 26, 2023, and connects Zengcheng (增城) directly to Huizhou South (惠州南) station via an intermediate stop at Boluo (博罗). The line operates at 250 km/h in the Zengcheng section. This is your fastest option.
 
 **Trip Cost Estimate:**
+
 - Train: Zengcheng → Huizhou South: ~CNY 30-50 each way
 - Return: Huizhou South → Zengcheng: ~CNY 30-50
 - Hotels: CNY 200-400/night (3-star in Huidong)
@@ -25,6 +26,7 @@ The Guangzhou–Shanwei high-speed railway opened September 26, 2023, and connec
 ## **3-Day Trip Itinerary** (Compact)
 
 **Day 1: Zengcheng → Huidong (惠东县)**
+
 - 08:00 - Take high-speed train from Zengcheng (增城) → Huizhou South (惠州南). Travel time ~30-40 min
 - 09:00 - Arrive Huizhou South; take local bus/taxi to Huidong (~1 hour, CNY 30-50)
 - 11:00 - Check into hotel in Huidong (near Shuangyue Bay or Xunliao Bay)
@@ -34,6 +36,7 @@ The Guangzhou–Shanwei high-speed railway opened September 26, 2023, and connec
 - 20:00 - Sleep
 
 **Day 2: Island Hopping**
+
 - 08:00 - Breakfast
 - 09:00 - **Yanzhou Island (盐洲岛)** - full-day island tour (swimming, fishing village, natural scenery). Tours available from hotels or local agencies (CNY 100-200/person)
 - 17:00 - Return to Huidong
@@ -41,6 +44,7 @@ The Guangzhou–Shanwei high-speed railway opened September 26, 2023, and connec
 - 20:00 - Sleep
 
 **Day 3: Beaches**
+
 - 08:00 - Breakfast
 - 09:00 - **Shuangyue Bay (双月湾)** - coastal road drive, beach time, Caishi Beach (彩石滩). Rent scooter or take taxi
 - 13:00 - Lunch at local restaurant
@@ -50,6 +54,7 @@ The Guangzhou–Shanwei high-speed railway opened September 26, 2023, and connec
 - 20:30 - Sleep
 
 **Day 4: Return**
+
 - 08:00 - Breakfast, check out
 - 09:30 - Bus/taxi to Huizhou South (惠州南) (~1.5 hours)
 - 11:00 - Train from Huizhou South → Zengcheng. Depart 11:30, arrive ~12:15
@@ -87,6 +92,7 @@ Add one more day to Day 2-3 split:
 ## **Alternative: Add Guangzhou Day**
 
 If going up to 4-5 days, consider:
+
 - **Day 1:** Zengcheng → Huizhou (as above)
 - **Days 2-3:** Huizhou islands
 - **Day 4:** Morning return to Guangzhou; afternoon explore Guangzhou (Liwan Lake, Temple Street, Pearl River)

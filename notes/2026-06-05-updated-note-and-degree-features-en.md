@@ -16,7 +16,7 @@ Here's the full session summary:
 ## 1. Triggered gh-pages workflow
 
 Ran `gh workflow run gh-pages.yml` on the jekyll-ai-blog repo. Confirmed it started at:
-https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396
+<https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396>
 
 ---
 
@@ -31,6 +31,7 @@ https://github.com/lzwjava/jekyll-ai-blog/actions/runs/27012471396
 - `README.md` / `README-CN.md` — Added `--months` row to the degree command table.
 
 **Usage:**
+
 ```
 ww degree              # last 3 months (default)
 ww degree --months 6   # last 6 months
@@ -45,6 +46,7 @@ ww degree --months 0   # all articles (no filter)
 ## 3. Duplicate note detection fix
 
 **Problem:** Two notes with the same content were created on 2026-06-05:
+
 - `2026-06-05-embedding-in-english-and-ai-explained-en.md`
 - `2026-06-05-embeddings-from-language-to-ai-models-en.md`
 
