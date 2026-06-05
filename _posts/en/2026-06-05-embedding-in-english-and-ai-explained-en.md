@@ -16,9 +16,11 @@ type: note
 ## Answer
 
 ### General English
+
 **Embedding** = to place or fix something firmly inside something else. "The journalist embedded with the military unit." The thing is now part of a larger structure.
 
 ### In LLM/AI Context
+
 **Embedding** = a dense vector representation of discrete data (text, tokens, images) in continuous space, learned by the model to capture semantic meaning.
 
 **From first principles:**
@@ -26,6 +28,7 @@ type: note
 When you feed a token (word/subword) into an LLM, you can't do math on a discrete symbol. So you convert it to a **vector** — a list of numbers. This conversion is learned during training. Tokens with similar meaning end up near each other in this vector space.
 
 **The math:**
+
 ```
 token "king" → embedding vector e_king ∈ ℝ^d
 where d = embedding dimension (e.g., 768 for BERT, 4096 for Llama)
@@ -34,9 +37,11 @@ e_king ≈ [0.12, -0.45, 0.78, ..., 0.34]  # 768 floats
 ```
 
 The famous property:
+
 ```
 e_king - e_man + e_woman ≈ e_queen
 ```
+
 This works because the vector space encodes semantic relationships.
 
 ### In Practical Code
@@ -78,6 +83,7 @@ That `embedding` matrix (50k × 768) is **learned during training**. Each row is
 ### Quick Intuition
 
 Think of it like this:
+
 - **Discrete token:** `"king"` (symbol, can't do calculus on it)
 - **Embedding:** `[0.12, -0.45, 0.78, ...]` (vector in semantic space, now you can measure distances, apply linear transforms, etc.)
 - **Downstream layers:** Apply attention, MLPs, layer norms — all matrix ops on embeddings
