@@ -23,9 +23,11 @@ type: note
 4. `git commit -m <message>` 运行 —— pre-commit hooks 触发
 5. `end-of-file-fixer` hook 检测到缺少尾部换行符，并静默修复了磁盘上的文件
 6. 现在工作树（已修复）与索引（原始暂存）不同。Git 拒绝提交：
+
    ```
    error: Your local changes to the following files would be overwritten by merge
    ```
+
 7. `_git_commit_push()` 抛出 `CalledProcessError`，该异常向上传递到 `process_queue()` 中的 `except` 块（第105-108行）—— 它会打印错误并提示你重试
 8. 队列条目已被标记为完成并清理（第115行），但文件被卡住：**已暂存 + 脏工作树**
 9. 重试时，`_check_uncommitted()`（第51-55行）检测到脏状态并调用 `sys.exit(1)` —— 死胡同
@@ -47,10 +49,12 @@ except subprocess.CalledProcessError:
 ```
 
 当第一次尝试因 hooks 修改文件而失败时：
+
 - `except` 块对同一文件重新运行 `git add`，暂存 hook 修复后的版本
 - 第二次 `gitmessageai()` 调用看到干净的差异（如果 hooks 是唯一的更改，则没有差异），生成提交信息，并成功提交
 
 这样做是安全的，因为：
+
 - 仅重试一次（无无限循环）
 - 如果第二次尝试也失败，异常正常传播
 - 涵盖所有 pre-commit hooks，而不仅仅是 `end-of-file-fixer`
@@ -59,6 +63,7 @@ except subprocess.CalledProcessError:
 ## 即时修复
 
 手动重新暂存被卡住的笔记并提交：
+
 ```
 9478ec3f3  docs(notes): add Qwen3.6 unpacked vs hype analysis
 ```

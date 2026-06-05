@@ -25,11 +25,13 @@ Yes, turn it off immediately. You're correct — this is standard domain registr
 6. Save
 
 After that, the domain will expire on its renewal date. You'll get email reminders ~60 days before expiration, then you can decide:
+
 - Renew elsewhere (cheaper registrars often have competitive renewal rates)
 - Renew at Namecheap if prices change
 - Let it expire and re-register later if needed
 
 **Cheaper alternatives for renewal:**
+
 - **Porkbun**: Often ~$9-12/year for .shop renewals
 - **Cloudflare Registrar**: Cost-basis pricing (no markup)
 - **Google Domains** / **Squarespace**: Competitive renewal pricing

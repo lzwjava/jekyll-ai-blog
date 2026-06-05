@@ -23,6 +23,7 @@ GPU:       RTX 4070 @ 100% util, 55% mem, 66°C, 211W
 ```
 
 Summary:
+
 - About 70% done, roughly 26,160 steps remaining
 - At ~1.18 sec/step, that's ~8.6 hours left (ETA confirms ~513 min)
 - Loss is stable around 2.98-3.02 — training is healthy

@@ -18,6 +18,7 @@ type: note
 ## 第一层：从这里开始（可在nanoGPT规模上实现）
 
 **1. 使用BF16的nanoGPT**
+
 ```python
 # 只需将此添加到 nanoGPT/train.py
 device_type = 'cuda' if 'cuda' in device else 'cpu'
@@ -29,30 +30,36 @@ with torch.autocast(device_type=device_type, dtype=ptdtype):
 ```
 
 首先运行启用了BF16的nanoGPT。这会教你：
+
 - 数据类型如何在前向/反向传播中传播
 - PyTorch何时回退到FP32（矩阵相乘、归约操作）
 - 内存/速度权衡
 
 **2. [torch/ao (torchao)](https://github.com/pytorch/ao)**
 这是最实用的FP8仓库。实现清晰、可读性强：
+
 ```
 - torchao/quantization/float8.py → FP8量化逻辑
 - torchao/float8/ → 训练工具
 ```
+
 阅读 `float8_tensor.py`，了解他们如何实现缩放因子和量化。这是Meta规模的生产代码。
 
 **3. [NVIDIA/Apex](https://github.com/NVIDIA/apex)**
 较老但仍然是理解混合精度的金矿：
+
 ```
 - apex/amp/ → 自动混合精度实现
 - apex/optimizers/ → 带损失缩放的FusedAdam
 ```
+
 损失缩放策略（动态损失缩放）是防止FP8/BF16中梯度下溢的方法。
 
 ## 第二层：深入挖掘（理解数学）
 
 **4. [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) + 你自己的BF16检测**
 修改nanoGPT以记录日志：
+
 ```python
 # 添加到训练循环中
 print(f"Loss: {loss.item()}, dtype: {loss.dtype}")
@@ -63,6 +70,7 @@ print(f"Weight range: {model.transformer.h[0].attn.c_proj.weight.abs().min():.4f
 这会向你展示 **为什么** BF16重要——你会看到梯度分布、缩放因子和溢出模式。
 
 **5. [pytorch/pytorch](https://github.com/pytorch/pytorch) - 源码本身**
+
 ```
 torch/csrc/cuda/jit_cuda_kernel_launcher.cpp  → BF16内核调度
 aten/src/ATen/native/cuda/blas.cpp            → 混合精度矩阵相乘
@@ -73,6 +81,7 @@ aten/src/ATen/native/cuda/blas.cpp            → 混合精度矩阵相乘
 ## 第三层：推理优化（实用回报）
 
 **6. [vLLM](https://github.com/vLLM-project/vLLM)**
+
 ```
 vllm/model_executor/ops/fp8.py → FP8矩阵相乘内核
 vllm/quantization/fp8.py       → 量化调度
@@ -81,6 +90,7 @@ vllm/quantization/fp8.py       → 量化调度
 这展示了如何实际 **使用** FP8来加速推理。他们使用的逐token量化策略非常优雅。
 
 **7. [llama.cpp](https://github.com/ggerganov/llama.cpp)**
+
 ```
 ggml.c → GGUF量化格式
 ```
@@ -90,6 +100,7 @@ ggml.c → GGUF量化格式
 ## 第四层：前沿技术（如果你想理解Megatron风格的训练）
 
 **8. [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM)**
+
 ```
 megatron/core/tensor_parallel/ → 混合精度分布式训练
 megatron/core/utils.py         → 梯度缩放、损失缩放策略
@@ -100,6 +111,7 @@ megatron/core/utils.py         → 梯度缩放、损失缩放策略
 ## 我对你的建议
 
 **从这里开始：**
+
 1. 运行启用了BF16的nanoGPT（1小时）
 2. 添加检测代码以记录权重/梯度范围（2小时）
 3. 阅读 `torchao/float8/float8_tensor.py` 以理解量化（2小时）

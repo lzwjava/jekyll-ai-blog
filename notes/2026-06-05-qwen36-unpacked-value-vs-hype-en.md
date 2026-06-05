@@ -20,12 +20,14 @@ Question: **Qwen3.6-35B-A3B Uncensored — is this actually a major breakthrough
 ### What's Technically Real
 
 **MoE + GGUF quantization is genuinely useful:**
+
 - 35B params / 3B activation (MoE sparsity) is real and borrowed from DeepSeek architecture
 - GGUF quantization at Q4_K_M gets you ~90-95% model quality at 60-65% VRAM
 - Running on 6-8GB is achievable with IQ2_M (6GB) or Q4_K_M (10-12GB)
 - llama.cpp's inference speed **is faster/more stable** than ollama/LM Studio by a wide margin—this part isn't hype
 
 **Multimodal support is real:**
+
 - Qwen 3.6 base has vision, and llama.cpp now handles multimodal properly with `--mmproj`
 - This is legitimately useful for local vision workflows
 
@@ -34,6 +36,7 @@ Question: **Qwen3.6-35B-A3B Uncensored — is this actually a major breakthrough
 **"Uncensored" ≠ "smarter"**
 
 What they actually did: removed safety fine-tuning layers. This doesn't make the model more capable—it just removes refusals on certain prompts. Technical reality:
+
 - Safety fine-tuning typically costs 1-3% benchmark performance (negligible)
 - The "aggressiveness" is achieved via system prompts + LoRA or post-training, not model structure
 - You're not getting new reasoning ability—you're just bypassing guardrails
@@ -56,6 +59,7 @@ llama-server \
 ```
 
 **Actual benefits:**
+
 - **Zero latency, zero token costs** (local inference)
 - **No API quotas**—vibe code with unlimited context windows
 - **Vision + text** in one model locally
@@ -93,6 +97,7 @@ This is legitimately valuable for your workflow if you're building CLI agents or
 ### The Honest Assessment
 
 This is a **solid local inference setup**, but it's not a "breakthrough." You're getting:
+
 - ✅ **Free, uncapped inference** on decent hardware
 - ✅ **Multimodal locally** (genuinely useful)
 - ✅ **Fast serving** via llama.cpp (real optimization)

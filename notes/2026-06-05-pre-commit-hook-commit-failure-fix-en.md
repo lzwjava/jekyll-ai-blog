@@ -23,9 +23,11 @@ When `ww note watch` (or `ww note process`) creates a note and tries to commit i
 4. `git commit -m <message>` runs — pre-commit hooks fire
 5. The `end-of-file-fixer` hook detects a missing trailing newline and silently fixes the file on disk
 6. Now the working tree (fixed) differs from the index (original staging). Git rejects the commit:
+
    ```
    error: Your local changes to the following files would be overwritten by merge
    ```
+
 7. `_git_commit_push()` raises `CalledProcessError`, which propagates up to the `except` block in `process_queue()` (line 105-108) — it prints the error and tells you to retry
 8. The queue entry is already marked done and cleaned (line 115), but the file is stuck: **staged + dirty working tree**
 9. On retry, `_check_uncommitted()` (line 51-55) detects the dirty state and calls `sys.exit(1)` — dead end
@@ -47,10 +49,12 @@ except subprocess.CalledProcessError:
 ```
 
 When the first attempt fails because hooks modified files:
+
 - The `except` block re-runs `git add` on the same files, staging the hook-fixed versions
 - The second `gitmessageai()` call sees a clean diff (or no diff if hooks were the only change), generates a commit message, and commits successfully
 
 This is safe because:
+
 - Only retries once (no infinite loops)
 - If the second attempt also fails, the exception propagates normally
 - Covers all pre-commit hooks, not just `end-of-file-fixer`
@@ -59,6 +63,7 @@ This is safe because:
 ## Immediate Fix
 
 Manually re-staged the stuck note and committed:
+
 ```
 9478ec3f3  docs(notes): add Qwen3.6 unpacked vs hype analysis
 ```

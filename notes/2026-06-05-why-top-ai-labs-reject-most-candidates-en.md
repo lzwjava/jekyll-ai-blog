@@ -18,11 +18,13 @@ Most people who try fail because there's a massive gap between "I know about tra
 ### 1. **You need systems-level thinking, not paper knowledge**
 
 People apply with:
+
 - A GitHub repo of nanoGPT or a fine-tuned LoRA on their laptop
 - Deep knowledge of attention mechanisms and the GPT-2 paper
 - Maybe they trained something on RTX 4090
 
 What actually matters:
+
 - Have you debugged training instability at 1B+ tokens and figured out which hyperparameter was the culprit?
 - Can you reason about data pipeline bottlenecks and write efficient CUDA kernels or know when to use Flash Attention?
 - Have you shipped a model that works *in production* — not "worked in my notebook"?
@@ -33,6 +35,7 @@ Most people haven't hit these problems because they've never trained anything bi
 ### 2. **The projects they're hiring for are specific, not generic**
 
 Anthropic/OpenAI don't hire for "pre-training engineer (general)." They hire for:
+
 - "We need someone who can optimize throughput on our custom tensor ops"
 - "We're scaling to 2T tokens and need someone who's debugged dataset quality at that scale"
 - "We need to reduce VRAM footprint for our training runs"
@@ -42,6 +45,7 @@ If you don't know what problem they're solving, your resume just looks like ever
 ### 3. **The filter is downstream — getting the interview is easy, passing is hard**
 
 If you have:
+
 - 10+ years software engineering + shipped products ✓ (you have this)
 - Published research or strong open-source ML work ✓ (you're building this)
 - Clear evidence you've trained models at scale ✓ (you have this)
@@ -57,6 +61,7 @@ If you can't go *deep* into the systems-level details with concrete examples, yo
 ### 4. **You need evidence of specific technical ownership**
 
 The ones who get offers tend to have:
+
 - **Published work** (paper, blog post, or open-source) that shows depth and taste in what problems matter
 - **Shipped something at scale** — even if it's a small startup, proving you can move from "research" to "deployed system"
 - **Clear technical POV** — not just "I'm good at ML" but "I believe X architecture is better than Y because Z" backed by evidence
@@ -67,9 +72,10 @@ You're actually in a strong position here. Your notes, your model training exper
 
 Brutal truth: a lot comes down to being in the right place when they're actively hiring for your specific skill set, or knowing someone inside who can advocate. But that's actually *easier* to solve than the technical bar — if you're good enough, people talk.
 
-### For you specifically:
+### For you specifically
 
 Your actual barriers are likely:
+
 1. **Visibility** — You're training models and learning in public (good), but Anthropic/OpenAI research/eng folks may not know your work yet. Your notes and GitHub need to be *where they look*.
 2. **Specificity of interest** — Write publicly about what specific pre-training problems interest you. Don't just say "I want to work on AI." Say: "Here's my analysis of why efficient inference at scale matters, and here's my approach to it."
 3. **Proof of scale** — Your MI300X training is real and valuable. Publish details. Blog about it. Show the debugging, the failures, the insights. That's worth more than a polished paper.
@@ -78,6 +84,7 @@ Your actual barriers are likely:
 ### The real filter
 
 They don't reject you because you lack credentials. They reject you because you haven't demonstrated:
+
 - **Deep technical taste** — knowing what problems matter and why
 - **Shipped systems thinking** — not just theory
 - **Specific expertise** — not generic "I like AI"
