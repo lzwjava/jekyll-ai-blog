@@ -26,6 +26,7 @@ Tailscale IP addresses are typically stable within a network, but you **can forc
        sudo tailscale down
        sudo tailscale up
        ```
+
      * **Windows (PowerShell as admin):**
 
        ```powershell

@@ -26,6 +26,7 @@ Tailscale IP 地址通常在网络内保持稳定，但你可以**强制更改**
        sudo tailscale down
        sudo tailscale up
        ```
+
      * **Windows（以管理员身份运行 PowerShell）：**
 
        ```powershell

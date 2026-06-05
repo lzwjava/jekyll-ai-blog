@@ -21,6 +21,7 @@ ETA:       ~409 minutes   (~6.8 hours)
 ```
 
 Key changes since last check (~1 hour ago):
+
 - Steps advanced: 60,841 → 66,141 (+5,300 steps, ~1.15 hr)
 - Progress: 70% → 76% (+6%)
 - Loss: 2.99 → 2.91 (noticeable drop — good sign)
