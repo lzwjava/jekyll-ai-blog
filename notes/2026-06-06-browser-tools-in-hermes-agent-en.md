@@ -12,6 +12,7 @@ type: note
 The browser tools I'm using are built into Hermes Agent (the CLI AI agent you're talking to). Here's how it works:
 
 **Stack:**
+
 - **Browserbase** — the underlying headless browser infrastructure (cloud-hosted Chromium instances). It's stealth-capable (though running without residential proxies in this case).
 - The tools are exposed as functions I can call in sequence:
 
@@ -28,6 +29,7 @@ The browser tools I'm using are built into Hermes Agent (the CLI AI agent you're
 | `browser_back()` | Navigate back |
 
 **Workflow for this login attempt:**
+
 1. `browser_navigate` → loaded `http://192.168.22.1`, got the form structure with ref IDs
 2. `browser_type(@e1, "admin")` → filled username
 3. `browser_type(@e2, "admin")` → filled password

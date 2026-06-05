@@ -12,6 +12,7 @@ type: note
 我正在使用的浏览器工具内置在 Hermes Agent（您正在与之对话的 CLI AI 代理）中。其工作方式如下：
 
 **Stack:**
+
 - **Browserbase** — 底层的无头浏览器基础设施（云端托管的 Chromium 实例）。它具备隐身能力（不过在此场景下未使用住宅代理）。
 - 这些工具以我可按顺序调用的函数形式暴露：
 
@@ -28,6 +29,7 @@ type: note
 | `browser_back()` | 后退导航 |
 
 **Workflow for this login attempt:**
+
 1. `browser_navigate` → 加载 `http://192.168.22.1`，获取带有引用 ID 的表单结构
 2. `browser_type(@e1, "admin")` → 填写用户名
 3. `browser_type(@e2, "admin")` → 填写密码
