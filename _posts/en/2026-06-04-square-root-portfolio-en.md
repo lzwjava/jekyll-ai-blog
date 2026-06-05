@@ -4,7 +4,7 @@ generated: false
 image: true
 lang: en
 layout: post
-title: Square Root Technology Case Collection (平方根科技案例集)
+title: Square Root Technology Case Collection
 translated: false
 ---
 
