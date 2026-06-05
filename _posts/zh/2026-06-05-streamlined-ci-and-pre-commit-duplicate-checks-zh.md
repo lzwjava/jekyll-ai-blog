@@ -16,6 +16,7 @@ type: note
 ## 变更内容
 
 **新增 pre-commit 钩子**（`.pre-commit-config.yaml`）：
+
 ```yaml
 - id: duplicate-notes-check
   name: Duplicate notes check
@@ -26,6 +27,7 @@ type: note
 ```
 
 **保留 CI 单元测试**（`.github/workflows/gh-pages.yml`）：
+
 ```yaml
 - name: Run Unit Tests
   run: python -m unittest discover -s tests/workflow
@@ -40,6 +42,7 @@ type: note
 **CI 仍然运行完整的测试套件**——包括重复检查在内的全部 15 个工作流测试。这是对任何绕过 pre-commit 的内容（直接推送、机器人提交、CI 生成的笔记）的安全网。
 
 **两个层次服务于不同目的：**
+
 - Pre-commit：快速反馈循环，在坏提交离开你的机器之前阻止它们
 - CI：捕获任何漏网之鱼（机器人、直接推送、强制推送）
 

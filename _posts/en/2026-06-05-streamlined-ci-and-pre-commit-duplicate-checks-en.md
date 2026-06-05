@@ -16,6 +16,7 @@ The `notes/` directory had 5 duplicate note pairs — same content, different fi
 ## What changed
 
 **Pre-commit hook added** (`.pre-commit-config.yaml`):
+
 ```yaml
 - id: duplicate-notes-check
   name: Duplicate notes check
@@ -26,6 +27,7 @@ The `notes/` directory had 5 duplicate note pairs — same content, different fi
 ```
 
 **CI unit tests kept** (`.github/workflows/gh-pages.yml`):
+
 ```yaml
 - name: Run Unit Tests
   run: python -m unittest discover -s tests/workflow
@@ -40,6 +42,7 @@ The `notes/` directory had 5 duplicate note pairs — same content, different fi
 **CI still runs the full test suite** — all 15 workflow tests including the duplicate check. This is the safety net for anything that bypasses pre-commit (direct pushes, bot commits, CI-generated notes).
 
 **The two layers serve different purposes:**
+
 - Pre-commit: fast feedback loop, blocks bad commits before they leave your machine
 - CI: catches anything that slips through (bots, direct pushes, force pushes)
 
