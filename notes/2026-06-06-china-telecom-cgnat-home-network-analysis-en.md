@@ -36,7 +36,7 @@ The traceroute proves it:
 
   Hop 1:  192.168.22.1     ← NAT #1: your home router
   Hop 2:  172.16.3.252     ← NAT #2: ISP CGNAT gateway
-  Hop 3:  * * *            (hidden)
+  Hop 3:  ** *            (hidden)
   Hop 4:  14.147.195.133   ← public backbone
   ...
   Hop 9:  14.29.117.178    ← near destination
@@ -51,21 +51,22 @@ The traceroute proves it:
           → Public IP [REDACTED]
 
   Why does China Telecom do this?
-  - IPv4 address exhaustion — not enough public IPs for everyone
-  - They share one public IP across many customers via CGNAT
-  - This is standard for Chinese residential broadband since ~2015
+
+- IPv4 address exhaustion — not enough public IPs for everyone
+- They share one public IP across many customers via CGNAT
+- This is standard for Chinese residential broadband since ~2015
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 WHAT DOUBLE NAT MEANS FOR YOU
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  - No inbound connections: port forwarding on your home router
+- No inbound connections: port forwarding on your home router
     won't work because CGNAT blocks it upstream anyway
-  - No self-hosting from home (web server, SSH, etc.)
-  - VPN hosting from home won't work
-  - P2P games/apps may have issues
-  - Normal browsing, LLM APIs, dev work: totally fine
+- No self-hosting from home (web server, SSH, etc.)
+- VPN hosting from home won't work
+- P2P games/apps may have issues
+- Normal browsing, LLM APIs, dev work: totally fine
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
