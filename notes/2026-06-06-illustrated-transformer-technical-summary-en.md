@@ -28,6 +28,7 @@ The architecture separates into three parts:
 3. **Cross-Attention Bridge** — Decoder queries encoder outputs for relevant context
 
 Each encoder/decoder layer contains two sub-layers:
+
 - **Self-Attention** (position-dependent, parallelizable)
 - **Feed-Forward MLP** (per-position independent, trivially parallelizable)
 
@@ -41,11 +42,13 @@ The math is simple but the implications are profound. For each position:
 4. Output: `context = attention_weights @ V`
 
 In matrix form across all positions:
+
 ```
 Attention(Q, K, V) = softmax(Q @ K^T / sqrt(d_k)) @ V
 ```
 
 Key insights:
+
 - The `1/sqrt(d_k)` scaling stabilizes gradients (prevents extreme softmax values when dot products grow large)
 - You're learning which positions are relevant to each other — no positional inductive bias needed
 - The model processes each word in its own path with dependencies between paths only in self-attention, enabling full parallelization of FFN layers
@@ -55,6 +58,7 @@ Key insights:
 Instead of one attention operation, use 8 (typically) independent attention heads with separate Q/K/V parameters. Each head learns a different projection subspace.
 
 Why this matters:
+
 - It expands the model's ability to focus on different positions and gives the attention layer multiple representation subspaces
 - One head might attend to syntax (nearby tokens), another to semantics (distant antecedents like "it" → "animal"), etc.
 - Concatenate outputs: `concat(head_1, ..., head_h) @ W_o`
@@ -64,12 +68,14 @@ Implementation detail: head dimensions are `d_model / num_heads = 512 / 8 = 64` 
 ### Positional Encoding: Baking in Order
 
 The transformer adds a vector to each input embedding following a specific pattern using sine and cosine functions to inject position information. The formula (paper section 3.5):
+
 ```
 PE(pos, 2i) = sin(pos / 10000^(2i/d_model))
 PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
 ```
 
 This has two advantages:
+
 - **Extrapolates to unseen sequence lengths** — sinusoids generalize beyond training lengths
 - **Relative positions are learnable** — linear transformations of PE can encode relative distances
 
@@ -80,6 +86,7 @@ This has two advantages:
 In the decoder, the self-attention layer is only allowed to attend to earlier positions by masking future positions before softmax. Set future positions to `-inf` so their softmax probability becomes 0.
 
 The decoder has three attention layers per stack layer:
+
 1. **Masked self-attention** (can't peek forward)
 2. **Cross-attention** (attends to encoder outputs)
 3. **FFN**
@@ -89,6 +96,7 @@ At inference, you autoregressively decode: each step feeds the previous output a
 ### Residual Connections & Layer Norm
 
 Each sub-layer has a residual connection around it, followed by layer-normalization. This is critical:
+
 - **Residuals**: Enable deep stacking (gradients flow through skip paths)
 - **LayerNorm**: Stabilizes activations across dimensions
 

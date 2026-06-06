@@ -11,7 +11,7 @@ type: note
 
 ## 问：macOS 版微信如何通过 Command+加号/减号快捷键实现字体缩放？它是否基于 Electron？
 
-## 答：
+## 答
 
 是的，macOS 版微信确实基于 Electron。Command+加号/减号的缩放功能调用的正是 Electron 内置的 **webview 缩放**机制。
 

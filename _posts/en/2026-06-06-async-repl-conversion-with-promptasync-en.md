@@ -34,6 +34,7 @@ The rest of the REPL logic (tool-call loops, token refresh, command handling) re
 2. `test_token_refresh` — the tricky one. `asyncio.run()` internally calls `time.monotonic()` for its shutdown/generator cleanup, which consumed entries from the `side_effect=[0, 99999, ...]` list unpredictably. Replaced the static side_effect list with a callable `_monotonic()` that tracks call count: returns `0` for the first 2 calls (asyncio internals + startup), then `99999` to trigger the token refresh check. This makes the test deterministic regardless of how many internal monotonic calls asyncio makes.
 
 **Pre-commit:**
+
 - First commit attempt failed — ruff fixed an unused `import asyncio` in the test file (it was added but `asyncio` wasn't directly called in the module scope; the async def uses it implicitly).
 - Second attempt passed both ruff and ruff-format.
 

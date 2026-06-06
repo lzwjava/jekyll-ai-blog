@@ -34,6 +34,7 @@ REPL 的其余逻辑（工具调用循环、token 刷新、命令处理）在异
 2. `test_token_refresh` —— 这个比较棘手。`asyncio.run()` 内部会调用 `time.monotonic()` 进行关闭/生成器清理，这会导致从 `side_effect=[0, 99999, ...]` 列表中不可预测地消费条目。将静态的 side_effect 列表替换为可调用对象 `_monotonic()`，它跟踪调用计数：前 2 次调用（asyncio 内部 + 启动）返回 `0`，然后返回 `99999` 以触发 token 刷新检查。这使得测试不受 asyncio 内部调用 monotonic 的次数影响，变得确定。
 
 **Pre-commit：**
+
 - 第一次提交尝试失败——ruff 修复了测试文件中未使用的 `import asyncio`（它被添加了，但 `asyncio` 没有在模块作用域内直接调用；async def 隐式使用了它）。
 - 第二次尝试通过了 ruff 和 ruff-format。
 

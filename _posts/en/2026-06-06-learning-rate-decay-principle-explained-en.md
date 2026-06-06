@@ -18,11 +18,13 @@ Learning rate decay is **optimization landscape management**. Here's the princip
 ### The Two Phases of Training
 
 **Early phase (high LR, e.g., 0.47):**
+
 - Loss surface is rough, full of suboptimal valleys. Large steps help you *traverse* quickly and escape poor local minima.
 - Model is far from convergence, so large updates are safe — you're not risking oscillation around a good solution.
 - The noise from large updates helps exploration.
 
 **Late phase (low LR, e.g., 0.30–0.31):**
+
 - You're entering the convergence basin — close to a decent solution.
 - Large steps now *overshoot* good minima and add noise around the solution.
 - Smaller steps = finer adjustments, settling into lower loss valleys.
@@ -86,6 +88,7 @@ Decay is really about **matching step size to the curvature of the loss landscap
 Modern schedulers (cosine, polynomial) are **soft proxies** for this curvature. A "smarter" approach would use adaptive methods (Adam, AdamW), but those have their own tradeoffs.
 
 For nanoGPT-scale training, **cosine annealing with warmup** is the gold standard because it's:
+
 - Simple (no tuning)
 - Empirically proven (GPT-2 used it)
 - Theoretically sound (covers exploration → exploitation)
