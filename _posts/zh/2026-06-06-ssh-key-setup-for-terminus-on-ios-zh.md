@@ -32,6 +32,7 @@ chmod 600 ~/.ssh/authorized_keys
 ```
 
 首先在工作站上验证：
+
 ```bash
 ssh -i ~/.ssh/terminus_ios user@192.168.1.36  # 应该不需要输入密码
 ```
@@ -39,6 +40,7 @@ ssh -i ~/.ssh/terminus_ios user@192.168.1.36  # 应该不需要输入密码
 ### 第三步：将密钥导入Terminus（iOS）
 
 1. **将私钥复制到iOS**（最简单的方式：通过AirDrop或邮件发送给自己）
+
    ```bash
    cat ~/.ssh/terminus_ios | pbcopy  # macOS：复制到剪贴板
    ```
@@ -66,6 +68,7 @@ ssh user@100.97.x.x
 ```
 
 或者如果Tailscale DNS正常，使用机器名称：
+
 ```
 ssh user@lzw.tail123456.ts.net
 ```
@@ -79,10 +82,13 @@ ssh user@lzw.tail123456.ts.net
 1. **在Terminus主机配置中未选择密钥**——确认“认证”设置为您的密钥而非“密码”
 2. **私钥格式不匹配**——Terminus偏好OpenSSH格式（检查密钥头部：`-----BEGIN OPENSSH PRIVATE KEY-----`）
 3. **服务器未重新加载`authorized_keys`**——SSH守护进程有缓存；必要时重启：
+
    ```bash
    sudo systemctl restart sshd  # Linux
    ```
+
 4. **服务器权限错误**——必须设置为：
+
    ```bash
    chmod 700 ~/.ssh
    chmod 600 ~/.ssh/authorized_keys
@@ -105,6 +111,7 @@ ssh workstation
 ```
 
 **专业提示：** 如果Tailscale IP会变更（尽管通常不会），可在Terminus中设置 `StrictHostKeyChecking=no`：
+
 ```bash
 # 在Terminus高级设置中，添加到SSH配置：
 Host *.tail123456.ts.net

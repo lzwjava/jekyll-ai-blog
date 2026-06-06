@@ -31,11 +31,13 @@ Yes, that's solid. Context:
   - Suggests your model isn't overfitting badly (Chinchilla-optimal ratio helps)
 
 **Related metric — perplexity:**
+
 ```
 perplexity = 2^bpb = 2^0.8658 ≈ 1.84
 ```
 
 This is exceptionally low perplexity for a 286M model with just 5.7B tokens. For comparison:
+
 - GPT-2 (1.5B tokens): ~29 perplexity on WikiText-103
 - Your model: ~1.84 on your validation set (likely a subset of pretraining data)
 

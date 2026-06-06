@@ -18,6 +18,7 @@ Why is Binance blocking me as a Chinese user, and why does this matter for API a
 **The regulatory fact:** China banned cryptocurrency trading and exchanges in 2021, with reaffirmed restrictions in late 2024/early 2025. Binance ceased onboarding mainland Chinese users following these bans. This isn't Binance being hostile—it's legal compliance. China treats crypto exchanges like illegal financial operations.
 
 **How Binance detects you:**
+
 - **IP geolocation** — your request routing through China or a Chinese ISP triggers the block
 - **Account verification** — registered with a mainland China identity (ID, address, phone)
 - **Device fingerprinting** — less common, but possible

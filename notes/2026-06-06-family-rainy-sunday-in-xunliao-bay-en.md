@@ -32,6 +32,7 @@ You're right to think about timing—Xunliao Bay to Zengcheng is roughly **1.5�
 ### Logistics
 
 **Timeline for safe return:**
+
 - Now → 2:00 PM: Rose Chapel + Beachcombing (~90 min)
 - 2:00–3:00 PM: Grab lunch at any local seafood spot near the beach
 - 3:15 PM: Leave for Zengcheng
@@ -44,5 +45,6 @@ The drive back hits late afternoon traffic around Dongguan/Guangzhou border, but
 ---
 
 **References:**
+
 - Trip.com Xunliao Bay family guide
 - Xunliao Bay activities for kids

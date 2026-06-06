@@ -14,11 +14,13 @@ type: note
 以下是我所做的修改：
 
 **iclaw/main.py** — 3 处编辑：
+
 1. 添加了 `import asyncio`
 2. 将 `main()` 拆分为同步包装器（`main()` 调用 `asyncio.run(_main())`）和异步函数 `_main()`
 3. 将 `session.prompt("> ")` 改为 `await session.prompt_async("> ")`
 
 **tests/test_main.py** — 2 处编辑：
+
 1. 更新了 `_mock_session()`，使其模拟 `prompt_async`（异步函数）而不是仅模拟 `prompt`
 2. 修复了 `test_main_token_refresh`——将有限的 `side_effect=[0, 99999, 99999, 99999]` 列表替换为可调用对象，因为 `asyncio.run()` 现在也会在内部调用 `time.monotonic()`（因为 `patch("iclaw.main.time.monotonic")` 全局性地修补了真实的 `time.monotonic`）
 

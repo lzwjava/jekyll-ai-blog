@@ -16,10 +16,12 @@ type: note
 Yes, Google Maps web is solid for general use — better UX than mobile in many cases. But context matters:
 
 **For general navigation/exploration:**
+
 - Works great, fast, good search, real-time traffic, street view
 - Better than mobile if you're at a desk planning something
 
 **For development/automation:**
+
 - Google Maps API (web, mobile, platform) is the standard but expensive (~$7/1000 requests after free tier)
 - If you're building a tool or CLI agent that needs maps, consider:
   - **OpenStreetMap + Leaflet/Folium** — free, self-hosted, good for most use cases
@@ -31,6 +33,7 @@ Yes, Google Maps web is solid for general use — better UX than mobile in many 
 Given you build CLI agents and automation tools — if you're embedding maps in something, skip Google Maps web and go programmatic. The `leaflet.js` + OSM stack is lighter, cheaper, and easier to integrate into agents than calling the Google Maps API repeatedly.
 
 If it's just personal use (directions, exploring), Google Maps web is fine. If it's for tooling, evaluate based on:
+
 - Cost per request
 - API rate limits
 - Whether you need real-time data (traffic, reviews) vs. static map rendering

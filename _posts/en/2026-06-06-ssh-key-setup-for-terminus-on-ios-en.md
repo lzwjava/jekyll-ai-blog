@@ -32,6 +32,7 @@ chmod 600 ~/.ssh/authorized_keys
 ```
 
 Verify on your workstation first:
+
 ```bash
 ssh -i ~/.ssh/terminus_ios user@192.168.1.36  # Should NOT ask password
 ```
@@ -39,6 +40,7 @@ ssh -i ~/.ssh/terminus_ios user@192.168.1.36  # Should NOT ask password
 ### Step 3: Import key into Terminus (iOS)
 
 1. **Copy private key to iOS** (easiest: AirDrop or email to yourself)
+
    ```bash
    cat ~/.ssh/terminus_ios | pbcopy  # macOS: copy to clipboard
    ```
@@ -66,6 +68,7 @@ ssh user@100.97.x.x
 ```
 
 Or if Tailscale DNS works, use the machine name:
+
 ```
 ssh user@lzw.tail123456.ts.net
 ```
@@ -79,10 +82,13 @@ ssh user@lzw.tail123456.ts.net
 1. **Key not selected in Terminus host config** — verify "Auth" is set to your key, not "Password"
 2. **Private key format mismatch** — Terminus prefers OpenSSH format (check key header: `-----BEGIN OPENSSH PRIVATE KEY-----`)
 3. **Server not reloaded `authorized_keys`** — SSH daemon caches; restart if needed:
+
    ```bash
    sudo systemctl restart sshd  # Linux
    ```
+
 4. **Permissions wrong on server** — must be:
+
    ```bash
    chmod 700 ~/.ssh
    chmod 600 ~/.ssh/authorized_keys
@@ -105,6 +111,7 @@ ssh workstation
 ```
 
 **Pro tip:** Set `StrictHostKeyChecking=no` in Terminus if Tailscale IPs rotate (though they shouldn't):
+
 ```bash
 # In Terminus advanced settings, add to SSH config:
 Host *.tail123456.ts.net
