@@ -32,11 +32,13 @@ Your adapter's metal contacts aren't making solid electrical contact with the ca
 ## Quick Fixes (in order of effort)
 
 1. **Clean the contacts** (your adapter plug):
+
    ```bash
    # Use fine sandpaper (400–600 grit) or a pencil eraser to gently scrub
    # the metal barrel/ring of your adapter plug for 30 seconds
    # Remove any black oxidation, then test
    ```
+
    This alone fixes ~60% of these cases.
 
 2. **Clean the car socket**:
@@ -54,6 +56,7 @@ Your adapter's metal contacts aren't making solid electrical contact with the ca
 ## Why You See Flame/Sparks
 
 If you're seeing actual flame or heavy arcing:
+
 - **Stop using it immediately** — this indicates dangerous heat buildup
 - High contact resistance → I²R losses → sparks → potential fire risk
 - The "flame" is likely arcing across degraded contacts
@@ -61,6 +64,7 @@ If you're seeing actual flame or heavy arcing:
 ## Better Long-Term Solution
 
 Skip the lighter socket entirely — use a **hardwired car USB charger** (~$15–30):
+
 - Wired directly to 12V battery (through fuse) — no intermittent contacts
 - Much more reliable for daily use
 - Can deliver higher current (2–3A vs. 1A from lighter socket)

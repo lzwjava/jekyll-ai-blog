@@ -23,6 +23,7 @@ The price range is ¥41-100 per person.
 
 **On "63" and "73":**
 The references to these numbers aren't clear from my search. They likely refer to **per-person pricing tiers** (63元 vs 73元), but I couldn't find specific Huizhou location info or the exact tier breakdown. Can you clarify what "63, 73" reference? Are these:
+
 - Price points for different tiers?
 - Specific seating areas or locations within a Huizhou branch?
 - Something else local context?

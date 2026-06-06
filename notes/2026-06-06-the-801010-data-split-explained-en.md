@@ -66,6 +66,7 @@ for iter in range(max_iters):
 ```
 
 The **validation loss tells you if you're overfitting**:
+
 - If `val_loss >> train_loss`: Model memorized training data, not generalizing
 - If they track together: Good generalization, keep going
 

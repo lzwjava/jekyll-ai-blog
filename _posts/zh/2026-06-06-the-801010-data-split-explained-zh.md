@@ -66,6 +66,7 @@ for iter in range(max_iters):
 ```
 
 **验证损失告诉你是否过拟合**：
+
 - 如果 `val_loss >> train_loss`：模型记住了训练数据，没有泛化能力
 - 如果两者同步下降：泛化良好，继续训练
 
