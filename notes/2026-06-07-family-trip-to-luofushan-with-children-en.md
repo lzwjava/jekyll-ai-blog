@@ -20,26 +20,31 @@ Luofushan is a 5A national scenic area with 432 peaks, 980 waterfalls, and 18 ca
 ### Key Logistics
 
 **Getting there:**
+
 - Bus from Guangzhou Provincial Coach Station costs ¥40 one-way; from Shenzhen it's ¥68 round-trip
 - Driving from Guangzhou/Shenzhen is ~1.5–2 hours
 - Stay **inside the park** at a resort (saves transport time, gives 24/7 park access)
 
 **Ticket pricing:**
+
 - Children 1.2–1.5m tall pay half price; under 1.2m free
 
 ### Where to Stay (Family-Focused)
 
 **Luofushan Jiabaotian International Hotspring Resort** (Boluo)
+
 - Family suites available, large hot spring area with children's water slide, supplies amenities like water and corn
 - Children under 18 stay free with parents
 - Best value for your setup: hot springs + playground = tired 5-year-old
 
 **Luofu Mountain Yulan Resort**
+
 - Located inside the park, offers fish ponds children can feed, wooden plank trails (easy, scenic), pagodas, serene lake walks with 24-hour park access
 
 ### Daily Activities (Age-Appropriate)
 
 **Easy wins for a 5-year-old:**
+
 1. **Fish feeding** at ponds (zero effort, endless entertainment)
 2. **Wooden plank trails** — well-maintained paths with streams and bridges, comfortable for children
 3. **Hot springs** (afternoon, tire them out before dinner)
@@ -47,18 +52,21 @@ Luofushan is a 5A national scenic area with 432 peaks, 980 waterfalls, and 18 ca
 5. **Waterfall viewing** from scenic points (accessible areas, not hiking the full route)
 
 **What to skip:**
+
 - Summiting Feiyun Peak (1,296m) — 4–5 hour journey from base, cable car available but still 2–3 hours climbing after. Your 5-year-old won't make it; neither will your wife.
 - Multi-hour mountain treks
 
 ### Suggested 2–3 Day Itinerary
 
 **Day 1:**
+
 - Arrive midday, check into resort
 - Explore resort grounds + fish feeding
 - Hot springs in evening
 - Rest
 
 **Day 2:**
+
 - Light wooden plank trail walk (45min–1h)
 - Lunch at resort
 - Nap/quiet time
@@ -66,6 +74,7 @@ Luofushan is a 5A national scenic area with 432 peaks, 980 waterfalls, and 18 ca
 - Temple visit if energy permits
 
 **Day 3:**
+
 - Waterfall viewing from scenic points (accessible by short walk, not hiking)
 - Pack up, return home
 
