@@ -42,6 +42,7 @@ Example (13B model, bsz=1, seq=4096):
 ```
 
 This is **linear in sequence length**. Longer context = more memory needed. This is why:
+
 - Flash Attention minimizes this by fusing kernels (no intermediate storage)
 - Gradient checkpointing trades compute for memory (recompute activations, don't store them)
 - You need HBM or large VRAM just to fit standard training
@@ -59,6 +60,7 @@ For 13B model, bsz=32, seq=4096:
 ```
 
 This scales **quadratically** with sequence length and batch size. If you want to serve 128 concurrent users with 8K context, you need massive memory. This is why:
+
 - Quantization (int8/fp8) reduces KV cache size by 50-75%
 - MQA (Multi-Query Attention) reduces KV cache by num_heads factor
 - You're memory-bound, not compute-bound, during inference
@@ -70,6 +72,7 @@ NVIDIA's Unified Memory Architecture (UVA) allows CPU and GPU to access the same
 **Paging is slow.** If activations spill to system RAM, you're moving data over PCIe (16 GB/s on PCIe 4.0) instead of HBM (5.3 TB/s). You lose 300x bandwidth.
 
 However, unified memory is useful for:
+
 - **Grad accumulation workflows** where you move data explicitly with fine control
 - **CPU-GPU heterogeneous compute** (rare in LLM training)
 - **Dynamic memory management** where you don't know sizes ahead of time
@@ -81,12 +84,14 @@ For pure LLM training, you're better off with **explicit memory management** (al
 **MI300X (192 GB HBM3):** You can train larger models in full precision and fit larger batches because of the huge bandwidth and capacity. This is why it's so strong for 760M GPT-2 training—you have headroom.
 
 **RTX 4070 (12 GB VRAM):** You're constrained. For serious work, you need:
+
 - Mixed precision (fp16/tf32)
 - Gradient checkpointing
 - Smaller batch sizes or sequence lengths
 - Quantization (QLoRA for fine-tuning)
 
 **Optimization priorities:**
+
 1. **Minimize data movement** (fused kernels, Flash Attention)
 2. **Use the fastest memory available** (HBM > GDDR6 > system RAM)
 3. **Right data types** (fp8/int8 KV cache for inference, fp16 for training)
