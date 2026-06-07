@@ -34,8 +34,6 @@ The production numbers are calculated in terms of **total volume across the Hopp
 * The **H200** (featuring faster HBM3e memory) entered mass production in mid-2024 and overtook the H100 as the primary flagship.
 * The **H800** was mostly phased out due to updated sanctions and replaced by the heavily altered **H20** model for the Chinese market.
 
-
-
 ### 3. 2025 – 2026 Shift: Decline in Hopper Production
 
 * **The Transition:** By 2025 and moving into 2026, production lines at TSMC heavily shifted away from the Hopper architecture to prioritize NVIDIA's next-generation **Blackwell architecture (B100, B200, GB200)** and subsequent **Blackwell Ultra / GB300** lines.

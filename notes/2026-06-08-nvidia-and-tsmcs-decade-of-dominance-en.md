@@ -20,6 +20,7 @@ You're **partially right**, but the nuance matters—and it reveals why NVIDIA s
 NVIDIA's stranglehold on AI training comes not just from superior hardware, but from 17 years of CUDA ecosystem development. The H100 is a brilliant piece of silicon, but what's *actually* defensible is the ecosystem: PyTorch runs on CUDA, CUDA Graphs, cuDNN, TensorRT, all the libraries that 10M engineers have learned. This is more durable than a chip design, but **it's not invincible**.
 
 The erosion is already visible:
+
 - AMD is developing rack-scale server systems and has gained meaningful ground. Estimates from analysts, including IDC, suggest AMD may now hold approximately 10% of the AI accelerator market, up from low single digits two years ago.
 - Amazon and Google continue to expand custom chip businesses. The combined chip operations at Amazon alone, covering Trainium, Graviton and Nitro, have crossed a US$20 billion annual revenue run rate, growing at triple-digit percentages year over year, with nearly 40% sequential growth in Q1 2026.
 - Custom ASIC shipments from cloud providers are projected to grow 44.6% in 2026, while GPU shipments are expected to grow 16.1%.
@@ -33,6 +34,7 @@ NVIDIA's market share is already falling from 94%+ to 81% of the data center AI 
 TSMC's 62.3% gross margins in Q4 FY2025 reflect this reality of pricing power. Why? TSMC's advanced manufacturing capacity (3nm, 2nm, CoWoS packaging) is fully booked through 2028. Apple alone holds over 50% of early 2nm allocation. Companies must commit to multi-year capacity allocations 18-36 months in advance or get nothing.
 
 The manufacturing moat has multiple layers:
+
 1. **Process yields**: TSMC's yield at the 2nm node is currently around 65%, with an expected increase to 75% once the technology matures. Intel's at 55%, Samsung hasn't shipped 2nm at scale. Yield differences = billions in cost per defect.
 2. **Switching costs**: Chip designs are optimized for TSMC's specific manufacturing process. Moving to a different foundry requires months of redesign work costing millions, plus the risk of lower yields and delayed product launches.
 3. **Capacity lock-in**: TSMC's CoWoS advanced packaging capacity is scaling from roughly 65,000-75,000 wafers per month in 2025 to a target of 120,000-130,000 wafers per month in 2026. Nvidia has secured roughly 60% of CoWoS allocation (c. 595,000 wafers).
@@ -43,6 +45,7 @@ The manufacturing moat has multiple layers:
 - **TSMC's moat (process technology + capacity)** = true hardware moat, nearly impenetrable for 10+ years
 
 TSMC will lead the next decade because:
+
 1. TSMC's rise from 51% to 64% market share in just five years shows how dominant it has become in the foundry space. This growth is largely due to its consistent execution, advanced process technology, and ability to meet the needs of top-tier customers.
 2. TSMC's 2nm wafers cost $30,000+ each—50% more than 3nm's $20,000. In January 2026, the company announced 5-10% price increases across all sub-5nm nodes. Customers accepted these increases without pushback.
 3. Competitors (Samsung, Intel) are 1-2 process nodes behind and closing the gap *very slowly*.

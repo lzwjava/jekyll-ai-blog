@@ -20,6 +20,7 @@ No, it's not too late. But I need to be blunt: the path splits here, and they're
 ## GPU Chip Design vs. FPGA: Two Different Mountains
 
 **GPU chip design** (actual silicon) requires:
+
 - Transistor physics, CMOS fundamentals, circuit design
 - VLSI (very large-scale integration) at 5nm/3nm nodes
 - EDA tools (Cadence, Synopsys) — expensive, multi-million dollar licenses
@@ -29,6 +30,7 @@ No, it's not too late. But I need to be blunt: the path splits here, and they're
 This is the hard path. Modern GPU chips like Apple's M3 integrate over 25 billion transistors on a single die using 3nm processes. The gap between "I understand how GPUs work algorithmically" (which you do) and "I can design GPU logic that synthesizes to gates that route to silicon" is enormous.
 
 **FPGA design** is 10x more accessible:
+
 - FPGA programming now emphasizes high-level synthesis (HLS) — behavioral-level programming in C/C++ rather than low-level RTL
 - You can iterate in weeks on real hardware
 - The Zero-to-ASIC curriculum now includes AI-assisted design tools and allows submission to TinyTapeout for actual chip fabrication

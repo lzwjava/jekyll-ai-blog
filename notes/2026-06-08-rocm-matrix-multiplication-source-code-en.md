@@ -38,7 +38,7 @@ Tensile is a **YAML-driven kernel generator** that creates hand-optimized assemb
 
 **File:** [`library/src/tensile_host.cpp`](https://github.com/ROCm/rocBLAS/blob/develop/library/src/tensile_host.cpp)
 
-#### The dispatch flow:
+#### The dispatch flow
 
 ```
 rocblas_gemm()
@@ -64,7 +64,7 @@ hipError_t hip_status = adapter.launchKernels(
 
 Tensile pre-compiles thousands of tuned kernel variations (for different M, N, K sizes, data types, GPU architectures) into `.co` code object files stored at `/opt/rocm/lib/rocblas/library/`.
 
-#### The Tensile Kernel Writer (Assembly):
+#### The Tensile Kernel Writer (Assembly)
 
 **File:** [`Tensile/KernelWriterAssembly.py`](https://github.com/ROCm/Tensile/blob/develop/Tensile/KernelWriterAssembly.py)
 
@@ -82,6 +82,7 @@ class KernelWriterAssembly(KernelWriter):
 ```
 
 It emits assembly like:
+
 ```asm
 v_mfma_f32_16x16x4f32 v[0:3], v4, v5, v[0:3]  // C += A * B
 ```
@@ -92,9 +93,10 @@ v_mfma_f32_16x16x4f32 v[0:3], v4, v5, v[0:3]  // C += A * B
 
 CK is the **modern, C++ template-based** approach. It uses a tile-based programming model built on top of AMDGPU intrinsics.
 
-#### Three-level hierarchy:
+#### Three-level hierarchy
 
 **Level 1 — Grid-level GEMM (kernel entry):**
+
 ```
 GridGemm
   └─ BlockGemm       (per threadblock)

@@ -33,6 +33,7 @@ It's a Python-based command-line tool (version 0.1.0) that serves as a **Swiss A
 | **🛠️ Other** | Marp presentations, Ghostty terminal control, GitHub Actions triggering, Java/Maven analysis, Cloudflare analytics, and much more |
 
 ### Technical Stack
+
 - **Python ≥ 3.11** with `uv` as the recommended package manager
 - Integrates with **Google Gemini**, **OpenRouter**, **Whisper**, **Tavily**
 - macOS-specific features leverage native frameworks (Quartz, CoreWLAN, CoreText)

@@ -33,6 +33,7 @@ type: note
 | **🛠️ 其他** | Marp 演示文稿、Ghostty 终端控制、GitHub Actions 触发、Java/Maven 分析、Cloudflare 分析等等 |
 
 ### 技术栈
+
 - **Python ≥ 3.11**，推荐使用 `uv` 作为包管理器
 - 集成 **Google Gemini**、**OpenRouter**、**Whisper**、**Tavily**
 - macOS 特有功能利用原生框架（Quartz、CoreWLAN、CoreText）

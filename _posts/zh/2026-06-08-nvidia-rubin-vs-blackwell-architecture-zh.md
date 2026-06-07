@@ -35,9 +35,9 @@ Blackwell与Rubin之间的差异既体现在物理架构上，也体现在它们
 
 Blackwell依赖于在高速互连上平坦地拼接两个相同芯片的单片式设计。Rubin则引入了**多工艺节点的小芯片设计**。
 
-*   核心计算逻辑采用先进的**台积电3nm**架构制造。
-*   强度较低的输入/输出（I/O）逻辑则分离到更具成本效益的**5nm**小芯片上。
-*   这种混合节点策略在最重要的地方最大化计算密度，同时控制整体制造成本。
+* 核心计算逻辑采用先进的**台积电3nm**架构制造。
+* 强度较低的输入/输出（I/O）逻辑则分离到更具成本效益的**5nm**小芯片上。
+* 这种混合节点策略在最重要的地方最大化计算密度，同时控制整体制造成本。
 
 ---
 
@@ -65,12 +65,12 @@ Blackwell使用了成熟的HBM3e内存。Rubin是首个采用**HBM4**的平台�
 
 这些差异不仅限于硅片本身，还延伸到了数据中心的物理空间。
 
-*   **功耗墙：** 标准Blackwell机架（NVL72）功耗高达120kW。相应的**Vera Rubin NVL72**机架预计功耗将翻倍。
-*   **45°C热水冷却：** 由于风扇无法再冷却如此密集的系统，Rubin引入了单相直接液体冷却（DLC）技术，该技术可用高达**45°C（113°F）**的温水运行。这完全消除了对大型机械制冷机的需求，使Rubin机架内部完全无风扇、无管道——但这意味着Rubin*无法*部署在传统的风冷数据中心中。
+* **功耗墙：** 标准Blackwell机架（NVL72）功耗高达120kW。相应的**Vera Rubin NVL72**机架预计功耗将翻倍。
+* **45°C热水冷却：** 由于风扇无法再冷却如此密集的系统，Rubin引入了单相直接液体冷却（DLC）技术，该技术可用高达**45°C（113°F）**的温水运行。这完全消除了对大型机械制冷机的需求，使Rubin机架内部完全无风扇、无管道——但这意味着Rubin*无法*部署在传统的风冷数据中心中。
 
 参考文献：
 
-*   [NVIDIA Rubin架构深度解析：5000亿美元AI超级周期 - ServerMO](https://www.servermo.com/blogs/nvidia-rubin-gpu-architecture-guide/)
-*   [NVIDIA Rubin GPU：工艺与封装技术的进步 - Semicon](https://www.semicone.com/article-179.html)
-*   [受封装限制 NVIDIA Rubin Ultra被视为坚持双芯片设计 - TrendForce](https://www.trendforce.com/news/2026/04/01/news-nvidias-rubin-ultra-seen-sticking-to-dual-die-design-on-packaging-constraints-tsmc-3nm-demand-intact/)
-*   [NVIDIA Vera Rubin全面量产 为全球代理式AI工厂提供动力 - NVIDIA新闻](https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory)
+* [NVIDIA Rubin架构深度解析：5000亿美元AI超级周期 - ServerMO](https://www.servermo.com/blogs/nvidia-rubin-gpu-architecture-guide/)
+* [NVIDIA Rubin GPU：工艺与封装技术的进步 - Semicon](https://www.semicone.com/article-179.html)
+* [受封装限制 NVIDIA Rubin Ultra被视为坚持双芯片设计 - TrendForce](https://www.trendforce.com/news/2026/04/01/news-nvidias-rubin-ultra-seen-sticking-to-dual-die-design-on-packaging-constraints-tsmc-3nm-demand-intact/)
+* [NVIDIA Vera Rubin全面量产 为全球代理式AI工厂提供动力 - NVIDIA新闻](https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory)

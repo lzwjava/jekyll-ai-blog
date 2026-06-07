@@ -38,7 +38,7 @@ Tensile是一个**YAML驱动的内核生成器**，用于创建手工优化的�
 
 **文件：** [`library/src/tensile_host.cpp`](https://github.com/ROCm/rocBLAS/blob/develop/library/src/tensile_host.cpp)
 
-#### 分发流程：
+#### 分发流程
 
 ```
 rocblas_gemm()
@@ -64,7 +64,7 @@ hipError_t hip_status = adapter.launchKernels(
 
 Tensile预编译了数千个经过调优的内核变体（针对不同的M、N、K大小、数据类型、GPU架构），并将其存储为`.co`代码对象文件，位于`/opt/rocm/lib/rocblas/library/`。
 
-#### Tensile内核编写器（汇编）：
+#### Tensile内核编写器（汇编）
 
 **文件：** [`Tensile/KernelWriterAssembly.py`](https://github.com/ROCm/Tensile/blob/develop/Tensile/KernelWriterAssembly.py)
 
@@ -82,6 +82,7 @@ class KernelWriterAssembly(KernelWriter):
 ```
 
 它会生成类似以下的汇编代码：
+
 ```asm
 v_mfma_f32_16x16x4f32 v[0:3], v4, v5, v[0:3]  // C += A * B
 ```
@@ -92,9 +93,10 @@ v_mfma_f32_16x16x4f32 v[0:3], v4, v5, v[0:3]  // C += A * B
 
 CK是一种**基于现代C++模板**的方法。它采用基于tile的编程模型，构建在AMDGPU内建函数之上。
 
-#### 三层层次结构：
+#### 三层层次结构
 
 **第一层 — 网格级GEMM（内核入口）：**
+
 ```
 GridGemm
   └─ BlockGemm       （每个线程块）
