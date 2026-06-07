@@ -21,8 +21,8 @@ type: note
 
 当前系统 crontab
 ──────────────────────
-*/2* ** */opt/homebrew/bin/ww appearance smart-auto
-0* ** * /opt/homebrew/bin/ww projects update
+*/2* ***/opt/homebrew/bin/ww appearance smart-auto
+0*** * /opt/homebrew/bin/ww projects update
 
 `ww appearance smart-auto` 工作原理
 ─────────────────────────────────────

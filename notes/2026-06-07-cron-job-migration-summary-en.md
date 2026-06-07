@@ -21,8 +21,8 @@ Comprehensive Summary:
 
   CURRENT SYSTEM CRONTAB
   ──────────────────────
-  */2* ** */opt/homebrew/bin/ww appearance smart-auto
-  0* ** * /opt/homebrew/bin/ww projects update
+  */2* ***/opt/homebrew/bin/ww appearance smart-auto
+  0*** * /opt/homebrew/bin/ww projects update
 
   HOW `ww appearance smart-auto` WORKS
   ─────────────────────────────────────
