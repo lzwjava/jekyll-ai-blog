@@ -39,6 +39,6 @@ Meta CEO Mark Zuckerberg 曾与 Gross 及前 GitHub CEO Nat Friedman 进行深�
 
 参考文献：
 
-- https://finance.yahoo.com/news/ilya-sutskever-lead-safe-superintelligence-172907379.html
-- https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.
-- https://www.inc.com/ben-sherry/openai-co-founder-ilya-sutskever-safe-superintelligence-3-billion-no-product/91271937
+- <https://finance.yahoo.com/news/ilya-sutskever-lead-safe-superintelligence-172907379.html>
+- <https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc>.
+- <https://www.inc.com/ben-sherry/openai-co-founder-ilya-sutskever-safe-superintelligence-3-billion-no-product/91271937>

@@ -21,6 +21,7 @@ type: note
    - *Example:* "We anticipated the server traffic spike and scaled accordingly."
 
 **In context:**
+
 - "The anticipated performance improvement came from optimizing the attention mechanism."
 - "We anticipated GPU memory constraints and used gradient checkpointing."
 

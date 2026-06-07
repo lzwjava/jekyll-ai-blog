@@ -18,6 +18,7 @@ Current LLMs are not AGI—and calling them that conflates capability with gener
 ## What transformers are actually good at
 
 **Next-token prediction at scale.** That's it. Extremely good at it. With enough parameters, data, and compute, they learn to:
+
 - Model language structure and encode semantic relationships
 - Pattern-match across domains with some transfer capability
 - Follow instructions and engage in multi-step reasoning (via in-context prompting)
@@ -54,6 +55,7 @@ Could scaling to 10^15 tokens change things? *Maybe*—but it's pure speculation
 ## What's actually needed for AGI
 
 An architecture that combines:
+
 - **Persistent memory** (not just context window)
 - **Goal representation** (intrinsic objectives, not just next-token loss)
 - **Causal models** (intervention, counterfactuals, planning)
@@ -65,6 +67,7 @@ Current transformers have *none of these*. DeepSeek MoE and Claude Opus are incr
 ## The honest framing
 
 LLMs are:
+
 - ✅ Remarkable at language understanding and generation
 - ✅ Useful as tools (retrieval, summarization, code generation)
 - ✅ Good enough to be economically significant

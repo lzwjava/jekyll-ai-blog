@@ -21,6 +21,7 @@ type: note
    - *示例：*“我们预见到服务器流量高峰，并相应地进行了扩容。”
 
 **在上下文中：**
+
 - “预期的性能提升来自于对 attention mechanism 的优化。”
 - “我们预见到了 GPU memory 的限制，并使用了 gradient checkpointing。”
 

@@ -39,6 +39,6 @@ This positions SSI differently from both OpenAI (product-first, commercial) and 
 
 References:
 
-- https://finance.yahoo.com/news/ilya-sutskever-lead-safe-superintelligence-172907379.html
-- https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.
-- https://www.inc.com/ben-sherry/openai-co-founder-ilya-sutskever-safe-superintelligence-3-billion-no-product/91271937
+- <https://finance.yahoo.com/news/ilya-sutskever-lead-safe-superintelligence-172907379.html>
+- <https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc>.
+- <https://www.inc.com/ben-sherry/openai-co-founder-ilya-sutskever-safe-superintelligence-3-billion-no-product/91271937>

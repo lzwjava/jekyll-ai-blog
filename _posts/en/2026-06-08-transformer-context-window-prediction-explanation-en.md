@@ -27,7 +27,6 @@ The "context size" refers to the maximum number of tokens the model can "see" or
 * ...
 * Position 1024 (seeing tokens 1 through 1024) predicts token **1025**.
 
-
 * **During Inference (Generation):** If you provide a prompt of 1024 tokens, the model uses the hidden state of that 1024th token to generate the next one. Once that new token is generated, the window must "slide" or start dropping the oldest tokens because it cannot exceed its hard limit of 1024.
 
 ### 3. Summary of Input/Output
