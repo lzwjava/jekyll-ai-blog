@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 title: Neural Network, Transformer and GPT
@@ -11,26 +11,43 @@ type: post
 
 ### Table of Contents
 
-1. [How I Learned the KQV Mechanism in Transformers](#how-i-learned-the-kqv-mechanism-in-transformers)
+1. [AMD MI300X and Continued Transformer Learning](#amd-mi300x-and-continued-transformer-learning)
+   - Train GPT-2 on RTX 4070 and AMD MI300X
+   - Debugging in PyCharm
+
+2. [How I Learned the KQV Mechanism in Transformers](#how-i-learned-the-kqv-mechanism-in-transformers)
    - Query, Key, Value matrices represent token interactions
    - Understanding requires knowing dimensions and shapes
    - Initial concepts become clearer over time
    - AI era provides abundant learning resources
    - Inspiring stories motivate continued learning
 
-2. [From Neural Network to GPT](#from-neural-network-to-gpt)
+3. [From Neural Network to GPT](#from-neural-network-to-gpt)
    - Replicate neural networks from scratch for understanding
    - Transformers process text via embedding and encoding
    - Self-attention calculates similarities between words
    - Watch foundational lectures and read code
    - Follow curiosity through projects and papers
 
-3. [How Neural Network Works](#how-neural-network-works)
+4. [How Neural Network Works](#how-neural-network-works)
    - Backpropagation algorithm updates weights and biases
    - Input data activates through network layers
    - Feedforward computes layer outputs via sigmoid
    - Error calculation guides learning adjustments
    - Dimensional understanding is crucial for comprehension
+
+
+
+## AMD MI300X and Continued Transformer Learning
+
+*2026.06.08*
+
+- Started training GPT-2 more extensively on the RTX 4070 and AMD MI300X.
+
+- Debugging the training pipeline in PyCharm.
+
+![Debugging GPT-2 training in PyCharm](/assets/images/kqv-transformers/pycharm-debug-2026-06-08.jpg)
+
 
 ## How I Learned the KQV Mechanism in Transformers
 
