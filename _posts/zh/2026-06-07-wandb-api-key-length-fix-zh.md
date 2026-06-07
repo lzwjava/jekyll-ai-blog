@@ -26,6 +26,7 @@ if config.tracker == "wandb":
 ```
 
 WandB 按以下优先级读取你的 API key：
+
 1. `WANDB_API_KEY` 环境变量
 2. `~/.netrc` 文件（来自 `wandb login`）
 3. `.wandb` 本地目录
@@ -33,6 +34,7 @@ WandB 按以下优先级读取你的 API key：
 ## 48 字符问题
 
 **WandB 在 2024 年中左右更改了 API key 格式：**
+
 - **旧格式：** 40 字符十六进制字符串
 - **新格式：** 48 字符字母数字字符串（看起来像 `wab_<...>`）
 
@@ -41,6 +43,7 @@ WandB 按以下优先级读取你的 API key：
 ## 修复方法（三步）
 
 **步骤 1：重新生成 key**
+
 ```bash
 # 退出旧会话
 wandb logout
@@ -49,15 +52,17 @@ wandb logout
 wandb login
 ```
 
-粘贴来自 https://wandb.ai/authorize 的新 key（应为 48 字符，以 `wab_` 开头）。
+粘贴来自 <https://wandb.ai/authorize> 的新 key（应为 48 字符，以 `wab_` 开头）。
 
 **步骤 2：确认已保存**
+
 ```bash
 cat ~/.netrc | grep wandb
 # 应显示类似：password wab_xxxxxxxxxxxxxxxxxxxxx
 ```
 
 **步骤 3：或通过环境变量设置**
+
 ```bash
 export WANDB_API_KEY="wab_xxxxxxxxxxxxxxxxxxxxx"
 

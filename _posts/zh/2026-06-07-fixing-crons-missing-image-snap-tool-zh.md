@@ -20,12 +20,14 @@ type: note
 **快速修复方案 — 任选其一：**
 
 1. 在 crontab 中添加 PATH：
+
 ```
 PATH=/opt/homebrew/bin:/usr/bin:/bin
 */2 * * * * /opt/homebrew/bin/ww appearance smart-auto
 ```
 
 2. 或者将 imagesnap 符号链接到 cron 可访问的路径：
+
 ```
 sudo ln -sf /opt/homebrew/bin/imagesnap /usr/local/bin/imagesnap
 ```

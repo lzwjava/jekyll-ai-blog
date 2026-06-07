@@ -56,6 +56,7 @@ TRAINING HYPERPARAMS
 ============================================================
 PHASE 1: 0 → 130,000 steps (COMPLETED)
 ============================================================
+
   Run name:      rtx4070-d12-130k
   Started from:  scratch (first run 0-87k, resumed 87k-130k)
   Steps:         130,000
@@ -77,6 +78,7 @@ PHASE 1: 0 → 130,000 steps (COMPLETED)
 ============================================================
 PHASE 2: 130,000 → 200,000 steps (RUNNING)
 ============================================================
+
   Run name:      rtx4070-d12-200k
   Resumed from:  step 130,000 checkpoint
   Steps:         70,000 remaining
@@ -91,6 +93,7 @@ PHASE 2: 130,000 → 200,000 steps (RUNNING)
 ============================================================
 TOKEN BUDGET TOTALS
 ============================================================
+
   Phase 1:     8.5B tokens
   Phase 2:     4.6B tokens
   Combined:   13.1B tokens
@@ -102,6 +105,7 @@ TOKEN BUDGET TOTALS
 ============================================================
 TIMELINE
 ============================================================
+
   Phase 1 start:  ~Jun 4 (estimated from checkpoint dates)
   Phase 1 end:    Jun 7, 03:21 (42.5 hours)
   Phase 2 start:  Jun 7, 18:08

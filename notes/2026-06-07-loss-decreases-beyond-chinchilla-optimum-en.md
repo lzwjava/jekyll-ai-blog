@@ -24,6 +24,7 @@ You're conflating two different things: **compute-optimal scaling** (Chinchilla)
 Your model is still losing because:
 
 #### 1. **Excess Model Capacity**
+
 Your 286M model with 12 layers × 6 heads hasn't saturated. The learning curve looks roughly like:
 
 ```
@@ -35,6 +36,7 @@ where `b ≈ 0.08-0.10` for this scale (empirically, not analytically exact). Th
 The validation bpb at resume (0.810) tells you the model still has generalization capacity. If it was overfitting, val bpb would spike above train loss. It hasn't.
 
 #### 2. **Data Diversity >> Model Capacity**
+
 With BPE vocab (32K tokens), a 2K context window, and 8.5B raw tokens, even fully shuffled, the model encounters an effectively infinite distribution of patterns. You're training on:
 
 ```
@@ -44,7 +46,9 @@ unique patterns ≈ (vocab_size)^(context_length) >> 8.5B tokens
 So the model is *still exploring* the data manifold. It's not "running out of things to learn."
 
 #### 3. **Learning Rate Schedule is Still Active**
+
 Look at your schedule:
+
 - Phase 1: Warmup (40 steps), then cosine decay
 - Final LR at 130k: **0.20** (20% of initial 0.02 for matrices)
 - Phase 2: Entering warmdown at 65% of 200k = 130k steps
@@ -52,11 +56,13 @@ Look at your schedule:
 You're still in the **main cosine decay** (not yet at the long tail). The model is actively optimizing with meaningful gradient signal. Check your actual LR curve — the model's still training aggressively.
 
 #### 4. **Batch Size Masks Gradient Noise**
+
 With batch_size = 65,536 tokens (very large), gradient noise is low. The model sees cleaner optimization directions. Smaller batches would plateau earlier due to noise floor.
 
 ### Why Overfitting Hasn't Kicked In Yet
 
 Overfitting typically emerges when:
+
 1. Val loss > train loss significantly
 2. Validation metrics plateau while train loss keeps dropping
 3. You reach a hard data repetition limit
@@ -73,6 +79,7 @@ None of that's happening. Your CORE metric (0.1916 → 0.1932) and val bpb sugge
 4. **Batch size floor** — gradient noise dominates
 
 Given your setup, I'd expect:
+
 - Phase 2 loss: 2.57 → ~2.45-2.50 (diminishing returns, not dramatic drops)
 - Val bpb: ~0.78-0.82 (stable)
 - By step 200k: loss plateaus, not because you're "overtrained," but because LR is negligible
@@ -86,6 +93,7 @@ Chinchilla says: **"Bigger model + less data = more efficient use of compute for
 But it doesn't say: **"Stop training past 20:1; loss won't improve."**
 
 You're training at 45:1 because:
+
 - You want a **smaller, cheaper-to-serve model** (286M is production-grade for edge/mobile)
 - You have GPU capacity to throw at it
 - Loss still decreasing = return on investment is positive

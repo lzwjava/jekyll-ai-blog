@@ -13,6 +13,7 @@ type: note
 
 我们的工作内容
 ───────────
+
 1. 创建了一个 Hermes 定时任务，每 2 分钟执行 `ww appearance smart-auto`
 2. 将 `weekly-repo-update` 的调度从“每周日早上9点”改为“每小时”
 3. 将两个任务从 Hermes 内部调度器迁移到 macOS 系统 crontab
@@ -20,8 +21,8 @@ type: note
 
 当前系统 crontab
 ──────────────────────
-*/2 * * * * /opt/homebrew/bin/ww appearance smart-auto
-0 * * * * /opt/homebrew/bin/ww projects update
+*/2* ** */opt/homebrew/bin/ww appearance smart-auto
+0* ** * /opt/homebrew/bin/ww projects update
 
 `ww appearance smart-auto` 工作原理
 ─────────────────────────────────────
@@ -49,6 +50,7 @@ type: note
 
 Hermes vs 系统 crontab
 ─────────────────────
+
 - Hermes 定时任务：内部调度器，存储在 ~/.hermes/，通过 agent 管理
 - 系统 crontab：macOS crond，通过 `crontab -l` / `crontab -e` 管理
 - 两者相互独立 — Hermes 任务不会出现在系统 crontab 中

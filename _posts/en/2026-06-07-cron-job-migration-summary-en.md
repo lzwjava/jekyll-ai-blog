@@ -13,6 +13,7 @@ Comprehensive Summary:
 
   WHAT WE DID
   ───────────
+
   1. Created a Hermes cron job to run `ww appearance smart-auto` every 2 minutes
   2. Updated `weekly-repo-update` schedule from "every Sunday 9AM" to "every hour"
   3. Migrated both jobs from Hermes internal scheduler to macOS system crontab
@@ -20,8 +21,8 @@ Comprehensive Summary:
 
   CURRENT SYSTEM CRONTAB
   ──────────────────────
-  */2 * * * * /opt/homebrew/bin/ww appearance smart-auto
-  0 * * * * /opt/homebrew/bin/ww projects update
+  */2* ** */opt/homebrew/bin/ww appearance smart-auto
+  0* ** * /opt/homebrew/bin/ww projects update
 
   HOW `ww appearance smart-auto` WORKS
   ─────────────────────────────────────
@@ -50,10 +51,11 @@ Comprehensive Summary:
 
   HERMES vs SYSTEM CRON
   ─────────────────────
-  - Hermes cron: internal scheduler, stored in ~/.hermes/, managed via agent
-  - System cron: macOS crond, managed via `crontab -l` / `crontab -e`
-  - Both are independent — Hermes jobs don't appear in system crontab
-  - We moved to system cron for transparency and direct CLI access
+
+- Hermes cron: internal scheduler, stored in ~/.hermes/, managed via agent
+- System cron: macOS crond, managed via `crontab -l` / `crontab -e`
+- Both are independent — Hermes jobs don't appear in system crontab
+- We moved to system cron for transparency and direct CLI access
 
   VERIFY / MANAGE
   ───────────────

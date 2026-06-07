@@ -62,6 +62,7 @@ sed -i 's/\\033\\[33m/\\033[36m/g' <文件>  # 黄色 → 青色
 **这是什么机器？** 这是 MacBook Air M2 日常使用机。快速修复：在 Hermes 的 shell 别名中切换 `NO_COLOR=1`，或为终端工作将 Warp 切换到深色模式。
 
 **快速测试：**
+
 ```bash
 NO_COLOR=1 hermes run
 # 如果有效，则添加到 ~/.zshrc 或 ~/.bashrc：

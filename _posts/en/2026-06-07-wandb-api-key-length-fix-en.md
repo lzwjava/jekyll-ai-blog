@@ -26,6 +26,7 @@ if config.tracker == "wandb":
 ```
 
 WandB reads your API key from (in order of precedence):
+
 1. `WANDB_API_KEY` environment variable
 2. `~/.netrc` file (from `wandb login`)
 3. `.wandb` local directory
@@ -33,6 +34,7 @@ WandB reads your API key from (in order of precedence):
 ## The 48-char issue
 
 **WandB changed API key format around mid-2024:**
+
 - **Old format:** 40-character hex string
 - **New format:** 48-character alphanumeric string (looks like `wab_<...>`)
 
@@ -41,6 +43,7 @@ If WandB is complaining about 48 chars, it expects the **new format**, meaning y
 ## Fix it (3 steps)
 
 **Step 1: Regenerate your key**
+
 ```bash
 # Log out of old session
 wandb logout
@@ -49,15 +52,17 @@ wandb logout
 wandb login
 ```
 
-Paste your new key from https://wandb.ai/authorize (should be 48 chars, starting with `wab_`).
+Paste your new key from <https://wandb.ai/authorize> (should be 48 chars, starting with `wab_`).
 
 **Step 2: Verify it's saved**
+
 ```bash
 cat ~/.netrc | grep wandb
 # Should show something like: password wab_xxxxxxxxxxxxxxxxxxxxx
 ```
 
 **Step 3: Or set via env variable**
+
 ```bash
 export WANDB_API_KEY="wab_xxxxxxxxxxxxxxxxxxxxx"
 

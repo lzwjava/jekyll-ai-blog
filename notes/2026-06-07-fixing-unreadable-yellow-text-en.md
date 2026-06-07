@@ -62,6 +62,7 @@ sed -i 's/\\033\\[33m/\\033[36m/g' <file>  # yellow → cyan
 **Which machine?** This is a MacBook Air M2 daily driver issue. Quick fix: toggle `NO_COLOR=1` in your shell alias for Hermes, or switch Warp to dark mode for terminal work.
 
 **Quick test:**
+
 ```bash
 NO_COLOR=1 hermes run
 # If that works, add to ~/.zshrc or ~/.bashrc:

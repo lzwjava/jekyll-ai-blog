@@ -20,12 +20,14 @@ The cron mail at 17:24:42 shows the full traceback. Every 2-minute run is hittin
 **Quick fix — either:**
 
 1. Add PATH to your crontab:
+
 ```
 PATH=/opt/homebrew/bin:/usr/bin:/bin
 */2 * * * * /opt/homebrew/bin/ww appearance smart-auto
 ```
 
 2. Or symlink imagesnap into a cron-visible path:
+
 ```
 sudo ln -sf /opt/homebrew/bin/imagesnap /usr/local/bin/imagesnap
 ```
