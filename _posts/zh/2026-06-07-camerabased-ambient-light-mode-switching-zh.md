@@ -182,6 +182,7 @@ if __name__ == "__main__":
 ```
 
 复制到 `~/Library/LaunchAgents/com.lzwjava.ambientlight.plist`，然后：
+
 ```bash
 launchctl load ~/Library/LaunchAgents/com.lzwjava.ambientlight.plist
 ```

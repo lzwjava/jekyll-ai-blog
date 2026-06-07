@@ -182,6 +182,7 @@ Build a **background daemon** (LaunchAgent) running the Swift code above. Compil
 ```
 
 Copy to `~/Library/LaunchAgents/com.lzwjava.ambientlight.plist`, then:
+
 ```bash
 launchctl load ~/Library/LaunchAgents/com.lzwjava.ambientlight.plist
 ```

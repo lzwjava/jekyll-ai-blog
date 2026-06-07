@@ -31,6 +31,7 @@ For non-relativistic speeds (car highway speeds << c), this linearizes to:
 ```
 
 **Frequency shift examples at 100 km/h (27.8 m/s):**
+
 - FM radio (88 MHz): ~8.2 kHz shift
 - WiFi 5 GHz: ~463 Hz shift
 - Cellular 2.4 GHz: ~223 Hz shift
@@ -40,18 +41,21 @@ FM radio is best — largest observable shift.
 ## Feasibility: FM Radio > WiFi > Cellular
 
 **FM (best option):**
+
 - High frequency (88-108 MHz) = larger Doppler shift
 - Stationary towers = known reference
 - Freely available signals
 - Shift is measurable with RTL-SDR dongle (~$25) or professional SDR
 
 **WiFi (harder):**
+
 - Smaller shift (463 Hz at highway speeds)
 - Requires locking onto a single AP
 - Many moving WiFi sources → signal confusion
 - Need precise frequency measurement
 
 **Cellular (worst):**
+
 - Very small shift, noisy channels
 - Harder to isolate single tower
 
