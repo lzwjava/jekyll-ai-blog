@@ -18,12 +18,14 @@ Exactly. You've nailed the **core operational principle across all capital-inten
 ## The Scaling Mistake Pattern
 
 **Han Dong's error:**
+
 - Built 300M yuan supply chain
 - Tried to prove it at scale (full Egypt ops)
 - One execution failure → dump 80M yuan inventory instead of pausing and diagnosing
 - Never ran the "small stable experiment" long enough to catch failure modes before going big
 
 **LLM startup equivalent:**
+
 - Raise 50M funding
 - Immediately spin up 10,000 H100s to train "our proprietary 70B model"
 - Hit a data pipeline bug at week 3 → waste 5M on compute for corrupted runs

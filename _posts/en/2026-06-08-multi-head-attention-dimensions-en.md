@@ -25,15 +25,19 @@ Correct mapping. Given `v = (1, 12, 2, 64)`:
 **Why the reshape matters:**
 
 Original shape before the view: `(B, T, C)` = `(1, 2, 768)`
+
 - C is the full embedding dimension (12 heads × 64 dims = 768)
 
 After `view(B, T, self.n_head, C // self.n_head)`: `(1, 2, 12, 64)`
+
 - Splits C into separate heads
 
 After `transpose(1, 2)`: `(1, 12, 2, 64)` = `(B, nh, T, hs)`
+
 - Moves head dimension forward so attention happens **per head in parallel**
 
 **The computation that follows:**
+
 ```python
 # Attention scores: (B, nh, T, T)
 scores = (q @ k.transpose(-2, -1)) * (hs ** -0.5)

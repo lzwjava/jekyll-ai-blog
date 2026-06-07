@@ -36,8 +36,6 @@ type: post
    - Error calculation guides learning adjustments
    - Dimensional understanding is crucial for comprehension
 
-
-
 ## AMD MI300X and Continued Transformer Learning
 
 *2026.06.08*
@@ -47,7 +45,6 @@ type: post
 - Debugging the training pipeline in PyCharm.
 
 ![Debugging GPT-2 training in PyCharm](/assets/images/kqv-transformers/pycharm-debug-2026-06-08.jpg)
-
 
 ## How I Learned the KQV Mechanism in Transformers
 

@@ -36,8 +36,6 @@ type: post
    - 误差计算指导学习调整
    - 维度理解至关重要
 
-
-
 ## AMD MI300X 与继续学习 Transformer
 
 *2026.06.08*
@@ -47,7 +45,6 @@ type: post
 - 在 PyCharm 中调试训练流程。
 
 ![在 PyCharm 中调试 GPT-2 训练](/assets/images/kqv-transformers/pycharm-debug-2026-06-08.jpg)
-
 
 ## 我如何理解 Transformer 中的 KQV 机制
 

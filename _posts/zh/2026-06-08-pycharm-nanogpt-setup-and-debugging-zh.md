@@ -20,15 +20,18 @@ type: note
    - 名称：`sample-gpt2`
    - 脚本路径：`sample.py`
    - 参数：
+
      ```
      --init_from=gpt2 --device=mps --dtype=float32 --num_samples=1 --max_new_tokens=150 --start="Hello world"
      ```
+
    - 工作目录：`/Users/lzwjava/projects/nanoGPT`
 
 4. 为 Shakespeare 模型创建另一个配置：
    - 名称：`sample-shakespeare`
    - 脚本路径：`sample.py`
    - 参数：
+
      ```
      --out_dir=out-shakespeare-char --device=mps --dtype=float32 --num_samples=1 --max_new_tokens=200 --start="ROMEO:"
      ```
@@ -46,8 +49,9 @@ type: note
    - Alt+单击变量：求值表达式
 
 对于 `train.py`，创建如下配置：
-   - 脚本路径：`train.py`
-   - 参数：`config/train_shakespeare_char.py --device=mps`
-   - 这会训练字符级模型 — 在训练循环的 `train.py` 约第175行（`for X, Y in loader:`）设置断点，以逐步观察损失下降。
+
+- 脚本路径：`train.py`
+- 参数：`config/train_shakespeare_char.py --device=mps`
+- 这会训练字符级模型 — 在训练循环的 `train.py` 约第175行（`for X, Y in loader:`）设置断点，以逐步观察损失下降。
 
 就是这样。PyCharm 的调试器配合 MPS 张量可以正常工作 — 你可以在 Variables 面板中检查形状、数值和梯度。

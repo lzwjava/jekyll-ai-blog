@@ -34,6 +34,7 @@ MPS BENCHMARK
 ```
 
 Key notes for running on Mac:
+
 - Use `python3.14` (has torch 2.11.0 with MPS) or `python3.13` (torch 2.6.0)
 - `--device=mps --dtype=float32` (MPS doesn't support bfloat16 well)
 - The model.py has debug prints enabled — you'll see tensor shapes for every layer during forward pass. Handy for learning, noisy for production.

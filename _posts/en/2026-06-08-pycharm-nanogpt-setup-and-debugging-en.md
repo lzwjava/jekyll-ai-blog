@@ -20,15 +20,18 @@ Here's how to set it up in PyCharm:
    - Name: `sample-gpt2`
    - Script path: `sample.py`
    - Parameters:
+
      ```
      --init_from=gpt2 --device=mps --dtype=float32 --num_samples=1 --max_new_tokens=150 --start="Hello world"
      ```
+
    - Working directory: `/Users/lzwjava/projects/nanoGPT`
 
 4. Create another for the Shakespeare model:
    - Name: `sample-shakespeare`
    - Script path: `sample.py`
    - Parameters:
+
      ```
      --out_dir=out-shakespeare-char --device=mps --dtype=float32 --num_samples=1 --max_new_tokens=200 --start="ROMEO:"
      ```
@@ -46,8 +49,9 @@ Here's how to set it up in PyCharm:
    - Alt+Click on variable: evaluate expression
 
 For `train.py`, create a config like:
-   - Script path: `train.py`
-   - Parameters: `config/train_shakespeare_char.py --device=mps`
-   - This trains the char-level model — set a breakpoint in the training loop at `train.py` line ~175 (`for X, Y in loader:`) to watch loss decrease step by step.
+
+- Script path: `train.py`
+- Parameters: `config/train_shakespeare_char.py --device=mps`
+- This trains the char-level model — set a breakpoint in the training loop at `train.py` line ~175 (`for X, Y in loader:`) to watch loss decrease step by step.
 
 That's it. PyCharm's debugger with MPS tensors works fine — you can inspect shapes, values, gradients in the Variables panel.

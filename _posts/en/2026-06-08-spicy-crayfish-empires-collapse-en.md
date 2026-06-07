@@ -36,6 +36,7 @@ As of late 2024, Han Dong has pivoted to livestream content, positioning himself
 ## Why It Collapsed
 
 The core issues:
+
 1. **Operational arrogance** — Han Dong admitted after success he became "cocky and arrogant," lacked reflection, and that trend/environment/luck matter more than he realized
 2. **Internal dysfunction** — Reports suggest Han's wife, who managed company assets, lacked foresight, pinched pennies on operational expenses, delayed supplier payments, and destroyed the brand's reputation
 3. **Market timing** — The crayfish market matured and saturated; competitors flooded in (2M+ specialty shops by 2024); the differentiation from supply chain advantage evaporated once others scaled

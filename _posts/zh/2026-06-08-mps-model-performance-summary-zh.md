@@ -34,6 +34,7 @@ MPS基准测试
 ```
 
 在Mac上运行的关键说明：
+
 - 使用`python3.14`（包含torch 2.11.0及MPS支持）或`python3.13`（torch 2.6.0）
 - 参数设置：`--device=mps --dtype=float32`（MPS对bfloat16支持不佳）
 - model.py已启用调试打印——前向传播时会显示每层的张量形状。便于学习，但生产环境会显得冗余。

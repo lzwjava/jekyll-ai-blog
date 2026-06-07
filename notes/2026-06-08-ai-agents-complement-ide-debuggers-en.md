@@ -18,11 +18,13 @@ Answer:
 ### Where Agents Lose
 
 IDE hover-inspect is fundamentally **synchronous and interactive**:
+
 - You hit a breakpoint, time stops, you explore the call stack at will
 - Hover over `user.profile.settings[0]` and see the full object tree instantly
 - No round-trip latency, no prompt engineering required
 
 Agents are **asynchronous text-based**:
+
 - You ask, agent runs code, outputs text, you read
 - To see a nested object: agent must serialize it (messy), or you must ask "what's inside `user.profile.settings[0]`?"
 - Each inspection is a full round-trip
@@ -30,12 +32,14 @@ Agents are **asynchronous text-based**:
 ### Where Agents Win
 
 For **understanding *why* code fails**, agents often beat stepping:
+
 - Reproduce the bug with minimal test case immediately
 - Generate hypothesis-driven print statements in 10 seconds
 - Show you the exact flow that led to the error
 - Suggest fixes without manual stepping through 20 frames
 
 **Code:**
+
 ```python
 # Agent can do this instantly:
 # "Here's your error. Add this logging:"
@@ -75,6 +79,7 @@ print(DebugAgent.inspect('x', x))  # Agent asks: what's in x?
 ```
 
 But this still requires:
+
 1. You or agent write inspection code
 2. Code runs
 3. Text output comes back
@@ -91,6 +96,7 @@ The win isn't "agents replace IDEs." It's **agents drive the debugging strategy*
 3. **Agent writes the test** to confirm the fix
 
 **Hybrid workflow:**
+
 ```bash
 # Agent suggests the problem
 $ claude code "Debug why user.profile is None"
@@ -114,6 +120,7 @@ $ claude code "Add default profile creation"
 - Agents excel at *understanding* what to inspect; IDEs excel at *how to inspect it*
 
 **The productivity win isn't "agents replace IDEs." It's:**
+
 - Agents tell you *where* to look (saves 80% of guessing)
 - IDEs let you look fast once you know where
 - Together, faster than either alone
