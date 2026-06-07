@@ -16,6 +16,7 @@ type: note
 HoverAir Aqua is made by Zero Zero Robotics, a Palo Alto-based company specializing in intelligent devices and embedded AI. This is their flagship product for a specific gap: users repeatedly requested self-flying cameras for water use, and the company committed to solving the waterproofing challenge.
 
 **Core product positioning:**
+
 - First drone designed to take off and land directly on water, fully waterproof and buoyant
 - IP67-rated design, 4K camera capable of 100fps recording
 - AI-powered tracking keeps users in frame during hands-free filming, with millimeter-wave radar (first in consumer drones) detecting wave height and surface conditions for safer takeoff/landing
@@ -24,6 +25,7 @@ HoverAir Aqua is made by Zero Zero Robotics, a Palo Alto-based company specializ
 - Built-in 1.6-inch AMOLED display for preview/playback without smartphone
 
 **Market traction:**
+
 - Raised over $2 million through crowdfunding, making it one of the most sought-after tech products for watersport enthusiasts
 - Entering mass production Q4 2025 with customer shipments scheduled for December 2025
 - Named CES Innovation Awards 2026 Honoree
