@@ -24,11 +24,13 @@ V3 faces an unfavorable computation-to-communication ratio of approximately 1:1 
 The key idea is to divide each chunk into four components: attention, all-to-all dispatch, MLP, and all-to-all combine. Instead of sequential forward→backward execution:
 
 **Bidirectional scheduling:**
+
 - Forward micro-batches flow through pipeline ranks 0→1→2→...→N
 - Backward micro-batches flow in reverse: N→...→2→1→0
 - This orchestrates forward and backward passes to occur in overlapping, bidirectional streams, so while one set of micro-batches is engaged in forward processing, another is simultaneously undergoing backward computation.
 
 **Concrete scheduling pattern:**
+
 ```
 Forward:  [MB1 fwd] [MB2 fwd] [MB3 fwd] ...
 Backward:     [MB3 bwd] [MB2 bwd] [MB1 bwd] ...

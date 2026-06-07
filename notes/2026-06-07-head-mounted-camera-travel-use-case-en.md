@@ -16,11 +16,13 @@ type: note
 It depends on your actual use case — let me be direct:
 
 **If you mean action cameras (GoPro, DJI Osmo Action, Insta360):**
+
 - **Good for:** Video-first workflows, hands-free vlogging, underwater/extreme sports, consistent stabilization
 - **Bad for:** High-resolution stills, selective framing, bulk image collection for ML datasets
 - Video codecs eat storage fast (100 Mbps = 45 GB/hour). If you're collecting images for training data, you'd need to extract frames, which degrades quality
 
 **If you mean AR glasses or phone headmounts:**
+
 - Gimmicky. Your smartphone takes better photos anyway. Headmounts = awkward viewing, limited battery, expensive for what you get
 
 **For what you actually want (collect data + lots of pictures):**

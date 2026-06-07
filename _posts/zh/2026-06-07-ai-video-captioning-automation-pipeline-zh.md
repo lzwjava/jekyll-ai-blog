@@ -108,6 +108,7 @@ if __name__ == '__main__':
 ```
 
 运行：
+
 ```bash
 chmod +x caption_pipeline.py
 ./caption_pipeline.py audio.mp3 video.mp4
@@ -119,15 +120,19 @@ chmod +x caption_pipeline.py
 
 ## 替代工具与优化
 
-### 比 ElevenLabs 更好的 TTS（考虑成本）：
+### 比 ElevenLabs 更好的 TTS（考虑成本）
+
 - **本地 TTS**：`tortoise-tts`（在 RTX 4070 上运行，免费，约每 10 秒生成 1 分钟音频）
+
   ```bash
   pip install tortoise-tts
   ```
+
 - **API 替代方案**：**Hugging Face Inference API**（比 ElevenLabs 便宜，质量相同）
 - **如果语音质量很重要，继续使用 ElevenLabs**（它是品牌声音的最佳选择）
 
-### 字幕样式（如果你想要精美字幕）：
+### 字幕样式（如果你想要精美字幕）
+
 使用 **ass/ssa 格式** 而非 VTT，支持颜色、位置、字体：
 
 ```python
@@ -141,8 +146,10 @@ subprocess.run([
 ], check=True)
 ```
 
-### 完全跳过 CapCut（如果只是添加字幕）：
+### 完全跳过 CapCut（如果只是添加字幕）
+
 如果满足以下条件，你的工作流程不再需要 CapCut：
+
 - 音频已在 ElevenLabs 中同步
 - 字幕由 Whisper 自动生成
 - 视频已通过 FFmpeg 嵌入字幕
@@ -150,6 +157,7 @@ subprocess.run([
 **只有在以下情况才需要 CapCut：** B-roll 转场、节奏调整、花哨特效。对于像 `smart-auto` 这样的技术演示，直接字幕 + 录屏通常效果最佳。
 
 ### 考虑：YouTube 自动字幕
+
 如果你最终要上传到 YouTube，可以上传不带嵌入字幕的 MP4。YouTube 会免费生成字幕（准确度不错）。如果 YouTube 的字幕不够好，再下载为 SRT 并在本地嵌入。
 
 ---
@@ -164,6 +172,7 @@ subprocess.run([
 ```
 
 **5 分钟视频的时间分配：**
+
 - 编写字幕：5–10 分钟
 - ElevenLabs TTS：2 分钟（可并行、批量处理）
 - Whisper 验证：1 分钟（检查，少量修改）
@@ -171,6 +180,7 @@ subprocess.run([
 - **总计：约 10 分钟**，主要是等待 API 响应
 
 **对比当前工作流程：**
+
 - 手动 CapCut 字幕：每段视频 20–30 分钟
 
 **提升：约快 2 倍。零 CapCut 摩擦。**
@@ -192,6 +202,7 @@ ww caption-video --script "your_text.md" --voice "alloy" --video "source.mp4"
 ---
 
 **参考资料：**
+
 - [Whisper 文档](https://github.com/openai/whisper)（pip 安装，约 800MB 模型）
 - [FFmpeg 字幕嵌入](https://trac.ffmpeg.org/wiki/Subtitles)
 - [ElevenLabs API](https://elevenlabs.io/docs/api/text-to-speech)
