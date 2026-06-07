@@ -116,6 +116,10 @@ type: post
 
 - With glasses reduced by 1.50 D, I have comfortably used phones and computers for 14 hours a day over three years without any eye fatigue — just as natural as wearing full-prescription glasses to see a blackboard clearly. Over those three years, both my myopia and astigmatism have each reduced by roughly 100 degrees.
 
+- Most people aren't born nearsighted. In childhood, when looking at close objects, the visual image forms behind the retina. The eyeball's axial length needs to lengthen to focus clearly. Over time, the eyeball elongates, causing myopia to develop.
+
+- When wearing glasses with the full prescription at this stage, looking at near objects causes the image to form behind the retina again—this deepens myopia further. However, if you wear glasses that reduce the correction by 150 degrees, near objects will project directly onto the retina. If you reduce the correction further—say by 175 degrees—the projection lands in front of the retina. At that point, the eyeball's axial length gradually shortens, and myopia can be reversed.
+
 ---
 
 ## Natural Vision Restoration Progress
