@@ -43,27 +43,3 @@ They discussed Flash Attention again. One participant asked why Flash Attention 
 They discussed the Qwen model series. One participant asked what size of Qwen the other runs, and the response was 2B, because a small model is sufficient for optimization—if it works on a small model, it will work on a large one. They confirmed that they use Triton to write custom inference code with operator fusion for optimization. One participant asked if their optimized code is faster than Llama.cpp or vLLM, and the other said it is generally faster, though vLLM is more convenient and general-purpose. The custom code is typically 500 to 2,000 lines of Python, with CUDA code being longer. One participant asked if the participant encounters many people more senior in this area, and the other said very few, as most people prefer using vLLM or automated tools like Claude Code, which they feel misses the true spirit of competition. They noted that the competition organizers review submissions to check if code is AI-generated and assess the participant's background, so even if someone wins first place with a weak resume, they might be scrutinized.
 
 The conversation concluded with one participant thanking the other and saying they would organize the notes and send them over. The other agreed and said goodbye.
-
----
-
-## AI Fact-Check Notes
-
-The following are additional observations and clarifications that go beyond simple transcription errors. These reflect technical nuances that the speakers may have oversimplified or misstated during the conversation.
-
-**1. SGLang description is incomplete.**
-The notes describe SGLang as providing "distributed processing optimization, handling multiple devices by pre-processing and isolating each user's memory." This is vague. SGLang's key innovations are: RadixAttention (prefix caching using radix trees for automatic KV cache reuse), a compressed finite state machine for 3x faster structured JSON output, a zero-overhead CPU batch scheduler, prefill-decode disaggregation, and large-scale expert parallelism for MoE models like DeepSeek. The "user memory isolation" framing is more applicable to vLLM's PagedAttention.
-
-**2. "Triton is a simplified version of CUDA" is slightly misleading.**
-Triton (by OpenAI) is a domain-specific language (DSL) for writing GPU kernels at a higher abstraction level than CUDA. Rather than writing thread-level code, you write tile-based operations. It compiles via LLVM to target both NVIDIA and AMD GPUs. It is not "simplified CUDA" but a different programming model entirely. It typically achieves 85–95% of native CUDA performance with significantly less debugging effort.
-
-**3. "Parameters are handled by CPU, weights are GPU's concern" is an oversimplification.**
-"Weights" and "parameters" are largely synonymous in deep learning — weights are the learnable parameters. The distinction the speaker likely meant: model weights reside in GPU VRAM during inference, while the CPU handles control flow, tokenization, and orchestration. Weights include weight matrices, biases, embedding tables, LayerNorm parameters, etc.
-
-**4. "HBM3 provides 192 GB of VRAM" is specific to MI300X only.**
-HBM3 is a memory standard — different GPUs have different capacities. The AMD MI300X has 192 GB HBM3. For comparison: H100 has 80 GB HBM3, H200 has 141 GB HBM3e. The 192 GB figure should not be generalized to all HBM3 devices.
-
-**5. "DeepSeek V4" does not exist.**
-As of mid-2026, the latest DeepSeek models are DeepSeek-V3 and V3.2. There is no "DeepSeek V4." The speaker likely misspoke. Tri Dao (Flash Attention author) has made claims about software optimization on commodity NVIDIA hardware rivaling custom inference chips, but the specific model reference is incorrect.
-
-**6. "Groq may have been acquired by NVIDIA" is unverified speculation.**
-Groq (the LPU inference chip company) has not been acquired by NVIDIA as of available information. This appears to be casual speculation during the conversation, not a confirmed fact. Groq and xAI's Grok model are entirely separate entities — the speakers may have been confusing the two.
