@@ -44,6 +44,7 @@ C_t = f_t * C_{t-1} + i_t * tanh(W_c * [h_{t-1}, x_t] + b_c)
 ```
 
 Why? Because:
+
 1. **Output range $(-1, 1)$ bounds the cell state** — prevents explosive growth in long sequences
 2. **Odd symmetry** ($\tanh(-x) = -\tanh(x)$) makes the gating logic symmetric — forget gate and input gate can cooperate naturally
 3. **No dead neurons** — unlike ReLU, every value gets a non-zero gradient
@@ -72,6 +73,7 @@ The gradient vanishing at extremes is fine for LSTM because the *gates* control 
 ### Modern context
 
 In transformer-based models (GPT, Claude, DeepSeek), tanh is mostly gone. We use:
+
 - **ReLU/GELU** in feedforward layers (fast, sparse)
 - **Softmax** in attention (gating is learned via query-key interaction, not fixed like LSTM gates)
 

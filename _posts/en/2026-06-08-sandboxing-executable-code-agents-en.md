@@ -35,6 +35,7 @@ Yes, containers are the actual answer. But they're not magic — they just give 
 - **UID isolation** — code runs as unprivileged user by default
 
 **Implementation reality:**
+
 ```bash
 # Pseudocode for agent executor
 docker run --rm \
@@ -57,6 +58,7 @@ docker run --rm \
 ## Real-World Approaches
 
 **Claude Code** (and similar tools) uses:
+
 1. Container per session (isolated code environment)
 2. Allowlist-only network (can't exfil to arbitrary URLs)
 3. Resource limits + timeout kill
@@ -64,6 +66,7 @@ docker run --rm \
 5. User-mode execution (no privileges)
 
 **LLM API providers** (OpenAI, Anthropic, etc.):
+
 - Ephemeral VMs or sandboxes (even stronger isolation than containers)
 - Disable root/sudo
 - Network restricted to specific services

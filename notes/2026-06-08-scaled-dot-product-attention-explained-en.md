@@ -36,6 +36,7 @@ Why divide by `sqrt(d_k)`?
 When `d_k` is large (say 64), the dot products grow large too. Large values get pushed into the flat tail regions of softmax, killing gradients during backprop.
 
 **Empirical effect:**
+
 ```
 Without scaling (d_k=64):
   dot products ~ range [-500, 500]

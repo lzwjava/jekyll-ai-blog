@@ -59,6 +59,7 @@ silu = F.silu(x)  # also smooth, used in LLaMA
 ### In transformer FFNs specifically
 
 The FFN expansion (1600 → 6400 → 1600) creates a bottleneck where GELU acts as both:
+
 - **Non-linearity gate**: Decides which features matter
 - **Adaptive regularizer**: Suppresses noise without killing information
 

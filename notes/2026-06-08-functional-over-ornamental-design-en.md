@@ -15,6 +15,7 @@ type: note
 Something ornamental is purely decorative — it exists to look nice, not to serve a practical purpose. It's the opposite of functional.
 
 **Examples:**
+
 - **Visual design**: Ornamental flourishes in UI (decorative borders, unnecessary gradients) vs. functional buttons
 - **Code**: Ornamental abstractions (layers of indirection that don't solve a real problem) vs. necessary architecture
 - **Hardware**: Ornamental components (decorative accents on a keyboard) vs. functional switches

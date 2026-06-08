@@ -35,6 +35,7 @@ agent.execute("python3 << 'EOF'\nimport subprocess\nsubprocess.run(['rm', '-rf',
 - **UID 隔离**——默认以非特权用户身份运行代码
 
 **实际实现示例：**
+
 ```bash
 # 代理执行器的伪代码
 docker run --rm \
@@ -57,6 +58,7 @@ docker run --rm \
 ## 实际采用的方案
 
 **Claude Code**（及类似工具）使用：
+
 1. 每个会话对应一个容器（隔离的代码环境）
 2. 仅允许列表中的网络（无法将数据外泄到任意 URL）
 3. 资源限制加超时终止
@@ -64,6 +66,7 @@ docker run --rm \
 5. 用户模式执行（无特权）
 
 **LLM API 提供商**（OpenAI、Anthropic 等）：
+
 - 临时虚拟机或沙箱（比容器更强的隔离）
 - 禁用 root/sudo
 - 网络仅限于特定服务

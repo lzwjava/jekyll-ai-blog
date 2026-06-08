@@ -33,11 +33,13 @@ PyTorch's `@` operator (matrix multiplication) uses **broadcasting rules + dimen
 ```
 
 The **contraction dimension** (T) is implicit:
+
 - `att` gives up its last dim T
 - `v` gives up its second-to-last dim T
 - These two T's must match (they do), and they **contract out**
 
 The remaining dimensions **stack left-to-right**:
+
 - From `att`: (B, nh, T) — the "row" dimension
 - From `v`: (hs) — the "column" dimension
 - Result: (B, nh, T, hs)
@@ -47,6 +49,7 @@ The remaining dimensions **stack left-to-right**:
 Standard matrix multiplication: `A[m, n] @ B[n, k] = C[m, k]`
 
 In your case:
+
 - `att` is shaped `(B, nh, T, T)` — think of it as a **batch of (B×nh) matrices**, each (T, T)
 - `v` is shaped `(B, nh, T, hs)` — think of it as a **batch of (B×nh) matrices**, each (T, hs)
 
@@ -85,12 +88,14 @@ assert torch.allclose(y, y_manual)
 ## Why It's "Smart"
 
 The real genius is **you don't have to reshape manually**. PyTorch's `matmul`:
+
 1. Infers batch dimensions (all leading dims except the last two)
 2. Verifies the contraction dimension matches (T == T)
 3. Calls optimized GEMM kernels for batched operation
 4. Returns the result without you writing a loop
 
 Compare to explicit loop (what happens under the hood):
+
 ```python
 # Without @ smartness, you'd write:
 y = torch.zeros(B, nh, T, hs)

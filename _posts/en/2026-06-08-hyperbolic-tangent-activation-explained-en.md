@@ -91,12 +91,14 @@ plt.show()
 ### Comparison to ReLU
 
 **Tanh:**
+
 - Smooth everywhere, differentiable
 - Bounded output (numerically stable)
 - Vanishing gradient problem if $|x|$ is large
 - Used in RNNs, LSTMs, older feedforward nets
 
 **ReLU:**
+
 - Dead neuron problem (zero gradient for $x < 0$)
 - Unbounded output
 - No vanishing gradient for positive inputs
