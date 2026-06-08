@@ -15,11 +15,12 @@ type: note
 
 ## 代码分析：项目面板停靠位置
 
-### 该机制包含3层：
+### 该机制包含3层
 
 **1. 设置层** (`crates/settings_content/src/workspace.rs` 第709行)
 
 `ProjectPanelSettingsContent` 结构体包含：
+
 ```rust
 /// 默认值：右侧（Agentic布局），左侧（Classic布局）
 pub dock: Option<DockSide>,
@@ -75,6 +76,7 @@ const EDITOR: Self = Self {
 **4. 右键上下文菜单** (`crates/workspace/src/dock.rs` 第1262行)
 
 右键点击状态栏中的面板按钮会构建一个可切换的上下文菜单：
+
 - "Dock Left"（如果当前为左侧则选中）
 - "Dock Right"（如果当前为右侧则选中）
 - 项目面板不显示 "Dock Bottom"（因为 `position_is_valid` 拒绝了它）
@@ -94,11 +96,12 @@ fn move_to_next_position(&self, window: &mut Window, cx: &mut App) {
 
 ---
 
-## 实际操作方式（3种）：
+## 实际操作方式（3种）
 
 1. **右键单击状态栏中的面板按钮** → 选择 "Dock Left"
 
 2. **编辑 settings.json**（`~/.config/zed/settings.json`）：
+
    ```json
    {
      "project_panel": {

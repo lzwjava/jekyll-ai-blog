@@ -15,11 +15,12 @@ Here's what the Zed codebase tells us about moving the file explorer (Project Pa
 
 ## Code Analysis: Project Panel Dock Position
 
-### The mechanism has 3 layers:
+### The mechanism has 3 layers
 
 **1. Settings layer** (`crates/settings_content/src/workspace.rs` line 709)
 
 The `ProjectPanelSettingsContent` struct has:
+
 ```rust
 /// Default: right (Agentic layout), left (Classic layout)
 pub dock: Option<DockSide>,
@@ -75,6 +76,7 @@ const EDITOR: Self = Self {
 **4. Right-click context menu** (`crates/workspace/src/dock.rs` line 1262)
 
 Right-clicking a panel button in the status bar builds a context menu with toggleable entries:
+
 - "Dock Left" (checked if current)
 - "Dock Right" (checked if current)
 - "Dock Bottom" is NOT shown for project panel (position_is_valid rejects it)
@@ -94,11 +96,12 @@ Triggered by the `MoveFocusedPanelToNextPosition` action when a panel is focused
 
 ---
 
-## How to actually do it (3 ways):
+## How to actually do it (3 ways)
 
 1. **Right-click the panel button** in the status bar → select "Dock Left"
 
 2. **Edit settings.json** (`~/.config/zed/settings.json`):
+
    ```json
    {
      "project_panel": {
