@@ -241,6 +241,7 @@ Over 12 years of engineering, my code and content have reached more than 100 mil
 | **Chongding Conference** (冲顶大会) | Backend engineer | ~30 million users — a mobile trivia app similar to HQ Trivia, one of the hottest apps in China in early 2018 |
 | **PayMe by HSBC** | Backend engineer | ~3 million users — Hong Kong's leading peer-to-peer payment app |
 | **LeanCloud** | SDK engineer | 200,000+ developers served, indirectly impacting ~50 million end users through apps built on the platform |
+| **Square Root Software Consultancy** | Project Manager | Supervised and managed 50 small software projects, indirectly impacting ~20 million users |
 | **WeChat Video Channel / YouTube** | Content creator | ~2 million views across video content |
 | **lzwjava.github.io** | Writer | ~500,000 readers — 400+ technical posts and 8,000+ AI notes |
 
