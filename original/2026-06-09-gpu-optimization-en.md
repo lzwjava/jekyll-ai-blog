@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "GPU Optimization for LLM Inference"
+title: "A Conversation on GPU Optimization for LLM Inference"
 translated: false
 ---
 
