@@ -16,6 +16,7 @@ type: note
 ══════════════════════════════════════════════
 
 已完成的操作
+
   1. 为 Ubuntu Noble 添加了 Tailscale 官方 APT 源
      - GPG 密钥：/usr/share/keyrings/tailscale-archive-keyring.gpg
      - 源文件：/etc/apt/sources.list.d/tailscale.list
@@ -50,10 +51,11 @@ type: note
   tailscale up --exit-node=<IP>  — 将所有流量通过另一设备路由
 
 你现在可以做什么
-  - 通过 Tailscale IP 或主机名访问尾网中的任何设备
-  - 如果“to”配置了出口节点功能，可将其用作代理
-  - 当你的 Mac 或手机上线时，访问其上的服务
-  - 所有设备间的流量均通过加密的 WireGuard 隧道传输
+
+- 通过 Tailscale IP 或主机名访问尾网中的任何设备
+- 如果“to”配置了出口节点功能，可将其用作代理
+- 当你的 Mac 或手机上线时，访问其上的服务
+- 所有设备间的流量均通过加密的 WireGuard 隧道传输
 
 注意：当前 tailscale 命令需要 root 权限。执行以下命令修复：
   sudo tailscale set --operator=$USER

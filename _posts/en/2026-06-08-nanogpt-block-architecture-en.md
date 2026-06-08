@@ -48,6 +48,7 @@ x = LayerNorm(x + SubLayer(x))
 ```
 
 **Pre-norm advantages:**
+
 - **Better gradient flow** — Gradients pass directly through residual connections without being squeezed by layer norm
 - **Trains faster** — Deeper models are more stable (nanoGPT uses this for good reason)
 - **No warmup needed** — Post-norm requires learning rate warmup; pre-norm doesn't
@@ -63,6 +64,7 @@ x = self.mlp(self.ln_2(x))
 ```
 
 **With residual:**
+
 ```python
 x = x + self.attn(self.ln_1(x))
 ```
@@ -74,6 +76,7 @@ x_l+1 = x_l + f_l(x_l)
 ```
 
 This enables:
+
 - **Deep networks** — Gradients flow directly: ∂L/∂x_l = ∂L/∂x_l+1 · (1 + ∂f/∂x_l)
 - **Safe initialization** — f starts near zero (small weights), so x_l ≈ x_0 early in training
 - **Information bypass** — Attention/MLP learn to modify, not rebuild x
@@ -88,6 +91,7 @@ Block(x) where dim(x) = [batch, seq_len, n_embd]
 ```
 
 The MLP is position-wise (applied identically to each token):
+
 ```python
 # MLP internals (roughly)
 def forward(self, x):
@@ -98,6 +102,7 @@ def forward(self, x):
 ```
 
 So each block does:
+
 1. **Attention** — cross-token communication (mixing information across sequence)
 2. **MLP** — per-token nonlinear transformation (feature refinement)
 
@@ -128,6 +133,7 @@ Early blocks learn low-level syntax (spaces, punctuation). Later blocks learn se
 ### Key Insight
 
 The Block is **minimal but elegant**:
+
 - No dropout here (nanoGPT is small, overfitting isn't the main issue)
 - No learned scaling (layer norm handles variance)
 - Pre-norm + residuals = training stability without tricks

@@ -14,11 +14,13 @@ type: note
 ## 答案
 
 PyTorch 分发**独立的 wheel 包**，因为 CUDA 二进制文件体积庞大且非必需。CPU 版 wheel 包（约 200 MB）仅包含：
+
 - PyTorch 运行时代码
 - CPU 内核（BLAS、MKL-DNN）
 - Python 绑定
 
 CUDA 版 wheel 包（2-3 GB）捆绑了：
+
 - CPU 版 wheel 包的所有内容
 - NVIDIA CUDA 运行时库（cudart、cublas、cunn 等）
 - cuDNN（深度学习原语）
@@ -29,16 +31,19 @@ CUDA 版 wheel 包（2-3 GB）捆绑了：
 ### 在 Windows 上安装
 
 **仅 CPU 版**（安装最快，无 GPU）：
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 **CUDA 12.4**（最常见，需要 NVIDIA GPU + 已安装 CUDA 12.4）：
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 
 **CUDA 11.8**：
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```

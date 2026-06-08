@@ -48,6 +48,7 @@ x = LayerNorm(x + SubLayer(x))
 ```
 
 **Pre-norm 的优势：**
+
 - **更好的梯度流动** — 梯度直接通过残差连接传递，不会被层归一化压缩
 - **训练更快** — 深层模型更稳定（nanoGPT 采用此方式是有充分理由的）
 - **无需热身阶段** — Post-norm 需要学习率预热，pre-norm 则不需要
@@ -63,6 +64,7 @@ x = self.mlp(self.ln_2(x))
 ```
 
 **有残差时：**
+
 ```python
 x = x + self.attn(self.ln_1(x))
 ```
@@ -74,6 +76,7 @@ x_l+1 = x_l + f_l(x_l)
 ```
 
 这实现了：
+
 - **深层网络** — 梯度直接流动：∂L/∂x_l = ∂L/∂x_l+1 · (1 + ∂f/∂x_l)
 - **安全初始化** — f 初始时接近零（小权重），因此训练早期 x_l ≈ x_0
 - **信息旁路** — 注意力/MLP 学习修改 x 而非重建 x
@@ -88,6 +91,7 @@ Block(x) 其中 dim(x) = [batch, seq_len, n_embd]
 ```
 
 MLP 是按位置操作的（对每个 token 独立应用）：
+
 ```python
 # MLP 内部结构（大致）
 def forward(self, x):
@@ -98,6 +102,7 @@ def forward(self, x):
 ```
 
 因此每个模块完成：
+
 1. **注意力** — token 间的通信（在序列上混合信息）
 2. **MLP** — 逐 token 的非线性变换（特征精炼）
 
@@ -128,6 +133,7 @@ logits = x @ token_embedding.T  # 预测下一个 token
 ### 核心洞见
 
 该模块**精简而优雅**：
+
 - 此处无 dropout（nanoGPT 规模小，过拟合并非主要问题）
 - 无学习缩放因子（层归一化已处理方差）
 - Pre-norm + 残差 = 无需技巧即可稳定训练深层网络

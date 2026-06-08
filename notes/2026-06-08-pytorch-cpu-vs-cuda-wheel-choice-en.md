@@ -14,11 +14,13 @@ type: note
 ## Answer
 
 PyTorch distributes **separate wheels** because CUDA binaries are massive and optional. The CPU wheel (`~200 MB`) contains only:
+
 - PyTorch runtime code
 - CPU kernels (BLAS, MKL-DNN)
 - Python bindings
 
 The CUDA wheel (`2-3 GB`) bundles:
+
 - Everything from CPU wheel
 - NVIDIA CUDA runtime libraries (cudart, cublas, cunn, etc.)
 - cuDNN (deep learning primitives)
@@ -29,16 +31,19 @@ The CUDA wheel (`2-3 GB`) bundles:
 ### Installation on Windows
 
 **CPU-only** (fastest install, no GPU):
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 **CUDA 12.4** (most common, requires NVIDIA GPU + CUDA 12.4 installed):
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 
 **CUDA 11.8**:
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```

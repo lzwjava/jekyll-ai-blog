@@ -16,6 +16,7 @@ Here's the summary with IPs redacted:
 ══════════════════════════════════════════════
 
 WHAT WAS DONE
+
   1. Added Tailscale's official APT repo for Ubuntu Noble
      - GPG key: /usr/share/keyrings/tailscale-archive-keyring.gpg
      - Repo:    /etc/apt/sources.list.d/tailscale.list
@@ -50,10 +51,11 @@ USEFUL COMMANDS
   tailscale up --exit-node=<ip>  — route all traffic through another device
 
 WHAT YOU CAN DO NOW
-  - Reach any device on your tailnet by Tailscale IP or hostname
-  - Use "to" as an exit node / proxy if it's configured for it
-  - Access services on your Mac or phone when they come online
-  - All traffic between devices is encrypted WireGuard tunnel
+
+- Reach any device on your tailnet by Tailscale IP or hostname
+- Use "to" as an exit node / proxy if it's configured for it
+- Access services on your Mac or phone when they come online
+- All traffic between devices is encrypted WireGuard tunnel
 
 NOTE: tailscale commands require root currently. Run this to fix:
   sudo tailscale set --operator=$USER
