@@ -16,6 +16,7 @@ type: note
 独热向量是指一个向量中某个元素（接近）为1，其余元素（接近）为0。
 
 在未缩放的注意力机制中：
+
 - 点积取值范围为[-500, 500]（数值较大）
 - `softmax(z) = exp(z) / sum(exp(z))` 会呈指数级放大这些差异
 - 某个词元的注意力权重将接近0.99999，其余词元接近0.00001
@@ -23,16 +24,19 @@ type: note
 **导致梯度消失的原因：**
 
 Softmax 梯度计算如下：
+
 ```
 dL/dq_i = dL/d(softmax) * d(softmax)/dq_i
 ```
 
 对于 Softmax，每个元素的雅可比矩阵为：
+
 ```
 ∂softmax_j / ∂z_i = softmax_j * (δ_ij - softmax_i)
 ```
 
 当 Softmax 呈独热状态时（例如 softmax_j ≈ 1，其余 ≈ 0）：
+
 - 对于主导位置：`∂softmax_j / ∂z_j = 1 * (1 - 1) = 0`
 - 对于其他位置：`∂softmax_k / ∂z_i ≈ 0 * (0 - 1) ≈ 0`
 
@@ -41,6 +45,7 @@ dL/dq_i = dL/d(softmax) * d(softmax)/dq_i
 **缩放机制如何解决该问题：**
 
 使用 `scale = 1/√d_k` 时：
+
 - 点积取值范围变为[-2, 2]（Softmax 保持"柔化"）
 - 多个词元可获得非零的注意力权重
 - 梯度能够流经所有位置

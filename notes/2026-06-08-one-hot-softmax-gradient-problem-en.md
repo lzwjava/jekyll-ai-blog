@@ -16,6 +16,7 @@ type: note
 A one-hot vector is a vector where one element is (nearly) 1 and all others are (nearly) 0.
 
 In unscaled attention:
+
 - Dot products range [-500, 500] (large values)
 - `softmax(z) = exp(z) / sum(exp(z))` amplifies these differences exponentially
 - One token's attention weight becomes ~0.99999, all others ~0.00001
@@ -23,16 +24,19 @@ In unscaled attention:
 **Why this kills gradients:**
 
 The softmax gradient is:
+
 ```
 dL/dq_i = dL/d(softmax) * d(softmax)/dq_i
 ```
 
 For softmax, the Jacobian per element is:
+
 ```
 ∂softmax_j / ∂z_i = softmax_j * (δ_ij - softmax_i)
 ```
 
 When softmax is one-hot (say, softmax_j ≈ 1, all others ≈ 0):
+
 - For the dominant position: `∂softmax_j / ∂z_j = 1 * (1 - 1) = 0`
 - For others: `∂softmax_k / ∂z_i ≈ 0 * (0 - 1) ≈ 0`
 
@@ -41,6 +45,7 @@ When softmax is one-hot (say, softmax_j ≈ 1, all others ≈ 0):
 **How scaling fixes it:**
 
 With `scale = 1/√d_k`:
+
 - Dot products now range [-2, 2] (softmax stays "soft")
 - Multiple tokens get non-trivial attention weights
 - Gradients flow through all positions

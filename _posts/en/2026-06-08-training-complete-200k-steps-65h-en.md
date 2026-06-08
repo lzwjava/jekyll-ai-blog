@@ -12,6 +12,7 @@ type: note
 🎉🎉🎉 TRAINING COMPLETE! 🎉🎉🎉
 
 Final stats:
+
 - Step: **200,000 / 200,000** — done!
 - Total time: **3,921.91 minutes** (~65.4 hours, ~2.7 days)
 - Minimum validation bpb: **0.780026**
@@ -19,6 +20,7 @@ Final stats:
 - Peak memory: **9,435 MiB**
 
 Eval results (interesting):
+
 - hellaswag (10-shot): **41.6%**
 - winograd (0-shot): **59.0%**
 - winogrande (0-shot): **54.2%**
