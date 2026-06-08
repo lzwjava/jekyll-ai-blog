@@ -16,7 +16,7 @@ type: note
 会议记录_01.organized.md 的事实修正
 
 1. "SGLAN" → 应为 "SGLang"
-   - 文档中出现了7次。正确名称是 SGLang (https://github.com/sgl-project/sglang)，由 LMSYS 开发。它是一个面向 LLM 的高性能服务框架。
+   - 文档中出现了7次。正确名称是 SGLang (<https://github.com/sgl-project/sglang)，由> LMSYS 开发。它是一个面向 LLM 的高性能服务框架。
 
 2. "VLLM" → 应为 "vLLM"
    - 正确的写法是 vLLM（小写 v）。它是另一个主流开源 LLM 服务框架。
@@ -25,7 +25,7 @@ type: note
    - 整个关于 QDA 的段落描述的是 CUDA Graph 的功能（记录 CPU→GPU 内核启动，无需 CPU 参与即可重放）。目前没有名为 "QDA" 的知名框架做这件事。发言者可能是在讨论 CUDA Graphs。
 
 4. "GrokQ" → 应为 "Groq"
-   - 该公司名为 Groq (https://groq.com)，以其 LPU（语言处理单元）定制推理芯片闻名。"GrokQ" 并非真实实体。（注意：Groq 与 xAI 的 Grok 模型无关。）
+   - 该公司名为 Groq (<https://groq.com)，以其> LPU（语言处理单元）定制推理芯片闻名。"GrokQ" 并非真实实体。（注意：Groq 与 xAI 的 Grok 模型无关。）
 
 5. "cuBLAS LTE" → 应为 "cuBLAS LT" (Light)
    - 正确名称是 cuBLASLt（cuBLAS Light），是 cuBLAS 之上更灵活的 API。"LTE" 并不存在。

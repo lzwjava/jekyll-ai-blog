@@ -16,7 +16,7 @@ Here's a fact-check of the meeting notes with corrections:
 Factual Corrections for meeting_01.organized.md
 
 1. "SGLAN" → Should be "SGLang"
-   - Appears 7 times in the document. The correct name is SGLang (https://github.com/sgl-project/sglang), developed by LMSYS. It's a high-performance serving framework for LLMs.
+   - Appears 7 times in the document. The correct name is SGLang (<https://github.com/sgl-project/sglang>), developed by LMSYS. It's a high-performance serving framework for LLMs.
 
 2. "VLLM" → Should be "vLLM"
    - The correct casing is vLLM (lowercase v). It's the other major open-source LLM serving framework.
@@ -25,7 +25,7 @@ Factual Corrections for meeting_01.organized.md
    - The entire QDA paragraph describes CUDA Graph functionality (recording CPU→GPU kernel launches, replaying them without CPU involvement). There's no well-known framework called "QDA" that does this. The speaker was likely discussing CUDA Graphs.
 
 4. "GrokQ" → Should be "Groq"
-   - The company is Groq (https://groq.com), known for their LPU (Language Processing Unit) custom inference chips. "GrokQ" is not a real entity. (Note: Groq is separate from xAI's Grok model.)
+   - The company is Groq (<https://groq.com>), known for their LPU (Language Processing Unit) custom inference chips. "GrokQ" is not a real entity. (Note: Groq is separate from xAI's Grok model.)
 
 5. "cuBLAS LTE" → Should be "cuBLAS LT" (Light)
    - The correct name is cuBLASLt (cuBLAS Light), a more flexible API on top of cuBLAS. "LTE" is not a thing.

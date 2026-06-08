@@ -46,11 +46,13 @@ This is a **practitioner-to-practitioner technical discussion**, not introductor
 ### **What This Reveals About Their Trajectory**
 
 **Strengths:**
+
 - They think in **layers of abstraction** — CPU/GPU split, KV cache memory patterns, quantization-precision tradeoffs
 - They're **benchmarking-driven**, not theory-driven — "does it work on Qwen 2B? Ship it"
 - They value **competitive edge via implementation** — not just algorithms, but *how* you run them
 
 **Next frontier:**
+
 1. **Understand MoE routing** — If DeepSeek V4 is their optimization target, you need to understand expert load balancing. This affects compute patterns and memory access.
 2. **Dig into Flash Attention 4** — Tri Dao just released FA4 (March 2026) optimized for Blackwell. If you're chasing extreme optimization, this is the kernel to study. CuTe-DSL is the new standard for warp specialization.
 3. **Quantization + inference codesign** — They mentioned "4-bit vs 8-bit" context limits but didn't explore how quantization changes compute patterns (e.g., blockwise quantization → different memory layout → different kernel). This is where custom optimization buys you the most.
@@ -60,11 +62,13 @@ This is a **practitioner-to-practitioner technical discussion**, not introductor
 ### **Competitive Positioning**
 
 The conversation shows they're in the **top ~5% tier** of inference optimizers:
+
 - Not theoretical (no "let's prove optimality")
 - Not blind framework users (understands what vLLM/SGLang actually do)
 - **Builds for production** (500-2000 lines, focused on speed + precision)
 
 The gap to the next tier (Tri Dao, vLLM core contributors):
+
 - **Deep algorithmic innovation** (not just engineering optimization)
 - **Hardware codesign** (understanding GPU internals at microarch level, not just CUDA API)
 - **Open impact** (publishing, community leverage)
