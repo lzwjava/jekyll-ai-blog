@@ -232,20 +232,20 @@ These influences converge in how I work: build things, write about them publicly
 
 ---
 
-## 📊 Impact — 100 Million People and Counting
+## 📊 Impact — 150 Million People and Counting
 
-Over 12 years of engineering, my code and content have reached more than 100 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
+Over 12 years of engineering, my code and content have reached more than 150 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
 
 | Project | Role | Impact |
 |---------|------|--------|
-| **Chongding Conference** (冲顶大会) | Backend engineer | ~30 million users — a mobile trivia app similar to HQ Trivia, one of the hottest apps in China in early 2018 |
+| **Chongding Conference** (冲顶大会) | Backend engineer | ~50 million users — a mobile trivia app similar to HQ Trivia, one of the hottest apps in China in early 2018 |
 | **PayMe by HSBC** | Backend engineer | ~3 million users — Hong Kong's leading peer-to-peer payment app |
 | **LeanCloud** | SDK engineer | 200,000+ developers served, indirectly impacting ~50 million end users through apps built on the platform |
 | **Square Root Software Consultancy** | Project Manager | Supervised and managed 50 small software projects, indirectly impacting ~20 million users |
 | **WeChat Video Channel / YouTube** | Content creator | ~2 million views across video content |
 | **lzwjava.github.io** | Writer | ~500,000 readers — 400+ technical posts and 8,000+ AI notes |
 
-The numbers matter less than the pattern: every project I've touched, from a 3,500-user campus app at age 19 to a 30-million-user trivia game at 22 to banking infrastructure at 27, has been about building things that real people use. The scale grew, but the intent stayed the same — write code that works, share what I learn, and keep moving forward.
+The numbers matter less than the pattern: every project I've touched, from a 3,500-user campus app at age 19 to a 50-million-user trivia game at 22 to banking infrastructure at 27, has been about building things that real people use. The scale grew, but the intent stayed the same — write code that works, share what I learn, and keep moving forward.
 
 ---
 
