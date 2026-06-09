@@ -156,7 +156,7 @@ One participant shared his Binance interview experience: he got the opportunity 
 
 ### Lessons from the Standard Chartered Interview
 
-The other participant shared his interview experience for a Standard Chartered Bank outsourcing position (annual salary over 400,000): he failed in the last round (the third of four), because the interviewer asked about RAG (probably some technical term) and Java fundamentals. He was a bit confused at the time — although he had actually done it (spent a day or two on IG), he hadn't gone deep, so he directly said he hadn't done it. He demonstrated more in-depth content like GPU training and inference, but the interviewer only knew about Agents and wasn't at his level on AI.
+The other participant shared his interview experience for a Standard Chartered Bank outsourcing position (annual salary over 400,000): he failed in the last round (the third of four), because the interviewer asked about RAG (probably some technical term) and Java fundamentals. He was a bit confused at the time — although he had actually done it (spent a day or two on RAG), he hadn't gone deep, so he directly said he hadn't done it. He demonstrated more in-depth content like GPU training and inference, but the interviewer only knew about Agents and wasn't at his level on AI.
 
 ### Reflections on Interview Skills
 
