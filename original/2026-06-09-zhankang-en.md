@@ -10,7 +10,7 @@ translated: false
 
 Two participants: Zhankang and [lzwjava](https://github.com/lzwjava).
 
-Zhankang, entrepreneur, 10 more years in backend engineering and archticture. WeChat@laiceshide
+Han Zhankang, entrepreneur, 10 more years in backend engineering and archticture. WeChat@laiceshide
 
 ---
 
@@ -18,7 +18,7 @@ The following conversation was transcribed using Whisper on an RTX 4070, then re
 
 Note: Because both transcription and refinement were AI-assisted, some details may be inaccurate or paraphrased. Please verify any important information independently before relying on it.
 
-AI Translation tips: Zhankang，占康。
+AI Translation tips: Han Zhankang，韩占康。
 
 ---
 
@@ -156,7 +156,7 @@ One participant shared his Binance interview experience: he got the opportunity 
 
 ### Lessons from the Standard Chartered Interview
 
-The other participant shared his interview experience for a Standard Chartered Bank outsourcing position (annual salary over 400,000): he failed in the last round (the third of four), because the interviewer asked about IG (probably some technical term) and Java fundamentals. He was a bit confused at the time — although he had actually done it (spent a day or two on IG), he hadn't gone deep, so he directly said he hadn't done it. He demonstrated more in-depth content like GPU training and inference, but the interviewer only knew about Agents and wasn't at his level on AI.
+The other participant shared his interview experience for a Standard Chartered Bank outsourcing position (annual salary over 400,000): he failed in the last round (the third of four), because the interviewer asked about RAG (probably some technical term) and Java fundamentals. He was a bit confused at the time — although he had actually done it (spent a day or two on IG), he hadn't gone deep, so he directly said he hadn't done it. He demonstrated more in-depth content like GPU training and inference, but the interviewer only knew about Agents and wasn't at his level on AI.
 
 ### Reflections on Interview Skills
 
@@ -200,7 +200,7 @@ At the end of the conversation, both expressed deep friendship. One participant 
 
 ---
 
-# Detailed Description.
+# Detailed Description
 
 One participant started by saying they would record the conversation to later organize the text transcripts and send them over. They said they could just talk about anything, and the recording would be fine. Another participant raised the concern that it might involve their privacy. The first participant assured they would control that side and could remove private information before publishing. They noted that the conversation would be half private and half not, for example when discussing AI. The other agreed, saying it was up to the first participant.
 
@@ -222,7 +222,7 @@ They continued discussing high salaries. One participant said that from talking 
 
 The first participant then asked about backend architecture preferences, such as microservices and cloud architecture. They asked what kind of architecture the other was more comfortable with. The other said any architecture was fine. They discussed service decoupling, and whether to start with a monolith and later switch to microservices, or how many microservices to use. The first participant asked how to measure and choose the easiest and most maintainable long-term approach. The other replied that it depended on the business, involving domain identification, microservice implementation, and capacity planning. They noted that all of this was backend work, and that nowadays, these concerns were already well-established and not the main focus.
 
-One participant observed that the other had worked in China all along, so their English might be a bit lacking. The other responded in English, mentioning they worked at DBS Bank for over three years, took the IELTS exam, used English in their YouTube Premium subscriptions, and could speak with Indian colleagues. The first participant praised their English, saying their own was poor and that they had failed an interview at a company called BN because of English. The first participant asked how the other got that interview. The other said it was through an internal referral from a friend, but that only one referral was allowed, so after that they had to apply on their own. They explained that the company might have had internal limits. The first participant noted that the BN Java expert interview was supposedly very difficult. The other said they didn't find it very difficult, just the English part was hard.
+One participant observed that the other had worked in China all along, so their English might be a bit lacking. The other responded in English, mentioning they worked at DBS Bank for one years, took the IELTS exam, used English in their YouTube Premium subscriptions, and could speak with Indian colleagues. The first participant praised their English, saying their own was poor and that they had failed an interview at a company called BN because of English. The first participant asked how the other got that interview. The other said it was through an internal referral from a friend, but that only one referral was allowed, so after that they had to apply on their own. They explained that the company might have had internal limits. The first participant noted that the BN Java expert interview was supposedly very difficult. The other said they didn't find it very difficult, just the English part was hard.
 
 One participant asked the other to give a short English example, like describing what they did today. The other spoke in English, saying they came to the office at 9 o'clock, discussed architecture with a colleague, and planned to move local Redis to early cloud Redis, then made a plan for their leader to review. The leader said okay, and the project would take about two weeks. The first participant commented that their spoken English was very simple and perhaps not standard. They discussed that when using a new language or writing code in a language like Rust, one would be slow, but with Java, one would be more familiar. The other agreed, saying it was just a matter of familiarity and lack of usage scenarios. They noted that when working in outsourcing, colleagues were from various countries, so English was a necessity. The other said that in their case, colleagues were still domestic and spoke dialects.
 
