@@ -28,6 +28,7 @@ The vulnerability: By mid-2025, US authorities banned even specialized AI chips 
 Chinese domestic chips made up nearly 41% of China's market in 2025, with approximately half coming from Huawei, up from Nvidia having 90%+ market share before 2023. But here's the catch: Huawei will produce only 200,000 AI chips in 2025, while China legally imported around 1 million Nvidia chips downgraded for the Chinese market in 2024.
 
 China compensates with **scale + cheap infrastructure**:
+
 - Ulanqab model: abundant wind power (pennies per kWh), no land costs, government subsidies
 - 10+ data center clusters across the west targeting 1,200+ MW additional capacity
 - Can afford to run lower-efficiency hardware at massive scale

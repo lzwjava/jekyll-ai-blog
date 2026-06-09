@@ -66,6 +66,7 @@ cd /mnt/data/nanochat && PYTORCH_ALLOC_CONF=expandable_segments:True .venv/bin/p
 ```
 
 This gives:
+
 - LR at resume (step 130k): lrm=1.0, effective matrix_lr=0.000354 (matches old run) ✓
 - Momentum at resume: 0.97 (same as v2 — brief spike, but LR is low enough to absorb it)
 - Momentum at step 200k: 0.90 (matches old run's end state) ✓

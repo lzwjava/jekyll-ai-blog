@@ -66,6 +66,7 @@ cd /mnt/data/nanochat && PYTORCH_ALLOC_CONF=expandable_segments:True .venv/bin/p
 ```
 
 这将提供：
+
 - 恢复时的学习率（步骤 130k）：lrm=1.0，有效 matrix_lr=0.000354（与旧运行一致）✓
 - 恢复时的动量：0.97（与 v2 相同——短暂上升，但学习率足够低以吸收冲击）✓
 - 步骤 200k 时的动量：0.90（与旧运行的最终状态一致）✓
