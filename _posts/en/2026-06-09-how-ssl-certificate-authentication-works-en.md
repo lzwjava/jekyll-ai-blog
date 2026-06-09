@@ -18,10 +18,12 @@ SSL certificates solve a fundamental problem: how does a client trust a server i
 ### The Core Mechanism: Digital Signatures
 
 The foundation is **asymmetric cryptography** where you have a keypair:
+
 - **Private key** (secret, kept by server): signs data
 - **Public key** (distributed freely): verifies signatures
 
 A digital signature proves three things:
+
 1. The server owns the private key (proof of identity)
 2. The data hasn't been tampered with
 3. The server was present during the handshake (prevents replay attacks)
@@ -48,6 +50,7 @@ public_key.verify(signature, data, padding.PSS(...), hashes.SHA256())
 ### Certificate Structure: Identity Bound to Public Key
 
 A certificate is a digital document that binds:
+
 - The server's **public key**
 - The server's **identity** (domain name, organization)
 - **Metadata** (expiration, intended uses)
@@ -106,6 +109,7 @@ ca_public_key.verify(cert.signature, cert.tbs_certificate, ...)
 ### Verification Checklist: What the Client Actually Checks
 
 Before key exchange, the client checks:
+
 1. The CA's digital signature using the CA's public key (ensures authenticity)
 2. The certificate hasn't expired
 3. The certificate hasn't been revoked (CRL or OCSP)
@@ -154,6 +158,7 @@ The key insight: **asymmetric crypto for identity, symmetric crypto for efficien
 ### Why This Prevents MITM
 
 An attacker can't intercept without being detected because:
+
 - To forge a certificate, they'd need the CA's private key (global secret)
 - To complete the handshake, they'd need the server's private key (server's secret)
 - Even with a forged cert, domain validation fails

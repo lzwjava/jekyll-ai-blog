@@ -44,6 +44,7 @@ There's a flashduty-tools repository on GitHub with incident exporters and API s
 ## Integration Points for Your Stack
 
 **Direct API access** (no MCP required):
+
 ```python
 import requests
 
@@ -88,7 +89,7 @@ This shifts on-call from "dumb alert reader" to "intelligent debugger supervisor
 
 ## Next Steps
 
-1. Check their docs at https://docs.flashcat.cloud/en/flashduty/getting-started
+1. Check their docs at <https://docs.flashcat.cloud/en/flashduty/getting-started>
 2. If building an agent, explore the MCP server setup — it's the most direct path to automation
 3. For your current stack, export incident data and build ML models around MTTA optimization (neural net on alert features → time-to-resolution prediction)
 

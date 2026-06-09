@@ -44,6 +44,7 @@ GitHub 上有一个 flashduty-tools 仓库，包含事件导出器和用于编�
 ## 与你的技术栈的集成点
 
 **直接 API 访问**（无需 MCP）：
+
 ```python
 import requests
 
@@ -88,7 +89,7 @@ response = requests.post(
 
 ## 后续步骤
 
-1. 查阅文档：https://docs.flashcat.cloud/en/flashduty/getting-started
+1. 查阅文档：<https://docs.flashcat.cloud/en/flashduty/getting-started>
 2. 如果正在构建智能体，探索 MCP Server 的设置——这是实现自动化的最直接路径
 3. 对于你当前的技术栈，导出事件数据并围绕 MTTA 优化构建 ML 模型（基于告警特征的神经网络 → 预测解决时间）
 

@@ -22,6 +22,7 @@ Beijing-Tianjin-Hebei, Inner Mongolia, the Yangtze River Delta (Shanghai and nei
 **Eastern Tier-1 Hubs (saturated, expensive, low-latency workloads):**
 
 Shanghai, Beijing, Guangzhou, Shenzhen, and Chengdu are among the largest and most important cities for data center infrastructure. These dominate because:
+
 - Dense ecosystems of cloud & internet companies (BAT, ByteDance, etc.)
 - Proximity to end-users (low-latency trading, content delivery, mobile services)
 - Established telecom backbone

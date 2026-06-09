@@ -25,12 +25,14 @@ m_t = β * m_{t-1} + (1 - β) * g_t
 ```
 
 Where:
+
 - `β` is momentum (your case: 0.90 → 0.97)
 - `m_t` is the accumulated momentum
 - `g_t` is the current gradient
 - `α` is learning rate
 
 **Why 0.97 momentum is "stronger":**
+
 - At `β=0.90`: each new gradient contributes `10%` to the update
 - At `β=0.97`: each new gradient contributes only `3%` to the update
 
