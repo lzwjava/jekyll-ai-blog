@@ -17,6 +17,7 @@ Here is a summary of what it does and the main problems users are reporting:
 It is a digital tool for renting **shared storage lockers**. Users typically scan a QR code on a locker at a location (like a gym or exam center) to open the miniprogram, pay a deposit via WeChat, and use the locker.
 
 **The main issues and user complaints:**
+
 - **Deposit not refunded**: Many users report that after returning the items and closing the locker, their deposit (ranging from 4 to 50 yuan) was not returned .
 - **Hidden fees & lack of transparency**: Users complain that the fee structure is not clearly explained before payment. For example, one user reported being charged a fee that was not disclosed upfront . Another user at a gym claimed no staff member informed them there was a fee for using the locker .
 - **Forced usage**: There are reports of the service being used at a driving test center where the use of the lockers was mandatory for storing phones, creating a "forced consumption" situation .
