@@ -22,7 +22,7 @@ AI Translation tips: Han Zhankang，韩占康。
 
 ---
 
-# An In-Depth Conversation on Personal Career Development and Future Planning
+# Candid Talk on English, Life Planning and Personal Finance in Tech
 
 This conversation centers on two senior tech practitioners discussing their career development, technical exploration, English learning, financial situation, and life planning. Both candidly shared their journeys from high-paying positions to entrepreneurship, from deep technical specialization to going overseas. They explored in depth the technology stack choices in the AI era, the critical role of English ability in the workplace, the cutting-edge trend of combining hardware and software, and how to maintain mental balance and continuous growth during an economic downturn. The conversation also touched on specific interview experiences, open-source tool usage, command-line workflow construction, personal financial management, and family relationships.
 
