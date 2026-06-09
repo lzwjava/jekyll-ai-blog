@@ -42,19 +42,18 @@ pip install .
 Depending on your framework setup, you can experiment with which backend yields the highest Model FLOPs Utilization (MFU) on the MI300X by toggling the environmental flag:
 
 * **To use the Composable Kernel backend (Default):**
+
 ```bash
 export FLASH_ATTENTION_TRITON_AMD_ENABLE="FALSE"
 
 ```
 
-
 * **To use the OpenAI Triton backend:**
+
 ```bash
 export FLASH_ATTENTION_TRITON_AMD_ENABLE="TRUE"
 
 ```
-
-
 
 References:
 

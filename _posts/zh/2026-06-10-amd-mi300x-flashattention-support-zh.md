@@ -42,19 +42,18 @@ pip install .
 根据你的框架设置，你可以通过切换环境变量来实验哪个后端在 MI300X 上能实现最高的模型 FLOPs 利用率 (MFU)：
 
 * **使用 Composable Kernel 后端（默认）：**
+
 ```bash
 export FLASH_ATTENTION_TRITON_AMD_ENABLE="FALSE"
 
 ```
 
-
 * **使用 OpenAI Triton 后端：**
+
 ```bash
 export FLASH_ATTENTION_TRITON_AMD_ENABLE="TRUE"
 
 ```
-
-
 
 参考文献：
 

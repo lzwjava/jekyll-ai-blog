@@ -15,8 +15,8 @@ type: note
 系统 CRONTAB（crontab -l）  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-  */10* ** */opt/homebrew/bin/ww appearance smart-auto  
-  0* ** *     /opt/homebrew/bin/ww projects update  
+  */10* ***/opt/homebrew/bin/ww appearance smart-auto  
+  0*** *     /opt/homebrew/bin/ww projects update  
 
   两个任务：每10分钟检查外观，每小时执行 git pull。
 

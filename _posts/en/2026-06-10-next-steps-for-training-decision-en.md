@@ -65,6 +65,7 @@ You have two options:
   ```bash
   tail -f /root/nanochat/run_mi300x_d24.log
   ```
+
 * Monitor metrics: loss, tokens/sec, MFU.
 * Ensure you’re logging checkpoints for safety every 5000 steps.
 

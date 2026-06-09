@@ -65,6 +65,7 @@ type: note
   ```bash
   tail -f /root/nanochat/run_mi300x_d24.log
   ```
+
 * 监控指标：loss、tokens/sec、MFU。
 * 确保每 5000 步保存检查点以保证安全。
 

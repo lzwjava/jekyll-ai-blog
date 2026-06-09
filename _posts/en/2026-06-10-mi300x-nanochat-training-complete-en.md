@@ -16,6 +16,7 @@ Everything is up and running. Here's the summary:
 ============================================================
 
 WHAT WAS DONE:
+
   1. Cloned nanochat (Karpathy's LLM training harness)
   2. Set up Python venv with ROCm PyTorch 2.9.1+rocm6.4
   3. Downloaded 31 ClimbMix-400B dataset shards (~25B tokens)

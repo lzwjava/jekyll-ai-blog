@@ -73,10 +73,10 @@ ML/AI experimentation. Here's what has been done:
   LOGIN HISTORY
 ============================================================
 
-  - Today (Jun 9):  Logged in from 69.63.219.52, system rebooted at 15:46
-  - Jun 1: Long session (~8+ hrs), multiple terminals, heavy GPU work
-  - May 20: Short session (~1 hr), llama.cpp setup
-  - First boot: Mar 16, 2026
+- Today (Jun 9):  Logged in from 69.63.219.52, system rebooted at 15:46
+- Jun 1: Long session (~8+ hrs), multiple terminals, heavy GPU work
+- May 20: Short session (~1 hr), llama.cpp setup
+- First boot: Mar 16, 2026
 
 ============================================================
   DISK USAGE BREAKDOWN
@@ -93,10 +93,11 @@ ML/AI experimentation. Here's what has been done:
 ============================================================
 
 This is a GPU research/dev machine used for:
-  - Running large language models locally (Qwen 122B via llama.cpp)
-  - Training GPT-2 scale models from scratch (nanoGPT 760M on MI300X)
-  - Experimenting with Karpathy's LLM training frameworks
-  - Now also running Hermes Agent for AI-assisted development
+
+- Running large language models locally (Qwen 122B via llama.cpp)
+- Training GPT-2 scale models from scratch (nanoGPT 760M on MI300X)
+- Experimenting with Karpathy's LLM training frameworks
+- Now also running Hermes Agent for AI-assisted development
 
 The GPU is currently idle and available. The biggest recent activity
 was the nanoGPT 760M training run on Jun 1-2 which used the MI300X

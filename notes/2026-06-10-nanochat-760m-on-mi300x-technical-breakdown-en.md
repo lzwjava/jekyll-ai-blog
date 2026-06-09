@@ -35,10 +35,11 @@ Found existing projects on disk:
   /root/nanochat/     - Freshly cloned, not yet set up
 
 The nanoGPT 760M training logs showed:
-  - depth=24, n_head=24, n_embd=1536
-  - MFU 108-113% on MI300X (using nanoGPT's custom CUDA kernels)
-  - Val loss ~3.27 at step 29K
-  - Trained on FineWeb dataset
+
+- depth=24, n_head=24, n_embd=1536
+- MFU 108-113% on MI300X (using nanoGPT's custom CUDA kernels)
+- Val loss ~3.27 at step 29K
+- Trained on FineWeb dataset
 
 ============================================================
 
@@ -49,12 +50,13 @@ nanochat is Karpathy's successor to nanoGPT (deprecated Nov 2025).
 Key differences:
 
   nanoGPT:                     nanochat:
-  - Simple 300-line train.py   - Full-stack: tokenizer, pretrain,
-  - GPT-2 architecture            SFT, eval, chat UI, web UI
-  - Manual hyperparameters     - Auto-scales all hyperparams from
-  - No built-in eval              a single --depth dial
-  - Custom CUDA kernels        - Uses PyTorch SDPA/FA3 (portable)
-  - 108-113% MFU on MI300X     - 27% MFU on MI300X (SDPA fallback)
+
+- Simple 300-line train.py   - Full-stack: tokenizer, pretrain,
+- GPT-2 architecture            SFT, eval, chat UI, web UI
+- Manual hyperparameters     - Auto-scales all hyperparams from
+- No built-in eval              a single --depth dial
+- Custom CUDA kernels        - Uses PyTorch SDPA/FA3 (portable)
+- 108-113% MFU on MI300X     - 27% MFU on MI300X (SDPA fallback)
 
 nanochat trades raw kernel efficiency for a complete pipeline.
 The MFU is lower because it uses PyTorch's SDPA instead of
@@ -69,36 +71,40 @@ evaluation, SFT, and a chat UI out of the box.
 This was a critical architectural decision. Here's the full story:
 
 FLASH ATTENTION 3 (FA3):
-  - Available in nanochat via the 'kernels' package
-  - Requires Hopper GPU (SM 90) - only NVIDIA H100/H200
-  - Detection code in nanochat/flash_attention.py:
+
+- Available in nanochat via the 'kernels' package
+- Requires Hopper GPU (SM 90) - only NVIDIA H100/H200
+- Detection code in nanochat/flash_attention.py:
       if major != 9:  # checks SM capability
           return None  # falls back to SDPA
-  - MI300X reports SM 94 via ROCm, but FA3 kernels are
+- MI300X reports SM 94 via ROCm, but FA3 kernels are
     compiled for NVIDIA SM 90 only - they won't run on AMD
 
 FLASH ATTENTION 2:
-  - The flash-attn package (by Tri Dao) has ROCm support
+
+- The flash-attn package (by Tri Dao) has ROCm support
     but it's not installed and not trivial to build
-  - Would need: pip install flash-attn with ROCm compilation
-  - Risk of build failures on ROCm 7.2
+- Would need: pip install flash-attn with ROCm compilation
+- Risk of build failures on ROCm 7.2
 
 WHAT WE USE INSTEAD - PyTorch SDPA:
-  - PyTorch's scaled_dot_product_attention is the fallback
-  - It dispatches to the best available backend:
-    * cuDNN/hipDNN attention (if available)
-    * Memory-efficient attention (if available)
-    * Math implementation (fallback)
-  - On ROCm, it typically uses the math implementation
-  - This is why MFU is 27% instead of 50-60%
+
+- PyTorch's scaled_dot_product_attention is the fallback
+- It dispatches to the best available backend:
+  - cuDNN/hipDNN attention (if available)
+  - Memory-efficient attention (if available)
+  - Math implementation (fallback)
+- On ROCm, it typically uses the math implementation
+- This is why MFU is 27% instead of 50-60%
 
 IMPACT ON TRAINING:
-  - SDPA does NOT support sliding window attention
-  - That's why we use --window-pattern L (full attention)
-  - With FA3, we could use "SSSL" pattern (3/4 sliding window)
+
+- SDPA does NOT support sliding window attention
+- That's why we use --window-pattern L (full attention)
+- With FA3, we could use "SSSL" pattern (3/4 sliding window)
     which saves compute on 3 out of 4 layers
-  - Full attention uses more FLOPs per token, hence lower MFU
-  - But it works correctly and reliably on AMD
+- Full attention uses more FLOPs per token, hence lower MFU
+- But it works correctly and reliably on AMD
 
 WHAT WOULD IMPROVE THIS:
   Option A: Install flash-attn for ROCm (risky, may not compile)
@@ -133,8 +139,9 @@ This gives:
 NOTE: The original nanoGPT 760M used n_head=24 (head_dim=64),
 but nanochat uses head_dim=128 by default. The total parameter
 count is similar because:
-  - Fewer heads (12 vs 24) but larger head_dim (128 vs 64)
-  - Same total attention dimension: 12×128 = 24×64 = 1536
+
+- Fewer heads (12 vs 24) but larger head_dim (128 vs 64)
+- Same total attention dimension: 12×128 = 24×64 = 1536
 
 PARAMETER BREAKDOWN:
   wte (word embeddings):        50,331,648  (32768 vocab × 1536 dim)
@@ -145,10 +152,11 @@ PARAMETER BREAKDOWN:
   TOTAL:                     1,384,122,122  (~1.38B)
 
 The "value_embeds" is a nanochat-specific feature:
-  - Every other layer has a value embedding (like RETRO)
-  - Adds ~604M parameters that nanoGPT doesn't have
-  - The "transformer_matrices" (679M) is closer to the 760M target
-  - This is why total params are 1.38B, not 760M
+
+- Every other layer has a value embedding (like RETRO)
+- Adds ~604M parameters that nanoGPT doesn't have
+- The "transformer_matrices" (679M) is closer to the 760M target
+- This is why total params are 1.38B, not 760M
 
 ============================================================
 
@@ -158,63 +166,68 @@ The "value_embeds" is a nanochat-specific feature:
 A. BATCH SIZE: 524,288 tokens/step
 
   How I chose this:
-  - nanochat default for depth=20 is 524,288
-  - This is 256 sequences × 2048 tokens each
-  - Standard for models in the 500M-1B range
-  - Matches what the nanoGPT 760M used
+
+- nanochat default for depth=20 is 524,288
+- This is 256 sequences × 2048 tokens each
+- Standard for models in the 500M-1B range
+- Matches what the nanoGPT 760M used
 
   Breakdown on MI300X:
-  - device_batch_size=32 (32 sequences per GPU forward pass)
-  - tokens per micro-batch: 32 × 2048 = 65,536
-  - gradient accumulation steps: 524,288 / 65,536 = 8
-  - Each step = 8 forward+backward passes, then 1 optimizer step
+
+- device_batch_size=32 (32 sequences per GPU forward pass)
+- tokens per micro-batch: 32 × 2048 = 65,536
+- gradient accumulation steps: 524,288 / 65,536 = 8
+- Each step = 8 forward+backward passes, then 1 optimizer step
 
 B. SEQUENCE LENGTH: 2048
 
-  - nanochat default, good balance of context vs memory
-  - Longer sequences (4096) would use more VRAM per micro-batch
-  - The MI300X could handle 4096, but 2048 is standard
-  - Matches GPT-2's original context length
+- nanochat default, good balance of context vs memory
+- Longer sequences (4096) would use more VRAM per micro-batch
+- The MI300X could handle 4096, but 2048 is standard
+- Matches GPT-2's original context length
 
 C. WINDOW PATTERN: L (full attention)
 
-  - FA3 supports "SSSL" (sliding window on 3/4 layers)
-  - SDPA does NOT support sliding window attention
-  - Must use "L" (full attention on all layers)
-  - This means every layer does full O(n²) attention
-  - More compute per token, but simpler and correct
+- FA3 supports "SSSL" (sliding window on 3/4 layers)
+- SDPA does NOT support sliding window attention
+- Must use "L" (full attention on all layers)
+- This means every layer does full O(n²) attention
+- More compute per token, but simpler and correct
 
 D. NUMBER OF ITERATIONS: 29,000
 
   Chinchilla-optimal scaling:
-  - Chinchilla paper says: optimal tokens = 20 × parameters
-  - Our model: 760M params (transformer matrices)
-  - Target tokens: 20 × 760M = 15.2B tokens
-  - Steps needed: 15.2B / 524,288 = 29,000 steps
+
+- Chinchilla paper says: optimal tokens = 20 × parameters
+- Our model: 760M params (transformer matrices)
+- Target tokens: 20 × 760M = 15.2B tokens
+- Steps needed: 15.2B / 524,288 = 29,000 steps
 
   This matches what the nanoGPT run did:
-  - nanoGPT 760M trained to ~29K steps with similar batch size
-  - Achieved val loss ~3.27 at that point
+
+- nanoGPT 760M trained to ~29K steps with similar batch size
+- Achieved val loss ~3.27 at that point
 
 E. LEARNING RATES (auto-scaled by nanochat):
 
-  - embedding_lr: 0.3 (default)
-  - unembedding_lr: 0.008 (default)
-  - matrix_lr: 0.02 (Muon optimizer for weights)
-  - scalar_lr: 0.5 (for resid_lambdas, x0_lambdas)
-  - weight_decay: 0.28 (scaled down for depth 24)
+- embedding_lr: 0.3 (default)
+- unembedding_lr: 0.008 (default)
+- matrix_lr: 0.02 (Muon optimizer for weights)
+- scalar_lr: 0.5 (for resid_lambdas, x0_lambdas)
+- weight_decay: 0.28 (scaled down for depth 24)
 
   nanochat auto-adjusts:
-  - Weight decay scaled: 0.28 × (24/160) ≈ 0.042 for depth 24
-  - Adam LR scaled by 1/√(1536/768) = 0.707 for larger model
+
+- Weight decay scaled: 0.28 × (24/160) ≈ 0.042 for depth 24
+- Adam LR scaled by 1/√(1536/768) = 0.707 for larger model
 
 F. EVALUATION SETTINGS:
 
-  - eval_every=1000 (validation loss every 1000 steps)
-  - eval_tokens=1,048,576 (2M tokens for val loss estimate)
-  - core_metric_every=5000 (DCLM CORE benchmark every 5K steps)
-  - sample_every=5000 (generate text samples every 5K steps)
-  - save_every=5000 (checkpoint every 5K steps)
+- eval_every=1000 (validation loss every 1000 steps)
+- eval_tokens=1,048,576 (2M tokens for val loss estimate)
+- core_metric_every=5000 (DCLM CORE benchmark every 5K steps)
+- sample_every=5000 (generate text samples every 5K steps)
+- save_every=5000 (checkpoint every 5K steps)
 
 ============================================================
 
@@ -233,6 +246,7 @@ TIME ESTIMATE:
   = 3,722 minutes = 62 hours ≈ 2.6 days
 
 WHY MFU IS 27% (not 50%+):
+
   1. SDPA fallback (no fused attention kernels)
      - FA3 on H100: fused, vectorized, pipelined
      - SDPA on MI300X: separate matmuls + softmax + dropout
@@ -251,10 +265,11 @@ COMPARISON WITH NANOGPT:
   nanochat 760M on same MI300X: 27.5% MFU
 
   The difference is:
-  - nanoGPT uses custom CUDA kernels (hand-tuned)
-  - nanochat uses PyTorch SDPA (portable but slower)
-  - nanoGPT doesn't have value embeddings (simpler)
-  - nanochat has full pipeline (tokenizer, eval, chat)
+
+- nanoGPT uses custom CUDA kernels (hand-tuned)
+- nanochat uses PyTorch SDPA (portable but slower)
+- nanoGPT doesn't have value embeddings (simpler)
+- nanochat has full pipeline (tokenizer, eval, chat)
 
   If you need raw speed: use nanoGPT
   If you need the full pipeline: use nanochat
@@ -278,23 +293,26 @@ ENVIRONMENT VARIABLES SET:
     - Reduces fragmentation for large allocations
 
 FP8 TRAINING:
-  - Checked: torch._scaled_mm exists, float8_e4m3fn exists
-  - BUT: "Float8_e4m3fn is only supported for ROCm 6.5 and above"
-  - We have ROCm 7.2, but PyTorch was built against ROCm 6.4
-  - So FP8 is NOT available
-  - With FP8, we could get ~2x throughput (similar to H100 FP8)
-  - Would need PyTorch built with ROCm 7.2 support
+
+- Checked: torch._scaled_mm exists, float8_e4m3fn exists
+- BUT: "Float8_e4m3fn is only supported for ROCm 6.5 and above"
+- We have ROCm 7.2, but PyTorch was built against ROCm 6.4
+- So FP8 is NOT available
+- With FP8, we could get ~2x throughput (similar to H100 FP8)
+- Would need PyTorch built with ROCm 7.2 support
 
 DDP (Distributed Data Parallel):
-  - Single GPU, so DDP is not used
-  - If multi-GPU: would need backend="nccl" (ROCm has NCCL)
-  - The code checks for RANK/WORLD_SIZE env vars
+
+- Single GPU, so DDP is not used
+- If multi-GPU: would need backend="nccl" (ROCm has NCCL)
+- The code checks for RANK/WORLD_SIZE env vars
 
 COMPILATION:
-  - nanochat uses torch.compile internally
-  - First step is slow (17.5s) due to JIT compilation
-  - Subsequent steps benefit from compiled kernels
-  - ROCm's torch.compile works but may generate suboptimal code
+
+- nanochat uses torch.compile internally
+- First step is slow (17.5s) due to JIT compilation
+- Subsequent steps benefit from compiled kernels
+- ROCm's torch.compile works but may generate suboptimal code
 
 ============================================================
 
@@ -302,22 +320,25 @@ COMPILATION:
 ============================================================
 
 DATASET: ClimbMix-400B
-  - URL: huggingface.co/datasets/karpathy/climbmix-400b-shuffle
-  - Format: Parquet shards (~810M tokens each)
-  - We downloaded 30 train shards + 1 val shard = 31 total
-  - ~25B tokens available (more than the 15.2B needed)
+
+- URL: huggingface.co/datasets/karpathy/climbmix-400b-shuffle
+- Format: Parquet shards (~810M tokens each)
+- We downloaded 30 train shards + 1 val shard = 31 total
+- ~25B tokens available (more than the 15.2B needed)
 
 TOKENIZER: BPE (Byte Pair Encoding)
-  - Trained on the ClimbMix data
-  - Vocab size: 32,768
-  - Training time: 49.77 seconds
-  - Saved to: ~/.cache/nanochat/tokenizer/
+
+- Trained on the ClimbMix data
+- Vocab size: 32,768
+- Training time: 49.77 seconds
+- Saved to: ~/.cache/nanochat/tokenizer/
 
 DATA LOADING:
-  - nanochat uses a streaming dataloader
-  - Reads parquet files on-the-fly (no full dataset in RAM)
-  - Supports distributed reading (DDP-safe)
-  - Last shard is always the validation set
+
+- nanochat uses a streaming dataloader
+- Reads parquet files on-the-fly (no full dataset in RAM)
+- Supports distributed reading (DDP-safe)
+- Last shard is always the validation set
 
 ============================================================
 
@@ -331,9 +352,10 @@ CHECKPOINTS (every 5000 steps):
     meta_XXXXX.json     - Training metadata
 
 MONITORING:
-  - Training log: /root/nanochat/run_mi300x_d24.log
-  - MLflow tracking (local file store)
-  - Live metrics: loss, learning rate, MFU, tok/sec
+
+- Training log: /root/nanochat/run_mi300x_d24.log
+- MLflow tracking (local file store)
+- Live metrics: loss, learning rate, MFU, tok/sec
 
 RESUME FROM CHECKPOINT:
   ./run_mi300x_d24_pretrain.sh --resume-from-step=5000
@@ -346,17 +368,20 @@ RESUME FROM CHECKPOINT:
 The full pipeline (run_mi300x_d24.sh) includes:
 
 Step 4: BASE EVALUATION
-  - Evaluates on DCLM CORE benchmark
-  - Measures bits-per-byte (bpb) on various tasks
-  - Target: match GPT-2 CORE score (0.2565)
+
+- Evaluates on DCLM CORE benchmark
+- Measures bits-per-byte (bpb) on various tasks
+- Target: match GPT-2 CORE score (0.2565)
 
 Step 5: SFT (Supervised Fine-Tuning)
-  - Downloads identity_conversations.jsonl
-  - Fine-tunes base model on chat data
-  - 3000 steps with smaller batch (262,144)
+
+- Downloads identity_conversations.jsonl
+- Fine-tunes base model on chat data
+- 3000 steps with smaller batch (262,144)
 
 Step 6: CHAT EVALUATION
-  - Tests the SFT model on chat benchmarks
+
+- Tests the SFT model on chat benchmarks
 
 Step 7: INTERACTIVE CHAT
   python -m scripts.chat_cli -p 'Why is the sky blue?'

@@ -16,6 +16,7 @@ type: note
 On macOS 26, Clock.app alarms are managed entirely by the `mobiletimerd` daemon via XPC (`com.apple.MobileTimer.alarmserver`). The daemon keeps alarms in-memory. Neither the plist nor the SQLite database is the source of truth — the daemon IS.
 
 **What doesn't work (all tested and confirmed):**
+
 1. Writing to `~/Library/Preferences/com.apple.mobiletimerd.plist` — daemon ignores it, Clock.app shows "No Alarms"
 2. Writing to `~/Library/Group Containers/group.com.apple.mobiletimerd/local.sqlite` — same result
 3. Calling `MTAlarmManager.addAlarm_()` via pyobjc — XPC rejected: `"not entitled"`
@@ -27,6 +28,7 @@ The entitlements are Apple-private. Only Apple-signed processes (Clock.app, Shor
 ### What DOES Work
 
 **Shortcuts.app** has the correct entitlements and can create alarms. The `shortcuts` CLI can run shortcuts:
+
 ```bash
 shortcuts run "shortcut-name" --input-path /tmp/input.txt
 ```
@@ -47,6 +49,7 @@ The user needs to add a "Create Alarm" action to the shortcut in Shortcuts.app:
 4. Save
 
 Then update `alarm.py` to call:
+
 ```python
 subprocess.run(["shortcuts", "run", "ww-create-alarm-signed", "--input-path", tmpfile])
 ```

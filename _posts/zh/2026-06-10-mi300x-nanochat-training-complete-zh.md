@@ -16,6 +16,7 @@ type: note
 ============================================================
 
 已完成的工作：
+
   1. 克隆 nanochat（Karpathy 的 LLM 训练框架）
   2. 使用 ROCm PyTorch 2.9.1+rocm6.4 设置 Python 虚拟环境
   3. 下载 31 个 ClimbMix-400B 数据集分片（约 250 亿 token）

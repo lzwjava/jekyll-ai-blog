@@ -16,6 +16,7 @@ type: note
 在 macOS 26 上，Clock.app 的闹钟完全由 `mobiletimerd` 守护进程通过 XPC（`com.apple.MobileTimer.alarmserver`）管理。该守护进程将闹钟保存在内存中。plist 或 SQLite 数据库都不是真实数据源——守护进程本身才是。
 
 **以下方法均无效（已全部测试并确认）：**
+
 1. 写入 `~/Library/Preferences/com.apple.mobiletimerd.plist` —— 守护进程忽略，Clock.app 显示“无闹钟”
 2. 写入 `~/Library/Group Containers/group.com.apple.mobiletimerd/local.sqlite` —— 结果相同
 3. 通过 pyobjc 调用 `MTAlarmManager.addAlarm_()` —— XPC 拒绝：`"not entitled"`
@@ -27,6 +28,7 @@ type: note
 ### 可行方法
 
 **Shortcuts.app** 拥有正确的授权，可以创建闹钟。 `shortcuts` CLI 可以运行快捷指令：
+
 ```bash
 shortcuts run "shortcut-name" --input-path /tmp/input.txt
 ```
@@ -47,6 +49,7 @@ shortcuts run "shortcut-name" --input-path /tmp/input.txt
 4. 保存
 
 然后更新 `alarm.py`，使其调用：
+
 ```python
 subprocess.run(["shortcuts", "run", "ww-create-alarm-signed", "--input-path", tmpfile])
 ```

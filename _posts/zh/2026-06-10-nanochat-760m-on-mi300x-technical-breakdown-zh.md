@@ -35,10 +35,11 @@ type: note
   /root/nanochat/     - 新克隆，尚未设置
 
 nanoGPT 760M 训练日志显示：
-  - depth=24, n_head=24, n_embd=1536
-  - 在 MI300X 上 MFU 为 108-113% (使用 nanoGPT 的自定义 CUDA 内核)
-  - 第 29K 步时验证损失约为 3.27
-  - 在 FineWeb 数据集上训练
+
+- depth=24, n_head=24, n_embd=1536
+- 在 MI300X 上 MFU 为 108-113% (使用 nanoGPT 的自定义 CUDA 内核)
+- 第 29K 步时验证损失约为 3.27
+- 在 FineWeb 数据集上训练
 
 ============================================================
 
@@ -49,12 +50,13 @@ nanochat 是 Karpathy 对 nanoGPT 的继任者 (于 2025 年 11 月弃用)。
 主要区别：
 
   nanoGPT:                     nanochat:
-  - 简单的 300 行 train.py     - 全栈：分词器、预训练、
-  - GPT-2 架构                    SFT、评估、聊天 UI、网页 UI
-  - 手动超参数                 - 从单个 --depth 参数自动缩放所有超参数
-  - 无内置评估                 - 使用 PyTorch SDPA/FA3 (可移植)
-  - 自定义 CUDA 内核           - 在 MI300X 上 MFU 为 27% (SDPA 回退)
-  - 在 MI300X 上 MFU 为 108-113%
+
+- 简单的 300 行 train.py     - 全栈：分词器、预训练、
+- GPT-2 架构                    SFT、评估、聊天 UI、网页 UI
+- 手动超参数                 - 从单个 --depth 参数自动缩放所有超参数
+- 无内置评估                 - 使用 PyTorch SDPA/FA3 (可移植)
+- 自定义 CUDA 内核           - 在 MI300X 上 MFU 为 27% (SDPA 回退)
+- 在 MI300X 上 MFU 为 108-113%
 
 nanochat 用原始内核效率换取了完整的流程。
 MFU 较低是因为它使用 PyTorch 的 SDPA 而不是手写 CUDA 内核，
@@ -68,36 +70,40 @@ MFU 较低是因为它使用 PyTorch 的 SDPA 而不是手写 CUDA 内核，
 这是一个关键架构决策。以下是完整说明：
 
 FLASH ATTENTION 3 (FA3):
-  - 通过 'kernels' 包在 nanochat 中可用
-  - 需要 Hopper GPU (SM 90) - 仅限 NVIDIA H100/H200
-  - nanochat/flash_attention.py 中的检测代码：
+
+- 通过 'kernels' 包在 nanochat 中可用
+- 需要 Hopper GPU (SM 90) - 仅限 NVIDIA H100/H200
+- nanochat/flash_attention.py 中的检测代码：
       if major != 9:  # 检查 SM 能力
           return None  # 回退到 SDPA
-  - MI300X 通过 ROCm 报告 SM 94，但 FA3 内核
+- MI300X 通过 ROCm 报告 SM 94，但 FA3 内核
     仅为 NVIDIA SM 90 编译 - 它们无法在 AMD 上运行
 
 FLASH ATTENTION 2:
-  - flash-attn 包 (由 Tri Dao 开发) 有 ROCm 支持
+
+- flash-attn 包 (由 Tri Dao 开发) 有 ROCm 支持
     但未安装且不易构建
-  - 需要：使用 ROCm 编译的 pip install flash-attn
-  - 在 ROCm 7.2 上存在构建失败的风险
+- 需要：使用 ROCm 编译的 pip install flash-attn
+- 在 ROCm 7.2 上存在构建失败的风险
 
 我们使用的替代方案 - PyTorch SDPA:
-  - PyTorch 的 scaled_dot_product_attention 是回退方案
-  - 它会调度到最佳可用后端：
-    * cuDNN/hipDNN 注意力 (如果可用)
-    * 内存高效注意力 (如果可用)
-    * 数学实现 (回退)
-  - 在 ROCm 上，它通常使用数学实现
-  - 这就是 MFU 为 27% 而不是 50-60% 的原因
+
+- PyTorch 的 scaled_dot_product_attention 是回退方案
+- 它会调度到最佳可用后端：
+  - cuDNN/hipDNN 注意力 (如果可用)
+  - 内存高效注意力 (如果可用)
+  - 数学实现 (回退)
+- 在 ROCm 上，它通常使用数学实现
+- 这就是 MFU 为 27% 而不是 50-60% 的原因
 
 对训练的影响：
-  - SDPA 不支持滑动窗口注意力
-  - 这就是我们使用 --window-pattern L (全注意力) 的原因
-  - 使用 FA3，我们可以使用 "SSSL" 模式 (3/4 滑动窗口)
+
+- SDPA 不支持滑动窗口注意力
+- 这就是我们使用 --window-pattern L (全注意力) 的原因
+- 使用 FA3，我们可以使用 "SSSL" 模式 (3/4 滑动窗口)
     从而节省 4 层中 3 层的计算量
-  - 全注意力每个 token 使用更多 FLOPs，因此 MFU 较低
-  - 但在 AMD 上能正确且可靠地工作
+- 全注意力每个 token 使用更多 FLOPs，因此 MFU 较低
+- 但在 AMD 上能正确且可靠地工作
 
 如何改进：
   选项 A：为 ROCm 安装 flash-attn (有风险，可能无法编译)
@@ -131,8 +137,9 @@ nanochat 从 --depth 自动缩放所有内容：
 
 注意：原始 nanoGPT 760M 使用 n_head=24 (head_dim=64)，
 但 nanochat 默认使用 head_dim=128。总参数量相似，因为：
-  - 更少的头 (12 vs 24) 但更大的 head_dim (128 vs 64)
-  - 相同的总注意力维度：12×128 = 24×64 = 1536
+
+- 更少的头 (12 vs 24) 但更大的 head_dim (128 vs 64)
+- 相同的总注意力维度：12×128 = 24×64 = 1536
 
 参数分解：
   wte (词嵌入)：                50,331,648  (32768 词汇表 × 1536 维度)
@@ -143,10 +150,11 @@ nanochat 从 --depth 自动缩放所有内容：
   总计：                     1,384,122,122  (~1.38B)
 
 "value_embeds" 是 nanochat 特有的功能：
-  - 每隔一层有一个值嵌入 (类似于 RETRO)
-  - 增加了 nanoGPT 没有的约 604M 参数
-  - "transformer_matrices" (679M) 更接近 760M 目标
-  - 这就是总参数为 1.38B 而不是 760M 的原因
+
+- 每隔一层有一个值嵌入 (类似于 RETRO)
+- 增加了 nanoGPT 没有的约 604M 参数
+- "transformer_matrices" (679M) 更接近 760M 目标
+- 这就是总参数为 1.38B 而不是 760M 的原因
 
 ============================================================
 
@@ -156,63 +164,68 @@ nanochat 从 --depth 自动缩放所有内容：
 A. 批次大小：每步 524,288 个 token
 
   我如何选择：
-  - depth=20 的 nanochat 默认值为 524,288
-  - 这是 256 个序列 × 每个序列 2048 个 token
-  - 对于 500M-1B 范围内的模型是标准配置
-  - 匹配 nanoGPT 760M 使用的值
+
+- depth=20 的 nanochat 默认值为 524,288
+- 这是 256 个序列 × 每个序列 2048 个 token
+- 对于 500M-1B 范围内的模型是标准配置
+- 匹配 nanoGPT 760M 使用的值
 
   在 MI300X 上的分解：
-  - device_batch_size=32 (每次 GPU 前向传递 32 个序列)
-  - 每个微批次的 token 数：32 × 2048 = 65,536
-  - 梯度累积步数：524,288 / 65,536 = 8
-  - 每一步 = 8 次前向+反向传递，然后 1 次优化器步骤
+
+- device_batch_size=32 (每次 GPU 前向传递 32 个序列)
+- 每个微批次的 token 数：32 × 2048 = 65,536
+- 梯度累积步数：524,288 / 65,536 = 8
+- 每一步 = 8 次前向+反向传递，然后 1 次优化器步骤
 
 B. 序列长度：2048
 
-  - nanochat 默认值，上下文与内存的良好平衡
-  - 更长的序列 (4096) 会使用更多每个微批次的显存
-  - MI300X 可以处理 4096，但 2048 是标准
-  - 匹配 GPT-2 的原始上下文长度
+- nanochat 默认值，上下文与内存的良好平衡
+- 更长的序列 (4096) 会使用更多每个微批次的显存
+- MI300X 可以处理 4096，但 2048 是标准
+- 匹配 GPT-2 的原始上下文长度
 
 C. 窗口模式：L (全注意力)
 
-  - FA3 支持 "SSSL" (在 3/4 层上滑动窗口)
-  - SDPA 不支持滑动窗口注意力
-  - 必须使用 "L" (所有层上的全注意力)
-  - 这意味着每一层都进行完整的 O(n²) 注意力计算
-  - 每个 token 计算量更大，但更简单且正确
+- FA3 支持 "SSSL" (在 3/4 层上滑动窗口)
+- SDPA 不支持滑动窗口注意力
+- 必须使用 "L" (所有层上的全注意力)
+- 这意味着每一层都进行完整的 O(n²) 注意力计算
+- 每个 token 计算量更大，但更简单且正确
 
 D. 迭代次数：29,000
 
   Chinchilla 最优缩放：
-  - Chinchilla 论文指出：最优 token 数 = 20 × 参数量
-  - 我们的模型：760M 参数 (transformer 矩阵)
-  - 目标 token 数：20 × 760M = 15.2B token
-  - 所需步数：15.2B / 524,288 = 29,000 步
+
+- Chinchilla 论文指出：最优 token 数 = 20 × 参数量
+- 我们的模型：760M 参数 (transformer 矩阵)
+- 目标 token 数：20 × 760M = 15.2B token
+- 所需步数：15.2B / 524,288 = 29,000 步
 
   这与 nanoGPT 运行相匹配：
-  - nanoGPT 760M 以相似的批次大小训练到约 29K 步
-  - 此时达到验证损失约 3.27
+
+- nanoGPT 760M 以相似的批次大小训练到约 29K 步
+- 此时达到验证损失约 3.27
 
 E. 学习率 (由 nanochat 自动缩放)：
 
-  - embedding_lr: 0.3 (默认)
-  - unembedding_lr: 0.008 (默认)
-  - matrix_lr: 0.02 (用于权重的 Muon 优化器)
-  - scalar_lr: 0.5 (用于 resid_lambdas, x0_lambdas)
-  - weight_decay: 0.28 (为 depth 24 缩放)
+- embedding_lr: 0.3 (默认)
+- unembedding_lr: 0.008 (默认)
+- matrix_lr: 0.02 (用于权重的 Muon 优化器)
+- scalar_lr: 0.5 (用于 resid_lambdas, x0_lambdas)
+- weight_decay: 0.28 (为 depth 24 缩放)
 
   nanochat 自动调整：
-  - 权重衰减缩放：0.28 × (24/160) ≈ 0.042 对于 depth 24
-  - Adam 学习率缩放：1/√(1536/768) = 0.707 对于更大模型
+
+- 权重衰减缩放：0.28 × (24/160) ≈ 0.042 对于 depth 24
+- Adam 学习率缩放：1/√(1536/768) = 0.707 对于更大模型
 
 F. 评估设置：
 
-  - eval_every=1000 (每 1000 步验证损失)
-  - eval_tokens=1,048,576 (用于验证损失估计的 2M token)
-  - core_metric_every=5000 (每 5K 步 DCLM CORE 基准测试)
-  - sample_every=5000 (每 5K 步生成文本样本)
-  - save_every=5000 (每 5K 步检查点)
+- eval_every=1000 (每 1000 步验证损失)
+- eval_tokens=1,048,576 (用于验证损失估计的 2M token)
+- core_metric_every=5000 (每 5K 步 DCLM CORE 基准测试)
+- sample_every=5000 (每 5K 步生成文本样本)
+- save_every=5000 (每 5K 步检查点)
 
 ============================================================
 
@@ -231,6 +244,7 @@ F. 评估设置：
   = 3,722 分钟 = 62 小时 ≈ 2.6 天
 
 为什么 MFU 是 27% (不是 50%+)：
+
   1. SDPA 回退 (无融合注意力内核)
      - H100 上的 FA3：融合、向量化、流水线化
      - MI300X 上的 SDPA：单独的矩阵乘法 + softmax + dropout
@@ -249,10 +263,11 @@ F. 评估设置：
   同一 MI300X 上的 nanochat 760M：27.5% MFU
 
   区别在于：
-  - nanoGPT 使用自定义 CUDA 内核 (手工调优)
-  - nanochat 使用 PyTorch SDPA (可移植但较慢)
-  - nanoGPT 没有值嵌入 (更简单)
-  - nanochat 有完整流程 (分词器、评估、聊天)
+
+- nanoGPT 使用自定义 CUDA 内核 (手工调优)
+- nanochat 使用 PyTorch SDPA (可移植但较慢)
+- nanoGPT 没有值嵌入 (更简单)
+- nanochat 有完整流程 (分词器、评估、聊天)
 
   如果你需要原始速度：使用 nanoGPT
   如果你需要完整流程：使用 nanochat
@@ -276,23 +291,26 @@ F. 评估设置：
     - 减少大分配的内存碎片
 
 FP8 训练：
-  - 已检查：torch._scaled_mm 存在，float8_e4m3fn 存在
-  - 但是："Float8_e4m3fn 仅支持 ROCm 6.5 及以上版本"
-  - 我们有 ROCm 7.2，但 PyTorch 是针对 ROCm 6.4 构建的
-  - 因此 FP8 不可用
-  - 使用 FP8，我们可以获得约 2 倍的吞吐量 (类似于 H100 FP8)
-  - 需要构建支持 ROCm 7.2 的 PyTorch
+
+- 已检查：torch._scaled_mm 存在，float8_e4m3fn 存在
+- 但是："Float8_e4m3fn 仅支持 ROCm 6.5 及以上版本"
+- 我们有 ROCm 7.2，但 PyTorch 是针对 ROCm 6.4 构建的
+- 因此 FP8 不可用
+- 使用 FP8，我们可以获得约 2 倍的吞吐量 (类似于 H100 FP8)
+- 需要构建支持 ROCm 7.2 的 PyTorch
 
 DDP (分布式数据并行)：
-  - 单 GPU，因此不使用 DDP
-  - 如果多 GPU：需要 backend="nccl" (ROCm 有 NCCL)
-  - 代码检查 RANK/WORLD_SIZE 环境变量
+
+- 单 GPU，因此不使用 DDP
+- 如果多 GPU：需要 backend="nccl" (ROCm 有 NCCL)
+- 代码检查 RANK/WORLD_SIZE 环境变量
 
 编译：
-  - nanochat 内部使用 torch.compile
-  - 由于 JIT 编译，第一步很慢 (17.5 秒)
-  - 后续步骤受益于编译后的内核
-  - ROCm 的 torch.compile 可以工作，但可能生成次优代码
+
+- nanochat 内部使用 torch.compile
+- 由于 JIT 编译，第一步很慢 (17.5 秒)
+- 后续步骤受益于编译后的内核
+- ROCm 的 torch.compile 可以工作，但可能生成次优代码
 
 ============================================================
 
@@ -300,22 +318,25 @@ DDP (分布式数据并行)：
 ============================================================
 
 数据集：ClimbMix-400B
-  - URL：huggingface.co/datasets/karpathy/climbmix-400b-shuffle
-  - 格式：Parquet 分片 (每个约 810M token)
-  - 我们下载了 30 个训练分片 + 1 个验证分片 = 总共 31 个
-  - 约 25B token 可用 (超过所需的 15.2B)
+
+- URL：huggingface.co/datasets/karpathy/climbmix-400b-shuffle
+- 格式：Parquet 分片 (每个约 810M token)
+- 我们下载了 30 个训练分片 + 1 个验证分片 = 总共 31 个
+- 约 25B token 可用 (超过所需的 15.2B)
 
 分词器：BPE (字节对编码)
-  - 在 ClimbMix 数据上训练
-  - 词汇表大小：32,768
-  - 训练时间：49.77 秒
-  - 保存到：~/.cache/nanochat/tokenizer/
+
+- 在 ClimbMix 数据上训练
+- 词汇表大小：32,768
+- 训练时间：49.77 秒
+- 保存到：~/.cache/nanochat/tokenizer/
 
 数据加载：
-  - nanochat 使用流式数据加载器
-  - 即时读取 parquet 文件 (不在内存中加载完整数据集)
-  - 支持分布式读取 (DDP 安全)
-  - 最后一个分片始终是验证集
+
+- nanochat 使用流式数据加载器
+- 即时读取 parquet 文件 (不在内存中加载完整数据集)
+- 支持分布式读取 (DDP 安全)
+- 最后一个分片始终是验证集
 
 ============================================================
 
@@ -329,9 +350,10 @@ DDP (分布式数据并行)：
     meta_XXXXX.json     - 训练元数据
 
 监控：
-  - 训练日志：/root/nanochat/run_mi300x_d24.log
-  - MLflow 跟踪 (本地文件存储)
-  - 实时指标：损失、学习率、MFU、token/秒
+
+- 训练日志：/root/nanochat/run_mi300x_d24.log
+- MLflow 跟踪 (本地文件存储)
+- 实时指标：损失、学习率、MFU、token/秒
 
 从检查点恢复：
   ./run_mi300x_d24_pretrain.sh --resume-from-step=5000
@@ -344,17 +366,20 @@ DDP (分布式数据并行)：
 完整流程 (run_mi300x_d24.sh) 包括：
 
 步骤 4：基础评估
-  - 在 DCLM CORE 基准测试上评估
-  - 测量各种任务上的每字节比特数 (bpb)
-  - 目标：匹配 GPT-2 CORE 分数 (0.2565)
+
+- 在 DCLM CORE 基准测试上评估
+- 测量各种任务上的每字节比特数 (bpb)
+- 目标：匹配 GPT-2 CORE 分数 (0.2565)
 
 步骤 5：SFT (监督微调)
-  - 下载 identity_conversations.jsonl
-  - 在聊天数据上微调基础模型
-  - 3000 步，使用较小的批次 (262,144)
+
+- 下载 identity_conversations.jsonl
+- 在聊天数据上微调基础模型
+- 3000 步，使用较小的批次 (262,144)
 
 步骤 6：聊天评估
-  - 在聊天基准测试上测试 SFT 模型
+
+- 在聊天基准测试上测试 SFT 模型
 
 步骤 7：交互式聊天
   python -m scripts.chat_cli -p 'Why is the sky blue?'

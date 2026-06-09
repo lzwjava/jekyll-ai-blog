@@ -15,8 +15,8 @@ Here's the full picture:
  SYSTEM CRONTAB (crontab -l)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  */10* ** */opt/homebrew/bin/ww appearance smart-auto
-  0* ** *     /opt/homebrew/bin/ww projects update
+  */10* ***/opt/homebrew/bin/ww appearance smart-auto
+  0*** *     /opt/homebrew/bin/ww projects update
 
   Two jobs: appearance check every 10 min, git pull every hour.
 
