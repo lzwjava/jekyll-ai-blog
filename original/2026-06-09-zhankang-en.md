@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: zhankang
+title: Candid Talk on English, Life Planning and Personal Finance in Tech
 translated: false
 ---
 
