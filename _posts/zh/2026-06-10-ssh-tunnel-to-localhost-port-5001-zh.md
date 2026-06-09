@@ -15,4 +15,4 @@ type: note
 ssh -L 5001:127.0.0.1:5001 amd-cloud -N
 ```
 
-然后在浏览器中打开 http://localhost:5001。完成后按 `Ctrl+C` 关闭隧道。
+然后在浏览器中打开 <http://localhost:5001。完成后按> `Ctrl+C` 关闭隧道。

@@ -25,7 +25,7 @@ A good rule of thumb for transformer LLMs:
 * **Medium/final-quality runs:** 200–300× model parameters in tokens
 * **High-quality/foundation-scale:** 500×+ model parameters in tokens
 
-### Calculation for 1.5B:
+### Calculation for 1.5B
 
 * Model params: 1.5B ≈ 1.5×10⁹
 * Medium-quality target (200×):
@@ -52,7 +52,7 @@ Use your current MI300X throughput as reference:
 
 * Token throughput is halved because compute roughly doubles.
 
-### Wall-clock time:
+### Wall-clock time
 
 * **Target:** 200B tokens
 * Throughput: 55k tok/sec → 198M tok/hour ≈ 0.198B tok/hour

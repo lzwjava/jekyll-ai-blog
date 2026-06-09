@@ -11,7 +11,6 @@ type: note
 
 已终止。以下是粘贴到 tmux 中的命令：
 
-
     cd /root/nanochat && source .venv/bin/activate && \
     export OMP_NUM_THREADS=1 && \
     export NANOCHAT_BASE_DIR="$HOME/.cache/nanochat" && \

@@ -13,7 +13,7 @@ MLflow UI 已启动并运行。以下是摘要：
 
 ---
 
-**MLflow UI：http://localhost:5001**
+**MLflow UI：<http://localhost:5001>**
 
 该数据库包含来自 MI300X (amd-cloud) 的 nanochat 训练运行记录。内容如下：
 
@@ -28,6 +28,7 @@ MLflow UI 已启动并运行。以下是摘要：
 | mi300x-d24-760m-fp8 | 运行中 | loss: 10.40, mfu: 6.8%, tok/s: 16,886 (仅步骤 0) |
 
 **模型配置 (d24-760m 运行)：**
+
 - depth=24, head_dim=128, max_seq_len=2048
 - total_batch_size=524288, device_batch_size=32
 - matrix_lr=0.02, embedding_lr=0.3, weight_decay=0.28

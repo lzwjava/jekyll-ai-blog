@@ -21,17 +21,13 @@ Here is a breakdown of what these parts do, why they are being replaced together
 * **What it is:** The control arm connects your car's front wheel to the frame. It allows the suspension to move up and down smoothly while keeping the wheel aligned.
 * **Why it's replaced:** The rubber bushings or the ball joint on the arm wear out over time, leading to clunking noises, loose steering, or uneven tire wear.
 
-
 * **Left Wheel Bearing (轴承左边) — 200 RMB**
 * **What it is:** This is a set of steel balls held together in a metal ring. It allows your wheel to rotate smoothly with minimal friction.
 * **Why it's replaced:** When a bearing fails, it usually creates a loud, cyclical humming or roaring noise that gets louder as you drive faster.
 
-
 * **Four-Wheel Alignment (四轮定位) — 80 RMB**
 * **What it is:** This is a mechanical adjustment of your car’s suspension angles so that the tires make proper contact with the road.
 * **Why it's necessary:** **Any time** you replace a major suspension component like a control arm, the steering geometry gets disrupted. An alignment is mandatory afterward to ensure your car drives straight and doesn't ruin your tires.
-
-
 
 ---
 

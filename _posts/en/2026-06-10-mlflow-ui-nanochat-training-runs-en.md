@@ -13,7 +13,7 @@ MLflow UI is up and running. Here's the summary:
 
 ---
 
-**MLflow UI: http://localhost:5001**
+**MLflow UI: <http://localhost:5001>**
 
 The DB contains your nanochat training runs from the MI300X (amd-cloud). Here's what's inside:
 
@@ -28,6 +28,7 @@ The DB contains your nanochat training runs from the MI300X (amd-cloud). Here's 
 | mi300x-d24-760m-fp8 | RUNNING | loss: 10.40, mfu: 6.8%, tok/s: 16,886 (step 0 only) |
 
 **Model config (d24-760m runs):**
+
 - depth=24, head_dim=128, max_seq_len=2048
 - total_batch_size=524288, device_batch_size=32
 - matrix_lr=0.02, embedding_lr=0.3, weight_decay=0.28

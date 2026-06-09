@@ -52,6 +52,7 @@ python -m scripts.base_train \
 ```
 
 与原版相比的变更：
+
 - device-batch-size: 32 → 64（吞吐量提升 +2%）
 - eval-every: 1000 → 5000（减少暂停开销）
 - sample-every: 5000 → 10000（减少暂停开销）
@@ -60,6 +61,7 @@ python -m scripts.base_train \
 结果：约 101,500 tok/sec，37% MFU，总计约 41.5 小时。
 
 崩溃后恢复：
+
 ```
     --resume-from-step=<LAST_STEP> \
 ```

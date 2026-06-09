@@ -14,6 +14,7 @@ Here's the verdict based on live system state:
 **System:** 20 CPU cores, 235GB RAM (218GB available)
 
 **Current build (MAX_JOBS=32):**
+
 - 32 active clang-22 processes, all CPU-saturated (50-90% each)
 - Progress: 1158/2525 objects (~46%)
 - Load average: 34.4 — already 1.7x oversubscribed

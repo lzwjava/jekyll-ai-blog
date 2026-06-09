@@ -42,11 +42,8 @@ If you want to maximize that time without ruining your active instance or corrup
 * Adjusting python script logic, reviewing logs, or writing code inside your JupyterLab / SSH environment.
 * Running small prototype tests that do not write heavy checkpoints back to the disk.
 
-
 * **Things to Avoid:**
 * Initiating massive training jobs that immediately write multi-gigabyte `.safetensors` or `.bin` weights to the filesystem.
 * Shuffling or preprocessing raw, large datasets on the local drive.
-
-
 
 > **Recommendation:** If your ultimate goal for taking the snapshot is to create a perfect "save point" or baseline before a massive experiment, the safest approach is always to **power down the instance** first, take the snapshot, and turn it back on. If you must do it live, keep your disk activities to an absolute minimum during those 20 minutes.

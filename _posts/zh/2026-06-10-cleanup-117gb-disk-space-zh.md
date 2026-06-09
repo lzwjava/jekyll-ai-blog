@@ -54,6 +54,7 @@ rm -rf /tmp/flash-attention /tmp/torchinductor_root
 ```
 
 需要保留：
+
 - `/opt/rocm-7.2.0`（22GB）- ROCm运行时，GPU必需
 - `/root/.cache/nanochat/` - 你的nanochat checkpoints/数据缓存
 - `/root/nanochat/` - 你当前的工作项目

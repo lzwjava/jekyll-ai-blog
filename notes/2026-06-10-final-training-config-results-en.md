@@ -52,6 +52,7 @@ python -m scripts.base_train \
 ```
 
 Changes vs original:
+
 - device-batch-size: 32 → 64 (+2% throughput)
 - eval-every: 1000 → 5000 (less pause overhead)
 - sample-every: 5000 → 10000 (less pause overhead)
@@ -60,6 +61,7 @@ Changes vs original:
 Result: ~101,500 tok/sec, 37% MFU, ~41.5 hours total.
 
 Resume if crash:
+
 ```
     --resume-from-step=<LAST_STEP> \
 ```

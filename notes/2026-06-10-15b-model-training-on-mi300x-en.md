@@ -32,7 +32,7 @@ Compared to your current ~760M model:
 
 This is the interesting part:
 
-### You will likely see:
+### You will likely see
 
 * **Higher MFU (%)**
 * Often: ~40–55% range (instead of ~37%)
@@ -99,7 +99,7 @@ Larger models often benefit your current setup:
 
 ## 6. The real trade-off
 
-### If your goal is:
+### If your goal is
 
 #### 🚀 Maximum tokens trained per hour
 

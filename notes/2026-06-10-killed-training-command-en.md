@@ -11,7 +11,6 @@ type: note
 
 Killed. Here's the command to paste into tmux:
 
-
     cd /root/nanochat && source .venv/bin/activate && \
     export OMP_NUM_THREADS=1 && \
     export NANOCHAT_BASE_DIR="$HOME/.cache/nanochat" && \

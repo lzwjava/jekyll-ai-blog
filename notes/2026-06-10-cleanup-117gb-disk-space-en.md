@@ -54,6 +54,7 @@ rm -rf /tmp/flash-attention /tmp/torchinductor_root
 ```
 
 KEEP:
+
 - `/opt/rocm-7.2.0` (22GB) - ROCm runtime, required for GPU
 - `/root/.cache/nanochat/` - your nanochat checkpoints/data cache
 - `/root/nanochat/` - your current working project
