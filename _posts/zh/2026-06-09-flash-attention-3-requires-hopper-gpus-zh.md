@@ -41,6 +41,7 @@ Flash Attention 3 针对 Hopper GPU（H100/H800）进行了优化，需要 CUDA 
 - **FA3 相比 FA2**：额外速度提升 1.5-2 倍（仅限 H100），主要对 200K+ 上下文窗口有用
 
 对于 4K-8K 上下文（nanochat 使用的范围），RTX 4070 上的 FA2 表现非常出色。你的限制因素在于：
+
 1. VRAM（12GB）→ 批次大小/序列长度
 2. PCIe 带宽，而非注意力内核效率
 
@@ -48,7 +49,7 @@ Flash Attention 3 针对 Hopper GPU（H100/H800）进行了优化，需要 CUDA 
 
 **不要追求 FA3。** 相反：
 
-### 在 RTX 4070 上——启用 Flash Attention 2：
+### 在 RTX 4070 上——启用 Flash Attention 2
 
 ```bash
 # 为 Ada 安装 flash-attention
@@ -61,6 +62,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 检查是否生效：
+
 ```python
 import torch
 print(torch.backends.cuda.is_available())
@@ -70,7 +72,7 @@ from torch.nn.functional import scaled_dot_product_attention
 # FA2 在 PyTorch 2.2+ 的 Ada GPU 上会自动激活
 ```
 
-### 在 MI300X 上——ROCm Flash Attention 2：
+### 在 MI300X 上——ROCm Flash Attention 2
 
 ```bash
 # 在 ROCm PyTorch 容器中：
@@ -80,7 +82,7 @@ pip install flash-attn
 # 仍然提供 2 倍速度提升，非常适合 192GB HBM3
 ```
 
-### 在 M2 MacBook 上——接受限制：
+### 在 M2 MacBook 上——接受限制
 
 ```bash
 # torch.backends.mps.is_built() = True，但没有 Flash 内核
@@ -91,6 +93,7 @@ pip install flash-attn
 ## 为什么 FA3 仍然重要（未来背景）
 
 Flash Attention 2 在 H100 GPU 上仅达到 35% 的利用率，而 Flash Attention 3 在同一硬件上达到 75-85% 的利用率。如果你有以下需求，这一点将变得至关重要：
+
 - 训练 100 万 token 上下文的模型
 - 运行批处理 128K+ 序列的推理
 - 需要大规模亚毫秒级延迟

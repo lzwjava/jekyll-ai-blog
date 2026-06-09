@@ -61,6 +61,7 @@ Original LR params × final_lr_frac = scaled LR (matches step 130k exactly)
 ```
 
 Why this works:
+
 - No LR spike: scaled LRs match the 130k run's final values exactly
 - Flat schedule: warmdown-ratio=0 keeps LR constant, no schedule recalculation
 - Optimizer state (Adam v_t, Muon momentum) stays in sync

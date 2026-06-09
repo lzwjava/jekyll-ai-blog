@@ -11,7 +11,7 @@ type: note
 
 **可以远程调试。** 一种误解认为 PyCharm 不支持远程调试——实际上 PyCharm *专业版* 完全支持通过 SSH 进行远程调试，具备完整的断点/检查功能。但考虑到你崇尚终端优先的工作哲学，你可能更想要更轻量的方案。
 
-## 三种实用工作流：
+## 三种实用工作流
 
 ### 1. **命令行优先：通过 SSH 使用 `debugpy`**（我推荐你的方案）
 
@@ -60,6 +60,7 @@ exec(open('train.py').read())
 两者都能挂载远程文件系统，并直接在工作站上运行调试器：
 
 **VSCode：**
+
 ```bash
 # 安装 Remote - SSH 扩展
 # 在 VSCode 中：Cmd+Shift+P → "Remote-SSH: Connect to Host"
@@ -70,6 +71,7 @@ exec(open('train.py').read())
 ```
 
 **Zed：**
+
 ```bash
 # 较新版本的 Zed 支持 SSH（0.140+ 版本）
 # File → Open Remote → SSH
@@ -81,13 +83,14 @@ exec(open('train.py').read())
 ### 3. **PyCharm 专业版远程调试**（对你的工作流来说过于复杂）
 
 确实可用：
+
 - Settings → Project → Python Interpreter → Add → SSH Interpreter
 - 配置连接到 192.168.1.36
 - 设置断点，直接调试
 
 但图形界面繁重，对于快速迭代比 `debugpy` + VSCode 慢。
 
-## 针对你的配置我的真实建议：
+## 针对你的配置我的真实建议
 
 既然你**终端优先**且使用 nanoGPT 进行 GPU 训练，推荐使用 **`debugpy` + VSCode** 或 **VSCode SSH 远程**。原因：
 
@@ -107,6 +110,7 @@ if step % 100 == 0:
 ```
 
 通过 SSH 配合 Warp：
+
 ```bash
 ssh lzw@192.168.1.36
 cd ~/nanoGPT && python train.py

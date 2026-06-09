@@ -41,6 +41,7 @@ You **don't need** FA3 for productive nanochat training. Here's why:
 - **FA3 over FA2**: 1.5-2x additional speedup (on H100 only), mainly useful for 200K+ context windows
 
 For 4K-8K context (what nanochat uses), FA2 on RTX 4070 is excellent. You're limited by:
+
 1. VRAM (12GB) → batch size/sequence length
 2. PCIe bandwidth, not attention kernel efficiency
 
@@ -48,7 +49,7 @@ For 4K-8K context (what nanochat uses), FA2 on RTX 4070 is excellent. You're lim
 
 **Don't chase FA3.** Instead:
 
-### On RTX 4070 — enable Flash Attention 2:
+### On RTX 4070 — enable Flash Attention 2
 
 ```bash
 # Install flash-attention for Ada
@@ -61,6 +62,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 Check it works:
+
 ```python
 import torch
 print(torch.backends.cuda.is_available())
@@ -70,7 +72,7 @@ from torch.nn.functional import scaled_dot_product_attention
 # FA2 activates automatically on Ada GPUs in PyTorch 2.2+
 ```
 
-### On MI300X — ROCm Flash Attention 2:
+### On MI300X — ROCm Flash Attention 2
 
 ```bash
 # In ROCm PyTorch container:
@@ -80,7 +82,7 @@ pip install flash-attn
 # Still gives 2x speedup, perfect for 192GB HBM3
 ```
 
-### On M2 MacBook — accept the limitation:
+### On M2 MacBook — accept the limitation
 
 ```bash
 # torch.backends.mps.is_built() = True, but no Flash kernels
@@ -91,6 +93,7 @@ pip install flash-attn
 ## Why FA3 Still Matters (Future Context)
 
 Flash Attention 2 achieves only 35% utilization on the H100 GPU, while Flash Attention 3 achieves 75-85% utilization on the same hardware. This becomes critical if you:
+
 - Train 1M-token context models
 - Run inference with batched 128K+ sequences
 - Need sub-ms latency at scale

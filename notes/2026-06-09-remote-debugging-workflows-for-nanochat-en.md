@@ -15,7 +15,7 @@ Answer:
 
 **You can absolutely remote debug.** The misconception is that PyCharm remote debugging isn't available — PyCharm *Professional* supports remote debugging via SSH with full breakpoint/inspection capability. But given your terminal-first philosophy, you probably want something faster anyway.
 
-## Three practical workflows:
+## Three practical workflows
 
 ### 1. **CLI-first: `debugpy` over SSH** (my recommendation for you)
 
@@ -64,6 +64,7 @@ Hit F5, breakpoint, inspect — all from your Mac. No remote IDE overhead.
 Both can mount your remote filesystem and run the debugger directly on the workstation:
 
 **VSCode:**
+
 ```bash
 # Install Remote - SSH extension
 # In VSCode: Cmd+Shift+P → "Remote-SSH: Connect to Host"
@@ -74,6 +75,7 @@ Both can mount your remote filesystem and run the debugger directly on the works
 ```
 
 **Zed:**
+
 ```bash
 # Newer Zed has SSH support (version 0.140+)
 # File → Open Remote → SSH
@@ -85,13 +87,14 @@ Pro: IDE feels native. Con: Network latency if your WiFi is weak, and Zed's remo
 ### 3. **PyCharm Professional remote debugging** (overkill for your workflow)
 
 Yes, it works:
+
 - Settings → Project → Python Interpreter → Add → SSH Interpreter
 - Configure SSH to 192.168.1.36
 - Set breakpoints, debug directly
 
 But it's GUI-heavy and slower than `debugpy` + VSCode for quick iterations.
 
-## My honest take for your setup:
+## My honest take for your setup
 
 Since you're **terminal-first** and doing GPU training with nanoGPT, use **`debugpy` + VSCode** or **VSCode SSH remote**. Why:
 
@@ -111,6 +114,7 @@ if step % 100 == 0:
 ```
 
 Over SSH with Warp:
+
 ```bash
 ssh lzw@192.168.1.36
 cd ~/nanoGPT && python train.py

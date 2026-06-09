@@ -41,6 +41,7 @@ cd /mnt/data/nanochat && python -m scripts.base_train \
 ```
 
 具体含义：
+
 - 从第200k步检查点（model_200000.pt）恢复训练
 - 运行至300k步（额外100k步）
 - 所有学习率设为原始值的0.06倍（与第一次运行结束时相同）
@@ -50,6 +51,7 @@ cd /mnt/data/nanochat && python -m scripts.base_train \
 大致预计耗时：100k步 × 约1.18秒/步 ≈ 32.8小时
 
 在工作站的tmux中运行：
+
 ```
 tmux attach -t 14
 ```

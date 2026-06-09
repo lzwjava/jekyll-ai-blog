@@ -16,6 +16,7 @@ cd /mnt/data/nanochat && PYTORCH_ALLOC_CONF=expandable_segments:True .venv/bin/p
 ```
 
 Key changes from original:
+
 - `--run=rtx4070-d12-300k` (new run name)
 - `--num-iterations=300000` (was 200k, now 300k)
 - `--resume-from-step=200000` (was 130k, now 200k)

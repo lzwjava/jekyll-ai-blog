@@ -47,6 +47,7 @@ scalar-lr=0.03          # Layer norms, biases
 ```
 
 This is **not** standard. You're treating parameter types differently:
+
 - **Scalars (layer norms, biases)**: 0.03 — **aggressive**, allows quick adaptation
 - **Embeddings**: 0.018 — **moderate**, embeddings are finicky (affects all token predictions)
 - **Unembedding**: 0.00048 — **tiny**, output projection is stable, doesn't need much movement
@@ -63,6 +64,7 @@ final-lr-frac=0.05       # Ignored (no decay schedule)
 ```
 
 You're training **steps 200k–300k** with **constant LR**. No learning rate schedule. This means:
+
 - Late-stage fine-tuning (already in a good part of loss landscape)
 - Constant exploration (don't decay toward convergence)
 - Betting that the LRs are tuned for continued improvement
@@ -74,6 +76,7 @@ weight-decay=0.28       # 28% weight decay — **very high**
 ```
 
 This is aggressive. Weight decay penalizes large weights:
+
 ```
 loss = model_loss + 0.28 * sum(w²)
 ```

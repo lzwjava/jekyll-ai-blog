@@ -41,6 +41,7 @@ cd /mnt/data/nanochat && python -m scripts.base_train \
 ```
 
 What this does:
+
 - Resumes from step 200k checkpoint (model_200000.pt)
 - Runs to 300k steps (100k more steps)
 - All LRs set to 0.06× their original values (same as end of first run)
@@ -50,6 +51,7 @@ What this does:
 Rough ETA: 100k steps × ~1.18s/step ≈ 32.8 hours
 
 Run it inside tmux on the workstation:
+
 ```
 tmux attach -t 14
 ```

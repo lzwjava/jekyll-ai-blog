@@ -61,6 +61,7 @@ cd /mnt/data/nanochat && PYTORCH_ALLOC_CONF=expandable_segments:True .venv/bin/p
 ```
 
 为何有效：
+
 - 无 LR 尖峰：缩放后的 LR 与 130k 运行结束时的值完全匹配
 - 平坦调度：warmdown-ratio=0 使 LR 恒定，无调度重新计算
 - 优化器状态（Adam v_t，Muon momentum）保持同步

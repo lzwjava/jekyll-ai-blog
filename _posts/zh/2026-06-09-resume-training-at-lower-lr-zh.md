@@ -16,6 +16,7 @@ cd /mnt/data/nanochat && PYTORCH_ALLOC_CONF=expandable_segments:True .venv/bin/p
 ```
 
 与原始版本相比的关键更改：
+
 - `--run=rtx4070-d12-300k`（新的运行名称）
 - `--num-iterations=300000`（原为200k，现为300k）
 - `--resume-from-step=200000`（原为130k，现为200k）

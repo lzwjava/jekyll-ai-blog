@@ -39,6 +39,7 @@ This is especially pronounced with **Muon** (if that's your optimizer), because 
 Don't break the schedule continuity. Use one of these:
 
 **Option A: Extend the decay** (recommended)
+
 ```bash
 # Resume with natural schedule continuation
 # Assume first run did: --warmup-steps=1000 --final-lr-ratio=0.1 or similar
@@ -55,6 +56,7 @@ python train.py \
 ```
 
 **Option B: If you must go flat, do a micro-warmup**
+
 ```bash
 # Temporary 5-10k step ramp to let adaptive factors re-equilibrate
 python train.py \
@@ -67,6 +69,7 @@ python train.py \
 ```
 
 **Option C: Inspect and validate schedules** (diagnostic)
+
 ```python
 # Before resuming, check what effective LR you're about to apply
 import json
@@ -86,6 +89,7 @@ print(f"Mean v_t: {sum(v_values)/len(v_values):.6f}")
 ### Why It Might Settle
 
 It *may* converge back down over a few thousand steps because:
+
 - Adaptive factors (v_t) will grow again with the new data
 - The optimizer rebalances
 - But you're losing convergence time and may land at a worse minimum
