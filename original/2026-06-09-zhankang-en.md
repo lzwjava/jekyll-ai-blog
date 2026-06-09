@@ -62,7 +62,7 @@ Both agreed that current AI code generation is already "pretty good." The main i
 
 ### The Critical Role of English in Interviews
 
-One participant shared his experience: he once got an interview opportunity at Binance through an internal referral, but ultimately failed because of English. He commented that Binance's Java interview was not difficult, but English requirements were high. The other participant works as an outsourced employee at an international bank (30+ years of work), with fluent spoken English, able to chat daily. He previously worked at DBS Bank, took the IELTS, used English at work, and even communicated with Indian colleagues.
+One participant shared his experience: he once got an interview opportunity at Binance through an internal referral, but ultimately failed because of English. He commented that Binance's Java interview was not difficult, but English requirements were high. The other participant works as an outsourced employee at an international bank (30+ years of work), with fluent spoken English, able to chat daily. He previously worked as a contrator at DBS Bank, took the IELTS, used English at work, and even communicated with Indian colleagues.
 
 ### Self-Assessment of English Level
 
