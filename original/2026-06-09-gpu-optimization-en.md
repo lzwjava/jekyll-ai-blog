@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "A Conversation on GPU Optimization for LLM Inference"
+title: "Discussion of CUDA Graph Optimization and Inference Acceleration"
 translated: false
 ---
 
@@ -18,124 +18,128 @@ Note: Because both transcription and refinement were AI-assisted, some details m
 
 ---
 
-# Summary: CUDA Graph Inference Optimization and Model Acceleration Discussion
+# Discussion of CUDA Graph Optimization, Inference Acceleration, and the Broader GPU Software Ecosystem
 
-This meeting covered an in-depth discussion on CUDA Graph principles, inference optimization techniques, model acceleration toolchains, and related competition progress. The main topics included: CUDA Graph recording and execution mechanisms, memory bandwidth bottlenecks in inference optimization, KVCache working principles, comparisons of acceleration tools like TensorRT and Triton, Flash Attention's tiling strategy, as well as personal practical experience and optimization philosophy from model optimization competitions. The meeting also touched on commonly used models (such as the Qwen series) and daily AI tools (such as Gemini).
+This meeting covered a broad exploration of GPU programming and inference optimization, centered around the participant's work on CUDA Graph technology and its application in improving model inference speed. The discussion moved from a specific review of competition results and the mechanics of CUDA Graph to a deeper examination of the broader GPU software stack, including memory bandwidth bottlenecks, KV Cache optimization, the roles of TensorRT and CUDNN, the Triton language, and the relationship between distributed inference frameworks like vLLM and SGLang versus handwritten optimizations. The conversation also touched on model selection, the culture of AI competitions, and the pursuit of extreme performance through low-level optimization.
 
-## Competition Progress and Background
+## Competition Status and Preliminary Discussion
 
-At the beginning of the meeting, recent competition participation was discussed. It was previously mentioned that someone ranked first in a competition, but that competition had not yet concluded. The full name of the competition is "Baidu CTI," which is still ongoing, and the organizers no longer display rankings. The competition involves inference optimization tasks, where participants must submit code and a self-introduction. The organizers review participants' qualifications, including whether the code was AI-generated and their technical level. If the submitted results do not match the resume's level, further review may be conducted.
+The meeting began with a check on the outcome of a recent competition. The participant confirmed that the competition — a Baidu-sponsored event (referred to as Baidu CTI) — has not yet ended, and currently no rankings are being displayed. Although the participant had previously mentioned being in first place, the competition's final results have not been released, and no conclusion has been reached.
 
-## CUDA Graph Principles and Understanding
+## Deep Dive into CUDA Graph: Concept and Mechanics
 
-### Core Concept: Recording and Execution
+A major portion of the discussion focused on the participant's deepening understanding of **CUDA Graph**, a technique for optimizing GPU kernel launches.
 
-The core idea of CUDA Graph is to record the kernel instructions that the CPU launches to the GPU, forming a "graph," after which the GPU can directly execute this graph without the CPU repeatedly issuing instructions. Specifically, during normal model execution, the CPU needs to notify the GPU multiple times to perform various operations (such as floating-point computations), each time waiting for the CPU to issue instructions, which causes CPU blocking. CUDA Graph, through recording, completely captures what the CPU tells the GPU to do, after which the GPU can automatically execute following the "habit," and the CPU no longer needs to participate in the instruction issuance process.
+### What CUDA Graph Does
 
-### Recording Mechanism and Blocking Issues
+The participant explained that CUDA Graph works by "recording" the sequence of kernel launches that the CPU would normally issue to the GPU. In a typical execution flow, the CPU must dispatch each individual kernel command to the GPU — a process that involves significant overhead and blocking. With CUDA Graph, the CPU records the entire sequence of operations that the GPU needs to perform. Once recorded, this sequence becomes a fixed graph that the GPU can execute autonomously, without requiring the CPU to issue each command individually.
 
-The recording process is non-blocking, with no fixed time interval or instruction count threshold. After recording is complete, the GPU no longer needs to wait for the CPU to issue instructions during execution, but directly executes the previously recorded instruction sequence. During the recording phase, the CPU receives an ID or completion marker, rather than actual execution results. After the GPU finishes executing the graph, it directly reports the results back to the CPU, completing the collaboration.
+In the participant's words, the CPU "kicks out the kernel commands" directly to the GPU for execution, saving the launch time, graph building time, and eliminating the need for the CPU to remain involved in the scheduling loop. The GPU effectively "executes what it has already been told to do," following the recorded graph.
 
-### Applicable Scenarios and Optimization Value
+### Recording and Non-Blocking Execution
 
-CUDA Graph is not applicable to all CPU instructions, but mainly targets matrix operations and floating-point computations that GPUs excel at. Its optimization value lies in: during normal model execution, the CPU may need to communicate with the GPU tens of thousands of times (each time telling the GPU what to do), but after recording a CUDA Graph, the CPU only needs to tell the GPU once to "follow previous habits," thereby significantly reducing CPU blocking time and achieving acceleration. This acceleration effect is generally observable after recording is complete.
+When asked about the timing of the recording — whether it happens at fixed intervals (e.g., every second or millisecond) or when a certain number of instructions accumulate — the participant clarified that there is no interval-based triggering. The recording is performed in a **non-blocking** (non-blocking) manner.
 
-### Relationship with PyTorch
+To explain the blocking vs. non-blocking distinction: in a normal execution, when the CPU dispatches a kernel, it often blocks itself while waiting for the GPU to complete or for the next instruction. However, after recording a CUDA Graph, the GPU no longer needs to wait for the CPU to issue new commands; it simply replays the recorded graph. This eliminates the CPU bottleneck, allowing the GPU to execute more efficiently.
 
-PyTorch provides automated compilation tools like `torch.compile`, but CUDA Graph is a more fundamental optimization approach. PyTorch's compilation is automated, while CUDA Graph requires manual recording and customization. Although PyTorch's compilation is powerful, it lacks specificity and has limited customization. Manually written optimization code is generally faster than PyTorch's automatic compilation because it can make the most direct optimizations for specific scenarios, whereas PyTorch needs to check and handle multiple cases.
+### How the GPU Communicates Results Back to the CPU
 
-## Memory Bandwidth Bottlenecks in Inference Optimization
+A follow-up question was raised: after the GPU finishes executing the recorded graph, how does it notify the CPU? The participant explained that the GPU returns the results directly to the CPU — it delivers the graph's output, enabling the CPU to handle post-execution tasks. There is still some coordination between the two, but the heavy lifting of command dispatching is offloaded.
 
-### Weight Movement and Bandwidth Requirements
+### Why CUDA Graph Is Associated with Optimization
 
-The bottleneck in inference optimization has shifted from computational capability to memory bandwidth, particularly the bandwidth limitations of High Bandwidth Memory (HBM). When executing operators, weight movement requires substantial bandwidth. Large model weights occupy significant space because models have many layers, requiring HBM to provide hundreds of GB/s or even TB/s of bandwidth. HBM3 provides 192 GB of VRAM, and TB-level bandwidth is reasonable for very large models, but GB-level is usually sufficient for general use. Training scenarios have greater bandwidth requirements and higher priority.
+The participant emphasized that the core reason CUDA Graph accelerates performance is that the CPU is often blocked for too long during kernel launches. By moving the command dispatch responsibility to the GPU, the system avoids prolonged CPU stalls. Recording the graph generally yields speed improvements, as the CPU only needs to instruct the GPU once ("follow the usual habit") rather than repeatedly telling it what to do.
 
-### Inference Model Scale Analysis
+### Comparison with PyTorch's Approach
 
-The size of a model that can run for inference mainly depends on VRAM. For example, 12 GB of VRAM is generally only for inference (not training), and can load GGUF quantized models of 5–6 GB or 7–8 GB. However, context size is also critical: there is a significant difference in VRAM usage between 100K tokens and 10K tokens of context length. Quantization type (4-bit vs. 8-bit) also affects model size. Typically, with 12 GB of VRAM, context length may only support 2048 or under 10,000 tokens. One of the tasks of optimization engineers is to enable models to run on smaller devices.
+A key clarification was made regarding the difference between simply moving data to the GPU (e.g., using `tensor.to(device)` in PyTorch) and using CUDA Graph. Moving data to the GPU places the data in GPU memory, but the CPU still must issue every execution command. In a large model, the CPU might need to communicate with the GPU tens of thousands of times per inference run. CUDA Graph reduces this to a single recording step: "just tell the GPU once, and it remembers what to do."
 
-## KVCache Working Principles
+## Memory Bandwidth, HBM, and Inference Bottlenecks
 
-KVCache is a key optimization technique in large model inference. During normal inference, to generate the next token, all previous tokens need to be re-inferred. With KVCache, only the previous token needs to be inferred, without all tokens participating in computation. Because the previous token already has various context information bound to it (through K and V caches), the cached results can be directly utilized, saving the overhead of recalculating all preceding tokens. However, at the detailed level of performance optimization, the actual mechanism differs from this simplified understanding, though the concept is similar.
+The conversation shifted to the broader challenge of memory bandwidth in inference, particularly the role of **High Bandwidth Memory (HBM)**.
 
-## Inference Optimization Toolchain
+### The Shift from Compute to Memory Bottlenecks
+
+The participant noted that the industry has shifted its focus: the bottleneck in inference is no longer compute but rather memory — specifically, the bandwidth of HBM. When executing operators or moving data (especially model weights), the system requires high bandwidth. Weights, as opposed to general parameters, are the main consumers of memory during inference. (The participant distinguished between the two: parameters are typically handled by the CPU, while weights reside in GPU memory for inference.)
+
+### Why Weights Consume So Much Space
+
+Weights occupy large amounts of memory because large models have many layers (layers). The bandwidth of HBM — often rates like hundreds of GB per second or even TB per second — is still a limiting factor. The participant cited HBM3 as an example, offering up to 192 GB of VRAM, and noted that while TB-level bandwidth is theoretically reasonable for some very large models, GB-level bandwidth is generally sufficient for most current use cases. Training, however, tends to require greater bandwidth and is given higher priority.
+
+## Inference Optimization Approaches: From Competition to Practical Techniques
+
+When asked how the participant achieved a first-place finish in an earlier Baidu Xi'an competition (several years ago), they declined to provide specific details, citing the competition's non-disclosure rules: "It hasn't ended yet, so I can't make it public."
+
+### Estimating Model Capacity on a Given GPU
+
+The discussion then moved to a practical question: given a specific GPU (e.g., H100, H200, RTX 4090, RTX 3090), how do you estimate what size model can be run locally for inference? The participant explained that the primary factor is the available VRAM. For example, with 12 GB of VRAM, you are generally limited to running small or quantized models (e.g., GGUF format models of 5–6 GB or 7–8 GB). The context size (上下文字长度) is also critical: a model with a context of 100,000 tokens versus one with 10,000 tokens makes a huge difference. The quantization type (e.g., 4-bit vs. 8-bit) further affects the model's memory footprint. In practice, for a 12 GB card, the context size might be limited to around 2,048 tokens or up to 10,000, and anything beyond that requires optimization work — which the participant described as their specialty: "making it run on smaller devices."
+
+### Distributed Inference Frameworks: vLLM and SGLang
+
+The conversation turned to popular inference optimization frameworks. The participant described **vLLM** and **SGLang** (likely referring to SGLang or a similar project) as tools that perform distributed processing optimizations. They explained that these frameworks handle the isolation of user contexts — each user's prompt is kept separate — and perform basic batching at a low level. However, the participant noted that these frameworks are primarily designed for ease of deployment and are more suitable for "lazy" users who want out-of-the-box functionality. In contrast, handwritten optimizations (like those the participant performs) can be faster but are kept private by companies rather than open-sourced.
+
+The participant also drew a contrast between single-user solutions like **llama.cpp** and multi-user server solutions like vLLM and SGLang. While llama.cpp is more common for individual use, server-facing deployments favor the latter two for their convenience.
+
+### Understanding KV Cache
+
+A detailed explanation of **KV Cache** was provided. The participant explained that "K" and "V" refer to the key and value components of the attention mechanism, which represent the context (context). Without KV Cache, when generating a new token, the model would need to re-examine all previous tokens from scratch. KV Cache stores the key and value states of previous tokens after they are computed, so that for each new token, the model only needs to compute attention based on the current token (or the last token) and the cached context. This eliminates the need to recompute the entire attention for every previous token with each new step.
+
+The participant clarified that, while the high-level concept is straightforward — "the last token already knows the context" — the actual performance optimization details are more nuanced.
+
+### Role of Flash Attention and Software Optimization
+
+The group discussed **Flash Attention**, which the participant described as a technique that moves attention computation from general memory into **SRAM** (static random-access memory) and uses a tiled (block-based) approach. By processing attention in smaller blocks within SRAM, Flash Attention reduces memory consumption and maintains near-perfect precision. The participant explained that SRAM's key advantage is that it does not involve dynamic address creation — it provides stable memory access, which is highly beneficial for running CUDA Graphs.
+
+When asked why Flash Attention uses tiling instead of simply moving everything to SRAM, the participant responded that SRAM is limited in capacity, so splitting the computation into smaller blocks is more efficient. The CPU is also better at handling block-based operations.
+
+## The GPU Software Stack: TensorRT, cuDNN, cuBLAS, and Triton
+
+The conversation then explored the broader GPU software ecosystem, from high-level frameworks down to extremely low-level libraries.
 
 ### TensorRT and cuDNN
 
-TensorRT is an acceleration engine tied to CUDA Graph, offering better acceleration than PyTorch because it provides targeted optimization. However, TensorRT is very difficult to use and cumbersome to operate. cuDNN is an operator library, similar to cuBLAS, specifically designed to accelerate linear computation and other operations for big data and AI scenarios.
+**TensorRT** was described as a dedicated acceleration engine that integrates closely with CUDA Graph. It is faster than PyTorch's built-in acceleration because it is purpose-built for optimization. However, the participant noted that TensorRT is very difficult to use — "a very hard platform to work with, quite troublesome." In contrast, **cuDNN** is a library of accelerated operators (算子库), similar to **cuBLAS**, both of which accelerate linear algebra and matrix operations for AI workloads.
 
-### cuBLAS and cuBLAS LT
+### cuBLAS and Low-Level Acceleration
 
-cuBLAS is a matrix acceleration library specifically designed for NVIDIA GPUs, much faster than ordinary CUDA programs because it may utilize very low-level instructions. cuBLAS LT is an experimental product, still in experimental stages in PyTorch, but can be faster than cuBLAS.
+The participant explained that cuBLAS is a matrix acceleration library, but its name is somewhat misleading — it is extremely fine-grained and accelerated specifically for NVIDIA cards. It can be significantly faster than standard CUDA programs written without it, because it operates at a very low level. There is also **cuBLAS LT** (currently in the experimental stage within PyTorch), which can be even faster than cuBLAS, though it is not yet stable.
 
-### Triton Language
+### NVIDIA's Moat: Software, Not Hardware
 
-Triton is a simplified version of CUDA, an operator fusion language that can also run on AMD devices. It is easier to use than native CUDA — write and debug immediately, typically achieving 85%–95% of native performance. Triton is currently the industry's most standard operator fusion library, ubiquitous in open-source frameworks like SGLang and vLLM. Daily work primarily uses Triton, only resorting to direct CUDA when extreme optimization is needed.
+A point was made that NVIDIA's competitive advantage lies not in hardware (which is already excellent) but in its software ecosystem. The participant agreed, noting that the software layer, including CUDA drivers and toolkits, is a major differentiator. The **CUDA driver** and the **CUDA toolkit** serve different purposes: the toolkit is used for development (writing code), while the driver is the underlying runtime that makes the toolkit's output executable.
 
-### vLLM and SGLang
+### Triton (OpenAI's Triton)
 
-vLLM and SGLang are similar inference optimization frameworks, primarily focused on distributed processing optimization. They can help pre-process across multiple devices, achieving distributed optimization. vLLM is suitable for multi-user scenarios, convenient for deployment, and ready to use out of the box. However, manually optimized code is typically faster than vLLM, though it won't be publicly documented — generally kept private within companies. LLaMA.cpp is more suitable for single-user scenarios.
+When asked what comes to mind when thinking of CUDA, the participant mentioned "operator acceleration" and "operator fusion." They highlighted **Triton** (likely referring to OpenAI's Triton language) as a representative project. Triton is described as a language for writing GPU operators that is easier to use than standard CUDA. It allows developers to write code quickly and achieve 85% to 95% of the performance of hand-tuned CUDA, which would otherwise require days of debugging.
 
-## Flash Attention's Tiling Strategy
+The participant noted that they use Triton more than raw CUDA, only resorting to CUDA when extreme optimization is required. Triton is now considered the industry's most standard operator fusion library — "currently the best and most widely used." It is ubiquitous in frameworks like SGLang.
 
-Flash Attention optimizes attention's linear matrix computation from quadratic complexity by placing data in SRAM (static memory) and using a tiling approach, keeping memory usage from increasing too much while maintaining near-perfect precision. The reason for tiling is that SRAM space is limited and cannot hold all data at once, and CPUs excel at breaking tasks into chunks. SRAM is static memory where addresses do not change dynamically, which is also helpful for running CUDA Graph.
+## Personal Optimization Work: Philosophy, Scale, and Competitors
 
-## Personal Optimization Practice and Philosophy
+The participant shared insights into their own optimization work and the competitive landscape.
 
-### Optimization Methods and Code Scale
+### Philosophy of Pursuing Extreme Speed
 
-Optimization work is primarily written in Python, typically between 500 and 2,000 lines of code. If written directly in CUDA, the code exceeds 2,000 lines. Optimization pursues extreme speed while ensuring high precision. Acceleration methods include: fusing matrix operations, moving CPU work to the GPU, pre-computing some content, and using CUDA Graph to record graphs and hand them to the GPU for execution. During optimization, layers are reduced as much as possible, but not arbitrarily to avoid affecting precision.
+When asked why their optimizations are not simply available online (e.g., from projects like NanoGPT or NanoChat), the participant explained that while some code exists, it is rare. They prefer writing custom code for two reasons: it is faster than standard implementations, and they are driven by a philosophy of "pursuing extreme speed" (追求极致的速度). However, they emphasized that reducing layer depth (层级) is not the goal — reducing layers can harm precision. Instead, they aim for acceleration while maintaining high precision, often through techniques like pre-computation, fusing matrix operations, or moving CPU tasks to the GPU.
 
-### Commonly Used Models and Tools
+### The Role of `torch.compile`
 
-Gemini is used daily (not open-source, used directly online). Optimized models include the Qwen series (2B, 8B, 27B, 128B, etc.) and some sequence models. The Qwen series has open-sourced weights, training scripts, and inference scripts, and is highly regarded. Optimization typically uses small models (e.g., 2B), because if a small model can be optimized well, large models certainly can be.
+The discussion touched on PyTorch's `torch.compile`. According to the participant, many mainstream model developers will tell you that `torch.compile` is the fastest way to accelerate PyTorch models. However, the participant disagreed, arguing that hand-written code is always faster because it is more targeted. `torch.compile` must handle many general cases and check for various conditions, which introduces overhead. The participant acknowledged that `torch.compile` is a powerful tool — it "does a lot of things" — but it lacks the customization needed for extreme optimization.
 
-### Views on Automation Tools
+### Code Scale and Language
 
-Many participants currently prefer using automation tools (such as Claude Code, AI-written code), but this is believed to miss the true spirit of competition — lacking the spirit of understanding underlying principles. The organizers review participants' qualifications, including whether code is AI-generated and personal backgrounds. If someone with an ordinary resume wins first place, they may be questioned, but the first-place achievement itself should be respected.
+The participant's optimization code typically ranges from **500 to 2,000 lines**, all written in **Python** (not C++). If they were to use pure CUDA, the codebase would exceed 2,000 lines. The code is largely composed of Triton-based operator fusion for inference optimization.
 
-### Industry Seniority
+### Competitive Landscape: Who Else Does This?
 
-In the field of inference optimization, it is rare to encounter someone more senior, because most people prefer using ready-made tools like vLLM rather than optimizing themselves. It is difficult to judge their true level, as very few people work on low-level optimization themselves.
+When asked whether they encounter other people with comparable levels of expertise in deep optimization, the participant responded: "Very few." Most competitors and engineers prefer using out-of-the-box solutions like vLLM, which is automated. The participant expressed skepticism about the trend of using AI tools (e.g., Cursor Copilot) to write code for competitions: "They use cloud code, they use AI to write — many people can produce results, but they don't understand the principles. That defeats the purpose of the competition." They noted that competition organizers sometimes review participants' resumes and code to verify authenticity; if a person with a weak resume suddenly gets first place, they may be scrutinized.
 
-## NVIDIA's Moat and Hardware Ecosystem
+## Model Usage: Qwen Series and Gemini
 
-NVIDIA's moat lies not only in hardware but more so in the software ecosystem. Hardware is already excellent, and software takes it to another level. CUDA has two layers: driver and toolkit — the toolkit is for developers, and the driver is the underlying runtime environment for the toolkit. PyTorch is just a wrapper calling CUDA, a higher-level differentiable framework. NVIDIA's software products (such as CUDA, cuDNN, TensorRT) are very convenient to use. With proper optimization, NVIDIA's general-purpose chips can achieve inference speeds of 500 tokens/s or even higher, rivaling custom chips like Groq, though custom chips (such as FPGAs) are generally faster.
+The participant uses **Qwen (千问)** 2B for their optimization work, as a small model is sufficient for testing — "if it works for a small model, it works for a large one." They described Qwen as a series they admire for its open-source philosophy, including not only weights but also training and inference scripts.
+
+For daily personal use, the participant uses **Gemini** (the closed-source Google model), which they find excellent even though they cannot download its weights for optimization.
 
 ## Action Items
 
-**Action item:** [Meeting note-taker] to send the organized meeting notes to participants.
-
----
-
-# Detailed Description
-
-They discussed the recent competition and the participant's performance. One participant asked the other to briefly show their recent results and how the competition was going, specifically the one where they had claimed to be ranked first but the results hadn't been released yet. It was clarified that the competition was not over and currently did not display rankings. Someone asked if it was the Baidu competition, and the other confirmed it was. They asked for the full English name of the competition, and it was identified as Baidu CTI, noting that it didn't have an English name.
-
-The conversation turned to CUDA Graph. One participant mentioned that they had been further understanding CUDA Graph, specifically how it works. They discussed how CUDA Graph works: it records the kernels that the CPU would normally launch to the GPU, allowing the GPU to execute them directly without CPU involvement. One participant asked whether the graph was a real data structure or just a concept, and the other explained that it is a recording of CPU calls to the GPU, which are then fixed into a graph. When the GPU runs next, it no longer needs the CPU to issue instructions; the CPU can step away, and the GPU handles everything. There was a question about how the recording interval is specified—whether it's every second, every millisecond, or based on a certain number of instructions. The response was that there is no interval; it executes in a non-blocking manner.
-
-One participant admitted they didn't understand blocking versus non-blocking, and the other explained that normally, running a graph would cause blocking because the CPU has to wait to issue instructions, but after recording a CUDA graph, the GPU no longer needs to wait for the CPU and can directly execute previously recorded instructions. One participant asked how the GPU notifies the CPU after execution, and it was explained that the graph results are directly handed back to the CPU, which then proceeds with subsequent tasks. It was noted that not all CPU instructions are recorded into the CUDA graph—only certain ones, particularly those involving matrix and floating-point operations that the GPU handles well. One participant asked why CUDA graph is often associated with optimization, and the other explained that it accelerates performance because CPU blocking takes too long; after recording, it generally speeds things up. There was a discussion about why one would need to deal with such a low-level concept as CUDA graph instead of simply moving data to the GPU via PyTorch. The response was that even after moving data to the GPU, the CPU still has to issue commands thousands of times when running a model, but with CUDA graph, the CPU only needs to tell the GPU once, and the GPU records and repeats the operations automatically.
-
-They then discussed the concept of weight and parameters in large models. One participant asked about the difference between weight and parameters, and it was clarified that parameters are generally handled by the CPU, while weights are the GPU's concern. Weights occupy a large amount of space due to many layers and require high-bandwidth memory (HBM), with speeds in the hundreds of GB/s or even TB/s. It was noted that HBM3 provides 192 GB of VRAM, and while TB-level speeds are reasonable for very large models, GB-level speeds are usually sufficient for inference, though training requires higher priority.
-
-The conversation moved to the participant's previous competition win, where they optimized inference. When asked what techniques allowed them to rank first, they replied that the competition was not yet over and the details could not be disclosed. One participant then asked how to analyze what size of local model a given GPU (e.g., H100, H200, 4090, 3090) can handle for inference. The response was that it mainly depends on the available VRAM. For example, with 12 GB of VRAM, one can only run small models or quantized models, and the context length is also critical—10,000 tokens versus 100,000 tokens makes a big difference, as does the quantization type (e.g., 4-bit vs. 8-bit). Models around 5–8 GB can be loaded via GGUF, but larger models won't fit, and context size may be limited to 2048 or under 10,000. Optimizing for smaller devices is part of their work, using techniques like Flash Attention.
-
-They discussed vLLM and SGLang. One participant asked about the principles behind SGLang and why it can significantly reduce KV cache usage. The other explained that SGLang is similar to vLLM and provides distributed processing optimization, handling multiple devices by pre-processing and isolating each user's memory. It was noted that such frameworks are generally tied to math companies and don't require special attention, as batch processing and user isolation are handled by the underlying framework. One participant asked why vLLM and SGLang are used for public-facing servers while Llama.cpp is more single-user, and the response was that vLLM and SGLang are more convenient for deployment, though custom optimizations can be faster but are usually kept private by companies.
-
-They then discussed KV cache. One participant asked what K and V refer to and how much optimization is possible. The other explained that KV cache refers to the context; without it, to infer a new token, you need to re-process all previous tokens, but with KV cache, you only need the previous token's cached information, saving that step. One participant clarified that the previous token already contains bound context information, so you only need to look it up to generate the next token. The other agreed that this is conceptually similar, though performance optimization reveals differences.
-
-The conversation turned to Flash Attention. One participant mentioned that the author of Flash Attention claimed that software optimization on general-purpose NVIDIA hardware can achieve 500 tokens per second for models like DeepSeek V4, rivaling custom chips like Groq's. The other agreed that custom chips like FPGAs are generally faster, but NVIDIA hardware with proper optimization can be very competitive. They briefly mentioned that Groq's company may have been acquired by NVIDIA, but the participant was not sure. One participant asked if NVIDIA chips with suitable optimization can indeed reach 500 tokens per second or even higher, and the other affirmed that NVIDIA's technology is good, aside from being expensive.
-
-They discussed TensorRT and cuDNN. One participant asked what these tools do, and the other explained that TensorRT is an acceleration engine that is also tied to CUDA graph, and it is faster than PyTorch because it is specifically optimized for acceleration, though it is very difficult to use. cuDNN is a library of accelerated operators, similar to cuBLAS, designed for linear algebra and AI acceleration. One participant noted that cuBLAS appears frequently and asked why many operations ultimately rely on it. The other explained that cuBLAS is a matrix acceleration library specifically for NVIDIA GPUs, much faster than ordinary CUDA code, and cuBLASLt (cuBLAS Light) is a more flexible API that can be even faster. One participant observed that CUDA itself is already a high-level API, and the other agreed, adding that they appreciate NVIDIA's acceleration products for their ease of use. They discussed NVIDIA's moat, noting that it lies more in software than hardware. One participant asked about the difference between the CUDA driver and the CUDA toolkit, and the other clarified that the toolkit is for developers, while the driver is the underlying foundation that the toolkit requires to run.
-
-They then talked about Triton. One participant asked what projects come to mind when thinking of CUDA, and the other mentioned operator acceleration and operator fusion, which they used in competitions. They noted that vLLM uses such techniques, though it depends on PyTorch. One participant asked what Triton is, and the other explained that it is a simplified version of CUDA that can also run on AMD devices. It is a language for writing operators, easy to use, and typically achieves 85–95% of native CUDA performance, though native CUDA requires more debugging. One participant asked if people who are very skilled at CUDA work at NVIDIA or at companies like OpenAI, and the other agreed, but noted that they personally use Triton more than CUDA, only resorting to CUDA for extreme optimization. They confirmed that Triton is currently the most standard operator fusion library and is widely used in open-source frameworks like SGLang.
-
-The conversation shifted to Mixture of Experts (MoE). One participant asked about the latest developments in MoE and SFT, and the other said they had some understanding from doing inference acceleration. They explained that each expert produces an output, which is then aggregated into a final logit, but they were not familiar with how experts are divided (e.g., finance vs. programming) as they focus on acceleration rather than research. One participant asked what models they commonly use for inference acceleration, and the other replied that it depends on the competition, but they use models like the Qwen series and some sequence models. For daily use, they use Gemini, which is not open-source but is convenient for helping with their work. They do not optimize Gemini; they optimize open-source models like Qwen.
-
-One participant asked why the participant's optimizations are not available online and why they have to write custom code. The other explained that while some optimizations exist online, they are rare, and custom code is faster than standard implementations because they pursue extreme speed while maintaining high precision. They do not reduce layers to avoid affecting precision. One participant asked if the acceleration involves fusing matrix operations, moving CPU tasks to the GPU, or pre-computing. The other confirmed that pre-computation is common, and that CUDA graph requires recording the graph first. They discussed PyTorch's compile feature, noting that while mainstream models often claim PyTorch compile is fastest, hand-written code is always faster because it is more targeted and avoids overhead. However, they acknowledged that PyTorch compile is a powerful tool, though less convenient for customization.
-
-They discussed Flash Attention again. One participant asked why Flash Attention uses a tiling approach to move attention computation from quadratic memory to SRAM. The other explained that SRAM is static memory that does not move addresses, which is helpful for running graphs. When asked why tiling is necessary instead of moving everything to SRAM at once, the other said it is because SRAM cannot hold everything, and the CPU is better at handling things in chunks. One participant asked if the participant aspires to create similar hardware-level optimizations for inference, and the other said it is possible, but they are currently focused on model optimization.
-
-They discussed the Qwen model series. One participant asked what size of Qwen the other runs, and the response was 2B, because a small model is sufficient for optimization—if it works on a small model, it will work on a large one. They confirmed that they use Triton to write custom inference code with operator fusion for optimization. One participant asked if their optimized code is faster than Llama.cpp or vLLM, and the other said it is generally faster, though vLLM is more convenient and general-purpose. The custom code is typically 500 to 2,000 lines of Python, with CUDA code being longer. One participant asked if the participant encounters many people more senior in this area, and the other said very few, as most people prefer using vLLM or automated tools like Claude Code, which they feel misses the true spirit of competition. They noted that the competition organizers review submissions to check if code is AI-generated and assess the participant's background, so even if someone wins first place with a weak resume, they might be scrutinized.
-
-The conversation concluded with one participant thanking the other and saying they would organize the notes and send them over. The other agreed and said goodbye.
+- **Action item:** The participant will send the refined meeting notes back to the other party for review, as confirmed at the end of the conversation.
