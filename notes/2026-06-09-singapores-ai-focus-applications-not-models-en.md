@@ -30,6 +30,7 @@ Singapore's top AI companies focus on fintech (Grab's GrabMaps, Advance Intellig
 You're better off staying on OpenRouter hitting DeepSeek-V4 Pro or Mimo if Singapore location isn't a hard requirement.
 
 References:
+
 - Singapore's AI Powerhouses 2026: Top 10 Companies
 - SuperAI 2026 returns to Singapore as the world's AI powers converge
 - Best Chinese AI Models 2026 (TokenMix)

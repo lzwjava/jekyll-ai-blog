@@ -30,6 +30,7 @@ type: note
 如果新加坡所在地并非硬性要求，你最好留在OpenRouter上使用DeepSeek-V4 Pro或Mimo。
 
 参考来源：
+
 - 新加坡AI巨头2026：十大领军企业
 - SuperAI 2026重返新加坡，全球AI力量汇聚
 - 2026年最佳中国AI模型（TokenMix）

@@ -16,8 +16,9 @@ All fixed. Test results:
   Zero errors. imagesnap found with the new PATH.
 
 Changes applied to crontab:
-  - PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin (fixes imagesnap)
-  - >/dev/null 2>&1 on both jobs (no more email spam on success)
-  - Restored */10 for appearance, 0 * * * * for projects update
+
+- PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin (fixes imagesnap)
+- >/dev/null 2>&1 on both jobs (no more email spam on success)
+- Restored */10 for appearance, 0* ** * for projects update
 
 Your mailbox will stay clean now — you'll only get cron emails if something actually errors out.

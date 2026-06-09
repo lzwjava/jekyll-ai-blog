@@ -48,6 +48,7 @@ Singapore is building sectoral missions around advanced manufacturing, embodied 
 ### The Hard Truth
 
 Singapore has the talent (top universities, strong ML researchers) and capital (strong fintech ecosystem). But frontier model building requires:
+
 - **Patient capital** (hedge fund, not VC)
 - **GPU stockpiles before export controls** (missed opportunity, timing)
 - **A massive addressable market** (Chinese language/context helped DeepSeek)
@@ -61,6 +62,7 @@ Singapore's positioning as a *deployment hub* is actually more defensible long-t
 **The meta lesson**: Don't confuse "could do" with "should do." Singapore could build frontier models. It chose to own a different, less crowded part of the value chain instead.
 
 References:
+
 - DeepSeek History: From Hedge Fund to V4
 - CNBC: How this startup came into being
 - Singapore Budget: Harness AI As A Strategic Advantage

@@ -14,12 +14,14 @@ Done. Here's what was wrong and what I fixed:
 **Problem:** `_set_alarm()` was just spawning a `sleep` + `osascript notification` background process and opening `clock-alarm://`. It never actually wrote anything to the Clock.app plist — so no alarm appeared in Clock.app.
 
 **Fix:** Rewrote `_set_alarm()` to:
+
 1. Build an alarm dict matching the exact `mobiletimerd` plist format (reverse-engineered from your existing alarms)
 2. Read the plist, append the new alarm to `MTAlarms.MTAlarms`
 3. Write it back with `plistlib.dump`
 4. `killall mobiletimerd` so Clock.app picks up the change on restart
 
 Test result:
+
 ```
 $ ww alarm 10 "clothes"
 Alarm set for 23:46 (in 10m00s)  label: "clothes"

@@ -15,8 +15,8 @@ type: note
 系统 CRONTAB（crontab -l）  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-  */10 * * * *  /opt/homebrew/bin/ww appearance smart-auto  
-  0 * * * *     /opt/homebrew/bin/ww projects update  
+  */10* ** */opt/homebrew/bin/ww appearance smart-auto  
+  0* ** *     /opt/homebrew/bin/ww projects update  
 
   两个任务：每10分钟检查外观，每小时执行 git pull。
 
@@ -24,11 +24,11 @@ type: note
 ww projects update — 运行中  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-  - 配置：148个仓库，分布在8个类别（ai-models、ai-training、ai-inference、ai-apps、ai-agents、dev-tools、infra-network、web-platforms）  
-  - 本地缺失2个仓库：TensorRT-LLM、rocBLAS（已干净跳过）  
-  - 最近一次运行：134个当前，12个已更新，0个失败（耗时27.9秒）  
-  - 主要更新：hermes-agent（265次提交）、warp（3次）、langfuse（1次）、desktop（15次）  
-  - 上次运行（来自邮件）：118个当前，26个已更新，2个失败（hermes-agent + desktop — 临时问题，现已解决）  
+- 配置：148个仓库，分布在8个类别（ai-models、ai-training、ai-inference、ai-apps、ai-agents、dev-tools、infra-network、web-platforms）  
+- 本地缺失2个仓库：TensorRT-LLM、rocBLAS（已干净跳过）  
+- 最近一次运行：134个当前，12个已更新，0个失败（耗时27.9秒）  
+- 主要更新：hermes-agent（265次提交）、warp（3次）、langfuse（1次）、desktop（15次）  
+- 上次运行（来自邮件）：118个当前，26个已更新，2个失败（hermes-agent + desktop — 临时问题，现已解决）  
 
   结论：每小时执行的 cron 任务确实在正常工作——拉取上游的实际变更。
 
@@ -57,7 +57,7 @@ ww projects update — 运行中
   1. 在 crontab 中使用完整路径（最干净）：  
      将外观任务行改为：  
      PATH=/opt/homebrew/bin:/usr/bin:/bin  
-     */10 * * * * /opt/homebrew/bin/ww appearance smart-auto  
+     */10* ** * /opt/homebrew/bin/ww appearance smart-auto  
 
   2. 或者在 crontab 顶部添加 PATH 指令：  
      PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin  
