@@ -87,6 +87,7 @@ max_batch_size ≈ available_memory / (2 × num_layers × seq_len × hidden_dim 
 ```
 
 On MI300X (192 GB):
+
 ```
 max_bsz ≈ 192GB / (2 × 40 × 4096 × 5120 × 2 bytes)
         ≈ 192GB / 3.3GB per token position
