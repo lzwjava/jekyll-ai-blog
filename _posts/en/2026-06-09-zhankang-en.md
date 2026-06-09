@@ -84,7 +84,7 @@ One participant proposed a layered strategy: in familiar team meetings, delibera
 
 ### Asset Shrinkage and Mortgage Pressure
 
-One participant described his financial situation in detail: total family assets dropped from a 2021 peak of 1.5 million to less than 2 million now (possibly lower in reality). The main reason is a housing loss — he bought a house in Beijing for 3.1 million, which may now be worth only about 1.8 million. He took out a loan of over 2 million, which has been paid down to 600,000 remaining, but the house can't be sold. Monthly mortgage pressure is heavy — almost everything beyond daily necessities goes to the mortgage.
+One participant described his financial situation in detail: total family assets dropped from a 2021 peak of 3.5 million to less than 2 million now (possibly lower in reality). The main reason is a housing loss — he bought a house in Beijing for 3.1 million, which may now be worth only about 1.8 million. He took out a loan of over 2 million, which has been paid down to 600,000 remaining, but the house can't be sold. Monthly mortgage pressure is heavy — almost everything beyond daily necessities goes to the mortgage.
 
 ### Family Asset Structure
 
