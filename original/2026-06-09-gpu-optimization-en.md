@@ -10,6 +10,8 @@ translated: false
 
 Two participants: [aztice](https://github.com/aztice) and [lzwjava](https://github.com/lzwjava).
 
+Aztice — Hong Kong secondary school student, lead developer of Axono (a lightweight AI inference library). Participated in the 2024 6th IKCEST "Belt and Road" International Big Data Competition and the 10th Baidu & Xi'an Jiaotong University Big Data Competition, ranking 17th out of 1,700+ team members. Multiple years of experience in AI Infrastructure. GitHub: [@aztice](https://github.com/aztice) , WeChat@awalightice.
+
 The following conversation was transcribed using Whisper on an RTX 4070, then refined and organized with the help of AI tools. The original conversation was in Chinese.
 
 Note: Because both transcription and refinement were AI-assisted, some details may be inaccurate or paraphrased. Please verify any important information independently before relying on it.
