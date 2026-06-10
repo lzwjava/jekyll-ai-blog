@@ -29,6 +29,7 @@ min_val_bpb = 0.780 (step 130k). Neither run improved past the starting checkpoi
 The core problem isn't just LR scheduling — it's that extending from 130k to 200k made the model WORSE in both attempts. The model may have already converged at 130k (21.8x tokens:params ratio, near Chinchilla-optimal). Further training is over-training without benefit at this scale.
 
 To actually improve past 0.780, you'd need either:
+
 1. More data (not just more epochs on the same data)
 2. Larger model (d16 or d20)
 3. Better data quality/filtering

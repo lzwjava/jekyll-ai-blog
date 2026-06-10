@@ -12,11 +12,13 @@ type: note
 无需更改任何代码。该集成已在代码库中完成。原因如下：
 
 **CLI 参数**（base_train.py 第 43-45 行）：已定义：
+
 - `--tracker`，可选值 `wandb|mlflow|none`
 - `--mlflow-uri`，用于远程服务器
 - `--mlflow-experiment`，用于实验名称
 
 **初始化逻辑**（第 101-110 行）：已处理切换：
+
 ```python
 if args.tracker == "mlflow":
     wandb_run = MLflowLogger(...)

@@ -16,6 +16,7 @@ Per the current official Codex docs, when you first open the app you should “s
 What may be confusing is this: after you log in once, Codex caches your credentials locally and reuses them later, so it can look like “no login is needed” on future launches. The docs say the app/CLI/IDE cache login details and ChatGPT sessions are refreshed automatically while active. Source: [Authentication and sessions](https://developers.openai.com/codex/auth).
 
 So the short version is:
+
 - First use: yes, login is required.
 - Later use: maybe not prompted again, because the app remembers your login.
 

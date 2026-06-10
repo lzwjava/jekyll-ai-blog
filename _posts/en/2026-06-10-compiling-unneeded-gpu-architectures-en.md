@@ -12,6 +12,7 @@ type: note
 Here's the full picture:
 
 **Parallelism:**
+
 - nvcc `--threads 4` — compiling for 4 architectures simultaneously
 - 4 × cicc processes, each at ~100% CPU, ~650MB RAM each
 - 32 cores available, load avg 2.90 — plenty of headroom

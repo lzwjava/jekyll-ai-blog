@@ -12,6 +12,7 @@ type: note
 I can do a rough self-check, but it can only estimate, not confirm an exact cutoff date.
 
 Quick self-test:
+
 1. I reliably know many widely established facts through 2024.
 2. I do not trust myself on late-2024, 2025, or 2026 “latest” facts without checking live sources.
 3. That pattern usually means my built-in knowledge boundary is around mid-2024.

@@ -126,6 +126,7 @@ model was severely overtrained for its size.
 ```
 
 Key takeaways:
+
 - The model KNOWS things but can't reason about them reliably
 - It was trained ~3.5x past its optimal point (5.95 ratio vs 20 ideal)
 - Code is a dead zone — 286M params simply can't learn programming

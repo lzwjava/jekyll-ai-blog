@@ -12,11 +12,13 @@ type: note
 No code changes needed. The integration is already complete in the codebase. Here's why:
 
 **CLI args** (base_train.py lines 43-45): Already defined:
+
 - `--tracker` with choices `wandb|mlflow|none`
 - `--mlflow-uri` for remote server
 - `--mlflow-experiment` for experiment name
 
 **Init logic** (lines 101-110): Already handles the switch:
+
 ```python
 if args.tracker == "mlflow":
     wandb_run = MLflowLogger(...)

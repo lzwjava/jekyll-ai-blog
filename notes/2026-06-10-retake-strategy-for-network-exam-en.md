@@ -40,6 +40,7 @@ Given your background, invert the normal order — past papers first, textbook s
 **Weeks 3–8: chapter passes, exam-first.** For each chapter: skim the textbook section, then immediately do every past-paper question tagged to that chapter. The 串讲小册子 bundled with the 自考通试卷 is genuinely the highest-ROI purchase here — it's a compressed list of exactly the testable sentences.
 
 **Weeks 9–12: drill the two computation archetypes** until they're mechanical, ~15 minutes for both on exam day:
+
 - Subnetting: given 192.168.10.0/24, split into 6 subnets → borrow 3 bits, mask 255.255.255.224, list network/broadcast/usable ranges.
 - CRC: given message bits and generator polynomial, do the XOR long division by hand. Also Nyquist/Shannon plug-and-chug: C = 2H·log₂N and C = H·log₂(1+S/N).
 
