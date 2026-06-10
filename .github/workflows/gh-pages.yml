@@ -49,6 +49,17 @@ jobs:
           TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')
           echo "Total posts to process: $TOTAL_POSTS"
 
+          push_with_retry() {
+            for attempt in 1 2 3; do
+              git push && return 0
+              echo "Push failed (attempt $attempt/3), pulling and rebasing..."
+              git pull --rebase || true
+              sleep 2
+            done
+            echo "Push failed after 3 attempts"
+            return 1
+          }
+
           if [[ "$TOTAL_POSTS" -eq 0 ]]; then
             echo "No language files to update."
           else
@@ -58,53 +69,67 @@ jobs:
               git config user.email "github-actions[bot]@users.noreply.github.com"
               git add _posts/**/*.md
               git diff --cached --quiet || git commit -m "chore(lang): Update language files"
-              git push || {
-                echo "Push failed, attempting pull and merge"
-                git pull --rebase
-                git push
-              }
+              push_with_retry
             done
           fi
 
       - name: Translate notes in batches
         run: |
+          push_with_retry() {
+            for attempt in 1 2 3; do
+              git push && return 0
+              echo "Push failed (attempt $attempt/3), pulling and rebasing..."
+              git pull --rebase || true
+              sleep 2
+            done
+            echo "Push failed after 3 attempts"
+            return 1
+          }
           python scripts/translation/update_lang_notes.py --n 100 --model deepseek
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/**/**
           git diff --cached --quiet || git commit -m "docs(notes): Add translated notes"
-          git push || {
-              echo "Push failed, attempting pull and merge"
-              git pull --rebase
-              git push
-          }
+          push_with_retry
 
       - name: Fix MD Table
         run: |
+          push_with_retry() {
+            for attempt in 1 2 3; do
+              git push && return 0
+              echo "Push failed (attempt $attempt/3), pulling and rebasing..."
+              git pull --rebase || true
+              sleep 2
+            done
+            echo "Push failed after 3 attempts"
+            return 1
+          }
           python ./scripts/translation/fix_md_table.py -y
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/
           git diff --cached --quiet || git commit -m "chore(tables): Fix markdown tables"
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
+          push_with_retry
 
       - name: Lint Markdown files
         run: |
+          push_with_retry() {
+            for attempt in 1 2 3; do
+              git push && return 0
+              echo "Push failed (attempt $attempt/3), pulling and rebasing..."
+              git pull --rebase || true
+              sleep 2
+            done
+            echo "Push failed after 3 attempts"
+            return 1
+          }
           npm install -g markdownlint-cli2
           markdownlint-cli2 --fix "**/*.md" "!node_modules/**" "!logs/**" || true
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/ notes/ original/
           git diff --cached --quiet || git commit -m "chore(lint): Fix markdown lint issues"
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
+          push_with_retry
 
       - name: Install ww CLI
         run: pip install git+https://github.com/lzwjava/ww.git
