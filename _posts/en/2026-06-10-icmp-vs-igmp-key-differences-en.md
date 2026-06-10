@@ -18,6 +18,7 @@ They sound similar but solve completely different problems. Both sit directly on
 **ICMP (protocol number 1)** — error reporting and diagnostics for IP itself. When something goes wrong delivering a packet (TTL expired, host unreachable, fragmentation needed), routers/hosts send ICMP messages back to the source. It's the feedback channel IP lacks, since IP is fire-and-forget.
 
 Key message types:
+
 - Type 8/0 — Echo Request/Reply (`ping`)
 - Type 11 — Time Exceeded (what `traceroute` exploits: send packets with TTL=1,2,3... and collect Type 11s from each hop)
 - Type 3 — Destination Unreachable (code 4, "fragmentation needed but DF set," drives Path MTU Discovery)

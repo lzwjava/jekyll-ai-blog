@@ -15,6 +15,7 @@ Looking great:
 - **Currently:** `flash_fwd_hdim32_fp16_causal_sm80.cu` — deep into forward pass
 - **Backward pass: DONE**
 - **Forward pass progress:**
+
   ```
   fwd hdim256: bf16-causal ✓, bf16 ✓, fp16-causal ✓, fp16 ✓
   fwd hdim32:  bf16-causal ✓, bf16 ✓, fp16-causal (building), fp16 (pending)

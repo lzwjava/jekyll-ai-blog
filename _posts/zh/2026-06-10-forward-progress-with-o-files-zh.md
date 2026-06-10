@@ -15,6 +15,7 @@ type: note
 - **当前：** `flash_fwd_hdim32_fp16_causal_sm80.cu` — 深入前向传播
 - **反向传播：已完成**
 - **前向传播进度：**
+
   ```
   fwd hdim256: bf16-causal ✓, bf16 ✓, fp16-causal ✓, fp16 ✓
   fwd hdim32:  bf16-causal ✓, bf16 ✓, fp16-causal (构建中), fp16 (待处理)
