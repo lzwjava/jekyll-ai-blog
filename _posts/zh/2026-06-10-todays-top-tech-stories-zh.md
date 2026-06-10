@@ -13,15 +13,15 @@ type: note
 
 **热门故事：**
 
-1.  **macOS Container Machines** (github.com/apple) — 428分，144条评论
-2.  **Claude Fable 5** (anthropic.com) — 1947分，1520条评论 🔥 规模巨大
-3.  **npm v12 即将到来的破坏性变更** — 259分
-4.  **Rich Sutton 谈 AI 创造力与发现** — 51分
-5.  **德国裁决：Google 对 AI Overviews 中的虚假回答承担责任** — 211分，113条评论
-6.  **现存最古老的动画长片迎来 100 周年** — 58分
-7.  **RIP 软件黑客马拉松。硬件黑客马拉松万岁** — 102分
-8.  **基于 Kolmogorov-Arnold 网络的 FPGA 超快速机器学习** — 186分
-9.  **更多 Molly Guards** — 76分
+1. **macOS Container Machines** (github.com/apple) — 428分，144条评论
+2. **Claude Fable 5** (anthropic.com) — 1947分，1520条评论 🔥 规模巨大
+3. **npm v12 即将到来的破坏性变更** — 259分
+4. **Rich Sutton 谈 AI 创造力与发现** — 51分
+5. **德国裁决：Google 对 AI Overviews 中的虚假回答承担责任** — 211分，113条评论
+6. **现存最古老的动画长片迎来 100 周年** — 58分
+7. **RIP 软件黑客马拉松。硬件黑客马拉松万岁** — 102分
+8. **基于 Kolmogorov-Arnold 网络的 FPGA 超快速机器学习** — 186分
+9. **更多 Molly Guards** — 76分
 10. **使用 Mythos 工作是什么感觉** — 204分，177条评论
 11. **如果 Claude Fable 停止帮助你，你永远不会知道** (jonready.com) — 639分，312条评论
 12. **我们对自己撒的关于电子邮件地址的谎** — 69分

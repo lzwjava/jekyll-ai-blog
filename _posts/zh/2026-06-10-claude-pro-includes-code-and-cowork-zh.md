@@ -25,6 +25,7 @@ type: note
 **1. 注意您的`ANTHROPIC_API_KEY`环境变量。** 由于您主要通过OpenRouter/API提供商运行大量任务，消耗约10亿token，您很可能已在shell中导出此变量。如果您的系统中设置了ANTHROPIC_API_KEY环境变量，Claude Code将使用此API密钥进行身份验证，而非您的Claude订阅，从而导致产生API使用费用，而非使用订阅中包含的使用量。
 
 要强制使用订阅身份验证，请在启动前取消设置：
+
 ```bash
 # 一次性操作
 env -u ANTHROPIC_API_KEY claude

@@ -34,6 +34,7 @@ type: note
 **步骤四：阅读关联文章**
 
 我点击了文章标题链接（“macOS Container Machines”），该链接指向 GitHub 仓库 `apple/container`，具体是 `container-machine.md` 文档文件。我使用 `get_page_text` 高效地读取了全文内容，无需手动滚动，涵盖以下内容：
+
 - 什么是容器机（在 Mac 上轻量、持久的 Linux 环境）
 - 主目录共享设计（`$HOME` 挂载到容器内部）
 - 初始化系统方法（支持 `systemctl`、进程管理器）
@@ -45,6 +46,7 @@ type: note
 **步骤五：撰写有深度的评论**
 
 基于文章内容，我撰写了一条评论，重点提出了三个实质性的点：
+
 1. **主目录共享**作为关键设计思路——零拷贝，构建与检查之间无偏差
 2. **初始化系统与传统应用容器的区别**，使得本地能实现真正的服务依赖
 3. 一个**真实的技术问题**，将其与 Lima 和 OrbStack 进行比较，并询问它是否使用了 `Virtualization.framework`

@@ -20,11 +20,13 @@ The screen is split: **left column = left front wheel, right column = right fron
 **1. 后倾角 (Caster) — top row.** The fore/aft tilt of the steering axis. Both boxes show `----` because caster can't be measured statically — it requires a steering sweep (turning the wheel lock-to-lock so the system can solve the steering axis geometry). The spec range printed below is roughly 4°34′–5°34′.
 
 **2. 外倾角 (Camber) — middle row.** The inward/outward tilt of the wheel viewed from the front.
+
 - Left wheel: **1°22′** on a **red** background → out of spec (positive camber, leaning out too much). Scale shows the acceptable band around 10′–50′ negative.
 - Right wheel: **−17′** on **green** → within spec.
 - Center readout 1°39′ is the **camber difference** between sides — a big left/right split like this causes the car to pull toward the side with more positive camber.
 
 **3. 前束 (Toe) — bottom row.** Whether the wheels point inward (toe-in) or outward (toe-out) viewed from above.
+
 - Left: **1°5′**, red → way out (spec is roughly 0′–10′ per wheel). This much toe error scrubs tires fast — visible as feathered/sawtooth tread wear.
 - Right: **3′**, green → fine.
 - The number under the car diagram is **total toe** (sum of both sides).

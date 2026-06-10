@@ -24,6 +24,7 @@ Two important caveats for your setup:
 **1. Watch your `ANTHROPIC_API_KEY` env var.** Since you run a lot through OpenRouter/API providers and consume ~1B tokens, you likely have this exported in your shell. If you have an ANTHROPIC_API_KEY environment variable set on your system, Claude Code will use this API key for authentication instead of your Claude subscription, resulting in API usage charges rather than using your subscription's included usage.
 
 To force subscription auth, unset it before launching:
+
 ```bash
 # one-off
 env -u ANTHROPIC_API_KEY claude

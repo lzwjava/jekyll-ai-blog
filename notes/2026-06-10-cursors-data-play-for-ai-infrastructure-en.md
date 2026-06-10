@@ -42,6 +42,6 @@ The deeper read: This positions software delivery as getting harder to govern, n
 
 **References:**
 
-- Cursor Developer Habits Report: Agentic Coding Trends (https://cursor.com/insights)
+- Cursor Developer Habits Report: Agentic Coding Trends (<https://cursor.com/insights>)
 - Cursor's 18-Month Data Shows Vibe Coding's Real State: AI Widens the Developer Gap (TechTimes, June 2026)
 - Cursor Developer Habits Report 2026: Why AI Coding Needs Governance Infrastructure (Mneme HQ)

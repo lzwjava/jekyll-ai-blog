@@ -34,6 +34,7 @@ Rather than clicking the article title (which goes to the external link), I used
 **Step 4: Read the Linked Article**
 
 I clicked the article title link ("macOS Container Machines") which pointed to the GitHub repo `apple/container`, specifically the `container-machine.md` documentation file. I used `get_page_text` to efficiently read the full content without scrolling, covering:
+
 - What container machines are (lightweight, persistent Linux environments on Mac)
 - The home directory sharing design (`$HOME` mounted inside the container)
 - The init system approach (supports `systemctl`, process supervisors)
@@ -45,6 +46,7 @@ I clicked the article title link ("macOS Container Machines") which pointed to t
 **Step 5: Draft a Thoughtful Comment**
 
 Based on the article content, I crafted a comment that highlighted three substantive points:
+
 1. The **home directory sharing** as the key design insight — zero-copy, no drift between building and inspecting
 2. The **init system distinction** from traditional app containers, enabling real service dependencies locally
 3. A genuine **technical question** comparing it to Lima and OrbStack and whether it uses `Virtualization.framework`
