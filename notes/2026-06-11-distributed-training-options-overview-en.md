@@ -11,7 +11,6 @@ type: note
 
 Now I have the full picture. Here's what we're working with:
 
-
     MACHINE COMPARISON
     ==================
 

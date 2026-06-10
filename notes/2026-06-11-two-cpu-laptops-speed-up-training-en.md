@@ -20,6 +20,7 @@ Funny enough, this is the **only one of your three configurations where distribu
 DDP overlaps gradient all-reduce with the backward pass (bucketed, ~25 MB buckets by default). Scaling is near-linear when `t_comm < t_backward`.
 
 GPT-2 124M, fp32: ~496 MB of gradients per step.
+
 - Gigabit Ethernet: ~4.5 s to all-reduce
 - CPU backward (8-core mobile chip): ~15–30 s
 

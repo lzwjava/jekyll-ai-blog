@@ -20,6 +20,7 @@ type: note
 DDP将梯度all-reduce与反向传播重叠（使用分桶策略，默认约25 MB每桶）。当`t_comm < t_backward`时，扩展性接近线性。
 
 GPT-2 124M，fp32：每步约496 MB梯度。
+
 - 千兆以太网：all-reduce约需4.5秒
 - CPU反向传播（8核移动芯片）：约15–30秒
 
