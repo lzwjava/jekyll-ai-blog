@@ -11,7 +11,7 @@ type: note
 
 已完成！以下是操作详情：
 
-发布版本：https://github.com/lzwjava/ww/releases/tag/v0.1.0
+发布版本：<https://github.com/lzwjava/ww/releases/tag/v0.1.0>
 
 已完成的工作：
 
@@ -33,15 +33,18 @@ type: note
 
 用户安装方式：
 
-  # 从 GitHub release 下载 .whl 文件安装
+# 从 GitHub release 下载 .whl 文件安装
+
   pip install ww-0.1.0-py3-none-any.whl
 
-  # 或直接从仓库安装
-  pip install git+https://github.com/lzwjava/ww.git@v0.1.0
+# 或直接从仓库安装
+
+  pip install git+<https://github.com/lzwjava/ww.git@v0.1.0>
 
 未来发布 —— 只需更新 pyproject.toml 中的版本号并打标签：
 
-  # 将 pyproject.toml 中的版本号改为 0.2.0，然后提交，接着：
+# 将 pyproject.toml 中的版本号改为 0.2.0，然后提交，接着
+
   git tag v0.2.0
   git push origin main --tags
 

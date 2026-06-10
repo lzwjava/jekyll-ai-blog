@@ -32,12 +32,14 @@ type: note
 ```python
 assert self.get_pos() == 0, "Cannot prefill a non-empty KV cache"
 ```
+
 `self` 必须是全新的——预填充是从位置 `[0, other_pos)` 进行整体复制，而不是追加。合并到一个部分填充的缓存会破坏位置对齐。
 
 ```python
 assert self.n_layers == other.n_layers and self.n_heads == other.n_heads and self.head_dim == other.head_dim
 assert self.max_seq_len >= other.max_seq_len
 ```
+
 几何结构必须匹配（同一个模型），并且目标缓存至少需要与源缓存相同的序列空间——通常更多，因为 `self` 在提示词之后还会继续解码。
 
 ```python
@@ -72,12 +74,14 @@ assert (dst[0, :, :5] == dst[3, :, :5]).all()  # 每一行都得到了提示词�
 ```python
 self.cache_seqlens.fill_(other_pos)
 ```
+
 `cache_seqlens` 是一个形状为 `(batch,)` 的逐序列长度张量——这是 FlashAttention 中 `flash_attn_with_kvcache` 的约定。它告诉注意力内核每个序列的有效 KV 结束位置，即下一个解码 token 的 K/V 应该写入的位置。将所有 N 个条目设置为 `other_pos` 意味着：每一行的"写入指针"都紧跟在提示词之后。
 
 ```python
 if other.prev_embedding is not None:
     self.prev_embedding = other.prev_embedding.expand(self.batch_size, -1, -1).clone()
 ```
+
 这传递了 **拖尾状态**——nanochat 会将上一个 token 的嵌入混合到当前 token 的表示中（继承自 modded-nanogpt 系列的"token 拖尾技巧"），因此解码步骤 `other_pos` 需要 token `other_pos - 1` 的嵌入。两个细节值得注意：
 
 - `.expand(N, -1, -1)` 创建了一个 **零复制视图**，在 batch 维上步长为 0——所有 N 行共享同一块内存。

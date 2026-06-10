@@ -11,7 +11,7 @@ type: note
 
 Done! Here's what happened:
 
-RELEASE LIVE: https://github.com/lzwjava/ww/releases/tag/v0.1.0
+RELEASE LIVE: <https://github.com/lzwjava/ww/releases/tag/v0.1.0>
 
 What was done:
 
@@ -33,15 +33,18 @@ What was done:
 
 How users install:
 
-  # From GitHub release (download .whl)
+# From GitHub release (download .whl)
+
   pip install ww-0.1.0-py3-none-any.whl
 
-  # Or directly from the repo
-  pip install git+https://github.com/lzwjava/ww.git@v0.1.0
+# Or directly from the repo
+
+  pip install git+<https://github.com/lzwjava/ww.git@v0.1.0>
 
 Future releases — just bump version in pyproject.toml and tag:
 
-  # bump version in pyproject.toml to 0.2.0, commit, then:
+# bump version in pyproject.toml to 0.2.0, commit, then
+
   git tag v0.2.0
   git push origin main --tags
 

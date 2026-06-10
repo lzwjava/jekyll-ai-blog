@@ -50,7 +50,7 @@ type: note
    - 计算最优 token 数 = target_param_data_ratio * scaling_params
    - 通过 Power Lines 计算最优批次大小：Bopt ∝ D^0.383
    - 计算学习率修正：η ∝ sqrt(B/Bref)
-   - 计算权重衰减：λ = λref * sqrt(B/Bref) * (Dref/D)  （T_epoch 框架）
+   - 计算权重衰减：λ = λref *sqrt(B/Bref)* (Dref/D)  （T_epoch 框架）
 
 3. 优化器
    - 矩阵参数（transformer.h）使用 Muon —— Newton-Schulz 正交化
@@ -110,6 +110,7 @@ type: note
 | 计算器工具使用     | 无                       | 内置：<|python_start|>...<|python_end|> |
 
 主要结构差异：
+
 - nanoGPT 是单个文件（model.py 约 300 行）。nanochat 是一个完整项目，包含 15 个以上模块、一个三阶段流程（预训练 -> SFT -> RL）以及生产级服务。
 - nanoGPT 使用标准 AdamW。nanochat 使用 Muon 优化器（基于 Newton-Schulz）用于权重矩阵，收敛更快。
 - nanoGPT 的模型本质上是 GPT-2 架构。nanochat 包含许多现代附加功能：RoPE、GQA、QK 归一化、ReLU²、值嵌入、滑动窗口、smear、backout、logit softcap。
@@ -121,31 +122,34 @@ chat_sft.py —— 监督微调
 采用预训练的基础模型，在聊天数据上进行微调。
 
 数据混合：
-  - SmolTalk：46 万行通用对话
-  - CustomJSON：1000 行身份对话（你是谁？）
-  - MMLU：10 万行 x3 个 epoch（教授多项选择）
-  - GSM8K：8000 行 x4 个 epoch（教授数学 + 工具使用）
-  - SimpleSpelling：20 万行（拼写单词 'apple'）
-  - SpellingBee：8 万行（'strawberry' 中有几个 'r'？）
+
+- SmolTalk：46 万行通用对话
+- CustomJSON：1000 行身份对话（你是谁？）
+- MMLU：10 万行 x3 个 epoch（教授多项选择）
+- GSM8K：8000 行 x4 个 epoch（教授数学 + 工具使用）
+- SimpleSpelling：20 万行（拼写单词 'apple'）
+- SpellingBee：8 万行（'strawberry' 中有几个 'r'？）
 
 与 base_train 的主要区别：
-  - 加载预训练检查点，继承超参数
-  - 使用损失掩码：仅助理 token 有损失，用户/填充 token 被掩码（-1）
-  - 最佳拟合对话打包（算法相同但考虑对话结构）
-  - 评估 ChatCORE 指标（通过聊天方式评估 ARC、MMLU、GSM8K、HumanEval、SpellingBee）
-  - 基于进度（0->1）的学习率调度，而非绝对步数
-  - 权重衰减 = 0（延续预训练结束时的归零状态）
-  - 保存到 chatsft_checkpoints/ 而非 base_checkpoints/
+
+- 加载预训练检查点，继承超参数
+- 使用损失掩码：仅助理 token 有损失，用户/填充 token 被掩码（-1）
+- 最佳拟合对话打包（算法相同但考虑对话结构）
+- 评估 ChatCORE 指标（通过聊天方式评估 ARC、MMLU、GSM8K、HumanEval、SpellingBee）
+- 基于进度（0->1）的学习率调度，而非绝对步数
+- 权重衰减 = 0（延续预训练结束时的归零状态）
+- 保存到 chatsft_checkpoints/ 而非 base_checkpoints/
 
 =================================================================
 chat_web.py —— 生产级 Web 服务器
 =================================================================
 
 FastAPI 服务器，提供：
-  - GET /           -> HTML 聊天界面（来自 nanochat/ui.html）
-  - POST /chat/completions -> 兼容 OpenAI 的流式 API
-  - GET /health     -> 健康检查
-  - GET /stats      -> 工作池统计信息
+
+- GET /           -> HTML 聊天界面（来自 nanochat/ui.html）
+- POST /chat/completions -> 兼容 OpenAI 的流式 API
+- GET /health     -> 健康检查
+- GET /stats      -> 工作池统计信息
 
 通过 WorkerPool 实现多 GPU：每个 GPU 加载一份完整模型副本，请求轮询分发。
 滥用限制：500 条消息/请求，每条消息 8000 字符，总计 32000 字符，温度 0-2，top-k 0-200。
@@ -159,12 +163,14 @@ KV 缓存 —— 是的，推理时使用
 是的。KV 缓存已在 nanochat/engine.py 中完整实现，并在所有推理场景中使用（chat_cli、chat_web、训练中的 sample_every）。
 
 KVCache 类（engine.py:82-137）：
-  - 预分配：(n_layers, B, T, H, D) 张量用于 K 和 V
-  - 通过 cache_seqlens（int32 张量）跟踪位置
-  - 存储 prev_embedding 用于解码过程中的 smear 机制
-  - FA3 通过 flash_attn_with_kvcache 就地更新缓存
+
+- 预分配：(n_layers, B, T, H, D) 张量用于 K 和 V
+- 通过 cache_seqlens（int32 张量）跟踪位置
+- 存储 prev_embedding 用于解码过程中的 smear 机制
+- FA3 通过 flash_attn_with_kvcache 就地更新缓存
 
 Engine.generate() 的使用方式：
+
   1. 预填充：创建 KVCache(batch=1, seq=len(prompt))，将完整提示通过
      model.forward(tokens, kv_cache=kv_cache_prefill) 处理
   2. 克隆：创建 KVCache(batch=num_samples)，.prefill(从预填充缓存复制)
@@ -172,8 +178,9 @@ Engine.generate() 的使用方式：
      model.forward(new_token, kv_cache=kv_cache_decode)  # T=1，缓存包含所有先前内容
 
 model.forward()（gpt.py:416）处理两种模式：
-  - kv_cache=None  -> 训练：完整因果注意力，无缓存
-  - 给定 kv_cache -> 推理：flash_attn_with_kvcache，缓存感知的旋转偏移
+
+- kv_cache=None  -> 训练：完整因果注意力，无缓存
+- 给定 kv_cache -> 推理：flash_attn_with_kvcache，缓存感知的旋转偏移
 
 滑动窗口也适用于 KV 缓存：window_size 被传递到
 flash_attn_with_kvcache，因此 SSSL 模式在推理时同样适用。

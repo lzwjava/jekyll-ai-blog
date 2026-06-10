@@ -32,12 +32,14 @@ Prompt compute drops from `O(N · prompt_len)` to `O(prompt_len)`. For a 2,000-t
 ```python
 assert self.get_pos() == 0, "Cannot prefill a non-empty KV cache"
 ```
+
 `self` must be fresh — prefill is a wholesale copy into position `[0, other_pos)`, not an append. Merging into a partially-filled cache would corrupt the positional alignment.
 
 ```python
 assert self.n_layers == other.n_layers and self.n_heads == other.n_heads and self.head_dim == other.head_dim
 assert self.max_seq_len >= other.max_seq_len
 ```
+
 Geometry must match (same model), and the destination needs at least as much sequence room — typically more, since `self` will keep decoding past the prompt.
 
 ```python
@@ -72,12 +74,14 @@ assert (dst[0, :, :5] == dst[3, :, :5]).all()  # every row got the prompt KV
 ```python
 self.cache_seqlens.fill_(other_pos)
 ```
+
 `cache_seqlens` is a per-sequence length tensor of shape `(batch,)` — this is the FlashAttention `flash_attn_with_kvcache` convention. It tells the attention kernel where each sequence's valid KV ends, i.e., where the next decoded token's K/V should be written. Setting all N entries to `other_pos` means: every row's "write head" starts right after the prompt.
 
 ```python
 if other.prev_embedding is not None:
     self.prev_embedding = other.prev_embedding.expand(self.batch_size, -1, -1).clone()
 ```
+
 This carries over the **smear state** — nanochat mixes the previous token's embedding into the current token's representation (the "token smearing" trick inherited from the modded-nanogpt lineage), so decoding step `other_pos` needs the embedding of token `other_pos - 1`. Two details matter:
 
 - `.expand(N, -1, -1)` creates a **zero-copy view** with stride 0 on the batch dim — all N rows alias the same memory.

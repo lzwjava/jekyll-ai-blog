@@ -50,7 +50,7 @@ TRAINING LOGIC FLOW
    - Compute optimal tokens = target_param_data_ratio * scaling_params
    - Compute optimal batch size via Power Lines: Bopt ∝ D^0.383
    - Compute LR correction: η ∝ sqrt(B/Bref)
-   - Compute weight decay: λ = λref * sqrt(B/Bref) * (Dref/D)  (T_epoch framework)
+   - Compute weight decay: λ = λref *sqrt(B/Bref)* (Dref/D)  (T_epoch framework)
 
 3. OPTIMIZER
    - Muon for matrix params (transformer.h) -- Newton-Schulz orthogonalization
@@ -82,6 +82,7 @@ COMPARISON WITH NANO-GPT
 Feature              | nanoGPT                   | nanochat
 ---------------------|---------------------------|---------------------------
 Optimizer            | AdamW only                | MuonAdamW (Muon for matrices,
+
                      |                           | AdamW for embeddings/scalars)
 Position encoding    | Learned absolute pos emb  | Rotary embeddings (RoPE)
 Attention norm       | None                      | QK norm (rms_norm on q,k)
@@ -110,6 +111,7 @@ SFT/Chat pipeline    | Not included              | Full: chat_sft.py, chat_web.p
 Calculator tool use  | No                        | Built-in: <|python_start|>...<|python_end|>
 
 Key structural differences:
+
 - nanoGPT is a single file (model.py ~300 lines). nanochat is a full project with
   15+ modules, a 3-phase pipeline (pretrain -> SFT -> RL), and production serving.
 - nanoGPT uses standard AdamW. nanochat uses Muon optimizer (Newton-Schulz based)
@@ -125,31 +127,34 @@ chat_sft.py -- SUPERVISED FINE-TUNING
 Takes a pretrained base model and fine-tunes it on chat data.
 
 Data mixture:
-  - SmolTalk: 460K rows of general conversations
-  - CustomJSON: 1000 identity conversations (who are you?)
-  - MMLU: 100K rows x3 epochs (teaches multiple choice)
-  - GSM8K: 8K rows x4 epochs (teaches math + tool use)
-  - SimpleSpelling: 200K rows (spell the word 'apple')
-  - SpellingBee: 80K rows (how many 'r' in 'strawberry'?)
+
+- SmolTalk: 460K rows of general conversations
+- CustomJSON: 1000 identity conversations (who are you?)
+- MMLU: 100K rows x3 epochs (teaches multiple choice)
+- GSM8K: 8K rows x4 epochs (teaches math + tool use)
+- SimpleSpelling: 200K rows (spell the word 'apple')
+- SpellingBee: 80K rows (how many 'r' in 'strawberry'?)
 
 Key differences from base_train:
-  - Loads pretrained checkpoint, inherits hyperparams
-  - Uses loss masking: only assistant tokens have loss, user/padding masked (-1)
-  - Best-fit conversation packing (same algo but conversation-aware)
-  - Evaluates ChatCORE metric (ARC, MMLU, GSM8K, HumanEval, SpellingBee via chat)
-  - LR schedule based on progress (0->1) instead of absolute steps
-  - Weight decay = 0 (continued from end of pretraining where it decayed to 0)
-  - Saves to chatsft_checkpoints/ instead of base_checkpoints/
+
+- Loads pretrained checkpoint, inherits hyperparams
+- Uses loss masking: only assistant tokens have loss, user/padding masked (-1)
+- Best-fit conversation packing (same algo but conversation-aware)
+- Evaluates ChatCORE metric (ARC, MMLU, GSM8K, HumanEval, SpellingBee via chat)
+- LR schedule based on progress (0->1) instead of absolute steps
+- Weight decay = 0 (continued from end of pretraining where it decayed to 0)
+- Saves to chatsft_checkpoints/ instead of base_checkpoints/
 
 =================================================================
 chat_web.py -- PRODUCTION WEB SERVER
 =================================================================
 
 FastAPI server that serves:
-  - GET /           -> HTML chat UI (from nanochat/ui.html)
-  - POST /chat/completions -> OpenAI-compatible streaming API
-  - GET /health     -> health check
-  - GET /stats      -> worker pool stats
+
+- GET /           -> HTML chat UI (from nanochat/ui.html)
+- POST /chat/completions -> OpenAI-compatible streaming API
+- GET /health     -> health check
+- GET /stats      -> worker pool stats
 
 Multi-GPU via WorkerPool: each GPU loads a full model copy, requests round-robin.
 Abuse limits: 500 msgs/req, 8K chars/msg, 32K total, temp 0-2, top-k 0-200.
@@ -164,12 +169,14 @@ YES. KV cache is fully implemented in nanochat/engine.py and used
 during all inference (chat_cli, chat_web, sample_every in training).
 
 The KVCache class (engine.py:82-137):
-  - Pre-allocates: (n_layers, B, T, H, D) tensors for K and V
-  - Tracks position via cache_seqlens (int32 tensor)
-  - Stores prev_embedding for the smear mechanism during decode
-  - FA3 updates cache in-place via flash_attn_with_kvcache
+
+- Pre-allocates: (n_layers, B, T, H, D) tensors for K and V
+- Tracks position via cache_seqlens (int32 tensor)
+- Stores prev_embedding for the smear mechanism during decode
+- FA3 updates cache in-place via flash_attn_with_kvcache
 
 How Engine.generate() uses it:
+
   1. PREFILL: Create KVCache(batch=1, seq=len(prompt)), run full prompt through
      model.forward(tokens, kv_cache=kv_cache_prefill)
   2. CLONE: Create KVCache(batch=num_samples), .prefill(copy from prefill cache)
@@ -177,8 +184,9 @@ How Engine.generate() uses it:
      model.forward(new_token, kv_cache=kv_cache_decode)  # T=1, cache has all prev
 
 The model.forward() (gpt.py:416) handles both modes:
-  - kv_cache=None  -> training: full causal attention, no cache
-  - kv_cache given -> inference: flash_attn_with_kvcache, cache-aware rotary offset
+
+- kv_cache=None  -> training: full causal attention, no cache
+- kv_cache given -> inference: flash_attn_with_kvcache, cache-aware rotary offset
 
 Sliding window also works with KV cache: window_size is passed through
 to flash_attn_with_kvcache, so SSSL pattern applies during inference too.
