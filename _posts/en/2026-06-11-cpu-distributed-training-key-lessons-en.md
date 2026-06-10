@@ -14,12 +14,14 @@ type: note
 ### 1. Gloo vs NCCL: Backend Differences
 
 **What they are:**
+
 - **NCCL** (NVIDIA Collective Communications Library) — GPU-to-GPU, uses NVLink/PCIe/InfiniBand. The default when CUDA is available.
 - **Gloo** — CPU-to-CPU, uses TCP sockets. Works on any machine, no GPU required.
 
 **API compatibility gap we hit:**
 
 The `DistMuonAdamW` optimizer in nanochat uses async operations with futures:
+
 ```python
 # NCCL: this works
 work = dist.all_reduce(grad, async_op=True)
@@ -34,6 +36,7 @@ future = work.get_future()  # ❌ RuntimeError: Work::getFuture not implemented
 Gloo's `Work` object doesn't implement `get_future()`. This is because NCCL uses CUDA streams for async overlap (true pipelining), while Gloo uses CPU threads — the abstraction doesn't map 1:1.
 
 **Our fix — a compatibility wrapper:**
+
 ```python
 class _AsyncWorkWrapper:
     def __init__(self, work):
@@ -51,6 +54,7 @@ def _async_op(work):
 This preserves the 3-phase async pattern (launch reduces → compute updates → gather results) that `DistMuonAdamW` uses, even though Gloo can't truly overlap communication with computation.
 
 **Other differences:**
+
 - NCCL uses `device_id=device` in `init_process_group()` — Gloo doesn't
 - NCCL auto-selects the best transport (NVLink > PCIe > TCP) — Gloo always uses TCP
 - NCCL requires all tensors on CUDA — Gloo works with CPU tensors
@@ -64,6 +68,7 @@ This preserves the 3-phase async pattern (launch reduces → compute updates →
 `torch.compile` uses `torch.inductor` to JIT-compile the model's forward pass into optimized C++/Triton code. On GPU, this generates CUDA kernels. On CPU, it generates C++ with vectorized intrinsics (AVX2/AVX-512).
 
 **The cold-start problem:**
+
 ```
 Step 0: dt=28,386ms  (28 seconds — includes compilation)
 Step 1: dt=19,493ms  (still warming up)
@@ -74,6 +79,7 @@ Step 8: dt=15,681ms  (best)
 ```
 
 The first call triggers:
+
 1. **TorchDynamo tracing** — captures the Python bytecode into a graph
 2. **Inductor lowering** — converts the graph to C++ kernel code
 3. **C++ compilation** — compiles with gcc/clang (this is the slow part on CPU)
@@ -88,6 +94,7 @@ On GPU, Triton compiles CUDA kernels which is also slow (~10-30s), but GPU kerne
 ### 3. CPU DDP Throughput Scaling
 
 **Measured results:**
+
 ```
 Single process (1 rank):  ~45 tok/sec
 2 ranks, single node:     ~89 tok/sec  (1.98x speedup)
@@ -99,6 +106,7 @@ With 2 ranks on the same machine, each rank processes half the data. The gradien
 
 **Why sub-linear scaling for multi-node:**
 With 2 nodes over WiFi, the gradient sync goes over the network:
+
 - Model has ~37M parameters × 4 bytes (float32) = ~148 MB of gradients
 - WiFi bandwidth: ~50-100 Mbps effective = ~6-12 MB/s
 - Transfer time: ~12-25 seconds per step
@@ -106,10 +114,12 @@ With 2 nodes over WiFi, the gradient sync goes over the network:
 But each step takes ~16-17 seconds total. This means the communication is overlapping with computation (the 3-phase async pattern in `DistMuonAdamW`), but there's still some serialization overhead. The 134 tok/sec vs theoretical 90×2=180 tok/sec shows the network bottleneck.
 
 **The scaling formula:**
+
 ```
 Speedup = N / (1 + α(N-1))
 where α = communication_time / computation_time
 ```
+
 For our case: α ≈ 0.15 (15% of time is communication), giving speedup ≈ 1.75x for 2 nodes.
 
 ---
@@ -117,6 +127,7 @@ For our case: α ≈ 0.15 (15% of time is communication), giving speedup ≈ 1.7
 ### 4. bf16 Auto-Detection Bug
 
 **The bug:**
+
 ```python
 def _detect_compute_dtype():
     if torch.cuda.is_available():  # ← checks SYSTEM capability, not training device
@@ -129,6 +140,7 @@ def _detect_compute_dtype():
 On 1.36, `torch.cuda.is_available()` returns `True` (RTX 4070 is installed), even when `--device-type=cpu` is passed. So the compute dtype is set to `bfloat16`.
 
 **Why bf16 on CPU is terrible:**
+
 - CPU doesn't have native bf16 hardware (no AMX/VNNI for bf16 in most CPUs)
 - PyTorch emulates bf16 on CPU by casting to float32, computing, then casting back
 - This means every matmul does: bf16→fp32→matmul→fp32→bf16 — 2x the memory bandwidth
@@ -136,6 +148,7 @@ On 1.36, `torch.cuda.is_available()` returns `True` (RTX 4070 is installed), eve
 - Result: training hangs or runs at ~0 tok/sec (effectively deadlocked in the emulation layer)
 
 **The fix:**
+
 ```bash
 export NANOCHAT_DTYPE=float32  # Force fp32, bypass CUDA auto-detection
 ```
@@ -143,9 +156,11 @@ export NANOCHAT_DTYPE=float32  # Force fp32, bypass CUDA auto-detection
 This is a general pitfall when running CPU training on a machine that has a GPU installed. The auto-detection logic assumes "if CUDA is available, use CUDA-optimized dtypes" — but that's wrong when you explicitly request CPU training.
 
 **Broader lesson:** Always check what `COMPUTE_DTYPE` is actually set to when debugging CPU training issues. The banner prints it:
+
 ```
 COMPUTE_DTYPE: torch.bfloat16 (auto-detected: CUDA SM 89 (bf16 supported))
 ```
+
 If you see bf16 but you're on CPU, that's your problem.
 
 ---
@@ -153,14 +168,17 @@ If you see bf16 but you're on CPU, that's your problem.
 ### 5. IPv4/IPv6 Mismatch in Gloo
 
 **The error:**
+
 ```
 RuntimeError: ss1.ss_family == ss2.ss_family. 10 vs 2
 ```
+
 (`10` = AF_INET6, `2` = AF_INET)
 
 **Root cause:** Both machines have Tailscale VPN interfaces with IPv6 addresses. When Gloo auto-selects an interface, the master picks the Tailscale interface (IPv6) while the worker picks the WiFi interface (IPv4). They can't communicate because they're using different address families.
 
 **The fix:**
+
 ```bash
 export GLOO_SOCKET_IFNAME=enp4s0  # Force specific interface on master
 export GLOO_SOCKET_IFNAME=wlp3s0  # Force specific interface on worker
@@ -169,6 +187,7 @@ export GLOO_SOCKET_IFNAME=wlp3s0  # Force specific interface on worker
 This pins Gloo to the physical LAN interface on each machine, ensuring both use IPv4 over the same network.
 
 **General rule:** When debugging Gloo connectivity, always check:
+
 1. Both machines can reach each other on the specified interface
 2. The firewall allows traffic on that interface (we added `ufw allow from 192.168.1.0/24`)
 3. Both machines use the same address family (pin with `GLOO_SOCKET_IFNAME`)
@@ -179,6 +198,7 @@ This pins Gloo to the physical LAN interface on each machine, ensuring both use 
 ### 6. Data Parity in Distributed Training
 
 **The problem:** The dataloader shards data by row group index:
+
 ```python
 rg_idx = ddp_rank       # start at rank
 while rg_idx < pf.num_row_groups:
@@ -191,6 +211,7 @@ If one machine has 201 parquet files and another has 4, they read completely dif
 **The fix:** Both machines must have identical parquet files. We used `NANOCHAT_DATA_DIR` to point both at a shared 4-shard subset.
 
 **Broader lesson:** In distributed training, data consistency is as important as code consistency. Always verify:
+
 - Same dataset files on all nodes
 - Same tokenizer on all nodes
 - Same number of shards/row groups

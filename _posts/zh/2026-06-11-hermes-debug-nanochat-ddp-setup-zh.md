@@ -20,6 +20,7 @@ type: note
 ## 关键步骤
 
 **1. 工作节点上的环境设置（最慢的部分，主要是等待）**
+
 - 从 PyTorch 索引安装了 `torch==2.9.1+cpu`，然后安装其余依赖项。两个注意事项：
   - 局域网节点到 PyPI 的网络速度很慢 → 将 pip 移至 `nohup ... &` 后台作业，终止重复的 pip 进程，并轮询日志。
   - `--index-url https://download.pytorch.org/whl/cpu` 不托管 `datasets`/`pyarrow` 等 → 必须拆分为两次安装（torch 来自 PyTorch 索引，其余来自 PyPI）。
@@ -46,6 +47,7 @@ dist.barrier()
 **4. 启动脚本** — 编写了 torchrun 主节点/工作节点脚本（`--nnodes=2 --node_rank=0/1 --master_addr=<MASTER_IP> --master_port=29500`），将代码从主节点 rsync 到工作节点。
 
 **5. 沿途扑灭的次要问题**
+
 - rsync 带来了一个由 uv 创建的 `.venv`，它绑定到了错误的 Python 版本 → 删除并使用系统 `python3 -m venv` 重新创建。
 - 工作节点无法访问 HuggingFace（中国网络） → 终止了卡住的 `dataset.py` 下载，并从主节点 rsync 了 4 个 parquet 分片（约 352 MB）。分词器目录也同步了——两个节点必须具有相同的分词器/数据。
 
@@ -92,7 +94,7 @@ def _async_op(work):
 
 ## 值得记住的要点
 
-1.  **后端 API 对等性是真正的移植成本**：NCCL→Gloo 不仅仅是字符串替换——`get_future()`、`device_id=` 和 dtype 支持都不同。
-2.  **硬件检测 ≠ 运行设备**：当用户明确请求 CPU 时，`torch.cuda.is_available()` 是错误的谓词；应根据实际设备进行分发。
-3.  **自定义优化器 DDP（类似于 Muon）** 意味着你只需接触优化器中的进程组初始化和集合通信——无需模型包装。
-4.  代理最弱的工具是多行 `sed`；每个非平凡的编辑最终都变成了一个 heredoc 的 Python 脚本。值得从一开始就让你的代理更喜欢 AST/字符串替换修补而不是 sed。
+1. **后端 API 对等性是真正的移植成本**：NCCL→Gloo 不仅仅是字符串替换——`get_future()`、`device_id=` 和 dtype 支持都不同。
+2. **硬件检测 ≠ 运行设备**：当用户明确请求 CPU 时，`torch.cuda.is_available()` 是错误的谓词；应根据实际设备进行分发。
+3. **自定义优化器 DDP（类似于 Muon）** 意味着你只需接触优化器中的进程组初始化和集合通信——无需模型包装。
+4. 代理最弱的工具是多行 `sed`；每个非平凡的编辑最终都变成了一个 heredoc 的 Python 脚本。值得从一开始就让你的代理更喜欢 AST/字符串替换修补而不是 sed。

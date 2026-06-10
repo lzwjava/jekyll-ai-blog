@@ -28,11 +28,13 @@ ssh lzw@<WORKSTATION_IP> "..."
 ```bash
 tmux kill-session -t dist-master 2>/dev/null
 ```
+
 幂等性：终止任何先前名为 `dist-master` 的会话，以便重新运行命令时不会因“重复会话”而失败。`2>/dev/null` 在首次运行时吞掉“会话未找到”的错误。
 
 ```bash
 tmux new-session -d -s dist-master '...'
 ```
+
 - `-d` — 分离模式：创建会话但不附加终端。这很关键，因为 SSH 会断开连接；tmux 会保持训练进程存活（即使 SSH 会话结束也不受影响）。
 - `-s dist-master` — 会话名称，方便您稍后使用 `tmux attach -t dist-master` 查看实时输出。
 - 引号内的字符串是会话要运行的命令。当命令退出时，会话结束 —— 因此末尾的 `sleep 600` 可以在训练结束后保持窗格存活 10 分钟，以便您附加后查看最终的输出/错误信息，然后 tmux 才会回收它。
@@ -40,6 +42,7 @@ tmux new-session -d -s dist-master '...'
 ```bash
 2>&1 | tee /tmp/dist_master.log
 ```
+
 将标准错误合并到标准输出（torchrun 和 PyTorch 大量记录日志到标准错误），然后 `tee` 将数据流复制到 tmux 窗格和日志文件中，您可以从另一个 SSH 会话中使用 `tail -f` 查看该日志。
 
 ## 第 3 层 — 环境变量

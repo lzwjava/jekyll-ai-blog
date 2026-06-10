@@ -28,11 +28,13 @@ Runs the quoted string as a remote shell command on your Ubuntu workstation. The
 ```bash
 tmux kill-session -t dist-master 2>/dev/null
 ```
+
 Idempotency: kill any prior session named `dist-master` so re-running the command doesn't fail with "duplicate session". `2>/dev/null` swallows the "session not found" error on first run.
 
 ```bash
 tmux new-session -d -s dist-master '...'
 ```
+
 - `-d` — detached: create the session but don't attach a terminal to it. Critical because SSH will disconnect; tmux keeps the training process alive (survives the SSH session ending).
 - `-s dist-master` — session name, so you can later `tmux attach -t dist-master` to watch live.
 - The quoted string is the command the session runs. When it exits, the session dies — hence the `sleep 600` at the end: keeps the pane alive 10 minutes after training finishes so you can attach and read the final output/error before tmux reaps it.
@@ -40,6 +42,7 @@ tmux new-session -d -s dist-master '...'
 ```bash
 2>&1 | tee /tmp/dist_master.log
 ```
+
 Merge stderr into stdout (torchrun and PyTorch log heavily to stderr), then `tee` duplicates the stream to both the tmux pane and a log file you can `tail -f` from another SSH session.
 
 ## Layer 3 — Environment variables

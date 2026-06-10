@@ -18,6 +18,7 @@ type: note
 ### 我们发现的内容
 
 **机器清单：**
+
 ```
 192.168.1.36 (lzw@) — 主节点
   CPU:  i9-13900KF, 24核/32线程
@@ -38,6 +39,7 @@ type: note
 
 **1. `nanochat/common.py` — compute_init()**
 为 CPU DDP 添加了 Gloo 后端支持：
+
 ```python
 elif is_ddp_requested and device_type == "cpu":
     device = torch.device("cpu")
@@ -50,6 +52,7 @@ elif is_ddp_requested and device_type == "cpu":
 
 **3. `nanochat/optim.py` — DistMuonAdamW**
 添加了 `_AsyncWorkWrapper` + `_async_op()` 辅助函数，因为 Gloo 不支持 `Work.get_future()`（NCCL 支持）。所有 5 个 `.get_future()` 调用均被封装：
+
 ```python
 class _AsyncWorkWrapper:
     def __init__(self, work):
@@ -70,19 +73,23 @@ def _async_op(work):
 ### 已生效的部分
 
 **在 1.36 上单进程 CPU 训练：** ✅
+
 ```
 step 00001 | loss: 10.397800 | tok/sec: 45
 ```
 
 **在 1.36 上单节点双进程 CPU DDP（Gloo）：** ✅
+
 ```
 step 00001 | loss: 10.397759 | tok/sec: 89  (2倍加速!)
 ```
+
 Gloo 连接成功，梯度同步正常，检查点保存正常。
 
 ### 仍需完成的部分
 
 **1. 数据一致性：**两台机器需要相同的 parquet 文件。当前状态：
+
 - 1.36：`~/.cache/nanochat/base_data_climbmix/` 中有 201 个分片（18GB）
 - 1.47：`~/.cache/nanochat/base_data_climbmix/` 中有 4 个分片（352MB）
 - 已在 1.36 上创建了包含 4 个分片的 `base_data_small/` 符号链接目录
@@ -95,6 +102,7 @@ Gloo 连接成功，梯度同步正常，检查点保存正常。
 ### 如何运行多节点训练
 
 **在 1.36（主节点）—— 终端 1：**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 export NANOCHAT_BASE_DIR=~/.cache/nanochat
@@ -110,6 +118,7 @@ torchrun --nnodes=2 --nproc_per_node=1 --node_rank=0 \
 ```
 
 **在 1.47（工作节点）—— 终端 2：**
+
 ```bash
 cd ~/projects/nanochat && source .venv/bin/activate
 export NANOCHAT_BASE_DIR=~/.cache/nanochat
@@ -124,6 +133,7 @@ torchrun --nnodes=2 --nproc_per_node=1 --node_rank=1 \
 ```
 
 **启动脚本也已保存：**
+
 - 1.36 上的 `/mnt/data/nanochat/run_dist_cpu_master.sh`
 - 1.47 上的 `~/projects/nanochat/run_dist_cpu_worker.sh`
 

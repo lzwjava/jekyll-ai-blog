@@ -18,6 +18,7 @@ Here's a comprehensive summary of what we've accomplished and the current state:
 ### What We Discovered
 
 **Machine Inventory:**
+
 ```
 192.168.1.36 (lzw@) — MASTER
   CPU:  i9-13900KF, 24 cores/32 threads
@@ -38,6 +39,7 @@ Here's a comprehensive summary of what we've accomplished and the current state:
 
 **1. `nanochat/common.py` — compute_init()**
 Added Gloo backend support for CPU DDP:
+
 ```python
 elif is_ddp_requested and device_type == "cpu":
     device = torch.device("cpu")
@@ -50,6 +52,7 @@ Added `NANOCHAT_FORCE_SDPA=1` env var override. Flash Attention is CUDA-only; CP
 
 **3. `nanochat/optim.py` — DistMuonAdamW**
 Added `_AsyncWorkWrapper` + `_async_op()` helper because Gloo doesn't support `Work.get_future()` (NCCL does). All 5 `.get_future()` calls wrapped:
+
 ```python
 class _AsyncWorkWrapper:
     def __init__(self, work):
@@ -70,19 +73,23 @@ Added `NANOCHAT_DATA_DIR` env var override so both machines can use a shared sub
 ### What Works
 
 **Single-process CPU training on 1.36:** ✅
+
 ```
 step 00001 | loss: 10.397800 | tok/sec: 45
 ```
 
 **Single-node 2-process CPU DDP on 1.36 (Gloo):** ✅
+
 ```
 step 00001 | loss: 10.397759 | tok/sec: 89  (2x speedup!)
 ```
+
 Gloo connected, gradient sync working, checkpointing works.
 
 ### What's Still Needed
 
 **1. Data parity:** Both machines need the same parquet files. Currently:
+
 - 1.36: 201 shards (18GB) in `~/.cache/nanochat/base_data_climbmix/`
 - 1.47: 4 shards (352MB) in `~/.cache/nanochat/base_data_climbmix/`
 - Created `base_data_small/` symlink dir on 1.36 with 4 shards
@@ -95,6 +102,7 @@ Gloo connected, gradient sync working, checkpointing works.
 ### How to Run Multi-Node
 
 **On 1.36 (master) — terminal 1:**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 export NANOCHAT_BASE_DIR=~/.cache/nanochat
@@ -110,6 +118,7 @@ torchrun --nnodes=2 --nproc_per_node=1 --node_rank=0 \
 ```
 
 **On 1.47 (worker) — terminal 2:**
+
 ```bash
 cd ~/projects/nanochat && source .venv/bin/activate
 export NANOCHAT_BASE_DIR=~/.cache/nanochat
@@ -124,6 +133,7 @@ torchrun --nnodes=2 --nproc_per_node=1 --node_rank=1 \
 ```
 
 **Launch scripts also saved:**
+
 - `/mnt/data/nanochat/run_dist_cpu_master.sh` on 1.36
 - `~/projects/nanochat/run_dist_cpu_worker.sh` on 1.47
 

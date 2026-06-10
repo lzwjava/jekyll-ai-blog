@@ -42,10 +42,10 @@ for name, gbps in [("1GbE", 1), ("2.5GbE", 2.5), ("10GbE", 10), ("RoCE 400G", 40
 
 标准解决方案，按照真实集群应用的顺序：
 
-1.  **梯度累积**——每K个微步骤同步一次，将通信量减少K倍。这是解决慢速互连的一行代码修复方案。
-2.  **计算与通信重叠**——DDP将梯度分桶（`bucket_cap_mb`），并在反向计算桶 *i+1* 时，对桶 *i* 执行allreduce。如果反向传播足够长以隐藏通信延迟，这能带来免费的加速。
-3.  **压缩**——使用`PowerSGD`或bf16→fp16通信钩子（`ddp.register_comm_hook`）。
-4.  **更好的网络架构**——这就是为什么集群购买InfiniBand而不是依赖巧妙的软件。
+1. **梯度累积**——每K个微步骤同步一次，将通信量减少K倍。这是解决慢速互连的一行代码修复方案。
+2. **计算与通信重叠**——DDP将梯度分桶（`bucket_cap_mb`），并在反向计算桶 *i+1* 时，对桶 *i* 执行allreduce。如果反向传播足够长以隐藏通信延迟，这能带来免费的加速。
+3. **压缩**——使用`PowerSGD`或bf16→fp16通信钩子（`ddp.register_comm_hook`）。
+4. **更好的网络架构**——这就是为什么集群购买InfiniBand而不是依赖巧妙的软件。
 
 ## 2.2 节点发现和网卡选择——这部分实际中常出问题
 
@@ -67,9 +67,9 @@ torchrun --nnodes=2 --nproc_per_node=1 --node_rank=1 \
 
 你在这里遇到的故障模式，其类型与集群故障完全一致：
 
--   **选错了网络接口。** NCCL/Gloo自动检测可能会抓取`docker0`、VPN虚拟网卡或Wi-Fi，而不是有线网卡。初始化时挂起，无错误提示。修复方法：设置`NCCL_SOCKET_IFNAME` / `GLOO_SOCKET_IFNAME`，并使用`NCCL_DEBUG=INFO`查看它选择了哪个接口。在MI300X集群上，相同的环境变量（RCCL也支持）加上`NCCL_IB_HCA`来选择你使用哪条RDMA信道。
--   **防火墙/端口不匹配。** 节点发现需要29500端口加上临时端口。使用`ufw allow from 192.168.x.0/24`放行，然后继续。
--   **后端选择。** NCCL需要在两端都有CUDA。你的M2 Air没有CUDA，因此在Mac+工作站运行时必须使用`gloo`后端（CPU张量，或将梯度复制到CPU）。这没问题——重点是学习编排过程，而不是吞吐量。MI300X上的RCCL与NCCL的API相同，所以你学到的一切都可以直接迁移。
+- **选错了网络接口。** NCCL/Gloo自动检测可能会抓取`docker0`、VPN虚拟网卡或Wi-Fi，而不是有线网卡。初始化时挂起，无错误提示。修复方法：设置`NCCL_SOCKET_IFNAME` / `GLOO_SOCKET_IFNAME`，并使用`NCCL_DEBUG=INFO`查看它选择了哪个接口。在MI300X集群上，相同的环境变量（RCCL也支持）加上`NCCL_IB_HCA`来选择你使用哪条RDMA信道。
+- **防火墙/端口不匹配。** 节点发现需要29500端口加上临时端口。使用`ufw allow from 192.168.x.0/24`放行，然后继续。
+- **后端选择。** NCCL需要在两端都有CUDA。你的M2 Air没有CUDA，因此在Mac+工作站运行时必须使用`gloo`后端（CPU张量，或将梯度复制到CPU）。这没问题——重点是学习编排过程，而不是吞吐量。MI300X上的RCCL与NCCL的API相同，所以你学到的一切都可以直接迁移。
 
 最小化的`train.py`骨架：
 
@@ -100,9 +100,9 @@ DDP是批量同步的：每一步，所有rank在allreduce处汇合。步骤时�
 
 这不是一个玩具问题——它*正是*扩展性问题。在一个1024个GPU的任务中，一个GPU热节流、一个不稳定的网卡或一个慢速的DataLoader工作进程就会拖慢整个集群。你在这里学到的缓解措施就是生产环境中使用的措施：
 
--   **平衡工作，而非rank数量**：给慢速rank一个更小的微批次（DDP对所有梯度进行*平均*，因此需要自行按样本数重新加权），或者让快速rank在同步之间执行更多的梯度累积步骤。
--   **使用分析器发现落伍者**：`torch.profiler`可以显示每个rank的allreduce等待时间；在集群上，这是每个人首先查看的图表。
--   **将超时视为预警**：`init_process_group(timeout=timedelta(seconds=120))`——集合通信处挂起意味着某个rank死亡/缓慢，而弹性节点发现（`--max-restarts`）是torchrun恢复的方式。这是大规模容错训练背后的机制。
+- **平衡工作，而非rank数量**：给慢速rank一个更小的微批次（DDP对所有梯度进行*平均*，因此需要自行按样本数重新加权），或者让快速rank在同步之间执行更多的梯度累积步骤。
+- **使用分析器发现落伍者**：`torch.profiler`可以显示每个rank的allreduce等待时间；在集群上，这是每个人首先查看的图表。
+- **将超时视为预警**：`init_process_group(timeout=timedelta(seconds=120))`——集合通信处挂起意味着某个rank死亡/缓慢，而弹性节点发现（`--max-restarts`）是torchrun恢复的方式。这是大规模容错训练背后的机制。
 
 ## 2.4 直接映射到MI300X/H100集群的内容
 
@@ -119,8 +119,8 @@ DDP是批量同步的：每一步，所有rank在allreduce处汇合。步骤时�
 
 **参考：**
 
--   [PyTorch DDP内部机制（分桶、计算通信重叠）](https://pytorch.org/docs/stable/notes/ddp.html)
--   [torchrun / 弹性节点发现](https://pytorch.org/docs/stable/elastic/run.html)
--   [NCCL环境变量](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
--   [nccl-tests（allreduce基准测试）](https://github.com/NVIDIA/nccl-tests)
--   [DDP通信钩子（PowerSGD, fp16）](https://pytorch.org/docs/stable/ddp_comm_hooks.html)
+- [PyTorch DDP内部机制（分桶、计算通信重叠）](https://pytorch.org/docs/stable/notes/ddp.html)
+- [torchrun / 弹性节点发现](https://pytorch.org/docs/stable/elastic/run.html)
+- [NCCL环境变量](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
+- [nccl-tests（allreduce基准测试）](https://github.com/NVIDIA/nccl-tests)
+- [DDP通信钩子（PowerSGD, fp16）](https://pytorch.org/docs/stable/ddp_comm_hooks.html)

@@ -20,6 +20,7 @@ Run nanochat `base_train` across two machines over LAN using PyTorch distributed
 ## Key steps
 
 **1. Environment setup on the worker (slowest part, mostly waiting)**
+
 - Installed `torch==2.9.1+cpu` from the PyTorch index, then the rest of the deps. Two gotchas:
   - LAN node's network to PyPI was slow → moved pip to `nohup ... &` background jobs, killed duplicate pip processes, polled the log.
   - `--index-url https://download.pytorch.org/whl/cpu` doesn't host `datasets`/`pyarrow` etc. → had to split into two installs (torch from PyTorch index, the rest from PyPI).
@@ -46,6 +47,7 @@ The agent grepped for `DistributedDataParallel` and found nanochat doesn't use i
 **4. Launch scripts** — wrote `torchrun` master/worker scripts (`--nnodes=2 --node_rank=0/1 --master_addr=<MASTER_IP> --master_port=29500`), rsync'd code from master to worker.
 
 **5. Side fires put out along the way**
+
 - rsync brought over a uv-created `.venv` pinned to the wrong Python → deleted and recreated with system `python3 -m venv`.
 - HuggingFace unreachable from the worker (China network) → killed the stuck `dataset.py` download and rsync'd 4 parquet shards (~352 MB) from the master instead. Tokenizer dir synced too — both nodes must have identical tokenizer/data.
 
