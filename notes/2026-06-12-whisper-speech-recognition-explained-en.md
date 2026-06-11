@@ -11,7 +11,6 @@ type: note
 
 Whisper is an encoder-decoder Transformer trained for speech recognition. Here's how it works end-to-end:
 
-
 == AUDIO -> TEXT PIPELINE ==
 
   1. AUDIO PREPROCESSING
@@ -31,7 +30,6 @@ Whisper is an encoder-decoder Transformer trained for speech recognition. Here's
 
   4. SPECIAL TOKENS drive behavior:
      <|startoftranscript|> <|lang|> <|task|> <|timestamp|> ... <|endoftext|>
-
 
 == ARCHITECTURE DETAILS ==
 
@@ -54,7 +52,6 @@ Whisper is an encoder-decoder Transformer trained for speech recognition. Here's
          ↓
   Linear + Softmax → next token probability
 
-
 == MODEL SIZES ==
 
   Model    Encoder  Decoder  d_model  Layers  Heads
@@ -64,7 +61,6 @@ Whisper is an encoder-decoder Transformer trained for speech recognition. Here's
   medium    24       24      1024      24      16
   large     32       32      1280      32      20
   turbo     32        4      1280      32      20  ← encoder-heavy
-
 
 == HOW LANGUAGE/TASK SELECTION WORKS ==
 
@@ -79,7 +75,6 @@ Whisper is an encoder-decoder Transformer trained for speech recognition. Here's
   The model learned during training to condition on these tokens.
   No separate language classifier — just feed <|zh|> and it does Chinese.
 
-
 == WHY IT'S ROBUST ==
 
   1. Scale: trained on 680,000 hours of weakly-labeled web audio
@@ -88,7 +83,6 @@ Whisper is an encoder-decoder Transformer trained for speech recognition. Here's
      the full encoder output at each decoding step
   4. 30-second chunks with overlap → handles long audio
   5. No language-specific preprocessing needed
-
 
 == INFERENCE FLOW (what happens when you call model.transcribe) ==
 

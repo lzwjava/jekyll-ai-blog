@@ -31,7 +31,6 @@ Whisper 是一个用于 speech recognition 的 encoder-decoder Transformer。以
   4. SPECIAL TOKENS 驱动行为：
      <|startoftranscript|> <|lang|> <|task|> <|timestamp|> ... <|endoftext|>
 
-
 == ARCHITECTURE DETAILS ==
 
   Input: 80-dim log-Mel spectrogram (30s chunks)
@@ -53,7 +52,6 @@ Whisper 是一个用于 speech recognition 的 encoder-decoder Transformer。以
          ↓
   Linear + Softmax → next token probability
 
-
 == MODEL SIZES ==
 
   Model    Encoder  Decoder  d_model  Layers  Heads
@@ -63,7 +61,6 @@ Whisper 是一个用于 speech recognition 的 encoder-decoder Transformer。以
   medium    24       24      1024      24      16
   large     32       32      1280      32      20
   turbo     32        4      1280      32      20  ← encoder-heavy
-
 
 == HOW LANGUAGE/TASK SELECTION WORKS ==
 
@@ -78,7 +75,6 @@ Whisper 是一个用于 speech recognition 的 encoder-decoder Transformer。以
   模型在训练过程中学会了根据这些 tokens 进行条件生成。
   没有独立的语言分类器——只需输入 <|zh|> 即可执行中文识别。
 
-
 == WHY IT'S ROBUST ==
 
   1. Scale: 在 680,000 小时的弱标注网络音频上训练
@@ -86,7 +82,6 @@ Whisper 是一个用于 speech recognition 的 encoder-decoder Transformer。以
   3. Encoder-decoder: 与 CTC 模型（如 wav2vec）不同，它可以在每个解码步骤关注完整的 encoder 输出
   4. 30 秒片段带重叠 → 处理长音频
   5. 无需特定语言的预处理
-
 
 == INFERENCE FLOW（调用 model.transcribe 时发生的过程）==
 
