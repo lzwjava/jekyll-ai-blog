@@ -31,18 +31,18 @@ Fable 5 是一款Mythos级别的模型——比Opus高一个等级——经过�
 
 **其他值得关注的方向：**
 
-*   Anthropic、OpenAI和SpaceX都在走向公开市场；Anthropic还公开敦促各实验室建立协调一致的"刹车踏板"以控制前沿发展，警告递归自我改进正在临近。
-*   科罗拉多州的AI法案将于6月30日生效——这是2026年实际落地的最具影响力的美国AI法规，而联邦层面的优先权（《伟大的美国AI法案》）仍在委员会中停滞不前。
-*   计算资源正变得地缘政治化：美日AI合作扩大，英加签署了计算协议。
-*   据报道，ChatGPT月活跃用户已突破10亿。
+* Anthropic、OpenAI和SpaceX都在走向公开市场；Anthropic还公开敦促各实验室建立协调一致的"刹车踏板"以控制前沿发展，警告递归自我改进正在临近。
+* 科罗拉多州的AI法案将于6月30日生效——这是2026年实际落地的最具影响力的美国AI法规，而联邦层面的优先权（《伟大的美国AI法案》）仍在委员会中停滞不前。
+* 计算资源正变得地缘政治化：美日AI合作扩大，英加签署了计算协议。
+* 据报道，ChatGPT月活跃用户已突破10亿。
 
 针对您的具体研究轨迹：我真正建议深入研究的两个方向是DeepSeek V4技术报告（混合稀疏注意力 + 10倍KV缓存减少是本季度最具复用价值的架构思路——可直接应用于您在MI300X上进行的nanoGPT规模实验）以及Fable 5的分类器回退API模式，因为带拒绝处理的多模型路由正在成为必要的代理原语，而非边缘情况。
 
 **参考文献：**
 
-*   [Claude Fable 5 and Claude Mythos 5 — Anthropic](https://www.anthropic.com/news/claude-fable-5-mythos-5)
-*   [Introducing Claude Fable 5 and Claude Mythos 5 — Claude API Docs](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5)
-*   [Anthropic's Claude Fable 5 — TechCrunch](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/)
-*   [GPT-5.5 vs DeepSeek V4 — DataCamp](https://www.datacamp.com/blog/deepseek-v4-vs-gpt-5-5)
-*   [Gemini 3.5 Flash vs GPT-5.5 vs Claude vs DeepSeek — BuildFastWithAI](https://www.buildfastwithai.com/blogs/gemini-3-5-flash-vs-gpt-5-5-claude-deepseek-2026)
-*   [GPT-5.5 vs Gemini 3.5 Flash vs DeepSeek V4 on 18 tasks — Towards AI](https://medium.com/@chewloongnian/i-tested-gpt-5-5-vs-gemini-3-5-flash-vs-deepseek-v4-the-cheapest-shouldnt-be-this-close-3d1031a0b41e)
+* [Claude Fable 5 and Claude Mythos 5 — Anthropic](https://www.anthropic.com/news/claude-fable-5-mythos-5)
+* [Introducing Claude Fable 5 and Claude Mythos 5 — Claude API Docs](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5)
+* [Anthropic's Claude Fable 5 — TechCrunch](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/)
+* [GPT-5.5 vs DeepSeek V4 — DataCamp](https://www.datacamp.com/blog/deepseek-v4-vs-gpt-5-5)
+* [Gemini 3.5 Flash vs GPT-5.5 vs Claude vs DeepSeek — BuildFastWithAI](https://www.buildfastwithai.com/blogs/gemini-3-5-flash-vs-gpt-5-5-claude-deepseek-2026)
+* [GPT-5.5 vs Gemini 3.5 Flash vs DeepSeek V4 on 18 tasks — Towards AI](https://medium.com/@chewloongnian/i-tested-gpt-5-5-vs-gemini-3-5-flash-vs-deepseek-v4-the-cheapest-shouldnt-be-this-close-3d1031a0b41e)

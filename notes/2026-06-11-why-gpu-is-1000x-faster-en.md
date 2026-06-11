@@ -12,17 +12,19 @@ type: note
 Great question. The ~1000x gap comes from fundamental hardware differences, not software issues.
 
 CPU (i9 on 1.36):
-  - Cores: ~24 (general-purpose, complex branch prediction, OoO execution)
-  - Memory bandwidth: ~50-80 GB/s (DDR5)
-  - Compute: scalar/vector (AVX-512 at best)
-  - No tensor cores
-  - Training in float32
+
+- Cores: ~24 (general-purpose, complex branch prediction, OoO execution)
+- Memory bandwidth: ~50-80 GB/s (DDR5)
+- Compute: scalar/vector (AVX-512 at best)
+- No tensor cores
+- Training in float32
 
 RTX 4070:
-  - CUDA cores: 5,888 (simple, massively parallel)
-  - Memory bandwidth: 504 GB/s (GDDR6X)
-  - Tensor cores: 184 (matrix multiply in hardware)
-  - Training in float16/bfloat16 with mixed precision
+
+- CUDA cores: 5,888 (simple, massively parallel)
+- Memory bandwidth: 504 GB/s (GDDR6X)
+- Tensor cores: 184 (matrix multiply in hardware)
+- Training in float16/bfloat16 with mixed precision
 
 The breakdown:
 
