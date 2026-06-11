@@ -12,6 +12,7 @@ type: note
 All clean now. Here's what happened:
 
 The Gloo error is clear:
+
 ```
 failed to connect ... local=[192.168.1.36]:20614, remote=[192.168.1.28]:56711, error=Connection timed out
 ```
@@ -23,6 +24,7 @@ Three options:
 1. **Open firewall on the worker** — need sudo or physical access to run `sudo ufw allow from 192.168.1.36` or `sudo iptables -I INPUT -s 192.168.1.36 -j ACCEPT`
 
 2. **Single-node multi-process** — run both ranks on 1.36 (has 62GB RAM, plenty for 2 CPU workers of d8):
+
    ```
    torchrun --nnodes=1 --nproc_per_node=2 --master_port=29500 ...
    ```

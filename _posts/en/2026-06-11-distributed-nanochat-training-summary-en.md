@@ -83,6 +83,7 @@ CURRENT STATUS (as of this snapshot)
   ETA:        5000 × 72s ≈ 98-100 hours ≈ 4.1 days
 
 ISSUES ENCOUNTERED & RESOLVED
+
   1. EADDRINUSE (port 29500) — stale processes from earlier attempt held the
      port. Fixed: fuser -k 29500/tcp + pkill
   2. Gloo connection timeout — master→worker on ephemeral ports blocked by
@@ -93,11 +94,12 @@ ISSUES ENCOUNTERED & RESOLVED
      capture-pane instead.
 
 KNOWN LIMITATIONS
-  - PyTorch SDPA fallback (no flash-attn) — no sliding window support
-  - CPU-only — 57 tok/s vs ~60 tok/s single-node (minimal parallelism gain)
-  - Gloo all-reduce over Ethernet is the bottleneck, not compute
-  - Worker tmux pane shows no output (backgrounded process)
-  - Tokens/param ratio 0.16 is very low — model will underfit
+
+- PyTorch SDPA fallback (no flash-attn) — no sliding window support
+- CPU-only — 57 tok/s vs ~60 tok/s single-node (minimal parallelism gain)
+- Gloo all-reduce over Ethernet is the bottleneck, not compute
+- Worker tmux pane shows no output (backgrounded process)
+- Tokens/param ratio 0.16 is very low — model will underfit
 
 MONITORING
   Latest step:
@@ -105,7 +107,7 @@ MONITORING
   Attach master:
     ssh -t lzw@192.168.1.36 "tmux attach -t nanochat-master"
   MLflow UI:
-    http://192.168.1.36:5000
+    <http://192.168.1.36:5000>
   Kill training:
     ssh lzw@192.168.1.36 "tmux kill-session -t nanochat-master"
     ssh lzw@192.168.1.36 "ssh xiaoxin@192.168.1.28 'tmux kill-session -t nanochat-worker'"

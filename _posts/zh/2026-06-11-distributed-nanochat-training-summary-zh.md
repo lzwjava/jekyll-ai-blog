@@ -83,6 +83,7 @@ type: note
   预计完成：5000 × 72s ≈ 98-100小时 ≈ 4.1天
 
 遇到的问题及解决
+
   1. EADDRINUSE（端口29500）— 之前尝试的残留进程占用了端口。
      修复：fuser -k 29500/tcp + pkill
   2. Gloo 连接超时 — master→worker 的临时端口被 worker 防火墙阻止。Worker 没有 sudo 权限。
@@ -92,11 +93,12 @@ type: note
   4. 日志捕获 — script/tee 缓冲隐藏了 stderr 输出。使用 tmux capture-pane 替代。
 
 已知限制
-  - PyTorch SDPA 回退（无 flash-attn）— 不支持滑动窗口
-  - 仅 CPU — 57 tok/s 对比单节点约60 tok/s（并行化增益极小）
-  - Gloo 通过以太网的 all-reduce 是瓶颈，而非计算
-  - Worker tmux 窗格无输出（后台进程）
-  - 每个参数的 tokens 比 0.16 非常低 — 模型将欠拟合
+
+- PyTorch SDPA 回退（无 flash-attn）— 不支持滑动窗口
+- 仅 CPU — 57 tok/s 对比单节点约60 tok/s（并行化增益极小）
+- Gloo 通过以太网的 all-reduce 是瓶颈，而非计算
+- Worker tmux 窗格无输出（后台进程）
+- 每个参数的 tokens 比 0.16 非常低 — 模型将欠拟合
 
 监控
   最新步：
@@ -104,7 +106,7 @@ type: note
   附着 master：
     ssh -t lzw@192.168.1.36 "tmux attach -t nanochat-master"
   MLflow UI：
-    http://192.168.1.36:5000
+    <http://192.168.1.36:5000>
   停止训练：
     ssh lzw@192.168.1.36 "tmux kill-session -t nanochat-master"
     ssh lzw@192.168.1.36 "ssh xiaoxin@192.168.1.28 'tmux kill-session -t nanochat-worker'"

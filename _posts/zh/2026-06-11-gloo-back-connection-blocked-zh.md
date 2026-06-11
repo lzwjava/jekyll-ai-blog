@@ -12,6 +12,7 @@ type: note
 现已全部清理。以下是情况说明：
 
 Gloo 错误很明确：
+
 ```
 failed to connect ... local=[192.168.1.36]:20614, remote=[192.168.1.28]:56711, error=Connection timed out
 ```
@@ -23,6 +24,7 @@ TCPStore 在端口 29500 上的 rendezvous 工作正常（worker→master）。�
 1. **打开 worker 上的防火墙** — 需要 sudo 或物理访问来运行 `sudo ufw allow from 192.168.1.36` 或 `sudo iptables -I INPUT -s 192.168.1.36 -j ACCEPT`
 
 2. **单节点多进程** — 在两个 rank 都在 1.36 上运行（有 62GB RAM，足够运行两个 d8 的 CPU worker）：
+
    ```
    torchrun --nnodes=1 --nproc_per_node=2 --master_port=29500 ...
    ```
