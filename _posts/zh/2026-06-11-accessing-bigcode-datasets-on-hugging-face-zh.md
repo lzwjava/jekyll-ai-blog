@@ -9,15 +9,15 @@ translated: true
 type: note
 ---
 
-**问题：** 在哪里可以找到 https://huggingface.co/bigcode 背后的实际文本/代码数据？
+**问题：** 在哪里可以找到 <https://huggingface.co/bigcode> 背后的实际文本/代码数据？
 
 **答案：**
 
-该 URL 只是组织主页。实际数据位于该组织的 **数据集（Datasets）** 标签页下：https://huggingface.co/bigcode — 点击“Datasets”，或直接访问 https://huggingface.co/datasets?other=bigcode。主要语料库：
+该 URL 只是组织主页。实际数据位于该组织的 **数据集（Datasets）** 标签页下：<https://huggingface.co/bigcode> — 点击“Datasets”，或直接访问 <https://huggingface.co/datasets?other=bigcode。主要语料库：>
 
-- **The Stack v2**（最大的，约 67TB 原始数据）：https://huggingface.co/datasets/bigcode/the-stack-v2 — 以及变体 `the-stack-v2-dedup` 和 `the-stack-v2-train-full-ids`（实际的 StarCoder2 训练混合集，约 900B tokens）
-- **The Stack v1**（约 3TB 去重后）：https://huggingface.co/datasets/bigcode/the-stack-dedup
-- **starcoderdata**（约 800GB，已清洗的 StarCoder1 训练集 — 实际使用中最实用的一个）：https://huggingface.co/datasets/bigcode/starcoderdata
+- **The Stack v2**（最大的，约 67TB 原始数据）：<https://huggingface.co/datasets/bigcode/the-stack-v2> — 以及变体 `the-stack-v2-dedup` 和 `the-stack-v2-train-full-ids`（实际的 StarCoder2 训练混合集，约 900B tokens）
+- **The Stack v1**（约 3TB 去重后）：<https://huggingface.co/datasets/bigcode/the-stack-dedup>
+- **starcoderdata**（约 800GB，已清洗的 StarCoder1 训练集 — 实际使用中最实用的一个）：<https://huggingface.co/datasets/bigcode/starcoderdata>
 
 在读取数据之前有两个注意事项：
 

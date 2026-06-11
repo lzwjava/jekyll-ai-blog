@@ -9,15 +9,15 @@ translated: false
 type: note
 ---
 
-**Question:** Where do I find the actual text/code data behind https://huggingface.co/bigcode?
+**Question:** Where do I find the actual text/code data behind <https://huggingface.co/bigcode>?
 
 **Answer:**
 
-That URL is just the org profile page. The actual data lives under the org's **Datasets** tab: https://huggingface.co/bigcode — click "Datasets", or go directly to https://huggingface.co/datasets?other=bigcode. The main corpora:
+That URL is just the org profile page. The actual data lives under the org's **Datasets** tab: <https://huggingface.co/bigcode> — click "Datasets", or go directly to <https://huggingface.co/datasets?other=bigcode>. The main corpora:
 
-- **The Stack v2** (the big one, ~67TB raw): https://huggingface.co/datasets/bigcode/the-stack-v2 — plus variants `the-stack-v2-dedup` and `the-stack-v2-train-full-ids` (the actual StarCoder2 training mix, ~900B tokens)
-- **The Stack v1** (~3TB dedup): https://huggingface.co/datasets/bigcode/the-stack-dedup
-- **starcoderdata** (~800GB, the cleaned StarCoder1 training set — the most practical one to actually use): https://huggingface.co/datasets/bigcode/starcoderdata
+- **The Stack v2** (the big one, ~67TB raw): <https://huggingface.co/datasets/bigcode/the-stack-v2> — plus variants `the-stack-v2-dedup` and `the-stack-v2-train-full-ids` (the actual StarCoder2 training mix, ~900B tokens)
+- **The Stack v1** (~3TB dedup): <https://huggingface.co/datasets/bigcode/the-stack-dedup>
+- **starcoderdata** (~800GB, the cleaned StarCoder1 training set — the most practical one to actually use): <https://huggingface.co/datasets/bigcode/starcoderdata>
 
 Two gotchas before you can read anything:
 

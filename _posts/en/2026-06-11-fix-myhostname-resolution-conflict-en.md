@@ -16,6 +16,7 @@ sudo sed -i 's/ hosts myhostname//' /etc/nsswitch.conf
 ```
 
 This removes `myhostname` from the hosts resolution chain. Currently `/etc/nsswitch.conf` has:
+
 ```
 hosts: files mdns4_minimal [NOTFOUND=return] dns myhostname
 ```
@@ -23,6 +24,7 @@ hosts: files mdns4_minimal [NOTFOUND=return] dns myhostname
 The `myhostname` module returns IPv6 Tailscale addresses for hostname `xx`, which confuses Gloo's pair socket binding. Removing it makes `getent hosts xx` use only `/etc/hosts` (which has `192.168.1.28 xx`).
 
 After that, verify with:
+
 ```
 getent hosts xx
 ```
