@@ -66,8 +66,8 @@ type: note
 
 == 中文特定提示 ==
 
-  - 使用 medium 或 large 模型（small 的 WER 约 15%，large 降至约 5%）
-  - 明确指定 language="zh"
-  - 添加 initial_prompt 提供上下文：
+- 使用 medium 或 large 模型（small 的 WER 约 15%，large 降至约 5%）
+- 明确指定 language="zh"
+- 添加 initial_prompt 提供上下文：
       initial_prompt="这是一段关于技术的讨论"
-  - 粤语有单独的代码：language="yue"
+- 粤语有单独的代码：language="yue"

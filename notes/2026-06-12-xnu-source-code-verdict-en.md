@@ -100,6 +100,7 @@ macOS allows up to 10,240 FDs per process. Each git process opens socket + packf
 | 32 is the sweet spot | Plausible but the kqueue reasoning is wrong |
 
 **The real reason 32 is the sweet spot has nothing to do with kqueue overhead.** It's purely about:
+
 1. GitHub's server-side connection acceptance rate
 2. Your proxy (DMIT/hysteria2) bandwidth/connection pool limits
 3. Diminishing returns when network RTT dominates — adding workers beyond the bottleneck's capacity just creates more connections in the TCP backlog, not more throughput

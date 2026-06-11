@@ -20,21 +20,25 @@ type: note
 该分析声称 Python 线程通过 `epoll/kqueue` 等待。内核源码显示了两种完全不同的机制：
 
 **对于 subprocess.wait()（即 `subprocess.run()` 实际执行的操作）：**
+
 ```
 kernel/exit.c:1711-1734  (do_wait)
   1722:  set_current_state(TASK_INTERRUPTIBLE)
   1728:  schedule()    ← 线程让出 CPU，从运行队列中移除
   1731:  __set_current_state(TASK_RUNNING)  ← 子进程退出时唤醒
 ```
+
 这是**子进程退出时的等待队列**，而非 epoll。线程在 `waitpid()` 中休眠，直到子进程退出。没有 epoll，没有 kqueue，没有事件循环。
 
 **对于实际的 epoll（如果 Python 使用 asyncio）：**
+
 ```
 fs/eventpoll.c:2013-2032  (ep_poll)
   2013:  __set_current_state(TASK_INTERRUPTIBLE)
   2029:  schedule_hrtimeout_range()  ← 带超时休眠
   2032:  __set_current_state(TASK_RUNNING)
 ```
+
 相同的休眠机制，不同的唤醒源。
 
 **此外：Linux 没有 kqueue。** kqueue 是 BSD/macOS 的概念。该分析混淆了 macOS 和 Linux 的内核概念。
@@ -42,6 +46,7 @@ fs/eventpoll.c:2013-2032  (ep_poll)
 ### 2. "等待时 CPU 占用为 0%" — 部分正确但具有误导性
 
 内核代码确认 Python 线程确实处于休眠状态：
+
 ```
 kernel/sched/core.c:6625  (try_to_block_task)
   block_task(rq, p, flags)  ← 完全从运行队列中出队
@@ -68,6 +73,7 @@ Python 的 `pthread_create` 使用 `CLONE_FILES`，因此所有 32 个线程共�
 ### 4. "GitHub 连接限流——限制每个 IP 的并发 SSH 连接数" — 看似合理但机制有误
 
 内核源码显示了服务器端连接丢弃机制：
+
 ```
 net/ipv4/tcp_input.c:7612-7626  (tcp_conn_request)
   7615:  inet_csk_reqsk_queue_is_full(sk)  ← SYN 队列满？
@@ -81,6 +87,7 @@ net/ipv4/tcp_input.c:7612-7626  (tcp_conn_request)
 ### 5. "macOS 文件描述符开销" — 在 Linux 上不相关
 
 该分析提到了 `kqueue` 和 macOS 的文件描述符开销，但：
+
 - Linux 中不存在 kqueue（这是 Linux 内核源码）
 - 代码运行 Python 的 `subprocess.run()`，该函数使用 `waitpid()`，而非 kqueue
 - 如果在 macOS 上运行，`kqueue` 是正确的机制，但该分析将两者混为一谈

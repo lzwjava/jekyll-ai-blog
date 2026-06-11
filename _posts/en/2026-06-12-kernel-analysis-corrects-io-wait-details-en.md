@@ -20,21 +20,25 @@ Now I have the full picture from the kernel source. Here's the verdict:
 The analysis claims Python threads wait via `epoll/kqueue`. The kernel source shows two completely different mechanisms:
 
 **For subprocess.wait() (what `subprocess.run()` actually does):**
+
 ```
 kernel/exit.c:1711-1734  (do_wait)
   1722:  set_current_state(TASK_INTERRUPTIBLE)
   1728:  schedule()    ← thread yields CPU, removed from runqueue
   1731:  __set_current_state(TASK_RUNNING)  ← wakes when child exits
 ```
+
 This is a **wait queue on child exit**, not epoll. The thread sleeps in `waitpid()` until the child process exits. No epoll, no kqueue, no event loop.
 
 **For actual epoll (if Python used asyncio):**
+
 ```
 fs/eventpoll.c:2013-2032  (ep_poll)
   2013:  __set_current_state(TASK_INTERRUPTIBLE)
   2029:  schedule_hrtimeout_range()  ← sleeps with timeout
   2032:  __set_current_state(TASK_RUNNING)
 ```
+
 Same sleep mechanism, different wake source.
 
 **Also: Linux has no kqueue.** That's BSD/macOS. The analysis confuses macOS and Linux kernel concepts.
@@ -42,6 +46,7 @@ Same sleep mechanism, different wake source.
 ### 2. "Uses 0% CPU while waiting" — PARTIALLY CORRECT but misleading
 
 The kernel code confirms the Python thread is truly sleeping:
+
 ```
 kernel/sched/core.c:6625  (try_to_block_task)
   block_task(rq, p, flags)  ← dequeued from runqueue entirely
@@ -68,6 +73,7 @@ Python's `pthread_create` uses `CLONE_FILES`, so all 32 threads share **ONE file
 ### 4. "GitHub connection throttling — limits concurrent SSH connections per IP" — PLAUSIBLE but wrong mechanism
 
 The kernel source shows the server-side connection drop mechanism:
+
 ```
 net/ipv4/tcp_input.c:7612-7626  (tcp_conn_request)
   7615:  inet_csk_reqsk_queue_is_full(sk)  ← SYN queue full?
@@ -81,6 +87,7 @@ This is the **server-side kernel dropping connections** when the accept queue ov
 ### 5. "macOS file descriptor overhead" — IRRELEVANT on Linux
 
 The analysis mentions `kqueue` and macOS FD overhead, but:
+
 - kqueue doesn't exist in Linux (this is the Linux kernel source)
 - The code runs Python `subprocess.run()` which uses `waitpid()`, not kqueue
 - If running on macOS, `kqueue` IS the right mechanism, but the analysis conflates the two

@@ -18,6 +18,7 @@ kqueue is macOS/BSD's **event notification mechanism** — a kernel subsystem th
 ### The core data structures
 
 **1. kqueue itself** (`bsd/sys/eventvar.h:156`):
+
 ```c
 struct kqueue {
     lck_spin_t      kq_lock;      // protects all fields
@@ -31,6 +32,7 @@ struct kqueue {
 The `kq_count` field is the key — it tracks only **triggered** events, not all registered events. This is what makes kqueue O(triggered) not O(registered).
 
 **2. kqfile** — the file-descriptor form (`eventvar.h:172`):
+
 ```c
 struct kqfile {
     struct kqueue   kqf_kqueue;     // core kqueue
@@ -41,6 +43,7 @@ struct kqfile {
 ```
 
 **3. knote** — the event registration (`event_private.h:428`):
+
 ```c
 struct knote {
     TAILQ_ENTRY(knote)  kn_tqe;        // linkage in kqueue's triggered queue
@@ -53,10 +56,12 @@ struct knote {
 ```
 
 A knote is the **bridge** between a kqueue and a watched object. It lives on two lists simultaneously:
+
 - `kn_selnext` — linked onto the watched object's `klist` (e.g., a socket's `sb_sel.si_note`)
 - `kn_tqe` — linked onto the kqueue's `kqf_queue` when triggered
 
 **4. filterops** — the event source abstraction (`event_private.h:727`):
+
 ```c
 struct filterops {
     bool f_isfd;                          // true if ident == filedescriptor
@@ -72,14 +77,17 @@ Each event source (socket, vnode, process, timer, Mach port) provides its own fi
 ### The lifecycle
 
 **Step 1: Create a kqueue** — `kqueue()` syscall (`kern_event.c:3092`):
+
 ```c
 kqueue(struct proc *p, ...) {
     return kqueue_internal(p, NULL, NULL, retval);
 }
 ```
+
 → `kqueue_internal()` → `kqueue_alloc()` → returns a file descriptor.
 
 **Step 2: Register interest** — `kevent()` with `EV_ADD` flag (`kern_event.c:4006`):
+
 ```c
 kevent_register(struct kqueue *kq, struct kevent_qos_s *kev, ...) {
     // find or create a knote for this filter+ident
@@ -97,6 +105,7 @@ kevent_register(struct kqueue *kq, struct kevent_qos_s *kev, ...) {
 This creates a knote and links it to both the kqueue and the file descriptor's knote list.
 
 **Step 3: Wait for events** — `kevent()` without changes (`kern_event.c:8017`):
+
 ```c
 kqueue_scan(kqueue_t kqu, int flags, ...) {
     for (;;) {
@@ -119,6 +128,7 @@ The thread is removed from the CPU run queue. Zero CPU usage.
 **Step 4: Event fires** — e.g., TCP data arrives on a socket:
 
 The network stack calls `sorwakeup()` → `sowakeup()` (`uipc_socket2.c:625`):
+
 ```c
 sowakeup(struct socket *so, struct sockbuf *sb, ...) {
     selwakeup(&sb->sb_sel);           // wake select() waiters
@@ -130,6 +140,7 @@ sowakeup(struct socket *so, struct sockbuf *sb, ...) {
 ```
 
 `KNOTE()` expands to `knote()` (`kern_event.c:6590`):
+
 ```c
 knote(struct klist *list, long hint, ...) {
     SLIST_FOREACH_SAFE(kn, list, kn_selnext, tmp_kn) {
@@ -139,6 +150,7 @@ knote(struct klist *list, long hint, ...) {
 ```
 
 `knote_post()` → calls the filter's `f_event()` → if `FILTER_ACTIVE` → `knote_activate()` → `knote_enqueue()`:
+
 ```c
 knote_enqueue(kqueue_t kqu, struct knote *kn) {
     struct kqtailq *queue = knote_get_tailq(kqu, kn);
@@ -151,6 +163,7 @@ knote_enqueue(kqueue_t kqu, struct knote *kn) {
 ```
 
 **Step 5: Thread wakes up** — `kqueue_scan` continues, `kqueue_process()` iterates only the triggered queue:
+
 ```c
 do {
     while ((kn = TAILQ_FIRST(queue)) != NULL) {
@@ -162,6 +175,7 @@ do {
 ### What event sources exist
 
 From `bsd/sys/event.h:70-84`:
+
 ```c
 #define EVFILT_READ      (-1)   // fd is readable (socket has data, file has bytes)
 #define EVFILT_WRITE     (-2)   // fd is writable (socket buffer has space)

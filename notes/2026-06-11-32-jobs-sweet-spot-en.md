@@ -22,6 +22,7 @@ Jobs    Time     Speedup
 **32 is the sweet spot.** 64 saves only 0.3s over 32 — not worth the extra connection pressure.
 
 Changes made:
+
 1. `ww/git/git_update.py` — default jobs 8 → 32
 2. `git config --global submodule.fetchJobs 4` — parallel submodule fetches
 3. `git config --global http.postBuffer 524288000` — 500MB buffer for large repos

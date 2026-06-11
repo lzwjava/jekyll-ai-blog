@@ -28,6 +28,7 @@ Done. Pushed to `origin/main`.
 ~2x speedup. Limited by memory bandwidth — all threads read/write the same 71k×200 weight matrices. The bottleneck is shared cache contention, not compute.
 
 Usage:
+
 ```
 cargo run --release -- word2vec train -input corpus.txt -output vec.bin -threads 8
 ```

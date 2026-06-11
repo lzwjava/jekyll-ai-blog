@@ -74,6 +74,7 @@ Threads can't access `HashMap` (not `Send` when borrowed from `&mut self`). Solu
 **Raw pointer training functions**
 
 `train_sg_raw` and `train_cbow_raw` are standalone functions (not methods on `Model`) that accept raw pointers. They replicate the exact gradient update logic:
+
 - For each context word (Skip-gram) or averaged context (CBOW):
   - Positive sample: target=center word, label=1
   - N negative samples: target=neg_table[sample], label=0

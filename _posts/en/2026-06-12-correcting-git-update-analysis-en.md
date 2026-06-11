@@ -20,6 +20,7 @@ Line 281:  ThreadPoolExecutor(max_workers=max_workers)  ← confirmed, threads n
 ```
 
 Two-phase design (confirmed):
+
 - Phase 1 (line 274-293): fetch all repos in parallel → check which need pulling
 - Phase 2 (line 296-311): pull only repos that actually changed
 

@@ -19,16 +19,19 @@ What each one measures:
 
 **LCP — Largest Contentful Paint** (loading speed)
 Time from navigation start until the largest visible element (hero image, big `<h1>`, video poster) finishes rendering.
+
 - Good: ≤ 2.5s | Needs improvement: 2.5–4s | Poor: > 4s
 - Dominated by: TTFB, render-blocking CSS/JS, image size, server location. Cloudflare levers: caching at edge, Polish/image resizing, Early Hints, HTTP/3.
 
 **INP — Interaction to Next Paint** (responsiveness)
 Worst-case latency between a user interaction (click, tap, keypress) and the next frame paint. Replaced FID in March 2024 because FID only measured the *first* input's delay; INP samples all interactions across the session.
+
 - Good: ≤ 200ms | Needs improvement: 200–500ms | Poor: > 500ms
 - Dominated by: long main-thread JS tasks, heavy event handlers, hydration cost. This is almost entirely your client-side JS — Cloudflare can't fix it for you (though deferring third-party scripts via Zaraz helps).
 
 **CLS — Cumulative Layout Shift** (visual stability)
 Unitless score summing how much visible content unexpectedly jumps around during load (images without `width`/`height`, late-injected ads, web fonts swapping).
+
 - Good: ≤ 0.1 | Needs improvement: 0.1–0.25 | Poor: > 0.25
 
 Quick local check before trusting the dashboard:

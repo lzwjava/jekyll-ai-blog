@@ -11,7 +11,6 @@ type: note
 
 Here's the full rundown of Whisper options:
 
-
 == MODELS ==
 
   tiny    39M params   ~1 GB VRAM   fastest, lowest quality
@@ -22,7 +21,6 @@ Here's the full rundown of Whisper options:
   turbo  809M params   ~6 GB VRAM   best speed/quality tradeoff
 
 Recommendation: turbo for general use, base for quick tests.
-
 
 == LANGUAGES (99 total) ==
 
@@ -50,7 +48,6 @@ Recommendation: turbo for general use, base for quick tests.
 
   Language codes are ISO 639-1 (2-letter).
 
-
 == KEY OPTIONS ==
 
   language="zh"          # Specify language (faster than auto-detect)
@@ -62,17 +59,15 @@ Recommendation: turbo for general use, base for quick tests.
   device="cuda"          # Force GPU (auto-detects if not set)
   output_format="srt"    # txt, srt, vtt, json
 
-
 == CLI USAGE ==
 
   whisper audio.mp3 --model turbo --language Chinese
   whisper audio.mp3 --task translate --output_format srt
 
-
 == CHINESE-SPECIFIC TIPS ==
 
-  - Use medium or large model (small has ~15% WER, large drops to ~5%)
-  - Specify language="zh" explicitly
-  - Add initial_prompt for context:
+- Use medium or large model (small has ~15% WER, large drops to ~5%)
+- Specify language="zh" explicitly
+- Add initial_prompt for context:
       initial_prompt="这是一段关于技术的讨论"
-  - Cantonese has its own code: language="yue"
+- Cantonese has its own code: language="yue"
