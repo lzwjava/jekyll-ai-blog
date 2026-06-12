@@ -24,18 +24,21 @@ type: note
 ## 架构（6个关键组件）
 
 ### 1. LLMEngine（engine/llm_engine.py）——调度器
+
 - 拥有调度器、模型运行器和分词器
 - `generate()`循环：添加请求→逐步执行直至完成，报告预填充/解码吞吐量
 - `step()`：调度器选择序列→模型运行器执行前向传播→调度器后处理令牌
 - 通过`torch.multiprocessing.spawn`支持张量并行——rank 0驱动，rank 1至N运行共享内存事件循环
 
 ### 2. 调度器（engine/scheduler.py）——连续批处理
+
 - 两个队列：`waiting`（预填充）和`running`（解码）
 - 预填充调度：遵守`max_num_batched_tokens`和`max_num_seqs`，支持首个序列的分块预填充
 - 解码调度：当KV缓存满时驱逐（抢占）运行中的序列——经典的vLLM抢占机制
 - 后处理：追加生成的令牌，检查EOS/最大令牌数，释放完成的序列
 
 ### 3. 块管理器（engine/block_manager.py）——PagedAttention KV缓存
+
 - **这是vLLM的核心创新**，在此重新实现
 - 从池中分配固定大小的KV缓存块（默认256个令牌/块）
 - `Block`对象跟踪`ref_count`和`hash`以实现前缀缓存
@@ -44,6 +47,7 @@ type: note
 - 抢占：释放块，将序列放回等待队列
 
 ### 4. 模型运行器（engine/model_runner.py）——GPU执行
+
 - 通过safetensors加载Qwen3模型权重，支持打包模块映射（q/k/v→融合qkv_proj，gate/up→融合gate_up_proj）
 - 分配单个连续的KV缓存张量：`[2, num_layers, num_blocks, block_size, num_kv_heads, head_dim]`
 - **解码的CUDA图捕获**：在批大小[1,2,4,8,16,32,…,512]上预捕获图，实现零开销重放
@@ -51,22 +55,26 @@ type: note
 - 通过NCCL+共享内存IPC实现张量并行
 
 ### 5. 注意力机制（layers/attention.py）——FlashAttention + Triton KV存储
+
 - **Triton内核**`store_kvcache_kernel`：使用slot_mapping将K/V写入分页缓存（无Python循环）
 - 预填充：`flash_attn_varlen_func`，支持变长序列和可选的block_table用于前缀缓存
 - 解码：`flash_attn_with_kvcache`，使用分页KV缓存
 
 ### 6. 模型（models/qwen3.py）——Qwen3ForCausalLM
+
 - 完整Qwen3 transformer：QKV并行线性层、RoPE（配合`@torch.compile`）、QK归一化（Q/K头的RMSNorm）、SiLU门控MLP
 - `ParallelLMHead`：词汇并行输出——仅在rank 0上跨TP排名收集logits
 - 权重加载处理打包模块（融合QKV、融合gate/up）
 
 ### 辅助层
+
 - **RotaryEmbedding**：预计算的cos/sin缓存，前向传播使用`@torch.compile`
 - **RMSNorm**：残差连接的融合加法+归一化变体，`@torch.compile`
 - **SiluAndMul**：SiLU门控上的`@torch.compile`
 - **采样器**：`@torch.compile`，用于采样的Gumbel-max技巧（指数噪声+argmax）
 
 ### 关键设计选择
+
 - **禁止贪心采样**（强制`temperature > 1e-10`）——仅随机采样
 - 块大小必须是256的倍数
 - 默认90% GPU内存利用率

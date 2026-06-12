@@ -11,13 +11,11 @@ type: note
 
 网络搜索已关闭，但我对这个领域非常熟悉。以下是完整路线图：
 
-
 == 策略：达成1000小时的三种方法 ==
 
   1. 使用现有公开数据集（最快、免费）
   2. 自行抓取/收集音频（自定义领域）
   3. 结合以上两种方法（最佳实际效果）
-
 
 == 1. 公开数据集（获取1000+小时的最简单途径） ==
 
@@ -52,7 +50,6 @@ type: note
     # AISHELL-1
     ds = load_dataset("aishell", split="train")
 
-
 == 2. 收集自己的音频 ==
 
   A) YouTube/播客抓取：
@@ -83,7 +80,6 @@ type: note
      - 录制自己的会议/通话
      - 先用Whisper large转录，然后手动修正
      - 创建特定领域的训练数据
-
 
 == 3. 数据格式（Whisper期望的格式） ==
 
@@ -118,7 +114,6 @@ type: note
     with open("metadata.jsonl", "w") as f:
         for s in samples:
             f.write(json.dumps(s) + "\n")
-
 
 == 4. 训练流程 ==
 
@@ -177,7 +172,6 @@ type: note
     model = get_peft_model(model, config)
     # 现在只有约5%的参数可训练
 
-
 == 5. 硬件需求 ==
 
   模型    Batch 16  LoRA     全量微调
@@ -191,7 +185,6 @@ type: note
     - 全量微调：base或small
     - LoRA：medium或turbo
     - 1000小时数据集：base模型训练约2-4天
-
 
 == 6. 达成1000小时的最快路径 ==
 
@@ -210,7 +203,6 @@ type: note
     1. 结合Common Voice（多语言）+ 特定领域音频
     2. 使用语言标签进行微调
 
-
 == 7. 评估 ==
 
     pip install jiwer
@@ -226,7 +218,6 @@ type: note
 
     error_rate = wer(references, predictions)
     print(f"WER: {error_rate:.2%}")
-
 
 == 快速启动脚本 ==
 
@@ -254,6 +245,7 @@ type: note
     # ... 使用Seq2SeqTrainer的训练循环
 
 需要我为你构建一个完整的训练脚本吗？我需要了解以下信息：
-  - 目标语言（中文？英文？两者都有？）
-  - 领域（通用？技术？会议？）
-  - 你的GPU（RTX 4070 12GB 还是 MI300X 192GB？）
+
+- 目标语言（中文？英文？两者都有？）
+- 领域（通用？技术？会议？）
+- 你的GPU（RTX 4070 12GB 还是 MI300X 192GB？）

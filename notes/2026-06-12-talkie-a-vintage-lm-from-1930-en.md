@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** Give me an intro to talkie (https://talkie-lm.com/introducing-talkie).
+**Question:** Give me an intro to talkie (<https://talkie-lm.com/introducing-talkie>).
 
 **Answer:**
 

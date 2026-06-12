@@ -11,13 +11,11 @@ type: note
 
 Web search is down, but I know this space well. Here's the full roadmap:
 
-
 == STRATEGY: 3 APPROACHES TO 1000 HOURS ==
 
   1. Use existing public datasets (fastest, free)
   2. Scrape/collect your own audio (custom domain)
   3. Combine both (best real-world result)
-
 
 == 1. PUBLIC DATASETS (easiest path to 1000+ hours) ==
 
@@ -52,7 +50,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
     # AISHELL-1
     ds = load_dataset("aishell", split="train")
 
-
 == 2. COLLECTING YOUR OWN AUDIO ==
 
   A) YouTube/Podcast scraping:
@@ -83,7 +80,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
      - Record your own meetings/calls
      - Transcribe with Whisper large first, then manually correct
      - Creates domain-specific training data
-
 
 == 3. DATA FORMAT (what Whisper expects) ==
 
@@ -118,7 +114,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
     with open("metadata.jsonl", "w") as f:
         for s in samples:
             f.write(json.dumps(s) + "\n")
-
 
 == 4. TRAINING PIPELINE ==
 
@@ -177,7 +172,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
     model = get_peft_model(model, config)
     # Now only ~5% of params are trainable
 
-
 == 5. HARDWARE REQUIREMENTS ==
 
   Model    Batch 16  LoRA     Full fine-tune
@@ -191,7 +185,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
     - Full fine-tune: base or small
     - LoRA: medium or turbo
     - 1000h dataset: ~2-4 days training on base
-
 
 == 6. FASTEST PATH TO 1000 HOURS ==
 
@@ -210,7 +203,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
     1. Combine Common Voice (multilingual) + domain-specific audio
     2. Fine-tune with language tags
 
-
 == 7. EVALUATION ==
 
     pip install jiwer
@@ -226,7 +218,6 @@ Web search is down, but I know this space well. Here's the full roadmap:
 
     error_rate = wer(references, predictions)
     print(f"WER: {error_rate:.2%}")
-
 
 == QUICK START SCRIPT ==
 
@@ -254,6 +245,7 @@ Web search is down, but I know this space well. Here's the full roadmap:
     # ... train loop with Seq2SeqTrainer
 
 Want me to build a complete training script for your specific use case? I'd need to know:
-  - Target language (Chinese? English? Both?)
-  - Domain (general? technical? meetings?)
-  - Your GPU (RTX 4070 12GB or MI300X 192GB?)
+
+- Target language (Chinese? English? Both?)
+- Domain (general? technical? meetings?)
+- Your GPU (RTX 4070 12GB or MI300X 192GB?)
