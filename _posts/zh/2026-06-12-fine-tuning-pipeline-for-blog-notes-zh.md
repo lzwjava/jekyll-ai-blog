@@ -12,6 +12,7 @@ type: note
 ## 综合总结 — lzwjava 笔记微调流程
 
 ### 目标
+
 对大型语言模型进行微调，使其学习 lzwjava 在 `jekyll-ai-blog` 中约 16k 篇博客笔记（英文+中文）的写作风格和回答方式。
 
 ---
@@ -19,6 +20,7 @@ type: note
 ### 1. 创建 `/mnt/data/zz/finetune/` 流程
 
 **数据集提取** (`build_dataset.py`)：
+
 - 从 `_posts/en/` 和 `_posts/zh/` 中解析带有 YAML 前置数据的 Jekyll markdown 文件
 - 清理 Liquid 标签 `{% %}`、kramdown `{: .class}`、图片引用和说明文字
 - 未做过滤 — 按需求包含 AI 生成的文章
@@ -36,6 +38,7 @@ type: note
 | 跳过（过短） | 30 |
 
 **训练脚本** (`train.py`)：
+
 - 经过三次迭代才成功：
   1. **基于 Unsloth** — Triton kernels 在 RTX 4070 上出现段错误（torch 2.10+cu128，Triton 3.6.0）
   2. **使用 `UNSLOTH_DISABLE_TRITON=1` 的 Unsloth** — 仍然出现段错误
@@ -47,6 +50,7 @@ type: note
 - 仅保存 LoRA adapter（4-bit 模型无法在内存中合并为 16-bit）
 
 **辅助脚本**：
+
 - `eval.py` — 在保留标题上比较微调模型与基础模型
 - `export_gguf.py` — 导出 GGUF 格式用于 ollama/llama.cpp
 - `README.md` — 完整使用指南
@@ -70,6 +74,7 @@ type: note
 ### 3. Unsloth Triton 问题调查
 
 段错误模式：
+
 - 训练和推理在第 0 步时崩溃
 - 退出代码 139（SIGSEGV）
 - 在全 LoRA（7 个目标模块）和最小 LoRA（2 个模块）时均发生

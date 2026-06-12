@@ -65,6 +65,8 @@ ww conversation notes \
 ```
 
 默认值：
+
 - `--input-dir` → `scripts/conversation`（相对于当前工作目录）
 - `--output-dir` → `~/projects/blog-assets/conversations`
+
 ```

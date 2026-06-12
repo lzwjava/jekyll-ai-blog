@@ -12,6 +12,7 @@ type: note
 ## Comprehensive Summary — Fine-tuning Pipeline for lzwjava's Notes
 
 ### Goal
+
 Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to learn his writing voice and answer style.
 
 ---
@@ -19,6 +20,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 ### 1. Created `/mnt/data/zz/finetune/` Pipeline
 
 **Dataset extraction** (`build_dataset.py`):
+
 - Parsed Jekyll markdown with YAML front matter from `_posts/en/` and `_posts/zh/`
 - Cleaned Liquid tags `{% %}`, kramdown `{: .class}`, image refs, captions
 - No filtering — included AI-generated posts as requested
@@ -36,6 +38,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 | Skipped (too short) | 30 |
 
 **Training script** (`train.py`):
+
 - Went through 3 iterations before working:
   1. **Unsloth-based** — Triton kernels segfaulted on RTX 4070 (torch 2.10+cu128, Triton 3.6.0)
   2. **Unsloth with `UNSLOTH_DISABLE_TRITON=1`** — still segfaulted
@@ -47,6 +50,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 - Save LoRA adapter only (4-bit can't merge to 16-bit in-memory)
 
 **Supporting scripts**:
+
 - `eval.py` — compare fine-tuned vs base on held-out titles
 - `export_gguf.py` — GGUF export for ollama/llama.cpp
 - `README.md` — full usage guide
@@ -70,6 +74,7 @@ Final download: Direct from `huggingface.co` at ~37MB/s (network recovered). Man
 ### 3. Unsloth Triton Investigation
 
 Segfault pattern:
+
 - Crashes at step 0 in both training and inference
 - Exit code 139 (SIGSEGV)
 - Happens with full LoRA (7 target modules) and minimal LoRA (2 modules)
