@@ -1,0 +1,210 @@
+[
+  {
+    "speaker": "A",
+    "line": "I've been re-reading the network technology syllabus, and I think the biggest mistake students make is memorizing the OSI layers as a list instead of understanding what each layer actually does. Want to walk through it as if we were debugging a real connection?"
+  },
+  {
+    "speaker": "B",
+    "line": "Good idea. Let's start from the bottom. The physical layer is just about moving raw bits as signals — voltages on copper, light pulses in fiber, radio waves in WiFi. It doesn't know what a frame or packet is. It only cares about encoding bits and the medium they travel on."
+  },
+  {
+    "speaker": "A",
+    "line": "Right, and the data link layer sits on top of that. Its job is to group bits into frames, add MAC addresses, and detect errors with checksums like CRC. It also handles who gets to talk on a shared medium — that's where CSMA/CD comes in for classic Ethernet."
+  },
+  {
+    "speaker": "B",
+    "line": "CSMA/CD is a classic exam question. The mechanism is simple: listen before you send, and if you detect a collision while sending, stop immediately, send a jam signal, then wait a random backoff time before retrying. The randomness is what prevents two machines from colliding forever."
+  },
+  {
+    "speaker": "A",
+    "line": "But here's the practical twist — modern switched Ethernet barely uses CSMA/CD anymore. A switch gives each port its own collision domain, and with full-duplex links, collisions can't even happen. The exam still tests it though, because it explains why Ethernet was designed the way it was."
+  },
+  {
+    "speaker": "B",
+    "line": "Speaking of switches, can you explain the difference between a hub, a switch, and a router? That comparison shows up on almost every paper."
+  },
+  {
+    "speaker": "A",
+    "line": "A hub is a dumb physical-layer repeater — it copies every signal to every port, so everyone shares one collision domain. A switch works at layer two: it learns MAC addresses by watching source addresses on incoming frames, then forwards each frame only to the right port."
+  },
+  {
+    "speaker": "B",
+    "line": "And the router operates at layer three. It looks at IP addresses, not MAC addresses, and connects different networks together. A switch extends one network; a router joins separate networks and decides the path between them. That one sentence is worth points on its own."
+  },
+  {
+    "speaker": "A",
+    "line": "Now let's test you on addressing. A MAC address is burned into the network card — 48 bits, written in hex. An IP address is logical and assigned by configuration or DHCP. Why do we need both?"
+  },
+  {
+    "speaker": "B",
+    "line": "Because they solve different problems. MAC addresses work only for delivery on the local link — they have no structure for routing across the world. IP addresses are hierarchical: the network part tells routers where to send the packet, and the host part identifies the machine inside that network."
+  },
+  {
+    "speaker": "A",
+    "line": "And the glue between them is ARP. When a host wants to send to an IP on its own LAN, it broadcasts an ARP request asking 'who has this IP?' The owner replies with its MAC address, the sender caches it, and from then on frames go directly. No ARP, no local delivery."
+  },
+  {
+    "speaker": "B",
+    "line": "Let's do IP addressing properly, since subnetting questions destroy most candidates. An IPv4 address is 32 bits, written as four decimal numbers. The subnet mask tells you which bits are the network part. For example, 255.255.255.0 means the first 24 bits identify the network."
+  },
+  {
+    "speaker": "A",
+    "line": "The trick I teach students: don't think in formulas, think in borrowing. If you take a /24 network and borrow 2 bits for subnets, you get 4 subnets, each with 6 fewer usable hosts because every subnet still loses two addresses — the network address and the broadcast address."
+  },
+  {
+    "speaker": "B",
+    "line": "Exactly — all zeros in the host part means the network itself, all ones means broadcast to everyone in it. So a /26 subnet has 64 addresses but only 62 usable hosts. If you can compute that quickly, you've already secured the subnetting question."
+  },
+  {
+    "speaker": "A",
+    "line": "Don't forget the classic address classes, since the syllabus still covers them. Class A starts with 1 to 126 in the first octet, Class B is 128 to 191, Class C is 192 to 223. Class D is multicast and Class E is reserved. And 127 is loopback — that's a favorite trick option."
+  },
+  {
+    "speaker": "B",
+    "line": "Also the private ranges: 10.0.0.0/8, 172.16.0.0 through 172.31.255.255, and 192.168.0.0/16. These never appear on the public internet. That's why NAT exists — your router rewrites private source addresses into its one public address and tracks the connections in a table."
+  },
+  {
+    "speaker": "A",
+    "line": "NAT leads nicely into routing. How would you explain how a router actually decides where to forward a packet, without any math?"
+  },
+  {
+    "speaker": "B",
+    "line": "A router keeps a routing table: a list of destination networks and which interface or next-hop leads toward each. For every packet, it finds the longest matching prefix — the most specific route wins. If nothing matches, it uses the default route, which is basically 'send everything else this way.'"
+  },
+  {
+    "speaker": "A",
+    "line": "And the table gets filled three ways: directly connected networks, static routes typed in by an admin, or dynamic routing protocols. The exam loves comparing RIP and OSPF, so let's nail that distinction."
+  },
+  {
+    "speaker": "B",
+    "line": "RIP is distance-vector: each router tells its neighbors its whole table periodically, and routes are measured in hop count with a maximum of 15. It's simple but slow to converge. OSPF is link-state: every router floods information about its links, builds a full map, and computes shortest paths itself."
+  },
+  {
+    "speaker": "A",
+    "line": "The practical consequence: RIP suits tiny networks, OSPF scales to large ones and reacts to failures fast because every router has the complete picture. If a question asks which protocol for a large enterprise, the answer is OSPF, and you should mention areas reduce its overhead."
+  },
+  {
+    "speaker": "B",
+    "line": "Now quiz me on ICMP, since it ties into tools students actually use. What happens when I type ping?"
+  },
+  {
+    "speaker": "A",
+    "line": "Ping sends an ICMP echo request to the target, which replies with an echo reply. If you get answers, layer three connectivity works. Traceroute is cleverer: it sends packets with increasing TTL values, and each router that decrements TTL to zero sends back a time-exceeded message, revealing the path."
+  },
+  {
+    "speaker": "B",
+    "line": "That TTL detail matters — it exists so packets caught in routing loops eventually die instead of circulating forever. Every router subtracts one from TTL; at zero, the packet is discarded. Small mechanism, big exam value."
+  },
+  {
+    "speaker": "A",
+    "line": "Let's climb to the transport layer. This is where I'd spend the most revision time, because TCP versus UDP and the three-way handshake appear in some form every single year."
+  },
+  {
+    "speaker": "B",
+    "line": "Start with the contrast. UDP is connectionless: no handshake, no acknowledgments, no ordering — just send and hope. That makes it fast and lightweight, perfect for DNS queries, video streaming, and voice calls where a lost packet matters less than delay."
+  },
+  {
+    "speaker": "A",
+    "line": "TCP is the opposite philosophy: reliable, ordered, connection-oriented. Every byte is numbered with sequence numbers, the receiver acknowledges what it got, and anything unacknowledged gets retransmitted. File transfer, web pages, email — anything that must arrive complete uses TCP."
+  },
+  {
+    "speaker": "B",
+    "line": "Walk through the handshake mechanically. The client sends a SYN with its initial sequence number. The server replies with SYN plus ACK, acknowledging the client and offering its own sequence number. The client sends a final ACK, and both sides now agree on numbering. Three packets, connection established."
+  },
+  {
+    "speaker": "A",
+    "line": "And why three and not two? Because the server needs proof the client received its sequence number too. Without that third ACK, an old duplicate SYN wandering the network could open a phantom connection. The handshake is mutual confirmation, not just a greeting."
+  },
+  {
+    "speaker": "B",
+    "line": "Closing takes four steps because TCP is full-duplex — each direction closes independently. One side sends FIN, gets an ACK, then the other side sends its own FIN and gets a final ACK. Half-closed states confuse students, but the idea is just 'I'm done sending, but I can still listen.'"
+  },
+  {
+    "speaker": "A",
+    "line": "TCP also does flow control and congestion control, and the exam wants you to separate them. Flow control protects the receiver: it advertises a window saying how much it can accept. Congestion control protects the network: the sender starts slow and backs off when packets get lost."
+  },
+  {
+    "speaker": "B",
+    "line": "Port numbers are the last transport-layer piece. The IP address finds the machine; the port finds the program on it. Memorize the famous ones: HTTP 80, HTTPS 443, FTP 21, Telnet 23, SMTP 25, DNS 53, POP3 110. Those are free points handed to anyone who reviewed."
+  },
+  {
+    "speaker": "A",
+    "line": "Let's apply that with DNS, since it's the application protocol they test hardest. What actually happens when I type a website name into a browser?"
+  },
+  {
+    "speaker": "B",
+    "line": "Your machine asks its local DNS server to resolve the name. If that server doesn't know, it walks the hierarchy: root servers point to the top-level domain servers, which point to the authoritative server for that domain, which returns the IP. Answers get cached at every step so repeats are instant."
+  },
+  {
+    "speaker": "A",
+    "line": "Two query styles worth naming: your computer makes a recursive query — 'get me the final answer' — while the local server typically makes iterative queries, following referrals itself. Mixing those up costs marks, so anchor it as: client recursive, server iterative."
+  },
+  {
+    "speaker": "B",
+    "line": "Then HTTP rides on top. The browser opens a TCP connection to port 80, sends a request like GET with headers, and the server returns a status code and the page. Know the code families: 200 means success, 301 and 302 are redirects, 404 not found, 500 server error."
+  },
+  {
+    "speaker": "A",
+    "line": "And HTTPS is just HTTP inside an encrypted TLS tunnel on port 443. The server proves its identity with a certificate, the two sides negotiate keys, and everything after is encrypted. You don't need the cryptographic math — just the purpose: confidentiality, integrity, and authentication."
+  },
+  {
+    "speaker": "B",
+    "line": "DHCP deserves a mention because it explains how your laptop joins a network with zero configuration. Four messages: the client broadcasts Discover, servers answer with Offer, the client requests one offer, and the server acknowledges. The lease includes IP, mask, gateway, and DNS servers."
+  },
+  {
+    "speaker": "A",
+    "line": "Email protocols round out the application layer. SMTP pushes mail between servers and from your client outward. POP3 downloads mail to one device and usually deletes it from the server. IMAP keeps mail on the server and syncs state, which is why it suits multiple devices."
+  },
+  {
+    "speaker": "B",
+    "line": "Now let me push you on local area network details, because the LAN chapter is heavily weighted. What should someone know about Ethernet frames and VLANs?"
+  },
+  {
+    "speaker": "A",
+    "line": "An Ethernet frame carries destination MAC, source MAC, a type field, the payload, and a CRC checksum at the end. Minimum frame size is 64 bytes — historically tied to collision detection on the original shared cable. The switch reads the destination MAC and forwards accordingly."
+  },
+  {
+    "speaker": "B",
+    "line": "VLANs let one physical switch act as several isolated networks. Ports are assigned to VLAN groups, and traffic can't cross between them without a router. Practically, it separates departments, shrinks broadcast domains, and improves security without buying more hardware."
+  },
+  {
+    "speaker": "A",
+    "line": "Broadcast domain versus collision domain is the trap question there. Every switch port is its own collision domain, but the whole switch is one broadcast domain — unless VLANs split it. Routers separate broadcast domains. Drill that until it's reflexive."
+  },
+  {
+    "speaker": "B",
+    "line": "Wireless deserves a few lines too. WiFi is the 802.11 family, it uses CSMA/CA instead of CSMA/CD because radios can't reliably detect collisions while transmitting — so they avoid them with waiting and acknowledgments. Access points bridge wireless clients onto the wired LAN."
+  },
+  {
+    "speaker": "A",
+    "line": "Let's finish with security and management, since the last chapters contribute easy marks. Give me the firewall picture in plain mechanics."
+  },
+  {
+    "speaker": "B",
+    "line": "A packet-filtering firewall checks each packet's addresses, ports, and protocol against rules — cheap but blind to context. A stateful firewall tracks connections, so it allows replies to traffic you initiated and blocks unsolicited packets. Proxy firewalls go further by terminating the connection and inspecting content."
+  },
+  {
+    "speaker": "A",
+    "line": "On encryption, the exam wants the symmetric versus asymmetric contrast. Symmetric uses one shared key — fast, but distributing the key safely is the problem. Asymmetric uses a public and private key pair — slower, but anyone can encrypt to your public key and only you can decrypt."
+  },
+  {
+    "speaker": "B",
+    "line": "In practice the two are combined: asymmetric crypto exchanges a session key, then symmetric crypto encrypts the actual data. Digital signatures flip the direction — sign with your private key, anyone verifies with your public key. That gives authentication and non-repudiation."
+  },
+  {
+    "speaker": "A",
+    "line": "Common attacks worth naming: a DoS attack floods a service so legitimate users can't get through, and a distributed version uses many compromised machines. Phishing tricks users into giving credentials. The defense vocabulary — firewall, intrusion detection, backups, patching — earns the points."
+  },
+  {
+    "speaker": "B",
+    "line": "One last strategy note for a retake. Going from 23 to 60 isn't about brilliance — it's coverage. Past papers repeat: layer functions, device comparisons, subnetting, handshake, port numbers, DNS resolution, RIP versus OSPF. Do five past papers cold and the patterns become obvious."
+  },
+  {
+    "speaker": "A",
+    "line": "Agreed. And answer in the structure graders reward: definition first, mechanism second, example third. Even a partial answer in that shape collects partial marks. Understand the mechanisms we covered today, and the multiple-choice section practically answers itself."
+  },
+  {
+    "speaker": "B",
+    "line": "That's the whole game — networks are layered so each layer solves one problem. Bits, frames, packets, connections, applications. Hold that ladder in your head, place every exam question on its rung, and the second attempt will look nothing like the first."
+  }
+]
