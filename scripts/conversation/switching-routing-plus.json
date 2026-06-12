@@ -1,0 +1,114 @@
+[
+  {
+    "speaker": "A",
+    "line": "Let's do a full sweep of the Switching and Routing syllabus, course 13833. I'll start at layer two. When a frame enters a switch, three outcomes exist: forward, flood, or filter. Learning builds the MAC table from source addresses, and entries age out, typically after 300 seconds."
+  },
+  {
+    "speaker": "B",
+    "line": "And filtering is the subtle one people forget. If the destination MAC maps to the same port the frame arrived on, the switch drops it, because the destination is already on that segment. That's how a switch isolates collision domains per port, unlike a hub which is one big shared wire."
+  },
+  {
+    "speaker": "A",
+    "line": "Worth contrasting the three forwarding modes too. Store-and-forward buffers the whole frame and checks the CRC, so it catches errors but adds latency. Cut-through reads just the destination MAC and starts forwarding immediately. Fragment-free is the compromise, checking the first 64 bytes for collision damage."
+  },
+  {
+    "speaker": "B",
+    "line": "Now loops. Redundant links are great for resilience but lethal for Ethernet, since frames carry no TTL. You get broadcast storms, MAC table instability where the same address flaps between ports, and duplicate frame delivery. Spanning Tree fixes all three by logically pruning the topology into a tree."
+  },
+  {
+    "speaker": "A",
+    "line": "The STP election sequence is exam gold. First, lowest bridge ID wins root, and bridge ID is priority plus MAC, so default priority 32768 means the oldest MAC often wins by accident. Then each non-root switch picks one root port, the cheapest path toward the root, and each segment elects a designated port."
+  },
+  {
+    "speaker": "B",
+    "line": "Everything else goes into blocking. Classic STP walks a port through blocking, listening, learning, then forwarding, which costs around 50 seconds. Rapid Spanning Tree, 802.1w, collapses that with a proposal and agreement handshake between switches, converging in seconds. The exam asks you to compare the two."
+  },
+  {
+    "speaker": "A",
+    "line": "Onto VLANs. The mechanism is the 802.1Q tag: four bytes inserted after the source MAC, holding a 12-bit VLAN ID, so the theoretical range is 0 to 4095 with 1 to 4094 usable. Access ports strip and add tags for one VLAN, trunks carry many VLANs tagged, and the native VLAN rides untagged."
+  },
+  {
+    "speaker": "B",
+    "line": "I'd add the design view: a VLAN equals one broadcast domain equals usually one IP subnet. That mapping is the bridge between layer two and layer three thinking. When troubleshooting, ask which VLAN, which subnet, which gateway. If those three don't line up, hosts can't communicate no matter the cabling."
+  },
+  {
+    "speaker": "A",
+    "line": "Inter-VLAN routing then. Router-on-a-stick uses one physical link as a trunk with a subinterface per VLAN, each holding the gateway address. It works but the single link is a bottleneck. A layer three switch routes between SVIs in hardware ASICs, which is why every real campus network uses that instead."
+  },
+  {
+    "speaker": "B",
+    "line": "Before we leave layer two, link aggregation deserves a mention. Bundling ports into an EtherChannel multiplies bandwidth and survives single-link failure, and crucially STP treats the bundle as one logical port, so no link gets blocked. LACP negotiates the bundle dynamically; static mode just trusts your config."
+  },
+  {
+    "speaker": "A",
+    "line": "Now layer three. The forwarding mechanism is longest prefix match: the router picks the most specific route covering the destination. A /30 beats a /24 beats 0.0.0.0/0. Then it decrements TTL, recomputes the header checksum, and rewrites the layer two header for the next hop. The IP packet itself stays intact end to end."
+  },
+  {
+    "speaker": "B",
+    "line": "And the ARP step in between trips up many candidates. The host ARPs for its default gateway, not the final destination, when the target is off-subnet. Each hop rewrites source and destination MACs while source and destination IPs never change. If an exam question shows MAC addresses changing per hop, that's why."
+  },
+  {
+    "speaker": "A",
+    "line": "Route selection has a hierarchy. First, longest prefix match decides which routes even compete. Among equal prefixes from different protocols, administrative distance wins: connected 0, static 1, OSPF 110, RIP 120. Only among routes from the same protocol does the metric matter, hops for RIP, cost for OSPF."
+  },
+  {
+    "speaker": "B",
+    "line": "Static routing is worth respecting, not just as the simple option. It's deterministic, consumes zero CPU and bandwidth, and a floating static route with a raised administrative distance makes a clean backup path. The cost is that it doesn't adapt; a dead next hop means a black hole unless you track it."
+  },
+  {
+    "speaker": "A",
+    "line": "RIP is the distance vector specimen. Every 30 seconds it broadcasts its full table to neighbors, trusting routes by rumor. Hop count maxes at 15, sixteen means unreachable. The count-to-infinity problem gets patched by split horizon, never advertise a route back out the interface you learned it from, plus poison reverse and hold-down timers."
+  },
+  {
+    "speaker": "B",
+    "line": "OSPF flips the model. Routers flood link state advertisements so everyone holds an identical topology database, then each independently runs shortest path first from itself. Neighbors must agree on area, hello and dead timers, and subnet to form adjacency. On multi-access networks a designated router cuts the flooding mesh down."
+  },
+  {
+    "speaker": "A",
+    "line": "Areas are OSPF's scaling trick. Area zero is the backbone and all other areas must touch it through area border routers. Smaller areas mean smaller databases and contained recalculation when a link flaps. The exam likes the adjacency state machine too: down, init, two-way, exstart, exchange, loading, full."
+  },
+  {
+    "speaker": "B",
+    "line": "BGP usually gets one conceptual question. It's a path vector protocol between autonomous systems, running over TCP port 179, choosing routes by policy and attributes rather than raw speed. The one-liner to remember: interior protocols like OSPF find the fastest path, BGP decides which business relationship the traffic should follow."
+  },
+  {
+    "speaker": "A",
+    "line": "Let's hit ACLs. A standard ACL filters only on source IP, so the rule of thumb is to place it close to the destination, or you'll over-block. An extended ACL matches source, destination, protocol, and ports, so place it close to the source to kill unwanted traffic early. Evaluation is top-down, first match wins."
+  },
+  {
+    "speaker": "B",
+    "line": "And the implicit deny at the bottom is the classic trap. An ACL with only deny statements blocks everything, including what you meant to allow. Also remember an ACL does nothing until applied to an interface with a direction, in or out. Wildcard masks invert subnet mask logic: zero means must match, one means don't care."
+  },
+  {
+    "speaker": "A",
+    "line": "NAT next. The mechanism is a translation table on the border router mapping inside private addresses to outside public ones. Static NAT is one-to-one, good for publishing a server. Dynamic NAT draws from a pool. PAT, or overload, is the workhorse: many hosts share one public IP, distinguished by translated source ports."
+  },
+  {
+    "speaker": "B",
+    "line": "The practical consequence of PAT: outbound connections create table entries, so inbound connections from the internet have no entry to match and simply die at the router. That's accidental security and also why hosting a service behind PAT needs an explicit port forward. Private ranges are 10/8, 172.16/12, 192.168/16."
+  },
+  {
+    "speaker": "A",
+    "line": "DHCP rounds out the services. The handshake is DORA: discover, offer, request, acknowledge. The subtlety is that discover is a broadcast, and routers don't forward broadcasts. So a centralized DHCP server needs a relay agent, the ip helper-address command, which converts the broadcast into a unicast toward the server."
+  },
+  {
+    "speaker": "B",
+    "line": "Gateway redundancy is the last availability piece. HSRP and VRRP let two routers share a virtual IP and virtual MAC; hosts point at the virtual gateway and never notice a failover. The active router answers ARP, the standby listens to hellos, and preemption decides whether a recovered router takes the role back."
+  },
+  {
+    "speaker": "A",
+    "line": "We should touch IPv6 since the syllabus includes it. Addresses are 128 bits in hex, no broadcast at all, multicast and anycast instead. ARP is replaced by neighbor discovery over ICMPv6, and hosts can self-configure with SLAAC by combining the router-advertised prefix with their own interface identifier."
+  },
+  {
+    "speaker": "B",
+    "line": "For the written paper, my drill list: subnetting until it's instant, STP election walkthroughs, RIP versus OSPF comparison tables, ACL placement logic, and NAT table reasoning. Subnetting questions alone, like how many hosts in a /26, are guaranteed marks. Sixty-two, since two addresses go to network and broadcast."
+  },
+  {
+    "speaker": "A",
+    "line": "For the onsite practical, fluency in the config flow matters more than memorizing every option: create VLANs, assign ports, trunk the uplinks, give SVIs addresses, wire up OSPF or statics, then verify. Show ip route, show ip interface brief, show vlan, show ip ospf neighbor. Reading device state fast is the real skill."
+  },
+  {
+    "speaker": "B",
+    "line": "And the unifying habit: narrate the packet. Host ARPs its gateway, switch learns and forwards within the VLAN, router does longest prefix match and rewrites MACs, NAT translates at the edge, ACLs judge it along the way. If you can tell that story for any topology, every question on this exam becomes a chapter of it."
+  }
+]
