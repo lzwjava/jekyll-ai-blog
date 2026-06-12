@@ -25,14 +25,14 @@ Jane Street 不像实验室那样在 NeurIPS/ICML 上发表论文——他们通
 
 **设定。** 通过使用时间依赖矩阵变换查询和键来编码位置：`q'(t) = F(t)q(t)`，`k'(s) = G(s)k(s)`，因此注意力分数变为 `qᵀ F(t)ᵀG(s) k`。三个公理：
 
-1.  **线性**——F, G 是线性映射（矩阵）
-2.  **平移不变性**——`F(t)ᵀG(s)` 仅依赖于 `t−s`（仅相对位置；这使你能够泛化到训练长度之外）
-3.  **时间连续性**
+1. **线性**——F, G 是线性映射（矩阵）
+2. **平移不变性**——`F(t)ᵀG(s)` 仅依赖于 `t−s`（仅相对位置；这使你能够泛化到训练长度之外）
+3. **时间连续性**
 
 **关键步骤。** 定义 `A(t−s) = F(t)ᵀG(s)`。这些公理强制要求 `A(0) = I` 且 `A(t₁)A(t₂) = A(t₁+t₂)`——即矩阵 A(t) 构成一个单参数群，这意味着每个有效编码都具有形式 A(t) = exp(tL)，其中 L 是某个固定的生成矩阵。现在枚举简化为对生成器进行分类：
 
--   **可对角化的 L，按子空间进行特征值分析：** 实特征值 α > 0 会指数级爆炸（舍弃）；α = 0 恢复 NoPE；α < 0 给出线性注意力变体中常见的指数衰减（并且像 Mamba 这样的门控模型应被视为学习时间推进的步长，而非改变衰减率）。复共轭特征值对给出二维旋转块——你推导出了 RoPE，并带有一个指数衰减因子；这种带阻尼的 RoPE 正是 RetNet 和 Mamba-3 所使用的。
--   **有缺陷的（不可对角化的）L：** Jordan 块产生时间上的**多项式**项——这是一个技术上合法但未被探索的类别，在现有文献中未发现，可能也没有实际应用。一篇附录显示，ALiBi 的 `−m(t−s)` 惩罚实际上可以通过一个带有增强 q/k 的有缺陷的 2×2 幂零生成器来实现。
+- **可对角化的 L，按子空间进行特征值分析：** 实特征值 α > 0 会指数级爆炸（舍弃）；α = 0 恢复 NoPE；α < 0 给出线性注意力变体中常见的指数衰减（并且像 Mamba 这样的门控模型应被视为学习时间推进的步长，而非改变衰减率）。复共轭特征值对给出二维旋转块——你推导出了 RoPE，并带有一个指数衰减因子；这种带阻尼的 RoPE 正是 RetNet 和 Mamba-3 所使用的。
+- **有缺陷的（不可对角化的）L：** Jordan 块产生时间上的**多项式**项——这是一个技术上合法但未被探索的类别，在现有文献中未发现，可能也没有实际应用。一篇附录显示，ALiBi 的 `−m(t−s)` 惩罚实际上可以通过一个带有增强 q/k 的有缺陷的 2×2 幂零生成器来实现。
 
 **核心结论：** 只有少数几类有效的位置编码，并且所有合理的编码——NoPE、衰减、RoPE、带阻尼的 RoPE——都已被使用，因此不存在尚未发现的完美编码。注意他们工作中透露出的框架：他们处理序列模型（市场时间序列），并显式处理连续或不规则采样的时间，而不仅仅是整数 token 索引——这是量化金融在数学上的印记。
 
@@ -67,7 +67,7 @@ def damped_rope(x, t, omega, alpha):
 
 **参考文献：**
 
--   [Using group theory to explore the space of positional encodings for attention — Jane Street Blog](https://blog.janestreet.com/using-group-theory-to-explore-positional-encodings-attention/)
--   [Jane Street Blog — Machine Learning category](https://blog.janestreet.com/machine-learning/)
--   [RetNet paper (exponentially damped rotation)](https://arxiv.org/abs/2307.08621)
--   [GRAPE: Group Representational Positional Encoding (Zhang et al.) — the closely related paper the post acknowledges](https://arxiv.org/abs/2512.07805)
+- [Using group theory to explore the space of positional encodings for attention — Jane Street Blog](https://blog.janestreet.com/using-group-theory-to-explore-positional-encodings-attention/)
+- [Jane Street Blog — Machine Learning category](https://blog.janestreet.com/machine-learning/)
+- [RetNet paper (exponentially damped rotation)](https://arxiv.org/abs/2307.08621)
+- [GRAPE: Group Representational Positional Encoding (Zhang et al.) — the closely related paper the post acknowledges](https://arxiv.org/abs/2512.07805)
