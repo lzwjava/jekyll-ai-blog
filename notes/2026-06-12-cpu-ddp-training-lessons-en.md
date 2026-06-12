@@ -73,6 +73,7 @@ LESSON 8: MODEL SIZE LABELED "80M" WAS ACTUALLY 126M
   on both machines.
 
 LESSON 9: NETWORK DEBUGGING CHECKLIST
+
   1. Can worker reach master's TCPStore port? (bash /dev/tcp test)
   2. Can master reach worker on ephemeral ports? (same test)
   3. Is Tailscale interfering? (check tailscale status)

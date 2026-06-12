@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 介绍博客 https://zhouyifan.net 及其作者。
+**问题：** 介绍博客 <https://zhouyifan.net> 及其作者。
 
 **回答：**
 

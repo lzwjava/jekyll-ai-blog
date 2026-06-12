@@ -18,10 +18,12 @@ type: note
 **SPCX / the SpaceX IPO campaign:** SpaceX (post-merger with xAI/X) lists on Nasdaq today, June 12, 2026, targeting a ~$1.75 trillion valuation at $135/share, raising about $75 billion against roughly $150 billion in demand. The crypto-side campaign lets retail users subscribe to **SPCXx tokens** — backed 1:1 by real SpaceX shares held in regulated custody — at the IPO offering price, paid in stablecoins. Key caveat: tokens confer no voting rights, no dividends, and no direct legal ownership in SpaceX equity — it's price exposure only.
 
 **Binance's role** is split in two:
+
 - Binance the exchange went the **synthetic** route: it launched pre-IPO perpetual futures (SPCXUSDT, settled in USDT) in May, letting traders speculate on valuation without any underlying shares.
 - **Binance Wallet** (the Web3/self-custodial wallet inside the Binance app) ran the **tokenized** route: a subscription campaign tied to tokenized SpaceX securities where eligible users lock USDC for potential allocations, distributed via xStocks infrastructure.
 
 **Can you subscribe via a crypto app?** Yes — that was the whole campaign, though the subscription windows have just closed:
+
 - **Bybit IPO Express**: subscriptions ran June 7–11 at an indicative 135 USDC plus a 5% underwriting fee, minimum 100 USDC, with trading starting June 12.
 - **Kraken**: offered SPCXx to verified users in 110+ markets, tradable 24/7 after issuance.
 - **Bitget Wallet**: self-custodial subscription from $10 in USDT/USDC across Base, Ethereum, BNB Chain, Solana, and Tron, June 9–11, with token distribution June 12. It was heavily oversubscribed — the allocation grew from $3M to $13M as demand surged.

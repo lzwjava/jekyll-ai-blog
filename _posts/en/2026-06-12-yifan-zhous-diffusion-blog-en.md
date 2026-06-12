@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** Introduce the blog at https://zhouyifan.net and its author.
+**Question:** Introduce the blog at <https://zhouyifan.net> and its author.
 
 **Answer:**
 

@@ -14,6 +14,7 @@ type: note
 ### 1. Built the Fine-tuning Pipeline (`/mnt/data/zz/finetune/`)
 
 **Dataset extraction** (`build_dataset.py`):
+
 - Parsed 16,107 Jekyll markdown posts from `~/projects/jekyll-ai-blog/_posts/{en,zh}/`
 - Extracted `{title, body}` pairs as SFT conversations
 - Cleaned Liquid tags, kramdown attributes, image refs, captions
@@ -23,6 +24,7 @@ type: note
 - Shipped as `notes_sft_train.jsonl` (85MB) + `notes_sft_eval.jsonl` (820KB)
 
 **Training script** (`train.py`):
+
 - Started with Unsloth-based QLoRA, hit Triton segfaults on RTX 4070
 - Rewrote to **pure transformers + peft** (no Unsloth kernel dependency)
 - Qwen3-4B-unsloth-bnb-4bit, 4-bit quantized, LoRA r=32
@@ -30,6 +32,7 @@ type: note
 - Smoke tested: 10 steps, 1.25s/step, loss decreasing (2.86→2.11)
 
 **Supporting scripts**:
+
 - `eval.py` — compare fine-tuned vs base on held-out titles (vLLM or transformers)
 - `export_gguf.py` — export to GGUF for ollama/llama.cpp
 - `README.md` + `requirements.txt`
@@ -50,11 +53,13 @@ Downloaded from `huggingface.co` at ~37MB/s (speed recovered from earlier 300KB/
 ### 3. Unsloth → Pure Transformers Pivot
 
 Unsloth's Triton kernels segfault consistently on this setup:
+
 - torch 2.10+cu128, CUDA 12.8, Triton 3.6.0, RTX 4070 (compute 8.9)
 - Crashes at step 0 in both training and inference
 - `UNSLOTH_DISABLE_TRITON=1` didn't help
 
 **Fix**: Dropped Unsloth entirely, used:
+
 - `transformers` for model loading
 - `peft` for LoRA (`LoraConfig` + `get_peft_model`)
 - `trl.SFTTrainer` with `processing_class` (TRL 0.24 API)
@@ -62,6 +67,7 @@ Unsloth's Triton kernels segfault consistently on this setup:
 ### 4. TRL 0.24 API Fixes
 
 The installed TRL 0.24.0 changed APIs from the docs:
+
 - `tokenizer=` → `processing_class=`
 - `SFTConfig` has no `max_seq_length` param
 - `torch_dtype=` → `dtype=`

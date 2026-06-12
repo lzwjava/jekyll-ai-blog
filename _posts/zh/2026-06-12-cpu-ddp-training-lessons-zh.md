@@ -72,6 +72,7 @@ type: note
   的 RAM 都能轻松容纳。
 
 经验 9：网络调试检查清单
+
   1. 工作节点能否访问主节点的 TCPStore 端口？（bash /dev/tcp 测试）
   2. 主节点能否访问工作节点的临时端口？（相同测试）
   3. Tailscale 是否有干扰？（检查 tailscale status）

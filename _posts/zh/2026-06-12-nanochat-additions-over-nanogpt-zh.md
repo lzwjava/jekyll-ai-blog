@@ -16,14 +16,16 @@ type: note
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 nanoGPT 仅是一个预训练工具，包含：
-  - model.py（约 340 行）：标准 GPT-2 架构（LayerNorm、GELU、可学习位置嵌入、权重共享、线性层带偏置）
-  - train.py（约 300 行）：在原始文本上的预训练循环
-  - sample.py：基础文本生成
-  - 仅此而已，共 2 个 Python 文件。
+
+- model.py（约 340 行）：标准 GPT-2 架构（LayerNorm、GELU、可学习位置嵌入、权重共享、线性层带偏置）
+- train.py（约 300 行）：在原始文本上的预训练循环
+- sample.py：基础文本生成
+- 仅此而已，共 2 个 Python 文件。
 
 nanochat 在一个仓库中实现了完整的 LLM 生命周期。以下是每一项主要新增功能：
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 1. 模型架构（gpt.py）—— 显著升级
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -117,6 +119,7 @@ SFT 的作用：
 nanoGPT 没有 RL。nanochat 在 GSM8K 上实现了一个简化的 GRPO/REINFORCE：
 
 流水线：
+
   1. 加载 SFT 模型
   2. 对于每个 GSM8K 问题：
      - 从模型生成 N=16 个样本
@@ -127,10 +130,11 @@ nanoGPT 没有 RL。nanochat 在 GSM8K 上实现了一个简化的 GRPO/REINFORC
   5. 无 KL 惩罚，无 PPO ratio/clip——纯在策略 REINFORCE
 
 为何称为“受 GRPO 启发”但简化：
-  - 无信任区域 / 对参考模型的 KL 散度
-  - 在策略（无需 PPO ratio + clip）
-  - DAPO 风格的 token 级归一化
-  - 优势 = (r - mu) 而非 (r - mu)/sigma
+
+- 无信任区域 / 对参考模型的 KL 散度
+- 在策略（无需 PPO ratio + clip）
+- DAPO 风格的 token 级归一化
+- 优势 = (r - mu) 而非 (r - mu)/sigma
 
 跟踪 pass@k 指标：k 个样本中至少有一个正确的概率。
 
@@ -141,11 +145,12 @@ nanoGPT 没有 RL。nanochat 在 GSM8K 上实现了一个简化的 GRPO/REINFORC
 nanoGPT：基本的 generate() 函数，裁剪到 block_size，无缓存。
 
 nanochat：完整的推理引擎，包含：
-  - KV 缓存（原生 FA3，预分配张量）
-  - Prefill：batch=1 的提示前向传播，然后为 N 个样本复制缓存
-  - 工具使用状态机：检测 <|python_start|>，计算表达式，注入结果
-  - 多样本生成（并行生成 N 个补全）
-  - 流式输出（每步返回 token_column, token_masks）
+
+- KV 缓存（原生 FA3，预分配张量）
+- Prefill：batch=1 的提示前向传播，然后为 N 个样本复制缓存
+- 工具使用状态机：检测 <|python_start|>，计算表达式，注入结果
+- 多样本生成（并行生成 N 个补全）
+- 流式输出（每步返回 token_column, token_masks）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 5. 评估套件（tasks/ + core_eval.py + chat_eval.py）
@@ -178,24 +183,25 @@ nanochat 包含 8 个评估任务：
 nanoGPT：使用 tiktoken（GPT-2 编码）或训练字符级分词器。无特殊 token。
 
 nanochat：自定义 BPE 分词器（训练用 RustBPE，推理用 tiktoken）：
-  - 32K 词汇表（可配置）
-  - 9 个特殊 token：<|bos|>、<|user_start|>、<|user_end|>、<|assistant_start|>、<|assistant_end|>、<|python_start|>、<|python_end|>、<|output_start|>、<|output_end|>
-  - render_conversation() 方法：将聊天消息转换为 token ID + 损失掩码
-  - render_for_completion()：为 RL 生成移除最后一条助手消息
-  - visualize_tokenization()：带颜色编码输出的调试助手
+
+- 32K 词汇表（可配置）
+- 9 个特殊 token：<|bos|>、<|user_start|>、<|user_end|>、<|assistant_start|>、<|assistant_end|>、<|python_start|>、<|python_end|>、<|output_start|>、<|output_end|>
+- render_conversation() 方法：将聊天消息转换为 token ID + 损失掩码
+- render_for_completion()：为 RL 生成移除最后一条助手消息
+- visualize_tokenization()：带颜色编码输出的调试助手
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 7. 其他基础设施
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  - 检查点管理器：保存/加载模型 + 优化器 + 每个阶段的元数据（base/sft/rl）
-  - MLflow 记录器：wandb 的实验跟踪替代方案
-  - 缩放定律支持：miniseries.sh、scaling_laws.sh、--depth 作为单一控制参数
-  - 报告系统：评估结果的结构化日志
-  - 聊天 UI：基于网页的类 ChatGPT 界面（scripts/chat_web.py）
-  - 聊天 CLI：终端聊天界面（scripts/chat_cli.py）
-  - 分布式训练：带 Gloo 补丁的 proper DDP
-  - compute_init/cleanup：设备检测、分布式设置
+- 检查点管理器：保存/加载模型 + 优化器 + 每个阶段的元数据（base/sft/rl）
+- MLflow 记录器：wandb 的实验跟踪替代方案
+- 缩放定律支持：miniseries.sh、scaling_laws.sh、--depth 作为单一控制参数
+- 报告系统：评估结果的结构化日志
+- 聊天 UI：基于网页的类 ChatGPT 界面（scripts/chat_web.py）
+- 聊天 CLI：终端聊天界面（scripts/chat_cli.py）
+- 分布式训练：带 Gloo 补丁的 proper DDP
+- compute_init/cleanup：设备检测、分布式设置
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   总结：完整的 LLM 流水线
@@ -209,6 +215,7 @@ nanochat 覆盖：
   [数学任务 RL] → [评估 ChatCORE] → [通过聊天 UI 提供服务]
 
 最重要的概念新增功能：
+
   1. SFT：通过对话微调将基础模型训练成聊天助手
   2. RL：通过基于奖励的策略梯度改进数学/工具使用能力
   3. 工具使用：模型可以调用 Python 计算器并获得结果反馈

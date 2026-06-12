@@ -25,6 +25,7 @@ finetune/
 ```
 
 Dataset stats:
+
 - 10,726 English + 10,708 Chinese = 21,434 total
 - 25.1M tokens, avg 1,169 tokens/example
 - 30 posts skipped (too short < 100 chars)

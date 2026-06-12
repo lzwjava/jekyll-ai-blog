@@ -14,6 +14,7 @@ type: note
 ### 1. 构建了微调流水线 (`/mnt/data/zz/finetune/`)
 
 **数据集提取** (`build_dataset.py`):
+
 - 从 `~/projects/jekyll-ai-blog/_posts/{en,zh}/` 解析了 16,107 篇 Jekyll Markdown 文章
 - 提取 `{title, body}` 对作为 SFT 对话
 - 清理了 Liquid 标签、kramdown 属性、图片引用、标题
@@ -23,6 +24,7 @@ type: note
 - 输出为 `notes_sft_train.jsonl` (85MB) + `notes_sft_eval.jsonl` (820KB)
 
 **训练脚本** (`train.py`):
+
 - 最初使用基于 Unsloth 的 QLoRA，在 RTX 4070 上遇到 Triton 段错误
 - 重写为 **纯 transformers + peft** (无 Unsloth 内核依赖)
 - Qwen3-4B-unsloth-bnb-4bit, 4 位量化, LoRA r=32
@@ -30,6 +32,7 @@ type: note
 - 冒烟测试：10 步，1.25秒/步，loss 下降 (2.86→2.11)
 
 **辅助脚本**:
+
 - `eval.py` — 在保留标题上比较微调模型与基础模型 (vLLM 或 transformers)
 - `export_gguf.py` — 导出为 GGUF 供 ollama/llama.cpp 使用
 - `README.md` + `requirements.txt`
@@ -50,11 +53,13 @@ type: note
 ### 3. 从 Unsloth 转向纯 Transformers
 
 Unsloth 的 Triton 内核在此设置上持续段错误：
+
 - torch 2.10+cu128, CUDA 12.8, Triton 3.6.0, RTX 4070 (compute 8.9)
 - 在训练和推理的第 0 步崩溃
 - `UNSLOTH_DISABLE_TRITON=1` 无济于事
 
 **修复**：完全放弃 Unsloth，改用：
+
 - `transformers` 加载模型
 - `peft` 进行 LoRA (`LoraConfig` + `get_peft_model`)
 - `trl.SFTTrainer` 配合 `processing_class` (TRL 0.24 API)
@@ -62,6 +67,7 @@ Unsloth 的 Triton 内核在此设置上持续段错误：
 ### 4. TRL 0.24 API 修复
 
 安装的 TRL 0.24.0 与文档中的 API 有变化：
+
 - `tokenizer=` → `processing_class=`
 - `SFTConfig` 没有 `max_seq_length` 参数
 - `torch_dtype=` → `dtype=`
