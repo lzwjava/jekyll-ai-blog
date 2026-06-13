@@ -27,7 +27,7 @@ type: note
 │  包含 frontmatter（标题、正文、元数据）。                    │
 │                                                             │
 │  清洗流程:                                                  │
-│    - 去除 Jekyll/Liquid 标签 ({% raw %}{% %}{% endraw %}, {{ }})                 │
+│    - 去除 Jekyll/Liquid 标签 ({% %}, {{ }})                 │
 │    - 去除 kramdown 属性列表 ({: .centered })                 │
 │    - 去除图片引用 (![](assets/...))                          │
 │    - 压缩多余空白                                            │
