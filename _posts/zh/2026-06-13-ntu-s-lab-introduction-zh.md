@@ -22,6 +22,7 @@ type: note
 - 首席研究员（PI）是 **陈长禄教授（Prof. Chen Change Loy）**，他是校长讲座教授，同时也是 MMLab@NTU 的成员，拥有超过 127,000 次引用，专攻计算机视觉和生成式 AI。
 
 **研究领域**（其 CREATOR 框架）：
+
 - **C**omputational photography（计算摄影）
 - **R**esolution（超分辨率）
 - **E**diting & content generation（编辑与内容生成）
@@ -42,6 +43,7 @@ S-Lab 致力于透明性、可复现性和协作，通过 OpenMMLab、OpenXLab�
 如果您使用过 OpenMMLab 生态系统中的工具——`mmsegmentation`、`mmdetection`、`mmpose`、`BasicSR`、`GFPGAN`、`Real-ESRGAN`、`CodeFormer`——这些工具大部分都源自该实验室或其成员。它是亚洲最多产的计算机视觉/生成式 AI 实验室之一，校友持续就职于字节跳动、Adobe Research、上海人工智能实验室等机构。
 
 **参考资料：**
+
 - [S-Lab for Advanced Intelligence — NTU](https://www.ntu.edu.sg/s-lab)
 - [MMLab@NTU](https://www.mmlab-ntu.com/)
 - [Chen Change Loy — Google Scholar](https://scholar.google.com/citations?user=559LF80AAAAJ)

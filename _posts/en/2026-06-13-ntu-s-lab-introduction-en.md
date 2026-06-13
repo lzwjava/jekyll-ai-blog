@@ -24,6 +24,7 @@ type: note
 - The principal investigator (PI) is **Prof. Chen Change Loy**, a President's Chair Professor also affiliated with MMLab@NTU, with over 127,000 citations, specializing in computer vision and generative AI.
 
 **Research areas** (their CREATOR framework):
+
 - **C**omputational photography
 - **R**esolution (super-resolution)
 - **E**diting & content generation
@@ -44,6 +45,7 @@ S-Lab is committed to transparency, reproducibility, and collaboration, sharing 
 If you've used tools from the OpenMMLab ecosystem — `mmsegmentation`, `mmdetection`, `mmpose`, `BasicSR`, `GFPGAN`, `Real-ESRGAN`, `CodeFormer` — those largely trace back to this lab or its members. It's one of the most prolific CV/generative AI labs in Asia, and alumni consistently land at ByteDance, Adobe Research, Shanghai AI Lab, etc.
 
 **References:**
+
 - [S-Lab for Advanced Intelligence — NTU](https://www.ntu.edu.sg/s-lab)
 - [MMLab@NTU](https://www.mmlab-ntu.com/)
 - [Chen Change Loy — Google Scholar](https://scholar.google.com/citations?user=559LF80AAAAJ)
