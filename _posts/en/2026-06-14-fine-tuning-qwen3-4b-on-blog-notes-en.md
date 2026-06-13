@@ -27,7 +27,7 @@ Here's the full end-to-end story of how we got here:
 │  markdown posts with frontmatter (title, body, metadata).   │
 │                                                             │
 │  Cleaning pipeline:                                         │
-│    - Strip Jekyll/Liquid tags ({% %}, {{ }})                │
+│    - Strip Jekyll/Liquid tags ({% raw %}{% %}{% endraw %}, {{ }})                │
 │    - Strip kramdown attribute lists ({: .centered })        │
 │    - Strip image references (![](assets/...))               │
 │    - Collapse excess whitespace                             │

@@ -22,7 +22,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 **Dataset extraction** (`build_dataset.py`):
 
 - Parsed Jekyll markdown with YAML front matter from `_posts/en/` and `_posts/zh/`
-- Cleaned Liquid tags `{% %}`, kramdown `{: .class}`, image refs, captions
+- Cleaned Liquid tags (e.g. `{% raw %}{% %}{% endraw %}`), kramdown `{: .class}`, image refs, captions
 - No filtering — included AI-generated posts as requested
 - Output: `{question: title, answer: body}` conversation format
 
