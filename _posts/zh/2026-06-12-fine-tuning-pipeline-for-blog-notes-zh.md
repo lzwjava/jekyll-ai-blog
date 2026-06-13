@@ -22,7 +22,7 @@ type: note
 **数据集提取** (`build_dataset.py`)：
 
 - 从 `_posts/en/` 和 `_posts/zh/` 中解析带有 YAML 前置数据的 Jekyll markdown 文件
-- 清理 Liquid 标签 `{% %}`、kramdown `{: .class}`、图片引用和说明文字
+- 清理 Liquid 标签（如 `{% raw %}{% %}{% endraw %}`）、kramdown `{: .class}`、图片引用和说明文字
 - 未做过滤 — 按需求包含 AI 生成的文章
 - 输出：`{question: title, answer: body}` 对话格式
 
