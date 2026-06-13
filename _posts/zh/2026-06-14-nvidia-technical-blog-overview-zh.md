@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://developer.nvidia.com/blog 是什么？
+**问题：** <https://developer.nvidia.com/blog> 是什么？
 
 **回答：**
 
@@ -18,6 +18,7 @@ type: note
 **当前内容（2026年6月）：**
 
 热门文章包括：
+
 - **NVIDIA Agentic Coding Benchmark** —— 在首个智能体 AI 基准测试中取得领先性能
 - **MiniMax M3 on NVIDIA** —— 部署长上下文推理与智能体工作流
 - **DiffusionGemma** —— 在 NVIDIA 硬件上通过扩散语言模型实现高吞吐文本生成
@@ -34,4 +35,5 @@ type: note
 内容质量通常扎实——由 NVIDIA 工程师撰写，而非公关团队。可将其视为 NVIDIA 版的 Andrej Karpathy 博客，但更具机构化。若想紧跟 GPU 端 AI 基础设施动态，可订阅其 RSS 或邮件列表。
 
 参考来源：
+
 - [NVIDIA 技术博客](https://developer.nvidia.com/blog)

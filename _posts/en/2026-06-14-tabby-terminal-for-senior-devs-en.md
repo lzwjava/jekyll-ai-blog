@@ -15,7 +15,7 @@ type: note
 
 You're likely thinking of **Tabby** (formerly Terminus) — it was renamed. It's an open-source, cross-platform terminal emulator built on Electron + web technologies.
 
-**GitHub:** https://github.com/Tabby/tabby
+**GitHub:** <https://github.com/Tabby/tabby>
 
 ### What it is
 
@@ -38,6 +38,7 @@ You're likely thinking of **Tabby** (formerly Terminus) — it was renamed. It's
 ### Honest take for you specifically
 
 Given you're on **Warp** already — Tabby doesn't obviously beat it for your workflow. Warp has:
+
 - AI command completion
 - Block-based output (much better for LLM/agent output parsing)
 - Better macOS native feel (not Electron)

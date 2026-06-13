@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is https://developer.nvidia.com/blog?
+**Question:** What is <https://developer.nvidia.com/blog>?
 
 **Answer:**
 
@@ -18,6 +18,7 @@ The **NVIDIA Technical Blog** — news and tutorials for developers, scientists,
 **What's on it right now (June 2026):**
 
 Top stories include:
+
 - **NVIDIA Agentic Coding Benchmark** — leading performance on the first agentic AI benchmark
 - **MiniMax M3 on NVIDIA** — deploying long-context reasoning and agentic workflows
 - **DiffusionGemma** — high-throughput text generation via diffusion LMs on NVIDIA hardware
@@ -34,4 +35,5 @@ Top stories include:
 The content quality is generally solid — written by NVIDIA engineers, not PR. Think of it as NVIDIA's equivalent of the Andrej Karpathy blog but institutionalized. Subscribe to the RSS or their email list if you want to stay current on GPU-side AI infra.
 
 References:
+
 - [NVIDIA Technical Blog](https://developer.nvidia.com/blog)

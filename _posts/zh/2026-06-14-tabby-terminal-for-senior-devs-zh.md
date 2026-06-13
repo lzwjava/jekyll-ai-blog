@@ -15,7 +15,7 @@ type: note
 
 你可能想说的是 **Tabby**（原名 Terminus）——它已经更名了。这是一款基于 Electron + Web 技术的开源跨平台终端模拟器。
 
-**GitHub：** https://github.com/Tabby/tabby
+**GitHub：** <https://github.com/Tabby/tabby>
 
 ### 它是什么
 
@@ -38,6 +38,7 @@ type: note
 ### 针对你个人的客观看法
 
 既然你已经在使用 **Warp**——Tabby 并没有明显优于你当前的工作流程。Warp 具备：
+
 - AI 命令补全
 - 基于块的输出（对于 LLM/代理输出解析来说好用得多）
 - 更出色的 macOS 原生体验（非 Electron）
