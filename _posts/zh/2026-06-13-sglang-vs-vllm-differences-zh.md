@@ -33,11 +33,13 @@ type: note
 ### 1. KV 缓存管理
 
 **vLLM — PagedAttention：**
+
 - 将 KV 缓存拆分为固定大小的页面（类似于虚拟内存）
 - 消除 KV 缓存碎片化
 - 允许在并行序列之间共享页面（束搜索、推测解码）
 
 **SGLang — RadixAttention：**
+
 - 将 KV 缓存组织为**基数树**（基于 token 序列的字典树）
 - 在共享公共前缀的请求之间自动重用 KV 缓存
 - 关键优势：多轮对话、带有共享系统提示的 RAG、少样本提示——所有这些都免费获得前缀重用
@@ -75,12 +77,14 @@ vLLM 后来通过 `guided_decoding`（基于 outlines/lm-format-enforcer 后端�
 ### 4. 多模态与架构支持
 
 截至 2025 年中期：
+
 - **vLLM** 拥有更广泛的模型支持（更多 HuggingFace 模型开箱即用）
 - **SGLang** 在受支持的模型（LLaMA、Mistral、Qwen、DeepSeek）上通常更快，并且对 **DeepSeek MLA（多头潜在注意力）** 有非常强大的支持——鉴于你使用 DeepSeek，与你的工作相关
 
 ### 5. MoE / DeepSeek 支持
 
 SGLang 特别针对 **DeepSeek V3/R1** MoE 模型进行了优化：
+
 - GPU 间的专家并行
 - MLA（潜在 KV 压缩）——DeepSeek 的变体，通过低秩投影压缩 KV 缓存
 - 为 AMD 和 NVIDIA 调优的 FP8 量化路径
@@ -104,12 +108,14 @@ vLLM 也支持 DeepSeek，但 SGLang 的团队在这方面行动更快。
 ## 何时使用哪种
 
 **使用 SGLang 的情况：**
+
 - 你有很长的共享前缀（系统提示、RAG 上下文、少样本示例）
 - 运行 DeepSeek V3/R1/MLA 模型
 - 需要紧密的结构化输出 / 约束生成
 - 在支持的架构上追求最大吞吐量
 
 **使用 vLLM 的情况：**
+
 - 你需要最大的模型兼容性
 - 运行多样化的工作负载，没有主导的共享前缀
 - 你想要经过更多实战考验的生产路径（更多运营商使用它）

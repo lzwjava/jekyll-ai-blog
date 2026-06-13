@@ -27,6 +27,7 @@ CPU:                       |||WAIT|||      [schedule + write metadata]
 The CPU issues a `cudaMemcpy` or equivalent to read back the sampled token count from GPU memory. This is a **blocking D2H (device-to-host) transfer** — the CPU literally stalls until the GPU flushes that value back across PCIe/NVLink.
 
 In CUDA terms, this is:
+
 ```c
 // Blocking - CPU waits here
 cudaMemcpyAsync(&host_count, device_count, sizeof(int), cudaMemcpyDeviceToHost, stream);
@@ -49,6 +50,7 @@ CPU: [assume max=3, prefetch] --> [metadata already written, no wait]
 The GPU kernel, when it actually executes, has the correct count in its own registers/shared memory. It just **ignores the over-provisioned slots** or corrects the dispatch count internally — no CPU round-trip needed.
 
 In pseudocode:
+
 ```python
 # OLD
 n_traces = gpu_sync_read(sampled_count)  # blocking!

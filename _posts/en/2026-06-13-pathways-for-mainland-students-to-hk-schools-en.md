@@ -38,6 +38,7 @@ All dependants do not require prior permission from the Director of Immigration 
 From end of December 2022 to end of February 2025, around 132,000 unmarried dependent children under age 18 were permitted to come to Hong Kong as dependants under various talent admission schemes. This is a massive number — the talent scheme wave post-2022 brought a whole generation of mainland children into HK schools.
 
 **School options on dependent visa:**
+
 - Government/aided schools (free/subsidized) — highly competitive, requires local address, Cantonese
 - Direct Subsidy Scheme (DSS) schools — semi-private, more flexible
 - International schools — expensive (~HK$100k–200k/year), English medium, easier to get into for non-Cantonese speakers

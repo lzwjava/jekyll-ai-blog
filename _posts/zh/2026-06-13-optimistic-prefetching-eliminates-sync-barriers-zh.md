@@ -27,6 +27,7 @@ CPU:                    |||等待|||      [调度 + 写入元数据]
 CPU 发起 `cudaMemcpy` 或等效操作，从 GPU 内存读取回采样的 token 数量。这是一个 **阻塞的设备到主机（D2H）传输**——CPU 实际上一直等待，直到 GPU 通过 PCIe/NVLink 将该值刷新回来。
 
 在 CUDA 术语中，这表现为：
+
 ```c
 // 阻塞 - CPU 在此等待
 cudaMemcpyAsync(&host_count, device_count, sizeof(int), cudaMemcpyDeviceToHost, stream);
@@ -49,6 +50,7 @@ CPU: [假设 max=3, 预取] --> [元数据已写入，无需等待]
 GPU 内核实际执行时，在其自己的寄存器/共享内存中持有正确的数量。它只需 **忽略过度分配的槽位** 或在内部修正调度计数——无需 CPU 往返。
 
 伪代码如下：
+
 ```python
 # 旧方式
 n_traces = gpu_sync_read(sampled_count)  # 阻塞！

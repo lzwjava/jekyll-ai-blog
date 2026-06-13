@@ -22,6 +22,7 @@ TileLang 是一种 **Python 风格的 DSL，用于编写高性能 GPU/CPU 内核
 ### 它解决的问题
 
 手工编写如 FlashAttention、GEMM 或 MLA 的 CUDA 内核需要处理：
+
 - 手工管理 tile/block/thread 层级
 - 共享内存布局、bank 冲突
 - 异步拷贝、流水线（Hopper 上的 TMA）
@@ -49,6 +50,7 @@ with T.Kernel(T.ceildiv(N, block_N), T.ceildiv(M, block_M), threads=128) as (bx,
 ```
 
 关键原语：
+
 - `T.Kernel(...)` — 网格启动
 - `T.alloc_shared` / `T.alloc_fragment` — 共享内存和寄存器 tile
 - `T.Pipelined(...)` — 带 `num_stages` 的软件流水线
@@ -100,6 +102,7 @@ pip install tilelang
 然后运行 README 中的 GEMM 示例——它应该能在 CUDA 上干净地进行 JIT 编译和基准测试。
 
 对于 AMD Dev Cloud 上的 MI300X：
+
 ```bash
 pip install tilelang -f https://tile-ai.github.io/whl/nightly  # 使用 nightly 版本以获取最新的 ROCm 修复
 ```

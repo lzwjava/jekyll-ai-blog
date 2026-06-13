@@ -22,6 +22,7 @@ TileLang is a **Pythonic DSL for writing high-performance GPU/CPU kernels**, bui
 ### What problem it solves
 
 Writing kernels like FlashAttention, GEMM, or MLA by hand in CUDA requires dealing with:
+
 - tile/block/thread hierarchy manually
 - shared memory layout, bank conflicts
 - async copy, pipelining (TMA on Hopper)
@@ -49,6 +50,7 @@ with T.Kernel(T.ceildiv(N, block_N), T.ceildiv(M, block_M), threads=128) as (bx,
 ```
 
 Key primitives:
+
 - `T.Kernel(...)` — grid launch
 - `T.alloc_shared` / `T.alloc_fragment` — smem and register tiles
 - `T.Pipelined(...)` — software pipelining with `num_stages`
@@ -100,6 +102,7 @@ pip install tilelang
 Then run the GEMM example from the README — it should JIT-compile and benchmark cleanly on CUDA.
 
 For MI300X on AMD Dev Cloud:
+
 ```bash
 pip install tilelang -f https://tile-ai.github.io/whl/nightly  # nightly for latest ROCm fixes
 ```

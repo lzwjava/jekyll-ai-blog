@@ -46,6 +46,7 @@ def multi_turn_qa(s, question):
 ### 2. 后端运行时
 
 关键组件：
+
 - **RadixAttention**——前缀 KV 缓存重用（详情见下文）
 - **分块 prefill（Chunked prefill）**——将 prefill 块与 decode 交错，防止 TTFT 尖峰
 - **零开销 CPU 调度器**——无停顿的连续批处理
@@ -102,6 +103,7 @@ SGLang 通过 prefill-decode 分离，在 96 个 GPU 上实现了 52.3K 输入 t
 SGLang 通过 Mooncake TransferEngine 支持 PD 分离部署模式。SGLang 还引入了 HiCache，它扩展了 RadixAttention（以前仅限于 GPU 内存），增加了分层缓存支持——GPU 内存作为 L1，主机内存作为 L2，分布式存储作为 L3——与 Mooncake 等分布式存储后端集成。
 
 启动方式如下：
+
 ```bash
 # Prefill worker
 python -m sglang.launch_server --model-path deepseek-ai/DeepSeek-V3 \

@@ -50,24 +50,31 @@ Chatbot Arena standing: On Chatbot Arena, Hunyuan TurboS has climbed to the top 
 Tencent presented at GTC 2025 on building a high-performance inference engine for Hunyuan using TensorRT-LLM. From the GitHub and GTC materials, the key optimizations are:
 
 #### 1. **CLA (Cross-Layer Attention) for KV-Cache Compression**
+
 The introduction of a new CLA structure significantly reduces GPU memory usage, achieving 50% savings in the KV-Cache portion, which ensures efficient handling of long text scenarios. This is critical for MoE models at scale — KV cache is often the memory bottleneck at high batch sizes.
 
 #### 2. **FP8 Quantization**
+
 By employing FP8 quantization, they achieve a 50% reduction in memory usage compared to traditional FP16/BF16 quantization, while maintaining precision and resulting in a 70% increase in throughput.
 
 #### 3. **TRT-LLM vs vLLM**
+
 By leveraging the efficient operators at the core of TRT-LLM, the performance of the TRT-LLM solution surpasses that of vLLM by over 30%. TRT-LLM is their production default; they initially open-sourced the vLLM path.
 
 #### 4. **CUDA Graph Optimization**
+
 From the deployment config:
+
 ```yaml
 use_cuda_graph: true
 cuda_graph_padding_enabled: true
 cuda_graph_batch_sizes: [1, 2, 4, 8, 16, 32]
 ```
+
 This eliminates CPU-GPU launch overhead — critical for latency at small batch sizes.
 
 #### 5. **Training Parallelism Stack (AngelPTM / AngelRL)**
+
 On the training side, they comprehensively integrate all model parallelism techniques including Tensor Parallelism (TP), Pipeline Parallelism (PP), Expert Parallelism (EP), Context Parallelism (CP), and sequence concatenation optimization to improve efficiency. The inference framework is called **AngelHCF**.
 
 ---
@@ -93,6 +100,7 @@ Note: as of my search, the term "Hunyuan 3.0" doesn't appear in public docs — 
 ### TL;DR for You
 
 The interesting engineering bets Tencent made:
+
 - **Mamba + MoE hybrid** is the real architectural bet — linear complexity at scale, first real deployment of Mamba in a 100B+ MoE. Worth studying the TurboS paper: [arxiv 2505.15431](https://arxiv.org/abs/2505.15431)
 - **CLA** (Cross-Layer Attention) for KV cache reduction — same direction as GQA/MQA but structurally different
 - **FP8 quantization** as the standard baseline, with FP4 on Blackwell coming
@@ -100,6 +108,7 @@ The interesting engineering bets Tencent made:
 - **AngelHCF** is Tencent's internal inference framework layered on top of TRT-LLM — not fully open-sourced but the GTC 2025 deck covers the architecture
 
 References:
+
 - [Tencent-Hunyuan-Large GitHub](https://github.com/Tencent-Hunyuan/Tencent-Hunyuan-Large)
 - [Hunyuan-TurboS paper (arxiv 2505.15431)](https://arxiv.org/abs/2505.15431)
 - [Hunyuan-TurboS GitHub](https://github.com/Tencent-Hunyuan/Hunyuan-TurboS)

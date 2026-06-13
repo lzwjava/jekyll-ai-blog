@@ -46,6 +46,7 @@ This lets the runtime see the *entire computation graph* ahead of time — enabl
 ### 2. Backend Runtime
 
 Key components:
+
 - **RadixAttention** — prefix KV cache reuse (details below)
 - **Chunked prefill** — interleaves prefill chunks with decode to prevent TTFT spikes
 - **Zero-overhead CPU scheduler** — continuous batching without stalls
@@ -102,6 +103,7 @@ The idea: prefill is compute-bound (matrix-heavy), decode is memory-bandwidth-bo
 SGLang supports PD disaggregation deployment mode through the Mooncake TransferEngine. SGLang also introduces HiCache, which extends RadixAttention (previously limited to GPU memory) by adding hierarchical caching support — GPU memory as L1, host memory as L2, and distributed storage as L3 — integrating with distributed storage backends such as Mooncake.
 
 Launch it like:
+
 ```bash
 # Prefill worker
 python -m sglang.launch_server --model-path deepseek-ai/DeepSeek-V3 \

@@ -32,13 +32,13 @@ Going from 8-bit → 4-bit cuts both in half. Blackwell's tensor cores can do **
 
 **GBDQ = Group-wise Block-wise Dynamic Quantization**
 
-### What it means:
+### What it means
 
 - **Group-wise**: Instead of one global scale factor per tensor, you use one scale per *group* of N weights (e.g. N=128). This is identical to what GPTQ and AWQ do. Finer granularity = less quantization error.
 - **Block-wise**: Applied per transformer block/layer, not globally.
 - **Dynamic**: Quantization parameters (scale, zero-point) are computed per inference step or per calibration batch, not fixed statically.
 
-### The reconstruction loop (key insight):
+### The reconstruction loop (key insight)
 
 ```python
 # Pseudocode for layer-wise reconstruction
@@ -70,7 +70,7 @@ Activating activations is *harder* than weights because:
 - Activations are **dynamic** — they change per input
 - Activations have **outliers**: a few channels spike to 100x the average magnitude
 
-### The outlier problem visualized:
+### The outlier problem visualized
 
 ```
 Channel:  [0,   1,   2,   3,    4,    5  ]
@@ -79,7 +79,7 @@ Value:    [0.1, 0.2, 0.1, 0.3, 89.4, 0.2]  ← channel 4 is an outlier
 
 If you quantize this to INT4 (range -8 to 7), the scale = 89.4/7 ≈ 12.8. Now all small values get mapped to ~0. Massive error.
 
-### SmoothQuant's fix:
+### SmoothQuant's fix
 
 The mathematical identity being exploited:
 

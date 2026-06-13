@@ -102,6 +102,7 @@ class FakeQuantize(torch.autograd.Function):
 ```
 
 During lightweight QAT:
+
 - Weights are full-precision in memory
 - Forward pass uses fake-quantized weights (simulates INT4 noise)
 - Backward pass uses STE to update scales AND weights

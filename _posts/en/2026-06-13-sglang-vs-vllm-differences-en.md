@@ -33,11 +33,13 @@ Both are high-performance LLM inference engines, but they have different design 
 ### 1. KV Cache Management
 
 **vLLM — PagedAttention:**
+
 - Splits KV cache into fixed-size pages (like virtual memory)
 - Eliminates KV cache fragmentation
 - Allows sharing pages across parallel sequences (beam search, speculative decoding)
 
 **SGLang — RadixAttention:**
+
 - Organizes KV cache as a **radix tree** (trie over token sequences)
 - Automatically reuses KV cache across requests that share a common prefix
 - Critical win: multi-turn chat, RAG with shared system prompts, few-shot prompting — all get prefix reuse for free
@@ -75,12 +77,14 @@ Both support continuous batching, but:
 ### 4. Multi-modal & Architecture Support
 
 As of mid-2025:
+
 - **vLLM** has broader model support (more HuggingFace models work out-of-box)
 - **SGLang** tends to be faster on supported models (LLaMA, Mistral, Qwen, DeepSeek) and has very strong **DeepSeek MLA (Multi-head Latent Attention)** support — relevant to you given your DeepSeek usage
 
 ### 5. MoE / DeepSeek Support
 
 SGLang specifically optimized for **DeepSeek V3/R1** MoE models:
+
 - Expert parallelism across GPUs
 - MLA (latent KV compression) — DeepSeek's variant that compresses KV cache via low-rank projection
 - FP8 quantization path tuned for AMD and NVIDIA
@@ -104,12 +108,14 @@ vLLM also supports DeepSeek but SGLang's team has been faster here.
 ## When to Use Which
 
 **Use SGLang when:**
+
 - You have long shared prefixes (system prompts, RAG context, few-shot examples)
 - Running DeepSeek V3/R1/MLA models
 - Need tight structured output / constrained generation
 - Chasing maximum throughput on supported architectures
 
 **Use vLLM when:**
+
 - You need maximum model compatibility
 - Running diverse workloads without a dominant shared prefix
 - You want the more battle-tested production path (more operators use it)

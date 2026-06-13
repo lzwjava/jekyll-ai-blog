@@ -27,13 +27,11 @@ The core work is researching and developing techniques to **GPU-accelerate leadi
 
 More specifically, the team:
 
-
 - Engages directly with domain experts to understand problems at the frontier
 - Guides key application developers and contributes directly to those applications
 - Creates and optimizes core parallel algorithms and data structures
 - Joins efforts with architecture, research, libraries, tools, and system software teams
 - **Influences the design of next-generation architectures**, software stacks, and programming models
-
 
 ## Why It Matters for You
 

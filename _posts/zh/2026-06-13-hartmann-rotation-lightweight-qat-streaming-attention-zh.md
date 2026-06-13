@@ -102,6 +102,7 @@ class FakeQuantize(torch.autograd.Function):
 ```
 
 在轻量级 QAT 过程中：
+
 - 权重在内存中保持全精度
 - 前向传播使用伪量化后的权重（模拟 INT4 噪声）
 - 反向传播使用 STE 同时更新尺度和权重

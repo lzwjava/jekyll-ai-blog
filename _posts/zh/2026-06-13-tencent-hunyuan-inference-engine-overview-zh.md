@@ -50,24 +50,31 @@ Chatbot Arena 排名：在 Chatbot Arena 上，Hunyuan TurboS 已跻身全球前
 腾讯在 GTC 2025 上介绍了使用 TensorRT-LLM 为混元构建高性能推理引擎的方案。根据 GitHub 和 GTC 资料，关键优化包括：
 
 #### 1. **CLA（跨层注意力）实现 KV-Cache 压缩**
+
 引入新的 CLA 结构显著降低了 GPU 内存使用，KV-Cache 部分节省达 50%，从而确保高效处理长文本场景。这对大规模 MoE 模型至关重要——在高批处理量下，KV cache 往往是内存瓶颈。
 
 #### 2. **FP8 量化**
+
 采用 FP8 量化，相比传统的 FP16/BF16 量化，内存使用减少 50%，同时保持精度，吞吐量提升 70%。
 
 #### 3. **TRT-LLM 对比 vLLM**
+
 通过利用 TRT-LLM 核心的高效算子，TRT-LLM 方案的性能超过 vLLM 30% 以上。TRT-LLM 是他们的生产环境默认方案；他们最初开源了 vLLM 路径。
 
 #### 4. **CUDA Graph 优化**
+
 从部署配置来看：
+
 ```yaml
 use_cuda_graph: true
 cuda_graph_padding_enabled: true
 cuda_graph_batch_sizes: [1, 2, 4, 8, 16, 32]
 ```
+
 这消除了 CPU-GPU 启动开销——对于小批处理量下的延迟至关重要。
 
 #### 5. **训练并行技术栈（AngelPTM / AngelRL）**
+
 在训练方面，他们全面集成了所有模型并行技术，包括张量并行（TP）、流水线并行（PP）、专家并行（EP）、上下文并行（CP）以及序列拼接优化，以提升效率。推理框架称为 **AngelHCF**。
 
 ---
@@ -93,6 +100,7 @@ Blackwell FP4 支持是下一个前沿。Blackwell 架构支持高级精度模�
 ### 给你的总结
 
 腾讯做出的有趣工程选择：
+
 - **Mamba + MoE 混合**是真正的架构押注——大规模下的线性复杂度，Mamba 在 100B+ MoE 中的首次实际部署。值得研读 TurboS 论文：[arxiv 2505.15431](https://arxiv.org/abs/2505.15431)
 - **CLA（跨层注意力）**用于 KV cache 缩减——与 GQA/MQA 方向相同但结构不同
 - **FP8 量化**作为标准基线，Blackwell 上即将推出 FP4
@@ -100,6 +108,7 @@ Blackwell FP4 支持是下一个前沿。Blackwell 架构支持高级精度模�
 - **AngelHCF** 是腾讯在 TRT-LLM 之上构建的内部推理框架——尚未完全开源，但 GTC 2025 的演示文稿涵盖了其架构
 
 参考文献：
+
 - [Tencent-Hunyuan-Large GitHub](https://github.com/Tencent-Hunyuan/Tencent-Hunyuan-Large)
 - [Hunyuan-TurboS 论文 (arxiv 2505.15431)](https://arxiv.org/abs/2505.15431)
 - [Hunyuan-TurboS GitHub](https://github.com/Tencent-Hunyuan/Hunyuan-TurboS)

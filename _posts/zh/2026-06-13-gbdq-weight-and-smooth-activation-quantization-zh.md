@@ -21,8 +21,8 @@ type: note
 
 Transformer在推理时的显存成本主要来自两部分：
 
-1.  **权重**——例如，一个参数为70B的BF16模型约需140GB
-2.  **KV缓存**——随`batch_size × seq_len × num_heads × head_dim × 2 (K+V)`线性增长
+1. **权重**——例如，一个参数为70B的BF16模型约需140GB
+2. **KV缓存**——随`batch_size × seq_len × num_heads × head_dim × 2 (K+V)`线性增长
 
 从8位降到4位，两者都能减半。Blackwell的张量核心可以执行**原生FP4矩阵乘法**，因此你不仅能节省显存，还能获得计算吞吐量的提升。
 
@@ -32,13 +32,13 @@ Transformer在推理时的显存成本主要来自两部分：
 
 **GBDQ = 分组分块动态量化**
 
-### 含义：
+### 含义
 
--   **分组量化**：不是为整个张量使用一个全局缩放因子，而是为每*组*N个权重（例如N=128）使用一个缩放因子。这与GPTQ和AWQ的做法相同。粒度更细 = 量化误差更小。
--   **分块量化**：按每个Transformer块/层应用，而非全局应用。
--   **动态量化**：量化参数（缩放因子、零点）在每次推理步骤或每个校准批次中计算，而非静态固定。
+- **分组量化**：不是为整个张量使用一个全局缩放因子，而是为每*组*N个权重（例如N=128）使用一个缩放因子。这与GPTQ和AWQ的做法相同。粒度更细 = 量化误差更小。
+- **分块量化**：按每个Transformer块/层应用，而非全局应用。
+- **动态量化**：量化参数（缩放因子、零点）在每次推理步骤或每个校准批次中计算，而非静态固定。
 
-### 重建循环（关键洞见）：
+### 重建循环（关键洞见）
 
 ```python
 # 逐层重建的伪代码
@@ -66,11 +66,11 @@ for layer in model.layers:
 
 激活值的量化比权重*更难*，因为：
 
--   权重是静态的——你可以离线校准。
--   激活值是**动态的**——它们随每个输入而变化。
--   激活值存在**异常值**：少数通道的数值会达到平均值的100倍。
+- 权重是静态的——你可以离线校准。
+- 激活值是**动态的**——它们随每个输入而变化。
+- 激活值存在**异常值**：少数通道的数值会达到平均值的100倍。
 
-### 异常值问题可视化：
+### 异常值问题可视化
 
 ```
 通道：  [0,   1,   2,   3,    4,    5  ]
@@ -79,7 +79,7 @@ for layer in model.layers:
 
 如果你将其量化为INT4（范围-8到7），缩放因子 = 89.4/7 ≈ 12.8。现在所有的小值都会被映射到约等于0。造成巨大误差。
 
-### SmoothQuant的解决方案：
+### SmoothQuant的解决方案
 
 利用的数学恒等式：
 
@@ -146,12 +146,12 @@ GBDQ听起来像是GPTQ + AWQ思想的内部变体，采用分块方式应用并
 
 ## 总结
 
--   **GBDQ**：将权重量化为4位，然后每层运行一个校准循环以最小化重建误差。防止量化误差在深度方向上累积。
--   **Smooth Quantization**：通过逐通道缩放因子，将激活值的异常值数学上迁移到权重中，使得两者都可以量化为4位而不会损失精度。
--   **共同作用**：在Blackwell的FP4张量核心上实现完整的W4A4（4位权重，4位激活值）→ 约2-4倍显存节省，显著提升吞吐量。
+- **GBDQ**：将权重量化为4位，然后每层运行一个校准循环以最小化重建误差。防止量化误差在深度方向上累积。
+- **Smooth Quantization**：通过逐通道缩放因子，将激活值的异常值数学上迁移到权重中，使得两者都可以量化为4位而不会损失精度。
+- **共同作用**：在Blackwell的FP4张量核心上实现完整的W4A4（4位权重，4位激活值）→ 约2-4倍显存节省，显著提升吞吐量。
 
 **参考文献：**
 
--   [SmoothQuant: Accurate and Efficient Post-Training Quantization for LLMs](https://arxiv.org/abs/2211.10438)
--   [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323)
--   [AWQ: Activation-aware Weight Quantization](https://arxiv.org/abs/2306.00978)
+- [SmoothQuant: Accurate and Efficient Post-Training Quantization for LLMs](https://arxiv.org/abs/2211.10438)
+- [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323)
+- [AWQ: Activation-aware Weight Quantization](https://arxiv.org/abs/2306.00978)
