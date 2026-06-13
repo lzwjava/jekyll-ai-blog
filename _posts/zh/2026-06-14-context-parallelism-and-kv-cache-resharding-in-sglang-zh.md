@@ -26,6 +26,7 @@ type: note
 SGLang 一直在积极添加 CP 支持。该讲座描述了 **三个阶段**：
 
 ### 阶段 1：纯 TP（基准）
+
 ```
 GPU0: 完整 KV, heads 0..H/8
 GPU1: 完整 KV, heads H/8..H/4
@@ -34,6 +35,7 @@ GPU1: 完整 KV, heads H/8..H/4
 ```
 
 ### 阶段 2：CP=8 且使用 All-gather（当前 SGLang 模式）
+
 ```python
 # 概念上 SGLang 当前的做法：
 # 序列分割：rank0 拥有 tokens [0, seq_len//8)
@@ -89,6 +91,7 @@ python/sglang/srt/distributed/
 ```
 
 SGLang 中的 CP 组初始化遵循 Megatron 风格：
+
 ```python
 # parallel_state.py
 def initialize_model_parallel(
@@ -168,6 +171,7 @@ python -m sglang.launch_server \
 ```
 
 重分片的 PR 可能正在 SGLang 中进行中——值得关注：
+
 - [github.com/sgl-project/sglang](https://github.com/sgl-project/sglang) — 在最近的 PR 中搜索 `context_parallel` 或 `cp_size`
 
 ---

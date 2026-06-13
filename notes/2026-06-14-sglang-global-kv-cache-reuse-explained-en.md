@@ -41,6 +41,7 @@ Root
 ```
 
 Each node stores:
+
 - Token IDs for this prefix segment
 - Pointer to KV pages
 - Reference count (prevent eviction while in use)
@@ -59,6 +60,7 @@ class KVPage:
 ```
 
 Now the Radix Tree becomes a **global index** — every rank can see the full tree and knows:
+
 - Which pages are local (cp_owner == self.rank)
 - Which pages are remote (cp_owner != self.rank, but fetchable via NVLink/RDMA)
 
@@ -102,6 +104,7 @@ if global_min_free < required:
 ```
 
 Then allocation logic has 3 cases:
+
 ```
 1. Local cache hit    → no-op, reuse directly
 2. Remote cache hit   → allocate local pages, pull KV from remote rank
@@ -109,6 +112,7 @@ Then allocation logic has 3 cases:
 ```
 
 The key insight: **this operates at Page abstraction level**, so it's agnostic to:
+
 - Model architecture (MLA, GQA, MHA all just produce KV pages)
 - Data types (BF16, FP8, FP4 — just affects page size)
 - Attention variants (DeepSeek MLA's compressed KV still pages the same way)
@@ -125,6 +129,7 @@ The key insight: **this operates at Page abstraction level**, so it's agnostic t
 | 2-node, 16xH100, 32K seq | 764ms | Weak scaling, not ideal |
 
 Why CP=2 + EP=4 wins:
+
 1. **CP reduces attention communication** — each rank handles half the sequence, so attention all-to-all is smaller
 2. **EP=4 (smaller expert parallelism)** — MoE load imbalance gets worse with more EP ranks; EP=4 distributes experts with less skew
 
@@ -149,6 +154,7 @@ Results (TP=4, varying CP):
 | Throughput at 16K | -21% (80% from KV all-gather, 20% scheduler) |
 
 The 16K breakdown is important:
+
 - **80% of the 21% loss** = KV all-gather latency → **fully eliminatable via compute-communication overlap**
 - **20% of the 21% loss** = scheduler CPU overhead → fixable via CPU optimization + async scheduler
 

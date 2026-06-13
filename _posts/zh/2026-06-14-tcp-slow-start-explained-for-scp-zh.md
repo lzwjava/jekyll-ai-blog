@@ -26,6 +26,7 @@ cwnd（拥塞窗口）从约 10 个段（约 14 KB）开始
 ```
 
 你的传输时间线：
+
 ```
 t=0s:   cwnd=14KB   → 可见速度约 300 KB/s
 t=0.5s: cwnd=112KB  → 约 2 MB/s
@@ -64,6 +65,7 @@ nc 192.168.x.x 9999 > junhong.m4a
 ```
 
 或者调整 SSH 套接字缓冲区：
+
 ```bash
 scp -o "IPQoS=throughput" ~/Downloads/junhong.m4a lzw@192.168.x.x:~/
 ```

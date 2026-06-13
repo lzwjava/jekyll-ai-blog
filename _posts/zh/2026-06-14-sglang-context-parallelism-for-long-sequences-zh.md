@@ -52,6 +52,7 @@ type: note
 ```
 
 从混乱的 OCR/转录中解码的关键术语：
+
 - **"Td4"** → TP 度数为 4（4 个张量并行工作进程）
 - **"PVit Cache / TdCache"** → RadixCache（SGLang 的带树结构的前缀感知 KV 缓存）
 - **"Batch Scanner"** → BatchScheduler / 连续批处理循环
@@ -83,6 +84,7 @@ type: note
 ## 总结
 
 该文本是一个技术演讲的介绍，解释了：
+
 1. 序列长度扩展 → KV 缓存和注意力计算爆炸
 2. 仅靠 TP 无法解决，尤其在有 GQA/MLA 的情况下
 3. SGLang 当前架构（ZMQ → 运行时 → TP 工作进程 → RadixCache）

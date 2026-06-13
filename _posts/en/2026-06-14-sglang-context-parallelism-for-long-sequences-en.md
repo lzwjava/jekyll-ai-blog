@@ -52,6 +52,7 @@ Client HTTP Request
 ```
 
 Key terms decoded from the garbled OCR/transcript:
+
 - **"Td4"** → TP degree 4 (4 tensor-parallel workers)
 - **"PVit Cache / TdCache"** → RadixCache (SGLang's prefix-aware KV cache with tree structure)
 - **"Batch Scanner"** → BatchScheduler / continuous batching loop
@@ -83,6 +84,7 @@ This is **Ring Attention** — the standard CP primitive. SGLang's implementatio
 ## Bottom Line
 
 The text is a technical talk intro explaining:
+
 1. Sequence length scaling → KV cache and attention compute blow up
 2. TP alone can't solve it, especially with GQA/MLA
 3. SGLang's current architecture (ZMQ → Runtime → TP workers → RadixCache)

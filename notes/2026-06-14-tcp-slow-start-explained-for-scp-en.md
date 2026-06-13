@@ -26,6 +26,7 @@ Until cwnd hits ssthresh (slow start threshold) → switches to linear growth
 ```
 
 Timeline for your transfer:
+
 ```
 t=0s:   cwnd=14KB   → ~300 KB/s visible
 t=0.5s: cwnd=112KB  → ~2 MB/s
@@ -64,6 +65,7 @@ nc 192.168.x.x 9999 > junhong.m4a
 ```
 
 Or tune SSH socket buffer:
+
 ```bash
 scp -o "IPQoS=throughput" ~/Downloads/junhong.m4a lzw@192.168.x.x:~/
 ```

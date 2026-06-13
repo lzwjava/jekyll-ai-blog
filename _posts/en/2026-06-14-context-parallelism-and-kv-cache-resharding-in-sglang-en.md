@@ -26,6 +26,7 @@ This is describing **Context Parallelism (CP)** — a parallelism strategy for *
 SGLang has been actively adding CP support. The talk describes **three stages**:
 
 ### Stage 1: Pure TP (baseline)
+
 ```
 GPU0: full KV, heads 0..H/8
 GPU1: full KV, heads H/8..H/4
@@ -34,6 +35,7 @@ GPU1: full KV, heads H/8..H/4
 ```
 
 ### Stage 2: CP=8 with All-gather (current SGLang mode mentioned)
+
 ```python
 # Conceptually what SGLang does today:
 # Sequence split: rank0 gets tokens [0, seq_len//8)
@@ -89,6 +91,7 @@ python/sglang/srt/distributed/
 ```
 
 CP group init in SGLang follows Megatron-style:
+
 ```python
 # parallel_state.py
 def initialize_model_parallel(
@@ -168,6 +171,7 @@ python -m sglang.launch_server \
 ```
 
 The resharding PR is likely in progress in SGLang — worth watching:
+
 - [github.com/sgl-project/sglang](https://github.com/sgl-project/sglang) — search for `context_parallel` or `cp_size` in recent PRs
 
 ---
