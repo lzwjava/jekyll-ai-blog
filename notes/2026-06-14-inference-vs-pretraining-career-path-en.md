@@ -67,12 +67,14 @@ Given your setup (RTX 4070, MI300X access, already training GPT-2 scale):
 **Do inference first as your daily driver, pretraining as your weekend project.**
 
 Inference gives you:
+
 - Fast experiments (ship a custom vLLM scheduler in a day)
 - Directly applicable at your bank job (serving, latency, cost optimization)
 - Skills that transfer to building agents/tools (your `ww`, `zz`, `iclaw` tools)
 - A path to contributing to vLLM/SGLang (both are very active OSS, well-funded)
 
 Pretraining gives you:
+
 - Deep understanding of loss landscapes, data pipelines, tokenization
 - But requires scale to see interesting results — GPT-2 760M is the floor
 

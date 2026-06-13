@@ -53,6 +53,7 @@ def transformer_block(x, W_qkv, W_o, W_ff1, W_ff2, W_ln1, W_ln2):
 ```
 
 **Key shapes to memorize:**
+
 ```
 Input:        [B, S, D]          B=batch, S=seqlen, D=model_dim
 Q/K/V:        [B, H, S, D//H]   H=heads
@@ -60,6 +61,7 @@ KV cache:     [L, 2, B, H, S, D//H]   L=layers, 2=(K,V)
 ```
 
 **Resources:**
+
 - `nanoGPT/model.py` — Karpathy's cleanest reference
 - Annotated Transformer (Harvard NLP)
 
@@ -88,6 +90,7 @@ per_token = 2 * 32 * 8 * 128 * 2  # = 131072 bytes = 128 KB per token
 ```
 
 **What to understand deeply:**
+
 - Why decode is memory-bandwidth-bound: each token reads entire KV cache once
 - GQA (Grouped Query Attention) — Llama 2/3 uses it, reduces KV cache by `n_heads/n_kv_heads`
 - MLA (Multi-head Latent Attention) — DeepSeek's approach, compress KV into latent vectors
@@ -116,6 +119,7 @@ def dequantize(W_int, scale):
 ```
 
 **Ladder to climb:**
+
 1. **GGUF/llama.cpp** — start here, k-quants (Q4_K_M, Q5_K_S), easy to experiment
 2. **GPTQ** — layer-wise quantization with calibration data
 3. **AWQ** (Activation-aware Weight Quantization) — protect salient weights
@@ -160,6 +164,7 @@ class Scheduler:
 ```
 
 **Read this code:**
+
 ```bash
 git clone https://github.com/vllm-project/vllm
 cat vllm/core/scheduler.py     # continuous batching
@@ -305,6 +310,7 @@ Week 8:     Speculative decoding
 ## Your Unfair Advantage
 
 You have MI300X with 192GB HBM3. Most inference researchers don't have that. Use it to:
+
 - Run 70B models unquantized and profile memory bandwidth utilization
 - Benchmark ROCm vs CUDA kernels (vLLM supports both)
 - Experiment with batch sizes that don't fit on consumer GPUs

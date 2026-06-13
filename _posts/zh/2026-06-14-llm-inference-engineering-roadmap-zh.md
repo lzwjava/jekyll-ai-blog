@@ -53,6 +53,7 @@ def transformer_block(x, W_qkv, W_o, W_ff1, W_ff2, W_ln1, W_ln2):
 ```
 
 **需要牢记的关键形状：**
+
 ```
 输入:        [B, S, D]          B=批量大小, S=序列长度, D=模型维度
 Q/K/V:        [B, H, S, D//H]   H=注意力头数
@@ -60,6 +61,7 @@ KV 缓存:     [L, 2, B, H, S, D//H]   L=层数, 2=(K,V)
 ```
 
 **资源：**
+
 - `nanoGPT/model.py` — Karpathy 最简洁的参考
 - Annotated Transformer (Harvard NLP)
 
@@ -88,6 +90,7 @@ per_token = 2 * 32 * 8 * 128 * 2  # = 131072 bytes = 每个 token 128 KB
 ```
 
 **需要深入理解的内容：**
+
 - 为什么解码是内存带宽密集型：每个 token 需要读取整个 KV 缓存一次
 - GQA（分组查询注意力）— Llama 2/3 使用，将 KV 缓存减少为 `n_heads/n_kv_heads`
 - MLA（多头潜在注意力）— DeepSeek 的方法，将 KV 压缩为潜在向量
@@ -116,6 +119,7 @@ def dequantize(W_int, scale):
 ```
 
 **学习路径阶梯：**
+
 1. **GGUF/llama.cpp** — 从这里开始，k-quants (Q4_K_M, Q5_K_S)，易于实验
 2. **GPTQ** — 使用校准数据进行逐层量化
 3. **AWQ**（激活感知权重量化）— 保护重要的权重
@@ -160,6 +164,7 @@ class Scheduler:
 ```
 
 **阅读以下代码：**
+
 ```bash
 git clone https://github.com/vllm-project/vllm
 cat vllm/core/scheduler.py     # 连续批处理
@@ -305,6 +310,7 @@ llm = LLM("meta-llama/Llama-3-70b", tensor_parallel_size=4)
 ## 你的独特优势
 
 你拥有 192GB HBM3 的 MI300X。大多数推理研究人员都没有这个条件。利用它来：
+
 - 运行未量化的 70B 模型并分析内存带宽利用率
 - 基准测试 ROCm 与 CUDA 内核（vLLM 都支持）
 - 实验在消费级 GPU 上放不下的批量大小
