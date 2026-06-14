@@ -136,6 +136,7 @@ class SparseMoE(nn.Module):
 **按顺序的项目：**
 
 **a) 从头实现 KV Cache**——在你的 nanoGPT 中实现：
+
 ```python
 # 在生成过程中，缓存 K 和 V 而不是重新计算
 past_kv = []  # 每层的 (k, v) 列表

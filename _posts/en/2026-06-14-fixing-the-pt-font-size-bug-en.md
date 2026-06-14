@@ -34,6 +34,7 @@ When we moved to `-V header-includes=\renewcommand{...}\n\usepackage{titlesec}\n
 Even once `\normalsize` was correctly set to 48pt, LaTeX's `\section` command uses its own hardcoded size formula (e.g., `\Large`, `\large`) that doesn't reference `\normalsize`. So headings stayed at the class default while body text grew.
 
 **Fix**: Add `\usepackage{titlesec}` and explicit `\titleformat` commands:
+
 ```
 \titleformat{\section}{\bfseries\fontsize{62}{74}\selectfont}{}{}{}
 \titleformat{\subsection}{\bfseries\fontsize{55}{66}\selectfont}{}{}{}
@@ -43,6 +44,7 @@ Even once `\normalsize` was correctly set to 48pt, LaTeX's `\section` command us
 **Bug 4 (the final, hardest one): `setspace` package's `\setstretch` overrides `\normalsize`**
 
 This was the most insidious bug. The original code used `-V linestretch=1.5` to set line spacing. Pandoc's template generates:
+
 ```latex
 % In preamble:
 \usepackage{setspace}
@@ -77,6 +79,7 @@ Step 5 silently undid everything. We confirmed this by compiling a minimal .tex 
 ### Files changed
 
 `~/projects/ww/ww/pdf/pdf_base.py` — the `text_to_pdf_from_markdown()` function. Key changes:
+
 - Removed `-V classoption={pt}pt` (didn't work)
 - Removed `-V header-includes=...` (collapsed newlines)
 - Removed `-V linestretch=1.5` (overrode normalsize)

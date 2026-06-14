@@ -34,6 +34,7 @@ CLI 中确实存在 `--pt` 选项，但对实际的 PDF 输出没有任何影响
 即使 `\normalsize` 已正确设置为 48pt，LaTeX 的 `\section` 命令仍使用其自身硬编码的字号公式（如 `\Large`、`\large`），这些公式并不引用 `\normalsize`。因此，当正文文本变大时，标题仍保持类的默认值。
 
 **修复**：添加 `\usepackage{titlesec}` 和显式的 `\titleformat` 命令：
+
 ```
 \titleformat{\section}{\bfseries\fontsize{62}{74}\selectfont}{}{}{}
 \titleformat{\subsection}{\bfseries\fontsize{55}{66}\selectfont}{}{}{}
@@ -43,6 +44,7 @@ CLI 中确实存在 `--pt` 选项，但对实际的 PDF 输出没有任何影响
 **Bug 4（最终、最难的那个）：`setspace` 包的 `\setstretch` 覆盖了 `\normalsize`**
 
 这是最隐蔽的 bug。原始代码使用 `-V linestretch=1.5` 设置行间距。Pandoc 的模板生成：
+
 ```latex
 % 在导言区：
 \usepackage{setspace}
@@ -77,6 +79,7 @@ CLI 中确实存在 `--pt` 选项，但对实际的 PDF 输出没有任何影响
 ### 修改的文件
 
 `~/projects/ww/ww/pdf/pdf_base.py`——`text_to_pdf_from_markdown()` 函数。关键更改：
+
 - 移除 `-V classoption={pt}pt`（无效）
 - 移除 `-V header-includes=...`（折叠换行符）
 - 移除 `-V linestretch=1.5`（覆盖了 normalsize）

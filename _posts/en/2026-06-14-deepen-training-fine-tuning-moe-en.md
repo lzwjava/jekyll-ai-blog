@@ -136,6 +136,7 @@ Your profile is pretraining-heavy. Inference optimization is where the real prod
 **Projects in order:**
 
 **a) KV Cache from scratch** — implement in your nanoGPT:
+
 ```python
 # During generation, cache K and V instead of recomputing
 past_kv = []  # list of (k, v) per layer
