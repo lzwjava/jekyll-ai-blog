@@ -106,6 +106,12 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+      - id: liquid-syntax-check
+        name: Liquid syntax check
+        entry: python3 -m unittest tests.workflow.test_liquid_syntax -v
+        language: system
+        pass_filenames: false
+        always_run: true
       # - id: unit-tests
       #   name: Unit tests
       #   entry: python3 -m unittest discover -s tests/workflow -q
