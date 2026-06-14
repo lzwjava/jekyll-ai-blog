@@ -18,12 +18,14 @@ Now I see the full picture. Here's the analysis:
 **1. The REAL data about 李智维 exists in your blog — but it's NOT a biography.**
 
 Your blog posts about Zhiwei Li are:
+
 - "AI Engineer Titles for Zhiwei Li" — bio line polishing
 - "李智维的未来生活路线图" — career roadmap advice
 - "打造更佳个人简介" — bio writing tips
 - "为新加坡人脉添加客家话至领英" — LinkedIn Hakka strategy
 
 These are all Q&A-style career coaching posts. The actual facts scattered across them:
+
 - AI engineer, exploring code/life/LLMs
 - Works at TEKsystems/HSBC
 - ~13/18 courses done for associate degree
@@ -34,6 +36,7 @@ These are all Q&A-style career coaching posts. The actual facts scattered across
 **2. The model never learned "Who is Zhiwei Li?" as a question.**
 
 Your training format is title→body:
+
 ```
 user: "AI Engineer Titles for Zhiwei Li"
 assistant: <the full blog post about polishing bio lines>
@@ -54,6 +57,7 @@ The URLs it cited (知乎, 王垠's blog, 36kr, Wikipedia) look plausible but th
 **Root cause:** SFT on title→body pairs teaches the model to generate blog content from titles. It does NOT teach it to answer factual questions about people mentioned in the blog. The model falls back to base model knowledge when the question format doesn't match training distribution.
 
 **Possible fixes:**
+
 - Add actual Q&A pairs about biographical facts to the training data
 - Use chat-format SFT with system prompts like "You are Zhiwei Li's personal AI assistant"
 - Add a "Who is X?" → factual answer training format alongside the title→body format
