@@ -12,6 +12,7 @@ type: note
 ## Tailscale SSH Slowness — Full Diagnosis
 
 ### Network Topology
+
 ```
 Mac (<IP_ADDRESS>)              →  (<IP_ADDRESS>) to
 Parents' home, Guangzhou             Your home, Zengcheng
@@ -21,24 +22,32 @@ Router: TL-WR886N (UPnP ✓)          Router: <IP_ADDRESS> (OpenWrt/LuCI, UPnP �
 ```
 
 ### Root Cause
+
 Tailscale was using **DERP relay** instead of direct connection:
+
 ```
 Mac → DERP(sin) Singapore → to     ~500ms RTT → 5-6s SSH
 Mac → DERP(lax) Los Angeles → to   ~350ms RTT → 5-6s SSH
 ```
+
 Both machines are behind NAT, but a direct path IS possible because:
+
 - `to` has **cone NAT** (`MappingVariesByDestIP: false`) — STUN discovers a stable endpoint
 - Mac's parents' router has **UPnP** — Tailscale can open a port
 
 Tailscale wasn't discovering this direct path on its own — it settled on DERP before completing peer probing.
 
 ### Fix Applied
+
 Ran `tailscale ping --until-direct` to force Tailscale to keep probing until it found the direct path:
+
 ```
 Before:  via DERP(sin/lax)   343-721ms per packet   SSH 5-6s
 After:   via direct <IP_ADDRESS>:<PORT>   76ms        SSH 1.9s
 ```
+
 Current status:
+
 ```
 <IP_ADDRESS>   to   active; direct <IP_ADDRESS>:<PORT>
 ```
@@ -56,6 +65,7 @@ Current status:
 The direct path works because `to`'s cone NAT keeps its port mapped consistently, and Mac can send UDP to it. Tailscale's discovery timing was giving up before finding this.
 
 ### SSH Config Notes
+
 Your SSH config has `lzw-to` with `ProxyCommand none` — correct. The catch-all `Host !192.168.*.*` routes through SOCKS5 proxy (`localhost:7891` → hysteria2 → LA). This doesn't affect Tailscale traffic (the daemon uses its own tunnel), but prefer `ssh lzw-to` over `ssh lzw@<IP_ADDRESS>` to be explicit.
 
 ### Recommended Permanent Fixes
@@ -63,6 +73,7 @@ Your SSH config has `lzw-to` with `ProxyCommand none` — correct. The catch-all
 1. **Forward UDP 41641 on home router** (LuCI → `<IP_ADDRESS>`) — makes `to` always reachable inbound, direct connection establishes immediately without DERP fallback.
 
 2. **Periodic re-probe on Mac** — if you don't want to touch the router:
+
    ```bash
    */10 * * * * tailscale ping -c 1 --until-direct <TAILSCALE_IP> > /dev/null 2>&1
    ```

@@ -12,6 +12,7 @@ type: note
 ## Result: SSH Latency 5–6s → 1.9s
 
 ### What Changed
+
 Tailscale switched from DERP relay to a **direct peer-to-peer connection**:
 
 ```
@@ -20,7 +21,9 @@ After:   Mac → direct <IP_ADDRESS>:<PORT> → to     76ms RTT  → 1.9s SSH
 ```
 
 ### Root Cause
+
 Both sides actually *support* direct connection:
+
 - `to` machine has **cone NAT** (`MappingVariesByDestIP: false`) — mappings are stable
 - Mac's parents' router has **UPnP enabled** — port mapping works
 
@@ -31,6 +34,7 @@ But Tailscale was giving up on NAT traversal probing too early and falling back 
 Two options:
 
 **Option 1 — Periodic re-probe (quick fix)**
+
 ```bash
 # cron on Mac: re-establish direct every 10 min if it drops
 */10 * * * * tailscale ping --until-direct <TAILSCALE_HOSTNAME>

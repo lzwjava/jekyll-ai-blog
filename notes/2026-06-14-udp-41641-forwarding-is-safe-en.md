@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-## Short Answer: Minimal risk, well-contained.
+## Short Answer: Minimal risk, well-contained
 
 ### What You're Exposing
 

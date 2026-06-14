@@ -26,6 +26,7 @@ Normal peristalsis pushes food down via coordinated smooth muscle contraction. B
 **The Vomiting Center (Area Postrema)**
 
 Located in the medulla, this integrates signals from:
+
 - Vagal afferents (gut distension/irritation)
 - Vestibular system
 - Chemoreceptor trigger zone (CTZ) — detects toxins in blood

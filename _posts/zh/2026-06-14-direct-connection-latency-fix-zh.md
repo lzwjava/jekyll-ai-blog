@@ -12,6 +12,7 @@ type: note
 ## 结果：SSH 延迟从 5–6 秒降至 1.9 秒
 
 ### 变更内容
+
 Tailscale 从 DERP 中继切换为 **直接点对点连接**：
 
 ```
@@ -20,7 +21,9 @@ Tailscale 从 DERP 中继切换为 **直接点对点连接**：
 ```
 
 ### 根本原因
+
 两端实际上都 *支持* 直接连接：
+
 - `目标机` 具有 **锥形 NAT**（`MappingVariesByDestIP: false`）—— 映射关系稳定
 - Mac 所在的路由器（父母家）**已启用 UPnP** —— 端口映射正常工作
 
@@ -31,6 +34,7 @@ Tailscale 从 DERP 中继切换为 **直接点对点连接**：
 两种方案：
 
 **方案 1 — 定期重新探测（快速修复）**
+
 ```bash
 # Mac 上的 cron 任务：每 10 分钟重新建立直连（若断开）
 */10 * * * * tailscale ping --until-direct <TAILSCALE_HOSTNAME>
