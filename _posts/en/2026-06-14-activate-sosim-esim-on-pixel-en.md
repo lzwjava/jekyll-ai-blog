@@ -38,15 +38,16 @@ Toggle Wi-Fi off, confirm you have a data signal via SoSIM.
 
 ## 5. Complete real-name registration (required for HK service)
 
-Go to **https://www.sosimhk.com/rnr/en** and complete the registration — this is mandatory before the HK portion activates.
+Go to **<https://www.sosimhk.com/rnr/en>** and complete the registration — this is mandatory before the HK portion activates.
 
 ## 6. Switch to your target package (within 48 hours)
 
-Log into **https://sosimhk.com/dash/en** and switch to the **[Ai Travel] 10GB Greater China 365-Day** package within 48 hours of activation.
+Log into **<https://sosimhk.com/dash/en>** and switch to the **[Ai Travel] 10GB Greater China 365-Day** package within 48 hours of activation.
 
 ---
 
 **Pixel-specific notes:**
+
 - Pixel 3a and later all support eSIM natively — no physical tray needed
 - If QR scan fails, some carriers offer a manual activation code — check SoSIM support for a manual entry option
 - Dual SIM (nano + eSIM) works on most Pixels, so you can keep your existing SIM active simultaneously

@@ -19,7 +19,7 @@ type: note
 
 在双卡Pixel（物理SIM卡+eSIM）上，手机会根据处理消息的SIM卡/运营商来标注MMS/短信。如果SoSIM是你激活的eSIM档案，消息应用将在该MMS上显示"SoSIM"作为线路标识——类似美国运营商会显示"T-Mobile"或"Verizon"。
 
-### 若SoSIM eSIM的MMS无法使用，需检查的实用事项：
+### 若SoSIM eSIM的MMS无法使用，需检查的实用事项
 
 1. **APN设置** — SoSIM可能需要特定APN配置才能使用MMS。请查阅其官网或联系客服获取正确APN。
 2. **必须开启移动数据** — MMS无法通过Wi-Fi工作，需要SoSIM线路上的蜂窝数据处于活动状态。

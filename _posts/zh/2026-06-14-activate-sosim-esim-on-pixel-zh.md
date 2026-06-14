@@ -38,15 +38,16 @@ Pixel 设备对 eSIM 支持良好。以下是操作步骤：
 
 ## 5. 完成实名认证（香港服务必需）
 
-前往 **https://www.sosimhk.com/rnr/en** 完成注册——在香港地区服务激活前必须完成此步骤。
+前往 **<https://www.sosimhk.com/rnr/en>** 完成注册——在香港地区服务激活前必须完成此步骤。
 
 ## 6. 在 48 小时内切换至目标套餐
 
-登录 **https://sosimhk.com/dash/en**，在激活后 48 小时内切换至 **[Ai Travel] 10GB 大中华 365 日** 套餐。
+登录 **<https://sosimhk.com/dash/en**，在激活后> 48 小时内切换至 **[Ai Travel] 10GB 大中华 365 日** 套餐。
 
 ---
 
 **Pixel 专用说明：**
+
 - Pixel 3a 及后续机型均原生支持 eSIM——无需物理卡槽
 - 若二维码扫描失败，部分运营商提供手动激活码——可查看 SoSIM 支持页面获取手动输入选项
 - 大多数 Pixel 支持双 SIM（nano + eSIM），因此可同时保持现有 SIM 卡在线

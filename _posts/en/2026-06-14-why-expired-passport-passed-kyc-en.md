@@ -24,6 +24,7 @@ Interesting observation. A few likely reasons why an outdated passport passed:
 **The practical takeaway:**
 
 Their verification is likely:
+
 - Document format valid ✓
 - Name + DOB extractable ✓
 - Document number matches expected pattern ✓

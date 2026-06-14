@@ -35,31 +35,29 @@ This also means: when you're in China using CTExcel data, your traffic egresses 
 
 ## Key Features
 
-
 - Roams on China Telecom 4G/5G in mainland China
 - Supports WiFi Calling
 - Supports iMessage
 - UK +44 number (10 digits)
 - eSIM supported: first physical→eSIM conversion is free; subsequent eSIM→eSIM swaps cost £3 each
 
-
 ---
 
 ## Costs
 
-
 **Account fees:**
+
 - Activation fee: £9.9 (one-time)
 - Monthly fee: £0 (zero monthly charge)
 - Number retention: just trigger a balance change within 180 days — e.g. top up, or send one SMS (£0.1)
 
 **Mainland China roaming rates (pay-as-you-go, no plan):**
+
 - Outgoing calls: £0.2/min (~¥1.90)
 - Incoming calls: £0.05/min (~¥0.47)
 - Outgoing SMS: £0.1/message (~¥0.95)
 - Incoming SMS: free
 - Data: £0.005/MB (~¥0.047) — roughly £5/GB
-
 
 The PAYG data rate in China is expensive (£5/GB), so you'd want to buy a bundled plan (like the 50GB annual plan) rather than use raw roaming rates.
 
@@ -74,6 +72,7 @@ Activation cannot be done in mainland China — you must activate it in the UK o
 ## Who It's For (for you specifically)
 
 If you're in Guangzhou and want clean international internet access without running a VPN server:
+
 - Get a pre-activated CTExcel SIM/eSIM from a reseller
 - Install on your iPhone (eSIM, no physical card needed)
 - When in China, your data routes through EE UK → exits GFW cleanly
