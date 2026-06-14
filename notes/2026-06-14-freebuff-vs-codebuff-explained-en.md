@@ -22,6 +22,7 @@ Here's the full picture:
 **Freebuff** (`freebuff.com` / `npm i -g freebuff`) is the free variant of Codebuff — no subscription, no credits, no configuration. It's supported by ads shown in the CLI and claims 3–5× tokens per second compared to Claude, with built-in web research and browser use.
 
 Key technical details about Freebuff:
+
 - Default models are DeepSeek V4 Pro (smartest, but its API collects data for training) or DeepSeek V4 Flash as the main coding agent.
 - Supports `@filename` for file references, `@AgentName` for specialized agents, `!command` or `/bash` for terminal commands, and `knowledge.md` for project-level context.
 - Uses GitHub OAuth to authenticate users and manage daily usage quotas.

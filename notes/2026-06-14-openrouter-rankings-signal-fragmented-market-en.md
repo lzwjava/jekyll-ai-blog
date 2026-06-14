@@ -68,4 +68,5 @@ A single week is noisy. A new model drops (MiniMax M3 at +103% WoW) and it spike
 This leaderboard measures **routing popularity**, not model quality. The closeness signals a genuinely competitive market — no one model is 10x better in a way that causes winner-take-all dynamics. For your use case (agent pipelines, high token volume), the signal is: **DeepSeek V4 Flash for cost-optimized throughput, Claude Opus 4.7/4.8 for quality-critical tasks** — which already matches your stack.
 
 References:
+
 - [OpenRouter Rankings](https://openrouter.ai/rankings)

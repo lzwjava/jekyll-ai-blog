@@ -22,6 +22,7 @@ type: note
 **Freebuff**（`freebuff.com` / `npm i -g freebuff`）是 Codebuff 的免费变体——无需订阅、无需积分、无需配置。它通过 CLI 中显示的广告来支持运营，声称比 Claude 快 3–5 倍的 token 处理速度，并内置了网络搜索和浏览器使用功能。
 
 关于 Freebuff 的关键技术细节：
+
 - 默认模型为 DeepSeek V4 Pro（最智能，但其 API 会收集数据用于训练）或 DeepSeek V4 Flash 作为主要编码代理。
 - 支持 `@filename` 引用文件、`@AgentName` 调用专门代理、`!command` 或 `/bash` 执行终端命令，以及 `knowledge.md` 提供项目级上下文。
 - 使用 GitHub OAuth 进行用户身份验证并管理每日使用配额。
@@ -31,6 +32,7 @@ type: note
 **对你的工作流程的简要总结：** Freebuff = Claude Code 的竞争对手，免费、基于 DeepSeek、广告支持的 CLI 代理。既然你已经深入使用 DeepSeek V4 Flash/Pro，值得一试。需要注意的是，DeepSeek V4 Pro 的数据训练条款在你运行银行代码时可能需留意。
 
 **参考：**
+
 - [CodebuffAI/codebuff GitHub](https://github.com/CodebuffAI/codebuff)
 - [freebuff README](https://github.com/CodebuffAI/codebuff/blob/main/freebuff/README.md)
 - [freebuff on npm](https://www.npmjs.com/package/freebuff)

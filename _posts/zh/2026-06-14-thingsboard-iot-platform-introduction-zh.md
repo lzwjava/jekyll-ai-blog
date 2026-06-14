@@ -30,6 +30,7 @@ ThingsBoard 围绕四个支柱构建：
 **1. 设备连接（传输层）**
 
 设备通过以下方式连接：
+
 - **MQTT**（主要方式——大多数物联网设备）
 - **CoAP**（低功耗受限设备）
 - **HTTP/HTTPS**（REST 风格遥测数据上报）
@@ -98,6 +99,7 @@ ThingsBoard 拥有丰富的实体模型：
 ThingsBoard 支持微服务架构。随着集群模式下 ThingsBoard 服务器的增加，支持的服务器端请求和设备数量线性增长。无需停机、服务器重启或应用错误。
 
 底层（PE/微服务模式）：
+
 - **Kafka** 作为服务间的消息总线
 - **Cassandra** 或 **PostgreSQL+TimescaleDB** 用于时序存储
 - **Redis** 用于缓存/会话
@@ -151,6 +153,7 @@ docker run -it -p 9090:9090 -p 1883:1883 -p 7070:7070 -p 5683-5688:5683-5688/udp
 ```
 
 然后通过 MQTT 发布遥测数据：
+
 ```bash
 # 将 <ACCESS_TOKEN> 替换为你的设备令牌
 mosquitto_pub -h localhost -p 1883 \
@@ -160,6 +163,7 @@ mosquitto_pub -h localhost -p 1883 \
 ```
 
 或者通过 HTTP：
+
 ```bash
 curl -v -X POST http://localhost:8080/api/v1/<ACCESS_TOKEN>/telemetry \
   --header 'Content-Type: application/json' \

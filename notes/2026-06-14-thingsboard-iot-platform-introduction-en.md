@@ -30,6 +30,7 @@ ThingsBoard is built around 4 pillars:
 **1. Device Connectivity (Transport Layer)**
 
 Devices connect over:
+
 - **MQTT** (primary — most IoT devices)
 - **CoAP** (low-power constrained devices)
 - **HTTP/HTTPS** (REST-style telemetry posting)
@@ -98,6 +99,7 @@ Dashboards are multi-tenant — you can expose a read-only dashboard to a specif
 ThingsBoard supports microservices architecture. Amount of supported server-side requests and devices increase linearly as new ThingsBoard servers are added in clustering mode. No downtime, server restarts, or application errors.
 
 Under the hood (PE/microservices mode):
+
 - **Kafka** as the message bus between services
 - **Cassandra** or **PostgreSQL+TimescaleDB** for time-series storage
 - **Redis** for cache/sessions
@@ -151,6 +153,7 @@ docker run -it -p 9090:9090 -p 1883:1883 -p 7070:7070 -p 5683-5688:5683-5688/udp
 ```
 
 Then publish telemetry via MQTT:
+
 ```bash
 # Replace <ACCESS_TOKEN> with your device token
 mosquitto_pub -h localhost -p 1883 \
@@ -160,6 +163,7 @@ mosquitto_pub -h localhost -p 1883 \
 ```
 
 Or via HTTP:
+
 ```bash
 curl -v -X POST http://localhost:8080/api/v1/<ACCESS_TOKEN>/telemetry \
   --header 'Content-Type: application/json' \
