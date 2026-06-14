@@ -177,3 +177,17 @@ jobs:
         if: false  # disabled - conflicts with OpenClaw Telegram
         run: |
           python scripts/bot/telegram_bot.py --job send_message
+
+      - name: Notify on Failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
+          TELEGRAM_CHAT_ID: "610574272"
+        run: |
+          python3 -c "
+          import sys
+          sys.path.insert(0, 'scripts/nytimes')
+          from telegram_utils import send_telegram_message
+          msg = '❌ GitHub Actions Deploy Failed\n\nRepo: \${{ github.repository }}\nBranch: \${{ github.ref_name }}\nRun: \${{ github.server_url }}/\${{ github.repository }}/actions/runs/\${{ github.run_id }}'
+          send_telegram_message(msg)
+          "
