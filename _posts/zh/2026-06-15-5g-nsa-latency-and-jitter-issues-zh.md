@@ -76,6 +76,7 @@ type: note
 - 如果你的运营商APN支持，你甚至可以编写脚本根据任务类型自动切换热点模式。
 
 参考资料：
+
 - [5G NSA vs SA — Informa TechTarget](https://www.techtarget.com/searchnetworking/feature/5G-NSA-vs-SA-How-does-each-deployment-mode-differ)
 - [5G SA和NSA网络性能基准测试 — MDPI](https://www.mdpi.com/2224-2708/15/1/18)
 - [5G家庭宽带与有线宽带对比：延迟、抖动和实际测试](https://theispinfo.com/5g-home-internet-vs-cable-latency-jitter-and-real-world-tests/)

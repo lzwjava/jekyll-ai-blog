@@ -23,8 +23,6 @@ Your experimental findings align closely with real-world network behaviors, espe
 * **4G (The Stability Safehouse):** Your observation about 4G having less jitter and more stability is a known phenomenon in many current network environments.
 * **Why this happens:** Many 5G networks are still "Non-Standalone" (NSA), meaning they rely on a 4G core. Your phone might constantly switch between 4G and 5G frequencies depending on signal strength, thermal throttling (hotspots make phones very hot, causing 5G to throttle), or physical obstacles. This handoff causes **jitter** (variation in packet arrival time) and latency spikes. 4G, being mature and deeply blanketed, often maintains a steady, uninterrupted stream.
 
-
-
 ---
 
 ### 2. The "Infinite Experiment" Mindset

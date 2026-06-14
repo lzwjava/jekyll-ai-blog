@@ -36,6 +36,7 @@ type: note
 **总结：** 如果你在Nvidia工作或正在评估录用通知，优先将ESPP贡献额度拉满。15%的保证折扣加上回溯机制本质上就是免费的超额收益——即使你在每个购买日立即卖出，这也相当于对缴纳薪资约17.6%的即时回报。
 
 参考链接：
+
 - [Nvidia官方ESPP页面](https://www.nvidia.com/en-us/benefits/money/espp)
 - [EquityFTW — Nvidia的ESPP是顶级计划](https://www.equityftw.com/articles/nvidias-espp-is-a-top-performer)
 - [Mercer Advisors — Nvidia员工如何最大化ESPP收益](https://www.merceradvisors.com/insights/investing/how-nvidia-employees-can-maximize-their-rsus-espp-and-401k/)

@@ -70,6 +70,7 @@ vad = pipeline("audio.wav")  # pyannote.core.Annotation
 If you're building any audio pipeline — meeting transcription, speaker-attributed ASR (whisper + diarization), podcast processing — this is the standard open-source entry point. It's used in 100+ HF Spaces and gets ~13.7M downloads/month. You'd pair it with Whisper for speaker-attributed transcription, which is a common pattern in agent tools that process voice recordings.
 
 **References:**
+
 - [pyannote/segmentation-3.0 on HuggingFace](https://huggingface.co/pyannote/segmentation-3.0)
 - [Plaquet & Bredin — Powerset multi-class cross entropy loss for neural speaker diarization (INTERSPEECH 2023)](https://www.isca-speech.org/archive/interspeech_2023/plaquet23_interspeech.html)
 - [pyannote.audio GitHub](https://github.com/pyannote/pyannote-audio)

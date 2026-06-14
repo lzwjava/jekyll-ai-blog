@@ -74,6 +74,7 @@ Given you're SSH-ing into `192.168.x.x` (workstation) and AMD cloud:
 - You could even script a hotspot toggle based on task type if your carrier's APN supports it.
 
 References:
+
 - [5G NSA vs SA — Informa TechTarget](https://www.techtarget.com/searchnetworking/feature/5G-NSA-vs-SA-How-does-each-deployment-mode-differ)
 - [Performance Benchmarking of 5G SA and NSA Networks — MDPI](https://www.mdpi.com/2224-2708/15/1/18)
 - [5G Home Internet vs Cable: Latency, Jitter, and Real-World Tests](https://theispinfo.com/5g-home-internet-vs-cable-latency-jitter-and-real-world-tests/)

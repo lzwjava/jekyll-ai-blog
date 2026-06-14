@@ -66,6 +66,7 @@ The honest version: the next Stripe, Linear, Vercel, or Cursor will be built by 
 The part that's slow and unnecessary: status sync, approval chains, ambiguity resolution on well-specified problems.
 
 The part that stays irreplaceable:
+
 - **Taste and vision** — what to build, what matters
 - **Conflict on values** — what the product *shouldn't* do
 - **Novel problem framing** — when the spec itself is wrong
@@ -76,6 +77,7 @@ The ratio of "humans talking to humans" vs "humans directing agents" flips. Huma
 ## For You Specifically
 
 You're positioning correctly. The IC who can:
+
 1. Design agent systems, not just use them
 2. Run evals and measure output quality
 3. Train/fine-tune models for specific workflows

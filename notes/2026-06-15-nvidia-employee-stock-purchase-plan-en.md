@@ -15,13 +15,11 @@ Yes, Nvidia's ESPP is widely regarded as one of the best in the industry. Here's
 
 **Core mechanics** (from Nvidia's official benefits page):
 
-
 - Enroll during your hire month or official enrollment periods (February/August)
 - Contribute **1–25% of salary** via payroll deductions (IRS cap: $25K/year in shares)
 - **Offering price** = closing price on the first trading day after enrollment month — locked in for **up to 2 years**
 - Within those 2 years: **4 purchase periods** (every 6 months)
 - Each period buys shares at **15% off the lower of** your offering price or the closing price at end of that period
-
 
 **What makes it exceptional:**
 
@@ -38,6 +36,7 @@ For high earners, the ESPP is considered one of the most mathematically efficien
 **Bottom line:** If you're at Nvidia or evaluating an offer, max out the ESPP contribution first thing. The 15% guaranteed discount with lookback is essentially free alpha — even if you sell immediately at each purchase date, it's a ~17.6% instant return on contributed salary.
 
 References:
+
 - [Nvidia Official ESPP Page](https://www.nvidia.com/en-us/benefits/money/espp)
 - [EquityFTW — Nvidia's ESPP is a Top Performer](https://www.equityftw.com/articles/nvidias-espp-is-a-top-performer)
 - [Mercer Advisors — How NVIDIA Employees Can Maximize ESPP](https://www.merceradvisors.com/insights/investing/how-nvidia-employees-can-maximize-their-rsus-espp-and-401k/)
