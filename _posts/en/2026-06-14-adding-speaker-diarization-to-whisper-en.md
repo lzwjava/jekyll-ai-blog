@@ -125,6 +125,7 @@ if __name__ == "__main__":
 ```
 
 **Usage:**
+
 ```bash
 python whisper_diarize.py meeting.mp4 \
   --model large \
@@ -192,8 +193,9 @@ def run_whisperx(input_file, model="large-v3", language="zh", hf_token="hf_xxx",
 ## Key gotcha
 
 Both require accepting the pyannote model license on HuggingFace:
-- https://huggingface.co/pyannote/speaker-diarization-3.1
-- https://huggingface.co/pyannote/segmentation-3.0
+
+- <https://huggingface.co/pyannote/speaker-diarization-3.1>
+- <https://huggingface.co/pyannote/segmentation-3.0>
 
 You need a HF account + `huggingface-cli login` or pass `--hf_token`.
 

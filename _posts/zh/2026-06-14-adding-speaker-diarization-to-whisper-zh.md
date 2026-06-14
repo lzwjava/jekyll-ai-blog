@@ -125,6 +125,7 @@ if __name__ == "__main__":
 ```
 
 **用法：**
+
 ```bash
 python whisper_diarize.py meeting.mp4 \
   --model large \
@@ -192,8 +193,9 @@ def run_whisperx(input_file, model="large-v3", language="zh", hf_token="hf_xxx",
 ## 关键注意点
 
 两者都需要在 HuggingFace 上接受 pyannote 模型许可证：
-- https://huggingface.co/pyannote/speaker-diarization-3.1
-- https://huggingface.co/pyannote/segmentation-3.0
+
+- <https://huggingface.co/pyannote/speaker-diarization-3.1>
+- <https://huggingface.co/pyannote/segmentation-3.0>
 
 你需要一个 HF 账号 + 运行 `huggingface-cli login` 或传递 `--hf_token`。
 
