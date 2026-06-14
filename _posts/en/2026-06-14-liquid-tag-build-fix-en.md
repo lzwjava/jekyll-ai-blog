@@ -9,6 +9,8 @@ translated: false
 type: note
 ---
 
+{% raw %}
+
 Build is GREEN! 🎉
 
 ```
@@ -25,3 +27,5 @@ Three commits, two distinct fixes:
 1. `_posts/en|zh/2026-06-12-fine-tuning-pipeline-*` and `notes/2026-06-12-*` — these files have NO raw wrapper, so the bare `{% %}` needed inline escaping: `{% raw %}{% %}{% endraw %}`
 
 2. `_posts/en|zh/2026-06-14-fine-tuning-qwen3-*` and `notes/2026-06-14-*` — these files already have a file-level `{% raw %}` wrapper (line 14 to end). My initial fix of adding inline `{% raw %}{% %}{% endraw %}` actually BROKE them by prematurely closing the outer raw block. Reverted to original `{% %}` which is safe inside the existing wrapper.
+
+{% endraw %}
