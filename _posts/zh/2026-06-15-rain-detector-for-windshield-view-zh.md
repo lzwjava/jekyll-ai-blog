@@ -12,6 +12,7 @@ type: note
 以下是翻译后的中文内容：
 
 **新文件：** `ww/weather/rain.py`
+
 - 通过 ffmpeg（avfoundation）从网络摄像头录制 3 秒视频
 - 提取 5 帧（每秒一帧）
 - 通过 OpenRouter 将所有帧发送给视觉模型（使用 `.env` 中的 `VISION_MODEL` 或 `MODEL`）
@@ -19,6 +20,7 @@ type: note
 - 专为车内使用设计：提示词告知模型网络摄像头正对挡风玻璃，车窗可能关闭
 
 **使用方法：**
+
 ```
 ww rain              # 录制 3 秒视频，分析降雨
 ww rain --seconds 5  # 录制更长时间
@@ -28,6 +30,7 @@ ww weather rain      # 同样有效
 ```
 
 **修改的文件：**
+
 - `ww/main.py` — 为 `ww rain`（顶级命令）和 `ww weather rain` 添加路由、帮助文本和 all_groups
 - `~/.zsh/completions/_ww` — 在顶级命令中添加 `rain`，并在 `weather_cmds` 数组中添加降雨子命令
 

@@ -12,6 +12,7 @@ type: note
 Done. Here's what was added:
 
 **New file:** `ww/weather/rain.py`
+
 - Records 3s video from webcam via ffmpeg (avfoundation)
 - Extracts 5 frames (1 per second)
 - Sends all frames to vision model (VISION_MODEL or MODEL from .env) via OpenRouter
@@ -19,6 +20,7 @@ Done. Here's what was added:
 - Designed for in-car use: prompt tells the model the webcam faces the windshield, window may be closed
 
 **Usage:**
+
 ```
 ww rain              # 3-second video, analyze rain
 ww rain --seconds 5  # longer capture
@@ -28,6 +30,7 @@ ww weather rain      # also works
 ```
 
 **Files modified:**
+
 - `ww/main.py` — routing for `ww rain` (top-level) and `ww weather rain`, help text, all_groups
 - `~/.zsh/completions/_ww` — `rain` in top-level commands + `weather_cmds` array with rain subcommand
 
