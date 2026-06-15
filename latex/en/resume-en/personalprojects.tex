@@ -16,15 +16,16 @@
     {2023 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s)
-        \item {Trained GPT-2 124M from scratch twice using nanoGPT on the FineWeb dataset — once on a RunPod H200, once on a DigitalOcean H100; also ran experiments on a home server with an RTX 4070.}
-        \item {Consumed \textasciitilde1.5 billion tokens via OpenRouter and other LLM providers in the past year; \textasciitilde500 million tokens in the past month alone.}
-        \item {jekyll-ai-blog: AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows.}
-        \item {lzwjava.github.io: Personal blog and knowledge base with \textasciitilde400 original posts and \textasciitilde8,000 AI answer notes; \textasciitilde70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.}
-        \item {ww: Cross-platform CLI toolkit for developer productivity — git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, and LLM-powered helpers.}
-        \item {iclaw: Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; works in locked-down enterprise environments with no IDE plugins required.}
-        \item {zz: Dataset processing and training utilities for ML projects — FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.}
-        \item {live-server modernization: Used AI coding agents to Dockerize the application, upgrade CodeIgniter and Vue to current versions, and modernize the full stack.}
-        \item {Tree\_Of\_Thought (1 PR): Contributed to a Tree-of-Thought reasoning system; added OpenAI-compatible requester and python-dotenv config.}
+        \item {Trained GPT-2 124M from scratch twice using nanoGPT on the FineWeb dataset — once on a RunPod H200 (141 GB HBM3e), once on a DigitalOcean H100 (80 GB HBM3); also ran experiments on a home RTX 4070 (12 GB). Forked Karpathy's nanoGPT with 45 commits: FineWeb shard-based pipelines, inline tensor shape annotations, and training configs scaled for different GPU budgets. Tech: Python, PyTorch, CUDA, HuggingFace Datasets, tiktoken.}
+        \item {Built nanoGPT fork with 6 dataset pipelines (FineWeb-Edu 10B+ tokens, OpenWebText, Wikipedia) and 6 training configs (124M–1.5B params). Also trained GPT-2 760M on AMD MI300X (192 GB HBM3) via AMD Dev Cloud. Tech: Python, PyTorch, ROCm, FlashAttention, HuggingFace Hub.}
+        \item {zz: Dataset processing toolkit — resumable shard-based download with token budget planning, memory-safe parquet extraction via pyarrow, tokenization, training log analysis. Hosted on GitHub and Hugging Face. Tech: Python, pyarrow, tiktoken, pandas, matplotlib.}
+        \item {Consumed \textasciitilde2.3B+ tokens across platforms: OpenRouter 1.15B tokens (\$239, 155K requests), Claude API 115M+ tokens, Xiaomi MIMO 500M tokens. Tech: OpenRouter API, Claude API, Copilot API, REST APIs.}
+        \item {jekyll-ai-blog: AI-powered blog with LLM-based multi-language translation (9+ languages), Google Cloud TTS, XeLaTeX PDF/EPUB, and GitHub Actions CI/CD. 10K+ English posts, 10K+ Chinese posts, 9.7K AI notes. Tech: Jekyll, Python, Google Cloud TTS, XeLaTeX, DeepSeek, Mistral.}
+        \item {lzwjava.github.io: Personal blog with \textasciitilde400 posts and \textasciitilde8,000 AI answer notes; \textasciitilde70K page views/month (Cloudflare). Tech: Jekyll, GitHub Pages, Cloudflare Analytics, MathJax.}
+        \item {ww: Cross-platform CLI toolkit (255+ commits, 10+ command groups) — git workflows with AI commit messages, note management, image/PDF processing, Copilot chat, AMD Dev Cloud management. Tech: Python, uv, Gemini Flash, OpenRouter, Pillow.}
+        \item {iclaw: Terminal AI agent REPL with native tool calling — codes, searches, runs commands autonomously. Supports Copilot OAuth and OpenRouter; works in locked-down enterprises. Tech: Python, Copilot OAuth, OpenRouter API, DuckDuckGo, Tavily.}
+        \item {live-server modernization: Used AI agents (Claude Code, Codex) to Dockerize, upgrade CodeIgniter and Vue, modernize full stack of a startup that served 30K users. Tech: PHP, Docker, CodeIgniter, Vue.js, MySQL, Redis.}
+        \item {Tree\_Of\_Thought (1 PR): Tree-of-Thought reasoning system for physics problem solving — explicit reasoning tree with scoring, pruning, SymPy symbolic computation. Added OpenAI-compatible requester and python-dotenv config. Tech: Python, FastAPI, OpenAI API, SymPy.}
       \end{cvitems}
     }
 
