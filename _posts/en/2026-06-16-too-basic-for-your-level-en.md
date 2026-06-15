@@ -16,12 +16,14 @@ type: note
 This looks like a **Chinese online bootcamp** format — likely targeting mid-career professionals or career switchers. Here's my honest read:
 
 **Structure:**
+
 - 4–5 month duration, ~5 hours live on Sundays + Q&A
 - Daily self-study 1–2 hrs (review/preview/assignments)
 - WeChat community support 10am–10pm
 - Replay available indefinitely
 
 **What's decent:**
+
 - Spread-out daily load (1–2 hrs) is sustainable for working adults
 - Incentivized TAs (paid per question answered) is a clever accountability hack
 - Unlimited replay is genuinely useful — you can revisit dense material

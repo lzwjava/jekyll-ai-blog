@@ -28,6 +28,7 @@ type: note
 ## 性能分解
 
 ### 磁盘 I/O → Parquet 获胜
+
 Parquet 的压缩与编码意味着文件大小比原始 Arrow IPC 文件**小 5–10 倍**。对于从 S3/NFS 的冷读取，Parquet 凭借谓词下推和列剪枝大幅胜出——你在**文件格式层面**就跳过了数据读取。
 
 ```python
@@ -37,6 +38,7 @@ table = pq.read_table("data.parquet", columns=["user_id", "event"])
 ```
 
 ### 内存计算 → Arrow 获胜（差距悬殊）
+
 Arrow 缓冲区具有 **SIMD 友好**、缓存对齐、进程/语言间零拷贝的特点。无需反序列化。
 
 ```python
@@ -50,6 +52,7 @@ result = pc.sum(table.column("revenue"))
 Parquet 数据在进行计算前必须先**解码为 Arrow**——这正是 DuckDB、Polars 和 pandas 2.0 内部所做的。
 
 ### 序列化 / IPC → Arrow 获胜
+
 Arrow IPC（Feather v2）本质上是零拷贝的。读取和写回一个 1GB 数据集：
 
 ```
@@ -61,6 +64,7 @@ Arrow IPC 读取：~0.05 秒（mmap，近乎零）
 ```
 
 ### 查询引擎同时使用两者
+
 真正的模式是**磁盘上的 Parquet → 内存中的 Arrow**：
 
 ```
@@ -84,12 +88,14 @@ DuckDB、Polars、DataFusion、Spark 和 BigQuery 都在内部执行此操作。
 ## 何时使用哪个
 
 **使用 Parquet 的场景：**
+
 - 长期存储数据集（S3、HDFS、本地）
 - 数据集很大且你只查询部分列
 - 需要跨系统互操作性（Spark、BigQuery、Athena、DuckDB）
 - 冷存储 / 归档
 
 **使用 Arrow（IPC/Feather）的场景：**
+
 - 在进程间传递大型数据集（例如 Python → Rust CLI 代理）
 - 缓存管道中的中间结果（避免重复解码）
 - 构建对延迟敏感的数据服务

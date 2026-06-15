@@ -18,11 +18,13 @@ No, it's not fair — and it's a well-recognized asymmetry in the power dynamic 
 **The asymmetry is real and deliberate.**
 
 The corp gets to:
+
 - Put your work in press releases, case studies, annual reports
 - List your deliverables as proof of their innovation
 - Use the output to attract investors, clients, and talent
 
 You get to:
+
 - ...not say where you worked
 
 This is a one-sided extraction of reputational value. They monetize your labor twice — once in product output, once in brand credibility — while you're contractually gagged from doing the same.
@@ -37,6 +39,7 @@ This is a one-sided extraction of reputational value. They monetize your labor t
 **Why it's legitimately problematic:**
 
 Contractors specifically *need* public proof of work because:
+
 - They don't get LinkedIn endorsements the same way FTEs do
 - Their career advancement depends on portfolio visibility
 - They have no internal promotions to signal growth

@@ -29,26 +29,31 @@ Before listing ideas: the question isn't "what AI startup" — it's **where do y
 ## Directions That Are Actually Underserved
 
 ### 1. Agent Reliability Infrastructure
+
 Many agent deployments still stumble on fundamentals: accessing live web data, maintaining organizational context, executing actions reliably, scaling compute efficiently, and preserving long-term memory. The companies solving this (Firecrawl, Mem0, Modal Labs) are gaining serious traction.
 
 **Whitespace:** Agent *testing and reliability* — equivalent of Selenium/Cypress but for agentic workflows. Nobody has a great answer for "how do I CI/CD an agent." This is deeply technical, you'd understand the problem space from building `ww`/`iclaw`/`zz`.
 
 ### 2. AI Eval & Observability
+
 Novel evaluation and observability present a critical infrastructure challenge that didn't exist in prior software development paradigms. Traditional monitoring tracks completion rates, latency, error codes — but AI agents need something fundamentally different.
 
 **Whitespace:** LLM eval tooling for *domain-specific* outputs — finance, legal, code. General evals (MMLU etc.) are commoditized. Vertical eval platforms are not.
 
 ### 3. Vertical AI for "Boring" but High-Value Industries
+
 Vertical SaaS for "boring" industries (HVAC, pest control, roofing) shows consistently low competition and high willingness to pay. But for you, given your bank background: **financial compliance automation** is less boring and more defensible.
 
 **Whitespace:** AI for bank audit, AML narrative generation, regulatory report drafting. You've lived this problem. Harvey is doing it for legal ($100M+ ARR in 2 years) — the finance equivalent is wide open.
 
 ### 4. Inference Optimization Tooling
+
 As AI agents and applications transition from prototype to production, inference workloads now rival training in both compute demand and economic importance. A new generation of infrastructure startups is attacking the inference stack.
 
 **Whitespace:** Speculative decoding / KV cache optimization as a service, or MoE routing optimization. You already understand AMD MI300X and have hands-on training experience — that's rare context.
 
 ### 5. AI Skills / Agent Composition Layer
+
 Skills replaced tool stuffing — the old way was to register every tool the agent might need at startup, eating context every turn. Most of the middle layer is now gone; the SDKs ship with the tools.
 
 **Whitespace:** A marketplace or composition layer for agent skills/tools — like npm but for agent capabilities with eval scores attached. MCP registry is nascent and messy.

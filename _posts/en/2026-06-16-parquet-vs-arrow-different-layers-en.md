@@ -28,6 +28,7 @@ They're not really competitors — they solve **different problems** at differen
 ## Performance Breakdown
 
 ### Disk I/O → Parquet wins
+
 Parquet's compression + encoding means **5–10x smaller files** than raw Arrow IPC files. For cold reads from S3/NFS, Parquet wins massively due to predicate pushdown and column pruning — you skip reading data at the **file format level**.
 
 ```python
@@ -37,6 +38,7 @@ table = pq.read_table("data.parquet", columns=["user_id", "event"])
 ```
 
 ### In-memory compute → Arrow wins (not even close)
+
 Arrow buffers are **SIMD-friendly**, cache-aligned, zero-copy between processes/languages. No deserialization needed.
 
 ```python
@@ -50,6 +52,7 @@ result = pc.sum(table.column("revenue"))
 Parquet data must be **decoded into Arrow** before compute anyway — that's exactly what DuckDB, Polars, and pandas 2.0 do internally.
 
 ### Serialization / IPC → Arrow wins
+
 Arrow IPC (Feather v2) is essentially zero-copy. Writing and reading back a 1GB dataset:
 
 ```
@@ -61,6 +64,7 @@ Arrow IPC read: ~0.05s (mmap, near zero)
 ```
 
 ### Query engines use both together
+
 The real pattern is **Parquet on disk → Arrow in memory**:
 
 ```
@@ -84,12 +88,14 @@ DuckDB, Polars, DataFusion, Spark, and BigQuery all do this internally.
 ## When to use which
 
 **Use Parquet when:**
+
 - Storing datasets long-term (S3, HDFS, local)
 - Dataset is large and you query subsets of columns
 - You need interoperability across systems (Spark, BigQuery, Athena, DuckDB)
 - Cold storage / archival
 
 **Use Arrow (IPC/Feather) when:**
+
 - Passing large datasets between processes (e.g., Python → Rust CLI agent)
 - Caching intermediate results in a pipeline (avoid re-decoding)
 - Building a data service where latency matters

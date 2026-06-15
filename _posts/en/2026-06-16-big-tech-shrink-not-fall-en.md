@@ -32,11 +32,13 @@ The question is really: **which corps lose the ability to attract the best engin
 **1. AI commoditizes their moats**
 
 The classic big corp moat is:
+
 - Distribution (users already use us)
 - Data (we have the training signal)
 - Infra (we own the GPUs)
 
 AI undercuts all three:
+
 - Distribution: agents replace app stores and search
 - Data: synthetic data + RLHF reduces dependency on proprietary data
 - Infra: AMD + open-source stack (ROCm, vLLM, SGLang) is closing the NVIDIA/cloud monopoly gap fast
@@ -84,6 +86,7 @@ The winners in the next decade are likely **small teams with AI leverage** — 1
 ## My actual prediction
 
 By 2035:
+
 - Google Search loses 40%+ revenue share to AI-native interfaces
 - At least 2 of the current Mag-7 drop out of top-10 by market cap
 - One "big corp" (probably Google or Meta) has a genuine existential crisis

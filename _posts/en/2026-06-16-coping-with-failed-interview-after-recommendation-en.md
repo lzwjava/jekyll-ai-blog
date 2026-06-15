@@ -57,6 +57,7 @@ Ask your sponsor directly:
 > "Can you tell me what the actual objection was — not the diplomatic version?"
 
 Senior engineers at big corps usually know the real reason. Common real reasons:
+
 - "They want someone with X-specific credential for optics"
 - "Budget got cut, this was the easiest way to close the req"
 - "One person on panel had a different candidate already in mind"

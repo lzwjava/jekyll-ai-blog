@@ -38,6 +38,7 @@ ByteDance (Doubao Aixue) and Alibaba (Qwen Zhixue) entered through their existin
 ### 八斗学院 (Badou) model analysis
 
 Badou is a **vocational AI skills training** company, not K-12 edtech. Their model:
+
 - Cohort-based courses: Python, machine learning, NLP, CV
 - Paid bootcamps (3–6 months, ~¥3000–8000/student)
 - B2C individual learners + some B2B corporate training
@@ -50,12 +51,14 @@ This is closer to what you could realistically build solo — **skills-based pro
 ### Your specific situation — honest take
 
 **Where you have real edge:**
+
 - You've trained GPT-2 760M on MI300X. You understand transformers from weights to CUDA kernels.
 - You've built real products (30k users, ¥3M revenue). You know how to ship.
 - You consume ~1B tokens/month and build CLI agents. That's the product itself — teach what you actually do.
 - Being in Guangzhou, you have lower cost base than Beijing/Shanghai founders.
 
 **Where you're at a disadvantage:**
+
 - Solo founder, no team yet
 - OPC (one-person company) structure limits how fast you can grow and hire
 - Competing against TAL Education (massive), ByteDance Doubao Aixue, Alibaba — with infinite capital
@@ -66,6 +69,7 @@ This is closer to what you could realistically build solo — **skills-based pro
 Don't do K-12. Don't do broad "AI education." Do this:
 
 **Advanced AI engineering training for working developers** — the exact gap between "learned Python" and "can train/deploy LLMs." Your 八斗 comparison is actually directionally right, but go deeper and more technical than them:
+
 - Transformer internals → hands-on (nanoGPT style)
 - Fine-tuning: LoRA, RLHF, DPO in practice
 - Inference optimization: KV cache, quantization, vLLM
@@ -88,6 +92,7 @@ There are very few Chinese instructors who can teach this from actual hands-on e
 | Your timing | Reasonable, but not now as primary focus |
 
 **My actual recommendation:** Don't quit the bank contract job to do this full-time yet. Instead:
+
 1. Start a paid cohort-based course on the side (WeChat, 知识星球, or Bilibili) — the topic: "LLM Engineering from Scratch," targeting Chinese backend/ML engineers
 2. Charge ¥1500–3000/cohort, 20 students, validate PMF with ¥30–60k revenue first
 3. If cohort 2 fills up faster than cohort 1, that's your signal to scale
