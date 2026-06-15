@@ -68,6 +68,7 @@ The book's self-intro says: "After ten trials and errors, I finally had one trul
 ### Relevance
 
 He's not a tech builder in the Karpathy sense — he's an **operator and educator** who cracked a specific distribution channel (WeChat private traffic) at scale. His story is notable because:
+
 1. He iterated through 10 failed ventures before finding product-market fit
 2. He monetized ¥600M+ through a non-obvious channel (WeChat communities, not ads)
 3. He then built a media/consulting brand from that credibility

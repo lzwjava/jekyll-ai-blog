@@ -32,6 +32,7 @@ The Chinese private domain playbook he pioneered — and now teaches — is a st
 Each personal WeChat account has a 5,000 friend cap. So to reach millions of users at high-touch personal relationship depth, you need hundreds or thousands of accounts operated by a team. The "personal" feel is the whole point — users feel they're talking to a real person, not a brand account.
 
 The operational playbook for running these:
+
 - Each account is assigned to a real sales/ops person (or sometimes automated bots, which is grey-area)
 - Accounts are "warmed up" (养号) — aged, humanized, given real usage history before being used for sales
 - SOP scripts are standardized so every "personal" interaction follows the same conversion funnel
@@ -55,6 +56,7 @@ The smart move is building a "public account + enterprise WeChat + mini program"
 He systematically distilled his hands-on experience into what he calls the **"Private Domain Five Forces Model"** — five sentences and one formula — a framework covering the core elements and relationships of building private domain assets.
 
 The five forces roughly map to:
+
 1. **引流力** — traffic acquisition (from public domain into private)
 2. **留存力** — retention (keeping users engaged in your ecosystem)
 3. **转化力** — conversion (turning followers into paying customers)
