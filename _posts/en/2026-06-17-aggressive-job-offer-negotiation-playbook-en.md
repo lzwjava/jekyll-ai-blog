@@ -61,6 +61,7 @@ Zhiwei
 ```
 
 Why this works:
+
 - Competing offers signal market validation
 - You reframe from "rejected candidate" → "in-demand engineer being scouted"
 - HR sometimes loops back to hiring manager: *"He has offers. Should we reconsider?"*
@@ -98,6 +99,7 @@ Is there anything you can do to help me make this easier?"
 ```
 
 **Key mechanics:**
+
 - Give a real deadline (theirs, not fake)
 - Name the competing number — vague claims are weak
 - Give them a reason to fight for you (you said you *prefer* them)
@@ -145,6 +147,7 @@ performance review timing]? I want to find a way to make this work."
 ```
 
 Expand the negotiation surface. Comp isn't just base. Fight on:
+
 - Signing bonus (one-time, easier to approve)
 - Equity refresh schedule
 - Title (affects next job's negotiation anchor)
