@@ -22,6 +22,7 @@ DeepSeek-V3 dropped API costs by ~90% in early 2024. Every major Chinese cloud �
 **2. AI Education / Courses Is Saturated and Commoditized**
 
 The moment ChatGPT hit, thousands of "AI course" businesses launched in China. The KOL-driven training market (知识付费) peaked ~2020-2022. Now:
+
 - Free content on Bilibili, Zhihu, and official model docs is better than most paid courses
 - Companies like Kimi, DeepSeek, Moonshot publish their own educational content
 - Buyers are burned out — they paid for 5 AI courses and got generic slides
@@ -30,6 +31,7 @@ The moment ChatGPT hit, thousands of "AI course" businesses launched in China. T
 **3. The Giant Threat Is Real and Fast**
 
 ByteDance, Alibaba, Tencent, Baidu, Huawei are all doing:
+
 - AI agents (Doubao, Tongyi Qianwen agents)
 - AI education (Xueersi/TAL has unlimited capital + distribution)
 - AI tools bundled free into existing products
@@ -39,6 +41,7 @@ A startup building an AI agent product faces a timeline problem: by the time you
 **4. Funding Market Has Contracted Sharply**
 
 Post-2022 China VC is structurally different:
+
 - US-China decoupling scared institutional LPs out of cross-border funds
 - RMB funds face stricter exit requirements (A-share IPO window tightened)
 - "AI" as a category got overhyped and many 2023 cohort investments are underwater
@@ -49,6 +52,7 @@ Many VCs now explicitly say: "We won't fund consumer AI apps or AI education."
 **5. The Regulatory Overhang**
 
 China's Generative AI Regulation (生成式人工智能服务管理暂行办法) went into effect Aug 2023. Any public-facing AI product needs:
+
 - Filing with MIIT/CAC
 - Content moderation compliance
 - Occasional surprise audits
@@ -58,6 +62,7 @@ For a small team, this compliance overhead is disproportionately painful. Large 
 **6. The "AI Group" Business Is Especially Fragile**
 
 Building a paid AI community (知识星球, WeChat group subscription) around AI tools/education specifically has these problems:
+
 - Half-life is ~6 months — members churn when they feel they've "learned enough" or the tool changes
 - You're selling access to information that's free elsewhere
 - No compounding moat — every new ChatGPT/Claude release disrupts your content

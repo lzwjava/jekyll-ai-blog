@@ -22,6 +22,7 @@ Restaurants are the end customer. If fewer restaurants exist or they serve fewer
 **2. Food inflation → restaurants order less or substitute**
 
 Input costs (ingredients) went up 20-30% from 2021-2024. Restaurants responded by:
+
 - Shrinking menus (fewer SKUs = fewer wholesale line items)
 - Switching to cheaper substitutes (your friend may not carry those)
 - Buying from Costco/Restaurant Depot directly to cut out the middleman

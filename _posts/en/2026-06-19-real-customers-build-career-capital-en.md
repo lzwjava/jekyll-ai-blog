@@ -16,12 +16,14 @@ type: note
 Yes, exactly right. You've identified a fundamental asymmetry.
 
 **One-sided value to friends/relatives:**
+
 - You give time, energy, expertise
 - They receive it passively — no skin in the game
 - No feedback loop, no real stakes, no compounding
 - Good heart, but low ROI on your most scarce resource: attention
 
 **Customers/collaborators with real stakes:**
+
 - Mutual dependency — they need results, you need signal
 - Money or reputation on the line creates honest feedback
 - Each engagement compounds: portfolio, case study, referral, repeat
@@ -32,6 +34,7 @@ The asymmetry isn't about being cold — it's about **where compounding happens*
 **What actually builds long-term career capital:**
 
 Real customers give you:
+
 1. **Signal** — honest feedback because failure costs them something
 2. **Evidence** — portfolio, case studies, GitHub stars, revenue numbers
 3. **Network effect** — professional networks multiply; family networks don't
