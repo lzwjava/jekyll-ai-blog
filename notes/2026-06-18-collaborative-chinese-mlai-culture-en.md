@@ -30,6 +30,7 @@ This is the same reason the *Indian* network advantage doesn't extend as strongl
 ## Key Figures and What They Actually Built
 
 ### **Andrej Karpathy**
+
 - Stanford PhD, OpenAI founding team, Tesla AI Director, back to OpenAI
 - Wrote **cs231n** (Stanford's deep learning course) — probably the most influential ML curriculum ever made public
 - **nanoGPT**, **micrograd**, **llama2.c** — minimal, from-scratch implementations you yourself are studying
@@ -38,6 +39,7 @@ This is the same reason the *Indian* network advantage doesn't extend as strongl
 - He doesn't gatekeep. Everything is public, annotated, minimal.
 
 ### **Mu Li (李沐)**
+
 - AWS principal scientist, CMU PhD
 - **D2L.ai (Dive into Deep Learning)** — a full textbook with executable code, free, translated into multiple languages, used by hundreds of universities
 - **B站 paper reading series** — he reads AI papers live on Bilibili with Chinese commentary. Demystifies frontier research for Chinese-speaking engineers globally
@@ -45,12 +47,14 @@ This is the same reason the *Indian* network advantage doesn't extend as strongl
 - Actively engages comments, answers questions, mentors publicly
 
 ### **Yangqing Jia (贾扬清)**
+
 - Created **Caffe** at Berkeley — one of the first widely adopted deep learning frameworks, before TensorFlow or PyTorch
 - Led AI infrastructure at Facebook, now at Alibaba Cloud
 - Caffe's open release in 2014 bootstrapped an entire generation of CV researchers
 - Less active publicly now but his early open-source contributions had compounding impact
 
 ### **Song Han (韩松)**
+
 - MIT professor, co-founded **Efficient ML** group
 - Invented **deep compression** (pruning + quantization + Huffman coding) — seminal work on making neural nets run on edge hardware
 - **TinyML** and **MCUNet** — running inference on microcontrollers
@@ -58,18 +62,21 @@ This is the same reason the *Indian* network advantage doesn't extend as strongl
 - His MIT 6.5940 (TinyML and Efficient Deep Learning) is fully public
 
 ### **Lianmin Zheng (郑联民)**
+
 - PhD from UCB, core contributor to **Apache TVM**, created **Ansor** (auto-tuning for tensor programs)
 - Co-created **vLLM** — the dominant open-source LLM inference engine, now used everywhere
 - Co-created **Chatbot Arena / LMSYS** — the human preference benchmark that became the standard for LLM evaluation
 - Ships fast, open-sources fast, collaborates with the whole community
 
 ### **Tri Dao**
+
 - Stanford PhD, created **FlashAttention** (v1, v2, v3)
 - FlashAttention is now inside every serious transformer implementation — CUDA-level rewrite of attention that's 2-4x faster and memory-efficient
 - Co-founded **Together AI**
 - All code open-sourced immediately. No waiting for a product moat.
 
 ### **Hao Zhang**
+
 - Co-created **Alpa** (auto-parallelism for LLMs), **vLLM**, **SkyPilot**
 - Berkeley systems + ML intersection — the most practically useful quadrant
 

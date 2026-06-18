@@ -37,20 +37,24 @@ Those who **didn't** get it have strong incentives to make it fail, because:
 ## The Tactics Used to Sabotage
 
 **Land leverage** is the most common tool:
+
 - "My land boundary is here, you can't cross it" — even if the survey is clear
 - Relatives suddenly claiming disputed inheritance on the parcels
 - Filing complaints (信访) to freeze the project administratively
 
 **Infrastructure blocking:**
+
 - "Don't install that pump/transformer/drainage on my plot"
 - Organizing villagers to physically block equipment
 - Claiming environmental or safety concerns through local connections
 
 **Relationship-based interference:**
+
 - Using local village committee members or township officials (who are in rival factions) to withhold permits or signatures
 - Getting the local land bureau to "re-examine" paperwork
 
 **Labor disputes:**
+
 - Demanding the contractor hire locals at inflated rates
 - If refused, organizing disruptions under the banner of "local jobs for locals"
 
