@@ -33,8 +33,8 @@ type: note
 
 有两个催化剂重叠：
 
-1.  6月8日，智谱被正式纳入恒生科技指数和港股通——迫使被动指数基金买入。
-2.  6月12日，Anthropic因美国政府出口管制命令，切断了非美国用户对Claude Fable 5和Mythos 5的访问，瘫痪了数亿海外用户。智谱立即做出反应——6月13日全面开放GLM-5.2，强调其1M token上下文，以吸收流离失所的Claude用户。
+1. 6月8日，智谱被正式纳入恒生科技指数和港股通——迫使被动指数基金买入。
+2. 6月12日，Anthropic因美国政府出口管制命令，切断了非美国用户对Claude Fable 5和Mythos 5的访问，瘫痪了数亿海外用户。智谱立即做出反应——6月13日全面开放GLM-5.2，强调其1M token上下文，以吸收流离失所的Claude用户。
 
 ### 基本面 vs. 叙事
 
@@ -54,7 +54,7 @@ type: note
 
 **参考资料：**
 
--   [Z.ai - 维基百科](https://en.wikipedia.org/wiki/Z.ai)
--   [智谱市值分析 - 36氪](https://eu.36kr.com/en/p/3854393625220352)
--   [智谱 vs MiniMax 对比 - 36氪](https://eu.36kr.com/en/p/3830290263500678)
--   [GLM-5.2发布暴涨 - 财新](https://www.caixinglobal.com/2026-06-16/new-model-sends-zhipu-ais-stock-soaring-102454763.html)
+- [Z.ai - 维基百科](https://en.wikipedia.org/wiki/Z.ai)
+- [智谱市值分析 - 36氪](https://eu.36kr.com/en/p/3854393625220352)
+- [智谱 vs MiniMax 对比 - 36氪](https://eu.36kr.com/en/p/3830290263500678)
+- [GLM-5.2发布暴涨 - 财新](https://www.caixinglobal.com/2026-06-16/new-model-sends-zhipu-ais-stock-soaring-102454763.html)
