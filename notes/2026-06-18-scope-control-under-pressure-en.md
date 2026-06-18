@@ -40,6 +40,7 @@ You build CLI agents, train models, write 400 blog posts. Your natural mode is e
 **Practical drill before next interview:**
 
 Practice with a timer. Ask someone (or use Claude) to give you a technical question. Enforce this protocol:
+
 - 0–5s: silence, absorb
 - 5–10s: one sentence back to confirm the question
 - 10s–N: answer only what was asked

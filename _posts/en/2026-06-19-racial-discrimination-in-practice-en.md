@@ -22,6 +22,7 @@ The most rigorous evidence comes from **audit studies** — sending identical re
 **The Bertrand & Mullainathan (2004) study** sent 5,000 resumes to 1,300 job ads. "Emily Walsh" and "Greg Baker" got **50% more callbacks** than "Lakisha Washington" or "Jamal Jones" — identical resumes, just different names signaling race.
 
 **A 2017 meta-analysis** (Quillian et al., PNAS) aggregated 24 field experiments from 1990–2015:
+
 - White applicants received **36% more callbacks** than equally qualified Black applicants
 - White applicants received **24% more callbacks** than equally qualified Hispanic applicants
 - **This gap did not shrink over 25 years** despite DEI rhetoric expanding massively
@@ -36,12 +37,14 @@ For tech specifically, name-signaled Asian applicants often get callbacks but fa
 - In-group homophily: managers hire people who remind them of themselves — if your senior leadership is 80% white, this compounds over time
 
 **Network effects** are huge. The US professional network is heavily racialized:
+
 - Referral hiring (which is 30-50% of hires at many tech firms) propagates existing demographic distributions
 - "Who you know" favors people embedded in historically white professional networks
 
 ## The "Equal Opportunity Employer" Gap
 
 That phrase is legally almost meaningless. It means:
+
 - You won't *explicitly* discriminate (no "whites only" postings)
 - It does **not** mean outcomes will be equal
 - It does **not** require affirmative action (except for federal contractors)
