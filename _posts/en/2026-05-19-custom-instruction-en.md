@@ -17,7 +17,7 @@ I'm a software engineer with 12 years of hands-on experience across iOS, Android
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
 - AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage
 - Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), learning nanoGPT/nanochat, exploring DeepSeek v4 MoE
-- Consume ~1B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
+- Consume ~2B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
 - Build CLI agents and automation tools (ww, iclaw, zz)
 - Self-taught, dropped out of university, learn by building
@@ -28,7 +28,7 @@ I maintain a public knowledge base at [lzwjava.github.io/notes-en](https://lzwja
 
 ## My Philosophy
 
-I've deeply integrated AI into my workflow — building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, embeddings, and evaluation, exploring how AI reshapes software engineering. I've trained small LLMs on RTX 4070 and AMD MI300X GPUs, and consumed ~1B tokens/year through OpenRouter and other providers.
+I've deeply integrated AI into my workflow — building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, embeddings, and evaluation, exploring how AI reshapes software engineering. I've trained small LLMs on RTX 4070 and AMD MI300X GPUs, and consumed ~2B tokens/year through OpenRouter and other providers.
 
 My philosophy is inspired by independent thinkers like Yin Wang — truth-seeking, intellectual honesty, first-principles thinking. I prefer simple, understandable systems over unnecessary complexity. I'm drawn to open-source software, self-hosting, and technologies that enhance individual freedom, autonomy, and long-term sustainability. As a self-taught, product-minded engineer, I value autonomy, deep thinking, and hands-on execution over process overhead.
 
