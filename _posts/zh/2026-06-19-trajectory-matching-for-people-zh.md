@@ -20,6 +20,7 @@ type: note
 **3. 匹配/推荐** — 在该空间中找到对齐关系
 
 这与以下架构本质相同：
+
 - Netflix 推荐（用户 ↔ 内容）
 - LinkedIn 职位匹配（候选人 ↔ 岗位）
 - Semantic Scholar 上的论文推荐（研究者 ↔ 论文）
@@ -124,6 +125,7 @@ def trajectory_similarity(person_a, person_b, window_months=6):
 ## 前沿实验室实际在做什么（非正式）
 
 Anthropic、OpenAI、DeepSeek——它们跟踪：
+
 - 已知研究者 + 未知第一作者的 arXiv 提交
 - 大学/竞争实验室的 GitHub 组织
 - 研究者们的 Twitter 讨论（谁在抱怨什么 = 尚未解决的问题）

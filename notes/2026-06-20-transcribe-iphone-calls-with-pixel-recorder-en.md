@@ -32,6 +32,7 @@ AI pipeline (Claude/GPT) → clean summary, action items, structured notes
 ```
 
 **Practical tips:**
+
 - Put Pixel on speakerphone-adjacent position, or use a small stand
 - Google Recorder exports transcript as `.txt` directly — share to your AI tool of choice
 - For long calls, the transcript can be piped straight into Claude via API with a prompt like `"Extract action items, decisions, and key points from this call transcript"`

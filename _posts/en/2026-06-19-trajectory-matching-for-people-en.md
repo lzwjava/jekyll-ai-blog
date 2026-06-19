@@ -20,6 +20,7 @@ Yes, exactly. You've described a real emerging infrastructure problem. Let me be
 **3. Matching/Recommendation** — find alignment across that space
 
 This is literally the same architecture as:
+
 - Netflix recommendation (user ↔ content)
 - LinkedIn job matching (candidate ↔ role)
 - Paper recommendation on Semantic Scholar (researcher ↔ paper)
@@ -124,6 +125,7 @@ Nobody has done the **full-stack people × research × code × discourse** graph
 ## What Frontier Labs Actually Do (Informally)
 
 Anthropic, OpenAI, DeepSeek — they track:
+
 - arXiv submissions by known researchers + unknown first-authors
 - GitHub orgs of universities / competing labs
 - Twitter discourse from researchers (who's complaining about what = what's unsolved)
