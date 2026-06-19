@@ -35,6 +35,7 @@ This is why YC batches, dorm startups, and founding teams that live together out
 When a client likes a video about AI agents or shares an article about robotics — that's a **revealed preference**, more honest than what they say in meetings. People perform in meetings. They don't perform their WeChat feed.
 
 Sources of weak-but-real signal:
+
 - WeChat Moments likes/shares
 - Group chat activity patterns (who initiates, who lurks, response latency)
 - What public accounts they follow

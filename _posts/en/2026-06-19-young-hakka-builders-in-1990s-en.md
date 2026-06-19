@@ -32,16 +32,19 @@ So the construction boom hit hard in **1991-1995** — that's the exact window w
 For a young guy from Meizhou arriving in 澳头 in the early 90s, the work hierarchy looked like this:
 
 **Bottom tier — pure labor (小工)**
+
 - Carrying bricks, mixing cement by hand, digging foundations
 - No skill required, paid daily cash — roughly 15-30 RMB/day in early 90s
 - Slept in makeshift sheds on-site or rented a dirt-cheap room
 
 **Middle tier — skilled trade (大工)**
+
 - Masonry (砌砖), plastering (抹灰), carpentry (木工), steel rebar bending (钢筋工)
 - Learned on the job within 1-2 years, 40-60 RMB/day
 - This is where most Hakka migrants aimed to get within their first few years
 
 **Top — 包工头 (labor contractor)**
+
 - A guy who knew enough people back home to recruit a crew of 10-30 workers
 - Got contracts from developers, paid his crew, kept the margin
 - Could make 10-20x what a laborer earned

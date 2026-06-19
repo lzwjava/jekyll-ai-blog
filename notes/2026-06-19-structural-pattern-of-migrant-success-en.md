@@ -33,6 +33,7 @@ Yes, exactly. The underlying pattern is the same across both eras. It's not abou
 ## The Win Conditions Are Structurally Identical
 
 **Construction 90s:**
+
 - Come early (1991-93, not 1997)
 - Build real skill fast (大工 within 1 year)
 - Accumulate capital aggressively (send 80% home)
@@ -40,6 +41,7 @@ Yes, exactly. The underlying pattern is the same across both eras. It's not abou
 - Ride the full wave duration (through 2005 petrochemical boom)
 
 **Tech/AI 2010s-20s:**
+
 - Come early (ML in 2013-16, not 2022)
 - Build real skill fast (ship models, not just read papers)
 - Accumulate capital aggressively (max 401k, buy index, don't inflate lifestyle)

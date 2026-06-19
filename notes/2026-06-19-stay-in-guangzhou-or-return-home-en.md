@@ -26,6 +26,7 @@ China's economic boom was heavily concentrated in the Pearl River Delta. Guangzh
 ## Case for Staying in Guangzhou/Huizhou
 
 **Upside:**
+
 - Construction wages were genuinely much higher — 30-80 RMB/day vs 10-20 locally
 - Network effects: connections to contractors, subcontractors, material suppliers compound over time
 - If you were entrepreneurial — starting your own construction crew (包工头) was the path to real money. Many 包工头 in the 90s became the construction company owners of the 2000s
@@ -39,6 +40,7 @@ China's economic boom was heavily concentrated in the Pearl River Delta. Guangzh
 ## Case for Returning to Meizhou
 
 **Upside:**
+
 - Land and housing costs near zero — building your own house in hometown costs labor + materials only
 - Local business had less competition in the 90s — small shops, transport, materials supply, food
 - Family support network, no rent, lower cost of living
@@ -53,6 +55,7 @@ China's economic boom was heavily concentrated in the Pearl River Delta. Guangzh
 **For most people in their 20s-30s in the 1990s: staying in Guangzhou/Huizhou was the higher EV move**, *if* they had the discipline to save and the ambition to become a 包工头 rather than a pure laborer.
 
 The trap was:
+
 - Staying in the city but spending everything, sending little home → net zero
 - Going home too early before capital was accumulated → missed the boom
 
