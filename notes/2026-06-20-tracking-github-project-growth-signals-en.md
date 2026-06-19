@@ -18,17 +18,21 @@ The GitHub Trending page is a terrible signal detector — it's memoryless. What
 ## Tier 1: Tools That Already Do This
 
 ### 1. **star-history.com** — The Google Trends for Stars
+
 Star History charts GitHub star growth for any repo as an interactive line chart. Instead of showing just a static star count, it reveals how fast a project is growing, which tells you far more about real momentum and community health. A project with 50,000 stars might have been abandoned for two years, while a newer one with 8,000 stars might be exploding in adoption right now — the growth curve is what matters.
 
 You can do multi-repo comparison like Google Trends:
+
 ```
 https://star-history.com/#NousResearch/hermes-function-calling&opencog/opencog&Date
 ```
 
 ### 2. **OSSInsight** — The Deepest Free Dataset
+
 OSSInsight analyzes 10+ billion rows of GitHub event data — stars, forks, contributor growth, geographic distribution, company breakdown, side-by-side comparisons on any metric. It has an AI-native interface where you can query GitHub data in natural language and get SQL-backed visualizations.
 
 Key endpoints (free, no auth):
+
 ```bash
 # Stargazer history for a repo
 curl "https://api.ossinsight.io/v1/repos/{owner}/{repo}/stargazers/history"
@@ -43,6 +47,7 @@ curl "https://api.ossinsight.io/v1/trends/repos/?period=past_month&language=Pyth
 The API also exposes issue creator history, PR creator history, stargazer country distribution, and organization breakdown — all queryable historically.
 
 ### 3. **Daily Stars Explorer** — Daily Granularity
+
 Daily Stars Explorer tracks the daily delta (not cumulative) in stars using the GitHub GraphQL API. It overcomes the 40K star limit that star-history.com hits, and uses FB Prophet to show trend lines. It shows patterns like spikes (product launches, HN posts) vs. constant organic growth like Keycloak's decade-long steady curve.
 
 ---
@@ -52,17 +57,20 @@ Daily Stars Explorer tracks the daily delta (not cumulative) in stars using the 
 Stars are vanity; downloads are behavior. For Python and JS projects:
 
 **PyPI downloads** (actual usage proxy):
+
 ```bash
 pip install pypistats
 pypistats overall transformers --start-date 2024-12-01 --end-date 2025-01-31 --format json
 ```
 
 Or hit the API directly:
+
 ```bash
 curl "https://pypistats.org/api/packages/torch/overall?start=2024-12-01&end=2025-01-31"
 ```
 
 **npm downloads** (JS packages):
+
 ```bash
 curl "https://api.npmjs.org/downloads/range/2024-12-01:2025-01-31/langchain"
 ```

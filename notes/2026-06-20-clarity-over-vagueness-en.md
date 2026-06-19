@@ -16,6 +16,7 @@ type: note
 Yes, but with an important nuance.
 
 **Vague direction is a problem when:**
+
 - You can't say no to opportunities because nothing is out of scope
 - You can't recruit because candidates don't know what they're joining
 - You can't prioritize because everything seems equally valid
@@ -36,6 +37,7 @@ Your risk isn't vagueness about technology — you're clearly deep on AI, agents
 If someone asks "what are you building and why" and you need more than 2 sentences — that's the vagueness showing. Not because you're dumb, but because the thinking isn't compressed yet. Compression comes from pressure: shipping, pitching, getting rejected, talking to users.
 
 Vague direction usually means one of three things:
+
 1. Too many options, haven't chosen
 2. Fear of committing (committing means being wrong)
 3. Haven't talked to enough real users yet

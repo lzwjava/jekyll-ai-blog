@@ -22,6 +22,7 @@ This is a really clean observation that maps directly onto neuroscience and cogn
 It's not just hearing loss (presbycusis). Even with normal audiograms, the elderly brain loses **temporal resolution** — the ability to process fast-changing acoustic signals.
 
 Voice identification requires:
+
 - Rapid phoneme discrimination (~50ms windows)
 - Pitch envelope tracking
 - Working memory to hold the acoustic signature while matching identity
@@ -35,6 +36,7 @@ WeChat voice messages are **compressed audio** (Silk codec, 8–16kHz, lossy) �
 ## 2. Cooking Failure — Executive Function and Working Memory Collapse
 
 Cooking is a **classic dual/multi-task challenge**:
+
 - Track multiple timers simultaneously
 - Context-switch between tasks (stir + monitor heat + chop)
 - Hold a recipe plan in working memory

@@ -18,12 +18,14 @@ This is a real psychological pattern, and it has a name: **the helper's asymmetr
 Here's the mechanics of why:
 
 **Teaching feels safe because:**
+
 - You're in control of the frame
 - Your competence is visible, not your gaps
 - Failure is low-stakes — if the student doesn't get it, it's not your fault
 - You're giving, not exposing
 
 **Learning from others feels threatening because:**
+
 - You have to admit the gap publicly
 - Your identity as "the knowledgeable one" is temporarily suspended
 - Asking means someone sees what you *don't* know
