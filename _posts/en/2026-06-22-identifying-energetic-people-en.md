@@ -16,18 +16,21 @@ type: note
 Energetic people tend to show a consistent cluster of observable signals:
 
 **Physical**
+
 - Fast walking pace, upright posture, animated gestures
 - Voice has variation — they don't monotone their way through a conversation
 - Eyes are alert, tracking, not glazed
 - They initiate physical movement — stand up, walk while thinking, gesture when explaining
 
 **Conversational**
+
 - Responds quickly, doesn't drag pauses out awkwardly
 - Asks follow-up questions — curiosity is a form of energy
 - Talks about what they're *building or doing*, not just what they've done
 - Low complaint-to-action ratio
 
 **Behavioral patterns over time**
+
 - They show up early or on time consistently
 - Side projects, hobbies, things outside the main job
 - High output at odd hours — the "shipped this at 1am" type

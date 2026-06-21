@@ -20,6 +20,7 @@ type: note
 ## 第一梯队 — 从这里开始（nanoGPT 就绪）
 
 ### 1. 中文维基百科转储
+
 经典起点。干净、结构化，约 1.6GB / 约 0.4B 个 token。
 
 ```bash
@@ -35,10 +36,13 @@ ds.to_json('zh_wiki.jsonl')
 优势：快速启动、干净的散文、多样的主题。对于严肃的预训练来说太小，但非常适合 nanoGPT 实验。
 
 ### 2. `thu-coai/zh_cls_fudan-news` / THUCTC
+
 74 万篇新闻文章，干净的中文。良好的领域特定语料库。
 
 ### 3. CLUECorpus2020
+
 从 Common Crawl 过滤出的 100GB 中文网络文本。适用于中等规模运行。
+
 - HuggingFace: `clue/clue_corpus_small_14g`（14GB 子集）
 
 ```bash
@@ -53,6 +57,7 @@ ds = load_dataset('clue', 'clue_corpus_small_14g')
 ## 第二梯队 — 更高质量，更多工作
 
 ### 4. **Fineweb-Edu-Chinese**（OpenCSG）
+
 在 C-Eval 和 CMMLU 基准测试上经过验证，预训练期间精度提升显著 — 目前最高质量的中文网络语料库。
 
 ```bash
@@ -64,9 +69,11 @@ ds = load_dataset("opencsg/Fineweb-Edu-Chinese", split="train", streaming=True)
 包含 1.88 亿个文本，约 420B 个 token，通过教育价值评分模型过滤，阈值为 3 分。对于完整加载 nanoGPT 来说太大 — 请流式传输子集。
 
 ### 5. **MAP-CC**
+
 开源中文预训练数据集，包含 800B 个 token，并提供了清洗中文网络语料库的详细流程。对于 nanoGPT 来说过于庞大，但如果你打算扩展到 MI300X 则非常出色。
 
 ### 6. **SkyPile / WuDao / YaYi**
+
 YaYi、SkyPile 和 WuDao 精心整理了开源内容 — 但数量有限。WuDao 规模大但存在质量一致性问题以及换行符格式问题。
 
 ---
@@ -74,9 +81,11 @@ YaYi、SkyPile 和 WuDao 精心整理了开源内容 — 但数量有限。WuDao
 ## 第三梯队 — 特定用途
 
 ### 7. **Cosmopedia-Chinese**（OpenCSG）
+
 合成教科书风格数据，非常适合指令跟随。更适合微调而非原始预训练。
 
 ### 8. **百度百科**
+
 百度百科语料库几乎涵盖所有知识领域，与维基百科相当但大了 10 倍。HuggingFace 上存在抓取版本。
 
 ---

@@ -20,6 +20,7 @@ For nanoGPT-scale training (character/BPE tokenizer, single GPU, fast iteration)
 ## Tier 1 — Start Here (nanoGPT-ready)
 
 ### 1. Chinese Wikipedia Dump
+
 The classic starting point. Clean, structured, ~1.6GB / ~0.4B tokens.
 
 ```bash
@@ -35,10 +36,13 @@ ds.to_json('zh_wiki.jsonl')
 Good for: fast bootstrapping, clean prose, diverse topics. Too small for serious pretraining but perfect for nanoGPT experiments.
 
 ### 2. `thu-coai/zh_cls_fudan-news` / THUCTC
+
 740K news articles, clean Chinese. Good domain-specific corpus.
 
 ### 3. CLUECorpus2020
+
 100GB of Chinese web text filtered from Common Crawl. Practical for medium-scale runs.
+
 - HuggingFace: `clue/clue_corpus_small_14g` (14GB subset)
 
 ```bash
@@ -53,6 +57,7 @@ ds = load_dataset('clue', 'clue_corpus_small_14g')
 ## Tier 2 — Higher Quality, More Work
 
 ### 4. **Fineweb-Edu-Chinese** (OpenCSG)
+
 Validated on C-Eval and CMMLU benchmarks, showing sharp accuracy gains during pretraining — the highest quality Chinese web corpus right now.
 
 ```bash
@@ -64,9 +69,11 @@ ds = load_dataset("opencsg/Fineweb-Edu-Chinese", split="train", streaming=True)
 188 million texts, ~420B tokens, filtered by an educational value scoring model with a 3-point threshold. Way too big for nanoGPT in full — stream a subset.
 
 ### 5. **MAP-CC**
+
 Open-source Chinese pretraining dataset with 800B tokens, with detailed procedures for cleaning Chinese web corpora. Overkill for nanoGPT but excellent if you want to scale up to your MI300X.
 
 ### 6. **SkyPile / WuDao / YaYi**
+
 YaYi, SkyPile, and WuDao meticulously curate open-source content — though limited in quantity. WuDao is large but has quality consistency issues and formatting problems with line breaks.
 
 ---
@@ -74,9 +81,11 @@ YaYi, SkyPile, and WuDao meticulously curate open-source content — though limi
 ## Tier 3 — Targeted Use Cases
 
 ### 7. **Cosmopedia-Chinese** (OpenCSG)
+
 Synthetic textbook-style data, great for instruction following. Better for fine-tuning than raw pretraining.
 
 ### 8. **Baidu Baike**
+
 The Baidu Baike corpus covers nearly all knowledge domains, comparable to Wikipedia but 10x larger. Scraped versions exist on HuggingFace.
 
 ---

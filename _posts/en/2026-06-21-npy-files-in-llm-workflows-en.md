@@ -98,6 +98,7 @@ np.save(f"layer_{i}_attn.npy", attn_weights.cpu().numpy())
 **In your nanoGPT context specifically:**
 
 `prepare.py` in nanoGPT does:
+
 ```python
 train_ids = np.array(enc.encode_ordinary(train_data), dtype=np.uint16)
 train_ids.tofile(os.path.join(os.path.dirname(__file__), 'train.bin'))

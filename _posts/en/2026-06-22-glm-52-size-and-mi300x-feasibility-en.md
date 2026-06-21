@@ -18,6 +18,7 @@ type: note
 **753B parameters**, BF16/F32 tensors. At BF16 (2 bytes/param), that's roughly **~1.5 TB** of raw weights. It's a MoE model though (like DeepSeek), so active parameters per token are much smaller — but you still need to load all expert weights.
 
 For practical deployment:
+
 - **BF16 full precision**: ~1.5 TB VRAM — not feasible on a single MI300X
 - **FP8 / INT8 quantized**: ~750 GB — still needs multiple GPUs
 - **INT4 quantized (GGUF)**: ~380 GB — borderline on 2× MI300X or a single node
@@ -55,6 +56,7 @@ vllm serve "zai-org/GLM-5.2" \
 ```
 
 For ROCm specifically:
+
 ```bash
 pip install vllm --extra-index-url https://download.pytorch.org/whl/rocm6.1
 ```
@@ -113,6 +115,7 @@ GLM-5.2 uses **IndexShare** — reuses the same indexer across every 4 sparse at
 Your **single MI300X (192 GB) can run GLM-5.2 INT4** (~380 GB) only with aggressive CPU offloading via KTransformers, which will be slow (1–5 tok/s). For real throughput you need **2–4 MI300X nodes** — worth requesting a multi-GPU allocation on AMD Dev Cloud if you want to benchmark it seriously.
 
 **References:**
+
 - [GLM-5.2 HuggingFace](https://huggingface.co/zai-org/GLM-5.2)
 - [GLM-5 Technical Report (arxiv 2602.15763)](https://arxiv.org/abs/2602.15763)
 - [IndexShare paper (arxiv 2603.12201)](https://arxiv.org/abs/2603.12201)

@@ -18,6 +18,7 @@ type: note
 **753B 参数**，BF16/F32 张量。以 BF16（2 字节/参数）计算，原始权重约为 **~1.5 TB**。不过它是 MoE 模型（类似 DeepSeek），所以每个 token 的激活参数要小得多——但你仍然需要加载所有专家权重。
 
 对于实际部署：
+
 - **BF16 全精度**：~1.5 TB 显存——单张 MI300X 不可行
 - **FP8 / INT8 量化**：~750 GB——仍需要多张 GPU
 - **INT4 量化（GGUF）**：~380 GB——勉强可用 2× MI300X 或单个节点
@@ -55,6 +56,7 @@ vllm serve "zai-org/GLM-5.2" \
 ```
 
 针对 ROCm 的特定命令：
+
 ```bash
 pip install vllm --extra-index-url https://download.pytorch.org/whl/rocm6.1
 ```
@@ -113,6 +115,7 @@ GLM-5.2 使用了 **IndexShare**——每 4 层稀疏注意力层复用相同的
 你的 **单张 MI300X（192 GB）只能通过 KTransformers 进行激进的 CPU 卸载来运行 INT4 量化的 GLM-5.2（~380 GB）**，这会很慢（1–5 tok/s）。要获得实际吞吐量，你需要 **2–4 个 MI300X 节点**——如果你想认真进行基准测试，建议在 AMD Dev Cloud 上申请多 GPU 分配。
 
 **参考资料：**
+
 - [GLM-5.2 HuggingFace](https://huggingface.co/zai-org/GLM-5.2)
 - [GLM-5 Technical Report (arxiv 2602.15763)](https://arxiv.org/abs/2602.15763)
 - [IndexShare paper (arxiv 2603.12201)](https://arxiv.org/abs/2603.12201)

@@ -14,12 +14,14 @@ type: note
 === /mnt/data/zz — GitHub代码训练流水线 ===
 
 步骤1：下载（来自HuggingFace的codeparrot/github-code）
+
 - 脚本：scripts/download/download_github_code.py
 - 使用wget从HF拉取parquet分片
 - 目前已下载38个分片（约11GB），目标为100GB
 - 输出：datasets/github-code/train-00000-of-01126.parquet ...
 
 步骤2：分词（通过tiktoken实现的GPT-2 BPE）
+
 - 脚本：scripts/extract/tokenize_github_code.py
 - 读取parquet文件的'content'列，使用tiktoken gpt2进行编码
 - 写入包含1亿个token的.npy分片（uint16格式）
@@ -31,6 +33,7 @@ type: note
   - 总计27GB
 
 步骤3：训练（nanoGPT，当前在tmux会话"train"中运行）
+
 - 配置：nanoGPT/config/train_github_code_124m.py
 - GPT-2 124M（12层，12个注意力头，768维嵌入）
 - 批次大小4 × 1024，梯度累积8 = 每次迭代32768个token

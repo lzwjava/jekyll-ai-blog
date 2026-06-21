@@ -14,12 +14,14 @@ Here's the full pipeline summary:
 === /mnt/data/zz — GitHub Code Training Pipeline ===
 
 STEP 1: DOWNLOAD (codeparrot/github-code from HuggingFace)
+
 - Script: scripts/download/download_github_code.py
 - Uses wget to pull parquet shards from HF
 - Downloaded 38 shards so far (~11 GB), target was 100 GB
 - Output: datasets/github-code/train-00000-of-01126.parquet ...
 
 STEP 2: TOKENIZE (GPT-2 BPE via tiktoken)
+
 - Script: scripts/extract/tokenize_github_code.py
 - Reads parquet 'content' column, encodes with tiktoken gpt2
 - Writes 100M-token .npy shards (uint16)
@@ -31,6 +33,7 @@ STEP 2: TOKENIZE (GPT-2 BPE via tiktoken)
   - 27 GB total
 
 STEP 3: TRAIN (nanoGPT, running now in tmux "train")
+
 - Config: nanoGPT/config/train_github_code_124m.py
 - GPT-2 124M (12 layers, 12 heads, 768 embd)
 - Batch 4 × 1024, grad_accum 8 = 32,768 tokens/step

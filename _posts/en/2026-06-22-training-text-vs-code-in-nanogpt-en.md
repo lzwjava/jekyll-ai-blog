@@ -38,16 +38,19 @@ GPT-2 BPE was trained on WebText (internet text), not code. A code-native tokeni
 ## 2. Loss Landscape & What the Model Actually Learns
 
 ### Text training
+
 - Models common word co-occurrences, syntactic patterns, factual associations
 - Loss converges to ~3.0-3.5 (bits-per-character ~1.1) for GPT-2 scale
 - Attention heads specialize in: subject-verb agreement, coreference, positional syntax
 
 ### Code training
+
 - **Structure is stricter** — code has hard syntactic rules (balanced parens, correct indentation, valid identifiers). The model must learn these or it fails catastrophically (syntactically invalid output = useless).
 - **Long-range dependencies matter more** — a function defined at line 10 is called at line 200. Text can be locally coherent; code must be globally consistent.
 - **Loss floor is higher** — even perfect code prediction is harder because identifier names are essentially arbitrary. `get_user_by_id` vs `fetch_user_from_db` are semantically equivalent but tokenize differently. The model can't "know" which convention a codebase uses without full context.
 
 Expected val loss trajectory for your run:
+
 ```
 iter 0:      ~10.5  (random)
 iter 14k:    5.87   (you're here — learning basic syntax)
@@ -61,18 +64,21 @@ iter 427k:   ~3.2-3.5  (GPT-2 scale ceiling on code)
 ## 3. Context Window & Repetition Patterns
 
 **Text (FineWeb/OpenWebText):**
+
 ```python
 block_size = 1024  # usually enough for a paragraph or two
 # documents are often <1024 tokens, packed with EOT separator
 ```
 
 **Code:**
+
 - Files are often >1024 tokens (a single Python file can be 5k+ tokens)
 - Your config uses `block_size = 1024` — meaning most code files get **truncated mid-function**
 - This is a known limitation: model never sees complete function bodies for longer files
 - The model learns local syntax well but struggles with file-level structure
 
 **Improvement for your next run:**
+
 ```python
 # train_github_code_124m.py
 block_size = 2048  # doubles memory usage, but worth it for code
@@ -119,6 +125,7 @@ prompt = "def fibonacci(n):\n    "
 ```
 
 For your 124M run, don't expect HumanEval scores — GPT-2 scale is too small for complex reasoning. But you can test:
+
 - Does it produce syntactically valid Python?
 - Does it complete simple patterns (list comprehensions, for loops)?
 - Does it generalize across languages?
