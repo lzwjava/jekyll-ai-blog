@@ -16,6 +16,11 @@ In particular, I'd like to draw your attention to my three [papers](/papers-en) 
 
 Feel free to reach out if you’re interested! You can say hi to me on X, or Telegram, leave a comment, send me a direct message, or drop me an email.
 
+
+#### About - Short
+
+Senior AI Full-Stack Engineer with 12 years of engineering and entrepreneurial experience. Former roles at LeanCloud, Farben Information, and Beyondsoft, serving as Co-founder, Full-Stack Engineer, and AI Engineer. Founded and operated Fun Live, a live knowledge-streaming platform that grew to 30,000 users; later pivoted to technical consulting, leading a team to achieve 3 million CNY in annual revenue. Three years of experience at multinational corporations, including secondments as an engineer on digital finance projects at DBS Bank (Singapore) and HSBC (Hong Kong). Over the course of his career, code and content he contributed to have cumulatively reached approximately 150 million people. An independent self-taught researcher who has authored three academic papers on natural vision restoration; has spent roughly three years studying LLM training and inference in his spare time, consuming over 2 billion tokens in the past year alone. Attended Beijing Forestry University; began writing code in middle school.
+
 #### About
 
 I am a full-stack and backend engineer with over 10 years of experience spanning banking, startups, and independent projects. My journey began with competitive programming, ranking in the top 300 in Guangdong NOIP, followed by studying at Beijing Forestry University before dropping out to pursue a self-directed path in technology. I later founded Fun Live, a knowledge live-streaming startup, where I handled most engineering and product decisions and grew the platform to tens of thousands of users. After the startup phase, I worked as a contractor for major financial institutions, including DBS Bank and HSBC, gaining experience in large-scale backend systems, distributed architectures, and cloud infrastructure.
