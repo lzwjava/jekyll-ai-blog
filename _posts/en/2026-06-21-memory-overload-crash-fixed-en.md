@@ -17,10 +17,12 @@ COMPREHENSIVE SUMMARY
 
 PROBLEM
 -------
+
 The tokenize script hung/crashed the workstation (192.168.1.36), making it so overloaded that sshd couldn't even complete the SSH banner exchange — TCP port 22 accepted connections but never responded. Required a physical reboot.
 
 ROOT CAUSE
 ----------
+
 The original script used `multiprocessing.Pool(16)` with `pool.imap()`. Each of the 16 worker processes:
 
 1. Loaded an ENTIRE parquet file into memory via `pq.read_table()` (~280 MB on disk, larger decompressed)
@@ -34,6 +36,7 @@ Additionally, when workers get OOM-killed, `pool.imap()` hangs silently in the m
 
 THE FIX
 -------
+
 Rewrote the script with three key changes:
 
 1. NO MULTIPROCESSING: Single-process. Each parquet file is already huge (~370M tokens), no benefit from parallelism when the bottleneck is memory, not CPU.
@@ -44,6 +47,7 @@ Rewrote the script with three key changes:
 
 RESULT
 ------
+
   Input:  38 parquet files, 10.2 GB
   Output: 141 shards (1 val + 140 train), 27 GB on disk
   Tokens: ~14.07 billion
