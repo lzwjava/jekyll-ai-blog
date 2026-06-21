@@ -16,6 +16,7 @@ When Python's stdout is piped through `tee`, it's not a TTY, so Python fully buf
 The log file's last modified time is 21:16 (only the initial warnings). The process is piped (`fd/1 -> pipe`), confirming the buffering issue.
 
 **Training is fine, just invisible output.** To fix for future runs, either:
+
 - Set `PYTHONUNBUFFERED=1` in the launch command
 - Or add `-u` flag: `python3 -u train.py ...`
 

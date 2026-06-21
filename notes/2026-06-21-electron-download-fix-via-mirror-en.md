@@ -19,6 +19,7 @@ Everything checks out:
 **Why it was stuck:** `hermes update` → "Updating Node.js dependencies" → `npm ci` → Electron's `install.js` postinstall trying to download its ~100 MB binary **directly from GitHub** (bypassing your `localhost:7890` proxy). That direct connection stalled, so `npm ci` never returned and the Python updater sat blocked in `subprocess.wait()` — exactly where your Ctrl-C traceback landed.
 
 **What I did:**
+
 1. Killed the orphaned `node install.js` / `npm ci` processes and removed the empty `electron-download-*` temp dir.
 2. Created `~/.npmrc` pointing Electron (and electron-builder binaries) at the fast `npmmirror.com` mirror.
 3. Verified the mirror is reachable and that npm forwards the config to the postinstall.

@@ -40,16 +40,19 @@ Your core question: does Chinese LLM dominance elevate Chinese AI engineers inte
 Here's the honest breakdown:
 
 **What's changing:**
+
 - DeepSeek's architecture papers (MLA, MoE load balancing, GRPO) are now **required reading** globally. Engineers who deeply understand these are valuable anywhere.
 - Chinese open-source LLM downloads grew 340% year-over-year per HuggingFace 2025 data — the global research community is consuming Chinese model work at scale.
 - The technical credibility is established. After DeepSeek R1, traders and analysts already priced in that Chinese AI is competitive and cheaper to use. The shock phase is over; it's now baseline expectation.
 
 **What's NOT changing fast:**
+
 - Fortune 500 hiring still has geopolitical friction — security clearances, export controls, visa biases.
 - The narrative asymmetry: Western companies are happy to *use* Chinese open-source models but still reluctant to *hire* Chinese engineers at senior AI roles, especially for anything near infrastructure or national security adjacent work.
 - The "Chinese AI talent = DeepSeek team" halo is narrow. Most hiring managers outside China don't differentiate between a DeepSeek researcher and an average developer from China.
 
 **Where the real lift happens:**
+
 - Engineers who can **explain, fine-tune, and extend** DeepSeek/Qwen architectures — specifically MLA, MoE routing, sparse attention — are internationally valuable right now.
 - The open-source nature means the work speaks for itself. If you've trained on MI300X, fine-tuned Qwen3, or contributed to DeepSeek tooling, that's a GitHub portfolio that crosses any border.
 - DeepSeek V4's ability to run natively on domestic Huawei Ascend chips is being watched closely for AI sovereignty implications — engineers fluent in non-NVIDIA inference stacks (AMD, Ascend) are becoming a niche premium.

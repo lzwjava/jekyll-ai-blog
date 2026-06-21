@@ -19,6 +19,7 @@ type: note
 **卡住的原因：** `hermes update` → “正在更新 Node.js 依赖” → `npm ci` → Electron 的 `install.js` 的 postinstall 脚本尝试**直接从 GitHub**（绕过了你的 `localhost:7890` 代理）下载约 100 MB 的二进制文件。由于直连 GitHub 卡住，`npm ci` 始终未返回，Python 更新器在 `subprocess.wait()` 中阻塞——这正好对应你 Ctrl-C 回溯中出现的位置。
 
 **我已执行的操作：**
+
 1. 终止了残留的 `node install.js` / `npm ci` 进程，并删除了空的 `electron-download-*` 临时目录。
 2. 创建了 `~/.npmrc` 文件，将 Electron（及 electron-builder 二进制文件）的下载源指向快速的 `npmmirror.com` 镜像。
 3. 确认该镜像可达，且 npm 已将该配置传递给 postinstall 脚本。

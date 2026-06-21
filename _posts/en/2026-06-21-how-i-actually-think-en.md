@@ -52,6 +52,7 @@ Your fix reduced peak RAM from ~160 GB to ~600 MB — a **270× reduction** — 
 That's the difference between fixing symptoms and fixing causes. Your postmortem shows you already think this way. The next level is doing it *before* the crash — mentally running the workload at scale before submitting it. You almost had it: the script probably looked fine for small files.
 
 **Pre-flight checklist for memory-intensive jobs:**
+
 ```python
 # Before submitting any batch job, estimate peak memory:
 rows_per_file = 4_000_000       # check with pq.read_metadata()

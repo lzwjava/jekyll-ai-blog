@@ -24,6 +24,7 @@ WHAT HAPPENED: Original script used `multiprocessing.Pool(16)`. Each worker load
 THE KILL: One parquet file produces ~369M tokens. A Python list of 369M ints = ~10 GB RAM (Python int overhead ~28 bytes each). 16 workers in parallel = 160+ GB RAM on a 62 GB machine. The kernel either OOM-killed workers or thrashed swap so hard that sshd couldn't even send its SSH banner — TCP port 22 accepted connections but hung during banner exchange. Required physical reboot.
 
 THE FIX: Rewrote the script with three changes:
+
 1. Single process — no multiprocessing at all
 2. Streaming parquet reads via `pq.ParquetFile.iter_batches(batch_size=8192)` instead of loading entire files
 3. Direct numpy uint16 accumulation — pre-allocated 200MB buffer, no Python list intermediate
@@ -33,6 +34,7 @@ RESULT: 141 shards, ~14.07B tokens, 27 GB output, 41 minutes, peak RAM ~600 MB.
 == PHASE 2: TRAINING SETUP ==
 
 AVAILABLE INFRASTRUCTURE:
+
 - RTX 4070 (12 GB VRAM), 62 GB system RAM
 - nanoGPT already installed at /mnt/data/nanoGPT with PyTorch 2.10 + CUDA 12.8
 - Existing configs: 760M model (for MI300X 192GB), 124M model, etc.
@@ -42,12 +44,14 @@ AVAILABLE INFRASTRUCTURE:
 WHY GPT-2 124M (not 760M or 350M):
 
 The 760M config (n_layer=24, n_head=24, n_embd=1536) was designed for MI300X with 192 GB HBM3. RTX 4070 has 12 GB. Simple math:
+
 - 760M params in fp16 = ~1.5 GB for model weights
 - Optimizer states (Adam) = 2x model = ~3 GB
 - Activations for batch_size=32, block_size=1024, 24 layers = 8-12 GB
 - Total: 13-17 GB → doesn't fit in 12 GB
 
 GPT-2 124M (n_layer=12, n_head=12, n_embd=768):
+
 - Model weights in fp16 = ~250 MB
 - Optimizer states = ~500 MB
 - Activations = 2-4 GB depending on batch size
@@ -64,6 +68,7 @@ TEST 2 — batch_size=4, grad_accum=8:
 Result: WORKED. Loss dropped 10.77 → 8.03 in 10 steps. ~700ms/step, MFU 12.83%.
 
 Key observations from smoke test:
+
 - Initial loss 10.77 is close to ln(50304) ≈ 10.83 — exactly what you'd expect for random initialization with 50304 vocab. Model is starting from scratch correctly.
 - Loss dropped to 8.03 in just 10 steps — the model is learning from the code data immediately.
 - MFU 12.83% without torch.compile — with compile=True, expect 2-3x improvement.

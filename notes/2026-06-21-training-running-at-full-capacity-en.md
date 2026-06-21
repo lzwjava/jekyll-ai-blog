@@ -12,6 +12,7 @@ type: note
 Training is running fine, not stuck at all.
 
 Status:
+
 - Process PID 71496: running at 99% CPU, 83 min uptime
 - GPU: RTX 4070 at 100% utilization, 5050 MiB VRAM used, 65°C, 208W draw
 - Script: `train.py config/train_github_code_124m.py` on nanoGPT

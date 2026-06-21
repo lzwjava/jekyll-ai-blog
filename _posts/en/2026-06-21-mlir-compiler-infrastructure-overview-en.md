@@ -26,7 +26,9 @@ MLIR's answer: one extensible IR with a **dialect system** that lets multiple ab
 ### Key Concepts
 
 #### 1. Operations (Ops)
+
 Everything in MLIR is an `Op`. An op has:
+
 - A name (`linalg.matmul`, `arith.addi`, `func.call`)
 - Operands (SSA values in)
 - Results (SSA values out)
@@ -43,6 +45,7 @@ func.func @matmul(%A: memref<4x4xf32>, %B: memref<4x4xf32>, %C: memref<4x4xf32>)
 ```
 
 #### 2. Dialects
+
 A dialect is a namespace of ops, types, and attributes that model a specific abstraction level. Think of each dialect as a "mini-IR":
 
 | Dialect | Level | Purpose |
@@ -77,6 +80,7 @@ llvm.func  →  LLVM IR  →  PTX / AMDGPU ISA
 Each step is a **pass** — a transformation that rewrites ops from one dialect to another. Passes compose into pipelines.
 
 #### 4. Regions and SSA
+
 MLIR extends SSA (like LLVM) with **regions** — blocks of ops that can be nested inside other ops. This lets a single IR represent both high-level dataflow graphs *and* low-level loops without switching representations. It's how `scf.for` holds a body, or how `func.func` holds a function body.
 
 ### Why It Matters for AI/ML Compilers

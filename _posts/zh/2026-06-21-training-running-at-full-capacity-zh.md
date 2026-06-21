@@ -12,6 +12,7 @@ type: note
 训练运行正常，完全没有卡住。
 
 状态：
+
 - 进程 PID 71496：运行中，CPU 占用 99%，已运行 83 分钟
 - GPU：RTX 4070，利用率 100%，显存占用 5050 MiB，温度 65°C，功耗 208W
 - 脚本：`train.py config/train_github_code_124m.py`，基于 nanoGPT

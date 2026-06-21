@@ -26,7 +26,9 @@ MLIR 的解决方案：一个可扩展的 IR，带有一套**方言（dialect）
 ### 关键概念
 
 #### 1. 操作（Ops）
+
 MLIR 中的所有东西都是 `Op`。一个操作包含：
+
 - 名称（`linalg.matmul`、`arith.addi`、`func.call`）
 - 操作数（输入的 SSA 值）
 - 结果（输出的 SSA 值）
@@ -43,6 +45,7 @@ func.func @matmul(%A: memref<4x4xf32>, %B: memref<4x4xf32>, %C: memref<4x4xf32>)
 ```
 
 #### 2. 方言（Dialects）
+
 方言是操作、类型和属性的命名空间，用于建模特定的抽象层次。可以将每个方言看作一个“迷你 IR”：
 
 | 方言 | 层次 | 用途 |
@@ -77,6 +80,7 @@ llvm.func  →  LLVM IR  →  PTX / AMDGPU ISA
 每一步都是一个 **pass**——一种将操作从一种方言重写为另一种方言的转换。多个 pass 可以组合成流水线。
 
 #### 4. 区域与 SSA
+
 MLIR 扩展了 SSA（类似 LLVM），引入了**区域（regions）**——可以嵌套在其他操作内部的块。这使得单个 IR 既能表示高层数据流图，也能表示底层循环，而无需切换表示方式。这就是 `scf.for` 如何持有循环体，或者 `func.func` 如何持有函数体的方式。
 
 ### 为什么它对 AI/ML 编译器重要
