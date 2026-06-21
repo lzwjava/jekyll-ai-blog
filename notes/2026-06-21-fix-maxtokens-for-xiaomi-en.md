@@ -16,12 +16,14 @@ OK here's the full picture after inspecting your config and the codebase.
 ## Your Setup
 
 **Config:** `~/.hermes/config.yaml`
+
 - Model: `mimo-v2.5-pro`
 - Provider: `xiaomi`
 - Base URL: `https://token-plan-cn.xiaomimimo.com/v1`
 - **No `max_tokens` configured anywhere** — not in `model:`, not in `agent:`, not in `.env`
 
 **Provider profile:** `plugins/model-providers/xiaomi/__init__.py`
+
 - `default_max_tokens` is **not set** (defaults to `None`)
 
 ---

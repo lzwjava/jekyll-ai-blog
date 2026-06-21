@@ -42,9 +42,11 @@ type: note
 ## 选项
 
 **选项A：在此GPU上使用减少的批次大小进行训练**
+
 ```
 batch_size=2, gradient_accumulation_steps=16
 ```
+
 这将保持有效批次为32K tokens，但每次处理2个样本。速度较慢（445K步约需数周），但可适配12GB。
 
 **选项B：纯CPU训练** — 64GB内存对模型来说足够，但训练需数月。不现实。

@@ -30,11 +30,13 @@ git clone https://github.com/karpathy/nanoGPT
 - `config/train_gpt2.py` — 124M、355M、774M、1558M 的配置
 
 对于 760M 模型，你可以使用 `train_gpt2_medium.py` 或直接设置：
+
 ```python
 n_layer = 36
 n_head = 20
 n_embd = 1280
 ```
+
 这属于 GPT-2 XL 规模（约 760M 参数）。
 
 ---
@@ -46,6 +48,7 @@ git clone https://github.com/NVIDIA/Megatron-LM
 ```
 
 若在 MI300X 上使用，你可采用 ROCm 分支或 AMD 的自有版本：
+
 ```bash
 git clone https://github.com/ROCm/Megatron-LM
 ```
@@ -111,6 +114,7 @@ torchrun --nproc_per_node=1 train.py config/train_gpt2_760m.py
 ```
 
 在 MI300X 上使用多 GPU（该设备拥有 192GB HBM3，单 GPU 即可轻松容纳）：
+
 ```bash
 # 单 GPU，760M 模型权重约 6GB + 优化器状态约 24GB，总计约 30GB
 # MI300X 有 192GB 显存，可提供大量余量以使用更大的批次大小

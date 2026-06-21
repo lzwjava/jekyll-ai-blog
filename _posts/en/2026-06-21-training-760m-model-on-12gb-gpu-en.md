@@ -42,9 +42,11 @@ You'll hit OOM immediately with `batch_size=32`.
 ## Options
 
 **Option A: Train on this GPU with reduced batch**
+
 ```
 batch_size=2, gradient_accumulation_steps=16
 ```
+
 This keeps effective batch at 32K tokens but processes 2 samples at a time. Will be slow (~weeks for 445K steps) but fits in 12GB.
 
 **Option B: CPU-only training** — 64GB RAM is plenty for the model, but training would take months. Not practical.

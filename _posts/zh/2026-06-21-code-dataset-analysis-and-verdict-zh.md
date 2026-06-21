@@ -25,9 +25,10 @@ type: note
 | 格式 | 仅SWHID（文件ID，非实际代码） |
 
 结论：**不实用。** HF数据集只存储Software Heritage ID，不包含代码内容。要获取实际文件，你需要：
-  - AWS S3凭证（softwareheritage存储桶）
-  - 与Software Heritage + INRIA达成协议
-  - 通过S3 API逐文件下载
+
+- AWS S3凭证（softwareheritage存储桶）
+- 与Software Heritage + INRIA达成协议
+- 通过S3 API逐文件下载
 
 这专为BigCode的内部流水线设计，不适合个人下载。
 
@@ -101,6 +102,7 @@ type: note
 你的机器：RTX 4070（12GB），64GB RAM，972GB空闲磁盘。
 
 **步骤1：用the-stack-smol（2.6GB）进行测试**
+
 ```bash
 pip install datasets
 python3 -c "
@@ -113,6 +115,7 @@ print(ds[0])
 
 **步骤2：下载codeparrot/github-code（压缩后约300GB）**
 这是可直接下载的最佳真实代码数据集。若磁盘紧张可按语言过滤：
+
 ```bash
 python3 -c "
 from datasets import load_dataset

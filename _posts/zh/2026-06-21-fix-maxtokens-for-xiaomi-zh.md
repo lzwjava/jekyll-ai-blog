@@ -14,12 +14,14 @@ type: note
 ## 你的配置
 
 **配置：** `~/.hermes/config.yaml`
+
 - 模型：`mimo-v2.5-pro`
 - 提供商：`xiaomi`
 - 基础 URL：`https://token-plan-cn.xiaomimimo.com/v1`
 - **没有在任何地方配置 `max_tokens`** —— 既不在 `model:` 中，也不在 `agent:` 中，也不在 `.env` 中
 
 **提供商配置文件：** `plugins/model-providers/xiaomi/__init__.py`
+
 - `default_max_tokens` **未设置**（默认为 `None`）
 
 ---

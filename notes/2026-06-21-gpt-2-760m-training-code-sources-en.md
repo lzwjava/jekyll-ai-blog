@@ -30,11 +30,13 @@ This is the gold standard for GPT-2 scale pretraining from scratch. You've alrea
 - `config/train_gpt2.py` — configs for 124M, 355M, 774M, 1558M
 
 For 760M specifically, `train_gpt2_medium.py` or just set:
+
 ```python
 n_layer = 36
 n_head = 20
 n_embd = 1280
 ```
+
 That's GPT-2 XL territory (~760M params).
 
 ---
@@ -46,6 +48,7 @@ git clone https://github.com/NVIDIA/Megatron-LM
 ```
 
 For MI300X you'd use the ROCm fork or AMD's own:
+
 ```bash
 git clone https://github.com/ROCm/Megatron-LM
 ```
@@ -111,6 +114,7 @@ torchrun --nproc_per_node=1 train.py config/train_gpt2_760m.py
 ```
 
 For multi-GPU on MI300X (it has 192GB HBM3 so you can fit this easily on 1 GPU):
+
 ```bash
 # Single GPU, 760M fits in ~6GB weights + optimizer states ~24GB total
 # MI300X has 192GB so you have massive headroom for bigger batch sizes

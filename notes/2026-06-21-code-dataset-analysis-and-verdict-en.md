@@ -25,9 +25,10 @@ CODE DATASETS EXPLORATION — ANALYSIS
 | Format | SWHIDs only (file IDs, NOT actual code) |
 
 VERDICT: **NOT practical.** The HF dataset only stores Software Heritage IDs, not code content. To get actual files you need:
-  - AWS S3 credentials for softwareheritage bucket
-  - Agreement with Software Heritage + INRIA
-  - Download file-by-file via S3 API
+
+- AWS S3 credentials for softwareheritage bucket
+- Agreement with Software Heritage + INRIA
+- Download file-by-file via S3 API
 
 This is designed for BigCode's internal pipeline, not for individual download.
 
@@ -101,6 +102,7 @@ RECOMMENDATION FOR YOUR SETUP
 Your machine: RTX 4070 (12GB), 64GB RAM, 972GB free disk.
 
 **Step 1: Test with the-stack-smol (2.6GB)**
+
 ```bash
 pip install datasets
 python3 -c "
@@ -113,6 +115,7 @@ print(ds[0])
 
 **Step 2: Download codeparrot/github-code (~300GB compressed)**
 This is the best real code dataset that's directly downloadable. You can filter by language if disk is tight:
+
 ```bash
 python3 -c "
 from datasets import load_dataset
