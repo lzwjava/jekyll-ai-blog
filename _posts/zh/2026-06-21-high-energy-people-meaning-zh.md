@@ -16,6 +16,7 @@ type: note
 它的意思是 **“high-energy people”** —— 指那些拥有充沛身心能量、强大内驱力、高产出效率以及持续专注力的人。
 
 拆解来看：
+
 - 高 = high
 - 精力 = energy/vitality（心理与生理的结合）
 - 人群 = group of people / population

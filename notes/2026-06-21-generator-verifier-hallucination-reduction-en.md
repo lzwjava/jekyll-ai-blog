@@ -48,6 +48,7 @@ This is widely called **LLM-as-judge** or **verification agent**.
 ### How It Works Mechanically
 
 The verifier receives:
+
 1. The original user query
 2. The generator's response
 3. (Optional) retrieved context from RAG
@@ -67,6 +68,7 @@ A typical production stack uses GPT-4o as the primary generator and Claude as th
 ### Verifier Implementation (Minimal)
 
 {% raw %}
+
 ```python
 import anthropic
 
@@ -106,6 +108,7 @@ def generate_with_verification(prompt: str, context: str = "", retries: int = 2)
         prompt += f"\n\nPrevious attempt was wrong: {verdict['reason']}. Try again carefully."
     return response  # return best effort after retries
 ```
+
 {% endraw %}
 
 ### Why Verifiers Work

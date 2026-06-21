@@ -49,6 +49,7 @@ type: note
 ### 工作机制
 
 验证器接收：
+
 1. 原始用户查询
 2. 生成器的响应
 3. （可选）从 RAG 检索的上下文
@@ -68,6 +69,7 @@ type: note
 ### 验证器实现（最小化）
 
 {% raw %}
+
 ```python
 import anthropic
 
@@ -107,6 +109,7 @@ def generate_with_verification(prompt: str, context: str = "", retries: int = 2)
         prompt += f"\n\n之前的尝试是错误的：{verdict['reason']}。请仔细重试。"
     return response  # 重试后返回最佳结果
 ```
+
 {% endraw %}
 
 ### 为什么验证器有效

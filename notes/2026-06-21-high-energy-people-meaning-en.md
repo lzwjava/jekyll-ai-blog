@@ -16,6 +16,7 @@ type: note
 It means **"high-energy people"** — individuals with abundant physical and mental energy, strong drive, high productivity, and sustained focus.
 
 Breaking it down:
+
 - 高 = high
 - 精力 = energy/vitality (mental + physical combined)
 - 人群 = group of people / population
