@@ -37,6 +37,7 @@ Ola Chat 是一家专注于移动应用的全球互联网科技公司，在全�
 **我的建议：** 这是一家东南亚社交/娱乐应用公司，并非 AI 优先的公司。工作内容将是实时音视频基础设施、社交功能、移动端 SDK。有扎实的分布式系统工作，但与您的发展方向（LLM 训练、智能体系统或 AI 基础设施）不一致。如果远程机会是专门针对音视频引擎或后端基础设施岗位，待遇尚可——但不太可能加速您的 AI 工程发展。除非他们专门招聘 AI/ML 岗位，否则这可能是您的横向职业发展。
 
 参考来源：
+
 - [Ola Chat LinkedIn](https://sg.linkedin.com/company/ola-chat)
 - [Clodura 上的 Ola Chat](https://www.clodura.ai/directory/company/ola-chat)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Ola-Chat-Pte-Ltd-EI_IE5274509.11,27.htm)

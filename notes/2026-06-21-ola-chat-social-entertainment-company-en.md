@@ -36,6 +36,7 @@ They're actively hiring in KL, Hanoi, and other Southeast Asian offices as of mi
 **My take for you:** This is a Southeast Asian social/entertainment app company — not an AI-first company. The work would be real-time audio/video infra, social features, mobile SDKs. Solid distributed systems work, but not aligned with your trajectory toward LLM training, agent systems, or AI infra. If the remote opportunity is specifically for audio/video engine or backend infra roles, it's fine money — but I wouldn't expect it to accelerate your AI engineering path. Unless they're specifically hiring for AI/ML roles, it's likely a sideways move for you.
 
 References:
+
 - [Ola Chat LinkedIn](https://sg.linkedin.com/company/ola-chat)
 - [Ola Chat on Clodura](https://www.clodura.ai/directory/company/ola-chat)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Ola-Chat-Pte-Ltd-EI_IE5274509.11,27.htm)
