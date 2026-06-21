@@ -18,14 +18,16 @@ Wget 运行结果：28秒下载273MB（约10 MB/秒）。100GB预计需要约3�
 ================================================================
 
 /mnt/data/zz/scripts/download/download_github_code.py
-  - 从HuggingFace下载约100GB的代码parquet分片数据
-  - 支持断点续传（跳过已下载文件）
-  - 输出路径：/mnt/data/zz/datasets/github-code/*.parquet
+
+- 从HuggingFace下载约100GB的代码parquet分片数据
+- 支持断点续传（跳过已下载文件）
+- 输出路径：/mnt/data/zz/datasets/github-code/*.parquet
 
 /mnt/data/zz/scripts/extract/tokenize_github_code.py
-  - 将parquet文件分词并转换为nanoGPT二进制分片（.npy格式）
-  - 使用GPT-2 BPE分词器，每分片包含1亿个token
-  - 输出路径：/mnt/data/zz/datasets/github-code-tok/
+
+- 将parquet文件分词并转换为nanoGPT二进制分片（.npy格式）
+- 使用GPT-2 BPE分词器，每分片包含1亿个token
+- 输出路径：/mnt/data/zz/datasets/github-code-tok/
 
 ================================================================
 请在TMUX中按顺序执行（每次运行一个）

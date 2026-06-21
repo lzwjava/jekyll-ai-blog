@@ -20,7 +20,7 @@ type: note
 1. 在第一次用户/助手对话后，`maybe_auto_title()` 触发一个后台线程 (agent/title_generator.py)
 2. 它调用 agent/auxiliary_client.py 中的 `call_llm(task="title_generation", main_runtime=main_runtime)`
 3. `_resolve_task_provider_model()` 读取配置 `auxiliary.title_generation`——您的配置设置为 `provider: auto`，且 model/base_url/api_key 为空
-4. `_resolve_auto()` 会选取您的主 provider (xiaomi) + model (mimo-v2.5-pro) + base_url (https://token-plan-cn.xiaomimimo.com/v1)
+4. `_resolve_auto()` 会选取您的主 provider (xiaomi) + model (mimo-v2.5-pro) + base_url (<https://token-plan-cn.xiaomimimo.com/v1>)
 5. 它会创建一个 OpenAI 客户端，并使用来自您 `.hermes/.env` 文件的 `XIAOMI_API_KEY`
 6. 如果该密钥无效或已过期 → 小米 API 返回 HTTP 401
 
@@ -36,6 +36,7 @@ type: note
 ## 来自您日志的证据
 
 根据 `errors.log`，在 2026-05-29，两条路径都失败了：
+
 ```
 10:13:25 API 调用失败 ... provider=xiaomi ... 摘要=HTTP 401: Invalid API Key
 10:13:55 API 调用失败 ... provider=xiaomi ... 摘要=HTTP 401: Invalid API Key
@@ -54,11 +55,12 @@ curl -s https://token-plan-cn.xiaomimimo.com/v1/models \
   -H "Authorization: Bearer *** | head -5
 ```
 
-如果返回 401，请前往 https://platform.xiaomimimo.com 重新生成密钥，并更新 `~/.hermes/.env`。
+如果返回 401，请前往 <https://platform.xiaomimimo.com> 重新生成密钥，并更新 `~/.hermes/.env`。
 
 ## 如何抑制警告（如果密钥正常且只是瞬时波动）
 
 您可以配置 title_generation 使用不同的 provider：
+
 ```yaml
 auxiliary:
   title_generation:

@@ -16,7 +16,6 @@ In particular, I'd like to draw your attention to my three [papers](/papers-en) 
 
 Feel free to reach out if you’re interested! You can say hi to me on X, or Telegram, leave a comment, send me a direct message, or drop me an email.
 
-
 #### About - Short
 
 Senior AI Full-Stack Engineer with 12 years of engineering and entrepreneurial experience. Former roles at LeanCloud, Farben Information, and Beyondsoft, serving as Co-founder, Full-Stack Engineer, and AI Engineer. Founded and operated Fun Live, a live knowledge-streaming platform that grew to 30,000 users; later pivoted to technical consulting, leading a team to achieve 3 million CNY in annual revenue. Three years of experience at multinational corporations, including secondments as an engineer on digital finance projects at DBS Bank (Singapore) and HSBC (Hong Kong). Over the course of his career, code and content he contributed to have cumulatively reached approximately 150 million people. An independent self-taught researcher who has authored three academic papers on natural vision restoration; has spent roughly three years studying LLM training and inference in his spare time, consuming over 2 billion tokens in the past year alone. Attended Beijing Forestry University; began writing code in middle school.

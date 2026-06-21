@@ -18,14 +18,16 @@ FILES CREATED IN /mnt/data/zz/
 ================================================================
 
 /mnt/data/zz/scripts/download/download_github_code.py
-  - Downloads ~100GB of code parquet shards from HuggingFace
-  - Resumable (skips already-downloaded files)
-  - Output: /mnt/data/zz/datasets/github-code/*.parquet
+
+- Downloads ~100GB of code parquet shards from HuggingFace
+- Resumable (skips already-downloaded files)
+- Output: /mnt/data/zz/datasets/github-code/*.parquet
 
 /mnt/data/zz/scripts/extract/tokenize_github_code.py
-  - Tokenizes parquet -> nanoGPT binary shards (.npy)
-  - GPT-2 BPE, 100M tokens per shard
-  - Output: /mnt/data/zz/datasets/github-code-tok/
+
+- Tokenizes parquet -> nanoGPT binary shards (.npy)
+- GPT-2 BPE, 100M tokens per shard
+- Output: /mnt/data/zz/datasets/github-code-tok/
 
 ================================================================
 RUN THESE IN TMUX (one at a time)

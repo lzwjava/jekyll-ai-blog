@@ -20,7 +20,7 @@ I traced the full code path. Here's what's happening:
 1. After the first user/assistant exchange, `maybe_auto_title()` fires a background thread (agent/title_generator.py)
 2. It calls `call_llm(task="title_generation", main_runtime=main_runtime)` in agent/auxiliary_client.py
 3. `_resolve_task_provider_model()` reads config `auxiliary.title_generation` — yours is set to `provider: auto` with empty model/base_url/api_key
-4. `_resolve_auto()` picks up your main provider (xiaomi) + model (mimo-v2.5-pro) + base_url (https://token-plan-cn.xiaomimimo.com/v1)
+4. `_resolve_auto()` picks up your main provider (xiaomi) + model (mimo-v2.5-pro) + base_url (<https://token-plan-cn.xiaomimimo.com/v1>)
 5. It creates an OpenAI client hitting `XIAOMI_API_KEY` from your `.hermes/.env`
 6. If that key is invalid/expired → HTTP 401 from the Xiaomi API
 
@@ -36,6 +36,7 @@ If the key was recently rotated, expired, or the credential pool had a stale ent
 ## Evidence From Your Logs
 
 From `errors.log`, on 2026-05-29 both paths were failing:
+
 ```
 10:13:25 API call failed ... provider=xiaomi ... summary=HTTP 401: Invalid API Key
 10:13:55 API call failed ... provider=xiaomi ... summary=HTTP 401: Invalid API Key
@@ -54,11 +55,12 @@ curl -s https://token-plan-cn.xiaomimimo.com/v1/models \
   -H "Authorization: Bearer *** | head -5
 ```
 
-If it returns 401, regenerate the key at https://platform.xiaomimimo.com and update `~/.hermes/.env`.
+If it returns 401, regenerate the key at <https://platform.xiaomimimo.com> and update `~/.hermes/.env`.
 
 ## To Suppress the Warning (if key is fine and it's a transient blip)
 
 You can configure title_generation to use a different provider:
+
 ```yaml
 auxiliary:
   title_generation:
