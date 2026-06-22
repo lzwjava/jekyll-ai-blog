@@ -18,6 +18,7 @@ Yes, cleanly separable. The website and the download mechanism use different end
 ## How HuggingFace Downloads Work
 
 `huggingface_hub` CLI and `transformers` auto-download use:
+
 - `https://huggingface.co/<model>/resolve/main/<file>` — actual file blobs
 - `https://cdn-lfs.huggingface.co/` — LFS (large file storage) for model weights
 - `https://cdn-lfs-us-1.huggingface.co/` — US CDN mirror
@@ -43,6 +44,7 @@ BLOCK  GET  cdn-lfs-us-1.huggingface.co/*
 ```
 
 **Squid ACL example:**
+
 ```squid
 acl hf_downloads url_regex huggingface\.co/.*/resolve/
 acl hf_lfs dstdomain cdn-lfs.huggingface.co cdn-lfs-us-1.huggingface.co
@@ -69,6 +71,7 @@ This breaks `huggingface-cli download` and `snapshot_download()` without touchin
 ### Option 3: Block HF_TOKEN Environment + Endpoint at OS/MDM level
 
 For employee machines you control — deploy a policy that:
+
 1. Prevents setting `HF_TOKEN` or `HUGGING_FACE_HUB_TOKEN` env vars
 2. Blocks outbound to `cdn-lfs.*` via endpoint firewall (e.g., Jamf on macOS, Intune on Windows)
 

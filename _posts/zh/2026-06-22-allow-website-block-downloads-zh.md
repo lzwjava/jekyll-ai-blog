@@ -18,6 +18,7 @@ type: note
 ## HuggingFace 下载的工作原理
 
 `huggingface_hub` CLI 和 `transformers` 自动下载使用：
+
 - `https://huggingface.co/<model>/resolve/main/<file>` — 实际文件 blob
 - `https://cdn-lfs.huggingface.co/` — 用于模型权重的 LFS（大文件存储）
 - `https://cdn-lfs-us-1.huggingface.co/` — 美国 CDN 镜像
@@ -43,6 +44,7 @@ BLOCK  GET  cdn-lfs-us-1.huggingface.co/*
 ```
 
 **Squid ACL 示例：**
+
 ```squid
 acl hf_downloads url_regex huggingface\.co/.*/resolve/
 acl hf_lfs dstdomain cdn-lfs.huggingface.co cdn-lfs-us-1.huggingface.co
@@ -69,6 +71,7 @@ ALLOW: huggingface.co
 ### 选项 3：在 OS/MDM 级别阻止 HF_TOKEN 环境变量和端点
 
 针对你控制的员工设备——部署策略：
+
 1. 阻止设置 `HF_TOKEN` 或 `HUGGING_FACE_HUB_TOKEN` 环境变量
 2. 通过端点防火墙（例如 macOS 上的 Jamf，Windows 上的 Intune）阻止对 `cdn-lfs.*` 的出站连接
 
