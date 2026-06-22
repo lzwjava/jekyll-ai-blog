@@ -40,26 +40,29 @@ The `AlphaFold` class in `openfold/model/model.py` implements Algorithm 2 from t
 5. **Loss** (`utils/loss.py`) — FAPE (Frame Aligned Point Error), auxiliary distogram/angle losses, pLDDT loss.
 
 **Training:** `train_openfold.py` wraps it in a PyTorch Lightning module (`OpenFoldWrapper`) with:
-   - DeepSpeed ZeRO / DDP strategies
-   - EMA (exponential moving average) of weights
-   - AlphaFold-specific LR scheduler
-   - Multi-chain permutation alignment (for multimer)
-   - WandB logging
-   - Weight import from both JAX (original DeepMind) and OpenFold checkpoints
+
+- DeepSpeed ZeRO / DDP strategies
+- EMA (exponential moving average) of weights
+- AlphaFold-specific LR scheduler
+- Multi-chain permutation alignment (for multimer)
+- WandB logging
+- Weight import from both JAX (original DeepMind) and OpenFold checkpoints
 
 **Infrastructure:**
-   - CUDA extensions in `setup.py` — custom kernels for attention, triangle operations
-   - cuEquivariance integration (NVIDIA)
-   - TensorRT inference support (`utils/tensorrt_utils.py`)
-   - DeepSpeed integration for distributed training
-   - Data pipeline in `openfold/data/` — handles mmCIF, PDB, MSA generation
-   - Amber relaxation (`np/relax/`) — physics-based energy minimization of predicted structures
+
+- CUDA extensions in `setup.py` — custom kernels for attention, triangle operations
+- cuEquivariance integration (NVIDIA)
+- TensorRT inference support (`utils/tensorrt_utils.py`)
+- DeepSpeed integration for distributed training
+- Data pipeline in `openfold/data/` — handles mmCIF, PDB, MSA generation
+- Amber relaxation (`np/relax/`) — physics-based energy minimization of predicted structures
 
 **Key files:**
-   - `openfold/config.py` — model configs (monomer, multimer, different sizes)
-   - `openfold/model/` — all neural network modules (15 files)
-   - `openfold/utils/` — loss, geometry (SO(3)/SE(3)), import weights, checkpointing
-   - `openfold/data/` — data loading, transforms, alignment preprocessing
-   - `scripts/` — preprocessing scripts for alignments, embeddings, data caches
+
+- `openfold/config.py` — model configs (monomer, multimer, different sizes)
+- `openfold/model/` — all neural network modules (15 files)
+- `openfold/utils/` — loss, geometry (SO(3)/SE(3)), import weights, checkpointing
+- `openfold/data/` — data loading, transforms, alignment preprocessing
+- `scripts/` — preprocessing scripts for alignments, embeddings, data caches
 
 This is a substantial ML codebase (~50k+ lines) implementing one of the most complex AI architectures in production. The recent commits focus on NVIDIA optimizations (cuEquivariance for the triangle operations, TRT inference).

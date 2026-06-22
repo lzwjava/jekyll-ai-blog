@@ -40,26 +40,29 @@ type: note
 5. **损失函数**（`utils/loss.py`）——FAPE（框架对齐点误差）、辅助距离/角度损失、pLDDT损失。
 
 **训练：** `train_openfold.py`通过PyTorch Lightning模块（`OpenFoldWrapper`）封装，包含：
-   - DeepSpeed ZeRO / DDP策略
-   - 权重指数滑动平均（EMA）
-   - AlphaFold专用学习率调度器
-   - 多链排列对齐（用于多聚体）
-   - WandB日志记录
-   - 支持从JAX（原始DeepMind）和OpenFold检查点导入权重
+
+- DeepSpeed ZeRO / DDP策略
+- 权重指数滑动平均（EMA）
+- AlphaFold专用学习率调度器
+- 多链排列对齐（用于多聚体）
+- WandB日志记录
+- 支持从JAX（原始DeepMind）和OpenFold检查点导入权重
 
 **基础设施：**
-   - `setup.py`中的CUDA扩展——针对注意力和三角运算的自定义内核
-   - cuEquivariance集成（NVIDIA）
-   - TensorRT推理支持（`utils/tensorrt_utils.py`）
-   - 用于分布式训练的DeepSpeed集成
-   - `openfold/data/`中的数据流水线——处理mmCIF、PDB、MSA生成
-   - Amber弛豫（`np/relax/`）——基于物理的能量最小化预测结构
+
+- `setup.py`中的CUDA扩展——针对注意力和三角运算的自定义内核
+- cuEquivariance集成（NVIDIA）
+- TensorRT推理支持（`utils/tensorrt_utils.py`）
+- 用于分布式训练的DeepSpeed集成
+- `openfold/data/`中的数据流水线——处理mmCIF、PDB、MSA生成
+- Amber弛豫（`np/relax/`）——基于物理的能量最小化预测结构
 
 **关键文件：**
-   - `openfold/config.py`——模型配置（单体、多聚体、不同规模）
-   - `openfold/model/`——所有神经网络模块（15个文件）
-   - `openfold/utils/`——损失函数、几何运算（SO(3)/SE(3)）、权重导入、检查点
-   - `openfold/data/`——数据加载、转换、比对预处理
-   - `scripts/`——用于比对、嵌入、数据缓存的预处理脚本
+
+- `openfold/config.py`——模型配置（单体、多聚体、不同规模）
+- `openfold/model/`——所有神经网络模块（15个文件）
+- `openfold/utils/`——损失函数、几何运算（SO(3)/SE(3)）、权重导入、检查点
+- `openfold/data/`——数据加载、转换、比对预处理
+- `scripts/`——用于比对、嵌入、数据缓存的预处理脚本
 
 这是一个庞大的机器学习代码库（约5万行以上），实现了生产环境中最为复杂的AI架构之一。近期提交聚焦于NVIDIA优化（三角运算的cuEquivariance支持、TRT推理）。

@@ -16,12 +16,14 @@ type: note
 d2l is genuinely one of the best DL textbooks that exists — interactive, code-first, covers everything from scratch to attention. For your background it's a solid relearn pass, but go in with the right expectations:
 
 **What d2l does well:**
+
 - Every concept has runnable code alongside math — matches your build-first style
 - Covers the full stack: linear algebra → CNNs → RNNs → attention → transformers → modern training tricks
 - Multiple framework implementations (PyTorch, JAX, MXNet)
 - The attention chapter is actually rigorous — not hand-wavy
 
 **Where it pulls punches (the Yin Wang critique you're gesturing at):**
+
 - Never tells you which papers are genuinely important vs. incremental citation games
 - Softens critiques — won't say "this architecture is a dead end" or "this loss function was a mistake"
 - The "recommended practices" sections are often consensus opinion, not first-principles reasoning
@@ -31,11 +33,13 @@ d2l is genuinely one of the best DL textbooks that exists — interactive, code-
 **For you specifically, I'd read it with this filter:**
 
 The chapters worth deep attention given your trajectory:
+
 - Ch 10-11: Attention mechanisms — read the math carefully, cross-reference with Karpathy's nanoGPT
 - Ch 15: NLP/pretraining — bridges to what you're doing with GPT-2 training
 - Ch 12: Computational performance — GPU utilization, parallelism
 
 Skip or skim:
+
 - Early CNN chapters — you know this
 - RNN chapters — mostly historical, transformers ate this
 
