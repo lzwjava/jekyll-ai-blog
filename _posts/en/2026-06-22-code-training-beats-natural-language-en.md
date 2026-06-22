@@ -52,6 +52,7 @@ Code > Natural Language > Image/Video
 ```
 
 Anthropic leaned into code + long context + safety-on-reasoning. OpenAI went:
+
 - Sora (video gen — hardest modality, highest compute cost, lowest verifiability)
 - GPT-4o multimodal (voice, image, video all at once)
 - Operator, various consumer products

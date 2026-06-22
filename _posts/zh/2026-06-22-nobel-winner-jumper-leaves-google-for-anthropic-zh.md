@@ -118,6 +118,7 @@ wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fast
 ### nanoGPT 类比
 
 你已经了解 nanoGPT。将 zhiwei-fold 视为：
+
 - **分词器** → 氨基酸词汇表（20 种标准氨基酸 + 特殊标记）
 - **嵌入** → ESM-2 蛋白质语言模型（你的“预训练权重”）
 - **Transformer** → Evoformer（成对注意力，不仅仅是序列注意力）

@@ -118,6 +118,7 @@ wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fast
 ### The nanoGPT analogy
 
 You already know nanoGPT. Think of zhiwei-fold as:
+
 - **Tokenizer** → amino acid vocabulary (20 standard AAs + specials)
 - **Embedding** → ESM-2 protein language model (your "pretrained weights")
 - **Transformer** → Evoformer (pairwise attention, not just sequence attention)

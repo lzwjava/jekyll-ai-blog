@@ -16,15 +16,19 @@ type: note
 **最简单的迁移路径：**
 
 保留 Jekyll，只需更改每篇文章的输出格式。将原来的：
+
 ```
 _posts/2024-01-01-my-post.md
 ```
+
 改为：
+
 ```
 _posts/2024-01-01-my-post.html
 ```
 
 并保持相同的前置元数据（front matter）：
+
 ```html
 ---
 layout: post

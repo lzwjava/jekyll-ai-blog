@@ -16,15 +16,19 @@ Yes, very easy — Jekyll natively supports both. You don't need to migrate ever
 **Simplest migration path:**
 
 Keep Jekyll, just change the output format per post. Instead of:
+
 ```
 _posts/2024-01-01-my-post.md
 ```
+
 Create:
+
 ```
 _posts/2024-01-01-my-post.html
 ```
 
 With the same front matter:
+
 ```html
 ---
 layout: post
