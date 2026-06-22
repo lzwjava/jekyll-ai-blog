@@ -24,23 +24,29 @@ It's climbed to 5.5k+ stars in months, with a 458-fork ecosystem — signals tha
 Most agent harnesses give the model a Python sandbox, `str_replace`, and some grep. omp's thesis is: **the harness is the bottleneck, not the model.** It addresses five common failure modes at the architecture level:
 
 ### 1. Hash-anchored edits (hashline)
+
 Every line carries a short content-hash anchor. The model edits by anchor instead of reproducing whitespace, and stale anchors are caught before a file is corrupted. This eliminates the whitespace / indentation wars that kill most `str_replace`-style agents. The numbers are striking: Grok Code Fast went from 6.7% → 68.3% edit success — a tenfold lift the moment the edit format stopped eating the model alive. Grok 4 Fast got -61% token output once the retry loop on bad diffs disappeared.
 
 ### 2. Real LSP integration (not just grep)
+
 Ask for a rename and you get a rename. The call goes through `workspace/willRenameFiles`, so re-exports, barrel files, and aliased imports update before the file moves. Everything your IDE knows, the agent knows.
 
 ### 3. Real DAP debugging (not print statements)
+
 A C binary segfaults: the agent attaches lldb, steps to the bad pointer, reads the frame. A Go service hangs: it attaches dlv and walks the goroutines. A Python process is wedged: debugpy, pause, inspect, evaluate. Built-in adapters: gdb, lldb-dap, debugpy, dlv, js-debug-adapter.
 
 ### 4. Native Rust core (no fork/exec on hot path)
+
 ~27k lines of Rust across three crates: `pi-natives`, `pi-shell`, `pi-ast`. Search, shell, AST, highlight, PTY, image decode, BPE counting — all in-process on the libuv pool. Other agents shell out to `rg`, `grep`, `find` — every call is a fork/exec round-trip. omp links the real implementations into the process.
 
 ### 5. Subagents + IRC bus
+
 It spawns subagents that coordinate over an in-process IRC bus. The `task` tool fans out parallel subagents, optionally workspace-isolated. `/collab` puts your live session on a relay and shares a link for pair debugging.
 
 ---
 
 ## Scale
+
 **40+ providers · 32 built-in tools · 13 LSP ops · 27 DAP ops · ~27k lines of Rust core.**
 
 Providers include: OAuth into Claude Pro/Max, ChatGPT, Copilot, Cursor, Z.AI, and others; or drop an API key in the environment. Per-role models (default, smol, slow, plan) resolve automatically against what you're authenticated for.

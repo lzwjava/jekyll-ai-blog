@@ -32,6 +32,7 @@ Your intuition is exactly right — and the hermes quote nails it mechanically:
 Shannon entropy of code << natural language. Cross-entropy loss is measuring exactly this — how surprised the model is. Less surprise → loss drops faster.
 
 **Mechanistically:**
+
 - Token `{` after `if condition` → near-deterministic
 - Indentation after `:` in Python → deterministic given context
 - `import` at file top → high probability mass on a small set
@@ -48,6 +49,7 @@ Loss curves are smoother and drop more predictably. You'll see meaningful perple
 
 **2. Eval is objective**
 Did the generated code run? Did the tests pass? Natural language quality is subjective. Code quality is measurable:
+
 ```bash
 # Your eval loop can literally be:
 python -m pytest generated_code_test.py
@@ -101,5 +103,6 @@ The sequence is: **from-scratch small code model → SFT → existing model fine
 Your original insight is the core one: **lower entropy → faster loss descent → faster feedback loops → better learning**. Train on code first, build the intuitions, then everything else compounds.
 
 References:
+
 - [Anthropic tops OpenAI as most valuable AI startup](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html)
 - [How Anthropic eclipsed OpenAI's valuation](https://invezz.com/news/2026/05/30/the-new-ai-king-how-anthropic-eclipsed-openais-valuation-and-leapt-to-965b/)

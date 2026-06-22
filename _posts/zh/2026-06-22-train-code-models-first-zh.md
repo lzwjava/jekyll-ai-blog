@@ -32,6 +32,7 @@ type: note
 香农熵 代码 << 自然语言。交叉熵损失衡量的正是这个——模型有多惊讶。更少的惊讶 → 损失下降更快。
 
 **从机制上看：**
+
 - `if condition` 后的 `{` → 近乎确定
 - Python 中 `:` 后的缩进 → 在给定上下文下确定
 - 文件顶部的 `import` → 高概率集中于小集合
@@ -48,6 +49,7 @@ type: note
 
 **2. 评估是客观的**
 生成的代码能运行吗？测试通过了吗？自然语言质量是主观的，而代码质量是可衡量的：
+
 ```bash
 # 你的评估循环可以简单地：
 python -m pytest generated_code_test.py
@@ -101,5 +103,6 @@ Ramp 数据显示 Anthropic 在 2026 年 4 月在企业用户中超越 OpenAI，
 你最初的洞察是核心：**更低的熵 → 更快的损失下降 → 更快的反馈循环 → 更好的学习**。先训练代码，建立直觉，然后其他一切都会叠加。
 
 参考文献：
+
 - [Anthropic 超越 OpenAI 成为最有价值的 AI 创业公司](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html)
 - [Anthropic 如何超越 OpenAI 估值](https://invezz.com/news/2026/05/30/the-new-ai-king-how-anthropic-eclipsed-openais-valuation-and-leapt-to-965b/)

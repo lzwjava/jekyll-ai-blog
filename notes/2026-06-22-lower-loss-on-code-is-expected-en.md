@@ -21,10 +21,11 @@ Current state at iter 70,700 / 427,000 (16.6%):
 You're right — the loss is much lower than fineweb-edu text. That's expected, not a bug:
 
 Code is inherently more predictable than natural language:
-  - Rigid syntax (boilerplate, imports, braces, indentation)
-  - Repeated patterns (function signatures, decorators, for-loops)
-  - Smaller effective vocabulary
-  - Whitespace/indentation is highly predictable
+
+- Rigid syntax (boilerplate, imports, braces, indentation)
+- Repeated patterns (function signatures, decorators, for-loops)
+- Smaller effective vocabulary
+- Whitespace/indentation is highly predictable
 
 For comparison:
   GPT-2 124M on WebText (natural text): ~2.85 val loss
