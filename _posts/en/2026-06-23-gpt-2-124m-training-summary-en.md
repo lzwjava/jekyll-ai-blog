@@ -60,5 +60,5 @@ ESTIMATED TIME REMAINING
 HEALTH
   Training is healthy. Loss is decreasing smoothly, val loss
   tracks train loss closely (no overfitting). GPU is fully
-  utilized at reasonable temps. Checkpoints saving normally.
+  utilized at reasonable temps. Checkpoints saving normally
 ================================================================

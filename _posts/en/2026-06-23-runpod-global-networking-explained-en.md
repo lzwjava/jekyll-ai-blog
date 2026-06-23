@@ -22,13 +22,17 @@ This is RunPod's pod networking configuration. Here's what each field means:
 **Enable Global Networking** — a toggle that, when enabled, gives your pod:
 
 ### Internal hostname
+
 A stable DNS name within RunPod's private network, like:
+
 ```
 <pod-id>-<port>.proxy.runpod.net
 ```
+
 This lets other pods (or RunPod's infrastructure) reach your pod by name rather than by a dynamically assigned IP. Useful for multi-pod setups — e.g., an inference pod calling a preprocessing pod.
 
 ### Private IP address
+
 A stable RFC-1918 IP (like `10.x.x.x`) assigned within RunPod's internal VXLAN/overlay network. Only reachable from within the RunPod network — not the public internet.
 
 ---

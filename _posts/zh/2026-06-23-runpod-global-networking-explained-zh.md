@@ -22,13 +22,17 @@ type: note
 **启用全球网络** —— 一个开关，启用后将为您的 Pod 提供：
 
 ### 内部主机名
+
 RunPod 私有网络内的稳定 DNS 名称，例如：
+
 ```
 <pod-id>-<port>.proxy.runpod.net
 ```
+
 这允许其他 Pod（或 RunPod 的基础设施）通过名称而非动态分配的 IP 地址访问您的 Pod。适用于多 Pod 配置——例如，推理 Pod 调用预处理 Pod。
 
 ### 私有 IP 地址
+
 RunPod 内部 VXLAN/覆盖网络内分配的稳定 RFC-1918 IP（如 `10.x.x.x`）。仅在 RunPod 网络内可访问——无法通过公共互联网访问。
 
 ---
