@@ -21,6 +21,7 @@ Connected. Here's the GPU info:
 This is a workstation-class Ada Lovelace GPU with 16 GB VRAM — decent for fine-tuning small-medium models with LoRA/QLoRA, running quantized inference, or light training. The RTX 2000 Ada is based on the AD107 die (same as RTX 4060 family) but with professional drivers and ISV certification. Currently idle with no processes running.
 
 Key specs to keep in mind:
+
 - Compute capability: 8.9 (Ada)
 - ~3,072 CUDA cores
 - 128 GB/s memory bandwidth
