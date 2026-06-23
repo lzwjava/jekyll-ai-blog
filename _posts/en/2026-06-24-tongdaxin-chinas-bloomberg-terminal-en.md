@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is https://www.tdx.com.cn?
+**Question:** What is <https://www.tdx.com.cn>?
 
 **Answer:**
 

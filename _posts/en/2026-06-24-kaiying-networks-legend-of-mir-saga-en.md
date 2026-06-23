@@ -28,6 +28,7 @@ Here's the full picture — it's a messy decade-long saga with IP disputes, stra
 In 2016, 恺英网络's sub-subsidiary 浙江欢游 signed a license agreement with 娱美德, paying ~500 billion KRW (~300M CNY) for rights to develop mobile and web games based on Legend of Mir 2 in mainland China. 浙江欢游 failed to pay the minimum guaranteed fee, triggering a 2017 ICC arbitration.
 
 The legal fallout cascaded for nearly a decade:
+
 - 2019: ICC ruled 浙江欢游 owed ~480M CNY to 娱美德
 - 2022: Shanghai High Court ruled 上海恺英 (parent) bears joint liability for that debt
 - 2024: Supreme Court rejected 恺英's retrial application
@@ -88,6 +89,7 @@ In 2025 Q1–Q3, 恺英 hit 40.75B CNY revenue (up 3.75% YoY) with net profit of
 恺英网络 is essentially a **传奇 IP vertically integrated operator** — from licensed IP through self-developed games to their own distribution/community platform. The decade of legal battles with 娱美德 is now settled, clearing the path for clean growth.
 
 References:
+
 - [恺英网络"传奇"IP十年博弈](https://news.qq.com/rain/a/20260328A01BY400)
 - [从3700亿价值坐标再启航：恺英网络全产业链重塑"传奇"IP内容生态](https://www.gameres.com/916252.html)
 - [恺英"传奇纠纷"大结局](https://news.qq.com/rain/a/20260212A07OI700)

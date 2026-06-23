@@ -41,6 +41,7 @@ You're contract at a global bank doing AI engineering. That's good but likely un
 - Your current bottleneck is probably visibility, not skill.
 
 **What to do:**
+
 - Write 3–5 technical blog posts in English that demonstrate MI300X training, nanoGPT internals, or MoE implementation. Post on HN, Twitter/X. One viral post can change your job trajectory.
 - Put measurable numbers in your resume: "Trained 760M param GPT-2 from scratch on AMD MI300X, 192GB HBM3. Achieved X tokens/sec throughput."
 - Cold apply directly to job pages. Bypass LinkedIn. Email the hiring manager directly.

@@ -38,6 +38,7 @@ He'd build a **causal graph** before touching any tool.
 Just as he'd say a type-safe language prevents entire classes of bugs at compile time, he'd say: **seal the house so mosquitoes cannot enter.** Runtime bug-fixing (swatting) is for people who don't understand the system.
 
 Concrete actions:
+
 - Audit every penetration: windows → 20-mesh or finer screens, door sweeps, pipe gaps sealed with silicone
 - Positive pressure HVAC: house maintained at slight positive pressure relative to outside → air flows *out*, insects can't drift *in*
 - Eliminate *all* standing water within 50m (breeding radius for *Aedes albopictus* is ~50–100m)
@@ -51,6 +52,7 @@ This is the **static analysis** phase — make bad states unrepresentable.
 Once the system is sealed, you have a **finite, non-replenishing population** inside. Now elimination is tractable.
 
 His chosen tool would be **CO₂ traps** — he'd appreciate the elegance:
+
 - Mimics a human host (CO₂ + warmth + octenol)
 - No chemicals, no human intervention after setup
 - Runs continuously, captures and kills
@@ -66,6 +68,7 @@ He'd probably also appreciate **ultrasonic + UV photocatalytic traps** as a seco
 王垠 would define a **system invariant**: *zero standing water, zero entry points, trap running.*
 
 He'd write a checklist (he's methodical) and check it weekly:
+
 ```
 [ ] AC drain pan dry or flowing freely
 [ ] All plant saucers empty

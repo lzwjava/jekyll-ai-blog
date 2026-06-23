@@ -20,6 +20,7 @@ The article paints a sharp picture of what's happening in China's AI talent mark
 The article describes a structural shift: **AI-nativeness has replaced tenure as the primary signal of value**. A 22-year-old with deep model intuition is outperforming a 35-year-old with 10 years of engineering experience. The mechanism is clear — the old experience compounds slowly; AI knowledge compounds *within months*.
 
 Key data points:
+
 - DeepSeek's breakthrough team: 70%+ under 30
 - ByteDance Seed top talent plan: ¥3M–5M for fresh grads in 2025, ¥6M+ in 2026
 - Age ceiling in top model labs: ~33, not 35 anymore

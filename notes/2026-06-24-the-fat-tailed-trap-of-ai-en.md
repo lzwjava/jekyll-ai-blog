@@ -20,6 +20,7 @@ This is a real tension that kills good AI work. Here's the core problem:
 In normal software, effort-to-result is roughly linear. You build a feature, it ships, it works. AI is different — the distribution of outcomes is **fat-tailed**. Most experiments fail. A few succeed wildly. The breakthroughs are almost never from the "obvious" path.
 
 If you optimize for results:
+
 - You kill exploration early (it's not producing metrics yet)
 - You fund incremental work over moonshots (safer ROI)
 - You fire or demoralize the people doing the hardest, longest-horizon work
@@ -51,6 +52,7 @@ Under results pressure, compute goes to demos and benchmarks. Real breakthroughs
 ## The Right Frame: **Process Fidelity over Result Fidelity**
 
 What good AI orgs actually measure:
+
 - Are we running high-quality experiments with good logging?
 - Do we understand *why* something worked or failed?
 - Are we building institutional knowledge (papers, evals, codebases)?

@@ -16,6 +16,7 @@ type: note
 Yeah, exactly. Both are great signal sources:
 
 **HuggingFace profile tells you:**
+
 - What models they've uploaded (fine-tuned? trained from scratch? just wrappers?)
 - Dataset uploads — original datasets = serious researcher
 - Spaces — demos they built (vibe check on product sense)
@@ -25,6 +26,7 @@ Yeah, exactly. Both are great signal sources:
 The key signal: **model card quality + training details**. A model card with actual eval numbers, training data description, and limitations = someone who actually trained it. No card or just `"this is a fine-tune of X"` = hobbyist wrapper.
 
 **WandB public runs tell you:**
+
 - Loss curves — do they converge cleanly or is it a mess?
 - Did they sweep hyperparameters? (grid/random/Bayes sweeps visible)
 - Training duration, GPU hours, batch size — scale of their experiments

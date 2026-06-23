@@ -14,6 +14,7 @@ type: note
 **Answer:**
 
 Your current storage situation:
+
 - **1TB Samsung 980** (PCIe 3.0 x4 NVMe, M.2 slot 1)
 - **2TB WD Blue HDD** (SATA)
 - Total: ~3TB raw

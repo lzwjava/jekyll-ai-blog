@@ -14,6 +14,7 @@ type: note
 **回答：**
 
 你当前的存储情况：
+
 - **1TB Samsung 980**（PCIe 3.0 x4 NVMe，M.2插槽1）
 - **2TB WD Blue HDD**（SATA）
 - 总容量：约3TB（原始）
