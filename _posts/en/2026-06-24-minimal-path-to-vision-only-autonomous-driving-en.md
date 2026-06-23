@@ -63,6 +63,7 @@ Phone camera → frame capture → MobileNet/YOLO → lane detection + depth
 ```
 
 This is exactly what **openpilot on phone** experiments do. There's `openpilot-on-laptop` repos. Phone gives you:
+
 - 30fps camera
 - IMU (gyro/accel) — critical for motion estimation
 - GPS
@@ -70,11 +71,13 @@ This is exactly what **openpilot on phone** experiments do. There's `openpilot-o
 ### Level 3: The Zhihui Jun route — self-driving bicycle/cart
 
 Zhihui Jun used a bicycle with:
+
 - Raspberry Pi / Jetson Nano
 - Camera
 - Servo for steering
 
 Minimum hardware:
+
 ```
 Jetson Orin Nano ($250)
 + USB camera or Pi camera
