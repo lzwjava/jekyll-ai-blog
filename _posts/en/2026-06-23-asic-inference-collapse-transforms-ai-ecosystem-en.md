@@ -42,6 +42,7 @@ When price drops 50–100×, demand doesn't just grow proportionally — it unlo
 Taalas' CEO described it: "sub-millisecond speed and near-zero cost." Costs per token have fallen by roughly two orders of magnitude since the Cloud AI 100 era — something like 50–100× reduction for "GPT-4-class" capability.
 
 At 17,000 tok/s:
+
 - A 500-token response arrives in **~30ms** — indistinguishable from local computation
 - Multi-agent pipelines with 10 sequential LLM calls complete in **< 1 second**
 - Streaming becomes irrelevant — you get the full answer before you'd notice it was streaming

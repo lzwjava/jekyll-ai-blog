@@ -43,9 +43,10 @@ docker run --rm --gpus all nvidia/cuda:12.0-base nvidia-smi
 
 ### 2. Sign up as a host on RunPod
 
-Go to: https://www.runpod.io/console/host/machines → **"List a GPU"**
+Go to: <https://www.runpod.io/console/host/machines> → **"List a GPU"**
 
 You'll need:
+
 - RunPod account with billing/payout setup (Stripe)
 - Your machine's public IP
 
@@ -67,6 +68,7 @@ sudo docker run -d \
 ### 4. Configure pricing
 
 In the dashboard, set:
+
 - **GPU price** ($/hr) — RTX 4070 community cloud goes ~$0.15–0.25/hr currently
 - **Disk price**
 - **Min/Max pod duration**
@@ -94,6 +96,7 @@ sudo ufw allow 40000:60000/tcp  # pod port forwarding range
 ## Honest Assessment
 
 For a **home machine on residential internet**, RunPod hosting is marginal:
+
 - CGNAT / dynamic IP is the biggest blocker
 - Revenue on a 4070 is low (~$2–5/day max if 100% utilized, rarely happens)
 - Your workstation at `192.168.1.36` is more valuable to you for local dev + your own inference

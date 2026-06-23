@@ -66,6 +66,7 @@ Also critical: the RTX Pro 6000 lacks NVLink support, so multi-GPU tensor parall
 ## Should You Host It on Vast.ai or RunPod?
 
 **Vast.ai** is better for hosting your own hardware:
+
 - Better marketplace for community/indie hosts
 - More utilization from cost-sensitive researchers who need 96GB but won't pay H100 rates
 - Vast.ai lists the Server Edition at ~$1.40/hr and the Workstation Edition at ~$1.20/hr

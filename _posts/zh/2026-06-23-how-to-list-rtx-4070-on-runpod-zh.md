@@ -43,9 +43,10 @@ docker run --rm --gpus all nvidia/cuda:12.0-base nvidia-smi
 
 ### 2. 在 RunPod 上注册为托管方
 
-前往：https://www.runpod.io/console/host/machines → **"List a GPU"**
+前往：<https://www.runpod.io/console/host/machines> → **"List a GPU"**
 
 你需要：
+
 - RunPod 账户，并已设置账单/收款（Stripe）
 - 你机器的公网 IP
 
@@ -67,6 +68,7 @@ sudo docker run -d \
 ### 4. 配置定价
 
 在控制面板中设置：
+
 - **GPU 价格**（美元/小时）—— RTX 4070 社区云目前约 $0.15–0.25/小时
 - **磁盘价格**
 - **最小/最大 Pod 时长**
@@ -94,6 +96,7 @@ sudo ufw allow 40000:60000/tcp  # pod 端口转发范围
 ## 客观评估
 
 对于**家庭网络上的家用机器**，RunPod 托管存在以下局限：
+
 - CGNAT / 动态 IP 是最大的障碍
 - RTX 4070 的收入很低（若 100% 利用率，最多约 $2–5/天，但很少能实现）
 - 你位于 `192.168.1.36` 的工作站更适合用于本地开发和自己的推理任务

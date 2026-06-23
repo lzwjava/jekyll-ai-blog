@@ -26,6 +26,7 @@ This is NOT RunPod's own datacenter (Secure Cloud). This is almost certainly a R
 RunPod Community Cloud works like this: individuals/orgs contribute their GPUs to RunPod's marketplace, RunPod handles provisioning and billing, and users get cheaper compute. The contributor's own ISP shows up as the IP, not RunPod's.
 
 Current status: Connection refused. The pod is down. Either:
+
 - You paused/stopped it in RunPod dashboard (as you said "I pause")
 - It hit an idle timeout and auto-terminated
 - The contributor powered off their machine
