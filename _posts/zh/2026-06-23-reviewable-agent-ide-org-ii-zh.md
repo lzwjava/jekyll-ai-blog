@@ -18,6 +18,7 @@ ORG-II 是一个开源的、类 Cursor 的 agent IDE，其核心理念截然不�
 与 Cursor/Claude Code 的主要区别：
 
 **架构**
+
 - 使用 **Rust + Tauri** 构建——本地优先，磁盘占用 <100MB
 - TypeScript (54%) + Rust (39%) 拆分：前端用 TS，agent 运行时用 Rust
 - 使用你现有的 API 密钥（无需新订阅）
@@ -37,4 +38,5 @@ ORG-II 是一个开源的、类 Cursor 的 agent IDE，其核心理念截然不�
 如果你正在构建 CLI agent（如 `ww`、`zz`）并关心 agent 实际行为的可审计性，值得关注。
 
 参考：
+
 - [yorgai/ORG2 在 GitHub 上](https://github.com/yorgai/ORG2)

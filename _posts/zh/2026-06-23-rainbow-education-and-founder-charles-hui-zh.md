@@ -38,6 +38,7 @@ type: note
 简而言之，这是一家面向内地学生、经验丰富的香港留学咨询机构，由一位转行投身教育事业的香港金融界资深人士在武汉创办。
 
 参考资料：
+
 - [rdchedu.cn — 官方网站](https://rdchedu.cn/)
 - [培训世界 — 许勤业简介](https://www.peixunsj.cn/8428/teacher_67564.html)
 - [群陆出国 — 机构介绍](https://www.qunlu.com/fsj/inner.asp?id=26592)

@@ -25,6 +25,7 @@ Two official bodies run IELTS in HK — British Council and IDP. Both charge the
 **Valid ID**: Passport or HKID both accepted.
 
 **Steps**:
+
 1. Register online at either BC or IDP
 2. Pay within 24 hours (credit card, Alipay, WeChat Pay all accepted)
 3. Your admission document, dates and times for both written and speaking tests are sent 7 days before the exam

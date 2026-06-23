@@ -38,6 +38,7 @@ He also holds a degree from HKU. After 2001, he relocated to Wuhan and in 2006 f
 In short: it's a well-established Hong Kong study-abroad consultancy targeting mainland students, run by a Hong Kong finance veteran who pivoted to education in Wuhan.
 
 References:
+
 - [rdchedu.cn — Official Site](https://rdchedu.cn/)
 - [培训世界 — 许勤业 profile](https://www.peixunsj.cn/8428/teacher_67564.html)
 - [群陆出国 — 机构介绍](https://www.qunlu.com/fsj/inner.asp?id=26592)

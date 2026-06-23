@@ -28,6 +28,7 @@ Previous GLMs had 1M token *capability* in theory — GLM-5.2 claims to make it 
 This is the most interesting technical contribution, from their paper [arXiv:2603.12201](https://arxiv.org/abs/2603.12201).
 
 **Problem:** GLM-5's attention is based on DeepSeek Sparse Attention (DSA). DSA works like this:
+
 - A **lightning indexer** selects top-k relevant tokens per query, converting $O(L^2)$ attention to $O(Lk)$
 - But the indexer itself is still $O(L^2)$ — and it runs independently at **every layer**
 - At 1M context, this is a massive FLOP sink
@@ -35,12 +36,14 @@ This is the most interesting technical contribution, from their paper [arXiv:260
 **Key insight:** Top-k selections from the indexer are highly similar across consecutive layers. If layer 10's indexer picks tokens {42, 107, 8813, ...}, layer 11's indexer probably picks almost the same set.
 
 **IndexCache solution:** Partition layers into:
+
 - **Full layers**: run their own indexer (minority)
 - **Shared layers**: reuse the nearest Full layer's top-k indices (majority)
 
 This removes 75% of indexer computations with negligible quality degradation, achieving up to 1.82× prefill speedup and 1.48× decode speedup compared to standard DSA.
 
 Two flavors:
+
 - **Training-free**: greedy search on a calibration set to find which layers to keep — no weight updates needed
 - **Training-aware**: multi-layer distillation loss, trains retained indexers against the averaged attention distributions of all layers they serve — more accurate
 

@@ -36,14 +36,17 @@ According to the HK government's Study in Hong Kong portal, non-local student tu
 ## Realistic Scenarios for You
 
 **Scenario A — Dorm (cheapest):**
+
 - Tuition: HKD 100k + Hostel: HKD 30k + Living: HKD 50k + Misc: HKD 15k = **~HKD 195k/year**
 - In CNY: **~180k CNY/year → 360k CNY total**
 
 **Scenario B — Shared flat (realistic for mainland students):**
+
 - Tuition: HKD 100k + Shared room: HKD 60k–80k + Living: HKD 60k + Misc: HKD 15k = **~HKD 235k–255k/year**
 - In CNY: **~215k–235k CNY/year → 430k–470k CNY total**
 
 **Scenario C — 1BR flat alone (comfortable):**
+
 - Tuition + 1BR flat + full living = **HKD 260k+/year**
 - In CNY: **~240k CNY/year → 480k CNY total**
 
