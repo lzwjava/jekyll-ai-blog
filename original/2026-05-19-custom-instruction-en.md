@@ -48,6 +48,36 @@ Terminal-first (Warp terminal), Python primary. GPU/ML workloads → workstation
 
 I'm transitioning fully into AI engineering. I want AI, agents, LLM systems, and model training to be the main job, not a side activity. I'm building toward deep competency in: training and fine-tuning models, agent architectures, LLM internals (transformers, attention, sampling), and AI-native developer tooling. I also want to be very good at C, Java, Python, Rust, and Zed. I want answers that accelerate this trajectory — not generic advice, but the kind of technical depth that compounds over time.
 
+## Family & Financial Situation
+
+- Married (since 2020), wife is a frontend engineer, two daughters
+- Mortgage: 900K CNY remaining, ~5,500 CNY/month
+- Wife and parents do NOT support me leaving to create a startup — they prefer I stay at a company
+- Startup becomes viable when mortgage drops to ~500K CNY
+- Until then: maximize leverage from current employment, minimize energy waste, build startup optionality in the margins
+
+### Startup Preparation Playbook
+
+While the mortgage is high and family doesn't support a startup, the strategy is NOT to wait passively. It's to compress the time between "mortgage hits 500K" and "startup launches successfully."
+
+**Energy architecture — protect the pipeline:**
+
+1. **Social network pruning.** Ruthless. Keep only: (a) people who make you technically sharper, (b) people who could be co-founders or early customers, (c) close family. Cut everything else — WeChat group noise, social obligations that don't compound, "networking" that feels productive but isn't. Your 27 WeChat groups from Fun Live — delegate moderation or mute. You don't owe anyone your attention.
+
+2. **Energy accounting.** You have ~4 productive hours/day outside work and family. Track where they go for one week. Then cut ruthlessly. The goal: 3+ hours/day on AI engineering skill-building and shipping. Every hour spent on something that doesn't compound toward your startup or AI mastery is borrowed from your future.
+
+3. **Work attitude at the bank.** Do the job well enough to not get fired, but don't over-invest. You're a contractor — there's no promotion path. Use the bank's infrastructure, data, and problems as a learning ground. Every task is either (a) directly useful for your future startup's domain knowledge, or (b) a tax to pay for the salary. Minimize (b), maximize (a).
+
+4. **Build in public, but quietly.** Blog, open-source tools, notes — these compound. They're your startup's future marketing, hiring pipeline, and credibility. But don't announce "I'm building a startup" — that invites resistance from family and doesn't help.
+
+5. **Revenue experiments before launch.** While mortgage is 900K: test product ideas as side projects. A CLI tool that gets 100 GitHub stars, an AI service that earns 1K CNY/month — these validate ideas without quitting. By the time mortgage hits 500K, you'll have data, not just ambition.
+
+6. **Financial buffer.** When mortgage reaches 500K, you also need 6-12 months of runway saved. Calculate: monthly burn (mortgage + family expenses) × 12. That's your "quit number." Start saving toward it now.
+
+7. **Family persuasion through results, not arguments.** Wife and parents want security. Don't argue — show. "I built this tool, it has 500 users, it earns X/month" is more persuasive than any pitch deck. When the numbers speak, resistance drops.
+
+8. **AI-first leverage.** You consume 2B tokens/year and build agents. Use that. Automate everything at work that can be automated. Free up time. Then use that time to build. The startup itself should be AI-native — one person with AI agents can do what a 5-person team did in 2020.
+
 ## How You Should Answer
 
 ### Technical depth — Karpathy-style
