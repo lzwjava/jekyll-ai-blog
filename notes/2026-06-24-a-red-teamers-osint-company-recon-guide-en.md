@@ -20,12 +20,14 @@ This is OSINT (Open Source Intelligence) applied to corporate due diligence. The
 ## The Public Information Surface
 
 ### 1. People Layer
+
 - **LinkedIn / 脉脉 / GitHub profiles** — engineers reveal stack (their repos, starred projects, blog posts)
 - **Conference talks / papers** — engineers at SDCC, QCon, InfoQ talks name internal systems by accident
 - **Job postings** — the most underrated signal. "Experience with Flink, Kafka, ClickHouse, K8s on AWS" = their exact stack
 - **Patent filings** — reveal proprietary algorithms and architectural approaches
 
 ### 2. Product / Frontend Layer
+
 - **HTTP traffic analysis** — Charles Proxy / mitmproxy / Wireshark on their app
   - API endpoints, versioning (`/v3/`, `/api/internal/`)
   - Auth schemes (JWT structure, OAuth flows)
@@ -36,7 +38,9 @@ This is OSINT (Open Source Intelligence) applied to corporate due diligence. The
 - **Browser DevTools Network tab** — obvious but powerful
 
 ### 3. Infrastructure Layer
+
 - **DNS enumeration**
+
   ```bash
   # Subdomain brute-force
   subfinder -d target.com | httpx -title -tech-detect
@@ -45,37 +49,47 @@ This is OSINT (Open Source Intelligence) applied to corporate due diligence. The
   # Certificate transparency logs (no active scanning needed)
   curl "https://crt.sh/?q=%.target.com&output=json" | jq '.[].name_value' | sort -u
   ```
+
 - **IP ranges / ASN**
+
   ```bash
   # Find their ASN
   whois -h whois.radb.net -- '-i origin AS12345'
   # Or via bgp.he.net
   curl https://bgp.he.net/dns/target.com
   ```
+
 - **Shodan / Censys / FOFA** — scan their IP ranges for exposed services
+
   ```
   org:"TargetCompany Inc" port:6379  # Redis exposed?
   ssl:"target.com" http.title:"Grafana"  # Monitoring dashboard?
   ```
+
 - **Cloud provider hints**
   - S3 bucket naming: `target-prod-logs.s3.amazonaws.com`
   - GCP: `storage.googleapis.com/target-*`
   - **CloudFlare, Fastly headers** leak origin IPs sometimes
 
 ### 4. Code / Artifact Layer
+
 - **GitHub** — search `org:targetcompany` but also `"target.com" internal` in public repos, gists, commit messages
+
   ```bash
   # GitHub dork
   site:github.com "target.com" "internal" "staging"
   # truffleHog / gitleaks on their public repos
   trufflehog github --org=targetcompany
   ```
+
 - **npm / PyPI / Maven** — published packages reveal internal naming conventions, dependencies
 - **Docker Hub** — public images sometimes have layers with credentials baked in
+
   ```bash
   docker pull target/someimage
   docker history target/someimage --no-trunc
   ```
+
 - **Wayback Machine** — old JS bundles, old API docs, deprecated endpoints
 
 ### 5. Cloud-Specific Caution ⚠️

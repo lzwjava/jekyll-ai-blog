@@ -28,9 +28,10 @@ LOSS TRAJECTORY
   Val:   2.6576 → 2.9376 (+0.28)
 
   This could indicate:
-  - Learning rate still too high (currently decaying from 6e-4)
-  - Data ordering causing variance (normal in long runs)
-  - Model hitting a plateau and bouncing
+
+- Learning rate still too high (currently decaying from 6e-4)
+- Data ordering causing variance (normal in long runs)
+- Model hitting a plateau and bouncing
 
 HARDWARE (RTX 4070)
   GPU: 100% util, 66°C, 208W
@@ -44,8 +45,9 @@ HEALTH CHECK
   ⚠ Loss regression from best checkpoint at 234k
   You may want to monitor the next few eval intervals to see
   if it recovers. If not, consider:
-  - Rolling back to the 234k checkpoint
-  - Reducing learning rate further
+
+- Rolling back to the 234k checkpoint
+- Reducing learning rate further
 ================================================================
 
 Want me to keep monitoring, or check if the loss trend is stabilizing?

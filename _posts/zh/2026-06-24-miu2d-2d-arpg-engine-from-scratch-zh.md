@@ -29,4 +29,4 @@ Miu2D 是一个从零构建的 2D ARPG 引擎，采用 TypeScript + Rust 编写�
 
 这是一个单体仓库（pnpm workspace），包含一个 Web 包、用于数据转换/分析的脚本以及一个 Vercel 部署。项目从第一天起就采用 AI 辅助编码（"vibe coding"）。
 
-在线演示：https://miu2d.com
+在线演示：<https://miu2d.com>

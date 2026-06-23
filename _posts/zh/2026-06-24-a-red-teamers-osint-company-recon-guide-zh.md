@@ -20,12 +20,14 @@ type: note
 ## 公开信息面
 
 ### 1. 人员层
+
 - **LinkedIn / 脉脉 / GitHub 资料** — 工程师会透露技术栈（他们的仓库、星标项目、博客文章）
 - **会议演讲 / 论文** — 工程师在SDCC、QCon、InfoQ等会议演讲中可能无意间提到内部系统名称
 - **招聘信息** — 最被低估的信号。“有Flink、Kafka、ClickHouse、K8s on AWS经验” = 他们的确切技术栈
 - **专利申请** — 揭示专有算法和架构方法
 
 ### 2. 产品/前端层
+
 - **HTTP流量分析** — 在它们的应用上使用 Charles Proxy / mitmproxy / Wireshark
   - API端点、版本号（`/v3/`、`/api/internal/`）
   - 认证方案（JWT结构、OAuth流程）
@@ -36,7 +38,9 @@ type: note
 - **浏览器DevTools Network标签** — 显而易见但功能强大
 
 ### 3. 基础设施层
+
 - **DNS枚举**
+
   ```bash
   # 子域名暴力破解
   subfinder -d target.com | httpx -title -tech-detect
@@ -45,37 +49,47 @@ type: note
   # 证书透明度日志（无需主动扫描）
   curl "https://crt.sh/?q=%.target.com&output=json" | jq '.[].name_value' | sort -u
   ```
+
 - **IP范围/ASN**
+
   ```bash
   # 查找它们的ASN
   whois -h whois.radb.net -- '-i origin AS12345'
   # 或者通过 bgp.he.net
   curl https://bgp.he.net/dns/target.com
   ```
+
 - **Shodan / Censys / FOFA** — 扫描它们的IP范围查找暴露的服务
+
   ```
   org:"TargetCompany Inc" port:6379  # Redis暴露？
   ssl:"target.com" http.title:"Grafana"  # 监控面板？
   ```
+
 - **云服务商线索**
   - S3存储桶命名：`target-prod-logs.s3.amazonaws.com`
   - GCP：`storage.googleapis.com/target-*`
   - **CloudFlare、Fastly的头部**有时会泄露源站IP
 
 ### 4. 代码/产物层
+
 - **GitHub** — 搜索 `org:targetcompany`，同时搜索公有仓库、Gist、提交信息中的 `"target.com" internal`
+
   ```bash
   # GitHub dork
   site:github.com "target.com" "internal" "staging"
   # 在其公有仓库上运行 truffleHog / gitleaks
   trufflehog github --org=targetcompany
   ```
+
 - **npm / PyPI / Maven** — 发布的包会透露内部命名规范、依赖关系
 - **Docker Hub** — 公开镜像有时包含内嵌凭据的层
+
   ```bash
   docker pull target/someimage
   docker history target/someimage --no-trunc
   ```
+
 - **Wayback Machine** — 旧的JS包、旧的API文档、已废弃的端点
 
 ### 5. 云服务特有注意事项 ⚠️

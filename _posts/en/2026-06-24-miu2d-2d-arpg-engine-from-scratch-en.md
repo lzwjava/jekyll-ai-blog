@@ -29,4 +29,4 @@ As a proof of concept, it rebuilds three classic Kingsoft (西山居) wuxia RPGs
 
 It's a monorepo (pnpm workspace) with a web package, scripts for data conversion/analysis, and a Vercel deployment. The project is built with AI-assisted coding from day one ("vibe coding").
 
-Live demo at https://miu2d.com
+Live demo at <https://miu2d.com>
