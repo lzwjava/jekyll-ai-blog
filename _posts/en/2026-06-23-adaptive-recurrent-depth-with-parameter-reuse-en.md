@@ -99,12 +99,14 @@ The `halt_penalty` coefficient is critical — too high and it always exits earl
 ## My Honest Assessment
 
 **Strong parts of this idea:**
+
 - Parameter efficiency story is real and measurable
 - Topic-wise depth analysis is a clean, understandable experiment
 - 100M scale is exactly right for one-GPU research
 - The "swap one component" ablation structure maps well to a paper
 
 **Risks:**
+
 - Universal Transformers already exist — need to be clear about what's novel (the dynamic gating + topic analysis framing)
 - Training stability: recurrent blocks with shared weights can have gradient issues (vanishing/exploding through loops). Use gradient clipping hard, maybe also loop-wise residual scaling
 - The halt gate needs careful initialization — start biased toward "keep looping" or it never learns depth

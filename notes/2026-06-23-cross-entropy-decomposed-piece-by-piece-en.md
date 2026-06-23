@@ -22,6 +22,7 @@ H(p, q) = −Σₓ p(x) log q(x)
 ```
 
 You have **two distributions**:
+
 - `p(x)` — the **true** distribution (labels, ground truth)
 - `q(x)` — the **predicted** distribution (model output, softmax logits)
 
@@ -52,6 +53,7 @@ H(p, q) = H(p) + D_KL(p || q)
 ```
 
 Where:
+
 - `H(p) = −Σₓ p(x) log p(x)` — entropy of true distribution (irreducible)
 - `D_KL(p || q) = Σₓ p(x) log [p(x)/q(x)]` — extra cost from using wrong model
 

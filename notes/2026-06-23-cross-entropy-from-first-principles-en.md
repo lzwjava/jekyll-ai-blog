@@ -28,6 +28,7 @@ I(x) = −log p(x)
 Units depend on log base: base-2 = bits, base-e = nats. PyTorch uses `ln` (nats).
 
 **Why negative log?** Three axioms force this form:
+
 - Certain event `p=1` → zero surprise: `−log(1) = 0` ✓
 - Impossible event `p→0` → infinite surprise: `−log(0) = ∞` ✓
 - Independent events multiply in probability, add in surprise: `−log(p·q) = −log p − log q` ✓
