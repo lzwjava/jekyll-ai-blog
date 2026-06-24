@@ -17,7 +17,7 @@ translated: false
 | **Total Exp** | ~12 years (2014.07 – Present; 1 year mobile, 8 years full-stack/backend, 1 year ML/big data, 2 years AI-focused) |
 | **Nationality** | Chinese |
 | **Current Organization** | TEKsystems (outsourced to HSBC Bank) — title: AI Full Stack Engineer / Specialist Engineering |
-| **Work Permit** | Chinese citizen — no work permit required for mainland China (Tianjin/Guangzhou) |
+| **Work Permit** | Chinese citizen — no work permit required for mainland China|
 | **Current Salary** | redacted |
 | **Expected Salary** | ~450k CNY/year |
 | **Notice Period** | Two weeks |
