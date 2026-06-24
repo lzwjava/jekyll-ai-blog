@@ -15,18 +15,21 @@ Here's the full story of how we got to ~326k steps:
 
 PHASE 1: DATA COLLECTION & TOOLING (May-June 2026)
 The repo started as a dataset processing pipeline. You built scripts to:
+
 - Download FineWeb (100B tokens, GPT-3 ablation shards) and Wikimedia dumps
 - Use hf-mirror.com for China access, with resumable downloads (progress.json)
 - Extract and tokenize data into uint16 .npy shards (GPT-2 BPE)
 
 PHASE 2: FIRST SMALL RUNS (FineWeb, 125M model)
 Early training on FineWeb data with a GPT-2 124M model:
+
 - Config: 12 layers, 12 heads, 768 embed, lr=3e-4, 12k max iters
 - Loss dropped from 10.87 → 3.53 in ~20k iters (train_log_fineweb.txt)
 - Step time: ~3.9s/iter at ~11% MFU
 
 PHASE 3: NANOCCHAT RUNS (286M model, June 4-6)
 Bigger model (286M params, depth=12, n_embd=768, n_head=6) on fineweb-edu:
+
 - 87k steps over ~28.4 hours on RTX 4070
 - Val bpb: 0.934 → 0.866 (steadily improving)
 - ~55,670 tok/sec throughput

@@ -15,18 +15,21 @@ type: note
 
 第一阶段：数据收集与工具构建（2026年5月-6月）
 仓库最初是一个数据集处理流水线。你构建了脚本来：
+
 - 下载 FineWeb（100B tokens，GPT-3 消融分片）和 Wikimedia 数据转储
 - 使用 hf-mirror.com 实现中国地区访问，支持断点续传（progress.json）
 - 将数据提取并分词为 uint16 .npy 分片（GPT-2 BPE）
 
 第二阶段：首次小规模运行（FineWeb，125M 模型）
 使用 GPT-2 124M 模型在 FineWeb 数据上进行早期训练：
+
 - 配置：12层，12头，768嵌入，学习率3e-4，最大迭代12k
 - 损失从10.87下降到3.53，约20k次迭代（train_log_fineweb.txt）
 - 步时：约3.9秒/迭代，MFU约11%
 
 第三阶段：NANOCCHAT 运行（286M 模型，6月4-6日）
 在 fineweb-edu 上使用更大的模型（286M参数，深度=12，n_embd=768，n_head=6）：
+
 - 在 RTX 4070 上约28.4小时完成87k步
 - 验证集 bpb：0.934 → 0.866（稳步提升）
 - 吞吐量约55,670 tok/秒
