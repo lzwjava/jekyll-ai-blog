@@ -74,6 +74,7 @@ When Altman was briefly fired in 2023, the board had fretted over his personal i
 ## TL;DR: The Structural Play
 
 Altman's compensation design is almost elegant in its audacity:
+
 - **No OpenAI equity** → no legal conflict of interest on paper
 - **But** he holds ~$2B+ in companies that are OpenAI's suppliers/partners
 - **Therefore** every OpenAI dollar spent on compute, energy, chips flows to companies where he holds personal stakes
@@ -82,6 +83,7 @@ Altman's compensation design is almost elegant in its audacity:
 This is the governance time bomb heading into the roadshow.
 
 References:
+
 - [OpenAI's light balance sheet faces a hard IPO look — The Next Web](https://thenextweb.com/news/openai-light-balance-sheet-ipo-scrutiny)
 - [Cerebras IPO mints two billionaires — CNBC](https://www.cnbc.com/2026/05/14/cerebras-ipo-mints-two-billionaires-sets-stage-for-potential-ai-wave.html)
 - [Sam Altman's Helion stake draws scrutiny — GeekWire](https://www.geekwire.com/2026/openai-ceo-sam-altmans-stake-in-helion-energy-draws-scrutiny-in-musk-trial-and-on-capitol-hill/)

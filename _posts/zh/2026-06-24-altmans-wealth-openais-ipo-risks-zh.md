@@ -74,6 +74,7 @@ Cerebras向OpenAI提供高达公司10%的认股权证——按IPO中点估值约
 ## 总结：结构性布局
 
 奥尔特曼的报酬设计在胆识上几乎可以说是优雅的：
+
 - **没有OpenAI股权** → 纸面上没有法律上的利益冲突
 - **但是**他在作为OpenAI供应商/合作伙伴的公司中持有约20亿美元+的股份
 - **因此**OpenAI每花费在算力、能源、芯片上的一美元，都会流向他在其中持有个人股份的公司
@@ -82,6 +83,7 @@ Cerebras向OpenAI提供高达公司10%的认股权证——按IPO中点估值约
 这是即将到来的路演中一颗治理定时炸弹。
 
 参考文献：
+
 - [OpenAI的轻资产表面临IPO严格审视 — The Next Web](https://thenextweb.com/news/openai-light-balance-sheet-ipo-scrutiny)
 - [Cerebras IPO造就两位亿万富翁 — CNBC](https://www.cnbc.com/2026/05/14/cerebras-ipo-mints-two-billionaires-sets-stage-for-potential-ai-wave.html)
 - [萨姆·奥尔特曼的Helion持股引发关注 — GeekWire](https://www.geekwire.com/2026/openai-ceo-sam-altmans-stake-in-helion-energy-draws-scrutiny-in-musk-trial-and-on-capitol-hill/)

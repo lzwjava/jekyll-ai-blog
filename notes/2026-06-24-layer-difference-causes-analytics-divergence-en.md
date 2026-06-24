@@ -57,11 +57,13 @@ For a typical static site / GitHub Pages / Jekyll blog:
 ## How to Make Them More Comparable
 
 In Cloudflare, filter to:
+
 - **HTML requests only** (Content-Type: text/html)
 - Exclude known bot user-agents
 - Look at "page views" metric specifically (not total requests)
 
 Even then, Cloudflare will be higher because it still counts:
+
 - Users with JS disabled
 - Users who blocked GoatCounter's domain
 - Prefetch requests that never rendered
