@@ -13,7 +13,7 @@ type: note
 
 **回答：**
 
-## 简短回答：你很可能不需要它。
+## 简短回答：你很可能不需要它
 
 LangGraph 只适用于一小部分问题。对于你构建的大多数东西——CLI 代理、自动化流水线、提示链——**纯 Python + LLM 客户端更好**。
 
@@ -22,6 +22,7 @@ LangGraph 只适用于一小部分问题。对于你构建的大多数东西—�
 ## LangGraph 实际上是什么
 
 LangGraph 将你的代理建模为一个**有向图（DAG 或循环图）**，其中：
+
 - **节点** = Python 函数（LLM 调用、工具调用、逻辑）
 - **边** = 节点之间的转换（有条件或固定）
 - **状态** = 通过图传递的带类型字典
@@ -150,6 +151,7 @@ print(result["messages"][-1].content)
 ## 什么时候图抽象值得
 
 **检查点**（崩溃后恢复、人工审批）：
+
 ```python
 from langgraph.checkpoint.sqlite import SqliteSaver
 
@@ -161,6 +163,7 @@ app = graph.compile(checkpointer=checkpointer, interrupt_before=["dangerous_tool
 ```
 
 **多代理交接**（主管 → 子代理）：
+
 ```python
 graph.add_conditional_edges("supervisor", route_to_agent, {
     "coder": "coder_agent",

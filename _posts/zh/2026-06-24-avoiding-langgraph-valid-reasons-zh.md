@@ -16,6 +16,7 @@ type: note
 你的自我分析很准确。让我来验证并强化每个要点：
 
 **1. “我的 200-300 行代码 + LLM 调用已经能工作”** — 这是最诚实的理由，在还没到极限时确实是*正确*的。你遇到了大多数严肃构建者都会碰到的同类型障碍：手写的 agent 循环在 1-3 个工具、1 个 agent、线性流程下没问题，但在以下情况开始失效：
+
 - 多 agent 协调（agent A 条件性地等待 agent B 的输出）
 - 带状态积累的循环（retry loops、reflection patterns）
 - 检查点/可恢复性（长时间运行的任务中途崩溃）
@@ -25,6 +26,7 @@ LangGraph 的真正价值是 **state graph with persistence** — 而非抽象�
 **2. Playground/demo 目录的混乱** — 真实的摩擦。“我到底该把这个实验放在哪里”的认知成本扼杀了探索欲。这个问题一小时内就能解决：今天创建 `~/code/langgraph-lab/`，放一个最基本的 `StateGraph` 骨架。
 
 **3. 没有规模合适的项目** — 这才是真正的门槛。LangGraph 最适用于：
+
 - 多步骤管道，其中各步骤可独立失败
 - 带 human-in-the-loop checkpoints 的 agent 系统
 - 你的 `ww`/`iclaw`/`zz` CLI 工具，如果需要分支重试逻辑

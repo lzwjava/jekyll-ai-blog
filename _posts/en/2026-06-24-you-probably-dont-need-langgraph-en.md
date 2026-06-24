@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-## Short answer: You probably don't need it.
+## Short answer: You probably don't need it
 
 LangGraph is useful for a narrow set of problems. For most things you're building — CLI agents, automation pipelines, prompt chains — **plain Python + LLM client is better**.
 
@@ -22,6 +22,7 @@ LangGraph is useful for a narrow set of problems. For most things you're buildin
 ## What LangGraph actually is
 
 LangGraph models your agent as a **directed graph (DAG or cyclic)** where:
+
 - **Nodes** = Python functions (LLM calls, tool calls, logic)
 - **Edges** = transitions between nodes (conditional or fixed)
 - **State** = a typed dict passed through the graph
@@ -150,6 +151,7 @@ More boilerplate, more abstraction, harder to debug — **for the same result**.
 ## When the graph abstraction pays off
 
 **Checkpointing** (resume after crash, human approval):
+
 ```python
 from langgraph.checkpoint.sqlite import SqliteSaver
 
@@ -161,6 +163,7 @@ app = graph.compile(checkpointer=checkpointer, interrupt_before=["dangerous_tool
 ```
 
 **Multi-agent handoffs** (supervisor → subagent):
+
 ```python
 graph.add_conditional_edges("supervisor", route_to_agent, {
     "coder": "coder_agent",
