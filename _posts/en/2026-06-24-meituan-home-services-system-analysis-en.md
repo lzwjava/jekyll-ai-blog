@@ -20,11 +20,13 @@ This is a logistics/ops problem, and it's actually a great domain to study for a
 ## What's happening here (systems view)
 
 **Supply-demand mismatch on weekends:**
+
 - Saturday/Sunday = 爆单 (order surge)
 - 阿姨 (cleaners) are finite, and the good ones get booked out fast
 - Meituan's matching algorithm probably doesn't do dynamic pricing or surge staffing well enough
 
 **EV motorcycle battery = hidden constraint:**
+
 - The worker couldn't come because her motorcycle ran out of charge
 - She was coming from a far previous order
 - Battery range → geographic radius → order assignment radius
