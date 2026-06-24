@@ -1,10 +1,10 @@
 %-------------------------------------------------------------------------------
-%	SECTION TITLE
+%	章节标题
 %-------------------------------------------------------------------------------
 \cvsection{个人项目}
 
 %-------------------------------------------------------------------------------
-%	CONTENT
+%	内容
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
@@ -16,15 +16,16 @@
     {2023年至今} % 日期
     {
       \begin{cvitems} % 描述
-        \item {使用nanoGPT在FineWeb数据集上从零训练GPT-2 124M两次——分别在RunPod H200和DigitalOcean H100上完成；另在配备RTX 4070的家用服务器上进行了实验。}
-        \item {过去一年通过OpenRouter等LLM服务商消耗约15亿token；仅上月即消耗约5亿token。}
-        \item {jekyll-ai-blog：AI驱动的博客平台，支持多语言自动翻译、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线及GitHub Actions工作流。}
-        \item {lzwjava.github.io：个人博客与知识库，约400篇原创文章及约8000条AI回答笔记；过去一个月约7万页面浏览量（Cloudflare Analytics），访客最多的国家为新加坡。}
-        \item {ww：跨平台CLI工具集——集成AI提交信息（Gemini Flash）、图片/PDF处理、网页搜索、GitHub Copilot Chat及LLM辅助功能。}
-        \item {iclaw：终端AI智能体（REPL），可自主编码、搜索并执行Shell命令。支持GitHub Copilot（OAuth）和OpenRouter；适用于无IDE插件的受限企业环境。}
-        \item {zz：ML项目数据集处理与训练工具集——涵盖FineWeb数据下载/提取、训练日志分析及GPT-2训练过程中使用的评估脚本。}
-        \item {live-server现代化改造：通过AI编程工具完成Docker化，升级CodeIgniter和Vue至当前版本，实现全栈现代化。}
-        \item {Tree\_Of\_Thought（1个PR）：为思维树推理系统贡献代码，新增OpenAI兼容请求模块及python-dotenv配置支持。}
+        \item {使用nanoGPT在FineWeb数据集上从零训练GPT-2 124M两次——分别在RunPod H200（141 GB HBM3e）和DigitalOcean H100（80 GB HBM3）上完成；另在配备RTX 4070（12 GB）的家用服务器上进行了实验。Fork了Karpathy的nanoGPT并提交45次：基于FineWeb分片的数据流水线、内联张量形状注释和适配不同GPU预算的训练配置。技术栈：Python、PyTorch、CUDA、HuggingFace Datasets、tiktoken。}
+        \item {构建了包含6个数据集流水线（FineWeb-Edu 10B+ tokens、OpenWebText、Wikipedia）和6个训练配置（124M–1.5B参数）的nanoGPT分支。另在AMD MI300X（192 GB HBM3）上通过AMD Dev Cloud训练GPT-2 760M。技术栈：Python、PyTorch、ROCm、FlashAttention、HuggingFace Hub。}
+        \item {zz：数据集处理工具集——支持断点续传的分片下载及token预算规划、通过pyarrow进行内存安全的parquet提取、tokenization、训练日志分析。托管于GitHub和Hugging Face。技术栈：Python、pyarrow、tiktoken、pandas、matplotlib。}
+        \item {在多个平台消耗约23亿+ token：OpenRouter 11.5亿 token（\$239，155K请求）、Claude API 1.15亿+ token、小米MIMO 5亿 token。技术栈：OpenRouter API、Claude API、Copilot API、REST APIs。}
+        \item {jekyll-ai-blog：AI驱动的博客平台，支持基于LLM的多语言翻译（9+语种）、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线及GitHub Actions CI/CD。10K+英文文章、10K+中文文章、9.7K AI笔记。技术栈：Jekyll、Python、Google Cloud TTS、XeLaTeX、DeepSeek、Mistral。}
+        \item {lzwjava.github.io：个人博客与知识库，约400篇原创文章及约8000条AI回答笔记；每月约7万页面浏览量（Cloudflare）。技术栈：Jekyll、GitHub Pages、Cloudflare Analytics、MathJax。}
+        \item {ww：跨平台CLI工具集（255+次提交，10+命令组）——集成AI提交信息的git工作流、笔记管理、图片/PDF处理、Copilot Chat、AMD Dev Cloud管理。技术栈：Python、uv、Gemini Flash、OpenRouter、Pillow。}
+        \item {iclaw：终端AI智能体REPL，支持原生工具调用——可自主编码、搜索并执行命令。支持Copilot OAuth和OpenRouter；适用于受限企业环境。技术栈：Python、Copilot OAuth、OpenRouter API、DuckDuckGo、Tavily。}
+        \item {live-server现代化改造：通过AI编程工具（Claude Code、Codex）完成Docker化，升级CodeIgniter和Vue至当前版本，实现曾服务3万用户的创业项目全栈现代化。技术栈：PHP、Docker、CodeIgniter、Vue.js、MySQL、Redis。}
+        \item {Tree\_Of\_Thought（1个PR）：为思维树推理系统贡献代码，用于物理问题求解——含显式推理树、评分、剪枝和SymPy符号计算。新增OpenAI兼容请求模块及python-dotenv配置支持。技术栈：Python、FastAPI、OpenAI API、SymPy。}
       \end{cvitems}
     }
 
@@ -33,7 +34,7 @@
     {各类个人项目} % 项目名称
     {开源贡献、博客开发、后端与前端开发、移动应用开发、工具开发} % 角色
     {} % 地点
-    {2013 - 2021} % 日期
+    {2013年至今} % 日期
     {
       \begin{cvitems} % 描述
         \item {算法解决方案：算法问题的解决方案，托管在GitHub上，有2466次提交，主要使用Java实现。（2013年至今）}
