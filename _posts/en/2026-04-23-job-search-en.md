@@ -12,6 +12,21 @@ translated: false
 
 ---
 
+| Field | Details |
+|-------|---------|
+| **Total Exp** | ~12 years (2014.07 – Present; 1 year mobile, 8 years full-stack/backend, 1 year ML/big data, 2 years AI-focused) |
+| **Nationality** | Chinese |
+| **Current Organization** | TEKsystems (outsourced to HSBC Bank) — title: AI Full Stack Engineer / Specialist Engineering |
+| **Work Permit** | Chinese citizen — no work permit required for mainland China|
+| **Current Salary** | redacted |
+| **Expected Salary** | ~450k CNY/year |
+| **Notice Period** | Two weeks |
+| **Education** | Beijing Forestry University — Digital Media Arts, Bachelor (Dropout, 2013–2014); Guangdong University of Foreign Studies — Computer Application, Associate Degree (Self-study, 2022–Present, 13/17 courses passed) |
+| **Interview Availability** | 10am – 10pm HKT |
+| **TOEIC Score** | Not taken. IELTS Academics 6.5 (Reading 8.5) |
+
+---
+
 Hi, I’m Zhiwei.
 
 I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
