@@ -77,6 +77,7 @@ response = completion(
 | 官方 API | ~$0.27 | 直接访问 api.deepseek.com |
 
 针对你的使用场景（高流量、CLI 代理、重度依赖 DeepSeek），我建议：
+
 - **主要选择**：OpenRouter（覆盖广 + 回退机制）
 - **快速推理**：Cerebras 或 Groq，用于对延迟敏感的任务
 - **自托管代理**：LiteLLM，将所有服务统一到单一端点后面

@@ -18,38 +18,46 @@ This is Together.ai's **GPU Cluster provisioning UI** — their managed multi-no
 ---
 
 ## Region
+
 Where the cluster is physically located. Affects latency to your data sources, egress costs, and sometimes GPU availability. Together.ai has US and EU regions.
 
 ---
 
 ## Shared Volume
+
 A network-attached storage volume (likely NFS or similar) mounted across all nodes in the cluster. Critical for multi-node training — all nodes need to read the same dataset and checkpoint files. Without shared storage you'd have to sync manually across nodes.
 
 ---
 
 ## Driver Version
+
 **570 (CUDA 12.8)** — the NVIDIA kernel driver version. CUDA 12.8 is current-gen. This matters because:
+
 - Your `torch`, `flash-attention`, `triton` versions must be compatible with this CUDA version
 - H100 SXM requires CUDA 11.8+ for full feature support; 12.x unlocks FP8 natively
 
 ---
 
 ## Enable Autoscaling
+
 Scale node count up/down based on utilization. For training runs you almost always want **No** — you need a fixed topology for NCCL/RDMA collectives. Autoscaling is for inference serving, not training.
 
 ---
 
 ## Max GPUs
+
 Only relevant if autoscaling is enabled — caps the upper bound.
 
 ---
 
 ## Use Custom OIDC
+
 Bring your own identity provider (Okta, Azure AD, etc.) for auth into the cluster. Enterprise feature — ignore unless you're at a company with SSO requirements.
 
 ---
 
 ## Enable Traefik
+
 [Traefik](https://traefik.io/) is a reverse proxy / ingress controller. Enabling this lets you expose HTTP endpoints from within the cluster — useful if you're running an inference server (vLLM, TGI) or a training dashboard (wandb agent, TensorBoard) that needs external access.
 
 ---

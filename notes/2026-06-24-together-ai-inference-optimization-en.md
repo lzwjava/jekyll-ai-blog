@@ -42,6 +42,7 @@ At the heart of Together AI's infrastructure is the Together Kernel Collection �
 ## 3. Three Inference Regimes (His Framework)
 
 Tri Dao identifies three distinct inference optimization targets:
+
 - **Chatbot workloads** — fast enough to feel responsive but not instantaneous, maintaining natural UX
 - **Low-latency ultra-fast inference** — for coding assistants (like Claude Code) or agentic tasks, where users pay a premium to stay in flow
 - **Maximum throughput / large batch** — synthetic data generation and RL training rollouts (sampling many trajectories)

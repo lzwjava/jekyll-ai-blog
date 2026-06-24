@@ -77,6 +77,7 @@ response = completion(
 | Official API | ~$0.27 | api.deepseek.com direct |
 
 For your use case (high volume, CLI agents, DeepSeek-heavy), I'd recommend:
+
 - **Primary**: OpenRouter (coverage + fallback)
 - **Fast inference**: Cerebras or Groq for latency-sensitive tasks
 - **Self-hosted proxy**: LiteLLM to unify them all behind one endpoint
