@@ -32,6 +32,7 @@ ffmpeg -loop 1 -i input.jpg \
 ```
 
 关键参数：
+
 - `-loop 1` — 将静态图片循环作为视频帧
 - `-t 30` — 视频时长（秒）（Shorts 最长 60 秒）
 - `scale + pad` — 添加黑边（letterbox/pillarbox）以适配 9:16 而不裁剪
@@ -39,6 +40,7 @@ ffmpeg -loop 1 -i input.jpg \
 - `-shortest` — 当音频结束时停止
 
 **如果你需要先从微信中提取音乐**，那会更棘手——微信不提供干净导出的方式。可选方法：
+
 - 用另一台设备录制手机播放的音频，或屏幕录制带音频
 - 如果你原本就有音频文件，直接使用即可
 - 在已 root 的 Android 设备上，微信缓存位于 `/data/data/com.tencent.mm/` 但经过混淆

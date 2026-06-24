@@ -16,14 +16,16 @@ Here's the full breakdown of what nanochat adds over nanoGPT:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 nanoGPT is a pretraining-only harness. It has:
-  - model.py (~340 lines): vanilla GPT-2 architecture (LayerNorm, GELU, learned positional embeddings, weight tying, bias in Linears)
-  - train.py (~300 lines): pretraining loop on raw text
-  - sample.py: basic text generation
-  - That's it. 2 Python files.
+
+- model.py (~340 lines): vanilla GPT-2 architecture (LayerNorm, GELU, learned positional embeddings, weight tying, bias in Linears)
+- train.py (~300 lines): pretraining loop on raw text
+- sample.py: basic text generation
+- That's it. 2 Python files.
 
 nanochat is the full LLM lifecycle in one repo. Here's every major addition:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 1. MODEL ARCHITECTURE (gpt.py) — significantly upgraded
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -117,6 +119,7 @@ How it works in nanochat:
 nanoGPT has NO RL. nanochat implements a simplified GRPO/REINFORCE on GSM8K:
 
 The pipeline:
+
   1. Load the SFT model
   2. For each GSM8K question:
      - Generate N=16 samples from the model
@@ -127,10 +130,11 @@ The pipeline:
   5. No KL penalty, no PPO ratio/clip — pure on-policy REINFORCE
 
 What makes it "GRPO-inspired" but simplified:
-  - No trust region / KL to reference model
-  - On-policy (no need for PPO ratio + clip)
-  - DAPO-style token-level normalization
-  - Advantage = (r - mu) not (r - mu)/sigma
+
+- No trust region / KL to reference model
+- On-policy (no need for PPO ratio + clip)
+- DAPO-style token-level normalization
+- Advantage = (r - mu) not (r - mu)/sigma
 
 Tracks pass@k metrics: probability that at least 1 of k samples is correct.
 
@@ -141,11 +145,12 @@ Tracks pass@k metrics: probability that at least 1 of k samples is correct.
 nanoGPT: basic generate() that crops to block_size, no caching.
 
 nanochat: Full inference engine with:
-  - KV Cache (FA3-native, pre-allocated tensors)
-  - Prefill: batch=1 prompt forward, then replicate cache for N samples
-  - Tool use state machine: detects <|python_start|>, evals expressions, injects results
-  - Multi-sample generation (generate N completions in parallel)
-  - Streaming yields (token_column, token_masks) per step
+
+- KV Cache (FA3-native, pre-allocated tensors)
+- Prefill: batch=1 prompt forward, then replicate cache for N samples
+- Tool use state machine: detects <|python_start|>, evals expressions, injects results
+- Multi-sample generation (generate N completions in parallel)
+- Streaming yields (token_column, token_masks) per step
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 5. EVALUATION SUITE (tasks/ + core_eval.py + chat_eval.py)
@@ -178,24 +183,25 @@ nanochat has 8 evaluation tasks:
 nanoGPT: uses tiktoken (GPT-2 encoding) or trains a char-level tokenizer. No special tokens.
 
 nanochat: Custom BPE tokenizer (RustBPE for training, tiktoken for inference):
-  - 32K vocab (configurable)
-  - 8 special tokens: <|bos|>, <|user_start|>, <|user_end|>, <|assistant_start|>, <|assistant_end|>, <|python_start|>, <|python_end|>, <|output_start|>, <|output_end|>
-  - render_conversation() method: turns chat messages into token ids + loss mask
-  - render_for_completion(): strips last assistant message for RL generation
-  - visualize_tokenization(): debug helper with color-coded output
+
+- 32K vocab (configurable)
+- 8 special tokens: <|bos|>, <|user_start|>, <|user_end|>, <|assistant_start|>, <|assistant_end|>, <|python_start|>, <|python_end|>, <|output_start|>, <|output_end|>
+- render_conversation() method: turns chat messages into token ids + loss mask
+- render_for_completion(): strips last assistant message for RL generation
+- visualize_tokenization(): debug helper with color-coded output
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 7. OTHER INFRASTRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  - Checkpoint manager: saves/loads model + optimizer + metadata per stage (base/sft/rl)
-  - MLflow logger: experiment tracking alternative to wandb
-  - Scaling laws support: miniseries.sh, scaling_laws.sh, --depth as single dial
-  - Report system: structured logging of eval results
-  - Chat UI: web-based ChatGPT-like interface (scripts/chat_web.py)
-  - Chat CLI: terminal-based chat interface (scripts/chat_cli.py)
-  - Distributed training: proper DDP with Gloo patches
-  - compute_init/cleanup: device detection, distributed setup
+- Checkpoint manager: saves/loads model + optimizer + metadata per stage (base/sft/rl)
+- MLflow logger: experiment tracking alternative to wandb
+- Scaling laws support: miniseries.sh, scaling_laws.sh, --depth as single dial
+- Report system: structured logging of eval results
+- Chat UI: web-based ChatGPT-like interface (scripts/chat_web.py)
+- Chat CLI: terminal-based chat interface (scripts/chat_cli.py)
+- Distributed training: proper DDP with Gloo patches
+- compute_init/cleanup: device detection, distributed setup
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   Summary: The Full LLM Pipeline
@@ -209,6 +215,7 @@ nanochat covers:
   [RL on math tasks] → [eval ChatCORE] → [serve via chat UI]
 
 The biggest conceptual additions are:
+
   1. SFT: teaching a base model to be a chat assistant via conversation fine-tuning
   2. RL: improving math/tool-use via reward-based policy gradient
   3. Tool use: the model can invoke a Python calculator and get results fed back

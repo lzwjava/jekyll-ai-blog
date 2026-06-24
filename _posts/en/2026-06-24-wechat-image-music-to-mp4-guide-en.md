@@ -32,6 +32,7 @@ ffmpeg -loop 1 -i input.jpg \
 ```
 
 Key flags:
+
 - `-loop 1` — loops the still image as video frames
 - `-t 30` — duration in seconds (Shorts max 60s)
 - `scale + pad` — letterbox/pillarbox to 9:16 without cropping
@@ -39,6 +40,7 @@ Key flags:
 - `-shortest` — stops when audio ends
 
 **If you want to extract the music from WeChat first**, that's the harder part — WeChat doesn't give you a clean export. Options:
+
 - Record the audio playing from your phone using another device or screen record with audio
 - If you originally had the audio file, just use it directly
 - On rooted Android, WeChat caches are in `/data/data/com.tencent.mm/` but obfuscated

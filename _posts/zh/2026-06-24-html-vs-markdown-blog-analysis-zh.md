@@ -30,6 +30,7 @@ Anthropic 观察到，当 Claude 生成 Artifacts 时，HTML 产生的视觉输�
 5. 布局仅执行 `{{ content }}` — 将渲染后的 markdown 直接放入页面
 
 关键文件：
+
 - `/Users/lzwjava/projects/ww/ww/note/create_note_utils.py` — 核心工具
 - `/Users/lzwjava/projects/ww/ww/note/create_note_from_clipboard.py` — 主流程
 - `/Users/lzwjava/projects/ww/ww/note/note_workflow.py` — CLI 工作流
@@ -47,6 +48,7 @@ Anthropic 观察到，当 Claude 生成 Artifacts 时，HTML 产生的视觉输�
 Jekyll 已经支持在 `.md` 文件中使用原始 HTML。kramdown 会直接传递它。你可以保留 `.md` 文件、YAML 前置元数据和整个流程——但让 LLM 生成 HTML 内容块而不是 Markdown 语法。
 
 当前笔记：
+
 ```markdown
 **问题：** 我如何管理信息共享？
 
@@ -60,6 +62,7 @@ Jekyll 已经支持在 `.md` 文件中使用原始 HTML。kramdown 会直接传�
 ```
 
 HTML 增强版笔记：
+
 ```markdown
 ---
 title: 管理关系中的信息共享
@@ -101,6 +104,7 @@ layout: post
 - `note_workflow.py` 中的 `fix_mathjax_in_file()` 和 `process_tables_in_file()` 操作的是 markdown
 
 你需要修改：
+
 - `create_filename()` — 扩展名
 - `format_front_matter()` — 仍然可用（Jekyll 前置元数据相同）
 - `write_note()` — 内容生成

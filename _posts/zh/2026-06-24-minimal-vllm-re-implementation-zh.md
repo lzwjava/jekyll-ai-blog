@@ -24,18 +24,21 @@ type: note
 ## 架构（6 个关键组件）
 
 ### 1. LLMEngine（engine/llm_engine.py）— 编排器
+
 - 拥有 Scheduler、ModelRunner 和 Tokenizer
 - `generate()` 循环：添加请求 → 逐步执行直到完成，报告 prefill/decode 吞吐量
 - `step()`：调度器选择序列 → model_runner 执行前向 → 调度器后处理 token
 - 通过 `torch.multiprocessing.spawn` 支持 tensor parallelism——rank 0 驱动，rank 1..N 运行一个共享内存事件循环
 
 ### 2. Scheduler（engine/scheduler.py）— 连续批处理
+
 - 两个队列：`waiting`（prefill）和 `running`（decode）
 - Prefill 调度：遵守 `max_num_batched_tokens` 和 `max_num_seqs`，支持第一个序列的 chunked prefill
 - Decode 调度：当 KV 缓存满时驱逐（抢占）正在运行的序列——经典的 vLLM 抢占
 - 后处理：追加生成的 token，检查 EOS/max_tokens，释放已完成的序列
 
 ### 3. BlockManager（engine/block_manager.py）— PagedAttention KV 缓存
+
 - **这是 vLLM 的核心创新**，在此重新实现
 - 从池中分配的固定大小 KV 缓存块（默认 256 token/块）
 - `Block` 对象跟踪 `ref_count` 和 `hash`，用于 prefix caching
@@ -44,6 +47,7 @@ type: note
 - 抢占：释放块，将序列放回 waiting 队列
 
 ### 4. ModelRunner（engine/model_runner.py）— GPU 执行
+
 - 通过 safetensors 加载 Qwen3 模型权重，包含打包模块映射（q/k/v → 融合 qkv_proj，gate/up → 融合 gate_up_proj）
 - 分配单个连续 KV 缓存张量：`[2, num_layers, num_blocks, block_size, num_kv_heads, head_dim]`
 - **解码时的 CUDA Graph 捕获**：在批大小 [1,2,4,8,16,32,...,512] 下预捕获图，实现零开销重放
@@ -51,22 +55,26 @@ type: note
 - 通过 NCCL + SharedMemory IPC 实现 tensor parallelism
 
 ### 5. Attention（layers/attention.py）— FlashAttention + Triton KV 存储
+
 - **Triton 内核** `store_kvcache_kernel`：使用 slot_mapping 将 K/V 写入分页缓存（无 Python 循环）
 - Prefill：`flash_attn_varlen_func`，支持变长序列和可选的 block_table 用于 prefix 缓存
 - Decode：`flash_attn_with_kvcache`，使用分页 KV 缓存
 
 ### 6. Model（models/qwen3.py）— Qwen3ForCausalLM
+
 - 完整的 Qwen3 变换器：QKV 并行线性层、RoPE（使用 `@torch.compile`）、QK-norm（Q/K head 上的 RMSNorm）、SiLU 门控 MLP
 - `ParallelLMHead`：词汇并行输出——仅在 rank 0 上跨 TP rank 收集 logits
 - 权重加载处理打包模块（融合 QKV、融合 gate/up）
 
 ### 辅助层
+
 - **RotaryEmbedding**：预计算的 cos/sin 缓存，前向使用 `@torch.compile`
 - **RMSNorm**：融合 add+norm 变体用于残差连接，`@torch.compile`
 - **SiluAndMul**：在 SiLU 门控上使用 `@torch.compile`
 - **Sampler**：`@torch.compile`，使用 Gumbel-max 技巧进行采样（指数噪声 + argmax）
 
 ### 关键设计选择
+
 - **禁止贪婪采样**（强制 `temperature > 1e-10`）——仅随机采样
 - 块大小必须是 256 的倍数
 - 默认 GPU 内存使用率 90%

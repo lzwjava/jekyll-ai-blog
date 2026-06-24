@@ -30,6 +30,7 @@ Your note creation flow is:
 5. The layout just does `{{ content }}` — dumps rendered markdown into the page
 
 Key files:
+
 - `/Users/lzwjava/projects/ww/ww/note/create_note_utils.py` — core utilities
 - `/Users/lzwjava/projects/ww/ww/note/create_note_from_clipboard.py` — main pipeline
 - `/Users/lzwjava/projects/ww/ww/note/note_workflow.py` — CLI workflow
@@ -47,6 +48,7 @@ The real problem: **Jekyll's pipeline is Markdown-first**. The `_config.yml` has
 Jekyll already supports raw HTML inside `.md` files. kramdown passes it through. You can keep `.md` files, YAML frontmatter, and the entire pipeline — but have the LLM generate HTML content blocks instead of Markdown syntax.
 
 Current note:
+
 ```markdown
 **Question:** How do I manage information sharing?
 
@@ -60,6 +62,7 @@ Current note:
 ```
 
 HTML-enhanced note:
+
 ```markdown
 ---
 title: Managing Relationship Information Sharing
@@ -101,6 +104,7 @@ Switch to `.html` files. Jekyll processes `.html` files too — it still runs Li
 - `fix_mathjax_in_file()` and `process_tables_in_file()` in `note_workflow.py` operate on markdown
 
 You'd need to change:
+
 - `create_filename()` — extension
 - `format_front_matter()` — still works (Jekyll frontmatter is the same)
 - `write_note()` — content generation
