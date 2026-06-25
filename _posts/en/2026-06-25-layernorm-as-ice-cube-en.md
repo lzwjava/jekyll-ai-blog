@@ -18,6 +18,7 @@ The intuition is pointing at something real but the analogy is slightly misaimed
 **What GELU/ReLU actually does:**
 
 Activations don't "keep parameters in range" — that's more the job of:
+
 - **Layer Norm / Batch Norm** — the actual "temperature regulator"
 - **Gradient clipping** — prevents explosion
 - **Weight decay** — prevents drift
