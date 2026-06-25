@@ -1,0 +1,142 @@
+z$     python3.11 scripts/download/view_sec_edgar.py --sample
+
+  From shard: 10-K/100dc249-8312-4f7c-93ea-7a3669bdbfdd-114.parquet  (row 1469/1657)
+================================================================================
+  [Row 1469] SAN FRANCISCO CO  |  Accession: 0000351238-99-000001  |  Filed: 19990326  |  Period: 19981231
+--------------------------------------------------------------------------------
+
+--- HTML content (198770 chars, showing first 2000) ---
+SECURITIES AND EXCHANGE COMMISSION
+                          Washington, D.C. 20549
+
+                                 FORM 10-K
+
+[X]  ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+     SECURITIES EXCHANGE ACT OF 1934
+                For the fiscal year ended December 31, 1998
+
+                                    OR
+[  ] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+     SECURITIES EXCHANGE ACT OF 1934
+
+                      Commission File Number 0-10198
+
+                         THE SAN FRANCISCO COMPANY
+          (Exact name of Registrant as specified in its charter)
+
+  Delaware                                    94-3071255
+ (State or other jurisdiction of         (I.R.S. Employer Identification No.)
+  incorporation or organization)
+
+ 550 Montgomery Street, 10th Floor
+ San Francisco, California                               94111
+ (Address of principal executive office)                (Zip Code)
+
+       Registrant's telephone number, including area code: (415) 781-7810
+
+        Securities registered pursuant to Section 12(b) of the Act:
+
+ Title of Class                                 Name of Each Exchange on
+                                                 Which Registered
+
+Class A Common Stock, $0.01 Par Value              None
+
+     Securities registered pursuant to Section 12(g) of the Act:  None
+
+Indicate by check mark whether the registrant (1) has filed all
+reports required to be filed by Section 13 or 15(d) of the
+Securities Exchange Act of 1934 during the preceding 12 months (or
+for such shorter period that the registrant was required to file
+such reports), and (2) has been subject to such filing requirements
+for the past 90 days.
+
+                    Yes X                No
+
+Indicate by check mark if disclosure of delinquent filers pursuant
+to Item 405 of Regulation S-K is not contained herein, and will not
+be contained, to the best of registrant's knowledge, in definitive
+
+...
+
+--- Text (198682 chars, showing first 1000) ---
+SECURITIES AND EXCHANGE COMMISSION
+                          Washington, D.C. 20549
+
+                                 FORM 10-K
+
+[X]  ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+     SECURITIES EXCHANGE ACT OF 1934
+                For the fiscal year ended December 31, 1998
+
+                                    OR
+[  ] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE
+     SECURITIES EXCHANGE ACT OF 1934
+
+                      Commission File Number 0-10198
+
+                         THE SAN FRANCISCO COMPANY
+          (Exact name of Registrant as specified in its charter)
+
+  Delaware                                    94-3071255
+ (State or other jurisdiction of         (I.R.S. Employer Identification No.)
+  incorporation or organization)
+
+ 550 Montgomery Street, 10th Floor
+ San Francisco, California                               94111
+ (Address of principal executive office)                (Zip Code)
+
+       Regis
+...
+
+
+  From shard: 10-K/002931a9-b8b0-4b26-8f57-dcbb80290dc7-65.parquet  (row 1250/1358)
+================================================================================
+  [Row 1250] LCNB CORP  |  Accession: 0001074902-20-000033  |  Filed: 20200304  |  Period: 20191231
+--------------------------------------------------------------------------------
+
+--- HTML content (4227151 chars, showing first 2000) ---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+        <head>
+                <!-- Document created using Wdesk 1 -->
+                <!-- Copyright 2020 Workiva -->
+                <title>Document</title>
+        </head>
+        <body><div style="font-family:Times New Roman;font-size:10pt;">
+<div><a name="s612BF8F384E6594199BF3B9D6C20C981"></a></div><div style="line-height:120%;text-align:center;font-size:10pt;"><div style="padding-left:0px;text-indent:0px;line-height:normal;padding-top:10px;"><table cellpadding="0" cellspacing="0" style="font-family:Times New Roman;font-size:10pt;margin-left:auto;margin-right:auto;width:99.80506822612085%;border-collapse:collapse;text-align:left;"><tr><td colspan="5"></td></tr><tr><td style="width:20%;"></td><td style="width:20%;"></td><td style="width:20%;"></td><td style="width:20%;"></td><td style="width:20%;"></td></tr><tr><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;border-top:2px solid #000000;"><div style="overflow:hidden;height:5px;font-size:10pt;"><font style="font-family:inherit;font-size:10pt;">&#160;</font></div></td><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;border-top:2px solid #000000;"><div style="overflow:hidden;height:5px;font-size:10pt;"><font style="font-family:inherit;font-size:10pt;">&#160;</font></div></td><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;border-top:2px solid #000000;"><div style="overflow:hidden;height:5px;font-size:10pt;"><font style="font-family:inherit;font-size:10pt;">&#160;</font></div></td><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;border-top:2px solid #000000;"><div style="overflow:hidden;height:5px;font-size:10pt;"><font style="font-family:inherit;font-size:10pt;">&#160;</font></div></td><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;pad
+...
+
+--- Text (310711 chars, showing first 1000) ---
+Document
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C.   20549
+FORM 10-K
+(Mark One)
+☒
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the fiscal year ended
+December 31, 2019
+or
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from _______________________  to  ______________________
+Commission File Number  000-26121
+LCNB Corp.
+(Exact name of registrant as specified in its charter)
+Ohio
+31-1626393
+(State or other jurisdiction of incorporation or organization)
+(I.R.S. Employer Identification Number)
+2 North Broadway, Lebanon, Ohio   45036
+(Address of principal executive offices, including Zip Code)
+(513) 932-1414
+(Registrant's telephone number, including area code)
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of Each Class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, No Par Value
+LCNB
+NASDAQ Capital Mark
+...
