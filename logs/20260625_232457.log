@@ -1,0 +1,28 @@
+  Total: 18 shards, 26,881 rows, 10.54 GB
+lzw@to:/mnt/data/zz$   python3.11 scripts/download/view_sec_edgar.py --sample
+Traceback (most recent call last):
+  File "/mnt/data/zz/scripts/download/view_sec_edgar.py", line 197, in <module>
+    main()
+  File "/mnt/data/zz/scripts/download/view_sec_edgar.py", line 188, in main
+    cmd_sample(files, args.n, args.text_only, args.meta_only, args.chars)
+  File "/mnt/data/zz/scripts/download/view_sec_edgar.py", line 117, in cmd_sample
+    df = pd.read_parquet(f)
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.11/site-packages/pandas/io/parquet.py", line 667, in read_parquet
+    return impl.read(
+           ^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.11/site-packages/pandas/io/parquet.py", line 274, in read
+    pa_table = self.api.parquet.read_table(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.11/site-packages/pyarrow/parquet/core.py", line 1959, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.11/site-packages/pyarrow/parquet/core.py", line 1585, in read
+    table = self._dataset.to_table(
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow/_dataset.pyx", line 3969, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Couldn't deserialize thrift: No more data to read.
+Deserializing page header failed.
