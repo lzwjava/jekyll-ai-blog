@@ -22,6 +22,7 @@ GTC 2026 ran March 16–19 at SAP Center in San Jose with 30,000+ attendees. Jen
 The Vera Rubin VR200 is the headline hardware: 50 PFLOPS FP4 compute, 288 GB HBM4, 22 TB/s memory bandwidth — a 3.3x compute leap over Blackwell B300 on the same memory footprint. The system comprises 1.3 million components and delivers 10x more performance per watt than Grace Blackwell. Datacenter deployments target H2 2026. Workstation variants unconfirmed.
 
 Key specs vs Blackwell B300 (15 PFLOPS FP4, 8 TB/s bandwidth):
+
 - FP4: 50 PFLOPS (3.3x)
 - HBM bandwidth: 22 TB/s (2.8x)
 - Transistors: 336B on 3nm

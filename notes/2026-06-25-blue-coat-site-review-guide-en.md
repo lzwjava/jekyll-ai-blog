@@ -24,6 +24,7 @@ That's **Symantec's (Blue Coat) Site Review tool** — a public portal where you
 ## What it shows for `huggingface.co`
 
 Blue Coat categorizes every URL into buckets like:
+
 - `Technology/Internet` → usually allowed
 - `Content Delivery Networks` → usually allowed
 - `AI/ML Tools` → **often blocked at banks**
@@ -37,10 +38,12 @@ HuggingFace likely gets categorized as something like **"Technology/Internet"** 
 ## Why this matters for you
 
 If HuggingFace is blocked at your bank, this tool tells you:
+
 - **Exact category** causing the block
 - **What to tell IT** when requesting a whitelist — you cite the category and request reclassification or exception
 
 **Reclassification flow:**
+
 1. Go to `sitereview.bluecoat.com`
 2. Look up the blocked URL
 3. If miscategorized → click "Submit for Review"

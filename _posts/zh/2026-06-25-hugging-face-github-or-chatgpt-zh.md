@@ -16,12 +16,14 @@ type: note
 Hugging Face 主要是一个**平台**（类似 GitHub），但也在其上层提供了聊天界面。具体分析如下：
 
 **Hugging Face 作为平台（类似 GitHub）：**
+
 - 托管模型、数据集和 Spaces（演示应用）
 - 对机器学习制品进行版本控制（底层使用 `git lfs`）
 - 支持组织、仓库、拉取请求、模型卡片
 - 提供 `huggingface_hub` Python SDK 用于推拉模型
 
 **Hugging Face 聊天界面（类似 ChatGPT）：**
+
 - **[HuggingChat](https://huggingface.co/chat/)** — 面向用户的聊天 UI，运行开源模型（Llama 3、Mistral、Qwen 等），与 ChatGPT 类似但使用开源模型
 - **Spaces** — 单个模型演示，可直接在浏览器中向模型输入提示（例如某人部署的 Gradio 或 Streamlit 应用）
 - **Inference API / Inference Endpoints** — 对托管模型的 API 访问，类似 OpenAI 的 API 但针对开源模型

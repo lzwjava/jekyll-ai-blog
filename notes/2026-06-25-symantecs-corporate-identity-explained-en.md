@@ -18,6 +18,7 @@ Symantec is a cybersecurity company — one of the oldest and most recognizable 
 **Founded:** 1982, originally focused on AI and natural language processing, pivoted to security software.
 
 **Core products/domains:**
+
 - **Endpoint security** — antivirus, EDR (Endpoint Detection & Response)
 - **Network security** — DLP (Data Loss Prevention), web gateways, email security
 - **Identity security** — SSO, PKI, certificate management (via Verisign acquisition)
@@ -25,6 +26,7 @@ Symantec is a cybersecurity company — one of the oldest and most recognizable 
 
 **The corporate split (important):**
 In 2019, Symantec had a messy breakup:
+
 - **Broadcom acquired** the Enterprise Security division → now called **Broadcom Symantec Enterprise Security**
 - The consumer division (Norton antivirus) was spun off → became **NortonLifeLock**, later merged with Avast → now called **Gen Digital**
 

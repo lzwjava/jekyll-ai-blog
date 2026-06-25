@@ -20,22 +20,28 @@ type: note
 ## 步骤
 
 ### 1. 查找网站
+
 访问：
+
 ```
 https://sitereview.bluecoat.com/#/lookup-result/huggingface.co
 ```
 
 ### 2. 查看当前类别
+
 页面会显示 Blue Coat 当前分配的类别——例如 `Technology/Internet`、`File Storage`、`Malicious Sources` 等。
 
 ### 3. 提交重新分类
+
 在同一页面有一个 **"Submit for Review"** 或 **"Suggest a Category Change"** 按钮。
 
 填写：
+
 - **你建议的类别** → 选择像 `Technology/Internet` 或 `Research/Reference` 这类无害的选项
 - **理由** → 写 1–2 句话
 
 理由示例：
+
 ```
 HuggingFace 是一个合法的 AI/ML 研究平台，供全球工程师和
 研究人员访问开源模型和文档。它应归类为
@@ -43,6 +49,7 @@ Technology/Internet 或 Research/Reference。
 ```
 
 ### 4. 提交 —— 无需账户
+
 Symantec 接受匿名提交。他们会审核并更新其全球数据库。
 
 ---

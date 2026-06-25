@@ -18,6 +18,7 @@ Symantec 是一家网络安全公司——企业安全领域历史最悠久、�
 **成立时间：** 1982 年，最初专注于人工智能和自然语言处理，后转型为安全软件。
 
 **核心产品/领域：**
+
 - **端点安全** — 杀毒、EDR（端点检测与响应）
 - **网络安全** — DLP（数据防泄漏）、Web 网关、邮件安全
 - **身份安全** — SSO、PKI、证书管理（通过收购 Verisign 获得）
@@ -25,6 +26,7 @@ Symantec 是一家网络安全公司——企业安全领域历史最悠久、�
 
 **公司分拆（重要）：**
 2019 年，Symantec 经历了一次混乱的分拆：
+
 - **Broadcom 收购**了企业安全部门 → 现称 **Broadcom Symantec Enterprise Security**
 - 消费者部门（Norton 杀毒）被剥离 → 成为 **NortonLifeLock**，随后与 Avast 合并 → 现称 **Gen Digital**
 

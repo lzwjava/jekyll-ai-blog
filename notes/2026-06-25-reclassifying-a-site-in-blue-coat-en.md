@@ -20,22 +20,28 @@ Directly on `sitereview.bluecoat.com`:
 ## Steps
 
 ### 1. Look up the site
+
 Go to:
+
 ```
 https://sitereview.bluecoat.com/#/lookup-result/huggingface.co
 ```
 
 ### 2. See current category
+
 It shows what category Blue Coat currently assigns — e.g. `Technology/Internet`, `File Storage`, `Malicious Sources` etc.
 
 ### 3. Submit reclassification
+
 On the same page there's a **"Submit for Review"** or **"Suggest a Category Change"** button.
 
 Fill in:
+
 - **Your suggested category** → pick something benign like `Technology/Internet` or `Research/Reference`
 - **Reason** → write 1-2 sentences
 
 Example reason:
+
 ```
 HuggingFace is a legitimate AI/ML research platform used by
 engineers and researchers worldwide for accessing open-source
@@ -44,6 +50,7 @@ Technology/Internet or Research/Reference.
 ```
 
 ### 4. Submit — no account needed
+
 Symantec accepts anonymous submissions. They review and update their global database.
 
 ---

@@ -18,14 +18,17 @@ type: note
 ### Tier 1: Large-Scale Pretraining Corpora
 
 **[financial-datasets/financial-reports](https://huggingface.co/datasets/financial-datasets/financial-reports)**
+
 - SEC filings (10-K, 10-Q, 8-K), earnings call transcripts
 - Good for domain-adaptive pretraining on formal financial language
 
 **[Sujet-Finance/Sujet-Finance-Instruct-177k](https://huggingface.co/datasets/Sujet-Finance/Sujet-Finance-Instruct-177k)**
+
 - 177K instruction pairs covering sentiment, QA, NER, summarization
 - Finance-specific instruction tuning
 
 **[TheFinAI/Fino1_Reasoning_Path](https://huggingface.co/datasets/TheFinAI/Fino1_Reasoning_Path)**
+
 - Chain-of-thought reasoning traces on financial problems
 - Good for GRPO/DPO on numerical reasoning
 
@@ -49,15 +52,18 @@ FinGPT org has the most complete SFT collection: `huggingface.co/FinGPT`
 ### Tier 3: Raw Financial Text (for Pretraining)
 
 **SEC EDGAR full-text** — not on HF directly, but:
+
 ```bash
 # Edgar full-text search bulk download
 wget https://efts.sec.gov/LATEST/search-index?q=%22%22&dateRange=custom&startdt=2020-01-01&enddt=2024-01-01&_source=file_date,period_of_report,entity_name,file_num,form_type&hits.hits._source=true
 ```
 
 Better: use the `edgartools` Python lib:
+
 ```bash
 pip install edgartools
 ```
+
 ```python
 from edgar import Company
 c = Company("AAPL")
@@ -66,6 +72,7 @@ text = filings[0].obj().text  # raw 10-K text
 ```
 
 **[eloukas/edgar-corpus](https://huggingface.co/datasets/eloukas/edgar-corpus)**
+
 - 6,500+ 10-K annual reports (2000–2020)
 - ~250M tokens of formal SEC prose
 
@@ -74,9 +81,11 @@ text = filings[0].obj().text  # raw 10-K text
 ### Tier 4: Numerical / Quantitative Finance
 
 **[TheFinAI/flare-sm-acl18](https://huggingface.co/datasets/TheFinAI/flare-sm-acl18)**
+
 - Stock movement prediction with news headlines + price direction
 
 **[luqia/FinanceMath](https://huggingface.co/datasets/luqia/FinanceMath)**
+
 - Mathematical finance word problems with solutions
 - Good for teaching models to do DCF, Black-Scholes, etc.
 

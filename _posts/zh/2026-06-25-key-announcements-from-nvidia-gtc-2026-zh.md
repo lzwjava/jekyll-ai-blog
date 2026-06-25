@@ -22,6 +22,7 @@ GTC 2026 于3月16日至19日在圣何塞SAP Center举行，参会者超过3万�
 Vera Rubin VR200 是头号硬件：50 PFLOPS FP4 算力，288 GB HBM4，22 TB/s 内存带宽——与 Blackwell B300 在相同内存占用基础上实现3.3倍算力飞跃。该系统包含130万个组件，每瓦性能比 Grace Blackwell 高出10倍。数据中心部署目标为2026年下半年。工作站版本尚未确认。
 
 关键规格对比 Blackwell B300（15 PFLOPS FP4，8 TB/s 带宽）：
+
 - FP4：50 PFLOPS（3.3倍）
 - HBM带宽：22 TB/s（2.8倍）
 - 晶体管：3360亿，3nm工艺

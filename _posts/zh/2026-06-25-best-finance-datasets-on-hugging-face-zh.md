@@ -18,14 +18,17 @@ type: note
 ### 第一层：大规模预训练语料
 
 **[financial-datasets/financial-reports](https://huggingface.co/datasets/financial-datasets/financial-reports)**
+
 - SEC 文件（10-K、10-Q、8-K）、财报电话会议记录
 - 适用于对正式金融语言进行领域自适应预训练
 
 **[Sujet-Finance/Sujet-Finance-Instruct-177k](https://huggingface.co/datasets/Sujet-Finance/Sujet-Finance-Instruct-177k)**
+
 - 17.7 万条指令对，涵盖情感分析、问答、命名实体识别、摘要
 - 金融专用指令微调
 
 **[TheFinAI/Fino1_Reasoning_Path](https://huggingface.co/datasets/TheFinAI/Fino1_Reasoning_Path)**
+
 - 金融问题的思维链推理轨迹
 - 适合用于数值推理的 GRPO/DPO
 
@@ -49,15 +52,18 @@ FinGPT 组织拥有最完整的 SFT 集合：`huggingface.co/FinGPT`
 ### 第三层：原始金融文本（用于预训练）
 
 **SEC EDGAR 全文** —— 不直接在 HF 上，但可通过以下方式获取：
+
 ```bash
 # Edgar 全文搜索批量下载
 wget https://efts.sec.gov/LATEST/search-index?q=%22%22&dateRange=custom&startdt=2020-01-01&enddt=2024-01-01&_source=file_date,period_of_report,entity_name,file_num,form_type&hits.hits._source=true
 ```
 
 更好的方法：使用 `edgartools` Python 库：
+
 ```bash
 pip install edgartools
 ```
+
 ```python
 from edgar import Company
 c = Company("AAPL")
@@ -66,6 +72,7 @@ text = filings[0].obj().text  # 原始 10-K 文本
 ```
 
 **[eloukas/edgar-corpus](https://huggingface.co/datasets/eloukas/edgar-corpus)**
+
 - 6500 多份 10-K 年度报告（2000–2020 年）
 - 约 2.5 亿个 token 的正式 SEC 文本
 
@@ -74,9 +81,11 @@ text = filings[0].obj().text  # 原始 10-K 文本
 ### 第四层：数值 / 量化金融
 
 **[TheFinAI/flare-sm-acl18](https://huggingface.co/datasets/TheFinAI/flare-sm-acl18)**
+
 - 利用新闻标题 + 价格方向进行股票走势预测
 
 **[luqia/FinanceMath](https://huggingface.co/datasets/luqia/FinanceMath)**
+
 - 金融数学应用题及解答
 - 适合训练模型进行 DCF、Black-Scholes 等计算
 
