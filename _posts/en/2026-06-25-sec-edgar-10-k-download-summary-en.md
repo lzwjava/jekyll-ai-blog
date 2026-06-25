@@ -18,6 +18,7 @@ type: note
 ---
 
 **What we downloaded:**
+
 - Target: ~10 GB
 - Downloaded: 17 shards of 10-K (annual reports), 10 GB total
 - Location: `/mnt/data/zz/datasets/sec-edgar/10-K/`
@@ -26,6 +27,7 @@ type: note
 - Speed: ~3 MB/s per shard, ~222 MB/s on retry (cached by CDN)
 
 **File format (parquet schema):**
+
 - `content` — raw HTML
 - `text` — cleaned plain text
 - `metadata_accession-number` — SEC accession ID
@@ -35,6 +37,7 @@ type: note
 - `metadata_documents` — JSON with filing document metadata
 
 **Corrupt shard:**
+
 - `002137a1-6454-4dca-9582-93b9d177efde-90.parquet` — broken upstream on HuggingFace (654 MB, correct size, but unreadable parquet). Deleted.
 
 ---
@@ -48,6 +51,7 @@ type: note
 | `scripts/download/fix_corrupt_shard.sh` | Re-download the broken shard (useless now) | `d153ec5` |
 
 **Viewer commands:**
+
 ```
 python3.11 scripts/download/view_sec_edgar.py --list
 python3.11 scripts/download/view_sec_edgar.py --sample

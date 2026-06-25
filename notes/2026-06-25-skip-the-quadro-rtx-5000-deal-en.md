@@ -16,6 +16,7 @@ type: note
 This is a **used/refurbished NVIDIA Quadro RTX 5000** (the Turing-generation workstation GPU, not a consumer GeForce card — the listing title is misleading with "GeForce") sold for **$799** by a third-party seller (SYNNEX Ltd) on Walmart.
 
 Key specs:
+
 - **GPU**: Quadro RTX 5000 (Turing, TU104 die) — same die as consumer RTX 2080
 - **VRAM**: 16 GB GDDR6 (vs 8 GB on consumer RTX 2080)
 - **Interface**: PCIe x16 3.0

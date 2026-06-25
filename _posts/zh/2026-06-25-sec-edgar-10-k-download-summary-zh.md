@@ -18,6 +18,7 @@ type: note
 ---
 
 **我们下载的内容:**
+
 - 目标: ~10 GB
 - 已下载: 10-K（年报）的 17 个分片，共 10 GB
 - 位置: `/mnt/data/zz/datasets/sec-edgar/10-K/`
@@ -26,6 +27,7 @@ type: note
 - 速度: 每个分片约 3 MB/s，重试时约 222 MB/s（由 CDN 缓存加速）
 
 **文件格式（parquet 模式）:**
+
 - `content` — 原始 HTML
 - `text` — 清洗后的纯文本
 - `metadata_accession-number` — SEC 档案编号
@@ -35,6 +37,7 @@ type: note
 - `metadata_documents` — JSON，包含申报文件文档元数据
 
 **损坏的分片:**
+
 - `002137a1-6454-4dca-9582-93b9d177efde-90.parquet` — HuggingFace 上游数据损坏（大小 654 MB，但 parquet 无法读取）。已删除。
 
 ---
@@ -48,6 +51,7 @@ type: note
 | `scripts/download/fix_corrupt_shard.sh` | 重新下载损坏的分片（现已无用） | `d153ec5` |
 
 **查看器命令:**
+
 ```
 python3.11 scripts/download/view_sec_edgar.py --list
 python3.11 scripts/download/view_sec_edgar.py --sample

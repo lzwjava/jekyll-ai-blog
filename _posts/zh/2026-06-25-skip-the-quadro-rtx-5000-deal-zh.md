@@ -16,6 +16,7 @@ type: note
 这是一块**二手/翻新的NVIDIA Quadro RTX 5000**（图灵架构的工作站GPU，非消费级GeForce显卡——列表标题中“GeForce”具有误导性），由第三方卖家（SYNNEX Ltd）在沃尔玛以**799美元**出售。
 
 主要规格：
+
 - **GPU**：Quadro RTX 5000（图灵架构，TU104核心）——与消费级RTX 2080采用相同核心
 - **显存**：16 GB GDDR6（消费级RTX 2080为8 GB）
 - **接口**：PCIe x16 3.0
