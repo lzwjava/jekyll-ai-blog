@@ -47,6 +47,7 @@ CEO Sanjay Mehrotra表示，数据中心年化营收已超过250亿美元，按�
 **简要总结：** 这与您的MI300X / AMD工作直接相关——HBM需求是结构性的，而非周期性的。美光的供应限制意味着AMD的MI300X（使用HBM3）及下一代GPU供应链仍受制于内存瓶颈。您正在使用的AI训练基础设施正处于这一超级周期的中心。
 
 **参考资料：**
+
 - [CNBC：美光2026财年第三季度财报](https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html)
 - [TheStreet：美光2026财年第三季度实时回顾](https://www.thestreet.com/latest-news/micron-mu-q3-2026-earnings-call-updates)
 - [Investing.com：财报电话会议记录](https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-131-93CH-4759237)

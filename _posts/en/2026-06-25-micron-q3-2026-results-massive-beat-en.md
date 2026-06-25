@@ -47,6 +47,7 @@ HBM4, Micron's next-gen chip, is ramping twice as fast as the prior HBM3E genera
 **TL;DR for you:** This is directly relevant to your MI300X / AMD work — HBM demand is structural, not cyclical. Micron's supply constraints mean AMD's MI300X (which uses HBM3) and next-gen GPU supply chains are still memory-bound. The AI training infrastructure you're using is at the center of this supercycle.
 
 **References:**
+
 - [CNBC: Micron Q3 2026 Earnings](https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html)
 - [TheStreet: Micron Q3 2026 Live Recap](https://www.thestreet.com/latest-news/micron-mu-q3-2026-earnings-call-updates)
 - [Investing.com: Earnings Call Transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-131-93CH-4759237)
