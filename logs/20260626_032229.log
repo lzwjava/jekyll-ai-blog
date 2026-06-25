@@ -1,0 +1,15 @@
+[12/17] 10-K/0a9f74ca-326b-4e0c-a7f5-b473fec14905-87.parquet: 98,973,623 tokens | 1.19B total | 5.4M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000011.npy (100,000,000 tokens)
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000012.npy (100,000,000 tokens)
+  [13/17] 10-K/100dc249-8312-4f7c-93ea-7a3669bdbfdd-114.parquet: 114,910,198 tokens | 1.31B total | 5.5M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000013.npy (100,000,000 tokens)
+  [14/17] 10-K/12f0c80f-9385-4a40-ba44-cc3a07d457b9-63.parquet: 117,576,209 tokens | 1.43B total | 5.5M tok/s
+  [15/17] 10-K/14da21ec-65fe-4096-9ac5-67a85aa8b5d8-80.parquet: 62,588,068 tokens | 1.49B total | 5.5M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000014.npy (100,000,000 tokens)
+  [16/17] 10-K/1b313af8-ca56-444b-9221-ad2907bb5faa-67.parquet: 73,493,414 tokens | 1.56B total | 5.4M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000015.npy (100,000,000 tokens)
+  [17/17] 10-K/1bb7360a-7d70-4cde-8719-8b3bccab989a-96.parquet: 92,088,427 tokens | 1.66B total | 5.4M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000016.npy (55,060,445 tokens)
+
+Done. 17 shards, ~1.66B tokens, 5.1 min
+Output: /mnt/data/zz/datasets/sec-edgar-tok/
