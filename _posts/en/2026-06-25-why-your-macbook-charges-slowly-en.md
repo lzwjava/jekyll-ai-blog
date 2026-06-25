@@ -12,6 +12,7 @@ type: note
 Let me break down your setup:
 
 **What you have:**
+
 - **Baseus GaN3 Lite** — a GaN charger, likely 30W-67W USB-C output. This is a solid third-party charger, not junk.
 - **Romoss power strip** — 1 input, 3 output (USB hub/splitter)
 - **Phone cable** (likely USB-A to USB-C) — charging a MacBook
