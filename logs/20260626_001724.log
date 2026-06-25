@@ -1,0 +1,26 @@
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000005.npy (100,000,000 tokens)
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000006.npy (100,000,000 tokens)
+  [7/17] 10-K/03ad7d5f-931c-4ad4-873e-f3726fd8223b-128.parquet: 105,627,324 tokens | 0.70B total | 5.3M tok/s
+  [8/17] 10-K/03e8542e-fac6-4f47-a34a-b39c59ddc725-59.parquet: 85,053,508 tokens | 0.79B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000007.npy (100,000,000 tokens)
+  [9/17] 10-K/04105537-e466-46cf-b307-7ed127311cfa-60.parquet: 70,384,759 tokens | 0.86B total | 5.2M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000008.npy (100,000,000 tokens)
+  [10/17] 10-K/0863cb21-0054-4fe5-ab8f-174d44a06123-122.parquet: 139,368,428 tokens | 1.00B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000009.npy (100,000,000 tokens)
+  [11/17] 10-K/0994b5d1-0d07-470a-b148-f89de5121252-31.parquet: 99,069,021 tokens | 1.10B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000010.npy (100,000,000 tokens)
+  [12/17] 10-K/0a9f74ca-326b-4e0c-a7f5-b473fec14905-87.parquet: 98,973,623 tokens | 1.19B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000011.npy (100,000,000 tokens)
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000012.npy (100,000,000 tokens)
+  [13/17] 10-K/100dc249-8312-4f7c-93ea-7a3669bdbfdd-114.parquet: 114,910,198 tokens | 1.31B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000013.npy (100,000,000 tokens)
+  [14/17] 10-K/12f0c80f-9385-4a40-ba44-cc3a07d457b9-63.parquet: 117,576,209 tokens | 1.43B total | 5.3M tok/s
+  [15/17] 10-K/14da21ec-65fe-4096-9ac5-67a85aa8b5d8-80.parquet: 62,588,068 tokens | 1.49B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000014.npy (100,000,000 tokens)
+  [16/17] 10-K/1b313af8-ca56-444b-9221-ad2907bb5faa-67.parquet: 73,493,414 tokens | 1.56B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000015.npy (100,000,000 tokens)
+  [17/17] 10-K/1bb7360a-7d70-4cde-8719-8b3bccab989a-96.parquet: 92,088,427 tokens | 1.66B total | 5.3M tok/s
+  Wrote /mnt/data/zz/datasets/sec-edgar-tok/train_000016.npy (55,060,445 tokens)
+
+Done. 17 shards, ~1.66B tokens, 5.2 min
+Output: /mnt/data/zz/datasets/sec-edgar-tok/
