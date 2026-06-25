@@ -1,0 +1,25 @@
+[MLP] after c_proj (back to n_embd): (1, 12, 768)
+[Attn] x: (1, 12, 768) | q,k,v: (1, 12, 12, 64) (B, n_head, T, head_size)
+[MLP] in: (1, 12, 768)
+[MLP] after c_fc (4x expand): (1, 12, 3072)
+[MLP] after c_proj (back to n_embd): (1, 12, 768)
+[GPT] x after transformer: (1, 12, 768) | logits: (1, 1, 50304)
+def quicksort(arr):
+      *
+text_ span>
+  ;
+                data _get class
+  </
+   };.stringName            {
+                                                                     this         this
+                                                         * <
+                                                                                     <td
+---------------
+def quicksort(arr):
+         (  .  0   0                                                                     >                        =   =                                 }                                                       >      > class                                */  (
+
+---------------
+def quicksort(arr):
+ '           =                                                                                       _                                          (      _                                                                                     (                       0
+---------------
+lzw@to:/mnt/data/nanoGPT$
