@@ -60,6 +60,7 @@ type: note
   大小：   1.4 GB
 
 流程
+
   1. 下载：  38/1126个来自codeparrot/github-code的parquet分片
   2. 分词：  通过tiktoken进行GPT-2 BPE分词 → 140个训练.npy分片 + 1个验证.npy分片
   3. 训练：     在RTX 4070上运行427k步，耗时3.25天

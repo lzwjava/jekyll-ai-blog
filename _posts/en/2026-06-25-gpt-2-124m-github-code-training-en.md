@@ -55,14 +55,17 @@ The param count difference (124M named vs 163M total): embedding table is `50257
 ### 3. Training Configuration
 
 **Batch geometry:**
+
 ```
 micro_batch = 4 sequences × 1024 tokens = 4,096 tokens
 grad_accum  = 8
 effective_batch = 4,096 × 8 = 32,768 tokens/step
 ```
+
 32,768 tokens/step is the same effective batch size Karpathy uses in the nanoGPT Shakespeare/OpenWebText runs — a solid choice for a single GPU.
 
 **Optimizer (GPT-3 style AdamW):**
+
 ```python
 lr            = 6e-4        # peak
 min_lr        = 6e-5        # 10× decay via cosine schedule
@@ -94,6 +97,7 @@ Chinchilla optimal for 124M params → ~2.5B tokens. You trained on **14B tokens
 | MFU | **14.44%** |
 
 **MFU analysis:** Model FLOP Utilization of 14.44% on an RTX 4070 is typical for a single consumer GPU running nanoGPT with `torch.compile`. The RTX 4070's theoretical BF16 throughput is ~165 TFLOPS. GPT-2 124M forward+backward is ~`6 × N × D = 6 × 14B × 163M ≈ 13.7 × 10^18` total FLOPs over the run. The gap from peak MFU is explained by:
+
 - Memory bandwidth saturation (activations, optimizer states)
 - Python overhead between compiled steps
 - eval/checkpoint I/O every 1000 steps
@@ -117,6 +121,7 @@ The loss *increasing* from step 70k to 427k is the key signal. The saved `ckpt.p
 
 **Why does val_loss increase despite training loss decreasing?**
 Classic overfitting + distribution shift from LR decay:
+
 - As LR decays via cosine toward 6e-5, the optimizer takes smaller steps
 - The model increasingly memorizes the exact token sequences in the 140 train shards
 - The 1 val shard is diverging from what the model learned — the model is fitting the training distribution too tightly
@@ -144,6 +149,7 @@ Compare to GPT-2's original training: OpenAI used 256 TPU v3s for GPT-2 1.5B. Yo
 ### 7. What the Model Actually Learned
 
 At val_loss ~2.08 (best), the model is generating code with:
+
 - Correct indentation structure (Python, JavaScript patterns)
 - Plausible function signatures and variable names
 - Basic control flow (`if/else`, `for`, `return`)
@@ -155,6 +161,7 @@ At val_loss 3.47 (final), generation quality is actually *worse* on unseen code 
 ### 8. Lessons / What to Do Next
 
 **Immediate fix for the current run:**
+
 ```python
 # Add to train.py: save checkpoint only when val_loss improves
 if val_loss < best_val_loss:

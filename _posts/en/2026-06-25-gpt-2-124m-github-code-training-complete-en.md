@@ -61,6 +61,7 @@ CHECKPOINT
   Size:   1.4 GB
 
 PIPELINE
+
   1. Download:  38/1126 parquet shards from codeparrot/github-code
   2. Tokenize:  GPT-2 BPE via tiktoken → 140 train + 1 val .npy shards
   3. Train:     427k steps on RTX 4070, 3.25 days

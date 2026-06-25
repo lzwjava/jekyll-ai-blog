@@ -55,14 +55,17 @@ codeparrot/github-code (HuggingFace)
 ### 3. 训练配置
 
 **批次几何：**
+
 ```
 micro_batch = 4 个序列 × 1024 token = 4096 token
 grad_accum  = 8
 有效批次大小 = 4096 × 8 = 32768 token/步
 ```
+
 32768 token/步与 Karpathy 在 nanoGPT Shakespeare/OpenWebText 运行中使用的有效批次大小相同——对于单 GPU 来说是一个可靠的选择。
 
 **优化器（GPT-3 风格 AdamW）：**
+
 ```python
 lr            = 6e-4        # 峰值学习率
 min_lr        = 6e-5        # 通过余弦调度 10 倍衰减
@@ -94,6 +97,7 @@ Chinchilla 对 124M 参数的最优训练量约为 25 亿 token。你在 **140 �
 | MFU | **14.44%** |
 
 **MFU 分析：** 在 RTX 4070 上运行 nanoGPT 且使用 `torch.compile` 时，14.44% 的模型 FLOP 利用率对于单个消费级 GPU 来说是典型的。RTX 4070 的理论 BF16 吞吐量约为 165 TFLOPS。GPT-2 124M 的前向+反向传播大约需要 `6 × N × D = 6 × 140 亿 × 1.63 亿 ≈ 1.37 × 10^19` 总 FLOPs。与峰值 MFU 的差距由以下原因解释：
+
 - 内存带宽饱和（激活值、优化器状态）
 - 编译步骤间的 Python 开销
 - 每 1000 步进行评估/检查点 I/O
@@ -117,6 +121,7 @@ Chinchilla 对 124M 参数的最优训练量约为 25 亿 token。你在 **140 �
 
 **为什么 val_loss 在训练损失下降的情况下反而增加？**
 典型的过拟合 + 学习率衰减导致的分布偏移：
+
 - 随着学习率通过余弦衰减至 6e-5，优化器步长变小
 - 模型越来越记忆 140 个训练分片中的确切 token 序列
 - 那 1 个验证分片与模型所学内容出现偏离——模型过于紧密地拟合了训练分布
@@ -144,6 +149,7 @@ RTX 4070 TDP：200W，实际：208W
 ### 7. 模型实际学到的东西
 
 在 val_loss ~2.08（最佳）时，模型生成的代码具有：
+
 - 正确的缩进结构（Python、JavaScript 模式）
 - 合理的函数签名和变量名
 - 基本的控制流（`if/else`, `for`, `return`）
@@ -155,6 +161,7 @@ RTX 4070 TDP：200W，实际：208W
 ### 8. 经验教训 / 下一步
 
 **当前运行的即时修复：**
+
 ```python
 # 在 train.py 中添加：仅在 val_loss 改善时保存检查点
 if val_loss < best_val_loss:
