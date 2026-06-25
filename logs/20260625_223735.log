@@ -1,0 +1,34 @@
+  Listing 10-Q/... 1572 shards
+  Listing 144/... 4 shards
+  Listing 20-F/... 282 shards
+  Listing 3/... 6 shards
+  Listing 4/... 76 shards
+  Listing 5/... 4 shards
+  Listing 8-K/... 217 shards
+  Listing S-1/... 216 shards
+  Listing S-8/... 25 shards
+
+  2551 total shards, 274.8 GB total
+Plan: download 18 shards (~10.5 GB)
+
+  [1/18] 10-K/002137a1-6454-4dca-9582-93b9d177efde-90.parquet... 654.1 MB | 654.1 MB | 3.3 MB/s
+  [2/18] 10-K/002931a9-b8b0-4b26-8f57-dcbb80290dc7-65.parquet... 557.2 MB | 1.2 GB | 2.9 MB/s
+  [3/18] 10-K/009416bf-1f98-4ecb-86b5-2ac750f9fbe2-141.parquet... 554.3 MB | 1.7 GB | 3.1 MB/s
+  [4/18] 10-K/015a22bc-640f-4e63-9274-710902d39f96-129.parquet... 598.2 MB | 2.3 GB | 3.2 MB/s
+  [5/18] 10-K/0170c644-58eb-4b56-8245-cb6ee091e484-81.parquet... 516.0 MB | 2.8 GB | 3.2 MB/s
+  [6/18] 10-K/02637d9e-90f4-4277-bf43-fc6dd456b2d3-138.parquet... 620.6 MB | 3.4 GB | 3.2 MB/s
+  [7/18] 10-K/03068979-7923-4f54-b006-764344201458-15.parquet... 603.2 MB | 4.0 GB | 3.0 MB/s
+  [8/18] 10-K/03ad7d5f-931c-4ad4-873e-f3726fd8223b-128.parquet... 653.2 MB | 4.6 GB | 2.9 MB/s
+  [9/18] 10-K/03e8542e-fac6-4f47-a34a-b39c59ddc725-59.parquet... 576.5 MB | 5.2 GB | 2.9 MB/s
+  [10/18] 10-K/04105537-e466-46cf-b307-7ed127311cfa-60.parquet... 570.0 MB | 5.8 GB | 2.9 MB/s
+  [11/18] 10-K/0863cb21-0054-4fe5-ab8f-174d44a06123-122.parquet... 639.4 MB | 6.4 GB | 2.9 MB/s
+  [12/18] 10-K/0994b5d1-0d07-470a-b148-f89de5121252-31.parquet... wget error:
+  [13/18] 10-K/0a9f74ca-326b-4e0c-a7f5-b473fec14905-87.parquet... 673.9 MB | 7.0 GB | 2.9 MB/s
+  [14/18] 10-K/100dc249-8312-4f7c-93ea-7a3669bdbfdd-114.parquet... 588.9 MB | 7.6 GB | 2.9 MB/s
+  [15/18] 10-K/12f0c80f-9385-4a40-ba44-cc3a07d457b9-63.parquet... 650.1 MB | 8.3 GB | 3.0 MB/s
+  [16/18] 10-K/14da21ec-65fe-4096-9ac5-67a85aa8b5d8-80.parquet... 574.7 MB | 8.8 GB | 3.0 MB/s
+  [17/18] 10-K/1b313af8-ca56-444b-9221-ad2907bb5faa-67.parquet... 544.7 MB | 9.4 GB | 3.0 MB/s
+  [18/18] 10-K/1bb7360a-7d70-4cde-8719-8b3bccab989a-96.parquet... 569.3 MB | 9.9 GB | 3.1 MB/s
+
+Done. 9.9 GB in /mnt/data/zz/datasets/sec-edgar
+  17 downloaded, 0 cached, 1 errors, 55.0 min total
