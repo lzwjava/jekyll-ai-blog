@@ -18,6 +18,7 @@ Answer:
 Etymology: from the phrasal verb "put off" (to discourage or repel). So "off-putting" = "tending to put someone off."
 
 Examples:
+
 - "His arrogant tone was off-putting." (made people not want to engage)
 - "The restaurant's smell was a bit off-putting." (mildly unappealing)
 - "She found the website's cluttered design off-putting." (discouraging, not inviting)

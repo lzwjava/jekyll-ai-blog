@@ -44,6 +44,7 @@ Mostly yes, with one important correction.
 **The "space token domination" framing is mostly a non-problem.** 26% spaces is *normal* for code — indentation is real structure, not noise. GPT-2's BPE tokenizer is also notoriously bad at code precisely because it shreds whitespace into many single-space tokens; that's a *tokenizer* issue, not a data issue. The model predicting 46.8% space after `def quicksort(arr):` isn't pathological — a newline-then-indent is genuinely the most likely continuation. So I'd discount this point. **If you want a real lever here, switch to a code-aware tokenizer** (StarCoder's tokenizer handles whitespace with dedicated tokens for runs of spaces/tabs), which alone improves effective context and loss.
 
 **"Underfitting not overfitting" — train loss > val loss is a red flag worth checking before you trust it.** For a from-scratch 124M run, train loss being *higher* than val loss usually means one of:
+
 - val set is easier/less diverse than train (small or non-representative val split — very common with a tiny held-out slice of one dataset),
 - you're measuring train loss *with* dropout active but val *without* it (dropout inflates train loss),
 - LR is still too high / you stopped on a noisy estimate.

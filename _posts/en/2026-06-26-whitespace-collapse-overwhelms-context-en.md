@@ -12,25 +12,31 @@ type: note
 Here's what the 613-token context produced. Let me break down just the continuation (after the prompt ends):
 
 **Sample 1:**
+
 ```
 free(classroom[i]->name);
                              data(s, &n, &n,->n1);
 ```
+
 Then ~250 chars of pure whitespace.
 
 **Sample 2:**
+
 ```
 free(classroom[i]->name);
           if(p->size() == 1)
 ```
+
 Then ~250 chars of pure whitespace.
 
 **Sample 3:**
+
 ```
 free(classroom[i]->name);
               = 1;
               m[i - i] + 1] + 1_t;
 ```
+
 Then ~200 chars of pure whitespace.
 
 ### What's happening

@@ -54,25 +54,29 @@ WHAT TO DO
 ==========
 
 Option A (best): Clean the data and retrain
-  - Filter out HTML-heavy files (count '<' > threshold)
-  - Remove files that are mostly license/copyright headers
-  - Remove files < 200 chars (config stubs)
-  - Deduplicate boilerplate
-  - This alone could drop loss to ~3.0-3.1
+
+- Filter out HTML-heavy files (count '<' > threshold)
+- Remove files that are mostly license/copyright headers
+- Remove files < 200 chars (config stubs)
+- Deduplicate boilerplate
+- This alone could drop loss to ~3.0-3.1
 
 Option B: Use a curated dataset
-  - The Stack v2 (BigCode) — already filtered for quality
-  - StarCoder training data
-  - Or just filter codeparrot/github-code before tokenizing
+
+- The Stack v2 (BigCode) — already filtered for quality
+- StarCoder training data
+- Or just filter codeparrot/github-code before tokenizing
 
 Option C: Train much longer
-  - Loss was still decreasing at 427k iters
-  - Maybe 800k-1M iters would help, but data quality is the bottleneck
+
+- Loss was still decreasing at 427k iters
+- Maybe 800k-1M iters would help, but data quality is the bottleneck
 
 Option D: Convert to GGUF and use as a code-completion assist
-  - Even at perplexity 32, it has SOME code knowledge
-  - Could work for autocomplete-style tasks with constrained decoding
-  - But don't expect it to generate full functions
+
+- Even at perplexity 32, it has SOME code knowledge
+- Could work for autocomplete-style tasks with constrained decoding
+- But don't expect it to generate full functions
 
 Want me to write a data-cleaning script to filter the parquet files and
 re-tokenize? That's the highest-impact fix.
