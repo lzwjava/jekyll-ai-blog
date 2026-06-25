@@ -36,6 +36,7 @@ Your friend is right. The GPU VRAM landscape shifted — 24GB is becoming the ne
 Your friend has 96GB and is saying *32/48 minimum* — that's signal. They're doing real workloads and seeing where 24GB falls short.
 
 But check your actual use case:
+
 - **7B LoRA fine-tuning only** → 24GB still fine
 - **Running 32B+ models locally** → need 48GB+
 - **Multi-model serving / agents** → 48GB+

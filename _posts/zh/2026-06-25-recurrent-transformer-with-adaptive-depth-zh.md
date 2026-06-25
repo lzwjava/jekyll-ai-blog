@@ -77,6 +77,7 @@ ACT 部分尤其有趣：模型测量到代码平均需要 **~6.3 个循环步**
 这是一个**研究/演示模型**，并非生产级——但与 MoE 浪潮相比，其架构思想扎实且探索不足。
 
 **参考文献：**
+
 - [模型卡片](https://huggingface.co/Hippocrene/recurrent-transformer-0.1b-e0.4b)
 - [Universal Transformers (Dehghani 2018)](https://arxiv.org/abs/1807.03819)
 - [ACT (Graves 2016)](https://arxiv.org/abs/1603.08983)

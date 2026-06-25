@@ -77,6 +77,7 @@ The halting head is just a small linear probe on the hidden state — trivially 
 It's a **research/demo model**, not production-grade — but the architecture ideas are solid and underexplored compared to the MoE wave.
 
 **References:**
+
 - [Model card](https://huggingface.co/Hippocrene/recurrent-transformer-0.1b-e0.4b)
 - [Universal Transformers (Dehghani 2018)](https://arxiv.org/abs/1807.03819)
 - [ACT (Graves 2016)](https://arxiv.org/abs/1603.08983)
