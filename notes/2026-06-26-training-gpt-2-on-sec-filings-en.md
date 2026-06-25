@@ -13,6 +13,7 @@ Here's the full picture:
 
 == DATASET ==
 SEC-EDGAR — all 10-K annual reports from the SEC's EDGAR filing system.
+
 - 17 parquet shards → tokenized with GPT-2 tokenizer (tiktoken, vocab 50257)
 - 16 train shards: 1,555,060,445 tokens (1.55B)
 - 1 val shard: 100,000,000 tokens
@@ -20,12 +21,14 @@ SEC-EDGAR — all 10-K annual reports from the SEC's EDGAR filing system.
 
 == MODEL ==
 GPT-2 124M (standard nanoGPT architecture)
+
 - 12 layers, 12 heads, 768 embedding dim
 - 123.59M parameters
 - No bias (LLaMA-style)
 - Vocab: 50304 (50257 rounded for efficiency)
 
 == TRAINING ==
+
 - Effective batch: 32,768 tokens/step (4 batch × 1024 block × 8 grad_accum)
 - 47,400 steps = ~1.55B tokens seen = 1 full epoch
 - GPT-3 style optimizer: lr=6e-4, warmup 2000 steps, cosine decay to 6e-5
@@ -33,11 +36,13 @@ GPT-2 124M (standard nanoGPT architecture)
 - No compile (python 3.11 inductor bug)
 
 == TIME ==
+
 - ~700ms/step (no compile)
 - 47,400 × 0.7s ≈ 33,180s ≈ 9.2 hours
 - Will finish roughly tonight / early morning
 
 == WHAT TO EXPECT ==
+
 - Loss started at ~10.98 (random init), already at 8.85 by step 20
 - Should converge to val_loss ~3.0-3.5 range for financial text
   (for reference: github-code hit 3.466 but that dataset was noisy;
@@ -48,6 +53,7 @@ GPT-2 124M (standard nanoGPT architecture)
 
 == USEFULNESS ==
 This is a domain-specific LM for financial/SEC filings. Good for:
+
 - Generating realistic 10-K style text
 - Fine-tuning base for financial NLP tasks
 - Continuing pretraining on related corpora

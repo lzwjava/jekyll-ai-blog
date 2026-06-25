@@ -25,6 +25,7 @@ cd /mnt/data/nanoGPT && python3 train.py config/train_sec_edgar_124m.py
 ```
 
 已创建的配置：
+
 - `/mnt/data/nanoGPT/config/train_sec_edgar_124m.py`（完整版，47,400步，compile=True）
 - `/mnt/data/nanoGPT/config/train_sec_edgar_124m_smoke.py`（烟雾测试版，25步）
 

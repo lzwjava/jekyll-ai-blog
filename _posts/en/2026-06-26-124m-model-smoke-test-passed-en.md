@@ -25,6 +25,7 @@ cd /mnt/data/nanoGPT && python3 train.py config/train_sec_edgar_124m.py
 ```
 
 Config created:
+
 - `/mnt/data/nanoGPT/config/train_sec_edgar_124m.py` (full, 47.4k steps, compile=True)
 - `/mnt/data/nanoGPT/config/train_sec_edgar_124m_smoke.py` (smoke, 25 steps)
 
