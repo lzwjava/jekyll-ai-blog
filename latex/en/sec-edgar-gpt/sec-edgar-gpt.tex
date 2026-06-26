@@ -121,14 +121,7 @@ Vocabulary size & 50,257 \\
 
 \subsection{Training Setup}
 
-Training was conducted on a single NVIDIA RTX 4070 GPU with 12GB VRAM using the nanoGPT framework. Figure~\ref{fig:workstation} shows the training workstation used for this experiment.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{paper4.jpg}
-\caption{Training workstation equipped with NVIDIA RTX 4070 GPU used for all experiments in this paper.}
-\label{fig:workstation}
-\end{figure}
+Training was conducted on a single NVIDIA RTX 4070 GPU with 12GB VRAM using the nanoGPT framework. 
 
 \begin{table}[H]
 \centering
@@ -190,27 +183,13 @@ The training loss decreased from 10.98 (random initialization) to 2.10 over 47,4
 
 \subsection{Training Visualizations}
 
-The following figures show the training progress captured from the nanoGPT training session:
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{paper1.png}
-\caption{Training loss curve during early training phase (steps 0--10,000). The loss drops rapidly from 10.98 to approximately 3.0 during the warmup and initial learning phase.}
-\label{fig:loss-early}
-\end{figure}
+The following figure shows the training progress captured from the nanoGPT training session:
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{paper2.png}
-\caption{Training loss curve during mid-training phase (steps 10,000--35,000). The loss continues to decrease steadily, with the model learning SEC filing patterns and financial vocabulary.}
-\label{fig:loss-mid}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{paper3.png}
-\caption{Training loss curve during late training phase (steps 35,000--47,400). The loss converges to approximately 2.10, with diminishing returns in the final epochs.}
-\label{fig:loss-late}
+\caption{Training loss curve showing convergence from step 10,000 to 47,400. The loss decreases steadily from approximately 2.6 to 2.1, with the model learning SEC filing patterns and financial vocabulary.}
+\label{fig:training-loss}
 \end{figure}
 
 \subsection{Training Efficiency}
