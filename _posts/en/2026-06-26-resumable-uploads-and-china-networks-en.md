@@ -22,24 +22,29 @@ SCP is a single long-lived TCP stream. China's GFW + ISP traffic shaping (especi
 **The real solution: use a resumable protocol + a good route.**
 
 rsync with resume is better than SCP:
+
 ```
 rsync -avz --progress --partial model.safetensors amd-cloud:~/
 ```
+
 `--partial` keeps partially transferred files so it resumes on retry. But even rsync will be slow through the same pipe.
 
 **What actually works from China:**
 
 1. **hf-mirror.com** — China-optimized HF endpoint, designed for this exact problem:
+
    ```
    HF_ENDPOINT=https://hf-mirror.com hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```
 
 2. **DMIT proxy (LA)** — your hysteria2 proxy has better international routing than raw China Telecom:
+
    ```
    https_proxy=http://127.0.0.1:<port> hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```
 
 3. **GCS → HF** — you already uploaded to GCS. From a US machine (AMD Dev Cloud), pull from GCS and push to HF. Both are US-based, so it's fast:
+
    ```
    # on AMD Dev Cloud
    gsutil cp gs://lzwjava1/sec-edgar-gpt-124m/model.safetensors .

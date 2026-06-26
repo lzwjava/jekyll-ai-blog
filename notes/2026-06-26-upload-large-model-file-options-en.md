@@ -24,7 +24,7 @@ Still pending — upload yourself:
   model.safetensors (475MB)
 ```
 
-Your repo: https://huggingface.co/lzwjava/sec-edgar-gpt-124m
+Your repo: <https://huggingface.co/lzwjava/sec-edgar-gpt-124m>
 
 For `model.safetensors`, pick your fastest path:
 

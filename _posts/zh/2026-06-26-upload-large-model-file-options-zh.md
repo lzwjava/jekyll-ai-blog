@@ -20,7 +20,7 @@ type: note
 尚待处理 — 请自行上传：  
   model.safetensors (475MB)  
 
-你的仓库：https://huggingface.co/lzwjava/sec-edgar-gpt-124m  
+你的仓库：<https://huggingface.co/lzwjava/sec-edgar-gpt-124m>  
 
 对于 `model.safetensors`，选择最快的路径：  
 

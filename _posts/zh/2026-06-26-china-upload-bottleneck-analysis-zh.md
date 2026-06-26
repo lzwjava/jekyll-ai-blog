@@ -25,6 +25,7 @@ type: note
 **关于 model.safetensors 的实际可行方案：**
 
 1. **夜间直接上传** — 直连上传，无需代理。虽然慢，但若不卡顿，约 50 分钟。`hf upload` 支持大文件的可续传行为（分片上传）。如果卡住，重新运行同一命令即可从断点处继续：
+
    ```
    cd ~/projects/sec-edgar-gpt-124m
    hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors

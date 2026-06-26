@@ -25,6 +25,7 @@ Smoke test results (China → HuggingFace):
 **Your real options for model.safetensors:**
 
 1. **Just run it overnight** — direct upload, no proxy needed. It'll be slow but if it doesn't stall, ~50 min. `hf upload` does support resumable behavior for large files (multipart upload). If it stalls, rerun the same command — it picks up where it left off:
+
    ```
    cd ~/projects/sec-edgar-gpt-124m
    hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors

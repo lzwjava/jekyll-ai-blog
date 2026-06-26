@@ -27,11 +27,13 @@ And it will likely stall mid-transfer (like you saw with GCS).
 **Recommendations (ranked):**
 
 1. **hf-mirror.com** — China-optimized HuggingFace mirror. Try:
+
    ```
    HF_ENDPOINT=https://hf-mirror.com hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```
 
 2. **DMIT proxy (LA)** — route through your hysteria2 proxy. The `hf` CLI respects `https_proxy`:
+
    ```
    https_proxy=http://127.0.0.1:<hysteria-port> hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```

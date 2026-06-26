@@ -27,11 +27,13 @@ model.safetensors (475MB) → 预计约42分钟
 **建议方案（按优先级排序）：**
 
 1. **hf-mirror.com** — 针对中国优化的HuggingFace镜像。尝试：
+
    ```
    HF_ENDPOINT=https://hf-mirror.com hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```
 
 2. **DMIT代理（洛杉矶）** — 通过你的hysteria2代理路由。`hf` CLI支持`https_proxy`：
+
    ```
    https_proxy=http://127.0.0.1:<hysteria端口> hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
    ```

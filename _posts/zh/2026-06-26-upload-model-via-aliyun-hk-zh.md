@@ -12,12 +12,14 @@ type: note
 没有阿里云CLI。两种方式：
 
 **快速方式——网页控制台（5分钟）：**
+
 1. 访问 ecs.console.aliyun.com
 2. 创建实例：香港、Ubuntu 22.04、2核4G、按量付费
 3. 设置安全组：允许SSH（22端口）
 4. SSH登录，安装 `hf` CLI，上传
 
 **CLI方式——安装阿里云CLI：**
+
 ```
 brew install aliyun-cli
 aliyun configure
@@ -35,6 +37,7 @@ hf upload lzwjava/sec-edgar-gpt-124m model.safetensors model.safetensors
 ```
 
 但首先需要将475MB文件传输到香港。有两种方式：
+
 1. **从Mac通过SCP传输到香港**（通过CN2快速传输，约50MB/s）
 2. **在香港从GCS下载**（如果GCS上传已完成）
 
