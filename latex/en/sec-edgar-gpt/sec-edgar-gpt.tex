@@ -240,50 +240,99 @@ The SEC-EDGAR model achieves significantly lower validation loss than both the g
 
 \section{Generation Quality Analysis}
 
-We evaluated the model's generation quality using five carefully crafted prompts representing different SEC filing sections. Each prompt contained 500--2000 characters of authentic SEC text, and we generated 1,200 tokens of continuation at temperature 0.7 with top-k=100.
+We evaluated the model's generation quality using five carefully crafted prompts representing different SEC filing sections. Each prompt contained 500--2000 characters of authentic SEC text, and we generated 1,000 tokens of continuation at temperature 0.7 with top-k=100.
 
-\subsection{Prompt 1: Business Description (Item 1)}
+\subsection{Prompt 1: HSBC Business Description}
 
-\textbf{Input:} A healthcare SaaS company description with \$487.2M revenue, 8,200 employees, and EHR platform details.
+\textbf{Input:} HSBC Holdings plc global banking overview with \$2.92T assets, 42 million customers, 62 countries, CET1 ratio 14.8\%, and share buyback announcement.
 
 \textbf{Generated continuation (first 500 tokens):}
 
 \begin{Verbatim}[fontsize=\small]
-Our business is heavily dependent on the resources of our
-clinical trials and the discovery and development of our
-product candidates. Our technology costs are based on the
-materials, manufacturing, test, and customer support costs.
-Our technology and other costs are subject to various
-regulatory requirements and include filing fees, licensing
-and filing fees and other costs.
+On September 10, 2023, we completed the initial public
+offering of 2,000,000 shares of our common stock at a
+price of $8.50 per share, resulting in net proceeds of
+approximately $12.4 million.
 
-We are a global leader in the healthcare industry, and the
-care industry is undergoing a number of product development,
-including the following:
+Our net revenue for the year ended December 31, 2023
+was $2.5 billion, and revenue of $3.6 billion,
+respectively, on our Cash Balance Sheet.
 
-- Our core product development, product development and
-  commercialization of our product candidates, which we
-  currently license agreements with third-party manufacturers.
+On September 12, 2023, we completed a public offering
+of 2,300,000 shares of our common stock at a public
+offering price of $2.05 per share.
 
-- Our new product development, research and development,
-  manufacturing, and distribution capabilities, which
-  directly include:
+On September 13, 2023, we sold 1,350,000 shares of our
+common stock at a price of $2.05 per share, resulting
+in net proceeds of approximately $8.5 million.
 
-- Our commercialization and development, including the
-  following:
+On June 21, 2023, we completed a public offering of
+3,566,000 shares of our common stock at a price of
+$2.05 per share, resulting in net proceeds of
+approximately $3.4 million.
+
+On April 10, 2023, we completed a public offering of
+2,567,000 shares of our common stock at a price of
+$2.20 per share, resulting in net proceeds of
+approximately $3.4 billion, and an additional $2.3
+billion on the public offering.
 \end{Verbatim}
 
 \textbf{Observations:}
 \begin{itemize}
-    \item First 2--3 paragraphs maintained healthcare industry context with proper SEC language
-    \item Gradually shifted from SaaS to biotech/pharma framing
-    \item After ~200 generated tokens, entered a ``commercialization of product candidates'' loop
-    \item Hallucinated drug names appeared: X-Avent, X-Zentib, S-Zentib, Q-partnerib
-    \item Maintained grammatical structure throughout, even in degenerate sections
-    \item Bullet point formatting preserved consistently
+    \item Input context about HSBC (global bank, \$2.92T assets) correctly echoed
+    \item After 2 paragraphs, enters a ``public offering'' loop repeating 15+ times
+    \item Price fixated at \$2.05 per share across all iterations
+    \item Scale inconsistency: HSBC is a trillion-dollar bank but generated offerings are \$2-12 million
+    \item Dates scattered across 2023 (September, June, April) but pattern is repetitive
+    \item Model learned the ``equity offering disclosure'' template from smaller companies
 \end{itemize}
 
-\subsection{Prompt 2: MD\&A (Revenue Analysis)}
+\subsection{Prompt 2: DBS Group MD\&A}
+
+\textbf{Input:} DBS Group Holdings Ltd financial results: SGD 16.5B total income (+22\%), NIM 2.12\%, cost-income ratio 41.2\%, PBT SGD 9.7B (+26\%).
+
+\textbf{Generated continuation (first 500 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+Total operating expenses were flat in the prior year
+due to a significant decline in sales and general and
+administrative expenses.
+
+The E&A expenses were combined with the prior year due
+to a reduction in sales and marketing expense of 4.9%
+in the prior year due to a decline in sales and
+marketing expense of 4.0% in the prior year.
+
+Non-interest expenses increased $7.8 million, or 12.3%
+from the prior year due to a decline in local product
+and marketing cost of 5.8% in the prior year.
+
+The increase in non-interest expense was primarily due
+to an increase in related costs related to the reduction
+of our share repurchase program, which resulted in
+lower fees paid, partially offset by a $3.8 million
+reduction in other intangibles assumed with the
+remainder of our dividend, amortization of intangible
+assets related to our share repurchase program,
+partially offset by a $2.6 million reduction in other
+non-interest expense.
+
+Net interest income was 41.4% in the prior year due
+to a reduction in volume of interest-bearing liabilities.
+\end{Verbatim}
+
+\textbf{Observations:}
+\begin{itemize}
+    \item First 3 paragraphs of input echoed perfectly with correct SGD figures and ratios
+    \item Continuation maintains financial terminology (NIM, cost-income ratio, operating leverage)
+    \item After initial continuation, loops on ``interest rates'' and ``prior year'' phrases
+    \item Currency inconsistency: switches from SGD to USD (\$7.8 million) in generated text
+    \item Self-contradictory: ``expenses were flat'' then ``increased \$7.8 million''
+    \item Strong financial vocabulary but unable to maintain numerical logic
+\end{itemize}
+
+\subsection{Prompt 3: MD\&A Revenue Analysis}
 
 \textbf{Input:} Revenue growth of 28\%, cost analysis, and gross margin improvement from 62.7\% to 64.4\%.
 
@@ -319,49 +368,6 @@ increased amortization of intangible assets.
     \item Numbers became internally inconsistent: ``decreased by \$61.2 million, or 13\%, to \$1.9 million from \$2.7 million''
     \item Percentage calculations frequently contradicted the dollar amounts cited
     \item The model learned the \textit{template} of MD\&A paragraphs but cannot maintain arithmetic logic
-\end{itemize}
-
-\subsection{Prompt 3: Risk Factors}
-
-\textbf{Input:} Net losses of \$42.3M, \$67.8M, and \$89.1M over three years, with \$523.4M accumulated deficit.
-
-\textbf{Generated continuation (first 500 tokens):}
-
-\begin{Verbatim}[fontsize=\small]
-Our quarterly revenue and operating results have varied
-in the past and may continue to vary significantly from
-quarter to quarter. Our revenue growth rate may decline
-in future periods as our revenue base increases. Factors
-that may cause our quarterly results to fluctuate include
-the timing of large enterprise contracts, seasonal
-purchasing patterns in the healthcare industry, and the
-impact of regulatory changes on customer buying decisions.
-
-We have financed and expect to continue to incur losses
-and we may not achieve profitability in the future.
-
-We have incurred significant losses since inception and
-expect our net losses since inception and expect to
-continue to incur losses and we may never achieve
-profitability through the development and
-commercialization of our product candidates. Many of our
-product candidates are in development, and we have not
-yet generated any revenue from product sales.
-
-We continue to develop and market new products and
-technologies in the development and commercialization of
-our product candidates, and as a result, our revenues
-from product sales and marketing, are subject to product
-commercialization and regulatory requirements.
-\end{Verbatim}
-
-\textbf{Observations:}
-\begin{itemize}
-    \item Maintained risk factor structure (heading + explanation) for extended generation
-    \item ``Product candidates'' appeared 47 times in 25 lines of continued generation
-    \item Recursive self-reference: ``Our product candidates may fail to develop, develop and commercialize our product candidates may fail''
-    \item Lost thread of healthcare SaaS, defaulted to generic biotech risk factors
-    \item This suggests biotech filings are heavily represented in the training data
 \end{itemize}
 
 \subsection{Prompt 4: Financial Notes (Revenue Recognition)}
@@ -418,205 +424,6 @@ William R. Gras    100,000  $
     \item Attempted to add a fourth executive (``William R. Gras'') but only generated partial row
     \item Immediately collapsed to blank spaces after incomplete row
     \item ``Gras'' is likely a hallucinated name fragment
-\end{itemize}
-
-\subsection{Prompt 6: Auditor's Report (PCAOB Standards)}
-
-\textbf{Input:} A company address transitioning to an independent auditor's report on internal control over financial reporting.
-
-\textbf{Generated continuation (first 500 tokens):}
-
-\begin{Verbatim}[fontsize=\small]
-(c)
-Reports of Independent Registered Public Accounting Firm
-To the Board of Directors and Shareholders
-of America
-Opinion on Internal Control Over Financial Reporting.
-
-We have audited the accompanying consolidated balance
-sheet of America. These consolidated financial statements
-are the responsibility of the Company's management. Our
-responsibility is to express an opinion on these
-consolidated financial statements and are a public
-accounting firm registered with the local accounting
-firm. We are a public accounting firm registered with
-the Public Company Accounting Oversight Board (United
-States) ("PCAOB") and are required to be independent
-with respect to the Company in accordance with the U.S.
-federal securities laws and the applicable rules and
-regulations of the Securities and Exchange Commission
-and the PCAOB.
-
-We conducted our audits in accordance with the standards
-of the PCAOB. Those standards require that we plan and
-perform the audit to obtain reasonable assurance about
-whether the financial statements are free of material
-misstatement, whether due to error or fraud.
-
-Critical Audit Matters
-The critical audit matters communicated below are matters
-arising from the current period audit of the consolidated
-financial statements that were communicated or required
-to be communicated to the audit committee.
-\end{Verbatim}
-
-\textbf{Observations:}
-\begin{itemize}
-    \item Seamless transition from company address to auditor's report format
-    \item Correct PCAOB language and regulatory references (PCAOB, SEC, U.S. federal securities laws)
-    \item Proper auditor opinion structure: responsibility statement, standards compliance, critical audit matters
-    \item Hallucinated ``America'' as company name (likely from ``Bank of America'' training data)
-    \item Grammatically perfect and follows real auditor report conventions closely
-    \item One of the highest-quality generations observed
-\end{itemize}
-
-\subsection{Prompt 7: Legal Proceedings (Item 3)}
-
-\textbf{Input:} Standard legal proceedings disclosure opening (``From time to time, we are involved in various legal proceedings...'').
-
-\textbf{Generated continuation (first 600 tokens):}
-
-\begin{Verbatim}[fontsize=\small]
-We may not be able to sustain the infringing intellectual
-property rights that are adequately held by others;
-
-we may not have the resources to develop, manufacture,
-and distribute products or changes in the enforcement
-or misappropriation of our intellectual property;
-
-We may have additional intellectual property rights;
-
-If we are unable to establish and maintain a favorable
-resolution of our business strategy and plans, we may
-not be able to obtain or maintain a positive effect on
-the part of such litigation;
-
-The financial resources and results of our current
-management team or our inability to obtain necessary
-governmental and regulatory approvals to conduct our
-operations;
-
-The success of our products may depend on our ability
-to develop, manufacture, supply, and distribute new
-products;
-
-Our inability to protect our intellectual property;
-
-Our ability to obtain and maintain key management's
-time, and in-license agreements with third parties
-for our business, or to develop and commercialize
-products could result in delays in our product
-development efforts, including the loss of one or more
-of our revenue, and the loss of key employees;
-\end{Verbatim}
-
-\textbf{Observations:}
-\begin{itemize}
-    \item Maintained bullet-point format with proper legal disclosure structure
-    \item Content stayed on-topic: intellectual property, regulatory compliance, management risks
-    \item Mixes ``we'' and ``We'' inconsistently (common in real filings too)
-    \item Some grammatical awkwardness but overall plausible legal language
-    \item Good variety of risk factors rather than pure repetition
-    \item Model correctly identified this as a risk disclosure section
-\end{itemize}
-\subsection{Prompt 8: HSBC Business Description}
-
-\textbf{Input:} HSBC Holdings plc global banking overview with \$2.92T assets, 42 million customers, 62 countries, CET1 ratio 14.8\%, and share buyback announcement.
-
-
-\textbf{Generated continuation (first 500 tokens):}
-
-\begin{Verbatim}[fontsize=\small]
-On September 10, 2023, we completed the initial public
-offering of 2,000,000 shares of our common stock at a
-price of $8.50 per share, resulting in net proceeds of
-approximately $12.4 million.
-
-Our net revenue for the year ended December 31, 2023
-was $2.5 billion, and revenue of $3.6 billion,
-respectively, on our Cash Balance Sheet.
-
-On September 12, 2023, we completed a public offering
-of 2,300,000 shares of our common stock at a public
-offering price of $2.05 per share.
-
-On September 13, 2023, we sold 1,350,000 shares of our
-common stock at a price of $2.05 per share, resulting
-in net proceeds of approximately $8.5 million.
-
-On June 21, 2023, we completed a public offering of
-3,566,000 shares of our common stock at a price of
-$2.05 per share, resulting in net proceeds of
-approximately $3.4 million.
-
-On April 10, 2023, we completed a public offering of
-2,567,000 shares of our common stock at a price of
-$2.20 per share, resulting in net proceeds of
-approximately $3.4 billion, and an additional $2.3
-billion on the public offering.
-\end{Verbatim}
-
-\textbf{Observations:}
-\begin{itemize}
-    \item Input context about HSBC (global bank, \$2.92T assets) correctly echoed
-    \item After 2 paragraphs, enters a ``public offering'' loop repeating 15+ times
-    \item Price fixated at \$2.05 per share across all iterations
-    \item Scale inconsistency: HSBC is a trillion-dollar bank but generated offerings are \$2-12 million
-    \item Dates scattered across 2023 (September, June, April) but pattern is repetitive
-    \item Model learned the ``equity offering disclosure'' template from smaller companies
-\end{itemize}
-
-\subsection{Prompt 9: DBS Group MD\&A}
-
-\textbf{Input:} DBS Group Holdings Ltd financial results: SGD 16.5B total income (+22\%), NIM 2.12\%, cost-income ratio 41.2\%, PBT SGD 9.7B (+26\%).
-
-\textbf{Generated continuation (first 500 tokens):}
-
-\begin{Verbatim}[fontsize=\small]
-Total operating expenses were flat in the prior year
-due to a significant decline in sales and general and
-administrative expenses.
-
-The E&A expenses were combined with the prior year due
-to a reduction in sales and marketing expense of 4.9%
-in the prior year due to a decline in sales and
-marketing expense of 4.0% in the prior year.
-
-Non-interest expenses increased $7.8 million, or 12.3%
-from the prior year due to a decline in local product
-and marketing cost of 5.8% in the prior year.
-
-The increase in non-interest expense was primarily due
-to an increase in related costs related to the reduction
-of our share repurchase program, which resulted in
-lower fees paid, partially offset by a $3.8 million
-reduction in other intangibles assumed with the
-remainder of our dividend, amortization of intangible
-assets related to our share repurchase program,
-partially offset by a $2.6 million reduction in other
-non-interest expense.
-
-Net interest income was 41.4% in the prior year due
-to a reduction in volume of interest-bearing
-liabilities.
-
-Interest income, net was 42.1% in the prior year due
-to a reduction in average interest rates.
-
-Interest expense, net was 45.2% in the prior year due
-to a reduction in average interest rates. The current
-year's average interest rate was 3.7% in the prior
-year period.
-\end{Verbatim}
-
-\textbf{Observations:}
-\begin{itemize}
-    \item First 3 paragraphs of input echoed perfectly with correct SGD figures and ratios
-    \item Continuation maintains financial terminology (NIM, cost-income ratio, operating leverage)
-    \item After initial continuation, loops on ``interest rates'' and ``prior year'' phrases
-    \item Currency inconsistency: switches from SGD to USD (\$7.8 million) in generated text
-    \item Self-contradictory: ``expenses were flat'' then ``increased \$7.8 million''
-    \item Strong financial vocabulary but unable to maintain numerical logic
 \end{itemize}
 \section{Analysis}
 
