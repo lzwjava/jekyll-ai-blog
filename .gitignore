@@ -54,3 +54,4 @@ assets/marp/neural_networks_to_agents_preview.pdf
 .env
 ww.db
 !latex/en/sec-edgar-gpt/*.pdf
+!latex/en/sec-edgar-gpt/*.png
