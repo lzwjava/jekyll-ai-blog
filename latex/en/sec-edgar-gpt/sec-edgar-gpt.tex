@@ -38,7 +38,7 @@
 \maketitle
 
 \begin{abstract}
-We present a 124-million parameter GPT-2 language model trained on 1.55 billion tokens of SEC-EDGAR financial filings using the nanoGPT framework. The model was trained on a single NVIDIA RTX 4070 GPU over approximately 8 hours, reaching a validation loss of 2.45 at step 37,000 of 47,000 total steps (78\% completion) and converging to a final validation loss of 2.28 at completion. We evaluate the model's generation quality across multiple SEC filing sections including business descriptions, management discussion and analysis, risk factors, financial notes, and proxy statements. Our analysis reveals that the model successfully learns SEC document structure, financial vocabulary, and boilerplate language patterns, but exhibits characteristic limitations in long-range coherence, numerical consistency, and table extension. We present extensive generation samples demonstrating both the strengths and failure modes of small domain-specific language models. We discuss the implications for using small language models in financial document generation and the trade-offs between model size, training data quality, and generation fidelity.
+We present a 124-million parameter GPT-2 language model trained on 1.55 billion tokens of SEC-EDGAR financial filings using the nanoGPT framework. The model was trained on a single NVIDIA RTX 4070 GPU over approximately 8 hours, training for the full 47,000 steps and converging to a final validation loss of 2.28. We evaluate the model's generation quality across multiple SEC filing sections including business descriptions, management discussion and analysis, risk factors, financial notes, and proxy statements. Our analysis reveals that the model successfully learns SEC document structure, financial vocabulary, and boilerplate language patterns, but exhibits characteristic limitations in long-range coherence, numerical consistency, and table extension. We present extensive generation samples demonstrating both the strengths and failure modes of small domain-specific language models. We discuss the implications for using small language models in financial document generation and the trade-offs between model size, training data quality, and generation fidelity.
 \end{abstract}
 
 \section{Introduction}
@@ -50,7 +50,7 @@ While state-of-the-art models like GPT-4 and Claude demonstrate impressive gener
 Our contributions include:
 \begin{itemize}
     \item Training a 124M parameter GPT-2 model on 1.55 billion tokens of SEC-EDGAR filings using consumer hardware (RTX 4070, 12GB VRAM)
-    \item Detailed training loss analysis showing convergence from 10.98 to 2.20 validation loss
+    \item Detailed training loss analysis showing convergence from 10.98 to 2.28 validation loss
     \item Systematic evaluation of generation quality across five distinct SEC filing sections with extensive samples
     \item Analysis of long-range coherence, numerical consistency, and structural fidelity
     \item Discussion of practical applications and limitations for financial document generation
