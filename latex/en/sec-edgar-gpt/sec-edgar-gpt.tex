@@ -519,12 +519,112 @@ of our revenue, and the loss of key employees;
     \item Good variety of risk factors rather than pure repetition
     \item Model correctly identified this as a risk disclosure section
 \end{itemize}
+\subsection{Prompt 8: HSBC Business Description}
 
+\textbf{Input:} HSBC Holdings plc global banking overview with \$2.92T assets, 42 million customers, 62 countries, CET1 ratio 14.8\%, and share buyback announcement.
+
+
+\textbf{Generated continuation (first 500 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+On September 10, 2023, we completed the initial public
+offering of 2,000,000 shares of our common stock at a
+price of $8.50 per share, resulting in net proceeds of
+approximately $12.4 million.
+
+Our net revenue for the year ended December 31, 2023
+was $2.5 billion, and revenue of $3.6 billion,
+respectively, on our Cash Balance Sheet.
+
+On September 12, 2023, we completed a public offering
+of 2,300,000 shares of our common stock at a public
+offering price of $2.05 per share.
+
+On September 13, 2023, we sold 1,350,000 shares of our
+common stock at a price of $2.05 per share, resulting
+in net proceeds of approximately $8.5 million.
+
+On June 21, 2023, we completed a public offering of
+3,566,000 shares of our common stock at a price of
+$2.05 per share, resulting in net proceeds of
+approximately $3.4 million.
+
+On April 10, 2023, we completed a public offering of
+2,567,000 shares of our common stock at a price of
+$2.20 per share, resulting in net proceeds of
+approximately $3.4 billion, and an additional $2.3
+billion on the public offering.
+\end{Verbatim}
+
+\textbf{Observations:}
+\begin{itemize}
+    \item Input context about HSBC (global bank, \$2.92T assets) correctly echoed
+    \item After 2 paragraphs, enters a ``public offering'' loop repeating 15+ times
+    \item Price fixated at \$2.05 per share across all iterations
+    \item Scale inconsistency: HSBC is a trillion-dollar bank but generated offerings are \$2-12 million
+    \item Dates scattered across 2023 (September, June, April) but pattern is repetitive
+    \item Model learned the ``equity offering disclosure'' template from smaller companies
+\end{itemize}
+
+\subsection{Prompt 9: DBS Group MD\&A}
+
+\textbf{Input:} DBS Group Holdings Ltd financial results: SGD 16.5B total income (+22\%), NIM 2.12\%, cost-income ratio 41.2\%, PBT SGD 9.7B (+26\%).
+
+\textbf{Generated continuation (first 500 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+Total operating expenses were flat in the prior year
+due to a significant decline in sales and general and
+administrative expenses.
+
+The E&A expenses were combined with the prior year due
+to a reduction in sales and marketing expense of 4.9%
+in the prior year due to a decline in sales and
+marketing expense of 4.0% in the prior year.
+
+Non-interest expenses increased $7.8 million, or 12.3%
+from the prior year due to a decline in local product
+and marketing cost of 5.8% in the prior year.
+
+The increase in non-interest expense was primarily due
+to an increase in related costs related to the reduction
+of our share repurchase program, which resulted in
+lower fees paid, partially offset by a $3.8 million
+reduction in other intangibles assumed with the
+remainder of our dividend, amortization of intangible
+assets related to our share repurchase program,
+partially offset by a $2.6 million reduction in other
+non-interest expense.
+
+Net interest income was 41.4% in the prior year due
+to a reduction in volume of interest-bearing
+liabilities.
+
+Interest income, net was 42.1% in the prior year due
+to a reduction in average interest rates.
+
+Interest expense, net was 45.2% in the prior year due
+to a reduction in average interest rates. The current
+year's average interest rate was 3.7% in the prior
+year period.
+\end{Verbatim}
+
+\textbf{Observations:}
+\begin{itemize}
+    \item First 3 paragraphs of input echoed perfectly with correct SGD figures and ratios
+    \item Continuation maintains financial terminology (NIM, cost-income ratio, operating leverage)
+    \item After initial continuation, loops on ``interest rates'' and ``prior year'' phrases
+    \item Currency inconsistency: switches from SGD to USD (\$7.8 million) in generated text
+    \item Self-contradictory: ``expenses were flat'' then ``increased \$7.8 million''
+    \item Strong financial vocabulary but unable to maintain numerical logic
+\end{itemize}
 \section{Analysis}
 
 \subsection{Echo vs. Generate Distinction}
 
-A clear pattern emerges across all five prompts: the model excels at \\textbf{echoing} input content (tables, numbers, formatting) but struggles to \\textbf{generate} new content that maintains consistency. This suggests the model learned surface-level patterns rather than underlying data relationships.
+A clear pattern emerges across all prompts: the model excels at \textbf{echoing} input content (tables, numbers, formatting) but struggles to \textbf{generate} new content that maintains consistency. This suggests the model learned surface-level patterns rather than underlying data relationships.
+
+
 
 \subsection{Loop Attractors}
 
