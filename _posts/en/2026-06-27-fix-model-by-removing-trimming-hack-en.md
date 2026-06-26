@@ -28,6 +28,7 @@ The model at `/workspace/model/hf-model/` has **vocab_size: 50304** — that's t
 The server.py becomes simpler: load model, serve. No hacks.
 
 Want me to proceed with:
+
 1. Update the local `server.py` to remove the trimming hack
 2. SSH into RunPod, download the new model from HF, and restart the server?
 

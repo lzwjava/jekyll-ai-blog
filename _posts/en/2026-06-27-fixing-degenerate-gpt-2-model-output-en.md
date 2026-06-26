@@ -20,12 +20,14 @@ The SEC-EDGAR GPT-2 124M model on RunPod was producing **degenerate output** —
 There were **two separate issues** stacked on top of each other:
 
 **1. Old model on RunPod** (`/workspace/model/hf-model/` with vocab_size=50304):
+
 - Properly converted to HF format (correct weight shapes `[768, 2304]`, all biases present)
 - But had **padded vocab** from nanoGPT: `vocab_size=50304` (50257 real + 47 padding to nearest 64)
 - server.py had a runtime hack to trim embeddings 50304→50257
 - **This model produced degenerate output** — the trimming hack was a band-aid, but the underlying trained weights were likely corrupted or from a bad checkpoint
 
 **2. New model from HF** (`lzwjava/sec-edgar-gpt-124m-hf`):
+
 - Has `vocab_size=50257` (correct, no padding) — this is the fix
 - But the **safetensors was saved directly from nanoGPT** without proper conversion:
   - Linear weight shapes are **transposed**: `[2304, 768]` instead of `[768, 2304]`

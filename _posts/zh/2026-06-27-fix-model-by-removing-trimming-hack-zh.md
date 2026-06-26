@@ -28,6 +28,7 @@ Here's my analysis:
 `server.py` 变得更简单：加载模型，提供服务。不再有修补代码。
 
 需要我继续执行以下操作吗：
+
 1. 更新本地的 `server.py`，移除剪裁修补
 2. 通过 SSH 连接 RunPod，从 HF 下载新模型，然后重启服务器？
 
