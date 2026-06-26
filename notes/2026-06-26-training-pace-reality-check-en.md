@@ -27,6 +27,7 @@ Expected finish:  ~13:53 (around 2pm)
 ```
 
 The displayed "time 702ms" per 10 iters is only measuring the GPU forward+backward pass. The other 90% of wall clock is:
+
 - Eval (100 forward passes every 1000 steps)
 - Checkpoint save (1.49GB file write)
 - Parquet shard data loading

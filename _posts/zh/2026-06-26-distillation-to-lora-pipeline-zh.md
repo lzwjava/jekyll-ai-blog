@@ -83,6 +83,7 @@ with open("sections.jsonl", "w") as f:
 这是核心。老师读取一个段落，生成一个`(instruction, input, output)`三元组。结构化输出意味着你的评估可以机械地进行。
 
 {% raw %}
+
 ```python
 # distill.py — 前沿模型将原始段落转化为训练对
 import json, os, asyncio, aiohttp
@@ -137,6 +138,7 @@ async def main():
 
 asyncio.run(main())
 ```
+
 {% endraw %}
 
 成本检查：5000个段落 × 约2000输入token + 约500输出token。V4-Flash输入 $0.14/M，输出 $0.28/M，大约**$1.50–3 总计**。即使V4-Pro也在$15以下。对你来说微不足道。在Air上运行——只是API调用。

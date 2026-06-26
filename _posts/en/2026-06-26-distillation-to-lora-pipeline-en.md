@@ -83,6 +83,7 @@ Why val shard: you'll hold some of these out for eval, and you want zero overlap
 This is the heart of it. The teacher reads a section and emits a `(instruction, input, output)` triple. Structured output = your eval is mechanical later.
 
 {% raw %}
+
 ```python
 # distill.py — frontier model turns raw sections into training pairs
 import json, os, asyncio, aiohttp
@@ -137,6 +138,7 @@ async def main():
 
 asyncio.run(main())
 ```
+
 {% endraw %}
 
 Cost check: 5k sections × ~2k tokens in + ~500 out. At V4-Flash input $0.14/M, output $0.28/M, that's roughly **$1.50–3 total**. Even V4-Pro is under $15. Negligible for you. Run it on the Air — it's just API calls.
