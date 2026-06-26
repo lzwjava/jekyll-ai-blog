@@ -17,10 +17,12 @@ SEC-EDGAR 124M GENERATION QUALITY REVIEW (Step 37k, val_loss 2.45)
 
 PROMPT 1 — Business Overview (Healthcare SaaS)
 ----------------------------------------------
+
 INPUT:  ~3 paragraphs, $487.2M revenue, 8200 employees, EHR platform
 OUTPUT: 4 coherent paragraphs, then total collapse
 
 WHAT WORKED (lines 17-20):
+
 - "Our business is heavily dependent on the resources of our clinical
   trials" — plausible SEC language, pivots from SaaS to biotech framing
 - "technology costs are based on materials, manufacturing, test, and
@@ -28,6 +30,7 @@ WHAT WORKED (lines 17-20):
 - Bullet list structure with ● formatting maintained
 
 WHAT FAILED (lines 22-112):
+
 - After ~200 generated tokens, enters a "commercialization of new
   product candidates" loop that runs for 90+ lines
 - Hallucinated drug names: X-Avent, X-Zentib, S-Zentib, Q-partnerib,
@@ -40,14 +43,15 @@ LONG-RANGE COHERENCE: ★★☆☆☆ — Maintains topic (healthcare) but
 switches sub-domain (SaaS -> biotech) within 3 paragraphs. No
 memory of the original company description (EHR, hospitals, etc.)
 
-
 PROMPT 2 — MD&A (Revenue/Cost Analysis)
 ----------------------------------------
+
 INPUT:  Revenue +28%, cost of revenue +22%, gross margin 64.4%
 OUTPUT: First continuation paragraph perfect, then 10 paragraphs
         of "Cost of revenue increased/decreased by $X" loops
 
 WHAT WORKED (line 19, first continuation):
+
 - "Cost of revenue increased by $32.1 million, or 26%... primarily
   attributable to decreased depreciation and amortization expense
   in the period of the acquisition of DMR"
@@ -55,6 +59,7 @@ WHAT WORKED (line 19, first continuation):
 - References a specific acquisition (DMR) — hallucinated but plausible
 
 WHAT FAILED (lines 20-27):
+
 - 10 consecutive paragraphs all starting with "Cost of revenue
   increased/decreased by $X.X million, or X%"
 - Numbers become nonsensical: "$40.0 million, or 2%, to $107.1
@@ -67,14 +72,15 @@ LONG-RANGE COHERENCE: ★☆☆☆☆ — After the first continuation
 paragraph, loses all numerical consistency. The model learned the
 TEMPLATE of MD&A paragraphs but can't maintain arithmetic logic.
 
-
 PROMPT 3 — Risk Factors
 ------------------------
+
 INPUT:  Net losses $42.3M/$67.8M/$89.1M, accumulated deficit $523.4M
 OUTPUT: 2 coherent risk factor paragraphs, then "product candidates"
         loop for 30+ lines
 
 WHAT WORKED (lines 18-24):
+
 - "Our quarterly revenue and operating results have varied in the
   past and may continue to vary significantly from quarter to
   quarter" — textbook SEC risk factor language
@@ -84,6 +90,7 @@ WHAT WORKED (lines 18-24):
 - Maintains bullet point format with proper transitions
 
 WHAT FAILED (lines 25-49):
+
 - "product candidates" appears 47 times in 25 lines
 - Recursive self-reference: "Our product candidates may fail to
   develop, develop and commercialize our product candidates may fail"
@@ -96,20 +103,22 @@ factor STRUCTURE (heading + explanation) for longer. But content
 degenerates into repetitive "product candidates" loop. The model
 clearly over-indexed on biotech risk factors in training data.
 
-
 PROMPT 4 — Revenue Recognition Notes (with table)
 --------------------------------------------------
+
 INPUT:  Revenue table ($380M subscription, $89M services, $18M HW)
         + remaining performance obligations ($892.3M)
 OUTPUT: Perfect table echo, one sentence continuation, then blank
 
 WHAT WORKED (lines 12-25):
+
 - Table echoed EXACTLY — all numbers, alignment, formatting preserved
 - "The aggregate amount of the transaction price allocated to remaining
   performance obligations was $892.3 million" — exact copy of input
 - Proper ASC 606 language maintained
 
 WHAT FAILED (lines 26-29):
+
 - "The table below presents our revenues in the periods indicated"
   — tries to start another table, then outputs blank spaces
 - Only generated ~50 actual tokens of continuation before collapse
@@ -119,19 +128,21 @@ LONG-RANGE COHERENCE: ★★☆☆☆ — Perfect at echoing input, zero
 ability to extend. This is the fundamental limitation: the model
 memorized table FORMATS but can't generate new coherent numbers.
 
-
 PROMPT 5 — Proxy Statement (Executive Comp Table)
 --------------------------------------------------
+
 INPUT:  3 executives with full comp breakdown ($5.5M, $3.6M, $3.0M)
 OUTPUT: Perfect table echo, adds one broken row, then blank
 
 WHAT WORKED (lines 14-24):
+
 - Table structure perfectly preserved — column alignment, dollar signs
 - All 3 executive rows echoed exactly with correct numbers
 - "Our executive compensation program is designed to attract, retain,
   and motivate" — proper proxy boilerplate
 
 WHAT FAILED (line 25):
+
 - Attempts to add "William R. Gras" as 4th executive
 - Only gets: "William R. Gras    100,000  $" — missing most columns
 - Then blank spaces — model can't continue the table pattern
@@ -140,7 +151,6 @@ WHAT FAILED (line 25):
 LONG-RANGE COHERENCE: ★★☆☆☆ — Same as Prompt 4. Perfect echo,
 broken extension. The model treats tables as fixed patterns to
 reproduce, not as structured data to extend.
-
 
 ================================================================
 CROSS-PROMPT PATTERNS
@@ -204,11 +214,13 @@ The model has NOT learned:
 
 This is expected for a 124M parameter model. GPT-2 1.5B (12x larger)
 shows similar but less severe patterns. The model is useful for:
-  - Generating SEC boilerplate language
-  - Suggesting section structures
-  - Drafting placeholder text that LOOKS like real SEC filings
+
+- Generating SEC boilerplate language
+- Suggesting section structures
+- Drafting placeholder text that LOOKS like real SEC filings
 
 It is NOT useful for:
-  - Generating accurate financial data
-  - Maintaining consistency across long documents
-  - Producing factually grounded content
+
+- Generating accurate financial data
+- Maintaining consistency across long documents
+- Producing factually grounded content

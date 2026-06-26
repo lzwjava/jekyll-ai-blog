@@ -17,6 +17,7 @@ SEC-EDGAR 124M — LONG PROMPT GENERATION TEST RESULTS
 ================================================================
 
 PROMPT 1: Notes to Financial Statements (ASC 606 revenue recognition)
+
 - Input: 966 chars of proper accounting policy text
 - Output: ~2000 chars of good continuation, then degenerates into
   repeating "The Company recognizes revenue when..." with slight
@@ -24,6 +25,7 @@ PROMPT 1: Notes to Financial Statements (ASC 606 revenue recognition)
 - Verdict: First 3-4 paragraphs are coherent and accurate SEC language
 
 PROMPT 2: MD&A (biopharma company overview)
+
 - Input: 1388 chars with clinical-stage company description
 - Output: Continued the pharma narrative well — mentions ABC-123,
   lysosomal storage disorders, accumulated deficit $245.3M.
@@ -32,6 +34,7 @@ PROMPT 2: MD&A (biopharma company overview)
 - Verdict: Good 2-3 paragraph continuation, then repetitive loop
 
 PROMPT 3: Risk Factors (biopharma)
+
 - Input: 1726 chars of risk factor boilerplate
 - Output: Continues with COVID-19 pandemic risks, regulatory risks,
   financing risks. Mentions "CARVID-19" (hallucinated name). Loops
@@ -39,6 +42,7 @@ PROMPT 3: Risk Factors (biopharma)
 - Verdict: Realistic risk factor language, some hallucination
 
 PROMPT 4: Financial table with numbers
+
 - Input: 2002 chars with a full P&L table + narrative explanation
 - Output: Echoed the table correctly, continued with "increase in
   revenue was primarily driven by subscription platform grew 42%"
@@ -48,6 +52,7 @@ PROMPT 4: Financial table with numbers
 
 ================================================================
 PATTERN SUMMARY:
+
 - Model handles NARRATIVE prompts (500+ chars) well for 2-4 paragraphs
 - Falls into repetitive loops after ~300-500 generated tokens
 - Tables/balance sheets loop faster (~200 tokens)
