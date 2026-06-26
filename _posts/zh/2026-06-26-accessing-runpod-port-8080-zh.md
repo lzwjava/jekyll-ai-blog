@@ -12,6 +12,7 @@ type: note
 服务器在 8080 端口运行。你看到的 502 错误是因为 RunPod 不直接通过 IP 暴露端口——你需要使用 RunPod 代理 URL。
 
 RunPod 代理 URL 格式通常为：
+
 ```
 https://<pod-id>-8080.proxy.runpod.net
 ```

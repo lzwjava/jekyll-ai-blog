@@ -12,6 +12,7 @@ type: note
 Aliyun CLI is installed but not configured — no credentials. You have two options:
 
 **Option 1: Configure CLI (need your AccessKey)**
+
 ```
 aliyun configure
 # Enter: AccessKey ID, AccessKey Secret, Region: cn-hongkong
@@ -19,6 +20,6 @@ aliyun configure
 ```
 
 **Option 2: Web console (faster)**
-Go to https://ecs.console.aliyun.com → find instance `i-j6civepr8vf1085n7x0u` in Hong Kong → Delete
+Go to <https://ecs.console.aliyun.com> → find instance `i-j6civepr8vf1085n7x0u` in Hong Kong → Delete
 
 Want to configure the CLI, or just delete it from the web console?

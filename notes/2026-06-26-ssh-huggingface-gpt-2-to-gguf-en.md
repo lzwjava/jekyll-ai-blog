@@ -18,6 +18,7 @@ This runs a Python script over SSH on a remote GPU box (`root@<​IP_ADDRESS>`) 
 Walking through it layer by layer:
 
 **1. Tokenizer reconstruction**
+
 ```python
 vocab = td["model"]["vocab"]          # {token_str: id}
 nv = len(vocab)
@@ -28,9 +29,11 @@ for i, c in added.items():               # overlay added_tokens
 tb = [t.encode("utf-8") for t in toks]   # token bytes
 mb = ["".join([a,b]).encode("utf-8") for a,b in td["model"]["merges"]]  # BPE merges
 ```
+
 GGUF stores the tokenizer inline. It inverts the `{token: id}` map into an id-indexed list, overlays special/added tokens, then encodes both the token list and the BPE merge pairs as UTF-8 bytes. The merges are what let llama.cpp rebuild the exact BPE encoder.
 
 **2. Config → GGUF metadata (KV pairs)**
+
 ```python
 gw.add_context_length(c.n_positions)     # 1024
 gw.add_embedding_length(c.n_embd)        # 768
@@ -38,17 +41,20 @@ gw.add_block_count(c.n_layer)            # 12
 gw.add_head_count(c.n_head)              # 12
 gw.add_feed_forward_length(...n_inner... or 4*n_embd)  # 3072
 ```
+
 Standard GPT-2 124M hyperparameters written as GGUF KV metadata so the runtime knows the architecture shape. BOS/EOS both set to `50256` (`<|endoftext|>`), which is correct for GPT-2.
 
 **3. Weight transposition — the key subtlety**
 
 GPT-2's HF implementation uses `Conv1D`, not `nn.Linear`. `Conv1D` stores weights as `[in, out]`, whereas llama.cpp expects linear weights as `[out, in]`. Hence every projection gets `.T`:
+
 ```python
 gw.add_tensor("blk.{i}.attn_qkv.weight",  sd[...c_attn.weight].numpy().T)
 gw.add_tensor("blk.{i}.attn_output.weight", sd[...c_proj.weight].numpy().T)
 gw.add_tensor("blk.{i}.ffn_up.weight",    sd[...mlp.c_fc.weight].numpy().T)
 gw.add_tensor("blk.{i}.ffn_down.weight",  sd[...mlp.c_proj.weight].numpy().T)
 ```
+
 Biases are **not** transposed (1-D). The `np.ascontiguousarray(...)` after `.T` is necessary because transpose returns a non-contiguous view, and the GGUF writer needs contiguous memory to dump raw bytes.
 
 **4. Tensor name remapping**
@@ -68,18 +74,22 @@ HF names → GGUF canonical names:
 | `lm_head` | `output` |
 
 **5. Embedding/head slicing**
+
 ```python
 wte = sd["transformer.wte.weight"].numpy()[:nv]   # trim to real vocab
 lm  = sd["lm_head.weight"].numpy()[:nv].T
 ```
+
 The `[:nv]` trims any padding rows (GPT-2 often pads vocab to a multiple of 64 for tensor-core alignment — 50257 → 50304). It slices back to the true tokenizer size so embeddings and tokenizer agree.
 
 **6. Write order**
+
 ```python
 gw.write_header_to_file()
 gw.write_kv_data_to_file()
 gw.write_tensors_to_file()
 ```
+
 GGUF is laid out as header → KV metadata → tensor data, written in that exact sequence.
 
 **Things to flag:**

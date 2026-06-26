@@ -23,6 +23,7 @@ vocab_size: int = 50304  # GPT-2 的 vocab_size 是 50257，填充到最接近�
 ```
 
 携带填充的两个嵌入张量：
+
 - `transformer.wte.weight` → 导出为 `token_embd.weight`，形状 `[50304, 768]`
 - `lm_head.weight` → 导出为 `output.weight`，形状 `[50304, 768]`
 

@@ -23,6 +23,7 @@ vocab_size: int = 50304  # GPT-2 vocab_size of 50257, padded up to nearest multi
 ```
 
 The two embedding tensors carrying the pad:
+
 - `transformer.wte.weight` → exported as `token_embd.weight`, shape `[50304, 768]`
 - `lm_head.weight` → exported as `output.weight`, shape `[50304, 768]`
 

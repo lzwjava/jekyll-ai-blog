@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-I'll fetch the page to give you accurate details.Question: Give me an intro to the IEEE AICAS 2026 conference (https://2026.ieee-aicas.org).
+I'll fetch the page to give you accurate details.Question: Give me an intro to the IEEE AICAS 2026 conference (<https://2026.ieee-aicas.org>).
 
 Answer:
 
@@ -26,6 +26,7 @@ The topics map directly onto your stated interests:
 - **Inference for edge → cloud**, hardware security, privacy-preserving ML.
 
 **Logistics / current state (as of the page today):**
+
 - Full-paper submission **closed April 5, 2026**. You can't submit a regular paper anymore.
 - **Acceptance notifications go out ~June 28, 2026** (slipped twice from June 18 → 25 → 28).
 - **Live Demo papers still open — deadline June 30, 2026** (via EDAS, `edas.info/N34921`). This is the one open door if you wanted to present something.

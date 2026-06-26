@@ -16,6 +16,7 @@ The dialog usually offers a "Migrate" or "Deploy on new GPUs" button. This keeps
 
 **2. Deploy a fresh Pod with your volume attached**
 If migration isn't offered or fails (your GPU type is out of stock in that datacenter):
+
 - Note your Pod's region and network volume ID
 - Spin up a new Pod, attach the same network volume, pick the same or equivalent GPU
 - Your `/workspace` data persists if it was on the network volume — anything on the container disk only is lost
@@ -24,10 +25,12 @@ If migration isn't offered or fails (your GPU type is out of stock in that datac
 If your original GPU (e.g. MI300X / specific A100 config) is unavailable in that region, pick a different datacenter or GPU tier. Use the filters to find availability.
 
 **Key thing to check:** Was your work on a **network volume** or just **container disk**?
+
 - Network volume → safe, just reattach
 - Container disk only → lost on migration, this is the usual gotcha
 
 **Prevention going forward:**
+
 - Always put code/checkpoints on a network volume mounted at `/workspace`
 - For training, checkpoint to the volume frequently (`torch.save` every N steps)
 - Consider on-demand vs spot — spot pods get reclaimed more aggressively

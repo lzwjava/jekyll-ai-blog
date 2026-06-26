@@ -12,6 +12,7 @@ type: note
 Server running on 8080. The 502 you're seeing is because RunPod doesn't expose ports directly via IP — you need the RunPod proxy URL.
 
 RunPod proxy URL format is typically:
+
 ```
 https://<pod-id>-8080.proxy.runpod.net
 ```
