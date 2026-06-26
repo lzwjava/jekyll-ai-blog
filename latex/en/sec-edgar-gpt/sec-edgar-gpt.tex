@@ -181,6 +181,31 @@ Training progressed smoothly with no instabilities or divergence spikes. The los
 
 The training loss decreased from 10.98 (random initialization) to 2.10 over 47,400 steps. The validation loss converged to approximately 2.20, indicating strong generalization. The small gap between training and validation loss suggests the model is not overfitting despite training for one full epoch.
 
+\subsection{Training Visualizations}
+
+The following figures show the training progress captured from the nanoGPT training session:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{paper1.png}
+\caption{Training loss curve during early training phase (steps 0--10,000). The loss drops rapidly from 10.98 to approximately 3.0 during the warmup and initial learning phase.}
+\label{fig:loss-early}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{paper2.png}
+\caption{Training loss curve during mid-training phase (steps 10,000--35,000). The loss continues to decrease steadily, with the model learning SEC filing patterns and financial vocabulary.}
+\label{fig:loss-mid}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{paper3.png}
+\caption{Training loss curve during late training phase (steps 35,000--47,400). The loss converges to approximately 2.10, with diminishing returns in the final epochs.}
+\label{fig:loss-late}
+\end{figure}
+
 \subsection{Training Efficiency}
 
 Training achieved approximately 12.8\% model FLOPs utilization (MFU) on the RTX 4070, with a real throughput of 0.72 seconds per step (including evaluation and checkpointing overhead). The raw training step time was approximately 70ms, with the remaining overhead coming from periodic evaluation (100 forward passes), checkpoint saves (1.49GB file writes), and data loading.
