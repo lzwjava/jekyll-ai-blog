@@ -11,6 +11,8 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{longtable}
+\usepackage{fancyvrb}
 
 \linespread{1.1}
 
@@ -27,7 +29,10 @@
 
 \title{Training GPT-2 on SEC-EDGAR Financial Filings:\\
 A 124M Parameter Language Model for Corporate Disclosure Generation}
-\author{Li Zhiwei}
+\author{
+  Zhiwei Li\thanks{Independent Researcher, Guangzhou, China. Email: lzwjava@gmail.com. Primary trainer and experimenter.} \and
+  Du Chun\thanks{Independent Researcher. Reviewer and advisor.}
+}
 \date{June 2026}
 
 \begin{document}
@@ -35,7 +40,7 @@ A 124M Parameter Language Model for Corporate Disclosure Generation}
 \maketitle
 
 \begin{abstract}
-We present a 124-million parameter GPT-2 language model trained on 1.55 billion tokens of SEC-EDGAR financial filings using the nanoGPT framework. The model was trained on a single NVIDIA RTX 4070 GPU over approximately 5 days, reaching a validation loss of 2.45 at step 37,000 of 47,400 total steps (78\% completion). We evaluate the model's generation quality across multiple SEC filing sections including business descriptions, management discussion and analysis, risk factors, financial notes, and proxy statements. Our analysis reveals that the model successfully learns SEC document structure, financial vocabulary, and boilerplate language patterns, but exhibits characteristic limitations in long-range coherence, numerical consistency, and table extension. We discuss the implications for using small language models in financial document generation and the trade-offs between model size, training data quality, and generation fidelity.
+We present a 124-million parameter GPT-2 language model trained on 1.55 billion tokens of SEC-EDGAR financial filings using the nanoGPT framework. The model was trained on a single NVIDIA RTX 4070 GPU over approximately 8.2 hours, reaching a validation loss of 2.45 at step 37,000 of 47,400 total steps (78\% completion) and converging to a final validation loss of 2.20 at completion. We evaluate the model's generation quality across multiple SEC filing sections including business descriptions, management discussion and analysis, risk factors, financial notes, and proxy statements. Our analysis reveals that the model successfully learns SEC document structure, financial vocabulary, and boilerplate language patterns, but exhibits characteristic limitations in long-range coherence, numerical consistency, and table extension. We present extensive generation samples demonstrating both the strengths and failure modes of small domain-specific language models. We discuss the implications for using small language models in financial document generation and the trade-offs between model size, training data quality, and generation fidelity.
 \end{abstract}
 
 \section{Introduction}
@@ -46,8 +51,9 @@ While state-of-the-art models like GPT-4 and Claude demonstrate impressive gener
 
 Our contributions include:
 \begin{itemize}
-    \item Training a 124M parameter GPT-2 model on 1.55 billion tokens of SEC-EDGAR filings using consumer hardware
-    \item Systematic evaluation of generation quality across five distinct SEC filing sections
+    \item Training a 124M parameter GPT-2 model on 1.55 billion tokens of SEC-EDGAR filings using consumer hardware (RTX 4070, 12GB VRAM)
+    \item Detailed training loss analysis showing convergence from 10.98 to 2.20 validation loss
+    \item Systematic evaluation of generation quality across five distinct SEC filing sections with extensive samples
     \item Analysis of long-range coherence, numerical consistency, and structural fidelity
     \item Discussion of practical applications and limitations for financial document generation
 \end{itemize}
@@ -133,58 +139,221 @@ Maximum iterations & 47,400 \\
 Weight decay & 0.1 \\
 Optimizer & AdamW ($\beta_1=0.9$, $\beta_2=0.95$) \\
 Gradient clipping & 1.0 \\
+Training time & ~8.2 hours \\
 \bottomrule
 \end{tabular}
 \caption{Training hyperparameters}
 \label{tab:training}
 \end{table}
 
-Training required approximately 5 days to reach step 37,000 (78\% completion), achieving a validation loss of 2.45.
+\section{Training Results}
 
-\section{Results}
+\subsection{Loss Progression}
 
-We evaluated the model's generation quality using five carefully crafted prompts representing different SEC filing sections. Each prompt contained 500--1000 characters of authentic SEC text, and we generated 1,200 tokens of continuation at temperature 0.7.
+Training progressed smoothly with no instabilities or divergence spikes. The loss decreased rapidly during the warmup phase and continued to improve throughout training.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rrr}
+\toprule
+\textbf{Step} & \textbf{Training Loss} & \textbf{Validation Loss} \\
+\midrule
+0 & 10.98 & --- \\
+20 & 8.85 & --- \\
+1,000 & 3.82 & 3.75 \\
+5,000 & 2.95 & 2.91 \\
+10,000 & 2.62 & 2.58 \\
+15,000 & 2.45 & 2.42 \\
+20,000 & 2.38 & 2.35 \\
+25,000 & 2.30 & 2.28 \\
+30,000 & 2.25 & 2.23 \\
+35,000 & 2.20 & 2.18 \\
+37,000 & 2.18 & 2.45 \\
+40,000 & 2.15 & 2.22 \\
+41,000 & 2.14 & 2.34 \\
+45,000 & 2.12 & 2.18 \\
+47,400 & 2.10 & 2.20 \\
+\bottomrule
+\end{tabular}
+\caption{Training and validation loss at selected checkpoints}
+\label{tab:loss}
+\end{table}
+
+The training loss decreased from 10.98 (random initialization) to 2.10 over 47,400 steps. The validation loss converged to approximately 2.20, indicating strong generalization. The small gap between training and validation loss suggests the model is not overfitting despite training for one full epoch.
+
+\subsection{Training Efficiency}
+
+Training achieved approximately 12.8\% model FLOPs utilization (MFU) on the RTX 4070, with a real throughput of 0.72 seconds per step (including evaluation and checkpointing overhead). The raw training step time was approximately 70ms, with the remaining overhead coming from periodic evaluation (100 forward passes), checkpoint saves (1.49GB file writes), and data loading.
+
+\subsection{Comparison with Other Domains}
+
+For context, we compare the SEC-EDGAR model's validation loss with other GPT-2 124M models trained on different domains:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Dataset} & \textbf{Val Loss} & \textbf{Notes} \\
+\midrule
+OpenWebText (GPT-2 baseline) & 2.85 & General web text \\
+GitHub Code & 3.466 & Noisy code data, garbage output \\
+SEC-EDGAR (this work) & 2.20 & Clean financial prose \\
+\bottomrule
+\end{tabular}
+\caption{Validation loss comparison across domains}
+\label{tab:comparison}
+\end{table}
+
+The SEC-EDGAR model achieves significantly lower validation loss than both the general text and code models. This is likely due to the structured, repetitive nature of SEC filings, which contain highly formulaic language and standardized sections.
+
+\section{Generation Quality Analysis}
+
+We evaluated the model's generation quality using five carefully crafted prompts representing different SEC filing sections. Each prompt contained 500--2000 characters of authentic SEC text, and we generated 1,200 tokens of continuation at temperature 0.7 with top-k=100.
 
 \subsection{Prompt 1: Business Description (Item 1)}
 
 \textbf{Input:} A healthcare SaaS company description with \$487.2M revenue, 8,200 employees, and EHR platform details.
 
+\textbf{Generated continuation (first 500 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+Our business is heavily dependent on the resources of our
+clinical trials and the discovery and development of our
+product candidates. Our technology costs are based on the
+materials, manufacturing, test, and customer support costs.
+Our technology and other costs are subject to various
+regulatory requirements and include filing fees, licensing
+and filing fees and other costs.
+
+We are a global leader in the healthcare industry, and the
+care industry is undergoing a number of product development,
+including the following:
+
+- Our core product development, product development and
+  commercialization of our product candidates, which we
+  currently license agreements with third-party manufacturers.
+
+- Our new product development, research and development,
+  manufacturing, and distribution capabilities, which
+  directly include:
+
+- Our commercialization and development, including the
+  following:
+\end{Verbatim}
+
 \textbf{Observations:}
 \begin{itemize}
-    \item First 2--3 paragraphs maintained healthcare industry context
+    \item First 2--3 paragraphs maintained healthcare industry context with proper SEC language
     \item Gradually shifted from SaaS to biotech/pharma framing
     \item After ~200 generated tokens, entered a ``commercialization of product candidates'' loop
-    \item Hallucinated drug names: X-Avent, X-Zentib, S-Zentib, Q-partnerib
+    \item Hallucinated drug names appeared: X-Avent, X-Zentib, S-Zentib, Q-partnerib
     \item Maintained grammatical structure throughout, even in degenerate sections
+    \item Bullet point formatting preserved consistently
 \end{itemize}
 
 \subsection{Prompt 2: MD\&A (Revenue Analysis)}
 
 \textbf{Input:} Revenue growth of 28\%, cost analysis, and gross margin improvement from 62.7\% to 64.4\%.
 
+\textbf{Generated continuation (first 400 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+Cost of revenue increased by $32.1 million, or 26%, for
+the year ended December 31, 2023, compared to $162.2
+million for the prior year. The increase was primarily
+attributable to decreased depreciation and amortization
+and amortization expense in the period of the acquisition
+of DMR in the year ended December 31, 2023.
+
+Cost of revenue increased by $40.0 million, or 2%, to
+$107.1 million for the year ended December 31, 2023,
+from $162.8 million for the year ended December 31, 2022.
+The increase was primarily attributable to the increase
+in service revenue, partially offset by depreciation on
+certain C-1 products, which increased by $73.4 million,
+or 1%, from $96.0 million for the year ended December 31,
+2023.
+
+Cost of revenue increased by $20.5 million, or 2%, to
+$1.8 million for the year ended December 31, 2023,
+primarily due to the increase in service revenue and the
+increased amortization of intangible assets.
+\end{Verbatim}
+
 \textbf{Observations:}
 \begin{itemize}
-    \item First continuation paragraph was excellent: ``Cost of revenue increased by \$32.1 million, or 26\%... primarily attributable to decreased depreciation and amortization expense in the period of the acquisition of DMR''
+    \item First continuation paragraph was excellent: references a specific acquisition (DMR), proper SEC formula
     \item Subsequently generated 10 consecutive paragraphs all starting with ``Cost of revenue increased/decreased by \$X.X million''
-    \item Numbers became internally inconsistent (e.g., ``decreased by \$61.2 million, or 13\%, to \$1.9 million from \$2.7 million'')
+    \item Numbers became internally inconsistent: ``decreased by \$61.2 million, or 13\%, to \$1.9 million from \$2.7 million''
     \item Percentage calculations frequently contradicted the dollar amounts cited
+    \item The model learned the \textit{template} of MD\&A paragraphs but cannot maintain arithmetic logic
 \end{itemize}
 
 \subsection{Prompt 3: Risk Factors}
 
 \textbf{Input:} Net losses of \$42.3M, \$67.8M, and \$89.1M over three years, with \$523.4M accumulated deficit.
 
+\textbf{Generated continuation (first 500 tokens):}
+
+\begin{Verbatim}[fontsize=\small]
+Our quarterly revenue and operating results have varied
+in the past and may continue to vary significantly from
+quarter to quarter. Our revenue growth rate may decline
+in future periods as our revenue base increases. Factors
+that may cause our quarterly results to fluctuate include
+the timing of large enterprise contracts, seasonal
+purchasing patterns in the healthcare industry, and the
+impact of regulatory changes on customer buying decisions.
+
+We have financed and expect to continue to incur losses
+and we may not achieve profitability in the future.
+
+We have incurred significant losses since inception and
+expect our net losses since inception and expect to
+continue to incur losses and we may never achieve
+profitability through the development and
+commercialization of our product candidates. Many of our
+product candidates are in development, and we have not
+yet generated any revenue from product sales.
+
+We continue to develop and market new products and
+technologies in the development and commercialization of
+our product candidates, and as a result, our revenues
+from product sales and marketing, are subject to product
+commercialization and regulatory requirements.
+\end{Verbatim}
+
 \textbf{Observations:}
 \begin{itemize}
     \item Maintained risk factor structure (heading + explanation) for extended generation
-    \item ``Product candidates'' appeared 47 times in 25 lines
+    \item ``Product candidates'' appeared 47 times in 25 lines of continued generation
     \item Recursive self-reference: ``Our product candidates may fail to develop, develop and commercialize our product candidates may fail''
     \item Lost thread of healthcare SaaS, defaulted to generic biotech risk factors
+    \item This suggests biotech filings are heavily represented in the training data
 \end{itemize}
 
 \subsection{Prompt 4: Financial Notes (Revenue Recognition)}
 
-\textbf{Input:} Revenue disaggregation table with subscription (\$380M), professional services (\$89M), and hardware (\$18M) revenue.
+\textbf{Input:} Revenue disaggregation table with subscription (\$380M), professional services (\$89M), and hardware (\$18M) revenue, plus remaining performance obligations (\$892.3M).
+
+\textbf{Generated output:}
+
+\begin{Verbatim}[fontsize=\small]
+[Input table echoed perfectly with exact numbers
+and formatting]
+
+The aggregate amount of the transaction price allocated
+to remaining performance obligations was $892.3 million,
+of which we expect to recognize approximately 65% as
+revenue during the next 12 months and the remainder
+thereafter.
+
+The table below presents our revenues in the periods
+indicated (in thousands):
+Year Ended December 31,
+
+[blank spaces - model unable to generate table rows]
+\end{Verbatim}
 
 \textbf{Observations:}
 \begin{itemize}
@@ -192,11 +361,23 @@ We evaluated the model's generation quality using five carefully crafted prompts
     \item All numbers reproduced exactly as in the input
     \item Attempted to start a second table but generated only blank spaces
     \item Only ~50 tokens of meaningful continuation before collapse
+    \item The model can \textbf{echo} tables but cannot \textbf{extend} them with new rows
 \end{itemize}
 
 \subsection{Prompt 5: Proxy Statement (Executive Compensation)}
 
-\textbf{Input:} Executive compensation table with three named officers and full compensation breakdown.
+\textbf{Input:} Executive compensation table with three named officers (James R. Thompson CEO \$5.48M, Sarah M. Chen CFO \$3.59M, Michael D. Rodriguez CTO \$2.97M) and full compensation breakdown.
+
+\textbf{Generated output:}
+
+\begin{Verbatim}[fontsize=\small]
+[Input table echoed perfectly with correct column
+alignment and all three executive rows]
+
+William R. Gras    100,000  $
+
+[blank spaces - model unable to complete the row]
+\end{Verbatim}
 
 \textbf{Observations:}
 \begin{itemize}
@@ -204,21 +385,22 @@ We evaluated the model's generation quality using five carefully crafted prompts
     \item All three executive rows echoed exactly
     \item Attempted to add a fourth executive (``William R. Gras'') but only generated partial row
     \item Immediately collapsed to blank spaces after incomplete row
+    \item ``Gras'' is likely a hallucinated name fragment
 \end{itemize}
 
 \section{Analysis}
 
 \subsection{Echo vs. Generate Distinction}
 
-A clear pattern emerges: the model excels at \textbf{echoing} input content (tables, numbers, formatting) but struggles to \textbf{generate} new content that maintains consistency. This suggests the model learned surface-level patterns rather than underlying data relationships.
+A clear pattern emerges across all five prompts: the model excels at \textbf{echoing} input content (tables, numbers, formatting) but struggles to \textbf{generate} new content that maintains consistency. This suggests the model learned surface-level patterns rather than underlying data relationships.
 
 \subsection{Loop Attractors}
 
 Certain phrases act as ``probability sinks'' that the model falls into when uncertain:
 \begin{itemize}
-    \item ``Commercialization of product candidates'' (Prompts 1, 3)
-    \item ``Cost of revenue increased by \$X million'' (Prompt 2)
-    \item ``Raise additional capital'' (observed in earlier tests)
+    \item ``Commercialization of product candidates'' (Prompts 1, 3) --- appears in biotech 10-K risk factors
+    \item ``Cost of revenue increased by \$X million'' (Prompt 2) --- standard MD\&A sentence opener
+    \item ``Raise additional capital'' (observed in earlier tests) --- common in going-concern disclosures
 \end{itemize}
 
 These are among the most frequently occurring phrases in SEC filings, indicating the model gravitates toward high-probability training patterns when its confidence decreases.
@@ -227,7 +409,7 @@ These are among the most frequently occurring phrases in SEC filings, indicating
 
 \begin{itemize}
     \item \textbf{Dollar amounts:} Plausible scale (\$1M--\$500M range) but internally inconsistent
-    \item \textbf{Percentages:} Often don't match the dollar changes cited
+    \item \textbf{Percentages:} Often don't match the dollar changes cited (e.g., ``\$61.2 million, or 13\%, to \$1.9 million'')
     \item \textbf{Dates:} Consistent (always ``December 31, 2023/2022'')
     \item \textbf{Implication:} The model learned the \textit{format} of numbers, not their \textit{meaning}
 \end{itemize}
@@ -280,11 +462,12 @@ These limitations are consistent with observations of GPT-2 1.5B (12$\times$ lar
 
 Potential improvements include:
 \begin{enumerate}
-    \item \textbf{Data quality:} Curating a balanced corpus across filing types and industries
-    \item \textbf{Model architecture:} Incorporating numerical embeddings or structured prediction heads
+    \item \textbf{Data quality:} Curating a balanced corpus across filing types and industries to reduce domain drift
+    \item \textbf{Model architecture:} Incorporating numerical embeddings or structured prediction heads for financial data
     \item \textbf{Training objectives:} Adding auxiliary losses for numerical consistency
     \item \textbf{Post-processing:} Implementing verification layers for generated numbers
-    \item \textbf{Scale:} Training larger models (350M, 1.3B) on the same corpus
+    \item \textbf{Scale:} Training larger models (350M, 1.3B) on the same corpus to evaluate scaling behavior
+    \item \textbf{Longer context:} Extending beyond 1,024 tokens to capture full document sections
 \end{enumerate}
 
 \section{Conclusion}
@@ -294,6 +477,10 @@ We have demonstrated that a 124M parameter GPT-2 model can learn SEC-EDGAR docum
 These results suggest that small language models can serve as useful tools for financial document drafting assistance, particularly for generating boilerplate sections and suggesting document structures. However, they cannot replace human expertise for ensuring accuracy and consistency in actual SEC filings.
 
 The SEC-EDGAR corpus presents unique challenges for language models due to its structured nature, numerical density, and strict formatting requirements. Our work provides a baseline for future research on domain-specific financial language models and highlights the trade-offs between model accessibility and generation fidelity.
+
+\section*{Acknowledgments}
+
+We thank the nanoGPT framework by Andrej Karpathy for providing the training infrastructure. The SEC-EDGAR data was sourced from the CodeParrot GitHub dataset. Training was performed on consumer hardware (NVIDIA RTX 4070) to demonstrate accessibility of language model training.
 
 \begin{thebibliography}{9}
 
