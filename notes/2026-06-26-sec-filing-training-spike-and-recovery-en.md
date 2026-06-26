@@ -22,6 +22,7 @@ Phase 2 (steps 21k→30k): RECOVERY. 8.04 → 3.34 over 9000 steps. ~20% of tota
 Phase 3 (steps 30k→37k): SMOOTH CONVERGENCE. 3.34 → 2.45. Clean power-law decline. Still going.
 
 COMPARISON:
+
 - SEC-EDGAR at 2.45 val loss is BEATING GPT-2 on OpenWebText (~2.85)
 - GitHub-Code was 3.466 and produced garbage
 - SEC filings are a narrow, structured domain — easier to model than general text
