@@ -20,6 +20,7 @@ lzwjava.github.io：72 GB（博客 + 笔记，不在 repos.json 中）
 
 **操作系统内核 — 从 repos.json 移除，本地删除（节省 12.0 GB）**  
 这些仅供参考，你可以随时重新克隆或在 GitHub 上浏览：  
+
 - `linux`（7.4 GB）  
 - `freebsd-src`（2.2 GB）  
 - `wireguard-linux`（2.0 GB）  
@@ -27,6 +28,7 @@ lzwjava.github.io：72 GB（博客 + 笔记，不在 repos.json 中）
 
 **大型工具链源码 — 移除，按需重新克隆（节省 6.4 GB）**  
 你很少需要本地检出这些：  
+
 - `jdk`（2.4 GB）— OpenJDK 源码  
 - `vscode`（1.8 GB）— VS Code 源码  
 - `rust`（1.4 GB）— Rust 编译器源码  
@@ -34,6 +36,7 @@ lzwjava.github.io：72 GB（博客 + 笔记，不在 repos.json 中）
 - `rocBLAS`（957 MB）— AMD GPU 库源码
 
 **大型 AI 仓库（已包含模型权重或数据文件）（节省 13.3 GB）**  
+
 - `Qwen2.5-Coder`（3.5 GB）— 仓库中很可能包含权重  
 - `openai-cookbook`（1.7 GB）— 笔记本 + 数据文件  
 - `evals`（1.6 GB）— OpenAI 评测及测试数据  
@@ -44,6 +47,7 @@ lzwjava.github.io：72 GB（博客 + 笔记，不在 repos.json 中）
 - `mlflow`（693 MB）
 
 **未在积极使用的 AI 应用（节省 3.4 GB）**  
+
 - `llama_index`（814 MB）  
 - `LibreChat`（519 MB）  
 - `open-webui`（495 MB）  
@@ -59,13 +63,16 @@ lzwjava.github.io：72 GB（博客 + 笔记，不在 repos.json 中）
 
 **AI 推理工具 — 重叠/重复工具（节省 1.2 GB）**  
 你已有 llama.cpp、ollama、vllm、sglang、text-generation-webui、llamafile、ktransformers、TensorRT-LLM、ggml、mlx、mlx-examples。最多保留 3-4 个：  
+
 - 移除：`ggml`（64 MB）、`mlx-examples`（108 MB）、`text-generation-webui`（56 MB）、`ktransformers`（167 MB）、`nexa-sdk`（229 MB）、`nougat`（8 MB）、`dinov2`（8 MB）
 
 **未在积极使用的平台/基础设施（节省 1.1 GB）**  
+
 - `greptimedb`（571 MB）  
 - `Telegram-iOS`（595 MB）
 
 **开发工具 — 操作系统/杂项项目，无需留在 repos.json 中（节省 4.6 GB）**  
+
 - `bun`（581 MB）  
 - `warp`（821 MB）  
 - `fineract`（234 MB）  

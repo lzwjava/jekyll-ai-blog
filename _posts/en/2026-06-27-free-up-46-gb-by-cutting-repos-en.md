@@ -24,6 +24,7 @@ Here's my recommendation for cutting ~56 repos (~1/3 of 170) from repos.json. Gr
 
 **OS KERNELS — drop from repos.json, delete locally (saves 12.0 GB)**
 These are reference-only, you can always re-clone or browse on GitHub:
+
 - `linux` (7.4 GB)
 - `freebsd-src` (2.2 GB)
 - `wireguard-linux` (2.0 GB)
@@ -31,6 +32,7 @@ These are reference-only, you can always re-clone or browse on GitHub:
 
 **LARGE TOOLCHAIN SOURCES — drop, re-clone on demand (saves 6.4 GB)**
 You rarely need these checked out locally:
+
 - `jdk` (2.4 GB) — OpenJDK source
 - `vscode` (1.8 GB) — VS Code source
 - `rust` (1.4 GB) — Rust compiler source
@@ -38,6 +40,7 @@ You rarely need these checked out locally:
 - `rocBLAS` (957 MB) — AMD GPU library source
 
 **HUGE AI REPOS w/ model weights or data checked in (saves 13.3 GB):**
+
 - `Qwen2.5-Coder` (3.5 GB) — likely has weights in repo
 - `openai-cookbook` (1.7 GB) — notebooks + data files
 - `evals` (1.6 GB) — OpenAI evals with test data
@@ -48,6 +51,7 @@ You rarely need these checked out locally:
 - `mlflow` (693 MB)
 
 **AI APPS you're not actively using (saves 3.4 GB):**
+
 - `llama_index` (814 MB)
 - `LibreChat` (519 MB)
 - `open-webui` (495 MB)
@@ -63,13 +67,16 @@ You rarely need these checked out locally:
 
 **AI INFERENCE — overlap/duplicate tools (saves 1.2 GB):**
 You have llama.cpp, ollama, vllm, sglang, text-generation-webui, llamafile, ktransformers, TensorRT-LLM, ggml, mlx, mlx-examples. Keep 3-4 max:
+
 - Drop: `ggml` (64 MB), `mlx-examples` (108 MB), `text-generation-webui` (56 MB), `ktransformers` (167 MB), `nexa-sdk` (229 MB), `nougat` (8 MB), `dinov2` (8 MB)
 
 **PLATFORMS / INFRA not actively used (saves 1.1 GB):**
+
 - `greptimedb` (571 MB)
 - `Telegram-iOS` (595 MB)
 
 **DEV TOOLS — OS/deviation projects you don't need in repos.json (saves 4.6 GB):**
+
 - `bun` (581 MB)
 - `warp` (821 MB)
 - `fineract` (234 MB)

@@ -11,15 +11,15 @@ type: note
 
 == 已恢复 ==
 
-  - 终止了占用端口 8888 的 jupyter-lab 进程
-  - 安装了缺失的依赖项（fastapi、uvicorn、pydantic、transformers）
-  - 在端口 8888 上启动了 server.py（PID 1045）
-  - 模型已加载到 GPU，推理功能正常
+- 终止了占用端口 8888 的 jupyter-lab 进程
+- 安装了缺失的依赖项（fastapi、uvicorn、pydantic、transformers）
+- 在端口 8888 上启动了 server.py（PID 1045）
+- 模型已加载到 GPU，推理功能正常
 
 == 状态 ==
 
-  健康检查：https://gq8kq409jjxh7r-8888.proxy.runpod.net/health -> 正常
-  Chat UI：https://gq8kq409jjxh7r-8888.proxy.runpod.net/ -> SEC EDGAR GPT-124M Chat
+  健康检查：<https://gq8kq409jjxh7r-8888.proxy.runpod.net/health> -> 正常
+  Chat UI：<https://gq8kq409jjxh7r-8888.proxy.runpod.net/> -> SEC EDGAR GPT-124M Chat
   推理测试：返回 SEC 文件文本（质量一般，但模型可运行）
 
 == 备注 ==

@@ -29,20 +29,23 @@ Pod 在约 3 分钟前**重启**（运行时间：3 分钟）。重启后：
 两个选项：
 
 选项 A（快速 —— 杀掉 jupyter-lab，使用端口 8888）：
-  - 杀掉 jupyter-lab
-  - 在端口 8888 上启动 server.py
-  - 代理 URL 立即生效
-  - 缺点：丢失 jupyter-lab
+
+- 杀掉 jupyter-lab
+- 在端口 8888 上启动 server.py
+- 代理 URL 立即生效
+- 缺点：丢失 jupyter-lab
 
 选项 B（两者保留 —— 使用 nginx 端口 8081）：
-  - 在端口 8080（或任意空闲端口）上启动 server.py
-  - 添加 nginx 路由：8081 → localhost:8080
-  - 使用 RunPod 代理：gq8kq409jjxh7r-8081
-  - 缺点：URL 不同
+
+- 在端口 8080（或任意空闲端口）上启动 server.py
+- 添加 nginx 路由：8081 → localhost:8080
+- 使用 RunPod 代理：gq8kq409jjxh7r-8081
+- 缺点：URL 不同
 
 选项 C（最佳 —— 重新分配端口）：
-  - 将 jupyter-lab 移至 8889 或停止它
-  - 在 8888 上运行 server.py
-  - 使用与之前相同的代理 URL
+
+- 将 jupyter-lab 移至 8889 或停止它
+- 在 8888 上运行 server.py
+- 使用与之前相同的代理 URL
 
 你选择哪个选项？我可以现在 SSH 进去修复。

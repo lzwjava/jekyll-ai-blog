@@ -38,6 +38,7 @@ Two things resolve it as you scale, and they're separable:
 2. **Post-training (the part you're asking about)** — SFT + RLHF/DPO is what turns "needs a paragraph" into "follows a 3-word instruction." Instruction tuning literally trains the model to map terse instructions to behaviors. But — critically — **instruction tuning a 124M model gives much smaller returns** because the model lacks the base capabilities to be elicited. You can't RLHF competence the model never learned in pretraining. InstructGPT showed alignment recovers/redirects existing capability; it doesn't create it.
 
 So your intuition splits cleanly:
+
 - "Industry has other post-training methods" → true, but they mostly help models that already have latent capability.
 - "Gets solved as models grow" → true, and it's the dominant factor for a 124M model. No post-training trick fully substitutes for scale here.
 

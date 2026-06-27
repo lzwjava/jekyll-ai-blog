@@ -31,20 +31,23 @@ The pod was RESTARTED ~3 minutes ago (uptime: 3 min). After restart:
 Two options:
 
 Option A (quick — kill jupyter-lab, use port 8888):
-  - Kill jupyter-lab
-  - Start server.py on port 8888
-  - Proxy URL works immediately
-  - Downside: lose jupyter-lab
+
+- Kill jupyter-lab
+- Start server.py on port 8888
+- Proxy URL works immediately
+- Downside: lose jupyter-lab
 
 Option B (keep both — use nginx port 8081):
-  - Start server.py on port 8080 (or any free port)
-  - Add nginx route: 8081 → localhost:8080
-  - Use RunPod proxy: gq8kq409jjxh7r-8081
-  - Downside: different URL
+
+- Start server.py on port 8080 (or any free port)
+- Add nginx route: 8081 → localhost:8080
+- Use RunPod proxy: gq8kq409jjxh7r-8081
+- Downside: different URL
 
 Option C (best — reassign ports):
-  - Move jupyter-lab to 8889 or stop it
-  - Run server.py on 8888
-  - Same proxy URL as before
+
+- Move jupyter-lab to 8889 or stop it
+- Run server.py on 8888
+- Same proxy URL as before
 
 Which option do you want? I can SSH in and fix it right now.
