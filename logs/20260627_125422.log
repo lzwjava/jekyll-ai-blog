@@ -1,0 +1,120 @@
+27 12:37:56] Using model weights format ['*.safetensors']
+model.safetensors: 100%|███████████████████████████████████████| 3.09G/3.09G [15:43<00:00, 3.27MB/s]
+[2026-06-27 12:53:41] No model.safetensors.index.json found in remote.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  3.39it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  3.39it/s]
+
+[2026-06-27 12:53:41] Load weight end. elapsed=945.52 s, type=Qwen2ForCausalLM, dtype=torch.bfloat16, avail mem=8.11 GB, mem usage=-3.05 GB.
+[2026-06-27 12:53:41] Using KV cache dtype: torch.bfloat16
+[2026-06-27 12:53:41] KV Cache is allocated. #tokens: 245848, K size: 3.28 GB, V size: 3.28 GB
+[2026-06-27 12:53:41] Memory pool end. avail mem=0.97 GB
+[2026-06-27 12:53:41] Capture cuda graph begin. This can take up to several minutes. avail mem=0.39 GB
+[2026-06-27 12:53:41] Capture cuda graph bs [1, 2, 4, 8]
+Capturing batches (bs=8 avail_mem=0.39 GB):   0%|                             | 0/4 [00:00<?, ?it/s]Fatal Python error: Segmentation fault
+
+Thread 0x00007ab52dfff6c0 (most recent call first):
+  File "/usr/lib/python3.11/threading.py", line 324 in wait
+  File "/usr/lib/python3.11/threading.py", line 622 in wait
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+  File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+
+Thread 0x00007ab733fff6c0 (most recent call first):
+  File "/usr/lib/python3.11/threading.py", line 324 in wait
+  File "/usr/lib/python3.11/threading.py", line 622 in wait
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+  File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+
+Thread 0x00007ab7d7fff6c0 (most recent call first):
+  File "/usr/lib/python3.11/threading.py", line 324 in wait
+  File "/usr/lib/python3.11/threading.py", line 622 in wait
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.11/threading.py", line 1038 in _bootstrap_inner
+  File "/usr/lib/python3.11/threading.py", line 995 in _bootstrap
+
+Current thread 0x00007abc7e31e080 (most recent call first):
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 316 in __init__
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1306 in call_JitFunction
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1338 in call_Function
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1404 in visit_Call
+  File "/usr/lib/python3.11/ast.py", line 410 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1519 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 696 in visit_Assign
+  File "/usr/lib/python3.11/ast.py", line 410 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1519 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 516 in visit_compound_statement
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 619 in visit_FunctionDef
+  File "/usr/lib/python3.11/ast.py", line 410 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1519 in visit
+  File "/usr/lib/python3.11/ast.py", line 418 in generic_visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 523 in visit_Module
+  File "/usr/lib/python3.11/ast.py", line 410 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1519 in visit
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/code_generator.py", line 1606 in ast_to_ttir
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/compiler.py", line 80 in make_ir
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/compiler/compiler.py", line 300 in compile
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/runtime/jit.py", line 861 in _do_compile
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/runtime/jit.py", line 733 in run
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/triton/runtime/jit.py", line 419 in <lambda>
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/layers/attention/flashinfer_backend.py", line 1094 in call_begin_forward
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/layers/attention/flashinfer_backend.py", line 970 in update_single_wrapper
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/layers/attention/flashinfer_backend.py", line 573 in init_forward_metadata_capture_cuda_graph
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 689 in capture_one_batch_size
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 513 in _capture_one_stream
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 526 in capture
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 370 in __init__
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/model_runner.py", line 2156 in init_device_graphs
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/model_runner.py", line 609 in initialize
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/model_executor/model_runner.py", line 413 in __init__
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/tp_worker.py", line 330 in _init_model_runner
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/tp_worker.py", line 247 in __init__
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/scheduler.py", line 522 in init_tp_model_worker
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/scheduler.py", line 564 in init_model_worker
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/scheduler.py", line 368 in __init__
+  File "/home/lzw/sglang-venv/lib/python3.11/site-packages/sglang/srt/managers/scheduler.py", line 3130 in run_scheduler_process
+  File "/usr/lib/python3.11/multiprocessing/process.py", line 108 in run
+  File "/usr/lib/python3.11/multiprocessing/process.py", line 314 in _bootstrap
+  File "/usr/lib/python3.11/multiprocessing/spawn.py", line 133 in _main
+  File "/usr/lib/python3.11/multiprocessing/spawn.py", line 120 in spawn_main
+  File "<string>", line 1 in <module>
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, pybase64._pybase64, charset_normalizer.md, charset_normalizer.cd, requests.packages.charset_normalizer.md, requests.packages.chardet.md, requests.packages.charset_normalizer.cd, requests.packages.chardet.cd, psutil._psutil_linux, multidict._multidict, yarl._quoting_c, propcache._helpers_c, aiohttp._http_writer, aiohttp._http_parser, aiohttp._websocket.mask, aiohttp._websocket.reader_c, frozenlist._frozenlist, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, zmq.backend.cython._zmq, PIL._imaging, sentencepiece._sentencepiece, yaml._yaml, regex._regex, markupsafe._speedups, cuda_utils, PIL._imagingft, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, _cffi_backend, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._batched_linalg, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_schur_sqrtm, scipy.linalg._matfuncs_expm, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg._decomp_update, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.optimize._group_columns, scipy._lib.messagestream, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.special._ufuncs_cxx, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.spatial._ckdtree, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.optimize._direct, setproctitle._setproctitle, cuda.bindings._bindings.cydriver, cuda.bindings.cydriver, cuda.bindings.driver, tvm_ffi.core, cuda.bindings._bindings.cyruntime_ptds, cuda.bindings._bindings.cyruntime, cuda.bindings.cyruntime, cuda.bindings.runtime, cuda.bindings._internal.utils, cuda.bindings._internal.nvrtc, cuda.bindings.cynvrtc, cuda.bindings.nvrtc, msgspec._core, grpc._cython.cygrpc, google._upb._message, cuda.cudart, cuda.nvrtc (total: 115)
+!!!!!!! Segfault encountered !!!!!!!
+  File "./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c", line 0, in 0x00007abc7e04532f
+  File "./nptl/pthread_kill.c", line 44, in __pthread_kill_implementation
+  File "./nptl/pthread_kill.c", line 78, in __pthread_kill_internal
+  File "./nptl/pthread_kill.c", line 89, in __GI___pthread_kill
+  File "../sysdeps/posix/raise.c", line 26, in __GI_raise
+  File "./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c", line 0, in 0x00007abc7e04532f
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyFunction_Vectorcall
+  File "<unknown>", line 0, in _PyObject_FastCallDictTstate
+  File "<unknown>", line 0, in _PyObject_MakeTpCall
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in PyObject_Call
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyObject_FastCallDictTstate
+  File "<unknown>", line 0, in _PyObject_MakeTpCall
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyFunction_Vectorcall
+  File "<unknown>", line 0, in _PyObject_FastCallDictTstate
+  File "<unknown>", line 0, in PyObject_Call
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyFunction_Vectorcall
+  File "<unknown>", line 0, in _PyObject_FastCallDictTstate
+  File "<unknown>", line 0, in _PyObject_MakeTpCall
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyObject_FastCallDictTstate
+  File "<unknown>", line 0, in _PyObject_MakeTpCall
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in _PyFunction_Vectorcall
+  File "<unknown>", line 0, in _PyEval_EvalFrameDefault
+  File "<unknown>", line 0, in PyEval_EvalCode
+  File "<unknown>", line 0, in PyRun_StringFlags
+  File "<unknown>", line 0, in PyRun_SimpleStringFlags
+  File "<unknown>", line 0, in Py_RunMain
+  File "<unknown>", line 0, in Py_BytesMain
+  File "<unknown>", line 0, in _start
+  File "<unknown>", line 0, in 0xffffffffffffffff
