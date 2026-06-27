@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-完成。已成功部署：https://sec-edgar-gpt.lzwjava.workers.dev
+完成。已成功部署：<https://sec-edgar-gpt.lzwjava.workers.dev>
 
 ---
 
@@ -33,6 +33,6 @@ type: note
 
 9. **HuggingFace 链接** — 将文本从“Model (HuggingFace)”改为“HuggingFace”
 
-10. **已部署** 到 Cloudflare Workers，地址为 https://sec-edgar-gpt.lzwjava.workers.dev
+10. **已部署** 到 Cloudflare Workers，地址为 <https://sec-edgar-gpt.lzwjava.workers.dev>
 
 所有更改已提交并推送到 GitHub。

@@ -43,11 +43,13 @@ As a contractor with no promotion path, you have the *least* protection if this 
 **Split into two tracks:**
 
 **Track A — the bank version (compliant, boring, real):**
+
 - Propose it *through the channel*. Banks have internal GPU/AI platforms now (or sanctioned cloud — Azure OpenAI-style private deployments). Get the idea funded as a sanctioned project. "I can build a finance-tuned assistant on our approved infra" is a strong contractor pitch that raises your leverage.
 - Use **synthetic / de-identified data** for any experimentation that touches your own machine. Never raw PII/financial records off-prem.
 - If they won't sanction it, that's your answer: don't do it covertly.
 
 **Track B — your version (your IP, your career):**
+
 - Build the *exact same pipeline* on **public finance datasets** — SEC EDGAR filings, FinQA, ConvFinQA, FiQA, financial news corpora. Same architecture, same LoRA recipe, same eval harness, on RunPod or your MI300X.
 - This is the one you blog, open-source, and put in your notes. It's portable, it's yours, and it demonstrates the exact capability without the legal landmine. *This* is the startup-optionality asset; the bank-internal version never leaves the bank.
 
@@ -56,6 +58,7 @@ You get the skill, the artifact, and the credibility from Track B — and the le
 The instinct (one engineer + AI-native pipeline builds what a team used to) is right. Just point it at data you're allowed to move.
 
 **References:**
+
 - [DeepSeek V3/V4 model & license](https://github.com/deepseek-ai/DeepSeek-V3)
 - [GLM model family](https://github.com/THUDM/GLM-4)
 - [FinQA dataset](https://github.com/czyssrs/FinQA)

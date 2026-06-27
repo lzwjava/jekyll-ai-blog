@@ -9,13 +9,13 @@ translated: false
 type: note
 ---
 
-Done. Deployed successfully: https://sec-edgar-gpt.lzwjava.workers.dev
+Done. Deployed successfully: <https://sec-edgar-gpt.lzwjava.workers.dev>
 
 ---
 
 Summary of all changes made this session:
 
-1. **.gitignore** — Added LaTeX intermediate files (*.aux, *.log, *.out, *.toc, *.bbl, *.blg, *.fls, *.fdb_latexmk, *.synctex.gz, *.dvi)
+1. **.gitignore** — Added LaTeX intermediate files (*.aux,*.log, *.out,*.toc, *.bbl,*.blg, *.fls,*.fdb_latexmk, *.synctex.gz,*.dvi)
 
 2. **Git pull** — Pulled latest from origin (scripts/, server/, README updates)
 
@@ -33,6 +33,6 @@ Summary of all changes made this session:
 
 9. **HuggingFace link** — Changed text from "Model (HuggingFace)" to "HuggingFace"
 
-10. **Deployed** to Cloudflare Workers at https://sec-edgar-gpt.lzwjava.workers.dev
+10. **Deployed** to Cloudflare Workers at <https://sec-edgar-gpt.lzwjava.workers.dev>
 
 All committed and pushed to GitHub.
