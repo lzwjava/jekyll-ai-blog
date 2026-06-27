@@ -16,6 +16,7 @@ Answer:
 Yes. Swarthmore College is a private liberal arts college in Swarthmore, Pennsylvania, about 11 miles southwest of Philadelphia. Founded in 1864 by Quakers (members of the Religious Society of Friends), it's now nonsectarian.
 
 Key facts:
+
 - **Type**: Small, highly selective liberal arts college (~1,600 undergraduates, no graduate programs to speak of)
 - **Reputation**: Consistently ranked among the top liberal arts colleges in the US, alongside Williams, Amherst, and Pomona
 - **Academics**: Known for rigorous academics and an unusual Honors Program modeled on Oxford/Cambridge — small seminars plus external examiners. Strong in both humanities and STEM (notably engineering, rare for a liberal arts college)

@@ -18,6 +18,7 @@ The mechanics first, then the realistic strategy for someone in your exact situa
 ## The hard constraints
 
 An endorser must:
+
 - Have submitted **3+ papers** to an eligible cs.* category (the long list including cs.AI, cs.LG, cs.CL, cs.SE, etc.)
 - Those papers submitted **>3 months ago and <5 years ago** (a specific recency window — a prolific author from 2015 doesn't qualify if they've gone quiet)
 - Be in good standing as an arXiv submitter
