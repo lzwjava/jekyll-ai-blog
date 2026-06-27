@@ -12,6 +12,7 @@ type: note
 未安装。您可以选择以下任一方式：
 
 **选项A：Cloudflare Dashboard（最简单）**
+
 1. 前往 Cloudflare Pages → 创建项目
 2. 连接您的 GitHub 仓库 `lzwjava/sec-edgar-gpt`
 3. 设置：
@@ -20,6 +21,7 @@ type: note
 4. 部署
 
 **选项B：安装 wrangler 并通过 CLI 部署**
+
 ```
 npm install -g wrangler
 wrangler pages deploy website --project-name=sec-edgar-gpt

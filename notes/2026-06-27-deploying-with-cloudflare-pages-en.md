@@ -12,6 +12,7 @@ type: note
 Not installed. You can either:
 
 **Option A: Cloudflare Dashboard (easiest)**
+
 1. Go to Cloudflare Pages → Create project
 2. Connect your GitHub repo `lzwjava/sec-edgar-gpt`
 3. Set:
@@ -20,6 +21,7 @@ Not installed. You can either:
 4. Deploy
 
 **Option B: Install wrangler and deploy from CLI**
+
 ```
 npm install -g wrangler
 wrangler pages deploy website --project-name=sec-edgar-gpt
