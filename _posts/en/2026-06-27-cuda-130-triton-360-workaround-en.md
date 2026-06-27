@@ -14,6 +14,7 @@ CUDA 13.0 (driver 580.126.20) + Triton 3.6.0 — the downgrade to 3.4.0 got reve
 Two clean paths:
 
 **Path A — vLLM (recommended, more stable on consumer GPUs):**
+
 ```
 /home/lzw/sglang-venv/bin/pip install vllm
 /home/lzw/sglang-venv/bin/python -m vllm.entrypoints.openai.api_server \
@@ -21,9 +22,11 @@ Two clean paths:
 ```
 
 **Path B — sglang without Triton (pin triton with --no-deps):**
+
 ```
 /home/lzw/sglang-venv/bin/pip install --no-deps triton==3.4.0
 ```
+
 Then retry sglang with `--attention-backend torch_native --disable-cuda-graph`.
 
 vLLM is the safer bet — it's more battle-tested on RTX 4070 and CUDA 13.0. Want me to try installing and launching it?

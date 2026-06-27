@@ -37,6 +37,7 @@ On Windows, open the case and physically count: SATA data cables plugged into th
 **Physical bay:** B760M Mortar is mATX, so case-dependent, not board-dependent. Any standard ATX/mATX case has 3.5" bays — confirm yours has a free one. The WD20EZBX is a standard 3.5" drive.
 
 **What you need:**
+
 - 1× free SATA data cable (board usually ships with 2; or buy one ~5 CNY)
 - 1× free SATA power connector from PSU (almost always spare)
 - 1× free 3.5" bay + 4 mounting screws

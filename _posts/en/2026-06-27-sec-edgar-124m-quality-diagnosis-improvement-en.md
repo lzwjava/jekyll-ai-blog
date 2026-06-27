@@ -33,31 +33,35 @@ directories (4KB each).
 10-K annual reports are dominated by biotech/pharma companies
 (thousands of small-cap biotechs file 10-Ks with nearly identical
 risk factors about "product candidates"). This explains:
-  - Model always drifts to biotech ("product candidates" loop)
-  - "commercialization" is the #1 loop attractor
-  - Domain drift from SaaS → biotech within 200 tokens
+
+- Model always drifts to biotech ("product candidates" loop)
+- "commercialization" is the #1 loop attractor
+- Domain drift from SaaS → biotech within 200 tokens
 
 FIX: Download the other filing types. They add diversity:
-  - 10-Q: quarterly updates, more varied industries
-  - 8-K: material events, M&A, executive changes
-  - S-1/S-8: IPO filings, different structure
-  - 20-F: foreign company filings (different accounting)
-  - 144: insider trading filings (short, structured)
+
+- 10-Q: quarterly updates, more varied industries
+- 8-K: material events, M&A, executive changes
+- S-1/S-8: IPO filings, different structure
+- 20-F: foreign company filings (different accounting)
+- 144: insider trading filings (short, structured)
 
 ================================================================
 ROOT CAUSE #2: NO DATA CLEANING
 ================================================================
 
 The raw SEC filings contain:
-  - XBRL inline tags (<ix:nonFraction>, etc.)
-  - HTML artifacts (tables with raw HTML)
-  - Boilerplate repeated verbatim across filings
-  - Repetitive legal disclaimers (same text in thousands of filings)
+
+- XBRL inline tags (<ix:nonFraction>, etc.)
+- HTML artifacts (tables with raw HTML)
+- Boilerplate repeated verbatim across filings
+- Repetitive legal disclaimers (same text in thousands of filings)
 
 The model memorized these surface patterns. That's why it can
 ECHO tables perfectly but can't GENERATE new content.
 
 FIX: Clean the data before tokenization:
+
   1. Strip XBRL/HTML tags (keep plain text)
   2. Deduplicate near-identical paragraphs (SimHash or exact match)
   3. Normalize whitespace/formatting
@@ -87,10 +91,11 @@ A. REPEAT DATA (easiest, free):
    Risk: overfitting on repeated data. Monitor val_loss closely.
 
 B. BETTER DECODING (immediate, no retraining):
-   - Use repetition penalty (1.1-1.3) to kill loops
-   - Lower temperature (0.5-0.6) for more focused output
-   - Use top-k=50 or top-p=0.9 instead of pure sampling
-   - Add a frequency penalty to reduce "product candidates" spam
+
+- Use repetition penalty (1.1-1.3) to kill loops
+- Lower temperature (0.5-0.6) for more focused output
+- Use top-k=50 or top-p=0.9 instead of pure sampling
+- Add a frequency penalty to reduce "product candidates" spam
 
 C. DATA CLEANING + REDO (medium effort):
    Clean the 10-K data + download other filing types.

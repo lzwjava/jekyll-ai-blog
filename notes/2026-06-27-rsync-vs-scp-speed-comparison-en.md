@@ -24,11 +24,13 @@ For your situation (a `.git` pack, repos, anything resumable or repeatable), rsy
 Why your transfer feels slow — it's not rsync, it's two other things:
 
 1. **SSH cipher CPU bound.** On older boxes the default cipher caps you. Force a fast one:
+
    ```bash
    rsync -a --info=progress2 \
      -e 'ssh -c aes128-gcm@openssh.com -o Compression=no' \
      src/ user@host:dst/
    ```
+
    `aes128-gcm` uses AES-NI; `Compression=no` matters because git packs are already compressed — gzip just burns CPU for nothing.
 
 2. **Git packs don't compress.** Make sure you're *not* passing `-z`. That `400KB/s` floor smells like the remote CPU choking on compression of incompressible data.

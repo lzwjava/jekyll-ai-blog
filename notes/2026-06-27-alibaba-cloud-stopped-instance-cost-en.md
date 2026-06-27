@@ -16,11 +16,13 @@ Answer:
 In 节省停机 (economical-stop) mode, here is what stops and what keeps billing for your instance:
 
 **Stops billing (released):**
+
 - vCPU + memory (the `ecs.e-c1m1.large` instance spec)
 - Image license
 - Fixed public IP and its **fixed-bandwidth (5 Mbps) charge** — this is paused
 
 **Still billing:**
+
 - System disk (cloud disk)
 - Any data disks
 - EIP (elastic public IP) bandwidth, *if* you converted your fixed IP to an EIP — but you described a fixed BGP IP with fixed-bandwidth mode, so this is **paused, not charged**

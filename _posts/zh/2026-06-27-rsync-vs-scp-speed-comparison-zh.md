@@ -24,11 +24,13 @@ type: note
 为什么你的传输感觉慢——不是 rsync 的问题，而是另外两个原因：
 
 1. **SSH 加密算法的 CPU 瓶颈。** 在较旧的机器上，默认加密算法会限制速度。可强制使用快速算法：
+
    ```bash
    rsync -a --info=progress2 \
      -e 'ssh -c aes128-gcm@openssh.com -o Compression=no' \
      src/ user@host:dst/
    ```
+
    `aes128-gcm` 利用了 AES-NI 硬件加速；`Compression=no` 很重要，因为 git 包已经压缩过，gzip 压缩只会白白消耗 CPU。
 
 2. **Git 包不压缩。** 确保你**没有**使用 `-z` 选项。你遇到的 `400KB/s` 低速度很可能是远程机器在处理不可压缩数据时因压缩而导致的 CPU 瓶颈。
