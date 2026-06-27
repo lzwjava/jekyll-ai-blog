@@ -16,32 +16,37 @@ type: note
 您运行了多个训练实验。以下是具体情况：
 
 --- 1. d8 基础模型（2 节点 CPU 分布式，6 月 2 日） ---
-   - 模型：depth=8，512 dim，4 heads，seq_len=1024
-   - 训练至 step 1000（CPU，2 节点），val_bpb = 1.64
-   - 在 RTX 4070 上继续训练至 step 5000，val_bpb = 0.99
-   - 总训练时间：~26 分钟（RTX 4070 部分）
+
+- 模型：depth=8，512 dim，4 heads，seq_len=1024
+- 训练至 step 1000（CPU，2 节点），val_bpb = 1.64
+- 在 RTX 4070 上继续训练至 step 5000，val_bpb = 0.99
+- 总训练时间：~26 分钟（RTX 4070 部分）
 
 --- 2. d12 基础模型（RTX 4070，6 月 7-10 日） ---
-   - 模型：depth=12，768 dim，6 heads，seq_len=2048
-   - 从 step 130,000 恢复训练，训练至 step 200,000
-   - 最佳 val_bpb：0.7800（step 130k）
-   - 最终 val_bpb：0.8534（step 200k）
-   - 总训练时间：RTX 4070 上约 65 小时
-   - 批量大小：65,536 tokens，学习率：0.001（Muon），embedding 学习率：0.015
+
+- 模型：depth=12，768 dim，6 heads，seq_len=2048
+- 从 step 130,000 恢复训练，训练至 step 200,000
+- 最佳 val_bpb：0.7800（step 130k）
+- 最终 val_bpb：0.8534（step 200k）
+- 总训练时间：RTX 4070 上约 65 小时
+- 批量大小：65,536 tokens，学习率：0.001（Muon），embedding 学习率：0.015
 
 --- 3. d12-fresh-fa2（RTX 4070，6 月 10 日） ---
-   - 全新的 d12 模型，使用 Flash Attention 2，seq_len=2048
-   - 训练 5000 步，val_bpb = 0.928
-   - 总时间：~1.6 小时（短测试运行）
+
+- 全新的 d12 模型，使用 Flash Attention 2，seq_len=2048
+- 训练 5000 步，val_bpb = 0.928
+- 总时间：~1.6 小时（短测试运行）
 
 --- 4. d4 基础模型（2 节点 CPU，6 月 11 日） ---
-   - 微型模型：depth=4，seq_len=512，仅 20 步
-   - val_bpb = 4.23（几乎未训练，仅为测试）
+
+- 微型模型：depth=4，seq_len=512，仅 20 步
+- val_bpb = 4.23（几乎未训练，仅为测试）
 
 --- 5. d8 SFT（RTX 4070，6 月 2 日） ---
-   - 使用 SFT 微调 d8 模型
-   - 训练 188 步，val_bpb = 0.822（SFT 损失）
-   - ChatCORE 指标：0.0037（基本为随机）
+
+- 使用 SFT 微调 d8 模型
+- 训练 188 步，val_bpb = 0.822（SFT 损失）
+- ChatCORE 指标：0.0037（基本为随机）
 
 === 结果分析 ===
 

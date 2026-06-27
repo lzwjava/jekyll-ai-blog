@@ -16,6 +16,7 @@ Here's what happened:
 **Fix:** Updated `/Users/lzwjava/.hermes/plugins/note/__init__.py` — the `/note` plugin now just enqueues content to `~/.config/ww/note_queue.json` (instant, <1s). Same pattern as `ww note`.
 
 **Processing:** Deferred to `ww note process`, which the `ww note watch` background watcher auto-drains. No watcher or cron is currently running — the queue will accumulate until you either:
+
 - Run `ww note watch` in a terminal
 - Add a system crontab entry (`*/5 * * * * ww note process`)
 - Run `ww note process` manually

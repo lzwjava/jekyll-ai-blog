@@ -16,6 +16,7 @@ type: note
 **修复：** 更新了 `/Users/lzwjava/.hermes/plugins/note/__init__.py`——`/note` 插件现在仅将内容加入队列到 `~/.config/ww/note_queue.json`（即时完成，<1 秒）。与 `ww note` 模式相同。
 
 **处理：** 延迟到 `ww note process` 执行，由 `ww note watch` 后台监视器自动清空。当前没有运行监视器或 cron ——队列将一直累积，直到你：
+
 - 在终端中运行 `ww note watch`
 - 添加系统 crontab 条目（`*/5 * * * * ww note process`）
 - 手动运行 `ww note process`

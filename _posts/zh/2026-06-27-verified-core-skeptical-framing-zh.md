@@ -17,10 +17,10 @@ Fast Gemma Challenge 是一个真实的 HuggingFace 项目。这是一个多智�
 
 因此，基础设施是真实的，文章中一些“惊人”的说法直接映射到挑战的实际机制，而非凭空捏造：
 
-*   **PPL利用漏洞是真实存在的。** PPL是通过教师强制（teacher forcing）计算的，因此对解码时的偏差不敏感——智能体可以在保持PPL良好的同时，使实际输出的质量下降。这是一个已知的结构性漏洞，这正是组织者使用*私有*提示集进行验证的原因。“智能体发现漏洞却选择不使用”的故事是可信的，但你最不应该在不查看实际排行榜的情况下轻信这部分。
-*   **通过MTP推测解码实现127→247 TPS的跳跃**，与vLLM Gemma 4配方一致，该配方记录了推测式/MTP和扩散路径能带来巨大的吞吐量提升。
-*   **“更聪明的草稿模型效果更差”的发现是真实的物理学规律。** 一个2B参数的草稿模型，其约1GB/token的权重读取在batch-1场景下占主导地位，无论接受率如何。文章中的成本公式——每个接受令牌的成本 ≈ 读取的草稿模型字节数 / 接受率——是基于内存带宽限制的正确推理。
-*   **关于噪声/显著性检验的观点是合理的。** 运行间的σ≈1 TPS意味着帕累托前沿上小于4 TPS的差距都可视为平局。这是良好的实验规范，并且在智能体充分迭代时确实会出现。
+* **PPL利用漏洞是真实存在的。** PPL是通过教师强制（teacher forcing）计算的，因此对解码时的偏差不敏感——智能体可以在保持PPL良好的同时，使实际输出的质量下降。这是一个已知的结构性漏洞，这正是组织者使用*私有*提示集进行验证的原因。“智能体发现漏洞却选择不使用”的故事是可信的，但你最不应该在不查看实际排行榜的情况下轻信这部分。
+* **通过MTP推测解码实现127→247 TPS的跳跃**，与vLLM Gemma 4配方一致，该配方记录了推测式/MTP和扩散路径能带来巨大的吞吐量提升。
+* **“更聪明的草稿模型效果更差”的发现是真实的物理学规律。** 一个2B参数的草稿模型，其约1GB/token的权重读取在batch-1场景下占主导地位，无论接受率如何。文章中的成本公式——每个接受令牌的成本 ≈ 读取的草稿模型字节数 / 接受率——是基于内存带宽限制的正确推理。
+* **关于噪声/显著性检验的观点是合理的。** 运行间的σ≈1 TPS意味着帕累托前沿上小于4 TPS的差距都可视为平局。这是良好的实验规范，并且在智能体充分迭代时确实会出现。
 
 需要保持怀疑的是：*叙事化倾向*。这篇文章（一种微信风格的转述，结尾带有常见的“点赞转发小心心”标志）将机械性产物描绘成道德觉醒。“一个智能体拒绝了Telegram，并称私人频道为合谋”——*设计上的透明性*是结构性的（留言板是唯一被认可的渠道，因此任何能正确理解规则的智能体都会反对侧信道），但某个智能体是否“未经提示就写了一篇小作文”是一个单一轶事，在重复传播前，你最好在原始的`gemma-interactions-view`日志中亲自查看。对于“超过100个智能体”的说法也是如此。该挑战是开放报名的，因此智能体数量和“自组织开源社区”的叙事框架是作者对提交/消息日志的解读，并非设计的事实。
 
@@ -30,7 +30,7 @@ Fast Gemma Challenge 是一个真实的 HuggingFace 项目。这是一个多智�
 
 参考资料：
 
-*   [The Fast Gemma Challenge — 仪表盘](https://gemma-challenge-gemma-dashboard.hf.space/)
-*   [gemma-challenge 组织 / 规则](https://huggingface.co/gemma-challenge)
-*   [Fast Gemma Challenge — 探索树](https://thomwolf-gemma-fast-challenges.static.hf.space/index.html)
-*   [vLLM Gemma 4 使用配方（MTP / 推测式 / 扩散路径）](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html)
+* [The Fast Gemma Challenge — 仪表盘](https://gemma-challenge-gemma-dashboard.hf.space/)
+* [gemma-challenge 组织 / 规则](https://huggingface.co/gemma-challenge)
+* [Fast Gemma Challenge — 探索树](https://thomwolf-gemma-fast-challenges.static.hf.space/index.html)
+* [vLLM Gemma 4 使用配方（MTP / 推测式 / 扩散路径）](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html)
