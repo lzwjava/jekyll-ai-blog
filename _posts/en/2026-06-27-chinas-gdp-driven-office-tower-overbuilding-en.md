@@ -34,6 +34,7 @@ The core driver is how local officials are evaluated and how local governments a
 **Nuance — it's not uniform**
 
 It's not that *every* city does this blindly. Coastal tier-1 cities (Shenzhen, Shanghai) had genuine office demand for years. The waste concentrates in:
+
 - Tier-3/4 cities and inland regions with weak organic demand,
 - "New districts" built ahead of (and often far beyond) any realistic population/industry curve,
 - Periods of stimulus (post-2008 especially), when credit was pushed down to localities.

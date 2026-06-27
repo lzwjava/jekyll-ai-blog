@@ -18,6 +18,7 @@ BloombergGPT is a 50B-parameter decoder-only transformer trained by Bloomberg in
 **The data — the actual contribution.** The headline isn't the architecture (it's vanilla BLOOM-style), it's **FinPile**: a 363B-token financial corpus assembled from Bloomberg's proprietary archives — news, filings, press releases, Bloomberg-authored content, web data, and Bloomberg terminal messages going back decades. They mixed this ~50/50 with a public general corpus (The Pile, C4, Wikipedia) for a **~700B token** training set, of which ~569B tokens were actually consumed (1 epoch-ish, they ran out of compute budget before a full second pass). The lesson: at the time, proprietary high-quality domain data was the moat, not model tricks.
 
 **Architecture specifics:**
+
 - 50B params, 70 layers, 40 attention heads, hidden dim 7680
 - Decoder-only causal LM, ALiBi positional encoding (not RoPE), trained with Unigram tokenizer (sized to 131,072 — large vocab to handle financial tokens/numbers efficiently)
 - Trained on 64×8 = 512 A100 40GB GPUs, ~53 days
