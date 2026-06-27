@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 我是否应该将 GitHub 仓库链接（https://github.com/lzwjava/sec-edgar-gpt）和 Hugging Face 模型链接（https://huggingface.co/lzwjava/sec-edgar-gpt-124m-hf）加入论文（.tex）中？考虑到近期内容不会有太大变化——还是跳过论文，只把它们加在 Twitter 帖子中？
+**问题：** 我是否应该将 GitHub 仓库链接（<https://github.com/lzwjava/sec-edgar-gpt）和> Hugging Face 模型链接（<https://huggingface.co/lzwjava/sec-edgar-gpt-124m-hf）加入论文（.tex）中？考虑到近期内容不会有太大变化——还是跳过论文，只把它们加在> Twitter 帖子中？
 
 **答案：**
 

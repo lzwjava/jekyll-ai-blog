@@ -17,11 +17,9 @@ SECURITY ASSESSMENT: ORG2 (ORGII) v1.1.6
 
 VERDICT: Generally well-engineered with some notable concerns. Use it, but understand the tradeoffs.
 
-
 ## What It Is
 
 A Tauri-based desktop app (Rust backend + React frontend) that acts as an agentic development framework. It orchestrates multiple LLM providers (OpenAI, Anthropic, Gemini, Codex, Claude Code, Copilot, etc.) and stores their API keys locally.
-
 
 ## GOOD Security Practices
 
@@ -43,12 +41,12 @@ A Tauri-based desktop app (Rust backend + React frontend) that acts as an agenti
 
 7. Diagnostics upload: Opt-in via environment variables (ORGII_DIAGNOSTICS_ENDPOINT + ORGII_DIAGNOSTICS_TOKEN). If no endpoint is configured, data stays local. Has an offline_mode flag.
 
-
 ## CONCERNS (Ranked by Severity)
 
 ### MEDIUM — Broad Shell Execution Permissions
 
 In src-tauri/capabilities/default.json:
+
 ```json
 {
   "identifier": "shell:allow-execute",
@@ -59,11 +57,13 @@ In src-tauri/capabilities/default.json:
   ]
 }
 ```
+
 The "args": true means arbitrary arguments. This effectively grants the frontend the ability to run ANY shell command via `sh -c "..."`. This is by design for an agentic tool, but it means if the frontend is compromised (XSS, malicious plugin), an attacker gets full shell access.
 
 ### MEDIUM — Very Broad Filesystem Access
 
 From capabilities/default.json:
+
 - fs:allow-home-read-recursive — reads entire home directory
 - fs:allow-home-write-recursive — writes anywhere in home directory
 - fs:allow-read-file with path: "**" — reads ANY file on the system
@@ -79,7 +79,7 @@ For agents like Cursor, Copilot, and Kiro that don't support custom base URLs, O
 
 - style-src 'self' 'unsafe-inline' — allows inline CSS (XSS vector for data exfiltration via CSS, though limited)
 - script-src 'self' 'wasm-unsafe-eval' — needed for WASM but slightly weakens CSP
-- connect-src includes http://127.0.0.1:* and ws://localhost:* — allows connections to any local port
+- connect-src includes <http://127.0.0.1>:*and ws://localhost:* — allows connections to any local port
 
 ### LOW — Keys Stored as Plaintext JSON
 
@@ -88,6 +88,7 @@ API keys are stored in plaintext at ~/.orgii/credentials.json (protected by 0o60
 ### INFO — Diagnostics System
 
 There is a diagnostics/telemetry system, but it's well-designed:
+
 - Requires explicit ORGII_DIAGNOSTICS_ENDPOINT env var to upload
 - Has offline_mode and diagnostics_level: Off options
 - Data is bucketed/sanitized (CPU as ranges, RAM as ranges, durations as ranges)
@@ -95,7 +96,6 @@ There is a diagnostics/telemetry system, but it's well-designed:
 - Default upload interval is 12 hours
 
 Without the env var set, no data leaves your machine.
-
 
 ## Bottom Line
 

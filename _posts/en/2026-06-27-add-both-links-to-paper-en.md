@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: Should I add the GitHub repo link (https://github.com/lzwjava/sec-edgar-gpt) and the Hugging Face model link (https://huggingface.co/lzwjava/sec-edgar-gpt-124m-hf) into the paper (.tex), given the content won't change much in the near future — or should I skip the paper and just add them to a Twitter post instead?
+Question: Should I add the GitHub repo link (<https://github.com/lzwjava/sec-edgar-gpt>) and the Hugging Face model link (<https://huggingface.co/lzwjava/sec-edgar-gpt-124m-hf>) into the paper (.tex), given the content won't change much in the near future — or should I skip the paper and just add them to a Twitter post instead?
 
 Answer:
 

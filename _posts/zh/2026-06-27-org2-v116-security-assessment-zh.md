@@ -17,11 +17,9 @@ type: note
 
 结论：整体设计良好，但存在一些值得关注的问题。可以使用，但需要了解其中的权衡。
 
-
 ## 产品概述
 
 这是一款基于Tauri构建的桌面应用（Rust后端 + React前端），充当智能代理开发框架。它协调多个LLM提供商（OpenAI、Anthropic、Gemini、Codex、Claude Code、Copilot等），并将它们的API密钥存储在本地。
-
 
 ## 良好的安全实践
 
@@ -43,12 +41,12 @@ type: note
 
 7. 诊断上传：通过环境变量（ORGII_DIAGNOSTICS_ENDPOINT + ORGII_DIAGNOSTICS_TOKEN）选择启用。如果未配置端点，数据保留在本地。设有offline_mode标志。
 
-
 ## 问题点（按严重程度排序）
 
 ### 中等级别 —— 宽泛的Shell执行权限
 
 在src-tauri/capabilities/default.json中：
+
 ```json
 {
   "identifier": "shell:allow-execute",
@@ -59,11 +57,13 @@ type: note
   ]
 }
 ```
+
 "args": true意味着参数不受限制。这实际上赋予了前端通过`sh -c "..."`执行任意shell命令的能力。虽然这是智能代理工具的设计需求，但一旦前端被攻破（XSS、恶意插件），攻击者将获得完整的shell访问权限。
 
 ### 中等级别 —— 非常宽泛的文件系统访问权限
 
 来自capabilities/default.json：
+
 - fs:allow-home-read-recursive —— 读取整个主目录
 - fs:allow-home-write-recursive —— 写入主目录任何位置
 - fs:allow-read-file with path: "**" —— 读取系统上任何文件
@@ -79,7 +79,7 @@ type: note
 
 - style-src 'self' 'unsafe-inline' —— 允许内联CSS（通过CSS进行数据泄露的XSS向量，但限制较大）
 - script-src 'self' 'wasm-unsafe-eval' —— WASM所需，但略微削弱了CSP
-- connect-src包含http://127.0.0.1:*和ws://localhost:* —— 允许连接到任何本地端口
+- connect-src包含<http://127.0.0.1:*和ws://localhost>:* —— 允许连接到任何本地端口
 
 ### 低级别 —— 密钥以明文JSON存储
 
@@ -88,6 +88,7 @@ API密钥以明文形式存储在~/.orgii/credentials.json中（受0o600权限�
 ### 信息提示 —— 诊断系统
 
 存在诊断/遥测系统，但设计合理：
+
 - 需要显式设置ORGII_DIAGNOSTICS_ENDPOINT环境变量才能上传
 - 提供offline_mode和diagnostics_level: Off选项
 - 数据经过分桶/脱敏处理（CPU范围化、RAM范围化、持续时间范围化）
@@ -95,7 +96,6 @@ API密钥以明文形式存储在~/.orgii/credentials.json中（受0o600权限�
 - 默认上传间隔为12小时
 
 未设置环境变量时，不会有数据离开您的机器。
-
 
 ## 最终结论
 
