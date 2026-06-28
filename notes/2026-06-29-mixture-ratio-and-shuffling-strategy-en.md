@@ -20,6 +20,7 @@ Short version: you want the **mixture ratio to hold in expectation**, not exactl
 Forcing every batch to be precisely 50% code / 50% text is **stratified sampling**. It's not wrong, but it's usually unnecessary and adds complexity. With a 1024-sequence batch, random sampling from a 50/50 pool already gives you ~512±16 code sequences per batch (binomial std ≈ √(1024·0.5·0.5) ≈ 16). The gradient sees the right ratio over any handful of steps. The variance is noise that SGD absorbs fine.
 
 When per-batch balancing *does* matter:
+
 - **Tiny batches** (e.g. 8–16 seqs) where binomial variance is large relative to batch size.
 - **Domain-conditioned losses / per-domain metrics** you want stable each step.
 - **Curriculum or loss-weighting** schemes that treat domains differently.
