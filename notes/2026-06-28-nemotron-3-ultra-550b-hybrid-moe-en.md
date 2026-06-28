@@ -16,6 +16,7 @@ type: note
 This is NVIDIA's largest open-weight model yet — the BF16 (full-precision) instruct/chat checkpoint of **Nemotron 3 Ultra**. It's frontier-scale and the architecturally interesting part is what's *not* a standard dense transformer.
 
 **The numbers**
+
 - 55B active, 550B total parameter Mixture-of-Experts hybrid Mamba-Transformer model — so ~10% activation ratio, similar density to DeepSeek-V3-class MoEs.
 - Pre-trained with around 20T tokens, supports up to 1M context length.
 - Post-training data cutoff May 2026, pre-training cutoff September 2025.
