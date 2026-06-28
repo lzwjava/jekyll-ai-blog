@@ -34,6 +34,7 @@ type: note
 **结论：** 你的说法在生活成本、生活质量及内地企业存在方面是正确的。就业市场的说法对了一半——香港并非整体上容易找到工作（这是一个谨慎、正在重组中的市场），但对AI/专业人才而言机会尤为强劲，而这恰好是你的赛道。
 
 参考文献：
+
 - [生活成本居东亚之首 – Time Out](https://www.timeout.com/hong-kong/news/hong-kongs-cost-of-living-is-ranked-the-highest-in-eastern-asia-022725)
 - [香港生活质量 – Numbeo](https://www.numbeo.com/quality-of-life/in/Hong-Kong)
 - [2026年香港招聘市场概述 – Water](https://water.com.hk/en/articles/hong-kong-recruitment-market-overview-2026/)

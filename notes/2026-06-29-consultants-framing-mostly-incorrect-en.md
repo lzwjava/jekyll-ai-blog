@@ -18,6 +18,7 @@ Mostly **not right**, or at least heavily oversimplified and overpriced. Let me 
 **1. "大专 can't apply for a master's directly" — partly false.**
 
 You do *not* universally need a bachelor's. Many universities accept a master's application via the **"relevant work experience + associate degree"** route. Hong Kong taught master's (MSc/MA) admissions frequently accept:
+
 - Associate degree / higher diploma (副学士/高级文凭) **plus** substantial relevant work experience, evaluated case-by-case.
 - You have **12 years** of engineering experience, shipped products, revenue, GitHub presence. That is exactly the profile admissions committees weigh heavily for "equivalent qualification" (同等学力).
 
@@ -26,6 +27,7 @@ So the claim "you *must* first do 专升本" is the consultant's default script,
 **2. The 专升本 → Hong Kong framing is suspect.**
 
 "专升本" is a **mainland China** concept (统招专升本 / 自考专升本). Hong Kong universities don't run "专升本." What the consultant is describing — entering Year 3/4 via credit transfer ("senior year entry" / advanced standing) — is a real thing at some HK self-financing institutions, but:
+
 - It's not called 专升本.
 - It's a commercial articulation product, often sold by agents with big markups.
 - Calling it "转学" (transfer) is loose; it's *advanced-standing admission*, not transferring an existing enrollment.
@@ -53,6 +55,7 @@ HK universities (HKU especially) have tightened academic-integrity rules. <​PO
 ---
 
 **Bottom line for your situation:** The "must do 70万 专升本 first" story is likely an agent upsell. Your real options, cheapest first:
+
 1. **Apply HK master's directly** citing 大专 + 12 yrs experience (email programs, test the "同等学力" route).
 2. If a bachelor is genuinely required: do **mainland 自考专升本** part-time (~1万 RMB, keep working), then HK master's.
 3. Only consider the HK 2-year bridge if you specifically want a HK undergrad credential — but at 70万 it's the worst ROI here.

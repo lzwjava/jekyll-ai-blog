@@ -41,6 +41,7 @@ def ou(n=1000, theta=0.1, mu=0.0, sigma=0.2, x0=2.0, dt=1.0):
 Note `x[t] = (1 - θ)·x[t-1] + θ·μ + noise` — the coefficient `(1-θ) < 1` is what guarantees reversion. If that coefficient is ≥ 1 the series is a random walk (no reversion) or explosive.
 
 **Where it shows up:**
+
 - *Quant trading* — pairs/stat-arb: trade the spread of two cointegrated assets, betting it returns to its mean. Test stationarity with ADF; estimate θ via OLS on the AR(1).
 - *Volatility / rates models* — Vasicek, CIR for interest rates use OU dynamics.
 - *Performance attribution* — "regression to the mean": extreme outliers tend to be followed by less extreme values, a pure sampling artifact, not a force.

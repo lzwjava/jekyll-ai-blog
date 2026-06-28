@@ -37,6 +37,7 @@ print(completion.choices[0].message.content)
 ```
 
 Other facts worth filing:
+
 - They publicly and continuously evaluate model channels via regular Humanity's Last Exam (HLE) tests, open-sourced on GitHub, to detect "degraded" / proxied models. This is the genuinely interesting bit for you — official-source channels with auditable degradation detection, vs. gray-market proxies that quietly serve quantized or throttled models. That's a real failure mode on cheaper aggregators.
 - Pricing is per-token, roughly $0.05–$21/M input and $0.40–$168/M output depending on tier, competitive with direct provider rates plus their margin.
 - They ran a Feb 2026 promo giving free Claude Opus 4.6 access for a 2-week trial.

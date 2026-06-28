@@ -14,6 +14,7 @@ SGLang 正在运行 Qwen2.5-1.5B-Instruct 模型。以下是完整的情况说�
 **工作原理：** SGLang 在 30000 端口提供 OpenAI 兼容的 API。它不仅仅是原始模型——它是一个完整的推理服务器，使用与 OpenAI 相同的 `/v1/chat/completions`、`/v1/models` 等 API 协议。
 
 **可用的端点（全部兼容 OpenAI）：**
+
 - `POST /v1/chat/completions` — 聊天（消息数组）
 - `POST /v1/completions` — 原始文本补全
 - `GET  /v1/models` — 列出已加载的模型
@@ -22,6 +23,7 @@ SGLang 正在运行 Qwen2.5-1.5B-Instruct 模型。以下是完整的情况说�
 **使用方法：**
 
 1. 通过 Mac 的 SSH 隧道（这样可以在本地访问）：
+
 ```bash
 ssh -N -L 30000:localhost:30000 lzw@192.168.1.36
 # 然后在另一个终端中：
@@ -31,6 +33,7 @@ curl http://localhost:30000/v1/chat/completions \
 ```
 
 2. 通过 Python（使用 OpenAI SDK）：
+
 ```python
 from openai import OpenAI
 client = OpenAI(base_url="http://localhost:30000/v1", api_key="未使用")
@@ -43,6 +46,7 @@ print(resp.choices[0].message.content)
 ```
 
 3. 流式模式（添加 `"stream": true`）：
+
 ```bash
 curl -N http://localhost:30000/v1/chat/completions \
   -H 'Content-Type: application/json' \
@@ -50,6 +54,7 @@ curl -N http://localhost:30000/v1/chat/completions \
 ```
 
 **SGLang 相比普通 API 的增强功能：**
+
 - RadixAttention — 跨请求的 KV 缓存复用（前缀缓存）
 - CUDA 图形捕获 — 更低延迟（已为 bs 1/2/4/8 捕获）
 - 连续批处理 — 高并发请求的高吞吐量

@@ -14,6 +14,7 @@ SGLang is running with Qwen2.5-1.5B-Instruct. Here's the full picture:
 **How it works:** SGLang serves an OpenAI-compatible API on port 30000. It's not just a raw model — it's a full inference server with the same API contract as OpenAI's `/v1/chat/completions`, `/v1/models`, etc.
 
 **Available endpoints (all OpenAI-compatible):**
+
 - `POST /v1/chat/completions` — chat (messages array)
 - `POST /v1/completions` — raw text completion
 - `GET  /v1/models` — list loaded models
@@ -22,6 +23,7 @@ SGLang is running with Qwen2.5-1.5B-Instruct. Here's the full picture:
 **How to use it:**
 
 1. From your Mac via SSH tunnel (so you can hit localhost):
+
 ```bash
 ssh -N -L 30000:localhost:30000 lzw@192.168.1.36
 # Then in another terminal:
@@ -31,6 +33,7 @@ curl http://localhost:30000/v1/chat/completions \
 ```
 
 2. From Python (openai SDK):
+
 ```python
 from openai import OpenAI
 client = OpenAI(base_url="http://localhost:30000/v1", api_key="unused")
@@ -43,6 +46,7 @@ print(resp.choices[0].message.content)
 ```
 
 3. Stream mode (add `"stream": true`):
+
 ```bash
 curl -N http://localhost:30000/v1/chat/completions \
   -H 'Content-Type: application/json' \
@@ -50,6 +54,7 @@ curl -N http://localhost:30000/v1/chat/completions \
 ```
 
 **What SGLang adds over plain API:**
+
 - RadixAttention — KV cache reuse across requests (prefix caching)
 - CUDA graph capture — lower latency (already captured for bs 1/2/4/8)
 - Continuous batching — high throughput for concurrent requests

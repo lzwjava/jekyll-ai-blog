@@ -22,6 +22,7 @@ The distinction you're drawing is real and correct in principle:
 - **`clear`** (if the agent supports it as a slash command like `/clear`) typically wipes the *conversation context* but keeps the process alive — no teardown, no restart, instant. That's why it feels faster: you're not killing and respawning the runtime, you're just zeroing the message history.
 
 So they're not substitutes — they do different things:
+
 - `clear` → reset context, stay in the session (fast, what you want between tasks)
 - exit → actually terminate the process (only when you're done)
 

@@ -23,11 +23,11 @@ type: note
 
 他们将所有因素简化为两个可观测变量——价格和使用量——并定义了一个 `Value` 指标：
 
-1.  **NormalizedUsage** = `模型发布后前 14 个工作日内的活跃工作日日均 token 数中位数`。使用中位数（而非平均数）以避免发布日峰值导致偏差；14 天窗口用于标准化不同时间发布的模型。
+1. **NormalizedUsage** = `模型发布后前 14 个工作日内的活跃工作日日均 token 数中位数`。使用中位数（而非平均数）以避免发布日峰值导致偏差；14 天窗口用于标准化不同时间发布的模型。
 
-2.  **NormalizedPrice** = `0.1 × InputPrice + 0.001 × OutputPrice`（每百万 token 的美元价格）。权重来源于对真实编码工作流的测量——Claude Opus 4.8 在 Claude Code 中和 GPT-5.5 在 Codex 中都显示出约 **100:1 的输入输出 token 比例**。因此"标准篮子"是 100K 输入 + 1K 输出 token，这大大放大了输入价格（实际上主导了代理/编码账单的因素）。
+2. **NormalizedPrice** = `0.1 × InputPrice + 0.001 × OutputPrice`（每百万 token 的美元价格）。权重来源于对真实编码工作流的测量——Claude Opus 4.8 在 Claude Code 中和 GPT-5.5 在 Codex 中都显示出约 **100:1 的输入输出 token 比例**。因此"标准篮子"是 100K 输入 + 1K 输出 token，这大大放大了输入价格（实际上主导了代理/编码账单的因素）。
 
-3.  **Value** = `NormalizedUsage / NormalizedPrice` → 每（美元·天）的 token 数。明确 *不是* "最便宜者获胜"的指标——没人用的便宜模型得分低；真实使用量很大的昂贵模型（Claude Opus）得分高。
+3. **Value** = `NormalizedUsage / NormalizedPrice` → 每（美元·天）的 token 数。明确 *不是* "最便宜者获胜"的指标——没人用的便宜模型得分低；真实使用量很大的昂贵模型（Claude Opus）得分高。
 
 **研究发现**
 
