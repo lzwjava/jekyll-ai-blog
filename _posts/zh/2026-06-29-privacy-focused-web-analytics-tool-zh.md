@@ -23,6 +23,7 @@ Plausible 是一款开源、注重隐私的网站分析工具——轻量级的 
 - **可自托管**：核心采用 Apache 2.0 许可证，附带 Docker Compose 配置（社区版）。你可以运行在自己的服务器上并拥有数据。此外还有付费托管的云版本，用于资助开发。
 
 技术栈（与你相关）：
+
 - **后端**：Elixir / Phoenix
 - **数据存储**：ClickHouse（列式 OLAP——可快速处理事件聚合查询），PostgreSQL 用于应用元数据
 - **前端**：React + Tailwind

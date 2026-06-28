@@ -23,6 +23,7 @@ Core points:
 - **Self-hostable**: Apache 2.0 licensed core, ships a Docker Compose setup (Community Edition). You run it on your own box and own the data. There's also a paid managed cloud version that funds development.
 
 Stack (relevant to you):
+
 - **Backend**: Elixir / Phoenix
 - **Data store**: ClickHouse (columnar OLAP — handles the event aggregation queries fast), PostgreSQL for app metadata
 - **Frontend**: React + Tailwind

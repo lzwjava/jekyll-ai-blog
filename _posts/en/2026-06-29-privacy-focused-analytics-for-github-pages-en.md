@@ -24,6 +24,7 @@ For a static GitHub Pages blog, privacy-friendly and lightweight beats Google An
 ```
 
 Self-host with Docker:
+
 ```bash
 git clone https://github.com/plausible/community-edition plausible-ce
 cd plausible-ce

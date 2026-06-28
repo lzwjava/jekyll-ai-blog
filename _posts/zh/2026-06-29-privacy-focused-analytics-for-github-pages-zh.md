@@ -24,6 +24,7 @@ type: note
 ```
 
 使用 Docker 自托管：
+
 ```bash
 git clone https://github.com/plausible/community-edition plausible-ce
 cd plausible-ce
