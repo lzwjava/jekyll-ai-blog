@@ -32,10 +32,12 @@ boolean search(int key) {
 ## 为什么这已经是预期上限
 
 在受限代码语料上训练的124M参数模型，其容量足以学习：
+
 - 局部语法（花括号、关键字、常见方法形状）
 - 高频模式（教科书算法）
 
 但**不足以**维持：
+
 - 长距离语义一致性（返回类型 ↔ 返回语句）
 - 方法体内部的类型一致性
 - 一个能够抵抗偏离流形漂移的稳定表示
@@ -75,5 +77,6 @@ for tok in set(idx[0].tolist()):
 对你来说有趣的是：这种退化正是生产模型中KV缓存、更好的采样和规模扩展所要解决的问题。亲眼看着自己的模型以这种方式崩溃，比任何相关论文都能带来更好的直觉。
 
 **参考文献：**
+
 - [The Curious Case of Neural Text Degeneration (Holtzman et al., 2020)](https://arxiv.org/abs/1904.09751)
 - [nanoGPT sample.py](https://github.com/karpathy/nanoGPT/blob/master/sample.py)

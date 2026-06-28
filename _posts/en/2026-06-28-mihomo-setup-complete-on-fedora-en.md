@@ -19,11 +19,13 @@ API:         0.0.0.0:9090
 ```
 
 **Test results:**
+
 - Cloudflare 204: ✅ (proxy works)
 - Google: ✅ (HTTP 200)
 - Exit IP: `69.63.219.52` (going through your Hysteria2 proxy, not direct)
 
 **What I did:**
+
 1. Downloaded mihomo v1.19.27 RPM on Air (GitHub slow from China), scp'd to Fedora
 2. Extracted RPM contents (avoided sudo), installed binary to `~/bin/mihomo`
 3. Copied config from `~/.config/mihomo/config.yaml` (same as Air)
@@ -32,6 +34,7 @@ API:         0.0.0.0:9090
 6. Started with `nohup ~/bin/mihomo -d ~/.config/mihomo`
 
 **To use proxy on the Fedora machine:**
+
 ```bash
 export https_proxy=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890

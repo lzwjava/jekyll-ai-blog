@@ -16,6 +16,7 @@ These are related-work entries from a paper on sparse/efficient attention. Here'
 The key insight: instead of dense attention, **factorize the attention pattern** into a fixed, content-agnostic sparse structure. Each token attends to only O(√n) positions, giving O(n√n) total complexity.
 
 Two factorized heads:
+
 - **Strided attention** — each position attends to the previous `l` positions (local window) and every `l`-th position (strided/dilated). Natural for data with periodic structure like images, where `l ≈ √n` matches the row width.
 - **Fixed attention** — specific columns/positions act as routing tokens that aggregate and broadcast information globally. Better for data without clear periodic structure (text).
 

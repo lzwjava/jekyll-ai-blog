@@ -19,11 +19,13 @@ API:         0.0.0.0:9090
 ```
 
 **测试结果：**
+
 - Cloudflare 204: ✅ (代理正常工作)
 - Google: ✅ (HTTP 200)
 - 出口 IP: `69.63.219.52` (通过你的 Hysteria2 代理，非直连)
 
 **我的操作：**
+
 1. 在 Air 上下载 mihomo v1.19.27 RPM (从 GitHub 下载慢，因为在中国)，通过 scp 传到 Fedora
 2. 解压 RPM 内容 (避免使用 sudo)，将二进制文件安装到 `~/bin/mihomo`
 3. 从 `~/.config/mihomo/config.yaml` 复制配置 (与 Air 相同)
@@ -32,6 +34,7 @@ API:         0.0.0.0:9090
 6. 使用 `nohup ~/bin/mihomo -d ~/.config/mihomo` 启动
 
 **在 Fedora 机器上使用代理：**
+
 ```bash
 export https_proxy=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890

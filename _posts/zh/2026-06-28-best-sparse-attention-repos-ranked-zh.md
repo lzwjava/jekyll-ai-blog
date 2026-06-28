@@ -24,6 +24,7 @@ type: note
 ## 后续发展的脉络
 
 **[lucidrains 仓库]** — Phil Wang 用干净、简洁的 PyTorch 重新实现了几乎所有注意力变体：
+
 - [sparse-attention](https://github.com/lucidrains/sinkhorn-transformer) 以及 routing / reformer 相关实现
 - [routing-transformer](https://github.com/lucidrains/routing-transformer) — 基于内容的聚类分支
 - [reformer-pytorch](https://github.com/lucidrains/reformer-pytorch) — LSH 分桶分支

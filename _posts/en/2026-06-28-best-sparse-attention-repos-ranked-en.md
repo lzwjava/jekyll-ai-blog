@@ -24,6 +24,7 @@ Here are the repos worth your time, ranked by signal-to-noise for actually under
 ## For the lineage forward
 
 **[lucidrains repos]** — Phil Wang reimplements basically every attention variant in clean minimal PyTorch:
+
 - [sparse-attention](https://github.com/lucidrains/sinkhorn-transformer) and the routing/reformer ones
 - [routing-transformer](https://github.com/lucidrains/routing-transformer) — content-based clustering branch
 - [reformer-pytorch](https://github.com/lucidrains/reformer-pytorch) — LSH bucketing branch

@@ -12,11 +12,13 @@ type: note
 Borderline. 300 CNY is ~30-40% of what the whole machine is worth.
 
 **Worth it if:**
+
 - You'll actually carry it around (car, travel, cafes)
 - You want a portable Fedora dev box with 16 GB RAM
 - You don't plan to buy another laptop soon
 
 **Skip it if:**
+
 - It'll stay plugged in most of the time (it's fine as a server at 59%)
 - You're planning to get a newer machine anyway
 - The Lenovo covers all your portable needs

@@ -22,6 +22,7 @@ All set. Copied and adapted `.bashrc` from workstation to Fedora.
 - HISTSIZE bumped to 10000, color aliases, Python 3.14
 
 **Verified:**
+
 ```
 HTTP_PROXY: http://127.0.0.1:7890 ✅
 Git proxy: 127.0.0.1:7890 ✅

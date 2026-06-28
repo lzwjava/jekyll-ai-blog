@@ -32,10 +32,12 @@ The `.S.S.S.S` repetition is the classic signature. With `top_k=200` and `temp=0
 ## Why this is the expected ceiling
 
 At 124M params trained on a constrained code corpus, the model has enough capacity to learn:
+
 - Local syntax (braces, keywords, common method shapes)
 - High-frequency patterns (textbook algorithms)
 
 But **not** enough to maintain:
+
 - Long-range semantic consistency (return type ↔ return statement)
 - Type coherence across a method body
 - A stable representation that resists off-manifold drift
@@ -75,5 +77,6 @@ This directly breaks the `.S.S.S` attractor.
 The interesting thing for your trajectory: this collapse is exactly what KV-cache + better sampling + scale are solving in production models. Watching your own model break this way is better intuition than any paper on it.
 
 **References:**
+
 - [The Curious Case of Neural Text Degeneration (Holtzman et al., 2020)](https://arxiv.org/abs/1904.09751)
 - [nanoGPT sample.py](https://github.com/karpathy/nanoGPT/blob/master/sample.py)

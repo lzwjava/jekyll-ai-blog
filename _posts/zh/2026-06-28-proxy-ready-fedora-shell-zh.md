@@ -22,6 +22,7 @@ type: note
 - HISTSIZE 提升至 10000，颜色别名，Python 3.14
 
 **已验证：**
+
 ```
 HTTP_PROXY: http://127.0.0.1:7890 ✅
 Git proxy: 127.0.0.1:7890 ✅
