@@ -19,24 +19,28 @@ type: note
 # 安装 OpenSSH 服务器包（接受传入 SSH 连接的守护进程）
 sudo dnf install -y openssh-server
 ```
+
 `dnf` 是包管理器。`openssh-server` 提供 `sshd`。`-y` 自动确认。注意：`openssh-clients`（用于*传出*连接的 `ssh` 命令）通常已安装——这是*服务器*端，以便其他机器可以*传入*连接。
 
 ```bash
 # 在启动时启用服务并立即启动，一条命令完成
 sudo systemctl enable --now sshd
 ```
+
 `enable` 创建符号链接，使 `sshd` 在每次启动时运行。`--now` 也立即启动它，省去单独执行 `systemctl start sshd`。如果没有 `--now`，它会启用但不会运行，直到重启。
 
 ```bash
 # 验证守护进程是否处于活动状态（查找“active (running)”）
 sudo systemctl status sshd
 ```
+
 显示状态、PID、最近的日志行。如果运行中则退出码为 0，否则为非零——在脚本中可通过 `systemctl is-active sshd` 使用。
 
 ```bash
 # 打印机器的 IP 地址，以便知道 SSH 到哪个地址
 ip addr show | grep "inet "
 ```
+
 `ip addr show` 输出所有接口。`grep "inet "`（末尾有空格）仅过滤出 IPv4 行——排除 `inet6`。你会看到类似 `inet <IP_ADDRESS>/24` 的内容，位于 LAN 接口（如 `eth0`/`enp3s0`）上，以及环回接口的 `127.0.0.1`。LAN 上的那个地址是你用来连接的。
 
 然后从另一台机器：`ssh user@<IP_ADDRESS>`。
