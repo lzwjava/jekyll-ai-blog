@@ -32,6 +32,7 @@ What I'd actually pick, in order:
 A 2017 MBP is a fine secondary Linux box, but be clear-eyed: this is a tinkerer's install, not a clean one. If you mainly want a no-friction Linux experience, that's what the RTX 4070 workstation (`lzw@192.168.1.36`) is for — run Fedora or Ubuntu there bare-metal and keep the MBP as a portable terminal. The MBP install is worth doing if you *want* the kernel-driver rabbit hole; if you just want a working laptop, it'll frustrate you.
 
 Practical path if you go Fedora:
+
 - Dual-boot, preserve macOS + ESP (firmware dependency above).
 - After install, expect to build: `macbook12-spi-driver` (keyboard/touchpad/Touch Bar) and `snd_hda_macbookpro` (sound), both via DKMS so they survive kernel updates.
 - Wi-Fi (Broadcom BCM43xx) needs `broadcom-wl` / `wl` DKMS — flaky on 5GHz per the reports, so have a USB-C ethernet dongle ready for the install.

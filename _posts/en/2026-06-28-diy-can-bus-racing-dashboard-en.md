@@ -14,15 +14,18 @@ Now the picture is much clearer — this is a **CAN bus-based digital dashboard 
 Reading the board:
 
 **The display (top):**
+
 - **`3`** (big orange number) — current **gear**
 - **`70` CLUTCH** — clutch position/pressure %
 - **`102` OIL** — oil temp or pressure
 - The blue vertical bar — likely an **RPM/shift indicator**
 
 **The compute module:**
+
 - That gray board labeled **"...TICK S3"** is a **LilyGO T-Display-S3** (or similar) — an **ESP32-S3** dev board with a built-in color IPS LCD and USB-C. The "S3" and the form factor are a dead giveaway.
 
 **The breakout below it:**
+
 - The green PCB with **"CAN"** silkscreen and a lit green LED is a **CAN transceiver module** — typically an **SN65HVD230** or **MCP2515 + TCAN/MCP2562** transceiver. The labels **`CTX/CRX`** (CAN TX/RX) and **`3V3 / GND`** confirm it.
 - The **"+IN / OUT+ / OUT-"** module on the left with the arrow is a small **buck/boost converter or signal isolator** (power regulation for the 12V automotive rail → 5V/3.3V).
 - Yellow wires = the **CAN-H / CAN-L** twisted pair.

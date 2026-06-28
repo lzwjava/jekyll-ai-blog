@@ -23,11 +23,13 @@ nvme0n1      259:0    0    0B   0 disk          ← 显示 0B = 分区表损坏
 **以下是逐步操作步骤：**
 
 **第一步 —— 先卸载 sysroot（重要）**
+
 ```bash
 sudo umount /mnt/sysroot
 ```
 
 **第二步 —— 擦除所有数据**
+
 ```bash
 sudo wipefs --all /dev/nvme0n1
 sudo wipefs --all /dev/nvme0n1p1
@@ -36,20 +38,25 @@ sudo wipefs --all /dev/nvme0n1p3
 ```
 
 **第三步 —— 创建新的 GPT 标签**
+
 ```bash
 sudo parted /dev/nvme0n1 mklabel gpt
 ```
 
 **第四步 —— 验证**
+
 ```bash
 lsblk
 ```
+
 现在应显示 `nvme0n1` 且没有任何子分区。
 
 **第五步 —— 重新启动 Fedora 安装程序**
+
 ```bash
 sudo anaconda
 ```
+
 或者点击桌面上的安装程序图标。它将识别到干净的磁盘，并允许您进行自动分区。
 
 擦除后 `lsblk` 显示什么？

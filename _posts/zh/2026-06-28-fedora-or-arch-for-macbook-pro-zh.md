@@ -32,6 +32,7 @@ type: note
 2017款MBP作为一台备用Linux机器还不错，但要清醒认识：这是一个适合喜欢折腾的人的安装过程，而非一个纯粹的体验。如果你主要想要一个无摩擦的Linux体验，那就交给RTX 4070工作站（`lzw@192.168.1.36`）——在上面裸机运行Fedora或Ubuntu，把MBP当作便携终端。如果你*想*深入内核驱动的兔子洞，那么MBP的安装是值得的；如果你只想要一台能用的笔记本，它只会让你沮丧。
 
 如果你选择Fedora的实际操作路径：
+
 - 双系统启动，保留macOS和ESP（上述固件依赖）。
 - 安装后，需要构建：`macbook12-spi-driver`（键盘/触控板/Touch Bar）和`snd_hda_macbookpro`（声音），两者都通过DKMS以便在内核更新后继续使用。
 - Wi-Fi（Broadcom BCM43xx）需要`broadcom-wl` / `wl` DKMS——根据报告，5GHz频段不稳定，所以安装时请准备一个USB-C以太网转接器。

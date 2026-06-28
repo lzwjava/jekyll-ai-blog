@@ -21,6 +21,7 @@ Reading the orange LCD:
 The hardware: it's mounted on a breadboard/dev board with a USB-C port and a blue side button — almost certainly a hobbyist/DIY build using an **MPU-6050 / ADXL345-class IMU** + a microcontroller (looks like a small dev board, possibly something like a Seeed XIAO, RP2040, or similar) driving a monochrome LCD. The orange backlight is a classic STN/segment-style LCD.
 
 These are popular as:
+
 - **Car/motorsport telemetry toys** (measure cornering, braking, launch G's)
 - **Maker projects** for learning IMU sensor fusion
 - **EDC fidget gadgets** in the hobbyist electronics scene

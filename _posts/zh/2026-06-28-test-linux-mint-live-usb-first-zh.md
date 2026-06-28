@@ -14,6 +14,7 @@ type: note
 **建议：先从 Live USB 测试开始。**
 
 步骤：
+
 1. 在任何机器上从 linuxmint.com 下载 Linux Mint Cinnamon ISO (22.x)
 2. 将 ISO 写入 USB 驱动器（16 GB 以上）：在 macOS 上执行 `sudo dd if=linuxmint.iso of=/dev/rdiskN bs=4m`
 3. 插入 MacBook Pro，启动时按住 Option 键，选择 USB

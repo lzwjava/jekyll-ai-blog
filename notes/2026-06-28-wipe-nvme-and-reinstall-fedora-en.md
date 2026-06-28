@@ -23,11 +23,13 @@ Actually it's showing partitions AND `/mnt/sysroot` is mounted — the partition
 **Here's what to do step by step:**
 
 **Step 1 — Unmount sysroot first (important)**
+
 ```bash
 sudo umount /mnt/sysroot
 ```
 
 **Step 2 — Wipe everything**
+
 ```bash
 sudo wipefs --all /dev/nvme0n1
 sudo wipefs --all /dev/nvme0n1p1
@@ -36,20 +38,25 @@ sudo wipefs --all /dev/nvme0n1p3
 ```
 
 **Step 3 — Fresh GPT label**
+
 ```bash
 sudo parted /dev/nvme0n1 mklabel gpt
 ```
 
 **Step 4 — Verify**
+
 ```bash
 lsblk
 ```
+
 Should now show `nvme0n1` with no children partitions.
 
 **Step 5 — Relaunch Fedora installer**
+
 ```bash
 sudo anaconda
 ```
+
 Or click the installer icon on the desktop. It will see a clean disk and let you do automatic partitioning.
 
 What does `lsblk` show after the wipe?
