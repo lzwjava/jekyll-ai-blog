@@ -19,3 +19,13 @@ translated: false
 | Display | 13.6" Liquid Retina, 2560×1664 Retina |
 | OS | macOS 26.5.1 |
 | Metal | Metal 4 |
+
+## Workstation (lzw@192.168.1.36)
+
+| Spec | Detail |
+|------|--------|
+| CPU | 13th Gen Intel Core i9-13900KF (24 cores, 2 threads/core, up to 5.8 GHz) |
+| Memory | 64 GB DDR4 |
+| GPU | NVIDIA GeForce RTX 4070, 12 GB VRAM, driver 580.126.20 |
+| Storage | 1 TB Samsung SSD 980 (NVMe) + 2 TB WDC WD20EZBX (HDD) |
+| OS | Ubuntu 24.04.4 LTS, kernel 6.8.0-124-generic |
