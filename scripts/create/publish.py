@@ -80,33 +80,48 @@ def publish_drafts_to_posts():
         except Exception as e:
             print(f"Error moving '{file_name}': {e}")
 
-    restart_vscode()
+    restart_editor()
 
 
-def restart_vscode():
+def _editor_available(name):
+    """Check if an editor command exists on PATH."""
+    return shutil.which(name) is not None
+
+
+def restart_editor():
+    """Restart the project in the best available editor: Zed first, then VSCode."""
+    editor = None
+    if _editor_available("zed"):
+        editor = "zed"
+    elif _editor_available("code"):
+        editor = "code"
+    else:
+        print("No supported editor found (Zed or VSCode). Skipping editor restart.")
+        return
+
+    label = "Zed" if editor == "zed" else "VSCode"
     print(
-        "Restarting VSCode gracefully to prevent accidental re-creation of draft files..."
+        f"Restarting {label} gracefully to prevent accidental re-creation of draft files..."
     )
     try:
         if sys.platform == "win32":
-            # Graceful close without /f
-            os.system("taskkill /im Code.exe /t")
-            time.sleep(3)  # Delay for cleanup
-            subprocess.Popen(["code", "."])  # Reopen
+            proc_name = "Zed.exe" if editor == "zed" else "Code.exe"
+            os.system(f"taskkill /im {proc_name} /t")
+            time.sleep(3)
+            subprocess.Popen([editor, "."])
         elif sys.platform == "darwin":
-            # Use AppleScript for graceful quit
-            os.system("osascript -e 'quit app \"Visual Studio Code\"'")
+            app_name = "Zed" if editor == "zed" else "Visual Studio Code"
+            os.system(f"osascript -e 'quit app \"{app_name}\"'")
             time.sleep(3)
-            subprocess.call(["open", "-a", "Visual Studio Code", "."])
+            subprocess.call(["open", "-a", app_name, "."])
         elif sys.platform.startswith("linux"):
-            # SIGTERM for graceful termination
-            os.system("killall code")
+            os.system(f"killall {editor}")
             time.sleep(3)
-            subprocess.Popen(["code", "."])
+            subprocess.Popen([editor, "."])
         else:
-            print("Unsupported platform for restarting VSCode.")
+            print(f"Unsupported platform for restarting {label}.")
     except Exception as e:
-        print(f"Error during restart: {e}. Please manually restart VSCode.")
+        print(f"Error during restart: {e}. Please manually restart {label}.")
 
 
 if __name__ == "__main__":
