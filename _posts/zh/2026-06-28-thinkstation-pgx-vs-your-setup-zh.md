@@ -30,5 +30,6 @@ type: note
 **对您来说诚实的比较：** 大约 $5K 的价格，相当于在 MI300X 开发云上使用约 2,500 小时（按 $2/小时计算）。考虑到您已经有 MI300X 用于重度训练，以及 RTX 4070 用于本地迭代，PGX 的定位是“一个可以装下 70B 模型用于 agent/推理工作而无需租用云的本地盒子”。这确实是您现有设置中的空白，但这是一个便利性/延迟购买，并不是您缺乏的能力。如果目标是不断积累训练能力，MI300X 的云时数在每美元的学习收益上更高。如果目标是静音、始终在线的本地推理/agent 主机，同时拥有大内存，那么 PGX 很合适。
 
 参考链接：
+
 - [联想 ThinkStation PGX 产品页面](https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/len102s0023)
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)

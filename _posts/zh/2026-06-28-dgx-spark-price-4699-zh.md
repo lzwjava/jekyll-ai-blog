@@ -18,11 +18,13 @@ type: note
 **NVIDIA DGX Spark（Founders Edition）** 目前的建议零售价（MSRP）为 **4,699 美元**。该价格于 2026 年 2 月从 3,999 美元上调至 4,699 美元——涨幅约 18%——原因是全球内存供应紧张。此次涨价未伴随任何硬件变更。
 
 背景价格历史：
+
 - 2025 年 CES（Project Digits 发布）：2,999 美元
 - GTC 预订/上市（2025 年 10 月）：3,999 美元
 - 2026 年 2 月至今：4,699 美元
 
 更便宜的 OEM 替代方案（采用相同的 GB10 内部配置，通常为 1TB SSD 而非 4TB）：
+
 - ASUS Ascent GX10 —— 约 3,266 美元
 - Dell Pro Max GB10、MSI EdgeXpert、Acer Veriton GN100、HP 系列
 

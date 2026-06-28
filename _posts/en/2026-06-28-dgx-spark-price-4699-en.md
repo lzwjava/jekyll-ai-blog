@@ -18,11 +18,13 @@ Answer:
 The **NVIDIA DGX Spark (Founders Edition)** currently costs **$4,699** (MSRP). The price was revised from $3,999 to $4,699 in February 2026 — an ~18% increase — due to worldwide memory supply constraints. No hardware changes came with the hike.
 
 Pricing history for context:
+
 - CES 2025 (Project Digits announcement): $2,999
 - GTC reservations / launch (Oct 2025): $3,999
 - Feb 2026 → present: $4,699
 
 Cheaper OEM alternatives with identical GB10 internals (usually 1TB SSD instead of 4TB):
+
 - ASUS Ascent GX10 — ~$3,266
 - Dell Pro Max GB10, MSI EdgeXpert, Acer Veriton GN100, HP variants
 

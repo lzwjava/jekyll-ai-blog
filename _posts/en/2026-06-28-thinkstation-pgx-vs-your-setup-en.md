@@ -30,5 +30,6 @@ How this maps to your situation, concretely:
 **The honest comparison for you:** at ~$5K, this is roughly 2,500 hours of MI300X dev-cloud time at $2/hr. Given you already have MI300X access for heavy training and a 4070 for local iteration, the PGX's niche is "local box that can hold a 70B model in memory for agent/inference work without renting." That's a real gap in your setup, but it's a convenience/latency purchase, not a capability you lack. If the goal is training competency that compounds, the MI300X hours buy more learning per dollar. If the goal is a quiet always-on local inference/agent host with huge memory, the PGX fits.
 
 References:
+
 - [Lenovo ThinkStation PGX product page](https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/len102s0023)
 - [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
