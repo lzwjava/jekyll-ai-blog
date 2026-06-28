@@ -16,6 +16,7 @@ type: note
 - 更新了文档字符串和 `args_hint`
 
 用法：
+
 ```
 /note --code              # 保存最后一条响应并包裹代码
 /note 3 --code            # 保存第3条响应并包裹代码

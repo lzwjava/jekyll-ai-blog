@@ -15,9 +15,11 @@ Here's the analysis of all 3 new prompts:
 
 PROMPT 8: DIGITAL BANKING PLATFORM
 ===================================
+
 Input: 70 words. Digital banking in SE Asia, 12M customers, $14.6B payment volume, NIM 3.2%.
 
 Generated output (first ~400 tokens):
+
 - Input echoed perfectly: correct figures ($287M NII, 34% growth, 3.2% NIM)
 - After 1 continuation paragraph, enters a "Net interest income" bullet-point loop
 - Every bullet starts with "Net interest income increased/decreased $X.X million, or N%"
@@ -32,9 +34,11 @@ Key failure: Loop attractor on "Net interest income [direction] $X million, or N
 
 PROMPT 9: MUTUAL FUND OPERATIONS
 =================================
+
 Input: 75 words. Asset mgmt division, 147 strategies, $89.4B AUM, $6.2B inflows, 18.4% return.
 
 Generated output (first ~500 tokens):
+
 - Input echoed well: correct AUM ($89.4B), fee rates (62bps), distribution costs ($340M)
 - First continuation: "Operating expenses were lower at $1.9 billion" (contradicts "flat at $420M" in input)
 - Drifts into full balance sheet generation with table formatting
@@ -50,9 +54,11 @@ Key failure: Mode collapse into table generation + "Cash and" repetition sink
 
 PROMPT 10: FINANCE LEDGER ADJUSTMENTS
 ======================================
+
 Input: 73 words. General ledger platform, 45K journal entries/month, 340 entities, maker-checker controls.
 
 Generated output (first ~500 tokens):
+
 - Input echoed perfectly: 45,000 entries, 340 entities, 18% manual, $2.4M avg, $500K threshold
 - First continuation references intercompany eliminations, FX revaluations (from input)
 - After 2 paragraphs, enters a "$0.X million in sales" loop
@@ -68,6 +74,7 @@ Key failure: Strongest loop attractor of all 3 — "$0.X million in sales and" d
 
 SUMMARY ACROSS ALL 3
 =====================
+
 Pattern                  | Prompt 8 (Banking) | Prompt 9 (Mutual Fund) | Prompt 10 (Ledger)
 -------------------------|--------------------|-----------------------|-------------------
 Input echo quality       | Excellent          | Excellent             | Excellent

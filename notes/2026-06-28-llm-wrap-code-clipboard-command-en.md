@@ -23,10 +23,12 @@ Done. Here's what was implemented:
    - Works with `ww note watch` since it enters the queue like any other entry
 
 **Also updated:**
+
 - Help text: `ww note --code            LLM-wrap code in clipboard, then queue`
 - Zsh completions: `--code` and `--sync` flags for `ww note`
 
 **Flow:**
+
 ```
 ww note --code
   → clipboard read

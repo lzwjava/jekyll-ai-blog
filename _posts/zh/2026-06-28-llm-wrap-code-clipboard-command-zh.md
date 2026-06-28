@@ -23,10 +23,12 @@ type: note
    - 与 `ww note watch` 兼容，因为它像其他条目一样进入队列
 
 **同时更新了：**
+
 - 帮助文本：`ww note --code            用 LLM 包裹剪贴板中的代码，然后入队`
 - Zsh 自动补全：为 `ww note` 添加 `--code` 和 `--sync` 参数
 
 **流程：**
+
 ```
 ww note --code
   → 读取剪贴板

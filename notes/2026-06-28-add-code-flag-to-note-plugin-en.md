@@ -16,6 +16,7 @@ Done. Updated `~/.hermes/plugins/note/__init__.py`:
 - Updated docstring and `args_hint`
 
 Usage:
+
 ```
 /note --code              # save last response with code wrapping
 /note 3 --code            # save 3rd response with code wrapping

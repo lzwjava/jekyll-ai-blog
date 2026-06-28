@@ -94,11 +94,11 @@ The prompt (a complete BST with insert/inorder/search stub) was replayed
 verbatim. Then immediately after `boolean search(int key) {`, the model
 produced:
 
-  - `return;` -- valid Java syntax but wrong (search should return boolean)
-  - `public String get(String source)` -- wrong method, wrong class
-  - `Property.TrveradataValue` -- not a real Java construct
-  - `this.v.S.S.S.S)` -- nonsensical chained access
-  - `this.tree.GetAttribute(parent(this.name))` -- looks like some
+- `return;` -- valid Java syntax but wrong (search should return boolean)
+- `public String get(String source)` -- wrong method, wrong class
+- `Property.TrveradataValue` -- not a real Java construct
+- `this.v.S.S.S.S)` -- nonsensical chained access
+- `this.tree.GetAttribute(parent(this.name))` -- looks like some
     DOM/JavaScript pattern leaking in
 
 The model clearly memorized the BST class from training data, but has
