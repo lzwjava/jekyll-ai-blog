@@ -11,6 +11,7 @@ type: note
 
 === INPUT PROMPT (prompt_java.txt) ===
 
+```java
   import java.util.*;
 
   public class BinarySearchTree {
@@ -59,9 +60,11 @@ type: note
       }
 
       boolean search(int key) {
+```
 
 === MODEL OUTPUT (1000 new tokens, temp=0.8, top_k=200) ===
 
+```java
                    return;
            }
        }
@@ -107,6 +110,7 @@ type: note
                    this.S.S.S.S.S.S{S.S.S.X.S.S];4, S.S.S.S.S.S.S.S.S.S;
                          }
                   ifS.S.S = !S.S.S.S.Sers.S.SRS.S.S.S.S, U.S.S.S.I) +S.S.S.S.S.S.S, 0,
+```
 
 === END ===
 
