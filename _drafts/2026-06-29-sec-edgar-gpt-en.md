@@ -18,9 +18,9 @@ Thanks to Andrej Karpathy's nanoGPT for the training framework, the kapilrao/SEC
 
 ---
 
-**About me:** I'm a contractor engineer at GFT working with a global bank. Over the past year I've consumed ~1.5B LLM tokens and trained ~20 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub. My goal is to bring open-source frontier model practices into the bank and invite peers to learn and experiment with them.
+**About me:** I'm a contractor engineer at GFT working with a global bank. Over the past year I've consumed ~3B LLM tokens and trained ~20 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub. I've given an AI talk to 80 bank peers to share hands-on experience.
 
-As HSBC CEO Georges Elhedery put it, staff should be "on the journey with us, not fighting us" — that's exactly the spirit: hands-on experimentation beats sitting on the sidelines.
+As the bank's CEO Georges Elhedery put it, staff should be "on the journey with us, not fighting us" — that's exactly the spirit: hands-on experimentation beats sitting on the sidelines.
 
 ---
 
