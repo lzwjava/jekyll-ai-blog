@@ -30,21 +30,23 @@ As the bank's CEO put it, AI is becoming one of the defining technologies in our
 
 ---
 
-**Scan to try:**
+**Project site:**
 
-![QR: Demo](assets/images/sec-edgar-gpt-workers-demo.png)
+![QR: Project site](assets/images/sec-edgar-gpt-workers-demo.png)
 
 [sec-edgar-gpt.lzwjava.workers.dev](https://sec-edgar-gpt.lzwjava.workers.dev/)
 
-**Website:**
-
 ![SEC-EDGAR-GPT website](assets/images/sec-edgar-gpt/website.png)
 
-**Chat interface:**
+**Chat (try the model):**
+
+![QR: Chat](assets/images/sec-edgar-gpt/chat.png)
+
+[gq8kq409jjxh7r-8888.proxy.runpod.net](https://gq8kq409jjxh7r-8888.proxy.runpod.net/)
 
 ![SEC-EDGAR-GPT chat](assets/images/sec-edgar-gpt/chat.png)
 
-**Scan for model:**
+**HuggingFace model:**
 
 ![QR: HuggingFace](assets/images/sec-edgar-gpt-huggingface.png)
 
