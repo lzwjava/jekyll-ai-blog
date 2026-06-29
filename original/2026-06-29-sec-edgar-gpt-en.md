@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 title: "SEC-EDGAR-GPT: A 124M Language Model Trained on SEC Filings"
