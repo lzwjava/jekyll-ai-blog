@@ -12,7 +12,9 @@ translated: false
 
 ---
 
-I trained a 124M-parameter GPT-2 from scratch on 1.55B tokens of SEC-EDGAR financial filings using a single RTX 4070. SEC-EDGAR is the U.S. Securities and Exchange Commission's public database of corporate filings — 10-K annual reports, 10-Q quarterly reports, and other disclosures from publicly traded companies. Training took ~8 hours and converged to a validation loss of 2.28.
+I trained a 124M-parameter GPT-2 from scratch on 1.55B tokens of SEC-EDGAR financial filings using a single RTX 4070. Training took ~8 hours and converged to a validation loss of 2.28.
+
+SEC-EDGAR is the U.S. Securities and Exchange Commission's public database of corporate filings — 10-K annual reports, 10-Q quarterly reports, and other disclosures from publicly traded companies.
 
 The model generates convincing SEC boilerplate — risk factors, MD&A sections, business descriptions — but struggles with numerical consistency and long-range coherence, as expected at this scale.
 
