@@ -24,13 +24,13 @@ Thanks to Andrej Karpathy's nanoGPT for the training framework, the kapilrao/SEC
 
 ---
 
-**About me:** I'm an AI full stack engineer at GFT working with a global bank though by contract arrangment. Over the past year I've consumed ~3B LLM tokens and trained ~15 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub. I've done 2.5 years as a contracting engineer in the bank, working in WPB and GFT. I've given an AI talk to 80 bank peers to share hands-on experience. Recently, I am also working with Principal Engineer Parjanya Mudunuri and my lead Ming Jian Wei for about a month on a project involving large Excel file handling and a join/union tool to compare gaps and differences across multiple banking systems.
+**About me:** I'm an AI full stack engineer at GFT working with a global bank though by contract arrangment. Over the past year I've consumed ~3B LLM tokens and trained ~15 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub — with the help of AI tools and verified by human review. I've done 2.5 years as a contracting engineer in the bank, including WPB and GFT. I've given an AI talk to 80 bank peers to share hands-on experience. Recently, I am also working with Principal Engineer Parjanya Mudunuri and my lead Ming Jian Wei for about a month on a project involving large Excel file handling and a join/union tool to compare gaps and differences across multiple banking systems.
 
 As the bank's CEO put it, AI is becoming one of the defining technologies in our time. I hope this work can help the bank adopt AI tech a bit more.
 
 ---
 
-**Project site:**
+**Project site (deployed to Cloudflare Workers, please use personal device to access):**
 
 ![QR: Project site](assets/images/sec-edgar-gpt-workers-demo.png)
 
@@ -38,7 +38,7 @@ As the bank's CEO put it, AI is becoming one of the defining technologies in our
 
 ![SEC-EDGAR-GPT website](assets/images/sec-edgar-gpt/website.png)
 
-**Chat (try the model):**
+**Chat — try the model (deployed to RunPod, please use personal device to access; $0.24/hr, will shut down in about a week):**
 
 ![QR: Chat](assets/images/sec-edgar-gpt/chat_qrcode.png)
 
