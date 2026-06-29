@@ -16,14 +16,6 @@ I trained a 124M-parameter GPT-2 from scratch on 1.55B tokens of SEC-EDGAR finan
 
 The model generates convincing SEC boilerplate — risk factors, MD&A sections, business descriptions — but struggles with numerical consistency and long-range coherence, as expected at this scale.
 
-**Website:**
-
-![SEC-EDGAR-GPT website](assets/images/sec-edgar-gpt/website.png)
-
-**Chat interface:**
-
-![SEC-EDGAR-GPT chat](assets/images/sec-edgar-gpt/chat.png)
-
 **Code:** [github.com/lzwjava/sec-edgar-gpt](https://github.com/lzwjava/sec-edgar-gpt) | **Paper:** [sec-edgar-gpt.pdf](https://github.com/lzwjava/sec-edgar-gpt/raw/main/sec-edgar-gpt.pdf)
 
 This entire 124M model — training, deployment, paper, and website — was done in 3 days using Hermes Agent. With AI agents, LLM research and practice has become genuinely accessible.
@@ -43,6 +35,14 @@ As the bank's CEO put it, AI is becoming one of the defining technologies in our
 ![QR: Demo](assets/images/sec-edgar-gpt-workers-demo.png)
 
 [sec-edgar-gpt.lzwjava.workers.dev](https://sec-edgar-gpt.lzwjava.workers.dev/)
+
+**Website:**
+
+![SEC-EDGAR-GPT website](assets/images/sec-edgar-gpt/website.png)
+
+**Chat interface:**
+
+![SEC-EDGAR-GPT chat](assets/images/sec-edgar-gpt/chat.png)
 
 **Scan for model:**
 
