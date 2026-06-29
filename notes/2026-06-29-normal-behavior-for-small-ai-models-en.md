@@ -20,6 +20,7 @@ Yes, this is normal for a 124M parameter model. Here's why:
 4. **Training data**: The model was trained on all SEC EDGAR filings (not just healthcare), so it has a broad but shallow understanding of filing language.
 
 What you're seeing is the realistic ceiling of a 124M model. To get better output you'd need:
+
 - **Larger model**: 350M+ params would maintain topic coherence much better
 - **More training data/longer training**: The model was trained for 47k steps
 - **Fine-tuning on a specific domain**: e.g., only healthcare SEC filings

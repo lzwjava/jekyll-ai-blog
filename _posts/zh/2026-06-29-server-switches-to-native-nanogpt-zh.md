@@ -41,7 +41,7 @@ type: note
 
 == 状态 ==
 
-  Health:    http://localhost:8888/health -> ok
+  Health:    <http://localhost:8888/health> -> ok
   Server:    原生 nanoGPT, top_k=200, temp=0.8
   Model:     124M 参数, vocab 50304, bias=False
   Checkpoint: 47k 步（验证损失 2.2778）

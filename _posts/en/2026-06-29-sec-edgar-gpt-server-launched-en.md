@@ -13,7 +13,7 @@ Done. SEC-EDGAR GPT server is up and running.
 
 == STATUS ==
 
-  Health:    http://localhost:8888/health  -> {"status":"ok"}
+  Health:    <http://localhost:8888/health>  -> {"status":"ok"}
   Inference: generating real SEC filing financial text
   Model:     GPT-2 124M (12 layers, 768d) on GPU
   Port:      8888

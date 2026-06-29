@@ -26,9 +26,10 @@ Output is now coherent SEC filing text with real financial numbers and proper st
 == FIX ==
 
   server.py updated:
-  - Removed SEC_SYSTEM prefix — prompts go directly to the model as-is
-  - Switched from top_p=0.9 to top_k=200 (matches nanoGPT sample.py)
-  - Default temperature: 0.7 → 0.8 (matches nanoGPT)
+
+- Removed SEC_SYSTEM prefix — prompts go directly to the model as-is
+- Switched from top_p=0.9 to top_k=200 (matches nanoGPT sample.py)
+- Default temperature: 0.7 → 0.8 (matches nanoGPT)
 
 == COMPARISON ==
 

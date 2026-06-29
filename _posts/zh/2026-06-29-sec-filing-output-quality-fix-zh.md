@@ -26,9 +26,10 @@ type: note
 == 修复 ==
 
   已更新 server.py：
-  - 移除了 SEC_SYSTEM 前缀——提示直接原样输入模型
-  - 从 top_p=0.9 切换为 top_k=200（与 nanoGPT sample.py 一致）
-  - 默认温度：0.7 → 0.8（与 nanoGPT 一致）
+
+- 移除了 SEC_SYSTEM 前缀——提示直接原样输入模型
+- 从 top_p=0.9 切换为 top_k=200（与 nanoGPT sample.py 一致）
+- 默认温度：0.7 → 0.8（与 nanoGPT 一致）
 
 == 对比 ==
 

@@ -41,7 +41,7 @@ Done. Server now uses the native nanoGPT model — identical to the workstation 
 
 == STATUS ==
 
-  Health:    http://localhost:8888/health -> ok
+  Health:    <http://localhost:8888/health> -> ok
   Server:    native nanoGPT, top_k=200, temp=0.8
   Model:     124M params, vocab 50304, bias=False
   Checkpoint: 47k steps (val loss 2.2778)

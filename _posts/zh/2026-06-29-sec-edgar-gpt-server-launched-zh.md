@@ -13,7 +13,7 @@ type: note
 
 == 状态 ==
 
-  健康检查：http://localhost:8888/health  -> {"status":"ok"}
+  健康检查：<http://localhost:8888/health>  -> {"status":"ok"}
   推理：正在生成真实的SEC申报财务文本
   模型：GPU上的GPT-2 124M（12层，768维）
   端口：8888
