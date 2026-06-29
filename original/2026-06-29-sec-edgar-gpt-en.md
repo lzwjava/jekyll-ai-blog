@@ -44,7 +44,7 @@ As the bank's CEO put it, AI is becoming one of the defining technologies in our
 
 [gq8kq409jjxh7r-8888.proxy.runpod.net](https://gq8kq409jjxh7r-8888.proxy.runpod.net/)
 
-![SEC-EDGAR-GPT chat](assets/images/sec-edgar-gpt/chat.png)
+![SEC-EDGAR-GPT chatbot](assets/images/sec-edgar-gpt/chatbot_web.png)
 
 **HuggingFace model:**
 
