@@ -4,7 +4,7 @@ generated: false
 image: true
 lang: en
 layout: post
-title: "SEC-EDGAR-GPT: A 124M Language Model Trained on SEC Filings"
+title: "SEC-EDGAR-GPT: A GPT-2 (124M) Language Model Trained from Scratch on SEC EDGAR Filings"
 translated: false
 ---
 
@@ -38,7 +38,7 @@ As the bank's CEO put it, AI is becoming one of the defining technologies in our
 
 ![SEC-EDGAR-GPT website](assets/images/sec-edgar-gpt/website.png)
 
-**Chat — try the model (deployed to RunPod, please use personal device to access; $0.24/hr, will shut down in about a week):**
+**Chat — try the model (deployed to RunPod, please use personal device to access; $0.24/hr, will shut down in some days):**
 
 ![QR: Chat](assets/images/sec-edgar-gpt/chat_qrcode.png)
 
