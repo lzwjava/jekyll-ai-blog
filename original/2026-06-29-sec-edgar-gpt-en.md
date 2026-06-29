@@ -24,7 +24,7 @@ Thanks to Andrej Karpathy's nanoGPT for the training framework, the kapilrao/SEC
 
 ---
 
-**About me:** I'm a contractor engineer at GFT working with a global bank. Over the past year I've consumed ~3B LLM tokens and trained ~15 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub. I've done 2.5 years as a contracting engineer in the bank, working in WPB and GFT. I've given an AI talk to 80 bank peers to share hands-on experience. Recently, I am also working with Principal Engineer Parjanya Mudunuri and my lead Ming Jian Wei for about a month on a project involving large Excel file handling and a join/union tool to compare gaps and differences across multiple banking systems.
+**About me:** I'm an AI full stack engineer at GFT working with a global bank though by contract arrangment. Over the past year I've consumed ~3B LLM tokens and trained ~15 small models (up to 760M) across RTX 4070, H200, B200, and AMD MI300X. I've made 5,000+ contributions on the bank's internal GitHub and 11,000+ on public GitHub. I've done 2.5 years as a contracting engineer in the bank, working in WPB and GFT. I've given an AI talk to 80 bank peers to share hands-on experience. Recently, I am also working with Principal Engineer Parjanya Mudunuri and my lead Ming Jian Wei for about a month on a project involving large Excel file handling and a join/union tool to compare gaps and differences across multiple banking systems.
 
 As the bank's CEO put it, AI is becoming one of the defining technologies in our time. I hope this work can help the bank adopt AI tech a bit more.
 
