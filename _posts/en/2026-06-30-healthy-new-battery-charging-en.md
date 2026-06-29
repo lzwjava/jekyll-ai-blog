@@ -12,12 +12,14 @@ type: note
 Here's your battery status:
 
 **Battery Info**
+
 - **Vendor:** DSY | **Model:** bq20z451
 - **State:** 🔌 Charging (81% done)
 - **Time to full:** ~60 minutes
 - **Energy rate:** 11.2W charging speed
 
 **Health check**
+
 | Metric | Value | |
 |--------|-------|---|
 | Current capacity | 47.67 Wh | |

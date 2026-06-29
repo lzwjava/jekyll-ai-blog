@@ -39,6 +39,7 @@ Your `/proc/acpi/wakeup` shows the problem:
 | Power button | **Intercepted by systemd-logind** | — |
 
 On Apple MacBook hardware running Linux:
+
 - **No device is properly configured to wake from deep S3 sleep** — the keyboard isn't in the ACPI wakeup table, and lid-open is only wired for S4 (hibernate), not S3.
 - The power button was pressed right when suspend was happening (note: two "Power key pressed short" logs at 03:17:58 and 03:17:59) — the first one *triggered* the suspend, the second was eaten by the suspend process.
 - Deep suspend (S3) is the default: `s2idle [deep]` — the `[deep]` marks active mode.

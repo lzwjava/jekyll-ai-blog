@@ -12,6 +12,7 @@ type: note
 以下是已完成的操作和需要 sudo 权限的部分：
 
 **已应用（无需密码）：**
+
 - `gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'` — ✅ 交流电源空闲时**不会**自动挂起
 
 **仍需操作（需要您的 sudo 密码）：**

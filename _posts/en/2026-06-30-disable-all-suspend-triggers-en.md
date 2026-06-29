@@ -12,6 +12,7 @@ type: note
 Here's what's been done and what needs sudo access:
 
 **Applied (no password needed):**
+
 - `gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'` — ✅ AC idle will **not** auto-suspend
 
 **Still needed (needs your sudo password):**
