@@ -1,14 +1,14 @@
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 %	SECTION TITLE
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 \cvsection{Personal Projects}
 
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 %	CONTENT
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 \begin{cventries}
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
   \cventry
     {AI Projects} % Project name
     {Model Training, Personal AI Tools, Open Source Contributions} % Role
@@ -18,6 +18,7 @@
       \begin{cvitems} % Description(s)
         \item {Trained GPT-2 124M from scratch twice using nanoGPT on the FineWeb dataset — once on a RunPod H200 (141 GB HBM3e), once on a DigitalOcean H100 (80 GB HBM3); also ran experiments on a home RTX 4070 (12 GB). Forked Karpathy's nanoGPT with 45 commits: FineWeb shard-based pipelines, inline tensor shape annotations, and training configs scaled for different GPU budgets. Tech: Python, PyTorch, CUDA, HuggingFace Datasets, tiktoken.}
         \item {Built nanoGPT fork with 6 dataset pipelines (FineWeb-Edu 10B+ tokens, OpenWebText, Wikipedia) and 6 training configs (124M–1.5B params). Also trained GPT-2 760M on AMD MI300X (192 GB HBM3) via AMD Dev Cloud. Tech: Python, PyTorch, ROCm, FlashAttention, HuggingFace Hub.}
+        \item {SEC-EDGAR-GPT: Trained GPT-2 124M from scratch on 1.55B tokens of SEC EDGAR financial filings (10-K, 10-Q, 8-K) using nanoGPT on a single RTX 4070 (12 GB). Converged to validation loss 2.28 in \textasciitilde8 hours. Built a paper, project website (Cloudflare Workers), chat UI (nanoGPT server), and HuggingFace model repo. Whole project done in 3 days via Hermes Agent. Tech: Python, PyTorch, nanoGPT, HuggingFace Hub, Cloudflare Workers, tiktoken.}
         \item {zz: Dataset processing toolkit — resumable shard-based download with token budget planning, memory-safe parquet extraction via pyarrow, tokenization, training log analysis. Hosted on GitHub and Hugging Face. Tech: Python, pyarrow, tiktoken, pandas, matplotlib.}
         \item {Consumed \textasciitilde2.3B+ tokens across platforms: OpenRouter 1.15B tokens (\$239, 155K requests), Claude API 115M+ tokens, Xiaomi MIMO 500M tokens. Tech: OpenRouter API, Claude API, Copilot API, REST APIs.}
         \item {jekyll-ai-blog: AI-powered blog with LLM-based multi-language translation (9+ languages), Google Cloud TTS, XeLaTeX PDF/EPUB, and GitHub Actions CI/CD. 10K+ English posts, 10K+ Chinese posts, 9.7K AI notes. Tech: Jekyll, Python, Google Cloud TTS, XeLaTeX, DeepSeek, Mistral.}
@@ -29,7 +30,7 @@
       \end{cvitems}
     }
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
   \cventry
     {Various Personal Projects} % Project name
     {Open Source Contributions, Blog Development, Backend and Frontend Development, Mobile App Development, Tool Development} % Role
@@ -51,5 +52,5 @@
       \end{cvitems}
     }
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
 \end{cventries}

@@ -1,14 +1,14 @@
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 %	章节标题
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 \cvsection{个人项目}
 
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 %	内容
-%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------%
 \begin{cventries}
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
   \cventry
     {AI项目} % 项目名称
     {模型训练、个人AI工具、开源贡献} % 角色
@@ -18,6 +18,7 @@
       \begin{cvitems} % 描述
         \item {使用nanoGPT在FineWeb数据集上从零训练GPT-2 124M两次——分别在RunPod H200（141 GB HBM3e）和DigitalOcean H100（80 GB HBM3）上完成；另在配备RTX 4070（12 GB）的家用服务器上进行了实验。Fork了Karpathy的nanoGPT并提交45次：基于FineWeb分片的数据流水线、内联张量形状注释和适配不同GPU预算的训练配置。技术栈：Python、PyTorch、CUDA、HuggingFace Datasets、tiktoken。}
         \item {构建了包含6个数据集流水线（FineWeb-Edu 10B+ tokens、OpenWebText、Wikipedia）和6个训练配置（124M–1.5B参数）的nanoGPT分支。另在AMD MI300X（192 GB HBM3）上通过AMD Dev Cloud训练GPT-2 760M。技术栈：Python、PyTorch、ROCm、FlashAttention、HuggingFace Hub。}
+        \item {SEC-EDGAR-GPT：在SEC EDGAR财务文件（10-K、10-Q、8-K）的15.5亿token上，使用nanoGPT在单个RTX 4070（12 GB）上从零训练GPT-2 124M。约8小时收敛到验证损失2.28。构建了论文、项目网站（Cloudflare Workers）、聊天界面（nanoGPT服务器）和HuggingFace模型仓库。整个项目通过Hermes Agent在3天内完成。技术栈：Python、PyTorch、nanoGPT、HuggingFace Hub、Cloudflare Workers、tiktoken。}
         \item {zz：数据集处理工具集——支持断点续传的分片下载及token预算规划、通过pyarrow进行内存安全的parquet提取、tokenization、训练日志分析。托管于GitHub和Hugging Face。技术栈：Python、pyarrow、tiktoken、pandas、matplotlib。}
         \item {在多个平台消耗约23亿+ token：OpenRouter 11.5亿 token（\$239，155K请求）、Claude API 1.15亿+ token、小米MIMO 5亿 token。技术栈：OpenRouter API、Claude API、Copilot API、REST APIs。}
         \item {jekyll-ai-blog：AI驱动的博客平台，支持基于LLM的多语言翻译（9+语种）、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线及GitHub Actions CI/CD。10K+英文文章、10K+中文文章、9.7K AI笔记。技术栈：Jekyll、Python、Google Cloud TTS、XeLaTeX、DeepSeek、Mistral。}
@@ -29,7 +30,7 @@
       \end{cvitems}
     }
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
   \cventry
     {各类个人项目} % 项目名称
     {开源贡献、博客开发、后端与前端开发、移动应用开发、工具开发} % 角色
@@ -51,5 +52,5 @@
       \end{cvitems}
     }
 
-%---------------------------------------------------------
+%---------------------------------------------------------%
 \end{cventries}
