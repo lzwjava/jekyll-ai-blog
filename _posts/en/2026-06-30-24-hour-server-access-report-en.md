@@ -39,11 +39,13 @@ SSH connected and reviewed everything. Here's the full picture:
 So roughly **6 real users** actively tried the model. That's about right for a company WeChat group + internal share — people click, try a few prompts, explore.
 
 **Also notable:**
+
 - Someone crawled `/api/status?token=z9cgjolmphbkms0ui0je` 8 times from 5 different proxy IPs — looking for admin endpoints
 - 2 requests returned 400 Bad Request — likely someone's API client sent bad JSON
 - A Safari user hit `/README.md` with referer showing the RunPod proxy domain — someone read the docs
 
 **Log retention:**
+
 - `/workspace/fastapi.log` — 15KB, covers all requests since server start. Being kept.
 - `/var/log/nginx/access.log` — tiny (only 15 entries), nginx logrotate is configured but nginx isn't the main ingress
 - **No rotation on fastapi.log** — at 15KB after 24h it's fine, but for a live production-facing server you'd want logrotate or a restart-based split

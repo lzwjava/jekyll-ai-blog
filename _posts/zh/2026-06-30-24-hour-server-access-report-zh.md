@@ -39,11 +39,13 @@ type: note
 因此大约有 **6个真实用户** 主动尝试了该模型。对于一个公司微信群加内部分享来说，这差不多——人们点击、尝试几个提示词、探索一下。
 
 **另外值得注意的是：**
+
 - 有人从5个不同的代理IP对`/api/status?token=z9cgjolmphbkms0ui0je`爬取了8次——在寻找管理端点。
 - 2个请求返回了400 Bad Request——可能是某个API客户端发送了格式错误的JSON。
 - 一位Safari用户访问了`/README.md`，referer显示为RunPod代理域名——有人在阅读文档。
 
 **日志保留：**
+
 - `/workspace/fastapi.log` — 15KB，包含自服务器启动以来的所有请求。正在保留。
 - `/var/log/nginx/access.log` — 很小（仅15条记录），nginx的logrotate已配置，但nginx不是主要入口。
 - **fastapi.log没有日志轮转** — 24小时后15KB尚可，但对于面向生产的实时服务器，你需要logrotate或基于重启的拆分。
