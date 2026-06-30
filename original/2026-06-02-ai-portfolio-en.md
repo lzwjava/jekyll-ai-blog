@@ -73,6 +73,20 @@ GitHub: [lzwjava/nanoGPT](https://github.com/lzwjava/nanoGPT)
 
 ---
 
+## 📝 SEC-EDGAR-GPT — GPT-2 (124M) Trained from Scratch on SEC Filings
+
+Trained a **124M-parameter GPT-2** from scratch on **1.55B tokens** of SEC EDGAR financial filings (10-K, 10-Q, and other corporate disclosures) — trained for ~8 hours on a single **RTX 4070** (12 GB VRAM), converging to a validation loss of 2.28.
+
+The model generates convincing SEC boilerplate — risk factors, MD&A sections, business descriptions — and is deployed for interactive chat via a FastAPI server on RunPod.
+
+Built the entire project — model training, paper, chatbot, and website — in **3 days using Hermes Agent**, demonstrating how AI agents make LLM research accessible.
+
+![SEC-EDGAR-GPT chatbot](/assets/images/sec-edgar-gpt/chatbot_web.png)
+
+**Code:** [github.com/lzwjava/sec-edgar-gpt](https://github.com/lzwjava/sec-edgar-gpt) · **Paper:** [sec-edgar-gpt.pdf](https://github.com/lzwjava/sec-edgar-gpt/raw/main/sec-edgar-gpt.pdf) · **Model:** [Hugging Face](https://huggingface.co/lzwjava/sec-edgar-gpt-124m-hf) · **Chat:** [sec-edgar-gpt.lzwjava.workers.dev](https://sec-edgar-gpt.lzwjava.workers.dev/)
+
+---
+
 ## 📊 LLM API Usage — The Numbers
 
 ### OpenRouter — Past Year
