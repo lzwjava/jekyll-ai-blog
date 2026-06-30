@@ -69,6 +69,7 @@ store_matrix_sync(c, c_frag, 16, mem_row_major);
 **3. Async + the memory hierarchy (Ampere→Hopper, 2020–2022)**
 
 The bottleneck became *feeding* tensor cores, not the math. So CUDA added:
+
 - `cp.async` (Ampere): copy global→shared without going through registers, overlapping with compute. This is the heart of FlashAttention's pipelining.
 - **TMA** (Hopper): a hardware DMA engine that does bulk async tensor copies with a single instruction — the programmer hands it a descriptor instead of computing per-thread addresses.
 - **Thread-block clusters + distributed shared memory** (Hopper): blocks on the same SM-cluster can read each other's shared memory.
