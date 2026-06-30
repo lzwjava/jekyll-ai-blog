@@ -192,6 +192,8 @@ Gave a technical talk to **80 participants** at HSBC Bank — senior consultants
 
 **Slides:** Built with Claude Code & Marp, from my public AI response notes.
 
+Slides (Marp): [PDF](/assets/marp/neural_networks_to_agents_public.pdf)
+
 ---
 
 ## 🛠️ ww — Cross-Platform CLI Toolkit
