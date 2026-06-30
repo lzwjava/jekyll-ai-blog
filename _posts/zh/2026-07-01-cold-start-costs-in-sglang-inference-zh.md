@@ -74,7 +74,7 @@ total_tokens = floor(free_vram × mem_fraction / kv_bytes_per_token)
 
 **参考文献：**
 
-*   [SGLang RadixAttention 论文 (Zheng et al., 2023)](https://arxiv.org/abs/2312.07104)
-*   [SGLang 文档 — 超参数调优与 CUDA 图](https://docs.sglang.ai/backend/hyperparameter_tuning.html)
-*   [PyTorch CUDA 图](https://pytorch.org/blog/accelerating-pytorch-with-cuda-graphs/)
-*   [vLLM PagedAttention（相同的 KV 分页思想）](https://arxiv.org/abs/2309.06180)
+* [SGLang RadixAttention 论文 (Zheng et al., 2023)](https://arxiv.org/abs/2312.07104)
+* [SGLang 文档 — 超参数调优与 CUDA 图](https://docs.sglang.ai/backend/hyperparameter_tuning.html)
+* [PyTorch CUDA 图](https://pytorch.org/blog/accelerating-pytorch-with-cuda-graphs/)
+* [vLLM PagedAttention（相同的 KV 分页思想）](https://arxiv.org/abs/2309.06180)

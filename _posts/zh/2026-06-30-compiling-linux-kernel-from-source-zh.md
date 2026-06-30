@@ -44,14 +44,18 @@ sudo make install           # -> /boot，更新 initramfs 和 grub
 
 - `make -j$(nproc)` — 并行构建；完整内核约需 5–30 分钟，取决于配置和核心数。在您的 192GB MI300X 机器上会很快；在 M2 Air 上使用 `tinyconfig` 构建更合理。
 - `localmodconfig` — 仅构建当前加载的模块（`lsmod`），大幅缩短构建时间：
+
   ```bash
   make localmodconfig
   ```
+
 - `O=` — 外部构建目录，保持源代码目录整洁：
+
   ```bash
   make O=../build defconfig
   make O=../build -j$(nproc)
   ```
+
 - `CC=clang LLVM=1` — 使用 Clang/LLVM 而非 GCC 构建。
 - `make clean`（保留配置）/ `make mrproper`（同时清除配置）。
 

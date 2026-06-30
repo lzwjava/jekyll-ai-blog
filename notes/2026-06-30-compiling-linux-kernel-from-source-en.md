@@ -44,14 +44,18 @@ Key knobs:
 
 - `make -j$(nproc)` — parallel build; full kernel ~5–30 min depending on config/cores. On your 192GB MI300X box it'll fly; on the M2 Air a `tinyconfig` build is saner.
 - `localmodconfig` — only build modules currently loaded (`lsmod`), drastically cuts build time:
+
   ```bash
   make localmodconfig
   ```
+
 - `O=` — out-of-tree build dir to keep the source clean:
+
   ```bash
   make O=../build defconfig
   make O=../build -j$(nproc)
   ```
+
 - `CC=clang LLVM=1` — build with Clang/LLVM instead of GCC.
 - `make clean` (keep config) / `make mrproper` (nuke config too).
 
