@@ -81,7 +81,7 @@ The model generates convincing SEC boilerplate — risk factors, MD&A sections, 
 
 Built the entire project — model training, paper, chatbot, and website — in **3 days using Hermes Agent**, demonstrating how AI agents make LLM research accessible.
 
-Shared inside a global bank, the project garnered **200+ views** internally. A principal engineer left a comment calling it *"nice"*, and colleagues discussed the differences between finance-domain tokens and natural language tokens — a conversation that shaped my thinking on domain-specific tokenization for financial LLMs.
+Shared inside a global bank, the project garnered **200+ views** internally. A principal engineer left a comment calling it *"nice"*. Also, inspired by a friend's work on recurrent transformers, this project got me thinking about treating financial tokens differently from natural language tokens to improve generation accuracy.
 
 ![SEC-EDGAR-GPT chatbot](/assets/images/sec-edgar-gpt/chatbot_web.png)
 
