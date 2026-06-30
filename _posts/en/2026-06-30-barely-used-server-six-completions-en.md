@@ -23,11 +23,13 @@ The server is running but barely used. Here's the English summary:
 6. `11:53:43` — Amazon question again → 200 tokens, 1.32s. Same Safari session.
 
 **What this tells you**:
+
 - The iPhone + WeChat browser request at 06:42 from the 8888 URL — someone clicked a link you shared (probably WeChat/朋友圈). They asked one question and left.
 - The 11:53 Safari requests from CF IP 69.63.219.52 could be you testing from another network or someone else on the same carrier NAT.
 - Everything else was you testing from the code-server browser (8081 localhost).
 
 **Background noise** (all 404s, no real users):
+
 - Runpod internal IPs (100.64.1.x) polling `/robots.txt`, `/sitemap.xml`, `/favicon.ico`, `/apple-touch-icon.png`
 - Some requests to `/api/status?token=z9cgjolmphbkms0ui0je` — monitoring scripts looking for an API status endpoint that doesn't exist
 

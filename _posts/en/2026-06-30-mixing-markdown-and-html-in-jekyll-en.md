@@ -67,6 +67,7 @@ Trade-off: with this on globally, whitespace-sensitive HTML (like `<pre>` or `<c
 For HTML spanning logic (loops, includes), use Liquid in the `.md` file directly — it runs before the Markdown processor:
 
 {% raw %}
+
 ```markdown
 ## Projects
 
@@ -76,6 +77,7 @@ For HTML spanning logic (loops, includes), use Liquid in the `.md` file directly
 {% endfor %}
 </ul>
 ```
+
 {% endraw %}
 
 References:

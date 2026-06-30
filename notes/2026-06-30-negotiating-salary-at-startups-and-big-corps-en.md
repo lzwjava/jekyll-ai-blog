@@ -30,12 +30,14 @@ The mechanics differ because the constraint differs. Big corp negotiates against
 You're a contractor at the bank — be honest with yourself: **there is no promotion path on a contract**. Your preferences doc already says this. So "promotion" at a bank for you means either converting to FTE (rare, usually worse for your goals) or re-negotiating the contract rate at renewal.
 
 For contract rate renewal:
+
 - Time it to renewal, not mid-term.
 - Anchor on a competing contract offer or a raised market rate (search current rates for AI engineers in your region).
 - Frame around delivered value: "I automated X, shipped Y, the agent tooling I built saves N hours/week." Quantify in money or time.
 - The agency takes a cut — know your markup. Negotiate with whoever controls the rate, which may be the agency, not the bank.
 
 For FTE comp negotiation (if you ever go that route):
+
 - Levels map to bands. Get the band data (levels.fyi, Blind, internal leaks). Negotiate your *level* first — it caps everything else.
 - Refresh grants, vesting cliffs, and bonus targets matter more than base over 4 years.
 - Performance review cycles are the only promotion lever. Document impact continuously, pre-write your own promo case, get your manager to sponsor it before the calibration meeting. Promotions are decided in calibration, not in your 1:1.

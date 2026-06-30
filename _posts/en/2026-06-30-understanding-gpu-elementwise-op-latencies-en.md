@@ -31,6 +31,7 @@ A 1024×1024 FP16 tensor = 1M elements × 2 bytes = **2 MB**. The key insight: m
 ### Roofline check — why ~4 μs for add/mul/relu
 
 An elementwise op like `add` does:
+
 - Read 2 MB (input A) + 2 MB (input B) = 4 MB
 - Write 2 MB (output)
 - Total traffic ≈ 6 MB

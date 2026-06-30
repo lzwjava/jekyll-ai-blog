@@ -23,11 +23,13 @@ type: note
 6. `11:53:43` — 再次询问亚马逊问题 → 200 tokens，耗时1.32秒。同一Safari会话。
 
 **这说明**：
+
 - 06:42通过8888 URL来自iPhone+微信浏览器的请求——有人点击了你分享的链接（可能是微信/朋友圈）。他们问了一个问题后就离开了。
 - 11:53来自CF IP 69.63.219.52的Safari请求，可能是你在其他网络测试，或是同一运营商NAT下的其他人。
 - 其他所有请求都是你通过code-server浏览器（8081 localhost）进行的测试。
 
 **背景噪音**（均为404，无真实用户）：
+
 - Runpod内部IP（100.64.1.x）轮询`/robots.txt`、`/sitemap.xml`、`/favicon.ico`、`/apple-touch-icon.png`
 - 部分请求访问`/api/status?token=z9cgjolmphbkms0ui0je`——监控脚本寻找不存在的API状态端点
 

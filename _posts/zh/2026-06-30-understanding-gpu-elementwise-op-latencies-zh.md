@@ -31,6 +31,7 @@ type: note
 ### Roofline模型验证——为什么add/mul/relu约4微秒
 
 像`add`这样的逐元素操作会：
+
 - 读取2 MB（输入A）+ 2 MB（输入B）= 4 MB
 - 写入2 MB（输出）
 - 总数据流量 ≈ 6 MB

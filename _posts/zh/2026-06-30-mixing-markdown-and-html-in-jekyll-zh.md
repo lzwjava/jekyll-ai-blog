@@ -67,6 +67,7 @@ kramdown:
 对于涉及逻辑的HTML（循环、包含文件），可直接在`.md`文件中使用Liquid——它会在Markdown处理器之前执行：
 
 {% raw %}
+
 ```markdown
 ## 项目列表
 
@@ -76,6 +77,7 @@ kramdown:
 {% endfor %}
 </ul>
 ```
+
 {% endraw %}
 
 参考资料：
