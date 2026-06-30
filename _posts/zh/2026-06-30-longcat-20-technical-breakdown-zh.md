@@ -14,6 +14,7 @@ type: note
 你粘贴的那份文档是美团官方发布的 LongCat-2.0 上线公告，其中明确提到在 OpenRouter 上运行的是 **预览** 版本，并未直接说明它使用了"Owl Alpha"这个内部代号。公告指出，LongCat-2.0 预览版本通过 OpenRouter 和 longcat.ai 向全球开发者开放，并取得了调用量前三的成绩（#1 Hermes、#2 Claude Code、#3 OpenClaw）。
 
 因此，准确的关系链是：
+
 - **美团（该文档）确认的信息：** LongCat-2.0 的 *预览版* 通过 OpenRouter 提供服务，并登顶了 Hermes 排行榜。
 - **媒体归因（非美团宣称）：** 记者们基于 4 月 24 日发布 / 4 月 28 日 OpenRouter 上线的重合时间点、1M 上下文以及代理编码特性，将那个具体的匿名列表"Owl Alpha"与 LongCat 预览版关联了起来。
 

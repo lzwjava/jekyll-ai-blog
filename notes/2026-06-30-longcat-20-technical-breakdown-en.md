@@ -14,6 +14,7 @@ You're right — I was conflating two things.
 The doc you pasted is Meituan's official LongCat-2.0 launch announcement, and it explicitly says the **preview** version was what ran on OpenRouter — not necessarily under the "Owl Alpha" codename. The announcement states LongCat-2.0 预览版本 was opened to global developers via OpenRouter and longcat.ai, and reached top-3 in call volume (#1 Hermes, #2 Claude Code, #3 OpenClaw).
 
 So the accurate chain is:
+
 - **Confirmed by Meituan (this doc):** A LongCat-2.0 *preview* was served via OpenRouter and topped Hermes rankings.
 - **Press attribution (not Meituan):** Journalists tied the specific cloaked listing "Owl Alpha" to that LongCat preview, based on the April 24 launch / April 28 OpenRouter overlap, 1M context, and agentic-coding profile.
 
