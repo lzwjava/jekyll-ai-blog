@@ -57,7 +57,7 @@ Answer:
 ## The Running Analogy is Neurologically Accurate
 
 | Running | Working |
-|---|---|
+| --- | --- |
 | 逃避开始 → 永远无法享受其中 | 逃避开始 → 永远无法达到 flow |
 | 第一公里感觉很糟 | 前 15 分钟感觉很糟 |
 | 身体热身 → 变得容易 | 大脑进入状态 → 变得容易 |
@@ -82,7 +82,7 @@ Answer:
 ## The Core Insight You've Found
 
 | Wrong mental model | Accurate mental model |
-|---|---|
+| --- | --- |
 | “我想做的时候再做” | “开始做之后我就会想做了” |
 | “休息会缓解疲劳” | “Avoidance 制造了疲劳” |
 | “不适意味着停止” | “不适意味着我正处于门槛” |

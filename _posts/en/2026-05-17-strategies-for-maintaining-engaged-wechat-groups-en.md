@@ -22,7 +22,7 @@ You have a rare and valuable asset: 10+ active WeChat groups with a combined ~1,
 Your groups are not homogeneous. Tailor accordingly:
 
 | Group | Audience | Best Content |
-|---|---|---|
+| --- | --- | --- |
 | **AI · Truth** | ~300 mixed (bank, AI, etc.) | Career moves, AI trends, personal updates |
 | **AI · Fun Live 1** | Classmates, early believers | Personal storytelling, milestones, warmth |
 | **AI · Fun Live 2–10** | iOS/Android/ML engineers | Technical depth, LLM experiments, job tips |
@@ -87,7 +87,7 @@ Your WeChat groups are private and ephemeral. To amplify reach long-term:
 ## Summary
 
 | Goal | Action |
-|---|---|
+| --- | --- |
 | Share AI direction | Weekly micro-insight from blog or experiment |
 | Promote job search | Share link once with personal framing, then follow up with updates |
 | Keep groups alive | 2–4x/week cadence, consistent themes, occasional questions |

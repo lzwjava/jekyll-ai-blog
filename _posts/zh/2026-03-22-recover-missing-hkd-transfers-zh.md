@@ -73,7 +73,7 @@ HSBC HK 表示，转账进一步协助需联系客户热线，团队将根据具
 由于 OCBC 已关闭大陆中国护照用户的开户渠道，您的实际选项是：
 
 | 选项 | 详情 |
-|---|---|
+| --- | --- |
 | **如果符合资格，保留 OCBC** | 仅可能如果您有有效的 Singapore work/study visa，或升级为需 SGD 350,000 存款的特权账户 |
 | **切换至 HSBC SG** | HSBC、Standard Chartered、DBS、UOB 是替代选项，但入门要求更高 |
 | **以 HSBC HK 为基地** | HSBC HK 已适合国际转账和 FX |

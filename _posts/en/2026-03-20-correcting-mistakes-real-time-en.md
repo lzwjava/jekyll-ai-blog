@@ -52,7 +52,7 @@ Behavioral change requires **effortful correction at the point of failure**. The
 This applies far beyond typing:
 
 | Shortcut behavior | What it actually trains |
-|---|---|
+| --- | --- |
 | Editing instead of retyping | Comfort with imprecision |
 | Apologizing but repeating the same mistake | Social patching, not change |
 | Explaining away a bad decision | Rationalization, not judgment |

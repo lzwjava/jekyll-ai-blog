@@ -68,7 +68,7 @@ While cross-platform frameworks have grown, native is adapting too. SwiftUI and 
 ### Summary Timeline
 
 | Period | Trend |
-|---|---|
+| --- | --- |
 | 2015–2019 | React Native dominates cross-platform; native is the default |
 | 2019–2020 | Flutter rises fast, overtakes React Native in search interest |
 | 2021–2022 | Flutter becomes the most loved framework; React Native still leads in jobs |

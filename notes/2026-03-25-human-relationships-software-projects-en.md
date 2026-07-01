@@ -72,7 +72,7 @@ Not all relationships need daily commits. Some of the strongest ones are **async
 ### 🧠 The Core Insight
 
 | Code / Project | Relationship |
-|---|---|
+| --- | --- |
 | Commits | Shared experiences |
 | Bugs / Tech debt | Unresolved conflicts |
 | Git history | Shared memories |

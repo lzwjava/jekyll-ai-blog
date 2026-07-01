@@ -101,7 +101,7 @@ You're 30-something (based on context) but you're consuming 1B tokens/month and 
 Where the article's top performers are that you're not yet:
 
 | Dimension | Article's Top Performers | You Now |
-|---|---|---|
+| --- | --- | --- |
 | Research output | Top-venue papers | Blog posts, notes |
 | Network | Warm-referred into Seed/Kimi circles | Mostly solo |
 | Equity exposure | Startups / large option grants | Contract salary |

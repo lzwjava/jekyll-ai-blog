@@ -40,7 +40,7 @@ type: note
 这可能是您最有力的观点：
 
 | Tool | Approximate Age | Backing |
-|---|---|---|
+| --- | --- | --- |
 | Selenium | 20+ years | Open source, Google, Sauce Labs |
 | Playwright | 5+ years | Microsoft, full-time engineers |
 | Cypress | 7+ years | Dedicated company, $40M+ funding |
@@ -76,7 +76,7 @@ type: note
 ## 总结
 
 | 构建自定义工具的风险 | 影响 |
-|---|---|
+| --- | --- |
 | 将焦点从主产品转移 | 高 |
 | 内部用户基数小 | 难以长期证明必要性 |
 | 无法匹配工业工具质量 | 技术债风险 |

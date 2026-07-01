@@ -263,7 +263,7 @@ runpodctl doctor              # diagnose and fix issues
 ### Summary Table
 
 | Category | Commands |
-|---|---|
+| --- | --- |
 | Pod lifecycle | `pod list`, `pod get`, `pod create`, `pod start`, `pod stop`, `pod delete` |
 | Serverless | `serverless list/get/create/update/delete` |
 | File transfer | `send`, `receive` |

@@ -93,7 +93,7 @@ And the top career regret among long-tenured employees? For more than ten consec
 ## Summary
 
 | Force Keeping You | Why It's Powerful |
-|---|---|
+| --- | --- |
 | Relationships | Years of trust, friendship, political capital |
 | Identity | Title and role become part of who you are |
 | Financial | Unvested stock, bonuses, seniority perks |

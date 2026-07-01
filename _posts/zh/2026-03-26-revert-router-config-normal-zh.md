@@ -30,7 +30,7 @@ type: note
 对你列出的所有配置区域运行了全面审核。结果如下：
 
 | Component | Status |
-|---|---|
+| --- | --- |
 | IP forwarding | **Enabled** — 包括运行时 (`/proc/sys/net/ipv4/ip_forward = 1`) 和持久化配置 (`/etc/sysctl.conf`) |
 | dnsmasq | **Active** — 使用 `/etc/dnsmasq.d/usb-lan.conf` 在 `enx00e04c362f89` 上提供 DHCP (192.168.201.50–150) |
 | Clash | **Running** — PID 12975, TPROXY 模式下的 `clash-meta` |

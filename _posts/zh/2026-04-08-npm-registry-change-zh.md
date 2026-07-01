@@ -133,7 +133,7 @@ registry=https://new-registry.company.com
 ## 5. 总结：优先级顺序（优先级高的胜出）
 
 | 优先级（高→低） | 来源 |
-|----------|--------|
+| ---------- | -------- |
 | 1（最高） | `package-lock.json` 中的 `resolved` 网址 |
 | 2 | 项目目录中的 `.npmrc` |
 | 3 | `--registry` 命令行标志 |

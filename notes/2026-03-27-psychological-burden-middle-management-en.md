@@ -74,7 +74,7 @@ In practical terms: managers who feel fraudulent become less innovative, less wi
 ## 7. The Psychological Consequences Summarized
 
 | Psychological Effect | What It Looks Like |
-|---|---|
+| --- | --- |
 | **Identity erosion** | "I don't know who I am if I'm not building things" |
 | **Imposter syndrome** | "I'm just talking — anyone could do this" |
 | **Chronic anxiety** | Constant worry about invisible performance |

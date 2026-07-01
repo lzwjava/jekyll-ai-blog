@@ -84,7 +84,7 @@ module_exit(hello_exit);
 使用以下命令（来自 `kmod` 包；如果需要，请安装：在 RHEL 上使用 `sudo yum install kmod` 或在 Ubuntu 上使用 `sudo apt install kmod`）。
 
 | 操作 | 命令 | 描述/示例 |
-|--------|---------|---------------------|
+| -------- | --------- | --------------------- |
 | **列出已加载模块** | `lsmod` | 显示名称、大小、使用计数和依赖项。<br>示例：`lsmod \| grep bluetooth`（过滤蓝牙模块）。 |
 | **模块信息** | `modinfo <name>` | 详细信息，如版本、描述。<br>示例：`modinfo e1000e`（用于 Intel 网络驱动程序）。 |
 | **加载模块** | `sudo modprobe <name>` | 加载模块及其依赖项（优于 `insmod`，后者需要完整路径）。<br>示例：`sudo modprobe serio_raw`（原始串行输入）。 |

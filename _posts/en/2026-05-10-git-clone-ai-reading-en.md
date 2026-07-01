@@ -62,7 +62,7 @@ Claude Code will **read the real source**, find the actual argument parser (e.g.
 ## Why This Is Superior
 
 | Method | Accuracy | Up-to-date | Citable Source |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask chatbot | ❌ May hallucinate | ❌ Training cutoff | ❌ No |
 | Read docs | ⚠️ Often outdated | ⚠️ Sometimes | ⚠️ Partial |
 | **Git clone + CC** | ✅ Exact | ✅ Always current | ✅ Line-level |

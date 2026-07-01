@@ -22,7 +22,7 @@ This is a **B2B industrial sales automation pipeline**, likely designed for a no
 ## 🔧 Tech Stack Overview
 
 | Tool | Role |
-|---|---|
+| --- | --- |
 | **Make.com** | Automation backbone / workflow orchestrator |
 | **Dify** | AI brain — RAG-powered knowledge base + LLM responses |
 | **WhatsApp API** | Private channel for 1-on-1 client communication |
@@ -112,7 +112,7 @@ This is the **most critical handoff point**. The AI monitors conversation signal
 ### Three Trigger Conditions
 
 | Trigger Type | Signal | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | **Keyword Trigger** | "Price list", "Quotation", "PI", "Contract" | Customer is ready to buy |
 | **Round Count Trigger** | 5–8 back-and-forth exchanges | High engagement = high intent |
 | **Intent Signal** | Customer shares email or installation address | Serious project in motion |
@@ -168,7 +168,7 @@ Make.com fires an **urgent alert** to the salesperson via WeChat / DingTalk / SM
 ## 💡 Key Business Value
 
 | Benefit | Detail |
-|---|---|
+| --- | --- |
 | **24/7 coverage** | Never miss a lead due to time zone differences |
 | **Scalability** | One system handles hundreds of inquiries simultaneously |
 | **Lead quality** | Only warm, pre-qualified leads reach human salespeople |

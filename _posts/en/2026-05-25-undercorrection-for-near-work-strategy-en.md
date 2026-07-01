@@ -71,7 +71,7 @@ For someone who has had stable myopia for years, item 2 (pseudomyopia/ciliary sp
 **Yes, the ergonomic logic is solid regardless of whether you believe in reversal:**
 
 | Context | Correction | Rationale |
-|---|---|---|
+| --- | --- | --- |
 | Driving / cinema / distance | Full Rx | Legal requirement, safety |
 | Phone / computer (40-70cm) | -1.25 to -1.75D less | Reduces strain, no overcorrection at near |
 

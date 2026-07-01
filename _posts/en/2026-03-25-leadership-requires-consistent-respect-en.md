@@ -55,7 +55,7 @@ This is **management by fear or order**, not leadership. Real leadership means:
 Great founders and leaders — people like Satya Nadella or the late Yvon Chouinard (Patagonia) — are recognized for treating **everyone** with consistent respect:
 
 | Behavior | Bad Leader | Good Leader |
-|---|---|---|
+| --- | --- | --- |
 | To investors | Charming, attentive | Honest, transparent |
 | To users/customers | Warm, responsive | Genuinely caring |
 | To employees | Cold, dismissive, threatening | Respectful, empowering |

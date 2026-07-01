@@ -60,7 +60,7 @@ After a year, **you've lived inside their decisions.** You've cursed them, respe
 ### Why It's Especially Powerful in Big Corporations
 
 | Context | Why It Matters |
-|---|---|
+| --- | --- |
 | Large orgs are impersonal | History-based outreach is personal by default |
 | Long-tenured people hold tribal knowledge | They know the *why*, not just the *what* |
 | Legacy code is often underdocumented | They're the living documentation |

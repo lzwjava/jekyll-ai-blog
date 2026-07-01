@@ -141,7 +141,7 @@ Karate DSL 与 Gatling framework 有很好的集成，用于 performance 和 loa
 ## 总结表格
 
 | 特性 | Karate DSL |
-|---|---|
+| --- | --- |
 | 语言 | Gherkin-style DSL（无需 Java） |
 | API 测试 | ✅ 内置 HTTP client |
 | Mocking | ✅ 内置 API mocks |

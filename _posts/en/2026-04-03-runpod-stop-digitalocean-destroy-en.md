@@ -22,7 +22,7 @@ Yes, **RunPod Stop is significantly more convenient than DigitalOcean Destroy** 
 RunPod has two distinct actions:
 
 | Action | What happens |
-|---|---|
+| --- | --- |
 | **Stop** | Pod is paused. GPU billing stops. Disk stays alive. Data in `/workspace` is preserved. |
 | **Terminate** | Everything is destroyed. Container disk is wiped permanently. |
 
@@ -54,7 +54,7 @@ So with DigitalOcean the workflow is:
 ## Side-by-Side Comparison
 
 | Feature | RunPod Stop | DigitalOcean Destroy + Snapshot |
-|---|---|---|
+| --- | --- | --- |
 | **Data preserved automatically** | ✅ Yes (`/workspace`) | ❌ Must manually snapshot first |
 | **Resume speed** | ✅ Fast (same pod restarts) | ❌ Slow (new Droplet from snapshot) |
 | **IP / environment preserved** | ✅ Yes | ❌ Usually loses IP |

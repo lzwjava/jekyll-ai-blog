@@ -150,7 +150,7 @@ https://192.168.1.36:18790
 ## Recommendation Summary
 
 | Option | Difficulty | Browser Warning | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **SSH Tunnel** (`localhost`) | ✅ Easiest | None | Quick access, single user |
 | **Self-signed cert** | 🟡 Medium | Once per browser | Always-on LAN access |
 | **Caddy reverse proxy** | 🟡 Medium | None after CA install | Cleanest setup |

@@ -30,7 +30,7 @@ type: note
 现在估算你服务器的 idle 功耗：
 
 | Component | Idle Power |
-|---|---|
+| --- | --- |
 | i9-13900KF (idle) | ~30–50W |
 | RTX 4070 Ti (idle) | 在真正待机时 ~16–18W |
 | 62 GB RAM + NVMe + motherboard | ~30–40W |

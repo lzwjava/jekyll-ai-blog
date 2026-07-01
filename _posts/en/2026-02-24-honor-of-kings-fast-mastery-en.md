@@ -42,12 +42,12 @@ With over 100 heroes, each falls into a specific class with unique strengths . Y
 
 | Class | Primary Role | Description | Typical Lane |
 | :--- | :--- | :--- | :--- |
-| **Assassin** | Burst Damage | High mobility heroes who excel at diving the backline and eliminating squishy targets.  | Jungle |
-| **Fighter** | Frontline/Bruiser | Balanced offense and defense. They excel in extended fights and disrupting the enemy team.  | Clash Lane |
-| **Mage** | Magic Damage/Control | Ranged casters who provide high burst damage and crowd control (stuns, slows) from a distance.  | Mid Lane |
-| **Marksman** | Physical Damage | The primary damage dealers in the late game. They are fragile early on but become unstoppable with items.  | Farm Lane |
-| **Support** | Protection/Utility | Dedicated to protecting their teammates. They provide heals, shields, and crowd control to set up kills.  | Farm Lane |
-| **Tank** | Damage Absorption | Heroes with high health and defenses. Their job is to initiate fights and soak up damage for the team.  | Clash Lane |
+| **Assassin** | Burst Damage | High mobility heroes who excel at diving the backline and eliminating squishy targets. | Jungle |
+| **Fighter** | Frontline/Bruiser | Balanced offense and defense. They excel in extended fights and disrupting the enemy team. | Clash Lane |
+| **Mage** | Magic Damage/Control | Ranged casters who provide high burst damage and crowd control (stuns, slows) from a distance. | Mid Lane |
+| **Marksman** | Physical Damage | The primary damage dealers in the late game. They are fragile early on but become unstoppable with items. | Farm Lane |
+| **Support** | Protection/Utility | Dedicated to protecting their teammates. They provide heals, shields, and crowd control to set up kills. | Farm Lane |
+| **Tank** | Damage Absorption | Heroes with high health and defenses. Their job is to initiate fights and soak up damage for the team. | Clash Lane |
 
 For beginners, heroes in **Mid Lane** or **Farm Lane** are often recommended, as their roles are more straightforward to grasp .
 

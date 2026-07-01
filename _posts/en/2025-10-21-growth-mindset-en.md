@@ -17,7 +17,7 @@ A growth mindset, popularized by psychologist Carol Dweck, is the belief that ab
 ### Key Techniques to Build a Growth Mindset
 
 | Technique | How to Apply It | Why It Works |
-|-----------|-----------------|--------------|
+| ----------- | ----------------- | -------------- |
 | **Recognize Your Fixed Mindset Triggers** | Pause when facing a challenge and note thoughts like "I'm just not good at this." Label them as "fixed mindset talking" and reframe: "I haven't mastered this *yet*." Journal these moments daily for a week. | Builds self-awareness, interrupting automatic negative patterns and opening space for growth-oriented thinking. |
 | **Embrace Challenges as Opportunities** | When a task feels tough, say "yes" to it deliberately—e.g., tackle a new skill in your hobby or work project. Break it into tiny steps to avoid overwhelm. | Shifts focus from avoidance to excitement, reinforcing that discomfort signals progress, not inadequacy. |
 | **Praise Effort Over Talent** | In self-talk or feedback to others, highlight process: "I improved because I practiced daily" instead of "I'm smart." Track one "effort win" at day's end. | Rewires the brain to value persistence, making sustained effort feel rewarding and reducing fear of failure. |

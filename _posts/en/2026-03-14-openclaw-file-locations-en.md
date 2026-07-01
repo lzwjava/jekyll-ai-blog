@@ -109,7 +109,7 @@ OpenClaw will tell you the exact path it wrote the file to.
 ## Summary of Possible Locations
 
 | Scenario | Path |
-|---|---|
+| --- | --- |
 | Default workspace | `~/.openclaw/workspace/todoapp/index.html` |
 | Saved directly in workspace root | `~/.openclaw/workspace/index.html` |
 | Sandbox enabled | `~/.openclaw/sandboxes/<id>/todoapp/index.html` |

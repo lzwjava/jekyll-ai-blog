@@ -28,7 +28,7 @@ So this is entirely a **relationship management** problem, not a process problem
 ## The Core Tension
 
 | What you want | What your manager fears |
-|---|---|
+| --- | --- |
 | Move to perm in another team | Lose a reliable contractor mid-project |
 | Get their endorsement | Look bad for "losing" you or enabling it |
 | Move fast | They need transition time |
@@ -140,7 +140,7 @@ At banks like HSBC, Citi, StanChart — internal moves are common and HR will of
 ## TL;DR
 
 | Step | Action |
-|---|---|
+| --- | --- |
 | 1 | Qualify the other team opportunity informally first |
 | 2 | Tell your current manager early, frame as growth conversation |
 | 3 | Ask for non-interference + soft reference, not a formal letter |

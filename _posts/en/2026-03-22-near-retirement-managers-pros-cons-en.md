@@ -74,7 +74,7 @@ While not universal, the comfort with existing processes and structures can crea
 You put it well: **young needs to succeed, old needs to be stable**. This fundamental difference in time horizon and motivation is the crux:
 
 | Dimension | Young Manager | Older/Near-Retirement Manager |
-|---|---|---|
+| --- | --- | --- |
 | **Tech adoption** | Eager (career signal) | Cautious (disruption risk) |
 | **Risk appetite** | High | Low |
 | **Team politics** | May be competitive | Usually neutral/stable |

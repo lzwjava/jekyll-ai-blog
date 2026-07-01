@@ -23,7 +23,7 @@ Here is a comparison of the two methods you described:
 | **Formula** | \\(A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)\\) where \\(\text{adj}(A) = (\text{cof}(A))^T\\) | \\([A | I] \xrightarrow{\text{row operations}} [I | A^{-1}]\\) |
 | **Steps** | 1. Calculate the **determinant** of \\(A\\). 2. Calculate the \\(3 \times 3\\) **cofactor matrix**. 3. Take the **transpose** of the cofactor matrix to get the **adjugate** matrix. 4. Multiply the adjugate matrix by \\(1/\det(A)\\). | 1. Form the **augmented matrix** \\([A | I]\\). 2. Apply elementary **row operations** to transform \\(A\\) into the identity matrix \\(I\\). 3. The matrix that results on the right side is the inverse, \\(A^{-1}\\). |
 | **Simplicity** | **Conceptually simple** but **computationally complex** (many calculations needed). | **Computationally simpler** for larger matrices; conceptually depends on understanding row operations. |
-| **Applicability**| Directly provides a formula for all \\(n \times n\\) matrices (though tedious for \\(n>3\\)). | The **standard method** for computer algorithms and for matrices of size \\(n \geq 3\\). |
+| **Applicability** | Directly provides a formula for all \\(n \times n\\) matrices (though tedious for \\(n>3\\)). | The **standard method** for computer algorithms and for matrices of size \\(n \geq 3\\). |
 | **Error Prone** | **Highly error prone** for manual calculation due to calculating 1 determinant and 9 cofactors (each involving a \\(2 \times 2\\) determinant). | Less error-prone than cofactors for \\(3 \times 3\\), as row operations can be systematically checked. |
 
 ---

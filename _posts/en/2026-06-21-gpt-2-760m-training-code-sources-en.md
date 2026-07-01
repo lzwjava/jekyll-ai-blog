@@ -125,7 +125,7 @@ For multi-GPU on MI300X (it has 192GB HBM3 so you can fit this easily on 1 GPU):
 ## Data options (better than OpenWebText)
 
 | Dataset | Size | HF path |
-|---------|------|---------|
+| --------- | ------ | --------- |
 | FineWeb | 15T tokens | `HuggingFaceFW/fineweb` |
 | FineWeb-Edu | 1.3T edu tokens | `HuggingFaceFW/fineweb-edu` |
 | OpenWebText | ~9B tokens | local via nanoGPT prepare script |
@@ -138,7 +138,7 @@ FineWeb-Edu is the current best for a GPT-2 style language model if you want str
 ## Summary
 
 | Repo | Best for |
-|------|---------|
+| ------ | --------- |
 | `karpathy/nanoGPT` | Learning, clean 760M training, single node |
 | `ROCm/Megatron-LM` | Production, multi-node, tensor parallelism on MI300X |
 | `Lightning-AI/litgpt` | Clean multi-model, LoRA, less boilerplate |

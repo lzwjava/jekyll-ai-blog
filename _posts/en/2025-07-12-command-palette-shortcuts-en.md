@@ -9,7 +9,7 @@ type: note
 ---
 
 | # | Command Palette Name | Description | Default Shortcut (Windows/Linux) |
-|---|----------------------|-------------|----------------------------------|
+| --- | ---------------------- | ------------- | ---------------------------------- |
 | 1 | Go to File... | Quickly open a file by typing its name | Ctrl + P |
 | 2 | Go to Symbol in Editor... | Navigate to symbols (functions, variables) in the current file | Ctrl + Shift + O |
 | 3 | Go to Symbol in Workspace... | Navigate to symbols across the entire workspace | Ctrl + T |

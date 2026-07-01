@@ -43,12 +43,12 @@ The work ends with the repeated image of the枣树 (jujube tree) still standing 
 
 ### Core Themes & Symbols
 
-| Symbol          | Common Interpretation                          | Emotional tone          |
-|-----------------|------------------------------------------------|--------------------------|
+| Symbol | Common Interpretation | Emotional tone |
+| ----------------- | ------------------------------------------------ | -------------------------- |
 | 小枣树 (small jujube tree) | The lonely, injured, yet unyielding individual / progressive intellectuals / Lu Xun himself | Defiant · Tragic · Stubborn |
 | 夜空 / 星星 (night sky & stars) | Indifferent nature, cold society, distant ideals, oppressive tradition | Beautiful but cruel · Alienating |
-| 秋夜 (autumn night)     | Loneliness, desolation, the end of vitality, existential solitude | Melancholy · Cold · Heavy |
-| 剩余的果实 (remaining fruit) | Small hope, last resistance, or futile persistence | Bittersweet             |
+| 秋夜 (autumn night) | Loneliness, desolation, the end of vitality, existential solitude | Melancholy · Cold · Heavy |
+| 剩余的果实 (remaining fruit) | Small hope, last resistance, or futile persistence | Bittersweet |
 
 ### Why It Is So Famous
 

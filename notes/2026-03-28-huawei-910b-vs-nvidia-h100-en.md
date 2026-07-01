@@ -18,7 +18,7 @@ Answer:
 First, let's clarify the numbers you mentioned:
 
 | Chip | FP16 TFLOPS | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Huawei Ascend 910B** | ~320–600 TFLOPS | Huawei doesn't publish official specs; estimates vary widely |
 | **NVIDIA H100** | ~989 TFLOPS (SXM5) | Official NVIDIA spec |
 | **RTX 4070** | ~58.2 TFLOPS | Your server's GPU |
@@ -46,7 +46,7 @@ In plain terms:
 Using **raw FP16 TFLOPS** (theoretical peak):
 
 | Target | TFLOPS needed | RTX 4070 FP16 | Cards needed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Match H100 (~989 TFLOPS FP16) | 989 | 58.2 | **~17 cards** |
 | Match 910B (~320 TFLOPS) | 320 | 58.2 | **~6 cards** |
 | Match 910B (~600 TFLOPS) | 600 | 58.2 | **~11 cards** |
@@ -67,7 +67,7 @@ So: **≈17 RTX 4070s ≈ 1 H100** on pure TFLOPS paper math.
 ## Summary
 
 | Metric | 910B vs H100 | 4070 vs H100 |
-|---|---|---|
+| --- | --- | --- |
 | Raw FP16 | ~33–60% of H100 | ~6% of H100 |
 | Real-world LLM training | ~33–66% of H100 | Not comparable (VRAM limited) |
 | Cards to match H100 (paper) | ~2–3x 910Bs | ~17 RTX 4070s |

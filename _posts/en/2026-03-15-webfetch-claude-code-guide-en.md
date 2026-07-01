@@ -22,7 +22,7 @@ The `WebFetch` tool is a built-in Claude Code tool that allows Claude to **retri
 ### What It Does
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | **Input** | A URL + a prompt describing what to extract |
 | **Process** | Fetches the URL, converts HTML → Markdown, then runs your prompt against the content using a small/fast model |
 | **Output** | The model's response about the page content |

@@ -22,7 +22,7 @@ type: note
 ### 🏆 最佳推荐：**`workit`**
 
 | 项目 | 值 |
-|---|---|
+| --- | --- |
 | Repo name | `workit` |
 | CLI command | `workit` |
 | Usage | `workit note`, `workit git`, `workit pdf` |
@@ -40,7 +40,7 @@ type: note
 ### 其他强力候选
 
 | 名称 | Repo | CLI 用法 | 备注 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **toolkit** | `toolkit` | `tk note`, `tk git` | 过于通用，可能冲突 |
 | **worklit** | `worklit` | `worklit note` | 不错，但发音略显awkward |
 | **devkit** | `devkit` | `devkit note` | 以开发为重点，略微过度使用 |

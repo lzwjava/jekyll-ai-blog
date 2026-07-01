@@ -53,7 +53,7 @@ Extensions like "Post Translator for Twitter X" can automatically detect the ori
 ## Summary
 
 | Content Type | Auto-Translated? |
-|---|---|
+| --- | --- |
 | Reposter's own comment | ✅ Yes (usually) |
 | Embedded original Chinese post | ❌ Often skipped |
 

@@ -104,7 +104,7 @@ thread2.run(() -> sbf.append("B")); // Thread-safe
 ## **Summary Table**
 
 | Aspect | StringBuffer | StringBuilder |
-|--------|-------------|---------------|
+| -------- | ------------- | --------------- |
 | Speed | Slower | Faster |
 | Thread-Safe | Yes | No |
 | Since | Java 1.0 | Java 5 |

@@ -26,7 +26,7 @@ type: note
 ## 🧠 人类为什么创建这种划分
 
 | 原因 | 现实 |
-|---|---|
+| --- | --- |
 | 人类专业化是因为学习需要数年 | Agents 可以瞬间切换上下文 |
 | 测试者和开发者有不同的心态 | 一个 agent 可以同时持有两种心态 |
 | 分离可以防止利益冲突 | Agents 没有自我或政治因素 |
@@ -84,7 +84,7 @@ Task → Agent → Done
 ## 🏆 正确的划分不是按角色——而是按任务
 
 | 错误的划分 | 正确的划分 |
-|---|---|
+| --- | --- |
 | Dev Agent vs Test Agent | Task A vs Task B vs Task C |
 | Frontend Agent vs Backend Agent | Feature 1 vs Feature 2 |
 | QA Agent vs Build Agent | PR #1 vs PR #2 |

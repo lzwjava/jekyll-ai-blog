@@ -58,9 +58,9 @@ The configuration you've shared appears to be a routing setup for directing diff
 
 ### 🔍 **Suggestions by Use Case**
 
-| Purpose        | Recommended Model |
-|---------------|-------------------|
-| **Default**     | `qwen/qwen3-coder` ✅ (great for code + general tasks) |
+| Purpose | Recommended Model |
+| --------------- | ------------------- |
+| **Default** | `qwen/qwen3-coder` ✅ (great for code + general tasks) |
 | **Background / Low Priority** | `google/gemini-2.5-flash-lite` or `mistralai/mistral-tiny` (cheaper, faster) |
 | **Reasoning / Think** | `deepseek-chat` or `claude-3-haiku` (better reasoning benchmarks) |
 | **Long Context (>64K)** | `anthropic/claude-3-7-sonnet` or `yi-large` (more reliable than Gemini) |

@@ -35,7 +35,7 @@ This is sometimes called a **"post-task debrief"** pattern in agent prompting â€
 ### ðŸ“‹ What You Get From This Approach
 
 | Benefit | Description |
-|---|---|
+| --- | --- |
 | **Transparency** | You see *what* the agent did, not just the result |
 | **Auditability** | You can verify the steps were correct |
 | **Documentation** | The review itself becomes a reusable record |

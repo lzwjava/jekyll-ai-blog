@@ -60,7 +60,7 @@ Answer:
 ### Why It's Especially Powerful in Big Corporations
 
 | Context | Why It Matters |
-|---|---|
+| --- | --- |
 | Large orgs 往往没有人情味 | 基于历史的触达天生具有个人色彩 |
 | 资深员工掌握着部落知识 (tribal knowledge) | 他们知道 *why*，而不只是 *what* |
 | Legacy code 往往文档不足 | 他们就是活着的文档 |

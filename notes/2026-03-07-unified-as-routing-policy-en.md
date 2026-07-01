@@ -40,7 +40,7 @@ This "single/unified" routing policy is what the AS advertises to other ASes via
 ### Why is this important?
 
 | Aspect | Internal (Inside AS) | External (To other ASes) |
-|---|---|---|
+| --- | --- | --- |
 | Routing Protocol | Multiple IGPs (OSPF, RIP, EIGRP…) | Single EGP (BGP) |
 | Routing Policy | Can vary by region/department | One unified policy |
 | Metrics | Different per protocol | Abstracted into BGP attributes |

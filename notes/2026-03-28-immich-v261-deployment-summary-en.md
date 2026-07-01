@@ -14,7 +14,7 @@ Immich v2.6.1 is live and responding. Here's the rundown:
 **✅ Running — `http://192.168.1.36:2283`**
 
 | Container | Status |
-|---|---|
+| --- | --- |
 | immich_server | Starting up |
 | immich_postgres | Healthy ✅ |
 | immich_redis | Starting |

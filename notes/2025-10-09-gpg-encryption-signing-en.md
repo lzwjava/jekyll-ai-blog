@@ -55,7 +55,7 @@ You're mixing a couple of concepts here—GPG (GNU Privacy Guard) can do **encry
 #### Key Differences and Your Questions
 
 | Feature | Encryption (Password) | Encryption (Public Key) | Signing |
-|---------|-----------------------|--------------------------|---------|
+| --------- | ----------------------- | -------------------------- | --------- |
 | **Uses Passphrase?** | Yes, for symmetric key | No (uses recipient's public key) | Yes, to unlock your private key |
 | **Involves Your Name/Email?** | No | Indirectly (via your key for decryption response) | Yes, embedded in signature |
 | **Output** | `.gpg` file (encrypted data) | `.gpg` file (encrypted data) | `.sig` or embedded in `.gpg` (signature value) |

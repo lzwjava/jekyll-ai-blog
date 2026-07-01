@@ -29,7 +29,7 @@ First, I inspected the entire codebase to understand the extension:
 **Identified Chrome-only APIs:**
 
 | API | Found In | Issue |
-|---|---|---|
+| --- | --- | --- |
 | `chrome.storage.sync` | `settings.js` (lines 19, 67) | Not supported in Safari — must be `chrome.storage.local` |
 | `chrome.extension.getBackgroundPage()` | `popup.js` (line 2) | Works in Safari ✓ |
 | `chrome.tabs.*`, `chrome.windows.*` | `tabmanager.js` | Fully supported in Safari Web Extensions ✓ |
@@ -101,7 +101,7 @@ xcrun safari-web-extension-converter safari-tabs-killer \
 **Flag rationale:**
 
 | Flag | Why |
-|---|---|
+| --- | --- |
 | `--app-name "TabsKiller"` | Names the macOS app wrapper |
 | `--bundle-identifier "com.lzw.tabskiller"` | Reverse-domain ID for code signing |
 | `--macos-only` | Only generate macOS target (not iOS/iPadOS) |
@@ -132,7 +132,7 @@ error: Embedded binary's bundle identifier is not prefixed with the parent app's
 **Root cause:** The converter set different bundle identifiers with mismatched case:
 
 | Target | Bundle ID |
-|---|---|
+| --- | --- |
 | Host app | `com.lzw.TabsKiller` |
 | Extension | `com.lzw.tabskiller.Extension` |
 

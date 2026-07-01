@@ -39,7 +39,7 @@ This lets Claude Code inspect the app bundle, check versions, read config files,
 Common reasons the QR code won't load or scan:
 
 | Cause | Details |
-|---|---|
+| --- | --- |
 | **Network/Proxy issue** | WhatsApp Web QR requires outbound WebSocket connections |
 | **Outdated app version** | Old WhatsApp versions get blocked by Meta's servers |
 | **Corrupted app bundle** | Missing or damaged files inside `.app` |

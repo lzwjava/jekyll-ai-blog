@@ -27,7 +27,7 @@ Java projects do support pre-commit hooks, but the approach is different from Py
 ## Tool Comparison: Spotless vs Checkstyle
 
 | | Spotless | Checkstyle |
-|---|---|---|
+| --- | --- | --- |
 | **Purpose** | **Formatter** — auto-fixes code style | **Linter** — checks rules, reports violations |
 | **Auto-fix** | Yes (`spotless:apply`) | No (check only) |
 | **Scope** | Java, XML, YAML, JSON, SQL, etc. | Java only |
@@ -227,7 +227,7 @@ jobs:
 ## Summary: Which Approach to Use?
 
 | Scenario | Recommended Approach |
-|---|---|
+| --- | --- |
 | Maven-only team | Approach 3 (git-build-hook in pom.xml) |
 | Mixed language repo (Java + Python/JS) | Approach 1 (`.pre-commit-config.yaml`) |
 | Want Checkstyle without Maven wrapper | Approach 2 (Docker-based hook) |

@@ -64,7 +64,7 @@ The hottest repos right now by stars:
 ## What to Study as an AI Engineer
 
 | Repo | Why it matters |
-|------|---------------|
+| ------ | --------------- |
 | `nano-claude-code` | Clean Python agent loop — read the source top-to-bottom |
 | Leaked TypeScript source | See the actual system prompts, tool schemas, self-healing mechanisms |
 | `ruvnet/open-claude-code` | Production-quality clean-room; good reference for MCP transport impl |

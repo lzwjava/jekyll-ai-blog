@@ -44,7 +44,7 @@ Hardware requirements are minimal — runs on anything with Node.js 20+.
 ### Key Features Relevant to You as an AI Engineer
 
 | Feature | What it does |
-|---|---|
+| --- | --- |
 | **Multi-backend routing** | Switch between OpenAI, Claude, local llama.cpp, Ollama, etc. in one UI |
 | **WorldInfo / Lorebooks** | Structured context injection — basically RAG via keyword-triggered text chunks |
 | **Prompt templates** | Full control over system prompt, character cards, and injection order |

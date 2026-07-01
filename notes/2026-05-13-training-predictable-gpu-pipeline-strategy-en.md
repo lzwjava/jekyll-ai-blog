@@ -94,7 +94,7 @@ This is a legitimate cost optimization strategy used by many independent researc
 ## Summary
 
 | Insight | Correct? |
-|---|---|
+| --- | --- |
 | Training time is precisely predictable | ✅ Yes |
 | 4070 faster than 3090 for compute efficiency | ✅ Yes |
 | 3090 better for VRAM-heavy tasks | ✅ Yes |

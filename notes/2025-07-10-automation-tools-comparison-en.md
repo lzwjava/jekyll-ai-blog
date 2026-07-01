@@ -95,18 +95,18 @@ Here's a comparison:
 
 ## Summary Comparison Table
 
-| Feature            | Makefile                               | Python Script                          | Bash Script                            |
+| Feature | Makefile | Python Script | Bash Script |
 | :----------------- | :------------------------------------- | :------------------------------------- | :------------------------------------- |
-| **Primary Use** | Build automation, dependency tracking  | General-purpose automation, complex tasks | System administration, CLI orchestration |
-| **Paradigm** | Declarative (dependency-driven)        | Imperative, Object-Oriented, Functional | Imperative                             |
-| **Syntax** | Unique, tab-sensitive, can be cryptic  | Readable, clean, explicit              | Concise for simple tasks, cryptic for complex |
-| **Complexity** | Good for complex *builds*, poor for logic | Excellent for complex *logic* | Good for simple, linear tasks          |
-| **Dependencies** | `make` utility                           | Python interpreter + libraries         | Bash shell + system utilities          |
-| **Portability** | Unix-like (requires `make`)            | Highly cross-platform                  | Unix-like (limited on Windows natively) |
-| **Error Handling** | Basic, often exits on first error      | Robust with `try-except` blocks        | Primitive, requires manual checks      |
-| **Debugging** | Can be difficult                       | Excellent with debuggers               | Challenging for complex scripts        |
-| **Learning Curve** | Moderate to High                       | Moderate                               | Low for simple, High for complex       |
-| **Performance** | Efficient due to incremental builds    | Generally good, can be slow for simple CLI ops | Fast for simple CLI ops, can be slow with subprocesses |
+| **Primary Use** | Build automation, dependency tracking | General-purpose automation, complex tasks | System administration, CLI orchestration |
+| **Paradigm** | Declarative (dependency-driven) | Imperative, Object-Oriented, Functional | Imperative |
+| **Syntax** | Unique, tab-sensitive, can be cryptic | Readable, clean, explicit | Concise for simple tasks, cryptic for complex |
+| **Complexity** | Good for complex *builds*, poor for logic | Excellent for complex *logic* | Good for simple, linear tasks |
+| **Dependencies** | `make` utility | Python interpreter + libraries | Bash shell + system utilities |
+| **Portability** | Unix-like (requires `make`) | Highly cross-platform | Unix-like (limited on Windows natively) |
+| **Error Handling** | Basic, often exits on first error | Robust with `try-except` blocks | Primitive, requires manual checks |
+| **Debugging** | Can be difficult | Excellent with debuggers | Challenging for complex scripts |
+| **Learning Curve** | Moderate to High | Moderate | Low for simple, High for complex |
+| **Performance** | Efficient due to incremental builds | Generally good, can be slow for simple CLI ops | Fast for simple CLI ops, can be slow with subprocesses |
 
 **Conclusion:**
 

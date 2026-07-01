@@ -26,7 +26,7 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 使用 CLI 生成新 Angular 项目时，通常会得到 **三个 tsconfig 文件**：
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `tsconfig.json` | 整个项目的根/基础配置 |
 | `tsconfig.app.json` | 构建应用程序时使用的配置 |
 | `tsconfig.spec.json` | 运行单元测试时使用的配置 |
@@ -72,7 +72,7 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 关键选项说明：
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `target` | 编译成的 JavaScript 版本（例如 `es2020`） |
 | `module` | 模块格式；Angular 通过 `esnext` 受益于 tree-shaking |
 | `moduleResolution` | 模块解析方式；使用 `node` 以匹配 Node.js 行为 |
@@ -108,7 +108,7 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 此部分是 **Angular 专属** 的，用于控制 Angular 模板编译器（Ivy）。重要选项包括：
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `strictInjectionParameters` | 强制执行正确的注入参数类型 |
 | `strictInputAccessModifiers` | 验证输入绑定访问修饰符 |
 | `fullTemplateTypeCheck` | 在 HTML 模板中启用类型检查（在 Angular 13+ 中已弃用） |

@@ -68,7 +68,7 @@ replacement grip（直接贴在手柄上的基层）背面有胶水粘在手柄�
 ## 5. 从这次经历中获得的更广泛的人生教训
 
 | 教训 | 解释 |
-|---|---|
+| --- | --- |
 | **Root cause analysis** | 真正问题是表面准备不当，而不是坏的握把产品 |
 | **Trial and error leads to knowledge** | 你通过直接实验发现热量重新激活胶水 |
 | **Simple tools can solve complex problems** | 打火机修复了单纯重新包裹无法解决的问题 |

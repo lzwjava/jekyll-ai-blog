@@ -83,7 +83,7 @@ A home server on an old laptop can run: a NAS for file storage, network-wide ad 
 Popular lightweight deployments via **Docker** (highly recommended):
 
 | Service | Purpose |
-|---|---|
+| --- | --- |
 | **Nginx / Caddy** | Web server / reverse proxy |
 | **Pi-hole / AdGuard Home** | Network-wide ad blocker |
 | **Jellyfin** | Media server |

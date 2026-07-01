@@ -27,7 +27,7 @@ Java 项目支持 pre-commit hooks，但方法与 Python/Node 项目不同。由
 ## 工具比较：Spotless 与 Checkstyle
 
 | | Spotless | Checkstyle |
-|---|---|---|
+| --- | --- | --- |
 | **用途** | **Formatter** — 自动修复代码风格 | **Linter** — 检查规则，报告违规 |
 | **自动修复** | 是 (`spotless:apply`) | 否（仅检查） |
 | **范围** | Java、XML、YAML、JSON、SQL 等 | 仅 Java |
@@ -227,7 +227,7 @@ jobs:
 ## 总结：使用哪种方法？
 
 | 场景 | 推荐方法 |
-|---|---|
+| --- | --- |
 | 仅 Maven 团队 | 方法 3（pom.xml 中的 git-build-hook） |
 | 混合语言仓库（Java + Python/JS） | 方法 1（`.pre-commit-config.yaml`） |
 | 希望无需 Maven 包装器使用 Checkstyle | 方法 2（基于 Docker 的 hook） |

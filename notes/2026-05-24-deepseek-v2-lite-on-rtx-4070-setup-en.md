@@ -80,7 +80,7 @@ python3.11 run_lite.py -p "Hello! Who are you?"
 ```
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | Loading time | ~2.5 min (4 shards, 37s each) |
 | GPU memory | 9.5 GB used (of 11.6 GB available) |
 | Response | "I am an AI language model, here to assist you with information, questions, or tasks you have." |
@@ -88,7 +88,7 @@ python3.11 run_lite.py -p "Hello! Who are you?"
 ## Final State
 
 | Item | Value |
-|------|-------|
+| ------ | ------- |
 | Model | `/mnt/data/models/DeepSeek-V2-Lite-Chat/` (30GB on disk) |
 | Script | `/mnt/data/deepseek-v4-inference/run_lite.py` |
 | VRAM usage | 9.5 GB / 11.6 GB (82%) |

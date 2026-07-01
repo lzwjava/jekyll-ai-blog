@@ -62,7 +62,7 @@ Undercorrection 是指故意制造比最佳视觉矫正要求更弱的眼镜。�
 ### 总结表格
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | "150 degree reduction" | Weaken the lens by 1.50 D |
 | Sign of the reduction amount | +1.50 D (added to the negative lens) |
 | Final lens type | Still **negative/minus** (for myopia) |

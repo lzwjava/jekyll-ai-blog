@@ -57,7 +57,7 @@ print(json.dumps(probe_pod_network(), indent=2))
 ## Cost Estimate
 
 | Scale | Pods | Cost | Signal |
-|-------|------|------|--------|
+| ------- | ------ | ------ | -------- |
 | Quick sample | 20 pods × $0.20/hr × 5min | ~$0.35 | ASN distribution |
 | Decent dataset | 100 pods | ~$1.70 | Contributor clusters |
 | Real picture | 500 pods | ~$8 | Geographic density map |

@@ -33,7 +33,7 @@ Transferring funds **from Interactive Brokers (IBKR) to Wise** (often called a w
 ### Fees Breakdown (Approximate, as of 2025)
 
 | Transfer Type | IBKR Fee | Wise Fee | Total Example (USD to Wise USD) | Notes |
-|---------------|----------|----------|---------------------------------|-------|
+| --------------- | ---------- | ---------- | --------------------------------- | ------- |
 | **First Monthly Withdrawal** | $0 | $0.39–$1.27 fixed | ~$1 | Free IBKR slot; Wise handles FX if needed (~0.5% total). |
 | **Additional Withdrawals** | $1–$10 | $0.39–$1.27 fixed | ~$2–$11 | Per currency; no min amount, but check limits ($50K/day via SMS auth). |
 | **With FX Conversion** | 0.002% in IBKR | ~0.4–0.6% in Wise | ~0.5% overall | Mid-market rate; cheaper than banks (1–5%). |

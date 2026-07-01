@@ -91,7 +91,7 @@ While there may not be books specifically written by Barton, his influence appea
 ### Summary: What Can We Learn From Reid Barton?
 
 | Aspect | Takeaway |
-|--------|----------|
+| -------- | ---------- |
 | Problem-solving | Think creatively, deeply, and systematically |
 | Learning philosophy | Prioritize understanding over memorization |
 | Discipline | Practice consistently and push your limits |

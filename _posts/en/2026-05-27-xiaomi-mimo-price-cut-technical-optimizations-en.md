@@ -22,7 +22,7 @@ Xiaomi just sent a developer newsletter announcing **massive price cuts** for th
 ## Pricing Breakdown
 
 | Model | Cache Hit Input | Cache Miss Input | Output |
-|-------|----------------|-----------------|--------|
+| ------- | ---------------- | ----------------- | -------- |
 | MiMo-V2.5-Pro | ¥0.025/M tokens | ¥3/M tokens | ¥6/M tokens |
 | MiMo-V2.5 | ¥0.02/M tokens | ¥1/M tokens | ¥2/M tokens |
 | MiMo-V2.5-TTS | Free (limited time) | — | — |

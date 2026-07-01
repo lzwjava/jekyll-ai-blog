@@ -18,7 +18,7 @@ Yes — WeChat Mini Program **does allow individual developers** (个人开发�
 Key differences from Apple:
 
 | | WeChat Mini Program | Apple App Store |
-|---|---|---|
+| --- | --- | --- |
 | Individual dev | ✅ Yes | ✅ Yes |
 | Weekend review | ✅ Yes (often 7 days) | ❌ No (weekdays only) |
 | Review time | Usually **1-3 days** | Usually **1-2 days** weekdays |

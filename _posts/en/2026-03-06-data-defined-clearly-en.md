@@ -48,7 +48,7 @@ Information emphasizes the aspects of "processing" and "use." A piece of materia
 ### Key Relationship Summary
 
 | Term | Chinese | Role in Communication |
-|---|---|---|
+| --- | --- | --- |
 | Information (信息) | 信息 | The meaning/content (abstract, semantic) |
 | Message (消息) | 消息 | The carrier of information (text, voice, image) |
 | **Data (数据)** | **数据** | **Symbolic records of objective facts** |

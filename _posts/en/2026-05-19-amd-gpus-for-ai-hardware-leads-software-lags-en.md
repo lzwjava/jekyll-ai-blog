@@ -18,7 +18,7 @@ The "70%" figure is a rough ballpark but it depends heavily on what you're measu
 ## AMD MI300X vs NVIDIA H100 — Real Numbers
 
 | Metric | AMD MI300X | NVIDIA H100 SXM | AMD % of NVIDIA |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FP16 TFLOPS | 1307 | 989 | **132%** ✅ |
 | BF16 TFLOPS | 1307 | 989 | **132%** ✅ |
 | HBM Memory | **192 GB** | 80 GB | **240%** ✅ |

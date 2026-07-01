@@ -93,7 +93,7 @@ When a client asks for scope creep mid-contract, a professional response is:
 ## 7. Summary: The Right Contract Structure
 
 | Phase | Duration | Goal |
-|---|---|---|
+| --- | --- | --- |
 | **Phase 1 — MVP** | ~2 months | Prove trust, deliver core value, validate assumptions |
 | **Phase 2 — Iterations** | ~2–3 months | Add features based on real feedback |
 | **Phase 3+ — Scale/Retainer** | Ongoing | Long-term revenue, maintenance, growth |

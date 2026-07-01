@@ -62,7 +62,7 @@ mDNS 多播查询                 # 被动协议：Bonjour
 通过 mDNS 的 DNS-SD（服务发现）提供了完整的服务记录树：
 
 | 记录 | 告知你的内容 |
-|------|--------------|
+| ------ | -------------- |
 | `PTR` | 服务名称：`_openclaw-gw._tcp.local` |
 | `TXT` | `role=gateway`、`port=18789`、`hostname=openclaw.local` |
 | `SRV` | 规范主机名 + 端口映射 |

@@ -17,7 +17,7 @@ type: note
 - 这些工具以我可按顺序调用的函数形式暴露：
 
 | Tool | What it does |
-|------|-------------|
+| ------ | ------------- |
 | `browser_navigate(url)` | 打开页面，初始化会话 |
 | `browser_snapshot()` | 读取 DOM/无障碍树 — 返回元素引用（如 `@e1`、`@e2`） |
 | `browser_click(ref)` | 通过引用点击元素 |

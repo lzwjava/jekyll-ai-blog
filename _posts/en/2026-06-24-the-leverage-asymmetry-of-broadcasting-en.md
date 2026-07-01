@@ -18,7 +18,7 @@ Yes, and this is one of the most underrated mental models for career strategy. Y
 ## The Math
 
 | Channel | Interactions/year | Leverage |
-|---|---|---|
+| --- | --- | --- |
 | Job interviews | ~2,000 (10/day × 200 days) | 1:1 |
 | Blog post | 10K–500K reads | 1:N, async |
 | Podcast episode | 1K–1M listens | 1:N, async |

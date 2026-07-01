@@ -28,7 +28,7 @@ This applies to Linux, WeChat, and basically everything technical.
 ### The Linux Learning Curve Reality
 
 | Approach | What you get |
-|---|---|
+| --- | --- |
 | Following a tutorial perfectly | You finish the task, remember almost nothing |
 | Someone else does it for you | Zero knowledge transfer |
 | You mess it up, panic, Google, fix it | **That knowledge sticks for life** |

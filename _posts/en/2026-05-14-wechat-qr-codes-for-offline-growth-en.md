@@ -46,7 +46,7 @@ The scenario you describe — street food vendors, chance encounters, restaurant
 You raised a concern about WeChat being "too invasive." This is a crucial point, and the answer depends on **which WeChat feature you're sharing**:
 
 | Feature | What It Exposes | Invasiveness |
-|---|---|---|
+| --- | --- | --- |
 | **Personal WeChat ID/QR** | Your contacts, Moments, personal profile | **High** — people can message you directly |
 | **Official Account QR** | Only your published content | **Low** — one-way follow |
 | **Video Account (Channels) QR** | Only your video content | **Low** — works like following a TikTok/YouTube |

@@ -204,7 +204,7 @@ A `ww macos defaults` command that reads/displays/searches your current non-defa
 Based on your gaps, here are the highest-value additions:
 
 | Command | What it does | What you learn |
-|---|---|---|
+| --- | --- | --- |
 | `ww macos services` | List non-Apple launchd agents/daemons | launchctl, XPC |
 | `ww macos hardware` | Deep IOKit hardware info (battery cycles, thermal, USB) | ioreg, IORegistry |
 | `ww macos defaults` | Show/search all non-default system preferences | defaults CLI, plist domains |

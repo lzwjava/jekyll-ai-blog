@@ -80,7 +80,7 @@ ClassLoader 遵循委托层次结构算法。当 JVM 遇到一个类时，它会
 ## `java.lang.ClassLoader` 中的关键方法
 
 | 方法 | 描述 |
-|---|---|
+| --- | --- |
 | `loadClass(String name)` | 入口点；应用 delegation model |
 | `findClass(String name)` | 在自定义加载器中重写此方法以查找类字节 |
 | `defineClass(byte[])` | 将原始字节转换为 `Class` 对象 |

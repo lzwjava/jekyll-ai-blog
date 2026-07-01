@@ -81,7 +81,7 @@ Storing user data across sessions raises concerns about data retention, user con
 ## Summary Table
 
 | Aspect | Pros | Cons |
-|---|---|---|
+| --- | --- | --- |
 | Token usage | Summarization can reduce tokens | Raw history bloats context window |
 | User experience | Personalized, coherent conversations | Can surface outdated/incorrect memories |
 | Task performance | Handles multi-step, long-horizon tasks | Adds retrieval latency |

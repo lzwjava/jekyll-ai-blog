@@ -16,7 +16,7 @@ type: note
 **已移除的项目（共 17 项）：**
 
 | # | 已移除项目 | 类型 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | `com.hp.devicemonitor` | HP 打印机监控 — 不必要 |
 | 2 | `com.hp.productresearch` | HP 遥测 — 不必要 |
 | 3 | `com.valvesoftware.steamclean` | Steam 旧残留 — 无用 |
@@ -33,7 +33,7 @@ type: note
 **保留的项目（共 18 项自启动项）：**
 
 | 保留项目 | 原因 |
-|---|---|
+| --- | --- |
 | ClashX Pro helper | 你正在使用 ClashX Pro |
 | Docker (socket + vmnetd) | Docker 需要这些 |
 | Google Keystone（3 个 plist） | Chrome / Google Drive 更新 |

@@ -55,7 +55,7 @@ This makes you a **credible creator** of a niche AI tool, content series, or fin
 ### 🧭 The Real Path to "Liberation Through AI"
 
 | What you have | What it can become |
-|---|---|
+| --- | --- |
 | Your 50-project experience | Training data for business decision AI |
 | Your emotional journey | Dataset for empathetic Chinese-language AI |
 | Your self-study of 13 subjects | Credibility to teach and document |

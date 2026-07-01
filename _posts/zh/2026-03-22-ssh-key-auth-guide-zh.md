@@ -42,7 +42,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTRoCy6Uo67vc1CJSAAnZQCHftNB5kbq9jf8ZsEsa+o
 三个部分：
 
 | Part | Value | Meaning |
-|------|-------|---------|
+| ------ | ------- | --------- |
 | `ssh-ed25519` | Key type | Algorithm used |
 | `AAAAC3NzaC...` | Public key | 256-bit public point (base64) |
 | `lzwjava@gmail.com` | Comment | Your label (optional) |
@@ -154,7 +154,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTRoCy6Uo67vc1CJSAAnZQCHftNB5kbq9jf8ZsEsa+o
 关键细节：
 
 | Part | Purpose |
-|------|---------|
+| ------ | --------- |
 | `command="...gitea serv key-1"` | Forces the connection into Gitea's handler (not a shell) |
 | `no-port-forwarding` etc. | Security restrictions — you can only use Git, not tunnel |
 | `restrict` | Master switch for all the `no-*` options |

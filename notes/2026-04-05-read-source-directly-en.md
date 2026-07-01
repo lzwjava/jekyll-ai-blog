@@ -53,7 +53,7 @@ But for your case — one specific drop condition with a known log message — *
 ## Summary
 
 | Approach | When useful |
-|---|---|
+| --- | --- |
 | `grep` + read source directly | ✅ Your situation right now |
 | Claude Code | Large unfamiliar codebase, complex multi-file tracing |
 | Web search / docs | Initial setup, not runtime logic |

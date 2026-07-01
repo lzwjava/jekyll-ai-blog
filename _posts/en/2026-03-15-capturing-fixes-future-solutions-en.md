@@ -63,7 +63,7 @@ Ubuntu 22.04, Driver 535, dual GPU setup
 Each saved note becomes part of a **personal knowledge base**:
 
 | Over Time | What You Build |
-|---|---|
+| --- | --- |
 | 10 fixes saved | Patterns emerge across problem types |
 | 50 fixes saved | Agent can reference past solutions proactively |
 | 100+ fixes saved | Essentially a **custom runbook** for your exact system |

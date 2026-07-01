@@ -55,7 +55,7 @@ Claude Code / Aider / Cursor
 Each transition is about **where intelligence lives**:
 
 | Era | Intelligence location |
-|---|---|
+| --- | --- |
 | Emacs | In the editor runtime (Lisp) |
 | IDE | In the language server / compiler |
 | VS Code | Distributed via LSP protocol |

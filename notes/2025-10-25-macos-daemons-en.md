@@ -41,21 +41,21 @@ If your clock drifts, check for network issues or firewall blocks on NTP (UDP po
 
 Here's a table of some frequently running default system daemons, grouped by function. This isn't exhaustive (there are hundreds), but covers essentials. Labels are from the .plist filenames.
 
-| Category       | Daemon Label                  | Description |
-|----------------|-------------------------------|-------------|
-| **Core System** | `com.apple.launchd`          | The launchd process itself; starts all others. |
-| **Time & Sync** | `com.apple.timed`             | NTP time synchronization (as above). |
-| **User Management** | `com.apple.opendirectoryd`   | Handles user/group accounts and directory services. |
-| **User Management** | `com.apple.accounts`         | Manages user accounts and authentication. |
-| **Networking** | `com.apple.mDNSResponder`    | Bonjour/mDNS for local network discovery (e.g., AirDrop). |
+| Category | Daemon Label | Description |
+| ---------------- | ------------------------------- | ------------- |
+| **Core System** | `com.apple.launchd` | The launchd process itself; starts all others. |
+| **Time & Sync** | `com.apple.timed` | NTP time synchronization (as above). |
+| **User Management** | `com.apple.opendirectoryd` | Handles user/group accounts and directory services. |
+| **User Management** | `com.apple.accounts` | Manages user accounts and authentication. |
+| **Networking** | `com.apple.mDNSResponder` | Bonjour/mDNS for local network discovery (e.g., AirDrop). |
 | **Networking** | `com.apple.nesessionmanager` | Network extension and VPN management. |
-| **Bluetooth/Wireless** | `com.apple.bluetoothd`      | Bluetooth device handling. |
-| **iCloud/Sync** | `com.apple.cloudd`            | iCloud data syncing and services. |
-| **Security**   | `com.apple.securityd`        | Keychain and credential management (often as an agent too). |
-| **Updates**    | `com.apple.softwareupdated`  | Handles software updates and catalog downloads. |
-| **Hardware**   | `com.apple.kextd`             | Kernel extension loading and management. |
-| **Logging**    | `com.apple.systemnotificationd` | System notifications and logging. |
-| **MDM (if enabled)** | `com.apple.mdmclient`     | Mobile Device Management client for enterprise setups. |
+| **Bluetooth/Wireless** | `com.apple.bluetoothd` | Bluetooth device handling. |
+| **iCloud/Sync** | `com.apple.cloudd` | iCloud data syncing and services. |
+| **Security** | `com.apple.securityd` | Keychain and credential management (often as an agent too). |
+| **Updates** | `com.apple.softwareupdated` | Handles software updates and catalog downloads. |
+| **Hardware** | `com.apple.kextd` | Kernel extension loading and management. |
+| **Logging** | `com.apple.systemnotificationd` | System notifications and logging. |
+| **MDM (if enabled)** | `com.apple.mdmclient` | Mobile Device Management client for enterprise setups. |
 
 These run continuously or on triggers to keep macOS stable. If one misbehaves (e.g., high CPU), you can unload it temporarily with `sudo launchctl unload /System/Library/LaunchDaemons/com.apple.example.plist`, but avoid modifying system files.
 

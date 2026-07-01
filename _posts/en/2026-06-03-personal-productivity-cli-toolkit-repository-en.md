@@ -26,7 +26,7 @@ type: note
 ### Command Groups (wired into main.py)
 
 | Category | Groups |
-|----------|--------|
+| ---------- | -------- |
 | **Git/GitHub** | git, github, action, actions |
 | **Content** | note, screenshot, image, gif, pdf, md, marp, gen-image |
 | **LLM/AI** | llm, openrouter, copilot, hf, env, whisper |
@@ -96,7 +96,7 @@ These exist as code but aren't accessible via `ww` CLI:
 ### What's Missing
 
 | Gap | Impact |
-|-----|--------|
+| ----- | -------- |
 | No `ww doctor` (self-diagnostic) | Debugging broken env is manual |
 | No `ww git blame-ai` | Differentiator for AI-first CLI |
 | No `ww db export` (CSV/JSON) | Can't analyze usage patterns easily |

@@ -72,7 +72,7 @@ type: note
 ### 🧠 核心见解
 
 | Code / Project | Relationship |
-|---|---|
+| --- | --- |
 | Commits | 共同经历 (Shared experiences) |
 | Bugs / Tech debt | 未解决的冲突 |
 | Git history | 共同记忆 |

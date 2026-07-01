@@ -40,7 +40,7 @@ Gitea (like GitHub and GitLab) uses SSH **only for Git operations** (clone, push
 ## Debug Lines Explained
 
 | Line | Meaning |
-|------|---------|
+| ------ | --------- |
 | `client_input_channel_req: eow@openssh.com` | Client sent "end of write" signal — normal SSH session teardown |
 | `channel 0: free: client-session` | SSH session channel is being released cleanly |
 | `Transferred: sent 4840, received 4720 bytes` | Small handshake data exchanged — normal for a test connection |

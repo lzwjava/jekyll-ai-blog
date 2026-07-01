@@ -79,7 +79,7 @@ npx madge --circular --extensions ts --image circular-graph.png src/
 ## 步骤 4：有用命令总结
 
 | 用途 | 命令 |
-|---|---|
+| --- | --- |
 | 检测循环依赖 | `npx madge --circular src/` |
 | 支持 TypeScript | `npx madge --circular --extensions ts src/` |
 | 使用 tsconfig | `npx madge --circular src/main.ts --ts-config tsconfig.json` |

@@ -122,7 +122,7 @@ The key insight: **this operates at Page abstraction level**, so it's agnostic t
 ## Part 4: Performance Numbers (DeepSeek 235B on H100)
 
 | Config | TTFT (p50) | Notes |
-|--------|-----------|-------|
+| -------- | ----------- | ------- |
 | TP=8, EP=8 (baseline) | 631ms | Standard config |
 | Attn CP=2, MoE DP=2, EP=4 | 452ms | **-28%** |
 | Attn CP=2, EP=8 | ~630ms | No improvement yet |
@@ -146,7 +146,7 @@ Why 2-node 32K is 764ms (not ~631ms): KV cache all-gather is still on the **crit
 Results (TP=4, varying CP):
 
 | Metric | Effect |
-|--------|--------|
+| -------- | -------- |
 | Precision | No change (exact same values) |
 | KV Cache memory usage | **-50%** (deduplication across ranks) |
 | Cache hit rate | **+50%** more hits possible |

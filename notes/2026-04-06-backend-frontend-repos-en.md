@@ -94,7 +94,7 @@ This way:
 ## 🚫 What to Avoid
 
 | Temptation | Why It's Bad |
-|---|---|
+| --- | --- |
 | Merge into monorepo | Dependency hell, confusing CI/CD, single point of failure |
 | Serve Vue from a separate Node.js server in production | Unnecessary extra process — nginx already handles static files perfectly |
 | Hardcode `api.quzhiboapp.com` in Vue prod build | Should be an env var (`VITE_API_BASE_URL`) injected at build time |

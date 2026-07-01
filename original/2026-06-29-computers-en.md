@@ -11,7 +11,7 @@ translated: false
 ## MacBook Air M2 (Daily Driver)
 
 | Spec | Detail |
-|------|--------|
+| ------ | -------- |
 | Model | MacBook Air (Mac14,2), Z1610002FCH/A |
 | Chip | Apple M2 (8-core CPU: 4P + 4E, 10-core GPU) |
 | Memory | 16 GB |
@@ -23,7 +23,7 @@ translated: false
 ## Workstation (lzw@192.168.1.36)
 
 | Spec | Detail |
-|------|--------|
+| ------ | -------- |
 | CPU | 13th Gen Intel Core i9-13900KF (24 cores, 2 threads/core, up to 5.8 GHz) |
 | Memory | 64 GB DDR4 |
 | GPU | NVIDIA GeForce RTX 4070, 12 GB VRAM, driver 580.126.20 |

@@ -144,7 +144,7 @@ class CPKVCache:
 For a 330B model, seq_len=K, TP=8:
 
 | Config | Communication |
-|--------|---------------|
+| -------- | --------------- |
 | Pure TP=8 | `100 * 2` units (all-reduce before+after attn) |
 | CP=8, all-gather (current) | Similar but adds KV all-gather overhead |
 | CP=8, Auto Dispatch optimized | ~`102 MB` total — **~50% reduction** |

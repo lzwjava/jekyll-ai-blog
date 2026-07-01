@@ -76,7 +76,7 @@ Beyond engineering and entrepreneurship, Zhang actively mentors young people int
 ### Summary Profile
 
 | Category | Detail |
-|---|---|
+| --- | --- |
 | Name | 张晨星 (Zhang Chengxing) |
 | Hometown | Fuyang, Zhejiang Province |
 | High School | Fuyang High School (富阳中学) |

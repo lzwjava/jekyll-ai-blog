@@ -41,7 +41,7 @@ type: note
 这些都是由于可选依赖未在 `pyproject.toml` 中列出的 `ModuleNotFoundError`：
 
 | 测试文件 | 缺失模块 |
-|-----------|---------------|
+| ----------- | --------------- |
 | `tests/auto_ss_config/test_lightsail.py` | `yaml` (PyYAML) |
 | `tests/bot/test_punch_bot.py` | `pytz` |
 | `tests/cloud/test_ec2.py` | 可能是 `yaml` |

@@ -47,7 +47,7 @@ markdownlint-cli2 automatically discovers `.markdownlint.json` or `.markdownlint
 **Other relevant list rules to consider disabling:**
 
 | Rule | Default | What it does | Solution |
-|------|---------|-------------|----------|
+| ------ | --------- | ------------- | ---------- |
 | `MD029` | `one_or_ordered` | Enforces sequential list numbering | `"MD029": { "style": "any" }` |
 | `MD030` | enforces spaces after list markers | `- item` vs `-item` | `"MD030": false` |
 | `MD007` | unordered list indentation | Enforces consistent indent | `"MD007": false` |

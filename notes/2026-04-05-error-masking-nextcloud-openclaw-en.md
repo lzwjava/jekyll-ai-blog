@@ -86,7 +86,7 @@ The 400 from Nextcloud (reporting webhook delivery failures) made us think the w
 ### Why No Single Log Showed Everything
 
 | Log | Shows | Missing |
-|-----|-------|---------|
+| ----- | ------- | --------- |
 | **Nextcloud nextcloud.log** | Webhook delivery failures (401/400/404) | Why OpenClaw was rejecting |
 | **OpenClaw gateway.log** | "room not found" on reply | That replies were going to nginx not Nextcloud |
 | **OpenClaw audit log** | Blocked URL fetches | Which exact URL was being called |

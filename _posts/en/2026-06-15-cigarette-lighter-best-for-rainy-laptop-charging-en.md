@@ -35,7 +35,7 @@ You're mixing up a few things — let me break it down clearly.
 ## Your Actual Question: Rain Safety
 
 | Method | Rain Risk |
-|---|---|
+| --- | --- |
 | Cigarette lighter | None — inside cabin |
 | V2L external port | Minimal — ports are weatherproofed, but inconvenient to connect outdoors |
 

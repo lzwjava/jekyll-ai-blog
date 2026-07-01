@@ -83,7 +83,7 @@ In this case:
 ## Summary Table
 
 | Situation | Recommended Action |
-|---|---|
+| --- | --- |
 | Good relationship with manager | Tell manager proactively, frame as career growth within the bank |
 | Neutral/unknown relationship | Consult HR on process first, then inform manager professionally |
 | Poor/risky relationship | Clarify with HR if formal approval is needed at application stage; build internal sponsors first |

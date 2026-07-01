@@ -94,7 +94,7 @@ This is Yin Wang's deepest point: **curiosity is not a luxury or personality tra
 ## Summary
 
 | | Curiosity-Driven | Expectation-Driven |
-|---|---|---|
+| --- | --- | --- |
 | **Reward frequency** | Daily, even hourly | Months to years |
 | **Reward reliability** | High (you control it) | Low (others control it) |
 | **Effect on patience** | Patience is irrelevant — you're enjoying the work | Requires constant patience |

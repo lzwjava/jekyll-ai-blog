@@ -272,7 +272,7 @@ $routes->post('wechat/oauth', 'WeChatController::oauth');
 ### Migration Checklist
 
 | Task | Status |
-|---|---|
+| --- | --- |
 | `WeChatClient.php` rewritten | ✅ Done |
 | `JSSDK.php` rewritten | 🔧 Use code above |
 | `WeChatPlatform` shim | 🔧 Use code above |
@@ -286,7 +286,7 @@ $routes->post('wechat/oauth', 'WeChatController::oauth');
 ### Key CI3 → CI4 Mapping Summary
 
 | CI3 | CI4 |
-|---|---|
+| --- | --- |
 | `get_instance()` | Constructor injection |
 | `$this->load->library('X')` | `new X()` or `Services::X()` |
 | `$this->load->model('X')` | `new X()` (extends Model) |

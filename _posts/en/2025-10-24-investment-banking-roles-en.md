@@ -24,10 +24,10 @@ It's high-stakes work, often involving large fees for the banks and requiring de
 
 In big banks (often called bulge bracket or universal banks), the investment banking division (IBD) operates with a clear hierarchy, resembling a pyramid where fewer people advance to senior levels. This structure supports deal teams that pitch ideas to clients, execute transactions, and manage relationships. Roles typically progress from junior (analytical and support-focused) to senior (client-facing and revenue-generating). Here's a breakdown of the main levels:
 
-| Role                  | Key Responsibilities | Typical Experience | Compensation Insight (Base + Bonus, USD) |
-|-----------------------|----------------------|--------------------|------------------------------------------|
-| **Analyst**          | Entry-level; build financial models, prepare pitch books and presentations, conduct market research, handle data analysis. Long hours (80+ per week). | Recent college grad (0-3 years) | $110K–$150K + $50K–$100K bonus |
-| **Associate**        | Manage analysts, oversee modeling and due diligence, start client interactions, coordinate with legal/external advisors. More responsibility for deal quality. | MBA or 2-3 years post-undergrad | $150K–$250K + $100K–$200K bonus |
+| Role | Key Responsibilities | Typical Experience | Compensation Insight (Base + Bonus, USD) |
+| ----------------------- | ---------------------- | -------------------- | ------------------------------------------ |
+| **Analyst** | Entry-level; build financial models, prepare pitch books and presentations, conduct market research, handle data analysis. Long hours (80+ per week). | Recent college grad (0-3 years) | $110K–$150K + $50K–$100K bonus |
+| **Associate** | Manage analysts, oversee modeling and due diligence, start client interactions, coordinate with legal/external advisors. More responsibility for deal quality. | MBA or 2-3 years post-undergrad | $150K–$250K + $100K–$200K bonus |
 | **Vice President (VP)** | Lead deal execution, manage junior staff, build client relationships, negotiate terms. Focus on project management. | 4-7 years in IB | $250K–$400K + $200K–$500K bonus |
 | **Director/Senior VP** | Oversee multiple deals, mentor VPs, deepen client ties, contribute to business development. Bridge between execution and strategy. | 7-10 years | $400K–$600K + $300K–$800K bonus |
 | **Managing Director (MD)** | "Rainmakers"; originate deals, win mandates from CEOs/CFOs, lead teams, drive revenue. Heavy emphasis on networking and sales. | 10+ years | $500K–$1M+ base + $1M+ bonus (performance-driven) |

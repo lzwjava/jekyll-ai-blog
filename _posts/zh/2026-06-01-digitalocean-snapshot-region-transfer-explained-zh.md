@@ -43,7 +43,7 @@ gpu-mi300x-snapshot-20260601 (ATL1, 30.62 GB)
 ### Volume 快照 — 概念相同，范围不同
 
 | | Droplet 快照 | Volume 快照 |
-|---|---|---|
+| --- | --- | --- |
 | 捕获内容 | 整个 Droplet 磁盘（OS + 数据） | 仅 Block Storage 卷 |
 | 区域传输 | ✅ 支持 | ✅ 支持（相同 UI） |
 | 恢复方式 | 在任意区域创建新 Droplet | 在目标区域创建新 Volume |

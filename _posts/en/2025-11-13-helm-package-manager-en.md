@@ -25,7 +25,7 @@ In CI/CD pipelines like **Jenkins**, Helm is commonly used to:
 ## Why Use Helm?
 
 | Problem | Helm Solution |
-|--------|---------------|
+| -------- | --------------- |
 | Managing 50+ YAML files manually | Bundle into one chart |
 | Deploying same app to dev/stage/prod | Use `values.yaml` overrides |
 | Rolling back failed deployments | `helm rollback` |
@@ -72,7 +72,7 @@ my-app-chart/
 ## Helm Commands Cheat Sheet
 
 | Command | Purpose |
-|-------|--------|
+| ------- | -------- |
 | `helm create mychart` | Scaffold new chart |
 | `helm lint mychart/` | Validate chart |
 | `helm package mychart/` | Create `.tgz` archive |
@@ -257,7 +257,7 @@ pipeline {
 ## Best Practices
 
 | Practice | Why |
-|--------|-----|
+| -------- | ----- |
 | Use `helm lint` + `helm template` in CI | Catch errors early |
 | Version charts semantically | `1.0.0` → `1.0.1` for config, `1.1.0` for new features |
 | Use `appVersion` for app, `version` for chart | Decouple app and packaging |
@@ -272,7 +272,7 @@ pipeline {
 ## Common Tools & Integrations
 
 | Tool | Use with Helm |
-|------|---------------|
+| ------ | --------------- |
 | **ChartMuseum** | Lightweight chart repo |
 | **Harbor / Nexus** | Enterprise registry + Helm repo |
 | **ArgoCD** | GitOps + Helm |
@@ -285,7 +285,7 @@ pipeline {
 ## Troubleshooting Tips
 
 | Issue | Fix |
-|------|-----|
+| ------ | ----- |
 | `Error: UPGRADE FAILED: another operation is in progress` | Wait or use `--force` (dangerous) |
 | Templates not rendering | Use `helm template .` locally |
 | ImagePullBackOff | Check tag, registry auth |

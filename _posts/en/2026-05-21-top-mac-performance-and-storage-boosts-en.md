@@ -16,7 +16,7 @@ Here are the **highest-impact things you can do right now**, ranked by ROI:
 ### Biggest Wins
 
 | Action | Saves | How |
-|---|---|---|
+| --- | --- | --- |
 | **Clear JetBrains cache** | ~7 GB | `rm -rf ~/Library/Caches/JetBrains/` |
 | **Homebrew cleanup** | ~3 GB | `brew cleanup --prune=all` |
 | **pip cache purge** | ~2.4 GB | `pip cache purge` |

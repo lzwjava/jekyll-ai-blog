@@ -19,7 +19,7 @@ Revenue per employee (RPE) measures a company's total annual revenue divided by 
 These include a mix of tech platforms, energy giants, and distributors. Small, high-margin firms like OnlyFans dominate, while large corps cap around $8M.
 
 | Rank | Company/Platform | RPE (USD) | Employees | Total Revenue (USD) | Year | Notes |
-|------|------------------|-----------|-----------|---------------------|------|-------|
+| ------ | ------------------ | ----------- | ----------- | --------------------- | ------ | ------- |
 | 1 | OnlyFans | $37.6M | ~42 | $1.41B | 2024 | Tops all lists; 20% commission on 2.1M creators. |
 | 2 | Valve (Steam) | $19M | ~350 | ~$6.65B | 2024 | Gaming platform efficiency; profit-focused model. |
 | 3 | McKesson | $8.16M | ~50,000 | $408B | FY Mar 2025 | Pharma distributor; largest by revenue overall. |

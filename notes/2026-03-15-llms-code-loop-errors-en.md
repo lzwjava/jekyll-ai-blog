@@ -54,7 +54,7 @@ Your analogy is sharp. It behaves like someone who:
 ## What Actually Helps
 
 | Strategy | Why It Works |
-|---|---|
+| --- | --- |
 | **Explicitly tell it to start over** | Breaks the in-context momentum |
 | **Summarize the problem fresh** | New framing = new token distribution |
 | **Give it a completely different approach to try** | Forces a different branch |

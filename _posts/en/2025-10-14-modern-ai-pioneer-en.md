@@ -19,7 +19,7 @@ Jürgen Schmidhuber is a German computer scientist and AI researcher, often call
 Schmidhuber's inventions span core AI concepts, many predating the 2010s hype cycle. Here's a quick timeline of what he claims (and evidence supports) as his original work:
 
 | Year | Invention/Concept | Impact Today |
-|------|-------------------|-------------|
+| ------ | ------------------- | ------------- |
 | 1987 | Meta-learning (learning to learn) | Basis for adaptive AI systems like AutoML. |
 | 1990 | Generative Adversarial Networks (GANs) precursors; artificial curiosity via world models. | Powers image generation (e.g., Stable Diffusion) and reinforcement learning. |
 | 1991 | Linear Transformers; very deep learning; fast weight programmers. | Foundation for models like GPT and attention mechanisms. |

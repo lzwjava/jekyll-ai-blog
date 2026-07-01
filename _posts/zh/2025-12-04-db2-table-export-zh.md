@@ -77,15 +77,15 @@ db2 "EXPORT TO filename OF export_format [options] SELECT_statement"
 
 ### 常用 MODIFIED BY 选项（用于 DEL 格式）
 
-| 选项              | 效果 |
-|---------------------|--------|
-| `COLDEL;`           | 使用分号作为分隔符 |
-| `COLDEL,`           | 使用逗号（标准 CSV） |
-| `CHARDEL""`         | 双引号作为字符分隔符 |
-| `DECIMAL.`          | 使用点作为小数点 |
-| `CODEPAGE=1208`     | UTF-8 编码 |
-| `NOCHARDEL`         | 不对字符字段加引号 |
-| `STRIPBLANKS`       | 删除尾随空格 |
+| 选项 | 效果 |
+| --------------------- | -------- |
+| `COLDEL;` | 使用分号作为分隔符 |
+| `COLDEL,` | 使用逗号（标准 CSV） |
+| `CHARDEL""` | 双引号作为字符分隔符 |
+| `DECIMAL.` | 使用点作为小数点 |
+| `CODEPAGE=1208` | UTF-8 编码 |
+| `NOCHARDEL` | 不对字符字段加引号 |
+| `STRIPBLANKS` | 删除尾随空格 |
 
 ### 替代方法
 

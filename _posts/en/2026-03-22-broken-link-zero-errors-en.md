@@ -24,7 +24,7 @@ That's a massive blog with ~1,500 links. Let me extract all unique hrefs and bat
 ### Site Stats
 
 | Metric | Count |
-|---|---|
+| --- | --- |
 | Total internal links | 7,285 (unique paths) |
 | External links | 3 |
 | Pages checked (random sample) | 700 |

@@ -19,7 +19,7 @@ Built my machine learning workstation in 2023 and have been training and learnin
 **Hardware experience:**
 
 | GPU | VRAM | Experience | Where |
-|-----|------|------------|-------|
+| ----- | ------ | ------------ | ------- |
 | NVIDIA RTX 4070 | 12 GB | 3 years | Home workstation |
 | NVIDIA H200 | 141 GB | 3 months | RunPod / DigitalOcean |
 | AMD MI300X | 192 GB HBM3 | 3 months | AMD Developer Cloud |
@@ -47,7 +47,7 @@ Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it w
 **New dataset pipelines:**
 
 | Dataset | Path | Description |
-|---------|------|-------------|
+| --------- | ------ | ------------- |
 | FineWeb-Edu | `data/fineweb/` | HuggingFace FineWeb-Edu (10B+ tokens). Shard-based loading, chunked processing, incremental train/val splits. |
 | OpenWebText 10k | `data/openwebtext_10k/` | Quick 10k-subset for fast iteration. |
 | Wikipedia Local | `data/wikipedia_local/` | Tokenize local plain-text dump directly (no HuggingFace download). |
@@ -55,7 +55,7 @@ Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it w
 **Training configs added:**
 
 | Config | Target | Notes |
-|--------|--------|-------|
+| -------- | -------- | ------- |
 | `train_fineweb.py` | 125M on FineWeb | Tuned for RTX 4070 12 GB (n_embd=384, dropout=0.1). |
 | `train_fineweb1_5b.py` | 1.5B on FineWeb | For H200 80 GB. |
 | `train_fineweb_gpt3.py` | GPT-3 style 10B tokens | Shard-based loader, wider schedule. |
@@ -116,7 +116,7 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 #### Monthly Token Usage Breakdown
 
 | Month | Model | Total Tokens | Input (Cache Hit) | Input (Cache Miss) | Output | Requests |
-|-------|-------|-------------:|-------------------:|--------------------:|-------:|---------:|
+| ------- | ------- | -------------: | -------------------: | --------------------: | -------: | ---------: |
 | 2026-06 | mimo-v2.5 | 285,179 | 36,416 | 143,556 | 105,207 | 78 |
 | 2026-06 | mimo-v2.5-pro | 734,873,374 | 710,036,672 | 21,617,131 | 3,219,571 | 10,704 |
 | 2026-05 | mimo-v2.5 | 91,203 | 5,312 | 52,908 | 32,983 | 27 |
@@ -130,7 +130,7 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 ### Summary
 
 | Platform | Tokens | Period | Cost |
-|----------|--------|--------|------|
+| ---------- | -------- | -------- | ------ |
 | OpenRouter | 1.15B | Past year | $239 |
 | SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
 | Xiaomi MIMO | 1.25B | May–Jun 2026 | Free 4.6B credit |
@@ -264,7 +264,7 @@ README.md
 **Scale:**
 
 | Metric | Count |
-|--------|-------|
+| -------- | ------- |
 | English posts | 10,264 |
 | Chinese posts | 10,259 |
 | AI answer notes | 9,794 |

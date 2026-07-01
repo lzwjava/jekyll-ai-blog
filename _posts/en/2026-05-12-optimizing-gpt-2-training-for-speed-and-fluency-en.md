@@ -60,7 +60,7 @@ On Ada Lovelace (4070), bfloat16 runs natively fast. nanoGPT uses it automatical
 You already have the suggestion in your notes. Here's the tradeoff table:
 
 | `max_iters` | Tokens seen | Est. time (compile) | Expected loss | Text quality |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 5,000 | ~2.6B | ~15 hrs | ~3.5–3.8 | Coherent sentences, basic grammar |
 | 10,000 | ~5.2B | ~28 hrs | ~3.2–3.4 | Good fluency, some factual drift |
 | 19,073 | ~10B | ~40–50 hrs | ~2.9–3.1 | Solid GPT-2-level generation |
@@ -102,7 +102,7 @@ Then resume toward 19k iters for the full run.
 ## Summary
 
 | Idea | Verdict | Reason |
-|---|---|---|
+| --- | --- | --- |
 | `block_size=512` | ❌ Don't do it | ~10–20% faster but text quality drops noticeably |
 | `batch_size` > 4 | ❌ OOM | Already proven to crash on 12GB |
 | `compile=True` | ✅ Already set | 20–30% free speedup |

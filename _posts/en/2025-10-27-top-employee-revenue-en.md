@@ -14,15 +14,15 @@ type: note
 
 Based on the latest data as of October 2025, the top 10 companies by market cap are approximately: 1. Nvidia, 2. Apple, 3. Microsoft, 4. Alphabet (Google), 5. Amazon, 6. Saudi Aramco, 7. Meta Platforms, 8. Berkshire Hathaway, 9. Broadcom, 10. Tesla. Excluding Nvidia, Alphabet, and Microsoft (as covered previously), here are the remaining 7. I've used the most recent trailing twelve months (TTM) revenue where available (ending Q2 or Q3 2025) and full-time employee counts from the latest reports. Contractor data remains inconsistent and is excluded, focusing on FTEs.
 
-| Company              | Latest Revenue | FTEs      | Revenue per Employee | Notes |
-|----------------------|----------------|-----------|----------------------|-------|
-| **Apple**           | $408.6B (TTM Q2 2025) | 164,000 | **$2.49M** | Steady growth from hardware/services; employee count stable post-2024 expansions. |
-| **Amazon**          | $670.0B (TTM Q2 2025) | 1,546,000 | **$0.43M** | E-commerce and AWS drive scale, but massive workforce for logistics/operations. |
-| **Saudi Aramco**    | $461.6B (TTM 2025) | 75,000 | **$6.15M** | Oil production efficiency; low headcount relative to output due to automation and reserves. |
-| **Meta Platforms**  | $178.8B (TTM Q2 2025) | 75,945 | **$2.35M** | Ad revenue boom from AI/social; recent hiring offset by efficiency gains. |
+| Company | Latest Revenue | FTEs | Revenue per Employee | Notes |
+| ---------------------- | ---------------- | ----------- | ---------------------- | ------- |
+| **Apple** | $408.6B (TTM Q2 2025) | 164,000 | **$2.49M** | Steady growth from hardware/services; employee count stable post-2024 expansions. |
+| **Amazon** | $670.0B (TTM Q2 2025) | 1,546,000 | **$0.43M** | E-commerce and AWS drive scale, but massive workforce for logistics/operations. |
+| **Saudi Aramco** | $461.6B (TTM 2025) | 75,000 | **$6.15M** | Oil production efficiency; low headcount relative to output due to automation and reserves. |
+| **Meta Platforms** | $178.8B (TTM Q2 2025) | 75,945 | **$2.35M** | Ad revenue boom from AI/social; recent hiring offset by efficiency gains. |
 | **Berkshire Hathaway** | $370.2B (TTM Q2 2025) | 392,400 | **$0.94M** | Diversified holdings (insurance, energy); large employee base across subsidiaries. |
-| **Broadcom**        | $59.9B (TTM Q3 2025) | 37,000 | **$1.62M** | Semiconductor/AI chip surge; post-VMware acquisition growth with moderate staff increase. |
-| **Tesla**           | $95.6B (TTM Q3 2025) | 125,665 | **$0.76M** | EV and energy sales; workforce down slightly from 2024 peaks amid cost controls. |
+| **Broadcom** | $59.9B (TTM Q3 2025) | 37,000 | **$1.62M** | Semiconductor/AI chip surge; post-VMware acquisition growth with moderate staff increase. |
+| **Tesla** | $95.6B (TTM Q3 2025) | 125,665 | **$0.76M** | EV and energy sales; workforce down slightly from 2024 peaks amid cost controls. |
 
 #### Key Insights
 

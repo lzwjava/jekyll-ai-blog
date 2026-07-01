@@ -37,7 +37,7 @@ It supports any model you want — Nous Portal, OpenRouter (200+ models), z.ai/G
 ### Hermes vs. Claude Code (CC) — Key Differences
 
 | Dimension | Hermes Agent | Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | License | Fully open source | Proprietary (partially leaked) |
 | Model lock-in | Any OpenAI-compatible endpoint | Claude models only |
 | Cost | Self-hosted, nearly free | Priced per token via relay/API |

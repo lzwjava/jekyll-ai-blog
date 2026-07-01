@@ -18,7 +18,7 @@ No. The B200 (Blackwell datacenter) is **sm_100** (compute capability 10.0).
 Quick mapping of the relevant architectures:
 
 | GPU | Arch | Compute Capability | `-arch` flag |
-|-----|------|-------------------|--------------|
+| ----- | ------ | ------------------- | -------------- |
 | A100 | Ampere | 8.0 | `sm_80` |
 | RTX 30xx | Ampere | 8.6 | `sm_86` |
 | RTX 40xx (your 4070) | Ada Lovelace | 8.9 | `sm_89` |

@@ -44,22 +44,22 @@ code --help
 ### 最常用的选项 (Core CLI Flags)
 
 | Flag / 简写 | 长格式 | 描述 / 典型使用场景 |
-|--------------|----------------------------|------------------------------------------------------------------------------------------------|
-| `-h`         | `--help`                   | 显示所有可用选项 |
-| `-v`         | `--version`                | 显示 VS Code 版本和 commit ID |
-| `.`          | (无 flag)                  | `code .` → 打开当前目录 |
-| `file.txt`   | (无 flag)                  | `code README.md` → 打开特定文件 |
-| `-n`         | `--new-window`             | 强制打开新窗口（即使 VS Code 已经打开） |
-| `-r`         | `--reuse-window`           | 强制在最后活动的窗口中打开（当你已经打开 VS Code 时最常用） |
-| `-g`         | `--goto`                   | 在特定位置打开文件：`code -g file.py:42:10` (第 42 行，第 10 列) |
-| `--diff`     | `--diff file1 file2`       | 在两个文件之间打开 diff editor |
-| `-w`         | `--wait`                   | 等待打开的文件关闭后再返回 Terminal（在 git editors 中很有用） |
-| `--locale`   | `--locale=zh-cn`           | 强制显示语言 (en, es, zh-cn 等) |
+| -------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| `-h` | `--help` | 显示所有可用选项 |
+| `-v` | `--version` | 显示 VS Code 版本和 commit ID |
+| `.` | (无 flag) | `code .` → 打开当前目录 |
+| `file.txt` | (无 flag) | `code README.md` → 打开特定文件 |
+| `-n` | `--new-window` | 强制打开新窗口（即使 VS Code 已经打开） |
+| `-r` | `--reuse-window` | 强制在最后活动的窗口中打开（当你已经打开 VS Code 时最常用） |
+| `-g` | `--goto` | 在特定位置打开文件：`code -g file.py:42:10` (第 42 行，第 10 列) |
+| `--diff` | `--diff file1 file2` | 在两个文件之间打开 diff editor |
+| `-w` | `--wait` | 等待打开的文件关闭后再返回 Terminal（在 git editors 中很有用） |
+| `--locale` | `--locale=zh-cn` | 强制显示语言 (en, es, zh-cn 等) |
 | `--user-data-dir` | `--user-data-dir <path>` | 使用自定义用户数据文件夹（适用于测试 / portable 设置 / 多个实例） |
 | `--extensions-dir` | `--extensions-dir <path>` | 自定义 extensions 文件夹 |
-| `--disable-extensions` | —                       | 启动时不加载任何 extensions（对排查故障非常有用） |
-| `--disable-gpu` | —                       | 禁用硬件加速（有助于解决某些图形/驱动程序问题） |
-| `--status`   | `--status`                 | 打印详细的状态信息 |
+| `--disable-extensions` | — | 启动时不加载任何 extensions（对排查故障非常有用） |
+| `--disable-gpu` | — | 禁用硬件加速（有助于解决某些图形/驱动程序问题） |
+| `--status` | `--status` | 打印详细的状态信息 |
 
 ### 在特定位置打开文件
 

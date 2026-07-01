@@ -54,7 +54,7 @@ The Max plan combines Claude desktop and mobile apps and Claude Code in one subs
 ### Summary Table
 
 | Plan | Price | Usage | Claude Code | Opus Access |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Free | $0 | Baseline | ❌ | ❌ |
 | Pro | $20/mo | 5x Free | ✅ | ❌ |
 | Max 5x | $100/mo | 5x Pro | ✅ | ✅ |

@@ -30,7 +30,7 @@ Bun 是一个用 Zig 编写的全能 JavaScript 运行时 + 包管理器 + 打�
 ## Bun vs npm — 直接对比
 
 | 特性 | Bun | npm |
-|---|---|---|
+| --- | --- | --- |
 | 编程语言 | Zig | JavaScript/C++ |
 | JS 引擎 | JavaScriptCore | V8 |
 | 安装速度 | 约快 10–25 倍（二进制锁文件，并行获取） | 基准线 |

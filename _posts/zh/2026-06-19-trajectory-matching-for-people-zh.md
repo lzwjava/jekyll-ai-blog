@@ -110,7 +110,7 @@ def trajectory_similarity(person_a, person_b, window_months=6):
 ## 谁在真正构建这个
 
 | 公司 | 他们做什么 |
-|---|---|
+| --- | --- |
 | **Clay.com** | 从 50+ 数据源丰富联系人信息，部分使用 ML 匹配 |
 | **Momen/Glean** | 基于内部信号的企业人员图谱 |
 | **LinkedIn Recruiter** | 最接近大规模实现，但封闭 |

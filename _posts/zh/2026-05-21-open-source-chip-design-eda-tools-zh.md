@@ -244,7 +244,7 @@ git clone https://github.com/VerticalResearchGroup/miaow
 ## 现在就该 Star 的关键仓库
 
 | 仓库 | 教授内容 |
-|---|---|
+| --- | --- |
 | `The-OpenROAD-Project/OpenROAD` | 完整 RTL→GDSII 流程 |
 | `YosysHQ/yosys` | 综合内部机制 |
 | `chipsalliance/chisel` | 基于 Scala 的硬件描述 |

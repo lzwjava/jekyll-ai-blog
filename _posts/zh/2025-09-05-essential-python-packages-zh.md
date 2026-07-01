@@ -11,7 +11,7 @@ type: note
 ---
 
 | 排名 | 包名 | 简要说明 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | 1 | requests | 简洁的 HTTP 库，用于在 Python 中向 Web 服务发起请求 |
 | 2 | six | Python 2 与 3 兼容性工具集 |
 | 3 | python-dateutil | 标准 Python datetime 模块的扩展功能 |

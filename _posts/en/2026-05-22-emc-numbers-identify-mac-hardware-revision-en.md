@@ -22,7 +22,7 @@ Apple assigns an EMC number to every product they submit for FCC/regulatory cert
 The same model name (e.g. "MacBook Pro 13-inch A1708") can have **multiple hardware revisions** with different EMC numbers:
 
 | EMC | Year | CPU Generation |
-|-----|------|---------------|
+| ----- | ------ | --------------- |
 | EMC 2978 | Late 2016 | Skylake (i5-6360U) |
 | EMC 3164 | Mid 2017 | Kaby Lake (i5-7360U) |
 

@@ -163,7 +163,7 @@ otel.exporter.otlp.protocol=grpc
 ## 总结表格
 
 | 特性 | MicroProfile Telemetry | Java Agent |
-|---|---|---|
+| --- | --- | --- |
 | 自动跟踪 JAX-RS | ✅ | ✅ |
 | 自动跟踪其他库 | ❌ | ✅ |
 | 每个应用的配置 | ✅ | ❌ |

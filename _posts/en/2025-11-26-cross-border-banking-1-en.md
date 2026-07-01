@@ -19,7 +19,7 @@ Bank of China (Hong Kong) Limited (BOCHK) is part of the Bank of China (BOC) gro
 Yes, you can withdraw RMB (CNY) at BOC ATMs in Mainland China using your BOCHK ATM/debit card (e.g., BOC Card or UnionPay-linked). Transactions debit your HK account (HKD or RMB equivalent) with conversion at BOCHK's rate if needed. No foreign transaction fee for BOC Mastercard Debit Cards.
 
 | Aspect | Details | Fees (per transaction) | Notes |
-|--------|---------|------------------------|-------|
+| -------- | --------- | ------------------------ | ------- |
 | **Eligibility** | BOC Card (HKD/RMB) or dual-currency UnionPay card via CUP network. Limits: RMB 2,500–3,000 per withdrawal; daily up to HKD 20,000 equivalent. | HKD 0 at BOC ATMs (group waiver). | Mainland China is "overseas" for HK cards; use BOC branches to avoid third-party surcharges (RMB 10–15 elsewhere). |
 | **Activation** | Required; set daily limit/period via app/ATM. | N/A | Preset to HKD 0; activate for Flexible Account Management if debiting HKD. |
 | **Currency** | Withdraw RMB; auto-converted from HKD if applicable. | FX markup: 0–1% (BOCHK rate). | Decline DCC at ATM to use home rate. |
@@ -31,7 +31,7 @@ For card-specific fees, check BOCHK's service charge table.
 Yes, transfers are efficient and often free via group channels like BOC Remittance Plus or BOC Express. Use app, online banking, or branch for near-instant delivery to BOC China accounts. Supports HKD, RMB, or USD; personal accounts qualify.
 
 | Method | Description | Time | Fees | Notes |
-|--------|-------------|------|------|-------|
+| -------- | ------------- | ------ | ------ | ------- |
 | **BOC Remittance Plus / BOC Express** | Direct to BOC China same-name accounts via app/e-banking. | <5 minutes (24/7). | HKD 0 (waived for personal). | Fastest for RMB/HKD; no telegraph fees; limit up to HKD 1M/day. |
 | **Telegraphic Transfer (TT/SWIFT)** | For HKD/RMB to any BOC branch. | Same-day (cut-off 5 PM HK time). | HKD 65 (online) or HKD 240 (branch); waived via Express. | Use for larger/non-same-name; possible RMB 50 correspondent fee. |
 | **BoC Pay+ Cross-Border** | App-based HKD to RMB conversion. | Instant. | HKD 0. | 365-day availability; auto FX. |

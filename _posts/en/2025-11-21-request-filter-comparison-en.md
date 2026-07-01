@@ -21,17 +21,17 @@ There is no fundamental difference in how a basic "request chain filter" works. 
 
 ### Key Comparison
 
-| Aspect                  | IBM WebSphere Application Server (Traditional/Liberty) | Spring Boot |
-|-------------------------|---------------------------------------------------------|-------------|
+| Aspect | IBM WebSphere Application Server (Traditional/Liberty) | Spring Boot |
+| ------------------------- | --------------------------------------------------------- | ------------- |
 | **Underlying Mechanism** | Standard Servlet filters (`javax.servlet.Filter`). WAS also has proprietary extensions like `ChainedRequest`/`ChainedResponse` for internal request forwarding/chaining in some scenarios (e.g., portal or custom IBM APIs). | Standard Servlet filters. Spring Boot auto-registers any `@Component` Filter bean or you explicitly register via `FilterRegistrationBean`. |
-| **Configuration**       | Primarily via `web.xml` (declarative) or programmatic registration. For global filters (across all apps): complex — requires shared libraries, custom listeners, or IBM-specific extensions (no simple server-wide web.xml like Tomcat). | Convention-over-configuration: Annotate with `@Component` + `@Order` for automatic registration, or use `FilterRegistrationBean` for fine control (URL patterns, dispatcher types). Very developer-friendly. |
-| **Ordering**            | Defined in `web.xml` order or via `@Order` if programmatic. Global ordering is tricky. | Easy with `@Order(n)` (lower = earlier) or `Ordered` interface. Spring Boot manages the chain automatically. |
+| **Configuration** | Primarily via `web.xml` (declarative) or programmatic registration. For global filters (across all apps): complex — requires shared libraries, custom listeners, or IBM-specific extensions (no simple server-wide web.xml like Tomcat). | Convention-over-configuration: Annotate with `@Component` + `@Order` for automatic registration, or use `FilterRegistrationBean` for fine control (URL patterns, dispatcher types). Very developer-friendly. |
+| **Ordering** | Defined in `web.xml` order or via `@Order` if programmatic. Global ordering is tricky. | Easy with `@Order(n)` (lower = earlier) or `Ordered` interface. Spring Boot manages the chain automatically. |
 | **Security Filter Chain** | Uses standard Servlet filters or IBM-specific security (e.g., TAI, JEE roles). No built-in security chain like Spring Security. | Spring Security provides a powerful `SecurityFilterChain` (via `FilterChainProxy`) with 15+ ordered filters (CSRF, authentication, session management, etc.). Highly customizable with multiple chains per path. |
 | **Ease of Adding Custom Filters** | More verbose, especially for global/cross-app filters. Often requires admin console tweaks or shared libs. | Extremely simple — just a `@Component` bean or config class. Auto-integrated into the embedded container. |
-| **Deployment Model**    | Traditional full Java EE server. Apps deployed as WAR/EAR. Supports heavy enterprise features (clustering, transactions, JMS). | Embedded container (standalone executable JAR by default). Can deploy as WAR to external servers (including WAS). Lightweight/microservices-oriented. |
-| **Performance/Overhead**| Higher overhead (full app server). Transport chains, web container channels add layers. | Lower overhead (embedded lightweight container). Faster startup, less resource use. |
-| **When Filters Run**     | In WAS web container inbound chain. Can have server-level transport filters (e.g., IP filtering on TCP channels). | In the embedded container's filter chain. Spring Boot adds its own filters (error handling, character encoding, etc.). |
-| **Common Use Cases**    | Enterprise monoliths, portals, legacy Java EE apps needing global security/logging. | Modern microservices, REST APIs, rapid development with Spring Security. |
+| **Deployment Model** | Traditional full Java EE server. Apps deployed as WAR/EAR. Supports heavy enterprise features (clustering, transactions, JMS). | Embedded container (standalone executable JAR by default). Can deploy as WAR to external servers (including WAS). Lightweight/microservices-oriented. |
+| **Performance/Overhead** | Higher overhead (full app server). Transport chains, web container channels add layers. | Lower overhead (embedded lightweight container). Faster startup, less resource use. |
+| **When Filters Run** | In WAS web container inbound chain. Can have server-level transport filters (e.g., IP filtering on TCP channels). | In the embedded container's filter chain. Spring Boot adds its own filters (error handling, character encoding, etc.). |
+| **Common Use Cases** | Enterprise monoliths, portals, legacy Java EE apps needing global security/logging. | Modern microservices, REST APIs, rapid development with Spring Security. |
 
 ### Practical Examples
 

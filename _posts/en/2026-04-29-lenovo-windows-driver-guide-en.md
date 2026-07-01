@@ -12,7 +12,7 @@ type: note
 These are **Windows hardware drivers** for a Lenovo laptop. Here's what each one is:
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `audio-*.exe` | Realtek/Conexant audio driver |
 | `camera-*.exe` | Webcam driver |
 | `cardreader-*.exe` | SD card reader driver |

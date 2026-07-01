@@ -196,7 +196,7 @@ npm install playwright
 ## 快速比较表
 
 | 功能 | Claude Code (MCP) | OpenClaw |
-|---|---|---|
+| --- | --- | --- |
 | 协议 | CDP via MCP | CDP via Playwright/Extension |
 | 隔离浏览器 | ✅ | ✅ (Managed mode) |
 | 使用现有登录会话 | ✅ (with `--user-data-dir`) | ✅ (Existing-session mode) |

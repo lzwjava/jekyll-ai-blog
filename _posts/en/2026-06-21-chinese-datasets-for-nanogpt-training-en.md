@@ -136,7 +136,7 @@ spm.SentencePieceTrainer.train(
 ## My Recommendation for Your Setup
 
 | Goal | Dataset | Size |
-|------|---------|------|
+| ------ | --------- | ------ |
 | Quick experiment (RTX 4070) | Chinese Wikipedia | ~1.6GB |
 | Medium run (RTX 4070) | CLUECorpus small | ~14GB |
 | Serious pretraining (MI300X) | Fineweb-Edu-Chinese | ~420B tokens |

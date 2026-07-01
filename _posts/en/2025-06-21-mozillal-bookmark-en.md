@@ -133,7 +133,7 @@ You can use this data to:
 ## ✅ Summary
 
 | Step | Action |
-|------|--------|
+| ------ | -------- |
 | 1 | Recognize that `.jsonlz4` is a **compressed JSON file** |
 | 2 | Use Python or other tools to **decompress and parse** it |
 | 3 | View/export the structured JSON of your Firefox bookmarks |
@@ -187,7 +187,7 @@ No, **not inherently**.
 Let’s clarify:
 
 | Aspect | JSON | JSONLZ4 |
-|-------|------|---------|
+| ------- | ------ | --------- |
 | **Data Format** | Readable text | Binary-compressed |
 | **Security** | None built-in | None built-in |
 | **Encryption?** | No | No |
@@ -248,7 +248,7 @@ print(json.dumps(json.loads(lz4.block.decompress(data)), indent=2))' > bookmarks
 ## ✅ Summary
 
 | Question | Answer |
-|--------|--------|
+| -------- | -------- |
 | **Why `.jsonlz4` instead of JSON?** | Compression, performance, internal use |
 | **Is `.jsonlz4` less secure than JSON?** | No — both are unencrypted and readable |
 | **Can someone steal my bookmarks?** | Yes, if they have access to your machine |

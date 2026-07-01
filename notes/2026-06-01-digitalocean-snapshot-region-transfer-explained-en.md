@@ -43,7 +43,7 @@ Once copied, you go to **Create Droplet → From Snapshot** in the target region
 ### Volume Snapshots — same idea, different scope
 
 | | Droplet Snapshot | Volume Snapshot |
-|---|---|---|
+| --- | --- | --- |
 | What it captures | Entire Droplet disk (OS + data) | Just the Block Storage volume |
 | Region transfer | ✅ Yes | ✅ Yes (same UI) |
 | Restore as | New Droplet in any region | New Volume in target region |

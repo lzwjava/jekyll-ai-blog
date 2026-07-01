@@ -14,7 +14,7 @@ Question: Compare dnf, apt, and brew as package managers.
 Answer:
 
 | | dnf | apt | brew |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Distro/OS | Fedora/RHEL | Debian/Ubuntu | macOS/Linux |
 | Format | `.rpm` | `.deb` | formula/cask (source + bottles) |
 | Scope | system, root | system, root | userland, no root |

@@ -16,7 +16,7 @@ type: note
 ## Distance
 
 | Type | Distance |
-|------|----------|
+| ------ | ---------- |
 | Road (NH48 + NH48/65) | ~840 km |
 | Straight line (air) | ~730 km |
 | Train (approx.) | ~1,150 km (longer rail route) |
@@ -77,7 +77,7 @@ type: note
 ## Recommendation by Priority
 
 | Priority | Go With |
-|----------|---------|
+| ---------- | --------- |
 | Fastest | Flight |
 | Cheapest | Overnight bus |
 | Most comfortable (no flight) | Train (Udyan Express, 2AC) |

@@ -112,7 +112,7 @@ CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS=30000 claude
 LLM call 在 Superpowers 执行中途中断的原因包括：
 
 | Cause | Likelihood |
-|---|---|
+| --- | --- |
 | 2-minute API timeout | 非常常见 |
 | SSE stream stalls silently | 常见 |
 | Context window overload | 在大型项目中常见 |

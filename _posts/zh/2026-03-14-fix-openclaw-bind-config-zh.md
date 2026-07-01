@@ -130,7 +130,7 @@ openclaw dashboard --no-open
 ## 正确键汇总
 
 | 错误（导致错误） | 正确 |
-|---|---|
+| --- | --- |
 | `server.host` | `gateway.bind` |
 | `server.port` | `gateway.port` |
 

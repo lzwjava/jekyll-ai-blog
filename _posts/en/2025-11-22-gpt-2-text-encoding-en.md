@@ -53,7 +53,7 @@ You are correct that both are trained on text and both convert text into a numer
 | **Output Type** | **Token ID** (A single, unique **integer** for a token) | **Word Embedding** (A dense **vector** of floating-point numbers) |
 | **Purpose** | **Tokenization:** To break text into manageable subword units and map them to a **unique integer ID**. This is the first step for an LLM. | **Embedding:** To represent the **meaning** of a word as a static vector in a way that similar words have similar vectors. |
 | **Contextual** | **No** (The ID for "bank" is the same regardless of context). | **No** (The vector for "bank" is the same whether it means river bank or financial bank). |
-| **Handling OOV**| **Excellent.** It can break down any unknown word into known subwords/bytes. | **Poor.** Typically assigns an "Unknown" vector or needs character-level extensions like FastText. |
+| **Handling OOV** | **Excellent.** It can break down any unknown word into known subwords/bytes. | **Poor.** Typically assigns an "Unknown" vector or needs character-level extensions like FastText. |
 
 ---
 

@@ -88,7 +88,7 @@ The activation energy required to go from **zero to one** is disproportionately 
 ## The Symmetry
 
 | Doing | Not Doing |
-|---|---|
+| --- | --- |
 | Gets easier | Gets harder (in your mind) |
 | More ideas | Fewer entry points |
 | More fulfillment | More guilt / avoidance |

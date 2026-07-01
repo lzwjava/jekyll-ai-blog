@@ -53,7 +53,7 @@ The breakthrough was finding that Ghostty exposes each terminal tab's working di
 ### Approaches tried and discarded
 
 | Approach | Why it failed |
-|----------|--------------|
+| ---------- | -------------- |
 | CGEvent mouse click | Unreliable with overlapping windows |
 | CGEvent keyboard (Cmd+`) | Silent drop on macOS 26.5 |
 | CGSOrderWindow | CGWindowList z-order doesn't update |

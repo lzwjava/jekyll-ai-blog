@@ -18,7 +18,7 @@ This is the **ASRock Challenger RX 9070 XT 16GB** — AMD's current-gen RDNA 4 f
 **Core specs:**
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | GPU | Radeon RX 9070 XT (RDNA 4) |
 | VRAM | 16GB GDDR6, 256-bit bus |
 | Stream Processors | 4096 |

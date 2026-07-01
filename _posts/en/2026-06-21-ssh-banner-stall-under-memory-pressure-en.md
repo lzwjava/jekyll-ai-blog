@@ -74,7 +74,7 @@ If a worker gets OOM-killed by the kernel (`SIGKILL` from the OOM killer), `pool
 ## Why ping works but SSH doesn't
 
 | Operation | Who handles it | Survives memory starvation? |
-|---|---|---|
+| --- | --- | --- |
 | `ping` reply (ICMP echo) | kernel network stack | ✅ yes |
 | TCP SYN-ACK (port 22) | kernel TCP stack | ✅ yes |
 | SSH banner | sshd userspace process | ❌ no |

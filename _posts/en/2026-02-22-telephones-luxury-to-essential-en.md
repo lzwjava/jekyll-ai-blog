@@ -13,9 +13,9 @@ The 20th century witnessed the telephone's incredible journey from a rare luxury
 
 | Year | Key Usage & Technology | Adoption Level (U.S. Households) | Notable Context |
 | :--- | :--- | :--- | :--- |
-| **1900** | Wall-mounted, hand-cranked phones; party lines; required operator assistance . | < 5%  | A luxury for businesses and the wealthy; mainly in cities . |
-| **1930** | Rotary dial phones becoming common in cities; still mainly party lines in rural areas . | ~40%  | AT&T monopoly solidifies; widespread in urban areas, less so in rural . |
-| **1990** | Cordless and answering machines common; mobile phones exist but are large and expensive . | > 93%  | Landline penetration at its peak; beginning of mobile era. |
+| **1900** | Wall-mounted, hand-cranked phones; party lines; required operator assistance . | < 5% | A luxury for businesses and the wealthy; mainly in cities . |
+| **1930** | Rotary dial phones becoming common in cities; still mainly party lines in rural areas . | ~40% | AT&T monopoly solidifies; widespread in urban areas, less so in rural . |
+| **1990** | Cordless and answering machines common; mobile phones exist but are large and expensive . | > 93% | Landline penetration at its peak; beginning of mobile era. |
 
 ### 📞 1900: The Luxury of Connection
 

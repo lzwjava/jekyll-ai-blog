@@ -26,7 +26,7 @@ The clearest signal: the most recent Zhihu post (August 2025) references **Talk 
 **Growth Timeline**
 
 | Year | Milestone |
-|------|-----------|
+| ------ | ----------- |
 | Apr 2016 | Community launched |
 | Apr 2020 | 10,000+ AI practitioners in community |
 | Mid 2024 | Talk #618 |

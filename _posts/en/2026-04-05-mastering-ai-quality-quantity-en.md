@@ -80,7 +80,7 @@ Also, the Edison quote you invoked ("1% inspiration, 99% perspiration") is worth
 ## Summary
 
 | Factor | Low-Quality Practitioner | High-Quality Practitioner |
-|---|---|---|
+| --- | --- | --- |
 | Volume of usage | High | Moderate |
 | Prompt revision habit | Rarely revisits | Iterates deliberately |
 | Context awareness | Generic prompts | Tailored, layered context |

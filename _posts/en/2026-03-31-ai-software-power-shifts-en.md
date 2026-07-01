@@ -46,7 +46,7 @@ For developers, the opportunity lies in upskilling from being expert coders to b
 The new high-value developer profile is:
 
 | Trait | Why it matters in AI era |
-|---|---|
+| --- | --- |
 | **Domain/industry experience** | AI can't replace real-world judgment and knowing what clients actually need |
 | **Architecture thinking** | AI writes code; humans must design the right system |
 | **AI fluency (prompting, validating)** | Multiplies output 3–10x compared to non-AI-fluent peers |
@@ -91,7 +91,7 @@ This is actually a **healthier market** for everyone. Teams that are genuinely g
 ## Summary: The New Reality
 
 | Pre-AI Era | AI Era |
-|---|---|
+| --- | --- |
 | Knowledge lock-in was real leverage | Source code + AI = fast onboarding for any team |
 | Large teams needed for coverage | Small, AI-fluent teams can deliver the same output |
 | Switching teams was expensive and risky | Switching is feasible as long as source code is clean |

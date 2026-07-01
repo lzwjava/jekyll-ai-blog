@@ -26,7 +26,7 @@ Here's the full rundown of the laptop at `192.168.1.47`:
 ### 🧠 CPU — Intel Core i5-12450H
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Architecture** | Alder Lake-H (12th Gen, Intel 7 / 10nm) |
 | **Total Cores** | 8 (4 P-cores + 4 E-cores) |
 | **Total Threads** | 12 (P-cores have Hyper-Threading) |
@@ -51,7 +51,7 @@ Here's the full rundown of the laptop at `192.168.1.47`:
 ### 🎮 GPU — Intel UHD Graphics (Alder Lake-P GT1)
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Chip** | Intel UHD Graphics (48 EUs, Xe architecture) |
 | **Max Frequency** | 1.2 GHz |
 | **Driver** | i915 (kernel) + Mesa 25.2.8 |
@@ -66,7 +66,7 @@ This is integrated graphics only — no discrete GPU. Fine for desktop use, vide
 ### 🧮 Memory (RAM)
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Total** | 16 GB (16,093 MB) |
 | **Used** | 4.0 GB |
 | **Available** | 11 GB |
@@ -79,7 +79,7 @@ Likely DDR5 4800 MHz (supported by this platform). 16 GB is comfortable for mult
 ### 💾 Storage — NVMe SSD
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Device** | `/dev/nvme0n1p2` |
 | **Total** | 468 GB |
 | **Used** | 12 GB (3%) |
@@ -92,7 +92,7 @@ Nearly empty — barely anything installed beyond the base system.
 ### 🐧 Operating System — Linux Mint 22.3 "Zena"
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **OS** | Linux Mint 22.3 (Zena) |
 | **Base** | Ubuntu 24.04 (Noble) |
 | **Kernel** | 6.14.0-37-generic |
@@ -106,7 +106,7 @@ Linux Mint is a great choice for this hardware — lightweight, stable, beginner
 ### 🔋 Current Status
 
 | Metric | Value |
-|------|-------|
+| ------ | ------- |
 | **Uptime** | 15h 41m |
 | **Load Average** | 0.03 / 0.08 / 0.13 (essentially idle) |
 | **CPU Usage** | ~21% scaling, mostly Firefox |

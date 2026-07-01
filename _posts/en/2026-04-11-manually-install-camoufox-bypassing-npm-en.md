@@ -28,7 +28,7 @@ uname -m
 ```
 
 | Output | Arch | Zip to download |
-|--------|------|----------------|
+| -------- | ------ | ---------------- |
 | `x86_64` | Intel/AMD Linux | `camoufox-146.0.1-alpha.25-lin.x86_64.zip` |
 | `aarch64` | ARM64 / Apple M / Pi | `camoufox-146.0.1-alpha.25-lin.arm64.zip` |
 | `arm64` | macOS Apple Silicon | `camoufox-146.0.1-alpha.50-mac.arm64.zip` |
@@ -52,7 +52,7 @@ unzip -o /path/to/camoufox-146.0.1-alpha.25-lin.x86_64.zip
 The cache dir location is hardcoded in `camoufox-js`:
 
 | OS | Path |
-|----|------|
+| ---- | ------ |
 | Linux | `~/.cache/camoufox/` |
 | macOS | `~/Library/Caches/camoufox/` |
 | Windows | `%LOCALAPPDATA%\camoufox\camoufox\Cache\` |

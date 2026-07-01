@@ -56,7 +56,7 @@ The technical core of the meeting was the high-school student sharing his own **
 The system is a collaboration of four kinds of models:
 
 | Role | Size | Responsibility |
-|------|------|------|
+| ------ | ------ | ------ |
 | **Planning Model (Orchestrator)** | Large (120B) | Decompose the problem into meta-task → task, planning step by step |
 | **Modeling Model** | Medium (9B) | Strictly follow the planner's instructions, **never shown the full problem** |
 | **Review Model** | Small (0.5B / 4B) | Inspect each step's logic, decide noise / send back / pass |

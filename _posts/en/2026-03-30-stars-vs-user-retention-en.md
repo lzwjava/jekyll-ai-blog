@@ -34,7 +34,7 @@ Clicking a star takes one second. Actually integrating a library into your proje
 There is a massive psychological and effort gap between these three stages:
 
 | Stage | Friction Level | What it takes |
-|---|---|---|
+| --- | --- | --- |
 | ⭐ Star (Like) | Very Low | 1 click, 1 second |
 | 🛠️ Actually Use | High | Read docs, install, integrate, debug |
 | 🔁 Continue Using | Very High | Trust, stability, active maintenance, community |
@@ -94,7 +94,7 @@ To improve retention specifically, focus on:
 ### Summary
 
 | Goal | Difficulty | Key Factor |
-|---|---|---|
+| --- | --- | --- |
 | Get stars | Easy | Share on social media, HN, Reddit |
 | Get first-time users | Medium-Hard | Great README, docs, quick setup |
 | Retain long-term users | Very Hard | Active maintenance, community, real value |

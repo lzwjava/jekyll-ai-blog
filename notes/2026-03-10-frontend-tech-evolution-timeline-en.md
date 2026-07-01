@@ -193,7 +193,7 @@ Most frontend frameworks are stable now and are currently being optimized furthe
 ## Summary Timeline
 
 | Year | Milestone |
-|------|-----------|
+| ------ | ----------- |
 | 1991 | HTML invented by Tim Berners-Lee |
 | 1995 | CSS 1.0 spec; JavaScript created by Brendan Eich |
 | 1996 | CSS officially recommended by W3C |

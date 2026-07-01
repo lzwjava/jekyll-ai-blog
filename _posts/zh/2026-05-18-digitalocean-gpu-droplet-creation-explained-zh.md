@@ -58,7 +58,7 @@ MI300X 基于下一代 AMD CDNA 3 架构，为最严苛的 AI 和 HPC 应用提�
 这些是基于 Docker 的预配置环境，内含可直接使用的 JupyterLab 笔记本，可通过 SSH 或浏览器访问。每个包将 ROCm 与特定 AI 框架集成：
 
 | 包名称 | 版本 | 用途 |
-|---|---|---|
+| --- | --- | --- |
 | **vLLM** | 0.17.1 + ROCm 7.2.0 | 优化的 LLM 推理与服务 |
 | **SGLang** | 0.5.9 + ROCm 7.0.0 | LLM 推理与服务 |
 | **PyTorch** | 2.6.0 + ROCm 7.0.0 | 通用深度学习 / 模型训练 |
@@ -89,7 +89,7 @@ ROCm 相当于 NVIDIA 的 CUDA，包含驱动、开发工具和 API，支持从�
 ## 何时选择何种方案
 
 | 使用场景 | 推荐选项 |
-|---|---|
+| --- | --- |
 | 通过 API 提供大型 LLM 服务 | vLLM 快速启动包 |
 | 微调或训练模型 | PyTorch 或 Megatron |
 | 运行 GPT-OSS 120B 模型 | ROCm-enabled GPT-OSS |

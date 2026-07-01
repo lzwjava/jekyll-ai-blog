@@ -56,7 +56,7 @@ You've got the right intuition. Here's a comprehensive breakdown:
 ## The Honest Recommendation
 
 | Use Case | Best Tool |
-|---|---|
+| --- | --- |
 | Debugging on your actual machine | Claude Code / Codex |
 | Refactoring a real codebase | Claude Code / Codex |
 | Quick questions / explanations | Web chatbot (free) |

@@ -108,7 +108,7 @@ LLMs 优化的是 plausibility，而不是 correctness。这意味着 LLM 生成
 ## Summary Table
 
 | Concern | Reality |
-|---|---|
+| --- | --- |
 | Speed | LLMs 比 native code 慢 10–1000 倍 |
 | Cost | 按 token 计费；在大规模时扩展差 |
 | Correctness | 概率性的，不保证 |

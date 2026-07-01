@@ -65,7 +65,7 @@ NVIDIA's FY2026 full-year revenue hit a record **$215.9 billion (up 65% YoY)**, 
 ### Most Likely Scenario (Probabilistic View)
 
 | Scenario | Price Range | Probability (Analyst Consensus) |
-|---|---|---|
+| --- | --- | --- |
 | Continued grind higher (post-May 20 beat) | $240–$280 by end of 2026 | High |
 | Breakout to $300+ | $300–$315 within 12 months | Moderate (Wells Fargo / Citi) |
 | Consolidation / pullback | $200–$230 range | Lower but possible |

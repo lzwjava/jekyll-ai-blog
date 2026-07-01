@@ -28,7 +28,7 @@ Flash is trained separately, not distilled from Pro — they are not the same mo
 ## 2. Core Design Philosophy
 
 | Aspect | V4 Pro | V4 Flash |
-|---|---|---|
+| --- | --- | --- |
 | Priority | Reasoning depth & accuracy | Speed, cost & scalability |
 | Use case | Complex, demanding tasks | High-frequency, simpler tasks |
 | Deployment | Cloud-based | Cloud + local (with quantization) |

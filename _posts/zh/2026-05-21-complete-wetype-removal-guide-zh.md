@@ -14,7 +14,7 @@ type: note
 ### 已移除的内容（共 11 处）
 
 | # | 目标位置 | 操作方式 | 状态 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | `/Library/Input Methods/WeType.app`（输入法程序包） | `sudo rm -rf` | 已移除 |
 | 2 | 启动代理位于 `~/Library/LaunchAgents/` | `launchctl bootout` + `launchctl remove` | 已卸载并注销 |
 | 3 | 运行中的进程（PID 9753） | `kill` + `launchctl remove` | 已终止 |
@@ -31,7 +31,7 @@ type: note
 ### 您获得的收益
 
 | 指标 | 卸载前 | 卸载后 |
-|---|---|---|
+| --- | --- | --- |
 | WeType 占用的 RAM | **约 1,614 MB** | **0 MB** |
 | 进程数 | 1 个运行中 + 启动代理 | 0 |
 | launchd 注册项 | 1 个活跃 | 0 |

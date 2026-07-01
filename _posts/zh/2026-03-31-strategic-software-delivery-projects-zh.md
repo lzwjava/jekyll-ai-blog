@@ -93,7 +93,7 @@ Minimum Viable Product 并不是一个半成品或破碎的 prototype，你可�
 ## 7. 总结：正确的合同结构
 
 | Phase | Duration | Goal |
-|---|---|---|
+| --- | --- | --- |
 | **Phase 1 — MVP** | ~2 months | 建立信任，交付核心价值，验证假设 |
 | **Phase 2 — Iterations** | ~2–3 months | 根据真实 feedback 增加功能 |
 | **Phase 3+ — Scale/Retainer** | Ongoing | 长期 revenue，维护，增长 |

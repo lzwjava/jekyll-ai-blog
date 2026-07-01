@@ -72,7 +72,7 @@ Several features on the OpenClaw roadmap would address scaling problems — nati
 ## Summary Table
 
 | Scenario | Difficulty | Recommendation |
-|---|---|---|
+| --- | --- | --- |
 | Local / single VPS | ⭐ Easy | Best for personal use or small teams |
 | Docker on VPS | ⭐⭐ Moderate | Good production baseline |
 | Kubernetes cluster | ⭐⭐⭐⭐ Hard | Only if you have SRE/k8s experience |

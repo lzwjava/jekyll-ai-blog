@@ -22,7 +22,7 @@ type: note
 ## 理解你的设置中的角色
 
 | 组件 | 角色 |
-|---|---|
+| --- | --- |
 | `systemd-resolved` | 为 **笔记本电脑本身** 处理 DNS（`127.0.0.53` 上的端口 53） |
 | `dnsmasq` | 为 LAN 客户端提供 **仅 DHCP**（`port=0` 禁用其 DNS） |
 | `Clash TUN` | 拦截并代理流量（包括通过 `dns-hijack: any:53` 的 DNS） |

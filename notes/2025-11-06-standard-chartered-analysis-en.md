@@ -51,7 +51,7 @@ This text is a company overview from Standard Chartered (often called "StanChart
    This is the actionable part—three guiding principles for how employees should act. They're collaborative ("Together we") and framed as shared commitments. Here's a simplified breakdown:
 
    | Behaviour | Description | Plain English Takeaway | Example in Action |
-   |-----------|-------------|------------------------|-------------------|
+   | ----------- | ------------- | ------------------------ | ------------------- |
    | **Do the right thing** | Assertive, challenge one another, live with integrity, client-first. | Be bold but ethical—speak up, prioritize clients over shortcuts. | Spotting a risky deal? Flag it early, even if it's uncomfortable. |
    | **Never settle** | Strive to improve/innovate, keep it simple, learn from successes/failures. | Always iterate; simplicity wins, and growth comes from reflection. | After a project flops, debrief and tweak processes—no blame game. |
    | **Are better together** | Be yourself, inclusive, see good in others, build long-term collectively. | Teamwork > solo heroes; foster positivity for sustainable wins. | In a diverse team, actively listen to quieter voices for better ideas. |

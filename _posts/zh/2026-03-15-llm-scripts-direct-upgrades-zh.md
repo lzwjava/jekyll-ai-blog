@@ -103,7 +103,7 @@ sudo ufw delete allow 1022/tcp 2>/dev/null || true
 ## 正确的思维模型
 
 | 任务 | LLM 角色 |
-|---|---|
+| --- | --- |
 | 理解 `do-release-upgrade` 的作用 | ✅ 彻底解释 |
 | 编写升级前/后 shell 脚本 | ✅ 非常适合 |
 | 生成检查列表和运行手册 | ✅ 非常适合 |

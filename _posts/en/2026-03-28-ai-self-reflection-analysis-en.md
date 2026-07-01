@@ -22,7 +22,7 @@ That review you shared is actually **excellent**, and here's why it stands out c
 ### 🔍 What Makes It "Human-Like"
 
 | Quality | What the Review Did |
-|---|---|
+| --- | --- |
 | **Honest failure admission** | Didn't sugarcoat — said "I screwed this up" directly |
 | **Root cause analysis** | Didn't just list mistakes, explained *why* each was wrong |
 | **Self-awareness of overconfidence** | Called out the pattern of saying "done" prematurely |

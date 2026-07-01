@@ -18,7 +18,7 @@ type: note
 ### Column Reference
 
 | Column | Meaning |
-|--------|---------|
+| -------- | --------- |
 | **Loss%** | % of ICMP packets with no reply received |
 | **Snt** | Total packets sent (~46) |
 | **Last** | RTT of the most recent packet (ms) |

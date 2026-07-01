@@ -43,7 +43,7 @@ I'd check the actual UI behavior — if the "Create Snapshot" button is greyed o
 ## Bottom Line
 
 | Platform | Live Snapshot? | Safe for ML workloads? |
-|---|---|---|
+| --- | --- | --- |
 | DigitalOcean | Technically yes, but risky | Power off first |
 | AMD Dev Cloud | UI-dependent, likely needs stop | Stop instance first |
 

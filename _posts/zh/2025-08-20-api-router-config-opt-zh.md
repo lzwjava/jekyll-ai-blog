@@ -58,9 +58,9 @@ type: note
 
 ### 🔍 **按使用场景推荐**
 
-| 用途分类        | 推荐模型 |
-|---------------|-------------------|
-| **默认任务**     | `qwen/qwen3-coder` ✅（代码与通用任务表现俱佳） |
+| 用途分类 | 推荐模型 |
+| --------------- | ------------------- |
+| **默认任务** | `qwen/qwen3-coder` ✅（代码与通用任务表现俱佳） |
 | **后台/低优先级** | `google/gemini-2.5-flash-lite` 或 `mistralai/mistral-tiny`（更经济高效） |
 | **推理/思考** | `deepseek-chat` 或 `claude-3-haiku`（推理基准测试更优） |
 | **长上下文(>6.4万)** | `anthropic/claude-3-7-sonnet` 或 `yi-large`（比Gemini更可靠） |

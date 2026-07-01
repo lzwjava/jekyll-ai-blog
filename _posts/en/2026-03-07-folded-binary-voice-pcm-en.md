@@ -18,7 +18,7 @@ Answer:
 The standard 3-bit encoding table for PCM is as follows:
 
 | Quantization Level | Signal Polarity | Natural Binary Code | Folded Binary Code |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | +3 | Positive | 111 | **① 111** |
 | +2 | Positive | 110 | **② 101** |
 | +1 | Positive | 101 | 110 |

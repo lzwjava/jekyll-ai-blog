@@ -58,7 +58,7 @@ Also, the **Lite profile** is not included in the free IP replacement policy, an
 ## Summary Table
 
 | Condition | Free Change | Paid Change ($5) |
-|---|---|---|
+| --- | --- | --- |
 | Minimum account age | 7 days | 24 hours |
 | Cooldown between changes | 15 days | 24 hours |
 | IP blocked (ICMP + all TCP)? | Required | Not required |

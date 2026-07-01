@@ -114,7 +114,7 @@ The agent installation log is at: `<installFolder>\BMCINSTALL\log\BMC_Control-M_
 ### Summary Table
 
 | Parameter | Default Value | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Web Server Port | 18080 | Configurable during custom install |
 | EM TCP/IP Port | 2370 | Required open in firewall |
 | Config Agent Port | 2369 | Required open in firewall |

@@ -19,7 +19,7 @@ type: note
 ### Removed
 
 | What | Version | How | Freed |
-|------|---------|-----|-------|
+| ------ | --------- | ----- | ------- |
 | python.org framework | 3.11.6 | `sudo rm -rf /Library/Frameworks/Python.framework` + 14 symlinks in `/usr/local/bin` + `/Applications/Python 3.11` | ~200 MB |
 | python@3.13 (Homebrew) | 3.13.12 | `brew uninstall` (auto-removed as orphan after awscli/azure-cli deleted) | 72 MB |
 | awscli | 2.34.19 | `brew uninstall` | 154 MB |
@@ -32,7 +32,7 @@ type: note
 ### Remaining
 
 | Path | Version | Role | Depended on by |
-|------|---------|------|----------------|
+| ------ | --------- | ------ | ---------------- |
 | `/opt/homebrew/bin/python3` | 3.14.3 | **Default** (`python3`) | llvm, nmap, rust, yt-dlp, docutils + 85 tools |
 | `/opt/homebrew/bin/python3.11` | 3.11.14 | ML workhorse | accelerate, ctranslate2, chroma, alembic + 75 tools |
 | `/usr/bin/python3` | 3.9.6 | **macOS system** (Xcode CLT) | macOS internals, Xcode — can't remove (SIP protected) |

@@ -52,7 +52,7 @@ Answer:
 这远超出打字：
 
 | Shortcut behavior | What it actually trains |
-|---|---|
+| --- | --- |
 | Editing instead of retyping | Comfort with imprecision |
 | Apologizing but repeating the same mistake | Social patching, not change |
 | Explaining away a bad decision | Rationalization, not judgment |

@@ -93,7 +93,7 @@ These are checkpoint log messages, streamed out progressively so the user knows 
 ### Summary
 
 | Mechanism | How it works | Best for |
-|---|---|---|
+| --- | --- | --- |
 | SSE | One-way HTTP stream | Simple log streaming |
 | WebSocket | Persistent two-way socket | Interactive agents |
 | Polling | Repeated HTTP requests | Simple/legacy systems |

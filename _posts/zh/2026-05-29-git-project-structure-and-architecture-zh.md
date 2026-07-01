@@ -34,7 +34,7 @@ type: note
 ### 目录结构与子系统
 
 | 目录 | 用途 |
-|-----------|---------|
+| ----------- | --------- |
 | `builtin/` | 130 个命令实现（add.c、commit.c、merge.c、rebase.c...） |
 | `refs/` | 引用存储后端：files、packed、reftable |
 | `reftable/` | 新的二进制引用存储格式（比 packed-refs 更快、更紧凑） |
@@ -55,7 +55,7 @@ type: note
 ### 关键源文件（顶层目录）
 
 | 文件 | 功能 |
-|------|--------------|
+| ------ | -------------- |
 | `commit.c` | 提交对象的创建和解析 |
 | `merge.c`、`merge-ort.c` | 合并引擎（ORT = Ostensibly Recursive's Twin，现代三方合并） |
 | `diff.c`、`diffcore-*.c` | 差异管道：拆分、重命名检测、pickaxe、排序 |

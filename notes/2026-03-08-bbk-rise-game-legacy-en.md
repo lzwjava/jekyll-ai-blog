@@ -85,7 +85,7 @@ Meanwhile, after Duan Yongping left, Xiaobawang (Subor) lost its core direction.
 ### Summary Table
 
 | Era | Duan Yongping's Company | Key Products | Why It Grew |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1989–1995 | Subor / 小霸王 | NES Famiclone "learning machines" | Low-price Nintendo clone marketed as educational; Jackie Chan ads |
 | 1995–1999 | BBK (early) | VCD players, cordless phones, student computers | Aggressive CCTV advertising; Duan's brand-building expertise |
 | 1999–2001 | BBK (restructuring) | DVD players, educational electronics | Split into 3 independent divisions to improve agility |

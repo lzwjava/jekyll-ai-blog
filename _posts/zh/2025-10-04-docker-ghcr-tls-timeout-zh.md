@@ -151,7 +151,7 @@ type: note
 ### 命令摘要表
 
 | 步骤 | 命令/操作 |
-|------|-----------|
+| ------ | ----------- |
 | 重启 Docker | `sudo systemctl restart docker` |
 | 检查 Docker 状态 | `sudo systemctl status docker` |
 | 配置 DNS | 编辑 `/etc/docker/daemon.json` |

@@ -44,7 +44,7 @@ One `docker run` gives you an OpenAI-compatible `/v1/chat/completions` endpoint 
 ## How it differs from just running vLLM yourself
 
 | | Raw vLLM | NVIDIA NIM |
-|---|---|---|
+| --- | --- | --- |
 | Setup | Manual | One docker command |
 | Optimization | Generic | Per-model TensorRT-LLM profiles |
 | Support | Community | NVIDIA enterprise SLA |

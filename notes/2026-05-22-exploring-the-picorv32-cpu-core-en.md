@@ -22,7 +22,7 @@ PicoRV32 is a **RISC-V RV32IMC CPU core written in Verilog** — not software yo
 **Either works.** The core development flow uses:
 
 | Tool | Role | macOS (Homebrew) | Ubuntu/Linux |
-|------|------|------------------|--------------|
+| ------ | ------ | ------------------ | -------------- |
 | **Icarus Verilog** (`iverilog`/`vvp`) | Simulate the CPU in software | `brew install icarus-verilog` | `apt install iverilog` |
 | **Verilator** | Faster cycle-accurate C++ simulation | `brew install verilator` | `apt install verilator` |
 | **RISC-V GNU Toolchain** (`riscv32-unknown-elf-gcc`) | Compile C/asm → RISC-V binaries | Build from source or cross-compile | Same; some distros have packages |

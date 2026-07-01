@@ -83,7 +83,7 @@ This gives you alarm behavior without the clutter.
 ## Recommendation Summary
 
 | Method | Convenience | Clutter | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Your current 100 alarms | Medium | Very High | Not ideal |
 | iOS 17 Multiple Timers | High | Low | Most users |
 | Siri alarm | Very High | None | Quick, one-off |

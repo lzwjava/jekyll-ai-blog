@@ -132,7 +132,7 @@ type: note
 ### 与Jim Keller的比较
 
 | **方面** | **Jim Keller（硬件）** | **软件对应人物** |
-|----------|------------------------|------------------|
+| ---------- | ------------------------ | ------------------ |
 | **基础性工作** | K7、K8、Zen、A4/A5、Autopilot | Linux（Torvalds）、Python（van Rossum）、TensorFlow（Dean）、JavaScript（Eich）、敏捷/微服务（Fowler） |
 | **团队领导** | 重建AMD CPU团队，领导特斯拉自动驾驶芯片 | Torvalds（Linux社区）、Dean（谷歌大脑）、van Rossum（Python社区） |
 | **多公司影响** | DEC、AMD、苹果、特斯拉、英特尔、Tenstorrent | van Rossum（谷歌、Dropbox、微软）、Eich（网景、Mozilla、Brave）、Dean（谷歌） |

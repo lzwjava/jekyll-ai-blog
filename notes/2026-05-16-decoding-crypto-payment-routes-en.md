@@ -60,7 +60,7 @@ The gas fee (~$0.004) was paid by a **Paymaster** (`0x2FAEB076...`), so you didn
 ## Why So Many Hops?
 
 | Layer | Role |
-|---|---|
+| --- | --- |
 | Binance | You withdrew USDC to Base network |
 | MetaMask / Coinbase Wallet | Your wallet interface |
 | Coinbase Smart Wallet (ERC-4337) | On-chain smart contract wallet |

@@ -16,7 +16,7 @@ Here's what the data actually shows:
 ### 🏆 Top 10 This Week (by share)
 
 | Rank | Model | Share | Cost Level |
-|------|-------|-------|-------------|
+| ------ | ------- | ------- | ------------- |
 | 1 | Claude Opus 4.6 | 36% | Premium (Anthropic) |
 | 2 | Claude Sonnet 4.6 | 21% | Premium (Anthropic) |
 | 3 | DeepSeek V3.2 | 7% | **Very cheap** |

@@ -36,7 +36,7 @@ Little Lute, also known as Cai Yan or Cai Wenji, is a Support hero (roamer lane)
 Focus on magic power (for healing/damage), cooldown reduction (CDR), health, and survivability. She's squishy early, so build tanky-support items.
 
 | Slot | Core Item | Key Stats/Benefits |
-|------|-----------|---------------------|
+| ------ | ----------- | --------------------- |
 | Start | Sage’s Codex / Guardian–Redemption | Early sustain/shield for team. |
 | Boots | Boots of Tranquility / Boots of Deftness | 15% CDR, movement speed. |
 | 1 | Holy Grail | +180 magic power, 15% CDR, 500 HP, mana/HP regen. |

@@ -57,7 +57,7 @@ These need to become constructor-injected or service-locator resolved in CI4.
 ### 📋 Remaining Work (Priority Order)
 
 | Priority | Task | Effort |
-|---------|------|--------|
+| --------- | ------ | -------- |
 | 🔴 P0 | Fix `Database.php` to read env vars (`hostname => env('DB_HOST', 'database')`) | 5 min |
 | 🔴 P0 | Fix `BaseController` constructor — remove eager `new UserDao()` that triggers DB on every request | 10 min |
 | 🟡 P1 | Rewrite `JSSDK.php` for CI4 (`Services::curlrequest()`, `Services::cache()`) | ~1 hr |

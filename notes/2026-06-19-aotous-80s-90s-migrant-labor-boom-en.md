@@ -58,7 +58,7 @@ Hakka people from Meizhou share cultural and sometimes family ties with Huizhou 
 ## The Timeline
 
 | Period | What drew people |
-|--------|-----------------|
+| -------- | ----------------- |
 | Late 70s–early 80s | 逃港 attempts via fishing boats; existing fishing industry labor |
 | Mid 80s | Fishing port expansion, early coastal trade |
 | Early 90s | 大亚湾 开发区 construction boom — massive labor demand |

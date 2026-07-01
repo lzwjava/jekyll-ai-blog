@@ -14,7 +14,7 @@ Here's the breakdown:
 ### 📊 CUDA 13.2 Availability
 
 | Check | Result |
-|-------|--------|
+| ------- | -------- |
 | `cuda-toolkit-13-2` in repo? | ✅ **Yes** — available |
 | Driver 580 supports it? | ✅ **Yes** — driver 580 ships with CUDA 13.0 runtime, compatible with 13.2 toolkit |
 | Currently installed | CUDA 12.8 (toolkit) + Driver 580.126.09 |

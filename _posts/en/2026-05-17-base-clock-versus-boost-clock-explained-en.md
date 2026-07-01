@@ -22,7 +22,7 @@ This is a great observation! The large gap between **1885 MHz (base)** and **261
 ## 1. What Are These Two Clocks?
 
 | Clock Type | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | **Base Clock** | 1885 MHz | The absolute minimum guaranteed clock speed — worst case scenario (max load, max heat, low power budget) |
 | **Boost Clock** | 2615 MHz | The maximum achievable clock — best case scenario (light load, cool temps, full power budget) |
 
@@ -64,7 +64,7 @@ So your XFX card's **2615 MHz boost is the ceiling** — real-world gaming will 
 The GPU dynamically adjusts clocks based on **three real-time constraints**:
 
 | Constraint | Effect |
-|---|---|
+| --- | --- |
 | **Temperature** | If too hot → clock drops |
 | **Power limit (TDP/TGP)** | If hitting wattage cap → clock drops |
 | **Workload demand** | Light tasks → boosts high; heavy tasks → may throttle |

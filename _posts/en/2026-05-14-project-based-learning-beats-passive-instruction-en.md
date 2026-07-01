@@ -54,7 +54,7 @@ A real project forces you to jump between concepts: distributed systems → toke
 ## What Certifications Get Wrong
 
 | Certification / School | Project-Based |
-|---|---|
+| --- | --- |
 | Teaches to the test | Teaches to the problem |
 | Clean, solved examples | Messy, unsolved reality |
 | Passive absorption | Active construction |

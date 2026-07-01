@@ -18,7 +18,7 @@ type: note
 **GPU**：AMD Instinct MI300X (Aqua Vanjaram) — 虚拟功能直通
 
 | 项目 | 详情 |
-|------|--------|
+| ------ | -------- |
 | GPU | AMD Instinct MI300X VF (0x74b5) |
 | PCIe | Gen 5.0 x16 (32 GT/s) |
 | 内存 | 256 GB HBM3 |

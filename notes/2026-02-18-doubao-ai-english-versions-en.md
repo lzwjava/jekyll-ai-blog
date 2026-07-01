@@ -30,7 +30,7 @@ Yes, Doubao AI by ByteDance does have English support, but with important distin
 ## Key Takeaways
 
 | Feature | Doubao (China) | Cici/Dola (International) |
-|---------|---------------|---------------------------|
+| --------- | --------------- | --------------------------- |
 | Primary Language | Chinese | Multiple (English supported) |
 | Interface Language | Chinese-dominant | English and 17 other languages |
 | Availability | Mainland China | Global markets |

@@ -35,7 +35,7 @@ Senior engineers with directly relevant experience — whether deep domain exper
 You nailed this point. They are indeed **two separate dimensions**:
 
 | Dimension | What it evaluates |
-|---|---|
+| --- | --- |
 | Interview performance | Technical skill, problem-solving, communication |
 | Social media presence | Public profile, thought leadership, brand awareness |
 

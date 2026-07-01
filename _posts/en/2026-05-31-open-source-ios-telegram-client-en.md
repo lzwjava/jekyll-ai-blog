@@ -27,7 +27,7 @@ Here's what you're looking at:
 The project is built with **Bazel** via a `build-system/Make/Make.py` wrapper. It's organized into:
 
 | Directory | Purpose |
-|-----------|---------|
+| ----------- | --------- |
 | `Telegram/` | Main app target, extensions (NotificationContent, Share, Watch, WidgetKitWidget, SiriIntents) |
 | `submodules/` | **273 internal libraries** — the bulk of the codebase |
 | `third-party/` | Vendored C/C++ deps (ffmpeg, openssl, sqlcipher, libvpx, opus, webrtc, rlottie, libjxl, dav1d, mozjpeg, libyuv) |

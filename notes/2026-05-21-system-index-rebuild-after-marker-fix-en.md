@@ -12,7 +12,7 @@ type: note
 Here's the result:
 
 | Before | After |
-|---|---|
+| --- | --- |
 | Load average: **18+** | **7.58** (dropping) |
 | mdworker processes: **13** | **0** (gone) |
 | mds touching excluded dirs? | **No** — markers working |

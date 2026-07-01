@@ -35,7 +35,7 @@ The "downloads source" behavior is mostly a Pylance (VS Code) thing — it fetch
 **For your workflow specifically:**
 
 | Factor | Verdict |
-|---|---|
+| --- | --- |
 | You write Python CLI agents, LLM tooling | ✅ High value — catches wrong arg types in API calls |
 | You use LLM SDKs (Anthropic, OpenAI) | ✅ Both ship `py.typed` — Pyright gives you full completions + type errors |
 | You vibe-code fast and iterate in REPL | ⚠️ Can slow you down if you over-enforce |
@@ -90,7 +90,7 @@ Use `basic` mode, not `strict`. Strict mode on an ML codebase will drown you in 
 ## Alternatives Worth Knowing
 
 | Tool | Speed | Accuracy | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Pyright** | Fast (after cache) | Best | Large codebases, SDK usage |
 | **mypy** | Slow | Good | Legacy, CI gates |
 | **ruff** (type hints) | Instant | Surface only | Linting, not deep type checking |

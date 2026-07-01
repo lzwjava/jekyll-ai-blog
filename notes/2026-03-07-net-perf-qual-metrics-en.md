@@ -74,7 +74,7 @@ Cost refers to the total economic expenditure required to design, build, operate
 ## Summary Table
 
 | Non-Quantitative Indicator | Core Meaning |
-|---|---|
+| --- | --- |
 | **QoS** (Service Quality) | Overall user-perceived service experience |
 | **Reliability** | Ability to operate correctly and consistently |
 | **Scalability** | Ability to grow and adapt without performance loss |

@@ -41,7 +41,7 @@ Here's the honest assessment:
 ### What COULD work with aggressive modifications
 
 | Change | Impact |
-|--------|--------|
+| -------- | -------- |
 | Use a much smaller target model (e.g. Qwen3-0.6B if it exists) | Fits in 12 GB |
 | Drastically reduce training data (100 samples instead of 1.3M) | Cache fits in ~few GB |
 | Use gradient checkpointing + bf16 + `local_batch_size=1` | Reduces VRAM |

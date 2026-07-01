@@ -88,7 +88,7 @@ The high expectations from others and themselves could become quite disabling â€
 ## Summary Table
 
 | Trait | Description |
-|---|---|
+| --- | --- |
 | **High energy** | Psychomotor overexcitability â€” always in motion, thinking fast |
 | **Hypersensitive** | Feels emotions and sensory input more intensely than others |
 | **Very smart** | Deep processing, pattern recognition, strong intuition |

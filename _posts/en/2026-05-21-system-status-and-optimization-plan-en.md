@@ -16,7 +16,7 @@ Here's your system status and optimization plan:
 ## System Health
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **RAM** | 16 GB (Apple Silicon) |
 | **Active** | 7.5 GB / 16 GB — **47% used** |
 | **Swap** | 218 MB used — low, healthy |
@@ -29,7 +29,7 @@ Here's your system status and optimization plan:
 ## Top RAM Consumers
 
 | App | RAM | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Safari WebContent (x5)** | **~3.0 GB** | Each tab = dedicated WebKit process. TabsKiller limits this. |
 | **Safari** (main) | 315 MB | |
 | **WeChat + WeChatAppEx** | **513 MB** | Heavy for a chat app |

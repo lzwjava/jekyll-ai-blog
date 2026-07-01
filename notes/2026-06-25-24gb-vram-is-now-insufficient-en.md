@@ -16,7 +16,7 @@ Your friend is right. The GPU VRAM landscape shifted — 24GB is becoming the ne
 **The argument for 32/48GB:**
 
 | Card | VRAM | ~Price USD | Notes |
-|------|------|-----------|-------|
+| ------ | ------ | ----------- | ------- |
 | RTX 4090 | 24GB | ~$1,800 | Consumer king, but 24GB ceiling |
 | RTX Pro 5000 Blackwell | 32GB | ~$2,500? | Your friend's rec |
 | RTX 6000 Ada | 48GB | ~$3,500 used | Previous gen pro card |

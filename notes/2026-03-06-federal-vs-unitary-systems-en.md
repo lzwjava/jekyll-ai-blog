@@ -120,7 +120,7 @@ EU policymaking on China is shaped by multiple geopolitical trends and member st
 ## Summary Comparison Table
 
 | Aspect | Unitary/Centralized (China-type) | Multi-state/Federal (EU-type) |
-|---|---|---|
+| --- | --- | --- |
 | **Decision speed** | ✅ Fast | ❌ Slow |
 | **Local responsiveness** | ❌ Weak | ✅ Strong |
 | **Economic uniformity** | ✅ High | ❌ Uneven |

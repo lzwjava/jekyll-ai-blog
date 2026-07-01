@@ -20,7 +20,7 @@ The DB contains your nanochat training runs from the MI300X (amd-cloud). Here's 
 **3 Experiments, 5 Runs:**
 
 | Run Name | Status | Key Metrics (latest step) |
-|---|---|---|
+| --- | --- | --- |
 | smoke-test | FINISHED | loss: 3.2 (step 1) |
 | test-mi300x | FINISHED | loss: 10.40, mfu: 2.8%, tok/s: 7,009 (step 0) |
 | test-mi300x-bs64 | FINISHED | loss: 10.40, mfu: 3.4%, tok/s: 8,292 (step 0) |

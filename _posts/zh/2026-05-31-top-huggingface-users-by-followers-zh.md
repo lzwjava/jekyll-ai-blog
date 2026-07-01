@@ -18,7 +18,7 @@ Hugging Face 并未以官方形式发布清晰的“关注者排行榜”——�
 ## 头部 HF 员工/内部成员（按关注人数）
 
 | 用户标识 | 姓名 | 角色 | 大约关注数 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **thomwolf** | Thomas Wolf | HF 联合创始人/首席科学官 | ~30,000+ |
 | **pcuenq** | Pedro Cuenca | HF 研究工程师 | ~20,000+ |
 | **merve** | Merve Noyan | HF 开发者倡导者 | ~15,000+ |
@@ -32,7 +32,7 @@ Thomas Wolf 很可能是关注人数最多的个人用户——他是 HF 技术�
 ## 头部社区贡献者（非 HF 员工）
 
 | 用户标识 | 姓名 | 知名原因 | 大约关注数 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **teknium** | Nathan Cooper | OpenHermes、Hermes 系列、NousResearch | ~7,300 |
 | **TheBloke** | Tom Jobbins | 量化模型上传（GGUF、GPTQ） | ~6,000+ |
 | **bartowski** | — | GGUF 量化、LM Studio | ~5,000+ |

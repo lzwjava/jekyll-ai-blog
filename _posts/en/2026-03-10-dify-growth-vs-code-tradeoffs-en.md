@@ -70,7 +70,7 @@ The key insight is that **the GUI is not simpler in absolute terms — it's simp
 ### 4. Summary: When to Use What
 
 | Situation | Recommendation |
-|---|---|
+| --- | --- |
 | Non-technical team, standard RAG/chatbot/agent | Dify — clear winner |
 | Rapid prototyping / validating an AI idea | Dify — much faster |
 | Custom business logic, high performance needs | Code directly (Python + LLM SDK) |

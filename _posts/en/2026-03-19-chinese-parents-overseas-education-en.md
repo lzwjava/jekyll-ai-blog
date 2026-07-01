@@ -76,7 +76,7 @@ A 2023 survey by New Oriental Education and Kantar found that among students and
 ### Summary Table
 
 | Destination | Approx. Annual Cost (Tuition + Living) | In CNY (approx.) |
-|---|---|---|
+| --- | --- | --- |
 | US (top private university) | $80,000–$100,000 | ¥580,000–¥730,000 |
 | UK (London, top uni) | £35,000–£55,000 | ¥320,000–¥500,000 |
 | Australia (major city) | AUD $45,000–$60,000 | ¥220,000–¥300,000 |

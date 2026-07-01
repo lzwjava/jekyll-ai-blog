@@ -30,8 +30,8 @@ The game is still maintained and run by its developer, NetDragon Websoft Inc. Ho
 | :--- | :--- | :--- |
 | **Leveling** | Slow and grindy; required hours in Gobi Desert/Icyland. | **Extremely Fast.** Early leveling is heavily accelerated, with many systems (like the Adventure Pass) and quests designed to boost new players to the high-level content very quickly. |
 | **Classes** | Warrior and Mage were the main classes. | Many new classes have been added (e.g., Vampire, Necromancer, Shadow Knight, Star Sage), significantly changing the combat meta. |
-| **Pace/Content**| Focused on farming and Legion Wars. | Much more content, including Divine Fire systems, Apotheosis, Curio items, new Eudemon features (like Spirit Beasts), and a focus on Cross-Server (CS) PvP and instances. |
-| **Monetization**| Became Pay-to-Win (P2W) but still somewhat manageable. | **Highly P2W-focused.** The game has evolved to introduce powerful Eudemons and high-stat gear mostly obtainable through the cash shop or massive in-game wealth, making competing in high-end PvP challenging for pure Free-to-Play players. |
+| **Pace/Content** | Focused on farming and Legion Wars. | Much more content, including Divine Fire systems, Apotheosis, Curio items, new Eudemon features (like Spirit Beasts), and a focus on Cross-Server (CS) PvP and instances. |
+| **Monetization** | Became Pay-to-Win (P2W) but still somewhat manageable. | **Highly P2W-focused.** The game has evolved to introduce powerful Eudemons and high-stat gear mostly obtainable through the cash shop or massive in-game wealth, making competing in high-end PvP challenging for pure Free-to-Play players. |
 | **Community** | The original English and Chinese servers are still running, with occasional **new servers** launching to give new players a fresh start (often called "Everest" or "BeastEra" servers, as of recent events in 2025). |
 
 If you play the official game today, you will be jumping into a very evolved, complex, and high-speed MMORPG that bears the core mechanics but not the slow, nostalgic pace of the original.

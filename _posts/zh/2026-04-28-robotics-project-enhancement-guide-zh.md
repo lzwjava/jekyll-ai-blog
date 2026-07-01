@@ -186,7 +186,7 @@ pub struct WorldState {
 ## 7. 其他重要文件
 
 | 文件 | 用途 |
-|---|---|
+| --- | --- |
 | `.gitignore` | 排除 `target/`, `*.hex`, `__pycache__/`, `.env` |
 | `CHANGELOG.md` | 使用语义化版本控制（1.0.0, 1.1.0…）追踪版本 |
 | `CONTRIBUTING.md` | 贡献者指南 |

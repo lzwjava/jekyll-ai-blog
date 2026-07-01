@@ -18,7 +18,7 @@ Answer:
 ### The Two Phrases
 
 | Phrase | Literal Meaning | Core Idea |
-|---|---|---|
+| --- | --- | --- |
 | 六合同风 | The six directions share the same customs | Cultural and social unification across all regions |
 | 四海一家 | The four seas are one family | All people under heaven are unified as one |
 
@@ -40,7 +40,7 @@ The **core message** of both phrases is: despite geographic and ethnic differenc
 ### Why NOT the Other Options?
 
 | Option | Characteristic | Why It Doesn't Fit |
-|---|---|---|
+| --- | --- | --- |
 | A | 创新性 (Innovation) | Neither phrase discusses new ideas or creativity |
 | **B** | **和平性 (Peacefulness)** | **These phrases do NOT discuss peace, non-aggression, or harmony with other nations** |
 | C | 连续性 (Continuity) | Neither phrase discusses historical continuity over time |

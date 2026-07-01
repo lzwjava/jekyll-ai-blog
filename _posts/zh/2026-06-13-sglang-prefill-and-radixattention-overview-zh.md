@@ -143,7 +143,7 @@ curl http://localhost:30000/v1/chat/completions \
 ## SGLang 与 vLLM 在 Prefill 上的对比
 
 | 特性 | SGLang | vLLM |
-|---|---|---|
+| --- | --- | --- |
 | 前缀缓存 | RadixTree（自动，LRU） | 基于哈希（手动） |
 | 分块 prefill | 是 | 是 |
 | PD 分离 | 原生（Mooncake） | 单独（Dynamo） |

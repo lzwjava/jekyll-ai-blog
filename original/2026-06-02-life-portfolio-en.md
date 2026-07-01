@@ -138,7 +138,7 @@ In January 2026, I took the IELTS Academic test. For someone who learned English
 **Scores:**
 
 | Skill | Band |
-|-------|------|
+| ------- | ------ |
 | Listening | 6.0 |
 | Reading | 8.5 |
 | Writing | 6.0 |
@@ -197,7 +197,7 @@ I started reversing myopia in 2022, inspired by Todd Becker's 2014 talk "Myopia:
 Over four years, my results:
 
 | Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism |
-|------|-----------------|----------------------|------------------|-----------------------|
+| ------ | ----------------- | ---------------------- | ------------------ | ----------------------- |
 | 2022.03 | -3.50 | -2.25 | -5.75 | -1.75 |
 | 2023.04 | -3.00 | -1.25 | -5.00 | -1.25 |
 | 2024.11 | -2.50 | -1.00 | -4.25 | -1.25 |
@@ -237,7 +237,7 @@ These influences converge in how I work: build things, write about them publicly
 Over 12 years of engineering, my code and content have reached more than 150 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
 
 | Project | Role | Impact |
-|---------|------|--------|
+| --------- | ------ | -------- |
 | **Chongding Conference** (冲顶大会) | Backend engineer | ~50 million users — a mobile trivia app similar to HQ Trivia, one of the hottest apps in China in early 2018 |
 | **PayMe by HSBC** | Backend engineer | ~3 million users — Hong Kong's leading peer-to-peer payment app |
 | **LeanCloud** | SDK engineer | 200,000+ developers served, indirectly impacting ~50 million end users through apps built on the platform |
@@ -254,7 +254,7 @@ The numbers matter less than the pattern: every project I've touched, from a 3,5
 Self-taught through China's higher education self-study examination system (自学考试), while working full-time. This is how I earned my degree without attending university full-time — studying on my own schedule, passing exams one by one.
 
 | Course Code | Course Name | Exam Date | Pass Method | Score | Credits |
-|-------------|-------------|-----------|-------------|-------|---------|
+| ------------- | ------------- | ----------- | ------------- | ------- | --------- |
 | 08553 | Introduction to Programming—Java | 202601 | Exam | 88 | 4 |
 | 14567 | Mobile Application Development Technology | 202601 | Exam | 60 | 5 |
 | 13167 | Web Design and Production | 202601 | Exam | 71 | 5 |

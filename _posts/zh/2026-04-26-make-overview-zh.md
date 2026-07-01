@@ -47,7 +47,7 @@ Make.com 作为**授权中间件**运行。它不进行黑客攻击或爬取 —
 #### 对于社交媒体（Facebook, YouTube, Instagram, TikTok）
 
 | 平台 | Make.com 如何连接？ | 需要什么访问权限？ |
-|---|---|---|
+| --- | --- | --- |
 | **Facebook** | 通过 OAuth 使用 Facebook Graph API | 访问您的页面帖子、评论、消息 |
 | **YouTube** | 通过 Google OAuth 使用 YouTube Data API | 读取/回复您频道视频的评论 |
 | **Instagram** | Instagram Graph API（仅限商业账户） | 商业账户帖子的评论 |
@@ -118,7 +118,7 @@ Make.com 通过 WhatsApp API 发送回复
 Make.com 连接到一个庞大的生态系统：
 
 | 类别 | 示例 |
-|---|---|
+| --- | --- |
 | 社交媒体 | Facebook, Instagram, YouTube, LinkedIn, Twitter/X |
 | 即时通讯 | WhatsApp（通过 API）, Telegram, Slack, Discord |
 | 电子邮件 | Gmail, Outlook, Mailchimp, SendGrid |
@@ -190,7 +190,7 @@ Make.com 连接到一个庞大的生态系统：
 Make.com 内置了在流程中处理数据的工具：
 
 | 工具 | 用例 |
-|---|---|
+| --- | --- |
 | **文本解析器** | 使用正则表达式从消息中提取关键词 |
 | **JSON 模块** | 解析和构建 JSON 有效负载 |
 | **数组聚合器** | 将多个结果合并为一个 |
@@ -224,7 +224,7 @@ Make.com 拥有一个**模板库**，包含数千个可供克隆和自定义的�
 Make.com 采用 **基于操作数的定价**（不同于 Zapier 的基于任务数的定价）：
 
 | 计划 | 每月操作数 | 价格 |
-|---|---|---|
+| --- | --- | --- |
 | **免费版** | 1,000 次操作 | $0 |
 | **核心版** | 10,000 次操作 | 约 $9/月 |
 | **专业版** | 10,000+ 次操作 | 约 $16/月 |
@@ -240,7 +240,7 @@ Make.com 采用 **基于操作数的定价**（不同于 Zapier 的基于任务�
 ### 🆚 Make.com 与竞争对手对比
 
 | 功能 | Make.com | Zapier | n8n |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 可视化构建器 | ✅ 优秀 | ✅ 良好 | ✅ 良好 |
 | 复杂度处理 | ✅ 非常高 | ⚠️ 中等 | ✅ 非常高 |
 | 价格 | ✅ 实惠 | ❌ 昂贵 | ✅ 免费（自托管） |
@@ -254,7 +254,7 @@ Make.com 采用 **基于操作数的定价**（不同于 Zapier 的基于任务�
 ### ✅ 总结：为什么 Make.com 是 AI 营销流程的核心
 
 | 需求 | Make.com 解决方案 |
-|---|---|
+| --- | --- |
 | 监控社交评论 | 带有关键词过滤器的 Facebook/YouTube 模块 |
 | 自动发布 AI 回复 | 通过 Graph API 执行发布评论操作 |
 | 接收 WhatsApp 消息 | WhatsApp API 提供商的 Webhook |

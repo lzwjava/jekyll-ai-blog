@@ -20,7 +20,7 @@ The old runner labels used `node:16-bullseye` — a bare Node.js image with no P
 Switched to **[catthehacker/ubuntu](https://github.com/catthehacker/docker_images)** images — these are purpose-built for GitHub Actions emulation:
 
 | Label | Image | Pre-installed |
-|---|---|---|
+| --- | --- | --- |
 | `ubuntu-latest` | `catthehacker/ubuntu:act-latest` | Node, Python, Go, Java, Ruby, PHP, etc. |
 | `ubuntu-22.04` | `catthehacker/ubuntu:act-22.04` | Same, Ubuntu 22.04 base |
 | `ubuntu-20.04` | `catthehacker/ubuntu:act-20.04` | Same, Ubuntu 20.04 base |

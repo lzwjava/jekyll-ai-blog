@@ -81,7 +81,7 @@ git check-ignore -v .env
 ### 生产环境 / CI
 
 | 场景 | 工具 |
-|---|---|
+| --- | --- |
 | GitHub Actions | [加密密钥](https://docs.github.com/en/actions/security-guides/encrypted-secrets)（通过 `设置 → 密钥`） |
 | 任何云平台 | AWS Secrets Manager、GCP Secret Manager、Azure Key Vault |
 | 自托管 | HashiCorp Vault |
@@ -110,7 +110,7 @@ bfg --replace-text secrets.txt my-repo.git
 ## 总结
 
 | 存储方式 | 安全吗？ |
-|---|---|
+| --- | --- |
 | 私有 GitHub 仓库 | ❌ 不安全 |
 | 公开 GitHub 仓库 | ❌ 绝对不安全 |
 | `~/.bashrc` / `~/.zshrc`（本地） | ✅ 本地开发可行 |

@@ -56,7 +56,7 @@ This mirrors what your daughter is doing — the key benefit is not just the con
 ## 💡 Summary of What's Great Here
 
 | Skill Observed | Why It Matters |
-|---|---|
+| --- | --- |
 | Typing a password independently | Keyboard literacy, memory, fine motor skills |
 | Navigating Bilibili | Digital literacy, autonomy, problem-solving |
 | Choosing content she enjoys | Intrinsic motivation, self-direction |

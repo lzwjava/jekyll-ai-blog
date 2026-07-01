@@ -66,7 +66,7 @@ There's a caveat worth knowing: according to cognitive load theory, the speed an
 ## In Summary
 
 | Video Length | Best for Conveying |
-|---|---|
+| --- | --- |
 | 3 seconds | One emotion, one visual punch, brand recognition |
 | 5 seconds | A hook + a reaction, before/after contrast |
 | 10 seconds | A mini-story arc: problem → insight → shift |

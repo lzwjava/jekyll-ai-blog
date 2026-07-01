@@ -72,7 +72,7 @@ That level of **observe → reason → act** is exactly what makes Claude Code m
 ### Quick Reference
 
 | Action | Browser | CLI (`gh`) | Claude Code |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Trigger workflow | 4–5 clicks | 1 command | Automatic |
 | Check status | Refresh page | `gh run list` | Automatic |
 | React to result | Manual | Scripted | Intelligent |

@@ -51,7 +51,7 @@ Yes, this is generally considered **good terminal UI design**. Here's why:
 ### ⚠️ Potential Downsides
 
 | Issue | Detail |
-|---|---|
+| --- | --- |
 | **Log noise** | If you pipe or log output, box characters become ugly unicode garbage |
 | **Narrow terminals** | Boxes can wrap badly on small terminal widths |
 | **Screen reader unfriendly** | ASCII box-drawing chars can be inaccessible |

@@ -22,7 +22,7 @@ This is an **unofficial but widely-used** GitHub Copilot internal API endpoint t
 ## Endpoint Details
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Method** | `GET` |
 | **URL** | `https://api.githubcopilot.com/models` |
 | **Auth** | Bearer token (Copilot OAuth token, not a GitHub PAT) |
@@ -135,7 +135,7 @@ async function handleModelCommand(copilotToken: string) {
 ## Key Benefits of Dynamic Fetching vs. Hardcoding
 
 | Hardcoded | Dynamic (`/models` endpoint) |
-|---|---|
+| --- | --- |
 | Breaks when GitHub adds/removes models | Always up-to-date |
 | May show models the user can't access | Only shows subscription-supported models |
 | Requires code change to update | Zero maintenance |

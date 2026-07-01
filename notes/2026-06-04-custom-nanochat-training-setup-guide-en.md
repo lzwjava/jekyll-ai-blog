@@ -97,7 +97,7 @@ Attach: `tmux attach -t train`
 ### Key Flags Reference
 
 | Flag | What it does | VRAM impact |
-|---|---|---|
+| --- | --- | --- |
 | `--depth` | Transformer layers (4=tiny, 12=small, 20=default) | High |
 | `--max-seq-len` | Context length (512/1024/2048) | High |
 | `--device-batch-size` | Per-GPU batch size | High — first thing to reduce if OOM |

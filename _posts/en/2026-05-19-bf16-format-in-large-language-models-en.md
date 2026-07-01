@@ -111,7 +111,7 @@ During training you still have optimizer states (Adam: 2x FP32 copies of params 
 Modern GPUs have native BF16 tensor cores:
 
 | GPU | BF16 TFLOPS | FP32 TFLOPS | Speedup |
-|-----|-------------|-------------|---------|
+| ----- | ------------- | ------------- | --------- |
 | A100 80GB | 312 | 19.5 | 16x |
 | H100 SXM | 989 | 67 | ~15x |
 | RTX 4090 | 165 | 82.6 | 2x |
@@ -203,7 +203,7 @@ Weights stored in INT4 (~3.5 GB for 7B), dequantized to BF16 on-the-fly for matm
 ## BF16 vs FP16: When to Use Which
 
 | Scenario | Recommendation |
-|----------|---------------|
+| ---------- | --------------- |
 | Training on A100/H100 | **BF16** — always |
 | Training on older GPUs (V100) | FP16 + GradScaler (V100 has no BF16 tensor cores) |
 | Inference on consumer GPU | BF16 if supported, else FP16 |

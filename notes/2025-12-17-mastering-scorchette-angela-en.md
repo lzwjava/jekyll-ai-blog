@@ -19,8 +19,8 @@ Scorchette is a popular skin for **Angela**, a versatile **Mid Lane Mage** in Ho
 
 Angela's fiery kit revolves around stacking passive damage amps via skills, then bursting with CC.
 
-| Ability          | Type                  | Description |
-|------------------|-----------------------|-------------|
+| Ability | Type | Description |
+| ------------------ | ----------------------- | ------------- |
 | **Passive: Flame Incantation** | Speed/Damage Amp | Skills hitting enemies boost your Movement Speed. Affected foes take increased damage from your next skills (stacks for burst). |
 | **Skill 1: Scorching Barrage** | Magic Damage (AoE) | Unleash fireballs in target area for multi-hit magic damage. Great for poke/farm. **Max first** for clear. |
 | **Skill 2: Chaos Cinder** | Magic Damage + CC | Hurl fireball: explodes on hit/max range into firestorm (slows/damages AoE). **Direct hit stuns** target. Core CC tool. |
@@ -32,15 +32,15 @@ Angela's fiery kit revolves around stacking passive damage amps via skills, then
 
 Focus magic power, CDR (cooldown reduction), penetration for one-shots.
 
-| Slot       | Item                  | Why? |
-|------------|-----------------------|------|
+| Slot | Item | Why? |
+| ------------ | ----------------------- | ------ |
 | **Boots** | Boots of the Arcane | Magic power + CDR. |
 | **Core 1** | Scepter of Reverberation | CDR + magic burst amp. |
 | **Core 2** | Savant’s Wrath | High magic power + lifesteal. |
 | **Core 3** | Insatiable Tome | CDR + stacking damage. |
 | **Core 4** | Void Staff | Magic pen vs tanks. |
 | **Core 5** | Tome of Wisdom | Max power + CDR cap. |
-| **Flex**   | Twilight Stream (sustained) or Mask of Agony (burst) | Adapt to enemy (anti-heal/tank shred). |
+| **Flex** | Twilight Stream (sustained) or Mask of Agony (burst) | Adapt to enemy (anti-heal/tank shred). |
 
 - **Start**: Stone of Sorcery.
 - **Arcana**: 10x Nightmare (magic power/pen), 10x Hunter (attack speed/CDR), 10x Mind’s Eye (pen).

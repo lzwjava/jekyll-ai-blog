@@ -36,7 +36,7 @@ GitHub Copilot 的 API 内部仅向来自 VSCode 的 OAuth token 开放。Copilo
 ## 官方门户与自定义门户比较
 
 | 场景 | CORS 问题？ |
-|---|---|
+| --- | --- |
 | 官方 `github.com/copilot` 门户 | ❌ 否 — 与 GitHub 服务器相同来源 |
 | 您自己的其他域名 web 前端 | ✅ 是 — 被浏览器 CORS 策略阻止 |
 | 服务器端后端调用 API（Node.js、Python 等） | ❌ 否 — CORS 仅适用于浏览器 |

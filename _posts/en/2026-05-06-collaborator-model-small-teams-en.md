@@ -70,7 +70,7 @@ The **best practice for small teams** is:
 ## Summary Table
 
 | Aspect | Fork + PR | Collaborator + Branch PR | Collaborator + Direct Push to Main |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Speed | Slowest | Fast | Fastest |
 | Safety | Highest | High | Risky |
 | Best for | Open source / external contributors | Small trusted teams | Hobby / solo-ish projects |

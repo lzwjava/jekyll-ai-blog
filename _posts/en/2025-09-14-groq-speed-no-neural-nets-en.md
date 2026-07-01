@@ -30,7 +30,7 @@ Below is a deeper dive that explains:
 ## 1. GROQ = Compiled, Column‑Store Query Language (no neural nets)
 
 | Component | What it does | Why it’s fast (vs. a model) |
-|-----------|--------------|-----------------------------|
+| ----------- | -------------- | ----------------------------- |
 | **Content Lake** (binary‑packed, column‑oriented store) | Stores each field in its own sorted, compressed column. | A filter can be satisfied by scanning a single tiny column; no need to deserialize whole JSON objects. |
 | **Query compilation** | Parses the GROQ string once, builds an AST, creates a reusable execution plan. | The expensive parsing work is done only once; later calls just reuse the plan. |
 | **Push‑down filtering & projection** | Evaluates predicates while reading the column, and only pulls the columns you ask for. | I/O is minimized; the engine never touches data that won’t appear in the result. |
@@ -45,7 +45,7 @@ All of these are **deterministic, integer‑oriented operations** that run on a 
 ## 2. Transformer inference – why it’s slower (by design)
 
 | Step in a typical transformer‑based service | Typical cost | Reason it’s slower than a pure index scan |
-|---------------------------------------------|--------------|-------------------------------------------|
+| --------------------------------------------- | -------------- | ------------------------------------------- |
 | **Tokenisation** (text → token IDs) | ~0.1 ms per 100 bytes | Still cheap, but adds overhead. |
 | **Embedding lookup / generation** (matrix‑multiply) | 0.3 – 2 ms per token on a CPU; < 0.2 ms on a GPU/TPU | Requires floating‑point linear algebra on large weight matrices (often 12 – 96 layers). |
 | **Self‑attention (K‑Q‑V) for each layer** | O(N²) per token‑sequence length (N) → ~1 – 5 ms for short sentences on a GPU; much more for longer sequences. | Quadratic scaling makes long inputs expensive. |
@@ -69,7 +69,7 @@ So when you see a **“GROQ is fast”** claim, it is *not* because Sanity has s
 Sanity is a **headless CMS**, not a machine‑learning platform. However, the ecosystem encourages a few common ways to sprinkle AI into a content workflow:
 
 | Use‑case | How it is typically wired up | Where the latency comes from |
-|----------|-----------------------------|------------------------------|
+| ---------- | ----------------------------- | ------------------------------ |
 | **Semantic search** (e.g., “find articles about *react hooks*”) | 1️⃣ Export candidate documents → 2️⃣ Generate embeddings (OpenAI, Cohere, etc.) → 3️⃣ Store embeddings in a vector DB (Pinecone, Weaviate, etc.) → 4️⃣ At query time: embed the query → 5️⃣ Vector similarity search → 6️⃣ Use the resulting IDs in a **GROQ** filter (`*_id in $ids`). | The heavy part is steps 2‑5 (embedding generation + vector similarity). Once you have the IDs, step 6 is a regular GROQ call and is *instant*. |
 | **Content‑generation assistants** (auto‑fill a field, draft copy) | Front‑end sends a prompt to an LLM (OpenAI, Anthropic) → receives generated text → writes back to Sanity via its API. | The LLM inference latency dominates (usually 200 ms‑2 s). The subsequent write is a normal GROQ‑driven mutation (fast). |
 | **Auto‑tagging / classification** | A webhook triggers on document create → serverless function calls a classifier model → writes back tags. | The classifier inference time (often a tiny transformer) is the bottleneck; the write path is fast. |
@@ -82,7 +82,7 @@ Sanity is a **headless CMS**, not a machine‑learning platform. However, the ec
 If you do need that AI step to be low‑latency, providers use a mix of engineering tricks:
 
 | Trick | Effect on latency |
-|-------|-------------------|
+| ------- | ------------------- |
 | **Model quantisation (int8/4‑bit)** | Reduces FLOPs → 2‑5× speed‑up on the same hardware. |
 | **GPU/TPU serving with batch‑size = 1 optimisation** | Removes batch‑norm overhead; keeps GPU warm. |
 | **Compiled kernels (TensorRT, ONNX Runtime, XLA)** | Eliminates Python‑level overhead, fuses ops. |
@@ -105,7 +105,7 @@ Overall ≈ 40 ms – fast enough for many UI experiences, but **the bottlen
 ## 4. Quick latency comparison (illustrative numbers)
 
 | Scenario | Typical latency (median) | What dominates |
-|----------|--------------------------|----------------|
+| ---------- | -------------------------- | ---------------- |
 | **Pure GROQ filter & projection** (`*[_type=="post" && publishedAt < now()]{title,slug}`) | 10‑30 ms (cold), 5‑12 ms (warm) | Column reads + plan cache |
 | **GROQ + vector‑search (semantic)** (`*[_id in $ids]{title,slug}` after embedding) | 35‑60 ms total | Embedding generation + vector DB lookup |
 | **Full‑text search using an external LLM** (`openai embeddings → vector DB → GROQ`) | 80‑150 ms | LLM inference + network hop |

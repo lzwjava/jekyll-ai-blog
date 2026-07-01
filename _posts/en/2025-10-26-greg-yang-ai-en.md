@@ -27,7 +27,7 @@ Yang's research centers on **Tensor Programs**, a framework for analyzing infini
 Here's a snapshot of his most impactful papers (based on citations; he has ~34 publications total with hundreds of influential citations across fields like ML, theoretical CS, and math):
 
 | Title | Year | Citations | Key Insight |
-|-------|------|-----------|-------------|
+| ------- | ------ | ----------- | ------------- |
 | Provably robust deep learning via adversarially trained smoothed classifiers | 2019 | 700+ | Introduces certified robustness against adversarial attacks, making AI models more reliable in security-critical apps. |
 | Bayesian Deep Convolutional Networks with Many Channels are Gaussian Processes | 2018 | 425+ | Shows wide CNNs behave like Gaussian processes, enabling better uncertainty estimation in deep learning. |
 | Scaling limits of wide neural networks with weight sharing... (Neural Tangent Kernel derivation) | 2019 | 343+ | Derives the NTK formally, explaining training dynamics in overparameterized models—crucial for modern scaling. |

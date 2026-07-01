@@ -141,7 +141,7 @@ Rust borrow checking 的下一个前沿是 Polonius —— 从 2018 年的 NLL �
 ### 13. 总结表格
 
 | Concept | Rule |
-|---|---|
+| --- | --- |
 | Ownership | 每个值恰好有一个所有者 |
 | Move | Ownership 转移；原始绑定变为无效 |
 | Immutable borrow (`&T`) | 可同时允许多个 |

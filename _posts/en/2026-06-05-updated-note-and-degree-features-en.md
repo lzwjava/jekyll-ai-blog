@@ -55,7 +55,7 @@ The pre-commit hook (`test_duplicate_notes.py`) caught the duplicate and blocked
 **Root cause:** Two different algorithms were in use:
 
 | Location | Algorithm | Behavior |
-|---|---|---|
+| --- | --- | --- |
 | `check_duplicate_notes.py` (production) | First 250 chars must be *exactly equal*, then 450/500 chars match | Too strict — missed near-duplicates with slightly different wording |
 | `test_duplicate_notes.py` (pre-commit test) | First 200 chars with 90% similarity OR last 200 chars with 90% similarity | Lenient — caught semantic duplicates |
 

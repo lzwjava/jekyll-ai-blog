@@ -134,7 +134,7 @@ The result:
 ### Summary: The API Cheat Sheet
 
 | Action | Endpoint | Body |
-|---|---|---|
+| --- | --- | --- |
 | Create tab | `POST /tabs` | `{userId, sessionKey, url}` |
 | Navigate | `POST /tabs/:id/navigate` | `{userId, url}` or `{userId, macro, query}` |
 | Snapshot | `GET /tabs/:id/snapshot?userId=` | returns `{snapshot, refsCount}` |

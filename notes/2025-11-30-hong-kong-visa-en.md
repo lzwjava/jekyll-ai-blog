@@ -25,7 +25,7 @@ This is Hong Kong's flagship program to attract global top talent, launched in 2
 **Eligibility Categories (Choose One):**
 
 | Category | Requirements | Initial Stay Duration | Annual Quota |
-|----------|--------------|-----------------------|--------------|
+| ---------- | -------------- | ----------------------- | -------------- |
 | **A: High-Income Talent** | Annual income ≥ HK$2.5M (or equivalent) in the year before application (proof: tax assessments, salary slips, or audited financials). | 3 years | None |
 | **B: Top University Graduates with Experience** | Bachelor's or higher from one of 198 eligible global universities (updated Nov 2024; includes 13 new ones like Tsinghua and Peking University) + ≥3 years work experience in the past 5 years. | 2 years (renewable for 3 years) | None |
 | **C: Recent Top Graduates** | Bachelor's or higher from eligible universities in the past 5 years + <3 years work experience. Not for HK local graduates. | 2 years | 10,000 (first-come, first-served) |
@@ -55,7 +55,7 @@ A points-based scheme for skilled migrants to settle in HK without a job offer. 
 **Points Breakdown (General Test Example):**
 
 | Factor | Max Points |
-|--------|------------|
+| -------- | ------------ |
 | Age (e.g., 30-39: 30 pts) | 30 |
 | Qualifications (e.g., PhD: 40 pts) | 70 |
 | Work Experience (e.g., 10+ yrs: 55 pts) | 55 |

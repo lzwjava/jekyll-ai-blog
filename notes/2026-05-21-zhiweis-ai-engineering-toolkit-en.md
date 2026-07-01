@@ -22,7 +22,7 @@ You train models (GPT-2 from scratch on H200/H100s), consume ~1.5B LLM tokens/ye
 **Your machines:**
 
 | Machine | OS | RAM | Disk | GPU |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | MacBook Air M2 (daily driver) | macOS | 16 GB | 460 GB (54 GB free) | — |
 | lzw@192.168.1.36 (workstation) | Ubuntu/macOS | 62 GB | 916 GB (90 GB free) | RTX 4070 12 GB |
 | AMD Dev Cloud (Atlanta, USA) | Ubuntu | 192 GB | — | MI300X 192 GB HBM3 |

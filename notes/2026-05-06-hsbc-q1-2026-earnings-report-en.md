@@ -96,7 +96,7 @@ The report was officially released on **Tuesday, 5 May 2026**. You can access it
 ## Summary Table
 
 | Metric | Q1 2026 | vs. Q1 2025 | vs. Estimate |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Pre-tax Profit | $9.4bn | −1.1% | Missed ($9.6bn est.) |
 | Revenue | $18.62bn | +5.5% | Beat |
 | NII | $8.9bn | +8% | — |

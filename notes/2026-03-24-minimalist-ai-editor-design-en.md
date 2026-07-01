@@ -35,7 +35,7 @@ This is essentially **just-in-time shortcut design** vs **just-in-case shortcut 
 Your analogy is sharp. The mapping is almost 1:1:
 
 | Zero Shortcut Philosophy | AI-Era Editor Philosophy |
-|---|---|
+| --- | --- |
 | Remove all shortcuts by default | Remove all manual workflows by default |
 | Add back only what you actually miss | Add back only what AI genuinely can't do |
 | Pain-driven discovery | Friction-driven handoff |

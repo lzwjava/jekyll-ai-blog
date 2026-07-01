@@ -43,7 +43,7 @@ gron data/contractor_a.json | grep missed_punch
 ## The real tradeoff
 
 | | SQLite | JSON |
-|---|---|---|
+| --- | --- | --- |
 | GUI client | ✅ TablePlus etc | ❌ |
 | CLI inspect | ✅ `sqlite3` | ✅ `jq`, `fx` |
 | `grep` / `cat` | ❌ binary | ✅ |

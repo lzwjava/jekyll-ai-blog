@@ -189,7 +189,7 @@ Authoritative DNS 模式允许将本地 DNS 名称导出到全球 DNS 的 zone �
 ## 常见用例
 
 | 用例 | dnsmasq 的作用 |
-|---|---|
+| --- | --- |
 | 家庭/办公室路由器 | 为所有 LAN 设备提供 DNS 转发 + DHCP |
 | 开发环境 | 本地域名解析（例如 `myapp.local`） |
 | VPN 分流路由 | 将特定域名路由至内部 DNS |
@@ -217,7 +217,7 @@ Authoritative DNS 模式允许将本地 DNS 名称导出到全球 DNS 的 zone �
 ## 信号与运行时控制
 
 | 信号 | 效果 |
-|---|---|
+| --- | --- |
 | `SIGHUP` | 重新加载 `/etc/hosts` 和配置 |
 | `SIGUSR1` | 将 cache 统计信息导出到日志 |
 | `SIGUSR2` | 轮转日志文件 |

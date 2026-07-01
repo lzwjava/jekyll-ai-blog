@@ -109,7 +109,7 @@ call "C:\IBM\WebSphere\AppServer\profiles\AppSrv01\bin\wsadmin.bat" -lang jython
 #### Key Options
 
 | Option | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `-conntype` | Connector type: `SOAP` (default, port 8879) or `RMI` (port 2809). | `-conntype RMI` |
 | `-host` | Remote host to connect to. | `-host myhost.example.com` |
 | `-port` | Connector port. | `-port 8879` |

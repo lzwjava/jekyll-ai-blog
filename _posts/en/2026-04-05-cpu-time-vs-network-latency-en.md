@@ -22,7 +22,7 @@ The gap between **network latency** and **CPU execution speed** is one of the mo
 ## The Numbers: A Scale Comparison
 
 | Operation | Typical Time | Relative Scale |
-|---|---|---|
+| --- | --- | --- |
 | **CPU clock cycle** (modern 3–4 GHz) | ~0.3 nanoseconds | 1x (baseline) |
 | **L1 cache hit** | ~1 nanosecond | ~3 cycles |
 | **L2 cache hit** | ~5 nanoseconds | ~15 cycles |

@@ -26,7 +26,7 @@ Xinjiang, China's vast northwestern frontier, blends stunning natural landscapes
 #### Daily Itinerary
 
 | Day | Location | Highlights & Activities | Overnight | Notes |
-|-----|----------|-------------------------|-----------|-------|
+| ----- | ---------- | ------------------------- | ----------- | ------- |
 | **1** | Arrival in Urumqi | Airport pickup; rest and acclimate. Evening stroll in the International Grand Bazaar—shop for spices, silks, and Uyghur crafts. Dinner: Dapanji (spicy chicken stew). | Urumqi (e.g., Hantang Hotel) | Jet lag buffer. Bazaar is lively till 10 PM. |
 | **2** | Urumqi | Morning: Heavenly Lake (Tianchi)—hike around this alpine gem amid Tian Shan peaks (cable car option). Afternoon: Xinjiang Museum for Silk Road artifacts and mummies. | Urumqi | 2-hour drive to lake; entry ~$15. Museum free on weekdays. |
 | **3** | Urumqi to Turpan (2-hour high-speed train) | Explore Turpan's oasis vibes: Flaming Mountains (red rock canyons), Grape Valley (vineyard walks), and Emin Minaret (ancient Islamic tower). Taste sweet Turpan grapes. | Turpan (e.g., Turpan Silk Road Hotel) | Train ~$10. Focus on desert heat—visit early. |

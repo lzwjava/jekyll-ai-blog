@@ -63,7 +63,7 @@ Each IPv6 address type serves distinct networking purposes:
 ## Key Comparison
 
 | Address Type | Communication Model | Typical Use |
-|--------------|---------------------|-------------|
+| -------------- | --------------------- | ------------- |
 | **Unicast** | One-to-One | End-to-end data transfer, web browsing, SSH |
 | **Multicast** | One-to-Many | Service discovery, live streaming, routing updates |
 | **Anycast** | One-to-Nearest | DNS, CDN, high-availability services |

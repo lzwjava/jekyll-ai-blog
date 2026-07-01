@@ -17,13 +17,13 @@ type: note
 
 以下是一个清晰的对比：
 
-| Approach              | Ctrl/Command + F 可用？ | 所有项目可同时搜索？ | 典型数据量 | 主要权衡 (Trade-offs)                              | 目前是否常用？ |
-|-----------------------|--------------------------|--------------------------------|-------------------|----------------------------------------------|---------------|
-| 无 Pagination (加载所有项目) | 是                     | 是                            | < 1,000–5,000 items | 性能极差，内存占用高，初始加载慢 | 大列表很少见 |
-| 传统 Server-side pagination (每页 10/20/50 条) | 否 (仅限当前页)  | 否                             | 任何规模          | 初始加载快，SEO 友好，后端性能好 | 仍然非常普遍 |
-| Infinite scroll       | 否 (仅限已加载部分)| 部分 (已加载的内容) | 大列表      | 感觉很现代，但查找旧项目很累，难以进行 Deep-link | 非常流行 (社交媒体) |
-| Client-side pagination + Virtualized list | 是 (如果所有数据已加载) | 是                            | < 10k–50k items   | 需要预先获取所有数据，初始 Payload 较大 | 增长中 (TanStack Table, AG-Grid 等) |
-| Client-side pagination + Server-side filtering/search | 对当前过滤结果有效 | 否 (但优于盲目分页) | 任何规模         | 需要强大的后端 Search/Filter 支持         | 许多 App 的最佳折中方案 |
+| Approach | Ctrl/Command + F 可用？ | 所有项目可同时搜索？ | 典型数据量 | 主要权衡 (Trade-offs) | 目前是否常用？ |
+| ----------------------- | -------------------------- | -------------------------------- | ------------------- | ---------------------------------------------- | --------------- |
+| 无 Pagination (加载所有项目) | 是 | 是 | < 1,000–5,000 items | 性能极差，内存占用高，初始加载慢 | 大列表很少见 |
+| 传统 Server-side pagination (每页 10/20/50 条) | 否 (仅限当前页) | 否 | 任何规模 | 初始加载快，SEO 友好，后端性能好 | 仍然非常普遍 |
+| Infinite scroll | 否 (仅限已加载部分) | 部分 (已加载的内容) | 大列表 | 感觉很现代，但查找旧项目很累，难以进行 Deep-link | 非常流行 (社交媒体) |
+| Client-side pagination + Virtualized list | 是 (如果所有数据已加载) | 是 | < 10k–50k items | 需要预先获取所有数据，初始 Payload 较大 | 增长中 (TanStack Table, AG-Grid 等) |
+| Client-side pagination + Server-side filtering/search | 对当前过滤结果有效 | 否 (但优于盲目分页) | 任何规模 | 需要强大的后端 Search/Filter 支持 | 许多 App 的最佳折中方案 |
 
 ### 为什么 Pagination 对 Ctrl+F 伤害这么大
 

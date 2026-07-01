@@ -18,7 +18,7 @@ Based on current market data and expert reviews from early 2026, here are the **
 ## Top 10 AI Chatbots in 2026
 
 | Rank | Chatbot | Developer | Key Strength | Market Share |
-|------|---------|-----------|-------------|-------------|
+| ------ | --------- | ----------- | ------------- | ------------- |
 | 1 | **ChatGPT** | OpenAI | Best all-rounder: reasoning, multimodal, custom GPTs | ~60.7% [[5]] |
 | 2 | **Google Gemini** | Google | Deep Google Workspace integration, video understanding | ~15.0% [[5]] |
 | 3 | **Microsoft Copilot** | Microsoft | Enterprise M365 integration, commercial security | ~13.2% [[5]] |

@@ -55,7 +55,7 @@ Current status:
 ### Why It Wasn't Connecting Directly
 
 | Factor | Mac (parents' home) | to (your home) |
-|--------|-------------------|----------------|
+| -------- | ------------------- | ---------------- |
 | NAT type | UPnP available | Cone NAT (stable port) |
 | UPnP | ✓ (TL-WR886N) | ✗ (no UPnP on home router) |
 | IPv6 | ✗ | ✗ (disabled but no global addr) |

@@ -20,7 +20,7 @@ type: note
 SM 编号遵循 NVIDIA 的架构代际关系：
 
 | SM 版本 | 架构 | GPU |
-|---|---|---|
+| --- | --- | --- |
 | SM80 | Ampere | A100, A10 |
 | SM86 | Ampere | RTX 3090 |
 | SM89 | Ada Lovelace | RTX 4090 |

@@ -52,7 +52,7 @@ In October 2022, the "Luo Pengfei Formula — Programmatic Inactivation of Tumor
 ### Summary Table
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | **Nature of 肿瘤五科** | Internal clinical department of Guangzhou Xinshi Hospital |
 | **Also known as** | 肿瘤科五区 / Oncology Ward 5 |
 | **Department beds** | 40 beds |

@@ -90,7 +90,7 @@ At senior levels — facing boards, investors, enterprise customers, and regulat
 ## Summary: Why It Happens
 
 | Factor | Why It Drives Directness |
-|---|---|
+| --- | --- |
 | **Time scarcity** | No room for diplomatic padding |
 | **Organizational complexity** | Indirectness distorts at scale |
 | **Accountability** | Real outcomes, not opinions, are being measured |

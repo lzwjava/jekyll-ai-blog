@@ -196,7 +196,7 @@ npm install playwright
 ## Quick Comparison Table
 
 | Feature | Claude Code (MCP) | OpenClaw |
-|---|---|---|
+| --- | --- | --- |
 | Protocol | CDP via MCP | CDP via Playwright/Extension |
 | Isolated browser | ✅ | ✅ (Managed mode) |
 | Use existing login session | ✅ (with `--user-data-dir`) | ✅ (Existing-session mode) |

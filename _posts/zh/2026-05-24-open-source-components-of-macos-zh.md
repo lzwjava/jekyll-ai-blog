@@ -73,7 +73,7 @@ Darwin 层之上的所有内容都是专有的：
 ## 快速参考
 
 | 组件 | 开源？ | URL |
-|---|---|---|
+| --- | --- | --- |
 | XNU 内核 | ✅ | github.com/apple-oss-distributions/xnu |
 | dyld（动态链接器） | ✅ | github.com/apple-oss-distributions/dyld |
 | libdispatch（GCD） | ✅ | github.com/apple/swift-corelibs-libdispatch |

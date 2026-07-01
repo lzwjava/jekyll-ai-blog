@@ -45,7 +45,7 @@ and generating garbage like "ivableivable...".
 == FIXES APPLIED ==
 
 | Fix | Before | After |
-|-----|--------|-------|
+| ----- | -------- | ------- |
 | Model loading | HF transformers GPT2LMHeadModel + converted safetensors | Native nanoGPT model.py + original ckpt.pt (1.4GB) |
 | Tokenizer | transformers AutoTokenizer | tiktoken GPT-2 BPE |
 | Sampling | top_p=0.9 | top_k=200 |

@@ -29,7 +29,7 @@ SLOs-Serve's contributions include:
 - A distributed architecture with multi-replica routing and burst resilience, built on vLLM for batching and Ray for orchestration.
 
 | Application | Prefill SLO | Decode SLO | Example |
-|-------------|-------------|------------|---------|
+| ------------- | ------------- | ------------ | --------- |
 | Summarization | Tight (e.g., 3x slowdown max) | Loose (100ms TPOT) | Document processing |
 | Coding | Loose | Tight (50ms TPOT) | Code generation |
 | Chatbot | Loose | Loose | Interactive queries |

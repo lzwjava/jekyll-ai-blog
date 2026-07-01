@@ -44,7 +44,7 @@ Yes, exactly right. This is the correct meta-strategy: *survey the full stack, r
 **You already have all three.** This is rare and valuable.
 
 | Platform | Your Hardware | Key Stack |
-|----------|--------------|-----------|
+| ---------- | -------------- | ----------- |
 | NVIDIA | AMD Dev Cloud MI300X | ROCm + HIP |
 | AMD | RTX 4070 (workstation) | CUDA 12.x |
 | Apple | M2 Air | Metal + MLX |
@@ -117,7 +117,7 @@ for m in models:
 This layer is underrated. Whoever wins inference runtime wins developer mindshare.
 
 | Runtime | Target | Key Feature |
-|---------|--------|-------------|
+| --------- | -------- | ------------- |
 | `llama.cpp` | CPU/GPU local | GGUF quant, universal |
 | `vLLM` | GPU server | PagedAttention, high throughput |
 | `MLX` | Apple Silicon | unified memory, fast on M-series |

@@ -36,7 +36,7 @@ Your proposal — fine-tune older memories fewer times, newer ones more — is i
 ### The Concept
 
 | Memory Age | Fine-tune Rounds | Effect |
-|---|---|---|
+| --- | --- | --- |
 | 5 years ago | 1× | Baseline knowledge, low influence |
 | 3 years ago | 2× | Moderate retention |
 | 1 year ago | 3× | Strong retention |
@@ -73,7 +73,7 @@ where `h` is a configurable half-life in days, and `α` controls the weight betw
 For your team memory system, you would tune `h` and `α` per memory category:
 
 | Memory Type | Recommended Half-life (h) | α weight |
-|---|---|---|
+| --- | --- | --- |
 | Release process steps | 30 days | 0.4 (recency dominates) |
 | Architecture decisions | 365 days | 0.7 (semantics dominate) |
 | Code patterns / conventions | 180 days | 0.6 |
@@ -130,7 +130,7 @@ This is exactly your concern: a 5-year-old release script, if retrieved without 
 ## Comparison Summary
 
 | Dimension | Fine-tuning Graduation | Time-Weighted RAG |
-|---|---|---|
+| --- | --- | --- |
 | Best for | Slow-changing principles | Operational / process memory |
 | Update speed | Slow (days/weeks) | Real-time |
 | Catastrophic forgetting risk | High | None |

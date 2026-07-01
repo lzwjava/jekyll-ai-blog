@@ -19,7 +19,7 @@ Based on the official course plan for **080901 计算机科学与技术 (Compute
 ### **必考课程 (Required Courses) - 15 courses, 72 credits total:**
 
 | **Course Code** | **Course Name (Chinese)** | **Course Name (English)** | **Credits** | **Exam Type** |
-|-----------------|---------------------------|---------------------------|-------------|---------------|
+| ----------------- | --------------------------- | --------------------------- | ------------- | --------------- |
 | 03708 | 中国近现代史纲要 | Outline of Modern Chinese History | 2 | Written |
 | 03709 | 马克思主义基本原理概论 | Introduction to Basic Principles of Marxism | 4 | Written |
 | 00023 | 高等数学(工本) | Advanced Mathematics (Engineering) | 10 | Written |

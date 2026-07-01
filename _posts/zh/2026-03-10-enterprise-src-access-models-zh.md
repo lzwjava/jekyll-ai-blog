@@ -52,7 +52,7 @@ type: note
 ## 各公司实际处理方式的真实示例
 
 | Company | Enterprise Code Access | License Model |
-|---|---|---|
+| --- | --- | --- |
 | **Elastic** | Source-available to customers | Elastic License 2.0 (ELv2) — can read, cannot redistribute or offer as SaaS |
 | **GitLab EE** | Source code visible on GitLab.com | Proprietary — can inspect but not use without a license |
 | **HashiCorp (Vault/Terraform EE)** | Source-available | BSL (Business Source License) — reverts to open after 4 years |

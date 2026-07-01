@@ -102,7 +102,7 @@ Engineers should not engage in empire building or steal scope from others to cli
 ## Summary Table
 
 | Category | Key Trait |
-|---|---|
+| --- | --- |
 | Mindset | Systems thinking, strategic breadth |
 | Scope | Org-wide influence, cross-team impact |
 | Technical | Deep expertise, architecture, ambiguity handling |

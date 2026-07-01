@@ -17,7 +17,7 @@ In 2015, the startup ecosystem was buzzing with innovation, particularly in on-d
 Below, I'll highlight 15 standout startups from 2015, drawn from major lists. I've included brief descriptions, key metrics from that year (e.g., funding raised, valuation where available), and their current status as of late 2025 for context. These were selected for their buzz, funding velocity, and impact—many became unicorns or went public.
 
 | Startup | Category | 2015 Highlights | Current Status (2025) |
-|---------|----------|-----------------|-----------------------|
+| --------- | ---------- | ----------------- | ----------------------- |
 | **Uptake** | Industrial IoT/Analytics | #1 on Forbes Hottest Startups; raised $45M at ~$1B valuation; founded by Groupon co-founder Brad Keywell; analytics for heavy industries like aviation. | Acquired by Koch Industries in 2021; continues as a private B2B data platform serving Fortune 500 clients. |
 | **Slack** | Enterprise Communication | #2 on Forbes; raised $160M at $2.8B valuation; exploded to 500K+ daily users; positioned as "email killer." | Went public in 2019 (NYSE: WORK); acquired by Salesforce in 2021 for $27B; now powers 10M+ daily active users. |
 | **DoorDash** | Food Delivery | #1 on Forbes on-demand list; raised $112M; expanded to 20+ cities; rivaled Uber Eats early on. | Public (NASDAQ: DASH) since 2020; market cap ~$50B; delivers in 7,000+ cities globally. |

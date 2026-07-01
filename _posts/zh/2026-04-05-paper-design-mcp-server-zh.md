@@ -50,7 +50,7 @@ Paper.design 的 MCP 服务器暴露的 24 个工具分为读取操作（get_sel
 ## 与 Figma MCP 的优劣对比
 
 | 特性 | Paper.design MCP | Figma MCP |
-|---|---|---|
+| --- | --- | --- |
 | 暴露的工具数量 | 24 | 3 |
 | 读写支持 | ✅ 双向 | ❌ 只读 |
 | 画布格式 | HTML/CSS（LLM原生） | 专有 SVG |

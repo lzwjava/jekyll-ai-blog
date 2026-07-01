@@ -18,7 +18,7 @@ type: note
 ## 对比 nanoGPT
 
 | 方面 | **nanoGPT** | **llmTrain** |
-|---|---|---|
+| --- | --- | --- |
 | **架构** | 经典 GPT-2（学习式位置嵌入，GELU） | 现代：RoPE + SwiGLU + 预归一化 |
 | **注意力** | 手动注意力计算 | 通过 `scaled_dot_product_attention` 实现的 Flash Attention |
 | **位置编码** | 学习式绝对嵌入 | 旋转位置编码（RoPE） |

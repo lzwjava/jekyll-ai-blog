@@ -159,7 +159,7 @@ Before provisioning your EC2 instance, you can use these web tools to get a sens
 ## Summary: Tool Selection Guide
 
 | Tool | Layer | Best For |
-|---|---|---|
+| --- | --- | --- |
 | `ping` | ICMP | Quick basic check |
 | `traceroute` | Network | Visualize hops and where delay occurs |
 | `mtr` | Network | **Best all-around** — combines ping + traceroute with stats |

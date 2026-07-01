@@ -26,7 +26,7 @@ PAI-DLC is a one-stop platform for cloud-native deep learning and training. It i
 PAI is Alibaba Cloud's AI development platform covering the full lifecycle: data annotation, model development, training, and deployment. Its core components include:
 
 | Component | Purpose |
-|---|---|
+| --- | --- |
 | **PAI-DSW** | Interactive notebook/IDE for model development |
 | **PAI-DLC** | Distributed model training (main training service) |
 | **PAI-EAS** | Model deployment and online inference |
@@ -59,7 +59,7 @@ PAI is Alibaba Cloud's AI development platform covering the full lifecycle: data
 ### ❌ Not Recommended for Model Training
 
 | Service | Reason |
-|---|---|
+| --- | --- |
 | 轻量应用服务器 | Too lightweight, no GPU support |
 | 云虚拟主机 | Shared hosting, not suitable |
 | 函数计算 FC / Serverless | Stateless, time-limited, no persistent GPU |
@@ -71,7 +71,7 @@ PAI is Alibaba Cloud's AI development platform covering the full lifecycle: data
 ## Summary Recommendation
 
 | Your Goal | Best Choice |
-|---|---|
+| --- | --- |
 | Easiest end-to-end AI training | **PAI-DLC** (not in your list, but the right answer) |
 | Full control with GPU | **ECS gn7 series** |
 | Large distributed training cluster | **E-HPC** |

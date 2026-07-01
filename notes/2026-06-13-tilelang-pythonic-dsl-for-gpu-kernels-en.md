@@ -82,7 +82,7 @@ The DeepSeek MLA decode kernel is only **80 lines of Python** and matches FlashM
 ### TileLang vs alternatives
 
 | | TileLang | Triton | CUTLASS/CuTe | Raw CUDA |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Abstraction level | Tile | Block/warp | Thread block | Thread |
 | Portability | CUDA+HIP+Metal | Mainly CUDA | CUDA only | CUDA only |
 | Async pipeline control | ✅ explicit | ✅ | ✅ | manual |

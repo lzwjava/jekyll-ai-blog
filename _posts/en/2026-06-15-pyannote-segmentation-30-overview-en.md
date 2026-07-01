@@ -20,7 +20,7 @@ type: note
 It takes **10 seconds of mono audio at 16kHz** and outputs a `(num_frames, num_classes)` matrix representing who's speaking when. The architecture uses **powerset multi-class encoding** — instead of independent binary labels per speaker, it encodes all speaker combinations as a single multi-class problem:
 
 | Class index | Meaning |
-|---|---|
+| --- | --- |
 | 0 | Non-speech |
 | 1 | Speaker #1 only |
 | 2 | Speaker #2 only |

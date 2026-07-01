@@ -22,7 +22,7 @@ In Hong Kong's system, this is typically called an **Advanced Standing** admissi
 **Mainland China equivalent terminology:**
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | 专升本 | Sub-degree to bachelor's upgrade (mainland system) |
 | 转学分衔接本科 | Credit-transfer articulation into bachelor's (HK framing) |
 | Advanced Standing (英文官方) | HK university official term |

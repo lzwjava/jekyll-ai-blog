@@ -18,7 +18,7 @@ Answer:
 You identified the real blockers clearly:
 
 | Blocker | Reality Check |
-|--------|---------------|
+| -------- | --------------- |
 | "I have a local 4070, good enough" | 4070 is ~20 TFLOPS FP32. T4 is similar, but cloud GPUs scale — you can rent A100/H100 when needed |
 | "Cloud setup is too troublesome" | One-time friction. After the first setup, it's faster than managing local hardware |
 | "Lambda payment didn't work" | A logistics problem, not a capability problem. Gave up too easily |

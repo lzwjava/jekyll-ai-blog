@@ -20,7 +20,7 @@ The core problem with large Excel files is memory and speed. `openpyxl` loads ev
 ## Library Comparison
 
 | Library | Best For | Memory | Speed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `polars` | Large data analysis | Low (lazy) | Fastest |
 | `pandas` chunked | Medium files, familiar API | Medium | Medium |
 | `openpyxl` read_only | Read-only streaming | Low | Slow (pure Python) |

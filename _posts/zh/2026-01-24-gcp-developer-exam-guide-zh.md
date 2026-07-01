@@ -49,7 +49,7 @@ Answer:
 ### 2. 推荐学习顺序 (根据经验约 8–16 周)
 
 | 周数 | 重点 | 主要资源 | Hands-on 目标 |
-|-------|-------|----------------|---------------|
+| ------- | ------- | ---------------- | --------------- |
 | 1–2 | GCP 基础 + 核心 Developer 服务 | Google Cloud Skills Boost “Cloud Developer learning path”, 官方文档 | 完成约 8–12 个 labs |
 | 3–5 | Application 设计, Scaling, Databases, Messaging | Qwiklabs / Skills Boost quests, Coursera “Developing Applications with Google Cloud” | 完成 3–4 个小型项目 |
 | 6–8 | CI/CD, Deployment, Observability | Cloud Build + Cloud Run labs, GKE labs, Monitoring labs | 部署真实的 CI/CD pipeline |

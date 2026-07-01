@@ -133,7 +133,7 @@ On Blackwell, the FP4 matmul is a **native hardware op** — that's what makes t
 ## Related Work You Should Know
 
 | Technique | What it does |
-|-----------|-------------|
+| ----------- | ------------- |
 | **GPTQ** | Layer-wise weight quantization with Hessian-based error correction — ancestor of GBDQ |
 | **AWQ** | Activation-aware weight quantization — protects salient weights based on activation magnitude |
 | **SmoothQuant** | Exact origin of the smooth quantization described here |

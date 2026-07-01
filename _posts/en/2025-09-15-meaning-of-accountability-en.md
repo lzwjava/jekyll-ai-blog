@@ -38,7 +38,7 @@ type: note
 ### **Accountability vs. Blame**
 
 | **Accountability** | **Blame** |
-|---------------------|-----------|
+| --------------------- | ----------- |
 | Focuses on *solutions* ("How can we fix this?") | Focuses on *fault* ("Who messed up?") |
 | Empowers people to improve | Creates fear and defensiveness |
 | Takes ownership | Shifts responsibility |

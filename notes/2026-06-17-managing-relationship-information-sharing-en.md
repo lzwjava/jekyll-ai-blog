@@ -45,7 +45,7 @@ If yes — don't. Simple.
 ## Rule 2: Relationship Tier Determines Routing Permission
 
 | Information Type | Close Friend | Spouse | Acquaintance |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A's salary range | ❌ No | ✅ Yes (sealed context) | ❌ No |
 | A's job problems | ❌ No | ✅ Carefully | ❌ No |
 | A's health issue | ❌ No | ✅ Only if relevant | ❌ No |

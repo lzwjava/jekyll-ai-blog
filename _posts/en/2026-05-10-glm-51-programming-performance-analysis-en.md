@@ -56,7 +56,7 @@ Independent evaluations peg GLM-5.1 at roughly 94.6% of Claude Opus 4.6's overal
 ## Summary
 
 | Aspect | Details |
-|---|---|
+| --- | --- |
 | Release Date | April 7, 2026 |
 | Parameters | 754 billion (MoE, 40B active) |
 | SWE-Bench Pro Score | 58.4 (#1 globally at release) |

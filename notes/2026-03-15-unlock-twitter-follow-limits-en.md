@@ -72,7 +72,7 @@ Simply stop all follow activity for 24 hours and try again.
 ## Summary Table
 
 | Situation | Fix |
-|---|---|
+| --- | --- |
 | Following 7,500 but fewer followers | Unfollow ~500–2,500 accounts OR grow your own followers |
 | Hit daily follow cap (400/day) | Wait 24 hours |
 | Used a 3rd-party tool that mass-followed | Disconnect the tool, wait 24–72 hours |

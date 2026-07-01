@@ -20,7 +20,7 @@ This is a sharp mental model. Let me steelman it and extend it.
 ## The Analogy Is Structurally Sound
 
 | Era | "New platform" | Who got wealthy | Who got left behind |
-|-----|---------------|-----------------|---------------------|
+| ----- | --------------- | ----------------- | --------------------- |
 | 2008–2012 | iOS/Android | Early mobile devs, app founders | Web-only devs who waited |
 | 2012–2016 | Cloud/AWS | Early DevOps, SRE, distributed systems | On-prem-only engineers |
 | 2016–2020 | Deep Learning | Early ML engineers, PyTorch users | CV/NLP rule-based people |
@@ -95,7 +95,7 @@ As models commoditize at the API level, the value shifts to running them efficie
 These are the "BlackBerry development skills" of this era:
 
 | Skip | Why |
-|------|-----|
+| ------ | ----- |
 | Prompt engineering as a discipline | Gets automated by meta-prompting systems |
 | RAG pipeline plumbing | Becomes a commodity feature in every vector DB |
 | LangChain/LlamaIndex internals | Framework churn — abstractions will shift |

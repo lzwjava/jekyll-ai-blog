@@ -117,7 +117,7 @@ Claude Code 的 Bash 工具捕获最多 30,000 字符输出，默认超时 2 分
 ### 总结比较表
 
 | 特性 | 您的 `exec_command` | OpenClaw `exec` | Claude Code `bash` |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **会话状态** | ❌ 每次新 shell | ❌（每次调用） | ✅ 持久 bash |
 | **后台执行** | ❌ | ✅（带 sessionId） | ✅（Ctrl+B 或请求） |
 | **PTY 支持** | ❌ | ✅ `pty: true` | ❌（功能请求） |

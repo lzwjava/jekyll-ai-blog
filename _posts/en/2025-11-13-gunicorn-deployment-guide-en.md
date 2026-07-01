@@ -27,7 +27,7 @@ Client → Nginx (reverse proxy) → Gunicorn → Your WSGI App (e.g., Flask/Dja
 ## Why Use Gunicorn?
 
 | Feature | Benefit |
-|-------|--------|
+| ------- | -------- |
 | **Production-ready** | Handles multiple concurrent requests efficiently |
 | **Worker models** | Supports sync, async, threading, and gevent workers |
 | **Pre-fork model** | Spawns worker processes to handle requests in parallel |
@@ -77,7 +77,7 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 run:app
 Gunicorn supports different worker classes depending on your app's needs:
 
 | Worker Type | Command | Use Case |
-|-----------|--------|---------|
+| ----------- | -------- | --------- |
 | **sync** (default) | `gunicorn -k sync` | CPU-bound or simple apps |
 | **gevent** | `gunicorn -k gevent` | High concurrency, I/O-heavy (e.g., APIs, websockets) |
 | **eventlet** | `gunicorn -k eventlet` | Similar to gevent, good for async |
@@ -91,7 +91,7 @@ Gunicorn supports different worker classes depending on your app's needs:
 ## Key Configuration Options
 
 | Option | Description | Example |
-|------|-------------|--------|
+| ------ | ------------- | -------- |
 | `--bind` | Host and port | `--bind 0.0.0.0:8000` |
 | `--workers` | Number of worker processes | `--workers 4` |
 | `--worker-class` | Worker type | `-k gevent` |
@@ -304,7 +304,7 @@ sudo systemctl enable --now gunicorn
 ## Common Issues & Debugging
 
 | Issue | Solution |
-|------|----------|
+| ------ | ---------- |
 | **Worker timeout** | Increase `--timeout` or optimize code |
 | **Too many open files** | Increase `ulimit -n` or use async workers |
 | **Memory leaks** | Use `--max-requests` to restart workers |
@@ -356,7 +356,7 @@ pip install "uvicorn[standard]"
 ## Summary Checklist
 
 | Task | Done? |
-|------|-------|
+| ------ | ------- |
 | Use config file (`gunicorn-cfg.py`) | Yes |
 | Set `workers` based on CPU | Yes |
 | Use async workers for I/O | Yes |

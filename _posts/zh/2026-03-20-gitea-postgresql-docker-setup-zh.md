@@ -76,7 +76,7 @@ GRANT ALL PRIVILEGES ON DATABASE gitea TO gitea;
 ```
 
 | 内容 | 原因 |
-|------|------|
+| ------ | ------ |
 | `CREATE USER` | 为 Gitea 专用 DB 角色 — 遵循最小权限原则 |
 | `OWNER gitea` | Gitea 用户拥有 DB，可以创建/修改表 |
 | `GRANT ALL` | 确保对 `gitea` 数据库的完全访问权限 |
@@ -91,7 +91,7 @@ host gitea gitea 172.16.0.0/12 scram-sha-256
 ```
 
 | 行 | 作用 |
-|------|-------------|
+| ------ | ------------- |
 | `127.0.0.1/32` | 允许本地连接（用于测试/调试） |
 | `172.16.0.0/12` | 允许 Docker 容器连接（Docker 使用 172.16.x.x – 172.31.x.x 范围） |
 | `scram-sha-256` | 现代密码认证（不是旧的 `md5`） |
@@ -138,7 +138,7 @@ volumes:
 ```
 
 | 关键设置 | 说明 |
-|---|---|
+| --- | --- |
 | `restart: always` | 崩溃或重启时自动重启 |
 | `DB_TYPE=postgres` | 使用 PostgreSQL 而非 SQLite |
 | `HOST=host.docker.internal:5433` | Docker 容器连接到宿主的 PostgreSQL |
@@ -171,8 +171,8 @@ curl -s -o /dev/null -w "%{http_code}" http://localhost:3000
 
 ### 3. 为什么选择 PostgreSQL 而非 SQLite？
 
-|  | SQLite | PostgreSQL |
-|---|---|---|
+| | SQLite | PostgreSQL |
+| --- | --- | --- |
 | **并发写入** | 单写入者，高负载下可能锁定 | 完全并发访问 |
 | **数据安全** | 单文件，一个损坏风险 | ACID 合规，WAL 日志 |
 | **可扩展性** | 适合个人使用 | 处理团队 + CI 工作负载 |

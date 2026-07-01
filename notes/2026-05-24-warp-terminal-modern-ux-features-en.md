@@ -95,7 +95,7 @@ Unlike iTerm2, Warp restores open tabs/panes and their working directories on re
 ## What People DON'T Use It For (vs. tmux)
 
 | Feature | tmux | Warp |
-|---|---|---|
+| --- | --- | --- |
 | Remote session persistence (SSH detach) | ✅ | ❌ |
 | Works on remote server | ✅ | ❌ (local only) |
 | Scriptable via config | ✅ | Partial |

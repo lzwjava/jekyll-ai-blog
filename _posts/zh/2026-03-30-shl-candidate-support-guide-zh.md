@@ -52,7 +52,7 @@ SHL Direct 为候选人设立了专门的神经多样性（Neurodiversity）信�
 SHL Direct 涵盖以下主要的测评方法：
 
 | Assessment Type | Description |
-|---|---|
+| --- | --- |
 | **Ability Tests** | 衡量言语推理（verbal reasoning）、数理推理（numerical reasoning）以及完成任务的潜力 |
 | **Personality Questionnaires** | 评估行为偏好以及你喜欢的工作方式 |
 | **Situational Judgment Tests (SJT)** | 测试你在职场情境中选择恰当行动的能力 |

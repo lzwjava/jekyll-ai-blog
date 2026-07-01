@@ -23,13 +23,13 @@ A **Control Resource** (often used as a lock) is a mechanism to **limit concurre
 
 ### Common Use Cases for Locks in Control-M
 
-| Use Case                          | Typical Quantity | Purpose |
-|-----------------------------------|------------------|-------|
+| Use Case | Typical Quantity | Purpose |
+| ----------------------------------- | ------------------ | ------- |
 | Only one job processes a file at a time | 1 | Prevent file corruption |
 | Limit concurrent connections to a database | e.g., 10 | Avoid overloading the DB |
 | Serialize jobs that update the same table | 1 | Ensure data consistency |
 | Limit how many jobs run on a single server/agent | e.g., 3 | Prevent resource exhaustion |
-| Software license management       | Number of seats  | Stay within license limits |
+| Software license management | Number of seats | Stay within license limits |
 
 ### How to Set It Up
 

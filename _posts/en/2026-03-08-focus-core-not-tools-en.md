@@ -44,7 +44,7 @@ When a focused product team diverts energy into building *tooling around* their 
 This is arguably your strongest point:
 
 | Tool | Approximate Age | Backing |
-|---|---|---|
+| --- | --- | --- |
 | Selenium | 20+ years | Open source, Google, Sauce Labs |
 | Playwright | 5+ years | Microsoft, full-time engineers |
 | Cypress | 7+ years | Dedicated company, $40M+ funding |
@@ -80,7 +80,7 @@ These are **production-grade, community-maintained, and free** — combining the
 ## Summary
 
 | Risk of Building Custom Tool | Impact |
-|---|---|
+| --- | --- |
 | Diverts focus from main product | High |
 | Small internal user base | Hard to justify long-term |
 | Cannot match industrial tool quality | Technical debt risk |

@@ -108,7 +108,7 @@ curl -I --proxy http://127.0.0.1:7890 https://web.whatsapp.com
 ## 日志中发现的根本原因总结
 
 | Issue | Status | Fix |
-|---|---|---|
+| --- | --- | --- |
 | 错误的 bundle ID (`com.whatsapp.WhatsApp`) | ✅ Fixed | 使用 `net.whatsapp.WhatsApp` |
 | WhatsApp domains 未包含在 proxy rules 中 | ✅ Fixed | 已添加到 config |
 | Mihomo 未正常重启 | ⚠️ Incomplete | 使用 `pkill -f mihomo` 后重启 |

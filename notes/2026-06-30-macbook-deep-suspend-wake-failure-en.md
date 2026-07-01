@@ -32,7 +32,7 @@ Then **nothing** — no `PM: suspend exit`, no resume, no further log entries at
 Your `/proc/acpi/wakeup` shows the problem:
 
 | Device | Wake from S3 (deep)? | Wake from S4? |
-|--------|:---:|:---:|
+| -------- | :---: | :---: |
 | LID0 (lid open) | **No** | Yes (hibernate only) |
 | SPIT (touchpad) | Yes | — |
 | Keyboard | **Not listed at all** | — |

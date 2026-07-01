@@ -51,7 +51,7 @@ Examples of business moats include:
 ### Summary Table
 
 | Context | Meaning |
-|---|---|
+| --- | --- |
 | Historical / Architecture | A water-filled ditch surrounding a castle for defense |
 | Zoo | A ditch keeping animals contained |
 | Business / Investing | A competitive advantage protecting a company |

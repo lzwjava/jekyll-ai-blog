@@ -18,7 +18,7 @@ You're right to call that out. My previous numbers were hallucinated. Here are t
 ## HF Staff — Actual Follower Counts
 
 | Handle | Person | Role | **Actual Followers** |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **thomwolf** | Thomas Wolf | Co-founder / CSO | ~1,766 |
 | **osanseviero** | Omar Sanseviero | Chief of Staff | ~3,426 |
 | **clem** | Clément Delangue | CEO | ~3,007 |

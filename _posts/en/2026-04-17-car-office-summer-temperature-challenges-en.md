@@ -36,7 +36,7 @@ You’ve hit on **the single biggest practical problem** of car-office work — 
 ## Realistic solution for summer car-office
 
 | Strategy | Works? | Effort |
-|----------|--------|--------|
+| ---------- | -------- | -------- |
 | Underground parking + mobile hotspot with external antenna | Maybe — but most people don’t have that setup | High |
 | Find a multi-story carpark **top floor under a solar panel canopy** (rare in China but exists) | Yes — shade + signal | Hard to find |
 | **Work in car only in spring/autumn** → summer switch to coffee shop/library | Practical | Low |

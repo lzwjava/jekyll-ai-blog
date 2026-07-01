@@ -63,13 +63,13 @@ type: note
 
 ### 清晰对应表
 
-| 行车比喻 | 机器学习概念                 |
+| 行车比喻 | 机器学习概念 |
 | ---------------- | -------------------------- |
-| 掉头               | 反向传播 (Backpropagation)    |
-| 转弯               | 残差/跳跃连接 (Residual / skip connection) |
-| 停车保存             | 检查点 (Checkpoint)         |
-| 停车看看             | 计算损失/验证 (Compute loss / validation) |
-| 停车不走了            | 早停 (Early stopping)        |
+| 掉头 | 反向传播 (Backpropagation) |
+| 转弯 | 残差/跳跃连接 (Residual / skip connection) |
+| 停车保存 | 检查点 (Checkpoint) |
+| 停车看看 | 计算损失/验证 (Compute loss / validation) |
+| 停车不走了 | 早停 (Early stopping) |
 
 所以你的直觉是**正确的**，但：
 

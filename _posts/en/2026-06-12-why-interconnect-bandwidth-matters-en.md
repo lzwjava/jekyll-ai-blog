@@ -37,7 +37,7 @@ This is why people obsess over overlap (bucketed gradient all-reduce concurrent 
 The bandwidth hierarchy, by distance:
 
 | Layer | Distance | Tech | Who makes the silicon |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | HBM | millimeters (on-package) | DRAM stacks via interposer, ~8 TB/s | **SK Hynix**, Samsung, Micron |
 | Scale-up (NVLink) | <1m–rack | Copper SerDes, NVSwitch, ~1.8 TB/s/GPU | **Nvidia** (proprietary) |
 | Scale-out network | 3m–500m | 800G/1.6T optical transceivers | **Marvell**, Broadcom (the DSPs inside) |

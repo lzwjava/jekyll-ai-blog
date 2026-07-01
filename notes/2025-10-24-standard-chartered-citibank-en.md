@@ -16,19 +16,19 @@ Standard Chartered (often abbreviated as SC) and Citibank (part of Citigroup, or
 
 Below is a side-by-side comparison across key categories, based on the latest available data as of mid-2025.
 
-| Category                  | Standard Chartered                                                                 | Citibank (Citigroup)                                                              |
-|---------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Founded**              | 1969 (merger of older banks dating to 1853)                                        | 1812                                                                              |
-| **Headquarters**         | London, United Kingdom                                                             | New York City, USA                                                                |
-| **Total Assets (mid-2025)** | ~$914 billion                                                                      | ~$2.62 trillion                                                                   |
-| **Employees**            | ~85,000                                                                            | ~230,000                                                                          |
-| **Countries/Jurisdictions of Operation** | 60-70 (focus on emerging markets: Asia, Africa, Middle East)                       | 90+ (strong in U.S., Europe, and emerging markets)                                |
-| **Revenue (TTM mid-2025)** | ~$21 billion (H1 2025: $10.9 billion)                                              | ~$84 billion (projected full-year 2025)                                           |
-| **Net Income (TTM mid-2025)** | ~$5 billion                                                                        | ~$13 billion                                                                      |
-| **Main Services**        | - Retail banking (savings, loans, credit cards)<br>- Corporate & investment banking (trade finance, cash management)<br>- Wealth management<br>- Priority banking for high-net-worth clients | - Retail banking (checking, mortgages, credit cards)<br>- Corporate banking (global transactions, treasury)<br>- Investment banking (M&A, equities)<br>- Wealth management (advisory, brokerage) |
-| **Key Strengths**        | - Expertise in cross-border trade and emerging market financing<br>- Lower minimum deposits for offshore accounts<br>- Strong in sustainable finance and ESG initiatives | - Extensive U.S. consumer network and digital tools<br>- Robust global payments and currency services<br>- Higher analyst ratings and institutional ownership |
-| **Key Weaknesses**       | - Smaller scale limits diversification<br>- Higher exposure to volatile emerging markets | - Recent regulatory scrutiny on risk management<br>- Higher fees for some international services |
-| **Customer Focus**       | Businesses and expats in Asia/Africa; fewer U.S. retail options                     | Global consumers and multinationals; strong U.S. retail presence                  |
+| Category | Standard Chartered | Citibank (Citigroup) |
+| --------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| **Founded** | 1969 (merger of older banks dating to 1853) | 1812 |
+| **Headquarters** | London, United Kingdom | New York City, USA |
+| **Total Assets (mid-2025)** | ~$914 billion | ~$2.62 trillion |
+| **Employees** | ~85,000 | ~230,000 |
+| **Countries/Jurisdictions of Operation** | 60-70 (focus on emerging markets: Asia, Africa, Middle East) | 90+ (strong in U.S., Europe, and emerging markets) |
+| **Revenue (TTM mid-2025)** | ~$21 billion (H1 2025: $10.9 billion) | ~$84 billion (projected full-year 2025) |
+| **Net Income (TTM mid-2025)** | ~$5 billion | ~$13 billion |
+| **Main Services** | - Retail banking (savings, loans, credit cards)<br>- Corporate & investment banking (trade finance, cash management)<br>- Wealth management<br>- Priority banking for high-net-worth clients | - Retail banking (checking, mortgages, credit cards)<br>- Corporate banking (global transactions, treasury)<br>- Investment banking (M&A, equities)<br>- Wealth management (advisory, brokerage) |
+| **Key Strengths** | - Expertise in cross-border trade and emerging market financing<br>- Lower minimum deposits for offshore accounts<br>- Strong in sustainable finance and ESG initiatives | - Extensive U.S. consumer network and digital tools<br>- Robust global payments and currency services<br>- Higher analyst ratings and institutional ownership |
+| **Key Weaknesses** | - Smaller scale limits diversification<br>- Higher exposure to volatile emerging markets | - Recent regulatory scrutiny on risk management<br>- Higher fees for some international services |
+| **Customer Focus** | Businesses and expats in Asia/Africa; fewer U.S. retail options | Global consumers and multinationals; strong U.S. retail presence |
 | **Recent Performance Highlights** | - 26% profit jump in H1 2025 due to wealth and investment banking growth<br>- Targeting $200B in new assets over 5 years | - 9% revenue growth in Q3 2025; 15% net income increase YoY<br>- Focus on simplifying operations post-restructuring |
 
 ### Detailed Insights

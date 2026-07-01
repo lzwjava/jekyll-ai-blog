@@ -162,7 +162,7 @@ audio = AudioSamples.load("input.wav").cuda()
 ## 🔧 推荐完整配置总结
 
 | 阶段 | 工具 | 支持 CUDA？ | 类型 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 降噪 | DeepFilterNet3 | ✅ | 命令行/Python |
 | 静音去除 | auto-editor 或 TimeBolt | ✅（TimeBolt） | 命令行 / 图形界面 |
 | 标准化 | FFmpeg loudnorm / SoX | ❌（CPU 已足够快） | 命令行 |

@@ -17,7 +17,7 @@ The browser tools I'm using are built into Hermes Agent (the CLI AI agent you're
 - The tools are exposed as functions I can call in sequence:
 
 | Tool | What it does |
-|------|-------------|
+| ------ | ------------- |
 | `browser_navigate(url)` | Opens a page, initializes the session |
 | `browser_snapshot()` | Reads the DOM/accessibility tree — returns element refs like `@e1`, `@e2` |
 | `browser_click(ref)` | Clicks an element by ref |

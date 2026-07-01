@@ -78,7 +78,7 @@ Flow control prevents the sender from overwhelming the receiver.
 #### **Ethernet Frame Structure:**
 
 | Field | Description |
-|--------|------------|
+| -------- | ------------ |
 | Preamble | Synchronization |
 | Destination Address | MAC address of receiver |
 | Source Address | MAC address of sender |
@@ -106,7 +106,7 @@ PPP is used in **dial-up and broadband connections**.
 #### **PPP Frame Structure:**
 
 | Field | Description |
-|--------|------------|
+| -------- | ------------ |
 | Flag | Marks the start and end of the frame |
 | Address | Usually `0xFF` (Broadcast) |
 | Control | Usually `0x03` (Unnumbered Information) |

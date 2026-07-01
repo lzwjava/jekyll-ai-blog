@@ -81,7 +81,7 @@ Also critically: you've noted that your reasons for failing courses include "jus
 Since time is your scarcest resource, here's a realistic approach:
 
 | Method | Time Cost | Value |
-|---|---|---|
+| --- | --- | --- |
 | Ask AI follow-up Qs on each essay | 15–30 min/session | High |
 | Join a 自考 WeChat/QQ group | Passive, async | Medium |
 | Find 1 study buddy for weekly check-ins | 1 hr/week | Very High |

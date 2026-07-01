@@ -18,7 +18,7 @@ type: note
 在 `.pre-commit-config.yaml` 中，有 **两个键** 用于按路径过滤：
 
 | 键 | 用途 |
-|---|---|
+| --- | --- |
 | `files` | **仅包含**匹配此 regex 模式的 files |
 | `exclude` | **跳过**匹配此 regex 模式的 files |
 

@@ -133,7 +133,7 @@ curl http://192.168.1.36:18789
 ## Security Summary
 
 | Binding | Accessible From | Safe? |
-|---|---|---|
+| --- | --- | --- |
 | `127.0.0.1` | Localhost only | ✅ Most secure, but you can't access from LAN |
 | `0.0.0.0` + UFW LAN rule | Your home LAN only | ✅ Safe for home use |
 | `0.0.0.0` + no UFW | Anyone including internet | ❌ Dangerous |

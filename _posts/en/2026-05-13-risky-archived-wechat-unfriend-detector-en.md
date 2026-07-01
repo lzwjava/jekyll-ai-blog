@@ -36,7 +36,7 @@ Answer:
 ### ✅ Pros
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | **Functionality** | Accurately detects unfriended/blocked contacts |
 | **Popularity** | 5,300+ GitHub stars, 371 forks — indicating strong community interest |
 | **Non-intrusive** | Friends are not notified |
@@ -46,7 +46,7 @@ Answer:
 ### ❌ Cons / Risks
 
 | Risk | Detail |
-|---|---|
+| --- | --- |
 | **Archived / Abandoned** | No longer maintained; the author has moved on to WeFriends |
 | **Account ban risk** | Using unofficial WeChat protocols violates Tencent's Terms of Service and can result in your WeChat account being **suspended or permanently banned** |
 | **Closed-source protocol** | The core WeChat iPad protocol implementation is a **pre-compiled binary** — the author does not have (or share) the source code. This is a security risk since you're running unknown compiled code |

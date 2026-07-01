@@ -19,36 +19,36 @@ Based on recent rankings from sources like Forbes Fintech 50, CB Insights Fintec
 #### Payments & Processing Platforms
 
 | Company/Startup | Headquarters | Founded | Valuation/Funding (2025) | Key Highlights |
-|-----------------|--------------|---------|---------------------------|---------------|
-| **Stripe**     | San Francisco, USA | 2010 | $65B valuation | The gold standard for online payments; processes billions in transactions for giants like Amazon and Shopify. Powers e-commerce with AI fraud detection and global payouts. |
-| **Adyen**      | Amsterdam, Netherlands | 2006 | $45B market cap | Unified platform for global payments; handles complex transactions for Uber, Meta, and eBay. Excels in omnichannel (online/offline) with low fees. |
-| **Plaid**      | San Francisco, USA | 2013 | $13.4B valuation | Backend API connecting apps to banks; enables 12,000+ apps (e.g., Venmo, Robinhood) to verify accounts and move money securely. Processed 8B+ API calls in 2024. |
-| **Rapyd**      | London, UK | 2016 | $8.5B valuation | Fintech-as-a-service for embedded payments; supports 100+ countries with wallets, cards, and remittances. Ideal for global e-commerce scaling. |
+| ----------------- | -------------- | --------- | --------------------------- | --------------- |
+| **Stripe** | San Francisco, USA | 2010 | $65B valuation | The gold standard for online payments; processes billions in transactions for giants like Amazon and Shopify. Powers e-commerce with AI fraud detection and global payouts. |
+| **Adyen** | Amsterdam, Netherlands | 2006 | $45B market cap | Unified platform for global payments; handles complex transactions for Uber, Meta, and eBay. Excels in omnichannel (online/offline) with low fees. |
+| **Plaid** | San Francisco, USA | 2013 | $13.4B valuation | Backend API connecting apps to banks; enables 12,000+ apps (e.g., Venmo, Robinhood) to verify accounts and move money securely. Processed 8B+ API calls in 2024. |
+| **Rapyd** | London, UK | 2016 | $8.5B valuation | Fintech-as-a-service for embedded payments; supports 100+ countries with wallets, cards, and remittances. Ideal for global e-commerce scaling. |
 
 #### Digital Banking & Neobanks
 
 | Company/Startup | Headquarters | Founded | Valuation/Funding (2025) | Key Highlights |
-|-----------------|--------------|---------|---------------------------|---------------|
-| **Revolut**    | London, UK | 2015 | $45B valuation | Super-app with 50M+ users; offers crypto trading, remittances, and business banking. Just secured a full UK banking license for deposits and loans. |
-| **Nubank**     | São Paulo, Brazil | 2013 | $45B market cap | Latin America's largest neobank (100M+ customers); fee-free credit cards and AI-driven savings. Profitable with $8B revenue in 2024. |
-| **Chime**      | San Francisco, USA | 2013 | $25B valuation | Mobile-first banking for underserved users; spot-me overdraft and early paycheck access. 20M+ users, focusing on financial wellness tools. |
-| **Monzo**      | London, UK | 2015 | $5B valuation | UK challenger bank with 9M+ users; real-time budgeting and AI fraud alerts. Expanding to US with embedded finance partnerships. |
+| ----------------- | -------------- | --------- | --------------------------- | --------------- |
+| **Revolut** | London, UK | 2015 | $45B valuation | Super-app with 50M+ users; offers crypto trading, remittances, and business banking. Just secured a full UK banking license for deposits and loans. |
+| **Nubank** | São Paulo, Brazil | 2013 | $45B market cap | Latin America's largest neobank (100M+ customers); fee-free credit cards and AI-driven savings. Profitable with $8B revenue in 2024. |
+| **Chime** | San Francisco, USA | 2013 | $25B valuation | Mobile-first banking for underserved users; spot-me overdraft and early paycheck access. 20M+ users, focusing on financial wellness tools. |
+| **Monzo** | London, UK | 2015 | $5B valuation | UK challenger bank with 9M+ users; real-time budgeting and AI fraud alerts. Expanding to US with embedded finance partnerships. |
 
 #### Lending, BNPL & Credit Platforms
 
 | Company/Startup | Headquarters | Founded | Valuation/Funding (2025) | Key Highlights |
-|-----------------|--------------|---------|---------------------------|---------------|
-| **Klarna**     | Stockholm, Sweden | 2005 | $6.7B valuation | BNPL leader with 150M+ users; "buy now, pay later" integrated into 500K+ merchants like Walmart. AI-powered shopping app with rewards. |
-| **Affirm**     | San Francisco, USA | 2012 | $15B market cap | Transparent installment loans at checkout; partners with Peloton and Walmart. Focus on no-hidden-fees credit for 20M+ users. |
-| **Upstart**    | San Mateo, USA | 2012 | $3B market cap | AI lending platform; uses non-traditional data for approvals. Powers $30B+ in loans annually for banks like Cross River. |
+| ----------------- | -------------- | --------- | --------------------------- | --------------- |
+| **Klarna** | Stockholm, Sweden | 2005 | $6.7B valuation | BNPL leader with 150M+ users; "buy now, pay later" integrated into 500K+ merchants like Walmart. AI-powered shopping app with rewards. |
+| **Affirm** | San Francisco, USA | 2012 | $15B market cap | Transparent installment loans at checkout; partners with Peloton and Walmart. Focus on no-hidden-fees credit for 20M+ users. |
+| **Upstart** | San Mateo, USA | 2012 | $3B market cap | AI lending platform; uses non-traditional data for approvals. Powers $30B+ in loans annually for banks like Cross River. |
 
 #### Crypto, Wealth & Emerging Platforms
 
 | Company/Startup | Headquarters | Founded | Valuation/Funding (2025) | Key Highlights |
-|-----------------|--------------|---------|---------------------------|---------------|
-| **Coinbase**   | Remote (USA) | 2012 | $63B market cap | Leading crypto exchange with 100M+ users; offers staking, wallets, and institutional custody. Thriving on stablecoin and ETF trends. |
-| **Ramp**       | New York, USA | 2019 | $8B valuation | Corporate cards and spend management; AI reimbursements save businesses 5% on expenses. Serves 30K+ companies like Anduril. |
-| **Mercury**    | San Francisco, USA | 2017 | $2B valuation | Banking for startups; API-driven accounts with 100K+ users. Gained traction post-SVB collapse with venture debt tools. |
+| ----------------- | -------------- | --------- | --------------------------- | --------------- |
+| **Coinbase** | Remote (USA) | 2012 | $63B market cap | Leading crypto exchange with 100M+ users; offers staking, wallets, and institutional custody. Thriving on stablecoin and ETF trends. |
+| **Ramp** | New York, USA | 2019 | $8B valuation | Corporate cards and spend management; AI reimbursements save businesses 5% on expenses. Serves 30K+ companies like Anduril. |
+| **Mercury** | San Francisco, USA | 2017 | $2B valuation | Banking for startups; API-driven accounts with 100K+ users. Gained traction post-SVB collapse with venture debt tools. |
 
 #### Rising Startups to Watch
 

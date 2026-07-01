@@ -35,7 +35,7 @@ The statement you provided about Italy's history is **partially true** but conta
    Your timeline is a solid high-level summary, but dates are approximate, and the thematic descriptions are interpretive (e.g., focusing on "commercial development" in the Middle Ages highlights Italy's city-states like Venice, but ignores feudalism and invasions). Here's a quick verification:
 
    | Period | Dates in Statement | Accuracy | Key Notes |
-   |--------|---------------------|----------|-----------|
+   | -------- | --------------------- | ---------- | ----------- |
    | **Prehistoric (Tribal Civilizations)** | Before 8th century BCE | True | Includes Bronze Age villages, Etruscans (from ~900 BCE), and Greek colonies in southern Italy. Human presence dates back to Paleolithic era (~40,000 years ago), but "civilization" starts ~2000 BCE. |
    | **Ancient Rome (Political Changes)** | 753 BCE–476 CE | True | Legendary founding of Rome; evolved from monarchy to republic (509 BCE) to empire (27 BCE). Ended with fall of Western Roman Empire in 476 CE. |
    | **Middle Ages (Commercial Development)** | 476–1400 CE | Mostly True | Post-Roman fragmentation into kingdoms (e.g., Ostrogoths, Lombards); rise of maritime republics (Genoa, Venice) drove trade. But also marked by plagues, feudalism, and Holy Roman Empire influence. |

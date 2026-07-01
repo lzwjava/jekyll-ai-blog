@@ -18,7 +18,7 @@ Yes — but you can't do it with a single domain rule. The trick is that "browsi
 ## How HF traffic actually splits
 
 | Activity | Host / path | Method |
-|---|---|---|
+| --- | --- | --- |
 | Browse model cards, search, docs | `huggingface.co` (HTML, `/models`, `/datasets`) | `GET` |
 | Web UI XHR/API | `huggingface.co/api/...` | `GET` |
 | **Pull** (download weights) | `cdn-lfs.huggingface.co`, `cdn-lfs-us-1.huggingface.co`, `*.hf.co`, LFS pointers resolve to these | `GET` (large) |

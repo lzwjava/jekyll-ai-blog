@@ -77,7 +77,7 @@ Google's research found that individuals on teams with higher psychological safe
 ## 6. Summary Table
 
 | Dimension | Highly Capable | Less Capable |
-|---|---|---|
+| --- | --- | --- |
 | Reaction to layoff threat | Calm — multiple options exist | Anxious — few alternatives |
 | Startup option | Real and viable | Usually unavailable |
 | Market value | High and portable | Low or context-specific |

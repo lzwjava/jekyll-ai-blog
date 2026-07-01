@@ -180,7 +180,7 @@ sudo journalctl -u openclaw -f
 ## 常见故障排除
 
 | 问题 | 解决方法 |
-|---|---|
+| --- | --- |
 | `openclaw: command not found` | 在 `~/.bashrc` 中将 `$(npm prefix -g)/bin` 添加到 `$PATH` |
 | 仪表板无法打开 | 使用 SSH 隧道，而不是直接 IP 访问 |
 | 启动崩溃 | 检查 RAM — 最低需要 2 GB |

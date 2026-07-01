@@ -140,7 +140,7 @@ jobs:
 ## 总结表格
 
 | 层 | 谁运行它 | 强制执行格式化 | 每个开发者需要设置 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Local `pre-commit install` | 开发者的机器 | 是，阻塞提交 | 是 |
 | GitHub Actions | GitHub CI runner | 是，失败 PR/push | 否（自动） |
 | pre-commit.ci | 云服务 | 是，可自动修复 | 否（自动） |

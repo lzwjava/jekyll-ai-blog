@@ -146,7 +146,7 @@ The inductor backend on ROCm generates Triton kernels → HIP → AMDGPU ISA. Fu
 ## The Honest Gap Assessment
 
 | Layer | NVIDIA | AMD ROCm | Gap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Kernel perf (matmul) | 100% | ~85-95% on MI300X | Closing fast |
 | Multi-GPU comms | NCCL (fast) | RCCL (close) | Small |
 | Profiler | Nsight (excellent) | Omniperf (good) | Medium |

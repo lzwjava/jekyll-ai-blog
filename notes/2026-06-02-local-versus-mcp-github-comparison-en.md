@@ -26,7 +26,7 @@ Looking at your `git_update.py` — you've already solved the hard part. Your sc
 **What MCP adds (and whether you need it):**
 
 | Feature | MCP GitHub | Your local approach | Do you need it? |
-|---------|-----------|-------------------|-----------------|
+| --------- | ----------- | ------------------- | ----------------- |
 | **Fetch latest code** | Live API | `git fetch` | No — local is faster |
 | **Query repo state** | PR count, issues, branches | Must pull locally | No — for analysis |
 | **Write operations** | Open PR, comment, create issue | Requires separate flow | **Maybe** — if automating |

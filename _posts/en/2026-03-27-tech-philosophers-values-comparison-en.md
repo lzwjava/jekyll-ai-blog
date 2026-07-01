@@ -56,7 +56,7 @@ This is the core tension: his *stated* values (humility, truth-seeking, genuine 
 ## Comparing All Three
 
 | Dimension | Paul Graham | Daniel P. Friedman | Yin Wang |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Primary motivation | Wealth creation, VC ecosystem | Teaching, craftsmanship | Truth-telling, intellectual integrity |
 | View of others | Instrumentalizing (talent = resource) | Genuinely caring mentor | Often dismissive / superiority complex |
 | 功利 (utilitarian/mercenary)? | **Yes, heavily** | **Barely at all** | Mixed — anti-money but self-glorifying |

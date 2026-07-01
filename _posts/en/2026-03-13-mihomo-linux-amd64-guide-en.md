@@ -42,7 +42,7 @@ Key facts:
 Once you see the Linux files, here's how to choose among the `amd64` sub-variants:
 
 | Variant | CPU Requirement | Recommendation |
-|---|---|---|
+| --- | --- | --- |
 | `linux-amd64-v1` | Any x86_64 CPU (broadest compat) | ✅ **Safe default for most systems** |
 | `linux-amd64-v2` | Requires SSE4.2 (2008+ CPUs) | Slightly faster if your CPU supports it |
 | `linux-amd64-v3` | Requires AVX2 (2013+ CPUs) | Best performance on modern CPUs |

@@ -74,7 +74,7 @@ This is itself a form of truth-seeking: reject the dogma, observe what programs 
 ## Summary Table
 
 | Thinker | Truth Sought | What They Invented / Built |
-|---|---|---|
+| --- | --- | --- |
 | **Newton** | How do objects really move? What is gravity? | Laws of motion, calculus, gravitational theory |
 | **Thomas Young** | How does the eye truly focus? What is light? | Optometer, corrective lens basis, wave theory of light |
 | **Yin Wang** | How do compilers and programs actually work? | Cleaner PL theory, compiler education, myth-busting of CS dogma |

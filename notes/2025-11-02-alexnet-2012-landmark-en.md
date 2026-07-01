@@ -35,7 +35,7 @@ To handle GPU memory limits (3GB per GTX 580), the network is split across two G
 Here's a layer-by-layer breakdown in table form for clarity:
 
 | Layer | Type | Input Size | Kernel Size/Stride | Output Size | Neurons | Parameters | Notes |
-|-------|------|------------|---------------------|-------------|---------|------------|-------|
+| ------- | ------ | ------------ | --------------------- | ------------- | --------- | ------------ | ------- |
 | 1 | Conv + ReLU + LRN + MaxPool | 224×224×3 | 11×11×3 / stride 4 | 55×55×96 | 55×55×96 | ~35M | 96 filters; LRN (local response normalization); 3×3 pool / stride 2 |
 | 2 | Conv + ReLU + LRN + MaxPool | 27×27×96 | 5×5×48 / stride 1 (same GPU split) | 27×27×256 | 27×27×256 | ~307K | 256 filters; LRN; 3×3 pool / stride 2 |
 | 3 | Conv + ReLU | 13×13×256 | 3×3×256 / stride 1 (full cross-GPU) | 13×13×384 | 13×13×384 | ~1.2M | 384 filters |

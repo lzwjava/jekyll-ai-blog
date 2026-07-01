@@ -38,7 +38,7 @@ GLM 5.2 — I'd want to confirm its exact open-weight sizes before committing (t
 These are two different exercises with different payoffs, and you should be clear-eyed about what each demonstrates:
 
 | | GPT-2 124M from scratch (what you did) | LoRA on V4-Flash / GLM |
-|---|---|---|
+| --- | --- | --- |
 | What it proves | You own the full pretraining pipeline | You can adapt a frontier base |
 | Learning value | High — tokenizer→data→training loop→optimizer, all yours | Medium — mostly data prep + PEFT config |
 | Output quality | Plausible SEC text, no reasoning | Frontier reasoning + finance flavor |

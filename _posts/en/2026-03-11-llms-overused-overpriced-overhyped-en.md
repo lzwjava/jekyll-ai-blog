@@ -108,7 +108,7 @@ Skip it when:
 ## Summary Table
 
 | Concern | Reality |
-|---|---|
+| --- | --- |
 | Speed | LLMs are 10–1000x slower than native code |
 | Cost | Billed per token; scales poorly at volume |
 | Correctness | Probabilistic, not guaranteed |

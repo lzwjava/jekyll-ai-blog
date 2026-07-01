@@ -47,7 +47,7 @@ Bridge involves heavy bidding math (point counts, distributions) and play guessi
   Beginner-to-advanced lessons/challenges: Guess bids/plays, quizzes on strategy/math. 57 modules, competitions—fun, gamified learning. Free.
 
 | App | Core Mechanic | Guessing/Calc Focus | Price | Ratings/Why Great |
-|----|----------------|---------------------|-------|-------------------|
+| ---- | ---------------- | --------------------- | ------- | ------------------- |
 | PokerCruncher | Equity sims vs. ranges | Hand strength, flops, multi-way odds | $5-13 one-time | Pro tool, offline, deep analysis |
 | Poker Odds Teacher | Mental odds drills | Outs, pot/implied equity | $2 one-time | Trains real-time calc, no memorization |
 | Bridge by NeuralPlay | AI play + solver | Double dummy lines, bid probs | Free/IAP | Optimal vs. your guesses, stats |

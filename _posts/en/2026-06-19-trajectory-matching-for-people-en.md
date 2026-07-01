@@ -110,7 +110,7 @@ This is what frontier labs actually care about — not "is this person good at t
 ## Who's Actually Building This
 
 | Company | What They Do |
-|---|---|
+| --- | --- |
 | **Clay.com** | enriches contact data from 50+ sources, some ML matching |
 | **Momen/Glean** | enterprise people graph from internal signals |
 | **LinkedIn Recruiter** | the closest to this at scale, but closed |

@@ -106,7 +106,7 @@ Jakarta EE 11 已稳定并广泛采用，Jakarta EE 12 的早期工作——特�
 ### Summary Table
 
 | 领域 | 关键新闻 |
-|---|---|
+| --- | --- |
 | Language | Java 24/25 released, virtual threads improved, Stream Gatherers finalized |
 | Concurrency | Pinning bug fixed in JDK 24, Structured Concurrency maturing |
 | AI/LLM | Spring AI 1.0, LangChain4j 1.0, Embabel, Koog, MCP SDK |

@@ -25,7 +25,7 @@ This code is part of an **iOS chat application** (likely using **LeanCloud's IM 
 ## **2. Key Properties**
 
 | Property | Type | Purpose |
-|----------|------|---------|
+| ---------- | ------ | --------- |
 | `clientStatusView` | `LZStatusView` | Shows connection status (e.g., offline/online) at the top of the table. |
 | `conversations` | `NSMutableArray` | Stores the list of conversations to display. |
 | `isRefreshing` | `BOOL` (atomic) | Prevents duplicate refreshes. |
@@ -90,7 +90,7 @@ This code is part of an **iOS chat application** (likely using **LeanCloud's IM 
 ## **6. Notable Methods**
 
 | Method | Purpose |
-|--------|---------|
+| -------- | --------- |
 | `refresh:` | Fetches and updates conversations. |
 | `selectConversationIfHasRemoteNotificatoinConvid` | Auto-selects a conversation if opened via push notification. |
 | `stopRefreshControl:` | Stops the refresh animation. |

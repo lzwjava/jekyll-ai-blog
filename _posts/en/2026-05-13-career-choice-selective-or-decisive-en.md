@@ -78,7 +78,7 @@ Rather than asking "is this the BEST job?", ask:
 Based on your profile, your non-negotiables should be:
 
 | Non-negotiable | Why |
-|---|---|
+| --- | --- |
 | AI / LLM is core work, not side project | Your stated primary motivation |
 | Tech lead you can learn from or at least respect | You mentioned this explicitly |
 | Compensation ≥ 30K CNY/month | Your stated floor |
@@ -102,7 +102,7 @@ You have deep hands-on AI experience and a proven track record of creating auton
 ## Summary
 
 | Situation | What to Do |
-|---|---|
+| --- | --- |
 | Job passes all non-negotiables | Accept it, stop comparing |
 | Job has 1 major red flag (bad tech lead, wrong work type) | Keep searching |
 | You've been searching 3+ months with no offer passing non-negotiables | Re-examine if non-negotiables are realistic |

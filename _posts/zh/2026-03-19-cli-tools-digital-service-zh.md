@@ -120,7 +120,7 @@ Claude Code 将：
 ## 实现这一愿景所需条件
 
 | Today | Future Vision |
-|---|---|
+| --- | --- |
 | Click through 5 apps | One Claude prompt |
 | Manual price comparison | Auto-agent monitors 24/7 |
 | Copy-paste between services | Seamless pipeline |

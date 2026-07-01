@@ -60,7 +60,7 @@ Answer:
 ### 支付 Anthropic 前的快速检查清单
 
 | 步骤 | 操作内容 |
-|---|---|
+| --- | --- |
 | 1 | 打开 OCBC app → More → Card Services → Manage overseas usage → 激活 |
 | 2 | 检查每日消费限额是否充足 |
 | 3 | 确保关联账户中有足够的余额 |

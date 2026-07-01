@@ -25,7 +25,7 @@ Helm 是 Kubernetes 的包管理器，常被称为“Kubernetes 的 yum 或 apt�
 ## 为什么使用 Helm？
 
 | 问题 | Helm 解决方案 |
-|--------|---------------|
+| -------- | --------------- |
 | 手动管理 50 多个 YAML 文件 | 打包成一个 Chart |
 | 将同一应用部署到开发/预发布/生产环境 | 使用 `values.yaml` 覆盖配置 |
 | 回滚失败的部署 | `helm rollback` |
@@ -72,7 +72,7 @@ my-app-chart/
 ## Helm 命令速查表
 
 | 命令 | 用途 |
-|-------|--------|
+| ------- | -------- |
 | `helm create mychart` | 创建新 Chart 脚手架 |
 | `helm lint mychart/` | 验证 Chart |
 | `helm package mychart/` | 创建 `.tgz` 归档 |
@@ -257,7 +257,7 @@ pipeline {
 ## 最佳实践
 
 | 实践 | 原因 |
-|--------|-----|
+| -------- | ----- |
 | 在 CI 中使用 `helm lint` + `helm template` | 及早发现错误 |
 | Chart 语义化版本控制 | 配置更新用 `1.0.0` → `1.0.1`，新功能用 `1.1.0` |
 | 使用 `appVersion` 表示应用版本，`version` 表示 Chart 版本 | 解耦应用与打包 |
@@ -272,7 +272,7 @@ pipeline {
 ## 常用工具与集成
 
 | 工具 | 与 Helm 的配合使用 |
-|------|---------------|
+| ------ | --------------- |
 | **ChartMuseum** | 轻量级 Chart 仓库 |
 | **Harbor / Nexus** | 企业级注册表 + Helm 仓库 |
 | **ArgoCD** | GitOps + Helm |
@@ -285,7 +285,7 @@ pipeline {
 ## 故障排除技巧
 
 | 问题 | 解决方法 |
-|------|-----|
+| ------ | ----- |
 | `Error: UPGRADE FAILED: another operation is in progress` | 等待或使用 `--force`（危险） |
 | 模板未渲染 | 本地使用 `helm template .` |
 | ImagePullBackOff | 检查标签、注册表认证 |

@@ -28,7 +28,7 @@ This error comes from the agent conversation loop in `agent/conversation_loop.py
 ### Root causes
 
 | Cause | What happens |
-|---|---|
+| --- | --- |
 | **`max_tokens` too low** | The model runs out of output budget. Common with long tool calls or verbose responses. |
 | **Thinking budget exhaustion** | The model spends ALL output tokens on `` blocks, leaving nothing for the actual response. Detected separately (line 1592–1651) with a specific "Thinking Budget Exhausted" message. |
 | **Network/stream interruption** | Partial stream stub (`PARTIAL_STREAM_STUB_ID`) — the connection dropped mid-response. The agent distinguishes this from real truncation. |

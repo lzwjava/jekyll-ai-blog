@@ -112,7 +112,7 @@ pm2 startup && pm2 save
 ### 监控类型说明
 
 | Type | Use Case |
-|---|---|
+| --- | --- |
 | **HTTP(s)** | 监控网站和 web 应用 |
 | **TCP Port** | 监控服务器上的开放端口 |
 | **Ping** | 检查主机是否可达 |

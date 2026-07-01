@@ -137,7 +137,7 @@ Experiment in **NVIDIA LaunchPad**, a free cloud sandbox for hands-on GPU practi
 Practical projects to build:
 
 | Project | What It Covers |
-|---|---|
+| --- | --- |
 | Deploy a LLaMA model with Triton | Model Deployment, NIM, config.pbtxt |
 | Fine-tune a small model with QLoRA | Fine-Tuning, PEFT, NeMo |
 | Build a RAG pipeline with guardrails | Prompt Engineering, Safety, NeMo Guardrails |
@@ -169,7 +169,7 @@ The NCP-GENL exam consists entirely of multiple-choice and multiple-response que
 ## Recommended Study Timeline Summary
 
 | Week | Focus |
-|---|---|
+| --- | --- |
 | Week 1 | Blueprint audit + start DLI core courses |
 | Week 2 | DLI courses + LLM Architecture + Prompt Engineering fundamentals |
 | Week 3 | Fine-Tuning deep dive (LoRA, QLoRA, NeMo SFT) |
@@ -184,7 +184,7 @@ The NCP-GENL exam consists entirely of multiple-choice and multiple-response que
 ## Key Free Resources Summary
 
 | Resource | URL / Where to Find |
-|---|---|
+| --- | --- |
 | NVIDIA DLI Courses | learn.nvidia.com |
 | NVIDIA LaunchPad (free GPU sandbox) | nvidialaunchpad.com |
 | TensorRT-LLM | github.com/NVIDIA/TensorRT-LLM |

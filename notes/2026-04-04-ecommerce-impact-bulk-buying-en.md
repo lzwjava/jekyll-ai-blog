@@ -79,7 +79,7 @@ Your point about freshness is also valid — especially for food. Buying small q
 ## Summary
 
 | Old Model (10 years ago) | New Model (today) |
-|---|---|
+| --- | --- |
 | Drive far, buy in bulk | Order online, buy small quantities |
 | Store large stockpiles at home | Minimal home storage needed |
 | Weekly or monthly trips | Daily or as-needed ordering |

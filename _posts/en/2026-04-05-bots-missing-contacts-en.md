@@ -38,7 +38,7 @@ The bot will only appear to do something (e.g., post a message back into the con
 ## Common Reasons It Looks Like "Nothing Happened"
 
 | Reason | Explanation |
-|---|---|
+| --- | --- |
 | Bot backend not running | The webhook URL points to a service that is offline or unreachable |
 | Webhook URL not accessible | Nextcloud cannot reach the URL (e.g., firewall, wrong IP) |
 | Signature mismatch | Bot rejects messages due to wrong shared secret |

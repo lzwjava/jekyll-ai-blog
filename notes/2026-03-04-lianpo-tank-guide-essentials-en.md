@@ -47,7 +47,7 @@ Lian Po's strength is fluid chaining via Skill 1 resets:
 Prioritize cooldown reduction (CDR) early (aim for 30-40%), then tank stats. Adjust for enemy comp (e.g., more magic resist vs. AP-heavy teams).
 
 | Slot | Item | Why? |
-|------|------|------|
+| ------ | ------ | ------ |
 | Boots | Boots of Fortitude / Resistance Boots | CDR + tankiness; swap for magic resist if needed. |
 | Core 1 | Ominous Premonition / Nightmare | Shield on low HP, massive sustain + CC extend. |
 | Core 2 | Spikemail / Longnight Guardian | Reflect damage, anti-burst. |

@@ -41,7 +41,7 @@ When you combine:
 You become attractive to the market because:
 
 | What Market Looks For | What You Have |
-|---|---|
+| --- | --- |
 | Proven environment experience | Big corp credential + real exposure |
 | Relevant, current skills | Industrial trend alignment |
 | Someone who can actually do it | Knowledge built by curiosity, not shortcuts |

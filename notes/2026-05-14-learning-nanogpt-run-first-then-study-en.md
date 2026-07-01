@@ -49,7 +49,7 @@ python train.py config/train_shakespeare_char.py
 On an RTX 4070 (12GB VRAM), reasonable configs:
 
 | Model Size | Batch Size | Context | Approx Time |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 124M (GPT-2 small) | 12–16 | 1024 | ~20–40h on full data |
 | 50M custom | 32 | 512 | ~8–12h |
 | Shakespeare char | 64 | 256 | ~15 min |
@@ -80,7 +80,7 @@ Now re-read your own training logs with paper knowledge:
 The reasoning in that block is a masterclass in **applied ML economics**:
 
 | Concept | What It Means Practically |
-|---|---|
+| --- | --- |
 | Sunk cost reasoning | 46 GPU-hours already spent; marginal cost of finishing is only 14h |
 | Baseline discipline | Never compare future runs to an incomplete reference |
 | LR decay completion | A half-decayed cosine schedule gives a noisier, pessimistic val loss |

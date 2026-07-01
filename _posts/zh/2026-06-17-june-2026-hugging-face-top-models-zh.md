@@ -18,7 +18,7 @@ DeepSeek V4.1 Flash 在发布一周内就登上了趋势榜第一名，目前中
 以下是完整的 Top 20 快照：
 
 | 排名 | 模型 | 厂商 | 许可证 | 备注 |
-|------|------|------|--------|------|
+| ------ | ------ | ------ | -------- | ------ |
 | 1 | **DeepSeek V4.1 Flash** | DeepSeek | DeepSeek License | MoE，约 71B 活跃参数 |
 | 2 | **Qwen 3.7**（旗舰版） | Alibaba | Qwen License | |
 | 3 | **Gemma 4**（31B Dense） | Google | Apache 2.0 | 宽松商业许可 |

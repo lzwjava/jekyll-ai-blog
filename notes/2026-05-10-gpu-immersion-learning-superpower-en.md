@@ -32,7 +32,7 @@ Daniel P. Friedman is a Professor of Computer Science at Indiana University and 
 Your move is structurally identical to Friedman's:
 
 | Friedman | You |
-|---|---|
+| --- | --- |
 | Every problem → "does it run backwards?" | Every task → "can GPU handle this?" |
 | miniKanren as the *lens* for all thinking | CUDA/local inference as the *lens* for all work |
 | Total immersion in relational programming | Total immersion in GPU-native workflows |

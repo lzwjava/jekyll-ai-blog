@@ -20,7 +20,7 @@ Here's the breakdown — the two models in the V2.5 family are actually quite di
 ## MiMo-V2.5 vs MiMo-V2.5-Pro: Multimodal Split
 
 | Feature | MiMo-V2.5 | MiMo-V2.5-Pro |
-|---|---|---|
+| --- | --- | --- |
 | Multimodal (image/video/audio) | ✅ Yes | ❌ No — text/code only |
 | Parameters | 310B total / 15B active | 1.02T total / 42B active |
 | Focus | Omnimodal perception + agents | Advanced coding + long-horizon agents |

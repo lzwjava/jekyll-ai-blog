@@ -41,7 +41,7 @@ Word Embeddings 在高维空间中捕捉单词的语义 —— 基本上，相�
 这是**合并为一个 Vector 的两个独立关注点**：
 
 | | Word Embedding | Positional Encoding |
-|---|---|---|
+| --- | --- | --- |
 | 编码内容 | 语义含义 (Semantic meaning) | 在序列中的位置 (Position in sequence) |
 | 是否固定？ | 在训练期间学习 (Learned) | 固定 (Sinusoidal) 或学习所得 |
 | 示例来源 | word2vec, BPE embedding | sin/cos 函数, 或 RoPE |

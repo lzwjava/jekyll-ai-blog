@@ -16,7 +16,7 @@ Here's the info to raise the issue:
 ## Environment
 
 | Tool | Version |
-|------|---------|
+| ------ | --------- |
 | Node.js | v25.3.0 |
 | npm | 11.7.0 |
 | npx | 11.7.0 |

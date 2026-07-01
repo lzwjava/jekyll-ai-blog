@@ -65,7 +65,7 @@ Bedrock 的主要优势包括：
 ## Summary Table
 
 | Method | Billing | Best For |
-|---|---|---|
+| --- | --- | --- |
 | **Claude Pro** ($20/mo) | Fixed monthly | 轻度/日常个人使用 |
 | **Claude Max** ($100–200/mo) | Fixed monthly | 重度日常开发 |
 | **Anthropic API** | Pay-per-token | 可变的业务量，大 context 需求 |

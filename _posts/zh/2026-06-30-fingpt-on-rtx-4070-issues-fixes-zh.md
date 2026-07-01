@@ -28,7 +28,7 @@ RTX 4070  |  12GB VRAM (12,282 MiB)  |  230MiB 已用  |  CUDA 13.0
 FinGPT 是一个用于金融大语言模型的 **LoRA 微调框架**。它封装了 HuggingFace `Trainer` + PEFT + DeepSpeed。关键子项目：
 
 | 子项目 | 功能 |
-|---|---|
+| --- | --- |
 | **FinGPT_Benchmark** | 在 7B 模型上进行多任务训练（情感分析、NER、标题信息抽取、关系抽取、ConvFinQA） |
 | **FinGPT_Forecaster** | 基于新闻的股票走势预测 — Llama-2-7B，max_length 4096 |
 | **FinGPT_Sentiment_Analysis** | 金融情感分类器 |
@@ -38,7 +38,7 @@ FinGPT 是一个用于金融大语言模型的 **LoRA 微调框架**。它封装
 支持的模型大小：
 
 | 模型 | 大小 (fp16) | 8-bit | 4-bit |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | ChatGLM2-6B / Falcon-7B / Qwen-7B / Llama-2-7B | ~13-14 GB | ~6.5 GB | ~3.5 GB |
 | Llama-2-13B | ~26 GB | ~13 GB | ~7 GB |
 
@@ -84,7 +84,7 @@ model = AutoModelForCausalLM.from_pretrained(
 ### ✅ 轻松容纳 —— 很宽裕
 
 | 任务 | 配置 |
-|---|---|
+| --- | --- |
 | **情感分析 / NER / 标题** 微调 **7B 模型** | 4-bit QLoRA，batch_size 4，max_length 512 → ~5-6 GB |
 | **Forecaster** 微调 **7B 模型** | 4-bit，batch_size 1，max_length 4096 → ~6-7 GB |
 | **推理** 任意 **7B 模型** | fp16 或 8-bit，轻松容纳 |
@@ -93,14 +93,14 @@ model = AutoModelForCausalLM.from_pretrained(
 ### ⚠️ 勉强可用 —— 需要调优
 
 | 任务 | 配置 |
-|---|---|
+| --- | --- |
 | **Forecaster** 微调 **7B 模型**（8-bit） | batch_size 1，grad_accum 16（与原版一致），max_length 2048 |
 | **13B 模型** LoRA 微调 | 仅 4-bit QLoRA，极小 batch_size 1，max_length 512 |
 
 ### ❌ 无法运行
 
 | 任务 | 原因 |
-|---|---|
+| --- | --- |
 | 任何 7B+ 模型的完整 fp16 微调 | 13GB > 12GB |
 | 13B 模型以 8-bit 运行 | ~13GB 刚超 12GB，没有余量给激活值 |
 | 任何需要 fp32（无混合精度）的操作 | 每个 7B 模型需要 26GB+ |

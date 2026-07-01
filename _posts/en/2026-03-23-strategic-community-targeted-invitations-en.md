@@ -45,7 +45,7 @@ This is the most critical part of your strategy — **contextual, timely invites
 Good timing signals:
 
 | Signal | Why It's a Good Moment |
-|---|---|
+| --- | --- |
 | They posted a question your group answers | They have an active, immediate need |
 | They announced a new role or project | They're in growth mode and open to resources |
 | They expressed frustration about a problem your group solves | Emotional relevance is high |

@@ -88,7 +88,7 @@ Microsoft exams are delivered via **Pearson VUE** or **Certiport** (onsite or re
 ## Comparison Summary Table
 
 | Certification | Provider | Exam Cost | Format | Level | Renewal |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Professional ML Engineer | Google Cloud | $200 | Remote or Onsite | Advanced | 2 years |
 | AI Practitioner | AWS | $100 | Remote or Onsite | Entry | 3 years |
 | ML Engineer – Associate | AWS | $150 | Remote or Onsite | Mid | 3 years |

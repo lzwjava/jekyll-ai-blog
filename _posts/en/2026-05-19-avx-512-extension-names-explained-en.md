@@ -75,7 +75,7 @@ The extensions you listed are **sub-extensions** of AVX-512. Here's what each ab
 ## Quick Reference Table
 
 | Abbrev | Full Name | Purpose |
-|--------|-----------|---------|
+| -------- | ----------- | --------- |
 | **VL** | Vector Length | Enable 128/256-bit variants of 512-bit instructions |
 | **DQ** | Doubleword & Quadword | 32-bit & 64-bit integer ops |
 | **BW** | Byte & Word | 8-bit & 16-bit integer ops |

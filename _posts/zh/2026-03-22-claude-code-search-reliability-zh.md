@@ -22,7 +22,7 @@ type: note
 对于活跃项目，web 资源很快就会过时：
 
 | 来源 | 延迟时间 | 可靠性 |
-|---|---|---|
+| --- | --- | --- |
 | Web search results | 落后数天至数月 | 对于 CLI flags/APIs 低 |
 | Stack Overflow answers | 经常过时 | 中等 |
 | Official docs site | 有时落后于发布 | 中等 |

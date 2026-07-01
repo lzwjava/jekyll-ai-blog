@@ -40,7 +40,7 @@ Gitea（类似于 GitHub 和 GitLab）仅将 SSH 用于 **Git 操作**（clone�
 ## 调试行解释
 
 | Line | Meaning |
-|------|---------|
+| ------ | --------- |
 | `client_input_channel_req: eow@openssh.com` | 客户端发送“写入结束”信号 — SSH 会话正常拆除 |
 | `channel 0: free: client-session` | SSH 会话通道正在干净释放 |
 | `Transferred: sent 4840, received 4720 bytes` | 交换少量握手数据 — 测试连接正常 |

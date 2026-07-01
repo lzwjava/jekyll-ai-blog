@@ -52,7 +52,7 @@ Many modern AI labs use OCR pipelines to extract text from scanned documents and
 Per GB of storage:
 
 | Data Type | Information Density | AI Training Value |
-|-----------|-------------------|-------------------|
+| ----------- | ------------------- | ------------------- |
 | Video | Low (mostly visual) | Lower |
 | Audio | Medium | Medium |
 | E-books / Text | Very High | **Highest** |

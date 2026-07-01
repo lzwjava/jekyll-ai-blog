@@ -18,7 +18,7 @@ Based on current market data and expert analysis from early 2026, here are the *
 ## Top 10 AI Chatbots in China (2026)
 
 | Rank | Chatbot/Model | Developer | Key Strength | Best For |
-|------|--------------|-----------|-------------|----------|
+| ------ | -------------- | ----------- | ------------- | ---------- |
 | 1 | **Doubao** | ByteDance | Highest DAU (~170M MAU), voice interaction, TikTok integration | Casual chat, mobile users, content creation [[9]] |
 | 2 | **DeepSeek (R1/V3)** | DeepSeek AI | Open-source, elite coding/math reasoning, cost-efficient API | Developers, STEM tasks, technical workflows [[1]] |
 | 3 | **Qwen 3 / Qwen 2.5** | Alibaba Cloud | Multimodal, 128K context, enterprise-ready, multilingual | Business automation, long-document analysis, global teams [[8]] |

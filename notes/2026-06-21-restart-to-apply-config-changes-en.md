@@ -16,7 +16,7 @@ Here's how it works:
 **What each action does:**
 
 | Action | Re-reads config? | Picks up `max_tokens`? |
-|---|---|---|
+| --- | --- | --- |
 | `/clear` or `/new` | No — same agent object | No |
 | `/model` to different model | Yes — recreates agent | Yes (if you switch away and back) |
 | **Ctrl+C + restart** | **Yes — fresh process** | **Yes** |

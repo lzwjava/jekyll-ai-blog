@@ -74,7 +74,7 @@ channels.nextcloud-talk.allowFrom: ["*"]
 ## Current Status
 
 | Component | Status |
-|-----------|--------|
+| ----------- | -------- |
 | Bot installed in Nextcloud | ✅ ID 7 |
 | Bot enabled in room eu42ecdy | ✅ |
 | Webhook reachable | ✅ |

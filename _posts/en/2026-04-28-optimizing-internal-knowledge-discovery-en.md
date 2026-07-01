@@ -32,7 +32,7 @@ Use a **short, discoverable entry point** (the "hub") in high-traffic tools, and
 ### The Hierarchy of Discoverability in Enterprise
 
 | Tool | Discoverability | Best For |
-|---|---|---|
+| --- | --- | --- |
 | **Confluence** | ⭐⭐⭐⭐⭐ | Primary knowledge hub, indexed by enterprise search |
 | **Jira** | ⭐⭐⭐⭐ | Task-linked knowledge, ticket descriptions, comments |
 | **Slack** | ⭐⭐⭐ | Real-time broadcast, pinned channel messages |
@@ -109,7 +109,7 @@ Internal SEO = **making content findable within your org's internal search tools
 ## 🧩 Summary Recommendation
 
 | Action | Priority |
-|---|---|
+| --- | --- |
 | **Confluence as primary hub** with short AI summaries | 🔴 High |
 | **LLM API pipeline** to auto-generate Confluence summaries from GitHub pushes | 🟠 Medium-High |
 | **Jira ticket linking** to Confluence pages | 🟠 Medium |

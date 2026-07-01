@@ -18,7 +18,7 @@ Depends what you mean by "better" — but let me give you a sharp take for your 
 ## The Honest Comparison
 
 | Dimension | Inference/Serving | Pretraining |
-|---|---|---|
+| --- | --- | --- |
 | Feedback loop | Minutes to hours | Days to weeks |
 | Hardware cost | RTX 4070 is enough | Need A100/H100 clusters |
 | Job market | **Huge right now** | Narrow (OpenAI, Anthropic, DeepSeek) |

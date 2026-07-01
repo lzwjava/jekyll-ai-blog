@@ -74,7 +74,7 @@ Anthropic 的解释性团队还开始探索将这些方法应用于生物学—�
 ## 总结表格
 
 | 年份 | 里程碑 |
-|------|--------|
+| ------ | -------- |
 | 2015 | DeepDream 和早期神经网络可视化 (Google Brain) |
 | 2020 | Circuits framework — 视觉模型中的特征和电路 |
 | 2021 | Transformer 中发现 induction heads |

@@ -18,7 +18,7 @@ VPS 出现临时连接问题 — 训练正在 GPU droplet 上独立运行。让�
 ### 我们已完成的事项
 
 | Step | Time | Details |
-|------|------|---------|
+| ------ | ------ | --------- |
 | Connect GPU droplet | ✅ | H200 143GB VRAM, 235GB RAM, 698GB disk |
 | Install PyTorch/CUDA | ✅ | torch 2.11.0 + CUDA 13 |
 | Transfer nanoGPT code | ✅ | ~157MB |

@@ -16,7 +16,7 @@ Yeah, the analogy is pretty sharp actually.
 **Root cause is the same: coordination at massive scale forces standardization.**
 
 | Big Corp | China |
-|----------|-------|
+| ---------- | ------- |
 | Locked-down work laptop | GFW, monitored internet |
 | SDLC bureaucracy | Regulatory approval chains |
 | IT security policies | Social credit, surveillance cams |

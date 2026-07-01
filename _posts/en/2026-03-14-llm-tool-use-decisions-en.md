@@ -93,7 +93,7 @@ Some models, especially reasoning models, are better at deciding when and how to
 ## Summary Table
 
 | Stage | Role in Tool Calling |
-|---|---|
+| --- | --- |
 | Pre-training | Learns language, reasoning, semantic intent |
 | SFT | Learns tool call format and basic selection |
 | DPO/RLHF | Learns *when* to call vs. answer directly |

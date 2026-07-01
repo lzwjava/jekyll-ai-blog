@@ -24,7 +24,7 @@ type: note
 你的设置：
 
 | Layer | Reality |
-|---|---|
+| --- | --- |
 | **你的笔记本电脑** | 你在这里输入，浏览器通过 SSH 隧道打开 `localhost:18789` |
 | **远程机器** (`192.168.1.36`) | OpenClaw Gateway 实际运行在这里，连同 Gitea 等服务 |
 
@@ -78,7 +78,7 @@ OpenClaw 的上下文引擎和内存系统通过读取文件、运行 shell 命�
 避免模糊术语。始终使用：
 
 | ❌ 模糊 | ✅ 明确 |
-|---|---|
+| --- | --- |
 | "localhost" | "服务器上的 localhost (192.168.1.36)" 或 "我笔记本电脑上的 localhost" |
 | "my machine" | "服务器" 或 "我的笔记本电脑" |
 | "this computer" | "lzw-server" 或 "192.168.1.36" |

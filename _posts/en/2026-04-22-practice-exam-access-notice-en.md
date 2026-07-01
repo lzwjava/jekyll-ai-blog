@@ -28,7 +28,7 @@ The email notifies students that a **practice exam platform** for the course **"
 ### 📌 Key Instructions in the Email
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | **Platform** | PinTi.cn (拼题网 — pintia.cn), an online exam/practice platform |
 | **Registration requirement** | Must register with **real name (实名注册)** |
 | **How to join** | After registering → Go to **Personal Center → Account → Join by Invitation** → Enter the invitation code |

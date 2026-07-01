@@ -204,7 +204,7 @@ defaults read com.apple.Spotlight orderedItems     # Spotlight 配置
 基于你的缺口，以下是最高价值的添加项：
 
 | 命令 | 作用 | 你将学到什么 |
-|---|---|---|
+| --- | --- | --- |
 | `ww macos services` | 列出非 Apple 的 launchd 代理/守护进程 | launchctl, XPC |
 | `ww macos hardware` | 深度的 IOKit 硬件信息（电池循环次数、温度、USB） | ioreg, IORegistry |
 | `ww macos defaults` | 显示/搜索所有非默认系统偏好设置 | defaults CLI, plist 域 |

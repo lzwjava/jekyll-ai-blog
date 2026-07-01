@@ -102,7 +102,7 @@ Neo4j CE (Community Edition) 采用 GPL version 3 许可，而 Neo4j EE (Enterpr
 ## 8. Other Notable Examples
 
 | Company / Project | Open Source Core | Cloud SaaS | Enterprise |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Supabase** | GitHub (Apache 2.0) | supabase.com | Self-hosted Enterprise |
 | **Minio** | GitHub (AGPL) | Hosted object storage | AGPL / Commercial enterprise |
 | **Airbyte** | GitHub (MIT/ELv2) | Airbyte Cloud | Self-Managed Enterprise |

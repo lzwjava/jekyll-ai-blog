@@ -21,7 +21,7 @@ QMAS targets skilled professionals like you in IT/software engineering, especial
 These are non-negotiable; failing any disqualifies you. Based on your profile:
 
 | Prerequisite | Your Status | Assessment |
-|--------------|-------------|------------|
+| -------------- | ------------- | ------------ |
 | **Age** | 30 (born 1995) | ✅ Met (must be 18+). |
 | **Character** | No issues mentioned | ✅ Assumed met (no criminal record/security concerns). |
 | **Financial Self-Sufficiency** | Not detailed, but 11 years professional experience (e.g., at TEKsystems/HSBC) suggests stable income | ⚠️ Likely met, but prove with bank statements/assets (min. ~HKD 200,000 equivalent for you + dependents like your daughter). |
@@ -39,7 +39,7 @@ QMAS uses GPT for most (ABPT is for elites like Nobel winners—you're not there
 Here's my conservative estimate based on your details (max per category shown; actuals depend on ImmD verification):
 
 | Factor | Max Points | Your Likely Score | Rationale |
-|--------|------------|-------------------|-----------|
+| -------- | ------------ | ------------------- | ----------- |
 | **Age** | 30 | 30 | 30 points for 18-39 (you're 30). Peak score! |
 | **Academic/Professional Qualifications** | 70 | 0-30 | ❌ Low due to education gap. If self-taught associate is recognized as "post-secondary" + 11 years proven tech expertise, maybe 30 (for technical qual). Otherwise, 0—needs bachelor's (50-70) or equivalent. Your papers/hackathon win could help argue equivalence. |
 | **Work Experience** | 55 | 50 | Strong: 11 years total (8 corporate + 3 freelance). 10+ years at senior level = 50-55. Roles at HSBC/DBS/LeanCloud show progression in full-stack/mobile/ML; freelance counts if documented (contracts/invoices). |

@@ -193,7 +193,7 @@ model.save_pretrained("merged_model")
 ## VRAM 估算
 
 | 组件 | VRAM |
-|---|---|
+| --- | --- |
 | bf16 中的 9B 模型 | ~18 GB |
 | LoRA adapters | ~0.5 GB |
 | Gradients + optimizer states | ~2 GB |

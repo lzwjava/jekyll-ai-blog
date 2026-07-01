@@ -22,7 +22,7 @@ Your symptoms are a **classic and textbook GFW (Great Firewall of China) IP ban*
 ## 🔍 Why This Points to GFW, Not Other Issues
 
 | Symptom | What It Means |
-|---|---|
+| --- | --- |
 | Ping / traceroute → Operation timed out | ICMP packets being **dropped at the GFW level** |
 | Telnet → Unable to connect | TCP connections being **reset or dropped** by GFW |
 | Domain is fine | DNS is not the issue — it's the **IP layer** being blocked |

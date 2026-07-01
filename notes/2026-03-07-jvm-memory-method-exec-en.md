@@ -98,7 +98,7 @@ Different collectors offer different trade-offs: **Serial GC** for single-thread
 ## Summary: Where Things Live
 
 | Data | Memory Area |
-|---|---|
+| --- | --- |
 | Local variables (primitives) | Stack |
 | Object references | Stack (reference) + Heap (actual object) |
 | New objects / arrays | Heap — Young Generation (Eden) |

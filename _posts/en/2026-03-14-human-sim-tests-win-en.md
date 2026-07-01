@@ -32,7 +32,7 @@ Unit tests check isolated components:
 ### Why Integration Tests (Human Simulation) Are Better
 
 | Approach | Catches Real Issues? | User Perspective? |
-|---|---|---|
+| --- | --- | --- |
 | Just deploy & declare done | ❌ | ❌ |
 | Unit tests only | Partial | ❌ |
 | **Human-simulated integration test** | **✅** | **✅** |

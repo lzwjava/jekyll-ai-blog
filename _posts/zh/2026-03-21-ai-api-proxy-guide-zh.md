@@ -20,7 +20,7 @@ type: note
 ## Claude (Anthropic) 通道
 
 | 分组 | 倍率 | 描述 |
-|---|---|---|
+| --- | --- | --- |
 | **Claude Max** | 1.3x | 最佳质量；使用 Claude Max 账户 |
 | **Claude Max 备用 (Backup)** | 2.1x | 使用 Max 20X 账户；由于风控，成本激增，因此暂时更高费率 |
 | **AWS Bedrock** | 5x | 通过 Amazon Web Services Bedrock 的官方 Claude API — 最稳定但最贵 |
@@ -38,7 +38,7 @@ type: note
 ## OpenAI (GPT) 通道
 
 | 分组 | 倍率 | 描述 |
-|---|---|---|
+| --- | --- | --- |
 | **Codex (Team)** | 0.3x | 使用 GPT Team + 常规账户池；优先级低于 GPT Pro |
 | **Codex (GPT Pro)** | 0.6x | 更高品质；支持所有 Codex models；GPT Pro 账户池 |
 

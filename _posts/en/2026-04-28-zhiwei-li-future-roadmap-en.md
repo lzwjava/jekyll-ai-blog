@@ -108,7 +108,7 @@ You've been to the USA twice and traveled widely in China. Given your English le
 ## 🎯 The 3-Year North Star Summary
 
 | Area | Target in 3 Years |
-|---|---|
+| --- | --- |
 | Career | Senior/Staff Engineer or Founding Engineer at a direct-hire tech company |
 | Product | 1 live AI product with real users or revenue |
 | Open Source | 1 major repo with 500+ GitHub stars |

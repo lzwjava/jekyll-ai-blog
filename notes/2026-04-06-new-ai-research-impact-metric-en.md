@@ -61,7 +61,7 @@ Both papers redefined mental models, not just benchmarks. This is exactly what m
 ### Comparison: Old vs. New Evaluation Standards
 
 | Dimension | Traditional Standard | New LLM-Era Standard |
-|---|---|---|
+| --- | --- | --- |
 | **Metric** | Citation count, h-index | LLM reference frequency + context delta |
 | **Timeframe** | 5–10 years | 2–5 years |
 | **Mechanism** | Human researchers cite | LLMs embed concepts implicitly |

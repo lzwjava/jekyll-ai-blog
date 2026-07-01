@@ -76,7 +76,7 @@ When you are already known in a group:
 ## 🧠 Key Principles for Running Your Own Group Well
 
 | Principle | Why It Matters |
-|---|---|
+| --- | --- |
 | **Curate carefully** | Quality > quantity; wrong members lower trust |
 | **Be the consistent contributor** | Leaders who share first attract reciprocal sharing |
 | **Keep it focused** | Clear topic alignment keeps engagement high |

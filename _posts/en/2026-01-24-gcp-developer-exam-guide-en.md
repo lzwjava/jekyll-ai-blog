@@ -49,11 +49,11 @@ Key services & products that appear very frequently:
 ### 2. Recommended Study Sequence (≈ 8–16 weeks depending on experience)
 
 | Weeks | Focus | Main Resources | Hands-on Goal |
-|-------|-------|----------------|---------------|
-| 1–2   | GCP fundamentals + core developer services | Google Cloud Skills Boost “Cloud Developer learning path”, official docs | Finish ~8–12 labs |
-| 3–5   | Application design, scaling, databases, messaging | Qwiklabs / Skills Boost quests, Coursera “Developing Applications with Google Cloud” | Build 3–4 small projects |
-| 6–8   | CI/CD, deployment, observability | Cloud Build + Cloud Run labs, GKE labs, monitoring labs | Deploy real CI/CD pipeline |
-| 9–11  | Deep case-study practice + weak areas | Whizlabs / SkillCertPro / Udemy practice exams | 400–600 practice questions |
+| ------- | ------- | ---------------- | --------------- |
+| 1–2 | GCP fundamentals + core developer services | Google Cloud Skills Boost “Cloud Developer learning path”, official docs | Finish ~8–12 labs |
+| 3–5 | Application design, scaling, databases, messaging | Qwiklabs / Skills Boost quests, Coursera “Developing Applications with Google Cloud” | Build 3–4 small projects |
+| 6–8 | CI/CD, deployment, observability | Cloud Build + Cloud Run labs, GKE labs, monitoring labs | Deploy real CI/CD pipeline |
+| 9–11 | Deep case-study practice + weak areas | Whizlabs / SkillCertPro / Udemy practice exams | 400–600 practice questions |
 | 12–14 | Full timed mock exams + review wrong answers | 4–6 full timed practice exams | Score consistently >75–80% |
 
 ### 3. Best Resources in 2025–2026

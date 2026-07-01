@@ -22,7 +22,7 @@ The correct answer is **B: Sending Window > 1, Receiving Window = 1**
 ## Explanation of All Three Sliding Window Protocols
 
 | Protocol | Sending Window | Receiving Window |
-|---|---|---|
+| --- | --- | --- |
 | Stop-and-Wait | = 1 | = 1 |
 | **Go-Back-N (GBN)** | **> 1** | **= 1** |
 | Selective Repeat (SR) | > 1 | > 1 |

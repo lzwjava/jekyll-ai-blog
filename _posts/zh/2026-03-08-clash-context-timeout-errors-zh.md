@@ -54,7 +54,7 @@ Clash 日志可能显示类似 `dns resolve failed: context deadline exceeded` �
 ## 根本原因总结
 
 | Cause | Description |
-|---|---|
+| --- | --- |
 | Network unreachable | 目标 URL 或 DNS 服务器被屏蔽/宕机 |
 | DNS loop | DNS 查询通过 proxy 路由，而 proxy 先需要 DNS |
 | Wrong interface binding | `config.yaml` 中设置了错误的 `interface-name` |

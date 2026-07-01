@@ -130,7 +130,7 @@ Nothing else changes — hyperparameters, LR, token budget all stay identical be
 ### The decision table
 
 | Config | MFU | Wall clock | $ @ ~$2/hr/GPU |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1× MI300X, SDPA (now) | 27% | ~62 h | ~$124 |
 | 1× + ROCm flash-attn, SSSL | ~45–50% | ~33 h | ~$66 |
 | 8× MI300X, SDPA | 27% | ~10 h | ~$160 |

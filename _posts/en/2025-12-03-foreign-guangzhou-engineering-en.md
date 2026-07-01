@@ -21,7 +21,7 @@ Foreign banks and multinational companies with offices in Guangzhou actively rec
 These banks often seek software engineers, data engineers, and fintech specialists for their technology and operations centers.
 
 | Bank | Office Details | Engineering Roles Hired | Employment Types | Key Notes |
-|------|----------------|-------------------------|------------------|-----------|
+| ------ | ---------------- | ------------------------- | ------------------ | ----------- |
 | HSBC China | Multiple branches, including Guangzhou Branch (e.g., in Tianhe District). Large Global Technology Centre presence. | VP Financial Engineering (Treasury), Principal Engineer (IT/Software), Data Engineers. | Permanent and contract (e.g., FTC - Fixed Term Contracts). | Focus on global tech support; roles involve AI, cybersecurity, and payments systems. Apply via [HSBC Careers](https://mycareer.hsbc.com). |
 | DBS Bank | Guangzhou Branch at Onelink Walk/Centre, Tianhe District (18F, Units 1705-1708). | Software Engineers, IT Systems Engineers (institutional banking tech). | Permanent and contract. | Emphasizes digital banking innovation; opportunities in API development and cloud engineering. Check [DBS Careers](https://www.dbs.com/careers). |
 | Standard Chartered | Guangzhou Branch at Guangzhou International Finance Centre (ICC), relocated in 2021; GBA Centre spans 7 floors. | Tech Engineers (cross-border fintech), Solution Architects. | Permanent and contract. | Supports new economy sectors; roles in blockchain and data analytics. Explore [SC Careers](https://www.sc.com/en/global-careers). |
@@ -34,7 +34,7 @@ These banks often seek software engineers, data engineers, and fintech specialis
 Beyond banks, these firms hire for hardware, automation, and R&D engineering, often through global service centers.
 
 | Company | Office Details | Engineering Roles Hired | Employment Types | Key Notes |
-|---------|----------------|-------------------------|------------------|-----------|
+| --------- | ---------------- | ------------------------- | ------------------ | ----------- |
 | ABB Group (Swiss-Swedish) | Guangzhou operations in automation/tech hub. | Robotics Engineers, Mechatronics Engineers (sales/systems). | Permanent and contract. | Focus on industrial automation; requires degrees in electrical/mechanical engineering. Apply via [ABB Careers](https://new.abb.com/careers). |
 | Siemens (German) | Guangzhou R&D and sales office (Tianhe). | Electrical/Software Engineers (energy/smart infrastructure). | Permanent. | Infrastructure projects; roles in IoT and digital twins. Check [Siemens Jobs](https://jobs.siemens.com). |
 | Honeywell (American) | Guangzhou facility for aerospace/automation. | Aerospace Engineers, Control Systems Engineers. | Permanent and contract. | Aviation tech; opportunities in UAV/eVTOL. Visit [Honeywell Careers](https://careers.honeywell.com). |

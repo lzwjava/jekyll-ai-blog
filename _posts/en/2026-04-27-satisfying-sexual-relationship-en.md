@@ -94,7 +94,7 @@ Sessions with a certified sex therapist can improve intimacy issues by helping y
 ## Summary Table
 
 | Principle | Key Action |
-|---|---|
+| --- | --- |
 | Trust & Connection | Be reliable, honest, emotionally present |
 | Communication | Talk openly about desires and limits |
 | Consent | Always ask, always respect a "no" |

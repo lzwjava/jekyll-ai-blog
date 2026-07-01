@@ -121,7 +121,7 @@ curl https://api.ipify.org
 ## 总结诊断表
 
 | 观察到的症状 | 含义 |
-|---|---|
+| --- | --- |
 | iPad 流量到达 TUN（Meta 上 `tcpdump` 已确认） | ✅ TUN 拦截正常 |
 | Clash 日志中仅 UDP，TCP 被静默丢弃 | ✅ Clash 接收 TCP 但无法建立上游连接 |
 | Hysteria2 解析为 `198.18.0.28` | ❌ **根本原因** — 代理服务器获得 fake-IP |

@@ -62,7 +62,7 @@ Windows 和 Linux 上的 PyTorch 现已作为公开预览版提供，这意味�
 ## 总结表
 
 | 平台 | AMD GPU | 类型 |
-|---|---|---|
+| --- | --- | --- |
 | AMD 开发者云 | MI300X | 云（免费套餐） |
 | Microsoft Azure（ND MI300X v5） | MI300X | 云虚拟机 |
 | Oracle Cloud（OCI） | MI300X、MI355X | 裸金属 / 虚拟机 |

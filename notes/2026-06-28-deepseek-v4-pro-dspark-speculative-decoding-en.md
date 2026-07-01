@@ -22,7 +22,7 @@ So this repo = base weights + a draft/predictor head for **self-speculative deco
 This is the **V4 preview** — a generational jump from V3.2. Two MoE variants, both 1M-token context:
 
 | Model | Total | Activated | Precision |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | V4-Flash | 284B | 13B | FP4+FP8 |
 | V4-Pro | 1.6T | 49B | FP4+FP8 |
 

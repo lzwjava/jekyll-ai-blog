@@ -20,7 +20,7 @@ In Honor of Kings (also known as King of Glory or 王者荣耀), **Recall** and 
 Heroes can equip **2 Common Skills** (also called Summoner Skills or 召唤师技能), but **Recovery is mandatory as one**, leaving 1 customizable slot. These are **all non-offensive utility skills** (no damage):
 
 | Skill | Unlock Level | Cooldown | Effect |
-|-------|--------------|----------|--------|
+| ------- | -------------- | ---------- | -------- |
 | **Sprint** (疾跑 / Haste) | Lv. 7 | 90s | +30% Movement Speed for 10s. Removes slows on cast; reduces incoming slows by 50%; +20% extra speed out of combat. Ideal for chase/escape (matches "recovery sprint"). |
 | **Flash** (闪现) | Lv. 19 | 120s | Dash/teleport short distance in target direction. For repositioning/escapes. |
 | **Purify** (净化) | Varies | 120s | Removes all debuffs/CC (except suppression); grants 1.5s CC immunity. Pure cleanse utility. |

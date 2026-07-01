@@ -56,7 +56,7 @@ You're tracking hourly token burn yourself — but if a hard budget cap exists i
 ## Verdict
 
 | Condition | Interruption risk |
-|---|---|
+| --- | --- |
 | Network unstable | High |
 | Network stable + routine task | **Still moderate** |
 | Network stable + long context accumulation | High |

@@ -95,7 +95,7 @@ VAR (Visual AutoRegressive) is especially interesting — generates at coarse re
 ## TL;DR
 
 | Concept | What actually happens |
-|---|---|
+| --- | --- |
 | Diffusion | Iterative **denoising** of noise → image |
 | DiT | Transformer as the denoising backbone |
 | Your description | Closer to iterative refinement / VAR |

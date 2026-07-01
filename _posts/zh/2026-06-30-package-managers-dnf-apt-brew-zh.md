@@ -14,7 +14,7 @@ type: note
 答案：
 
 | | dnf | apt | brew |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 发行版/操作系统 | Fedora/RHEL | Debian/Ubuntu | macOS/Linux |
 | 格式 | `.rpm` | `.deb` | formula/cask（源码 + bottles） |
 | 作用范围 | 系统级，root | 系统级，root | 用户级，无 root |

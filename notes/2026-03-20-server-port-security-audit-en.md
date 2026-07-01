@@ -12,7 +12,7 @@ type: note
 Here's the breakdown, Boss:
 
 | Port | Service | Listening | Exposed To |
-|------|---------|-----------|------------|
+| ------ | --------- | ----------- | ------------ |
 | **22** | sshd | ✅ | Anywhere |
 | **80** | nginx | ✅ | Anywhere |
 | **3001** | docker-proxy | ✅ | Anywhere |

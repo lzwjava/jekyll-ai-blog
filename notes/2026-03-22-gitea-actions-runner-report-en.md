@@ -31,7 +31,7 @@ Here's the full rundown, Boss.
 ### Labels (what jobs this runner can pick up)
 
 | Label | Runtime |
-|---|---|
+| --- | --- |
 | `ubuntu-latest` | Docker: `node:16-bullseye` |
 | `ubuntu-22.04` | Docker: `node:16-bullseye` |
 | `ubuntu-20.04` | Docker: `node:16-bullseye` |
@@ -55,7 +55,7 @@ Here's the full rundown, Boss.
 ### File Locations
 
 | File | Path |
-|---|---|
+| --- | --- |
 | Config | `/home/lzw/.gitea-runner/config.yaml` |
 | Registration | `/home/lzw/.gitea-runner/.runner` |
 | Service unit | `/etc/systemd/system/gitea-runner.service` |

@@ -116,7 +116,7 @@ Project Leyden 的前三个特性——旨在改进 Java 启动时间和峰值�
 ## 📊 5 年总结：关键宏观趋势
 
 | Theme | 2021 | 2026 |
-|---|---|---|
+| --- | --- | --- |
 | **LTS Baseline** | Java 11 主导 | 处处要求 Java 17+，Java 21/25 快速增长 |
 | **Concurrency** | 线程池 + reactive | Virtual Threads (Project Loom) 成为新默认 |
 | **Native/Cloud** | Quarkus/Micronaut 细分市场 | GraalVM native + Spring Boot 4 主流 |

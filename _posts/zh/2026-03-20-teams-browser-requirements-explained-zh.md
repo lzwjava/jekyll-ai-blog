@@ -32,7 +32,7 @@ Teams web 客户端可在 **Microsoft Edge**、**Chrome**、**Firefox** 和 **Sa
 然而，对于企业 Conditional Access 策略，具体层级如下：
 
 | Browser | Desktop Support | iOS/Mobile | Passes "Approved App" Policy |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Microsoft Edge** | ✅ Full | ✅ (Intune-managed) | ✅ Yes |
 | **Google Chrome** | ✅ Full | ❌ No web Teams | ⚠️ Partial |
 | **Firefox** | ✅ Full | ❌ No | ⚠️ Partial |

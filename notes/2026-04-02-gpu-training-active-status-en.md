@@ -18,7 +18,7 @@ VPS having temporary connectivity issues — training is running independently o
 ### What We Accomplished
 
 | Step | Time | Details |
-|------|------|---------|
+| ------ | ------ | --------- |
 | Connect GPU droplet | ✅ | H200 143GB VRAM, 235GB RAM, 698GB disk |
 | Install PyTorch/CUDA | ✅ | torch 2.11.0 + CUDA 13 |
 | Transfer nanoGPT code | ✅ | ~157MB |

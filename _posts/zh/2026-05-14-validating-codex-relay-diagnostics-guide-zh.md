@@ -98,7 +98,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ## 🔧 推荐诊断步骤
 
 | 步骤 | 操作 | 目的 |
-|------|------|------|
+| ------ | ------ | ------ |
 | 1 | 检查 `status.openai.com` | 排除 OpenAI 服务中断 |
 | 2 | 从本地 `ping` / `traceroute` 中继服务器 | 查找用户侧慢速跳点 |
 | 3 | 从中继到 OpenAI 进行 `curl` 耗时测试 | 查找服务器侧慢速跳点 |

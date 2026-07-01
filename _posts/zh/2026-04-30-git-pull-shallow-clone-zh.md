@@ -45,7 +45,7 @@ git pull --unshallow
 ## 关键行为总结
 
 | 命令 | 效果 |
-|---|---|
+| --- | --- |
 | `git pull` | 获取新提交，保持浅克隆状态 |
 | `git fetch --deepen=N` | 向历史记录中添加 N 个提交 |
 | `git fetch --unshallow` | 拉取完整历史记录 |

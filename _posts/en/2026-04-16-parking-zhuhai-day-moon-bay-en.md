@@ -18,10 +18,10 @@ Here are the main parking options at Zhuhai Day Moon Bay (日月贝) area:
 This is likely the main open parking area near the shopping/dining district :
 
 | Time Period | Rate |
-|-------------|------|
+| ------------- | ------ |
 | **First 30 minutes** | **Free** |
 | **Weekdays (平日)** | 5 yuan/hour |
-| **Weekends & Holidays** | 10 yuan/hour (some sources mention 18 yuan/hour)  |
+| **Weekends & Holidays** | 10 yuan/hour (some sources mention 18 yuan/hour) |
 | **Daily cap** | No upper limit |
 
 Additional perks:

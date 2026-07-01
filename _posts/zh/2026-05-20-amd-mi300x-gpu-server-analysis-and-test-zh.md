@@ -16,7 +16,7 @@ type: note
 ## 服务器配置：165.245.137.138
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 主机名 | `7` (Ubuntu 24.04) |
 | 内核 | `6.8.0-106-generic` |
 | CPU 架构 | x86_64 |
@@ -29,7 +29,7 @@ type: note
 ## GPU：AMD Instinct MI300X（虚拟功能）
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | PCI 设备 | `0000:83:00.0` |
 | 设备 ID | `0x74b5` (MI300X VF) |
 | GFX 版本 | `gfx942` |
@@ -47,7 +47,7 @@ type: note
 ## ROCm 堆栈健康状态
 
 | 组件 | 状态 |
-|---|---|
+| --- | --- |
 | `amdgpu` 内核模块 | 已加载（内核内） |
 | `rocm-smi` | 正常工作 — 正确识别 GPU |
 | `rocminfo` | 位于 `/opt/rocm-7.2.0/bin/rocminfo` |
@@ -60,7 +60,7 @@ type: note
 ## llama.cpp 构建详情
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 源码 | `https://github.com/ggerganov/llama.cpp.git` |
 | 提交 | `b39a7bf` (v0.12.0) |
 | 构建目录 | `/root/llama.cpp/build/` |

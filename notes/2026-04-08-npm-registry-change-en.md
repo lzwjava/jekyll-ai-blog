@@ -133,7 +133,7 @@ As of npm 5, if you generated your `package-lock.json` against registry A, and y
 ## 5. Summary: Priority Order (What Wins)
 
 | Priority | Source |
-|----------|--------|
+| ---------- | -------- |
 | 1st (highest) | `resolved` URLs in `package-lock.json` |
 | 2nd | `.npmrc` in project directory |
 | 3rd | `--registry` CLI flag |

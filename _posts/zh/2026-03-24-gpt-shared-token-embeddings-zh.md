@@ -40,7 +40,7 @@ Answer:
 因此其生命周期如下：
 
 | Phase | State of Embedding |
-|---|---|
+| --- | --- |
 | Before training | Random noise vectors |
 | During training | Continuously updated via backprop |
 | After training (inference) | Frozen — 每个 token 对应一个固定 vector |

@@ -27,11 +27,11 @@ Your entry permit allows you to open a personal HK bank account (as non-resident
 
 Here's a comparison for FPS registration (receiving) and Payment Connect outbound transfers:
 
-| Bank          | FPS Registration (Receiving Funds) | Payment Connect Northbound (HK to Mainland) | Notes for Non-HKID Holders (e.g., Entry Permit Users) |
-|---------------|------------------------------------|---------------------------------------------|-------------------------------------------------------|
-| **BOCHK**    | Mobile, email, FPS ID, or HKID. No HKID required for basic use. | Limited to HKID holders for instant RMB transfers. Non-HKID users can use alternative remittance like BOC Remittance Plus (faster to BOC mainland accounts, but not instant via FPS). | You can receive via mobile/email. For sending, contact BOCHK support—entry permit may allow standard remittance but not Payment Connect's instant feature. |
+| Bank | FPS Registration (Receiving Funds) | Payment Connect Northbound (HK to Mainland) | Notes for Non-HKID Holders (e.g., Entry Permit Users) |
+| --------------- | ------------------------------------ | --------------------------------------------- | ------------------------------------------------------- |
+| **BOCHK** | Mobile, email, FPS ID, or HKID. No HKID required for basic use. | Limited to HKID holders for instant RMB transfers. Non-HKID users can use alternative remittance like BOC Remittance Plus (faster to BOC mainland accounts, but not instant via FPS). | You can receive via mobile/email. For sending, contact BOCHK support—entry permit may allow standard remittance but not Payment Connect's instant feature. |
 | **CMB Wing Lung Bank** | Mobile, email, or FPS ID via app. HKID optional. | Supports app-based transfers to mainland accounts/mobile numbers (integrated with China Merchants Bank). No explicit HKID requirement mentioned, but subject to mainland rules. | As a CMB group bank, it's mainland-friendly. You likely can send via app if your account is verified with PRC ID/permit. Check app for "RMB Remittance" options. |
-| **HSBC HK**  | Mobile, email, FPS ID, or HKID. HKID not required for local FPS. | Explicitly requires HKID (Hong Kong resident status). Not available to non-HKID holders. | You can receive via mobile/email, but no northbound Payment Connect. Use HSBC's Global Money+ for standard transfers (fees apply, up to HKD1.5M/day limit). |
+| **HSBC HK** | Mobile, email, FPS ID, or HKID. HKID not required for local FPS. | Explicitly requires HKID (Hong Kong resident status). Not available to non-HKID holders. | You can receive via mobile/email, but no northbound Payment Connect. Use HSBC's Global Money+ for standard transfers (fees apply, up to HKD1.5M/day limit). |
 
 #### Why You Can Transfer Mainland to HK but Not Vice Versa
 

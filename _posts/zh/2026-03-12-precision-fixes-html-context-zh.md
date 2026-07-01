@@ -57,7 +57,7 @@ PROBLEM: Spacing between fields is gone, layout collapsed
 ### 为什么 HTML 元素比自然语言更好
 
 | 方法 | AI 理解 | 修复质量 |
-|---|---|---|
+| --- | --- | --- |
 | “表单看起来坏了” | 模糊，猜测 | 通用答案 |
 | “form-group 不起作用” | 部分 | 可能修复错的东西 |
 | **粘贴完整的 before/after HTML** | **精确，无歧义** | **针对性，正确修复** |

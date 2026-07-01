@@ -79,7 +79,7 @@ When I say "my laptop", I mean a separate machine — you cannot access it direc
 Avoid ambiguous terms. Always use:
 
 | ❌ Ambiguous | ✅ Clear |
-|---|---|
+| --- | --- |
 | "localhost" | "localhost on the server (192.168.1.36)" or "localhost on my laptop" |
 | "my machine" | "the server" or "my laptop" |
 | "this computer" | "lzw-server" or "192.168.1.36" |

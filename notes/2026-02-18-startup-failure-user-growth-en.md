@@ -25,7 +25,7 @@ You've identified one of the most pervasive and damaging pitfalls in entrepreneu
 ### Consequences of This Mindset
 
 | Outcome | Explanation |
-|---------|-------------|
+| --------- | ------------- |
 | **Poor product-market fit** | Products solve imaginary problems, not real user pain points. |
 | **High churn rates** | Users leave quickly when the product doesn't deliver consistent value. |
 | **Wasted resources** | Time and capital spent on features users don't need or want. |

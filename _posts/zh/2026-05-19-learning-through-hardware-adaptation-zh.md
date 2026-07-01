@@ -34,7 +34,7 @@ DeepSeek的团队不仅仅是“移植”到昇腾。他们**重建了关于Tran
 类比很清晰：
 
 | DeepSeek的情况 | 你的情况 |
-|---|---|
+| --- | --- |
 | NVIDIA H100 → 华为昇腾 | NVIDIA CUDA → AMD ROCm |
 | 被迫理解昇腾ISA | 被迫理解GCN/RDNA/CDNA |
 | 在CANN中构建自定义算子 | 在HIP/Triton中构建自定义算子 |

@@ -40,7 +40,7 @@ There's an exception worth knowing: Flink has added **batch operators with colum
 ## Why This Matters for Your Mental Model
 
 | Engine | Native model | Optimized for |
-|--------|-------------|---------------|
+| -------- | ------------- | --------------- |
 | Flink | Row, streaming | Low-latency, stateful event processing (OLTP-ish streams) |
 | Spark | Micro-batch, increasingly columnar (Tungsten + Arrow) | Throughput, batch analytics |
 | DuckDB / ClickHouse | Columnar, vectorized | OLAP scans/aggregations |

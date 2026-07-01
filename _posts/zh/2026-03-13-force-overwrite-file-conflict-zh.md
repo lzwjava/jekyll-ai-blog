@@ -30,7 +30,7 @@ Answer:
 ## Why `apt` Failed But `dpkg --force-overwrite` Succeeded
 
 | | `apt install` | `dpkg --force-overwrite` |
-|---|---|---|
+| --- | --- | --- |
 | 检查文件所有权冲突 | ✅ 是（严格） | ❌ 跳过 |
 | 检查包依赖 | ✅ 是 | ⚠️ 最小 |
 | 冲突时中止 | ✅ 是 | ❌ 否，覆盖 |

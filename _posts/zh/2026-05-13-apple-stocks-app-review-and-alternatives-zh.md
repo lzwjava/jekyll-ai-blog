@@ -50,7 +50,7 @@ type: note
 如果你需要更深入的信息，以下是常用的平台：
 
 | 网站 | 最适合用于 |
-|---|---|
+| --- | --- |
 | **[finance.yahoo.com](https://finance.yahoo.com)** | 免费的全面跟踪工具，包含基本面、图表和新闻 |
 | **[tradingview.com](https://www.tradingview.com)** | 高级图表和技术分析 |
 | **[stockanalysis.com](https://stockanalysis.com)** | 免费的基本面、财务数据和筛选器 |

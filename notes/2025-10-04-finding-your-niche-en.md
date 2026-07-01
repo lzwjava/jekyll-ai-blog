@@ -33,7 +33,7 @@ For AI tools specifically in China: Look into "AI night schools" popping up in G
 Leverage your road-trip energy—hit these for face-to-face chats on algorithms, startups, or even travel-life hacks. Many are monthly, so scout upcoming dates.
 
 | Event/Group | Focus | Why It Fits You | Next Steps |
-|-------------|--------|-----------------|------------|
+| ------------- | -------- | ----------------- | ------------ |
 | **Startup Grind Guangzhou** | Entrepreneurship, tech talks | Product mindset + your 11 years exp; share freelance stories or app experiments. Virtual option Oct 11, 2025. | RSVP free on their site; pitch a "life-hacking with AI" lightning talk. |
 | **IT & Science/Tech Meetups on Eventbrite** | Coding, cloud, AI workshops | Full-stack/mobile devs; discuss Spring Boot/Redis or your 10 OSS projects. Multiple events monthly. | Filter for "Guangzhou IT" on Eventbrite; attend one this month. |
 | **Networking Groups on Meetup.com** | Professional tech networking | Connect with Guangdong NOIP alums or self-taught folks; your Beijing dropout-to-freelancer arc resonates. | Join "Guangzhou Tech Networking"—events like casual code shares. |

@@ -20,7 +20,7 @@ Honestly? **For billing purposes alone — there is no point.** You pay either w
 ### The Only Real Reasons to Power Off (Not Destroy)
 
 | Reason | Explanation |
-|---|---|
+| --- | --- |
 | **Safety / Security** | A powered-off machine can't be attacked, hacked, or have runaway processes consuming resources |
 | **Avoid accidental usage** | Prevents services or scripts from running unexpectedly and consuming GPU memory |
 | **Thermal/process hygiene** | Stops all background processes cleanly before doing maintenance |

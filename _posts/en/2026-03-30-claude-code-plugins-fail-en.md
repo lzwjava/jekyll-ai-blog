@@ -112,7 +112,7 @@ CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS=30000 claude
 The LLM call dies mid-Superpowers because:
 
 | Cause | Likelihood |
-|---|---|
+| --- | --- |
 | 2-minute API timeout | Very common |
 | SSE stream stalls silently | Common |
 | Context window overload | Common on large projects |

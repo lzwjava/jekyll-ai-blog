@@ -75,7 +75,7 @@ So dry-run is most justified when the operation is:
 ## Summary
 
 | Situation | Dry-run worthwhile? |
-|---|---|
+| --- | --- |
 | Destructive ops (delete, overwrite) | ✅ Yes |
 | Remote side effects (upload, email, deploy) | ✅ Yes |
 | Automation / CI pipelines needing previews | ✅ Yes |

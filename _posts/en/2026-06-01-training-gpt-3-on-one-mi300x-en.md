@@ -44,7 +44,7 @@ Let's use **40% MFU = 520 TFLOPS**:
 ## By MFU Scenario
 
 | MFU | Effective TFLOPS | Days | Cost @ $2/hr |
-|-----|-----------------|------|--------------|
+| ----- | ----------------- | ------ | -------------- |
 | 20% | 260 TFLOPS | 537 days | ~$25,776 |
 | 30% | 390 TFLOPS | 358 days | ~$17,184 |
 | 40% | 520 TFLOPS | 268 days | ~$12,864 |
@@ -86,7 +86,7 @@ Still long. Go smaller:
 ### Option B: Smaller Model, Same Architecture
 
 | Model | Params | 100B tokens | Cost |
-|-------|--------|-------------|------|
+| ------- | -------- | ------------- | ------ |
 | GPT-3 Small | 125M | ~2 days | ~$96 |
 | GPT-3 Medium | 350M | ~5 days | ~$240 |
 | GPT-3 XL | 1.3B | ~18 days | ~$864 |

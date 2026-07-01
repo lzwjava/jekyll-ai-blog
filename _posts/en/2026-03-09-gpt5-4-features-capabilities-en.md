@@ -95,7 +95,7 @@ GPT-5.2 Thinking will remain available for three months for paid users in the mo
 ### Summary Table
 
 | Feature | GPT-5.4 | GPT-5.4 Pro |
-|---|---|---|
+| --- | --- | --- |
 | Context Window | 1.05M tokens | 1.05M tokens |
 | Computer Use | Native (first general-purpose) | Native |
 | Reasoning Effort | none, low, medium, high, xhigh | medium, high, xhigh |

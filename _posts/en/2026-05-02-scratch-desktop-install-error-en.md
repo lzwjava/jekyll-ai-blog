@@ -90,7 +90,7 @@ ssh xiaoxin@192.168.1.47 "flatpak run edu.mit.Scratch --version 2>&1 | head -3"
 ### Summary
 
 | Issue | Severity |
-|---|---|
+| --- | --- |
 | No pre-flight checks | Medium |
 | Wrong install mode first try | High (caused ~700MB wasted download) |
 | EOL runtime not flagged clearly | Low |

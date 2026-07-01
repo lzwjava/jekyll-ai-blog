@@ -80,7 +80,7 @@ Unlike Claude Code, **Copilot does not provide an open API for capturing full re
 If your goal is specifically **prompt improvement and iteration tracking** (not just raw logging), these platforms are purpose-built for that:
 
 | Platform | Key Strength | Open Source? |
-|---|---|---|
+| --- | --- | --- |
 | **PromptLayer** | Middleware layer that logs all LLM requests, enables non-technical prompt iteration, A/B testing, and version control via a visual dashboard | No |
 | **Langfuse** | Open-source LLM observability with detailed tracing, cost tracking, latency monitoring, and prompt versioning | Yes |
 | **LangSmith** | Excels in logging, traceability, deep insights into prompt performance, systematic debugging and optimization | No |

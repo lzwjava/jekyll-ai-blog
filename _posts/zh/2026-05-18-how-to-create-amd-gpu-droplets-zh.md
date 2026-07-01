@@ -78,7 +78,7 @@ Droplet 大约需要 **2–4 分钟** 完成配置。你将在仪表盘中看到
 ## 价格参考
 
 | 配置 | 价格 |
-|---|---|
+| --- | --- |
 | 1x AMD Instinct MI300X（192 GB VRAM） | $1.99/小时 |
 | 8x AMD Instinct MI300X（1536 GB VRAM） | $15.92/小时 |
 | 免费额度（AMD AI Developer Program） | ~$100（约 50 小时） |

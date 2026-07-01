@@ -28,7 +28,7 @@ Here's a summary of what happened, with locations generalized:
 3. Ran the full recursive scan + clean across `assets/`:
 
    | Metric | Value |
-   |---|---|
+   | --- | --- |
    | Images scanned | 614 |
    | With GPS | 48 |
    | Cleaned | 48 |

@@ -75,7 +75,7 @@ The key is learning to distinguish **"I resist this because it's forced"** vs **
 ## Summary
 
 | Forced Mode | Free Mode |
-|---|---|
+| --- | --- |
 | Drains energy | Generates energy |
 | Feels like obligation | Feels like exploration |
 | Breeds resentment | Breeds growth |

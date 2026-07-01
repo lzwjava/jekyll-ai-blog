@@ -59,7 +59,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
 All inputs (`q`, `k`, `v`) must have matching shapes and be on the same device/dtype. PyTorch's function supports **batched** and **multi-head** attention flexibly. Here's the breakdown:
 
 | Argument | Shape (Batch-First, Default) | Description | Requirements |
-|----------|------------------------------|-------------|--------------|
+| ---------- | ------------------------------ | ------------- | -------------- |
 | **q** (Query) | `(B, S_q, H, D)` or `(B, S_q, E)` | - `B`: Batch size (e.g., 32).<br>- `S_q`: Query sequence length (e.g., 512).<br>- `H`: Num heads (e.g., 8; optional if single-head).<br>- `D`: Head dim (e.g., 64; `E = H * D` for flattened embed dim). | - `S_q` must match `S_k` for self-attention.<br>- For Flash: `D` ≤ 256 (optimal), but up to 512 works. |
 | **k** (Key) | `(B, S_k, H, D)` or `(B, S_k, E)` | Same as `q`, but `S_k` is key sequence length (often = `S_q`). | - Broadcastable to `q` shape. |
 | **v** (Value) | `(B, S_v, H, D)` or `(B, S_v, E)` | Same as `k`, `S_v` usually = `S_k`. | - Output `y` shape matches `v`. |

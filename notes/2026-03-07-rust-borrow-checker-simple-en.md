@@ -145,7 +145,7 @@ The next frontier for Rust borrow checking is Polonius — a next-generation ver
 ### 13. Summary Table
 
 | Concept | Rule |
-|---|---|
+| --- | --- |
 | Ownership | Each value has exactly one owner |
 | Move | Ownership transfers; original binding becomes invalid |
 | Immutable borrow (`&T`) | Many allowed simultaneously |

@@ -30,7 +30,7 @@ Released in 2010, Angular is a TypeScript-based, open-source JavaScript framewor
 ### 2. Architecture & Design Philosophy
 
 | Feature | Vue | Angular |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | MVVM | MVC |
 | Language | JavaScript (TypeScript optional) | TypeScript (required) |
 | Opinionation | Flexible, modular | Opinionated, structured |
@@ -95,7 +95,7 @@ Angular is well-suited for large-scale, enterprise-level applications and projec
 ### Summary Table
 
 | Criterion | Vue | Angular |
-|---|---|---|
+| --- | --- | --- |
 | Created by | Evan You (2014) | Google (2010/2016) |
 | Language | JS + optional TS | TypeScript (mandatory) |
 | Architecture | MVVM | MVC |

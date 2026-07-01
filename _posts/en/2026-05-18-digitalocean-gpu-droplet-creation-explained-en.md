@@ -58,7 +58,7 @@ This section lets you pick the operating system and software stack pre-installed
 These are pre-configured Docker-based environments with ready-to-use JupyterLab notebooks, accessible via SSH or browser. Each package bundles ROCm with a specific AI framework:
 
 | Package | Version | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | **vLLM** | 0.17.1 + ROCm 7.2.0 | Optimized LLM inference and serving |
 | **SGLang** | 0.5.9 + ROCm 7.0.0 | LLM inference and serving |
 | **PyTorch** | 2.6.0 + ROCm 7.0.0 | General deep learning / model training |
@@ -89,7 +89,7 @@ Billing is per-second with a minimum 5-minute round-up. Powered-off Droplets sti
 ## When to Choose What
 
 | Use Case | Recommended Option |
-|---|---|
+| --- | --- |
 | Serve a large LLM via API | vLLM Quick Start |
 | Fine-tune or train a model | PyTorch or Megatron |
 | Run the GPT-OSS 120B model | ROCm-enabled GPT-OSS |

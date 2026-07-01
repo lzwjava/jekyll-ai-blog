@@ -18,7 +18,7 @@ type: note
 ## HF 流量的实际分布情况
 
 | 活动 | 主机 / 路径 | 方法 |
-|---|---|---|
+| --- | --- | --- |
 | 浏览模型卡片、搜索、文档 | `huggingface.co`（HTML、`/models`、`/datasets`） | `GET` |
 | Web UI XHR/API | `huggingface.co/api/...` | `GET` |
 | **拉取**（下载权重） | `cdn-lfs.huggingface.co`、`cdn-lfs-us-1.huggingface.co`、`*.hf.co`，LFS 指针解析到这些地址 | `GET`（大文件） |

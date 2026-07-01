@@ -18,7 +18,7 @@ This is straightforward billing mechanics:
 **What you're seeing:**
 
 | Field | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | Total Available | $99.97 | Credits usable against your next invoice |
 | Promotion name | AMD Dev Cloud GPU Promotion | Likely a partnership/promo credit from AMD or DO |
 | Expiration | June 26, 2026 | Credits expire ~25 days from now |

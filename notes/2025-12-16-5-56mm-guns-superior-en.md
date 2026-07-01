@@ -18,8 +18,8 @@ Neither caliber is strictly "better" in PUBG Mobile—it depends on your playsty
 
 ### Key Comparison
 
-| Caliber  | Pros | Cons | Top Guns (2025 Meta) | Best For |
-|----------|------|------|-----------------------|----------|
+| Caliber | Pros | Cons | Top Guns (2025 Meta) | Best For |
+| ---------- | ------ | ------ | ----------------------- | ---------- |
 | **5.56mm** (Green ammo boxes) | - Lower recoil & easier control<br>- Faster bullet velocity<br>- Better accuracy & spray potential<br>- More attachments (e.g., stock on M416) | - Lower base damage (40-41)<br>- Slightly slower TTK vs armored targets | - M416 (S-Tier: balanced king)<br>- SCAR-L (stable mid-range)<br>- QBZ/G36C (low recoil lasers) | Mid-long range, spraying, beginners/intermediates |
 | **7.62mm** (Yellow ammo boxes) | - Higher damage (43-49)<br>- Faster TTK on Level 3 armor<br>- Strong close-range bursts | - High recoil (harder to control)<br>- Slower bullet velocity<br>- Less stable for sprays | - Beryl M762 (S-Tier: high DPS beast)<br>- AKM (high damage bursts)<br>- Groza (airdrop CQC monster) | Close-mid range, bursting, skilled players |
 

@@ -37,7 +37,7 @@ A blog post or product released after a model's cutoff is completely invisible t
 The components you mentioned are excellent examples:
 
 | Component | Why LLMs Know It Well |
-|---|---|
+| --- | --- |
 | **Transistors** (BJT, FET) | 70+ years of textbooks, datasheets, repair guides |
 | **Capacitors** | Standard passive components, massive documentation |
 | **Rectifiers / Diodes** | Classic power electronics, widely documented |

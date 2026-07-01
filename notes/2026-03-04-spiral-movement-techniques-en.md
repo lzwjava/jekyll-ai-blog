@@ -30,7 +30,7 @@ Answer:
    - **Guan Yu** "Return City Flow": Ult → Recall mid-charge for poke/escape loops.
 
 | Technique/Flow | Description | Utility Skills Involved | Heroes/Supports |
-|---------------|-------------|--------------------------|-----------------|
+| --------------- | ------------- | -------------------------- | ----------------- |
 | **Spiral Walk (螺旋走位)** | Zig-zag drift to dodge while moving/Recalling | Sprint + Recovery | Luna, Guan Yu, Marco Polo |
 | **Da Qiao Portal Loop (回城流)** | Team instant full-HP return → re-engage | Portal (Skill 2) + Sprint | Da Qiao + Gongsun Li/Yun Zhong Jun |
 | **Sustain Rotation Loop** | Recovery → Sprint → Recall repeat for map control | Recovery (mandatory) + Sprint/Flash | All supports (e.g., Yao, Sun Bin) |

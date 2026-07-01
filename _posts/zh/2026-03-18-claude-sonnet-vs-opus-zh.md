@@ -18,7 +18,7 @@ type: note
 ### 1. 关键技术差异
 
 | Feature | Sonnet 4.6 | Opus 4.6 |
-|---|---|---|
+| --- | --- | --- |
 | Max output tokens | 64k | 128k |
 | Pricing (input/output per M tokens) | ~$3 / $15 | ~$15 / $75 |
 | SWE-bench Verified (coding) | 79.6% | 80.8% |

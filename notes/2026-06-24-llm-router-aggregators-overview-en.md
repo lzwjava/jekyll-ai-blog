@@ -18,7 +18,7 @@ Here are the main ones worth knowing:
 ## Tier 1 — Full Aggregators (multi-provider routing)
 
 | Service | Models | Key Feature |
-|---|---|---|
+| --- | --- | --- |
 | [OpenRouter](https://openrouter.ai) | 300+ | Best coverage, fallback routing, usage analytics |
 | [Together AI](https://together.ai) | 100+ | Good for open-source, fast inference, fine-tuning |
 | [Fireworks AI](https://fireworks.ai) | 50+ | Fast inference, function calling, JSON mode |
@@ -29,7 +29,7 @@ Here are the main ones worth knowing:
 ## Tier 2 — Focused Routers
 
 | Service | Specialty |
-|---|---|
+| --- | --- |
 | [Hugging Face Inference API](https://huggingface.co/inference-api) | Any HF model, serverless |
 | [Novita AI](https://novita.ai) | Cheap open-source models |
 | [DeepInfra](https://deepinfra.com) | Competitive pricing on open models |
@@ -39,7 +39,7 @@ Here are the main ones worth knowing:
 ## Tier 3 — Enterprise / Self-hosted Routers
 
 | Service | Use Case |
-|---|---|
+| --- | --- |
 | [LiteLLM](https://github.com/BerriAI/litellm) | Self-hosted proxy, 100+ providers, OpenAI-compatible |
 | [PortKey](https://portkey.ai) | Observability + routing + guardrails |
 | [Helicone](https://helicone.ai) | Proxy with logging, rate limiting, caching |
@@ -69,7 +69,7 @@ response = completion(
 ## Pricing Comparison for DeepSeek V3 (your primary model)
 
 | Router | Input ($/1M) | Notes |
-|---|---|---|
+| --- | --- | --- |
 | OpenRouter | ~$0.27 | With caching discounts |
 | Together AI | ~$0.30 | |
 | Fireworks | ~$0.27 | |

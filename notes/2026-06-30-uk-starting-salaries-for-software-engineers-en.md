@@ -26,7 +26,7 @@ Breaking it down:
 So:
 
 | Scenario | Typical starting salary |
-|---|---|
+| --- | --- |
 | Regional / smaller employer | £28k–£32k |
 | National median grad | £33k–£37k |
 | London / banks / big tech | £40k–£50k+ |

@@ -34,7 +34,7 @@ This is **good news for experienced candidates** — supply is tight, demand is 
 ## Contract vs Permanent Bank Roles in Guangzhou
 
 | Factor | Contract | Permanent (Bank) |
-|---|---|---|
+| --- | --- | --- |
 | Pay | Higher day rate / package | Stable base + bonus |
 | Security | Short-term, renewable | Long-term, benefits |
 | Speed to offer | Faster | Slower, more rounds |

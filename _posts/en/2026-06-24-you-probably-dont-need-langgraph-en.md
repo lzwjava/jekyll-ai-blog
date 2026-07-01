@@ -34,7 +34,7 @@ It's built on top of LangChain, adds: checkpointing, human-in-the-loop pauses, s
 ## When LangGraph is actually worth it
 
 | Use case | LangGraph | Plain code |
-|---|---|---|
+| --- | --- | --- |
 | Simple LLM call | ❌ overkill | ✅ |
 | Linear chain (prompt → parse → prompt) | ❌ overkill | ✅ |
 | Multi-agent with handoffs | ✅ | gets messy |

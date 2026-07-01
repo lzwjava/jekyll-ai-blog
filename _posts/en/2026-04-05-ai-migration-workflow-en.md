@@ -97,7 +97,7 @@ Here's how to operationalize your idea:
 ## Summary Verdict
 
 | Layer | Tool | Use For |
-|---|---|---|
+| --- | --- | --- |
 | Key decisions | Claude Sonnet 4.6 (web chat) | Architecture, patterns, ambiguous logic, security |
 | Execution | OpenClaw + MiniMax M2.7 | File-by-file conversion, boilerplate, repetitive rewrites |
 | Checkpoints | Claude Sonnet 4.6 | Reviewing M2.7 output that fails or looks wrong |

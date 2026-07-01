@@ -58,7 +58,7 @@ Your build uses a **Corsair CX650F 750W PSU**. The RTX 4070 alone draws around 2
 ## Summary Table
 
 | Consideration | Verdict |
-|---|---|
+| --- | --- |
 | Intel CPU + AMD GPU compatibility | ✅ Fully compatible |
 | B760M Mortar WiFi supports 2 full GPUs | ❌ Only 1 PCIe x16 slot |
 | RTX 4070 + AMD GPU for gaming | ❌ Not supported (different brands) |

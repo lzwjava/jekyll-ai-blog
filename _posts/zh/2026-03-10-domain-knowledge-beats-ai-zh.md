@@ -41,7 +41,7 @@ Bootstrap 5 完全从网格系统中删除了 `.form-group`、`.form-row` 和 `.
 ### 关键替换类总结
 
 | Bootstrap 4 (已移除) | Bootstrap 5 替换 |
-|---|---|
+| --- | --- |
 | `form-inline` | `d-flex`、`flex-row`、`flex-wrap` |
 | `form-group` | `mb-3` (margin utility) |
 | `form-row` | `row` + `g-*` (gutter utilities) |

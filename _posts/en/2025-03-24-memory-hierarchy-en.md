@@ -29,7 +29,7 @@ Memory in a computer system is organized in a hierarchical structure to balance 
 The **memory hierarchy** can be categorized into different levels:
 
 | Level | Memory Type | Speed | Cost | Capacity |
-|--------|-------------|--------|------|----------|
+| -------- | ------------- | -------- | ------ | ---------- |
 | 1 | **CPU Registers** | Fastest | Very High | Very Small |
 | 2 | **Cache Memory (L1, L2, L3)** | Very Fast | High | Small |
 | 3 | **Main Memory (RAM)** | Fast | Moderate | Medium |
@@ -109,7 +109,7 @@ Virtual memory is a **technique that allows the system to use disk space as an e
 ### **5.4 Virtual Memory vs Physical Memory**
 
 | Feature | Virtual Memory | Physical Memory (RAM) |
-|---------|---------------|----------------------|
+| --------- | --------------- | ---------------------- |
 | Location | Hard disk (swap file) | RAM (main memory) |
 | Speed | Slow | Fast |
 | Size | Large | Limited by hardware |
@@ -157,7 +157,7 @@ To ensure high-speed memory operations, the system uses:
 ### **7.2 Trade-offs in Memory Hierarchy**
 
 | Factor | Cache Memory | RAM | Virtual Memory |
-|--------|-------------|-----|---------------|
+| -------- | ------------- | ----- | --------------- |
 | Speed | Fastest | Moderate | Slow |
 | Cost | Expensive | Moderate | Cheap |
 | Size | Small | Medium | Large |

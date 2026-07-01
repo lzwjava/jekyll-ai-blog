@@ -48,7 +48,7 @@ Working within a schedule that is **anchored to changes in location** can help y
 ## How to Use Each Space Wisely
 
 | Location | Best For |
-|---|---|
+| --- | --- |
 | **Bedroom / quiet room** | Deep focused work, reading, writing |
 | **Book room / study** | Research, note-taking, studying |
 | **Canteen** | Light tasks, emails, casual planning |

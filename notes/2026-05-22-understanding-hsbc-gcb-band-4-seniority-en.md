@@ -22,7 +22,7 @@ Yes, GCB 4 is solidly senior. Here's the full picture:
 Bands go from high number (junior) to low number (senior) — the inverse of most companies:
 
 | Band | Level | Typical Title |
-|------|-------|---------------|
+| ------ | ------- | --------------- |
 | GCB 8 | Entry | Analyst / Graduate |
 | GCB 7 | Junior | Senior Analyst / Asst. Manager |
 | GCB 6 | Mid | Manager / Business Analyst |

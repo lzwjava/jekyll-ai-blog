@@ -40,12 +40,12 @@ Here is a summary of key details for Taalas:
 
 | **Attribute** | **Details** |
 | :--- | :--- |
-| **Founded** | August 2023  |
-| **Headquarters** | Toronto, Canada  |
-| **CEO & Co-Founder** | Ljubisa Bajic  |
-| **Key Investors** | Fidelity, Quiet Capital, Pierre Lamond  |
-| **Total Funding** | ~$269 million (across rounds in 2024 and 2026)  |
-| **Core Innovation** | "Hardcore Models" - custom silicon for specific AI models  |
-| **First Product** | HC1 chip, achieving over 16,000 tokens/second on Llama3.1-8B  |
+| **Founded** | August 2023 |
+| **Headquarters** | Toronto, Canada |
+| **CEO & Co-Founder** | Ljubisa Bajic |
+| **Key Investors** | Fidelity, Quiet Capital, Pierre Lamond |
+| **Total Funding** | ~$269 million (across rounds in 2024 and 2026) |
+| **Core Innovation** | "Hardcore Models" - custom silicon for specific AI models |
+| **First Product** | HC1 chip, achieving over 16,000 tokens/second on Llama3.1-8B |
 
 I hope this comprehensive overview is helpful. Would you like me to provide more detail on the technical specifications of Taalas's first chip, the HC1?

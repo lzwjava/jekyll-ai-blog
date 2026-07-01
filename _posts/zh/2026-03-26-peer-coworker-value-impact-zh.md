@@ -48,7 +48,7 @@ When you work closely with someone for a year, you naturally accumulate signals 
 Despite all the above, peer judgment can be distorted by several traps:
 
 | Trap | What Happens |
-|---|---|
+| --- | --- |
 | **Visibility bias** | Loud, frequent communicators seem more valuable than quiet deep contributors |
 | **Recency bias** | Someone who helped you last week feels more valuable than someone who built the foundation 8 months ago |
 | **Likability halo** | A socially warm person gets credited more than a reserved but highly effective one |

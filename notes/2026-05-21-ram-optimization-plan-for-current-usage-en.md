@@ -56,7 +56,7 @@ Close unused tabs. Each tab is 200-500MB. If you have 20 tabs open across 2 brow
 Since you have a remote i9+RTX 4070 machine at `192.168.1.36`, consider keeping this laptop as a **thin client**:
 
 | Local laptop | Remote machine |
-|---|---|
+| --- | --- |
 | Ghostty terminal | Heavy builds |
 | VSCode Remote SSH | All compilation, testing |
 | Light browsing | ML / GPU workloads |

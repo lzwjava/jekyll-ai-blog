@@ -28,7 +28,7 @@ What that means practically:
 Your instinct — *大模型工程师满大街, agent工程师满大街* — I'd split it:
 
 | Role | Saturation timeline | What survives commoditization |
-|---|---|---|
+| --- | --- | --- |
 | Pretraining core | Already rare, stays rare | Systems + math depth |
 | Fine-tuning | 2-3 years | Dataset curation taste |
 | Basic agent (LangChain glue) | Already commoditized | Nothing |

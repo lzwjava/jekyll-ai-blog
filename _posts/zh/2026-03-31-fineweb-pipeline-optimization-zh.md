@@ -50,7 +50,7 @@ type: note
 ### 当前状态评估
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Shards processed | 5 of 21 |
 | Text extracted | 13 GB |
 | Lines written | 76M |
@@ -91,7 +91,7 @@ Tokenization 脚本需要：
 **2. 磁盘空间计算**
 
 | File | 5 shards | 21 shards |
-|---|---|---|
+| --- | --- | --- |
 | Raw text | 13 GB | 55 GB |
 | Tokenized | 7 GB | 28 GB |
 | Parquet (temp) | 0 GB (deleted) | 0 GB |
@@ -142,7 +142,7 @@ Tokenization 脚本需要：
 ### 总结
 
 | Issue | Severity | Fix |
-|---|---|---|
+| --- | --- | --- |
 | HF `datasets` OOM | ✅ Solved | 使用 `pyarrow.iter_batches` |
 | Missing tokenizer | 🔴 Blocker | 编写 `prepare.py` |
 | Wrong subset (full vs sample-10BT) | 🟡 Quality | 使用 `sample-10BT` 进行训练 |

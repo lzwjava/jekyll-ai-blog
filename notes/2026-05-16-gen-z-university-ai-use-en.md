@@ -72,7 +72,7 @@ Even Gen Z itself is growing more skeptical: excitement about AI dropped **14 pe
 ### 🔑 Summary
 
 | Use Case | AI Usefulness | Risk |
-|---|---|---|
+| --- | --- | --- |
 | Coding homework ("vibe coding") | Very high | Skill atrophy, academic integrity |
 | Essay writing/homework | Moderate | Detection, learning loss |
 | Grad school personal statement | Low-moderate (brainstorming only) | Being rejected for sounding generic |

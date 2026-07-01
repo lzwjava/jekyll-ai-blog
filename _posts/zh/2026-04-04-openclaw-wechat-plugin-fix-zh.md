@@ -63,7 +63,7 @@ type: note
 ### 各工具的作用
 
 | 工具 | 用途 |
-|------|---------|
+| ------ | --------- |
 | `exec` | 运行所有 shell 命令——npm install、openclaw status、grep、文件读取 |
 | `process` | 监控长时间运行命令（mtr、npm、登录过程） |
 | `read` | 阅读插件源码以理解登录 API |

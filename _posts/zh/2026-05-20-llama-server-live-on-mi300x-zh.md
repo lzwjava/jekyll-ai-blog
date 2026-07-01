@@ -22,14 +22,14 @@ type: note
 ### 性能
 
 | Metric | Speed |
-|---|---|
+| --- | --- |
 | Prompt processing | **77.4 t/s** |
 | Token generation | **91.2 t/s** |
 
 ### 服务器配置
 
 | 设置项 | 值 |
-|---|---|
+| --- | --- |
 | 上下文 | 32,768 tokens（4个插槽） |
 | GPU层数 | 99（全部在MI300X上） |
 | 线程数 | 16 |

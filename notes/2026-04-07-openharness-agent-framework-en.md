@@ -35,7 +35,7 @@ In short:
 OpenHarness implements the core Agent Harness pattern with 10 subsystems:
 
 | Subsystem | Role |
-|---|---|
+| --- | --- |
 | `engine/` | Agent loop — stream, tool-call, loop |
 | `tools/` | 43+ tools (file, shell, search, web, MCP) |
 | `skills/` | On-demand knowledge loading via `.md` files |

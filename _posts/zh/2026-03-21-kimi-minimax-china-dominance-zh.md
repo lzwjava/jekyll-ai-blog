@@ -92,7 +92,7 @@ Baichuan 急剧改变方向。其两名联合创始人辞职创业，这仅在�
 ## 总结表格
 
 | Company | Outcome | Key Reason |
-|---|---|---|
+| --- | --- | --- |
 | **Kimi (Moonshot AI)** | 🏆 Winner | Benchmark-beating models, ecosystem moves, revenue explosion |
 | **MiniMax** | 🏆 Winner | MoE efficiency, global consumer apps, 159% revenue growth |
 | **Baichuan / Wang Xiaochuan** | ❌ Declining | Leadership exodus, pivoted to medical niche |

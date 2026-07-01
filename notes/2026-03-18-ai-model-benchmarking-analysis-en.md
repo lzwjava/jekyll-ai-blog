@@ -86,7 +86,7 @@ Some newer or less prominent models may not yet be tested, especially if they la
 ## Arena.ai vs. Artificial Analysis: A Quick Comparison
 
 | | **Arena.ai** | **Artificial Analysis** |
-|---|---|---|
+| --- | --- | --- |
 | **Method** | Human votes (crowdsourced) | Automated benchmarks |
 | **Best for** | Judging conversational quality | Comparing speed, cost, intelligence |
 | **Bias risks** | Gaming by labs, voter demographics | Benchmark overfitting, self-defined metrics |

@@ -24,7 +24,7 @@ type: note
 ### 状态：✅ 已运行
 
 | Component | State |
-|---|---|
+| --- | --- |
 | Browser Profile | `openclaw` (default) |
 | Running | **true** |
 | Transport | CDP |
@@ -76,7 +76,7 @@ Playwright 1.58.2 已全局安装，并已将 Chromium 下载到 `~/.cache/ms-pl
 ### 浏览器库存
 
 | Binary | Version | Source | CDP Compatible |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `/usr/bin/chromium-browser` | 146.0.7680.80 | snap | ❌ (AppArmor blocks it) |
 | `~/.cache/ms-playwright/.../chrome` | 145.0.7632.6 | Playwright 1.58.2 | ✅ **(active)** |
 
@@ -85,7 +85,7 @@ Playwright 1.58.2 已全局安装，并已将 Chromium 下载到 `~/.cache/ms-pl
 ### 活动浏览器配置文件
 
 | Profile | Status | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `openclaw` | ✅ running (1 tab) | Managed headless, CDP on :18800 |
 | `user` | ⬜ stopped | Existing-session mode (requires `--browser-profile user`) |
 | `chrome-relay` | ✅ running (0 tabs) | Extension relay on :18792 |

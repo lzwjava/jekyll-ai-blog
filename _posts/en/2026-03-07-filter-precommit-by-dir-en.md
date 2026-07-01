@@ -18,7 +18,7 @@ type: note
 There are **two keys** you use in `.pre-commit-config.yaml` to filter by path:
 
 | Key | Purpose |
-|---|---|
+| --- | --- |
 | `files` | **Include only** files matching this regex pattern |
 | `exclude` | **Skip** files matching this regex pattern |
 

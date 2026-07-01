@@ -92,7 +92,7 @@ source myenv/bin/activate
 ### **命令汇总表**
 
 | 命令 | 用途 |
-|---------|---------|
+| --------- | --------- |
 | `sudo apt update` | 更新软件包列表 |
 | `sudo apt install python3.11` | 安装 Python 3.11 |
 | `python3.11 -m ensurepip --upgrade` | 为 Python 3.11 安装 pip |

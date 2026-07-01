@@ -32,7 +32,7 @@ In **1991**, Tachikawa Toshiyuki released *それが大事*. Then in **1992**, H
 Since YouTube Music uses the same search index as YouTube, here are the best search terms to find the original:
 
 | What you want | Search term to use |
-|---|---|
+| --- | --- |
 | Original studio version | `それが大事 大事MANブラザーズバンド` |
 | By artist name (romanized) | `Sore ga Daiji Daiji MAN Brothers Band` |
 | Original PV / Music Video | `それが大事 PV 1991` |
@@ -53,7 +53,7 @@ Since YouTube Music uses the same search index as YouTube, here are the best sea
 ### Quick Summary
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | 红日 (Cantonese) | Sung by 李克勤 (Hacken Lee), 1992 |
 | 原版 Japanese title | それが大事 (Sore ga Daiji) |
 | Japanese artist | 大事MANブラザーズバンド / 立川俊之 |

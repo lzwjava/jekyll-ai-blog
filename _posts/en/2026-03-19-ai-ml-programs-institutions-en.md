@@ -129,7 +129,7 @@ Notable options include:
 ## Summary Comparison Table
 
 | Program | Institution | Duration | Approximate Cost | Best For |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Machine Learning Specialization | DeepLearning.AI | ~3 months | ~$147 | All levels — foundational ML |
 | Deep Learning Specialization | DeepLearning.AI | ~4–5 months | ~$200–250 | Intermediate engineers |
 | Generative AI with LLMs | DeepLearning.AI | 3–4 weeks | ~$49–100 | Quick LLM upskill |

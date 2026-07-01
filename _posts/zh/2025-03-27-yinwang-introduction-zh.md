@@ -63,14 +63,14 @@ GitHub上的[pysonar2](https://github.com/yinwang0/pysonar2)（Python类型推�
 
 其GitHub贡献概览：
 
-| 仓库        | 描述     | 星标数 | 复刻数 | 链接 |
-|-------------|----------|--------|--------|------|
-| pysonar2    | PySonar2：支持过程间类型推断的Python语义索引器 | 1.4k | 504 | /yinwang0/pysonar2 |
-| rubysonar   | 支持过程间类型推断的Ruby语义索引器 | 190 | 160 | /yinwang0/rubysonar |
-| yscheme     | Scheme至X64的编译器 | 188 | 116 | /yinwang0/yscheme |
-| ydiff       | Lisp系语言结构对比工具，支持C++、JS实验性功能 | 186 | 78 | /yinwang0/ydiff |
-| psydiff     | Python结构对比工具 | 115 | 68 | /yinwang0/psydiff |
-| tinyKanren  | 精简版miniKanren语言实现，无附加特性 | 51 | 25 | /yinwang0/tinyKanren |
+| 仓库 | 描述 | 星标数 | 复刻数 | 链接 |
+| ------------- | ---------- | -------- | -------- | ------ |
+| pysonar2 | PySonar2：支持过程间类型推断的Python语义索引器 | 1.4k | 504 | /yinwang0/pysonar2 |
+| rubysonar | 支持过程间类型推断的Ruby语义索引器 | 190 | 160 | /yinwang0/rubysonar |
+| yscheme | Scheme至X64的编译器 | 188 | 116 | /yinwang0/yscheme |
+| ydiff | Lisp系语言结构对比工具，支持C++、JS实验性功能 | 186 | 78 | /yinwang0/ydiff |
+| psydiff | Python结构对比工具 | 115 | 68 | /yinwang0/psydiff |
+| tinyKanren | 精简版miniKanren语言实现，无附加特性 | 51 | 25 | /yinwang0/tinyKanren |
 
 这些工具与其对类型系统及简约性的关注一致，尽管他同时批判TypeScript等具体实现。
 

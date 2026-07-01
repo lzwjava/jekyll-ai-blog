@@ -87,7 +87,7 @@ AMD Dev Cloud uses a slightly different model — it's more of a **managed cloud
 ### Storage tiers on AMD Dev Cloud
 
 | Type | Where | Use case |
-|------|--------|----------|
+| ------ | -------- | ---------- |
 | Instance local storage | NVMe on the MI300X node | Fast scratch, ephemeral |
 | Persistent project storage | Network-attached, per-account | Datasets, checkpoints |
 | Object storage (if enabled) | S3-compatible endpoint | Large dataset staging |

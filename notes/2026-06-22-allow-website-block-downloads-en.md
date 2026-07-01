@@ -95,7 +95,7 @@ Works but employees can bypass with DoH. Combine with TLS inspection for teeth.
 ## What Actually Breaks Download
 
 | What you block | Effect |
-|---|---|
+| --- | --- |
 | `cdn-lfs.huggingface.co` | Breaks weight downloads (>99% of model size) |
 | `/resolve/` path on main domain | Breaks config/tokenizer file pulls |
 | `/api/models` | Breaks `huggingface_hub` metadata queries |

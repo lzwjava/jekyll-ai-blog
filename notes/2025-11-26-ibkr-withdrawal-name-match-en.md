@@ -30,7 +30,7 @@ If the names do not match 100 %, IBKR will either:
 ### Practical solutions that Chinese clients actually use
 
 | Option | How to make the names match | Difficulty | Cost to open |
-|------|----------------------------------|----------|--------------|
+| ------ | ---------------------------------- | ---------- | -------------- |
 | 1. ZA Bank / Mox / WeLab Bank / Livi Bank / Airstar (recommended) | When you open the account with your mainland ID card, you can **choose** the English name order. Just enter “XIAOMING LI” exactly as it appears on your IBKR account. | Very easy, 100 % online in 5–10 minutes | Free |
 | 2. HSBC One (HSBC’s online-only account) | You can also select the exact English name “XIAOMING LI” during remote opening with mainland ID. | Easy, fully remote | Free |
 | 3. Bank of China (Hong Kong) | When opening remotely or at a branch, ask them to register the English name as “XIAOMING LI” (they allow it). | Medium | Free |

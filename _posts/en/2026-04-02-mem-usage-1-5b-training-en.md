@@ -12,7 +12,7 @@ type: note
 77GB breakdown for 1.5B model:
 
 | Component | Memory |
-|-----------|--------|
+| ----------- | -------- |
 | Weights (bf16) | ~3GB |
 | Adam states (2 states × fp32 = m & v) | ~12GB |
 | Gradients (fp32) | ~6GB |

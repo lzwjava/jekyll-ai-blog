@@ -48,7 +48,7 @@ The window where an insight is actionable is finite. If you identify that a stoc
 ## Practical timing heuristics
 
 | Domain | Signal to watch |
-|--------|----------------|
+| -------- | ---------------- |
 | Stocks | Valuation ratios (P/E, P/S vs. sector), macro rate environment, insider buying |
 | Real estate | Price-to-rent ratio, mortgage rate cycles, local supply/demand |
 | Both | Your own liquidity — forced selling at the wrong time is the worst outcome |

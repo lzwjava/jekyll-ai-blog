@@ -74,7 +74,7 @@ Cursor（`.cursor/rules/`）和 Claude Code（`CLAUDE.md`）都支持将配置�
 ### Memory Tiers
 
 | Layer | Type | Example Content | Lifetime |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Semantic/Rules** | Static, version-controlled | Coding standards, architecture decisions | Long (years) |
 | **Episodic** | Session-derived, curated | Why we switched from Redux, migration notes | Medium (months) |
 | **Working** | Contextual, short-lived | Current sprint tasks, open PRs | Short (days/weeks) |

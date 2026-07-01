@@ -13,7 +13,7 @@ type: note
 Japan has several major airports, with Tokyo's Haneda and Narita being the busiest and most prominent for international travel, followed closely by Osaka's Kansai. Here's a quick overview of the top ones based on passenger traffic and international connections:
 
 | Airport | Code | Location | Key Notes |
-|---------|------|----------|-----------|
+| --------- | ------ | ---------- | ----------- |
 | Haneda Airport | HND | Tokyo | Busiest in Japan; handles both domestic and international flights; closer to central Tokyo. |
 | Narita International Airport | NRT | Tokyo (Chiba Prefecture) | Major hub for long-haul international flights; farther from Tokyo city center. |
 | Kansai International Airport | KIX | Osaka | Primary gateway to western Japan; built on an artificial island. |

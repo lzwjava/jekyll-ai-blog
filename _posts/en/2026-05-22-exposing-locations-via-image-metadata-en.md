@@ -49,7 +49,7 @@ At scale, you can crawl an entire blog's `<img>` tags, batch-download, and geolo
 ## What platforms strip it, what don't
 
 | Platform | Strips EXIF GPS? |
-|---|---|
+| --- | --- |
 | Instagram | Yes (since ~2012) |
 | Twitter/X | Yes |
 | Facebook | Yes |

@@ -23,7 +23,7 @@ Warp's left panel is called the **Drive** / **Session Manager** sidebar. It give
 Is it the *most* important? Debatable. What actually makes Warp different at the core:
 
 | Feature | Why it matters |
-|---|---|
+| --- | --- |
 | **Block-based output** | Select/copy/share exact command output, not scroll hunting |
 | **AI inline (`CMD+I`)** | Natural language → shell command, in context |
 | **Left sidebar (Drive)** | Workflows + notebooks = persistent, reusable shell knowledge |

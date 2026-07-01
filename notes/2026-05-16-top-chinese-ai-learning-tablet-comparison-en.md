@@ -101,7 +101,7 @@ For English learning, 希沃 uses voice recognition to accurately assess childre
 ## 📊 Side-by-Side Summary
 
 | Brand | Best Age Group | Core Strength | AI Model | Notable Weakness |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **作业帮** | Middle/High School | Exam prep & question bank | DeepSeek + 银河 | Stylus not included |
 | **科大讯飞** | Elementary–High School | English & AI precision | Spark 星火 | No self-developed courses |
 | **学而思** | All ages | Math & structured courses | 九章 model | Weak non-math subjects |

@@ -19,7 +19,7 @@ Standard Chartered Bank (SCB) organizes its operations into **three core busines
 These drive revenue and client-facing activities:
 
 | Segment | Description | Key Focus Areas |
-|---------|-------------|-----------------|
+| --------- | ------------- | ----------------- |
 | **Consumer, Private & Business Banking (CPBB)** | Serves individual consumers, high-net-worth individuals, and small/medium enterprises. | Retail banking, mortgages, deposits, credit cards, wealth management, and digital banking solutions. |
 | **Corporate & Investment Banking (CIB)** | Targets large corporations and institutions with global financing needs. | Trade finance, cash management, project finance, advisory services, and capital markets. |
 | **Commercial Banking** | Supports mid-sized businesses with cross-border needs. | Sustainable finance, working capital solutions, and transaction banking in emerging markets. |

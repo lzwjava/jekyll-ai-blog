@@ -27,15 +27,15 @@ In modern society, few people naturally treat studying or learning as a game pri
 
 Games and playful learning induce **flow**—a psychological state of complete immersion, enjoyment, and optimal challenge (Csíkszentmihályi)—more easily than traditional studying. Here's a comparison:
 
-| Aspect                  | Games/Playful Learning                          | Traditional Studying/Learning                  |
-|------------------------|------------------------------------------------|-----------------------------------------------|
-| **Motivation**        | Mostly intrinsic (enjoyment, curiosity, mastery) | Mostly extrinsic (grades, exams, future benefits) |
-| **Feedback**          | Immediate, clear, and iterative (e.g., scores, progress) | Delayed (tests, reports) and often punitive   |
-| **Challenge**         | Balanced to skills (adjustable difficulty for flow) | Often mismatched (too easy → boredom; too hard → anxiety) |
-| **Failure**           | Low-stakes, encouraging experimentation         | High-stakes, discouraging risk-taking         |
-| **Autonomy**          | High (player choice, voluntary)                 | Low (mandated curriculum, teacher-directed)   |
-| **Outcome**           | Flow state: loss of self-consciousness, time distortion, joy | Often stress, procrastination, or disengagement |
-| **Social Element**    | Often collaborative or competitive fun         | Individualistic or competitive pressure       |
+| Aspect | Games/Playful Learning | Traditional Studying/Learning |
+| ------------------------ | ------------------------------------------------ | ----------------------------------------------- |
+| **Motivation** | Mostly intrinsic (enjoyment, curiosity, mastery) | Mostly extrinsic (grades, exams, future benefits) |
+| **Feedback** | Immediate, clear, and iterative (e.g., scores, progress) | Delayed (tests, reports) and often punitive |
+| **Challenge** | Balanced to skills (adjustable difficulty for flow) | Often mismatched (too easy → boredom; too hard → anxiety) |
+| **Failure** | Low-stakes, encouraging experimentation | High-stakes, discouraging risk-taking |
+| **Autonomy** | High (player choice, voluntary) | Low (mandated curriculum, teacher-directed) |
+| **Outcome** | Flow state: loss of self-consciousness, time distortion, joy | Often stress, procrastination, or disengagement |
+| **Social Element** | Often collaborative or competitive fun | Individualistic or competitive pressure |
 
 Games are designed to keep players in the "flow channel" by dynamically adjusting challenges, providing clear goals, and offering constant feedback. Studying rarely achieves this, leading to lower engagement.
 

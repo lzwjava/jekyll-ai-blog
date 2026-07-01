@@ -195,7 +195,7 @@ lang:python '"""'
 ## **6. Example Queries**
 
 | **Goal** | **Query** |
-|----------|-----------|
+| ---------- | ----------- |
 | Find all Java `main` methods | `lang:java "public static void main"` |
 | Find Python test functions | `lang:python "def test_"` |
 | Find TODO comments in Go | `lang:go "// TODO:"` |

@@ -15,10 +15,10 @@ The table below compares their recent performance to make the difference clear.
 
 | Metric | Nintendo | Xbox (Microsoft) |
 | :--- | :--- | :--- |
-| **Recent Hardware Sales (Quarterly)** | **7.01 million** units (Switch 2, Q3 2025)  | Steep decline, down **32%** year-on-year (Q2 2025)  |
-| **Recent Hardware Sales (Annual)** | **17.37 million** units (Switch 2, since June 2025 launch)  | approx. **1.7 million** units (Series X\|S, full year 2025)  |
-| **Financial Performance** | Net sales up **+99.3%** , profit up **+51.3%** (YoY)  | Gaming revenue down **-9%** , content revenue down **-5%** (YoY)  |
-| **Total Hardware Sold (Lifetime)** | **155.37 million** (Switch) + **17.37 million** (Switch 2)  | approx. **34.2 million** (Series X\|S)  |
+| **Recent Hardware Sales (Quarterly)** | **7.01 million** units (Switch 2, Q3 2025) | Steep decline, down **32%** year-on-year (Q2 2025) |
+| **Recent Hardware Sales (Annual)** | **17.37 million** units (Switch 2, since June 2025 launch) | approx. **1.7 million** units (Series X\|S, full year 2025) |
+| **Financial Performance** | Net sales up **+99.3%** , profit up **+51.3%** (YoY) | Gaming revenue down **-9%** , content revenue down **-5%** (YoY) |
+| **Total Hardware Sold (Lifetime)** | **155.37 million** (Switch) + **17.37 million** (Switch 2) | approx. **34.2 million** (Series X\|S) |
 
 ### 📊 Breaking Down the Performance
 

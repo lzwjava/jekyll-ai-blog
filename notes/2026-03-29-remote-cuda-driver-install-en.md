@@ -75,7 +75,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH
 ### 🤔 What went wrong / what I'd do differently
 
 | Issue | Root cause | Better approach |
-|-------|-----------|-----------------|
+| ------- | ----------- | ----------------- |
 | CUDA package not found | Tried installing from Ubuntu repos, not NVIDIA's | Should've added `cuda-keyring` first |
 | SSH dropped during install | Long-running apt over SSH killed the connection | Use `nohup` or `tmux`/`screen` **from the start** for any install > 30s |
 | Lock conflict | Two apt instances running simultaneously | Kill stale processes before retrying, or use `flock` |

@@ -20,7 +20,7 @@ Here are clean, minimal, single-letter or two-letter prefix names — all fittin
 ### ⭐ Single Letter Prefix
 
 | Name | Vibe |
-|---|---|
+| --- | --- |
 | **qclaw** | Quiet, quick, quirky — very hacker-cool |
 | **iclaw** | "i" = minimal/Apple-esque, or "i" = intelligent |
 | **uclaw** | "u" = micro (μ), also "you" — personal feel |
@@ -35,7 +35,7 @@ Here are clean, minimal, single-letter or two-letter prefix names — all fittin
 ### ✨ Two-Letter — Clean & Memorable
 
 | Name | Vibe |
-|---|---|
+| --- | --- |
 | **miclaw** | μ (micro) — obvious size signal, beautiful shorthand |
 | **nyclaw** | Sounds like "nice-claw", modern feel |
 | **upclaw** | Energetic, upward motion |
@@ -48,7 +48,7 @@ Here are clean, minimal, single-letter or two-letter prefix names — all fittin
 ## 🏆 Top 3 Picks
 
 | Rank | Name | Why |
-|---|---|---|
+| --- | --- | --- |
 | 🥇 | **`uclaw`** | μ = micro, universal shorthand for "tiny" in engineering |
 | 🥈 | **`qclaw`** | Feels fast, quiet, and hacker-friendly — very aesthetic |
 | 🥉 | **`miclaw`** | Sounds natural when spoken, clearly means "micro-claw" |

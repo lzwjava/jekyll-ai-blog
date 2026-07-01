@@ -39,7 +39,7 @@ TabsKiller/                 ← 生成的 Xcode 项目（构建成功）
 ### 源代码中的更改
 
 | 文件 | 更改内容 |
-|---|---|
+| --- | --- |
 | `js/settings.js` | `chrome.storage.sync` → `chrome.storage.local`（Safari 不支持同步存储） |
 | `js/settings.js` | 默认白名单：`['chrome://*']` → `[]`（仅 Chrome 使用的协议） |
 | `README.md` | 更新文档，改为 Safari 安装说明，而非 Chrome Web Store |

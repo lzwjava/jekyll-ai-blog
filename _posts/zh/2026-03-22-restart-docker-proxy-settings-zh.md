@@ -87,7 +87,7 @@ Status: Downloaded newer image for node:16-bullseye ✅
 ### 总结
 
 | 项目 | 修改前 | 修改后 |
-|---|---|---|
+| --- | --- | --- |
 | Docker daemon proxy | 已写入配置，未应用 | 重启后应用 |
 | `auth.docker.io` 连接 | EOF（被阻断） | ✅ 通过 mihomo 路由 |
 | `node:16-bullseye` 镜像 | 未缓存 | 本地缓存 |

@@ -86,7 +86,7 @@ sudo ufw allow 40000:60000/tcp  # pod port forwarding range
 ## Caveats for Your Setup
 
 | Issue | Detail |
-|---|---|
+| --- | --- |
 | **Home ISP** | Most residential ISPs block inbound ports or use CGNAT — check if you have a real public IP with `curl ifconfig.me` and test inbound connectivity |
 | **Dynamic IP** | Use a DDNS service or pay for static IP; RunPod needs stable routing |
 | **Uptime expectation** | Renters expect availability — RunPod tracks your uptime score |

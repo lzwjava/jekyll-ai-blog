@@ -28,7 +28,7 @@ Python doesn't enforce public or private names with access restrictions. It reli
 ## How It Compares to Java `private`/`protected`
 
 | Feature | Java `private` | Java `protected` | Python `_func` |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Enforced by language? | ✅ Yes | ✅ Yes | ❌ No |
 | Accessible externally? | ❌ No | Subclasses only | ✅ Still accessible |
 | Convention-based? | No | No | ✅ Yes |

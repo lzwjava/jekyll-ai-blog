@@ -17,7 +17,7 @@ Expanding on the previous top 10, I've compiled a broader list of the highest RP
 Note: RPE = total annual revenue / average employees. Data is fiscal 2024 or TTM 2025; estimates for privates like xAI. Excludes one-person ops for relevance. Sectors: Finance/REITs and trading dominate highs; energy/pharma for scale.
 
 | Rank | Company/Platform | RPE (USD) | Employees | Total Revenue (USD) | Year | Notes/Sector |
-|------|------------------|-----------|-----------|---------------------|------|-------------|
+| ------ | ------------------ | ----------- | ----------- | --------------------- | ------ | ------------- |
 | 1 | Rajesh Exports | $14.5B | ~4 | $58.1B | TTM Jun 2025 | Gold exporter; minimal staff for trading ops. |
 | 2 | VICI Properties | $145M | 27 | $3.93B | FY 2025 | REIT (casino properties); asset-light model. |
 | 3 | CoinShares International | $28M | ~9 | $252M | 2024 | Crypto asset manager; efficient digital ops. |

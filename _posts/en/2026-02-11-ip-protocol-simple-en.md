@@ -29,13 +29,13 @@ Answer:
 
 **Clarifying your examples:**
 
-| Command / Protocol       | Layer | What it actually shows / does                              | Related to IP protocol? |
-|--------------------------|-------|-------------------------------------------------------------|--------------------------|
-| `ip link show`           | Layer 2 | Shows **network interfaces** and their **MAC addresses** (link-layer addresses) | No – this is about Ethernet / link layer, not IP |
-| `ip addr show`           | Layer 3 | Shows **IP addresses** (IPv4 and IPv6) assigned to interfaces | Yes – directly related to IP |
-| `ping`                   | Layer 3 + ICMP | Sends **ICMP Echo Request** packets → tests IP reachability | Yes – ping uses **IP** to carry **ICMP** messages |
+| Command / Protocol | Layer | What it actually shows / does | Related to IP protocol? |
+| -------------------------- | ------- | ------------------------------------------------------------- | -------------------------- |
+| `ip link show` | Layer 2 | Shows **network interfaces** and their **MAC addresses** (link-layer addresses) | No – this is about Ethernet / link layer, not IP |
+| `ip addr show` | Layer 3 | Shows **IP addresses** (IPv4 and IPv6) assigned to interfaces | Yes – directly related to IP |
+| `ping` | Layer 3 + ICMP | Sends **ICMP Echo Request** packets → tests IP reachability | Yes – ping uses **IP** to carry **ICMP** messages |
 | ICMP (Internet Control Message Protocol) | Layer 3 | Error reporting, diagnostics (ping, traceroute, destination unreachable, etc.) | Runs **on top of** IP (IP protocol number 1) |
-| IP itself                | Layer 3 | The actual packet format that carries TCP, UDP, ICMP, etc. | This is the **IP protocol** |
+| IP itself | Layer 3 | The actual packet format that carries TCP, UDP, ICMP, etc. | This is the **IP protocol** |
 
 **Summary – very clear distinction:**
 

@@ -20,7 +20,7 @@ Answer:
 When recruiters browse LinkedIn, they assess profile credibility quickly. Here's the comparison:
 
 | Approach | How It Looks |
-|---|---|
+| --- | --- |
 | "Backend Engineer at DBS Bank (Contract)" | Short tenure, raises red flags |
 | "Backend Engineer at Chinasoft" | Looks like a perm employee, stable |
 | "Backend Engineer at TEKsystems" | Known global staffing brand, credible |
@@ -61,7 +61,7 @@ Yes, this is an **underrated credibility booster**:
 ### Summary Recommendation
 
 | Factor | Best Choice |
-|---|---|
+| --- | --- |
 | Company name shown | Chinasoft / TEKsystems (vendor) |
 | Project details | Mention SCB/DBS in description |
 | Email verification | Use SCB/DBS email if available |

@@ -124,7 +124,7 @@ pipeline {
 ## Summary Table
 
 | Strategy | Clean? | Speed | Safety |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `npm install` (reuse node_modules) | No | Fast | Medium (npm 3+ handles most cases) |
 | `npm prune` + `npm install` | Partial | Medium | Good |
 | `rm -rf node_modules` + `npm install` | Full | Slow | Best |

@@ -98,7 +98,7 @@ Then your bot's `baseUrl` must match that same value.
 In Docker environments with proxies, there are **two separate reachability problems**:
 
 | Direction | From | To | Common Problem |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Nextcloud → Bot (webhook delivery) | Nextcloud container | Bot process | Bot not accessible via Docker host IP |
 | Bot → Nextcloud (sending replies) | Bot process | Nextcloud container | Bot uses wrong Nextcloud URL |
 

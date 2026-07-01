@@ -19,7 +19,7 @@ type: note
 ### **必考课程 (Required Courses) - 共 15 门课程，总计 72 学分:**
 
 | **Course Code** | **Course Name (Chinese)** | **Course Name (English)** | **Credits** | **Exam Type** |
-|-----------------|---------------------------|---------------------------|-------------|---------------|
+| ----------------- | --------------------------- | --------------------------- | ------------- | --------------- |
 | 03708 | 中国近现代史纲要 | Outline of Modern Chinese History | 2 | Written |
 | 03709 | 马克思主义基本原理概论 | Introduction to Basic Principles of Marxism | 4 | Written |
 | 00023 | 高等数学(工本) | Advanced Mathematics (Engineering) | 10 | Written |

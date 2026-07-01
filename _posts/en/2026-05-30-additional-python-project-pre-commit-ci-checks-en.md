@@ -130,7 +130,7 @@ Useful for CLI tools like `ww` where commands accumulate.
 These belong in GitHub Actions / GitLab CI, not local hooks:
 
 | Check | Tool | Why CI-only |
-|---|---|---|
+| --- | --- | --- |
 | Integration tests | `pytest -m integration` | Needs network/AMD cloud |
 | Mutation testing | `mutmut` | Takes minutes |
 | Full coverage report | `pytest-cov` + Codecov | Needs upload token |

@@ -49,7 +49,7 @@ Every AI coding agent needs this loop. Production agents add policy, permissions
 ### Core Libraries You Need
 
 | Library | Purpose |
-|---|---|
+| --- | --- |
 | `anthropic` / `openai` | LLM API calls |
 | `click` or `typer` | CLI argument parsing |
 | `rich` | Terminal UI (colors, spinners) |
@@ -191,7 +191,7 @@ pip install claude-agent-sdk
 ## Summary
 
 | Feature | Python Capability |
-|---|---|
+| --- | --- |
 | LLM API calls | ✅ `anthropic`, `openai` SDKs |
 | CLI interface | ✅ `typer`, `click`, `argparse` |
 | File system tools | ✅ `pathlib`, `os` |

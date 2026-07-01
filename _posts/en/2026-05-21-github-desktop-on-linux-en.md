@@ -29,7 +29,7 @@ The latest release is **3.4.13-linux1** (Feb 2025) — it's an "RC" but has been
 ### How to use it
 
 | Action | How |
-|---|---|
+| --- | --- |
 | **Launch** | `github-desktop` in terminal, or find "GitHub Desktop" in your app menu |
 | **First run** | Sign in with your GitHub account (OAuth flow opens your browser) |
 | **Clone a repo** | File > Clone Repository, or paste a URL |
@@ -59,7 +59,7 @@ The latest release is **3.4.13-linux1** (Feb 2025) — it's an "RC" but has been
 ### File locations
 
 | Path | Purpose |
-|---|---|
+| --- | --- |
 | `/usr/bin/github-desktop` | The main binary |
 | `/usr/share/applications/github-desktop.desktop` | App menu entry |
 | `~/.config/GitHub Desktop/` | Application config and keychain data |

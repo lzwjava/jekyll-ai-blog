@@ -87,7 +87,7 @@ Please:
 ### Quick Reference: 200M nanoGPT Config Baseline
 
 | Parameter | Recommended Value |
-|---|---|
+| --- | --- |
 | `n_layer` | 24 |
 | `n_head` | 16 |
 | `n_embd` | 1024 |
@@ -104,7 +104,7 @@ Please:
 ### 4B Token Training Time Estimate (rough)
 
 | Hardware | Throughput | Time for 4B tokens |
-|---|---|---|
+| --- | --- | --- |
 | 1x A100 80GB | ~180K tokens/sec | ~6.2 hours |
 | 4x A100 80GB | ~700K tokens/sec | ~1.6 hours |
 | 1x RTX 3090 | ~60K tokens/sec | ~18.5 hours |

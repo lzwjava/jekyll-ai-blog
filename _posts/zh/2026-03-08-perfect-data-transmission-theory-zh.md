@@ -66,7 +66,7 @@ Maximum Data Rate = 2 × Bandwidth × log₂(V)
 ### Noiseless Channel 与 Noisy Channel —— 比较
 
 | 特性 | Noiseless Channel | Noisy Channel |
-|---|---|---|
+| --- | --- | --- |
 | Frame Loss | 无 | 可能 |
 | Error Control Needed | 否 | 是 |
 | Acknowledgment (ACK) | 不需要 (Simplest) | 需要 |

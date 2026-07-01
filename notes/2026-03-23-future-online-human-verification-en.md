@@ -61,7 +61,7 @@ The x402 protocol, developed by Coinbase and Cloudflare, allows agents to pay sm
 ## Why It's Still Hard
 
 | Challenge | Why |
-|---|---|
+| --- | --- |
 | **Biometrics** | Privacy invasive, hard to scale globally |
 | **Cryptographic keys** | Can be stolen or delegated to malicious actors |
 | **CAPTCHAs** | AI now solves them better than humans |

@@ -27,7 +27,7 @@ That's the one. Here's why it fits perfectly:
 The alternatives and why they don't fit:
 
 | Chinese | Pinyin | Why it doesn't fit |
-|---|---|---|
+| --- | --- | --- |
 | 机器 | jīqì | Too generic — means any machine, including physical hardware |
 | 电脑 | diànnǎo | = "computer", excludes VPS conceptually |
 | 节点 | jiédian | = node, implies cluster membership |

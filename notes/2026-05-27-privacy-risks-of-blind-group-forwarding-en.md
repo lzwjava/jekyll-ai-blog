@@ -28,7 +28,7 @@ Forwarding without permission breaks that contract, even if:
 ## Specific Cases You Mentioned
 
 | Content | Risk Level | Why |
-|---|---|---|
+| --- | --- | --- |
 | Someone's WeChat mini-program | Medium | They may not want cross-promotion without consent |
 | Public account article | Low | Already public — but attributing correctly matters |
 | Someone's personal share/opinion | **High** | Personal opinions shared in a trusted group shouldn't travel |

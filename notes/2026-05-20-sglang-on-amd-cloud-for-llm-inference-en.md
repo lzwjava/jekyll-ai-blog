@@ -24,7 +24,7 @@ The project is led by Lianmin Zheng (Berkeley → xAI). SGLang is the high-perfo
 ## Key Technical Features (vs. vLLM)
 
 | Feature | SGLang | vLLM |
-|---|---|---|
+| --- | --- | --- |
 | **Scheduler** | Zero-overhead, RadixAttention for KV cache reuse | Good but more overhead |
 | **PD Disaggregation** | First-class support | Added later |
 | **MoE Expert Parallelism** | Large-scale EP at 96+ GPUs | Catching up |

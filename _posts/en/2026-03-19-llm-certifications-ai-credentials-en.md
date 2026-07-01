@@ -92,7 +92,7 @@ There is no dedicated "CUDA Certification Exam" from NVIDIA. Instead, the recogn
 There is **no proctored RL certification** from any major vendor. The serious options are:
 
 | Program | Where | What |
-|---|---|---|
+| --- | --- | --- |
 | **DeepMind x UCL RL Lectures** | YouTube/UCL | Free graduate-level lecture series by David Silver (AlphaGo creator). The most respected RL curriculum in the world. No cert, but required knowledge. |
 | **Spinning Up in Deep RL** | OpenAI GitHub | OpenAI's self-guided deep RL curriculum. No cert, used as an internal training baseline. |
 | **CS285 Deep RL** | UC Berkeley (online) | Sergey Levine's graduate RL course, full lectures free. Used in PhD programs globally. |
@@ -105,7 +105,7 @@ There is **no proctored RL certification** from any major vendor. The serious op
 Again, no proctored exam exists. The respected paths are:
 
 | Program | Institution | Level |
-|---|---|---|
+| --- | --- | --- |
 | **CS224N: NLP with Deep Learning** | Stanford (free online) | Graduate — covers Transformers, attention, BERT, GPT architectures taught by Christopher Manning |
 | **CS231N: Deep Learning for Vision** | Stanford (free online) | Graduate — CNN, attention, ViT architectures |
 | **MIT 6.S191: Intro to Deep Learning** | MIT (free online) | Annual updated course; covers Transformers, diffusion, RLHF |
@@ -131,7 +131,7 @@ For **production engineering roles** (not pure research), the NVIDIA NCP-GENL is
 ## Summary Table
 
 | Program | Type | Proctored | Level | Best For |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Anthropic CCA Foundations | Vendor cert | ✅ Yes ($99) | Mid | Enterprise Claude engineers |
 | OpenAI Certifications | Vendor cert | Planned | Entry | ChatGPT API users |
 | NVIDIA NCP-GENL | Vendor cert | ✅ Yes ($200) | Advanced | LLM systems engineers |

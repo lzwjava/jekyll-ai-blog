@@ -82,7 +82,7 @@ Mac mini is designed as Apple's first carbon-neutral Mac, made with over 50% rec
 ### Which 24GB Model Should You Choose?
 
 | Feature | M4 24GB (~$999) | M4 Pro 24GB (~$1,399) |
-|---|---|---|
+| --- | --- | --- |
 | CPU | 10-core (4P+6E) | 12-core (8P+4E) |
 | GPU | 10-core | 16-core |
 | Thunderbolt | TB4 (40Gb/s) | TB5 (120Gb/s) |

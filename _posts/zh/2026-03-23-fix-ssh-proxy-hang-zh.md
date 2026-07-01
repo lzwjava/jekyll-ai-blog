@@ -124,7 +124,7 @@ Host *
 ## 快速总结
 
 | 症状 | 原因 |
-|---|---|
+| --- | --- |
 | Ping 正常 | ICMP 绕过了 HTTP Proxy |
 | SSH 卡在 "Connecting to" | Proxy 拦截了 TCP/22，且无法到达 LAN IP |
 | 无错误提示，只是卡死 | Proxy 静默失败或等待超时 |

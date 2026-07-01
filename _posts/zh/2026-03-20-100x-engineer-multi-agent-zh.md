@@ -191,7 +191,7 @@ Reply with hint or unblock:
 **通知类型：**
 
 | Type | When | Action Required |
-|---|---|---|
+| --- | --- | --- |
 | 🚨 **Stuck** | Agent looping | Reply with hint |
 | ✅ **Done** | Task complete, PR open | Review or auto-merge |
 | ⚠️ **Permission** | Agent needs access | Grant or decline |
@@ -268,7 +268,7 @@ Auto deploy to production
 ## 🛠️ Tech Stack Recommendation
 
 | Layer | Tool |
-|---|---|
+| --- | --- |
 | **Orchestrator** | Claude API (claude-sonnet-4) |
 | **Agent runtime** | Claude Code SDK / OpenHands |
 | **Task queue** | Redis Queue or simple SQLite |

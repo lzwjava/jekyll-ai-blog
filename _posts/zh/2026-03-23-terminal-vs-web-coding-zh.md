@@ -54,7 +54,7 @@ Terminal 编码工具（如 Claude Code）在系统 Prompt 下运行，其核心
 ## The Real Trade-Off Summary
 
 | Behavior | Claude Code / Codex CLI | Web Chatbot | OpenClaw-style |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | General knowledge Q&A | Slow — checks local first | Fast — answers directly | Fast — routes correctly |
 | Local file/project Q&A | Excellent | Can't access | Good |
 | Web search | Requires explicit prompt | Built-in | Depends on config |

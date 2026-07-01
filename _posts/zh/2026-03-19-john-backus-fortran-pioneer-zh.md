@@ -96,7 +96,7 @@ Backus 于 1991 年从 IBM 退休。他的第二任妻子 Barbara 于 2004 年�
 ### 总结表格
 
 | 属性 | 详情 |
-|---|---|
+| --- | --- |
 | **全名** | John Warner Backus |
 | **出生** | December 3, 1924, Philadelphia, PA |
 | **逝世** | March 17, 2007, Ashland, OR |

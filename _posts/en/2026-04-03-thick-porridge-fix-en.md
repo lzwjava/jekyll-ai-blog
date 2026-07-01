@@ -53,7 +53,7 @@ If the congee looks too thin and soupy, just cook it until it thickens some more
 ### 📏 Reference: Water-to-Rice Ratio for Chinese Rice Porridge (Congee)
 
 | Preference | Ratio (Water : Rice) |
-|---|---|
+| --- | --- |
 | Thick porridge | 8:1 |
 | Standard / smooth | 10:1 |
 | Thin / silky | 12:1 |

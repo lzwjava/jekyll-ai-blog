@@ -170,7 +170,7 @@ iverilog -o sim counter.v counter_tb.v && ./sim
 ## 其他集成开发环境
 
 | 工具 | 类型 | 最适合 |
-|---|---|---|
+| --- | --- | --- |
 | **EDA Playground** | 浏览器 | 零安装，共享代码片段 |
 | **Vivado** | 完整IDE | Xilinx FPGA，有免费版 |
 | **Quartus Prime** | 完整IDE | Intel FPGA，免费精简版 |

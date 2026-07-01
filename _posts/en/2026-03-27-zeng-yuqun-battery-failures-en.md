@@ -70,7 +70,7 @@ CATL employs 21,000 engineers in R&D alone — roughly four times what Northvolt
 ### Summary Table
 
 | Issue | Zeng's Diagnosis |
-|---|---|
+| --- | --- |
 | **Design** | Fundamentally flawed electrochemical design from the start |
 | **Process** | Processes cannot scale; what works in the lab fails in mass production |
 | **Equipment** | Still relying on manual/outdated tooling vs. China's automation |

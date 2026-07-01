@@ -48,7 +48,7 @@ type: note
 技术深度强的领导的代码审查在质上不同：
 
 | 表面审查 | 深度技术审查 |
-|---|---|
+| --- | --- |
 | “This works” | “This works but will cause N+1 queries at scale” |
 | “Looks clean” | “This abstraction leaks implementation details” |
 | “Tests pass” | “These tests only cover happy paths; here are 3 edge cases” |

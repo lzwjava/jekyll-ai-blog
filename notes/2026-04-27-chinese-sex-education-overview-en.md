@@ -75,7 +75,7 @@ Regulations that came into effect in 2021 require schools to establish mechanism
 ### Summary Table
 
 | Topic | Taught? | Where |
-|---|---|---|
+| --- | --- | --- |
 | Puberty & body changes | ✅ Yes | Biology, PE |
 | Menstruation | ✅ Partially | Girls-only sessions |
 | Human reproduction / pregnancy | ✅ Basic biology only | Biology |

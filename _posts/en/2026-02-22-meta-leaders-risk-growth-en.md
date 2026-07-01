@@ -13,11 +13,11 @@ Chamath Palihapitiya is a particularly outspoken figure, and the insights from h
 
 | **Executive** | **Former Role at Meta** | **Core Lesson / Insight** | **Key Takeaway** |
 | :--- | :--- | :--- | :--- |
-| **Chamath Palihapitiya**  | VP of User Growth (2007-2011) | Challenge Groupthink & Redefine Risk | True innovation requires questioning Silicon Valley dogma and having a resilient, long-term view of failure. |
-| **Martin Ott**  | MD for Northern & Central Europe (joined 2012) | Prioritize Deliberate Impact over Hustle Culture | Sustainable success comes from focused effort and protecting team energy, not from being "always on." |
-| **Yann LeCun**  | Chief AI Scientist (founded FAIR) | Stay True to Your Core Competency | Leadership isn't one-size-fits-all; maximize your impact by focusing on what you do best. |
-| **Shailesh Chauhan**  | Product Manager, Machine Learning (joined 2022) | Strategic Career Management | Career growth is about continuous learning, knowing when to say no, and clear communication. |
-| **Alexandra Uriarte & Pedro Pavón**  | Public Policy Managers | Embrace a Non-Linear Career Path | Valuable experience comes from taking risks and exploring diverse roles, not following a straight line. |
+| **Chamath Palihapitiya** | VP of User Growth (2007-2011) | Challenge Groupthink & Redefine Risk | True innovation requires questioning Silicon Valley dogma and having a resilient, long-term view of failure. |
+| **Martin Ott** | MD for Northern & Central Europe (joined 2012) | Prioritize Deliberate Impact over Hustle Culture | Sustainable success comes from focused effort and protecting team energy, not from being "always on." |
+| **Yann LeCun** | Chief AI Scientist (founded FAIR) | Stay True to Your Core Competency | Leadership isn't one-size-fits-all; maximize your impact by focusing on what you do best. |
+| **Shailesh Chauhan** | Product Manager, Machine Learning (joined 2022) | Strategic Career Management | Career growth is about continuous learning, knowing when to say no, and clear communication. |
+| **Alexandra Uriarte & Pedro Pavón** | Public Policy Managers | Embrace a Non-Linear Career Path | Valuable experience comes from taking risks and exploring diverse roles, not following a straight line. |
 
 ### 🚀 Chamath Palihapitiya: The Silicon Valley Disruptor
 

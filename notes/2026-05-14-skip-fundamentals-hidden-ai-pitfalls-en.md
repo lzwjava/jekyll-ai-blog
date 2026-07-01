@@ -87,7 +87,7 @@ Zero foundation → project    ❌ (fast but blind)
 Not a course. Not a certification. Just **enough to have a smell test:**
 
 | Domain | Minimum Viable Foundation |
-|---|---|
+| --- | --- |
 | LLM training | Understand tokens, loss, gradient descent conceptually |
 | Systems | Know what memory, disk I/O, and CPU vs GPU mean |
 | Code | Read code well enough to know if AI output looks wrong |

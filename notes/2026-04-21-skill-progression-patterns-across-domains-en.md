@@ -44,7 +44,7 @@ Sam Altman tweeting in lowercase is actually a **deliberate stylistic choice** b
 ## Programming
 
 | Stage | What They Ignore |
-|---|---|
+| --- | --- |
 | Beginner | Exception handling, edge cases, code structure |
 | Intermediate | Performance, modularity, testability |
 | Advanced | Naturally writes small functions, handles errors, thinks about maintainability |
@@ -56,7 +56,7 @@ A beginner writes code that *works*. An expert writes code that *survives the re
 ## Machine Learning
 
 | Stage | Attention Mechanism Choice |
-|---|---|
+| --- | --- |
 | Beginner | Doesn't know Flash Attention exists |
 | Intermediate | Knows it exists but uses vanilla attention because it's simpler |
 | Advanced | Defaults to **Flash Attention** naturally — it's just the obvious, correct choice at SOTA |

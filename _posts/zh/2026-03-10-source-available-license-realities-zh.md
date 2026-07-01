@@ -59,7 +59,7 @@ SCA 工具检查软件应用程序，以识别第三方和 open-source 组件及
 公司不仅仅依赖法律救济。他们构建技术障碍：
 
 | Mechanism | How it works |
-|---|---|
+| --- | --- |
 | **License key servers** | 软件调用服务器验证 license key；离线篡改会破坏功能 |
 | **Obfuscated / compiled binaries** | 企业功能作为编译工件发布——难以干净修改 |
 | **Encrypted modules** | 代码在运行时使用与 license 绑定的密钥解密 |
@@ -99,7 +99,7 @@ SCA 工具检查软件应用程序，以识别第三方和 open-source 组件及
 ## 总结
 
 | Enforcement Layer | Strength | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Copyright law | Strong | Infringement, not just breach of contract |
 | SCA / code fingerprinting | Medium | Detects if code is shipped publicly |
 | License key / telemetry | Medium | Technical barrier, bypassable but risky |

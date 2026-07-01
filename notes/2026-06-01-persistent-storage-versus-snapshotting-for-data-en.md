@@ -18,7 +18,7 @@ Actually, it's a nuanced tradeoff. Let me break it down:
 ## Block Storage Volume Snapshots vs Droplet Snapshots
 
 | | Droplet Snapshot | Volume Snapshot |
-|---|---|---|
+| --- | --- | --- |
 | What's captured | Entire root disk | Just the volume |
 | Speed to create | Slow (full disk) | Also slow (same mechanism) |
 | Speed to restore | Fast (CoW lazy) | Also fast (CoW lazy) |

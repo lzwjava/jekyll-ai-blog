@@ -95,7 +95,7 @@ include/axono/core/
 ## 性能（CPU 基准测试对比 PyTorch 与 PaddlePaddle）
 
 | 运算 | Axono 对比 Torch（4000×4000） |
-|---|---|
+| --- | --- |
 | `from_numpy` | 比 Torch 慢约 15 倍 |
 | `add` | 性能相近（约 0.06s 对比 0.07s） |
 | `relu` | 比 Torch 慢约 3 倍 |

@@ -18,7 +18,7 @@ type: note
 ## 层差异——这是核心原因
 
 | | GoatCounter | Cloudflare 分析 |
-|---|---|---|
+| --- | --- | --- |
 | **层** | 应用层（JavaScript） | 网络层（CDN 边缘） |
 | **统计内容** | 通过 JS 执行获取的页面浏览量 | 到达 Cloudflare 的 HTTP 请求 |
 | **运行位置** | 浏览器 | Cloudflare 的边缘节点 |

@@ -18,13 +18,13 @@ Bianlifeng, often referred to as "Convenient Bee" in English, is a Beijing-based
 
 As of mid-2025, Bianlifeng is operational but in a consolidation phase after aggressive growth stalled. Here's a snapshot:
 
-| Metric                  | 2021 Peak | 2025 Status                  | Notes |
-|-------------------------|-----------|------------------------------|-------|
-| **Store Count**        | ~2,800   | ~1,500 (down from 2,800)    | Closed ~1,300 stores since 2022 due to pandemic impacts, economic slowdown, and overexpansion. Now focused on 9 cities (e.g., Beijing, Shanghai, Nanjing). |
-| **Market Ranking**     | Top 11   | ~25th in China Chain Store Association's Top 100 | Dropped due to reduced scale; competitors like 7-Eleven and FamilyMart hold stronger positions. |
-| **Geographic Focus**   | 20 cities| 9 cities (urban/business districts) | Shifted from broad expansion to core markets; less emphasis on tier-2/3 cities. |
+| Metric | 2021 Peak | 2025 Status | Notes |
+| ------------------------- | ----------- | ------------------------------ | ------- |
+| **Store Count** | ~2,800 | ~1,500 (down from 2,800) | Closed ~1,300 stores since 2022 due to pandemic impacts, economic slowdown, and overexpansion. Now focused on 9 cities (e.g., Beijing, Shanghai, Nanjing). |
+| **Market Ranking** | Top 11 | ~25th in China Chain Store Association's Top 100 | Dropped due to reduced scale; competitors like 7-Eleven and FamilyMart hold stronger positions. |
+| **Geographic Focus** | 20 cities | 9 cities (urban/business districts) | Shifted from broad expansion to core markets; less emphasis on tier-2/3 cities. |
 | **Revenue/Profitability** | Beijing stores profitable by 2020 | Overall unprofitable; selective store-level gains | No full-year profitability disclosed; relies on ~$1.5B cumulative funding (last major round: 2020 C-round). |
-| **Franchising**        | 100% self-operated | Expanding franchises since late 2023 | New model to cut costs; franchisees report ~¥10,000–20,000 monthly median income after setup (~¥560,000 minimum investment). |
+| **Franchising** | 100% self-operated | Expanding franchises since late 2023 | New model to cut costs; franchisees report ~¥10,000–20,000 monthly median income after setup (~¥560,000 minimum investment). |
 
 - **Growth Trajectory**: Early hype included a "10,000-store plan" by 2023 (announced in 2020), but it fell short amid COVID-19, supply chain disruptions, and a "hibernation plan" closing ~700 underperforming stores in 2022. By 2025, it's stabilizing rather than scaling, with some "hibernating" stores reopening and modest new openings.
 - **Financial Health**: No new major funding or IPO confirmed in 2025 (past rumors in 2021 were denied). Registered capital was last increased to ~$150M in 2019. Funds are directed toward supply chain upgrades, like a Tianjin fresh food factory supporting 5,000 stores (though utilization is lower now).

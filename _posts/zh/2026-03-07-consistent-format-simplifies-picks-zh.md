@@ -94,7 +94,7 @@ git cherry-pick -Xignore-all-space <commit-sha>
 ## 总结
 
 | 无一致格式化 | 有一致格式化 |
-|---|---|
+| --- | --- |
 | Cherry-pick 产生虚假空白冲突 | 补丁干净应用到 context lines |
 | Diff 噪音大，审查困难 | Diff 仅显示真实逻辑变化 |
 | 手动解决浪费时间 | 仅剩真正的区域特定逻辑冲突 |

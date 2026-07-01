@@ -11,7 +11,7 @@ type: note
 ---
 
 | Rank | Package | One-Line Explanation |
-|------|---------|----------------------|
+| ------ | --------- | ---------------------- |
 | 1 | requests | Simple HTTP library for making requests to web services in Python. |
 | 2 | six | Python 2 and 3 compatibility utilities. |
 | 3 | python-dateutil | Extensions to the standard Python datetime module. |

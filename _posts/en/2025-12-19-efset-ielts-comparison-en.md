@@ -21,7 +21,7 @@ The **EF SET** (EF Standard English Test) and **IELTS** (International English L
 EF SET provides an official approximate mapping to IELTS bands based on CEFR alignment and correlation studies. Note that there is **no exact or official conversion** between tests—equivalences are estimates only, as they measure slightly different aspects.
 
 | CEFR Level | EF SET Score (0-100) | Approximate IELTS Band |
-|------------|----------------------|-------------------------|
+| ------------ | ---------------------- | ------------------------- |
 | A1 (Beginner) | 1–30 | 1.0–3.0 |
 | A2 (Elementary) | 31–40 | 3.5–4.0 |
 | B1 (Intermediate) | 41–50 | 4.5–5.5 |

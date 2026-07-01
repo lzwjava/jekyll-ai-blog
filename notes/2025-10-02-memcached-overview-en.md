@@ -39,17 +39,17 @@ Performance peaks at millions of operations per second, but it's optimized for r
 
 While both Memcached and Redis are in-memory, key-value data stores used for caching and high-speed data access, they differ in features, architecture, and use cases:
 
-| Aspect          | Memcached                              | Redis                                                  |
-|-----------------|----------------------------------------|--------------------------------------------------------|
-| **Data Types** | Simple strings (just keys/values).     | Supports strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, and more. Allows complex data structures (e.g., JSON objects or counters). |
-| **Persistence**| None—data is pure RAM; lost on restart.| Optional persistence (AOF or RDB snapshots) to disk, enabling data recovery. |
-| **Eviction**   | LRU only.                             | LRU, LFU (Least Frequently Used), or volatile TTL-based evictions. |
-| **Operations** | Basic set/get/delete/multiget.         | Thousands of commands (e.g., pub/sub, transactions, Lua scripting, geospatial queries). Supports atomic operations like increment. |
-| **Performance**| Slightly faster for simple read/write (multigets help). | Excellent overall, but slightly overhead for complex structures. Benchmarks show Memcached edging out for pure caching in low- complexity scenarios. |
+| Aspect | Memcached | Redis |
+| ----------------- | ---------------------------------------- | -------------------------------------------------------- |
+| **Data Types** | Simple strings (just keys/values). | Supports strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, and more. Allows complex data structures (e.g., JSON objects or counters). |
+| **Persistence** | None—data is pure RAM; lost on restart. | Optional persistence (AOF or RDB snapshots) to disk, enabling data recovery. |
+| **Eviction** | LRU only. | LRU, LFU (Least Frequently Used), or volatile TTL-based evictions. |
+| **Operations** | Basic set/get/delete/multiget. | Thousands of commands (e.g., pub/sub, transactions, Lua scripting, geospatial queries). Supports atomic operations like increment. |
+| **Performance** | Slightly faster for simple read/write (multigets help). | Excellent overall, but slightly overhead for complex structures. Benchmarks show Memcached edging out for pure caching in low- complexity scenarios. |
 | **Scaling & Clustering** | Built-in via consistent hashing; no native clustering (use external partitioning). | Supports native clustering, replication (master-slave), and Redis Cluster for automatic partitioning. |
 | **Use Cases** | Ideal for web app caching (e.g., session or query caches), like in CodeIgniter setups. Simple and lightweight. | Broader: caching, session storage, message queues, real-time analytics, or even as a full database alternative. |
 | **Memory Efficiency** | Efficient for fixed-size data; no compression. | Better for large datasets with compression options (Redis 5+). |
-| **Protocol**   | Custom binary/text protocols.         | RESP (Redis Serialization Protocol) with better error handling. |
+| **Protocol** | Custom binary/text protocols. | RESP (Redis Serialization Protocol) with better error handling. |
 | **Licensing & Ecosystem** | Open-source (BSD), widely used in LAMP stacks. | Open-source (BSD), larger community with tools like RedisInsight. |
 
 In summary, choose Memcached for simplicity and speed in basic caching (as shown in your CodeIgniter config). Opt for Redis if you need persistence, advanced data types, or features like pub/sub messaging. If migrating from Memcached, projects like redis-memcached offer compatibility layers, but Redis often replaces Memcached due to its versatility. For CodeIgniter specifically, the config allows seamless swapping between drivers.

@@ -85,7 +85,7 @@ Angular 和 CLI 通过 Webpack 和 JSONP 包装模块代码，以便从服务器
 ### 总结表格
 
 | Chunk Type | Example Name | Contents |
-|---|---|---|
+| --- | --- | --- |
 | Lazy module chunk | `auth.module.chunk.js` | Code for a lazy-loaded feature module |
 | Common chunk | `common.js` | Shared code between 2+ lazy modules |
 | Hash chunk (esbuild) | `chunk-ABC123.js` | Split output from esbuild bundler |

@@ -55,7 +55,7 @@ model, tokenizer = load("mlx-community/Llama-3.2-3B-4bit")
 **3. 停止使用交换内存——关闭高占用应用**
 
 | 进程 | 内存 | 解决方法 |
-|---|---|---|
+| --- | --- | --- |
 | 微信 | 265 MB | 如不需要则关闭 |
 | WebKit 标签页 | 250 MB × N | 关闭多余标签页 |
 | GitHub Desktop | 236 MB | 使用 CLI git 可节省 200+ MB |

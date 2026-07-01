@@ -46,7 +46,7 @@ Device 0: AMD Instinct MI300X VF
 ## What was broken & how it was fixed
 
 | Step | Problem | Fix |
-|------|---------|-----|
+| ------ | --------- | ----- |
 | 1 | `rocm-smi` not installed | `apt install rocm-smi` from AMD repo |
 | 2 | `rocm-smi` shows "No AMD GPUs" | MI300X was missing firmware |
 | 3 | Versioned vs non-versioned package conflicts | Force-purged, installed versioned `*7.2.3` packages |

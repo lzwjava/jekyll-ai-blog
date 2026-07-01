@@ -44,7 +44,7 @@ This ensures the `01111110` pattern can **only** appear as an actual frame delim
 ### Why the other options are wrong?
 
 | Option | Value | Reason |
-|--------|-------|--------|
+| -------- | ------- | -------- |
 | A | 11111111 | All ones — not the HDLC standard flag |
 | B | 10000001 | Not the defined flag pattern |
 | C | 01111101 | Close but incorrect — only five 1s, missing one |

@@ -78,7 +78,7 @@ Added to the portfolio between "Passed Courses" and "What's Next" — a concise 
 ## Summary of Tools Used
 
 | Step | Tool | Command |
-|------|------|---------|
+| ------ | ------ | --------- |
 | Resize | ImageMagick `magick` | `-resize 400x400^ -gravity center -extent 400x400` |
 | Combine | ImageMagick `montage` | `-tile 3x3 -geometry 400x400+4+4` |
 | Compress | ImageMagick `magick` | `-quality 80` |

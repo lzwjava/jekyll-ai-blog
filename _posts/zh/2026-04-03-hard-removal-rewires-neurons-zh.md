@@ -71,7 +71,7 @@ gpa() {
 ### TL;DR
 
 | Situation | Wrong Way | Right Way |
-|---|---|---|
+| --- | --- | --- |
 | Bad command | Alias it to a warning | Delete/override it completely |
 | Bad habit | "Try to resist it" | Remove the trigger entirely |
 | Toxic relationship | Keep distance | Go away fully |

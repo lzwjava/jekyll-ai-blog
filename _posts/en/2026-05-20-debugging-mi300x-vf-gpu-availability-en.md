@@ -69,7 +69,7 @@ Also checked `/sys/class/drm/card*/device/` for amdgpu-specific stats (`gpu_busy
 **Step 6 — Wrote a Python script** that reads from alternate data sources since `rocm-smi` couldn't see the VF:
 
 | Data | Source |
-|------|--------|
+| ------ | -------- |
 | GPU name, BARs | `lspci -s <bdf> -vv` |
 | Device/vendor IDs | `/sys/bus/pci/devices/<bdf>/device`, `/vendor`, `/subsystem_*` |
 | PCIe link speed/width | `/sys/bus/pci/devices/<bdf>/current_link_speed`, `current_link_width`, `max_link_*` |

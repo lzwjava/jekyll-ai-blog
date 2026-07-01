@@ -69,7 +69,7 @@ So even as a side hustle, M is sitting in a massive and growing market. The diff
 ## Summary
 
 | Factor | Your Read | Reality Check |
-|---|---|---|
+| --- | --- | --- |
 | Expand multi-category | ✅ Good idea | Start with 2–3 focused niches first |
 | Multi-channel distribution | ✅ Essential | TikTok + YouTube Shorts + Reels minimum |
 | Batch generate daily | ✅ Right direction | Quality-per-niche > random volume |

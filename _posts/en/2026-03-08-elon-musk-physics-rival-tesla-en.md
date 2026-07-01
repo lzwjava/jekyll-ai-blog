@@ -76,7 +76,7 @@ Its first R&D center is being established in the **Lingang Special Area** of Sha
 ### Summary
 
 | Category | Details |
-|---|---|
+| --- | --- |
 | Birthplace | Shanghai, China |
 | Education | BSc/BA – University of Pennsylvania; MSc EE – Stanford |
 | Relationship with Musk | College classmate & physics lab partner at UPenn |

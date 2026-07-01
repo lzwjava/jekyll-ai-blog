@@ -38,7 +38,7 @@ Forgejo 的治理由其贡献者集体定义。
 Forgejo 专注于 **security, scaling, federation, and privacy**。以下是其核心亮点的 breakdown：
 
 | 特性 | 描述 |
-|---|---|
+| --- | --- |
 | **Simple Project Management** | 以易用性为设计理念，支持协作与生产力 |
 | **GitHub Alternative** | 为 GitHub 用户提供熟悉的环境，便于平稳过渡到您拥有的平台 |
 | **Easy Installation** | 托管自己的 forge 无需专家技能 |

@@ -18,7 +18,7 @@ Answer:
 ### Key Metrics Extracted from Your Log
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Model parameters | 123.59M |
 | Tokens per iteration | 524,288 |
 | MFU (Model FLOP Utilization) | ~15.41% |
@@ -69,7 +69,7 @@ Remaining = 6000 - 1800 = 4,200 steps
 ### 🕐 Summary Estimate
 
 | Scenario | Remaining Time | Total Run Time |
-|---|---|---|
+| --- | --- | --- |
 | 5,000 steps target | ~8.3 hours | ~12–13 hours total |
 | 6,000 steps target | ~10.9 hours | ~15–16 hours total |
 | 7,000 steps target | ~13.5 hours | ~18–19 hours total |

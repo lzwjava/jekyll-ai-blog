@@ -184,7 +184,7 @@ The "output-aware" part means they also selectively drop tokens in the KV cache 
 ## Summary Table
 
 | Technique | Problem Solved | Key Idea | Complexity |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Hadamard Rotation | Outlier channels break quantization | Orthogonal rotation spreads energy uniformly | O(d log d) via Fast Hadamard Transform |
 | Lightweight QAT | PTQ residual accuracy loss | STE + learnable scales for short fine-tune | ~1-5% of full training cost |
 | Streaming Attention | O(n²) at 128K context | Sink tokens + local window + decay mask | O(n(K+w)) |

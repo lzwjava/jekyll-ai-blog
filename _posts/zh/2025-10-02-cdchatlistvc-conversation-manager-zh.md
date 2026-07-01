@@ -25,7 +25,7 @@ type: note
 ## **2. 关键属性**
 
 | 属性 | 类型 | 用途 |
-|------|------|------|
+| ------ | ------ | ------ |
 | `clientStatusView` | `LZStatusView` | 在表格顶部显示连接状态（如离线/在线） |
 | `conversations` | `NSMutableArray` | 存储要显示的会话列表 |
 | `isRefreshing` | `BOOL` (atomic) | 防止重复刷新 |
@@ -90,7 +90,7 @@ type: note
 ## **6. 重要方法**
 
 | 方法 | 用途 |
-|------|------|
+| ------ | ------ |
 | `refresh:` | 获取并更新会话列表 |
 | `selectConversationIfHasRemoteNotificatoinConvid` | 通过推送通知打开应用时自动选中对应会话 |
 | `stopRefreshControl:` | 停止刷新动画 |

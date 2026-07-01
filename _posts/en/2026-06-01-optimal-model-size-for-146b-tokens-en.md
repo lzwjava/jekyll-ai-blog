@@ -20,7 +20,7 @@ Now let me do the full analysis. Here's what we have and what's optimal:
 **Existing configs:**
 
 | Config | Params | Architecture | Designed for |
-|--------|--------|-------------|-------------|
+| -------- | -------- | ------------- | ------------- |
 | train_gpt2.py | 124M | 12L/768d/12h | 8×A100, 300B tokens |
 | train_gpt2_200m.py | 219M | 18L/896d/16h | RTX 4070 12GB, 4B tokens |
 | train_fineweb.py | 124M | 12L/768d/12h | 12GB VRAM |
@@ -46,7 +46,7 @@ The Chinchilla paper (Hoffmann et al. 2022) says optimal training tokens ≈ 20�
 Per parameter: 2 (bf16 params) + 4 (fp32 master) + 4 (m) + 4 (v) + 2 (grad) ≈ 16 bytes
 
 | Model | Params | Train mem | + Activations | Total | Fits 192GB? |
-|-------|--------|-----------|---------------|-------|-------------|
+| ------- | -------- | ----------- | --------------- | ------- | ------------- |
 | 760M | 760M | 12 GB | ~10 GB | ~22 GB | ✅ easily |
 | 1.5B | 1.5B | 24 GB | ~20 GB | ~44 GB | ✅ easily |
 | 3B | 3B | 48 GB | ~40 GB | ~88 GB | ✅ yes |

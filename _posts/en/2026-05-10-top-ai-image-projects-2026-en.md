@@ -61,7 +61,7 @@ Three tools represent the standard for self-hosting in 2026:
 ### Quick Comparison
 
 | Model | Size | Best For | License |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FLUX.2 [dev] | 32B | High-res production, editing | Non-commercial |
 | FLUX.2 [schnell] | ~12B | Fast generation | Apache 2.0 |
 | HunyuanImage 3.0 | 80B (13B active) | Complex prompts, world knowledge | Open weights |

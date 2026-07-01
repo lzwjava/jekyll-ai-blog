@@ -65,7 +65,7 @@ Key benefits of Bedrock include:
 ## Summary Table
 
 | Method | Billing | Best For |
-|---|---|---|
+| --- | --- | --- |
 | **Claude Pro** ($20/mo) | Fixed monthly | Light/daily personal use |
 | **Claude Max** ($100–200/mo) | Fixed monthly | Heavy daily development |
 | **Anthropic API** | Pay-per-token | Variable workloads, large context needs |

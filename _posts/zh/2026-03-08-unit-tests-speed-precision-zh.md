@@ -86,7 +86,7 @@ Unit tests 通常在 CI pipeline 的早期阶段执行——开发者推送新�
 ### 总结表格
 
 | 特性 | Unit Test | API / Integration Test |
-|---|---|---|
+| --- | --- | --- |
 | 速度 | 非常快 | 慢 |
 | 依赖 | 无（mocked） | 需要真实服务 |
 | 故障隔离 | 精确 | 难以精确定位 |

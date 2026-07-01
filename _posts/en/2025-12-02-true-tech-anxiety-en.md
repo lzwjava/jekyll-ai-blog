@@ -46,7 +46,7 @@ Most of what China calls “high-tech” (internet platforms, apps, EVs without 
 ### Real-world examples that prove his point
 
 | Technology | Who has the “not selling makes others panic” power? | Result when restricted |
-|------------|-----------------------------------------------|-------------------------|
+| ------------ | ----------------------------------------------- | ------------------------- |
 | EUV lithography machines | ASML (Netherlands, but US-controlled) | China’s 5nm-and-below progress delayed years |
 | Advanced chips (≤7nm) | TSMC + Nvidia/AMD | Huawei phones crippled after 2020 |
 | High-end EDA software | Synopsys, Cadence, Mentor (all US) | Chinese design houses severely handicapped |

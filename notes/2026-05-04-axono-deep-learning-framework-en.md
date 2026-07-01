@@ -95,7 +95,7 @@ include/axono/core/
 ## Performance (CPU benchmarks vs PyTorch & PaddlePaddle)
 
 | Op | Axono vs Torch (4000×4000) |
-|---|---|
+| --- | --- |
 | `from_numpy` | ~15× slower than Torch |
 | `add` | comparable (~0.06s vs 0.07s) |
 | `relu` | ~3× slower than Torch |

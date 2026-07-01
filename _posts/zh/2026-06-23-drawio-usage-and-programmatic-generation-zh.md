@@ -85,7 +85,7 @@ drawio --export --format png --scale 2 --output out.png diagram.drawio
 **Mermaid vs draw.io —— 何时使用哪种**
 
 | | Mermaid | draw.io |
-|---|---|---|
+| --- | --- | --- |
 | 版本控制 | ✅ 文本差异 | ✅ XML 差异 |
 | GitHub 渲染 | ✅ 在 .md 中原生支持 | ✅ 使用 .drawio.svg |
 | 布局控制 | ❌ 仅自动 | ✅ 全手动 |

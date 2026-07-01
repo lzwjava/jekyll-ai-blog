@@ -98,7 +98,7 @@ Today, Fermat's name lives on in Fermat's Last Theorem, Fermat's Little Theorem,
 ### Summary Table
 
 | Field | Contribution |
-|---|---|
+| --- | --- |
 | Number Theory | Last Theorem, Little Theorem, Fermat Numbers |
 | Analytic Geometry | Independent co-inventor |
 | Calculus | Method of maxima/minima, tangents |

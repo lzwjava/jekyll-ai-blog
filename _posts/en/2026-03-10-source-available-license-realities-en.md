@@ -59,7 +59,7 @@ Many enterprise products phone home, embed license tokens, or have **cryptograph
 Companies don't rely only on legal recourse. They build technical barriers:
 
 | Mechanism | How it works |
-|---|---|
+| --- | --- |
 | **License key servers** | Software calls home to validate a license key; offline tampering breaks functionality |
 | **Obfuscated / compiled binaries** | Enterprise features shipped as compiled artifacts — hard to modify cleanly |
 | **Encrypted modules** | Code is decrypted at runtime using a key tied to the license |
@@ -99,7 +99,7 @@ This commercial risk is far more effective than technical controls for large ent
 ## Summary
 
 | Enforcement Layer | Strength | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Copyright law | Strong | Infringement, not just breach of contract |
 | SCA / code fingerprinting | Medium | Detects if code is shipped publicly |
 | License key / telemetry | Medium | Technical barrier, bypassable but risky |

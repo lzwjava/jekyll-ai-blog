@@ -70,7 +70,7 @@ This perception gap is real: crime dropped steeply, but the perception of out-of
 ## TL;DR Causal Stack
 
 | Layer | Factor |
-|---|---|
+| --- | --- |
 | Immediate trigger | Post-COVID social upheaval + "defund police" movement |
 | Policy failure | Chesa Boudin's non-prosecution doctrine |
 | State law | Prop 47 decriminalizing drug possession |

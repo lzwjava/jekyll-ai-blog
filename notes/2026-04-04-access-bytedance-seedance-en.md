@@ -73,7 +73,7 @@ There are multiple official ByteDance portals — not just Doubao. Here's a brea
 ### Summary Table
 
 | Platform | Region | Needs Chinese Account? | Seedance Version |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Dreamina** (dreamina.capcut.com) | International | ❌ No | 2.0 (limited) / 1.5 |
 | **CapCut Pro** | Select markets | ❌ No | 2.0 |
 | **BytePlus Playground** | International | ❌ No | 1.5 Pro only |

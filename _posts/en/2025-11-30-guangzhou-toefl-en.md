@@ -28,7 +28,7 @@ The TOEFL (Test of English as a Foreign Language) is primarily offered as the TO
    - Known centers (based on official listings; confirm addresses on the registration site as they may update):
 
      | Test Center Name | Address | Notes |
-     |------------------|---------|-------|
+     | ------------------ | --------- | ------- |
      | Guangzhou Education Examination Authority (or similar NEEA-affiliated center) | Typically in Tianhe District, e.g., near Tianhe Sports Center or university campuses like Sun Yat-sen University. Exact: Search "广州市教育考试院" on the site. | Main venue; offers multiple sessions weekly. |
      | Sun Yat-sen University Test Center | Higher Education Mega Center, Panyu District, Guangzhou | University-based; quiet environment. |
      | Guangdong University of Foreign Studies | Baiyun District, Guangzhou | Popular for language tests; check for STN code like 8505 (legacy ID). |

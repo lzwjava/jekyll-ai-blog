@@ -45,7 +45,7 @@ Hou Yi's combos revolve around Ult setup + enhanced AA spam. Always AA between s
 Focus on attack speed (to stack passive fast), crit (for burst), and lifesteal (survivability). Adapt vs. tanks (add pen) or burst (add defense).
 
 | Slot | Item | Why? |
-|------|------|------|
+| ------ | ------ | ------ |
 | Boots | Boots of Dexterity | +Attack Speed, +Move Speed for kiting. |
 | 1 | Shadow Ripper / End of Days (末世) | Early AD + stacks for pen/lifesteal. |
 | 2 | Lightning Dagger (闪电匕首) | Attack speed + on-hit lightning procs (machine-gun feel). |

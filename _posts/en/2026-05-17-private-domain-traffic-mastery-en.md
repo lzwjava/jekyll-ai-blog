@@ -85,7 +85,7 @@ Financial institutions in China have reduced customer acquisition costs by 40% u
 ## Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Strategy Name | Private Domain Traffic (私域流量) |
 | Core Platform | WeChat / Enterprise WeChat (WeCom) |
 | Xueqiu's Goal | Convert app users → loyal WeChat community members |

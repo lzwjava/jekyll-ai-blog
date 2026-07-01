@@ -42,7 +42,7 @@ Aliyun 的 **2-core 1G** 级别的 轻量应用服务器 定价为 **35 CNY/月*
 ### 总结表格
 
 | 选项 | 规格 | 价格 | OpenClaw 适用性 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 轻量 2C1G flash sale | 2 vCPU, 1GB RAM, 200M BW | ~35 CNY/mo 或 408 CNY/yr | ❌ RAM 不足 |
 | 轻量 2C2G | 2 vCPU, 2GB RAM, 200M BW | ~45 CNY/mo | ⚠️ 最低可行（不稳定） |
 | 轻量 2C2G annual deal | 2 vCPU, 2GB RAM, 200M BW | 68 CNY/yr (~5.6/mo) | ⚠️ 最低可行 |

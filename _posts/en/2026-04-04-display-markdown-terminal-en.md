@@ -118,7 +118,7 @@ def strip_markdown(text: str) -> str:
 ## Summary — Which Approach to Use?
 
 | Approach | Best For |
-|---|---|
+| --- | --- |
 | **Rich (render Markdown)** | You want nicely formatted terminal output with colors and structure |
 | **System prompt (suppress Markdown)** | You want raw plain text, no decoration |
 | **Programmatic stripping** | As a safety fallback if system prompt isn't 100% reliable |

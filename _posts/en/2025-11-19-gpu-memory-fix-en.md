@@ -40,7 +40,7 @@ This 512 is what matters for gradient quality/noise. The micro-batch (16) mostly
 ### Best fixes (ranked by effectiveness for your 12 GB card)
 
 | Option | New values | Effective batch | VRAM saved | Effect on training | Recommendation |
-|------|------------|------------------|------------|---------------------|----------------|
+| ------ | ------------ | ------------------ | ------------ | --------------------- | ---------------- |
 | 1. Reduce micro-batch only | batch_size = 8<br>gradient_accumulation_steps = 64 | still 512 | ~40–50% less activations → fits comfortably | Almost zero impact on final model | BEST CHOICE |
 | 2. Reduce micro-batch a bit more | batch_size = 4<br>gradient_accumulation_steps = 128 | still 512 | even safer, slightly slower | Still negligible difference | If still OOM |
 | 3. Reduce both (easier but slightly worse) | batch_size = 8<br>gradient_accumulation_steps = 32 | now 256 | big VRAM save | Slightly noisier gradients, may need 10–20% more steps to converge | Acceptable |

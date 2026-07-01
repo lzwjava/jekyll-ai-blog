@@ -45,7 +45,7 @@ But your model uses nanoGPT format (not HuggingFace), so you'd first need to eit
 ## Reference numbers for GPT-2 124M
 
 | Task | GPT-2 124M (full training) |
-|------|---------------------------|
+| ------ | --------------------------- |
 | LAMBADA | ~45% |
 | HellaSwag | ~31% |
 | PIQA | ~70% |

@@ -106,7 +106,7 @@ For structured JSON output specifically (a common reason to avoid streaming):
 ## Key UX Principles Summary
 
 | Situation | Recommended Approach |
-|---|---|
+| --- | --- |
 | Interactive chat / user watching | Always stream |
 | Batch / background jobs | Non-stream + async polling + status updates |
 | Long structured JSON output | Stream + partial JSON parsing |

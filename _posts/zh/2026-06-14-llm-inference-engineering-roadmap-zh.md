@@ -295,7 +295,7 @@ llm = LLM("meta-llama/Llama-3-70b", tensor_parallel_size=4)
 ## 关键论文（按顺序）
 
 | 论文 | 原因 |
-|---|---|
+| --- | --- |
 | Attention Is All You Need | 基线 |
 | FlashAttention-2 (Dao 2023) | 最重要的内核 |
 | PagedAttention / vLLM (Kwon 2023) | 内存管理 |

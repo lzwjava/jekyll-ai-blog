@@ -16,8 +16,8 @@ Yes, China's economy remains heavily reliant on manufacturing and construction, 
 
 China's total GDP in 2024 was approximately 134.9 trillion yuan (about $18.6 trillion USD), with 5.0% year-over-year growth.
 
-| Sector                  | Share of GDP | Value Added (trillion yuan) | YoY Growth | Notes |
-|-------------------------|--------------|-----------------------------|------------|-------|
+| Sector | Share of GDP | Value Added (trillion yuan) | YoY Growth | Notes |
+| ------------------------- | -------------- | ----------------------------- | ------------ | ------- |
 | **Primary (Agriculture, forestry, etc.)** | 6.8% | 9.1 | +3.5% | Smallest sector, focused on food security. |
 | **Secondary (Industry & Construction)** | 36.5% | 49.2 | +5.3% | Core driver of growth; includes heavy investment in infrastructure and exports. |
 | &nbsp;&nbsp;- Manufacturing | ~25% | 33.6 | +5.8% | Dominated by electronics, machinery, and autos; "world's factory." |

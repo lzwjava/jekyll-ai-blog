@@ -92,7 +92,7 @@ One AI industry executive noted that China's deep talent pool was a key reason c
 ## Summary Table
 
 | Company | Outcome | Key Reason |
-|---|---|---|
+| --- | --- | --- |
 | **Kimi (Moonshot AI)** | 🏆 Winner | Benchmark-beating models, ecosystem moves, revenue explosion |
 | **MiniMax** | 🏆 Winner | MoE efficiency, global consumer apps, 159% revenue growth |
 | **Baichuan / Wang Xiaochuan** | ❌ Declining | Leadership exodus, pivoted to medical niche |

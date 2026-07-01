@@ -25,7 +25,7 @@ These two things go into **completely different arrays** in `@NgModule`.
 ## Rule Summary
 
 | Thing to register | Where it goes in `@NgModule` |
-|---|---|
+| --- | --- |
 | A component / directive / pipe with `standalone: false` | `declarations` |
 | A service (or any provider) | `providers` |
 | A standalone component / NgModule / pipe you want to use in templates | `imports` |

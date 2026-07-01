@@ -23,7 +23,7 @@ Here's my review of the LibreChat setup:
 ## ⚠️ Warnings to Address
 
 | Severity | Issue | Impact |
-|----------|-------|--------|
+| ---------- | ------- | -------- |
 | 🔴 Security | `CREDS_IV`, `JWT_SECRET`, `JWT_REFRESH_SECRET` using default values | Anyone can forge tokens — generate real secrets |
 | 🟡 Config | LibreChat config version **1.2.1** is outdated (latest: **1.3.6**) | Missing newer features & fixes |
 | 🟡 Search | **Meilisearch missing** | Chat search/indexing won't work |

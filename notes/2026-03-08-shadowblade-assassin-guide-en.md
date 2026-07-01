@@ -104,7 +104,7 @@ A common recommended item build is: Relentless Blade → Boots of Deftness → A
 ### Strengths and Weaknesses Summary
 
 | Strengths | Weaknesses |
-|---|---|
+| --- | --- |
 | Strong early-game snowball | Very weak if behind |
 | Built-in stealth (great for ganks) | No sustained or late-game damage |
 | Stun + slow CC combo | Only single-target CC |

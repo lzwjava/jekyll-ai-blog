@@ -32,7 +32,7 @@ China's constitution says all urban land is owned by the state. You buy a **leas
 **Key Differences**
 
 | | USA | China |
-|---|---|---|
+| --- | --- | --- |
 | Land ownership | Yes, fee simple | No, state-owned |
 | Duration | Perpetual | 70-year lease |
 | Inheritance | Full transfer | Unclear at expiration |

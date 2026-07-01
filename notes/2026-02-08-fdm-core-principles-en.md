@@ -26,7 +26,7 @@ Core elements in the question description:
 ## Comparison of All Options
 
 | Option | Name | Working Domain | Characteristics |
-|--------|------|-----------------|-----------------|
+| -------- | ------ | ----------------- | ----------------- |
 | **A** | **Frequency Division Multiplexing (FDM)** | **Frequency Domain** | **Divides frequency into multiple sub-bands, each signal occupies different frequency** |
 | B | Time Division Multiplexing (TDM) | Time Domain | Divides time into multiple time slots, each signal occupies different time |
 | C | Wavelength Division Multiplexing (WDM) | Optical Domain | Based on fiber optic transmission, different wavelength optical signals |

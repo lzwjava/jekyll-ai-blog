@@ -37,7 +37,7 @@ PPL = exp(L)
 So:
 
 | L (loss) | PPL | Meaning |
-|----------|-----|---------|
+| ---------- | ----- | --------- |
 | ln(50257) ≈ 10.82 | ~50257 | random model |
 | 3.0 | ~20 | GPT-2 small on WebText |
 | 1.5 | ~4.5 | strong model |

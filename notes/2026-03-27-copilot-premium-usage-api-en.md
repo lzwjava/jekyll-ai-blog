@@ -52,7 +52,7 @@ For individual GitHub Copilot subscribers, there is no supported public API to p
 ## Practical Ways to Monitor Usage Today
 
 | Method | Who | How |
-|---|---|---|
+| --- | --- | --- |
 | GitHub Web UI | Anyone | Settings → Billing → Copilot → Premium request analytics |
 | Download CSV report | Enterprise admins | Billing & Licensing → Usage → Export |
 | REST API (`/orgs/ORG/copilot/metrics`) | Org/Enterprise admins | Requires PAT token |

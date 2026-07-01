@@ -40,14 +40,14 @@ Answer:
 ### 3. 优秀的 wrapper 通常至少提供以下一种形式的价值
 
 | 价值类型 | 示例 | 典型杠杆率 |
-|----------------------------|--------------------------------------|------------------|
-| Ergonomics / DX            | requests vs urllib                   | 5–20×            |
-| Reliability & resilience   | tenacity + circuit breakers          | 2–10× uptime     |
-| Safety / correctness       | Pydantic, Zod, TypeScript            | 显著减少 bug |
-| Orchestration              | LangChain / LlamaIndex / Haystack    | RAG 场景下 5–50× |
-| End-to-end UX              | Perplexity, Cursor, v0.dev           | 10–100×+         |
+| ---------------------------- | -------------------------------------- | ------------------ |
+| Ergonomics / DX | requests vs urllib | 5–20× |
+| Reliability & resilience | tenacity + circuit breakers | 2–10× uptime |
+| Safety / correctness | Pydantic, Zod, TypeScript | 显著减少 bug |
+| Orchestration | LangChain / LlamaIndex / Haystack | RAG 场景下 5–50× |
+| End-to-end UX | Perplexity, Cursor, v0.dev | 10–100×+ |
 | Distribution / convenience | Vercel (封装了许多 infra 组件) | 巨大的采用率提升 |
-| Specialization / vertical  | Retool / Supabase / Convex           | 特定领域 20–200× |
+| Specialization / vertical | Retool / Supabase / Convex | 特定领域 20–200× |
 
 ### 4. 最好的 wrapper 是 **opinionated**（有态度的）且 **能够消除选择**
 

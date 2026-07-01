@@ -33,7 +33,7 @@ On December 4, 2024, UNESCO inscribed **"Spring Festival — social practices of
 ### Key Facts About This Inscription
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Element Inscribed | Spring Festival (Chinese New Year) |
 | Date | December 4, 2024 |
 | Venue | 19th UNESCO ICH Committee Session, Asunción, Paraguay |

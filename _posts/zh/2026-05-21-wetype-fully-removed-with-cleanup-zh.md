@@ -12,7 +12,7 @@ type: note
 WeType 已彻底清除：
 
 | 位置 | 状态 |
-|---|---|
+| --- | --- |
 | `/Library/Input Methods/WeType.app` | 已移除 |
 | Launch agent (running process) | 已终止 + 取消注册 |
 | `~/Library/Preferences/` | 已清理 |

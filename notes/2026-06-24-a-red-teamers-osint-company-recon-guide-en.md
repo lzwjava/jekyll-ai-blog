@@ -97,7 +97,7 @@ This is OSINT (Open Source Intelligence) applied to corporate due diligence. The
 This is where it gets legally sensitive. Passive recon = fine. Active exploitation = illegal.
 
 | Technique | Legal? | Notes |
-|-----------|--------|-------|
+| ----------- | -------- | ------- |
 | Certificate transparency | ✅ | Fully passive |
 | Shodan lookup | ✅ | Passive, Shodan scanned it |
 | DNS enumeration | ✅ | Passive |

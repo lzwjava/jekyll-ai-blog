@@ -82,7 +82,7 @@ There are no borrows or carries — this makes it extremely fast and simple to i
 ## Common CRC Standards
 
 | Standard | Bit Length | Common Use |
-|----------|-----------|------------|
+| ---------- | ----------- | ------------ |
 | CRC-8 | 8 bits | Simple embedded systems |
 | CRC-16 | 16 bits | USB, Modbus, storage |
 | CRC-32 | 32 bits | Ethernet, ZIP, PNG, Wi-Fi |

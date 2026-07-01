@@ -52,7 +52,7 @@ In a multitasking OS, processes proceed at unpredictable speeds — they may be 
 ### ❌ Why the Other Options Are Wrong
 
 | Option | Problem |
-|--------|---------|
+| -------- | --------- |
 | **A** (Concurrency, Sharing, **Real-time**, **Synchrony**) | Real-time (实时性) is a feature of **real-time operating systems** specifically, not all OSes. Synchrony (同步性) is a *mechanism* used within an OS (e.g., semaphores), not a basic characteristic of the OS itself. |
 | **B** (Mutual exclusion, Independence, Virtuality, Asynchrony) | Mutual exclusion (互斥性) and independence (独立性) are concepts related to process management, not top-level OS characteristics. |
 | **C** (Timeliness, Sharing, Virtuality, Synchrony) | Timeliness (及时性) belongs to real-time systems only. Synchrony replaces the correct term Asynchrony. |

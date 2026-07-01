@@ -102,7 +102,7 @@ Principal Engineer 在培养持续学习和改进文化中发挥关键作用。�
 ## 总结表格
 
 | 类别 | 关键特质 |
-|------|----------|
+| ------ | ---------- |
 | Mindset | Systems thinking, strategic breadth |
 | Scope | Org-wide influence, cross-team impact |
 | Technical | Deep expertise, architecture, ambiguity handling |

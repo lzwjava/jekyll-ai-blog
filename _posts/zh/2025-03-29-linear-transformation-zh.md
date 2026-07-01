@@ -173,7 +173,7 @@ T(\mathbf{u}) = T(\mathbf{v}) \implies \mathbf{u} = \mathbf{v}
 ## **总结**
 
 | 概念 | 定义 | 关键性质 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | **线性变换** | \\( T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) \\) 且 \\( T(c\mathbf{v}) = cT(\mathbf{v}) \\) | 保持线性结构 |
 | **矩阵表示** | \\( T(\mathbf{x}) = A\mathbf{x} \\)，其中 \\( A \\) 的列为 \\( T(\mathbf{e}_i) \\) | 编码变换 |
 | **核** | \\( \ker(T) = \{ \mathbf{v} \mid T(\mathbf{v}) = \mathbf{0} \} \\) | 衡量单射性 |

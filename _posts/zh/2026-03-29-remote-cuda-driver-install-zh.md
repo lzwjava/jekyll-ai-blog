@@ -75,7 +75,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH
 ### 🤔 What went wrong / what I'd do differently
 
 | Issue | Root cause | Better approach |
-|-------|-----------|-----------------|
+| ------- | ----------- | ----------------- |
 | CUDA package not found | 尝试从 Ubuntu Repos 安装，而非 NVIDIA 官网 Repo | 应该先添加 `cuda-keyring` |
 | SSH dropped during install | 通过 SSH 运行长耗时 apt 任务导致连接断开 | 对任何超过 30 秒的安装，**从一开始**就使用 `nohup` 或 `tmux`/`screen` |
 | Lock conflict | 两个 apt 实例同时运行 | 在重试前杀掉陈旧进程，或使用 `flock` |

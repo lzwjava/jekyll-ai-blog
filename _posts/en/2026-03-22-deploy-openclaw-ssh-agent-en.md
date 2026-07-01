@@ -111,7 +111,7 @@ ssh openclaw@192.168.1.50 "openclaw gateway start"
 ### Key Points
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Agent capability | OpenClaw can run shell commands over SSH natively |
 | Keys needed at install? | No — copy `openclaw.json` with existing config after bare install |
 | Config location | `~/.openclaw/openclaw.json` |

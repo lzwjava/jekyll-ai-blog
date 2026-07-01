@@ -58,7 +58,7 @@ Despite witnessing environmental degradation, she remains a strong voice for **h
 ### 🎓 Summary
 
 | Aspect | Details |
-|--------|---------|
+| -------- | --------- |
 | **Who she is** | A pioneering primatologist and conservationist who changed how we see animals and our role in nature. |
 | **Big Ideas** | Empathy in science, interconnectedness of life, compassionate conservation, and the power of individual action. |
 | **Legacy** | Over 60 years of continuous chimp research, global conservation efforts, and inspiring generations through education and activism. |
@@ -106,7 +106,7 @@ This is one of Jane Goodall’s most well-known books and is a must-read for any
 If you're asking about a different book, here are a few others she has written:
 
 | Book Title | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | **"Reason for Hope: A Spiritual Journey"** | Reflects on her personal journey, spiritual beliefs, and reasons to remain hopeful despite environmental crises. |
 | **"The Ten Trusts"** (with Marc Bekoff) | Offers ethical guidelines for coexisting peacefully with animals and nature. |
 | **"Hope for Animals and Their World"** | Chronicles conservation successes around the world and why protecting endangered species matters. |

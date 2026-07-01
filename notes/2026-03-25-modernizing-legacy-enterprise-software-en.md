@@ -46,7 +46,7 @@ The people who understood the original architecture may have left. The remaining
 Beyond just the code, large corporations add:
 
 | Factor | Effect |
-|---|---|
+| --- | --- |
 | Risk aversion | Stability is rewarded; bold upgrades that break prod get you fired |
 | Budget cycles | Upgrades need approval, headcount, time — all scarce |
 | Compliance & audits | Changing certified/approved tech stacks requires re-certification |

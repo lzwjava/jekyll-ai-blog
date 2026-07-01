@@ -28,7 +28,7 @@ Traditionally, software had to justify its development cost by serving **million
 ## Why This Is Now Possible
 
 | Before AI | After AI |
-|---|---|
+| --- | --- |
 | Need a team of engineers | One person with intent |
 | Months to build an MVP | Days or hours |
 | Generic features for mass market | Exact features you personally need |

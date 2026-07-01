@@ -135,7 +135,7 @@ Here is a clean complete gateway config for your home LAN setup:
 ## Summary
 
 | Config Key | Purpose |
-|---|---|
+| --- | --- |
 | `gateway.bind` | Which interface to listen on (`lan` = LAN IP) |
 | `gateway.port` | Port number (default `18789`) |
 | `gateway.controlUi.allowedOrigins` | Which browser origins are allowed to open the UI |

@@ -45,7 +45,7 @@ type: note
 **已创建并推送的脚本:**
 
 | 脚本 | 用途 | 提交 |
-|------|------|------|
+| ------ | ------ | ------ |
 | `scripts/download/download_sec_edgar.py` | 按大小上限下载分片，跳过已有缓存，支持断点续传 | `378bcdb` |
 | `scripts/download/view_sec_edgar.py` | 查看/列出/搜索 parquet 文件中的样本 | `93138ec` + `70f83b5` |
 | `scripts/download/fix_corrupt_shard.sh` | 重新下载损坏的分片（现已无用） | `d153ec5` |

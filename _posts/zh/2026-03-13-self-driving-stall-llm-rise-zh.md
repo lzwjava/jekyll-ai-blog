@@ -39,7 +39,7 @@ Wang Yin（王垠，2016）的文章先知般地指出了这一点。核心洞�
 关键扩展障碍：
 
 | Problem | Why It Matters |
-|---|---|
+| --- | --- |
 | **Watery road surfaces, glare, fog** | 传感器数据变得模糊；物理世界混乱不堪 |
 | **Long-tail edge cases** | 世界有无限场景；训练数据永远无法覆盖所有 |
 | **Real-time 3D perception** | 计算昂贵、对延迟敏感，必须近乎完美 |

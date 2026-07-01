@@ -16,7 +16,7 @@ type: note
 **彻底卸载报告**
 
 | 扫描位置 | 状态 |
-|---|---|
+| --- | --- |
 | `/Applications/ParbloTablet`（应用包 + 驱动程序） | 已移除 |
 | `/Library/LaunchAgents/com.parblo.Tablet.plist` | 已移除 |
 | `~/Library/LaunchAgents/` | 干净 |

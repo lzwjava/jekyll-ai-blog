@@ -61,7 +61,7 @@ ping.pe 的 BGP Looking Glass 可在 `bgp-lg.ping.pe` 访问，允许用户检�
 ## 主要优势
 
 | 功能 | 优势 |
-|---|---|
+| --- | --- |
 | No installation needed | Works directly in browser |
 | Multi-location testing | Identifies regional network issues |
 | MTR + Ping combined | Deep hop-by-hop diagnosis |

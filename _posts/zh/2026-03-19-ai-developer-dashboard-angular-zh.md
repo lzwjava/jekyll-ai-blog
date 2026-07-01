@@ -31,7 +31,7 @@ Angular 21 于 2025 年底发布，带来了 Signal Forms 作为响应式表单 
 ## 📦 核心小部件构建
 
 | 小部件 | 数据源 | API |
-|---|---|---|
+| --- | --- | --- |
 | GitHub Activity Heatmap | GitHub REST/GraphQL | `api.github.com` |
 | OpenRouter Token Usage | OpenRouter | `/api/v1/generation`, `/activity` |
 | X/Twitter Followers/Following | Twitter API v2 | `api.twitter.com/2/users` |
@@ -90,7 +90,7 @@ src/
 ## 🛠️ 建议技术栈
 
 | 层 | 选择 | 原因 |
-|---|---|---|
+| --- | --- | --- |
 | Framework | Angular 21 | Signals, zoneless, standalone |
 | UI Components | Angular Aria + Tailwind | 可访问、无样式自由 |
 | Charts | ngx-echarts or Chart.js | 两者都有 Angular 包装器 |
@@ -104,7 +104,7 @@ src/
 ## 💡 项目名称建议
 
 | 名称 | 风格 |
-|---|---|
+| --- | --- |
 | **NexusBoard** | 所有您的 feeds 的枢纽 — 编码、AI、社交 |
 | **TokenPulse** | 强调 AI/令牌时代角度 |
 | **DevAura** | 您的开发者存在一目了然 |

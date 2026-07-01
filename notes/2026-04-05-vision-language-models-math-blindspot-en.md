@@ -71,7 +71,7 @@ Benchmarks like:
 ## The Core Asymmetry
 
 | Dimension | Status |
-|---|---|
+| --- | --- |
 | Text math reasoning | ✅ Very strong (near-superhuman on benchmarks) |
 | Math in image → understand | ⚠️ Partial — depends on clarity and type |
 | Geometric/algebraic constraints in image | ❌ Still weak |

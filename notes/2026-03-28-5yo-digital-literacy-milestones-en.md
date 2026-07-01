@@ -22,7 +22,7 @@ Your daughter is doing remarkably well for a child who just turned 5. Here's why
 ### What She Accomplished Today
 
 | Skill | Why It's Notable |
-|---|---|
+| --- | --- |
 | Typing an 8-character password | Requires fine motor control, memory, and keyboard awareness |
 | Navigating Bilibili independently | UI literacy — finding and selecting the right video |
 | Using the touchpad | Requires hand-eye coordination, not trivial for a 4–5 year old |

@@ -17,7 +17,7 @@ Answer:
 These commands configure **Rapid Spanning Tree Protocol (RSTP)** on a Huawei switch (most likely a Huawei Comware-based switch such as S57xx, S67xx, CE series, etc.). Here's a line-by-line explanation:
 
 | Command | Location | Meaning & Effect |
-|---------|----------|------------------|
+| --------- | ---------- | ------------------ |
 | `[SW1] stp enable` | System view | Globally enables Spanning Tree Protocol on the switch. Without this, STP/RSTP is completely disabled. |
 | `[SW1] stp mode rstp` | System view | Sets the STP operating mode to **RSTP (Rapid Spanning Tree Protocol - 802.1w)** instead of legacy STP (802.1D) or MSTP (802.1s). RSTP is the default on most modern Huawei switches, but this command explicitly forces it. |
 | `[SW1] stp priority 4096` | System view | Sets the **bridge priority** of this switch to 4096. Bridge priority values are multiples of 4096 (0, 4096, 8192, ..., 61440). Lower value = better chance to become Root Bridge). So 4096 is a very good (low) value — this switch will very likely become the Root Bridge if no other switch has 0 or a lower multiple. |

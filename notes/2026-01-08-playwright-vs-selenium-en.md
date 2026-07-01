@@ -18,16 +18,16 @@ Playwright and Selenium are both open-source tools for browser automation, prima
 
 ### Key Differences
 
-| Aspect                  | Playwright                                                                 | Selenium                                                                   |
-|-------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **Architecture**       | Uses persistent WebSocket connections directly with browser DevTools protocols (faster, lower overhead). | Uses W3C WebDriver protocol over HTTP (more latency, requires explicit waits). |
-| **Speed & Reliability**| Faster execution (often 2-3x quicker); built-in auto-waiting for element actionability reduces flakiness. | Slower due to communication overhead; requires manual explicit/implicit waits, leading to more flaky tests. |
-| **Browser Support**    | Chromium (Chrome/Edge), Firefox, WebKit (Safari) – covers ~95% modern usage; bundles browsers automatically. | Wider: All major browsers including legacy (e.g., older IE); uses separate drivers. |
-| **Language Support**   | JavaScript/TypeScript, Python, Java, .NET (C#).                                   | Broader: Java, Python, C#, JavaScript, Ruby, PHP, etc.                     |
-| **Setup & Dependencies**| Simple; auto-downloads and manages browsers/drivers; no external driver management needed. | More complex; historically required manual driver setup (improved with Selenium Manager). |
-| **Features**           | Auto-wait, network interception, tracing/debugging, codegen, built-in parallelization, mobile emulation. | Requires external tools for many advanced features; strong Grid for distributed execution. |
-| **Parallel Execution** | Native support via browser contexts (efficient, low resource use).        | Requires Selenium Grid setup.                                              |
-| **Community & Adoption**| Rapidly growing (fastest-growing tool in 2025 surveys); backed by Microsoft. | Massive, mature community; still dominant in enterprises (39% market share in 2025). |
+| Aspect | Playwright | Selenium |
+| ------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Architecture** | Uses persistent WebSocket connections directly with browser DevTools protocols (faster, lower overhead). | Uses W3C WebDriver protocol over HTTP (more latency, requires explicit waits). |
+| **Speed & Reliability** | Faster execution (often 2-3x quicker); built-in auto-waiting for element actionability reduces flakiness. | Slower due to communication overhead; requires manual explicit/implicit waits, leading to more flaky tests. |
+| **Browser Support** | Chromium (Chrome/Edge), Firefox, WebKit (Safari) – covers ~95% modern usage; bundles browsers automatically. | Wider: All major browsers including legacy (e.g., older IE); uses separate drivers. |
+| **Language Support** | JavaScript/TypeScript, Python, Java, .NET (C#). | Broader: Java, Python, C#, JavaScript, Ruby, PHP, etc. |
+| **Setup & Dependencies** | Simple; auto-downloads and manages browsers/drivers; no external driver management needed. | More complex; historically required manual driver setup (improved with Selenium Manager). |
+| **Features** | Auto-wait, network interception, tracing/debugging, codegen, built-in parallelization, mobile emulation. | Requires external tools for many advanced features; strong Grid for distributed execution. |
+| **Parallel Execution** | Native support via browser contexts (efficient, low resource use). | Requires Selenium Grid setup. |
+| **Community & Adoption** | Rapidly growing (fastest-growing tool in 2025 surveys); backed by Microsoft. | Massive, mature community; still dominant in enterprises (39% market share in 2025). |
 
 ### Pros and Cons
 

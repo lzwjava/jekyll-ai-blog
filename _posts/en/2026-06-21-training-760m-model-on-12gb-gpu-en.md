@@ -14,7 +14,7 @@ Here's the analysis of this machine:
 ## Machine Specs
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | CPU | Intel i9-13900KF, 24 cores / 32 threads, 5.8GHz boost |
 | RAM | 64GB (56GB available) |
 | GPU | NVIDIA RTX 4070, 12GB VRAM, CUDA 13.0, driver 580.126.20 |

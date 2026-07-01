@@ -14,7 +14,7 @@ My bad — they're fully closed. The 76 MB is an Apple system process (`CodeSign
 **Memory freed since we started**:
 
 | What | Before | After | Saved |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | VSCode | 23 GB | 0 | **23 GB** |
 | WeType | 1.6 GB | 0 | **1.6 GB** |
 | Spotlight (mdworker storm) | 14 GB | 0.5 GB (idle) | **13.5 GB** |

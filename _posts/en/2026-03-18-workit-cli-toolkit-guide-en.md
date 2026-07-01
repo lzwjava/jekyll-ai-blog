@@ -22,7 +22,7 @@ Given your constraints — cross-platform, CLI-first, mix of LLM and non-LLM scr
 ### 🏆 Top Recommendation: **`workit`**
 
 | Item | Value |
-|---|---|
+| --- | --- |
 | Repo name | `workit` |
 | CLI command | `workit` |
 | Usage | `workit note`, `workit git`, `workit pdf` |
@@ -40,7 +40,7 @@ Given your constraints — cross-platform, CLI-first, mix of LLM and non-LLM scr
 ### Other Strong Candidates
 
 | Name | Repo | CLI Usage | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **toolkit** | `toolkit` | `tk note`, `tk git` | Too generic, conflicts likely |
 | **worklit** | `worklit` | `worklit note` | Good but slightly awkward to say |
 | **devkit** | `devkit` | `devkit note` | Dev-focused, slightly overused |

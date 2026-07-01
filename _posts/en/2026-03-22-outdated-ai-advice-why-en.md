@@ -58,7 +58,7 @@ For HSBC HK specifically, a properly built system would:
 ## Summary Table
 
 | Problem | Root Cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | LLM recommends calling instead of "Chat with Us" | Knowledge cutoff — feature didn't exist or wasn't prominent in training data | RAG with live HSBC policy docs |
 | LLM defaults to old patterns statistically | Token frequency bias toward "call the hotline" in training corpus | Explicit system-prompt instructions + guardrails |
 | LLM ignores HSBC HK's institutional preferences | General LLMs are not trained on internal bank SOPs | Fine-tuning or RAG on HSBC-specific knowledge base |

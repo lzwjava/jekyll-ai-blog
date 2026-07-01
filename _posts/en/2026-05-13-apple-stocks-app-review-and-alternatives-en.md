@@ -50,7 +50,7 @@ The app lacks advanced technical analysis tools like RSI or MACD overlays, which
 If you want more depth, here are the go-to platforms:
 
 | Website | Best For |
-|---|---|
+| --- | --- |
 | **[finance.yahoo.com](https://finance.yahoo.com)** | Free all-around tracker with fundamentals, charts, and news |
 | **[tradingview.com](https://www.tradingview.com)** | Advanced charting and technical analysis |
 | **[stockanalysis.com](https://stockanalysis.com)** | Free fundamentals, financials, and screeners |

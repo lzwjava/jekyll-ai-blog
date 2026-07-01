@@ -57,7 +57,7 @@ type: post
 社交影响力：
 
 | 平台 | 关注者/联系人 |
-|----------|---|
+| ---------- | --- |
 | 微信@lzwjava | ~5800 |
 | 微信@lzwjava2048 | ~4500 |
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 254 |

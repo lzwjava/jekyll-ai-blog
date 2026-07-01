@@ -16,7 +16,7 @@ It's a Python-based command-line tool (version 0.1.0) that serves as a **Swiss A
 ### Core Capabilities
 
 | Category | What it does |
-|----------|-------------|
+| ---------- | ------------- |
 | **🔄 Git** | AI commit messages, squash commits, force push, diff trees, commit classification |
 | **🐙 GitHub** | Repo listing, notifications, starred repos, follower management, AI commit generation |
 | **🖼️ Image** | Screenshot capture, crop, compress, background removal, EXIF scanning, image generation |

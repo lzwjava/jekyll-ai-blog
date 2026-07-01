@@ -44,7 +44,7 @@ Based on your failed attempts (e.g., Networks at 21/44, Linear Algebra at 47/54)
 Focusing on your 7 preps, prioritizing the tech-heavy ones (Networks, Linear Algebra) since they align with your career curiosity. For the ideological ones (Mao Zedong, Ideological Cultivation), treat as "quick wins"—they're more memorization, less depth.
 
 | Course | Key Weakness (From Your Notes) | Actionable Fix | Resources (English-First) | Target Score Boost |
-|--------|--------------------------------|----------------|---------------------------|--------------------|
+| -------- | -------------------------------- | ---------------- | --------------------------- | -------------------- |
 | **Computer Networks** | Weak theory + no exam drills | Build from basics: OSI model → protocols → practice wireshark traces. Do 20 past questions/week. | Khan Academy videos (free, visual); "Computer Networking: A Top-Down Approach" (Ch 1-4 summaries on YouTube). Past papers via self-exam sites. | From 44 to 65+ (focus simulations) |
 | **Linear Algebra** | Matrix ops fuzzy; video reliance | Hands-on: Compute 5x5 matrices daily via Jupyter (your ML background shines here). Prove theorems verbally in English. | 3Blue1Brown series (YouTube—intuitive animations); MIT OCW problem sets (free PDFs). Use SymPy in Python for verification. | From 54 to 70+ (drill eigenvectors) |
 | **Basic Electronic Technology (III)** | (Assuming circuits/analog—build on your microcomputer prep) | Simulate circuits in LTSpice; link to real hardware (your gadgets collection?). | AllAboutCircuits.com tutorials; "The Art of Electronics" excerpts (PDFs online). | Steady climb—pair with Microcomputer |

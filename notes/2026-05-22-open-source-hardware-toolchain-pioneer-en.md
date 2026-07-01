@@ -24,7 +24,7 @@ She operates almost entirely outside academia and industry in the traditional se
 ## What She Built
 
 | Project | What it is |
-|---|---|
+| --- | --- |
 | **Yosys** | Open-source RTL synthesis suite — the `gcc` of hardware |
 | **PicoRV32** | Clean, compact RISC-V CPU in Verilog — used in real silicon |
 | **nextpnr** | Open-source place-and-route (the linker equivalent for FPGAs) |
@@ -68,7 +68,7 @@ She also openly transitioned gender (Clifford → Claire Xenia) around 2021 and 
 ## Where to Follow / Read Her Work
 
 | | |
-|---|---|
+| --- | --- |
 | GitHub | [github.com/clairexen](https://github.com/clairexen) |
 | YosysHQ org | [github.com/YosysHQ](https://github.com/YosysHQ) |
 | Website | [clifford.at](https://clifford.at) (older, still has good project writeups) |

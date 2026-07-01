@@ -18,15 +18,15 @@ I'll break it down by pros/cons, then recommend based on your priorities.
 
 #### Quick Comparison
 
-| Aspect              | JSON (or CSV)                                                                 | SQLite                                                                 |
-|---------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| **File Format**    | Text-based (human-readable). Easy line-by-line diffs in git.                  | Binary file. Git shows full-file changes; diffs are unreadable by default. |
-| **Size for 10k-100k Records** | Small if records are simple (e.g., 1-5 KB per record → 10-500 MB total). Compresses well in git. | Similar size, but no compression gains from text diffs.                |
+| Aspect | JSON (or CSV) | SQLite |
+| --------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **File Format** | Text-based (human-readable). Easy line-by-line diffs in git. | Binary file. Git shows full-file changes; diffs are unreadable by default. |
+| **Size for 10k-100k Records** | Small if records are simple (e.g., 1-5 KB per record → 10-500 MB total). Compresses well in git. | Similar size, but no compression gains from text diffs. |
 | **Git Experience** | Excellent: See exact added/edited lines. Use tools like `git diff --word-diff` for structured changes. Sort data consistently for clean diffs. | Poor out-of-box. Fix with custom git config (e.g., dump to SQL on diff). Or use extensions like Dolt for git-like database versioning. |
-| **Updates**        | Full rewrite on save, but diffs highlight changes if you load/edit/save selectively (e.g., via scripts). | Atomic transactions, but every commit looks like a full replace in git. |
+| **Updates** | Full rewrite on save, but diffs highlight changes if you load/edit/save selectively (e.g., via scripts). | Atomic transactions, but every commit looks like a full replace in git. |
 | **Querying/Features** | Basic (filter with code like jq/Python). No indexing/transactions. Good for flat data. | Full SQL: Queries, joins (for 2 tables), indexes, constraints. Better for any "database" feel. |
-| **Use Case Fit**   | Ideal if your app/script handles CRUD in memory and you prioritize collab/diffs. | Better if you need real DB ops; diffs are secondary.                   |
-| **Tools Needed**   | Native git + jq (for JSON) or csvkit (for CSV).                               | sqlite3 CLI + git attributes for custom diffs.                         |
+| **Use Case Fit** | Ideal if your app/script handles CRUD in memory and you prioritize collab/diffs. | Better if you need real DB ops; diffs are secondary. |
+| **Tools Needed** | Native git + jq (for JSON) or csvkit (for CSV). | sqlite3 CLI + git attributes for custom diffs. |
 
 #### Recommendations
 

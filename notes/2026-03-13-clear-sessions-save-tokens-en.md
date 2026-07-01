@@ -90,7 +90,7 @@ Between sessions, use a `CLAUDE.md` file to persist important project context: A
 ## Summary Table
 
 | Scenario | Recommendation |
-|---|---|
+| --- | --- |
 | Same task, long session | `/compact` — summarize, keep going |
 | Switching to unrelated task | `/clear` or new session |
 | Related follow-up task | Keep session OR use `/compact` first |

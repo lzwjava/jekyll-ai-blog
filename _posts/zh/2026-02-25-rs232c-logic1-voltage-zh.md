@@ -22,7 +22,7 @@ type: note
 RS-232C 在数据传输线上使用 **inverted (negative logic)** 电压方案，这与大多数数字逻辑标准相比有些反直觉。
 
 | State | Driver Output Voltage | Receiver Threshold |
-|---|---|---|
+| --- | --- | --- |
 | **Logic "1" (MARK)** | **-5V to -15V** | -3V to -15V |
 | **Logic "0" (SPACE)** | **+5V to +15V** | +3V to +15V |
 | **Undefined / Invalid** | -3V to +3V | — |

@@ -13,11 +13,11 @@ Chamath Palihapitiya 是一位特别直言不讳的人物，他和其他前 Meta
 
 | **高管** | **前 Meta 职位** | **核心经验教训 / 见解** | **关键要点** |
 | :--- | :--- | :--- | :--- |
-| **Chamath Palihapitiya**  | VP of User Growth (2007-2011) | Challenge Groupthink & Redefine Risk | 真正的创新需要质疑 Silicon Valley 的教条，并对失败持有坚韧的长期视角。 |
-| **Martin Ott**  | MD for Northern & Central Europe (joined 2012) | Prioritize Deliberate Impact over Hustle Culture | 可持续的成功来自于专注的努力和保护团队精力，而不是“始终在线”。 |
-| **Yann LeCun**  | Chief AI Scientist (founded FAIR) | Stay True to Your Core Competency | 领导力并非一刀切；通过专注于你最擅长的事来最大化你的影响力。 |
-| **Shailesh Chauhan**  | Product Manager, Machine Learning (joined 2022) | Strategic Career Management | 职业成长关乎持续学习、知道何时说不，以及清晰沟通。 |
-| **Alexandra Uriarte & Pedro Pavón**  | Public Policy Managers | Embrace a Non-Linear Career Path | 有价值的经验来自于冒险和探索多样化角色，而不是走直线路径。 |
+| **Chamath Palihapitiya** | VP of User Growth (2007-2011) | Challenge Groupthink & Redefine Risk | 真正的创新需要质疑 Silicon Valley 的教条，并对失败持有坚韧的长期视角。 |
+| **Martin Ott** | MD for Northern & Central Europe (joined 2012) | Prioritize Deliberate Impact over Hustle Culture | 可持续的成功来自于专注的努力和保护团队精力，而不是“始终在线”。 |
+| **Yann LeCun** | Chief AI Scientist (founded FAIR) | Stay True to Your Core Competency | 领导力并非一刀切；通过专注于你最擅长的事来最大化你的影响力。 |
+| **Shailesh Chauhan** | Product Manager, Machine Learning (joined 2022) | Strategic Career Management | 职业成长关乎持续学习、知道何时说不，以及清晰沟通。 |
+| **Alexandra Uriarte & Pedro Pavón** | Public Policy Managers | Embrace a Non-Linear Career Path | 有价值的经验来自于冒险和探索多样化角色，而不是走直线路径。 |
 
 ### 🚀 Chamath Palihapitiya：Silicon Valley 颠覆者
 

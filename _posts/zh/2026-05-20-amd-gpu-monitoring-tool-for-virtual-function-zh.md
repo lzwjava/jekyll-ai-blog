@@ -75,7 +75,7 @@ Processing accelerators: AMD/ATI Aqua Vanjaram [Instinct MI300X VF]
 **使用的数据源：**
 
 | 信息 | 来源 |
-|------|------|
+| ------ | ------ |
 | GPU名称、BARs | `lspci -s <bdf> -vv` |
 | 设备/供应商ID | `/sys/bus/pci/devices/<bdf>/device`、`vendor`、`subsystem_*` |
 | PCIe链路速度/宽度 | `/sys/bus/pci/devices/<bdf>/current_link_speed`、`current_link_width`、`max_link_*` |

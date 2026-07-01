@@ -170,7 +170,7 @@ sudo ufw status | grep -E '(22|2222)'
 ```
 
 | 端口 | 规则 | 用途 |
-|------|------|---------|
+| ------ | ------ | --------- |
 | 22/tcp | ALLOW Anywhere | Gitea SSH |
 | 2222/tcp | ALLOW Anywhere (host-ssh) | Host SSH |
 

@@ -32,7 +32,7 @@ zed ssh://[user@]host[:port]/path
 ## Key differences vs VS Code Remote SSH
 
 | Feature | Zed | VS Code |
-|---|---|---|
+| --- | --- | --- |
 | UI rendering | Local (GPU, 120fps) | Local |
 | LSP runs | Remote ✅ | Remote ✅ |
 | Server binary | Auto-downloaded | Extension-based |

@@ -327,7 +327,7 @@ npx playwright show-trace trace.zip
 ### 架构差异
 
 | 特性 | Playwright | Selenium |
-|---------|------------|----------|
+| --------- | ------------ | ---------- |
 | **架构** | 直接浏览器通信 | WebDriver 协议 |
 | **浏览器支持** | Chromium、Firefox、WebKit | Chrome、Firefox、Safari、Edge、IE |
 | **安装** | 单一包包含浏览器 | 需单独下载驱动程序 |

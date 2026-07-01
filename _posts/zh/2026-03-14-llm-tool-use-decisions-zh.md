@@ -93,7 +93,7 @@ Pre-training → SFT on tool trajectories → DPO/RLHF for when-to-call decision
 ## 总结表格
 
 | 阶段 | 在 Tool Calling 中的作用 |
-|---|---|
+| --- | --- |
 | Pre-training | 学习语言、推理、语义意图 |
 | SFT | 学习工具调用格式和基本选择 |
 | DPO/RLHF | 学习 *何时* 调用 vs. 直接回答 |

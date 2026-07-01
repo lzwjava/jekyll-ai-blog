@@ -36,7 +36,7 @@ Not exactly. moomoo is **Futu's international/overseas brand**, not simply an En
 ## Summary
 
 | | Futu (富途) | moomoo |
-|---|---|---|
+| --- | --- | --- |
 | Type | Parent holding company | International subsidiary/brand |
 | Market | China, Hong Kong | US, SG, AU, JP, CA, MY, etc. |
 | Platform | Futubull (富途牛牛) | moomoo app |

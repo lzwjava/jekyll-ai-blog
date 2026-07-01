@@ -15,12 +15,12 @@ Here is a summary of the evidence regarding his work ethic:
 
 | Aspect of Work Ethic | Description | Sources |
 | :--- | :--- | :--- |
-| **Foundational Force** | Described as the indispensable person who made OpenAI happen, driving its formation forward with incredible speed and commitment . |  |
-| **Constant Availability** | In the early days, he maintained an **average email response time of about 5 minutes** to anything, demonstrating relentless engagement . |  |
-| **Hands-On Engineer** | He spent about **80% of his time writing code**, acting as a "10X engineer" who was central to technical projects like the DOTA2 AI and the development of GPT models . |  |
-| **"Problem Solver"** | He viewed his role as a "problem solver," willing to dive into any task—from recruiting the founding team and defining culture to cleaning up the office—to ensure the startup's survival and success . |  |
-| **Intense Focus** | Described by a former colleague as the **"hardest working person"** at OpenAI, uniquely combining coding, product decisions, and team management . |  |
-| **All-Encompassing Culture** | His work style contributed to a company culture where employees worked **"long hours"** and were intensely focused on their jobs, even during social time . |  |
+| **Foundational Force** | Described as the indispensable person who made OpenAI happen, driving its formation forward with incredible speed and commitment . | |
+| **Constant Availability** | In the early days, he maintained an **average email response time of about 5 minutes** to anything, demonstrating relentless engagement . | |
+| **Hands-On Engineer** | He spent about **80% of his time writing code**, acting as a "10X engineer" who was central to technical projects like the DOTA2 AI and the development of GPT models . | |
+| **"Problem Solver"** | He viewed his role as a "problem solver," willing to dive into any task—from recruiting the founding team and defining culture to cleaning up the office—to ensure the startup's survival and success . | |
+| **Intense Focus** | Described by a former colleague as the **"hardest working person"** at OpenAI, uniquely combining coding, product decisions, and team management . | |
+| **All-Encompassing Culture** | His work style contributed to a company culture where employees worked **"long hours"** and were intensely focused on their jobs, even during social time . | |
 
 ### 💡 How His Work Ethic Shaped OpenAI
 

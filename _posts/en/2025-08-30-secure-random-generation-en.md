@@ -25,7 +25,7 @@ import secrets
 Here are the main functions in `secrets`, with brief explanations and examples. These generate random values that are hard to predict.
 
 | Function | Purpose | Example Usage |
-|----------|---------|---------------|
+| ---------- | --------- | --------------- |
 | `secrets.token_bytes(n)` | Generates `n` random bytes. Useful for creating binary keys. | `key = secrets.token_bytes(16)`  # 16 random bytes |
 | `secrets.token_hex(n)` | Generates `n` random bytes and returns them as a hex string (twice as long as `n` due to hex encoding). Ideal for hexadecimal tokens. | `hex_key = secrets.token_hex(16)`  # 32-character hex string |
 | `secrets.token_urlsafe(n)` | Generates `n` random bytes, base64-encoded for URL-safe use (e.g., in web tokens). | `url_token = secrets.token_urlsafe(32)`  # ~43-character string |

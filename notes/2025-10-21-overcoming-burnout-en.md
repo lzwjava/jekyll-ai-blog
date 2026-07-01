@@ -42,7 +42,7 @@ You mentioned not enough time in the last 6 months—fair, with work eating days
 Use what worked before—practice questions, not just videos. For each:
 
 | Course | Quick Wins (Focus on Your Weak Spots) | Time Allocation |
-|--------|---------------------------------------|-----------------|
+| -------- | --------------------------------------- | ----------------- |
 | **Computer Networks** | Drill OSI model layers daily (10 questions). Use free online sims (no install needed) for basics. Build from theory gaps—start with subnetting videos, then apply. | 40% of prep time (highest fail risk). |
 | **Linear Algebra** | Matrix ops drill: 5 problems/day on row reduction, determinants. Khan Academy for rules refresh (short vids). Don't just watch—solve by hand. | 30% (your overestimation trap). |
 | **Basic Electronic Technology (III)** | Circuit basics: Sketch diagrams from past papers. Focus on Ohm's law applications. | 10% (newish, keep light). |

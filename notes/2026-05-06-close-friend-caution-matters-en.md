@@ -55,7 +55,7 @@ This is sometimes called **emotional residue** — leftover feelings that color 
 ### ⚖️ So How Should We Handle Close Friendships?
 
 | Principle | Why It Matters |
-|---|---|
+| --- | --- |
 | Choose words carefully | Casual cruelty hurts most from close ones |
 | Address issues calmly | Avoid letting frustration escalate |
 | Apologize genuinely | A real apology can soften a memory |

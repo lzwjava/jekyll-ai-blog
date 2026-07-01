@@ -52,7 +52,7 @@ The iron frame on budget chairs is often thin gauge. Machine screws threading in
 ## How to Prevent This Going Forward
 
 | Solution | How It Helps |
-|---|---|
+| --- | --- |
 | **Re-tighten all screws every 1–2 months** | Catches loosening before screws fall out |
 | **Apply Loctite Blue (242) threadlocker** | Keeps screws locked without being permanent |
 | **Use a washer under each screw head** | Distributes pressure, reduces loosening |

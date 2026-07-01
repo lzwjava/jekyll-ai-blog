@@ -16,7 +16,7 @@ type: note
 **Monthly cost:**
 
 | Duration | Cost |
-|----------|------|
+| ---------- | ------ |
 | 1 hour | $0.24 |
 | 1 day (24h) | $5.76 |
 | 1 week | $40.32 |

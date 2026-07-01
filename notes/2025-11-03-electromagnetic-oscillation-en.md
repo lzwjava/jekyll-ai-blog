@@ -42,7 +42,7 @@ You're asking about how electromagnetic (EM) signals, like those in the 88–108
 - **Practical spectrum limits** (from low to high frequency):
 
      | Band | Frequency Range | Examples |
-     |------|-----------------|----------|
+     | ------ | ----------------- | ---------- |
      | Extremely Low Frequency (ELF) | 3–30 Hz | Submarine communication |
      | Very Low Frequency (VLF) | 3–30 kHz | Navigation signals |
      | FM Radio | 88–108 MHz | Music broadcasts |

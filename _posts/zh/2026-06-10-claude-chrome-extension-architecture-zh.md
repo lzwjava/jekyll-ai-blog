@@ -65,7 +65,7 @@ while True:
 ## 技术栈对比
 
 | | Claude in Chrome | browser-use / Playwright MCP | OpenAI Operator 风格 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 浏览器 | **你的** Chrome 配置文件（扩展） | 由 Playwright 启动的独立浏览器 | 云虚拟机浏览器 |
 | 传输方式 | `chrome.debugger` → 进程内 CDP | WebSocket → 通过 Playwright 访问 CDP | 视觉 + VNC 类 |
 | 感知方式 | 自定义无障碍树遍历器（`ref_N`）+ 屏幕截图回退 | ariaSnapshot / DOM 提取 | 主要依赖屏幕截图 |

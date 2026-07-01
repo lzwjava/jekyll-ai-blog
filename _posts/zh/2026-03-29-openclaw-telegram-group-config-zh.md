@@ -14,7 +14,7 @@ type: note
 **✅ 修改内容 — `/home/lzw/.openclaw/openclaw.json` 中的 `channels.telegram`：**
 
 | Setting | Before | After |
-|--------|--------|-------|
+| -------- | -------- | ------- |
 | `groupPolicy` | `"allowlist"` | `"allowlist"` (未变更) |
 | `groupAllowFrom` | _(缺失)_ | `["-4714712674"]` ← blog Telegram group |
 

@@ -152,7 +152,7 @@ expressions: {
 ## Quick Checklist for Migration
 
 | Old (v5/v6 Angular 14) | New (v7 Angular 21) |
-|---|---|
+| --- | --- |
 | `templateOptions: { label: 'X' }` | `props: { label: 'X' }` |
 | `to.label` in wrapper/type template | `props.label` |
 | `field.templateOptions?.label` | `field.props?.label` |

@@ -24,7 +24,7 @@ It features 96GB of GDDR7 ECC VRAM, 24,064 CUDA cores, 1,792 GB/s memory bandwid
 ## Rental Market Rates (as of June 2026)
 
 | Platform | Rate |
-|---|---|
+| --- | --- |
 | **Vast.ai** (Workstation Edition) | ~$1.20/hr |
 | **Vast.ai** (Server Edition) | ~$1.40/hr |
 | **RunPod** | ~$1.27–2.00/hr |
@@ -40,7 +40,7 @@ Market median is $1.27/hr across 125 available configurations, with a floor arou
 At $1.20–1.40/hr (Vast.ai community cloud rate, which is what you'd earn as a host):
 
 | Utilization | Daily | Monthly |
-|---|---|---|
+| --- | --- | --- |
 | 30% | ~$8–10 | ~$250–300 |
 | 60% | ~$17–20 | ~$500–600 |
 | 90% | ~$26–30 | ~$780–900 |

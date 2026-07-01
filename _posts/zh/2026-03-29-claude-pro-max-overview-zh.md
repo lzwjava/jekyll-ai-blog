@@ -54,7 +54,7 @@ Max 计划将 Claude desktop 和 mobile apps 以及 Claude Code 整合在一个�
 ### 总结表格
 
 | Plan | Price | Usage | Claude Code | Opus Access |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Free | $0 | Baseline | ❌ | ❌ |
 | Pro | $20/mo | 5x Free | ✅ | ❌ |
 | Max 5x | $100/mo | 5x Pro | ✅ | ✅ |

@@ -52,7 +52,7 @@ UMPI accepts a large number of transfer credits (ACE credits), and students can 
 ### Summary: Is It Worth It?
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | Type | Public university (state school) |
 | Part of | University of Maine System |
 | Accreditation | NECHE (regional — gold standard) |

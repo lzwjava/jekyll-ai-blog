@@ -20,7 +20,7 @@ Yes, exactly. The underlying pattern is the same across both eras. It's not abou
 ## The Universal Pattern
 
 | Variable | 90s 澳头 Construction | 2010s-20s Tech/AI |
-|---|---|---|
+| --- | --- | --- |
 | The wave | 大亚湾 开发区 建设 boom | Mobile → Cloud → AI boom |
 | Early arrival advantage | First crews got best contracts, lowest competition | Early ML engineers, early startup joiners got equity at near-zero |
 | Skill ladder | 小工 → 大工 → 包工头 | Junior dev → Senior → Staff/Principal/Architect |

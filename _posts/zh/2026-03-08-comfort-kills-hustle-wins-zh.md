@@ -68,7 +68,7 @@ type: note
 ## 长远判决：你的论点成立
 
 | 阶段 | Comfortable Incumbents | Hungry Challengers |
-|---|---|---|
+| --- | --- | --- |
 | **短期** | 稳定利润，放松节奏 | 艰苦磨砺，不确定生存 |
 | **中期** | 适应缓慢，错失拐点 | 获得效率，技术优势 |
 | **长期** | 市场份额崩盘 (Nokia、Nissan 等) | 主导市场 (BYD、DeepSeek 等) |

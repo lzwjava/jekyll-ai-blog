@@ -54,7 +54,7 @@ ggml_cuda_init: failed to initialize CUDA: CUDA driver version is insufficient f
 ### 当前状态
 
 | 项目 | 状态 |
-|------|--------|
+| ------ | -------- |
 | nvidia-driver-580 软件包 | ✅ 已安装 |
 | DKMS 模块（6.8.0-107） | ✅ 已构建 |
 | CMake 配置 | ✅ 完成 |

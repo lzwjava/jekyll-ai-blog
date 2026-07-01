@@ -20,7 +20,7 @@ Yes, exactly. Font size is an underutilized dimension for terminal multitasking.
 The idea: assign semantic meaning to font size across windows.
 
 | Font Size | Use Case |
-|-----------|----------|
+| ----------- | ---------- |
 | Large (18–24pt) | Main focus task — the thing you're actively coding |
 | Medium (13–14pt) | Secondary monitor — logs, watchers, test runners |
 | Small (9–11pt) | Background processes — LLM streaming, build CI, agent loops |

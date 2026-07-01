@@ -110,7 +110,7 @@ sudo apt update
 ## 总结表格
 
 | 问题 | 类型 | 解决方案 |
-|---|---|---|
+| --- | --- | --- |
 | `nginx binary-i386` | Warning (N:) | 在 nginx.list 中添加 `arch=amd64`，或移除该文件 |
 | `Mozilla 400 Bad Request` | Error (E:) | 移除 mozilla 源文件，或修复代理绕过 |
 

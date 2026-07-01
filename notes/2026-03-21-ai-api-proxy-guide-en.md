@@ -20,7 +20,7 @@ This appears to be a **third-party AI API proxy/aggregator platform** (likely a 
 ## Claude (Anthropic) Channels
 
 | Group | Multiplier | Description |
-|---|---|---|
+| --- | --- | --- |
 | **Claude Max** | 1.3x | Best quality; uses Claude Max accounts |
 | **Claude Max 备用 (Backup)** | 2.1x | Uses Max 20X accounts; costs spiked due to risk control, so temporarily higher rate |
 | **AWS Bedrock** | 5x | Official Claude API via Amazon Web Services Bedrock — most stable but most expensive |
@@ -38,7 +38,7 @@ This appears to be a **third-party AI API proxy/aggregator platform** (likely a 
 ## OpenAI (GPT) Channels
 
 | Group | Multiplier | Description |
-|---|---|---|
+| --- | --- | --- |
 | **Codex (Team)** | 0.3x | Uses GPT Team + regular account pool; lower priority than GPT Pro |
 | **Codex (GPT Pro)** | 0.6x | Higher quality; supports all Codex models; GPT Pro account pool |
 

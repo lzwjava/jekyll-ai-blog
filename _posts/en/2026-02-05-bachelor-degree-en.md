@@ -15,7 +15,7 @@ translated: false
 ### **Required Courses - 15 courses, 72 credits total:**
 
 | **Course Code** | **Course Name (English)** | **Credits** | **Exam Type** |
-|-----------------|---------------------------|-------------|---------------|
+| ----------------- | --------------------------- | ------------- | --------------- |
 | 03708 | Outline of Modern Chinese History | 2 | Written |
 | 03709 | Introduction to Basic Principles of Marxism | 4 | Written |
 | 00023 | Advanced Mathematics (Engineering) | 10 | Written |

@@ -62,7 +62,7 @@ PyTorch on Windows and Linux is now available as a public preview, meaning you c
 ## Summary Table
 
 | Platform | AMD GPU | Type |
-|---|---|---|
+| --- | --- | --- |
 | AMD Developer Cloud | MI300X | Cloud (free tier) |
 | Microsoft Azure (ND MI300X v5) | MI300X | Cloud VM |
 | Oracle Cloud (OCI) | MI300X, MI355X | Bare Metal / VM |

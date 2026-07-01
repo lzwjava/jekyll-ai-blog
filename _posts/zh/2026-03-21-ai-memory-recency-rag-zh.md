@@ -36,7 +36,7 @@ Timeliness 衡量数据的新鲜程度。随着时间推移，数据的相关性
 ### The Concept
 
 | Memory Age | Fine-tune Rounds | Effect |
-|---|---|---|
+| --- | --- | --- |
 | 5 years ago | 1× | Baseline knowledge, low influence |
 | 3 years ago | 2× | Moderate retention |
 | 1 year ago | 3× | Strong retention |
@@ -73,7 +73,7 @@ Timeliness 衡量数据的新鲜程度。随着时间推移，数据的相关性
 对于你的团队 memory 系统，你可以按 memory category 调优 `h` 和 `α`：
 
 | Memory Type | Recommended Half-life (h) | α weight |
-|---|---|---|
+| --- | --- | --- |
 | Release process steps | 30 days | 0.4 (recency dominates) |
 | Architecture decisions | 365 days | 0.7 (semantics dominate) |
 | Code patterns / conventions | 180 days | 0.6 |
@@ -130,7 +130,7 @@ Query from Claude Code / Copilot
 ## Comparison Summary
 
 | Dimension | Fine-tuning Graduation | Time-Weighted RAG |
-|---|---|---|
+| --- | --- | --- |
 | Best for | Slow-changing principles | Operational / process memory |
 | Update speed | Slow (days/weeks) | Real-time |
 | Catastrophic forgetting risk | High | None |

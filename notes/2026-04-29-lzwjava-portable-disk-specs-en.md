@@ -12,7 +12,7 @@ type: note
 Here's the info for the **LZWJAVA** portable disk:
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Physical disk** | `/dev/disk13` (external, USB) |
 | **Hardware** | Newsmy Media |
 | **Total size** | 320.1 GB |

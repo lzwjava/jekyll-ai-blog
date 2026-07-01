@@ -187,7 +187,7 @@ python train.py config/train_fineweb.py
 ## 📊 Token Budget Summary
 
 | Dataset Subset | Tokens | Enough for 124M? |
-|---|---|---|
+| --- | --- | --- |
 | `sample-350BT` | ~350B | ✅ Full GPT-2 scale |
 | `sample-100BT` | ~100B | ✅ Strong results |
 | **`sample-10BT`** | **~10B** | **✅ Good baseline** |

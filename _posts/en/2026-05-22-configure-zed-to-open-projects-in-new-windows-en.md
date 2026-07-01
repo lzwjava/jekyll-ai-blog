@@ -40,7 +40,7 @@ So for `File > Open`, you'll still need to use `Cmd+Enter` (instead of Enter) in
 **Quick reference for manual overrides:**
 
 | Want | Do |
-|---|---|
+| --- | --- |
 | New window always (CLI/drag) | `"cli_default_open_behavior": "new_window"` in settings |
 | New window from Open Recent | `Cmd+Enter` or `Cmd+click` |
 | New window from CLI one-off | `zed -n ~/myproject` |

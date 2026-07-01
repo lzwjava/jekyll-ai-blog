@@ -58,7 +58,7 @@ There is a hierarchy: happiness is sought first, and only after a "critical leve
 ## The Real Contrast: Honest Mentors vs. Empty Encouragers
 
 | Type | What they give | Long-term effect |
-|---|---|---|
+| --- | --- | --- |
 | Empty Encouragers (LinkedIn gurus) | Validation, dopamine, false confidence | People walk into avoidable disasters |
 | Harsh Truth-Tellers (Graham, Li Xiaolai) | Accurate maps of reality, warnings | People make better decisions, avoid costly mistakes |
 | Best-in-class mentors | Truth delivered with care and a path forward | Lasting behavior change, real growth |

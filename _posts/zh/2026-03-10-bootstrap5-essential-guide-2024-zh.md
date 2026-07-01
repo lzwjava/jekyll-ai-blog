@@ -99,7 +99,7 @@ Bootstrap 提供 `.container` 用于响应式像素宽度，`.container-fluid` �
 Bootstrap 包含六个默认 Breakpoints，有时称为网格层级，用于构建响应式布局。这些 Breakpoints 可通过 `_variables.scss` 样式表中的 Sass 进行自定义。
 
 | Breakpoint | Prefix | Min Width |
-|---|---|---|
+| --- | --- | --- |
 | Extra small | *(none / xs)* | < 576px |
 | Small | `sm` | ≥ 576px |
 | Medium | `md` | ≥ 768px |
@@ -308,7 +308,7 @@ $enable-shadows: true;
 ## 总结 — 为什么使用 Bootstrap 5？
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | No jQuery | Pure Vanilla JS，轻量且更快 |
 | Mobile-first | 先为小屏幕设计 |
 | 12-column Grid | 灵活的响应式布局 |

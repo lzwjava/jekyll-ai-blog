@@ -33,7 +33,7 @@ The OCBC support representative told you:
 This makes perfect sense because:
 
 | Account | Currency | Suitable for SGD transfer? |
-|---|---|---|
+| --- | --- | --- |
 | Global Savings Account (GSC) | Multi-currency (USD in your case) | ❌ Not ideal — currency mismatch |
 | Statement Savings Account (SSC) | SGD | ✅ Correct destination |
 

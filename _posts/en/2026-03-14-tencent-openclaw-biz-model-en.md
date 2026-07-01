@@ -84,7 +84,7 @@ The Agent Development Platform (ADP) introduced an enterprise-grade deployment s
 ## Summary Table
 
 | Product | Target User | Deployment | Revenue Stream |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Lighthouse (Cloud) | Developers, SMEs | One-click cloud | Server subscription (30–60 RMB/month) + API tokens |
 | QClaw | General consumers | Local PC | Free (beta); future monetization TBD |
 | WorkBuddy | Enterprise | Cloud | Enterprise licensing |

@@ -102,7 +102,7 @@ Same pattern: open community edition → hosted AuraDB cloud → enterprise on-p
 ## 8. Other Notable Examples
 
 | Company / Project | Open Source Core | Cloud SaaS | Enterprise |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Supabase** | GitHub (Apache 2.0) | supabase.com | Self-hosted Enterprise |
 | **Minio** | GitHub (AGPL) | Hosted object storage | AGPL / Commercial enterprise |
 | **Airbyte** | GitHub (MIT/ELv2) | Airbyte Cloud | Self-Managed Enterprise |

@@ -16,7 +16,7 @@ Here's your current memory snapshot on this 16 GB Mac:
 **Top consumers now:**
 
 | App | Memory | Action |
-|-----|--------|--------|
+| ----- | -------- | -------- |
 | **Safari + WebKit** | **~3.4 GB** (15 WebContent procs) | ⚠️ Quit or close tabs |
 | **WeChat** | **~1.2 GB** (16 processes) | ❌ Kill for +1.2 GB |
 | Docker / nginx / Redis / PG | ~0.8 GB | Minor |

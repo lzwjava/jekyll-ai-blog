@@ -30,7 +30,7 @@ The human is still the optimization loop. You read, judge, write the blog post, 
 The frontier is closing the loop *without* you in it:
 
 | System | What it does |
-|---|---|
+| --- | --- |
 | **AlphaCode 2 / SWE-bench agents** | Agent writes code → runs tests → reads failure → patches → loops autonomously |
 | **STaR / Self-Taught Reasoner** | Model generates rationales → filters correct ones → fine-tunes on them → repeat |
 | **RLHF/GRPO pipelines** | Model generates rollouts → reward model scores → policy gradient update → new model |

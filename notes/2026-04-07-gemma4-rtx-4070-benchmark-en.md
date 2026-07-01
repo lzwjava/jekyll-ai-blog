@@ -14,7 +14,7 @@ type: note
 ### System Profile
 
 | Component | Detail |
-|-----------|--------|
+| ----------- | -------- |
 | **OS** | Ubuntu, Linux 6.8.0-107-generic x86_64 |
 | **GPU** | NVIDIA RTX 4070 (12GB VRAM), CUDA 13.0, Driver 580.126.20 |
 | **RAM** | 62GB total, ~57GB available |
@@ -43,7 +43,7 @@ type: note
 All configs tested with `--flash-attn off`, model fully loaded (IQ2_M 9.3GB).
 
 | Config | Context | `-ngl` | Layers on GPU/CPU | VRAM Used | Prompt Speed | Gen Speed | Max Tested Prompt |
-|--------|---------|--------|-------------------|-----------|-------------|-----------|-------------------|
+| -------- | --------- | -------- | ------------------- | ----------- | ------------- | ----------- | ------------------- |
 | **Full GPU** | 4,096 | 99 | 31/0 | 11.3GB | 127 tok/s | **92 tok/s** | 27 tokens |
 | **Full GPU** | 8,192 | 99 | 31/0 | 11.5GB | 1,718 tok/s | **92 tok/s** | 5,906 tokens |
 | **Hybrid** | 16,384 | 26 | 26/5 | 10.2GB | 1,286 tok/s | **32 tok/s** | 13,436 tokens |
@@ -82,7 +82,7 @@ All configs tested with `--flash-attn off`, model fully loaded (IQ2_M 9.3GB).
 ### Recommendations
 
 | Priority | Action |
-|----------|--------|
+| ---------- | -------- |
 | **Use now** | 8K/ngl 99 if you need speed (92 tok/s), 32K/ngl 20 if you need long context (15 tok/s) |
 | **Quality** | Consider the IQ3_S quant (11GB) with 4K context + ngl 99 — better quality, still fits in VRAM |
 | **Watch upstream** | Monitor llama.cpp PRs for gemma4 FA fixes — re-enabling FA would save ~200-400MB on V-cache padding, potentially allowing 16K at full GPU speed |

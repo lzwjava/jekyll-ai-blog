@@ -91,7 +91,7 @@ source ~/.zshrc
 ### Quick Summary
 
 | Step | Command |
-|---|---|
+| --- | --- |
 | Remove Homebrew version | `brew uninstall claude` |
 | Install npm version | `npm install -g @anthropic-ai/claude-code@2.1.77` |
 | Verify | `which claude && claude --version` |

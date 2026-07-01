@@ -14,7 +14,7 @@ type: note
 **Answer:**## Specs: MI300X vs H200
 
 | Metric | AMD MI300X | NVIDIA H200 | Winner |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Architecture | CDNA 3 | Hopper | — |
 | VRAM | **192 GB HBM3** | 141 GB HBM3e | **AMD** |
 | Memory BW | **5.3 TB/s** | 4.8 TB/s | **AMD** |
@@ -75,7 +75,7 @@ ROCm is also improving fast. On Llama-2 70B LoRA FP8, MI355X slashed training ti
 ## Decision Matrix for You
 
 | Use Case | Pick |
-|---|---|
+| --- | --- |
 | LoRA fine-tuning (HF stack) | MI300X ✅ (works, cheaper) |
 | nanoGPT-scale training | MI300X ✅ (PyTorch ROCm is fine) |
 | Custom CUDA kernels | H200 (don't touch ROCm) |

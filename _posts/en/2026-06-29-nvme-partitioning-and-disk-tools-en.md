@@ -48,7 +48,7 @@ A partition is just a contiguous byte range recorded in a partition table (GPT o
 A typical Fedora UEFI layout:
 
 | Partition | Size | FS | Mount | Purpose |
-|-----------|------|-----|-------|---------|
+| ----------- | ------ | ----- | ------- | --------- |
 | p1 | ~600M | FAT32 | `/boot/efi` | EFI System Partition (bootloader) |
 | p2 | ~1G | ext4 | `/boot` | kernel + initramfs |
 | p3 | rest | btrfs | `/` | root (Fedora default is btrfs) |

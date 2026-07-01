@@ -28,7 +28,7 @@ Flash Attention 3 针对 Hopper GPU（H100/H800）进行了优化，需要 CUDA 
 ## 你实际拥有的硬件
 
 | GPU | 架构 | Flash 支持 | 状态 |
-|-----|--------------|---------------|--------|
+| ----- | -------------- | --------------- | -------- |
 | M2 MacBook | Apple Silicon | 无（MPS SDPA） | 仅 CPU/回退 |
 | RTX 4070 | Ada（SM89） | **Flash Attention 2** | 完全支持 ✓ |
 | MI300X | RDNA3 | **Flash Attention 2** | 通过 ROCm composable_kernel ✓ |

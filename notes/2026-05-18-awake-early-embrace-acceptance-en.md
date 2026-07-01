@@ -71,7 +71,7 @@ These two components are conceptualized as producing a vicious cycle which exace
 ## Practical Summary for Your Sleep Situation
 
 | Fighting the symptom (bad) | Morita acceptance (good) |
-|---|---|
+| --- | --- |
 | Lying in bed forcing sleep | Getting up, doing something purposeful |
 | "I only slept 3 hours, I'm ruined" | "I woke up early, that's okay" |
 | Obsessively checking the clock | Letting time pass naturally |

@@ -65,7 +65,7 @@ print(f'{tot/1e6:.1f}M 条辅助 token')"
 ## 第二步 —— 选择模型和机器
 
 | 配置 | 模型 | 方法 | 原因 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | RTX 4070 (12GB) | Qwen3-4B / Llama-3.1-8B | QLoRA 4-bit | 使用 Unsloth 可适配 12GB 显存；免费迭代 |
 | MI300X ($2/小时) | Qwen3-32B 或 Llama-3.3-70B | LoRA 16-bit | 192GB HBM3 允许你在一块 GPU 上对 70B 模型做 LoRA |
 

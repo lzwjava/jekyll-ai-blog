@@ -61,7 +61,7 @@ Download and run `aravhawk/qwen3.5-opus-4.6:9b` locally on this server (RTX 4070
 ### Current State
 
 | Component | Status |
-|-----------|--------|
+| ----------- | -------- |
 | Model file | ✅ Downloaded (5.23 GB GGUF) |
 | llama.cpp | ✅ Updated & rebuilt (latest master) |
 | llama-server | ⏸️ Killed before driver upgrade |

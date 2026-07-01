@@ -73,7 +73,7 @@ A diffusion model trained on irrelevant or poor-quality data can hinder rather t
 ## Summary
 
 | Your Claim | Verdict |
-|---|---|
+| --- | --- |
 | Diffusion models optimize image plausibility | ✅ Correct — they learn `p(image)` or `p(image \| condition)` |
 | Conditional distributions are one-to-many | ✅ Correct — same prompt → many valid images |
 | Landing on the visual manifold → looks good | ✅ Correct in the perceptual sense |

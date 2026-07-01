@@ -45,7 +45,7 @@ The sparse attention mechanism delivers substantial efficiency improvements:
 Despite the dramatic efficiency gains, DSA maintains virtually identical output quality compared to full attention models [5]. Benchmark results show that DeepSeek-V3.2-Exp performs on par with V3.1-Terminus across multiple domains:
 
 | Benchmark | V3.1-Terminus | V3.2-Exp |
-|-----------|---------------|----------|
+| ----------- | --------------- | ---------- |
 | MMLU-Pro | 85.0 | 85.0 |
 | GPQA-Diamond | 80.7 | 79.9 |
 | SimpleQA | 96.8 | 97.1 |

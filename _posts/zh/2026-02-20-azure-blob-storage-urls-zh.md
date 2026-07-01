@@ -29,7 +29,7 @@ https://mistralaichatupprodswe.blob.core.windows.net/chat-images/assistant/be/75
 问号 `?` 后的查询字符串是 **Shared Access Signature (SAS) 令牌**，提供对 blob 的安全、限时访问权限。以下是各参数的含义：
 
 | 参数 | 值 | 用途 |
-|------|----|------|
+| ------ | ---- | ------ |
 | `sv` | `2025-01-05` | SAS 版本（生成令牌时使用的 API 版本） |
 | `st` | `2026-02-19T18:46:54Z` | SAS 令牌生效的起始时间（UTC） |
 | `se` | `2026-02-19T19:46:54Z` | SAS 令牌失效的到期时间（UTC） |

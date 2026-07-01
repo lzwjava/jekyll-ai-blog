@@ -57,7 +57,7 @@ Cooking is essentially a **real-time planning + execution pipeline** — exactly
 This is the elegant part. Garden work survives because it's:
 
 | Property | Garden | Cooking |
-|----------|--------|---------|
+| ---------- | -------- | --------- |
 | Temporal pressure | Low | High |
 | Task parallelism | Near-zero | High |
 | Working memory load | Low | High |

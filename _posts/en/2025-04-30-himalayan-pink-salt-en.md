@@ -70,7 +70,7 @@ These minerals are present in **very small quantities**, so while they contribut
 ## ✅ Potential Benefits
 
 | Benefit | Description |
-|--------|-------------|
+| -------- | ------------- |
 | **Natural & Unprocessed** | Free from additives like anti-caking agents found in regular table salt. |
 | **Mineral Content** | Contains trace minerals that may support bodily functions (though in very small amounts). |
 | **Aesthetic Appeal** | Adds natural beauty to food presentation and home décor. |
@@ -97,7 +97,7 @@ These minerals are present in **very small quantities**, so while they contribut
 ## 🧪 Comparison: Himalayan Salt vs. Table Salt
 
 | Feature | Himalayan Pink Salt | Regular Table Salt |
-|--------|---------------------|--------------------|
+| -------- | --------------------- | -------------------- |
 | Source | Evaporated sea salt | Mined or evaporated |
 | Additives | Usually none | Often includes anti-caking agents |
 | Minerals | Up to 84 trace minerals | Mostly sodium chloride |
@@ -161,7 +161,7 @@ Some proponents say the lamps emit **negative ions**, which are believed to neut
 ## 🚫 Myths vs Facts
 
 | Myth | Fact |
-|------|------|
+| ------ | ------ |
 | Salt lamps remove dust, pollen, and toxins from the air | No proven ability to remove contaminants in meaningful amounts |
 | Salt lamps kill bacteria or viruses | No scientific evidence supports this claim |
 | Salt lamps reduce electromagnetic radiation | No studies verify this effect |

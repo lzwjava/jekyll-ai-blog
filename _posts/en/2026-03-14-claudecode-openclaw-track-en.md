@@ -71,7 +71,7 @@ claude-code-skill session-send myproject "status update" --stream
 ### 📋 What to Look For When Monitoring
 
 | Signal | Meaning |
-|--------|---------|
+| -------- | --------- |
 | Tool calls increasing | It's actively working |
 | Same tool repeating | May be stuck in a loop |
 | No activity for 5+ min | May need a nudge or hit an error |

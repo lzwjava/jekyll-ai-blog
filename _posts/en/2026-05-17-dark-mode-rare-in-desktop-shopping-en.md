@@ -30,7 +30,7 @@ Shopify's platform blends a professional dark interface with clean layouts that 
 ## ❌ Major E-commerce Sites With NO Native Dark Mode on Desktop Website
 
 | Website | Status |
-|---|---|
+| --- | --- |
 | **Amazon** | No native dark mode on its primary website. Amazon hasn't officially implemented a built-in dark mode toggle for its main shopping site. |
 | **Walmart** | No official dark mode on the desktop website. |
 | **eBay** | No dark mode for the PC/desktop version; users rely on third-party browser extensions like Dark Reader. |

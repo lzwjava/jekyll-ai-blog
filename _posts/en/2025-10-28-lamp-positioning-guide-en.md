@@ -47,7 +47,7 @@ Position the lamp base securely in the rear seat (e.g., clipped to the headrest 
 ### Quick Setup Steps
 
 | Step | Action | Pro Tip |
-|------|--------|---------|
+| ------ | -------- | --------- |
 | 1. Mount | Clip base to rear headrest, facing front. Extend arm fully (30 cm). | Use a soft clamp to avoid seat damage. |
 | 2. Test Glare | Sit normally, open laptop, and shine light—adjust if you see reflections. | Dim the lamp to 50% if glare persists (most have sliders). |
 | 3. Brighten Car | Scan the interior: Rotate in 15-degree increments until no dark corners. | Add a white reflector (e.g., paper) on the ceiling for extra bounce. |

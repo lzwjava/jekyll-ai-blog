@@ -79,7 +79,7 @@ In all cases, the core idea is the same: **guardrails define the boundaries of a
 ## Summary
 
 | Context | Meaning |
-|---|---|
+| --- | --- |
 | Physical | Barriers on roads to prevent vehicles from falling off |
 | AI / Technology | Policies, filters, and controls that keep AI safe and ethical |
 | General / Business | Rules and frameworks that limit risky or harmful behavior |

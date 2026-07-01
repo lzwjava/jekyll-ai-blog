@@ -118,7 +118,7 @@ constructor(private ref: ChangeDetectorRef) {
 ## `markForCheck()` 与 `detectChanges()` — 关键区别
 
 | 方法 | 是否立即触发变更检测？ | 作用范围 |
-|---|---|---|
+| --- | --- | --- |
 | `markForCheck()` | ❌ 否 — 调度到下一个周期 | 将组件 + 所有祖先标记为脏 |
 | `detectChanges()` | ✅ 是 — 同步运行 | 当前组件 + 子组件のみ |
 

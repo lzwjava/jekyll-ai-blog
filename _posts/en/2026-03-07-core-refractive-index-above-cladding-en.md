@@ -26,7 +26,7 @@ The refractive index of the **core** is **greater than** the refractive index of
 An optical fiber has two main layers:
 
 | Layer | Role | Refractive Index |
-|-------|------|-----------------|
+| ------- | ------ | ----------------- |
 | **Core (纤芯)** | Carries/guides the light signal | **Higher (n₁)** |
 | **Cladding (包层)** | Confines light within the core | **Lower (n₂)** |
 

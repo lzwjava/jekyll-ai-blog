@@ -60,7 +60,7 @@ Graham compares hackers and painters as both being "makers" — people trying to
 Your instinct is sound. There is a fundamental difference between:
 
 | Graham's Dominant Frame | What You're Pointing To |
-|---|---|
+| --- | --- |
 | Build fast, compress effort, exit rich | Build slowly, grow as a person, lead by example |
 | Startup as wealth vehicle | Startup as expression of values |
 | Financial freedom as the goal | Wisdom, contribution, character as the goal |

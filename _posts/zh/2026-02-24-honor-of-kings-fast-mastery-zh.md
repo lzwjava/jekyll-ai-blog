@@ -42,12 +42,12 @@ type: note
 
 | Class | Primary Role | Description | Typical Lane |
 | :--- | :--- | :--- | :--- |
-| **Assassin** | Burst Damage | 高机动性英雄，擅长突入后排并消灭 squishy 目标。  | Jungle |
-| **Fighter** | Frontline/Bruiser | 攻防平衡。擅长持久战斗并扰乱敌队。  | Clash Lane |
-| **Mage** | Magic Damage/Control | 远程施法者，从远处提供高爆发伤害和 crowd control（stuns、slows）。  | Mid Lane |
-| **Marksman** | Physical Damage | 后期主要伤害输出。他们早期脆弱，但装备齐全后势不可挡。  | Farm Lane |
-| **Support** | Protection/Utility | 专注于保护队友。提供 heals、shields 和 crowd control 来制造击杀。  | Farm Lane |
-| **Tank** | Damage Absorption | 高生命值和防御的英雄。职责是发起战斗并为队伍吸收伤害。  | Clash Lane |
+| **Assassin** | Burst Damage | 高机动性英雄，擅长突入后排并消灭 squishy 目标。 | Jungle |
+| **Fighter** | Frontline/Bruiser | 攻防平衡。擅长持久战斗并扰乱敌队。 | Clash Lane |
+| **Mage** | Magic Damage/Control | 远程施法者，从远处提供高爆发伤害和 crowd control（stuns、slows）。 | Mid Lane |
+| **Marksman** | Physical Damage | 后期主要伤害输出。他们早期脆弱，但装备齐全后势不可挡。 | Farm Lane |
+| **Support** | Protection/Utility | 专注于保护队友。提供 heals、shields 和 crowd control 来制造击杀。 | Farm Lane |
+| **Tank** | Damage Absorption | 高生命值和防御的英雄。职责是发起战斗并为队伍吸收伤害。 | Clash Lane |
 
 对于新手，**Mid Lane** 或 **Farm Lane** 的英雄通常被推荐，因为它们的角色更容易掌握。
 

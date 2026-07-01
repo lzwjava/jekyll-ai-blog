@@ -33,7 +33,7 @@ Amazon does not offer an official native dark mode on its desktop website. Users
 ## ❌ Platforms Without an Official Native Dark Mode
 
 | Platform | Status |
-|---|---|
+| --- | --- |
 | **Amazon (website)** | No native dark mode; browser extensions needed |
 | **Walmart** | No official dark mode on website or app |
 | **eBay** | No native dark mode for the desktop/PC version; users rely on third-party browser extensions like Dark Reader |

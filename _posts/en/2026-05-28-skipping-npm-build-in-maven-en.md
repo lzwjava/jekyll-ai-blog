@@ -100,7 +100,7 @@ grep -r "exec-maven-plugin\|frontend-maven-plugin" pom.xml */pom.xml
 That tells you which plugin to target. Then:
 
 | Plugin | Skip flag |
-|---|---|
+| --- | --- |
 | `frontend-maven-plugin` | `-DskipFrontend=true` (or whatever `<skip>${...}</skip>` is bound to) |
 | `exec-maven-plugin` | `-Dexec.skip=true` |
 | Custom property | `-DskipNpmBuild=true` |

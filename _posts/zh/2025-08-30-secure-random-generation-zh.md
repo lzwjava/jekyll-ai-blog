@@ -25,7 +25,7 @@ import secrets
 以下是 `secrets` 模块的主要函数，附带简要说明和示例。这些函数生成的随机值具有高度不可预测性。
 
 | 函数 | 用途 | 使用示例 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | `secrets.token_bytes(n)` | 生成 `n` 个随机字节。适用于创建二进制密钥。 | `key = secrets.token_bytes(16)`  # 16个随机字节 |
 | `secrets.token_hex(n)` | 生成 `n` 个随机字节并返回十六进制字符串（由于十六进制编码，字符串长度为 `n` 的两倍）。适用于十六进制令牌。 | `hex_key = secrets.token_hex(16)`  # 32字符十六进制字符串 |
 | `secrets.token_urlsafe(n)` | 生成 `n` 个随机字节，进行 base64 编码后适用于 URL 安全场景（例如网络令牌）。 | `url_token = secrets.token_urlsafe(32)`  # 约43字符字符串 |

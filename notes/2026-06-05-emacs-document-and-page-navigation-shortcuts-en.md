@@ -16,8 +16,8 @@ type: note
 Core navigation shortcuts:
 
 | Action | Shortcut | Notes |
-|--------|----------|-------|
-| End of document | `M->`  | Meta+Shift+. (Alt+Shift+>) |
+| -------- | ---------- | ------- |
+| End of document | `M->` | Meta+Shift+. (Alt+Shift+>) |
 | Beginning of document | `M-<` | Meta+Shift+, (Alt+Shift+<) |
 | Next page | `C-v` | Ctrl+V, scrolls down |
 | Previous page | `M-v` | Meta+V, scrolls up |

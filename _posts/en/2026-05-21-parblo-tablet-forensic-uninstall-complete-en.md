@@ -16,7 +16,7 @@ Done. Full forensic sweep — **zero traces of Parblo remain on this system**.
 **Comprehensive Uninstall Report**
 
 | Scan location | Status |
-|---|---|
+| --- | --- |
 | `/Applications/ParbloTablet` (app bundle + driver) | Removed |
 | `/Library/LaunchAgents/com.parblo.Tablet.plist` | Removed |
 | `~/Library/LaunchAgents/` | Clean |

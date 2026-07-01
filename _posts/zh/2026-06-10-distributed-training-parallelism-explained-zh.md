@@ -130,7 +130,7 @@ torchrun --standalone --nproc_per_node=8 -m scripts.base_train \
 ### 决策表
 
 | 配置 | MFU | 墙钟时间 | 成本 @ ~$2/h/GPU |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1× MI300X, SDPA (当前) | 27% | ~62 h | ~$124 |
 | 1× + ROCm flash-attn, SSSL | ~45–50% | ~33 h | ~$66 |
 | 8× MI300X, SDPA | 27% | ~10 h | ~$160 |

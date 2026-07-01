@@ -368,7 +368,7 @@ git clone https://github.com/VerticalResearchGroup/miaow
 ## Key Mental Models to Lock In
 
 | Concept | What it maps to in software |
-|---|---|
+| --- | --- |
 | `wire` | A live value, like a return value always being computed |
 | `reg` | A variable that only updates on clock edge |
 | `always @(*)` | A pure function, recomputed when inputs change |

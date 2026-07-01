@@ -24,7 +24,7 @@ Yes, absolutely. The GPT-2 architecture in nanoGPT is fully configurable — you
 The four standard configs in nanoGPT's `model.py` are:
 
 | Model | n_layer | n_head | n_embd | Params |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | gpt2 | 12 | 12 | 768 | 124M |
 | gpt2-medium | 24 | 16 | 1024 | 350M |
 | gpt2-large | 36 | 20 | 1280 | 774M |
@@ -77,7 +77,7 @@ You can use nanoGPT's own `transformer_sizing.ipynb` notebook to get exact param
 A rough rule for training in bfloat16:
 
 | Component | Memory |
-|---|---|
+| --- | --- |
 | Model weights | ~2 bytes × params |
 | Gradients | ~2 bytes × params |
 | AdamW optimizer states | ~8 bytes × params |
@@ -118,7 +118,7 @@ compile = True  # torch.compile gives ~20–30% speedup on Ada
 ## Training Time Estimate
 
 | Model | 4070 (12 GB) solo | Expected val loss |
-|---|---|---|
+| --- | --- | --- |
 | 124M (small) | ~1–2 weeks | ~3.0–3.1 |
 | **~200M (custom)** | **~3–5 weeks** | **~2.92–3.0** |
 | 350M (medium) | 1–3 months (aggressive tricks) | ~2.85–2.95 |

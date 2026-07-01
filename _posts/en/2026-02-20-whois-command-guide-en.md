@@ -43,7 +43,7 @@ whois [options] <domain_or_IP>
 ### Common Options
 
 | Option | Description |
-|--------|-------------|
+| -------- | ------------- |
 | `-h <server>` | Query a specific WHOIS server (e.g., `-h whois.verisign-grs.com`). |
 | `-v` | Verbose output (shows more details). |
 | `-H` | Hide legal disclaimers. |

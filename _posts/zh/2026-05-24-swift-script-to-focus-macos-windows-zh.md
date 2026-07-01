@@ -55,7 +55,7 @@ import CoreGraphics
 **磁盘上的文件：**
 
 | 文件 | 用途 |
-|------|---------|
+| ------ | --------- |
 | `/tmp/focus_window.swift` | 源代码——列出窗口边界、激活应用、点击中心 |
 | `/tmp/focus_window` | 编译后的二进制文件（macOS arm64） |
 | `/tmp/raise_window.swift` | 更简单的变体——仅激活应用，无点击 |

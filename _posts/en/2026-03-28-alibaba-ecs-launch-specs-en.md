@@ -20,7 +20,7 @@ Here is a full breakdown of your Alibaba Cloud ECS launch template configuration
 ## Instance Overview
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | **Billing** | Pay-As-You-Go (按量付费) |
 | **Region** | China South 1 (Shenzhen) |
 | **Availability Zone** | Auto-assigned |
@@ -46,7 +46,7 @@ The instance belongs to the **gn7t** family. Based on the naming convention (`gn
 ## Network
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | **Network Type** | VPC (Virtual Private Cloud) |
 | **VPC** | Default VPC |
 | **Subnet (Switch)** | Default Switch |
@@ -58,7 +58,7 @@ The instance belongs to the **gn7t** family. Based on the naming convention (`gn
 ## Storage
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | **System Disk** | ESSD Cloud Disk, 40 GiB |
 | **Disk Performance Level** | PL0 (up to 10,000 IOPS) |
 | **Release with Instance** | Yes |
@@ -74,7 +74,7 @@ The instance belongs to the **gn7t** family. Based on the naming convention (`gn
 ## OS & Security
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | **Image** | Ubuntu 24.04 64-bit (Security Hardened) |
 | **Login Credential** | Key Pair (not yet selected) |
 | **Instance Release Protection** | Disabled |

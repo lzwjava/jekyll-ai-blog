@@ -151,7 +151,7 @@ for owner, repo in repos:
 针对“2025 年 12 月什么热门”的使用场景：
 
 | 信号 | 来源 | 含义 |
-|---|---|---|
+| --- | --- | --- |
 | HN 提及 | `hn.algolia.com/api/v1/search?query=repo&dateRange=custom` | 开发者心智份额激增 |
 | Reddit 提及 | Pushshift / Reddit API | 社区热度 |
 | Twitter/X 速度 | 搜索 `github.com/owner/repo` + 日期筛选 | 病毒式传播时刻 |

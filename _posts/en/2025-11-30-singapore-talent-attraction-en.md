@@ -55,7 +55,7 @@ Singapore's approach balances foreign talent influx with local upskilling via in
 - **Talent and Leaders in Finance Programme**: S$400M fund (2021-2025) for upskilling in fintech; attracts mainland pros via MAS partnerships.
 
 | Program | Target Audience | Duration/Renewal | Min. Salary/Investment | Key Edge vs. Hong Kong TTPS |
-|---------|-----------------|------------------|------------------------|-----------------------------|
+| --------- | ----------------- | ------------------ | ------------------------ | ----------------------------- |
 | **ONE Pass** | C-suite/high-earners | 5 years/renewable | S$30,000/month | Multi-employer flex; no job offer needed (vs. TTPS's 2-year tie) |
 | **Tech.Pass** | Tech leaders/entrepreneurs | 2 years/up to 5 | Track record (no salary floor) | Ecosystem roles (invest/mentor); 500 slots vs. TTPS's open flood |
 | **Employment Pass** | Skilled pros | 1-2 years/renewable | S$5,000/month | COMPASS points for fairness; lower rejections than HK mismatches |

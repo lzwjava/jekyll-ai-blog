@@ -18,7 +18,7 @@ type: note
 ## The Hierarchy (bottom to top)
 
 | Level | Chinese | English Equivalent |
-|-------|---------|-------------------|
+| ------- | --------- | ------------------- |
 | 科级 | 科级干部 | Section level |
 | 县处级 | 处级干部 | Division/County level |
 | 厅局级 | 局级干部 | Bureau/Department level |

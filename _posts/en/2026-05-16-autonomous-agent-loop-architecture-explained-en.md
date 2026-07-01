@@ -460,7 +460,7 @@ if __name__ == "__main__":
 The basic loop above is ~200 lines. Copilot Agent adds:
 
 | Layer | What it does | Why it matters |
-|-------|--------------|----------------|
+| ------- | -------------- | ---------------- |
 | **Subagent spawning** | Breaks task into subtasks, runs them in parallel | Speed — multiple files edited simultaneously |
 | **Context management** | Sliding window + summarization of old turns | Fits long tasks into context limits |
 | **Plan-then-execute** | First LLM call generates a plan, subsequent calls execute steps | Better task decomposition |

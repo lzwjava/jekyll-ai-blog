@@ -47,7 +47,7 @@ You must first confirm you qualify:
 When declaring via the **个人所得税 (IIT) mobile app** or through your employer, you must input the following information:
 
 | Field | Details Required |
-|---|---|
+| --- | --- |
 | **Taxpayer identity** | Full name, ID number (居民身份证) |
 | **Spouse identity** | Full name, ID number (if married) |
 | **Property address** | Full address of the mortgaged property in China |
@@ -97,7 +97,7 @@ During the annual IIT reconciliation period, a taxpayer may deduct or make suppl
 ### Summary Checklist
 
 | What to Do | Status |
-|---|---|
+| --- | --- |
 | Confirm loan qualifies (first home, bank/HPF, China property) | ✅ Verify eligibility |
 | Decide who claims (self or spouse, 100% or 50/50) | ✅ Agree before filing |
 | Declare via IIT App / employer | ✅ Fill in all required fields |

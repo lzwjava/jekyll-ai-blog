@@ -94,7 +94,7 @@ Enterprises can connect office networks directly to cloud private networks via *
 ## Key Takeaway
 
 | Scenario | NAT Location | Who does NAT |
-|----------|-------------|--------------|
+| ---------- | ------------- | -------------- |
 | Home network | Home router | Router with ISP-assigned public IP |
 | Cloud VM → Internet | Cloud NAT Gateway | AWS/GCP managed service |
 | Home → Cloud (VPN) | Both home router AND cloud gateway | Double NAT |

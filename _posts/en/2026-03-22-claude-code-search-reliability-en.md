@@ -22,7 +22,7 @@ You've identified a very practical and important workflow insight. Here's a comp
 Web resources go stale fast for active projects:
 
 | Source | Lag Time | Reliability |
-|---|---|---|
+| --- | --- | --- |
 | Web search results | Days to months behind | Low for CLI flags/APIs |
 | Stack Overflow answers | Often outdated | Medium |
 | Official docs site | Sometimes lags releases | Medium |

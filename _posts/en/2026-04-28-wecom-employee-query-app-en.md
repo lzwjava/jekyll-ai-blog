@@ -171,7 +171,7 @@ Other options include:
 ## Summary Comparison
 
 | Method | Technical Skill Needed | Setup Time | Flexibility |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | WeCom AI Bot (Built-in) | None | Minutes | Medium |
 | Custom API Webhook | Developer required | Days | Full |
 | Third-Party Platform | Low | Hours | Medium–High |

@@ -16,7 +16,7 @@ type: note
 The FSM handles **search control** (expanding nodes, scoring, pruning) but knows nothing about physics. `skills.py` fills that gap:
 
 | FSM does | skills.py does |
-|---|---|
+| --- | --- |
 | State transitions, tree search | Physics computations (Maxwell, Lagrangian, QM, etc.) |
 | Decides which branch to explore | `tot_hard_rule_check` — vetoes physically invalid nodes |
 | Manages reasoning stages | `tot_stage_prompt_contract` — injects stage-specific prompt constraints |

@@ -28,7 +28,7 @@ Here’s why the difference is normally not important:
 Typical real-world differences people actually notice:
 
 | Aspect | Rust-biased model | TypeScript-biased model | Real user impact? |
-|-------------------------------|--------------------------------------------|---------------------------------------------|-------------------|
+| ------------------------------- | -------------------------------------------- | --------------------------------------------- | ------------------- |
 | Syntax correctness | Slightly fewer lifetime / borrow mistakes | Slightly fewer `any` / type inference issues | Low–medium |
 | Preference for patterns | More likely to suggest Result, iterators, cargo features | More likely to suggest zod, tRPC, React hooks style | Medium |
 | Verbosity / ceremony | Tends toward more explicit error handling | Tends toward more concise / inference-heavy code | Low |

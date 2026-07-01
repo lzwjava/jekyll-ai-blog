@@ -19,7 +19,7 @@ The AWS outage on October 20, 2025, was a significant disruption originating in 
 The outage unfolded in phases, starting with detection and escalating to cascading failures before a staggered recovery. Key milestones (all times in PDT):
 
 | Time | Event |
-|------|-------|
+| ------ | ------- |
 | 11:49 PM (Oct 19) | Increased error rates and latencies detected across multiple AWS services in us-east-1. |
 | 12:11 AM (Oct 20) | AWS publicly reports elevated error rates; initial user reports spike on monitoring sites like DownDetector. |
 | 12:26 AM | Issue pinpointed to DNS resolution failures for DynamoDB API endpoints in us-east-1. |

@@ -16,7 +16,7 @@ type: note
 **现有配置：**
 
 | Config | Params | Architecture | Designed for |
-|--------|--------|-------------|-------------|
+| -------- | -------- | ------------- | ------------- |
 | train_gpt2.py | 124M | 12L/768d/12h | 8×A100, 300B tokens |
 | train_gpt2_200m.py | 219M | 18L/896d/16h | RTX 4070 12GB, 4B tokens |
 | train_fineweb.py | 124M | 12L/768d/12h | 12GB VRAM |
@@ -42,7 +42,7 @@ Chinchilla 论文（Hoffmann 等人，2022）指出，最优训练 token 数 ≈
 每个参数：2（bf16 参数）+ 4（fp32 主参数）+ 4（m）+ 4（v）+ 2（梯度）≈ 16 字节
 
 | Model | Params | Train mem | + Activations | Total | Fits 192GB? |
-|-------|--------|-----------|---------------|-------|-------------|
+| ------- | -------- | ----------- | --------------- | ------- | ------------- |
 | 760M | 760M | 12 GB | ~10 GB | ~22 GB | ✅ easily |
 | 1.5B | 1.5B | 24 GB | ~20 GB | ~44 GB | ✅ easily |
 | 3B | 3B | 48 GB | ~40 GB | ~88 GB | ✅ yes |

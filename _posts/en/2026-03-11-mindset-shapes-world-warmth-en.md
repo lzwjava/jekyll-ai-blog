@@ -76,7 +76,7 @@ Some people that are self-centered need to be encouraged to be other-centered, a
 ## Summary Table
 
 | Dimension | Self-Centric Person | Other-Focused Person |
-|---|---|---|
+| --- | --- | --- |
 | Experience of the world | Cold, competitive, unfair | Cooperative, full of goodwill |
 | Type of happiness | Fluctuating, unstable | Durable, authentic |
 | Emotions | Anger, jealousy, frustration | Harmony, gratitude, warmth |

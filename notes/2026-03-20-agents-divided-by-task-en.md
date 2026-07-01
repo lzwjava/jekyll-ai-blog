@@ -26,7 +26,7 @@ That is exactly the kind of **legacy thinking** this project should discard.
 ## 🧠 Why Humans Created That Division
 
 | Reason | Reality |
-|---|---|
+| --- | --- |
 | Humans specialize because learning takes years | Agents can context-switch instantly |
 | Testers and devs have different mindsets | An agent can hold both mindsets simultaneously |
 | Separation prevents conflicts of interest | Agents have no ego or politics |
@@ -84,7 +84,7 @@ Task → Agent → Done
 ## 🏆 The Right Division Is Not By Role — It's By Task
 
 | Wrong Division | Right Division |
-|---|---|
+| --- | --- |
 | Dev Agent vs Test Agent | Task A vs Task B vs Task C |
 | Frontend Agent vs Backend Agent | Feature 1 vs Feature 2 |
 | QA Agent vs Build Agent | PR #1 vs PR #2 |

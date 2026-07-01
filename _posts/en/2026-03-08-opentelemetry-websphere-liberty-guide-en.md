@@ -163,7 +163,7 @@ otel.exporter.otlp.protocol=grpc
 ## Summary Table
 
 | Feature | MicroProfile Telemetry | Java Agent |
-|---|---|---|
+| --- | --- | --- |
 | Auto-trace JAX-RS | ✅ | ✅ |
 | Auto-trace other libs | ❌ | ✅ |
 | Per-app config | ✅ | ❌ |

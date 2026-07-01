@@ -95,7 +95,7 @@ Common mistakes include trusting the model's confidence, not fact-checking impor
 ## Quick Reference: What a Good Prompt Should Include
 
 | Element | Example |
-|---|---|
+| --- | --- |
 | **Role/Context** | "You are a senior Python developer..." |
 | **Task** | "...refactor this function to be async..." |
 | **Constraints** | "...without changing the existing API signature..." |

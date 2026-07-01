@@ -14,26 +14,26 @@ type: note
 
 ### **银行交易表的关键字段**
 
-| **字段名称**               | **数据类型**      | **描述** |
-|--------------------------|------------------|----------|
-| **Transaction_ID**       | `VARCHAR` / `BIGINT` | 每笔交易的唯一标识符 |
-| **Account_Number**       | `VARCHAR` / `BIGINT` | 交易关联的客户银行账号 |
-| **Transaction_Type**     | `VARCHAR` | 交易类型（如：存款、取款、转账、支付） |
-| **Transaction_Amount**   | `DECIMAL(15,2)` | 交易金额 |
-| **Currency_Code**        | `VARCHAR(3)` | 交易币种（如：USD、EUR、INR） |
-| **Transaction_Date**     | `DATETIME` | 交易发生的时间戳 |
-| **Value_Date**           | `DATETIME` | 交易结算或处理日期 |
-| **Debit_Credit_Flag**    | `CHAR(1)` | 交易类型标识：**借记('D')** 或 **贷记('C')** |
+| **字段名称** | **数据类型** | **描述** |
+| -------------------------- | ------------------ | ---------- |
+| **Transaction_ID** | `VARCHAR` / `BIGINT` | 每笔交易的唯一标识符 |
+| **Account_Number** | `VARCHAR` / `BIGINT` | 交易关联的客户银行账号 |
+| **Transaction_Type** | `VARCHAR` | 交易类型（如：存款、取款、转账、支付） |
+| **Transaction_Amount** | `DECIMAL(15,2)` | 交易金额 |
+| **Currency_Code** | `VARCHAR(3)` | 交易币种（如：USD、EUR、INR） |
+| **Transaction_Date** | `DATETIME` | 交易发生的时间戳 |
+| **Value_Date** | `DATETIME` | 交易结算或处理日期 |
+| **Debit_Credit_Flag** | `CHAR(1)` | 交易类型标识：**借记('D')** 或 **贷记('C')** |
 | **Counterparty_Account** | `VARCHAR` | 对手方账号（如适用） |
-| **Transaction_Mode**     | `VARCHAR` | 支付方式（SWIFT、RTGS、NEFT、ACH、UPI、卡、钱包等） |
-| **Transaction_Status**   | `VARCHAR` | 交易状态（处理中、成功、失败、已冲正） |
-| **Reference_Number**     | `VARCHAR` | 外部系统唯一标识（如SWIFT参考号、UTR、UPI交易ID） |
+| **Transaction_Mode** | `VARCHAR` | 支付方式（SWIFT、RTGS、NEFT、ACH、UPI、卡、钱包等） |
+| **Transaction_Status** | `VARCHAR` | 交易状态（处理中、成功、失败、已冲正） |
+| **Reference_Number** | `VARCHAR` | 外部系统唯一标识（如SWIFT参考号、UTR、UPI交易ID） |
 | **Transaction_Description** | `TEXT` | 交易附加信息（如“电费账单支付”、“工资入账”） |
-| **Branch_Code**          | `VARCHAR(10)` | 处理交易的银行网点代码 |
-| **Transaction_Fee**      | `DECIMAL(10,2)` | 交易手续费 |
-| **Exchange_Rate**        | `DECIMAL(10,6)` | 涉及货币兑换时应用的汇率 |
-| **Initiating_Channel**   | `VARCHAR` | 交易发起渠道（ATM、手机银行、网上银行、POS、柜面） |
-| **Fraud_Check_Status**   | `VARCHAR` | 欺诈检测状态（如：通过、标记、审核中） |
+| **Branch_Code** | `VARCHAR(10)` | 处理交易的银行网点代码 |
+| **Transaction_Fee** | `DECIMAL(10,2)` | 交易手续费 |
+| **Exchange_Rate** | `DECIMAL(10,6)` | 涉及货币兑换时应用的汇率 |
+| **Initiating_Channel** | `VARCHAR` | 交易发起渠道（ATM、手机银行、网上银行、POS、柜面） |
+| **Fraud_Check_Status** | `VARCHAR` | 欺诈检测状态（如：通过、标记、审核中） |
 | **Reversal_Transaction_ID** | `VARCHAR` | 若发生冲正，关联原始交易ID |
 
 ---

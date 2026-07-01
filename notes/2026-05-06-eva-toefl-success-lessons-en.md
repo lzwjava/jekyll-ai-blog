@@ -76,7 +76,7 @@ Eva's parents expected her to struggle mentally — but she thrived. The key was
 ### Summary Table
 
 | Lesson | Action |
-|---|---|
+| --- | --- |
 | Start early | Plan 3–4 months minimum |
 | Choose well | Research institutions carefully |
 | Know your weaknesses | Diagnose all 4 skills before starting |

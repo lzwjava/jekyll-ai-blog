@@ -18,7 +18,7 @@ type: note
 ## 第一梯队 — 全功能聚合器（多供应商路由）
 
 | 服务 | 模型数量 | 主要特点 |
-|---|---|---|
+| --- | --- | --- |
 | [OpenRouter](https://openrouter.ai) | 300+ | 覆盖最广，支持回退路由，使用分析 |
 | [Together AI](https://together.ai) | 100+ | 擅长开源模型，推理速度快，支持微调 |
 | [Fireworks AI](https://fireworks.ai) | 50+ | 推理速度快，支持函数调用和 JSON 模式 |
@@ -29,7 +29,7 @@ type: note
 ## 第二梯队 — 专注于特定方向的路由器
 
 | 服务 | 专长 |
-|---|---|
+| --- | --- |
 | [Hugging Face Inference API](https://huggingface.co/inference-api) | 任意 Hugging Face 模型，无服务器部署 |
 | [Novita AI](https://novita.ai) | 价格低廉的开源模型 |
 | [DeepInfra](https://deepinfra.com) | 开源模型定价有竞争力 |
@@ -39,7 +39,7 @@ type: note
 ## 第三梯队 — 企业级/自托管路由器
 
 | 服务 | 适用场景 |
-|---|---|
+| --- | --- |
 | [LiteLLM](https://github.com/BerriAI/litellm) | 自托管代理，支持 100+ 供应商，兼容 OpenAI |
 | [PortKey](https://portkey.ai) | 可观测性 + 路由 + 安全护栏 |
 | [Helicone](https://helicone.ai) | 代理功能，含日志记录、速率限制、缓存 |
@@ -69,7 +69,7 @@ response = completion(
 ## DeepSeek V3 定价对比（你的主要模型）
 
 | 路由器 | 输入价格（美元/百万 token） | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | OpenRouter | ~$0.27 | 享受缓存折扣 |
 | Together AI | ~$0.30 | |
 | Fireworks | ~$0.27 | |

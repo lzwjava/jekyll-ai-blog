@@ -35,7 +35,7 @@ In Chinese universities (and most large universities worldwide) in 2025, the cor
 **Summary of the current situation in Chinese universities (2025)**
 
 | Layer | Technology used in 2013 | Technology used in 2025 |
-|-------|---------------------|---------------------|
+| ------- | --------------------- | --------------------- |
 | Backbone | 10G fiber | 100G/400G fiber |
 | Wired dorm | 100M/1G | 1G/10G |
 | Wireless | Wi-Fi 4/5 (802.11n/ac) | Wi-Fi 6/6E/7 |

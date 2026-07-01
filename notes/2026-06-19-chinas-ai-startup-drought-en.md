@@ -72,7 +72,7 @@ Building a paid AI community (知识星球, WeChat group subscription) around AI
 The people warning you are not wrong about the market conditions. But the framing matters:
 
 | Bad bet | Better bet |
-|---|---|
+| --- | --- |
 | Generic "AI course" | Niche technical training with real depth (your notes + GPU experience is a real asset) |
 | "AI agent product" for consumers | AI agent tooling for enterprise/bank workflows (your bank AI engineering background is defensible) |
 | AI education community | Consulting/contracting → productize later once you have paying clients |

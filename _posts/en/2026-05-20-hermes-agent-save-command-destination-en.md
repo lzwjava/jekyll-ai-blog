@@ -35,7 +35,7 @@ sudo dtrace -n 'syscall::open*:entry /pid == $target/ { printf("%s\n", copyinstr
 Common patterns for agent state persistence:
 
 | Pattern | Location |
-|---|---|
+| --- | --- |
 | SQLite | `~/.local/share/<agent>/db.sqlite` |
 | JSON/JSONL | `~/.config/<agent>/sessions/` |
 | Pickle | `/tmp/<agent>_state.pkl` |

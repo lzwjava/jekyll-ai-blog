@@ -20,7 +20,7 @@ This is exactly the right mental model to build. Let me go through it systematic
 ## MI300X x8 — The Raw Numbers
 
 | Resource | Value |
-|---|---|
+| --- | --- |
 | GPUs | 8x AMD MI300X |
 | VRAM | 8 × 192GB = **1.5TB total** |
 | Memory Bandwidth | ~9.6 TB/s aggregate |
@@ -34,7 +34,7 @@ This is exactly the right mental model to build. Let me go through it systematic
 ### Inference (FP16/BF16)
 
 | Model | VRAM Needed | Fits? |
-|---|---|---|
+| --- | --- | --- |
 | Llama 3 8B | ~16GB | ✅ trivially |
 | Llama 3 70B | ~140GB | ✅ single GPU |
 | Llama 3 405B | ~810GB | ✅ fits across 5 GPUs |
@@ -53,7 +53,7 @@ Model params (B) × 16 bytes (optimizer states, fp32 copy, gradients)
 ```
 
 | Model | Full Fine-tune | LoRA |
-|---|---|---|
+| --- | --- | --- |
 | Llama 3 8B | ~128GB | ~20GB |
 | Llama 3 70B | ~1.1TB | ~150GB |
 | Llama 3 405B | ~6.5TB | ~900GB |

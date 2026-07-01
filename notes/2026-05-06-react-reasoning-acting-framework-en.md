@@ -74,7 +74,7 @@ This is why ReAct is considered the foundation of modern **AI agent** systems â€
 ### Comparison: CoT vs ToT vs ReAct
 
 | Technique | What it does | Limitation |
-|---|---|---|
+| --- | --- | --- |
 | **CoT** | Step-by-step reasoning in one pass | No external tools, can hallucinate |
 | **ToT** (Tree of Thoughts) | Explores multiple reasoning branches | Complex, limited real-world use |
 | **ReAct** | Reasoning + real-world tool actions in a loop | Current gold standard for agents |

@@ -20,7 +20,7 @@ This is a standard **Chinese vocational training sales pitch** — you'll see th
 ## What They're Offering (Decoded)
 
 | Claim | Reality |
-|---|---|
+| --- | --- |
 | "面试指导/模拟" (mock interviews) | Usually generic, not role-specific. Scripted Q&A prep. |
 | "简历一对一指导" (1:1 resume help) | Template-filling assistance. Rarely differentiated. |
 | "工作内推" (internal referral) | The word "内推" is heavily abused. Usually just submitting your resume via an employee referral link — not a guaranteed fast track. |

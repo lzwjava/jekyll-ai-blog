@@ -76,7 +76,7 @@ After reaching the pinnacle of competitive programming, his journey was just beg
 ## Summary: What Makes Deng Notable
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Nickname | "乖神" (Guai Shen) |
 | IMO Gold | Won in 10th grade (高一) |
 | IOI Perfect Score | Only 3rd in IOI history; won in 12th grade |

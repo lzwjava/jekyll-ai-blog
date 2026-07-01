@@ -16,7 +16,7 @@ type: note
 ### ⚡ 简短有力（最适合 CLI 输入）
 
 | 名称 | CLI 用法 | 风格 |
-|---|---|---|
+| --- | --- | --- |
 | **qk** | `qk note`, `qk git` | "quick" 缩写，超短 |
 | **kx** | `kx note`, `kx git` | 最小按键 |
 | **wk** | `wk note`, `wk git` | "workit" 缩写 |
@@ -30,7 +30,7 @@ type: note
 ### 🔧 工具 / 套件主题
 
 | 名称 | 仓库 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **toolbelt** | `toolbelt` | 像瑞士军刀腰带一样的脚本 |
 | **craftkit** | `craftkit` | 打造你的工作流 |
 | **gearbox** | `gearbox` | 在工具间切换 |
@@ -46,7 +46,7 @@ type: note
 ### 🚀 生产力 / 工作流主题
 
 | 名称 | 仓库 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **flowkit** | `flowkit` | 工作流套件 |
 | **dokit** | `dokit` | "do" + kit，`dokit note` |
 | **runbook** | `runbook` | DevOps 术语，非常适合脚本 |
@@ -63,7 +63,7 @@ type: note
 ### 🧠 LLM / AI 感知（因为有些脚本使用 LLM）
 
 | 名称 | 仓库 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **augkit** | `augkit` | 增强工具包 |
 | **aikit** | `aikit` | AI 增强套件 |
 | **copilot** | `copilot` | 已被 GitHub 占用 |
@@ -76,7 +76,7 @@ type: note
 ### 🧑‍💻 个人 / 黑客风格
 
 | 名称 | 仓库 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **dotwork** | `dotwork` | 像 dotfiles 但用于工作 |
 | **myops** | `myops` | 个人 DevOps |
 | **localops** | `localops` | 本地操作工具包 |
@@ -93,7 +93,7 @@ type: note
 ### 🌐 跨平台提示名称
 
 | 名称 | 仓库 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **xkit** | `xkit` | "cross" kit |
 | **xrun** | `xrun` | 跨平台运行 |
 | **xwork** | `xwork` | 跨平台工作 |
@@ -107,7 +107,7 @@ type: note
 ### 🎯 精选短名单 — 最佳整体选择
 
 | 排名 | 名称 | 原因 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **workit** | 自然、动作动词，适合子命令 |
 | 2 | **hq** | 超短，`hq note` 感觉强大 |
 | 3 | **forge** | 强烈意象，易输入 |

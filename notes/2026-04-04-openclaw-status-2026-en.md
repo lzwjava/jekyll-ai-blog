@@ -22,7 +22,7 @@ Here's your comprehensive review, Boss. 🦞
 ### 1. Core System
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | **Version** | 2026.4.2 (latest, up to date) |
 | **OS** | Linux 6.8.0-106-generic (x64), Node 22.22.1 |
 | **Gateway** | Running (PID 1161683), reachable in 23ms |
@@ -33,7 +33,7 @@ Here's your comprehensive review, Boss. 🦞
 ### 2. Channels
 
 | Channel | Status | Notes |
-|---------|--------|-------|
+| --------- | -------- | ------- |
 | **Webchat** | ✅ Active | Current session |
 | **Telegram** | ✅ OK | Bot @lzwjava_bot, 1601ms latency |
 | **openclaw-weixin** | ⚠️ SETUP | Plugin loaded (v2.1.6 ✅), but **no token configured** — needs QR login |

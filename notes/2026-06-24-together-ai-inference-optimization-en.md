@@ -62,7 +62,7 @@ From his publications page: **Marconi: Prefix Caching for the Era of Hybrid LLMs
 ## TL;DR Stack
 
 | Layer | What he does |
-|---|---|
+| --- | --- |
 | Attention kernel | FlashAttention 1/2/3/4 — SRAM tiling, IO-awareness, Hopper/Blackwell async |
 | Architecture | Mamba/SSM hybrids to kill quadratic KV cache growth |
 | MoE | Opportunistic expert activation for faster decode |

@@ -58,7 +58,7 @@ AMD GPU与Intel CPU的兼容性通常很简单，因为GPU和CPU在系统架构�
 ## 总结表
 
 | 考虑因素 | 结论 |
-|---|---|
+| --- | --- |
 | Intel CPU + AMD GPU 兼容性 | ✅ 完全兼容 |
 | B760M Mortar WiFi 支持两块完整GPU | ❌ 仅有一个PCIe x16插槽 |
 | RTX 4070 + AMD GPU 用于游戏 | ❌ 不支持（不同品牌） |

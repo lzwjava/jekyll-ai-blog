@@ -18,16 +18,16 @@ Playwright 和 Selenium 都是用于浏览器自动化的开源工具，主要�
 
 ### Key Differences
 
-| Aspect                  | Playwright                                                                 | Selenium                                                                   |
-|-------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **Architecture**       | 使用持久化 WebSocket 直接与浏览器 DevTools protocols 通信（速度更快，开销更低）。 | 通过 HTTP 使用 W3C WebDriver protocol（延迟更高，需要显式等待）。 |
-| **Speed & Reliability**| 执行速度更快（通常快 2-3 倍）；内置的针对元素可操作性的 auto-waiting 减少了测试的不稳定性（flakiness）。 | 由于通信开销较慢；需要手动设置显式/隐式等待，导致测试更容易失败。 |
-| **Browser Support**    | Chromium (Chrome/Edge), Firefox, WebKit (Safari) – 覆盖约 95% 的现代使用场景；自动捆绑浏览器。 | 更广：支持所有主流浏览器，包括旧版（如旧版 IE）；使用独立的 driver。 |
-| **Language Support**   | JavaScript/TypeScript, Python, Java, .NET (C#)。                                   | 更广：Java, Python, C#, JavaScript, Ruby, PHP 等。                     |
-| **Setup & Dependencies**| 简单；自动下载并管理浏览器/driver；无需外部 driver 管理。 | 更复杂；历史上需要手动安装 driver（在 Selenium Manager 推出后有所改善）。 |
-| **Features**           | Auto-wait, network interception, tracing/debugging, codegen, 内置并行化, mobile emulation。 | 许多高级功能需要外部工具；拥有强大的 Grid 用于分布式执行。 |
-| **Parallel Execution** | 通过 browser contexts 提供原生支持（高效，资源占用低）。        | 需要配置 Selenium Grid。                                              |
-| **Community & Adoption**| 快速增长（2025 年调查中增长最快的工具）；由 Microsoft 支持。 | 庞大且成熟的社区；在企业中仍占据主导地位（2025 年市场份额为 39%）。 |
+| Aspect | Playwright | Selenium |
+| ------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Architecture** | 使用持久化 WebSocket 直接与浏览器 DevTools protocols 通信（速度更快，开销更低）。 | 通过 HTTP 使用 W3C WebDriver protocol（延迟更高，需要显式等待）。 |
+| **Speed & Reliability** | 执行速度更快（通常快 2-3 倍）；内置的针对元素可操作性的 auto-waiting 减少了测试的不稳定性（flakiness）。 | 由于通信开销较慢；需要手动设置显式/隐式等待，导致测试更容易失败。 |
+| **Browser Support** | Chromium (Chrome/Edge), Firefox, WebKit (Safari) – 覆盖约 95% 的现代使用场景；自动捆绑浏览器。 | 更广：支持所有主流浏览器，包括旧版（如旧版 IE）；使用独立的 driver。 |
+| **Language Support** | JavaScript/TypeScript, Python, Java, .NET (C#)。 | 更广：Java, Python, C#, JavaScript, Ruby, PHP 等。 |
+| **Setup & Dependencies** | 简单；自动下载并管理浏览器/driver；无需外部 driver 管理。 | 更复杂；历史上需要手动安装 driver（在 Selenium Manager 推出后有所改善）。 |
+| **Features** | Auto-wait, network interception, tracing/debugging, codegen, 内置并行化, mobile emulation。 | 许多高级功能需要外部工具；拥有强大的 Grid 用于分布式执行。 |
+| **Parallel Execution** | 通过 browser contexts 提供原生支持（高效，资源占用低）。 | 需要配置 Selenium Grid。 |
+| **Community & Adoption** | 快速增长（2025 年调查中增长最快的工具）；由 Microsoft 支持。 | 庞大且成熟的社区；在企业中仍占据主导地位（2025 年市场份额为 39%）。 |
 
 ### Pros and Cons
 

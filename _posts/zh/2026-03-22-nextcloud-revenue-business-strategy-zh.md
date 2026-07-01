@@ -70,7 +70,7 @@ Nextcloud GmbH（Nextcloud 背后的公司）还通过以下方式赚取收入�
 ## 总结表格
 
 | 收入来源 | 付费方 |
-|---|---|
+| --- | --- |
 | Enterprise Subscription | 大型公司、政府 |
 | Professional Services | 需要部署帮助的组织 |
 | Partner/Reseller Deals | 托管提供商（Telekom、IONOS 等） |

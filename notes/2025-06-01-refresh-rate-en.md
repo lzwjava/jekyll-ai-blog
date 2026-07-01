@@ -43,10 +43,10 @@ Several websites can help you detect your monitor's refresh rate:
 
 ### **Key Differences Between 60Hz and 120Hz**
 
-| Feature        | 60Hz Monitor | 120Hz Monitor |
-|---------------|-------------|--------------|
+| Feature | 60Hz Monitor | 120Hz Monitor |
+| --------------- | ------------- | -------------- |
 | Motion Smoothness | Slight blur in fast motion | Much smoother motion |
-| Gaming Feel   | More input lag | Lower input lag |
+| Gaming Feel | More input lag | Lower input lag |
 | Video Playback | Standard playback | Smoother if content supports high FPS |
 | Mouse Cursor Movement | Slightly choppy | Very smooth |
 

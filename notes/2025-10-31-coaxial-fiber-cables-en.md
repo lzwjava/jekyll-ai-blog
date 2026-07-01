@@ -33,7 +33,7 @@ Invented in the 1970s, it's revolutionized global connectivity with minimal sign
 ### Comparison of Propagation Delays
 
 | Medium | Typical Delay | Speed (as % of vacuum light speed) | Why the Difference? |
-|--------|---------------|-----------------------------------|---------------------|
+| -------- | --------------- | ----------------------------------- | --------------------- |
 | **Coax** | ~5 ns/meter | 60-80% | Electrical signals interact more with the cable's materials, causing more slowdown. |
 | **Fiber** | ~5 ns/km (0.005 ns/meter) | ~67% | Light travels through glass with less dispersion, but refractive index still slows it vs. vacuum. |
 

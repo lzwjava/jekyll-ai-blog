@@ -15,7 +15,7 @@ type: note
 根据截至 2025 年 11 月的 GitHub 星标数，以下是前 50 个最受欢迎的开源项目扩展列表，这些项目主要使用 Rust 语言编写。该列表涵盖了编程语言、工具、数据库和框架的混合。排名可能略有波动，但这反映了当前强调 Rust 在性能关键型软件中作用的趋势。
 
 | 排名 | 项目 | 描述 | 星标数 |
-|------|---------|-------------|-------|
+| ------ | --------- | ------------- | ------- |
 | 1 | [rust-lang/rust](https://github.com/rust-lang/rust) | Rust 编程语言。 | 107,635 |
 | 2 | [denoland/deno](https://github.com/denoland/deno) | 现代 JavaScript 和 TypeScript 运行时。 | 105,023 |
 | 3 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源远程桌面，TeamViewer 的替代品。 | 101,909 |

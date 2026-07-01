@@ -41,7 +41,7 @@ Answer:
 最常见的现代用法快速总结：
 
 | Context | Meaning | Typical subjects |
-|----------------------|----------------------------------|--------------------------------------|
+| ---------------------- | ---------------------------------- | -------------------------------------- |
 | Medicine / Poison control | swallow / eat / drink | pills, poison, food |
 | Data engineering / AI | import / collect / load | logs, events, files, streams |
 | Everyday English | take into the body | food, medication, liquid |

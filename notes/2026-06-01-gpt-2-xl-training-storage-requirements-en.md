@@ -36,7 +36,7 @@ float32 model + AdamW:
 ## Full Breakdown
 
 | Item | Size | Notes |
-|------|------|-------|
+| ------ | ------ | ------- |
 | Raw text (WebText-scale) | 40GB | OpenWebText ~40GB compressed |
 | Tokenized `.bin` files | 40GB | roughly same size after GPT-2 BPE |
 | Model checkpoint (fp32+AdamW) | 24GB | full training state |

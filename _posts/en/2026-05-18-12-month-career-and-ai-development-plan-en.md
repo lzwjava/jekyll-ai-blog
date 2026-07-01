@@ -153,7 +153,7 @@ IELTS 6.5 done (January 2026). Reading score is already 8.5.
 ## 📊 Summary Table
 
 | Priority | Goal | Target Quarter |
-|---|---|---|
+| --- | --- | --- |
 | High | Land a more AI-centric job | Q2–Q3 2026 |
 | High | Complete Associate Degree | Q4 2026 |
 | High | NVIDIA NCP-GENL Certification | Q3 2026 (September) |

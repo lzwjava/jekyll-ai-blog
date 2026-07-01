@@ -47,7 +47,7 @@ Result:    0  1  0  1  1  1  1  1  0  0  0  1
 ### Result
 
 | Stage | Bit String |
-|---|---|
+| --- | --- |
 | Before stuffing | `0 1 0 1 1 1 1 1 0 0 1` |
 | After stuffing | `0 1 0 1 1 1 1 1 0 0 0 1` |
 

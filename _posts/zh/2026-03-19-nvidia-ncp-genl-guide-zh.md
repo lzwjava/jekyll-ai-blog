@@ -137,7 +137,7 @@ NVIDIA DLI 在线课程有两种格式：涵盖特定技术的 2 小时课程，
 要构建的实际项目：
 
 | 项目 | 涵盖内容 |
-|---|---|
+| --- | --- |
 | 使用 Triton 部署 LLaMA 模型 | Model Deployment、NIM、config.pbtxt |
 | 使用 QLoRA 微调小型模型 | Fine-Tuning、PEFT、NeMo |
 | 使用 guardrails 构建 RAG 管道 | Prompt Engineering、Safety、NeMo Guardrails |
@@ -169,7 +169,7 @@ NCP-GENL 考试完全由 multiple-choice 和 multiple-response 问题组成 — 
 ## 推荐学习时间表摘要
 
 | 周 | 重点 |
-|---|---|
+| --- | --- |
 | 第 1 周 | 蓝图审计 + 开始 DLI 核心课程 |
 | 第 2 周 | DLI 课程 + LLM Architecture + Prompt Engineering 基础 |
 | 第 3 周 | Fine-Tuning 深入（LoRA、QLoRA、NeMo SFT） |
@@ -184,7 +184,7 @@ NCP-GENL 考试完全由 multiple-choice 和 multiple-response 问题组成 — 
 ## 关键免费资源摘要
 
 | 资源 | URL / 获取位置 |
-|---|---|
+| --- | --- |
 | NVIDIA DLI Courses | learn.nvidia.com |
 | NVIDIA LaunchPad (免费 GPU 沙箱) | nvidialaunchpad.com |
 | TensorRT-LLM | github.com/NVIDIA/TensorRT-LLM |

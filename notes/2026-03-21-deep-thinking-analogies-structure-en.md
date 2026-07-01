@@ -26,7 +26,7 @@ You said:
 This is more than "remote" — it's structurally identical:
 
 | Concept | Base | Spread/Extra |
-|---|---|---|
+| --- | --- | --- |
 | RTT | Average latency | Jitter (variance) |
 | Testing | Basic happy-path tests | Edge case / regression tests |
 | Statistics | Mean (μ) | Standard deviation (σ) |

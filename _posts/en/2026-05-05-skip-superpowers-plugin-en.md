@@ -47,7 +47,7 @@ It shines when you want enforced YAGNI (build the simplest thing that works), ev
 ## Practical Recommendation
 
 | Situation | Use Superpowers? |
-|---|---|
+| --- | --- |
 | 200–300 line script, clear goal | ❌ Just write it directly |
 | Large app with multiple modules | ✅ Worth the structure |
 | Debugging a gnarly production bug | ✅ Systematic approach helps |

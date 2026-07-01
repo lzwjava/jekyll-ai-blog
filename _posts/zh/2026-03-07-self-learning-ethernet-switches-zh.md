@@ -60,7 +60,7 @@ type: note
 ### Self-Learning 算法的关键特性
 
 | Property | Description |
-|---|---|
+| --- | --- |
 | **Plug-and-play** | 无需手动配置 |
 | **Source-based learning** | 仅从传入帧的 **source** MAC address 学习 |
 | **Dynamic entries** | 条目会自动添加和移除 |

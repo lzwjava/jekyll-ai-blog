@@ -17,7 +17,7 @@ I'll break this down into categories for household items (daily life things), ba
 #### Bathroom Items
 
 | English Word | Pronunciation | What It's For |
-|--------------|---------------|---------------|
+| -------------- | --------------- | --------------- |
 | Tissue (or facial tissue) | TISH-oo | Soft paper for nose or face wiping |
 | Towel (bath towel) | TOW-ul | Cloth for drying body after shower |
 | Toilet paper | TOY-let PAY-per | Paper rolls for cleaning after using toilet |
@@ -29,7 +29,7 @@ I'll break this down into categories for household items (daily life things), ba
 #### Cleaning Supplies (Including Toilet Chemicals)
 
 | English Word | Pronunciation | What It's For |
-|--------------|---------------|---------------|
+| -------------- | --------------- | --------------- |
 | Bleach | BLEECH | Strong chemical to disinfect and whiten (use for toilet cleaning) |
 | Toilet cleaner | TOY-let KLEEN-er | Gel or spray to remove stains in toilet bowl |
 | Disinfectant spray | dis-in-FEK-tunt SPRAY | Spray to kill germs on surfaces |
@@ -41,7 +41,7 @@ I'll break this down into categories for household items (daily life things), ba
 #### Kitchen Items (Often Used)
 
 | English Word | Pronunciation | What It's For |
-|--------------|---------------|---------------|
+| -------------- | --------------- | --------------- |
 | Knife | NYFE | For cutting food |
 | Fork | FORK | For eating or picking up food |
 | Spoon | SPOON | For stirring or eating soup |
@@ -58,7 +58,7 @@ I'll break this down into categories for household items (daily life things), ba
 #### General Home Items
 
 | English Word | Pronunciation | What It's For |
-|--------------|---------------|---------------|
+| -------------- | --------------- | --------------- |
 | Garbage bag (rubbish packet) | GAR-bij BAG | Plastic bag for throwing away trash |
 | Broom | BROOM | Long brush for sweeping floors |
 | Dustpan | DUST-pan | Small pan to collect swept dirt |

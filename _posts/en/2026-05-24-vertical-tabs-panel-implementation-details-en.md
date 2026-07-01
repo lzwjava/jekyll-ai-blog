@@ -27,7 +27,7 @@ pub fn uses_vertical_tabs(ctx: &AppContext) -> bool {
 The TOML config path is `appearance.vertical_tabs.*`:
 
 | Setting | Default | Options |
-|---------|---------|---------|
+| --------- | --------- | --------- |
 | `enabled` | false | bool |
 | `view_mode` | Compact | Compact, Expanded |
 | `display_granularity` | Panes | Panes, Tabs |

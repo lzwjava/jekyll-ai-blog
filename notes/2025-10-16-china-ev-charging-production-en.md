@@ -37,7 +37,7 @@ They handle "large volts" via robust power electronics rated for 480V AC input a
 The "big box" is the weatherproof pedestal or wall-mounted enclosure (typically 1–2m tall, steel/aluminum with IP65 rating). It's where the charging gun (cable with GB/T plug) is holstered. Inside, it's packed with electronics, cooling, and controls—think a mini power plant. Key components include:
 
 | Component | Description | Role in Charging |
-|-----------|-------------|------------------|
+| ----------- | ------------- | ------------------ |
 | **Power/Charging Module** | Core AC-DC rectifier, DC-DC converters, and semiconductors (e.g., IGBTs). Takes up ~50% of space/cost. | Converts grid AC to high-voltage DC; adjusts output to EV battery needs (e.g., 200–800V). |
 | **Control Unit** | Microprocessor/PLC board with software. | Manages communication (OCPP protocol), monitors battery state, and ramps power safely. |
 | **Safety Systems** | GFCI breakers, overcurrent/voltage relays, temperature sensors. | Prevents shocks, overloads, or fires; auto-shuts down on faults. |

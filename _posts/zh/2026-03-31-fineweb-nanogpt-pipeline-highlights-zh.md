@@ -101,7 +101,7 @@ Repo 中有下载脚本和训练日志，但**没有 tokenization 脚本**。你
 ### 推荐修复方案
 
 | 问题 | 修复建议 |
-|---|---|
+| --- | --- |
 | RAM 过低 | 调整为 4GB+ 的 droplet，或在本地下载 |
 | 无 venv | `python3 -m venv venv && source venv/bin/activate` |
 | 无 HF token | `huggingface-cli login` |

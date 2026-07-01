@@ -92,7 +92,7 @@ macOS allows up to 10,240 FDs per process. Each git process opens socket + packf
 ## Summary
 
 | Claim | Verdict |
-|-------|---------|
+| ------- | --------- |
 | Threads parked in kqueue use 0% CPU | CORRECT |
 | No scheduling/cycles while waiting | CORRECT |
 | kqueue does more work polling at higher FD counts | **WRONG** — kqueue is event-driven, O(triggered) not O(FDs) |

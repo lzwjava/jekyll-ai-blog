@@ -87,7 +87,7 @@ Both images (`node:16-bullseye` and `node:16-buster`) pulled successfully throug
 ### Summary
 
 | Item | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | Docker daemon proxy | Written to config, not applied | Applied after restart |
 | `auth.docker.io` connection | EOF (blocked) | ✅ Routed through mihomo |
 | `node:16-bullseye` image | Not cached | Cached locally |

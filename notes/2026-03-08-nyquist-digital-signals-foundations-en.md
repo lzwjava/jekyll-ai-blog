@@ -106,7 +106,7 @@ Nyquist lived in Pharr, Texas after his retirement, and died in Harlingen, Texas
 ### Summary Table
 
 | Area | Contribution | Year |
-|---|---|---|
+| --- | --- | --- |
 | Signal Sampling | Nyquist Sampling Theorem | 1928 |
 | Telegraph Theory | Telegraph speed & bandwidth | 1924 |
 | Thermal Noise | Johnson–Nyquist Noise model | 1927 |

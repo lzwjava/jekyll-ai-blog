@@ -58,7 +58,7 @@ If you're on **GitHub Enterprise**, organizations have more control. But even th
 ### The Honest Answer
 
 | Goal | Solution |
-|---|---|
+| --- | --- |
 | Block the fork button entirely | ❌ Not possible on public repos |
 | Prevent legal reuse | ✅ Restrictive license |
 | Prevent forks within your org | ✅ Make private + disable fork in org settings |

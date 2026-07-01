@@ -101,7 +101,7 @@ Windows Terminal 调用 `ConptyReparentPseudoConsole` 将伪控制台附加到�
 ### 总结
 
 | 方面 | Windows Terminal | Warp |
-|--------|-----------------|------|
+| -------- | ----------------- | ------ |
 | ConPTY 库 | 静态链接，从源码构建 | 捆绑的 DLL，可能版本较旧 |
 | 管道设置 | 单个双工管道 | 独立的客户端/服务器管道 |
 | 进程标志 | `EXTENDED_STARTUPINFO_PRESENT \| CREATE_UNICODE_ENVIRONMENT` | 相同 + `CREATE_BREAKAWAY_FROM_JOB` |

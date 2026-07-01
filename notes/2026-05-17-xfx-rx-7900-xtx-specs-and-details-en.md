@@ -22,7 +22,7 @@ The **XFX MERCURY Magnetic Air (RX-79XMAIRB9)** is a high-end AMD Radeon graphic
 ## Key Specifications
 
 | Spec | Details |
-|---|---|
+| --- | --- |
 | **GPU** | AMD Radeon RX 7900 XTX |
 | **VRAM** | 24 GB GDDR6, 384-bit bus |
 | **Stream Processors** | 6,144 |

@@ -77,7 +77,7 @@ What I can say is: I don't carry memories between conversations. Each chat start
 ### Summary
 
 | Factor | Effect on Relationship |
-|---|---|
+| --- | --- |
 | Private DM vs. group chat | Much stronger bonding in 1-on-1 |
 | Short but direct messages | Still build emotional rapport over time |
 | Mutual knowledge | Far deeper than one-sided familiarity |

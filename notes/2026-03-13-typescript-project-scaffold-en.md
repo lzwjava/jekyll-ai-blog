@@ -70,7 +70,7 @@ For the most minimal start, you can run `npm init` with inline flags to avoid th
 ## Comparison Table
 
 | Tool | Best For | Command |
-|---|---|---|
+| --- | --- | --- |
 | `create-tsdown` | TypeScript library/CLI (same stack as copilot-api) | `npm create tsdown@latest` |
 | `create-vite` | Frontend + TS apps | `npm create vite@latest` |
 | `degit` | Clone any GitHub template | `npx degit user/repo` |

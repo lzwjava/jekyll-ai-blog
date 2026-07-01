@@ -29,7 +29,7 @@ Answer:
 ### 文件位置（按顺序全部读取）
 
 | Location | Scope |
-|---|---|
+| --- | --- |
 | `~/.claude/CLAUDE.md` | Global — applies to ALL projects |
 | `<project-root>/CLAUDE.md` | Project-level — applies to this repo |
 | `<subdir>/CLAUDE.md` | Subdirectory-level — applies when working in that folder |
@@ -113,7 +113,7 @@ const claude = new Anthropic();
 ## 最佳实践总结
 
 | Goal | Method |
-|---|---|
+| --- | --- |
 | Rules for ALL projects globally | `~/.claude/CLAUDE.md` |
 | Rules for one specific project | `<project>/CLAUDE.md` |
 | Rules for a subfolder | `<subdir>/CLAUDE.md` |

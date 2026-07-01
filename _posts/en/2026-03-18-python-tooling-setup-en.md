@@ -69,7 +69,7 @@ An official pre-commit hook is also provided at `astral-sh/uv-pre-commit`, which
 These tools analyze your code **without running it** to catch type-related bugs (e.g., passing a `str` where an `int` is expected).
 
 | Tool | Characteristics |
-|---|---|
+| --- | --- |
 | **pyright** | Faster, made by Microsoft, used in VS Code's Pylance |
 | **mypy** | Older, more mature, wider community adoption |
 
@@ -134,7 +134,7 @@ It handles consistent versioning across files and can trigger Git tags and commi
 ## 📊 Priority Summary Table
 
 | Priority | Tool | Reason |
-|---|---|---|
+| --- | --- | --- |
 | **High** | `pre-commit-hooks` | Catches whitespace, YAML, merge issues cheaply |
 | **High** | `uv` | Faster installs, reproducible lockfile |
 | **Medium** | `mypy` or `pyright` | API calls + multi-module code → types catch real bugs |

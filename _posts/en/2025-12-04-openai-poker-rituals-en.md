@@ -27,7 +27,7 @@ Chen ties this to his pre-OpenAI background— as a Jane Street trader, he honed
 Poker and strategic "mind games" (e.g., chess, Go) are popular among tech execs for fostering risk assessment, pattern recognition, and resilience—skills transferable to innovation and deal-making. Here's a table of notable examples, focusing on verified habits from biographies, interviews, and public records:
 
 | Tech Leader | Role/Company | Game(s) & Details | Why They Play / Impact |
-|-------------|--------------|-------------------|------------------------|
+| ------------- | -------------- | ------------------- | ------------------------ |
 | **Sam Altman** | CEO, OpenAI | Poker (Texas Hold'em) | Used poker winnings to fund Stanford tuition pre-OpenAI; sees it as "AI-like" for predicting outcomes with incomplete data. Hosted high-stakes games with Peter Thiel during Y Combinator days, influencing his $100B+ AI bets like Stargate. |
 | **Elon Musk** | CEO, Tesla/SpaceX/xAI | Poker & Video Games (e.g., Overwatch, Polytopia) | Casual poker player in college; prefers competitive multiplayer games for "zero-sum strategy." Credits gaming for SpaceX's iterative failures-turned-wins; once bet $1M on a poker hand with Larry Ellison (lost, but sparked Oracle-Tesla talks). |
 | **Mark Zuckerberg** | CEO, Meta | Poker, Chess, & Combat Games (e.g., jiu-jitsu, Minecraft survival) | Learned poker from Harvard roommates; played in Meta's early "poker nights" to bond team. Now favors chess apps and daily jiu-jitsu for mental edge—applied to metaverse pivots. Hosted 2024 tourney with Altman (tension noted). |

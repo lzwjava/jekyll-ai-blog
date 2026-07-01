@@ -35,7 +35,7 @@ sudo dtrace -n 'syscall::open*:entry /pid == $target/ { printf("%s\n", copyinstr
 常见的代理状态持久化模式：
 
 | 模式 | 位置 |
-|---|---|
+| --- | --- |
 | SQLite | `~/.local/share/<agent>/db.sqlite` |
 | JSON/JSONL | `~/.config/<agent>/sessions/` |
 | Pickle | `/tmp/<agent>_state.pkl` |

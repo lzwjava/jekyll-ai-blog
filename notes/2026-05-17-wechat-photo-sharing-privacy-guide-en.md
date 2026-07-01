@@ -38,7 +38,7 @@ Photos posted on WeChat's Moments function are compressed and do **not** retain 
 ### Two Different Scenarios: Moments vs. Direct (Original) Image Sharing
 
 | Scenario | Location Leaked? |
-|---|---|
+| --- | --- |
 | Post photo to **Moments (朋友圈)** | ❌ No — auto-compressed, EXIF stripped |
 | Send **original image** in private chat | ✅ Yes — EXIF data (including GPS) is included |
 | Send **compressed image** in private chat | ❌ No — metadata removed |

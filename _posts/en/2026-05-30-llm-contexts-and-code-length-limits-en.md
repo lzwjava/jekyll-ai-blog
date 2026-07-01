@@ -42,7 +42,7 @@ Your `ww` repo is exactly this pattern. A 900-line `ww.py` that does LLM orchest
 Split only when you hit these concrete thresholds:
 
 | Trigger | Action |
-|---|---|
+| --- | --- |
 | **Shared logic across 2+ scripts** | Extract to a `lib/` module |
 | **Different deploy units** | Separate files (e.g. `server.py` vs `client.py`) |
 | **Different test cycles** | Split testable core from CLI glue |

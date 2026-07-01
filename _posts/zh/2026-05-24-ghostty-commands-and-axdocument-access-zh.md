@@ -53,7 +53,7 @@ type: note
 ### 尝试过但已放弃的方法
 
 | 方法 | 失败原因 |
-|------|----------|
+| ------ | ---------- |
 | CGEvent 鼠标点击 | 窗口重叠时不可靠 |
 | CGEvent 键盘（Cmd+`） | macOS 26.5 上静默丢弃 |
 | CGSOrderWindow | CGWindowList 的 Z 顺序不更新 |

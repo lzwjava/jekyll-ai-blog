@@ -30,7 +30,7 @@ China's residential electricity price is approximately **¥0.53 per kWh**.
 Now estimate your server's idle power draw:
 
 | Component | Idle Power |
-|---|---|
+| --- | --- |
 | i9-13900KF (idle) | ~30–50W |
 | RTX 4070 Ti (idle) | ~16–18W at true idle |
 | 62 GB RAM + NVMe + motherboard | ~30–40W |

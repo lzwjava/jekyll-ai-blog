@@ -30,7 +30,7 @@ Each instance type name follows the format `ecs.<Instance family>.<Instance size
 ## GPU Instance Families Compared — Which to Choose for Training?
 
 | Instance Family | GPU | Full GPU? | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `ecs.vgn7i` | NVIDIA A30 (sliced) | ❌ vGPU (shared) | Small inference, CAD, remote desktop |
 | `ecs.gn7i` | NVIDIA A10 | ✅ Full GPU | Medium model training, inference |
 | `ecs.gn7` | NVIDIA A100 | ✅ Full GPU | Large model training |
@@ -73,7 +73,7 @@ Instance types available for purchase vary by region. You can visit the Instance
 ## Quick Recommendation Summary
 
 | Your Task | Recommended Instance |
-|---|---|
+| --- | --- |
 | Fine-tuning small models (< 1B params) | `ecs.gn7i-c8g1.2xlarge` (1× A10 GPU) |
 | Training medium models (1B–7B params) | `ecs.gn7i-c16g1.4xlarge` or `gn7` |
 | Training large models (7B–70B params) | `ecs.gn7-c13g1.13xlarge` (8× A100) |

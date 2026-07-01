@@ -18,7 +18,7 @@ This is an **educational end-to-end LLM training pipeline** — train a BPE toke
 ## vs. nanoGPT
 
 | Aspect | **nanoGPT** | **llmTrain** |
-|---|---|---|
+| --- | --- | --- |
 | **Architecture** | Classic GPT-2 (learned positional embeddings, GELU) | Modern: RoPE + SwiGLU + pre-norm |
 | **Attention** | Manual attention math | Flash Attention via `scaled_dot_product_attention` |
 | **Position encoding** | Learned absolute embeddings | Rotary (RoPE) |

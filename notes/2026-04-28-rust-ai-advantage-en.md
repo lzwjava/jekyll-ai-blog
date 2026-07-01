@@ -66,7 +66,7 @@ If they had to do it over, they'd pick Rust again. The early phase is harder, bu
 ## Summary Table
 
 | Aspect | What Rust Brought |
-|---|---|
+| --- | --- |
 | **Memory Safety** | No segfaults; entire classes of bugs eliminated by the compiler |
 | **Concurrency** | Ownership model guarantees thread safety at compile time |
 | **Performance** | No GC pauses; predictable latency under high throughput |

@@ -17,9 +17,9 @@ This is the README.md from github project [https://github.com/lzwjava/algorithm-
 
 Problem solutions of some algorithm problems from online judge platforms.
 
-| platform | problems solved |
-| ------------- | ------------- |
-|[UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
+|platform|problems solved|
+|-------------|-------------|
+|[UVa](https://uhunt.onlinejudge.org/id/113519)|568|
 |[Codeforces](https://codeforces.com/profile/lzwjava)|419|
 |[LeetCode](https://leetcode.com/lzwjava/)|20|
 |[Hacker Rank](https://www.hackerrank.com/profile/lzwjava)|20(SQL)|
@@ -78,8 +78,8 @@ Each subdirectory within the `nowcoder` directory is named after a problem and i
 
 Solved: 568, Submissions: 1776
 
-| Q1 | Q2 | Q3|
-| ------------- | ------------- |-------------|
+| Q1 | Q2 | Q3 |
+| ------------- | ------------- | ------------- |
 | 100: The 3n + 1 Problem | 101: The Blocks Problem | 102: Ecological Bin Packing |
 | 103: Stacking Boxes | 104: Arbitrage | 105: The Skyline Problem |
 | 106: Fermat's Last Theorem | 107: The Cat in the Hat | 108: Maximum Sum |
@@ -273,8 +273,8 @@ Solved: 568, Submissions: 1776
 
 ### Codeforces
 
-| Q1 | Q2 | Q3|
-| ------------- | ------------- |-------------|
+| Q1 | Q2 | Q3 |
+| ------------- | ------------- | ------------- |
 | 1003A: Polycarp's Pockets | 1030A: In Search of an Easy Problem | 1077A: Frog Jumping |
 | 1092B: Teams Forming | 1095A: Repeating Cipher | 1097A: Gennady and a Card Game |
 | 110A: Nearly Lucky Number | 112A: Petya and Strings | 1154A: Restoring Three Numbers |
@@ -372,7 +372,7 @@ Solved: 568, Submissions: 1776
 | 1915D: Infinity Table | 1915E: The Great Hero | 1915F: Luntik and Subsequences |
 | 1916A: Pretty Permutations | 1916B: Find The Array | 1916C: Wonderful Coloring - 1 |
 | 1917A: Next Round | 1917B: Taxi | 1917C: Casimir's String Solitaire |
-| 1917D: Dislike of Threes |1A: Theatre Square | 200B: Drinks |
+| 1917D: Dislike of Threes | 1A: Theatre Square | 200B: Drinks |
 | 208A: Dubstep | 214A: System of Equations | 228A: Is your horseshoe on the other hoof? |
 | 230A: Dragons | 230B: T-primes | 231A: Team |
 | 233A: Perfect Permutation | 236A: Boy or Girl | 255A: Greg's Workout |

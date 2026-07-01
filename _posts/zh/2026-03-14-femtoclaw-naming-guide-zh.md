@@ -18,7 +18,7 @@ type: note
 OpenClaw 社区迅速衍生出一系列丰富的轻量级替代品，每个都遵循一致的命名模式：**[size/property prefix] + "Claw"**。以下是已占用的完整名称列表，您应避免使用：
 
 | 名称 | 描述 |
-|---|---|
+| --- | --- |
 | **MiniClaw** | 使用 Claude Pro/Max 或 ChatGPT Plus 直接在 Telegram 中的 OpenClaw 极简替代品 |
 | **NanoClaw** | 轻量级、基于容器的替代品，小到可以完全理解 — ~500 行 TypeScript |
 | **PicoClaw** | 超轻量级基于 Go 的助手，可在 $10 硬件上运行，使用不到 10MB RAM |
@@ -36,7 +36,7 @@ OpenClaw 社区迅速衍生出一系列丰富的轻量级替代品，每个都�
 ### 首选推荐
 
 | 名称 | 理由 |
-|---|---|
+| --- | --- |
 | **FemtoClaw** | Femto = 10⁻¹⁵（比 pico/nano 更小）—— 科学地传达“更小” |
 | **AtomClaw** | 生态系统中提到 AtomClaw 作为 JS/TS 兼容变体，但如果未被占用，它是一个极好的大小隐喻 |
 | **QuarkClaw** | 亚原子级——暗示绝对最小的可能实现 |

@@ -129,7 +129,7 @@ Stanford 在 2026 年在线 AI graduate certificates 排名中位居第 1，其�
 ## 总结比较表
 
 | Program | Institution | Duration | Approximate Cost | Best For |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Machine Learning Specialization | DeepLearning.AI | ~3 months | ~$147 | 所有级别——基础 ML |
 | Deep Learning Specialization | DeepLearning.AI | ~4–5 months | ~$200–250 | 中级工程师 |
 | Generative AI with LLMs | DeepLearning.AI | 3–4 weeks | ~$49–100 | 快速 LLM 技能提升 |

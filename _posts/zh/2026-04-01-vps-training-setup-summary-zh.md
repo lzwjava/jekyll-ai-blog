@@ -14,7 +14,7 @@ type: note
 **VPS 上已准备好的内容摘要：**
 
 | Item | Location | Notes |
-|------|---------|-------|
+| ------ | --------- | ------- |
 | Data | `/root/nanoGPT/data/fineweb/` | `train.bin` (27MB), `val.bin` (191MB) |
 | Config | `/root/nanoGPT/config/train_fineweb_test.py` | Tiny model for test |
 | Code | `/root/nanoGPT/` | train.py, model.py, etc. |

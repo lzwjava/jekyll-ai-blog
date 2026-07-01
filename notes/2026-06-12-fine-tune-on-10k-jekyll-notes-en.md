@@ -65,7 +65,7 @@ Hold out ~200 examples as an eval set before training. Also filter aggressively 
 ## Step 2 — Pick model + machine
 
 | Setup | Model | Method | Why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | RTX 4070 (12GB) | Qwen3-4B / Llama-3.1-8B | QLoRA 4-bit | Fits in 12GB with Unsloth; free iteration |
 | MI300X ($2/hr) | Qwen3-32B or Llama-3.3-70B | LoRA 16-bit | 192GB HBM3 lets you LoRA a 70B on one GPU |
 

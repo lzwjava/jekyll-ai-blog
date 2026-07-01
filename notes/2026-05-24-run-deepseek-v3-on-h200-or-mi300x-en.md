@@ -24,7 +24,7 @@ Let's do the math properly first, then the setup.
 ### DeepSeek-V3 (671B parameters, the latest open-weights model)
 
 | Precision | VRAM needed | Notes |
-|-----------|------------|-------|
+| ----------- | ------------ | ------- |
 | FP8 | ~380 GB | Recommended for inference |
 | BF16 | ~1.34 TB | Way too much for single node |
 | INT4 (GPTQ/AWQ) | ~190 GB | Lossy but viable |
@@ -32,7 +32,7 @@ Let's do the math properly first, then the setup.
 ### Your hardware
 
 | GPU | VRAM | Notes |
-|-----|------|-------|
+| ----- | ------ | ------- |
 | H200 SXM (single) | 141 GB HBM3e | Not enough solo |
 | H200 SXM (2x) | 282 GB | Tight for FP8, doable with offload |
 | **AMD MI300X (single)** | **192 GB HBM3** | **Best single-GPU option — barely fits FP8** |
@@ -187,7 +187,7 @@ For V3: `d_c = 512` vs `n_heads × d_head = 128 × 128 = 16384` — that's **32x
 ## Recommendation for Your Setup
 
 | Goal | Best Option |
-|------|------------|
+| ------ | ------------ |
 | Quick experiment, single GPU | **MI300X + SGLang + FP8** |
 | Production serving | **2x MI300X + SGLang TP=2** |
 | H200 access | **4x H200 + vLLM TP=4 + FP8** |

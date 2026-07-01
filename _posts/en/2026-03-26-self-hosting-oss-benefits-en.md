@@ -82,7 +82,7 @@ Uptime Kuma is a self-hosted monitoring tool that tracks whether all your other 
 ### 🔷 Shared Benefits Across All Projects
 
 | Benefit | Description |
-|---|---|
+| --- | --- |
 | **Privacy** | Your data stays on your hardware — no big tech data mining |
 | **Cost Savings** | One-time hardware investment replaces multiple monthly subscriptions |
 | **Full Control** | You decide uptime, updates, features, and access rules |

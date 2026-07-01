@@ -28,7 +28,7 @@ This is a clever **social engineering trick** in Chinese workplace chat culture 
 ### Why It Works Psychologically
 
 | Factor | Explanation |
-|---|---|
+| --- | --- |
 | **Pavlovian reflex** | Chinese users are conditioned to tap red packets instantly |
 | **Reciprocity** | Even 1 fen feels like a gesture, softening resistance to content |
 | **Reframe the message** | People open it expecting money, but get a knowledge post — curiosity keeps them reading |
@@ -57,7 +57,7 @@ This is essentially a **manual MCP (Model Context Protocol)** — grounding the 
 ### Would This Work in Your Group?
 
 | Group Type | Likely Reaction |
-|---|---|
+| --- | --- |
 | **Chinese domestic company** | Mixed — some annoyance, some appreciation, high open rate |
 | **Foreign company / international team** | Confusion first, then amusement, likely positive |
 | **Tech/engineering teams** | Respect — they'll appreciate the meta-cleverness |

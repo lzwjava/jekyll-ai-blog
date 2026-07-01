@@ -22,7 +22,7 @@ This is a **Chinese Higher Education Self-Study Examination (高等教育自学�
 ## Student Information (Top Table)
 
 | Field | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | 年月 | 202604 | Exam Year & Month: April 2026 |
 | 姓名 | 李智维 | Student's name: Li Zhiwei |
 | 准考证号 | 510201 | Admission ticket number (exam ID) |
@@ -34,7 +34,7 @@ This is a **Chinese Higher Education Self-Study Examination (高等教育自学�
 ## Exam Schedule & Grades (Bottom Table)
 
 | Subject (Chinese) | Subject (English) | Code | Date & Time | Room | Location | Grade |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | 计算机基础与应用技术 | Fundamentals & Applied Computer Technology | 13808 | Apr 25, 9:00–10:30 AM | Room 1 | Building 2, Room 417 | **及格 (Pass)** |
 | 计算机程序设计基础 | Fundamentals of Computer Programming | 13794 | Apr 25, 10:30–12:00 AM | Room 1 | Building 2, Room 417 | **优秀 (Excellent)** |
 | 数据库及其应用 | Database and Its Applications | 13171 | Apr 25, 2:00–4:00 PM | Room 1 | Building 6, Room B202 | **及格 (Pass)** |
@@ -46,7 +46,7 @@ This is a **Chinese Higher Education Self-Study Examination (高等教育自学�
 In China's 自考 (Self-Study Exam) system, grades are typically reported as:
 
 | Chinese | English | Typical Score Range |
-|---|---|---|
+| --- | --- | --- |
 | 优秀 | Excellent | 90–100 |
 | 良好 | Good | 75–89 |
 | 及格 | Pass | 60–74 |

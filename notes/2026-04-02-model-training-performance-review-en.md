@@ -14,7 +14,7 @@ Here's the training review:
 ## 📊 Training Trajectory (950 iters / 10K target)
 
 | Iter | Train Loss | Val Loss |
-|------|-----------|----------|
+| ------ | ----------- | ---------- |
 | 0 | 11.05 | 11.06 |
 | 250 | 5.93 | 5.93 |
 | 500 | 5.07 | 5.06 |

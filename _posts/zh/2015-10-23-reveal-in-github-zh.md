@@ -28,15 +28,15 @@ type: post
 它有六个菜单项：
 
 菜单标题 | 快捷方式 | GitHub URL模式（当我在LZAlbumManager.m 第40行编辑时）
------------|----------|----------------------------------
-设置 |⌃⇧⌘S |
-仓库 |⌃⇧⌘R | <https://github.com/lzwjava/LZAlbum>
-问题 |⌃⇧⌘I | <https://github.com/lzwjava/LZAlbum/issues>
-拉取请求 |⌃⇧⌘P | <https://github.com/lzwjava/LZAlbum/pulls>
-快速文件 |⌃⇧⌘Q | <https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
-历史记录 |⌃⇧⌘L | <https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m>
-责任 |⌃⇧⌘B | <https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
-通知 |⌃⇧⌘N | <https://github.com/leancloud/LZAlbum/notifications?all=1>
+----------- | ---------- | ----------------------------------
+设置 | ⌃⇧⌘S |
+仓库 | ⌃⇧⌘R | <https://github.com/lzwjava/LZAlbum>
+问题 | ⌃⇧⌘I | <https://github.com/lzwjava/LZAlbum/issues>
+拉取请求 | ⌃⇧⌘P | <https://github.com/lzwjava/LZAlbum/pulls>
+快速文件 | ⌃⇧⌘Q | <https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
+历史记录 | ⌃⇧⌘L | <https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m>
+责任 | ⌃⇧⌘B | <https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
+通知 | ⌃⇧⌘N | <https://github.com/leancloud/LZAlbum/notifications?all=1>
 
 快捷方式是精心设计的。它们不会与Xcode默认快捷方式冲突。快捷方式模式是 ⌃⇧⌘（Ctrl+Shift+Command），加上菜单标题的第一个字符。
 

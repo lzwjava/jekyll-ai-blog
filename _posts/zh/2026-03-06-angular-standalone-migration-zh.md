@@ -201,7 +201,7 @@ export const appConfig: ApplicationConfig = {
 ## 关键变更总结
 
 | 旧 NgModule 方式 | 新 Standalone 方式 |
-|---|---|
+| --- | --- |
 | 模块中的 `declarations: [XComponent]` | component 中的 `standalone: true` |
 | 模块中的 `imports: [X]` | component 中的 `imports: [X]` |
 | `bootstrapModule(AppModule)` | `bootstrapApplication(AppComponent, appConfig)` |

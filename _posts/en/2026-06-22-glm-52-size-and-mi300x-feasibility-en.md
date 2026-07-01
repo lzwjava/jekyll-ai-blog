@@ -28,7 +28,7 @@ For practical deployment:
 MI300X has 192 GB HBM3. **Single card: not enough** for BF16 or even FP8. Your options:
 
 | Config | VRAM needed | Feasible on MI300X? |
-|---|---|---|
+| --- | --- | --- |
 | BF16 full | ~1.5 TB | Need 8× MI300X |
 | FP8 | ~750 GB | Need 4× MI300X |
 | INT4 (GGUF) | ~380 GB | Need 2× MI300X |

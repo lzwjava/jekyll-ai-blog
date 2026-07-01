@@ -125,7 +125,7 @@ Charles captures WebSocket messages alongside standard HTTP traffic. This is val
 ## Common Issues & Tips
 
 | Issue | Solution |
-|---|---|
+| --- | --- |
 | HTTPS traffic shows as encrypted | Install and trust the Charles SSL certificate |
 | Mobile device not connecting | Ensure both are on the same Wi-Fi, and manual proxy is set |
 | App crashes with Charles active | App may use certificate pinning; requires code-level bypass |

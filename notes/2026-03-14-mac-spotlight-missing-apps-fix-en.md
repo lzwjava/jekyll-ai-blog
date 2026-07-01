@@ -81,7 +81,7 @@ Some users report that after **manually opening an app once** (via Finder or Lau
 ## Summary Table
 
 | Fix | Effort | Works For |
-|-----|--------|-----------|
+| ----- | -------- | ----------- |
 | Toggle "Applications" checkbox + restart | Easy | Most cases |
 | Add/Remove folder in Search Privacy | Easy | Most cases |
 | `sudo mdutil -E /` in Terminal | Medium | Persistent issues |

@@ -60,7 +60,7 @@ Yes. Among Spanish children aged 10–15, approximately 70% own a smartphone, an
 ## Summary
 
 | Issue | Data |
-|---|---|
+| --- | --- |
 | Gen Z with unhealthy phone relationship | 83% |
 | Lost sleep due to social media scrolling | 93%+ |
 | Average daily phone use (Gen Z) | 6 hrs 27 min |

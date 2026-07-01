@@ -34,7 +34,7 @@ The model (quantized) just **stores and computes with integers**. It doesn't "kn
 This phrase is describing a **pipeline architecture pattern**, likely in the context of an LLM-powered tool where:
 
 | Role | Responsibility |
-|------|---------------|
+| ------ | --------------- |
 | **LLM / quantized model** | Converts input → output (text, format, code, etc.) |
 | **Another system / non-LLM logic** | Does the analysis, decision-making, validation |
 

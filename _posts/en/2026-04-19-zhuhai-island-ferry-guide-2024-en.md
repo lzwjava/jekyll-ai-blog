@@ -16,7 +16,7 @@ I'll translate this to English for you.
 ## 🗺️ Island Ferry Prices from Zhuhai (2024)
 
 | Island | Ferry Price | Duration | Distance/Features | Departure Pier |
-|--------|-------------|----------|-------------------|----------------|
+| -------- | ------------- | ---------- | ------------------- | ---------------- |
 | **Guishan Island** | ¥100 | ~50 min | Closest, well-developed | Xiangzhou Port |
 | **Dong'ao Island** | ¥85-100 | 50-90 min | Medium distance, 4A scenic area | Xiangzhou/Hengqin (¥80) |
 | **Wanshan Island** | ¥127-130 | ~80 min | Remote, pristine | Xiangzhou Port |
@@ -50,7 +50,7 @@ I'll translate this to English for you.
 ### Pier Selection
 
 | Destination | Best Pier | Why |
-|-------------|-----------|-----|
+| ------------- | ----------- | ----- |
 | Dong'ao | Hengqin | ¥80 vs ¥100 |
 | Wailingding | Xiangzhou | More departures, stable ¥140 price |
 | Guishan | Xiangzhou | Closest and most convenient |

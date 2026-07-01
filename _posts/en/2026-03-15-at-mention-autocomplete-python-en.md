@@ -118,7 +118,7 @@ if __name__ == "__main__":
 ## Key Concepts Explained
 
 | Concept | `readline` | `prompt_toolkit` |
-|---|---|---|
+| --- | --- | --- |
 | Trigger character | Tab only | Any character (`@`, `/`, etc.) |
 | Popup dropdown | No | Yes, rendered inline |
 | Fuzzy matching | No | Yes (via `FuzzyCompleter` wrapper) |

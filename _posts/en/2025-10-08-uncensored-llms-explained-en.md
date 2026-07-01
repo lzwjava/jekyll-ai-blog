@@ -55,7 +55,7 @@ Other notables include Llama2-Uncensored or Nous-Hermes (distilled from Llama), 
 #### Pros and Cons
 
 | Aspect | Pros | Cons |
-|--------|------|------|
+| -------- | ------ | ------ |
 | **Flexibility** | Answers anything; great for uncensored storytelling, unbiased analysis, or edge-case testing. | Risk of harmful output (e.g., misinformation, hate speech, or illegal advice). |
 | **Performance** | Often faster/cheaper to run locally; less cultural bias. | Can "hallucinate" wildly without safety nets; harder to control. |
 | **Accessibility** | Free/open-source on Hugging Face; run on laptops via Ollama or LM Studio. | Ethical/legal issues—misuse could violate laws; not for kids/workplaces. |

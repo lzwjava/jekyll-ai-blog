@@ -16,7 +16,7 @@ All clean. ClashX Pro's helper is still properly loaded and active.
 **What was removed (17 items total):**
 
 | # | Removed Item | Type |
-|---|---|---|
+| --- | --- | --- |
 | 1 | `com.hp.devicemonitor` | HP printer monitor — unnecessary |
 | 2 | `com.hp.productresearch` | HP telemetry — unnecessary |
 | 3 | `com.valvesoftware.steamclean` | Steam old orphan — useless |
@@ -33,7 +33,7 @@ All clean. ClashX Pro's helper is still properly loaded and active.
 **Kept (18 remaining auto-start items):**
 
 | Kept Item | Reason |
-|---|---|
+| --- | --- |
 | ClashX Pro helper | You actively use ClashX Pro |
 | Docker (socket + vmnetd) | Docker needs these |
 | Google Keystone (3 plists) | Chrome / Google Drive updates |

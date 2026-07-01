@@ -57,7 +57,7 @@ OpenCode desktop 允许你在 build 和 plan mode 之间选择。这让你可以
 ## 总结：为什么 OpenCode 在 Diff Preview 上获胜
 
 | Feature | OpenCode | Claude Code | Codex CLI |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Syntax-highlighted diffs | ✅ Native Zig renderer | ⚠️ Basic | ⚠️ Console output |
 | Scrollable diff view | ✅ | Limited | Limited |
 | Resize-safe TUI | ✅ | ⚠️ | ⚠️ |

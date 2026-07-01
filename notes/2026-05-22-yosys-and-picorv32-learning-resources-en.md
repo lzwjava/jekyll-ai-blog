@@ -44,7 +44,7 @@ This tells you the **resource cost** of your RTL design — directly analogous t
 **Not a Fortune 500, not a typical startup.** It's a different category entirely:
 
 | | |
-|---|---|
+| --- | --- |
 | **Author** | Claire Xenia Wolf (formerly Clifford Wolf) — independent hacker/researcher |
 | **Organization** | [YosysHQ](https://github.com/YosysHQ) — a tiny open-source focused company |
 | **Model** | Open-core: Yosys itself is MIT licensed; YosysHQ sells commercial support and proprietary add-ons (Tabby CAD Suite) |

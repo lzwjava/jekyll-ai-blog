@@ -19,7 +19,7 @@ Here's a summary of what we did:
 **Config Change**
 
 | | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | Model | DeepSeek-R1-0528-Qwen3-8B-Q4_K_M | gemma-4-E4B-it-Q5_K_M |
 | Port | 11435 | 8081 |
 | GPU layers | 99 | 43 |

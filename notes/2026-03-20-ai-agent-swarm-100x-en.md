@@ -79,7 +79,7 @@ Auto Deploy + Integration Test Agent
 ## 🧠 The Key Principles
 
 | Principle | What it means |
-|---|---|
+| --- | --- |
 | **Passive intervention** | You don't watch agents. They call you when needed |
 | **Push not pull** | Agents notify you via IM. You don't check dashboards |
 | **Full permissions** | Agents never get blocked waiting for access |

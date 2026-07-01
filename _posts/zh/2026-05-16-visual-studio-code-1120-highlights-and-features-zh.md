@@ -76,7 +76,7 @@ VS Code 1.120 将 Agents 窗口引入稳定版，改进了 BYOK 模型的可见�
 ## 📊 总结表格
 
 | 领域 | 功能 | 状态 |
-|---|---|---|
+| --- | --- | --- |
 | Agents | Agents 窗口 | 稳定预览版 |
 | Agents | Copilot CLI 插件自动发现 | GA |
 | 语言模型 | BYOK Token 使用量显示 | GA |

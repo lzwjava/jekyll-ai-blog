@@ -46,7 +46,7 @@ Email servers rely on standardized protocols: **SMTP** (Simple Mail Transfer Pro
 ### Summary Table
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | **User Agent (UA)** | Interface for composing, sending, and reading emails |
 | **Mail Server** | Stores and transfers messages between senders and recipients |
 | **Protocols (SMTP/POP3/IMAP)** | Rules governing how emails are sent and retrieved |

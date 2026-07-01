@@ -81,7 +81,7 @@ AI 可以帮助规划 **strangler fig** 风格的迁移——逐步替换旧代�
 AI 帮助很大，但它并非万能。一些诚实的告诫：
 
 | AI 擅长的领域 | AI 仍然吃力的领域 |
-|---|---|
+| --- | --- |
 | 重复性的、机械的 refactoring | 深刻的业务逻辑理解 |
 | 解释孤立的代码块 | 理解跨系统的 side effects |
 | 生成 boilerplate tests | 测试复杂的状态行为 (stateful behavior) |

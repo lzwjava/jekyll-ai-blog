@@ -72,7 +72,7 @@ AI coding assistants 现在能理解整个 repository，而不仅仅是你正在
 ### 总结
 
 | Old Era | AI Era |
-|---|---|
+| --- | --- |
 | Key-person risk = existential | Key-person risk = manageable |
 | Onboarding takes 3–6 months | Onboarding cut to ~7 weeks with AI |
 | Knowledge lives in people's heads | Knowledge codified + queryable via AI |

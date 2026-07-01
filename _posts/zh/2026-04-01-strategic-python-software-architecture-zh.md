@@ -52,7 +52,7 @@ Microservices 应该围绕业务能力使用 Domain-Driven Design (DDD) 进行�
 一个现代化、可扩展的 Python 项目看起来应该是这样的：
 
 | 结构 | 说明 |
-|---|---|
+| --- | --- |
 | `my_project/` | 根目录 |
 | ├── `src/` | 源代码目录 |
 | │   └── `my_project/` | 包名 |
@@ -137,7 +137,7 @@ Clean Architecture 让测试变得枯燥 —— 枯燥是好事。如果你的�
 ## 总结表
 
 | 问题 | 解决方案 |
-|---|---|
+| --- | --- |
 | AI 生成 300 行的 Spaghetti 脚本 | 从第一天起强制执行模块边界 |
 | 重命名导致处处报错 | 松耦合, Dependency Injection |
 | 无法将 Monolith 拆分为 Microservices | 早期设计 Domain-Driven 的文件夹结构 |

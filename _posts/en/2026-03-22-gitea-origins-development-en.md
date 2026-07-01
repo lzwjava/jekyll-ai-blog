@@ -53,7 +53,7 @@ In response to the founding of Gitea Limited and its non-open-source specialized
 ## Summary Table
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Original fork from | Gogs (November 2016) |
 | Key founders | Lunny Xiao, Matti Ranta |
 | Language | Go + TypeScript |

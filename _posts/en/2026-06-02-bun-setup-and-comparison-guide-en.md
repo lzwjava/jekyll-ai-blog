@@ -30,7 +30,7 @@ Bun is an all-in-one JavaScript runtime + package manager + bundler + test runne
 ## Bun vs npm — Direct Comparison
 
 | Feature | Bun | npm |
-|---|---|---|
+| --- | --- | --- |
 | Written in | Zig | JavaScript/C++ |
 | JS Engine | JavaScriptCore | V8 |
 | Install speed | ~10–25x faster (binary lockfile, parallel fetches) | Baseline |

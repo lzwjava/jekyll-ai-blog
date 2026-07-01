@@ -34,7 +34,7 @@ Here's the hardware report, Boss 🦞
 ### Summary
 
 | Component | Status |
-|-----------|--------|
+| ----------- | -------- |
 | CPU | ✅ 16 vCPU, Intel Xeon 8369B, AVX-512 |
 | Memory | ✅ 91 GiB, 90 GiB free |
 | GPU hardware | ✅ RTX 3090 detected on PCIe |

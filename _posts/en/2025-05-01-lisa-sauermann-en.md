@@ -73,7 +73,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ### Summary: Key Takeaways
 
 | Aspect | What We Learn |
-|--------|----------------|
+| -------- | ---------------- |
 | **Passion & Interest** | Start early and follow your curiosity. |
 | **Hard Work** | Consistent practice beats natural talent over time. |
 | **Education Systems** | Strong support structures make a big difference. |

@@ -25,7 +25,7 @@ Key facts:
 Deadlines:
 
 | Milestone | Date |
-|---|---|
+| --- | --- |
 | Full-paper submission | April 07, 2026 |
 | Notification of acceptance | June 18, 2026 |
 | Camera-ready / advance registration | July 10, 2026 |

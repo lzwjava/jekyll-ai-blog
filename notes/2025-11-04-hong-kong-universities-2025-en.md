@@ -15,12 +15,12 @@ type: note
 Hong Kong hosts several world-class universities, consistently ranking among the best in Asia and globally. Based on major 2025 rankings like Times Higher Education (THE), QS World University Rankings, and US News & World Report, here are the top five, ordered by their average performance across these sources. These institutions excel in research, teaching, and international outlook, with strengths in fields like medicine, engineering, business, and social sciences.
 
 | Rank | University | Key Highlights | Global Ranking (2025 Avg.) |
-|------|------------|----------------|----------------------------|
-| 1    | The University of Hong Kong (HKU) | Oldest in HK (founded 1911); top for medicine and law; strong global partnerships. | Top 30–40 |
-| 2    | The Chinese University of Hong Kong (CUHK) | Bilingual (English/Chinese); renowned for humanities, business, and medicine. | Top 40–50 |
-| 3    | The Hong Kong University of Science and Technology (HKUST) | Focus on STEM and innovation; youngest but fastest-rising; excels in engineering. | Top 50–60 |
-| 4    | City University of Hong Kong (CityU) | Emphasis on interdisciplinary research; strong in veterinary medicine and data science. | Top 70–80 |
-| 5    | Hong Kong Polytechnic University (PolyU) | Practical, industry-focused; leads in design, hospitality, and applied sciences. | Top 80–100 |
+| ------ | ------------ | ---------------- | ---------------------------- |
+| 1 | The University of Hong Kong (HKU) | Oldest in HK (founded 1911); top for medicine and law; strong global partnerships. | Top 30–40 |
+| 2 | The Chinese University of Hong Kong (CUHK) | Bilingual (English/Chinese); renowned for humanities, business, and medicine. | Top 40–50 |
+| 3 | The Hong Kong University of Science and Technology (HKUST) | Focus on STEM and innovation; youngest but fastest-rising; excels in engineering. | Top 50–60 |
+| 4 | City University of Hong Kong (CityU) | Emphasis on interdisciplinary research; strong in veterinary medicine and data science. | Top 70–80 |
+| 5 | Hong Kong Polytechnic University (PolyU) | Practical, industry-focused; leads in design, hospitality, and applied sciences. | Top 80–100 |
 
 Other notable mentions include Hong Kong Baptist University and Education University of Hong Kong, which rank in the top 200–300 globally. Rankings can vary slightly by methodology (e.g., QS emphasizes employer reputation, while THE focuses on research impact).
 

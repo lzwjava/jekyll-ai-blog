@@ -18,7 +18,7 @@ Massive beat — just reported yesterday (June 24, 2026). Here's the breakdown:
 ## Q3 FY2026 Results
 
 | Metric | Actual | Estimate | Beat |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Revenue | $41.46B | ~$35.6B | +16% |
 | Adj. EPS | $25.11 | ~$20.28 | +24% |
 | Gross Margin | 84.9% | ~81.6% | beat |

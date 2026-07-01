@@ -32,7 +32,7 @@ So "better" depends on which layer you actually want to touch.
 Quick comparison for your use case:
 
 | | llama.cpp | Ollama | LM Studio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Open source | Yes (MIT) | Yes (MIT) | No |
 | Interface | CLI/lib | CLI/daemon | GUI (+ CLI) |
 | Control over flags | Full | Partial (Modelfile) | Limited (UI sliders) |

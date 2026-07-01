@@ -54,7 +54,7 @@ ggml_cuda_init: failed to initialize CUDA: CUDA driver version is insufficient f
 ### Current State
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | nvidia-driver-580 packages | ✅ Installed |
 | DKMS modules (6.8.0-107) | ✅ Built |
 | CMake configure | ✅ Done |

@@ -12,7 +12,7 @@ type: note
 两项变更已应用并验证：
 
 | 检查项 | 修改前 | 修改后 |
-|---|---|---|
+| --- | --- | --- |
 | `/sys/power/mem_sleep` | `s2idle [deep]` | **`[s2idle] deep`** |
 | 配置文件 | 不存在 | `/etc/systemd/sleep.conf.d/disable-deep-suspend.conf` → `SleepMode=s2idle` |
 

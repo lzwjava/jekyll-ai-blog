@@ -20,7 +20,7 @@ Answer:
 ### ⚡ Short & Punchy (Best for CLI typing)
 
 | Name | CLI Usage | Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **qk** | `qk note`, `qk git` | "quick" abbreviated, ultra-short |
 | **kx** | `kx note`, `kx git` | minimal keystrokes |
 | **wk** | `wk note`, `wk git` | "workit" abbreviated |
@@ -34,7 +34,7 @@ Answer:
 ### 🔧 Tool / Kit themed
 
 | Name | Repo | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **toolbelt** | `toolbelt` | Like a Swiss Army belt of scripts |
 | **craftkit** | `craftkit` | Crafting your workflow |
 | **gearbox** | `gearbox` | Switching between tools |
@@ -50,7 +50,7 @@ Answer:
 ### 🚀 Productivity / Workflow themed
 
 | Name | Repo | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **flowkit** | `flowkit` | Workflow kit |
 | **dokit** | `dokit` | "do" + kit, `dokit note` |
 | **runbook** | `runbook` | DevOps term, fits scripts well |
@@ -67,7 +67,7 @@ Answer:
 ### 🧠 LLM / AI aware (since some scripts use LLM)
 
 | Name | Repo | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **augkit** | `augkit` | Augmented toolkit |
 | **aikit** | `aikit` | AI-enhanced kit |
 | **copilot** | `copilot` | Already taken by GitHub though |
@@ -80,7 +80,7 @@ Answer:
 ### 🧑‍💻 Personal / Hacker style
 
 | Name | Repo | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **dotwork** | `dotwork` | Like dotfiles but for work |
 | **myops** | `myops` | Personal DevOps |
 | **localops** | `localops` | Local operations toolkit |
@@ -97,7 +97,7 @@ Answer:
 ### 🌐 Cross-platform hinting names
 
 | Name | Repo | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **xkit** | `xkit` | "cross" kit |
 | **xrun** | `xrun` | Cross-platform run |
 | **xwork** | `xwork` | Cross-platform work |
@@ -111,7 +111,7 @@ Answer:
 ### 🎯 Shortlist — Best Overall Picks
 
 | Rank | Name | Why |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **workit** | Natural, action verb, great subcommands |
 | 2 | **hq** | Ultra short, `hq note` feels powerful |
 | 3 | **forge** | Strong imagery, easy to type |

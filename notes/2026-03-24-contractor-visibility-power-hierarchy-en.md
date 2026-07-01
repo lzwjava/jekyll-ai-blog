@@ -80,7 +80,7 @@ In other words, for a contractor aiming for conversion: **do great work, but rou
 ## Summary
 
 | Factor | Permanent Employee | Contractor |
-|---|---|---|
+| --- | --- | --- |
 | Visibility | Expected & rewarded | Risky if too high |
 | Public posting | Encouraged for career growth | Can trigger resentment |
 | Social capital | Accumulates naturally | Must be built carefully |

@@ -20,7 +20,7 @@ type: note
 ### 你识别出的核心问题
 
 | 问题 | 发生原因 |
-|---|---|
+| --- | --- |
 | 加载了过多 context | LLM 失去焦点，出现 "lost in the middle" 问题 |
 | 无关的 context | 显著降低响应质量 |
 | Long context ≠ 良好的 memory | LLM 对所有 token 的处理权重基本一致，缺乏真正的“重要性加权” |
@@ -61,7 +61,7 @@ User Prompt
 ### 现实系统的做法（你想法的生产环境落地）
 
 | 系统 | 方法 |
-|---|---|
+| --- | --- |
 | **MemGPT / OpenMemory** | 带有 retrieval 的层级化 memory，而非加载全部 context |
 | **LangChain Memory** | Summary + store，按相关性 retrieve |
 | **Mem0** | 每个 session 进行 Entity + tag 提取，结合 vector search |

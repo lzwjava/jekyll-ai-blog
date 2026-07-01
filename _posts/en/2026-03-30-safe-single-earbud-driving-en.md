@@ -55,7 +55,7 @@ For podcast listening at moderate volume, a budget ANC earbud like Xiaomi's Redm
 ## Summary
 
 | Habit | Assessment |
-|---|---|
+| --- | --- |
 | Single earbud while driving | ✅ Safe and legal |
 | Alternating ears | ✅ Smart, reduces cumulative ear fatigue |
 | Noise cancellation mode | ✅ Allows lower volume |

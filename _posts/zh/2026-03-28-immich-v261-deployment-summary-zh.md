@@ -14,7 +14,7 @@ Immich v2.6.1 已启动并运行。以下是运行状态：
 **✅ 正在运行 — `http://192.168.1.36:2283`**
 
 | Container | Status |
-|---|---|
+| --- | --- |
 | immich_server | Starting up |
 | immich_postgres | Healthy ✅ |
 | immich_redis | Starting |

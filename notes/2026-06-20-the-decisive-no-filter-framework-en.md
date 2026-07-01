@@ -39,7 +39,7 @@ The insight: **a pre-committed framework kills individual negotiation.** You don
 For you specifically, given your trajectory toward AI engineering, something like:
 
 | | **Trains my AI depth** | **Doesn't** |
-|---|---|---|
+| --- | --- | --- |
 | **Ships something real** | ✅ DO IT | ⚠️ only if very fast |
 | **Doesn't ship** | ⚠️ only if deep learning | ❌ say no |
 

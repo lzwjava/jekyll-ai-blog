@@ -46,7 +46,7 @@ A single week is noisy. A new model drops (MiniMax M3 at +103% WoW) and it spike
 **The "leader" changes by use case:**
 
 | Use case | Who wins |
-|---|---|
+| --- | --- |
 | Raw throughput / cost | DeepSeek V4 Flash |
 | Chinese language | MiMo, GLM, Hy3 |
 | Coding | Claude Opus 4.7/4.8 |

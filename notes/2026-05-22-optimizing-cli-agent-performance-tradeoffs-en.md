@@ -144,7 +144,7 @@ hyperfine \
 ## Practical Decision Matrix for Your Use Case
 
 | Workload | Python Good Enough? | Rust Worth It? |
-|---|---|---|
+| --- | --- | --- |
 | LLM API orchestration | ✅ always | overkill |
 | Small file reads (<1k files) | ✅ | no |
 | Large Excel (>50k rows, custom logic) | ⚠️ use polars | ✅ yes |

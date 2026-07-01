@@ -40,7 +40,7 @@ Cloud Logging（原名 Stackdriver Logging）是 Google Cloud 的全托管、实
 ### 2. 摄取方法 (Ingestion Methods)
 
 | 方法 | 适用场景 | Structured Logging 支持 | 推荐代理 |
-|-------------------------|---------------------------------------|-----------------------------|-------------------|
+| ------------------------- | --------------------------------------- | ----------------------------- | ------------------- |
 | Ops Agent | Compute Engine, GKE Autopilot, VMs | 是 | 是 (2025+) |
 | Cloud Logging libraries | Applications (Java, Go, Python, Node, .NET, etc.) | 极佳 (JSON) | — |
 | Fluent Bit / Fluentd | Kubernetes, containers, lightweight | 是 | 是 |
@@ -124,7 +124,7 @@ Sinks 将日志路由到目的地：
 ### 7. 保留期与存储类别 (Retention & Storage Classes)
 
 | Bucket 类型 | 默认保留期 | 成本级别 | 使用场景 |
-|-------------------|-------------------|------------|------------------------------|
+| ------------------- | ------------------- | ------------ | ------------------------------ |
 | _Default | 30 天 | 标准 | 大多数日志 |
 | _Required | 400 天 | 标准 | 审计日志 (不可变) |
 | 自定义 bucket | 1 天 – 永久 | 视情况而定 | 归档, 合规性 |

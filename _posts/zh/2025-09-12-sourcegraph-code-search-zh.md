@@ -195,7 +195,7 @@ lang:python '"""'
 ## **6. 查询示例**
 
 | **搜索目标** | **查询语句** |
-|--------------|-------------|
+| -------------- | ------------- |
 | 查找所有 Java `main` 方法 | `lang:java "public static void main"` |
 | 查找 Python 测试函数 | `lang:python "def test_"` |
 | 查找 Go 语言中的 TODO 注释 | `lang:go "// TODO:"` |

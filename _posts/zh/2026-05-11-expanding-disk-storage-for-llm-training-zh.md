@@ -161,7 +161,7 @@ source ~/.bashrc
 ## LLM训练数据存储容量现实核查
 
 | 数据集 | 近似大小 |
-|---|---|
+| --- | --- |
 | FineWeb (sample-10BT) | ~10–25 GB |
 | FineWeb (完整版) | ~44 TB（本地不现实） |
 | The Pile | ~825 GB |

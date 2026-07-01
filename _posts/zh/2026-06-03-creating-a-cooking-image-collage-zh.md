@@ -78,7 +78,7 @@ magick cooking_collage.jpg -quality 80 cooking_collage.jpg
 ## 使用的工具汇总
 
 | 步骤 | 工具 | 命令 |
-|------|------|---------|
+| ------ | ------ | --------- |
 | 调整尺寸 | ImageMagick `magick` | `-resize 400x400^ -gravity center -extent 400x400` |
 | 合成 | ImageMagick `montage` | `-tile 3x3 -geometry 400x400+4+4` |
 | 压缩 | ImageMagick `magick` | `-quality 80` |

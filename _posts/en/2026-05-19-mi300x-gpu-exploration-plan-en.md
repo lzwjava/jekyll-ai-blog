@@ -182,7 +182,7 @@ rocm-smi --showuse --showmemuse -d 0 --json
 ## ROCm-Specific Gotchas
 
 | Issue | Fix |
-|---|---|
+| --- | --- |
 | `torch.compile` slow first run | Add `TORCH_COMPILE_DEBUG=1`, cache in `/tmp/torchinductor_*` |
 | Missing CUDA kernels | Many libs auto-map; for manual: `HIP_VISIBLE_DEVICES=0` |
 | Flash Attention | Use `flash-attn` ROCm fork or `xformers` with ROCm |

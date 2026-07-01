@@ -43,7 +43,7 @@ More formally, Bootstrap 5 inline forms use `row-cols-lg-auto` to create horizon
 ### Key Replacement Classes Summary
 
 | Bootstrap 4 (removed) | Bootstrap 5 Replacement |
-|---|---|
+| --- | --- |
 | `form-inline` | `d-flex`, `flex-row`, `flex-wrap` |
 | `form-group` | `mb-3` (margin utility) |
 | `form-row` | `row` + `g-*` (gutter utilities) |

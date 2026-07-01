@@ -48,7 +48,7 @@ This prevents the classic failure mode: developers build exactly what was asked,
 A deep technical lead's code review is qualitatively different:
 
 | Surface-level Review | Deep Technical Review |
-|---|---|
+| --- | --- |
 | "This works" | "This works but will cause N+1 queries at scale" |
 | "Looks clean" | "This abstraction leaks implementation details" |
 | "Tests pass" | "These tests only cover happy paths; here are 3 edge cases" |

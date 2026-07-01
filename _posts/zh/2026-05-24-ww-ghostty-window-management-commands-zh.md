@@ -16,7 +16,7 @@ type: note
 为 `ww ghostty` 新增两个命令：
 
 | 命令 | 描述 |
-|---------|-------------|
+| --------- | ------------- |
 | `ww ghostty list` | 列出所有已打开的 Ghostty 窗口，包括 ID、标题、位置、尺寸 |
 | `ww ghostty focus <N\|title>` | 根据索引或标题子串将 Ghostty 窗口缩放至接近全屏 |
 | `ww ghostty focus reset` | 将所有窗口变换恢复至原始尺寸/位置 |
@@ -63,7 +63,7 @@ type: note
 ### 在 macOS 26.5 上可用的方案
 
 | API | 状态 | 用途 |
-|-----|--------|---------|
+| ----- | -------- | --------- |
 | `CGWindowListCopyWindowInfo` | ✅ 可用 | 列出/枚举窗口 |
 | `CGSSetWindowTransform` | ✅ 可用 | 视觉上缩放+平移窗口 |
 | `CGSOrderWindow` | ✅ 可用（CGWindowList 中视觉 z 顺序未改变） | 将窗口置于最前 |

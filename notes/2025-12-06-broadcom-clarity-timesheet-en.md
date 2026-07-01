@@ -36,7 +36,7 @@ Timesheets in Clarity are configurable, supporting both classic and modern inter
 Clarity's timesheet module is feature-rich, blending usability with enterprise-grade controls. Below is a breakdown of core capabilities:
 
 | Feature | Description | Benefits |
-|---------|-------------|----------|
+| --------- | ------------- | ---------- |
 | **Task-Level Time Entry** | Log hours against specific tasks, projects, or indirect/incident activities. Supports multi-day spreading (e.g., enter a total of 40 hours to auto-distribute 8 hours/day). | Ensures precise allocation; reduces manual errors in multi-task scenarios. |
 | **Submission and Approval Workflow** | Users submit timesheets for manager review; includes notifications, reminders, and rejection/rework loops. Post-submission, jobs like "Post Timesheets" update actuals and ETC (Estimate to Complete). | Streamlines governance; maintains accountability with audit logs. |
 | **Business Rules and Validation** | Admins define rules (e.g., no more than 50 hours/week) in hours or days, validated on submission. Integrates with "Timesheet Hook" for custom logic. | Enforces policies like overtime limits; prevents invalid data entry. |

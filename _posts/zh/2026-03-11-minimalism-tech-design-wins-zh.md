@@ -124,7 +124,7 @@ Windows 8 实现了“simple, squared-off”的 Metro 外观，比 Windows 7 和
 ## 6. 编码“Less is Better”的工程原则
 
 | Principle | Meaning |
-|---|---|
+| --- | --- |
 | **KISS** | Keep It Simple, Stupid — 优先简单解决方案 |
 | **YAGNI** | You Aren't Gonna Need It — 不要投机构建功能 |
 | **DRY** | Don't Repeat Yourself — 减少代码重复 |

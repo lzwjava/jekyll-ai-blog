@@ -65,7 +65,7 @@ When you switched to `--model openai/gpt-4.1-mini`, the tool correctly routed to
 ## Summary Table
 
 | Error | Cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | 400 from proxy | `claw` doesn't send Claude Code client headers | Add correct `User-Agent` / client version header |
 | Missing credentials | `ANTHROPIC_API_KEY` was set to empty | Re-export a valid key |
 | 401 from OpenAI | `OPENAI_API_KEY` is a proxy key, not a real OpenAI key | Set `OPENAI_BASE_URL` to the proxy's OpenAI-compatible endpoint |

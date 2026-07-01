@@ -182,7 +182,7 @@ Be methodical. Use tools iteratively based on what you discover."""
 ## What Real LLM Red Team Agents Do Well
 
 | Attack Surface | LLM Advantage |
-|---|---|
+| --- | --- |
 | **Port/service enum** | Interprets nmap output, chains to next step automatically |
 | **CVE matching** | Maps service versions → CVEs from training data |
 | **Web fuzzing** | Generates contextual payloads (not just wordlists) |

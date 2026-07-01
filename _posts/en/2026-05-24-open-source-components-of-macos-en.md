@@ -73,7 +73,7 @@ Everything above the Darwin layer is proprietary:
 ## Quick Reference
 
 | Component | Open? | URL |
-|---|---|---|
+| --- | --- | --- |
 | XNU kernel | ✅ | github.com/apple-oss-distributions/xnu |
 | dyld (dynamic linker) | ✅ | github.com/apple-oss-distributions/dyld |
 | libdispatch (GCD) | ✅ | github.com/apple/swift-corelibs-libdispatch |

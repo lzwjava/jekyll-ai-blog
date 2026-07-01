@@ -96,7 +96,7 @@ His legacy is immense. FORTRAN is the language used today for comparing the perf
 ### Summary Table
 
 | Attribute | Detail |
-|---|---|
+| --- | --- |
 | **Full Name** | John Warner Backus |
 | **Born** | December 3, 1924, Philadelphia, PA |
 | **Died** | March 17, 2007, Ashland, OR |

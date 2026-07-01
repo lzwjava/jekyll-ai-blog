@@ -50,7 +50,7 @@ Claude 的支持页面建议查看其支持的账单地点列表，以确认您�
 ### 总结
 
 | 因素 | OCBC Visa Debit 状态 |
-|---|---|
+| --- | --- |
 | Anthropic 接受 Debit card 吗？ | ✅ 是，官方支持 |
 | 3D Secure 支持 | ✅ OCBC 支持 |
 | 国际在线支付 | ⚠️ 必须在 OCBC app 中开启 |

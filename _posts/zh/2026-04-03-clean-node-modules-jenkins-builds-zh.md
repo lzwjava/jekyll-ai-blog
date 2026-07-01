@@ -124,7 +124,7 @@ pipeline {
 ## 总结表格
 
 | 策略 | 清理程度？ | 速度 | 安全性 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `npm install`（复用 node_modules） | 否 | 快 | 中等（npm 3+ 处理大部分情况） |
 | `npm prune` + `npm install` | 部分 | 中等 | 良好 |
 | `rm -rf node_modules` + `npm install` | 完全 | 慢 | 最佳 |

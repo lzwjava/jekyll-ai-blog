@@ -23,7 +23,7 @@ ww sync zed back    同步 ~/.config/zed/ 从远程到本地
 修改的文件（提交 `210276a`，已推送到 `main`）：
 
 | 文件 | 变更 |
-|---|---|
+| --- | --- |
 | `ww/sync/remote.py` | +`sync_zed()` 函数 — 通过 scp 同步 `~/.config/zed/` |
 | `ww/main.py` | +帮助文本行，+`zed` 的分发块 |
 | `README.md` | +同步表格中的一行 |

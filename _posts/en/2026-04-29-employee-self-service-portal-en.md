@@ -45,7 +45,7 @@ Employees can enroll in benefit plans and update personal information as needed,
 The table in your interface contains the following columns:
 
 | Column | Meaning |
-|---|---|
+| --- | --- |
 | **Timesheet Period** | The monthly pay period (e.g., 2026-04-01 ~ 2026-04-30) |
 | **Attendance Days** | Number of working days attended (e.g., 21.00) |
 | **Attendance Hours** | Total hours worked (e.g., 168 hours = 21 days × 8 hrs) |

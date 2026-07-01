@@ -132,7 +132,7 @@ Here are key individuals who have exerted significant influence in the software 
 ### Comparison to Jim Keller
 
 | **Aspect** | **Jim Keller (Hardware)** | **Software Equivalent** |
-|------------|--------------------------|-------------------------|
+| ------------ | -------------------------- | ------------------------- |
 | **Foundational Work** | K7, K8, Zen, A4/A5, Autopilot | Linux (Torvalds), Python (van Rossum), TensorFlow (Dean), JavaScript (Eich), Agile/Microservices (Fowler) |
 | **Team Leadership** | Rebuilt AMD’s CPU team, led Tesla’s Autopilot silicon | Torvalds (Linux community), Dean (Google Brain), van Rossum (Python community) |
 | **Multi-Company Impact** | DEC, AMD, Apple, Tesla, Intel, Tenstorrent | van Rossum (Google, Dropbox, Microsoft), Eich (Netscape, Mozilla, Brave), Dean (Google) |

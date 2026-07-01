@@ -36,7 +36,7 @@ Checkpoints at `base_checkpoints/d8/` steps 1k and 5k. The SFT step ran as well 
 Checkpoints every 10k in `base_checkpoints/d12/`:
 
 | Step | Date |
-|------|------|
+| ------ | ------ |
 | 130k | Jun 7 |
 | 140k | Jun 9 |
 | 150k | Jun 9 |
@@ -113,7 +113,7 @@ Larger architecture. Checkpoint at `out-gpt2-200m/ckpt.pt` (~2.5GB). train.log i
 ### Available datasets
 
 | Dataset | Size | Tokens |
-|---------|------|--------|
+| --------- | ------ | -------- |
 | github-code-tok | 27GB | ~7-8B tokens |
 | sec-edgar-tok | 3.1GB | ~1.5B tokens |
 | edu_fineweb100B | ~15GB | split across shards |

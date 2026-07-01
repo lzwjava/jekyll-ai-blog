@@ -60,7 +60,7 @@ Claude Relay Service 是一个多平台的 AI API 中继服务，支持 Claude�
 ## 总结
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | **平台** | pincc.ai — Claude Relay Service 的文档/门户 |
 | **核心功能** | 自托管 AI API 代理/中继 |
 | **支持的 AI** | Claude、OpenAI、Gemini、AWS Bedrock、Azure、Droid |

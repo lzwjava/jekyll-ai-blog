@@ -58,7 +58,7 @@ Xianyu is operated by Alibaba. Selling VPN tools, proxy setups, or access to blo
 ## Summary of Legal Exposure
 
 | Activity | Legal Risk | Severity |
-|---|---|---|
+| --- | --- | --- |
 | Installing Clash/Hysteria for users for a fee | Selling unauthorized VPN service — Criminal Law §225 | **Very High — Prison + Fines** |
 | Reselling Claude API access | Unauthorized telecom operations + Anthropic ToS violation | **High — Account bans + potential prosecution** |
 | Distributing unapproved foreign AI to Chinese users | CAC foreign AI content regulations | **Medium-High — Fines, platform shutdown** |

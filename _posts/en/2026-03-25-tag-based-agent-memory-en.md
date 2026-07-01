@@ -20,7 +20,7 @@ Answer:
 ### The Core Problem You Identified
 
 | Issue | Why It Happens |
-|---|---|
+| --- | --- |
 | Too much context loaded | LLM loses focus, "lost in the middle" problem |
 | Unrelated context | Degrades response quality significantly |
 | Long context ≠ good memory | LLM treats all tokens roughly equally, no true "importance weighting" |
@@ -61,7 +61,7 @@ This keeps context **small, relevant, and high quality**.
 ### What Real Systems Do (Your Idea in Production)
 
 | System | Approach |
-|---|---|
+| --- | --- |
 | **MemGPT / OpenMemory** | Hierarchical memory with retrieval, not full context load |
 | **LangChain Memory** | Summarize + store, retrieve by relevance |
 | **Mem0** | Entity + tag extraction per session, vector search |

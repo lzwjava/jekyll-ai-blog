@@ -96,7 +96,7 @@ Job hopping 可以让你比正常情况下快几年获得晋升。一些公司�
 ## Summary Table
 
 | 机制 | 普遍程度 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | 固定周期 (年度/半年度) | 非常普遍 | 所有 Big Tech 的标准做法 |
 | 预算/Headcount 限制 | 非常普遍 | 晋升的隐形天花板 |
 | 基于影响 (Impact-based) | 核心标准 | Visibility 与 Output 同样重要 |

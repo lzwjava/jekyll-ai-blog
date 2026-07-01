@@ -26,7 +26,7 @@ Using the current live data from companiesmarketcap.com and the early-2021 snaps
 Based on data from February–March 2021:
 
 | Rank | Asset | ~Market Cap |
-|------|-------|------------|
+| ------ | ------- | ------------ |
 | 1 | Gold | ~$11.5T |
 | 2 | Apple | ~$2.3T |
 | 3 | Saudi Aramco | ~$2.0T |
@@ -51,7 +51,7 @@ Based on data from February–March 2021:
 ### March 2026 Top 20 (from the page you linked)
 
 | Rank | Asset | Market Cap |
-|------|-------|-----------|
+| ------ | ------- | ----------- |
 | 1 | Gold | $34.85T |
 | 2 | NVIDIA | $4.55T |
 | 3 | Silver | $4.44T |
@@ -126,7 +126,7 @@ Bitcoin actually grew in absolute value, but the explosive growth of other asset
 ## Summary of the Big Themes
 
 | Theme | Winners | Losers |
-|-------|---------|--------|
+| ------- | --------- | -------- |
 | **AI Revolution** | NVIDIA, TSMC, Broadcom, Microsoft, Meta | — |
 | **Precious Metal Safe Haven** | Gold, Silver | — |
 | **China Regulatory Crackdown** | — | Tencent, Alibaba |

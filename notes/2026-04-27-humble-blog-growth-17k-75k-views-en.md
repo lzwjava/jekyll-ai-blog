@@ -52,7 +52,7 @@ The goal here is quiet confidence. Let the numbers speak plainly, without framin
 ## What to Avoid
 
 | Too loud | Humble alternative |
-|---|---|
+| --- | --- |
 | "~900K annualized page views" | "75K/month as of April 2026" |
 | "Rapidly growing blog" | "Readership has grown steadily" |
 | "Top personal tech blog" | *(say nothing — omit entirely)* |

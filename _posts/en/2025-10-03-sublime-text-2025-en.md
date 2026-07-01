@@ -26,18 +26,18 @@ I'll break this down: key differences, Sublime's strengths, and when/why to choo
 
 Here's a side-by-side comparison based on 2025 realities (assuming continued trends: VS Code's dominance, Zed's growth, Sublime's steady niche appeal).
 
-| Feature/Aspect          | Sublime Text                          | VS Code                              | Zed                                  |
-|-------------------------|---------------------------------------|--------------------------------------|--------------------------------------|
-| **Performance/Speed**   | **Top-tier**: Instant startup (<1s), handles huge files (e.g., 1GB+ JSON) without lag. Minimal RAM (~50-200MB). No Electron overhead. | Good but can slow with extensions (200-800MB RAM). Startup ~2-5s. Improves with remote/WSL modes. | **Excellent**: GPU-accelerated, sub-1s startup, very low RAM (~100-300MB). Handles large files smoothly, but still maturing. |
-| **Resource Usage**      | Ultra-lightweight; runs on old hardware. | Heavier due to Electron; battery drain on laptops. | Lightweight by design; efficient on modern machines. |
-| **Extensibility**       | Good: Package Control for 2,000+ packages (e.g., Git, LSP via LSP plugin). Config via JSON files—powerful but manual. No "marketplace" GUI. | **Best-in-class**: 30k+ extensions, easy install. Supports everything (themes, languages, tools). | Growing: Built-in LSP, Git, terminal. Fewer extensions (focus on core + AI), but integrates with tools like Cursor/Zed agents. |
-| **Built-in Features**   | Minimal: Syntax highlighting, multi-cursor, Goto Anything (fuzzy search). No terminal/Git/debugger by default—add via plugins. | Full IDE: Terminal, Git, debugger, tasks, snippets, IntelliSense. AI-ready (Copilot, etc.). | Modern: Built-in terminal, Git, collaboration, AI (out-of-box agents). No need for many plugins yet. |
-| **UI/UX**               | Clean, distraction-free. Highly customizable (e.g., vintage mode like Vim). Tabbed interface with powerful commands. | Feature-rich, customizable but can feel cluttered. Great sidebar/debugger. | Sleek, modern (macOS-inspired). Real-time collab, versioned edits. Fast navigation like Sublime's Goto. |
-| **Collaboration**       | Basic: Via plugins (e.g., Sublime Merge for Git diffs). No native real-time. | Strong: Live Share extension for real-time editing. | **Standout**: Native multiplayer (like Google Docs for code), screen sharing. |
-| **Cost & Licensing**    | $99 one-time (per user); eval nags but unlimited. No subscriptions. | Free forever. | Free/open-source. |
+| Feature/Aspect | Sublime Text | VS Code | Zed |
+| ------------------------- | --------------------------------------- | -------------------------------------- | -------------------------------------- |
+| **Performance/Speed** | **Top-tier**: Instant startup (<1s), handles huge files (e.g., 1GB+ JSON) without lag. Minimal RAM (~50-200MB). No Electron overhead. | Good but can slow with extensions (200-800MB RAM). Startup ~2-5s. Improves with remote/WSL modes. | **Excellent**: GPU-accelerated, sub-1s startup, very low RAM (~100-300MB). Handles large files smoothly, but still maturing. |
+| **Resource Usage** | Ultra-lightweight; runs on old hardware. | Heavier due to Electron; battery drain on laptops. | Lightweight by design; efficient on modern machines. |
+| **Extensibility** | Good: Package Control for 2,000+ packages (e.g., Git, LSP via LSP plugin). Config via JSON files—powerful but manual. No "marketplace" GUI. | **Best-in-class**: 30k+ extensions, easy install. Supports everything (themes, languages, tools). | Growing: Built-in LSP, Git, terminal. Fewer extensions (focus on core + AI), but integrates with tools like Cursor/Zed agents. |
+| **Built-in Features** | Minimal: Syntax highlighting, multi-cursor, Goto Anything (fuzzy search). No terminal/Git/debugger by default—add via plugins. | Full IDE: Terminal, Git, debugger, tasks, snippets, IntelliSense. AI-ready (Copilot, etc.). | Modern: Built-in terminal, Git, collaboration, AI (out-of-box agents). No need for many plugins yet. |
+| **UI/UX** | Clean, distraction-free. Highly customizable (e.g., vintage mode like Vim). Tabbed interface with powerful commands. | Feature-rich, customizable but can feel cluttered. Great sidebar/debugger. | Sleek, modern (macOS-inspired). Real-time collab, versioned edits. Fast navigation like Sublime's Goto. |
+| **Collaboration** | Basic: Via plugins (e.g., Sublime Merge for Git diffs). No native real-time. | Strong: Live Share extension for real-time editing. | **Standout**: Native multiplayer (like Google Docs for code), screen sharing. |
+| **Cost & Licensing** | $99 one-time (per user); eval nags but unlimited. No subscriptions. | Free forever. | Free/open-source. |
 | **Community/Ecosystem** | Dedicated but smaller (~1M users). Strong in sysadmin/CLI workflows. | Massive; dominates tutorials, jobs. | Emerging (~500k+ users by 2025); backed by investors, growing fast in startups/teams. |
-| **Platform Support**    | macOS, Windows, Linux (excellent consistency). | All platforms; best on Windows. | macOS/Linux focus (Windows in beta 2025); cross-platform improving. |
-| **Learning Curve**      | Steep for customization; rewarding for pros. | Beginner-friendly with defaults. | Moderate; intuitive but some Rust-specific quirks. |
+| **Platform Support** | macOS, Windows, Linux (excellent consistency). | All platforms; best on Windows. | macOS/Linux focus (Windows in beta 2025); cross-platform improving. |
+| **Learning Curve** | Steep for customization; rewarding for pros. | Beginner-friendly with defaults. | Moderate; intuitive but some Rust-specific quirks. |
 | **Updates/Maintenance** | Steady (Sublime Text 4 since 2021; frequent patches). Not as rapid as open-source. | Frequent (monthly); huge momentum. | Rapid (weekly-ish); actively developed. |
 
 **Core Philosophy Differences**:

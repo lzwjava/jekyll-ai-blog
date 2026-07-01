@@ -66,7 +66,7 @@ A fork of the **Top 1 solution** for the WSDM 2022 XMRec challenge, focused on c
 ## Summary Table
 
 | Project | Stars | Topic |
-|---|---|---|
+| --- | --- | --- |
 | MeteoAI/awesome-atmos | ⭐ 214 | Atmospheric science + ML resources |
 | Tencent2020_Top5 | ⭐ 87 | Ad algorithm competition solution |
 | TreesBO | ⭐ 4 | Bayesian optimization for trees |

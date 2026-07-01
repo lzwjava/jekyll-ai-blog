@@ -182,7 +182,7 @@ rocm-smi --showuse --showmemuse -d 0 --json
 ## ROCm 特定注意事项
 
 | 问题 | 解决方法 |
-|---|---|
+| --- | --- |
 | `torch.compile` 首次运行慢 | 添加 `TORCH_COMPILE_DEBUG=1`，缓存位于 `/tmp/torchinductor_*` |
 | 缺少 CUDA 内核 | 许多库会自动映射；手动：`HIP_VISIBLE_DEVICES=0` |
 | Flash Attention | 使用 `flash-attn` 的 ROCm 分支或带 ROCm 的 `xformers` |

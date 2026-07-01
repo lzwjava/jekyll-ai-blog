@@ -35,7 +35,7 @@ Before diving into commands, understanding key concepts is crucial:
 These cmdlets retrieve information about the system, processes, and services.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-ComputerInfo` | Retrieves system hardware and software details. | `Get-ComputerInfo | Select-Object WindowsProductName, OsVersion` |
 | `Get-Process` | Lists running processes. | `Get-Process | Where-Object {$_.CPU -gt 1000}` |
 | `Get-Service` | Displays services on the system. | `Get-Service | Where-Object {$_.Status -eq "Running"}` |
@@ -52,7 +52,7 @@ Get-Process | Sort-Object CPU -Descending | Select-Object Name, CPU, Id -First 5
 PowerShell treats the file system as a provider, allowing navigation similar to a drive.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-Item` | Retrieves files or directories. | `Get-Item C:\Users\*.txt` |
 | `Set-Item` | Modifies item properties (e.g., file attributes). | `Set-Item -Path C:\test.txt -Value "New content"` |
 | `New-Item` | Creates a new file or directory. | `New-Item -Path C:\Docs -Name Report.txt -ItemType File` |
@@ -73,7 +73,7 @@ Copy-Item C:\Temp\MyFolder\Test.txt C:\Backup
 Cmdlets for managing system settings, services, and users.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Start-Service` | Starts a service. | `Start-Service -Name "wuauserv"` |
 | `Stop-Service` | Stops a service. | `Stop-Service -Name "wuauserv"` |
 | `Restart-Computer` | Restarts the system. | `Restart-Computer -Force` |
@@ -94,7 +94,7 @@ if ($service.Status -eq "Stopped") {
 Cmdlets for network configuration and diagnostics.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Test-Connection` | Pings a remote host. | `Test-Connection google.com` |
 | `Get-NetAdapter` | Lists network adapters. | `Get-NetAdapter | Select-Object Name, Status` |
 | `Get-NetIPAddress` | Retrieves IP address configurations. | `Get-NetIPAddress -AddressFamily IPv4` |
@@ -112,7 +112,7 @@ Resolve-DnsName google.com
 Cmdlets for managing local users and groups.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `New-LocalUser` | Creates a local user account. | `New-LocalUser -Name "TestUser" -Password (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force)` |
 | `Remove-LocalUser` | Deletes a local user account. | `Remove-LocalUser -Name "TestUser"` |
 | `Get-LocalGroup` | Lists local groups. | `Get-LocalGroup | Select-Object Name` |
@@ -131,7 +131,7 @@ Add-LocalGroupMember -Group "Administrators" -Member "TestUser"
 PowerShell excels in scripting for automation.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Write-Output` | Outputs data to the pipeline. | `Write-Output "Hello, World!"` |
 | `ForEach-Object` | Loops through items in a pipeline. | `Get-Process | ForEach-Object { $_.Name }` |
 | `Where-Object` | Filters objects based on conditions. | `Get-Service | Where-Object { $_.Status -eq "Running" }` |
@@ -150,7 +150,7 @@ Get-Process | Select-Object Name, CPU, StartTime | Export-Csv -Path $logPath -No
 Modules extend PowerShell functionality.
 
 | Cmdlet | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-Module` | Lists available or imported modules. | `Get-Module -ListAvailable` |
 | `Import-Module` | Imports a module. | `Import-Module ActiveDirectory` |
 | `Install-Module` | Installs a module from a repository. | `Install-Module -Name PSWindowsUpdate -Force` |

@@ -39,7 +39,7 @@ This is essentially the same problem as **Uber's ETA model failing to account fo
 ## The actual failure modes
 
 | Problem | Root cause | What good systems do |
-|---|---|---|
+| --- | --- | --- |
 | Weekend 爆单, not enough workers | No surge capacity planning | Dynamic pricing + pre-scheduling incentives |
 | 阿姨 battery dead | Dispatch ignores EV state | Battery-aware routing (like Tesla fleet dispatch) |
 | 前一单 too far away | No geographic clustering of orders | Cluster nearby jobs per worker per day |

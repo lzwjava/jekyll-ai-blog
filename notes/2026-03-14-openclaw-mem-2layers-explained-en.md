@@ -50,7 +50,7 @@ When starting a new session, OpenClaw can automatically save the previous conver
 ## Summary Table
 
 | Memory Type | Persists Across Sessions? | Where Stored |
-|---|---|---|
+| --- | --- | --- |
 | Conversation History | ❌ No | In-memory only |
 | Long-Term Memory (MEMORY.md) | ✅ Yes | Disk (Markdown files) |
 | Session Logs (.jsonl) | ✅ Yes (readable/searchable) | `~/.openclaw/.../sessions/` |

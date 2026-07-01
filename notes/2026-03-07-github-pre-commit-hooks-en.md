@@ -140,7 +140,7 @@ Simply sign in at [pre-commit.ci](https://pre-commit.ci), connect your GitHub re
 ## Summary Table
 
 | Layer | Who runs it | Enforces formatting | Requires setup per dev |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Local `pre-commit install` | Developer's machine | Yes, blocks commit | Yes |
 | GitHub Actions | GitHub CI runner | Yes, fails PR/push | No (automatic) |
 | pre-commit.ci | Cloud service | Yes, can auto-fix | No (automatic) |

@@ -55,7 +55,7 @@ You built Fun Live to 30K users and 3M CNY. You know how to ship. The difference
 **High-signal product bets given your skills:**
 
 | Product | Why it fits you | Revenue model |
-|---------|----------------|---------------|
+| --------- | ---------------- | --------------- |
 | AI coding agent for a niche (banking, fintech compliance) | You know banking + AI + systems | B2B SaaS, $500–$5K/mo per seat |
 | CLI tooling for ML engineers (you already build `ww`, `zz`) | You are the target user | Open-core / sponsorship / hosted |
 | Fine-tuning / eval pipeline as a service | You train models, most can't | API pricing |

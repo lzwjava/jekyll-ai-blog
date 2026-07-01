@@ -83,7 +83,7 @@ Dashboards are multi-tenant — you can expose a read-only dashboard to a specif
 ### Product Lineup
 
 | Product | What it is |
-|---|---|
+| --- | --- |
 | **Community Edition (CE)** | Open-source, Apache 2.0, self-hosted |
 | **Professional Edition (PE)** | Adds: advanced integrations, white-labeling, edge computing, scheduler, groups/roles |
 | **ThingsBoard Cloud** | Managed SaaS (PE features, hosted by them) |

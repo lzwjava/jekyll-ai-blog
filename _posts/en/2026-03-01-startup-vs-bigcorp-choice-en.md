@@ -19,18 +19,18 @@ The choice depends heavily on your personality, risk tolerance, financial needs,
 
 ### Key Differences
 
-| Aspect              | Solo Entrepreneur (Solo Founder / Solopreneur)                          | Employee at Big Corporation                                      |
-|---------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
+| Aspect | Solo Entrepreneur (Solo Founder / Solopreneur) | Employee at Big Corporation |
+| --------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | **Control & Autonomy** | Full control — you make every decision, set your vision, schedule, and direction. No need for approvals. | Limited control — decisions go through layers of management, bureaucracy, and company policies. |
-| **Risk Level**      | Very high — income can be unstable or zero, especially early on. High chance of failure (many solo ventures struggle or fail). | Low to moderate — steady paycheck, but layoffs can happen (more common since 2022–2023 in tech). |
+| **Risk Level** | Very high — income can be unstable or zero, especially early on. High chance of failure (many solo ventures struggle or fail). | Low to moderate — steady paycheck, but layoffs can happen (more common since 2022–2023 in tech). |
 | **Income Potential** | Unlimited upside if successful (keep 100% of profits, potential for very high earnings). But average earnings often start low and vary widely. | Predictable and usually higher starting pay + bonuses, stock, benefits. Capped upside unless in very senior roles. |
 | **Financial Stability** | Low — no guaranteed salary, no benefits unless self-funded. Many solopreneurs become profitable quickly but face feast-or-famine cycles. | High — regular salary, health insurance, retirement plans, paid leave, etc. |
 | **Workload & Responsibilities** | Extremely broad — you handle everything (product, marketing, sales, accounting, customer support, legal). Can feel overwhelming and lonely. | Specialized — focused on one role/area. More defined boundaries and support from teams. |
 | **Learning & Growth** | Very fast and broad — you learn entrepreneurial skills, problem-solving, and how to build from scratch. Steep learning curve across many domains. | Structured — clear career ladder, mentorship, training programs, and resources. Slower but deeper expertise in one field. |
 | **Work-Life Balance** | Flexible schedule but often poor — many solo entrepreneurs work long hours with no clear off-time. Can burn out easily. | Usually better — defined hours, vacation, and policies (though big corps can have demanding cultures too). |
 | **Innovation & Impact** | High — you build something entirely your own. Direct impact on success/failure. | Lower — contributions often feel small in a huge machine. Less room for radical ideas due to processes. |
-| **Scalability**     | Harder to scale alone — growth limited by your time/energy unless you later hire or automate heavily. | Easier personal growth — company scales, opening promotions and larger projects. |
-| **Failure Impact**  | Personal — lose your own time/money, but can pivot or restart. | Professional — resume hit from layoff, but easier to find next job with big-name experience. |
+| **Scalability** | Harder to scale alone — growth limited by your time/energy unless you later hire or automate heavily. | Easier personal growth — company scales, opening promotions and larger projects. |
+| **Failure Impact** | Personal — lose your own time/money, but can pivot or restart. | Professional — resume hit from layoff, but easier to find next job with big-name experience. |
 
 ### Pros and Cons Summary
 

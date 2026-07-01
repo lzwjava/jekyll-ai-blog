@@ -87,7 +87,7 @@ There are certain deductible items such as employee contributions to qualified c
 ## Quick Reference Summary Table
 
 | Deduction Category | Monthly Deduction | Annual Cap |
-|---|---|---|
+| --- | --- | --- |
 | Standard Basic | CNY 5,000/mo | CNY 60,000 |
 | Children's Education | CNY 2,000/child/mo | CNY 24,000/child |
 | Infant Care (<3 yrs) | CNY 2,000/child/mo | CNY 24,000/child |

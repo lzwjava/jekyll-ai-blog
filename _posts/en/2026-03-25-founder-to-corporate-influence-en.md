@@ -62,7 +62,7 @@ Sharing also does something deeper: it signals **psychological security**. Peopl
 Peer recognition is different from — and often more valuable than — manager recognition in corporate environments:
 
 | Peer Recognition | Manager Recognition |
-|---|---|
+| --- | --- |
 | Organic, hard to fake | Can be political or performative |
 | Spreads laterally across teams | Stays within your reporting chain |
 | Leads to collaboration invitations | Leads to performance reviews |

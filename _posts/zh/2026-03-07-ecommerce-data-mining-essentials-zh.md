@@ -46,7 +46,7 @@ type: note
 具体的商业应用包括：
 
 | 应用 | 描述 |
-|---|---|
+| --- | --- |
 | **客户细分 (Customer segmentation)** | 根据行为对客户进行分组，以提供个性化营销 |
 | **购买推荐 (Purchase recommendation)** | 发现经常一起购买的产品（association rules） |
 | **流失预测 (Churn prediction)** | 识别可能流失的客户并主动干预 |

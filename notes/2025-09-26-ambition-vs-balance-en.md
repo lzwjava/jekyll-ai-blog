@@ -21,7 +21,7 @@ Here is an analysis of the two paths and how both grinding and *píngcháng xīn
 We are comparing two individuals:
 
 | Feature | Individual 1: The Grinder (Bachelor's Grad) | Individual 2: The Eased Achiever (985/Top 2 Grad) |
-|---|---|---|
+| --- | --- | --- |
 | **Starting Point** | Lower tier, fewer immediate opportunities. | Elite tier, more immediate credibility and networks. |
 | **Early Mindset** | Struggling, anxious, pressured ("catching up"). | Relaxed, confident, empowered ("easy mind"). |
 | **Early Effort** | Very high, intense, often inefficient ("grinding"). | High, but likely more focused and efficient (better resources). |
@@ -38,7 +38,7 @@ The critical factor is not just the effort exerted, but the **sustainability and
 **Grinding** implies high effort under intense pressure and often resource constraints.
 
 | Positive Long-Term Impacts of Grinding | Negative Long-Term Impacts of Grinding |
-|---|---|
+| --- | --- |
 | **Resilience & Grit:** Develops an unshakeable belief that hard work can overcome obstacles. This skill is invaluable when faced with unprecedented challenges. | **Burnout:** Sustained high anxiety and pressure leads to mental and physical exhaustion, significantly reducing productivity and passion over time. |
 | **Deep Domain Mastery:** Forcing oneself to learn without structured resources can lead to creative problem-solving and a deeper, more personal understanding of the subject. | **Efficiency Drag:** Grinding often means working harder, not smarter. Time is wasted on low-value tasks because stress hinders strategic thinking. |
 | **Appreciation:** Success achieved through struggle is often deeply valued, leading to greater long-term job satisfaction once achieved. | **Relationship Damage:** Intense focus can lead to neglected hobbies, health, family, and friendships—the foundation of long-term psychological stability. |
@@ -51,7 +51,7 @@ The critical factor is not just the effort exerted, but the **sustainability and
 *Píngcháng Xīn* (平常心) refers to a calm, ordinary, or balanced mind—equanimity. This type of mindset, often facilitated by early success and reduced financial/social pressure, offers immense long-term advantages in cognitive function.
 
 | Positive Long-Term Impacts of *Píngcháng Xīn* | Drawbacks of *Píngcháng Xīn* (or its Precursors) |
-|---|---|
+| --- | --- |
 | **Cognitive Efficiency:** A relaxed mind processes information more effectively, improving complex problem-solving, strategic thinking, and learning retention (just as the prompt noted). | **Complacency:** Reduced pressure can lead to lower internal motivation. If external validation (the prestige of the school) is the only driver, the drive to innovate or push boundaries may fade. |
 | **Physical and Mental Health:** Lower stress means better sleep, better immune function, and a reduced risk of chronic diseases—all essential for a sustained, successful career. | **Lack of Deep Resourcefulness:** If everything has always been easy, the individual may struggle disproportionately when genuine, unexpected adversity hits (e.g., a massive career setback or market crash). |
 | **Better Decision Making:** Panic and stress lead to short-term thinking. Calmness allows for long-term vision, better negotiation skills, and avoidance of impulsive mistakes. | **Tolerance Threshold:** Having not experienced prolonged struggle, their threshold for pain and discomfort might be lower, causing them to quit excellent opportunities simply because they become momentarily difficult. |

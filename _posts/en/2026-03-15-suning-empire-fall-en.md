@@ -91,7 +91,7 @@ The road ahead is steep. The 3C (computer, communication, consumer electronics) 
 ### 📊 Summary: Key Reasons for Suning's Downfall
 
 | Factor | Details |
-|---|---|
+| --- | --- |
 | Over-diversification | Expanded into unrelated sectors draining cash flow |
 | Evergrande investment | Lost ~20 billion yuan in the property giant's collapse |
 | Inter Milan acquisition | Borrowed heavily; defaulted on €395M Oaktree loan |

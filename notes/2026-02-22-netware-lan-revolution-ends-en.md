@@ -16,9 +16,9 @@ Here is a quick overview of its journey:
 | **Aspect** | **Description** |
 | :--- | :--- |
 | **What it was** | A discontinued network operating system (NOS) developed by Novell, Inc., designed to provide file, print, and directory services for LANs . |
-| **Developer** | Novell, Inc.  |
-| **Initial Release** | 1983  |
-| **Final Release** | Version 6.5 SP8 (May 6, 2009)  |
+| **Developer** | Novell, Inc. |
+| **Initial Release** | 1983 |
+| **Final Release** | Version 6.5 SP8 (May 6, 2009) |
 | **Key Protocols** | IPX/SPX (native), later added TCP/IP support natively in version 5 . |
 | **Core Innovation** | Shifted from disk sharing to **file sharing**, introducing file-level access and locking for better efficiency and data integrity . |
 | **Successor** | Open Enterprise Server (OES), which runs NetWare services on a SUSE Linux Enterprise Server kernel . |

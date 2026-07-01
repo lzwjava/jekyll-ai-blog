@@ -31,7 +31,7 @@ Hugging Face 主要是一个**平台**（类似 GitHub），但也在其上层�
 **清晰的类比关系：**
 
 | Hugging Face | 对等产品 |
-|---|---|
+| --- | --- |
 | Model Hub | GitHub（用于权重） |
 | HuggingChat | ChatGPT |
 | Spaces | Vercel/Netlify（部署的机器学习演示） |

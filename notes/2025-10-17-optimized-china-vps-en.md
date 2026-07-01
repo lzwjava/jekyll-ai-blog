@@ -39,7 +39,7 @@ The service leverages premium China Telecom networks—CN2 GIA (AS4809) and CTGN
 - **Comparisons**:
 
   | Network | Cost | Capacity | Congestion/Packet Loss | Best For |
-  |---------|------|----------|------------------------|----------|
+  | --------- | ------ | ---------- | ------------------------ | ---------- |
   | CN2 GIA/CTGNet | High | Limited | Low | Stability (VoIP, gaming) |
   | CN2 GT | Medium | Medium | High (pre-2021) | General use |
   | ChinaNet | Low | High | High during peaks | DDoS tolerance |

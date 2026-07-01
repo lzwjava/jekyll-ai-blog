@@ -20,7 +20,7 @@ Specifically, SM120 corresponds to **Blackwell** architecture (GB200/B200/B100 G
 The SM numbering follows NVIDIA's architecture generations:
 
 | SM version | Architecture | GPUs |
-|---|---|---|
+| --- | --- | --- |
 | SM80 | Ampere | A100, A10 |
 | SM86 | Ampere | RTX 3090 |
 | SM89 | Ada Lovelace | RTX 4090 |

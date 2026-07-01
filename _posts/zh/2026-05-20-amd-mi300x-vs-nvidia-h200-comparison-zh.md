@@ -16,7 +16,7 @@ type: note
 ## 规格对比：MI300X vs H200
 
 | 指标 | AMD MI300X | NVIDIA H200 | 优胜者 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 架构 | CDNA 3 | Hopper | — |
 | 显存 | **192 GB HBM3** | 141 GB HBM3e | **AMD** |
 | 显存带宽 | **5.3 TB/s** | 4.8 TB/s | **AMD** |
@@ -77,7 +77,7 @@ ROCm 也在快速改进。在 Llama-2 70B LoRA FP8 上，MI355X 将训练时间�
 ## 你的决策矩阵
 
 | 使用场景 | 推荐选择 |
-|---|---|
+| --- | --- |
 | LoRA 微调（HF 栈） | MI300X ✅（可用且更便宜） |
 | nanoGPT 规模训练 | MI300X ✅（PyTorch ROCm 没问题） |
 | 自定义 CUDA 内核 | H200（别碰 ROCm） |

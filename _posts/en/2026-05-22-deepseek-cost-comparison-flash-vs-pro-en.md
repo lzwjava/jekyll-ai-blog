@@ -16,7 +16,7 @@ type: note
 Not exactly 4x — it's actually **~3.1x cheaper**, which is close but not quite 4x. Here's the exact breakdown:
 
 | Model | Input ($/M tokens) | Output ($/M tokens) | Activated Params |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | DeepSeek V4 Pro | $0.435 | $0.870 | 49B |
 | DeepSeek V4 Flash | $0.140 | $0.280 | 13B |
 | **Ratio** | **3.1x** | **3.1x** | **3.8x** |

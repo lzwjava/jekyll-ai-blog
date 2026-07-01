@@ -59,7 +59,7 @@ Microsoft 建议在设置中使用“Prefer IPv4 over IPv6”而不是完全禁�
 ## 总结
 
 | Action | Effect |
-|---|---|
+| --- | --- |
 | 在路由器上禁用 IPv6 DHCP | 设备无法获取 IPv6 地址 → 强制使用 IPv4 → 修复卡顿 |
 | 仅在设备上禁用 IPv6 | 效果相同，但仅针对该设备有效 |
 | 保持 IPv6 开启 | 如果 ISP 的 IPv6 Routing 较差，存在 Streaming 不稳定的风险 |

@@ -58,7 +58,7 @@ H(p, q) = 𝔼_{x∼p}[−log q(x)] = −Σₓ p(x) log q(x)
 Break it down:
 
 | Term | Meaning |
-|------|---------|
+| ------ | --------- |
 | `−log q(x)` | code length you assigned to event x (wrong assumption) |
 | `p(x)` | true weight — how often x actually occurs |
 | `Σₓ p(x) · [−log q(x)]` | expected cost under reality |

@@ -40,7 +40,7 @@ demo.launch(server_name="0.0.0.0", server_port=7860)
 典型配置：
 
 | 字段 | 值 |
-|-------|-------|
+| ------- | ------- |
 | Expose HTTP Ports | `8888,7860,8000` |
 | Expose TCP Ports | `22` (SSH — 使用直接 TCP，而非 HTTP 代理) |
 

@@ -24,7 +24,7 @@ type: note
 在决定内部策略之前，了解它们的发布节奏至关重要：
 
 | Framework | Release Cadence | LTS / Stable 模型 |
-|---|---|---|
+| --- | --- | --- |
 | **JDK** | 每 6 个月（3月和9月） | 每 2 年一个 LTS：Java 17, 21, **25** (当前) |
 | **Angular** | 每 ~6 个月发布一次 Major 版本 | 18 个月支持：6 个月 active + 12 个月 LTS |
 | **Rust** | 每 ~6 周发布一次 Stable | 滚动 Stable，无 LTS — 但设计上保持向后兼容 |
@@ -88,7 +88,7 @@ AI agent（如 Claude/OpenClaw）可以超越 Dependabot/Renovate 的功能：
 你提到的“取决于我们需要什么 feature/security fixes”是 **核心原则**：
 
 | 触发因素 | 行机 |
-|---|---|
+| --- | --- |
 | **Critical CVE / Security fix** | 立即升级，patch 级别自动合并 |
 | **遇到的 Bug fix** | 按计划升级到下一个 patch |
 | **需要的新 Feature** | 计划升级到 minor/major，先进行测试 |
@@ -122,7 +122,7 @@ AI agent（如 Claude/OpenClaw）可以超越 Dependabot/Renovate 的功能：
 ## 总结
 
 | 旧方式 | AI-Native 方式 |
-|---|---|
+| --- | --- |
 | 固定版本，每年升级一次 | 每周追踪上游，自动合并 patch |
 | 手动阅读 changelog | AI 阅读并总结 release notes |
 | 恐惧最新版 = 未知风险 | CI + AI 分析 = 已知风险水平 |

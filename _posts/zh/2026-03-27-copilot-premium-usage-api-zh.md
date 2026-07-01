@@ -52,7 +52,7 @@ GitHub 还宣布：正在推出专门用于 premium request analytics 数据的 
 ## Practical Ways to Monitor Usage Today
 
 | Method | Who | How |
-|---|---|---|
+| --- | --- | --- |
 | GitHub Web UI | 所有人 | Settings → Billing → Copilot → Premium request analytics |
 | Download CSV report | Enterprise 管理员 | Billing & Licensing → Usage → Export |
 | REST API (`/orgs/ORG/copilot/metrics`) | Org/Enterprise 管理员 | 需要 PAT token |

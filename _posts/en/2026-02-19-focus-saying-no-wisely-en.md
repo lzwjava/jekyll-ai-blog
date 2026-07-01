@@ -42,7 +42,7 @@ Jobs emphasized: "You've got to start with the customer experience and work back
 ## Practical Applications
 
 | Principle | How to Apply It |
-|-----------|--------------|
+| ----------- | -------------- |
 | **Prioritize ruthlessly** | List all your projects. Force-rank them. Cut everything below your top 1-3. |
 | **Embrace opportunity cost** | Ask: "If I say yes to this, what great thing am I saying no to?" |
 | **Protect your team's energy** | Shield your team from "good" distractions so they can execute the "great." |

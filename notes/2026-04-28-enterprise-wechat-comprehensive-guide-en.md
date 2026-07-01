@@ -118,7 +118,7 @@ In 2023, the WeCom app was downloaded almost **23 million times worldwide**. Alt
 ### Summary Comparison Table
 
 | Feature | Regular WeChat | WeCom (Enterprise WeChat) |
-|---|---|---|
+| --- | --- | --- |
 | Purpose | Personal social | Business/enterprise |
 | Group size | Up to 500 | Up to 10,000 |
 | Contact limit | 5,000 | 50,000 |

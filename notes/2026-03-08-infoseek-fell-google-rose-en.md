@@ -76,7 +76,7 @@ PageRank had such an impact on the quality of search results that it took Google
 ### Summary Table
 
 | Factor | Infoseek | Google |
-|---|---|---|
+| --- | --- | --- |
 | Strategy | Chased portal model | Focused purely on search quality |
 | Technology | Keyword-based ranking | PageRank (link-based authority) |
 | Ownership | Absorbed by Disney, lost direction | Independent, engineering-driven culture |

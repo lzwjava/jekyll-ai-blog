@@ -16,7 +16,7 @@ type: note
 Two completely different businesses in the semiconductor/electronics supply chain:
 
 | Aspect | TSMC | Foxconn |
-|--------|------|---------|
+| -------- | ------ | --------- |
 | **Core Business** | Semiconductor chip manufacturing — designs and fabricates chips (the silicon itself) | Contract assembly — assembles components into end devices |
 | **Products** | Chips powering smartphones, AI servers, and advanced computing devices. Clients include Apple, Nvidia, AMD | Assembled end products: iPhones, Nvidia AI servers, Tesla cars, satellites |
 | **Scale of Control** | Critical to US technological and military dominance — supplies chips for AI, weapons systems, infrastructure | Deeply embedded in China's industrial network, assembling consumer electronics in massive factories within China |

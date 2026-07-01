@@ -75,7 +75,7 @@ Safari 本身（应用外壳、界面、同步等功能）是**闭源专有**的
 ## 快速参考
 
 | 浏览器 | 引擎 | 是否开源 | 备注 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Firefox | Gecko/SpiderMonkey | ✅ 完全开源 | 唯一非 Blink/WebKit 的主流引擎 |
 | Brave | Blink/V8 | ✅ 完全开源 | 隐私保护最佳日常主力 |
 | Chromium | Blink/V8 | ✅ 完全开源 | Chrome 上游项目 |

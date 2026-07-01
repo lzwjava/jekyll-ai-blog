@@ -38,7 +38,7 @@ Windows NT was Microsoft's most popular operating system for all types of networ
 ### Summary
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Classification | **Enterprise-level** OS |
 | Network Role | Server for business networks |
 | Key Strength | Easy to manage, responsive network environment |

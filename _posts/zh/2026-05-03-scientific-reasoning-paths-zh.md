@@ -96,7 +96,7 @@ while self._frontier and len(self._expanded_node_ids) < self.expansion_budget:
 ### 本方法适用于硬科学的原因
 
 | 原始LLM的缺陷 | ToT解决方案 |
-|---|---|
+| --- | --- |
 | 过早锁定单一策略 | 通过树分支并行探索多条路径 |
 | 无法在推理链中途检测物理错误 | `skills.py`硬规则检查立即否决错误方程 |
 | 长推理链易偏离主题 | 每个节点按上下文相关性评分；范围漂移会被记录 |

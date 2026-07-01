@@ -83,7 +83,7 @@ From a physics perspective, time is literally one of the four dimensions of spac
 Here is the elegant unified picture your question is pointing toward:
 
 | Layer | Async Mechanism | Time Role |
-|---|---|---|
+| --- | --- | --- |
 | Neurons | Memory consolidation during sleep | Hours to years |
 | Individuals | Recall of past experiences in conversation | Seconds to decades |
 | Social groups | WeChat moments, social media | Minutes to years |

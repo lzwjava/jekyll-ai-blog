@@ -14,9 +14,9 @@ type: note
 
 Below is a summary of the key investment strategies, focuses, and approximate assets under management (AUM) for the hedge funds mentioned in the prior lists. These are multi-billion-dollar firms specializing in alternative investments, often using sophisticated models to generate returns uncorrelated with traditional markets. Strategies range from quantitative and multi-strategy approaches to macro bets and activist equity plays. Data is drawn from mid-2025 figures where available.
 
-| Hedge Fund                  | Key Strategies & Focus                                                                 | Approx. AUM (2025) | Notes |
-|-----------------------------|----------------------------------------------------------------------------------------|---------------------|-------|
-| **Citadel** (Ken Griffin)  | Multi-strategy across commodities, equities, fixed income, credit, and quantitative; flagship Wellington fund targets broad opportunities with lower-risk profiles. | $68B (hedge) / $339B (total) | Consistent double-digit returns; 15.1% in 2024; tech-driven with global teams. |
+| Hedge Fund | Key Strategies & Focus | Approx. AUM (2025) | Notes |
+| ----------------------------- | ---------------------------------------------------------------------------------------- | --------------------- | ------- |
+| **Citadel** (Ken Griffin) | Multi-strategy across commodities, equities, fixed income, credit, and quantitative; flagship Wellington fund targets broad opportunities with lower-risk profiles. | $68B (hedge) / $339B (total) | Consistent double-digit returns; 15.1% in 2024; tech-driven with global teams. |
 | **Appaloosa Management** (David Tepper) | Opportunistic equity bets, event-driven, and macro; heavy exposure to China (e.g., Alibaba, JD.com) and "Magnificent Seven" tech stocks like Amazon, Meta. | $17B | Eclectic style with concentrated positions; 8.25% return in 2024. |
 | **Point72** (Steve Cohen) | Multi-manager platform with long-short equities (core), systematic/quant trading, global macro, and venture capital; emphasizes consistent gains via large analyst teams. | $40B / $140B (total) | 19% return in 2024; expanding into AI and private markets. |
 | **Millennium Management** (Israel Englander) | Multi-strategy with 330+ teams in relative-value equity, arbitrage, fixed income, and quant; strict risk management and pod structure for steady returns. | $78B / $391B (total) | Only one down year since 1989; 15% return in 2024. |

@@ -20,17 +20,17 @@ While WAS is primarily a runtime for Java-centric enterprise apps, PCF is a broa
 
 ### Key Comparison Table
 
-| Category              | IBM WebSphere Application Server (Hybrid Edition) | Pivotal Cloud Foundry (VMware Tanzu Application Service) |
-|-----------------------|---------------------------------------------------|----------------------------------------------------------|
+| Category | IBM WebSphere Application Server (Hybrid Edition) | Pivotal Cloud Foundry (VMware Tanzu Application Service) |
+| ----------------------- | --------------------------------------------------- | ---------------------------------------------------------- |
 | **Primary Use Case** | Enterprise Java apps requiring robust transactions, security, and compliance (e.g., banking, healthcare). | Cloud-native microservices, DevOps workflows, and multi-language apps (e.g., web-scale deployments). |
-| **Architecture**     | Traditional app server with lightweight Liberty profile; supports VMs, containers, and Kubernetes for hybrid. | Container-based PaaS using buildpacks and droplets; runs on Kubernetes or VMs; polyglot via isolated runtime cells. |
+| **Architecture** | Traditional app server with lightweight Liberty profile; supports VMs, containers, and Kubernetes for hybrid. | Container-based PaaS using buildpacks and droplets; runs on Kubernetes or VMs; polyglot via isolated runtime cells. |
 | **Supported Languages/Runtimes** | Primarily Java (Jakarta EE 8+); limited polyglot via extensions. | Polyglot: Java, Node.js, Go, Python, Ruby, .NET, PHP; uses buildpacks for custom runtimes. |
 | **Deployment Models** | On-premises, private cloud, public cloud (IBM Cloud, AWS, Azure); hybrid with OpenShift/K8s. | Multi-cloud (AWS, Azure, GCP, VMware); on-premises via Ops Manager; strong Kubernetes integration. |
-| **Scalability**      | Horizontal clustering and auto-scaling in hybrid mode; handles high-throughput enterprise loads. | Auto-scaling via routes and cells; blue-green zero-downtime deploys; excels in dynamic, elastic environments. |
-| **Security Features**| Advanced: Role-based access, SSL/TLS, OAuth/JWT, audit logging; strong for regulated industries. | Built-in: OAuth2, service bindings, app isolation; integrates with enterprise IAM but less granular than WAS. |
-| **Developer Tools**  | Eclipse/IntelliJ plugins, wsadmin scripting; migration tools for legacy Java EE to cloud. | CF CLI, buildpacks, service marketplace; focuses on Git-based CI/CD and rapid iteration. |
+| **Scalability** | Horizontal clustering and auto-scaling in hybrid mode; handles high-throughput enterprise loads. | Auto-scaling via routes and cells; blue-green zero-downtime deploys; excels in dynamic, elastic environments. |
+| **Security Features** | Advanced: Role-based access, SSL/TLS, OAuth/JWT, audit logging; strong for regulated industries. | Built-in: OAuth2, service bindings, app isolation; integrates with enterprise IAM but less granular than WAS. |
+| **Developer Tools** | Eclipse/IntelliJ plugins, wsadmin scripting; migration tools for legacy Java EE to cloud. | CF CLI, buildpacks, service marketplace; focuses on Git-based CI/CD and rapid iteration. |
 | **Management & Monitoring** | IBM Cloud Pak for integration; admin console for clustering; integrates with Prometheus/Grafana. | Ops Manager GUI, Stratos UI; built-in logging (Loggregator); integrates with ELK stack. |
-| **Pricing**          | Subscription-based: Starts at ~$88.50/month per instance (Hybrid Edition); no free tier. | Open-source core is free; enterprise edition (Tanzu) via subscription (~$0.10–$0.50/core-hour); free trial available. |
+| **Pricing** | Subscription-based: Starts at ~$88.50/month per instance (Hybrid Edition); no free tier. | Open-source core is free; enterprise edition (Tanzu) via subscription (~$0.10–$0.50/core-hour); free trial available. |
 | **Ratings (TrustRadius, 2025)** | Overall: 7.1/10 (33 reviews); Usability: 8.0/10; Support: 8.7/10. | Overall: 10/10 (limited reviews); PaaS Features: 9.8/10; High developer satisfaction. |
 
 ### Pros and Cons

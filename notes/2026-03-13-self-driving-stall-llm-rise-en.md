@@ -39,7 +39,7 @@ The article by Wang Yin (王垠, 2016) nailed this prophetically. The core insig
 Key scaling obstacles:
 
 | Problem | Why It Matters |
-|---|---|
+| --- | --- |
 | **Watery road surfaces, glare, fog** | Sensor data becomes ambiguous; physics is messy |
 | **Long-tail edge cases** | The world has infinite scenarios; training data never covers them all |
 | **Real-time 3D perception** | Computationally expensive, latency-sensitive, must be near-perfect |

@@ -41,7 +41,7 @@ Here's the summary of what I found and fixed:
 These are all `ModuleNotFoundError` from optional deps not in `pyproject.toml`:
 
 | Test file | Missing module |
-|-----------|---------------|
+| ----------- | --------------- |
 | `tests/auto_ss_config/test_lightsail.py` | `yaml` (PyYAML) |
 | `tests/bot/test_punch_bot.py` | `pytz` |
 | `tests/cloud/test_ec2.py` | probably `yaml` |

@@ -76,7 +76,7 @@ So the power is real — but so is the risk if you install random community skil
 ### TL;DR
 
 | Crazy Use Case | Wow Factor |
-|---|---|
+| --- | --- |
 | Car negotiation bot | 💰 Saved $4,200 |
 | Overnight autonomous coding | 🌙 5 bugs fixed while sleeping |
 | Replaced $7,400/mo SaaS | 💸 ~$90K/yr saved |

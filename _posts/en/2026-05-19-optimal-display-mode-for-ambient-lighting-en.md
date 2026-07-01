@@ -37,7 +37,7 @@ Research from Nielsen Norman Group found that light mode won across all dimensio
 ## So: Dark, Light, or System Mode?
 
 | Situation | Best Mode |
-|---|---|
+| --- | --- |
 | Outdoors / bright natural light | **Light mode** |
 | Indoor bright office lighting | **Light mode** |
 | Dim room / evening indoors | **Dark mode** |

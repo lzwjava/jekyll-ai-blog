@@ -12,7 +12,7 @@ type: note
 以下是 **lzw-server** 的详细信息：
 
 | Spec | Detail |
-|------|--------|
+| ------ | -------- |
 | **OS** | Ubuntu 24.04.4 LTS (Noble Numbat) |
 | **Kernel** | 6.8.0-106-generic (x86_64) |
 | **CPU** | Intel Core i9-13900KF — 24 cores / 32 threads |

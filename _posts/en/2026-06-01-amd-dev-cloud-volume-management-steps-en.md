@@ -121,7 +121,7 @@ doctl compute volume list
 ### Final State
 
 | Resource | ID | Status | Cost/mo |
-|----------|-----|--------|---------|
+| ---------- | ----- | -------- | --------- |
 | GPU Droplet | 574422820 | DESTROYED | $0 |
 | Snapshot | 230979911 | gpu-mi300x-snapshot-20260601 (30.6 GiB) | ~$1.53 |
 | Volume | 52743aec-... | DETACHED (100 GiB, 37G llama-models) | ~$10 |
@@ -138,7 +138,7 @@ doctl compute snapshot list --resource droplet
 ```
 
 | Snapshot | Size | Cost/mo | Safe to delete? |
-|----------|------|---------|-----------------|
+| ---------- | ------ | --------- | ----------------- |
 | `7.2-gpu-mi300x1-...-1779256307024` | 132.77 GiB | $6.64 | Yes (original AMD image, re-downloadable) |
 | `snap-snapshots-gpu-mi300x1-...-0530-2331` | 6.58 GiB | $0.33 | Yes |
 | `gpu-mi300x-snapshot-20260601` | 30.62 GiB | $1.53 | No (your snapshot) |

@@ -36,7 +36,7 @@ for step in range(max_steps):
 ## Architecture Details
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Stored params | **110M** |
 | Compute-active block | ~46M |
 | Max recurrence steps | 8 |

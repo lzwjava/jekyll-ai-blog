@@ -61,7 +61,7 @@ nvm use
 ## 总结表格
 
 | Node.js 版本 | 与 `@sourcegraph/amp` 兼容？ |
-|---|---|
+| --- | --- |
 | v18 (LTS) | ✅ 是 |
 | v20 (LTS) | ✅ 是 |
 | v22 (LTS) | ✅ 是 |

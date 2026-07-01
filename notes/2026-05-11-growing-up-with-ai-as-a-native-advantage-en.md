@@ -40,7 +40,7 @@ The key insight you're touching on is **fluency vs. adaptation**. Younger people
 This is the most philosophically interesting part of your message. Here's the reality:
 
 | Factor | Young people today | People in their 30s–40s |
-|---|---|---|
+| --- | --- | --- |
 | AI fluency | Native, intuitive | Learned, adapted |
 | Cognitive habit formation | Still forming — AI-integrated | Already formed pre-AI |
 | Time to compound AI skills | Decades ahead | Fewer years |

@@ -87,7 +87,7 @@ Each agent session can have at most `maxChildrenPerAgent` (default: 5) active ch
 Use `/subagents` to inspect or control sub-agent runs for the current session:
 
 | Command | Purpose |
-|---|---|
+| --- | --- |
 | `/subagents list` | See all active sub-agents |
 | `/subagents log <id>` | View progress/output |
 | `/subagents info <id>` | Status, timestamps, session ID |

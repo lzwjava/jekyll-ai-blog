@@ -32,7 +32,7 @@ Sure，让我正确分解一下。
 ### 我们所知的情况
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | 从主机运行 `curl http://192.168.1.36:3080/` | ✅ 200 |
 | 从 Uptime Kuma 运行 `wget http://LibreChat:3080/` | ❌ 无法解析 `LibreChat` |
 | 从 Uptime Kuma 运行 `http.get('http://192.168.1.36:3080/')` | ❌ ETIMEDOUT |

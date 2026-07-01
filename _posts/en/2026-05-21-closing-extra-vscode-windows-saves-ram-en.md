@@ -22,7 +22,7 @@ Keeping only the 1-2 projects you're actively working on would cut this to **~3-
 **Extensions to consider removing** from this laptop (since your remote machine handles the heavy work):
 
 | Extension | Disk | Remove? |
-|---|---|---|
+| --- | --- | --- |
 | `tomoki1207.pdf` — PDF viewer in VSCode | small | ✓ Yes — just open PDFs in browser |
 | `yzane.markdown-pdf` — PDF export | small | ✓ Yes |
 | `xdebug.php-pack` — PHP debugging | small | ✓ Yes — unless you do PHP work |

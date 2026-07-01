@@ -46,7 +46,7 @@ First run crashed because `--run=rtx4070-d8` triggered wandb init, and no API ke
 The default `speedrun.sh` targets 8xH100 (80 GB each, 640 GB total). Had to scale everything down for a single 12 GB card:
 
 | Parameter | speedrun.sh (8xH100) | Our run (RTX 4070) | Why |
-|-----------|----------------------|--------------------|----|
+| ----------- | ---------------------- | -------------------- | ---- |
 | `--depth` | 24 | 8 | Smaller model (~40M vs ~1.6B params) |
 | `--device-batch-size` | 16 | 4 | Fit in 12 GB VRAM |
 | `--total-batch-size` | auto (1M tokens) | 32768 | Reasonable for single GPU |

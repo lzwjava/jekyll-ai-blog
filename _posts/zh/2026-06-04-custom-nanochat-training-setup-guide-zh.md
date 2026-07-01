@@ -93,7 +93,7 @@ tmux new-session -d -s train 'cd /mnt/data/nanochat && \
 ### 关键标志参考
 
 | 标志 | 作用 | VRAM 影响 |
-|---|---|---|
+| --- | --- | --- |
 | `--depth` | Transformer 层数（4=微小，12=小型，20=默认） | 高 |
 | `--max-seq-len` | 上下文长度（512/1024/2048） | 高 |
 | `--device-batch-size` | 每 GPU 批次大小 | 高 — OOM 时首先减小 |

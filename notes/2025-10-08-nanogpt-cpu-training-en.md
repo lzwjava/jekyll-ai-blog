@@ -25,7 +25,7 @@ The full command runs the `train.py` script from the nanoGPT repository using Py
 These are command-line flags passed to `train.py` via argparse, allowing customization without editing files. They control hardware, training behavior, model architecture, and regularization.
 
 | Parameter | Value | Explanation |
-|-----------|-------|-------------|
+| ----------- | ------- | ------------- |
 | `--device` | `cpu` | Specifies the compute device: `'cpu'` runs everything on the host CPU (slower but no GPU needed). Defaults to `'cuda'` if a GPU is available. Useful for testing or low-resource setups. |
 | `--compile` | `False` | Enables/disables PyTorch's `torch.compile()` optimization on the model (introduced in PyTorch 2.0 for faster execution via graph compilation). Set to `False` to avoid compatibility issues (e.g., on older hardware or non-CUDA devices). Defaults to `True`. |
 | `--eval_iters` | `20` | Number of forward passes (iterations) to run during evaluation to estimate validation loss. Higher values give more accurate estimates but take longer. Defaults to 200; here it's reduced for quicker checks. |

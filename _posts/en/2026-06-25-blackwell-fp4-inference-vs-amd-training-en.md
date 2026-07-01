@@ -30,7 +30,7 @@ Blackwell native support:
 **Your friend's point exactly:**
 
 | Use case | Recommended precision | Blackwell advantage |
-|----------|----------------------|---------------------|
+| ---------- | ---------------------- | --------------------- |
 | Inference | FP4 quantization | Huge — native FP4 ops |
 | Training | FP8 | Moderate — both have it |
 | Training | FP4 | ⚠️ risky — convergence issues |

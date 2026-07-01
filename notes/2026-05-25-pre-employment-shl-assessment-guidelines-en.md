@@ -21,7 +21,7 @@ Specifically:
 **What to expect inside SHL assessments:**
 
 | Test Type | What it measures | Format |
-|-----------|-----------------|--------|
+| ----------- | ----------------- | -------- |
 | Verify Numerical | Data interpretation, percentages, ratios | MCQ, ~18 questions, timed |
 | Verify Verbal | Reading comprehension, logical inference | MCQ, timed |
 | Verify Inductive | Pattern recognition, abstract reasoning | Shape sequences |

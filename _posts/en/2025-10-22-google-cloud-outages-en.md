@@ -15,7 +15,7 @@ type: note
 Google Cloud Platform has experienced several significant outages since its early days, often due to software bugs, hardware failures, environmental factors, or capacity issues. Below is a table summarizing some of the most notable ones, selected for their scale, duration, or widespread impact. These are drawn from historical records up to mid-2025.
 
 | Date | Cause | Impact |
-|------|--------|--------|
+| ------ | -------- | -------- |
 | December 14, 2020 | Accidental reduction in capacity on the central user ID management system, affecting OAuth-based authentication. | Global outage lasting ~90 minutes; disrupted access to Gmail, YouTube, Google Drive, GCP services, and apps like Pokémon GO for millions of users worldwide. |
 | July 2022 | Extreme heatwave (over 40°C) in London causing cooling system failures in the europe-west2-a zone. | Regional disruptions for ~24 hours; affected Cloud Storage, BigQuery, Compute Engine, GKE, and other services, forcing failovers to other regions. |
 | August 8, 2022 | Electrical incident leading to a fire at the Council Bluffs, Iowa data center (unrelated to concurrent search/maps issues). | Localized fire response; global latency in Cloud Logging service for days, impacting monitoring and debugging for GCP users. |

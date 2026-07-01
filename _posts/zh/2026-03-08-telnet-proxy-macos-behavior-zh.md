@@ -58,7 +58,7 @@ macOS HTTP/HTTPS 代理专门针对 **HTTP 协议流量** 设计。Telnet 在任
 ## `ping` 与 `telnet` 代理行为比较
 
 | 工具 | 协议 | 是否使用 macOS HTTP 代理？ | 是否使用 macOS SOCKS 代理？ | 备注 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `ping` | ICMP | ❌ 否 | ❌ 否 | ICMP 在第 3 层运行；代理在第 4/7 层工作 |
 | `telnet` | TCP (raw) | ❌ 否 | ❌ 否（默认） | CLI 工具不会自动读取 macOS 代理 |
 | Safari / Chrome | HTTP/HTTPS | ✅ 是 | ✅ 是 | GUI 应用程序尊重系统代理 |

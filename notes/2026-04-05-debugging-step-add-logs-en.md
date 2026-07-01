@@ -18,7 +18,7 @@ Yes — that's the **next level** of the debugging hierarchy, and it's classic p
 ## The Complete Debugging Hierarchy (Extended)
 
 | Stage | Action | Cost |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Memory / existing knowledge | Lowest |
 | 2 | Web search / docs | Low |
 | 3 | Run commands, observe output | Medium |

@@ -23,7 +23,7 @@ type: note
 ## 整体结果摘要
 
 | 疾病 | 风险水平 | 关键风险基因 |
-|---|---|---|
+| --- | --- | --- |
 | **Hypertension** | ⚠️ **注意（高风险）** | AGT rs699 (CT) – Risk; ADRB2 rs1042713 (AG) – Risk |
 | **Coronary Heart Disease** | 🟡 **一般（中风险）** | ABCA1 rs2230806 (GG) – Risk |
 | **Myocardial Infarction** | ✅ **正常** | 所有 4 个基因位点正常 |

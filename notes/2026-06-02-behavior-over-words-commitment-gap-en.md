@@ -38,7 +38,7 @@ When someone stays employed and "helps on the side," their actual cost is near z
 ## The Framework
 
 | Commitment Level | Signal | Reality |
-|---|---|---|
+| --- | --- | --- |
 | Quit job, full-time | High | High risk, high belief |
 | Keep job, evenings/weekends | Medium | Low risk, lower priority |
 | "Happy to help" | Low | Willing only when convenient |

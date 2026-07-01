@@ -47,7 +47,7 @@ This is the **critical catch** to your assumption:
 Apple has a **"Hide My Email"** feature. When a user chooses to hide their email, Apple generates a **random relay email** (like `abc123@privaterelay.appleid.com`) instead of sharing the real one. So:
 
 | Scenario | Safe? |
-|---|---|
+| --- | --- |
 | User uses Apple Login with real email shared | ✅ Same email → can be matched |
 | User uses Apple Login with **Hide My Email** | ❌ Different email → creates duplicate account |
 | User uses Google Login with their Gmail | ✅ Real email, matchable |
@@ -75,7 +75,7 @@ The practical approach:
 ## Summary
 
 | Topic | Key Point |
-|---|---|
+| --- | --- |
 | Apple Login on iOS | Smooth, native, no browser |
 | Apple Login on Android | Supported, but uses WebView (less smooth) |
 | Duplicate account risk | Real risk, especially with "Hide My Email" |

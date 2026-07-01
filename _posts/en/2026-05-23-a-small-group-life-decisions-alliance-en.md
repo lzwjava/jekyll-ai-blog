@@ -32,7 +32,7 @@ Here's how I'd think about it:
 ## What to Actually Align On (Your List, Expanded)
 
 | Domain | Key Decisions Worth Aligning |
-|---|---|
+| --- | --- |
 | **Investments** | Index vs. individual stocks, crypto exposure %, real estate thesis, emergency fund ratio |
 | **Kids education** | Language of instruction, coding from what age, screen time policy, tutoring approach |
 | **Language** | English as primary professional language (you're already doing this), what second language to push |

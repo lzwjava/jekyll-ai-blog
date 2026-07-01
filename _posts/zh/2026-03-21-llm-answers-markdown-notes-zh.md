@@ -95,7 +95,7 @@ done
 ## Recommended Workflow Summary
 
 | 步骤 | 工具 |
-|---|---|
+| --- | --- |
 | 保存 LLM 回答 | MarkDownload 或 DownMark Safari 扩展 |
 | 输出格式 | `.md` 文件（带 front matter） |
 | 放置位置 | 您的 `blog-source` 笔记文件夹 |

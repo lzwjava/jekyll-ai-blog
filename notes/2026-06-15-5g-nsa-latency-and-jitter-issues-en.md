@@ -20,7 +20,7 @@ Your results are **completely normal and well-documented**. Here's the technical
 This is the key. There are two 5G architectures:
 
 | | **NSA (Non-Standalone)** | **SA (Standalone)** |
-|---|---|---|
+| --- | --- | --- |
 | Radio | 5G NR | 5G NR |
 | Core network | 4G LTE EPC | True 5G core |
 | Control plane | Routed through 4G | Native 5G |
@@ -56,7 +56,7 @@ Real-world forum users confirm this too — people explicitly lock their hotspot
 ## Your Specific Numbers in Context
 
 | Metric | Your 4G | Your 5G | Typical 4G | Typical 5G NSA |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Download | 11.6 Mbps | 21.3 Mbps | 10–30 Mbps | 20–100 Mbps |
 | Latency | 89ms | 136ms | 30–80ms | 50–150ms |
 | Jitter | ±3.6ms | ±44ms | ±10–30ms | ±20–80ms |

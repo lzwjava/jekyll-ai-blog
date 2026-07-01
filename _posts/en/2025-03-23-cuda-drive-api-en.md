@@ -14,17 +14,17 @@ The `<cuda.h>` header is part of the **CUDA Driver API**, a lower-level API comp
 
 Here are some key functions and their purposes:
 
-| Function                         | Description                                                                                   |
-|----------------------------------|-----------------------------------------------------------------------------------------------|
-| **`cuInit(unsigned int flags)`** | Initializes the CUDA driver. Must be called before any other Driver API function.              |
-| **`cuDeviceGet(CUdevice *dev, int ordinal)`** | Gets a handle to the GPU device with the specified ordinal (e.g., `0` for the first GPU).     |
-| **`cuCtxCreate(CUcontext *ctx, unsigned int flags, CUdevice dev)`** | Creates a CUDA context on the specified device.                                              |
-| **`cuModuleLoad(CUmodule *mod, const char *fname)`** | Loads a PTX or cubin file into the current context as a module.                               |
-| **`cuModuleGetFunction(CUfunction *func, CUmodule mod, const char *name)`** | Retrieves a kernel function from a loaded module.                                             |
-| **`cuMemAlloc(CUdeviceptr *dptr, size_t bytesize)`** | Allocates memory on the GPU.                                                                  |
-| **`cuMemcpyHtoD(CUdeviceptr dst, const void *src, size_t bytes)`** | Copies data from host (CPU) to device (GPU).                                                  |
-| **`cuMemcpyDtoH(void *dst, CUdeviceptr src, size_t bytes)`** | Copies data from device (GPU) to host (CPU).                                                  |
-| **`cuLaunchKernel(CUfunction f, ...)`** | Launches a kernel function with specified grid/block dimensions and parameters.               |
+| Function | Description |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **`cuInit(unsigned int flags)`** | Initializes the CUDA driver. Must be called before any other Driver API function. |
+| **`cuDeviceGet(CUdevice *dev, int ordinal)`** | Gets a handle to the GPU device with the specified ordinal (e.g., `0` for the first GPU). |
+| **`cuCtxCreate(CUcontext *ctx, unsigned int flags, CUdevice dev)`** | Creates a CUDA context on the specified device. |
+| **`cuModuleLoad(CUmodule *mod, const char *fname)`** | Loads a PTX or cubin file into the current context as a module. |
+| **`cuModuleGetFunction(CUfunction *func, CUmodule mod, const char *name)`** | Retrieves a kernel function from a loaded module. |
+| **`cuMemAlloc(CUdeviceptr *dptr, size_t bytesize)`** | Allocates memory on the GPU. |
+| **`cuMemcpyHtoD(CUdeviceptr dst, const void *src, size_t bytes)`** | Copies data from host (CPU) to device (GPU). |
+| **`cuMemcpyDtoH(void *dst, CUdeviceptr src, size_t bytes)`** | Copies data from device (GPU) to host (CPU). |
+| **`cuLaunchKernel(CUfunction f, ...)`** | Launches a kernel function with specified grid/block dimensions and parameters. |
 
 ---
 

@@ -26,7 +26,7 @@ GPT-4 equivalent performance now costs **$0.40/million tokens** vs **$20/million
 Three clear tiers have emerged:
 
 | Tier | Models | Output Cost |
-|------|--------|------------|
+| ------ | -------- | ------------ |
 | Premium | Claude Opus 4.6, GPT-5 Pro | $14–$168/M output |
 | Mid | Claude Sonnet 4.6, GPT-5.4, Grok 4 | $3–$15/M output |
 | Budget | DeepSeek V3.2, Gemini Flash, GPT nano | $0.40–$3/M output |
@@ -50,7 +50,7 @@ On the model architecture side: models are becoming smaller while maintaining pe
 At ~1B tokens/month, here's what the numbers mean for you:
 
 | Model | Input (1B tokens) | Output (assume 200M) |
-|-------|-------------------|----------------------|
+| ------- | ------------------- | ---------------------- |
 | DeepSeek V3.2 | $140 | $56 |
 | Claude Sonnet 4.6 | $3,000 | $3,000 |
 | Claude Opus 4.6 | $15,000 | $15,000 |

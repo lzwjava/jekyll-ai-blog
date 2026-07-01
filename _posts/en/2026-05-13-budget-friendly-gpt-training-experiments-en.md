@@ -68,7 +68,7 @@ At $0.39/hr × 35 days = **~$327 per run**. With $735 you could do about 2 full 
 ## Budget Allocation Plan (~$735 total)
 
 | Phase | Activity | Est. Cost |
-|---|---|---|
+| --- | --- | --- |
 | Experiments | 50+ Shakespeare char-level runs | ~$5 |
 | Core work | 80–100 GPT-2 124M runs (tuning) | ~$500 |
 | Stretch | 1 GPT-2 Medium (350M) run | ~$100 |

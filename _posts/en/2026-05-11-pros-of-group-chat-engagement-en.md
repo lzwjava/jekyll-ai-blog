@@ -57,7 +57,7 @@ Showing interest is good, but how you do it matters. Here are best practices:
 ## Summary Table
 
 | Behavior | Good or Bad? |
-|---|---|
+| --- | --- |
 | Commenting positively on someone's share | ✅ Good |
 | Asking a follow-up question about their work | ✅ Good |
 | Giving a thumbs-up / emoji reaction | ✅ Good (in moderation) |

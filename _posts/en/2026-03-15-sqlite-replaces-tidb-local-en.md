@@ -38,7 +38,7 @@ With extensions like FTS5 (Full-Text Search) and `sqlite-vec` (Vector Search), S
 So for **local single-user use**, SQLite with `sqlite-vec` can replicate exactly what mem9 uses TiDB for:
 
 | Feature | TiDB | SQLite (with extensions) |
-|---|---|---|
+| --- | --- | --- |
 | Vector search | ✅ Native | ✅ via `sqlite-vec` |
 | Full-text search | ✅ Native | ✅ via FTS5 |
 | Multi-agent isolation | ✅ by `agent_id` | ✅ by `agent_id` column |

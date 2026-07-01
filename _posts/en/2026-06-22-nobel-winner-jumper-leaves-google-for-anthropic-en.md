@@ -94,7 +94,7 @@ ESMFold trades MSA complexity for a large protein language model (ESM-2, 3B para
 ### Realistic zhiwei-fold Roadmap
 
 | Phase | Task | Hardware | Timeline |
-|-------|------|----------|----------|
+| ------- | ------ | ---------- | ---------- |
 | 1 | Run ESMFold inference on custom sequences | RTX 4070 | Week 1 |
 | 2 | Fine-tune ESM-2 embeddings on a domain-specific protein dataset (e.g. antimicrobial peptides) | RTX 4070 | Month 1 |
 | 3 | Train a lightweight structure head on top (GVP-GNN or IPA) | MI300X | Month 2-3 |

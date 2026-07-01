@@ -30,7 +30,7 @@ type: note
 ## GPU Instance Families 对比 —— 训练该选哪一个？
 
 | Instance Family | GPU | 是否为整块 GPU? | 最佳适用场景 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `ecs.vgn7i` | NVIDIA A30 (sliced) | ❌ vGPU (shared) | 小型 inference, CAD, 远程桌面 |
 | `ecs.gn7i` | NVIDIA A10 | ✅ Full GPU | 中型模型训练, inference |
 | `ecs.gn7` | NVIDIA A100 | ✅ Full GPU | 大型模型训练 |
@@ -73,7 +73,7 @@ gn8 bare metal 系列专为 AI 模型训练和超大型模型设计。每个实�
 ## 快速推荐总结
 
 | 你的任务 | 推荐实例 |
-|---|---|
+| --- | --- |
 | Fine-tuning 小型模型 (< 1B params) | `ecs.gn7i-c8g1.2xlarge` (1× A10 GPU) |
 | 训练中型模型 (1B–7B params) | `ecs.gn7i-c16g1.4xlarge` 或 `gn7` |
 | 训练大型模型 (7B–70B params) | `ecs.gn7-c13g1.13xlarge` (8× A100) |

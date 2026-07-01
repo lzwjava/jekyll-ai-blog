@@ -49,7 +49,7 @@ Karpathy's README says:
 Given that the paper shows quality keeps improving at extreme token/param ratios, and MI300X has 192 GB VRAM:
 
 | Model | Params | tok/param | VRAM (train) | Fits? | Quality |
-|-------|--------|-----------|-------------|-------|---------|
+| ------- | -------- | ----------- | ------------- | ------- | --------- |
 | 760M | 760M | 19,700 | ~22 GB | ✅ | Good, but small capacity |
 | 1.5B | 1.5B | 9,700 | ~44 GB | ✅ | Better — good balance |
 | 3B | 3B | 4,870 | ~88 GB | ✅ | Best capacity, still improving |

@@ -21,7 +21,7 @@ Public details on individual O-1 approvals are limited due to privacy laws, and 
 Based on available reports from immigration law firms, academic institutions, and news, here are notable examples from 2020–2025. These focus on STEM and research (like Petersson), where evidence of "sustained acclaim" (e.g., citations, patents, peer recognition) is key. I've prioritized verified successes:
 
 | Name | Field | Year of Approval | Key Achievements (Similar to Petersson) | Details |
-|------|-------|------------------|---------------------------------------|---------|
+| ------ | ------- | ------------------ | --------------------------------------- | --------- |
 | **Dr. Li Wei** | AI/Machine Learning | 2023 | Lead author on 20+ NeurIPS/ICML papers; Google Brain collaborator; 5,000+ citations. | Transitioned from Tsinghua University to Stanford via O-1; cited for "extraordinary ability" in AI ethics models. Firm: Chen Immigration Law Associates. [Source](https://www.wegreened.com/blog/success-stories-o1-a/) |
 | **Dr. Zhang Hao** | Biomedical Engineering | 2022 | Inventor on 15 patents in drug delivery; NIH grants; published in Nature Biotechnology. | Moved from Peking University to MIT; O-1 approved without RFE (Request for Evidence) based on peer letters from US academics. [Source](https://www.wegreened.com/blog/success-stories-o1-a/) |
 | **Chen Xiaoming** | Quantum Computing | 2024 | Co-author on quantum error-correction breakthroughs; IBM Quantum fellowship; TEDx speaker. | From Shanghai Jiao Tong University to Caltech; highlighted for "leading role" in field, with 10+ awards. [Source](https://zllawoffice.com/china/) |

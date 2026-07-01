@@ -107,7 +107,7 @@ Breakeven data shows that an RTX 4090 purchase only matches A100 rental costs af
 ### Verdict
 
 | Goal | Recommended Path | Estimated Cost |
-|---|---|---|
+| --- | --- | --- |
 | Learn small model training (7B, LoRA) | Cloud spot (RunPod, Vast.ai) | ~¥2,000–5,000 |
 | Learn large model inference (70B+) | AMD DevCloud or cloud H100 | ~¥1,000–3,000 |
 | Go production / long-term research | Own hardware (RTX 4090 or 2×3090) | ¥20,000–30,000 |

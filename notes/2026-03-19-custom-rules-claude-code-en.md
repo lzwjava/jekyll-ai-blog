@@ -29,7 +29,7 @@ This is the **most recommended and native** way to give Claude Code persistent i
 ### File locations (all are read, in order)
 
 | Location | Scope |
-|---|---|
+| --- | --- |
 | `~/.claude/CLAUDE.md` | Global — applies to ALL projects |
 | `<project-root>/CLAUDE.md` | Project-level — applies to this repo |
 | `<subdir>/CLAUDE.md` | Subdirectory-level — applies when working in that folder |
@@ -113,7 +113,7 @@ This lets you **add or edit memory** that persists across sessions — similar t
 ## Best Practice Summary
 
 | Goal | Method |
-|---|---|
+| --- | --- |
 | Rules for ALL projects globally | `~/.claude/CLAUDE.md` |
 | Rules for one specific project | `<project>/CLAUDE.md` |
 | Rules for a subfolder | `<subdir>/CLAUDE.md` |

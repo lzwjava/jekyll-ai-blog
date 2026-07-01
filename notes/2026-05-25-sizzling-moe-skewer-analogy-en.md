@@ -105,7 +105,7 @@ Token (chunk of meat)
 ## DeepSeek-V3 / Qwen MoE Reality Check
 
 | Thing | Value |
-|---|---|
+| --- | --- |
 | Total experts | 64–256 |
 | Activated per token | 8 (DeepSeek-V3 uses 8 of 256) |
 | Active params per token | ~37B of 671B total |

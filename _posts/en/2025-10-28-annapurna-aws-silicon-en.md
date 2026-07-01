@@ -21,7 +21,7 @@ Annapurna Labs designs **custom silicon** that powers much of AWS's infrastructu
 ### Key Chips Designed by Annapurna Labs (Used in AWS)
 
 | Chip Family | Type | Key Features | Primary AWS Use Case |
-|-------------|------|--------------|-----------------------|
+| ------------- | ------ | -------------- | ----------------------- |
 | **Alpine** | ARM-based SoC | Multi-core ARMv8 CPUs, low power, integrated networking/storage | Early EC2 instances, storage controllers |
 | **Graviton** | ARM-based CPU | 64-bit ARM Neoverse cores (AWS-designed), high core count, DDR5, PCIe Gen4/5 | **EC2 Graviton instances** (general-purpose compute) |
 | **Nitro** | SmartNIC / Offload | ARM CPUs + custom accelerators for virtualization, security, storage, networking | **EC2 Nitro System**, EBS, VPC, security offload |

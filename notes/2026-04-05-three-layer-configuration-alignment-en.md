@@ -71,7 +71,7 @@ type: note
 ### The Alignment Matrix
 
 | Setting | config.php | openclaw.json | Database | Must Match |
-|---------|------------|---------------|----------|------------|
+| --------- | ------------ | --------------- | ---------- | ------------ |
 | Nextcloud internal URL | `http://localhost:8080` | `baseUrl` | - | ✅ All 3 |
 | Webhook URL (public) | - | `webhookPublicUrl` | `url` column | ✅ Both |
 | Shared secret | - | `botSecret` | `secret` column | ✅ Both |
@@ -186,7 +186,7 @@ OPENCLAW LOG (what OpenClaw reports to us):
 ### The Three Silent Failures
 
 | Failure Point | What We Expected | What Actually Happened | Error Message |
-|---------------|------------------|------------------------|---------------|
+| --------------- | ------------------ | ------------------------ | --------------- |
 | **Signature** | `baseUrl` matches header | `baseUrl` was `http://172.17.0.1:8080`, header was `http://localhost` | `401 Invalid backend` |
 | **Payload Parse** | `type` is "Create" | Nextcloud sends `type: "Activity"` | `400 Invalid payload format` |
 | **API Call** | `http://localhost:8080` works | `http://localhost` (port 80) → nginx → 404 | `room not found` |

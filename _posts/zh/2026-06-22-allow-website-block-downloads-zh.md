@@ -95,7 +95,7 @@ local-zone: "cdn-lfs-us-1.huggingface.co." refuse
 ## 实际阻断下载的效果
 
 | 你阻止的内容 | 效果 |
-|---|---|
+| --- | --- |
 | `cdn-lfs.huggingface.co` | 阻止权重下载（模型体积的 >99%） |
 | 主域名上的 `/resolve/` 路径 | 阻止配置/分词器文件拉取 |
 | `/api/models` | 阻止 `huggingface_hub` 元数据查询 |

@@ -101,7 +101,7 @@ At effective batch = 512 × 1024 = 524K tokens/iter:
 ### Recommended Fix
 
 | Issue | Fix |
-|---|---|
+| --- | --- |
 | RAM too low | Resize to 4GB+ droplet, or download locally |
 | No venv | `python3 -m venv venv && source venv/bin/activate` |
 | No HF token | `huggingface-cli login` |

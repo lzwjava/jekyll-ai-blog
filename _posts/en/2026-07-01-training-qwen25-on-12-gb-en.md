@@ -96,7 +96,7 @@ The levers that actually control whether it OOMs, in order of impact: `gradient_
 Knowledge → memory map
 
 | Method | Base dtype | Fits 12 GB? | Trains |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Full FT | bf16 | ❌ ~24 GB | all params |
 | LoRA | bf16 (~3 GB) | ✅ ~6–9 GB | adapters |
 | QLoRA | 4-bit (~0.75 GB) | ✅ ~4–7 GB | adapters |

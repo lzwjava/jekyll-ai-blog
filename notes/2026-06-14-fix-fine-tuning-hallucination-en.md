@@ -193,7 +193,7 @@ Run this before and after each training run. If biographical accuracy goes up bu
 ## Summary
 
 | Fix | Effort | Impact |
-|-----|--------|--------|
+| ----- | -------- | -------- |
 | Add bio Q&A pairs | Low (script above) | High |
 | System prompt anchor | Very low | High |
 | Negative/refusal pairs | Medium | Medium |

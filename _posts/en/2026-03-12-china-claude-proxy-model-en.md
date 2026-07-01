@@ -56,7 +56,7 @@ Open-source tools like `claude-relay-service` act as a middleware layer that for
 There are several distinct models:
 
 | Type | How It Works | Risk Level |
-|---|---|---|
+| --- | --- | --- |
 | **Official API reseller** | Buys Anthropic API credits, resells at markup | Medium |
 | **Subscription sharing (Max pooling)** | One Max plan shared among many users | High — violates ToS |
 | **Third-party reverse-engineered** | Uses technical exploits/unofficial endpoints | Very High |

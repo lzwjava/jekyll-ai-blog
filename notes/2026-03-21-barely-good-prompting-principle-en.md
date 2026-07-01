@@ -22,7 +22,7 @@ This is a sharp extension of the philosophy. With LLMs, the same calibration cha
 ## The Two Failure Modes
 
 | Too Little | Barely Good | Too Much |
-|---|---|---|
+| --- | --- | --- |
 | LLM doesn't know the goal | Clear intent + key constraints | Over-specified, rigid, wastes tokens |
 | Wrong assumptions made | Correct assumptions guided | No room for LLM's own judgment |
 | Output misses the point | Output hits the target well | LLM becomes a dumb executor |

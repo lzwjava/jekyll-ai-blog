@@ -21,7 +21,7 @@ That said, Flutter *is* a strong contender for hybrid apps, and many devs do pre
 Far from stagnant, the PWA market is booming, driven by smartphone penetration (85% in North America alone) and demands for offline/low-data access in emerging markets. Here's a snapshot of key metrics:
 
 | Metric/Source | 2024 Value | 2025 Projection | CAGR (2025+) | Notes |
-|---------------|------------|-----------------|--------------|-------|
+| --------------- | ------------ | ----------------- | -------------- | ------- |
 | **Global Market Size (Straits Research)** | $3.53B | $5.23B | 18.98% (to 2033) | E-commerce leads; 70% longer sessions vs. traditional web. |
 | **SNS Insider** | $1.4B | N/A | 28.6% (to 2032) | 40% annual adoption growth in large corps (>500 employees); social media segment at 18% share. |
 | **Grand View Research** | $2.08B | N/A | 29.9% (to 2033) | 60% of mobile traffic from e-commerce; EU "Digital Inclusion" laws boosting gov't use. |
@@ -42,7 +42,7 @@ You're spot on that many devs *prefer* Flutter for hybrid apps—it's exploding 
 Here's a head-to-head based on 2025 insights:
 
 | Aspect | PWA | Flutter | Why Devs Choose Flutter Over PWA |
-|--------|-----|---------|---------------------------------|
+| -------- | ----- | --------- | --------------------------------- |
 | **Performance** | Good (web tech; 85% faster loads via caching) | Excellent (Dart compiles to native ARM; pixel-perfect 60fps UI) | Near-native speed for complex apps (e.g., games, AR); PWAs lag on heavy compute. |
 | **Cross-Platform** | Web/mobile/desktop via browser | iOS/Android/web/desktop from one Dart codebase | Consistent branding/UI across platforms; easier for mobile-first teams avoiding web quirks. |
 | **Device Access** | Limited (camera/GPS via APIs; iOS push notifications spotty) | Full (haptics, Bluetooth, multi-touch, app integration) | Deeper hardware hooks for fintech/health apps; PWAs hit iOS walls (e.g., no auto-home-screen adds). |

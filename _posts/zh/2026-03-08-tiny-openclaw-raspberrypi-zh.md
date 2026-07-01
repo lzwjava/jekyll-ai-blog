@@ -164,7 +164,7 @@ OpenClaw 基本上是一个基于 Node.js 的代理，而不是 Python 库。然
 ## 快速比较表
 
 | 特性 | PicoClaw | OpenClaw（标准） |
-|---|---|---|
+| --- | --- | --- |
 | RAM 使用量 | ~10MB | ~100MB+ |
 | 启动时间 | <1 秒 | ~30 秒 |
 | 语言 | Go | TypeScript/Node.js |

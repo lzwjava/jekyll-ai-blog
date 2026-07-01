@@ -187,7 +187,7 @@ python train.py config/train_fineweb.py
 ## 📊 Token 预算总结
 
 | 数据集子集 | Tokens | 足够训练 124M 吗？ |
-|---|---|---|
+| --- | --- | --- |
 | `sample-350BT` | ~350B | ✅ 完整 GPT-2 规模 |
 | `sample-100BT` | ~100B | ✅ 强劲结果 |
 | **`sample-10BT`** | **~10B** | **✅ 良好的基准 (Good baseline)** |

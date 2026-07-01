@@ -15,7 +15,7 @@ type: note
 vLLM is an open-source inference engine commonly recommended for serving open-weight models efficiently. However, its adoption in production services varies. Below is a breakdown based on available information:
 
 | Provider/Model | Uses vLLM in Production? | Details |
-|---------------|---------------------------|---------|
+| --------------- | --------------------------- | --------- |
 | **Claude (Anthropic)** | No | Anthropic relies on proprietary infrastructure for serving Claude models. vLLM offers compatibility for local or third-party deployments mimicking Anthropic's API, but there's no evidence of internal use. |
 | **OpenAI (GPT models)** | No | OpenAI uses custom, in-house serving systems optimized for scale. vLLM supports OpenAI-compatible APIs for local inference, but OpenAI does not base its production on vLLM. |
 | **Minimax AI** | No | MiniMax open-sources models like MiniMax-M1/M2 and recommends vLLM for user deployments due to its performance. No confirmation of vLLM in their core production API; they may use forks or custom setups. |

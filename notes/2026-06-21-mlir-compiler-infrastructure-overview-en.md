@@ -49,7 +49,7 @@ func.func @matmul(%A: memref<4x4xf32>, %B: memref<4x4xf32>, %C: memref<4x4xf32>)
 A dialect is a namespace of ops, types, and attributes that model a specific abstraction level. Think of each dialect as a "mini-IR":
 
 | Dialect | Level | Purpose |
-|---------|-------|---------|
+| --------- | ------- | --------- |
 | `linalg` | High | Named tensor contractions (matmul, conv) |
 | `affine` | High | Polyhedral loop modeling |
 | `scf` | Mid | Structured control flow (for/if/while) |

@@ -46,7 +46,7 @@ That's why language model training works.
 ## Forward vs Reverse KL
 
 | | $D_{KL}(P \| Q)$ | $D_{KL}(Q \| P)$ |
-|---|---|---|
+| --- | --- | --- |
 | Name | Forward KL / "I-projection" | Reverse KL / "M-projection" |
 | Behavior | Q spreads to cover all of P ("mean-seeking") | Q collapses onto one mode of P ("mode-seeking") |
 | Used in | MLE / cross-entropy training | VAE encoder, RL PPO KL penalty |
@@ -106,7 +106,7 @@ Small here but catastrophic when distributions have disjoint support. In VAEs, t
 ## Practical Summary
 
 | Context | Which KL | Why |
-|---|---|---|
+| --- | --- | --- |
 | LLM cross-entropy loss | $D_{KL}(P_{data} \| P_{model})$ | MLE = forward KL |
 | PPO penalty | $D_{KL}(\pi_\theta \| \pi_{ref})$ | Reverse, prevents drift |
 | VAE | $D_{KL}(q_\phi(z\|x) \| p(z))$ | Reverse, regularizes latent |

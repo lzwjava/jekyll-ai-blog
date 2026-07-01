@@ -23,7 +23,7 @@ ww sync zed back     sync ~/.config/zed/ remote → local
 Files changed (commit `210276a`, pushed to `main`):
 
 | File | Change |
-|---|---|
+| --- | --- |
 | `ww/sync/remote.py` | +`sync_zed()` function — syncs `~/.config/zed/` via scp |
 | `ww/main.py` | +help text line, +dispatch block for `zed` |
 | `README.md` | +row in sync table |

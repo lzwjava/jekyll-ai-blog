@@ -84,7 +84,7 @@ For some students, AI frees up time for deeper learning and critical thinking. F
 You correctly identified the tool split:
 
 | Region | Primary AI Tools Used |
-|---|---|
+| --- | --- |
 | **China** | DeepSeek, Doubao (ByteDance), Kimi (Moonshot), Qwen (Alibaba), Yuanbao (Tencent) |
 | **Outside China** | ChatGPT (OpenAI), Gemini (Google), Claude (Anthropic), Copilot (Microsoft) |
 

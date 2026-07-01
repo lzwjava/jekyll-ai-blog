@@ -38,7 +38,7 @@ The most effective cost optimization strategies are: **fine-tuning** existing pr
 With ~$735, here is what is **realistically possible**:
 
 | Goal | Feasibility |
-|---|---|
+| --- | --- |
 | Fine-tune a small open-source model (e.g. Llama 3 8B) with LoRA | ✅ Yes |
 | Train a tiny custom model (< 1B parameters) | ✅ Possible |
 | Pre-train GPT-3 (175B parameters) from scratch | ❌ Completely impossible |

@@ -61,7 +61,7 @@ ping.pe's BGP Looking Glass is available at `bgp-lg.ping.pe` and allows users to
 ## Key Advantages
 
 | Feature | Benefit |
-|---|---|
+| --- | --- |
 | No installation needed | Works directly in browser |
 | Multi-location testing | Identifies regional network issues |
 | MTR + Ping combined | Deep hop-by-hop diagnosis |

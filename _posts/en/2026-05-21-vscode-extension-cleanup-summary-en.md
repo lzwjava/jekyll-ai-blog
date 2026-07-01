@@ -12,7 +12,7 @@ type: note
 All 10 removed. Cleanup summary:
 
 | Removed | Status |
-|---|---|
+| --- | --- |
 | `tomoki1207.pdf` — PDF viewer | Gone |
 | `yzane.markdown-pdf` — PDF export | Gone |
 | `xdebug.php-pack` — PHP | Gone |

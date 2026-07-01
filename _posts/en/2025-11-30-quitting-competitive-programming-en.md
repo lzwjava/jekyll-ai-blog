@@ -47,7 +47,7 @@ Here's a breakdown of the top reasons, drawn from user stories and trends:
 - **Why it leads to quitting**: Feels rigged. One Master quit live contests entirely: "Cheating so common, even Div 1 isn't safe."
 
 | Platform | Key Dropout Trigger | Example User Quote |
-|----------|---------------------|-------------------|
+| ---------- | --------------------- | ------------------- |
 | **LeetCode** | Interview irrelevance + endless grind | "5 years, no progress—it's a game, not real coding." (Hacker News) |
 | **Codeforces** | Cheating + contest stress | "Stuck at Newbie, editorials too hard—rage quit?" (Codeforces blog) |
 | **Both** | Comparison burnout | "Friends are Masters, I'm Specialist after 3 years." (Reddit/X) |

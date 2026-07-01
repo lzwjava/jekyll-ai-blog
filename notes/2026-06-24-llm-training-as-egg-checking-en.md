@@ -16,7 +16,7 @@ Answer:
 Exactly right. The analogy maps cleanly:
 
 | Egg check | LLM training equivalent |
-|-----------|------------------------|
+| ----------- | ------------------------ |
 | Shake to feel if yolk is set | Eval on checkpoint — loss, perplexity, downstream task |
 | Don't wait until you crack it open | Don't wait until full training ends to discover divergence |
 | Overcooking wastes energy | Unnecessary training steps waste GPU-hours ($$$) |

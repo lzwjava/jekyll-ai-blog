@@ -96,7 +96,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ## 🔧 Recommended Diagnostic Sequence
 
 | Step | Action | Purpose |
-|------|--------|---------|
+| ------ | -------- | --------- |
 | 1 | Check `status.openai.com` | Rule out OpenAI being down |
 | 2 | `ping` / `traceroute` relay from local | Find slow hops on user side |
 | 3 | `curl` timing test from relay to OpenAI | Find slow hops on server side |

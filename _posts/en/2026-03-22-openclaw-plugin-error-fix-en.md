@@ -82,7 +82,7 @@ If `plugins.allow` is empty and non-bundled plugins are discoverable, OpenClaw l
 ### Summary Table
 
 | Warning | Root Cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | `duplicate plugin id detected` | Plugin installed + also in `plugins.entries` | Delete `~/.openclaw/extensions/nextcloud-talk` |
 | Telegram group messages dropped | `groupPolicy=allowlist` but no allowed IDs | Set `groupPolicy: "open"` or add IDs |
 | `plugins.allow is empty` | No explicit plugin trust list | Add `plugins.allow` array to config |

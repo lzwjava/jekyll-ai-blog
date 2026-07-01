@@ -36,7 +36,7 @@ Intermittent fasting is characterized by alternating periods of little or no cal
 ## Benefits Relevant to Your Profile
 
 | Benefit | Why It Matters for You |
-|---|---|
+| --- | --- |
 | **Fat loss** | At 90+kg, reducing body fat improves overall health |
 | **Insulin sensitivity** | Helps prevent Type 2 diabetes risk |
 | **Heart health** | Reduces blood pressure and cholesterol |

@@ -24,7 +24,7 @@ Launched April 27, 2026 at **$549 USD**, the Beast delivers a 174-inch virtual s
 Key specs at a glance:
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Display | Sony Micro-OLED, 1200p (4K-like) |
 | Brightness | 1250 nits |
 | Virtual screen size | 174" at 4m |
@@ -41,7 +41,7 @@ Tom's Guide called it "the best AR glasses that money can buy right now" (Editor
 ## Where Does It Sit in the Viture Lineup?
 
 | Model | Price | Who It's For |
-|---|---|---|
+| --- | --- | --- |
 | **Beast** | $549 | Max display quality, 3DoF, gaming/cinema |
 | Luma Ultra | $599 | 6DoF + hand gestures, spatial computing |
 | Luma | $399 | Budget entry, still Micro-OLED |

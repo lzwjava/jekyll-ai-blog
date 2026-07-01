@@ -64,7 +64,7 @@ Apps like **Secretum** (Solana-based), **DMail**, or **Matrix** do offer decentr
 ## Architecture Patterns: Choose Your Tradeoff
 
 | Pattern | Server Needed | Scalability | Use Case |
-|---------|---------------|-------------|----------|
+| --------- | --------------- | ------------- | ---------- |
 | **Pure P2P Mesh** | Only signaling | ✗ Poor (>6 users) | 1-1 calls, small groups |
 | **SFU (Selective Forwarding)** | Self-hosted server | ✓ Good (100s) | Meetings, live streams |
 | **MCU (Multipoint Control)** | Heavy server | ✓ Excellent (1000s) | Large conferences |

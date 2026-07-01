@@ -62,7 +62,7 @@ As the authors of *The Art of Possibility* put it: "We are saying that, on the w
 ## Summary
 
 | Mindset | What It Signals | What It Attracts |
-|---|---|---|
+| --- | --- | --- |
 | Scarcity / Greed | Fear, competition, threat | Suspicion, distance, resistance |
 | Service / Abundance | Trust, generosity, purpose | Collaboration, resources, loyalty |
 

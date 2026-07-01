@@ -12,7 +12,7 @@ type: note
 Spotlight is **permanently disabled**. Here's what happened:
 
 | Before | After |
-|---|---|
+| --- | --- |
 | mds_stores: **14 GB RAM** | mds daemon: **471 MB** (idle, 0% CPU) |
 | mdworker: **18 processes** eating CPU | **0** |
 | Indexing all folders, all the time | **Disabled on all volumes** |

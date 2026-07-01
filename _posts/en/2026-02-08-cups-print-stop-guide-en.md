@@ -51,15 +51,15 @@ sudo systemctl stop cups.service
 
 ### Common related commands
 
-| Purpose                          | Command                                      | Notes |
-|-------------------------------|----------------------------------------------|-------|
-| Stop CUPS now                 | `sudo systemctl stop cups`                   | Immediate stop |
-| Start CUPS                    | `sudo systemctl start cups`                  | - |
-| Restart CUPS                  | `sudo systemctl restart cups`                | Most common when troubleshooting |
-| Prevent start on boot         | `sudo systemctl disable cups`                | Still can be started manually |
-| Allow start on boot again     | `sudo systemctl enable cups`                 | - |
-| Check status                  | `sudo systemctl status cups`                 | Shows running/stopped + recent logs |
-| Stop + disable (no auto-start)| `sudo systemctl stop cups`<br>`sudo systemctl disable cups` | Common on servers |
+| Purpose | Command | Notes |
+| ------------------------------- | ---------------------------------------------- | ------- |
+| Stop CUPS now | `sudo systemctl stop cups` | Immediate stop |
+| Start CUPS | `sudo systemctl start cups` | - |
+| Restart CUPS | `sudo systemctl restart cups` | Most common when troubleshooting |
+| Prevent start on boot | `sudo systemctl disable cups` | Still can be started manually |
+| Allow start on boot again | `sudo systemctl enable cups` | - |
+| Check status | `sudo systemctl status cups` | Shows running/stopped + recent logs |
+| Stop + disable (no auto-start) | `sudo systemctl stop cups`<br>`sudo systemctl disable cups` | Common on servers |
 
 **Note about modern Ubuntu versions (22.04+ / 24.04+):**
 Sometimes CUPS is delivered as a **snap** package (especially `cups` and `cups-browsed`). In that case `systemctl` may not work and you need:

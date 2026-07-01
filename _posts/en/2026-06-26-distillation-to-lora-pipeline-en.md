@@ -253,7 +253,7 @@ for tag, adapter in [("zeroshot", None), ("lora", "out-sec-lora")]:
 The headline becomes a single table:
 
 | Model | Field-F1 | Cost/1k calls | Latency |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | V4-Pro (teacher) | 0.91 | $X | high |
 | Qwen3-8B zero-shot | 0.58 | local | low |
 | **Qwen3-8B + LoRA (yours)** | **0.84** | **local** | **low** |

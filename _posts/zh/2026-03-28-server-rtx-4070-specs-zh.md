@@ -12,7 +12,7 @@ type: note
 等等 —— 原来这**确实**是在你的服务器（`lzw-server`）上，而不是在笔记本电脑上。它配置了一块 **RTX 4070**（不是 Ti）：
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | **GPU** | NVIDIA GeForce RTX 4070 |
 | **VRAM** | 12 GB GDDR6X (213 MiB in use) |
 | **Driver** | 535.288.01 / CUDA 12.2 |

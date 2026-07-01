@@ -24,7 +24,7 @@ Big corps confuse **mission alignment** with **technical depth**. Someone who's 
 But leading an AI org — especially an LLM-centric one — requires something different:
 
 | Good Heart Leader | Technical AI Leader |
-|---|---|
+| --- | --- |
 | Talks about AI impact | Understands scaling laws |
 | Reads AI news | Reads papers and implements them |
 | Manages AI vendors | Can evaluate model quality themselves |

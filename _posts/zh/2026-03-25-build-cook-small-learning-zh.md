@@ -62,7 +62,7 @@ Karpathy 曾说过，你不能只是给大脑塞满知识就指望智力出现�
 ## 更深层的模式
 
 | 被动学习 (Passive Learning) | 主动 / 探索性学习 (Active / Exploratory Learning) |
-|---|---|
+| --- | --- |
 | 跟随 TikTok 菜谱 | 创造你自己的简单菜肴 |
 | 观看 ML tutorials | 从零开始构建 micrograd |
 | 阅读教材证明 | 合上书重新推导 |

@@ -207,7 +207,7 @@ curl --interface enx00e04c362f89 https://api.ipify.org
 根据历史，**最可能的剩余问题** 是以下之一：
 
 | # | 可能原因 | 如何确认 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | iPad 未续订 DHCP（仍使用旧 DNS/网关） | 手动检查 iPad 的网络设置 |
 | 2 | Clash 缺少 `auto-route: true` — TUN 未捕获转发数据包 | 检查 Clash 配置 |
 | 3 | UFW 有链中较早的明确 FORWARD DROP 规则覆盖 `allow routed` | `sudo iptables -L FORWARD -n --line-numbers` |

@@ -18,7 +18,7 @@ HuggingFace doesn't publish a public "top followers" leaderboard in a clean, off
 ## Top HF Staff / Insiders (by followers)
 
 | Handle | Person | Role | ~Followers |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **thomwolf** | Thomas Wolf | Co-founder / CSO of HF | ~30,000+ |
 | **pcuenq** | Pedro Cuenca | Research Engineer, HF | ~20,000+ |
 | **merve** | Merve Noyan | Developer Advocate, HF | ~15,000+ |
@@ -32,7 +32,7 @@ Thomas Wolf is likely the single most-followed individual user — he's the face
 ## Top Community Contributors (non-HF staff)
 
 | Handle | Person | Known For | ~Followers |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **teknium** | Nathan Cooper | OpenHermes, Hermes series, NousResearch | ~7,300 |
 | **TheBloke** | Tom Jobbins | Quantized model uploads (GGUF, GPTQ) | ~6,000+ |
 | **bartowski** | — | GGUF quants, LM Studio | ~5,000+ |

@@ -38,7 +38,7 @@ By end of 2025, HSBC had 100 generative AI solutions in production and a strong 
 To put it in full context — this is an industry-wide structural shift happening simultaneously:
 
 | Bank | Cuts | Timeline | Driver |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | HSBC | ~20,000 (10%) | 3–5 years | AI back-office automation |
 | Standard Chartered | ~8,000 (15% of corp functions) | By 2030 | AI + margin expansion |
 | DBS | ~4,000 contractors | 3 years | Automation |

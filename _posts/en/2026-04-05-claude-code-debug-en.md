@@ -32,7 +32,7 @@ When you ask Claude Code with the actual repo in context:
 You have at least **4 interacting systems**:
 
 | Layer | Complexity |
-|---|---|
+| --- | --- |
 | Nextcloud Talk | Webhook signing, bot registration |
 | OpenClaw bot | Mention detection logic, drop conditions |
 | Docker networking | Bridge/host mode, internal DNS |

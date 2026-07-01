@@ -194,7 +194,7 @@ function Card({ children }) {
 ## 常见错误点快速总结
 
 | HTML 习惯 | JSX 等效写法 |
-|---|---|
+| --- | --- |
 | `class="btn"` | `className="btn"` |
 | `for="email"` | `htmlFor="email"` |
 | `<br>` | `<br />` |

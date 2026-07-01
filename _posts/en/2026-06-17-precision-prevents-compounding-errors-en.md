@@ -34,7 +34,7 @@ In signal processing terms: you cannot recover information that was never encode
 **What precision actually looks like in practice:**
 
 | Vague | Precise |
-|---|---|
+| --- | --- |
 | "Revenue grew strongly" | "Revenue grew 23% YoY to $4.2B" |
 | "We had some security incidents" | "3 P1 incidents, all resolved within SLA, no data exfiltration" |
 | "The team is working on it" | "ETA is Friday EOD, owner is [name]" |

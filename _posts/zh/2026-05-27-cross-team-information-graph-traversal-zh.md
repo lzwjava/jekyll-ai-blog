@@ -322,7 +322,7 @@ def find_connected_people(staff_id, hops=2):
 ## 跨团队工作的战术手册
 
 | 目标 | 命令 |
-|------|---------|
+| ------ | --------- |
 | 谁拥有组件 X？ | JQL: `component = X ORDER BY updated DESC` → 查看经办人 |
 | 查找 Confluence 运行手册 | CQL: `text ~ "X" AND ancestor = "Runbooks"` |
 | 还有谁在使用我的 API？ | GitHub 代码搜索: `org:bank "MyServiceClient"` |

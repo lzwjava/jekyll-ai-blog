@@ -18,7 +18,7 @@ All done. Here's the full test results:
 **All 12/12 tests passed ✅**
 
 | # | Test | Command | Result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | **Navigate** | `navigate example.com` | ✅ Loaded page |
 | 2 | **DOM Snapshot** | `snapshot --compact` | ✅ Full DOM tree with ARIA refs |
 | 3 | **Element Click** | `click e2` (Learn more) | ✅ Navigated to iana.org |

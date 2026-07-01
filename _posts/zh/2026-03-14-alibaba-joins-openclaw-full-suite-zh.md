@@ -50,7 +50,7 @@ Coding Plan 支持的模型包括 **qwen3.5-plus**、**qwen3-max**、**qwen3-cod
 ### 总结：各大主要玩家的立场
 
 | 公司 | OpenClaw 产品 |
-|---|---|
+| --- | --- |
 | **Alibaba / Aliyun** | JVS Claw 移动应用 + 一键 ECS 部署 + Coding Plan API |
 | **Tencent Cloud** | 一键部署 + 离线安装展台 |
 | **Kimi (Moonshot)** | KimiClaw + Kimi K2.5 模型集成 |

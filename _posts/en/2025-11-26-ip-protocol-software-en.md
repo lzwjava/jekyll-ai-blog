@@ -16,14 +16,14 @@ The **IP protocol** (Internet Protocol, both IPv4 and IPv6) is **software/firmwa
 
 Here’s where the IP protocol actually runs:
 
-| Device Type         | Where IP protocol runs                                                                 | Example implementations |
-|---------------------|-----------------------------------------------------------------------------------------|---------------------------|
-| Computers (Windows, macOS, Linux) | Operating system kernel (network stack)                                                | TCP/IP stack in Windows/Linux kernel |
-| Mobile phones (Android, iOS)      | Operating system kernel                                                                | Android Linux kernel, iOS XNU kernel |
-| Routers & Switches (enterprise)   | Usually specialized OS/firmware (Cisco IOS, Juniper Junos, Arista EOS, Cumulus Linux, etc.) | Runs in software on the router’s CPU |
-| Consumer routers (home Wi-Fi)     | Embedded firmware (often based on Linux or proprietary RTOS)                          | OpenWrt, ASUSWrt, DD-WRT, etc. |
-| Layer-3 switches                  | Same as routers — they run full IP routing software                                    | Cisco Nexus, Aruba, etc. |
-| Even some “smart” appliances, IoT devices, cars, etc. | Tiny embedded TCP/IP stacks (lwIP, uIP, etc.)                                      | Runs in firmware |
+| Device Type | Where IP protocol runs | Example implementations |
+| --------------------- | ----------------------------------------------------------------------------------------- | --------------------------- |
+| Computers (Windows, macOS, Linux) | Operating system kernel (network stack) | TCP/IP stack in Windows/Linux kernel |
+| Mobile phones (Android, iOS) | Operating system kernel | Android Linux kernel, iOS XNU kernel |
+| Routers & Switches (enterprise) | Usually specialized OS/firmware (Cisco IOS, Juniper Junos, Arista EOS, Cumulus Linux, etc.) | Runs in software on the router’s CPU |
+| Consumer routers (home Wi-Fi) | Embedded firmware (often based on Linux or proprietary RTOS) | OpenWrt, ASUSWrt, DD-WRT, etc. |
+| Layer-3 switches | Same as routers — they run full IP routing software | Cisco Nexus, Aruba, etc. |
+| Even some “smart” appliances, IoT devices, cars, etc. | Tiny embedded TCP/IP stacks (lwIP, uIP, etc.) | Runs in firmware |
 
 Key points:
 

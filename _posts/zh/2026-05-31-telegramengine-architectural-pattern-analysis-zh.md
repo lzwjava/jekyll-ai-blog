@@ -398,7 +398,7 @@ public struct ValueBoxEncryptionParameters {
 ## 架构模式总结
 
 | 模式 | 位置 | 原因 |
-|---------|-------|------|
+| --------- | ------- | ------ |
 | 外观 + `_internal_*` | TelegramEngine | 将 Postbox 与消费者隔离 |
 | 包装类 + `_as*` 逃生口 | EngineMediaResource | 类型安全并提供逃生口 |
 | 类型擦除 + 类型化重载 | EngineData.subscribe | 异构集合与类型恢复 |

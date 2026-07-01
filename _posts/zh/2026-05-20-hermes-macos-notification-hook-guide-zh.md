@@ -88,7 +88,7 @@ echo '{"hook_event_name":"post_llm_call","cwd":"/Users/lzwjava/projects/hermes-a
 `post_llm_call` 钩子通过标准输入接收 JSON 数据：
 
 | 字段 | 来源 | 用途 |
-|-------|--------|----------|
+| ------- | -------- | ---------- |
 | `cwd` | 钩子触发时的 `Path.cwd()` | 标题中的目录名称 |
 | `extra.user_message` | 用户的原始查询 | 预览文本 |
 | `extra.conversation_history` | 完整消息列表 | 对话轮次计数 |

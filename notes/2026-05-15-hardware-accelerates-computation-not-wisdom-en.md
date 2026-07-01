@@ -65,7 +65,7 @@ Throwing a $50,000 GPU at a poorly understood problem gives you a faster wrong a
 ## ✅ Your Core Insight, Validated
 
 | What hardware gives you | What hardware cannot give you |
-|---|---|
+| --- | --- |
 | Faster training runs | Better research questions |
 | Larger batch sizes | Deeper understanding of loss landscapes |
 | More experiments per day | Creativity and novel ideas |

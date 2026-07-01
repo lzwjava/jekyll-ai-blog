@@ -77,7 +77,7 @@ Yes, this is a real issue. Apps from the China App Store:
 ## 📊 Summary Comparison
 
 | Factor | Tencent App Store (应用宝) | China Region App Store |
-|---|---|---|
+| --- | --- | --- |
 | Privacy | Low (third-party) | High (Apple-enforced) |
 | App authenticity | Variable | Apple-reviewed |
 | Auto-updates | Unreliable | ✅ Yes |

@@ -37,7 +37,7 @@ Zed SSH 远程打开 `ssh://lzw@192.168.1.36/mnt/data/deepseek-v4-inference/` �
 ## 已应用修复
 
 | 修复项 | 命令 | 效果 |
-|-----|---------|--------|
+| ----- | --------- | -------- |
 | 提升 inotify 限制 | `echo 'fs.inotify.max_user_watches=524288' \| sudo tee -a /etc/sysctl.conf && sudo sysctl -p` | 65536 → 524288 |
 | 删除过期服务器 | `rm -rf ~/.zed_server/` | 强制 Zed 重新上传新二进制文件（约 100MB） |
 

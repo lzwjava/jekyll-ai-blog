@@ -77,7 +77,7 @@ Claude Code 于 2025 年 2 月作为 research preview 发布，并于 2025 年 5
 这意味着“AI 时代编辑器”的一种截然不同的 UX 模型：
 
 | 传统编辑器功能 | AI 时代等效项 |
-|---|---|
+| --- | --- |
 | 导航快捷键 | 自然语言意图 (Natural language intent) |
 | 手动文件搜索 (Ctrl+P) | 自动发现相关 context 的 AI |
 | 多标签页管理 | AI 维护 context window |

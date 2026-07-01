@@ -50,7 +50,7 @@ Claude's support page advises reviewing their list of supported billing location
 ### Summary
 
 | Factor | Status for OCBC Visa Debit |
-|---|---|
+| --- | --- |
 | Debit card accepted by Anthropic? | ✅ Yes, officially |
 | 3D Secure support | ✅ OCBC supports it |
 | International online payments | ⚠️ Must be enabled in OCBC app |

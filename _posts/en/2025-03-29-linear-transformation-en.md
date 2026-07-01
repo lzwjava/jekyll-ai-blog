@@ -173,7 +173,7 @@ If \\( T: \mathbb{R}^3 \to \mathbb{R}^2 \\) has \\( \dim(\ker(T)) = 1 \\), then 
 ## **Summary**
 
 | Concept | Definition | Key Property |
-|---------|------------|--------------|
+| --------- | ------------ | -------------- |
 | **Linear Transformation** | \\( T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) \\) and \\( T(c\mathbf{v}) = cT(\mathbf{v}) \\) | Preserves linear structure |
 | **Matrix Representation** | \\( T(\mathbf{x}) = A\mathbf{x} \\) where columns of \\( A \\) are \\( T(\mathbf{e}_i) \\) | Encodes transformation |
 | **Kernel** | \\( \ker(T) = \{ \mathbf{v} \mid T(\mathbf{v}) = \mathbf{0} \} \\) | Measures injectivity |

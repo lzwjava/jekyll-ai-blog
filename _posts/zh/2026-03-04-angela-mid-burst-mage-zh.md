@@ -38,7 +38,7 @@ Angela（在《王者荣耀》中文版中也称为安琪拉）是 Honor of King
 Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后转向爆发。
 
 | Slot | Item | 理由 |
-|------|------|------|
+| ------ | ------ | ------ |
 | 靴子 | Boots of the Arcane | 魔法穿透 + 蓝量，用于早期 poke/清兵。备选：Glowing Wand Boots（若需 CDR）。 |
 | 核心 1 | Scepter of Reverberation (Pain Mask/回响之杖) | CDR、魔法强度，技能命中时范围爆炸——与技能 1 spam 完美契合。 |
 | 核心 2 | Savant's Wrath (博学者之怒) | 海量魔法增幅（技能后 +35% 强度）。中前期爆发核心。 |

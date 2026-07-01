@@ -32,7 +32,7 @@ type: note
 ### 3. 要检查的关键设置
 
 | 设置 | 位置 | 推荐 |
-|------|------|------|
+| ------ | ------ | ------ |
 | **Hardware Transcoding** | Dashboard → Playback | 启用 NVIDIA NVENC 或 VAAPI（已检测到您的 GPU ✅） |
 | **Library Scan** | Dashboard → Libraries | 设置为更改时自动扫描 |
 | **User Profiles** | Dashboard → Users | 为家庭成员创建单独的用户 |

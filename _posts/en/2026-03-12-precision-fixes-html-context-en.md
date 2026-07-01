@@ -57,7 +57,7 @@ Now Claude/Copilot **immediately knows**:
 ### Why HTML Elements Are Better Than Natural Language
 
 | Approach | AI Understanding | Quality of Fix |
-|---|---|---|
+| --- | --- | --- |
 | "The form looks broken" | Vague, guesses | Generic answer |
 | "form-group doesn't work" | Partial | Might fix wrong thing |
 | **Paste full before/after HTML** | **Precise, unambiguous** | **Targeted, correct fix** |

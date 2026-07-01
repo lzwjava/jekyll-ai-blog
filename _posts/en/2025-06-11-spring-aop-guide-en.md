@@ -23,13 +23,13 @@ Spring AOP (Aspect-Oriented Programming) is a key component of the Spring Framew
 
 ## 2. Spring AOP vs AspectJ
 
-| Feature               | Spring AOP | AspectJ |
-|-----------------------|-----------|---------|
-| Implementation        | Runtime proxying | Compile-time/load-time weaving |
-| Performance           | Slower | Faster |
+| Feature | Spring AOP | AspectJ |
+| ----------------------- | ----------- | --------- |
+| Implementation | Runtime proxying | Compile-time/load-time weaving |
+| Performance | Slower | Faster |
 | Join points supported | Method execution only | All (method, constructor, field access, etc.) |
-| Complexity            | Simpler | More complex |
-| Dependency            | No extra dependencies | Requires AspectJ compiler/weaver |
+| Complexity | Simpler | More complex |
+| Dependency | No extra dependencies | Requires AspectJ compiler/weaver |
 
 ## 3. Core AOP Components
 

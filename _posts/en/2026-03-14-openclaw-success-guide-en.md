@@ -65,7 +65,7 @@ Yes, **a good PRD (Product Requirements Document) is the #1 thing** that separat
 ```
 
 | Step | What to do |
-|------|-----------|
+| ------ | ----------- |
 | **1. PRD** | Define scope clearly before touching code |
 | **2. Start small** | Ask it to scaffold the project first, not build everything |
 | **3. Check output** | Review after each major step |
@@ -116,7 +116,7 @@ This forces it to **plan before it codes**.
 ### Summary
 
 | Question | Answer |
-|----------|--------|
+| ---------- | -------- |
 | Is your approach correct? | Mostly yes — but break it into smaller steps |
 | PRD first? | **Absolutely yes** |
 | Check after some time? | Yes, every 10-15 min for big tasks |

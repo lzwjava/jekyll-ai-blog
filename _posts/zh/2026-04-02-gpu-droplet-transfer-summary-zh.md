@@ -30,7 +30,7 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ### ✅ GPU Droplet 上已完成事项
 
 | Item | Status | Notes |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | GPU | ✅ 正常 | NVIDIA H200, 143GB VRAM |
 | PyTorch + CUDA | ✅ 已安装 | torch 2.11.0, CUDA 13 |
 | nanoGPT code | ✅ 已传输 | 157MB |
@@ -40,7 +40,7 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ### ⏳ 待完成事项
 
 | Item | Status | Notes |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | 完整 61GB 文件传输 | 🔄 已完成 1.3% | 823MB / 61GB，约 5 小时 |
 | 完整数据准备 | ⏳ 等待中 | 传输完成后运行 `prepare_fineweb.py` |
 | 真实训练 | ⏳ 等待中 | 使用 `train_fineweb.py` 配置运行 |

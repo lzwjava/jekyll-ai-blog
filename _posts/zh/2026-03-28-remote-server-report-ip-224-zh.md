@@ -14,7 +14,7 @@ type: note
 ### 🖥️ Remote Server Report — `47.107.70.224`
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | **OS** | Ubuntu 24.04.4 LTS (Noble Numbat) |
 | **Kernel** | 6.8.0-106-generic |
 | **CPU** | Intel Xeon Platinum 8369B @ 2.90GHz — 1 socket, 16 cores, 32 threads |

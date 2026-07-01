@@ -14,7 +14,7 @@ type: note
 ### 🔍 发现的根本原因（按发现顺序）
 
 | 序号 | 问题 | 观察到的错误 | 发生原因 |
-|-----|------|-------------|----------|
+| ----- | ------ | ------------- | ---------- |
 | 1 | **`baseUrl` 不匹配** | `401 Invalid backend` | Nextcloud 发送 `X-Nextcloud-Talk-Backend: http://localhost`，但 OpenClaw 期望 `http://172.17.0.1:8080` |
 | 2 | **缺少 `allowPrivateNetwork`** | `blocked URL fetch... reason=Blocked: private IP` | OpenClaw 的安全机制阻止了对 Docker `172.17.0.1` 的出站调用 |
 | 3 | **缺少 `webhookPublicUrl`** | Nextcloud 无法找到 webhook URL | 机器人注册时使用了错误/无法访问的 URL |
@@ -82,7 +82,7 @@ OpenClaw 将回复发送到 `http://localhost/ocs/v2.php/...`，这访问到了 
 ### ✅ 当前状态
 
 | 组件 | 值 | 状态 |
-|------|-----|------|
+| ------ | ----- | ------ |
 | Nextcloud `overwrite.cli.url` | `http://localhost:8080` | ✅ |
 | OpenClaw `baseUrl` | `http://localhost:8080` | ✅ |
 | OpenClaw `webhookPublicUrl` | `http://172.17.0.1:8788` | ✅ |

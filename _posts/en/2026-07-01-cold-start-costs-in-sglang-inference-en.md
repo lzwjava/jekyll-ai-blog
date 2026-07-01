@@ -65,7 +65,7 @@ For request 2, the system prompt's KV is already in the tree — prefill skips i
 So the three costs map cleanly:
 
 | Cost | When | Why it's gone after warmup |
-|------|------|----------------------------|
+| ------ | ------ | ---------------------------- |
 | CUDA graph capture | First request | Graphs recorded once, replayed thereafter |
 | KV cache allocation | First request | Pool preallocated once, pages reused |
 | Prefix recompute | Per request | RadixAttention reuses shared-prefix KV |

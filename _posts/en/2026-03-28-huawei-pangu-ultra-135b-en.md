@@ -56,7 +56,7 @@ Huawei also applied DSSN and TinyInit to help the model achieve over 52% MFU (Mo
 ### Summary Table
 
 | Attribute | Detail |
-|---|---|
+| --- | --- |
 | Model Name | Pangu Ultra (135B V3) |
 | Parameters | 135 billion (dense) |
 | Context Window | 128K tokens |

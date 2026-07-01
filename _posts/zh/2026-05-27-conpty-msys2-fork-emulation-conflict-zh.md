@@ -108,7 +108,7 @@ Warp 检测到 MSYS2 并调整其引导协议（使用 OSC 代替 DCS 进行钩�
 ## 总结
 
 | 修复方法 | 影响 |
-|-----|--------|
+| ----- | -------- |
 | 使用 `Git\usr\bin\bash.exe` | Warp 通过 `canonicalize_git_bash_path` 自动执行此操作 |
 | `MSYS_NO_PATHCONV=1` | 减少 fork 密集型路径转换 |
 | `MSYS=winsymlinks:nativestrict` | 减少符号链接模拟开销 |

@@ -70,7 +70,7 @@ Average cancer treatment costs in China range from $15,000 to $50,000 USD, compa
 ### 5. Key Hospitals Targeting International/SEA Patients
 
 | City | Top Hospitals for International Patients |
-|---|---|
+| --- | --- |
 | Beijing | Peking Union Medical College Hospital, Cancer Hospital of CAMS, Beijing GoBroad Boren Hospital |
 | Shanghai | Fudan University Shanghai Cancer Center, Shanghai Proton & Heavy Ion Center, Jiahui International (MGH partner) |
 | Guangzhou | Sun Yat-sen University Cancer Center, Fuda Cancer Hospital (JCI), St. Stamford Modern Cancer Hospital |

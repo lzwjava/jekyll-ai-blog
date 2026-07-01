@@ -18,7 +18,7 @@ Done. Here's the summary:
 **GPU**: AMD Instinct MI300X (Aqua Vanjaram) — Virtual Function passthrough
 
 | Item | Detail |
-|------|--------|
+| ------ | -------- |
 | GPU | AMD Instinct MI300X VF (0x74b5) |
 | PCIe | Gen 5.0 x16 (32 GT/s) |
 | Memory | 256 GB HBM3 |

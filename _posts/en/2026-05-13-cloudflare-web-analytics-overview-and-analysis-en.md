@@ -37,7 +37,7 @@ Key things you can check:
 A good LCP score is under 2.5 seconds. Your site is largely passing, but the outliers are concerning:
 
 | Percentile | Value | Assessment |
-|---|---|---|
+| --- | --- | --- |
 | P50 (median) | 560ms | Excellent |
 | P75 | 1,404ms | Good |
 | P90 | 2,608ms | Borderline / Needs Improvement |
@@ -79,7 +79,7 @@ This means a **bash code block** in one of your notes pages is causing layout sh
 ## Summary & Recommendations
 
 | Metric | Score | Status |
-|---|---|---|
+| --- | --- | --- |
 | LCP | 89% Good | ✅ Mostly fine; investigate P99 spike |
 | INP | 98% Good | ✅ Great; fix dark mode toggle lag |
 | CLS | 100% Good | ✅ Perfect overall; fix bash code block shift |

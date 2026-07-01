@@ -36,7 +36,7 @@ Answer:
 真正的专长是通过**主动参与**建立的，而不是被动消费。当你热爱一个主题时：
 
 | Activity | What happens when you love it |
-|---|---|
+| --- | --- |
 | **Reading** | 你阅读得更深入、更缓慢，并且真正记住它 |
 | **Writing** | 你更彻底地处理想法，并将其转化为自己的 |
 | **Producing/Building** | 你无畏地实验，因为失败不会阻止你 |
@@ -84,7 +84,7 @@ Answer:
 ### 🧩 总结
 
 | Forced Learning | Passion-Driven Learning |
-|---|---|
+| --- | --- |
 | 大脑抵抗 | 大脑吸收 |
 | 你匆忙完成 | 你忘记时间 |
 | 浅薄输出 | 深刻、真实的作品 |

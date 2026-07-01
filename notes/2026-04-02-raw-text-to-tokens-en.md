@@ -46,7 +46,7 @@ If each token averages ~0.6 bytes in binary format (typical for BPE):
 ## Why This Matters
 
 | Metric | Value | Meaning |
-|--------|-------|---------|
+| -------- | ------- | --------- |
 | Raw input | ~60GB | Source text files |
 | Binary output | 28GB | Ready for training |
 | Tokens | ~48B | Actual training tokens |

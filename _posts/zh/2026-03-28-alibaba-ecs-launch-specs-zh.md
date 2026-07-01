@@ -20,7 +20,7 @@ type: note
 ## 实例概览
 
 | 参数 | 值 |
-|---|---|
+| --- | --- |
 | **Billing** | Pay-As-You-Go (按量付费) |
 | **Region** | China South 1 (Shenzhen) |
 | **Availability Zone** | 自动分配 |
@@ -46,7 +46,7 @@ type: note
 ## 网络 (Network)
 
 | 参数 | 值 |
-|---|---|
+| --- | --- |
 | **Network Type** | VPC (Virtual Private Cloud) |
 | **VPC** | 默认 VPC |
 | **Subnet (Switch)** | 默认 Switch |
@@ -58,7 +58,7 @@ type: note
 ## 存储 (Storage)
 
 | 参数 | 值 |
-|---|---|
+| --- | --- |
 | **System Disk** | ESSD Cloud Disk, 40 GiB |
 | **Disk Performance Level** | PL0 (最高 10,000 IOPS) |
 | **Release with Instance** | 是 |
@@ -74,7 +74,7 @@ type: note
 ## 操作系统与安全 (OS & Security)
 
 | 参数 | 值 |
-|---|---|
+| --- | --- |
 | **Image** | Ubuntu 24.04 64-bit (安全加固版) |
 | **Login Credential** | Key Pair (尚未选择) |
 | **Instance Release Protection** | 已禁用 |

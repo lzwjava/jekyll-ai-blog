@@ -86,7 +86,7 @@ leaks <PID>
 ## Common Options
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `-quiet` | Suppress informational output, show only leaks |
 | `-nocontext` | Do not print hex/string content of leaked memory |
 | `-nostacks` | Skip printing backtraces of leaked blocks |
@@ -150,7 +150,7 @@ leaks /tmp/myapp.memgraph
 ## Environment Variables
 
 | Variable | Effect |
-|---|---|
+| --- | --- |
 | `MallocStackLogging=1` | Records stack traces for all allocations |
 | `MallocStackLogging=lite` | Lighter-weight stack logging (used by `-atExit` automatically) |
 | `MallocScribble=1` | Fills freed blocks with `0x55`, reducing false pointer matches |

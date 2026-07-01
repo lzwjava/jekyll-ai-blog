@@ -26,7 +26,7 @@ type: note
 ## Comparison of All Options
 
 | 选项 | 名称 | 工作域 | 特点 |
-|--------|------|-----------------|-----------------|
+| -------- | ------ | ----------------- | ----------------- |
 | **A** | **Frequency Division Multiplexing (FDM)** | **频域 (Frequency Domain)** | **将频率划分为多个子频带，每路信号占用不同频率** |
 | B | Time Division Multiplexing (TDM) | 时域 (Time Domain) | 将时间划分为多个时隙，每路信号占用不同时间 |
 | C | Wavelength Division Multiplexing (WDM) | 光域 (Optical Domain) | 基于光纤传输，不同波长的光信号 |

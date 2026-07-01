@@ -54,7 +54,7 @@ This makes them more efficient for mixed workflows where you switch between:
 ## The Real Trade-Off Summary
 
 | Behavior | Claude Code / Codex CLI | Web Chatbot | OpenClaw-style |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | General knowledge Q&A | Slow — checks local first | Fast — answers directly | Fast — routes correctly |
 | Local file/project Q&A | Excellent | Can't access | Good |
 | Web search | Requires explicit prompt | Built-in | Depends on config |

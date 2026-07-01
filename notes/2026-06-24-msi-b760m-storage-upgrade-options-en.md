@@ -26,7 +26,7 @@ Your current storage situation:
 This mATX board has:
 
 | Slot | Type | Status |
-|------|------|--------|
+| ------ | ------ | -------- |
 | M.2_1 (Key-M) | PCIe 5.0 x4 / PCIe 4.0 x4, NVMe | Likely occupied by Samsung 980 |
 | M.2_2 (Key-M) | PCIe 4.0 x4, NVMe | **Free** |
 | M.2_3 (Key-M) | PCIe 4.0 x4 / SATA | **Free** |
@@ -45,7 +45,7 @@ Drop a 2TB or 4TB Gen4 NVMe into M.2_2.
 **Recommended:**
 
 | Drive | Capacity | Speed | Price (CNY) |
-|-------|----------|-------|-------------|
+| ------- | ---------- | ------- | ------------- |
 | Samsung 990 Pro | 2TB | 7,450/6,900 MB/s | ~799 |
 | WD Black SN850X | 2TB | 7,300/6,600 MB/s | ~749 |
 | Crucial T500 | 2TB | 7,400/7,000 MB/s | ~599 |
@@ -58,7 +58,7 @@ For ML/AI workloads (datasets, checkpoints), **4TB Gen4** in M.2_2 is the highes
 You have 5 free SATA ports and the Aigo case likely fits 2–3 x 3.5" drives. You already have SATA cables.
 
 | Drive | Capacity | Price (CNY) |
-|-------|----------|-------------|
+| ------- | ---------- | ------------- |
 | WD Blue 4TB | 4TB | ~499 |
 | Seagate Barracuda 4TB | 4TB | ~459 |
 | WD Red Plus 4TB (NAS-grade) | 4TB | ~599 |

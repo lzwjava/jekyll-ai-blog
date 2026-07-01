@@ -150,7 +150,7 @@ The `fork_to_star_ratio` is a sleeper metric — high ratio means engineers are 
 For the "what was hot in Dec 2025" use case:
 
 | Signal | Source | What It Tells You |
-|---|---|---|
+| --- | --- | --- |
 | HN mentions | `hn.algolia.com/api/v1/search?query=repo&dateRange=custom` | Dev mindshare spikes |
 | Reddit mentions | Pushshift / Reddit API | Community buzz |
 | Twitter/X velocity | Search `github.com/owner/repo` + date filter | Viral moments |

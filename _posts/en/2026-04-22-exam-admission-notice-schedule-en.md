@@ -20,7 +20,7 @@ type: note
 ### 👤 Candidate Information
 
 | Field | Details |
-|---|---|
+| --- | --- |
 | **Exam Period** | April 2026 |
 | **Candidate ID (准考证号)** | 0510201 |
 | **Major Code** | 202604 |
@@ -32,7 +32,7 @@ type: note
 ### 📅 Exam Schedule
 
 | # | Subject Name | Subject Code | Date & Time | Room No. | Location | Seat No. |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | **Fundamentals & Applications of Computer** (计算机基础与应用技术) | 13808 | Apr 25 (Fri) AM 9:00 – 10:30 | Room 1 | Building 2, Room 417 | 1 |
 | 2 | **Fundamentals of Computer Programming** (计算机程序设计基础) | 13794 | Apr 25 (Fri) AM 10:30 – 12:00 | Room 1 | Building 2, Room 417 | 1 |
 | 3 | **Database and Its Applications** (数据库及其应用) | 13171 | Apr 25 (Fri) PM 14:00 – 16:00 | Room 1 | Building 6, Room B202 | 1 |

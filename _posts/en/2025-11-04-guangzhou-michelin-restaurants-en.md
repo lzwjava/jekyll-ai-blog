@@ -19,7 +19,7 @@ Guangzhou, known as the "Millennium Banquet City," boasts a vibrant food scene h
 These represent exceptional consistency and creativity.
 
 | Restaurant | Cuisine | Location | Highlights |
-|------------|---------|----------|------------|
+| ------------ | --------- | ---------- | ------------ |
 | Imperial Treasure Fine Chinese Cuisine | Cantonese | Tianhe District | Signature dim sum and seafood dishes in an opulent setting; renowned for refined flavors. |
 | Jiang by Chef Fei | Cantonese | Tianhe District (Mandarin Oriental) | Modern twists on classics like roasted goose; seven-time Two Star recipient. |
 | Taian Table | European Contemporary | Yuexiu District (Garden Hotel) | Chef Richard Ng's tasting menus blending French techniques with local ingredients. |
@@ -29,7 +29,7 @@ These represent exceptional consistency and creativity.
 From 17 total, these are favorites for first-time visitors, covering dim sum, regional specialties, and international flair.
 
 | Restaurant | Cuisine | Location | Highlights |
-|------------|---------|----------|------------|
+| ------------ | --------- | ---------- | ------------ |
 | Chōwa | Innovative Cantonese | Tianhe District | New 2025 Star; bold, personalized tasting menus with unique presentations. |
 | Hongtu Hall | Dim Sum | Liwan District (White Swan Hotel) | Riverside views and exquisite dim sum; a must for traditionalists. |
 | Lei Garden (Yuexiu) | Cantonese | Yuexiu District | Iconic chain elevated to fine dining; try the steamed fish and stir-fries. |

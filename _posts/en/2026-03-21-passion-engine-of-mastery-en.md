@@ -36,7 +36,7 @@ When you force yourself to learn something you hate, your brain treats it like a
 Real expertise is built through **active engagement**, not passive consumption. When you love a topic:
 
 | Activity | What happens when you love it |
-|---|---|
+| --- | --- |
 | **Reading** | You read deeper, slower, and you actually remember it |
 | **Writing** | You process ideas more thoroughly and make them your own |
 | **Producing/Building** | You experiment fearlessly because failure doesn't stop you |
@@ -84,7 +84,7 @@ As the saying goes:
 ### 🧩 Summary
 
 | Forced Learning | Passion-Driven Learning |
-|---|---|
+| --- | --- |
 | Brain resists | Brain absorbs |
 | You rush to finish | You lose track of time |
 | Shallow output | Deep, authentic work |

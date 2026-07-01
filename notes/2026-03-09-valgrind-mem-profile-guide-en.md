@@ -76,7 +76,7 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 **Key flags for Memcheck:**
 
 | Flag | Description |
-|---|---|
+| --- | --- |
 | `--leak-check=full` | Show details of each individual memory leak |
 | `--show-leak-kinds=all` | Show all types of leaks |
 | `--track-origins=yes` | Report where undefined values came from |
@@ -166,7 +166,7 @@ The official Valgrind does **not** support modern macOS versions (especially App
 ## Summary Table
 
 | Tool | Platform | Use Case |
-|---|---|---|
+| --- | --- | --- |
 | Valgrind Memcheck | Linux (best) | Memory leaks, illegal access |
 | Valgrind Massif | Linux | Heap usage profiling |
 | Valgrind Callgrind | Linux | CPU/call graph profiling |

@@ -52,7 +52,7 @@ Candidates can access answers to frequently asked questions for technical querie
 SHL Direct covers the following major assessment methods:
 
 | Assessment Type | Description |
-|---|---|
+| --- | --- |
 | **Ability Tests** | Measure verbal reasoning, numerical reasoning, and potential to do a task |
 | **Personality Questionnaires** | Assess behavioral preferences and how you like to work |
 | **Situational Judgment Tests (SJT)** | Test your ability to choose appropriate actions in workplace scenarios |

@@ -47,7 +47,7 @@ This is where "better than Micron" breaks down:
 ## Bottom line
 
 | Dimension | CXMT vs Micron (2026) |
-|---|---|
+| --- | --- |
 | Revenue | Could **exceed** Micron (cycle-driven, ~$50B est.) |
 | Capacity | Approaching (~350 vs ~385 kwspm) |
 | Cost/bit | ~30%+ **worse** |

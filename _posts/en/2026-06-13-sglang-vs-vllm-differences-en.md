@@ -20,7 +20,7 @@ Both are high-performance LLM inference engines, but they have different design 
 ## Core Philosophy
 
 | | **vLLM** | **SGLang** |
-|---|---|---|
+| --- | --- | --- |
 | Origin | UC Berkeley, 2023 | Stanford, 2024 |
 | Primary innovation | PagedAttention (KV cache mgmt) | RadixAttention (prefix reuse) |
 | Design goal | Maximize throughput via memory efficiency | Maximize throughput via computation reuse |
@@ -96,7 +96,7 @@ vLLM also supports DeepSeek but SGLang's team has been faster here.
 ## Benchmark Reality (approximate, varies by workload)
 
 | Metric | vLLM | SGLang |
-|---|---|---|
+| --- | --- | --- |
 | Throughput (shared prefix) | Baseline | +20–50% from RadixAttention |
 | Throughput (no shared prefix) | ~similar | ~similar |
 | TTFT (time-to-first-token) | Good | Often better with prefix reuse |

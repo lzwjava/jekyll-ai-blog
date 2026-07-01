@@ -59,7 +59,7 @@ This is not elitism for its own sake — it's a **structural reality** observed 
 ## The Deeper Psychological Truth
 
 | Too Easy | Too Hard |
-|----------|----------|
+| ---------- | ---------- |
 | Breeds dependency | Breeds exclusion |
 | Kills motivation | Kills participation |
 | Devalues achievement | Creates gatekeeping |

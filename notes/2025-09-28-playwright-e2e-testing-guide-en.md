@@ -327,7 +327,7 @@ npx playwright show-trace trace.zip
 ### Architecture Differences
 
 | Feature | Playwright | Selenium |
-|---------|------------|----------|
+| --------- | ------------ | ---------- |
 | **Architecture** | Direct browser communication | WebDriver protocol |
 | **Browser Support** | Chromium, Firefox, WebKit | Chrome, Firefox, Safari, Edge, IE |
 | **Installation** | Single package with browsers | Separate driver downloads |

@@ -16,7 +16,7 @@ type: note
 Correct mapping. Given `v = (1, 12, 2, 64)`:
 
 | Dimension | Symbol | Meaning | Value in your example |
-|-----------|--------|---------|----------------------|
+| ----------- | -------- | --------- | ---------------------- |
 | **B** | Batch size | Number of sequences processed in parallel | 1 |
 | **nh** | Number of heads | How many independent attention subspaces | 12 |
 | **T** | Sequence length | Number of tokens | 2 |

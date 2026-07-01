@@ -15,7 +15,7 @@ type: note
 Based on GitHub stars as of November 2025, here's an expanded list of the top 50 most popular open source projects where Rust is the primary language. This includes a mix of languages, tools, databases, and frameworks. Rankings can fluctuate slightly, but these reflect current trends emphasizing Rust's role in performance-critical software.
 
 | Rank | Project | Description | Stars |
-|------|---------|-------------|-------|
+| ------ | --------- | ------------- | ------- |
 | 1 | [rust-lang/rust](https://github.com/rust-lang/rust) | The Rust programming language. | 107,635 |
 | 2 | [denoland/deno](https://github.com/denoland/deno) | Modern runtime for JavaScript and TypeScript. | 105,023 |
 | 3 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | Open-source remote desktop alternative to TeamViewer. | 101,909 |

@@ -49,7 +49,7 @@ For most teams running V4-Flash, two H200 SXM in a single pod is the sweet spot 
 **Practical tiers:**
 
 | Model | Weights Size | Minimum Self-Host | Context |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | V4-Flash | ~160 GB (FP8) | 2× H100/H200 | 1M tokens |
 | V4-Pro | ~865 GB | 8× H200 (single-node) | up to 800K |
 | V4-Pro (full 1M) | ~865 GB | 2-node H200 cluster | 1M tokens |

@@ -41,7 +41,7 @@ The core job of a middle manager is essentially:
 ### Why ICs Actually WIN in the AI Era
 
 | Skill | Before AI | After AI |
-|---|---|---|
+| --- | --- | --- |
 | Writing code | Slow, need experience | 10x faster with Copilot/Claude |
 | Data analysis | Need analyst team | One IC + Claude |
 | Documentation | Painful | Auto-generated |

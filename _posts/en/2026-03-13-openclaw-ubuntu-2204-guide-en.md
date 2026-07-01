@@ -180,7 +180,7 @@ sudo journalctl -u openclaw -f
 ## Common Troubleshooting
 
 | Problem | Fix |
-|---|---|
+| --- | --- |
 | `openclaw: command not found` | Add `$(npm prefix -g)/bin` to `$PATH` in `~/.bashrc` |
 | Dashboard won't open | Use SSH tunnel, not direct IP access |
 | Crashes on startup | Check RAM — minimum 2 GB required |

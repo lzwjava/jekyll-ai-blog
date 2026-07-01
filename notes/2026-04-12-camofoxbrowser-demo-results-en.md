@@ -36,7 +36,7 @@ Here's a summary of what we just demonstrated with CamofoxBrowser:
 ### Other APIs Available (not tested)
 
 | Endpoint | Purpose |
-|---|---|
+| --- | --- |
 | `POST /tabs/:tabId/type` | Type text into form fields |
 | `POST /tabs/:tabId/scroll` | Scroll up/down |
 | `POST /tabs/:tabId/back` | Browser back |

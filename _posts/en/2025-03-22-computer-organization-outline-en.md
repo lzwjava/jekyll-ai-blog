@@ -47,13 +47,13 @@ The course’s importance lies in its role as a foundational subject for compute
 
 The course is structured into six main chapters, each with knowledge points categorized into five levels: Identification (basic recall), Understanding (conceptual grasp), Simple Application (basic problem-solving), Comprehensive Application (complex scenarios), and Key Points (exam-focused emphasis). Below is the chapter-wise breakdown, ensuring alignment with exam expectations:
 
-| **Chapter**                          | **Content Description**                                                                 |
-|---------------------------------------|----------------------------------------------------------------------------------------|
-| 1. Computer System Overview           | Introduces the von Neumann architecture, system buses, and the relationship between hardware and software, providing a holistic view of computer systems. |
-| 2. Data Representation and Operation  | Covers binary, hexadecimal, and floating-point number systems, Boolean algebra, and arithmetic operations, essential for understanding data processing. |
-| 3. Instruction System                 | Explores instruction set architecture (ISA), including instruction formats, addressing modes, and assembly language, crucial for programming and hardware interaction. |
-| 4. Central Processing Unit (CPU)      | Details the CPU’s internal structure, including registers, the instruction cycle (fetch-decode-execute), and the arithmetic logic unit (ALU), focusing on execution mechanisms. |
-| 5. Memory Hierarchy                   | Discusses cache memory, main memory, virtual memory, and memory management techniques, addressing performance optimization and system efficiency. |
+| **Chapter** | **Content Description** |
+| --------------------------------------- | ---------------------------------------------------------------------------------------- |
+| 1. Computer System Overview | Introduces the von Neumann architecture, system buses, and the relationship between hardware and software, providing a holistic view of computer systems. |
+| 2. Data Representation and Operation | Covers binary, hexadecimal, and floating-point number systems, Boolean algebra, and arithmetic operations, essential for understanding data processing. |
+| 3. Instruction System | Explores instruction set architecture (ISA), including instruction formats, addressing modes, and assembly language, crucial for programming and hardware interaction. |
+| 4. Central Processing Unit (CPU) | Details the CPU’s internal structure, including registers, the instruction cycle (fetch-decode-execute), and the arithmetic logic unit (ALU), focusing on execution mechanisms. |
+| 5. Memory Hierarchy | Discusses cache memory, main memory, virtual memory, and memory management techniques, addressing performance optimization and system efficiency. |
 | 6. Interconnection and Input/Output Organization | Examines bus structures, I/O devices, and communication protocols, highlighting how components interact within a computer system. |
 
 Each chapter includes key points marked with background color and red font in study materials, indicating high-priority topics for exams. This structure ensures students can systematically prepare, with an emphasis on both theoretical understanding and practical application, aligning with the self-study exam’s assessment format.

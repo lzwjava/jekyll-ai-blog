@@ -121,7 +121,7 @@ Prefix any prompt with `&` to delegate work to the Copilot coding agent in the c
 ### Useful Slash Commands
 
 | Command | Description |
-|---|---|
+| --- | --- |
 | `/model` | Switch or compare AI models |
 | `/restart` | Restart CLI while preserving session |
 | `/lsp show` | Show Language Server Protocol status |

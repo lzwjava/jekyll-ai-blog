@@ -75,7 +75,7 @@ python train.py config/train_shakespeare_char.py
 ## Summary of the Full Workflow
 
 | Step | Who Does It | Why |
-|---|---|---|
+| --- | --- | --- |
 | Setup env, prep data | Claude Code | Agentic, handles errors |
 | Smoke run (10–50 iters) | Claude Code | Fast validation, catch bugs |
 | Full training run | You, in separate terminal | Long-running, needs persistence |

@@ -24,7 +24,7 @@ Dead simple to read from the HTML:
 **Stack:**
 
 | Signal | Conclusion |
-|--------|-----------|
+| -------- | ----------- |
 | `<div id="app"></div>` | **Vue 3** (React uses `id="root"`, Vue uses `id="app"` by convention) |
 | `assets/index-[hash].js` | **Vite** build output — the `BBl0IX-N` hash pattern is Vite's default chunk naming |
 | Single JS + CSS bundle | SPA, no SSR |

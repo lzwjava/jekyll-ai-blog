@@ -48,7 +48,7 @@ Programs at HKUST(GZ) do not duplicate existing ones offered by the Clearwater B
 ### Key Facts
 
 | Item | Detail |
-|------|--------|
+| ------ | -------- |
 | Founded | June 2022 |
 | Type | Joint venture (HKUST + Guangzhou University) |
 | President | Lionel Ni |

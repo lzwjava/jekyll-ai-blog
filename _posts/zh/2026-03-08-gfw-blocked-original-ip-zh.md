@@ -20,7 +20,7 @@ type: note
 <br/>
 
 | 症状 | 含义 |
-|---|---|
+| --- | --- |
 | Ping / traceroute → Operation timed out | ICMP 数据包在 **GFW 层面被丢弃** |
 | Telnet → Unable to connect | TCP 连接被 GFW **重置或丢弃** |
 | 域名正常 | DNS 不是问题——是 **IP 层** 被封锁 |

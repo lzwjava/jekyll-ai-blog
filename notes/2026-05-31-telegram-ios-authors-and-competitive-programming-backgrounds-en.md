@@ -16,7 +16,7 @@ Based on my investigation, here's what I found about the main Telegram-iOS autho
 ## Top Contributors to Telegram-iOS
 
 | Rank | GitHub | Name | Commits |
-|------|--------|------|---------|
+| ------ | -------- | ------ | --------- |
 | 1 | laktyushin | Ilya Laktyushin | 7,952 |
 | 2 | petertechstories | Peter Iakovlev | 1,502 |
 | 3 | appleguy | Scott Goodson | 915 |

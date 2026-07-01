@@ -16,7 +16,7 @@ type: note
 Added two new commands to `ww ghostty`:
 
 | Command | Description |
-|---------|-------------|
+| --------- | ------------- |
 | `ww ghostty list` | List all open Ghostty windows with ID, title, position, size |
 | `ww ghostty focus <N\|title>` | Scale a Ghostty window to near-full-screen by index or title substring |
 | `ww ghostty focus reset` | Reset all window transforms back to original size/position |
@@ -63,7 +63,7 @@ Uses `CGSSetWindowTransform` from the SkyLight private framework. This applies a
 ### What works on macOS 26.5
 
 | API | Status | Purpose |
-|-----|--------|---------|
+| ----- | -------- | --------- |
 | `CGWindowListCopyWindowInfo` | ✅ works | List/enumerate windows |
 | `CGSSetWindowTransform` | ✅ works | Scale + translate window visually |
 | `CGSOrderWindow` | ✅ works (no visual z-order change in CGWindowList) | Raise window to front |

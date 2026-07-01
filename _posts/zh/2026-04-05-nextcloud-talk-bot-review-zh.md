@@ -14,7 +14,7 @@ type: note
 ### ✅ 已修复项
 
 | 项目 | 修复前 | 修复后 |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | `baseUrl` | `http://172.17.0.1:8080` | `http://localhost` ✅ |
 | `webhookPublicUrl` | （缺失） | `http://172.17.0.1:8788` ✅ |
 | `allowPrivateNetwork` | （缺失） | `true` ✅ |

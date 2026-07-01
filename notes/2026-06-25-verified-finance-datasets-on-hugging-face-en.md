@@ -178,7 +178,7 @@ I checked each URL. Here's what actually exists, organized by training stage.
 There is **no single FineWeb-equivalent for finance**. The closest:
 
 | Analogy | Exists? | What to use instead |
-|---------|---------|---------------------|
+| --------- | --------- | --------------------- |
 | FineWeb (web crawl → clean) | No | `kapilrao/SEC-EDGAR` (43B tokens of filings) + `Brianferrell787/financial-news-multisource` (57M rows news) |
 | BigCode (The Stack) | No | Finance code is too niche; use general code + finance SFT |
 | Dolma (AI2 pretrain mix) | No | Build your own mix from the above |

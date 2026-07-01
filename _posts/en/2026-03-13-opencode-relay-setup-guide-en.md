@@ -115,7 +115,7 @@ The pincc.ai relay path is `/api/` (e.g. `https://v2-as.pincc.ai/api/`). OpenCod
 ## Summary Table
 
 | Feature | Claude Code | OpenCode |
-|---|---|---|
+| --- | --- | --- |
 | Reads `ANTHROPIC_BASE_URL` env | ✅ Native support | ❌ Not reliable |
 | Reads `ANTHROPIC_AUTH_TOKEN` env | ✅ Native support | ❌ Not reliable |
 | Custom relay via `opencode.json` | N/A | ✅ Possible (with workarounds) |

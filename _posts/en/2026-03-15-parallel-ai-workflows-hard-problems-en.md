@@ -31,7 +31,7 @@ For hard research problems like reimplementing AlphaGo or experimenting with new
 You mentioned "OpenClaw" — it's worth clarifying the two tools, as they serve different roles:
 
 | | **Claude Code** | **OpenClaw** |
-|---|---|---|
+| --- | --- | --- |
 | Purpose | Terminal-based agentic coding | Persistent personal AI agent/gateway |
 | Sessions | Multiple parallel terminal sessions | Sub-agents with persistent memory |
 | Best for | Code execution, repo manipulation | Orchestration, long-running workflows |

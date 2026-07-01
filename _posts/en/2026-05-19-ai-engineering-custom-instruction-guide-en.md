@@ -20,7 +20,7 @@ Done. Here's what I created and why:
 I distilled your entire identity — 12 years of shipping, startup founding, model training, heavy LLM usage, self-taught CS — into a custom instruction that pushes AI answers toward your long-term goal of AI engineering. Here's the structure and the thinking behind each section:
 
 | Section | What it does |
-|---|---|
+| --- | --- |
 | **Who I Am** | Tells the AI your actual biography — startup founder, bank engineer, GPT-2 trainer, top 6% AI user. This prevents it from assuming you're a junior or a generic user. |
 | **Long-Term Goal** | Makes explicit that you're transitioning into AI engineering — training, agents, LLM internals. Every answer should accelerate this. |
 | **Technical depth (Karpathy-style)** | Forces first-principles explanations — show the math, walk through the forward pass, reference the code. No hand-waving. |

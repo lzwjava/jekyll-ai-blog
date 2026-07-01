@@ -30,7 +30,7 @@ type: note
 ### 通用/个性化信息流（类似今日头条）
 
 | 产品 | 功能 | 状态 |
-|---|---|---|
+| --- | --- | --- |
 | **Particle** | 由前 Twitter 工程师打造；使用大语言模型进行摘要、背景化并以个性化信息流形式呈现新闻 | 活跃，A 轮融资 1090 万美元 |
 | **Ground News** | 感知偏见，多来源比较 | 活跃 |
 | **Feedly AI** | 来源控制 + AI 信号 | 活跃，企业级 |
@@ -40,7 +40,7 @@ type: note
 ### 技术/AI 专项（类似 InfoQ / 黑客新闻）
 
 | 产品 | 功能 |
-|---|---|
+| --- | --- |
 | **[pricepertoken.com/news](https://pricepertoken.com/news)** | 覆盖模型发布、基准测试、硬件——按大语言模型、智能体、编程、硬件分类 |
 | **[llm-stats.com/ai-news](https://llm-stats.com/ai-news)** | 每日 AI 模型发布、基准更新、来自 OpenAI、Anthropic、Google、Meta、Mistral 的研究新闻 |
 | **[dentro.de/ai/news](https://dentro.de/ai/news)** | 精选 AI 事件时间线——模型发布、融资、研究里程碑 |

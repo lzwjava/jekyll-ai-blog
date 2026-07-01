@@ -59,7 +59,7 @@ for data, target in dataloader:
 ### Key Methods
 
 | Method | Purpose |
-|-------|--------|
+| ------- | -------- |
 | `scaler.scale(loss)` | Scales the loss before `.backward()` |
 | `scaler.step(optimizer)` | Unscales grads and calls `optimizer.step()` |
 | `scaler.update()` | Adjusts scaling factor for next iteration |

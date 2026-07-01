@@ -108,7 +108,7 @@ Wants=network-online.target
 ## 总结表格
 
 | 原因 | 解决方案 |
-|---|---|
+| --- | --- |
 | 无互联网 / 网络未就绪 | 等待，或修复启动顺序 |
 | GitHub CDN 被阻塞/缓慢 | 使用 jsDelivr 或备用镜像 URL |
 | 无缓存 MMDB 文件 | 手动预下载文件 |

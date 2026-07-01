@@ -18,7 +18,7 @@ Hong Kong universities generally follow this rhythm for **September intake** (th
 ## Typical Application Timeline (September Intake)
 
 | Round | When to Apply | Notes |
-|-------|--------------|-------|
+| ------- | -------------- | ------- |
 | **Early Round** | Oct – Nov (year before) | Some programs open as early as September |
 | **Main Round 1** | Dec – Jan | Most competitive scholarships decided here |
 | **Main Round 2** | Feb – Mar | Still good chances, funding more limited |

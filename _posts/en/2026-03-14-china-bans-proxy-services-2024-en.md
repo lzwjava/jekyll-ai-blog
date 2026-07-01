@@ -77,7 +77,7 @@ Only government-approved VPNs obtained from state-owned telecommunications compa
 ### Summary Table
 
 | Actor | Legal Status | Risk |
-|---|---|---|
+| --- | --- | --- |
 | Selling unauthorized proxy/VPN service | **Illegal** | Prison + fines |
 | Offering state-approved enterprise VPN | Legal (with license) | Heavy oversight |
 | Individuals using personal VPN | Gray area | Rarely prosecuted |

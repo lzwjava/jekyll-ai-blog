@@ -26,7 +26,7 @@ Their tagline describes them as a **"reliable software customization team"** (Èù
 The company offers a broad range of software development and design services:
 
 | Service | Description |
-|---|---|
+| --- | --- |
 | **Website / System Development** | Custom PC web, mobile HTML5, and responsive web development across industries like e-commerce, education, and mobile manufacturers |
 | **WeChat Mini-Programs & Official Accounts** | Development using WeChat's latest design and technical architecture |
 | **iOS & Android App Development** | Native and hybrid mobile app development following the latest design standards |

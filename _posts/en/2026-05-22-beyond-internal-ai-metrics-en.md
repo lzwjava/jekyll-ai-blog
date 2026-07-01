@@ -30,7 +30,7 @@ That's a brand/perception metric, not an internal operations metric. It's earned
 Right now, a few banks are getting close:
 
 | Bank | Why people think "AI bank" |
-|------|---------------------------|
+| ------ | --------------------------- |
 | **DBS** | Digibank, AI-driven credit decisions, public talks about AI culture, named by MIT as digital leader |
 | **JPMorgan** | IndexGPT, $2B annual tech spend, Jamie Dimon openly says AI will compress workweek — public narrative |
 | **Goldman Sachs** | Developer-first, Marcus, open about LLM use in trading/legal |

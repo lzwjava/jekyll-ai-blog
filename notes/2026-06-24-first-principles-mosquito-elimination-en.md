@@ -103,7 +103,7 @@ Classic 王垠 — reject the framing, solve the meta-problem.
 ## Actual Practical Stack (what works in Guangzhou climate)
 
 | Layer | Tool | Why |
-|---|---|---|
+| --- | --- | --- |
 | Entry sealing | 20-mesh fiberglass screens + door sweeps | Structural, permanent |
 | Breeding elimination | Remove all standing water, treat drains with Bti (*Bacillus thuringiensis israelensis*) | Biological, non-toxic |
 | Active capture | CO₂ lure trap (outdoor, near entry) | Intercepts before entry |

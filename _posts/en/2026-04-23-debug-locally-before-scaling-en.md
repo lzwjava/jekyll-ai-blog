@@ -62,7 +62,7 @@ You don't need a massive GPU cluster to get started. The Shakespeare dataset com
 ### The Right Mental Model: Local = Prototype, Cloud = Scale
 
 | Stage | Where to Work | Why |
-|---|---|---|
+| --- | --- | --- |
 | Learning configs, reading code | Local 4070/4090 | Free, no pressure |
 | Debugging errors | Local 4070/4090 | Mistakes cost nothing |
 | Small experiments (Shakespeare, custom tiny datasets) | Local 4070/4090 | Fast enough, free |

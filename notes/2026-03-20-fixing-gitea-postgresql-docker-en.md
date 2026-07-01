@@ -94,7 +94,7 @@ sudo ufw allow from 172.16.0.0/12 to any port 5433 proto tcp comment 'postgresql
 ```
 
 | Part | Meaning |
-|------|---------|
+| ------ | --------- |
 | `from 172.16.0.0/12` | Only Docker networks (172.16.0.0 – 172.31.255.255) |
 | `to any port 5433` | PostgreSQL's port |
 | `proto tcp` | PostgreSQL uses TCP |
@@ -125,7 +125,7 @@ This is more secure than opening 5433 to the whole internet — only Docker cont
 ### Summary
 
 | Problem | Symptom | Fix |
-|---------|---------|-----|
+| --------- | --------- | ----- |
 | PostgreSQL only on `localhost` | Container can't reach host's loopback | `listen_addresses = '*'` |
 | Custom Docker network ≠ bridge | `host.docker.internal` resolves to wrong gateway | Already handled by `listen_addresses = '*'` |
 | iptables drops Docker → host traffic | Connection times out | `ufw allow from 172.16.0.0/12 to port 5433` |

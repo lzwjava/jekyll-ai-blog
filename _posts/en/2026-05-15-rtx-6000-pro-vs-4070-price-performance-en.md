@@ -25,7 +25,7 @@ Let’s break this down carefully:
 ### 2. **GPU Comparison: RTX 6000 Pro vs RTX 4070**
 
 | Feature | RTX 6000 Pro (Ada/Large Memory Variant) | RTX 4070 |
-|---------|----------------------------------------|-----------|
+| --------- | ---------------------------------------- | ----------- |
 | VRAM | 48–96 GB GDDR6/ECC (professional) | 12 GB GDDR6X |
 | CUDA Cores | ~10,752 | 5,888 |
 | Tensor Cores | Yes, for AI/ML workloads | Yes, smaller count |

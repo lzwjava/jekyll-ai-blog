@@ -127,7 +127,7 @@ Replaces the "I also do AI" framing with "I am an AI engineer who also ships ent
 ## Summary of changes (all structural, zero content lost)
 
 | What | Change |
-|---|---|
+| --- | --- |
 | Header title | "Resume" → "Zhiwei Li — AI Engineer" |
 | Profile | AI cluster first, engineering second, personal third |
 | TEKsystems bullets | AI bullet #1, banking context #2 |

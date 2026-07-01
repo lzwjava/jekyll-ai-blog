@@ -28,7 +28,7 @@ Means:
 ### Breakdown
 
 | Term | Meaning |
-|------|---------|
+| ------ | --------- |
 | 折装 | Likely typo/shorthand for **拆装** (disassemble + install) |
 | 拆 (chāi) | To disassemble / take apart |
 | 装 (zhuāng) | To assemble / install |

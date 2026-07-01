@@ -128,7 +128,7 @@ nvidia-smi
 ## Key Principle
 
 | Rule | Detail |
-|------|--------|
+| ------ | -------- |
 | Never mix sources | Pick Ubuntu repo OR NVIDIA repo, not both |
 | Version suffix `-0ubuntu1` | Comes from Ubuntu's official repo |
 | Version suffix `-0ubuntu0.22.04.1` | Comes from NVIDIA's own CUDA repo |

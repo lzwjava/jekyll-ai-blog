@@ -35,7 +35,7 @@ With 8,000+ notes over a year, you have a **dense, structured corpus** of your o
 ### Why This Makes Presentations Easy
 
 | Traditional Approach | Your Approach |
-|---|---|
+| --- | --- |
 | "What did I learn about X?" — struggle to recall | Query notes: `grep hermes` → instant context |
 | Write slides from scratch | AI summarizes your own notes into slides |
 | Generic content | **Your actual experience** — tips, bugs, discoveries |

@@ -40,7 +40,7 @@ During model training (like next-word prediction in GPT), the embeddings are upd
 So the lifecycle looks like this:
 
 | Phase | State of Embedding |
-|---|---|
+| --- | --- |
 | Before training | Random noise vectors |
 | During training | Continuously updated via backprop |
 | After training (inference) | Frozen — each token has one fixed vector |

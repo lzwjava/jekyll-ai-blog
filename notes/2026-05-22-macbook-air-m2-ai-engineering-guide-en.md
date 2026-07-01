@@ -55,7 +55,7 @@ model, tokenizer = load("mlx-community/Llama-3.2-3B-4bit")
 **3. Stop using swap — close the heavy hitters**
 
 | Process | Memory | Fix |
-|---|---|---|
+| --- | --- | --- |
 | WeChat | 265 MB | Close if not needed |
 | WebKit tabs | 250 MB × N | Close excess tabs |
 | GitHub Desktop | 236 MB | CLI git saves 200+ MB |

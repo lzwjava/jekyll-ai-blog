@@ -35,7 +35,7 @@ If the platform processes **13T tokens/week**:
 So the correct interpretation is:
 
 | Metric | Approx value |
-|---|---|
+| --- | --- |
 | Weekly tokens | ~13 trillion |
 | Daily tokens | ~1.8 trillion |
 
@@ -46,7 +46,7 @@ So the correct interpretation is:
 The growth has been extremely rapid.
 
 | Time | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2024 | ~0.5T/week |
 | Early 2025 | ~1T/week |
 | Sept 2025 | ~5T/week |
@@ -109,7 +109,7 @@ Some models are **10–20× cheaper** than frontier models. citeturn0searc
 Example pricing comparison:
 
 | Model type | Price per million tokens |
-|---|---|
+| --- | --- |
 | Cheap open models | ~$0.30 |
 | Frontier models | ~$5–25 |
 
@@ -150,7 +150,7 @@ Growth will likely **slow but remain very high**.
 ### Conservative scenario (5× per year)
 
 | Year | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2026 | ~13T |
 | 2027 | ~60T |
 | 2028 | ~300T |
@@ -158,7 +158,7 @@ Growth will likely **slow but remain very high**.
 ### Moderate scenario (3× per year)
 
 | Year | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2026 | ~13T |
 | 2027 | ~40T |
 | 2028 | ~120T |

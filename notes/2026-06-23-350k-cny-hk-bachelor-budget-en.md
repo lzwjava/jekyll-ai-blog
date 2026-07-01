@@ -24,7 +24,7 @@ Yes, 350k CNY/year is a reasonable estimate, but let me be precise with real num
 From the HK Education Bureau's own data:
 
 | Item | HKD/year | CNY/year (~0.92) |
-|------|----------|-----------------|
+| ------ | ---------- | ----------------- |
 | Tuition (self-funded unis) | HKD 90,000–100,000 | ~83k–92k CNY |
 | Hostel (on-campus dorm) | HKD 15,000–45,000 | ~14k–41k CNY |
 | OR flat rental (1BR) | HKD 96,000–180,000 | ~88k–165k CNY |

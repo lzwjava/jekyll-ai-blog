@@ -20,7 +20,7 @@ Hot off the press — Nvidia just reported **Q1 FY2027** results after market cl
 ## Nvidia Q1 FY2027 — Key Numbers
 
 | Metric | Result | Consensus Estimate | YoY |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Revenue** | **$81.6B** | ~$78.8B | **+85%** |
 | **Data Center Revenue** | **$75B** | ~$73B | **+92%** |
 | **QoQ Revenue Growth** | +20% | — | — |

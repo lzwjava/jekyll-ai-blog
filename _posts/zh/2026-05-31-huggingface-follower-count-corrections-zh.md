@@ -18,7 +18,7 @@ type: note
 ## HF 员工——实际粉丝数
 
 | 用户名 | 人物 | 角色 | **实际粉丝数** |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **thomwolf** | Thomas Wolf | 联合创始人 / 首席科学官 | ~1,766 |
 | **osanseviero** | Omar Sanseviero | 幕僚长 | ~3,426 |
 | **clem** | Clément Delangue | 首席执行官 | ~3,007 |

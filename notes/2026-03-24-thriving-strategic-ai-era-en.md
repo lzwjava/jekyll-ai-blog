@@ -76,7 +76,7 @@ The best practitioners learn *why* things work, not just *what* tools exist. Ove
 ## Summary Table
 
 | Profile | Trajectory in 2026 |
-|---|---|
+| --- | --- |
 | Reader + builder + GitHub experimenter | **Thriving** — high demand, high comp |
 | Passive reader / theory-only learner | **Stagnating** — no practical edge |
 | Traditional dev, light AI use | **Falling behind** — productivity gap widens |

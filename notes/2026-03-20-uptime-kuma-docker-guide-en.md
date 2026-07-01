@@ -130,7 +130,7 @@ docker-compose down -v
 ## **11. Troubleshooting**
 
 | Symptom | Likely Cause | Solution |
-|---------|-------------|----------|
+| --------- | ------------- | ---------- |
 | Port 3001 unreachable | Firewall blocking | `ufw allow 3001/tcp` |
 | Container exits immediately | Volume permission issues | `chown -R 1000:1000 uptime-kuma-data` |
 | Dashboard shows "Disconnected" | Browser cache or WebSocket issue | Clear cache or check reverse proxy config |

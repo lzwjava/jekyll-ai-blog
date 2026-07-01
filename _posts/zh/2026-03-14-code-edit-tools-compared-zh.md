@@ -123,7 +123,7 @@ Claude Code 将 Write（完整文件覆盖）和 Edit（精确 `str_replace`）�
 ## 总结比较表
 
 | 特性 | Claude Code (`str_replace_based_edit_tool`) | OpenAI Codex (`apply_patch`) |
-|---|---|---|
+| --- | --- | --- |
 | **编辑范式** | Exact string match & replace | Unified diff / patch format |
 | **上下文行** | 无（纯字符串匹配） | 更改前后 3 行（可配置） |
 | **创建文件** | `create` 命令 | `--- /dev/null` 补丁头部 |

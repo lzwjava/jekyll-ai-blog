@@ -52,7 +52,7 @@ Enterprise features include:
 ## Key Relationship Summary
 
 | Aspect | Open Source (GitHub) | dify.ai Cloud | Enterprise |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cost | Free (infra costs only) | Tiered subscriptions | Custom (contact sales) |
 | Hosting | You manage it | Dify manages it | You manage it (on-prem/VPC) |
 | Data control | Full | Limited (Dify's cloud) | Full |

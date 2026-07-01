@@ -75,7 +75,7 @@ Since `rocm-smi` couldn't see the GPU, I built a Python script that reads the sa
 **Data sources used:**
 
 | Info | Source |
-|------|--------|
+| ------ | -------- |
 | GPU name, BARs | `lspci -s <bdf> -vv` |
 | Device/vendor IDs | `/sys/bus/pci/devices/<bdf>/device`, `vendor`, `subsystem_*` |
 | PCIe link speed/width | `/sys/bus/pci/devices/<bdf>/current_link_speed`, `current_link_width`, `max_link_*` |

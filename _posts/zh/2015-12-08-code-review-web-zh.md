@@ -47,9 +47,9 @@ git submodule update
 
 ### 贡献者
 
-| 作者  | 提交 |
+| 作者 | 提交 |
 | ------------- | ------------- |
-| lzwjava  | 302 |
-| LeslieYQ | 73  |
+| lzwjava | 302 |
+| LeslieYQ | 73 |
 | Martin | 52 |
 | zangqilong | 4 |

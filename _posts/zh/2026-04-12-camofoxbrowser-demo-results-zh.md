@@ -36,7 +36,7 @@ type: note
 ### 其他可用API（未测试）
 
 | 端点 | 用途 |
-|---|---|
+| --- | --- |
 | `POST /tabs/:tabId/type` | 在表单字段中输入文本 |
 | `POST /tabs/:tabId/scroll` | 向上/向下滚动 |
 | `POST /tabs/:tabId/back` | 浏览器后退 |

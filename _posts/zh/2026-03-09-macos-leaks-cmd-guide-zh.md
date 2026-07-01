@@ -88,7 +88,7 @@ leaks <PID>
 ##
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `-quiet` | 抑制信息输出，仅显示泄漏 |
 | `-nocontext` | 不打印泄漏内存的十六进制/字符串内容 |
 | `-nostacks` | 跳过打印泄漏块的回溯 |
@@ -154,7 +154,7 @@ leaks /tmp/myapp.memgraph
 ##
 
 | Variable | Effect |
-|---|---|
+| --- | --- |
 | `MallocStackLogging=1` | 为所有分配记录栈跟踪 |
 | `MallocStackLogging=lite` | 更轻量级的栈日志记录（`-atExit` 会自动使用） |
 | `MallocScribble=1` | 用 `0x55` 填充已释放块，减少虚假指针匹配 |

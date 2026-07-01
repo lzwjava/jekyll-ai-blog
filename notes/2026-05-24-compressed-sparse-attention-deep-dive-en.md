@@ -113,7 +113,7 @@ The final attention output combines both branches (typically via concatenation t
 ### Contrast: V3.2 Sparse Attention vs. V4 CSA
 
 | | V3.2 DeepSeek Sparse Attention | V4 CSA |
-|---|---|---|
+| --- | --- | --- |
 | Index over | Full `N` KV entries | `N/4` compressed blocks |
 | Indexer precision | FP8 or bf16 | **FP4** |
 | Indexer activation | softmax or dot | **ReLU** |

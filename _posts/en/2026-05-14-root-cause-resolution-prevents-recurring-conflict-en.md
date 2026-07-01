@@ -120,7 +120,7 @@ Until that real conversation happens, the cycle continues indefinitely. This is 
 ## Summary
 
 | Surface Approach | Root Cause Approach |
-|---|---|
+| --- | --- |
 | Stops the argument | Stops the pattern |
 | Feels resolved temporarily | Feels genuinely healed |
 | Both sides comply | Both sides understand |

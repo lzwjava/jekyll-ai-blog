@@ -39,7 +39,7 @@ In link encryption, from source to destination, data passes through many interme
 This is a subtle but critical distinction:
 
 | Location | State of Data |
-|---|---|
+| --- | --- |
 | On the wire (between nodes) | **Ciphertext** ✅ |
 | **Inside an intermediate node** | **Plaintext** ✅ |
 

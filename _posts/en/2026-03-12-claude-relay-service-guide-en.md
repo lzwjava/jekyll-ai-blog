@@ -60,7 +60,7 @@ The repository has over 9,200 stars and 1,400+ forks on GitHub, showing strong c
 ## Summary
 
 | Item | Details |
-|---|---|
+| --- | --- |
 | **Platform** | pincc.ai — docs/portal for Claude Relay Service |
 | **Core function** | Self-hosted AI API proxy/relay |
 | **Supported AIs** | Claude, OpenAI, Gemini, AWS Bedrock, Azure, Droid |

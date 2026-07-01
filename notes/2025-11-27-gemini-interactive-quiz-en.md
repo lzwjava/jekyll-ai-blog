@@ -36,8 +36,8 @@ While **Grok** and **ChatGPT** (powered by models like GPT-4) are certainly capa
 | :--- | :--- | :--- |
 | **Generate Questions (MCQ, etc.)** | **Yes** | **Yes** |
 | **Interactive Quiz Mode** | **Yes** (Dedicated Canvas/Quiz feature for immediate feedback, hints, more questions) | **No** (Outputs a list of text questions) |
-| **Generate from Uploaded File**| **Yes** (Can use files like PDFs, Docs as source material for questions) | **Yes** (With paid tiers/advanced models) |
-| **Dedicated Educator/Student Tools**| **High** (Integrated with Google Classroom and educational features) | **General-purpose**, but powerful |
+| **Generate from Uploaded File** | **Yes** (Can use files like PDFs, Docs as source material for questions) | **Yes** (With paid tiers/advanced models) |
+| **Dedicated Educator/Student Tools** | **High** (Integrated with Google Classroom and educational features) | **General-purpose**, but powerful |
 
 In short, **yes, your statement is accurate** regarding the readily available, dedicated **interactive quiz functionality** built into the core Gemini user experience.
 

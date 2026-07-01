@@ -31,13 +31,13 @@ The KDA kernel is implemented in the open-source FLA library for easy integratio
 
 Kimi Linear isn't a direct replacement for MLA but builds on it as a hybrid, addressing some of MLA's limitations in ultra-long contexts. Here's a breakdown:
 
-| Aspect                  | Kimi Linear (Hybrid KDA + MLA) | MLA (Multihead Latent Attention) | Traditional Full Attention (e.g., MHA) |
-|-------------------------|--------------------------------|----------------------------------|---------------------------------------|
-| **Complexity**         | Linear (O(N)) for most layers; hybrid with sparse global MLA | Sub-quadratic (O(N log N) effective via latent compression) | Quadratic (O(N²)) – scales poorly with length |
+| Aspect | Kimi Linear (Hybrid KDA + MLA) | MLA (Multihead Latent Attention) | Traditional Full Attention (e.g., MHA) |
+| ------------------------- | -------------------------------- | ---------------------------------- | --------------------------------------- |
+| **Complexity** | Linear (O(N)) for most layers; hybrid with sparse global MLA | Sub-quadratic (O(N log N) effective via latent compression) | Quadratic (O(N²)) – scales poorly with length |
 | **Efficiency (Memory/Throughput)** | Excellent: 75% less KV cache, 6x faster on 1M tokens; fits on single 24GB GPU at low bit-per-weight | Good: Reduces params via shared latents; used in Kimi K2 (1T params) and DeepSeek-V3 | Poor: Explodes memory for long seqs; needs heavy optimization |
-| **Performance**        | Outperforms full attention in short/long/RL regimes; strong in agentic/coding tasks | Strong in dense modeling (e.g., better than MHA in perplexity); excels in mid-range contexts | Baseline: Best raw quality but inefficient; lags in scaling |
-| **Use Cases**          | Long-context (1M+ tokens), RL, efficient inference | General-purpose LLMs with param efficiency (e.g., MoE models like Kimi K2) | Short contexts; legacy models like GPT-3 |
-| **Drawbacks**          | New architecture – limited tooling/support initially | Less optimal for extreme lengths without hybrids | High compute cost; not viable for 1M+ tokens without tricks |
+| **Performance** | Outperforms full attention in short/long/RL regimes; strong in agentic/coding tasks | Strong in dense modeling (e.g., better than MHA in perplexity); excels in mid-range contexts | Baseline: Best raw quality but inefficient; lags in scaling |
+| **Use Cases** | Long-context (1M+ tokens), RL, efficient inference | General-purpose LLMs with param efficiency (e.g., MoE models like Kimi K2) | Short contexts; legacy models like GPT-3 |
+| **Drawbacks** | New architecture – limited tooling/support initially | Less optimal for extreme lengths without hybrids | High compute cost; not viable for 1M+ tokens without tricks |
 
 - **Vs. MLA**: MLA (seen in Moonshot's Kimi K2 and DeepSeek-V3) compresses queries/keys into low-rank latents for efficiency, but it can still bottleneck on very long sequences due to residual quadratic elements. Kimi Linear mitigates this by layering in linear KDA for 75% of attention heads, preserving MLA's global dependency modeling while slashing memory. In benchmarks, the hybrid beats pure MLA setups in long-context needle-in-haystack tasks and RL training efficiency.
 

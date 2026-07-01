@@ -106,7 +106,7 @@ Modernization is surging in 2025, with organizations prioritizing the updating o
 ### Summary Table
 
 | Area | Key News |
-|---|---|
+| --- | --- |
 | Language | Java 24/25 released, virtual threads improved, Stream Gatherers finalized |
 | Concurrency | Pinning bug fixed in JDK 24, Structured Concurrency maturing |
 | AI/LLM | Spring AI 1.0, LangChain4j 1.0, Embabel, Koog, MCP SDK |

@@ -75,7 +75,7 @@ More than 1 million apps on the Play Store have been built with Flutter, spannin
 ### Summary by Industry
 
 | Industry | Notable Flutter Apps |
-|---|---|
+| --- | --- |
 | Google Ecosystem | Google Ads, Google Pay |
 | E-Commerce | Alibaba Xianyu, eBay Motors, Groupon |
 | Fintech | Nubank |

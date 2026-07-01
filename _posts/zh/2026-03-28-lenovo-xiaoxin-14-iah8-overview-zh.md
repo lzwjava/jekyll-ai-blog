@@ -26,7 +26,7 @@ type: note
 ### 🧠 CPU — Intel Core i5-12450H
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Architecture** | Alder Lake-H (12th Gen, Intel 7 / 10nm) |
 | **Total Cores** | 8 (4 P-cores + 4 E-cores) |
 | **Total Threads** | 12 (P-cores 支持 Hyper-Threading) |
@@ -51,7 +51,7 @@ type: note
 ### 🎮 GPU — Intel UHD Graphics (Alder Lake-P GT1)
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Chip** | Intel UHD Graphics (48 EUs, Xe architecture) |
 | **Max Frequency** | 1.2 GHz |
 | **Driver** | i915 (kernel) + Mesa 25.2.8 |
@@ -66,7 +66,7 @@ type: note
 ### 🧮 Memory (RAM)
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Total** | 16 GB (16,093 MB) |
 | **Used** | 4.0 GB |
 | **Available** | 11 GB |
@@ -79,7 +79,7 @@ type: note
 ### 💾 Storage — NVMe SSD
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **Device** | `/dev/nvme0n1p2` |
 | **Total** | 468 GB |
 | **Used** | 12 GB (3%) |
@@ -92,7 +92,7 @@ type: note
 ### 🐧 Operating System — Linux Mint 22.3 "Zena"
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | **OS** | Linux Mint 22.3 (Zena) |
 | **Base** | Ubuntu 24.04 (Noble) |
 | **Kernel** | 6.14.0-37-generic |
@@ -106,7 +106,7 @@ Linux Mint 是这款硬件的理想选择 — 轻量、稳定、新手友好，�
 ### 🔋 当前状态
 
 | Metric | Value |
-|------|-------|
+| ------ | ------- |
 | **Uptime** | 15h 41m |
 | **Load Average** | 0.03 / 0.08 / 0.13 (基本处于 idle) |
 | **CPU Usage** | ~21% scaling, 主要来自 Firefox |

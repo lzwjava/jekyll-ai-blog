@@ -76,7 +76,7 @@ export class UserComponent {}
 ## 4. Timeline: How Standalone Became the Default
 
 | Angular Version | What Changed |
-|---|---|
+| --- | --- |
 | v14 | Standalone introduced as developer preview |
 | v15–v18 | Standalone stabilized, recommended by Angular team |
 | **v19** | Starting from Angular v19, components, directives, and pipes are **standalone by default**. |
@@ -103,7 +103,7 @@ Standalone components have revolutionized development workflows by eliminating N
 In summary:
 
 | Feature | NgModule (Old) | Standalone (Angular 21) |
-|---|---|---|
+| --- | --- | --- |
 | Declare component | Must be in NgModule | Not required |
 | Import dependencies | In the module | Directly in the component |
 | Lazy loading | Module-level | Component-level (simpler) |

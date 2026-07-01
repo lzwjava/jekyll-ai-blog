@@ -14,7 +14,7 @@ type: note
 ### What was removed (11 locations)
 
 | # | Target | Method | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | `/Library/Input Methods/WeType.app` (input method bundle) | `sudo rm -rf` | Removed |
 | 2 | Launch agent at `~/Library/LaunchAgents/` | `launchctl bootout` + `launchctl remove` | Unloaded + deregistered |
 | 3 | Running process (PID 9753) | `kill` + `launchctl remove` | Terminated |
@@ -31,7 +31,7 @@ type: note
 ### What you gained
 
 | Metric | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | RAM used by WeType | **~1,614 MB** | **0 MB** |
 | Processes | 1 running + launch agent | 0 |
 | Launchd registrations | 1 active | 0 |

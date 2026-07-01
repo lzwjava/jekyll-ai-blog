@@ -72,7 +72,7 @@ Flutter 在这些领域可能遇到困难，因为它在代码和 OS 之间添�
 ## 总结：何时选择原生 vs. Flutter
 
 | Criteria | Native (Swift/Kotlin) | Flutter |
-|---|---|---|
+| --- | --- | --- |
 | Performance-critical app | ✅ Preferred | ⚠️ Acceptable |
 | Deep hardware integration | ✅ Preferred | ⚠️ Limited |
 | AR/VR/3D/Gaming | ✅ Preferred | ❌ Not ideal |

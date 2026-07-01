@@ -81,7 +81,7 @@ The standard processing time for a passport issued at your place of household re
 ## 📌 Quick Summary
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Service type | Passport Replacement (换发) |
 | Huangpu location | 黄埔区香雪三路3号政务服务中心2楼B区 |
 | Appointment | Required (via 广州微警务 mini-program or 广东政务服务网) |

@@ -27,7 +27,7 @@ Guangzhou citizens can book appointments online, upload photos/documents, and co
 The platform covers over 3,000 service items across major categories, with high-frequency ones "one-network" accessible province-wide (including cross-city handling). Here's a breakdown of main categories with examples relevant to daily life in Guangzhou:
 
 | Category | Examples of Services |
-|----------|----------------------|
+| ---------- | ---------------------- |
 | **Personal Documents & Travel** | ID card issuance/renewal; household registration changes; passport applications; HK/Macau/Taiwan travel permits (as above); residence permits for foreigners. |
 | **Employment & Social Security** | Unemployment registration; job matching via public recruitment; social insurance queries/payments; maternity/medical benefits claims; flexible employment subsidies. |
 | **Health & Medical Insurance** | Medical insurance enrollment/renewal; cross-province settlement for treatments; health code issuance; vaccination records. |

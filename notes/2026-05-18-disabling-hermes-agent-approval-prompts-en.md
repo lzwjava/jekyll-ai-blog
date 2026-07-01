@@ -105,7 +105,7 @@ No matter what settings you use, some commands are so catastrophic — irreversi
 ## Summary Table
 
 | Method | Effect | Risk Level |
-|---|---|---|
+| --- | --- | --- |
 | `approvals.mode: off` | No prompts at all | High (host exposed) |
 | `approvals.mode: smart` | LLM decides per-command | Medium |
 | Docker backend | No prompts + isolation | Low (sandboxed) |

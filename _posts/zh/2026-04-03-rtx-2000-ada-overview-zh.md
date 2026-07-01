@@ -36,7 +36,7 @@ RTX 2000 Ada 是一款薄型、双槽位 GPU，配备半高或全高 ATX 挡板�
 ### 关键规格
 
 | 规格 | 详情 |
-|---|---|
+| --- | --- |
 | 架构 | NVIDIA Ada Lovelace |
 | CUDA 核心数 | 2,816 |
 | 显存 | 16 GB GDDR6 ECC |

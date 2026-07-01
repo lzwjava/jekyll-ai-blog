@@ -115,7 +115,7 @@ Their support is responsive and CN-friendly. Just ask: *"Can I get SolusVM API c
 ## TL;DR
 
 | Method | Reliability | Effort |
-|--------|------------|--------|
+| -------- | ------------ | -------- |
 | `vnstat` on VPS | ✅ Best | 5 min |
 | Scrape client area | ⚠️ Fragile | 30 min |
 | SolusVM API (if enabled) | ✅ Clean | Ask support |

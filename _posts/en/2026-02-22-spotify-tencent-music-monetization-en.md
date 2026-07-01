@@ -15,7 +15,7 @@ Here is a comparative breakdown of the key factors:
 
 | Metric | Spotify | Tencent Music (TME) |
 | :--- | :--- | :--- |
-| **Paid User Ratio** | ~ **43%** (281M paid out of 713M MAUs)  | ~ **22.5%** (124.4M paid out of 553M MAUs)  |
+| **Paid User Ratio** | ~ **43%** (281M paid out of 713M MAUs) | ~ **22.5%** (124.4M paid out of 553M MAUs) |
 | **Core Strategy** | Global user base expansion via freemium; convert free users to premium . | Monetize existing user base in a mature market; "提纯" (tíchún - purify/upgrade users) . |
 | **Market Position** | Operates globally, facing varied competition and payment infrastructures. | Dominant player in China (over 70% market share) with a saturated user base . |
 | **Key Monetization Tactics** | Premium subscriptions (ad-free, offline), and a growing focus on ad revenue from its large free tier (~62% of users) . | Multi-tiered subscriptions (e.g., basic Green Diamond, higher-priced Super VIP), digital album sales, live concerts, artist merchandise, and fan community features . |

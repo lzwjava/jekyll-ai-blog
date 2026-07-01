@@ -18,7 +18,7 @@ type: note
 Each part of the name has a specific meaning. Using **1000BASE-T** as an example:
 
 | Part | Meaning |
-|------|---------|
+| ------ | --------- |
 | **Number** (10 / 100 / 1000) | Transmission speed in Mbps |
 | **BASE** | Baseband signaling — only Ethernet signals are carried on the cable |
 | **T** | Twisted Pair — the physical cable medium used |
@@ -59,7 +59,7 @@ The "BASE" refers to baseband signaling, which means only Ethernet signals are c
 ## Quick Comparison Table
 
 | Standard | Speed | Common Name | Duplex | Min. Cable | Wire Pairs Used |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 10BASE-T | 10 Mbps | Ethernet | Half | Cat3 | 2 pairs |
 | 100BASE-T | 100 Mbps | Fast Ethernet | Full | Cat5 | 2 pairs |
 | 1000BASE-T | 1000 Mbps (1 Gbps) | Gigabit Ethernet | Full | Cat5e | 4 pairs |

@@ -19,7 +19,7 @@ Answer: The transition from the **Hopper** (H200) to the **Blackwell** (B200) ar
 | :--- | :--- | :--- | :--- |
 | **Architecture** | Hopper | Blackwell (Dual-Die) | Generational Leap |
 | **Memory Capacity** | 141 GB HBM3e | 180 GB - 192 GB HBM3e | ~30% - 36% Increase |
-| **Memory Bandwidth**| 4.8 TB/s | 8.0 TB/s | **1.67x Faster** |
+| **Memory Bandwidth** | 4.8 TB/s | 8.0 TB/s | **1.67x Faster** |
 | **NVLink Speed** | 900 GB/s (v4) | 1.8 TB/s (v5) | **2x Faster** |
 | **TDP (Power)** | 700W | 1000W - 1200W | ~40% - 70% Higher |
 | **Transistors** | 80 Billion | 208 Billion | **2.6x Density** |

@@ -81,7 +81,7 @@ East on highways, optional Verona stop (1-hour detour, €10 arena). Arrive Veni
 - **Costs Breakdown**:
 
   | Category | Estimated Cost |
-  |----------|----------------|
+  | ---------- | ---------------- |
   | Rental + Fuel/Tolls | €600-800 |
   | Accommodations (13 nights) | €1,300-1,800 |
   | Food & Drinks | €700-1,000 |

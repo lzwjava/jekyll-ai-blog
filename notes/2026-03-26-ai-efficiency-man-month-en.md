@@ -44,7 +44,7 @@ In the **pre-AI era**, a highly skilled individual was valuable but still bottle
 With **AI tools (Claude Code, Copilot, Cursor, etc.)**, one capable person can now:
 
 | Task | Pre-AI | AI-Augmented |
-|---|---|---|
+| --- | --- | --- |
 | Boilerplate code | Hours | Minutes |
 | Debugging | Hours | Minutes |
 | Documentation | Days | Hours |

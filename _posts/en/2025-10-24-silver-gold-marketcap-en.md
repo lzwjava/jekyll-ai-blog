@@ -34,7 +34,7 @@ In short: Silver weighs ~8x more in total stock, but its price is only ~1/85th o
    - Currently ~85:1 (gold $4,150/oz vs. silver $49/oz), far from the historical average of ~15:1 (pre-20th century). Why? Silver's industrial side floods the market with supply during growth periods, while gold's scarcity and monetary role command a premium. Recent factors like green energy demand have boosted silver, but not enough to close the gap—it's narrowed slightly from 100:1 peaks in 2020.
 
 | Factor | Gold | Silver | Impact on Market Cap |
-|--------|------|--------|----------------------|
+| -------- | ------ | -------- | ---------------------- |
 | **Total Stock** | 216,000 tonnes | 1.75M tonnes | Silver has 8x more, but... |
 | **Annual Production** | ~3,500 tonnes | ~27,000 tonnes | Silver supply grows faster, capping price upside |
 | **Price/Oz (Oct 2025)** | $4,150 | $49 | Gold's premium (85x higher) dominates |

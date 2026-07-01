@@ -20,7 +20,7 @@ Answer:
 ### 2 Letters
 
 | Name | CLI | Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **wk** | `wk note` | "work" short |
 | **mk** | `mk note` | "make" short |
 | **dk** | `dk note` | "devkit" short |
@@ -34,7 +34,7 @@ Answer:
 ### 3 Letters ⭐ Sweet Spot
 
 | Name | CLI | Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **wit** | `wit note` | smart + "workit" |
 | **kit** | `kit note` | toolkit, clean |
 | **run** | `run note` | action verb |
@@ -66,7 +66,7 @@ Answer:
 ### 4 Letters
 
 | Name | CLI | Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **work** | `work note` | plain English |
 | **wkit** | `wkit note` | "work kit" |
 | **wrun** | `wrun note` | "work run" |
@@ -94,7 +94,7 @@ Answer:
 ### 5 Letters (Still Short)
 
 | Name | CLI | Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **worki** | `worki note` | workit trimmed |
 | **blaze** | `blaze note` | fast + powerful |
 | **swift** | `swift note` | but Apple's lang |
@@ -113,7 +113,7 @@ Answer:
 ### 🏆 Top 10 Final Picks
 
 | Rank | Name | CLI Example | Why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | **kit** | `kit note` | Universal, clean, short |
 | 2 | **wit** | `wit note` | Smart + workit echo |
 | 3 | **bolt** | `bolt note` | Fast, strong, memorable |

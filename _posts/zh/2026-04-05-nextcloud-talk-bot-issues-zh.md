@@ -74,7 +74,7 @@ channels.nextcloud-talk.allowFrom: ["*"]
 ## 当前状态
 
 | 组件 | 状态 |
-|-----------|--------|
+| ----------- | -------- |
 | 机器人已在 Nextcloud 中安装 | ✅ ID 7 |
 | 机器人已在房间 eu42ecdy 启用 | ✅ |
 | Webhook 可访问 | ✅ |

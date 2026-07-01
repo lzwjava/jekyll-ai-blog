@@ -141,7 +141,7 @@ def ai_validate_journal(beancount_file: str) -> str:
 ## 按目标推荐
 
 | 目标 | 推荐项目 |
-|---|---|
+| --- | --- |
 | 理解分类账内部原理 | Beancount |
 | 完整企业 ERP | ERPNext |
 | 核心银行（最接近银行技术栈） | Apache Fineract |

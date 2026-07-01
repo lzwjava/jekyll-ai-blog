@@ -13,7 +13,7 @@ type: note
 Here are some truly "hard-core" open-source projects you can fully train (or fine-tune large parts of) on a single RTX 4070 (12 GB VRAM). They’re excellent for deeply understanding how things actually work under the hood — way beyond just running demos.
 
 | Project | Type | Why it’s educational & hard-core | Approx. VRAM needed for training | Rough training time on 4070 | Link |
-|---------|------|----------------------------------|-------------------------------------|-----------------------------|------|
+| --------- | ------ | ---------------------------------- | ------------------------------------- | ----------------------------- | ------ |
 | Karpathy’s **nanoGPT** (you already know) | LLM (GPT-2 style from scratch) | The gold standard “minimal clean code” GPT | ~10 GB for 124M model | hours | <https://github.com/karpathy/nanoGPT> |
 | Karpathy’s **minGPT** | LLM | Even smaller, great for debugging every single line | <6 GB | minutes–hours | <https://github.com/karpathy/minGPT> |
 | Karpathy’s **llm.c** | Raw CUDA GPT-2 | Train a decent GPT-2 entirely in raw CUDA (no PyTorch). Insanely educational for low-level GPU programming | 8–10 GB (124M model) | 1–3 days for 124M on Shakespeare | <https://github.com/karpathy/llm.c> |

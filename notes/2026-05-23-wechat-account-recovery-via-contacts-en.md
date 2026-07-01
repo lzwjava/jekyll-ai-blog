@@ -33,7 +33,7 @@ When WeChat detects a login from an **unrecognized device** or after a **long in
 ### Clarifications on Your Memory
 
 | Your recollection | Actual behavior |
-|---|---|
+| --- | --- |
 | 2 contacts | Usually **3 contacts** required |
 | 6-digit code | Actually **4-digit code** per contact |
 | Codes sent to one person | Each contact gets their **own unique code** |

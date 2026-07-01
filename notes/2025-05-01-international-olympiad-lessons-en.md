@@ -116,7 +116,7 @@ These stars often become role models:
 ## Summary Table: Key Takeaways
 
 | Area | Lesson |
-|------|--------|
+| ------ | -------- |
 | **Talent Development** | Start early, nurture passion, and invest in consistent training. |
 | **Education & Mentorship** | Provide quality coaching, mentorship, and supportive environments. |
 | **Problem Solving** | Build skills in creative thinking, logic, and application of knowledge. |

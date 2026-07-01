@@ -39,7 +39,7 @@ JD Building, No. 18 Kechuang 11 Street, BDA, Beijing, The People's Republic of C
 If you purchased an AMD product via JD.com and need warranty or technical support, you should contact **AMD directly**:
 
 | Channel | Details |
-|---|---|
+| --- | --- |
 | **Hotline** | 400 898 5643 |
 | **Hours** | Monday–Friday, 9:30–17:00 |
 | **Web Form** | [AMD China Support Form](https://www.amd.com/zh-cn/forms/contact-us/support.html) |
@@ -51,7 +51,7 @@ If you purchased an AMD product via JD.com and need warranty or technical suppor
 ## Summary: Which to Contact?
 
 | Issue Type | Contact |
-|---|---|
+| --- | --- |
 | Order, delivery, refund, return on JD.com | JD.com: 400-606-5500 |
 | AMD product technical issue / warranty | AMD: 400-898-5643 |
 | AMD support outside business hours | AMD web form (link above) |

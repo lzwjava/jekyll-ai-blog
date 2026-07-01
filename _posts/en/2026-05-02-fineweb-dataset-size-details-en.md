@@ -44,7 +44,7 @@ Alongside the main dataset, Hugging Face introduced **FineWeb-Edu**, a subset of
 ## Key Facts Summary
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Source | 96 CommonCrawl snapshots |
 | Original token count | 15 trillion tokens |
 | Updated token count | 18.5+ trillion tokens |

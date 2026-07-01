@@ -39,7 +39,7 @@ At its core it answers:
 Banks aren't doing lineage for curiosity — they're doing it because regulators require it:
 
 | Regulation | Requirement |
-|---|---|
+| --- | --- |
 | **BCBS 239** | Risk data must be traceable end-to-end; banks must prove data accuracy |
 | **GDPR / PDPA** | Must know where PII flows, who accessed it, when |
 | **SOX** | Financial reports must have auditable data trails |
@@ -286,7 +286,7 @@ emitter.emit(upstream_lineage)
 ### Per-System Lineage Strategy
 
 | System | Tech | Lineage Approach |
-|---|---|---|
+| --- | --- | --- |
 | **Murex** (trading) | Proprietary | Parse MxML datamart exports; instrument ETL layer |
 | **Finacle / T24** (core banking) | Proprietary COBOL/Java | Parse report definitions; ETL metadata harvesting |
 | **Oracle EDW** | SQL + PL/SQL | sqlglot parsing + stored proc analysis |

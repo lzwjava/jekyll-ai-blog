@@ -40,7 +40,7 @@ However, the English quality has notable limitations:
 **No, you don't have to.** But here's the practical reality:
 
 | Scenario | Recommendation |
-|---|---|
+| --- | --- |
 | Your entire team is Chinese-speaking | Keep Chinese for maximum feature clarity |
 | You're a non-Chinese speaker in a Chinese company | Switch to English — it's usable, but expect occasional untranslated UI elements |
 | You're outside China using Feishu | Consider whether **Lark** (the international version) would be a better fit for you |

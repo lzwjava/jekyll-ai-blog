@@ -42,7 +42,7 @@ Users are pointing out that at 15x post-promo, it's cheaper to just use Claude C
 Given your usage pattern (top 6% in AI assistant usage at the bank), Copilot's premium system is likely a bad deal at these multipliers for heavy users. The math:
 
 | Option | ~Cost for heavy Opus use |
-|---|---|
+| --- | --- |
 | Copilot Pro+ ($39/mo) + 15x multiplier | ~100 Opus turns/mo |
 | Claude Pro ($20/mo) or API direct | Much higher limits |
 | Claude Code ($100/mo Max plan) | Highest limits, no per-turn tax |

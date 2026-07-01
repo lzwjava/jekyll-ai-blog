@@ -96,7 +96,7 @@ His less obvious hobbies reportedly include genealogy, sleight of hand card magi
 ### Summary Table
 
 | Period | Organization | Key Contribution |
-|---|---|---|
+| --- | --- | --- |
 | MIT (SB/SM/PhD) | MIT | Thesis on fault-tolerant network recovery |
 | 1983–1994 | Bell Labs / Freelance | Network research, ANSI C++ grammar |
 | 1994 | Infoseek (Co-founder) | Co-founded search engine; wrote Python profiler |

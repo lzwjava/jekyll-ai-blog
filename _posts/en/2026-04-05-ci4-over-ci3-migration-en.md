@@ -97,7 +97,7 @@ These likely only use `get_instance()` to access config or DB. Extract those dep
 ### 📊 Decision Matrix
 
 | Factor | Option A (CI4 Refactor) | Option B (CI3 + PHP 8.3) |
-|---|---|---|
+| --- | --- | --- |
 | Time to fix | ~2 hours (estimated) | 5 minutes |
 | Long-term viability | ✅ Officially supported | ❌ Unsupported & declining |
 | PHP compatibility | ✅ PHP 8.5 officially | ⚠️ Requires manual patches |

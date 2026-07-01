@@ -90,7 +90,7 @@ The current **Editors-in-Chief** of TMLR are Laurent Charlin (HEC Montréal), Ga
 ## Summary Table
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | Type | Journal (not a conference) |
 | Started | June 2022 |
 | Submission | Anytime (rolling) |

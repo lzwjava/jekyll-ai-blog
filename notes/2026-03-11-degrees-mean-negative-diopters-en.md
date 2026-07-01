@@ -62,7 +62,7 @@ This is a debated topic. Research has clearly shown that undercorrection is not 
 ### Summary Table
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | "150 degree reduction" | Weaken the lens by 1.50 D |
 | Sign of the reduction amount | +1.50 D (added to the negative lens) |
 | Final lens type | Still **negative/minus** (for myopia) |

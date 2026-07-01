@@ -86,7 +86,7 @@ Unit tests are typically executed during the early stages of the CI pipeline —
 ### Summary Table
 
 | Feature | Unit Test | API / Integration Test |
-|---|---|---|
+| --- | --- | --- |
 | Speed | Very fast | Slow |
 | Dependency | None (mocked) | Requires real services |
 | Fault isolation | Precise | Hard to pinpoint |

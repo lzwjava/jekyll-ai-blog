@@ -84,7 +84,7 @@ type: note
 ## Recommendation Matrix
 
 | Criteria | Best Guide |
-|----------|------------|
+| ---------- | ------------ |
 | Readability | Google |
 | Performance | Alibaba |
 | Enterprise Scaling | Alibaba |

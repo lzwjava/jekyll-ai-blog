@@ -60,7 +60,7 @@ Consider a switch connected to three computers H1, H2, and H3. When H1 sends a f
 ### Key Properties of the Self-Learning Algorithm
 
 | Property | Description |
-|---|---|
+| --- | --- |
 | **Plug-and-play** | No manual configuration needed |
 | **Source-based learning** | Only learns from the **source** MAC address of incoming frames |
 | **Dynamic entries** | Entries are automatically added and removed |

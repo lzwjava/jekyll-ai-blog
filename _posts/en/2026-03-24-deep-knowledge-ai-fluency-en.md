@@ -74,7 +74,7 @@ Technical depth, interpersonal skills, and decision-making are all becoming more
 ## Summary
 
 | Dimension | Traditional Deep Study Person | AI-Only Prompter |
-|---|---|---|
+| --- | --- | --- |
 | Understanding | ✅ Deep and genuine | ❌ Surface-level |
 | AI tool use | ✅ Can adopt quickly | ✅ Already fluent |
 | Judgment & architecture | ✅ Strong | ❌ Weak |

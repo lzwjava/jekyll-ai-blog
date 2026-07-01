@@ -64,7 +64,7 @@ Lacking communication with peers and society might cause one to miss out on oppo
 Rather than going completely silent, consider:
 
 | Strategy | Effect |
-|---|---|
+| --- | --- |
 | Mute notifications | Reduces interruptions without social cost |
 | Set reply windows (2–3x/day) | Controls your time, not your relationships |
 | Reduce *initiating* non-essential topics | Lowers noise you create |

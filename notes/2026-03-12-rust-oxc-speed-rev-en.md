@@ -76,7 +76,7 @@ Oxc's parser is at least 3x faster than SWC and 5x faster than Biome. The OXC tr
 ## Summary Table
 
 | Tool | Compared To | Speed Gain |
-|---|---|---|
+| --- | --- | --- |
 | Parser | SWC | ~3x faster |
 | Parser | Biome | ~5x faster |
 | Linter | ESLint | 50–100x faster |

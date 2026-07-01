@@ -22,7 +22,7 @@ PicoRV32 是一个**用 Verilog 编写的 RISC-V RV32IMC CPU 核心**——它�
 **两者都可以。**核心开发流程使用以下工具：
 
 | 工具 | 作用 | macOS (Homebrew) | Ubuntu/Linux |
-|------|------|------------------|--------------|
+| ------ | ------ | ------------------ | -------------- |
 | **Icarus Verilog** (`iverilog`/`vvp`) | 在软件中仿真 CPU | `brew install icarus-verilog` | `apt install iverilog` |
 | **Verilator** | 更快的周期精确 C++ 仿真 | `brew install verilator` | `apt install verilator` |
 | **RISC-V GNU Toolchain** (`riscv32-unknown-elf-gcc`) | 将 C/汇编编译为 RISC-V 二进制文件 | 从源码构建或交叉编译 | 同上；某些发行版有包 |

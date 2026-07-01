@@ -66,7 +66,7 @@ This is an important nuance to your question. The advantage of Chinese companies
 ## The Long-Run Verdict: Your Thesis Holds
 
 | Phase | Comfortable Incumbents | Hungry Challengers |
-|---|---|---|
+| --- | --- | --- |
 | **Short term** | Stable profits, relaxed pace | Hard grind, uncertain survival |
 | **Medium term** | Slow to adapt, miss inflection points | Gain efficiency, technology edge |
 | **Long term** | Market share collapses (Nokia, Nissan, etc.) | Dominate markets (BYD, DeepSeek, etc.) |

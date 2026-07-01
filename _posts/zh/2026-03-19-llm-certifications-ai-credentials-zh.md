@@ -92,7 +92,7 @@ NVIDIA 没有专属的“CUDA Certification Exam”。相反，被认可的严�
 没有任何主要供应商提供**监考的 RL 认证**。严肃选项是：
 
 | Program | Where | What |
-|---|---|---|
+| --- | --- | --- |
 | **DeepMind x UCL RL Lectures** | YouTube/UCL | David Silver（AlphaGo 创建者）的免费研究生级讲座系列。世界上最受尊重的 RL 课程。没有认证，但为必备知识。 |
 | **Spinning Up in Deep RL** | OpenAI GitHub | OpenAI 的自导式 deep RL 课程。没有认证，但用作内部培训基准。 |
 | **CS285 Deep RL** | UC Berkeley (online) | Sergey Levine 的研究生 RL 课程，完整讲座免费。全球 PhD 程序中使用。 |
@@ -105,7 +105,7 @@ NVIDIA 没有专属的“CUDA Certification Exam”。相反，被认可的严�
 同样，没有监考考试。受尊重的路径是：
 
 | Program | Institution | Level |
-|---|---|---|
+| --- | --- | --- |
 | **CS224N: NLP with Deep Learning** | Stanford (free online) | 研究生级——由 Christopher Manning 教授 Transformers、attention、BERT、GPT architectures |
 | **CS231N: Deep Learning for Vision** | Stanford (free online) | 研究生级——CNN、attention、ViT architectures |
 | **MIT 6.S191: Intro to Deep Learning** | MIT (free online) | 年度更新课程；覆盖 Transformers、diffusion、RLHF |
@@ -131,7 +131,7 @@ NVIDIA 没有专属的“CUDA Certification Exam”。相反，被认可的严�
 ## 总结表格
 
 | Program | Type | Proctored | Level | Best For |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Anthropic CCA Foundations | Vendor cert | ✅ Yes ($99) | Mid | Enterprise Claude engineers |
 | OpenAI Certifications | Vendor cert | Planned | Entry | ChatGPT API users |
 | NVIDIA NCP-GENL | Vendor cert | ✅ Yes ($200) | Advanced | LLM systems engineers |

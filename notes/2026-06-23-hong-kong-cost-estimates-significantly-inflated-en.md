@@ -22,7 +22,7 @@ These numbers are **significantly inflated**. Let me give you accurate figures.
 ### Undergraduate (本科)
 
 | Item | Annual Cost (HKD) | CNY Approx |
-|---|---|---|
+| --- | --- | --- |
 | Tuition (HKU, HKUST, CUHK) | HKD 140,000–175,000 | ~130k–160k CNY |
 | Living expenses | HKD 80,000–120,000 | ~75k–110k CNY |
 | **Total per year** | **~HKD 220k–300k** | **~200k–275k CNY** |
@@ -34,7 +34,7 @@ These numbers are **significantly inflated**. Let me give you accurate figures.
 ### 1-Year Master's (香港硕士)
 
 | Item | Cost (HKD) | CNY Approx |
-|---|---|---|
+| --- | --- | --- |
 | Tuition | HKD 170k–250k | ~155k–230k CNY |
 | Living (1 year) | HKD 100k–150k | ~90k–135k CNY |
 | **Total** | **~HKD 270k–400k** | **~250k–370k CNY** |

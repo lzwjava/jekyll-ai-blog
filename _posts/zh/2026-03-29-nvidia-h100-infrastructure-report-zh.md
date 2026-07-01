@@ -12,7 +12,7 @@ type: note
 ## 🖥️ Machine Report: `162.243.29.96`
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | **OS** | Ubuntu 22.04.4 LTS (Jammy) |
 | **Kernel** | 5.15.0-113-generic |
 | **Location** | NYC2 (New York) |
@@ -21,7 +21,7 @@ type: note
 ### 🧠 CPU
 
 | | |
-|---|---|
+| --- | --- |
 | **Model** | Intel Xeon Platinum 8468 |
 | **Cores** | 20 cores, 1 thread per core (no HT) |
 | **Architecture** | x86_64, Sapphire Rapids |
@@ -31,7 +31,7 @@ type: note
 ### 🎮 GPU
 
 | | |
-|---|---|
+| --- | --- |
 | **Model** | **NVIDIA H100 80GB HBM3** |
 | **VRAM** | 81,559 MiB (~80 GB) |
 | **Driver** | 575.57.08 |
@@ -42,7 +42,7 @@ type: note
 ### 💾 Memory
 
 | | |
-|---|---|
+| --- | --- |
 | **RAM** | 235 GiB total (233 GiB available) |
 | **Swap** | None |
 
@@ -55,7 +55,7 @@ type: note
 ### 🌐 Network
 
 | Interface | IP |
-|---|---|
+| --- | --- |
 | eth0 (public) | 162.243.29.96/24 |
 | eth0 (private) | 10.13.0.5/16 |
 | eth1 | 10.100.0.2/20 |

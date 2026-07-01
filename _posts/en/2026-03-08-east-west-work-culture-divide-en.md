@@ -68,7 +68,7 @@ Even Western contractors working for big banks in China follow 9-to-5 schedules 
 ## 5. Summary: The Real Factors at Play
 
 | Factor | Big Western Banks / Corps | Chinese Tech Startups & Big Tech |
-|---|---|---|
+| --- | --- | --- |
 | **Market maturity** | Decades-old, stable revenue | Rapid growth phase, fierce competition |
 | **Workforce structure** | Enough staff to distribute load | Lean teams wearing many hats |
 | **Labor protection** | Strong unions, enforced labor laws | Laws exist but poorly enforced |

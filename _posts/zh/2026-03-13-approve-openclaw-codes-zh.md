@@ -123,7 +123,7 @@ openclaw pairing approve telegram <CODE>
 ## 重要说明
 
 | Topic | Details |
-|---|---|
+| --- | --- |
 | Code expiry | Codes expire after **1 hour** — if missed, the user must send another message to get a new code |
 | Max pending codes | Pending DM pairing requests are capped at 3 per channel by default; additional requests are ignored until one expires or is approved |
 | After approval | The user is added to a local allowlist and can now interact with the bot normally |

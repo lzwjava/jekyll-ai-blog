@@ -19,7 +19,7 @@ type: note
 ### 已移除
 
 | 项目 | 版本 | 方式 | 释放空间 |
-|------|---------|-----|----------|
+| ------ | --------- | ----- | ---------- |
 | python.org 框架 | 3.11.6 | `sudo rm -rf /Library/Frameworks/Python.framework` + `/usr/local/bin` 中 14 个符号链接 + `/Applications/Python 3.11` | 约 200 MB |
 | python@3.13 (Homebrew) | 3.13.12 | `brew uninstall`（删除 awscli/azure-cli 后自动作为孤立包移除） | 72 MB |
 | awscli | 2.34.19 | `brew uninstall` | 154 MB |
@@ -32,7 +32,7 @@ type: note
 ### 剩余安装
 
 | 路径 | 版本 | 角色 | 依赖项 |
-|------|---------|------|----------------|
+| ------ | --------- | ------ | ---------------- |
 | `/opt/homebrew/bin/python3` | 3.14.3 | **默认** (`python3`) | llvm, nmap, rust, yt-dlp, docutils + 85 个工具 |
 | `/opt/homebrew/bin/python3.11` | 3.11.14 | ML 主力 | accelerate, ctranslate2, chroma, alembic + 75 个工具 |
 | `/usr/bin/python3` | 3.9.6 | **macOS 系统** (Xcode CLT) | macOS 内部组件, Xcode — 无法移除 (SIP 保护) |

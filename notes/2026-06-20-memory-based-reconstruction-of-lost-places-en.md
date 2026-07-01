@@ -28,7 +28,7 @@ You nailed the core sampling problem:
 Memory is **distributed and fragmentary**. Each person holds a shard:
 
 | Person | What they remember |
-|--------|-------------------|
+| -------- | ------------------- |
 | Old shopkeeper nearby | The hotel's signage, what floor it was on |
 | Former hotel guest | The lobby layout, the smell, the staircase |
 | Delivery worker | The back entrance, loading dock |

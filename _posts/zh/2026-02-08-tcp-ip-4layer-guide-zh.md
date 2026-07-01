@@ -19,7 +19,7 @@ type: note
 从下到上，各层依次为：
 
 | 层级 | 名称 | 主要功能 | 主要协议 |
-|-------|------|-----------------|-----------------|
+| ------- | ------ | ----------------- | ----------------- |
 | **第 4 层** | **Application Layer** | 提供用户应用程序服务 | HTTP, FTP, SMTP, DNS, Telnet 等 |
 | 第 3 层 | Transport Layer | 端到端通信 | TCP, UDP |
 | 第 2 层 | Internet Layer | 路由选择与逻辑寻址 | IP, ICMP, IGMP |
@@ -28,7 +28,7 @@ type: note
 ## 选项解析
 
 | 选项 | 解析 |
-|--------|-------------|
+| -------- | ------------- |
 | A | **Presentation Layer** - 属于 OSI 七层模型，不属于 TCP/IP 模型 |
 | B | **Session Layer** - 属于 OSI 七层模型，不属于 TCP/IP 模型 |
 | C | **Physical Layer** - 属于 OSI 七层模型，不属于 TCP/IP 模型 |

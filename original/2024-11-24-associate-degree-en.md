@@ -53,8 +53,8 @@ Professional Code: 510201 (Old Code: 610201)
 
 ## 2026 October Plan (Written)
 
-| Course Code | Course Name                                      |
-|-------------|--------------------------------------------------|
+| Course Code | Course Name |
+| ------------- | -------------------------------------------------- |
 | 02141 | Computer Network Technology (retake, 2026.04 score 23) |
 | 04729 | College Chinese (retake, 2026.04 score 57) |
 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era (retake, 2026.04 score 56) |
@@ -123,7 +123,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 ## 2024.04
 
 | Subject | Score |
-|---------|--------|
+| --------- | -------- |
 | Advanced Mathematics (Engineering) | 77 |
 | Database and Its Applications | 41 |
 | Computer Network Technology | 21 |
@@ -132,7 +132,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 ## 2024.10
 
 | Subject | Score |
-|---------|--------|
+| --------- | -------- |
 | Introduction to Law | 35 |
 | Database and Applications | 68 |
 | Linear Algebra | 47 |
@@ -141,16 +141,16 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 ## 2025.04
 
 | Subject | Score |
-|---------|--------|
+| --------- | -------- |
 | Introduction to Law | 60 |
 | Computer Networks | 44 |
 | Linear Algebra | 54 |
-| Computer Organization Principles  | 66 |
+| Computer Organization Principles | 66 |
 
 ## 2026.04
 
 | Subject | Score |
-|---------|--------|
+| --------- | -------- |
 | Computer Network Technology | 23 |
 | College Chinese | 57 |
 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era | 56 |
@@ -158,7 +158,7 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 ### 2026.04 Practical
 
 | Subject | Grade |
-|---------|-------|
+| --------- | ------- |
 | Fundamentals of Computer Programming | Excellent |
 | Computer Fundamentals and Application Technology | Pass |
 | Database and Its Applications | Pass |
@@ -221,8 +221,8 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 
 ## Bachelor degree exam
 
-| Course Code | Course Name|
-|----------|---------|
+| Course Code | Course Name |
+| ---------- | --------- |
 | 13180 | Operating Systems |
 | 13005 | Software Engineering |
 | 00023 | Advanced Mathematics (Engineering) |

@@ -57,7 +57,7 @@ Moving beyond the Senior level is not just a matter of additional skills and opp
 ### The Promotion Ladder at Big Tech
 
 | Level | Scope | Key Expectation |
-|---|---|---|
+| --- | --- | --- |
 | Junior/Mid Engineer | Own tasks | Execute well |
 | Senior Engineer | Own team | Deep technical ownership |
 | Staff/Principal | Cross-team | Influence without authority |

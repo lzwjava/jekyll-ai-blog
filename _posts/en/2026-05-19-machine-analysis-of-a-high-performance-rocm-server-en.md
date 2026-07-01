@@ -18,7 +18,7 @@ Here's the complete machine analysis:
 ### Overview
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Hostname | `7` |
 | OS | Ubuntu 24.04.4 LTS (Noble Numbat) |
 | Kernel | 6.8.0-106-generic (x86_64) |
@@ -30,7 +30,7 @@ Here's the complete machine analysis:
 ### CPU — Intel Xeon Platinum 8568Y+ (virtualized)
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | vCPUs | **20 cores**, 1 socket, 1 thread/core |
 | ISA | x86_64, AVX-512 (full: VL, DQ, BW, BF16, VNNI, VBMI, FP16, etc.) |
 | L1 cache | 640 KB (32 KB × 20 instances) |
@@ -45,7 +45,7 @@ This is a cloud VM slice of a real Intel Xeon — you get 20 dedicated cores wit
 ### GPU — AMD Instinct **MI300X VF** (gfx942 / CDNA3)
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Model | AMD Instinct MI300X VF |
 | Architecture | **gfx942** (CDNA3) |
 | Compute Units | **304** (32 SE × ~9.5 CU/SE) |
@@ -71,7 +71,7 @@ This is the top-tier AMD datacenter GPU — 192 GB HBM3, ideal for large model i
 ### ROCm Software Stack
 
 | Component | Version |
-|---|---|
+| --- | --- |
 | **ROCm** | **7.2.0** (70200-43) |
 | Driver | 6.16.13 |
 | HIP SDK | 7.2.26015 (AMD clang 22.0.0) |
@@ -93,7 +93,7 @@ Full ROCm toolchain is installed — HIP compiler, debugger, ML libraries (MIOpe
 ### Memory & Storage
 
 | Resource | Total | Used | Free |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | System RAM | **235 GiB** | 5.7 GiB | 229 GiB |
 | Swap | 0 (none configured) | — | — |
 | OS Disk (vda1) | 719 GB | 87 GB | **610 GB free** |
@@ -106,7 +106,7 @@ Key observation: the **5TB data disk is formatted (ext4) but not mounted**. You'
 ### Docker
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Docker | 29.3.0 + Compose v5.1.0 |
 | Running container | `rocm` — port **8888** (likely Jupyter) |
 | GPU access | ✓ confirmed (/dev/kfd, /dev/dri accessible) |
@@ -116,7 +116,7 @@ Key observation: the **5TB data disk is formatted (ext4) but not mounted**. You'
 ### Network
 
 | Interface | IP | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | eth0 | 129.212.178.209/20 | Public / AMD DevCloud |
 | eth1 | 10.128.0.2/20 | Private/internal |
 | docker0 | 172.17.0.1/16 | Docker bridge |

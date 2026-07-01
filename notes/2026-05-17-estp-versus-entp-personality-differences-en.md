@@ -22,7 +22,7 @@ Both ESTP and ENTP are MBTI personality types that share extroversion, quick-wit
 ## 1. The One Key Letter: S vs N
 
 | Feature | ESTP | ENTP |
-|---|---|---|
+| --- | --- | --- |
 | Full Name | Extraverted, Sensing, Thinking, Perceiving | Extraverted, Intuitive, Thinking, Perceiving |
 | Nickname | "The Entrepreneur" / "The Rebel" | "The Debater" / "The Challenger" |
 | Population | ~4% | ~3% |
@@ -99,7 +99,7 @@ Both types share **Introverted Thinking (Ti)** and **Extraverted Feeling (Fe)** 
 ## Summary Table
 
 | Dimension | ESTP | ENTP |
-|---|---|---|
+| --- | --- | --- |
 | Dominant Function | Se (Extraverted Sensing) | Ne (Extraverted Intuition) |
 | Orientation | Present moment, action | Future possibilities, ideas |
 | Thinking | Practical, realistic | Abstract, theoretical |

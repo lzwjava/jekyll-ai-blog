@@ -42,7 +42,7 @@ To hold both input + output you'd need **~100GB total** (61 + 30 + buffer).
 ## Realistic Options
 
 | Option | Cost | Time | Effort |
-|--------|------|------|--------|
+| -------- | ------ | ------ | -------- |
 | **Upgrade VPS to 2vCPU + 100GB** | ~$15-20/mo extra | 5-6 hours | Easy |
 | **Use GPU droplet for prep** | Already paid | **20-30 min** | Transfer file once |
 | **Use VPS for prep (current specs)** | Already paid | ~10 hours | Wait |

@@ -58,7 +58,7 @@ For your `hermes-agent` or any agent you're evaluating:
 Attaching it to a **concrete question** makes it actionable, not just philosophical. Now you get:
 
 | Signal | What It Tells You |
-|--------|------------------|
+| -------- | ------------------ |
 | Tool declared | Traceability |
 | Confidence score | When to verify |
 | Recency risk | When to force search |

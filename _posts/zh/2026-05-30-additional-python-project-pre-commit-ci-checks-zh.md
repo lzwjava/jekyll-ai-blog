@@ -130,7 +130,7 @@ entry: pytest --cov=ww --cov-fail-under=80 -q
 这些检查属于 GitHub Actions / GitLab CI，不适合本地 hook：
 
 | 检查项 | 工具 | 仅限 CI 的原因 |
-|---|---|---|
+| --- | --- | --- |
 | 集成测试 | `pytest -m integration` | 需要网络/AMD 云端 |
 | 变异测试 | `mutmut` | 耗时数分钟 |
 | 完整覆盖率报告 | `pytest-cov` + Codecov | 需要上传令牌 |

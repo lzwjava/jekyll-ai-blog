@@ -30,7 +30,7 @@ type: note
    - **Guan Yu**“回城流”：大招 → 冲锋中回城用于poke/逃生循环。
 
 | 技巧/流派 | 描述 | 涉及的实用技能 | 英雄/辅助 |
-|-----------|------|----------------|----------|
+| ----------- | ------ | ---------------- | ---------- |
 | **Spiral Walk (螺旋走位)** | 之字形飘移在移动/回城时闪避 | Sprint + Recovery | Luna, Guan Yu, Marco Polo |
 | **Da Qiao Portal Loop (回城流)** | 团队即时满血返回 → 重新交战 | Portal (技能2) + Sprint | Da Qiao + Gongsun Li/Yun Zhong Jun |
 | **Sustain Rotation Loop** | Recovery → Sprint → Recall 重复用于地图控制 | Recovery (必备) + Sprint/Flash | 所有辅助（如 Yao, Sun Bin） |

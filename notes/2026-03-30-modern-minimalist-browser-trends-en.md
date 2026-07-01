@@ -36,7 +36,7 @@ One downside of keeping the favorites bar visible is that people nearby can spot
 Many power users are converging on a similar minimal set:
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | **LLM (Claude, ChatGPT, etc.)** | Text tasks, Q&A, writing, code |
 | **X (Twitter)** | Real-time news, tech people, opinion |
 | **Google** | Edge cases, specific searches |

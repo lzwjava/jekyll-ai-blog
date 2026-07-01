@@ -29,7 +29,7 @@ GitHub Desktop（GitHub Inc. 的官方应用）仅支持 macOS 和 Windows。没
 ### 如何使用
 
 | 操作 | 方法 |
-|---|---|
+| --- | --- |
 | **启动** | 在终端中输入 `github-desktop`，或在应用菜单中找到“GitHub Desktop” |
 | **首次运行** | 使用 GitHub 账户登录（OAuth 流程会打开浏览器） |
 | **克隆仓库** | 文件 > 克隆仓库，或粘贴 URL |
@@ -59,7 +59,7 @@ GitHub Desktop（GitHub Inc. 的官方应用）仅支持 macOS 和 Windows。没
 ### 文件位置
 
 | 路径 | 用途 |
-|---|---|
+| --- | --- |
 | `/usr/bin/github-desktop` | 主二进制文件 |
 | `/usr/share/applications/github-desktop.desktop` | 应用菜单项 |
 | `~/.config/GitHub Desktop/` | 应用配置和密钥链数据 |

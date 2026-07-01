@@ -74,7 +74,7 @@ Based on current best practices, here is what a well-designed **team-shared, pro
 ### Memory Tiers
 
 | Layer | Type | Example Content | Lifetime |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Semantic/Rules** | Static, version-controlled | Coding standards, architecture decisions | Long (years) |
 | **Episodic** | Session-derived, curated | Why we switched from Redux, migration notes | Medium (months) |
 | **Working** | Contextual, short-lived | Current sprint tasks, open PRs | Short (days/weeks) |

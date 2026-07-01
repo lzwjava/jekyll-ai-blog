@@ -104,7 +104,7 @@ For Spring Boot API testing, a popular combination is Spring Boot, JUnit, MockMv
 ## Quick Comparison Table
 
 | Tool | DSL Type | Scenario Support | Java-native | Best For |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Karate DSL** | Gherkin/BDD | ✅ Yes | ✅ Yes (no Java needed) | Full API test + mock + perf |
 | **REST Assured** | Fluent Java | ✅ Yes | ✅ Yes | REST validation in Java |
 | **Gatling** | Java/Scala DSL | ✅ Yes | ✅ Yes | Load/perf testing |

@@ -58,7 +58,7 @@ agent.session_estimated_cost_usd += cost
 ## 3. 关键文件搜索/阅读
 
 | 你想要的内容 | 文件 | 搜索内容 |
-|---|---|---|
+| --- | --- | --- |
 | Token 累加逻辑 | `agent/conversation_loop.py` | `session_input_tokens`, `canonical_usage` |
 | 会话计数器初始化 | `run_agent.py` | `session_total_tokens = 0`（第 625 行） |
 | 规范化原始 API 用量 | `agent/usage_pricing.py` | `normalize_usage`, `CanonicalUsage` |

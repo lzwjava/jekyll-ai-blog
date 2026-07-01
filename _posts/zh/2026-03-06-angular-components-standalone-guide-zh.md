@@ -76,7 +76,7 @@ export class UserComponent {}
 ## 4. 时间线：Standalone 如何成为默认
 
 | Angular 版本 | 发生了什么变化 |
-|---|---|
+| --- | --- |
 | v14 | 将 standalone 引入为开发者预览 |
 | v15–v18 | Standalone 稳定下来，被 Angular 团队推荐 |
 | **v19** | 从 Angular v19 开始，components、directives 和 pipes **默认是 standalone**。 |
@@ -103,7 +103,7 @@ Standalone components 通过消除 NgModule 样板代码、实现更清晰的依
 总结：
 
 | 特性 | NgModule（旧版） | Standalone（Angular 21） |
-|---|---|---|
+| --- | --- | --- |
 | 声明 component | 必须在 NgModule 中 | 不需要 |
 | 导入依赖项 | 在模块中 | 直接在 component 中 |
 | 懒加载 | 模块级别 | Component 级别（更简单） |

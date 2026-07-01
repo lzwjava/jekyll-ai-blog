@@ -17,13 +17,13 @@ Yes, you're correct — that's one of the well-known **usability drawbacks** of 
 
 Here's a clear comparison:
 
-| Approach              | Ctrl/Command + F works? | All items searchable at once? | Typical data size | Main trade-offs                              | Common today? |
-|-----------------------|--------------------------|--------------------------------|-------------------|----------------------------------------------|---------------|
-| No pagination (all items loaded) | Yes                     | Yes                            | < 1,000–5,000 items | Very bad performance, high memory usage, slow initial load | Rare for large lists |
-| Classic server-side pagination (10/20/50 per page) | No (only current page)  | No                             | Any size          | Fast initial load, good SEO, good backend performance | Still very common |
-| Infinite scroll       | No (only loaded portion)| Partially (what's already loaded) | Large lists      | Feels modern, but exhausting to find old items, hard to deep-link | Very popular (social media) |
-| Client-side pagination + virtualized list | Yes (if all data is loaded) | Yes                            | < 10k–50k items   | Needs all data upfront, heavy initial payload | Growing (TanStack Table, AG-Grid, etc.) |
-| Client-side pagination + server-side filtering/search | Yes on current filtered result | No (but better than blind pagination) | Any size         | Requires good search/filter backend         | Best compromise for many apps |
+| Approach | Ctrl/Command + F works? | All items searchable at once? | Typical data size | Main trade-offs | Common today? |
+| ----------------------- | -------------------------- | -------------------------------- | ------------------- | ---------------------------------------------- | --------------- |
+| No pagination (all items loaded) | Yes | Yes | < 1,000–5,000 items | Very bad performance, high memory usage, slow initial load | Rare for large lists |
+| Classic server-side pagination (10/20/50 per page) | No (only current page) | No | Any size | Fast initial load, good SEO, good backend performance | Still very common |
+| Infinite scroll | No (only loaded portion) | Partially (what's already loaded) | Large lists | Feels modern, but exhausting to find old items, hard to deep-link | Very popular (social media) |
+| Client-side pagination + virtualized list | Yes (if all data is loaded) | Yes | < 10k–50k items | Needs all data upfront, heavy initial payload | Growing (TanStack Table, AG-Grid, etc.) |
+| Client-side pagination + server-side filtering/search | Yes on current filtered result | No (but better than blind pagination) | Any size | Requires good search/filter backend | Best compromise for many apps |
 
 ### Why pagination hurts Ctrl+F so much
 

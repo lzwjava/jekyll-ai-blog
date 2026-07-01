@@ -116,7 +116,7 @@ When GitHub's sshd has too many pending connections, the kernel's accept queue f
 ### Summary table
 
 | Claim | Verdict | Kernel Evidence |
-|-------|---------|-----------------|
+| ------- | --------- | ----------------- |
 | Thread in epoll/kqueue | **WRONG** | Uses waitpid() wait queue (kernel/exit.c:1722) |
 | 0% CPU while waiting | **PARTIAL** | Thread sleeps (core.c:6625), but git children use CPU |
 | 200-300 FDs at 32 workers | **WRONG** | CLONE_FILES shares fd table (fork.c:1634) |

@@ -70,7 +70,7 @@ From 2020 to 2021, Nextcloud grew revenue by 75% and net income by 133%. The bus
 ## Summary Table
 
 | Revenue Stream | Who Pays |
-|---|---|
+| --- | --- |
 | Enterprise Subscription | Large companies, governments |
 | Professional Services | Organizations needing deployment help |
 | Partner/Reseller Deals | Hosting providers (Telekom, IONOS, etc.) |

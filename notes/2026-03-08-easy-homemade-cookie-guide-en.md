@@ -78,7 +78,7 @@ Preheat oven to 325°F (163°C) and line 2 large baking sheets with parchment pa
 ## Pro Tips for Better Cookies
 
 | Tip | Why It Matters |
-|---|---|
+| --- | --- |
 | Use melted butter | Makes cookies chewier |
 | Don't overbake | Keeps the center soft |
 | Use room temperature eggs | Helps dough mix evenly |

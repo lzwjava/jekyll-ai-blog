@@ -74,7 +74,7 @@ sudo netstat -tulpn | grep :18789
 选项解释：
 
 | 选项 | 含义 |
-|---|---|
+| --- | --- |
 | `-t` | TCP 连接 |
 | `-u` | UDP 连接 |
 | `-l` | 仅监听套接字 |
@@ -133,7 +133,7 @@ Get-Process -Id (Get-NetTCPConnection -LocalPort 18789).OwningProcess
 ## 快速参考摘要
 
 | 操作系统 | 命令 |
-|---|---|
+| --- | --- |
 | Linux (modern) | `sudo ss -lntp sport :18789` |
 | Linux (lsof) | `sudo lsof -i :18789` |
 | Linux (netstat) | `sudo netstat -tulpn \| grep :18789` |

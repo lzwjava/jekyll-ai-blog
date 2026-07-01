@@ -71,7 +71,7 @@ Research in social network theory suggests that having **even one trusted contac
 ## Real-World Implications
 
 | Scenario | Typical Behavior |
-|---|---|
+| --- | --- |
 | Group with close friends | Highly active, check frequently |
 | Group with 1-2 acquaintances | Occasionally browse, sometimes contribute |
 | Work group (known colleagues) | Professional engagement, responsive |

@@ -47,7 +47,7 @@ This creates what psychologists call **reference group pressure** — your self-
 When you spend time in **hobby groups, AI communities, engineering forums, open-source projects**, something different happens:
 
 | Wrong Circle | Right Circle |
-|---|---|
+| --- | --- |
 | "What's your salary?" | "What are you building?" |
 | Judges by outcome/wealth | Judges by curiosity/craft |
 | Encourages comparison | Encourages collaboration |

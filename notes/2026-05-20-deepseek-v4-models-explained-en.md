@@ -42,7 +42,7 @@ They also use the Muon optimizer for pre-training — chosen for faster converge
 ## Pricing: The Actual Math
 
 | Model | Input $/M | Output $/M |
-|---|---|---|
+| --- | --- | --- |
 | DeepSeek V4 Pro | $1.74 | $3.48 |
 | DeepSeek V4 Flash | $0.14 | $0.28 |
 | Claude Opus 4.6 | ~$15 | ~$25 |

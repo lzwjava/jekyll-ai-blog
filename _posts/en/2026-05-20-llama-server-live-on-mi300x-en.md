@@ -22,14 +22,14 @@ type: note
 ### Performance
 
 | Metric | Speed |
-|---|---|
+| --- | --- |
 | Prompt processing | **77.4 t/s** |
 | Token generation | **91.2 t/s** |
 
 ### Server Config
 
 | Setting | Value |
-|---|---|
+| --- | --- |
 | Context | 32,768 tokens (4 slots) |
 | GPU layers | 99 (all on MI300X) |
 | Threads | 16 |

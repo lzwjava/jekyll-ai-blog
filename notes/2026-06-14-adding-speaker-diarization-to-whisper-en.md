@@ -181,7 +181,7 @@ def run_whisperx(input_file, model="large-v3", language="zh", hf_token="hf_xxx",
 ## Comparison
 
 | | pyannote DIY | whisperx |
-|---|---|---|
+| --- | --- | --- |
 | Control | Full | Opinionated |
 | Speed | Slow (2 passes) | Fast (faster-whisper backend) |
 | Word alignment | Manual | Built-in |

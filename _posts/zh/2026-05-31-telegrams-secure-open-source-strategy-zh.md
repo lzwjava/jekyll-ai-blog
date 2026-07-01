@@ -203,7 +203,7 @@ python3 build-system/Make/Make.py --overrideXcodeVersion \
 唯一真正的机密信息是：
 
 | 机密信息 | 存放位置 | 保护对象 |
-|---------|---------|---------|
+| --------- | --------- | --------- |
 | `TELEGRAM_CODESIGNING_GIT_PASSWORD` | `~/.zshrc`（开发者机器） | 解密代码签名仓库 |
 | `TELEGRAM_CODESIGNING_PRIVATE_KEY` | 环境变量（CI） | 代码签名仓库的 SSH 密钥 |
 | Apple Developer 证书（`.p12`） | 加密存储在代码签名仓库中 | 代码签名身份 |

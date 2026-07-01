@@ -57,7 +57,7 @@ This means you can preview *what* is going to change — conceptually and struct
 ## Summary: Why OpenCode Wins on Diff Preview
 
 | Feature | OpenCode | Claude Code | Codex CLI |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Syntax-highlighted diffs | ✅ Native Zig renderer | ⚠️ Basic | ⚠️ Console output |
 | Scrollable diff view | ✅ | Limited | Limited |
 | Resize-safe TUI | ✅ | ⚠️ | ⚠️ |

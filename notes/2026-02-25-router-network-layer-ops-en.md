@@ -28,7 +28,7 @@ This question tests your understanding of where common network devices operate w
 ### OSI Model Overview (Relevant Layers)
 
 | Layer | Name | Example Devices |
-|---|---|---|
+| --- | --- | --- |
 | Layer 1 | Physical Layer | Hub, Repeater |
 | Layer 2 | Data Link Layer | **Bridge**, Switch |
 | Layer 3 | Network Layer | **Router** |
@@ -39,7 +39,7 @@ This question tests your understanding of where common network devices operate w
 ### Key Comparison: Bridge vs. Router
 
 | Feature | Bridge | Router |
-|---|---|---|
+| --- | --- | --- |
 | OSI Layer | **Layer 2 — Data Link Layer** | **Layer 3 — Network Layer** |
 | Address Used | **MAC Address** (Physical Address) | **IP Address** (Logical Address) |
 | Function | Forwards or filters **frames** within the same network | Forwards **packets** between different networks |

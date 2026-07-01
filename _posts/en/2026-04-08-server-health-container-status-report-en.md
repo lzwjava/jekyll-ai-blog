@@ -26,7 +26,7 @@ Here's the full picture:
 ## 📊 Disk — ⚠️ 84% Used (142GB Free)
 
 | Category | Size |
-|---|---|
+| --- | --- |
 | Total | 916GB |
 | Used | 728GB |
 | Available | 142GB |
@@ -45,7 +45,7 @@ Here's the full picture:
 ## 🐳 All Containers Running (19/19)
 
 | Container | CPU | RAM | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | nextcloud-app-1 | 0% | 206MB | ✅ Healthy |
 | nextcloud-db-1 | 0% | 67MB | ✅ Healthy |
 | nextcloud-redis-1 | 1% | 7MB | ✅ Healthy |
@@ -103,7 +103,7 @@ Upgraded from 33.0.0. Uptime-Kuma now polling `/status.php` instead of `/apps/da
 ## 📋 Quick Action Items
 
 | Priority | Task | Command |
-|---|---|---|
+| --- | --- | --- |
 | Medium | Clean up 22.9GB unused images | `docker system prune -a` |
 | Low | Monitor Gitea RAM (980MB) | `docker stats gitea` |
 | Low | Fix LibreChat Meilisearch sync | Check LibreChat env `MEILISEARCH_` vars |

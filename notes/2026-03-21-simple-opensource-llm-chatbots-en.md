@@ -92,7 +92,7 @@ AnythingLLM supports both text-only and multi-modal LLMs within a single interfa
 ## Recommendation Summary for Banking
 
 | Project | Language | Azure/Copilot API | No Docker Needed | Complexity |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Chatbot UI** | JS/Next.js | ✅ Yes | ✅ Yes | ⭐ Lowest |
 | **Microsoft Bot Framework** | JS / C# | ✅ Native | ✅ Yes | ⭐⭐ |
 | **Botpress** | TypeScript | ✅ Yes | ✅ Yes | ⭐⭐ |

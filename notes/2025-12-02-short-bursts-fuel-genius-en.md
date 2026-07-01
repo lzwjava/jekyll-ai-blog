@@ -18,18 +18,18 @@ Many of history’s most prolific intellectuals and creators followed a surprisi
 
 ### Key Examples and Their Routines
 
-| Thinker/Creator          | Daily Focused Work | Main Non-Work Activities                                  | Source / Evidence |
-|--------------------------|--------------------|------------------------------------------------------------|-------------------|
-| **Charles Darwin**      | ~3 hours (morning) | Long walks (the “Sandwalk” twice daily), naps, reading letters, lying on sofa daydreaming | Darwin’s daily timetable (autobiography & letters); Emma Darwin’s diaries |
-| **Mark Twain**           | 4–5 hours (morning–early afternoon) | Long afternoon walks, billiards, smoking cigars on porch, napping | Twain’s own accounts; biography by Ron Powers |
-| **Daniel Kahneman**      | ~4 hours of deep work | Frequent walks (especially with Amos Tversky), afternoon naps, deliberate mind-wandering during walks | Interviews in *The Undoing Project* (Michael Lewis) and Kahneman’s autobiography *Thinking, Fast and Slow* epilogue |
-| **Charles Dickens**      | 5 hours (9 am–2 pm) | 3-hour afternoon walks (12–20 miles), evening theater/socializing | Peter Ackroyd’s biography; Dickens’s letters |
-| **Henri Poincaré**       | 2 hours morning + 2 hours evening | Long walks along the Seine, daydreaming, napping | Poincaré’s essay “Mathematical Creation” describing insights arriving during walks |
-| **Friedrich Nietzsche**  | 3–4 hours            | 6–8 hours of solitary walking in the Alps daily            | Nietzsche’s letters and Ecce Homo |
-| **Virginia Woolf**       | ~3–4 hours           | Long walks in Sussex countryside, afternoon naps           | Woolf’s diaries |
-| **Carl Jung**            | Morning writing only | Long midday breaks at Bollingen Tower, walking, chopping wood, deliberate “active imagination” | Memories, Dreams, Reflections |
-| **G.H. Hardy**           | 4 hours max          | Long tennis sessions and walks (explicitly avoided working after lunch) | A Mathematician’s Apology |
-| **Peter Higgs** (Nobel Physics) | ~3–4 hours       | Long walks in Edinburgh (Higgs boson idea came while walking after feeling “stuck”) | 2013 interviews |
+| Thinker/Creator | Daily Focused Work | Main Non-Work Activities | Source / Evidence |
+| -------------------------- | -------------------- | ------------------------------------------------------------ | ------------------- |
+| **Charles Darwin** | ~3 hours (morning) | Long walks (the “Sandwalk” twice daily), naps, reading letters, lying on sofa daydreaming | Darwin’s daily timetable (autobiography & letters); Emma Darwin’s diaries |
+| **Mark Twain** | 4–5 hours (morning–early afternoon) | Long afternoon walks, billiards, smoking cigars on porch, napping | Twain’s own accounts; biography by Ron Powers |
+| **Daniel Kahneman** | ~4 hours of deep work | Frequent walks (especially with Amos Tversky), afternoon naps, deliberate mind-wandering during walks | Interviews in *The Undoing Project* (Michael Lewis) and Kahneman’s autobiography *Thinking, Fast and Slow* epilogue |
+| **Charles Dickens** | 5 hours (9 am–2 pm) | 3-hour afternoon walks (12–20 miles), evening theater/socializing | Peter Ackroyd’s biography; Dickens’s letters |
+| **Henri Poincaré** | 2 hours morning + 2 hours evening | Long walks along the Seine, daydreaming, napping | Poincaré’s essay “Mathematical Creation” describing insights arriving during walks |
+| **Friedrich Nietzsche** | 3–4 hours | 6–8 hours of solitary walking in the Alps daily | Nietzsche’s letters and Ecce Homo |
+| **Virginia Woolf** | ~3–4 hours | Long walks in Sussex countryside, afternoon naps | Woolf’s diaries |
+| **Carl Jung** | Morning writing only | Long midday breaks at Bollingen Tower, walking, chopping wood, deliberate “active imagination” | Memories, Dreams, Reflections |
+| **G.H. Hardy** | 4 hours max | Long tennis sessions and walks (explicitly avoided working after lunch) | A Mathematician’s Apology |
+| **Peter Higgs** (Nobel Physics) | ~3–4 hours | Long walks in Edinburgh (Higgs boson idea came while walking after feeling “stuck”) | 2013 interviews |
 
 ### Common Pattern
 

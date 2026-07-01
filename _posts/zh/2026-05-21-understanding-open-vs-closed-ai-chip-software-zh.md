@@ -146,7 +146,7 @@ ROCm 上的 inductor 后端生成 Triton 内核 → HIP → AMDGPU ISA。整个�
 ## 真实的差距评估
 
 | 层 | NVIDIA | AMD ROCm | 差距 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 内核性能（矩阵乘） | 100% | MI300X 上约 85-95% | 快速缩小 |
 | 多 GPU 通信 | NCCL（快速） | RCCL（接近） | 小 |
 | 分析器 | Nsight（优秀） | Omniperf（良好） | 中等 |

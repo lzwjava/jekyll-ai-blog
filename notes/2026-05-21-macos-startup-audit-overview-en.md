@@ -34,7 +34,7 @@ Google Drive | /Applications/Google Drive.app
 Auto-start at boot for all users. Located in `/Library/LaunchDaemons/`.
 
 | Plist | What | Safe to remove? |
-|---|---|---|
+| --- | --- | --- |
 | `com.amazon.KindlePreviewerUpdater.plist` | Kindle Previewer updates | **Yes** — only if you don't use Kindle Previewer |
 | `com.canonical.multipassd.plist` | Multipass (Ubuntu VMs) | ✓ Keep if you use Multipass |
 | `com.cleverfiles.cfbackd.plist` | Disk Drill backup daemon | **Maybe** — only if you use Disk Drill |
@@ -54,7 +54,7 @@ Auto-start at boot for all users. Located in `/Library/LaunchDaemons/`.
 Auto-start when *you* log in. Located in `~/Library/LaunchAgents/`.
 
 | Plist | What | Safe to remove? |
-|---|---|---|
+| --- | --- | --- |
 | `com.amazon.kpr.ncd.plist` | Amazon Kindle related | **Yes** — if you don't use Kindle |
 | `com.google.GoogleUpdater.wake.plist` | Google updater wake trigger | Keep — Chrome/Google updates |
 | `com.google.keystone.agent.plist` | Google Keystone (update infra) | Keep — Chrome/Google Drive updates |
@@ -77,7 +77,7 @@ Auto-start when *you* log in. Located in `~/Library/LaunchAgents/`.
 Located in `/Library/LaunchAgents/`.
 
 | Plist | What | Safe to remove? |
-|---|---|---|
+| --- | --- | --- |
 | `com.google.keystone.agent.plist` | Google Keystone (system-wide) | Keep — needed for Chrome |
 | `com.google.keystone.xpcservice.plist` | Google Keystone helper | Keep |
 | `com.microsoft.update.agent.plist` | Microsoft update agent | Keep — Office updates |
@@ -103,7 +103,7 @@ All three are **actively running** and are standard dev tools. Keep unless you d
 ## 6. Cron Jobs & Legacy
 
 | Source | Status |
-|---|---|
+| --- | --- |
 | crontab | Empty |
 | `/Library/StartupItems/` | Empty |
 | `/System/Library/StartupItems/` | Empty |
@@ -116,7 +116,7 @@ All three are **actively running** and are standard dev tools. Keep unless you d
 **Highest-value removals** (no downside, these are likely unused or redundant):
 
 | Item | Reason |
-|---|---|
+| --- | --- |
 | `com.hp.devicemonitor` + `com.hp.productresearch` | Unless you have an HP printer |
 | `com.valvesoftware.steamclean` | Orphaned — Steam removed this feature years ago |
 | `com.amazon.kpr.ncd` + `KindlePreviewerUpdater` | If you don't use Kindle Previewer |

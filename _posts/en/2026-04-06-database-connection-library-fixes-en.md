@@ -39,7 +39,7 @@ type: note
 ## What's still outstanding (not blocking, but needed)
 
 | Item | Priority | Notes |
-|------|---------|-------|
+| ------ | --------- | ------- |
 | `WxPay`, `Alipay`, `WxPayCallback` stubs | 🟡 P1 | Used by `Wechat`, `Charges`, `Rewards` controllers — will 500 if those endpoints hit |
 | `$this->load->library()` / `$this->load->model()` in all 20 controllers | 🟡 P1 | Still CI3-style, need DI or `Services::` refactor |
 | Routes | 🟡 P1 | Only `/` defined — all other CI3 routes need CI4 `$routes->` entries |

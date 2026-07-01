@@ -20,7 +20,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## Terminals & Shells
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [Warp](https://github.com/warpdotdev/Warp) | AI-native terminal (you mentioned it) |
 | [Alacritty](https://github.com/alacritty/alacritty) | GPU-accelerated terminal, minimal, blazing fast |
 | [WezTerm](https://github.com/wez/wezterm) | GPU-accelerated terminal + multiplexer, Lua-configurable |
@@ -31,7 +31,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## Editors & IDEs
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [Zed](https://github.com/zed-industries/zed) | Fast collaborative editor (you mentioned it) |
 | [Helix](https://github.com/helix-editor/helix) | Modal editor, tree-sitter + LSP built-in, no plugins needed |
 
@@ -40,7 +40,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## CLI Replacements (the "modern Unix tools" tier)
 
 | Project | Replaces | Notes |
-|---------|----------|-------|
+| --------- | ---------- | ------- |
 | [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) | `grep` | Fastest grep, respects `.gitignore` |
 | [fd](https://github.com/sharkdp/fd) | `find` | Simpler syntax, fast |
 | [bat](https://github.com/sharkdp/bat) | `cat` | Syntax highlighting, git integration |
@@ -57,7 +57,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## Build, Package & Dev Tooling
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [just](https://github.com/casey/just) | `make` alternative, saner syntax — great for project scripts |
 | [cargo-watch](https://github.com/watchexec/watchexec) | Re-runs cargo on file changes |
 | [mise](https://github.com/jdx/mise) | `asdf`/`nvm`/`pyenv` all-in-one version manager |
@@ -70,7 +70,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## Networking & HTTP
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [xh](https://github.com/ducaale/xh) | `httpie` clone but fast — best curl alternative for humans |
 | [dog](https://github.com/ogham/dog) | DNS lookup tool, `dig` replacement |
 | [bandwhich](https://github.com/imsnif/bandwhich) | Terminal bandwidth monitor by process |
@@ -81,7 +81,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## Data & Search
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | Full-text search engine, Elasticsearch alternative |
 | [Tantivy](https://github.com/quickwit-oss/tantivy) | Lucene-equivalent search library in Rust |
 | [Quickwit](https://github.com/quickwit-oss/quickwit) | Distributed search engine for logs/traces |
@@ -92,7 +92,7 @@ Here's a curated list organized by category — all production-quality, actively
 ## AI / LLM Adjacent
 
 | Project | What it is |
-|---------|-----------|
+| --------- | ----------- |
 | [Candle](https://github.com/huggingface/candle) | HuggingFace's ML framework in Rust — run LLMs without Python |
 | [llm](https://github.com/rustformers/llm) | Run GGML models locally from CLI |
 | [Ratchet](https://github.com/FL33TW00D/ratchet) | WebGPU ML inference in Rust |

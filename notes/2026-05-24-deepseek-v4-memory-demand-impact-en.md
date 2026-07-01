@@ -76,7 +76,7 @@ This is architecturally significant: **not all memory is equal**. HBM is fast an
 ## Industry Implications Summary
 
 | Dimension | Effect |
-|---|---|
+| --- | --- |
 | **HBM demand per GPU** | ↓ per inference request (CSA/HCA compression) |
 | **Total HBM demand** | ↑ (Jevons Paradox — more models, more deployments) |
 | **HBM price/margins** | Still high, shortages continue through 2027 |

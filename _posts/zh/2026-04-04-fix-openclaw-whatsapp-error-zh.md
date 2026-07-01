@@ -91,7 +91,7 @@ openclaw gateway restart
 ## 总结表格
 
 | 步骤 | 命令 |
-|------|---------|
+| ------ | --------- |
 | 自动修复配置 | `openclaw doctor --fix` |
 | 手动编辑 | 从 `~/.openclaw/openclaw.json` 中的 `channels.whatsapp` 里移除 `"proxy"` |
 | 重启网关 | `openclaw gateway restart` |

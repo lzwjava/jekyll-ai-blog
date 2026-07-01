@@ -40,7 +40,7 @@ This is why brilliant engineers can go broke, and a simple app solving one small
 Both sides of that equation matter. If either is zero, the result is zero.
 
 | Scenario | Quality | Felt/Used | Outcome |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Hard work, nobody uses it | High | Zero | Zero reward |
 | Mediocre product, viral adoption | Medium | Very High | Big reward |
 | Great product, well distributed | High | High | Best outcome |

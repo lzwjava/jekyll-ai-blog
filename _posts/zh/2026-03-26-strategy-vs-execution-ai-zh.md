@@ -81,7 +81,7 @@ AI pilots 失败不是因为模型的局限性，而是因为 integration、治�
 ## Summary
 
 | 特质 | Strategy-Class Leaders | Execution-Class Builders |
-|---|---|---|
+| --- | --- | --- |
 | 核心技能 | Narrative, positioning | Coding, model training, product |
 | 风险暴露 | 低（想法是不可证伪的） | 高（代码要么能跑，要么不能） |
 | 大公司价值 | 高（显眼，易晋升） | 往往是隐形的/被低估的 |

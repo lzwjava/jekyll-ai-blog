@@ -112,7 +112,7 @@ chsh -s $(which zsh)
 考虑到你使用过 Alibaba Cloud、AWS Lightsail、Vultr、GCP 和 DMIT，这里有一个切实可行、极简的配置方案：
 
 | 组件 | 工具 |
-|---|---|
+| --- | --- |
 | 镜像 Registry | Docker Hub (免费) 或 GitHub Container Registry |
 | Dotfiles 管理 | Chezmoi 或 Git bare 仓库 |
 | 基础镜像 | `ubuntu:24.04` 或 `debian:bookworm-slim` |

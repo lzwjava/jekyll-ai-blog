@@ -56,7 +56,7 @@ Huawei 还应用了 DSSN 和 TinyInit 帮助模型在 Ascend 芯片上实现了�
 ### 摘要表
 
 | 属性 | 详情 |
-|---|---|
+| --- | --- |
 | 模型名称 | Pangu Ultra (135B V3) |
 | Parameters | 135 billion (dense) |
 | Context Window | 128K tokens |

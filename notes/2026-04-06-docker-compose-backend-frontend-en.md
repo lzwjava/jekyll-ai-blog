@@ -40,7 +40,7 @@ cd live-mobile-web && npm run dev
 ### Key changes
 
 | File | What |
-|---|---|
+| --- | --- |
 | `live-server/docker-compose.yml` | Added `frontend` service (profile-gated), `frontend-dist` shared volume mounted in nginx |
 | `live-server/nginx.conf` | Added `/static/` location with immutable cache headers |
 | `live-mobile-web/.env.production` | Sets `VITE_API_BASE_URL=/api` so prod builds point to nginx |

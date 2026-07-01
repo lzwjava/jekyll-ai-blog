@@ -62,7 +62,7 @@ This makes their questions — and their prompts — structurally sharper.
 When prompting an AI, the same rules apply:
 
 | Vague Input | Precise Input |
-|---|---|
+| --- | --- |
 | "Tell me about marketing" | "What are 3 proven B2B SaaS customer acquisition strategies for a seed-stage startup with no brand recognition?" |
 | "Fix my code" | "This Python function raises a KeyError on line 12 when the input dict is empty. Fix it without changing the function signature." |
 | "Help me write an email" | "Write a polite but firm follow-up email to a client who has missed two payment deadlines, keeping the relationship intact." |

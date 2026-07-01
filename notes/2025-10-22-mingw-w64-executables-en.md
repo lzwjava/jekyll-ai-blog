@@ -15,7 +15,7 @@ type: note
 MinGW-w64 is primarily a minimal toolchain for cross-compiling native Windows applications using GCC and related tools. It focuses on development utilities rather than a full suite of Unix-like commands (e.g., it does **not** include `gpg` or GnuPG by default—those are available as separate packages in environments like MSYS2). The core installation's `bin` directory typically contains the following executables (based on a standard standalone download, such as from the official SourceForge releases). This list can vary slightly by version and build, but these are the common ones:
 
 | Executable | Description |
-|------------|-------------|
+| ------------ | ------------- |
 | `gcc.exe` | GNU C compiler |
 | `g++.exe` | GNU C++ compiler |
 | `cpp.exe` | C preprocessor |

@@ -147,7 +147,7 @@ Assuming the server is reachable on all the ports you specified, the hopping pro
 ## Tips & Notes
 
 | Item | Detail |
-|------|--------|
+| ------ | -------- |
 | Port range size | Larger is better (e.g., 20000–50000) for anti-fingerprinting |
 | Firewall | Open UDP for the entire range in your VPS provider's security group |
 | hopInterval | `30s` is a good default; lower = harder to track, more overhead |

@@ -85,7 +85,7 @@ print(results["interest_over_time"])
 ## TL;DR
 
 | 选项 | 费用 | 稳定性 | 备注 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 官方 API | 免费（Alpha） | 高 | 需要申请 |
 | pytrends | 免费 | 低 | 经常出问题 |
 | SerpApi | 付费 | 高 | 按查询计费 |

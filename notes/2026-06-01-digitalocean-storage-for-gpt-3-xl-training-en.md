@@ -49,7 +49,7 @@ tokens only: 60GB
 ## Full Breakdown
 
 | Item | Size | Keep? |
-|------|------|-------|
+| ------ | ------ | ------- |
 | Raw text (download) | 80GB | delete after tokenizing |
 | Tokenized train.bin | 57GB | ✅ |
 | Tokenized val.bin | 3GB | ✅ |

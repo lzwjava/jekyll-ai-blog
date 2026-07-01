@@ -18,7 +18,7 @@ type: note
 **Key differences:**
 
 | Operation | What happens | When to use |
-|-----------|-------------|-----------|
+| ----------- | ------------- | ----------- |
 | **Restore Droplet** | Replace the running Droplet entirely with its previous state from a backup/snapshot. The Droplet turns off during restoration and turns back on automatically. | You made a mistake and want to undo everything since the snapshot |
 | **Create Droplet** | Spin up a *new* separate Droplet from a snapshot | You want a copy of an old state without losing current state |
 

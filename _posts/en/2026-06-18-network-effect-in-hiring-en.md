@@ -39,7 +39,7 @@ The result: Indian-origin CEOs now lead Google, Microsoft, IBM, Adobe, Palo Alto
 ## The Honest Structural Summary
 
 | Factor | Indian | Chinese |
-|---|---|---|
+| --- | --- | --- |
 | Cohesive referral network | Strong | Weak |
 | Alumni anchor (IIT effect) | Yes | No equivalent |
 | Management pipeline | Deep | Thin |

@@ -16,7 +16,7 @@ All 12 files landed — 42 GB complete. The last file (`validation-00002-of-0000
 Here's what's in `data/S/`:
 
 | Set | Shards | Files |
-|---|---|---|
+| --- | --- | --- |
 | train | 6 | `train-{00-05}-of-00006.parquet` (~3.7 GB each) |
 | validation | 3 | `validation-{00-02}-of-00003.parquet` (~3.8 GB each) |
 | test | 3 | `test-{00-02}-of-00003.parquet` (~3.8 GB each) |

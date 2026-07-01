@@ -201,7 +201,7 @@ export const appConfig: ApplicationConfig = {
 ## Summary of Key Changes
 
 | Old NgModule Way | New Standalone Way |
-|---|---|
+| --- | --- |
 | `declarations: [XComponent]` in module | `standalone: true` in component |
 | `imports: [X]` in module | `imports: [X]` in component |
 | `bootstrapModule(AppModule)` | `bootstrapApplication(AppComponent, appConfig)` |

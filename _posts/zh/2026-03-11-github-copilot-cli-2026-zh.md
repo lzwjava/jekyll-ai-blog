@@ -117,7 +117,7 @@ copilot
 ### 有用的 Slash 命令
 
 | 命令 | 描述 |
-|---|---|
+| --- | --- |
 | `/model` | 切换或比较 AI 模型 |
 | `/restart` | 重启 CLI 同时保留会话 |
 | `/lsp show` | 显示 Language Server Protocol 状态 |

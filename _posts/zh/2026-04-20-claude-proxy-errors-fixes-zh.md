@@ -63,7 +63,7 @@ type: note
 ## 问题总结表
 
 | 错误类型 | 原因 | 解决方案 |
-|---|---|---|
+| --- | --- | --- |
 | 代理返回400 | `claw`未发送Claude Code客户端头部 | 添加正确的`User-Agent`/客户端版本头部 |
 | 凭证缺失 | `ANTHROPIC_API_KEY`被设置为空值 | 重新导出有效密钥 |
 | OpenAI返回401 | `OPENAI_API_KEY`是代理密钥，非真实OpenAI密钥 | 将`OPENAI_BASE_URL`设置为代理的OpenAI兼容端点 |

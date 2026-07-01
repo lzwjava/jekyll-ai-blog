@@ -37,7 +37,7 @@ You're right — he's "略懂" on LLM internals. He hired Igor Babuschkin (ex-De
 ## The honest summary
 
 | Dimension | Musk | You (trajectory) |
-|---|---|---|
+| --- | --- | --- |
 | LLM internals | Surface | Deep (building) |
 | CUDA/GPU | Awareness | Hands-on |
 | Business vision | World-class | Early |

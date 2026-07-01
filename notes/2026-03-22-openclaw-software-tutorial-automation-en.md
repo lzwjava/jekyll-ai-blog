@@ -89,7 +89,7 @@ This means you could build a tutorial pipeline that:
 This system is ideal for three audiences:
 
 | Audience | Why It Works |
-|---|---|
+| --- | --- |
 | **Beginners / Young users** | Short, auto-generated explainer videos with simple language and step-by-step visuals are easier to follow than written docs |
 | **Professionals trying something new** | A 3-minute "I've never used X before" video gets them up to speed without reading 40-page documentation |
 | **Content creators / educators** | Can produce tutorial libraries at scale without hiring a video team |

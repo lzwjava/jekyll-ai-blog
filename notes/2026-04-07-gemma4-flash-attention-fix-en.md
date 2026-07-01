@@ -14,7 +14,7 @@ type: note
 ### System Profile
 
 | Component | Detail |
-|-----------|--------|
+| ----------- | -------- |
 | **OS** | Ubuntu, Linux 6.8.0-107-generic x86_64 |
 | **GPU** | NVIDIA RTX 4070 (12GB VRAM), CUDA 13.0, Driver 580.126.20 |
 | **RAM** | 62GB total, ~57GB available |
@@ -24,7 +24,7 @@ type: note
 ### Models Available
 
 | Model | Size | Status |
-|-------|------|--------|
+| ------- | ------ | -------- |
 | `gemma-4-26B-A4B-it-UD-IQ2_M.gguf` | 9.3GB | Tested, working |
 | `gemma-4-26B-A4B-it-UD-IQ3_S.gguf` | 11GB | Untested — likely too large for 12GB VRAM with KV cache |
 | `DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf` | — | Previously used |
@@ -71,7 +71,7 @@ llama-server \
 ### Resource Usage
 
 | Resource | Usage |
-|----------|-------|
+| ---------- | ------- |
 | VRAM | 11.3GB / 12GB (model 9.5GB + KV 920MB + compute 522MB) |
 | RAM | ~1GB mapped to CPU |
 | Speed | ~111 tokens/sec generation, ~127 tokens/sec prompt processing |

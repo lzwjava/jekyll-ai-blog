@@ -112,7 +112,7 @@ The monitor will immediately begin checking and display real-time status includi
 ### Monitor Types Explained
 
 | Type | Use Case |
-|---|---|
+| --- | --- |
 | **HTTP(s)** | Monitor websites and web apps |
 | **TCP Port** | Monitor open ports on servers |
 | **Ping** | Check if a host is reachable |

@@ -27,7 +27,7 @@ type: note
 该项目通过 `build-system/Make/Make.py` 包装器使用 **Bazel** 构建。其组织结构如下：
 
 | 目录 | 用途 |
-|-----------|---------|
+| ----------- | --------- |
 | `Telegram/` | 主应用目标、扩展（NotificationContent、Share、Watch、WidgetKitWidget、SiriIntents） |
 | `submodules/` | **273 个内部库** — 代码库的主体 |
 | `third-party/` | 第三方 C/C++ 依赖（ffmpeg、openssl、sqlcipher、libvpx、opus、webrtc、rlottie、libjxl、dav1d、mozjpeg、libyuv） |

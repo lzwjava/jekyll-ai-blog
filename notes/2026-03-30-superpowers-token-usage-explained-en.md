@@ -50,7 +50,7 @@ Each phase generates significant text output, which means **more tokens consumed
 ### ✅ Is It Worth It?
 
 | Aspect | Without Superpowers | With Superpowers |
-|--------|-------------------|-----------------|
+| -------- | ------------------- | ----------------- |
 | Token Usage | Low | High |
 | Code Quality | Inconsistent | High & reliable |
 | Rework Rate | High | Low |

@@ -179,7 +179,7 @@ iclaw is a good MVP. The next version should implement:
 ## Priority Stack (Next 3 Months)
 
 | Priority | Project | Machine | Time |
-|----------|---------|---------|------|
+| ---------- | --------- | --------- | ------ |
 | 1 | SFT + DPO from scratch on nanochat | MI300X | 3–4 weeks |
 | 2 | MoE implementation with load balancing | RTX 4070 | 2 weeks |
 | 3 | Speculative decoding on your 760M | RTX 4070 | 1 week |

@@ -16,7 +16,7 @@ type: note
 ## Telegram-iOS 主要贡献者
 
 | 排名 | GitHub | 姓名 | Commits |
-|------|--------|------|---------|
+| ------ | -------- | ------ | --------- |
 | 1 | laktyushin | Ilya Laktyushin | 7,952 |
 | 2 | petertechstories | Peter Iakovlev | 1,502 |
 | 3 | appleguy | Scott Goodson | 915 |

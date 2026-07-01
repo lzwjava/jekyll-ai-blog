@@ -80,7 +80,7 @@ This release adds a Markdown diff preview, allowing developers to review Markdow
 ## 📊 Summary Table
 
 | Area | Feature | Status |
-|---|---|---|
+| --- | --- | --- |
 | Agents | Agents Window | Stable Preview |
 | Agents | Copilot CLI Plugin Auto-Discovery | GA |
 | Language Models | BYOK Token Usage Display | GA |

@@ -78,7 +78,7 @@ QUIC also encrypts additional connection metadata that could be abused by middle
 ### 5. QUIC vs TCP+TLS vs UDP — Comparison
 
 | Feature | TCP + TLS | UDP | QUIC |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Connection Setup | Slow (2+ RTT) | None | Fast (1 RTT / 0-RTT) |
 | Encryption | TLS (separate) | None | TLS 1.3 built-in |
 | Multiplexing | Limited (HoL blocking) | None | Yes, independent streams |
@@ -123,7 +123,7 @@ There are in fact two protocols that share the same name: "Google QUIC" (gQUIC),
 ### 10. Standardization Timeline
 
 | Year | Milestone |
-|---|---|
+| --- | --- |
 | 2012 | First implementation by Google |
 | 2013 | Public announcement; Chrome experiments begin |
 | 2017 | IETF begins diverging from gQUIC |

@@ -77,7 +77,7 @@ Apply it to:
 When Claude Code runs and kills your training job, it's checking:
 
 | Signal | What It Means |
-|---|---|
+| --- | --- |
 | CUDA OOM immediately | `batch_size` too large → halve it |
 | `loss=NaN` at step 1 | LR too high or bad data |
 | Slow step time | Need `compile=True` or smaller model |

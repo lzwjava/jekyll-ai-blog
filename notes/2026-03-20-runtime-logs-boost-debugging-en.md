@@ -80,7 +80,7 @@ This way, when you paste logs to AI, it gets **context + timing + state** all in
 Angular has many silent lifecycle events that cause bugs like field value loss:
 
 | Lifecycle / Event | Common Bug |
-|---|---|
+| --- | --- |
 | `ngOnDestroy` + `ngOnInit` | Form reset when tab re-creates component |
 | `ngOnChanges` | Input binding overwrites user-typed value |
 | `ChangeDetectionStrategy.OnPush` | UI not updating, looks like value lost |
@@ -108,7 +108,7 @@ This gives AI a **reproducible evidence trail**, not just a hypothesis.
 ### Summary
 
 | Approach | AI Effectiveness |
-|---|---|
+| --- | --- |
 | Code only | Low — AI guesses runtime behavior |
 | Code + description | Medium — still missing execution order |
 | Code + full raw logs | Medium — hard to isolate the relevant section |

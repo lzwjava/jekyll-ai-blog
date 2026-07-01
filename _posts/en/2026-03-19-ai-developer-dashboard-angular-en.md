@@ -35,7 +35,7 @@ Key Angular 21 features that directly benefit your dashboard:
 ## 📦 Core Widgets to Build
 
 | Widget | Data Source | API |
-|---|---|---|
+| --- | --- | --- |
 | GitHub Activity Heatmap | GitHub REST/GraphQL | `api.github.com` |
 | OpenRouter Token Usage | OpenRouter | `/api/v1/generation`, `/activity` |
 | X/Twitter Followers/Following | Twitter API v2 | `api.twitter.com/2/users` |
@@ -94,7 +94,7 @@ src/
 ## 🛠️ Suggested Tech Stack
 
 | Layer | Choice | Reason |
-|---|---|---|
+| --- | --- | --- |
 | Framework | Angular 21 | Signals, zoneless, standalone |
 | UI Components | Angular Aria + Tailwind | Accessible, unstyled freedom |
 | Charts | ngx-echarts or Chart.js | Both have Angular wrappers |
@@ -108,7 +108,7 @@ src/
 ## 💡 Project Name Suggestions
 
 | Name | Vibe |
-|---|---|
+| --- | --- |
 | **NexusBoard** | Hub of all your feeds — coding, AI, social |
 | **TokenPulse** | Emphasizes the AI/token-era angle |
 | **DevAura** | Your developer presence at a glance |

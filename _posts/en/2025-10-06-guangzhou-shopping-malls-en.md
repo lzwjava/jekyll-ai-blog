@@ -19,7 +19,7 @@ Guangzhou has a vibrant shopping scene, with Tianhe District being the epicenter
 Tianhe is Guangzhou's premier shopping hub, home to interconnected mega-malls, luxury brands, and entertainment.
 
 | Mall Name | Key Features | Location/Access |
-|-----------|--------------|-----------------|
+| ----------- | -------------- | ----------------- |
 | Grandview Mall (正佳广场) | Family-oriented with 300+ stores (Uniqlo, Zara), aquarium, IMAX cinema, mini-zoo; ideal for all-day outings. | 228 Tianhe Road; Metro Line 1/3 at Tiyu Xilu Station. |
 | Taikoo Hui (太古汇) | Luxury focus with global brands (Gucci, Louis Vuitton), rooftop dining, art exhibits; upscale vibe. | 383 Tianhe Road; Metro Line 3 at Shipaiqiao Station. |
 | Parc Central (天环广场) | Trendy mid-to-high-end fashion, connected underground to nearby malls; modern architecture. | 208 Tianhe Road; Metro Line 1/3 at Tiyu Xilu Station. |
@@ -32,7 +32,7 @@ Tianhe is Guangzhou's premier shopping hub, home to interconnected mega-malls, l
 Zengcheng, an eastern suburb, offers more relaxed, value-driven shopping with some international touches.
 
 | Mall Name | Key Features | Location/Access |
-|-----------|--------------|-----------------|
+| ----------- | -------------- | ----------------- |
 | AEON MALL Guangzhou Xintang | Japanese hypermarket chain with groceries, fashion, cinema; spacious and family-friendly. | Building 15, Xintang Town; Bus or drive from central Guangzhou. |
 | Zengcheng Wanda Plaza | Multi-level with clothing, electronics, cinemas; entertainment-focused. | Zengcheng Avenue; Local metro/bus access. |
 | Gualv Square Shopping Center | Local retail for daily essentials, dining; smaller community vibe. | Central Zengcheng; Walkable from town center. |

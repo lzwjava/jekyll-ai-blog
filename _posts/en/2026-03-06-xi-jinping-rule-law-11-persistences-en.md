@@ -22,7 +22,7 @@ The main contents of Xi Jinping's Rule of Law Thought are embodied in the **"Ele
 ### The Eleven Persistences in Full
 
 | # | Content |
-|---|---------|
+| --- | --------- |
 | 1 | Persist in the **Party's leadership** over comprehensively governing the country according to law |
 | 2 | Persist in taking the **people as the center** |
 | 3 | Persist in the **socialist rule of law path with Chinese characteristics** |

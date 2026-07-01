@@ -47,7 +47,7 @@ So you're not just using "more dishes simultaneously"—you're restructuring the
 Your philosophy—*simple, shallow, wide*—is the real insight:
 
 | Domain | Shallow Approach | Why It Wins |
-|--------|------------------|------------|
+| -------- | ------------------ | ------------ |
 | Porridge | Flat distribution | Maximum surface exposure |
 | FlashAttention | Tile-based blocks | Fit in fast memory, minimize HBM I/O |
 | GPU compute | Wide parallelism (many small blocks) | Better hardware utilization than few deep kernels |

@@ -42,7 +42,7 @@ type: note
 以下是主要类型的总结：
 
 | Encoding Type | Chinese Name | Key Feature |
-|---|---|---|
+| --- | --- | --- |
 | NRZ (Non-Return-to-Zero) | 不归零码 | 简单，但无自时钟 |
 | Manchester Encoding | 曼彻斯特编码 | 位中跳变；自时钟；用于 Ethernet |
 | Differential Manchester | 差分曼彻斯特编码 | 位边界跳变表示 0；用于 Token Ring LANs |

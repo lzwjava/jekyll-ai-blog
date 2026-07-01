@@ -88,7 +88,7 @@ Newton's first law 也适用于人类行为。
 ## 对称性
 
 | Doing | Not Doing |
-|---|---|
+| --- | --- |
 | Gets easier | Gets harder (in your mind) |
 | More ideas | Fewer entry points |
 | More fulfillment | More guilt / avoidance |

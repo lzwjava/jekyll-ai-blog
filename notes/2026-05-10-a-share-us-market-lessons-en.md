@@ -79,7 +79,7 @@ Research shows that improving individual investors' financial literacy can impro
 ## Summary Comparison
 
 | Dimension | China A-Share | US Stock Market |
-|---|---|---|
+| --- | --- | --- |
 | Market structure | Retail-dominated, volatile | Institution-dominated, more efficient |
 | Learning complexity | High (policy, sentiment, fundamentals) | Moderate (fundamentals, macro) |
 | Active vs Passive | Active can add value | Passive usually wins long-term |

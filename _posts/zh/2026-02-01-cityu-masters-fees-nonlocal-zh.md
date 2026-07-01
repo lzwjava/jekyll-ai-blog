@@ -32,7 +32,7 @@ CityU 的 master's 学费按 **per credit unit** 收取，且费用因 programme
 **为了方便参考，以下是大致的费用明细：**
 
 | Item | Estimated Cost |
-|---|---|
+| --- | --- |
 | Master's tuition (total) | ~HK$250,000 – 350,000 |
 | Graduation fee | HK$400 |
 | Living expenses (monthly) | ~HK$8,000 – 15,000 |

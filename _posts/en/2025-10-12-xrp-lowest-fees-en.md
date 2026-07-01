@@ -15,11 +15,11 @@ To determine which cryptocurrency among Bitcoin (BTC), Ethereum (ETH), Ripple (X
 ### Transaction Fee Comparison
 
 | Cryptocurrency | Typical Transaction Fee (USD) | Notes |
-|---------------|------------------------------|-------|
-| **XRP**       | ~$0.0002 - $0.001           | Lowest fees; fixed low cost for transfers due to XRP Ledger's design for fast, cheap payments. |
-| **LTC**       | ~$0.01 - $0.05              | Very low; designed for cheaper transactions than BTC. Fees rise slightly during network spikes. |
-| **ETH**       | ~$0.50 - $2.00              | Post-Dencun upgrade (2024), base fees dropped, but complex transactions (e.g., DeFi) can cost more. Layer 2 solutions (e.g., Arbitrum) can reduce to ~$0.10. |
-| **BTC**       | ~$1.00 - $5.00              | Highest; fees depend on mempool size and priority. Lightning Network can lower costs (~$0.01) but isn’t typical for ATM sends. |
+| --------------- | ------------------------------ | ------- |
+| **XRP** | ~$0.0002 - $0.001 | Lowest fees; fixed low cost for transfers due to XRP Ledger's design for fast, cheap payments. |
+| **LTC** | ~$0.01 - $0.05 | Very low; designed for cheaper transactions than BTC. Fees rise slightly during network spikes. |
+| **ETH** | ~$0.50 - $2.00 | Post-Dencun upgrade (2024), base fees dropped, but complex transactions (e.g., DeFi) can cost more. Layer 2 solutions (e.g., Arbitrum) can reduce to ~$0.10. |
+| **BTC** | ~$1.00 - $5.00 | Highest; fees depend on mempool size and priority. Lightning Network can lower costs (~$0.01) but isn’t typical for ATM sends. |
 
 ### Key Points
 

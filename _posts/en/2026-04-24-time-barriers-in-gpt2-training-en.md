@@ -22,7 +22,7 @@ type: note
 The 5-day figure from your checkpoint was **multi-GPU but unoptimized**. Even on a single well-tuned RTX 4070, you're looking at:
 
 | Setup | Estimated Time |
-|---|---|
+| --- | --- |
 | RTX 4090 (optimized, FlashAttn + compile) | ~1.5 hrs |
 | RTX 4090 (naive PyTorch) | ~10–15 hrs |
 | RTX 4070 (optimized) | ~4–8 hrs |
@@ -45,7 +45,7 @@ Most hobbyists run **naive configs** — no FlashAttention, no `torch.compile`, 
 **Surprisingly, it's actually the EASIER part** — but people still trip on it:
 
 | Step | Reality |
-|---|---|
+| --- | --- |
 | Download FineWeb (60–100GB) | Easy — HuggingFace `datasets` one-liner |
 | Tokenize with GPT-2 BPE | Easy — `tiktoken` handles it |
 | Save as `.bin` shards | Medium — need Karpathy's prep scripts |

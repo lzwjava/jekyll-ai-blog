@@ -71,7 +71,7 @@ claude-code-skill session-send myproject "status update" --stream
 ### 📋 监控时要关注什么
 
 | Signal | Meaning |
-|--------|---------|
+| -------- | --------- |
 | Tool calls increasing | 它正在积极工作 |
 | Same tool repeating | 可能陷入循环 |
 | No activity for 5+ min | 可能需要推动或遇到错误 |

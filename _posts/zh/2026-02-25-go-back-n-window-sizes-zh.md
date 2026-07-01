@@ -22,7 +22,7 @@ type: note
 ## 三种滑动窗口协议的解释
 
 | Protocol | Sending Window | Receiving Window |
-|---|---|---|
+| --- | --- | --- |
 | Stop-and-Wait | = 1 | = 1 |
 | **Go-Back-N (GBN)** | **> 1** | **= 1** |
 | Selective Repeat (SR) | > 1 | > 1 |

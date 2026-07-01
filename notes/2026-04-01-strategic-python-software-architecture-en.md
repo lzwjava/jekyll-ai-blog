@@ -137,7 +137,7 @@ AI models in 2025 offer unprecedented context capabilities, but the way you orga
 ## Summary Table
 
 | Problem | Solution |
-|---|---|
+| --- | --- |
 | AI generates 300-line spaghetti scripts | Enforce module boundaries from day 1 |
 | Renaming breaks everything | Loose coupling, dependency injection |
 | Can't split monolith into microservices | Design domain-driven folder structure early |

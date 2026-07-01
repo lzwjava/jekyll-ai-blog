@@ -64,7 +64,7 @@ pip install torch numpy tiktoken
 GPT-3 uses these key hyperparameters (vary by model size):
 
 | Model | Layers | Heads | d_model | Params |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | GPT-3 Small | 12 | 12 | 768 | 125M |
 | GPT-3 Medium | 24 | 16 | 1024 | 350M |
 | GPT-3 XL | 24 | 16 | 2048 | 1.3B |
@@ -122,7 +122,7 @@ Use the `lighteval` or `lm-evaluation-harness` library to run these automaticall
 ## Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | 100B tokens vs full FineWeb | ~0.67% of 15T total — a practical research subset |
 | Is it expected? | Yes, typical for a planning script targeting a manageable chunk |
 | Best training framework | Karpathy's `build-nanogpt` or `nanochat` |

@@ -50,7 +50,7 @@ Poor prompts produce poor answers — the model is not "dumb", it is **under-inf
 **What to check:**
 
 | Problem | Symptom | Fix |
-|---|---|---|
+| --- | --- | --- |
 | Vague task description | Generic boilerplate code | Be specific: language, framework, version, purpose |
 | Missing business rules | Logically wrong logic | Include domain constraints in prompt |
 | No example input/output | Wrong format or structure | Add `Input: ... Output: ...` examples |

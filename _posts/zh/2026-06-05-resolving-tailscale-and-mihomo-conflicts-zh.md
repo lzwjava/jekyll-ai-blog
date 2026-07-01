@@ -170,7 +170,7 @@ Mihomo 已有针对 Tailscale 兼容性的明确修复（提交信息：“fix n
 ## 总结
 
 | 设置 | 冲突？ | 最适合 |
-|-------|-----------|----------|
+| ------- | ----------- | ---------- |
 | Mihomo (hysteria2) + Tailscale 内核模式 | **高** | 不要组合使用 |
 | Mihomo (hysteria2) + Tailscale 用户态模式 | **无** | 中国使用场景 ✓ |
 | Hysteria2 隧道 → 内部使用 Tailscale | **无** | 最高可靠性 |

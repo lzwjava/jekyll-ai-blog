@@ -51,7 +51,7 @@ In data analysis, triangulation can involve using different data sources, data c
 Applied to your AI/engineering context:
 
 | Source | What It Reveals |
-|---|---|
+| --- | --- |
 | Cloudflare analytics | Raw server-level truth |
 | SimilarWeb | Market-level estimation |
 | Claude Code / logs | Behavioral, programmatic truth |
@@ -93,7 +93,7 @@ When you have data from only one source or investigator, it may be difficult to 
 ## Summary
 
 | Concept | Value |
-|---|---|
+| --- | --- |
 | Convergence across sources | Builds confidence |
 | Divergence / contradiction | Points to hidden truth, bias, or error |
 | More sources = more angles | Reduces blind spots |

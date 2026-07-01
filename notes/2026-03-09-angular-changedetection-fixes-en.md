@@ -158,7 +158,7 @@ Using a shared service with observables is especially useful for deeply nested c
 ## Summary — Which Option to Pick?
 
 | Situation | Best Fix |
-|---|---|
+| --- | --- |
 | Angular 17+ / 21 modern project | **Signals + `input()`** |
 | Existing `@Input()` pattern, can't refactor | **`ChangeDetectorRef.detectChanges()` in child** |
 | Parent controls the update | **`markForCheck()` in parent** |

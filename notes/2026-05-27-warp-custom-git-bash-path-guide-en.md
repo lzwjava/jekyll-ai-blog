@@ -69,7 +69,7 @@ Key: Warp manages the bootstrap arguments itself. The custom path field is just 
 ### Summary
 
 | Setting | Value |
-|---------|-------|
+| --------- | ------- |
 | Custom path | `C:\Program Files\Git\usr\bin\bash.exe` |
 | Path separator | `\` (backslash) |
 | `--login -i` | Don't add — Warp handles shell args automatically |

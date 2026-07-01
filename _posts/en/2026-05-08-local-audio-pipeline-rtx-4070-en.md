@@ -162,7 +162,7 @@ audio = AudioSamples.load("input.wav").cuda()
 ## 🔧 Recommended Full Stack Summary
 
 | Stage | Tool | CUDA? | Type |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Noise Removal | DeepFilterNet3 | ✅ | CLI/Python |
 | Silence Removal | auto-editor or TimeBolt | ✅ (TimeBolt) | CLI / GUI |
 | Normalization | FFmpeg loudnorm / SoX | ❌ (CPU fast enough) | CLI |

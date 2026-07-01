@@ -31,7 +31,7 @@ Without a framework, you'd risk siloed services leading to integration hell, hig
 For service-to-service communication in a microservices setup, **Feign Client (from Spring Cloud OpenFeign)** is often the better choice for synchronous REST calls, especially in a Spring Boot ecosystem. Here's a quick comparison:
 
 | Approach | Pros | Cons | Best For |
-|----------|------|------|----------|
+| ---------- | ------ | ------ | ---------- |
 | **Feign Client** | - Declarative (annotation-based, like `@FeignClient`).<br>- Integrates seamlessly with Spring Cloud (auto-load balancing via Ribbon, circuit breaking via Resilience4j).<br>- Load-balanced calls with service discovery (Eureka/Consul).<br>- Easy to mock for testing. | - Synchronous only (blocks threads).<br>- Slightly heavier than raw HTTP clients. | Traditional, request-response patterns in banking (e.g., account balance checks). Use if your services are mostly sync and you want minimal config. |
 | **WebClient (Spring WebFlux)** | - Reactive/non-blocking, great for high-throughput.<br>- Modern, fluent API.<br>- Built into Spring Boot 2+.<br>- Supports backpressure. | - Steeper learning curve if team isn't reactive-savvy.<br>- Overkill for simple calls. | Async-heavy workloads (e.g., real-time fraud detection streams). Prefer if scaling to 100s of req/sec per service. |
 | **RestTemplate** | - Simple, familiar.<br>- No extra deps. | - Deprecated in Spring 6+.<br>- No built-in load balancing or retries.<br>- Manual error handling. | Legacy or quick prototypes—avoid for production microservices. |

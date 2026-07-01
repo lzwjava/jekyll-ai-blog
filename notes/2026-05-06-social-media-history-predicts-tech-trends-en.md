@@ -61,7 +61,7 @@ The same logic applies to tech: a sudden rise in WeChat Index for a niche term l
 The key insight is **specificity + timing**:
 
 | Signal | What it Means |
-|---|---|
+| --- | --- |
 | Person tweets about "Attention Is All You Need" in mid-2017 | They read AI papers before they go viral |
 | Person's WeChat groups discuss Flash Attention in early 2022 | They track engineering-level AI advances |
 | Person experiments with ChatGPT in week 1 of launch | They prototype fast |

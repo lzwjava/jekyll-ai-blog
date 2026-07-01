@@ -70,7 +70,7 @@ Read the provided transcription file and generate a new refined output file in M
 **Key changes from the original prompt:**
 
 | Original | Improved |
-|---|---|
+| --- | --- |
 | Hardcoded filenames (`meeting_01_2.txt`, `meeting_01_2_refined.md`) | Removed — apply to whatever input file is provided |
 | Chinese-specific output instructions | Generalized to match the source language |
 | Chinese speaker narration words only | Replaced with equivalent English guidance + examples |

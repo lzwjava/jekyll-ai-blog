@@ -72,7 +72,7 @@ The `windows-rs` crate (Microsoft's official Rust bindings for Windows APIs) com
 ### TL;DR
 
 | Question | Answer |
-|---|---|
+| --- | --- |
 | Does Warp work on Windows? | Yes, since Feb 2025 |
 | Is source code available? | Yes, open-sourced Apr 2026 (AGPL) |
 | Can you build with Rust + VS Build Tools? | Yes, that's the correct Windows toolchain |

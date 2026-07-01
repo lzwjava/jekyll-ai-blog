@@ -42,7 +42,7 @@ This `.venv/` is completely isolated. Different projects can have different vers
 **The mental model:**
 
 | Tool | Scope | Where deps live |
-|------|-------|-----------------|
+| ------ | ------- | ----------------- |
 | `pip install` (no venv) | Global | system site-packages |
 | `pip install` (in venv) | Project | `.venv/` |
 | `uv sync` | Project (always) | `.venv/` (auto-created) |

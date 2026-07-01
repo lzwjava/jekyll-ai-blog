@@ -58,7 +58,7 @@ For China-based users, Feishu (Lark) is generally the recommended channel — so
 Since OpenAI's API is also GFW-restricted and requires overseas payment methods, technicians configure domestic Chinese LLMs instead. The most common choices:
 
 | Model | Provider | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Qwen (通义千问)** | Alibaba | Most popular default; setup wizard can auto-authorize |
 | **DeepSeek** | DeepSeek | Extremely popular, very cheap API |
 | **Kimi K2.5** | Moonshot AI | Strong reasoning, used in KimiClaw hosted version |

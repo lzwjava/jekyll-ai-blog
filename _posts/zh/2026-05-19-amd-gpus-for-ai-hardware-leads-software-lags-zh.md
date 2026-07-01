@@ -20,7 +20,7 @@ type: note
 ## AMD MI300X vs NVIDIA H100 —— 实际数据
 
 | 指标 | AMD MI300X | NVIDIA H100 SXM | AMD 占 NVIDIA 百分比 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FP16 TFLOPS | 1307 | 989 | **132%** ✅ |
 | BF16 TFLOPS | 1307 | 989 | **132%** ✅ |
 | HBM 内存 | **192 GB** | 80 GB | **240%** ✅ |

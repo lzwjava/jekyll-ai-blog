@@ -88,7 +88,7 @@ Microsoft 考试通过 **Pearson VUE** 或 **Certiport**（现场或远程）交
 ## 比较总结表格
 
 | Certification | Provider | Exam Cost | Format | Level | Renewal |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Professional ML Engineer | Google Cloud | $200 | Remote or Onsite | Advanced | 2 years |
 | AI Practitioner | AWS | $100 | Remote or Onsite | Entry | 3 years |
 | ML Engineer – Associate | AWS | $150 | Remote or Onsite | Mid | 3 years |

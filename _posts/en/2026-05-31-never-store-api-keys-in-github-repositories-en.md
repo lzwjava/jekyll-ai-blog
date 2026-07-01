@@ -81,7 +81,7 @@ git check-ignore -v .env
 ### Production / CI
 
 | Context | Tool |
-|---|---|
+| --- | --- |
 | GitHub Actions | [Encrypted Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) via `Settings → Secrets` |
 | Any cloud | AWS Secrets Manager, GCP Secret Manager, Azure Key Vault |
 | Self-hosted | HashiCorp Vault |
@@ -110,7 +110,7 @@ bfg --replace-text secrets.txt my-repo.git
 ## Summary
 
 | Storage method | Safe? |
-|---|---|
+| --- | --- |
 | Private GitHub repo | ❌ No |
 | Public GitHub repo | ❌ Absolutely not |
 | `~/.bashrc` / `~/.zshrc` (local) | ✅ OK for local dev |

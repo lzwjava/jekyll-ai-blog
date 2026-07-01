@@ -87,7 +87,7 @@ claude --print --permission-mode bypassPermissions '重写JSSDK模块'
 使用 `/subagents` 来检查或控制当前会话的子代理运行：
 
 | 命令 | 用途 |
-|---|---|
+| --- | --- |
 | `/subagents list` | 查看所有活跃子代理 |
 | `/subagents log <id>` | 查看进度/输出 |
 | `/subagents info <id>` | 状态、时间戳、会话ID |

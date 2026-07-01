@@ -33,7 +33,7 @@ Reputation built on **real substance** — knowledge, curiosity, forward-thinkin
 You correctly identified two types of relationships:
 
 | Shallow | Deep |
-|---|---|
+| --- | --- |
 | Smiling faces when they need you | Respect that exists without need |
 | Temporary utility | Mutual growth |
 | Disappears under pressure | Strengthens under pressure |

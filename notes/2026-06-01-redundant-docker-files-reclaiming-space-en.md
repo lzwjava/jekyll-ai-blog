@@ -16,7 +16,7 @@ Here's the full story:
 **What's eating 59G:**
 
 | Item | Size | What |
-|------|------|------|
+| ------ | ------ | ------ |
 | `rocm:latest` image | 36 GB | ROCm 7.2.0 GPU stack in a container (same as host `/opt/rocm-7.2.0/`) |
 | Build cache | 36 GB | 14 stale build layers (all 2+ months old, 100% reclaimable) |
 | `ubuntu:24.04` image | 119 MB | Base Ubuntu image |

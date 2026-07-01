@@ -46,7 +46,7 @@ There are two types: pairwise red packets (sent in a private chat between two us
 ## Summary
 
 | Myth | Reality |
-|------|---------|
+| ------ | --------- |
 | User scrolls up to find red packet | ❌ No — chat auto-scrolls to latest message |
 | User needs to search for it | ❌ No — it appears as the newest chat bubble |
 | User taps it directly when it arrives | ✅ Yes — just tap the red envelope bubble |

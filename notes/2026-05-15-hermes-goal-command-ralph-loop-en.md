@@ -97,7 +97,7 @@ If you believe the goal is complete, state so explicitly and stop.
 ## Stopping Conditions
 
 | Condition | What happens |
-|-----------|-------------|
+| ----------- | ------------- |
 | Judge says "done" | Goal marked done, user notified |
 | Turn budget exhausted (default 20) | Auto-paused, `/goal resume` resets budget |
 | User sends real message mid-loop | Preempts continuation, goal pauses for that turn |

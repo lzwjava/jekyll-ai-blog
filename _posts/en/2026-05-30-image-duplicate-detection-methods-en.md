@@ -20,7 +20,7 @@ No — none of them use raw MD5 of pixels. That approach is too brittle for real
 ## The Problem with MD5 (even pixel-level)
 
 | Scenario | MD5 of bytes | MD5 of pixels | Perceptual hash |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Exact same file | ✅ match | ✅ match | ✅ match |
 | Re-exported JPEG (recompressed) | ❌ miss | ❌ miss | ✅ match |
 | Cropped slightly | ❌ miss | ❌ miss | ✅ match |
@@ -163,7 +163,7 @@ def add_image(conn, path, phash_threshold=10):
 ## Summary
 
 | Method | Exact copy | Re-exported JPEG | Resized | Cropped |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | MD5 bytes | ✅ | ❌ | ❌ | ❌ |
 | MD5 pixels | ✅ | ❌ | ❌ | ❌ |
 | pHash | ✅ | ✅ | ✅ | ~✅ |

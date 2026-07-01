@@ -14,13 +14,13 @@ type: note
 
 GPG (GNU Privacy Guard) and PGP (Pretty Good Privacy) are both tools for secure email encryption, file signing, and authentication using public-key cryptography. PGP is the original software developed in 1991 by Phil Zimmermann to protect privacy against surveillance, while GPG is a free reimplementation of the OpenPGP standard (RFC 4880) that PGP helped inspire. They are highly compatible, but differ in licensing, ease of use, and some technical details. Below is a side-by-side comparison.
 
-| Aspect              | PGP                                                                 | GPG                                                                 |
-|---------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+| Aspect | PGP | GPG |
+| --------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | **History & Development** | Proprietary software; originally freeware, now owned by Broadcom (formerly Symantec). Closed-source development. | Open-source project started in 1997 by Werner Koch as a PGP replacement. Actively maintained by the GNU Project. |
 | **Licensing & Cost** | Proprietary; requires a license for commercial use (free for personal use in some cases). | Free and open-source (GPL license); no cost, fully auditable by the community. |
-| **Compatibility**   | Follows the OpenPGP standard; keys and encrypted data are interchangeable with GPG. | Fully compliant with OpenPGP; seamless interoperability with PGP. |
+| **Compatibility** | Follows the OpenPGP standard; keys and encrypted data are interchangeable with GPG. | Fully compliant with OpenPGP; seamless interoperability with PGP. |
 | **Features & Algorithms** | Supports a broad range of algorithms (e.g., RSA, DSA, ElGamal, legacy ciphers like IDEA). Includes digital signatures and key management. | Supports modern algorithms (e.g., ECC, EdDSA, AES) plus OpenPGP standards. Strong on signatures but may lack some proprietary PGP extensions. |
-| **Ease of Use**     | More user-friendly with graphical interfaces (e.g., PGP Desktop or plugins for email clients). Easier setup for beginners. | Primarily command-line based; powerful but steeper learning curve. GUI wrappers (e.g., Kleopatra) available on some platforms. |
+| **Ease of Use** | More user-friendly with graphical interfaces (e.g., PGP Desktop or plugins for email clients). Easier setup for beginners. | Primarily command-line based; powerful but steeper learning curve. GUI wrappers (e.g., Kleopatra) available on some platforms. |
 | **Platforms & Integration** | Windows-focused with enterprise tools; integrates with Outlook, etc. | Cross-platform (Linux, macOS, Windows); widely used in Unix-like systems and scripts. |
 | **Security & Auditing** | Relies on vendor audits; some concerns over closed-source elements. | Community-audited; transparent code reduces backdoor risks. |
 

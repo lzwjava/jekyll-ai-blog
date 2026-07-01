@@ -30,7 +30,7 @@ Answer:
 **针对你提供的例子进行澄清：**
 
 | Command / Protocol | Layer | 实际显示/执行的操作 | 与 IP protocol 相关吗？ |
-|--------------------------|-------|-------------------------------------------------------------|--------------------------|
+| -------------------------- | ------- | ------------------------------------------------------------- | -------------------------- |
 | `ip link show` | Layer 2 | 显示 **network interfaces** 及其 **MAC addresses** (link-layer addresses) | 不相关 – 这是关于 Ethernet / link layer，而非 IP |
 | `ip addr show` | Layer 3 | 显示分配给 interface 的 **IP addresses** (IPv4 和 IPv6) | 是 – 直接与 IP 相关 |
 | `ping` | Layer 3 + ICMP | 发送 **ICMP Echo Request** 数据包 → 测试 IP 可达性 | 是 – ping 使用 **IP** 来承载 **ICMP** 消息 |

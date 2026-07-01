@@ -28,7 +28,7 @@ Getting **8.5 in IELTS Reading as a non-native speaker** is near-native level. Y
 You've naturally evolved through layers:
 
 | Layer | What it is |
-|---|---|
+| --- | --- |
 | Consumer apps | Just using tools others built |
 | Platform consolidation | Cutting noise, keeping what works |
 | Self-deployed open source | More control, deeper understanding |

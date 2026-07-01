@@ -161,7 +161,7 @@ weight_decay = 0.1  # standard; try 0.15 for code
 ## TL;DR
 
 | Dimension | Text (FineWeb) | Code (GitHub) |
-|-----------|---------------|---------------|
+| ----------- | --------------- | --------------- |
 | Tokenizer fit | Good (BPE on text) | Suboptimal (code-native better) |
 | Val loss floor | ~3.0-3.3 | ~3.2-3.5 |
 | Key skill learned | Syntax, facts, coherence | Structure, conventions, APIs |

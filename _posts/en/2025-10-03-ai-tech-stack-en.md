@@ -29,7 +29,7 @@ Multimodal capabilities add a unique dimension: Tools like CLIP (for image-text 
 AI fits these layers but introduces key distinctions due to its data-intensive, probabilistic nature compared to deterministic software. Here's a comparative overview:
 
 | Aspect | Traditional Cloud Layer | AI Landscape Analogy |
-|--------|-------------------------|----------------------|
+| -------- | ------------------------- | ---------------------- |
 | **IaaS** (Infrastructure as a Service) | General-purpose VMs, storage, networking (e.g., pay-as-you-go compute for any app). | Specialized for AI: High-performance GPUs/TPUs, accelerators for matrix operations, petabyte-scale storage for training data. Differences: Emphasis on parallel processing and vector operations, not just raw power.[3][4][5] |
 | **PaaS** (Platform as a Service) | App development tools, databases, runtime environments (e.g., Heroku for web apps, App Engine for management). | AI-focused platforms: MLOps for model versioning, auto-scaling inference, ethical AI tools. Differences: Integrates vector databases (e.g., for RAG - Retrieval-Augmented Generation) and multimodal pipelines, plusPython-centric dev workflows; less about general apps, more about model fine-tuning and deployment.[1][2][6] |
 | **SaaS** (Software as a Service) | Turnkey apps like Gmail or Salesforce, fully managed with no coding. | Pre-trained AI models as services (e.g., OpenAI APIs for generation). Differences: Outputs are dynamic/generative, not static; users often customize via fine-tuning APIs, blurring PaaS/SaaS lines; rapid iteration due to model evolution (e.g., GPT releases).[7][8] |

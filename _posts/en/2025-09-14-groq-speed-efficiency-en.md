@@ -16,7 +16,7 @@ type: note
 **GROQ** (Graph‑Relational Object Queries) feels “instant” because San Sanity has built a query engine that is:
 
 | What it does | Why it makes GROQ fast |
-|--------------|------------------------|
+| -------------- | ------------------------ |
 | **Compiles the query once** into an abstract‑syntax‑tree (AST) and re‑uses that compiled form for every request. | No repeated parsing or string‑matching work on each call. |
 | **Executes on the “Content Lake”** – a column‑oriented, append‑only data store that stores every field of every document in a pre‑indexed, binary‑packed format. | Look‑ups are O(1)‑ish and can be done without loading whole documents. |
 | **Pushes filtering & projection down to the storage layer** (the same way a relational DB pushes `WHERE`/`SELECT` down to the index). | Only the fields you ask for are read from disk/network. |
@@ -100,7 +100,7 @@ The net effect is that a query that would take seconds on a single‑threaded in
 ## 6.  Caching Layers
 
 | Layer | What it stores | Typical hit‑rate | Benefit |
-|-------|----------------|------------------|---------|
+| ------- | ---------------- | ------------------ | --------- |
 | **In‑process query‑plan cache** | Compiled AST + execution plan | 80‑95 % for repeat queries | No parsing/plan work |
 | **Edge CDN cache** (public queries with `?cache=...`) | Fully rendered JSON result | Up to 99 % for public pages | Zero backend round‑trip |
 | **Result‑set cache** (internal) | Partial result fragments for common sub‑queries (`*[_type == "author"]`) | 60‑80 % for dashboard‑style queries | Re‑use already‑computed column scans |
@@ -112,7 +112,7 @@ Because many editors and front‑ends issue the same queries over and over (e.g.
 ## 7.  Comparison to GraphQL / REST
 
 | Feature | GROQ (Sanity) | GraphQL (generic) | REST |
-|---------|---------------|-------------------|------|
+| --------- | --------------- | ------------------- | ------ |
 | **Schema‑free** | Yes – works on any JSON shape | Needs a schema to be defined | Usually fixed endpoints |
 | **Partial response** | Built‑in projection `{field}` | Requires `@include` / fragments | Need separate endpoints |
 | **Filtering on arbitrary fields** | Direct column predicates (`field == value`) | Requires custom resolvers per field | Often not possible without new endpoint |
@@ -127,10 +127,10 @@ The **key differentiator** is that GROQ is *designed* to be executed directly ag
 ## 8.  Real‑world Numbers (Sanity’s own benchmarks)
 
 | Query type | Documents scanned | Fields returned | Avg. latency (cold) | Avg. latency (warm) |
-|------------|-------------------|-----------------|---------------------|---------------------|
+| ------------ | ------------------- | ----------------- | --------------------- | --------------------- |
 | Simple filter (`*[_type=="post"]`) | 10 k | `_id, title` | 28 ms | 12 ms |
 | Deep projection (`*[_type=="article"]{title, author->{name}}`) | 25 k | 3 fields + 1 join | 42 ms | 18 ms |
-| Order + limit (`*[_type=="comment"]|order[publishedAt desc](0...20){...}`) | 150 k | 5 fields | 67 ms | 30 ms |
+| Order + limit (`*[_type=="comment"] | order[publishedAt desc](0...20){...}`) | 150 k | 5 fields | 67 ms | 30 ms |
 | Full‑text match (`*[_type=="post" && title match "react"]`) | 200 k | `_id, slug` | 84 ms | 38 ms |
 
 *Cold* = first request after a deploy (no plan cache, no result cache).
@@ -162,7 +162,7 @@ Optimising those three aspects—adding an index (`*[_type=="post" && tags[]._re
 ### Quick Tips for Developers
 
 | Goal | GROQ pattern / Sanity config |
-|------|------------------------------|
+| ------ | ------------------------------ |
 | **Speed up a filter on a rarely‑used field** | Add a **custom index** in `sanity.json` → `indexes: [{name: "slug", path: "slug.current"}]` |
 | **Avoid full‑document loads** | Always project (`{title, slug}`) instead of `...` |
 | **Leverage caching** | Use `?cache=3600` on public queries, or enable the `preview` endpoint’s built‑in CDN |

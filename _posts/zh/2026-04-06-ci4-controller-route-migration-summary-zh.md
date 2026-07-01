@@ -20,7 +20,7 @@ type: note
 **在所有 24 个控制器和 6 个模型中修复的内容：**
 
 | 修复项 | 详情 |
-|-----|--------|
+| ----- | -------- |
 | ✅ **路由已定义** | 所有约 100 个 CI3 路由已转换为 CI4 的 `$routes->get/post/match()` 格式 |
 | ✅ **`__construct()` → `initController()`** | PHP 8.5 调用 `initController()` 而非 `__construct()`。所有子控制器已完成转换。 |
 | ✅ **命名空间顺序** | 在 PHP 中，`namespace` 必须位于 `use` 语句之前 |

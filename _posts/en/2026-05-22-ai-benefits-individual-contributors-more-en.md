@@ -20,7 +20,7 @@ You're hitting on something real. Let me sharpen the model.
 The fundamental difference is **where leverage comes from**:
 
 | | IC | Manager |
-|---|---|---|
+| --- | --- | --- |
 | Output multiplier | Skills × Tools | People × Coordination |
 | Bottleneck | Your own capability ceiling | Hiring, trust, communication overhead |
 | AI impact | **Massive** — AI is a direct capability multiplier | Moderate — AI doesn't replace humans you manage |

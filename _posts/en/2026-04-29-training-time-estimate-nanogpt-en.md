@@ -42,7 +42,7 @@ From your log:
 ### Step Breakdown
 
 | Type | Count | Time Each | Subtotal |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Normal iters (remaining) | 10,200 | 9.33s | 95,166s |
 | Eval/checkpoint iters | 21 (at steps 2000,2500…12000) | 29.16s | 612s |
 | **Total remaining** | | | **~95,778s** |
@@ -56,7 +56,7 @@ From your log:
 ## 📐 Full Run Summary
 
 | Phase | Time |
-|---|---|
+| --- | --- |
 | Already elapsed (iter 0→1800) | ~4.7 hours |
 | Remaining (iter 1800→12000) | ~26.6 hours |
 | **Total full run** | **~31–32 hours** |
@@ -78,7 +78,7 @@ Your **MFU of 15.41%** is the key limiter. Here's why:
 ## ⚠️ Loss Convergence Reality Check
 
 | Step | Val Loss |
-|---|---|
+| --- | --- |
 | 0 | 10.9913 |
 | 500 | 5.5082 |
 | 1000 | 4.3908 |

@@ -128,7 +128,7 @@ If the remainder is zero, the data unit is assumed to be intact and accepted. A 
 ## Summary Table
 
 | Step | Action | Example |
-|------|--------|---------|
+| ------ | -------- | --------- |
 | 1 | Append r zeros to message | `10110110` → `101101100000` |
 | 2 | Divide by G using XOR (mod-2) | `101101100000 ÷ 11001` |
 | 3 | Remainder R = CRC bits | R = `1110` |

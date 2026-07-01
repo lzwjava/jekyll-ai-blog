@@ -108,7 +108,7 @@ curl http://127.0.0.1:3456
 ## Summary Table
 
 | Cause | Fix |
-|---|---|
+| --- | --- |
 | `claude` not in `/bin/sh` PATH | Symlink to `/usr/local/bin/claude` |
 | Malformed `config.json` | Validate JSON, fix model name mismatch |
 | Port 3456 occupied | `lsof -i :3456` and kill the process |

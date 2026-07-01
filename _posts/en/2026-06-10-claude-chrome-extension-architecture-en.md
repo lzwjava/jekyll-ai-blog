@@ -65,7 +65,7 @@ One practical consequence: all operations depend on the debugger permission, and
 ## Stack comparison
 
 | | Claude in Chrome | browser-use / Playwright MCP | OpenAI Operator-style |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Browser | **your** Chrome profile (extension) | separate Playwright-launched browser | cloud VM browser |
 | Transport | `chrome.debugger` → CDP in-process | WebSocket → CDP via Playwright | vision + VNC-ish |
 | Perception | custom a11y tree walker (`ref_N`) + screenshot fallback | ariaSnapshot / DOM extraction | screenshots primarily |

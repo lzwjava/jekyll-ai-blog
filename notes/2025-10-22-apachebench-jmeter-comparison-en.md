@@ -20,17 +20,17 @@ Both are free and open-source, but ab is ideal for simple, one-off tests, while 
 
 ### Comparison Table
 
-| Aspect              | Apache Bench (ab)                          | Apache JMeter                              |
-|---------------------|--------------------------------------------|--------------------------------------------|
-| **Interface**      | Command-line only (CLI)                    | GUI (primary) with CLI mode                |
+| Aspect | Apache Bench (ab) | Apache JMeter |
+| --------------------- | -------------------------------------------- | -------------------------------------------- |
+| **Interface** | Command-line only (CLI) | GUI (primary) with CLI mode |
 | **Protocols Supported** | Primarily HTTP (limited HTTPS via workarounds) | HTTP/HTTPS, JDBC, SOAP, FTP, JMS, LDAP, and more |
 | **Ease of Use / Learning Curve** | Very simple; quick to run with basic commands | Steeper curve due to GUI and scripting, but user-friendly for complex setups |
-| **Key Features**   | Basic load simulation (requests, concurrency); no scripting | Advanced scripting (via Beanshell/JSR223); assertions, timers, distributed testing; plugins ecosystem |
+| **Key Features** | Basic load simulation (requests, concurrency); no scripting | Advanced scripting (via Beanshell/JSR223); assertions, timers, distributed testing; plugins ecosystem |
 | **Reporting / Output** | Simple text summary (e.g., req/sec, time per request) | Detailed HTML reports, graphs, listeners for metrics, aggregators; exportable data |
-| **Scalability**    | Limited to single machine; struggles with high concurrency | Supports distributed testing across multiple machines; handles thousands of threads |
-| **Use Cases**      | Quick sanity checks on web servers/APIs    | Full load testing for web apps, APIs, databases; CI/CD integration |
-| **Pros**           | Extremely fast setup; low resource usage   | Highly customizable; rich analytics; community support |
-| **Cons**           | No advanced logic (e.g., no conditionals); basic metrics only | Heavier resource footprint; overkill for simple tests |
+| **Scalability** | Limited to single machine; struggles with high concurrency | Supports distributed testing across multiple machines; handles thousands of threads |
+| **Use Cases** | Quick sanity checks on web servers/APIs | Full load testing for web apps, APIs, databases; CI/CD integration |
+| **Pros** | Extremely fast setup; low resource usage | Highly customizable; rich analytics; community support |
+| **Cons** | No advanced logic (e.g., no conditionals); basic metrics only | Heavier resource footprint; overkill for simple tests |
 
 ### When to Choose Which?
 

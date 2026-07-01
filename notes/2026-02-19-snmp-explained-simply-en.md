@@ -37,7 +37,7 @@ SNMP is an Internet Standard protocol designed for collecting and organizing inf
 ## SNMP Versions
 
 | Version | Key Features | Security |
-|---------|-------------|----------|
+| --------- | ------------- | ---------- |
 | SNMPv1 | Original version, basic get/set operations | Community strings (plaintext) |
 | SNMPv2c | Enhanced performance, bulk data transfer | Community strings (plaintext) |
 | SNMPv3 | User-based authentication, encryption | Strong security (authentication + privacy) |

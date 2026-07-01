@@ -77,10 +77,10 @@ When you **bring your own keys and endpoints**, you’ll inevitably hit issues l
 LibreChat pushes you to **try alternative models** (e.g., DeepSeek, Mistral, Groq) and compare them:
 
 | Model Provider | Strengths | Weaknesses | Cost |
-|---------------|----------|------------|------|
-| **DeepSeek**  | Strong coding/reasoning, cheap | Less polished than GPT-4 | $0.001/1K tokens |
-| **Mistral**   | Multilingual, fast | Shorter context window | $0.002/1K tokens |
-| **Groq**      | Blazing fast inference | Limited model variety | Pay-as-you-go |
+| --------------- | ---------- | ------------ | ------ |
+| **DeepSeek** | Strong coding/reasoning, cheap | Less polished than GPT-4 | $0.001/1K tokens |
+| **Mistral** | Multilingual, fast | Shorter context window | $0.002/1K tokens |
+| **Groq** | Blazing fast inference | Limited model variety | Pay-as-you-go |
 
 **Your config shows this exploration:**
 

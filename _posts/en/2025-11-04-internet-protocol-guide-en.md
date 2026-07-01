@@ -77,38 +77,38 @@ IP defines the **structure of IP packets (datagrams)**, including **source and d
 
 An IPv4 datagram consists of a header (20-60 bytes) and payload (up to 65,535 bytes total).
 
-| Field              | Size (bits) | Description |
-|--------------------|-------------|-------------|
-| **Version**       | 4          | IP version (4 for IPv4). |
+| Field | Size (bits) | Description |
+| -------------------- | ------------- | ------------- |
+| **Version** | 4 | IP version (4 for IPv4). |
 | **IHL (Internet Header Length)** | 4 | Header length in 32-bit words (min 5). |
 | **Type of Service (DSCP/ECN)** | 8 | Priority and congestion handling. |
-| **Total Length**  | 16         | Entire packet size (header + data). |
-| **Identification**| 16         | Unique ID for fragmentation reassembly. |
-| **Flags**         | 3          | Controls fragmentation (e.g., Don't Fragment). |
-| **Fragment Offset**| 13        | Position of this fragment. |
-| **TTL**           | 8          | Hop limit (decremented per router; 0 = discard). |
-| **Protocol**      | 8          | Next-layer protocol (e.g., 6 for TCP, 17 for UDP). |
-| **Header Checksum**| 16        | Error check for header. |
-| **Source IP Address** | 32    | Sender's address. |
+| **Total Length** | 16 | Entire packet size (header + data). |
+| **Identification** | 16 | Unique ID for fragmentation reassembly. |
+| **Flags** | 3 | Controls fragmentation (e.g., Don't Fragment). |
+| **Fragment Offset** | 13 | Position of this fragment. |
+| **TTL** | 8 | Hop limit (decremented per router; 0 = discard). |
+| **Protocol** | 8 | Next-layer protocol (e.g., 6 for TCP, 17 for UDP). |
+| **Header Checksum** | 16 | Error check for header. |
+| **Source IP Address** | 32 | Sender's address. |
 | **Destination IP Address** | 32 | Receiver's address. |
 | **Options** (variable) | 0-40 bytes | Rare extensions (e.g., timestamps). |
-| **Data (Payload)**| Variable   | Upper-layer data. |
+| **Data (Payload)** | Variable | Upper-layer data. |
 
 ### IPv6 Packet Structure
 
 Simpler and fixed header (40 bytes) for efficiency, with extensions for options.
 
-| Field              | Size (bits) | Description |
-|--------------------|-------------|-------------|
-| **Version**       | 4          | IP version (6 for IPv6). |
-| **Traffic Class** | 8          | Priority and congestion. |
-| **Flow Label**    | 20         | For quality-of-service flows. |
-| **Payload Length**| 16         | Data length (excludes header). |
-| **Next Header**   | 8          | Next header type (chained extensions). |
-| **Hop Limit**     | 8          | IPv6 equivalent of TTL. |
-| **Source Address**| 128        | Sender's address. |
-| **Destination Address** | 128   | Receiver's address. |
-| **Data**          | Variable   | Payload and extensions. |
+| Field | Size (bits) | Description |
+| -------------------- | ------------- | ------------- |
+| **Version** | 4 | IP version (6 for IPv6). |
+| **Traffic Class** | 8 | Priority and congestion. |
+| **Flow Label** | 20 | For quality-of-service flows. |
+| **Payload Length** | 16 | Data length (excludes header). |
+| **Next Header** | 8 | Next header type (chained extensions). |
+| **Hop Limit** | 8 | IPv6 equivalent of TTL. |
+| **Source Address** | 128 | Sender's address. |
+| **Destination Address** | 128 | Receiver's address. |
+| **Data** | Variable | Payload and extensions. |
 
 ### Fragmentation
 

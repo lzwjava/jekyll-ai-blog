@@ -21,7 +21,7 @@ You are a **non-U.S. individual** (not a U.S. citizen, green-card holder, or U.S
 ### Line-by-Line Instructions (2021 version)
 
 | Line | What to Write | Examples & Tips |
-|--------------------|---------------|-----------------|
+| -------------------- | --------------- | ----------------- |
 | **Part I – Identification of Beneficial Owner** | | |
 | 1 | Your full legal name | Exactly as on your passport |
 | 2 | Country of citizenship | Canada, Germany, India, etc. |

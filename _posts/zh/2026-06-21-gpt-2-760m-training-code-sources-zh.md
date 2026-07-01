@@ -125,7 +125,7 @@ torchrun --nproc_per_node=1 train.py config/train_gpt2_760m.py
 ## 数据选项（优于 OpenWebText）
 
 | 数据集 | 大小 | Hugging Face 路径 |
-|---------|------|---------|
+| --------- | ------ | --------- |
 | FineWeb | 15T tokens | `HuggingFaceFW/fineweb` |
 | FineWeb-Edu | 1.3T 教育级 tokens | `HuggingFaceFW/fineweb-edu` |
 | OpenWebText | ~9B tokens | 通过 nanoGPT 的 prepare 脚本本地获取 |
@@ -138,7 +138,7 @@ torchrun --nproc_per_node=1 train.py config/train_gpt2_760m.py
 ## 总结
 
 | 代码库 | 最适合场景 |
-|------|---------|
+| ------ | --------- |
 | `karpathy/nanoGPT` | 学习、简洁的 760M 训练、单节点 |
 | `ROCm/Megatron-LM` | 生产环境、多节点、MI300X 上的张量并行 |
 | `Lightning-AI/litgpt` | 简洁的多模型、LoRA、较少模板代码 |

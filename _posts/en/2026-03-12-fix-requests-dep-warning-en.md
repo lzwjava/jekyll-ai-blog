@@ -92,7 +92,7 @@ Then check [requests' PyPI page](https://pypi.org/project/requests/) to see what
 ## Root Cause Summary
 
 | Package | Role |
-|---|---|
+| --- | --- |
 | `requests` | HTTP library — depends on urllib3 and charset detection |
 | `urllib3` | Low-level HTTP client used by requests |
 | `chardet` / `charset-normalizer` | Character encoding detection (requests uses one of these) |

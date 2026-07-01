@@ -32,7 +32,7 @@ That chain can break in many places (iptables, Docker's `FORWARD` policy, `extra
 ### What We Know
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | `curl http://192.168.1.36:3080/` from host | ✅ 200 |
 | `wget http://LibreChat:3080/` from Uptime Kuma | ❌ Can't resolve `LibreChat` |
 | `http.get('http://192.168.1.36:3080/')` from Uptime Kuma | ❌ ETIMEDOUT |

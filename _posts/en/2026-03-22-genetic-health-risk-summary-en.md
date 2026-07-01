@@ -23,7 +23,7 @@ Answer:
 ## Overall Results Summary
 
 | Condition | Risk Level | Key Risk Genes |
-|---|---|---|
+| --- | --- | --- |
 | **Hypertension** | ⚠️ **Attention (High Risk)** | AGT rs699 (CT) – Risk; ADRB2 rs1042713 (AG) – Risk |
 | **Coronary Heart Disease** | 🟡 **General (Moderate)** | ABCA1 rs2230806 (GG) – Risk |
 | **Myocardial Infarction** | ✅ **Normal** | All 4 gene loci normal |

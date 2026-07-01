@@ -96,7 +96,7 @@ While base salary has an unofficial cap around $300,000 at most Big Tech compani
 ## Summary Table
 
 | Mechanism | How Common | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Fixed cycle (annual/bi-annual) | Very common | Standard at all big tech |
 | Budget/headcount constraints | Very common | Hidden ceiling on promotions |
 | Impact-based | Core criterion | Visibility matters as much as output |

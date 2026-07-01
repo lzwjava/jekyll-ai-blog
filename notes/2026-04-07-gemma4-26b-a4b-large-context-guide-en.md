@@ -97,7 +97,7 @@ If you are the only user, add `-np 1` to your llama.cpp config — this reserves
 ## What to Watch For
 
 | Signal | Meaning |
-|--------|---------|
+| -------- | --------- |
 | OOM on startup | Reduce to `-c 8192` or use `q4_0` KV cache |
 | OOM mid-inference | Add `-np 1`, reduce `-ngl` to 23 |
 | Slower speed | Expected — larger context = more compute per token |

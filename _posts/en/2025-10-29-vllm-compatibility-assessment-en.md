@@ -17,7 +17,7 @@ Yes, your laptop can run vLLM based on the provided system details. vLLM is a hi
 #### Key Requirements Met
 
 | Requirement | Your System | vLLM Support Notes |
-|-------------|-------------|--------------------|
+| ------------- | ------------- | -------------------- |
 | **OS** | Ubuntu 24.04.2 LTS (Linux) | Fully supported (Linux is required; Windows needs WSL). |
 | **Python** | 3.13.4 | Supported (vLLM now handles Python 3.10–3.13). |
 | **Architecture** | x86_64 (64-bit) | Fully compatible for both CPU and GPU modes. |

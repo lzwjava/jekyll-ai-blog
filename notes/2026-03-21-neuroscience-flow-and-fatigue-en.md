@@ -88,7 +88,7 @@ Once you bootstrapped yourself into flow via the router task, your brain's arous
 ## Summary Table
 
 | Factor | What Happened |
-|---|---|
+| --- | --- |
 | 11 hours of coding | Prefrontal cortex fatigued, attentional filtering broke down |
 | Going outside | Mild physical recovery, but no neurochemical reset — cognitive switching cost |
 | OpenWrt config | Triggered Flow state — dopamine + norepinephrine + 3 other chemicals released |

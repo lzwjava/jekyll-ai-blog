@@ -37,7 +37,7 @@ Hermes Agent 是由 Nous Research 构建的开源自主 AI 智能体，于 2026 
 ### Hermes 与 Claude Code (CC) — 主要差异
 
 | 维度 | Hermes Agent | Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | 许可证 | 完全开源 | 专有（部分泄露） |
 | 模型锁定 | 任何兼容 OpenAI 的端点 | 仅限 Claude 模型 |
 | 成本 | 自托管，几乎免费 | 通过中继/API 按 token 计费 |

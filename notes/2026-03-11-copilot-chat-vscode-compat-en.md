@@ -30,7 +30,7 @@ Because VS Code 1.106.3 was released November 25, 2025, you need a version of `g
 Based on VsixHub's version history, these are the `github.copilot-chat` releases that declared **VS Code 1.106.0** (or `1.106.0-20251103`) as their engine requirement:
 
 | Version | Updated | Requires VS Code |
-|---|---|---|
+| --- | --- | --- |
 | **0.33.2025101606** | October 16, 2025 | 1.106.0 and up |
 | **0.33.2025103102** | October 31, 2025 | 1.106.0-20251103 and up |
 | **0.33.2025110601** | November 6, 2025 | 1.106.0-20251103 and up |

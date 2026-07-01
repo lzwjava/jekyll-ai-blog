@@ -38,7 +38,7 @@ type: note
 ## 文件归属（无冲突）
 
 | Agent | 读取 | 写入 | 从不触碰 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **CodingAgent** | `ww/**/*.py`, `pyproject.toml` | `ww/**/*.py`, 新模块 | `tests/`, `docs/`, `README.md` |
 | **TestingAgent** | `ww/**/*.py` (只读), `tests/` | `tests/**/*.py`, `pytest.ini` | `ww/` 源码, `docs/` |
 | **DocAgent** | `ww/**/*.py` (只读), `README.md` | `README.md`, `docs/**/*.md` | `ww/` 源码, `tests/` |

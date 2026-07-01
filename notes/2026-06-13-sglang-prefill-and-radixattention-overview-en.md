@@ -143,7 +143,7 @@ curl http://localhost:30000/v1/chat/completions \
 ## SGLang vs vLLM on Prefill
 
 | Feature | SGLang | vLLM |
-|---|---|---|
+| --- | --- | --- |
 | Prefix caching | RadixTree (automatic, LRU) | Hash-based (manual) |
 | Chunked prefill | Yes | Yes |
 | PD disaggregation | Native (Mooncake) | Separate (Dynamo) |

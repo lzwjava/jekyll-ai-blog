@@ -28,7 +28,7 @@ type: note
 ## 此错误实际含义
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | `No available accounts` | 没有 relay 后端账户接受此请求 |
 | `this group only allows Claude Code clients` | 您使用的 PinCC group 特别要求 `User-Agent`（或等效 headers）标识为官方 Claude Code CLI |
 
@@ -91,7 +91,7 @@ PinCC relay 的“仅限 Claude Code 客户端”group 基于 **订阅 OAuth** �
 ## 总结
 
 | 修复方法 | 努力程度 | 可靠性 |
-|---|---|---|
+| --- | --- | --- |
 | 在 OpenClaw 中添加正确的 `User-Agent` headers | 低 | 不确定 — 如果 PinCC 更新检查，可能再次失效 |
 | 使用官方 Claude Code CLI 与 PinCC relay | 中等 | 高 — 这是 PinCC 的设计用途 |
 | 切换到 OpenRouter 或基于 API key 的 provider | 低 | 高 — 完全无 client-check 限制 |

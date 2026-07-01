@@ -114,9 +114,9 @@ In essence, a topology defines how nodes (devices like computers, printers, or s
 For quick reference, here's a summary table comparing the topologies:
 
 | Topology | Cabling Needs | Reliability | Ease of Management | Best For | Common Drawback |
-|----------|---------------|-------------|--------------------|----------|-----------------|
+| ---------- | --------------- | ------------- | -------------------- | ---------- | ----------------- |
 | **Star** | High (to central point) | Medium (hub-dependent) | High | Small-medium LANs | Central failure |
-| **Bus**  | Low (single cable) | Low | Medium | Very small/simple setups | Collisions & breaks |
+| **Bus** | Low (single cable) | Low | Medium | Very small/simple setups | Collisions & breaks |
 | **Ring** | Medium (loop) | Medium (directional) | Medium | Token-based networks | Single point disruption |
 | **Mesh** | Very High | Very High | Low | Critical/high-redundancy | Cost & complexity |
 

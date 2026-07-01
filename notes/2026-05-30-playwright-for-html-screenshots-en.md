@@ -138,7 +138,7 @@ def render(html_path: str, out_path: str, width: int = 720, fmt: str = "jpeg"):
 ## Summary Table
 
 | Library | Engine | Use case fit | Extra deps |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Playwright** | Chromium/Firefox/WebKit | ✅ Local HTML → PNG/JPG | minimal |
 | **Raw CDP** | Chromium | ✅ Attach to running Chrome, exact clip | `pychrome` or `nodriver` |
 | **Camoufox** | Firefox fork | ❌ Anti-bot scraping only | Firefox binary + Xvfb |

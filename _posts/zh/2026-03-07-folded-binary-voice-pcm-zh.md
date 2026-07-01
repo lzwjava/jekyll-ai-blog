@@ -18,7 +18,7 @@ type: note
 PCM 的标准 3-bit 编码表如下：
 
 | Quantization Level | Signal Polarity | Natural Binary Code | Folded Binary Code |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | +3 | 正 | 111 | **① 111** |
 | +2 | 正 | 110 | **② 101** |
 | +1 | 正 | 101 | 110 |

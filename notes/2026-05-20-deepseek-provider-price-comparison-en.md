@@ -16,7 +16,7 @@ OpenRouter's prices are different because **OpenRouter is a reseller/aggregator*
 In this case:
 
 | Source | Input $/M | Output $/M |
-|---|---|---|
+| --- | --- | --- |
 | DeepSeek official API | $1.74 | $3.48 |
 | OpenRouter | $0.435 | $0.87 |
 

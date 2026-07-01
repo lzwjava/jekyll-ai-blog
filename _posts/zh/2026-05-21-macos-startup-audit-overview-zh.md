@@ -34,7 +34,7 @@ Google Drive | /Applications/Google Drive.app
 启动时对所有用户自启动。位于 `/Library/LaunchDaemons/`。
 
 | Plist | 说明 | 可安全移除？ |
-|---|---|---|
+| --- | --- | --- |
 | `com.amazon.KindlePreviewerUpdater.plist` | Kindle Previewer 更新 | **是** — 仅当您不使用 Kindle Previewer 时 |
 | `com.canonical.multipassd.plist` | Multipass（Ubuntu 虚拟机） | ✓ 如果使用 Multipass 则保留 |
 | `com.cleverfiles.cfbackd.plist` | Disk Drill 备份守护进程 | **可能** — 仅当您使用 Disk Drill 时 |
@@ -54,7 +54,7 @@ Google Drive | /Applications/Google Drive.app
 在*您*登录时自启动。位于 `~/Library/LaunchAgents/`。
 
 | Plist | 说明 | 可安全移除？ |
-|---|---|---|
+| --- | --- | --- |
 | `com.amazon.kpr.ncd.plist` | Amazon Kindle 相关 | **是** — 如果您不使用 Kindle |
 | `com.google.GoogleUpdater.wake.plist` | Google 更新器唤醒触发器 | 保留 — Chrome/Google 更新 |
 | `com.google.keystone.agent.plist` | Google Keystone（更新基础设施） | 保留 — Chrome/Google Drive 更新 |
@@ -77,7 +77,7 @@ Google Drive | /Applications/Google Drive.app
 位于 `/Library/LaunchAgents/`。
 
 | Plist | 说明 | 可安全移除？ |
-|---|---|---|
+| --- | --- | --- |
 | `com.google.keystone.agent.plist` | Google Keystone（系统级） | 保留 — Chrome 需要 |
 | `com.google.keystone.xpcservice.plist` | Google Keystone 助手 | 保留 |
 | `com.microsoft.update.agent.plist` | Microsoft 更新代理 | 保留 — Office 更新 |
@@ -103,7 +103,7 @@ redis         (started)
 ## 6. Cron 作业与旧版
 
 | 来源 | 状态 |
-|---|---|
+| --- | --- |
 | crontab | 空 |
 | `/Library/StartupItems/` | 空 |
 | `/System/Library/StartupItems/` | 空 |
@@ -116,7 +116,7 @@ redis         (started)
 **最高价值移除项**（无副作用，很可能未使用或冗余）：
 
 | 项目 | 原因 |
-|---|---|
+| --- | --- |
 | `com.hp.devicemonitor` + `com.hp.productresearch` | 除非您有 HP 打印机 |
 | `com.valvesoftware.steamclean` | 已孤立 — Steam 多年前已移除该功能 |
 | `com.amazon.kpr.ncd` + `KindlePreviewerUpdater` | 如果您不使用 Kindle Previewer |

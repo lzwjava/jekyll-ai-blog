@@ -32,7 +32,7 @@ There are **no direct flights** from Guangzhou Baiyun International Airport (CAN
 Based on current searches, one-way fares start from ~$195-390 USD (₹16,000-32,000), and round-trip from ~$500 USD. Prices fluctuate—book early for deals. Here's a summary:
 
 | Route Example | Airlines | Stops | Duration | One-Way Price (USD) |
-|---------------|----------|-------|----------|---------------------|
+| --------------- | ---------- | ------- | ---------- | --------------------- |
 | CAN → BKK → GOI | Thai Lion Air / IndiGo | 1 | 12-15 hrs | ~$200-250 |
 | CAN → BOM → GOI | China Southern / IndiGo | 1 | 10-14 hrs | ~$237-300 |
 | CAN → HKG → GOI | Cathay Pacific / IndiGo | 1 | 11-16 hrs | ~$300-400 |

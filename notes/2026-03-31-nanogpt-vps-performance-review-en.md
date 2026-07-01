@@ -39,7 +39,7 @@ Here's the full review, Boss:
 ### Inference Performance (CPU)
 
 | Tokens | Time | Speed |
-|--------|------|-------|
+| -------- | ------ | ------- |
 | 50 | 1.28s | 39.1 tok/s |
 | 100 | 3.56s | 28.1 tok/s |
 | 200 | 11.27s | 17.7 tok/s |

@@ -12,7 +12,7 @@ type: note
 Comprehensive summary — **Ollama is fully removed from startup, and not running anywhere**:
 
 | Check | Result |
-|-------|--------|
+| ------- | -------- |
 | **launchd (user agent)** `com.ollama.ollama` | ❌ Not registered |
 | **LaunchAgent plist** (user) | ❌ No plist file found |
 | **LaunchAgent plist** (system) | ❌ No plist file found |

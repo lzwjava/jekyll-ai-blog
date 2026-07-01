@@ -58,7 +58,7 @@ This is the closest equivalent to WeChat's **Subscription Accounts** or **Servic
 ## Summary Comparison Table
 
 | WeChat Feature | Microsoft Teams Equivalent |
-|---|---|
+| --- | --- |
 | Private Chat (DM) | Chat → Direct Message (1:1) |
 | Group Chat | Chat → Group Chat (up to 250) |
 | Group Chat (large, structured) | Team + Channels |

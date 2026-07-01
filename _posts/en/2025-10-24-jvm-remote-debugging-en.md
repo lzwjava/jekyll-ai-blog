@@ -53,11 +53,11 @@ The terms you mentioned—"JVM options," "suspend," "7777 socket," and "jdwp"—
 #### Quick Reference Table
 
 | Option Parameter | Description | Example Value | Notes |
-|------------------|-------------|---------------|-------|
-| `transport`     | Communication method | `dt_socket` | Socket for TCP/IP; use for remote debugging. |
-| `server`        | Listening mode | `y` | JVM listens on the port; debugger connects to it. |
-| `suspend`       | Startup pause | `n` | `y` blocks until debugger attaches; `n` runs freely. |
-| `address`       | Bind address/port | `*:7777` | `*` allows any IP; `localhost:7777` restricts to local. |
+| ------------------ | ------------- | --------------- | ------- |
+| `transport` | Communication method | `dt_socket` | Socket for TCP/IP; use for remote debugging. |
+| `server` | Listening mode | `y` | JVM listens on the port; debugger connects to it. |
+| `suspend` | Startup pause | `n` | `y` blocks until debugger attaches; `n` runs freely. |
+| `address` | Bind address/port | `*:7777` | `*` allows any IP; `localhost:7777` restricts to local. |
 
 For more details, check the official OpenJDK documentation on debugging.
 

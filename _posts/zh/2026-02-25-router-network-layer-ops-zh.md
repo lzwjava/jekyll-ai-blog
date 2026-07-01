@@ -28,7 +28,7 @@ D. Application Layer
 ### OSI 模型概述（相关层）
 
 | Layer | Name | Example Devices |
-|---|---|---|
+| --- | --- | --- |
 | Layer 1 | Physical Layer | Hub, Repeater |
 | Layer 2 | Data Link Layer | **Bridge**, Switch |
 | Layer 3 | Network Layer | **Router** |
@@ -39,7 +39,7 @@ D. Application Layer
 ### 关键比较：Bridge 与 Router
 
 | 特性 | Bridge | Router |
-|---|---|---|
+| --- | --- | --- |
 | OSI Layer | **Layer 2 — Data Link Layer** | **Layer 3 — Network Layer** |
 | Address Used | **MAC Address** (Physical Address) | **IP Address** (Logical Address) |
 | Function | 在同一网络中转发或过滤 **frames** | 在不同网络之间转发 **packets** |

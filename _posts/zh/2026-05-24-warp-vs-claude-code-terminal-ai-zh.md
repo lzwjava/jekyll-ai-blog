@@ -39,7 +39,7 @@ Warp 是一个将 AI 集成到 UI 层的终端模拟器：
 ## 真正的比较
 
 | 维度 | Warp | Ghostty + Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | AI 质量 | Warp AI（较弱的模型，有限的上下文） | Claude Sonnet/Opus（强得多） |
 | Agent 能力 | 浅层——单条命令，基本任务 | 深层——完整仓库理解，多文件编辑，git 操作 |
 | 终端体验 | 精致、块式 UI | 原始——取决于 Ghostty 提供的界面 |

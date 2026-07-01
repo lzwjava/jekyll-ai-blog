@@ -40,7 +40,7 @@ Then log out and log back in. Go to **System Settings → Keyboard → Text Inpu
 RIME ships with multiple shuangpin schemas out of the box. The most popular ones:
 
 | Schema ID | Layout |
-|---|---|
+| --- | --- |
 | `double_pinyin` | 自然码 (Ziranma) |
 | `double_pinyin_flypy` | 小鹤 (Xiaohe/Flypy) — most popular today |
 | `double_pinyin_mspy` | 微软双拼 (Microsoft) |

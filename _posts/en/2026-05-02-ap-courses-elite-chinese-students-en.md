@@ -82,7 +82,7 @@ The optimal strategy: take core AP courses in your areas of strength, and cover 
 ## Summary Table
 
 | Feature | AP (for US Admissions) | Gaokao (Chinese System) |
-|---|---|---|
+| --- | --- | --- |
 | Purpose | US college admissions + college credit | Chinese domestic university placement |
 | Scoring | 1–5 per subject | Single composite score |
 | Scope | Optional, subject-by-subject | Mandatory, standardized |

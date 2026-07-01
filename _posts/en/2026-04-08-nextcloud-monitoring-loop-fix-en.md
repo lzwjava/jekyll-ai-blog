@@ -61,7 +61,7 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 ### For Nextcloud specifically
 
 | Do | Don't |
-|---|---|
+| --- | --- |
 | Use `/status.php` for health checks | Poll `/apps/dashboard/` or any UI route |
 | Set Uptime-Kuma interval ≥ 60s for PHP apps | Rapid polling of PHP apps |
 | Monitor container CPU individually | Only look at host `load average` |

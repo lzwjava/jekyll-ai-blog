@@ -24,7 +24,7 @@ As of late 2025, VANCL is operational and stable but operates on a smaller scale
 - **Product Expansion**: Core focus on multi-category fashion, with recent pushes into new areas like sanitary products (testing phase for medical-grade items) and potential hygiene lines announced by CEO Chen Nian in March 2025. It continues to use European/American designs tailored for Asian fits.
 
 | Key Metrics (as of 2025) | Details |
-|--------------------------|---------|
+| -------------------------- | --------- |
 | **Headquarters** | Beijing, China (Daxing District) |
 | **Order Book/Backlog** | ~RMB 10-15 billion in assigned and competitive bids |
 | **User Base** | ~20 million active users, with 4-5 purchases per year on average |

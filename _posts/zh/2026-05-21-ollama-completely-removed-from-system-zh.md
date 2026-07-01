@@ -12,7 +12,7 @@ type: note
 全面总结 — **Ollama 已完全从启动项中移除，且未在任何位置运行**：
 
 | 检查项 | 结果 |
-|--------|------|
+| -------- | ------ |
 | **launchd（用户代理）** `com.ollama.ollama` | ❌ 未注册 |
 | **LaunchAgent plist（用户）** | ❌ 未找到 plist 文件 |
 | **LaunchAgent plist（系统）** | ❌ 未找到 plist 文件 |

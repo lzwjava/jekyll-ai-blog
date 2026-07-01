@@ -141,7 +141,7 @@ def ai_validate_journal(beancount_file: str) -> str:
 ## Recommendation by Goal
 
 | Goal | Project |
-|---|---|
+| --- | --- |
 | Understand ledger internals | Beancount |
 | Full enterprise ERP | ERPNext |
 | Core banking (closest to bank stack) | Apache Fineract |

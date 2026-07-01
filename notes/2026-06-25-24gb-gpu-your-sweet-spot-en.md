@@ -20,7 +20,7 @@ For you, **24GB is the sweet spot right now**. Here's why:
 **What 24GB unlocks:**
 
 | Model | VRAM needed | 24GB fits? |
-|-------|------------|------------|
+| ------- | ------------ | ------------ |
 | Llama 3.1 70B (Q4) | ~40GB | ❌ need offload |
 | Llama 3.1 8B (full BF16) | ~16GB | ✅ |
 | Mistral 7B fine-tune (LoRA) | ~18GB | ✅ |

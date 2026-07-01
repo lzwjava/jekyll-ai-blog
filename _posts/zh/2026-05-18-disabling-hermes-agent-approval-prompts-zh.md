@@ -105,7 +105,7 @@ subagent_auto_approve: true
 ## 总结表
 
 | 方法 | 效果 | 风险级别 |
-|---|---|---|
+| --- | --- | --- |
 | `approvals.mode: off` | 无任何提示 | 高（主机暴露） |
 | `approvals.mode: smart` | LLM 按命令决定 | 中 |
 | Docker 后端 | 无提示 + 隔离 | 低（沙箱化） |

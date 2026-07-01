@@ -66,7 +66,7 @@ Where:
 ### Noiseless vs. Noisy Channel — Comparison
 
 | Feature | Noiseless Channel | Noisy Channel |
-|---|---|---|
+| --- | --- | --- |
 | Frame Loss | None | Possible |
 | Error Control Needed | No | Yes |
 | Acknowledgment (ACK) | Not required (Simplest) | Required |

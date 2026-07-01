@@ -70,7 +70,7 @@ As 2026 marks the 10th anniversary of the ROCm AI stack, AMD CTO Mark Papermaste
 ### Repository at a Glance
 
 | Item | Detail |
-|------|---------|
+| ------ | --------- |
 | GitHub Stars | 6.2k |
 | Forks | 517 |
 | License | MIT |

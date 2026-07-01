@@ -36,7 +36,7 @@ Answer:
 ## 为什么它特别有效
 
 | Claude Code 阶段 | 你可以并行做的事情 |
-|---|---|
+| --- | --- |
 | Brainstorming / planning | 查看之前的测试结果，编写 test cases |
 | Code generation | 运行现有的 test suite |
 | Refactoring | 对旧行为运行 regression tests |

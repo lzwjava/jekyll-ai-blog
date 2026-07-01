@@ -41,7 +41,7 @@ RunPod 上的服务器产生了退化、重复且不连贯的输出 —— 将�
 == 已应用修复 ==
 
 | 修复项 | 修复前 | 修复后 |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | 模型加载 | HF transformers GPT2LMHeadModel + 转换后的 safetensors | 原生 nanoGPT model.py + 原始 ckpt.pt (1.4GB) |
 | 分词器 | transformers AutoTokenizer | tiktoken GPT-2 BPE |
 | 采样方式 | top_p=0.9 | top_k=200 |

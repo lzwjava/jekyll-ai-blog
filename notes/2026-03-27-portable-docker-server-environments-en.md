@@ -112,7 +112,7 @@ You can self-host your own private container registry using the Distribution pro
 Given you've used Alibaba Cloud, AWS Lightsail, Vultr, GCP, and DMIT — here's a practical, minimal setup:
 
 | Component | Tool |
-|---|---|
+| --- | --- |
 | Image registry | Docker Hub (free) or GitHub Container Registry |
 | Dotfiles management | Chezmoi or a Git bare repo |
 | Image base | `ubuntu:24.04` or `debian:bookworm-slim` |

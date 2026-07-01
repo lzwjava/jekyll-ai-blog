@@ -64,7 +64,7 @@ Pixel 7's Tensor G2 uses an **ARM Mali GPU** with a generalized driver stack. Te
 ## Summary Table
 
 | Factor | iPhone X | Pixel 7 |
-|---|---|---|
+| --- | --- | --- |
 | Display Hz | 60 | 90 |
 | Touch sampling | 120Hz | 90Hz |
 | Touch latency | ~35ms | ~65ms |

@@ -28,7 +28,7 @@ The `--force-overwrite` flag **disables that safety check** and says:
 ## Why `apt` Failed But `dpkg --force-overwrite` Succeeded
 
 | | `apt install` | `dpkg --force-overwrite` |
-|---|---|---|
+| --- | --- | --- |
 | Checks file ownership conflicts | ✅ Yes (strict) | ❌ Skipped |
 | Checks package dependencies | ✅ Yes | ⚠️ Minimal |
 | Aborts on conflict | ✅ Yes | ❌ No, overwrites |

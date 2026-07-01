@@ -17,7 +17,7 @@ Yang Bin is a prominent researcher in computer vision, deep learning, and autono
 Here is a selection of his key academic publications (full list exceeds 30; prioritized by impact and relevance to his expertise):
 
 | Title | Co-Authors | Year | Venue | Citations (approx.) |
-|-------|------------|------|-------|---------------------|
+| ------- | ------------ | ------ | ------- | --------------------- |
 | Learning to Reweight Examples for Robust Deep Learning | Mengye Ren, Wenyuan Zeng, Raquel Urtasun | 2018 | ICML (Oral) | 1,921 |
 | PIXOR: Real-time 3D Object Detection From Point Clouds | Wenjie Luo, Raquel Urtasun | 2018 | CVPR | 1,564 |
 | Deep Continuous Fusion for Multi-Sensor 3D Object Detection | Ming Liang, Shenlong Wang, Raquel Urtasun | 2018 | ECCV | 1,217 |
@@ -38,7 +38,7 @@ Zhou Yucong is a researcher specializing in deep learning optimization, activati
 Here is a list of his known academic publications:
 
 | Title | Co-Authors | Year | Venue | Citations (approx.) |
-|-------|------------|------|-------|---------------------|
+| ------- | ------------ | ------ | ------- | --------------------- |
 | PWLU: Learning Specialized Activation Functions With the Piecewise Linear Unit | (Not specified in sources) | 2023 | IEEE TPAMI | 12 |
 | LR²VQ: Low-Rank Representation Vector Quantization | (Not specified in sources) | 2022 | (Conference/Journal not specified) | N/A |
 | PWLU: Learning Specialized Activation Functions With the Piecewise Linear Unit (early version) | (Not specified in sources) | 2021 | arXiv/Preprint | N/A |

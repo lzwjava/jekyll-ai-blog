@@ -127,7 +127,7 @@ chmod +x .git/hooks/post-commit
 ## Sync Mechanism Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | **Direction** | Local → both remotes (push-based) |
 | **Atomicity** | Pushes are sequential, not atomic — one can succeed while the other fails |
 | **Fetch/Pull** | Only fetches from **one** remote (the fetch URL, usually GitHub) |

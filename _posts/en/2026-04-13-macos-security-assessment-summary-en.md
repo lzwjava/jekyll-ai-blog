@@ -16,7 +16,7 @@ Here's my full security assessment of this macOS machine:
 **Only one user has logged in: `lzwjava`** (plus the system `root` account, which is normal).
 
 | When | User | Terminal | Notes |
-|------|------|----------|-------|
+| ------ | ------ | ---------- | ------- |
 | Sun Apr 12 22:36 (tonight) | lzwjava | ttys010 | Still logged in (this AI agent) |
 | Sun Apr 12 22:32 (tonight) | lzwjava | ttys001 | Still logged in (terminal) |
 | Sat Apr 11 22:31 | lzwjava | ttys009 | Still logged in |

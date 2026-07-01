@@ -57,7 +57,7 @@ Big Tech 公司的权力运作遵循**两条路径**：
 ### Big Tech 的晋升阶梯
 
 | 职级 | 范围 (Scope) | 核心期望 |
-|---|---|---|
+| --- | --- | --- |
 | Junior/Mid Engineer | 负责任务 | 良好执行 |
 | Senior Engineer | 负责团队 | 深度的技术所有权 |
 | Staff/Principal | 跨团队 | 无职权的影响力 |

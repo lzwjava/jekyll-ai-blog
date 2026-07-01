@@ -56,14 +56,14 @@ GA is better for broad marketing ecosystems.
 
 ### Pros and Cons Summary
 
-| Aspect              | Google Analytics Pros | Google Analytics Cons | Cloudflare Web Analytics Pros | Cloudflare Web Analytics Cons |
-|---------------------|-----------------------|-----------------------|-------------------------------|-------------------------------|
-| **Features**       | Highly advanced and customizable | Steep learning curve for advanced use | Simple and essential metrics | Lacks depth in user tracking |
-| **Privacy**        | Robust data for marketing | Tracks users invasively | Strong privacy focus | Limited behavioral insights |
-| **Pricing**        | Free tier is powerful | Paid for enterprise scale | Entirely free | Tied to Cloudflare services |
-| **Accuracy**       | Filters bots for clean data | Can undercount due to blockers | Captures all traffic | Includes bots, inflating numbers |
-| **Ease of Use**    | Intuitive interface | Setup requires code | Automatic for Cloudflare users | Basic dashboard only |
-| **Integrations**   | Extensive Google ecosystem | Privacy trade-offs | Seamless with Cloudflare | Fewer external options |
+| Aspect | Google Analytics Pros | Google Analytics Cons | Cloudflare Web Analytics Pros | Cloudflare Web Analytics Cons |
+| --------------------- | ----------------------- | ----------------------- | ------------------------------- | ------------------------------- |
+| **Features** | Highly advanced and customizable | Steep learning curve for advanced use | Simple and essential metrics | Lacks depth in user tracking |
+| **Privacy** | Robust data for marketing | Tracks users invasively | Strong privacy focus | Limited behavioral insights |
+| **Pricing** | Free tier is powerful | Paid for enterprise scale | Entirely free | Tied to Cloudflare services |
+| **Accuracy** | Filters bots for clean data | Can undercount due to blockers | Captures all traffic | Includes bots, inflating numbers |
+| **Ease of Use** | Intuitive interface | Setup requires code | Automatic for Cloudflare users | Basic dashboard only |
+| **Integrations** | Extensive Google ecosystem | Privacy trade-offs | Seamless with Cloudflare | Fewer external options |
 
 ### When to Choose Each
 

@@ -85,7 +85,7 @@ ss -tuln | grep -q ':22 ' && echo "Port 22 is OPEN" || echo "Port 22 is CLOSED"
 ### 总结 – 最快记忆的命令
 
 | Command | What it tells you | Recommendation |
-|---------|-------------------|----------------|
+| --------- | ------------------- | ---------------- |
 | `systemctl is-active ssh` | 运行中或未运行 | ★★★ 日常检查首选 |
 | `ss -tuln \| grep :22` | 确实在 port 22 上监听 | ★★★ 非常可信 |
 | `sudo systemctl status ssh` | 详尽状态 + 最近日志 | 故障排查时首选 |

@@ -36,7 +36,7 @@ type: note
 许多 power users 正趋向于一套类似的极简组合：
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | **LLM (Claude, ChatGPT, etc.)** | 文本任务, Q&A, 写作, code |
 | **X (Twitter)** | 实时新闻, tech 人士, 观点 |
 | **Google** | 极端案例, 特定搜索 |

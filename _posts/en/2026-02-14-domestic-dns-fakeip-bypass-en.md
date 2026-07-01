@@ -24,8 +24,8 @@ because these servers usually do **not suffer from serious DNS pollution / poiso
 
 ### Why fake-ip is normally recommended (and why it's often not needed here)
 
-| Situation                          | DNS Pollution / Hijacking Risk | Need fake-ip? | Reason |
-|------------------------------------|--------------------------------|---------------|--------|
+| Situation | DNS Pollution / Hijacking Risk | Need fake-ip? | Reason |
+| ------------------------------------ | -------------------------------- | --------------- | -------- |
 | Using foreign DoH/DoT (1.1.1.1, 8.8.8.8, etc.) directly | High (especially for Google, Twitter, YouTube, OpenAI, etc.) | Strongly recommended | Fake-ip prevents local ISP/GFW from seeing real query and returning fake/wrong IPs |
 | Using domestic DoH/DoT (doh.pub, AliDNS, 360, etc.) | Low to medium (mostly only poisons very sensitive foreign domains) | Usually **not required** | These resolvers are operated inside China → they return mostly clean results for domestic sites and reasonably accurate results for international sites (or at least no wild fake IPs) |
 | You are in TUN mode + want maximum privacy / anti-leak | Always useful | Recommended anyway | Fake-ip hides real destination IPs from apps and kernel |

@@ -47,7 +47,7 @@ type: note
 Apple 有一个 **"Hide My Email"** 功能。当用户选择隐藏其 email 时，Apple 会生成一个**随机的中继 email**（例如 `abc123@privaterelay.appleid.com`）而不是共享真实的 email。因此：
 
 | 场景 | 是否安全？ |
-|---|---|
+| --- | --- |
 | 用户使用 Apple Login 并共享真实 email | ✅ 相同 email → 可以匹配 |
 | 用户使用 Apple Login 并选择 **Hide My Email** | ❌ 不同 email → 创建重复账号 |
 | 用户使用其 Gmail 进行 Google Login | ✅ 真实 email，可匹配 |
@@ -75,7 +75,7 @@ Account Linking 允许用户关联两个账号，以便他们可以使用其中�
 ## 总结
 
 | 主题 | 关键点 |
-|---|---|
+| --- | --- |
 | iOS 上的 Apple Login | 流畅、原生、无浏览器 |
 | Android 上的 Apple Login | 支持，但使用 WebView（不够流畅） |
 | 重复账号风险 | 真实存在，特别是使用 "Hide My Email" 时 |

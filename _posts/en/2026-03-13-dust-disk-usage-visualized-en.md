@@ -105,7 +105,7 @@ When you run `dust`, you'll see something like:
 ### Sorting & Display
 
 | Flag | What It Does |
-|------|-------------|
+| ------ | ------------- |
 | `-r` | Reverse sort (smallest to largest) |
 | `-s` | Sort by size (default) |
 | `-n` | Sort by name alphabetically |
@@ -117,7 +117,7 @@ When you run `dust`, you'll see something like:
 ### Limiting & Filtering
 
 | Flag | What It Does |
-|------|-------------|
+| ------ | ------------- |
 | `-n <num>` | Show only top N results (e.g., `-n 20`) |
 | `-d <depth>` | Limit recursion depth (e.g., `-d 2`) |
 | `-X` | Exclude files matching regex |
@@ -127,7 +127,7 @@ When you run `dust`, you'll see something like:
 ### Output & Display
 
 | Flag | What It Does |
-|------|-------------|
+| ------ | ------------- |
 | `-b` | Print sizes in bytes |
 | `-k` | Print sizes in kilobytes |
 | `-m` | Print sizes in megabytes |
@@ -370,7 +370,7 @@ Filters output to show only items in gigabytes (aka "large").
 ## dust vs du vs ncdu: Quick Comparison
 
 | Feature | `du` | `dust` | `ncdu` |
-|---------|------|--------|--------|
+| --------- | ------ | -------- | -------- |
 | **Speed** | ⚡⚡ Very fast | ⚡⚡⚡ Fastest | ⚡⚡ Fast |
 | **Visual** | Plain text | Beautiful, colored | Interactive |
 | **Ease** | Hard (many flags) | Easy | Easy |

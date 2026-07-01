@@ -60,7 +60,7 @@ This is exactly the kind of system your vision describes: aggregate → synthesi
 **Yes, with important nuances:**
 
 | Aspect | Why It Matters |
-|---|---|
+| --- | --- |
 | **Information abundance** | The bottleneck is no longer data availability — it's signal-to-noise. AI helps filter. |
 | **Personalized digestion** | Different people need different slices of the same information. AI personalizes this. |
 | **Decision augmentation** | AI doesn't replace human judgment — it gives humans better inputs. |

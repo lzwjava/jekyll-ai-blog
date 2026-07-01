@@ -33,7 +33,7 @@ OCBC 客服代表告诉您：
 这完全合理，因为：
 
 | Account | Currency | 是否适合 SGD 转账？ |
-|---|---|---|
+| --- | --- | --- |
 | Global Savings Account (GSC) | Multi-currency (在您的情况下为 USD) | ❌ 不理想 —— 货币不匹配 |
 | Statement Savings Account (SSC) | SGD | ✅ 正确的目的地 |
 

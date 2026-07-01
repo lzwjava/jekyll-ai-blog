@@ -30,7 +30,7 @@ Key specs:
 Honestly, **no** — at least not for ML training. Here's the comparison:
 
 | Card | VRAM | Tensor TFLOPS | Generation | Price |
-|------|------|--------------|------------|-------|
+| ------ | ------ | -------------- | ------------ | ------- |
 | Quadro RTX 5000 (this) | 16 GB GDDR6 | ~57 (FP16) | Turing (2018) | $799 used |
 | RTX 4070 Ti | 12 GB GDDR6X | ~285 (FP16) | Ada (2023) | ~$650 |
 | RTX 3090 | 24 GB GDDR6X | ~142 (FP16) | Ampere (2020) | ~$500 used |

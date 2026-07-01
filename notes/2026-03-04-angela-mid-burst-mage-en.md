@@ -38,7 +38,7 @@ Angela (also known as 安琪拉 in the Chinese version of 王者荣耀) is a mid
 Angela scales with magic power, penetration, and cooldown. Prioritize wave clear early, then burst.
 
 | Slot | Item | Why? |
-|------|------|------|
+| ------ | ------ | ------ |
 | Boots | Boots of the Arcane | Magic pen + mana for early poke/clear. Alt: Glowing Wand Boots for CDR if needed. |
 | 1st Core | Scepter of Reverberation (Pain Mask/回响之杖) | CDR, magic power, AOE explosion on skill hits—synergizes with Skill 1 spam. |
 | 2nd | Savant's Wrath (博学者之怒) | Massive magic amp (+35% power after skills). Core for mid-game burst. |

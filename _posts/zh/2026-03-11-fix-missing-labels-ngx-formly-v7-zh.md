@@ -152,7 +152,7 @@ expressions: {
 ## 迁移快速检查清单
 
 | 旧版 (v5/v6 Angular 14) | 新版 (v7 Angular 21) |
-|---|---|
+| --- | --- |
 | `templateOptions: { label: 'X' }` | `props: { label: 'X' }` |
 | 包装器/类型模板中的 `to.label` | `props.label` |
 | `field.templateOptions?.label` | `field.props?.label` |

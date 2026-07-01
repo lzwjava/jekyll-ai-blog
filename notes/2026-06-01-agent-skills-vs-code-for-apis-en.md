@@ -51,7 +51,7 @@ The agent reads the DO API docs it was trained on, constructs the right `GET /v2
 ## When to Write Code (The Real Threshold)
 
 | Situation | Agent or Code? |
-|---|---|
+| --- | --- |
 | "List snapshots, delete old ones" | Agent |
 | "SSH tunnel + port forward to droplet" | Agent (probably) |
 | "Spin up droplet, wait for cloud-init, run benchmark, snapshot, destroy" — reliably, in CI | **Code** |

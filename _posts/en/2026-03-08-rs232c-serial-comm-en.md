@@ -127,7 +127,7 @@ RS-232 is still used to connect older designs of peripherals, industrial equipme
 ### 12. RS-232C vs. Modern Standards
 
 | Feature | RS-232C | USB | RS-485 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Topology | Point-to-point | Point-to-point (hub) | Multi-drop (up to 32 nodes) |
 | Max Speed | 20 kbps | 480 Mbps (USB 2.0) | 10 Mbps |
 | Max Distance | ~15 m (spec) / ~2000 m (practical) | 5 m | 1200 m |

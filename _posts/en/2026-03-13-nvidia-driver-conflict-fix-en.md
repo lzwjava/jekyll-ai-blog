@@ -94,7 +94,7 @@ sudo apt upgrade
 Based on all the errors you've hit so far, your system has accumulated conflicts from **3 sources mixed together**:
 
 | Package Source | Version Suffix | Example |
-|---|---|---|
+| --- | --- | --- |
 | Ubuntu official repo | `-0ubuntu1` | `535.288.01-0ubuntu1` |
 | NVIDIA CUDA repo | `-0ubuntu0.22.04.1` | `535.288.01-0ubuntu0.22.04.1` |
 | Standalone old packages | varies | `nvidia-persistenced` |

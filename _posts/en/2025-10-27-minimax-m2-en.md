@@ -28,7 +28,7 @@ It's powered by an "interleaved thinking" approach (using `<think>` tags for rea
 Yes, it's exceptionally good—especially if you're into coding, agents, or cost-sensitive deployments. Early benchmarks position it as the top open-source model globally, edging out closed-source heavyweights in key areas while being 2x faster (~100 tokens per second) and far cheaper. Here's a quick breakdown:
 
 | Category | MiniMax M2 Score | Top Competitors | Notes |
-|----------|------------------|-----------------|-------|
+| ---------- | ------------------ | ----------------- | ------- |
 | **Overall Intelligence (Artificial Analysis composite)** | 61 | Claude Sonnet 4.5: ~59, Grok 4 Fast: lower, Gemini 2.5 Pro: lower | #1 open-source; covers math, science, coding, agents. |
 | **Coding (SWE-bench Verified)** | 69.4 | Claude 3.5 Sonnet: ~65, DeepSeek-V3: 68 | Excels in real-world repo editing and multi-step fixes. |
 | **Agentic Tasks (GAIA text-only)** | 75.7 | Claude 3.5: 74, Gemini 1.5: 72 | Strong in tool-calling chains (browser, shell, Python). |

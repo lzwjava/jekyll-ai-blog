@@ -23,7 +23,7 @@ Key evidence:
 - **Comparisons**: While Europe and Middle East servers are also very active (full lobbies, competitive play), NA often has longer queues. "Asia" servers (Pakistan-focused) are busy but smaller than SEA. US leads some country-level stats (~17% of global players), but this aggregates across NA/Europe and doesn't reflect server density.
 
 | Region/Server | Key Indicators | Notes |
-|---------------|----------------|-------|
+| --------------- | ---------------- | ------- |
 | **SEA** | Highest downloads (Indonesia/Philippines), full lobbies, fast queues | Largest by activity |
 | Europe | Very high activity, competitive | Often top-tier alongside SEA |
 | Middle East | Busy servers, popular in Arabic countries | Strong but behind SEA/Europe |

@@ -46,7 +46,7 @@ Previously funded through his hedge fund High-Flyer Quant, DeepSeek had operated
 ### Summary Table
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Valuation | ~RMB 350 billion (~$51.5B USD) |
 | Total Round Size | RMB 50 billion (~$7.35B USD) |
 | Liang's Personal Contribution | ~RMB 20 billion (40% of round) |

@@ -28,7 +28,7 @@ This is standard cloud provider behavior (AMD Developer Cloud runs on DigitalOce
 ### What You Should Do
 
 | Action | Still Billed? |
-|---|---|
+| --- | --- |
 | Power Off / Shut Down | ✅ Yes, still billed |
 | **Destroy Droplet** | ❌ No more charges |
 | Take a Snapshot first, then Destroy | ❌ No compute charge (tiny storage fee only) |

@@ -62,7 +62,7 @@ Your frozen meat porridge experiment forced you to **re-derive** the answer your
 ## The Deeper Pattern
 
 | Passive Learning | Active / Exploratory Learning |
-|---|---|
+| --- | --- |
 | Following TikTok recipes | Inventing your own simple dish |
 | Watching ML tutorials | Building micrograd from scratch |
 | Reading a textbook proof | Re-deriving it with the book closed |

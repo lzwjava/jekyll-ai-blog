@@ -85,7 +85,7 @@ np.save(f"layer_{i}_attn.npy", attn_weights.cpu().numpy())
 **`.npy` vs alternatives:**
 
 | Format | Use case | Notes |
-|--------|----------|-------|
+| -------- | ---------- | ------- |
 | `.npy` | single array | fast, mmap-able |
 | `.npz` | multiple arrays | zipped, slower |
 | `.bin` | raw bytes | nanoGPT style, no metadata |

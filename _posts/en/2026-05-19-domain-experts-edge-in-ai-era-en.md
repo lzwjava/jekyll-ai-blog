@@ -57,7 +57,7 @@ A high schooler gets a plausible answer. You get the *right* answer — because 
 ## The Real Matrix
 
 | | Low Domain Knowledge | High Domain Knowledge |
-|---|---|---|
+| --- | --- | --- |
 | **Low AI fluency** | ❌ Lost | ⚠️ Slow but correct |
 | **High AI fluency** | ⚠️ Fast but risky | ✅ **Dangerous (in the good way)** |
 

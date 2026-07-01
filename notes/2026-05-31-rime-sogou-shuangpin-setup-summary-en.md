@@ -57,7 +57,7 @@ custom_phrase.txt            ← Your custom phrases (empty, for you to fill)
 ## Features You Get Out of the Box
 
 | Feature | How to use |
-|---|---|
+| --- | --- |
 | Sogou double pinyin | Just type normally — it's your default schema |
 | Huge dictionary | 2.2M+ Chinese words, modern slang, internet terms |
 | English mixed input | Type English words inline without switching (e.g. "hello" works) |
@@ -72,7 +72,7 @@ custom_phrase.txt            ← Your custom phrases (empty, for you to fill)
 ## Key Shortcuts (Default Squirrel Keybindings)
 
 | Shortcut | Action |
-|---|---|
+| --- | --- |
 | `Ctrl+Space` or `Ctrl+`` | Toggle input method (macOS system) |
 | `Shift` | Toggle Chinese/English |
 | `Enter` | Commit raw pinyin as-is |

@@ -60,7 +60,7 @@ EU AI Act, US DOJ vs Google (already ruled a monopoly in search), FTC pressure o
 ## Which corps are most at risk
 
 | Corp | Core moat | Threat | Verdict |
-|------|-----------|--------|---------|
+| ------ | ----------- | -------- | --------- |
 | Google | Search ads | AI answers kill search CTR | **High risk** — their revenue engine depends on users clicking |
 | Meta | Social graph | Mostly fine, AI enhances ads | **Low risk** — ads + social are sticky |
 | Apple | Hardware + ecosystem | Agents bypass App Store | **Medium risk** — hardware moat is durable, software less so |

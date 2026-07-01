@@ -12,7 +12,7 @@ type: note
 **Lenovo, no contest.**
 
 | | MacBook Pro 2017 | Lenovo XiaoXin 14 |
-|---|---|---|
+| --- | --- | --- |
 | Battery | 59% health (~2-3 hrs) | Much newer, likely 6-8 hrs |
 | CPU | i5-7360U (2C/4T, 7.5W) | i5-12450H (8C/12T, 45W) |
 | Performance | Slow, 2017-era | 4-5x faster |

@@ -28,7 +28,7 @@ Location: Clear Water Bay, Kowloon (accessible via MTR to Choi Hung station, the
 If you're looking for more public-friendly options without university affiliation requirements:
 
 | Library | Key Strengths for Tech/IT/AI/STEM | Public Access | Location |
-|---------|----------------------------------|---------------|----------|
+| --------- | ---------------------------------- | --------------- | ---------- |
 | **Hong Kong Central Library** (Main Public Library) | Largest public system with IT workshops (e.g., AI coding sessions), 480+ computer workstations, e-resources like databases and STEM e-books, plus multimedia labs for tech exploration. Great for general IT learning and quiet study. | Fully open to all (free card for borrowing). | Causeway Bay (MTR: Causeway Bay station). |
 | **Pao Yue-kong Library (Hong Kong Polytechnic University - PolyU)** | Engineering-focused with tools for data science (Python/R/SQL training), digital scholarship labs, and resources like INSPEC for tech patents. PolyU excels in applied tech/engineering. | Public access with visitor registration (research-focused). | Hung Hom (MTR: Hung Hom station). |
 | **CUHK Library (Chinese University of Hong Kong)** | AI Hub with GenAI guidelines, workshops, and e-resources for engineering/AI education. Strong in interdisciplinary STEM. | Limited public access via application. | Sha Tin (MTR: CUHK station). |

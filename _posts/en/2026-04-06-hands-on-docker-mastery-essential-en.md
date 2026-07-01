@@ -88,7 +88,7 @@ COPY . .
 ## Your Progression Path (Mapped to What You Already Know)
 
 | Stage | What you did | What it taught |
-|---|---|---|
+| --- | --- | --- |
 | 2016–2017 | Installed Docker Desktop, didn't use it | Nothing real |
 | 2023–2024 | Ran LibreChat via `docker compose up` | Compose, env vars, volumes, multi-service |
 | Recent | Open-source projects ("lobster") | Docker networking, custom configs |

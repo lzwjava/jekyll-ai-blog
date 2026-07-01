@@ -111,7 +111,7 @@ ssh openclaw@192.168.1.50 "openclaw gateway start"
 ### 关键点
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | Agent 能力 | OpenClaw 原生支持通过 SSH 运行 shell 命令 |
 | 安装时需要 Key 吗? | 不需要 —— 在基础安装后使用现有配置复制 `openclaw.json` 即可 |
 | Config 位置 | `~/.openclaw/openclaw.json` |

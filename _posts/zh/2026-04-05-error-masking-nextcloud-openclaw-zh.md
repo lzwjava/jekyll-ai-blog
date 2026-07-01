@@ -86,7 +86,7 @@ Nextcloud 的 400 错误（报告 webhook 投递失败）让我们认为整个�
 ### 为何没有任何单一日志显示所有情况
 
 | 日志 | 显示内容 | 缺失内容 |
-|-----|-------|---------|
+| ----- | ------- | --------- |
 | **Nextcloud nextcloud.log** | Webhook 投递失败（401/400/404） | OpenClaw 为何拒绝 |
 | **OpenClaw gateway.log** | 回复时 "未找到房间" | 回复被发往 nginx 而非 Nextcloud |
 | **OpenClaw 审计日志** | 被阻止的 URL 获取 | 具体调用了哪个 URL |

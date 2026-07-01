@@ -46,7 +46,7 @@ ICMP messages are categorized into two main types: **Error Reporting Messages** 
 ### Why the Other Options are Wrong
 
 | Option | Protocol | Purpose |
-|--------|----------|---------|
+| -------- | ---------- | --------- |
 | A — ARP | Address Resolution Protocol | Resolves IP addresses to MAC (hardware) addresses — **not** for error reporting |
 | C — RARP | Reverse ARP | Resolves MAC addresses back to IP addresses — **not** for error reporting |
 | D — IP | Internet Protocol | Responsible for packet routing and delivery, but has **no built-in error reporting** — that is exactly why ICMP was created |

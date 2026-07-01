@@ -15,7 +15,7 @@ Ah, got it! You’re asking how long the potato slices need to **soak/absorb the
 Here’s the practical answer (from real cooking experience in Taiwan kitchens too):
 
 | Goal | Recommended soaking time | Notes |
-|------|---------------------------|------|
+| ------ | --------------------------- | ------ |
 | Just a light flavor | 5–10 minutes | Toss in the sauce, let sit while you preheat the air fryer → enough flavor, still very crispy |
 | Medium flavor (most people do this) | 15–20 minutes | Good balance: sauce penetrates a bit but potatoes don’t get too wet |
 | Strong, deep flavor (e.g., soy sauce + garlic, teriyaki, mala sauce) | 30–60 minutes | Classic Taiwanese-style marinade time. After 30 min the flavor really goes in |

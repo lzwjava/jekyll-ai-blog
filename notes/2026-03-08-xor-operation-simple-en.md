@@ -60,7 +60,7 @@ Each bit pair is analyzed one by one: `A = 1101`, `B = 1011`, so `A XOR B = 0110
 ### 4. Key Properties of XOR
 
 | Property | Rule | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | **Commutativity** | A ⊕ B = B ⊕ A | Order doesn't matter |
 | **Associativity** | (A ⊕ B) ⊕ C = A ⊕ (B ⊕ C) | Grouping doesn't matter |
 | **Identity** | A ⊕ 0 = A | XOR with 0 returns the same value |

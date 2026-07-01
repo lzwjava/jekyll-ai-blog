@@ -50,7 +50,7 @@ python -m iclaw.main
 ...能让你学到：
 
 | 你学到的内容 | 为什么重要 |
-|---|---|
+| --- | --- |
 | Startup sequence | 哪些内容先初始化，依赖关系如何 |
 | Proxy/env 处理 | Config 是如何加载的 |
 | Command 结构 | 有哪些可用功能以及它们如何映射到代码 |

@@ -116,7 +116,7 @@ The first three features under Project Leyden — aimed at improving Java startu
 ## 📊 The 5-Year Summary: Key Macro Trends
 
 | Theme | 2021 | 2026 |
-|---|---|---|
+| --- | --- | --- |
 | **LTS Baseline** | Java 11 dominates | Java 17+ required everywhere, Java 21/25 growing fast |
 | **Concurrency** | Thread pools + reactive | Virtual Threads (Project Loom) are the new default |
 | **Native/Cloud** | Quarkus/Micronaut niche | GraalVM native + Spring Boot 4 mainstream |

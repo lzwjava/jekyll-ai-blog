@@ -14,7 +14,7 @@ Same project (`jekyll-ai-blog`), fresh comparison:
 ## Zed vs VS Code
 
 | Metric | Zed | VS Code |
-|---|---|---|
+| --- | --- | --- |
 | **Processes** | **2** | **16** |
 | **Total RAM** | **3,148 MB** (3 GB) | **24,190 MB** (24 GB) |
 | RAM per process | 1.5 GB avg | 1.5 GB avg |

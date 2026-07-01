@@ -52,7 +52,7 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 ### 🔵 Associate 级别 (NCA) — 每场 $125 USD
 
 | 考试代码 | 名称 | 时长 | 测试内容 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **NCA-GENL** | Generative AI with LLMs | 60 分钟 / 50 题 | 使用生成式 AI 和 LLMs 结合 NVIDIA 解决方案开发、集成和维护 AI 驱动应用的基礎概念 |
 | **NCA-GENM** | Generative AI Multimodal | 60 分钟 / 50 题 | 设计、实施和管理跨文本、图像和音频模态合成及解释数据的 AI 系统的基礎技能 |
 | **NCA-AIIO** | AI Infrastructure & Operations | 60 分钟 / 50 题 | 与基础设施和运营相关的 AI 计算基礎概念；需要对数据中心基础设施的基本理解 |
@@ -61,7 +61,7 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 ### 🟠 Professional 级别 (NCP) — $200–$400 USD
 
 | 考试代码 | 名称 | 费用 | 测试内容 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **NCP-GENL** | Generative AI LLMs Professional | $200 | 分布式训练策略（tensor parallelism 与 pipeline parallelism）、PEFT、复杂 RAG 部署、Triton/TensorRT-LLM 推理 |
 | **NCP-AAI** | Agentic AI Professional | $200 | 多代理系统、规划与推理、生产代理式应用的 RAG 设计 |
 | **NCP-ADS** | Accelerated Data Science | $200 | RAPIDS 生态系统的深入熟练掌握——cuDF、cuML、cuGraph——使用 Dask 在多个 GPU 上扩展工作流，将加速分析集成到 MLOps 管道中 |
@@ -102,7 +102,7 @@ Associate 级别 (NCA) 考试每次尝试 $125 USD。Professional 级别开发�
 ## 谁应该获得哪些认证？
 
 | 您的背景 | 推荐路径 |
-|---|---|
+| --- | --- |
 | AI 开发人员 / 软件工程师 | NCA-GENL → NCP-GENL 或 NCP-AAI |
 | 数据科学家 / ML 工程师 | NCA-ADS → NCP-ADS |
 | IT / 系统管理员 / 基础设施 | NCA-AIIO → NCP-AII |

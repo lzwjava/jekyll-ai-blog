@@ -151,7 +151,7 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ### Summary Table of Commands
 
 | Step | Command/Action |
-|------|----------------|
+| ------ | ---------------- |
 | Restart Docker | `sudo systemctl restart docker` |
 | Check Docker Status | `sudo systemctl status docker` |
 | Configure DNS | Edit `/etc/docker/daemon.json` |

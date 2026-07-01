@@ -57,7 +57,7 @@ You can't access this from the outside. You can only enter it **by going through
 ## The Running Analogy is Neurologically Accurate
 
 | Running | Working |
-|---|---|
+| --- | --- |
 | Avoid starting → never enjoy it | Avoid starting → never reach flow |
 | First km feels awful | First 15 min feels awful |
 | Body warms up → gets easier | Brain engages → gets easier |
@@ -82,7 +82,7 @@ It's not a trick — it's exploiting how the brain's reward system actually sequ
 ## The Core Insight You've Found
 
 | Wrong mental model | Accurate mental model |
-|---|---|
+| --- | --- |
 | "I'll work when I feel like it" | "I'll feel like it after I start" |
 | "Rest will fix the fatigue" | "Avoidance creates the fatigue" |
 | "Discomfort means stop" | "Discomfort means I'm at the threshold" |

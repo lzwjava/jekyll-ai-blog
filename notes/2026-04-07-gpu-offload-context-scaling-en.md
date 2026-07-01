@@ -27,7 +27,7 @@ type: note
 Bumped from ngl 20 → ngl 35 (already done when session started), then pushed to full offload:
 
 | ngl | VRAM used | Layers on GPU | CPU layers |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 | ~2,695 MiB | 20 / 43 | 23 |
 | 35 | ~5,030 MiB | 35 / 43 | 8 |
 | **43** | **~5,182 MiB** | **43 / 43** | **0** |
@@ -41,7 +41,7 @@ Going from ngl 35 → 43 (full offload) only cost +152 MiB — essentially free.
 Restarted with `-c 65536`. KV cache doubled but VRAM impact was modest:
 
 | Context | VRAM (idle) | VRAM (after long prompt) |
-|---|---|---|
+| --- | --- | --- |
 | 32k | ~5,030 MiB | ~5,182 MiB |
 | **64k** | **~6,118 MiB** | **~6,646 MiB** |
 
@@ -56,7 +56,7 @@ Cost of doubling context: **+936 MiB idle**, **+528 MiB** extra during a 60k tok
 **64k context tests:**
 
 | Prompt tokens | % of 64k ctx | Completion | Total time | Gen speed |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 20,025 | 30% | 385 tok | 7.5s | **51.6 tok/s** |
 | 40,025 | 61% | 383 tok | 14.1s | **27.1 tok/s** |
 | 60,025 | 92% | 444 tok | 20.2s | **22.0 tok/s** |
@@ -99,7 +99,7 @@ llama-server \
 ```
 
 | Resource | Usage | Headroom |
-|---|---|---|
+| --- | --- | --- |
 | VRAM (12,282 MiB total) | ~6,646 MiB | **~5,600 MiB free** |
 | Context | 65,536 tokens | Up to 131,072 (model max) |
 | GPU layers | 43/43 | Full offload |

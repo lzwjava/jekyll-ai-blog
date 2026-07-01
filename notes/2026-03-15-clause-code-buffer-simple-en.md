@@ -48,7 +48,7 @@ A feature request to make the buffer size configurable was filed on GitHub (Issu
 ### TL;DR
 
 | Reason | Explanation |
-|---|---|
+| --- | --- |
 | **Space to summarize** | Compaction itself generates tokens — needs room to work |
 | **Task completion runway** | Lets current task finish before resetting context |
 | **Fixed at 33k** | Not a percentage — same across 200K and 1M windows |

@@ -147,7 +147,7 @@ The SDK provides comprehensive error handling through the `McpError` class, cove
 ### Summary Table
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | **Introduced** | December 2024 (experimental), GA in 2025 |
 | **Maintained by** | Anthropic + Spring AI team |
 | **API Models** | Sync (`McpSyncClient/Server`) + Async (`McpAsyncClient/Server`) |

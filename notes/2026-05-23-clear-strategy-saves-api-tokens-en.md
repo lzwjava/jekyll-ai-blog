@@ -38,7 +38,7 @@ The key insight is that **most tasks don't need full history** — they only nee
 ## When to `/clear` aggressively
 
 | Scenario | Clear? |
-|---|---|
+| --- | --- |
 | Switching from debugging to writing | ✅ Yes |
 | New file / new feature | ✅ Yes |
 | After a long multi-tool exploration | ✅ Yes |

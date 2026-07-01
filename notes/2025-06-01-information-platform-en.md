@@ -42,7 +42,7 @@ We have developed a comprehensive framework for understanding how different plat
 ### Information Value Proposition
 
 | Dimension | Information-Rich Apps | Information-Essential Apps |
-|-----------|----------------------|---------------------------|
+| ----------- | ---------------------- | --------------------------- |
 | **Primary Value** | Content abundance and diversity | Information accuracy and utility |
 | **User Need** | Discovery and engagement | Task completion and decision support |
 | **Content Source** | Primarily user-generated | Primarily curated or vendor-supplied |
@@ -51,7 +51,7 @@ We have developed a comprehensive framework for understanding how different plat
 ### Success Metrics and Correlation with Information
 
 | Metric | Information-Rich Correlation | Information-Essential Correlation |
-|--------|------------------------------|----------------------------------|
+| -------- | ------------------------------ | ---------------------------------- |
 | **User Growth** | Direct correlation with content volume | Moderate correlation with information quality |
 | **Engagement** | Strong correlation with content freshness and volume | Strong correlation with information relevance |
 | **Monetization** | Primarily attention-based (advertising) | Primarily transaction-based |

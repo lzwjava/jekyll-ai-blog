@@ -136,10 +136,10 @@ For system-level errors, always check:
 ## Key System Error SQLSTATEs to Monitor
 
 | SQLSTATE | Description | Action |
-|----------|-------------|--------|
+| ---------- | ------------- | -------- |
 | **58004** | System error (various causes) | Check db2diag.log immediately |
 | **58008** | Communication error | Verify network/connectivity |
-| **HY000** | General driver error | Check ODBC/JDBC driver logs  |
-| **40001** | Deadlock/timeout | Retry transaction with backoff  |
+| **HY000** | General driver error | Check ODBC/JDBC driver logs |
+| **40001** | Deadlock/timeout | Retry transaction with backoff |
 
 For production environments, monitoring tools should alert on **SQLCODE < 0** and **Class 58 SQLSTATEs** to proactively detect system-level issues before they cascade.

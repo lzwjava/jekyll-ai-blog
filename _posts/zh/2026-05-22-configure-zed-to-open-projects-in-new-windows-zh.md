@@ -40,7 +40,7 @@ zed ~/.config/zed/settings.json
 **手动覆盖操作的快速参考：**
 
 | 目标 | 操作 |
-|---|---|
+| --- | --- |
 | 始终新窗口（CLI/拖拽） | 在设置中设置 `"cli_default_open_behavior": "new_window"` |
 | 从“打开最近”打开新窗口 | `Cmd+Enter` 或 `Cmd+click` |
 | CLI 临时打开新窗口 | `zed -n ~/myproject` |

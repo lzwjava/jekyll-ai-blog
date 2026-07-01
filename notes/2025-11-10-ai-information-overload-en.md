@@ -17,7 +17,7 @@ Even with millions of sources (research papers in 50+ languages, clinical trials
 ### Where AI Can Help (Today & Tomorrow)
 
 | Step | Current AI Capability | Future Potential (10k–100k+ sources) |
-|------|------------------------|---------------------------------------|
+| ------ | ------------------------ | --------------------------------------- |
 | **1. Ingestion** | Can read text, PDFs, subtitles, some video via transcription | Multimodal: watch videos, interpret visuals (e.g., glucose graphs in TikTok), extract claims from speech |
 | **2. Verification** | Cross-check vs trusted databases (PubMed, Cochrane, FDA) | Real-time fact-checking with provenance tracking: “This claim from Douyin video contradicts 2024 meta-analysis in *The Lancet*” |
 | **3. Synthesis** | Summarize themes, detect contradictions | Build dynamic knowledge graphs: “Low-carb works for 68% of T2D patients under 50 with BMI>30, per 12k forum posts + 87 studies” |

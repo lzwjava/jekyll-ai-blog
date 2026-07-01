@@ -53,8 +53,8 @@ DeepSeek-V2-Lite 大约有 256 个专家，采用 MoE 架构，并使用了分�
 
 **关键区别：**
 
-|  | nanoGPT | HF Transformers |
-|---|---|---|
+| | nanoGPT | HF Transformers |
+| --- | --- | --- |
 | 模型代码 | 一个你读得懂的文件 | 数千个你无需读的文件 |
 | 架构 | 仅 GPT-2 | 200+ 种架构 |
 | 分词器 | tiktoken，硬编码 | 50+ 种后端，自动检测 |

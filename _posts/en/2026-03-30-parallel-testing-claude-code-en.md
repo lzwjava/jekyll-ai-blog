@@ -36,7 +36,7 @@ You can run:
 ## Why It's Especially Effective
 
 | Claude Code Phase | What You Can Do in Parallel |
-|---|---|
+| --- | --- |
 | Brainstorming / planning | Review previous test results, write test cases |
 | Code generation | Run existing test suite |
 | Refactoring | Run regression tests on the old behavior |

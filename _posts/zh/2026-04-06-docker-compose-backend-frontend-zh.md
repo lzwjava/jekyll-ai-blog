@@ -38,7 +38,7 @@ cd live-mobile-web && npm run dev
 ### 关键变更
 
 | 文件 | 说明 |
-|---|---|
+| --- | --- |
 | `live-server/docker-compose.yml` | 新增 `frontend` 服务（按配置文件启用）、挂载至 nginx 的 `frontend-dist` 共享存储卷 |
 | `live-server/nginx.conf` | 新增 `/static/` 路径配置，附带不可变缓存头设置 |
 | `live-mobile-web/.env.production` | 设置 `VITE_API_BASE_URL=/api` 使生产版本请求指向 nginx |

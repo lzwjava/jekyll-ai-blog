@@ -33,7 +33,7 @@ Let's break them down.
 | **Language Support** | **100+ languages** and dialects in a single model. | ~50 languages, requires a model per language. | ~50 languages, requires a model per language. |
 | **Robustness** | Excellent performance in noisy environments. | Good performance, but can be less robust than Chirp. | Optimized for speed, may be less robust in noise. |
 | **Cost (v2 API)** | **Premium** ($0.024 / minute) | Standard ($0.016 / minute) | Standard ($0.016 / minute) |
-| **API Recognizer ID**| `chirp` | `long` | `short` |
+| **API Recognizer ID** | `chirp` | `long` | `short` |
 
 ---
 

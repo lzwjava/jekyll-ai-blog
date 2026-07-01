@@ -22,12 +22,12 @@ Here’s a clear comparison of **ice** and **dry ice** in terms of **transportat
 
 ### **2. Storage**
 
-| Aspect       | Ice                          | Dry Ice                          |
-|--------------|------------------------------|----------------------------------|
+| Aspect | Ice | Dry Ice |
+| -------------- | ------------------------------ | ---------------------------------- |
 | **Container** | Insulated coolers or freezers | Insulated containers (never airtight) |
 | **Temperature** | Must stay below 0°C (32°F) | Must stay below -78.5°C (-109.3°F) |
-| **Duration**  | Melts over time (hours/days) | Sublimates over time (days/weeks) |
-| **Ventilation** | Not required                 | **Required** (CO₂ gas buildup is dangerous) |
+| **Duration** | Melts over time (hours/days) | Sublimates over time (days/weeks) |
+| **Ventilation** | Not required | **Required** (CO₂ gas buildup is dangerous) |
 
 ---
 

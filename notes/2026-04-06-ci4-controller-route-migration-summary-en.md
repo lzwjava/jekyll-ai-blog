@@ -20,7 +20,7 @@ Pushed! Here's the full session summary:
 **What was fixed across all 24 controllers + 6 models:**
 
 | Fix | Detail |
-|-----|--------|
+| ----- | -------- |
 | ✅ **Routes defined** | All ~100 CI3 routes converted to CI4 `$routes->get/post/match()` format |
 | ✅ **`__construct()` → `initController()`** | PHP 8.5 calls `initController()`, not `__construct()`. All child controllers converted. |
 | ✅ **Namespace ordering** | `namespace` must come before `use` statements in PHP |

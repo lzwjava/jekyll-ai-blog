@@ -18,7 +18,7 @@ As of today, **1 LKR = 0.02020 CNY** (mid-market rate via Wise).
 Quick reference:
 
 | LKR | CNY |
-|-----|-----|
+| ----- | ----- |
 | 100 | 2.02 |
 | 1,000 | 20.20 |
 | 5,000 | 101.00 |

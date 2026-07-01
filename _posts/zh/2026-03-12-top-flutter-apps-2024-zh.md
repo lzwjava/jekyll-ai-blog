@@ -71,7 +71,7 @@ type: note
 ### 按行业总结
 
 | 行业 | 知名 Flutter 应用 |
-|---|---|
+| --- | --- |
 | Google 生态系统 | Google Ads, Google Pay |
 | 电商 | Alibaba Xianyu, eBay Motors, Groupon |
 | 金融科技 | Nubank |

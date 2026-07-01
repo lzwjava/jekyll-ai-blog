@@ -225,7 +225,7 @@ def forward(self, idx, targets=None):
 ## 参数数量（GPT-2 small：124M）
 
 | 组件 | 参数 |
-|---|---|
+| --- | --- |
 | `wte`（token 嵌入） | `vocab_size × C = 50257 × 768 ≈ 38.6M` |
 | `wpe`（位置嵌入） | `1024 × 768 ≈ 0.8M` |
 | 每个 Block：attn `c_attn` | `C × 3C = 768 × 2304 ≈ 1.77M` |

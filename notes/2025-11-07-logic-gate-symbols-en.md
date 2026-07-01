@@ -47,10 +47,10 @@ If this doesn't match what you saw (e.g., share a description of the diagram), f
 #### Quick Comparison Table
 
 | Gate Type | Shape Description | Inputs | Output Logic | Example Use |
-|-----------|-------------------|--------|--------------|-------------|
-| **AND**  | D-shaped (straight left, curved right) | 2+ | 1 only if all inputs=1 | Decision-making (e.g., both switches on) |
+| ----------- | ------------------- | -------- | -------------- | ------------- |
+| **AND** | D-shaped (straight left, curved right) | 2+ | 1 only if all inputs=1 | Decision-making (e.g., both switches on) |
 | **Buffer** | Plain triangle → | 1 | Same as input | Signal boosting |
-| **NOT**  | Triangle with circle at tip →○ | 1 | Inverted input | Flipping signals |
+| **NOT** | Triangle with circle at tip →○ | 1 | Inverted input | Flipping signals |
 
 References:
 [Digital Logic Gate Symbols - Electronics Tutorials](https://www.electronics-tutorials.ws/logic/logic_1.html)

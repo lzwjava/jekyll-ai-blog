@@ -98,7 +98,7 @@ Native method stack 处理与 Java 代码交互的 native 方法的执行。此�
 ## 总结：各项存放位置
 
 | 数据 | 内存区域 |
-|---|---|
+| --- | --- |
 | 本地变量（基本类型） | Stack |
 | 对象引用 | Stack（引用） + Heap（实际对象） |
 | 新对象 / 数组 | Heap —— Young Generation（Eden） |

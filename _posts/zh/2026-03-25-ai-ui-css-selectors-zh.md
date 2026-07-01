@@ -72,7 +72,7 @@ AI 知道要针对哪个目标，且 prompt 保持清晰且具有可操作性。
 ## 何时仍需要 HTML
 
 | 场景 | 使用 Selector | 使用 HTML |
-|---|---|---|
+| --- | --- | --- |
 | Styling/layout bug | ✅ | ❌ |
 | Event/click issue | ✅ | ❌ |
 | Component restructure | ⚠️ 部分使用 | ✅ |

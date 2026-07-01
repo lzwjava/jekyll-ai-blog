@@ -44,7 +44,7 @@ type: note
 ### What's Working ✓
 
 | Port | Protocol | Status |
-|------|----------|--------|
+| ------ | ---------- | -------- |
 | 7890 | HTTP proxy | ✓ listening |
 | 7891 | SOCKS5 proxy | ✓ listening |
 | 7892 | Mixed (HTTP+SOCKS) | ✓ listening |

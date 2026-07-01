@@ -17,7 +17,7 @@ The State-of-the-Art (SOTA) on ImageNet (specifically the ImageNet-1K validation
 Here's a snapshot of the current top performers (fine-tuned on ImageNet-1K), based on top-1 accuracy. Top-5 accuracies aren't always explicitly re-reported for these very high-performing models (as they saturate near-perfect levels), but cross-referencing with similar recent architectures suggests top-5 errors under 1% for all:
 
 | Rank | Model | Top-1 Accuracy | Est. Top-5 Accuracy | Parameters | Notes |
-|------|--------|----------------|---------------------|------------|-------|
+| ------ | -------- | ---------------- | --------------------- | ------------ | ------- |
 | 1 | CoCa (finetuned) | 91.0% (9.0% error) | ~99.5% (<0.5% error) | 2.1B | Multimodal image-text model; excels in zero-shot (86.3% top-1) and frozen-encoder settings (90.6% top-1). |
 | 2 | Model Soups (BASIC-L) | 90.98% (9.02% error) | ~99.4% (<0.6% error) | ~1B | Ensemble averaging of fine-tuned models for improved robustness. |
 | 3 | Model Soups (ViT-G/14) | 90.94% (9.06% error) | ~99.4% (<0.6% error) | 1.8B | ViT-based; strong generalization to out-of-distribution data. |

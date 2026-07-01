@@ -95,7 +95,7 @@ Answer:
 ## Quick Reference: What a Good Prompt Should Include
 
 | 元素 | 示例 |
-|---|---|
+| --- | --- |
 | **Role/Context** | "You are a senior Python developer..." |
 | **Task** | "...refactor this function to be async..." |
 | **Constraints** | "...without changing the existing API signature..." |

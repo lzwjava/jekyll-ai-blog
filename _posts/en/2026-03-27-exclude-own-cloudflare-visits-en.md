@@ -80,7 +80,7 @@ Visit `/donottrack` once to set the flag, and your browser will stop sending ana
 ## Summary Table
 
 | Method | Effort | Works on Safari | Blocks All Browsers |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ad blocker extension | Low | ✅ Yes | ❌ Per browser |
 | `/etc/hosts` block | Medium | ✅ Yes | ✅ Whole machine |
 | localStorage flag in code | Medium-High | ✅ Yes | ✅ Per device (once set) |

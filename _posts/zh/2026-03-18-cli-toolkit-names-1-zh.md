@@ -20,7 +20,7 @@ type: note
 ### 2 个字母
 
 | 名称 | CLI | 感觉 |
-|---|---|---|
+| --- | --- | --- |
 | **wk** | `wk note` | “work” 缩写 |
 | **mk** | `mk note` | “make” 缩写 |
 | **dk** | `dk note` | “devkit” 缩写 |
@@ -34,7 +34,7 @@ type: note
 ### 3 个字母 ⭐ 最佳选择
 
 | 名称 | CLI | 感觉 |
-|---|---|---|
+| --- | --- | --- |
 | **wit** | `wit note` | 聪明 + “workit” |
 | **kit** | `kit note` | 工具包，简洁 |
 | **run** | `run note` | 行动动词 |
@@ -66,7 +66,7 @@ type: note
 ### 4 个字母
 
 | 名称 | CLI | 感觉 |
-|---|---|---|
+| --- | --- | --- |
 | **work** | `work note` | 朴素英语 |
 | **wkit** | `wkit note` | “work kit” |
 | **wrun** | `wrun note` | “work run” |
@@ -94,7 +94,7 @@ type: note
 ### 5 个字母（仍较短）
 
 | 名称 | CLI | 感觉 |
-|---|---|---|
+| --- | --- | --- |
 | **worki** | `worki note` | workit 裁剪版 |
 | **blaze** | `blaze note` | 快速 + 强大 |
 | **swift** | `swift note` | 但 Apple 的语言 |
@@ -113,7 +113,7 @@ type: note
 ### 🏆 十大最终推荐
 
 | 排名 | 名称 | CLI 示例 | 原因 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | **kit** | `kit note` | 通用、简洁、短小 |
 | 2 | **wit** | `wit note` | 聪明 + workit 回响 |
 | 3 | **bolt** | `bolt note` | 快速、强大、易记 |

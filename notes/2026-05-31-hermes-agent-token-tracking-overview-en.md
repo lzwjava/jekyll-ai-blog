@@ -58,7 +58,7 @@ Gateway handler: `gateway/run.py` line 13194 (`_handle_usage_command`).
 ## 3. Key files to search/read
 
 | What you want | File | What to search |
-|---|---|---|
+| --- | --- | --- |
 | Token accumulation logic | `agent/conversation_loop.py` | `session_input_tokens`, `canonical_usage` |
 | Session counters init | `run_agent.py` | `session_total_tokens = 0` (line 625) |
 | Normalize raw API usage | `agent/usage_pricing.py` | `normalize_usage`, `CanonicalUsage` |

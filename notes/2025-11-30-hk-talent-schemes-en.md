@@ -34,7 +34,7 @@ However, despite this initial surge, actual relocation rates lag behind approval
 - **Global Competition**: Places like Singapore offer more flexible visas (e.g., multi-company work) and lower barriers, drawing elites seeking stability without HK's tensions.
 
 | Factor | Mainland Appeal | Hong Kong Drawback | Impact on Elites |
-|--------|-----------------|---------------------|------------------|
+| -------- | ----------------- | --------------------- | ------------------ |
 | **Jobs** | Booming tech/finance hubs (e.g., Shenzhen) | Layoffs, skill mismatches | 50%+ struggle to find roles post-arrival |
 | **Costs** | Subsidies, lower rent | HK$20k+/month basics | Erodes salary edge; many leave after 1–2 years |
 | **Family** | Affordable bilingual schools | School shortages | Delays relocation; used as "passport" for kids |

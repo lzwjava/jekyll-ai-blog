@@ -83,7 +83,7 @@ Priority order of skill increase for Chano: Skill 1 > Skill 2. Level up Soaring 
 ## Summary Table
 
 | Skill | Name | Key Function |
-|---|---|---|
+| --- | --- | --- |
 | Passive | Hunting | Speed boost + double shot in brush |
 | Skill 1 | Soaring Signal | Leap, terrain cross, knockback arrow |
 | Skill 2 | Lupine Trap | Invisible trap, vision, wolf summon |

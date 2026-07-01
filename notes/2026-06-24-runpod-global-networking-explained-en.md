@@ -25,7 +25,7 @@ When you turn on Global Networking, your pod gets:
 ## Why it matters for your use case
 
 | Use case | Why Global Networking helps |
-|---|---|
+| --- | --- |
 | Multi-node training (DDP/NCCL) | Nodes find each other via stable hostname instead of ephemeral IPs |
 | Multi-agent systems | Agent pods call each other directly without going through public internet |
 | Inference + training split | Separate inference pod calls training pod internally with low latency |

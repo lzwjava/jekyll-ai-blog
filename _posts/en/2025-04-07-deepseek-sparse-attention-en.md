@@ -98,7 +98,7 @@ A critical achievement of DSA is maintaining model quality while achieving effic
 **Benchmark Results:**[1]
 
 | Benchmark | V3.1-Terminus | V3.2-Exp (DSA) |
-|-----------|--------------|----------------|
+| ----------- | -------------- | ---------------- |
 | MMLU-Pro | 85.0 | 85.0 |
 | GPQA-Diamond | 80.7 | 79.9 |
 | LiveCodeBench | 74.9 | 74.1 |

@@ -73,7 +73,7 @@ If neither bank resolves within 3–4 weeks:
 Since OCBC has closed the channel for mainland China passport users, your realistic options are:
 
 | Option | Details |
-|---|---|
+| --- | --- |
 | **Keep OCBC if eligible** | Only possible if you have a valid Singapore work/study visa, or upgrade to a privileged account requiring SGD 350,000 deposit |
 | **Switch to HSBC SG** | HSBC, Standard Chartered, DBS, UOB are alternatives but have higher entry requirements |
 | **Use HSBC HK as your base** | HSBC HK already works well for international transfers and FX |

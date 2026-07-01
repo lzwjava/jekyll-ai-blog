@@ -81,7 +81,7 @@ This is a **non-standard float format** and the most exotic of the three.
 Standard float anatomy: `sign | exponent | mantissa`
 
 | Format | Sign | Exponent | Mantissa | Range |
-|--------|------|----------|----------|-------|
+| -------- | ------ | ---------- | ---------- | ------- |
 | FP32 | 1 | 8 | 23 | ~1e-38 to 3e38 |
 | FP16 | 1 | 5 | 10 | ~6e-5 to 65504 |
 | E4M3 (FP8) | 1 | 4 | 3 | ~1e-9 to 448 |

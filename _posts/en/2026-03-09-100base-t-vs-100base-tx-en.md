@@ -38,7 +38,7 @@ The "TX" (sometimes referred to simply as "T") means it's a Cat5 UTP straight-th
 ## What About the Other Members of the 100BASE-T Family?
 
 | Standard | Wire Pairs Used | Cable Required | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **100BASE-TX** | 2 pairs | Cat5 or above | Most common; used everywhere |
 | **100BASE-T4** | 4 pairs | Cat3 or above | Older; designed for lower-quality cable |
 | **100BASE-T2** | 2 pairs | Cat3 or above | Rare; largely unused |

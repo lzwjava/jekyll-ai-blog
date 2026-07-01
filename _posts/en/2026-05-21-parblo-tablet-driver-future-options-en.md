@@ -16,7 +16,7 @@ Here's your comprehensive situation and fix options:
 **The Problem**
 
 | Detail | Value |
-|--------|-------|
+| -------- | ------- |
 | Installed driver | Parblo Tablet Driver v3.7.1 |
 | Architecture | **x86_64 (Intel-only)** — no arm64 slice |
 | Built with | Xcode 10.3, targeting macOS 10.14 (Mojave) |

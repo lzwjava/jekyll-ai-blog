@@ -26,7 +26,7 @@ Similar to ICCV in scope and quality, ECCV is held in those years when ICCV is n
 ### Key Facts
 
 | Attribute | Details |
-|---|---|
+| --- | --- |
 | Full Name | European Conference on Computer Vision |
 | Abbreviation | ECCV |
 | Frequency | Biennial (every 2 years, even years) |
@@ -64,7 +64,7 @@ The ECCV presents the **Koenderink Prize** to recognize fundamental contribution
 ### Recent and Upcoming Editions
 
 | Edition | Year | Location |
-|---|---|---|
+| --- | --- | --- |
 | 18th | 2024 | Milan, Italy |
 | 17th | 2022 | Tel Aviv, Israel |
 | 16th | 2020 | Glasgow, UK (Virtual) |

@@ -17,7 +17,7 @@ True experts like Yin Wang—whose blog dives into profound, often unconventiona
 These traits emerge consistently in high-caliber performers, whether in academia, tech, or hands-on trades:
 
 | Characteristic | Description | Example in Context |
-|---------------|-------------|--------------------|
+| --------------- | ------------- | -------------------- |
 | **Deep, Integrated Knowledge** | They possess not just breadth but interconnected understanding—seeing how concepts link across domains, often intuitively. | A repair shop owner who instantly traces a phone glitch to a subtle hardware-software interplay, or Yin Wang linking Lisp paradigms to modern AI flaws. |
 | **Practical Experience Over Time** | Years (often 10+) of real-world application, not just theory, leading to refined judgment and adaptability. | Mechanics who've fixed thousands of engines, evolving with tech shifts like electric vehicles. |
 | **Problem-Solving Under Pressure** | They excel at novel challenges, diagnosing root causes quickly and innovating fixes without rigid recipes. | Quick, accurate breakdowns in diagnostics, avoiding unnecessary parts swaps. |

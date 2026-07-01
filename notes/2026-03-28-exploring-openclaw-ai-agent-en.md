@@ -66,7 +66,7 @@ This is one of OpenClaw's most powerful practical uses. OpenClaw is built for de
 ## Summary Table
 
 | Experience | OpenClaw Feature Used |
-|---|---|
+| --- | --- |
 | 7 software setups | Shell commands + skill automation |
 | Router attempt | Shell/networking commands (complex, failed) |
 | Two instances | Multi-agent / multi-workspace support |

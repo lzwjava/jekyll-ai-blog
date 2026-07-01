@@ -37,7 +37,7 @@ Data: Each service has its own DB (user-svc → users_db, payment-svc → paymen
 ## Service Breakdown
 
 | Service | Responsibility | DB | Primary Ops |
-|---------|----------------|-----|----------|
+| --------- | ---------------- | ----- | ---------- |
 | **API Gateway** | Rate limiting, routing, auth forwarding | — | Sync |
 | **Auth Service** | JWT generation, token validation, OAuth | auth_db | Sync |
 | **User Service** | User CRUD, profiles, KYC | users_db | Sync |

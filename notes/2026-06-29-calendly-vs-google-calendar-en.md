@@ -16,7 +16,7 @@ type: note
 Different tools solving adjacent problems — one is a calendar, the other is a scheduling layer on top of calendars.
 
 | Dimension | Google Calendar | Calendly |
-|-----------|----------------|----------|
+| ----------- | ---------------- | ---------- |
 | Core purpose | Event storage + display (a database of time blocks) | Booking automation (eliminate back-and-forth scheduling) |
 | Primary user | You, managing your own time | Other people, booking time with you |
 | Data model | Events with start/end, attendees, recurrence (RFC 5545 iCal) | Event *types* + availability rules → generates bookable slots |

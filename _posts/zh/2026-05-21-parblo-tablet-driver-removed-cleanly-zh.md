@@ -12,7 +12,7 @@ type: note
 一切已清理完毕。以下是最终总结：
 
 | 项目 | 状态 |
-|------|------|
+| ------ | ------ |
 | `/Applications/ParbloTablet` | 已移除 |
 | `/Library/LaunchAgents/com.parblo.Tablet.plist` | 已移除 |
 | `com.parblo.Tablet` launchd 服务 | 已卸载 |

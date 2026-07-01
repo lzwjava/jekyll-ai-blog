@@ -54,7 +54,7 @@ Let your *work and results* outshine — not your ego or words.
 ## 🎯 The Long Game Summary
 
 | Principle | Why It Works |
-|---|---|
+| --- | --- |
 | AI as your lane | High signal, high growth, cross-functional appeal |
 | Build genuine relationships | Trust compounds over time |
 | Stay humble in hierarchy | Protect yourself politically |

@@ -15,7 +15,7 @@ type: note
 根据 2025 年末的 GitHub 星标数，以下是 Rust 作为主要语言的 10 个最受欢迎开源项目。这些项目涵盖工具、运行时、编辑器等多个领域，展现了 Rust 在性能和安全方面的优势。
 
 | 排名 | 项目 | 描述 | 星标数 |
-|------|------|------|--------|
+| ------ | ------ | ------ | -------- |
 | 1 | [rust-lang/rust](https://github.com/rust-lang/rust) | 让每个人都能构建可靠高效的软件（Rust 编程语言本体） | 107,635 |
 | 2 | [denoland/deno](https://github.com/denoland/deno) | 现代化的 JavaScript 和 TypeScript 运行时 | 105,023 |
 | 3 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 专为自托管设计的开源远程桌面应用，可作为 TeamViewer 的替代方案 | 101,909 |

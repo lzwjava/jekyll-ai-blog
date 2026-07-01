@@ -92,7 +92,7 @@ You should see a notification pop up. If not, check:
 The `post_llm_call` hook receives JSON on stdin:
 
 | Field | Source | Used for |
-|-------|--------|----------|
+| ------- | -------- | ---------- |
 | `cwd` | `Path.cwd()` at hook fire time | Directory name in title |
 | `extra.user_message` | User's original query | Preview text |
 | `extra.conversation_history` | Full message list | Turn count |

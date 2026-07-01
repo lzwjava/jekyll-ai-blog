@@ -17,10 +17,10 @@ The numbers 1.56, 1.60, and 1.67 refer to the **refractive index** (often just c
 Here's a quick breakdown of each:
 
 | Lens Index | Common Use Case | Thickness Benefit | Typical Prescription Range |
-|------------|-----------------|-------------------|----------------------------|
-| **1.56**  | Standard plastic lenses (e.g., polycarbonate alternatives) | Baseline thickness; good for everyday wear | Low to moderate (up to about -4.00 to -6.00 diopters for myopia) |
-| **1.60**  | Mid-index lenses (e.g., Trivex or improved plastic) | About 15-20% thinner than 1.56 | Moderate (around -4.00 to -8.00 diopters) |
-| **1.67**  | High-index lenses (e.g., advanced polycarbonate) | 30-50% thinner than 1.56; up to 40% thinner than standard for high prescriptions | High/strong (over -6.00 to -10.00+ diopters) |
+| ------------ | ----------------- | ------------------- | ---------------------------- |
+| **1.56** | Standard plastic lenses (e.g., polycarbonate alternatives) | Baseline thickness; good for everyday wear | Low to moderate (up to about -4.00 to -6.00 diopters for myopia) |
+| **1.60** | Mid-index lenses (e.g., Trivex or improved plastic) | About 15-20% thinner than 1.56 | Moderate (around -4.00 to -8.00 diopters) |
+| **1.67** | High-index lenses (e.g., advanced polycarbonate) | 30-50% thinner than 1.56; up to 40% thinner than standard for high prescriptions | High/strong (over -6.00 to -10.00+ diopters) |
 
 These indices are for **single-vision lenses** (correcting one field of vision). Higher indices like 1.67 are pricier and may have slightly more chromatic aberration (color fringing), but coatings can minimize this.
 

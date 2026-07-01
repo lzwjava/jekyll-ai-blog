@@ -105,7 +105,7 @@ After configuring Clash to listen on `127.0.0.53:53`, use dnsmasq as a DNS cache
 ## Decision Tree: When Can You Disable Clash DNS?
 
 | Your Rules | Can Disable Clash DNS? |
-|---|---|
+| --- | --- |
 | Only `IP-CIDR` and `GEOIP` rules | ✅ Yes, works fine |
 | `DOMAIN-SUFFIX`, `DOMAIN-KEYWORD` rules | ❌ No, domain matching breaks |
 | `GEOSITE` rules (e.g. `cn` sites DIRECT) | ❌ No, GEOSITE needs domain data |

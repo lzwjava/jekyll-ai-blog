@@ -35,7 +35,7 @@ type: note
 **各字段说明：**
 
 | 字段 | 来源 |
-|------|------|
+| ------ | ------ |
 | `hook_event_name` | 始终为 `"post_llm_call"` |
 | `tool_name` | 非工具事件始终为 `null` |
 | `tool_input` | 非工具事件始终为 `null` |
@@ -59,7 +59,7 @@ _invoke_hook("post_llm_call",
 **其他钩子具有不同的载荷。** 快速参考：
 
 | 钩子 | `tool_name` | `tool_input` | 重要 `extra` 键 |
-|------|-------------|-------------|------------------|
+| ------ | ------------- | ------------- | ------------------ |
 | `pre_tool_call` | `"terminal"` 等 | `{"command": "..."}` | `task_id`, `tool_call_id` |
 | `post_tool_call` | `"terminal"` 等 | `{"command": "..."}` | `task_id`, `result`, `duration_ms`, `tool_call_id` |
 | `pre_llm_call` | `null` | `null` | `user_message`, `platform`, `conversation_history` |

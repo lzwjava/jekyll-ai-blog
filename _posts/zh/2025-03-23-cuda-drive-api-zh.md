@@ -14,17 +14,17 @@ type: note
 
 以下是一些关键函数及其用途：
 
-| 函数                                | 描述                                                                                   |
-|-------------------------------------|---------------------------------------------------------------------------------------|
-| **`cuInit(unsigned int flags)`**    | 初始化 CUDA 驱动。必须在调用其他任何驱动 API 函数前执行。                               |
-| **`cuDeviceGet(CUdevice *dev, int ordinal)`** | 获取指定序号 GPU 设备的句柄（例如 `0` 表示第一个 GPU）。                               |
-| **`cuCtxCreate(CUcontext *ctx, unsigned int flags, CUdevice dev)`** | 在指定设备上创建 CUDA 上下文。                                                        |
-| **`cuModuleLoad(CUmodule *mod, const char *fname)`** | 将 PTX 或 cubin 文件作为模块加载到当前上下文中。                                       |
-| **`cuModuleGetFunction(CUfunction *func, CUmodule mod, const char *name)`** | 从已加载模块中获取内核函数。                                                           |
-| **`cuMemAlloc(CUdeviceptr *dptr, size_t bytesize)`** | 在 GPU 上分配内存。                                                                   |
-| **`cuMemcpyHtoD(CUdeviceptr dst, const void *src, size_t bytes)`** | 将数据从主机（CPU）复制到设备（GPU）。                                                 |
-| **`cuMemcpyDtoH(void *dst, CUdeviceptr src, size_t bytes)`** | 将数据从设备（GPU）复制到主机（CPU）。                                                 |
-| **`cuLaunchKernel(CUfunction f, ...)`** | 使用指定的网格/块维度和参数启动内核函数。                                              |
+| 函数 | 描述 |
+| ------------------------------------- | --------------------------------------------------------------------------------------- |
+| **`cuInit(unsigned int flags)`** | 初始化 CUDA 驱动。必须在调用其他任何驱动 API 函数前执行。 |
+| **`cuDeviceGet(CUdevice *dev, int ordinal)`** | 获取指定序号 GPU 设备的句柄（例如 `0` 表示第一个 GPU）。 |
+| **`cuCtxCreate(CUcontext *ctx, unsigned int flags, CUdevice dev)`** | 在指定设备上创建 CUDA 上下文。 |
+| **`cuModuleLoad(CUmodule *mod, const char *fname)`** | 将 PTX 或 cubin 文件作为模块加载到当前上下文中。 |
+| **`cuModuleGetFunction(CUfunction *func, CUmodule mod, const char *name)`** | 从已加载模块中获取内核函数。 |
+| **`cuMemAlloc(CUdeviceptr *dptr, size_t bytesize)`** | 在 GPU 上分配内存。 |
+| **`cuMemcpyHtoD(CUdeviceptr dst, const void *src, size_t bytes)`** | 将数据从主机（CPU）复制到设备（GPU）。 |
+| **`cuMemcpyDtoH(void *dst, CUdeviceptr src, size_t bytes)`** | 将数据从设备（GPU）复制到主机（CPU）。 |
+| **`cuLaunchKernel(CUfunction f, ...)`** | 使用指定的网格/块维度和参数启动内核函数。 |
 
 ---
 

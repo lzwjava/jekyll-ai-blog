@@ -81,7 +81,7 @@ The uncomfortable truth is: **strategy is a commodity, execution is scarce.** An
 ## Summary
 
 | Trait | Strategy-Class Leaders | Execution-Class Builders |
-|---|---|---|
+| --- | --- | --- |
 | Core skill | Narrative, positioning | Coding, model training, product |
 | Risk exposure | Low (ideas are unfalsifiable) | High (code either works or it doesn't) |
 | Big corp value | High (visible, promotable) | Often invisible/undervalued |

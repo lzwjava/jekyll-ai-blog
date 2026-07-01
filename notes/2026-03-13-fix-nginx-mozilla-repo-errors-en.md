@@ -112,7 +112,7 @@ You should no longer see the `N:` warning or the `E:` error.
 ## Summary Table
 
 | Issue | Type | Solution |
-|---|---|---|
+| --- | --- | --- |
 | `nginx binary-i386` | Warning (N:) | Add `arch=amd64` to nginx.list, or remove the file |
 | `Mozilla 400 Bad Request` | Error (E:) | Remove mozilla source file, or fix proxy bypass |
 

@@ -107,7 +107,7 @@ This is not a toy problem — it's *the* scaling problem. On a 1,024-GPU job, on
 ## 2.4 What maps directly to MI300X/H100 clusters
 
 | Home-lab concept | Cluster equivalent |
-|---|---|
+| --- | --- |
 | `GLOO/NCCL_SOCKET_IFNAME` on 1GbE | `NCCL_IB_HCA`, rail-optimized RoCE/IB (8×400G per node) |
 | c10d rendezvous on your LAN | Same c10d under Slurm/Kubernetes; `MASTER_ADDR` from the scheduler |
 | Ring allreduce cost model | Identical formula; intra-node goes over xGMI/NVLink (~448 GB/s on MI300X) instead of the NIC |

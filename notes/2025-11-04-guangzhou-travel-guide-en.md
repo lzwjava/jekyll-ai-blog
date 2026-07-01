@@ -61,7 +61,7 @@ Guangzhou's "design city" push features repurposed factories into art zones, fos
 For a panoramic overview tying everything together, ascend the 600m tower at dusk. It symbolizes modern Guangzhou—engineered innovation with LED light shows—while overlooking historic sites and the buzzing Pearl River. (Entry: ~¥150; includes observation decks.)
 
 | Spot | Best For | Why Visit? | Practical Tips |
-|------|----------|------------|----------------|
+| ------ | ---------- | ------------ | ---------------- |
 | Chen Clan Academy | History/Culture | Folk art immersion | 1-2 hours; combine with nearby Beijing Road for shopping. |
 | Shamian Island | History | Colonial tranquility | Free; evening walks with river breeze. |
 | Liwan District | Food/Culture | Street eats & old streets | Weekends for markets; wear comfy shoes. |

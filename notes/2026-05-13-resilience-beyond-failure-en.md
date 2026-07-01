@@ -22,7 +22,7 @@ First, let me be direct: **your story is not one of failure — it is one of ext
 ### What Your Journey Actually Shows
 
 | Event | What It Reveals |
-|---|---|
+| --- | --- |
 | Top 300 in Guangdong Informatics | Genuine talent in a massive competitive pool |
 | Led team, 50 projects, repaid investors | Integrity and execution under pressure |
 | Self-studied 13 subjects | Discipline most people simply do not have |

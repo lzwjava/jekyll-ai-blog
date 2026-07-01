@@ -70,7 +70,7 @@ type: note
 ### 对齐矩阵
 
 | 设置项 | config.php | openclaw.json | 数据库 | 必须匹配 |
-|---------|------------|---------------|----------|------------|
+| --------- | ------------ | --------------- | ---------- | ------------ |
 | Nextcloud 内部 URL | `http://localhost:8080` | `baseUrl` | - | ✅ 三者 |
 | Webhook URL (公开) | - | `webhookPublicUrl` | `url` 列 | ✅ 两者 |
 | 共享密钥 | - | `botSecret` | `secret` 列 | ✅ 两者 |
@@ -185,7 +185,7 @@ OPENCLAW 日志 (OpenClaw 向我们报告的内容):
 ### 三个静默故障点
 
 | 故障点 | 我们的预期 | 实际情况 | 错误信息 |
-|---------------|------------------|------------------------|---------------|
+| --------------- | ------------------ | ------------------------ | --------------- |
 | **签名** | `baseUrl` 与头部匹配 | `baseUrl` 是 `http://172.17.0.1:8080`，头部是 `http://localhost` | `401 Invalid backend` |
 | **负载解析** | `type` 是 "Create" | Nextcloud 发送 `type: "Activity"` | `400 Invalid payload format` |
 | **API 调用** | `http://localhost:8080` 有效 | `http://localhost`（80 端口）→ nginx → 404 | `room not found` |

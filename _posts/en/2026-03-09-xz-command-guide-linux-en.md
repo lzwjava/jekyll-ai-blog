@@ -155,7 +155,7 @@ xz -T0 filename.txt    # use all available CPU cores
 ## Quick Reference Table
 
 | Option | Description |
-|--------|-------------|
+| -------- | ------------- |
 | `-z` | Compress (default) |
 | `-d` | Decompress |
 | `-k` | Keep original file |

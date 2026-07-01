@@ -56,7 +56,7 @@ type: note
 ## 诚恳的建议
 
 | 使用场景 | 最佳工具 |
-|---|---|
+| --- | --- |
 | 在实际机器上进行 Debugging | Claude Code / Codex |
 | 重构真实的代码库 | Claude Code / Codex |
 | 快速提问 / 概念解释 | Web chatbot (免费版) |

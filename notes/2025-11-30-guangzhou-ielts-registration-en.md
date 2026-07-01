@@ -36,7 +36,7 @@ The IELTS (International English Language Testing System) is a widely accepted E
 There are at least 3 authorized centers. Here's a summary:
 
 | Center Name | Address | Contact | Notes |
-|-------------|---------|---------|-------|
+| ------------- | --------- | --------- | ------- |
 | British Council Guangzhou | Room 06-07, 30F Teem Tower, 208 Tianhe Road, Tianhe District | Tel: +86 10 8234 5671<br>Email: <ielts@mail.neea.edu.cn> | Paper-based and computer-delivered; main hub. |
 | Guangdong University of Foreign Studies | No. 178, Waihuan Road East, Guangzhou Higher Education Mega Centre, Panyu District | Website: Check chinaielts.org | Popular for students; both formats available. |
 | IDP Education Guangzhou / Guangzhou Polytechnic of Sports | Varies by date (check site) | Website: ielts.idpchina.cn | Newer option; focuses on flexible scheduling. |

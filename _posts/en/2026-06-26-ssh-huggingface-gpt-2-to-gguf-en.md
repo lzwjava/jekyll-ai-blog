@@ -62,7 +62,7 @@ Biases are **not** transposed (1-D). The `np.ascontiguousarray(...)` after `.T` 
 HF names → GGUF canonical names:
 
 | HF | GGUF |
-|---|---|
+| --- | --- |
 | `transformer.wte.weight` | `token_embd.weight` |
 | `transformer.wpe.weight` | `position_embd.weight` |
 | `h.{i}.ln_1` | `blk.{i}.attn_norm` |

@@ -39,7 +39,7 @@ codeparrot/github-code (HuggingFace)
 Standard GPT-2 124M — no modifications:
 
 | Hyperparameter | Value |
-|---|---|
+| --- | --- |
 | `n_layer` | 12 |
 | `n_head` | 12 |
 | `n_embd` | 768 |
@@ -87,7 +87,7 @@ Chinchilla optimal for 124M params → ~2.5B tokens. You trained on **14B tokens
 ### 4. Hardware & Throughput
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | GPU | RTX 4070 12GB |
 | VRAM used | ~5,050 MiB |
 | Power draw | ~208W |
@@ -109,7 +109,7 @@ Chinchilla optimal for 124M params → ~2.5B tokens. You trained on **14B tokens
 ### 5. Loss Curve & Overfitting Analysis
 
 | Step | val_loss | Notes |
-|---|---|---|
+| --- | --- | --- |
 | 0 | 10.87 | Random init (ln(vocab) ≈ ln(50257) ≈ 10.8 ✓) |
 | 14k | 5.87 | Fast early descent |
 | 25k | ~3.6 | Syntactic structure emerging |

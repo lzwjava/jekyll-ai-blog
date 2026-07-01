@@ -68,7 +68,7 @@ Google 认为 Flutter 现在已进入生产时代 — 意味着它足够成熟�
 ### 总结时间线
 
 | 时期 | 趋势 |
-|---|---|
+| --- | --- |
 | 2015–2019 | React Native 主导跨平台；native 是默认选择 |
 | 2019–2020 | Flutter 快速崛起，在搜索兴趣上超越 React Native |
 | 2021–2022 | Flutter 成为最受欢迎的框架；React Native 在就业市场仍领先 |

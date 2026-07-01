@@ -45,7 +45,7 @@ There's also: a Guangdong provincial exclusive card at ¥40/month for 210GB + 20
 Given you're in Guangzhou working as an AI engineer with heavy tooling usage (API calls, model pulls, SSH tunnels, etc.), your profile fits **high-burst, not high-sustained** usage. Here's what makes sense:
 
 | Option | Cost | Data | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Stay on current | ¥19 base + ¥10×N add-ons | 10GB + 10GB chunks | Wasteful |
 | 电信粤东卡 | ¥39/mo (¥29 for months 2–6) | 235GB/mo | Best value |
 | 飞泽卡 (广州可发) | ¥30/mo | 185GB + 100min | Solid backup |

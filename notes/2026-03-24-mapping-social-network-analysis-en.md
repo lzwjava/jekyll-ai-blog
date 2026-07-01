@@ -56,7 +56,7 @@ Tools like `linkedin-network-visualization` take your exported LinkedIn connecti
 From social groups and LinkedIn, you can determine:
 
 | Signal | What It Reveals |
-|---|---|
+| --- | --- |
 | Who tags / mentions whom | Close peers or collaborators |
 | Who is in multiple shared groups | Strong overlapping relationships |
 | Who invited whom to a group | Trust and influence direction |

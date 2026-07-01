@@ -117,7 +117,7 @@ Claude Code's Bash tool captures up to 30,000 characters of output and has a def
 ### Summary Comparison Table
 
 | Feature | Your `exec_command` | OpenClaw `exec` | Claude Code `bash` |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Session state** | ❌ New shell each call | ❌ (per invocation) | ✅ Persistent bash |
 | **Background exec** | ❌ | ✅ (with sessionId) | ✅ (Ctrl+B or ask) |
 | **PTY support** | ❌ | ✅ `pty: true` | ❌ (feature request) |

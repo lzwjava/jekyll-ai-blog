@@ -61,7 +61,7 @@ HUMAN Security 发布了一个开源项目，AI agents 使用 HTTP Message Signa
 ## 为什么这依然很难
 
 | 挑战 | 原因 |
-|---|---|
+| --- | --- |
 | **生物识别 (Biometrics)** | 侵犯隐私，难以在全球范围内扩展 |
 | **加密密钥 (Cryptographic keys)** | 可能会被窃取或委派给恶意行为者 |
 | **验证码 (CAPTCHAs)** | AI 现在的破解能力已经超过了人类 |

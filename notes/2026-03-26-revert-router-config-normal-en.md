@@ -30,7 +30,7 @@ Reset 192.168.1.42 (lzwjava-Lenovo-G490) back to a normal machine after it was c
 Ran a comprehensive audit across all the config areas you listed. Found:
 
 | Component | Status |
-|---|---|
+| --- | --- |
 | IP forwarding | **Enabled** — both runtime (`/proc/sys/net/ipv4/ip_forward = 1`) and persistent (`/etc/sysctl.conf`) |
 | dnsmasq | **Active** — with `/etc/dnsmasq.d/usb-lan.conf` serving DHCP on `enx00e04c362f89` (192.168.201.50–150) |
 | Clash | **Running** — PID 12975, `clash-meta` in TPROXY mode |

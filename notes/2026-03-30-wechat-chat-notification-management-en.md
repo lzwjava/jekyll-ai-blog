@@ -70,7 +70,7 @@ The "Sticky on Top" option ensures a specific chat always appears at the top of 
 ## Summary Strategy
 
 | Situation | Recommended Action |
-|---|---|
+| --- | --- |
 | Busy but still at desk | Mute individual DM chat temporarily |
 | In a meeting / deep work | Enable global Do Not Disturb |
 | Expecting 1 important reply | Use "Alert" feature (auto-cancels after 1 message) |

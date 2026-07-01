@@ -91,7 +91,7 @@ GPT-5.2 Thinking 将在模型选择器中的 Legacy Models 部分继续供付费
 ### 总结表格
 
 | 特性 | GPT-5.4 | GPT-5.4 Pro |
-|---|---|---|
+| --- | --- | --- |
 | Context Window | 1.05M tokens | 1.05M tokens |
 | Computer Use | Native (first general-purpose) | Native |
 | Reasoning Effort | none, low, medium, high, xhigh | medium, high, xhigh |

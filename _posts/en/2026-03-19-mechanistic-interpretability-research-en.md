@@ -74,7 +74,7 @@ Anthropic's interpretability team has also begun exploring applying these method
 ## Summary Table
 
 | Year | Milestone |
-|------|-----------|
+| ------ | ----------- |
 | 2015 | DeepDream and early neural network visualization (Google Brain) |
 | 2020 | Circuits framework — features and circuits in vision models |
 | 2021 | Induction heads discovered in transformers |

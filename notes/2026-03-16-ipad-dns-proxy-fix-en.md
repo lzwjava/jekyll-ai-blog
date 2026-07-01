@@ -121,7 +121,7 @@ curl https://api.ipify.org
 ## Summary Diagnosis Table
 
 | Symptom Observed | What It Means |
-|---|---|
+| --- | --- |
 | iPad traffic reaches TUN (`tcpdump` on Meta confirmed) | ✅ TUN interception working |
 | Only UDP in Clash logs, TCP silently dropped | ✅ Clash receiving TCP but failing to establish upstream |
 | Hysteria2 resolves to `198.18.0.28` | ❌ **Root cause** — proxy server gets fake-IP |

@@ -54,7 +54,7 @@ type: note
 由于 OpenAI 的 API 也被 GFW 限制且需要海外支付方式，技术人员配置国内中国 LLM。最常见的选项：
 
 | Model | Provider | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Qwen (通义千问)** | Alibaba | 最受欢迎的默认选择；设置向导可以自动授权 |
 | **DeepSeek** | DeepSeek | 极其受欢迎，API 非常便宜 |
 | **Kimi K2.5** | Moonshot AI | 推理能力强，用于 KimiClaw 托管版 |

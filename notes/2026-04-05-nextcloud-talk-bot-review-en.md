@@ -14,7 +14,7 @@ type: note
 ### ✅ What's Fixed
 
 | Item | Before | After |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | `baseUrl` | `http://172.17.0.1:8080` | `http://localhost` ✅ |
 | `webhookPublicUrl` | (missing) | `http://172.17.0.1:8788` ✅ |
 | `allowPrivateNetwork` | (missing) | `true` ✅ |

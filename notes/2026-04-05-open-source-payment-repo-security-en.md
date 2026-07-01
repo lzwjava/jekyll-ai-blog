@@ -87,7 +87,7 @@ live-conf (private, closed source)
 #### Best Practices for Secrets Management
 
 | Method | Recommendation |
-|--------|---------------|
+| -------- | --------------- |
 | Environment Variables | ✅ Best — inject secrets at runtime via `.env` or server env vars |
 | Separate Private Repo for Configs | ✅ Good — as you propose, but make sure it was NEVER public |
 | `.gitignore` for PEM/config files | ✅ Necessary — add `*.pem`, `config/alipay.php`, `config/database.php` to `.gitignore` |

@@ -89,7 +89,7 @@ The people who win the vibe coding wave aren't always the vibe coders — they'r
 ## TL;DR
 
 | Claim | Verdict |
-|---|---|
+| --- | --- |
 | AI lowers the barrier to build | ✅ Absolutely true |
 | Niche products are more viable | ✅ True, long-tail expands |
 | Everyone can succeed | ⚠️ More *can*, but most still won't |

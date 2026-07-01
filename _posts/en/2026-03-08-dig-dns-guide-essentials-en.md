@@ -91,7 +91,7 @@ In the footer section, you find the latency time in milliseconds, in addition to
 ## Common DNS Record Types
 
 | Record | Purpose |
-|--------|---------|
+| -------- | --------- |
 | `A` | IPv4 address of a domain |
 | `AAAA` | IPv6 address of a domain |
 | `MX` | Mail exchange servers |
@@ -189,7 +189,7 @@ The `+stats` option is used to view the statistics section.
 ## Key Options Summary
 
 | Option | Description |
-|--------|-------------|
+| -------- | ------------- |
 | `+short` | Show only the essential result |
 | `+noall` | Suppress all output sections |
 | `+answer` | Show only the answer section |

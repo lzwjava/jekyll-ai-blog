@@ -36,7 +36,7 @@ On the May 12, 2026 LiveBench snapshot, **Kimi K2.6 Thinking** leads all open-so
 Here's the honest map of today's frontier models to your hardware:
 
 | Model | Architecture | Total params | Active params | VRAM needed (Q4_K_M) | Fits? |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | **DeepSeek V3.2** | MoE | 671B | 37B | ~390 GB (FP16), ~150GB (Q2_K) | Q2_K barely; needs 8× for FP16 |
 | **DeepSeek V4 Flash** | MoE | 284B | 13B | ~160 GB (Q4_K_M) | ✅ Fits comfortably |
 | **Kimi K2.6** | MoE | ~1T | 32B | Too large for single card | ❌ Needs multi-GPU |

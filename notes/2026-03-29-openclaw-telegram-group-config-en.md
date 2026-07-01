@@ -14,7 +14,7 @@ Here's the review of what was done:
 **✅ Changes Made — `channels.telegram` in `/home/lzw/.openclaw/openclaw.json`:**
 
 | Setting | Before | After |
-|--------|--------|-------|
+| -------- | -------- | ------- |
 | `groupPolicy` | `"allowlist"` | `"allowlist"` (unchanged) |
 | `groupAllowFrom` | _(missing)_ | `["-4714712674"]` ← the blog Telegram group |
 

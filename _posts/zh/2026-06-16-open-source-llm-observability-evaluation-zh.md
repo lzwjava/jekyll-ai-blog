@@ -34,7 +34,7 @@ Trace
 ## 它实际能做什么
 
 | 特性 | 提供的功能 |
-|---|---|
+| --- | --- |
 | Tracing | 全面了解多步骤 agent/chain 调用 |
 | Prompt management | 版本控制的提示、A/B 测试变体 |
 | Evals | LLM-as-judge、人工标注、自定义评分 |

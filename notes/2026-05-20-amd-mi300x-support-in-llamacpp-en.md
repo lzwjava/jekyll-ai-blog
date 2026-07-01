@@ -79,7 +79,7 @@ AMD also ships AMD-validated llama.cpp prebuilt binaries — pre-compiled stable
 ## Summary Table
 
 | Feature | Status |
-|---|---|
+| --- | --- |
 | HIP/ROCm backend | ✅ First-class |
 | Flash attention | ✅ Supported, recommended |
 | Multi-GPU (8x MI300X) | ✅ Works |

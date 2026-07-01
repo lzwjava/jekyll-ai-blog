@@ -91,7 +91,7 @@ openclaw daemon restart
 ### Key Points to Know
 
 | Topic | Detail |
-|---|---|
+| --- | --- |
 | Config location | `~/.openclaw/openclaw.json` |
 | Skip keys at install? | 是的 — 使用 `--secret-input-mode ref` 将 key 延迟到 env var 设置 |
 | Copy config to new machine? | 是的 — 这是最快的复制方法 |

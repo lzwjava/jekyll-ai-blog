@@ -22,7 +22,7 @@ The Chinchilla research showed that the optimal balance is approximately **20 to
 For your 124M model:
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Chinchilla optimal tokens | 124M × 20 = **~2.5B tokens** |
 | Your current `max_iters=19073` plan | 19,073 × 524,288 = **~10B tokens** |
 | Your full dataset | **140B tokens** |
@@ -46,7 +46,7 @@ For your 124M model, training on 140B tokens (1,129 tokens/param) would produce 
 At ~11 sec/iter with `compile=True`, here's the full picture:
 
 | `max_iters` | Tokens seen | Wall time | % of 140B data used |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5,000 | 2.6B | ~15 hrs | 1.9% |
 | 19,073 | 10B | ~40–50 hrs | 7.1% |
 | 50,000 | 26B | ~6 days | 18.6% |

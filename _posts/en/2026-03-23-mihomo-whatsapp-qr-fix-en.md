@@ -108,7 +108,7 @@ If the QR code still does not appear, you can use WhatsApp Web in your browser i
 ## Summary of Root Causes Found in Your Log
 
 | Issue | Status | Fix |
-|---|---|---|
+| --- | --- | --- |
 | Wrong bundle ID (`com.whatsapp.WhatsApp`) | ✅ Fixed | Use `net.whatsapp.WhatsApp` |
 | WhatsApp domains not in proxy rules | ✅ Fixed | Added to config |
 | Mihomo not restarted cleanly | ⚠️ Incomplete | Use `pkill -f mihomo` then restart |

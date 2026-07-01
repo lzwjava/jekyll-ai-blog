@@ -40,7 +40,7 @@ A stable RFC-1918 IP (like `10.x.x.x`) assigned within RunPod's internal VXLAN/o
 **Why it matters for your use case:**
 
 | Scenario | Use Global Networking? |
-|---|---|
+| --- | --- |
 | Single pod, SSH in, run training | No — not needed |
 | Multi-pod distributed training (NCCL) | Yes — pods need to find each other |
 | Inference pod + separate API gateway pod | Yes |

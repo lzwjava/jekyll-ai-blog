@@ -36,15 +36,15 @@ Networks use **layered architectures** to simplify complex communication by divi
 
 The **Open Systems Interconnection (OSI)** model is a conceptual 7-layer framework developed by ISO in 1984. It's theoretical, not implemented directly, but used as a standard for understanding protocols. Mnemonic: **Please Do Not Throw Sausage Pizza Away** (Physical → Application).
 
-| Layer Number | Layer Name       | Key Functions and Protocols | PDU (Protocol Data Unit) | Devices/Examples |
-|--------------|------------------|-----------------------------|--------------------------|------------------|
-| 7           | Application     | Provides network services to user apps (e.g., email, file transfer). Interfaces with software. | Data | HTTP, FTP, SMTP; Web browser |
-| 6           | Presentation    | Translates data formats (e.g., encryption, compression, ASCII to EBCDIC). Ensures syntax compatibility. | Data | JPEG, SSL/TLS |
-| 5           | Session         | Manages sessions/connections (e.g., setup, synchronization, dialog control). Handles checkpoints for recovery. | Data | NetBIOS, RPC |
-| 4           | Transport       | End-to-end reliable delivery (e.g., segmentation, flow control, error recovery). | Segment (TCP) / Datagram (UDP) | TCP, UDP; Ports (e.g., 80 for HTTP) |
-| 3           | Network         | Logical addressing and routing (e.g., path determination across networks). Handles congestion. | Packet | IP, ICMP, OSPF; Routers |
-| 2           | Data Link       | Node-to-node delivery on same network (e.g., framing, error detection via CRC, MAC addressing). | Frame | Ethernet, PPP; Switches, NICs |
-| 1           | Physical        | Bit transmission over physical medium (e.g., signaling, cabling, topology). Deals with hardware specs. | Bit | RJ-45, Fiber optics; Hubs, Cables |
+| Layer Number | Layer Name | Key Functions and Protocols | PDU (Protocol Data Unit) | Devices/Examples |
+| -------------- | ------------------ | ----------------------------- | -------------------------- | ------------------ |
+| 7 | Application | Provides network services to user apps (e.g., email, file transfer). Interfaces with software. | Data | HTTP, FTP, SMTP; Web browser |
+| 6 | Presentation | Translates data formats (e.g., encryption, compression, ASCII to EBCDIC). Ensures syntax compatibility. | Data | JPEG, SSL/TLS |
+| 5 | Session | Manages sessions/connections (e.g., setup, synchronization, dialog control). Handles checkpoints for recovery. | Data | NetBIOS, RPC |
+| 4 | Transport | End-to-end reliable delivery (e.g., segmentation, flow control, error recovery). | Segment (TCP) / Datagram (UDP) | TCP, UDP; Ports (e.g., 80 for HTTP) |
+| 3 | Network | Logical addressing and routing (e.g., path determination across networks). Handles congestion. | Packet | IP, ICMP, OSPF; Routers |
+| 2 | Data Link | Node-to-node delivery on same network (e.g., framing, error detection via CRC, MAC addressing). | Frame | Ethernet, PPP; Switches, NICs |
+| 1 | Physical | Bit transmission over physical medium (e.g., signaling, cabling, topology). Deals with hardware specs. | Bit | RJ-45, Fiber optics; Hubs, Cables |
 
 **Key Notes**:
 
@@ -57,12 +57,12 @@ The **Open Systems Interconnection (OSI)** model is a conceptual 7-layer framewo
 
 The **TCP/IP model** (or Internet Protocol Suite) is a practical 4-layer model developed in the 1970s for the ARPANET (basis of the internet). It's implemented worldwide and maps loosely to OSI. Mnemonic: **LITA** (Link → Application).
 
-| Layer Number | Layer Name       | Key Functions and Protocols | PDU                  | Devices/Examples |
-|--------------|------------------|-----------------------------|----------------------|------------------|
-| 4           | Application     | Combines OSI Layers 5-7: User services (e.g., web, email). | Data/Segment | HTTP, FTP, DNS; Apps like browsers |
-| 3           | Transport       | End-to-end (OSI Layer 4): Reliable/unreliable delivery. | Segment/Datagram | TCP (reliable, connection-oriented), UDP (best-effort) |
-| 2           | Internet        | Routing and addressing (OSI Layer 3): Logical paths across networks. | Packet | IP (IPv4/IPv6), ICMP; Routers |
-| 1           | Link (or Network Access) | Physical + Data Link (OSI Layers 1-2): Hardware delivery on local network. | Frame/Bit | Ethernet, Wi-Fi; Switches, Cables |
+| Layer Number | Layer Name | Key Functions and Protocols | PDU | Devices/Examples |
+| -------------- | ------------------ | ----------------------------- | ---------------------- | ------------------ |
+| 4 | Application | Combines OSI Layers 5-7: User services (e.g., web, email). | Data/Segment | HTTP, FTP, DNS; Apps like browsers |
+| 3 | Transport | End-to-end (OSI Layer 4): Reliable/unreliable delivery. | Segment/Datagram | TCP (reliable, connection-oriented), UDP (best-effort) |
+| 2 | Internet | Routing and addressing (OSI Layer 3): Logical paths across networks. | Packet | IP (IPv4/IPv6), ICMP; Routers |
+| 1 | Link (or Network Access) | Physical + Data Link (OSI Layers 1-2): Hardware delivery on local network. | Frame/Bit | Ethernet, Wi-Fi; Switches, Cables |
 
 **Key Notes**:
 

@@ -68,7 +68,7 @@ Beyond personal grief, his death became a mirror held up to China's broader cult
 ### Summary: A Perfect Storm
 
 | Factor | Role in Death |
-|---|---|
+| --- | --- |
 | Chronic overwork | Direct physical strain on the heart |
 | Psychological mission | Made rest feel impossible |
 | Repeated public controversies | Persistent psychological stress |

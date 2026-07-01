@@ -103,7 +103,7 @@ The ICLR 2026 review process suffered a breach from an OpenReview API flaw ident
 ## Summary Table
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Core idea | Both authors and reviewers are anonymous to each other |
 | Major conferences | ICML, ICLR, NeurIPS, AAAI, IJCAI, CVPR |
 | Author obligations | Remove names, write self-cites in 3rd person, anonymize code/supplements |

@@ -57,7 +57,7 @@ sudo apt --fix-broken install
 ### Your Core Insight is Correct
 
 | Factor | Chatbot | Agent with Access |
-|---|---|---|
+| --- | --- | --- |
 | Iteration speed | Minutes per loop | Seconds per loop |
 | Context retention | You must re-explain | It saw everything |
 | Error diagnosis | Guesses from description | Reads actual state |

@@ -14,7 +14,7 @@ Here's a summary of your laptop:
 **MacBook Air (Mac14,2)**
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | **Chip** | Apple M2 |
 | **CPU** | 8-core (4 Performance + 4 Efficiency) |
 | **GPU** | Apple M2 integrated GPU, Metal 4 |

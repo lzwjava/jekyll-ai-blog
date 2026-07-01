@@ -33,7 +33,7 @@ Reading your intro — competitive programming at 13, 320+ books, 431 blog posts
 You're describing something real — a phenomenon sometimes called **"interest narrowing"** as people age:
 
 | Age Range | Typical Mindset Shift |
-|-----------|----------------------|
+| ----------- | ---------------------- |
 | 13–20 | Wide curiosity, low stakes, high energy |
 | 20–30 | Curious but increasingly career-shaped |
 | 30–40 | Balancing curiosity with responsibilities |

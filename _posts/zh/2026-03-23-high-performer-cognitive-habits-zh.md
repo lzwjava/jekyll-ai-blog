@@ -72,7 +72,7 @@ High performers manage this by setting a **"good enough to test" threshold** —
 ## Summary
 
 | Trait | Why It Helps |
-|---|---|
+| --- | --- |
 | Metacognition | Catches errors, accelerates learning |
 | Deliberate reflection | Converts experience into wisdom |
 | First-principles questioning | Finds what actually works for *them* |

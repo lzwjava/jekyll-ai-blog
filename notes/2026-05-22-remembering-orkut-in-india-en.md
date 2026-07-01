@@ -34,7 +34,7 @@ Google announced the shutdown in June 2014, and the platform officially ceased o
 ## The Parallel to QQ
 
 | | QQ (China) | Orkut (India) |
-|--|-----------|--------------|
+| -- | ----------- | -------------- |
 | Launch | 1999 | 2004 |
 | Peak | 2000s–still active | 2005–2010 |
 | Killed by | WeChat (same company) | Facebook |

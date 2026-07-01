@@ -90,7 +90,7 @@ This way:
 ## If You Must Pick Just One
 
 | Factor | Laptop (Linux Mint) | Xiaomi (OpenWrt) |
-|---|---|---|
+| --- | --- | --- |
 | Hysteria2 support | Native, easy | Via passwall/nikki |
 | Setup difficulty | Medium (you almost did it) | Medium-High |
 | All-home coverage | Only USB-tethered devices | All Wi-Fi + LAN devices |

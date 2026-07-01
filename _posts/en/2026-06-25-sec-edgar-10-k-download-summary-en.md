@@ -45,7 +45,7 @@ type: note
 **Scripts created & pushed:**
 
 | Script | Purpose | Commit |
-|--------|---------|--------|
+| -------- | --------- | -------- |
 | `scripts/download/download_sec_edgar.py` | Download shards with size cap, skip cached, resume | `378bcdb` |
 | `scripts/download/view_sec_edgar.py` | View/list/search samples from parquet files | `93138ec` + `70f83b5` |
 | `scripts/download/fix_corrupt_shard.sh` | Re-download the broken shard (useless now) | `d153ec5` |

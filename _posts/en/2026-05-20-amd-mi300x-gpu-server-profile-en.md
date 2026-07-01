@@ -16,7 +16,7 @@ Here's the complete picture of **165.245.137.138** end-to-end:
 ## System Overview
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | **OS** | Ubuntu 24.04, kernel 6.8.0-106-generic |
 | **CPU** | Intel Xeon Platinum 8568Y+ (20 cores) |
 | **RAM** | 235 GB (241,610 MiB total) |
@@ -27,7 +27,7 @@ Here's the complete picture of **165.245.137.138** end-to-end:
 ## GPU — AMD Instinct MI300X VF
 
 | Attribute | Value |
-|---|---|
+| --- | --- |
 | PCIe | 5.0 x16 @ 32 GT/s |
 | HBM3 | 256 GB physical / **196,288 MiB visible** (~192 GB usable) |
 | GFX arch | gfx942 |
@@ -50,7 +50,7 @@ For one-shot terminal inference. Already smoke-tested with Qwen2.5-0.5B.
 **Currently running** on port 8080, PID 292080.
 
 | Detail | Value |
-|---|---|
+| --- | --- |
 | Model loaded | `models/Qwen3.5-122B-A10B-UD-IQ1_M.gguf` (37 GB) |
 | File renamed | Removed `?download=true` suffix |
 | Context | 32,768 tokens × 4 slots |
@@ -62,7 +62,7 @@ For one-shot terminal inference. Already smoke-tested with Qwen2.5-0.5B.
 ### Performance confirmed
 
 | Scenario | Throughput |
-|---|---|
+| --- | --- |
 | Qwen2.5-0.5B (smoke test) | Prompt: 748 t/s, Gen: 484 t/s |
 | **Qwen3.5-122B-A10B-IQ1_M (live)** | **Prompt: 77 t/s, Gen: 91 t/s** |
 
@@ -98,7 +98,7 @@ export PATH=$ROCM_PATH/bin:$PATH
 **3. What else fits in VRAM?** With ~190 GB free, you could run:
 
 | Model | Quant | Est. VRAM | Fits? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | DeepSeek-V2 236B | IQ2_XXS | ~90 GB | Easy |
 | DeepSeek-V3 671B | IQ1_S | ~140 GB | Yes |
 | Llama 3.1 405B | Q2_K | ~120 GB | Yes |

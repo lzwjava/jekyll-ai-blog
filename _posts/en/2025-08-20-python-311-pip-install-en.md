@@ -92,7 +92,7 @@ Now, `pip` inside the virtual environment will use Python 3.11.
 ### **Summary Table**
 
 | Command | Purpose |
-|---------|---------|
+| --------- | --------- |
 | `sudo apt update` | Update package list |
 | `sudo apt install python3.11` | Install Python 3.11 |
 | `python3.11 -m ensurepip --upgrade` | Install pip for Python 3.11 |

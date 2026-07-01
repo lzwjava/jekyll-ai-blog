@@ -42,7 +42,7 @@ type: note
 <br/>
 
 | 场景 | Quality | Felt/Used | Outcome |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 努力工作，无人使用 | High | Zero | Zero reward |
 | 平庸产品，viral adoption | Medium | Very High | Big reward |
 | 优秀产品，良好分发 | High | High | Best outcome |

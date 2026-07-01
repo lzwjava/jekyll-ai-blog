@@ -15,11 +15,11 @@ The table below summarizes key aspects of his profile:
 
 | **Category** | **Details** |
 | :--- | :--- |
-| **Full Name** | Jonathan Ross  |
-| **Current Position** | CEO, Founder, & Board Member at Groq Inc.  |
-| **Notable Former Role** | Core designer of the first-generation Google Tensor Processing Unit (TPU)  |
-| **Mission** | To drive the cost of AI compute to zero and build the world's fastest infrastructure for large language models (LLMs)  |
-| **Education** | Studied Honors Mathematics and Computer Science at New York University's Courant Institute under renowned AI pioneer Yann LeCun  |
+| **Full Name** | Jonathan Ross |
+| **Current Position** | CEO, Founder, & Board Member at Groq Inc. |
+| **Notable Former Role** | Core designer of the first-generation Google Tensor Processing Unit (TPU) |
+| **Mission** | To drive the cost of AI compute to zero and build the world's fastest infrastructure for large language models (LLMs) |
+| **Education** | Studied Honors Mathematics and Computer Science at New York University's Courant Institute under renowned AI pioneer Yann LeCun |
 
 ### 🧠 The Google TPU Years
 

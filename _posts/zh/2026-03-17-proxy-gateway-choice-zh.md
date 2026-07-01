@@ -88,7 +88,7 @@ type: note
 ## 如果必须只选一个
 
 | 因素 | 笔记本电脑 (Linux Mint) | Xiaomi (OpenWrt) |
-|---|---|---|
+| --- | --- | --- |
 | Hysteria2 支持 | 原生，简单 | 通过 passwall/nikki |
 | 设置难度 | 中等（你几乎成功了） | 中等-高 |
 | 全家覆盖 | 仅 USB 共享设备 | 所有 Wi-Fi + LAN 设备 |

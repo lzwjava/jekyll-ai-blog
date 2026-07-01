@@ -130,7 +130,7 @@ FINAL,Tailscale
 ## iOS App Recommendations
 
 | App | Proxy | VPN | Cost | Notes |
-|-----|-------|-----|------|-------|
+| ----- | ------- | ----- | ------ | ------- |
 | **Shadowrocket** | ✓ | ✓ | $3-5 | Most flexible, best CN support |
 | **Quantumult X** | ✓ | ✓ | $8 | More powerful rule engine |
 | **Surge** | ✓ | ✓ | $10 | Overkill unless you need logging |

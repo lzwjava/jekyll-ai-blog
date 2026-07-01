@@ -37,7 +37,7 @@ Allegretto 并非入门级付费套餐。“Allegretto 会员及以上”的表�
 以下是全面比较：
 
 | Dimension | **Kimi Claw (Cloud)** | **Self-Deployed OpenClaw** |
-|---|---|---|
+| --- | --- | --- |
 | **Setup** | One-click, ~1 minute | Manual install, dependencies, API keys, Docker |
 | **Uptime** | 24/7 managed by Kimi | Only when your machine/VPS is on |
 | **Hardware** | No hardware needed | Requires a VPS or always-on PC |

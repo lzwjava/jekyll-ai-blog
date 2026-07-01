@@ -20,7 +20,7 @@ type: note
 切换到 **[catthehacker/ubuntu](https://github.com/catthehacker/docker_images)** 镜像 —— 这些是为 GitHub Actions 仿真专门构建的：
 
 | Label | Image | Pre-installed |
-|---|---|---|
+| --- | --- | --- |
 | `ubuntu-latest` | `catthehacker/ubuntu:act-latest` | Node, Python, Go, Java, Ruby, PHP, etc. |
 | `ubuntu-22.04` | `catthehacker/ubuntu:act-22.04` | Same, Ubuntu 22.04 base |
 | `ubuntu-20.04` | `catthehacker/ubuntu:act-20.04` | Same, Ubuntu 20.04 base |

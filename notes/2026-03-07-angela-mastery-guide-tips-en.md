@@ -114,7 +114,7 @@ Flash is an essential skill for Angela due to her squishy nature. It provides in
 ### Summary of Distance Management
 
 | Skill | Optimal Distance |
-|---|---|
+| --- | --- |
 | Scorching Barrage (S1) | Medium-to-far — let fireballs spread |
 | Chaos Cinder (S2) | Medium — aim ahead of enemy movement |
 | Blazing Brilliance (S3) | Medium — track with joystick, don't be too close or too far |

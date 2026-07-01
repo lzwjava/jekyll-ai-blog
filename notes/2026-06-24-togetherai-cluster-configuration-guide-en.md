@@ -65,7 +65,7 @@ Bring your own identity provider (Okta, Azure AD, etc.) for auth into the cluste
 ## GPU Type Table — The Core Choice
 
 | Config | Bandwidth | Nodes | CPU Cores |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 8x H100 SXM | 3.2 Tb/s Infiniband | 1 | 208 |
 | 16x H100 SXM | 3.2 Tb/s Infiniband | 2 | 416 |
 | ... | ... | ... | ... |
@@ -88,7 +88,7 @@ For a model like GPT-2 760M (what you've trained), even 1 node (8x H100) is mass
 For serious work:
 
 | Model Size | Recommended Config |
-|---|---|
+| --- | --- |
 | 7B (LLaMA-scale) | 8x H100 (1 node), bf16 + Flash Attn |
 | 70B | 16–32x H100, tensor parallel + pipeline parallel |
 | 405B (LLaMA 3.1) | 64x H100+, FSDP + pipeline parallel |

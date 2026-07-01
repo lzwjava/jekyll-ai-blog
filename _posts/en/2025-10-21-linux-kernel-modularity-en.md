@@ -84,7 +84,7 @@ Messages from `printk` go to the kernel ring buffer (`dmesg`) or `/var/log/kern.
 Use these commands (from the `kmod` package; install if needed: `sudo yum install kmod` on RHEL or `sudo apt install kmod` on Ubuntu).
 
 | Action | Command | Description/Example |
-|--------|---------|---------------------|
+| -------- | --------- | --------------------- |
 | **List loaded modules** | `lsmod` | Shows name, size, usage count, and dependencies.<br>Example: `lsmod \| grep bluetooth` (filters for Bluetooth modules). |
 | **Module info** | `modinfo <name>` | Details like version, description.<br>Example: `modinfo e1000e` (for Intel network driver). |
 | **Load module** | `sudo modprobe <name>` | Loads with dependencies (preferred over `insmod`, which needs full path).<br>Example: `sudo modprobe serio_raw` (raw serial input). |

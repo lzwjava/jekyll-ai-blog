@@ -52,7 +52,7 @@ Cursor now supports cutting-edge models for varied tasks:
 - **Others**: o3/o4-mini (April 17, 2025) for enhanced coding.
 
 | Category | Key New Function | Benefit | Release |
-|----------|------------------|---------|---------|
+| ---------- | ------------------ | --------- | --------- |
 | **Agents** | Multi-Agent Parallelism | Delegate tasks to 2–8 agents; compare outputs | 2.0 (Oct) |
 | **Models** | Composer + GPT-5.1 Suite | Faster, context-aware generation | 2.0/Nov |
 | **UI/Workflow** | Plan Mode + Integrated Browser | Auto-planning + end-to-end testing | 2.0/Sep |

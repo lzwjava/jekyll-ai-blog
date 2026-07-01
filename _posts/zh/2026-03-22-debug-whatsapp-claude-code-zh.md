@@ -39,7 +39,7 @@ cat /Applications/WhatsApp.app/Contents/Info.plist
 QR code 无法加载或扫描的常见原因：
 
 | 原因 | 详情 |
-|---|---|
+| --- | --- |
 | **Network/Proxy 问题** | WhatsApp Web QR 需要出站 WebSocket 连接 |
 | **App 版本过旧** | 旧版本的 WhatsApp 会被 Meta 的服务器屏蔽 |
 | **App bundle 损坏** | `.app` 内部文件缺失或损坏 |

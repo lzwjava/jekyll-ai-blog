@@ -35,7 +35,7 @@ When you self-host everything, you:
 Each tool in your stack gives you deep control:
 
 | Tool | What You Control |
-|---|---|
+| --- | --- |
 | **Gitea** | Your own Git forge — custom webhooks, CI/CD, user policies |
 | **Jellyfin** | Your media server — no DRM, no tracking, custom plugins |
 | **LibreChat** | Your AI chat UI — swap models, add custom endpoints, your own branding |

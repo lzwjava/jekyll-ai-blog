@@ -30,7 +30,7 @@ Angular 于 2010 年发布，是一个基于 TypeScript 的开源 JavaScript 框
 ### 2. 架构与设计理念
 
 | 特性 | Vue | Angular |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | MVVM | MVC |
 | 语言 | JavaScript (TypeScript 可选) | TypeScript (必需) |
 | 约定程度 | 灵活、模块化 | 强约定、结构化 |
@@ -95,7 +95,7 @@ Angular 非常适合大规模、企业级应用和具有复杂需求的项目，
 ### 总结表格
 
 | 标准 | Vue | Angular |
-|---|---|---|
+| --- | --- | --- |
 | 创建者 | Evan You (2014) | Google (2010/2016) |
 | 语言 | JS + 可选 TS | TypeScript (强制) |
 | 架构 | MVVM | MVC |

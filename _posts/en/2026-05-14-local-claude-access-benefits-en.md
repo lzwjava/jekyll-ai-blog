@@ -77,7 +77,7 @@ If your work is purely knowledge-based, the browser version is sufficient. Claud
 ## Summary Table
 
 | Feature | Web Chat | Claude Code (Local) / Cowork |
-|---|---|---|
+| --- | --- | --- |
 | File access | Manual upload only | Direct filesystem access |
 | Codebase context | Single file at a time | Full project context |
 | Agentic tasks | No | Yes (multi-step autonomy) |

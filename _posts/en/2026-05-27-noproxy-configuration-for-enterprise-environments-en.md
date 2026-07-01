@@ -236,7 +236,7 @@ pip config set global.cert /etc/ssl/certs/ca-certificates.crt
 ## Key Gotchas at Banks
 
 | Gotcha | Fix |
-|--------|-----|
+| -------- | ----- |
 | Java doesn't support CIDR in `nonProxyHosts` | Use `*.scb.com` wildcard instead |
 | Maven uses `\|` not `,` as separator | `localhost\|*.scb.com` |
 | Corporate proxy does TLS inspection (MITM) | Install corp CA cert system-wide |

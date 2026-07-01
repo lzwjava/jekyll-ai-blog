@@ -218,7 +218,7 @@ Deep expertise in JVM performance, concurrency, distributed systems, and cloud-n
 ## Recommended Certifications
 
 | Certification | Focus |
-|---|---|
+| --- | --- |
 | Oracle Java SE 21 Developer (1Z0-830) | Core Java mastery |
 | Spring Professional (VMware) | Spring ecosystem |
 | AWS Solutions Architect / GCP Professional | Cloud-native |
@@ -239,7 +239,7 @@ Deep expertise in JVM performance, concurrency, distributed systems, and cloud-n
 ## Suggested Learning Timeline
 
 | Phase | Duration |
-|---|---|
+| --- | --- |
 | Phase 1–2 (Language & JVM) | 2–3 months |
 | Phase 3 (Concurrency) | 1–2 months |
 | Phase 4 (Frameworks) | 2–3 months |

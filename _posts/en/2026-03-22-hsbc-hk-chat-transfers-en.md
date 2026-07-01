@@ -20,7 +20,7 @@ Answer:
 ### ✅ Advantages
 
 | Reason | Detail |
-|---|---|
+| --- | --- |
 | **Written record** | Everything is in text — you have proof of what was said, timestamps, and agent names |
 | **No phone queue** | Avoids long hold times on the hotline, especially calling from mainland China |
 | **Available in app** | No need to visit a branch physically |

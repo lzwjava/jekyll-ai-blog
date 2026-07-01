@@ -51,7 +51,7 @@ To get recording on Teams for business, you need at least **Microsoft 365 Busine
 ## Price Comparison
 
 | Feature | Zoom Free | Zoom Pro (paid) | Teams Free | Teams Essentials ($4/mo) | Teams M365 Basic |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Local recording (desktop) | ✅ Yes | ✅ Yes | ❌ No | ❌ No | ✅ Yes |
 | Cloud recording | ❌ No | ✅ Yes | ❌ No | ❌ No | ✅ Yes |
 | Mobile recording | ❌ No | ✅ Yes | ❌ No | ❌ No | ✅ Yes |

@@ -17,7 +17,7 @@ AWS provides several managed services for relational databases, with **Amazon Re
 Here's a summary of the key relational database options on AWS:
 
 | Service/Engine | Description | Use Cases |
-|---------------|-------------|-----------|
+| --------------- | ------------- | ----------- |
 | **Amazon RDS for PostgreSQL** | Fully managed PostgreSQL, supporting advanced features like JSONB and full-text search. | Transactional applications, web apps, and analytics. |
 | **Amazon RDS for MySQL** | Managed MySQL with high availability and read replicas. | E-commerce, content management, and general-purpose apps. |
 | **Amazon RDS for MariaDB** | Fork of MySQL with enhanced performance and storage engines. | Web applications and read-heavy workloads. |

@@ -50,7 +50,7 @@ This is the correct approach. It:
 ### Current State Assessment
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Shards processed | 5 of 21 |
 | Text extracted | 13 GB |
 | Lines written | 76M |
@@ -91,7 +91,7 @@ The tokenization script needs to:
 **2. Disk space calculation**
 
 | File | 5 shards | 21 shards |
-|---|---|---|
+| --- | --- | --- |
 | Raw text | 13 GB | 55 GB |
 | Tokenized | 7 GB | 28 GB |
 | Parquet (temp) | 0 GB (deleted) | 0 GB |
@@ -142,7 +142,7 @@ You're downloading anonymously. HF limits unauthenticated downloads to ~1GB/hour
 ### Summary
 
 | Issue | Severity | Fix |
-|---|---|---|
+| --- | --- | --- |
 | HF `datasets` OOM | ✅ Solved | Use `pyarrow.iter_batches` |
 | Missing tokenizer | 🔴 Blocker | Write `prepare.py` |
 | Wrong subset (full vs sample-10BT) | 🟡 Quality | Use `sample-10BT` for training |

@@ -22,7 +22,7 @@ Short answer: **neither 160K nor 80K is realistic on your 12GB VRAM with IQ3_S**
 Your setup uses `-ngl 25` to stay within VRAM, and you're already at ~10.7GB/12GB at 16K context with Q8_0 KV cache. Context length growth directly inflates the KV cache:
 
 | Context | KV Cache (Q8_0 est.) | Total VRAM est. | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 16,384 (current) | ~4GB | ~10.7GB | ✅ Stable |
 | 32,768 | ~8GB | ~14.7GB | ❌ OOM |
 | 65,536 | ~16GB | ~22.7GB | ❌ Way OOM |
@@ -39,7 +39,7 @@ For a real-world 12GB VRAM setup, the practical recommendation is a 128K context
 With your **IQ3_S** (10.4GB model on disk), your practical ceiling with Q8_0 KV cache is roughly:
 
 | Config | KV Cache type | Estimated Max Context | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Current (`-ngl 25`) | Q8_0 | ~16K–20K | Stable |
 | Drop to `--cache-type-k q4_0` | Q4_0 | ~28K–32K | Some quality loss |
 | `-ngl 23` + Q4_0 KV | Q4_0 | ~32K | More GPU headroom |

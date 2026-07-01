@@ -54,7 +54,7 @@ DeepSeek-V2-Lite is ~256 experts in a MoE architecture with grouped latent atten
 **The key difference:**
 
 | | nanoGPT | HF Transformers |
-|---|---|---|
+| --- | --- | --- |
 | Model code | One file you read | 1000s of files you don't read |
 | Architecture | GPT-2 only | 200+ architectures |
 | Tokenizer | tiktoken, hardcoded | 50+ backends, auto-detected |

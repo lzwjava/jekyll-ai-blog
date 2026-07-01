@@ -70,7 +70,7 @@ AlphaGo 的胜利开启了 AI 系统的新时代。它是确凿证据，证明�
 ### 总结表格
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Match | AlphaGo vs. Lee Sedol, Game 2, 2016 |
 | Move Type | Shoulder hit on the 5th line |
 | Human Probability | 1 in 10,000 |

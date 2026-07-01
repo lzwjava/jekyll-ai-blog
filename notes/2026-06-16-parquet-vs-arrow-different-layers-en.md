@@ -18,7 +18,7 @@ They're not really competitors — they solve **different problems** at differen
 ## What They Are
 
 | | Parquet | Arrow |
-|---|---|---|
+| --- | --- | --- |
 | Type | **Columnar storage format** (on-disk) | **Columnar memory format** (in-memory) |
 | Designed for | Long-term storage, compression, query pushdown | Zero-copy IPC, in-process analytics, SIMD |
 | Row group / batch | Row groups (MB-scale chunks) | RecordBatches (configurable) |
@@ -79,7 +79,7 @@ DuckDB, Polars, DataFusion, Spark, and BigQuery all do this internally.
 ## Concrete numbers (rough, hardware-dependent)
 
 | Operation | Parquet | Arrow IPC |
-|---|---|---|
+| --- | --- | --- |
 | Read 1GB from disk | ~0.5–2s | ~0.05–0.1s (mmap) |
 | Write 1GB | ~2–5s | ~0.1–0.3s |
 | File size (1GB raw) | ~100–300MB | ~900MB–1GB |

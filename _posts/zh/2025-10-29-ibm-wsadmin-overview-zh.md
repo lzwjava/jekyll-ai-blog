@@ -109,7 +109,7 @@ call "C:\IBM\WebSphere\AppServer\profiles\AppSrv01\bin\wsadmin.bat" -lang jython
 #### 关键选项
 
 | 选项 | 描述 | 示例 |
-|------|------|------|
+| ------ | ------ | ------ |
 | `-conntype` | 连接器类型：`SOAP`（默认，端口 8879）或 `RMI`（端口 2809）。 | `-conntype RMI` |
 | `-host` | 要连接的远程主机。 | `-host myhost.example.com` |
 | `-port` | 连接器端口。 | `-port 8879` |

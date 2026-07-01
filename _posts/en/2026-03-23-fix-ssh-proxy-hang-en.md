@@ -124,7 +124,7 @@ Host *
 ## Quick Summary
 
 | Symptom | Cause |
-|---|---|
+| --- | --- |
 | Ping works | ICMP bypasses HTTP proxy |
 | SSH hangs at "Connecting to" | Proxy intercepts TCP/22, can't reach LAN IP |
 | No error message, just hangs | Proxy silently fails or waits for timeout |

@@ -53,7 +53,7 @@ playground/feature-folder  →  (proven valuable?)  →  standalone repo
 ```
 
 | Stage | Location | Criteria to Graduate |
-|---|---|---|
+| --- | --- | --- |
 | Idea / Spike | `playground/` folder | — |
 | Growing traction | Still in playground | 50+ commits, clear purpose |
 | Real project | New standalone repo | Has users, docs, CI/CD needs |

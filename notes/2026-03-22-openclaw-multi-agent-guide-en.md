@@ -91,7 +91,7 @@ openclaw daemon restart
 ### Key Points to Know
 
 | Topic | Detail |
-|---|---|
+| --- | --- |
 | Config location | `~/.openclaw/openclaw.json` |
 | Skip keys at install? | Yes — use `--secret-input-mode ref` to defer key to env var |
 | Copy config to new machine? | Yes — this is the fastest replication method |

@@ -75,7 +75,7 @@ Your bank's proxy unblocks it automatically
 ## Realistic outcome
 
 | Current Category | Chance of success |
-|-----------------|-------------------|
+| ----------------- | ------------------- |
 | `Malicious Sources` | Low — hard to reclassify |
 | `File Storage` | Medium |
 | `Technology/Internet` already | Already correct, IT policy is blocking it — different problem |

@@ -39,7 +39,7 @@ Yes, that's a spot-on analogy! PUBG Mobile (and battle royale games in general) 
 **Pro Tips to Apply This Mindset:**
 
 | Element | PUBG Action | Life Parallel |
-|---------|-------------|---------------|
+| --------- | ------------- | --------------- |
 | **Mistakes** | Watch replays post-death | Reflect on failures without self-hate |
 | **Patience** | Loot safe, avoid hot zones | Avoid get-rich-quick schemes |
 | **Long-Term** | Zone prediction, rotations | Invest in skills/career over hype |

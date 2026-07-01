@@ -191,7 +191,7 @@ You **never check dashboards.** The system talks to you.
 **Notification types:**
 
 | Type | When | Action Required |
-|---|---|---|
+| --- | --- | --- |
 | 🚨 **Stuck** | Agent looping | Reply with hint |
 | ✅ **Done** | Task complete, PR open | Review or auto-merge |
 | ⚠️ **Permission** | Agent needs access | Grant or decline |
@@ -268,7 +268,7 @@ These systems can receive a feature request in natural language, explore a codeb
 ## 🛠️ Tech Stack Recommendation
 
 | Layer | Tool |
-|---|---|
+| --- | --- |
 | **Orchestrator** | Claude API (claude-sonnet-4) |
 | **Agent runtime** | Claude Code SDK / OpenHands |
 | **Task queue** | Redis Queue or simple SQLite |

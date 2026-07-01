@@ -157,7 +157,7 @@ The Valgrind errors pointed at `liblzma`, which pulled on the thread that unrave
 ### Quick Reference Table
 
 | Method | Command | What it detects |
-|---|---|---|
+| --- | --- | --- |
 | Basic timing | `time ssh user@host hostname` | Total login roundtrip |
 | Verbose | `ssh -vvv user@host hostname` | Which phase is slow |
 | Timestamped log | `ssh -vvv ... 2>&1 \| ts '%.s'` | Millisecond-level phase gaps |

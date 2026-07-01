@@ -20,7 +20,7 @@ Here's the precise distinction:
 ## Architecture vs. Training Recipe
 
 | Dimension | GPT-2 | GPT-3 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Transformer decoder | Same (near-identical) |
 | Paper | Radford et al. 2019 | Brown et al. 2020 |
 | Largest model | 1.5B | 175B |

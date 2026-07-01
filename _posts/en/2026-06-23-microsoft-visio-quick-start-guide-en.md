@@ -36,7 +36,7 @@ Visio is a diagramming tool for flowcharts, network diagrams, org charts, UML, e
 **Useful shortcuts**
 
 | Action | Shortcut |
-|---|---|
+| --- | --- |
 | Pan | Hold Ctrl + drag |
 | Zoom | Ctrl + scroll |
 | Select all | Ctrl + A |

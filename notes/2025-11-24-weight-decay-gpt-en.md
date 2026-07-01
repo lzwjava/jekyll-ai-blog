@@ -54,7 +54,7 @@ optimizer = torch.optim.AdamW(
 He stresses **parameter grouping** to apply decay selectively (only where it helps):
 
 | Parameter Group | Examples | Apply Weight Decay? | Why? |
-|-----------------|----------|----------------------|------|
+| ----------------- | ---------- | ---------------------- | ------ |
 | **Decayed** | Embedding matrices, linear/attention weights (2D tensors) | Yes | These drive matrix multiplications; decay prevents overfitting in core computations |
 | **No Decay** | Biases, LayerNorm scales/biases (1D tensors) | No | Not involved in inner products; decay here hurts performance without benefits |
 

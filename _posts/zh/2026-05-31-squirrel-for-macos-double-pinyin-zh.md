@@ -40,7 +40,7 @@ brew install --cask squirrel
 RIME 内置了多种双拼方案。最常用的几种：
 
 | 方案 ID | 布局 |
-|---|---|
+| --- | --- |
 | `double_pinyin` | 自然码 (Ziranma) |
 | `double_pinyin_flypy` | 小鹤 (Xiaohe/Flypy) — 目前最流行 |
 | `double_pinyin_mspy` | 微软双拼 (Microsoft) |

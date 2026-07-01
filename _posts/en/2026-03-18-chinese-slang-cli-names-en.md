@@ -20,7 +20,7 @@ Answer:
 ### Direct Slang Terms
 
 | Slang | Pinyin | Meaning | CLI Usage |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **nb** | niúbī | 牛逼 — awesome, badass | `nb note` |
 | **6** | liù | 666 — skilled, smooth | too short |
 | **gg** | gégē | 哥哥 / "good game" | `gg note` |
@@ -36,7 +36,7 @@ Answer:
 ### Abbreviation Style (首字母缩写)
 
 | Slang | Full Chinese | Meaning | CLI |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **zn** | 真牛 | "truly awesome" | `zn note` |
 | **hn** | 好牛 | "so awesome" | `hn note` |
 | **nc** | 牛操 | very strong (crude) | `nc note` |
@@ -51,7 +51,7 @@ Answer:
 ### Gaming Culture Slang (游戏圈)
 
 | Slang | Meaning | CLI |
-|---|---|---|
+| --- | --- | --- |
 | **gg** | good game, well played | `gg note` |
 | **gj** | good job | `gj note` |
 | **ez** | easy (flexing) | `ez note` |
@@ -64,7 +64,7 @@ Answer:
 ### 🏆 Best Picks for CLI Name
 
 | Rank | Name | Why |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **gg** | Universal, gaming culture, fun, `gg note` sounds great |
 | 2 | **op** | "overpowered" — your toolkit is OP |
 | 3 | **ez** | Implies your scripts make life easy |

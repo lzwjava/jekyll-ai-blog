@@ -34,7 +34,7 @@ The expert's curse is that **expertise becomes a filter** — you stop seeing wh
 This is what makes the current moment unusual. Normally, accumulated knowledge compounds — the more you know, the better you perform. But AI inverts several of these:
 
 | What You Mastered | What AI Made Irrelevant |
-|---|---|
+| --- | --- |
 | Memorizing syntax | AI autocompletes it |
 | Knowing every API | AI looks it up |
 | Typing speed & shortcuts | AI writes whole modules |
@@ -81,7 +81,7 @@ The people who thrive in the AI era aren't necessarily the smartest — they're 
 This isn't the first time radical tool change punished expertise:
 
 | Era | What Experts Couldn't Unlearn |
-|---|---|
+| --- | --- |
 | Printing press | Scribes who perfected handwriting |
 | Photography | Painters who mastered realism |
 | Spreadsheets | Accountants who mastered manual ledgers |

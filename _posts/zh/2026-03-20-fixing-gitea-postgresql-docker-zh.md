@@ -94,7 +94,7 @@ sudo ufw allow from 172.16.0.0/12 to any port 5433 proto tcp comment 'postgresql
 ```
 
 | 部分 | 含义 |
-|------|------|
+| ------ | ------ |
 | `from 172.16.0.0/12` | 仅 Docker 网络（172.16.0.0 – 172.31.255.255） |
 | `to any port 5433` | PostgreSQL 的端口 |
 | `proto tcp` | PostgreSQL 使用 TCP |
@@ -125,7 +125,7 @@ sudo ufw allow from 172.16.0.0/12 to any port 5433 proto tcp comment 'postgresql
 ### 总结
 
 | 问题 | 症状 | 修复 |
-|------|------|------|
+| ------ | ------ | ------ |
 | PostgreSQL 仅在 `localhost` | 容器无法访问主机的 loopback | `listen_addresses = '*'` |
 | 自定义 Docker 网络 ≠ 桥接 | `host.docker.internal` 解析到错误的网关 | 已由 `listen_addresses = '*'` 处理 |
 | iptables 丢弃 Docker → 主机流量 | 连接超时 | `ufw allow from 172.16.0.0/12 to port 5433` |

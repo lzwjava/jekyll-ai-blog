@@ -42,7 +42,7 @@ The difference is: **extraction built on top of genuine capability creation** vs
 **Why banks can't scale like tech**
 
 | Factor | Banks | Nvidia/Apple |
-|---|---|---|
+| --- | --- | --- |
 | Product | Money (commodity) | Compute / devices (differentiated) |
 | Margin source | Spread + fees | IP + platform lock-in |
 | Regulatory ceiling | Hard cap on leverage/risk | Essentially none |

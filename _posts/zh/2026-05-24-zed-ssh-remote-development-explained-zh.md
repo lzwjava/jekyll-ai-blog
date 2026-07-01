@@ -33,7 +33,7 @@ zed ssh://[user@]host[:port]/path
 ## 与 VS Code Remote SSH 的主要区别
 
 | 特性 | Zed | VS Code |
-|---|---|---|
+| --- | --- | --- |
 | UI 渲染 | 本地（GPU，120fps） | 本地 |
 | LSP 运行 | 远程 ✅ | 远程 ✅ |
 | 服务器二进制文件 | 自动下载 | 基于扩展 |

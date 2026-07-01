@@ -37,7 +37,7 @@ type: note
 ### 第二层：任务专用 SFT 数据
 
 | 数据集 | 大小 | 用途 |
-|---|---|---|
+| --- | --- | --- |
 | `zeroshot/twitter-financial-news-sentiment` | ~1.1 万 | 情感分析（FinSentiment） |
 | `nickmuchi/financial-classification` | ~5000 | 新闻分类 |
 | `FinGPT/fingpt-sentiment-train` | ~7.6 万 | 情感 SFT（FinGPT 风格） |

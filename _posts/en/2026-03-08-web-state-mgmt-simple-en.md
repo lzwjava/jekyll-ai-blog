@@ -32,7 +32,7 @@ In 1994, Lou Montulli, a Netscape engineer, developed the Cookie mechanism to so
 ## 2. The Most Fundamental Difference Between Cookie and Session
 
 | Feature | Cookie | Session |
-|---|---|---|
+| --- | --- | --- |
 | **Storage Location** | **Client-side** (browser) | **Server-side** (server memory/database) |
 | Security | Lower (can be modified by user) | Higher (user cannot directly access) |
 | Data Size | Limited (~4KB per cookie) | Much larger (limited by server resources) |

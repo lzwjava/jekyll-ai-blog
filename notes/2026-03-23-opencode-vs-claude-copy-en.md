@@ -46,7 +46,7 @@ The key gap is that Claude Code has no prominent built-in export button in its U
 Your core point holds up well:
 
 | Feature | OpenCode `/export` | Claude Code `/copy` |
-|---|---|---|
+| --- | --- | --- |
 | **Scope** | Full session, all turns | Last response (or N responses) |
 | **Format** | Structured Markdown with toggles | Plain text or clipboard |
 | **Tool details** | Toggleable (thinking blocks, tool calls) | Not included by default |

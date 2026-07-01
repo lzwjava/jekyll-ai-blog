@@ -12,7 +12,7 @@ type: note
 所有10个已移除。清理摘要：
 
 | 已移除 | 状态 |
-|---|---|
+| --- | --- |
 | `tomoki1207.pdf` — PDF 查看器 | 已移除 |
 | `yzane.markdown-pdf` — PDF 导出 | 已移除 |
 | `xdebug.php-pack` — PHP | 已移除 |

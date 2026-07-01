@@ -71,7 +71,7 @@ For CodeLlama/DeepSeek-Coder, they evaluate on HumanEval pass@k rather than PPL 
 ## Practical Interpretation During Your Training Runs
 
 | PPL Range | What it means |
-|-----------|--------------|
+| ----------- | -------------- |
 | Dropping fast early | Normal — model learning basic patterns |
 | Plateau | LR decay needed, or data quality issue |
 | Val PPL rising while train PPL drops | Overfitting |

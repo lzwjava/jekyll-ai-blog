@@ -76,7 +76,7 @@ if skipped:
 在这个规模下，你的JSON加手动去重方案是**正确且足够的**。这个模式与SQLite的功能对应关系清晰：
 
 | SQLite | 你的JSON方案 |
-|---|---|
+| --- | --- |
 | `PRIMARY KEY (date)` | 返回`date`的`_record_key` |
 | `INSERT OR IGNORE` | `if key in existing_keys: skip` |
 | `UNIQUE (week_start, week_end)` | `f"{week_start}_{week_end}"` 复合键 |

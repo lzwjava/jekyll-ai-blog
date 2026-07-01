@@ -74,7 +74,7 @@ This effectively gives you the same experience as Twitter/X's auto-translation, 
 ## Summary Table
 
 | Method | Auto? | Covers All Posts? |
-|---|---|---|
+| --- | --- | --- |
 | LinkedIn "See Translation" button | ❌ Manual click | ✅ Per post |
 | LinkedIn auto-translate (DE/ES/FR/PT only) | ✅ Auto | ✅ Yes |
 | Browser (Chrome/Edge) translate | ✅ Auto | ✅ Yes, whole page |

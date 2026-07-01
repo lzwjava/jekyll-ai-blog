@@ -14,7 +14,7 @@ This is a great comparison. You’ve already identified many key trade-offs. Let
 ## Summary Table: Car vs. Coffee Shop
 
 | Factor | Car (with desk) | Coffee Shop |
-|--------|----------------|-------------|
+| -------- | ---------------- | ------------- |
 | **Cost** | Free (except fuel/electricity) | 3–4 drinks/day (¥60–100+) |
 | **Privacy / Freedom** | High — no need to buy anything, talk aloud | Low — must consume, can’t be too loud |
 | **Urination (male)** | Easy — grassland works | Requires bathroom (usually free) |

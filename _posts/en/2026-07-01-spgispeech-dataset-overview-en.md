@@ -30,7 +30,7 @@ SPGISpeech is a corpus of 5,000 hours of professionally-transcribed financial au
 2. **Size.** Total is 781 GB, but there are three train configs so you don't have to pull it all:
 
 | Subset | Size |
-|---|---|
+| --- | --- |
 | S | 22GB |
 | M | 107GB |
 | L | 530GB (superset of M, which is superset of S) |

@@ -79,15 +79,15 @@ nginx
 
 你当前的列表大部分没问题，但需要更新：
 
-| 旧版本                 | 新版本                  |
+| 旧版本 | 新版本 |
 | --------------------- | --------------------- |
-| libjpeg-dev           | libjpeg62-turbo-dev   |
-| libpng-dev            | libpng-dev (ok)       |
-| libfreetype6-dev      | libfreetype6-dev (ok) |
-| libssl-dev            | 使用操作系统默认        |
-| libcurl4-openssl-dev  | OK                    |
-| libxml2-dev           | OK                    |
-| ffmpeg                | OK（保留）             |
+| libjpeg-dev | libjpeg62-turbo-dev |
+| libpng-dev | libpng-dev (ok) |
+| libfreetype6-dev | libfreetype6-dev (ok) |
+| libssl-dev | 使用操作系统默认 |
+| libcurl4-openssl-dev | OK |
+| libxml2-dev | OK |
+| ffmpeg | OK（保留） |
 
 ---
 

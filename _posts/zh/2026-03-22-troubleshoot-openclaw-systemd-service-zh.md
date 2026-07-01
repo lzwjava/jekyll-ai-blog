@@ -65,7 +65,7 @@ cd /home/lzw/.npm-global/lib/node_modules/openclaw && npm ls 2>&1 | grep "missin
 ## 快速诊断总结
 
 | Symptom | Likely Cause |
-|---|---|
+| --- | --- |
 | `MODULE_NOT_FOUND` | Missing npm dependency |
 | `EADDRINUSE` | Port already in use |
 | `EACCES` | Permission denied on port/file |

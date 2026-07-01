@@ -42,7 +42,7 @@ True language fluency means your brain retrieves and produces the foreign langua
 ## The Specific Parallels
 
 | Language learning shortcut | What it actually trains |
-|---|---|
+| --- | --- |
 | Thinking in L1, translating to L2 | Translation skill, not fluency |
 | Switching to native language when stuck | Avoidance of the hard moment |
 | Over-relying on grammar rules consciously | Analytical knowledge, not automatic speech |

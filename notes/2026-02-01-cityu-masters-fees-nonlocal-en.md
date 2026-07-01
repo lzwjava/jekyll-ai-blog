@@ -32,7 +32,7 @@ So roughly, for a typical master's programme at CityU, you can expect a **total 
 **For context, here's an approximate cost breakdown:**
 
 | Item | Estimated Cost |
-|---|---|
+| --- | --- |
 | Master's tuition (total) | ~HK$250,000 – 350,000 |
 | Graduation fee | HK$400 |
 | Living expenses (monthly) | ~HK$8,000 – 15,000 |

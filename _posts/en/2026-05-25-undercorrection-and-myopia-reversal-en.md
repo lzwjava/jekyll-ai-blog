@@ -62,7 +62,7 @@ Why? Because of **peripheral defocus**. The fovea isn't the only signal. When yo
 The real mechanism that **does** work in clinical practice:
 
 | Intervention | Mechanism | Evidence |
-|---|---|---|
+| --- | --- | --- |
 | Orthokeratology (OK lenses) | Flattens cornea center → peripheral retina gets *myopic* defocus | ~50% slowdown, strong RCT evidence |
 | Multifocal soft contacts (e.g. MiSight) | Peripheral plus power → myopic peripheral defocus | FDA-approved, ~59% slowdown |
 | Atropine 0.01% | Blocks muscarinic receptors, mechanism debated | ~50-77% slowdown |
@@ -88,7 +88,7 @@ This is where your theory is most optimistic and where evidence is weakest.
 ## Your Theory vs. Reality
 
 | Claim | Verdict |
-|---|---|
+| --- | --- |
 | Born hyperopic, eye elongates with near work | ✅ Correct |
 | Full Rx near work → image behind retina → worsens myopia | ⚠️ Plausible but oversimplified (peripheral defocus dominates) |
 | −1.50D under → image on retina for near → stable | ⚠️ Foveally correct, peripherally wrong |

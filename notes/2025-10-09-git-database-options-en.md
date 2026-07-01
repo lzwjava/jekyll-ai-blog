@@ -18,13 +18,13 @@ For your 10k-100k records (1-2 tables), prioritize lightweight, local-first opti
 
 #### Quick Comparison of Options
 
-| Option              | Type                  | Git-Friendliness                          | Local Setup Ease | Size/Perf for 10k-100k | Key Workflow for Git Sync |
-|---------------------|-----------------------|-------------------------------------------|------------------|------------------------|---------------------------|
-| **MongoDB (Local/Embedded)** | NoSQL Document DB    | Good with exports: Dump to JSON via `mongoexport`. Diffs show changes clearly. | Medium: Install MongoDB Community or use Realm (embedded). | Handles well; JSON dumps ~5-20 MB. | Script: Export collection to JSON → sort → commit. Sync: `mongorestore` from JSON. |
-| **Redis (Local)**  | In-Memory Key-Value  | Fair: Native dumps (RDB) are binary; use tools like redis-dump for JSON export. | Easy: Single binary install. | Fast for reads; persists to disk. Dumps small if sparse. | Cron/script: `redis-dump > data.json` → commit. Sync: `redis-load` from JSON. |
-| **LowDB**          | File-Based NoSQL     | Excellent: Stores directly as JSON file. Native git diffs. | Very easy: NPM/Python lib, no server. | Ideal for small data; loads fully in memory. | Edit via API → auto-save JSON → git add/commit. No extra dump needed. |
-| **PouchDB**        | Offline-First NoSQL  | Very good: JSON docs; syncs with CouchDB if needed. Diffs via exports. | Easy: JS lib, works in browser/Node. | Efficient; auto-syncs changes. | Changes auto-persist to IndexedDB/file → export to JSON for git. Periodic bulk sync. |
-| **Datascript**     | In-Memory Datalog    | Excellent: Serializes to EDN (text) files for diffs. | Easy: Clojure/JS lib. | Query-focused; small footprint. | Query/update → write EDN snapshot → commit. Great for relational-ish data. |
+| Option | Type | Git-Friendliness | Local Setup Ease | Size/Perf for 10k-100k | Key Workflow for Git Sync |
+| --------------------- | ----------------------- | ------------------------------------------- | ------------------ | ------------------------ | --------------------------- |
+| **MongoDB (Local/Embedded)** | NoSQL Document DB | Good with exports: Dump to JSON via `mongoexport`. Diffs show changes clearly. | Medium: Install MongoDB Community or use Realm (embedded). | Handles well; JSON dumps ~5-20 MB. | Script: Export collection to JSON → sort → commit. Sync: `mongorestore` from JSON. |
+| **Redis (Local)** | In-Memory Key-Value | Fair: Native dumps (RDB) are binary; use tools like redis-dump for JSON export. | Easy: Single binary install. | Fast for reads; persists to disk. Dumps small if sparse. | Cron/script: `redis-dump > data.json` → commit. Sync: `redis-load` from JSON. |
+| **LowDB** | File-Based NoSQL | Excellent: Stores directly as JSON file. Native git diffs. | Very easy: NPM/Python lib, no server. | Ideal for small data; loads fully in memory. | Edit via API → auto-save JSON → git add/commit. No extra dump needed. |
+| **PouchDB** | Offline-First NoSQL | Very good: JSON docs; syncs with CouchDB if needed. Diffs via exports. | Easy: JS lib, works in browser/Node. | Efficient; auto-syncs changes. | Changes auto-persist to IndexedDB/file → export to JSON for git. Periodic bulk sync. |
+| **Datascript** | In-Memory Datalog | Excellent: Serializes to EDN (text) files for diffs. | Easy: Clojure/JS lib. | Query-focused; small footprint. | Query/update → write EDN snapshot → commit. Great for relational-ish data. |
 
 #### Pros/Cons and Recommendations
 

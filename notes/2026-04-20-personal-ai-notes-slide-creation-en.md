@@ -62,7 +62,7 @@ This demonstrates **AI-augmented knowledge work** - where the AI doesn't just ge
 ## Comparison to Traditional Methods
 
 | Traditional Approach | AI-Assisted Note-to-Slides |
-|---------------------|---------------------------|
+| --------------------- | --------------------------- |
 | Manual search through notes | Automated pattern matching |
 | Copy-paste content | Intelligent synthesis |
 | Time: 30-60 minutes | Time: 2-5 minutes |

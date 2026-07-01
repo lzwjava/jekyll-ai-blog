@@ -51,7 +51,7 @@ Multimode means the fiber can **propagate multiple modes** simultaneously.
 ## Key Comparison Table
 
 | Feature | Single Mode (SMF) | Multimode (MMF) |
-|---|---|---|
+| --- | --- | --- |
 | Core Diameter | ~9 µm | 50 or 62.5 µm |
 | Light Source | Laser | LED / VCSEL |
 | Wavelength | 1310 nm, 1550 nm | 850 nm, 1300 nm |

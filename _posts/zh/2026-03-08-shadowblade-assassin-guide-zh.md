@@ -100,7 +100,7 @@ Honor of Kings 中“plant flag”很可能指的是**视野/ward 放置**或**�
 ### 优势与劣势总结
 
 | Strengths | Weaknesses |
-|---|---|
+| --- | --- |
 | 前期滚雪球强势 | 落后时非常弱 |
 | 内置隐身（适合 gank） | 无持续或后期伤害 |
 | 击晕 + 减速 CC 组合 | 仅单体 CC |

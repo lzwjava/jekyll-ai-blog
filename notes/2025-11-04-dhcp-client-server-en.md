@@ -35,7 +35,7 @@ If the router's DHCP server is off, clients might need static IPs or another ser
 ### Common Scenarios
 
 | Setup | DHCP Server Location | Client Behavior |
-|-------|----------------------|-----------------|
+| ------- | ---------------------- | ----------------- |
 | **Home Network** | Router (enabled) | Auto-configures everything |
 | **No Router DHCP** | Manual/static IPs or external server | Client falls back to APIPA (169.254.x.x) if no response |
 | **Enterprise** | Dedicated DHCP server (not router) | Same client request process |

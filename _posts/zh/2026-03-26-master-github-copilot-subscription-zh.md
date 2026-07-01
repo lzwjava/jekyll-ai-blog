@@ -80,7 +80,7 @@ MCP servers 配置在 `.vscode/mcp.json`（workspace）或用户配置文件 `mc
 ## 总结：个人练习的重点内容
 
 | 技能 | 为什么可以迁移 |
-|---|---|
+| --- | --- |
 | `settings.json` 配置（user + workspace 级别） | 相同的 JSON 结构在企业环境中同样有效 |
 | Custom instructions (`.github/copilot-instructions.md`) | 完全可移植到任何 repo |
 | Agent mode + agentic workflows | 当企业开启这些功能时，你知道有哪些可用 |

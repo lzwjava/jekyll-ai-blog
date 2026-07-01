@@ -29,7 +29,7 @@ type: note
 **识别出的仅限 Chrome 的 API：**
 
 | API | 所在位置 | 问题 |
-|---|---|---|
+| --- | --- | --- |
 | `chrome.storage.sync` | `settings.js`（第 19、67 行） | Safari 不支持 — 必须改用 `chrome.storage.local` |
 | `chrome.extension.getBackgroundPage()` | `popup.js`（第 2 行） | Safari 中可用 ✓ |
 | `chrome.tabs.*`、`chrome.windows.*` | `tabmanager.js` | Safari Web Extensions 完全支持 ✓ |
@@ -101,7 +101,7 @@ xcrun safari-web-extension-converter safari-tabs-killer \
 **参数说明：**
 
 | 参数 | 原因 |
-|---|---|
+| --- | --- |
 | `--app-name "TabsKiller"` | 命名 macOS 应用程序包装器 |
 | `--bundle-identifier "com.lzw.tabskiller"` | 用于代码签名的反向域名 ID |
 | `--macos-only` | 仅生成 macOS 目标（不包括 iOS/iPadOS） |
@@ -132,7 +132,7 @@ error: Embedded binary's bundle identifier is not prefixed with the parent app's
 **根本原因：** 转换器设置了不同的包标识符，且大小写不匹配：
 
 | 目标 | Bundle ID |
-|---|---|
+| --- | --- |
 | 主机应用 | `com.lzw.TabsKiller` |
 | 扩展 | `com.lzw.tabskiller.Extension` |
 

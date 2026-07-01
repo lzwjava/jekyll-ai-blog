@@ -20,7 +20,7 @@ Here is a comprehensive reference of frequently used terminal commands for devel
 ## 📁 Navigation & Directory
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `pwd` | Print current working directory | `pwd` |
 | `ls` | List files in current directory | `ls -la` |
 | `cd` | Change directory | `cd ~/projects` |
@@ -39,7 +39,7 @@ Here is a comprehensive reference of frequently used terminal commands for devel
 ## 📄 File Operations
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `touch` | Create an empty file | `touch index.js` |
 | `cp` | Copy file or directory | `cp file.txt backup.txt` |
 | `mv` | Move or rename file | `mv old.js new.js` |
@@ -55,7 +55,7 @@ Here is a comprehensive reference of frequently used terminal commands for devel
 ## 🔍 Search & Text
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `grep` | Search text inside files | `grep -r "TODO" ./src` |
 | `sed` | Stream editor, find & replace | `sed 's/foo/bar/g' file.txt` |
 | `awk` | Text processing / pattern scanning | `awk '{print $1}' file.txt` |
@@ -70,7 +70,7 @@ Here is a comprehensive reference of frequently used terminal commands for devel
 Commands like `ps`, `kill`, and `top`/`htop` are essential for process management on both macOS and Linux.
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `ps` | Show running processes | `ps aux` |
 | `top` | Real-time process viewer | `top` |
 | `htop` | Enhanced process viewer (install via Homebrew) | `htop` |
@@ -88,7 +88,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 `curl` and `wget` are essential for transferring data to or from a server, particularly useful for testing APIs. `ssh` is used for securely connecting to remote servers, which is fundamental for deployment workflows.
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `curl` | Transfer data via URL / test APIs | `curl -I https://example.com` |
 | `wget` | Download files from the web | `wget https://example.com/file.zip` |
 | `ssh` | Secure shell into remote server | `ssh user@192.168.1.1` |
@@ -103,7 +103,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 ## 🗜️ Archives & Compression
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `tar` | Archive files | `tar -czvf archive.tar.gz ./dist` |
 | `tar` (extract) | Extract archive | `tar -xzvf archive.tar.gz` |
 | `zip` / `unzip` | Zip and unzip files | `zip -r out.zip ./folder` |
@@ -114,7 +114,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 ## 🔐 Permissions & Ownership
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `chmod` | Change file permissions | `chmod +x script.sh` |
 | `chown` | Change file owner | `chown user:group file.txt` |
 | `sudo` | Run command as superuser | `sudo npm install -g yarn` |
@@ -125,7 +125,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 ## 💻 System Info & Disk
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `df` | Disk free space | `df -h` |
 | `du` | Disk usage of directory | `du -sh ./node_modules` |
 | `uname` | System info | `uname -a` |
@@ -143,7 +143,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 `git` is the cornerstone of version control — command-line proficiency is invaluable even if you also use GUI tools.
 
 | Command | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `git` | Version control | `git log --oneline --graph --all` |
 | `npm` / `yarn` / `pnpm` | Node.js package managers | `npm install` |
 | `brew` | Homebrew package manager (macOS) | `brew install htop` |
@@ -160,7 +160,7 @@ Commands like `ps`, `kill`, and `top`/`htop` are essential for process managemen
 ## 🔗 Pipe & Redirection (Essential Concepts)
 
 | Operator | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | `\|` | Pipe output to another command | `ps aux \| grep node` |
 | `>` | Redirect output to file (overwrite) | `echo "hello" > file.txt` |
 | `>>` | Append output to file | `echo "line" >> file.txt` |

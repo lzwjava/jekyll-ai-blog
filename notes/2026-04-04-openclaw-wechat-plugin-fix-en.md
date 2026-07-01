@@ -63,7 +63,7 @@ Good question. Let me break down exactly what happened — the full chain from "
 ### What Each Tool Did
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | `exec` | Ran all shell commands — npm install, openclaw status, grep, file reads |
 | `process` | Monitored long-running commands (mtr, npm, login) |
 | `read` | Read plugin source code to understand the login API |

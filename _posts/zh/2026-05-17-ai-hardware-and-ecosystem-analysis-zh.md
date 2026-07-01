@@ -35,8 +35,8 @@ type: note
 ### 2.0. ### 2. 硬件规格对比
 
 | 特性 | NVIDIA DGX Spark | AMD Ryzen AI Max+ 395 迷你PC |
-|---|---|---|
-|---|---|---|---|
+| --- | --- | --- |
+| --- | --- | --- | --- |
 | 芯片 | GB10 Grace Blackwell | Ryzen AI Max+ 395 (Strix Halo) |
 | 内存 | 128GB LPDDR5X 统一内存 | 128GB LPDDR5X 统一内存 |
 | AI算力 | 1 petaFLOP (FP4) | 126 AI TOPS (NPU+GPU) |

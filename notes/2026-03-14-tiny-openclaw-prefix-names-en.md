@@ -16,7 +16,7 @@ Answer:
 ## 3-Letter Prefix + "claw" — Full English Words
 
 | Name | Full Name Feel | Meaning/Vibe |
-|---|---|---|
+| --- | --- | --- |
 | **dimclaw** | dim | Small, faint, understated |
 | **dotclaw** | dot | Tiny point — minimalist icon |
 | **budclaw** | bud | Small beginning, seed-like |
@@ -36,7 +36,7 @@ Answer:
 ## 4-Letter Prefix + "claw" — Full English Words
 
 | Name | Meaning/Vibe |
-|---|---|
+| --- | --- |
 | **tinyclaw** | Most natural "small" word — already used though |
 | **coreclaw** | Only the core, nothing extra |
 | **trimclaw** | Trimmed down, clean |
@@ -60,7 +60,7 @@ Answer:
 ### Best 3-letter prefix
 
 | Rank | Name | Why |
-|---|---|---|
+| --- | --- | --- |
 | 🥇 | **`bitclaw`** | "bit" = smallest data unit — perfectly implies tiny, very developer-resonant |
 | 🥈 | **`dotclaw`** | A dot is the smallest thing — minimal, iconic |
 | 🥉 | **`podclaw`** | Clean, modern, container feel |
@@ -68,7 +68,7 @@ Answer:
 ### Best 4-letter prefix
 
 | Rank | Name | Why |
-|---|---|---|
+| --- | --- | --- |
 | 🥇 | **`pureclaw`** | Pure = nothing added, nothing removed — elegant |
 | 🥈 | **`trimclaw`** | "Trimmed" OpenClaw — immediately understood |
 | 🥉 | **`tidyclaw`** | Friendly, clean, memorable — implies neat minimal codebase |

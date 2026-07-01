@@ -44,7 +44,7 @@ nohup /home/lzw/projects/llama.cpp/build/bin/llama-server \
 ### Changes made on the server
 
 | What | Change |
-|------|--------|
+| ------ | -------- |
 | `/etc/proxychains4.conf` | Uncommented `localnet 192.168.0.0/255.255.0.0` |
 | `~/.openclaw/openclaw.json` | baseUrl was temporarily changed to `127.0.0.1`, reverted back to `192.168.1.36` |
 | openclaw-gateway | Restarted via systemctl |

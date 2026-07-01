@@ -124,7 +124,7 @@ killall -9 processname
 ## 常见锁定磁盘的进程
 
 | 进程 | 原因 | 解决方案 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | `Finder` | 浏览磁盘 | 关闭该磁盘的 Finder 窗口 |
 | `Spotlight` | 索引驱动器 | 为外部驱动器禁用 Spotlight (System Settings > Siri & Spotlight) |
 | `Backup` 或 `Time Machine` | 自动备份运行中 | 等待备份完成或禁用 |

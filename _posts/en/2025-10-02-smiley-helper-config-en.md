@@ -42,7 +42,7 @@ The file ensures direct access is blocked via `defined('BASEPATH') OR exit('No d
 The array includes 40+ mappings grouped by emotion type. Most images are 19x19px GIFs. Here's a summarized view (with examples):
 
 | Smiley Code(s) | Image | Alt Text | Notes |
-|---------------|-------|----------|-------|
+| --------------- | ------- | ---------- | ------- |
 | `:-)`, `:)` | grin.gif, smile.gif | grin, smile | Positive grins and smiles. |
 | `:lol:`, `:cheese:` | lol.gif, cheese.gif | LOL, cheese | Laughing/thumbs up, cheesy grin. |
 | `;-)`, `;)` | wink.gif | wink | Winking. |

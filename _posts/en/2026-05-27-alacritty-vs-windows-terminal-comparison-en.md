@@ -20,7 +20,7 @@ Short answer: **Alacritty wins on raw performance and config-as-code; Windows Te
 ## Performance
 
 | | Alacritty | Windows Terminal |
-|---|---|---|
+| --- | --- | --- |
 | Renderer | GPU-accelerated (OpenGL/Vulkan) | GPU-accelerated (DirectX) |
 | Latency | Best-in-class (~1ms input lag) | Good, not as aggressive |
 | Scrollback | Configurable, fast | Slower with large buffers |

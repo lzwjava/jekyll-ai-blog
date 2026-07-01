@@ -64,7 +64,7 @@ All of this runs perfectly fine on bare metal Linux — no AWS required.
 ## 5. Where AWS/GCP Still Win (Be Honest About the Trade-offs)
 
 | Need | Bare Metal + OSS | AWS/GCP |
-|---|---|---|
+| --- | --- | --- |
 | Predictable cost | ✅ | ❌ (egress fees, surprise bills) |
 | Full control | ✅ | Partial |
 | No vendor lock-in | ✅ | ❌ |

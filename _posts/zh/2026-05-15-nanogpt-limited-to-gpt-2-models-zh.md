@@ -19,14 +19,14 @@ type: note
 assert model_type in {'gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'}
 ```
 
-| 模型                                 | 参数量  | 可用？ | 需下载大小                                                                                                               |
+| 模型 | 参数量 | 可用？ | 需下载大小 |
 | ------------------------------------- | ------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
-| `gpt2`                                | 124M    | ✅     | 约 500 MB                                                                                                                   |
-| `gpt2-medium`                         | 350M    | ✅     | 约 1.5 GB                                                                                                                   |
-| `gpt2-large`                          | 774M    | ✅     | 约 3.2 GB                                                                                                                   |
-| `gpt2-xl`                             | 1.5B    | ✅     | 约 6.5 GB                                                                                                                   |
-| **GPT-3**                             | 175B    | ❌     | OpenAI 从未发布权重。本仓库中的“gpt3-style”配置仅用于**从头训练**，使用 GPT-3 超参数。                                     |
-| **Qwen / DeepSeek / Llama / Mistral** | 各不相同 | ❌     | 架构不同 — nanoGPT 无法直接加载。                                                                                            |
+| `gpt2` | 124M | ✅ | 约 500 MB |
+| `gpt2-medium` | 350M | ✅ | 约 1.5 GB |
+| `gpt2-large` | 774M | ✅ | 约 3.2 GB |
+| `gpt2-xl` | 1.5B | ✅ | 约 6.5 GB |
+| **GPT-3** | 175B | ❌ | OpenAI 从未发布权重。本仓库中的“gpt3-style”配置仅用于**从头训练**，使用 GPT-3 超参数。 |
+| **Qwen / DeepSeek / Llama / Mistral** | 各不相同 | ❌ | 架构不同 — nanoGPT 无法直接加载。 |
 
 ## 为什么 nanoGPT 无法加载 Qwen/DeepSeek/Llama
 

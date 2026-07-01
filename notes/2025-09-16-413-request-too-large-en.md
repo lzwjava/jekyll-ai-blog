@@ -24,7 +24,7 @@ type: note
 ## How to resolve it
 
 | Option | What to do | Effect |
-|--------|------------|--------|
+| -------- | ------------ | -------- |
 | **Trim the prompt** | Remove unnecessary text, use concise instructions, or compress data (e.g., summarize large blocks before sending). | Lowers the input token count. |
 | **Reduce `max_tokens`** | Request a shorter completion (e.g., set `max_tokens` to 500 instead of 2000). | Decreases the projected output token count. |
 | **Split the request** | Break a huge document into multiple smaller chunks and call the model sequentially, stitching results together afterwards. | Keeps each call under the TPM limit. |

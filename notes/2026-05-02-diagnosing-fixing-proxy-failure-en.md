@@ -62,7 +62,7 @@ This automatically health-checks both proxies every 5 min and falls back if one 
 ### Summary
 
 | Step | Quality |
-|------|---------|
+| ------ | --------- |
 | Diagnosis from logs | Good |
 | Runtime fix via REST API | Good |
 | Config reorder idea | Good |

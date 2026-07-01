@@ -31,7 +31,7 @@ The program supports Hong Kong's goal of retaining and attracting global talent 
 Applicants must fit one of three categories (you can only apply under one). Academic qualifications must be equivalent to a Hong Kong bachelor's degree.
 
 | Category | Requirements |
-|----------|--------------|
+| ---------- | -------------- |
 | **A: High-Income Professionals** | Annual income of at least HK$2.5 million (≈US$320,000) in the immediate preceding year. No degree or experience minimum required. |
 | **B: Experienced Graduates** | Bachelor's degree or higher from one of the world's top 100 universities (based on QS, Times Higher Education, or Shanghai Jiao Tong rankings) + at least 3 years of full-time post-graduation work experience. (Updated 2025: List expanded to 198 universities, including 13 from mainland China.) |
 | **C: Recent Graduates** | Bachelor's degree or higher from a top 100 university awarded within the last 5 years + less than 3 years of work experience. (Quota: 10,000/year; excludes recent Hong Kong local graduates eligible under the Immigration Arrangements for Non-local Graduates scheme.) |

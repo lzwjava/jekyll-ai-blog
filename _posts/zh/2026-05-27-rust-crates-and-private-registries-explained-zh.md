@@ -248,7 +248,7 @@ deny = ["unmaintained", "unsound", "yanked"]
 ## 总结
 
 | 需求 | 工具 |
-|---|---|
+| --- | --- |
 | 公共开源 | crates.io |
 | 自托管私有注册中心 | Kellnr 或 Gitea |
 | 企业级 SaaS 注册中心 | Artifactory / Cloudsmith |

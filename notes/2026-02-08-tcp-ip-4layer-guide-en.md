@@ -19,7 +19,7 @@ This question tests the **four-layer structure of the TCP/IP reference model**.
 From bottom to top, the layers are:
 
 | Layer | Name | Main Functions | Main Protocols |
-|-------|------|-----------------|-----------------|
+| ------- | ------ | ----------------- | ----------------- |
 | **Layer 4** | **Application Layer** | Provides user application services | HTTP, FTP, SMTP, DNS, Telnet, etc. |
 | Layer 3 | Transport Layer | End-to-end communication | TCP, UDP |
 | Layer 2 | Internet Layer | Routing and logical addressing | IP, ICMP, IGMP |
@@ -28,7 +28,7 @@ From bottom to top, the layers are:
 ## Analysis of All Options
 
 | Option | Explanation |
-|--------|-------------|
+| -------- | ------------- |
 | A | **Presentation Layer** - Belongs to OSI seven-layer model, not TCP/IP model |
 | B | **Session Layer** - Belongs to OSI seven-layer model, not TCP/IP model |
 | C | **Physical Layer** - Belongs to OSI seven-layer model, not TCP/IP model |

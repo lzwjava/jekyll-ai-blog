@@ -26,12 +26,12 @@ Different encodings are just different tables (standards) for doing this mapping
 
 ### Comparison of common encodings
 
-| Encoding   | What it covers                  | How many bytes per character?                  | Notes |
-|------------|---------------------------------|-----------------------------------------------|-------|
-| **ASCII**  | Only basic English: A-Z, a-z, 0-9, punctuation | Always **1 byte** (7-bit actually, values 0–127) | Very old (1960s), cannot represent Chinese, accented letters, etc. |
-| **UTF-8**  | **Entire world**: English + Chinese + Russian + Arabic + emojis + everything (Unicode) | **Variable length**:<br>- ASCII characters: 1 byte<br>- Most Chinese characters: 3 bytes<br>- Emojis, rare characters: 4 bytes | Backward compatible with ASCII<br>Most popular today (used by web, Linux, macOS, etc.) |
+| Encoding | What it covers | How many bytes per character? | Notes |
+| ------------ | --------------------------------- | ----------------------------------------------- | ------- |
+| **ASCII** | Only basic English: A-Z, a-z, 0-9, punctuation | Always **1 byte** (7-bit actually, values 0–127) | Very old (1960s), cannot represent Chinese, accented letters, etc. |
+| **UTF-8** | **Entire world**: English + Chinese + Russian + Arabic + emojis + everything (Unicode) | **Variable length**:<br>- ASCII characters: 1 byte<br>- Most Chinese characters: 3 bytes<br>- Emojis, rare characters: 4 bytes | Backward compatible with ASCII<br>Most popular today (used by web, Linux, macOS, etc.) |
 | **GB2312 / GBK / GB18030** | Chinese simplified characters + some others | Usually **1–2 bytes**:<br>- ASCII: 1 byte<br>- Chinese characters: 2 bytes | Chinese national standards<br>GB2312 (1980): ~7000 Chinese characters<br>GBK: extension of GB2312, more characters<br>GB18030: modern mandatory standard in China, supports almost all Chinese characters + minorities |
-| **Big5**   | Traditional Chinese (Taiwan, Hong Kong) | 1–2 bytes | Similar idea to GB2312 but for traditional characters |
+| **Big5** | Traditional Chinese (Taiwan, Hong Kong) | 1–2 bytes | Similar idea to GB2312 but for traditional characters |
 
 ### Simple example: the character "A" and "你"
 

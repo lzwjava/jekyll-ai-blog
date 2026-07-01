@@ -368,7 +368,7 @@ git clone https://github.com/VerticalResearchGroup/miaow
 ## 需要牢记的关键思维模型
 
 | 概念 | 在软件中对应什么 |
-|---|---|
+| --- | --- |
 | `wire` | 一个实时值，类似始终在计算的返回值 |
 | `reg` | 一个变量，仅在时钟边沿更新 |
 | `always @(*)` | 一个纯函数，当输入变化时重新计算 |

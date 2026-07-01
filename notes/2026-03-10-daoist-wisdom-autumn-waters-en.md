@@ -29,7 +29,7 @@ In Zhuangzi's *"Autumn Waters"* (《秋水》), the essay uses **concrete images
 ### The Four Characters Compared
 
 | Character | Chinese | Role in the Essay | What They Represent |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Summer Insects** | 夏虫 | Used as a negative metaphor | Cannot comprehend ice; limited by time |
 | **Well Frog** | 井蛙 | Used as a negative metaphor | Cannot comprehend the sea; limited by space |
 | **Qu Shi** | 曲士 | Used as a negative metaphor | Cannot comprehend the Dao; limited by narrow education |

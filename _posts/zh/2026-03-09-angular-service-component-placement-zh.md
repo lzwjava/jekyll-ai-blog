@@ -25,7 +25,7 @@ type: note
 ## 规则总结
 
 | 要注册的事物 | 在 `@NgModule` 中的位置 |
-|---|---|
+| --- | --- |
 | 具有 `standalone: false` 的 component / directive / pipe | `declarations` |
 | service（或任何 provider） | `providers` |
 | 在模板中要使用的 standalone component / NgModule / pipe | `imports` |

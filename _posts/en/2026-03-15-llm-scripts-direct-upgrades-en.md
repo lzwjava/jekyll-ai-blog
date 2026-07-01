@@ -103,7 +103,7 @@ sudo ufw delete allow 1022/tcp 2>/dev/null || true
 ## The Right Mental Model
 
 | Task | LLM Role |
-|---|---|
+| --- | --- |
 | Understanding what `do-release-upgrade` does | ✅ Explain thoroughly |
 | Writing pre/post-upgrade shell scripts | ✅ Very well suited |
 | Generating checklists and runbooks | ✅ Very well suited |

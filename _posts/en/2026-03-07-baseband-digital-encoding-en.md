@@ -42,7 +42,7 @@ Common encoding methods used in baseband transmission include three main approac
 Here is a summary of the main types:
 
 | Encoding Type | Chinese Name | Key Feature |
-|---|---|---|
+| --- | --- | --- |
 | NRZ (Non-Return-to-Zero) | 不归零码 | Simple, but no self-clocking |
 | Manchester Encoding | 曼彻斯特编码 | Mid-bit transition; self-clocking; used in Ethernet |
 | Differential Manchester | 差分曼彻斯特编码 | Transition at bit boundary indicates 0; used in Token Ring LANs |

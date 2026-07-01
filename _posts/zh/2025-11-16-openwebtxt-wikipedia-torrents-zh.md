@@ -35,7 +35,7 @@ OpenWebText 是 OpenAI WebText 数据集的开源复现版本，包含从高评�
 种子文件主要集散地为 [Meta-Wiki 数据转储种子页面](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki)，其中列出了最新的英文维基百科转储（例如 enwiki-20251101）。以下是近期转储概览：
 
 | 转储日期 | 文件类型 | 压缩后大小 | 种子链接 | 备注 |
-|-----------|-----------|-----------------|--------------|-------|
+| ----------- | ----------- | ----------------- | -------------- | ------- |
 | 2025-11-01 | 页面-文章（XML，仅摘要） | ~22GB | [enwiki-20251101-pages-articles-multistream.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | 多流格式，最便于文本提取 |
 | 2025-11-01 | 页面-文章-历史（XML，完整修订版） | ~120GB | [enwiki-20251101-pages-meta-history*.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | 包含所有编辑记录，分数据流存储便于处理 |
 | 2025-10-01 | 页面-文章（XML，仅摘要） | ~21GB | [enwiki-20251001-pages-articles-multistream.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | 上月转储，适用于历史对比 |

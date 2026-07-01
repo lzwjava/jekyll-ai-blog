@@ -30,7 +30,7 @@ They're trying to download and extract text from a massive dataset stored in **p
 Each approach ran out of memory (OOM = Out Of Memory, process gets "killed" by the Linux OOM killer):
 
 | Attempt | Method | Why It Failed |
-|---|---|---|
+| --- | --- | --- |
 | 1 | HuggingFace `datasets` streaming | Parquet decompression still buffers heavily in memory |
 | 2 | `wget` download + `pd.read_parquet()` | `pandas` loads the entire 2.1GB file into RAM at once (~6–8GB needed) |
 | 3 | `urllib.request.urlretrieve` + streaming | Still buffered; `pd.read_parquet` too large |

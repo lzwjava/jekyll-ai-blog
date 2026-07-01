@@ -41,7 +41,7 @@ The core system. Two flat files in `~/.hermes/memories/`:
 One external provider can be active at a time, set via `memory.provider` in config.yaml. Available providers:
 
 | Provider | Type | Retrieval |
-|----------|------|-----------|
+| ---------- | ------ | ----------- |
 | **Honcho** | Cloud-hosted, dialectic Q&A | Semantic search + LLM reasoning + peer cards |
 | **Holographic** | Local SQLite + HRR vectors | Entity resolution, trust scoring, compositional queries |
 | **Mem0** | Cloud-hosted | Semantic search |

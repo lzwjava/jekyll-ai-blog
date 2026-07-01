@@ -29,7 +29,7 @@ On a GPU dev machine like your AMD Dev Cloud node, this is almost entirely **Doc
 **Probably not, or at least not urgently.** Here's the reasoning:
 
 | Factor | Assessment |
-|--------|-----------|
+| -------- | ----------- |
 | Reproducible? | Yes — images can be re-pulled from registry |
 | Risk of moving | High — containerd uses hardlinks and overlay mounts; `rsync` can break this |
 | Benefit | Frees 59G on root disk |

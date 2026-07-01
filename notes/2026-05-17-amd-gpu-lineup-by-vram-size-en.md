@@ -111,7 +111,7 @@ This is AMD's **primary sweet spot** for the current generation.
 ## Summary Table
 
 | VRAM | GPU Model | Architecture | Target Use |
-|------|-----------|-------------|------------|
+| ------ | ----------- | ------------- | ------------ |
 | 8 GB | RX 9060 XT 8GB | RDNA 4 | 1080p Gaming |
 | 8 GB | RX 9050 *(rumored)* | RDNA 4 | Budget 1080p |
 | 12 GB | RX 9070 GRE *(China only)* | RDNA 4 | 1440p Mid |

@@ -74,7 +74,7 @@ ClawHub 公共注册表现在托管超过 13,700 个社区构建的 skills（截
 ### TL;DR
 
 | 疯狂用例 | 哇哦因素 |
-|---|---|
+| --- | --- |
 | Car negotiation bot | 💰 Saved $4,200 |
 | Overnight autonomous coding | 🌙 5 bugs fixed while sleeping |
 | Replaced $7,400/mo SaaS | 💸 ~$90K/yr saved |

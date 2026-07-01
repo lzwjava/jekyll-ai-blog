@@ -70,7 +70,7 @@ It is unknown whether Move 37 was a software error or a rare misstep in an other
 ### Summary Table
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Match | AlphaGo vs. Lee Sedol, Game 2, 2016 |
 | Move Type | Shoulder hit on the 5th line |
 | Human Probability | 1 in 10,000 |

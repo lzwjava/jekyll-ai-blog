@@ -43,7 +43,7 @@ Instant Clusters provide fully managed multi-node compute with high-performance 
 ### Key Features
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Boot time | ~37 seconds (PyTorch-ready) |
 | Max scale (on-demand) | Up to 16 GPUs (2 nodes) by default |
 | Extended scale | Up to 64 GPUs (8 nodes) with spend limit increase |

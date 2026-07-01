@@ -38,7 +38,7 @@ type: note
 ### 常见窃听技术
 
 | Technique | Description |
-|---|---|
+| --- | --- |
 | **Packet Sniffing** | 捕获并读取穿越 **network** 的数据包 |
 | **Wiretapping** | 物理或数字方式窃听通信线路 |
 | **Man-in-the-Middle (MitM)** | 攻击者定位于发送方和接收方之间 |
@@ -53,7 +53,7 @@ type: note
 在典型的 **network threats** 背景下，重要的是将 **窃听** 与类似概念区分开来：
 
 | Threat | Chinese Term | Description |
-|---|---|---|
+| --- | --- | --- |
 | **Eavesdropping** | 窃听 | 非法**拦截**传输中的数据 |
 | **Tampering** | 篡改 | 修改传输中的数据 |
 | **Spoofing** | 欺骗/伪装 | 冒充合法用户或系统 |

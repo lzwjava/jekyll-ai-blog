@@ -59,7 +59,7 @@ for data, target in dataloader:
 ### 关键方法
 
 | 方法 | 用途 |
-|-------|--------|
+| ------- | -------- |
 | `scaler.scale(loss)` | 在 `.backward()` 之前缩放损失 |
 | `scaler.step(optimizer)` | 反缩放梯度并调用 `optimizer.step()` |
 | `scaler.update()` | 为下一次迭代调整缩放因子 |

@@ -39,7 +39,7 @@ TabsKiller/                 ← generated Xcode project (builds successfully)
 ### What changed in the source code
 
 | File | Change |
-|---|---|
+| --- | --- |
 | `js/settings.js` | `chrome.storage.sync` → `chrome.storage.local` (Safari doesn't support sync storage) |
 | `js/settings.js` | Default whitelist: `['chrome://*']` → `[]` (Chrome-only scheme) |
 | `README.md` | Updated docs for Safari install instead of Chrome Web Store |

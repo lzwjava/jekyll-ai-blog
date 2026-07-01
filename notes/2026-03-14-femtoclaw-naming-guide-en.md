@@ -18,7 +18,7 @@ type: note
 The OpenClaw community has rapidly spawned a rich family of lightweight alternatives, each following a consistent naming pattern: **[size/property prefix] + "Claw"**. Here's the full landscape of already-taken names you should avoid:
 
 | Name | Description |
-|---|---|
+| --- | --- |
 | **MiniClaw** | A minimalist alternative to OpenClaw using Claude Pro/Max or ChatGPT Plus directly in Telegram |
 | **NanoClaw** | A lightweight, container-based alternative, small enough to understand — ~500 lines of TypeScript |
 | **PicoClaw** | An ultra-lightweight Go-based assistant that runs on $10 hardware with under 10MB RAM |
@@ -36,7 +36,7 @@ Since "Mini," "Nano," "Pico," "Tiny," "Small," "Lite," "Null," "Zero," and "Mimi
 ### Top Picks
 
 | Name | Rationale |
-|---|---|
+| --- | --- |
 | **FemtoClaw** | Femto = 10⁻¹⁵ (smaller than pico/nano) — scientifically conveys "even tinier" |
 | **AtomClaw** | AtomClaw is mentioned in the ecosystem as a JS/TS-compatible variant, but if unclaimed, it's a great size metaphor |
 | **QuarkClaw** | Subatomic — implies the absolute smallest possible implementation |

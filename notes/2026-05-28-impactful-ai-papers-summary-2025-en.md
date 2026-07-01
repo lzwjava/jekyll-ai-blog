@@ -130,7 +130,7 @@ GSPO (Group Sequence Policy Optimization) was used in Qwen3 and contributed "rem
 ## TL;DR Priority Reading Order for You
 
 | Priority | Paper | Why |
-|---|---|---|
+| --- | --- | --- |
 | 🔥 Must | DeepSeek-R1 (2501.12948) | RLVR, GRPO, emergent reasoning |
 | 🔥 Must | Test-Time Compute Scaling (2408.03314) | New scaling axis, pre-training plateau |
 | High | Titans (Dec 2024) | Architecture alternative to attention for long-ctx |

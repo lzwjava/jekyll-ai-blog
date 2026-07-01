@@ -15,7 +15,7 @@ type: note
 Academic conferences in AI (Artificial Intelligence), LLM (Large Language Models), and NLP (Natural Language Processing) are key venues for researchers to present peer-reviewed papers, discuss breakthroughs, and collaborate. These events emphasize rigorous research, often with acceptance rates under 25%. Below, I've compiled a list of the most prominent ones, focusing on flagship conferences. I've prioritized those with strong academic focus and relevance to your query, including upcoming 2025/2026 events where dates are confirmed. For LLM-specific topics, many are integrated into broader AI/NLP tracks.
 
 | Conference | Full Name | Focus Areas | 2025 Dates & Location | Notes |
-|------------|-----------|-------------|-----------------------|-------|
+| ------------ | ----------- | ------------- | ----------------------- | ------- |
 | NeurIPS | Conference on Neural Information Processing Systems | Machine learning, deep learning, LLMs, generative AI, optimization | December 2–7, San Diego, CA, USA | Premier ML conference; features workshops on LLMs and ethics. Acceptance ~20-25%. |
 | ICML | International Conference on Machine Learning | Core ML algorithms, LLMs, reinforcement learning, NLP applications | July 13–19, Vancouver, BC, Canada | Top venue for theoretical and applied ML; includes LLM training/evaluation tracks. |
 | AAAI | AAAI Conference on Artificial Intelligence | Broad AI, including NLP, computer vision, robotics, AI ethics | February 25–March 4, Philadelphia, PA, USA | Long-standing flagship; strong on interdisciplinary AI research. |

@@ -54,7 +54,7 @@ This breaks the current latency ceiling that limits agent architectures.
 Back to your Airbnb analogy from earlier: the market splits into:
 
 | Layer | Winner | Losers |
-|-------|--------|--------|
+| ------- | -------- | -------- |
 | Inference (8B–70B class, fixed models) | Taalas/Cerebras/Groq ASICs | NVIDIA H100/H200 GPU rental for this use case |
 | Training (all models) | NVIDIA still dominant | Taalas (hardwired, can't train) |
 | Inference (frontier/novel architectures) | General-purpose GPU/TPU | Taalas (model-locked until HC2) |

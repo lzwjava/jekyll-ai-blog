@@ -66,7 +66,7 @@ You describe the conflict resolution goal in natural language, and Copilot auton
 ## Key Differences: Plan Mode vs Agent Mode
 
 | Dimension | Plan Mode | Agent Mode |
-|---|---|---|
+| --- | --- | --- |
 | **Primary purpose** | Strategize & blueprint first | Execute autonomously |
 | **Human control** | You approve the plan before execution | Edits applied automatically; risky commands flagged |
 | **When code changes** | After you review & approve the plan | Immediately and continuously |

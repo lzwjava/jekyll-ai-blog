@@ -81,7 +81,7 @@ AI can help plan **strangler fig** style migrations — gradually replacing old 
 AI helps a lot — but it's not magic. Some honest caveats:
 
 | What AI Does Well | Where AI Still Struggles |
-|---|---|
+| --- | --- |
 | Repetitive, mechanical refactoring | Deep business logic understanding |
 | Explaining isolated code blocks | Understanding cross-system side effects |
 | Generating boilerplate tests | Testing complex stateful behavior |

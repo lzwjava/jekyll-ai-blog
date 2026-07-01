@@ -35,11 +35,11 @@ In recent years, Han Han has focused his creative energy on filmmaking, directin
 
 | **Year** | **Title (English)** | **Title (Original)** | **Role(s)** |
 | :--- | :--- | :--- | :--- |
-| 2014 | *The Continent* | 《后会无期》 | Director, Screenwriter  |
-| 2017 | *Duckweed* | 《乘风破浪》 | Director, Screenwriter, Actor  |
-| 2019 | *Pegasus* | 《飞驰人生》 | Director, Screenwriter, Executive Producer  |
-| 2022 | *Only Fools Rush In* | 《四海》 | Director, Screenwriter  |
-| 2024 | *Pegasus 2* | 《飞驰人生2》 | Director, Producer, Screenwriter  |
+| 2014 | *The Continent* | 《后会无期》 | Director, Screenwriter |
+| 2017 | *Duckweed* | 《乘风破浪》 | Director, Screenwriter, Actor |
+| 2019 | *Pegasus* | 《飞驰人生》 | Director, Screenwriter, Executive Producer |
+| 2022 | *Only Fools Rush In* | 《四海》 | Director, Screenwriter |
+| 2024 | *Pegasus 2* | 《飞驰人生2》 | Director, Producer, Screenwriter |
 
 His films often blend drama, comedy, and his personal passion for cars, with *Pegasus* and its sequel directly exploring the world of racing . He has also made cameo appearances in other films, such as the 2015 comedy *Jian Bing Man* .
 

@@ -22,7 +22,7 @@ type: note
 OpenClaw 使用工作区目录（`agents.defaults.workspace`），并在每个新会话的第一轮中将这些用户可编辑文件注入到 agent 上下文中：
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `AGENTS.md` | Operating instructions, rules, memory workflows |
 | `SOUL.md` | Persona, boundaries, ethical constraints, tone |
 | `TOOLS.md` | Tool usage guidance and conventions |
@@ -127,7 +127,7 @@ npx playbooks add skill openclaw/skills --skill agent-config
 ## 总结：规则放置速查表
 
 | Rule Type | File |
-|---|---|
+| --- | --- |
 | Don't leak passwords/secrets | `AGENTS.md` |
 | Don't share personal data | `AGENTS.md` |
 | Prompt injection defense | `AGENTS.md` |

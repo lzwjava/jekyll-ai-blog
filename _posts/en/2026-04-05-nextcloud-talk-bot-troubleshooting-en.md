@@ -14,7 +14,7 @@ type: note
 ### 🔍 Root Causes Found (in order of discovery)
 
 | # | Issue | Error Seen | Why It Happened |
-|---|-------|------------|----------------|
+| --- | ------- | ------------ | ---------------- |
 | 1 | **`baseUrl` mismatch** | `401 Invalid backend` | Nextcloud sends `X-Nextcloud-Talk-Backend: http://localhost`, but OpenClaw expected `http://172.17.0.1:8080` |
 | 2 | **`allowPrivateNetwork` missing** | `blocked URL fetch... reason=Blocked: private IP` | OpenClaw's security blocked outbound calls to Docker's `172.17.0.1` |
 | 3 | **Missing `webhookPublicUrl`** | Nextcloud couldn't find webhook URL | Bot registered with wrong/unreachable URL |
@@ -82,7 +82,7 @@ OpenClaw was sending replies to `http://localhost/ocs/v2.php/...` which hit ngin
 ### ✅ Current Status
 
 | Component | Value | Status |
-|-----------|-------|--------|
+| ----------- | ------- | -------- |
 | Nextcloud `overwrite.cli.url` | `http://localhost:8080` | ✅ |
 | OpenClaw `baseUrl` | `http://localhost:8080` | ✅ |
 | OpenClaw `webhookPublicUrl` | `http://172.17.0.1:8788` | ✅ |

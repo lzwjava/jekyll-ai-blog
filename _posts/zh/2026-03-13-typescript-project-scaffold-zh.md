@@ -70,7 +70,7 @@ npx degit ericc-ch/copilot-api my-proxy-project
 ## 比较表格
 
 | 工具 | 最适合 | 命令 |
-|---|---|---|
+| --- | --- | --- |
 | `create-tsdown` | TypeScript library/CLI（与 copilot-api 相同的技术栈） | `npm create tsdown@latest` |
 | `create-vite` | 前端 + TS 应用 | `npm create vite@latest` |
 | `degit` | 克隆任何 GitHub 模板 | `npx degit user/repo` |

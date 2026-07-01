@@ -38,7 +38,7 @@ Forgejo's governance is collectively defined by its contributors.
 Forgejo focuses on **security, scaling, federation, and privacy**. Here's a breakdown of its core highlights:
 
 | Feature | Description |
-|---|---|
+| --- | --- |
 | **Simple Project Management** | Designed for collaboration and productivity with ease of use in mind |
 | **GitHub Alternative** | Offers a familiar environment for GitHub users, enabling a smooth transition to a platform you own |
 | **Easy Installation** | Hosting your own forge does not require expert skills |

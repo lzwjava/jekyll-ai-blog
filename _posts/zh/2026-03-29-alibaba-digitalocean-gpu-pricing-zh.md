@@ -18,10 +18,10 @@ type: note
 | Provider | Instance/GPU Type | GPU Model | vCPU / RAM | Price (Hourly) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Alibaba Cloud** | `ecs.gn7i-c8g1.2xlarge` | 1x NVIDIA A10 (24GB) | 8 vCPU / 30GB | **$0.78** |
-| **Alibaba Cloud** | `ecs.gn7i-c32g1.8xlarge`| 1x NVIDIA A10 (24GB) | 32 vCPU / 188GB| **$0.99** |
+| **Alibaba Cloud** | `ecs.gn7i-c32g1.8xlarge` | 1x NVIDIA A10 (24GB) | 32 vCPU / 188GB | **$0.99** |
 | **DigitalOcean** | GPU Droplet | 1x NVIDIA RTX 4000 | 8 vCPU / 32GB | **$0.76** |
 | **DigitalOcean** | GPU Droplet | 1x NVIDIA RTX 6000 | 8 vCPU / 64GB | **$1.57** |
-| **DigitalOcean** | GPU Droplet | 1x NVIDIA H100 | 20 vCPU / 240GB| **$3.39** |
+| **DigitalOcean** | GPU Droplet | 1x NVIDIA H100 | 20 vCPU / 240GB | **$3.39** |
 
 ### **核心差异**
 

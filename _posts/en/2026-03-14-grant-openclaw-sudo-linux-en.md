@@ -132,7 +132,7 @@ sudo apt update
 ## Summary
 
 | Option | Security | Convenience | Recommended? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Add to sudo group only | 🟡 Medium | ❌ Needs password | ❌ Won't work unattended |
 | `NOPASSWD: ALL` in visudo | 🟡 Home use OK | ✅ Full access | ✅ Best for home server |
 | `NOPASSWD` specific commands | ✅ Most secure | 🟡 Limited | ✅ Best for production |

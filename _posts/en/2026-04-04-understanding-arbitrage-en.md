@@ -65,7 +65,7 @@ As technology has advanced and trading has become increasingly digitized, it's g
 ### In Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Action | Buy low in Market A, sell high in Market B |
 | Timing | Simultaneous (or near-simultaneous) |
 | Profit source | Price discrepancy between markets |

@@ -37,7 +37,7 @@ Mo  Tu  We  Th  Fr  Sa  Su
 ### Weekly Breakdown & Punch Requirements
 
 | Week | Dates | Working Days | Min Punches Required |
-|------|-------|-------------|----------------------|
+| ------ | ------- | ------------- | ---------------------- |
 | W1 | Jun 1–5 | 5 | **3** |
 | W2 | Jun 8–12 | 5 | **3** |
 | W3 | Jun 15–19 | 4 (Jun 19 = holiday) | **3** (2.4 → round up) |
@@ -57,7 +57,7 @@ Mo  Tu  We  Th  Fr  Sa  Su
 ### Summary
 
 | Item | Value |
-|------|-------|
+| ------ | ------- |
 | Total working days (June 2026) | **21** |
 | Monthly punch minimum | **13 days** |
 | Holiday | Jun 19 (Dragon Boat Festival, Friday) |

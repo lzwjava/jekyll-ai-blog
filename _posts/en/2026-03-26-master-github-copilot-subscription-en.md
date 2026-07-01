@@ -80,7 +80,7 @@ If you have an active Copilot Pro or Copilot Pro+ plan and are then **assigned a
 ## Summary: What to Specifically Practice on Personal
 
 | Skill | Why It Transfers |
-|---|---|
+| --- | --- |
 | `settings.json` config (user + workspace levels) | Same JSON structure works in enterprise |
 | Custom instructions (`.github/copilot-instructions.md`) | Fully portable to any repo |
 | Agent mode + agentic workflows | Know what's available when enterprise unlocks it |

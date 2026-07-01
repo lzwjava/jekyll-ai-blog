@@ -18,7 +18,7 @@ Answer:## Local Whisper vs Google SOTA Speech-to-Text (2026 Comparison)
 ### 🎯 Accuracy (Word Error Rate)
 
 | Model | WER | Accuracy |
-|---|---|---|
+| --- | --- | --- |
 | **OpenAI gpt-4o-transcribe** (API) | ~2.46% | ~97.5% |
 | **Whisper Large V3** (local) | ~8–16% | ~84–92% |
 | **Google Chirp 2 / Chirp 3** (SOTA) | ~11.6% | ~88% |
@@ -55,7 +55,7 @@ The Qwen3-ASR model family is the new state-of-the-art open-source speech-to-tex
 ### 💰 Cost
 
 | Option | Cost |
-|---|---|
+| --- | --- |
 | **Local Whisper** | **Free** (hardware only) |
 | OpenAI Whisper API | $0.006/min |
 | Google Cloud STT (standard) | $0.024/min |
@@ -74,7 +74,7 @@ Whisper runs 100% locally — your audio never leaves your device. Google proces
 ### ✅ Summary: Which to Use?
 
 | Use Case | Winner |
-|---|---|
+| --- | --- |
 | Best accuracy overall | Google gpt-4o-transcribe API |
 | Best **free** + **private** | **Local Whisper Large V3** |
 | Noisy audio / accents | Local Whisper |

@@ -41,7 +41,7 @@ This is the most significant concern to reflect on. Let's be direct:
 Here is why it matters:
 
 | Context | Risk |
-|---|---|
+| --- | --- |
 | **Foreign bank environment** | Extremely conservative culture; unconventional views can signal poor judgment |
 | **IT outsourcing role** | You represent the vendor to the bank client — professional composure is critical |
 | **Senior Engineer position** | Seniority implies maturity, reliability, and measured communication |

@@ -72,7 +72,7 @@ Going forward, these assets will serve as company equity (stock capital). Each y
 ## Summary Table
 
 | Group | Headcount | % of Staff | Assets Allocated | Per Person (approx.) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Management Team | 718 | 7.0% | CNY 1.514 billion | Varies (store managers: CNY 20M each) |
 | Technical Team | 563 | 5.5% | CNY 468 million | Top 2 tech staff: CNY 10M each |
 | Frontline Employees | 8,913 | 87.4% | CNY 1.811 billion | Leaders: CNY 300K; Others: CNY 200K |

@@ -16,7 +16,7 @@ type: note
 Looking at the sizes and dates:
 
 | # | Size | Date | Notes |
-|---|------|------|-------|
+| --- | ------ | ------ | ------- |
 | 1 | 6.56 GB | 2026-05-19 | Oldest, slightly smaller |
 | 2 | 132.77 GB | 2026-05-20 | **Keep** — big, likely has your ML env/models |
 | 3 | 6.58 GB | 2026-05-30 | `test-snapshot-api` — test one |

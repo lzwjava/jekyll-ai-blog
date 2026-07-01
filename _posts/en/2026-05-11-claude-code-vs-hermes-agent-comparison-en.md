@@ -38,7 +38,7 @@ Claude Code is Anthropic's command-line agentic coding tool designed specificall
 ## Head-to-Head Comparison
 
 | Feature | Hermes Agent | Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | **Primary purpose** | Autonomous, persistent general-purpose agent | Specialized AI coding assistant |
 | **Coding tasks** | Capable, but not its core strength | Best-in-class for coding/debugging |
 | **Persistent memory** | Yes — learns and grows over sessions | No persistent cross-session memory |

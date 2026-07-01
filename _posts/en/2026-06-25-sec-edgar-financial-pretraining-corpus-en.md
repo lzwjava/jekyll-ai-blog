@@ -18,7 +18,7 @@ It's a massive financial document pretraining corpus — 590 GB, 8M filings, 43B
 **Schema per row:**
 
 | Field | Description |
-|---|---|
+| --- | --- |
 | `content` | Raw SEC SGML filing content |
 | `text` | Parsed plaintext (HTML/XML stripped) |
 | `metadata_accession-number` | Unique SEC filing ID |

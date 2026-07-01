@@ -74,7 +74,7 @@ A new residency rule requires dependent visa holders to have been physically res
 ## Summary Table
 
 | Pathway | Who qualifies | School type | Cost |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Dependent visa (parent talent scheme) | Child of approved talent scheme holder | Any (aided, DSS, international) | Low–high |
 | HK PR by birth | Born in HK before 2013 policy change | Government schools | Free |
 | Cross-border commuter | HK resident child living in Shenzhen | Government/aided | Free |

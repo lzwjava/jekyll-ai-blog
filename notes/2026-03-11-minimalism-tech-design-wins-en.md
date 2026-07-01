@@ -124,7 +124,7 @@ Reducing the number of functions offered can optimize the user's decision-making
 ## 6. Engineering Principles That Codify "Less is Better"
 
 | Principle | Meaning |
-|---|---|
+| --- | --- |
 | **KISS** | Keep It Simple, Stupid — favor simple solutions |
 | **YAGNI** | You Aren't Gonna Need It — don't build features speculatively |
 | **DRY** | Don't Repeat Yourself — reduce code duplication |

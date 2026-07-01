@@ -28,7 +28,7 @@ Answer:
 ### 2. Key Differences at a Glance
 
 | Feature | JavaScript | TypeScript |
-|---|---|---|
+| --- | --- | --- |
 | **Typing** | Dynamic (runtime) | Static (compile-time) |
 | **Error Detection** | At runtime | At compile time |
 | **OOP Style** | Prototype-based | Class-based / OOP |

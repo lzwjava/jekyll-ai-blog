@@ -22,7 +22,7 @@ Your current working setup already proves this: Clash is running, the proxy work
 ## Understanding the Roles in Your Setup
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | `systemd-resolved` | Handles DNS for the **laptop itself** (port 53 on `127.0.0.53`) |
 | `dnsmasq` | Provides **DHCP only** to LAN clients (`port=0` disables its DNS) |
 | `Clash TUN` | Intercepts and proxies traffic (including DNS via `dns-hijack: any:53`) |

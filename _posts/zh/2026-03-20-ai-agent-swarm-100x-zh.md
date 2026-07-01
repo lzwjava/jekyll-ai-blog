@@ -79,7 +79,7 @@ Auto Deploy + Integration Test Agent
 ## 🧠 核心原则
 
 | Principle | 含义 |
-|---|---|
+| --- | --- |
 | **Passive intervention** | 你不监视 agents。只有需要时它们才呼叫你 |
 | **Push not pull** | Agents 通过 IM 通知你。你不需检查仪表板 |
 | **Full permissions** | Agents 不会因等待访问而阻塞 |

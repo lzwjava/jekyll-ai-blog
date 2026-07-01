@@ -40,7 +40,7 @@ If you meant selling BTC for cash on their ATMs, that's the reverse ("Sell Bitco
 - Binance supports multiple networks for BTC deposits, but only **Bitcoin-native ones** are safe for transfers from a standard wallet like the one you'd use at a CoinUnit.io ATM. Here's a quick comparison:
 
 | Network Option on Binance | Description | Address Starts With | Recommended? | Why? |
-|---------------------------|-------------|---------------------|--------------|------|
+| --------------------------- | ------------- | --------------------- | -------------- | ------ |
 | **Bitcoin (BTC)** | Standard Bitcoin network (often Legacy or P2SH). | "1" or "3" | ✅ **Yes, safest default** | Matches exactly what CoinUnit.io sends. Lowest risk of errors; widely compatible. Fees are standard Bitcoin fees. |
 | **BTC (SegWit)** | Native SegWit (bech32) on Bitcoin network. | "bc1" | ✅ Yes, if your wallet supports it | Also on the Bitcoin blockchain—fully compatible. Slightly lower fees and faster confirmations due to SegWit efficiency. Use if your wallet generates "bc1" addresses (e.g., modern wallets like Electrum). |
 | **BEP20 (BSC)** | Binance Smart Chain (wrapped BTC). | Various (BEP20) | ❌ No | Wrong blockchain—your BTC would be lost. |

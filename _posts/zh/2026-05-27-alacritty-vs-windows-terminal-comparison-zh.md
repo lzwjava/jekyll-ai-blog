@@ -20,7 +20,7 @@ type: note
 ## 性能
 
 | | Alacritty | Windows Terminal |
-|---|---|---|
+| --- | --- | --- |
 | 渲染器 | GPU 加速（OpenGL/Vulkan） | GPU 加速（DirectX） |
 | 延迟 | 业界最佳（约 1ms 输入延迟） | 良好，但不及前者激进 |
 | 回滚 | 可配置，快速 | 大缓冲区时较慢 |

@@ -32,7 +32,7 @@ Your RTX 4070 at 192.168.x.x could literally be listed on Vast.ai right now.
 ## Why the Airbnb analogy holds
 
 | Airbnb | GPU Rental |
-|--------|-----------|
+| -------- | ----------- |
 | Spare rooms sitting idle | GPUs idle 20hrs/day |
 | Travelers need temporary lodging | Devs need burst compute |
 | Hosts earn passive income | GPU owners earn $$/hr |

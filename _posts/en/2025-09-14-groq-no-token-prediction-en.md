@@ -18,7 +18,7 @@ It is a **database‑style query language** that selects, filters, and reshapes 
 The “semantic” power you see in Sanity‑based products comes from **two separate things**:
 
 | What you’re asking about | How it is actually done |
-|--------------------------|--------------------------|
+| -------------------------- | -------------------------- |
 | **Understanding the meaning of the content you stored (e.g., “show me all posts about React hooks”)** | GROQ uses **indexes, column‑store scans and Boolean predicates** to find the right documents. The “meaning” is encoded in the **explicit fields** you have (tags, categories, references, author, etc.) – no neural net needed. |
 | **Generating new text or completing a sentence (“write a summary of this article”)** | You have to call a **large language model (LLM)** – OpenAI, Anthropic, Cohere, a self‑hosted transformer, etc. The LLM does the heavy‑weight tensor‑matrix math (K‑Q‑V attention, softmax, etc.). The result is then **written back** to Sanity (or used as a prompt) via a normal API call. |
 
@@ -31,10 +31,10 @@ Below is a more detailed walk‑through that explains why this separation exists
 ## 1. What GROQ *actually* does
 
 | Feature | What it looks like to the developer | How it works under the hood (no tensors) |
-|---------|--------------------------------------|------------------------------------------|
+| --------- | -------------------------------------- | ------------------------------------------ |
 | **Filtering** (`*[_type == "post" && publishedAt < now()]`) | “Give me every post that is already published.” | Scans the `_type` and `publishedAt` **columns** of the Content Lake. Uses a B‑tree/bitmap index to jump directly to matching rows. |
 | **Projection** (`{title, slug, author->{name}}`) | “Only return these fields, and resolve the author reference.” | Reads only the `title`, `slug`, and `author._ref` columns, then does a **join** by looking up the referenced author document (again column‑wise). |
-| **Ordering & slicing** (`|order[publishedAt desc](0...10)`) | “Give me the 10 newest posts.” | Uses the sorted `publishedAt` column to produce a **pre‑ordered stream**; stops after 10 items (no need to materialise the rest). |
+| **Ordering & slicing** (` | order[publishedAt desc](0...10)`) | “Give me the 10 newest posts.” | Uses the sorted `publishedAt` column to produce a **pre‑ordered stream**; stops after 10 items (no need to materialise the rest). |
 | **Full‑text match** (`title match "react*"`) | “Find titles that start with ‘react’.” | Leverages a **text index** (inverted index) that lives alongside the column store, similar to how Elasticsearch works, but built directly into the lake. |
 | **Streaming** | Results start arriving after the first few rows are ready. | The engine pipelines: source → filter → map → serializer → HTTP response, sending bytes as soon as they’re produced. |
 
@@ -45,7 +45,7 @@ All of those operations are **deterministic, integer‑based, and I/O‑bounded*
 ## 2. Where “semantic” and “next‑token” capability *does* come from
 
 | Use‑case | Where the LLM lives | Typical flow (sanity‑centric) |
-|----------|---------------------|------------------------------|
+| ---------- | --------------------- | ------------------------------ |
 | **Summarisation** | `POST https://api.openai.com/v1/chat/completions` (or any other LLM endpoint) | 1️⃣ Use GROQ to fetch the article body. <br>2️⃣ Send that text as a prompt to the LLM. <br>3️⃣ Receive the generated summary and write it back (`PATCH /documents/{id}`) via the Sanity API. |
 | **Semantic search** | Vector‑DB (Pinecone, Weaviate, Qdrant) + embeddings model (OpenAI `text‑embedding‑ada‑002`, etc.) | 1️⃣ Export candidate docs → embed once (offline). <br>2️⃣ Store embeddings in a vector DB. <br>3️⃣ At query time: embed the user query → nearest‑neighbour search → get list of `_id`s → **GROQ** `*[_id in $ids]{title,slug}` for the final payload. |
 | **Auto‑tagging / classification** | Small classifier model (could be a fine‑tuned transformer or even a logistic‑regression on top of embeddings) | 1️⃣ Webhook fires on document creation. <br>2️⃣ Serverless function calls the classifier → receives tags. <br>3️⃣ Function patches the document with the tags (fast GROQ mutation). |
@@ -58,7 +58,7 @@ All of those operations are **deterministic, integer‑based, and I/O‑bounded*
 ## 3. Why the separation makes sense (performance & architecture)
 
 | Reason | Explanation |
-|--------|--------------|
+| -------- | -------------- |
 | **Specialisation** | A content store is optimized for *exact* matches, range scans, and fast projection. A transformer is optimized for *probabilistic* language modelling. Trying to make one system do both well leads to compromises. |
 | **Cost control** | Running a transformer on every request would be expensive (GPU minutes). By keeping GROQ cheap, you only pay for the AI part when you actually need it. |
 | **Scalability** | GROQ queries can be cached at CDN edges, sharded across many workers, and served with sub‑30 ms latency. LLM inference can be off‑loaded to a separate autoscaling pool that may be region‑specific. |
@@ -107,7 +107,7 @@ If you need sub‑100 ms total latency for a *chat* UI, you typically **run th
 ## 5. How to get *good* semantics without paying for a full‑blown transformer on every request
 
 | Technique | What it buys you | Approximate cost (as of 2025) |
-|-----------|------------------|------------------------------|
+| ----------- | ------------------ | ------------------------------ |
 | **Pre‑computed embeddings + vector DB** | Fast “semantic similarity” look‑ups (< 5 ms per query). | One‑time embedding cost (≈ $0.0001 per 1 k tokens with OpenAI), plus cheap vector‑DB storage. |
 | **Fine‑tuned small model (e.g., `distilbert-base-uncased` quantised to int8)** | Good classification / tagging on‑device, < 10 ms inference on a modern CPU. | Free if you host it yourself; otherwise $0.02‑$0.05 per 1 k tokens on managed services. |
 | **Prompt‑engineering + few‑shot examples** | Improves the accuracy of a *large* LLM without extra fine‑tuning. | Same per‑token cost as the LLM, but you can keep prompts short (≤ 200 tokens) to stay cheap. |
@@ -124,7 +124,7 @@ If you need sub‑100 ms total latency for a *chat* UI, you typically **run th
 ## 6. Frequently asked “What about next‑token prediction?”
 
 | Question | Answer |
-|----------|--------|
+| ---------- | -------- |
 | *“Can GROQ autocomplete a field as I type?”* | No. GROQ returns data; it does not generate new tokens. You would need a separate autocomplete service (e.g., OpenAI `gpt‑3.5‑turbo` with `stream:true`) that you call from your UI, then write the chosen value back to Sanity with a mutation. |
 | *“Do Sanity’s built‑in UI components use AI to suggest content?”* | The default Studio editor does **not** use an LLM. Some community plugins (e.g., `sanity-plugin-asset-source-llm`) call external models to generate alt‑text or titles, but that is optional and external. |
 | *“If I store the output of a language model in Sanity, will GROQ understand it better?”* | The model’s output is just more structured text. GROQ can filter on it (e.g., `summary match "react"`), but any *semantic* understanding still comes from how you **structured** the data (tags, categories, embeddings) and not from GROQ itself. |
@@ -135,7 +135,7 @@ If you need sub‑100 ms total latency for a *chat* UI, you typically **run th
 ## 7. TL;DR Checklist for a “fast, semantically aware” product
 
 | ✅ Goal | How to achieve it |
-|--------|-------------------|
+| -------- | ------------------- |
 | **Instant content lookup** | Use pure GROQ queries with proper indexes (`_type`, `publishedAt`, custom fields). |
 | **Semantic similarity / search** | Pre‑compute embeddings → store in a vector DB → at query time: embed the user query → vector‑search → feed resulting IDs into a GROQ filter. |
 | **On‑the‑fly text generation (summaries, copy‑writing, chat)** | Call an external LLM (OpenAI, Anthropic, self‑hosted) *after* you have fetched the needed context with GROQ. Write the result back via a normal mutation. |

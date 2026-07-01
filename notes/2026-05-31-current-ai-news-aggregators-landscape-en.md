@@ -30,7 +30,7 @@ Here's the full landscape, broken down by category:
 ### General / Personalized Feed (Toutiao-like)
 
 | Product | What it does | Status |
-|---|---|---|
+| --- | --- | --- |
 | **Particle** | Built by former Twitter engineers; uses LLMs to summarize, contextualize, and deliver news in a curated, personalized feed | Active, $10.9M Series A |
 | **Ground News** | Bias-aware, multi-source comparison | Active |
 | **Feedly AI** | Source control + AI signals | Active, enterprise tier |
@@ -40,7 +40,7 @@ Here's the full landscape, broken down by category:
 ### Tech/AI Specific (InfoQ / HN-like)
 
 | Product | What it does |
-|---|---|
+| --- | --- |
 | **[pricepertoken.com/news](https://pricepertoken.com/news)** | Covers model releases, benchmarks, hardware — categorized by LLMs, agents, coding, hardware |
 | **[llm-stats.com/ai-news](https://llm-stats.com/ai-news)** | Daily AI model releases, benchmark updates, research news from OpenAI, Anthropic, Google, Meta, Mistral |
 | **[dentro.de/ai/news](https://dentro.de/ai/news)** | Curated AI events timeline — model releases, funding, research milestones |

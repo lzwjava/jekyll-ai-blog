@@ -28,7 +28,7 @@ Most give you a weatherproof 120V outlet built into the car. That's your baselin
 ## Realistic Power Budget
 
 | Device | Draw | Notes |
-|--------|------|-------|
+| -------- | ------ | ------- |
 | Gaming/AI laptop (RTX GPU) | 100-150W | Sustained under load |
 | Car's AC (engine OFF) | 3-5 kW | **Kills battery in 1-2 hours** |
 | Portable AC unit (window/split) | 800-1200W | Feasible, much better |

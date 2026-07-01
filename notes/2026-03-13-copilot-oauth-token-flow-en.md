@@ -250,7 +250,7 @@ if __name__ == "__main__":
 ## Enterprise Considerations
 
 | Concern | Detail |
-|---|---|
+| --- | --- |
 | **Account type** | Pass `--account-type enterprise` flag or set in your config. Enterprise uses the same `/v2/token` endpoint but may have policy restrictions. |
 | **Token persistence** | Token file stored at `~/.local/share/copilot-api/github_token` with `0o600` permissions to prevent unauthorized access. |
 | **Re-auth** | Delete the saved token file to force a new device flow authorization. |
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 ## Summary of Key Endpoints
 
 | Endpoint | Purpose |
-|---|---|
+| --- | --- |
 | `POST https://github.com/login/device/code` | Get device code + user code |
 | `POST https://github.com/login/oauth/access_token` | Poll for `gho_xxx` OAuth token |
 | `GET https://api.github.com/copilot_internal/v2/token` | Exchange for Copilot token |

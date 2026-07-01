@@ -16,7 +16,7 @@ Here's the full comprehensive breakdown of everything on that server:
 ## Server Profile: 165.245.137.138
 
 | Attribute | Value |
-|---|---|
+| --- | --- |
 | Hostname | `7` (Ubuntu 24.04) |
 | Kernel | `6.8.0-106-generic` |
 | CPU arch | x86_64 |
@@ -29,7 +29,7 @@ Here's the full comprehensive breakdown of everything on that server:
 ## GPU: AMD Instinct MI300X (Virtual Function)
 
 | Attribute | Value |
-|---|---|
+| --- | --- |
 | PCI device | `0000:83:00.0` |
 | Device ID | `0x74b5` (MI300X VF) |
 | GFX version | `gfx942` |
@@ -47,7 +47,7 @@ Here's the full comprehensive breakdown of everything on that server:
 ## ROCm Stack Health
 
 | Component | Status |
-|---|---|
+| --- | --- |
 | `amdgpu` kernel module | Loaded (in-kernel) |
 | `rocm-smi` | Works — detects GPU correctly |
 | `rocminfo` | At `/opt/rocm-7.2.0/bin/rocminfo` |
@@ -60,7 +60,7 @@ Here's the full comprehensive breakdown of everything on that server:
 ## llama.cpp Build Details
 
 | Attribute | Value |
-|---|---|
+| --- | --- |
 | Source | `https://github.com/ggerganov/llama.cpp.git` |
 | Commit | `b39a7bf` (v0.12.0) |
 | Build dir | `/root/llama.cpp/build/` |

@@ -32,7 +32,7 @@ Open it in your browser — the setup wizard will launch automatically.
 ### 3. Key Settings to Check
 
 | Setting | Location | Recommendation |
-|---------|----------|----------------|
+| --------- | ---------- | ---------------- |
 | **Hardware Transcoding** | Dashboard → Playback | Enable NVIDIA NVENC or VAAPI (your GPU is detected ✅) |
 | **Library Scan** | Dashboard → Libraries | Set to auto-scan on changes |
 | **User Profiles** | Dashboard → Users | Create separate users for family members |

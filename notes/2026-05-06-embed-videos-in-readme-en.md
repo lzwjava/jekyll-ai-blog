@@ -72,7 +72,7 @@ GitHub's markdown rendering does not support embedding videos directly with the 
 ## Summary Table
 
 | Method | Works in README? | Size Limit |
-|---|---|---|
+| --- | --- | --- |
 | Drag & drop upload (GitHub CDN URL) | ✅ Yes | 10–100 MB |
 | `raw.githubusercontent.com` `<video>` tag | ❌ No | — |
 | Clickable thumbnail → raw link | ✅ Yes (no autoplay) | No limit |

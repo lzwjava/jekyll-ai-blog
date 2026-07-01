@@ -35,7 +35,7 @@ PowerShell 命令称为 **cmdlet**（发音为 command-lets），遵循 `动词-
 这些 cmdlet 用于获取系统、进程和服务相关信息。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-ComputerInfo` | 获取系统硬件和软件详情 | `Get-ComputerInfo | Select-Object WindowsProductName, OsVersion` |
 | `Get-Process` | 列出运行中的进程 | `Get-Process | Where-Object {$_.CPU -gt 1000}` |
 | `Get-Service` | 显示系统服务 | `Get-Service | Where-Object {$_.Status -eq "Running"}` |
@@ -52,7 +52,7 @@ Get-Process | Sort-Object CPU -Descending | Select-Object Name, CPU, Id -First 5
 PowerShell 将文件系统视为提供程序，允许像操作驱动器一样进行导航。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-Item` | 获取文件或目录 | `Get-Item C:\Users\*.txt` |
 | `Set-Item` | 修改项目属性（如文件属性） | `Set-Item -Path C:\test.txt -Value "New content"` |
 | `New-Item` | 创建新文件或目录 | `New-Item -Path C:\Docs -Name Report.txt -ItemType File` |
@@ -73,7 +73,7 @@ Copy-Item C:\Temp\MyFolder\Test.txt C:\Backup
 用于管理系统设置、服务和用户的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Start-Service` | 启动服务 | `Start-Service -Name "wuauserv"` |
 | `Stop-Service` | 停止服务 | `Stop-Service -Name "wuauserv"` |
 | `Restart-Computer` | 重启系统 | `Restart-Computer -Force` |
@@ -94,8 +94,8 @@ if ($service.Status -eq "Stopped") {
 用于网络配置和诊断的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
-| `Test-Connection` |  ping 远程主机 | `Test-Connection google.com` |
+| -------- | ------------- | --------- |
+| `Test-Connection` | ping 远程主机 | `Test-Connection google.com` |
 | `Get-NetAdapter` | 列出网络适配器 | `Get-NetAdapter | Select-Object Name, Status` |
 | `Get-NetIPAddress` | 获取 IP 地址配置 | `Get-NetIPAddress -AddressFamily IPv4` |
 | `Resolve-DnsName` | 解析 DNS 名称 | `Resolve-DnsName www.google.com` |
@@ -112,7 +112,7 @@ Resolve-DnsName google.com
 用于管理本地用户和组的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `New-LocalUser` | 创建本地用户账户 | `New-LocalUser -Name "TestUser" -Password (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force)` |
 | `Remove-LocalUser` | 删除本地用户账户 | `Remove-LocalUser -Name "TestUser"` |
 | `Get-LocalGroup` | 列出本地组 | `Get-LocalGroup | Select-Object Name` |
@@ -131,7 +131,7 @@ Add-LocalGroupMember -Group "Administrators" -Member "TestUser"
 PowerShell 在自动化脚本编写方面表现卓越。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Write-Output` | 向管道输出数据 | `Write-Output "Hello, World!"` |
 | `ForEach-Object` | 遍历管道中的项目 | `Get-Process | ForEach-Object { $_.Name }` |
 | `Where-Object` | 基于条件过滤对象 | `Get-Service | Where-Object { $_.Status -eq "Running" }` |
@@ -150,7 +150,7 @@ Get-Process | Select-Object Name, CPU, StartTime | Export-Csv -Path $logPath -No
 模块扩展 PowerShell 功能。
 
 | Cmdlet | 描述 | 示例 |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `Get-Module` | 列出可用或已导入的模块 | `Get-Module -ListAvailable` |
 | `Import-Module` | 导入模块 | `Import-Module ActiveDirectory` |
 | `Install-Module` | 从存储库安装模块 | `Install-Module -Name PSWindowsUpdate -Force` |

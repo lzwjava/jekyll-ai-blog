@@ -28,7 +28,7 @@ Unlike traditional cloud providers that charge per hour or even per day, RunPod 
 So the key difference:
 
 | | AMD Dev Cloud (DigitalOcean) | RunPod |
-|---|---|---|
+| --- | --- | --- |
 | Billing unit | Per **hour** | Per **second** |
 | Powered off | Still charged ✅ | GPU charge stops ✅ |
 | Stop = save money? | ❌ No | ✅ Yes |

@@ -60,7 +60,7 @@ Gas 费（约 $0.004）由 **Paymaster**（`0x2FAEB076...`）支付，因此你�
 ## 为什么有这么多跳转？
 
 | 层级 | 角色 |
-|---|---|
+| --- | --- |
 | 币安 | 你将 USDC 提现到 Base 网络 |
 | MetaMask / Coinbase Wallet | 你的钱包界面 |
 | Coinbase 智能钱包（ERC-4337） | 链上智能合约钱包 |

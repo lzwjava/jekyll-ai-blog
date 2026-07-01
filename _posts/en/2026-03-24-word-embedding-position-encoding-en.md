@@ -41,7 +41,7 @@ The original paper added the positional encoding **on top of** (i.e., summed wit
 These are two **separate concerns combined into one vector**:
 
 | | Word Embedding | Positional Encoding |
-|---|---|---|
+| --- | --- | --- |
 | What it encodes | Semantic meaning | Position in sequence |
 | Is it fixed? | Learned during training | Fixed (sinusoidal) or learned |
 | Example source | word2vec, BPE embedding | sin/cos functions, or RoPE |

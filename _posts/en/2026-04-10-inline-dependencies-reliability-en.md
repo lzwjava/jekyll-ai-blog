@@ -58,7 +58,7 @@ Verbose? Yes. But now the config is the single source of truth. It works offline
 External dependencies trade **convenience now** for **fragility later**. This shows up everywhere:
 
 | Context | External dependency | Self-contained alternative |
-|---|---|---|
+| --- | --- | --- |
 | Proxy config | Remote rule file | Inline rules |
 | CI pipeline | Download script from URL | Vendor the script |
 | Frontend | CDN-hosted library | Bundle it |

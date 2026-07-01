@@ -203,7 +203,7 @@ python3 build-system/Make/Make.py --overrideXcodeVersion \
 The only real secrets are:
 
 | Secret | Where it lives | What it protects |
-|--------|---------------|-----------------|
+| -------- | --------------- | ----------------- |
 | `TELEGRAM_CODESIGNING_GIT_PASSWORD` | `~/.zshrc` (developer machine) | Decrypts the codesigning repo |
 | `TELEGRAM_CODESIGNING_PRIVATE_KEY` | Environment (CI) | SSH key for the codesigning repo |
 | Apple Developer certs (`.p12`) | Encrypted in the codesigning repo | Code signing identity |

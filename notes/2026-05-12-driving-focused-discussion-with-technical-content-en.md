@@ -32,7 +32,7 @@ This is better than soft content (memes, motivational posts) which attracts nois
 Yes — **single-window focus** beats tab/app switching because:
 
 | Switching Windows | Staying Focused |
-|---|---|
+| --- | --- |
 | Breaks deep work flow | Maintains context |
 | Each switch costs ~15–20 min of recovery | Zero recovery cost |
 | Encourages shallow engagement | Encourages deep thinking |

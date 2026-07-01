@@ -28,7 +28,7 @@ In the PinCC relay's case: the relay itself is built on **Claude Code Max subscr
 ## What the Error Actually Means
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | `No available accounts` | No relay backend account accepted this request |
 | `this group only allows Claude Code clients` | The PinCC group you're using specifically requires the `User-Agent` (or equivalent headers) to identify as the official Claude Code CLI |
 
@@ -91,7 +91,7 @@ The PinCC relay's "Claude Code clients only" groups are built on **subscription 
 ## Summary
 
 | Fix | Effort | Reliability |
-|---|---|---|
+| --- | --- | --- |
 | Add correct `User-Agent` headers in OpenClaw | Low | Uncertain — may break again if PinCC updates checks |
 | Use official Claude Code CLI with PinCC relay | Medium | High — that's what PinCC is designed for |
 | Switch to OpenRouter or API-key-backed provider | Low | High — no client-check restrictions at all |

@@ -19,7 +19,7 @@ Withdrawing money from your HSBC Hong Kong account using an HSBC ATM in a Guangz
 Fees depend heavily on your HSBC HK account and customer tier. Here's a breakdown based on standard tariffs:
 
 | Customer Tier | HSBC HK Fee per Withdrawal | Mainland China ATM Fee | Total Expected Fee | Notes |
-|---------------|----------------------------|-------------------------|--------------------|-------|
+| --------------- | ---------------------------- | ------------------------- | -------------------- | ------- |
 | **HSBC Premier** (or higher, e.g., Jade/Elite) | HKD 0 (waived worldwide at HSBC Group ATMs) | HKD 0 (no local surcharge at HSBC ATMs) | **HKD 0** | Applies to Premier Mastercard Debit Card or UnionPay ATM card. Refunds any third-party fees if charged. Daily limit: Up to HKD 20,000 equivalent. |
 | **HSBC One / Personal Integrated Account** | HKD 0 at HSBC Group ATMs (but HKD 20 if non-HSBC) | HKD 0 | **HKD 0** | Standard for most retail customers using HSBC's own network in China. |
 | **Standard / Non-Premier** | HKD 20-30 per transaction (network-dependent) | HKD 0-10 (rare at HSBC ATMs) | **HKD 20-40** | Check your tariff guide; UnionPay network may add HKD 20. Avoid if possible by upgrading. |

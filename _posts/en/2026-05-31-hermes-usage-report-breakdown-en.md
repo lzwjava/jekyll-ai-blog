@@ -34,7 +34,7 @@ The total (337M) is ~12x the sum of input+output (28.4M). This means **total tok
 ## Model Distribution
 
 | Model | Sessions | Tokens | Role |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | mimo-v2.5-pro | 185 (70%) | 256M (76%) | Primary workhorse |
 | deepseek-v4-pro | 31 | 41M | Heavy reasoning tasks |
 | deepseek-v4-flash | 24 | 25M | Fast/cheap tasks |

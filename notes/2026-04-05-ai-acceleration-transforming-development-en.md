@@ -74,7 +74,7 @@ Your intuition — that one year now contains what used to take three years — 
 The sectors this hits hardest, in order:
 
 | Domain | Effect of 10K tokens/sec |
-|---|---|
+| --- | --- |
 | **Software development** | Full codebases iterable in seconds; 10x engineers become 100x |
 | **AI video/media** | Generation time collapses from minutes to seconds |
 | **Scientific research** | Drug discovery, protein folding loops that took months compress to days |

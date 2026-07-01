@@ -12,7 +12,7 @@ type: note
 1.5B 模型的 77GB 内存分解：
 
 | 组件 | 内存 |
-|-----------|--------|
+| ----------- | -------- |
 | Weights (bf16) | ~3GB |
 | Adam states (2 states × fp32 = m & v) | ~12GB |
 | Gradients (fp32) | ~6GB |

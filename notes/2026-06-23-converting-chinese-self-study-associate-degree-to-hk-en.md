@@ -26,7 +26,7 @@ Most HK universities accept mainland associate degrees, but the self-study exam 
 ## Realistic Schools
 
 | School | Chinese Name | Type | Notes |
-|--------|-------------|------|-------|
+| -------- | ------------- | ------ | ------- |
 | Hang Seng University of HK | 香港恒生大學 | Private (self-funded) | Previously Hang Seng Management College, became full university 2018 |
 | Hong Kong Shue Yan University | 香港樹仁大學 | Private (self-funded) | First private university in HK |
 | Chu Hai College | 珠海學院 | Private | Less known |

@@ -68,7 +68,7 @@ Sudden nail color change combined with confusion or dizziness indicates brain hy
 ### Summary Table
 
 | Sign | Type | Urgency |
-|---|---|---|
+| --- | --- | --- |
 | Purple fingernails (cold, resolves when warm) | Peripheral | Usually not serious |
 | Purple/blue lips + tongue | Central | **Seek emergency care immediately** |
 | Blue nails + chest pain | Possible heart attack | **Call 911 now** |

@@ -50,7 +50,7 @@ Max 5x 在每 5 小时窗口内提供约 225+ 条消息，而 Max 20x 在每 5 �
 ## 你应该选择哪个计划？
 
 | Use Case | Recommended Plan |
-|---|---|
+| --- | --- |
 | 偶尔使用 Cowork 任务 | **Pro ($20/mo)** |
 | 每日中度使用 Cowork | **Max 5x ($100/mo)** |
 | 全天重度 Cowork 工作流 | **Max 20x ($200/mo)** |

@@ -36,7 +36,7 @@ type: note
 使用以下工具之一（均为免费）：
 
 | 您当前的 OS | 推荐工具 | 备注 |
-|---------------------|------------------------------------|---------------------------------------|
+| --------------------- | ------------------------------------ | --------------------------------------- |
 | Windows | Rufus (最佳) 或 Fedora Media Writer | 如果需要，在 Rufus 中使用 “DD mode” |
 | macOS | Fedora Media Writer 或 balenaEtcher | Fedora Media Writer 是官方工具 |
 | Linux | Fedora Media Writer, `dd`, Ventoy, balenaEtcher | `dd` 命令非常可靠 |
@@ -106,7 +106,7 @@ sudo dd if=Fedora-Workstation-Live-x86_64-42-1.2.iso of=/dev/sdX bs=4M status=pr
 ### 快速技巧与常见选择 (2026)
 
 | 问题 | 适合大多数人的推荐 | 替代方案 |
-|---------------------------------|--------------------------------------|---------------------------------|
+| --------------------------------- | -------------------------------------- | --------------------------------- |
 | 桌面环境 (Desktop environment) | GNOME (Workstation) | KDE (Fedora KDE Spin) |
 | 不可变/原子系统 (Immutable / atomic system) | Fedora Silverblue 或 Kinoite | Traditional (Workstation) |
 | 全盘加密 (Full disk encryption) | 是 (LUKS) | 否 (速度更快，但安全性较低) |

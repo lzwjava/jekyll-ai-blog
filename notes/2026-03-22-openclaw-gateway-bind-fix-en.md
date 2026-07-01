@@ -33,7 +33,7 @@ The system now requires **named bind modes** instead of raw IPs or host aliases.
 ## The 5 Valid Bind Modes
 
 | Mode | What It Does |
-|---|---|
+| --- | --- |
 | `loopback` | Binds to `127.0.0.1` — local machine only (most secure, default) |
 | `lan` | Listens on `0.0.0.0` (all interfaces) — allows local LAN access |
 | `tailnet` | Binds to a Tailscale IP (`100.64.0.0/10` range) — for Tailscale network access |

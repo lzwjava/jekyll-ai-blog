@@ -58,7 +58,7 @@ Some graphical applications (GUI-based software) do not use the system's proxy s
 ## `ping` vs `telnet` Proxy Behavior — Compared
 
 | Tool | Protocol | Uses macOS HTTP Proxy? | Uses macOS SOCKS Proxy? | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `ping` | ICMP | ❌ No | ❌ No | ICMP operates at Layer 3; proxies work at Layer 4/7 |
 | `telnet` | TCP (raw) | ❌ No | ❌ No (by default) | CLI tools don't auto-read macOS proxy |
 | Safari / Chrome | HTTP/HTTPS | ✅ Yes | ✅ Yes | GUI apps respect system proxy |

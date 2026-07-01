@@ -22,7 +22,7 @@ The actual doc is much more detailed than my previous answer. Here's the real pi
 Credits are deducted per token, but each model consumes a different number of Credits per token. The exact table is:
 
 | Model | Input (cache hit) | Input (cache miss) | Output |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | mimo-v2.5-pro | 2.5 Credits/token | 300 Credits/token | 600 Credits/token |
 | mimo-v2.5 | 2 Credits/token | 100 Credits/token | 200 Credits/token |
 | mimo-v2-pro | 140 Credits/token | 700 Credits/token | 2100 Credits/token |
@@ -38,7 +38,7 @@ So **1 Credit ≠ 1 token** — it's the opposite: **1 token costs hundreds of C
 **Monthly plans:**
 
 | Plan | Price | Monthly Credits |
-|---|---|---|
+| --- | --- | --- |
 | Lite | $6/mo, ¥39/mo | 4.1B Credits |
 | Standard | $16/mo, ¥99/mo | 11B Credits |
 | Pro | $50/mo, ¥329/mo | 38B Credits |

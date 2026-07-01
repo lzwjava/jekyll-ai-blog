@@ -64,7 +64,7 @@ These are fundamentally different objectives. A diagram with wrong axis labels b
 ## Summary Table
 
 | Dimension | Natural Images | Mathematical Diagrams |
-|---|---|---|
+| --- | --- | --- |
 | Conditional distribution `p(img\|prompt)` | Many valid outputs | Very few (or one) correct outputs |
 | Model's optimization target | Visual plausibility | (Same) Visual plausibility — mismatched! |
 | Training data coverage | Rich & abundant | Sparse, edge of manifold |

@@ -105,7 +105,7 @@ python train.py 2>&1 | tee logs/train_$(date +%Y%m%d_%H%M%S).txt
 ### 总结表格
 
 | | 终端 1（工作终端） | 终端 2（Claude Code 终端） |
-|---|---|---|
+| --- | --- | --- |
 | **用途** | 执行长时间任务 | 分析与迭代 |
 | **运行内容** | `train.py`、`tokenize.py`、`download.sh` | `claude` CLI |
 | **持续时间** | 数小时 | 交互式 |

@@ -28,20 +28,20 @@ type: note
 
 ### 手动测试期间重点关注的领域
 
-| Priority | Area                          | What Exactly to Check / Common Breakage Points (9→14)                                                                 | Why It Breaks Frequently |
-|--------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------|
-| ★★★★★  | **Routing & Navigation**      | • Deep linking<br>• 后退/前进浏览器按钮<br>• Lazy-loaded modules 是否正确加载？<br>• Guards / resolvers<br>• Auxiliary routes（如果使用） | pathMatch 默认值变得更严格，resolver 行为改变，许多 router 生命周期调整 |
-| ★★★★★  | **Forms (Template-driven + Reactive)** | • 验证消息在正确时间出现<br>• Disabled / readonly 状态<br>• Custom validators / async validators<br>• Form value / status 变化正确传播<br>• Dirty / touched / pristine 标志 | Angular 14 引入更严格的类型检查 → 细微的强制转换 bug 浮出水面 |
-| ★★★★☆  | **Change Detection & Performance** | • UI **不**闪烁 / 不必要重渲染<br>• 无限 change detection 循环（控制台警告）<br>• 慢速列表 / 大型表格仍可使用？<br>• *ngIf / ngSwitch 内的组件正确更新 | Ivy + 更严格的 change detection + 新 zone.js 行为 |
-| ★★★★☆  | **Templates & Directives**    | • 结构化指令（*ngIf、*ngFor、*ngSwitch）<br>• Custom structural / attribute directives<br>• @Input / @Output 绑定<br>• 双向绑定 [(ngModel)] | 新的 template type checking 更严格，一些旧模式现在被警告 / 破坏 |
-| ★★★★☆  | **HTTP / Interceptors / API calls** | • 所有 HTTP 调用仍正常工作<br>• Interceptors 正确修改 / 捕获错误<br>• 请求期间的加载 spinner / disabled 状态<br>• 错误处理 UI（toast、modal、内联） | HttpClient 变更 + RxJS 更新（v6 → v7） |
-| ★★★★☆  | **Third-party libraries & Components** | • Angular Material → 检查 theme、typography、density<br>• Charts（ng2-charts、highcharts-angular…）<br>• Tables（ag-grid、prime-ng、material table）<br>• Modals / dialogs / overlays<br>• Date pickers / file upload components | 许多库有主要版本跳跃 + 破坏性变更 |
-| ★★★☆☆  | **Animations & Transitions**  | • Enter / leave animations<br>• Route animations<br>• @.disabled / :increment / :decrement | Animation DSL 有修复 & 弃用 |
-| ★★★☆☆  | **Internationalization (i18n)** | • 翻译仍加载<br>• Plural / gender 规则正确<br>• RTL 语言（如果支持） | i18n 工具 & 提取改进 → 旧提取可能破坏 |
-| ★★★☆☆  | **Accessibility (a11y)**      | • Screen reader 行为<br>• Focus 管理（modals、menus）<br>• 键盘导航<br>• ARIA 属性 | 一些旧模式现在被扩展诊断标记 |
-| ★★★☆☆  | **Browser Console & Warnings** | • 无红色错误<br>• 无黄色 deprecation / Ivy / zone.js 警告<br>• 无 "ExpressionChangedAfterItHasBeenCheckedError" | 许多旧模式现在产生警告 |
-| ★★☆☆☆  | **Build & Bundle Size**       | • 应用仍合理快速加载<br>• Bundle size 无巨大回归 | Ivy + differential loading 变更 + tree-shaking 改进 |
-| ★★☆☆☆  | **Edge Cases**                | • 空状态<br>• 非常长的内容 / 溢出<br>• 非常大的表单 / 列表<br>• 离线模式（如果实现）<br>• 复制粘贴 / 拖放功能 | 通常不被单元测试覆盖 |
+| Priority | Area | What Exactly to Check / Common Breakage Points (9→14) | Why It Breaks Frequently |
+| -------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| ★★★★★ | **Routing & Navigation** | • Deep linking<br>• 后退/前进浏览器按钮<br>• Lazy-loaded modules 是否正确加载？<br>• Guards / resolvers<br>• Auxiliary routes（如果使用） | pathMatch 默认值变得更严格，resolver 行为改变，许多 router 生命周期调整 |
+| ★★★★★ | **Forms (Template-driven + Reactive)** | • 验证消息在正确时间出现<br>• Disabled / readonly 状态<br>• Custom validators / async validators<br>• Form value / status 变化正确传播<br>• Dirty / touched / pristine 标志 | Angular 14 引入更严格的类型检查 → 细微的强制转换 bug 浮出水面 |
+| ★★★★☆ | **Change Detection & Performance** | • UI **不**闪烁 / 不必要重渲染<br>• 无限 change detection 循环（控制台警告）<br>• 慢速列表 / 大型表格仍可使用？<br>• *ngIf / ngSwitch 内的组件正确更新 | Ivy + 更严格的 change detection + 新 zone.js 行为 |
+| ★★★★☆ | **Templates & Directives** | • 结构化指令（*ngIf、*ngFor、*ngSwitch）<br>• Custom structural / attribute directives<br>• @Input / @Output 绑定<br>• 双向绑定 [(ngModel)] | 新的 template type checking 更严格，一些旧模式现在被警告 / 破坏 |
+| ★★★★☆ | **HTTP / Interceptors / API calls** | • 所有 HTTP 调用仍正常工作<br>• Interceptors 正确修改 / 捕获错误<br>• 请求期间的加载 spinner / disabled 状态<br>• 错误处理 UI（toast、modal、内联） | HttpClient 变更 + RxJS 更新（v6 → v7） |
+| ★★★★☆ | **Third-party libraries & Components** | • Angular Material → 检查 theme、typography、density<br>• Charts（ng2-charts、highcharts-angular…）<br>• Tables（ag-grid、prime-ng、material table）<br>• Modals / dialogs / overlays<br>• Date pickers / file upload components | 许多库有主要版本跳跃 + 破坏性变更 |
+| ★★★☆☆ | **Animations & Transitions** | • Enter / leave animations<br>• Route animations<br>• @.disabled / :increment / :decrement | Animation DSL 有修复 & 弃用 |
+| ★★★☆☆ | **Internationalization (i18n)** | • 翻译仍加载<br>• Plural / gender 规则正确<br>• RTL 语言（如果支持） | i18n 工具 & 提取改进 → 旧提取可能破坏 |
+| ★★★☆☆ | **Accessibility (a11y)** | • Screen reader 行为<br>• Focus 管理（modals、menus）<br>• 键盘导航<br>• ARIA 属性 | 一些旧模式现在被扩展诊断标记 |
+| ★★★☆☆ | **Browser Console & Warnings** | • 无红色错误<br>• 无黄色 deprecation / Ivy / zone.js 警告<br>• 无 "ExpressionChangedAfterItHasBeenCheckedError" | 许多旧模式现在产生警告 |
+| ★★☆☆☆ | **Build & Bundle Size** | • 应用仍合理快速加载<br>• Bundle size 无巨大回归 | Ivy + differential loading 变更 + tree-shaking 改进 |
+| ★★☆☆☆ | **Edge Cases** | • 空状态<br>• 非常长的内容 / 溢出<br>• 非常大的表单 / 列表<br>• 离线模式（如果实现）<br>• 复制粘贴 / 拖放功能 | 通常不被单元测试覆盖 |
 
 ### 测试人员快速检查清单摘要
 

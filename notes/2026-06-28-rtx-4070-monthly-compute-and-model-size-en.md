@@ -20,7 +20,7 @@ Let me work this from first principles — FLOPs budget → Chinchilla token bud
 RTX 4070 (AD104) specs that matter:
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | FP16/BF16 dense (Tensor) | ~29 TFLOP/s (no sparsity) |
 | FP16 with 2:4 sparsity | ~58 TFLOP/s (marketing number) |
 | TF32 | ~15 TFLOP/s |
@@ -73,7 +73,7 @@ So **compute-optimally, ~500M params on ~10B tokens** is what a month buys you. 
 This is where the AMD MI300X (your other box) and the 4070 diverge hard. Compute-optimal ≠ trainable on the card. Memory for Adam training, per param:
 
 | Buffer | Bytes/param (mixed precision) |
-|--------|-------------------------------|
+| -------- | ------------------------------- |
 | BF16 weights | 2 |
 | BF16 grads | 2 |
 | FP32 master weights | 4 |
@@ -125,7 +125,7 @@ For anything 760M+ or MoE (DeepSeek-style), the FLOP math alone says months, and
 ## Summary table
 
 | | FLOP-optimal | Memory-realistic (4070) |
-|---|---|---|
+| --- | --- | --- |
 | Total compute / month | ~3e19 FLOPs | same |
 | Model size | ~500M | ~300–500M (with 8-bit Adam + ckpt) |
 | Tokens | ~10B | ~7–10B |

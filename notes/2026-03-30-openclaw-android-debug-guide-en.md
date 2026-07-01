@@ -74,7 +74,7 @@ The app is **native Kotlin + Jetpack Compose**. For UI edits using **Compose**, 
 There are three levels of applying changes:
 
 | Change Type | Method |
-|---|---|
+| --- | --- |
 | Compose UI edits | **Live Edit** (instant, no reinstall) |
 | Non-structural code/resource | **Apply Changes** |
 | Structural/native/manifest/Gradle | Full reinstall via `pnpm android:run` |

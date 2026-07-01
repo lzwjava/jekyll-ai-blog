@@ -50,7 +50,7 @@ Alibaba also has **Qwen Code**, a terminal-based coding agent (similar to Claude
 ### Summary: Where Each Major Player Stands
 
 | Company | OpenClaw Offering |
-|---|---|
+| --- | --- |
 | **Alibaba / Aliyun** | JVS Claw mobile app + one-click ECS deploy + Coding Plan API |
 | **Tencent Cloud** | One-click deploy + offline install booths |
 | **Kimi (Moonshot)** | KimiClaw + Kimi K2.5 model integration |

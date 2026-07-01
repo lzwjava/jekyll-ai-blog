@@ -99,7 +99,7 @@ Bootstrap provides `.container` for a responsive pixel width, `.container-fluid`
 Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized via Sass in the `_variables.scss` stylesheet.
 
 | Breakpoint | Prefix | Min Width |
-|---|---|---|
+| --- | --- | --- |
 | Extra small | *(none / xs)* | < 576px |
 | Small | `sm` | ≥ 576px |
 | Medium | `md` | ≥ 768px |
@@ -308,7 +308,7 @@ $enable-shadows: true;
 ## Summary — Why Use Bootstrap 5?
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | No jQuery | Pure Vanilla JS, lighter & faster |
 | Mobile-first | Designed for small screens first |
 | 12-column Grid | Flexible, responsive layouts |

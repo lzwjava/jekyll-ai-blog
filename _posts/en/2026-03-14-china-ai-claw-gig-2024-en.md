@@ -78,7 +78,7 @@ As one Chinese netizen summarized it: "Loading lobsters costs 599, unloading the
 ### Summary Price Table
 
 | Service Type | Price Range (CNY) |
-|---|---|
+| --- | --- |
 | Video tutorial / guide | 8–50 |
 | Remote installation | 50–100 |
 | On-site installation (typical) | 300–800 |

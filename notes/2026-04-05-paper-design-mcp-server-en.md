@@ -50,7 +50,7 @@ Setup in Claude Code is a single terminal command. Cursor users get a one-click 
 ## Strengths vs. Figma MCP
 
 | Feature | Paper.design MCP | Figma MCP |
-|---|---|---|
+| --- | --- | --- |
 | Tools exposed | 24 | 3 |
 | Read + Write | ✅ Both | ❌ Read-only |
 | Canvas format | HTML/CSS (LLM-native) | Proprietary SVG |

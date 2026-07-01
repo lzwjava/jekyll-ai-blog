@@ -50,7 +50,7 @@ The file's root is a `<document>` containing `<dependencies>` (for the Cocoa plu
    **Subviews Layout** (all use fixed frames for positioning; y-coordinates increase downward from the top):
 
    | Element | Type | Position (x, y) | Size (w x h) | Description |
-   |---------|------|-----------------|--------------|-------------|
+   | --------- | ------ | ----------------- | -------------- | ------------- |
    | **Save Button** | `NSButton` (ID: `EuN-9g-Vcg`) | (14, 13) | 137x32 | Bottom-left "Save" button (rounded bezel). Triggers `saveButtonClcked:` action on the controller. Uses small system font (13pt). |
    | **Reset Default Menus Button** | `NSButton` (ID: `KvN-fn-w7m`) | (151, 12) | 169x32 | Nearby "Reset Default Menus" button. Triggers `resetMenusButtonClicked:` action. Small system font (13pt). |
    | **Config View** | `NSView` (Custom, ID: `IKd-Ev-B9V`) | (20, 54) | 611x330 | Large central custom view labeled "Config View". Likely a container for dynamic content like tables, lists, or toggles for GitHub repo configs (e.g., repo paths, auth tokens). This is wired to the `configsView` outlet. |

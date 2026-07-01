@@ -52,7 +52,7 @@ These three concepts reflect the quality direction of BRI cooperation:
 The BRI has identified five priority areas for international cooperation:
 
 | Chinese Term | English Term | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | 政策沟通 | Policy Coordination | Aligning national development strategies and policies |
 | 设施联通 | Facilities Connectivity | Building roads, railways, ports, energy pipelines |
 | 贸易畅通 | Unimpeded Trade | Reducing trade barriers, facilitating customs and commerce |
@@ -66,7 +66,7 @@ The BRI has identified five priority areas for international cooperation:
 The passage envisions building six types of roads representing BRI's ultimate aspirations:
 
 | Road | Meaning |
-|---|---|
+| --- | --- |
 | **Peace Road (和平之路)** | Promoting security and stability through economic cooperation |
 | **Prosperity Road (繁荣之路)** | Driving economic growth and reducing poverty |
 | **Open Road (开放之路)** | Building an open platform of cooperation and fostering an open world economy |

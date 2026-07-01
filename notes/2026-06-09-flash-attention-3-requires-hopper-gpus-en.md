@@ -28,7 +28,7 @@ Even worse for macOS: Apple Silicon (M2) doesn't support CUDA at all—you get P
 ## What You Actually Have
 
 | GPU | Architecture | Flash Support | Status |
-|-----|--------------|---------------|--------|
+| ----- | -------------- | --------------- | -------- |
 | M2 MacBook | Apple Silicon | None (MPS SDPA) | CPU/fallback only |
 | RTX 4070 | Ada (SM89) | **Flash Attention 2** | Full support ✓ |
 | MI300X | RDNA3 | **Flash Attention 2** | Via ROCm composable_kernel ✓ |

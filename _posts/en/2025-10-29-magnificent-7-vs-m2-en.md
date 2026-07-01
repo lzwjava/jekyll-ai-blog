@@ -34,7 +34,7 @@ High market cap relative to money supply signals overvaluation and vulnerability
 It rhymes more with **2000 than 2008**, but with key twists:
 
 | Aspect | 2000 Dot-Com Bubble | 2025 Mag7/AI Surge | 2008 Financial Crisis |
-|--------|---------------------|--------------------|-----------------------|
+| -------- | --------------------- | -------------------- | ----------------------- |
 | **Trigger** | Internet hype, overvalued unprofitable dot-coms (Nasdaq P/E ~200x). | AI productivity promises, profitable giants (Mag7 P/E ~30x, but capex-intensive). | Credit freeze from subprime mortgages, leverage in banks. |
 | **Concentration** | Top 10 stocks ~25% of S&P; Nasdaq lost 78% peak-to-trough. | Mag7 ~37% of S&P; total market/M2 at 305% (echoes 2000's 250%). | Broader banking/derivatives; S&P down 57%, but tech recovered faster. |
 | **Burst Style** | Sharp equity pop (trillions wiped out), but survivors (Amazon, etc.) thrived long-term. | Potential "Dot-AI" correction if AI ROI lags; base camp, not peak per some. Productivity gains could follow, like post-2000. | Systemic liquidity/credit crunch; bailouts needed. Less "rhyme" here—Mag7 is equity-driven, not debt-fueled. |

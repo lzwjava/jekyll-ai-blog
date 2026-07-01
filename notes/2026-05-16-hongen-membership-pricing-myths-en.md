@@ -24,7 +24,7 @@ The claim of **¥2,000 per year** does not appear to match any current publicly 
 Each Hongen app (洪恩识字, 洪恩ABC, 洪恩思维, etc.) is priced **separately**. Based on publicly available data:
 
 | Product | Pricing |
-|---|---|
+| --- | --- |
 | 洪恩识字 (iHuman Literacy) | ~¥198/year (annual subscription) |
 | 洪恩识字 (Lifetime/永久包) | ~¥241–¥348 (one-time, with coupons) |
 | 洪恩十万问 (Science Q&A) | ~¥274 lifetime |
@@ -48,7 +48,7 @@ When buying a **步步高 (BBK) learning tablet with the "Hongen version" (洪�
 ### 3. BBK Learning Tablet Prices (2025–2026)
 
 | Model | Price (after subsidies/deals) |
-|---|---|
+| --- | --- |
 | 步步高 X3 洪恩版 | ~¥2,999 |
 | 步步高 X6 洪恩至尊版 | ~¥2,549–¥2,999 (with national 8.5折 subsidy) |
 | 步步高 S9 | ~¥5,899 |

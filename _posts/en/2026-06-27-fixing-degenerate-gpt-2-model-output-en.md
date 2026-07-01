@@ -57,7 +57,7 @@ There were **two separate issues** stacked on top of each other:
 ### Key Architecture Notes
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | RunPod GPU | RTX 2000 Ada 16GB (EU-RO-1) |
 | Server | FastAPI + transformers on port 8888 |
 | Nginx | 8081→8888 reverse proxy |

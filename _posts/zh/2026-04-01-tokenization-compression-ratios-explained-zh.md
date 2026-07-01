@@ -26,7 +26,7 @@ Tokens:    ~5 tokens × 2 bytes = 10 bytes  (GPT-2 BPE tokenization)
 ## 您的数据
 
 | 文件 | 大小 | Token 数量 | 计算 |
-|------|------|-------------|------------|
+| ------ | ------ | ------------- | ------------ |
 | Raw text (full) | 61 GB | ~15B tokens* | 61GB ÷ ~4 chars/token |
 | Raw text (sample) | 477 MB | ~114M tokens | 477MB ÷ ~4 chars/token |
 | `train.bin` | **27 MB** | **14M tokens** | 14M × 2 bytes |

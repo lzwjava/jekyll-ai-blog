@@ -225,7 +225,7 @@ Now let me visualize the whole stack:Click any box to drill deeper into that com
 ## Parameter Count (GPT-2 small: 124M)
 
 | Component | Params |
-|---|---|
+| --- | --- |
 | `wte` (token emb) | `vocab_size × C = 50257 × 768 ≈ 38.6M` |
 | `wpe` (pos emb) | `1024 × 768 ≈ 0.8M` |
 | Per Block: attn `c_attn` | `C × 3C = 768 × 2304 ≈ 1.77M` |

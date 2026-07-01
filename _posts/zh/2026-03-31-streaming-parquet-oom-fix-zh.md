@@ -30,7 +30,7 @@ Answer:
 每种尝试都导致了内存溢出（OOM = Out Of Memory，进程被 Linux OOM killer “杀死”）：
 
 | Attempt | Method | Why It Failed |
-|---|---|---|
+| --- | --- | --- |
 | 1 | HuggingFace `datasets` streaming | Parquet 解压缩在内存中仍有大量缓冲 (buffering) |
 | 2 | `wget` download + `pd.read_parquet()` | `pandas` 一次性将整个 2.1GB 文件加载到 RAM（需要约 6–8GB） |
 | 3 | `urllib.request.urlretrieve` + streaming | 仍然存在缓冲；`pd.read_parquet` 占用过大 |

@@ -78,7 +78,7 @@ Chinese government apps like 交警12123 are distributed through approved domest
 ## 4. Summary: The Real Layers of the Problem
 
 | Layer | Issue |
-|---|---|
+| --- | --- |
 | **Network/GFW** | v2ray bypasses this ✅ |
 | **Google Play license in China** | Google has no license to distribute in China ❌ |
 | **Developer choice** | 交警12123 dev never submitted to Google Play ❌ |

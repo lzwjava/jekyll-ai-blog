@@ -66,9 +66,9 @@ OpenClaw 将对话及 Long-term memory 以纯 Markdown 和 YAML 文件形式存�
 ## 总结表
 
 | 体验项目 | 使用的 OpenClaw 功能 |
-|---|---|
+| --- | --- |
 | 7 个软件安装 | Shell commands + Skill automation |
-| Router 尝试 | Shell/Networking 命令（复杂，失败）|
+| Router 尝试 | Shell/Networking 命令（复杂，失败） |
 | 两个 Instances | Multi-agent / Multi-workspace 支持 |
 | Ubuntu 升级 | 在宿主机上执行 Shell 命令 |
 | 每周 70M + 50M tokens | 多 Provider 模型 Backend 支持 |

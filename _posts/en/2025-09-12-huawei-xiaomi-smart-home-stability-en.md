@@ -37,7 +37,7 @@ Overall, **yes, Huawei edges out Xiaomi in long-term stability and reliability**
   - Relies on stacking single products (e.g., Zigbee hubs), which can lead to instability in large homes due to signal drops.
 
 | Aspect | Huawei (HarmonyOS + PLC-IoT) | Xiaomi (Mi Home + Zigbee/Wi-Fi) |
-|--------|------------------------------|---------------------------------|
+| -------- | ------------------------------ | --------------------------------- |
 | **Core Protocol** | PLC-IoT (wired power line, high reliability) | Zigbee/Wi-Fi (wireless, cost-effective but prone to interference) |
 | **Stability/Reliability** | Excellent (low latency, wall-proof, always-on) | Good short-term, but ecosystem fragmentation risks |
 | **PLC Integration** | Native support via home bus | Possible via adapters, but not core |

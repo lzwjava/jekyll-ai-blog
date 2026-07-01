@@ -14,7 +14,7 @@ Great question — that MI300X is a beast. Let me give you concrete numbers.
 First, the practical math for llama.cpp GGUF on your ~192 GB VRAM:
 
 | Quant | GB per 100B params | Max model size (192GB) |
-|---|---|---|
+| --- | --- | --- |
 | Q2_K | ~32 GB | ~600B |
 | Q3_K_M | ~45 GB | ~420B |
 | Q4_K_M | ~57 GB | ~330B |

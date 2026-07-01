@@ -103,7 +103,7 @@ The foundation of any fulfilling sensual experience is open and honest communica
 ### Quick Summary Table
 
 | Element | Best Choices |
-|---|---|
+| --- | --- |
 | **Lighting** | Candles, warm LED/smart bulbs, string lights |
 | **Oils** | Ylang ylang, jasmine, patchouli, sandalwood |
 | **Music** | Jazz, R&B, classical, lo-fi, slow acoustic |

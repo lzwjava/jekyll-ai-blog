@@ -33,7 +33,7 @@ Yes, robotics is a standout area where China is exceptionally strong—often cit
 China's tech sector is dominated by a mix of giants and innovative startups, with a market cap exceeding $2 trillion for the top players. Here's a selection of the top 10 based on 2025 rankings from Fortune China, Scimago Innovation, and StartupBlink (focusing on revenue, innovation, and global impact):
 
 | Company | Headquarters | Key Focus | Notable 2025 Highlights |
-|---------|--------------|-----------|-------------------------|
+| --------- | -------------- | ----------- | ------------------------- |
 | **Huawei** | Shenzhen | Telecom, AI, semiconductors | Leads in 5G/6G patents; Fortune China Tech 50 top spot. |
 | **Tencent** | Shenzhen | Social media, gaming, cloud | WeChat ecosystem; AI investments in healthcare. |
 | **Alibaba** | Hangzhou | E-commerce, cloud computing | Ant Group fintech; global logistics AI. |

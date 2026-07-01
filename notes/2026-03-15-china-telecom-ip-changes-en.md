@@ -32,7 +32,7 @@ Dynamic IP addresses are temporary and can be reassigned multiple times — ever
 Your IP `14.19.28.xx` can change in the following scenarios:
 
 | Trigger | Likelihood of IP Change |
-|---|---|
+| --- | --- |
 | Router reboot / reconnect | High — new PPPoE session = possibly new IP |
 | Power outage at home | High |
 | Modem/ONT replaced | High |

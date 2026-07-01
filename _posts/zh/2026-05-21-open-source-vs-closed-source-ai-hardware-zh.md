@@ -18,7 +18,7 @@ type: note
 ## AI 价值链：开源与闭源的差距（真实评估）
 
 | 层级 | 开源 | 闭源 | 差距 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **ML 框架** | PyTorch, JAX | — | 基本闭合。PyTorch 就是标准 |
 | **编译器/IR** | MLIR, XLA, Triton | cuDNN 内部实现 | 中等 — Triton 正在快速缩小差距 |
 | **运行时** | ROCm HIP, oneAPI | CUDA 运行时 | 中等 — ROCm 约完成 85% |

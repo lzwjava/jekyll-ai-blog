@@ -83,7 +83,7 @@ There are very few Chinese instructors who can teach this from actual hands-on e
 ### Verdict
 
 | Dimension | Signal |
-|---|---|
+| --- | --- |
 | Market size | Strong ✅ |
 | Policy support | Strong ✅ |
 | Competition (K-12/broad) | Brutal ❌ |

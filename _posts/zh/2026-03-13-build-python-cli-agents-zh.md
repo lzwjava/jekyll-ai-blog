@@ -49,7 +49,7 @@ User --> messages[] --> LLM --> response
 ### Core Libraries You Need
 
 | 库 | 用途 |
-|---|---|
+| --- | --- |
 | `anthropic` / `openai` | LLM API 调用 |
 | `click` 或 `typer` | CLI 参数解析 |
 | `rich` | 终端 UI（颜色、旋转器） |
@@ -191,7 +191,7 @@ pip install claude-agent-sdk
 ## 总结
 
 | 功能 | Python 能力 |
-|---|---|
+| --- | --- |
 | LLM API 调用 | ✅ `anthropic`、`openai` SDK |
 | CLI 接口 | ✅ `typer`、`click`、`argparse` |
 | 文件系统工具 | ✅ `pathlib`、`os` |

@@ -33,7 +33,7 @@ type: note
 ### 此项列入的关键事实
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Element Inscribed | Spring Festival (Chinese New Year) |
 | Date | December 4, 2024 |
 | Venue | 19th UNESCO ICH Committee Session, Asunción, Paraguay |

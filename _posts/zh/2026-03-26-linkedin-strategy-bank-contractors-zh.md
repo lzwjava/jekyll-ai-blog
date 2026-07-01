@@ -20,7 +20,7 @@ Answer:
 当 Recruitment 浏览 LinkedIn 时，他们会快速评估 Profile 的可信度。以下是对比：
 
 | 方案 | 视觉呈现效果 |
-|---|---|
+| --- | --- |
 | "Backend Engineer at DBS Bank (Contract)" | 任期较短，容易引发稳定性担忧 |
 | "Backend Engineer at Chinasoft" | 看起来像 Perm 员工，职业生涯更稳定 |
 | "Backend Engineer at TEKsystems" | 全球知名的 Staffing 品牌，具备公信力 |
@@ -61,7 +61,7 @@ Answer:
 ### 总结建议
 
 | 维度 | 最佳选择 |
-|---|---|
+| --- | --- |
 | 显示的公司名称 | Chinasoft / TEKsystems (Vendor) |
 | 项目细节 | 在 Description 中提及 SCB/DBS |
 | 邮件验证 | 如果有，优先使用 SCB/DBS 邮箱 |

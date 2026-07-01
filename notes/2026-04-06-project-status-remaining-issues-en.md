@@ -23,7 +23,7 @@ Good question. Here's where we stand:
 **🚧 Remaining issues (least to most impactful):**
 
 | # | Issue | Impact | Effort |
-|---|-------|--------|--------|
+| --- | ------- | -------- | -------- |
 | 1 | **`$this->load->library/model` in 20 controllers** | Won't crash immediately (lazy use), but needs fixing before those endpoints work | ~2 hr |
 | 2 | **`WxPay`, `Alipay`, `WxPayCallback` stubs missing** | `Wechat`, `Charges`, `Rewards` controllers will 500 if those methods are called | ~1 hr |
 | 3 | **Only `/` route defined** | All other endpoints return 404 regardless of code quality | ~30 min |

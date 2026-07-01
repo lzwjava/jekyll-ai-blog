@@ -32,7 +32,7 @@ OpenClaw（以及 Nextcloud Talk 机器人生态系统整体）迭代迅速。�
 你至少面对**4个相互影响的系统**：
 
 | 层级 | 复杂性 |
-|---|---|
+| --- | --- |
 | Nextcloud Talk | Webhook 签名验证、机器人注册 |
 | OpenClaw 机器人 | 提及检测逻辑、丢弃条件 |
 | Docker 网络 | 桥接/主机模式、内部 DNS |

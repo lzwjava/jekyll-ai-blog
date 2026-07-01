@@ -20,7 +20,7 @@ type: note
 ## 终端与 Shell
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [Warp](https://github.com/warpdotdev/Warp) | AI 原生终端（你已提及） |
 | [Alacritty](https://github.com/alacritty/alacritty) | GPU 加速终端，极简，速度极快 |
 | [WezTerm](https://github.com/wez/wezterm) | GPU 加速终端 + 多路复用器，Lua 可配置 |
@@ -31,7 +31,7 @@ type: note
 ## 编辑器与 IDE
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [Zed](https://github.com/zed-industries/zed) | 快速协作编辑器（你已提及） |
 | [Helix](https://github.com/helix-editor/helix) | 模式编辑器，内置 tree-sitter + LSP，无需插件 |
 
@@ -40,7 +40,7 @@ type: note
 ## CLI 替代工具（“现代 Unix 工具”级别）
 
 | 项目 | 替代品 | 备注 |
-|---------|----------|-------|
+| --------- | ---------- | ------- |
 | [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) | `grep` | 最快的 grep，尊重 `.gitignore` |
 | [fd](https://github.com/sharkdp/fd) | `find` | 语法更简单，速度快 |
 | [bat](https://github.com/sharkdp/bat) | `cat` | 语法高亮，集成 git |
@@ -57,7 +57,7 @@ type: note
 ## 构建、包管理与开发工具
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [just](https://github.com/casey/just) | `make` 替代品，语法更合理——非常适合项目脚本 |
 | [cargo-watch](https://github.com/watchexec/watchexec) | 文件变动时重新运行 cargo |
 | [mise](https://github.com/jdx/mise) | `asdf`/`nvm`/`pyenv` 多合一版本管理器 |
@@ -70,7 +70,7 @@ type: note
 ## 网络与 HTTP
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [xh](https://github.com/ducaale/xh) | 类似 `httpie` 但速度更快——对用户最友好的 curl 替代品 |
 | [dog](https://github.com/ogham/dog) | DNS 查询工具，替代 `dig` |
 | [bandwhich](https://github.com/imsnif/bandwhich) | 按进程查看终端带宽使用情况 |
@@ -81,7 +81,7 @@ type: note
 ## 数据与搜索
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | 全文搜索引擎，Elasticsearch 替代品 |
 | [Tantivy](https://github.com/quickwit-oss/tantivy) | Rust 实现的 Lucene 等效搜索库 |
 | [Quickwit](https://github.com/quickwit-oss/quickwit) | 用于日志/追踪的分布式搜索引擎 |
@@ -92,7 +92,7 @@ type: note
 ## AI / LLM 相关
 
 | 项目 | 简介 |
-|---------|-----------|
+| --------- | ----------- |
 | [Candle](https://github.com/huggingface/candle) | HuggingFace 的 Rust ML 框架——无需 Python 即可运行 LLM |
 | [llm](https://github.com/rustformers/llm) | 在 CLI 中本地运行 GGML 模型 |
 | [Ratchet](https://github.com/FL33TW00D/ratchet) | Rust 中的 WebGPU ML 推理 |

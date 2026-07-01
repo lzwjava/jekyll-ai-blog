@@ -76,7 +76,7 @@ console.log("===== BEFORE TAB SWITCH =====", {
 Angular 有许多无声的 lifecycle events，会导致如 field value loss 等 bug：
 
 | Lifecycle / Event | Common Bug |
-|---|---|
+| --- | --- |
 | `ngOnDestroy` + `ngOnInit` | Form reset when tab re-creates component |
 | `ngOnChanges` | Input binding overwrites user-typed value |
 | `ChangeDetectionStrategy.OnPush` | UI not updating, looks like value lost |
@@ -104,7 +104,7 @@ Angular 有许多无声的 lifecycle events，会导致如 field value loss 等 
 ### 总结
 
 | Approach | AI Effectiveness |
-|---|---|
+| --- | --- |
 | Code only | Low — AI guesses runtime behavior |
 | Code + description | Medium — still missing execution order |
 | Code + full raw logs | Medium — hard to isolate the relevant section |

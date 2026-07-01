@@ -101,7 +101,7 @@ But this is fragile — you're always one bypass away from failure (reflection, 
 **There's no perfect sandbox in a single process.** Your options on a spectrum:
 
 | Approach | Isolation | Overhead | Escape Risk |
-|----------|-----------|----------|-------------|
+| ---------- | ----------- | ---------- | ------------- |
 | Orchestration rules | Weak | None | 100% |
 | Restricted Python builtins | Medium | Low | High |
 | Container | Strong | Medium | Low (but possible) |

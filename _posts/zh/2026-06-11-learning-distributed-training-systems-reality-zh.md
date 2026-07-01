@@ -107,7 +107,7 @@ DDP是批量同步的：每一步，所有rank在allreduce处汇合。步骤时�
 ## 2.4 直接映射到MI300X/H100集群的内容
 
 | 家庭实验室概念 | 集群对应项 |
-|---|---|
+| --- | --- |
 | 1GbE上的`GLOO/NCCL_SOCKET_IFNAME` | `NCCL_IB_HCA`，信道优化的RoCE/IB（每节点8×400G） |
 | 局域网内的c10d节点发现 | Slurm/Kubernetes下的相同c10d；`MASTER_ADDR`来自调度器 |
 | 环形allreduce成本模型 | 相同公式；节点内通过xGMI/NVLink（MI300X上约448 GB/s）而非网卡 |

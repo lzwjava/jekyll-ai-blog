@@ -96,7 +96,7 @@ npm install @whiskeysockets/baileys@latest
 ### Recommended Retry Checklist
 
 | Step | Action |
-|------|--------|
+| ------ | -------- |
 | ✅ | Clear session data (done) |
 | 🔲 | Verify server time is synced |
 | 🔲 | Try without proxy first |

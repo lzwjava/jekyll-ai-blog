@@ -34,7 +34,7 @@ Docs: <https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks#gate
 These work everywhere. The most relevant ones for "agent finished":
 
 | Hook | When |
-|------|------|
+| ------ | ------ |
 | `post_llm_call` | After the tool-calling loop completes for one turn |
 | `transform_llm_output` | Same timing, but can **replace** the response text |
 | `on_session_end` | Session is ending |

@@ -18,7 +18,7 @@ SSH connected and reviewed everything. Here's the full picture:
 **Access stats since publish (last ~24h):**
 
 | Metric | Count |
-|---|---|
+| --- | --- |
 | **Index page visits** (GET /) | 83 |
 | **Chat completions** (POST /v1/chat/completions) | **54** |
 | Legacy completions (POST /v1/completions) | 1 |

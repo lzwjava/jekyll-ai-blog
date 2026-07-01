@@ -172,7 +172,7 @@ iverilog -o sim counter.v counter_tb.v && ./sim
 ## Other IDEs
 
 | Tool | Type | Best for |
-|---|---|---|
+| --- | --- | --- |
 | **EDA Playground** | Browser | Zero install, share snippets |
 | **Vivado** | Full IDE | Xilinx FPGAs, free version exists |
 | **Quartus Prime** | Full IDE | Intel FPGAs, free lite version |

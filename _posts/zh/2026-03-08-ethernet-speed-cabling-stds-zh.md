@@ -18,7 +18,7 @@ type: note
 名称的每个部分都有特定含义。以 **1000BASE-T** 为例：
 
 | 部分 | 含义 |
-|------|---------|
+| ------ | --------- |
 | **数字** (10 / 100 / 1000) | 传输速度（Mbps） |
 | **BASE** | 基带信号——电缆上仅传输 Ethernet 信号 |
 | **T** | 双绞线——使用的物理电缆介质 |
@@ -59,7 +59,7 @@ type: note
 ## 快速比较表
 
 | 标准 | 速度 | 常见名称 | 双工模式 | 最小电缆 | 使用的线对 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 10BASE-T | 10 Mbps | Ethernet | Half | Cat3 | 2 pairs |
 | 100BASE-T | 100 Mbps | Fast Ethernet | Full | Cat5 | 2 pairs |
 | 1000BASE-T | 1000 Mbps (1 Gbps) | Gigabit Ethernet | Full | Cat5e | 4 pairs |

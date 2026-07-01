@@ -76,7 +76,7 @@ Oxc 的 parser 至少比 SWC 快 3 倍，比 Biome 快 5 倍。OXC transformer �
 ## 总结表格
 
 | 工具 | 与之比较 | 速度提升 |
-|---|---|---|
+| --- | --- | --- |
 | Parser | SWC | ~3x faster |
 | Parser | Biome | ~5x faster |
 | Linter | ESLint | 50–100x faster |

@@ -25,7 +25,7 @@ Its fame exploded in the cloud-native era, especially for **microservices, serve
 Yes, GraalVM is widely integrated into numerous open-source and enterprise projects, making it a cornerstone for modern JVM ecosystems. Here's a quick overview of notable adopters:
 
 | Project/Framework | Use Case | Why GraalVM? |
-|-------------------|----------|--------------|
+| ------------------- | ---------- | -------------- |
 | **Quarkus** | Kubernetes-native Java apps | Native compilation for fast boot times in containers; official GraalVM support since v1.0. |
 | **Micronaut** | Microservices framework | Built-in GraalVM integration for low-memory, high-throughput services. |
 | **Helidon** (Oracle) | Cloud-native web apps | Leverages GraalVM for reactive, lightweight MP (MicroProfile) implementations. |

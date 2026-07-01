@@ -37,7 +37,7 @@ DeepSeek-V3.2-Speciale is the "maxed-out" reasoning specialist, applying extra h
 - **Temporary Access**: Currently API-only via a special endpoint (expires December 15, 2025), with thinking mode only—no tool support—to enable community evaluation before merging into the standard release.
 
 | Feature | DeepSeek-V3.2 (Standard) | DeepSeek-V3.2-Speciale |
-|---------|---------------------------|-------------------------|
+| --------- | --------------------------- | ------------------------- |
 | **Primary Use** | Everyday reasoning & agents | Deep reasoning (math/coding/contests) |
 | **Benchmark Edge** | Matches GPT-5 overall | Surpasses GPT-5; equals Gemini 3.0 Pro |
 | **Tool Support** | Full (thinking/non-thinking) | None (pure reasoning) |

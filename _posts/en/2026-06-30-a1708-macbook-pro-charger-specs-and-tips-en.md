@@ -24,7 +24,7 @@ Charger spec:
 The 61W A1718 PD profiles:
 
 | Voltage | Current | Power |
-|---------|---------|-------|
+| --------- | --------- | ------- |
 | 20.3V | 3.0A | ~61W |
 | 9V | 3.0A | 27W |
 | 5.2V | 2.4A | ~12W |

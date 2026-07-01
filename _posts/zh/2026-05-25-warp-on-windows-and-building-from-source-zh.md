@@ -72,7 +72,7 @@ cargo build --release
 ### 总结
 
 | 问题 | 答案 |
-|---|---|
+| --- | --- |
 | Warp 是否支持 Windows？ | 是的，自 2025 年 2 月起 |
 | 源码是否可用？ | 是的，2026 年 4 月开源（AGPL） |
 | 能否用 Rust + VS Build Tools 构建？ | 可以，这是正确的 Windows 工具链 |

@@ -46,7 +46,7 @@ Claude Code 中的 `/export` 命令会将完整对话以纯文本形式直接写
 你的核心观点依然成立：
 
 | 功能 | OpenCode `/export` | Claude Code `/copy` |
-|---|---|---|
+| --- | --- | --- |
 | **范围** | 完整会话，所有轮次 | 最后一次回复（或前 N 次） |
 | **格式** | 带有开关的结构化 Markdown | 纯文本或剪贴板 |
 | **Tool 详情** | 可选（thinking blocks, tool calls） | 默认不包含 |

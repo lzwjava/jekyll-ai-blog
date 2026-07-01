@@ -14,7 +14,7 @@ In HSBC's global job banding system, **Senior Consultant Specialist** typically 
 HSBC's band structure (high to low):
 
 | Band | Level |
-|------|-------|
+| ------ | ------- |
 | GCB 0 | Group CEO |
 | GCB 1 | Group Executives |
 | GCB 2 | Senior Executives |

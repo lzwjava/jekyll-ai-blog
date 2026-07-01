@@ -91,7 +91,7 @@ Avoids polling altogether. Used in payment processors, Stripe webhooks, etc.
 The queue solves several things simultaneously:
 
 | Problem | How queue solves it |
-|---|---|
+| --- | --- |
 | Producer blocks on slow consumer | Decoupled — producer returns immediately |
 | Consumer dies mid-task | Message stays in queue (ack-on-complete) |
 | Traffic spike | Queue absorbs burst, consumer processes at its rate |

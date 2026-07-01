@@ -124,7 +124,7 @@ killall -9 processname
 ## Common Processes That Lock Disks
 
 | Process | Cause | Solution |
-|---------|-------|----------|
+| --------- | ------- | ---------- |
 | `Finder` | Browsing the disk | Close Finder windows for that disk |
 | `Spotlight` | Indexing the drive | Disable Spotlight for external drives (System Settings > Siri & Spotlight) |
 | `Backup` or `Time Machine` | Automatic backup running | Wait for backup to complete or disable |

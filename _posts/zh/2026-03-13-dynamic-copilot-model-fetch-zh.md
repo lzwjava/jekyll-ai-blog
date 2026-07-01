@@ -22,7 +22,7 @@ type: note
 ## 端点详情
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Method** | `GET` |
 | **URL** | `https://api.githubcopilot.com/models` |
 | **Auth** | Bearer token (Copilot OAuth token, not a GitHub PAT) |
@@ -135,7 +135,7 @@ async function handleModelCommand(copilotToken: string) {
 ## 动态获取与硬编码的关键优势
 
 | Hardcoded | Dynamic (`/models` endpoint) |
-|---|---|
+| --- | --- |
 | 当 GitHub 添加/移除模型时会中断 | 始终最新 |
 | 可能显示用户无法访问的模型 | 仅显示订阅支持的模型 |
 | 更新需要修改代码 | 零维护 |

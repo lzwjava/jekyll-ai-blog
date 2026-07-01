@@ -52,7 +52,7 @@ OS 使用 virtual memory、virtual CPU（时间共享）和 virtual devices 等�
 ### ❌ 其他选项为什么错误
 
 | Option | Problem |
-|--------|---------|
+| -------- | --------- |
 | **A** (Concurrency, Sharing, **Real-time**, **Synchrony**) | Real-time (实时性) 是 **real-time operating systems** 的特定特征，并非所有 OS 都具备。Synchrony (同步性) 是 OS 内部使用的 *机制*（例如 semaphores），而非 OS 本身的基本特征。 |
 | **B** (Mutual exclusion, Independence, Virtuality, Asynchrony) | Mutual exclusion (互斥性) 和 independence (独立性) 是进程管理相关的概念，而非顶层 OS 特征。 |
 | **C** (Timeliness, Sharing, Virtuality, Synchrony) | Timeliness (及时性) 仅属于 real-time systems。Synchrony 取代了正确的术语 Asynchrony。 |

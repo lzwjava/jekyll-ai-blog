@@ -49,7 +49,7 @@ You are right that Google is notably stronger here. Gemini was trained **nativel
 This is a well-known practical trick:
 
 | Approach | Accuracy |
-|---|---|
+| --- | --- |
 | Raw image fed to VLM | Lower — vision encoder loses detail |
 | OCR / image → LaTeX first, then reason | Much higher |
 | Native text math problem | Highest |

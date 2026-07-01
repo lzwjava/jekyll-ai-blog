@@ -78,7 +78,7 @@ Read the same article twice. The second read is always faster. This trains your 
 This varies a lot, but research and common experience suggest:
 
 | Stage | Timeline Abroad | What Changes |
-|---|---|---|
+| --- | --- | --- |
 | Functional comfort | 6–12 months | Stops feeling exhausting |
 | Automatic daily reading | 1–2 years | News, social media feel natural |
 | Near-native fluency | 3–5 years | Humor, sarcasm, culture clicks |

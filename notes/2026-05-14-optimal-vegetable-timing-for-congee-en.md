@@ -49,7 +49,7 @@ Cutting ingredients into small chunks helps them soften faster, but even then, d
 ### Quick Summary Table
 
 | Vegetable Type | When to Add |
-|---|---|
+| --- | --- |
 | Root veg (carrot, sweet potato) | From the start |
 | Mushrooms | Halfway (~45 min in) |
 | Leafy greens (spinach, kale) | Last 10–15 min |

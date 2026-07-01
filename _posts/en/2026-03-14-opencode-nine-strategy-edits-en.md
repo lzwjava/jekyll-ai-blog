@@ -71,7 +71,7 @@ Each strategy is tried in order; the first one that finds a match wins.
 #### Strategy Breakdown
 
 | Strategy | What it does |
-|---|---|
+| --- | --- |
 | `SimpleReplacer` | Raw `content.indexOf(search)` — exact match |
 | `LineTrimmedReplacer` | Splits into lines, trims each, compares trimmed versions |
 | `BlockAnchorReplacer` | Uses the first/last line of `oldString` as anchors to fuzzy-find the block |
@@ -133,7 +133,7 @@ EditTool.execute(filePath, oldString, newString, replaceAll)
 ## Comparison: opencode vs Claude Code Edit Tools
 
 | Feature | opencode `EditTool` | Claude Code `str_replace_based_edit_tool` |
-|---|---|---|
+| --- | --- | --- |
 | **Language** | TypeScript (Bun) | Schema-less (baked into model) |
 | **Fallback strategies** | ✅ 9-strategy cascade | ❌ Exact match only (auto-retry by model) |
 | **File creation** | ✅ `oldString=""` path | ✅ Separate `create` command |

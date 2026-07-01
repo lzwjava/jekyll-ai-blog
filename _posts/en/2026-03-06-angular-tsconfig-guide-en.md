@@ -26,7 +26,7 @@ The presence of a `tsconfig.json` file in a directory indicates that the directo
 When you generate a new Angular project with the CLI, you typically get **three tsconfig files**:
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `tsconfig.json` | Root/base config for the entire project |
 | `tsconfig.app.json` | Config used when building the application |
 | `tsconfig.spec.json` | Config used when running unit tests |
@@ -72,7 +72,7 @@ The `compilerOptions` property is an object that specifies the TypeScript compil
 Key options explained:
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `target` | The JavaScript version to compile to (e.g., `es2020`) |
 | `module` | Module format; Angular benefits from `esnext` for tree-shaking |
 | `moduleResolution` | How modules are resolved; use `node` to match Node.js behavior |
@@ -108,7 +108,7 @@ Example:
 This section is **Angular-specific** and controls the Angular template compiler (Ivy). Important options include:
 
 | Option | Description |
-|---|---|
+| --- | --- |
 | `strictInjectionParameters` | Enforces proper injection parameter types |
 | `strictInputAccessModifiers` | Validates input binding access modifiers |
 | `fullTemplateTypeCheck` | Enables type checking inside HTML templates (deprecated in Angular 13+) |

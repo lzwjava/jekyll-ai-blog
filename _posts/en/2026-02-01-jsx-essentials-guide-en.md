@@ -194,7 +194,7 @@ This pattern is the foundation of **composition** in React — you build complex
 ## A Quick Summary of Common Pitfalls
 
 | HTML Habit | JSX Equivalent |
-|---|---|
+| --- | --- |
 | `class="btn"` | `className="btn"` |
 | `for="email"` | `htmlFor="email"` |
 | `<br>` | `<br />` |

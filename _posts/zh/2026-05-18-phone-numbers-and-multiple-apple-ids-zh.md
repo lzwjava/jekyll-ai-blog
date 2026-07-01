@@ -42,7 +42,7 @@ It is possible to end up with the same phone number associated with two Apple ID
 ## Summary Table
 
 | Use Case | One number → Multiple Apple IDs? |
-|---|---|
+| --- | --- |
 | Trusted phone (2FA codes) | ✅ Yes, allowed |
 | iMessage / FaceTime "Reachable At" | ⚠️ Technically possible but causes conflicts |
 | Primary Apple ID login identifier | ❌ Should be unique per account |

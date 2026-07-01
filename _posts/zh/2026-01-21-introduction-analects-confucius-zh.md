@@ -41,7 +41,7 @@ Answer:
 ### 核心主题与关键概念
 
 | Concept | Chinese | Common English Translation | Brief Meaning |
-|---------|---------|----------------------------|---------------|
+| --------- | --------- | ---------------------------- | --------------- |
 | 仁 | rén | benevolence, humaneness, goodness | 最高美德；推己及人 |
 | 礼 | lǐ | ritual propriety, rites, etiquette | 合宜的行为、社会规范、礼仪秩序 |
 | 义 | yì | righteousness, justice | 做道德上正确的事 |

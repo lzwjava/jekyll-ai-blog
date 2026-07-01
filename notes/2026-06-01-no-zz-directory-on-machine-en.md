@@ -26,7 +26,7 @@ VOLUME (100G, 37G used, 63G free)
 There's no `zz` data here. The only large data on this box is:
 
 | What | Where | Size |
-|------|-------|------|
+| ------ | ------- | ------ |
 | ROCm runtime | /opt/rocm-7.2.0 | 22G |
 | Container images | /var/lib/containerd | 59G |
 | Llama models | volume (symlinked) | 37G |

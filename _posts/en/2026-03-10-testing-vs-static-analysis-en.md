@@ -71,7 +71,7 @@ Static analysis is the most powerful bug-finding tool that doesn't require exten
 ## Summary Table
 
 | Dimension | Static Analysis | Testing |
-|---|---|---|
+| --- | --- | --- |
 | When it runs | Without executing code | By executing code |
 | Coverage | Exponentially high (automated) | Limited by human effort |
 | Values | Symbolic (all possible) | Specific inputs only |

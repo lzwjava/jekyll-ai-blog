@@ -42,7 +42,7 @@ type: note
 Tried 4 models before finding what works:
 
 | Model | Size | Result |
-|---|---|---|
+| --- | --- | --- |
 | `unsloth/Qwen3-8B` (4-bit) | 7.5GB | Download too slow (300KB/s), killed |
 | `Qwen/Qwen3.5-9B` (cached) | 18GB | VL model, wrong type |
 | `Qwen/Qwen3-4B-FP8` (cached) | 4.9GB | Hung during Unsloth load |

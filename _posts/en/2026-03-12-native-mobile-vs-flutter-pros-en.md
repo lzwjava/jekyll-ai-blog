@@ -72,7 +72,7 @@ Native platforms (Swift/Kotlin) are maintained directly by Apple and Google resp
 ## Summary: When to Choose Native vs. Flutter
 
 | Criteria | Native (Swift/Kotlin) | Flutter |
-|---|---|---|
+| --- | --- | --- |
 | Performance-critical app | ✅ Preferred | ⚠️ Acceptable |
 | Deep hardware integration | ✅ Preferred | ⚠️ Limited |
 | AR/VR/3D/Gaming | ✅ Preferred | ❌ Not ideal |

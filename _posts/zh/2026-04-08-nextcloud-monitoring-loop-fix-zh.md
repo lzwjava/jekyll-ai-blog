@@ -61,7 +61,7 @@ docker restart nextcloud-app-1
 ### Nextcloud 专项建议
 
 | 建议做法 | 避免做法 |
-|---|---|
+| --- | --- |
 | 使用 `/status.php` 进行健康检查 | 轮询 `/apps/dashboard/` 或其他 UI 路径 |
 | PHP 应用监控间隔设为 ≥ 60秒 | 对 PHP 应用进行高频轮询 |
 | 单独监控容器 CPU 指标 | 仅关注主机平均负载 |

@@ -146,7 +146,7 @@ updatePagination(total: number) {
 ## 总结表格
 
 | 方法 | Angular 21 友好 | 复杂度 |
-|---|---|---|
+| --- | --- | --- |
 | Signals (`signal()`、`input()`) | ✅ 最佳 | 低–中 |
 | Observable + `async` pipe | ✅ 良好 | 低 |
 | 手动 `markForCheck()` | ⚠️ 有效但遗留 | 低 |

@@ -92,7 +92,7 @@ AnythingLLM 在单一界面中支持纯文本和多模态 LLM，并可白标并�
 ## 银行推荐总结
 
 | 项目 | 语言 | Azure/Copilot API | 无需 Docker | 复杂度 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Chatbot UI** | JS/Next.js | ✅ 是 | ✅ 是 | ⭐ 最低 |
 | **Microsoft Bot Framework** | JS / C# | ✅ 原生 | ✅ 是 | ⭐⭐ |
 | **Botpress** | TypeScript | ✅ 是 | ✅ 是 | ⭐⭐ |

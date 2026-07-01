@@ -18,7 +18,7 @@ Yes — `git ls-files` is exactly the right tool here. It natively respects `.gi
 ## Why `git ls-files` is Better Than `glob`
 
 | Approach | Respects `.gitignore` | Fast | Handles nested ignores |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `glob("**/*")` | ❌ | Slow on large repos | ❌ |
 | Manual `.gitignore` parsing | Partial | Medium | Hard |
 | `git ls-files` | ✅ | Fast | ✅ |
@@ -115,7 +115,7 @@ git ls-files --cached --others --exclude-standard
 ```
 
 | Flag | What it includes |
-|---|---|
+| --- | --- |
 | `--cached` | Files already tracked by git (committed or staged) |
 | `--others` | New files not yet tracked (untracked) |
 | `--exclude-standard` | Applies `.gitignore`, `.git/info/exclude`, and global gitignore |

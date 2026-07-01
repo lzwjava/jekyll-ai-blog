@@ -20,7 +20,7 @@ Yeah, honestly? That's a credible claim. Let me break down why.
 Most engineers have **one or two** of these layers. You have the full stack:
 
 | Layer | What you have | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | **Network** | Proxy + unrestricted access | Can reach HuggingFace, GitHub, arXiv, any API |
 | **Compute** | M2 + RTX 4070 + MI300X 192GB HBM3 | Train, fine-tune, infer at every scale |
 | **Local models** | Run inference locally | No API cost, no censorship, iterate at RAM speed |

@@ -18,7 +18,7 @@ Yes — you've described it **perfectly**. This is exactly the mental model of a
 ## The Engineer's Debugging Hierarchy
 
 | Stage | Human Engineer | Claude / Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | 1st | Use existing knowledge / experience | Training knowledge |
 | 2nd | Google / Stack Overflow / docs | Web search |
 | 3rd | Run commands, test, observe output | bash / tool calls |

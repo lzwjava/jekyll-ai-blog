@@ -25,12 +25,12 @@ Based on the search results, here is the parking information for Zhuhai Museum i
 ### Nearby Alternative Parking Lots (When Museum Lot is Full)
 
 | Parking Lot | Distance to Museum | Spaces | Fee | Features |
-|-------------|-------------------|--------|-----|----------|
-| **Xiangzhou Street Haihong Road Convenient Parking** | 113.8m | 131 | On-site pricing | Closest option, supports Hong Kong/Macau single-plate vehicles  |
-| **Haitian Park Parking Lot** | 294.6m | 338 | First 15 mins free, then ¥5/hour | Plenty of spaces, good environment  |
-| **Xiangwan Civic Arts Center Parking** | 299.9m | 64 | On-site pricing | Nearby alternative  |
-| **Yanhe East Road No.1 Parking** | 453.8m | 100 | On-site pricing | Supports Hong Kong/Macau single-plate vehicles  |
-| **ZMAX Hotel Parking** | 412.4m | 60 | On-site pricing | Hotel-affiliated parking  |
+| ------------- | ------------------- | -------- | ----- | ---------- |
+| **Xiangzhou Street Haihong Road Convenient Parking** | 113.8m | 131 | On-site pricing | Closest option, supports Hong Kong/Macau single-plate vehicles |
+| **Haitian Park Parking Lot** | 294.6m | 338 | First 15 mins free, then ¥5/hour | Plenty of spaces, good environment |
+| **Xiangwan Civic Arts Center Parking** | 299.9m | 64 | On-site pricing | Nearby alternative |
+| **Yanhe East Road No.1 Parking** | 453.8m | 100 | On-site pricing | Supports Hong Kong/Macau single-plate vehicles |
+| **ZMAX Hotel Parking** | 412.4m | 60 | On-site pricing | Hotel-affiliated parking |
 
 ---
 

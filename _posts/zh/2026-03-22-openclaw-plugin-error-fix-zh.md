@@ -82,7 +82,7 @@ systemctl restart openclaw-gateway.service
 ### 总结表格
 
 | 警告 | 根本原因 | 修复 |
-|---|---|---|
+| --- | --- | --- |
 | `duplicate plugin id detected` | 插件已安装 + 同时在 `plugins.entries` 中 | 删除 `~/.openclaw/extensions/nextcloud-talk` |
 | Telegram 群组消息被丢弃 | `groupPolicy=allowlist` 但无允许 ID | 设置 `groupPolicy: "open"` 或添加 ID |
 | `plugins.allow is empty` | 无明确的插件信任列表 | 在配置中添加 `plugins.allow` 数组 |

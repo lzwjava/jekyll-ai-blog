@@ -45,7 +45,7 @@ Several structural reasons:
 Partially true, but the frame is imprecise:
 
 | What it's good at | What it's NOT |
-|---|---|
+| --- | --- |
 | Persistent personal agent runtime | Not a dedicated code editor integration (no LSP) |
 | Multi-platform messaging agent | Not competing with Claude Code / Cursor directly |
 | Self-improving via skills | Not optimized for large codebase navigation |

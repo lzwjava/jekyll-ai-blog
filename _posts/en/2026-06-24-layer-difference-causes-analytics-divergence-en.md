@@ -18,7 +18,7 @@ They measure fundamentally different things at different layers of the stack. He
 ## Layer Difference — This Is the Core Reason
 
 | | GoatCounter | Cloudflare Analytics |
-|---|---|---|
+| --- | --- | --- |
 | **Layer** | Application (JavaScript) | Network (CDN edge) |
 | **What it counts** | Page views from JS execution | HTTP requests hitting Cloudflare |
 | **Runs on** | Browser | Cloudflare's edge nodes |

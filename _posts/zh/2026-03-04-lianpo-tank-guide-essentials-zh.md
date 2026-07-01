@@ -47,7 +47,7 @@ Lian Po 的强度在于通过技能 1 重置实现流畅连击：
 前期优先冷却缩减（CDR，目标 30-40%），然后堆叠肉装。根据敌方阵容调整（例如，对 AP 阵容多魔抗）。
 
 | 位置 | 装备 | 原因 |
-|------|------|------|
+| ------ | ------ | ------ |
 | 鞋子 | Boots of Fortitude / Resistance Boots | CDR + 肉度；必要时换魔抗鞋。 |
 | 核心 1 | Ominous Premonition / Nightmare | 低血量护盾，海量续航 + CC 延长。 |
 | 核心 2 | Spikemail / Longnight Guardian | 反伤，抗爆发。 |

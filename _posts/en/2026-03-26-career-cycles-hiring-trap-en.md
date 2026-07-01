@@ -67,7 +67,7 @@ Many companies are now conducting layoffs to stabilize and correct unsustainable
 ### Summary Table
 
 | Situation | What Happens |
-|---|---|
+| --- | --- |
 | Big Corp hires fast, growth slows | Layoffs 1–2 years later |
 | Startup hires fast after funding, product fails | Runway depleted, layoffs or shutdown |
 | Either entity ties hiring to real demand | More sustainable, fewer forced cuts |

@@ -85,7 +85,7 @@ DMIT doesn't cut you off when you exceed your bandwidth allocation. Instead, the
 ### Summary Table
 
 | Feature | LAX.AN5.EB.TINY | LAX.AN5.Pro.TINY |
-|---|---|---|
+| --- | --- | --- |
 | Traffic | **1500 GB** (BIDI) | **1000 GB** (BIDI) |
 | Port Speed | 2 Gbps | 1 Gbps |
 | Price | $12.98/mo | $12.98/mo |

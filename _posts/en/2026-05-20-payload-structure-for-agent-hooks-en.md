@@ -35,7 +35,7 @@ Here's the complete picture. The payload is constructed in `agent/shell_hooks.py
 **What goes where:**
 
 | Field | Source |
-|-------|--------|
+| ------- | -------- |
 | `hook_event_name` | Always `"post_llm_call"` |
 | `tool_name` | Always `null` for non-tool events |
 | `tool_input` | Always `null` for non-tool events |
@@ -59,7 +59,7 @@ _invoke_hook("post_llm_call",
 **Other hooks have different payloads.** Quick reference:
 
 | Hook | `tool_name` | `tool_input` | Notable `extra` keys |
-|------|-------------|-------------|----------------------|
+| ------ | ------------- | ------------- | ---------------------- |
 | `pre_tool_call` | `"terminal"` etc. | `{"command": "..."}` | `task_id`, `tool_call_id` |
 | `post_tool_call` | `"terminal"` etc. | `{"command": "..."}` | `task_id`, `result`, `duration_ms`, `tool_call_id` |
 | `pre_llm_call` | `null` | `null` | `user_message`, `platform`, `conversation_history` |

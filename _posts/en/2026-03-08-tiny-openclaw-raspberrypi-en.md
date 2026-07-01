@@ -164,7 +164,7 @@ OpenClaw is fundamentally a Node.js-based agent, not a Python library. However, 
 ## Quick Comparison Table
 
 | Feature | PicoClaw | OpenClaw (standard) |
-|---|---|---|
+| --- | --- | --- |
 | RAM usage | ~10MB | ~100MB+ |
 | Startup time | <1 second | ~30 seconds |
 | Language | Go | TypeScript/Node.js |

@@ -49,7 +49,7 @@ This round-trip over a LAN (192.168.x.x) typically takes **< 1ms**. The result a
 ## The "Sync" Misconception
 
 | What you might think | What actually happens |
-|---|---|
+| --- | --- |
 | Change syncs from remote to local | No local copy exists at all |
 | Files are mirrored somewhere | Files only live on the remote machine |
 | Some daemon watches and pushes changes | No daemon, just a shell running remotely |

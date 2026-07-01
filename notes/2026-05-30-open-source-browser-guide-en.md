@@ -75,7 +75,7 @@ Safari itself (the app shell, UI, sync, etc.) is **closed source proprietary**. 
 ## Quick Reference
 
 | Browser | Engine | Open Source | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Firefox | Gecko/SpiderMonkey | ✅ Full | Only major non-Blink/WebKit engine |
 | Brave | Blink/V8 | ✅ Full | Best daily-driver for privacy |
 | Chromium | Blink/V8 | ✅ Full | Chrome upstream |

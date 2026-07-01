@@ -96,7 +96,7 @@ There was a known bug where the `@openclaw/nextcloud-talk` npm package had an un
 ### Summary
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Source location | `extensions/nextcloud-talk/` inside the main `openclaw/openclaw` GitHub repo |
 | npm package | `@openclaw/nextcloud-talk` |
 | Bundled with core? | No — must be installed separately |

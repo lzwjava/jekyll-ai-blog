@@ -24,7 +24,7 @@ type: note
 **技术栈分析：**
 
 | 信号 | 结论 |
-|--------|-----------|
+| -------- | ----------- |
 | `<div id="app"></div>` | **Vue 3**（React 通常使用 `id="root"`，Vue 按惯例使用 `id="app"`） |
 | `assets/index-[hash].js` | **Vite** 构建输出——`BBl0IX-N` 的哈希模式是 Vite 的默认块命名方式 |
 | 单个 JS + CSS 捆绑包 | SPA，无 SSR |

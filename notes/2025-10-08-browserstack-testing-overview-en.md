@@ -67,7 +67,7 @@ Sessions support geolocation (100+ countries), network throttling, and up to 25-
 6. End session and review video recordings/logs.
 
 | Feature | Web Live | App Live |
-|---------|----------|----------|
+| --------- | ---------- | ---------- |
 | Devices | 3,000+ browsers | 30,000+ real mobiles |
 | Upload | URL only | App binary |
 | Tools | DevTools, resolutions | Gestures, biometrics, audio input |
@@ -154,7 +154,7 @@ Supports 21 data centers for low latency.
 Plans are annual (save 25%) and scale by users/parallels. Free tiers/limited trials available; open-source unlimited.
 
 | Product | Starter Plan | Pro/Team | Key Features |
-|---------|--------------|----------|--------------|
+| --------- | -------------- | ---------- | -------------- |
 | **Live (Desktop/Mobile)** | $29/user/mo (Desktop) | $39/user/mo (Mobile) | Unlimited mins, 3,000+ browsers, geolocation. Team: $30+/user. |
 | **Automate (Web/Mobile)** | $99/mo (1 parallel) | $225/mo (Pro, 1 parallel) | Selenium/Appium, AI self-healing, videos/logs. Scales to 25+ parallels. |
 | **App Live/Automate** | $39/mo (Individual) | $199/mo (1 parallel) | 30,000+ devices, gestures, biometrics. Pro: $249/mo. |

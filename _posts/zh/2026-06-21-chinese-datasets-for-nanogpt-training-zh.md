@@ -136,7 +136,7 @@ spm.SentencePieceTrainer.train(
 ## 我对你设置的建议
 
 | 目标 | 数据集 | 大小 |
-|------|--------|------|
+| ------ | -------- | ------ |
 | 快速实验 (RTX 4070) | 中文维基百科 | ~1.6GB |
 | 中等规模运行 (RTX 4070) | CLUECorpus small | ~14GB |
 | 严肃预训练 (MI300X) | Fineweb-Edu-Chinese | ~420B 个 token |

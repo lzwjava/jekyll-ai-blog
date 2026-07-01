@@ -26,7 +26,7 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 ## Famous Java Programmers (Individuals)
 
 | Username | Rating / Rank | Achievements | Why Java? | Profile |
-|--------|---------------|--------------|----------|--------|
+| -------- | --------------- | -------------- | ---------- | -------- |
 | **Petr Mitrichev** (`Petr`) | Legendary Grandmaster (~3400) | 2× Google Code Jam World Champion<br>2× TopCoder Open Champion<br>IOI Gold | Uses **Java for GCJ** (official language), C++ elsewhere. Master of clean, modular Java code. | [Codeforces](https://codeforces.com/profile/Petr) |
 | **Kevin Charles Atienza** (`kevin0406`) | International Grandmaster (~2800) | IOI 2015 Gold<br>Multiple AtCoder Grand Contest top-10 | **Full-time Java** on Codeforces & AtCoder. Known for ultra-clean, readable solutions. | [Codeforces](https://codeforces.com/profile/kevin0406) |
 | **Animesh Fatehpuria** (`animesh_f`) | Grandmaster (~2500) | ICPC World Finals 2021 (Bronze)<br>IOI 2018 Silver | **Java in ICPC & Codeforces**. Uses custom fast I/O templates. | [Codeforces](https://codeforces.com/profile/animesh_f) |
@@ -40,7 +40,7 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 ## Elite ICPC Teams Using Java (World Finals Medalists)
 
 | University | Country | Best Result | Language Strategy | Notable Members |
-|-----------|--------|-------------|-------------------|----------------|
+| ----------- | -------- | ------------- | ------------------- | ---------------- |
 | **University of Warsaw** | Poland | **2023 World Champions** | **Java primary** (all 3 members) | Michał “Errichto” Forczek (coach, C++/Java), team used Java for 80% problems |
 | **Peking University** | China | 2021 Silver, 2023 Bronze | **Java + C++ hybrid**; Java for math-heavy, BigInt | Zhang Chen, Liu Yujie |
 | **Seoul National University** | South Korea | 2022 Bronze | **100% Java** in Finals | Known for clean OOP modeling of graphs |
@@ -54,7 +54,7 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 ## Why These Users/Teams Choose Java
 
 | Advantage | Example Use Case |
-|---------|------------------|
+| --------- | ------------------ |
 | `BigInteger` | Arbitrary-precision math (e.g., combinatorics, number theory) |
 | `PriorityQueue`, `TreeMap` | Built-in balanced structures (no manual AVL) |
 | `Stream API` | Clean data processing (rare in CP, but used by Petr) |

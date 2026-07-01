@@ -22,7 +22,7 @@ What you're describing is essentially a **Personal AI Agent** — a system that 
 ### Breaking Down What You Need
 
 | Your Goal | What It Maps To |
-|---|---|
+| --- | --- |
 | High-paying jobs (AI engineer, researcher) | Job signal monitoring + JD matching |
 | Like-minded people | Community discovery + network graph analysis |
 | Tracking people's development trajectories | Public profile tracking (LinkedIn, GitHub, Twitter/X) |
@@ -84,7 +84,7 @@ This is sometimes called a **"Second Brain with Legs"** — it doesn't just stor
 ### The Honest Challenges
 
 | Challenge | Why It Matters |
-|---|---|
+| --- | --- |
 | **Privacy of others** | Tracking people's trajectories requires using only *public* data ethically |
 | **Signal vs. noise** | Without good personal profiling, you get flooded with irrelevant alerts |
 | **Trust & verification** | AI-curated opportunities can be low-quality or manipulated |

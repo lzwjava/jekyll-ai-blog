@@ -76,7 +76,7 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 **Memcheck 的关键标志：**
 
 | Flag | 描述 |
-|---|---|
+| --- | --- |
 | `--leak-check=full` | 显示每个独立内存泄漏的详细信息 |
 | `--show-leak-kinds=all` | 显示所有类型的泄漏 |
 | `--track-origins=yes` | 报告未定义值的来源 |
@@ -166,7 +166,7 @@ Callgrind 会生成大量关于程序执行的数据。最容易理解的方法�
 ## 总结表格
 
 | Tool | Platform | Use Case |
-|---|---|---|
+| --- | --- | --- |
 | Valgrind Memcheck | Linux (最佳) | 内存泄漏、非法访问 |
 | Valgrind Massif | Linux | 堆使用分析 |
 | Valgrind Callgrind | Linux | CPU/调用图分析 |

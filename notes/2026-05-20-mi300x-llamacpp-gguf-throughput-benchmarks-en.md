@@ -60,7 +60,7 @@ For Llama 3.3 70B FP8 in a reasoning scenario (1K input / 8K output), the MI300X
 ## Corrected/Validated Numbers Table (single MI300X, llama.cpp ROCm, tg128)
 
 | Model | Quant | VRAM used | Measured tg t/s | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Qwen3 8B | Q4_K_M | ~5 GB | **161** | Confirmed from llama.cpp #14640 |
 | Llama 3.3 70B | Q4_K_M | ~40 GB | **40–55** | Derived from bandwidth math + vLLM proxy |
 | Qwen 2.5 72B | Q4_K_M | ~43 GB | **38–52** | Similar to 70B class |

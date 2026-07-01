@@ -157,7 +157,7 @@ Valgrind 错误指向了 `liblzma`，这拉开了揭露整个 XZ 后门的线程
 ### 快速参考表
 
 | 方法 | 命令 | 检测内容 |
-|---|---|---|
+| --- | --- | --- |
 | 基本计时 | `time ssh user@host hostname` | 总登录往返时间 |
 | 详细模式 | `ssh -vvv user@host hostname` | 哪个阶段很慢 |
 | 带时间戳的日志 | `ssh -vvv ... 2>&1 \| ts '%.s'` | 毫秒级阶段间隙 |

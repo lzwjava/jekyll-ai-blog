@@ -84,7 +84,7 @@ AI可以通过提供直接答案来简化认知任务，这减少了对学习材
 你正确地指出了工具的分化：
 
 | 地区 | 主要使用的AI工具 |
-|---|---|
+| --- | --- |
 | **中国** | DeepSeek、豆包（字节跳动）、Kimi（Moonshot）、通义千问（阿里巴巴）、元宝（腾讯） |
 | **中国以外** | ChatGPT（OpenAI）、Gemini（Google）、Claude（Anthropic）、Copilot（Microsoft） |
 

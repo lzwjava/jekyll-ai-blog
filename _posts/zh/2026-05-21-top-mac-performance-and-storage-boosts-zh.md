@@ -16,7 +16,7 @@ type: note
 ### 最大收益
 
 | 操作 | 释放空间 | 方法 |
-|---|---|---|
+| --- | --- | --- |
 | **清除 JetBrains 缓存** | ~7 GB | `rm -rf ~/Library/Caches/JetBrains/` |
 | **Homebrew 清理** | ~3 GB | `brew cleanup --prune=all` |
 | **pip 缓存清除** | ~2.4 GB | `pip cache purge` |

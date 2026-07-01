@@ -62,7 +62,7 @@ Its full impact on AI — GPT, BERT, LLMs — only became clear *years later*. T
 ## 4. What This Means Practically
 
 | Factor | Role in Reputation |
-|---|---|
+| --- | --- |
 | Self-promotion | Signals existence, but does not *create* credibility |
 | Peer/technical feedback | Primary source of legitimate reputation in expert fields |
 | Time | Innovations may need years before peers recognize true value |

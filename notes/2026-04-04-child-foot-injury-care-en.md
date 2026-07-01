@@ -68,7 +68,7 @@ That said, "trusting the body" works best when:
 ## Summary
 
 | Situation | What to Do |
-|---|---|
+| --- | --- |
 | Doctor already assessed → minor injury | Go home, do basic care |
 | Child can bear weight after 1-2 hours | Good sign, home care appropriate |
 | Swelling worsens, child can't walk, skin discolors | Seek medical attention |

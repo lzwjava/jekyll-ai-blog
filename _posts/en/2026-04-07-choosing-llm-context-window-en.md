@@ -72,7 +72,7 @@ This suggests that **16,384 is the more practical sweet spot** for most local de
 ### Summary Table
 
 | Context Size | Best For | VRAM Needed (8B Q4 model) |
-|---|---|---|
+| --- | --- | --- |
 | 16,384 | Chat, Q&A, single docs, most tasks | ~7–8 GB |
 | 32,768 | Long docs, multi-doc RAG, long agents | ~10–11 GB |
 

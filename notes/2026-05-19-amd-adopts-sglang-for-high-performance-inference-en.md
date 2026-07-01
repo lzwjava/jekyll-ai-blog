@@ -76,7 +76,7 @@ SGLang delivers 29% higher throughput on H100 GPUs compared to vLLM (16,215 vs 1
 ## Summary Table
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | **Full Name** | Structured Generation Language |
 | **Origin** | UC Berkeley / LMSYS |
 | **Primary Use** | LLM & multimodal model inference serving |

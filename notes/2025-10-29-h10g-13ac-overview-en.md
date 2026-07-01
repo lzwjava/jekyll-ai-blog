@@ -26,7 +26,7 @@ The H10G-13AC (also stylized as H10g-13ac) is a **Converged Enterprise Gateway**
 ### Hardware Specifications
 
 | Interface/Component | Details |
-|---------------------|---------|
+| --------------------- | --------- |
 | **USB Ports** | 2x USB (for external storage or peripherals) |
 | **Network Ports** | 2x Gigabit Ethernet (GE) |
 | **Optical Port** | 1x GPON (Gigabit Passive Optical Network) for fiber connectivity |

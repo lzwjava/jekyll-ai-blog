@@ -46,7 +46,7 @@ Answer:
 If you disagree with your score, you may apply for a **score review**:
 
 | Item | Details |
-|---|---|
+| --- | --- |
 | **Application Period** | November 22–25, 2025 (based on postmark/send date) |
 | **How to Apply** | Submit a written application to the GDUFS Self-Study Exam Office; download and fill in the attached form, then mail it to the office |
 | **Scope of Review** | Only checks for arithmetic errors (wrong addition, missed addition, or wrong score entry) |

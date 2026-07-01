@@ -37,7 +37,7 @@ Platform as a Service (PaaS) is a cloud computing model that provides a complete
 #### PaaS vs. Other Cloud Models
 
 | Model | Focus | User Responsibility | Example Use Case |
-|-------|--------|----------------------|------------------|
+| ------- | -------- | ---------------------- | ------------------ |
 | **IaaS (Infrastructure as a Service)** | Raw computing resources (e.g., virtual machines, storage) | Manage OS, apps, and runtime | Custom server setups |
 | **PaaS** | Development platform and tools | Code and app deployment | Building web/mobile apps |
 | **SaaS (Software as a Service)** | Ready-to-use applications | Just use the software | Email (e.g., Gmail) or CRM (e.g., Salesforce) |

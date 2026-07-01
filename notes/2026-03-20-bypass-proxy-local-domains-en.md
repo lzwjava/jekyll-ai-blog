@@ -79,7 +79,7 @@ curl http://myapp.local:3001
 ## Debugging Checklist
 
 | Check | Command | Expected |
-|-------|---------|----------|
+| ------- | --------- | ---------- |
 | DNS resolution | `ping myapp.local` | Resolves to `192.168.1.36` |
 | Service running | `curl http://192.168.1.36:3001` | HTTP 200/302 |
 | Firewall open | `sudo ufw status` | Port 3001 allowed |

@@ -75,7 +75,7 @@ Without grounding invention in truth, we'd just be guessing. The greatest invent
 ## Summary
 
 | Step | What Happens |
-|---|---|
+| --- | --- |
 | 1. Observe | We look at the world honestly |
 | 2. Discover truth | We find patterns, laws, and principles |
 | 3. Understand | We build mental models of reality |

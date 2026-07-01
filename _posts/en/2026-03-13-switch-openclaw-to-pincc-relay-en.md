@@ -162,7 +162,7 @@ If you get a valid response, your relay is working and OpenClaw will use it corr
 ## Summary of Key Config Differences
 
 | Setting | OpenRouter | PinCC Relay |
-|---|---|---|
+| --- | --- | --- |
 | `api` type | built-in (no `models.providers` needed) | `"anthropic-messages"` |
 | `baseUrl` | automatic | `https://v2-as.pincc.ai` |
 | `apiKey` | `sk-or-...` from OpenRouter | Your PinCC token |

@@ -36,7 +36,7 @@ The card features a half-height, dual-slot blower fan configuration and offers f
 ### Key Specifications
 
 | Specification | Detail |
-|---|---|
+| --- | --- |
 | Architecture | NVIDIA Ada Lovelace |
 | CUDA Cores | 2,816 |
 | VRAM | 16 GB GDDR6 ECC |

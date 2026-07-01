@@ -34,7 +34,7 @@ In the context of AI models, APIs, or streaming data systems, **Time to First Ch
 ### Key Differences
 
 | Metric | Measures | Focus | Use Case |
-|--------|----------|-------|----------|
+| -------- | ---------- | ------- | ---------- |
 | **Time to First Chunk** | Time to first piece of data | Partial response delivery | Streaming systems, real-time apps |
 | **Time to First Token** | Time to first generated token | Start of text generation | Generative AI, LLMs |
 | **Response Time** | Time to complete response | End-to-end latency | General system performance |

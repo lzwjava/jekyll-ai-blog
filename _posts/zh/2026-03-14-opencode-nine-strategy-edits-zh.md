@@ -71,7 +71,7 @@ throw new Error("No replacement strategy succeeded")
 #### 策略详解
 
 | 策略 | 功能描述 |
-|---|---|
+| --- | --- |
 | `SimpleReplacer` | 原始 `content.indexOf(search)` — 精确匹配 |
 | `LineTrimmedReplacer` | 分割成行，修剪每行，比较修剪版本 |
 | `BlockAnchorReplacer` | 使用 `oldString` 的首/尾行作为锚点进行模糊块查找 |
@@ -133,7 +133,7 @@ EditTool.execute(filePath, oldString, newString, replaceAll)
 ## 比较：opencode 与 Claude Code 编辑工具
 
 | 特性 | opencode `EditTool` | Claude Code `str_replace_based_edit_tool` |
-|---|---|---|
+| --- | --- | --- |
 | **语言** | TypeScript (Bun) | 无 schema（内置于模型） |
 | **回退策略** | ✅ 9 种策略级联 | ❌ 仅精确匹配（模型自动重试） |
 | **文件创建** | ✅ `oldString=""` 路径 | ✅ 独立的 `create` 命令 |

@@ -31,7 +31,7 @@ Kai (铠) 是王者荣耀中的多功能战士英雄，擅长对抗路（上单�
 专注于 crit、penetration 和 attack speed 以实现爆发。常见搭配：
 
 | Slot | Arcana | Stats |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | Red (10) | Hidden Disaster (祸源) x10 | +21% Crit Chance |
 | Blue (10) | Hunter (狩猎) x10 | +10% Attack Speed, +10% Movement Speed |
 | Green (10) | Eagle Eye (鹰眼) x10 | +64 Physical Penetration, +9 Physical Attack |

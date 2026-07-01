@@ -18,7 +18,7 @@ You've identified the core tradeoff correctly: **pre-commit is synchronous frict
 ### Categorize by Latency
 
 | Check | Latency | Blocks Dev? | Verdict |
-|-------|---------|------------|---------|
+| ------- | --------- | ------------ | --------- |
 | **Fast (<100ms)** | trailing-ws, end-of-file, yaml, toml, json, merge-conflict, ast, case-conflict | ✅ Yes | Pre-commit |
 | **Medium (500ms-2s)** | ruff (check+format), shellcheck, mixed-line-ending | ⚠️ Maybe | Pre-commit, but config for speed |
 | **Slow (5s+)** | pyright (type-checking w/ dependencies), bandit (recursive scan) | ❌ No | GitHub Actions only |

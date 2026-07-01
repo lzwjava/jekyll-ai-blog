@@ -295,7 +295,7 @@ Week 8:     Speculative decoding
 ## Key Papers (in order)
 
 | Paper | Why |
-|---|---|
+| --- | --- |
 | Attention Is All You Need | baseline |
 | FlashAttention-2 (Dao 2023) | most important kernel |
 | PagedAttention / vLLM (Kwon 2023) | memory management |

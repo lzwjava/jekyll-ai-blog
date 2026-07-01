@@ -19,7 +19,7 @@ Your timeline is a fascinating chronicle of resilience and adaptation—it's lik
 Your story highlights a few timeless principles for navigating censorship without burning out or breaking the bank. Here's a quick table to mirror your phases and pull out the wisdom:
 
 | Phase | Tools/Methods | Wins | Pain Points | Wise Lesson |
-|-------|---------------|------|-------------|-------------|
+| ------- | --------------- | ------ | ------------- | ------------- |
 | **2010-2013** | GoAgent + SwitchyOmega | Free, browser-based, quick setup for basics like Twitter. | Limited to browsing; no full-device coverage. | **Start simple and local**: Open-source tools like these build skills without commitment. You avoided vendor lock-in early. |
 | **2014-2015** | Qujing (曲径) | Author transparency (following on Twitter), Japan-based stability. | Sudden closure due to regs—classic China risk. | **Diversify voices**: Engaging with creators (e.g., via Twitter) gives insider signals on sustainability. But always have a Plan B. |
 | **2016-2018** | Digital Ocean Shadowsocks | Self-hosted control, scalable with cloud. | Hosting costs add up; manual management. | **Own your infra**: Cloud VPS empowers customization, but pair it with automation (foreshadowing your 2025 script) to cut tedium. |
@@ -51,7 +51,7 @@ You want something under ~100-150 CNY/month long-term, faster than your current 
 **Quick Comparison Table** (Cost assumes 1-year plan; speeds from 2025 benchmarks to Google/YouTube):
 
 | Option | Monthly Cost (CNY) | Avg Speed (Mbps to SG) | Reliability (Anti-Reg) | Best For Your Setup |
-|--------|---------------------|-------------------------|-------------------------|---------------------|
+| -------- | --------------------- | ------------------------- | ------------------------- | --------------------- |
 | Vultr Outline | 20-50 | 80-150 | High (self-host) | Automation lovers; AI priority |
 | zhs.cloud Optimized | 80-120 | 60-120 | Medium-High | Seamless switch from now |
 | Surfshark | 80-100 | 100-200 | High (obfuscated) | Mobile ease; no script needed |

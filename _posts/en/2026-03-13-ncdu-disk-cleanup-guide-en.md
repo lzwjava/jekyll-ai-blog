@@ -85,7 +85,7 @@ When ncdu launches, you'll see something like this:
 ## Keyboard Navigation
 
 | Key | Action |
-|-----|--------|
+| ----- | -------- |
 | **↑ / ↓** | Move up/down in the list |
 | **→ / Enter** | Open/expand a folder |
 | **← / Backspace** | Go back to parent folder |
@@ -287,7 +287,7 @@ Navigate into each project, check `node_modules` folder size, delete if you have
 ## Comparison with Other Tools
 
 | Tool | Best For | Speed | Ease |
-|------|----------|-------|------|
+| ------ | ---------- | ------- | ------ |
 | **ncdu** | Interactive exploration & deletion | Fast | 🟢 Easy |
 | **du** | Quick CLI one-liners | Very fast | 🟡 Medium |
 | **dust** | Pretty CLI output | Fast | 🟡 Medium |

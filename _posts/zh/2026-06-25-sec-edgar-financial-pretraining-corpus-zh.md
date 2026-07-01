@@ -18,7 +18,7 @@ type: note
 **每行数据结构：**
 
 | 字段 | 描述 |
-|---|---|
+| --- | --- |
 | `content` | 原始SEC SGML文件内容 |
 | `text` | 解析后的纯文本（已去除HTML/XML） |
 | `metadata_accession-number` | 唯一的SEC文件ID |

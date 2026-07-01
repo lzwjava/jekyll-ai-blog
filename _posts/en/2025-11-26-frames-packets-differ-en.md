@@ -14,12 +14,12 @@ Yes, you're basically correct in your intuition, but in computer networks "frame
 
 Here’s the proper distinction and how they relate to what you said (“separate large data into small ones with start/end and length”):
 
-| Layer (OSI)       | Unit Name     | Typical Name          | Contains                  | Has start/end markers? | Has length field? | Example technologies       |
-|-------------------|---------------|------------------------|---------------------------|------------------------|-------------------|----------------------------|
-| Layer 4 (Transport) | Segment (TCP) / Datagram (UDP) | –                    | Application data + transport header | No official “start/end”, relies on lower layers | Sometimes (UDP has length) | TCP, UDP                  |
-| Layer 3 (Network)  | **Packet**    | IP packet / IP datagram | Transport segment + IP header | No explicit start/end flag (relies on Layer 2) | Yes (Total Length in IPv4/IPv6) | IP (IPv4, IPv6)           |
-| Layer 2 (Data Link) | **Frame**    | Ethernet frame, Wi-Fi frame, PPP frame, etc. | IP packet + Layer-2 header + trailer | Yes (explicit start delimiter and usually end delimiter or length) | Yes (length/type field) | Ethernet, 802.11 Wi-Fi, PPP, Frame Relay |
-| Layer 1 (Physical) | Bits/stream   | –                      | Raw bits of the frame     | Uses special bit patterns or coding (e.g., 8B/10B, 64b/66b) | –                        | Cables, fiber, radio       |
+| Layer (OSI) | Unit Name | Typical Name | Contains | Has start/end markers? | Has length field? | Example technologies |
+| ------------------- | --------------- | ------------------------ | --------------------------- | ------------------------ | ------------------- | ---------------------------- |
+| Layer 4 (Transport) | Segment (TCP) / Datagram (UDP) | – | Application data + transport header | No official “start/end”, relies on lower layers | Sometimes (UDP has length) | TCP, UDP |
+| Layer 3 (Network) | **Packet** | IP packet / IP datagram | Transport segment + IP header | No explicit start/end flag (relies on Layer 2) | Yes (Total Length in IPv4/IPv6) | IP (IPv4, IPv6) |
+| Layer 2 (Data Link) | **Frame** | Ethernet frame, Wi-Fi frame, PPP frame, etc. | IP packet + Layer-2 header + trailer | Yes (explicit start delimiter and usually end delimiter or length) | Yes (length/type field) | Ethernet, 802.11 Wi-Fi, PPP, Frame Relay |
+| Layer 1 (Physical) | Bits/stream | – | Raw bits of the frame | Uses special bit patterns or coding (e.g., 8B/10B, 64b/66b) | – | Cables, fiber, radio |
 
 ### Why you are right about “start, end, and length”
 

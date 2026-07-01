@@ -103,7 +103,7 @@ def consume(message):
 ## Where It Differs by Context
 
 | Context | Producer's Obligation | Consumer's Obligation |
-|---------|----------------------|----------------------|
+| --------- | ---------------------- | ---------------------- |
 | **Function call** | Pass correct types/args | Return promised type |
 | **REST API** | Send valid schema | Return promised HTTP status/body |
 | **Message queue** | Serialize correctly, respect schema | Deserialize + validate before processing |

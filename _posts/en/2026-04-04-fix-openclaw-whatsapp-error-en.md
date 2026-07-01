@@ -91,7 +91,7 @@ This routes all outbound connections (including WhatsApp WebSocket) through your
 ## Summary Table
 
 | Step | Command |
-|------|---------|
+| ------ | --------- |
 | Auto-fix config | `openclaw doctor --fix` |
 | Manual edit | Remove `"proxy"` from `channels.whatsapp` in `~/.openclaw/openclaw.json` |
 | Restart gateway | `openclaw gateway restart` |

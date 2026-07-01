@@ -79,7 +79,7 @@ Delegate research with "use subagents to investigate X." They explore in a separ
 ## Summary Table
 
 | Technique | Effect |
-|---|---|
+| --- | --- |
 | `"do not run commands until you explain the plan"` | Forces review before acting |
 | `/compact` | Summarizes history, reduces token load |
 | `/clear` | Full reset between tasks |

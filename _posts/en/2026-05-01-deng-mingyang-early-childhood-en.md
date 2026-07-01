@@ -78,7 +78,7 @@ The family roles were clearly divided: Xiao Guai was responsible for his own lea
 ### 📅 Summary Timeline (Before Age 10 / Elementary Years)
 
 | Age / Stage | Activity |
-|---|---|
+| --- | --- |
 | Kindergarten | Abacus mental arithmetic (珠心算) |
 | Grade 1 | Started math olympiad study |
 | Elementary years | Reading with father; English via reward system |

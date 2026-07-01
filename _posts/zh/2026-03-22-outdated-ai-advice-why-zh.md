@@ -58,7 +58,7 @@ RAG 是一种强大的技术，不需要对 LLM 进行额外训练。它通过�
 ## 总结表格
 
 | 问题 | 根本原因 | 解决方案 |
-|---|---|---|
+| --- | --- | --- |
 | LLM 推荐打电话而不是 "Chat with Us" | Knowledge cutoff — 该功能在训练数据中不存在或不突出 | 使用实时 HSBC 政策文档的 RAG |
 | LLM 统计上默认旧模式 | 训练语料库中对 "call the hotline" 的 token frequency bias | 明确的系统提示指令 + guardrails |
 | LLM 忽略 HSBC HK 的机构偏好 | 通用 LLM 未在银行内部 SOP 上训练 | 在 HSBC 特定知识库上进行微调或 RAG |

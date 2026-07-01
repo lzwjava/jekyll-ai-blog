@@ -18,7 +18,7 @@ Same DRAM cells underneath — the difference is packaging and the memory bus, w
 **Core distinction**
 
 | | DDR/GDDR (planar DRAM) | HBM |
-|---|---|---|
+| --- | --- | --- |
 | Topology | Discrete chips on PCB, beside the processor | DRAM dies stacked vertically (4–16 high), beside the die on a silicon interposer |
 | Interconnect | Wide PCB traces, ~16–32 bit/chip | TSVs (through-silicon vias) + microbumps; **1024-bit bus per stack** |
 | Bus width | DDR5: 64-bit/channel; GDDR6: 32-bit/chip | 1024-bit/stack × N stacks |

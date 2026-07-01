@@ -32,7 +32,7 @@ Yes, you're spot on. Flexible fingers (quick aiming, movement, and recoil contro
 5. **Practice Drills**:
 
    | Focus | How |
-   |-------|-----|
+   | ------- | ----- |
    | Sound Whoring | TDM/Training: Close eyes, react to audio only. |
    | Peeking | Custom room: Lean drills from cover. |
    | Rotations | Watch pro VODs (PMGC 2025), replay your deaths. |

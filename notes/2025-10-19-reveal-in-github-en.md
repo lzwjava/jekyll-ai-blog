@@ -57,16 +57,16 @@ Once installed and Xcode restarted:
 
 Here's a quick reference for the built-in menu items and shortcuts (shortcuts follow the pattern ⌃⇧⌘ + first letter of the title):
 
-| Menu Item      | Shortcut    | What It Does | Example GitHub URL (for file LZAlbumManager.m at line 40 in repo lzwjava/LZAlbum at commit fd7224) |
-|----------------|-------------|--------------|-----------------------------------------------------------------------------------------------|
-| **Setting**    | ⌃⇧⌘S      | Opens customization panel | N/A |
-| **Repo**       | ⌃⇧⌘R      | Opens main repo page | <https://github.com/lzwjava/LZAlbum> |
-| **Issues**     | ⌃⇧⌘I      | Opens issues list | <https://github.com/lzwjava/LZAlbum/issues> |
-| **PRs**        | ⌃⇧⌘P      | Opens pull requests list | <https://github.com/lzwjava/LZAlbum/pulls> |
-| **Quick File** | ⌃⇧⌘Q      | Opens file view at current line | <https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40> |
-| **List History**| ⌃⇧⌘L     | Opens commit history for the file | <https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m> |
-| **Blame**      | ⌃⇧⌘B      | Opens blame view for current line | <https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40> |
-| **Notifications**| ⌃⇧⌘N   | Opens repo notifications | <https://github.com/lzwjava/LZAlbum/notifications?all=1> |
+| Menu Item | Shortcut | What It Does | Example GitHub URL (for file LZAlbumManager.m at line 40 in repo lzwjava/LZAlbum at commit fd7224) |
+| ---------------- | ------------- | -------------- | ----------------------------------------------------------------------------------------------- |
+| **Setting** | ⌃⇧⌘S | Opens customization panel | N/A |
+| **Repo** | ⌃⇧⌘R | Opens main repo page | <https://github.com/lzwjava/LZAlbum> |
+| **Issues** | ⌃⇧⌘I | Opens issues list | <https://github.com/lzwjava/LZAlbum/issues> |
+| **PRs** | ⌃⇧⌘P | Opens pull requests list | <https://github.com/lzwjava/LZAlbum/pulls> |
+| **Quick File** | ⌃⇧⌘Q | Opens file view at current line | <https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40> |
+| **List History** | ⌃⇧⌘L | Opens commit history for the file | <https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m> |
+| **Blame** | ⌃⇧⌘B | Opens blame view for current line | <https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40> |
+| **Notifications** | ⌃⇧⌘N | Opens repo notifications | <https://github.com/lzwjava/LZAlbum/notifications?all=1> |
 
 - **Tips**:
   - Shortcuts don't conflict with Xcode's defaults.

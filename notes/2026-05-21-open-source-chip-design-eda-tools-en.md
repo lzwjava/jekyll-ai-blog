@@ -244,7 +244,7 @@ git clone https://github.com/VerticalResearchGroup/miaow
 ## Key Repos to Star Now
 
 | Repo | What it teaches |
-|---|---|
+| --- | --- |
 | `The-OpenROAD-Project/OpenROAD` | Full RTL→GDSII flow |
 | `YosysHQ/yosys` | Synthesis internals |
 | `chipsalliance/chisel` | HW description in Scala |

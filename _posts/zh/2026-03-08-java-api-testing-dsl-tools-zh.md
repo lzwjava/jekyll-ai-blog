@@ -104,7 +104,7 @@ Citrus Framework 支持多种协议，包括 HTTP、SOAP、JMS 和 FTP。它支�
 ## 快速比较表
 
 | 工具 | DSL 类型 | 场景支持 | Java 原生 | 最适合 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Karate DSL** | Gherkin/BDD | ✅ 是 | ✅ 是 (无需 Java) | 完整 API 测试 + mock + 性能 |
 | **REST Assured** | Fluent Java | ✅ 是 | ✅ 是 | Java 中的 REST 验证 |
 | **Gatling** | Java/Scala DSL | ✅ 是 | ✅ 是 | 负载/性能测试 |

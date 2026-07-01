@@ -80,7 +80,7 @@ However, note that a class is uniquely identified by `ClassLoader + ClassName`, 
 ## Key Methods in `java.lang.ClassLoader`
 
 | Method | Description |
-|---|---|
+| --- | --- |
 | `loadClass(String name)` | Entry point; applies delegation model |
 | `findClass(String name)` | Override this in custom loaders to find class bytes |
 | `defineClass(byte[])` | Converts raw bytes into a `Class` object |

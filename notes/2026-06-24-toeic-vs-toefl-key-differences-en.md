@@ -20,7 +20,7 @@ No, they're different tests.
 **TOEFL** (Test of English as a Foreign Language) — designed for **academic admission**. Measures reading, listening, speaking, and writing. Required by universities (mainly US/Canada) for non-native speakers. Score range: 0–120.
 
 | | TOEIC | TOEFL |
-|--|--|--|
+| -- | -- | -- |
 | Purpose | Corporate/workplace | University admission |
 | Popular in | East Asia, Europe (corporate) | Global (academia) |
 | Skills tested | Listening + Reading (core) | All 4 skills |

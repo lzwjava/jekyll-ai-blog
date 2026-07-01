@@ -274,7 +274,7 @@ if __name__ == "__main__":
 ## 企业注意事项
 
 | Concern | Detail |
-|---|---|
+| --- | --- |
 | **Account type** | 传递 `--account-type enterprise` 标志或在配置中设置。企业使用相同的 `/v2/token` 端点，但可能有策略限制。 |
 | **Token persistence** | Token 文件存储在 `~/.local/share/copilot-api/github_token`，权限为 `0o600`，以防止未经授权访问。 |
 | **Re-auth** | 删除保存的 token 文件以强制进行新的 device flow 授权。 |
@@ -286,7 +286,7 @@ if __name__ == "__main__":
 ## 关键端点总结
 
 | Endpoint | Purpose |
-|---|---|
+| --- | --- |
 | `POST https://github.com/login/device/code` | 获取 device code + user code |
 | `POST https://github.com/login/oauth/access_token` | 轮询获取 `gho_xxx` OAuth token |
 | `GET https://api.github.com/copilot_internal/v2/token` | 交换为 Copilot token |

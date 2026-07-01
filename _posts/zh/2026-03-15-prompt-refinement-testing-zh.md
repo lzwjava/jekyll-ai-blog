@@ -74,7 +74,7 @@ Prompt 优化即使对顶级编码代理也能显著改进——仅优化 Claude
 ## 总结
 
 | Method | Description |
-|---|---|
+| --- | --- |
 | Fast feedback / dogfooding | 早期阶段的内部使用和用户反馈 |
 | Eval-driven development | 针对特定行为的自动化测试套件 |
 | A/B testing | 生产环境中 prompt 版本的并排比较 |

@@ -21,7 +21,7 @@ What it actually is:
 Quick taxonomy so the terms don't blur:
 
 | Term | What it is |
-|------|-----------|
+| ------ | ----------- |
 | 托管班 | After-school care: supervision + homework + meals |
 | 补习班 / 辅导班 | Tutoring: teaches/drills academic content |
 | 兴趣班 | Interest classes: piano, art, coding, etc. |

@@ -30,7 +30,7 @@ n_embd = 1280  # GPT-2 XL
 ## What's Missing for 6.7B
 
 | Feature | nanoGPT | Needed for 6.7B |
-|---------|---------|-----------------|
+| --------- | --------- | ----------------- |
 | Model parallelism | ❌ | optional (fits MI300X) |
 | Gradient checkpointing | ❌ | ✅ critical |
 | Mixed precision (bf16) | ✅ | ✅ |

@@ -106,7 +106,7 @@ Nyquist退休后居住在Texas州的Pharr，并于1976年4月4日在Texas州的H
 ### 总结表格
 
 | 领域 | 贡献 | 年份 |
-|---|---|---|
+| --- | --- | --- |
 | Signal Sampling | Nyquist Sampling Theorem | 1928 |
 | Telegraph Theory | Telegraph speed & bandwidth | 1924 |
 | Thermal Noise | Johnson–Nyquist Noise model | 1927 |

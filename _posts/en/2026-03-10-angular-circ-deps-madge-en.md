@@ -83,7 +83,7 @@ npx madge --circular --extensions ts --image circular-graph.png src/
 ## Step 4: Useful Commands Summary
 
 | Purpose | Command |
-|---|---|
+| --- | --- |
 | Detect circular deps | `npx madge --circular src/` |
 | With TypeScript support | `npx madge --circular --extensions ts src/` |
 | With tsconfig | `npx madge --circular src/main.ts --ts-config tsconfig.json` |

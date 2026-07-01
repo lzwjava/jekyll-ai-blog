@@ -61,7 +61,7 @@ This dialog is from the `libc6` (glibc) upgrade process on a Debian/Ubuntu syste
 ### Recommendation
 
 | Scenario | Answer |
-|---|---|
+| --- | --- |
 | Dev/test server, okay to restart PostgreSQL | **Yes** |
 | Production server, need zero risk | **No** (stop PostgreSQL first, then re-run) |
 | Active connections/transactions running | **No** |

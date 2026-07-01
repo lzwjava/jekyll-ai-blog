@@ -38,7 +38,7 @@ This is where it gets more nuanced. REST API works, but it is **not the fastest 
 ### Protocol Speed Comparison (Fastest → Slowest)
 
 | Protocol | Latency Level | Best Use |
-|---|---|---|
+| --- | --- | --- |
 | **FIX API** | Microseconds | Institutional HFT order execution |
 | **WebSocket API** | Low milliseconds | Real-time market data streaming |
 | **REST API** | Higher milliseconds | Infrequent orders, account management |

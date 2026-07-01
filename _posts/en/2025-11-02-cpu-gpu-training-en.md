@@ -27,7 +27,7 @@ The low MFU (0.01%) during NanoGPT training on your laptop stems from the `--dev
 - **Implicit GPU Mode**: On the 4070 Ti setup, you're likely running with `--device=cuda` (default in NanoGPT if available), enabling full tensor parallelism and cuBLAS/cuDNN kernels. This alone boosts MFU by optimizing for the hardware.
 
 | Aspect | Laptop (CPU) | 4070 Ti (GPU) |
-|--------|--------------|---------------|
+| -------- | -------------- | --------------- |
 | **Device** | CPU (forced) | CUDA GPU |
 | **Peak FLOPs** | ~0.5-1 TFLOPs (ML-tuned) | ~29 TFLOPs (FP16) |
 | **MFU Achieved** | 0.01% (CPU overhead dominates) | 10% (parallelism shines) |

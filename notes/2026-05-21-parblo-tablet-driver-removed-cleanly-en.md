@@ -12,7 +12,7 @@ type: note
 Everything is clean. Here's the final summary:
 
 | What | Status |
-|------|--------|
+| ------ | -------- |
 | `/Applications/ParbloTablet` | Removed |
 | `/Library/LaunchAgents/com.parblo.Tablet.plist` | Removed |
 | `com.parblo.Tablet` launchd service | Unloaded |

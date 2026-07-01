@@ -72,7 +72,7 @@ Overautomation can erode institutional knowledge, reduce diversity of experience
 ### Summary
 
 | Old Era | AI Era |
-|---|---|
+| --- | --- |
 | Key-person risk = existential | Key-person risk = manageable |
 | Onboarding takes 3–6 months | Onboarding cut to ~7 weeks with AI |
 | Knowledge lives in people's heads | Knowledge codified + queryable via AI |

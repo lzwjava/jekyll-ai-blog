@@ -39,7 +39,7 @@ Warp is a terminal emulator with AI baked into the UI layer:
 ## The Real Comparison
 
 | Dimension | Warp | Ghostty + Claude Code |
-|---|---|---|
+| --- | --- | --- |
 | AI quality | Warp AI (weaker model, limited context) | Claude Sonnet/Opus (much stronger) |
 | Agent capability | Shallow — single commands, basic tasks | Deep — full repo understanding, multi-file edits, git ops |
 | Terminal UX | Polished, block UI | Raw — whatever Ghostty gives you |

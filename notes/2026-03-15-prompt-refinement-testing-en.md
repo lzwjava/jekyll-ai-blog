@@ -74,7 +74,7 @@ Prompt optimization meaningfully improves even top-tier coding agents — optimi
 ## Summary
 
 | Method | Description |
-|---|---|
+| --- | --- |
 | Fast feedback / dogfooding | Internal use and user feedback in early stages |
 | Eval-driven development | Automated test suites for specific behaviors |
 | A/B testing | Side-by-side prompt version comparison in production |

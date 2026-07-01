@@ -248,7 +248,7 @@ This is what mature enterprise Rust setups run in CI — license compliance + CV
 ## Summary
 
 | Need | Tool |
-|---|---|
+| --- | --- |
 | Public open source | crates.io |
 | Self-hosted private registry | Kellnr or Gitea |
 | Enterprise SaaS registry | Artifactory / Cloudsmith |

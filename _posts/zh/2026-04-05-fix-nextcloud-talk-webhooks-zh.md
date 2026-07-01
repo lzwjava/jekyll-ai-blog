@@ -98,7 +98,7 @@ docker network inspect bridge | grep Gateway
 在带有代理的 Docker 环境中，存在**两个独立的可达性问题**：
 
 | 方向 | 从 | 到 | 常见问题 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Nextcloud → 机器人（webhook 发送） | Nextcloud 容器 | 机器人进程 | 机器人无法通过 Docker 主机 IP 访问 |
 | 机器人 → Nextcloud（发送回复） | 机器人进程 | Nextcloud 容器 | 机器人使用了错误的 Nextcloud URL |
 

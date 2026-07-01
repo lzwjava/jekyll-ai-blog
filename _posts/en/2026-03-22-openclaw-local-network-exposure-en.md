@@ -109,7 +109,7 @@ nohup socat TCP-LISTEN:18790,fork,reuseaddr TCP:127.0.0.1:18789 &
 ## Summary
 
 | Solution | Effort | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Change OpenClaw bind address | Low | Best and cleanest |
 | nginx reverse proxy | Medium | Good for production |
 | socat | Low | Quick temporary fix |

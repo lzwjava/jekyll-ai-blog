@@ -47,7 +47,7 @@ type: note
 **快速对比表 (个人偏好排名)**
 
 | Style | Windows | Speed of ⌘+Tab | Mental overhead | Best for | Common in 2025–2026? |
-|---------------------------|---------|------------------|------------------|------------------------------|----------------------|
+| --------------------------- | --------- | ------------------ | ------------------ | ------------------------------ | ---------------------- |
 | 1 window + tmux/zellij | 1 | ★★★★★ | ★★★ | Deep focus, vim+tmux people | Very common |
 | Your style (3–4 windows) | 3–4 | ★★★★ | ★★ | Fast switching + clarity | Common |
 | 2 windows (editor + multi-purpose runner) | 2 | ★★★★☆ | ★★ | Good balance | Very common |

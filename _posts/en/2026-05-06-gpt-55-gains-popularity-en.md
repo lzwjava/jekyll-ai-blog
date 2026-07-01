@@ -72,7 +72,7 @@ GPT-5.5 still has the pattern that's characterized OpenAI models: it will confid
 ## Pricing Comparison (as of May 2026)
 
 | | GPT-5.5 | Claude Opus 4.7 |
-|---|---|---|
+| --- | --- | --- |
 | Input (per 1M tokens) | $5 | $5 |
 | Output (per 1M tokens) | $30 | $25 |
 | Context Window | 1M tokens | 1M tokens |

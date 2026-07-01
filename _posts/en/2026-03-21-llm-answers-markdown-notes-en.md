@@ -95,7 +95,7 @@ Then your existing `ww note` script handles the git push and duplicate detection
 ## Recommended Workflow Summary
 
 | Step | Tool |
-|---|---|
+| --- | --- |
 | Save LLM answer | MarkDownload or DownMark Safari extension |
 | Output format | `.md` file with front matter |
 | Drop location | Your `blog-source` notes folder |

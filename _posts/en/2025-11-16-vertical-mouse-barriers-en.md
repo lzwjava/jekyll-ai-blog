@@ -13,7 +13,7 @@ type: note
 Here are the main reasons why vertical mice are still a minority choice, even though they’re clearly better for wrist health for many people:
 
 | Reason | Explanation | How big a barrier it really is |
-|---------|-----------------------|--------------------------------|
+| --------- | ----------------------- | -------------------------------- |
 | Habit & muscle memory | Most people have used traditional mice for 20–30+ years. Switching feels extremely weird for the first 1–3 weeks (like writing with your non-dominant hand). | Biggest initial hurdle – many give up in the first few days |
 | Looks “weird” / office stigma | A vertical mouse stands out on a desk. Some feel self-conscious or get teased (“what’s that spaceship on your desk?”). In very conservative offices in Asia this matters more. | Surprisingly large in Taiwan/Japan/Korea workplaces |
 | Higher price | Good vertical mice (Logitech MX Vertical, Evoluent, Anker, etc.) usually cost 2–4× a normal office mouse. Cheap no-name ones are often terrible and give the whole category a bad name. | Real barrier for students and many office workers |

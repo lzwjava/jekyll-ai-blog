@@ -34,7 +34,7 @@ type: note
 ## 2. Legacy 结构阻碍 AI 采用的具体方式
 
 | Legacy System | 以前合理的原因 | 现在如何阻碍 AI |
-|---|---|---|
+| --- | --- | --- |
 | 严格的 Security/Compliance | 人类是攻击面 | 阻止 AI 工具访问其所需的内部数据 |
 | 多层审批 | 人类会犯错，需要检查 | AI 每天可以迭代 100 次，审批变成了瓶颈 |
 | 基于 Headcount 的预算 | 工作量随人数增加 | AI 让产出与 Headcount 脱钩 |

@@ -53,7 +53,7 @@ $this->load->library(WeChatPlatform::class);
 ### 📋 剩余工作（优先级排序）
 
 | 优先级 | 任务 | 预估耗时 |
-|---------|------|--------|
+| --------- | ------ | -------- |
 | 🔴 P0 | 修复 `Database.php` 以读取环境变量（`hostname => env('DB_HOST', 'database')`） | 5 分钟 |
 | 🔴 P0 | 修复 `BaseController` 构造函数 — 移除触发每次请求都连接数据库的 `new UserDao()` 实例化 | 10 分钟 |
 | 🟡 P1 | 为 CI4 重写 `JSSDK.php`（使用 `Services::curlrequest()`，`Services::cache()`） | ~1 小时 |

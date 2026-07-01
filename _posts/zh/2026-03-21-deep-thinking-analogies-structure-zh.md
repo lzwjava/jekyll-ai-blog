@@ -26,7 +26,7 @@ type: note
 这不仅仅是“相似”——它们在结构上完全相同：
 
 | 概念 | 基础 | 扩展/额外 |
-|---|---|---|
+| --- | --- | --- |
 | RTT | Average latency | Jitter (variance) |
 | Testing | Basic happy-path tests | Edge case / regression tests |
 | Statistics | Mean (μ) | Standard deviation (σ) |

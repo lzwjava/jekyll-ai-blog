@@ -49,7 +49,7 @@ The episode's diagram shows a recursive lookup for `www.example.com`. Here's the
 This is usually iterative (each server responds directly) but recursive from the client's view—the resolver handles the chain. Total time: ~50-200ms, thanks to caching.
 
 | Step | Query From | To | Response |
-|------|------------|----|----------|
+| ------ | ------------ | ---- | ---------- |
 | 1 | Recursive Resolver | Root Server | TLD server IPs (e.g., for `.com`) |
 | 2 | Recursive Resolver | TLD Server | Authoritative server IPs (e.g., for `example.com`) |
 | 3 | Recursive Resolver | Authoritative Server | IP address (e.g., `192.0.2.1`) |

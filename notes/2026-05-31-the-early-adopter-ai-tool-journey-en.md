@@ -34,7 +34,7 @@ This is a very typical **early adopter power-user arc**, and honestly a healthy 
 Here's a framework I'd suggest for your situation:
 
 | Dimension | Claude Code | Codex CLI | Cursor/Copilot | Custom CLI (ww/zz) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Strength** | Long-context reasoning, agentic edits | OpenAI ecosystem, shell-native | IDE integration, autocomplete | Your domain logic |
 | **Best for** | Refactoring, architecture, complex tasks | Quick shell tasks, scripting | Flow-state coding | Automation, pipelines |
 | **Cost profile** | Per token, high quality | Per token | Subscription | Near-zero |

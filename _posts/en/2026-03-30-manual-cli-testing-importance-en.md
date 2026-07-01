@@ -50,7 +50,7 @@ python -m iclaw.main
 ...teaches you:
 
 | What You Learn | Why It Matters |
-|---|---|
+| --- | --- |
 | Startup sequence | What initializes first, what depends on what |
 | Proxy/env handling | How config is loaded |
 | Command structure | What's available and how it maps to code |

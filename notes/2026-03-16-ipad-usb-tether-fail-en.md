@@ -207,7 +207,7 @@ curl --interface enx00e04c362f89 https://api.ipify.org
 Based on the history, the **most probable remaining issues** are one of:
 
 | # | Likely Cause | How to Confirm |
-|---|---|---|
+| --- | --- | --- |
 | 1 | iPad didn't renew DHCP (still using old DNS/gateway) | Check iPad's network settings manually |
 | 2 | Clash `auto-route: true` missing — TUN not capturing forwarded packets | Check Clash config |
 | 3 | UFW has an explicit FORWARD DROP rule earlier in chain overriding `allow routed` | `sudo iptables -L FORWARD -n --line-numbers` |

@@ -37,7 +37,7 @@ Yes, Warp is Rust-based with a **GPU-accelerated renderer** (uses Metal on macOS
 ## What tmux Still Wins At
 
 | Feature | tmux | Warp |
-|---|---|---|
+| --- | --- | --- |
 | SSH session persistence | ✅ Core feature | ❌ Not supported |
 | Works on remote servers | ✅ | ❌ Local only |
 | Scriptable layouts | ✅ | ❌ |

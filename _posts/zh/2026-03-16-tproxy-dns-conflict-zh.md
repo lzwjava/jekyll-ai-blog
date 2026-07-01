@@ -105,7 +105,7 @@ dns:
 ## 决策树：何时可以禁用 Clash DNS？
 
 | 你的规则 | 可以禁用 Clash DNS 吗？ |
-|---|---|
+| --- | --- |
 | 仅 `IP-CIDR` 和 `GEOIP` 规则 | ✅ 是的，工作正常 |
 | `DOMAIN-SUFFIX`、`DOMAIN-KEYWORD` 规则 | ❌ 否，域名匹配会中断 |
 | `GEOSITE` 规则（例如 `cn` 站点 DIRECT） | ❌ 否，GEOSITE 需要域名数据 |

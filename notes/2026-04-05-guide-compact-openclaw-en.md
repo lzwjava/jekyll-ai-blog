@@ -67,7 +67,7 @@ Using `/compact` manually (with instructions) gives you control over what the ag
 You can also use `/new` or `/reset` to start a fresh session for that chat (configurable via `resetTriggers`). If sent alone, the agent replies with a short hello to confirm the reset.
 
 | Command | Effect |
-|---|---|
+| --- | --- |
 | `/compact` | Compress context, report remaining budget |
 | `/compact [instructions]` | Compress with guidance on what to keep |
 | `/new` or `/reset` | Wipe session and start fresh |

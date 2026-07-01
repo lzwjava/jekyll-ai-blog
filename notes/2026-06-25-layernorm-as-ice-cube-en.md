@@ -50,7 +50,7 @@ So GELU ≈ a **probabilistic gate**, not a temperature regulator.
 **Your analogy tree, corrected:**
 
 | Component | Better Analogy |
-|---|---|
+| --- | --- |
 | LayerNorm | Ice cube — keeps temperature stable |
 | GELU/ReLU | Valve — controls what signal flows through |
 | Gradient clipping | Pressure relief valve |

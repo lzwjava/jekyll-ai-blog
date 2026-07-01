@@ -45,7 +45,7 @@ git pull --unshallow
 ## Key Behaviors Summary
 
 | Command | Effect |
-|---|---|
+| --- | --- |
 | `git pull` | Gets new commits, stays shallow |
 | `git fetch --deepen=N` | Adds N more commits to history |
 | `git fetch --unshallow` | Fetches complete history |

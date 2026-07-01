@@ -31,7 +31,7 @@ Hugging Face is primarily a **platform** (like GitHub), but it also has chat int
 **The analogy that maps cleanly:**
 
 | Hugging Face | Equivalent |
-|---|---|
+| --- | --- |
 | Model Hub | GitHub (for weights) |
 | HuggingChat | ChatGPT |
 | Spaces | Vercel/Netlify (deployed ML demos) |

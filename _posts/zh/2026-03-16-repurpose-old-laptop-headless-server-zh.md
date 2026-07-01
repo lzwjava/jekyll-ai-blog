@@ -83,7 +83,7 @@ sudo ufw enable
 通过 **Docker** 的热门轻量级部署（强烈推荐）：
 
 | Service | Purpose |
-|---|---|
+| --- | --- |
 | **Nginx / Caddy** | Web server / reverse proxy |
 | **Pi-hole / AdGuard Home** | Network-wide ad blocker |
 | **Jellyfin** | Media server |

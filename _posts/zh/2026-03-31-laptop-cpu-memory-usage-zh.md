@@ -16,7 +16,7 @@ type: note
 ## 💻 CPU Information
 
 | Property | Details |
-|---|---|
+| --- | --- |
 | **Chip** | Apple M2 |
 | **Total Cores** | 8 Cores (4 Performance + 4 Efficiency) |
 | **CPU Usage** | ~10.19% User, 13.69% System, 76.11% Idle |
@@ -26,7 +26,7 @@ type: note
 ## 🧠 Memory Information
 
 | Property | Details |
-|---|---|
+| --- | --- |
 | **Total RAM** | 16 GB |
 | **Used Memory** | ~15 GB |
 | **Unused Memory** | ~82 MB |

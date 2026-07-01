@@ -103,7 +103,7 @@ You run one OpenClaw Gateway instance and configure multiple channels. Messages 
 ### Troubleshooting
 
 | Problem | Solution |
-|---|---|
+| --- | --- |
 | QR code expired | Rerun `openclaw channels login` and scan immediately |
 | Bot not responding | Run `openclaw channels status` to check link status |
 | Connection dropping | Remove unused linked devices in WhatsApp → Linked Devices, then re-login |

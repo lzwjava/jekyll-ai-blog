@@ -76,7 +76,7 @@ AI-assisted coding compresses it to **minutes or hours**.
 When you are the user:
 
 | Factor | Effect |
-|---|---|
+| --- | --- |
 | Every feature you add, you immediately use | Instant gratification |
 | No stakeholder to please | Pure creative freedom |
 | You define "done" | No scope creep from others |

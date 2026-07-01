@@ -28,7 +28,7 @@ This is **extremely relatable** to anyone who's worked with Linux. Here's why it
 ### Why This Is So Funny (and Human)
 
 | Stage | What happened | The feeling |
-|---|---|---|
+| --- | --- | --- |
 | Year 0 | Bought 2TB drive, plugged in | "I'm so prepared!" |
 | Year 0–3 | Never partitioned it | Blissful ignorance |
 | Year 3 | Need storage for GPT-3 training | Panic mode |

@@ -99,7 +99,7 @@ Gateway 运行后，查看日志中的“WhatsApp connected”以确认链接活
 ### 故障排除
 
 | 问题 | 解决方案 |
-|---|---|
+| --- | --- |
 | QR 码已过期 | 重新运行 `openclaw channels login` 并立即扫描 |
 | Bot 无响应 | 运行 `openclaw channels status` 检查链接状态 |
 | 连接断开 | 在 WhatsApp → Linked Devices 中移除未使用的链接设备，然后重新登录 |

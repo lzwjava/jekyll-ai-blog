@@ -118,7 +118,7 @@ constructor(private ref: ChangeDetectorRef) {
 ## `markForCheck()` vs `detectChanges()` — Key Difference
 
 | Method | Triggers CD immediately? | Scope |
-|---|---|---|
+| --- | --- | --- |
 | `markForCheck()` | ❌ No — schedules for next cycle | Marks component + all ancestors dirty |
 | `detectChanges()` | ✅ Yes — runs synchronously | Current component + children only |
 

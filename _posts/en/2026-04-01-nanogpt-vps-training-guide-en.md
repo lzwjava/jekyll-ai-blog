@@ -18,7 +18,7 @@ Here's the full picture:
 ### ✅ What's Ready
 
 | Component | Status | Details |
-|-----------|--------|---------|
+| ----------- | -------- | --------- |
 | **nanoGPT code** | ✅ Ready | `/root/nanoGPT/` — train.py, model.py, sample.py |
 | **Data (sample)** | ✅ Ready | `train.bin` (14M tokens), `val.bin` (100M tokens) in `/root/nanoGPT/data/fineweb/` |
 | **Test config** | ✅ Ready | `config/train_fineweb_test.py` — tiny 7M model, CPU-friendly |
@@ -53,7 +53,7 @@ max_iters = 12000
 ### 💾 GPU VRAM Estimates for Full Model
 
 | Precision | Model Params | VRAM |
-|-----------|-------------|------|
+| ----------- | ------------- | ------ |
 | `float32` | 125M | ~500MB |
 | `float16` | 125M | ~250MB |
 | `bfloat16` | 125M | ~250MB |

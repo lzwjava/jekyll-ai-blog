@@ -56,7 +56,7 @@ sudo rm -rf /Library/Input\ Methods/WeType.app
 既然你有一台远程 i9+RTX 4070 机器（`192.168.1.36`），可以考虑将这台笔记本作为 **瘦客户端**：
 
 | 本地笔记本 | 远程机器 |
-|---|---|
+| --- | --- |
 | Ghostty 终端 | 重度构建 |
 | VSCode Remote SSH | 所有编译、测试 |
 | 轻量浏览 | ML / GPU 工作负载 |

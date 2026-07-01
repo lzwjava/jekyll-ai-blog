@@ -189,7 +189,7 @@ Authoritative DNS mode allows local DNS names to be exported to a zone in the gl
 ## Common Use Cases
 
 | Use Case | How dnsmasq Helps |
-|---|---|
+| --- | --- |
 | Home/office router | DNS forwarding + DHCP for all LAN devices |
 | Development environment | Local domain resolution (e.g., `myapp.local`) |
 | VPN split routing | Route specific domains to internal DNS |
@@ -217,7 +217,7 @@ Supported platforms include Linux (with glibc and uclibc), Android, *BSD, and ma
 ## Signals and Runtime Control
 
 | Signal | Effect |
-|---|---|
+| --- | --- |
 | `SIGHUP` | Reload `/etc/hosts` and configuration |
 | `SIGUSR1` | Dump cache statistics to log |
 | `SIGUSR2` | Rotate log file |

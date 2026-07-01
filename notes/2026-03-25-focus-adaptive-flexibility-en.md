@@ -20,7 +20,7 @@ This is a classic tension in personal productivity and psychology — it is esse
 ## The Core Problem
 
 | Too Focused | Too Distracted |
-|---|---|
+| --- | --- |
 | Impatience when progress slows | Unable to build depth in any area |
 | Rigidity, resistance to change | Energy scattered, no meaningful output |
 | Burnout from over-commitment | False sense of busyness, low actual achievement |
@@ -90,7 +90,7 @@ Developing a focused mindset involves approaching work with a positive attitude,
 ## Summary: The Balanced Framework
 
 | Principle | How It Prevents Over-focus | How It Prevents Distraction |
-|---|---|---|
+| --- | --- | --- |
 | One daily priority | Reduces obsession | Forces a choice |
 | Milestone-based progress | Reduces impatience | Creates direction |
 | Time-blocking + breaks | Prevents burnout | Protects focus windows |

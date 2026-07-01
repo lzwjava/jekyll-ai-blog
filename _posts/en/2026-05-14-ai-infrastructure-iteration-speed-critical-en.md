@@ -38,7 +38,7 @@ Jiayi Weng is the author of the entire post-training RL infrastructure at OpenAI
 The logic is simple and mirrors your compilation analogy perfectly:
 
 | Scenario | Effect |
-|---|---|
+| --- | --- |
 | Fast iteration (minutes per run) | Quick hypothesis → test → fix → repeat |
 | Slow iteration (hours/days per run) | Errors compound, fixes are delayed, experiments stall |
 

@@ -21,17 +21,17 @@ IBM WebSphere Application Server（WAS，传统版或 Liberty）和 Spring Boot 
 
 ### 关键比较
 
-| 方面                   | IBM WebSphere Application Server（传统版/Liberty） | Spring Boot |
-|------------------------|-----------------------------------------------------|-------------|
-| **底层机制**           | 标准 Servlet 过滤器（`javax.servlet.Filter`）。WAS 在某些场景（例如门户或自定义 IBM API）中还有专有扩展，如用于内部请求转发/链式的 `ChainedRequest`/`ChainedResponse`。 | 标准 Servlet 过滤器。Spring Boot 自动注册任何 `@Component` Filter bean，或者您可以通过 `FilterRegistrationBean` 显式注册。 |
-| **配置**               | 主要通过 `web.xml`（声明式）或编程式注册。对于全局过滤器（跨所有应用）：复杂——需要共享库、自定义监听器或 IBM 特定扩展（没有像 Tomcat 那样的简单服务器范围的 web.xml）。 | 约定优于配置：使用 `@Component` + `@Order` 注解进行自动注册，或使用 `FilterRegistrationBean` 进行精细控制（URL 模式、分发器类型）。非常开发者友好。 |
-| **排序**               | 在 `web.xml` 中定义顺序，或者如果是编程式则通过 `@Order`。全局排序很棘手。 | 使用 `@Order(n)`（数值越小优先级越高）或 `Ordered` 接口很容易。Spring Boot 自动管理链。 |
-| **安全过滤器链**       | 使用标准 Servlet 过滤器或 IBM 特定安全机制（例如 TAI、JEE 角色）。没有像 Spring Security 那样的内置安全链。 | Spring Security 提供了一个强大的 `SecurityFilterChain`（通过 `FilterChainProxy`），包含 15 个以上有序过滤器（CSRF、身份验证、会话管理等）。高度可定制，支持每个路径多个链。 |
+| 方面 | IBM WebSphere Application Server（传统版/Liberty） | Spring Boot |
+| ------------------------ | ----------------------------------------------------- | ------------- |
+| **底层机制** | 标准 Servlet 过滤器（`javax.servlet.Filter`）。WAS 在某些场景（例如门户或自定义 IBM API）中还有专有扩展，如用于内部请求转发/链式的 `ChainedRequest`/`ChainedResponse`。 | 标准 Servlet 过滤器。Spring Boot 自动注册任何 `@Component` Filter bean，或者您可以通过 `FilterRegistrationBean` 显式注册。 |
+| **配置** | 主要通过 `web.xml`（声明式）或编程式注册。对于全局过滤器（跨所有应用）：复杂——需要共享库、自定义监听器或 IBM 特定扩展（没有像 Tomcat 那样的简单服务器范围的 web.xml）。 | 约定优于配置：使用 `@Component` + `@Order` 注解进行自动注册，或使用 `FilterRegistrationBean` 进行精细控制（URL 模式、分发器类型）。非常开发者友好。 |
+| **排序** | 在 `web.xml` 中定义顺序，或者如果是编程式则通过 `@Order`。全局排序很棘手。 | 使用 `@Order(n)`（数值越小优先级越高）或 `Ordered` 接口很容易。Spring Boot 自动管理链。 |
+| **安全过滤器链** | 使用标准 Servlet 过滤器或 IBM 特定安全机制（例如 TAI、JEE 角色）。没有像 Spring Security 那样的内置安全链。 | Spring Security 提供了一个强大的 `SecurityFilterChain`（通过 `FilterChainProxy`），包含 15 个以上有序过滤器（CSRF、身份验证、会话管理等）。高度可定制，支持每个路径多个链。 |
 | **添加自定义过滤器的便利性** | 更繁琐，特别是对于全局/跨应用过滤器。通常需要管理员控制台调整或共享库。 | 极其简单——只需一个 `@Component` bean 或配置类。自动集成到嵌入式容器中。 |
-| **部署模型**           | 传统的完整 Java EE 服务器。应用部署为 WAR/EAR。支持重量级企业功能（集群、事务、JMS）。 | 嵌入式容器（默认独立可执行 JAR）。可以作为 WAR 部署到外部服务器（包括 WAS）。轻量级/面向微服务。 |
-| **性能/开销**          | 更高的开销（完整的应用服务器）。传输链、Web 容器通道增加了层。 | 较低的开销（嵌入式轻量级容器）。更快的启动速度，更少的资源使用。 |
-| **过滤器何时运行**     | 在 WAS Web 容器入站链中。可以有服务器级传输过滤器（例如，TCP 通道上的 IP 过滤）。 | 在嵌入式容器的过滤器链中。Spring Boot 添加了自己的过滤器（错误处理、字符编码等）。 |
-| **常见用例**           | 企业单体应用、门户、需要全局安全/日志记录的遗留 Java EE 应用。 | 现代微服务、REST API、利用 Spring Security 进行快速开发。 |
+| **部署模型** | 传统的完整 Java EE 服务器。应用部署为 WAR/EAR。支持重量级企业功能（集群、事务、JMS）。 | 嵌入式容器（默认独立可执行 JAR）。可以作为 WAR 部署到外部服务器（包括 WAS）。轻量级/面向微服务。 |
+| **性能/开销** | 更高的开销（完整的应用服务器）。传输链、Web 容器通道增加了层。 | 较低的开销（嵌入式轻量级容器）。更快的启动速度，更少的资源使用。 |
+| **过滤器何时运行** | 在 WAS Web 容器入站链中。可以有服务器级传输过滤器（例如，TCP 通道上的 IP 过滤）。 | 在嵌入式容器的过滤器链中。Spring Boot 添加了自己的过滤器（错误处理、字符编码等）。 |
+| **常见用例** | 企业单体应用、门户、需要全局安全/日志记录的遗留 Java EE 应用。 | 现代微服务、REST API、利用 Spring Security 进行快速开发。 |
 
 ### 实际示例
 

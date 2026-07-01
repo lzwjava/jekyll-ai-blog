@@ -127,7 +127,7 @@ chmod +x .git/hooks/post-commit
 ## 同步机制总结
 
 | 方面 | 细节 |
-|---|---|
+| --- | --- |
 | **方向** | Local → 两个 remotes（基于 push） |
 | **原子性** | Pushes 是顺序的，不是原子的——一个可能成功而另一个失败 |
 | **Fetch/Pull** | 仅从**一个** remote fetch（fetch URL，通常是 GitHub） |

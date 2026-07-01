@@ -85,7 +85,7 @@ Angular and the CLI wrap module code via Webpack and JSONP so that it can be loa
 ### Summary Table
 
 | Chunk Type | Example Name | Contents |
-|---|---|---|
+| --- | --- | --- |
 | Lazy module chunk | `auth.module.chunk.js` | Code for a lazy-loaded feature module |
 | Common chunk | `common.js` | Shared code between 2+ lazy modules |
 | Hash chunk (esbuild) | `chunk-ABC123.js` | Split output from esbuild bundler |

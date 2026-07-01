@@ -61,7 +61,7 @@ Revolut avoids this because they're org-flat enough that platform teams are forc
 Think in terms of **leverage per engineer** not "internal vs external":
 
 | Type | Users per eng | Leverage |
-|---|---|---|
+| --- | --- | --- |
 | Stripe payments API | millions | very high |
 | Internal deploy tool used by 5k devs | 5k | medium (multiplier on other eng) |
 | Internal HR portal used by 500 | 500 | low |

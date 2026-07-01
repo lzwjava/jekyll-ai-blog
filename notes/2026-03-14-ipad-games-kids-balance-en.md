@@ -75,7 +75,7 @@ Problems begin when media use displaces physical activity, hands-on exploration,
 ### Summary Table
 
 | Factor | Recommendation |
-|---|---|
+| --- | --- |
 | Daily screen time limit (ages 4–5) | Max 1 hour/day (WHO & AAP) |
 | Content quality | Age-rated 4+, no ads, no in-app purchases |
 | Parental involvement | Co-play and discuss games together |

@@ -94,7 +94,7 @@ if __name__ == "__main__":
 ### What This Gives You
 
 | Feature | How |
-|---|---|
+| --- | --- |
 | **Rotating reminders** | Cycles through all agents every N minutes |
 | **Desktop popup** | `osascript` (Mac) or `notify-send` (Linux) |
 | **Telegram alert** | Tells you which tmux/terminal window to check |

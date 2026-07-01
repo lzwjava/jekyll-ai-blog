@@ -88,7 +88,7 @@ Flow 需要 **skill 和 challenge 之间的甜蜜点**。
 ## 总结表格
 
 | 因素 | 发生了什么 |
-|---|---|
+| --- | --- |
 | 11小时编码 | Prefrontal cortex 疲劳，attentional filtering 崩溃 |
 | 外出 | 轻微身体恢复，但无神经化学重置——认知切换成本 |
 | OpenWrt 配置 | 触发 Flow state ——释放 dopamine + norepinephrine + 其他3种化学物质 |

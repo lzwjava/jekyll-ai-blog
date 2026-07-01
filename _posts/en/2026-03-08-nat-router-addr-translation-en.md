@@ -41,7 +41,7 @@ The NAT router sits at the boundary between the private network and the Internet
 ## IP Addresses at Each Position
 
 | Position | Direction | Field | IP Address | Explanation |
-|----------|-----------|-------|------------|-------------|
+| ---------- | ----------- | ------- | ------------ | ------------- |
 | ① | Outgoing (inside private net) | Source IP | **192.168.0.3** | Host A's private address is the source |
 | ② | Return (inside private net) | Destination IP | **192.168.0.3** | Reply packet must be delivered back to Host A |
 | ③ | Outgoing (toward Internet) | Source IP | **172.38.1.5** | NAT router replaces private source with its public IP |

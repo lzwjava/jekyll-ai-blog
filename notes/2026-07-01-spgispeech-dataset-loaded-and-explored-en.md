@@ -14,7 +14,7 @@ Done. SPGISpeech dataset is loaded and explored. Here's what we found:
 **Structure**
 
 | Directory | Files | Train rows | Size |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `S/` | 12 parquet | ~77k train + 39k val + 39k test | 45 GB |
 | `M/` | 34 parquet | ~138k train + ... | 134 GB |
 | `L/` | 146 parquet | ~633k train + ... | 580 GB |

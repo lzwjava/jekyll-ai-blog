@@ -161,7 +161,7 @@ source ~/.bashrc
 ## Storage Sizing Reality Check for LLM Training Data
 
 | Dataset | Approximate Size |
-|---|---|
+| --- | --- |
 | FineWeb (sample-10BT) | ~10–25 GB |
 | FineWeb (full) | ~44 TB (impractical locally) |
 | The Pile | ~825 GB |

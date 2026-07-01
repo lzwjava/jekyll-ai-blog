@@ -100,7 +100,7 @@ grep -r "exec-maven-plugin\|frontend-maven-plugin" pom.xml */pom.xml
 这能告诉你应该针对哪个插件。然后：
 
 | 插件 | 跳过标志 |
-|---|---|
+| --- | --- |
 | `frontend-maven-plugin` | `-DskipFrontend=true`（或与 `<skip>${...}</skip>` 绑定的任何属性） |
 | `exec-maven-plugin` | `-Dexec.skip=true` |
 | 自定义属性 | `-DskipNpmBuild=true` |

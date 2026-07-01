@@ -22,7 +22,7 @@ Based on your context — cross-platform (Windows/macOS/Linux), personal + enter
 ### 🥇 Top Picks
 
 | Repo Name | Why It Works |
-|---|---|
+| --- | --- |
 | `toolkit` | Clean, universal, professional. Implies a collection of tools. |
 | `devkit` | Slightly more developer-facing, common in OSS world. |
 | `dotscripts` | Evokes dotfiles culture, personal utility scripts. |
@@ -37,7 +37,7 @@ Based on your context — cross-platform (Windows/macOS/Linux), personal + enter
 ### 🤖 If You Want to Hint at LLM Features (Without Overcommitting)
 
 | Repo Name | Notes |
-|---|---|
+| --- | --- |
 | `smartkit` | Suggests intelligent tools but doesn't require it. |
 | `autokit` | Automation-first framing. |
 | `auxtools` | "Auxiliary tools" — neutral and professional. |

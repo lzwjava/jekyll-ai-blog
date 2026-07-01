@@ -82,7 +82,7 @@ DeepSeek MLA 解码内核仅需 **80 行 Python 代码**，性能即可与 H100 
 ### TileLang 与其他方案对比
 
 | | TileLang | Triton | CUTLASS/CuTe | 原始 CUDA |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 抽象级别 | Tile | Block/warp | 线程块 | 线程 |
 | 可移植性 | CUDA+HIP+Metal | 主要是 CUDA | 仅 CUDA | 仅 CUDA |
 | 异步流水线控制 | ✅ 显式 | ✅ | ✅ | 手动 |

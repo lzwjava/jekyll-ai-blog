@@ -35,7 +35,7 @@ So the claim "you *must* first do 专升本" is the consultant's default script,
 **3. The pricing is inflated.**
 
 | Item | Consultant's number | Reality |
-|------|--------------------|---------|
+| ------ | -------------------- | --------- |
 | HK 1-yr taught master's | ~45万 RMB | Typically **15万–35万 RMB** tuition for most MSc programs; top programs (HKU/HKUST/CUHK CS) ~20万–30万 |
 | HK bachelor's tuition/yr | 18万–20万 RMB | Self-financing ~10万–14万/yr; UGC-funded much less |
 | 2-yr 专升本 total | ~70万 RMB | Agent-bundled estimate; doable far cheaper, or skippable entirely |

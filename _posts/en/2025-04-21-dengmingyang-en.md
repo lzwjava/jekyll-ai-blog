@@ -64,7 +64,7 @@ Ah yes — **dengmingyang**! If you know, you *know*. In the world of Chinese co
 ### Summary
 
 | Trait | Rating |
-|-------|--------|
+| ------- | -------- |
 | Hard Problem Solving | 🔥🔥🔥🔥🔥 |
 | Code Efficiency | 🔥🔥🔥🔥 |
 | Contest Performance | 🔥🔥🔥🔥🔥 |

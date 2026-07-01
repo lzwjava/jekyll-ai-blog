@@ -31,7 +31,7 @@ This output tells a completely different and much more reassuring story than the
 You can **retire** the earlier "Problem 2: space domination" and "Problem 3: can't learn patterns" conclusions. Neither holds. The corrected picture:
 
 | Earlier claim | Revised verdict |
-|---|---|
+| --- | --- |
 | Space token domination is pathological | No — was an artifact of 3-token context. Real cause was the generation loop, now fixed. |
 | Model can't learn patterns (underfitting) | Wrong. It learned local C/C++ syntax. It's *undertrained*, not incapable. |
 | Data is too dirty | Still true, and now the *main* remaining lever. |

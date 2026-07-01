@@ -59,7 +59,7 @@ Microsoft recommends using "Prefer IPv4 over IPv6" in settings rather than fully
 ## Summary
 
 | Action | Effect |
-|---|---|
+| --- | --- |
 | Disable IPv6 DHCP on router | No device gets an IPv6 address → forces IPv4 → fixes freezing |
 | Disable IPv6 on device only | Same effect but only for that device |
 | Leave IPv6 enabled | Risk of unstable streaming if ISP's IPv6 routing is poor |

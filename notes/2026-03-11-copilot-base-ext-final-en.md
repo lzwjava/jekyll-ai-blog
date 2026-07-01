@@ -44,7 +44,7 @@ The version history confirms that no new releases of the base `GitHub.copilot` e
 ### Summary
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Extension | `GitHub.copilot` (base, inline suggestions) |
 | Latest version at time of VSCode 1.106.3 | **v1.388.0** |
 | Released | October 25, 2025 |

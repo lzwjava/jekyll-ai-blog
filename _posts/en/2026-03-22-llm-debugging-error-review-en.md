@@ -43,7 +43,7 @@ Yes — pasting raw browser console output or network errors is one of the **mos
 Some people argue you can just blindly run AI-generated code. That's partially true for simple scripts — but **quick review is genuinely valuable**, and here's why:
 
 | Scenario | Skip Review | Quick Review |
-|---|---|---|
+| --- | --- | --- |
 | Simple 5-line utility | ✅ Fine | ✅ Also fine |
 | Code touching auth/security | ❌ Risky | ✅ Essential |
 | Code modifying database/files | ❌ Risky | ✅ Essential |

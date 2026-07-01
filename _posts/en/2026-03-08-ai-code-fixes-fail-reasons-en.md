@@ -66,7 +66,7 @@ Research on automated program repair confirms this: LLMs' effectiveness at fixin
 **Both — but context/prompt quality is the more actionable and dominant factor.** The model's raw capability is not the primary bottleneck for most everyday bugs. The failures most commonly trace back to:
 
 | Factor | Weight |
-|--------|--------|
+| -------- | -------- |
 | Insufficient context provided | Very High |
 | Vague or poorly scoped prompts | High |
 | Lost-in-the-middle / context placement | Medium-High |

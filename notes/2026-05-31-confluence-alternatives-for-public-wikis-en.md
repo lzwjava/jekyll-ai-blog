@@ -33,7 +33,7 @@ Structured, hierarchical **wiki + knowledge base** with:
 ## Closest Public Alternatives, Ranked by Use Case
 
 | Tool | Best For | Confluence Overlap |
-|------|----------|-------------------|
+| ------ | ---------- | ------------------- |
 | **Notion** (notion.so) | Wiki + docs, public pages possible | Highest — spaces, databases, hierarchy |
 | **GitBook** | Technical docs, public by default | High — dev teams use this as public Confluence |
 | **GitHub Wiki** | Per-repo docs | Medium — markdown-only, no rich structure |

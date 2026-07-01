@@ -174,7 +174,7 @@ This downloads the pretrained GPT-2 Medium weights and adapts them to your datas
 ## Realistic Expectations on RTX 4070
 
 | Task | Feasibility | Estimated Time |
-|---|---|---|
+| --- | --- | --- |
 | Fine-tune GPT-2 Medium on Shakespeare | ✅ Easy | 1–3 hours |
 | Train GPT-2 Medium from scratch (small dataset) | ✅ With tweaks | Days |
 | Train GPT-2 Medium on full OpenWebText | ⚠️ Very slow | Weeks–months |

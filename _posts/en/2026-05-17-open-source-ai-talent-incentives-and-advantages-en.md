@@ -100,7 +100,7 @@ NVIDIA holds 86% of data center GPU revenue in 2026 — down from 90% in 2024 as
 ### Summary Table
 
 | Dimension | CUDA (NVIDIA) | ROCm (AMD) |
-|---|---|---|
+| --- | --- | --- |
 | Age / Maturity | ~20 years | ~8 years |
 | Developer Base | 4M+ developers | Growing, much smaller |
 | Library Depth | cuDNN, TensorRT, NCCL, etc. | Improving, gaps remain |

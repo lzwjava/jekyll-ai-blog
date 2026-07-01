@@ -53,7 +53,7 @@ Expected time: **~2–3 minutes** for a 2-hour video on RTX 4070.
 ## What I Can and Cannot Do Here
 
 | Task | Feasible? | Why |
-|---|---|---|
+| --- | --- | --- |
 | Find the file on this machine | ✅ | Can search local filesystem |
 | Run `scp` / `ssh` to remote | ❌ | No network access to `192.168.1.36` (private LAN) from this sandbox |
 | Create project folder remotely | ❌ | Same reason — private LAN not reachable |

@@ -23,13 +23,13 @@ It looks like you're looking at the download options for IBM Db2 Community Editi
 
 ### Download Options Breakdown
 
-| Operating System       | Architecture | Size | Best For | Download Link |
-|------------------------|--------------|------|----------|---------------|
+| Operating System | Architecture | Size | Best For | Download Link |
+| ------------------------ | -------------- | ------ | ---------- | --------------- |
 | **Microsoft Windows (x64)** | x64 (Intel/AMD 64-bit) | 1.4 GB | Windows PCs/servers | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) (sign in or register for access) |
-| **Linux (x64)**        | x64 (Intel/AMD 64-bit) | 1.6 GB | Most Linux distributions on desktops/servers (e.g., Ubuntu, Fedora) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
-| **Linux (IBM Z)**      | IBM Z (mainframe) | 1.4 GB | IBM mainframe environments (z/OS Linux) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
-| **Linux (Power PC)**   | PowerPC (e.g., IBM Power systems) | 1.5 GB | IBM Power hardware (e.g., enterprise servers) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
-| **IBM AIX**            | AIX (IBM Unix-like) | 1.7 GB | IBM AIX systems (Power-based Unix) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
+| **Linux (x64)** | x64 (Intel/AMD 64-bit) | 1.6 GB | Most Linux distributions on desktops/servers (e.g., Ubuntu, Fedora) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
+| **Linux (IBM Z)** | IBM Z (mainframe) | 1.4 GB | IBM mainframe environments (z/OS Linux) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
+| **Linux (Power PC)** | PowerPC (e.g., IBM Power systems) | 1.5 GB | IBM Power hardware (e.g., enterprise servers) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
+| **IBM AIX** | AIX (IBM Unix-like) | 1.7 GB | IBM AIX systems (Power-based Unix) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
 
 ### Next Steps
 

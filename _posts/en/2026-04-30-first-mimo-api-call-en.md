@@ -26,7 +26,7 @@ MiMo is Xiaomi's AI model series, developed under AI lead Fuli Luo (formerly of 
 Key models available:
 
 | Model | Highlights |
-|---|---|
+| --- | --- |
 | **mimo-v2.5-pro** | 1.02T-parameter MoE with 42B active parameters, hybrid-attention architecture, 1M-token context window, strongest for agentic/coding tasks |
 | **mimo-v2.5** | 310B-parameter Sparse MoE (15B active), trained on 48T tokens, native multimodal (image, video, audio, text), 1M context |
 | **mimo-v2-pro** | Older flagship with 1M token context, strong reasoning |
@@ -126,7 +126,7 @@ console.log(data.choices[0].message.content);
 ### Key API Parameters
 
 | Parameter | Description |
-|---|---|
+| --- | --- |
 | `model` | Model ID (e.g., `mimo-v2-flash`, `mimo-v2.5-pro`) |
 | `messages` | Array of `{role, content}` objects (system, user, assistant) |
 | `max_completion_tokens` | Max tokens to generate |

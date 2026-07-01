@@ -30,7 +30,7 @@ The **步步高家教机 S6** (BBK Jiāojiāojī S6) is an AI-powered educationa
 ### 📱 Hardware Specifications
 
 | Feature | Details |
-|---|---|
+| --- | --- |
 | **Screen** | 12.7-inch eye-care display |
 | **Processor** | Qualcomm Snapdragon 730G |
 | **RAM / Storage** | 6GB + 128GB or 8GB + 256GB |
@@ -91,7 +91,7 @@ The S6 is backed by the brand's credentials, including collaboration with China'
 ### 📊 Product Line Comparison
 
 | Model | Key Feature | Price |
-|---|---|---|
+| --- | --- | --- |
 | **S6 (Flagship)** | 12.7" large screen | RMB 4,998 |
 | S5 Pro | New-gen Smart Eye | RMB 4,398 |
 | S5 | Classic Smart Eye | RMB 3,998 |

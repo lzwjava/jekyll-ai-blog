@@ -28,16 +28,16 @@ Transformers are neural network architectures widely used in natural language pr
 
 #### Comparison Table
 
-| Aspect              | Decoder-Only Transformers                  | Encoder-Decoder Transformers                  |
-|---------------------|--------------------------------------------|-----------------------------------------------|
-| **Components**     | Single stack of decoder layers (self-attention + causal mask). | Dual stacks: encoder (bidirectional self-attention) + decoder (self-attention, causal mask, cross-attention). |
-| **Attention Types**| Only masked self-attention (unidirectional). | Self-attention (bidirectional in encoder), masked self-attention (in decoder), and cross-attention (decoder attends to encoder). |
+| Aspect | Decoder-Only Transformers | Encoder-Decoder Transformers |
+| --------------------- | -------------------------------------------- | ----------------------------------------------- |
+| **Components** | Single stack of decoder layers (self-attention + causal mask). | Dual stacks: encoder (bidirectional self-attention) + decoder (self-attention, causal mask, cross-attention). |
+| **Attention Types** | Only masked self-attention (unidirectional). | Self-attention (bidirectional in encoder), masked self-attention (in decoder), and cross-attention (decoder attends to encoder). |
 | **Input/Output Handling** | Input and output in one sequence; autoregressive generation. | Separate input (encoded) and output (decoded) sequences; allows parallel encoding. |
-| **Complexity**     | Simpler: Fewer parameters, easier to scale and train on massive unlabeled data. | More complex: Higher parameter count, requires paired input-output data for training. |
+| **Complexity** | Simpler: Fewer parameters, easier to scale and train on massive unlabeled data. | More complex: Higher parameter count, requires paired input-output data for training. |
 | **Training Objective** | Typically next-token prediction (causal language modeling). | Often cross-entropy loss on output sequence, using teacher forcing. |
-| **Strengths**      | Excels in open-ended generation; scales well (e.g., GPT-3/4). Efficient for long-context modeling. | Better for structured tasks with clear input-output mappings (e.g., summarization, translation). Handles non-autoregressive decoding. |
-| **Weaknesses**     | Limited bidirectional context (can't "see" full input at once); harder for tasks needing explicit input encoding. | More computationally expensive; less flexible for purely generative pretraining. |
-| **Examples**       | GPT series, LLaMA, PaLM.                  | T5, BART, original Transformer for translation. |
+| **Strengths** | Excels in open-ended generation; scales well (e.g., GPT-3/4). Efficient for long-context modeling. | Better for structured tasks with clear input-output mappings (e.g., summarization, translation). Handles non-autoregressive decoding. |
+| **Weaknesses** | Limited bidirectional context (can't "see" full input at once); harder for tasks needing explicit input encoding. | More computationally expensive; less flexible for purely generative pretraining. |
+| **Examples** | GPT series, LLaMA, PaLM. | T5, BART, original Transformer for translation. |
 
 #### Why the Preference for Decoder-Only?
 

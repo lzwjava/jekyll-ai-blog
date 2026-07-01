@@ -19,7 +19,7 @@ Having **one single gatekeeper** (a “tech lead” or “architect czar”) can
 ### Why a single gatekeeper doesn’t scale in big corps
 
 | Problem | What happens with one gatekeeper | What actually happens in practice |
-|---------|----------------------------------|-----------------------------------|
+| --------- | ---------------------------------- | ----------------------------------- |
 | Bottleneck | All non-trivial changes wait for that one person’s review | Velocity drops, teams get frustrated, people start working around the gatekeeper |
 | Bus factor = 1 | Person goes on vacation, gets sick, or leaves → everything stops | Knowledge silos form, onboarding new architects takes months |
 | False sense of consistency | One person enforces their personal taste | Taste changes over time, or the person wasn’t actually consistent themselves |
@@ -30,7 +30,7 @@ Successful big-tech companies (Google, Meta, Amazon, Microsoft, etc.) use a very
 ### What actually works at scale
 
 | Mechanism | Purpose | Examples |
-|-----------|--------|--------|
+| ----------- | -------- | -------- |
 | Small set of owners per area (usually 2–5 senior engineers) | Redundancy + faster reviews | Google’s OWNERS files, GitHub CODEOWNERS |
 | Strong automated enforcement | Linters, formatters, static analysis, presubmit checks | clang-format, ktlint, ESLint + Prettier, ErrorProne, etc. run on every CL |
 | Architecture Decision Records (ADRs) and RFC processes | Written, searchable decisions instead of tribal knowledge | Amazon’s 6-pagers, Google’s design docs |

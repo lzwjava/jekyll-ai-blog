@@ -236,7 +236,7 @@ pip config set global.cert /etc/ssl/certs/ca-certificates.crt
 ## 银行环境中常见陷阱
 
 | 陷阱 | 解决方案 |
-|------|----------|
+| ------ | ---------- |
 | Java 不支持 `nonProxyHosts` 中的CIDR | 改用 `*.scb.com` 通配符 |
 | Maven 使用 `\|` 而非 `,` 作为分隔符 | `localhost\|*.scb.com` |
 | 企业代理进行TLS检测（MITM） | 在系统中安装企业CA证书 |

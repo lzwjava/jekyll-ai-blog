@@ -36,7 +36,7 @@ The discrepancy arises because **theoretical peak FLOPS** (floating-point operat
 ### Measured Real-World Gains (AI Workloads)
 
 | Metric | GTX 480 (Fermi, 2010) | RTX 4090 (Ada, 2022) | Speedup |
-|--------|------------------------|----------------------|---------|
+| -------- | ------------------------ | ---------------------- | --------- |
 | FP32 TFLOPS (peak) | 1.35 | 82.6 | **61x** |
 | FP16 TFLOPS (peak) | ~0.7 (emulated) | 330 (Tensor) | **>400x** |
 | **ResNet-50 Training (img/s)** | ~60 | ~1,050 | **~17x** |

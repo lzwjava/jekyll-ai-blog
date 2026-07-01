@@ -16,7 +16,7 @@ Done. Here's what happened and what to expect:
 **What was done**
 
 | Action | Effect |
-|---|---|
+| --- | --- |
 | `touch ~/Projects/.metadata_never_index` | Spotlight will never crawl `~/Projects/` — that's your `node_modules`, dev repos, etc. |
 | `touch ~/Library/Caches/.metadata_never_index` | Won't index cache files |
 | `touch ~/Downloads/.metadata_never_index` | Won't index Downloads |

@@ -51,7 +51,7 @@ Make.com operates as an **authorized middleware**. It does not hack or scrape �
 #### For Social Media (Facebook, YouTube, Instagram, TikTok)
 
 | Platform | How Make.com Connects | What Access It Needs |
-|---|---|---|
+| --- | --- | --- |
 | **Facebook** | Facebook Graph API via OAuth | Access to your Page posts, comments, messages |
 | **YouTube** | YouTube Data API via Google OAuth | Read/reply to comments on your channel videos |
 | **Instagram** | Instagram Graph API (Business only) | Comments on Business account posts |
@@ -122,7 +122,7 @@ No traditional coding required — though you can use **JavaScript snippets** fo
 Make.com connects to an enormous ecosystem:
 
 | Category | Examples |
-|---|---|
+| --- | --- |
 | Social Media | Facebook, Instagram, YouTube, LinkedIn, Twitter/X |
 | Messaging | WhatsApp (via API), Telegram, Slack, Discord |
 | Email | Gmail, Outlook, Mailchimp, SendGrid |
@@ -194,7 +194,7 @@ This is how **Dify AI** connects to Make.com in your marketing pipeline — via 
 Make.com has built-in tools to manipulate data mid-flow:
 
 | Tool | Use Case |
-|---|---|
+| --- | --- |
 | **Text Parser** | Extract keywords from messages using regex |
 | **JSON Module** | Parse and build JSON payloads |
 | **Array Aggregator** | Combine multiple results into one |
@@ -228,7 +228,7 @@ Make.com has a **template library** with thousands of pre-built scenarios you ca
 Make.com uses an **operations-based pricing** (not task-based like Zapier):
 
 | Plan | Operations/Month | Price |
-|---|---|---|
+| --- | --- | --- |
 | **Free** | 1,000 ops | $0 |
 | **Core** | 10,000 ops | ~$9/month |
 | **Pro** | 10,000+ ops | ~$16/month |
@@ -244,7 +244,7 @@ Make.com is significantly **cheaper than Zapier** for complex workflows because 
 ### 🆚 Make.com vs Competitors
 
 | Feature | Make.com | Zapier | n8n |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Visual builder | ✅ Excellent | ✅ Good | ✅ Good |
 | Complexity handling | ✅ Very high | ⚠️ Medium | ✅ Very high |
 | Pricing | ✅ Affordable | ❌ Expensive | ✅ Free (self-host) |
@@ -258,7 +258,7 @@ Make.com is significantly **cheaper than Zapier** for complex workflows because 
 ### ✅ Summary: Why Make.com is Central to the AI Marketing Pipeline
 
 | Requirement | Make.com Solution |
-|---|---|
+| --- | --- |
 | Monitor social comments | Facebook/YouTube modules with keyword filters |
 | Post AI replies automatically | Post Comment action via Graph API |
 | Receive WhatsApp messages | Webhook from WhatsApp API provider |

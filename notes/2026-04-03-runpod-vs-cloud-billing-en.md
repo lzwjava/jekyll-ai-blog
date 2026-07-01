@@ -73,7 +73,7 @@ AI/ML workflows are completely different — they are **burst compute**, not per
 ### Summary Comparison
 
 | Feature | DigitalOcean (Traditional) | RunPod (GPU-Specialized) |
-|---|---|---|
+| --- | --- | --- |
 | Stop instance → billing? | Still billed (full rate) | Stops GPU billing instantly |
 | Save state workflow | Snapshot → Destroy → Recreate | Just stop; resume anytime |
 | Billing granularity | Hourly / Monthly | Per-second |

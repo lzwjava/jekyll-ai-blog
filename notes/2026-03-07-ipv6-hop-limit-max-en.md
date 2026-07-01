@@ -22,7 +22,7 @@ The correct answer is **C: 255**.
 The **Hop Limit** field in IPv6 is an 8-bit field in the IPv6 header. Here are the key details:
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Field Name | Hop Limit |
 | Field Size | **8 bits (1 byte)** |
 | Maximum Value | **255** |
@@ -39,7 +39,7 @@ Since the Hop Limit field is **8 bits** long, it can store values from `0` to `2
 ### Comparison with IPv4
 
 | Feature | IPv4 | IPv6 |
-|---|---|---|
+| --- | --- | --- |
 | Field Name | TTL (Time To Live) | Hop Limit |
 | Size | 8 bits | 8 bits |
 | Max Value | 255 | 255 |

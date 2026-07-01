@@ -17,7 +17,7 @@ From the official notification for Guangdong University of Foreign Studies (GDUF
 #### Key Course Details
 
 | Field | Details |
-|-------|---------|
+| ------- | --------- |
 | **Exam Type** | Practical Assessment (实践考核) |
 | **Course Code** | 11325 |
 | **Course Name** | Computer and Application Course Experiment (I) (计算机及应用课程实验(一)) |

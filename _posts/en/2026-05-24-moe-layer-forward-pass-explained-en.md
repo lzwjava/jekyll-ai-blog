@@ -127,7 +127,7 @@ The router only selects from the 256 **routed** experts; shared expert bypasses 
 ## Key Numbers: V3 Param Budget
 
 | | Dense equivalent | MoE V3 |
-|---|---|---|
+| --- | --- | --- |
 | FFN hidden dim | ~18K (for 671B dense) | 2048 per expert |
 | Active experts per token | all | 8 + 1 shared |
 | Total expert params | — | 256 × small FFN |
@@ -156,7 +156,7 @@ This is the key V3 trick vs V2 which used an explicit auxiliary loss term.
 ## Summary Table
 
 | Tensor | Shape |
-|---|---|
+| --- | --- |
 | `x` (input) | `[B*T, d]` = `[B*T, 7168]` |
 | `router_weight` | `[256, 7168]` |
 | `router_logits` | `[B*T, 256]` |

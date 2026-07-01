@@ -66,7 +66,7 @@ Mathilda 的最后一句台词：*"I think we'll be okay here, Léon."* —— �
 ### 为什么这部电影如此引人入胜
 
 | Element | Why It Works |
-|---|---|
+| --- | --- |
 | Jean Reno's performance | 坚忍却深情；一个拥有孩子般纯真的杀手 |
 | Gary Oldman's villain | 极端夸张却恐怖；电影史上最佳反派之一 |
 | Natalie Portman's debut | 12 岁惊人成熟的表演 |

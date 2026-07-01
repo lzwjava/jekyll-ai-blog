@@ -16,7 +16,7 @@ Here's the fresh picture. Some things have changed.
 ## Top Memory Offenders (right now)
 
 | Rank | What | RAM | # Processes | Verdict |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **1** | **CGPDFService** (×8) | **~16 GB** | 8 | PDF files open somewhere → close them |
 | **2** | **VSCode** | **~23 GB** | 25 | Close projects not in use |
 | **3** | **WeChat** | **~20 GB** | 12 | Still running! |

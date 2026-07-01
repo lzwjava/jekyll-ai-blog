@@ -28,7 +28,7 @@ You're likely thinking of **Tabby** (formerly Terminus) — it was renamed. It's
 ### Why some senior devs use it
 
 | Feature | Why it matters |
-|---|---|
+| --- | --- |
 | **Built-in SSH manager** | Save and organize connections without maintaining `~/.ssh/config` manually |
 | **Serial port support** | Rare among terminals — useful for firmware/embedded work |
 | **Cross-platform parity** | Windows devs get a Unix-like terminal experience without WSL friction |

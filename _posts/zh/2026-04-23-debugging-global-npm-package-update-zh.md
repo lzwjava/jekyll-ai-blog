@@ -26,7 +26,7 @@ LZW 运行 `claude --version` 时得到的结果是 `2.1.42`。npm 报告没有�
 系统里实际上安装了 **两个** Claude Code：
 
 | 路径 | 版本 | 备注 |
-|------|---------|------|
+| ------ | --------- | ------ |
 | `/home/lzw/.npm-global/lib/node_modules/@anthropic-ai/claude-code/` | 2.1.74 | 用户空间安装，但 `/usr/bin/claude` 并未链接到这里 |
 | `/usr/lib/node_modules/@anthropic-ai/claude-code-linux-x64/` | 2.1.118 | 系统空间安装，通过 `sudo npm install -g` 安装 |
 

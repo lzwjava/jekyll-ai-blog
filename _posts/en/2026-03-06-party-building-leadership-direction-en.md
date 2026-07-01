@@ -46,7 +46,7 @@ Among all aspects of Party building, political building is the most important �
 ### Why the Other Options Are Wrong
 
 | Option | Role in Party Building | Why Not "First"? |
-|--------|------------------------|-----------------|
+| -------- | ------------------------ | ----------------- |
 | A — Discipline Building | A key governance tool; first separately listed at 19th Congress | Important, but subordinate to political direction |
 | B — Organization Building | Ensures execution capacity | Must be guided by political standards |
 | C — Ideological Building | Its positioning was **downgraded** from "fundamental building" to "foundational building" at the 19th Congress | No longer holds the top rank |

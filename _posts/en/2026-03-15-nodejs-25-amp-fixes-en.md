@@ -61,7 +61,7 @@ The upstream package needs to update its transitive dependencies — specificall
 ## Summary Table
 
 | Node.js Version | Works with `@sourcegraph/amp`? |
-|---|---|
+| --- | --- |
 | v18 (LTS) | ✅ Yes |
 | v20 (LTS) | ✅ Yes |
 | v22 (LTS) | ✅ Yes |

@@ -16,7 +16,7 @@ Alright, I've got the full picture. Here's what happened:
 Here's the evidence:
 
 | Package | Status | Notes |
-|---------|--------|-------|
+| --------- | -------- | ------- |
 | `ubuntu-desktop` | **Not installed** | The meta-package that pulls in the whole desktop |
 | `gdm3` | **`rc`** (removed, config left) | Display manager binary is gone |
 | `gnome-shell` | **`rc`** (removed, config left) | The actual GNOME shell is gone |

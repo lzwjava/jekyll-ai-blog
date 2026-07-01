@@ -44,7 +44,7 @@ You are also correct that with AI-assisted development, traditional authorship i
 ### Recommended Attribution Model
 
 | Situation | Label |
-|---|---|
+| --- | --- |
 | Pure comparison | Approach A / Approach B |
 | Branch/PR context | `copilot-assisted, verified by James` |
 | Ownership & accountability | James' branch (he owns it regardless of AI help) |

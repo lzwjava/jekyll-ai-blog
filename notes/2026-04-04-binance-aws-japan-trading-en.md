@@ -24,7 +24,7 @@ Answer:
 Measured MTR (network round-trip) latencies from different locations to `api.binance.com` are:
 
 | Location | Latency |
-|---|---|
+| --- | --- |
 | Japan (Tokyo) | ~0.6 ms |
 | Germany | ~0.7 ms |
 | London | ~1.0–1.5 ms |
@@ -73,7 +73,7 @@ For very latency-sensitive HFT strategies, colocation centers rent space, profes
 ## Summary
 
 | Action | Expected Impact |
-|---|---|
+| --- | --- |
 | VPS in AWS Tokyo (`ap-northeast-1`) | Largest single improvement (~0.6 ms latency) |
 | Use WebSocket for market data | Eliminates REST polling overhead |
 | Use async/concurrent API calls | Reduces wait time for multiple orders |

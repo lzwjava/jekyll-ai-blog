@@ -54,7 +54,7 @@ When Clash tries to test or connect to a proxy node (e.g., during health checks 
 ## Root Causes Summary
 
 | Cause | Description |
-|---|---|
+| --- | --- |
 | Network unreachable | The target URL or DNS server is blocked/down |
 | DNS loop | DNS queries routing through the proxy, which needs DNS first |
 | Wrong interface binding | `config.yaml` has an incorrect `interface-name` set |

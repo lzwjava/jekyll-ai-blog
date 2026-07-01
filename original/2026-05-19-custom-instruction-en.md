@@ -37,7 +37,7 @@ My philosophy is inspired by independent thinkers like Yin Wang — truth-seekin
 Two machines — I'll suggest which to use depending on the task:
 
 | Machine | OS | RAM | Disk | GPU |
-|---------|----|-----|------|-----|
+| --------- | ---- | ----- | ------ | ----- |
 | MacBook Air M2 (daily) | macOS | 16 GB | 460 GB (54 free) | — |
 | lzw@192.168.1.36 | Ubuntu/macOS | 62 GB | 916 GB (90 free) | RTX 4070 12 GB |
 | AMD Dev Cloud (Atlanta, USA) | Ubuntu | 192 GB | — | MI300X 192 GB HBM3 |

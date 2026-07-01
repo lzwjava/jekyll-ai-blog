@@ -37,7 +37,7 @@ H100 1-year rental contract pricing shot up nearly 40% from Oct 2025 to March 20
 Your analogy is excellent and actually more apt than you might realize:
 
 | Dimension | Airbnb (physical) | GPU Cloud (digital) |
-|---|---|---|
+| --- | --- | --- |
 | Listings today | ~8M rooms globally | ~hundreds of thousands rentable GPUs |
 | Utilization | ~50–60% | ~60–80% for top-tier H100s (often sold out) |
 | Price variance | $30–$3,000/night | $0.21–$14.90/GPU-hour |

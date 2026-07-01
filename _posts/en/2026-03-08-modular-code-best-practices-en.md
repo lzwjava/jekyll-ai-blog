@@ -107,7 +107,7 @@ Naming conventions can help you avoid confusion, ambiguity, and errors, as well 
 Quick reference:
 
 | Element | Convention (Python) | Example |
-|---|---|---|
+| --- | --- | --- |
 | Variable | snake_case | `user_name` |
 | Function | snake_case verb | `get_user()` |
 | Constant | UPPER_CASE | `MAX_SIZE` |

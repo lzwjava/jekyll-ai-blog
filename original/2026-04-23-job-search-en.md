@@ -13,11 +13,11 @@ translated: false
 ---
 
 | Field | Details |
-|-------|---------|
+| ------- | --------- |
 | **Total Exp** | ~12 years (2014.07 – Present; 1 year mobile, 8 years full-stack/backend, 1 year ML/big data, 2 years AI-focused) |
 | **Nationality** | Chinese |
 | **Current Organization** | TEKsystems (outsourced to HSBC Bank) — title: AI Full Stack Engineer / Specialist Engineering |
-| **Work Permit** | Chinese citizen — no work permit required for mainland China|
+| **Work Permit** | Chinese citizen — no work permit required for mainland China |
 | **Current Salary** | redacted |
 | **Expected Salary** | ~450k CNY/year |
 | **Notice Period** | Two weeks |
@@ -93,7 +93,7 @@ Full-stack and backend roles are welcome. My strong preference is for positions 
 ## 🏢 Work Experience
 
 | Company | Role | Period |
-|---------|------|--------|
+| --------- | ------ | -------- |
 | TEKsystems → HSBC Bank (contractor) | AI Engineer | 2025.02 – Present |
 | Freelancer | ML & AI Projects | 2023.08 – 2025.01 |
 | Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
@@ -118,7 +118,7 @@ Full-stack and backend roles are welcome. My strong preference is for positions 
 ## 🎓 Education
 
 | School | Major | Period |
-|--------|-------|--------|
+| -------- | ------- | -------- |
 | Guangdong University of Foreign Studies | Computer Application, Associate Degree (Self-study, 13/17 courses passed) | 2022.10 – Present |
 | Beijing Forestry University | Digital Media Arts, Bachelor (Dropout) | 2013.09 – 2014.06 |
 | Guangzhou Yuyan Middle School | Science Track | 2007.07 – 2013.06 |

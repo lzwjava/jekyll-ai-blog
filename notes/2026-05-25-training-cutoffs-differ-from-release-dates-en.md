@@ -18,7 +18,7 @@ This is a much cleaner signal than the date hallucination. Let's bracket it prop
 ## What we now know
 
 | Event | Actual Date | Model knows it? |
-|-------|-------------|-----------------|
+| ------- | ------------- | ----------------- |
 | GPT-4 release | March 14, 2023 | ❌ No |
 | GPT-4o release | May 13, 2024 | ❌ No (didn't even parse the question right) |
 | DeepSeek-V2 release | May 2024 | — |

@@ -77,7 +77,7 @@ But Claude Code goes even further — it **abandons the editor metaphor entirely
 This implies a radically different UX model for an "AI-era editor":
 
 | Legacy Editor Feature | AI-Era Equivalent |
-|---|---|
+| --- | --- |
 | Keyboard shortcuts for navigation | Natural language intent |
 | Manual file search (Ctrl+P) | AI that auto-discovers relevant context |
 | Multi-tab management | AI holds the context window |

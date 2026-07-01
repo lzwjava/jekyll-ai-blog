@@ -71,7 +71,7 @@ The goal is not to be the person who is always right. It's to be the person **ot
 ## Summary
 
 | Avoid | Prefer |
-|---|---|
+| --- | --- |
 | Direct correction | Gentle questioning |
 | "You're wrong" | "I see it differently" |
 | Proving a point | Opening a discussion |

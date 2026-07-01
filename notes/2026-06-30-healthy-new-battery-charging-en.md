@@ -21,7 +21,7 @@ Here's your battery status:
 **Health check**
 
 | Metric | Value | |
-|--------|-------|---|
+| -------- | ------- | --- |
 | Current capacity | 47.67 Wh | |
 | Full charge capacity | 58.84 Wh | ✅ Matches design spec |
 | Design capacity | 58.14 Wh | |

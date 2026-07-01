@@ -37,7 +37,7 @@ type: note
 ### 📊 Common HFT Strategies
 
 | Strategy | Description |
-|---|---|
+| --- | --- |
 | **Market Making** | Placing buy/sell orders to provide liquidity and profit from bid-ask spreads |
 | **Statistical Arbitrage** | Exploiting price differences between correlated assets |
 | **Latency Arbitrage** | Taking advantage of tiny time delays between brokers/exchanges |

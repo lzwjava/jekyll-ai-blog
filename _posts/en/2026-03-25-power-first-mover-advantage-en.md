@@ -77,7 +77,7 @@ The early person has *real* knowledge — built through struggle, failure, and i
 ## 4. The Analogy Across Timescales
 
 | Who | When they started | What they gained |
-|---|---|---|
+| --- | --- | --- |
 | Jensen Huang / NVIDIA | ~2012–2016, bet on CUDA + AI | Trillion-dollar moat, became AI infrastructure king |
 | Early AI researchers (DeepMind, OpenAI) | 2014–2017 | Founded the field, wrote the papers everyone now cites |
 | AI engineers in finance (nanoGPT era) | 2022–2023 | Became internal AI leads, promoted, hired away at premium |

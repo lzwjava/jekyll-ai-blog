@@ -322,7 +322,7 @@ def find_connected_people(staff_id, hops=2):
 ## Tactical Playbook for Cross-Team Work
 
 | Goal | Command |
-|------|---------|
+| ------ | --------- |
 | Who owns component X? | JQL: `component = X ORDER BY updated DESC` → look at assignees |
 | Find the Confluence runbook | CQL: `text ~ "X" AND ancestor = "Runbooks"` |
 | Who else uses my API? | GitHub code search: `org:bank "MyServiceClient"` |

@@ -44,7 +44,7 @@ type: note
 ### 建议的归属模型 (Attribution Model)
 
 | 场景 | 标签 |
-|---|---|
+| --- | --- |
 | 纯方案对比 | 方案 A / 方案 B (Approach A / Approach B) |
 | 分支/PR 上下文 | `copilot-assisted, verified by James` |
 | 所有权与问责 | James 的分支（无论是否有 AI 辅助，他都拥有所有权） |

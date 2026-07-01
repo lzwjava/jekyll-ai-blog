@@ -20,7 +20,7 @@ type: note
 ## 策略概述
 
 | 方法 | 最适合 | 需要 DB2 依赖吗？ |
-|---|---|---|
+| --- | --- | --- |
 | Mockito (mock JDBC 层) | 纯单元测试 | 否 |
 | Mock JdbcTemplate | Service/DAO 单元测试 | 否 |
 | H2 In-Memory DB | 集成测试 | 否 |

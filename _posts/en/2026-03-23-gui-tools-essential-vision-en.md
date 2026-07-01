@@ -57,7 +57,7 @@ You can't "feel" a color grade or brush mask in a terminal.
 ### 📐 The Core Principle: CLI vs GUI is a Tool Choice, Not a Winner
 
 | Task | CLI Wins | GUI Wins |
-|---|---|---|
+| --- | --- | --- |
 | Automation / scripting | ✅ | |
 | Batch file processing | ✅ | |
 | Remote server work | ✅ | |

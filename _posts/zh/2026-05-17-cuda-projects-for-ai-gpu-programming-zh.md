@@ -95,7 +95,7 @@ type: note
 ### 结构化学习路径
 
 | 资源 | 说明 |
-|---|---|
+| --- | --- |
 | **CUDA 120天挑战**（GitHub） | 一个120天的CUDA学习计划，涵盖每日概念、练习和常见陷阱，并在第20、40、60、80、100和120天设置了六个综合性项目，以巩固GPU并行编程、内存管理和性能优化技能。 |
 | **FreeCodeCamp 12小时CUDA课程**（YouTube） | 一门全面的免费课程，涵盖GPU架构、编写第一个CUDA内核、CUDA API、矩阵乘法优化以及用于自定义深度学习原语的Triton。 |
 | **NVIDIA官方CUDA示例**（GitHub） | 展示CUBLAS、CUFFT、CURAND、CUSPARSE和CUSOLVER的示例——用于线性代数、FFT、随机数生成和稀疏矩阵的GPU加速库。 |

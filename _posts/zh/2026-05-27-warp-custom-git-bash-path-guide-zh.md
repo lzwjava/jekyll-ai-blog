@@ -69,7 +69,7 @@ fn msys2_arguments_for_session_spawning_command(shell_type: ShellType) -> Vec<Os
 ### 总结
 
 | 设置项 | 值 |
-|--------|-----|
+| -------- | ----- |
 | 自定义路径 | `C:\Program Files\Git\usr\bin\bash.exe` |
 | 路径分隔符 | `\`（反斜杠） |
 | `--login -i` | 不要添加——Warp 会自动处理 shell 参数 |

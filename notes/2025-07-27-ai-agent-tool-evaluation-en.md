@@ -28,16 +28,16 @@ I gathered data from web searches and X discussions to inform this (details in r
 
 Here's a table summarizing standout tools from your list, based on aggregated reviews:
 
-| Tool              | Strengths                          | Weaknesses                        | Best For                          | Avg. Rating (out of 5) |
-|-------------------|------------------------------------|-----------------------------------|-----------------------------------|-------------------------|
-| **Gemini CLI**   | Free/open-source, fast CLI for coding/debugging, high limits, integrates with Google models. | Limited to terminal; less visual. | Quick terminal-based tasks.      | 4.6                    |
-| **Claude Code**  | Excellent code interpretation/explanation, ethical AI focus, handles large contexts. | Slower for real-time; paid for advanced use. | Debugging and learning code.     | 4.7                    |
-| **Cursor**       | AI-powered editor with chat/refactoring, builds full apps autonomously. | Subscription-based; steep for beginners. | Full-stack development.         | 4.8                    |
-| **GitHub Copilot** | Seamless IDE integration (VS Code), vast training data, auto-completions. | Privacy concerns; sometimes hallucinates. | Daily coding in teams.           | 4.5                    |
-| **Devin AI**     | Fully autonomous (plans, codes, deploys projects), multi-agent workflows. | High cost; overkill for simple tasks. | Complex software engineering.   | 4.9                    |
-| **Aider**        | CLI for repo editing, conversational, supports multiple LLMs. | Command-line only; setup required. | Local code editing/fixing.       | 4.4                    |
-| **AutoGen**      | Framework for multi-agent systems, customizable. | More for developers building agents. | Advanced agent orchestration.   | 4.3                    |
-| **LangChain**    | Builds custom agents with tools/APIs, flexible. | Requires coding knowledge to use. | Integrating LLMs into apps.      | 4.5                    |
+| Tool | Strengths | Weaknesses | Best For | Avg. Rating (out of 5) |
+| ------------------- | ------------------------------------ | ----------------------------------- | ----------------------------------- | ------------------------- |
+| **Gemini CLI** | Free/open-source, fast CLI for coding/debugging, high limits, integrates with Google models. | Limited to terminal; less visual. | Quick terminal-based tasks. | 4.6 |
+| **Claude Code** | Excellent code interpretation/explanation, ethical AI focus, handles large contexts. | Slower for real-time; paid for advanced use. | Debugging and learning code. | 4.7 |
+| **Cursor** | AI-powered editor with chat/refactoring, builds full apps autonomously. | Subscription-based; steep for beginners. | Full-stack development. | 4.8 |
+| **GitHub Copilot** | Seamless IDE integration (VS Code), vast training data, auto-completions. | Privacy concerns; sometimes hallucinates. | Daily coding in teams. | 4.5 |
+| **Devin AI** | Fully autonomous (plans, codes, deploys projects), multi-agent workflows. | High cost; overkill for simple tasks. | Complex software engineering. | 4.9 |
+| **Aider** | CLI for repo editing, conversational, supports multiple LLMs. | Command-line only; setup required. | Local code editing/fixing. | 4.4 |
+| **AutoGen** | Framework for multi-agent systems, customizable. | More for developers building agents. | Advanced agent orchestration. | 4.3 |
+| **LangChain** | Builds custom agents with tools/APIs, flexible. | Requires coding knowledge to use. | Integrating LLMs into apps. | 4.5 |
 
 Other tools like Salesforce Agentforce or ServiceNow are more enterprise-focused (e.g., automation in CRM/IT), scoring lower for general coding (around 4.2-4.4) but excelling in niche areas.
 

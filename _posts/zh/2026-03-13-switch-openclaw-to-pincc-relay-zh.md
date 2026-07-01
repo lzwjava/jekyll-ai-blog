@@ -162,7 +162,7 @@ curl https://v2-as.pincc.ai/v1/messages \
 ## 关键配置差异总结
 
 | 设置 | OpenRouter | PinCC 中继 |
-|---|---|---|
+| --- | --- | --- |
 | `api` 类型 | 内置（无需 `models.providers`） | `"anthropic-messages"` |
 | `baseUrl` | 自动 | `https://v2-as.pincc.ai` |
 | `apiKey` | 来自 OpenRouter 的 `sk-or-...` | 您的 PinCC token |

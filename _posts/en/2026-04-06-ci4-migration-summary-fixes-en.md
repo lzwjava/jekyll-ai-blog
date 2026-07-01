@@ -62,7 +62,7 @@ Done. Here's a complete summary of what was accomplished:
 ### Current Route Status
 
 | Route | Status | Note |
-|-------|--------|------|
+| ------- | -------- | ------ |
 | `/` | ✅ 200 | |
 | `/users/isRegister` | ✅ 200 | |
 | `/lives/count` | ✅ 200 | |

@@ -34,7 +34,7 @@ Here's a comprehensive summary of the Git project:
 ### Directory Structure & Subsystems
 
 | Directory | Purpose |
-|-----------|---------|
+| ----------- | --------- |
 | `builtin/` | 130 command implementations (add.c, commit.c, merge.c, rebase.c...) |
 | `refs/` | Reference storage backends: files, packed, reftable |
 | `reftable/` | New binary ref storage format (faster, more compact than packed-refs) |
@@ -55,7 +55,7 @@ Here's a comprehensive summary of the Git project:
 ### Key Source Files (top-level)
 
 | File | What it does |
-|------|--------------|
+| ------ | -------------- |
 | `commit.c` | Commit object creation and parsing |
 | `merge.c`, `merge-ort.c` | Merge engine (ORT = Ostensibly Recursive's Twin, the modern 3-way merge) |
 | `diff.c`, `diffcore-*.c` | Diff pipeline: break, rename detection, pickaxe, ordering |

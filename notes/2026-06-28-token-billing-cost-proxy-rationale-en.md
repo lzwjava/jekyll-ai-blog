@@ -40,7 +40,7 @@ So output tokens cost more than input tokens (that's why every provider prices `
 IBM mainframe MIPS billing decoupled price from cost. The MIPS rating was a capacity tier baked into the *machine*, and IBM charged software licenses (and sub-capacity pricing) by it. You paid more MIPS for the *same* workload because IBM said the box was bigger — it was a price-discrimination and lock-in lever, not a usage meter. The marginal cost of running one more instruction was ~zero to IBM; the MIPS charge was pure economic rent on installed capacity.
 
 | | MIPS (IBM) | Token (LLM) |
-|---|---|---|
+| --- | --- | --- |
 | What it meters | Installed machine capacity tier | Actual compute consumed per request |
 | Marginal cost link | Weak/none — rent on capacity | Strong — ~linear in GPU-seconds |
 | Provider's marginal cost | ~0 for one more instruction | Real HBM bandwidth + FLOPs |

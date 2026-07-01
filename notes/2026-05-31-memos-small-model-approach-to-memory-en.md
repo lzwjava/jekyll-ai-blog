@@ -75,7 +75,7 @@ You train a Memory model per domain/corpus, then TIES-merge them into one. Compu
 ## Comparison Table (per the paper)
 
 | Problem | MeMo's property |
-|---|---|
+| --- | --- |
 | RAG retrieval noise degrades accuracy | Accuracy changes only ±1.77% under added distractor documents |
 | Fine-tuning causes catastrophic forgetting | Main LLM stays frozen; no catastrophic forgetting possible |
 | Latent memory is architecture-coupled | Works across Qwen, Gemma, and LFM2.5 architectures |

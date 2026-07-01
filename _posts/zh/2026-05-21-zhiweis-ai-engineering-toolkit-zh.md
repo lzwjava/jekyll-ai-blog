@@ -22,7 +22,7 @@ type: note
 **你的机器：**
 
 | 机器 | 操作系统 | 内存 | 磁盘 | GPU |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | MacBook Air M2（日常用机） | macOS | 16 GB | 460 GB（剩余 54 GB） | — |
 | lzw@192.168.1.36（工作站） | Ubuntu/macOS | 62 GB | 916 GB（剩余 90 GB） | RTX 4070 12 GB |
 | AMD Dev Cloud（美国亚特兰大） | Ubuntu | 192 GB | — | MI300X 192 GB HBM3 |

@@ -64,7 +64,7 @@ Multiple effort levels for coding (analogous to extended thinking in Claude, or 
 Against peers on key benchmarks from the model card:
 
 | Benchmark | GLM-5.2 | DS-V4-Pro | Claude Opus 4.8 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | AIME 2026 | 99.2 | 94.6 | 95.7 |
 | SWE-bench Pro | 62.1 | 55.4 | 69.2 |
 | FrontierSWE | 74.4 | 29.0 | 75.1 |

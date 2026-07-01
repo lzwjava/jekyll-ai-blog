@@ -49,16 +49,16 @@ Cisco Systems is the dominant player in enterprise networking, and their switchi
 
 ### 4. Key Technologies & Features
 
-| Feature                  | Description                                                                 | Typical Series |
-|--------------------------|-----------------------------------------------------------------------------|----------------|
-| StackWise / StackWise Virtual | Physical or logical stacking (up to 480 Gbps stack bandwidth on 9600)      | Catalyst 9300/9500/9600 |
-| Virtual Switching System (VSS) / Multichassis EtherChannel (MEC) | Older multi-chassis technology (largely replaced by StackWise Virtual)   | 6500/6800, 9400/9600 |
-| Cisco DNA Center / Catalyst Center | Intent-based networking, assurance, automation, telemetry                 | Catalyst 9000 |
-| Encrypted Traffic Analytics (ETA) | Detect malware in encrypted traffic without decryption                   | Catalyst 9000 |
-| Application Hosting (Docker/Kubernetes) | Run containers directly on the switch                                   | 9300/9400/9500/9600 |
-| 400G / 800G optics       | Highest-density data center switching                                       | Nexus 9300-EX/FX/GX/HX |
-| MACsec & TrustSec        | Link-layer encryption & SGT-based policy enforcement                        | Most Catalyst 9000 & Nexus |
-| NetFlow / sFlow / Telemetry | Rich visibility                                                            | All modern platforms |
+| Feature | Description | Typical Series |
+| -------------------------- | ----------------------------------------------------------------------------- | ---------------- |
+| StackWise / StackWise Virtual | Physical or logical stacking (up to 480 Gbps stack bandwidth on 9600) | Catalyst 9300/9500/9600 |
+| Virtual Switching System (VSS) / Multichassis EtherChannel (MEC) | Older multi-chassis technology (largely replaced by StackWise Virtual) | 6500/6800, 9400/9600 |
+| Cisco DNA Center / Catalyst Center | Intent-based networking, assurance, automation, telemetry | Catalyst 9000 |
+| Encrypted Traffic Analytics (ETA) | Detect malware in encrypted traffic without decryption | Catalyst 9000 |
+| Application Hosting (Docker/Kubernetes) | Run containers directly on the switch | 9300/9400/9500/9600 |
+| 400G / 800G optics | Highest-density data center switching | Nexus 9300-EX/FX/GX/HX |
+| MACsec & TrustSec | Link-layer encryption & SGT-based policy enforcement | Most Catalyst 9000 & Nexus |
+| NetFlow / sFlow / Telemetry | Rich visibility | All modern platforms |
 
 ### 5. Licensing (Simplified – 2025)
 

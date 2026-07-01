@@ -76,7 +76,7 @@ GRANT ALL PRIVILEGES ON DATABASE gitea TO gitea;
 ```
 
 | What | Why |
-|------|-----|
+| ------ | ----- |
 | `CREATE USER` | Dedicated DB role for Gitea — follows least-privilege |
 | `OWNER gitea` | Gitea user owns the DB, can create/modify tables |
 | `GRANT ALL` | Ensures full access on the `gitea` database |
@@ -91,7 +91,7 @@ host gitea gitea 172.16.0.0/12 scram-sha-256
 ```
 
 | Line | What it does |
-|------|-------------|
+| ------ | ------------- |
 | `127.0.0.1/32` | Allows localhost connections (for testing/debug) |
 | `172.16.0.0/12` | Allows Docker containers (Docker uses 172.16.x.x – 172.31.x.x range) |
 | `scram-sha-256` | Modern password auth (not the old `md5`) |
@@ -138,7 +138,7 @@ volumes:
 ```
 
 | Key Setting | Explanation |
-|---|---|
+| --- | --- |
 | `restart: always` | Auto-restart on crash or reboot |
 | `DB_TYPE=postgres` | Uses PostgreSQL instead of SQLite |
 | `HOST=host.docker.internal:5433` | Docker container connects to host's PostgreSQL |
@@ -172,7 +172,7 @@ curl -s -o /dev/null -w "%{http_code}" http://localhost:3000
 ### 3. Why PostgreSQL Over SQLite?
 
 | | SQLite | PostgreSQL |
-|---|---|---|
+| --- | --- | --- |
 | **Concurrent writes** | Single-writer, can lock under load | Full concurrent access |
 | **Data safety** | Single file, one corruption risk | ACID-compliant, WAL logging |
 | **Scalability** | Fine for solo use | Handles teams + CI workloads |

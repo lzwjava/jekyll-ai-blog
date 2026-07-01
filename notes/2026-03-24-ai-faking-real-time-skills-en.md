@@ -82,7 +82,7 @@ Other detection techniques now include:
 The honest answer is that **no single channel is fully trustworthy anymore**. The most reliable remaining signals of authentic competence are:
 
 | Signal | Trustworthiness in 2026 |
-|---|---|
+| --- | --- |
 | GitHub / portfolio | Low (easily AI-generated) |
 | Written essays / cover letters | Very low |
 | Async coding test | Low (LLMs can solve most) |

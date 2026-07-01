@@ -89,7 +89,7 @@ To help prevent data loss, make sure that you have an up-to-date iCloud backup, 
 ### Summary Table
 
 | Scenario | Recommendation |
-|---|---|
+| --- | --- |
 | Keeping iPhone, switching Apple ID | ✅ Keep a copy |
 | Selling / giving away iPhone | ⏭️ Skip (or Erase iPhone instead) |
 | Signing out temporarily, signing back in soon | ⏭️ Skip (data re-syncs on sign-in) |

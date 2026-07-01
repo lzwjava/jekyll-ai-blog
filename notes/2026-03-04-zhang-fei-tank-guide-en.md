@@ -23,7 +23,7 @@ Zhang Fei (likely intended as the hero from **Honor of Kings**, a popular MOBA, 
 ### Skills
 
 | Skill | Description | Tips |
-|-------|-------------|------|
+| ------- | ------------- | ------ |
 | **Skill 1: Forbidden Domain** | Swing spear: 450–950 (+100% Phys ATK) Phys DMG + knockback heroes. +3 Madness on hit. | Poke/farm/repel divers. Post-transform: Core damage tool. CD: 6s. |
 | **Skill 2: Leaping Savior** | Leap to area: Shield allies (550–1500 +50% Phys ATK, up to 5). +3 Madness (+1 per ally shielded). | Protect carries/escape. Pre-transform: Pure support; post: Engage + DMG. CD: 10–12s. |
 | **Ultimate: Unbridled Outburst** | See above. CD: 40s. | Initiate when enemies cluster/no mobility left. Path for stun. |
@@ -47,7 +47,7 @@ Zhang Fei (likely intended as the hero from **Honor of Kings**, a popular MOBA, 
 Prioritize tankiness (HP, defenses) + shields/CC. Adapt vs. phys/magic heavy teams.
 
 | Category | Items |
-|----------|-------|
+| ---------- | ------- |
 | **Starting** | Crimson Shadow (early sustain/gold). |
 | **Boots** | Boots of Resistance (Magic Def + resist) OR Lightfoot Shoes. |
 | **Core** | Blazing Cape, Ominous Premonition (anti-AS/MS), Eye of the Phoenix. |

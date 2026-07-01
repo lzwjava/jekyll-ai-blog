@@ -27,7 +27,7 @@ where $\sigma$ is the sigmoid function. This identity is useful — tanh is just
 ### Key Properties
 
 | Property | Value |
-|----------|-------|
+| ---------- | ------- |
 | **Output range** | $(-1, 1)$ (zero-centered) |
 | **Derivative** | $\frac{d}{dx}\tanh(x) = 1 - \tanh^2(x)$ |
 | **Gradient at x=0** | $1$ (stronger than sigmoid's $0.25$) |

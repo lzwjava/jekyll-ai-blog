@@ -59,7 +59,7 @@ A **better dielectric** = **higher capacitance**.
 ## 🔹 Important Terms to Know
 
 | Term | Meaning |
-|:-----|:--------|
+| :----- | :-------- |
 | **Capacitance (C)** | Ability to store charge; measured in **farads (F)**. |
 | **Voltage (V)** | The electric potential difference across the plates. |
 | **Charge (Q)** | Amount of stored electricity; related by **Q = C × V**. |

@@ -80,7 +80,7 @@ Founded in August 2022, the company is relatively young with limited publicly av
 According to the latest recruitment information, Shuge Network is hiring for the following positions:
 
 | Position | Salary Range | Experience Required |
-|---------|-------------|---------------------|
+| --------- | ------------- | --------------------- |
 | **Senior Android Development Engineer (SDK/Reverse/Ads)** | 18-22K RMB | 5-10 years |
 | **Android Reverse Engineer** | 20-35K RMB | - |
 | **Android R&D Engineer (Mini-games/Reward/Utility)** | 10-15K RMB | - |

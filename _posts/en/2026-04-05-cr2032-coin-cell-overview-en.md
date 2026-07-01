@@ -30,7 +30,7 @@ A CR2032 battery is a **(C)** lithium chemistry battery with a **(R)** round sha
 ## 2. Key Specifications
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | Diameter | 20 mm |
 | Height (Thickness) | 3.2 mm |
 | Nominal Voltage | 3.0 V |
@@ -75,7 +75,7 @@ Other lithium coin cell batteries may have a similar voltage, diameter, or heigh
 A quick comparison of 2032-family alternatives:
 
 | Battery | Voltage | Rechargeable | Capacity | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **CR2032** | 3.0 V | No | ~220 mAh | Most common, long shelf life |
 | **BR2032** | 2.8–3.0 V | No | ~190 mAh | Better for extreme temperatures, extra-long shelf life |
 | **LIR2032** | 3.6–3.7 V | Yes | ~50–70 mAh | Rechargeable but higher voltage — not always compatible |

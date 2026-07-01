@@ -65,7 +65,7 @@ The majority of Chinese users cannot access the Google Play Store not only becau
 ## Summary Table
 
 | Reason | Explanation |
-|---|---|
+| --- | --- |
 | Google Play is blocked | Great Firewall blocks all Google services since 2012 |
 | Apps never submitted to Google Play | Developers target Chinese stores only |
 | Chinese law requires local registration (ICP) | Google Play cannot meet these requirements |

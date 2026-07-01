@@ -20,7 +20,7 @@ type: note
 ### 1. Release & Status
 
 | | Bootstrap 4 | Bootstrap 5 |
-|---|---|---|
+| --- | --- | --- |
 | **Released** | January 2018 | May 2021 |
 | **End of Life** | January 1, 2023 | Actively maintained |
 | **Status** | No new features; security patches only | Current stable version |
@@ -38,7 +38,7 @@ One of the most significant changes. Bootstrap 4 relies on jQuery for certain co
 Bootstrap 4 has a 5-tier grid system. In Bootstrap 5, the grid system was enhanced to provide easier customization and upgraded to 6 tiers by introducing the new `xxl` breakpoint to support 1400px and up.
 
 | Breakpoint | Bootstrap 4 | Bootstrap 5 |
-|---|---|---|
+| --- | --- | --- |
 | xs | < 576px | < 576px |
 | sm | ≥ 576px | ≥ 576px |
 | md | ≥ 768px | ≥ 768px |
@@ -125,7 +125,7 @@ Bootstrap 5's documentation has been improved, providing clearer explanations an
 ### Summary Table
 
 | Feature | Bootstrap 4 | Bootstrap 5 |
-|---|---|---|
+| --- | --- | --- |
 | Released | 2018 | 2021 |
 | jQuery | ✅ Required | ❌ Removed |
 | Grid Tiers | 5 | 6 (adds `xxl`) |

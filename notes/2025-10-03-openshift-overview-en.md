@@ -45,17 +45,17 @@ In short, OpenShift is ideal for teams transitioning to containers/Kubernetes, n
 
 Pivotal Cloud Foundry (PCF) is a commercial distribution of the open-source Cloud Foundry platform, focused on a PaaS model for deploying traditional and cloud-native apps. It's owned by VMware (after acquiring Pivotal) and emphasizes simplicity for developers. Here's a side-by-side comparison:
 
-| Aspect              | OpenShift                                                                 | PCF (Pivotal Cloud Foundry)                                              |
-|---------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Aspect | OpenShift | PCF (Pivotal Cloud Foundry) |
+| --------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **Core Technology** | Kubernetes-based (container orchestration). Container-native from the ground up. | Cloud Foundry (CF)-based PaaS. Uses buildpacks for app packaging; supports containers via Diego cells but not as native. |
-| **Deployment Model**| Pull-based: Developers build container images; OpenShift pulls and deploys them. Supports any language/runtime via containers. | Push-based: Use `cf push` to deploy apps; buildpacks detect and package code automatically. More opinionated on app structure. |
-| **Scalability**     | Horizontal pod autoscaling, cluster federation for massive scale (e.g., thousands of nodes). | Good for app-level scaling, but relies on BOSH for infrastructure; less flexible for container orchestration at Kubernetes scale. |
+| **Deployment Model** | Pull-based: Developers build container images; OpenShift pulls and deploys them. Supports any language/runtime via containers. | Push-based: Use `cf push` to deploy apps; buildpacks detect and package code automatically. More opinionated on app structure. |
+| **Scalability** | Horizontal pod autoscaling, cluster federation for massive scale (e.g., thousands of nodes). | Good for app-level scaling, but relies on BOSH for infrastructure; less flexible for container orchestration at Kubernetes scale. |
 | **Developer Experience** | Rich tooling: CLI (oc), web console, integrated CI/CD (Tekton), Helm charts. Steeper learning curve if new to Kubernetes. | Simpler for beginners: Focus on "12-factor apps" with easy polyglot support (Java, Node.js, etc.). Less ops overhead initially. |
-| **Security & Ops**  | Advanced: Built-in RBAC, network policies, image signing, audit logging. Strong multi-tenancy. | Solid but less granular: Org/space isolation,Diego security groups. Relies on underlying IaaS for advanced features. |
-| **Ecosystem**       | Vast Kubernetes ecosystem (e.g., operators for databases like PostgreSQL). Integrates with Istio, Knative for serverless. | Marketplace for services (e.g., MySQL, RabbitMQ). Good for legacy app modernization but smaller container ecosystem. |
-| **Management**      | Self-managed or Red Hat-managed. Supports hybrid/multi-cloud. | VMware-managed (via Tanzu) or self-managed. Strong on AWS/GCP/Azure but more IaaS-dependent. |
-| **Cost Model**      | Subscription-based (Red Hat support); free community version. Starts ~$10K/year for small clusters. | Licensed per core/VM; can be expensive (~$5K–$20K/month for medium setups). Now part of VMware Tanzu portfolio. |
-| **Use Cases**       | Microservices, DevOps-heavy teams, container-first apps (e.g., AI/ML, edge computing). | Rapid app development, polyglot apps, teams avoiding container complexity (e.g., web apps, APIs). |
+| **Security & Ops** | Advanced: Built-in RBAC, network policies, image signing, audit logging. Strong multi-tenancy. | Solid but less granular: Org/space isolation,Diego security groups. Relies on underlying IaaS for advanced features. |
+| **Ecosystem** | Vast Kubernetes ecosystem (e.g., operators for databases like PostgreSQL). Integrates with Istio, Knative for serverless. | Marketplace for services (e.g., MySQL, RabbitMQ). Good for legacy app modernization but smaller container ecosystem. |
+| **Management** | Self-managed or Red Hat-managed. Supports hybrid/multi-cloud. | VMware-managed (via Tanzu) or self-managed. Strong on AWS/GCP/Azure but more IaaS-dependent. |
+| **Cost Model** | Subscription-based (Red Hat support); free community version. Starts ~$10K/year for small clusters. | Licensed per core/VM; can be expensive (~$5K–$20K/month for medium setups). Now part of VMware Tanzu portfolio. |
+| **Use Cases** | Microservices, DevOps-heavy teams, container-first apps (e.g., AI/ML, edge computing). | Rapid app development, polyglot apps, teams avoiding container complexity (e.g., web apps, APIs). |
 | **Community & Support** | Huge open-source community (Kubernetes foundation); Red Hat enterprise backing. | Active CF Foundation community; enterprise support via VMware. Less momentum post-Pivotal acquisition. |
 
 **Key Differences**:

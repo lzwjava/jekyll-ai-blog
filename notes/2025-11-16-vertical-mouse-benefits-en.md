@@ -13,7 +13,7 @@ type: note
 Here are the actual ergonomic benefits of a true vertical mouse (like the B.O.W M190U Pro, Anker, Logitech MX Vertical, etc.) — explained simply and with the real-world differences people feel:
 
 | Benefit | What actually changes | Why it helps | How much difference most people notice (Taiwan user reports) |
-|---------|-----------------------|--------------|------------------------------------------------------------|
+| --------- | ----------------------- | -------------- | ------------------------------------------------------------ |
 | Neutral wrist position (0° pronation) | Your hand is in a “handshake” position instead of palm-down. Forearm bones are no longer crossed/twisted. | Eliminates the main cause of forearm/wrist strain (pronation). This is the single biggest RSI reducer. | 80–90 % of long-term users say wrist pain disappears or drops 70–90 % within 1–2 months |
 | Reduced ulnar deviation | Thumb points upward naturally → no need to bend wrist sideways to reach buttons. | Less stress on the pinky-side of the wrist (common pain spot for Taiwanese who use small desks). | Very noticeable if you have “mouse elbow” or pinky-side soreness |
 | Lower extensor muscle activity | Forearm extensor muscles (top of forearm) work ~30–50 % less (proven in EMG studies). | Less fatigue after 8+ hour workdays; many programmers/office workers in Taiwan say “手臂不會酸了”. | Felt clearly after 4–6 hours of continuous use |

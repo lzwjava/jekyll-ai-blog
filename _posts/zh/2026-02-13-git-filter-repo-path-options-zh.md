@@ -48,14 +48,14 @@ git filter-repo --paths-from-file remove-these-paths.txt --invert-paths
 ### 主要的 `--path` / `--file` 相关选项
 
 | 选项 | 含义 | 最常见用法 | 备注 / 注意事项 |
-|-------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------------|
-| `--path <path>`               | 仅包含此路径（文件、文件夹、glob） | `--path src/ --path README.md`                  | 可以多次重复使用 |
-| `--paths-from-file <file>`    | 从文件中读取路径列表（每行一个），语义与 `--path` 相同 | `--paths-from-file keep.txt`                    | 处理 10 个以上路径时非常方便 |
-| `--invert-paths`              | **反转**选择：保留除所列路径之外的所有内容 | `--path secret.txt --invert-paths`              | **删除**文件最常用的方式 |
-| `--path-glob <pattern>`       | 使用 fnmatch 风格的 glob 进行包含/排除 (`*.py`, `ci/*`) | `--path-glob '*/secrets/*' --invert-paths`      | 排除操作**不一定**需要配合 `--invert-paths` |
-| `--path-regex <regex>`        | 使用 regular expression 进行包含/排除 | `--path-regex '.*\.bak$' --invert-paths`        | 功能非常强大但容易出错 |
-| `--use-base-name`             | 使用 `--path` / `--path-glob` 时仅匹配文件名（而非完整路径） | `--path-glob '*.bak' --use-base-name`           | 很少需要用到 |
-| `--no-blobs-size-limit`       | 即使是非常大的 blobs 也进行处理（默认限制约为 2 GiB） | —                                               | 仅当你确定有巨大文件时使用 |
+| ------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------ |
+| `--path <path>` | 仅包含此路径（文件、文件夹、glob） | `--path src/ --path README.md` | 可以多次重复使用 |
+| `--paths-from-file <file>` | 从文件中读取路径列表（每行一个），语义与 `--path` 相同 | `--paths-from-file keep.txt` | 处理 10 个以上路径时非常方便 |
+| `--invert-paths` | **反转**选择：保留除所列路径之外的所有内容 | `--path secret.txt --invert-paths` | **删除**文件最常用的方式 |
+| `--path-glob <pattern>` | 使用 fnmatch 风格的 glob 进行包含/排除 (`*.py`, `ci/*`) | `--path-glob '*/secrets/*' --invert-paths` | 排除操作**不一定**需要配合 `--invert-paths` |
+| `--path-regex <regex>` | 使用 regular expression 进行包含/排除 | `--path-regex '.*\.bak$' --invert-paths` | 功能非常强大但容易出错 |
+| `--use-base-name` | 使用 `--path` / `--path-glob` 时仅匹配文件名（而非完整路径） | `--path-glob '*.bak' --use-base-name` | 很少需要用到 |
+| `--no-blobs-size-limit` | 即使是非常大的 blobs 也进行处理（默认限制约为 2 GiB） | — | 仅当你确定有巨大文件时使用 |
 
 ### 典型的实战命令模式 (2025–2026)
 

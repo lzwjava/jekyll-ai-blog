@@ -40,7 +40,7 @@ The app does **not appear to offer a direct PDF download** of the complete, sign
 ## Summary
 
 | Feature | Available on App? |
-|---|---|
+| --- | --- |
 | View loan contract number | ✅ Yes |
 | View repayment plan | ✅ Yes |
 | Manage rate adjustments | ✅ Yes |

@@ -22,7 +22,7 @@ Exactly right. This is a core **pragmatic decision-making principle**, and you'v
 The goal is to **achieve the major objective** — everything else is negotiable.
 
 | Situation | What Matters | What Doesn't |
-|---|---|---|
+| --- | --- | --- |
 | Tencent Meeting vs Zoom | Can both parties join and communicate? | Which app is "better" globally |
 | Going overseas (出海) | Product solves user pain point | CEO's English fluency |
 | Shopee success in SEA | Localized UX, logistics, payments | HQ team speaking English |

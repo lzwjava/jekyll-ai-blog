@@ -37,7 +37,7 @@ Allegretto is not the entry-level paid tier. The phrase "Allegretto members and 
 Here is a comprehensive comparison:
 
 | Dimension | **Kimi Claw (Cloud)** | **Self-Deployed OpenClaw** |
-|---|---|---|
+| --- | --- | --- |
 | **Setup** | One-click, ~1 minute | Manual install, dependencies, API keys, Docker |
 | **Uptime** | 24/7 managed by Kimi | Only when your machine/VPS is on |
 | **Hardware** | No hardware needed | Requires a VPS or always-on PC |

@@ -23,7 +23,7 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 ### 技能
 
 | 技能 | 描述 | 提示 |
-|------|------|------|
+| ------ | ------ | ------ |
 | **Skill 1: Forbidden Domain** | 挥舞长矛：450–950 (+100% 物理攻击) 物理伤害 + 击退英雄。命中 +3 Madness。 | 消耗/清线/击退突进者。变身后：核心输出工具。CD: 6s。 |
 | **Skill 2: Leaping Savior** | 跃向区域：为盟友提供护盾 (550–1500 +50% 物理攻击，最多5个)。+3 Madness（每个被护盾盟友 +1）。 | 保护输出位/逃生。变身前：纯支援；变身后：开团 + 伤害。CD: 10–12s。 |
 | **Ultimate: Unbridled Outburst** | 见上文。CD: 40s。 | 当敌人聚集/无位移时发起。利用路径眩晕。 |
@@ -47,7 +47,7 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 优先坦克属性（生命值、防御）+ 护盾/CC。根据物法队伍调整。
 
 | 类别 | 装备 |
-|------|------|
+| ------ | ------ |
 | **起始** | Crimson Shadow（早期续航/金币）。 |
 | **靴子** | Boots of Resistance（魔抗 + 抗性）或 Lightfoot Shoes。 |
 | **核心** | Blazing Cape、Ominous Premonition（抗攻速/移速）、Eye of the Phoenix。 |

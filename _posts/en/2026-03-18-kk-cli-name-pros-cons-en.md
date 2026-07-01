@@ -20,7 +20,7 @@ Answer:
 ### ✅ Pros
 
 | Point | Detail |
-|---|---|
+| --- | --- |
 | **Ultra short** | Only 2 chars, fastest possible to type |
 | **Double key** | Same key twice — `kk` is effortless on keyboard |
 | **No meaning baggage** | Doesn't lock you into a concept like "ops" or "dot" |
@@ -33,7 +33,7 @@ Answer:
 ### ❌ Cons
 
 | Point | Detail |
-|---|---|
+| --- | --- |
 | **No meaning** | Doesn't hint at what it does |
 | **Chat slang** | "kk" means "okay okay" in texting — slight confusion |
 | **Hard to search** | Googling `kk cli tool` returns noise |
@@ -45,7 +45,7 @@ Answer:
 ### Similar Real-World Precedents
 
 | Tool | Name Logic |
-|---|---|
+| --- | --- |
 | `jj` | New git CLI tool — double letter works |
 | `zz` | Terminal jump tool |
 | `yy` | Vim command — muscle memory |
@@ -61,7 +61,7 @@ Answer:
 **`kk` is a solid choice** if you prioritize typing speed above everything else. It sits alongside `jj`, `fzf` style tools — short, unique, purely functional.
 
 | Criteria | Score |
-|---|---|
+| --- | --- |
 | Typing speed | ⭐⭐⭐⭐⭐ |
 | Memorability | ⭐⭐⭐⭐ |
 | Meaningfulness | ⭐⭐ |

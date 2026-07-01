@@ -18,7 +18,7 @@ Yes, exactly right. Dead weight is dead weight. Here's a systematic cleanup appr
 ## What You're Removing — Validated
 
 | App | Why it's safe to nuke |
-|-----|----------------------|
+| ----- | ---------------------- |
 | Sogou IME | WeChat IME covers it; two IMEs fight each other for input focus |
 | HP Printer software | Printer dead + HP software is notoriously bloated with background daemons |
 | KindlePreviewer | Developer tool for Kindle format testing — zero use if you're not publishing eBooks |

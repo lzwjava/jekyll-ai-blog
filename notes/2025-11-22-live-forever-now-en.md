@@ -45,7 +45,7 @@ Thiel, however, takes **the opposite tack**, suggesting you should **"live every
 | **Focus** | Presence and immediate action. | The future, planning, and long-term consequences. |
 | **Relationships** | High-intensity, potentially fleeting connection. | Investment, trust, and sustained accountability. |
 | **Projects** | Quick wins, essential bucket-list items. | Ambitious, multi-year endeavors. |
-| **Underlying Belief**| Life is short and finite. | Life is a continuous, *fightable* journey. |
+| **Underlying Belief** | Life is short and finite. | Life is a continuous, *fightable* journey. |
 
 Thiel's advice is a call for **intentional longevity and strategic building**. It asks you to adopt the mindset of an architect building a monument, not a traveler enjoying a one-day stop.
 

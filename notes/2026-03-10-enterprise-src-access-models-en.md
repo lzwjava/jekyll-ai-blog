@@ -52,7 +52,7 @@ This is a deliberate product strategy: features that appeal most to management o
 ## Real-World Examples of How Each Company Handles This
 
 | Company | Enterprise Code Access | License Model |
-|---|---|---|
+| --- | --- | --- |
 | **Elastic** | Source-available to customers | Elastic License 2.0 (ELv2) — can read, cannot redistribute or offer as SaaS |
 | **GitLab EE** | Source code visible on GitLab.com | Proprietary — can inspect but not use without a license |
 | **HashiCorp (Vault/Terraform EE)** | Source-available | BSL (Business Source License) — reverts to open after 4 years |

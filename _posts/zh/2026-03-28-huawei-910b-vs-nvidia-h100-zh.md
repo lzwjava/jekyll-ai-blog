@@ -18,7 +18,7 @@ type: note
 首先，让我们澄清一下你提到的数字：
 
 | Chip | FP16 TFLOPS | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Huawei Ascend 910B** | ~320–600 TFLOPS | Huawei 未发布官方 Spec；估计值差异很大 |
 | **NVIDIA H100** | ~989 TFLOPS (SXM5) | NVIDIA 官方 Spec |
 | **RTX 4070** | ~58.2 TFLOPS | 你的服务器 GPU |
@@ -46,7 +46,7 @@ type: note
 使用 **Raw FP16 TFLOPS**（理论峰值）计算：
 
 | Target | TFLOPS needed | RTX 4070 FP16 | Cards needed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Match H100 (~989 TFLOPS FP16) | 989 | 58.2 | **~17 张卡** |
 | Match 910B (~320 TFLOPS) | 320 | 58.2 | **~6 张卡** |
 | Match 910B (~600 TFLOPS) | 600 | 58.2 | **~11 张卡** |
@@ -67,7 +67,7 @@ type: note
 ## 总结
 
 | Metric | 910B vs H100 | 4070 vs H100 |
-|---|---|---|
+| --- | --- | --- |
 | Raw FP16 | 约为 H100 的 33–60% | 约为 H100 的 6% |
 | Real-world LLM training | 约为 H100 的 33–66% | 不具可比性 (受 VRAM 限制) |
 | Cards to match H100 (paper) | ~2–3 块 910B | ~17 块 RTX 4070 |

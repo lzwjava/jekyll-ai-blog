@@ -17,7 +17,7 @@ As a contractor in China, you're smart to think about "tiao xiu" (holiday adjust
 China's 2025 public holidays (announced officially) offer great opportunities. Here's a quick table of the main ones, with durations and potential combos using your 5 leave days. (Note: Days of the week are based on the 2025 calendar; adjust for future years as they shift.)
 
 | Holiday | Dates | Duration | Day Structure | Suggested Leave Combo (using 2-3 days) | Total Time Off |
-|---------|-------|----------|---------------|----------------------------------------|----------------|
+| --------- | ------- | ---------- | --------------- | ---------------------------------------- | ---------------- |
 | New Year's Day | Jan 1 | 1 day | Wednesday | Add Thu-Fri Jan 2-3 + Mon Jan 6 (3 days) for a Wed-Mon break | 6 days (skip if too soon) |
 | Spring Festival | Jan 28-Feb 4 | 8 days | Tue-Tue (includes weekends) | No leave needed—use it as-is for a big trip, save your 5 days | 8 days |
 | Qingming Festival | Apr 4-6 | 3 days | Fri-Sun | Add Mon-Tue Apr 7-8 (2 days) to extend to Fri-Tue | 5 days |

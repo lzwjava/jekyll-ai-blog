@@ -52,7 +52,7 @@ The **Associate (NCA)** exam tests foundational, high-level concepts — what an
 ### 🔵 Associate Level (NCA) — $125 USD each
 
 | Exam Code | Name | Duration | What It Tests |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **NCA-GENL** | Generative AI with LLMs | 60 min / 50 Qs | Foundational concepts for developing, integrating, and maintaining AI-driven applications using generative AI and LLMs with NVIDIA solutions |
 | **NCA-GENM** | Generative AI Multimodal | 60 min / 50 Qs | Foundational skills to design, implement, and manage AI systems that synthesize and interpret data across text, image, and audio modalities |
 | **NCA-AIIO** | AI Infrastructure & Operations | 60 min / 50 Qs | Foundational concepts of AI computing related to infrastructure and operations; requires basic understanding of data center infrastructure |
@@ -61,7 +61,7 @@ The **Associate (NCA)** exam tests foundational, high-level concepts — what an
 ### 🟠 Professional Level (NCP) — $200–$400 USD
 
 | Exam Code | Name | Cost | What It Tests |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **NCP-GENL** | Generative AI LLMs Professional | $200 | Distributed training strategies (tensor parallelism vs. pipeline parallelism), PEFT, complex RAG deployments, Triton/TensorRT-LLM inference |
 | **NCP-AAI** | Agentic AI Professional | $200 | Multi-agent systems, planning & reasoning, RAG design for production agentic apps |
 | **NCP-ADS** | Accelerated Data Science | $200 | Deep proficiency in the RAPIDS ecosystem — cuDF, cuML, cuGraph — scaling workflows across multiple GPUs using Dask, integrating accelerated analytics into MLOps pipelines |
@@ -102,7 +102,7 @@ When you pass, you receive a **digital badge via Credly** that you can add to yo
 ## Who Should Get Which Cert?
 
 | Your Background | Recommended Path |
-|---|---|
+| --- | --- |
 | AI developer / software engineer | NCA-GENL → NCP-GENL or NCP-AAI |
 | Data scientist / ML engineer | NCA-ADS → NCP-ADS |
 | IT / sysadmin / infrastructure | NCA-AIIO → NCP-AII |

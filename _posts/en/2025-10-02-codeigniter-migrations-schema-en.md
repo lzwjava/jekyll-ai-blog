@@ -25,7 +25,7 @@ The config file you shared (`migration.php`) controls how migrations behave. It 
 ### Key Configuration Settings
 
 | Setting | Value in Your Code | Explanation | How It Works |
-|---------|---------------------|-------------|-------------|
+| --------- | --------------------- | ------------- | ------------- |
 | `migration_enabled` | `FALSE` | Enables or disables migrations globally. When `FALSE`, you can't run migrations (for security, as they modify the DB). | CI checks this before executing any migration command. Set to `TRUE` during development, then back to `FALSE` in production. Example: If enabled, run via `$this->migration->current()` in a controller. |
 | `migration_type` | `'timestamp'` | File naming style: `'sequential'` (e.g., `001_add_blog.php`) or `'timestamp'` (e.g., `20121031104401_add_blog.php`). Timestamp is recommended for better version control. | Files are loaded in chronological order. Timestamp uses `YYYYMMDDHHIISS` format (e.g., `20121031104401` for Oct 31, 2012, 10:44:01). |
 | `migration_table` | `'migrations'` | Name of the DB table that tracks applied migrations. Required. | CI creates this table if it doesn't exist. It stores the latest migration version. Deletes or updates this table reset migration history. |

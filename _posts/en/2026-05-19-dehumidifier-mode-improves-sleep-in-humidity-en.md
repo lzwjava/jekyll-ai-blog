@@ -64,7 +64,7 @@ Also, overuse of dry mode can lead to very dry air, causing dry eyes or skin. Us
 ## Summary
 
 | Factor | Cooling Mode | Dry Mode |
-|---|---|---|
+| --- | --- | --- |
 | Primary action | Lowers temperature | Removes moisture |
 | Feel | Cold but possibly still clammy | Dry and comfortably cool |
 | Energy use | Higher | Lower |

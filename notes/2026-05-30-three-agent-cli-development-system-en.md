@@ -38,7 +38,7 @@ The key insight here is **file-system-level separation** — each agent owns dis
 ## File Ownership (No Conflicts)
 
 | Agent | Reads | Writes | Never touches |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **CodingAgent** | `ww/**/*.py`, `pyproject.toml` | `ww/**/*.py`, new modules | `tests/`, `docs/`, `README.md` |
 | **TestingAgent** | `ww/**/*.py` (read-only), `tests/` | `tests/**/*.py`, `pytest.ini` | `ww/` source, `docs/` |
 | **DocAgent** | `ww/**/*.py` (read-only), `README.md` | `README.md`, `docs/**/*.md` | `ww/` source, `tests/` |

@@ -150,7 +150,7 @@ Tailscale wraps WireGuard with smart coordination. WireGuard itself does the cry
 ## What Tailscale Adds On Top
 
 | Feature | How |
-|---------|-----|
+| --------- | ----- |
 | **Magic DNS** | Control servers respond to DNS queries, return Tailscale IPs |
 | **ACLs** | Control servers enforce access policy (who can reach whom) |
 | **Exit nodes** | One machine can be configured to route all traffic through another |
@@ -236,7 +236,7 @@ Cross-internet (Mac at coffee shop → Workstation at home):
 ## Threat Model for Your Setup
 
 | Threat | Exploitable? | Mitigation |
-|--------|--------------|-----------|
+| -------- | -------------- | ----------- |
 | ISP sees you SSH'd to workstation | **No** — WireGuard is encrypted | N/A |
 | Tailscale Inc. sees your commands | **No** — control plane is separate | N/A |
 | Compromised workstation | **Yes** — attacker has access | Patch Ubuntu, firewall non-Tailscale ports |

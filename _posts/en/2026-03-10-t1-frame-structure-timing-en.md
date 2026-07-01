@@ -30,7 +30,7 @@ T1 is a North American digital transmission standard that multiplexes **24 voice
 ### 2. Frame Calculation
 
 | Parameter | Value | Explanation |
-|---|---|---|
+| --- | --- | --- |
 | Number of voice channels | 24 | T1 standard supports 24 DS0 channels |
 | Bits per channel per frame | 8 bits | Each voice sample = 8-bit PCM encoding |
 | Data bits total | 24 × 8 = **192 bits** | All 24 channels combined |
@@ -57,7 +57,7 @@ $$\text{Frame period} = \frac{1}{8000} = 0.000125 \text{ seconds} = \mathbf{125\
 ### 4. Why Option B is Wrong
 
 | Option | Bits | Time | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A | 193 bits | 125 μs | ✅ Correct |
 | B | 193 bits | 250 μs | ❌ Wrong – frame period should be 125 μs, not 250 μs |
 | C | 256 bits | 125 μs | ❌ Wrong – 256 bits is E1 standard, not T1 |
@@ -70,7 +70,7 @@ $$\text{Frame period} = \frac{1}{8000} = 0.000125 \text{ seconds} = \mathbf{125\
 ### 5. T1 vs E1 Comparison (Common Exam Trap)
 
 | Feature | T1 (North America) | E1 (Europe) |
-|---|---|---|
+| --- | --- | --- |
 | Channels | 24 | 32 (30 voice + 2 control) |
 | Bits per frame | **193** | **256** |
 | Frame period | **125 μs** | **125 μs** |

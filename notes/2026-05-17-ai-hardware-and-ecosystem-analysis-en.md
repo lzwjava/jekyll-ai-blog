@@ -35,7 +35,7 @@ The group was researching these two machines a couple months ago when the cost g
 ### 2. Hardware Specs Compared
 
 | Feature | NVIDIA DGX Spark | AMD Ryzen AI Max+ 395 Mini PC |
-|---|---|---|
+| --- | --- | --- |
 | Chip | GB10 Grace Blackwell | Ryzen AI Max+ 395 (Strix Halo) |
 | Memory | 128GB LPDDR5X unified | 128GB LPDDR5X unified |
 | AI Compute | 1 petaFLOP (FP4) | 126 AI TOPS (NPU+GPU) |

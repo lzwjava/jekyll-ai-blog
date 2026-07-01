@@ -104,7 +104,7 @@ Zhiwei is a crypto and US stock investor since 2018, using long-term and regular
 ## 🗓️ 12-Month Timeline Summary
 
 | Period | Focus |
-|---|---|
+| --- | --- |
 | Month 1–2 | Polish resume/LinkedIn, sit for 2–3 associate degree exams, apply to 15 AI roles |
 | Month 3–4 | Sit for more exams, build flagship GitHub project, apply to HK/SG roles |
 | Month 5–6 | Take IELTS retake, launch polished AI project publicly, write deep blog posts |

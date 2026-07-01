@@ -20,7 +20,7 @@ HSBC uses an internal grading system (GCB — Global Career Band), so "Principal
 ### HSBC London — Principal Engineer Compensation
 
 | Component | Low | Median | High |
-|-----------|-----|--------|------|
+| ----------- | ----- | -------- | ------ |
 | Base salary | ~£90K | ~£120–130K | ~£160K |
 | Bonus (cash) | £10–15K | ~£20–30K | £40K+ |
 | **Total comp** | ~£100K | **~£140–150K** | £190K+ |
@@ -36,7 +36,7 @@ Key data points:
 ### HSBC GCB Level Mapping (Approximate)
 
 | GCB Level | Title |
-|-----------|-------|
+| ----------- | ------- |
 | GCB6 | Junior/Graduate Engineer |
 | GCB5 | Software Engineer |
 | GCB4 | Senior Engineer |

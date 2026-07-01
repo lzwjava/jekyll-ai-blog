@@ -46,7 +46,7 @@ E-commerce is one of the most appropriate application domains for data mining te
 Concrete commercial applications include:
 
 | Application | Description |
-|---|---|
+| --- | --- |
 | **Customer segmentation** | Group customers by behavior to offer personalized marketing |
 | **Purchase recommendation** | Discover which products are frequently bought together (association rules) |
 | **Churn prediction** | Identify customers likely to leave and intervene proactively |

@@ -108,7 +108,7 @@ The **dimension** of a vector space \\( V \\), denoted \\( \dim(V) \\), is the n
 ### **Summary of Key Points**
 
 | Concept | Definition |
-|---------|-----------|
+| --------- | ----------- |
 | **Vector Space** | A set of vectors closed under addition and scalar multiplication. |
 | **Subspace** | A subset of a vector space that is itself a vector space. |
 | **Linear Independence** | A set of vectors is independent if no vector can be written as a linear combination of the others. |

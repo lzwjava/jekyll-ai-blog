@@ -74,7 +74,7 @@ cd apps/android
 应用更改有三个级别：
 
 | 更改类型 | 方法 |
-|---|---|
+| --- | --- |
 | Compose UI 修改 | **Live Edit** (即时，无需重新安装) |
 | 非结构化代码/资源 | **Apply Changes** |
 | 结构化/native/manifest/Gradle | 通过 `pnpm android:run` 完整重新安装 |

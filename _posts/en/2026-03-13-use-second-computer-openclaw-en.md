@@ -46,7 +46,7 @@ Installing on a dedicated second machine also means it can stay running 24/7 wit
 ### ✅ Summary
 
 | Factor | Main Computer ❌ | Second Computer ✅ |
-|---|---|---|
+| --- | --- | --- |
 | Security | High risk — full system access | Isolated, safer |
 | Performance | Competes with your daily work | Dedicated resources |
 | Always-on | Inconvenient | Ideal |

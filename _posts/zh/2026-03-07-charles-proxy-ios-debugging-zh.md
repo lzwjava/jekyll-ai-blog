@@ -125,7 +125,7 @@ Charles 会捕获 WebSocket 消息以及标准 HTTP 流量。这对于调试实�
 ## Common Issues & Tips
 
 | Issue | Solution |
-|---|---|
+| --- | --- |
 | HTTPS 流量显示为加密 | 安装并信任 Charles SSL 证书 |
 | 移动设备无法连接 | 确保两者在同一 Wi-Fi 上，并手动设置代理 |
 | Charles 激活时应用崩溃 | 应用可能使用证书固定；需要代码级绕过 |

@@ -35,7 +35,7 @@ Answer:
 你技术栈中的每个工具都赋予了你深度的控制权：
 
 | Tool | 你控制的内容 |
-|---|---|
+| --- | --- |
 | **Gitea** | 你自己的 Git forge —— 自定义 webhooks、CI/CD、用户策略 |
 | **Jellyfin** | 你的媒体服务器 —— 无 DRM、无追踪、自定义 plugins |
 | **LibreChat** | 你的 AI chat UI —— 切换 models、添加自定义 endpoints、你自己的品牌形象 |

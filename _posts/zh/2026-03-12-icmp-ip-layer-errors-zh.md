@@ -46,7 +46,7 @@ ICMP 消息分为两大类：**Error Reporting Messages**（用于通知问题�
 ### 为什么其他选项是错误的
 
 | 选项 | 协议 | 用途 |
-|--------|----------|---------|
+| -------- | ---------- | --------- |
 | A — ARP | Address Resolution Protocol | 将 IP 地址解析为 MAC（硬件）地址 — **不** 用于错误报告 |
 | C — RARP | Reverse ARP | 将 MAC 地址解析回 IP 地址 — **不** 用于错误报告 |
 | D — IP | Internet Protocol | 负责数据包路由和投递，但 **没有内置错误报告** — 这正是创建 ICMP 的原因 |

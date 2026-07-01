@@ -72,7 +72,7 @@ The AI knows what to target, and the prompt stays clean and actionable.
 ## When You Still Need HTML
 
 | Situation | Use Selector | Use HTML |
-|---|---|---|
+| --- | --- | --- |
 | Styling/layout bug | ✅ | ❌ |
 | Event/click issue | ✅ | ❌ |
 | Component restructure | ⚠️ partial | ✅ |

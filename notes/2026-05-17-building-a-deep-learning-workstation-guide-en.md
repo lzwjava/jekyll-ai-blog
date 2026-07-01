@@ -140,7 +140,7 @@ You can dual-boot Windows 11 alongside it, or use Windows + WSL2 if you prefer s
 ## Full Build Summary & Cost Estimate (May 2026)
 
 | Component | Choice | Est. Price (USD) |
-|---|---|---|
+| --- | --- | --- |
 | **GPU** | XFX MERCURY RX 7900 XTX 24GB | $850–$950 |
 | **CPU** | AMD Ryzen 9 9900X (12C/24T, Zen 5) | $400–$450 |
 | **Motherboard** | MSI MAG X670E Tomahawk WiFi | $250–$280 |

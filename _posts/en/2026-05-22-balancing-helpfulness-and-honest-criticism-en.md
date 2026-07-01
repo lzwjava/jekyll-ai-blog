@@ -43,7 +43,7 @@ Kids don't grow in perfect environments OR in brutal ones. They grow when there'
 Think of it as **three modes** depending on the person:
 
 | Mode | When | How |
-|------|------|-----|
+| ------ | ------ | ----- |
 | **Pull** | They're curious, open | "Want me to show you how I use Claude Code? Saved me 2hrs yesterday" |
 | **Push** | They're stuck or complacent | "Honestly, the gap between your current workflow and what's possible is costing you. Here's the specific thing." |
 | **Walk away** | They've heard it, won't move | Stop spending energy. Not everyone wants to grow. |

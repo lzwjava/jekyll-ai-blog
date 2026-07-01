@@ -93,7 +93,7 @@ That gap is where learning lives. AI accelerates closing it because you can expl
 You train GPT-2 on H100/H200. That's your real workload. Concrete things to optimize right now:
 
 | Target | Tool | What you'll learn |
-|---|---|---|
+| --- | --- | --- |
 | Attention FLOP efficiency | `nsys` / `rocprof` | Memory bandwidth vs compute bound |
 | DataLoader bottleneck | `py-spy` | CPU/GPU pipeline overlap |
 | All-reduce in DDP | NCCL logs | Communication hiding |

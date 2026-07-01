@@ -98,7 +98,7 @@ git cat-file -t <hash>   # Should return "commit" if real
 ## Summary Table
 
 | Property | Natural Language | Git Commit Hash |
-|---|---|---|
+| --- | --- | --- |
 | Appears in training data | Massively | Never (private repo) |
 | Has semantic meaning | Yes | No |
 | Tokenizes cleanly | Yes | No — chunked arbitrarily |

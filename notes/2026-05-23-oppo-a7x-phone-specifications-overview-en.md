@@ -16,7 +16,7 @@ type: note
 It's the **OPPO A7x (PBBM00)** — a China-market mid-range Android phone from 2018. Here's the quick spec rundown:
 
 | Spec | Detail |
-|------|--------|
+| ------ | -------- |
 | **Model** | OPPO A7x, codename BBK A7x |
 | **Model number** | PBBM00 (CN variant, Dual SIM TD-LTE) |
 | **Released** | September 2018 |

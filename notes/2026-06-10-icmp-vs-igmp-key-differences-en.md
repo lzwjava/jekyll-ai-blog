@@ -31,7 +31,7 @@ Versions: IGMPv2 (join/leave), IGMPv3 (source-specific multicast — "I want gro
 Quick comparison:
 
 | | ICMP | IGMP |
-|---|---|---|
+| --- | --- | --- |
 | IP proto # | 1 | 2 |
 | Purpose | error reporting, diagnostics | multicast group membership |
 | Scope | end-to-end (any hop can generate) | link-local only (TTL=1) |

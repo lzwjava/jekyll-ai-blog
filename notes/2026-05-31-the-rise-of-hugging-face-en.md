@@ -73,7 +73,7 @@ Investors in the Series D include Salesforce Ventures (lead), Google, Nvidia, Am
 ## Timeline Summary
 
 | Year | Event |
-|------|-------|
+| ------ | ------- |
 | 2016 | Founded in NYC (French founders), consumer chatbot for teens, Betaworks seed $200k |
 | 2018 | BERT released → HF ships PyTorch port in 1 week → pivot decision |
 | 2019 | Transformers library launched, Series A $15M (Lux Capital, Greg Brockman angel) |

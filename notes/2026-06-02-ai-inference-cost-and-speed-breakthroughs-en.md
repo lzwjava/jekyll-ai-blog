@@ -75,7 +75,7 @@ RL training is another hard case for static speculators: the policy distribution
 ### What Tri Dao Believes (distilled thesis)
 
 | Claim | Evidence |
-|---|---|
+| --- | --- |
 | Inference is now the dominant workload | Eclipsed training in share of total compute |
 | Inference is memory-bound, not compute-bound | FlashAttention was the proof case |
 | Software closes the gap with custom silicon | 500 tok/s on DeepSeek-V3.1 on B200, matching Groq |

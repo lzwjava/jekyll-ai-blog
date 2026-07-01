@@ -45,7 +45,7 @@ python train.py config/train_fineweb.py
 ### Why This Makes Sense
 
 | Task | VPS | GPU Droplet |
-|------|-----|-------------|
+| ------ | ----- | ------------- |
 | **Prepare data** | ❌ Too weak | ✅ Powerful CPU + big disk |
 | **Train model** | ❌ No GPU | ✅ Has GPU |
 | **Host code** | ✅ Fine | ✅ Fine |

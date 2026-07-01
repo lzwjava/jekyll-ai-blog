@@ -26,7 +26,7 @@ Your training setup (GPT-2 124M, BF16, effective batch 512, FineWeb, 12k iterati
 The RTX 4070 has **12 GB GDDR6X VRAM**. GPT-2 124M in BF16 needs roughly:
 
 | Component | Approx. VRAM |
-|---|---|
+| --- | --- |
 | Model weights (124M × 2 bytes) | ~0.25 GB |
 | Gradients (same size) | ~0.25 GB |
 | Adam optimizer states (×2) | ~0.5 GB |
@@ -63,7 +63,7 @@ The RTX 4070's Ada Lovelace architecture introduces fourth-generation Tensor Cor
 ### 📊 Comparison vs. Your Multi-GPU Setup
 
 | Factor | Your Run | Single RTX 4070 |
-|---|---|---|
+| --- | --- | --- |
 | Hardware | Multi-GPU (NCCL) | 1× RTX 4070 (12 GB) |
 | Dtype | BF16 ✅ | BF16 ✅ |
 | Training time | ~5 days | ~4–20 hrs (optimized) |

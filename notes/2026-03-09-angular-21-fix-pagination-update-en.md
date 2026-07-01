@@ -146,7 +146,7 @@ Components can use the Default strategy as long as they notify Angular when chan
 ## Summary Table
 
 | Approach | Angular 21 Friendly | Effort |
-|---|---|---|
+| --- | --- | --- |
 | Signals (`signal()`, `input()`) | ✅ Best | Low–Medium |
 | Observable + `async` pipe | ✅ Good | Low |
 | `markForCheck()` manually | ⚠️ Works but legacy | Low |

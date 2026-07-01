@@ -36,7 +36,7 @@ You touched on something important: the *scarcity* of authentic human connection
 Your 3-point framework is solid. Here's an expanded version:
 
 | Skill | Why It Matters |
-|---|---|
+| --- | --- |
 | Multi-agent orchestration (8+ agents) | Throughput multiplication — the "leverage" layer |
 | Architecture-level review | Agents produce plausible-but-wrong outputs without oversight |
 | Cross-functional communication | Business alignment, requirement clarity — still human work |

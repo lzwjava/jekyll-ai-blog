@@ -33,7 +33,7 @@ Japan's edge comes from a culture of kaizen (continuous improvement), collaborat
 Japan's tech landscape blends giants in hardware/electronics with rising AI and software players. Here's a selection of top companies (based on market cap, innovation, and global impact as of 2025), focusing on tech-centric ones:
 
 | Company | Headquarters | Key Focus Areas | Notable Facts |
-|---------|--------------|-----------------|---------------|
+| --------- | -------------- | ----------------- | --------------- |
 | **Sony Group** | Tokyo | Consumer electronics, gaming (PlayStation), semiconductors, entertainment tech | ~$100B market cap; leader in image sensors for cameras/smartphones. |
 | **Toyota Motor** | Toyota City | Automotive tech, robotics, AI, hydrogen vehicles | World's top automaker; invented the Prius hybrid; invests $10B+ in batteries/AI. |
 | **SoftBank Group** | Tokyo | AI, robotics, venture capital, telecom | Backer of global unicorns; owns Arm Holdings (chip design); massive AI push via Vision Fund. |

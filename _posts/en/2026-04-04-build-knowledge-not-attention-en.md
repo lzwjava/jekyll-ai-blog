@@ -65,7 +65,7 @@ Wang doesn't optimize for virality. He writes long, dense, opinionated articles 
 The key distinction is:
 
 | Attention/Money First | Knowledge/Value First |
-|---|---|
+| --- | --- |
 | What can I say to go viral? | What do I genuinely understand deeply? |
 | Optimize for clicks | Optimize for truth and usefulness |
 | Short-term spikes | Long-term compounding reputation |

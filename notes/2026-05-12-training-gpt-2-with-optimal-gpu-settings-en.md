@@ -28,7 +28,7 @@ The tokenized shards (your `.npy` files) are just one giant flat array of token 
 Attention computation is **O(n²)** in sequence length. Halving `block_size`:
 
 | Effect | Detail |
-|---|---|
+| --- | --- |
 | ~2–3× faster per microbatch | Quadratic attention + linear FF savings |
 | VRAM drops from ~6.6GB → ~4.5GB | ~2GB freed |
 | Can raise `batch_size` to 8 or even 16 | Use that freed VRAM |
@@ -130,7 +130,7 @@ Wait — that's the same time. The honest truth is:
 > **On a single 4070, you cannot get faster AND smarter simultaneously. You must pick one.**
 
 | Strategy | Time | Quality |
-|---|---|---|
+| --- | --- | --- |
 | `block_size=512, bs=8` | ~25–30h | ⚠️ Weaker long-range coherence |
 | `block_size=1024, bs=4, iters=10k` | ~30h | ✅ Good coherence, half tokens seen |
 | `block_size=1024, bs=4, iters=19073` | ~59h | ✅✅ Best quality |

@@ -85,7 +85,7 @@ This is the same reason the *Indian* network advantage doesn't extend as strongl
 ## The Pattern Across All of Them
 
 | Behavior | What It Signals |
-|---|---|
+| --- | --- |
 | Open-source everything immediately | Fame > moat in research culture |
 | Teach publicly (courses, YouTube, Bilibili) | Influence compounds via students |
 | Build minimal didactic implementations | Karpathy ethos: clarity over cleverness |

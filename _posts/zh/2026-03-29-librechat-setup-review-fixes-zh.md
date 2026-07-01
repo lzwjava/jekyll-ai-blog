@@ -23,7 +23,7 @@ type: note
 ## ⚠️ 需处理的警告
 
 | 严重程度 | 问题 | 影响 |
-|----------|-------|--------|
+| ---------- | ------- | -------- |
 | 🔴 Security | `CREDS_IV`, `JWT_SECRET`, `JWT_REFRESH_SECRET` 使用了默认值 | 任何人都可以伪造 tokens — 请生成真实的 secrets |
 | 🟡 Config | LibreChat 配置版本 **1.2.1** 已过时 (最新为: **1.3.6**) | 缺少较新的 features 和 fixes |
 | 🟡 Search | **缺少 Meilisearch** | 聊天搜索/索引功能将无法使用 |

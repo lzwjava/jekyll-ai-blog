@@ -73,7 +73,7 @@ type: note
 ### 汇总表格
 
 | 平台 | 适用地区 | 需中国账户？ | Seedance 版本 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Dreamina** (dreamina.capcut.com) | 国际 | ❌ 否 | 2.0（有限） / 1.5 |
 | **CapCut Pro** | 选定市场 | ❌ 否 | 2.0 |
 | **BytePlus Playground** | 国际 | ❌ 否 | 仅 1.5 Pro |

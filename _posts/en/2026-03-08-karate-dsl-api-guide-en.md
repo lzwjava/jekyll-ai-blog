@@ -141,7 +141,7 @@ To add Karate to a Maven project, add the following to `pom.xml`:
 ## Summary Table
 
 | Feature | Karate DSL |
-|---|---|
+| --- | --- |
 | Language | Gherkin-style DSL (no Java needed) |
 | API Testing | ✅ Built-in HTTP client |
 | Mocking | ✅ Built-in API mocks |

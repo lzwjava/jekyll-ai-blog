@@ -84,7 +84,7 @@ Healthy engineering teams adopt the **"Disagree and Commit"** principle (popular
 ## Summary
 
 | Situation | Risk Level |
-|---|---|
+| --- | --- |
 | Senior engineer feels heard, but overruled | Low — likely to commit |
 | Senior engineer feels ignored or disrespected | High — passive retaliation likely |
 | No clear decision authority / process | Very High — chaos and fallback |

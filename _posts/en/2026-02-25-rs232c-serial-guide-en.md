@@ -44,7 +44,7 @@ Although RS-232C is specific to communication between a DTE and DCE, the interfa
 RS-232C uses **negative logic** (inverted voltage scheme), which is opposite to standard TTL logic:
 
 | State | Meaning | Driver Voltage | Receiver Threshold |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **MARK / Logic 1** | Binary "1" | **-5V to -15V** | -3V to -25V |
 | **SPACE / Logic 0** | Binary "0" | **+5V to +15V** | +3V to +25V |
 | **Undefined** | Invalid zone | -3V to +3V | — |
@@ -62,7 +62,7 @@ RS-232C ("Recommended Standard 232C") was a widely used version featuring 25-pin
 Key pins of the **DB-9 connector**:
 
 | Pin | Signal | Direction | Function |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | DCD | In | Data Carrier Detect |
 | 2 | RXD | In | Receive Data |
 | 3 | TXD | Out | Transmit Data |
@@ -121,7 +121,7 @@ RS-232C supports two types of flow control:
 ## 11. RS-232C vs. Modern Standards
 
 | Feature | RS-232C | RS-422 | RS-485 | USB |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Topology | Point-to-point | Point-to-point | Multi-point | Bus |
 | Max Distance | ~15 m | ~1200 m | ~1200 m | 3–5 m |
 | Max Speed | 20 kbps | 10 Mbps | 10 Mbps | 480 Mbps+ |

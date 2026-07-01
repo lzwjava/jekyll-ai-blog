@@ -51,7 +51,7 @@ This refers to **operational commands and configuration parameters** used to act
 ### Why the Other Options Are Wrong
 
 | Option | Why It's Wrong |
-|--------|---------------|
+| -------- | --------------- |
 | **A** (structural, link, fault data) | "Link data" and "fault data" are not standard MIB data categories |
 | **B** (management, billing, control data) | "Billing data" is associated with OSS/BSS systems, not the MIB classification |
 | **D** (management, dynamic, static data) | "Management data" is too broad and not part of the standard three-category MIB classification |

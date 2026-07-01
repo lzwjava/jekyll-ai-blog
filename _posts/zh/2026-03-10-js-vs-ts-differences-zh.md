@@ -28,7 +28,7 @@ type: note
 ### 2. 主要区别一览
 
 | 特性 | JavaScript | TypeScript |
-|---|---|---|
+| --- | --- | --- |
 | **Typing** | Dynamic (runtime) | Static (compile-time) |
 | **Error Detection** | At runtime | At compile time |
 | **OOP Style** | Prototype-based | Class-based / OOP |

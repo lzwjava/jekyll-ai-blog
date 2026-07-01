@@ -42,7 +42,7 @@ This is out of reach right now — not because you lack the hands-on skill (you 
 ## Bottom line — three numbers
 
 | Track | Realistic now | 12-18mo target if you push |
-|---|---|---|
+| --- | --- | --- |
 | Contractor (current lane) | ¥28K–35K/mo | ¥35K–40K/mo (renegotiate or switch agency) |
 | Direct-hire senior AI/backend engineer | ¥35K–45K/mo | ¥45K–55K/mo |
 | Frontier lab (DeepSeek/Alibaba-tier) | Not yet competitive | Possible with 1 original research artifact |

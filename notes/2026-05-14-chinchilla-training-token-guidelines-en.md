@@ -34,7 +34,7 @@ That is correct.
 ## Putting It in Context
 
 | Model | Params | Chinchilla-optimal tokens |
-|---|---|---|
+| --- | --- | --- |
 | GPT-2 small | 124M | ~2.5B tokens |
 | **Custom middle** | **200M** | **~4B tokens** |
 | GPT-2 medium | 350M | ~7B tokens |
@@ -70,7 +70,7 @@ Wait — that seems shockingly fast. The catch: **Chinchilla-optimal is compute-
 ## Summary
 
 | Question | Answer |
-|---|---|
+| --- | --- |
 | Is 4B tokens the Chinchilla-optimal amount? | **Yes, exactly** |
 | Is 4B tokens enough to get a good model? | **Barely — you'd want 10B+ for quality** |
 | Is 4B tokens feasible on a 4070? | **Yes, very manageable** |

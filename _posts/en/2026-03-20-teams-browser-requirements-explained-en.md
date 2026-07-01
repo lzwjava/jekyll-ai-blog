@@ -32,7 +32,7 @@ Teams on the web client is available on **Microsoft Edge**, **Chrome**, **Firefo
 However, for corporate Conditional Access policies specifically, the hierarchy is:
 
 | Browser | Desktop Support | iOS/Mobile | Passes "Approved App" Policy |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Microsoft Edge** | ✅ Full | ✅ (Intune-managed) | ✅ Yes |
 | **Google Chrome** | ✅ Full | ❌ No web Teams | ⚠️ Partial |
 | **Firefox** | ✅ Full | ❌ No | ⚠️ Partial |

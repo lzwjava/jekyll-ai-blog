@@ -30,7 +30,7 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ### ✅ What's Already Done on GPU Droplet
 
 | Item | Status | Notes |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | GPU | ✅ Working | NVIDIA H200, 143GB VRAM |
 | PyTorch + CUDA | ✅ Installed | torch 2.11.0, CUDA 13 |
 | nanoGPT code | ✅ Transferred | 157MB |
@@ -40,7 +40,7 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ### ⏳ What's Pending
 
 | Item | Status | Notes |
-|------|--------|-------|
+| ------ | -------- | ------- |
 | Full 61GB file transfer | 🔄 1.3% done | 823MB / 61GB, ~5 hours |
 | Full data preparation | ⏳ Waiting | Run `prepare_fineweb.py` after transfer |
 | Real training | ⏳ Waiting | Run with `train_fineweb.py` config |

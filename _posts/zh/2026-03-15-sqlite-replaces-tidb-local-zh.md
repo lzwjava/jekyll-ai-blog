@@ -38,7 +38,7 @@ SQLite 在桌面环境中表现出色；TiDB 是为云端和规模化构建的�
 因此，对于**本地单用户使用**，带 `sqlite-vec` 的 SQLite 可以完全复制 mem9 使用 TiDB 所做的一切：
 
 | 特性 | TiDB | SQLite (with extensions) |
-|---|---|---|
+| --- | --- | --- |
 | Vector search | ✅ 原生 | ✅ 通过 `sqlite-vec` |
 | Full-text search | ✅ 原生 | ✅ 通过 FTS5 |
 | Multi-agent isolation | ✅ 通过 `agent_id` | ✅ 通过 `agent_id` 列 |

@@ -27,7 +27,7 @@ Here's the full review, Boss:
 ## ✅ What's Done
 
 | Component | Status |
-|---|---|
+| --- | --- |
 | PHP 8.5 container | Working |
 | CI4 framework v4.7.2 | Installed, booting |
 | Nginx reverse proxy | Configured, serving |
@@ -79,7 +79,7 @@ Request → Home::index()
 ## 📁 Key Files
 
 | Path | Purpose |
-|---|---|
+| --- | --- |
 | `app/Controllers/` | 25 migrated CI4 controllers |
 | `app/Models/` | 32 models with CI4 patterns |
 | `app/Config/` | CI4 config (App, Database, Routes, etc.) |

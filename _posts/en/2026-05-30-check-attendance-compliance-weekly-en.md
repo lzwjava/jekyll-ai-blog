@@ -27,7 +27,7 @@ If you only check every 2 weeks, you might discover a weekly violation too late 
 ### Practical Check Schedule for May 2026
 
 | Week | Dates | Working Days | Min Punch Required | Check By |
-|------|-------|-------------|-------------------|----------|
+| ------ | ------- | ------------- | ------------------- | ---------- |
 | W1 | May 1 (Labor Day holiday) | ~1–2 (complicated) | ~1–2 | End of that week |
 | W2 | May 6–9 | 4 | 3 | Fri May 9 |
 | W3 | May 12–16 | 5 | 3 | Fri May 16 |

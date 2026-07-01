@@ -60,7 +60,7 @@ Because the built-in portal is considered bare-bones, several community projects
 ### Summary
 
 | Context | Experience |
-|---|---|
+| --- | --- |
 | Mobile (Telegram/WhatsApp/WeChat) | Excellent — native voice notes, familiar UI, zero friction |
 | macOS menu bar app | Decent — Voice Wake/PTT, but permission-heavy and developer-oriented |
 | Built-in browser WebChat (port area) | Functional but minimal; more of a control panel than a chat experience |

@@ -100,7 +100,7 @@ Supports GitHub Copilot as a model provider via native device-login flow to obta
 ## Quick Comparison Table
 
 | Tool | Interface | Copilot API | Provider-Agnostic | Self-Host |
-|------|-----------|-------------|-------------------|-----------|
+| ------ | ----------- | ------------- | ------------------- | ----------- |
 | **OpenCode** | Terminal TUI | ✅ Official | ✅ | Partial |
 | **Aider** | Terminal | Via proxy | ✅ | N/A |
 | **Cline** | VS Code | Via proxy | ✅ | N/A |

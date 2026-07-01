@@ -27,7 +27,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 - Output: `{question: title, answer: body}` conversation format
 
 | Stat | Value |
-|---|---|
+| --- | --- |
 | English posts | 10,726 |
 | Chinese posts | 10,708 |
 | Total examples | 21,434 |
@@ -61,7 +61,7 @@ Fine-tune an LLM on lzwjava's ~16k blog notes (en + zh) from `jekyll-ai-blog` to
 ### 2. Model Download Saga
 
 | Model | Size | Attempt | Result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `unsloth/Qwen3-8B` (4-bit) | 7.5GB | Direct + hf-mirror | Too slow (300-470KB/s), killed |
 | `Qwen/Qwen3.5-9B` (cached) | 18GB | Direct load | VL model, wrong type |
 | `Qwen/Qwen3-4B-FP8` (cached) | 4.9GB | Direct load | Hung with Unsloth, incompatible |

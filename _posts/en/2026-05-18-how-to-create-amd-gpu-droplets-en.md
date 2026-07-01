@@ -78,7 +78,7 @@ Always **Destroy** (not just power off) the droplet when you are done to stop ch
 ## Pricing Reference
 
 | Configuration | Price |
-|---|---|
+| --- | --- |
 | 1x AMD Instinct MI300X (192 GB VRAM) | $1.99/hour |
 | 8x AMD Instinct MI300X (1536 GB VRAM) | $15.92/hour |
 | Free credits (AMD AI Developer Program) | ~$100 (~50 hours) |

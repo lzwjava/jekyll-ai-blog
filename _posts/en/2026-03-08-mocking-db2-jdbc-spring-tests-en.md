@@ -20,7 +20,7 @@ There are several strategies to mock or replace an IBM DB2 JDBC database during 
 ## Strategy Overview
 
 | Approach | Best For | DB2 Dependency Needed? |
-|---|---|---|
+| --- | --- | --- |
 | Mockito (mock JDBC layer) | Pure unit tests | No |
 | Mock JdbcTemplate | Service/DAO unit tests | No |
 | H2 In-Memory DB | Integration tests | No |

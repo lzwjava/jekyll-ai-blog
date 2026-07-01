@@ -22,7 +22,7 @@ In OpenClaw, you define behavioral rules and safety conditions through **workspa
 OpenClaw uses a workspace directory (`agents.defaults.workspace`) and injects these user-editable files into the agent context on the first turn of every new session:
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `AGENTS.md` | Operating instructions, rules, memory workflows |
 | `SOUL.md` | Persona, boundaries, ethical constraints, tone |
 | `TOOLS.md` | Tool usage guidance and conventions |
@@ -127,7 +127,7 @@ Then just tell your agent in chat: *"Add a rule to never leak passwords or share
 ## Summary: Rule Placement Cheatsheet
 
 | Rule Type | File |
-|---|---|
+| --- | --- |
 | Don't leak passwords/secrets | `AGENTS.md` |
 | Don't share personal data | `AGENTS.md` |
 | Prompt injection defense | `AGENTS.md` |

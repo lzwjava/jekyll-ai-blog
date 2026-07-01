@@ -36,17 +36,17 @@ dd if=INPUT of=OUTPUT [options]
 **最重要且常用的选项**
 
 | 选项 | 含义 | 示例值 | 对启动 USB 非常有用？ |
-|---------------------|----------------------------------------------|--------------------------|-------------------------------|
-| `if=`               | input file / device                          | `/dev/sdb`, `ubuntu.iso` | 是 |
-| `of=`               | output file / device                         | `/dev/sdc`, `backup.img` | 是 |
-| `bs=`               | block size (一次性 read + write 的大小)       | `4M`, `1M`, `64K`        | 是 – 强烈推荐 |
-| `status=progress`   | 在拷贝时显示进度                              | `status=progress`        | 是 – 非常方便 |
-| `conv=notrunc`      | 不要阶段输出文件                              | —                        | 有时 |
-| `conv=fsync`        | 在退出前物理刷新数据到磁盘                     | —                        | 推荐用于 USB |
-| `conv=noerror,sync` | 遇到读取错误时继续，用零填充                   | —                        | 对损坏的介质有用 |
-| `count=`            | 仅拷贝指定数量的 blocks                       | `1000`                   | 很少 |
-| `skip=`             | 在 **input** 开始处跳过指定数量的 blocks       | `2048`                   | 有时 (高级用法) |
-| `seek=`             | 在 **output** 开始处跳过指定数量的 blocks      | `2048`                   | 很少 |
+| --------------------- | ---------------------------------------------- | -------------------------- | ------------------------------- |
+| `if=` | input file / device | `/dev/sdb`, `ubuntu.iso` | 是 |
+| `of=` | output file / device | `/dev/sdc`, `backup.img` | 是 |
+| `bs=` | block size (一次性 read + write 的大小) | `4M`, `1M`, `64K` | 是 – 强烈推荐 |
+| `status=progress` | 在拷贝时显示进度 | `status=progress` | 是 – 非常方便 |
+| `conv=notrunc` | 不要阶段输出文件 | — | 有时 |
+| `conv=fsync` | 在退出前物理刷新数据到磁盘 | — | 推荐用于 USB |
+| `conv=noerror,sync` | 遇到读取错误时继续，用零填充 | — | 对损坏的介质有用 |
+| `count=` | 仅拷贝指定数量的 blocks | `1000` | 很少 |
+| `skip=` | 在 **input** 开始处跳过指定数量的 blocks | `2048` | 有时 (高级用法) |
+| `seek=` | 在 **output** 开始处跳过指定数量的 blocks | `2048` | 很少 |
 
 ### 创建启动 USB 的推荐安全方法 (2024–2026 实践)
 
@@ -81,7 +81,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
 ### 快速参考 – 最常见的真实场景 `dd` 用法
 
 | 任务 | 命令 (2025 年最流行变体) |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | 从 ISO 创建启动 USB | `sudo dd if=windows11.iso of=/dev/sdX bs=4M status=progress conv=fsync` |
 | 创建 disk image | `sudo dd if=/dev/nvme0n1 of=full-disk-$(date +%F).img bs=128M status=progress` |
 | 将镜像还原至磁盘 | `sudo dd if=backup.img of=/dev/sdX bs=4M status=progress conv=fsync` |

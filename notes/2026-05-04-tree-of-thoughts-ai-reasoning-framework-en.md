@@ -108,7 +108,7 @@ This matches common ToT architecture:
 ## 4. How it compares to other methods
 
 | Method | Structure | Limitation |
-|------|--------|------------|
+| ------ | -------- | ------------ |
 | Standard prompting | none | shallow |
 | Chain-of-Thought | linear | no backtracking |
 | Tree-of-Thought | tree | more compute, but much stronger |

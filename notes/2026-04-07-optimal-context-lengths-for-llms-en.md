@@ -38,7 +38,7 @@ This is because:
 ### Practical Reality of 24,576
 
 | Aspect | Assessment |
-|---|---|
+| --- | --- |
 | Technically valid? | ✅ Yes, frameworks accept it |
 | Memory efficient? | ⚠️ Slightly wasteful vs 16K or 32K |
 | Better than 16,384? | Marginally, if you need more headroom |

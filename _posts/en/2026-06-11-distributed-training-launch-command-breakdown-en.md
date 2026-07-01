@@ -48,7 +48,7 @@ Merge stderr into stdout (torchrun and PyTorch log heavily to stderr), then `tee
 ## Layer 3 — Environment variables
 
 | Var | Purpose |
-|---|---|
+| --- | --- |
 | `NANOCHAT_BASE_DIR=~/.cache/nanochat` | nanochat's root for tokenizer, checkpoints, eval bundles |
 | `NANOCHAT_DATA_DIR=.../base_data_small` | Points pretraining at your small FineWeb shard subset instead of the full dataset |
 | `NANOCHAT_FORCE_SDPA=1` | Forces PyTorch `scaled_dot_product_attention` instead of FlashAttention — necessary on CPU, where FA kernels don't exist |

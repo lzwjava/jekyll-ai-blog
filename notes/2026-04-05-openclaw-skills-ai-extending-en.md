@@ -70,7 +70,7 @@ Skills can be installed from ClawHub or written from scratch. Cisco researchers 
 ### Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | **Format** | Markdown files (`SKILL.md`) + execution scripts |
 | **Registry** | ClawHub (13,000+ skills) |
 | **Purpose** | Extend agent capabilities modularly |

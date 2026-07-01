@@ -24,7 +24,7 @@ uname -m
 ```
 
 | 输出 | 架构 | 需下载的 Zip 文件 |
-|--------|------|----------------|
+| -------- | ------ | ---------------- |
 | `x86_64` | Intel/AMD Linux | `camoufox-146.0.1-alpha.25-lin.x86_64.zip` |
 | `aarch64` | ARM64 / Apple M / Pi | `camoufox-146.0.1-alpha.25-lin.arm64.zip` |
 | `arm64` | macOS Apple Silicon | `camoufox-146.0.1-alpha.50-mac.arm64.zip` |
@@ -48,7 +48,7 @@ unzip -o /path/to/camoufox-146.0.1-alpha.25-lin.x86_64.zip
 缓存目录的位置在 `camoufox-js` 中是硬编码的：
 
 | 操作系统 | 路径 |
-|----|------|
+| ---- | ------ |
 | Linux | `~/.cache/camoufox/` |
 | macOS | `~/Library/Caches/camoufox/` |
 | Windows | `%LOCALAPPDATA%\camoufox\camoufox\Cache\` |

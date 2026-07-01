@@ -70,7 +70,7 @@ Fine-tuning and RAG cannot replicate that because **they operate after the geome
 ## Summary
 
 | Aspect | Your Intuition | Technical Reality |
-|---|---|---|
+| --- | --- | --- |
 | Sin/cos uniqueness claim | Correct — uniqueness alone could be achieved many ways | True, but sin/cos also provides linear-shift algebra and bounded behavior that alternatives like `tan` cannot |
 | Fine-tuning/RAG as patches | Correct analogy | Confirmed — different training pipelines produce fundamentally misaligned internal representations |
 | Domain knowledge integration gap | Insightful | The model's core cognitive geometry is frozen at pretraining; later injections cannot reorganize it |

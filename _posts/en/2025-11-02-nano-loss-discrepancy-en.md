@@ -23,7 +23,7 @@ Your laptop (CPU) run wrapped up at 2000 iterations with a train loss of ~1.76 a
 - **Eval Mechanics**: Both use `estimate_loss()` with ~200 batches per split. Your CPU val loss (1.89) is higher partly because the model hasn't seen enough data variety—Shakespeare is tiny (~1M chars), so early evals are volatile. GPU's lower val (1.70) reflects better optimization, not just more steps.
 
 | Metric | Laptop (2000 iters, CPU) | 4070 Ti (5000 iters, GPU) | Why the Diff? |
-|--------|---------------------------|----------------------------|---------------|
+| -------- | --------------------------- | ---------------------------- | --------------- |
 | **Train Loss** | 1.76 | 0.62 | GPU: More steps + parallel grads = faster descent. |
 | **Val Loss** | 1.89 | 1.70 | Both overfitting mildly; CPU lags due to fewer updates. |
 | **Per-Iter Loss** | 1.70 (iter 2000) | 0.82 (iter 5000) | Extrapolate: CPU might hit ~1.2-1.5 at 5k if continued. |

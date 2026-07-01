@@ -92,7 +92,7 @@ pip3 show requests urllib3 chardet charset-normalizer
 ## 根本原因总结
 
 | 包 | 作用 |
-|---|---|
+| --- | --- |
 | `requests` | HTTP 库 — 依赖 urllib3 和字符集检测 |
 | `urllib3` | requests 使用的低级 HTTP 客户端 |
 | `chardet` / `charset-normalizer` | 字符编码检测（requests 使用其中之一） |

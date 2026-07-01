@@ -62,7 +62,7 @@ Tri Dao 识别出三种不同的推理优化目标：
 ## 简要堆栈
 
 | 层级 | 他的工作 |
-|---|---|
+| --- | --- |
 | 注意力内核 | FlashAttention 1/2/3/4 — SRAM 平铺、IO 感知、Hopper/Blackwell 异步 |
 | 架构 | Mamba/SSM 混合以消除二次 KV 缓存增长 |
 | MoE | 机会性专家激活以加快解码 |

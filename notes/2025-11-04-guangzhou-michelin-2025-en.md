@@ -19,7 +19,7 @@ Guangzhou's culinary scene shines with Cantonese mastery. Below, I've updated th
 Exceptional refinement; all retained from prior years.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |
-|----------------------|--------------|---------|----------|------------|
+| ---------------------- | -------------- | --------- | ---------- | ------------ |
 | Imperial Treasure Fine Chinese Cuisine | 御宝轩 (Yù Bǎo Xuān) | Cantonese | Tianhe District | Signature dim sum and seafood in opulent elegance. |
 | Jiang by Chef Fei | 江 (Jiāng) | Cantonese | Tianhe District (Mandarin Oriental) | Modern roasted goose and classics; seven-time honoree. |
 | Taian Table | 泰安门 (Tài Ān Mén) | European Contemporary | Yuexiu District (Garden Hotel) | Chef Richard Ng's French-local fusion tasting menus. |
@@ -29,7 +29,7 @@ Exceptional refinement; all retained from prior years.
 From 18 total (one new: Chōwa). Focused on visitor favorites.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |
-|----------------------|--------------|---------|----------|------------|
+| ---------------------- | -------------- | --------- | ---------- | ------------ |
 | Chōwa | Chōwa (朝和, Cháo Hé) | Innovative Cantonese | Tianhe District | 2025 newcomer; bold, personalized tastings. |
 | Hongtu Hall | 宏图府 (Hóng Tú Fǔ) | Dim Sum | Liwan District (White Swan Hotel) | Riverside dim sum excellence for traditionalists. |
 | Lei Garden (Yuexiu) | 利苑 (越秀店) (Lì Yuàn, Yuè Xiù Diàn) | Cantonese | Yuexiu District | Elevated chain; steamed fish and stir-fries shine. |
@@ -43,7 +43,7 @@ From 18 total (one new: Chōwa). Focused on visitor favorites.
 Value picks and trendy spots.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |
-|----------------------|--------------|---------|----------|------------|
+| ---------------------- | -------------- | --------- | ---------- | ------------ |
 | Da Ge Fan | 大鸽饭 (Dà Gē Fàn) | Cantonese | Various (e.g., Tangxiayong) | Affordable claypot rice with pigeon; Michelin Recommended. |
 | Chao Ji Claypot Rice (Liwan) | 超记煲仔饭 (荔湾) (Chāo Jì Bāo Zǎi Fàn, Lì Wān) | Cantonese | Liwan District | Crispy-bottomed pots; street-style comfort. |
 | Hope & Sesame | 庙前冰室 (Miào Qián Bīng Shì) | Cocktails/Cantonese Bites | Yuexiu District | Speakeasy vibes; creative drinks (World's 50 Best). |

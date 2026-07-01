@@ -272,7 +272,7 @@ $routes->post('wechat/oauth', 'WeChatController::oauth');
 ### 迁移清单
 
 | 任务 | 状态 |
-|---|---|
+| --- | --- |
 | `WeChatClient.php` 已重写 | ✅ 已完成 |
 | `JSSDK.php` 已重写 | 🔧 使用以上代码 |
 | `WeChatPlatform` 适配层 | 🔧 使用以上代码 |
@@ -286,7 +286,7 @@ $routes->post('wechat/oauth', 'WeChatController::oauth');
 ### CI3 → CI4关键映射总结
 
 | CI3 | CI4 |
-|---|---|
+| --- | --- |
 | `get_instance()` | 构造函数注入 |
 | `$this->load->library('X')` | `new X()` 或 `Services::X()` |
 | `$this->load->model('X')` | `new X()`（扩展Model） |

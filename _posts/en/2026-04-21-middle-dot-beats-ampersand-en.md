@@ -50,7 +50,7 @@ On a phone screen in a WeChat group list, names appear in small font. The `·` i
 ## Summary Table
 
 | Criterion | `AI & Life` | `AI · Life` |
-|---|---|---|
+| --- | --- | --- |
 | Visual weight | Heavier | Lighter |
 | Tone | Formal, corporate | Casual, elegant |
 | Cultural fit (WeChat/CN) | Moderate | High |

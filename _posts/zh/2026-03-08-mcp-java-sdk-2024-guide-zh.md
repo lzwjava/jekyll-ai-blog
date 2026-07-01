@@ -143,7 +143,7 @@ SDK 通过 `McpError` 类提供全面的错误处理，涵盖协议兼容性、�
 ### 总结表格
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | **推出时间** | December 2024 (experimental)，GA in 2025 |
 | **维护方** | Anthropic + Spring AI 团队 |
 | **API 模型** | Sync (`McpSyncClient/Server`) + Async (`McpAsyncClient/Server`) |

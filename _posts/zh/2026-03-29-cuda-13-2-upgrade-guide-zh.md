@@ -14,7 +14,7 @@ type: note
 ### 📊 CUDA 13.2 可用性
 
 | Check | Result |
-|-------|--------|
+| ------- | -------- |
 | `cuda-toolkit-13-2` 在 repo 中？ | ✅ **Yes** — 已提供 |
 | Driver 580 是否支持？ | ✅ **Yes** — Driver 580 附带 CUDA 13.0 runtime，与 13.2 toolkit 兼容 |
 | 当前已安装版本 | CUDA 12.8 (toolkit) + Driver 580.126.09 |

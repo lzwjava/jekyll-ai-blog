@@ -50,8 +50,8 @@ The process is similar across cities but can be done online or offline. Apply **
 
 #### City-Specific Details
 
-| Aspect                  | Guangzhou (Guangdong Province) | Beijing |
-|-------------------------|--------------------------------|---------|
+| Aspect | Guangzhou (Guangdong Province) | Beijing |
+| ------------------------- | -------------------------------- | --------- |
 | **Employer Contribution Rate** | 0.6–0.8% of salary | 0.5–0.8% of salary |
 | **Employee Contribution Rate** | 0.2% of salary | 0.2% of salary |
 | **Monthly Benefit Amount (2023–2025 est.)** | ~1,500–1,800 RMB (80% of local avg. disposable income) | ~1,800–2,000 RMB (90% of local min. wage) |

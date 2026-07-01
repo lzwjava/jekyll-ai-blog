@@ -12,7 +12,7 @@ type: note
 以下是详细分解，老板：
 
 | Port | Service | Listening | Exposed To |
-|------|---------|-----------|------------|
+| ------ | --------- | ----------- | ------------ |
 | **22** | sshd | ✅ | Anywhere |
 | **80** | nginx | ✅ | Anywhere |
 | **3001** | docker-proxy | ✅ | Anywhere |

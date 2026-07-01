@@ -115,7 +115,7 @@ pincc.ai 中继路径是 `/api/`（例如 `https://v2-as.pincc.ai/api/`）。Ope
 ## 总结表格
 
 | 功能 | Claude Code | OpenCode |
-|---|---|---|
+| --- | --- | --- |
 | 读取 `ANTHROPIC_BASE_URL` 环境变量 | ✅ 原生支持 | ❌ 不可靠 |
 | 读取 `ANTHROPIC_AUTH_TOKEN` 环境变量 | ✅ 原生支持 | ❌ 不可靠 |
 | 通过 `opencode.json` 使用自定义中继 | N/A | ✅ 可能（需变通方法） |

@@ -63,7 +63,7 @@ Projects with simple models focused on a specific task can use a single GPU to t
 After 2+ years of this:
 
 | What you did | What you gained |
-|---|---|
+| --- | --- |
 | RTX 4070 local inference (2023) | Hardware intuition, CUDA basics |
 | GPT-2 training on 60GB text | Data pipeline, tokenization, training dynamics |
 | RunPod / DigitalOcean H100/H200 | Cloud GPU workflow, cost optimization |

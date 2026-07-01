@@ -92,7 +92,7 @@ extensions/nextcloud-talk/
 ### 总结
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 源码位置 | 主 `openclaw/openclaw` GitHub 仓库内的 `extensions/nextcloud-talk/` |
 | npm 包 | `@openclaw/nextcloud-talk` |
 | 与核心捆绑？ | 否 —— 必须单独安装 |

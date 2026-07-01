@@ -95,7 +95,7 @@ Implement sparse matrix-vector multiplication for large sparse data sets — cri
 ### Structured Learning Path to Follow
 
 | Resource | What it is |
-|---|---|
+| --- | --- |
 | **CUDA 120-Day Challenge** (GitHub) | A 120-day CUDA learning plan covering daily concepts, exercises, pitfalls with six capstone projects at Days 20, 40, 60, 80, 100, and 120 to solidify GPU parallel programming, memory management, and performance optimization skills. |
 | **FreeCodeCamp 12-Hour CUDA Course** (YouTube) | A comprehensive free course covering GPU architecture, writing first CUDA kernels, the CUDA API, matrix multiplication optimization, and Triton for custom deep learning primitives. |
 | **NVIDIA Official CUDA Samples** (GitHub) | Samples demonstrating CUBLAS, CUFFT, CURAND, CUSPARSE, and CUSOLVER — GPU-accelerated libraries for linear algebra, FFT, random number generation, and sparse matrices. |

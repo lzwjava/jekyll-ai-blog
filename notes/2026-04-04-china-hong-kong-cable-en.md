@@ -30,7 +30,7 @@ As of July 2025, Hong Kong has twelve international submarine cable systems in s
 The key cables that touch both territories include:
 
 | Cable | Full Name | Mainland China Landing | Length / Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **H2HE** | Hainan to Hong Kong Express | Hainan + Guangdong | 675 km — **shortest, most direct** |
 | **APCN-2** | Asia Pacific Cable Network 2 | Chongming, Shantou | ~19,000 km total (ring) |
 | **APG** | Asia Pacific Gateway | Multiple mainland points | Multi-country |

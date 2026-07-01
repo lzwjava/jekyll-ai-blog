@@ -38,7 +38,7 @@ The correct answer is **窃听 (Eavesdropping / Wiretapping)**.
 ### Common Eavesdropping Techniques
 
 | Technique | Description |
-|---|---|
+| --- | --- |
 | **Packet Sniffing** | Captures and reads data packets traveling across the network |
 | **Wiretapping** | Physically or digitally tapping into communication lines |
 | **Man-in-the-Middle (MitM)** | Attacker positions themselves between sender and receiver |
@@ -53,7 +53,7 @@ Packet sniffing uses tools called analyzers to intercept and capture data packet
 In the context of typical network threats, it is important to distinguish **窃听** from similar concepts:
 
 | Threat | Chinese Term | Description |
-|---|---|---|
+| --- | --- | --- |
 | **Eavesdropping** | 窃听 | Illegally **intercepting** data in transmission |
 | **Tampering** | 篡改 | Modifying data during transmission |
 | **Spoofing** | 欺骗/伪装 | Impersonating a legitimate user or system |

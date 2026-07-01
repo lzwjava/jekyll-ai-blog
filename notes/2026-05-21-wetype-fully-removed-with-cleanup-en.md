@@ -12,7 +12,7 @@ type: note
 WeType is completely gone:
 
 | Location | Status |
-|---|---|
+| --- | --- |
 | `/Library/Input Methods/WeType.app` | Removed |
 | Launch agent (running process) | Killed + deregistered |
 | `~/Library/Preferences/` | Cleaned |

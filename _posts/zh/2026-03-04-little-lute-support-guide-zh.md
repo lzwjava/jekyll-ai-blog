@@ -36,7 +36,7 @@ Little Lute，也称为 Cai Yan 或 Cai Wenji，是 Honor of Kings（《王者�
 专注于 magic power（用于治疗/伤害）、cooldown reduction (CDR)、生命值和生存能力。她前期较脆，因此构建坦克辅助装备。
 
 | Slot | Core Item | Key Stats/Benefits |
-|------|-----------|---------------------|
+| ------ | ----------- | --------------------- |
 | 开局 | Sage’s Codex / Guardian–Redemption | 早期团队续航/护盾。 |
 | 鞋子 | Boots of Tranquility / Boots of Deftness | 15% CDR，移动速度。 |
 | 1 | Holy Grail | +180 magic power，15% CDR，500 HP，法力/HP 恢复。 |

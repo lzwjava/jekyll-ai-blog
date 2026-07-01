@@ -18,7 +18,7 @@ Good instinct. Here's the map — from where you are to where it gets interestin
 ## The AI Value Chain: Open vs Closed Gap (honest assessment)
 
 | Layer | Open Source | Closed Source | Gap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **ML Frameworks** | PyTorch, JAX | — | Basically closed. PyTorch IS the standard |
 | **Compiler/IR** | MLIR, XLA, Triton | cuDNN internals | Medium — Triton closes it fast |
 | **Runtime** | ROCm HIP, oneAPI | CUDA runtime | Medium — ROCm ~85% there |

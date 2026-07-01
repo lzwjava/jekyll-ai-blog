@@ -58,7 +58,7 @@ Ctrl+R  → 垂直分割pane（垂直堆叠 = 左侧面板感觉）
 鉴于你正在进行AI工程工作：
 
 | 窗口 | pane |
-|--------|-------|
+| -------- | ------- |
 | READ | `nvtop` / `watch nvidia-smi`、训练损失跟踪、日志流、DB查询 |
 | WRITE | 活跃编码pane、`git`操作、运行`python train.py`、SSH到工作站 |
 

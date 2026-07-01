@@ -108,7 +108,7 @@ curl http://127.0.0.1:3456
 ## Summary Table
 
 | Cause | Fix |
-|---|---|
+| --- | --- |
 | `claude` 不在 `/bin/sh` PATH 中 | 创建 Symlink 到 `/usr/local/bin/claude` |
 | `config.json` 格式错误 | 验证 JSON，修复模型名称不匹配问题 |
 | Port 3456 被占用 | `lsof -i :3456` 并杀掉进程 |

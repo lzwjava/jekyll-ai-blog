@@ -44,7 +44,7 @@ Number of cells:                 14
 **不是财富 500 强，也不是典型初创公司。** 这是一个完全不同的类别：
 
 | | |
-|---|---|
+| --- | --- |
 | **作者** | Claire Xenia Wolf（原名 Clifford Wolf）——独立黑客/研究员 |
 | **组织** | [YosysHQ](https://github.com/YosysHQ) —— 一家小型开源专注公司 |
 | **模式** | 开放核心：Yosys 本身采用 MIT 许可；YosysHQ 销售商业支持和专有插件（Tabby CAD Suite） |

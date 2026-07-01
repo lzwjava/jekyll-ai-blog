@@ -20,7 +20,7 @@ type: note
 ## Exam Quick Facts
 
 | Detail | Info |
-|---|---|
+| --- | --- |
 | Full Name | NVIDIA Certified Professional — Generative AI LLMs |
 | Exam Code | NCP-GENL |
 | Level | Professional (not Associate) |
@@ -314,7 +314,7 @@ type: note
 ## Study Resources
 
 | Resource | What to Use It For |
-|---|---|
+| --- | --- |
 | NVIDIA NeMo Documentation | Fine-tuning, distributed training, guardrails |
 | TensorRT-LLM GitHub | Inference optimization, paged attention, batching |
 | NVIDIA Triton Documentation | Deployment, ensemble models, model versions |

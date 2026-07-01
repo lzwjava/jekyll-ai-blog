@@ -51,7 +51,7 @@ Even with model parallelism across multiple MI300X, a single droplet won't cut i
 OpenAI's GPT-3 paper defines several sizes:
 
 | Model | Params | fits MI300X? |
-|-------|--------|--------------|
+| ------- | -------- | -------------- |
 | GPT-3 Small | 125M | ✅ trivially |
 | GPT-3 Medium | 350M | ✅ |
 | GPT-3 Large | 760M | ✅ |
@@ -76,7 +76,7 @@ AdamW full states:
 ## Volume Size Breakdown for 6.7B
 
 | Item | Size | Notes |
-|------|------|-------|
+| ------ | ------ | ------- |
 | Raw text (Pile-scale) | 800GB | The Pile is 825GB |
 | Tokenized `.bin` | 400GB | ~half after BPE tokenization |
 | Checkpoint fp32+AdamW | 107GB | full training state |
@@ -88,7 +88,7 @@ AdamW full states:
 ## Volume Recommendation by Target Model
 
 | Target | Volume Size | Cost at rest/month |
-|--------|------------|-------------------|
+| -------- | ------------ | ------------------- |
 | GPT-3 Small (125M) | 200GB | $21/mo |
 | GPT-3 XL (1.3B) | 300GB | $32/mo |
 | GPT-3 6.7B | 1.5TB | $162/mo |

@@ -12,7 +12,7 @@ type: note
 以下是 Safari 的内存使用情况：
 
 | Process | RAM |
-|---|---|
+| --- | --- |
 | **Safari** (main) | **339.5 MB** |
 | Safari Platform Support Helper x3 | 20.7 / 23.8 / 23.8 MB |
 | Safari History | 21.8 MB |

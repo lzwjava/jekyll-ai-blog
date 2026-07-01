@@ -41,7 +41,7 @@ Viewing "success" in China requires layering traditional values with modern pres
 #### **Core Metrics of Mainstream Success**
 
 | Dimension | Description | Examples/Why It Matters |
-|-----------|-------------|-------------------------|
+| ----------- | ------------- | ------------------------- |
 | **Education** | Top priority; seen as the great equalizer. High scores/titles from elite schools signal potential. | Gaokao rank > job offers; Tsinghua/Peking grads get guanxi boosts. 70% of workforce lacks high school, making it a rare ticket to mobility. |
 | **Wealth & Materialism** | Financial security + visible status symbols. "Common prosperity" rhetoric tempers excess, but billionaires remain icons. | Property ownership, luxury brands; per capita income Gini at ~0.47 shows inequality as a success gap. |
 | **Family & Harmony** | Providing for parents/spouse/kids; avoiding "face loss." Success = collective elevation. | Marriage by 30, kids in top schools; filial piety ties personal wins to family duty. |

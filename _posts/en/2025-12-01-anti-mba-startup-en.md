@@ -13,7 +13,7 @@ type: note
 Paul Graham (founder of Y Combinator) has written several essays that directly or indirectly critique the traditional MBA curriculum and the conventional business wisdom taught in most top business schools. Here are the key ideas where PG’s views sharply contrast with standard MBA teaching:
 
 | Traditional MBA Wisdom | Paul Graham’s Contrasting View | Key PG Essays |
-|------------------------|--------------------------------|---------------|
+| ------------------------ | -------------------------------- | --------------- |
 | Spend years writing a detailed business plan | Business plans are mostly fiction; you can’t predict the future. Start with a prototype instead. | “Do Things That Don’t Scale”, “How to Get Startup Ideas” |
 | Raise a lot of money early (Series A, big decks, valuation focus) | Start with very little money (or none). Stay lean until you have product-market fit. | “Startup = Growth”, “How to Start a Startup” |
 | Focus on competition, competitive advantage, barriers to entry | Obsess about users/customers instead. If you make something people desperately want, competition doesn’t matter as much. | “How to Get Startup Ideas”, “Schlep Blindness” |

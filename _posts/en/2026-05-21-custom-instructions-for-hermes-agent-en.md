@@ -89,7 +89,7 @@ EOF
 ## Decision matrix
 
 | Use case | Mechanism |
-|---|---|
+| --- | --- |
 | Persistent personality / tone | `~/.hermes/SOUL.md` |
 | Project-specific conventions | `AGENTS.md` in repo root |
 | Reusable on-demand workflows | `~/.hermes/skills/*.md` |

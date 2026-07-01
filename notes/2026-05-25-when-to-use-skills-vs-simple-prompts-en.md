@@ -73,7 +73,7 @@ The skill file just points to the real implementation.
 ## TL;DR
 
 | Situation | Solution |
-|-----------|----------|
+| ----------- | ---------- |
 | Repeating a prompt pattern | Save `.md` prompt file |
 | Claude fails due to env/library quirks | SKILL.md with constraints |
 | Complex multi-step orchestration | Python script (like `ww`) |

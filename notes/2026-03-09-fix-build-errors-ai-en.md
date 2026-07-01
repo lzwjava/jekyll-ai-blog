@@ -86,7 +86,7 @@ Please apply the same fix pattern to each one:
 ### Why "Error Families" Matter
 
 | Approach | AI Accuracy | Why |
-|---|---|---|
+| --- | --- | --- |
 | Dump all 20 errors at once | ~50–60% | AI guesses patterns |
 | Fix by error family with one-shot | ~85–95% | AI has a concrete reference |
 | Fix one error at a time | High but slow | No parallelism |

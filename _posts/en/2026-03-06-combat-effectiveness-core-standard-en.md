@@ -36,7 +36,7 @@ The word "only (唯一)" emphasizes its unparalleled status, while "fundamental 
 ### Why the Other Options Are Wrong
 
 | Option | Why It's Incorrect |
-|--------|-------------------|
+| -------- | ------------------- |
 | A — Leadership (领导力) | Leadership is important in general management, but it is not the designated "only and fundamental standard" for the military's core mission. |
 | B — Organizational capability (组织力) | Organizational ability supports military functioning but is subordinate to combat effectiveness; it is a means, not the ultimate standard. |
 | D — Execution ability (执行力) | Execution is a capability required to carry out orders, but again it is instrumental, not the overarching standard of military value. |

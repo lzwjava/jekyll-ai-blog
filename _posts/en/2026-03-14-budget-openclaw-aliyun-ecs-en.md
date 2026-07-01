@@ -42,7 +42,7 @@ The cheapest Aliyun server in 2026 is the lightweight 2-core 2G instance with 20
 ### Summary Table
 
 | Option | Specs | Price | OpenClaw Viability |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 轻量 2C1G flash sale | 2 vCPU, 1GB RAM, 200M BW | ~35 CNY/mo or 408 CNY/yr | ❌ Too little RAM |
 | 轻量 2C2G | 2 vCPU, 2GB RAM, 200M BW | ~45 CNY/mo | ⚠️ Minimum viable (fragile) |
 | 轻量 2C2G annual deal | 2 vCPU, 2GB RAM, 200M BW | 68 CNY/yr (~5.6/mo) | ⚠️ Minimum viable |

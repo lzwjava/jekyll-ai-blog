@@ -26,7 +26,7 @@ type: note
 ### 命令组（已接入 main.py）
 
 | 类别 | 组 |
-|----------|--------|
+| ---------- | -------- |
 | **Git/GitHub** | git, github, action, actions |
 | **内容** | note, screenshot, image, gif, pdf, md, marp, gen-image |
 | **LLM/AI** | llm, openrouter, copilot, hf, env, whisper |
@@ -96,7 +96,7 @@ type: note
 ### 缺少的内容
 
 | 缺口 | 影响 |
-|-----|--------|
+| ----- | -------- |
 | 没有 `ww doctor`（自诊断） | 调试损坏的环境需要手动 |
 | 没有 `ww git blame-ai` | AI 优先 CLI 的差异化功能 |
 | 没有 `ww db export`（CSV/JSON） | 无法轻松分析使用模式 |

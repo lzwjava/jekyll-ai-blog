@@ -108,7 +108,7 @@ From `app/src/terminal/local_tty/shell.rs:659-683`, WSL shells go through `wsl.e
 ## Summary
 
 | Fix | Impact |
-|-----|--------|
+| ----- | -------- |
 | Use `Git\usr\bin\bash.exe` | Warp does this automatically via `canonicalize_git_bash_path` |
 | `MSYS_NO_PATHCONV=1` | Reduces fork-heavy path conversions |
 | `MSYS=winsymlinks:nivestrict` | Reduces symlink emulation overhead |

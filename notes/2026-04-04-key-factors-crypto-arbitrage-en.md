@@ -54,7 +54,7 @@ Average price differences between exchanges have narrowed from 2–5% in earlier
 This means **small capital = almost no profit after fees**. Most professionals recommend a minimum of $5,000–$10,000 to make arbitrage viable. The math is simple:
 
 | Scenario | Spread | Capital | Gross Profit | After 0.2% fees |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Small trader | 0.3% | $1,000 | $3 | ~$1 net |
 | Serious trader | 0.3% | $50,000 | $150 | ~$50 net |
 | Institutional | 0.3% | $1,000,000 | $3,000 | ~$1,000 net |
@@ -79,7 +79,7 @@ This is an important reality check — **retail traders competing directly again
 ## Summary: The Complete Edge Checklist
 
 | Factor | What It Means | How to Achieve It |
-|---|---|---|
+| --- | --- | --- |
 | **Speed** | Execute before the gap closes | Bots + API + pre-funded accounts |
 | **Low fees** | Keep more of the spread | Native tokens, maker orders, VIP tiers |
 | **Capital** | Scale small margins into real profit | Minimum $5K–$10K recommended |

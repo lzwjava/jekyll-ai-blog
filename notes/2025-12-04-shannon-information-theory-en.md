@@ -19,7 +19,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 ### Key Contributions
 
 | Year | Work | Significance |
-|------|------|--------------|
+| ------ | ------ | -------------- |
 | 1937 | Master’s thesis (MIT) | “A Symbolic Analysis of Relay and Switching Circuits” – showed that Boolean algebra could be used to design and analyze digital circuits. This is considered the birth of digital circuit design theory. |
 | 1948 | “A Mathematical Theory of Communication” (Bell System Technical Journal) | Introduced **information theory**. Defined entropy as a measure of uncertainty/information, established the bit as the fundamental unit of information, and proved the noisy-channel coding theorem. |
 | 1949 | “Communication Theory of Secrecy Systems” | Founded modern cryptography by putting it on a rigorous mathematical footing (declassified version of WWII work). |

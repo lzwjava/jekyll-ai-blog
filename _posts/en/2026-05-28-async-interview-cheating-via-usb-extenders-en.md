@@ -41,7 +41,7 @@ The hardware approach is almost undetectable because:
 ## Common Variants
 
 | Method | Detection Difficulty | Cost |
-|---|---|---|
+| --- | --- | --- |
 | USB KVM extender (physical cable) | Very hard | ~$50 |
 | Remote desktop hidden in background | Medium | Free |
 | Second machine with mirrored screen | Hard | Existing hardware |

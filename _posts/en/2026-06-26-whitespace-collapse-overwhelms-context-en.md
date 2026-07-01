@@ -61,7 +61,7 @@ The 613-token test confirms the earlier answer's diagnosis, with one refinement:
 ### Revised priority ranking
 
 | Rank | Lever | Why |
-|------|-------|-----|
+| ------ | ------- | ----- |
 | 1 | **Data cleanup** | The whitespace collapse at 613 tokens proves data quality is the #1 problem. Whitespace-heavy training data → whitespace-prior model. |
 | 2 | **Tokenizer** | Still matters — `_t`, `->n1` are BPE artifacts. But less critical than the data problem. |
 | 3 | **Train longer** | Only useful after #1 and #2 are fixed. |

@@ -98,7 +98,7 @@ However, relying on this flag is a *workaround*, not a solution — the right an
 ## Summary
 
 | Without consistent formatting | With consistent formatting |
-|---|---|
+| --- | --- |
 | Cherry-pick creates false whitespace conflicts | Patches apply cleanly to context lines |
 | Diffs are noisy, hard to review | Diffs show only real logic changes |
 | Manual resolution wastes time | Only genuine region-specific logic conflicts remain |

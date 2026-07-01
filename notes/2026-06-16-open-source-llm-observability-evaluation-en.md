@@ -34,7 +34,7 @@ Trace
 ## What it actually does
 
 | Feature | What it gives you |
-|---|---|
+| --- | --- |
 | Tracing | Full visibility into multi-step agent/chain calls |
 | Prompt management | Version-controlled prompts, A/B test variants |
 | Evals | LLM-as-judge, human annotation, custom scoring |

@@ -59,7 +59,7 @@ x-anthropic-billing-header: cc_version=xxxx; cc_entrypoint=cli; cch=xxxx;...
 ### 总结表格
 
 | 值 | 行为 |
-|---|---|
+| --- | --- |
 | 未设置（默认） | Claude Code 在每个请求中发送 `x-anthropic-billing-header`（每个请求变化） |
 | `"0"` | Claude Code 完全抑制该 header — 不发送计费归属 |
 

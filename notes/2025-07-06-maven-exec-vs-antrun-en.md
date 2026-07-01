@@ -57,14 +57,14 @@ The `maven-antrun-plugin` allows you to run Ant tasks directly from your Maven P
 
 ## Key Differences Summarized
 
-| Feature/Aspect         | `maven-exec-plugin`                                   | `maven-antrun-plugin`                                      |
+| Feature/Aspect | `maven-exec-plugin` | `maven-antrun-plugin` |
 | :--------------------- | :---------------------------------------------------- | :--------------------------------------------------------- |
-| **Primary Use Case** | Running Java programs or direct system commands.      | Executing Ant tasks and leveraging Ant's capabilities.     |
+| **Primary Use Case** | Running Java programs or direct system commands. | Executing Ant tasks and leveraging Ant's capabilities. |
 | **Execution Context** | Can run Java in the same JVM, or external programs in a separate process. | Runs Ant tasks, which may in turn execute external commands. |
-| **Configuration Style**| Maven-specific XML configuration for executables, arguments, etc. | Ant XML syntax embedded within Maven's `pom.xml` (or external `build.xml`). |
-| **Flexibility** | Good for direct execution, less flexible for complex build logic. | Highly flexible due to Ant's rich task library.             |
-| **Dependencies** | Manages Java classpath for `exec:java`.               | Can use Maven project dependencies within Ant tasks.        |
-| **Learning Curve** | Relatively simple if you know command-line execution. | Requires familiarity with Ant's syntax and tasks.           |
+| **Configuration Style** | Maven-specific XML configuration for executables, arguments, etc. | Ant XML syntax embedded within Maven's `pom.xml` (or external `build.xml`). |
+| **Flexibility** | Good for direct execution, less flexible for complex build logic. | Highly flexible due to Ant's rich task library. |
+| **Dependencies** | Manages Java classpath for `exec:java`. | Can use Maven project dependencies within Ant tasks. |
+| **Learning Curve** | Relatively simple if you know command-line execution. | Requires familiarity with Ant's syntax and tasks. |
 | **Typical Scenarios** | Running a `main` method, calling `node` or `python` scripts, running integration tests. | Copying files with specific patterns, creating directories, running complex cleanup, legacy integration. |
 
 In essence, if you need to **run a specific executable or Java class directly**, `maven-exec-plugin` is often the more straightforward choice. If you need to **perform more intricate build operations or integrate with existing Ant logic**, `maven-antrun-plugin` provides a powerful and flexible solution by bringing the full power of Ant to your Maven build.

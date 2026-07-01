@@ -78,7 +78,7 @@ But this is politically and operationally very difficult in a large bank — whi
 ## Summary
 
 | Problem | Root Cause | Employee Impact |
-|---|---|---|
+| --- | --- | --- |
 | Too many internal rules | Decades of manager additions, never deletions | Slow approvals, endless red tape |
 | Locked-down laptops | Legacy IT + security paranoia | Slow boot, blocked sites, no admin rights |
 | Legacy software (COBOL etc.) | Too risky/expensive to replace | Tools that feel 20–30 years old |

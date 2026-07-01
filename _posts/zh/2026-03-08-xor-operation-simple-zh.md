@@ -56,7 +56,7 @@ XOR 对两个操作数的单个位执行按位操作。如果两个操作数中�
 ### 4. XOR 的关键属性
 
 | Property | Rule | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | **Commutativity** | A ⊕ B = B ⊕ A | 顺序无关 |
 | **Associativity** | (A ⊕ B) ⊕ C = A ⊕ (B ⊕ C) | 分组无关 |
 | **Identity** | A ⊕ 0 = A | 与 0 进行 XOR 返回相同值 |

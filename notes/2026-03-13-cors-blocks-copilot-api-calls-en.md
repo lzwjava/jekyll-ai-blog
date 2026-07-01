@@ -40,7 +40,7 @@ GitHub Copilot's API internals are only exposed to OAuth tokens from VSCode. The
 ## The Official vs. Custom Portal Comparison
 
 | Scenario | CORS Issue? |
-|---|---|
+| --- | --- |
 | Official `github.com/copilot` portal | ❌ No — same origin as GitHub servers |
 | Your own web frontend on any other domain | ✅ Yes — blocked by browser CORS policy |
 | Server-side backend calling the API (Node.js, Python, etc.) | ❌ No — CORS only applies to browsers |

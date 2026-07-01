@@ -45,7 +45,7 @@ Gecko 在 M2 上表现不错。Firefox 是测试非 WebKit、非 Blink 渲染的
 ## 我为你的工作流推荐的设置
 
 | 浏览器 | 使用场景 |
-|---|---|
+| --- | --- |
 | **Safari** | 默认浏览、阅读、电池续航 |
 | **Brave** | Web 开发、测试、需要 Chrome 兼容性的网站 |
 | **Firefox** | 跨浏览器 QA、用于 CSS 调试的 DevTools |

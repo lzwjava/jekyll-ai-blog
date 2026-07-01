@@ -28,7 +28,7 @@ Plenty of headroom, only Xorg using it.
 FinGPT is a **LoRA fine-tuning framework** for financial LLMs. It wraps HuggingFace `Trainer` + PEFT + DeepSpeed. Key sub-projects:
 
 | Sub-project | What it does |
-|---|---|
+| --- | --- |
 | **FinGPT_Benchmark** | Multi-task training (sentiment, NER, headline IE, relation extraction, ConvFinQA) on 7B models |
 | **FinGPT_Forecaster** | Stock movement prediction from news — Llama-2-7B, max_length 4096 |
 | **FinGPT_Sentiment_Analysis** | Financial sentiment classifier |
@@ -38,7 +38,7 @@ FinGPT is a **LoRA fine-tuning framework** for financial LLMs. It wraps HuggingF
 Model sizes supported:
 
 | Model | Size (fp16) | 8-bit | 4-bit |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | ChatGLM2-6B / Falcon-7B / Qwen-7B / Llama-2-7B | ~13-14 GB | ~6.5 GB | ~3.5 GB |
 | Llama-2-13B | ~26 GB | ~13 GB | ~7 GB |
 
@@ -84,7 +84,7 @@ This means the model loads in full fp16 — **13GB for a 7B model won't fit in 1
 ### ✅ EASILY fits — comfortable
 
 | Task | Setup |
-|---|---|
+| --- | --- |
 | **Sentiment / NER / Headline** fine-tune on **7B** | 4-bit QLoRA, batch_size 4, max_length 512 → ~5-6 GB |
 | **Forecaster** on **7B** | 4-bit, batch_size 1, max_length 4096 → ~6-7 GB |
 | **Inference** on any **7B** model | fp16 or 8-bit, fits easily |
@@ -93,14 +93,14 @@ This means the model loads in full fp16 — **13GB for a 7B model won't fit in 1
 ### ⚠️ Fits with work — needs tuning
 
 | Task | Setup |
-|---|---|
+| --- | --- |
 | **Forecaster** on **7B** with 8-bit | Batch_size 1, grad_accum 16 (like the original), max_length 2048 |
 | **13B** fine-tune with LoRA | 4-bit QLoRA only, tiny batch_size 1, max_length 512 |
 
 ### ❌ Won't work
 
 | Task | Why |
-|---|---|
+| --- | --- |
 | Full fp16 fine-tune of any 7B+ model | 13GB > 12GB |
 | 13B model in 8-bit | ~13GB barely over 12GB, no headroom for activations |
 | Anything requiring fp32 (without mixed precision) | 26GB+ per 7B model |

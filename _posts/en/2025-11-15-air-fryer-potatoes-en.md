@@ -13,7 +13,7 @@ type: note
 For potato slices in an air fryer (about 0.5–1 cm thick), here's what actually works best in practice:
 
 | Situation | Recommended time & temp | Notes |
-|-----------|-------------------------|-------|
+| ----------- | ------------------------- | ------- |
 | Raw potato slices, no pre-soaking/boiling, just oil + seasoning | 15–20 minutes at 200°C (400°F) | Shake the basket every 5–7 minutes. They come out crispy outside, cooked inside. 20 minutes is usually perfect for slightly thicker slices. |
 | You soak the slices in sauce/marinade first (e.g., soy sauce, garlic, herbs, etc.) | 18–25 minutes at 190–200°C | Sauce adds moisture → needs a couple extra minutes. Still shake halfway. If the sauce has sugar (BBQ, honey, etc.), drop to 180–190°C the last 5 minutes to avoid burning. |
 | You want them very crispy (like chips) | 20–25 minutes at 200°C, flip/shake twice | Thinner slices (3–4 mm) can be done in 12–15 min. |

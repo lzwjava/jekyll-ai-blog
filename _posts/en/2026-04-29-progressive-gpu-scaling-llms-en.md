@@ -26,7 +26,7 @@ This is exactly how serious ML practitioners think. Throwing money at H200s befo
 ## 📊 Your Progression Path — Evaluated
 
 | Stage | GPU | VRAM | What You Learn | Monthly Cost (RunPod est.) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Now ✅** | RTX 4070 | 12GB | Constraints, config tuning, batch math | $0 (local) |
 | **Next** | RTX 3090 / 4070 Ti | 24GB | Larger models, less accumulation hacks | ~$0.4–0.6/hr |
 | **Later** | A100 40GB | 40GB | fp16 at scale, multi-layer strategies | ~$1.2–1.5/hr |
@@ -79,7 +79,7 @@ Before moving to 24GB GPU, make sure you can answer these:
 ## 💬 Bottom Line
 
 | Your Plan | Assessment |
-|---|---|
+| --- | --- |
 | Learn on 4070 12GB first | ✅ Excellent discipline |
 | Upgrade to 3090/4070 Ti 24GB | ✅ Perfect next step |
 | H200 only when ready | ✅ Financially wise |

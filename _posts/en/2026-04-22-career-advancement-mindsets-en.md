@@ -62,7 +62,7 @@ A TechCrunch survey found that 70% of tech professionals appreciate the fast-tra
 **Yes, broadly speaking — and here's why it maps well:**
 
 | Factor | Big Banks / Corporates (Type 1 lean) | Startups (Type 2 lean) |
-|---|---|---|
+| --- | --- | --- |
 | Structure | Hierarchical, defined roles | Flat, fluid roles |
 | Career path | Predictable ladder | Dynamic, skill-based |
 | Risk tolerance | Low | High |

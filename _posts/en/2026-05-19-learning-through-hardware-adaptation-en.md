@@ -34,7 +34,7 @@ DeepSeek's team didn't just "port" to Ascend. They **rebuilt intuitions** about 
 The analogy is clean:
 
 | DeepSeek situation | Your situation |
-|---|---|
+| --- | --- |
 | NVIDIA H100 → Huawei Ascend | NVIDIA CUDA → AMD ROCm |
 | Forced to understand Ascend ISA | Forced to understand GCN/RDNA/CDNA |
 | Built custom kernels in CANN | Build custom kernels in HIP/Triton |

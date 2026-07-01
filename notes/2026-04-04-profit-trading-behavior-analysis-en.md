@@ -79,7 +79,7 @@ More sophisticated whales employ iceberg orders and TWAP (time-weighted average 
 ## Part 3: Tools & Research Platforms
 
 | Purpose | Tools |
-|---|---|
+| --- | --- |
 | Real-time whale alerts | Whale Alert (Twitter/X, Telegram), Lookonchain |
 | Deep wallet analytics | Nansen, Arkham, Debank |
 | Order book & large trades | CoinGlass, exchange DOM (Depth of Market) |
@@ -94,7 +94,7 @@ Dune Analytics lets anyone query and visualize on-chain data using SQL across 10
 ## Summary: The Right Mental Model
 
 | Approach | What you do | Risk level |
-|---|---|---|
+| --- | --- | --- |
 | **Cross-exchange arbitrage** | Profit from price gaps between Binance & OKX | Low-medium (fees + timing are the danger) |
 | **Funding rate arbitrage** | Delta-neutral strategy on futures vs spot | Low (market-direction neutral) |
 | **Order flow / whale behavior** | Monitor sustained exchange flows, DOM, whale patterns | Medium (requires skill, not prediction) |

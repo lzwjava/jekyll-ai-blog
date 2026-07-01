@@ -85,7 +85,7 @@ If redownloading fails:
 ### Common Fixes Summary
 
 | Issue | Solution |
-|-------|----------|
+| ------- | ---------- |
 | **Corrupted download** | Redownload model |
 | **Outdated llama.cpp** | `git pull` + recompile |
 | **Incompatible GGUF** | Use latest `convert-hf-to-gguf.py` |

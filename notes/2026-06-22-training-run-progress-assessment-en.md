@@ -26,7 +26,7 @@ Yes, this looks healthy. Here's a quick read on where you are:
 Your prediction of ~1.8–1.9 is reasonable. For reference, code-trained models at this scale tend to converge around:
 
 | Model | Data | Final val loss |
-|---|---|---|
+| --- | --- | --- |
 | GPT-2 124M | WebText | ~2.85 |
 | GPT-2 124M | FineWeb-Edu | ~3.0–3.2 |
 | CodeParrot 110M | GitHub code | ~1.7–1.9 |

@@ -42,7 +42,7 @@ Ha — the model is being super cautious about claiming knowledge of itself. Her
 ### Compared to peers
 
 | Model | Params | Context | Architecture | Notes |
-|-------|--------|---------|-------------|-------|
+| ------- | -------- | --------- | ------------- | ------- |
 | **Qwen 3.5 9B** | 8.95B | 262K | SSM+Attn hybrid | Best context, hybrid arch |
 | Qwen3 8B | 8B | 128K | Transformer | Pure attention, predecessor |
 | Llama 3.1 8B | 8B | 128K | Transformer | Meta, good general |

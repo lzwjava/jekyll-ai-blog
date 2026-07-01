@@ -101,7 +101,7 @@ Windows Terminal calls `ConptyReparentPseudoConsole` to attach the pseudo-consol
 ### Summary
 
 | Aspect | Windows Terminal | Warp |
-|--------|-----------------|------|
+| -------- | ----------------- | ------ |
 | ConPTY lib | Static, built from source | Bundled DLL, possibly older |
 | Pipe setup | Single duplex pipe | Separate client/server pipes |
 | Process flags | `EXTENDED_STARTUPINFO_PRESENT \| CREATE_UNICODE_ENVIRONMENT` | Same + `CREATE_BREAKAWAY_FROM_JOB` |

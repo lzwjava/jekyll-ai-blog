@@ -96,7 +96,7 @@ This prevents the classic LLM failure of restating the parent node — every ste
 ### Why this works for hard science
 
 | Problem with naive LLM | ToT solution |
-|---|---|
+| --- | --- |
 | Commits to one strategy early | Explores multiple routes in parallel via tree branches |
 | No way to detect physics errors mid-chain | `skills.py` hard-rule check vetoes wrong equations immediately |
 | Long chains drift off-topic | Each node scored on contextual relevance; scope drift logged |

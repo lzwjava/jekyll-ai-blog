@@ -60,7 +60,7 @@ Step 5: Post synthetic mouse events via CGEvent:
 **What's on disk:**
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `/tmp/focus_window.swift` | Source — lists window bounds, activates app, clicks center |
 | `/tmp/focus_window` | Compiled binary (macOS arm64) |
 | `/tmp/raise_window.swift` | Simpler variant — just activates app, no click |

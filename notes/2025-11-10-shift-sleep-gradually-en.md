@@ -49,7 +49,7 @@ Here’s a practical, step-by-step plan to shift your sleep from erratic late ni
 ### 5. **Daytime rules (non-negotiable)**
 
    | Time | Rule |
-   |------|------|
+   | ------ | ------ |
    | **After 3pm** | No caffeine (half-life = 6h) |
    | **After 8pm** | No heavy meals, alcohol, or naps >20 min |
    | **2pm–4pm** | Optional 20-min nap ONLY if crashing (set alarm) |

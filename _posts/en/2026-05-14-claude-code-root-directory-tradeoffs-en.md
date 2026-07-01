@@ -69,7 +69,7 @@ This lets you work across frontend, backend, and shared modules without switchin
 ## Summary
 
 | Approach | Cross-project `@` | Performance |
-|---|---|---|
+| --- | --- | --- |
 | Launch from `/` | ✅ Can reference everything | ❌ Very slow autocomplete, huge ripgrep scope |
 | Launch from project + `--add-dir` | ✅ Explicit multi-dir access | ✅ Fast, scoped search |
 | Launch from project dir only | ❌ Limited to one project | ✅ Fastest |

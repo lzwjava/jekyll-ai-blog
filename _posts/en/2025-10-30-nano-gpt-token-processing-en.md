@@ -19,7 +19,7 @@ Yes, you're on the right track with understanding the **NanoGPT** architecture (
 NanoGPT is a **from-scratch GPT-2-like model** trained on Shakespeare (or tiny datasets). The default config is roughly **GPT-2 small** scaled down.
 
 | Parameter | Typical Value in NanoGPT |
-|---------|--------------------------|
+| --------- | -------------------------- |
 | `block_size` (max sequence length) | **512** |
 | `n_embd` (embedding dimension) | **768** (for 124M model) |
 | `n_head` | **12** |
@@ -110,7 +110,7 @@ Input tokens → [B, 512]
 ### Key Points
 
 | Concept | Value |
-|-------|-------|
+| ------- | ------- |
 | Max sequence length | 512 tokens |
 | Model processes | **All 512 tokens at once** |
 | Attention heads | 12 (for 124M model) |

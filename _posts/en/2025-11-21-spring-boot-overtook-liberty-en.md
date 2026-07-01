@@ -15,7 +15,7 @@ IBM WebSphere Application Server Liberty Profile (often abbreviated as WLP or si
 ### Key Reasons Spring Boot Dominated Over Liberty
 
 | Reason | Spring Boot Advantage | Liberty / Traditional App Server Drawback |
-|--------|-----------------------|-------------------------------------------|
+| -------- | ----------------------- | ------------------------------------------- |
 | **Developer Productivity & Ease of Use** | Convention-over-configuration, auto-configuration, embedded server (Tomcat/Jetty/Undertow by default), `spring-boot-starter-*` eliminate boilerplate. Zero-config production-ready apps in minutes. | Still requires server.xml configuration, feature activation, and more manual setup even though lighter than full WAS. Feels "old-school" to many devs. |
 | **Standalone Executable Model** | Fat JAR / uber-JAR with embedded server → run anywhere with `java -jar`, perfect for Docker/Kubernetes and DevOps. No external server management. | Primarily a separate server you deploy WAR/EAR into (though Liberty later added runnable JAR support, it felt bolted-on and never became the default workflow). |
 | **Ecosystem & Community** | Massive open-source community (Pivotal/VMware), huge number of third-party starters, excellent documentation, Stack Overflow answers, tutorials. | Smaller community; mostly IBM documentation and paid support. Fewer ready-made integrations. |

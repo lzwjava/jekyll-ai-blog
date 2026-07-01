@@ -27,14 +27,14 @@ Software-Defined Wide Area Network (SD-WAN) is a modern networking approach that
 
 ### Main Benefits Compared to Traditional WAN
 
-| Aspect              | Traditional WAN (e.g., MPLS)       | SD-WAN
-|----------------------|------------------------------------|----------------------------------------|
-| Cost                 | High (expensive MPLS circuits)     | Lower (uses inexpensive broadband/Internet) |
-| Deployment Time      | Weeks to months                    | Hours to days |
-| Bandwidth Flexibility| Fixed, hard to scale               | Dynamic, easy to add bandwidth |
-| Performance          | Consistent but limited by circuit  | Optimized per-application, often better |
-| Cloud Readiness      | Poor (backhauling to HQ)           | Direct cloud access, lower latency |
-| Management           | Device-by-device CLI               | Centralized GUI/API/orchestration |
+| Aspect | Traditional WAN (e.g., MPLS) | SD-WAN
+| ---------------------- | ------------------------------------ | ---------------------------------------- |
+| Cost | High (expensive MPLS circuits) | Lower (uses inexpensive broadband/Internet) |
+| Deployment Time | Weeks to months | Hours to days |
+| Bandwidth Flexibility | Fixed, hard to scale | Dynamic, easy to add bandwidth |
+| Performance | Consistent but limited by circuit | Optimized per-application, often better |
+| Cloud Readiness | Poor (backhauling to HQ) | Direct cloud access, lower latency |
+| Management | Device-by-device CLI | Centralized GUI/API/orchestration |
 
 ### Common Use Cases
 

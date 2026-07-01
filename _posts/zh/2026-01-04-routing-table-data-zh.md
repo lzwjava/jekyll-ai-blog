@@ -80,8 +80,8 @@ Routing table 的主要目的正是如此：对于 packet 中给定的目标 IP 
 总结：
 
 | 信息 | 是否存在于 Routing Table 中？ | 备注 |
-|------------------------------|---------------------------|-------|
-| Destination IP network/prefix| 是 | 核心字段 |
+| ------------------------------ | --------------------------- | ------- |
+| Destination IP network/prefix | 是 | 核心字段 |
 | Netmask / Prefix length | 是 | 定义网络规模 |
 | Next-hop / Gateway IP | 是 (如果不是直连) | 下一个 router 的 IP address |
 | Output interface | 是 | 要使用的本地接口 |

@@ -19,7 +19,7 @@ In electronic schematics, the **ground symbol** serves as a **reference node**, 
 There are several types of "ground" you might see:
 
 | Type | Name | Description |
-|------|------|-------------|
+| ------ | ------ | ------------- |
 | ⚡ | **Earth Ground** | Connected to actual ground (e.g., via a metal rod in the earth or the third prong of a power plug) — used mainly for safety and EMI shielding. |
 | 🔌 | **Chassis Ground** | Connected to the physical frame/metal casing of a device — often used as a reference and for shielding. |
 | 📶 | **Signal Ground** | The reference point for all signals in a circuit — not necessarily connected to Earth. |

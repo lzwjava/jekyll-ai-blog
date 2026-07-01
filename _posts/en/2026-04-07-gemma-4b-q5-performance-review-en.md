@@ -46,7 +46,7 @@ Killed the old process (PID 135703), launched the new one. Server came up cleanl
 ### Key Findings
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Model size on disk | 5.5 GB |
 | Quantization | Q5_K_M (high quality) |
 | RSS under load | ~6.5 GB |

@@ -138,7 +138,7 @@ def render(html_path: str, out_path: str, width: int = 720, fmt: str = "jpeg"):
 ## 总结表格
 
 | 库 | 引擎 | 用例适配度 | 额外依赖 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Playwright** | Chromium/Firefox/WebKit | ✅ 本地 HTML → PNG/JPG | 最小 |
 | **原始 CDP** | Chromium | ✅ 附加到运行中的 Chrome，精确裁剪 | `pychrome` 或 `nodriver` |
 | **Camoufox** | Firefox 分支 | ❌ 仅用于反爬抓取 | Firefox 二进制文件 + Xvfb |

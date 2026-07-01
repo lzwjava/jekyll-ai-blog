@@ -30,7 +30,7 @@ Key points:
 Most cards are open to non-residents like you. Below is a table of popular options based on current offerings (as of Nov 2025). Focus on those with cross-border perks, given your profile. Annual fees may be waived with spending thresholds; rewards in points redeemable for cashback, travel, or shopping.
 
 | Card Name | Network/Type | Key Features | Min. Annual Income | Suitability for You |
-|-----------|--------------|--------------|---------------------|---------------------|
+| ----------- | -------------- | -------------- | --------------------- | --------------------- |
 | **BOC Go UnionPay Dual Currency Card** (Platinum/Diamond) | UnionPay Dual Currency | Up to 10X points on mainland spends (till Dec 2025); airport lounge access; no FX fees on CNY. | HKD 150,000+ | High – Great for frequent HK-mainland travel; leverages your UnionPay debit. |
 | **BOC Cheers Visa Signature Card** | Visa | 5% cashback on dining/travel; 1% unlimited on overseas; welcome bonus up to HKD 800. | HKD 120,000+ | Good – Rewards for cross-border dining/shopping; easy online apply. |
 | **BOC Chill Mastercard** | Mastercard | 5X points on entertainment/streaming; 1% cashback all spends; low 1.5% FX fee. | HKD 96,000+ | Good – Relaxed perks; suitable if you use BOC Pay+ for daily spends. |

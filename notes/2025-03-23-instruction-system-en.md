@@ -165,7 +165,7 @@ main:
 ### **5.4 Key Assembly Instructions**
 
 | Instruction | Meaning | Example |
-|------------|---------|---------|
+| ------------ | --------- | --------- |
 | `add` | Add two registers | `add $t1, $t2, $t3` |
 | `sub` | Subtract two registers | `sub $t1, $t2, $t3` |
 | `lw` | Load word from memory | `lw $t1, 0($t2)` |
@@ -176,7 +176,7 @@ main:
 ### **5.5 Assembly vs High-Level Languages**
 
 | Feature | Assembly | High-Level Language (C, Python) |
-|---------|---------|------------------------------|
+| --------- | --------- | ------------------------------ |
 | **Speed** | Faster | Slower (more overhead) |
 | **Control** | Full control over hardware | Abstracted from hardware |
 | **Difficulty** | Complex syntax | Easier syntax |

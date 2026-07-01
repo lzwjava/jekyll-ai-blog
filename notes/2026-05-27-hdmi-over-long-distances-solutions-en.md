@@ -20,7 +20,7 @@ No — standard passive HDMI cables will not reliably work at 50 meters. Here's 
 HDMI uses TMDS (Transition-Minimized Differential Signaling) — a high-frequency differential signal. The spec limits are:
 
 | HDMI Version | Max passive cable length |
-|---|---|
+| --- | --- |
 | HDMI 1.4 (1080p) | ~15 meters |
 | HDMI 2.0 (4K@60) | ~10 meters |
 | HDMI 2.1 (8K) | ~3–5 meters |

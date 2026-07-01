@@ -35,7 +35,7 @@ Wikipedia dumps are monthly XML exports of the entire database (articles, revisi
 The main hub for torrents is the [Meta-Wiki Data Dump Torrents page](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki), which lists the latest English Wikipedia dumps (e.g., enwiki-20251101). Here's a summary of recent ones:
 
 | Dump Date | File Type | Compressed Size | Torrent Link | Notes |
-|-----------|-----------|-----------------|--------------|-------|
+| ----------- | ----------- | ----------------- | -------------- | ------- |
 | 2025-11-01 | Pages-Articles (XML, abstracts only) | ~22GB | [enwiki-20251101-pages-articles-multistream.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | Multistream format; easiest for text extraction. |
 | 2025-11-01 | Pages-Articles-History (XML, full revisions) | ~120GB | [enwiki-20251101-pages-meta-history*.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | Includes all edits; split into streams for easier handling. |
 | 2025-10-01 | Pages-Articles (XML, abstracts only) | ~21GB | [enwiki-20251001-pages-articles-multistream.xml.bz2](https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki) | Previous monthly; good for historical comparison. |

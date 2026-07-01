@@ -45,7 +45,7 @@ The guidelines emphasize:
 More concisely, the four principles are:
 
 | Principle | Core Idea |
-|---|---|
+| --- | --- |
 | **Think Before Coding** | State assumptions, ask when uncertain, surface tradeoffs before acting |
 | **Simplicity First** | Write the minimum code that solves the problem — no speculative features, no extra abstractions |
 | **Surgical Changes** | Only touch what's necessary; don't refactor adjacent working code |

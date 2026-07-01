@@ -89,7 +89,7 @@ If you are tired in the midafternoon and just need your mind to be clear, a 10-m
 ## Practical Strategy: Match Break Type to Your State
 
 | Your State | Best Activity |
-|---|---|
+| --- | --- |
 | Eyes tired, mind still okay | Laundry, dishes, wipe counters — let eyes rest by looking at distance |
 | Can't focus / mind scattered | Light cooking, tidying, sweeping — rhythmic movement resets focus |
 | Stressed or anxious | Washing dishes by hand, watering plants — calming tactile tasks |

@@ -69,7 +69,7 @@ cat /sys/class/kfd/kfd/topology/nodes/*/properties
 **步骤 6 — 编写 Python 脚本**，从替代数据源读取，因为 `rocm-smi` 无法看到 VF：
 
 | 数据 | 来源 |
-|------|--------|
+| ------ | -------- |
 | GPU 名称、BAR | `lspci -s <bdf> -vv` |
 | 设备/厂商 ID | `/sys/bus/pci/devices/<bdf>/device`、`/vendor`、`/subsystem_*` |
 | PCIe 链路速度/宽度 | `/sys/bus/pci/devices/<bdf>/current_link_speed`、`current_link_width`、`max_link_*` |

@@ -68,7 +68,7 @@ While Scholze hasn’t given a detailed public explanation of his personal study
 ### 🧭 Life Lessons from Peter Scholze
 
 | Lesson | Explanation |
-|--------|-------------|
+| -------- | ------------- |
 | **Seek simplicity** | Complex problems often have elegant solutions. |
 | **Question foundations** | Don't accept concepts just because they're traditional. |
 | **Think long-term** | Deep understanding takes time — patience pays off. |

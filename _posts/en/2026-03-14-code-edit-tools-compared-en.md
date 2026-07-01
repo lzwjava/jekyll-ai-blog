@@ -123,7 +123,7 @@ In contrast, Codex uses `apply_patch` for both create and modify, with `+++ /dev
 ## Summary Comparison Table
 
 | Feature | Claude Code (`str_replace_based_edit_tool`) | OpenAI Codex (`apply_patch`) |
-|---|---|---|
+| --- | --- | --- |
 | **Edit paradigm** | Exact string match & replace | Unified diff / patch format |
 | **Context lines** | None (pure string match) | 3 lines before/after (configurable) |
 | **Create file** | `create` command | `--- /dev/null` patch header |

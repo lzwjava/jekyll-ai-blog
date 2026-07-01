@@ -37,7 +37,7 @@ type: note
 ### Tier 2: Task-Specific SFT Data
 
 | Dataset | Size | Use Case |
-|---|---|---|
+| --- | --- | --- |
 | `zeroshot/twitter-financial-news-sentiment` | ~11K | Sentiment (FinSentiment) |
 | `nickmuchi/financial-classification` | ~5K | News classification |
 | `FinGPT/fingpt-sentiment-train` | ~76K | Sentiment SFT (FinGPT style) |

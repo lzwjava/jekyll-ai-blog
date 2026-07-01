@@ -14,7 +14,7 @@ Here's the raw truth — your 16GB is trying to serve **75GB** of demand:
 ## RAM Analysis
 
 | Category | Virtual Demand | Physical (approx) | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Browsers** (Vivaldi + Safari + WebKit) | **22,898 MB** | ~4 GB resident | Close tabs / quit |
 | **VSCode** (28 processes) | **23,812 MB** | ~3 GB resident | Close unused projects |
 | **WeChat** (WeChat + WeChatAppEx + WeApp) | **20,028 MB** | ~2 GB resident | Quit entirely |

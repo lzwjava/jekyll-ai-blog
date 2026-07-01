@@ -32,7 +32,7 @@ llama.cpp        ← 实际的推理引擎（C/C++、GGUF、CUDA/Metal/ROCm）
 针对你的用例快速对比：
 
 | | llama.cpp | Ollama | LM Studio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 开源 | 是 (MIT) | 是 (MIT) | 否 |
 | 界面 | CLI/库 | CLI/守护进程 | GUI (+ CLI) |
 | 对参数的控制 | 完全 | 部分 (Modelfile) | 受限 (UI 滑块) |

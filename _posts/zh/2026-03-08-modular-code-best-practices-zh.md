@@ -107,7 +107,7 @@ project/
 快速参考：
 
 | 元素 | 约定 (Python) | 示例 |
-|---|---|---|
+| --- | --- | --- |
 | Variable | snake_case | `user_name` |
 | Function | snake_case verb | `get_user()` |
 | Constant | UPPER_CASE | `MAX_SIZE` |

@@ -102,12 +102,12 @@ Research involved analyzing online travel guides, tourist reviews, and park-spec
 
 To aid in decision-making, the following table compares the parks based on key criteria:
 
-| Park Name                  | Location         | Main Activities       | Key Features                     | Suitability for Outdoor Sports |
-|----------------------------|------------------|-----------------------|-----------------------------------|-------------------------------|
-| Baiyun Mountain Park       | Baiyun District  | Hiking, walking, cable car | Mountain views, Luhu Lake, Yuntai Garden | High, with scenic hiking and views |
-| Panyu Xinghai Park         | Panyu District  | Boating, walking, cycling | Large pond, gardens, evening activities | High, family-friendly with varied sports |
+| Park Name | Location | Main Activities | Key Features | Suitability for Outdoor Sports |
+| ---------------------------- | ------------------ | ----------------------- | ----------------------------------- | ------------------------------- |
+| Baiyun Mountain Park | Baiyun District | Hiking, walking, cable car | Mountain views, Luhu Lake, Yuntai Garden | High, with scenic hiking and views |
+| Panyu Xinghai Park | Panyu District | Boating, walking, cycling | Large pond, gardens, evening activities | High, family-friendly with varied sports |
 | Haizhu National Wetland Park | Haizhu District | Walking, birdwatching | Wetland, flora, fauna, clear lakes | Moderate, nature-focused activities |
-| Liwan Lake Park            | Liwan District  | Boating, walking      | Multiple lakes, ancient houses, pavilions | High, serene with boating options |
+| Liwan Lake Park | Liwan District | Boating, walking | Multiple lakes, ancient houses, pavilions | High, serene with boating options |
 | Helong Reservoir Scenic Area | Baiyun District | Scenic walks, relaxation | Reservoir, lush trees, scenic road | Moderate, peaceful for walking |
 
 #### Additional Considerations

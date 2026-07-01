@@ -33,7 +33,7 @@ The previously cached `large-v3.pt` file is **corrupted or incomplete**, so Whis
 ```
 
 | Field | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `38%` | Progress | 38% of the file downloaded |
 | `1.09G / 2.88G` | Bytes | Downloaded 1.09 GB out of 2.88 GB total |
 | `01:45` | Elapsed | 1 min 45 sec elapsed |

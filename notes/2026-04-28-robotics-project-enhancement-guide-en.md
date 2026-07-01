@@ -186,7 +186,7 @@ There is a Rust crate specifically tagged `#world-model` for robotics that handl
 ## 7. Other Important Files
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `.gitignore` | Exclude `target/`, `*.hex`, `__pycache__/`, `.env` |
 | `CHANGELOG.md` | Track versions using Semantic Versioning (1.0.0, 1.1.0…) |
 | `CONTRIBUTING.md` | Instructions for contributors |

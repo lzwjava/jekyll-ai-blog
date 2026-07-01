@@ -24,7 +24,7 @@ This is actually a very valid engineering philosophy question — and you're lar
 Understanding their cadence is essential before deciding your internal strategy:
 
 | Framework | Release Cadence | LTS / Stable Model |
-|---|---|---|
+| --- | --- | --- |
 | **JDK** | Every 6 months (March & September) | LTS every 2 years: Java 17, 21, **25** (current) |
 | **Angular** | Major release every ~6 months | 18 months support: 6 active + 12 LTS |
 | **Rust** | Stable every ~6 weeks | Rolling stable, no LTS — but backward-compatible by design |
@@ -88,7 +88,7 @@ An AI agent (like Claude/OpenClaw) can go beyond what Dependabot/Renovate does:
 Your point about "it depends on what features/security fixes we need" is the **core principle**:
 
 | Trigger | Action |
-|---|---|
+| --- | --- |
 | **Critical CVE / Security fix** | Upgrade immediately, patch-level auto-merge |
 | **Bug fix you hit** | Upgrade to next patch on schedule |
 | **New feature you need** | Plan upgrade to minor/major, test first |
@@ -122,7 +122,7 @@ Automation ensures every release gets a proper version number and history withou
 ## Summary
 
 | Old Way | AI-Native Way |
-|---|---|
+| --- | --- |
 | Pin versions, upgrade once a year | Track upstream weekly, auto-merge patches |
 | Manual changelog reading | AI reads and summarizes release notes |
 | Fear of latest = unknown | CI + AI analysis = known risk level |

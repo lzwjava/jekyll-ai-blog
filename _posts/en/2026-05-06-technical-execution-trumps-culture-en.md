@@ -28,7 +28,7 @@ Every group clusters — Silicon Valley's Indian networks, Chinese alumni networ
 This is a genuinely complex question. Several structural factors matter:
 
 | Factor | China | India |
-|---|---|---|
+| --- | --- | --- |
 | **State capacity** | Highly centralized, execution-focused | Federal, fragmented, slower execution |
 | **Infrastructure investment** | Massive, coordinated (roads, rail, ports) | Historically underfunded |
 | **Language unity** | Mandarin as dominant lingua franca | 22 official languages, deep Hindi-Tamil friction |

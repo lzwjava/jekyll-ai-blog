@@ -108,7 +108,7 @@ Wants=network-online.target
 ## Summary Table
 
 | Cause | Fix |
-|---|---|
+| --- | --- |
 | No internet / network not ready | Wait, or fix startup order |
 | GitHub CDN blocked/slow | Use jsDelivr or alternate mirror URL |
 | No cached MMDB file | Manually pre-download the file |

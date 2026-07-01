@@ -94,7 +94,7 @@ Fermat 与 René Descartes 的关系充满争议。唯一实质问题是 Descart
 ### 总结表格
 
 | 领域 | 贡献 |
-|---|---|
+| --- | --- |
 | Number Theory | Last Theorem, Little Theorem, Fermat Numbers |
 | Analytic Geometry | Independent co-inventor |
 | Calculus | Method of maxima/minima, tangents |

@@ -18,7 +18,7 @@ DeepSeek V4.1 Flash took the #1 trending slot within one week of its release, an
 Here's the full top 20 snapshot:
 
 | Rank | Model | Vendor | License | Notes |
-|------|-------|--------|---------|-------|
+| ------ | ------- | -------- | --------- | ------- |
 | 1 | **DeepSeek V4.1 Flash** | DeepSeek | DeepSeek License | MoE, ~71B active |
 | 2 | **Qwen 3.7** (flagship) | Alibaba | Qwen License | |
 | 3 | **Gemma 4** (31B Dense) | Google | Apache 2.0 | Permissive commercial |

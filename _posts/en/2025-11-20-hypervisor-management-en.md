@@ -15,7 +15,7 @@ A **hypervisor** (also called a **virtual machine monitor** or VMM) is the core 
 ### Two Main Types of Hypervisors
 
 | Type | Description | Runs Directly on Hardware? | Examples | Pros | Cons |
-|------|-------------|-----------------------------|----------|------|------|
+| ------ | ------------- | ----------------------------- | ---------- | ------ | ------ |
 | **Type 1 (Bare-metal)** | Installed and runs directly on the physical hardware. No host OS underneath the hypervisor. | Yes | VMware ESXi, Microsoft Hyper-V (in hypervisor mode), Xen, KVM (when used bare-metal), Proxmox VE, Oracle VM Server | Best performance, higher security, lower overhead, used in production/data-center environments | Harder to manage for beginners, fewer built-in drivers/tools |
 | **Type 2 (Hosted)** | Runs as an application on top of a conventional operating system (Windows, macOS, Linux). The host OS owns the hardware. | No (runs on host OS) | VMware Workstation, VMware Fusion, VirtualBox, Parallels Desktop, QEMU (when used with a host OS) | Easy to install and use, good for desktops/laptops, can use host OS drivers and tools | Slightly lower performance, more attack surface because of the host OS |
 

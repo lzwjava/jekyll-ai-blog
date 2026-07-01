@@ -49,7 +49,7 @@ Google Maps 链接 → 精确坐标
 ## 哪些平台会剥离，哪些不会
 
 | 平台 | 是否剥离 EXIF GPS？ |
-|---|---|
+| --- | --- |
 | Instagram | 是（大约从 2012 年起） |
 | Twitter/X | 是 |
 | Facebook | 是 |

@@ -68,7 +68,7 @@ The more often you play, the more often you will want to change your overgrip. A
 ## 5. Broader Life Lessons from This Experience
 
 | Lesson | Explanation |
-|---|---|
+| --- | --- |
 | **Root cause analysis** | The real problem was poor surface prep, not a bad grip product |
 | **Trial and error leads to knowledge** | You discovered that heat re-activates adhesive through direct experimentation |
 | **Simple tools can solve complex problems** | A lighter fixed what re-wrapping alone could not |

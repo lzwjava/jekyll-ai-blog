@@ -31,7 +31,7 @@ The intensity stems from deep cultural, political, and socioeconomic divides:
 - **Data-Driven Arguments**: Pro-control side highlights correlations between loose laws/high ownership and violence—states with weaker regulations have higher homicide rates. Gun rights side counters that "guns don't kill people; people do," pointing to defensive uses (estimated 500,000–3 million annually) and arguing criminals ignore laws.
 
 | Factor | Pro-Gun Control View | Pro-Gun Rights View |
-|--------|----------------------|---------------------|
+| -------- | ---------------------- | --------------------- |
 | **Self-Defense** | Guns escalate risks; most defensive uses don't involve firing. | Essential for protection; armed citizens deter crime. |
 | **Crime Impact** | Stricter laws reduce shootings (e.g., Australia's 1996 buyback cut suicides). | Laws disarm victims; Chicago's strict rules haven't stopped violence. |
 | **Mental Health** | Not the sole cause—U.S. gun homicide rate is 26x higher than peers despite similar mental health issues. | Focus on threats, not tools; controls ignore root causes like family breakdown. |

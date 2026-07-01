@@ -72,7 +72,7 @@ He Qinglian is a Chinese author and economist known for her critical view of the
 ## 🔑 Final Verdict
 
 | Prediction | Accuracy |
-|---|---|
+| --- | --- |
 | Real estate crash and developer bankruptcies | ✅ Highly accurate |
 | Unfinished apartments, buyers losing money | ✅ Accurate |
 | Government land revenue collapse | ✅ Accurate |

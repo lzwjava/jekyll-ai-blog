@@ -24,7 +24,7 @@ Your ~800-word system prompt is essentially a standing prior that biases every c
 **The tradeoff:**
 
 | Heavy system prompt | No/minimal prompt |
-|---|---|
+| --- | --- |
 | Consistent format | Fresher, more direct answers |
 | Repeats meta-content | Adapts naturally to question type |
 | Model "performs" the instructions | Model just... answers |

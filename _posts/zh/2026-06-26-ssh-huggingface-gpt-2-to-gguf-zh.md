@@ -62,7 +62,7 @@ gw.add_tensor("blk.{i}.ffn_down.weight",  sd[...mlp.c_proj.weight].numpy().T)
 HF 名称 → GGUF 规范名称：
 
 | HF | GGUF |
-|---|---|
+| --- | --- |
 | `transformer.wte.weight` | `token_embd.weight` |
 | `transformer.wpe.weight` | `position_embd.weight` |
 | `h.{i}.ln_1` | `blk.{i}.attn_norm` |

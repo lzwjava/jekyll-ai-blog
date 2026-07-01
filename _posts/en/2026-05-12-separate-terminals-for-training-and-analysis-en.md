@@ -107,7 +107,7 @@ A good practice is to always ask Claude to run the terminal commands you want to
 ### Summary Table
 
 | | Terminal 1 (Worker) | Terminal 2 (Claude Code) |
-|---|---|---|
+| --- | --- | --- |
 | **Purpose** | Execute long jobs | Analyze & iterate |
 | **What runs** | `train.py`, `tokenize.py`, `download.sh` | `claude` CLI |
 | **Duration** | Hours | Interactive |

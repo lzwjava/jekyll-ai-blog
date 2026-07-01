@@ -60,7 +60,7 @@ Follow these steps on OCBC Internet Banking:
 ### Quick Checklist Before Paying Anthropic
 
 | Step | What to Do |
-|---|---|
+| --- | --- |
 | 1 | Open OCBC app → More → Card Services → Manage overseas usage → Activate |
 | 2 | Check daily spending limit is sufficient |
 | 3 | Ensure sufficient balance in your linked account |

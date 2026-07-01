@@ -28,7 +28,7 @@ PyTorch 2.10 (currently nightly/pre-release territory as of May 2026) follows th
 **Recommendation: Python 3.11**
 
 | Version | Verdict |
-|---------|---------|
+| --------- | --------- |
 | 3.9 | Works but old; fewer optimizations |
 | 3.10 | Fine, slightly dated |
 | **3.11** | ✅ Best: fastest CPython to date, all deps stable |

@@ -214,7 +214,7 @@ type: note
 ## 推荐认证
 
 | Certification | Focus |
-|---|---|
+| --- | --- |
 | Oracle Java SE 21 Developer (1Z0-830) | Core Java mastery |
 | Spring Professional (VMware) | Spring ecosystem |
 | AWS Solutions Architect / GCP Professional | Cloud-native |
@@ -235,7 +235,7 @@ type: note
 ## 建议学习时间表
 
 | Phase | Duration |
-|---|---|
+| --- | --- |
 | 阶段 1–2 (语言 & JVM) | 2–3 个月 |
 | 阶段 3 (并发) | 1–2 个月 |
 | 阶段 4 (框架) | 2–3 个月 |

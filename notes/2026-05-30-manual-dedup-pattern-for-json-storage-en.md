@@ -76,7 +76,7 @@ Otherwise silent skips look like silent failures.
 Your JSON + manual dedup is **correct and sufficient** for this scale. The pattern maps cleanly to what SQLite would give you:
 
 | SQLite | Your JSON |
-|---|---|
+| --- | --- |
 | `PRIMARY KEY (date)` | `_record_key` returning `date` |
 | `INSERT OR IGNORE` | `if key in existing_keys: skip` |
 | `UNIQUE (week_start, week_end)` | `f"{week_start}_{week_end}"` composite key |

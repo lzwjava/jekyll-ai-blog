@@ -48,7 +48,7 @@ tmux new-session -d -s dist-master '...'
 ## 第 3 层 — 环境变量
 
 | 变量 | 目的 |
-|---|---|
+| --- | --- |
 | `NANOCHAT_BASE_DIR=~/.cache/nanochat` | nanochat 的根目录，用于存放分词器、检查点、评估包 |
 | `NANOCHAT_DATA_DIR=.../base_data_small` | 将预训练指向您的 FineWeb 小分片子集，而不是完整数据集 |
 | `NANOCHAT_FORCE_SDPA=1` | 强制 PyTorch 使用 `scaled_dot_product_attention` 而非 FlashAttention —— 在 CPU 上是必要的，因为那里没有 FA 内核 |

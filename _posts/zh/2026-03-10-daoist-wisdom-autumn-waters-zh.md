@@ -29,7 +29,7 @@ D. Hai Ruo (海若)
 ### 四个人物的比较
 
 | Character | Chinese | Role in the Essay | What They Represent |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Summer Insects** | 夏虫 | 用作负面隐喻 | 无法理解冰；受时间限制 |
 | **Well Frog** | 井蛙 | 用作负面隐喻 | 无法理解大海；受空间限制 |
 | **Qu Shi** | 曲士 | 用作负面隐喻 | 无法理解道；受狭隘教育限制 |

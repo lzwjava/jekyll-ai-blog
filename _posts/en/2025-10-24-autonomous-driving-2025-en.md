@@ -19,7 +19,7 @@ China's ecosystem is booming, with over 30 cities permitting driverless operatio
 #### Top 10 Autonomous Driving Companies (Global Ranking, 2025)
 
 | Rank | Company | Headquarters | Focus | Key 2025 Milestone |
-|------|---------|--------------|-------|--------------------|
+| ------ | --------- | -------------- | ------- | -------------------- |
 | 1 | Waymo | USA | Robotaxis (Level 4) | 250K+ weekly paid rides in 5+ U.S. cities; 96M+ rider-only miles |
 | 2 | Baidu Apollo | China | Robotaxis & mapping | 10M+ cumulative rides; expanded to 10+ Chinese cities with full driverless ops |
 | 3 | Tesla | USA | Consumer FSD (Level 2-5) | FSD v12.5 rollout to 2M+ vehicles; Cybercab prototype testing |

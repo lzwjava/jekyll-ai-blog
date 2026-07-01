@@ -158,7 +158,7 @@ totalItems$ = this.paginationState.totalItems;
 ## 总结 — 选择哪个选项？
 
 | 情况 | 最佳修复 |
-|---|---|
+| --- | --- |
 | Angular 17+ / 21 现代项目 | **Signals + `input()`** |
 | 现有的 `@Input()` 模式，无法重构 | **子组件中的 `ChangeDetectorRef.detectChanges()`** |
 | 父组件控制更新 | **父组件中的 `markForCheck()`** |

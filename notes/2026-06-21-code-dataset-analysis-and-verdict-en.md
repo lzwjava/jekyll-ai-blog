@@ -18,7 +18,7 @@ CODE DATASETS EXPLORATION — ANALYSIS
 ## 1. The Stack v2 (bigcode/the-stack-v2-dedup)
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Size | 67.5TB full / 32.1TB dedup |
 | Tokens | ~900B |
 | Languages | 658 |
@@ -35,7 +35,7 @@ This is designed for BigCode's internal pipeline, not for individual download.
 ## 2. The Stack v1 (bigcode/the-stack)
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Size | 6.4TB full / 2.9TB dedup |
 | Tokens | ~200B |
 | Languages | 358 |
@@ -46,7 +46,7 @@ VERDICT: **Possible but requires agreement.** You must accept terms on HF, share
 ## 3. codeparrot/github-code
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Size | ~1TB uncompressed / ~300GB compressed |
 | Tokens | 115M files |
 | Languages | 32 |
@@ -57,7 +57,7 @@ VERDICT: **BEST OPTION for this machine.** Directly downloadable, no special agr
 ## 4. bigcode/the-stack-smol
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Size | 2.6GB |
 | Samples | 300K files |
 | Languages | 30 |
@@ -68,7 +68,7 @@ VERDICT: **Good for testing only.** Too small for real pretraining (~100M tokens
 ## 5. nampdn-ai/tiny-codes
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Size | ~2GB |
 | Samples | 1.6M snippets |
 | Languages | 11 |
@@ -79,7 +79,7 @@ VERDICT: **Fine-tuning data, not pretraining.** Inspired by "Textbooks Are All Y
 ## 6. FineWeb / FineWeb-Edu (already on disk)
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | On disk | 285GB (nanoGPT shards) + 374GB (zz-backup parquet) |
 | Content | English web text (articles, blogs, forums) |
 | Code content | Very little — this is NOT a code dataset |

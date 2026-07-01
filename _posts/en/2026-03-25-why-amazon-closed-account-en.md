@@ -44,7 +44,7 @@ The email you received states the decision is final. Amazon takes verification v
 ## Summary of What Went Wrong
 
 | Issue | Problem |
-|---|---|
+| --- | --- |
 | Billing address | Fake US address — does not match your real identity |
 | Verification document | Bank statement screenshot ≠ government-issued ID |
 | Card origin | Singapore card + US address = mismatch |

@@ -13,7 +13,7 @@ type: note
 Microsoft Azure, launched in 2010, has experienced several significant outages over the years, often due to configuration errors, hardware failures, or external events like weather. Below is a chronological summary of the most notable ones, focusing on those with widespread impact across regions or services. This list draws from official reports, historical analyses, and incident reviews, highlighting dates, causes, affected areas, and durations where available.
 
 | Date | Cause | Affected Regions/Services | Duration/Impact |
-|------|-------|---------------------------|-----------------|
+| ------ | ------- | --------------------------- | ----------------- |
 | February 29, 2012 | Leap year calculation bug in code | North America (Azure Compute) | ~8 hours; disrupted application management and services for users. |
 | July 26, 2012 | Misconfigured network device | West Europe (Azure Compute) | >2 hours; partial unavailability in Europe. |
 | February 22, 2013 | Expired SSL certificate | Global (Azure Storage) | Several hours; service credits issued; also hit Xbox Live, Music, and Video. |

@@ -43,7 +43,7 @@ git check-ignore <pathname>...
 ### Key Options
 
 | Option | Description | Example |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `-v`, `--verbose` | Show the ignore pattern that matched (e.g., the line from `.gitignore`). | `git check-ignore -v path/to/myfile.txt`<br>Output: `path/to/myfile.txt: .gitignore:1:*.txt` (path + file:line:pattern) |
 | `-q`, `--quiet` | Suppress output, but still use exit code (0 if not ignored, 1 if ignored). Useful in scripts. | `git check-ignore -q path/to/myfile.txt`<br>(No output; check `$?` for exit code) |
 | `--stdin` | Read paths from standard input instead of command line. | `echo "file1.txt\nfile2.txt" \| git check-ignore --stdin` |

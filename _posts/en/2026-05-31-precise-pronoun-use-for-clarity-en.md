@@ -20,7 +20,7 @@ You've identified a real thinking error, not just a grammar issue. "We" is often
 > Use the pronoun that matches the *actual subject*.
 
 | Situation | Correct pronoun |
-|---|---|
+| --- | --- |
 | You believe/think/did something | **I** |
 | You + specific named people jointly did something | **We** |
 | A third person | **He / She / They** |

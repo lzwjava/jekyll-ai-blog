@@ -82,7 +82,7 @@ Used HDDs can be found at around €10/TB on eBay or Amazon — just be cautious
 ## 4. The Practical Roadmap
 
 | Step | Action |
-|---|---|
+| --- | --- |
 | **Now (60GB)** | Finish GPT-2 scale experiment, run benchmarks (even simple ones like perplexity on held-out set) |
 | **Next (500GB–1TB)** | Download FineWeb-edu subset, clean it, tokenize with BPE |
 | **Later (10TB+)** | Use VPS to batch-download Common Crawl snapshots, copy to local drives |

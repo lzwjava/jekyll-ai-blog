@@ -36,7 +36,7 @@ More precisely, the exact context window for GLM-5.1 is **202,752 tokens**, so y
 ### Direct Comparison
 
 | Model | Context Window | Parameters (Total / Active) |
-|---|---|---|
+| --- | --- | --- |
 | **DeepSeek-V4-Pro** | **1,000,000 tokens (1M)** | 1.6T / 49B |
 | **GLM-5.1** | **~202,752 tokens (~200K)** | 754B / 40B |
 

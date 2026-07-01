@@ -91,7 +91,7 @@ The concern that a manager will view this negatively is understandable but large
 ## Summary Checklist
 
 | Step | Action |
-|------|--------|
+| ------ | -------- |
 | Before applying | Discreetly speak to hiring manager to gauge fit |
 | While applying | Keep confidential; do not tell your current manager yet |
 | After interview offer | Proactively inform your manager; frame it as long-term commitment |

@@ -22,7 +22,7 @@ type: note
 ## 📊 磁盘 — ⚠️ 已使用 84%（剩余 142GB）
 
 | 类别 | 大小 |
-|---|---|
+| --- | --- |
 | 总计 | 916GB |
 | 已使用 | 728GB |
 | 可用 | 142GB |
@@ -41,7 +41,7 @@ type: note
 ## 🐳 所有容器均正常运行（19/19）
 
 | 容器 | CPU | 内存 | 状态 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | nextcloud-app-1 | 0% | 206MB | ✅ 健康 |
 | nextcloud-db-1 | 0% | 67MB | ✅ 健康 |
 | nextcloud-redis-1 | 1% | 7MB | ✅ 健康 |
@@ -99,7 +99,7 @@ Meilisearch 服务正在运行（chat-meilisearch 容器已启动），但 Libre
 ## 📋 快速待办事项
 
 | 优先级 | 任务 | 命令 |
-|---|---|---|
+| --- | --- | --- |
 | 中 | 清理 22.9GB 未使用镜像 | `docker system prune -a` |
 | 低 | 监控 Gitea 内存（980MB） | `docker stats gitea` |
 | 低 | 修复 LibreChat Meilisearch 同步 | 检查 LibreChat 的 `MEILISEARCH_` 环境变量 |

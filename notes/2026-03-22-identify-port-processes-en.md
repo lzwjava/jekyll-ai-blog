@@ -74,7 +74,7 @@ sudo netstat -tulpn | grep :18789
 Options explained:
 
 | Option | Meaning |
-|---|---|
+| --- | --- |
 | `-t` | TCP connections |
 | `-u` | UDP connections |
 | `-l` | Listening sockets only |
@@ -133,7 +133,7 @@ This directly outputs the **process name** without needing to look up the PID se
 ## Quick Reference Summary
 
 | OS | Command |
-|---|---|
+| --- | --- |
 | Linux (modern) | `sudo ss -lntp sport :18789` |
 | Linux (lsof) | `sudo lsof -i :18789` |
 | Linux (netstat) | `sudo netstat -tulpn \| grep :18789` |

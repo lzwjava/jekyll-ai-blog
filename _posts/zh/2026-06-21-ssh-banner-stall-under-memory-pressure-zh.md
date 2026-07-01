@@ -74,7 +74,7 @@ for result in pool.imap(worker_fn, files):
 ## 为什么 Ping 能工作而 SSH 不能
 
 | 操作 | 由谁处理 | 能否在内存饥饿下存活 |
-|---|---|---|
+| --- | --- | --- |
 | `ping` 回复（ICMP echo） | 内核网络栈 | ✅ 可以 |
 | TCP SYN-ACK（端口 22） | 内核 TCP 栈 | ✅ 可以 |
 | SSH 横幅 | sshd userspace 进程 | ❌ 不能 |

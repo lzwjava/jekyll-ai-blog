@@ -15,7 +15,7 @@ IBM WebSphere Application Server Liberty Profile（通常简称为WLP或Liberty�
 ### Spring Boot主导市场的关键原因
 
 | 原因 | Spring Boot优势 | Liberty/传统应用服务器劣势 |
-|------|-----------------|----------------------------|
+| ------ | ----------------- | ---------------------------- |
 | **开发效率与易用性** | 约定优于配置、自动配置、默认嵌入服务器（Tomcat/Jetty/Undertow）、`spring-boot-starter-*`消除模板代码。分钟级实现零配置生产就绪应用。 | 仍需配置server.xml、激活功能模块等手动操作（虽比完整版WAS轻量）。对多数开发者显得"过时"。 |
 | **独立可执行模式** | 含嵌入服务器的胖JAR包→通过`java -jar`随处运行，完美适配Docker/Kubernetes和DevOps。无需外部服务器管理。 | 主要作为独立服务器部署WAR/EAR（后期虽支持可运行JAR，但像附加功能且未成主流工作流）。 |
 | **生态与社区** | 庞大的开源社区（Pivotal/VMware）、海量第三方starter、优质文档、Stack Overflow解答和教程。 | 社区规模较小；主要依赖IBM文档和付费支持。现成集成方案有限。 |

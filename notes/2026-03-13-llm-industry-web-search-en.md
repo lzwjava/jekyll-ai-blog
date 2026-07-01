@@ -98,7 +98,7 @@ else:
 ### Summary: Which Approach When?
 
 | Approach | Latency | Cost | Flexibility | Use Case |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Native tool calling | Medium | Low (1 call) | High | Standard production |
 | Semantic router | Very fast | Very low | Medium | High-traffic, known intents |
 | Separate classifier LLM | Slow | High (2 calls) | High | Legacy or complex routing |

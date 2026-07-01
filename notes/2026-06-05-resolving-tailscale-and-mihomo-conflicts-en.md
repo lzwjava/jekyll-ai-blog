@@ -170,7 +170,7 @@ On Android with userspace mode, users use mihomo to route Tailscale's 100.x.x.x 
 ## Bottom Line
 
 | Setup | Conflicts? | Best For |
-|-------|-----------|----------|
+| ------- | ----------- | ---------- |
 | Mihomo (hysteria2) + Tailscale kernel mode | **High** | Don't combine |
 | Mihomo (hysteria2) + Tailscale userspace | **None** | China use case ✓ |
 | Hysteria2 tunnel → Tailscale inside | **None** | Maximum reliability |

@@ -61,7 +61,7 @@ Timing defines the transmission order and timing of data in the protocol — it 
 The question asks specifically what **semantics** is responsible for. The common mnemonic is:
 
 | Element | Responsibility | Analogy |
-|---|---|---|
+| --- | --- | --- |
 | Syntax | Data format & structure | "How to speak" |
 | **Semantics** | **Types & meaning of protocol elements; what control info to send, what actions to perform, what responses to make** | **"What to speak"** |
 | Timing | Order of events | "When to speak" |

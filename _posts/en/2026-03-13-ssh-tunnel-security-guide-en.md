@@ -24,7 +24,7 @@ Your setup uses a **local LAN IP address (`192.168.1.36`)** — this is a privat
 ### 1. `192.168.1.x` is a Private IP Address
 
 | IP Range | Type | Internet Accessible? |
-|---|---|---|
+| --- | --- | --- |
 | `192.168.0.0/16` | Private LAN | ❌ No |
 | `10.0.0.0/8` | Private LAN | ❌ No |
 | `172.16.0.0/12` | Private LAN | ❌ No |
@@ -124,7 +124,7 @@ Or change SSH to a non-standard port (e.g., 2222).
 ## Summary
 
 | Risk | Your Setup | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | OpenClaw dashboard exposed to internet | Bound to `127.0.0.1`, LAN IP only | ✅ Safe |
 | Port scanned by Shodan/bots | Private `192.168.1.x` not reachable | ✅ Safe |
 | LAN users can access dashboard | Only via your SSH tunnel | ✅ Safe |

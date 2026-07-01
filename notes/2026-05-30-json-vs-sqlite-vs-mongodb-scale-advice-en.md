@@ -38,7 +38,7 @@ That's maybe **500 records total per month**, read once per run, written once pe
 ## When you'd actually need a DB
 
 | Condition | SQLite | Mongo |
-|---|---|---|
+| --- | --- | --- |
 | 50+ contractors, querying across all | ✅ | ✅ |
 | Historical month-over-month trend analysis | ✅ | ✅ |
 | Multiple users writing concurrently | ✅ | ✅ |

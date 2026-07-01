@@ -66,7 +66,7 @@ The last line spoken by Mathilda: *"I think we'll be okay here, Léon."* — hea
 ### Why the Film Is So Intriguing
 
 | Element | Why It Works |
-|---|---|
+| --- | --- |
 | Jean Reno's performance | Stoic yet deeply emotional; a killer with a childlike innocence |
 | Gary Oldman's villain | Wildly over-the-top yet terrifying; one of cinema's best antagonists |
 | Natalie Portman's debut | Astonishingly mature performance for a 12-year-old |

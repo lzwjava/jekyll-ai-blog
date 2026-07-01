@@ -36,7 +36,7 @@ Those are **solid, practical suggestions** — but let me add some nuance:
 **5 min vs 2 min intervals — is it worth it?**
 
 | Factor | eval_interval=250 | eval_interval=100 |
-|--------|-------------------|-------------------|
+| -------- | ------------------- | ------------------- |
 | **Monitoring granularity** | Coarse | Fine |
 | **Compute overhead** | ~0.4% of steps | ~1% of steps |
 | **Signal clarity** | Cleaner curves | More noise per point |

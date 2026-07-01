@@ -56,7 +56,7 @@ Claude（以及 Claude Code）在**中国大陆被官方屏蔽**。Anthropic 不
 有几种不同的模式：
 
 | Type | How It Works | Risk Level |
-|---|---|---|
+| --- | --- | --- |
 | **Official API reseller** | Buys Anthropic API credits, resells at markup | Medium |
 | **Subscription sharing (Max pooling)** | One Max plan shared among many users | High — violates ToS |
 | **Third-party reverse-engineered** | Uses technical exploits/unofficial endpoints | Very High |

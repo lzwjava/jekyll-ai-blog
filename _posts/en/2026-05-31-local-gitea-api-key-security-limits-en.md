@@ -18,7 +18,7 @@ Significantly safer than GitHub, but still not the right tool for secrets. Here'
 ## Why Local Gitea Is Better Than GitHub
 
 | Risk | GitHub Private | Local Gitea |
-|---|---|---|
+| --- | --- | --- |
 | GitHub staff access | ✅ exists | ❌ eliminated |
 | GitHub breach | ✅ real risk | ❌ eliminated |
 | Accidental public exposure | ✅ one click | ❌ much harder |
@@ -164,7 +164,7 @@ export OPENROUTER_API_KEY=$(pass llm/openrouter)
 ## Summary
 
 | Approach | Safe? | Syncs across machines | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Local Gitea, plaintext | ⚠️ Low risk, but wrong tool | ✅ | History leakage, backup risk |
 | Local Gitea + `pass` (GPG) | ✅ Good | ✅ | Best of both worlds |
 | `.env` + `direnv`, no git | ✅ Good | Manual copy | Simple, no sync |

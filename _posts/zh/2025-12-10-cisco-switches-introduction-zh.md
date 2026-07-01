@@ -18,28 +18,28 @@ type: note
 
 ### 1. Cisco 交换机系列（截至 2025 年）
 
-| 系列              | 主要用例                          | 主要型号（示例）                  | 外形尺寸                  | 主要功能/定位 |
-|---------------------|-------------------------------------------|----------------------------------------|------------------------------|----------------------------|
-| **Catalyst 9000**   | 企业园区和分支机构（旗舰产品）     | 9200/9300/9400/9500/9600               | 固定式和模块化              | 意图导向网络，Cisco DNA Center，Wi-Fi 6/6E/7 支持，高级安全性 |
-| **Catalyst 8000**   | 边缘路由 + 交换                  | 8200/8300/8500                         | 固定式                        | SD-WAN 重点，高吞吐量路由 |
-| **Catalyst 1000**   | 小型企业/接入层             | 1000-8P, 1000-24T                      | 固定式 8–48 端口              | 价格实惠，基本 L2/L3，无风扇选项 |
-| **Catalyst 1200/1300** | SMB 和基本企业                  | 1200-8T, 1300-16P                      | 固定式                        | SF/SG 系列的继任者，现代 IOS-XE Lite |
-| **Meraki MS**       | 云管理交换                   | MS120, MS210, MS350, MS410, MS450      | 固定式和模块化              | 100% 云仪表板，零接触配置 |
-| **Nexus 9000**      | 数据中心（ACI 或 NX-OS 模式）           | 9200/9300/9500/9600                     | 固定式和模块化              | VXLAN/EVPN，10/25/40/100/400/800G，可编程 |
-| **Nexus 7000/7700** | 传统高端数据中心/核心        | 7004/7009/7010/7710                    | 大型模块化机箱        | 正在被 9000 系列取代 |
-| **Industrial Ethernet** | 恶劣环境（IE 系列）      | IE-2000, IE-3000, IE-4000, IE-5000, IE-9300 | DIN 导轨/坚固型         | 宽温，抗震，PROFINET 等。 |
-| **Catalyst 8000V / CSR1000v** | 虚拟交换机/路由器              | 仅软件                          | 虚拟机/容器               | 运行在任何虚拟机管理程序或云上 |
+| 系列 | 主要用例 | 主要型号（示例） | 外形尺寸 | 主要功能/定位 |
+| --------------------- | ------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------- |
+| **Catalyst 9000** | 企业园区和分支机构（旗舰产品） | 9200/9300/9400/9500/9600 | 固定式和模块化 | 意图导向网络，Cisco DNA Center，Wi-Fi 6/6E/7 支持，高级安全性 |
+| **Catalyst 8000** | 边缘路由 + 交换 | 8200/8300/8500 | 固定式 | SD-WAN 重点，高吞吐量路由 |
+| **Catalyst 1000** | 小型企业/接入层 | 1000-8P, 1000-24T | 固定式 8–48 端口 | 价格实惠，基本 L2/L3，无风扇选项 |
+| **Catalyst 1200/1300** | SMB 和基本企业 | 1200-8T, 1300-16P | 固定式 | SF/SG 系列的继任者，现代 IOS-XE Lite |
+| **Meraki MS** | 云管理交换 | MS120, MS210, MS350, MS410, MS450 | 固定式和模块化 | 100% 云仪表板，零接触配置 |
+| **Nexus 9000** | 数据中心（ACI 或 NX-OS 模式） | 9200/9300/9500/9600 | 固定式和模块化 | VXLAN/EVPN，10/25/40/100/400/800G，可编程 |
+| **Nexus 7000/7700** | 传统高端数据中心/核心 | 7004/7009/7010/7710 | 大型模块化机箱 | 正在被 9000 系列取代 |
+| **Industrial Ethernet** | 恶劣环境（IE 系列） | IE-2000, IE-3000, IE-4000, IE-5000, IE-9300 | DIN 导轨/坚固型 | 宽温，抗震，PROFINET 等。 |
+| **Catalyst 8000V / CSR1000v** | 虚拟交换机/路由器 | 仅软件 | 虚拟机/容器 | 运行在任何虚拟机管理程序或云上 |
 
 ### 2. Cisco 交换机上的操作系统
 
-| 操作系统                  | 用于                              | 主要特点 |
-|---------------------|--------------------------------------|---------------------|
-| **Classic IOS**     | 较旧的 Catalyst (2950, 3560, 3750 等) | 大多数情况下已达 EOL |
-| **IOS-XE**          | 所有现代 Catalyst 9000, 8000, 1000/1200 | 模块化，独立的控制/数据平面，In-Service Software Upgrade (ISSU) |
-| **IOS-XE Lite**     | Catalyst 1000/1200/1300              | 适用于 SMB 的精简版本 |
-| **NX-OS**           | Nexus 系列                         | 以数据中心为中心，功能丰富的 CLI, ISSU, 强大的 VXLAN/BGP-EVPN |
-| **Meraki Dashboard**| Meraki MS 交换机                   | 无本地 CLI (现在提供有限的 API/CLI)，100% 云 |
-| **ACI**             | ACI 模式下的 Nexus 9000               | Application Centric Infrastructure – 策略驱动，APIC 控制器 |
+| 操作系统 | 用于 | 主要特点 |
+| --------------------- | -------------------------------------- | --------------------- |
+| **Classic IOS** | 较旧的 Catalyst (2950, 3560, 3750 等) | 大多数情况下已达 EOL |
+| **IOS-XE** | 所有现代 Catalyst 9000, 8000, 1000/1200 | 模块化，独立的控制/数据平面，In-Service Software Upgrade (ISSU) |
+| **IOS-XE Lite** | Catalyst 1000/1200/1300 | 适用于 SMB 的精简版本 |
+| **NX-OS** | Nexus 系列 | 以数据中心为中心，功能丰富的 CLI, ISSU, 强大的 VXLAN/BGP-EVPN |
+| **Meraki Dashboard** | Meraki MS 交换机 | 无本地 CLI (现在提供有限的 API/CLI)，100% 云 |
+| **ACI** | ACI 模式下的 Nexus 9000 | Application Centric Infrastructure – 策略驱动，APIC 控制器 |
 
 ### 3. 第 2 层与第 3 层功能
 
@@ -49,16 +49,16 @@ type: note
 
 ### 4. 关键技术和功能
 
-| 功能                  | 描述                                                                 | 典型系列 |
-|--------------------------|-----------------------------------------------------------------------------|----------------|
-| StackWise / StackWise Virtual | 物理或逻辑堆叠（9600 上最高 480 Gbps 堆叠带宽）      | Catalyst 9300/9500/9600 |
-| Virtual Switching System (VSS) / Multichassis EtherChannel (MEC) | 较旧的多机箱技术（已大部分被 StackWise Virtual 取代）   | 6500/6800, 9400/9600 |
-| Cisco DNA Center / Catalyst Center | 意图导向网络、保证、自动化、遥测                 | Catalyst 9000 |
-| Encrypted Traffic Analytics (ETA) | 无需解密即可检测加密流量中的恶意软件                   | Catalyst 9000 |
-| Application Hosting (Docker/Kubernetes) | 直接在交换机上运行容器                                   | 9300/9400/9500/9600 |
-| 400G / 800G 光模块       | 最高密度数据中心交换                                       | Nexus 9300-EX/FX/GX/HX |
-| MACsec & TrustSec        | 链路层加密和基于 SGT 的策略执行                        | 大多数 Catalyst 9000 和 Nexus |
-| NetFlow / sFlow / Telemetry | 丰富的可视化功能                                                            | 所有现代平台 |
+| 功能 | 描述 | 典型系列 |
+| -------------------------- | ----------------------------------------------------------------------------- | ---------------- |
+| StackWise / StackWise Virtual | 物理或逻辑堆叠（9600 上最高 480 Gbps 堆叠带宽） | Catalyst 9300/9500/9600 |
+| Virtual Switching System (VSS) / Multichassis EtherChannel (MEC) | 较旧的多机箱技术（已大部分被 StackWise Virtual 取代） | 6500/6800, 9400/9600 |
+| Cisco DNA Center / Catalyst Center | 意图导向网络、保证、自动化、遥测 | Catalyst 9000 |
+| Encrypted Traffic Analytics (ETA) | 无需解密即可检测加密流量中的恶意软件 | Catalyst 9000 |
+| Application Hosting (Docker/Kubernetes) | 直接在交换机上运行容器 | 9300/9400/9500/9600 |
+| 400G / 800G 光模块 | 最高密度数据中心交换 | Nexus 9300-EX/FX/GX/HX |
+| MACsec & TrustSec | 链路层加密和基于 SGT 的策略执行 | 大多数 Catalyst 9000 和 Nexus |
+| NetFlow / sFlow / Telemetry | 丰富的可视化功能 | 所有现代平台 |
 
 ### 5. 许可（简化 – 2025）
 

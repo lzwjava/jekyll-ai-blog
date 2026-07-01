@@ -78,7 +78,7 @@ Now the AI has runtime truth, not just static guesses. The fix quality improves 
 ### Pro Tips
 
 | Tip | Detail |
-|---|---|
+| --- | --- |
 | **Tag your logs** | Use prefixes like `[DEBUG]`, `[FLOW]`, `[STATE]` to filter easily |
 | **Log before AND after** | Wrap suspicious operations to see input vs. output |
 | **Log in catch blocks** | Always log the full exception + context, not just `e.getMessage()` |

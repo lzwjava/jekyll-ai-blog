@@ -29,7 +29,7 @@ Outlook uses **Instant Search** with Keyword Query Language (KQL).
 
 #### Common Keywords (field operators)
 
-- **from:** sender (e.g., from:john@example.com)
+- **from:** sender (e.g., from:<john@example.com>)
 - **to:** recipient
 - **subject:** in subject line
 - **body:** in message body

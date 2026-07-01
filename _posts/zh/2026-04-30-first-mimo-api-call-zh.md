@@ -26,7 +26,7 @@ MiMo是小米的AI模型系列，由AI负责人罗福立（原DeepSeek成员）�
 主要可用模型：
 
 | 模型 | 特点 |
-|---|---|
+| --- | --- |
 | **mimo-v2.5-pro** | 1.02T参数的MoE模型，420亿活跃参数，混合注意力架构，100万令牌上下文窗口，在智能体/编码任务中表现最强 |
 | **mimo-v2.5** | 310B参数的稀疏MoE模型（150亿活跃参数），基于48T令牌训练，原生多模态（图像、视频、音频、文本），100万上下文 |
 | **mimo-v2-pro** | 旧版旗舰模型，100万令牌上下文，推理能力强 |
@@ -126,7 +126,7 @@ console.log(data.choices[0].message.content);
 ### 关键API参数
 
 | 参数 | 描述 |
-|---|---|
+| --- | --- |
 | `model` | 模型ID（例如 `mimo-v2-flash`、`mimo-v2.5-pro`） |
 | `messages` | `{role, content}`对象数组（system、user、assistant） |
 | `max_completion_tokens` | 生成的最大令牌数 |

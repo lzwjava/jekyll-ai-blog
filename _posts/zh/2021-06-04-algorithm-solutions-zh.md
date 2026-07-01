@@ -17,9 +17,9 @@ type: post
 
 一些在线评测平台中的算法问题解决方案。
 
-| 平台 | 解决的问题数量 |
-| ------------- | ------------- |
-|[UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
+|平台|解决的问题数量|
+|-------------|-------------|
+|[UVa](https://uhunt.onlinejudge.org/id/113519)|568|
 |[Codeforces](https://codeforces.com/profile/lzwjava)|419|
 |[LeetCode](https://leetcode.com/lzwjava/)|20|
 |[Hacker Rank](https://www.hackerrank.com/profile/lzwjava)|20(SQL)|
@@ -78,8 +78,8 @@ type: post
 
 已解决: 568, 提交: 1776
 
-| Q1 | Q2 | Q3|
-| ------------- | ------------- |-------------|
+| Q1 | Q2 | Q3 |
+| ------------- | ------------- | ------------- |
 | 100: The 3n + 1 Problem | 101: The Blocks Problem | 102: Ecological Bin Packing |
 | 103: Stacking Boxes | 104: Arbitrage | 105: The Skyline Problem |
 | 106: Fermat's Last Theorem | 107: The Cat in the Hat | 108: Maximum Sum |

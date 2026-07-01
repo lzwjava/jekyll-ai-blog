@@ -53,7 +53,7 @@ Gitea 是一个轻松、自托管的一体化软件开发服务。它包括 Git 
 ## 总结表格
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 原 fork 自 | Gogs (2016 年 11 月) |
 | 关键创始人 | Lunny Xiao, Matti Ranta |
 | 语言 | Go + TypeScript |

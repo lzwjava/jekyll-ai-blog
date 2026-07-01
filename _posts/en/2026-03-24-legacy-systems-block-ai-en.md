@@ -34,7 +34,7 @@ Every single one of these made sense **when they were created**. Now they're the
 ## 2. The Specific Ways Legacy Structure Blocks AI Adoption
 
 | Legacy System | Why It Made Sense Before | How It Blocks AI Now |
-|---|---|---|
+| --- | --- | --- |
 | Strict security/compliance | Humans are the attack surface | Blocks AI tools from accessing internal data AI needs |
 | Multi-layer approval | Humans make errors, need checks | AI can iterate 100x/day, approvals become bottlenecks |
 | Headcount-based budgeting | Work scales with people | AI decouples output from headcount |

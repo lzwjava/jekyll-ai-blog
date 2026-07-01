@@ -40,7 +40,7 @@ Your script hits `https://api.digitalocean.com/v2` with `AMD_DEV_CLOUD_API_KEY` 
 ## What AMD Adds
 
 | Layer | Who owns it |
-|---|---|
+| --- | --- |
 | Web portal UI | AMD (themed, different from cloud.digitalocean.com) |
 | GPU droplet SKUs (MI300X) | AMD (hardware + BIOS/driver config) |
 | API endpoint | DigitalOcean (unchanged) |

@@ -16,7 +16,7 @@ type: note
 **已完成的操作**
 
 | 操作 | 效果 |
-|---|---|
+| --- | --- |
 | `touch ~/Projects/.metadata_never_index` | Spotlight 将不再爬取 `~/Projects/` — 即您的 `node_modules`、开发仓库等内容 |
 | `touch ~/Library/Caches/.metadata_never_index` | 不会索引缓存文件 |
 | `touch ~/Downloads/.metadata_never_index` | 不会索引“下载”文件夹 |

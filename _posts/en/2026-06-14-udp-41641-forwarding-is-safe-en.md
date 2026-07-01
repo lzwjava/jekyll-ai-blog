@@ -38,7 +38,7 @@ Even if someone speaks WireGuard, they'd need to be in your Tailnet (authenticat
 **Attack surface comparison:**
 
 | Exposure | Risk |
-|----------|------|
+| ---------- | ------ |
 | SSH on public IP (port 22) | High — login brute force possible |
 | HTTP/HTTPS service | Medium — app vulns exposed |
 | UDP 41641 (WireGuard) | Very low — crypto-gated, silent drop |

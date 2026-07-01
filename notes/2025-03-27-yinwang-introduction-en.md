@@ -64,7 +64,7 @@ His blog covers critiques of mainstream tools and advocacy for simplicity. For e
 A table summarizing his GitHub contributions:
 
 | Repository | Description | Stars | Forks | URL |
-|------------|-------------|-------|-------|-----|
+| ------------ | ------------- | ------- | ------- | ----- |
 | pysonar2 | PySonar2: a semantic indexer for Python with interprocedual type inference | 1.4k | 504 | /yinwang0/pysonar2 |
 | rubysonar | A semantic indexer for Ruby with interprocedual type inference | 190 | 160 | /yinwang0/rubysonar |
 | yscheme | A compiler from Scheme into X64 | 188 | 116 | /yinwang0/yscheme |

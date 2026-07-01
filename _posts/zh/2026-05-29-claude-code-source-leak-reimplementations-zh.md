@@ -64,7 +64,7 @@ npx @ruvnet/open-claude-code "解释这个代码库"
 ## AI 工程师应该学习什么
 
 | 仓库 | 重要性 |
-|------|--------|
+| ------ | -------- |
 | `nano-claude-code` | 简洁的 Python agent 循环——从头到尾阅读源码 |
 | 泄露的 TypeScript 源代码 | 查看实际的系统提示、工具架构、自修复机制 |
 | `ruvnet/open-claude-code` | 生产质量的洁净室实现；MCP 传输实现的良好参考 |

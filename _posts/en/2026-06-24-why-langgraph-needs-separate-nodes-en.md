@@ -43,7 +43,7 @@ def tool_node(state: MessagesState):
 **You need two separate nodes because they do fundamentally different things:**
 
 | Node | Does | Who calls it |
-|------|------|-------------|
+| ------ | ------ | ------------- |
 | `agent` | LLM inference, decides next action | You (via graph) |
 | `tools` | Side effects — API calls, DB queries, code exec | Graph (after agent emits tool_calls) |
 

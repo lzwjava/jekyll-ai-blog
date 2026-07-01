@@ -78,7 +78,7 @@ Gemini CLI offers the most generous free tier at 1,000 requests/day with a 1M co
 ## Quick Comparison Summary
 
 | Tool | Stars (2026) | Best For | License | Cost |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **OpenCode** | 117K+ | Max model flexibility, terminal | MIT | Free (BYOK) |
 | **Cline** | 58K+ | VS Code IDE workflows | Apache 2.0 | Free (BYOK) |
 | **Aider** | 42K+ | Git-native, safe edits | Apache 2.0 | Free (BYOK) |

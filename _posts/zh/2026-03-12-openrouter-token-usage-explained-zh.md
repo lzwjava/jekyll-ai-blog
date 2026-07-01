@@ -30,7 +30,7 @@ type: note
 因此正确解释是：
 
 | Metric | Approx value |
-|---|---|
+| --- | --- |
 | Weekly tokens | ~13 trillion |
 | Daily tokens | ~1.8 trillion |
 
@@ -41,7 +41,7 @@ type: note
 增长极其迅速。
 
 | Time | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2024 | ~0.5T/week |
 | Early 2025 | ~1T/week |
 | Sept 2025 | ~5T/week |
@@ -104,7 +104,7 @@ AI agent → search → code → call APIs → think → retry → answer
 示例定价比较：
 
 | Model type | Price per million tokens |
-|---|---|
+| --- | --- |
 | Cheap open models | ~$0.30 |
 | Frontier models | ~$5–25 |
 
@@ -145,7 +145,7 @@ OpenRouter 位于许多工具的背后：
 ### 保守情景（每年 5×）
 
 | Year | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2026 | ~13T |
 | 2027 | ~60T |
 | 2028 | ~300T |
@@ -153,7 +153,7 @@ OpenRouter 位于许多工具的背后：
 ### 中等情景（每年 3×）
 
 | Year | Weekly tokens |
-|---|---|
+| --- | --- |
 | 2026 | ~13T |
 | 2027 | ~40T |
 | 2028 | ~120T |

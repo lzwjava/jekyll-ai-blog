@@ -38,7 +38,7 @@ Yes, TikTok and YouTube are far more international and public compared to region
 - **Visibility Example**: A video from Brazil can trend in the U.S. on TikTok, unlike WeChat's closed Moments.
 
 | Platform | MAUs (2025) | Primary Regions | Posting/Visibility Style | Blocked in China? |
-|----------|-------------|-----------------|---------------------------|-------------------|
+| ---------- | ------------- | ----------------- | --------------------------- | ------------------- |
 | Facebook | 3.07B | Global (esp. U.S., India) | High posting; public feeds | Yes |
 | WeChat | 1.3B | China (90%) | Daily messages/posts; private groups | N/A (Domestic) |
 | VK | 100M+ | Russia | Customizable profiles; friend-focused | No, but restricted elsewhere |

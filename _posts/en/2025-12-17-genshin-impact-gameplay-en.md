@@ -21,7 +21,7 @@ Genshin Impact is a free-to-play open-world action role-playing game (ARPG) deve
 ### Platforms
 
 | Platform | Availability |
-|----------|--------------|
+| ---------- | -------------- |
 | PC (Windows, Epic Games Store) | Yes |
 | iOS/Android (Mobile) | Yes |
 | PlayStation 4/5 | PS5: Yes (ongoing); PS4: Ending April 2026 |
@@ -44,7 +44,7 @@ You play as the Traveler (male or female), a star-crossed wanderer exploring wor
   Build teams around **elemental reactions** (e.g., Pyro + Hydro = Vaporize for big damage; Electro + Dendro = Aggravate).
 
 | Element | Color | Common Reaction Examples |
-|---------|--------|--------------------------|
+| --------- | -------- | -------------------------- |
 | Anemo (Wind) | Green | Swirl (spreads other elements) |
 | Geo (Earth) | Yellow | Crystallize (shields) |
 | Electro (Lightning) | Purple | Overload, Electro-Charged |

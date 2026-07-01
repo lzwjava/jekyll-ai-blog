@@ -85,7 +85,7 @@ Adds absolute search volume on top of Google Trends' 0–100 relative scores. Mo
 ## TL;DR
 
 | Option | Cost | Stability | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Official API | Free (alpha) | High | Need to apply |
 | pytrends | Free | Low | Breaks often |
 | SerpApi | Paid | High | Per-query pricing |

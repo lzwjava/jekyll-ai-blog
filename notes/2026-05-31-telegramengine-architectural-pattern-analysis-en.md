@@ -398,7 +398,7 @@ The `forceEncryptionIfNoSet` flag means encryption is opt-out, not opt-in. The `
 ## Summary of Architectural Patterns
 
 | Pattern | Where | Why |
-|---------|-------|-----|
+| --------- | ------- | ----- |
 | Facade + `_internal_*` | TelegramEngine | Isolate Postbox from consumers |
 | Wrapper class + `_as*` escape | EngineMediaResource | Type safety with escape hatch |
 | Type erasure + typed overloads | EngineData.subscribe | Heterogeneous collection with type recovery |

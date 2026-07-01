@@ -31,7 +31,7 @@ This is under the `approvals` section (lines 406-412), which also includes `time
 Hermes has a **command approval system** that intercepts potentially destructive shell commands (`rm -rf`, `git reset --hard`, `chmod -R 777`, etc.) and asks you to confirm before running them. There are three modes:
 
 | Mode | Behavior |
-|------|----------|
+| ------ | ---------- |
 | `manual` | Always prompt before flagged commands (default) |
 | `smart` | Use a small LLM to auto-approve low-risk commands, prompt on high-risk ones |
 | `off` / `false` | Skip all approval prompts — this is **yolo mode** |
@@ -54,7 +54,7 @@ Yolo mode only affects **dangerous-command approval prompts**. It does NOT chang
 ## How to use it
 
 | Method | Scope |
-|--------|-------|
+| -------- | ------- |
 | `hermes config set approvals.mode off` | **Persistent** — you just did this |
 | `hermes --yolo` | Per-invocation flag (one session) |
 | `export HERMES_YOLO_MODE=1` | Per-shell environment variable |

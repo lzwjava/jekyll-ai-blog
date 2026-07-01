@@ -15,7 +15,7 @@ type: note
 Hong Kong is a vibrant blend of East and West, where ancient traditions meet cutting-edge modernity. Below, I've curated top recommendations across your key interests, focusing on accessible, iconic spots. I've grouped them by category for clarity, with 2-3 must-visits per section. Each includes the English name, Chinese name (in Traditional Chinese characters, as used in HK), a brief why-to-visit, and practical tips. These are based on popular traveler consensus and local highlights.
 
 | Category | Spot (English) | Chinese Name | Why Visit & Tips |
-|----------|----------------|--------------|------------------|
+| ---------- | ---------------- | -------------- | ------------------ |
 | **History** | Hong Kong Museum of History | 香港歷史博物館 | Dive into 400 million years of HK's past, from dinosaurs to colonial era and handover—interactive exhibits make it engaging for all ages. Located in Tsim Sha Tsui; entry ~HK$10, open daily. |
 | **History** | Kowloon Walled City Park | 九龍寨城公園 | Reconstructed Qing Dynasty yamen amid gardens; tells the tale of the infamous lawless enclave turned slum. Serene spot in Kowloon; free entry, great for a peaceful walk. |
 | **History** | Tai Kwun | 大館 | Revitalized 19th-century prison and police barracks into a heritage site—explore cells, architecture, and rotating history exhibits. In Central; free core access, events often ticketed. |

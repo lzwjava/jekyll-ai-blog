@@ -44,7 +44,7 @@ Fred Brooks 在 1975 年编写了 **"The Mythical Man-Month"**，其中的核心
 通过使用 **AI tools (Claude Code, Copilot, Cursor 等)**，一个有能力的个人现在可以：
 
 | 任务 | Pre-AI | AI-Augmented |
-|---|---|---|
+| --- | --- | --- |
 | Boilerplate code | 数小时 | 数分钟 |
 | Debugging | 数小时 | 数分钟 |
 | Documentation | 数天 | 数小时 |

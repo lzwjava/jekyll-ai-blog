@@ -50,7 +50,7 @@ All subscription tiers provide identical Claude Cowork features — you pay for 
 ## Which Plan Should You Choose?
 
 | Use Case | Recommended Plan |
-|---|---|
+| --- | --- |
 | Occasional Cowork tasks | **Pro ($20/mo)** |
 | Daily moderate Cowork use | **Max 5x ($100/mo)** |
 | Heavy all-day Cowork workflows | **Max 20x ($200/mo)** |

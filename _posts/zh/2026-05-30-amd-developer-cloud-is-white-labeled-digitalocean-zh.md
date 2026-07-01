@@ -40,7 +40,7 @@ DigitalOcean 后端/数据库（相同的 Droplet/快照/卷基础设施）
 ## AMD 提供的部分
 
 | 层 | 归属方 |
-|---|---|
+| --- | --- |
 | 网页门户 UI | AMD（定制主题，与 cloud.digitalocean.com 不同） |
 | GPU Droplet SKU（MI300X） | AMD（硬件 + BIOS/驱动配置） |
 | API 端点 | DigitalOcean（未修改） |

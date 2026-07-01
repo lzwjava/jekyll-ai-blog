@@ -26,7 +26,7 @@ Here's the full report:
 ### Findings
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Callout device** | `/dev/cu.usbserial-1110` |
 | **Dialin device** | `/dev/tty.usbserial-1110` |
 | **TTY suffix** | `1110` (last 4 digits of USB serial number) |

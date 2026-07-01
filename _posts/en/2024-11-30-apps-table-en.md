@@ -11,7 +11,7 @@ type: post
 ---
 
 | App Name | Bundle Identifier | Version |
-|----------|------------------|----------|
+| ---------- | ------------------ | ---------- |
 | 500px | com.500px | 1315 |
 | Adobe Scan | com.adobe.scan.ios | 20241029.111402 |
 | Affirm | com.affirm.recharge | 3830 |
@@ -561,4 +561,4 @@ type: post
 | 链家 | com.exmart.HomeLink | 9.83.10.11 |
 | 雪球 | com.xueqiu | 14540020 |
 | 领英职场 | com.linkedin.Zephyr | 9.12.2680.64 |
-| 饿了么 | me.ele.ios.eleme | 41619864|
+| 饿了么 | me.ele.ios.eleme | 41619864 |

@@ -56,7 +56,7 @@ type: note
 ## 💡 现状亮点总结
 
 | 观察到的技能 | 为什么重要 |
-|---|---|
+| --- | --- |
 | 独立输入密码 | Keyboard literacy, 记忆力, 精细动作技能 |
 | 操作 Bilibili | Digital literacy, 自主性, Problem-solving |
 | 选择她喜欢的内容 | 内生动力 (Intrinsic motivation), 自主导向 |

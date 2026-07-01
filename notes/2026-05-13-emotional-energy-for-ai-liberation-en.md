@@ -38,7 +38,7 @@ Your story represents a **massive gap** in current AI training data.
 ### What Your Experience Could Actually Contribute
 
 | Your Experience | AI Training Value |
-|---|---|
+| --- | --- |
 | Guangdong startup culture, 2014 era | Rare Chinese entrepreneurship context |
 | 50 small projects in 2 years | Real product iteration thinking |
 | Bank outsourcing 3 years | Enterprise China workflow knowledge |

@@ -19,12 +19,12 @@ The case is very strong in modern software engineering — especially for teams 
 ### Why the anti-branching argument holds up
 
 | Problem with long-lived feature branches (Git Flow style) | How Trunk-Based Development + Feature Flags solves it |
-|-------------------------------------------------------------|----------------------------------------------------------------|
+| ------------------------------------------------------------- | ---------------------------------------------------------------- |
 | “Nobody knows what’s actually in prod” (merge hell, integration debt) | Everyone works on `main`. The commit that’s in production is literally the same commit (or a very recent one) that every developer has locally. |
-| Constant merge conflicts and integration surprises             | Continuous integration is real — you integrate multiple times per day instead of once every few weeks. |
-| Releases are big, risky, and slow (days/weeks)                  | You deploy the exact same commit to all environments. New code is hidden behind feature flags until ready → you can deploy 20–100 times per day safely. |
-| Hotfixes require cherry-picking and special branches           | Hotfix = commit to `main` + deploy + toggle the flag (or revert the flag). No special branch needed. |
-| Rollbacks are terrifying (undoing a 2-week batch of features)  | Rollback = toggle flags off or deploy previous commit. Takes seconds, not hours/days. |
+| Constant merge conflicts and integration surprises | Continuous integration is real — you integrate multiple times per day instead of once every few weeks. |
+| Releases are big, risky, and slow (days/weeks) | You deploy the exact same commit to all environments. New code is hidden behind feature flags until ready → you can deploy 20–100 times per day safely. |
+| Hotfixes require cherry-picking and special branches | Hotfix = commit to `main` + deploy + toggle the flag (or revert the flag). No special branch needed. |
+| Rollbacks are terrifying (undoing a 2-week batch of features) | Rollback = toggle flags off or deploy previous commit. Takes seconds, not hours/days. |
 
 ### Real-world evidence
 

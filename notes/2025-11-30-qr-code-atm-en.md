@@ -17,7 +17,7 @@ QR code-based cash withdrawals at ATMs (also known as cardless or UnionPay QR Ca
 Assuming "ABC bank" refers to the Agricultural Bank of China (a major state-owned bank), it supports this service through its mobile app and UnionPay-enabled ATMs. Below is an overview of support among major Chinese banks, based on official announcements and UnionPay network details. Most big four banks (and others) rolled out this feature starting around 2018–2019, aligning with UnionPay's push for mobile-first banking amid the rise of QR payments in China.
 
 | Bank | Supports QR Code ATM Withdrawal? | Launch/Start Date | Key Details |
-|------|----------------------------------|-------------------|-------------|
+| ------ | ---------------------------------- | ------------------- | ------------- |
 | **Agricultural Bank of China (ABC)** | Yes | Around 2018–2019 (exact date not publicly specified; aligns with UnionPay rollout) | Available via ABC mobile app at UnionPay ATMs. Users set withdrawal amount in app, scan ATM QR code, enter PIN. Supports RMB withdrawals; daily limit up to CNY 20,000. No card needed, but app activation required. |
 | **Industrial and Commercial Bank of China (ICBC)** | Yes | Early 2019 (launched via official announcement) | Pioneered as "QR Code Withdrawal Service." Scan QR on ATM using ICBC app; instant completion without physical token. Available at ICBC and UnionPay ATMs nationwide. Focuses on mobile banking integration. |
 | **Bank of China (BOC)** | Yes | 2018–2019 (part of UnionPay QR Cash expansion) | Supported through BOC mobile app and "UnionPay QR Cash" at BOC/UnionPay ATMs. Set instruction in app, scan ATM code, input PIN. Available in mainland, HK, and Macau; supports HKD/RMB. |

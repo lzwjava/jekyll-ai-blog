@@ -62,7 +62,7 @@ The mDNS part is particularly interesting — you didn't brute-force anything. T
 DNS-SD (Service Discovery) over mDNS gives you a full service record tree:
 
 | Record | What it told you |
-|--------|-----------------|
+| -------- | ----------------- |
 | `PTR` | Service name: `_openclaw-gw._tcp.local` |
 | `TXT` | `role=gateway`, `port=18789`, `hostname=openclaw.local` |
 | `SRV` | Canonical hostname + port mapping |

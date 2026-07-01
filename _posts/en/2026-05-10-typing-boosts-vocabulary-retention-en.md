@@ -68,7 +68,7 @@ Qwerty Learner is an innovative open-source tool designed to help users improve 
 ## Summary
 
 | Method | Cognitive Engagement | Memory Retention |
-|---|---|---|
+| --- | --- | --- |
 | Copy-Paste | Very Low | Poor |
 | Type Yourself | Medium-High | Good |
 | Handwrite | Highest | Best |

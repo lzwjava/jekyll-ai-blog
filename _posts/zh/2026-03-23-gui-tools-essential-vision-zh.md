@@ -57,7 +57,7 @@ type: note
 ### 📐 核心原则：CLI 与 GUI 是工具选择，而非输赢之争
 
 | 任务 | CLI 胜出 | GUI 胜出 |
-|---|---|---|
+| --- | --- | --- |
 | Automation / scripting | ✅ | |
 | Batch file processing | ✅ | |
 | Remote server work | ✅ | |

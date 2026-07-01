@@ -24,7 +24,7 @@ Claire Xenia Wolf（she/her，之前名为 Clifford Wolf）是一位**奥地利�
 ## 她所构建的项目
 
 | 项目 | 说明 |
-|---|---|
+| --- | --- |
 | **Yosys** | 开源 RTL 综合套件——硬件的 `gcc` |
 | **PicoRV32** | 用 Verilog 编写的简洁紧凑 RISC-V CPU——已用于实际硅片 |
 | **nextpnr** | 开源布局布线工具（FPGA 的链接器等价物） |
@@ -68,7 +68,7 @@ Claire Xenia Wolf（she/her，之前名为 Clifford Wolf）是一位**奥地利�
 ## 关注/阅读她的作品
 
 | | |
-|---|---|
+| --- | --- |
 | GitHub | [github.com/clairexen](https://github.com/clairexen) |
 | YosysHQ 组织 | [github.com/YosysHQ](https://github.com/YosysHQ) |
 | 网站 | [clifford.at](https://clifford.at)（较旧，仍有很好的项目介绍） |

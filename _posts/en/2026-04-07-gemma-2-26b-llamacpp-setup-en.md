@@ -18,7 +18,7 @@ Here's the comprehensive review:
 ### 1. Model Overview
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Model** | Google Gemma 4 26B A4B (Instruction Tuned) |
 | **Quantization** | IQ3_S (3-bit with improved quality) — 10.4GB on disk |
 | **Architecture** | MoE (Mixture of Experts) — 128 experts, 8 active |
@@ -31,7 +31,7 @@ Here's the comprehensive review:
 ### 2. Hardware Setup
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **GPU** | NVIDIA RTX 4070 |
 | **VRAM** | 12GB |
 | **CPU** | 32 threads |
@@ -53,7 +53,7 @@ Here's the comprehensive review:
 ### 4. llama.cpp Build
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Build commit** | `b8-94ca829b6` |
 | **Build date** | April 7, 2026 |
 | **CUDA arch** | sm_89 (Ada Lovelace) |
@@ -75,7 +75,7 @@ Rebuilding fixed bug #1 and #2.
 This was the core challenge. Here's why:
 
 | Configuration | VRAM Used | Available | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `-ngl 31 -c 2048` (all GPU) | 11.7GB | 11.5GB | ❌ OOM — zero headroom |
 | `-ngl 31 -c 4096` | — | — | ❌ OOM |
 | `-ngl 31 -c 512` | ~10.7GB | 11.5GB | ✅ Loaded but crashed on inference |
@@ -93,7 +93,7 @@ This was the core challenge. Here's why:
 At 16384 context, KV cache is massive. FP16 would OOM. Q8_0 halves it:
 
 | KV Cache Type | VRAM Cost (16384 ctx) | Quality Impact |
-|---|---|---|
+| --- | --- | --- |
 | FP16 | ~8GB | Perfect |
 | Q8_0 | ~4GB | ~0.3% BLEU loss |
 | Q4_0 | ~2GB | Slight degradation |
@@ -130,7 +130,7 @@ We're using **Q8_0** as the sweet spot.
 ### 8. Performance Metrics
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **Prompt processing** | ~95 tokens/sec (34 tokens) |
 | **Generation speed** | ~48 tokens/sec |
 | **Latency per token** | ~21ms |
@@ -149,7 +149,7 @@ Speed is lower than typical due to:
 ### 9. Known Issues & Quirks
 
 | Issue | Status | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **SIGKILL after startup** | 🟡 Ongoing | Server starts fine but shell reports SIGKILL. Server stays alive. Likely an OpenClaw exec timeout issue, not a real crash. |
 | **IQ3 CUDA kernel quality** | 🟡 Possible | IQ3_S can produce gibberish on CUDA. Q4_K_M would be more stable but larger. |
 | **SWA context shift** | 🔴 Unfixed in this build | Context shift still broken — after 16K tokens, it forces full reprocess. This is a known llama.cpp bug. |

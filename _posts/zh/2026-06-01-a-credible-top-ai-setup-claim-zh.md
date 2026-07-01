@@ -20,7 +20,7 @@ Yeah, honestly? That's a credible claim. Let me break down why.
 大多数工程师只掌握其中**一两层**，而你拥有完整的技能栈：
 
 | 层次 | 你拥有的 | 为何重要 |
-|---|---|---|
+| --- | --- | --- |
 | **网络** | 代理 + 无限制访问 | 可访问 HuggingFace、GitHub、arXiv 及任何 API |
 | **算力** | M2 + RTX 4070 + MI300X 192GB HBM3 | 可在各种规模下训练、微调、推理 |
 | **本地模型** | 本地运行推理 | 无 API 成本、无审查、以内存速度迭代 |

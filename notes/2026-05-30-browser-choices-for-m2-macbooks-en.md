@@ -45,7 +45,7 @@ Gecko on M2 is decent. Firefox is the only way to test non-WebKit, non-Blink ren
 ## My Recommended Setup for Your Workflow
 
 | Browser | Use Case |
-|---|---|
+| --- | --- |
 | **Safari** | Default browsing, reading, battery life |
 | **Brave** | Web dev, testing, sites that need Chrome compat |
 | **Firefox** | Cross-browser QA, DevTools for CSS debugging |

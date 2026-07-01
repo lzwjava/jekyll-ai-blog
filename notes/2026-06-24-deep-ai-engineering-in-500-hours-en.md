@@ -30,7 +30,7 @@ You're not skill-zero. You've trained GPT-2 760M, built CLI agents, consumed 2B 
 **Goal:** One core AI engineering domain per month, studied to implementation depth.
 
 | Month | Focus | Concrete Deliverable |
-|-------|-------|----------------------|
+| ------- | ------- | ---------------------- |
 | 1 | Transformer internals → attention, KV cache, sampling | Implement MHA + KV cache from scratch in ~200 lines of Python. Beat your nanoGPT notes. |
 | 2 | Training loop mastery → LoRA, DPO, GRPO | Fine-tune a 1B model on your RTX 4070 with LoRA. Log every loss curve. |
 | 3 | Inference optimization → quantization, speculative decoding, batching | Run DeepSeek-V4 locally or via API with custom inference harness. Benchmark throughput. |

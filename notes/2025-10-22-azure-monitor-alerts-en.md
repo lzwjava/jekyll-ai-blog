@@ -20,13 +20,13 @@ Alerts are stateful (they resolve automatically when the issue clears) or statel
 
 Azure Monitor supports several alert types tailored to different data sources:
 
-| Alert Type              | Description | Best For |
-|-------------------------|-------------|----------|
-| **Metric Alerts**      | Evaluate numerical metrics (e.g., CPU percentage, disk space) at regular intervals. Supports static or dynamic thresholds (AI-based). | Performance monitoring of VMs, databases, or apps. |
-| **Log Search Alerts**  | Run queries on Log Analytics data to detect patterns in logs. | Complex event analysis, like error spikes in application logs. |
-| **Activity Log Alerts**| Trigger on administrative or operational events (e.g., resource creation/deletion). | Security and compliance auditing. |
+| Alert Type | Description | Best For |
+| ------------------------- | ------------- | ---------- |
+| **Metric Alerts** | Evaluate numerical metrics (e.g., CPU percentage, disk space) at regular intervals. Supports static or dynamic thresholds (AI-based). | Performance monitoring of VMs, databases, or apps. |
+| **Log Search Alerts** | Run queries on Log Analytics data to detect patterns in logs. | Complex event analysis, like error spikes in application logs. |
+| **Activity Log Alerts** | Trigger on administrative or operational events (e.g., resource creation/deletion). | Security and compliance auditing. |
 | **Smart Detection Alerts** | AI-driven anomaly detection for web apps via Application Insights. | Automatic issue spotting in apps. |
-| **Prometheus Alerts**  | Query Prometheus metrics in managed services like AKS. | Container and Kubernetes environments. |
+| **Prometheus Alerts** | Query Prometheus metrics in managed services like AKS. | Container and Kubernetes environments. |
 
 For most use cases, start with metric or log alerts.
 

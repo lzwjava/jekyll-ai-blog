@@ -34,7 +34,7 @@ However, since you only spend S$200/year, you won't hit that waiver threshold �
 **Why FRANK suits your profile:**
 
 | Feature | FRANK Card |
-|---|---|
+| --- | --- |
 | Annual fee | Free for 2 years, then ~S$80/year (waivable) |
 | Min. income required | S$30,000 (SG/PR aged 21–54) |
 | Min. monthly spend for cashback | S$800/month for enhanced rate |
@@ -59,7 +59,7 @@ However, this card has a higher annual fee (~S$196/year), so it's less ideal if 
 ## ❌ Cards to Avoid for Your Use Case
 
 | Card | Why It Doesn't Fit |
-|---|---|
+| --- | --- |
 | OCBC 365 | Requires S$800 minimum spend per month — you'd never unlock the cashback |
 | OCBC 90°N | Annual fee S$196+, mainly for frequent travellers |
 | OCBC NXT | Requires at least S$1,000/month spend for perks |

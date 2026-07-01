@@ -35,7 +35,7 @@ Smart people went there not just for money but because it felt like *the establi
 **Mobile/Cloud window: ~2008–2015** — they missed it almost entirely.
 
 | What fintechs did | What big banks did |
-|---|---|
+| --- | --- |
 | Mobile-first UX from day 1 | Bolted mobile onto 30-year-old core banking systems |
 | Cloud-native infrastructure | On-prem mainframes (some still running COBOL) |
 | API-first design | Monolithic, siloed systems |
