@@ -12,7 +12,7 @@ type: note
 Done on `lzwjava@192.168.1.57` (Fedora 44 / GNOME):
 
 | Setting | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | Screensaver idle activation | `true` | **`false`** |
 | Lock screen | `true` | **`false`** |
 | Suspend on AC timeout | 900s (15 min) | **0 (never)** |

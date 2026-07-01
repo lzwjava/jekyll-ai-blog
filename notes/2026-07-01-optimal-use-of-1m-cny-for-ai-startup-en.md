@@ -18,7 +18,7 @@ Good, this is a real capital allocation problem, not a fantasy list. Let me rank
 **TL;DR ranking:**
 
 | Priority | Item | Amount | Why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Mortgage paydown | 400K CNY | Guaranteed risk-free return = your mortgage rate. Directly shortens time-to-500K-threshold, i.e., time-to-startup-permission. |
 | 2 | HK Ltd company + banking | ~15K HKD (~14K CNY) | Cheapest, highest-leverage unlock — see below |
 | 3 | Compute (rented, not bought) | 150K CNY | Funds ~2-3 years of serious training runs at current burn |

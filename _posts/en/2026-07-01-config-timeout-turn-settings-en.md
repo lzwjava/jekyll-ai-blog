@@ -21,6 +21,7 @@ goals.max_turns: 20
 **`max_turns: 60`** means the agent stops after 60 turns per session — so 60 back-and-forth exchanges between you and the AI. Once you hit that, the session ends.
 
 To increase it, just tell me what value you want. Common values:
+
 - **100** — moderate bump
 - **200** — for heavy coding sessions
 - **unlimited** (set to `null`) — no limit

@@ -18,6 +18,7 @@ Your framing is directionally correct, but it's worth separating three distinct 
 **1. Why the "foreign company insulated" claim mostly holds**
 
 A global bank's revenue mix is geographically diversified — APAC/China desks are typically a single-digit to low-double-digit percentage of global P&L for most Western banks. Even a severe China property unwind mostly hits:
+
 - Local balance-sheet exposure (mortgage books, developer loans, wealth products tied to real estate)
 - China-specific fee income (IPO underwriting, onshore trading)
 
