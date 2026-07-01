@@ -19,7 +19,7 @@ Based on a thorough reading of Zhiwei Li's resume and job search post, here is a
 
 ## 🎯 Overview of Context
 
-Zhiwei is an AI Engineer at HSBC (via TEKsystems), actively looking for a more AI-centric role. He has 12 years of experience spanning iOS, Android, frontend, backend, and AI. He's ranked top 6% in AI assistant usage at his current employer and has consumed ~1.5 billion tokens via LLM APIs in the past year. His compensation target is 30,000–45,000 CNY/month in mainland China.
+Zhiwei is an AI Engineer at HSBC (via TEKsystems), actively looking for a more AI-centric role. He has 12 years of experience spanning iOS, Android, frontend, backend, and AI. He's ranked top 6% in AI assistant usage at his current employer and has consumed ~3 billion tokens via LLM APIs in the past year. His compensation target is 30,000–45,000 CNY/month in mainland China.
 
 ---
 

@@ -40,4 +40,4 @@ I was fired or laid off by three times though I later kept good contact with ori
 
 I encountered like one million of compliation error or bug issue.
 
-I have built or participated in many software projects, both in corporate settings and personally. I love open source and sharing knowledge, and I value innovation deeply. In the past year, I consumed 1.5 billion tokens, and I trained and ran inference on models using an RTX 4070 and an H200.
+I have built or participated in many software projects, both in corporate settings and personally. I love open source and sharing knowledge, and I value innovation deeply. In the past year, I consumed 3 billion tokens, and I trained and ran inference on models using an RTX 4070 and an H200.

@@ -24,7 +24,7 @@ On popularity:
 - Scale: the platform covers more than 120 large language models through a single OpenAI-compatible and Anthropic-compatible API and makes every new model available on release day.
 - Benchmarks back the marketing somewhat — on Artificial Analysis' GPT-OSS-120B provider benchmarks (April 2026), Novita ranked #1 on GPQA Diamond at 79.0%, hit 93.3% on AIME 2025, and placed #5 on IFBench at 68.9%.
 
-Practical angle for you: it's a real competitor to Together AI / Fireworks / Groq, positioned on cost (claims up to 50% cheaper) and day-0 model availability. Since you already burn ~2B tokens through OpenRouter, the interesting move is to A/B Novita's direct endpoint against your current routes for the open models you use most (DeepSeek V4, Qwen, GLM) — OpenAI-compatible API means it's a one-line `base_url` swap:
+Practical angle for you: it's a real competitor to Together AI / Fireworks / Groq, positioned on cost (claims up to 50% cheaper) and day-0 model availability. Since you already burn ~3B tokens overall across providers, the interesting move is to A/B Novita's direct endpoint against your current routes for the open models you use most (DeepSeek V4, Qwen, GLM) — OpenAI-compatible API means it's a one-line `base_url` swap:
 
 ```python
 from openai import OpenAI

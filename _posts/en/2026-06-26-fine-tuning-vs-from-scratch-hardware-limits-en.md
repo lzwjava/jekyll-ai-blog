@@ -62,7 +62,7 @@ So the real AI-native play isn't "fine-tune V4 on finance." It's: **use a fronti
 
 2. **For the next project, do the distillation play, not raw fine-tuning:**
    - Take a few thousand 10-K sections from your corpus.
-   - Use V4-Pro or Opus via API to generate task pairs (QA, extraction, summarization) — you already consume 2B tokens/yr, this is cheap.
+   - Use V4-Pro or Opus via API to generate task pairs (QA, extraction, summarization) — you already consume 3B tokens/yr, this is cheap.
    - LoRA a Qwen3-8B or Llama-3.1-8B on the 4070 first (fast iteration), then scale to V4-Flash LoRA on the MI300X if the small one shows signal.
    - **This gives you a real eval**: held-out task accuracy, not perplexity. Far more persuasive internally than either a loss curve or "it sounds like a 10-K."
 

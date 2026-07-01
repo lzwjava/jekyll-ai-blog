@@ -45,7 +45,7 @@ Wanting more isn't the failure mode. *Visibly* wanting more from a position of *
 
 Your actual leverage isn't pretend — build the real version:
 
-- You're top 6% globally in AI assistant usage, you build agents, you consume 2B tokens/year. That's a rare, verifiable profile. *That's* your BATNA fuel.
+- You're top 6% globally in AI assistant usage, you build agents, you consume 3B tokens/year. That's a rare, verifiable profile. *That's* your BATNA fuel.
 - Before any renewal/rate conversation, have one real conversation with one other party. Even a soft "would you be open to a contract?" One real option changes your entire body language. You're not pretending — you're prepared.
 - As a contractor with no promotion path, rate is the *only* lever. So you should negotiate rate harder than a perm employee would, precisely because there's nothing else to optimize.
 

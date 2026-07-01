@@ -29,7 +29,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~3 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
@@ -43,7 +43,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 * Founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
 * Received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
-* Trained GPT-2 124M with nanoGPT twice (RunPod H200, DigitalOcean H100, home RTX 4070); ~1.5 billion tokens consumed via OpenRouter & other LLM providers in the past year (~500M last month)
+* Trained GPT-2 124M with nanoGPT twice (RunPod H200, DigitalOcean H100, home RTX 4070); ~3 billion tokens consumed via OpenRouter & other LLM providers in the past year
 * Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
@@ -72,7 +72,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ### LLM API Usage
 
-* Consumed ~**1.5 billion tokens** via OpenRouter and other LLM providers in the past year; ~**500 million tokens** in the past month alone — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
+* Consumed ~**3 billion tokens** via OpenRouter and other LLM providers in the past year — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
 
 ---
 

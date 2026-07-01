@@ -58,7 +58,7 @@ Note: the self-hosted distribution lives in a separate repo (`plausible/communit
 
 **Why it's worth a look for you specifically**
 
-1. Production Elixir + ClickHouse is a clean reference architecture for any high-write, read-aggregate system — directly transferable if you ever build an LLM-usage/telemetry analytics layer (you're consuming ~2B tokens; you'd want exactly this shape of store for per-request event analytics).
+1. Production Elixir + ClickHouse is a clean reference architecture for any high-write, read-aggregate system — directly transferable if you ever build an LLM-usage/telemetry analytics layer (you're consuming ~3B tokens in total; you'd want exactly this shape of store for per-request event analytics).
 2. The ClickHouse event schema and query patterns are a compact, real lesson in OLAP design.
 3. The privacy/no-cookie counting approach (how they dedupe unique visitors without persistent IDs — a daily-rotating salted hash of IP + user-agent + domain) is a neat constraint-driven design.
 

@@ -28,7 +28,7 @@ I maintain a public knowledge base at [lzwjava.github.io/notes-en](https://lzwja
 
 ## My Philosophy
 
-I've deeply integrated AI into my workflow — building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, embeddings, and evaluation, exploring how AI reshapes software engineering. I've trained small LLMs on RTX 4070 and AMD MI300X GPUs, and consumed ~2B tokens/year through OpenRouter and other providers.
+I've deeply integrated AI into my workflow — building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, embeddings, and evaluation, exploring how AI reshapes software engineering. I've trained small LLMs on RTX 4070 and AMD MI300X GPUs, and consumed ~3B tokens/year through OpenRouter and other providers.
 
 My philosophy is inspired by independent thinkers like Yin Wang — truth-seeking, intellectual honesty, first-principles thinking. I prefer simple, understandable systems over unnecessary complexity. I'm drawn to open-source software, self-hosting, and technologies that enhance individual freedom, autonomy, and long-term sustainability. As a self-taught, product-minded engineer, I value autonomy, deep thinking, and hands-on execution over process overhead.
 
@@ -76,7 +76,7 @@ While the mortgage is high and family doesn't support a startup, the strategy is
 
 7. **Family persuasion through results, not arguments.** Wife and parents want security. Don't argue — show. "I built this tool, it has 500 users, it earns X/month" is more persuasive than any pitch deck. When the numbers speak, resistance drops.
 
-8. **AI-first leverage.** You consume 2B tokens/year and build agents. Use that. Automate everything at work that can be automated. Free up time. Then use that time to build. The startup itself should be AI-native — one person with AI agents can do what a 5-person team did in 2020.
+8. **AI-first leverage.** You consume 3B tokens/year and build agents. Use that. Automate everything at work that can be automated. Free up time. Then use that time to build. The startup itself should be AI-native — one person with AI agents can do what a 5-person team did in 2020.
 
 ## How You Should Answer
 

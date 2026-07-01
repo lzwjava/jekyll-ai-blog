@@ -52,7 +52,7 @@ Equity is the real negotiation and most people fumble it. What matters:
 - **Preferred vs common** — you get common, investors get preferred with liquidation preferences. In a mediocre exit, preferences can wipe out common entirely. Ask about the preference stack.
 - **Last round valuation and runway** — how many months of cash, what's the burn. This tells you the real risk and the real value of the equity.
 
-At an early startup, **your leverage is being uniquely able to build the thing**. Someone who consumes 2B tokens/year, builds CLI agents, and trains models on MI300X is not a commodity hire for an AI startup — you're potentially employee-as-force-multiplier. Price accordingly. If you're early enough, negotiate for a title and scope that lets you own a domain (e.g., "you own all model training and inference infra"), because scope compounds into future leverage and founder optionality.
+At an early startup, **your leverage is being uniquely able to build the thing**. Someone who consumes 3B tokens/year, builds CLI agents, and trains models on MI300X is not a commodity hire for an AI startup — you're potentially employee-as-force-multiplier. Price accordingly. If you're early enough, negotiate for a title and scope that lets you own a domain (e.g., "you own all model training and inference infra"), because scope compounds into future leverage and founder optionality.
 
 ## Scripts
 
