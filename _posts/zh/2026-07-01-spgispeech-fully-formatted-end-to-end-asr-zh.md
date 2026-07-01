@@ -70,6 +70,7 @@ class ConvModule(nn.Module):
 ```
 
 论文中两个模型变体：
+
 - **Conformer (ESPnet)**：编码器-解码器，RNN-T风格（12个编码器块，6个Transformer解码器块，推理时自回归——速度较慢）。
 - **Conformer-CTC (NeMo)**：相同编码器，但使用线性解码器 + **CTC损失**替代自回归解码器。非自回归 → 推理速度更快，因为整个输出序列在单次前向传播中通过单调对齐假设进行评分/解码。
 

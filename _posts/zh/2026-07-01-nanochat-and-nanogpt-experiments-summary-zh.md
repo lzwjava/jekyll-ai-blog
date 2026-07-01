@@ -30,6 +30,7 @@ type: note
 **阶段2 — Chinchilla运行（87k→200k步骤）：** `run_rtx4070_chinchilla.sh` 计划87k步（约57亿token），然后 `run_d12_130k.sh` 从87k恢复至130k。实际进行了更远：
 
 每10k步的检查点位于 `base_checkpoints/d12/`：
+
 | 步骤 | 日期 |
 |------|------|
 | 130k | 6月7日 |
@@ -44,6 +45,7 @@ type: note
 总计约131亿token（200k × 65,536）。每个检查点792MB（模型）+ 1.2GB（优化器）。损失在约3.0处趋于平稳——模型仍在学习，但损失曲线变平，这意味着要么（a）数据多样性已耗尽，（b）学习率调度需要调整，或者（c）286M容量在此数据分布上已饱和。
 
 **阶段3 — 评估结果（约10k新模型）：**
+
 - ARC Easy: 25.63% — 接近随机（25%）
 - ARC Challenge: 25.77% — 接近随机
 - MMLU: 25.26% — 接近随机（25%）
@@ -122,6 +124,7 @@ type: note
 你从130k到200k有8个检查点，但从未进行过适当的评估扫描。d12训练达到了200k步（约130亿token），这大约是数据与参数比的45倍——对于286M而言低于Chinchilla最优（约20倍），因此从技术上来说模型在其容量下训练不足。但平坦的损失曲线（约3.0）表明收益递减。
 
 **先做这个：** 在200k检查点上运行 `scripts.base_eval`，看看损失改善是否转化为任何基准测试相对于10k检查点的提升：
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 python -m scripts.base_eval --device-batch-size=8 --model-tag=d12-fresh

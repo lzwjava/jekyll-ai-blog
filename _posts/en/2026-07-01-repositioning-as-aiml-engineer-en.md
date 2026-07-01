@@ -89,6 +89,7 @@ Current: "5 or more years: Chinese, English, Writing, Java, Algorithm..."
 Add an explicit AI/ML line at the very top of the skills section:
 
 **AI and Machine Learning:**
+
 - Model Training: PyTorch, CUDA, ROCm, nanoGPT architecture, FlashAttention, DDP, multi-GPU training
 - LLM Systems: OpenAI API, Claude API, OpenRouter, vLLM, llama.cpp, prompt engineering, RAG, embeddings
 - Tooling: Copilot API, Claude Code, Codex, Hermes Agent, custom CLI agents

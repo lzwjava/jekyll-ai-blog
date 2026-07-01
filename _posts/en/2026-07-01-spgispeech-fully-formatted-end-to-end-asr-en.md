@@ -74,6 +74,7 @@ class ConvModule(nn.Module):
 ```
 
 Two model variants in the paper:
+
 - **Conformer (ESPnet)**: encoder-decoder, RNN-T style (12 encoder blocks, 6 transformer decoder blocks, autoregressive at inference — slower).
 - **Conformer-CTC (NeMo)**: same encoder, but a linear decoder + **CTC loss** instead of the autoregressive decoder. Non-autoregressive → much faster inference, since the whole output sequence is scored/decoded in one forward pass with a monotonic alignment assumption.
 

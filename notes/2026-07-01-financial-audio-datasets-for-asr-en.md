@@ -27,6 +27,7 @@ There's now also a v2 extension aimed at speaker-tagged/multi-talker ASR: SPGISp
 
 **2. Earnings-21 / Earnings-22 — best for long-form eval, not training**
 These are your held-out benchmark sets, not training corpora — small and deliberately diverse in accent/region.
+
 - Earnings-21 is a 39-hour corpus of company earnings calls over various financial sections.
 - Earnings-22 contains 125 files totalling roughly 119 hours of English-language earnings calls from global countries, spanning speakers from seven different language regions and 27 unique countries, providing full audio, transcripts, and metadata such as ticker symbol and headquarters country. It's intended as a test-only split — good for measuring WER under accent stress, exactly the kind of long-form/noisy-domain case where Whisper-v3 still leads: Whisper-v3 consistently achieves the lowest WER, in the range of approximately 12%-16% on long financial audio ASR, with GPT-4o-audio as second-best.
 

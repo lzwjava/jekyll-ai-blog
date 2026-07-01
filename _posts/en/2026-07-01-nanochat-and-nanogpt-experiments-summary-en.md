@@ -34,6 +34,7 @@ Checkpoints at `base_checkpoints/d8/` steps 1k and 5k. The SFT step ran as well 
 **Phase 2 — Chinchilla run (87k→200k steps):** `run_rtx4070_chinchilla.sh` planned 87k steps (~5.7B tokens), then `run_d12_130k.sh` resumed from 87k to 130k. Actually went further:
 
 Checkpoints every 10k in `base_checkpoints/d12/`:
+
 | Step | Date |
 |------|------|
 | 130k | Jun 7 |
@@ -48,6 +49,7 @@ Checkpoints every 10k in `base_checkpoints/d12/`:
 Total ~13.1B tokens seen (200k × 65,536). Each checkpoint 792MB (model) + 1.2GB (optimizer). Loss plateaus at ~3.0 — the model is still learning but the loss curve is flattening, which either means (a) data diversity is exhausted, (b) learning rate schedule needs adjustment, or (c) the 286M capacity is saturated on this data distribution.
 
 **Phase 3 — Eval results (at ~10k fresh model):**
+
 - ARC Easy: 25.63% — near random (25%)
 - ARC Challenge: 25.77% — near random
 - MMLU: 25.26% — near random (25%)
@@ -126,6 +128,7 @@ Larger architecture. Checkpoint at `out-gpt2-200m/ckpt.pt` (~2.5GB). train.log i
 You have 8 checkpoints from 130k to 200k but never ran a proper eval sweep. The d12 training reached 200k steps (~13B tokens) which is roughly 45x data-to-params ratio — below Chinchilla-optimal (~20x) for 286M, so the model is technically under-trained for its capacity. But the flat loss curve (~3.0) suggests diminishing returns.
 
 **Do this first:** Run `scripts.base_eval` on the 200k checkpoint to see if loss improvement translates to any benchmark gain over the 10k checkpoint:
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 python -m scripts.base_eval --device-batch-size=8 --model-tag=d12-fresh

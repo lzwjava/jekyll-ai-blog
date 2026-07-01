@@ -89,6 +89,7 @@ type: note
 在技能部分最顶部增加一行明确的AI/ML内容：
 
 **人工智能与机器学习：**
+
 - 模型训练：PyTorch, CUDA, ROCm, nanoGPT架构, FlashAttention, DDP, 多GPU训练
 - LLM系统：OpenAI API, Claude API, OpenRouter, vLLM, llama.cpp, 提示工程, RAG, 嵌入
 - 工具：Copilot API, Claude Code, Codex, Hermes Agent, 自定义CLI agent
