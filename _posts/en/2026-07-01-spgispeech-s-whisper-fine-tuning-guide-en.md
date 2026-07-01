@@ -14,7 +14,7 @@ All tested and working. Here's the summary:
 **SPGISpeech S — ready for Whisper fine-tuning**
 
 | Item | Value |
-|---|---|
+| --- | --- |
 | Train | 77,073 samples |
 | Validation | 39,304 (eval on 500) |
 | Test | 39,341 (eval on 2,000) |
@@ -36,6 +36,7 @@ tmux new-session -s whisper \; send-keys 'cd /mnt/data/zz/spgispeech && source .
 ```
 
 **Options you may want to tweak:**
+
 - `--model medium` — if you want better accuracy (might need `--batch-size 8`)
 - `--freeze-encoder` — faster training, only trains the decoder
 - `--epochs 1` — quick run first to validate WER improvement

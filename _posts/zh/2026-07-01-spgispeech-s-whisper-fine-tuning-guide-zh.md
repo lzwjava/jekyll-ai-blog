@@ -14,7 +14,7 @@ type: note
 **SPGISpeech S — 已准备好用于 Whisper 微调**
 
 | 项目 | 数值 |
-|---|---|
+| --- | --- |
 | 训练集 | 77,073 条样本 |
 | 验证集 | 39,304 条（评估时使用 500 条） |
 | 测试集 | 39,341 条（评估时使用 2,000 条） |
@@ -36,6 +36,7 @@ tmux new-session -s whisper \; send-keys 'cd /mnt/data/zz/spgispeech && source .
 ```
 
 **可根据需要调整的参数：**
+
 - `--model medium` — 如需更高准确率（可能需要将 `--batch-size` 改为 8）
 - `--freeze-encoder` — 训练更快，仅训练解码器
 - `--epochs 1` — 先快速跑一轮，验证 WER 是否改善

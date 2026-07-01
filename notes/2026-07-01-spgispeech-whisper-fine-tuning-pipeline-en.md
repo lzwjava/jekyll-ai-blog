@@ -20,7 +20,7 @@ Here's the full breakdown of what was built and why.
 SPGISpeech is a corpus of financial earnings call transcripts produced by Kensho Technologies. The **S (small)** config is a clean 155,718 utterance subset:
 
 | Split | Shards | Samples | Size |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | train | 6 parquet files | 77,073 | ~22 GB |
 | validation | 3 parquet files | 39,304 | ~11 GB |
 | test | 3 parquet files | 39,341 | ~11 GB |
@@ -35,6 +35,7 @@ transcript: string            # English text
 ```
 
 **Audio properties** — Extracted by reading the WAV header from the `bytes` field:
+
 - Sample rate: 16 kHz (confirmed via WAV header bytes `\x80\x3e` = 16000 LE)
 - Bit depth: 16-bit PCM
 - Channels: 1 (mono)
@@ -58,6 +59,7 @@ SPGISpeechDataset
 ```
 
 Key details:
+
 - Each parquet file has multiple **row groups** (~13, each ~1000 rows). `read_row_group(0)` reads 1000 rows, not the entire 12K-row file.
 - The cache holds the most recently accessed row group in decoded form (numpy arrays + strings). On a 77K-epoch, the cache cycles through all ~78 row groups (6 shards × 13 RG each). This means ~78 full RG reads per epoch → the same file gets read 13 times per epoch. I could optimize with a proper LRU, but for a one-off training run it's fine — total I/O is ~78 × 1000 × 100KB = ~7.8 GB read per epoch, dominated by compute anyway.
 - `dataloader_num_workers=0` is required because the dataset uses shared state (the cache dict). Multi-process dataloaders would pickle the cache, defeating the purpose.
@@ -69,7 +71,7 @@ Key details:
 **Model choice: `openai/whisper-small` (244M params)**
 
 | Model | Params | VRAM (batch 16) | Est time/epoch | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | tiny | 37M | ~2 GB | ~2h | Fast but mediocre WER |
 | **small** | **244M** | **~7 GB** | **~10h** | **Best accuracy/speed tradeoff** |
 | medium | 769M | ~12 GB | ~24h | Fits on 12GB with batch 8 |
@@ -107,6 +109,7 @@ model.config.suppress_tokens = []
 This is critical: Whisper is multilingual by default. Without forcing `language="en"`, the model wastes capacity on language ID tokens. The `forced_decoder_ids` pins the first decoder token to `<|en|><|transcribe|><|notimestamps|>`, making it strictly English transcription with no timestamps — exactly what SPGISpeech needs (clean transcripts, no alignment).
 
 The data collator handles the `labels` tensor:
+
 1. Pad all label sequences to same length with `pad_token_id`
 2. Replace padding positions with `-100` (PyTorch CrossEntropyLoss ignores these)
 3. Strip leading `bos_token_id` (Whisper internal generation prepends it)
@@ -125,6 +128,7 @@ Total wall time: 7,226 × 15s = ~108,000s = ~30h
 The eval loop (`predict_with_generate=True`) adds ~2 min per 500-step eval (generating 500 full transcripts autoregressively). With 14 eval checkpoints over 3 epochs, that's ~28 min of eval overhead.
 
 **WER baseline (without fine-tuning):**
+
 - whisper-small on clean English: ~8-9% WER (LibriSpeech clean)
 - SPGISpeech is financial earnings calls — heavier accent/terminology — baseline ~15-20%
 - After 3 epochs: target ~8-12% WER

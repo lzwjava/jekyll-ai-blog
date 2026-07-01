@@ -20,7 +20,7 @@ type: note
 SPGISpeech 是由 Kensho Technologies 制作的金融财报电话会议转录语料库。**S（小型）** 配置是一个包含 155,718 个话语的干净子集：
 
 | 拆分 | 分片数 | 样本数 | 大小 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 训练集 | 6 个 parquet 文件 | 77,073 | ~22 GB |
 | 验证集 | 3 个 parquet 文件 | 39,304 | ~11 GB |
 | 测试集 | 3 个 parquet 文件 | 39,341 | ~11 GB |
@@ -35,6 +35,7 @@ transcript: string            # 英文文本
 ```
 
 **音频属性** — 通过从 `bytes` 字段读取 WAV 头部提取：
+
 - 采样率：16 kHz（通过 WAV 头部字节 `\x80\x3e` 确认，即 16000 小端序）
 - 位深：16-bit PCM
 - 声道：1（单声道）
@@ -58,6 +59,7 @@ SPGISpeechDataset
 ```
 
 关键细节：
+
 - 每个 parquet 文件有多个**行组**（约 13 个，每组约 1000 行）。`read_row_group(0)` 读取 1000 行，而非整个 12K 行文件。
 - 缓存以解码形式（numpy 数组 + 字符串）保存最近访问的行组。在一个 77K 样本的 epoch 中，缓存循环遍历所有约 78 个行组（6 个分片 × 13 个行组）。这意味着每个 epoch 约 78 次完整的行组读取 → 同一个文件每个 epoch 被读取 13 次。我可以用合适的 LRU 进行优化，但对于一次性训练运行来说可以接受——每个 epoch 的总 I/O 约为 78 × 1000 × 100KB = ~7.8 GB，主要由计算主导。
 - `dataloader_num_workers=0` 是必需的，因为数据集使用共享状态（缓存字典）。多进程数据加载器会 pickle 缓存，从而破坏目的。
@@ -69,7 +71,7 @@ SPGISpeechDataset
 **模型选择：`openai/whisper-small`（244M 参数）**
 
 | 模型 | 参数 | 显存（batch 16） | 估计每 epoch 时间 | 备注 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | tiny | 37M | ~2 GB | ~2h | 快速但 WER 一般 |
 | **small** | **244M** | **~7 GB** | **~10h** | **最佳精度/速度权衡** |
 | medium | 769M | ~12 GB | ~24h | 12GB 显卡可用 batch 8 |
@@ -107,6 +109,7 @@ model.config.suppress_tokens = []
 这一点至关重要：Whisper 默认是多语言的。如果不强制 `language="en"`，模型会在语言 ID token 上浪费能力。`forced_decoder_ids` 将第一个解码器 token 固定为 `<|en|><|transcribe|><|notimestamps|>`，使其严格进行英文转录且不带时间戳——这正是 SPGISpeech 所需要的（干净的转录，无对齐）。
 
 数据整理器处理 `labels` 张量：
+
 1. 将所有标签序列用 `pad_token_id` 填充到相同长度
 2. 将填充位置替换为 `-100`（PyTorch 的 CrossEntropyLoss 忽略这些位置）
 3. 去除开头的 `bos_token_id`（Whisper 内部生成会预先添加）
@@ -125,6 +128,7 @@ model.config.suppress_tokens = []
 评估循环（`predict_with_generate=True`）每 500 步增加约 2 分钟（自回归生成 500 个完整转录）。3 个 epoch 中有 14 个评估检查点，评估开销约 28 分钟。
 
 **未微调的 WER 基线：**
+
 - whisper-small 在干净英文上：约 8-9% WER（LibriSpeech clean）
 - SPGISpeech 是金融财报电话会议——口音/术语更重——基线约 15-20%
 - 3 个 epoch 后：目标约 8-12% WER
