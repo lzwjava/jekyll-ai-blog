@@ -120,9 +120,9 @@ AI被视为既提升生产力，又带来潜在宏观经济风险。（[《华�
 * “AI突破（模型、代理、机器人）”
 
 [1]: https://www.reuters.com/business/unchecked-ai-progress-may-pose-catastrophic-risks-un-panel-warns-2026-07-01/?utm_source=chatgpt.com "联合国小组警告：不受控制的人工智能发展可能带来灾难性风险"
-[2]: https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders?utm_source=chatgpt.com "独家：联合国发起"人工智能造福人类"委员会"
-[3]: https://www.theguardian.com/technology/2026/jul/01/un-report-ai-inequality?utm_source=chatgpt.com "联合国警告：人工智能的迅速普及可能加剧全球不平等"
-[4]: https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/?utm_source=chatgpt.com "Meta效仿SpaceX，寻求将过剩AI算力变现"
-[5]: https://timesofindia.indiatimes.com/technology/tech-news/nvidias-new-liquid-cooling-system-aims-to-cut-ai-data-centre-water-use-but-experts-urge-caution/articleshow/132129216.cms?utm_source=chatgpt.com "Nvidia新液冷系统旨在减少AI数据中心用水，但专家呼吁谨慎"
-[6]: https://www.wsj.com/tech/ai/the-worlds-top-economists-are-sounding-the-alarm-on-ai-d99055b6?utm_source=chatgpt.com "全球顶级经济学家对AI敲响警钟"
-[7]: https://qz.com/anthropic-claude-science-ai-workbench-scientists-070126?utm_source=chatgpt.com "Anthropic推出面向研究人员的Claude Science AI工作台"
+[2]: <https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders?utm_source=chatgpt.com> "独家：联合国发起"人工智能造福人类"委员会"
+[3]: <https://www.theguardian.com/technology/2026/jul/01/un-report-ai-inequality?utm_source=chatgpt.com> "联合国警告：人工智能的迅速普及可能加剧全球不平等"
+[4]: <https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/?utm_source=chatgpt.com> "Meta效仿SpaceX，寻求将过剩AI算力变现"
+[5]: <https://timesofindia.indiatimes.com/technology/tech-news/nvidias-new-liquid-cooling-system-aims-to-cut-ai-data-centre-water-use-but-experts-urge-caution/articleshow/132129216.cms?utm_source=chatgpt.com> "Nvidia新液冷系统旨在减少AI数据中心用水，但专家呼吁谨慎"
+[6]: <https://www.wsj.com/tech/ai/the-worlds-top-economists-are-sounding-the-alarm-on-ai-d99055b6?utm_source=chatgpt.com> "全球顶级经济学家对AI敲响警钟"
+[7]: <https://qz.com/anthropic-claude-science-ai-workbench-scientists-070126?utm_source=chatgpt.com> "Anthropic推出面向研究人员的Claude Science AI工作台"
