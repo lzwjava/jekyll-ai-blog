@@ -19,8 +19,8 @@ The workflow runs on a schedule (every 2 hours), not on push — so the next run
 
 | File | Path | Lines |
 |------|------|-------|
-| `2025-10-06-finacle-vs-avaloq-1-en.md` | notes/ + _posts/en/ + _posts/zh/ | 66 |
-| `2025-10-06-finacle-vs-avaloq-en.md` | notes/ + _posts/en/ + _posts/zh/ | 45 |
+| `2025-10-06-finacle-vs-avaloq-1-en.md` | notes/ + _posts/en/ +_posts/zh/ | 66 |
+| `2025-10-06-finacle-vs-avaloq-en.md` | notes/ + _posts/en/ +_posts/zh/ | 45 |
 
 Same date (`2025-10-06`), same title *"Finacle vs Avaloq Banking Platforms"*, same content. The `-1` variant was a prose-formatted regeneration of the table-based original. The similarity check (first 200 chars with 90%+ match) flagged them as duplicates.
 
