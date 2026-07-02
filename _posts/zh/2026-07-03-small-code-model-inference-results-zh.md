@@ -89,7 +89,7 @@ def quicksort(arr):
 ### 与其他模型的比较
 
 | 模型 | Java HashMap | 备注 |
-|-------|-------------|-------|
+| ------- | ------------- | ------- |
 | `out-github-code-124m` | 无意义（Java 形状） | 三个中最好的——至少知道 Java 语法 |
 | `out-fineweb-gpt3`（124M） | 无意义（符号） | 更差——完全不懂 Java |
 | `out-gpt2-200m`（200M） | `string type` × 200 | Web 文本模型，无代码知识 |

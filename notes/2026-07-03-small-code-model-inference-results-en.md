@@ -89,7 +89,7 @@ Perfectly reproduced the full Flask app, then appended:
 ### Comparison with other models
 
 | Model | Java HashMap | Notes |
-|-------|-------------|-------|
+| ------- | ------------- | ------- |
 | `out-github-code-124m` | Garbage (Java-shaped) | Best of the 3 — at least knows Java syntax |
 | `out-fineweb-gpt3` (124M) | Garbage (symbols) | Worse — doesn't know Java at all |
 | `out-gpt2-200m` (200M) | `string type` × 200 | Web text model, no code knowledge |
