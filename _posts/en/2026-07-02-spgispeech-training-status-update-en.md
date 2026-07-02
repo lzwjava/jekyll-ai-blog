@@ -18,10 +18,12 @@ Here's the full status of the SPGISpeech financial audio model training:
 ## What Was Built
 
 **Scripts** (both committed):
+
 - `spgispeech/train_whisper.py` — 336 lines, Whisper fine-tuning pipeline
 - `spgispeech/train_cmd.sh` — launcher with `--model small --batch-size 16 --grad-accum 2 --lr 1e-5 --epochs 3`
 
 **Architecture** — Custom pyarrow-backed `SPGISpeechDataset` (no HF `datasets` Audio, avoids torchcodec dep hell):
+
 - Builds an index `[(shard_idx, row_group, offset)]` over 12 parquet files (42 GB)
 - Caches row groups in memory (~1000 samples each), cycles through ~78 row groups per epoch
 - soundfile for WAV decoding from embedded bytes

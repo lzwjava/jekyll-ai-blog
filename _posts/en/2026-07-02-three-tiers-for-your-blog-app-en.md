@@ -12,11 +12,13 @@ type: note
 Building the full surface area for your blog is a fun idea, and honestly a cheap one given your stack. Since lzwjava.github.io is a static Jekyll site, you have three tiers of effort:
 
 **Tier 1 — one afternoon:** Capacitor wrapper. One codebase, ships to both stores.
+
 ```bash
 npm init @capacitor/app blog-app
 npx cap add ios && npx cap add android
 # point server.url at https://lzwjava.github.io, add offline caching via service worker
 ```
+
 This is basically what Truth Social-tier "app as website shell" looks like anyway.
 
 **Tier 2 — a weekend:** Native shell + content API. Generate a `posts.json` index in your Jekyll build (or a GitHub Action), then a SwiftUI + Compose app that fetches markdown and renders it offline. This gives you real native feel, dark mode, reading history, full-text search over your 8,000 notes — which is actually the killer feature. Your notes corpus as a searchable offline app is genuinely useful to *you* daily, not just vanity.

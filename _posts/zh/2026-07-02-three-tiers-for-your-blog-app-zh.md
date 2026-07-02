@@ -12,11 +12,13 @@ type: note
 为你的博客构建完整的呈现面是个有趣的想法，而且说实话，基于你现有的技术栈成本很低。由于 lzwjava.github.io 是一个静态 Jekyll 站点，你可以选择三个不同难度层级来实现：
 
 **第一级——一个下午完成：** Capacitor 封装。一套代码库，同时发布到两大应用商店。
+
 ```bash
 npm init @capacitor/app blog-app
 npx cap add ios && npx cap add android
 # 将 server.url 指向 https://lzwjava.github.io，通过 Service Worker 添加离线缓存
 ```
+
 这基本上就是“Truth Social 级别”的“应用即网站外壳”方案。
 
 **第二级——一个周末：** 原生外壳 + 内容 API。在 Jekyll 构建过程中（或通过 GitHub Action）生成一个 `posts.json` 索引，然后构建一个 SwiftUI + Compose 应用，获取 Markdown 内容并支持离线渲染。这将带来真正的原生体验、深色模式、阅读历史记录，以及对你的 8000 条笔记进行全文搜索——这其实是杀手级功能。将你的笔记库变成可离线搜索的应用，对你自己而言每天都能真正派上用场，而不仅仅是满足虚荣心。

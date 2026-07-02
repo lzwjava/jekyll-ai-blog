@@ -18,10 +18,12 @@ type: note
 ## 已完成内容
 
 **脚本**（均已提交）：
+
 - `spgispeech/train_whisper.py` — 336行，Whisper微调流程
 - `spgispeech/train_cmd.sh` — 启动器，参数为 `--model small --batch-size 16 --grad-accum 2 --lr 1e-5 --epochs 3`
 
 **架构** — 自定义的 pyarrow 支持的 `SPGISpeechDataset`（不使用 HF `datasets` 的 Audio，避免 torchcodec 依赖地狱）：
+
 - 针对12个 parquet 文件（42 GB）构建索引 `[(shard_idx, row_group, offset)]`
 - 在内存中缓存行组（每组约1000个样本），每个 epoch 循环约78个行组
 - 使用 soundfile 从嵌入的字节中解码 WAV
