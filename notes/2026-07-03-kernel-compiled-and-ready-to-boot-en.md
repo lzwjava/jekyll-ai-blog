@@ -28,11 +28,13 @@ The Linux kernel is the **core of the operating system** — it manages hardware
 ## What can you do with it?
 
 **Reboot into your custom kernel.** On next restart, GRUB will automatically boot **your** compiled kernel instead of the stock Fedora one. You'll see it in the GRUB menu as:
+
 ```
 Fedora Linux (7.2.0-rc1-00044-g87320be9f0d2) 44 (Workstation Edition)
 ```
 
 To reboot now:
+
 ```bash
 sudo reboot
 ```
@@ -40,7 +42,7 @@ sudo reboot
 ## Why would you do this?
 
 | Purpose | What you'd do next |
-|---------|-------------------|
+| --------- | ------------------- |
 | **Learn** how kernel works | Read the source, add printk() debug messages, recompile |
 | **Customize** | Edit `.config` — enable/disable drivers, tune performance |
 | **Add a feature** | Write a kernel module, patch a subsystem |

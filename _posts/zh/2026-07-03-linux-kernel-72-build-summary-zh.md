@@ -14,6 +14,7 @@ type: note
 **内核：Linux 7.2.0-rc1**（`Baby Opossum Posse`）
 
 **构建产物：**
+
 | 文件 | 大小 | 路径 |
 |------|------|------|
 | **bzImage** | **15 MB** | `arch/x86/boot/bzImage` |

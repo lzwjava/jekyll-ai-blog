@@ -53,5 +53,6 @@ Here's the full resource picture:
 - **Machine learning training** — fine-tuning small models or batch jobs, but no dedicated GPU (relies on CPU only)
 
 **Limitations:**
+
 - No dedicated GPU — no CUDA, so ML training / large model inference is CPU-bound only
 - 15 GB RAM means models above ~13B parameters (even quantized) would push into swap

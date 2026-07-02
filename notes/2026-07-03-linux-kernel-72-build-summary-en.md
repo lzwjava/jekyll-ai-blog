@@ -14,6 +14,7 @@ Compilation done! Here's the summary:
 **Kernel: Linux 7.2.0-rc1** (`Baby Opossum Posse`)
 
 **Built artifacts:**
+
 | File | Size | Path |
 |------|------|------|
 | **bzImage** | **15 MB** | `arch/x86/boot/bzImage` |
