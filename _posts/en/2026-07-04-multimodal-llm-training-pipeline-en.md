@@ -115,14 +115,14 @@ Goal:
 
 You need large-scale paired datasets:
 
-### Vision-language:
+### Vision-language
 
 * LAION-5B (filtered)
 * COCO captions
 * CC3M / CC12M
 * Synthetic GPT captioning
 
-### Instruction data:
+### Instruction data
 
 * GPT-generated image QA pairs
 * Human annotated VQA datasets

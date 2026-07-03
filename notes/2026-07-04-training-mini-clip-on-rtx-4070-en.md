@@ -27,7 +27,7 @@ Your constraints:
 * Good for: ViT-B/32 or smaller + small batch training
 * Not good for: LAION-5B full training
 
-### Recommended “student CLIP” setup:
+### Recommended “student CLIP” setup
 
 * Image encoder: **ViT-B/32 or ResNet-50**
 * Text encoder: **small Transformer (6 layers or CLIP default)**
@@ -42,7 +42,7 @@ Do NOT use full LAION.
 
 Use one of:
 
-### Good starter datasets:
+### Good starter datasets
 
 * COCO Captions (118k images)
 * Conceptual Captions 3M (filtered subset)
@@ -199,12 +199,12 @@ for step, batch in enumerate(loader):
 
 On RTX 4070:
 
-### COCO dataset:
+### COCO dataset
 
 * ~1–3 hours per epoch
 * full training: ~10–30 hours
 
-### CC3M subset:
+### CC3M subset
 
 * ~1–3 days depending on filtering
 

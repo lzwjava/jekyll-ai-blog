@@ -115,14 +115,14 @@ vision_features (2048) → projector → 4096 (LLM hidden size)
 
 你需要大规模配对数据集：
 
-### 视觉-语言：
+### 视觉-语言
 
 * LAION-5B（过滤后）
 * COCO captions
 * CC3M / CC12M
 * 合成的 GPT 字幕生成
 
-### 指令数据：
+### 指令数据
 
 * GPT 生成的图像问答对
 * 人工标注的 VQA 数据集

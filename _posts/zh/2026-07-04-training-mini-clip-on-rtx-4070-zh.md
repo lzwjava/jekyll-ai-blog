@@ -27,7 +27,7 @@ type: note
 * 适合：ViT-B/32 或更小 + 小批量训练
 * 不适合：LAION-5B 完整训练
 
-### 推荐的“学生 CLIP”配置：
+### 推荐的“学生 CLIP”配置
 
 * 图像编码器：**ViT-B/32 或 ResNet-50**
 * 文本编码器：**小型 Transformer（6 层或 CLIP 默认）**
@@ -42,7 +42,7 @@ type: note
 
 使用以下之一：
 
-### 良好的入门数据集：
+### 良好的入门数据集
 
 * COCO Captions（118k 张图像）
 * Conceptual Captions 3M（过滤后的子集）
@@ -199,12 +199,12 @@ for step, batch in enumerate(loader):
 
 在 RTX 4070 上：
 
-### COCO 数据集：
+### COCO 数据集
 
 * 每轮约 1–3 小时
 * 完整训练：约 10–30 小时
 
-### CC3M 子集：
+### CC3M 子集
 
 * 约 1–3 天，取决于过滤
 

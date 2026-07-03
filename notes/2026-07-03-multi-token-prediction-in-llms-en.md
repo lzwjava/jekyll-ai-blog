@@ -35,6 +35,7 @@ logits  = SharedUnembed(h_k[i])   # predicts token t[i+k+1]
 ```
 
 Key points:
+
 - Module k receives the **previous depth's hidden state** AND the **embedding of the actual next token** (ground truth during training). So predicting t+2 is conditioned on knowing t+1 — causal, not marginal.
 - Embedding matrix and output head are **shared** with the main model → cheap in params.
 - V3 uses **D = 1** (one extra module, predicts one extra token).

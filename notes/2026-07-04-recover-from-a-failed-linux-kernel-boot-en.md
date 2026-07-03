@@ -131,7 +131,7 @@ Your build shows:
 
 But common problems:
 
-### Possible failure causes:
+### Possible failure causes
 
 * Kernel not copied to `/boot`
 * Missing `initramfs`

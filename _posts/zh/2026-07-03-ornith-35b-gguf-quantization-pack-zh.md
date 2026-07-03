@@ -21,7 +21,7 @@ type: note
 
 **有趣的部分——支架生成的 RL。** 训练框架使用 RL，模型不仅学习生成解决方案的展开（rollouts），还学习生成驱动这些展开的支架（scaffold）；通过联合优化支架和最终解决方案，模型发现了更好的搜索轨迹。这超越了标准的智能体 RL（如 GRPO-on-SWE-tasks 风格）：不再是固定外部框架（系统提示、工具循环、规划结构）而只优化其内部的策略，而是策略自身也生成其外部框架。从概念上讲，这是对智能体循环本身的元 RL——奖励信号同时流经支架选择及其诱导的轨迹。鉴于你对智能体架构的兴趣，deep-reinforce.com/ornith.html 上的博客值得一读，其中包含实际的目标公式。
 
-**基准测试（根据模型卡片，自我报告）。** 35B 在 Terminal-Bench 2.1（Terminus-2）上得分为 64.2，而 Qwen3.5-35B 为 41.4；在 SWE-bench Verified 上得分为 75.6，而 Qwen3.5-35B 为 70——大致匹配 Qwen3.5 397B 的 76.4，而尺寸仅为后者的约 1/11。这是一个推理模型：助手回复以 ` thinking… response` 块开头，服务配方启用推理解析器加 qwen3 工具调用解析器，以便 `<tool_call>` 块呈现为 OpenAI 风格的 `tool_calls`。通常注意事项：发布日卡片上的供应商报告数据；需等待独立的 Terminal-Bench 跑分。
+**基准测试（根据模型卡片，自我报告）。** 35B 在 Terminal-Bench 2.1（Terminus-2）上得分为 64.2，而 Qwen3.5-35B 为 41.4；在 SWE-bench Verified 上得分为 75.6，而 Qwen3.5-35B 为 70——大致匹配 Qwen3.5 397B 的 76.4，而尺寸仅为后者的约 1/11。这是一个推理模型：助手回复以 `thinking… response` 块开头，服务配方启用推理解析器加 qwen3 工具调用解析器，以便 `<tool_call>` 块呈现为 OpenAI 风格的 `tool_calls`。通常注意事项：发布日卡片上的供应商报告数据；需等待独立的 Terminal-Bench 跑分。
 
 **本仓库中的量化大小：** Q4_K_M 21.2 GB，Q5_K_M 24.7 GB，Q6_K 28.5 GB，Q8_0 36.9 GB，BF16 69.4 GB。
 
