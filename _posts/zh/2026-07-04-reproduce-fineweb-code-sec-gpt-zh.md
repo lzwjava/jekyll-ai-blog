@@ -21,17 +21,20 @@ type: note
 ```
 
 **数据流程**（仅需运行一次以复现）：
+
 ```
 bash /mnt/data/zz/prepare_data.sh
 ```
 
 **训练**：
+
 ```
 bash /mnt/data/zz/fineweb-code-sec-gpt.sh           # 5万步，约16小时
 bash /mnt/data/zz/fineweb-code-sec-gpt.sh --smoke    # 200步验证
 ```
 
 **监控**：
+
 ```
 bash /mnt/data/zz/train_log.sh --watch
 bash /mnt/data/zz/train_log.sh --summary

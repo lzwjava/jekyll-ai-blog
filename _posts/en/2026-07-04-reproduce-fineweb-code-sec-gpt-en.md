@@ -21,17 +21,20 @@ Here's what's in `/mnt/data/zz/` now — you can `cd` there and run:
 ```
 
 **Data pipeline** (run once to reproduce):
+
 ```
 bash /mnt/data/zz/prepare_data.sh
 ```
 
 **Train**:
+
 ```
 bash /mnt/data/zz/fineweb-code-sec-gpt.sh           # 50k steps, ~16h
 bash /mnt/data/zz/fineweb-code-sec-gpt.sh --smoke    # 200-step verification
 ```
 
 **Monitor**:
+
 ```
 bash /mnt/data/zz/train_log.sh --watch
 bash /mnt/data/zz/train_log.sh --summary
