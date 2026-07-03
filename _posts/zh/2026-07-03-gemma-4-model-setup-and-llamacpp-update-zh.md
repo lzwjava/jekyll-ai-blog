@@ -16,6 +16,7 @@ type: note
 ## 会议：Gemma 4 E4B — 下载、验证、更新 llama.cpp
 
 ### 1. 下载模型
+
 - **文件**: `gemma-4-E4B-it-Q3_K_M.gguf` 位于 `/mnt/data/models/`
 - **大小**: 3.8 GB（Q3_K_M 量化，4.30 BPW）
 - **方法**: 通过代理（127.0.0.1:7890）使用 `curl` —— `hf` CLI 失败，因为 Python 的 `requests` 没有正确通过 shell 代理路由
@@ -24,7 +25,7 @@ type: note
 ### 2. 模型架构（来自 GGUF 元数据）
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 架构 | Gemma 4 (gemma4) |
 | 参数 | 7.52 B（标记为"E4B"） |
 | 层数 | 42 |
@@ -41,11 +42,13 @@ type: note
 | 许可证 | Apache 2.0 |
 
 ### 3. 初始推理测试（旧版本 b8）
+
 - 提示评估：291 t/s
 - 生成：91 t/s
 - VRAM：模型占用 2,343 MiB + 计算缓冲区约 14 MiB（RTX 4070）
 
 ### 4. 更新 llama.cpp
+
 - **仓库**: `git@github.com:ggerganov/llama.cpp.git`
 - **从版本**: b8 (834a24366)
 - **升级到**: 版本 1194 (067de9371)
@@ -53,6 +56,7 @@ type: note
 - 预期主要变化：改进 Gemma 4 支持、Gated Delta Net 优化、flash attention 改进
 
 ### 5. 构建
+
 - **构建系统**: CMake + Ninja，`-DGGML_CUDA=ON -DCMAKE_BUILD_TYPE=Release`
 - **磁盘问题**: 在 CUDA 模板编译期间根分区达到 100%（430M 空闲）
 - **清理**: 释放 101G —— `~/.cache/uv/`（45G）、`~/.cache/nanochat/`（39G）、`~/.cache/pip/`（17G）
@@ -60,10 +64,12 @@ type: note
 - **重新编译的二进制文件**: `llama-cli`、`llama-server`、`llama-simple`、`llama-perplexity`、`llama-bench` 等
 
 ### 6. 最终验证
+
 - `llama-cli --version` → 版本 1194 (067de9371)
 - 在新版本上运行 Gemma 4 E4B Q3_K_M 推理：约 68 t/s，正常工作
 
 ### 当前状态
+
 - 更新的 llama.cpp 位于 `~/projects/llama.cpp/build/bin/`
 - 模型就绪于 `/mnt/data/models/gemma-4-E4B-it-Q3_K_M.gguf`
 - 根分区空闲 77 GB，/mnt/data 空闲 795 GB

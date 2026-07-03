@@ -32,5 +32,6 @@ git pull --rebase --autostash || { git rebase --abort 2>/dev/null; true; }
 ```
 
 Two changes:
+
 - **`--autostash`** — stashes any unstaged changes before rebasing, re-applies them after
 - **`git rebase --abort`** — if the rebase fails (conflicts), aborts cleanly so the next retry attempt starts from a clean state instead of a half-broken rebase

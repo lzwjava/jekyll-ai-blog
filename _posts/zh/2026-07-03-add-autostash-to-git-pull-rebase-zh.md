@@ -32,5 +32,6 @@ git pull --rebase --autostash || { git rebase --abort 2>/dev/null; true; }
 ```
 
 两处改动：
+
 - **`--autostash`** — 在变基前暂存所有未暂存的更改，变基后再重新应用
 - **`git rebase --abort`** — 如果变基失败（冲突），则干净地终止，以便下一次重试尝试从一个干净的状态开始，而不是处于半破损的变基状态
