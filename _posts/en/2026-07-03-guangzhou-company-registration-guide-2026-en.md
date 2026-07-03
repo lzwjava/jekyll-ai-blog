@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-The whole thing is now online via the official 广州市开办企业一网通平台 (Guangzhou One-Stop Enterprise Registration Platform) at https://scjgj.gz.gov.cn/ywt/ — all districts in Guangzhou run the "one-network application, one-window pickup" model through this platform. No agency needed for a simple software/tech LLC. Here's the pipeline:
+The whole thing is now online via the official 广州市开办企业一网通平台 (Guangzhou One-Stop Enterprise Registration Platform) at <https://scjgj.gz.gov.cn/ywt/> — all districts in Guangzhou run the "one-network application, one-window pickup" model through this platform. No agency needed for a simple software/tech LLC. Here's the pipeline:
 
 ## 0. Decisions before you touch the platform
 

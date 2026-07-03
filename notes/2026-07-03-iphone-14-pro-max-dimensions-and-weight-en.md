@@ -23,7 +23,7 @@ type: note
 Quick comparison within the 14 lineup:
 
 | Model | Dimensions (mm) | Weight | Display |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | iPhone 14 | 146.7 × 71.5 × 7.8 | 172 g | 6.1", 60 Hz |
 | iPhone 14 Plus | 160.8 × 78.1 × 7.8 | 203 g | 6.7", 60 Hz |
 | iPhone 14 Pro | 147.5 × 71.5 × 7.85 | 206 g | 6.1", 120 Hz |

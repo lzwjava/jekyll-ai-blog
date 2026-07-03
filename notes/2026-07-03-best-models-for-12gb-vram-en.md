@@ -18,7 +18,7 @@ The previous reply has it right — your RTX 4070 12 GB cannot run a 743B-parame
 The MoE sweet spot for 12 GB VRAM + system RAM offload is models in the **80–110B total** / **10–15B active** range. Your best options right now:
 
 | Model | Total params | Active | Q4_K_M size | Your speed (est.) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | GLM-4.5-Air (UD-Q3_K_XL) | 106B | 12B | ~50 GB | 8–15 tok/s with offload |
 | Qwen3-30B-A3B | 30B | 3B | ~18 GB | 30–50 tok/s, fits mostly in VRAM |
 | DeepSeek-V3-Lite | ~68B | ~8B | ~35 GB | 15–25 tok/s with offload |

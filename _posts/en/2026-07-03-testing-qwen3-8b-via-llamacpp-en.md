@@ -51,7 +51,7 @@ Qwen3 also has hybrid thinking mode (`/think` / `/no_think` in the prompt), whic
 ## Sizing map for your hardware
 
 | Machine | Sweet spot | Ceiling | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | M2 Air 16 GB | Qwen3-4B Q4 | Qwen3-8B Q4 (~5.5 GB) | Watch swap; also try MLX — MLX gets 20–50% faster inference than llama.cpp on Apple Silicon |
 | RTX 4070 12 GB | Qwen3-8B Q4 fully offloaded | Qwen3-14B Q4 (~9 GB, tight ctx) | This is your llama-server host |
 | CPU-only fallback | Phi-4-mini 3.8B | — | ~3.5 GB at Q4_K_M, only viable option for 8 GB machines |

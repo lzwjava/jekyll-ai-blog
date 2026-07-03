@@ -51,7 +51,7 @@ Qwen3 还具备混合思维模式（提示中的 `/think` / `/no_think`），由
 ## 针对你硬件的尺寸建议
 
 | 机器 | 最佳选择 | 上限 | 备注 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | M2 Air 16 GB | Qwen3-4B Q4 | Qwen3-8B Q4（约 5.5 GB） | 注意内存交换；同时试试 MLX——在 Apple Silicon 上 MLX 比 llama.cpp 快 20–50% |
 | RTX 4070 12 GB | Qwen3-8B Q4 完全卸载 | Qwen3-14B Q4（约 9 GB，上下文受限） | 这是你的 llama-server 主机 |
 | 纯 CPU 备选 | Phi-4-mini 3.8B | — | Q4_K_M 下约 3.5 GB，8 GB 机器的唯一可行选择 |

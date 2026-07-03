@@ -18,7 +18,7 @@ type: note
 **The chips:**
 
 | | iPhone 13 (2021) | iPhone 14 (2022) | iPhone 17 (2025) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Chip | A15 Bionic (5nm) | A15 Bionic (5nm) | A19 (TSMC N3P, 3nm) |
 | CPU | 2P + 4E | 2P + 4E | 2P @ 4.26 GHz + 4E |
 | GPU | 4-core | 5-core | 5-core (much newer arch) |

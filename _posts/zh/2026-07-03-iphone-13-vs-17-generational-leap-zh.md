@@ -18,7 +18,7 @@ type: note
 **芯片对比：**
 
 | | iPhone 13 (2021) | iPhone 14 (2022) | iPhone 17 (2025) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 芯片 | A15 Bionic (5nm) | A15 Bionic (5nm) | A19 (TSMC N3P, 3nm) |
 | CPU | 2P + 4E | 2P + 4E | 2P @ 4.26 GHz + 4E |
 | GPU | 4 核 | 5 核 | 5 核（架构大幅更新） |
