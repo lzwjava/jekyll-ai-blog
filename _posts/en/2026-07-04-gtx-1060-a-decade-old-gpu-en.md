@@ -18,7 +18,7 @@ The NVIDIA GeForce GTX 1060 is a mid-range consumer GPU from July 2016, built on
 Key specs (6GB variant):
 
 | Spec | Value |
-|------|-------|
+| ------ | ------- |
 | Architecture | Pascal (GP106) |
 | CUDA cores | 1280 |
 | VRAM | 6 GB GDDR5 (there's also a cut-down 3GB variant with 1152 cores) |
