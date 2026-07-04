@@ -12,7 +12,7 @@ type: note
 **Step 47,371 / 50,000 (94.7%) — almost done.**
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **Loss** | ~1.04–1.06 (fluctuating, LR at 13%) |
 | **Speed** | 53,000 tok/s, 1.23s/step |
 | **Runtime** | 15h 36m elapsed |
