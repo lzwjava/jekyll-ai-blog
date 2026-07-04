@@ -12,7 +12,7 @@ type: note
 **Step 1,525 / full epoch (16.9%)**
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **Loss** | 1.53 (down from 1.8 at step 300, from 2.4 at step 7) |
 | **Speed** | ~51,000 tok/s, ~1.28s/step |
 | **Runtime** | 31.7 min elapsed |

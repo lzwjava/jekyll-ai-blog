@@ -12,7 +12,7 @@ type: note
 **SFT running: Step 305 / full epoch (3.4%)**
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **Loss** | ~1.7–1.8 (down from 2.4 at step 7) |
 | **Speed** | ~50,000 tok/s, ~1.3s/step |
 | **Runtime** | 6.4 min elapsed |

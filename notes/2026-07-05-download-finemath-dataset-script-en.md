@@ -16,7 +16,7 @@ Created `/home/xiaoxin/projects/zz/finemath/download_finemath.py` — the direct
 Downloads parquet shards from **HuggingFaceTB/finemath** (the 54B-token educational math dataset). Coverage:
 
 | Config | Shards | Size |
-|---|---|---|
+| --- | --- | --- |
 | `finemath-3plus` | 128 | 60.6 GB |
 | `finemath-4plus` | 64 | 17.1 GB |
 | `infiwebmath-3plus` | 64 | 43.6 GB |
@@ -24,6 +24,7 @@ Downloads parquet shards from **HuggingFaceTB/finemath** (the 54B-token educatio
 | **Total** | **288** | **139.2 GB** |
 
 **Usage examples:**
+
 ```bash
 # See what would be downloaded (dry-run)
 python3 finemath/download_finemath.py --plan
@@ -42,6 +43,7 @@ python3 finemath/download_finemath.py --target-gb 10 --plan
 ```
 
 Key features (inherited patterns from the existing `plan_and_download_fineweb.py`):
+
 - **Resumable** — uses `wget -c`, skips already-downloaded shards
 - **Mirror support** — `--mirror hf-mirror` for accelerated downloads from Asia
 - **Partial download** — `--target-gb N` to grab a subset
