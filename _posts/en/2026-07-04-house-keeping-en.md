@@ -10,7 +10,7 @@ translated: false
 
 ## Floor 1
 
-- put the washed dishes into the dishwasher, and run the program
+- put the washed dishes into the dishwasher, and run the program. If there are too many washed dishes, run the program in 2 batches
 - clean the kitchen
 - clean the dining table
 - clean the living room, move cans and tissues to the trash bin
@@ -24,5 +24,9 @@ translated: false
 
 ## Note
 
+- at least 60 CNY for 60 minutes; can extend by 10 minutes for 10 CNY
 - wash the clothes first — the program takes around 30 minutes
 - at the end, throw the garbage bags into the apartment's main trash center
+- okay to casually chat to learn about the housekeeping business and the job
+- on Saturday, since the housekeeper is near my house, schedule my house as one trip
+- on Friday, ask me to confirm whether the housekeeper will come the next day
