@@ -16,7 +16,7 @@ type: note
 Your layout is the standard Fedora scheme:
 
 | Partition | Size | Role |
-|---|---|---|
+| --- | --- | --- |
 | `nvme0n1p1` | 600M | EFI System Partition (FAT32) |
 | `nvme0n1p2` | 2G | `/boot` (ext4) — kernels + initramfs live here |
 | `nvme0n1p3` | 231.2G | root, almost certainly **btrfs** with `root` and `home` subvolumes |

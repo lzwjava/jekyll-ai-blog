@@ -12,7 +12,7 @@ type: note
 Fixed. Here's what changed:
 
 | Before | After |
-|---|---|
+| --- | --- |
 | `put wash dishes to wash dish machine` | `put the washed dishes into the dishwasher` |
 | `eating table` | `dining table` |
 | `the can or tissues` | `cans and tissues` |

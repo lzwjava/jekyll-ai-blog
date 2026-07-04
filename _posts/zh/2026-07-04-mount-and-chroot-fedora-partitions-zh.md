@@ -16,7 +16,7 @@ type: note
 你的分区布局是标准的 Fedora 方案：
 
 | 分区 | 大小 | 角色 |
-|---|---|---|
+| --- | --- | --- |
 | `nvme0n1p1` | 600M | EFI 系统分区（FAT32） |
 | `nvme0n1p2` | 2G | `/boot`（ext4）—— 内核和 initramfs 在此 |
 | `nvme0n1p3` | 231.2G | 根分区，几乎肯定是 **btrfs**，包含 `root` 和 `home` 子卷 |

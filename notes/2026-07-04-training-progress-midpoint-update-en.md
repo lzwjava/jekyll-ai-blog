@@ -12,7 +12,7 @@ type: note
 **Step 21,119 / 50,000 (42%) — running strong.**
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | **Loss** | 1.31 (was 6.0 at step 58, dropped 78%) |
 | **LR multiplier** | 0.89 (cosine decay started) |
 | **Speed** | ~51,000 tok/sec, ~1.26s/step |
