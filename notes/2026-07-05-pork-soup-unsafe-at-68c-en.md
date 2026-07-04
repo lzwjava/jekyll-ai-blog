@@ -20,7 +20,7 @@ At **6–8°C**, the soup is stored at a temperature that is **too warm for safe
 * Safe fridge temperature is **0–4°C (ideally around 4°C or lower)**.
 * At **6–8°C**, bacteria can still grow relatively quickly, even if the soup looks and smells fine.
 
-### For pork-based soup:
+### For pork-based soup
 
 * If stored properly at ≤4°C:
   → Usually **safe for 3–4 days**
