@@ -14,7 +14,7 @@ type: note
 **观察 — d12（第 50000 步，val_bpb 1.418）**
 
 | 领域 | 质量 |
-|---|---|
+| --- | --- |
 | **代码（快速排序续写）** | 良好 — 正确续写了 `quicksort`，生成了 `sort_2`、`sort_n` 等变体，代码结构真实 |
 | **代码（React DataFetcher）** | 尚可 — 忠实复现了组件，生成了一个复用相同模式的 `fetch(url)` 函数 |
 | **代码（Go/归并排序/SQL）** | 较弱 — 退化为重复提示，幻觉列名（`price_delivered`、`customer_id_delivered`），没有真正的 Go 代码 |

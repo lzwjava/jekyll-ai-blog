@@ -24,18 +24,21 @@ type: note
 ```
 
 **SFT 的功能：**
+
 - 使用我们的 **d12 模型**（第 50k 步，混合数据上的 val_bpb 为 1.418）
 - 使用来自 **SmolTalk**（46 万条通用对话）+ **自定义代码/SEC**（1k 示例）+ **MMLU/GSM8K/Spelling**（推理）的对话进行微调
 - 使用 BOS 对齐的 bestfit 打包和 **损失掩码**（仅训练助手令牌）
 - **验证 BPB 在短短 7 步内从 1.418 降至 0.954**
 
 **运行：**
+
 ```bash
 bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh           # 完整 SFT
 bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh --smoke   # 快速测试
 ```
 
 **SFT 后，测试生成：**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 python /mnt/data/zz/fineweb-code-sec-gpt/run_prompts.py --step 7 --temp 0.7

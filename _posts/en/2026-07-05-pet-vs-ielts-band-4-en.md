@@ -15,7 +15,7 @@ Answer:
 
 Yes — **PET (B1 Preliminary)** is roughly around **IELTS 4.0 to 5.0**, but it’s not a perfect one-to-one match.
 
-### Simple comparison:
+### Simple comparison
 
 * **PET (B1 level)**
   → Intermediate English
@@ -41,7 +41,7 @@ Yes — **PET (B1 Preliminary)** is roughly around **IELTS 4.0 to 5.0**, but it�
 
 👉 So PET is not “equal to IELTS 4”, but it is **in the same general mid-low intermediate range**
 
-### Easy way to remember:
+### Easy way to remember
 
 * KET ≈ IELTS 3.0–3.5 (A2)
 * PET ≈ IELTS 4.0–5.0 (B1)

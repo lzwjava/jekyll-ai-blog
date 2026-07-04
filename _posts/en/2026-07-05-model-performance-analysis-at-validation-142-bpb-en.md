@@ -14,7 +14,7 @@ Done. Results saved to `/mnt/data/zz/fineweb-code-sec-gpt/results.txt`. Quick su
 **Observations — d12 (step 50k, val_bpb 1.418)**
 
 | Domain | Quality |
-|---|---|
+| --- | --- |
 | **Code (quicksort continuation)** | Good — continued `quicksort` correctly, generated `sort_2`, `sort_n` variants with realistic code structure |
 | **Code (React DataFetcher)** | Decent — reproduced the component faithfully, generated a `fetch(url)` function that reuses same pattern |
 | **Code (Go/merge sort/SQL)** | Weaker — regressed to prompt-echoing, hallucinated column names (`price_delivered`, `customer_id_delivered`), no real Go code |

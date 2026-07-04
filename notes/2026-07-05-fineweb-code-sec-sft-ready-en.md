@@ -24,18 +24,21 @@ type: note
 ```
 
 **What SFT does:**
+
 - Takes our **d12 model** (step 50k, val_bpb 1.418 on mixed data)
 - Fine-tunes with chat conversations from **SmolTalk** (460K general chat) + **Custom code/SEC** (1k examples) + **MMLU/GSM8K/Spelling** (reasoning)
 - Uses BOS-aligned bestfit packing with **loss masking** (only trains on assistant tokens)
 - **Validation BPB dropped from 1.418 → 0.954** in just 7 steps
 
 **Run it:**
+
 ```bash
 bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh           # full SFT
 bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh --smoke   # quick test
 ```
 
 **After SFT, test generations:**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 python /mnt/data/zz/fineweb-code-sec-gpt/run_prompts.py --step 7 --temp 0.7

@@ -16,6 +16,7 @@ Here's the full procedure I followed to build FFmpeg from source:
 ## 1. Initial Assessment
 
 I checked:
+
 - **Build system**: Project uses `./configure` + `make` (standard autoconf-style)
 - **Previous build**: No `config.mak` existed → never configured before, needed a fresh build
 - **Toolchain**: `gcc` and `make` were already installed
@@ -24,11 +25,13 @@ I checked:
 ## 2. First Configure Attempt
 
 Ran:
+
 ```
 ./configure --enable-gpl --enable-version3 --enable-nonfree
 ```
 
 Failed with:
+
 ```
 nasm not found or too old. Please install/update nasm or use --disable-x86asm
 ```
@@ -38,6 +41,7 @@ nasm not found or too old. Please install/update nasm or use --disable-x86asm
 ## 3. Install NASM
 
 Since this machine requires interactive `sudo`, I used `pkexec` (Polkit GUI elevation):
+
 ```
 pkexec bash -c 'apt-get update -qq && apt-get install -y nasm'
 ```
@@ -47,17 +51,20 @@ This installed `nasm 2.16.01` from the Ubuntu 24.04 (Noble) repos.
 ## 4. Second Configure — Success
 
 Re-ran the same configure command:
+
 ```
 ./configure --enable-gpl --enable-version3 --enable-nonfree
 ```
 
 Succeeded. Configure auto-detected:
+
 - 2,414 object files would be compiled
 - Which codecs, filters, muxers, demuxers, protocols, and bitstream filters to enable
 - No external libraries found (no `-dev` packages)
 - Generated `config.h`, `config.mak`, `ffbuild/config.mak`, and library version headers
 
 **About the flags**:
+
 - `--enable-gpl` — enables GPL-licensed components (many FFmpeg parts are GPL)
 - `--enable-version3` — enables LGPLv3/GPLv3 code
 - `--enable-nonfree` — enables non-free codecs (e.g., libaacplus, certain encoders). Combined makes the output non-redistributable
@@ -77,6 +84,7 @@ make -j$(nproc)
 ## 6. Verification
 
 Checked:
+
 - Binary exist: `ffmpeg` (29 MB), `ffprobe` (29 MB)
 - Version string: `ffmpeg version git-2026-07-02-14ed5e8`
 - Library versions: avutil 61.2, avcodec 63.3, avformat 63.3, avdevice 63.2, avfilter 12.2, swscale 10.2, swresample 7.2
@@ -88,9 +96,11 @@ Checked:
 - **No `./configure` flags beyond license types were needed** — FFmpeg's configure has excellent auto-detection and pulls in everything it can find
 - The **only missing tool** was `nasm` — everything else (gcc, make, ld) was already present
 - To add external encoders (x264, x265, etc.), you'd run:
+
   ```
   sudo apt-get install libx264-dev libx265-dev libvpx-dev libmp3lame-dev libopus-dev libvorbis-dev libass-dev libsdl2-dev
   ./configure --enable-gpl --enable-version3 --enable-nonfree
   make -j$(nproc)
   ```
+
 - For a redistributable build (without non-free code), drop `--enable-nonfree`; configure will still work fine

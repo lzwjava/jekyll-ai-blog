@@ -16,6 +16,7 @@ Here's the analysis:
 ## Results assessment: d12 step 50K, temp=0.8
 
 **Training curve (val_bpb across checkpoints)**:
+
 ```
 step  5000: 1.6798  train_loss=1.3968
 step 10000: 1.6399  train_loss=1.3723
@@ -36,7 +37,7 @@ Curve is still descending at step 50K (no plateau), so the model hasn't converge
 **Code prompts — all failing**
 
 | Prompt | What it does |
-|--------|-------------|
+| -------- | ------------- |
 | **code_go** | Repeats prompt constraints verbatim ("The client should gracefully handle SIGINT..."), then drifts into unrelated `os.environ['PORT']` config boilerplate. Never generates a single line of Go code. |
 | **code_python** | Echoes the prompt back: "The function does not take any additional arguments. To add a new value to the list you must do so the function returns a list." Zero code generation. |
 | **code_quicksort** | This is the **best** code output. Generates a syntactically valid quicksort with one bug: `return quicksort(left) + middle + quicksort(right) - 1` (the `- 1` is wrong). Then invents `sort_2`, `sort_3`, ..., `sort_5` that all call `arr.sort(quicksort)` — syntactically valid but semantically broken (passing a function as key). The model has learned *code shape* but not *code semantics*. |
@@ -46,6 +47,7 @@ Curve is still descending at step 50K (no plateau), so the model hasn't converge
 **General knowledge prompts — word salad**
 
 All four (autonomic, compound, photosynthesis, water) follow the same pattern: faithfully reproduce the prompt for the first ~40 tokens, then undergo **semantic collapse**:
+
 - "fight-or-flight response" → "the warm, as opposed to the pitty"
 - "photosynthesis" → "photometry phototechnique" / "the following photographs"
 - "compound interest" → just repeats the prompt text as its own output
@@ -56,7 +58,7 @@ The model associates words by surface co-occurrence, not meaning. "Photosynthesi
 **SEC/financial prompts — the one bright spot**
 
 | Prompt | Assessment |
-|--------|-----------|
+| -------- | ----------- |
 | **sec_revenue** | **Genuinely plausible**. The 80-tok output continues the financial narrative coherently: "The effective growth was $5.42% in the prior year, including $4.7 million." The 200-tok version generates a full second paragraph of revenue analysis with reasonable-looking numbers. This is the only domain where the output could pass as human-written to a casual reader. |
 | **sec_risk** | Starts okay copying the prompt, then fixates on "ecosystem" and repeats it 12+ times. The 200-tok version invents "Item 1B. Sustainable Risks" — a hallucinated SEC section header. |
 | **sec_financial_analysis** | Degrades into "Sinh-Deutschmans algorithm" (nonsense) and lists of "1.8, 1.5, 1.6" — the model latched onto the ratio numbers and kept generating them. |

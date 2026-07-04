@@ -12,6 +12,7 @@ type: note
 ## 结果评估：d12 步骤 50K, 温度=0.8
 
 **训练曲线（各检查点的 val_bpb）**：
+
 ```
 step  5000: 1.6798  train_loss=1.3968
 step 10000: 1.6399  train_loss=1.3723
@@ -32,7 +33,7 @@ step 50000: 1.4176  train_loss=1.0616
 **代码提示——全部失败**
 
 | 提示 | 结果 |
-|--------|-------------|
+| -------- | ------------- |
 | **code_go** | 逐字重复提示中的约束条件（"客户端应优雅地处理 SIGINT..."），然后偏题到无关的 `os.environ['PORT']` 配置模板。从未生成一行 Go 代码。 |
 | **code_python** | 将提示回显："该函数不接受任何额外参数。要向列表添加新值，必须让函数返回一个列表。" 零代码生成。 |
 | **code_quicksort** | 这是**最好**的代码输出。生成了一个在语法上有效的快速排序，但有一个 bug：`return quicksort(left) + middle + quicksort(right) - 1`（其中的 `- 1` 是错误的）。然后虚构了 `sort_2`、`sort_3`、...、`sort_5`，这些函数都调用了 `arr.sort(quicksort)`——语法有效但语义错误（将函数作为 key 传递）。模型学会了*代码形状*，但没有学会*代码语义*。 |
@@ -42,6 +43,7 @@ step 50000: 1.4176  train_loss=1.0616
 **通用知识提示——语词混乱**
 
 所有四个（自主性、复利、光合作用、水）都遵循相同的模式：在前约 40 个 token 中忠实地复现提示，然后经历**语义崩溃**：
+
 - "fight-or-flight response" → "the warm, as opposed to the pitty"
 - "photosynthesis" → "photometry phototechnique" / "the following photographs"
 - "compound interest" → 只是将提示文本重复作为自己的输出
@@ -52,7 +54,7 @@ step 50000: 1.4176  train_loss=1.0616
 **SEC/金融提示——唯一的亮点**
 
 | 提示 | 评估 |
-|--------|-----------|
+| -------- | ----------- |
 | **sec_revenue** | **真正可信**。80 token 的输出连贯地延续了财务叙事："有效增长率为 5.42%，去年同期为 470 万美元。" 200 token 版本生成了完整的收入分析第二段，数字看起来合理。这是唯一一个输出可以让随意读者误以为是人类所写的领域。 |
 | **sec_risk** | 开头正常地复制提示，然后执着于 "ecosystem" 并重复了 12 次以上。200 token 版本虚构了 "Item 1B. Sustainable Risks"——一个虚构的 SEC 章节标题。 |
 | **sec_financial_analysis** | 退化为 "Sinh-Deutschmans algorithm"（无意义）以及 "1.8, 1.5, 1.6" 的列表——模型抓住了比率数字并不断生成它们。 |
