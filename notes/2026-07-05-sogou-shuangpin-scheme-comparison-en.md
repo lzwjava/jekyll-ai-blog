@@ -21,7 +21,7 @@ This scheme is designed to match the **Sogou Shuangpin layout directly**, so if 
 
 ---
 
-### Quick comparison with the others:
+### Quick comparison with the others
 
 * **Sogou (搜狗)** → **Exact match** to Sogou Shuangpin mapping
 * **Xiaohe (小鹤)** → Very popular modern scheme, but different key layout rules
@@ -31,7 +31,7 @@ This scheme is designed to match the **Sogou Shuangpin layout directly**, so if 
 
 ---
 
-### Bottom line:
+### Bottom line
 
 If your goal is “I want Sogou Shuangpin behavior,” choose:
 

@@ -62,14 +62,14 @@ Even though Apple markets durability, real-world drops on tile, concrete, or sta
 
 Here’s the practical way most people decide:
 
-### Use NO case if:
+### Use NO case if
 
 * You’re very careful (rare drops in your habits)
 * You like minimalist feel more than protection
 * You’re okay paying for occasional screen repair
 * You use AppleCare+
 
-### Use a case if:
+### Use a case if
 
 * You drop phones sometimes (very common)
 * You commute / walk a lot / use phone one-handed

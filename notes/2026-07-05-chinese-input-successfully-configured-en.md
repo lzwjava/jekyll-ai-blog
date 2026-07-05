@@ -16,7 +16,7 @@ Done. Chinese input is now **fully set up and working**. Here's the summary:
 ## Status: Already Installed & Configured
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | **IBus** + **ibus-libpinyin** | Installed |
 | **GNOME input source** | Added (`ibus libpinyin`) |
 | **IBus daemon** | Running |
