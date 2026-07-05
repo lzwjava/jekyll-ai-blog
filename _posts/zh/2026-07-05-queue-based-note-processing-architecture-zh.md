@@ -18,6 +18,7 @@ type: note
 **变更内容**：`/note` 斜杠命令不再直接处理响应，而是将文本内容**加入队列**，由独立的 `ww note watch` 守护进程拾取处理。
 
 **流程**：
+
 ```
 /note （Hermes CLI）
   └→ 将文本加入队列 → ~/.config/ww/note_queue.json
@@ -38,10 +39,12 @@ type: note
 ```
 
 **运行中的进程**：
+
 - `ww note watch` — 守护进程 PID **133147**（7月3日启动，仍活跃）
 - Hermes 定时任务 `ww-note-process` — 每30分钟运行一次，作为守护进程崩溃时的安全网
 
 **插件**（`~/.hermes/plugins/note/__init__.py`）：
+
 - `/note` → `_enqueue(text, "note")` → 写入 `~/.config/ww/note_queue.json`
 - `/note 3` → 将第3条响应加入队列
 - `/note --title "Foo"` → 在队列条目中存储标题提示

@@ -18,6 +18,7 @@ Done. Here's the corrected architecture:
 **What changed**: The `/note` slash command no longer processes the response directly. Instead it **enqueues** the text content, and the separate `ww note watch` daemon picks it up.
 
 **Flow**:
+
 ```
 /note  (Hermes CLI)
   └→ enqueue text → ~/.config/ww/note_queue.json
@@ -38,10 +39,12 @@ Done. Here's the corrected architecture:
 ```
 
 **What's running**:
+
 - `ww note watch` — daemon pid **133147** (started Jul 3, still active)
 - Hermes cron `ww-note-process` — every 30m as safety net if daemon dies
 
 **Plugin** (`~/.hermes/plugins/note/__init__.py`):
+
 - `/note` → `_enqueue(text, "note")` → writes to `~/.config/ww/note_queue.json`
 - `/note 3` → enqueues 3rd response back
 - `/note --title "Foo"` → stores title hint in queue entry

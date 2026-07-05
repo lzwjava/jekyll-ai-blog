@@ -14,11 +14,13 @@ type: note
 ### 已完成的工作
 
 **1. 安装 Fcitx5**（上一次会话）
+
 - `apt install fcitx5 fcitx5-chinese-addons im-config`
 - 通过 `im-config -n fcitx5` 设为默认输入法
 - 配置位于 `~/.config/fcitx5/` — 启用 keyboard-us + pinyin 双拼模式
 
 **2. 笔记插件 — 已存在并更新**
+
 - 该插件存在于两个位置：
   - `~/.hermes/plugins/note/` — Hermes 从此读取（用户插件目录）
   - `~/projects/config/hermes/plugins/note/` — 你的配置仓库（数据源）
@@ -32,6 +34,7 @@ type: note
 - 相应更新了 `plugin.yaml`
 
 **3. 插件已启用**，在 `~/.hermes/config.yaml` 中：
+
 ```yaml
 plugins:
   enabled:
@@ -39,6 +42,7 @@ plugins:
 ```
 
 **4. 依赖安装**（安装到 Hermes 虚拟环境 `~/.hermes/hermes-agent/venv/`）：
+
 - `ww` 包 — 通过 `uv pip install --no-deps -e ~/projects/ww` 安装
 - `pyperclip` — 用于剪贴板操作
 - `python-dotenv` + `requests` — 已在 Hermes 虚拟环境中
@@ -50,6 +54,7 @@ plugins:
 ### `/note` 如何工作
 
 在 Hermes CLI 会话中：
+
 ```
 /note                         # 保存最后一条助手回复
 /note 3                       # 保存倒数第三条回复
@@ -59,6 +64,7 @@ plugins:
 ```
 
 流程：
+
 1. 剥离推理标签（`...`）
 2. 提示 LLM（通过 `ww.llm.openrouter_client`）生成一个6个单词的标题
 3. 写入 `~/notes/<date>-<slug>-en.md` 并包含 YAML 前置元数据
@@ -67,7 +73,7 @@ plugins:
 ### 涉及的文件
 
 | 文件 | 角色 |
-|------|------|
+| ------ | ------ |
 | `~/.hermes/plugins/note/__init__.py` | 插件入口点（已更新） |
 | `~/.hermes/plugins/note/plugin.yaml` | 插件元数据（已更新） |
 | `~/.hermes/config.yaml` 第642行 | 插件启用列表 |

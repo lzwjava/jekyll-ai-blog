@@ -14,11 +14,13 @@ type: note
 ### What was done
 
 **1. Installed Fcitx5** (previous session)
+
 - `apt install fcitx5 fcitx5-chinese-addons im-config`
 - Set as default input method via `im-config -n fcitx5`
 - Config at `~/.config/fcitx5/` — keyboard-us + pinyin, shuangpin mode enabled
 
 **2. Note plugin — already existing, updated**
+
 - The plugin lives in two places:
   - `~/.hermes/plugins/note/` — Hermes reads from here (user plugins dir)
   - `~/projects/config/hermes/plugins/note/` — your config repo (source of truth)
@@ -32,6 +34,7 @@ type: note
 - Updated `plugin.yaml` to match
 
 **3. Plugin already enabled** in `~/.hermes/config.yaml`:
+
 ```yaml
 plugins:
   enabled:
@@ -39,6 +42,7 @@ plugins:
 ```
 
 **4. Dependencies installed** (into Hermes venv at `~/.hermes/hermes-agent/venv/`):
+
 - `ww` package — installed via `uv pip install --no-deps -e ~/projects/ww`
 - `pyperclip` — for clipboard operations
 - `python-dotenv` + `requests` — already in Hermes venv
@@ -50,6 +54,7 @@ Did NOT install `ww`'s full dependency tree (torch, cudnn, whisperx, playwright 
 ### How `/note` works
 
 In a Hermes CLI session:
+
 ```
 /note                         # save last assistant response
 /note 3                       # save 3rd response back
@@ -59,6 +64,7 @@ In a Hermes CLI session:
 ```
 
 Pipeline:
+
 1. Strips reasoning tags (`...`)
 2. Prompts LLM (via `ww.llm.openrouter_client`) for a 6-word title
 3. Writes `~/notes/<date>-<slug>-en.md` with YAML frontmatter
@@ -67,7 +73,7 @@ Pipeline:
 ### Files involved
 
 | File | Role |
-|------|------|
+| ------ | ------ |
 | `~/.hermes/plugins/note/__init__.py` | Plugin entry point (updated) |
 | `~/.hermes/plugins/note/plugin.yaml` | Plugin metadata (updated) |
 | `~/.hermes/config.yaml` line 642 | Plugin enabled list |
