@@ -16,7 +16,7 @@ type: note
 两者都暴露 `/v1/chat/completions`，但存在可检测的差异：
 
 | 维度 | vLLM | SGLang |
-|------|------|--------|
+| ------ | ------ | -------- |
 | id 字段 | "chatcmpl-<UUID>" | 通常是一个裸的32位十六进制字符串（无 chatcmpl- 前缀） |
 | 流式推理 | delta.reasoning_content（某些版本） | delta.reasoning（深度思考模型）；SGLang 也在第一个 chunk 中使用 reasoning_content: null |
 | 服务器头 | Server: uvicorn（典型） | 有时为 Server: sglang 或缺失；检查 /health 或 /v1/models 响应结构 |
@@ -71,7 +71,7 @@ print("请求2（缓存前缀）:", ttft([{"role":"user","content": SHARED_PREFI
 3. 用户体验中的表现
 
 | 维度 | SGLang（RadixAttention） | vLLM（APC，块级别） |
-|------|--------------------------|----------------------|
+| ------ | -------------------------- | ---------------------- |
 | 多轮对话/共享系统提示 | 第2轮及以后 TTFT 几乎即时，命中率高 | 如果前缀对齐到块边界则 TTFT 改善，但不够激进 |
 | RAG/模板提示 | 跨用户使用相同模板时复用效果极佳 | 取决于块对齐；可能重新计算尾部 token |
 | 共享前缀下的吞吐量 | 通常更高（冗余 KV 计算更少） | 不错，但部分重叠场景缓存效率通常较低 |

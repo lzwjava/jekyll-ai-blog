@@ -18,7 +18,7 @@ type: note
 There are four engines you'll actually encounter. All of them run the same macro layer (LaTeX) on top — the "compiler" difference is the *engine* underneath.
 
 | Engine | Output | Fonts | Unicode | Speed | Extensibility |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | pdfTeX (`pdflatex`) | PDF directly | Legacy (Type1/TFM, 8-bit) | No (workarounds via `inputenc`) | Fastest | microtype (protrusion + expansion) |
 | XeTeX (`xelatex`) | PDF via `xdvipdfmx` | System fonts (OpenType/TrueType via `fontspec`) | Native UTF-8 | Medium | Limited; protrusion only, no font expansion |
 | LuaTeX (`lualatex`) | PDF directly | System fonts via `fontspec` (loaded in Lua) | Native UTF-8 | Slowest cold start | Lua scripting inside the engine — full node-list access |

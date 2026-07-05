@@ -18,7 +18,7 @@ type: note
 实际会遇到四种引擎。它们都在顶层运行相同的宏层（LaTeX）——"编译器"的区别在于底层的*引擎*。
 
 | 引擎 | 输出 | 字体 | Unicode | 速度 | 可扩展性 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | pdfTeX（`pdflatex`） | 直接生成 PDF | 传统字体（Type1/TFM，8 位） | 不支持（通过 `inputenc` 变通） | 最快 | microtype（字符突出与字宽扩展） |
 | XeTeX（`xelatex`） | 通过 `xdvipdfmx` 生成 PDF | 系统字体（通过 `fontspec` 使用 OpenType/TrueType） | 原生 UTF-8 | 中等 | 有限；仅支持字符突出，不支持字宽扩展 |
 | LuaTeX（`lualatex`） | 直接生成 PDF | 通过 `fontspec`（以 Lua 方式加载）使用系统字体 | 原生 UTF-8 | 冷启动最慢 | 引擎内嵌 Lua 脚本——可完全访问节点列表 |

@@ -44,7 +44,7 @@ Minimal Python test sketch:
 from openai import OpenAI
 import time
 
-client = OpenAI(base_url="http://localhost:30000/v1", api_key="EMPTY")
+client = OpenAI(base_url="<http://localhost:30000/v1>", api_key="EMPTY")
 
 SHARED_PREFIX = "你是一个资深Python工程师，请严格按下方要求作答。\n\n" * 200  # long shared part
 SUFFIX_A = "问题A：打印1到10。"
@@ -65,7 +65,6 @@ def ttft(messages):
 
 print("Req 1 (cold):", ttft([{"role":"user","content": SHARED_PREFIX + SUFFIX_A}]))
 print("Req 2 (cached prefix):", ttft([{"role":"user","content": SHARED_PREFIX + SUFFIX_B}]))
-
 
 • vLLM needs --enable-prefix-caching at startup to show this effect.
 
