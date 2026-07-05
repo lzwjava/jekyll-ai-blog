@@ -1,0 +1,36 @@
+step 08957 (99.69%) | loss: 1.047762 | lrm: 0.01 | dt: 1226.51ms | tok/sec: 53,432 | mfu: 162.61 | epoch: 1 | total time: 184.13m
+step 08958 (99.70%) | loss: 1.022843 | lrm: 0.01 | dt: 1227.98ms | tok/sec: 53,368 | mfu: 162.41 | epoch: 1 | total time: 184.15m
+step 08959 (99.71%) | loss: 1.083902 | lrm: 0.01 | dt: 1226.29ms | tok/sec: 53,442 | mfu: 162.64 | epoch: 1 | total time: 184.17m
+step 08960 (99.72%) | loss: 1.056677 | lrm: 0.01 | dt: 1228.66ms | tok/sec: 53,339 | mfu: 162.32 | epoch: 1 | total time: 184.19m
+step 08961 (99.73%) | loss: 1.026489 | lrm: 0.01 | dt: 1238.37ms | tok/sec: 52,921 | mfu: 161.05 | epoch: 1 | total time: 184.21m
+step 08962 (99.74%) | loss: 1.048755 | lrm: 0.01 | dt: 1228.77ms | tok/sec: 53,334 | mfu: 162.31 | epoch: 1 | total time: 184.23m
+step 08963 (99.75%) | loss: 1.064188 | lrm: 0.00 | dt: 1226.54ms | tok/sec: 53,431 | mfu: 162.60 | epoch: 1 | total time: 184.25m
+step 08964 (99.76%) | loss: 1.074006 | lrm: 0.00 | dt: 1228.61ms | tok/sec: 53,341 | mfu: 162.33 | epoch: 1 | total time: 184.27m
+step 08965 (99.78%) | loss: 1.070800 | lrm: 0.00 | dt: 1233.18ms | tok/sec: 53,144 | mfu: 161.73 | epoch: 1 | total time: 184.29m
+step 08966 (99.79%) | loss: 1.071836 | lrm: 0.00 | dt: 1226.07ms | tok/sec: 53,451 | mfu: 162.67 | epoch: 1 | total time: 184.32m
+step 08967 (99.80%) | loss: 1.086134 | lrm: 0.00 | dt: 1229.10ms | tok/sec: 53,320 | mfu: 162.27 | epoch: 1 | total time: 184.34m
+step 08968 (99.81%) | loss: 1.086029 | lrm: 0.00 | dt: 1226.60ms | tok/sec: 53,428 | mfu: 162.60 | epoch: 1 | total time: 184.36m
+step 08969 (99.82%) | loss: 1.107502 | lrm: 0.00 | dt: 1232.57ms | tok/sec: 53,170 | mfu: 161.81 | epoch: 1 | total time: 184.38m
+step 08970 (99.83%) | loss: 1.119416 | lrm: 0.00 | dt: 1228.18ms | tok/sec: 53,360 | mfu: 162.39 | epoch: 1 | total time: 184.40m
+step 08971 (99.85%) | loss: 1.128431 | lrm: 0.00 | dt: 1226.74ms | tok/sec: 53,422 | mfu: 162.58 | epoch: 1 | total time: 184.42m
+step 08972 (99.86%) | loss: 1.135290 | lrm: 0.00 | dt: 1228.22ms | tok/sec: 53,358 | mfu: 162.38 | epoch: 1 | total time: 184.44m
+step 08973 (99.87%) | loss: 1.118776 | lrm: 0.00 | dt: 1226.78ms | tok/sec: 53,421 | mfu: 162.57 | epoch: 1 | total time: 184.46m
+step 08974 (99.88%) | loss: 1.099316 | lrm: 0.00 | dt: 1233.75ms | tok/sec: 53,119 | mfu: 161.65 | epoch: 1 | total time: 184.48m
+step 08975 (99.89%) | loss: 1.093795 | lrm: 0.00 | dt: 1227.54ms | tok/sec: 53,387 | mfu: 162.47 | epoch: 1 | total time: 184.50m
+step 08976 (99.90%) | loss: 1.070433 | lrm: 0.00 | dt: 1226.44ms | tok/sec: 53,435 | mfu: 162.62 | epoch: 1 | total time: 184.52m
+step 08977 (99.92%) | loss: 1.059740 | lrm: 0.00 | dt: 1228.31ms | tok/sec: 53,354 | mfu: 162.37 | epoch: 1 | total time: 184.54m
+step 08978 (99.93%) | loss: 1.089341 | lrm: 0.00 | dt: 1233.13ms | tok/sec: 53,145 | mfu: 161.73 | epoch: 1 | total time: 184.56m
+step 08979 (99.94%) | loss: 1.084595 | lrm: 0.00 | dt: 1226.00ms | tok/sec: 53,455 | mfu: 162.68 | epoch: 1 | total time: 184.58m
+step 08980 (99.95%) | loss: 1.044719 | lrm: 0.00 | dt: 1229.03ms | tok/sec: 53,323 | mfu: 162.27 | epoch: 1 | total time: 184.60m
+step 08981 (99.96%) | loss: 1.034897 | lrm: 0.00 | dt: 1226.71ms | tok/sec: 53,424 | mfu: 162.58 | epoch: 1 | total time: 184.62m
+step 08982 (99.98%) | loss: 1.052815 | lrm: 0.00 | dt: 1230.29ms | tok/sec: 53,268 | mfu: 162.11 | epoch: 1 | total time: 184.64m
+step 08983 (99.99%) | loss: 1.073994 | lrm: 0.00 | dt: 1229.69ms | tok/sec: 53,294 | mfu: 162.19 | epoch: 1 | total time: 184.66m
+step 08984 (100.00%) | loss: 1.067400 | lrm: 0.00 | dt: 1225.93ms | tok/sec: 53,458 | mfu: 162.68 | epoch: 2 | total time: 184.68m
+step 08985 (100.01%) | loss: 1.073560 | lrm: -0.00 | dt: 1228.28ms | tok/sec: 53,355 | mfu: 162.37 | epoch: 2 | total time: 184.70m
+Step 08985 | Validation bpb: 0.4053
+2026-07-05 07:00:48,839 - nanochat.checkpoint_manager - INFO - Saved model parameters to: /home/lzw/.cache/nanochat/chatsft_checkpoints/d12/model_008985.pt
+2026-07-05 07:00:48,839 - nanochat.checkpoint_manager - INFO - Saved metadata to: /home/lzw/.cache/nanochat/chatsft_checkpoints/d12/meta_008985.json
+2026-07-05 07:00:49,679 - nanochat.checkpoint_manager - INFO - Saved optimizer state to: /home/lzw/.cache/nanochat/chatsft_checkpoints/d12/optim_008985_rank0.pt
+Peak memory usage: 6240.67MiB
+Total training time: 184.70m
+Minimum validation bpb: 0.4053
