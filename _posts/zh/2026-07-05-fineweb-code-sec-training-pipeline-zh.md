@@ -18,13 +18,14 @@ type: note
 ### 阶段 1：数据流水线 — `/mnt/data/zz/prepare_data.sh`
 
 | 数据集 | 来源 | 格式 | 大小 | 目的 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **github-code** | `codeparrot/github-code`（1126 分片中的 38 个） | Parquet，`content` 列 → 转换为 `text` 列 | 11 GB | 代码理解（Python、JS、Go 等） |
 | **sec-edgar** | SEC 10-K 申报文件（17 个文件） | Parquet，提取 `text` 列 | 2.6 GB | 金融文档理解 |
 | **fineweb-edu** | `HuggingFaceFW/fineweb-edu`（9 个分片） | Parquet，`text` 列 | 20 GB | 通用网络文本知识 |
 | **合并后** | 所有 3 个数据集通过符号链接放入同一目录 | 64 个 Parquet 文件（63 个训练 + 1 个验证） | 34 GB | 混合训练数据 |
 
 转换脚本：
+
 - `scripts/extract/convert_github_code_for_nanochat.py` — 将 `content` 列重命名为 `text`
 - `scripts/extract/convert_sec_edgar_for_nanochat.py` — 提取 `text` 列
 - 在混合数据上训练的 tokenizer：`python -m scripts.tok_train`（32k 词表，2B 字符）
@@ -38,6 +39,7 @@ bash /mnt/data/zz/fineweb-code-sec-gpt.sh
 **模型：** d12（286M 参数），n_embd=768，n_head=6，seq_len=2048，window=L
 
 **训练进度：**
+
 ```
 Step   5000 | val_bpb: 1.680 | loss: 1.397 | 1.6h
 Step  25000 | val_bpb: 1.568 | loss: 1.136 | 8.2h
@@ -55,8 +57,9 @@ bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh
 **基础模型：** d12 step 50k → 在对话数据上微调
 
 **SFT 数据混合（1,071,759 行）：**
+
 | 数据集 | 行数 | 目的 |
-|---|---|---|
+| --- | --- | --- |
 | **SmolTalk** | 460K | 通用对话 |
 | **MMLU** x3 | 300K | 多项选择推理 |
 | **SimpleSpelling** | 200K | 拼写任务 |
@@ -66,6 +69,7 @@ bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh
 | **自定义代码+SEC** | **1K** | 我们精选的代码和 SEC 对话 |
 
 自定义数据格式（`prepare_sft_data.py`）：
+
 ```python
 # JSONL 每行：
 [{"role":"user","content":"写一个 Python 函数..."},

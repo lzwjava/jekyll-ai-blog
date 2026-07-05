@@ -18,13 +18,14 @@ A complete training pipeline: raw data → pretrained model → SFT fine-tuning.
 ### Phase 1: Data Pipeline — `/mnt/data/zz/prepare_data.sh`
 
 | Dataset | Source | Format | Size | Purpose |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **github-code** | `codeparrot/github-code` (38 of 1126 shards) | Parquet, `content` col → converted to `text` col | 11 GB | Code understanding (Python, JS, Go, etc.) |
 | **sec-edgar** | SEC 10-K filings (17 files) | Parquet, extracted `text` column | 2.6 GB | Financial document understanding |
 | **fineweb-edu** | `HuggingFaceFW/fineweb-edu` (9 shards) | Parquet, `text` column | 20 GB | General web text knowledge |
 | **Merged** | All 3 datasets symlinked into one dir | 64 parquet files (63 train + 1 val) | 34 GB | Mixed training data |
 
 Conversion scripts:
+
 - `scripts/extract/convert_github_code_for_nanochat.py` — renames `content`→`text` col
 - `scripts/extract/convert_sec_edgar_for_nanochat.py` — extracts `text` column
 - Tokenizer trained on mixed data: `python -m scripts.tok_train` (32k vocab, 2B chars)
@@ -38,6 +39,7 @@ bash /mnt/data/zz/fineweb-code-sec-gpt.sh
 **Model:** d12 (286M params), n_embd=768, n_head=6, seq_len=2048, window=L
 
 **Training progression:**
+
 ```
 Step   5000 | val_bpb: 1.680 | loss: 1.397 | 1.6h
 Step  25000 | val_bpb: 1.568 | loss: 1.136 | 8.2h
@@ -55,8 +57,9 @@ bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh
 **Base model:** d12 step 50k → fine-tuned on chat conversations
 
 **SFT data mixture (1,071,759 rows):**
+
 | Dataset | Rows | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | **SmolTalk** | 460K | General chat conversations |
 | **MMLU** x3 | 300K | Multiple choice reasoning |
 | **SimpleSpelling** | 200K | Spelling tasks |
@@ -66,6 +69,7 @@ bash /mnt/data/zz/fineweb-code-sec-gpt/sft_code_sec.sh
 | **Custom code+SEC** | **1K** | Our curated code + SEC conversations |
 
 Custom data format (`prepare_sft_data.py`):
+
 ```python
 # Each line in JSONL:
 [{"role":"user","content":"Write a Python function..."},
