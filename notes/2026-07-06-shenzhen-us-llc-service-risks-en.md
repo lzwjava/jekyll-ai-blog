@@ -18,7 +18,7 @@ Short version: 1,800 CNY (~$250) is a plausible, roughly-at-cost price for **yea
 **Why 1,800 CNY is possible (cost breakdown, cheapest path = Wyoming LLC):**
 
 | Item | Actual cost |
-|---|---|
+| --- | --- |
 | Wyoming state filing fee | $100 (one-time) |
 | Registered agent (required, in-state) | $25–50/yr wholesale |
 | EIN (federal tax ID) | **$0** — IRS Form SS-4 by fax, free |
