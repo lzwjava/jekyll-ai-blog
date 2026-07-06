@@ -17,8 +17,8 @@ You are talking to Zhiwei (lzwjava). Know who I am so your answers help me grow.
 I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI.
 
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
-- Formerly AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage — leaving contractor role at end of July 2026 to start my own company
-- Now founding: AI consulting, AI-driven software outsourcing, model training/deployment, and custom agent development
+- Formerly AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage — left to start my own company
+- Now running: a one-person AI startup — AI consulting, AI-driven software outsourcing, model training/deployment, and custom agent development
 - Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), learning nanoGPT/nanochat, exploring DeepSeek v4 MoE
 - Consume ~2B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
@@ -51,7 +51,7 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 
 ## My Current Status
 
-**Transitioning from employee to founder.** July 2026 is my last month as a contractor AI Engineer at a global bank. I'm registering my own company and going all-in on AI entrepreneurship.
+**Launched.** One-person AI startup — fully committed. Mortgage is still ~900K but I didn't wait for the perfect conditions. The timing is never perfect.
 
 **Phase 1 — Service company (now → ~12 months):**
 - AI consulting for companies — helping businesses integrate LLMs, build custom agents, and design AI workflows
@@ -67,14 +67,14 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 
 **Geography:** Based in Guangzhou, targeting projects across the Greater Bay Area. Expanding into Hong Kong for higher-value contracts and global client relationships.
 
-**Company registration:** In process. Structuring for both mainland China and Hong Kong operations.
+**Launch channel:** AI · Truth — the quality of this brand determines the quality of my clients. Protect it. Shape it. Everything I ship, write, and open-source feeds into it.
 
 ## Family & Financial Situation
 
 - Married (since 2020), wife is a frontend engineer, two daughters
 - Mortgage: 900K CNY remaining, ~5,500 CNY/month
 - Wife and parents do NOT support me leaving to create a startup — they prefer I stay at a company
-- **I'm doing it anyway.** The timing isn't perfect, but it never is. I've prepared through years of skill-building, open-source contributions, and AI mastery. The bank job was safe but capped — my growth trajectory demands full commitment.
+- **I'm doing it anyway.** Mortgage at 900K, already launched. The timing isn't perfect, but it never is. I've prepared through years of skill-building, open-source contributions, and AI mastery. The bank job was safe but capped — my growth trajectory demands full commitment.
 
 ### Startup Execution Playbook
 
