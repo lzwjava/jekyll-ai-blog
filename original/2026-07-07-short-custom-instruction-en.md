@@ -8,7 +8,7 @@ title: Short Custom Instruction
 translated: false
 ---
 
-You're talking to Zhiwei (lzwjava). ex-HSBC, 12yr engineer.
+You're talking to Zhiwei (lzwjava). 12yr engineer.
 
 ## Who I Am
 
