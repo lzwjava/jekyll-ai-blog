@@ -17,15 +17,15 @@ type: note
 
 Plaud 的弱点大多属于结构性问题，而非硬件问题：
 
-1.  **订阅锁定，而推理本可自行运行。** 该设备只是一个笨重的录音机——设备本身没有任何 AI 处理能力；音频会传输到 Plaud 应用，而该应用是“整个操作的大脑”。你实际上是在为 Whisper + GPT 的调用支付循环费用，而这些调用按 API 价格计算成本极低。你可以在一个下午就用完整个月的免费转录额度，然后需要购买附加包；年度套餐价格为 79 美元/年，包含每月 1,200 分钟的转录时长，额外的 6,000 分钟包价格为 89 美元。对比一下：通过 Groq Whisper 处理 20 小时音频的一次性成本约为 2.22 美元（0.11 美元/小时），而 Plaud Pro 约为 0.90 美元/小时。这意味着在通用推理服务上的加价率约为 8 倍。
+1. **订阅锁定，而推理本可自行运行。** 该设备只是一个笨重的录音机——设备本身没有任何 AI 处理能力；音频会传输到 Plaud 应用，而该应用是“整个操作的大脑”。你实际上是在为 Whisper + GPT 的调用支付循环费用，而这些调用按 API 价格计算成本极低。你可以在一个下午就用完整个月的免费转录额度，然后需要购买附加包；年度套餐价格为 79 美元/年，包含每月 1,200 分钟的转录时长，额外的 6,000 分钟包价格为 89 美元。对比一下：通过 Groq Whisper 处理 20 小时音频的一次性成本约为 2.22 美元（0.11 美元/小时），而 Plaud Pro 约为 0.90 美元/小时。这意味着在通用推理服务上的加价率约为 8 倍。
 
-2.  **封闭的生态系统 / 不支持自带 API 密钥、无本地处理流程。** 你可以从 Plaud 设备上传录音，但奇怪的是却不能从手机或笔记本电脑上传——尽管 Plaud 提供了桌面和移动应用。没有官方方法将其指向你自己的 Whisper 端点或你自己的 LLM。
+2. **封闭的生态系统 / 不支持自带 API 密钥、无本地处理流程。** 你可以从 Plaud 设备上传录音，但奇怪的是却不能从手机或笔记本电脑上传——尽管 Plaud 提供了桌面和移动应用。没有官方方法将其指向你自己的 Whisper 端点或你自己的 LLM。
 
-3.  **准确性不透明。** Plaud 未公布任何关于转录准确性的统计数据或细节。
+3. **准确性不透明。** Plaud 未公布任何关于转录准确性的统计数据或细节。
 
-4.  **隐私问题。** 你的原始会议音频会通过其云端（Azure）传输。对于你的目标客户——银行、香港企业——这通常是一个绝对的禁区。这恰恰是你的咨询服务可以利用的差距。
+4. **隐私问题。** 你的原始会议音频会通过其云端（Azure）传输。对于你的目标客户——银行、香港企业——这通常是一个绝对的禁区。这恰恰是你的咨询服务可以利用的差距。
 
-5.  **不支持实时转录。** 因为这是一个物理录音机，所以无法进行实时转录——你需要上传并等待，而且蓝牙同步速度很慢（传输一个 70 分钟的录音需要 10 多分钟；WiFi 则快得多）。
+5. **不支持实时转录。** 因为这是一个物理录音机，所以无法进行实时转录——你需要上传并等待，而且蓝牙同步速度很慢（传输一个 70 分钟的录音需要 10 多分钟；WiFi 则快得多）。
 
 ## Plaud 是开源的吗？
 
@@ -35,12 +35,12 @@ Plaud 的弱点大多属于结构性问题，而非硬件问题：
 
 **软件层（与 Plaud 设备配合使用）：**
 
-*   **Riffado**（原名 OpenPlaud）——最接近你描述的工具。一个开源（AGPL-3.0 协议）的自托管 Plaud 设备配套应用：使用 Docker Compose 堆栈，连接到你的 Plaud 账户，自带 AI 提供商。可在你的笔记本电脑、NAS 或 VPS 上运行，可接入 OpenAI、Groq 或 Ollama——或通过 Transformers.js Whisper 在浏览器中免费转录——存储到本地磁盘、R2、B2 或 S3，并导出为 JSON、TXT、SRT、VTT 格式。这简直就是“针对 Plaud 的 Dify”：保留硬件，替换云端。
-*   **Applaud**——一个自托管的 Plaud 替代品：从 iCloud/Google Drive 同步音频，使用 insanely-fast-whisper（支持 CUDA 和 MPS）进行转录，使用你选择的模型（包括本地 Ollama）进行摘要生成，生成抽认卡和问答。在配备 RTX 4070 的机器上运行良好。
+* **Riffado**（原名 OpenPlaud）——最接近你描述的工具。一个开源（AGPL-3.0 协议）的自托管 Plaud 设备配套应用：使用 Docker Compose 堆栈，连接到你的 Plaud 账户，自带 AI 提供商。可在你的笔记本电脑、NAS 或 VPS 上运行，可接入 OpenAI、Groq 或 Ollama——或通过 Transformers.js Whisper 在浏览器中免费转录——存储到本地磁盘、R2、B2 或 S3，并导出为 JSON、TXT、SRT、VTT 格式。这简直就是“针对 Plaud 的 Dify”：保留硬件，替换云端。
+* **Applaud**——一个自托管的 Plaud 替代品：从 iCloud/Google Drive 同步音频，使用 insanely-fast-whisper（支持 CUDA 和 MPS）进行转录，使用你选择的模型（包括本地 Ollama）进行摘要生成，生成抽认卡和问答。在配备 RTX 4070 的机器上运行良好。
 
 **完全开源硬件 + 软件：**
 
-*   **Omi (BasedHardware)**——真正的开源竞争对手。完全开源：可穿戴设备 + Flutter 移动应用 + macOS 应用 + Python 后端，支持实时转录、摘要、行动项和记忆聊天。其后端是你已经熟悉的一套技术栈：Python/FastAPI、Firebase、Pinecone、Redis、Deepgram/Speechmatics/Soniox 语音转文字、兼容 OpenAI 的 API、LangChain、Silero VAD。注意事项：他们的参考部署依赖云服务（Deepgram、Firestore），因此“自托管”意味着将这些服务替换为 whisper.cpp/faster-whisper + Postgres——可行，但需要实际工作。
+* **Omi (BasedHardware)**——真正的开源竞争对手。完全开源：可穿戴设备 + Flutter 移动应用 + macOS 应用 + Python 后端，支持实时转录、摘要、行动项和记忆聊天。其后端是你已经熟悉的一套技术栈：Python/FastAPI、Firebase、Pinecone、Redis、Deepgram/Speechmatics/Soniox 语音转文字、兼容 OpenAI 的 API、LangChain、Silero VAD。注意事项：他们的参考部署依赖云服务（Deepgram、Firestore），因此“自托管”意味着将这些服务替换为 whisper.cpp/faster-whisper + Postgres——可行，但需要实际工作。
 
 **DIY 最大化方案：** ESP32-S3 / XIAO 开发板 + I2S MEMS 麦克风 + BLE 连接 -> 手机/服务器 -> 在你的 4070 上运行 faster-whisper -> 本地 LLM 摘要。Omi 的固件仓库是实现此方案的参考实现。
 
@@ -77,9 +77,9 @@ print(resp.choices[0].message.content)
 
 **参考资料：**
 
-*   [Riffado (原名 OpenPlaud) — GitHub](https://github.com/openplaud/openplaud)
-*   [Riffado — 定价/架构](https://openplaud.com/)
-*   [Applaud — 自托管的 Plaud 替代品](https://github.com/landoncrabtree/applaud)
-*   [Omi — BasedHardware 开源 AI 可穿戴设备](https://github.com/BasedHardware/omi)
-*   [Plaud 替代品分析 (Notta)](https://www.notta.ai/en/blog/plaud-alternatives)
-*   [Plaud Note 实际使用问题 (BlueDot)](https://www.bluedothq.com/blog/plaud-alternatives)
+* [Riffado (原名 OpenPlaud) — GitHub](https://github.com/openplaud/openplaud)
+* [Riffado — 定价/架构](https://openplaud.com/)
+* [Applaud — 自托管的 Plaud 替代品](https://github.com/landoncrabtree/applaud)
+* [Omi — BasedHardware 开源 AI 可穿戴设备](https://github.com/BasedHardware/omi)
+* [Plaud 替代品分析 (Notta)](https://www.notta.ai/en/blog/plaud-alternatives)
+* [Plaud Note 实际使用问题 (BlueDot)](https://www.bluedothq.com/blog/plaud-alternatives)
