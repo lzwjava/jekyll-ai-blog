@@ -1,0 +1,193 @@
+---
+audio: false
+generated: true
+image: false
+lang: en
+layout: post
+title: Transformer to FPGA RTL Accelerator
+translated: false
+type: note
+---
+
+<h2>Question: Intro to the repo <a href="https://github.com/Luthiraa/TALOS-V2">https://github.com/Luthiraa/TALOS-V2</a></h2>
+<p>Answer: I’ll split it into <strong>what it is, what’s inside, and why it matters</strong>.</p>
+<hr>
+
+<h2>1. What TALOS-V2 is</h2>
+<p>TALOS-V2 is a <strong>Transformer → FPGA RTL hardware accelerator project</strong>. Instead of running a GPT-style model in Python/CUDA, it:</p>
+<ul>
+  <li>compiles Transformer inference into <strong>Verilog-style datapaths</strong></li>
+  <li>runs it directly on an FPGA (Cyclone V class board)</li>
+  <li>pushes token generation fully on hardware (no host-side decoding loop)</li>
+</ul>
+<p>It’s a <strong>teaching + research accelerator</strong>, not production ML infra.</p>
+<p>Key claim:</p>
+<ul>
+  <li>~<strong>50k+ tokens/sec inference throughput</strong> on a small character-level GPT</li>
+</ul>
+
+<h2>2. Core idea (mental model)</h2>
+<p>Think of a Transformer block:</p>
+<pre><code class="language-plaintext">x → [QKV projections] → attention → MLP → logits → sampling → next token</code></pre>
+<p>TALOS-V2 rewires this into:</p>
+<pre><code class="language-plaintext">stream tokens → fixed-point vector → shared MatVec engine → QKV + MLP reused tile → attention scheduled FSM → LUT-softmax + bounded divider → hardware sampler → next token emitted</code></pre>
+<p>So instead of:</p>
+<ul>
+  <li>tensor ops on GPU kernels</li>
+</ul>
+<p>You get:</p>
+<ul>
+  <li><strong>state machines + MAC arrays + ROM weights + streaming datapaths</strong></li>
+</ul>
+
+<h2>3. Architecture (what’s actually built)</h2>
+<h3>(1) Fixed-point core</h3>
+<ul>
+  <li>Q4.12 (16-bit signed fixed-point)</li>
+  <li>avoids floating point entirely</li>
+  <li>weights stored in FPGA ROM (<code>$readmemh</code> style)</li>
+</ul>
+<p>Why:</p>
+<ul>
+  <li>deterministic timing</li>
+  <li>fits FPGA DSP + LUT budget</li>
+</ul>
+
+<h3>(2) Reusable MatVec engine (centerpiece)</h3>
+<p>Everything reduces to:</p>
+<pre><code class="language-plaintext">y = W · x</code></pre>
+<p>Used for:</p>
+<ul>
+  <li>Q, K, V projections</li>
+  <li>attention output projection</li>
+  <li>MLP expansion + projection</li>
+  <li>LM head</li>
+</ul>
+<p>Design:</p>
+<ul>
+  <li><strong>16-lane streamed MAC tile</strong></li>
+  <li>time-multiplexed across layers</li>
+</ul>
+<p>Key tradeoff:</p>
+<blockquote>reuse hardware instead of duplicating parallel blocks</blockquote>
+
+<h3>(3) Attention is a schedule, not a formula</h3>
+<p>Original math: <code>[ softmax(QK^T / \sqrt{d}) V ]</code></p>
+<p>RTL decomposition:</p>
+<ul>
+  <li>dot-product stream Q/K</li>
+  <li>max tracking (for stability)</li>
+  <li>LUT exp approximation</li>
+  <li>accumulation</li>
+  <li>multicycle division engine</li>
+</ul>
+<p>Important:</p>
+<ul>
+  <li>softmax is <strong>not a function block</strong></li>
+  <li>it’s a <strong>multi-stage FSM pipeline</strong></li>
+</ul>
+
+<h3>(4) Optimizations that actually mattered</h3>
+<p>Not “more parallelism everywhere”, but:</p>
+<ul>
+  <li><strong>folding FSM work into compute passes</strong>
+    <ul>
+      <li>e.g. max tracking during dot-product</li>
+    </ul>
+  </li>
+  <li><strong>bounded math engines</strong>
+    <ul>
+      <li>div / RMSNorm iterative units</li>
+    </ul>
+  </li>
+  <li><strong>streaming instead of buffering</strong></li>
+  <li><strong>hardware sampling (no CPU)</strong></li>
+  <li><strong>targeted dual-divider for attention bottleneck</strong></li>
+  <li>clock bump after timing closure (~56.25 MHz)</li>
+</ul>
+
+<h2>4. Performance claim</h2>
+<ul>
+  <li>~<strong>53k tokens/sec</strong></li>
+  <li>full generation loop on FPGA</li>
+  <li>host not involved in token selection</li>
+</ul>
+<p>This is important:</p>
+<blockquote>sampling + next-token loop is fully on-chip</blockquote>
+<p>So it’s not “fast kernel execution”, it’s <strong>hardware autoregressive inference loop</strong>.</p>
+
+<h2>5. Why this repo is interesting (engineering view)</h2>
+<p>This is basically:</p>
+<blockquote>“what if GPT inference was a CPU pipeline design problem”</blockquote>
+<p>Key learning signals:</p>
+
+<h3>A. Transformers are just repeated MatVec</h3>
+<p>Once you see:</p>
+<pre><code class="language-plaintext">Attention = MatVec + reduction + normalization
+MLP = MatVec + activation + MatVec</code></pre>
+<p>The architecture collapses into one reusable compute tile.</p>
+
+<h3>B. Hardware forces schedule thinking</h3>
+<p>In software:</p>
+<ul>
+  <li>ops are declarative</li>
+</ul>
+<p>In TALOS:</p>
+<ul>
+  <li>everything is <strong>cycle-ordered FSM steps</strong></li>
+</ul>
+
+<h3>C. Bottlenecks are memory + division, not MACs</h3>
+<ul>
+  <li>softmax/div dominates design complexity</li>
+  <li>compute is cheap compared to routing + timing closure</li>
+</ul>
+
+<h2>6. Minimal mental diagram</h2>
+<pre><code class="language-plaintext">+-------------------+
+token ---> | embedding ROM |
+           +---------+---------+
+                     |
+                     v
+           +-------------------+
+           | 16-lane MatVec    | <--- shared across all layers
+           +----+---+---+------+
+                |   |   |
+               Q   K   V   MLP
+                     |
+                     v
+           +-------------------+
+           | attention FSM     |
+           | LUT exp + div     |
+           +---------+---------+
+                     |
+                     v
+           +-------------------+
+           | LM head + sampler |
+           | (hardware RNG)    |
+           +---------+---------+
+                     |
+                     v
+                next token</code></pre>
+
+<h2>7. One-line summary</h2>
+<p>TALOS-V2 is a <strong>Transformer inference engine compiled into FPGA datapaths</strong>, where:</p>
+<ul>
+  <li>MatVec = single reusable hardware tile</li>
+  <li>Attention = scheduled FSM</li>
+  <li>Softmax/div = bounded approximations</li>
+  <li>sampling = on-chip logic</li>
+  <li>result = ~50k tok/s autoregressive generation</li>
+</ul>
+<p>If you want, I can break down:</p>
+<ul>
+  <li>exact FSM schedule per token cycle</li>
+  <li>how 16-lane tile maps to QKV weights</li>
+  <li>or compare it to TensorRT / CUDA kernel fusion vs this RTL approach</li>
+</ul>
+<hr>
+<p>References:</p>
+<ul>
+  <li><a href="https://github.com/Luthiraa/TALOS-V2">https://github.com/Luthiraa/TALOS-V2</a></li>
+  <li><a href="https://v2.talos.wtf/">https://v2.talos.wtf/</a> (<a href="https://v2.talos.wtf/?utm_source=chatgpt.com" title="Talos">v2.talos.wtf</a>)</li>
+</ul>
