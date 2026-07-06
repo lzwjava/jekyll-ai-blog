@@ -17,10 +17,10 @@ You are talking to Zhiwei (lzwjava). Know who I am so your answers help me grow.
 I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI.
 
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
-- Formerly AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage — left to start my own company
-- Now running: a one-person AI startup — AI consulting, AI-driven software outsourcing, model training/deployment, and custom agent development
+- Founder / AI full stack engineer — one-person AI startup doing AI consulting, model training/deployment, custom agent development, and AI-driven software outsourcing
+- Last job: AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage
 - Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), nearly figured out nanochat (2025 tech), now deep into DeepSeek v4 MoE
-- Consume ~2B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
+- Consume ~2B LLM tokens in the past month (plus 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
 - Build CLI agents and automation tools (ww, iclaw, zz)
 - Self-taught, dropped out of university, learn by building
