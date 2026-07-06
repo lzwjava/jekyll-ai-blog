@@ -20,7 +20,7 @@ The trigger just fired, so here's the execution order. The literal first step co
 Log into the 广州市开办企业一网通平台, enter your candidate names, the system auto-checks for duplicates, and once approved the name is locked for 30 days — the whole thing takes about 10 minutes to a day. That 30-day lock is your friend: it lets you reserve the name *now* while everything else lands after July 31. Practical notes:
 
 - Prepare 3–5 backup names and pre-check them on both the 一网通 platform and the National Enterprise Credit Information system — Guangzhou's name-collision rate is over 60% — and also check 中国商标网 for trademark conflicts. Since your brand assets are `lzwjava`, your blog, and your CLI tools, pick a 字号 you'd also want as a product/domain name, not a throwaway.
-- Platform: https://scjgj.gz.gov.cn/ywt/ — the official 广州市开办企业一网通 platform, one-network filing with single-window pickup.
+- Platform: <https://scjgj.gz.gov.cn/ywt/> — the official 广州市开办企业一网通 platform, one-network filing with single-window pickup.
 
 **Three things that changed since the Zhihu article you read — these matter:**
 
@@ -33,7 +33,7 @@ Log into the 广州市开办企业一网通平台, enter your candidate names, t
 **The timeline mapped to July 31:**
 
 | When | Action | Cost |
-|------|--------|------|
+| ------ | -------- | ------ |
 | **This week** | Name declaration (3–5 candidates) on 一网通; pick a cluster-address provider in your district | 0 |
 | **This week** | Skim your bank contract's exit/non-compete clauses — being 法人 is public record on 企查查 the day the license issues. If anything is ambiguous, submit the application Aug 1 instead of July; the name lock holds 30 days | 0 |
 | **Week of Aug 3** | Submit establishment filing: capital 100–200K, tight 经营范围 (software dev + tech services + info consulting — must use standardized entries from 《国民经济行业分类》, no free-text), face-verify, e-sign. License issues in 1–3 days, seals free | ~1,500–2,500 (address, year 1) |
@@ -44,7 +44,7 @@ Total year-1: roughly **4,000–6,000 CNY**. One structural bonus given your exi
 
 Also relevant: small-scale taxpayers pay zero VAT on monthly revenue under 100K CNY (300K/quarter), with the 1% rate policy extended through year-end — so your early SaaS/consulting revenue is essentially VAT-free.
 
-So: tonight, open https://scjgj.gz.gov.cn/ywt/, run your 3–5 names through 名称自主申报. Everything else sequences off that 30-day lock.
+So: tonight, open <https://scjgj.gz.gov.cn/ywt/>, run your 3–5 names through 名称自主申报. Everything else sequences off that 30-day lock.
 
 References:
 
