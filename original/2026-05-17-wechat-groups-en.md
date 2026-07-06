@@ -10,7 +10,7 @@ translated: false
 
 With Fun Live, users could participate in various knowledge lectures such as programming or design. Users could pay fees to attend live sessions or reward lecturers. The lecturer used the OBS tool to push live streams to the server. Users could participate in the lecture in real-time or see the playback later. The platform integrated seamlessly with WeChat for notifications. Hosted around 80 lectures, gained 30,000 users and millions of page views. The 27 WeChat groups came from the Fun Live user base. We would also invite the speakers of the night to share shortly in these WeChat groups.
 
-|- AI · Truth, around 300 people in Fun Live, around 50 people I met in recent years, foreign bank employees, AI enthusiasts, etc.
+|- AI · Truth, around 430 members — 300 from Fun Live, 120 I met in recent years, foreign bank employees, AI enthusiasts in some WeChat groups, etc.
 
   This is a tech community centered around AI engineers and software developers. The group includes:
 
