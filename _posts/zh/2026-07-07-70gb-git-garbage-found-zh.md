@@ -12,7 +12,7 @@ type: note
 找到了。以下是您460GB磁盘的详细情况：
 
 | 项目 | 大小 | 数据占比 |
-|------|------|-----------|
+| ------ | ------ | ----------- |
 | **projects/lzwjava.github.io git** | **~70 GB** | **17%** |
 | WeChat | 21 GB | 5% |
 | Docker | 8 GB | 2% |
@@ -29,7 +29,7 @@ type: note
 
 1. **lzwjava.github.io git 仓库 — 共70 GB，其中43 GB在pack文件中，另有27 GB属于垃圾pack文件。** 这是主要问题所在。`git count-objects` 显示有55个pack文件，总计43 GiB，外加 **~27 GiB 的孤立 tmp_pack_* 垃圾文件**——这些是中断的 repack/gc 操作留下的。工作目录（`_site/`、`README.md`）仅约302 MB；其余全是git历史记录和孤立的临时文件。
 
-2. **`~27 GB 的垃圾 `tmp_pack_*` 文件** 位于 `.git/objects/pack/` 中。这些可以安全删除。
+2. **`~27 GB 的垃圾`tmp_pack_*` 文件** 位于 `.git/objects/pack/` 中。这些可以安全删除。
 
 **操作计划：**
 

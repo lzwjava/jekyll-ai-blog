@@ -18,6 +18,7 @@ type: note
 读取剪贴板内容，创建一个兼容 Jekyll 的 `.html` 视觉笔记。
 
 **用法：**
+
 ```
 ww note html                   # 直接在 BASE_PATH/notes/ 中创建 HTML 笔记
 ww note html --queue           # 加入队列，供后续通过 `ww note process` 处理
@@ -35,7 +36,7 @@ ww note html --dir /path       # 自定义输出目录
 **文件变更：**
 
 | 文件 | 变更 |
-|------|------|
+| ------ | ------ |
 | `ww/note/create_note_html.py` | **新增** — 模块：标题生成、slug 生成、LLM→HTML 转换、Jekyll 前置元数据 |
 | `ww/main.py` | 添加了 `ww note html` 子命令分发 + 帮助文本 |
 | `ww/note/note_queue.py` | 添加了用于基于队列工作流的 `enqueue_html()` |

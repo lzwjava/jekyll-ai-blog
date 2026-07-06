@@ -18,6 +18,7 @@ Done. Here's a summary of everything I added:
 Reads clipboard content and creates a Jekyll-compatible `.html` visual note.
 
 **Usage:**
+
 ```
 ww note html                   # Create HTML note directly in BASE_PATH/notes/
 ww note html --queue           # Queue for deferred processing via `ww note process`
@@ -35,7 +36,7 @@ A file like `2026-07-07-slug-en.html` in `~/projects/jekyll-ai-blog/notes/` with
 **Files changed:**
 
 | File | Change |
-|------|--------|
+| ------ | -------- |
 | `ww/note/create_note_html.py` | **New** — module: title gen, slug gen, LLM→HTML conversion, Jekyll frontmatter |
 | `ww/main.py` | Added `ww note html` subcommand dispatch + help text |
 | `ww/note/note_queue.py` | Added `enqueue_html()` for queue-based workflow |

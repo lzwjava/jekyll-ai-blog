@@ -12,7 +12,7 @@ type: note
 Found it. Here's the breakdown of your 460GB disk:
 
 | Item | Size | % of Data |
-|------|------|-----------|
+| ------ | ------ | ----------- |
 | **projects/lzwjava.github.io git** | **~70 GB** | **17%** |
 | WeChat | 21 GB | 5% |
 | Docker | 8 GB | 2% |
@@ -29,7 +29,7 @@ Found it. Here's the breakdown of your 460GB disk:
 
 1. **lzwjava.github.io git repo — 70 GB total, 43 GB in pack files + 27 GB in garbage pack files.** This is the main culprit. `git count-objects` shows 55 pack files totalling 43 GiB, plus **~27 GiB of orphaned tmp_pack_* garbage** — those are left over from interrupted repack/gc operations. The working tree (`_site/`, `README.md`) is only ~302 MB; everything else is git history and orphaned temp files.
 
-2. **`~27 GB of garbage `tmp_pack_*` files** sitting in `.git/objects/pack/`. Those can be safely removed.
+2. **`~27 GB of garbage`tmp_pack_*` files** sitting in `.git/objects/pack/`. Those can be safely removed.
 
 **Action plan:**
 

@@ -14,15 +14,18 @@ Here's what you did in the **past ~10 days (June 30 — July 7)**:
 ## 1. Company Formation Research — 60%+ of your effort
 
 **Guangzhou** — You went deep:
+
 - Registered a Guangzhou company (English guide), studied address rules, registration system rules
 - Researched free name reservation, "register after first revenue" strategy, zero-filing tax advice
 - Compared Guangzhou vs Shenzhen for solo AI startups
 
 **Shenzhen** — For comparison:
+
 - Shenzhen outpacing Guangzhou on OPC-EN, HNTE certification benefits
 - 2025 business environment plans, Shenzhen US LLC service risks
 
 **Hong Kong** — The deepest dive:
+
 - Full guide for mainland citizens, pros/cons, watchdog-style warning analysis
 - Solo consultant viability, package legitimacy
 - Company secretary licence requirements, TCSP licence search & verification (5+ notes on TCSP alone)
@@ -35,6 +38,7 @@ Here's what you did in the **past ~10 days (June 30 — July 7)**:
 ## 2. Identity / Branding Updates
 
 You rewrote your custom instructions 3+ times in 2 days:
+
 - **July 6**: "bank is now last job, current is founder/AI full stack engineer"
 - **July 6**: "Tinker-level positioning, agentic world vision, learning-while-earning strategy"
 - **July 6**: "launched — one-person AI startup, mortgage still 900K"

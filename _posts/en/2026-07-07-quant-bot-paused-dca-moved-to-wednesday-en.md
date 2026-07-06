@@ -14,6 +14,7 @@ Done. Here's what changed:
 **Stopped the quant bot's strategy loop** — the `.github/workflows/bot.yml` is still in the repo (kept intact, not deleted) but it won't run anymore unless explicitly triggered. The old schedule ran every 15 min during US market hours. The workflow file stays as a record of your quant strategies.
 
 **Moved DCA to Wednesday** — the `.github/workflows/main.yml` schedule changed from:
+
 - `35 14 * * 4` (every **Thursday** 14:35 UTC / 10:35 PM Beijing)
 - → `35 14 * * 3` (every **Wednesday** 14:35 UTC / 10:35 PM Beijing)
 
