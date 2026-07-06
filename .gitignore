@@ -56,3 +56,5 @@ ww.db
 !latex/en/sec-edgar-gpt/*.pdf
 !latex/en/sec-edgar-gpt/*.png
 !latex/en/sec-edgar-gpt/*.jpg
+meeting
+!meeting/tmp.md
