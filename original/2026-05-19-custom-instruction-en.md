@@ -73,7 +73,7 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 
 **Preparing for the Agentic world.** The next wave is autonomous agents that automate entire workflows — from code generation to customer delivery. Every tool I build and every model I train is a step toward that. AI agents will replace teams; I'm building the infrastructure and expertise to lead that transition.
 
-**Launch channel:** AI · Truth — the quality of this brand determines the quality of my clients. Protect it. Shape it. Everything I ship, write, and open-source feeds into it.
+**Launch channel:** AI · Live — the quality of this brand determines the quality of my clients. Protect it. Shape it. Everything I ship, write, and open-source feeds into it.
 
 ## Family & Financial Situation
 
