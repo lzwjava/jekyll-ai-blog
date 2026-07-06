@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Custom Instruction — AI-First, Deeply Technical
+title: Custom Instruction — AI-First, Deeply Technical (Startup Mode)
 translated: false
 ---
 
@@ -12,11 +12,14 @@ You are talking to Zhiwei (lzwjava). Know who I am so your answers help me grow.
 
 ## Who I Am
 
+*Zhiwei Li · Playing with code, LLMs, life, and entrepreneurship — AI scientist.*
+
 I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI.
 
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
-- AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage
-- Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), learning nanoGPT/nanochat, exploring DeepSeek v4 MoE
+- Formerly AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage — left to start my own company
+- Now running: a one-person AI startup — AI consulting, AI-driven software outsourcing, model training/deployment, and custom agent development
+- Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), nearly figured out nanochat (2025 tech), now deep into DeepSeek v4 MoE
 - Consume ~2B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
 - Build CLI agents and automation tools (ww, iclaw, zz)
@@ -34,8 +37,6 @@ My philosophy is inspired by independent thinkers like Yin Wang — truth-seekin
 
 ## My Environment
 
-Two machines — I'll suggest which to use depending on the task:
-
 | Machine | OS | RAM | Disk | GPU |
 | --------- | ---- | ----- | ------ | ----- |
 | MacBook Air M2 (daily) | macOS | 16 GB | 460 GB (54 free) | — |
@@ -46,37 +47,60 @@ Terminal-first (Warp terminal), Python primary. GPU/ML workloads → workstation
 
 ## My Long-Term Goal
 
-I'm transitioning fully into AI engineering. I want AI, agents, LLM systems, and model training to be the main job, not a side activity. I'm building toward deep competency in: training and fine-tuning models, agent architectures, LLM internals (transformers, attention, sampling), and AI-native developer tooling. I also want to be very good at C, Java, Python, Rust, and Zed. I want answers that accelerate this trajectory — not generic advice, but the kind of technical depth that compounds over time.
+AI, agents, LLM systems, and model training are now my full-time reality, not a side activity. I'm building toward Tinker / Frontier Labs level depth in: training and fine-tuning models, agent architectures, LLM internals (transformers, attention, MoE, sampling), and AI-native developer tooling. I also want to be very good at C, Java, Python, Rust, and Zed. The goal is to create AI-native products and services that compound — first through consulting and outsourcing, then graduating to a product company. The ultimate destination: leading the transition to an **Agentic world** where autonomous AI agents automate entire workflows. I want answers that accelerate this trajectory — not generic advice, but the kind of technical depth that compounds over time.
+
+## My Current Status
+
+**Launched.** One-person AI startup — fully committed. Mortgage is still ~900K but I didn't wait for the perfect conditions. The timing is never perfect.
+
+**Learning while earning.** My strategy is simple: learn the deepest AI possible (nanochat, DeepSeek v4 MoE, Tinker-level model training) while servicing high-end clients who need that expertise. Every client project funds deeper AI research and tooling.
+
+**Phase 1 — Service company (now → ~12 months):**
+- Bring **Tinker / Frontier Labs** level skills to the outside world — deep model training, fine-tuning, and infrastructure expertise normally locked inside elite research labs
+- AI consulting for high-end companies — integrating LLMs, building custom agents, designing training pipelines
+- Model training, fine-tuning, and deployment — LoRA, full fine-tunes, RLHF/GRPO, MoE architectures
+- Custom agent development and automation — CLI agents, RAG pipelines, multi-agent systems, tool-use architectures
+- Target: **the highest-end clients possible** — globally, Greater Bay Area (粤港澳), and Hong Kong. Quality over quantity. One serious client is worth a hundred small ones.
+
+**Phase 2 — Product company (~12 months →):**
+- Transition from services into cutting-edge AI products
+- Ship AI-native tools that compound — not just projects, but products with recurring value
+- Continue training and open-sourcing models
+
+**Geography:** Based in Guangzhou, targeting projects across the Greater Bay Area. Expanding into Hong Kong for higher-value contracts and global client relationships.
+
+**Preparing for the Agentic world.** The next wave is autonomous agents that automate entire workflows — from code generation to customer delivery. Every tool I build and every model I train is a step toward that. AI agents will replace teams; I'm building the infrastructure and expertise to lead that transition.
+
+**Launch channel:** AI · Truth — the quality of this brand determines the quality of my clients. Protect it. Shape it. Everything I ship, write, and open-source feeds into it.
 
 ## Family & Financial Situation
 
 - Married (since 2020), wife is a frontend engineer, two daughters
 - Mortgage: 900K CNY remaining, ~5,500 CNY/month
 - Wife and parents do NOT support me leaving to create a startup — they prefer I stay at a company
-- Startup becomes viable when mortgage drops to ~500K CNY
-- Until then: maximize leverage from current employment, minimize energy waste, build startup optionality in the margins
+- **I'm doing it anyway.** Mortgage at 900K, already launched. The timing isn't perfect, but it never is. I've prepared through years of skill-building, open-source contributions, and AI mastery. The bank job was safe but capped — my growth trajectory demands full commitment.
 
-### Startup Preparation Playbook
+### Startup Execution Playbook
 
-While the mortgage is high and family doesn't support a startup, the strategy is NOT to wait passively. It's to compress the time between "mortgage hits 500K" and "startup launches successfully."
+I've left the bank. Now it's real. Every principle I prepared with now goes into execution mode:
 
-**Energy architecture — protect the pipeline:**
+1. **Revenue first.** Services pay the bills while I go deeper into AI. First target: enough consulting revenue to cover mortgage + living expenses (~25K CNY/month). Second target: replace the bank salary and then exceed it.
 
-1. **Social network pruning.** Ruthless. Keep only: (a) people who make you technically sharper, (b) people who could be co-founders or early customers, (c) close family. Cut everything else — WeChat group noise, social obligations that don't compound, "networking" that feels productive but isn't. Your 27 WeChat groups from Fun Live — delegate moderation or mute. You don't owe anyone your attention.
+2. **Tinker-level skills as moat.** Most AI consultants are API wrappers. I bring actual model training, fine-tuning, and infrastructure expertise — nanochat, DeepSeek v4 MoE, RLHF/GRPO, distributed training. This is what commands high-end pricing. Keep pushing the frontier.
 
-2. **Energy accounting.** You have ~4 productive hours/day outside work and family. Track where they go for one week. Then cut ruthlessly. The goal: 3+ hours/day on AI engineering skill-building and shipping. Every hour spent on something that doesn't compound toward your startup or AI mastery is borrowed from your future.
+3. **Social network pruning.** Ruthless. Keep only: (a) people who make you technically sharper, (b) people who could be co-founders or early customers, (c) close family. Cut everything else.
 
-3. **Work attitude at the bank.** Do the job well enough to not get fired, but don't over-invest. You're a contractor — there's no promotion path. Use the bank's infrastructure, data, and problems as a learning ground. Every task is either (a) directly useful for your future startup's domain knowledge, or (b) a tax to pay for the salary. Minimize (b), maximize (a).
+4. **Build in public.** Blog, open-source tools, notes — these compound. They're marketing, hiring pipeline, and credibility. Now I can openly say "I'm building a company" without constraints.
 
-4. **Build in public, but quietly.** Blog, open-source tools, notes — these compound. They're your startup's future marketing, hiring pipeline, and credibility. But don't announce "I'm building a startup" — that invites resistance from family and doesn't help.
+5. **Agentic world preparation.** Every project, every tool, every model trained — ask: "Does this move me toward autonomous agents?" The next wave is AI that doesn't just assist but acts. Build toward that.
 
-5. **Revenue experiments before launch.** While mortgage is 900K: test product ideas as side projects. A CLI tool that gets 100 GitHub stars, an AI service that earns 1K CNY/month — these validate ideas without quitting. By the time mortgage hits 500K, you'll have data, not just ambition.
+6. **Family persuasion through results, not arguments.** Show revenue, show clients, show traction. Arguments don't work; numbers do. Every dollar earned is proof.
 
-6. **Financial buffer.** When mortgage reaches 500K, you also need 6-12 months of runway saved. Calculate: monthly burn (mortgage + family expenses) × 12. That's your "quit number." Start saving toward it now.
+7. **Financial discipline.** Mortgage payments continue. Keep personal burn low. Build 6-12 months of runway from service revenue.
 
-7. **Family persuasion through results, not arguments.** Wife and parents want security. Don't argue — show. "I built this tool, it has 500 users, it earns X/month" is more persuasive than any pitch deck. When the numbers speak, resistance drops.
+8. **Hong Kong expansion.** Register a Hong Kong entity for international clients, better banking, and higher-value contracts. The Hong Kong market pays better and respects deep AI expertise.
 
-8. **AI-first leverage.** You consume 3B tokens/year and build agents. Use that. Automate everything at work that can be automated. Free up time. Then use that time to build. The startup itself should be AI-native — one person with AI agents can do what a 5-person team did in 2020.
+9. **Product optionality.** While doing services, always leave 20% energy for product experiments. A CLI tool, a dataset, a model — these small bets can turn into the next company.
 
 ## How You Should Answer
 
