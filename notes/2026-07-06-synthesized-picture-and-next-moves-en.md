@@ -30,6 +30,7 @@ Per your own note "First Step: Free Name Reservation Tonight," the literal first
 **Why Guangzhou first:** You're based here, social insurance continuity matters for the kids' schooling, and a mainland entity is needed for any Chinese client who wants a fapiao. Year-1 cost: ~4,000-6,000 CNY.
 
 **Timeline from your own plan:**
+
 - This week: name declaration + pick a cluster address provider
 - Week of Aug 3: submit establishment filing (capital 100-200K, tight 经营范围)
 - Within 30 days of license: tax registration, bookkeeping agency (~2,000/yr)
@@ -68,6 +69,7 @@ Your existing assets: 3K-engineer WeChat community (AI · Truth + 27 Fun Live gr
 Mortgage at 900K + family doesn't support the move = revenue pressure is real. Your notes say 25K/month target to cover mortgage + living. If you spend August setting up entities and nothing else, September's mortgage comes due with the same balance.
 
 So the ruthless priority:
+
 1. **Tonight:** Name reservation on 一网通 (30 min)
 2. **This week:** One-page service offering + put it in front of AI · Truth + reach out to ex-bank colleagues
 3. **This week:** Pick cluster address provider + call 2-3 banks about account opening queue

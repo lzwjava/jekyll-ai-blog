@@ -14,31 +14,31 @@ With Fun Live, users could participate in various knowledge lectures such as pro
 
   This is a tech community centered around AI engineers and software developers. The group includes:
 
-  - A self-taught AI engineer who founded Fun Live (30K dev users), exited to consulting (3M CNY revenue), worked on Singapore/HK digital banking projects, trained models on H200/MI300X, and builds CLI agent tools
-  - iOS developers (some who transitioned to Qt, some still iOS)
-  - An Android dev who expanded to Android+iOS+frontend
-  - BD at Aiyundong, also a travel content creator working on Claude automation
-  - Multiple senior/very senior engineers at foreign companies and foreign banks (HSBC, UK-based banks)
-  - Full-stack developers and DevOps engineers
-  - A data analyst engineer previously at a UK-based bank
-  - Engineers previously at Huawei, DBS Bank, Avery Dennison
-  - An energy storage industry professional, former iOS coder who worked in Australia
-  - A frontend developer in Guangzhou, worked with GIS, WeChat mini programs, and medical software
-  - A former Sohu employee, college dropout, full-stack developer in Chengdu/Beijing
-  - A B.S. in Intelligent Medical Engineering from Tianjin University doing LLM algorithm research
-  - A high-school AI researcher who started programming in primary school
-  - A Hong Kong secondary school student, lead developer of Axono (lightweight AI inference library)
-  - Chief AI Expert at ClawTime, previously at AIA/HSBC, founder of ADG AI community
-  - Two members working in the public sector in Guangzhou
-  - A renovation industry entrepreneur in Taiyuan
-  - A retired writer with millions of reads on WeChat/Toutiao
-  - A Peking University graduate working in education and storage
-  - An HR at Sangfor Technologies (formerly Farbern Information), hiring AI/software engineers
-  - A senior recruitment consultant at Teksystems
-  - A Chinese astrology and psychology expert, top livestream host, formerly at Xiaomi
-  - A mechanical engineer doing robot maintenance at Dongfeng Nissan
-  - Founder of ThingsPanel.cn, 20+ years experience
-  - And several other engineers and professionals based in Guangzhou, Changsha, Chengdu, Taiyuan, Zhaoqing, and elsewhere
+- A self-taught AI engineer who founded Fun Live (30K dev users), exited to consulting (3M CNY revenue), worked on Singapore/HK digital banking projects, trained models on H200/MI300X, and builds CLI agent tools
+- iOS developers (some who transitioned to Qt, some still iOS)
+- An Android dev who expanded to Android+iOS+frontend
+- BD at Aiyundong, also a travel content creator working on Claude automation
+- Multiple senior/very senior engineers at foreign companies and foreign banks (HSBC, UK-based banks)
+- Full-stack developers and DevOps engineers
+- A data analyst engineer previously at a UK-based bank
+- Engineers previously at Huawei, DBS Bank, Avery Dennison
+- An energy storage industry professional, former iOS coder who worked in Australia
+- A frontend developer in Guangzhou, worked with GIS, WeChat mini programs, and medical software
+- A former Sohu employee, college dropout, full-stack developer in Chengdu/Beijing
+- A B.S. in Intelligent Medical Engineering from Tianjin University doing LLM algorithm research
+- A high-school AI researcher who started programming in primary school
+- A Hong Kong secondary school student, lead developer of Axono (lightweight AI inference library)
+- Chief AI Expert at ClawTime, previously at AIA/HSBC, founder of ADG AI community
+- Two members working in the public sector in Guangzhou
+- A renovation industry entrepreneur in Taiyuan
+- A retired writer with millions of reads on WeChat/Toutiao
+- A Peking University graduate working in education and storage
+- An HR at Sangfor Technologies (formerly Farbern Information), hiring AI/software engineers
+- A senior recruitment consultant at Teksystems
+- A Chinese astrology and psychology expert, top livestream host, formerly at Xiaomi
+- A mechanical engineer doing robot maintenance at Dongfeng Nissan
+- Founder of ThingsPanel.cn, 20+ years experience
+- And several other engineers and professionals based in Guangzhou, Changsha, Chengdu, Taiyuan, Zhaoqing, and elsewhere
 
   Member backgrounds span AI/LLM, iOS/Android development, full-stack engineering, DevOps, data analysis, Qt, GIS, Chinese classical studies, mechanical engineering, and more — many from or previously at foreign banks, tech companies, and startups.
 

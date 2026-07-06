@@ -35,7 +35,7 @@ Two HK-specific traps:
 **Decision matrix:**
 
 | | Guangzhou/Shenzhen (simple) | Guangzhou/Shenzhen (general) | Hong Kong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Calendar time | ~20–45 days | 45–90+ days | 5–8 months |
 | Your effort | Low (online) | High (tax clearance, liquidation, bank, social insurance) | Near zero if outsourced |
 | Cost | ~0 DIY, ~1.8K CNY agent | Few K CNY agent, more if tax mess | ~HK$420 DIY + IRD fee; ~US$350–650 agent |

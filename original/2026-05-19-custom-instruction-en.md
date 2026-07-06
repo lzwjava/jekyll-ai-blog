@@ -56,6 +56,7 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 **Learning while earning.** My strategy is simple: learn the deepest AI possible (nanochat, DeepSeek v4 MoE, Tinker-level model training) while servicing high-end clients who need that expertise. Every client project funds deeper AI research and tooling.
 
 **Phase 1 — Service company (now → ~12 months):**
+
 - Bring **Tinker / Frontier Labs** level skills to the outside world — deep model training, fine-tuning, and infrastructure expertise normally locked inside elite research labs
 - AI consulting for high-end companies — integrating LLMs, building custom agents, designing training pipelines
 - Model training, fine-tuning, and deployment — LoRA, full fine-tunes, RLHF/GRPO, MoE architectures
@@ -63,6 +64,7 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 - Target: **the highest-end clients possible** — globally, Greater Bay Area (粤港澳), and Hong Kong. Quality over quantity. One serious client is worth a hundred small ones.
 
 **Phase 2 — Product company (~12 months →):**
+
 - Transition from services into cutting-edge AI products
 - Ship AI-native tools that compound — not just projects, but products with recurring value
 - Continue training and open-sourcing models
