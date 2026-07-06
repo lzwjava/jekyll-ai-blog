@@ -19,7 +19,7 @@ I'm a software engineer with 12 years of hands-on experience across iOS, Android
 - Built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, engineered financial systems at global banks
 - Formerly AI Engineer at a global bank from Guangzhou (contract arrangement), ranked top 6% globally in AI assistant usage — left to start my own company
 - Now running: a one-person AI startup — AI consulting, AI-driven software outsourcing, model training/deployment, and custom agent development
-- Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), learning nanoGPT/nanochat, exploring DeepSeek v4 MoE
+- Train models — GPT-2 760M from scratch on AMD MI300X (192GB HBM3), nearly figured out nanochat (2025 tech), now deep into DeepSeek v4 MoE
 - Consume ~2B LLM tokens in the past month (thanks for free 4.6B free from Xiaomi MiMo to be consumed later)
 - Top models: deepseek-v4-flash, deepseek-v4-pro, mimo-2.5-pro, claude-opus-4.7
 - Build CLI agents and automation tools (ww, iclaw, zz)
@@ -47,18 +47,20 @@ Terminal-first (Warp terminal), Python primary. GPU/ML workloads → workstation
 
 ## My Long-Term Goal
 
-AI, agents, LLM systems, and model training are now my full-time reality, not a side activity. I'm building toward deep competency in: training and fine-tuning models, agent architectures, LLM internals (transformers, attention, sampling), and AI-native developer tooling. I also want to be very good at C, Java, Python, Rust, and Zed. The goal is to create AI-native products and services that compound — first through consulting and outsourcing, then graduating to product company. I want answers that accelerate this trajectory — not generic advice, but the kind of technical depth that compounds over time.
+AI, agents, LLM systems, and model training are now my full-time reality, not a side activity. I'm building toward Tinker / Frontier Labs level depth in: training and fine-tuning models, agent architectures, LLM internals (transformers, attention, MoE, sampling), and AI-native developer tooling. I also want to be very good at C, Java, Python, Rust, and Zed. The goal is to create AI-native products and services that compound — first through consulting and outsourcing, then graduating to a product company. The ultimate destination: leading the transition to an **Agentic world** where autonomous AI agents automate entire workflows. I want answers that accelerate this trajectory — not generic advice, but the kind of technical depth that compounds over time.
 
 ## My Current Status
 
 **Launched.** One-person AI startup — fully committed. Mortgage is still ~900K but I didn't wait for the perfect conditions. The timing is never perfect.
 
+**Learning while earning.** My strategy is simple: learn the deepest AI possible (nanochat, DeepSeek v4 MoE, Tinker-level model training) while servicing high-end clients who need that expertise. Every client project funds deeper AI research and tooling.
+
 **Phase 1 — Service company (now → ~12 months):**
-- AI consulting for companies — helping businesses integrate LLMs, build custom agents, and design AI workflows
-- AI-driven software outsourcing — building production-grade AI features, model serving pipelines, and automation tools
-- Model training, fine-tuning, and deployment services (LoRA, full fine-tunes, quantized inference)
-- Custom agent development — CLI agents, RAG pipelines, multi-agent systems, tool-use architectures
-- Target: **high-end clients in the Greater Bay Area (粤港澳) and Hong Kong** who need real AI expertise, not just API wrappers
+- Bring **Tinker / Frontier Labs** level skills to the outside world — deep model training, fine-tuning, and infrastructure expertise normally locked inside elite research labs
+- AI consulting for high-end companies — integrating LLMs, building custom agents, designing training pipelines
+- Model training, fine-tuning, and deployment — LoRA, full fine-tunes, RLHF/GRPO, MoE architectures
+- Custom agent development and automation — CLI agents, RAG pipelines, multi-agent systems, tool-use architectures
+- Target: **the highest-end clients possible** — globally, Greater Bay Area (粤港澳), and Hong Kong. Quality over quantity. One serious client is worth a hundred small ones.
 
 **Phase 2 — Product company (~12 months →):**
 - Transition from services into cutting-edge AI products
@@ -66,6 +68,8 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 - Continue training and open-sourcing models
 
 **Geography:** Based in Guangzhou, targeting projects across the Greater Bay Area. Expanding into Hong Kong for higher-value contracts and global client relationships.
+
+**Preparing for the Agentic world.** The next wave is autonomous agents that automate entire workflows — from code generation to customer delivery. Every tool I build and every model I train is a step toward that. AI agents will replace teams; I'm building the infrastructure and expertise to lead that transition.
 
 **Launch channel:** AI · Truth — the quality of this brand determines the quality of my clients. Protect it. Shape it. Everything I ship, write, and open-source feeds into it.
 
@@ -80,21 +84,23 @@ AI, agents, LLM systems, and model training are now my full-time reality, not a 
 
 I've left the bank. Now it's real. Every principle I prepared with now goes into execution mode:
 
-1. **Revenue first.** Services pay the bills while products are being built. First target: enough consulting/outsourcing revenue to cover mortgage + living expenses (~25K CNY/month). Second target: replace the bank salary and then exceed it.
+1. **Revenue first.** Services pay the bills while I go deeper into AI. First target: enough consulting revenue to cover mortgage + living expenses (~25K CNY/month). Second target: replace the bank salary and then exceed it.
 
-2. **Social network pruning.** Ruthless. Keep only: (a) people who make you technically sharper, (b) people who could be co-founders or early customers, (c) close family. Cut everything else.
+2. **Tinker-level skills as moat.** Most AI consultants are API wrappers. I bring actual model training, fine-tuning, and infrastructure expertise — nanochat, DeepSeek v4 MoE, RLHF/GRPO, distributed training. This is what commands high-end pricing. Keep pushing the frontier.
 
-3. **Build in public.** Blog, open-source tools, notes — these compound. They're marketing, hiring pipeline, and credibility. Now I can openly say "I'm building a company" without the previous constraints.
+3. **Social network pruning.** Ruthless. Keep only: (a) people who make you technically sharper, (b) people who could be co-founders or early customers, (c) close family. Cut everything else.
 
-4. **AI-first leverage.** I consume ~2B tokens/month and build agents. One person with AI agents can do what a 5-person team did in 2020. Every process at the company should be AI-native from day one — automated sales, code generation, customer support, and delivery.
+4. **Build in public.** Blog, open-source tools, notes — these compound. They're marketing, hiring pipeline, and credibility. Now I can openly say "I'm building a company" without constraints.
 
-5. **Family persuasion through results, not arguments.** Show revenue, show clients, show traction. Arguments don't work; numbers do. Every dollar earned is proof.
+5. **Agentic world preparation.** Every project, every tool, every model trained — ask: "Does this move me toward autonomous agents?" The next wave is AI that doesn't just assist but acts. Build toward that.
 
-6. **Financial discipline.** Mortgage payments continue. Keep personal burn low. Build 6-12 months of runway from service revenue.
+6. **Family persuasion through results, not arguments.** Show revenue, show clients, show traction. Arguments don't work; numbers do. Every dollar earned is proof.
 
-7. **Hong Kong expansion.** Register a Hong Kong entity for international clients, better banking, and higher-value contracts. The Hong Kong market pays better and respects deep AI expertise.
+7. **Financial discipline.** Mortgage payments continue. Keep personal burn low. Build 6-12 months of runway from service revenue.
 
-8. **Product optionality.** While doing services, always leave 20% energy for product experiments. A CLI tool, a dataset, a model — these small bets can turn into the next company.
+8. **Hong Kong expansion.** Register a Hong Kong entity for international clients, better banking, and higher-value contracts. The Hong Kong market pays better and respects deep AI expertise.
+
+9. **Product optionality.** While doing services, always leave 20% energy for product experiments. A CLI tool, a dataset, a model — these small bets can turn into the next company.
 
 ## How You Should Answer
 
