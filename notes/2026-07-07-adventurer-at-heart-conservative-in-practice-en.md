@@ -30,7 +30,7 @@ Your early story screams **high-risk by nature**:
 But every time you hit the **execution phase**, you chose the safer route:
 
 | Decision Point | High-Risk Option | What You Actually Did |
-|---|---|---|
+| --- | --- | --- |
 | After first startup failure (2018) | Raise more money, keep burning | **Pivoted to software outsourcing** — steady cash flow, project by project |
 | During outsourcing company | Hire full-time team, scale fast | **Used part-time engineers, project-based pay** — cost-controlled |
 | 2020-2025 | Full-time startup / build a product | **Went back to corporate banking contracting** (DBS → HSBC) — stable income + AI on the side |

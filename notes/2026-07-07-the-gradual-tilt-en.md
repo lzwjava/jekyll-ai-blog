@@ -16,7 +16,7 @@ Based on your trajectory pattern, here's my prediction:
 You've been cycling through three phases:
 
 | Phase | Risk Profile | Duration |
-|---|---|---|
+| --- | --- | --- |
 | Pure high-risk (dropout, startups) | 🔴 High | ~Age 18-23 |
 | Pure low-risk (outsourcing, bank contracts) | 🟢 Low | ~Age 23-28 |
 | Dual-track (bank job + AI side projects) | 🟡 Medium | ~Age 28-31 |
