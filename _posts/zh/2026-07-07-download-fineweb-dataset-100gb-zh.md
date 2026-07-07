@@ -24,6 +24,7 @@ python3 scripts/download/h200/download_fineweb.py
 ```
 
 **总结：**
+
 - 脚本：`/workspace/zz/scripts/download/h200/download_fineweb.py`
 - 输出目录：`datasets/fineweb-edu/`（约 100 GB）
 - 磁盘空间：`/workspace` 剩余 178 GB

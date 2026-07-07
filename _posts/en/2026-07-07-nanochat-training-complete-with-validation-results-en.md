@@ -14,7 +14,7 @@ Training just finished! Here's the full status:
 **nanochat d12 SFT — COMPLETE** (finished 2 minutes ago)
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | Steps | 8,985 |
 | Duration | 184.70 min (~3h) |
 | Final loss | 1.0674 (step 8984) |

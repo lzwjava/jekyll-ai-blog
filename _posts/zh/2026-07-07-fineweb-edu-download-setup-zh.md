@@ -12,6 +12,7 @@ type: note
 已完成。以下是设置内容：
 
 **脚本：** `~/zz/scripts/download/h200/download_fineweb.py`
+
 - 在 AMD MI300X 上为 GPT-3 消融实验下载 FineWeb-Edu
 - 默认：约 250 亿 tokens（约 100 GB）
 - 可通过 `datasets/fineweb-edu/progress.json` 断点续传

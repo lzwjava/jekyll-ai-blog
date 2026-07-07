@@ -16,7 +16,7 @@ Checked the actual checkpoint metadata and config:
 **Training completed successfully** — here's what's real:
 
 | Detail | Value |
-|--------|-------|
+| -------- | ------- |
 | Steps | 8,985 (full dataset epoch, `num_iterations=-1`) |
 | Total tokens | 8,985 × 65,536 = ~589M |
 | Start val_bpb (step 7) | 0.9536 |
@@ -28,6 +28,7 @@ Checked the actual checkpoint metadata and config:
 | SFT data | SmolTalk + 1,000 custom code/SEC + MMLU + GSM8K + SpellingBee |
 
 Corrections from my previous reply:
+
 - The 0.954 bpb I cited was the *smoke test* at step 7, not the previous run's final. The real final is 0.4053.
 - Previous pretraining bpb (1.418) is in a different directory — these checkpoints are in a fresh `chatsft_checkpoints/d12/` dir, not the old ones.
 - The loss oscillation at the end is mild (0.97–1.13 range with lrm → 0) — expected for cosine decay tail with no warmup.

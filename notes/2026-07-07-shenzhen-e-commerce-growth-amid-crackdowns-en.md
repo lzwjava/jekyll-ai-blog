@@ -32,6 +32,7 @@ Late 2025 into 2026 there were multiple large-scale suspension waves, not a sing
 There's a well-known account-risk mechanism around gift cards: a case where a user received a birthday gift card from a friend, then used it to buy an expensive computer device — the account was frozen the very next day. The root cause identified: using a gift card purchased by an account other than your own, combined with buying a high-unit-price electronic product — both carry elevated risk scores in Amazon's risk-control system and can trigger automatic locking.
 
 The mechanism generalizes beyond that one case: Amazon's fraud/risk systems flag payment-instrument patterns that look like they could be laundering stolen card funds or gift-card fraud (a very common scam vector), regardless of whether you're actually doing anything wrong. Signals that commonly trigger this:
+
 - Gift card not tied to the same identity/payment history as the account
 - Large or unusual purchase value relative to account history
 - Gift card codes originating from third-party resale/gray-market channels (which is common with Apple gift cards bought outside official Apple/Amazon retail channels)
@@ -40,6 +41,7 @@ The mechanism generalizes beyond that one case: Amazon's fraud/risk systems flag
 None of this means you personally did anything wrong — it means the pattern matched something in Amazon's ML-based risk model that they can't/won't fully explain (they never do, by design, to avoid tipping off actual fraudsters).
 
 **Practically, for you:**
+
 1. If this is a buyer account (not seller), file an appeal explicitly stating the gift card source (if from Apple's official store or Amazon's own gift card section, say so) and offer to provide the original purchase receipt/proof of funds. Amazon support does have a path to restore buyer accounts with proof of legitimate purchase.
 2. Do not engage any of the "L8 internal manager" or "we can force-unlock your account for a fee" services — this is a well-documented scam where fraudsters exploit sellers' desperation after suspension, charging tens of thousands of yuan for fake "insider unlock" services, with Amazon officially confirming no such paid internal channel exists.
 3. If this is tied to your seller business (given your startup context), this is a good moment to formalize payment/gift-card sourcing through auditable, first-party channels only — mixing personal gift cards, resold codes, or third-party payment instruments into a business account is exactly the pattern their fraud models are tuned to catch in 2026's tightened environment.

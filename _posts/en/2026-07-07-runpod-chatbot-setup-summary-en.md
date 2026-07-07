@@ -16,13 +16,14 @@ Here's the full summary of what was done this session.
 ## RunPod LibreChat + SGLang Setup — Complete Summary
 
 ### Server
+
 - **Host:** `213.173.110.200:23634` (key: `~/.ssh/id_ed25519`)
 - **Chatbot URL:** `http://213.173.110.200:8888` (LibreChat UI)
 
 ### Services Running
 
 | Service | Internal Port | Status | Details |
-|---------|-------------|--------|---------|
+| --------- | ------------- | -------- | --------- |
 | **SGLang** | 30000 | ✅ | Qwen 2.5 14B AWQ, warmed up with CUDA graphs |
 | **MongoDB** | 27017 | ✅ | Data at `/workspace/mongodb` |
 | **LibreChat** | 8889 | ✅ | Serves through nginx proxy on 8888 |
@@ -52,7 +53,7 @@ Here's the full summary of what was done this session.
 ### Files Saved to `runpod/`
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `start_services.sh` | One-command restart: MongoDB → check SGLang → rebuild native modules → start LibreChat → verify |
 | `build_librechat.sh` | Full rebuild: restore git files → build packages → Vite client build |
 | `start_librechat.md` | Runbook with current state, service table, verification commands |

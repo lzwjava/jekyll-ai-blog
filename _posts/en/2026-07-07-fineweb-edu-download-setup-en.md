@@ -12,6 +12,7 @@ type: note
 Done. Here's what's set up:
 
 **Script:** `~/zz/scripts/download/h200/download_fineweb.py`
+
 - Downloads FineWeb-Edu for GPT-3 ablation on AMD MI300X
 - Default: ~25B tokens (~100 GB)
 - Resumable via `datasets/fineweb-edu/progress.json`
