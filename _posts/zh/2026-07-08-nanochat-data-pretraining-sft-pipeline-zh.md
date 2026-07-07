@@ -27,7 +27,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **来源**（总计 32 亿 token）：
 
 | 来源 | 大小 | 内容 |
-|--------|------|---------|
+| -------- | ------ | --------- |
 | github-code | 38 个分片，约 390 万文件 | Python、Go、SQL、JS 等 |
 | fineweb-edu | 8 个训练 + 1 个验证分片 | 约 43 亿 token CommonCrawl（已过滤） |
 | sec-edgar | 17 个 Parquet 文件 | 10-K 申报文本 |
@@ -43,7 +43,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **架构 (d12)**：
 
 | 参数 | 值 |
-|-------|-------|
+| ------- | ------- |
 | 层数 | 12 |
 | n_embd | 768（深度 × 64） |
 | 注意力头数 | 6（n_kv_head=6，MHA） |
@@ -57,7 +57,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **训练配置**：
 
 | 设置 | 值 |
-|---------|-------|
+| --------- | ------- |
 | 步数 | 50,000 |
 | 批次 | 65,536 token/步 |
 | 设备批次 | 8（梯度累积 = 4） |
@@ -77,6 +77,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **SFT 数据**：SmolTalk（约 46 万通用聊天）+ 1000 个自定义代码/SEC 示例 + MMLU + GSM8K + SpellingBee
 
 **自定义 SFT 示例** (`prepare_sft_data.py`)：14 个生成器，随机采样 1000 次：
+
 - 5 个代码生成器：Python（fib、快速排序、归并排序、API）、Go（HTTP 服务器）、SQL（前 N 个客户）、React（DataFetcher）
 - 4 个 SEC 生成器：财务分析、风险因素、收入管理层讨论与分析、财务比率
 - 3 个通用知识：复利、光合作用、水循环
@@ -84,7 +85,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **SFT 配置**：
 
 | 设置 | 值 |
-|---------|-------|
+| --------- | ------- |
 | 步数 | 8,985（数据集耗尽，`num_iterations=-1`） |
 | 批次 | 65,536 token/步 |
 | 设备批次 | 4 |
@@ -100,7 +101,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 考虑到约 1.1 亿参数规模和 3 小时的 SFT 训练，再次审视结果：
 
 | 提示 | 结果 | 分析 |
-|--------|---------|----------|
+| -------- | --------- | ---------- |
 | **回文代码** | 通过 | SFT 数据中有 3 个代码生成器具有类似模式。在代码分布中具有高概率延续性。 |
 | **法国首都** | 通过 | 网络数据中极其常见的事实。小模型记住了高频 n-gram。 |
 | **梯度下降** | 失败 | 约 1.1 亿参数无法存储概念级知识。只有高频事实幸存。 |

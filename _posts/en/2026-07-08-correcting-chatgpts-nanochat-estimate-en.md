@@ -76,7 +76,7 @@ That's tight but workable with gradient checkpointing + a small microbatch (e.g.
 ## Bottom line
 
 | Tokens | Corrected estimate (RTX 4070, BF16, no quant needed) |
-|---|---|
+| --- | --- |
 | 7.6B | ~3–7 weeks |
 | 14B | ~5–13 weeks |
 

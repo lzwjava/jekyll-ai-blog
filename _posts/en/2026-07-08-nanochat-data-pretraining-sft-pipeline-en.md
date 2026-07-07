@@ -27,7 +27,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **Sources** (3.2B total tokens):
 
 | Source | Size | Content |
-|--------|------|---------|
+| -------- | ------ | --------- |
 | github-code | 38 shards, ~3.9M files | Python, Go, SQL, JS, etc. |
 | fineweb-edu | 8 train + 1 val shards | ~4.3B tokens CommonCrawl (filtered) |
 | sec-edgar | 17 parquet files | 10-K filings text |
@@ -43,7 +43,7 @@ prepare_data.sh  →  fineweb-code-sec-gpt.sh  →  sft_code_sec.sh
 **Architecture (d12)**:
 
 | Param | Value |
-|-------|-------|
+| ------- | ------- |
 | Layers | 12 |
 | n_embd | 768 (depth × 64) |
 | Heads | 6 (n_kv_head=6, MHA) |
@@ -57,7 +57,7 @@ The script header says "286M" but that's a stale estimate — actual is ~110M (e
 **Training config**:
 
 | Setting | Value |
-|---------|-------|
+| --------- | ------- |
 | Steps | 50,000 |
 | Batch | 65,536 tokens/step |
 | Device batch | 8 (grad_accum = 4) |
@@ -77,6 +77,7 @@ The script header says "286M" but that's a stale estimate — actual is ~110M (e
 **SFT data**: SmolTalk (~460K general chat) + 1000 custom code/SEC examples + MMLU + GSM8K + SpellingBee
 
 **Custom SFT examples** (`prepare_sft_data.py`): 14 generators, randomly sampled 1000 times:
+
 - 5 code generators: Python (fib, quicksort, merge sort, API), Go (HTTP server), SQL (top customers), React (DataFetcher)
 - 4 SEC generators: financial analysis, risk factors, revenue MD&A, financial ratios
 - 3 general knowledge: compound interest, photosynthesis, water cycle
@@ -84,7 +85,7 @@ The script header says "286M" but that's a stale estimate — actual is ~110M (e
 **SFT config**:
 
 | Setting | Value |
-|---------|-------|
+| --------- | ------- |
 | Steps | 8,985 (dataset exhausted, `num_iterations=-1`) |
 | Batch | 65,536 tokens/step |
 | Device batch | 4 |
@@ -100,7 +101,7 @@ The script header says "286M" but that's a stale estimate — actual is ~110M (e
 Given the ~110M param scale and 3h SFT training, looking at the results again:
 
 | Prompt | Verdict | Analysis |
-|--------|---------|----------|
+| -------- | --------- | ---------- |
 | **Palindrome code** | PASS | SFT data had 3 code generators with similar patterns. High probability continuation in code distribution. |
 | **Capital of France** | PASS | Extremely common fact in web data. Small models memorize high-frequency n-grams. |
 | **Gradient descent** | FAIL | ~110M can't store concept-level knowledge. Only high-frequency facts survive. |
