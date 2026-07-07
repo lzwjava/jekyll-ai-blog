@@ -14,7 +14,7 @@ type: note
 ### Server Hardware
 
 | Resource | Spec | Constraint |
-|----------|------|------------|
+| ---------- | ------ | ------------ |
 | **GPU** | RTX 2000 Ada, 16 GB VRAM, CC 8.9 | Runs models up to 7-8B FP16 or 30B-34B INT4 |
 | **CPU** | AMD EPYC 7443, 48 threads | Fine |
 | **RAM** | 251 GB | Fine |
@@ -24,7 +24,7 @@ type: note
 ### Installed Software
 
 | Component | Version | Status |
-|-----------|---------|--------|
+| ----------- | --------- | -------- |
 | **SGLang** | 0.5.14 | ✅ Installed, supports `gemma4_causal` |
 | **SGLang kernel** | 0.4.4 | ✅ Working (needs `LD_LIBRARY_PATH` for CUDA 13 libs) |
 | **Python** | 3.11.10 | ✅ |
@@ -36,7 +36,7 @@ type: note
 ### Model Download Status: Gemma 4 26B A4B AWQ (cyankiwi)
 
 | Shard | Size | Status |
-|-------|------|--------|
+| ------- | ------ | -------- |
 | `model-00001-of-00004.safetensors` | 5.1 GB | ✅ Complete |
 | `model-00002-of-00004.safetensors` | 2.1 / 5.1 GB | ❌ Partial |
 | `model-00003-of-00004.safetensors` | 1.5 / 5.1 GB | ❌ Partial |
@@ -64,6 +64,7 @@ Cleaning up old files (SEC-EDGAR-GPT model, pip caches, llama.cpp artifacts) fre
 ### What's Left to Do After Model is Ready
 
 Regardless of model choice, the remaining setup is:
+
 1. **Start SGLang server** — serving the model on port 30000 with OpenAI-compatible API
 2. **Configure LibreChat** — write `.env` file with `MONGO_URI` and `librechat.yaml` pointing to the SGLang endpoint as a custom OpenAI provider
 3. **Build LibreChat** — `npm run frontend`

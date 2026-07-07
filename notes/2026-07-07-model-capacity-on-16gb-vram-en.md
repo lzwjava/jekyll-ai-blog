@@ -16,7 +16,7 @@ Now I have the full picture. Let me summarize what's on this pod:
 ### Model capacity with SGLang
 
 | Precision | Max params | Example models | VRAM used |
-|-----------|-----------|----------------|-----------|
+| ----------- | ----------- | ---------------- | ----------- |
 | **FP16/BF16** | **7-8B** | LLaMA-3-8B, Mistral-7B, Qwen2.5-7B | ~16GB (tight on long context) |
 | **FP8/INT8** | **13-16B** | Llama-2-13B, DeepSeek-V2-Lite-16B, Qwen2.5-14B | ~8-9GB + room for KV cache |
 | **INT4 (AWQ/GPTQ)** | **30-34B** | Qwen2.5-32B, Yi-34B, CodeQwen-32B | ~8GB → lots of headroom |
