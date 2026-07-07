@@ -17,12 +17,14 @@ Here's the full summary of everything done on the H200 server:
 **Workdir:** `/workspace/zz/`
 
 ### 1. Setup
+
 - SSH key created and added to GitHub
 - `git@github.com:lzwjava/zz.git` cloned to `/workspace/zz/`
 - `tmux` installed for session persistence
 - Python deps: `tiktoken`, `numpy`, `pyarrow`, `tqdm`, `huggingface_hub`
 
 ### 2. Data Download
+
 - **Script:** `h200/download_fineweb.py`
 - **Dataset:** HuggingFaceFW/fineweb-edu — 44 parquet shards
 - **Size:** 95 GB on disk, ~25.5B tokens
@@ -30,6 +32,7 @@ Here's the full summary of everything done on the H200 server:
 - **Speed:** ~20 MB/s, completed in ~75 min
 
 ### 3. Tokenization
+
 - **Script:** `h200/tokenize_fineweb.py`
 - **Tokenizer:** GPT-2 BPE (tiktoken), each doc prefixed with `<|endoftext|>`
 - **Shard size:** 100M uint16 tokens per `.npy` file
@@ -39,7 +42,7 @@ Here's the full summary of everything done on the H200 server:
 ### 4. Results
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | **Output shards** | 358 (1 val + 357 train) |
 | **Total tokens** | ~35.8B (incl. EOT prefixes) |
 | **Output location** | `/workspace/zz/datasets/tokenized/` |

@@ -15,7 +15,8 @@ type: note
 
 ### Reference (MI300X): `760M` at batch=32 → 105 GB / 192 GB
 
-### H200 advantage:
+### H200 advantage
+
 - **FA3** (Flash Attention 3) — much lower activation memory than SDPA on AMD
 - **FP8** support — can halve memory on matmuls
 - Higher MFU (~45% vs 27%)
@@ -23,7 +24,7 @@ type: note
 ### Suggested Config for ~1.5B
 
 | Param | Value | Notes |
-|-------|-------|-------|
+| ------- | ------- | ------- |
 | `--depth` | **30** | base_dim=1920, model_dim=1920 (clean 15×128 heads) |
 | `--aspect-ratio` | 64 | standard |
 | `--head-dim` | 128 | FA3 sweet spot |

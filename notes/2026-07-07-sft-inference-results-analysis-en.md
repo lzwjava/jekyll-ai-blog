@@ -26,7 +26,7 @@ Here's the full analysis.
 ### What fails
 
 | Prompt | Result | Failure mode |
-|--------|--------|-------------|
+| -------- | -------- | ------------- |
 | **2+2** | Talked about Gauss, "pairing effect", never said 4 | Arithmetic — complete hallucination |
 | **1,1,2,3,5,8 (Fibonacci)** | Rambled about "stars and bars", Euclid, bar heights | Pattern recognition — didn't identify sequence |
 | **Gradient descent** | "descending a surface by moving air" | Factual — completely off |
@@ -50,7 +50,7 @@ Specific failure patterns:
 
 4. **Code works better** — code has high statistical regularity. `def is_palindrome(s):` → `return s == s[::-1]` is a high-probability continuation. The model learned the pattern without needing to "understand" what a palindrome is.
 
-### If you want to improve inference quality, options:
+### If you want to improve inference quality, options
 
 - **Repetition penalty**: `engine.generate(... repetition_penalty=1.1)` would fix the poem loops
 - **Scale up**: d24 or d32 with n_embd=1024+ would give the model capacity for reasoning

@@ -17,12 +17,14 @@ type: note
 **工作目录：** `/workspace/zz/`
 
 ### 1. 设置
+
 - 创建 SSH 密钥并添加到 GitHub
 - 克隆 `git@github.com:lzwjava/zz.git` 到 `/workspace/zz/`
 - 安装 `tmux` 以保持会话持久化
 - Python 依赖：`tiktoken`、`numpy`、`pyarrow`、`tqdm`、`huggingface_hub`
 
 ### 2. 数据下载
+
 - **脚本：** `h200/download_fineweb.py`
 - **数据集：** HuggingFaceFW/fineweb-edu — 44 个 parquet 分片
 - **大小：** 磁盘占用 95 GB，约 25.5B 词元
@@ -30,6 +32,7 @@ type: note
 - **速度：** 约 20 MB/s，约 75 分钟完成
 
 ### 3. 分词
+
 - **脚本：** `h200/tokenize_fineweb.py`
 - **分词器：** GPT-2 BPE（tiktoken），每个文档前添加 `<|endoftext|>`
 - **分片大小：** 每个 `.npy` 文件 1 亿个 uint16 词元
@@ -39,7 +42,7 @@ type: note
 ### 4. 结果
 
 | 指标 | 数值 |
-|--------|-------|
+| -------- | ------- |
 | **输出分片** | 358（1 个验证 + 357 个训练） |
 | **总词元数** | 约 35.8B（含 EOT 前缀） |
 | **输出位置** | `/workspace/zz/datasets/tokenized/` |

@@ -67,8 +67,8 @@ If a train travels at 60 mph for 2 hours and then at 80 mph for 1 hour, what is 
 
 > To find the average speed of the train, we need to calculate the total distance traveled and the total time taken.
 >
-> The train travels at 60 mph for 2 hours, so its total distance is 60 * 2 = 120 miles.
-> The train travels at 80 mph for 1 hour, so its total distance is 80 * 1 = 80 miles.
+> The train travels at 60 mph for 2 hours, so its total distance is 60 *2 = 120 miles.
+> The train travels at 80 mph for 1 hour, so its total distance is 80* 1 = 80 miles.
 > The total time taken is 2 + 1 = 3 hours.
 > The average speed is the total distance divided by the total time, so it's 120 miles / 3 hours = 60 mph.
 >
@@ -212,7 +212,7 @@ Capital of France?
 ## Summary
 
 | Prompt | Type | Result |
-|--------|------|--------|
+| -------- | ------ | -------- |
 | Capital of France | Factual recall | PASS |
 | Palindrome function | Code generation | PASS |
 | Gradient descent | Technical knowledge | FAIL |
