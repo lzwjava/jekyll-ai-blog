@@ -22,9 +22,9 @@ Group Rules (Updated: 2026-05-16):
 
 4. Please minimize sharing content related to material enjoyments—such as buying homes, upgrading cars, or luxury consumption—to maintain a harmonious group atmosphere and avoid unnecessary comparisons and negative emotions.
 
-5. Different viewpoints are welcome, but conclusions should be based on experiments, data, and code — raw, unverified observations are not welcome. Claims that strongly conflict with mainstream science (e.g., moon landing conspiracy theories, rejections of relativity) should be taken to direct messages, not promoted in the group. Exception: sharing about reversing myopia is welcome.
+5. Different viewpoints are welcome, but conclusions should be based on experiments, data, and code — raw, unverified observations are not welcome. Debate and discussion are encouraged — how else can we make progress and discover truth? The only rule: no personal attacks.
 
-6. This is a distributed group. The group owner is just an initiator and appoints admins to help with management; there is no single authority.
+6. Discussing the 1969 moon landing (whether it was real) is allowed, and questioning the theory of relativity is OK. However, whether all space missions and activities are genuine — please refer to Wang Yin's Weibo or discuss in private messages; this group will not debate that topic. Sharing about reversing myopia is welcome.
 
 7. Members treat each other with equality and respect.
 
