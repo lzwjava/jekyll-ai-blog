@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to Guangzhou University
 
-## Answer:
+## Answer
 
 Guangzhou University (GZHU, 广州大学) is a public comprehensive university located in Guangzhou, one of China's major economic centers and the core city of the Guangdong–Hong Kong–Macao Greater Bay Area. ([Guangzhou University][1])
 

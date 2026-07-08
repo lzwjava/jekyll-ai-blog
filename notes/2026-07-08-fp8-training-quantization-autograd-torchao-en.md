@@ -35,8 +35,8 @@ Note `inv_scale`, not `scale`, is what gets passed to `_scaled_mm`. That's becau
 
 ## 3. Format choice: e4m3 vs e5m2
 
-|  | exponent bits | mantissa bits | dynamic range | precision |
-|---|---|---|---|---|
+| | exponent bits | mantissa bits | dynamic range | precision |
+| --- | --- | --- | --- | --- |
 | e4m3 | 4 | 3 | ±448 (NVIDIA) / ±240 (AMD fnuz) | higher (8 mantissa levels per octave) |
 | e5m2 | 5 | 2 | ±57344 | lower, wider range |
 
