@@ -16,12 +16,13 @@ The download script is ready. Here's a summary:
 Supports three subsets:
 
 | Option | Files | Approx Size |
-|--------|-------|-------------|
+| -------- | ------- | ------------- |
 | `--subset small` (default) | 100 parquet shards in `climbmix_small/` | ~50 GB |
 | `--subset main` | 100 tokenized JSONL files (`part_0..part_99`) | ~2 TB |
 | `--subset full` | both of the above + extras | ~2 TB |
 
 Features:
+
 - Parallel downloads via `ThreadPoolExecutor` (default 8 workers, configurable with `--workers N`)
 - Resume support via `wget -c` — safe to re-run if interrupted
 - Progress stats (MB/s, ETA, cached/error counts)
@@ -30,6 +31,7 @@ Features:
 - Creates parent directories automatically for subfolder paths like `climbmix_small/`
 
 Example usage:
+
 ```bash
 # Small subset (smoke test, ~50 GB)
 python3 climbmix/download.py --subset small

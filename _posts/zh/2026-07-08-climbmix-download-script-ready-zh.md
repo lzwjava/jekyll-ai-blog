@@ -16,12 +16,13 @@ type: note
 支持三个子集：
 
 | 选项 | 文件 | 大致大小 |
-|--------|-------|-------------|
+| -------- | ------- | ------------- |
 | `--subset small`（默认） | `climbmix_small/` 中的 100 个 parquet 分片 | ~50 GB |
 | `--subset main` | 100 个 tokenized JSONL 文件（`part_0..part_99`） | ~2 TB |
 | `--subset full` | 上述两者 + 额外文件 | ~2 TB |
 
 特性：
+
 - 通过 `ThreadPoolExecutor` 实现并行下载（默认 8 个工作线程，可通过 `--workers N` 配置）
 - 通过 `wget -c` 支持断点续传 — 中断后可安全重跑
 - 进度统计（MB/s、预计剩余时间、缓存/错误计数）
@@ -30,6 +31,7 @@ type: note
 - 自动为子文件夹路径（如 `climbmix_small/`）创建父目录
 
 使用示例：
+
 ```bash
 # 小型子集（冒烟测试，~50 GB）
 python3 climbmix/download.py --subset small
