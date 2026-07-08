@@ -26,6 +26,7 @@ type: note
 2. **同时检查 Serverless 端点。** 这是人们容易遗漏的部分（参见上面的社区讨论——“没有正在运行的 pod”但仍然被阻止）。如果任何 **Serverless 端点**（而不是 pod）在其模板/工作器配置中引用了该卷，它同样会阻止删除。前往 Serverless → 检查每个端点的模板中是否包含该卷，然后删除或编辑这些端点。
 
 3. **然后删除该卷**，可以通过 UI 或 API：
+
 ```bash
 curl --request DELETE \
   --url https://rest.runpod.io/v1/networkvolumes/{networkVolumeId} \
@@ -33,6 +34,7 @@ curl --request DELETE \
 ```
 
 **重试删除前的快速检查清单：**
+
 - [ ] 所有使用该卷的 pod 都已终止（不仅仅是停止——停止的 pod 仍会持有卷引用）
 - [ ] 所有引用该卷的 serverless 端点已被删除或重新配置
 - [ ] 终止后等待约 30 秒——RunPod 的后端有时会延迟释放锁

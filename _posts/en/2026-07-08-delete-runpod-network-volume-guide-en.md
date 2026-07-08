@@ -26,6 +26,7 @@ Yes — but "remove" doesn't always mean full deletion, and there's a common got
 2. **Check Serverless endpoints too.** This is the part people miss (see the community threads above — "no pod running" but still blocked). If any **Serverless endpoint** (not a pod) references the volume in its template/worker config, it'll block deletion the same way. Go to Serverless → check each endpoint's template for the volume, and delete/edit those endpoints.
 
 3. **Then delete the volume**, either via UI or API:
+
 ```bash
 curl --request DELETE \
   --url https://rest.runpod.io/v1/networkvolumes/{networkVolumeId} \
@@ -33,6 +34,7 @@ curl --request DELETE \
 ```
 
 **Quick checklist before retrying delete:**
+
 - [ ] All pods using this volume are terminated (not just stopped — stopped pods still hold the volume reference)
 - [ ] All serverless endpoints referencing this volume are deleted or reconfigured
 - [ ] Wait ~30s after termination — RunPod's backend sometimes lags in releasing the lock

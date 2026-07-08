@@ -39,6 +39,7 @@ python -m scripts.base_train \
 ```
 
 For the long training run, use `tmux` so it survives disconnection:
+
 ```bash
 tmux new -s train-d24
 source .venv/bin/activate

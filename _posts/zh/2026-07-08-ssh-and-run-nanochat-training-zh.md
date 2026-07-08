@@ -39,6 +39,7 @@ python -m scripts.base_train \
 ```
 
 对于长时间的训练运行，请使用 `tmux` 以避免断开连接导致中断：
+
 ```bash
 tmux new -s train-d24
 source .venv/bin/activate

@@ -16,7 +16,7 @@ Answer:
 The $0.14/GB/month rate confirms you're on RunPod's **high-performance network volume** tier, not the standard tier. For reference:
 
 | Tier | Rate (first 1TB) | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Standard network volume | $0.05–$0.07/GB/mo | Ceph-backed, available broadly |
 | **High-performance network volume** | **$0.14/GB/mo** | NVMe-backed, currently limited to Montreal data centers |
 
