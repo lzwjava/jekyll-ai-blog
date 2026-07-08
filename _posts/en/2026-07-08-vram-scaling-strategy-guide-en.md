@@ -12,6 +12,7 @@ type: note
 Now let me check current VRAM usage to see what headroom we have:
 
 **Current state at step ~996 (3.4%):**
+
 - Loss: 10.4 → **3.0** (dropping fast — no bottleneck yet)
 - VRAM: **54 GB / 144 GB (38%)** — only 54 GB used, 90 GB free!
 - Step time: ~4.0s, MFU: 63%
@@ -23,7 +24,7 @@ Now let me check current VRAM usage to see what headroom we have:
 You have **90 GB free VRAM** — a huge advantage. Here's when and how to increase batch size:
 
 | Training Phase | Steps | Loss Range | Batch Size | Why |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Early** (now) | 0–20,000 | 10.4 → ~2.5 | 524K (current) | Learning fast, smaller batch = more exploration |
 | **Mid** | 20,000–26,000 | ~2.5 → ~2.3 | **2M tokens** (4×) | Cleaner gradients near convergence |
 | **Final** | 26,000–29,000 | ~2.3 → final | **4M tokens** (8×) | Polish the minimum |
@@ -33,7 +34,7 @@ You have **90 GB free VRAM** — a huge advantage. Here's when and how to increa
 **On H200 with 90 GB free**, you can go from device_batch=16 up to **device_batch=64** (uses ~108 GB, still fits):
 
 | Device Batch | Total Batch | VRAM Est. | What It Does |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 16 (current) | 524K | 54 GB | Exploration mode |
 | 32 | 1M | ~75 GB | Moderate smoothing |
 | 48 | 2M | ~95 GB | Good convergence boost |

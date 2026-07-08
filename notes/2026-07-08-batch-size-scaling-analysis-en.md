@@ -12,7 +12,7 @@ type: note
 Let me compare the three runs side by side. Here's what happened when we increased batch size:
 
 | | batch=16 | batch=32 | batch=64 | batch=128 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **VRAM** | 54 GB (38%) | **93 GB (65%)** | OOM (133 GB) | OOM (139 GB) |
 | **Tok/sec** | 129K | **135K** | — | — |
 | **MFU** | 62% | **65%** | — | — |
@@ -38,6 +38,7 @@ Let me compare the three runs side by side. Here's what happened when we increas
 **Why 64 and 128 OOM'd:**
 
 The culprit is the **lm_head** — a `(32768 vocab × 1536 dim)` linear layer. During forward pass, the output logits are `(batch×seq, vocab)`:
+
 - batch=32: (65536, 32768) in fp32 = **8 GB** → total 93 GB ✅
 - batch=64: (131072, 32768) in fp32 = **16 GB** → total 133 GB OOM ❌
 - batch=128: (262144, 32768) in fp32 = **32 GB** → total 139 GB OOM ❌

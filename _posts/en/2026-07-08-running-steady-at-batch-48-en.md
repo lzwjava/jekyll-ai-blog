@@ -12,7 +12,7 @@ type: note
 **Running steady at batch=48.** All good.
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | Step | **113 / 9,280 (1.22%)** |
 | Loss | **4.43** (from 10.4 → rapid drop) |
 | LR | 1.00 (at peak) |

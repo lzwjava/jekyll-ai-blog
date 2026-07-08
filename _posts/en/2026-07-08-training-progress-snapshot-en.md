@@ -12,7 +12,7 @@ type: note
 **Step 182 / 14,500 (1.26%)** — running well:
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | Loss | **3.76** (down from 10.4 at start) |
 | LR | 1.00 (peak — warmup complete) |
 | Step time | **7.78s** |

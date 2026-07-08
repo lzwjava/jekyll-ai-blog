@@ -14,7 +14,7 @@ Good thought. Let me analyze without killing the current run.
 **batch=48 estimate:**
 
 | Component | batch=32 (current) | batch=48 (estimate) |
-|---|---|---|
+| --- | --- | --- |
 | **Microbatch tokens** | 32×2048 = 65,536 | 48×2048 = **98,304** |
 | **Logit tensor** `(batch×seq, vocab)` | (65536, 32768) = **8 GB** | (98304, 32768) = **12 GB** |
 | **Activations (embed + attn + MLP)** | ~30 GB | ~**45 GB** |
@@ -29,6 +29,7 @@ Good thought. Let me analyze without killing the current run.
 **Key question**: Does torch.compile recompile the graph for the new shape, using more memory temporarily? Yes — it allocates extra buffers during compilation that get freed after. During the first step (compilation), peak memory can spike 10-15 GB above steady state.
 
 So real risk profile:
+
 - **Steady state**: ~112 GB → 28 GB free → **likely safe** ✅
 - **Compilation spike**: ~112 GB + ~15 GB = 127 GB → 13 GB free → **should still fit** ✅
 - **Grad accum**: batch=48 with total-batch=1M means **grad_accum = 10-11**, which is fine

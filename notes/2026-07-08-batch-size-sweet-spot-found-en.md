@@ -14,7 +14,7 @@ type: note
 ### Batch Size Comparison
 
 | | batch=16 | batch=32 | batch=128 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **VRAM** | 54 GB (38%) | **93 GB (65%)** | OOM at 139 GB |
 | **Step time** | 4.1s | **7.8s** | — |
 | **Tok/sec** | 129K | **135K** | — |
@@ -25,6 +25,7 @@ type: note
 | **ETA** | ~33h | **~31h** | — |
 
 **batch=32** is the sweet spot:
+
 - Uses 93/144 GB (65%) — comfortable headroom
 - Higher throughput (135K vs 129K tok/s)
 - Higher MFU (65% vs 62%)
