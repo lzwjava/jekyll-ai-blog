@@ -33,7 +33,7 @@ Template = {
 **Pods vs Serverless——同一模板，不同运行时语义：**
 
 | | Pods | Serverless |
-|---|---|---|
+| --- | --- | --- |
 | 生命周期 | 长期运行，手动启停 | 临时工作器，按需启动，缩至零 |
 | 入口点 | 通常通过SSH/Jupyter进入运行中的容器 | 必须调用 `runpod.serverless.start({"handler": handler})` |
 | 计费 | 运行时按小时计费 | 按处理请求的实际秒数计费 |

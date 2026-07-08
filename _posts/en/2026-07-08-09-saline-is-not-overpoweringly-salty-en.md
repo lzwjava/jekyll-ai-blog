@@ -23,7 +23,7 @@ No — 0.9% saline is roughly isotonic with human body fluids, so on a physiolog
 **Comparison points (by weight/volume):**
 
 | Solution | Approx. NaCl concentration | Taste |
-|---|---|---|
+| --- | --- | --- |
 | Normal saline (IV/nasal rinse) | 0.9% | Mild, barely-there salty, close to bodily fluid |
 | Well-seasoned broth/soup | ~0.5–1.2% | Pleasantly salty — this is the sweet spot most cuisines target |
 | Salted pasta water | ~1–2% | Noticeably salty |

@@ -55,6 +55,7 @@ This is where you learn whether your recipe is *chinchilla-consistent* — does 
 
 **Phase C — days to weeks (the part people skip discussing)**
 This is where the actually rare, hard-to-fake learning lives, and it's *not* about the model — it's about **infra**:
+
 - NCCL timeouts / stragglers in multi-node training
 - checkpoint/resume correctness after a node dies at hour 130 of 168
 - loss spikes that appear only after N tokens (data ordering, a bad shard, optimizer state corruption)
@@ -66,6 +67,7 @@ Nobody debugs this in a 50-step test. This is the stuff that separates "I ran a 
 ### On "take someone else's checkpoint, it's cheaper"
 
 Also correct, and it's the right default for **client revenue work** — LoRA/PEFT on an existing checkpoint gives you:
+
 - iteration loop in minutes, not days
 - inherits someone else's pretraining compute spend
 - most consulting asks (domain adaptation, instruction tuning, RLHF/GRPO on top of a base model) don't require touching the pretraining loop at all

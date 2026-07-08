@@ -20,6 +20,7 @@ You're right to be skeptical — that "10–15%" number is not salt-mass-per-tot
 ```
 aw = p / p0
 ```
+
 where `p` is the vapor pressure of water in the food/solution and `p0` is the vapor pressure of pure water at the same temperature. It's the equilibrium relative humidity (ERH) divided by 100 — measured with a hygrometer-style water activity meter (chilled-mirror dew point or capacitance sensor) that equilibrates a sealed headspace above the sample and reads the RH at that temperature. Multiplication of water activity by 100 gives the equilibrium relative humidity in percent. It is NOT measured by weighing salt into a cup of water — that's just the model people use to *predict* aw via Raoult's law-type curves, then confirm empirically per sample.
 
 **Why salt % alone is a bad proxy**
@@ -35,7 +36,7 @@ not `salt_mass / total_food_mass`. Your yesterday's-pan situation is exactly thi
 **The actual thresholds** (this is where it gets non-binary):
 
 | Organism class | aw floor |
-|---|---|
+| --- | --- |
 | Most spoilage bacteria | ~0.90 |
 | Most "ordinary" bacteria generally | ~0.91 |
 | *S. aureus*, anaerobic | 0.91 |

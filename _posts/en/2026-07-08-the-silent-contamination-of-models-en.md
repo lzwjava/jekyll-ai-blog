@@ -18,6 +18,7 @@ The analogy is directionally right but the salt case and the checkpoint case hav
 ## The cooking side (quick, not your main interest but worth being precise)
 
 Salt lowers water activity (a_w), which is what actually inhibits most bacterial growth — not "salt kills bacteria" directly. But:
+
 - Halophiles and some spore formers (notably *Clostridium botulinum*, *Staphylococcus aureus* toxin) tolerate salt fine.
 - A "salty pan" isn't a sterile pan — it's a pan with reduced growth rate for *most* organisms, for a *bounded* time window.
 
@@ -66,11 +67,13 @@ If you're pulling a checkpoint off HF and continuing training, run this against 
 ## Practical rule for your workflow
 
 Don't reload from scratch when:
+
 - You control the data pipeline and can verify no eval-set leakage
 - You're doing domain-adaptive continued pretraining (your own nanochat-scale runs, MI300X sessions)
 - You use LR re-warm + small replay buffer as default hygiene, not an afterthought
 
 Do start fresh (new pot) when:
+
 - The checkpoint's provenance/data mix is unknown or unverifiable (random HF upload, no data card)
 - You're about to publish/ship it and haven't run a contamination check
 - The checkpoint already shows anomalous eval behavior you can't explain

@@ -12,7 +12,7 @@ type: note
 Done. Two new scripts committed:
 
 | Step | Script | Produces |
-|------|--------|----------|
+| ------ | -------- | ---------- |
 | 1. Download | `scripts/download/download_codeparrot_clean.py` | `.json.gz` shards in `datasets/codeparrot-clean/` |
 | 2. Convert | `scripts/extract/convert_codeparrot_for_nanochat.py` | `text`-col parquet in `datasets/codeparrot-clean-nanochat/` |
 | 3. Tokenize | `scripts/extract/tokenize_github_code.py` (existing) | `.npy` token shards in `datasets/codeparrot-clean-tok/` |
@@ -22,16 +22,19 @@ Done. Two new scripts committed:
 **To run the full pipeline** (all 53 train shards + 1 valid shard, ~12.7 GB compressed):
 
 **Step 1 — download:**
+
 ```bash
 python3.11 scripts/download/download_codeparrot_clean.py
 ```
 
 **Step 2 — convert to nanochat format:**
+
 ```bash
 python3.11 scripts/extract/convert_codeparrot_for_nanochat.py
 ```
 
 **Step 3 — tokenize:**
+
 ```bash
 python3.11 scripts/extract/tokenize_github_code.py \
   --input-dir /mnt/data/zz/datasets/codeparrot-clean-nanochat \

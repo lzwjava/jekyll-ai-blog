@@ -33,7 +33,7 @@ Template = {
 **Pods vs Serverless — same Template, different runtime semantics:**
 
 | | Pods | Serverless |
-|---|---|---|
+| --- | --- | --- |
 | Lifecycle | Long-running, you start/stop manually | Ephemeral workers, spun up per-request, scale to zero |
 | Entry point | Usually SSH/Jupyter into a running container | Must call `runpod.serverless.start({"handler": handler})` |
 | Billing | Per-hour while running | Per-second of actual compute during request handling |
