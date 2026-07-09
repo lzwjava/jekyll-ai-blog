@@ -16,7 +16,7 @@ type: note
 **描述**：一个基于 Node.js 的多通道机器人代理框架（类似于 Hermes Agent），全局安装。
 
 | 字段 | 详情 |
-|---|---|
+| --- | --- |
 | 包名 | `openclaw@2026.5.12` — 全局 npm 安装 |
 | 二进制文件 | `/home/lzw/.npm-global/bin/openclaw` |
 | 安装路径 | `/home/lzw/.npm-global/lib/node_modules/openclaw/` |
@@ -28,6 +28,7 @@ type: note
 | 运行时 | Node.js v25.8.1 |
 
 **状态**：Telegram 通道处于崩溃循环中。日志位于 `/tmp/openclaw/openclaw-2026-07-09.log`（约 3.5MB），显示：
+
 - `fetch timeout` — 对 `api.telegram.org` 的 `getMe` 请求反复超时（10 秒超时）
 - `UND_ERR_CONNECT_TIMEOUT` — DNS 解析成功但 IP 不可达
 - 自动重启尝试（1/10、2/10……）持续失败
@@ -37,6 +38,7 @@ type: note
 **根本原因**：可能是该机器上的代理/防火墙阻止了 Telegram API。Bot token 存在，但无法到达 Telegram 服务器进行轮询/getUpdates。
 
 **你的配置中也引用了**：
+
 - `~/ww/ww/config/openclaw.json` — 你的 `ww` 工具中嵌入了指向同一工作区的 openclaw 配置
 - `~/projects/config/openclaw/openclaw.json` — 另一个配置变体
 
@@ -51,6 +53,7 @@ type: note
 **用途**：一个计算器，根据完整的远用处方推荐“近用”处方——通常减少 **-1.50D**（亚洲格式为 150 度）。基于主动近视逆转/眼球缩短理论。
 
 **功能**（全部客户端 JS）：
+
 - 输入左/右眼远用处方（球镜 + 柱镜）
 - 输出推荐的近用处方
 - 单位切换：亚洲（度） vs 西方（屈光度）
@@ -59,6 +62,7 @@ type: note
 - 恢复提示区域
 
 **文件**：
+
 ```
 myopia-reversal-app/
   index.html         (14KB, 345 行 — 所有 UI 和逻辑内联)
@@ -79,8 +83,9 @@ myopia-reversal-app/
 **配置文件**：`/etc/nginx/conf.d/default.conf` — 单个服务器块，监听 80 端口
 
 **路由**：
+
 | 路径 | 目标 | 类型 |
-|---|---|---|
+| --- | --- | --- |
 | `/` | `/var/www/html/` | 静态文件 |
 | `/todo/` | `/var/www/html/todo/` | 静态文件 |
 | `/myopia/` | `/home/lzw/.openclaw/workspace/myopia-reversal-app/` | **刚刚添加** |

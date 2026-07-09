@@ -16,7 +16,7 @@ type: note
 **What it is**: A Node.js-based multi-channel bot agent framework (similar to Hermes Agent), installed globally.
 
 | Field | Detail |
-|---|---|
+| --- | --- |
 | Package | `openclaw@2026.5.12` — global npm install |
 | Binary | `/home/lzw/.npm-global/bin/openclaw` |
 | Install | `/home/lzw/.npm-global/lib/node_modules/openclaw/` |
@@ -28,6 +28,7 @@ type: note
 | Runtime | Node.js v25.8.1 |
 
 **Status**: The Telegram channel is in a crash-loop. Logs at `/tmp/openclaw/openclaw-2026-07-09.log` (~3.5MB) show:
+
 - `fetch timeout` — `getMe` to `api.telegram.org` timing out at 10s repeatedly
 - `UND_ERR_CONNECT_TIMEOUT` — DNS resolves but IP unreachable
 - Auto-restart attempts (1/10, 2/10, ...) keep failing
@@ -37,6 +38,7 @@ type: note
 **Root cause**: Likely a proxy/firewall blocking Telegram API on this machine. The bot token is present but can't reach Telegram's servers to poll/getUpdates.
 
 **Also referenced in your config**:
+
 - `~/ww/ww/config/openclaw.json` — your `ww` tool has an embedded openclaw config pointing to the same workspace
 - `~/projects/config/openclaw/openclaw.json` — another config variant
 
@@ -51,6 +53,7 @@ type: note
 **Purpose**: A calculator that recommends "near-vision" prescription from full far-vision specs — typically **-1.50D reduction** (150 degrees in Asian format). Based on the active myopia reversal / eyeball-shortening theory.
 
 **Features** (all client-side JS):
+
 - Input left/right eye far-vision prescription (sphere + cylinder)
 - Output recommended near-vision prescription
 - Unit toggle: Asian (degrees) vs Western (Diopters)
@@ -59,6 +62,7 @@ type: note
 - Recovery tips section
 
 **Files**:
+
 ```
 myopia-reversal-app/
   index.html         (14KB, 345 lines — all UI + logic inline)
@@ -79,8 +83,9 @@ myopia-reversal-app/
 **Config**: `/etc/nginx/conf.d/default.conf` — single server block on port 80
 
 **Routes**:
+
 | Path | Target | Type |
-|---|---|---|
+| --- | --- | --- |
 | `/` | `/var/www/html/` | Static files |
 | `/todo/` | `/var/www/html/todo/` | Static files |
 | `/myopia/` | `/home/lzw/.openclaw/workspace/myopia-reversal-app/` | **Just added** |

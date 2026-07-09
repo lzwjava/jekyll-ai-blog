@@ -30,7 +30,7 @@ The Uno's `pins_arduino.h` has **zero** TX/RX LED macros. Every other pin defini
 Boards that **do** define `TX_RX_LED_INIT` are all **native-USB (ATmega32u4)** based:
 
 | Board | File | TX LED | RX LED |
-|-------|------|--------|--------|
+| ------- | ------ | -------- | -------- |
 | Leonardo | `variants/leonardo/pins_arduino.h:94` | PD5 (D5) | PB0 (D8) |
 | Micro | `variants/micro/pins_arduino.h:35` | PD5 | PB0 |
 | Robot Control | `variants/robot_control/pins_arduino.h:31` | PD5 | PB0 |
@@ -62,7 +62,7 @@ I searched the entire Arduino IDE source (`arduino-ide-extension/`) for "blink",
 The previous answer was **correct**:
 
 | Claim | Source Verified? |
-|-------|:---:|
+| ------- | :---: |
 | `LED_BUILTIN` = pin 13 | ✅ `pins_arduino.h` line 54 |
 | TX/RX LEDs not controllable from sketch on Uno | ✅ No `TX_RX_LED_INIT` in `variants/standard/` |
 | TX/RX LEDs driven by 16U2, not 328P | ✅ Confirmed by architecture — no `USBCON` on 328P |

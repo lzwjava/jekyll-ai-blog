@@ -16,6 +16,7 @@ type: note
 **myopia-reversal-app** — 位于 `/home/lzw/.openclaw/workspace/myopia-reversal-app/`。一个单页 Web 应用（原生 HTML/CSS/JS），用于计算用于主动近视逆转的降低近用处方（通常比完全矫正低 -1.50D）。功能：单位切换（度 vs 屈光度）、中英文双语、深色模式、恢复提示。使用 Vite 作为开发依赖，但在 Mar 14 提交中只有 `index.html` + 内联 JS。
 
 **nginx** — 已配置并重新加载：
+
 - `http://localhost/myopia/` → 提供该应用
 - 现有的 `/movies/` 和 `/todo/` 路由保持不变
 - `nginx -t` 通过，已重新加载，返回 200

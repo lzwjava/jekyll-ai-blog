@@ -30,6 +30,7 @@ Evidence:
     "choices": [...]
   }
   ```
+
 * The endpoint returned usage statistics (`prompt_tokens`, `completion_tokens`, etc.), meaning the inference stack completed end-to-end.
 
 So your deployment pipeline is:

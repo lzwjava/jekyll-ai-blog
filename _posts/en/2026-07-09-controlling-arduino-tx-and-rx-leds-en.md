@@ -20,7 +20,7 @@ Short answer: **no, not directly** — TX/RX are hardware-driven, not GPIO-contr
 On the Uno R3, there are 3 onboard LEDs near the USB port area:
 
 | LED | Driven by | Controllable via sketch? |
-|---|---|---|
+| --- | --- | --- |
 | `L` (pin 13) | ATmega328P PB5, through a resistor (commonly silkscreened R9 depending on revision) | **Yes** — this is `LED_BUILTIN` |
 | `TX` | ATmega16U2 (USB-to-serial bridge) TXD line, through a resistor (R7-ish) | **No** — hardware only |
 | `RX` | ATmega16U2 RXD line, through a resistor (R8-ish) | **No** — hardware only |

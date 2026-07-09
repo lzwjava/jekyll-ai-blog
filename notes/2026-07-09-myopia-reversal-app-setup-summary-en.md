@@ -16,6 +16,7 @@ Done. Here's what I found and what I set up:
 **myopia-reversal-app** — Found at `/home/lzw/.openclaw/workspace/myopia-reversal-app/`. A single-page web app (vanilla HTML/CSS/JS) that calculates reduced near-vision prescriptions (typically -1.50D from full correction) for active myopia reversal. Features: unit toggle (degrees vs diopters), EN/CN bilingual, dark mode, recovery tips. Uses Vite devDependency but just `index.html` + inline JS at Mar 14 commit.
 
 **nginx** — Configured and reloaded:
+
 - `http://localhost/myopia/` → serves the app
 - Existing `/movies/` and `/todo/` routes unchanged
 - `nginx -t` passed, reloaded, returns 200

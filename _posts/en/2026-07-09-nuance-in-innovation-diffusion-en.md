@@ -36,6 +36,7 @@ Yes, **diffusion** often matters more than **invention** in terms of *historical
 > The world *does* remember the first to *prove* it with rigor, and the first to *make it safe and repeatable*.
 
 If you spread something before it's validated, you risk:
+
 - Helping people, yes—but also harming some if the method is incomplete or risky.
 - Being remembered not as a pioneer, but as someone who oversold incomplete work.
 

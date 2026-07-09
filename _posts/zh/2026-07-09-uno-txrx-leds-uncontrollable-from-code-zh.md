@@ -30,7 +30,7 @@ Uno 的 `pins_arduino.h` 中**没有**任何 TX/RX LED 宏定义。其他所有�
 **确实**定义了 `TX_RX_LED_INIT` 的开发板都是基于 **原生 USB (ATmega32u4)** 的：
 
 | 开发板 | 文件 | TX LED | RX LED |
-|-------|------|--------|--------|
+| ------- | ------ | -------- | -------- |
 | Leonardo | `variants/leonardo/pins_arduino.h:94` | PD5 (D5) | PB0 (D8) |
 | Micro | `variants/micro/pins_arduino.h:35` | PD5 | PB0 |
 | Robot Control | `variants/robot_control/pins_arduino.h:31` | PD5 | PB0 |
@@ -62,7 +62,7 @@ TX/RX LED 脉冲系统确实存在，但受 `USBCON` 保护——只有具有原
 之前的回答是**正确的**：
 
 | 声明 | 源代码验证？ |
-|-------|:---:|
+| ------- | :---: |
 | `LED_BUILTIN` = 引脚 13 | ✅ `pins_arduino.h` 第 54 行 |
 | 在 Uno 上无法从草稿控制 TX/RX LED | ✅ `variants/standard/` 中无 `TX_RX_LED_INIT` |
 | TX/RX LED 由 16U2 驱动，而非 328P | ✅ 由架构确认——328P 上无 `USBCON` |
