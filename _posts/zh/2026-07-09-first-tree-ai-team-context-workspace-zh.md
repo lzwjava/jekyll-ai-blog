@@ -22,7 +22,7 @@ type: note
 这是一个包含 5 个包的 pnpm monorepo（单一代码仓库）：
 
 | 包名 | 作用 |
-|---|---|
+| --- | --- |
 | `apps/cli` | `first-tree` / `ftd` 命令行工具 — 登录、守护进程、代理管理、树操作 |
 | `packages/server` | Fastify API 服务器 (PostgreSQL/Drizzle/Zod) — SaaS 后端 |
 | `packages/client` | SDK + AgentRuntime — 封装 WebSocket 通信、处理器注册、codex/copilot 运行时胶水代码 |

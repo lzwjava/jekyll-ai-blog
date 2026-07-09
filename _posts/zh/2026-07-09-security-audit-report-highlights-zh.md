@@ -22,6 +22,7 @@ const token = (request.query as Record<string, string>).token;
 ```
 
 组织管理员 WebSocket（`/api/v1/orgs/:orgId/ws?token=...`）将 JWT 作为**查询参数**接受。查询字符串会：
+
 - 被 Fastify 的 `req` 序列化器完整记录（以及 `logger.ts` 中的 `redactUrl` 函数）
 - 如果页面链接或重定向，会通过 `Referer` 头发送
 - 在浏览器历史记录和书签中可见
@@ -48,6 +49,7 @@ jwtSecret: field(z.string().min(1),
 ```
 
 如果环境变量未设置，配置系统会在首次启动时自动生成 `jwtSecret` 和 `encryptionKey`，并将其写入本地文件。这对自托管用户来说很友好，但意味着：
+
 - 如果两个副本同时启动且未设置环境变量，每个副本会生成**不同**的密钥——一个副本签发的令牌会被另一个副本拒绝，且加密的凭据无法解密。
 - 如果文件丢失，所有活跃会话失效，所有加密的凭据（GitHub 令牌）无法恢复。
 - `auto` 字段写入磁盘的路径是 `~/.first-tree/server.yaml`，而不是密钥存储服务。
@@ -85,7 +87,7 @@ GitHub 应用块中的每个字段都有 `.min(1)`，因此 Zod 会拒绝 `""`�
 ### 总结
 
 | 严重程度 | 问题 | 文件 |
-|---|---|---|
+| --- | --- | --- |
 | 🔴 中高 | WebSocket 查询字符串中的 JWT，日志/Referer 暴露 | `orgs/ws.ts:207` |
 | 🟡 中 | XFF 伪造绕过 IP 速率限制 | `app.ts:182-197` |
 | 🟡 低中 | 多副本时自动生成的密钥丢失 | `server-config.ts:28-37` |

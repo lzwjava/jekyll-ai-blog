@@ -22,7 +22,7 @@ Think of it as **team memory that agents and humans maintain together**.
 It's a pnpm monorepo with 5 packages:
 
 | Package | Role |
-|---|---|
+| --- | --- |
 | `apps/cli` | `first-tree` / `ftd` CLI — login, daemon, agent management, tree operations |
 | `packages/server` | Fastify API server (PostgreSQL/Drizzle/Zod) — the SaaS backend |
 | `packages/client` | SDK + AgentRuntime — wraps WebSocket comms, handler registration, codex/copilot runtime glue |

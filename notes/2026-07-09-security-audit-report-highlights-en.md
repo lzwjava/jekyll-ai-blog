@@ -22,6 +22,7 @@ const token = (request.query as Record<string, string>).token;
 ```
 
 The org admin WS (`/api/v1/orgs/:orgId/ws?token=...`) accepts the JWT as a **query parameter**. Query strings are:
+
 - logged in full by Fastify's `req` serializer (and the `redactUrl` function in `logger.ts`)
 - sent in the `Referer` header if the page links or redirects
 - visible in browser history, bookmarks
@@ -48,6 +49,7 @@ jwtSecret: field(z.string().min(1),
 ```
 
 The config system auto-generates `jwtSecret` and `encryptionKey` on first boot if the env vars are unset and writes them to a local file. This is a nice UX for self-hosters, but it means:
+
 - If two replicas boot simultaneously without the env var set, each generates a *different* secret — tokens signed by one are rejected by the other, and encrypted credentials can't be decrypted.
 - If the file is lost, all active sessions are invalidated and all encrypted credentials (GitHub tokens) are unrecoverable.
 - The `auto` field writes to disk behind `~/.first-tree/server.yaml`, not a secret store.
@@ -85,7 +87,7 @@ Every field in the GitHub app block has `.min(1)` so Zod rejects `""`. Good catc
 ### Summary
 
 | Severity | Issue | File |
-|---|---|---|
+| --- | --- | --- |
 | 🔴 Medium-High | JWT in WS query string, log/referer exposure | `orgs/ws.ts:207` |
 | 🟡 Medium | XFF spoofing bypasses IP rate limits | `app.ts:182-197` |
 | 🟡 Low-Medium | Auto-generated secrets lost on multi-replica | `server-config.ts:28-37` |

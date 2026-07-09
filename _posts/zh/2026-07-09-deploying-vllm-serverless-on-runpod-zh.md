@@ -26,6 +26,7 @@ type: note
 1. 进入 **Serverless Endpoints** 标签页，点击你的端点。
 2. 在左侧菜单中，选择 **Requests** 标签页。
 3. 你会看到一个默认的 JSON 输入结构。修改它，加入你的提示词：
+
 ```json
 {
   "input": {
@@ -59,7 +60,7 @@ curl -X POST "https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/runsync" \
 
 RunPod vLLM worker 原生支持 OpenAI API 结构，允许你直接将其集成到现有的 OpenAI 代码脚本中。
 
-#### Python 实现示例：
+#### Python 实现示例
 
 ```python
 from openai import OpenAI

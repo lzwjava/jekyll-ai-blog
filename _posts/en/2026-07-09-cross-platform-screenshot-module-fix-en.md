@@ -20,6 +20,7 @@ Fixed. No `--linux` flag needed — the platform is auto-detected.
 3. **`main()` description updated** — now says "macOS / Linux" instead of just "macOS".
 
 **Result:**
+
 - `ww screenshot interact-note` → imports `capture_screenshot` without crashing
 - `ww screenshot` (no subcommand) → also works on Linux now
 - `ww screenshot-linux` (the separate command with `--no-save`/`--area`) kept as-is — it has extra clipboard/quadrant features

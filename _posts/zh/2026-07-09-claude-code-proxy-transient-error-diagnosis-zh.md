@@ -46,6 +46,7 @@ Claude Code CLI (Node.js)
 **要提高稳定性**，您可以：
 
 1. **为 sssaicode.com 添加显式代理规则**，使其始终通过您的 SS/Hysteria2 隧道（而非 DIRECT）路由，以防从中国直连不稳定：
+
    ```
    - DOMAIN-SUFFIX,sssaicode.com,Proxy
    ```

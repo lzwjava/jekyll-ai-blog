@@ -20,6 +20,7 @@ type: note
 3. **`main()` 的描述已更新** — 现在显示“macOS / Linux”，而非仅“macOS”。
 
 **结果：**
+
 - `ww screenshot interact-note` → 导入 `capture_screenshot` 不再崩溃
 - `ww screenshot`（无子命令）→ 现在也能在 Linux 上运行
 - `ww screenshot-linux`（带有 `--no-save`/`--area` 的独立命令）保持不变——它具有额外的剪贴板/象限功能

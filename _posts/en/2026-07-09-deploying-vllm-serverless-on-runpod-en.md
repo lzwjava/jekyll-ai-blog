@@ -26,6 +26,7 @@ The easiest way to activate a worker and test your vLLM model is directly throug
 1. Go to your **Serverless Endpoints** tab and click on your endpoint.
 2. Select the **Requests** tab on the left-side menu.
 3. You will see a default JSON input structure. Modify it to include your prompt:
+
 ```json
 {
   "input": {
@@ -35,7 +36,6 @@ The easiest way to activate a worker and test your vLLM model is directly throug
 }
 
 ```
-
 
 4. Click **Run** (or **Submit**).
 5. **Note on Cold Starts:** Because it says 0 running workers, your first request will trigger a "cold start." RunPod will provision a GPU worker and load your Hugging Face model into VRAM. This initial request can take anywhere from 30 seconds to a few minutes. Subsequent requests will return instantly.
@@ -62,7 +62,7 @@ curl -X POST "https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/runsync" \
 
 The RunPod vLLM worker natively supports the OpenAI API structure, allowing you to drop it directly into your existing OpenAI code scripts.
 
-#### Python Implementation Example:
+#### Python Implementation Example
 
 ```python
 from openai import OpenAI
