@@ -15,22 +15,22 @@ It’s a type of weighted average that gives **more weight to recent observation
 
 ---
 
-### In the context of your training loss discussion:
+### In the context of your training loss discussion
 
-When you said *"the EMA window is very small"*, you meant that the smoothing factor used to average your loss values over time is set to look at only a very short history. 
+When you said *"the EMA window is very small"*, you meant that the smoothing factor used to average your loss values over time is set to look at only a very short history.
 
 - **Small EMA window** = the smoothed loss reacts very quickly to new batches. It follows the noisy raw loss closely, so it **looks jumpy**.
 - **Large EMA window** = the smoothed loss reacts slowly, averages over many more steps, and **looks flat and stable** (like your 100-step view).
 
 ---
 
-### Mathematically (simple version):
+### Mathematically (simple version)
 
 \\[
-\text{EMA}_t = \alpha \times \text{value}_t + (1 - \alpha) \times \text{EMA}_{t-1}
+\text{EMA}_t = \alpha \times \text{value}*t + (1 - \alpha) \times \text{EMA}*{t-1}
 \\]
 
-- \\(\alpha\\) (alpha) is the **smoothing factor**. 
+- \\(\alpha\\) (alpha) is the **smoothing factor**.
 - A **large alpha** (e.g., 0.5) means a *small window* – recent values dominate, very responsive.
 - A **small alpha** (e.g., 0.01) means a *large window* – very smooth, slow to change.
 

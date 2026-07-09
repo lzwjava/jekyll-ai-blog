@@ -25,6 +25,7 @@ Before dealing with physical components, the most efficient way to close the loo
 
 * **Wokwi / TinkerCAD API:** Use platform APIs (like Wokwi) to run the Arduino code and circuit virtually.
 * **The Loop:** 1. The agent generates the circuit schematic (JSON/code-based) and the Arduino C++ code.
+
 2. The simulation runs.
 3. If a component blows up (e.g., too much current through an LED) or a pin logic is wrong, the simulator outputs an exact error log or waveform data.
 4. The agent reads the error code and fixes the design instantly.
@@ -37,6 +38,7 @@ If you must use physical hardware, the Arduino itself must become the debugger a
 
 * **Assertive Coding:** Train the agent to inject telemetry code into its Arduino sketches. Every critical state, sensor reading, and variable should be outputted via `Serial.println()` in a structured format (like JSON).
 * **The Loop:** 1. The agent flashes the code to the Arduino via a CLI tool (like `arduino-cli`).
+
 2. A Python script listens to the Serial port (`pyserial`).
 3. If the agent expects a sensor reading of 5V but receives 0V, the Python script catches this anomaly and feeds it back to the agent: *"Error: Expected Analog0 > 500, Got 0."*
 
@@ -49,6 +51,7 @@ When code isn't enough, you need external hardware tools connected to the same h
 * **Digital Multimeters (DMM) / Oscilloscopes with API:** Use tools like a Saleae Logic Analyzer or a programmable USB oscilloscope (e.g., PicoScope).
 * **Smart Power Monitoring:** Power the Arduino setup through a programmable power supply or a current monitoring chip (like the INA219) connected to the host PC.
 * **The Loop:** 1. The agent turns on the circuit.
+
 2. The python script measures total current draw. If it reads a massive spike (short circuit), it instantly cuts power to protect the hardware and tells the agent: *"Short circuit detected at Power Rail."*
 3. The logic analyzer checks if Pin 13 is actually toggling at 1Hz.
 

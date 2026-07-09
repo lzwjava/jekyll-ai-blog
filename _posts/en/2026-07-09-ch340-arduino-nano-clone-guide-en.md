@@ -16,7 +16,7 @@ Here's the full picture based on what I found:
 The CH340 chip is a **generic USB-to-serial converter**, not a specific board's native USB. This means:
 
 | Board | Uses CH340? | VID:PID |
-|-------|------------|---------|
+| ------- | ------------ | --------- |
 | **Arduino Nano (clone)** | ✅ **Most common** | `1a86:7523` |
 | **Arduino Uno (clone)** | ⚠️ Sometimes | `1a86:7523` |
 | **Circuit Playground** (Adafruit) | ❌ No — native USB | `0x239A:0x8011` |

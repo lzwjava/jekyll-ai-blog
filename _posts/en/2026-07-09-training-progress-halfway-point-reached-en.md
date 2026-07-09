@@ -12,6 +12,7 @@ type: note
 **Update: 35,436 → 39,923**
 
 **Progress:**
+
 - Step 39,923 / 87,000 -- **45.89%** (from 40.7%)
 - Elapsed: 830 min (~13.8h)
 - ETA: 979 min (~16.3h) remaining

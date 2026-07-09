@@ -59,6 +59,7 @@ Keep going. You're asking the right questions.
 ---
 
 Want me to help you:
+
 - Debug whether that loss noise is *harmful* or just *cosmetic*?
 - Design a better metric to separate data variance from optimization issues?
 - Or push back on your friend with a solid counter-argument?

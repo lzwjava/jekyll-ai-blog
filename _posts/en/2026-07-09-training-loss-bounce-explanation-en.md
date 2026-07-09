@@ -23,6 +23,7 @@ smooth_train_loss = 0.9 * smooth_train_loss + 0.1 * train_loss_f
 ```
 
 β=0.9 gives an effective window of ~10 steps. That means:
+
 - A single bad batch contributes ~10% of the displayed loss for the next 10 steps
 - A 0.12 range (1.25 ↔ 1.37) on a 10-step window implies raw per-batch variance is much larger — probably ±0.3 or more
 - With cosine LR at 0.84, the gradient updates are small, so the loss per-batch is dominated by *which data happened to land in that batch*, not by the weight update
@@ -30,6 +31,7 @@ smooth_train_loss = 0.9 * smooth_train_loss + 0.1 * train_loss_f
 **3. Codeparrot data has high intrinsic variance**
 
 54 parquet shards, each from different GitHub repos. A single 65K-token batch might contain:
+
 - `print("hello world")` → near-zero loss
 - Complex async generator with type annotations → high loss
 - A docstring → moderate loss
