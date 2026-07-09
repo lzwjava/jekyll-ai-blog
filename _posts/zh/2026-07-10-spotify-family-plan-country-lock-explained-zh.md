@@ -31,5 +31,5 @@ Spotify 的官方政策（根据其支持文档）比 Quora 上的传闻简单�
 
 **参考来源：**
 
--   [家庭计划的地址与验证 – Spotify 支持](https://support.spotify.com/us/article/family-address-verification/)
--   [验证你的 Premium Family/Duo 地址 – Spotify 社区](https://community.spotify.com/t5/FAQs/Verify-your-Premium-Family-Duo-address/ta-p/4908304)
+- [家庭计划的地址与验证 – Spotify 支持](https://support.spotify.com/us/article/family-address-verification/)
+- [验证你的 Premium Family/Duo 地址 – Spotify 社区](https://community.spotify.com/t5/FAQs/Verify-your-Premium-Family-Duo-address/ta-p/4908304)

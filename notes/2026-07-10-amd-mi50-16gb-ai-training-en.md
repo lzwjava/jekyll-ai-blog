@@ -21,6 +21,7 @@ Here's the translation of the entire conversation into English:
 - **Resellers/wholesalers (e.g., 1688, eBay):** Often refurbished or bulk units, approximately **900–1,100 RMB**.
 
 **⚠️ Key risks before buying:**
+
 - **Mining/refurbished cards:** Most are retired from data centers or used for mining; lifespan is uncertain.
 - **Cooling issues:** The stock blower cooler struggles to keep up—under full load it can exceed 90°C and throttle; you may need to mod it.
 - **Tinkering required:** Many are pure compute cards with no video outputs; you need to flash a Radeon VII BIOS to use them for gaming, and drivers can be finicky.
@@ -34,21 +35,27 @@ If you have a specific use case (e.g., AI training vs. gaming), let me know and 
 **Assistant:** **Yes, but it's a "tinkerer's path" that requires DIY skills and comes with significant limitations.** The MI50 can indeed do AI training, and the 16GB HBM2 VRAM is decent for entry-level work. But the real challenge is the aging software ecosystem—not the mini-DP port.
 
 ### Hardware capability and the port
+
 - **Port purpose:** That **mini-DP** is for display output or general-purpose compute; it has zero impact on AI training performance. Training depends on compute core power and VRAM capacity.
 - **Decent compute:** FP16 performance is **26.5 TFLOPS**, with **1 TB/s** HBM2 bandwidth—good for small models.
 
 ### The biggest hurdle: software ecosystem (ROCm)
+
 This is what deters most people—it's far more complex than hardware interfaces:
+
 - **Version ceiling:** The MI50 maxes out at **ROCm 5.7.2**; it does not support the 6.x series (which new frameworks rely on).
 - **Framework constraints:** You're stuck with older versions—e.g., TensorFlow must be **tensorflow-rocm 2.13.0**, and it's only compatible with **Python 3.10**.
 - **Officially "end-of-life":** AMD has marked it as EOL and no longer provides active optimization.
 
 ### Real-world performance and cost
+
 - **Inference is decent; training is so-so:** Inference offers good value for money—community feedback shows **Ollama** running 70B quantized models at **15–25 tokens/s**. But if you want to **train from scratch**, the outdated frameworks and poor ecosystem support will make the process painful, and multi-card efficiency is worse than NVIDIA's.
 - **Price reference:** Most are used pull-out cards in the 600–1,100 RMB range (high risk of mining/refurb). Some claim NOS units sell for $250–280, but you need to verify.
 
 ### Summary
+
 If you:
+
 - Have Linux experience.
 - Don't mind wrestling with older PyTorch/TensorFlow versions, and are mostly doing inference or verifying existing environments.
 - Have a tight budget (treat it as an expensive toy).

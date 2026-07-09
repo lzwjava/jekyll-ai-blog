@@ -26,6 +26,7 @@ MI50基于**Vega 20 (gfx906)** 核心，台积电7nm工艺，2018年11月发布�
 实际影响（已有人用MI50微调Gemma 2B/9B证实）：ROCm 6.x官方不支持GCN5.1/gfx906，非官方尝试会导致加载模型时段错误。降级到ROCm 5.7.3即可解决一切问题。这带来连锁反应：PyTorch 2.4+需要ROCm 6.x，所以你只能使用PyTorch 2.3.1；Python 3.12在Dynamo下会破坏PEFT的初始化，所以请用Python 3.11。
 
 **训练/微调**可用的技术栈：
+
 ```bash
 # 强烈推荐Ubuntu 22.04 LTS而非24.04，以保证驱动稳定性
 # ROCm 5.7.3是gfx906最后一个官方支持的版本
@@ -40,10 +41,12 @@ pip install torch==2.3.1+rocm5.7 --index-url https://download.pytorch.org/whl/ro
 ```
 
 在执行其他操作之前，先验证显卡是否被正确识别：
+
 ```bash
 rocminfo | grep -A2 "Marketing Name"
 rocm-smi --showproductname --showmeminfo vram --showtemp
 ```
+
 确认`rocminfo`中显示`gfx906`，且16GB显存正确报告，ECC已启用（`rocm-smi --showmemuse` / 检查`EDC`/`ECC`字段）。这是你在二手卡上真正的验收测试——卖家声称"ECC正常，无维修"应该在此处可验证，而非仅凭信任。
 
 ## 用于推理：绕过所有麻烦

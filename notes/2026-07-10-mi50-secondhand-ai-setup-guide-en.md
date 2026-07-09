@@ -26,6 +26,7 @@ This is the part that matters more than the silicon. gfx906 hit maintenance mode
 Practical implication, confirmed by someone who actually fine-tuned Gemma 2B/9B on an MI50: ROCm 6.x officially doesn't support GCN5.1/gfx906, and unofficial attempts caused segfaults on model load. Downgrading to ROCm 5.7.3 fixed everything. That cascades: PyTorch 2.4+ requires ROCm 6.x, so you're pinned to PyTorch 2.3.1, and Python 3.12 breaks PEFT init under Dynamo, so use Python 3.11.
 
 Your working stack for **training/fine-tuning**:
+
 ```bash
 # Ubuntu 22.04 LTS strongly preferred over 24.04 for driver stability
 # ROCm 5.7.3 is the last officially-supported release for gfx906
@@ -40,10 +41,12 @@ pip install torch==2.3.1+rocm5.7 --index-url https://download.pytorch.org/whl/ro
 ```
 
 Verify the card is properly recognized before doing anything else:
+
 ```bash
 rocminfo | grep -A2 "Marketing Name"
 rocm-smi --showproductname --showmeminfo vram --showtemp
 ```
+
 Confirm `gfx906` shows up in `rocminfo` and 16GB VRAM reports correctly with ECC enabled (`rocm-smi --showmemuse` / check `EDC`/`ECC` fields). This is your real acceptance test on a secondhand card — sellers claiming "ECC works, no repairs" should be verifiable here, not just taken on faith.
 
 ## For inference, skip the pain entirely
