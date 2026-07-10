@@ -14,7 +14,7 @@ type: note
 ### SFT Summary
 
 | Pretrained (step 50k) | SFT (step 8985) |
-|---|---|
+| --- | --- |
 | val_bpb: **1.418** | val_bpb: **0.405** |
 | Train loss: 1.06 | Train loss: 1.07 |
 

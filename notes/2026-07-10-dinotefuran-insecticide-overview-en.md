@@ -20,7 +20,7 @@ type: note
 **Key facts:**
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | CAS No. | 165252-70-0 |
 | Molecular formula | C7H14N4O3, MW 202.21 |
 | Melting point | 107.5°C |

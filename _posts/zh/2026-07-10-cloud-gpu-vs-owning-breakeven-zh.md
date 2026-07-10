@@ -24,7 +24,7 @@ type: note
 租赁市场在2026年价格已大幅下降。目前代表性的按需H100价格：
 
 | 提供商层级 | H100 $/小时 |
-|---|---|
+| --- | --- |
 | RunPod Secure Cloud | $2.39–2.89 |
 | RunPod Community Cloud | $1.99 |
 | Vast.ai（最低价） | ~$1.49 |

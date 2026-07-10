@@ -11,7 +11,7 @@ type: note
 
 Backend Detection Test
   Model: tencent/hy3-preview
-  Proxy: HTTP_PROXY=http://127.0.0.1:7890 (port 7890 reachable)
+  Proxy: HTTP_PROXY=<http://127.0.0.1:7890> (port 7890 reachable)
 
 [1/3] Sending streaming request to detect backend...
 

@@ -24,7 +24,7 @@ Your framing is directionally right, but it collapses two very different competi
 The rental market has cratered in price through 2026. Current representative on-demand H100 rates:
 
 | Provider tier | H100 $/hr |
-|---|---|
+| --- | --- |
 | RunPod Secure Cloud | $2.39–2.89 |
 | RunPod Community Cloud | $1.99 |
 | Vast.ai (cheapest) | ~$1.49 |
