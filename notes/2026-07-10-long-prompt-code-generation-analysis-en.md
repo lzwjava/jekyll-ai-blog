@@ -18,6 +18,7 @@ Generated `insert`, `search`, `delete`, `__str__`, `__repr__`, `__len__`, `__ite
 Recognized DP, created the 2D table. But the recurrence `dp[i][j] = max(dp[i][j], dp[i][j + 1])` is wrong — no character comparison. Then it degenerated into repeating the same function with longer names.
 
 **Sample 3 — timer_decorator — ✓ Correct**
+
 ```
 def wrapper(*args, **kwargs):
     start = time.time()
@@ -27,6 +28,7 @@ def wrapper(*args, **kwargs):
     return result
 return wrapper
 ```
+
 Then repeats itself 5 more times with slight name variations.
 
 **Sample 4 — load_json_data — ✓ Mostly correct**
@@ -44,6 +46,7 @@ Started well: `drop_duplicates()`, numeric column selection. Then degenerated in
 `async with session.get(url)`, `await response.json()`. Then degenerated into `fetch_json_async_async_async_async...`.
 
 **Summary pattern across all 8:**
+
 - First **50-100 tokens** of continuation are often reasonable or correct
 - Then **degeneration** kicks in — repeating the first successful pattern with slight variations
 - The model learned **code structure** well (indentation, imports, class/method patterns, try/except, decorators, async)

@@ -20,6 +20,7 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 ```
+
 **✓ Correct** recursive implementation. It then generates `fibonacci2`, `fibonacci3` as variations.
 
 ---
@@ -34,6 +35,7 @@ def reverse_linked_list(head):
         return head
     return reverse_linked_list(head.next)
 ```
+
 **~** Recognizes the problem, generates plausible node API (`.is_empty()`, `.is_linked()`), but the recursion is wrong (infinite on `is_linked`). Shape is right.
 
 ---
@@ -56,6 +58,7 @@ class Stack:
     def is_empty(self):
         return len(self._stack) == 0
 ```
+
 **✓ Correct** — full working Stack with all standard methods.
 
 ---
@@ -69,6 +72,7 @@ def is_palindrome(s):
     else:
         return False
 ```
+
 **~** Recognizes first/last char comparison but logic is wrong (returns True immediately, no recursion). It tried `is_palindrome2`, `is_palindrome3` variants.
 
 ---
@@ -79,11 +83,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ...
 ```
+
 ✓ Generates plausible import chains.
 
 ---
 
 **Assessment:** For a 286M model trained on codeparrot-clean only (no SFT), this is solid. It learned:
+
 - Python syntax and indentation perfectly
 - Class/function structure
 - Docstrings and comments

@@ -29,6 +29,7 @@ print(tokenizer.decode(sample[0]))
 ```
 
 修改 `prompt = '...'` 这一行可以尝试不同的 Python 提示词。关键参数：
+
 - **temperature=0.3** — 较低的值用于确定性代码，提高到 0.6 可获得更多创造性
 - **max_tokens=256** — 生成长度
 - **prepend='<|bos|>'** — 基础模型生成所必需

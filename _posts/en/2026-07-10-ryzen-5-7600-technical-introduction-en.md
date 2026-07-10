@@ -16,7 +16,7 @@ Answer:
 ## Core specs
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | Architecture | Zen 4 (Raphael), TSMC 5nm CCD + 6nm IOD (chiplet) |
 | Cores / Threads | 6 / 12 (SMT) |
 | Base / Boost clock | 3.8 GHz / up to 5.1 GHz |
@@ -50,6 +50,7 @@ print(mp.cpu_count())  # 12 (6C/12T) — but SMT gives you ~1.15-1.3x over 6 rea
 ## Where it fits vs your existing rig
 
 You already have the RTX 4070 workstation for real training/fine-tuning and MI300X cloud for the heavy MoE work. A 7600-class box makes sense as:
+
 1. A cheap always-on inference/serving node (llama.cpp, vLLM CPU offload, small local agents)
 2. A build/CI/dev box for your `ww`/`iclaw`/`zz` CLI tooling — 12 threads is fine for parallel test suites and compilation
 3. Not worth it as a training node — no discrete GPU headroom advantage over what you already own

@@ -20,6 +20,7 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 ```
+
 **✓ 正确** 递归实现。随后生成了`fibonacci2`、`fibonacci3`等变体。
 
 ---
@@ -34,6 +35,7 @@ def reverse_linked_list(head):
         return head
     return reverse_linked_list(head.next)
 ```
+
 **~** 识别出问题，生成了合理的节点API（`.is_empty()`、`.is_linked()`），但递归逻辑有误（对`is_linked`的判断会导致无限递归）。整体结构是正确的。
 
 ---
@@ -56,6 +58,7 @@ class Stack:
     def is_empty(self):
         return len(self._stack) == 0
 ```
+
 **✓ 正确** —— 功能完整的Stack类，包含所有标准方法。
 
 ---
@@ -69,6 +72,7 @@ def is_palindrome(s):
     else:
         return False
 ```
+
 **~** 识别到首尾字符比较的逻辑，但实现有误（直接返回True，未使用递归）。尝试了`is_palindrome2`、`is_palindrome3`等变体。
 
 ---
@@ -79,11 +83,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ...
 ```
+
 **✓** 生成了合理的导入链。
 
 ---
 
 **评估结论：** 对于一个仅基于codeparrot-clean训练（未进行SFT微调）的286M模型而言，表现相当扎实。它已学会：
+
 - Python语法和缩进规则完全正确
 - 类/函数结构
 - 文档字符串和注释

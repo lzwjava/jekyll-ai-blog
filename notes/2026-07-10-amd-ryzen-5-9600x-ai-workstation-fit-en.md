@@ -16,6 +16,7 @@ Answer:
 The 9600X is AMD's current-gen mainstream desktop CPU — Zen 5 architecture, "Granite Ridge," socket AM5.
 
 **Core specs:**
+
 - 6 cores / 12 threads, base 3.9 GHz, boost up to 5.4 GHz
 - 32 MB L3 cache, 6 MB L2, 480 KB L1
 - 65W TDP, TSMC 4nm cores / 6nm I/O die, unlocked multiplier for overclocking

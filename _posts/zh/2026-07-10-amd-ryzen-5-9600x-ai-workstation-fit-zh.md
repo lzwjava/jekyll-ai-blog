@@ -16,6 +16,7 @@ type: note
 9600X 是 AMD 当前主流桌面 CPU——Zen 5 架构，“Granite Ridge”，AM5 插槽。
 
 **核心规格：**
+
 - 6 核 / 12 线程，基础频率 3.9 GHz，加速频率最高 5.4 GHz
 - 32 MB L3 缓存，6 MB L2 缓存，480 KB L1 缓存
 - 65W TDP，TSMC 4nm 核心 / 6nm I/O 芯片，解锁倍频可超频

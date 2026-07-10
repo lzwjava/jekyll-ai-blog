@@ -18,6 +18,7 @@ type: note
 识别出动态规划方法，创建了二维表。但递推公式 `dp[i][j] = max(dp[i][j], dp[i][j + 1])` 错误——没有字符比较。随后退化为重复同一函数但使用更长的名称。
 
 **样本 3 — timer_decorator — ✓ 正确**  
+
 ```
 def wrapper(*args, **kwargs):
     start = time.time()
@@ -27,6 +28,7 @@ def wrapper(*args, **kwargs):
     return result
 return wrapper
 ```
+
 随后以轻微名称变化重复自身 5 次以上。
 
 **样本 4 — load_json_data — ✓ 基本正确**  
@@ -44,6 +46,7 @@ return wrapper
 `async with session.get(url)`、`await response.json()`。随后退化为 `fetch_json_async_async_async_async...`。
 
 **全部 8 个样本的总结模式：**
+
 - 延续的前 **50-100 个 token** 通常合理或正确
 - 随后出现 **退化**——以轻微变化重复第一个成功的模式
 - 模型学习了良好的 **代码结构**（缩进、导入、类/方法模式、try/except、装饰器、异步）

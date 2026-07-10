@@ -29,6 +29,7 @@ print(tokenizer.decode(sample[0]))
 ```
 
 Change the `prompt = '...'` line to try different Python prompts. The key params:
+
 - **temperature=0.3** — low for deterministic code, bump to 0.6 for more creative
 - **max_tokens=256** — generation length
 - **prepend='<|bos|>'** — required for base model generation

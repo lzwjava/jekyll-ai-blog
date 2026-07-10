@@ -12,17 +12,21 @@ type: note
 The file structure is straightforward — here's how to read it:
 
 **Delimiters:**
+
 ```
 ======================================================================
 ```
+
 That `=` line separates each sample. Each sample starts with `<|bos|>` which is the beginning-of-sequence token.
 
 **Reading pattern:**
+
 1. Scroll down past the log/init lines (lines 1-5)
 2. Each block between `======` lines is one generated sample
 3. Inside each block: the **input prompt** is everything you gave it, then the **model's continuation** follows
 
 **Example:**
+
 ```
 <|bos|>def fibonacci(n):     ← prompt (what you gave)
     if n == 0:              ← model's generation
