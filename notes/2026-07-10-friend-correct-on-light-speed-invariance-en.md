@@ -18,6 +18,7 @@ The friend is right on logical structure, and Yin Wang's specific mathematical c
 **The postulate direction (friend is correct)**
 
 Special relativity's logical order is:
+
 1. Postulate: `c` is the same in every inertial frame, in every direction (this + the relativity principle is the axiom, not a conclusion)
 2. Derive the Lorentz transformation as *the unique* linear transformation consistent with that postulate
 3. Time dilation, length contraction, relativity of simultaneity all *fall out* as consequences
@@ -78,6 +79,7 @@ This is also checkable and also wrong. The special-relativistic time dilation sl
 **Where Yin Wang has a legitimate point**
 
 Separating the three claims matters:
+
 1. "Length contraction/time dilation are conventions, not observable per se, and depend on simultaneity conventions" — this is a real, respectable position (Reichenbach's conventionality-of-simultaneity thesis). Worth engaging with seriously.
 2. "The astronomical evidence for SR/GR is thin/hard to reproduce" — also a fair empirical-epistemology point worth scrutiny case by case (though it undersells things like muon decay in atmosphere, particle accelerator time dilation, and GPS itself, which are lab-reproducible daily, not one-off astronomical events).
 3. "The math doesn't actually work for off-axis light, and Einstein never checked" — this is not a matter of interpretation, it's a specific computable claim, and it's false, both by direct symbolic/numeric derivation and by what's literally in the 1905 paper.

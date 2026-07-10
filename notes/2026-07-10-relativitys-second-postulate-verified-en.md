@@ -29,7 +29,7 @@ Sound and water waves only satisfy the first, not the second — because they ha
 His claim is: "the observer-independence of light speed 未经实验证实" (unverified by experiment). This is false — it is arguably the *more* rigorously tested of the two postulates, not the less tested one. The reason it feels untested to a casual reader is that people usually only cite Michelson-Morley for "no ether," but there's a specific chain of experiments built to isolate exactly the observer-motion question:
 
 | Experiment | What it isolates | Result |
-|---|---|---|
+| --- | --- | --- |
 | Michelson-Morley (1887) | Does light speed depend on the *direction* the observer/apparatus is moving through space (Earth's orbital velocity)? | Null — no directional dependence found |
 | Kennedy-Thorndike (1932, modern optical-cavity versions) | Does light speed depend on the *magnitude* of the observer's velocity (using unequal arm lengths so Earth's changing orbital speed through the year would show up)? | Directly tests whether light speed is independent of the velocity of the apparatus in different inertial frames; modern resonator versions constrain violations to parts in 10⁻¹⁷–10⁻¹⁸ |
 | Ives-Stilwell (1938, modern storage-ring versions) | Transverse Doppler / time dilation as seen by a moving observer relative to a source | Confirms relativistic Doppler formula, which *is* observer-frame invariance under a different guise |

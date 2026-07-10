@@ -64,7 +64,7 @@ type: note
 ## 创建/修改的文件
 
 | 文件 | 变更 | 说明 |
-|------|------|------|
+| ------ | ------ | ------ |
 | `ww/note/create_note_html.py` | **+189** 新增 | 核心模块：标题生成、LLM→HTML 转换、Jekyll 前置元数据、文件写入 |
 | `ww/main.py` | +7 | 添加 `elif subcmd == "html":` 分发逻辑，并在 `_print_help()` 中添加帮助文本 |
 | `ww/note/note_queue.py` | +6 | 添加 `enqueue_html()` —— 读取剪贴板，以 `type: "html"` 入队 |

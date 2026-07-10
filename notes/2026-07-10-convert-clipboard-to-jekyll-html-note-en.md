@@ -64,7 +64,7 @@ The `layout: post` frontmatter means Jekyll wraps this with the same theme/layou
 ## Files created/changed
 
 | File | Δ | What |
-|------|---|------|
+| ------ | --- | ------ |
 | `ww/note/create_note_html.py` | **+189** new | Core module: title generation, LLM→HTML conversion, Jekyll frontmatter, file write |
 | `ww/main.py` | +7 | Added `elif subcmd == "html":` dispatch + help text in _print_help() |
 | `ww/note/note_queue.py` | +6 | Added `enqueue_html()` — reads clipboard, enqueues with `type: "html"` |
