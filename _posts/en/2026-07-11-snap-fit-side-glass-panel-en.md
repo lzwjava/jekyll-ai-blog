@@ -21,6 +21,7 @@ Based on multiple teardown reviews of the Yueguang Baohe Jing (月光宝盒) ser
 - One user account of that same bottom-gap-pull mechanic on a related model wasn't great UX: customer service told them to grip the bottom of the front panel and just yank it hard — doing so snapped one of the internal clips, so it's a bit fragile if you're not careful.
 
 **So, to directly answer your question:**
+
 - **Side glass panels**: pull-out snap latch, no finger-hole needed — grip the edge (usually near a corner or edge seam) and pull outward. The latch fit against the case is precise, so it should release cleanly without excess force.
 - **Front plastic panel** (if your Mini variant has a similar layout): yes, there's typically a bottom-edge gap intentionally left for finger access — insert your finger(s), hook the internal lip, and pull outward. Just don't yank aggressively; work it evenly from both sides of the bottom edge to avoid snapping a clip.
 

@@ -55,10 +55,12 @@ Why swapping in the MI50 would suddenly trigger it:
 2. **Add airflow across the MI50** — since it's passive, a case fan or even a clip-on blower directly over the heatsink stabilizes its power draw curve and often kills the whine within minutes of the GPU no longer thermal-cycling.
 3. **Try different PCIe cables from the PSU**, not just a different port — coil whine is routing- and cable-length-sensitive.
 4. **Cap the MI50's power via ROCm/rocm-smi** if it's a driver-level fluctuation issue:
+
 ```bash
 sudo rocm-smi --setpoweroverdrive 250   # cap to 250W instead of 300W
 sudo rocm-smi --setperflevel high        # or 'auto' — test both
 ```
+
    Locking the power state instead of letting it dynamically clock can remove the transient switching that causes whine.
 5. **If it persists and is loud/annoying but nothing is burnt** — it's cosmetic coil whine, common on used enterprise cards, and not damaging. Many MI50 units bought secondhand exhibit this simply from years of datacenter duty cycling.
 
