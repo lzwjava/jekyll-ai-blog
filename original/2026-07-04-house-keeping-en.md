@@ -30,3 +30,4 @@ translated: false
 - okay to casually chat to learn about the housekeeping business and the job
 - on Saturday, since the housekeeper is near my house, schedule my house as one trip
 - on Friday, ask me to confirm whether the housekeeper will come the next day
+- do not hold water in the sink, smelly; just put water in dishes/pots
