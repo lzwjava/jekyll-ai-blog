@@ -61,7 +61,7 @@ Social Impact:
 | WeChat@lzwjava2048 | ~4500 |
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 280 |
 | WeChat Subscription platform | 2156 |
-| WeChat Video platform | 649 |
+| WeChat Video platform | 861 |
 | [X](https://mobile.twitter.com/lzwjava) | 470 |
 | [Weibo](https://weibo.com/zhiweilee) | 3158 |
 | [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
