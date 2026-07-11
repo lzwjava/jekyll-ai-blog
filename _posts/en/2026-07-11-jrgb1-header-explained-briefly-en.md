@@ -16,6 +16,7 @@ Answer:
 `JRGB1` is a **4-pin 12V RGB LED header** on the board — the standard (non-addressable) Mystic Light connector, distinct from the `JARGB_V2` headers.
 
 **Key specs:**
+
 - Connects standard 5050 RGB LED strips running at 12V
 - Supports up to 2 meters of continuous 5050 RGB LED strip, max power rating 3A at 12V
 - Controlled through MSI's **Mystic Light** software (part of MSI Center)
@@ -25,7 +26,7 @@ Answer:
 **Quick reference table:**
 
 | Header | Voltage | Pins | Use case |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `JRGB1` | 12V | 4-pin | Standard non-addressable RGB strips |
 | `JARGB_V2_1/2` | 5V | 3-pin | Addressable (individually controllable) ARGB Gen1/Gen2 strips |
 

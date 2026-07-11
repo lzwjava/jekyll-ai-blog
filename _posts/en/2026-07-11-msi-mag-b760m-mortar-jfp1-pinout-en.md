@@ -38,12 +38,14 @@ Pin | Signal        | Description
 ```
 
 Practical wiring for your case cables:
+
 - **Power Switch (2-pin, no polarity)** → pins 6 + 8
 - **Reset Switch (2-pin, no polarity)** → pins 5 + 7
 - **Power LED (2-pin, has polarity)** → pins 2 + 4 (or 4-pin if your case uses dual-color PWR/SLP, straddling those same signal pairs)
 - **HDD LED (2-pin, has polarity)** → pins 1 + 3
 
 Notes for your build:
+
 - Power and reset switches are momentary contacts — polarity doesn't matter, they'll work either way.
 - LEDs are polarity-sensitive: reversed wiring just means the LED won't light, no hardware damage.
 - On the physical board layout, JFP1 sits near JTPM1, SATA7/8, and JUSB1/JUSB2, in the lower-right area of the board (this matches typical MSI mATX layouts, JFP1 bottom-right corner near the SATA ports).

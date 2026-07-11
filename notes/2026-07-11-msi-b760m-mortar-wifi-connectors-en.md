@@ -18,8 +18,9 @@ Answer:
 This is the original **MAG B760M MORTAR WIFI** (not the "II" or "MAX" refresh — those have a 3rd M.2 slot and different header layout, so don't mix specs from those reviews). Per MSI's official datasheet:
 
 **Rear I/O panel**
+
 | Connector | Spec |
-|---|---|
+| --- | --- |
 | USB 3.2 Gen 2x2 Type-C | 1x, 20 Gbps |
 | USB 3.2 Gen 2 Type-A | 3x, 10 Gbps |
 | USB 3.2 Gen 1 Type-A | 2x, 5 Gbps |
@@ -31,18 +32,22 @@ This is the original **MAG B760M MORTAR WIFI** (not the "II" or "MAX" refresh �
 | Audio jacks | 5x 3.5mm + optical S/PDIF out |
 
 **Storage**
+
 - 2x M.2 Gen4 x4 (64 Gbps) slots — one from CPU, one from chipset (M.2 Shield Frozr covered)
 - 4x SATA 6Gb/s ports
 
 **Expansion slots**
+
 - 1x PCIe 5.0 x16 (CPU, Lightning Gen 5, up to 128GB/s)
 - 1x PCIe 4.0 x16 (physically x16, electrically x4, chipset)
 - 1x PCIe 3.0 x1 (chipset)
 
 **Memory**
+
 - 4x DDR5 DIMM slots, dual-channel, up to 7000+ MT/s (OC)
 
 **Internal headers (from the shared MSI MAG-series header layout — worth confirming against your specific board's silkscreen, since MSI doesn't publish a full internal-header table for this exact non-II SKU in the datasheet)**
+
 - 1x 24-pin ATX_PWR1, 2x 8-pin CPU_PWR
 - CPU_FAN1, PUMP_FAN1, SYS_FAN1~4 (6 total fan headers)
 - JFP1/JFP2 front panel (power/reset/HDD LED, speaker)

@@ -16,6 +16,7 @@ type: note
 `JRGB1` 是主板上的一个 **4-pin 12V RGB LED 接口** —— 标准的（非可寻址）Mystic Light 连接器，与 `JARGB_V2` 接口不同。
 
 **关键规格：**
+
 - 连接标准的 12V 5050 RGB LED 灯带
 - 支持最长 2 米的连续 5050 RGB LED 灯带，最大功率额定值 3A @ 12V
 - 通过 MSI 的 **Mystic Light** 软件（MSI Center 的一部分）控制
@@ -25,7 +26,7 @@ type: note
 **快速参考表：**
 
 | 接口 | 电压 | 针脚 | 用途 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `JRGB1` | 12V | 4-pin | 标准非可寻址 RGB 灯带 |
 | `JARGB_V2_1/2` | 5V | 3-pin | 可寻址（每个 LED 可独立控制）ARGB Gen1/Gen2 灯带 |
 

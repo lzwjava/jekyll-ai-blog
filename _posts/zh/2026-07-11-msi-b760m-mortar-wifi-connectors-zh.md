@@ -18,8 +18,9 @@ type: note
 这是原版 **MAG B760M MORTAR WIFI**（而非“II”或“MAX”更新版——后者有第三个 M.2 插槽和不同的接口布局，所以不要与这些评测的规格混淆）。根据微星的官方数据表：
 
 **后置 I/O 面板**
+
 | 接口 | 规格 |
-|---|---|
+| --- | --- |
 | USB 3.2 Gen 2x2 Type-C | 1 个，20 Gbps |
 | USB 3.2 Gen 2 Type-A | 3 个，10 Gbps |
 | USB 3.2 Gen 1 Type-A | 2 个，5 Gbps |
@@ -31,18 +32,22 @@ type: note
 | 音频插孔 | 5 个 3.5mm + 光纤 S/PDIF 输出 |
 
 **存储**
+
 - 2 个 M.2 Gen4 x4（64 Gbps）插槽——一个来自 CPU，一个来自芯片组（带 M.2 Shield Frozr 散热片）
 - 4 个 SATA 6Gb/s 端口
 
 **扩展插槽**
+
 - 1 个 PCIe 5.0 x16（CPU，Lightning Gen 5，最高 128GB/s）
 - 1 个 PCIe 4.0 x16（物理 x16，电气 x4，芯片组）
 - 1 个 PCIe 3.0 x1（芯片组）
 
 **内存**
+
 - 4 个 DDR5 DIMM 插槽，双通道，最高 7000+ MT/s（超频）
 
 **内部接口（来自共享的微星 MAG 系列接口布局——建议对照您具体主板的丝印确认，因为微星未在数据表中发布此非 II 版本的确切内部接口表）**
+
 - 1 个 24 针 ATX_PWR1，2 个 8 针 CPU_PWR
 - CPU_FAN1、PUMP_FAN1、SYS_FAN1~4（共 6 个风扇接口）
 - JFP1/JFP2 前置面板（电源/重置/硬盘 LED、蜂鸣器）

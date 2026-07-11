@@ -16,6 +16,7 @@ type: note
 `JAUD1` is the standard label MSI (and most motherboard vendors) use for the **front panel audio header** — a 9-pin (2x5, one pin removed as a key) header on the PCB.
 
 Breakdown of the naming convention:
+
 - `J` = Jumper/connector (generic prefix for any pin header on the board)
 - `AUD` = Audio
 - `1` = instance number (first one; boards rarely have a second)
@@ -38,6 +39,7 @@ Pin 10: GND (sense)
 ```
 
 **Practical steps for your build:**
+
 1. Find `JAUD1` on the bottom-left edge of the board (MSI almost always puts it there, silkscreened).
 2. Locate your case's front panel audio cable — should say `HD Audio` on the connector.
 3. Plug it in — the connector is keyed (missing pin 8) so it only goes in one orientation.

@@ -12,6 +12,7 @@ type: note
 **SW = Switch.**
 
 So:
+
 - **PWR SW** = **Power Switch** — the wire pair from your case's physical power button
 - **RESET SW** = **Reset Switch** — the wire pair from your case's physical reset button
 

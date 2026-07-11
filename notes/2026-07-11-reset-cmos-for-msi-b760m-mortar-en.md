@@ -65,6 +65,7 @@ This does the exact same thing as pulling the battery — resets CMOS/BIOS setti
 ### What the buzzing PSU sound most likely means
 
 A "zizizi" (coil whine) on power-on with no display is commonly one of:
+
 - **VRM/MOSFET coil whine** under load spike — often benign but sometimes indicates the board is drawing power and faulting before POST (common with bad CMOS state, bad RAM seating, or GPU power issue)
 - **GPU not seated fully** in the PCIe slot — reseat it, you should hear/feel a click on the latch
 - **RAM in wrong slots** — B760M Mortar needs specific slots for single-stick boot (usually slot 2, check the silkscreen A2/B2 near CPU)

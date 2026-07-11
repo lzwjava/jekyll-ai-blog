@@ -18,7 +18,7 @@ Answer:
 **Pinout (4-pin):**
 
 | Pin | PWM Mode | DC Mode |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Ground | Ground |
 | 2 | +12V | Voltage Control |
 | 3 | Sense (RPM feedback) | Sense |
@@ -27,7 +27,7 @@ Answer:
 **Electrical/mode specs:**
 
 | Connector | Default mode | Max current | Max power |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `CPU_FAN1` | PWM | 2A | 24W |
 | `PUMP_FAN1` | PWM | 3A | 36W |
 | `SYS_FAN1~4` | **DC mode** | 2A | 24W |

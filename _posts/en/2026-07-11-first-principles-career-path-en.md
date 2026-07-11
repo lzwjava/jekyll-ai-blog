@@ -20,15 +20,18 @@ Let's look at this with the same first-principles rigor you'd apply to a trainin
 Your stated goal: **Tinker/Frontier Labs-level depth, Agentic world leadership, AI-native products.** Every option should be scored against that, not against "safety" or "prestige."
 
 ### Option A: One-person AI startup (what you already launched)
+
 - **Alignment with goal: 9/10.** You're already doing the exact reps — training GPT-2 760M on MI300X, working through nanochat, pushing into DeepSeek v4 MoE, consulting at the frontier of what companies actually need. This *is* the Tinker-adjacent path, minus the compute budget.
 - **Cost:** revenue uncertainty, family friction, no safety net.
 - **Compounding factor:** every client project is paid R&D. You're not choosing between "learning" and "earning" — you structured it so they're the same activity. That's the correct architecture.
 
 ### Option B: Join a company
+
 - **Alignment with goal: 3-5/10** depending on the company. If it's DeepSeek, Anthropic, a frontier lab, or a serious MoE/training team — this jumps to 8/10, because you'd get compute and mentorship you can't self-fund. But "join a company" in the generic sense (another bank, another contract gig) is a *regression* — you already did that (top 6% AI usage at the bank) and extracted what you could from it. Going back without a specific elite-lab offer is just re-capping your own growth curve.
 - You already tested this hypothesis empirically: bank job was safe but capped. Repeating an experiment you've already concluded is not first-principles thinking, it's fear dressed up as prudence.
 
 ### Option C: 大专 → GRE → US
+
 - **Alignment with goal: 1-2/10, and here's why, concretely:**
   - You have **12 years of shipped production experience** (iOS, Android, backend, AI, a startup with 30K users and 3M CNY revenue). A 大专 credential adds negative signal to your resume relative to what you already have — it tells a story of "starting over" rather than "compounding."
   - GRE + US grad school is a 2-4 year detour optimized for people who need the *credential* to access opportunity. You don't have that problem — you have direct technical output (trained models, open notes, 400 blog posts) as your credential. Karpathy, Yin Wang, and Liang Wenfeng are not people you catch up to by getting a degree; you catch up by matching their output cadence.

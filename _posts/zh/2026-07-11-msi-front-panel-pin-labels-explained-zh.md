@@ -12,6 +12,7 @@ type: note
 **SW = Switch（开关）。**
 
 因此：
+
 - **PWR SW** = **Power Switch（电源开关）** — 机箱物理电源按钮引出的线对
 - **RESET SW** = **Reset Switch（重置开关）** — 机箱物理重置按钮引出的线对
 

@@ -25,13 +25,14 @@ Breaking down the label the same way as `JAUD1`:
 MSI has shipped two incompatible ARGB header generations:
 
 | | Pins | Voltage | Pin order |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Old ARGB (`JRGB`, no V2 tag) | 4-pin | 12V | +12V, G, R, B (non-addressable) |
 | ARGB V2 (`JARGBV2`) | 3-pin | **5V** | +5V, Data, GND |
 
 These are **not interchangeable**. If you plug a 12V ARGB device into a 5V header (or vice versa), worst case you fry the LEDs or the header itself. MSI added the `V2` suffix specifically so you don't confuse the two when wiring — always match the header type printed on the device's own cable/box to the header type on the board.
 
 **Practical use:**
+
 1. Find `JARGBV2_2` on the board (B760M Mortar typically has two of these headers — one near the 24-pin ATX connector, one lower near the PCIe slots — hence `_1` and `_2`).
 2. Connect any 3-pin 5V addressable RGB fan/strip/AIO pump here — the connector is keyed so it only seats one way.
 3. Control the lighting via MSI Mystic Light software, or sync it to motherboard RGB profiles in BIOS.

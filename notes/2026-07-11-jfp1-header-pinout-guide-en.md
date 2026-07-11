@@ -19,13 +19,14 @@ JFP1 (2x5 header, pin 9 = key/no pin)
 ```
 
 | Your cable | JFP1 Pin | Signal |
-|---|---|---|
+| --- | --- | --- |
 | Power LED+ | **Pin 2** | FP PWR/SLP+ |
 | Power LED- | **Pin 4** | FP PWR/SLP- |
 | PWR SW (either wire) | **Pins 6 + 8** | PWR_SW+ / PWR_SW- |
 | RESET SW (either wire) | **Pins 5 + 7** | RST_SW+ / RST_SW- |
 
 Notes:
+
 - **Power LED is polarity-sensitive** — make sure `+` lands on pin 2 and `−` lands on pin 4. If you get it backwards, the LED just won't light (no damage), so if it doesn't turn on after boot, swap it.
 - **PWR SW and RESET SW are not polarity-sensitive** — they're just momentary switches completing a circuit. Either wire can go on either of the two pins in their pair (6/8 for power, 5/7 for reset).
 - **Pins 1, 3, 10** are unused in your case (that's the HDD LED slot you don't have a cable for) — leave them empty.
