@@ -40,7 +40,7 @@ Diagnostic clue: if the board's standby LED **is** lit (meaning 24-pin is fine a
 **Why experts check both, in this order**
 
 | Check | Symptom if faulty | Root cause layer |
-|---|---|---|
+| --- | --- | --- |
 | 24-pin / EPS12V loose | No standby LED, totally dead | Power delivery |
 | Front panel PWR_SW loose | Standby LED on, but button does nothing | Trigger/signal path |
 
@@ -49,6 +49,7 @@ These are the two most common "won't power on" root causes precisely because the
 **Practical tip for your build**
 
 Given your parts list:
+
 - The **MSI MAG B760M Mortar** typically groups front-panel pins as a single **JFP1** block (not individual pins), which reduces this exact loose-connector risk compared to older boards with separate pin headers — but it's still easy to shift the block by one pin row in a cramped mATX case.
 - Push the 24-pin and 8-pin EPS12V connectors until you feel/hear the latch **click** — don't just seat by feel, since a "close enough" connection is often enough for standby power but fails under CPU load (matches symptom #2 above), which would present as a mysterious instability issue days into using the system rather than an obvious dead-on-arrival.
 
