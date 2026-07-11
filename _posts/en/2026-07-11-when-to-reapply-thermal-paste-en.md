@@ -16,14 +16,17 @@ type: note
 Yes. That's thermal paste (not glue — no adhesive bonding happens, it's just a thermal interface material squeezed between two flat metal surfaces to eliminate air gaps).
 
 **Why it degrades:**
+
 - Most stock/bundled pastes (including whatever ships with the Frozen Prism 240) use silicone-based carriers with metal-oxide fillers. Over 2-4 years of thermal cycling (heat up → cool down, repeated thousands of times), the silicone oil "pumps out" from the edges and the paste dries, cracks, and loses contact with microscopic surface imperfections.
 - Symptom: idle temps stay normal-ish, but load temps creep up 10-15°C over a year or two for no software reason. On a 13900KF (253W PL2), this matters a lot — that chip already runs hot under all-core load, so a degraded TIM layer pushes you into thermal throttling territory (100°C+ under sustained AVX workloads, e.g. training/quantization scripts on CPU).
 
 **Practical schedule:**
+
 - Reapply every 1-2 years for a 13900KF specifically, since it's a high-TDP chip that thermal-cycles hard under your kind of workload (compiling, running local inference, GPU-adjacent CPU-bound preprocessing).
 - Signs it's time now: check idle vs load delta. If load temps under something like `stress-ng --cpu 32 --timeout 300s` (or just Prime95/AIDA64 if you're on a GUI) creep past ~95°C sustained, or if you haven't touched it in 2+ years, just redo it — cheap insurance.
 
 **How to redo it (since your build is fresh, you won't need this for a while, but for reference):**
+
 ```bash
 # not code, but the mechanical steps:
 1. Power off, unplug, unmount the AIO cold plate (4 screws, diagonal loosening pattern)

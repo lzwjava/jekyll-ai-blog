@@ -33,6 +33,7 @@ That mechanism is now explicitly dead. Beijing's response has prioritized risk c
 ## 3. Why old (80s/90s) housing specifically is structurally worse off
 
 Your friend is right that this segment gets hit hardest, but for reasons that won't reverse in a cycle:
+
 - No elevator, poor floor plans, aging pipes/wiring — these units were built to a 1980s-90s spec that modern buyers actively avoid when better new supply exists.
 - Government policy is now steering resources toward **absorbing existing inventory**, not propping up old private stock — the 2026 Government Work Report called for city-specific measures to control new real estate projects, reduce inventory, improve supply, and make better use of existing housing stock, which in practice means channeling demand toward newer/whitelisted projects, not old apartments.
 - Land-sale-dependent local governments have far less fiscal room to subsidize old-housing demand: revenue from selling land-use rights dropped by over 50% between 2021 and 2025.
@@ -40,6 +41,7 @@ Your friend is right that this segment gets hit hardest, but for reasons that wo
 ## 4. The "wealthy people still buy and hold" behavior — this is survivorship bias, and it's regionally concentrated
 
 There is a kernel of truth, but it's narrow: in May 2026, average new home prices in Shanghai actually increased 3.2% year-on-year, and Shenzhen saw a modest month-on-month uptick, driven by wealthy, opportunistic buyers taking advantage of lowered local borrowing costs in a handful of top-tier cities. This is a **tale of two markets**, not a national cycle:
+
 - Tier-1 core districts (Shanghai/Shenzhen prime, some Beijing) — genuine scarcity value, still a store-of-wealth asset for the ultra-wealthy who have few domestic alternatives (capital controls limit overseas diversification).
 - Everything else, especially aging tier-2/3 stock — analysts warn this very localized growth cannot offset the massive national decline.
 

@@ -34,6 +34,7 @@ A cheap mechanic's stethoscope (~$10) or even a **plastic tube / long screwdrive
 ### What you'd actually be diagnosing near SATA5/6
 
 If the buzz is near that ASMedia controller area, it's likely:
+
 - The controller chip's own switching regulator (its VRM) — common culprit, benign, just annoying
 - An inductor under load-dependent current draw — buzz that scales with SATA/NVMe I/O load points here
 - Not a defect per se — coil whine is usually load-correlated and doesn't indicate failure, but persistent audible whine at idle can indicate a cheaper inductor or a firmware/power-plan issue driving oscillation
