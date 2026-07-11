@@ -17,6 +17,7 @@ Quick correction first: eNSP itself was never a paid product — it's a free sim
 
 **Original eNSP (freeware, last official build ~2019)**
 Huawei quietly pulled the classic eNSP from its public download portal around 2019 and hasn't shared it publicly since, for what appears to be strategic reasons. It still works fine on Windows if you can get a copy — it's just no longer officially hosted. You'll find it circulating via:
+
 - Community/GitHub mirrors (e.g. a `horserosemilkshake/huawei-ensp` repo hosting the old installer)
 - Huawei's own enterprise forum threads where users repost download links
 - Third-party sites (Labnario, YouTube tutorial descriptions linking Mega/Google Drive mirrors)

@@ -16,7 +16,7 @@ Answer:
 ## Reconstructing the chain
 
 | Step | Claim | Evidence type | Confidence |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Not GPU | Direct swap test (AMD↔Nvidia) + removal test | **High** — two independent controlled experiments, both negative |
 | 2 | Not fan/mechanical contact | Friend's suggestion → you moved on to "it's the motherboard" | **Unverified** — you never reported back on the actual eraser/visual/hand-spin check |
 | 3 | It's the motherboard | Self-reported, method not stated | **Medium-low** — I explained *why* it's plausible, but I never confirmed *how* you determined this |
