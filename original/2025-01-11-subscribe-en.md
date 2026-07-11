@@ -57,7 +57,7 @@ Social Impact:
 
 | Platform | Followers/Connections |
 | ---------- | --- |
-| WeChat@lzwjava | ~5800 |
+| WeChat@lzwjava | ~6200 |
 | WeChat@lzwjava2048 | ~4500 |
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 254 |
 | WeChat Subscription platform | 2156 |
