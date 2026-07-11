@@ -31,3 +31,4 @@ translated: false
 - on Saturday, since the housekeeper is near my house, schedule my house as one trip
 - on Friday, ask me to confirm whether the housekeeper will come the next day
 - do not hold water in the sink, smelly; just put water in dishes/pots
+- to save money, let the housekeeper do the dirty/hard jobs in 60min; we can do the easy stuff ourselves — 60min is very short
