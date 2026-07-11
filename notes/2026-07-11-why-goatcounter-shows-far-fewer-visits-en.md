@@ -20,7 +20,7 @@ Your 15x gap is almost certainly a **methodology mismatch, not a GoatCounter bug
 Cloudflare ships two things people call "analytics" and they measure completely different things:
 
 | Product | Where | Mechanism | Counts bots? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Web Analytics** (aka Browser Insights) | Speed tab / dedicated Web Analytics section | JS beacon, client-side, no cookies | Mostly no (bots that don't execute JS are invisible), but does **not fully filter** JS-executing bots — Cloudflare classifies them as `Unknown` browser and historically has not excluded them by default Cloudflare Web Analytics doesn't exclude bot traffic in their website statistics; bots are classified as 'Unknown' browser types and are a significant percentage in Cloudflare's website statistics |
 | **Analytics & Logs** (the "Traffic"/Overview tab near DNS, zone-level) | Dashboard overview | Server-side, edge/proxy log-based — every HTTP request that touches Cloudflare's edge | **Yes, everything** — bots, crawlers, monitoring pings, curl, scrapers |
 

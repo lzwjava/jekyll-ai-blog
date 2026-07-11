@@ -51,7 +51,7 @@ Answer:
 **Interpreting the result**
 
 | Result | Meaning | Next step |
-|---|---|---|
+| --- | --- | --- |
 | Fan spins clean, no buzz, no smell | PSU itself is likely healthy standalone | The buzzing you heard before was probably under *load* from motherboard/GPU — could be coil whine from GPU/VRM, or the PSU struggling under real load (which this test won't reveal since there's no load). Don't rule out PSU yet — see load test below. |
 | Buzzing/whining happens even standalone, no load | PSU internal fault (capacitor, transformer coil, switching regulator) | Stop testing repeatedly. Replace the PSU — it's cheap (200-300 CNY) and physically easy: 4 screws mounting it to the case, then unplug/replug all connectors. No soldering needed. |
 | Burning smell, smoke, or PSU doesn't power on at all | Dead/dangerous PSU | Stop immediately, don't reuse it, dispose of it, buy new PSU |
@@ -59,6 +59,7 @@ Answer:
 **If standalone test is clean but you want to isolate load-related buzzing:**
 
 Do a *minimal load test* instead of full rebuild:
+
 - Reconnect only: 24-pin to motherboard + CPU power connector + nothing else (no GPU, no drives, no RAM even if possible, or minimal RAM)
 - Power on via the case's power button (not paperclip this time)
 - If buzzing appears now but not in the fully standalone test → likely coil whine from motherboard VRMs or it's a genuine PSU-under-load issue, not resolvable by just isolating PSU

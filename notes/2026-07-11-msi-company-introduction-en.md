@@ -24,6 +24,7 @@ MSI (Micro-Star International Co., Ltd.) is a Taiwanese multinational hardware c
 **Recent strategic pivot (relevant to your world):** MSI is explicitly repositioning around AI infrastructure. Since 1986 MSI has evolved from a motherboard pioneer into a global leader in high-performance computing, expanding into servers, automotive electronics, and EV charging, with a strategic focus on AI and enterprise IT. MSI has built an ecosystem spanning AI PCs, AI servers, and edge computing. On the enterprise side, its LinkedIn activity shows GPU-accelerated AI servers, multi-node and ORv3 architectures for hyperscale cloud and enterprise, and AI-RAN platforms for telecom — i.e., MSI is trying to be a hardware supplier into the same AI-infra buildout (GPU servers, data center gear) that underlies the model-training work you're doing, rather than just a gaming brand.
 
 **Other notes:**
+
 - MSI has partnered with eSports orgs (Fnatic, Cloud9, and others) and sponsors Monster Energy Yamaha MotoGP with PC hardware.
 - In 2020, an MSI subsidiary was reported scalping RTX 3080/3090 cards on eBay — a minor reputational blip during the GPU shortage era.
 - There's also an unrelated **MSI (Premium Surfaces)**, a US flooring/countertop/tile distributor founded in 1975, headquartered in Orange, California, with ~$2.5B annual revenue — different company, same acronym, not to be confused with Micro-Star International.

@@ -16,7 +16,7 @@ type: note
 Yuexiu (越秀区) — Guangzhou's core historic district, adjacent to Tianhe — has followed a classic boom-plateau-correction curve typical of first-tier Chinese urban cores:
 
 | Period | Avg secondhand price (元/㎡) | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Jan 2016 | 30,169 | Start of the 2016 credit-driven rally |
 | Dec 2016 | 36,867 | +22% within the year, +3.05% m/m in Dec alone |
 | Full-year 2016 avg | 32,577 | #1 ranked district in Guangzhou that year, ahead of Tianhe (31,474) |
