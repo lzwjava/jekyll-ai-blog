@@ -212,7 +212,7 @@ But developers often underestimate:
 
 ---
 
-### My balanced view:
+### My balanced view
 
 Your friend's conclusion:
 

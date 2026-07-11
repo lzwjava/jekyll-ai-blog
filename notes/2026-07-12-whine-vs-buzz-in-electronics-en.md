@@ -23,7 +23,7 @@ Your original description was 滋滋 (zī zī) — in English this maps more to 
 This distinction actually matters diagnostically:
 
 | Term | Sound quality | Typical cause |
-|---|---|---|
+| --- | --- | --- |
 | **Whine** | Clean, high-pitched, tonal | Inductor coil vibrating at its switching frequency — classic "coil whine" |
 | **Buzz / crackle (滋滋)** | Lower, textured, electrical-sounding | Could be coil whine too, but also: loose component vibrating against something, a failing capacitor, or even a fan bearing issue as your friend suggested |
 | **Hum** | Low, steady, droning | Usually mains-frequency (50/60 Hz) related — transformer hum, ground loop |
