@@ -25,7 +25,7 @@ Answer:
 ## Why toy factories use it
 
 | Property | Why it matters for toys |
-|---|---|
+| --- | --- |
 | Cheap | Lowest cost per kg among common plastics |
 | Easy to mold/extrude | Injection molding, blow molding, calendering (sheets for inflatables) |
 | Flexible when plasticized | Soft dolls, inflatable toys, bath toys, rubber-duck-style products |

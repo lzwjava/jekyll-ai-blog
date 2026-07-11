@@ -22,7 +22,7 @@ Your friend's hypothesis is actually a good one to check first because it's the 
 ### What mechanical contact sounds like and why it fools people
 
 | Source | Mechanism | Sound signature |
-|---|---|---|
+| --- | --- | --- |
 | Fan blade grazing a cable tie / sleeved cable | Blade tip flexes the cable on each rotation | Rhythmic buzz synced to fan RPM — pitch changes with fan speed |
 | Fan blade hitting a dust bunny | Intermittent contact | Irregular buzz/rattle, may cut in/out |
 | PSU/case fan hub loose on bearing | Fan motor vibrating against fan frame or grille | Continuous low buzz, changes with fan curve |

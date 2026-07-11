@@ -20,7 +20,7 @@ This changes my earlier diagnosis, and I should say so directly: the presence of
 Look at how these percentages stack on top of each other instead of reading them as five independent facts:
 
 | Dimension | Dominant bucket | Share of 60.95k |
-|---|---|---|
+| --- | --- | --- |
 | Country | Singapore | 46.28k → **76%** |
 | OS | Windows | 48.48k → **79.5%** |
 | Browser | Chrome | 48.89k → **80.2%** |
