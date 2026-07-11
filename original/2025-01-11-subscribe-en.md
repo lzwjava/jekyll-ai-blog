@@ -62,7 +62,7 @@ Social Impact:
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 280 |
 | WeChat Subscription platform | 2156 |
 | WeChat Video platform | 649 |
-| [X](https://mobile.twitter.com/lzwjava) | 390 |
+| [X](https://mobile.twitter.com/lzwjava) | 470 |
 | [Weibo](https://weibo.com/zhiweilee) | 3158 |
 | [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
 | [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
