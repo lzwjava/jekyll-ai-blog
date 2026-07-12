@@ -13,7 +13,7 @@ I'm offering a series of AI agent courses. 50 CNY per session (30 minutes). Pay 
 ## My Background
 
 - Male, born in 1995, Chinese citizen, resides in Guangzhou. Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
-- Previously at TEKsystems (outsourced to HSBC Bank). Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information (outsourced to HSBC Bank).
+- Previously at TEKsystems (outsourced to HSBC Bank (a UK-based international bank)). Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank (a Singapore bank)), and Farben Information (outsourced to HSBC Bank (a UK-based international bank)).
 - Accumulated 11 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
 - Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
 - Native in Chinese, proficient in English (IELTS 6.5). Read over 320 books. Writes at a blog with ~75,000 monthly page views.
