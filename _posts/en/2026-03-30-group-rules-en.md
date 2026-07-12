@@ -66,3 +66,7 @@ Networking tips:
 * Focus on exchanging value, not small talk
 * Respect others’ time; no reply is okay
 * Small initiative → real opportunities
+
+---
+
+AI Translation tips: Yin Wang (王垠)
