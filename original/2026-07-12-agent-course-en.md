@@ -8,7 +8,7 @@ title: AI Agent Course
 translated: false
 ---
 
-I'm offering a series of AI agent courses. 50 CNY per session (25 minutes). Pay per session, no package required. I'm happy to share what I've learned.
+I'm offering a series of AI agent courses. 50 CNY per session (30 minutes). Pay per session, no package required. I'm happy to share what I've learned.
 
 ## My Background
 
@@ -39,7 +39,7 @@ The best way to learn is by building something real.
 
 ## Course Format
 
-* 50 CNY per session, 25 minutes each. Pay as you go — no upfront package.
+* 50 CNY per session, 30 minutes each. Pay as you go — no upfront package.
 * One-to-one via Zoom or Tencent Meeting. Sessions are recorded.
 * Between sessions, quick text follow-ups (under 15 minutes) available outside sleep time.
 * Each session is self-contained — no homework required unless you want it.
@@ -99,7 +99,7 @@ Pick any. Or suggest your own.
 * We debug a real problem together using AI tools
 * We compare how different AI tools handle the same task
 
-## Why 50 CNY / 25 min?
+## Why 50 CNY / 30 min?
 
 I want this to be accessible. 50 CNY is less than a bubble tea. One session is short enough to fit into a busy day but long enough to learn something concrete. You don't commit to 10 lessons — just show up for what you need.
 
