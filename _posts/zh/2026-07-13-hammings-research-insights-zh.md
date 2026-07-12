@@ -51,5 +51,5 @@ type: note
 
 **参考资料：**
 
-*   [《你和你的研究》（文字记录，Paul Kunert 档案）](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
-*   [《你和你的研究》（贝尔通信研究公司演讲，1986年）](https://www.youtube.com/watch?v=a1zDuOPkMSw)
+* [《你和你的研究》（文字记录，Paul Kunert 档案）](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
+* [《你和你的研究》（贝尔通信研究公司演讲，1986年）](https://www.youtube.com/watch?v=a1zDuOPkMSw)

@@ -43,5 +43,6 @@ This turns the LLM into a checklist generator instead of a narrator producing a 
 Bottom line while the board's at repair: ask the shop for the actual root cause (they'll have a scope/multimeter), don't let the LLM's "looks reasonable" narrative become your accepted diagnosis until it's confirmed against a real measurement.
 
 References:
+
 - [Corsair Cable Compatibility Guide](https://www.corsair.com/us/en/explorer/diy/psus/why-you-should-only-use-corsair-modular-cables-with-corsair-power-supplies/)
 - [Prompt Engineering Overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
