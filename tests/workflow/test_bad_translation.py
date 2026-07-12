@@ -4,7 +4,7 @@ import sys
 import unittest
 
 
-FORBIDDEN_PHRASES = []
+FORBIDDEN_PHRASES = ["志炜", "王寅"]
 TARGET_DIR = os.path.join("_posts", "zh")
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
