@@ -16,7 +16,9 @@ A series of AI full stack development courses, covering AI + Android, AI + iOS, 
 - Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and TEKsystems (outsourced to a UK-based international bank).
 - Accumulated 11 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
 - Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
-- Native in Chinese, proficient in English (IELTS 6.5). Read over 320 books. Writes at a blog with ~75,000 monthly page views.
+- Fun Live — [GitHub](https://github.com/lzwjava/live-mobile-web), a WeChat-powered technical live streaming platform for developers focusing on iOS, Android, backend, and AI content. Operated from 2016 to 2017 with around 30k users.
+- Personal blog — [lzwjava.github.io](https://lzwjava.github.io), an AI-driven one-stop blog system with AI-powered translation and beyond. Operated from 2021 to present, ~60k monthly views (Cloudflare).
+- Native in Chinese, proficient in English (IELTS 6.5). Read over 320 books.
 - AI Enthusiast — trained small LLMs (nanoGPT) on H200, AMD MI300X and RTX 4070 GPUs, and built projects using OpenRouter and Claude Code (~3B tokens used).
 - More details: [Resume](https://lzwjava.github.io/resume-en) · [Software Portfolio](https://lzwjava.github.io/portfolio-en) · [AI Portfolio](https://lzwjava.github.io/ai-portfolio-en) · [Life Portfolio](https://lzwjava.github.io/life-portfolio-en)
 
