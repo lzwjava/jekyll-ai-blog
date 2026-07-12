@@ -42,5 +42,6 @@ Ask: give me the 2 most likely causes ranked, and the cheapest test to distingui
 That last line is the key difference from a software prompt — you're explicitly asking for the *next physical action*, because the bot can't take it for you.
 
 References:
+
 - [Karpathy on LLMs as reasoning engines needing tool access](https://karpathy.ai)
 - [Claude Code docs — agentic tool use](https://docs.claude.com/en/docs/claude-code)

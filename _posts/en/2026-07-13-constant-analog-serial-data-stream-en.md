@@ -16,7 +16,7 @@ This means **your sketch is already on the board, but it's NOT the Blink sketch*
 Here's what the 3 LEDs mean:
 
 | LED | State | Why |
-|-----|-------|-----|
+| ----- | ------- | ----- |
 | **ON** (green) | ✅ Steady | Board has power — normal |
 | **L** (pin 13) | ✅ On or blinking | The sketch may be driving it, or leftover state |
 | **TX** (yellow) | ✅ **Steady** | The sketch is printing serial data constantly with no delays — TX LED stays lit because bytes are streaming non-stop |

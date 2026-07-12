@@ -16,9 +16,11 @@ Here's a comprehensive summary of everything done in this session:
 ## Session Summary: `ll uno` subcommand — Arduino UNO serial monitor
 
 ### Project context
+
 `ll` is a Rust CLI tool (`/home/xiaoxin/projects/ll/`) with a ratatui TUI interface. It already had `info` (system info), `gcloud`, and `word2vec` subcommands. The repo had an Arduino sketch (`sketch_jul9a/sketch_jul9a.ino`) that reads a microphone on A0 and outputs amplitude values over serial at 9600 baud.
 
 ### Goal
+
 Add a `cargo run -- uno status` command that reads the Arduino's serial output and displays it in a live TUI.
 
 ### Changes made
@@ -26,6 +28,7 @@ Add a `cargo run -- uno status` command that reads the Arduino's serial output a
 **1. `Cargo.toml`** — added `serialport = "4.7"` dependency for serial port access.
 
 **2. `src/uno.rs`** (new, 232 lines) — two subcommands:
+
 - **`uno listen`** — raw serial dump to stdout. Tested and working: reads amplitude values (44–65 range from the mic) at 9600 baud from `/dev/ttyUSB0`.
 - **`uno status`** — TUI with:
   - Header bar showing port/baud
@@ -39,13 +42,14 @@ Add a `cargo run -- uno status` command that reads the Arduino's serial output a
 ### Issues encountered and resolved
 
 | Issue | Cause | Fix |
-|-------|-------|-----|
+| ------- | ------- | ----- |
 | Rust toolchain not installed | Fresh dev machine | Installed via rustup |
 | `libudev-dev` missing | `serialport` crate needs it | `apt install libudev-dev` |
 | Permission denied on `/dev/ttyUSB0` | User not in `dialout` group | Use `sg dialout` (same pattern user already used) |
 | ENXIO error running through `sg` | `sg` detaches stdin from the TTY, so `enable_raw_mode()` fails | Rewrote the read loop to use `BufReader` (same pattern as `listen`); added a helpful error message directing the user to `sudo usermod -a -G dialout` |
 
 ### How to use
+
 ```bash
 # Recommended: add user to dialout group once, then run directly
 sudo usermod -a -G dialout $USER
@@ -56,6 +60,7 @@ cargo run -- uno listen          # raw serial dump
 ```
 
 ### Git
+
 ```
 b2b62f8  feat: add uno subcommand for Arduino serial monitor
   5 files changed, 433 insertions(+), 12 deletions(-)

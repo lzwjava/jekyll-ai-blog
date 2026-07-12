@@ -42,5 +42,6 @@ type: note
 最后一行是与软件提示的关键区别——你明确要求的是**下一步物理操作**，因为机器人无法替你执行。
 
 参考：
+
 - [Karpathy论大语言模型作为需要工具接入的推理引擎](https://karpathy.ai)
 - [Claude Code文档——智能体工具使用](https://docs.claude.com/en/docs/claude-code)

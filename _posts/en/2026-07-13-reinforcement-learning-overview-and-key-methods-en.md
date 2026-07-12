@@ -16,23 +16,27 @@ Answer:
 RL is learning a policy π(a|s) that maximizes expected cumulative reward through trial-and-error interaction with an environment — no labeled (x,y) pairs, just a reward signal that may be sparse and delayed.
 
 **Core formalism (MDP):**
+
 - State `s`, action `a`, reward `r(s,a)`, transition `P(s'|s,a)`
 - Policy `π(a|s)` — what you're learning
 - Return: `G_t = Σ γ^k r_{t+k}` (discounted future reward)
 - Goal: `max_π E[G_0]`
 
 **Value functions:**
+
 ```
 V(s)   = E_π[G_t | s_t = s]           # how good is this state
 Q(s,a) = E_π[G_t | s_t=s, a_t=a]      # how good is this action here
 ```
 
 **Bellman equation** (the recursive identity everything is built on):
+
 ```
 Q(s,a) = r(s,a) + γ Σ_s' P(s'|s,a) max_a' Q(s',a')
 ```
 
 **Two families:**
+
 1. **Value-based** (Q-learning, DQN) — learn Q, act greedily: `a = argmax_a Q(s,a)`
 2. **Policy-gradient** (REINFORCE, PPO) — directly parameterize π_θ and climb the gradient:
 
@@ -76,15 +80,18 @@ opt.zero_grad(); loss.backward(); opt.step()
 ```
 
 **PPO** (what actually gets used at scale, incl. RLHF) clips the policy-ratio update to avoid destructive step sizes:
+
 ```
 r_t(θ) = π_θ(a|s) / π_θ_old(a|s)
 L = E[ min(r_t · A_t, clip(r_t, 1-ε, 1+ε) · A_t) ]
 ```
+
 where `A_t = Q(s,a) - V(s)` is the advantage (GAE in practice).
 
 **Why you care as someone training models**: RLHF/RLVR is exactly this loop — reward model or verifier gives `r`, policy is your LLM, PPO/GRPO updates weights. GRPO (DeepSeek) drops the value network entirely and uses group-relative advantage from sampled completions — cheaper, and what Liang Wenfeng's team used for R1.
 
 References:
+
 - [Sutton & Barto — Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book.html)
 - [Schulman et al. — Proximal Policy Optimization](https://arxiv.org/abs/1707.06347)
 - [DeepSeekMath — GRPO](https://arxiv.org/abs/2402.03300)
