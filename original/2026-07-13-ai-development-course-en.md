@@ -48,6 +48,7 @@ The best way to learn is by building something real.
 * Between sessions, quick text follow-ups (under 15 minutes) available outside sleep time.
 * Each session is self-contained — no homework required unless you want it.
 * You pick the topic each time. It's your course.
+* Join a WeChat community of 3k+ engineers in China for networking and discussions.
 
 To enroll, send an email to <lzwjava@gmail.com> or add me on WeChat: **lzwjava** (same ID). Please include a brief introduction about yourself and what you'd like to learn.
 
