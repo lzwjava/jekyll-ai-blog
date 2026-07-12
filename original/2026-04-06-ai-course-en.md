@@ -12,15 +12,13 @@ I offer AI mentoring. 50 CNY per lesson (30 minutes each). Subscribe from 1 to 1
 
 ## My Background
 
-I completed the Machine Learning Specialization (by DeepLearning.AI and Stanford University) and the Deep Learning Specialization (by DeepLearning.AI) — both Andrew Ng's courses. I finished them, but theory or a small assignment task is just part of the LLM knowledge. I later reflected a lot to fill the gap of truly understanding.
-
-After writing the article [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural-en), I found that I still didn't understand neural networks deeply enough. Understanding is a relative thing, as Feynman said. So I figured out a way — copy a few lines of code, run it, print every variable. That's how I really learned.
-
-Later I spent about two years mulling over transformers. I first read about the KQV mechanism around end of 2023 but didn't understand much. By mid-2025, it clicked. I wrote about that journey in [Neural Network, Transformer and GPT](https://lzwjava.github.io/kqv-transformers-en).
-
-The key project in my learning was Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT). A lot of my knowledge came from studying that codebase.
-
-I've also done hands-on GPU work. I used a DigitalOcean H200 GPU droplet to run inference on Qwen3.5-35B, and I've conducted GPT-2 124M training experiments with nanoGPT. So this course isn't just theory — I have the infrastructure to walk you through real training and inference.
+- Male, born in 1995, Chinese citizen, resides in Guangzhou. Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
+- Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and TEKsystems (outsourced to a UK-based international bank).
+- Accumulated 11 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
+- Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
+- Native in Chinese, proficient in English (IELTS 6.5). Read over 320 books. Writes at a blog with ~75,000 monthly page views.
+- AI Enthusiast — trained small LLMs (nanoGPT) on H200, AMD MI300X and RTX 4070 GPUs, and built projects using OpenRouter and Claude Code (~3B tokens used).
+- More details: [Resume](https://lzwjava.github.io/resume-en) · [Software Portfolio](https://lzwjava.github.io/portfolio-en) · [AI Portfolio](https://lzwjava.github.io/ai-portfolio-en) · [Life Portfolio](https://lzwjava.github.io/life-portfolio-en)
 
 ## Course Philosophy
 
