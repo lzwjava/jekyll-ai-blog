@@ -12,11 +12,13 @@ I'm offering a series of AI agent courses. 50 CNY per session (30 minutes). Pay 
 
 ## My Background
 
-I have about 12 years of experience across mobile development, full-stack development, international banking, and AI practice. More details on my portfolio: [AI Portfolio](https://lzwjava.github.io/ai-portfolio-en).
-
-I've trained and deployed about 15 small models (≤760M parameters), processed roughly 3B tokens, and worked hands-on with GPU infrastructure — from nanoGPT training on a small setup to running inference on H200 GPUs. I use agent tools daily: Hermes Agent, Claude Code, ChatGPT, Claude, Gemini, and various coding tools like Kimi Code and Trae.
-
-I'm not an academic — I'm a practitioner who builds things.
+- Male, born in 1995, Chinese citizen, resides in Guangzhou. Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
+- Previously at TEKsystems (outsourced to HSBC Bank). Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information (outsourced to HSBC Bank).
+- Accumulated 11 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
+- Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
+- Native in Chinese, proficient in English (IELTS 6.5). Read over 320 books. Writes at a blog with ~75,000 monthly page views.
+- AI Enthusiast — trained small LLMs (nanoGPT) on H200, AMD MI300X and RTX 4070 GPUs, and built projects using OpenRouter and Claude Code (~3B tokens used).
+- More details: [Resume](https://lzwjava.github.io/resume-en) · [Software Portfolio](https://lzwjava.github.io/portfolio-en) · [AI Portfolio](https://lzwjava.github.io/ai-portfolio-en) · [Life Portfolio](https://lzwjava.github.io/life-portfolio-en)
 
 ## Course Philosophy
 
