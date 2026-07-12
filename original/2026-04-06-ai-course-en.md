@@ -54,7 +54,7 @@ From math to GPT to AI system. That's the path.
 * Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
 * I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
 * Pay per lesson, no long-term commitment.
-* Join a WeChat community of 3k+ engineers in China for networking and discussions.
+* Join a WeChat community of 3k+ engineers in China for networking and discussions. Contact via WeChat: **lzwjava**.
 
 To enroll, send an email to <lzwjava@gmail.com> with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
 
