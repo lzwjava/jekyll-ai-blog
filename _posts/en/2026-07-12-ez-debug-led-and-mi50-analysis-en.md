@@ -16,7 +16,7 @@ Answer:
 ## Fact-check table
 
 | Claim | Verdict | Basis |
-|---|---|---|
+| --- | --- | --- |
 | Board has 4x EZ Debug LEDs (CPU/DRAM/VGA/BOOT) | **Confirmed** | MSI's own manual lists 4x EZ Debug LED as a stock feature of the MAG B760M MORTAR WIFI II |
 | Functional meaning of each LED | **Confirmed, verbatim-accurate** | Manual states the LEDs indicate motherboard debug status, where CPU means CPU not detected/failed, DRAM means memory not detected/failed, VGA means GPU not detected/failed, and BOOT means no bootable device found — the pasted answer's table matches this exactly |
 | Physical location: "top-right edge, near 24-pin ATX" | **Plausible, not independently confirmed** | I could not pull an explicit position statement tying the LED cluster to ATX_PWR1 from the manual text I retrieved — the diagrams don't extract to text well. This is a very common MSI convention across their boards, so it's a reasonable inference, but I want to flag it as inference rather than confirmed fact, per your own bar for evidence |
