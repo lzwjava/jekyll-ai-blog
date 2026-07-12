@@ -8,11 +8,11 @@ title: "AI Course: From Neural Networks to Agents"
 translated: false
 ---
 
-I'm offering a 10-lesson AI course. 3000 RMB total, over 2 months to one year depending on your pace. I am happy to share what I've learned.
+I offer AI mentoring. 50 CNY per lesson (30 minutes each). Subscribe from 1 to 100+ lessons — customize your own path. I am happy to share what I've learned.
 
 ## My Background
 
-I completed the Machine Learning Specialization (by DeepLearning.AI and Stanford University) and the Deep Learning Specialization (by DeepLearning.AI) — both Andrew Ng's courses. I basically finished them. To be honest, I was a bit impatient with the assignments at the time and referenced others' solutions more than I should have. But I went back later and filled in the gaps myself.
+I completed the Machine Learning Specialization (by DeepLearning.AI and Stanford University) and the Deep Learning Specialization (by DeepLearning.AI) — both Andrew Ng's courses. I finished them, but theory or a small assignment task is just part of the LLM knowledge. I later reflected a lot to fill the gap of truly understanding.
 
 After writing the article [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural-en), I found that I still didn't understand neural networks deeply enough. Understanding is a relative thing, as Feynman said. So I figured out a way — copy a few lines of code, run it, print every variable. That's how I really learned.
 
@@ -34,7 +34,7 @@ Inspired by Yin Wang's [CS video course](https://www.yinwang.org/posts/cs-video-
 
 ## What You'll Be Able to Do
 
-After these 10 lessons, you'll understand neural networks deeply, understand transformers, train GPT from scratch, modify nanoGPT, fine-tune models, build AI agents, and build an OpenClaw-like platform.
+You'll understand neural networks deeply, understand transformers, train GPT from scratch, modify nanoGPT, fine-tune models, build AI agents, and build an OpenClaw-like platform.
 
 From math to GPT to AI system. That's the path.
 
@@ -46,22 +46,22 @@ From math to GPT to AI system. That's the path.
 
 ## Course Format
 
-* 10 lessons, 3000 RMB, 2 months to 1 year depending on your pace.
+* 50 CNY per lesson (30 minutes each). Subscribe from 1 to 100+ lessons.
 * One-to-one mentoring for every student.
 * For the first few students, lessons are conducted live via Zoom or Tencent Meeting and recorded. Later students will receive these recorded video lessons instead of real-time meetings.
-* Each lesson is approximately 3 hours.
+* Each lesson is approximately 30 minutes.
 * You must complete the homework for each lesson before moving on to the next one.
 * Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
 * I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
-* If the course is not completed within one year, it will be ended and the fee will not be refunded.
+* Pay per lesson, no long-term commitment.
 
 To enroll, send an email to <lzwjava@gmail.com> with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
 
-## The 10 Lessons
+## Topics We Can Cover
 
-We do 10 lessons. Lessons 1–4 are foundations, Lessons 5–7 are GPT and nanoGPT, Lessons 8–10 are agents and building your own system.
+These are example topics. Pick any subset, or go deeper into any area — we customize the course to your needs.
 
-### Lesson 1 — Neural Networks from First Principles
+### Neural Networks from First Principles
 
 Understand what a neural network really computes. Scalar, vector, matrix computation. Forward propagation step by step. Backpropagation intuition with manual derivatives. Activation functions, loss functions.
 
@@ -69,7 +69,7 @@ Practice: Print every variable (Zen neural style). Implement a 2-layer NN in pur
 
 After this, you understand every number inside a neural network.
 
-### Lesson 2 — From Neural Networks to Deep Learning
+### From Neural Networks to Deep Learning
 
 Gradient descent, learning rate, convergence. Overfitting vs generalization. Regularization, dropout, batch/mini-batch/SGD.
 
@@ -77,7 +77,7 @@ Practice: Train a 3-layer classifier. Visualize the loss curve. Implement dropou
 
 After this, you understand how deep learning actually trains.
 
-### Lesson 3 — PyTorch Minimal Framework
+### PyTorch Minimal Framework
 
 Tensor fundamentals, autograd, nn.Module design, optimizer mechanics, Dataset and DataLoader.
 
@@ -85,7 +85,7 @@ Practice: Rebuild MLP in PyTorch. Train a CIFAR classifier. Inspect gradients.
 
 After this, you can read any PyTorch model.
 
-### Lesson 4 — Language Modeling Fundamentals
+### Language Modeling Fundamentals
 
 Tokenization (BPE), n-gram models, RNN/LSTM intuition, next token prediction, cross-entropy for language.
 
@@ -93,7 +93,7 @@ Practice: Build a character-level language model. Train on tiny Shakespeare. Gen
 
 After this, you understand what GPT predicts.
 
-### Lesson 5 — Transformer Architecture
+### Transformer Architecture
 
 Self-attention, Q K V explained, multi-head attention, positional encoding, feed-forward blocks, residual connections.
 
@@ -101,7 +101,7 @@ Practice: Implement single-head attention. Build a mini transformer. Visualize a
 
 After this, you understand the GPT architecture.
 
-### Lesson 6 — nanoGPT Deep Dive
+### nanoGPT Deep Dive
 
 This is the key lesson. nanoGPT training loop, GPT model architecture, weight initialization, data pipeline, sampling.
 
@@ -109,7 +109,7 @@ Practice: Train nanoGPT on a small dataset. Modify model size. Train on a Chines
 
 After this, you can train your own GPT.
 
-### Lesson 7 — GPT Training Engineering
+### GPT Training Engineering
 
 GPU memory optimization, gradient accumulation, mixed precision, checkpointing, multi-GPU training, dataset scaling.
 
@@ -117,7 +117,7 @@ Practice: Train a 100M parameter model. Resume training. Fine-tune a model.
 
 After this, you can run real GPT training.
 
-### Lesson 8 — Instruction Tuning and Alignment
+### Instruction Tuning and Alignment
 
 SFT fine-tuning, instruction datasets, RLHF overview, reward model concept, LoRA fine-tuning.
 
@@ -125,7 +125,7 @@ Practice: Fine-tune nanoGPT with a chat format dataset. Build an instruction-fol
 
 After this, you can build a chat model.
 
-### Lesson 9 — LLM Agents (Claude Code / OpenClaw)
+### LLM Agents (Claude Code / OpenClaw)
 
 Tool calling, agent loop, planning and execution, memory systems, CLI agent design.
 
@@ -133,7 +133,7 @@ Practice: Build a coding agent. Build a CLI automation agent. Build a multi-step
 
 After this, you can build an OpenClaw-style system.
 
-### Lesson 10 — Personal AI System (Capstone)
+### Personal AI System (Capstone)
 
 Local model deployment, retrieval (RAG), long context memory, multi-agent systems, CLI toolkit integration.
 
