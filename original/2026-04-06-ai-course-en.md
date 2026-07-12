@@ -26,11 +26,11 @@ I offer AI mentoring. 50 CNY per lesson (30 minutes each). Subscribe from 1 to 1
 
 Inspired by Yin Wang's [CS video course](https://www.yinwang.org/posts/cs-video-course) and his [CS course principles](https://www.yinwang.org/posts/cs3), I believe in:
 
-* Print variables to understand — not just read about it
-* Read real code (nanoGPT, not just textbooks)
-* Train small models yourself
-* Build systems, not just theory
-* Iterate like training an LLM — you don't get it right the first time
+- Print variables to understand — not just read about it
+- Read real code (nanoGPT, not just textbooks)
+- Train small models yourself
+- Build systems, not just theory
+- Iterate like training an LLM — you don't get it right the first time
 
 ## What You'll Be Able to Do
 
@@ -40,21 +40,21 @@ From math to GPT to AI system. That's the path.
 
 ## Who Is This For
 
-* Students from high school to PhD level, any major — both arts and science backgrounds welcome. AI is learnable by anyone with curiosity and persistence.
-* Working professionals, including software engineers, IT managers, and other technical roles looking to deepen their AI understanding.
-* Anyone interested in AI as a hobby or career pivot.
+- Students from high school to PhD level, any major — both arts and science backgrounds welcome. AI is learnable by anyone with curiosity and persistence.
+- Working professionals, including software engineers, IT managers, and other technical roles looking to deepen their AI understanding.
+- Anyone interested in AI as a hobby or career pivot.
 
 ## Course Format
 
-* 50 CNY per lesson (30 minutes each). Subscribe from 1 to 100+ lessons.
-* One-to-one mentoring for every student.
-* For the first few students, lessons are conducted live via Zoom or Tencent Meeting and recorded. Later students will receive these recorded video lessons instead of real-time meetings.
-* Each lesson is approximately 30 minutes.
-* You must complete the homework for each lesson before moving on to the next one.
-* Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
-* I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
-* Pay per lesson, no long-term commitment.
-* Join a WeChat community of 3k+ engineers in China for networking and discussions. Contact via WeChat: **lzwjava**.
+- 50 CNY per lesson (30 minutes each). Subscribe from 1 to 100+ lessons.
+- One-to-one mentoring for every student.
+- For the first few students, lessons are conducted live via Zoom or Tencent Meeting and recorded. Later students will receive these recorded video lessons instead of real-time meetings.
+- Each lesson is approximately 30 minutes.
+- You must complete the homework for each lesson before moving on to the next one.
+- Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
+- I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
+- Pay per lesson, no long-term commitment.
+- Join a WeChat community of 3k+ engineers in China for networking and discussions. Contact via WeChat: **lzwjava**.
 
 To enroll, send an email to <lzwjava@gmail.com> with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
 
