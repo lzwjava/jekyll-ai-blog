@@ -31,6 +31,7 @@ That last point is the most diagnostically important fact you gave me.
 Corsair explicitly warns that on modular PSUs, the **"CPU" 8-pin cable and the "PCIe" 8-pin cable are physically the same connector shape but wired with different, non-interchangeable pinouts** — they are keyed identically but electrically incompatiblesince PCIe cables go to the graphics card while the cable marked CPU mounts in the motherboard's 8-pin header, and the two are not interchangeable. This is a very well-documented failure mode: users grab a spare 8-pin cable from the same modular PSU kit, assume it's a PCIe cable because it "looks right," and plug it into a GPU — because different manufacturers (and even different cables from the same manufacturer) use different pinouts on the PSU-side connector, this can supply incorrect voltage to the component, and the damage isn't always obvious until something fails.
 
 This matches your evidence almost exactly:
+
 - MI50 needs two dedicated PCIe 8-pin cables you likely don't already own in the right count/labeling (used server card, purchased separately from your CX PSU).
 - The problem appeared at the exact moment of plugging in the new GPU's power cables.
 - The noise is now present **even without the GPU connected**, which means the damage is no longer conditional on GPU presence — it's a standing short somewhere in the board's power delivery path (most likely a shorted MOSFET or inductor in the 12V distribution feeding the PCIe slot / auxiliary rail).

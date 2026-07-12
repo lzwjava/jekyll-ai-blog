@@ -14,6 +14,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **1. Coreboot (Open-Source BIOS/Firmware)**
+
 - **Coreboot** is an open-source project that aims to replace proprietary BIOS/UEFI firmware with a lightweight, open alternative.
 - **Check if MSI MAG B760M Mortar WiFi is supported**:
   Visit the [Coreboot Supported Motherboards](https://coreboot.org/status/board-status.html) page and search for your model.
@@ -23,6 +24,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **2. Linux Hardware Compatibility**
+
 - **Linux Kernel & Hardware Database**:
   - Check the [Linux Hardware Database](https://linux-hardware.org/) for user-submitted reports on compatibility with Linux distributions.
   - Search for "MSI MAG B760M Mortar WiFi" to see if users have tested and documented its performance with open-source drivers.
@@ -34,6 +36,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **3. Open-Source BIOS Tools**
+
 - **Flashrom**:
   - [Flashrom](https://flashrom.org/) is an open-source tool for identifying, reading, writing, and verifying flash chips.
   - Useful for dumping or modifying the BIOS of your motherboard (if the chip is supported).
@@ -45,6 +48,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **4. MSI Official Resources**
+
 - **MSI Open-Source Center**:
   - Some manufacturers, including MSI, provide open-source code for their products to comply with GPL licenses.
   - Visit [MSI's Open Source Code Center](https://www.msi.com/page/open-source-code) and search for your motherboard model.
@@ -53,6 +57,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **5. Community Forums & Repositories**
+
 - **GitHub**:
   - Search for repositories related to "MSI B760M" or "Intel B760". Example:
     - [OSFMount](https://github.com/pali/osfmount) (for mounting BIOS images)
@@ -64,6 +69,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **6. Databases for Hardware Details**
+
 - **TechPowerUp**:
   - [MSI MAG B760M Mortar WiFi Page](https://www.techpowerup.com/motherboard/msi-mag-b760m-mortar-wifi) provides detailed specs, but not open-source code.
 - **OpenBenchmarking.org**:
@@ -72,6 +78,7 @@ For the **MSI MAG B760M Mortar WiFi** motherboard, you can check its detailed sp
 ---
 
 ### **Key Notes**
+
 - **Proprietary BIOS**: Most consumer motherboards, including MSI's, use proprietary BIOS/UEFI. Open-source alternatives like Coreboot may not be available for this specific model.
 - **Driver Support**: Open-source drivers for Intel chipsets (e.g., for Ethernet, SATA, USB) are typically included in the Linux kernel.
 

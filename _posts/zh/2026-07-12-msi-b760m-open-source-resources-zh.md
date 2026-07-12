@@ -14,6 +14,7 @@ type: note
 ---
 
 ### **1. Coreboot（开源BIOS/固件）**
+
 - **Coreboot** 是一个开源项目，旨在用轻量级、开放的替代方案取代专有的BIOS/UEFI固件。
 - **检查 MSI MAG B760M Mortar WiFi 是否受支持**：
   访问 [Coreboot Supported Motherboards](https://coreboot.org/status/board-status.html) 页面，搜索您的型号。
@@ -23,6 +24,7 @@ type: note
 ---
 
 ### **2. Linux硬件兼容性**
+
 - **Linux内核及硬件数据库**：
   - 查看 [Linux Hardware Database](https://linux-hardware.org/) 中用户提交的关于Linux发行版兼容性的报告。
   - 搜索“MSI MAG B760M Mortar WiFi”，了解用户是否已测试并记录了该主板与开源驱动程序的性能。
@@ -34,6 +36,7 @@ type: note
 ---
 
 ### **3. 开源BIOS工具**
+
 - **Flashrom**：
   - [Flashrom](https://flashrom.org/) 是一个开源工具，用于识别、读取、写入和验证闪存芯片。
   - 可用于提取或修改主板的BIOS（如果芯片受支持）。
@@ -45,6 +48,7 @@ type: note
 ---
 
 ### **4. MSI官方资源**
+
 - **MSI开源中心**：
   - 包括MSI在内的一些制造商为其产品提供开源代码以符合GPL许可要求。
   - 访问 [MSI's Open Source Code Center](https://www.msi.com/page/open-source-code) 并搜索您的主板型号。
@@ -53,6 +57,7 @@ type: note
 ---
 
 ### **5. 社区论坛与仓库**
+
 - **GitHub**：
   - 搜索与“MSI B760M”或“Intel B760”相关的仓库。例如：
     - [OSFMount](https://github.com/pali/osfmount)（用于挂载BIOS镜像）
@@ -64,6 +69,7 @@ type: note
 ---
 
 ### **6. 硬件详情数据库**
+
 - **TechPowerUp**：
   - [MSI MAG B760M Mortar WiFi 页面](https://www.techpowerup.com/motherboard/msi-mag-b760m-mortar-wifi) 提供详细规格，但不含开源代码。
 - **OpenBenchmarking.org**：
@@ -72,6 +78,7 @@ type: note
 ---
 
 ### **关键说明**
+
 - **专有BIOS**：大多数消费级主板（包括MSI）使用专有BIOS/UEFI。像Coreboot这样的开源替代方案可能不适用于此特定型号。
 - **驱动程序支持**：Intel芯片组的开源驱动程序（例如以太网、SATA、USB）通常包含在Linux内核中。
 

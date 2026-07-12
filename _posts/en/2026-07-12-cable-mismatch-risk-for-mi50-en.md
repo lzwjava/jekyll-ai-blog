@@ -16,11 +16,13 @@ Answer:
 This distinction matters a lot — it changes which failure mode is most likely. Let me separate the two setups.
 
 ## RTX 4070 setup
+
 `PSU 8-pin cable ×2 → adapter (2×8-pin in, 12-pin/12VHPWR out) → RTX 4070`
 
 The RTX 4070 (non-Ti/Super reference design) uses a 12VHPWR (16-pin) connector. Since your CX650F/CX750F is an older ATX 2.x-generation unit without native 12VHPWR output, you're using the standard Nvidia/AIB-bundled adapter that converts two native 8-pin PCIe PSU cables into one 12VHPWR plug. That adapter's two input sockets are designed to accept **standard PCIe 8-pin pinout** — this is the same pinout your PSU's cables labeled "PCIe" (not "CPU") should provide.
 
 ## MI50 setup
+
 `PSU 8-pin cable ×2 → MI50 (two native 8-pin sockets directly, no adapter)`
 
 MI50 also expects standard PCIe 8-pin pinout on both inputs (confirmed spec: 2× 8-pin PCIe, 300W total).
