@@ -1,3 +1,4 @@
+---
 audio: false
 generated: true
 image: false
@@ -6,6 +7,7 @@ layout: post
 title: "'ll uno' Arduino Serial Monitor"
 translated: false
 type: note
+---
 
 以下是本次会话所做工作的全面总结：
 
