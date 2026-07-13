@@ -14,6 +14,7 @@ type: note
 **根本原因** — 两个博客文件的 YAML 前置元数据 `title` 字段中包含了反引号 `` `ll uno` ``。未加引号的反引号是无效的 YAML 标记（YAML 解析器将 `` ` `` 视为无法启动任何标记的字符），这导致前置元数据解析静默失败，而测试发现了这个问题。
 
 **已修复的文件：**
+
 - `_posts/en/2026-07-13-ll-uno-arduino-serial-monitor-en.md`
 - `_posts/zh/2026-07-13-ll-uno-arduino-serial-monitor-zh.md`
 

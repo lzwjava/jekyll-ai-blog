@@ -33,11 +33,13 @@ type: note
 - **它实际上是核心频率（MHz），而不是跑分**——MI50 基础频率为 1625 MHz，因此 1617 几乎完全吻合。如果卖家/店铺将“时钟频率”误当作“跑分”，那么这块卡可能完全没问题。
 
 不要猜测——要求他们当场运行：
+
 ```bash
 # 付款前，在现场
 rocm-smi --showclocks --showtemp --showmeminfo vram
 lspci -vv | grep -A2 "LnkSta:"   # 确认 PCIe x16 Gen3/4，而非 x1/x4
 ```
+
 或在 Windows 上，用 GPU-Z 查看核心频率 ~1625-1725MHz、16GB HBM2、PCIe x16。
 
 还要根据已知的诈骗模式进行物理检查：MI50 的外部标签和 ECC 芯片可以证明其未进行过挖矿工作——经过挖矿“蹂躏”的显卡会被重新焊接并失去石墨烯导热垫（脆性，拆解时易裂开），因此需询问是否曾打开过。
@@ -47,6 +49,7 @@ lspci -vv | grep -A2 "LnkSta:"   # 确认 PCIe x16 Gen3/4，而非 x1/x4
 **结论**：在他们当面展示带有实际频率的 rocm-smi/GPU-Z 读数以及刚跑完的鲁大师跑分之前，不要付款。如果 1617 确实是基准测试总分，那就是块废卡。
 
 参考链接：
+
 - [MI50本地部署DeepSeek交流（上） - 知乎](https://zhuanlan.zhihu.com/p/23351570033)
 - [MI50 32G版vbios汇总及通用驱动安装办法 - CSDN](https://blog.csdn.net/dwd112358/article/details/153295770)
 - [不到600元的苏妈专业卡对标4060 - CSDN](https://blog.csdn.net/minge89/article/details/148349350)

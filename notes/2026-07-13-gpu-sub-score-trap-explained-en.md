@@ -23,6 +23,7 @@ So before writing this card off entirely, make the shop do this in front of you:
 2. **Windows Settings → System → Display → Graphics** → explicitly force high-performance/discrete GPU for 鲁大师's process.
 3. Re-run the GPU sub-test watching **Task Manager → Performance → GPU** engine usage — it should spike to ~100% during the run.
 4. If it's Linux, just skip 鲁大师 entirely and run something you trust:
+
 ```bash
 rocm-smi --showclocks --showtemp --showpower
 rocminfo | grep -A3 "Marketing Name"
@@ -33,6 +34,7 @@ python3 -c "import torch; x=torch.randn(8192,8192,device='cuda'); print((x@x).su
 If after forcing the dGPU it jumps to ~380k-420k, the card's fine and the first test was just a driver/detection fluke — common, not a scam. If it's still stuck near 1617 with the dGPU confirmed active, the card is genuinely broken (dead HBM channel, bad crossflash, damaged core) — don't buy it, no negotiation.
 
 References:
+
 - [魔改水冷！神卡MI50-16G - 知乎](https://zhuanlan.zhihu.com/p/1927675999115543912)
 - [鲁大师性能跑分科普 - 知乎](https://zhuanlan.zhihu.com/p/35588135)
 - [MI50 32G版vbios汇总及通用驱动安装办法 - CSDN](https://blog.csdn.net/dwd112358/article/details/153295770)

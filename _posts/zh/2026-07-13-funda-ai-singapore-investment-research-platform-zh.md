@@ -14,6 +14,7 @@ type: note
 答案：Funda AI（法律实体：**Consensus AI Technology PTE. LTD.**，注册地址：6 Raffles Quay, #14-06, Singapore 048580）是一家新加坡AI初创公司，致力于构建AI驱动的投资研究操作系统，为全球机构投资者提供股票分析、市场新闻、股票代理和研究报告。
 
 **产品界面（funda.ai）：**
+
 - 一个统一的操作系统，覆盖完整的投资研究周期——分析师观点、专家证据、AI原生工作流
 - “FUNDA Agents”将重复性研究问题转化为结构化工作流，结合专有策略、研究技能、仪表盘和市场数据，内置盈余回顾、公司入门、竞争对手映射、估值、股权、内部交易、情绪和宏观研究等技能
 - 数据产品：13-F机构持有人分析、Form 4内幕交易、国会交易披露、期权链/隐含波动率分析、Polymarket盈余赔率及盈余日历
@@ -29,6 +30,7 @@ type: note
 如果是求职线索：这看起来像是一家小型（pre-Series A？）金融科技AI公司，正搭上“对冲基金研究的AI代理”浪潮——类似于贝莱德Aladdin-lite或AlphaSense的细分领域，但更原生地使用代理。结合您的背景（代理开发、模型训练），技术门槛更可能在于构建针对财务文件和市场数据的检索/代理管道，而非训练基础模型。
 
 参考：
+
 - [funda.ai](https://funda.ai/)
 - [Funda AI 使用条款](https://funda.ai/terms)
 - [Funda AI 隐私政策](https://fundaai.ai/privacy)

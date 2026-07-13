@@ -14,6 +14,7 @@ Question: What is Funda AI (新加坡外企), the Singapore company?
 Answer: Funda AI (legal entity: **Consensus AI Technology PTE. LTD.**, registered at 6 Raffles Quay, #14-06, Singapore 048580) is a Singapore-based AI startup building an AI-powered investment research operating system offering stock analysis, market news, stock agents, and research reports for global institutional investors.
 
 **Product surface (funda.ai):**
+
 - A unified operating system for the full investment research cycle — analyst views, expert evidence, AI-native workflows
 - "FUNDA Agents" turn recurring research questions into structured workflows combining proprietary plays, research skills, dashboards, and market data, with pre-built skills for earnings recaps, company primers, competitor mapping, valuation, ownership, insider activity, sentiment, and macro research
 - Data products: 13-F institution holder analysis, Form 4 insider trading, congressional trading disclosures, options chain/IV analysis, Polymarket earnings odds, and earnings calendars
@@ -29,6 +30,7 @@ Answer: Funda AI (legal entity: **Consensus AI Technology PTE. LTD.**, registere
 If this is a job lead: it reads like a small (pre-Series A?) fintech-AI shop riding the "AI agents for hedge fund research" wave — similar niche to BlackRock's Aladdin-lite or AlphaSense, but agent-native. Given your background (agent dev, model training), the technical bar there is likely building retrieval/agent pipelines over financial filings + market data, not training foundation models.
 
 References:
+
 - [funda.ai](https://funda.ai/)
 - [Funda AI Terms of Use](https://funda.ai/terms)
 - [Funda AI Privacy Policy](https://fundaai.ai/privacy)

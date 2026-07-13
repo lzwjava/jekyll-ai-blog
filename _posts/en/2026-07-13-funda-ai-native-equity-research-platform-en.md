@@ -23,6 +23,7 @@ Positioning is "analyst-led, expert-backed, AI-native" — not a pure LLM-wrappe
 From a build perspective, the interesting technical bits for you: the "Research Agents" section looks like a skills/tools framework not unlike what you're doing with `ww`/`iclaw`/`zz` — templated agent workflows over a proprietary data layer (13-F, Form 4, options chain, Polymarket) rather than raw LLM chat.
 
 References:
+
 - [FUNDA — funda.ai](https://funda.ai)
 - [FUNDA Research Agents](https://funda.ai/agent-chat)
 - [FUNDA Reports](https://funda.ai/reports)

@@ -59,6 +59,7 @@ class Categorical(Distribution):
 ```
 
 **为什么使用 `logits=` 而不是 `probs=`：**
+
 - 无需手动 softmax → 避免分母过小导致 `nan` 的风险
 - `log_prob` 内部使用 `log_softmax`（通过 `logsumexp` 减法），这是标准的稳定技巧：`log_softmax(x) = x - logsumexp(x)` 而非 `log(softmax(x))`
 - 这正是你直接将模型原始输出（最后一层，softmax 之前）用于强化学习策略梯度或 LLM 标记采样时所需要的——你跳过了多余的 softmax→log 往返
@@ -75,5 +76,6 @@ log_prob = dist.log_prob(action)    # 用于 REINFORCE 损失：-log_prob * rewa
 LLM 采样代码在概念底层使用的也是同一对象类型——来自最终线性层的 `logits`，经过温度缩放，然后分类采样用于下一个 token 生成。
 
 参考文献：
+
 - [torch.distributions.Categorical 文档](https://docs.pytorch.org/docs/stable/distributions.html#categorical)
 - [categorical.py 源码](https://github.com/pytorch/pytorch/blob/main/torch/distributions/categorical.py)

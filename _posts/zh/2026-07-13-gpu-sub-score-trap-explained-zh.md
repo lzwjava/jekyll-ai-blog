@@ -23,6 +23,7 @@ type: note
 2. **Windows设置 → 系统 → 显示 → 图形设置** → 明确为鲁大师的进程强制指定高性能/独立显卡。
 3. 重新运行GPU子项测试，同时观察**任务管理器 → 性能 → GPU**引擎使用率——在运行期间应飙升至约100%。
 4. 如果是Linux，直接跳过鲁大师，运行你信任的命令：
+
 ```bash
 rocm-smi --showclocks --showtemp --showpower
 rocminfo | grep -A3 "Marketing Name"
@@ -33,6 +34,7 @@ python3 -c "import torch; x=torch.randn(8192,8192,device='cuda'); print((x@x).su
 如果强制使用独立显卡后得分跃升至约38万-42万，说明显卡本身没问题，第一次测试仅是驱动/检测的意外情况——这很常见，并非欺诈。如果确认独立显卡已激活但得分仍卡在1617附近，则显卡确实有故障（HBM通道损坏、刷写有误、核心受损）——不要购买，无需协商。
 
 参考资料：
+
 - [魔改水冷！神卡MI50-16G - 知乎](https://zhuanlan.zhihu.com/p/1927675999115543912)
 - [鲁大师性能跑分科普 - 知乎](https://zhuanlan.zhihu.com/p/35588135)
 - [MI50 32G版vbios汇总及通用驱动安装办法 - CSDN](https://blog.csdn.net/dwd112358/article/details/153295770)

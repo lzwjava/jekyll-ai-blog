@@ -23,6 +23,7 @@ type: note
 从构建角度看，对你来说有趣的技术点：“研究智能体”部分看起来像一个技能/工具框架，类似于你用 `ww`/`iclaw`/`zz` 所做的——在专有数据层（13-F、Form 4、期权链、Polymarket）之上运行模板化智能体工作流，而非原始 LLM 聊天。
 
 参考资料：
+
 - [FUNDA — funda.ai](https://funda.ai)
 - [FUNDA 研究智能体](https://funda.ai/agent-chat)
 - [FUNDA 报告](https://funda.ai/reports)

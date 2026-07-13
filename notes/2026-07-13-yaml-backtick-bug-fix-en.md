@@ -14,6 +14,7 @@ All tests pass. Here's what was wrong and what I fixed:
 **Root cause** — Two post files had backticks `` `ll uno` `` in their YAML front matter `title` field. Unquoted backticks are invalid YAML tokens (YAML parser sees the `` ` `` as a character that can't start any token), which caused the front matter parsing to fail silently and the test to catch it.
 
 **Files fixed:**
+
 - `_posts/en/2026-07-13-ll-uno-arduino-serial-monitor-en.md`
 - `_posts/zh/2026-07-13-ll-uno-arduino-serial-monitor-zh.md`
 

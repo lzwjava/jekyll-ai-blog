@@ -59,6 +59,7 @@ class Categorical(Distribution):
 ```
 
 **Why `logits=` instead of `probs=`:**
+
 - No manual softmax → no risk of `nan` from small denominators
 - `log_prob` uses `log_softmax` internally (via `logsumexp` subtraction), which is the standard stable trick: `log_softmax(x) = x - logsumexp(x)` instead of `log(softmax(x))`
 - This is exactly what you want feeding raw model output (last layer, pre-softmax) directly for RL policy gradients or LLM token sampling — you skip a redundant softmax→log round trip
@@ -75,5 +76,6 @@ log_prob = dist.log_prob(action)    # for REINFORCE loss: -log_prob * reward
 Same object type LLM sampling code uses under the hood conceptually — `logits` from the final linear layer, temperature-scaled, then categorical sampling for next-token generation.
 
 References:
+
 - [torch.distributions.Categorical docs](https://docs.pytorch.org/docs/stable/distributions.html#categorical)
 - [categorical.py source](https://github.com/pytorch/pytorch/blob/main/torch/distributions/categorical.py)
