@@ -11,7 +11,7 @@ type: note
 
 Here's the project again with the URL:
 
-**Project**: https://github.com/AxonoOfficial/qwen3vl-2b-cudagraph-manual
+**Project**: <https://github.com/AxonoOfficial/qwen3vl-2b-cudagraph-manual>
 
 ---
 
@@ -26,7 +26,9 @@ It replaces the HuggingFace `transformers` forward pass of Qwen3VL's **language 
 ## How it works (3 phases)
 
 ### 1️⃣ Graph Registration (`register_graph`)
+
 For each "milestone" sequence length (e.g. 1200 tokens):
+
 - Pre-allocates fixed-shape tensors (`position_ids`, `attention_mask`, `inputs_embeds`) as static CUDA buffers
 - Creates an `ASStaticCache` (KV cache with `max_cache_len = milestone`)
 - Runs one "pre-warmup" forward pass to initialize CUDA kernels
@@ -34,18 +36,21 @@ For each "milestone" sequence length (e.g. 1200 tokens):
 - Stores `(graph, buffers, cache)` as a reusable pair
 
 ### 2️⃣ Decode-time replay (`Qwen3VLModel_Forward`)
+
 - **First call (prefill)**: runs normally through the LM to establish the destination position
 - **Subsequent decode tokens**: `AutoTensorLand` copies the real dynamic tensors (new token embedding, updated attention mask, position IDs) into the pre-allocated static buffers, then calls `graph.replay()` to execute the captured graph without Python dispatch overhead
 
 ### 3️⃣ Custom KV Cache (`ASStaticCache`)
+
 Extends HuggingFace's `StaticCache` with:
+
 - A `reset()` that fills `cumulative_length` to `max_cache_len` (tricks the position-aware layers into correct behavior)
 - An `update()` that slices KV states to only the `done` portion (`cache_position.shape[0]`) — critical because CUDA Graphs need fixed tensor shapes but the actual KV content grows each step
 
 ## Key optimizations
 
 | Technique | Where |
-|-----------|-------|
+| ----------- | ------- |
 | **CUDA Graph capture/replay** | `register_graph()` → `graph.replay()` |
 | **`channels_last_3d`** memory format | Vision patch embed Conv3d |
 | **TF32 on matmul & cudnn** | `allow_tf32 = True` |

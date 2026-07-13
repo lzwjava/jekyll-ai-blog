@@ -20,7 +20,9 @@ type: note
 ## 工作原理（3 个阶段）
 
 ### 1️⃣ Graph 注册 (`register_graph`)
+
 对于每个“里程碑”序列长度（例如 1200 tokens）：
+
 - 预分配固定形状的张量（`position_ids`、`attention_mask`、`inputs_embeds`）作为静态 CUDA 缓冲区
 - 创建一个 `ASStaticCache`（KV cache，`max_cache_len = milestone`）
 - 运行一次“预热”前向传播以初始化 CUDA 内核
@@ -28,18 +30,21 @@ type: note
 - 存储 `(graph, buffers, cache)` 作为可重用对
 
 ### 2️⃣ 解码时重放 (`Qwen3VLModel_Forward`)
+
 - **首次调用（prefill）**：正常通过 LM 运行以建立目标位置
 - **后续解码 token**：`AutoTensorLand` 将真实的动态张量（新 token 嵌入、更新后的 attention mask、position IDs）复制到预分配的静态缓冲区中，然后调用 `graph.replay()` 执行捕获的图，无需 Python 调度开销
 
 ### 3️⃣ 自定义 KV Cache (`ASStaticCache`)
+
 扩展 HuggingFace 的 `StaticCache`，包含：
+
 - 一个 `reset()` 方法，将 `cumulative_length` 填充为 `max_cache_len`（使位置感知层行为正确）
 - 一个 `update()` 方法，将 KV 状态切片为仅 `done` 部分（`cache_position.shape[0]`）——这一点至关重要，因为 CUDA Graph 需要固定张量形状，但实际 KV 内容每步都在增长
 
 ## 关键优化
 
 | 技术 | 位置 |
-|------|------|
+| ------ | ------ |
 | **CUDA Graph 捕获/重放** | `register_graph()` → `graph.replay()` |
 | **`channels_last_3d`** 内存格式 | 视觉 patch 嵌入 Conv3d |
 | **matmul 和 cudnn 上的 TF32** | `allow_tf32 = True` |

@@ -69,7 +69,7 @@ HuggingFace 的 `StaticCache` 使用 `cache_position` 来知道写入缓存的�
 ## 总结：`ASStaticCache` 的特殊之处
 
 | 特性 | 原版 `StaticCache` | `ASStaticCache` |
-|---|---|---|
+| --- | --- | --- |
 | **分配方式** | 动态增长，可重新分配 | 固定为 `max_cache_len`——兼容图 |
 | **更新方式** | 写入所有传入的状态 | 切片到 `:done`——防止填充污染 |
 | **重置方式** | 将长度设为 0 | 将 `cumulative_length` 设为 `max_cache_len`——伪造完整缓存 |

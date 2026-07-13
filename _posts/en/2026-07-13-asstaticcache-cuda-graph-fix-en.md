@@ -69,7 +69,7 @@ HuggingFace's `StaticCache` uses `cache_position` to know where in the cache to 
 ## Summary: what makes `ASStaticCache` special
 
 | Feature | Stock `StaticCache` | `ASStaticCache` |
-|---|---|---|
+| --- | --- | --- |
 | **Allocation** | Grows dynamically, re-allocatable | Fixed once at `max_cache_len` — graph-compatible |
 | **Update** | Writes all incoming states | Slices to `:done` — prevents padding contamination |
 | **Reset** | Sets length to 0 | Sets `cumulative_length` to `max_cache_len` — fakes full cache |
