@@ -442,7 +442,7 @@ distill
 
 ---
 
-# If I rank your next 12 months:
+# If I rank your next 12 months
 
 Given your background:
 

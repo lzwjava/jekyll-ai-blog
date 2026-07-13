@@ -304,7 +304,7 @@ Learn after fundamentals.
 
 # What I would do if I were you
 
-## Next 3 months:
+## Next 3 months
 
 ### Project 1
 

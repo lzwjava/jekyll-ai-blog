@@ -12,6 +12,7 @@ type: note
 ## Your Current Position (from evidence in your notes + portfolio)
 
 **Done:**
+
 - GPT-2 124M from scratch (SEC filings, RTX 4070, val loss 2.28)
 - GPT-2 760M on MI300X (nanochat experiments)
 - nanoGPT fork with 45 commits (dataset pipelines, training configs, shape annotations)
@@ -23,6 +24,7 @@ type: note
 - 10K+ blog posts + 9.7K+ AI notes
 
 **Read about but not yet implemented:**
+
 - MoE routing in your own code
 - MLA from scratch
 - FlashAttention kernel-level understanding
@@ -86,7 +88,7 @@ nanoGPT-MLA on RTX 4070
 ### What to skip (for now)
 
 | Direction | Skip reason |
-|-----------|-------------|
+| ----------- | ------------- |
 | FlashAttention kernel | Important but your RTX 4070 doesn't need custom kernels — PyTorch SDPA + FlashAttn-v2 works. Come back when you hit inference bottlenecks |
 | RLHF/GRPO | Poor hardware fit (needs reward model, multi-stage training). Learn later via distillation axis |
 | Big model training | H200 10h bursts are fine for teacher generation. Don't make it your identity |
@@ -99,17 +101,20 @@ nanoGPT-MLA on RTX 4070
 Don't buy 3 machines immediately. Your current build plan should be:
 
 **Phase 1 (now, 0 new GPUs):**
+
 - RTX 4070 (main dev + MoE training)
 - MI50 (ROCm exploration on the side)
 
 Run MoE experiments on the 4070 for 2 months. You'll learn exactly what bottlenecks matter.
 
 **Phase 2 (after MoE experiments reveal the bottleneck):**
+
 - If VRAM-limited: add a used RTX 3060 12GB (~$150-200) for parallel experiments
 - If compute-limited: H200 RunPod for 24-48h monthly (large MoE training)
 - The MI50 is for ROCm learning, not productivity
 
 **H200 usage pattern:**
+
 - Monthly 24-48h burst, not weekly
 - Use for: large MoE training runs (760M+), teacher generation for distillation
 - Do NOT use for: daily iteration, debugging, architecture changes
@@ -126,6 +131,7 @@ Better:
 > **"I train small efficient LLMs from scratch and understand every layer."**
 
 This connects:
+
 - Your nanoGPT work (you already own from-scratch training)
 - Your planned MoE + MLA implementations
 - Your hardware constraints turned into advantage

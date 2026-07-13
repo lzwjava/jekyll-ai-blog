@@ -50,6 +50,7 @@ So the build:
 This is why your "10 hours isn't enough" feeling is correct but you were solving the wrong problem — you don't need H200 to be always-on, you need the *rollout generation* to be always-on (that's the part that benefits from 24/7 availability, since RL needs a constant stream of fresh samples), and only rent H200 for the short, spiky optimizer-step compute. That's a much cheaper shape: MI50s running continuously at near-zero marginal cost, H200 rented in short bursts synced against a checkpoint.
 
 Practical setup notes for the MI50s specifically:
+
 - Ubuntu 24.04 + ROCm 6.4.3 (community reports this as the stable combo for gfx906; AMD's official installer no longer targets it, so expect to add repos manually).
 - Use `nlzy/vllm-gfx906` (or the maintained `mixa3607/ML-gfx906` docker builds) rather than upstream vLLM — upstream doesn't target gfx906 anymore.
 - Quantize everything you serve on the MI50s (GPTQ/AWQ) — unquantized models run "slightly slow," quantized MoE models specifically are reported as "significantly slow" on this fork, so if your reference/reward model is MoE (e.g. DeepSeek-V2-Lite), budget extra latency or keep the MoE model as the thing you train on H200/4070 instead of serving from MI50.
@@ -58,6 +59,7 @@ Practical setup notes for the MI50s specifically:
 What research this hardware profile is actually *for*: not "train a bigger model" — you can't, VRAM and flops cap you around 760M-1B realistically. It's for **iterating fast on the RL loop itself** (reward design, KL/entropy ablations, environment/tool-use tasks, distillation pipeline) cheaply and continuously, then using rented H200 hours surgically for the few actual training runs that need real throughput. That's a more defensible research niche than "I trained a bigger model" anyway — cheap-hardware RL-loop engineering is exactly the skill gap most well-funded labs don't have because they never had to solve it.
 
 References:
+
 - [vllm-gfx906 — vLLM fork for MI50/MI60/Radeon VII](https://github.com/nlzy/vllm-gfx906)
 - [ROCm Device Support Wishlist — MI50 status, ROCm 6.4.3 setup](https://github.com/ROCm/ROCm/discussions/4276)
 - [AMD GPUs for LLM inference — MI50 specs, deprecation status](https://llm-tracker.info/howto/AMD-GPUs)

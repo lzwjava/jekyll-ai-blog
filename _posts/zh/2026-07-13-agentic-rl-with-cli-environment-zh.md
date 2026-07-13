@@ -65,6 +65,7 @@ def group_advantages(rewards, group_size):
 回答你朋友的单句总结：**“基于智能体的 RL 后训练，带有显式 KL 控制，使用我自己的预训练模型和我自己的工具调用代理作为环境——因为这是我已经在使用的实验室正在招聘的方向，也是我唯一已经拥有整个栈而不是重新实现别人成果的前沿方向。”**
 
 参考文献：
+
 - [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO source paper)](https://arxiv.org/pdf/2402.03300)
 - [Deep Dive into GRPO — implementation walkthrough](https://medium.com/@abhirupgupta123/deep-dive-into-grpo-03826359836c)
 - [An unusual look at the KL-divergence term in DeepSeek R1 (k3 estimator explained)](https://aiwithmike.substack.com/p/an-unusual-look-of-the-kl-divergence)

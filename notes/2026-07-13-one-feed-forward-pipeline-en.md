@@ -18,6 +18,7 @@ Here's the full synthesis of all four sources of evidence — your portfolio, yo
 Reading across all your artifacts, your actual state is:
 
 **Already proven:**
+
 - GPT-2 124M from scratch on RTX 4070 (SEC filings, val loss 2.28, deployed chatbot)
 - GPT-2 760M from scratch on MI300X (nanochat config)
 - nanoGPT fork with 45 commits, 6 training configs, dataset pipelines
@@ -30,6 +31,7 @@ Reading across all your artifacts, your actual state is:
 - ~70K monthly page views on blog, 10K+ posts, 9.7K+ AI answer notes
 
 **Studied but not yet implemented in code:**
+
 - MoE routing
 - Multi-head Latent Attention (MLA)
 - GRPO / RL post-training
@@ -37,6 +39,7 @@ Reading across all your artifacts, your actual state is:
 - FlashAttention kernel-level mechanics
 
 **Hardware in hand or incoming:**
+
 - RTX 4070 12GB (active, daily driver)
 - MI50 x2-3 at repair shop (ROCm status TBD, 16GB HBM2 each if healthy)
 - RunPod H200 burst (10-hour sessions, occasional)
@@ -70,6 +73,7 @@ Don't choose between MoE and RL. They are not separate projects — they are ste
 **Why first:** Your MI50s are unconfirmed. You need a guaranteed output in weeks, not months. MoE in nanoGPT is ~150 lines of code — swap the dense FFN for an 8-expert top-2 router with load balancing loss. You can train it on RTX 4070 tonight. No hardware dependency.
 
 **Concrete steps:**
+
 1. Implement `class MoEFFN(nn.Module)` with `top_k=2`, `n_experts=8`, load balancing loss
 2. Replace `MLP` in your nanoGPT with `MoEFFN` (gated by model config: `use_moe=True`)
 3. Train GPT-2 124M config on RTX 4070 — compare dense vs MoE loss curves
@@ -81,6 +85,7 @@ This is **determinate** — you will have a working MoE in 3 weeks. No "waiting 
 ### Phase 2 — Week 4: Hardware assessment breakpoint
 
 By week 4 you'll know:
+
 - Are the MI50s healthy? Does ROCm 6.4.3 + vllm-gfx906 work?
 - If yes → you now have cheap always-on inference. This changes the RL plan's scope.
 - If no → you still do RL on RTX 4070 alone. Smaller scale (124M), same algorithm, same learning.
@@ -122,6 +127,7 @@ Use a single H200 10-hour burst to run the 760M full GRPO backward pass — conf
 One paper: **"Agentic RL Post-Training on Consumer Hardware: MoE vs Dense Policies with Your Own CLI Environment."**
 
 Sections:
+
 - Architecture: MoE implementation in nanoGPT
 - Environment: CLI tool-calling tasks via iclaw
 - Algorithm: GRPO with k3 KL ablation
@@ -133,7 +139,7 @@ Sections:
 ## What to Deprioritize This Quarter
 
 | Item | Why skip now |
-|---|---|
+| --- | --- |
 | MLA from scratch | Do it after MoE + RL are done. MLA is a Day-2 architecture swap, the same pattern as MoE. |
 | FlashAttention kernel | RTX 4070 doesn't need custom kernels — PyTorch SDPA works. Come back if you hit inference bottlenecks. |
 | Rotary / Muon | Drop-in changes, not research. Add RoPE to nanoGPT in one afternoon. Swap AdamW→Muon as a config flag. |

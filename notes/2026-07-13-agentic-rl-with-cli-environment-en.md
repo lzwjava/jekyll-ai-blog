@@ -65,6 +65,7 @@ What to explicitly deprioritize this quarter: Rotary and Muon are drop-in — yo
 The single sentence to answer your friend with: **"Agentic RL post-training with explicit KL control, using my own pretrained model and my own tool-calling agent as the environment — because it's what the labs I already use are hiring for, and it's the one frontier direction where I already own the entire stack instead of reimplementing someone else's."**
 
 References:
+
 - [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO source paper)](https://arxiv.org/pdf/2402.03300)
 - [Deep Dive into GRPO — implementation walkthrough](https://medium.com/@abhirupgupta123/deep-dive-into-grpo-03826359836c)
 - [An unusual look at the KL-divergence term in DeepSeek R1 (k3 estimator explained)](https://aiwithmike.substack.com/p/an-unusual-look-of-the-kl-divergence)

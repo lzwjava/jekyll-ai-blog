@@ -18,6 +18,7 @@ type: note
 阅读你所有的工作成果，你的实际状态是：
 
 **已证明：**
+
 - 从零开始训练GPT-2 124M（RTX 4070，SEC文件，验证损失2.28，已部署聊天机器人）
 - 从零开始训练GPT-2 760M（MI300X，nanochat配置）
 - nanoGPT分支，45次提交，6个训练配置，数据集管道
@@ -30,6 +31,7 @@ type: note
 - 博客月访问量约7万，帖子1万+，AI问答笔记9700+
 
 **已学习但尚未在代码中实现：**
+
 - MoE路由
 - 多头潜在注意力（MLA）
 - GRPO / RL后训练
@@ -37,6 +39,7 @@ type: note
 - FlashAttention内核级机制
 
 **已拥有或即将拥有的硬件：**
+
 - RTX 4070 12GB（活跃，日常使用）
 - MI50 x2-3在维修店（ROCm状态待定，若正常则每块16GB HBM2）
 - RunPod H200突发（10小时会话，偶尔使用）
@@ -70,6 +73,7 @@ MoE笔记是在**MI50进入你的计划之前**、以及没有意识到iclaw/ww�
 **为什么先做：** 你的MI50尚未确认。你需要一个在几周内（而非几个月）有保证的输出。在nanoGPT中实现MoE只需约150行代码——将密集FFN替换为带负载均衡损失的8专家top-2路由器。你今晚就可以在RTX 4070上训练它。不依赖硬件。
 
 **具体步骤：**
+
 1. 实现 `class MoEFFN(nn.Module)`，包含 `top_k=2`，`n_experts=8`，负载均衡损失
 2. 在你的nanoGPT中将 `MLP` 替换为 `MoEFFN`（通过模型配置 `use_moe=True` 控制）
 3. 在RTX 4070上训练GPT-2 124M配置——比较密集与MoE的损失曲线
@@ -81,6 +85,7 @@ MoE笔记是在**MI50进入你的计划之前**、以及没有意识到iclaw/ww�
 ### 阶段2 — 第4周：硬件评估断点
 
 到第4周，你将知道：
+
 - MI50是否正常？ROCm 6.4.3 + vllm-gfx906是否工作？
 - 如果正常 → 你现在拥有廉价的始终在线推理。这会改变RL计划的范围。
 - 如果不正常 → 你仍然在RTX 4070上单独做RL。规模更小（124M），但算法相同，学习内容相同。
@@ -122,6 +127,7 @@ def grpo_loss(logp_new, logp_old, logp_ref, advantages, mask, eps=0.2, beta=0.04
 一篇论文：**“在消费级硬件上基于代理的RL后训练：MoE与密集策略结合你自己的CLI环境”**
 
 章节：
+
 - 架构：nanoGPT中的MoE实现
 - 环境：通过iclaw进行的CLI工具调用任务
 - 算法：带k3 KL消融的GRPO
@@ -133,7 +139,7 @@ def grpo_loss(logp_new, logp_old, logp_ref, advantages, mask, eps=0.2, beta=0.04
 ## 本季度应降低优先级的事项
 
 | 项目 | 为什么现在跳过 |
-|---|---|
+| --- | --- |
 | 从零实现MLA | 等MoE和RL完成后再做。MLA是第二天的架构替换，与MoE模式相同。 |
 | FlashAttention内核 | RTX 4070不需要自定义内核——PyTorch SDPA就够用。如果遇到推理瓶颈再回来。 |
 | Rotary / Muon | 即插即用更改，非研究性。一下午就能把RoPE加到nanoGPT。将AdamW→Muon作为配置标志。 |
