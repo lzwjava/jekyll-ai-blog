@@ -53,6 +53,7 @@ Plug in u = c:
 That's the whole "trick" — it's not smuggling in observer-invariance as an extra unjustified axiom, it's the *unique* transform consistent with both postulates. The Lorentz factor γ isn't decoration, it's what makes "c is the same for source and observer simultaneously" non-contradictory: your clock runs slow and your ruler contracts (from the other frame's view) by exactly the amount needed to keep the ratio distance/time = c invariant.
 
 **4. Additional independent confirmations beyond MM/KT:**
+
 - Ives-Stilwell (1938) — direct measurement of relativistic time dilation via transverse Doppler shift in fast-moving ion beams.
 - Alväger et al. (1964, CERN) — photons from decaying π⁰ mesons moving at 0.99975c measured at c to within 400 ppm — this is the direct source-velocity test, ruling out any "ballistic"/emission theory where γ speed = c + v_source.
 - GPS satellite clock corrections — both special-relativistic time dilation and general-relativistic gravitational time dilation are engineered in; if observer-frame invariance of c were wrong, GPS positioning would drift by kilometers per day.
@@ -60,6 +61,7 @@ That's the whole "trick" — it's not smuggling in observer-invariance as an ext
 **Bottom line:** Wang Yin correctly identifies that people conflate the two invariances, and that's a fair pedagogical point — most textbooks are sloppy about it. But his conclusion, that the observer-independence half is an *unverified assumption* Einstein snuck in, is factually false. It's the specific thing MM/KT-type experiments were designed to test, and it's held up to 10⁻¹² precision. Wang Yin is a programmer/PL-design blogger known for contrarian takes across many fields (education, politics, Lisp/Haskell, now physics) — worth reading for the "make you re-derive it yourself" value, but this particular claim doesn't survive contact with the experimental literature.
 
 References:
+
 - [Kennedy–Thorndike experiment - Wikipedia](https://en.wikipedia.org/wiki/Kennedy%E2%80%93Thorndike_experiment)
 - [The light speed vs the observer: the Kennedy-Thorndike test from GRAAL-ESRF (arXiv:1807.08551)](https://arxiv.org/abs/1807.08551)
 - [Michelson–Morley experiment - Wikipedia](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)

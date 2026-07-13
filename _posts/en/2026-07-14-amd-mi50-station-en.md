@@ -11,7 +11,7 @@ translated: false
 ### Recommended Workstation Configuration
 
 | Component | Recommended Model | JD.com Availability |
-|-----------|-------------------|---------------------|
+| ----------- | ------------------- | --------------------- |
 | **GPU** | AMD Radeon Instinct MI50 16GB/32GB | Second-hand market only (not on JD) |
 | **CPU** | AMD EPYC 7002 series (e.g., EPYC 7642, 48 cores) | Search "AMD 霄龙" |
 | **Motherboard** | Supermicro H11DSi (Dual EPYC, E-ATX, 7 PCIe 4.0 x16 slots) | Search "超微 H11DSi" |

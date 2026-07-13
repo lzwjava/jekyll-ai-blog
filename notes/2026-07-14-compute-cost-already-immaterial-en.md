@@ -50,6 +50,7 @@ The honest answer: **it barely moves your headline margin, because compute was a
 Net: DeepSeek V4 Flash doesn't change your business model — token cost was already a non-issue — but it does let you push agent autonomy further per human-hour of oversight, which is the actual constraint on how many concurrent projects 2-3 people can run.
 
 References:
+
 - [DeepSeek V4 Flash — Benchmarks, Pricing & Flash vs Pro](https://codersera.com/blog/deepseek-v4-flash-deep-dive/)
 - [DeepSeek V4 Flash Review — CodingFleet](https://codingfleet.com/blog/deepseek-v4-flash-review-028-developer/)
 - [DeepSeek V4 Flash — API Pricing & Benchmarks, OpenRouter](https://openrouter.ai/deepseek/deepseek-v4-flash)

@@ -50,6 +50,7 @@ Sonnet 5 混合成本（先前）：   28.8 人民币/M
 总结：DeepSeek V4 Flash 不会改变你的商业模式 —— token 成本本来就不是问题 —— 但它确实让你在每单位人力监督时间内进一步推动代理自主性，而这才是 2-3 人能够同时运行多少个并发项目的真正限制因素。
 
 参考：
+
 - [DeepSeek V4 Flash — 基准测试、定价及 Flash vs Pro](https://codersera.com/blog/deepseek-v4-flash-deep-dive/)
 - [DeepSeek V4 Flash 评测 — CodingFleet](https://codingfleet.com/blog/deepseek-v4-flash-review-028-developer/)
 - [DeepSeek V4 Flash — API 定价与基准测试，OpenRouter](https://openrouter.ai/deepseek/deepseek-v4-flash)

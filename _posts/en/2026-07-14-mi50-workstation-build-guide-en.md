@@ -20,7 +20,7 @@ type: note
 ### Recommended Workstation Configuration
 
 | Component | Recommended Model | JD.com Availability |
-|-----------|-------------------|---------------------|
+| ----------- | ------------------- | --------------------- |
 | **GPU** | AMD Radeon Instinct MI50 16GB/32GB | Second-hand market only (not on JD) |
 | **CPU** | AMD EPYC 7002 series (e.g., EPYC 7642, 48 cores) | Search "AMD 霄龙" |
 | **Motherboard** | Supermicro H11DSi (Dual EPYC, E-ATX, 7 PCIe 4.0 x16 slots) | Search "超微 H11DSi" |
@@ -64,6 +64,7 @@ For multi-GPU setups, an EPYC CPU with **128 PCIe lanes** is essential. The **EP
 #### 5. Power Supply: 1250W–1650W
 
 Each MI50 draws ~160-190W. For dual-GPU:
+
 - Minimum: 1250W Gold
 - Recommended: 1650W Gold
 - Search **"航嘉 重火力 IP1650G"** (¥1,199) or **"工作站 电源"** on JD
@@ -71,6 +72,7 @@ Each MI50 draws ~160-190W. For dual-GPU:
 #### 6. Cooling
 
 **For MI50**: The card lacks a fan. Common DIY solutions:
+
 - Turbo fan + heatsink shell (~¥35 total)
 - 50mm fans per GPU (2 fans recommended)
 - Water cooling option (~¥59)

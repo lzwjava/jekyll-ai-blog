@@ -44,6 +44,7 @@ The constraint isn't typing speed anymore — a traditional shop needed 5-10 dev
 **3. The "client deeply joins" partner case:**
 
 Since your marginal cost per project is ~1-2% of the fee, the profitable move isn't maximizing token markup — it's maximizing deal flow and reducing your own review burden. Two structures work:
+
 - **Reduced cash + rev-share/equity**: client puts up domain knowledge + real user feedback loop, you put up engineering + agent orchestration, split ongoing revenue (GMV cut, subscription %) instead of a flat fee. Makes sense when the client is doing something you believe will actually get traction — you're underwriting some of the build cost with upside.
 - **Retainer, not one-off fee**: since agents make revisions nearly free, bill monthly for "keep shipping and maintaining this" rather than a fixed-scope contract. Aligns incentives — you're not penalized for shipping fast, and you capture ongoing value instead of a single payout.
 
@@ -57,6 +58,7 @@ Right now you're still the bottleneck reviewing every diff. Once agents run mult
 - **Practical move**: position now as the "trusted operator" layer — infra decisions, data/privacy calls, taste on UX and business logic, and the relationship — not as a code shop. Price on outcomes (retainer + rev-share) rather than tokens or even project fees, because by the time long-horizon agents are mature, tokens will be too cheap to itemize and project fees will be under constant deflationary pressure from clients who can partially self-serve.
 
 References:
+
 - [Anthropic Claude Platform Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 - [AI Coding Costs 2026 — token math, Claude vs Codex vs Gemini](https://www.morphllm.com/ai-coding-costs)
 - [微信小程序开发报价指南 2026 - 知乎](https://zhuanlan.zhihu.com/p/2017906562824447318)
