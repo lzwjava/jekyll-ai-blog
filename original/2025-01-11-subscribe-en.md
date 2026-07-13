@@ -71,6 +71,10 @@ Social Impact:
 
 Connect with me on these platforms:
 
+- **WeChat Video**: Scan to follow my video channel
+- **WeChat**: Scan to add me on WeChat
+- **WhatsApp**: Scan to chat on WhatsApp
+
 ![](assets/images/contact/wechat_video.jpg){: .responsive }
 ![](assets/images/contact/wechat.jpg){: .responsive }
 ![](assets/images/contact/whatsapp.jpg){: .responsive }
