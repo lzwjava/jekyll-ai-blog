@@ -8,12 +8,12 @@ title: Course Collection — Myopia, English, Kids, Digital Life
 translated: false
 ---
 
-I'm offering a series of practical courses. 50 CNY per session (30 minutes). Pay per session, no package required. I'm happy to share what I've learned across four areas: myopia reversal, English learning, kid education, and digital life.
+I'm offering a series of practical courses. 50 CNY per session (30 minutes). Pay per session, no package required. I'm happy to share what I've learned across five areas: myopia reversal, English learning, kid education, digital life, and software issue fix.
 
 ## My Background
 
 - Male, born in 1995, Chinese citizen, resides in Guangzhou. Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
-- Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and TEKsystems (outsourced to a UK-based international bank).
+- Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and a global IT outsourcing company (outsourced to a UK-based international bank).
 - Accumulated 11 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
 - Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
 - Fun Live — [GitHub](https://github.com/lzwjava/live-mobile-web), a WeChat-powered technical live streaming platform for developers focusing on iOS, Android, backend, and AI content. Operated from 2016 to 2017 with around 30k users.
@@ -166,8 +166,41 @@ I have curated my digital ecosystem over years. My home screen, daily apps, and 
 
 ---
 
+## Course 5: Software Issue Fix
+
+I've accumulated 11 years of professional experience across mobile (Android, iOS), full-stack engineering, cloud platforms, and AI. I can help with software issues on any platform — Linux, Windows, or macOS — from quick configuration tweaks to deep debugging sessions.
+
+### What I Can Help With
+
+- **Any platform** — Linux (Ubuntu, Fedora, Arch), macOS, Windows. Desktop, server, or embedded.
+- **Difficult or easy** — from "how do I install this package" to "why is my kernel module crashing."
+- **Open source preferred** — I believe in open source solutions. If there's a good FOSS tool for the job, that's what I'll recommend.
+- **Half-hour sessions** — many software issues can be diagnosed and fixed in 30 minutes. You describe the problem, I guide you through the solution live.
+- **Mobile device issues** (iOS/Android) — boot loops, app crashes, ADB/fastboot, jailbreaking/rooting concepts, sideloading, configuration profiles, and troubleshooting app behavior.
+- **Development environment setup** — compilers, interpreters, package managers, IDEs, emulators, simulators, and CI runners.
+- **Network and connectivity** — VPN, proxy, firewall, DNS, SSH tunneling, certificate issues, and debugging network stacks.
+- **System administration** — process management, logging, file permissions, disk space, systemd, cron, backups, and shell scripting.
+- **Docker and containers** — Dockerfiles, compose files, container networking, volume mounts, image optimization, and debugging containerized apps.
+- **Performance and debugging** — profiling CPU/memory/disk, reading stack traces, analyzing crash dumps, and fixing memory leaks.
+- **Git and version control** — merge conflicts, rebase disasters, submodule issues, lost commits, and workflow automation.
+- **AI tooling issues** — trouble with Ollama, llama.cpp, CUDA toolkit, GPU passthrough, model loading errors, or Python environment conflicts.
+
+### Sample Topics
+
+- "My Linux machine won't boot after an update — help"
+- "Docker container keeps restarting and I don't know why"
+- "How do I set up a development environment for Android on macOS?"
+- "My Wi-Fi keeps dropping on Ubuntu — what logs do I check?"
+- "I broke my git history with a bad rebase — can we fix it?"
+- "My Python virtualenv is broken after a macOS update"
+- "How do I sideload an app on my Android phone?"
+- "I want to run a local LLM but CUDA says out of memory"
+- "My iPhone won't sync with iTunes / Finder"
+
+---
+
 ## Why 50 CNY / 30 min?
 
 I want this to be accessible. 50 CNY is less than a bubble tea. One session is short enough to fit into a busy day but long enough to learn something concrete. You don't commit to 10 lessons — just show up for what you need.
 
-This is not a course. It's coaching across four real areas where I have hands-on experience — myopia reversal, English learning, kid education, and digital life. You bring what you're working on, and I help you get results.
+This is not a course. It's coaching across five real areas where I have hands-on experience — myopia reversal, English learning, kid education, digital life, and software issue fix. You bring what you're working on, and I help you get results.
