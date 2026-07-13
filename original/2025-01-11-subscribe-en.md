@@ -66,3 +66,11 @@ Social Impact:
 | [Weibo](https://weibo.com/zhiweilee) | 3158 |
 | [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
 | [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
+| [GitHub](https://github.com/lzwjava) | 872 |
+| [HuggingFace](https://huggingface.co/lzwjava) | 3 |
+
+Connect with me on these platforms:
+
+![](assets/images/contact/wechat_video.jpg){: .responsive }
+![](assets/images/contact/wechat.jpg){: .responsive }
+![](assets/images/contact/whatsapp.jpg){: .responsive }
