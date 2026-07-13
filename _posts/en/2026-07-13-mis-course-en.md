@@ -13,7 +13,7 @@ I'm offering a series of practical courses. 50 CNY per session (30 minutes). Pay
 ## My Background
 
 - Male, born in 1995, Chinese citizen, resides in Guangzhou. Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
-- Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and TEKsystems (outsourced to a UK-based international bank).
+- Previous experience includes LeanCloud, Beijing Square Root, Beyondsoft (outsourced to a Singapore bank), Farben Information (outsourced to a UK-based international bank) and a global IT outsourcing company (outsourced to a UK-based international bank).
 - Accumulated 12 years of professional experience. Specializes in mobile (Android, iOS) and full-stack engineering, with 1 year in machine learning/big data.
 - Good understanding of HTML, CSS, JavaScript, Vue, React, Angular, iOS/Android, Java, Spring, MySQL, Redis, distributed systems, and cloud platforms (Alibaba Cloud, AWS, Azure).
 - Fun Live — [GitHub](https://github.com/lzwjava/live-mobile-web), a WeChat-powered technical live streaming platform for developers focusing on iOS, Android, backend, and AI content. Operated from 2016 to 2017 with around 30k users.
@@ -168,7 +168,7 @@ I have curated my digital ecosystem over years. My home screen, daily apps, and 
 
 ## Course 5: Software Issue Fix
 
-I've accumulated 11 years of professional experience across mobile (Android, iOS), full-stack engineering, cloud platforms, and AI. I can help with software issues on any platform — Linux, Windows, or macOS — from quick configuration tweaks to deep debugging sessions.
+I've accumulated 12 years of professional experience across mobile (Android, iOS), full-stack engineering, cloud platforms, and AI. I can help with software issues on any platform — Linux, Windows, or macOS — from quick configuration tweaks to deep debugging sessions.
 
 ### What I Can Help With
 
