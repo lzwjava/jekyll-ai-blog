@@ -4,7 +4,7 @@ generated: true
 image: false
 lang: en
 layout: post
-title: `ll uno` Arduino Serial Monitor
+title: "'ll uno' Arduino Serial Monitor"
 translated: false
 type: note
 ---
