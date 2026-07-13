@@ -13,13 +13,13 @@ translated: true
 ## 我的背景
 
 - 男，1995年出生，中国公民，现居广州。2011年广东NOIP排名前300，在线解决约1000道算法题。
-- 曾任职于LeanCloud、北京平方根、博彦科技（外派至新加坡银行）、法本信息（外派至英资国际银行）以及一家全球IT外包公司（外派至英资国际银行）。
-- 累计11年专业经验。擅长移动端（Android、iOS）和全栈工程，有1年机器学习/大数据经验。
-- 对HTML、CSS、JavaScript、Vue、React、Angular、iOS/Android、Java、Spring、MySQL、Redis、分布式系统以及云平台（阿里云、AWS、Azure）有深入理解。
-- 趣直播 — [GitHub](https://github.com/lzwjava/live-mobile-web)，一个基于微信的技术直播平台，面向iOS、Android、后端和AI内容的开发者。运营时间2016至2017年，约3万用户。
-- 个人博客 — [lzwjava.github.io](https://lzwjava.github.io)，一个AI驱动的一站式博客系统，具备AI翻译等功能。运营时间2021年至今，月均浏览量约6万（Cloudflare）。
-- 母语为中文，英语熟练（雅思6.5）。已阅读超过320本书。
-- AI爱好者——在H200、AMD MI300X和RTX 4070 GPU上训练过小型LLM（nanoGPT），并使用OpenRouter和Claude Code构建项目（约30亿token消耗）。
+- 此前经历包括LeanCloud、北京平方根、博彦科技（外派至新加坡某银行）、法本信息（外派至英国某国际银行）以及TEKsystems（外派至英国某国际银行）。
+- 累计12年专业经验。专注于移动端（Android、iOS）和全栈工程，有1年机器学习/大数据经验。
+- 熟练掌握HTML、CSS、JavaScript、Vue、React、Angular、iOS/Android、Java、Spring、MySQL、Redis、分布式系统以及云平台（阿里云、AWS、Azure）。
+- 趣直播 — [GitHub](https://github.com/lzwjava/live-mobile-web)，一个基于微信的面向iOS、Android、后端和AI内容的技术直播平台。2016年至2017年运营，约有3万用户。
+- 个人博客 — [lzwjava.github.io](https://lzwjava.github.io)，一个AI驱动的一站式博客系统，具备AI翻译等功能。2021年至今运营，月浏览量约6万（Cloudflare）。
+- 母语为中文，英语熟练（雅思6.5分）。阅读超过320本书。
+- AI爱好者——在H200、AMD MI300X和RTX 4070 GPU上训练过小型LLM（nanoGPT），并使用OpenRouter和Claude Code构建过项目（约使用30亿tokens）。
 - 更多详情：[简历](https://lzwjava.github.io/resume-en) · [软件作品集](https://lzwjava.github.io/portfolio-en) · [AI作品集](https://lzwjava.github.io/ai-portfolio-en) · [生活作品集](https://lzwjava.github.io/life-portfolio-en)
 
 ## 课程理念
