@@ -17,4 +17,4 @@ translated: false
 - **Storage**, 长城（Great Wall）1TB SSD固态硬盘 M.2接口(NVMe协议) PCIe4.0x4 GW5000系列 1TB — ¥899
 - **Power Supply**, 利民（Thermalright）额定750W TR-KG750 ATX3.1电源 金牌电源 原生PCIE5.1全模组电源 日系主电容 14CM小电源
 - **Cooling**, DIY fan/heatsink mod for MI50 + CPU tower cooler (Search "AMD MI50 散热")
-- **Chassis**, Dual-tower server/workstation case (Search "工作站 机箱")
+- **Chassis**, 九州风神（DEEPCOOL）CH270立式背插机箱/竖置垂直MATX结构/支持背插主板/兼容360水冷/ATX电源
