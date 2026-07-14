@@ -134,7 +134,7 @@ For someone building AI products, ecosystem often dominates hardware price.
 
 ---
 
-## 3. Your biggest realization is probably this sentence:
+## 3. Your biggest realization is probably this sentence
 
 > 我这边没有主机 买零件新配的话 凑这个二手显卡 又显得因小失大
 

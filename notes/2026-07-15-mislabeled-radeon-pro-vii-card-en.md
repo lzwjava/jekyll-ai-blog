@@ -22,7 +22,8 @@ It’s almost certainly a **mislabeled Radeon Pro VII** (or a card that was conv
 
 ---
 
-### If the card is indeed a Radeon Pro VII (or equivalent with Mini‑DP), the previous “critical – no display” issue **disappears**.
+### If the card is indeed a Radeon Pro VII (or equivalent with Mini‑DP), the previous “critical – no display” issue **disappears**
+
 You’ll get a video signal normally. However, other potential problems remain, and some new ones need attention:
 
 1. **Driver & Software Compatibility (minor but real)**
@@ -48,12 +49,15 @@ You’ll get a video signal normally. However, other potential problems remain, 
 ---
 
 ### Verdict: Is this setup usable?
+
 **Yes, if:**
+
 - You verify the GPU is a Radeon Pro VII (or at least has working Mini‑DP outputs and a fan) and you can install normal drivers.
 - You source an AM4 mounting kit for the cooler.
 - You consider swapping the RAM and SSD to sensibly priced alternatives, saving ~¥500+.
 
 **No, if:**
+
 - The card turns out to be a real MI50 with no video out (despite the ad), and you’re left with no display.
 - The card is a cross‑flashed Pro VII with driver issues you can’t resolve easily.
 
