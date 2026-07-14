@@ -16,10 +16,12 @@ Answer:
 "Ti" = Titanium. It's NVIDIA's suffix for a higher-binned, more fully-enabled version of a base chip, sitting between the plain model and the next tier up.
 
 Concretely, within one GPU die (e.g. GB206 here):
+
 - Non-Ti (RTX 5060): fewer CUDA cores enabled, lower clocks, often less VRAM, lower TDP
 - Ti (RTX 5060 Ti): more cores unlocked on the same die, higher clocks, usually more VRAM/wider bus, higher TDP
 
 Example on this generation:
+
 - RTX 5060 8GB: 3840 CUDA cores, 145W TDP
 - RTX 5060 Ti 16GB: 4608 CUDA cores, 180W TDP, same 128-bit bus but full GDDR7 capacity
 
