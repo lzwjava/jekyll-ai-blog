@@ -21,5 +21,4 @@ translated: false
 | **Cooling** | DIY fan/heatsink mod for MI50 + CPU tower cooler | Search "AMD MI50 散热" |
 | **Chassis** | Dual-tower server/workstation case | Search "工作站 机箱" |
 
-
 * GPU is in Second-hand market only (not on JD) |

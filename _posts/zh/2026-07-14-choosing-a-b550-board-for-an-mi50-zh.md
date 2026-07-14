@@ -18,7 +18,7 @@ type: note
 **芯片组选择：B550，而非 A320/B450。**
 
 | 芯片组 | Above 4G Decoding | 结论 |
-|---|---|---|
+| --- | --- | --- |
 | A320 | 旧固件上经常缺失/不完整 | 避免 |
 | B450 | 部分主板有，早期 BIOS 版本缺失——取决于品牌/AGESA 版本 | 有风险，先确认手册 |
 | B550 | 所有现代 UEFI（2020+）标配，原生 PCIe4 | **推荐** |
@@ -27,6 +27,7 @@ type: note
 购买 B550，省下 X570 的溢价。任何具备全长 x16 插槽的 B550 ATX/mATX 主板均可。
 
 **购买前，请检查具体型号的手册中是否有：**
+
 1. BIOS 中的 `Above 4G Decoding` 开关（搜索“[主板型号] above 4g decoding”——大多数技嘉/华硕/华擎/微星的 B550 主板都位于 Advanced → PCI Subsystem Settings 下）
 2. 两个 8-pin PCIe 接口或电源需提供两个——主板不给 GPU 供电，但请确认机箱空间足够，因为卡体加上被动散热器长度较长
 3. 插槽间距——MI50 是双槽被动散热，因此第二个插槽（M.2 散热片、芯片组风扇）需要留出空间
@@ -37,6 +38,7 @@ type: note
 **实用建议：** 任选一块 B550 主板（技嘉 B550 AORUS Elite、微星 B550-A PRO、华擎 B550M Pro4）+ 一块备用廉价 GPU 或主板自带显示接口（用于初始设置）+ 一个对准 MI50 的被动 120mm 风扇支架，因为该卡出厂不带风扇，采用双槽被动散热，在非服务器机箱中需要强制风道。
 
 参考：
+
 - [MI50 实际 Above 4G Decoding 要求 — Willy Tarreau](http://wtarreau.blogspot.com/2025/12/amd-radeon-instinct-mi50-32gb-best-ai.html)
 - [MI50 VBIOS/BIOS 设置要点](https://gist.github.com/evilJazz/14a4c82a67f2c52a6bb5f9cea02f5e13)
 - [MI50 32GB PCIe 4.0 列表，供电/插槽规格](https://www.ebay.de/itm/397226850914)

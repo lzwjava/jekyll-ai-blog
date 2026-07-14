@@ -18,6 +18,7 @@ type: note
 **目标频率：DDR4-3600，不要更高。**
 
 Zen3（5600）在 1:1 模式下运行 Infinity Fabric Clock（FCLK）和内存时钟（MCLK），最高可达约 1800MHz FCLK = DDR4-3600。超过这个频率，大多数芯片会降为 2:1 模式，这会增加延迟，通常会导致实际性能**更差**，尽管标称频率更高——这是 Zen3 平台已知的特性，并非主板独有问题。因此：
+
 - DDR4-3600 CL16-18 = 甜点频率，保持 1:1 模式
 - DDR4-3200 CL16 = 安全的回退选择，适用于内存控制器体质较差或 3600 套条无法启动的情况
 - DDR4-4000+ = 不值得，你花更多钱买的套条在这颗 CPU 上最终可能运行得更慢
@@ -31,5 +32,6 @@ MI50 16GB 使用 HBM2 进行独立计算——系统内存不在推理的热路�
 **具体推荐：** 2x16GB DDR4-3600 CL18（例如金士顿 FURY Beast 或 Crucial Ballistix 在该频率/时序下的同类产品），如果有双 rank 版本则优先选择。跳过 RGB/高端系列——性能没有区别，只是多花钱。
 
 参考：
+
 - [Zen3 FCLK:MCLK 1:1 与 2:1 内存性能对比](https://www.cpu-monkey.com/en/compare_cpu-amd_ryzen_5_7500f-vs-amd_ryzen_5_5600)
 - [MI50 实际部署中的 BIOS/硬件要求说明](http://wtarreau.blogspot.com/2025/12/amd-radeon-instinct-mi50-32gb-best-ai.html)

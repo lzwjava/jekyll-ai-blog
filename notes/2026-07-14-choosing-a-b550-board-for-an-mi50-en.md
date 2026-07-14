@@ -18,7 +18,7 @@ The CPU doesn't gate you here — the MI50 does. It's a passive, headless comput
 **Chipset pick: B550, not A320/B450.**
 
 | Chipset | Above 4G Decoding | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | A320 | Often missing/incomplete on older firmware | Avoid |
 | B450 | Present on some, absent on early BIOS revisions — depends on brand/AGESA version | Risky, verify manual first |
 | B550 | Standard on all modern UEFI (2020+), PCIe4 native | **Recommended** |
@@ -27,6 +27,7 @@ The CPU doesn't gate you here — the MI50 does. It's a passive, headless comput
 Buy B550, save the X570 premium. Any B550 ATX/mATX board with a full-length x16 slot works.
 
 **Before you buy, check the specific SKU's manual for:**
+
 1. `Above 4G Decoding` toggle in BIOS (search "[board model] above 4g decoding" — most B550 boards from Gigabyte/ASUS/ASRock/MSI have it under Advanced → PCI Subsystem Settings)
 2. Two 8-pin PCIe headers or a PSU that has two — motherboard doesn't power the GPU, but confirm your case has clearance since the card body plus passive heatsink runs long
 3. Slot spacing — MI50 is dual-slot passive, so whatever's in slot 2 (M.2 heatsink, chipset fan) needs clearance
@@ -37,6 +38,7 @@ That last point is the actual gotcha: confirm you have another way to see POST/B
 **Practical recommendation:** any B550 board (Gigabyte B550 AORUS Elite, MSI B550-A PRO, ASRock B550M Pro4) + a spare cheap GPU or the motherboard's own display headers for initial setup + a passive 120mm fan bracket pointed at the MI50, since the card ships without fans on dual-slot passive cooling and needs forced airflow in anything but a server chassis.
 
 References:
+
 - [MI50 real-world Above 4G Decoding requirement — Willy Tarreau](http://wtarreau.blogspot.com/2025/12/amd-radeon-instinct-mi50-32gb-best-ai.html)
 - [MI50 VBIOS/BIOS settings gist](https://gist.github.com/evilJazz/14a4c82a67f2c52a6bb5f9cea02f5e13)
 - [MI50 32GB PCIe 4.0 listing, power/slot specs](https://www.ebay.de/itm/397226850914)

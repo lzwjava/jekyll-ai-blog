@@ -44,6 +44,7 @@ CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_prop
 ```
 
 **购买注意事项（工包/涡轮二手市场）：**
+
 - 优先选择PCB干净且附带压力测试日志的卡——要求卖家在发货前提供`nvidia-smi` + FurMark的日志。
 - 早期批次可能有矿潮时期的LHR（Lite Hash Rate）限制——这对你的AI工作负载无关紧要（LHR仅限制以太坊类哈希运算，不影响CUDA/张量操作），但如果列表吹嘘算力的话值得留意。
 - 如果是矿卡，请检查显存上的导热垫——24小时运行的卡常见显存导热垫老化，表现为显存模块附近出现变色。
@@ -51,6 +52,7 @@ CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_prop
 **总结：** 将这张卡作为廉价专用**推理节点**（量化LLM服务、嵌入生成、Whisper转录）购买，配合你现有的MI300X训练设备使用——而不是作为训练卡。在二手市场价格（12GB版本约180-250美元）下，它很适合作为一个“常开”盒子，用于`ww`/`iclaw` agent推理工作负载，无需占用你的大GPU。
 
 参考资料：
+
 - [NVIDIA GeForce RTX 3060 12GB Specs, Benchmarks & Pricing](https://gpupoet.com/gpu/learn/card/nvidia-geforce-rtx-3060)
 - [Confirmed specs for the NVIDIA GeForce RTX 3060 12GB](https://www.dsogaming.com/news/confirmed-specs-nvidia-geforce-rtx-3060-12gb/)
 - [How to Buy a Used RTX 3060 — 2025 Guide](https://electronics.alibaba.com/buyingguides/used-rtx-3060-buying-guide-what%E2%80%99s-worth-it-in-2025)

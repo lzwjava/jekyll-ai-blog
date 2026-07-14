@@ -30,6 +30,7 @@ H81搭配Haswell/Celeron——总共只有16条CPU通道，DMI 2.0芯片组上�
 MI50是gfx906。ROCm 5.7.0是最后一个完全支持gfx906 GPU的主要版本——错误修复仅持续到2024年第二季度维护结束。根据ROCm追踪器当前状态：MI50仍受到代码的很好支持，但AMD不再为其构建官方软件包——您需要自己构建ROCm或使用社区构建，Arch Linux通过pacman轻松打包。有一个2025年的开放功能请求要求恢复官方支持，但AMD尚未采取行动。
 
 您的实际路径：
+
 - 带有ROCm后端的llama.cpp可以工作，但在较新模型上出现过回归——最近的Qwen3.5测试显示ROCm后端因rocBLAS `hipErrorInvalidDeviceFunction`错误而崩溃，而Vulkan后端在gfx906上工作正常。如果您走这条路，请准备好Vulkan备用方案。
 - 对于GPT-2规模的训练/微调（您的MI300X工作），计划使用自行编译的ROCm 6.x用于gfx906，或使用Arch系统，而不是Ubuntu的默认ROCm软件包。
 - 16GB HBM2 @ 1.02 TB/s带宽对于这个价位的推理工作负载来说确实不错——这部分信息是准确的。
@@ -39,6 +40,7 @@ MI50是gfx906。ROCm 5.7.0是最后一个完全支持gfx906 GPU的主要版本�
 结论：它可以物理安装，但请首先确认您的特定H81 BIOS变种中存在Above 4G Decoding——这是唯一可能使这张卡变成废铁的因素，而不是带宽或电源问题。
 
 参考：
+
 - [Above 4G Decoding / Crypto Mining BIOS setting](https://www.btcc.com/en-US/hashtag/above-4g-memory-crypto-currency-mining)
 - [ROCm 5.7.0 Release Notes — MI50 EOS](https://rocm.docs.amd.com/en/docs-5.7.0/release.html)
 - [ROCm Device Support Wishlist — community gfx906 builds](https://github.com/ROCm/ROCm/discussions/4276)

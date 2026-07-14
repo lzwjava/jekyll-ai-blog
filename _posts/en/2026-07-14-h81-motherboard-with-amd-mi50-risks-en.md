@@ -30,6 +30,7 @@ H81 pairs with Haswell/Celeron — only 16 CPU lanes total, DMI 2.0 chipset upli
 MI50 is gfx906. ROCm 5.7.0 was the last major release to fully support gfx906 GPUs — bug fixes continued only until Q2 2024 end of maintenance. Current status per the ROCm tracker: MI50 is still well supported by the code, AMD just doesn't build official packages for it anymore — you build ROCm yourself or use community builds, and Arch Linux packages it trivially via pacman. There's an open 2025 feature request to restore official support that AMD hasn't acted on.
 
 Practical path for you:
+
 - llama.cpp with ROCm backend works but has had regressions on newer models — recent Qwen3.5 testing shows ROCm backend crashing with a rocBLAS `hipErrorInvalidDeviceFunction` error while Vulkan backend works fine on gfx906. If you go this route, keep a Vulkan fallback ready.
 - For GPT-2-scale training/finetuning (your MI300X work), plan on either self-compiled ROCm 6.x for gfx906, or an Arch box, not Ubuntu's default ROCm packages.
 - 16GB HBM2 @ 1.02 TB/s bandwidth is genuinely good for inference workloads at this price point — that part of the listing is accurate.
@@ -39,6 +40,7 @@ Practical path for you:
 Bottom line: it'll physically install, but confirm Above 4G Decoding is present in your exact H81 BIOS variant first — that's the one thing that can make this a paperweight, not a bandwidth or power issue.
 
 References:
+
 - [Above 4G Decoding / Crypto Mining BIOS setting](https://www.btcc.com/en-US/hashtag/above-4g-memory-crypto-currency-mining)
 - [ROCm 5.7.0 Release Notes — MI50 EOS](https://rocm.docs.amd.com/en/docs-5.7.0/release.html)
 - [ROCm Device Support Wishlist — community gfx906 builds](https://github.com/ROCm/ROCm/discussions/4276)

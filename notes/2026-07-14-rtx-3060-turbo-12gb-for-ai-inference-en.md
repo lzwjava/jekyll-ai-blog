@@ -26,6 +26,7 @@ Bandwidth:  360 GB/s
 TDP:        170W, single 8-pin
 PCIe:       4.0 x16
 ```
+
 The RTX 3060 offers 3,584 CUDA cores, 112 3rd-generation tensor cores, and 12GB of GDDR6 memory running at 15 Gbps, delivering 101.90 INT8 TOPS (dense) for AI workloads.
 
 **Why "turbo"/blower matters for you specifically:** blower cards exhaust heat out the rear I/O plate instead of dumping it into the case — this is the format miners/server racks use because you can rack 4-8 of these shoulder-to-shoulder without thermal throttling. That's clearly the intent of this listing (multi-GPU inference box), not a gaming build.
@@ -43,6 +44,7 @@ CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_prop
 ```
 
 **Buying caution (工包/turbo used market):**
+
 - Prioritize units with clean PCBs and documented stress-test results — ask the seller for a `nvidia-smi` + furmark log before shipping.
 - Early batches shipped with LHR (Lite Hash Rate) restrictions from the mining era — irrelevant for your AI workloads (LHR only throttles ETH-style hashing, not CUDA/tensor ops), but worth knowing if the listing brags about hashrate.
 - Check thermal pads on VRAM chips if it's ex-mining — thermal pad degradation on memory chips, visible as discoloration near VRAM modules, is common on 24/7-run cards.
@@ -50,6 +52,7 @@ CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_prop
 **Bottom line:** buy this as a cheap dedicated **inference node** (quantized LLM serving, embedding generation, whisper transcription) alongside your existing MI300X training rig — not as a training card. At used-market pricing (~$180-250 for 12GB variants) it's a fine "always-on" box for `ww`/`iclaw` agent inference workloads that don't need your big GPU tied up.
 
 References:
+
 - [NVIDIA GeForce RTX 3060 12GB Specs, Benchmarks & Pricing](https://gpupoet.com/gpu/learn/card/nvidia-geforce-rtx-3060)
 - [Confirmed specs for the NVIDIA GeForce RTX 3060 12GB](https://www.dsogaming.com/news/confirmed-specs-nvidia-geforce-rtx-3060-12gb/)
 - [How to Buy a Used RTX 3060 — 2025 Guide](https://electronics.alibaba.com/buyingguides/used-rtx-3060-buying-guide-what%E2%80%99s-worth-it-in-2025)
