@@ -13,19 +13,19 @@ translated: false
 | Component | Model | Price (¥) |
 | --- | --- | --- |
 | **GPU** | AMD Radeon Instinct MI50 16GB (Second-hand market only) | ≈¥680 |
-| **CPU** | AMD Ryzen 5 5600 (Boxed) | ¥669 |
+| **CPU** | AMD Ryzen 5 5600 GT | ¥1,069 |
 | **Motherboard** | Colorful BATTLE-AX B550M-GAMING WIFI6E V14 | ¥599 |
 | **Memory** | Colorful 32GB (16G×2) DDR4 3200 Battle-Ax · Titanium Gray | ¥979 |
 | **Storage** | Great Wall 1TB SSD M.2 NVMe PCIe 4.0×4 GW5000 | ¥899 |
 | **Power Supply** | Thermalright TR-KG750 750W ATX3.1 Gold Full Modular | ¥369 |
 | **Cooling** | BUBALUS Frost 360A CPU Water Cooler (ARGB/AM5) | ¥239 |
 | **Chassis** | DeepCool CH270 Vertical MATX Case (supports back-connect MB) | ¥549 |
-| **Total** | | **≈¥4,983** |
+| **Total** | | **≈¥5,383** |
 
 ### Component Details
 
 - **GPU**, AMD Radeon Instinct MI50 16GB (Second-hand market only) — ≈¥680
-- **CPU**, AMD Ryzen 5 5600 — ¥669
+- **CPU**, AMD Ryzen 5 5600 GT — ¥1,069
 - **Motherboard**, 七彩虹（Colorful）BATTLE-AX B550M-GAMING WIFI6E V14主板DDR4 支持5600X/5700X(AMD B550/AM4) — ¥599
 - **Memory**, 七彩虹（Colorful）32G(16G*2)DDR4 3200 台式机内存条 马甲条 战斧系列·钛金灰 C18 支持工作站部署 — ¥979
 - **Storage**, 长城（Great Wall）1TB SSD固态硬盘 M.2接口(NVMe协议) PCIe4.0x4 GW5000系列 1TB — ¥899
