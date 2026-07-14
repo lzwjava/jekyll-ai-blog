@@ -16,6 +16,7 @@ Answer:
 Power sizing here is GPU-driven, and the load profile matters more than peak wattage because this isn't a gaming rig with bursty draw — if you're doing inference/training, the MI50 sits near its power ceiling for sustained periods, which stresses connectors and VRMs differently than gaming spikes.
 
 **Load estimate:**
+
 - MI50: ~300W board power (confirmed via its 2x 8-pin PCIe power inputs, each spec'd for 150W + 75W from the slot = 375W headroom, real draw ~300W under load)
 - R5 5600: 65W TDP, up to ~88W boost
 - Motherboard + RAM + fans: ~30-40W
@@ -35,5 +36,6 @@ The MI50 needs 2x 8-pin. Under sustained near-TDP load (unlike bursty gaming), r
 **Concrete pick:** 650W-750W 80+ Gold, semi-modular or fully modular (easier cable management for the mATX case), 2 native PCIe 8-pin minimum — e.g. Seasonic Focus GX-650/750, Corsair RM750e.
 
 References:
+
 - [MI50 dual 8-pin power spec confirmation](http://wtarreau.blogspot.com/2025/12/amd-radeon-instinct-mi50-32gb-best-ai.html)
 - [PSU efficiency curve and 80+ certification tiers](https://www.clickpowersystems.com/blog/80-plus-certification-guide)

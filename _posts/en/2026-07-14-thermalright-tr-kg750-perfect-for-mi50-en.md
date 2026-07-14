@@ -14,6 +14,7 @@ Question: Is the Thermalright TR-KG750 (750W, 80+ Gold, ATX3.1, native PCIe5.1, 
 Answer: Yes, this works well. Checked the actual cable manifest for this unit — it ships with 2x CPU 4+4-pin cables, 1x 12VHPWR PCIe 5.1 cable, 2x PCIe 6+2-pin cables, and 2x SATA cables. That gives you exactly the 2 native 8-pin PCIe connectors the MI50 needs — no daisy-chaining, no adapters.
 
 Checks against your build:
+
 - **750W** — right in the 650-750W target range for your ~400-440W sustained load, good headroom without over-provisioning
 - **2x native 8-pin PCIe** — direct match for MI50's dual 8-pin requirement, this was the one non-negotiable
 - **80+ Gold** — meets the efficiency bar for a sustained-load workload like inference/training
@@ -26,5 +27,6 @@ One thing to sanity check yourself since spec sheets don't list it: confirm 80+ 
 Verdict: **buy it.** No changes needed to your parts list.
 
 References:
+
 - [TR-KG750 official cable/packing list](https://mall.icw.buaa.edu.cn/SzhtShop/detail/jd/100188730172)
 - [TR-KG750 spec sheet — ZOL](https://detail.zol.com.cn/2125/2124585/param.shtml)

@@ -16,6 +16,7 @@ Answer:
 Liu Run runs a layered flywheel: content → personal brand → B2B consulting, not a pure "sell courses" or pure "billable hours" consultancy.
 
 **Background**
+
 - Nanjing University math grad, Fudan MBA. Joined Microsoft China in 1999, worked up to Director of Strategic Partnerships (managing Microsoft's China gov relations and its 21 tech centers), then left in 2013 to found his own firm, 润米咨询 (Runmi Consulting).刘润于1998年从南京大学数学系毕业后，1999年加入微软，一直在技术工程师岗位；2010年被任命为微软（中国）有限公司战略合作总监；2013年4月，从微软辞任创立润米咨询。
 
 **The stack, bottom to top:**
@@ -37,13 +38,14 @@ Translated: it's hard to replicate because it needs (a) a genuinely strong perso
 **TL;DR structural comparison**
 
 | Layer | Product | Monetization | Purpose |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Mass content | 5-Minute Business School, WeChat column | Cheap subscriptions | Reach, credibility |
 | Annual event | 进化的力量 speech | Sponsorship/tickets | Re-anchor authority yearly |
 | B2C merch/brand collabs | Co-branded products | Margin on retail | Monetize audience without ad-selling |
 | B2B (the real money) | Runmi Consulting engagements | Strategy/consulting fees | Actual profit center, inbound-only |
 
 References:
+
 - [刘润老师的商业模式思考 – Pandaponds' Blog](https://blog.pandaponds.com/archives/business-model-of-liurun)
 - [刘润 - Baidu Baike](https://baike.baidu.com/item/%E5%88%98%E6%B6%A6/13714329)
 - [刘润 - 创业邦 author profile](https://www.cyzone.cn/author/1530537)

@@ -16,6 +16,7 @@ type: note
 这里功率估算由显卡驱动，负载特性比峰值功率更重要，因为这不是一台具有爆发性功耗的游戏机——如果你进行推理/训练，MI50会长时间接近其功率上限运行，这对接头和VRM的考验与游戏突峰不同。
 
 **负载估算：**
+
 - MI50：约300W板卡功率（已验证：其配备2个8针PCIe电源输入，每个额定150W + 插槽75W = 375W余量，实际负载下约300W）
 - R5 5600：65W TDP，最高约88W睿频
 - 主板 + 内存 + 风扇：约30-40W
@@ -35,5 +36,6 @@ MI50需要2个8针接口。在持续接近TDP的负载下（而非爆发性游�
 **具体推荐：** 650W-750W 80+ Gold，半模组或全模组（便于mATX机箱理线），最少2个原生PCIe 8针接口——例如Seasonic Focus GX-650/750、Corsair RM750e。
 
 参考：
+
 - [MI50双8针电源规格确认](http://wtarreau.blogspot.com/2025/12/amd-radeon-instinct-mi50-32gb-best-ai.html)
 - [电源效率曲线与80+认证等级](https://www.clickpowersystems.com/blog/80-plus-certification-guide)

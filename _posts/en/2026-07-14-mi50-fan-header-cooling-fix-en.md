@@ -22,6 +22,7 @@ Some MI50 boards' onboard header is tied to the GPU's own thermal sensor/VBIOS f
 Several documented shroud builds still add an external thermistor-based PWM controller powered via a spare 6-pin, because the onboard header alone doesn't give a proper curve — it's just a power tap, not a controlled signal.
 
 **What to actually check before buying a fan:**
+
 1. Measure/inspect the header pin count and pitch (2-pin DC vs 4-pin PWM) — don't guess, use a multimeter or check for markings near the heatsink
 2. Confirm whether it's 5V or 12V — mismatched voltage either underdrives or over-revs the fan
 3. Match a small high-static-pressure blower rated for that connector — the widely-used reference fan in shroud builds for this card is a 40mm server blower (ARCTIC S4028-15K or similar), since low-power 1-2W fans were reported as insufficient and caused throttling; 5W-class blowers perform properly but are loud
@@ -31,5 +32,6 @@ Several documented shroud builds still add an external thermistor-based PWM cont
 **Revised concrete pick:** print or buy an MI50-specific shroud (Thingiverse "MI50 Cooling Shroud" or MakerWorld's temp-controlled variant), pair with a 40mm 5W-class server blower matched to your header's pinout/voltage, and only add an external thermistor controller if your card's onboard header turns out to be a fixed-voltage tap rather than a controlled signal.
 
 References:
+
 - [MI50 Cooling Shroud / Fan Adapter — Thingiverse](https://www.thingiverse.com/thing:7090347)
 - [MI50 Temperature-Controlled Heatsink — MakerWorld](https://makerworld.com/en/models/1856095-mi50-temperature-controlled-heatsink)

@@ -18,6 +18,7 @@ Budget B550M boards like this one typically expose **2 M.2 slots**: one PCIe 4.0
 **Primary drive: 1TB–2TB NVMe Gen4, in the CPU-direct M.2 slot.**
 
 This is your OS + active model storage. Sizing logic for local inference work:
+
 - Quantized 7B models (Q4_K_M GGUF): ~4-5GB each
 - Quantized 13B: ~8GB
 - Quantized 70B: ~40GB
@@ -32,5 +33,6 @@ If you're just running inference on models that fit the MI50's 16GB VRAM (so rea
 **Concrete pick:** 2TB Gen4 NVMe (e.g. Crucial P3 Plus, WD Black SN770/SN850X tier) in the CPU-direct slot. Skip a second drive unless you already know you're hoarding raw datasets — add it later, it's a 5-minute upgrade on this board.
 
 References:
+
 - [B550 chipset M.2 slot wiring (CPU-direct vs chipset)](https://www.amd.com/en/products/chipsets/b550)
 - [NVMe QLC vs TLC sustained write behavior](https://www.tomshardware.com/reviews/best-ssds,5518.html)

@@ -20,7 +20,7 @@ What's actually true about services is **linear revenue-to-headcount coupling** 
 **On "superior" — depends on what you're optimizing:**
 
 | Axis | Product | Service |
-|---|---|---|
+| --- | --- | --- |
 | Marginal cost of next unit | ~0 (software) | ~linear (another engineer-month) |
 | Ceiling | unbounded (network effects, platform) | bounded by headcount you can hire+manage |
 | Risk | high — most products die pre-PMF | low — cash flow from day 1 if you can sell |
@@ -31,6 +31,7 @@ What's actually true about services is **linear revenue-to-headcount coupling** 
 That last row is the real argument for "product > service": **capital markets pay a much higher multiple for product revenue than service revenue**, because product revenue is assumed to scale without linear cost, and service revenue is assumed to be capped by hours-sold. That's a valid, specific claim — not "more knowledge" or "more direct," but "the market prices recurring, scalable revenue streams higher than labor-arbitrage revenue streams."
 
 **But service businesses aren't inferior, they're a different risk/reward slot:**
+
 - Accenture is a >$70B revenue company. That's not a failure mode, that's one of the largest professional services firms on earth, still growing 6% YoY in FY26.
 - Most product companies never reach product-market fit and die at $0 revenue. Most service companies that can sell, survive.
 - Many successful product companies were *funded by* services first (this is the classic bootstrap path — build client work, extract a reusable tool from repeated client problems, productize it, cut the services arm once the product carries itself). Palantir did roughly this. So did a lot of dev-tool startups.
@@ -40,6 +41,7 @@ That last row is the real argument for "product > service": **capital markets pa
 If you want a sharper lens than "product vs service": ask "is this revenue stream capped by my hours, or decoupled from them?" That question cuts across the product/service label cleanly — a services company selling a fixed-price productized offering (e.g., "we'll fine-tune your model for $50K flat, we've templated the pipeline") is closer to product economics than a SaaS company burning all its margin on white-glove customer success.
 
 References:
+
 - [Accenture Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000031/q2fy26earnings8-kexhibit.htm)
 - [Accenture market cap - MacroTrends](https://www.macrotrends.net/stocks/charts/ACN/accenture/market-cap)
 - [Accenture revenue - CompaniesMarketCap](https://companiesmarketcap.com/accenture/revenue/)

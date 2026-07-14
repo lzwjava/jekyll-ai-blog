@@ -18,6 +18,7 @@ type: note
 **主盘：1TB–2TB NVMe Gen4，安装在CPU直连M.2插槽。**
 
 这是你的操作系统+活跃模型存储。本地推理工作的容量选择逻辑：
+
 - 量化后的7B模型（Q4_K_M GGUF）：每个约4-5GB
 - 量化后的13B：约8GB
 - 量化后的70B：约40GB
@@ -32,5 +33,6 @@ type: note
 **具体推荐：** 在CPU直连插槽安装2TB Gen4 NVMe（例如Crucial P3 Plus、WD Black SN770/SN850X级别）。除非你确定要囤积原始数据集，否则先跳过第二块硬盘——后续随时可加装，这块主板升级只需5分钟。
 
 参考：
+
 - [B550芯片组M.2插槽布线（CPU直连 vs 芯片组）](https://www.amd.com/en/products/chipsets/b550)
 - [NVMe QLC vs TLC持续写入行为](https://www.tomshardware.com/reviews/best-ssds,5518.html)
