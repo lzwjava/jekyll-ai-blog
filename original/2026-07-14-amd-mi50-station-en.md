@@ -15,7 +15,7 @@ translated: false
 | **GPU** | AMD Radeon Instinct MI50 16GB |
 | **CPU** | AMD Radeon R5 5600 | AMD CPU |
 | **Motherboard** | 七彩虹（Colorful）BATTLE-AX B550M-GAMING WIFI6E V14主板DDR4 支持5600X/5700X(AMD B550/AM4) |
-| **Memory** | Samsung DDR4 ECC RDIMM 32GB/64GB (8-channel support) | Search "三星 DDR4 ECC" |
+| **Memory** |七彩虹（Colorful）32G(16G*2)DDR4 3200 台式机内存条 马甲条 战斧系列·钛金灰 C18 支持工作站部署|
 | **Storage** | Samsung 990 PRO NVMe M.2 2TB | Available on JD |
 | **Power Supply** | Huntkey IP1650G 1650W Gold (or 1250W) | Search "航嘉 重火力 IP1650G" |
 | **Cooling** | DIY fan/heatsink mod for MI50 + CPU tower cooler | Search "AMD MI50 散热" |
