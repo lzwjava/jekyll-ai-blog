@@ -36,6 +36,7 @@ type: note
 **对你的构建的总结**：在4070上从头训练一个更大的稠密模型从来都不是可行方案，现在对任何人来说都不是（即使实验室也受限于数据）。前沿已转向：小巧高效的基础模型 → 用于容量-算力比的MoE → 用于能力提升的RLVR/测试时计算，无需更多预训练词元。你的nanoGPT-MoE计划与当前领域实际瓶颈所在一致，而非2022年的状况。
 
 参考文献：
+
 - [AI Scaling Laws Guide Billions in Compute Spend: Weng Reveals the Cracks](https://www.techtimes.com/articles/319204/20260627/ai-scaling-laws-guide-billions-compute-spend-weng-reveals-cracks.htm)
 - [LLM Scaling Laws: Analysis from AI Researchers](https://aimultiple.com/llm-scaling-laws)
 - [AI Scaling Laws Are Breaking Down: What It Means for AI Builders](https://www.mindstudio.ai/blog/ai-scaling-laws-breaking-down-what-it-means-for-builders)

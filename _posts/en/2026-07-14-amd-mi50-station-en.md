@@ -13,7 +13,7 @@ translated: false
 | Component | Recommended Model | JD.com Availability |
 | ----------- | ------------------- | --------------------- |
 | **GPU** | AMD Radeon Instinct MI50 16GB | Second-hand market only (not on JD) |
-| **CPU** | AMD Radeon R5 5600  | AMD CPU|
+| **CPU** | AMD Radeon R5 5600 | AMD CPU |
 | **Motherboard** | Supermicro H11DSi (Dual EPYC, E-ATX, 7 PCIe 4.0 x16 slots) | Search "超微 H11DSi" |
 | **Memory** | Samsung DDR4 ECC RDIMM 32GB/64GB (8-channel support) | Search "三星 DDR4 ECC" |
 | **Storage** | Samsung 990 PRO NVMe M.2 2TB | Available on JD |

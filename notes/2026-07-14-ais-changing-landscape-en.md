@@ -36,6 +36,7 @@ Answer:
 **Bottom line for your build**: pretraining a bigger dense model from scratch on a 4070 was never the play, and it's now not the play for anyone (even labs are data-bound there). The frontier moved to: small efficient base model → MoE for capacity-per-FLOP → RLVR/test-time compute for capability without more pretraining tokens. Your nanoGPT-MoE plan lines up with where the field's actual constraint is, not where it was in 2022.
 
 References:
+
 - [AI Scaling Laws Guide Billions in Compute Spend: Weng Reveals the Cracks](https://www.techtimes.com/articles/319204/20260627/ai-scaling-laws-guide-billions-compute-spend-weng-reveals-cracks.htm)
 - [LLM Scaling Laws: Analysis from AI Researchers](https://aimultiple.com/llm-scaling-laws)
 - [AI Scaling Laws Are Breaking Down: What It Means for AI Builders](https://www.mindstudio.ai/blog/ai-scaling-laws-breaking-down-what-it-means-for-builders)
