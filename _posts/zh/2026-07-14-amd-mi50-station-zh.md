@@ -11,7 +11,7 @@ translated: true
 ### 推荐工作站配置
 
 | 组件 | 型号 | 价格（¥） |
-|---|---|---|
+| --- | --- | --- |
 | **GPU** | AMD Radeon Instinct MI50 16GB（仅二手市场） | ≈¥680 |
 | **CPU** | AMD Ryzen 5 5600（盒装） | ¥669 |
 | **主板** | Colorful BATTLE-AX B550M-GAMING WIFI6E V14 | ¥599 |

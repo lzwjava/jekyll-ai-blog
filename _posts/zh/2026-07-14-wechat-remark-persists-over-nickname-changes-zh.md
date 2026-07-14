@@ -17,9 +17,11 @@ type: note
 - **未设置备注时**：你看到的只是从对方资料中实时调用的`NickName`字段，所以任何昵称变更都会立即同步到你的通讯录和聊天界面。
 
 逻辑模型：
+
 ```
 display_name = remark_map[wxid] if remark_map.get(wxid) else contact.nickname
 ```
+
 同样的模式也出现在Telegram（联系人姓名 vs. "名/姓"）、Slack（自定义显示名称 vs. 通过SCIM/目录同步获取的个人资料名称）等应用中——本地覆盖优先级更高，否则将继承上游的可变字段。
 
 需要注意：群聊显示有独立规则——优先级顺序为：群昵称 > 备注 > 昵称，前提是对方为群聊设置了专属群昵称。

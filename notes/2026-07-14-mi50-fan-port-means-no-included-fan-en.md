@@ -18,6 +18,7 @@ No — you still need to buy one. The fan port existing just means there's *some
 Here's why: these MI50 cards are pulls from datacenter server sleds, where cooling came from the chassis-level fan wall pushing air through the whole rack, not from anything mounted on the card itself. Sellers pull the card bare — heatsink fins present, fan header present, **no fan attached** — because in its original deployment it never needed one. That's true for almost every listing you'll find on Taobao/eBay/AliExpress for these cards.
 
 So your buy list is unchanged:
+
 1. A small blower fan matching the header's voltage/pin spec (likely a 40mm 12V PWM or DC blower, ~5W class)
 2. A shroud/duct to direct that fan's airflow through the heatsink fins (3D printed or a pre-made kit)
 

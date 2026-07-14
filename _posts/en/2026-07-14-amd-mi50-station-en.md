@@ -11,7 +11,7 @@ translated: false
 ### Recommended Workstation Configuration
 
 | Component | Model | Price (¥) |
-|---|---|---|
+| --- | --- | --- |
 | **GPU** | AMD Radeon Instinct MI50 16GB (Second-hand market only) | ≈¥680 |
 | **CPU** | AMD Ryzen 5 5600 (Boxed) | ¥669 |
 | **Motherboard** | Colorful BATTLE-AX B550M-GAMING WIFI6E V14 | ¥599 |

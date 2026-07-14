@@ -22,10 +22,12 @@ Case choice here is driven by three constraints from what you've already picked,
 **Two real options depending on how you'll actually run this:**
 
 **Option A — Standard closed case, mATX mid-tower with mesh front.** Best if this sits in a room with you, needs to look normal, occasional noise matters.
+
 - Look for: full mesh front panel (not just vents), supports 3x120mm or 2x140mm front intake, GPU clearance ≥320mm, CPU cooler height clearance ≥165mm (matches the Peerless Assassin 120 SE recommended earlier), PSU shroud with enough depth for a standard ATX unit
 - Candidates on JD: Deepcool CK560 mATX / MATREXX 55 Mesh, Segotep Kratos/Hall series mATX, Jonsbo D31 mesh — all sub-¥400, mesh-heavy, decent airflow for this exact use case
 
 **Option B — Open-air/mining-style frame.** Better if this is a dedicated inference box in a closet/rack, noise doesn't matter, you want zero airflow restriction and easy access for the fan shroud mod / future GPU swaps.
+
 - No case walls means the shroud fan and CPU cooler get unrestricted ambient air — genuinely better thermals for sustained load than any closed case
 - Downsides: dust exposed, not presentable in a living space, need a flat surface/shelf
 - Candidates: generic 6-8 slot open mining frames (~¥100-150 on Taobao), just confirm mATX board mounting holes are supported

@@ -17,9 +17,11 @@ Answer: Yes, that's exactly how it works.
 - **No remark set** → you're just rendering their live `NickName` field pulled from their profile, so any rename propagates to your contact list and chat header immediately.
 
 Mental model:
+
 ```
 display_name = remark_map[wxid] if remark_map.get(wxid) else contact.nickname
 ```
+
 Same pattern shows up in Telegram (contact name vs. "First/Last name"), Slack (custom display name vs. profile name pulled via SCIM/directory sync), etc. — local override wins, otherwise you inherit the upstream mutable field.
 
 One gotcha: group chat display has its own layer — group nickname (群昵称) > remark > nickname, in that priority order, if the person set a nickname specific to that group.
