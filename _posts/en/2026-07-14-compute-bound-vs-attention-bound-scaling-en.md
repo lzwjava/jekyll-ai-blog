@@ -31,13 +31,16 @@ tmux ls   # you're the scheduler polling 3 panes, not 6
 # wrap any long agent/training job
 task_cmd; curl -d "done: $?" ntfy.sh/<YOUR_TOPIC>
 ```
+
 or a webhook to Bark/ntfy/Slack. This isn't a reason to reduce to fewer machines — it's a 5-line fix regardless of machine count.
 
 **GPU/CPU research is compute-bound, and here more machines genuinely help — but only if:**
+
 1. You're running independent experiments (hparam sweeps, ablations) — trivially parallel across boxes, no interconnect needed.
 2. You're NOT trying multi-node distributed training across cheap desktop GPUs — without NVLink/InfiniBand, NCCL all-reduce over gigabit/10GbE ethernet will bottleneck you badly before you get any benefit from the second box. Multi-node only pays off with real interconnect (RDMA/IB) or if you're doing data-parallel with infrequent sync (federated-style, not tight DDP).
 
 For your case — GPT-2 760M on MI300X, ~2B tokens/mo — you don't need multi-node. You need:
+
 - 1-2 boxes with the biggest single-GPU memory you can afford (MI300X 192GB already solves most of this)
 - A second box mainly for **overlap**: while box A trains, box B does data prep / eval / a different ablation. That's the actual justification for "2 local GPUs is baseline" — not distributed training, but pipeline overlap so the 30min-few-hour data download + preprocessing isn't dead GPU-idle time on your only machine.
 
@@ -56,6 +59,7 @@ So: 2 boxes = compute overlap, justified. 5-6 boxes = mostly idle unless you're 
 I don't recognize what tool you mean by "龙虾" (lobster) here — if you mean a specific session/task orchestrator, tell me the name and I'll look at whether it's actually a better fit than tmux+zz for this.
 
 References:
+
 - [NCCL and multi-node scaling limits](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html)
 - [ntfy.sh — simple pub/sub notifications for long-running jobs](https://ntfy.sh/)
 - [tmux manual](https://github.com/tmux/tmux/wiki)
