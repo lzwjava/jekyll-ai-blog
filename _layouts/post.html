@@ -118,6 +118,25 @@ layout: default
 
   {{ content }}
 
+  <div class="post-footer-note">
+    <p>
+      {% if page.lang == "zh" %}
+        {{ ai_message }}，但整理分享仍需精力。如果觉得有帮助，欢迎
+        <a href="/donate-zh">捐助</a>支持。
+        微信：<strong>@lzwjava</strong> ·
+        <a href="https://x.com/lzwjava">X: @lzwjava</a> ·
+        打个招呼 👋
+      {% else %}
+        {{ ai_message }}. Curating and sharing still takes effort.
+        If you find it useful, feel free to
+        <a href="/donate-en">donate</a>.
+        WeChat: <strong>@lzwjava</strong> ·
+        <a href="https://x.com/lzwjava">X: @lzwjava</a> ·
+        Say hi 👋
+      {% endif %}
+    </p>
+  </div>
+
   <hr>
 
   <div class="button-container">
