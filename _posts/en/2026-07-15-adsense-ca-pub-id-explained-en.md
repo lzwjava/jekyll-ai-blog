@@ -36,7 +36,7 @@ The `data-ad-slot` value comes from creating an "ad unit" in the AdSense dashboa
 **So now you have both pieces on your site:**
 
 | Tag | Prefix | Role | Money flow |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `AW-18324816389` | Google Ads | tracks conversions from ads you **buy** | you pay Google → hope for revenue from your product |
 | `ca-pub-6168351539440296` | AdSense | serves ads you get **paid to host** | Google pays you a cut |
 

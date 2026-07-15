@@ -38,6 +38,7 @@ For **future sites**: if they're under the same AdSense/Ad Manager account, the 
 **On the third-party CMP question:** only bother if you need functionality Google's CMP doesn't have — e.g., non-ad-related cookie categorization (analytics, functional cookies unrelated to Google ads), multi-network vendor management beyond Google's ATP list, or white-labeling for client sites you don't control the AdSense account on. If you do need that, Secure Privacy, Cookiebot, and CookieYes are all Google-certified and have decent free/cheap tiers for low-traffic sites. But for your own properties monetized straight through AdSense, Google's native CMP does the job with zero extra JS and zero extra vendor to manage.
 
 References:
+
 - [Consent management requirements (for publishers)](https://support.google.com/adsense/answer/13554116?hl=en)
 - [Choose 2 vs 3 buttons - Google Ad Manager Help](https://support.google.com/admanager/answer/16918505?hl=en)
 - [About consent optimization - AdSense Help](https://support.google.com/adsense/answer/16878447?hl=en)

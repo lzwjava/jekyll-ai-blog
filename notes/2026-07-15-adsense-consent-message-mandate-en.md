@@ -22,6 +22,7 @@ Practical path for a site you control: fastest is to just turn on the built-in G
 One gotcha: Google can auto-optimize between a blocking "standard" message and a non-blocking "limited" message depending on which drives more revenue for your traffic — worth checking that setting rather than assuming you're stuck with a full-page consent wall for every EU visitor.
 
 References:
+
 - [Consent management requirements (publishers)](https://support.google.com/adsense/answer/13554116?hl=en)
 - [Set up and manage your CMP - AdSense](https://support.google.com/adsense/answer/7670013?hl=en-GB)
 - [How the Google CMP works](https://support.google.com/adsense/answer/16918505?hl=en)

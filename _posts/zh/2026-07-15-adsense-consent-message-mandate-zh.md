@@ -24,6 +24,7 @@ type: note
 一个需要注意的点：Google 可以在“标准”阻塞式消息和“有限”非阻塞式消息之间自动优化，具体取决于哪种方式能为您的流量带来更多收入——值得检查一下这个设置，而不是认为每个欧盟访客都必须面对一个全页面的同意墙。
 
 **参考资料：**
+
 - [同意管理要求（发布商）](https://support.google.com/adsense/answer/13554116?hl=en)
 - [设置和管理您的 CMP - AdSense](https://support.google.com/adsense/answer/7670013?hl=en-GB)
 - [Google CMP 的工作原理](https://support.google.com/adsense/answer/16918505?hl=en)

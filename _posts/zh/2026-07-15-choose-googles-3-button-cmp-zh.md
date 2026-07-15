@@ -38,6 +38,7 @@ AdSense → 隐私与消息 → 同意消息 → 创建消息
 **关于第三方CMP的问题：** 只有在需要Google CMP不具备的功能时才需要考虑——例如，非广告相关的Cookie分类（分析类Cookie、与Google广告无关的功能性Cookie）、超出Google ATP列表的多网络供应商管理，或者为你无法控制AdSense账户的客户网站提供白标服务。如果你确实需要这些功能，Secure Privacy、Cookiebot和CookieYes都是经过Google认证的，并且对于低流量网站有不错的免费/低价套餐。但对于通过AdSense直接变现的自家网站来说，Google的原生CMP完全可以胜任，无需额外加载JS，也无需管理额外的供应商。
 
 参考资料：
+
 - [同意管理要求（面向发布商）](https://support.google.com/adsense/answer/13554116?hl=en)
 - [选择两按钮还是三按钮 - Google Ad Manager帮助](https://support.google.com/admanager/answer/16918505?hl=en)
 - [关于同意优化 - AdSense帮助](https://support.google.com/adsense/answer/16878447?hl=en)
