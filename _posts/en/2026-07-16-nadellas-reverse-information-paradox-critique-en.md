@@ -24,6 +24,7 @@ Answer:
 My honest read: **60% genuine structural grievance** (the data-exhaust point is real and under-discussed), **40% competitive noise** — an incumbent losing ground uses moral framing to justify the price war and in-house model push that's coming next anyway. Both things can be true at once; that's usually how these essays work in this industry.
 
 References:
+
 - [Nadella "Reverse Information Paradox" — Business Standard](https://www.business-standard.com/technology/artificial-intelligence/satya-nadella-reverse-information-paradox-ai-risks-126071300520_1.html)
 - [Nadella essay analysis — ppc.land](https://ppc.land/nadella-says-using-ai-models-forces-firms-to-leak-their-own-know-how/)
 - [Anthropic $965B Series H, May 28 2026 — Anthropic](https://www.anthropic.com/news/series-h)

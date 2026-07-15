@@ -20,6 +20,7 @@ type: note
 **我的真实看法：** **60% 源于结构性的真正不满**（关于数据 exhaust 的论点真实且讨论不足），**40% 属于竞争噪音**——一个正在失势的现有企业利用道德框架为即将到来的价格战和内部模型推进铺路。两者可以同时成立；这个行业的此类文章通常如此。
 
 参考来源：
+
 - [纳德拉"反向信息悖论"——商业标准](https://www.business-standard.com/technology/artificial-intelligence/satya-nadella-reverse-information-paradox-ai-risks-126071300520_1.html)
 - [纳德拉文章分析——ppc.land](https://ppc.land/nadella-says-using-ai-models-forces-firms-to-leak-their-own-know-how/)
 - [Anthropic 9650 亿美元 H 轮融资，2026 年 5 月 28 日——Anthropic](https://www.anthropic.com/news/series-h)
