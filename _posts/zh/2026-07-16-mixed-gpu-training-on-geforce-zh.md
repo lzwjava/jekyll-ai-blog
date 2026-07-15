@@ -60,6 +60,7 @@ micro_bs = MICRO_BATCH[GPU_TIERS[RANK]]
 ```
 
 `deepspeed_config.json`:
+
 ```json
 {
   "train_micro_batch_size_per_gpu": "auto",
@@ -86,10 +87,12 @@ micro_bs = MICRO_BATCH[GPU_TIERS[RANK]]
 不要强行把全部 10 张卡塞进一个训练任务。两种配置能让你走得更远：
 
 - **3090+4090 组（7 张卡，每张 24GB）**：标准的 FSDP/DDP，同构，没有批次大小的烦恼。
+
 ```bash
 NCCL_P2P_DISABLE=1 torchrun --nproc_per_node=7 --nnodes=1 train.py \
   --fsdp full_shard --bf16 --gradient_checkpointing
 ```
+
 - **3060 组（3 张卡，每张 12GB）**：用于评估/推理服务、数据预处理或小型消融实验，而不是主要的训练任务。试图将一张 12GB 的卡塞进与 24GB 卡相同的 ZeRO-3 分片组，意味着整个组的分片大小将被最小的卡限制——你会损失掉大卡上大部分额外的 24GB 显存余量。
 
 这与你在 MI300X 集群上的做法一致——同构分组胜过通过软件强行处理异构。
@@ -101,6 +104,7 @@ NCCL_P2P_DISABLE=1 torchrun --nproc_per_node=7 --nnodes=1 train.py \
 - **驱动版本**：对于混用中的任何 4090，最低驱动版本必须是 525.105.17+——根据已确认的 NVIDIA 论坛帖子，早期驱动在多 4090 的 P2P 场景下，即使设置了 `NCCL_P2P_DISABLE`，也会静默损坏数据。
 
 参考资料：
+
 - [Cannot enable P2P communication in RTX3090 server · NVIDIA/nccl#1127](https://github.com/NVIDIA/nccl/issues/1127)
 - [Standard nVidia CUDA tests fail with dual RTX 4090 Linux box](https://forums.developer.nvidia.com/t/standard-nvidia-cuda-tests-fail-with-dual-rtx-4090-linux-box/233202)
 - [Patching NVIDIA's driver and vLLM to enable P2P on consumer GPUs](https://smcleod.net/2026/02/patching-nvidias-driver-and-vllm-to-enable-p2p-on-consumer-gpus/)

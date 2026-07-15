@@ -21,5 +21,6 @@ type: note
 典型流程：`需要审核 → 准备中 → 已就绪`，当发现问题时会出现 `需要注意` 的分支，如果网站流量长时间为零，则可能回退到 `需要审核` 状态。
 
 参考链接：
+
 - [网站状态与准备中](https://support.google.com/adsense/answer/12176698)
 - [为不活跃网站申请审核](https://support.google.com/adsense/answer/12171038#request_review)

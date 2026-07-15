@@ -60,6 +60,7 @@ micro_bs = MICRO_BATCH[GPU_TIERS[RANK]]
 ```
 
 `deepspeed_config.json`:
+
 ```json
 {
   "train_micro_batch_size_per_gpu": "auto",
@@ -86,10 +87,12 @@ micro_bs = MICRO_BATCH[GPU_TIERS[RANK]]
 Don't force all 10 into one training run. Two configs get you further:
 
 - **3090+4090 group (7 cards, 24GB each)**: standard FSDP/DDP, homogeneous, no batch-size headaches.
+
 ```bash
 NCCL_P2P_DISABLE=1 torchrun --nproc_per_node=7 --nnodes=1 train.py \
   --fsdp full_shard --bf16 --gradient_checkpointing
 ```
+
 - **3060 group (3 cards, 12GB)**: use for eval/inference serving, data preprocessing, or small ablations, not the main training run. Trying to jam a 12GB card into the same ZeRO-3 shard group as 24GB cards means the whole group's shard size gets capped by the smallest card — you lose most of the extra 24GB headroom on the bigger cards.
 
 This matches what you already do with MI300X clusters — homogeneous grouping beats forcing heterogeneity through software.
@@ -101,6 +104,7 @@ This matches what you already do with MI300X clusters — homogeneous grouping b
 - **Driver version**: stick to 525.105.17+ minimum on any 4090s in the mix — earlier drivers silently corrupt data on multi-4090 P2P even when NCCL_P2P_DISABLE is set, per the confirmed NVIDIA forum thread.
 
 References:
+
 - [Cannot enable P2P communication in RTX3090 server · NVIDIA/nccl#1127](https://github.com/NVIDIA/nccl/issues/1127)
 - [Standard nVidia CUDA tests fail with dual RTX 4090 Linux box](https://forums.developer.nvidia.com/t/standard-nvidia-cuda-tests-fail-with-dual-rtx-4090-linux-box/233202)
 - [Patching NVIDIA's driver and vLLM to enable P2P on consumer GPUs](https://smcleod.net/2026/02/patching-nvidias-driver-and-vllm-to-enable-p2p-on-consumer-gpus/)

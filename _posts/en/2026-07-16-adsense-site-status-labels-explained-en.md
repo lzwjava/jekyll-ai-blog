@@ -21,5 +21,6 @@ Answer: This is Google AdSense's site-review pipeline — every domain you add g
 Typical flow: `Requires review → Getting ready → Ready`, with `Needs attention` as the branch when something's flagged, and sites can fall back to `Requires review` if traffic drops to zero for too long.
 
 References:
+
 - [Site status and getting ready](https://support.google.com/adsense/answer/12176698)
 - [Request review for inactive site](https://support.google.com/adsense/answer/12171038#request_review)

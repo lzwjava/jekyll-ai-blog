@@ -37,11 +37,11 @@ type: note
 
 网站会获得：
 
-*   页面浏览量
-*   广告收入
-*   赞助
-*   转化率
-*   社区增长
+* 页面浏览量
+* 广告收入
+* 赞助
+* 转化率
+* 社区增长
 
 ---
 
@@ -100,9 +100,9 @@ Cloudflare的数据及相关文档分析都显示了这种转变。例如，Mint
 
 这与以下情形类似：
 
-*   搜索引擎出现后的报纸
-*   Stack Overflow出现后的论坛
-*   谷歌摘要出现后的小博客
+* 搜索引擎出现后的报纸
+* Stack Overflow出现后的论坛
+* 谷歌摘要出现后的小博客
 
 ---
 
@@ -283,10 +283,10 @@ AI蚕食你的文档流量
 
 参考文献：
 
-*   Cloudflare — 内容独立日 / 代理互联网经济学（[Cloudflare博客][2]）
-*   Cloudflare — AI爬虫与断裂的引荐经济学（[Cloudflare][3]）
-*   Mintlify — 文档流量中的AI代理分析（[Mintlify][1]）
-*   Cloudflare — 爬取到点击的差距分析（[Cloudflare博客][4]）
+* Cloudflare — 内容独立日 / 代理互联网经济学（[Cloudflare博客][2]）
+* Cloudflare — AI爬虫与断裂的引荐经济学（[Cloudflare][3]）
+* Mintlify — 文档流量中的AI代理分析（[Mintlify][1]）
+* Cloudflare — 爬取到点击的差距分析（[Cloudflare博客][4]）
 
 [1]: https://www.mintlify.com/blog/state-of-ai?utm_source=chatgpt.com "文档中代理流量的状态（2026年3月）"
 [2]: https://blog.cloudflare.com/agentic-internet-bot-report/?utm_source=chatgpt.com "内容独立日，一年后：为代理互联网构建商业模式"

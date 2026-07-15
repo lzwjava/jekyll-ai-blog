@@ -18,7 +18,7 @@ type: note
 **价格走势（RTX PRO 6000 Blackwell，美国官方市场）**：
 
 | 日期 | 美元 | 人民币（约，官方汇率） |
-|---|---|---|
+| --- | --- | --- |
 | 2025年3月（发布） | $8,000–8,565 | ~54,500 |
 | 2026年5月 | $8,900–11,500（零售飙升） | ~60,600–78,300 |
 | 2026年6月13日 | $13,250（英伟达官方市场） | ~89,789 |
@@ -32,6 +32,7 @@ type: note
 如果您正在为GPU集群预算进行配置，建议直接查当前灰市报价（淘宝/深圳eBay卖家）而非官方建议零售价，因为这才是您实际采购的价格——我找到的深圳eBay报价在运输/关税转嫁前已约为10,300–10,345美元（约8.8-8.9万人民币）。
 
 参考来源：
+
 - [Nvidia Raises RTX Pro 6000 Blackwell MSRP to $13,250 - MLQ News](https://mlq.ai/news/nvidia-raises-rtx-pro-6000-blackwell-msrp-to-13250-a-55-hike-in-one-year/)
 - [Tom's Hardware — 55% increase over MSRP](https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time)
 - [RTX Pro 6000 Blackwell 大陆到手价 - 知乎](https://zhuanlan.zhihu.com/p/1916163513161868969)

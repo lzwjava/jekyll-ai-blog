@@ -18,7 +18,7 @@ Answer: Roughly yes, confirmed by multiple sources. Two clarifications first:
 **Price trajectory (RTX PRO 6000 Blackwell, official US marketplace)**:
 
 | Date | USD | CNY (approx, official exchange) |
-|---|---|---|
+| --- | --- | --- |
 | Mar 2025 (launch) | $8,000–8,565 | ~54,500 |
 | May 2026 | $8,900–11,500 (retail spikes) | ~60,600–78,300 |
 | Jun 13, 2026 | $13,250 (official Nvidia marketplace) | ~89,789 |
@@ -32,6 +32,7 @@ Root cause per all sources: **GDDR7 memory shortage**, not manufacturing cost �
 If you're specing this for your GPU cluster budget, worth checking current grey-market quotes (Taobao/eBay Shenzhen sellers) directly rather than official MSRP, since that's where your real procurement number will land — the eBay Shenzhen listing I found was already at ~$10,300–10,345 (~88-89K CNY) before shipping/tariff pass-through.
 
 References:
+
 - [Nvidia Raises RTX Pro 6000 Blackwell MSRP to $13,250 - MLQ News](https://mlq.ai/news/nvidia-raises-rtx-pro-6000-blackwell-msrp-to-13250-a-55-hike-in-one-year/)
 - [Tom's Hardware — 55% increase over MSRP](https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time)
 - [RTX Pro 6000 Blackwell 大陆到手价 - 知乎](https://zhuanlan.zhihu.com/p/1916163513161868969)
