@@ -48,5 +48,6 @@ token 账单随着机器人需要*思考*的程度而增加——固定的菜单
 如果你真的想构建这个——为物理任务循环提供 token 计量的代理计费——这是一个干净的小项目：物理控制的状态机（无 LLM），LLM 仅用于规划层，按计划调用计量 token，记录每个烤串的美元成本。需要我草拟这个代理循环的 Python 代码吗？
 
 参考：
+
 - [DeepSeek API 定价 2026（缓存命中/未命中明细）](https://chat-deep.ai/pricing/)
 - [DeepSeek 定价 2026：V4、R1 与 GPT-5.5/Claude 对比](https://www.cloudzero.com/blog/deepseek-pricing/)

@@ -29,16 +29,16 @@ CPU (Ryzen 9000)
 
 例如，MSI MPG X870E Carbon 具有：
 
-*   一个 PCIe 5.0 x16 主插槽
-*   一个 PCIe 5.0 副插槽（带宽共享）
-*   一个 PCIe 4.0 x4 第三插槽（[MSI USA][1]）
+* 一个 PCIe 5.0 x16 主插槽
+* 一个 PCIe 5.0 副插槽（带宽共享）
+* 一个 PCIe 4.0 x4 第三插槽（[MSI USA][1]）
 
 因此，在物理上：
 
-*   **1 × RTX 4070** → 完美
-*   **2 × RTX 4070** → 可行
-*   **3 × RTX 4070** → 某些型号上可行，但不理想
-*   **4 × RTX 4070** → 几乎不可能（插槽空间 + PCIe 通道 + 供电限制）
+* **1 × RTX 4070** → 完美
+* **2 × RTX 4070** → 可行
+* **3 × RTX 4070** → 某些型号上可行，但不理想
+* **4 × RTX 4070** → 几乎不可能（插槽空间 + PCIe 通道 + 供电限制）
 
 （[MSI][2]）
 
@@ -79,9 +79,9 @@ RTX 4070
 
 可行，但：
 
-*   第三张卡仅为 PCIe x4
-*   物理散热变得困难
-*   主板通道成为瓶颈
+* 第三张卡仅为 PCIe x4
+* 物理散热变得困难
+* 主板通道成为瓶颈
 
 ### 更好的 AI 配置
 
@@ -146,9 +146,9 @@ X870E 是一款优秀的发烧级主板，但 AM5 平台本身没有足够的 PC
 
 参考资料：
 
-*   MSI PCIe 通道共享说明（[MSI][2]）
-*   MSI MPG X870E Carbon 规格（[MSI USA][1]）
-*   MSI PRO X870E-P 规格（[MSI USA][3]）
+* MSI PCIe 通道共享说明（[MSI][2]）
+* MSI MPG X870E Carbon 规格（[MSI USA][1]）
+* MSI PRO X870E-P 规格（[MSI USA][3]）
 
 [1]: https://us.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification?utm_source=chatgpt.com "MPG X870E CARBON WIFI | 游戏主板｜AI PC 最佳主板｜MSI"
 [2]: https://www.msi.com/blog/pcie-lane-bifurcation-and-bandwidth-sharing-on-msi-x870e-x870-motherboards?utm_source=chatgpt.com "MSI X870E / X870 主板上的 PCIe 通道拆分与带宽共享"

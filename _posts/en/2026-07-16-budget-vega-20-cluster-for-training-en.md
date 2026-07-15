@@ -42,16 +42,18 @@ MI50 is still well supported by the code, but AMD doesn't build binaries for it 
 ```
 
 Check RCCL/P2P support once assembled:
+
 ```bash
 rocminfo | grep -A5 "Pool Info"
 rocm-smi --showtopo   # shows P2P link matrix between GPUs
 ```
+
 gfx906 does **not** support PCIe P2P the way MI50 pairs with xGMI bridges do standalone — without xGMI bridge cards between adjacent pairs, all-reduce traffic goes GPU→CPU→GPU over PCIe, which is your actual training bottleneck, not the riser.
 
 **Cost math is real but not apples-to-apples:**
 
 | | Pro VII (10x) | A6000 Pro |
-|---|---|---|
+| --- | --- | --- |
 | VRAM | 160GB | 96GB |
 | Cost | ~6000 RMB | ~50-60k RMB |
 | FP16 | ~26.8 TFLOPS/card, 268 total | dense, higher per-card |
@@ -65,6 +67,7 @@ VRAM/RMB favors you by ~15x, but that ignores software stack maintenance time (w
 **On "10 cards solved → 100 cards not far":** push back on that. 10→100 isn't a multiply, it's a different problem — power (30kW+, needs 3-phase), rack/cooling, network fabric (RDMA/RoCE if you want real multi-node throughput), and ROCm's gfx906 EOL means you're maintaining your own fork at that scale, which is a real ongoing cost. If the actual goal is "cheap local training capacity," a used 4x-8x A100/A6000 node with real NVLink or good PCIe4 x16 lanes will get you more usable training throughput per RMB than 10x Pro VII once you count engineering time. Pro VII cluster makes sense as an inference/experimentation rig or for RL/agent rollout workloads where you need lots of parallel small-model instances, not as a dense pretraining cluster.
 
 References:
+
 - [Radeon VII vs MI50 branding](https://www.aliexpress.com/s/wiki-ssr/article/radeon-vii-vs-mi50)
 - [ROCm 6.0 gfx906 maintenance mode](https://rocm.docs.amd.com/en/docs-6.0.0/about/release-notes.html)
 - [ROCm 5.7 release notes — gfx906 EOS](https://rocm.docs.amd.com/en/docs-5.7.0/release.html)

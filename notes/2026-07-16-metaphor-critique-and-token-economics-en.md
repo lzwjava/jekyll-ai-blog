@@ -48,5 +48,6 @@ The token bill scales with how much the robot has to *think* — a dumb fixed me
 If you want to actually build this — token-metered agent billing for a physical task loop — that's a clean small project: state machine for the physical control (no LLM), LLM only in the planning layer, meter tokens per plan call, log $ cost per skewer. Want me to sketch that agent loop in Python?
 
 References:
+
 - [DeepSeek API Pricing 2026 (cache hit/miss breakdown)](https://chat-deep.ai/pricing/)
 - [DeepSeek Pricing 2026: V4, R1 comparison to GPT-5.5/Claude](https://www.cloudzero.com/blog/deepseek-pricing/)

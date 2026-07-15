@@ -43,15 +43,18 @@ Key mechanism: weights are loaded once in HBM, and the same weight matrix multip
 **4. BBQ heat dissipation vs GPU cooling**
 
 Similar:
+
 - Both are fundamentally moving heat from a hot point source to ambient air via increased surface area + airflow (BBQ vents/fanning ≈ case fans/blower; grate and coal bed geometry ≈ heatsink fin stack).
 - Both use a feedback control loop: pitmaster adjusts vents to hold a target temp; GPU firmware does DVFS (dynamic voltage/frequency scaling) to throttle clocks based on the die temp sensor to hold below `T_junction_max`.
 
 Different, and this is the important part:
+
 - **Goal is opposite.** BBQ wants to *retain* heat at a controlled level for cooking over minutes/hours. GPU wants to *reject* heat as fast as possible — any heat retained above threshold = throttling = lost FLOPs.
 - **Power density is orders of magnitude different.** A GPU die is a few hundred mm² dissipating 300-700W → power density in the ballpark of 100+ W/cm². That's why GPUs need direct-contact vapor chambers, heat pipes, or liquid loops — pure natural convection (like a BBQ) can't move heat fast enough at that density. BBQ heat source is spread over a much larger area at far lower flux, so ambient/natural convection suffices.
 - **Timescale.** BBQ thermal transients are minutes; GPU thermal transients under load spikes are milliseconds, which is why the control loop (DVFS) has to be much faster and automated rather than human-in-the-loop.
 
 References:
+
 - [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
 - [Chinchilla scaling laws paper (Hoffmann et al. 2022)](https://arxiv.org/abs/2203.15556)
 - [NVIDIA GPU thermal throttling / DVFS overview](https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-thermal-and-power-management/)

@@ -43,15 +43,18 @@ for req, logit in zip(batch, logits):
 **4. 烧烤散热 vs GPU 散热**
 
 相似之处：
+
 - 两者的根本原理都是通过增加表面积和气流将热量从热点源转移到周围空气（烧烤架通风口/扇风 ≈ 机箱风扇/鼓风机；烤架和炭床的几何形状 ≈ 散热器鳍片堆）。
 - 两者都使用反馈控制回路：烧烤师傅调节通风口以维持目标温度；GPU 固件根据芯片温度传感器执行 DVFS（动态电压频率调整），通过降频将温度控制在 `T_junction_max` 以下。
 
 不同之处，这一点很重要：
+
 - **目标相反。** 烧烤希望在几分钟到几小时内将热量*保持*在可控水平用于烹饪。GPU 则希望*尽快排出*热量——任何高于阈值的热量保留都意味着降频，即 FLOPs 损失。
 - **功率密度相差几个数量级。** GPU 芯片面积仅几百平方毫米，却要散发 300-700W 功率 → 功率密度在 100+ W/cm² 量级。这就是为什么 GPU 需要直接接触式均温板、热管或液冷回路——纯自然对流（如烧烤）在这种密度下无法足够快地散热。烧烤的热源分布在更大面积上，热流密度低得多，因此环境/自然对流就足够了。
 - **时间尺度。** 烧烤的热瞬态过程以分钟计；GPU 在负载突增下的热瞬态过程以毫秒计，这就是为什么控制回路（DVFS）必须快得多且自动化，而不能依靠人工介入。
 
 参考：
+
 - [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
 - [Chinchilla scaling laws paper (Hoffmann et al. 2022)](https://arxiv.org/abs/2203.15556)
 - [NVIDIA GPU thermal throttling / DVFS overview](https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-thermal-and-power-management/)

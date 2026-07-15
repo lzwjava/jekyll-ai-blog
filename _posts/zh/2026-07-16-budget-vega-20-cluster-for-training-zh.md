@@ -42,10 +42,12 @@ MI50在代码层面仍有良好支持，但AMD不再为其构建二进制文件�
 ```
 
 组装后检查RCCL/P2P支持：
+
 ```bash
 rocminfo | grep -A5 "Pool Info"
 rocm-smi --showtopo   # 显示GPU间的P2P链路矩阵
 ```
+
 gfx906**不支持**像MI50通过xGMI桥接卡配对那样实现PCIe P2P——在没有相邻配对之间的xGMI桥接卡时，所有规约流量走GPU→CPU→GPU路径通过PCIe，这才是你实际训练中的瓶颈，而不是转接卡本身。
 
 **成本计算是真实的，但并非同类比较：**
@@ -65,6 +67,7 @@ gfx906**不支持**像MI50通过xGMI桥接卡配对那样实现PCIe P2P——在
 **关于“10块显卡解决了，100块也不远了”：** 需要反驳这一点。从10块到100块不是简单的乘法，而是一个不同的问题——功耗（30kW+，需要三相电）、机架/冷却、网络架构（如果需要真正的多节点吞吐，需要RDMA/RoCE），以及ROCm对gfx906的EOL意味着在这个规模下你需要维护自己的分支，这是一个实打实且持续的成本。如果实际目标是“廉价本地训练能力”，一台配备4-8块拥有真正NVLink或优质PCIe4 x16通道的二手A100/A6000节点，在算上工程时间后，每元人民币能为你带来的可用训练吞吐量将超过10块Pro VII。Pro VII集群作为推理/实验平台，或用于需要大量并行小模型实例的RL/agent大规模部署工作负载是有意义的，但绝非一个密集的预训练集群。
 
 参考文献：
+
 - [Radeon VII vs MI50 品牌标识](https://www.aliexpress.com/s/wiki-ssr/article/radeon-vii-vs-mi50)
 - [ROCm 6.0 gfx906 维护模式](https://rocm.docs.amd.com/en/docs-6.0.0/about/release-notes.html)
 - [ROCm 5.7 发行说明 — gfx906 EOS](https://rocm.docs.amd.com/en/docs-5.7.0/release.html)
