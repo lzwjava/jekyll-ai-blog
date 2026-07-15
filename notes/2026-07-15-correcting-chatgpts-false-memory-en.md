@@ -74,7 +74,7 @@ I have not installed or benchmarked it.
 
 This reduces false "I did it" assumptions.
 
-### 5. You can ask:
+### 5. You can ask
 
 > "What do you currently remember about my MI50 experiment?"
 

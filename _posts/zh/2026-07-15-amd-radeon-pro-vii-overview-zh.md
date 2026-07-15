@@ -11,7 +11,7 @@ type: note
 
 ## 问题：AMD Radeon Pro VII 简介及其与 MI50 的关系
 
-## 答案：
+## 答案
 
 ![图片](https://images.openai.com/static-rsc-4/dPSsTa5yXDBUPJBbutK5ZrCsiLXWfe3XCmoYTpONicg05uemGFOPlPgBZwNcNpo9DacTyz2RsXqWlrbYXSQNJzTuRxlKgq9VGNWzzzo7k2D7qyLacyIvzmvKeJdqmmfXPbOvNl20cY20v-a4xkX4h0Fnkxr0xtxQ0AppLAzn6gMwdDgGaKSKDqxCNjiKpUhv?purpose=fullsize)
 

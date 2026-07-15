@@ -14,6 +14,7 @@ type: note
 答案：NCP-AAI = **NVIDIA 认证专业人士：自主式 AI（大语言模型）**。这是 NVIDIA 最新的专业认证，区别于早些的 NCA-GENL（助理级 GenAI/LLM 认证）和 NCP-AII（基础设施运维认证）。
 
 考试机制：
+
 - **60–70 道题，90–120 分钟**（资料说法不一——NVIDIA 官方页面称 60-70 题/120 分钟，第三方指南称 90 分钟——注册时请在 Certiverse 确认）
 - **200 美元**，在线考试，通过 Certiverse 远程监考
 - 有效期 2 年，续证需重考
@@ -27,6 +28,7 @@ type: note
 付费前需核实：截至 2026 年 3 月 GTC 主题演讲，NVIDIA 参考模型系列已切换至 Nemotron 3（Super 120B/12B-active 正式发布，Ultra 预览版，Nano 4B 及 Nano Omni 面向边缘/多模态）——若参考 2026 年 4 月前的资料备考，考试中会遇到过时的模型引用。
 
 参考资料：
+
 - [NVIDIA 自主式 AI 大语言模型专业人士认证](https://www.nvidia.com/en-us/learn/certification/agentic-ai-professional/)
 - [NVIDIA 认证项目](https://www.nvidia.com/en-us/learn/certification/)
 - [NCP-AAI 2026 完全指南 | Preporato](https://preporato.com/blog/nvidia-ncp-aai-certification-complete-guide-2025)

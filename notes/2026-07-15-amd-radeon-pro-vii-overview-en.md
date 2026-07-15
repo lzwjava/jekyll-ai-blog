@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to AMD Radeon Pro VII and how it relates to MI50
 
-## Answer:
+## Answer
 
 ![Image](https://images.openai.com/static-rsc-4/dPSsTa5yXDBUPJBbutK5ZrCsiLXWfe3XCmoYTpONicg05uemGFOPlPgBZwNcNpo9DacTyz2RsXqWlrbYXSQNJzTuRxlKgq9VGNWzzzo7k2D7qyLacyIvzmvKeJdqmmfXPbOvNl20cY20v-a4xkX4h0Fnkxr0xtxQ0AppLAzn6gMwdDgGaKSKDqxCNjiKpUhv?purpose=fullsize)
 

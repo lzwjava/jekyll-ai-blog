@@ -11,7 +11,7 @@ type: note
 
 ## Question: Is an AMD Radeon Pro VII at ¥630 CNY from Xianyu a good deal?
 
-## Answer:
+## Answer
 
 Yes. **¥630 CNY for a working AMD Radeon Pro VII 16GB HBM2 is a very attractive price**, especially because this is not just an old gaming GPU — it is basically a workstation/HPC card with HBM2 + ECC. Used Radeon Pro VII cards are often listed much higher internationally; for example, used listings around several hundred USD exist, although those markets are not directly comparable to Xianyu. ([eBay][1])
 
@@ -134,7 +134,7 @@ Vega 20 support is old, and community experience shows that newer ROCm versions 
 
 ---
 
-### Before buying, ask seller for:
+### Before buying, ask seller for
 
 1. GPU-Z screenshot (Windows)
 
