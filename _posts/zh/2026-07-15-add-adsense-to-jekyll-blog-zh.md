@@ -42,6 +42,7 @@ EOF
 **4. 手动内文广告单元**——在 `_layouts/post.html` 中，于 `{{ content }}` 之后、结束 `</hr>` 之前插入一个广告单元（位于文章内容边界，点击率较高的位置）：
 
 {% raw %}
+
 ```diff
    {{ content }}
 
@@ -57,6 +58,7 @@ EOF
 +
    <hr>
 ```
+
 {% endraw %}
 
 从 AdSense 控制台获取 `data-ad-slot`：广告 → 按广告单元 → 内文广告 → 创建一个。
@@ -64,6 +66,7 @@ EOF
 **5. 部署**——你现有的 GitHub Actions 工作流（`gh-pages.yml`）已处理构建和部署，无需修改。只需提交并推送即可。
 
 **针对你设置的具体说明：**
+
 - `_config.yml` 中的 `google_analytics: "UA-66656236-1"` 是 Universal Analytics——该服务已于 2023 年停止运行，目前无效。建议替换为 GA4 或直接移除，因为 GoatCounter 已能提供真实分析数据。
 - 由于你的博客是双语（`-en`/`-zh`）且由 AI 翻译，请注意 AdSense 关于“自动生成内容”的政策——如果页面前元数据中标记了 `page.generated: true` 和 `page.translated: true`，且未编辑的 AI 输出过多，可能在人工审核中被标记。这并非硬性障碍，但值得了解。
 - 以当前流量（仓库 2 星/1 关注者并非流量信号，但若你的 `notes` 页面——共 1992 个——获得真实搜索流量，这些长尾内容恰恰是 AdSense 的主要收入来源，因为它们属于被索引的细分技术内容）。
@@ -71,6 +74,7 @@ EOF
 鉴于你的人工智能代理背景，另一个值得考虑的方案是：完全放弃展示广告，通过赞助商/联盟营销块（例如你构建的工具——`ww`、`iclaw`、`zz`——或 GPU/咨询行动号召）来实现盈利，因为你的流量画像（阅读技术笔记的工程师）转化为咨询线索的效果远优于展示广告的 0.50 美元 CPM。
 
 参考链接：
+
 - [Google AdSense - 入门指南](https://support.google.com/adsense/answer/9711326)
 - [ads.txt 指南](https://support.google.com/adsense/answer/7532444)
 - [自动广告文档](https://support.google.com/adsense/answer/9261307)

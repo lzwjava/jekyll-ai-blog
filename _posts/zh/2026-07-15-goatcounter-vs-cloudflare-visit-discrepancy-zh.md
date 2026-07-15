@@ -49,6 +49,7 @@ else:
 如果你想获得真实数据，可以查看 Cloudflare 自己在同一时期的**独立访客（Unique Visitors）**指标（而非总请求数）——这个数字才应该与 GoatCounter 的"访问次数"进行同类比较。
 
 参考文献：
+
 - [GoatCounter: 会话和访问如何工作](https://www.goatcounter.com/help/sessions)
 - [goatcounter/isbot 机器人检测源码](https://github.com/zgoat/isbot/blob/master/isbot.go)
 - [GoatCounter GitHub issue: 页面浏览量 vs 独立访客](https://github.com/arp242/goatcounter/issues/672)

@@ -18,6 +18,7 @@ Answer: Yes — that's exactly what my last answer does. To be clear about what 
 - **The `<ins class="adsbygoogle">` block in `post.html`** — this is a literal ad slot that renders *inside your blog posts*, between the content and the footer. This is the ad the reader sees on your site.
 
 So the full flow is:
+
 1. Apply at ads.google.com → get approved for `lzwjava.github.io`
 2. Get your `pub-XXXXXXXXXXXXXXXX` ID
 3. Drop `ads.txt` at repo root

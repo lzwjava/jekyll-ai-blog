@@ -49,6 +49,7 @@ Napkin math for you: 60k requests → ~30k agent/bot (invisible to GC) → remai
 If you want ground truth, check Cloudflare's own **Unique Visitors** metric (not total requests) for the same period — that's the number that should actually compare apples-to-apples with GoatCounter's "visits."
 
 References:
+
 - [GoatCounter: How sessions and visits work](https://www.goatcounter.com/help/sessions)
 - [goatcounter/isbot bot detection source](https://github.com/zgoat/isbot/blob/master/isbot.go)
 - [GoatCounter GitHub issue: pageviews vs unique visitors](https://github.com/arp242/goatcounter/issues/672)

@@ -18,6 +18,7 @@ type: note
 - **`post.html` 中的 `<ins class="adsbygoogle">` 代码块** — 这是一个实际的广告位，*在你的博客文章内部* 渲染，位于内容和页脚之间。这是读者在你的网站上看到的广告。
 
 所以完整流程如下：
+
 1. 在 ads.google.com 申请 → 获得 `lzwjava.github.io` 的批准
 2. 获取你的 `pub-XXXXXXXXXXXXXXXX` ID
 3. 将 `ads.txt` 放在仓库根目录

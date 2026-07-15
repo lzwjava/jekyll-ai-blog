@@ -42,6 +42,7 @@ That alone enables Auto Ads (Google decides placement). If you want more control
 **4. Manual in-article ad unit** — in `_layouts/post.html`, drop a unit right before the closing `<hr>` after `{{ content }}` (post-content boundary, decent CTR spot):
 
 {% raw %}
+
 ```diff
    {{ content }}
 
@@ -57,6 +58,7 @@ That alone enables Auto Ads (Google decides placement). If you want more control
 +
    <hr>
 ```
+
 {% endraw %}
 
 Get `data-ad-slot` from AdSense dashboard → Ads → By ad unit → In-article ad → create one.
@@ -64,6 +66,7 @@ Get `data-ad-slot` from AdSense dashboard → Ads → By ad unit → In-article 
 **5. Deploy** — your existing GH Actions workflow (`gh-pages.yml`) handles the build/deploy, no changes needed there. Just commit and push.
 
 **Notes specific to your setup:**
+
 - `google_analytics: "UA-66656236-1"` in `_config.yml` is Universal Analytics — that's been sunset since 2023 and does nothing now. Worth swapping for GA4 or dropping it since you already have GoatCounter for real analytics.
 - Since your blog is bilingual (`-en`/`-zh`) and AI-translated content, be aware AdSense's policy on "auto-generated content" — pages flagged as `page.generated: true` and `page.translated: true` in your frontmatter could get flagged in a manual review if there's too much unedited AI output. Not a hard blocker but worth knowing.
 - At current traffic (2 stars/1 watcher on the repo isn't a traffic signal, but if your `notes` pages — 1992 of them — get real search traffic, that long-tail content is actually where AdSense earns most, since it's indexed niche technical content).
@@ -71,6 +74,7 @@ Get `data-ad-slot` from AdSense dashboard → Ads → By ad unit → In-article 
 Alternative worth considering given your AI-agent background: skip display ads entirely and monetize via a sponsor/affiliate block (e.g. tools you build — `ww`, `iclaw`, `zz` — or GPU/consulting CTA) since your traffic profile (engineers reading technical notes) converts far better to consulting leads than to $0.50 CPM display ads.
 
 References:
+
 - [Google AdSense - Get started](https://support.google.com/adsense/answer/9711326)
 - [ads.txt guide](https://support.google.com/adsense/answer/7532444)
 - [Auto ads documentation](https://support.google.com/adsense/answer/9261307)
