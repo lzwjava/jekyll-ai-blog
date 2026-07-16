@@ -77,14 +77,14 @@ because CUDA + Tensor cores + mature PyTorch support matter much more than VRAM 
 
 This is where RX 6700 XT becomes complicated.
 
-### Good:
+### Good
 
 * 12GB VRAM
 * Cheap
 * Linux support
 * Can run some OpenCL / ROCm experiments
 
-### Bad:
+### Bad
 
 RDNA2 consumer cards are not the sweet spot for ROCm.
 

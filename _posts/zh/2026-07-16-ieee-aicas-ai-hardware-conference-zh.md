@@ -16,6 +16,7 @@ type: note
 这不是一个纯粹的机器学习会议（不是NeurIPS/ICML）——这是CAS人员（电路设计师、芯片架构师、VLSI）加上AI研究人员的中间地带。可以想想：量化/低功耗神经网络推理加速器、内存计算、神经形态芯片、脉冲神经网络、边缘AI芯片。
 
 当前状态：
+
 - AICAS 2025于2025年4月28-30日在法国波尔多举行，此前几年分别在杭州、仁川、华盛顿特区、热那亚和新竹举办。
 - 第八届AICAS 2026将于2026年9月16-18日举行，由IEEE CASS与IEEE CAS越南和中国分会组织，在越南下龙湾举办。
 - 论文最多5页（4页技术内容+1页仅参考文献），匿名提交；最佳论文会被推荐至IEEE TCAS-AI或IEEE TVLSI。会议论文集将收录至IEEE Xplore。
@@ -24,6 +25,7 @@ type: note
 如果你在评估它作为发表场所：它更偏向小众/硬件方向，而不是发表"我们微调了一个760M模型"这类工作的地方——如果你有关于推理加速、边缘部署量化或定制芯片/内核的工作，会更适合。
 
 参考资料：
+
 - [IEEE AICAS 2026 official site](https://2026.ieee-aicas.org/)
 - [AICAS dblp index (full history)](https://dblp.org/db/conf/aicas/index.html)
 - [AICAS 2026 Call for Papers PDF](https://ieee-cas.org/files/ieeecass/2025-06/AICAS-2026_CFP_Updated.pdf)

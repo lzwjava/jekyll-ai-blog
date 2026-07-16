@@ -69,12 +69,12 @@ Top-up 允许来自职业/高等教育路径的学生"升级"他们的学历资�
 
 最接近的概念：
 
-| 英国               | 中国对应     |
+| 英国 | 中国对应 |
 | ----------------- | ------------ |
-| HND               | 大专 / 高职    |
-| Foundation Degree | 专升本前阶段     |
-| Top-up degree     | 专升本最后一年    |
-| Bachelor          | 本科           |
+| HND | 大专 / 高职 |
+| Foundation Degree | 专升本前阶段 |
+| Top-up degree | 专升本最后一年 |
+| Bachelor | 本科 |
 
 但并非完全相同。
 

@@ -82,13 +82,13 @@ EIIM's LinkedIn presence describes it as a higher education organization with ar
 
 I would evaluate it like this:
 
-### Useful:
+### Useful
 
 ✅ learning business/innovation topics
 ✅ networking in Europe
 ✅ adding executive education after engineering career
 
-### Weak:
+### Weak
 
 ❌ unlikely to significantly improve AI engineer credibility
 ❌ not comparable to MSc CS / Data Science from a recognized university
