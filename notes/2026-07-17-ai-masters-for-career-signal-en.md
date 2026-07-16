@@ -11,7 +11,7 @@ type: note
 
 ## Question: How to decide between these research master's options (especially AI) given your background?
 
-## Answer:
+## Answer
 
 Given your background:
 

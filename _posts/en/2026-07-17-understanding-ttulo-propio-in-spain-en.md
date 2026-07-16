@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is **Título Propio** in Spain?
 
-## Answer:
+## Answer
 
 **Título Propio** means a **university's own degree/title**.
 
