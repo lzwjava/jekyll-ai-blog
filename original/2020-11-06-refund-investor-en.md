@@ -8,6 +8,10 @@ title: Why I Withdrew from My Housing Fund to Pay Back an Investor
 translated: false
 ---
 
+This post was originally written in Chinese and published on WeChat platform.
+
+---
+
 A while ago, the fact that I withdrew money from my housing fund to pay back an investor caused a little stir. I heard some friends in my circles were talking about it. Some friends also shared the story with their girlfriends, and their girlfriends started following my video channel, etc. Let me explain the motives behind all this, and share some new reflections on cooperation and how I do things.
 
 As everyone knows, under the pretense of my years of entrepreneurial effort, I wrote articles and begged readers for money, and managed to raise 20,000 yuan. Of course, many people blocked or deleted me, including quite a few acquaintances. I was sad for many days, so much so that I gradually didn't dare to proactively open the Moments of friends I thought of, afraid I'd been blocked again. If you open a WeChat contact card and the whole screen refreshes, that means the other person has deleted you. Because I really was blocked and deleted by many people, I've become intimately familiar with WeChat's functions, even grasping the subtle nuances of blocking and deleting.
