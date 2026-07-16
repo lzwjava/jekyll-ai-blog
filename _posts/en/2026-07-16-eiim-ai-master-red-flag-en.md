@@ -23,6 +23,7 @@ EIIM itself I couldn't find a specific ministry/EQAR accreditation record for â€
 Given your profile (self-taught, shipping real products, training models on MI300X), a credential from EIIM adds negative signal to anyone technical who checks â€” it reads as "bought a piece of paper" rather than "studied AI." If you want a credential, Erasmus Mundus programs or a recognized national university (even part-time/online, e.g. Leeds MSc AI, King's College Applied AI) carry actual verification weight. If the goal is just optics for non-technical clients/investors, weigh that against the risk of someone diligencing it and finding this pattern.
 
 References:
+
 - [EIIM - European Institute of Innovation and Management](https://www.eiim.eu/en/home/)
 - [EIMT Trustpilot reviews (same naming pattern, accreditation issues documented)](https://www.trustpilot.com/review/eimt.ch)
 - [EMAI - Erasmus Mundus Joint Master in AI (legit comparison)](https://www.upf.edu/web/emai/about-this-master)

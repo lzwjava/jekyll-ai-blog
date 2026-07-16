@@ -330,7 +330,7 @@ The agent system becomes differentiation.
 
 The market splits:
 
-### Frontier labs win:
+### Frontier labs win
 
 ```
 training intelligence
@@ -341,7 +341,7 @@ agent algorithms
 
 (OpenAI, Anthropic, Google DeepMind, xAI, DeepSeek, etc.)
 
-### Enterprise AI companies win:
+### Enterprise AI companies win
 
 ```
 deployment

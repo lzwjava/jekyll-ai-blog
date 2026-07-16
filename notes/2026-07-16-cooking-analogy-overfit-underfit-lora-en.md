@@ -47,6 +47,7 @@ Soy sauce implies *surface* seasoning: base ingredient's internal structure unto
 ```
 
 So:
+
 - pretraining = cooking the base ingredient (structure/flavor baked in, expensive, slow, ~2B tokens/mo scale for you)
 - full fine-tune = re-cooking with new seasoning mixed into the ingredient itself — changes the base
 - LoRA/adapter fine-tune = literally soy sauce — cheap, reversible, doesn't touch the base weights
@@ -55,6 +56,7 @@ So:
 Karpathy's own "recipe" post uses this exact cooking framing for training dynamics — worth the reread given you're training GPT-2 760M yourself.
 
 References:
+
 - [A Recipe for Training Neural Networks — Karpathy](http://karpathy.github.io/2019/04/25/recipe/)
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [Bias–variance tradeoff — overfitting/underfitting formalism](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
