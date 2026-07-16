@@ -281,7 +281,7 @@ Both useful.
 
 Given your goals:
 
-### Cheapest ROCm learning:
+### Cheapest ROCm learning
 
 ```
 MI50 ¥630
@@ -293,7 +293,7 @@ Excellent.
 
 ---
 
-### Serious AMD AI workstation:
+### Serious AMD AI workstation
 
 I would choose:
 
@@ -311,7 +311,7 @@ for LLM.
 
 ---
 
-### New AMD ecosystem:
+### New AMD ecosystem
 
 ```
 RX 9070 XT
