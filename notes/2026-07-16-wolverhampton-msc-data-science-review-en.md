@@ -28,8 +28,6 @@ University of Wolverhampton is a legitimate public UK university. The brochure c
 * QS 2024 ranking around #1001-1200
 * THE 2024 ranking around #601-800
 
-
-
 This is **not a top UK CS university**.
 
 Think:
@@ -67,8 +65,6 @@ Modules include:
 * Predictive Modelling
 * Exploratory Data Analysis
 
-
-
 Second stage:
 
 * research report
@@ -77,8 +73,6 @@ Second stage:
 * R/RStudio
 * SAS
 * dashboards with Quarto/Shiny
-
-
 
 The problem:
 
@@ -112,8 +106,6 @@ The brochure emphasizes:
 * online learning
 * 1-1.5 years
 * working professionals
-
-
 
 This is convenient, but there is a tradeoff:
 
@@ -218,7 +210,7 @@ than Wolverhampton MSc.
 
 ---
 
-## My score:
+## My score
 
 For average software engineer:
 

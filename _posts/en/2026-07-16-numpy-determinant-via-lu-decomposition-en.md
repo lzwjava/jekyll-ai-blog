@@ -11,7 +11,7 @@ type: note
 
 Question: How does numpy compute the determinant of a matrix, and what's the underlying algorithm?
 
-Answer: `np.linalg.det` doesn't use cofactor expansion (that's O(n!)). It uses **LU decomposition** — factor A = PLU, then det(A) = det(P) * det(L) * det(U). Since L is unit lower-triangular (det=1) and U is upper-triangular, det(U) = product of diagonal. det(P) = ±1 depending on permutation parity.
+Answer: `np.linalg.det` doesn't use cofactor expansion (that's O(n!)). It uses **LU decomposition** — factor A = PLU, then det(A) = det(P) *det(L)* det(U). Since L is unit lower-triangular (det=1) and U is upper-triangular, det(U) = product of diagonal. det(P) = ±1 depending on permutation parity.
 
 ```python
 import numpy as np
@@ -47,5 +47,6 @@ sign, logdet = np.linalg.slogdet(A)
 ```
 
 References:
+
 - [numpy.linalg.det docs](https://numpy.org/doc/stable/reference/generated/numpy.linalg.det.html)
 - [LAPACK dgetrf](https://netlib.org/lapack/explore-html/dd/d9a/group__getrf.html)

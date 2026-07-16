@@ -11,7 +11,7 @@ type: note
 
 问题：numpy 如何计算矩阵的行列式，其底层算法是什么？
 
-答案：`np.linalg.det` 并不使用余子式展开（那是 O(n!)）。它使用的是 **LU 分解**——将 A 分解为 PLU，然后 det(A) = det(P) * det(L) * det(U)。由于 L 是单位下三角矩阵（det=1），U 是上三角矩阵，det(U) 等于对角线元素的乘积。det(P) 根据置换的奇偶性为 ±1。
+答案：`np.linalg.det` 并不使用余子式展开（那是 O(n!)）。它使用的是 **LU 分解**——将 A 分解为 PLU，然后 det(A) = det(P) *det(L)* det(U)。由于 L 是单位下三角矩阵（det=1），U 是上三角矩阵，det(U) 等于对角线元素的乘积。det(P) 根据置换的奇偶性为 ±1。
 
 ```python
 import numpy as np
@@ -47,5 +47,6 @@ sign, logdet = np.linalg.slogdet(A)
 ```
 
 参考：
+
 - [numpy.linalg.det 文档](https://numpy.org/doc/stable/reference/generated/numpy.linalg.det.html)
 - [LAPACK dgetrf](https://netlib.org/lapack/explore-html/dd/d9a/group__getrf.html)
