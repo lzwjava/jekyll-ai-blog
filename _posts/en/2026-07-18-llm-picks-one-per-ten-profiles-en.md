@@ -12,6 +12,7 @@ type: note
 Pushed (`7029c8a`).
 
 New approach:
+
 - Gathers 10 profiles at a time (scrolling as needed)
 - Sends all 10 intros to the LLM in one call
 - LLM picks exactly 1 to unfollow from each batch
