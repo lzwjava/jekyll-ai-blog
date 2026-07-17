@@ -19,3 +19,5 @@ Before April 2026, I did not calculate or recall exactly how many page views thi
 GoatCounter reports about 4,390 visits per month:
 
 ![](assets/images/analytics/goatcounter.png)
+
+The metrics differ mainly because Cloudflare counts page loads, while GoatCounter reports visits; a single visit can generate multiple page views, so its monthly total is lower.
