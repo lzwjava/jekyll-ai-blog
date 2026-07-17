@@ -12,12 +12,15 @@ type: note
 Added a new `ww runpod detail <pod_id>` subcommand.
 
 File changed:
+
 - `/Users/lzwjava/projects/ww/ww/runpod/runpod.py`
 
 Usage:
+
 - `ww runpod detail n4pqpw4h5fe3bb`
 
 It now:
+
 - gets SSH metadata via `runpodctl ssh info`
 - SSHs into the pod
 - prints hostname, OS, CPU, memory, disk, GPU, uptime, Python, `nvcc`, and docker info

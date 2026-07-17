@@ -21,6 +21,7 @@ lscpu -e
 ```
 
 Context on the EPYC 7443:
+
 - **24 physical cores / 48 threads (SMT2)** — Zen 3, 7nm
 - Base clock 2.85 GHz, boost 4.0 GHz
 - 128 MB L3 cache

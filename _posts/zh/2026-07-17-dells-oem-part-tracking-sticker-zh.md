@@ -20,6 +20,7 @@ type: note
 所以没错——没什么特别的，这就像供应链中每个电阻、线缆和芯片都有批号一样：用于制造商层面的保修/召回/库存追溯，而非芯片供应商（英伟达）层面。同理，戴尔笔记本主板上搭载英伟达GPU时，显示的是`0V03C`而非英伟达板号。
 
 参考链接：
+
 - [以'V'开头的制造商部件号——戴尔](https://www.dell.com/en-us/shop/mpn-sitemap?mpn=v&page=3)
 - [戴尔OEM主板0V03C——Newegg](https://www.newegg.com/dell-motherboards-intel/p/1JW-000H-027Z7)
 - [戴尔NVIDIA NVS 315 0MD7CH——eBay](https://www.ebay.com/p/6013058575)

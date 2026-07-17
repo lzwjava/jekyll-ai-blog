@@ -12,12 +12,15 @@ type: note
 新增了一个 `ww runpod detail <pod_id>` 子命令。
 
 文件变更：
+
 - `/Users/lzwjava/projects/ww/ww/runpod/runpod.py`
 
 用法：
+
 - `ww runpod detail n4pqpw4h5fe3bb`
 
 现在此命令可以：
+
 - 通过 `runpodctl ssh info` 获取 SSH 元数据
 - SSH 进入 pod
 - 打印 hostname、OS、CPU、memory、disk、GPU、uptime、Python、`nvcc` 以及 docker 信息

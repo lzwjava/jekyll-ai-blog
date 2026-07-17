@@ -20,6 +20,7 @@ Answer: That's not an NVIDIA identifier — it's Dell's OEM part-tracking scheme
 So yeah — nothing exotic, it's the same reason every resistor, cable, and chip in a supply chain gets a lot code: traceability for warranty/recall/inventory, at the manufacturer level not the chip vendor (NVIDIA) level. Same reason a Dell laptop motherboard with an Nvidia GPU on it shows `0V03C` instead of an NVIDIA board number.
 
 References:
+
 - [Manufacturer Part Numbers Starting With 'V' — Dell](https://www.dell.com/en-us/shop/mpn-sitemap?mpn=v&page=3)
 - [Dell OEM Motherboard 0V03C — Newegg](https://www.newegg.com/dell-motherboards-intel/p/1JW-000H-027Z7)
 - [Dell NVIDIA NVS 315 0MD7CH — eBay](https://www.ebay.com/p/6013058575)
