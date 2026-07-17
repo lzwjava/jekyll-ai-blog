@@ -91,14 +91,6 @@ layout: default
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
 
-    {% assign base_name_length = base_name | size %}
-    {% if current_lang == "hant" %}
-      {% assign length_to_slice = base_name_length | minus: 5 %}
-    {% else %}
-      {% assign length_to_slice = base_name_length | minus: 3 %}
-    {% endif %}
-    {% assign base_name = base_name | slice: 0, length_to_slice %}
-
 
     <select id="languageSelect" class="button right-button">
         <option value="/{{ base_name }}-en" {% if current_lang == "en" %}selected{% endif %}>English</option>
