@@ -15,5 +15,6 @@ Depends on the task:
 - `runpod` (`ssh.runpod.io`) — ephemeral cloud GPU pod. Use it only when you need a GPU that isn’t on your workstation. If the pod gets stopped/recreated, the hostname/IP changes.
 
 Rule of thumb:
+
 - General work, git, config → `ssh runner`
 - Training on H200/A100/etc, GPU inference → `ssh runpod-gpu-<podId>`

@@ -65,6 +65,7 @@ You can also scope a key per-endpoint (`runpod.Endpoint(id, api_key="specific_ke
 For your MI300X training runs, the REST `/v1/pods` endpoints are what you want for spin-up/spin-down automation in a bash loop or your `ww`/`zz` CLI — no need to touch GraphQL unless you need template management, which REST doesn't fully cover yet.
 
 References:
+
 - [RunPod API Keys](https://docs.runpod.io/get-started/api-keys)
 - [RunPod REST API blog](https://www.runpod.io/blog/runpod-rest-api-gpu-management)
 - [Manage Pods - GraphQL API](https://docs.runpod.io/sdks/graphql/manage-pods)

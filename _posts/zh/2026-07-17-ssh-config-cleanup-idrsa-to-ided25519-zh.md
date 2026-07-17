@@ -12,6 +12,7 @@ type: note
 最新的配置已经正确、验证并生效——`runpod`/`runpod-gpu-*`/`runner` 都通过 `id_ed25519` 解析，并且绕过代理。剩下的一处清理是，将 `Host *` 默认块中的 `id_rsa` 移除，以免它被优先尝试。
 
 **~/ssh/config 第 18–24 行：**
+
 ```
 Host *
     UseKeychain yes
@@ -23,6 +24,7 @@ Host *
 ```
 
 修改后，用法：
+
 - `ssh runner` → `root@213.173.99.50 -p 26246 -i ~/.ssh/id_ed25519`
 - `ssh runpod` → `n4pqpw4h5fe3bb-64411f2b@ssh.runpod.io -i ~/.ssh/id_ed25519`
 - `ssh runpod-gpu-<podId>` → 相同的 RunPod 用户，内嵌任意租用 IP

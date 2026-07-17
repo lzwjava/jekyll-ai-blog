@@ -41,6 +41,7 @@ For your GPT-2 760M training on MI300X — if you're on OAM/SXM MI300X (8-GPU UB
 **Rule of thumb:** PCIe = fine for inference / single-GPU / small fine-tunes. SXM = mandatory once you're doing multi-GPU pretraining with tensor parallelism, because comm-bound ops (all-reduce, all-to-all) are where PCIe cards fall off a cliff.
 
 References:
+
 - [NVIDIA H100 Datasheet](https://www.nvidia.com/en-us/data-center/h100/)
 - [NVLink and NVSwitch Overview](https://www.nvidia.com/en-us/data-center/nvlink/)
 - [AMD Instinct MI300X Datasheet](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)

@@ -81,6 +81,7 @@ This is the key thing people miss: article 赞赏 money settles directly to the 
 **Workaround if you actually want a reward flow you control:** don't use native article 赞赏. Instead wire up your own WeChat Pay JSAPI/Native order (a real merchant order, not the article reward widget) — that *does* give you a `notify_url` payment callback, and from there you can push a customer-service message via the `/cgi-bin/message/custom/send` API to thank the payer. That's the only path to something resembling "auto-reply to reward."
 
 References:
+
 - [消息与事件推送介绍 | 微信开放文档](https://developers.weixin.qq.com/doc/subscription/guide/dev/push/)
 - [关注/取消关注事件 | 微信开放文档](https://developers.weixin.qq.com/doc/offiaccount/Message_Management/Receiving_event_pushes.html)
 - [公众号赞赏和喜欢作者功能介绍 | 微信开放社区](https://developers.weixin.qq.com/community/develop/article/doc/00004ed4f985800b65cdc33c85b413)

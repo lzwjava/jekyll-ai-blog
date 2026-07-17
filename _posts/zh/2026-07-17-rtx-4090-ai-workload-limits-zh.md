@@ -53,5 +53,6 @@ nvidia-smi --query-gpu=name,memory.total,memory.used,utilization.gpu,power.draw,
 ```
 
 参考资料：
+
 - [NVIDIA RTX 4090 规格](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/)
 - [Ada Lovelace 架构白皮书](https://images.nvidia.com/aem-dam/Solutions/geforce/ada/nvidia-ada-gpu-architecture.pdf)

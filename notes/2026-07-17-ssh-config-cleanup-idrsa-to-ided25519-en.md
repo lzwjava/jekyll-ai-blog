@@ -12,6 +12,7 @@ type: note
 The latest config is already correct, verified, and working — `runpod`/`runpod-gpu-*`/`runner` all resolve via `id_ed25519` and bypass the proxy. The one remaining cleanup is to drop `id_rsa` from the `Host *` default so it doesn’t get tried first.
 
 **~/ssh/config line 18–24:**
+
 ```
 Host *
     UseKeychain yes
@@ -23,6 +24,7 @@ Host *
 ```
 
 After that, usage:
+
 - `ssh runner` → `root@213.173.99.50 -p 26246 -i ~/.ssh/id_ed25519`
 - `ssh runpod` → `n4pqpw4h5fe3bb-64411f2b@ssh.runpod.io -i ~/.ssh/id_ed25519`
 - `ssh runpod-gpu-<podId>` → same RunPod user with any lease IP built in

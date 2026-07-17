@@ -65,6 +65,7 @@ print(result)
 对于您的 MI300X 训练运行，REST `/v1/pods` 端点正是您在 bash 循环或 `ww`/`zz` CLI 中实现自动启停所需要的——除非您需要模板管理（REST 尚未完全覆盖），否则无需接触 GraphQL。
 
 参考：
+
 - [RunPod API 密钥](https://docs.runpod.io/get-started/api-keys)
 - [RunPod REST API 博客](https://www.runpod.io/blog/runpod-rest-api-gpu-management)
 - [管理 Pod - GraphQL API](https://docs.runpod.io/sdks/graphql/manage-pods)

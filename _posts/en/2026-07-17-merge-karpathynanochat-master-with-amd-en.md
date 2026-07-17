@@ -12,10 +12,12 @@ type: note
 Merged `karpathy/nanochat:master`.
 
 State after merge:
+
 - Clean working tree, merge committed as `2d85166 merge karpathy/nanochat:master`.
 - Ahead of upstream/master: 18 commits (inc merge commit); behind upstream/master: 0.
 
 Conflicts resolved:
+
 - `nanochat/flash_attention.py`
 - `nanochat/optim.py`
 - `scripts/base_train.py`

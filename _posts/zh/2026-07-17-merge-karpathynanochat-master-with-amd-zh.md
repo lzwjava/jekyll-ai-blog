@@ -12,10 +12,12 @@ type: note
 合并了 `karpathy/nanochat:master`。
 
 合并后的状态：
+
 - 工作树干净，合并提交为 `2d85166 merge karpathy/nanochat:master`。
 - 领先于 upstream/master：18 个提交（含合并提交）；落后于 upstream/master：0 个。
 
 解决的冲突：
+
 - `nanochat/flash_attention.py`
 - `nanochat/optim.py`
 - `scripts/base_train.py`

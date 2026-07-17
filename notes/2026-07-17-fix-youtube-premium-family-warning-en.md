@@ -34,6 +34,7 @@ Answer:
 **Bottom line**: fix the account-level country mismatch first (step 1) — that resolves the majority of false-positive cases without needing to file a dispute at all.
 
 References:
+
 - [YouTube Premium Same-Household Rule](https://truescho.com/en/blog/youtube-premium-family-same-household-requirement-2026)
 - [YouTube Premium Family Plan accounts flagged - gHacks](https://www.ghacks.net/2025/09/02/youtube-premium-family-plan-accounts-are-being-flagged-for-not-being-in-the-same-household/)
 - [YouTube Premium Family Plan 2026 - Eligibility & How It Works](https://www.u7buy.com/blog/youtube-premium-family-plan/)

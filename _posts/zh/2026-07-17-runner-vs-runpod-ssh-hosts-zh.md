@@ -15,5 +15,6 @@ type: note
 - `runpod`（`ssh.runpod.io`）—— 临时云端GPU Pod。仅当你需要使用工作站上没有的GPU时才使用。如果Pod被停止/重建，主机名/IP会发生变化。
 
 经验法则：
+
 - 常规工作、git、配置 → `ssh runner`
 - 在H200/A100等上进行训练、GPU推理 → `ssh runpod-gpu-<podId>`
