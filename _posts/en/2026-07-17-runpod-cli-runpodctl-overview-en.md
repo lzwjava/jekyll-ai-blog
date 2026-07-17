@@ -16,6 +16,7 @@ type: note
 Every pod ships with it pre-installed and a pod-scoped API key. Install locally too if you want remote orchestration from your own box.
 
 **Install:**
+
 ```bash
 wget -qO- cli.runpod.net | sudo bash
 # or
@@ -25,6 +26,7 @@ conda install conda-forge::runpodctl
 ```
 
 **First-time setup:**
+
 ```bash
 runpodctl doctor   # configures API key + SSH in one shot
 # or manually:
@@ -32,6 +34,7 @@ runpodctl config --apiKey=<RUNPOD_API_KEY>
 ```
 
 **Core commands (noun-verb pattern):**
+
 ```bash
 runpodctl gpu list                          # available GPU types
 runpodctl datacenter list                   # dc availability
@@ -51,6 +54,7 @@ runpodctl billing          # billing history
 ```
 
 **File transfer (no API key needed, uses one-time codes):**
+
 ```bash
 runpodctl send data.txt
 # Code is: 8338-galileo-collect-fidel
@@ -63,6 +67,7 @@ Old `get/create/remove/start/stop/exec/project/config` verbs are deprecated in f
 For your MI300X/GPT-2 training runs, this is basically your whole ops loop: `pod create` → `ssh` → train → `pod stop`, scriptable end to end.
 
 References:
+
 - [Runpod CLI Overview](https://docs.runpod.io/runpodctl/overview)
 - [runpodctl GitHub README](https://github.com/runpod/runpodctl)
 - [runpodctl full command reference](https://github.com/runpod/runpodctl/blob/main/docs/runpodctl.md)

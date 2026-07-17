@@ -16,6 +16,7 @@ type: note
 每个 pod 都预装了它以及一个 pod 作用域的 API 密钥。如果你希望从自己的机器进行远程编排，也可以在本地安装。
 
 **安装：**
+
 ```bash
 wget -qO- cli.runpod.net | sudo bash
 # 或者
@@ -25,6 +26,7 @@ conda install conda-forge::runpodctl
 ```
 
 **首次设置：**
+
 ```bash
 runpodctl doctor   # 一次性配置 API 密钥和 SSH
 # 或者手动配置：
@@ -32,6 +34,7 @@ runpodctl config --apiKey=<RUNPOD_API_KEY>
 ```
 
 **核心命令（名词‑动词模式）：**
+
 ```bash
 runpodctl gpu list                          # 可用的 GPU 类型
 runpodctl datacenter list                   # 数据中心可用性
@@ -51,6 +54,7 @@ runpodctl billing          # 账单历史
 ```
 
 **文件传输（不需要 API 密钥，使用一次性码）：**
+
 ```bash
 runpodctl send data.txt
 # 代码是：8338-galileo-collect-fidel
@@ -63,6 +67,7 @@ runpodctl receive 8338-galileo-collect-fidel
 对于你的 MI300X/GPT-2 训练任务而言，这基本上就是你的整个运维循环：`pod create` → `ssh` → train → `pod stop`，可从头到尾进行脚本化。
 
 参考链接：
+
 - [Runpod CLI Overview](https://docs.runpod.io/runpodctl/overview)
 - [runpodctl GitHub README](https://github.com/runpod/runpodctl)
 - [runpodctl full command reference](https://github.com/runpod/runpodctl/blob/main/docs/runpodctl.md)
