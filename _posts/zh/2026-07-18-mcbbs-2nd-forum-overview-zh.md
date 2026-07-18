@@ -84,5 +84,5 @@ Minecraft
 
 [1]: https://www.mcbbs.app/?utm_source=chatgpt.com "Minecraft 我的世界论坛 MCBBS 2nd"
 [2]: https://www.mcbbs.app/ "
-	Minecraft 我的世界论坛 MCBBS 2nd
+ Minecraft 我的世界论坛 MCBBS 2nd
 "

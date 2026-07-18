@@ -33,14 +33,14 @@ The choroid's main functions:
 
 Related terms:
 
-| Chinese | English                            |
+| Chinese | English |
 | ------- | ---------------------------------- |
-| 脉络膜     | choroid                            |
-| 脉络膜厚度   | choroidal thickness                |
-| 脉络膜血管   | choroidal blood vessels            |
+| 脉络膜 | choroid |
+| 脉络膜厚度 | choroidal thickness |
+| 脉络膜血管 | choroidal blood vessels |
 | 脉络膜新生血管 | choroidal neovascularization (CNV) |
-| 视网膜     | retina                             |
-| 巩膜      | sclera                             |
-| 黄斑      | macula                             |
+| 视网膜 | retina |
+| 巩膜 | sclera |
+| 黄斑 | macula |
 
 For **myopia (近视)** research, the choroid is especially interesting because a thinner choroid is often associated with axial elongation (眼轴增长), although the relationship is complex and not simply "thin choroid = myopia". It is one of the active areas in myopia control research.

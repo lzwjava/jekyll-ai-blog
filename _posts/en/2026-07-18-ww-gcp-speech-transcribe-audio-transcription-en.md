@@ -16,11 +16,13 @@ ww gcp-speech transcribe <audio_file> [options]
 ```
 
 **Arguments:**
+
 - `<audio_file>` — path to audio file (mp3, m4a, wav, ogg, mp4, etc.)
 - `--lang LANG` — language code override (default: auto-detect from filename suffix: `-zh`/`-cn` → Chinese, otherwise English)
 - `--wait` — wait for the job to finish and download results (default is async: submit, print console link, exit)
 
 **Examples:**
+
 ```sh
 ww gcp-speech transcribe ~/Downloads/recording.mp3
 ww gcp-speech transcribe ~/Downloads/recording-zh.mp3 --lang cmn-Hans-CN

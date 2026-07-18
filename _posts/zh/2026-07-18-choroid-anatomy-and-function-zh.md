@@ -33,14 +33,14 @@ type: note
 
 相关术语：
 
-| 中文 | 英文                            |
+| 中文 | 英文 |
 | ------- | ---------------------------------- |
-| 脉络膜     | choroid                            |
-| 脉络膜厚度   | choroidal thickness                |
-| 脉络膜血管   | choroidal blood vessels            |
+| 脉络膜 | choroid |
+| 脉络膜厚度 | choroidal thickness |
+| 脉络膜血管 | choroidal blood vessels |
 | 脉络膜新生血管 | choroidal neovascularization (CNV) |
-| 视网膜     | retina                             |
-| 巩膜      | sclera                             |
-| 黄斑      | macula                             |
+| 视网膜 | retina |
+| 巩膜 | sclera |
+| 黄斑 | macula |
 
 对于**近视**研究，脉络膜尤其令人感兴趣，因为较薄的脉络膜通常与眼轴增长相关，尽管这种关系复杂，并非简单的“薄脉络膜就是近视”。这是近视控制研究中的活跃领域之一。
