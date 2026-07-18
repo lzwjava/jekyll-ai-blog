@@ -40,6 +40,24 @@ Built my machine learning workstation in 2023 and have been training and learnin
 
 ---
 
+### 🏋️ Training Run Summary
+
+| # | Model | Framework | Params | Hardware | Steps | Status |
+| --- | ------- | ----------- | -------- | ---------- | ------- | -------- |
+| 1 | FineWeb 125M run1 | nanoGPT | 124M | RTX 4070 | 20K | completed |
+| 2 | FineWeb 125M run2 | nanoGPT | 124M | RTX 4070 | 6K | completed |
+| 3 | FineWeb 125M run3 | nanoGPT | 124M | RTX 4070 | 11K | completed |
+| 4 | OpenWebText 125M | nanoGPT | 124M | RTX 4070 | 6K | completed |
+| 5 | FineWeb 125M MI300X | nanoGPT | 124M | MI300X | 750 | smoke test |
+| 6 | FineWeb 760M | nanoGPT | 760M | MI300X | 76K/445K | stopped early |
+| 7 | fineweb-edu-d12 | nanochat | 286M | RTX 4070 | 10K | base pretrain done |
+| 8 | rtx4070-d12-chinchilla | nanochat | 286M | RTX 4070 | 87K | **fully completed** |
+| 9 | code-sec-fineweb-d12 | nanochat | 286M | H200? | 50K | completed |
+| 10 | code-sec-sft | nanochat | ~140M | H200? | 8,985 | completed |
+| 11 | codeparrot-d12 | nanochat | 286M | RTX 4070 | ? | scripts only |
+| 12 | Notes SFT (Qwen3-4B) | trl/peft | 4B | RTX 4070 | ? | scripts only |
+| 13 | SPGISpeech (Whisper) | transformers | varies | ? | ? | scripts only |
+
 ## 🧠 Enhanced nanoGPT — My Fork
 
 Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it with additional dataset pipelines, scaled training configs, and inline shape annotations for learning. 45 commits, Nov 2025 – Apr 2026.
