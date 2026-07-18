@@ -157,9 +157,9 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 ---
 
-## 🏢 Enterprise AI Usage — HSBC Bank
+## 🏢 Enterprise AI Usage — at a British Universal Bank
 
-At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
+At a British universal bank (via a global IT outsourcing company), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
 
 **What I built:**
 
@@ -172,7 +172,7 @@ At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of Gi
 
 - Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
 - Earned a **Contribution Award** for the high-profile AIPlayer project.
-- Joined HSBC's internal AI community.
+- Joined the bank's internal AI community.
 
 <div align="center">
 
@@ -182,13 +182,13 @@ At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of Gi
 
 </div>
 
-![HSBC AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
+![AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
 
 ---
 
-## 🎤 AI Talk at HSBC — From Neural Networks to Agents
+## 🎤 AI Talk — From Neural Networks to Agents
 
-Gave a technical talk to **80 participants** at HSBC Bank — senior consultants, specialists, associate directors, software engineers, and contractors.
+Gave a technical talk to **80 participants** at a British universal bank — senior consultants, specialists, associate directors, software engineers, and contractors.
 
 **Talk:** *"From Neural Networks to Agents"* — a journey from the simplest neural network (`y = wx`) through MNIST, Transformers, GPT, nanoGPT, to building personal AI agents.
 
