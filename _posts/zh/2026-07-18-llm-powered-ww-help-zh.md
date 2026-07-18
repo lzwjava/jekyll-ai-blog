@@ -22,6 +22,7 @@ ww help ~/projects/ww/ww/display/appearance.py
 ```
 
 **修改的文件：**
+
 - **`ww/help_llm/help.py`**（新增）——帮助模块：读取目标文件 + 扫描 `main.py` 中对应的导入/连接方式，将两者发送给 LLM，打印解释说明
 - **`ww/help_llm/__init__.py`**（新增）——空包初始化文件
 - **`ww/main.py`**——将 `help` 添加为独立命令组（`ww help <路径>` → LLM 帮助，`ww help` → 原有帮助；`--help`/`-h` 仍显示原有帮助页面不变）

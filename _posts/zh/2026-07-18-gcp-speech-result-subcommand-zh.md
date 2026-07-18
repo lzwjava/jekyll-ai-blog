@@ -30,6 +30,7 @@ type: note
 4. **`~/.zsh/completions/_ww`** — 将 `result` 添加到 `gcp_speech_cmds` 中，用于 Tab 补全
 
 **使用流程：**
+
 ```
 ww gcp-speech transcribe ~/Downloads/recording.mp3
   → 输出：Job ID: recording

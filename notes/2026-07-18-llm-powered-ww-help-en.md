@@ -22,6 +22,7 @@ ww help ~/projects/ww/ww/display/appearance.py
 ```
 
 **Files changed:**
+
 - **`ww/help_llm/help.py`** (new) — the help module: reads the target file + scans `main.py` for its import/wiring, sends both to the LLM, prints the explanation
 - **`ww/help_llm/__init__.py`** (new) — empty package init
 - **`ww/main.py`** — added `help` as a separate command group (`ww help <path>` → LLM help, `ww help` → existing help; `--help`/`-h` still shows the help page unchanged)

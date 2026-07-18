@@ -30,6 +30,7 @@ All changes are in place. Here's a summary of what was done:
 4. **`~/.zsh/completions/_ww`** — added `result` to `gcp_speech_cmds` for tab completion
 
 **Usage flow:**
+
 ```
 ww gcp-speech transcribe ~/Downloads/recording.mp3
   → Prints: Job ID: recording
