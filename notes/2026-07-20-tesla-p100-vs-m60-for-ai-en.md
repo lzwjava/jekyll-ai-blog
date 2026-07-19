@@ -237,7 +237,7 @@ Better for:
 
 ---
 
-## My ranking for an AI home lab:
+## My ranking for an AI home lab
 
 ```
 RTX 3090 24GB
