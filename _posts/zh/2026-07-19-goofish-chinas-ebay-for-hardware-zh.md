@@ -17,18 +17,18 @@ type: note
 
 它在中国尤其以以下商品闻名：
 
-*   **二手电子产品**
-    *   GPU：RTX 3090、RTX 4090、A6000、Tesla 显卡
-    *   CPU、服务器、MacBook
-    *   手机、相机
-*   **电脑硬件**
-    *   矿卡 GPU
-    *   工作站配件
-    *   工程样品
-    *   退役企业级硬件
-*   **收藏品**
-*   **二手商品**
-*   **工厂尾货/清仓商品** ([Savvyoo][2])
+* **二手电子产品**
+  * GPU：RTX 3090、RTX 4090、A6000、Tesla 显卡
+  * CPU、服务器、MacBook
+  * 手机、相机
+* **电脑硬件**
+  * 矿卡 GPU
+  * 工作站配件
+  * 工程样品
+  * 退役企业级硬件
+* **收藏品**
+* **二手商品**
+* **工厂尾货/清仓商品** ([Savvyoo][2])
 
 对于你寻找 AI 硬件来说，这正是许多中国用户买卖以下物品的地方：
 
@@ -46,10 +46,10 @@ NVMe SSD
 
 价格可能远低于京东/天猫的原因是许多卖家是：
 
-*   出售旧设备的个人
-*   清算显卡的小型 GPU 矿工
-*   销售二手企业硬件的 IT 商家
-*   清理库存的公司
+* 出售旧设备的个人
+* 清算显卡的小型 GPU 矿工
+* 销售二手企业硬件的 IT 商家
+* 清理库存的公司
 
 示例：
 
@@ -108,8 +108,8 @@ RTX 3090 二手：
 
 参考来源：
 
-*   [阿里巴巴闲鱼概览](https://www.alibabagroup.com/en-US/about-alibaba-businesses-1747081802473799680?utm_source=chatgpt.com)
-*   [闲鱼（维基数据）](https://www.wikidata.org/wiki/Q32187808?utm_source=chatgpt.com)
+* [阿里巴巴闲鱼概览](https://www.alibabagroup.com/en-US/about-alibaba-businesses-1747081802473799680?utm_source=chatgpt.com)
+* [闲鱼（维基数据）](https://www.wikidata.org/wiki/Q32187808?utm_source=chatgpt.com)
 
 [1]: https://www.wikidata.org/wiki/Q32187808?utm_source=chatgpt.com "闲鱼 - 维基数据"
 [2]: https://savvyoo.com/sites-apps/xianyu/?utm_source=chatgpt.com "闲鱼指南：二手购物、代购与安全 – Savvyoo"

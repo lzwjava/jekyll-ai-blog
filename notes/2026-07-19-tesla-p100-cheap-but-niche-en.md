@@ -70,7 +70,7 @@ For LLM:
 
 ## What can P100 run?
 
-### Good:
+### Good
 
 ### 1. Small LLM inference
 
@@ -121,7 +121,7 @@ possible.
 
 ---
 
-## Bad:
+## Bad
 
 ### Modern LLM training
 

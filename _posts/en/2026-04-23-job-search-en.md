@@ -49,10 +49,10 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ---
 
-AI portfolio: https://lzwjava.github.io/ai-portfolio-en
-software portfolio: https://lzwjava.github.io/portfolio-en
-resume: https://lzwjava.github.io/resume-en
-life portfolio: https://lzwjava.github.io/life-portfolio-en
+AI portfolio: <https://lzwjava.github.io/ai-portfolio-en>
+software portfolio: <https://lzwjava.github.io/portfolio-en>
+resume: <https://lzwjava.github.io/resume-en>
+life portfolio: <https://lzwjava.github.io/life-portfolio-en>
 
 ---
 
