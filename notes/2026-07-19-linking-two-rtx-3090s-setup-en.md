@@ -18,12 +18,15 @@ Answer:
 Just two PCIe x16 slots (ideally x8/x8 electrical minimum, x16/x16 if your CPU has enough lanes — e.g. Threadripper/EPYC/HEDT, not consumer i5/i7/Ryzen which only give 20-24 lanes total).
 
 Check topology:
+
 ```bash
 nvidia-smi topo -m
 ```
+
 Output matrix shows `PIX` (same PCIe switch), `PXB` (multiple switches), `PHB` (host bridge/CPU), `SYS` (crosses NUMA/QPI) — worse as you go down that list. Consumer boards usually show `PHB` between two GPUs on different CPU-attached slots.
 
 Bandwidth here: whatever your PCIe gen/lanes give you (PCIe 4.0 x16 ≈ 32GB/s each way), no direct GPU-to-GPU DMA unless P2P is enabled:
+
 ```bash
 # check P2P capability
 nvidia-smi topo -p2p r
@@ -32,12 +35,14 @@ nvidia-smi topo -p2p r
 **2. NVLink bridge (RTX 3090 specific)**
 
 3090 is the *last* consumer card with NVLink (4090 dropped it entirely). You need:
+
 - A physical NVLink bridge (3-slot spacing, "RTX NVLink Bridge" not the old SLI HB one — check slot spacing matches your board)
 - Two 3090s in slots exactly 3-slots apart (varies by board)
 
 Gives you ~56GB/s unidirectional / ~112GB/s bidirectional, direct GPU-to-GPU, bypassing CPU/PCIe entirely for that pair.
 
 Verify it's active:
+
 ```bash
 nvidia-smi nvlink -s
 nvidia-smi nvlink -c
@@ -68,6 +73,7 @@ Plain 1GbE/10GbE will bottleneck gradient all-reduce badly for anything beyond s
 If it's inference/training on one box: skip NVLink unless you're doing tensor-parallel (splitting a single model's layers across both GPUs) — for that, the interconnect bandwidth actually matters (e.g. `vllm` or `deepspeed` tensor parallelism). For data-parallel (each GPU trains a full replica, just averaging grads), PCIe P2P is usually fine, NVLink is a nice-to-have.
 
 If it's two separate boxes: don't bother trying to make it look like local multi-GPU — treat it as multi-node NCCL with `NCCL_IB_DISABLE=1` (if no InfiniBand) and tune `NCCL_SOCKET_IFNAME` to your NIC. Check actual achievable bandwidth first:
+
 ```bash
 # quick NCCL bandwidth test between nodes
 git clone https://github.com/NVIDIA/nccl-tests
@@ -76,6 +82,7 @@ mpirun -np 2 -H node0,node1 ./build/all_reduce_perf -b 8 -e 128M -f 2
 ```
 
 References:
+
 - [NCCL Tests](https://github.com/NVIDIA/nccl-tests)
 - [PyTorch Distributed - torchrun](https://pytorch.org/docs/stable/elastic/run.html)
 - [NVIDIA NCCL Environment Variables](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)

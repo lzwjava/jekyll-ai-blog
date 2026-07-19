@@ -18,12 +18,15 @@ type: note
 只需两个PCIe x16插槽（理想情况下至少x8/x8电气，如果你的CPU有足够通道则x16/x16——例如Threadripper/EPYC/HEDT，而非消费级i5/i7/Ryzen，它们总共只有20-24通道）。
 
 检查拓扑：
+
 ```bash
 nvidia-smi topo -m
 ```
+
 输出矩阵显示 `PIX`（同一PCIe交换机）、`PXB`（多个交换机）、`PHB`（主机桥接器/CPU）、`SYS`（跨NUMA/QPI）——越往下性能越差。消费级主板通常在两个GPU位于不同CPU连接的插槽时显示 `PHB`。
 
 此处的带宽取决于你的PCIe代数和通道数（PCIe 4.0 x16 每个方向约32GB/s），除非启用P2P，否则无直接GPU到GPU的DMA：
+
 ```bash
 # 检查P2P能力
 nvidia-smi topo -p2p r
@@ -32,12 +35,14 @@ nvidia-smi topo -p2p r
 **2. NVLink桥接器（RTX 3090专用）**
 
 3090是*最后*一款支持NVLink的消费级显卡（4090完全取消了该功能）。你需要：
+
 - 一个物理NVLink桥接器（3槽间距，“RTX NVLink Bridge”而非旧的SLI HB桥接器——检查槽间距是否与你的主板匹配）
 - 两块3090安装在恰好相隔3个槽位的插槽中（因主板而异）
 
 可实现约56GB/s单向 / 112GB/s双向，直接GPU到GPU通信，完全绕过CPU/PCIe。
 
 验证是否激活：
+
 ```bash
 nvidia-smi nvlink -s
 nvidia-smi nvlink -c
@@ -68,6 +73,7 @@ torchrun --nproc_per_node=1 --nnodes=2 --node_rank=1 \
 如果是单机推理/训练：除非你正在进行张量并行（将单个模型的层拆分到两个GPU上）——此时互连带宽确实重要（例如`vllm`或`deepspeed`的张量并行），否则可以跳过NVLink。对于数据并行（每个GPU训练完整副本，仅平均梯度），PCIe P2P通常足够，NVLink是锦上添花。
 
 如果是两台独立机器：不要试图将其模拟成本地多GPU——将其视为多节点NCCL，设置`NCCL_IB_DISABLE=1`（如果没有InfiniBand），并调整`NCCL_SOCKET_IFNAME`指向你的网卡。首先检查实际可达到的带宽：
+
 ```bash
 # 节点间快速NCCL带宽测试
 git clone https://github.com/NVIDIA/nccl-tests
@@ -76,6 +82,7 @@ mpirun -np 2 -H node0,node1 ./build/all_reduce_perf -b 8 -e 128M -f 2
 ```
 
 参考：
+
 - [NCCL Tests](https://github.com/NVIDIA/nccl-tests)
 - [PyTorch Distributed - torchrun](https://pytorch.org/docs/stable/elastic/run.html)
 - [NVIDIA NCCL Environment Variables](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
