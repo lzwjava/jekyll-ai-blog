@@ -8,9 +8,6 @@ title: Open to Work — AI & Engineering Roles
 translated: false
 ---
 
-*Note: This post is intended for friends and connections outside my current workplace. If you are a colleague or manager from my current employer, please kindly ignore this post.*
-
----
 
 | Field | Details |
 | ------- | --------- |
@@ -49,24 +46,30 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ---
 
-AI portfolio: <https://lzwjava.github.io/ai-portfolio-en>
-software portfolio: <https://lzwjava.github.io/portfolio-en>
-resume: <https://lzwjava.github.io/resume-en>
-life portfolio: <https://lzwjava.github.io/life-portfolio-en>
+| Portfolio | Link |
+| --------- | ---- |
+| AI Portfolio | <https://lzwjava.github.io/ai-portfolio-en> |
+| Software Portfolio | <https://lzwjava.github.io/portfolio-en> |
+| Resume | <https://lzwjava.github.io/resume-en> |
+| Life Portfolio | <https://lzwjava.github.io/life-portfolio-en> |
 
 ---
 
-## 🔍 Why I'm Looking
+|## 🔍 Why I'm Looking
 
-My current job is going well — I've been with the same vendor-bank engagement for over a year, and my contract between my vendor and the bank has recently been extended for another year. I'm performing strongly: top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer.
+My current job at the bank has been going well — I've been performing strongly (top 20% among contractors at my vendor, top 6% in AI assistant usage globally at my employer). But I've decided to **leave at the end of July 2026** to pursue the next chapter on my own terms.
 
-My primary motivation for looking is **becoming more AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role involves AI tooling at the edges, but I want a position where AI, agents, and LLM systems are the core of the work, not a side activity. That said, given my reality, contractor or permanent positions at big banks that combine AI with backend or full-stack engineering are welcome too — I know that space well and can contribute immediately.
+My primary motivation is **becoming fully AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role only involves AI tooling at the edges, and I want AI, agents, and LLM systems to be the core of my work.
 
-**Compensation improvement** is a secondary but real motivation. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
+**My plan is two-pronged:**
 
-Beyond both of these, regularly engaging with the market is simply good practice — it keeps perspective sharp and ensures I'm aware of what's available. The bank has a contractor-to-permanent conversion policy, but slots are limited and another senior peer is ahead in the queue. Looking externally is the more realistic path forward.
+1. **Start a one-person company** — I've built multiple products end-to-end before (Fun Live, Square Root Technology, 3M CNY revenue), and I want to ship AI-native products and services independently. I have the infrastructure (RunPod H200, RTX 4070, 3B tokens/year of API usage), the tools (ww, iclaw, nanoGPT), and the domain knowledge to build real AI solutions for clients and users.
 
-Full-stack and backend roles are welcome. My strong preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
+2. **Explore AI startup opportunities** — I'm interviewing with AI startups and AI-focused roles to see what's out there. If there's a compelling mission with the right team, I'd join over going solo. I'm open to early founding member, founding engineer, or IC roles where AI systems are the product, not a side activity.
+
+That said, given my reality, contractor or permanent positions at big banks that combine AI with backend or full-stack engineering are welcome too — I know that space well and can contribute immediately. But my strong preference is for positions where AI, agents, or LLM work are central.
+
+**Compensation improvement** is a secondary but real motivation. Leaving means giving up a stable income stream, and I want whatever comes next — whether a company or a role — to better reflect my experience and output.
 
 ---
 
