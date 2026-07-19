@@ -23,5 +23,6 @@ type: note
 因此，`clarrow.hk` 基本上是他们在香港市场的招聘网站，是一家专注于 AI、数据科学和技术人才招聘的高管搜寻/猎头公司，而非 AI 供应商或 SaaS 产品。如果该公司有招聘人员联系你，那只是针对某个职位的主动 outreach，你不需要将其作为合作伙伴或工具来评估。
 
 参考资料：
+
 - [Clarrow | LinkedIn](https://hk.linkedin.com/company/clarrowrecruitment)
 - [Clarrow Hong Kong Limited | 香港公司目录](https://www.ltddir.com/companies/clarrow-hong-kong-limited/)
