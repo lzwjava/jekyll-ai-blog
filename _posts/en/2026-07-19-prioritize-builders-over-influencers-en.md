@@ -151,7 +151,7 @@ are stronger signals than:
 
 ---
 
-### 5. For your situation (AI OPC), I would prioritize:
+### 5. For your situation (AI OPC), I would prioritize
 
 ```
 Tier 1:
