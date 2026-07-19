@@ -37,6 +37,7 @@ nvidia-smi --query-gpu=name,memory.total,power.limit --format=csv
 如果后续你的MoE/注意力实验需要多GPU专家并行，再添加第二块3090通过NVLink连接——在大多数市场仍比一块4090便宜，而且你列出的整个技术栈（Kimi验证、内核移植、注意力架构对比）都能保持CUDA原生工具链。
 
 参考链接：
+
 - [ROCm vs CUDA for Local AI in 2026: The Software Gap](https://insiderllm.com/guides/rocm-vs-cuda-local-ai-2026/)
 - [Radeon RX 7900 XTX for Local AI 2026 — Local AI Master](https://localaimaster.com/blog/radeon-7900-xtx-local-ai)
 - [AMD vs NVIDIA for Local AI Inference in 2026 — GPU Hunter](https://www.gpuhunter.io/blog/amd-vs-nvidia-local-ai-2026)

@@ -24,6 +24,7 @@ So if your `~/.config/ww/.env` already has `VISION_MODEL=google/gemini-2.5-flash
 The 403 error itself is an **OpenRouter ToS rejection** for `google/gemini-2.5-flash-image` — Google models on OpenRouter require explicit opt-in to their terms of service on the provider's side. This isn't a `.env` issue per se, but switching to a non-Google vision model would fix it.
 
 To fix either:
+
 - **Check your `~/.config/ww/.env`** — if `VISION_MODEL` is set there, change it there (it loads first, blocks the project root)
 - **Or set a different vision model** like `openai/gpt-4o-mini` or `anthropic/claude-3-5-sonnet-20241022` in whichever `.env` file loads first
 

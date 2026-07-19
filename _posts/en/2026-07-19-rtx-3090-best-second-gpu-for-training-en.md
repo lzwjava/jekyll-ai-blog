@@ -21,6 +21,7 @@ ROCm being open-source is genuinely nice for driver archaeology, but it doesn't 
 Combined training (DDP/FSDP/pipeline) across cards → same vendor required → NVIDIA
 Two isolated single-GPU jobs running side by side  → vendor doesn't matter
 ```
+
 Since you explicitly want distributed/dual-GPU, that settles it: NVIDIA.
 
 **What to buy at 5000 CNY: used RTX 3090 24GB.** Confirmed still the value king in 2026 — RTX 3090 has fallen to roughly 600-800 USD on the used market (about 4500-6000 CNY), a fraction of its original ~1500 USD launch price, while used RTX 4090/5090 both run over 2000 USD. Its 24GB GDDR6X on a 384-bit bus with 936GB/s bandwidth, plus mature CUDA support, keeps it ahead of similarly priced cards for local LLM/edge-AI work — VRAM headroom matters more than raw FLOPs for you.
@@ -57,6 +58,7 @@ torchrun --nproc_per_node=1 --node_rank=0 train.py --gpu 1  # 3090 does the real
 For your GPT-2-scale training work, realistically the 3090 alone (24GB, ~936GB/s BW, full BF16/TF32 tensor cores) will do more useful work than trying to force DDP across mismatched cards. Treat the 4070 as a second independent worker (data prep, eval, smaller experiments) rather than fighting to keep both cards in lockstep on one job.
 
 References:
+
 - [A卡没人买！五年前的N卡又火了：二手RTX 3090成性价比之王 - 快科技](https://news.mydrivers.com/1/1109/1109956.htm)
 - [二手RTX3090：2026年边缘AI领域的性价比之王 - Kaiyun](https://www.yhkjgroup.com/news/1196.html)
 - [3090显卡多少钱 目前3090价格及参数一览 - 驱动人生](https://www.160.com/article/9337.html)

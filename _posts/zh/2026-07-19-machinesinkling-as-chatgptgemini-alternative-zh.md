@@ -33,12 +33,12 @@ thinkingmachines/inkling
 
 对于中国用户来说，情况大致如下：
 
-| 模型                    | 图像分析访问权限 | 中国可用性                                                                 |
+| 模型 | 图像分析访问权限 | 中国可用性 |
 | ------------------------ | ---------------- | -------------------------------------------------------------------------- |
-| ChatGPT vision           | 优秀             | 往往困难，因为ChatGPT服务的可用性/支付/访问可能成为障碍                    |
-| Gemini vision            | 优秀             | Google服务存在类似的访问问题                                               |
-| OpenRouter vision models | 通常更容易       | 基于API，取决于提供商                                                      |
-| Inkling                  | 新颖但有潜力     | 通过OpenRouter对开发者友好                                                  |
+| ChatGPT vision | 优秀 | 往往困难，因为ChatGPT服务的可用性/支付/访问可能成为障碍 |
+| Gemini vision | 优秀 | Google服务存在类似的访问问题 |
+| OpenRouter vision models | 通常更容易 | 基于API，取决于提供商 |
+| Inkling | 新颖但有潜力 | 通过OpenRouter对开发者友好 |
 
 ([OpenAI Help Center][2])
 

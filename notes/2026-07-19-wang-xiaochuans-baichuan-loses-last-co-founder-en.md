@@ -88,7 +88,7 @@ The article compares Baichuan with companies like:
 
 Its argument:
 
-### Baichuan:
+### Baichuan
 
 ```
 Strong team
@@ -100,7 +100,7 @@ but
 less focus on frontier model race
 ```
 
-### Competitors:
+### Competitors
 
 ```
 Keep improving base models

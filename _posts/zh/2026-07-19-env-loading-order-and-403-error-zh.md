@@ -24,6 +24,7 @@ type: note
 403 错误本身是 OpenRouter 对 `google/gemini-2.5-flash-image` 的**服务条款拒绝**——OpenRouter 上的 Google 模型要求在提供商一侧明确同意其服务条款。这本身不是 `.env` 的问题，但切换到非 Google 的视觉模型可以解决。
 
 要解决此问题，可以：
+
 - **检查你的 `~/.config/ww/.env`** — 如果其中设置了 `VISION_MODEL`，请在那里修改（它先加载，会阻止项目根目录的生效）
 - **或者设置一个不同的视觉模型**，例如 `openai/gpt-4o-mini` 或 `anthropic/claude-3-5-sonnet-20241022`，在最先加载的 `.env` 文件中设置
 

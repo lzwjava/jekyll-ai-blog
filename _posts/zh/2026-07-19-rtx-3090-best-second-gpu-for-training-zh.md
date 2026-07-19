@@ -58,6 +58,7 @@ torchrun --nproc_per_node=1 --node_rank=0 train.py --gpu 1  # 3090 负责实际�
 对于你的 GPT-2 规模训练工作，实际上只用 3090（24GB，~936GB/s 带宽，完整 BF16/TF32 张量核心）就能完成比强行让两块不匹配的卡跑 DDP 更有用的工作。把 4070 当作第二个独立的工作节点（数据预处理、评估、小实验），而不是费力让两块卡在同一个任务上保持同步。
 
 参考资料：
+
 - [A卡没人买！五年前的N卡又火了：二手RTX 3090成性价比之王 - 快科技](https://news.mydrivers.com/1/1109/1109956.htm)
 - [二手RTX3090：2026年边缘AI领域的性价比之王 - Kaiyun](https://www.yhkjgroup.com/news/1196.html)
 - [3090显卡多少钱 目前3090价格及参数一览 - 驱动人生](https://www.160.com/article/9337.html)

@@ -353,9 +353,9 @@ The moat is the system.
 
 ---
 
-## My current view:
+## My current view
 
-### Baichuan abandoning frontier models completely:
+### Baichuan abandoning frontier models completely
 
 Probably risky.
 
@@ -369,7 +369,7 @@ medical data
 limited ceiling
 ```
 
-### Medical AI itself:
+### Medical AI itself
 
 Not wrong.
 
