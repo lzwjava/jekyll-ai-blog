@@ -152,7 +152,7 @@ Price: **360 CNY (~$50)**
 
 Assessment:
 
-### Good deal if you need:
+### Good deal if you need
 
 ✅ 4-monitor output
 ✅ low-power workstation
@@ -160,7 +160,7 @@ Assessment:
 ✅ Linux display card
 ✅ secondary GPU for GUI
 
-### Bad deal if you want:
+### Bad deal if you want
 
 ❌ gaming
 ❌ CUDA

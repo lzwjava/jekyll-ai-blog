@@ -85,14 +85,14 @@ It was popular in cloud providers around 2015-2020.
 
 For AI training/inference:
 
-### Good:
+### Good
 
 ✅ CUDA works
 ✅ PyTorch can run
 ✅ 16GB total VRAM (if using both GPUs separately)
 ✅ Very cheap
 
-### Bad:
+### Bad
 
 ❌ Old Maxwell architecture
 ❌ No Tensor Cores
@@ -173,7 +173,7 @@ PyTorch older versions
 
 Depends on purpose.
 
-### Good buy:
+### Good buy
 
 ✅ CUDA experiment
 ✅ learn multi-GPU programming
@@ -181,7 +181,7 @@ Depends on purpose.
 ✅ CUDA kernel development
 ✅ old workstation
 
-### Not recommended:
+### Not recommended
 
 ❌ LLM training
 ❌ fine-tuning Qwen/Llama models
