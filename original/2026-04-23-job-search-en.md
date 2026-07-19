@@ -57,7 +57,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 |## 🔍 Why I'm Looking
 
-My current job at the bank has been going well — I've been performing strongly (top 20% among contractors at my vendor, top 6% in AI assistant usage globally at my employer). But I've decided to **leave at the end of July 2026** to pursue the next chapter on my own terms.
+My current job at the bank has been going well — I've been performing strongly (top 20% among contractors at my vendor, top 6% in AI assistant usage globally at my employer). But due to some project change and some other reasons, I will leave at the end of July 2026 to pursue the next chapter on my own terms.
 
 My primary motivation is **becoming fully AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role only involves AI tooling at the edges, and I want AI, agents, and LLM systems to be the core of my work.
 
