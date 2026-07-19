@@ -138,7 +138,7 @@ But owning hardware changes your behavior.
 
 ---
 
-### Your second line is the most interesting:
+### Your second line is the most interesting
 
 > 五年后已变漠然
 

@@ -23,6 +23,7 @@ ASUS TUF Plus: PCIe5 x16 (CPU) + PCIe4 x16-slot@x4 (chipset) + PCIe4 x4
 Confirmed from MSI's own spec sheet: 2x PCI-E x16 slots supporting x16/x4, PCI_E1 Gen5 up to x16 from CPU, PCI_E3 Gen4 up to x4 from chipset. Both boards run your second card (3060) at x4 electrical off the chipset. For CUDA inference/training where you're not doing tensor-parallel all-reduce every step, x4 Gen4 (~8GB/s) is not your bottleneck — model load time and PCIe-bound gradient sync in DDP are, and DDP over x4 will just be slower, not broken.
 
 **Where MSI actually wins:**
+
 - $209 vs $268 — ASUS is $60 more for the same PCIe topology
 - Better VRM/power delivery per most reviews for sustained 13900KF loads (relevant since you'll run both GPUs + CPU pinned at 100% for hours during training, not bursty gaming loads)
 - 4x M.2 slots, all Gen4 x4, one from CPU — good if you're staging datasets/checkpoints locally
@@ -42,5 +43,6 @@ If you actually want cross-GPU model splitting despite the asymmetry, `device_ma
 Skip the case/PSU line items in the original doc — those numbers are fine, 850W Gold + ATX airflow case is the right call regardless of which board you pick.
 
 References:
+
 - [MSI MAG Z790 Tomahawk WiFi specification thread](https://forum-en.msi.com/index.php?threads/mag-z790-tomahawk-wifi-pci_e1-5-0x16-and-1st-m2-4-0x4-gpu-alteration-or-not.396659/)
 - [MSI MAG Z790 Tomahawk WiFi @ B&H](https://www.bhphotovideo.com/c/product/1731165-REG/msi_mag_z790_tomahawk_wifi.html)
