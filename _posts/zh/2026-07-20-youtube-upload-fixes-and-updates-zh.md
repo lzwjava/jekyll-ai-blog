@@ -20,6 +20,7 @@ type: note
 3. **Pyright 排除** — 将 `ww/gen_video/youtube_upload.py` 加入 pyright 的排除列表，因为 Google 包不在其类型检查环境中。
 
 **文件变更：**
+
 - `ww/gen_video/youtube_upload.py` — 新增（YouTube 上传模块）
 - `ww/main.py` — 子命令路由 + 帮助文本
 - `pyproject.toml` — pyright 排除 + google-api-python-client 依赖

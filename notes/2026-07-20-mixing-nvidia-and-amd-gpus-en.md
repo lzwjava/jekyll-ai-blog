@@ -315,9 +315,9 @@ This is actually a fun lab.
 
 ---
 
-## My ranking for an AI workstation:
+## My ranking for an AI workstation
 
-### Best practical:
+### Best practical
 
 ```
 RTX3090 24GB
@@ -329,7 +329,7 @@ RTX4070 12GB
 
 ---
 
-### Also good:
+### Also good
 
 ```
 2 × RTX3090
@@ -341,7 +341,7 @@ RTX4070 12GB
 
 ---
 
-### OK:
+### OK
 
 ```
 2 × RTX4070
@@ -353,7 +353,7 @@ RTX4070 12GB
 
 ---
 
-### Experimental:
+### Experimental
 
 ```
 RTX3090
@@ -367,7 +367,7 @@ AMD MI50
 
 ---
 
-### Avoid:
+### Avoid
 
 ```
 RTX4070

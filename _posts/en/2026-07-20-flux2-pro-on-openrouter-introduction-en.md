@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to Black Forest Labs `FLUX.2 Pro` on OpenRouter
 
-## Answer:
+## Answer
 
 Black Forest Labs's **FLUX.2 Pro** is a high-end commercial image generation and editing model. It is part of the FLUX.2 family, positioned against models like OpenAI's image models, Google's image models, and Midjourney. Through OpenRouter, it is exposed as:
 

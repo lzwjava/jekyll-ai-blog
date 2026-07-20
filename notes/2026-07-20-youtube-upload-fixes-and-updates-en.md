@@ -20,6 +20,7 @@ Committed and pushed to `main` (ca2be2d).
 3. **Pyright exclusion** — added `ww/gen_video/youtube_upload.py` to pyright's exclude list since the google packages aren't in its type-checking environment.
 
 **Files changed:**
+
 - `ww/gen_video/youtube_upload.py` — new (YouTube upload module)
 - `ww/main.py` — subcommand routing + help text
 - `pyproject.toml` — pyright exclusion + google-api-python-client dep

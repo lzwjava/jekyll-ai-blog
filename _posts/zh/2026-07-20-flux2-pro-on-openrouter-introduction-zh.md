@@ -11,7 +11,7 @@ type: note
 
 ## 问题：OpenRouter 上 Black Forest Labs `FLUX.2 Pro` 的介绍
 
-## 答案：
+## 答案
 
 Black Forest Labs 的 **FLUX.2 Pro** 是一款高端商业图像生成与编辑模型。它属于 FLUX.2 系列，定位与 OpenAI 的图像模型、Google 的图像模型以及 Midjourney 等竞品对标。通过 OpenRouter，它以如下接口形式暴露：
 

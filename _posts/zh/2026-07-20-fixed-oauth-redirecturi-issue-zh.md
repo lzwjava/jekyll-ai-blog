@@ -18,6 +18,7 @@ type: note
 3. **新增提示**：已添加明确说明，要求在 Google Cloud 控制台中将 `http://localhost:8080/` 添加为授权重定向 URI——这是一个容易遗漏但必须完成的步骤。
 
 请重新尝试运行：
+
 ```bash
 uv run ww gen-video upload /Users/lzwjava/projects/jekyll-ai-blog/notes/2026-07-20-tesla-p100-vs-m60-for-ai-en.md /Users/lzwjava/Downloads/test_gen_video.mp4
 ```
