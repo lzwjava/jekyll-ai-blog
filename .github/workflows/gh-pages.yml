@@ -131,8 +131,17 @@ jobs:
           git diff --cached --quiet || git commit -m "chore(lint): Fix markdown lint issues"
           push_with_retry
 
+      - name: Free up disk space
+        run: |
+          sudo apt-get clean
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /usr/local/share/boost
+          sudo rm -rf /opt/hostedtoolcache/CodeQL
+          df -h /
+
       - name: Install ww CLI
-        run: pip install git+https://github.com/lzwjava/ww.git
+        run: pip install --no-cache-dir git+https://github.com/lzwjava/ww.git
 
       - name: Run Unit Tests
         run: python -m unittest discover -s tests/workflow
