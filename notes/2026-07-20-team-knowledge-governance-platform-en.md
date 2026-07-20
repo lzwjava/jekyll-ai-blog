@@ -12,13 +12,15 @@ type: note
 This is a **Team Knowledge Base** (团队知识库) — a full-stack web application for managing and governing team knowledge, built around a layered knowledge model.
 
 **Stack:**
+
 - **Backend**: Python FastAPI (controllers, services, middlewares, SQL database)
 - **Frontend**: Vue 3 + TypeScript + Vite + Vue Router
 - **Storage**: Markdown files in a Git repo with machine-validated JSON metadata blocks
 
 **Knowledge layers** (the core organizing concept):
+
 | Layer | Description |
-|-------|-------------|
+| ------- | ------------- |
 | Layer 0-P | Personal experience |
 | Layer 0-T | Team conventions |
 | Layer 1 | Technical knowledge |
@@ -28,6 +30,7 @@ This is a **Team Knowledge Base** (团队知识库) — a full-stack web applica
 **Knowledge types**: model, decision, guideline, pitfall, process
 
 **Features** (from the routes and views):
+
 - Knowledge creation with a guided flow (create → preview → complete)
 - Knowledge browsing with layer/category filtering
 - Permission management (reader / contributor / maintainer / super_admin roles)

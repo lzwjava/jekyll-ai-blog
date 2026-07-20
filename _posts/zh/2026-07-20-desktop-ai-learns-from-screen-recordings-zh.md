@@ -333,9 +333,9 @@ AI学习工作流
 * AITNT文章：（[AI TNT][1]）
 * AITNT平台概览：（[aitntnews.com][2]）
 
-[1]: https://m.aitntnews.com/newDetail.html?newId=26238 "
+[1]: <https://m.aitntnews.com/newDetail.html?newId=26238> "
 
 非十科技推出桌面智能体Agivar，从替代年薪300万的前沿部署工程师
 
 "
-[2]: https://www.aitntnews.com/?utm_source=chatgpt.com "AITNT-让一部分人先用AI实现商业化"
+[2]: <https://www.aitntnews.com/?utm_source=chatgpt.com> "AITNT-让一部分人先用AI实现商业化"

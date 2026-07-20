@@ -16,6 +16,7 @@ Answer:
 Hu Shimin (born 1968, Changxing, Zhejiang) is a computer scientist and professor in the Department of Computer Science and Technology at Tsinghua University, where he directs the Visual Media Research Center.
 
 **Background:**
+
 - BS in Mathematics, Jilin University (1990)
 - MS and PhD in Computational Geometry & Graphics, Zhejiang University (1993, 1996)
 - Postdoc at Tsinghua CS dept under academician Sun Jiaguang, working on CAD (1996–1998)
@@ -24,6 +25,7 @@ Hu Shimin (born 1968, Changxing, Zhejiang) is a computer scientist and professor
 **Research focus:** computer graphics, geometric computing, computer vision, and AI/intelligent visual media processing.
 
 **Recognition:**
+
 - National Science Fund for Distinguished Young Scholars recipient, IEEE Fellow, and Tsinghua professor
 - Chief scientist of the national "973" program project on intelligent visual media processing (from 2006)
 - Elected academician of the Chinese Academy of Sciences and IEEE Fellow, both in November 2023
@@ -34,6 +36,7 @@ Hu Shimin (born 1968, Changxing, Zhejiang) is a computer scientist and professor
 He's also currently Vice President of the China Computer Federation (CCF) and editor-in-chief of *Computational Visual Media*.
 
 References:
+
 - [胡事民 - 清华大学计算机科学与技术系](https://www.cs.tsinghua.edu.cn/info/1088/2460.htm)
 - [胡事民 - 维基百科](https://zh.wikipedia.org/wiki/胡事民)
 - [AI领域又增院士！清华胡事民当选，「计图」框架出自其实验室 - 量子位](https://www.qbitai.com/2023/11/100141.html)

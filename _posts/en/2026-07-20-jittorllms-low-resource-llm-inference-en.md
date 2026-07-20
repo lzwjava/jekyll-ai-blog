@@ -14,6 +14,7 @@ Question: What is Jittor/JittorLLMs?
 Answer: It's an LLM inference library built on **Jittor** (Tsinghua/Feiten-developed deep learning framework, China's answer to PyTorch — uses JIT meta-operator compilation instead of eager/graph execution). Core pitch: run big models on laptops with no GPU, 2GB RAM.
 
 Key mechanics:
+
 - **Model support**: ChatGLM-6B, LLaMA/LLaMA2, ChatRWKV, PanGu-α, Atom-7B (MOSS planned)
 - **Memory trick**: dynamic tensor swapping across GPU↔CPU↔disk — they claim to be first framework with automatic dynamic-graph variable swapping (vs static-graph swap techniques used elsewhere)
 - **Portability**: `JTorch` — a Jittor-backed drop-in replacement for `torch`, so existing HF Transformers/Megatron code runs unmodified
@@ -30,6 +31,7 @@ python cli_demo.py chatglm    # or: pangualpha|llama|chatrwkv|llama2|atom7b
 ```
 
 Memory limiting via env vars (useful if you're testing on constrained boxes):
+
 ```bash
 export JT_SAVE_MEM=1
 export cpu_mem_limit=16000000000   # 16G
@@ -37,6 +39,7 @@ export device_mem_limit=8000000000  # 8G
 ```
 
 Backend server mode:
+
 ```bash
 python api.py chatglm
 # then: requests.post("http://0.0.0.0:8000", json.dumps({'prompt': '...'}))
@@ -45,5 +48,6 @@ python api.py chatglm
 **Reality check**: 2.4k stars, 187 forks, no releases published, last active development seems tied to the 2023 ChatGLM/LLaMA2-era models — nothing newer (no Qwen3, DeepSeek-V3/R1, Llama 3+). For your GPU cluster work (MI300X, 2B tokens/mo) this is more of a "laptop demo toy" than production infra — llama.cpp/vLLM/SGLang cover the same ground with far more active maintenance and hardware support. Worth knowing about mainly as a Jittor-ecosystem curiosity (JTorch drop-in compat layer is the more interesting technical bit if you're doing custom hardware backends).
 
 References:
+
 - [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs)
 - [Jittor docs](https://cg.cs.tsinghua.edu.cn/jittor/assets/docs/index.html)

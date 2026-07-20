@@ -14,6 +14,7 @@ Question: What's Jittor (github.com/Jittor/jittor)?
 Answer: Jittor is a DL framework out of Tsinghua's CSCG group, key difference vs PyTorch/TF is that the **entire framework is JIT-compiled at runtime**, not just the ops.
 
 Core idea:
+
 - Python front-end, dynamic graph (imperative, like PyTorch's `nn.Module`/autograd style), but every op call generates and compiles C++/CUDA code on the fly and caches it.
 - **Meta-operators**: instead of hand-writing each fused kernel (conv, pooling, etc.), they define a small set of primitive meta-ops that get combined and JIT-fused into specialized kernels per shape/dtype/device. Their claim: this gets close to hand-tuned CUDA perf without writing CUDA for every op combo.
 - Unified compute graph across ops (not eager per-op dispatch like PyTorch), so the compiler can fuse and optimize across multiple ops before running.
@@ -40,6 +41,7 @@ jt.flags.use_cuda = 1
 ```
 
 Notable things:
+
 - `execute()` instead of `forward()`.
 - `Var` instead of `Tensor`, computation is async — `.data` forces sync.
 - Custom ops: write the op in C++/CUDA, JIT-compiled inline, no separate `setup.py build_ext` step like PyTorch extensions.
@@ -49,5 +51,6 @@ Notable things:
 Where it fits: mostly used in Chinese academic CV/graphics research (differentiable rendering, geometric learning are explicitly called out) — niche compared to PyTorch/JAX, but the JIT meta-operator design is a legit alternative angle to `torch.compile`/XLA fusion if you want to dig into compiler-level DL framework design.
 
 References:
+
 - [Jittor/jittor](https://github.com/Jittor/jittor)
 - [Jittor Website](https://cg.cs.tsinghua.edu.cn/jittor/)
