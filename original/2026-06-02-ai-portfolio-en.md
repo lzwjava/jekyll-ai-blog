@@ -174,8 +174,6 @@ At a British universal bank (via a global IT outsourcing company), I built an au
 - Earned a **Contribution Award** for the high-profile AIPlayer project.
 - Joined the bank's internal AI community.
 
-
-
 ![AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
 
 ---
