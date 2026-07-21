@@ -159,22 +159,28 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 ## 🏢 Enterprise AI Usage — at a British Universal Bank
 
-At a British universal bank (via a global IT outsourcing company), I built an autonomous AI agent layer on top of a coding assistant to automate scripting, logging, documentation, and testing.
+At a British universal bank (via a global IT outsourcing company), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
 
 **What I built:**
 
 - **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
-- **400 reusable coding assistant-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
-- **1,800 coding assistant-written guides** — documentation generated and validated via LLM outputs with caching and validation.
-- **~70 test cases auto-generated** via a coding assistant API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+- **400 reusable Copilot-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
+- **1,100 Copilot-written guides** — documentation generated and validated via LLM outputs with caching and validation.
+- **~70 test cases auto-generated** via Copilot API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
 
 **Results:**
 
-- Ranked **top 6% in coding assistant usage** across the entire enterprise, measured by premium requests.
+- Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
 - Earned a **Contribution Award** for the high-profile AIPlayer project.
 - Joined the bank's internal AI community.
 
+<div align="center">
 
+<img src="/assets/images/ai-portfolio/copilot.png" width="100%" /><img/>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">Image Source: GitHub Copilot — Visual Studio Code Marketplace</a></p>
+
+</div>
 
 ![AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
 
