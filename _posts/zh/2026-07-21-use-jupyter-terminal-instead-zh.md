@@ -25,6 +25,7 @@ ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 root@localhost -p 31154 "ech
 ```
 
 **要从你的 Mac（外部）测试：**
+
 ```bash
 ssh -o ProxyCommand=none -v root@36.150.116.206 -p 31154 2>&1 | head -10
 ```

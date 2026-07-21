@@ -12,7 +12,7 @@ type: note
 **External IP 36.150.116.206 scan results:**
 
 | Port | Status | What |
-|------|--------|------|
+| ------ | -------- | ------ |
 | 31090 | ✅ **Open** | Cloud SSH (other instance) |
 | 31091 | ✅ **Open** | Cloud SSH (other instance) |
 | 31092 | ✅ **Open** | Cloud SSH (other instance) |

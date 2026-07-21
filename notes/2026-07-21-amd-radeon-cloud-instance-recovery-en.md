@@ -16,6 +16,7 @@ type: note
 You tried to connect to `36.150.116.206:31094` — got **Connection refused**.
 
 **Diagnosis:**
+
 - ✅ Host **was reachable** (39ms ping via DMIT jump host)
 - ❌ Port 31094 **not open**
 - ✅ **Other ports** open nearby: **31090, 31091, 31092, 31095, 31098, 31099, 31100**
@@ -25,9 +26,11 @@ You tried to connect to `36.150.116.206:31094` — got **Connection refused**.
 ### 2. Discovered the API Endpoint
 
 You tested the API:
+
 ```bash
 curl https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/8000/v1/chat/completions
 ```
+
 ✅ **Qwen3-8B** responded successfully via the **AMD Radeon Cloud proxy**.
 
 ### 3. SSH Port 31154 Worked
@@ -35,8 +38,9 @@ curl https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/8000/v1/chat/co
 You connected via `ssh -p 31154` — got in with your key.
 
 **Server Specs:**
+
 | Component | Value |
-|-----------|-------|
+| ----------- | ------- |
 | **OS** | Ubuntu 24.04 LTS |
 | **CPU** | 2× AMD EPYC 9334 (128 threads) |
 | **RAM** | 503 GiB |
@@ -59,12 +63,13 @@ GPU compute test: ✅ **Passed** (HIP vector add, 48GB accessible, 96 CUs)
 ### 5. Instance Restarted — SSH Broken
 
 After the OOM crash, the container restarted but SSH was **not running** internally (it was cloud-proxied, not real SSH). You gained access through **Jupyter Lab terminal** at:
+
 - `https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/` (port 8888, token: `amd-oneclick`)
 
 ### 6. Current State (in Jupyter terminal)
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | Jupyter terminal | ✅ **You're in** |
 | SSH server | ❌ Not installed (we tried `apt install openssh-server` + `mkdir -p /run/sshd`, but cloud proxy port mapping is stale) |
 | FLUX.2-dev | Still on disk at `/FLUX.2-dev` (166GB) |
@@ -87,6 +92,7 @@ print('Done!')
 ```
 
 Once downloaded, run:
+
 ```bash
 export PATH=/opt/venv/bin:$PATH && cd /workspace && python3 -c "
 import torch

@@ -16,6 +16,7 @@ type: note
 您尝试连接到 `36.150.116.206:31094` — 返回 **连接被拒绝**。
 
 **诊断结果：**
+
 - ✅ 主机 **可达**（通过 DMIT 跳板机 ping 延迟 39ms）
 - ❌ 端口 31094 **未开放**
 - ✅ 附近**其他端口**开放：**31090, 31091, 31092, 31095, 31098, 31099, 31100**
@@ -25,9 +26,11 @@ type: note
 ### 2. 发现 API 端点
 
 您测试了 API：
+
 ```bash
 curl https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/8000/v1/chat/completions
 ```
+
 ✅ **Qwen3-8B** 通过 **AMD Radeon 云代理** 成功响应。
 
 ### 3. SSH 端口 31154 工作正常
@@ -35,8 +38,9 @@ curl https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/8000/v1/chat/co
 您通过 `ssh -p 31154` 连接 — 使用您的密钥成功登录。
 
 **服务器规格：**
+
 | 组件 | 数值 |
-|-----------|-------|
+| ----------- | ------- |
 | **操作系统** | Ubuntu 24.04 LTS |
 | **CPU** | 2× AMD EPYC 9334（128 线程） |
 | **内存** | 503 GiB |
@@ -59,12 +63,13 @@ GPU 计算测试：✅ **通过**（HIP 向量加法，48GB 可访问，96 个 C
 ### 5. 实例重启 — SSH 损坏
 
 OOM 崩溃后，容器重启但 SSH **未在内部运行**（它是云代理的，而非真实 SSH）。您通过 **Jupyter Lab 终端** 获得了访问权限：
+
 - `https://radeon-global.anruicloud.com/spaces/u-9758-811746f0/`（端口 8888，令牌：`amd-oneclick`）
 
 ### 6. 当前状态（在 Jupyter 终端中）
 
 | 项目 | 状态 |
-|------|--------|
+| ------ | -------- |
 | Jupyter 终端 | ✅ **您已进入** |
 | SSH 服务器 | ❌ 未安装（我们尝试了 `apt install openssh-server` + `mkdir -p /run/sshd`，但云代理端口映射已过期） |
 | FLUX.2-dev | 仍存储在磁盘上 `/FLUX.2-dev`（166GB） |
@@ -87,6 +92,7 @@ print('下载完成！')
 ```
 
 下载完成后，运行：
+
 ```bash
 export PATH=/opt/venv/bin:$PATH && cd /workspace && python3 -c "
 import torch

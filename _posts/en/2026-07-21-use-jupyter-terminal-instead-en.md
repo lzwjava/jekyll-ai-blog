@@ -25,6 +25,7 @@ ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 root@localhost -p 31154 "ech
 ```
 
 **To test from your Mac (outside):**
+
 ```bash
 ssh -o ProxyCommand=none -v root@36.150.116.206 -p 31154 2>&1 | head -10
 ```
