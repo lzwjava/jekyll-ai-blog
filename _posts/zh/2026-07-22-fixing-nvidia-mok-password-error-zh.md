@@ -12,6 +12,7 @@ type: note
 以下是完整的实际情况：
 
 **当前状态：**
+
 - `nvidia-driver-580` 已安装，DKMS 模块已构建 ✓
 - Secure Boot **已启用** — 阻止加载未签名模块
 - MOK 密钥位于 `/var/lib/shim-signed/mok/MOK.der`，但 **未注册**
@@ -45,6 +46,7 @@ sudo reboot
 ```
 
 在蓝色的 MokManager 界面中：
+
 1. **“从磁盘注册 MOK”**
 2. 导航到密钥 → **继续**
 3. **输入您刚设置的密码**
@@ -58,6 +60,7 @@ sudo reboot
 在黑色 POST 画面出现时，按 **F2**（或 Del/F10，具体取决于您的主板）进入 BIOS/UEFI 设置。
 
 然后找到：
+
 - **Security → Secure Boot → Disabled**
 - 或 **Boot → Secure Boot → Disabled**
 - 或 **Authentication → Secure Boot → Disabled**

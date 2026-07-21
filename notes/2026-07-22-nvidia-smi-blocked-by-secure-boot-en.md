@@ -10,6 +10,7 @@ type: note
 ---
 
 **Summary:**
+
 - **GPU detected:** RTX 4070 (AD104)
 - **nvidia-smi binary:** ✅ installed
 - **Driver:** ✅ nvidia-driver-580 (580.167.08) installed, DKMS modules built for both kernels

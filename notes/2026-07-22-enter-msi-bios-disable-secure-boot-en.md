@@ -35,6 +35,7 @@ The menu path on your B760M Mortar:
 5. Press **F10** → **Yes** to Save & Exit
 
 Alternative path on some MSI BIOS versions:
+
 - **Boot** → **Secure Boot** → **Disabled**
 
 ---
@@ -42,6 +43,7 @@ Alternative path on some MSI BIOS versions:
 ## If you have the new MSI Click BIOS (UEFI/GUI style)
 
 Look for the **Settings** icon (gear icon at top or side), then:
+
 - **Security** → **Secure Boot** → **Disabled**
 
 ---

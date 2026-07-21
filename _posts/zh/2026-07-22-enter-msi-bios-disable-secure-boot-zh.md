@@ -35,6 +35,7 @@ type: note
 5. 按 **F10** → **Yes** 以 Save & Exit
 
 某些 MSI BIOS 版本上的替代路径：
+
 - **Boot** → **Secure Boot** → **Disabled**
 
 ---
@@ -42,6 +43,7 @@ type: note
 ## 如果你使用的是新版 MSI Click BIOS（UEFI/GUI 风格）
 
 寻找 **Settings** 图标（顶部或侧面的齿轮图标），然后：
+
 - **Security** → **Secure Boot** → **Disabled**
 
 ---

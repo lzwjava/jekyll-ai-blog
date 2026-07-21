@@ -12,6 +12,7 @@ type: note
 Here's the full picture:
 
 **Current state:**
+
 - `nvidia-driver-580` installed, DKMS modules built ✓
 - Secure Boot **enabled** — blocks loading the unsigned module
 - MOK key exists at `/var/lib/shim-signed/mok/MOK.der` but **not enrolled**
@@ -45,6 +46,7 @@ sudo reboot
 ```
 
 At the blue MokManager screen:
+
 1. **"Enroll MOK from disk"**
 2. Navigate to the key → **Continue**
 3. **Type the password you just set**
@@ -58,6 +60,7 @@ At the blue MokManager screen:
 From the black POST screen, press **F2** (or Del/F10 depending on your motherboard) to enter BIOS/UEFI settings.
 
 Then find:
+
 - **Security → Secure Boot → Disabled**
 - Or **Boot → Secure Boot → Disabled**
 - Or **Authentication → Secure Boot → Disabled**
