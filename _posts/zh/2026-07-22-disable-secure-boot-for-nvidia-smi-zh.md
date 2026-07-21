@@ -20,6 +20,7 @@ sudo reboot
 然后在 POST 阶段（黑屏，刚开机时），**反复按 DEL 键**进入 BIOS。
 
 在 BIOS 中：
+
 1. **Settings** → **Security** → **Secure Boot** → **Disabled**
 2. **F10** → **Yes** 保存并退出
 

@@ -12,6 +12,7 @@ type: note
 好消息——系统散热正常。风扇噪音是BIOS行为问题，而非散热故障。以下是诊断结果：
 
 **温度（全部较低）：**
+
 - CPU 封装：38°C（核心最高35°C）
 - GPU：33°C，11W，风扇转速0%（被动散热）
 - NVMe：39.9°C
@@ -34,9 +35,11 @@ type: note
 2. **检查噪音是否实际来自硬盘**——安装在`/mnt/data`的1.8TB WD20EZBX（7200RPM）是机械硬盘，会产生可闻的寻道和旋转噪音。暂时卸载它，测试噪音是否停止。
 
 3. **如需操作系统级风扇控制**，需要导出PWM通道：
+
    ```bash
    echo 0 | sudo tee /sys/devices/platform/INTC1085:00/pwm/pwmchip0/export
    ```
+
    然后设置占空比。但这取决于主板型号，若BIOS不允许操作系统控制风扇，则可能无效。
 
 4. **创建thermald配置文件**`/etc/thermald/thermal-conf.xml`，为其制定合理的散热策略，不过若BIOS未将风扇控制暴露给操作系统，此举也无济于事。

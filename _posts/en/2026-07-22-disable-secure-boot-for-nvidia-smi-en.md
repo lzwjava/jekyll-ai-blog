@@ -20,6 +20,7 @@ sudo reboot
 Then during POST (black screen, right after power-on), **tap DEL repeatedly** to enter BIOS.
 
 Inside BIOS:
+
 1. **Settings** → **Security** → **Secure Boot** → **Disabled**
 2. **F10** → **Yes** to Save & Exit
 

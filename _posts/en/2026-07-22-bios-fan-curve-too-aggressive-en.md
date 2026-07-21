@@ -12,6 +12,7 @@ type: note
 Good news — the system is thermally fine. The fan noise is a BIOS behavior issue, not a cooling problem. Here's the diagnosis:
 
 **Temperatures (all cool):**
+
 - CPU package: 38°C (max core 35°C)
 - GPU: 33°C, 11W, fan at 0% (passive)
 - NVMe: 39.9°C
@@ -34,9 +35,11 @@ The machine just booted 3 minutes ago. The BIOS fan curve is set to aggressive (
 2. **Check if the noise is actually the HDD** — the 1.8TB WD20EZBX (7200RPM) at `/mnt/data` is a mechanical drive and makes audible seek/rotation noise. Unmount it temporarily to test if the noise stops.
 
 3. **If you want OS-level fan control**, you'd need to export the PWM channel:
+
    ```bash
    echo 0 | sudo tee /sys/devices/platform/INTC1085:00/pwm/pwmchip0/export
    ```
+
    Then set duty cycle. But this is board-specific and might not work if the BIOS doesn't allow OS fan control.
 
 4. **Create a thermald config** at `/etc/thermald/thermal-conf.xml` to give it proper thermal policies, though this won't help if the BIOS isn't surfacing fan control to the OS.
