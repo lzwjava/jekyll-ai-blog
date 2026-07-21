@@ -14,7 +14,7 @@ The server is running but **bare** — no model files, no API server, only Jupyt
 **Server Status: ✅ GPU Working**
 
 | Test | Result |
-|------|--------|
+| ------ | -------- |
 | GPU Compute (HIP) | ✅ Vector add passed, 48GB VRAM, gfx1100 |
 | ROCm Driver | ✅ 7.2.1 |
 | Jupyter Lab | ✅ Running on port 8888 (base_url: `/instances/u-9758-811746f0/`) |

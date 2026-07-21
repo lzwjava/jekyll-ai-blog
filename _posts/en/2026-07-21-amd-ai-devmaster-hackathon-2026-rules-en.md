@@ -70,8 +70,6 @@ Deliverables:
 * PDF project description
 * 3–5 min demo video
 
-
-
 ---
 
 ## Track 2 — Private Local AI Agent (also very suitable for you)
@@ -97,8 +95,6 @@ At least **2 of these 5**:
 3. Multi-step planning
 4. Local memory
 5. Permission/privacy control
-
-
 
 Possible architecture:
 
@@ -129,8 +125,6 @@ Recommended:
 * Transformers + PyTorch ROCm
 * LangChain/LlamaIndex/Dify/etc.
 
-
-
 Given your existing `ww`, `iclaw`, agent experiments, this track maps very closely.
 
 ---
@@ -153,8 +147,6 @@ Using:
 
 Need simulation + AI control + AMD GPU acceleration.
 
-
-
 Probably less aligned unless you want to enter robotics.
 
 ---
@@ -169,8 +161,6 @@ Each track:
 | 2nd   | $3,500 |
 | 3rd   | $1,500 |
 
-
-
 ---
 
 ## Timeline
@@ -180,8 +170,6 @@ Important dates:
 * Registration opened: July 10, 2026
 * Submission opened: July 15, 2026
 * Deadline: August 6, 2026 23:59 Beijing/Singapore time
-
-
 
 ---
 

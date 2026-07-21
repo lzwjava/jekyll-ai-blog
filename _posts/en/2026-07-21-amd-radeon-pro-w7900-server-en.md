@@ -14,7 +14,7 @@ Here's the full server spec:
 **Server: u-9758-811746f0 (AMD Radeon Cloud)**
 
 | Component | Spec |
-|-----------|------|
+| ----------- | ------ |
 | **OS** | Ubuntu 24.04.4 LTS |
 | **CPU** | 2× AMD EPYC 9334 (32-Core each) — **128 threads** |
 | **RAM** | **503 GiB** |
@@ -22,6 +22,7 @@ Here's the full server spec:
 | **ROCm** | Driver 6.16.13 |
 
 **GPU:**
+
 - **Architecture:** `gfx1100` — **AMD RDNA 3** (Navi 31)
 - **Compute Units:** 96
 - **Shader Engines:** 6

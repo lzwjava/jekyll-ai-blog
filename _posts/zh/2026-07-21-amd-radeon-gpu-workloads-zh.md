@@ -129,7 +129,7 @@ pip install diffusers transformers accelerate
 
 可行：
 
-### 良好：
+### 良好
 
 * Stable Video Diffusion
 * AnimateDiff
@@ -143,7 +143,7 @@ FP16：
 ~24GB 显存
 ```
 
-### 困难：
+### 困难
 
 * HunyuanVideo
 * Wan 2.1 14B

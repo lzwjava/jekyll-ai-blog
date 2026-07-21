@@ -129,7 +129,7 @@ Your 48GB gives plenty of room.
 
 Possible:
 
-### Good:
+### Good
 
 * Stable Video Diffusion
 * AnimateDiff
@@ -143,7 +143,7 @@ FP16:
 ~24GB VRAM
 ```
 
-### Hard:
+### Hard
 
 * HunyuanVideo
 * Wan 2.1 14B
