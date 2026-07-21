@@ -165,7 +165,7 @@ At a British universal bank (via a global IT outsourcing company), I built an au
 
 - **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
 - **400 reusable coding assistant-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
-- **1,100 coding assistant-written guides** — documentation generated and validated via LLM outputs with caching and validation.
+- **1,800 coding assistant-written guides** — documentation generated and validated via LLM outputs with caching and validation.
 - **~70 test cases auto-generated** via a coding assistant API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
 
 **Results:**
