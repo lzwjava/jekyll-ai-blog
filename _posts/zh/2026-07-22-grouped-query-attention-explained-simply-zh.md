@@ -14,6 +14,7 @@ type: note
 **答案：** GQA 是多头注意力（MHA）和多查询注意力（MQA）之间的插值方法，用于在推理过程中减少 KV 缓存大小和内存带宽。
 
 **回顾两种极端情况：**
+
 - MHA：`n_heads` 个独立的 K/V 投影，每个 Q 头对应一个。质量最佳，KV 缓存最大。
 - MQA：所有 Q 头共享*单个* K/V 头。KV 缓存最小，质量有所下降。
 - GQA：Q 头被分成 `g` 个组，每个组共享一个 K/V 头。`g=1` → MQA，`g=n_heads` → MHA。
@@ -53,6 +54,7 @@ def gqa(x, Wq, Wk, Wv, Wo, n_heads, n_kv_heads, head_dim):
 **训练说明：** 你不需要从头训练——可以通过对 K/V 头组进行均值池化并短暂微调，将现有的 MHA 检查点"升级训练"为 GQA（这实际上就是 GQA 论文转换 T5-XXL 的方法）。
 
 参考文献：
+
 - [GQA: 训练广义多查询 Transformer 模型（Ainslie 等，2023）](https://arxiv.org/abs/2305.13245)
 - [Llama 2 论文，§2.2 架构](https://arxiv.org/abs/2307.09288)
 - [Mistral 7B 论文](https://arxiv.org/abs/2310.06825)

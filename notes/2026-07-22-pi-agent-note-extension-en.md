@@ -20,7 +20,7 @@ Registers a `/note` command that captures assistant responses and appends them t
 ## How it works
 
 | Feature | Implementation |
-|---|---|
+| --- | --- |
 | **`/note`** | Enqueues the last non-empty assistant response |
 | **`/note 3`** | Enqueues the 3rd assistant response |
 | **`/note --title "My Title"`** | Adds a `title` field to the queue entry |
@@ -30,7 +30,7 @@ Registers a `/note` command that captures assistant responses and appends them t
 ## Pi vs Hermes API mapping
 
 | Hermes (Python) | Pi Agent (TypeScript) |
-|---|---|
+| --- | --- |
 | `ctx.register_command("note", ...)` | `pi.registerCommand("note", { ... })` |
 | `cli.conversation_history` | `ctx.sessionManager.getEntries()` (filter by `type: "message"` + `role: "assistant"`) |
 | `ctx._manager._cli_ref` | No private field access needed — stable public API |

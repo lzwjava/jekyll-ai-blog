@@ -20,7 +20,7 @@ type: note
 ## 实现方式
 
 | 特性 | 实现细节 |
-|---|---|
+| --- | --- |
 | **`/note`** | 将最后一条非空助手回复加入队列 |
 | **`/note 3`** | 将第 3 条助手回复加入队列 |
 | **`/note --title "我的标题"`** | 为队列条目添加 `title` 字段 |
@@ -30,9 +30,9 @@ type: note
 ## Pi 与 Hermes API 映射
 
 | Hermes (Python) | Pi Agent (TypeScript) |
-|---|---|
+| --- | --- |
 | `ctx.register_command("note", ...)` | `pi.registerCommand("note", { ... })` |
-| `cli.conversation_history` | `ctx.sessionManager.getEntries()`（按 `type: "message"` + `role: "assistant"` 过滤）|
+| `cli.conversation_history` | `ctx.sessionManager.getEntries()`（按 `type: "message"` + `role: "assistant"` 过滤） |
 | `ctx._manager._cli_ref` | 无需访问私有字段——使用稳定的公共 API |
 | 插件位于 `~/.hermes/plugins/note/` | 扩展位于 `~/.pi/agent/extensions/note/index.ts` |
 

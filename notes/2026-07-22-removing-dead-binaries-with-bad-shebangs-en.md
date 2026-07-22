@@ -12,6 +12,7 @@ type: note
 Removed. `pi` is gone — both the binary and the package files.
 
 **Root cause recap:**
+
 - `pi` was a Python 2 package (2013, abandoned) installed via pip under a Python 3.13 environment that no longer exists on this machine
 - The shebang `#!/usr/bin/python3.13` → "required file not found"
 - The package itself is fundamentally incompatible with Python 3 (uses `print` statement syntax, deprecated `imp` module)

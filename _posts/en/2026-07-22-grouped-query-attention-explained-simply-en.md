@@ -14,6 +14,7 @@ Question: What is grouped-query attention (GQA)?
 Answer: GQA is an interpolation between multi-head attention (MHA) and multi-query attention (MQA), used to cut KV-cache size and memory bandwidth during inference.
 
 **Recap of the two extremes:**
+
 - MHA: `n_heads` separate K/V projections, one per Q head. Best quality, largest KV cache.
 - MQA: all Q heads share a *single* K/V head. Smallest KV cache, some quality loss.
 - GQA: Q heads are split into `g` groups, each group shares one K/V head. `g=1` → MQA, `g=n_heads` → MHA.
@@ -53,6 +54,7 @@ That's it — same math as MHA, just `k`/`v` get `repeat_interleave`'d before th
 **Training note:** you don't need to train from scratch — you can "uptrain" an existing MHA checkpoint into GQA by mean-pooling groups of K/V heads and fine-tuning briefly (this is literally how the GQA paper converted T5-XXL).
 
 References:
+
 - [GQA: Training Generalized Multi-Query Transformer Models (Ainslie et al., 2023)](https://arxiv.org/abs/2305.13245)
 - [Llama 2 paper, §2.2 architecture](https://arxiv.org/abs/2307.09288)
 - [Mistral 7B paper](https://arxiv.org/abs/2310.06825)
