@@ -36,7 +36,7 @@ type: note
 在 CPU 上运行 `sd-cli`，结果如下：
 
 | 阶段 | 时间 | 详情 |
-|------|:----:|------|
+| ------ | :----: | ------ |
 | 文本编码（CLIP） | 2.2s | 极小，可忽略 |
 | Flux 变换器（57 个块，16384 个 token） | ~487s | **主要瓶颈** — 12B 参数 × 4 步 |
 | VAE 解码 | 37s | 模型小（95 MB）但激活值巨大（6.6 GB） |
@@ -47,6 +47,7 @@ type: note
 #### 4. CUDA 重新编译
 
 发现系统具备：
+
 - **NVIDIA RTX 4070**（12 GB VRAM，计算能力 8.9）
 - **CUDA 13.2** 工具包及 `nvcc`
 - `sd_cpp` 最初是**仅 CPU** 编译
@@ -67,6 +68,7 @@ cmake --build build -j
 **根本原因**：`llama-server` 占用了约 5.9 GB VRAM，仅剩约 4 GB 可用。
 
 **已应用的修复**：
+
 1. **终止 `llama-server`** 以释放 VRAM（现在约 9.8 GB 可用）
 2. **后端拆分** —— `--backend "diffusion=cuda,clip=cpu,vae=cpu,t5xxl=cpu"` 将 Flux 放在 GPU，其余放在 CPU
 3. 成功：Flux 扩散在 GPU 上耗时 **12.8s**，VAE 解码在 CPU 上耗时 **35.4s** → 总计 **48.6s**
@@ -81,6 +83,7 @@ VAE 解码：  35.4s（CPU） →  2.7s（GPU，分块）
 #### 6. 运行脚本
 
 编写了 `run.sh` —— 一个完善的 bash 脚本，包含：
+
 - 自动模型文件验证
 - 按模块分配的 CUDA 后端
 - 启用 VAE 分块
@@ -91,6 +94,7 @@ VAE 解码：  35.4s（CPU） →  2.7s（GPU，分块）
 #### 7. 版本控制
 
 已提交并推送所有更改：
+
 ```
 fb4093d  Add download and run scripts for FLUX.1-schnell Q4_0 GGUF
 f778e25  Rebuild sd_cpp with CUDA, update run.sh for GPU inference (33x speedup)
@@ -101,7 +105,7 @@ f778e25  Rebuild sd_cpp with CUDA, update run.sh for GPU inference (33x speedup)
 ### 最终性能
 
 | 指标 | CPU | GPU（此配置） | 加速比 |
-|------|:---:|:-------------:|:------:|
+| ------ | :---: | :-------------: | :------: |
 | Flux 扩散 | 487s | **12.8s** | **38×** |
 | VAE 解码 | 37s | **2.7s** | **14×** |
 | 文本编码 | 2.2s | **0.3s** | **7×** |
@@ -116,7 +120,7 @@ f778e25  Rebuild sd_cpp with CUDA, update run.sh for GPU inference (33x speedup)
 ### 最终文件
 
 | 文件 | 用途 |
-|------|------|
+| ------ | ------ |
 | `download_model.sh` | 下载 GGUF 模型 |
 | `run.sh` | 完整的 GPU 加速生成脚本 |
 | `sd_cpp/build/bin/sd-cli` | 启用 CUDA 的推理二进制文件 |

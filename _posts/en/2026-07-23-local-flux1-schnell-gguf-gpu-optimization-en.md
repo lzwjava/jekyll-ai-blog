@@ -36,7 +36,7 @@ Wrote `download_model.sh` — a standalone bash script using `curl`/`wget` to do
 Running `sd-cli` on CPU showed:
 
 | Stage | Time | Details |
-|-------|:----:|---------|
+| ------- | :----: | --------- |
 | Text encoding (CLIP) | 2.2s | Tiny, negligible |
 | Flux transformer (57 blocks, 16384 tokens) | ~487s | **Main bottleneck** — 12B params × 4 steps |
 | VAE decode | 37s | Small model (95 MB) but huge activations (6.6 GB) |
@@ -47,6 +47,7 @@ Core issue: even Q4 quantized, the Flux transformer is a massive compute workloa
 #### 4. CUDA Rebuild
 
 Found the system had:
+
 - **NVIDIA RTX 4070** (12 GB VRAM, compute capability 8.9)
 - **CUDA 13.2** toolkit with `nvcc`
 - `sd_cpp` was built **CPU-only** originally
@@ -67,6 +68,7 @@ Verified the binary linked against `libcudart`, `libcublas`, and `libcuda`.
 **Root cause**: `llama-server` was using ~5.9 GB of VRAM, leaving only ~4 GB free.
 
 **Fixes applied**:
+
 1. **Killed `llama-server`** to free VRAM (now ~9.8 GB free)
 2. **Backend splitting** — `--backend "diffusion=cuda,clip=cpu,vae=cpu,t5xxl=cpu"` kept Flux on GPU, everything else on CPU
 3. This worked: Flux diffusion in **12.8s** on GPU, VAE decode in **35.4s** on CPU → total **48.6s**
@@ -81,6 +83,7 @@ Total:       48.6s        →  15.8s
 #### 6. Run Script
 
 Wrote `run.sh` — a polished bash script with:
+
 - Automatic model file validation
 - CUDA backend assignment per-module
 - VAE tiling enabled
@@ -91,6 +94,7 @@ Wrote `run.sh` — a polished bash script with:
 #### 7. Version Control
 
 Committed and pushed all changes:
+
 ```
 fb4093d  Add download and run scripts for FLUX.1-schnell Q4_0 GGUF
 f778e25  Rebuild sd_cpp with CUDA, update run.sh for GPU inference (33x speedup)
@@ -101,7 +105,7 @@ f778e25  Rebuild sd_cpp with CUDA, update run.sh for GPU inference (33x speedup)
 ### Final Performance
 
 | Metric | CPU | GPU (this setup) | Speedup |
-|--------|:---:|:----------------:|:-------:|
+| -------- | :---: | :----------------: | :-------: |
 | Flux diffusion | 487s | **12.8s** | **38×** |
 | VAE decode | 37s | **2.7s** | **14×** |
 | Text encoding | 2.2s | **0.3s** | **7×** |
@@ -116,7 +120,7 @@ Memory: **~8.8 GB VRAM** used (Flux 6.4 GB + VAE tiled 0.4 GB + compute ~2.4 GB)
 ### Final Files
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `download_model.sh` | Downloads the GGUF model |
 | `run.sh` | Full GPU-accelerated generation script |
 | `sd_cpp/build/bin/sd-cli` | CUDA-enabled inference binary |

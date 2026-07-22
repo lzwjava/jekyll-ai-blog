@@ -16,7 +16,7 @@ Done! Here's the full transformation:
 ### 🚀 Before vs After (RTX 4070)
 
 | Stage | CPU (before) | GPU (now) | Speedup |
-|-------|:-----------:|:--------:|:-------:|
+| ------- | :-----------: | :--------: | :-------: |
 | Text encoding | 2.2s | **0.3s** | 7× |
 | Flux diffusion (4 steps) | ~487s | **12.8s** | 38× |
 | VAE decode | 37s | **2.7s** | 13× |

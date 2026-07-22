@@ -18,7 +18,7 @@ Here's the full evaluation report for your **codeparrot-d12 model**:
 ### Model Info
 
 | Property | Value |
-|----------|-------|
+| ---------- | ------- |
 | Architecture | GPT (286M params, depth=12, dim=768, heads=6) |
 | Training Data | codeparrot-clean (Python code, 24.7B tokens) |
 | Base Model Step | **87,000** (final) |
@@ -35,7 +35,7 @@ Here's the full evaluation report for your **codeparrot-d12 model**:
 **❌ Not so good**: Logic is often wrong. The model knows *shapes* of code but not *semantics*:
 
 | Prompt | Output Quality |
-|--------|---------------|
+| -------- | --------------- |
 | `def is_palindrome(s):` | ✅ Gets `s[::-1]` right, but repeats with is_palindrome2, is_palindrome3... |
 | `class BinarySearchTree: insert(self, val):` | ❌ Inserts to both left AND right |
 | `async def fetch_url(...)` | ✅ Async/await syntax correct, but loops infinitely with `fetch_json_async_async_async...` |
@@ -48,7 +48,7 @@ Here's the full evaluation report for your **codeparrot-d12 model**:
 ### SFT Model — Chat Evaluation
 
 | Task | Accuracy | Random Baseline | Verdict |
-|------|----------|-----------------|---------|
+| ------ | ---------- | ----------------- | --------- |
 | **ARC-Easy** (200 probs) | **25.50%** | 25.00% | 🟡 At chance |
 | **ARC-Challenge** (100 probs) | **28.00%** | 25.00% | 🟡 Slightly above chance |
 | **MMLU** (20 probs) | **15.00%** | 25.00% | 🔴 Below random |
@@ -67,6 +67,7 @@ Here's the full evaluation report for your **codeparrot-d12 model**:
 2. **The SFT model** barely improves over random — likely because **8,985 steps is too few** for SFT. It was probably still in early training (learning the chat format tokens like `<|user_start|>`, `<|assistant_start|>`).
 
 3. **Built-in eval works great.** You can run all tasks with:
+
    ```bash
    cd /mnt/data/nanochat && source .venv/bin/activate
    PYTORCH_ALLOC_CONF=expandable_segments:True \
@@ -74,6 +75,7 @@ Here's the full evaluation report for your **codeparrot-d12 model**:
    ```
 
 Want me to:
+
 - **Train the SFT model longer** and re-evaluate?
 - **Write a script** that evaluates all checkpoints (5k, 10k, 15k, ... 87k) to see the learning curve?
 - **Export to HuggingFace format** so you can use LM Eval Harness / BigCode Eval?

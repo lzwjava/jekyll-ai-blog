@@ -18,13 +18,13 @@ type: note
 ### 模型信息
 
 | 属性 | 值 |
-|----------|-------|
-| 架构 | GPT（2.86亿参数，层数=12，维度=768，注意力头数=6）|
-| 训练数据 | codeparrot-clean（Python代码，247亿token）|
-| 基模型步数 | **87,000**（最终）|
+| ---------- | ------- |
+| 架构 | GPT（2.86亿参数，层数=12，维度=768，注意力头数=6） |
+| 训练数据 | codeparrot-clean（Python代码，247亿token） |
+| 基模型步数 | **87,000**（最终） |
 | SFT 模型步数 | **8,985** |
 | val_bpb | **0.3723** |
-| 分词器 | 自定义BPE（词表大小=32,768，基于Python代码训练）|
+| 分词器 | 自定义BPE（词表大小=32,768，基于Python代码训练） |
 
 ---
 
@@ -35,11 +35,11 @@ type: note
 **❌ 不足**：逻辑常出错。模型只学到了代码的*形式*，而非*语义*：
 
 | 提示词 | 输出质量 |
-|--------|---------------|
+| -------- | --------------- |
 | `def is_palindrome(s):` | ✅ 正确使用 `s[::-1]`，但会重复生成 is_palindrome2、is_palindrome3…… |
 | `class BinarySearchTree: insert(self, val):` | ❌ 同时向左和向右插入 |
 | `async def fetch_url(...)` | ✅ async/await 语法正确，但会无限循环生成 `fetch_json_async_async_async...` |
-| 无条件生成 | ✅ 能生成完整的Python文件（SickRage、pvlib、PyQt4等）|
+| 无条件生成 | ✅ 能生成完整的Python文件（SickRage、pvlib、PyQt4等） |
 
 **总结**：模型掌握了Python语法，但未能掌握算法的正确性。
 
@@ -48,7 +48,7 @@ type: note
 ### SFT 模型 — 对话评估
 
 | 任务 | 准确率 | 随机基线 | 结论 |
-|------|----------|-----------------|--------|
+| ------ | ---------- | ----------------- | -------- |
 | **ARC-Easy**（200题） | **25.50%** | 25.00% | 🟡 与随机水平持平 |
 | **ARC-Challenge**（100题） | **28.00%** | 25.00% | 🟡 略高于随机水平 |
 | **MMLU**（20题） | **15.00%** | 25.00% | 🔴 低于随机水平 |
@@ -67,6 +67,7 @@ type: note
 2. **SFT 模型**相比随机水平提升甚微——很可能是因为**8,985步对于SFT来说太少**。模型可能仍处于训练早期阶段（学习聊天格式token，如 `<|user_start|>`、`<|assistant_start|>`）。
 
 3. **内置评估功能表现出色。** 您可以通过以下命令运行所有任务：
+
    ```bash
    cd /mnt/data/nanochat && source .venv/bin/activate
    PYTORCH_ALLOC_CONF=expandable_segments:True \
@@ -74,6 +75,7 @@ type: note
    ```
 
 需要我：
+
 - **延长SFT模型训练时间**并重新评估？
 - **编写脚本**评估所有检查点（5k、10k、15k……87k）以查看学习曲线？
 - **导出为HuggingFace格式**，以便您使用LM Eval Harness / BigCode Eval？
