@@ -15,7 +15,7 @@ All sorted. Here's what was done:
 
 **Problem**: The Pi agent's `/note` extension wrote to `~/.config/pi/note_queue.json` instead of `~/.config/ww/note_queue.json`, and used a different JSON format than what the ww note watcher (`ww note watch`) expects.
 
-### Changes made to `/home/lzw/.pi/agent/extensions/note/index.ts`:
+### Changes made to `/home/lzw/.pi/agent/extensions/note/index.ts`
 
 1. **Path**: `~/.config/pi/note_queue.json` → `~/.config/ww/note_queue.json`
 2. **Queue format**: Changed from `{entries: [...]}` wrapper to a **plain JSON array** (matching `ww/note/note_queue.py`)

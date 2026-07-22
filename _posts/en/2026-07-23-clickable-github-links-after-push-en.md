@@ -19,6 +19,7 @@ Look good — syntax checks out. Here's what I changed:
 ```
 
 The new `_print_note_links()` function:
+
 1. Reads the git remote URL to get `owner/repo`
 2. Finds the git working tree root to relativize file paths
 3. Prints a `https://github.com/<owner>/<repo>/blob/main/<relative-path>` link per file

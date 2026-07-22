@@ -19,6 +19,7 @@ type: note
 ```
 
 新增的 `_print_note_links()` 函数：
+
 1. 读取 git 远程仓库 URL 以获取 `owner/repo`
 2. 查找 git 工作树根目录以生成相对路径
 3. 为每个文件打印 `https://github.com/<owner>/<repo>/blob/main/<relative-path>` 链接

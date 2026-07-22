@@ -67,7 +67,7 @@ Here's the detailed walkthrough for your MSI MAG B760M Mortar BIOS:
 **Why this curve matters:**
 
 | Current (idle) | After fix |
-|---|---|
+| --- | --- |
 | 31% PWM → **1546 RPM** | 30% PWM at 30°C → **~550 RPM** |
 | CPU at 35°C, fan loud | CPU at 35°C, fan quiet |
 
@@ -92,7 +92,7 @@ Set:
 **Expected improvement:**
 
 | Setting | Cinebench R23 | Max Temp | Noise |
-|---------|----------------|----------|-------|
+| --------- | ---------------- | ---------- | ------- |
 | Default (253W) | ~40000 pts | 100°C | Loud |
 | CPU Lite Load Mode 7 + 200W limit | ~37000 pts | 80-85°C | Quiet |
 
@@ -101,6 +101,7 @@ Set:
 You have a **WD20EZBX 1.8TB** (7200 RPM) mechanical hard drive at `/mnt/data`. This is a **physical noise source** separate from fans.
 
 **Quick test:**
+
 ```bash
 # Unmount to see if noise disappears
 sudo umount /mnt/data
@@ -119,7 +120,7 @@ After reboot, run `ww linux check-fan` again to verify fan1 RPM dropped.
 ### Summary Checklist
 
 | Step | What | Expected Result |
-|------|------|-----------------|
+| ------ | ------ | ----------------- |
 | ✅ 1 | AIO_PUMP → 100% DC fixed | Stable water flow, no pump ramping |
 | ✅ 2 | CPU_FAN → custom PWM curve | fan1 drops from 1546 to ~1000-1200 RPM at idle |
 | ✅ 3 | CPU Lite Load Mode 7 | Less voltage, lower temps |

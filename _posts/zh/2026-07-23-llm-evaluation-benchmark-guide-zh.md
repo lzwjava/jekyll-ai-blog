@@ -16,6 +16,7 @@ type: note
 ## 评估大语言模型的流行基准
 
 ### 1. **LM Evaluation Harness**（标准工具）
+
 几乎每个开源大模型发布（Llama、Qwen、Mistral 等）都使用它。支持 60 多个基准测试。
 
 ```bash
@@ -31,8 +32,9 @@ lm_eval --model hf \
 ```
 
 **关键任务：**
+
 | 基准测试 | 衡量内容 | 重要性 |
-|---------|----------|--------|
+| --------- | ---------- | -------- |
 | **MMLU**（57 个学科） | 世界知识、多任务准确率 | 引用最多的 LLM 基准 |
 | **GSM8K** | 小学数学推理 | 测试思维链 |
 | **HumanEval** | 代码生成（pass@1） | 针对代码模型 |
@@ -41,6 +43,7 @@ lm_eval --model hf \
 | **TruthfulQA** | 真实性 | 对抗幻觉 |
 
 ### 2. **OpenCompass**（更适合中英双语）
+
 由于你的数据集包含中英文笔记：
 
 ```bash
@@ -67,6 +70,7 @@ accelerate launch main.py \
 ```
 
 ### 4. **自定义评估 → 基准差异**
+
 你当前的 `eval_sft.sh` 和 `finetune/eval.py` 是**定性/手动**的——适合快速检查。要获得人们信任的数值，可以像这样将它们封装在 **lm-eval** 中：
 
 ```python
@@ -87,12 +91,13 @@ print(results["results"])
 ### 5. **你的特定模型——推荐评估方案**
 
 | 模型 | 最佳基准 | 设置 |
-|------|----------|------|
+| ------ | ---------- | ------ |
 | **lzw-notes-merged**（Qwen3-8B SFT） | MMLU, GSM8K, C-Eval | `lm_eval --model hf` |
 | **CodeParrot** | HumanEval, MBPP | `bigcode-eval-harness` |
 | **GPT-2 760M**（你的预训练模型） | HellaSwag, ARC-Easy, LAMBADA | `lm_eval` — 小于 1B 的模型在 MMLU 上表现不佳 |
 
 ### 6. **VLLM 集成（最快）**
+
 你的 `finetune/eval.py` 已经使用了 vLLM。将 lm-eval 与 vLLM 后端结合使用：
 
 ```bash
@@ -103,6 +108,7 @@ lm_eval --model vllm \
 ```
 
 ### 7. **排行榜对比**
+
 以标准格式报告结果，以便进行对比：
 
 ```json

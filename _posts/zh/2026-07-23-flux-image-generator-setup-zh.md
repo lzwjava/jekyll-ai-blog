@@ -12,7 +12,7 @@ type: note
 完成！以下是 `flux/` 目录中的内容：
 
 | 文件 | 用途 |
-|------|---------|
+| ------ | --------- |
 | `run_flux_schnell.py` | 主脚本 — 下载并生成图像 |
 | `requirements.txt` | Python 依赖项（diffusers、torch 等） |
 | `README.md` | 完整文档 |
@@ -40,16 +40,17 @@ python3 run_flux_schnell.py --token hf_YOUR_TOKEN_HERE
 ### 重要提示
 
 ⚠️ 该模型为 **受限访问** — 您必须：
-- 访问 https://huggingface.co/black-forest-labs/FLUX.1-schnell
+
+- 访问 <https://huggingface.co/black-forest-labs/FLUX.1-schnell>
 - 点击 **"同意并访问仓库"**
-- 在 https://huggingface.co/settings/tokens 创建 Token
+- 在 <https://huggingface.co/settings/tokens> 创建 Token
 
 然后通过 `--token hf_xxxx` 参数或 `export HUGGING_FACE_HUB_TOKEN=hf_xxxx` 环境变量传入。
 
 ### 关键参数
 
 | 参数 | 默认值 | 说明 |
-|-----|---------|-------------|
+| ----- | --------- | ------------- |
 | `prompts...` | 3 个默认提示 | 文本提示 |
 | `--token` | 环境变量 | Hugging Face Token |
 | `--steps` | 4 | 推理步数（1–4） |

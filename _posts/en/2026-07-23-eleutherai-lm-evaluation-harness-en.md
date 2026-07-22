@@ -222,6 +222,7 @@ tasks/
 Example:
 
 {% raw %}
+
 ```yaml
 task: my_eval
 
@@ -243,6 +244,7 @@ doc_to_choice:
 metric_list:
   - metric: acc
 ```
+
 {% endraw %}
 
 The YAML-driven design makes experiments reproducible. ([GitHub][3])

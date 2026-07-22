@@ -135,7 +135,7 @@ instead of:
 
 A useful analogy:
 
-### GPT-4 era:
+### GPT-4 era
 
 The model was weaker.
 
@@ -149,7 +149,7 @@ So more prompts, more chains, more scaffolding.
 
 ---
 
-### 2026 frontier model era:
+### 2026 frontier model era
 
 The model is stronger.
 

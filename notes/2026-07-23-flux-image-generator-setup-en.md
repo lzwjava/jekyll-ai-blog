@@ -12,7 +12,7 @@ type: note
 All set! Here's what's in the `flux/` directory:
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `run_flux_schnell.py` | Main script — download & generate images |
 | `requirements.txt` | Python dependencies (diffusers, torch, etc.) |
 | `README.md` | Full documentation |
@@ -40,16 +40,17 @@ python3 run_flux_schnell.py --token hf_YOUR_TOKEN_HERE
 ### Important
 
 ⚠️ The model is **gated** — you must:
-- Go to https://huggingface.co/black-forest-labs/FLUX.1-schnell
+
+- Go to <https://huggingface.co/black-forest-labs/FLUX.1-schnell>
 - Click **"Agree and access repository"**
-- Create a token at https://huggingface.co/settings/tokens
+- Create a token at <https://huggingface.co/settings/tokens>
 
 Then pass it via `--token hf_xxxx` or `export HUGGING_FACE_HUB_TOKEN=hf_xxxx`.
 
 ### Key args
 
 | Arg | Default | Description |
-|-----|---------|-------------|
+| ----- | --------- | ------------- |
 | `prompts...` | 3 defaults | Text prompts |
 | `--token` | env var | Hugging Face token |
 | `--steps` | 4 | Inference steps (1–4) |

@@ -18,6 +18,7 @@ I see you're working on an ML training pipeline project called **ZZ**! The proje
 - **Fine-tuning** directories (`finetune`, `codeparrot`, etc.)
 
 How can I help you today? Feel free to ask me to:
+
 - Explore or edit any files
 - Run commands (scripts, training, evaluation)
 - Set up Cloudflare integrations using available skills

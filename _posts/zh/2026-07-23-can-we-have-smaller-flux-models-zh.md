@@ -15,11 +15,11 @@ type: note
 
 是的，但**并非来自Black Forest Labs的官方主要FLUX系列**。原始的FLUX.1模型故意设计得很大：
 
-| 模型          | 参数 | 用途                       |
+| 模型 | 参数 | 用途 |
 | -------------- | -----: | ----------------------------- |
-| FLUX.1-pro     |   ~12B | 最佳质量，API                |
-| FLUX.1-dev     |   ~12B | 开放权重，用于研究/开发    |
-| FLUX.1-schnell |   ~12B | 蒸馏快速推理                 |
+| FLUX.1-pro | ~12B | 最佳质量，API |
+| FLUX.1-dev | ~12B | 开放权重，用于研究/开发 |
+| FLUX.1-schnell | ~12B | 蒸馏快速推理 |
 
 核心transformer仍然大约有**12B参数**。没有官方的“FLUX-3B”或“FLUX-1B”等效模型。
 
@@ -37,6 +37,7 @@ type: note
 BF16
 
 12B * 2字节 ≈ 24GB
+
 + 激活值
 + 文本编码器
 + VAE
@@ -60,9 +61,9 @@ INT8:
 
 示例：
 
-* FP8 FLUX
-* NF4 / bitsandbytes
-* GGUF FLUX变体
++ FP8 FLUX
++ NF4 / bitsandbytes
++ GGUF FLUX变体
 
 架构不变：
 
@@ -121,9 +122,9 @@ DeepSeek-V3
 
 但图像模型更难，因为：
 
-* 视觉空间巨大
-* 质量下降迅速
-* 文本渲染受影响
++ 视觉空间巨大
++ 质量下降迅速
++ 文本渲染受影响
 
 ---
 

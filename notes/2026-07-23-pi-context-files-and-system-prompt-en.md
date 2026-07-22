@@ -12,6 +12,7 @@ type: note
 Yes. Pi loads **`AGENTS.md`** (or `CLAUDE.md`) as context files every session. From the README's **Context Files** section:
 
 > Pi loads `AGENTS.md` (or `CLAUDE.md`) at startup from:
+>
 > - `~/.pi/agent/AGENTS.md` (global)
 > - Parent directories (walking up from cwd)
 > - Current directory

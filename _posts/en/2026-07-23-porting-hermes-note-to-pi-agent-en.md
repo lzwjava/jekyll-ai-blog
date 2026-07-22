@@ -26,6 +26,7 @@ Here's a summary of what we did:
 - Supports `--title "..."` and optional response number arguments
 
 **Key mapping:**
+
 - Hermes (Python) → Pi Agent (TypeScript)
 - `ctx.register_command()` → `pi.registerCommand()`
 - Private `ctx._manager._cli_ref` → stable public `ctx.sessionManager.getEntries()`

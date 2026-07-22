@@ -15,7 +15,7 @@ type: note
 
 **问题**：Pi 代理的 `/note` 扩展将内容写入 `~/.config/pi/note_queue.json` 而非 `~/.config/ww/note_queue.json`，并且使用的 JSON 格式与 ww 笔记监控程序（`ww note watch`）所期望的格式不同。
 
-### 对 `/home/lzw/.pi/agent/extensions/note/index.ts` 的修改：
+### 对 `/home/lzw/.pi/agent/extensions/note/index.ts` 的修改
 
 1. **路径**：`~/.config/pi/note_queue.json` → `~/.config/ww/note_queue.json`
 2. **队列格式**：从 `{entries: [...]}` 包装结构改为**纯 JSON 数组**（与 `ww/note/note_queue.py` 一致）

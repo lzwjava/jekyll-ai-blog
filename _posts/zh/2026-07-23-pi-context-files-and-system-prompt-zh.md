@@ -12,6 +12,7 @@ type: note
 是的。每次会话时，Pi 都会加载 `**AGENTS.md**`（或 `CLAUDE.md`）作为上下文文件。根据 README 的**Context Files**部分：
 
 > Pi 在启动时从以下位置加载 `AGENTS.md`（或 `CLAUDE.md`）：
+>
 > - `~/.pi/agent/AGENTS.md`（全局）
 > - 父目录（从当前工作目录向上查找）
 > - 当前目录

@@ -22,7 +22,7 @@ type: note
 ## 最近的评估相关提交
 
 | 提交 | 描述 |
-|--------|-------------|
+| -------- | ------------- |
 | `9538f8b` | `eval_long`：Markdown 输出，带语法高亮的代码块 |
 | `1df37d3` | `eval_long`：在日志输出中添加 PROMPT/OUTPUT 分隔符 |
 | `efa3c1f` | 添加 eval 和 eval_long：codeparrot-d12 评估脚本和结果 |
@@ -49,6 +49,7 @@ python -m scripts.base_eval \
 ```
 
 这会运行：
+
 - **bpb** – 训练/验证集上的 bits-per-byte（衡量损失）
 - **sample** – 从内置提示生成文本，定性检查输出
 
@@ -84,6 +85,7 @@ python -m scripts.chat_cli \
 ```
 
 或者交互模式：
+
 ```bash
 python -m scripts.chat_cli --source=base --model-tag=d12
 ```
@@ -106,7 +108,7 @@ python -m scripts.base_eval \
 ## 关键文件总结
 
 | 文件 | 功能 |
-|------|-------------|
+| ------ | ------------- |
 | `zz/codeparrot/eval/run_eval.sh` | 完整评估：BPB + 样本 + Python 代码生成 |
 | `zz/codeparrot/eval_long/run_eval_long.sh` | 长上下文代码生成评估 |
 | `zz/codeparrot/eval_long/eval_long.py` | 长提示评估的 Python 逻辑 |
@@ -121,6 +123,7 @@ python -m scripts.base_eval \
 ## 快速评估你的最新检查点
 
 **BPB 和采样：**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 NANOCHAT_DATA_DIR="/mnt/data/zz/datasets/codeparrot-clean-nanochat" \
@@ -128,6 +131,7 @@ python -m scripts.base_eval --model-tag d12 --eval bpb,sample --device-batch-siz
 ```
 
 **长提示代码评估：**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 bash /mnt/data/zz/codeparrot/eval_long/run_eval_long.sh

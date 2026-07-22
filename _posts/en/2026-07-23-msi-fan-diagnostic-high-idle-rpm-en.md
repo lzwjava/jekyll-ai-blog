@@ -16,6 +16,7 @@ Here's the complete English summary of your fan diagnostic:
 ## Fan Check Results — MSI MAG B760M Mortar + Thermalright Frozen Prism 240
 
 ### Hardware Monitor Chip
+
 Loaded **NCT6687D** driver (`nct6683 force=1`) — configured to auto-load on boot.
 
 ### Current Fan Status
@@ -26,6 +27,7 @@ Loaded **NCT6687D** driver (`nct6683 force=1`) — configured to auto-load on bo
 | fan2-fan10 | 0 RPM | various | Unconnected headers or no feedback |
 
 ### Temperatures (all excellent)
+
 ```
 CPU (PECI):      35°C
 PCH (Chipset):   49°C
@@ -37,18 +39,22 @@ HDD (WD20EZBX):  active/idle
 ### Key Findings
 
 **1. ⚠️ Fan runs high at idle**
+
 - PWM 31% should map to ~590 RPM if linear, but you're getting **1546 RPM**
 - The Thermalright Prism 240 fans (max ~1850 RPM) are running at ~83% of max speed at just 31% PWM
 - Likely: the fan's PWM response has a high minimum floor, OR the BIOS minimum duty cycle is set too high
 
 **2. 🔇 OS has no PWM control**
+
 - PWM controller (`INTC1085:00`, `npwm=1`) shows 0/1 channels exported
 - **BIOS is in full control** of fan curves — typical for MSI boards
 
 **3. 🔊 HDD mechanical noise contributor**
+
 - **WD20EZBX** (1.8TB, 7200 RPM) spinning drive — continuous rotation/seek noise
 
 **4. 🎯 Pump likely not reporting speed**
+
 - The AIO pump is probably on the **AIO_PUMP** header, which reports 0 RPM to the NCT6687 chip — it's likely running at full speed but the sensor doesn't capture it
 
 ---
@@ -77,7 +83,7 @@ HDD (WD20EZBX):  active/idle
 ### 📊 Your Hardware Summary
 
 | Component | Status |
-|-----------|--------|
+| ----------- | -------- |
 | CPU | i9-13900KF @ 35°C idle (powersave governor) |
 | Motherboard | MSI MAG B760M Mortar (NCT6687D chip) |
 | Cooler | Thermalright Frozen Prism 240 (fan1: ~1546 RPM) |

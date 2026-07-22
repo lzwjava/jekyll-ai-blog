@@ -222,6 +222,7 @@ tasks/
 示例：
 
 {% raw %}
+
 ```yaml
 task: my_eval
 
@@ -243,6 +244,7 @@ doc_to_choice:
 metric_list:
   - metric: acc
 ```
+
 {% endraw %}
 
 YAML 驱动的设计使实验具有可复现性。（[GitHub][3]）

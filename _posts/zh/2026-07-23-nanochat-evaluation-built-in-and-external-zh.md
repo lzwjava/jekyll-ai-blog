@@ -18,7 +18,7 @@ type: note
 **脚本**：`python -m scripts.chat_eval`
 
 | 任务 | 类型 | 衡量内容 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | **HumanEval** | 生成式 | Python 函数补全 → 运行单元测试 → pass@k |
 | **MMLU** | 分类式 | 57 个科目，多项选择知识 |
 | **ARC-Easy / ARC-Challenge** | 分类式 | 小学科学推理 |
@@ -28,6 +28,7 @@ type: note
 | **CustomJSON** | (位于 chat_sft.py 中) | 加载自定义 JSONL 评估 |
 
 **使用方法**（适用于你的 SFT 或基础模型）：
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 
@@ -58,6 +59,7 @@ pip install lm-eval
 **支持：** MMLU、HellaSwag、ARC、GSM8K、HumanEval、MATH、BigBench 等。
 
 **与你的模型配合使用**——你需要：
+
 - 将 nanochat 模型导出为 HuggingFace 格式（添加转换脚本），或
 - 使用 `--model local-completion` 接口通过 nanochat 引擎传递提示
 
@@ -80,7 +82,7 @@ pip install human-eval
 专为**代码模型**构建。支持：
 
 | 基准测试 | 描述 |
-|----------|------|
+| ---------- | ------ |
 | **HumanEval** | Python 函数补全 |
 | **MBPP** | 约 1000 个 Python 编程任务 |
 | **HumanEval-X** | 多语言（C++、Java、JS、Go 等） |
@@ -129,6 +131,7 @@ results = perplexity.compute(predictions=[...], model_id="...")
 你的 nanochat 模型使用**自定义 BPE 分词器**（vocab_size=32768，基于 codeparrot 代码训练）。外部评估库期望 HuggingFace `transformers` 模型具备 `AutoTokenizer` / `AutoModelForCausalLM` 接口。
 
 **要使用外部库，你需要添加 HuggingFace 导出步骤。** 一个最小化的导出器需要：
+
 1. 通过 `checkpoint_manager.load_model()` 加载你的模型
 2. 将权重转换为 `transformers` 状态字典
 3. 使用 `model.save_pretrained()` + 分词器配置保存
@@ -140,7 +143,7 @@ results = perplexity.compute(predictions=[...], model_id="...")
 ## TL;DR 建议
 
 | 使用什么 | 原因 |
-|----------|------|
+| ---------- | ------ |
 | **内置 `chat_eval.py`** | 已经可用，无需设置 |
 | **内置 `base_eval.py`** | 基础模型的 BPB + CORE 基准 |
 | **添加 BigCode Eval Harness** | 最适合代码特定基准（HumanEval、MBPP） |

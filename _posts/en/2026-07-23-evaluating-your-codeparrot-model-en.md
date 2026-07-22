@@ -22,7 +22,7 @@ You're training a **nanochat-based GPT model** (286M params, depth=12) on the `c
 ## Recent Eval-Related Commits
 
 | Commit | Description |
-|--------|-------------|
+| -------- | ------------- |
 | `9538f8b` | `eval_long`: Markdown output with syntax-highlighted code blocks |
 | `1df37d3` | `eval_long`: add PROMPT/OUTPUT separator in log output |
 | `efa3c1f` | add eval and eval_long: codeparrot-d12 evaluation scripts and results |
@@ -49,6 +49,7 @@ python -m scripts.base_eval \
 ```
 
 This runs:
+
 - **bpb** – Bits-per-byte on train/val splits (measures loss)
 - **sample** – Generates text from built-in prompts to qualitatively check output
 
@@ -84,6 +85,7 @@ python -m scripts.chat_cli \
 ```
 
 Or for interactive mode:
+
 ```bash
 python -m scripts.chat_cli --source=base --model-tag=d12
 ```
@@ -106,7 +108,7 @@ This downloads an eval bundle (~1GB) and runs accuracy on multiple-choice / comp
 ## Key Files Summary
 
 | File | What it does |
-|------|-------------|
+| ------ | ------------- |
 | `zz/codeparrot/eval/run_eval.sh` | Full eval: BPB + samples + Python code gen |
 | `zz/codeparrot/eval_long/run_eval_long.sh` | Long-context code generation eval |
 | `zz/codeparrot/eval_long/eval_long.py` | Python logic for long-prompt eval |
@@ -121,6 +123,7 @@ This downloads an eval bundle (~1GB) and runs accuracy on multiple-choice / comp
 ## Quick Start to Eval Your Latest Checkpoint
 
 **For BPB + sampling:**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 NANOCHAT_DATA_DIR="/mnt/data/zz/datasets/codeparrot-clean-nanochat" \
@@ -128,6 +131,7 @@ python -m scripts.base_eval --model-tag d12 --eval bpb,sample --device-batch-siz
 ```
 
 **For long-prompt code eval:**
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 bash /mnt/data/zz/codeparrot/eval_long/run_eval_long.sh

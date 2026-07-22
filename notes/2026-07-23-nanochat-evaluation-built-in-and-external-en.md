@@ -18,7 +18,7 @@ Great news — nanochat already has **built-in task evaluation**! But there are 
 **Script**: `python -m scripts.chat_eval`
 
 | Task | Type | What it measures |
-|------|------|-----------------|
+| ------ | ------ | ----------------- |
 | **HumanEval** | Generative | Python function completion → run unit tests → pass@k |
 | **MMLU** | Categorical | 57 subjects, multiple-choice knowledge |
 | **ARC-Easy / ARC-Challenge** | Categorical | Grade-school science reasoning |
@@ -28,6 +28,7 @@ Great news — nanochat already has **built-in task evaluation**! But there are 
 | **CustomJSON** | (in chat_sft.py) | Load your own JSONL eval |
 
 **Usage** (for your SFT or base model):
+
 ```bash
 cd /mnt/data/nanochat && source .venv/bin/activate
 
@@ -58,6 +59,7 @@ pip install lm-eval
 **Supports:** MMLU, HellaSwag, ARC, GSM8K, HumanEval, MATH, BigBench, etc.
 
 **Usage with your model** — you'd need to either:
+
 - Export your nanochat model to HuggingFace format (add a conversion script), or
 - Use the `--model local-completion` interface to pipe prompts through your nanochat Engine
 
@@ -80,7 +82,7 @@ pip install human-eval
 Purpose-built for **code models**. Supports:
 
 | Benchmark | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | **HumanEval** | Python function completion |
 | **MBPP** | ~1000 Python programming tasks |
 | **HumanEval-X** | Multi-language (C++, Java, JS, Go, etc.) |
@@ -129,6 +131,7 @@ results = perplexity.compute(predictions=[...], model_id="...")
 Your nanochat model uses a **custom BPE tokenizer** (vocab_size=32768, trained on codeparrot code). External eval libraries expect **HuggingFace `transformers` models** with a `AutoTokenizer` / `AutoModelForCausalLM` interface.
 
 **To use external libs, you'll need to add a HuggingFace export step.** A minimal exporter would:
+
 1. Load your model via `checkpoint_manager.load_model()`
 2. Convert the weights into `transformers` state dict
 3. Save with `model.save_pretrained()` + tokenizer config
@@ -140,7 +143,7 @@ That's the one missing piece to unlock all external eval tools.
 ## TL;DR Recommendations
 
 | What to Use | Why |
-|-------------|-----|
+| ------------- | ----- |
 | **Built-in `chat_eval.py`** | Already works, no setup needed |
 | **Built-in `base_eval.py`** | BPB + CORE benchmark for base model |
 | **Add BigCode Eval Harness** | Best for code-specific benchmarks (HumanEval, MBPP) |

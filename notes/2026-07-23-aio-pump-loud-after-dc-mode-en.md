@@ -38,7 +38,7 @@ You mentioned you moved fans around. Where are the **radiator fan cables** plugg
 - If they're plugged into a **SYS_FAN** header or are running at uncontrolled full speed, that's likely your noise source.
 - If you didn't reconnect them properly, they might be running at 100% all the time.
 
-### What to check:
+### What to check
 
 | Header | Cable | Mode | Curve |
 |--------|-------|------|-------|

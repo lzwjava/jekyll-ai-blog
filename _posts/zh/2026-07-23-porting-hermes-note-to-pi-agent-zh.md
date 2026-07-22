@@ -26,6 +26,7 @@ type: note
 - 支持 `--title "..."` 和可选的响应编号参数
 
 **关键映射：**
+
 - Hermes（Python） → Pi Agent（TypeScript）
 - `ctx.register_command()` → `pi.registerCommand()`
 - 私有 `ctx._manager._cli_ref` → 稳定公开 `ctx.sessionManager.getEntries()`

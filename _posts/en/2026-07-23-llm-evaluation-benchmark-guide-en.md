@@ -16,6 +16,7 @@ Here's a comprehensive guide on evaluating LLMs with standard benchmarks, tailor
 ## Popular Benchmarks for LLM Evaluation
 
 ### 1. **LM Evaluation Harness** (the standard tool)
+
 Used by nearly every open LLM release (Llama, Qwen, Mistral, etc.). Supports 60+ benchmarks.
 
 ```bash
@@ -31,8 +32,9 @@ lm_eval --model hf \
 ```
 
 **Key tasks:**
+
 | Benchmark | What it measures | Why it matters |
-|-----------|-----------------|----------------|
+| ----------- | ----------------- | ---------------- |
 | **MMLU** (57 subjects) | World knowledge, multi-task accuracy | Most cited LLM benchmark |
 | **GSM8K** | Grade-school math reasoning | Tests chain-of-thought |
 | **HumanEval** | Code generation (pass@1) | For code models |
@@ -41,6 +43,7 @@ lm_eval --model hf \
 | **TruthfulQA** | Truthfulness | Adversarial for hallucinations |
 
 ### 2. **OpenCompass** (better for Chinese + English)
+
 Since your dataset has both EN and ZH notes:
 
 ```bash
@@ -67,6 +70,7 @@ accelerate launch main.py \
 ```
 
 ### 4. **Custom Eval → Benchmark Gap**
+
 Your current `eval_sft.sh` and `finetune/eval.py` are **qualitative/manual** — good for sanity checks. To get numbers people trust, wrap them in **lm-eval** like this:
 
 ```python
@@ -87,12 +91,13 @@ print(results["results"])
 ### 5. **Your Specific Models — Recommended Eval Plan**
 
 | Model | Best Benchmarks | Setup |
-|-------|----------------|-------|
+| ------- | ---------------- | ------- |
 | **lzw-notes-merged** (Qwen3-8B SFT) | MMLU, GSM8K, C-Eval | `lm_eval --model hf` |
 | **CodeParrot** | HumanEval, MBPP | `bigcode-eval-harness` |
 | **GPT-2 760M** (your pretrained) | HellaSwag, ARC-Easy, LAMBADA | `lm_eval` — models <1B aren't good at MMLU |
 
 ### 6. **VLLM Integration (fastest)**
+
 Your `finetune/eval.py` already uses vLLM. Plugin lm-eval with vLLM backend:
 
 ```bash
@@ -103,6 +108,7 @@ lm_eval --model vllm \
 ```
 
 ### 7. **Leaderboard Comparison**
+
 Report results in a standard format so you can compare:
 
 ```json
