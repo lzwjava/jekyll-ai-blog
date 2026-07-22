@@ -11,7 +11,7 @@ type: note
 
 ## Question: Can we have smaller FLUX models?
 
-## Answer:
+## Answer
 
 Yes, but **not officially from Black Forest Labs for the main FLUX family**. The original FLUX.1 models are intentionally large:
 

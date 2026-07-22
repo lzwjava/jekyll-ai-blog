@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to `black-forest-labs/FLUX.1-schnell`
 
-## Answer:
+## Answer
 
 Black Forest Labs's **FLUX.1-schnell** is one of the most important open-weight image generation models after Stable Diffusion. It is a **12B parameter text-to-image model** based on a **rectified flow transformer architecture**, optimized for **very fast generation**. ([Hugging Face][1])
 

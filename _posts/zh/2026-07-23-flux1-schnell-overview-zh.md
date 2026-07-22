@@ -11,7 +11,7 @@ type: note
 
 ## 问题：`black-forest-labs/FLUX.1-schnell` 简介
 
-## 回答：
+## 回答
 
 Black Forest Labs 的 **FLUX.1-schnell** 是继 Stable Diffusion 之后最重要的开源权重图像生成模型之一。它是一个 **12B 参数 text-to-image 模型**，基于 **rectified flow transformer** 架构，专为 **极速生成** 而优化。([Hugging Face][1])
 
