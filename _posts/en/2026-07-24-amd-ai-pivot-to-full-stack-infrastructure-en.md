@@ -178,13 +178,13 @@ The OpenAI partnership is especially significant because it signals AMD is becom
 
 The important shift is:
 
-### 2023-2025:
+### 2023-2025
 
 ```
 AI = NVIDIA CUDA + GPUs
 ```
 
-### 2026+:
+### 2026+
 
 ```
 AI = compute infrastructure

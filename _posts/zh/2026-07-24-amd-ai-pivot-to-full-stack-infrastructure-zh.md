@@ -178,13 +178,13 @@ OpenAI 的合作尤其重要，因为它表明 AMD 正在成为真正的 AI 计�
 
 重要的转变是：
 
-### 2023-2025：
+### 2023-2025
 
 ```
 AI = NVIDIA CUDA + GPUs
 ```
 
-### 2026+：
+### 2026+
 
 ```
 AI = compute infrastructure
