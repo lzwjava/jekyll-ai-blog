@@ -11,7 +11,7 @@ type: note
 
 ## 问题：解释为什么 Google AdSense 拒绝了该账户及其含义
 
-## 答案：
+## 答案
 
 这是一个通用的 Google AdSense 拒绝页面。其含义是：
 

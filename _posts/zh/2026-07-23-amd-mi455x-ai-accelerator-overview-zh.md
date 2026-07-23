@@ -112,9 +112,9 @@ AI GPU性能不仅仅取决于FLOPS。
 
 因此，MI455X巨大的HBM带宽目标在于：
 
-*   巨大的上下文窗口
-*   多智能体工作负载
-*   高效服务大型模型
+* 巨大的上下文窗口
+* 多智能体工作负载
+* 高效服务大型模型
 
 ---
 
@@ -308,8 +308,8 @@ AMD正从 **内存 + 开放生态系统 + 机架规模** 的方向攻击NVIDIA�
 
 参考资料：
 
-*   [AMD Helios机架级解决方案](https://www.amd.com/en/products/rackscale-solutions/helios.html?utm_source=chatgpt.com)
-*   [AMD CES 2026 AI公告](https://www.amd.com/en/newsroom/press-releases/2026-1-5-amd-and-its-partners-share-their-vision-for-ai-ev.html?utm_source=chatgpt.com)
-*   [三星与AMD在HBM4上的合作](https://semiconductor.samsung.com/news-events/news/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions/?utm_source=chatgpt.com)
+* [AMD Helios机架级解决方案](https://www.amd.com/en/products/rackscale-solutions/helios.html?utm_source=chatgpt.com)
+* [AMD CES 2026 AI公告](https://www.amd.com/en/newsroom/press-releases/2026-1-5-amd-and-its-partners-share-their-vision-for-ai-ev.html?utm_source=chatgpt.com)
+* [三星与AMD在HBM4上的合作](https://semiconductor.samsung.com/news-events/news/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions/?utm_source=chatgpt.com)
 
 [1]: https://www.amd.com/en/products/rackscale-solutions/helios.html?utm_source=chatgpt.com "Helios"

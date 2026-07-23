@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to AutoDL ([https://www.autodl.com/home](https://www.autodl.com/home))
 
-## Answer:
+## Answer
 
 AutoDL is a **GPU cloud rental platform focused on AI developers**, especially for deep learning training, fine-tuning, inference, and experimentation. Think of it as a China-focused alternative to services like RunPod, Lambda Cloud, Vast.ai, AWS GPU instances, etc. ([AutoDL][1])
 

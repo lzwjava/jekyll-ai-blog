@@ -11,7 +11,7 @@ type: note
 
 ## Question: Explain why Google AdSense rejected the account and what it means
 
-## Answer:
+## Answer
 
 This is a generic Google AdSense rejection page. It means:
 

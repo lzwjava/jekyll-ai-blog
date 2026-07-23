@@ -11,7 +11,7 @@ type: note
 
 ## 问题：AutoDL简介（[https://www.autodl.com/home](https://www.autodl.com/home)）
 
-## 答案：
+## 答案
 
 AutoDL 是一个**专注于 AI 开发者的 GPU 云租赁平台**，尤其适用于深度学习训练、微调、推理和实验。可以把它看作是一个面向中国市场的替代方案，类似于 RunPod、Lambda Cloud、Vast.ai、AWS GPU 实例等服务。（[AutoDL][1]）
 

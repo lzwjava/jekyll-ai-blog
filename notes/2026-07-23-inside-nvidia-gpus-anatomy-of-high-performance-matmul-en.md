@@ -9,11 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
 
 Intro to Aleksa Gordić's **"Inside NVIDIA GPUs: Anatomy of high performance matmul kernels"** blog.
 
-## Answer:
+## Answer
 
 This blog is a deep dive into **how modern GPUs actually execute matrix multiplication (matmul)** at the hardware level, especially for AI workloads. It explains why a few lines of PyTorch:
 

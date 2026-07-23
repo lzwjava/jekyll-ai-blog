@@ -11,7 +11,7 @@ type: note
 
 ## 问题：什么是 ROCm 单体仓库（monorepo），我们应该如何理解它？
 
-## 回答：
+## 回答
 
 AMD ROCm（Radeon Open Compute 平台）是 AMD 的 **开放 GPU 软件栈**，类似于 NVIDIA CUDA。
 

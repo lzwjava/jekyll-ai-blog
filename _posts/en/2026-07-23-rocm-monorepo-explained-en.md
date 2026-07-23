@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is the ROCm monorepo and how should we understand it?
 
-## Answer:
+## Answer
 
 AMD ROCm (Radeon Open Compute platform) is AMD's **open GPU software stack**, analogous to NVIDIA CUDA.
 

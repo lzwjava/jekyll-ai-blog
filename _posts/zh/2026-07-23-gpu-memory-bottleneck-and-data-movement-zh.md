@@ -27,10 +27,10 @@ type: note
 
 以现代 NVIDIA H100 GPU 为例：
 
-*   张量核心：
-    *   约 1,000+ TFLOPS FP16/BF16 计算能力
-*   HBM 内存：
-    *   约 3 TB/s 带宽
+* 张量核心：
+  * 约 1,000+ TFLOPS FP16/BF16 计算能力
+* HBM 内存：
+  * 约 3 TB/s 带宽
 
 两者差距巨大。
 
@@ -192,10 +192,10 @@ B 块
 
 这就是为什么优化后的 GEMM 内核会使用：
 
-*   分块（tiling）
-*   共享内存（shared memory）
-*   寄存器阻塞（register blocking）
-*   缓存重用（cache reuse）
+* 分块（tiling）
+* 共享内存（shared memory）
+* 寄存器阻塞（register blocking）
+* 缓存重用（cache reuse）
 
 ---
 
@@ -226,10 +226,10 @@ B 块
 
 举例：
 
-*   带有计算逻辑的 HBM
-*   带有 SRAM 的 AI 加速器
-*   Google 的 TPU 架构
-*   Cerebras 晶圆级引擎
+* 带有计算逻辑的 HBM
+* 带有 SRAM 的 AI 加速器
+* Google 的 TPU 架构
+* Cerebras 晶圆级引擎
 
 但这很困难，因为：
 
