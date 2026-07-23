@@ -295,9 +295,3 @@ agent tool use
 * [MiniCPM GitHub repository](https://github.com/openbmb/minicpm?utm_source=chatgpt.com)
 * [MiniCPM paper: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395?utm_source=chatgpt.com)
 * [MiniCPM4: Ultra-Efficient LLMs on End Devices](https://arxiv.org/abs/2506.07900?utm_source=chatgpt.com)
-
-[1]: https://github.com/openbmb/minicpm?utm_source=chatgpt.com "GitHub - OpenBMB/MiniCPM: MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful. · GitHub"
-[2]: https://arxiv.org/abs/2404.06395?utm_source=chatgpt.com "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies"
-[3]: https://huggingface.co/openbmb/models?utm_source=chatgpt.com "openbmb (OpenBMB)"
-[4]: https://arxiv.org/abs/2604.27393?utm_source=chatgpt.com "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction"
-[5]: https://arxiv.org/abs/2506.07900?utm_source=chatgpt.com "MiniCPM4: Ultra-Efficient LLMs on End Devices"
