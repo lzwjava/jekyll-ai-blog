@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is block sparse attention in LLMs?
 
-## Answer:
+## Answer
 
 **Block sparse attention** is an optimization of the Transformer attention mechanism where the model **does not compute every token-to-token attention pair**. Instead of a full `N × N` attention matrix, it computes attention only inside selected **blocks** of tokens.
 
