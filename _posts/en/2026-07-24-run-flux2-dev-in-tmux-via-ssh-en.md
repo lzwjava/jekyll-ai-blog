@@ -23,6 +23,7 @@ python3 /root/run_flux.py
 ```
 
 The download is **~35GB** and will take some time (~15-30 mins depending on mirror speed). The script will:
+
 1. ✅ Download FLUX.2-dev from the HuggingFace mirror
 2. ✅ Load the model onto your AMD GPU (48GB VRAM)
 3. ✅ Generate a test image (`test_flux.png`)

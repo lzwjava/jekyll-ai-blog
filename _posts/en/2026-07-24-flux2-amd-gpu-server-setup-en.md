@@ -14,13 +14,14 @@ type: note
 ### Server Setup
 
 | Step | Status |
-|------|--------|
+| ------ | -------- |
 | SSH connection test | ✅ Connected |
 | GPU detection (ROCm) | ✅ AMD Radeon GPU, 48GB VRAM |
 | tmux installed | ✅ |
 | Python venv created (`/root/flux_env`) | ✅ |
 
 ### GPU Specs
+
 - **GPU**: AMD RDNA 3 (gfx1100) — 48GB VRAM (Samsung)
 - **ROCm**: v7.2.1, HIP 7.2.53211
 - **CPU**: AMD EPYC 9334, 128 threads
@@ -30,7 +31,7 @@ type: note
 ### Software Installed
 
 | Package | Version | Notes |
-|---------|---------|-------|
+| --------- | --------- | ------- |
 | PyTorch | 2.13.0+rocm7.2 | ROCm 7.2 compatible |
 | diffusers | 0.39.0 | Latest |
 | transformers | 4.57.6 | Downgraded from 5.x for compatibility |
@@ -49,12 +50,14 @@ type: note
 4. **OOM on `pipe.to("cuda")`** → Model ~35GB in bf16, tried to load all at once into 48GB VRAM → Fixed with `pipe.enable_model_cpu_offload()` (keeps only one component on GPU at a time)
 
 ### Final Script (`/root/run_flux.py`)
+
 - Loads FLUX.2-dev with CPU offloading
 - Generates "A cute cat holding a sign that says hello world" at 1024×1024
 - 28 inference steps
 - Saves result to `test_flux.png`
 
 ### How to Run
+
 ```bash
 ssh -p 31145 root@36.150.116.206
 tmux new -s flux

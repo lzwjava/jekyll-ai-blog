@@ -25,11 +25,11 @@ AMD ROCm     ██                                    低个位数 / 增长中
 
 具体数字很难精确，因为"市场份额"可以指：
 
-1.  发货的 GPU 硬件
-2.  AI 训练集群
-3.  开发者使用情况
-4.  框架生态
-5.  云端可用性
+1. 发货的 GPU 硬件
+2. AI 训练集群
+3. 开发者使用情况
+4. 框架生态
+5. 云端可用性
 
 但在所有维度上，CUDA 仍然占据压倒性主导地位。（[OECD][1]）
 
@@ -39,8 +39,8 @@ AMD ROCm     ██                                    低个位数 / 增长中
 
 对于 AI 数据中心 GPU：
 
-*   NVIDIA 占据主导，估计在 AI GPU 份额中超过 80%。（[OECD][1]）
-*   AMD Instinct（MI300X/MI325X/MI355X 等）是主要竞争对手，但仍远远落后。（[AMD][2]）
+* NVIDIA 占据主导，估计在 AI GPU 份额中超过 80%。（[OECD][1]）
+* AMD Instinct（MI300X/MI325X/MI355X 等）是主要竞争对手，但仍远远落后。（[AMD][2]）
 
 原因不仅仅在于硬件。
 
@@ -353,10 +353,10 @@ ROCm = 挑战者的 Linux ARM
 
 参考资料：
 
-*   OECD — 人工智能基础设施中的竞争（[OECD][1]）
-*   Statista / SemiAnalysis — NVIDIA 与 AMD 数据中心 AI GPU 市场份额（[Statista][6]）
-*   AMD Instinct 与 NVIDIA 数据中心 GPU 概览（[AMD][2]）
-*   CUDA 与 ROCm 生态对比（[AIMultiple][4]）
+* OECD — 人工智能基础设施中的竞争（[OECD][1]）
+* Statista / SemiAnalysis — NVIDIA 与 AMD 数据中心 AI GPU 市场份额（[Statista][6]）
+* AMD Instinct 与 NVIDIA 数据中心 GPU 概览（[AMD][2]）
+* CUDA 与 ROCm 生态对比（[AIMultiple][4]）
 
 [1]: https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html?utm_source=chatgpt.com "AI 供应链概览：人工智能基础设施中的竞争 | OECD"
 [2]: https://www.amd.com/content/dam/amd/en/documents/partner-hub/instinct/instinct-over-nvidia.pdf?utm_source=chatgpt.com "数据中心解决方案 | AMD INSTINCT™ GPU 对比 NVIDIA® GPU"

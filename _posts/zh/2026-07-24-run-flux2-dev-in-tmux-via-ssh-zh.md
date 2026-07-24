@@ -23,6 +23,7 @@ python3 /root/run_flux.py
 ```
 
 下载大小约为 **35GB**，需要一些时间（根据镜像速度，约 15–30 分钟）。脚本将执行以下操作：
+
 1. ✅ 从 HuggingFace 镜像下载 FLUX.2-dev
 2. ✅ 将模型加载到你的 AMD GPU（48GB 显存）
 3. ✅ 生成一张测试图像（`test_flux.png`）
