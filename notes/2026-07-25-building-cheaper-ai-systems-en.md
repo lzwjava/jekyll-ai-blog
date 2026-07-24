@@ -321,7 +321,7 @@ agent loop
 
 ---
 
-## My view:
+## My view
 
 The next DeepSeek is unlikely to be:
 

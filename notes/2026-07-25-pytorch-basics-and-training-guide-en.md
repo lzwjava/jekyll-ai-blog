@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to PyTorch
 
-## Answer:
+## Answer
 
 PyTorch is an open-source deep learning framework originally developed by Meta AI. It is mainly used for:
 

@@ -11,7 +11,7 @@ type: note
 
 ## 问题：PyTorch 入门
 
-## 答案：
+## 答案
 
 PyTorch 是一个开源深度学习框架，最初由 Meta AI 开发。它主要用于：
 
