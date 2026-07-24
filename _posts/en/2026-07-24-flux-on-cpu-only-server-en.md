@@ -16,7 +16,7 @@ Here's the full assessment of your server:
 ## 🖥️ Server Specs
 
 | Component | Details |
-|-----------|---------|
+| ----------- | --------- |
 | **CPU** | AMD EPYC 9334 (32-Core × 2 threads = **128 threads**) |
 | **RAM** | **503 GB** |
 | **Disk** | **3.5 TB** (424G used, 2.9T free) |
@@ -32,7 +32,7 @@ This server has **no GPU at all** — no NVIDIA, no AMD, no integrated GPU. Just
 ### **FLUX.2-dev** (~35GB total) — ⚠️ CPU only, but feasible
 
 | Component | Est. Size | Notes |
-|-----------|-----------|-------|
+| ----------- | ----------- | ------- |
 | `transformer/` (7 shards) | ~24GB | Main diffusion transformer |
 | `text_encoder/` (10 shards) | ~10GB | T5-XXL text encoder |
 | `flux2-dev.safetensors` | ~1.5GB | Model config/weights |
@@ -51,7 +51,7 @@ With **503GB RAM** and **128 CPU cores**, you can **absolutely run FLUX.2-dev on
 For practical CPU image generation, consider these lighter alternatives:
 
 | Model | Size | Speed on CPU |
-|-------|------|-------------|
+| ------- | ------ | ------------- |
 | **FLUX.2-schnell** | ~15GB | Faster (fewer steps) |
 | **SDXL-Turbo** | ~7GB | ~30-60s per image |
 | **SD 3.5 Medium** | ~8GB | ~30-60s |
@@ -61,6 +61,7 @@ For practical CPU image generation, consider these lighter alternatives:
 ### Recommendation
 
 If you want to run **FLUX.2-dev**:
+
 ```bash
 # Install dependencies
 pip install torch --index-url https://download.pytorch.org/whl/cpu

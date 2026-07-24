@@ -11,7 +11,7 @@ type: note
 
 ## Question: Why did Liang Wenfeng say NVIDIA's CUDA moat is losing? Is the argument technically correct?
 
-## Answer:
+## Answer
 
 The core idea is **not that CUDA disappears tomorrow**, but that the **marginal advantage of CUDA may shrink because AI is moving from human-written GPU kernels toward AI-generated optimized code + higher-level compiler stacks**.
 

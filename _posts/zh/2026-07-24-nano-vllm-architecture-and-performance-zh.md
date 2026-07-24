@@ -54,29 +54,38 @@ nanovllm/
 ## 关键特性
 
 ### 1. **连续批处理**（`scheduler.py`）
+
 与 vLLM 类似，Nano-vLLM 使用 **迭代级调度**——每步之后，调度器决定处理哪些序列：
+
 - **Prefill 阶段**：处理新序列的提示词 token，支持 **分块预填充**（部分提示词处理）以最优填充批次。
 - **Decode 阶段**：为批次中每个活跃序列生成一个 token。
 - **抢占**：当 KV 缓存不足时，运行中的序列被驱逐回等待队列（其块被释放）。
 
 ### 2. **分页 KV 缓存**（`block_manager.py`, `model_runner.py`）
+
 KV 缓存被划分为固定大小的 **块**（默认每个块 256 个 token），由 `BlockManager` 管理：
+
 - **动态分配**：块按需分配，随着序列增长而分配。
 - **前缀缓存**（`hash_blocks` / `can_allocate`）：使用 **xxhash** 计算 token 块的哈希值。当新请求与之前请求共享公共前缀时，缓存的 KV 块被 **重用**（引用计数），避免重复计算。
 
 ### 3. **张量并行**（`linear.py`, `embed_head.py`）
+
 支持将模型层拆分到多个 GPU：
+
 - `QKVParallelLinear`、`MergedColumnParallelLinear`、`RowParallelLinear`——沿隐藏/注意力头维度分片权重。
 - `VocabParallelEmbedding` / `ParallelLMHead`——通过 `all_reduce` / `all_gather` 在 GPU 间分布词汇表。
 - 使用 `torch.multiprocessing` 的多进程设置，通过共享内存（`SharedMemory`）进行进程间通信。
 
 ### 4. **FlashAttention 集成**（`attention.py`）
+
 使用 `flash-attn` 库进行预填充（`flash_attn_varlen_func`）和解码（`flash_attn_with_kvcache`）。一个自定义 **Triton 内核**（`store_kvcache_kernel`）高效地将 KV 缓存条目写入分页缓存块。
 
 ### 5. **CUDA Graph 捕获**（`model_runner.py`）
+
 对于 **解码** 步骤（操作大小固定），CUDA graphs 捕获整个模型前向传播，消除了 Python 和 CUDA 启动开销。当 `enforce_eager=True` 时禁用。
 
 ### 6. **Torch 编译的采样器**（`sampler.py`）
+
 采样步骤使用 `@torch.compile` 实现更快的 top-k 风格采样，并带有温度缩放。
 
 ---

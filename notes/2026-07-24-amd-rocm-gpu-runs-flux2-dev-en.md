@@ -16,7 +16,7 @@ Here's the full picture:
 ## ✅ GPU Confirmed — AMD ROCm
 
 | Component | Details |
-|-----------|--------|
+| ----------- | -------- |
 | **GPU** | **gfx1100** (RDNA 3 arch) — likely AMD Radeon PRO W7900 or cloud-partitioned Instinct |
 | **VRAM** | **48 GB** (Samsung) |
 | **ROCm** | v7.2.1 (HIP 7.2.53211) |
@@ -44,7 +44,7 @@ Available versions: `2.13.0+rocm7.2` (latest), `2.12.1`, `2.12.0`, `2.11.0`
 ### FLUX.2-dev VRAM Requirements
 
 | Component | Est. Size | Notes |
-|-----------|-----------|-------|
+| ----------- | ----------- | ------- |
 | Text Encoder (T5-XXL) | ~10 GB | Loaded once, usually fp16 |
 | Transformer (flux2-dev) | ~12-16 GB | bf16 weights |
 | VAE | ~1 GB | Tiny |
@@ -58,7 +58,7 @@ Headroom for **higher resolutions** (e.g. 1536×1536) or **larger batch sizes**.
 ### Expected Performance
 
 | Hardware | Time per image at 1024×1024 (4-step schnell / 28-step dev) |
-|----------|----------------------------------------------------------|
+| ---------- | ---------------------------------------------------------- |
 | Your GPU (RDNA 3, 48 GB) | ~3-10 sec/image (estimate, similar to RX 7900 XTX) |
 | NVIDIA A100 (80 GB) | ~2-5 sec |
 | CPU-only (128 cores) | Several minutes |

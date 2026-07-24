@@ -54,29 +54,38 @@ nanovllm/
 ## Key Features
 
 ### 1. **Continuous Batching** (`scheduler.py`)
+
 Like vLLM, Nano-vLLM uses **iterative-level scheduling** — after each step, the scheduler decides which sequences to process:
+
 - **Prefill phase**: Processes prompt tokens for new sequences, supports **chunked prefill** (partial prompt processing) to fill the batch optimally.
 - **Decode phase**: Generates one token per active sequence in the batch.
 - **Preemption**: When KV cache runs out, running sequences are evicted back to the waiting queue (their blocks are freed).
 
 ### 2. **Paged KV Cache** (`block_manager.py`, `model_runner.py`)
+
 KV cache is divided into fixed-size **blocks** (default 256 tokens each), managed by a `BlockManager`:
+
 - **Dynamic allocation**: Blocks are allocated on demand as sequences grow.
 - **Prefix caching** (`hash_blocks` / `can_allocate`): Uses **xxhash** to compute hashes of token blocks. When a new request shares a common prefix with a previous one, cached KV blocks are **reused** (reference-counted), avoiding redundant computation.
 
 ### 3. **Tensor Parallelism** (`linear.py`, `embed_head.py`)
+
 Supports splitting model layers across multiple GPUs:
+
 - `QKVParallelLinear`, `MergedColumnParallelLinear`, `RowParallelLinear` — shard weights along the hidden/head dimension.
 - `VocabParallelEmbedding` / `ParallelLMHead` — distribute vocabulary across GPUs with `all_reduce` / `all_gather`.
 - Multi-process setup using `torch.multiprocessing` with shared memory (`SharedMemory`) for IPC.
 
 ### 4. **FlashAttention Integration** (`attention.py`)
+
 Uses the `flash-attn` library for both prefill (`flash_attn_varlen_func`) and decode (`flash_attn_with_kvcache`). A custom **Triton kernel** (`store_kvcache_kernel`) efficiently writes KV cache entries into the paged cache blocks.
 
 ### 5. **CUDA Graph Capture** (`model_runner.py`)
+
 For **decode** steps (which have fixed-size operations), CUDA graphs capture the entire model forward pass, eliminating Python and CUDA launch overhead. This is disabled when `enforce_eager=True`.
 
 ### 6. **Torch Compiled Sampler** (`sampler.py`)
+
 The sampling step uses `@torch.compile` for faster top-k style sampling with temperature scaling.
 
 ---

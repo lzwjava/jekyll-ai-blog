@@ -16,7 +16,7 @@ Alright, here's the full picture of your laptop and how to run **nano-vllm**:
 ## Hardware Specs
 
 | Component | Spec |
-|-----------|------|
+| ----------- | ------ |
 | **GPU** | NVIDIA GeForce RTX 4070 (12GB VRAM) |
 | **CUDA Driver** | 13.0 |
 | **RAM** | 62 GB |
