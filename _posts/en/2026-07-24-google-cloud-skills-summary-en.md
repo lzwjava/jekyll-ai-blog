@@ -18,7 +18,7 @@ Based on all the notes I've read, here's a comprehensive summary of your Google 
 ### 🛠️ Actually Built & Deployed (Hands-on)
 
 | Module/Feature | How You Used It |
-|---|---|
+| --- | --- |
 | **Speech-to-Text v2 API** | Built into your `ww` CLI tool — `ww gcp-speech transcribe <audio>` — uploads audio to GCS, runs Chirp/long/short models, saves transcripts as `.md`. You know Chirp, Chirp_2, Chirp_3, long, short models in detail. |
 | **Cloud Storage (GCS)** | The `test2x` bucket for audio uploads. GCS lifecycle rules (delete old files, move to Nearline/Coldline/Archive). `gsutil` CLI. |
 | **Cloud Run** | Deployed a Java/Spring Boot `blog-server` container. You know `gcloud run deploy --source .`, Artifact Registry, Cloud Build, `.gcloudignore`, `--verbosity=debug` for debugging hangs. Deployed to `asia-northeast1` region. |
@@ -31,7 +31,7 @@ Based on all the notes I've read, here's a comprehensive summary of your Google 
 ### 📚 Studied & Know Deeply (Exam/Cert Level)
 
 | Module | What You Know |
-|---|---|
+| --- | --- |
 | **BigQuery** | Serverless columnar warehouse. Dremel/Colossus/Borg architecture. Partitioning & clustering for cost optimization. `bq` CLI, Python client (`google.cloud.bigquery`), `--dry_run`. BigQuery ML, vector search, JSON embeddings storage for RAG. |
 | **IAM & Security** | Identity-Aware Proxy (IAP) — Zero Trust, context-aware access. `roles/compute.instanceAdmin` vs `roles/editor` vs `roles/owner`. Service accounts vs user accounts. |
 | **GKE (Kubernetes Engine)** | Knows GKE cluster creation, HPA/VPA scaling, Nginx Ingress, secure access patterns. |
@@ -44,7 +44,7 @@ Based on all the notes I've read, here's a comprehensive summary of your Google 
 ### 💰 Pricing & Cost Knowledge
 
 | Topic | Details |
-|---|---|
+| --- | --- |
 | **Compute Engine pricing** | E2 micro = $0.0084/hr in Taipei. Sustained use discounts, committed use discounts (30-70% off). Spot VMs (60-91% off). |
 | **Network egress** | $0.12/GiB from Asia (first 1TB). Ingress is free. |
 | **GCS storage classes** | Standard → Nearline → Coldline → Archive. Lifecycle rules. |
@@ -55,6 +55,7 @@ Based on all the notes I've read, here's a comprehensive summary of your Google 
 ### ⚡ Summary of Your GCP Profile
 
 You're not just studying theory — you've **built real integrations**:
+
 - **`ww gcp-speech transcribe`** — speech-to-text pipeline with GCS + Chirp models
 - **`ww gen-video upload`** — YouTube Data API with OAuth
 - **AdSense monetization** on your Jekyll blog

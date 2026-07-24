@@ -18,7 +18,7 @@ type: note
 ### 🛠️ 实际构建与部署（动手实践）
 
 | 模块/功能 | 使用方式 |
-|---|---|
+| --- | --- |
 | **Speech-to-Text v2 API** | 集成到您的 `ww` CLI 工具中 — `ww gcp-speech transcribe <audio>` — 将音频上传到 GCS，运行 Chirp/长/短模型，将转录保存为 `.md` 文件。您深入了解 Chirp、Chirp_2、Chirp_3、长模型和短模型。 |
 | **Cloud Storage (GCS)** | 用于音频上传的 `test2x` 存储桶。GCS 生命周期规则（删除旧文件，迁移到 Nearline/Coldline/Archive）。使用 `gsutil` CLI。 |
 | **Cloud Run** | 部署了一个 Java/Spring Boot 的 `blog-server` 容器。您了解 `gcloud run deploy --source .`、Artifact Registry、Cloud Build、`.gcloudignore`、以及调试挂起问题的 `--verbosity=debug`。部署在 `asia-northeast1` 区域。 |
@@ -31,7 +31,7 @@ type: note
 ### 📚 学习并深入了解（考试/认证级别）
 
 | 模块 | 您了解的内容 |
-|---|---|
+| --- | --- |
 | **BigQuery** | 无服务器列式数据仓库。Dremel/Colossus/Borg 架构。用于成本优化的分区与聚类。`bq` CLI、Python 客户端 (`google.cloud.bigquery`)、`--dry_run`。BigQuery ML、向量搜索、JSON 嵌入存储用于 RAG。 |
 | **IAM 与安全** | Identity-Aware Proxy (IAP) — Zero Trust、上下文感知访问。`roles/compute.instanceAdmin` 与 `roles/editor` 与 `roles/owner` 的区别。服务账号与用户账号。 |
 | **GKE (Kubernetes Engine)** | 了解 GKE 集群创建、HPA/VPA 扩缩容、Nginx Ingress、安全访问模式。 |
@@ -44,7 +44,7 @@ type: note
 ### 💰 定价与成本知识
 
 | 主题 | 详情 |
-|---|---|
+| --- | --- |
 | **Compute Engine 定价** | 台北区域 E2 micro = $0.0084/小时。持续使用折扣、承诺使用折扣（30-70% 折扣）。Spot 虚拟机（60-91% 折扣）。 |
 | **网络出站流量** | 亚洲区域首 1TB 为 $0.12/GiB。入站流量免费。 |
 | **GCS 存储类别** | Standard → Nearline → Coldline → Archive。生命周期规则。 |
@@ -55,6 +55,7 @@ type: note
 ### ⚡ 您的 GCP 概况总结
 
 您不仅仅是学习理论 — 您已经构建了**实际集成**：
+
 - **`ww gcp-speech transcribe`** — 使用 GCS + Chirp 模型的语音转文本管道
 - **`ww gen-video upload`** — 使用 OAuth 的 YouTube Data API
 - **Jekyll 博客上的 AdSense 变现**
