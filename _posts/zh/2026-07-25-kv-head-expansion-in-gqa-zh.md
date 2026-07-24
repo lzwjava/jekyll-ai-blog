@@ -44,9 +44,11 @@ print(out.squeeze())
 **代价：** 此操作会显式占用内存——产生`num_repeats`份副本。实际推理引擎（如vLLM、FlashAttention-2的GQA内核）会通过在内核内部虚拟广播KV头来避免这种物理扩展。这里的`repeat_interleave`是朴素/参考实现——适用于正确性验证，但不适用于高性能服务场景。
 
 **无需额外内存的替代方案**（通过视图+扩展实现广播，在矩阵乘法之前不实际复制数据）：
+
 ```python
 k_i = k_i.unsqueeze(3).expand(1, kv_len, kv_heads, num_repeats, 128).reshape(1, kv_len, 16, 128)
 ```
+
 对于非连续情况，仍会在`.reshape()`时产生实际内存分配，但至少意图（广播而非复制）是明确的，且某些自动求导/内核路径可以将其融合。
 
 如果是为训练（而非服务）编写代码，`repeat_interleave`完全可用——它只是为后续在Eager模式/GQA朴素模式下调用标准`scaled_dot_product_attention`做准备。

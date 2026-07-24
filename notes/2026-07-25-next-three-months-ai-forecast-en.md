@@ -242,7 +242,7 @@ cheap compute
 
 That combination is rare.
 
-## My probability ranking for the next 3 months:
+## My probability ranking for the next 3 months
 
 | Event                                        | Probability |
 | -------------------------------------------- | ----------: |

@@ -52,6 +52,7 @@ RuntimeError: one of the variables needed for gradient computation has been modi
 在 `torch.inference_mode()` 下，这导致硬段错误而非正确的错误提示。
 
 **修复：** 移除了所有 `@torch.compile` 装饰器，涉及文件：
+
 - `layernorm.py` (RMSNorm)
 - `activation.py` (SiluAndMul)
 - `sampler.py` (Sampler)

@@ -44,9 +44,11 @@ So KV head 0 gets duplicated into Q-head slots [0,1,2,3], KV head 1 into [4,5,6,
 **Cost:** this materializes memory — `num_repeats` copies. Real inference engines (vLLM, FlashAttention-2 GQA kernels) avoid this by broadcasting KV heads virtually inside the kernel instead of physically expanding them. `repeat_interleave` here is the naive/reference implementation — fine for correctness checks, bad for a serving hot path.
 
 **Alternative without extra memory** (broadcast via view + expand, no copy until matmul forces it):
+
 ```python
 k_i = k_i.unsqueeze(3).expand(1, kv_len, kv_heads, num_repeats, 128).reshape(1, kv_len, 16, 128)
 ```
+
 Still materializes on `.reshape()` for non-contiguous cases, but at least the intent (broadcast, not repeat) is explicit, and some autograd/kernel paths can fuse it.
 
 If you're writing this for training (not serving), `repeat_interleave` is fine — it's just prepping tensors for a standard `scaled_dot_product_attention` call in eager/GQA-naive mode.

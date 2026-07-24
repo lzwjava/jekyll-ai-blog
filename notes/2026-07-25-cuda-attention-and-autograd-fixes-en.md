@@ -52,6 +52,7 @@ RuntimeError: one of the variables needed for gradient computation has been modi
 With `torch.inference_mode()` this caused a hard segfault instead of a proper error.
 
 **Fix:** Removed all `@torch.compile` decorators from:
+
 - `layernorm.py` (RMSNorm)
 - `activation.py` (SiluAndMul)
 - `sampler.py` (Sampler)
