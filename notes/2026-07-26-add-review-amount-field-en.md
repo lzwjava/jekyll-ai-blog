@@ -28,7 +28,7 @@ Now I have a complete understanding. Here's the analysis for **Requirement #4 �
 ### Pages Currently Displaying Settlement Basic Info (01结算基本信息)
 
 | Page | Mode | Fields currently shown |
-|------|------|----------------------|
+| ------ | ------ | ---------------------- |
 | `projectjiesuandetail.html` (lines 60-120) | Read-only view | 结算编号, 申请日期, 申请人名, 所属单位, 合同编号, 合同名称, 审定前支付, 审定时间, 财局受理委托书时间, 审定报告号, 财局受理委托书编号, **材料调差价**, **评审费用** |
 | `projectjiesuanedit.html` (lines 55-110) | Editable form | Same fields |
 | `projectjiesuanworkflow.html` (lines 65-115) | Workflow edit | Same fields |
@@ -37,6 +37,7 @@ Now I have a complete understanding. Here's the analysis for **Requirement #4 �
 ### Current `ProjectJiesuan.java` Entity
 
 The last fields in the entity are:
+
 ```java
 // 材料调差价 (String)
 public String getMaterial(){ return super.get("material"); }
@@ -78,6 +79,7 @@ public void setReviewamount(Double reviewamount) {
 In each of the 4 pages, add the new field in the last row of the basic info form, alongside the existing "评审费用" field.
 
 **Example for edit pages** (`projectjiesuanedit.html`):
+
 ```html
 <div role="row">
     <div role="control" label="评审费用">
@@ -90,6 +92,7 @@ In each of the 4 pages, add the new field in the last row of the basic info form
 ```
 
 **Example for detail/view pages** (`projectjiesuandetail.html`):
+
 ```html
 <div role="row">
     <div role="control" label="评审费用">
@@ -104,7 +107,7 @@ In each of the 4 pages, add the new field in the last row of the basic info form
 ### 4️⃣ Files to Modify
 
 | # | File | Change |
-|---|------|--------|
+| --- | ------ | -------- |
 | 1 | `domain/jiesuan/ProjectJiesuan.java` | Add `reviewamount` (Double) getter/setter |
 | 2 | Database | `ALTER TABLE PROJECT_JIESUAN ADD reviewamount NUMBER(18,2)` |
 | 3 | `projectjiesuandetail.html` | Add read-only field in 结算基本信息 section |

@@ -12,7 +12,7 @@ type: note
 已完成。以下是 `~/.pi/agent/extensions/note/index.ts` 中的更改：
 
 | 更改 | 详情 |
-|--------|--------|
+| -------- | -------- |
 | **`WwQueueEntry` 接口** | 添加了 `private?: boolean` 字段 |
 | **`enqueue()` 函数** | 添加了 `isPrivate` 参数，传入时设置 `entry.private = true` |
 | **`handleNote()` 函数** | 解析 `--private` 标记，将 `isPrivate` 传递给 `enqueue()` |

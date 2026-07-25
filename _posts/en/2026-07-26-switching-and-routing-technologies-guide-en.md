@@ -9,11 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
 
 Intro to Guangdong Self-Study Exam course **13833 Switching and Routing Technologies (交换与路由技术)**
 
-## Answer:
+## Answer
 
 **13833 交换与路由技术** is a professional core course in the Guangdong Higher Education Self-Study Examination (广东高等教育自学考试), mainly for **计算机应用技术 (Computer Application Technology)**. It is a practical networking course focused on configuring and managing enterprise networks. ([Guangdong Exam Authority][1])
 

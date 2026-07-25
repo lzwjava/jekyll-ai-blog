@@ -26,7 +26,7 @@ I've reviewed the Discord hang analysis you shared. It's thorough and technicall
 ### 🔍 Nuances / Additions
 
 | Point | Your Analysis | My Additions |
-|-------|--------------|--------------|
+| ------- | -------------- | -------------- |
 | **TLS fingerprinting** | Not mentioned | China's DPI (Deep Packet Inspection) can detect and block Discord's TLS handshake even over Cloudflare IPs. A simple curl check might show connectivity, but the full update download may still fail due to SNI-based blocking. |
 | **Squirrel update protocol** | Good overview | Discord uses Squirrel (Windows) / Squirrel.Mac. It checks `RELEASES` file first, then downloads individual `.nupkg` packages. If the `RELEASES` file download fails or returns a stale response, the update hangs silently. |
 | **`Hosts` file interference** | Not mentioned | Users often add Discord IPs to `/etc/hosts` or `C:\Windows\System32\drivers\etc\hosts` for VPN split-tunneling. A stale host entry pointing to an old IP can cause the updater to hang. |
@@ -53,7 +53,7 @@ curl -s --noproxy '*' https://discord.com -o /dev/null -w "Direct: %{http_code}\
 Your analysis aligns well with existing tools in `ww`:
 
 | Existing ww tool | What it covers |
-|---|---|
+| --- | --- |
 | `ww network ip-scan / port-scan` | Network diagnostics layer |
 | `ww clash query-dns` | DNS resolution checks |
 | `ww macos settings-proxy / linux proxy-setup` | Proxy configuration |

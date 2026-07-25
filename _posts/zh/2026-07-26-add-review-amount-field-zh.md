@@ -28,7 +28,7 @@ type: note
 ### 当前显示结算基本信息的页面（01结算基本信息）
 
 | 页面 | 模式 | 当前显示的字段 |
-|------|------|----------------|
+| ------ | ------ | ---------------- |
 | `projectjiesuandetail.html`（第60-120行） | 只读视图 | 结算编号、申请日期、申请人名、所属单位、合同编号、合同名称、审定前支付、审定时间、财局受理委托书时间、审定报告号、财局受理委托书编号、**材料调差价**、**评审费用** |
 | `projectjiesuanedit.html`（第55-110行） | 可编辑表单 | 相同字段 |
 | `projectjiesuanworkflow.html`（第65-115行） | 工作流编辑 | 相同字段 |
@@ -37,6 +37,7 @@ type: note
 ### 当前 `ProjectJiesuan.java` 实体
 
 实体中的最后字段为：
+
 ```java
 // 材料调差价 (String)
 public String getMaterial(){ return super.get("material"); }

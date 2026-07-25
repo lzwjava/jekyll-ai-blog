@@ -26,7 +26,7 @@ type: note
 ### 🔍 细微之处 / 补充
 
 | 要点 | 您的分析 | 我的补充 |
-|-------|--------------|--------------|
+| ------- | -------------- | -------------- |
 | **TLS 指纹识别** | 未提及 | 中国的 DPI（深度包检测）即使通过 Cloudflare IP 也能检测并阻断 Discord 的 TLS 握手。简单的 curl 检查可能显示连接正常，但由于 SNI 层面的封锁，完整的更新下载仍可能失败。 |
 | **Squirrel 更新协议** | 概述良好 | Discord 使用 Squirrel（Windows）/ Squirrel.Mac。它首先检查 `RELEASES` 文件，然后下载各个 `.nupkg` 包。如果 `RELEASES` 文件下载失败或返回过期响应，更新会静默挂起。 |
 | **`Hosts` 文件干扰** | 未提及 | 用户常为 VPN 分流将 Discord IP 添加到 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc\hosts`。指向旧 IP 的过期 hosts 条目会导致更新器挂起。 |
@@ -53,7 +53,7 @@ curl -s --noproxy '*' https://discord.com -o /dev/null -w "Direct: %{http_code}\
 您的分析与 `ww` 中现有工具高度契合：
 
 | 现有 ww 工具 | 覆盖范围 |
-|---|---|
+| --- | --- |
 | `ww network ip-scan / port-scan` | 网络诊断层 |
 | `ww clash query-dns` | DNS 解析检查 |
 | `ww macos settings-proxy / linux proxy-setup` | 代理配置 |
