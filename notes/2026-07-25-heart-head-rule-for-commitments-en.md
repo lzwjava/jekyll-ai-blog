@@ -20,4 +20,5 @@ That's it, roughly — a personal filter he uses for opportunities/meetings, not
 Note this is philosophically the *opposite* pole from "disagree and commit" (Andy Grove/Bezos) — that one says commit even without agreement, once a decision's made org-wide. Andreessen's rule here is about *personal* commitments (what you say yes to), not team execution after a group decision.
 
 References:
+
 - [11 rules that changed how I work (from Marc Andreessen)](https://newsletter.leadersoftoday.com/p/11-rules-that-changed-how-i-work-from-marc-andreessen)

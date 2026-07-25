@@ -20,4 +20,5 @@ type: note
 请注意：这在哲学上与“求同存异，坚决执行”（安迪·格鲁夫/贝索斯）截然相反——后者主张在组织决策后即使不认同也要执行。而安德森的原则针对的是**个人承诺**（你答应做什么），而非团队决策后的执行。
 
 参考资料：
+
 - [改变我工作方式的11条准则（来自马克·安德森）](https://newsletter.leadersoftoday.com/p/11-rules-that-changed-how-i-work-from-marc-andreessen)
