@@ -82,6 +82,7 @@ rocminfo 输出：
 ```
 
 而`rocm-smi`只显示：
+
 ```
 GPU[0]  Node 3  PCI Bus 0000:23:00.0    ← 仅1个设备
 ```
@@ -121,6 +122,7 @@ torch.cuda.get_device_name(0)  # → "AMD Radeon Graphics"
 ### B. udev + 特权容器设置
 
 平台可以使用**设备插件**（用于AMD GPU的Kubernetes设备插件）：
+
 1. 识别要分配给Pod的GPU
 2. 通过容器规范中的`--device`标志在容器的`/dev`中创建设备节点
 3. 设置`ROCR_VISIBLE_DEVICES`或操作KFD的内部可见性掩码
@@ -128,6 +130,7 @@ torch.cuda.get_device_name(0)  # → "AMD Radeon Graphics"
 ### C. AMD GPU分区（MGP / SR-IOV）
 
 较新的ROCm也支持**硬件级别的GPU分区**，单个物理GPU可以分割成多个逻辑分区（类似于MIG）。`rocm-smi`的输出通过以下内容暗示了这一点：
+
 ```
 XCP[0] 到 XCP[7]    ← 此GPU上的8个计算分区
 分区: N/A, N/A, 0

@@ -27,6 +27,7 @@ fab -H root@36.150.116.206:31005 shell -- cmd="ls -la /root/ahl"
 ```
 
 **What it does:**
+
 - **`deploy`** — Rsyncs the local source tree to `/root/ahl` on the remote, excluding `__pycache__`, `.git`, `*.png`, etc., then runs `pip install -e .` using `/opt/venv/bin/pip` (the remote's virtualenv)
 - **`install`** — Alias for deploy
 - **`status`** — Shows deployed version, pip package info, and remote file listing

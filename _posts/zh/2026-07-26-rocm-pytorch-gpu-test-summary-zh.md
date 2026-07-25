@@ -16,7 +16,7 @@ type: note
 ## ✅ PyTorch + ROCm — 测试结果
 
 | 测试项 | 结果 |
-|------|--------|
+| ------ | -------- |
 | `torch.cuda.is_available()` | ✅ **True** |
 | `torch.cuda.device_count()` | ✅ **1**（已分配至本 Pod） |
 | GPU 张量运算（矩阵乘法） | ✅ **正常**（结果 6.25） |

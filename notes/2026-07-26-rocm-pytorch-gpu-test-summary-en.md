@@ -16,7 +16,7 @@ Now I have the full picture. Here's the summary:
 ## ✅ PyTorch + ROCm — Test Results
 
 | Test | Result |
-|------|--------|
+| ------ | -------- |
 | `torch.cuda.is_available()` | ✅ **True** |
 | `torch.cuda.device_count()` | ✅ **1** (allocated to this Pod) |
 | GPU tensor ops (matmul) | ✅ **Working** (6.25 result) |

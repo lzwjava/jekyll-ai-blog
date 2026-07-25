@@ -122,7 +122,7 @@ That's why we had to manually source them from `/proc/1/environ` — the Pod's i
 ### 4. Security Model
 
 | Layer | Mechanism |
-|-------|-----------|
+| ------- | ----------- |
 | **TLS transport** | Mutual TLS between frpc ↔ frps, verified via `ca.crt` |
 | **Authentication** | JWT token signed by Kubernetes API server (service account) |
 | **Identity binding** | Token embeds the Pod name, namespace, and node info — frps verifies the Pod is allowed to expose ports |

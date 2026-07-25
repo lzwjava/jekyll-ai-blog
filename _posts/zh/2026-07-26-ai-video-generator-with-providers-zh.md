@@ -18,13 +18,14 @@ type: note
 ### Provider 系统（`ahl/gen_video/providers/`）
 
 | 文件 | 描述 |
-|---|---|
+| --- | --- |
 | `base.py` | `ImageProvider` 抽象基类 |
 | `factory.py` | `create_provider()` — 按名称创建 provider：`openrouter`、`local`、`auto` |
 | `openrouter_provider.py` | 使用 OpenRouter API（`black-forest-labs/flux.2-pro`）— 保留现有行为，提取为 provider |
 | `local_provider.py` | **新增** — 在本地 AMD GPU 上使用 diffusers 运行 FLUX 推理（`FLUX.1-schnell`、`FLUX.1-dev`、`FLUX.2-dev`） |
 
 ### 前端 UI（嵌入 `server.py` 中）
+
 - 精美的深色主题单页应用
 - **步骤 1**：主题输入框 → 通过 `POST /api/generate-content` 生成 AI markdown 内容
 - **步骤 2**：内容预览，支持编辑/重新生成
@@ -39,7 +40,7 @@ type: note
 ### API 端点
 
 | 端点 | 描述 |
-|---|---|
+| --- | --- |
 | `GET /` | 前端 UI |
 | `POST /api/generate-content` | 通过 LLM 从主题生成 markdown 内容 |
 | `POST /api/generate-video` | 提交视频任务（接受 `provider`、`local_variant`） |
@@ -47,6 +48,7 @@ type: note
 | `GET /api/jobs/{id}/download` | 下载完成的视频 |
 
 ### 启动服务器
+
 ```bash
 ahl server
 # 或在远程：

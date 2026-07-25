@@ -18,13 +18,14 @@ Done! Here's a summary of everything created:
 ### Provider System (`ahl/gen_video/providers/`)
 
 | File | Description |
-|---|---|
+| --- | --- |
 | `base.py` | `ImageProvider` abstract base class |
 | `factory.py` | `create_provider()` — creates providers by name: `openrouter`, `local`, `auto` |
 | `openrouter_provider.py` | Uses OpenRouter API (`black-forest-labs/flux.2-pro`) — existing behavior, extracted to provider |
 | `local_provider.py` | **New** — runs FLUX inference on the local AMD GPU using diffusers (`FLUX.1-schnell`, `FLUX.1-dev`, `FLUX.2-dev`) |
 
 ### Frontend UI (embedded in `server.py`)
+
 - Beautiful dark theme single-page app
 - **Step 1**: Topic input box → generates AI markdown content via `POST /api/generate-content`
 - **Step 2**: Content preview with edit/regenerate
@@ -39,7 +40,7 @@ Done! Here's a summary of everything created:
 ### API Endpoints
 
 | Endpoint | Description |
-|---|---|
+| --- | --- |
 | `GET /` | Frontend UI |
 | `POST /api/generate-content` | Generate markdown from a topic via LLM |
 | `POST /api/generate-video` | Submit video job (accepts `provider`, `local_variant`) |
@@ -47,6 +48,7 @@ Done! Here's a summary of everything created:
 | `GET /api/jobs/{id}/download` | Download completed video |
 
 ### Start the server
+
 ```bash
 ahl server
 # or on remote:

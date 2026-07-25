@@ -18,7 +18,7 @@ Everything is working perfectly! Here's the full summary:
 ### 📋 What was done
 
 | Step | Status |
-|------|--------|
+| ------ | -------- |
 | **Env vars extracted** from `/proc/1/environ` | ✅ Found `FRP_BROKER_URL` & `FRP_BROKER_TLS_SERVER_NAME` |
 | **`rc-tunnel` installed** | ✅ v0.3.0 → `~/.local/bin/rc-tunnel` |
 | **Test page created** | ✅ `~/tunnel-demo/index.html` |
@@ -35,9 +35,11 @@ https://rc-a899e6bb9beab78e.radeon.firstdg.ai
 ### 🔍 Verification
 
 - **Public URL reachable** — both local and remote `curl` return:
+
   ```html
   <!doctype html><title>RC Tunnel</title><h1>RC Tunnel is working</h1>
   ```
+
 - **Status:** `active`, FRPC PID `1140`, proxy logged in and healthy
 - **Server logs** show successful login and proxy startup
 

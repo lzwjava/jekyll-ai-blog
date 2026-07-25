@@ -18,7 +18,7 @@ type: note
 ## 🔍 `torch.compile` 的问题出在哪里
 
 | 方法 | 结果 | 时间 |
-|----------|--------|------|
+| ---------- | -------- | ------ |
 | ❌ `pipe.to('cuda')` — 全部放到 GPU | **OOM**（54 GB > 48 GB 显存） | — |
 | ❌ `enable_model_cpu_offload` — 1024×1024 | **OOM**（transformer + 激活值过大） | — |
 | ✅ `enable_sequential_cpu_offload` — 512×512 | **成功** | **60.3s** |

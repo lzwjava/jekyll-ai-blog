@@ -12,7 +12,7 @@ type: note
 **35 GB** now (was 27 GB). Progress is steady:
 
 | File | Size | Status |
-|------|------|--------|
+| ------ | ------ | -------- |
 | `transformer/...-00001-of-00003` | 9.3 GB | ✅ |
 | `transformer/...-00002-of-00003` | 9.3 GB | ✅ |
 | `transformer/...-00003-of-00003` | 3.7 GB | ✅ |

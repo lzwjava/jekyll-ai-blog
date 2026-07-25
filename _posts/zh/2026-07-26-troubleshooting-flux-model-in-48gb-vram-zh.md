@@ -31,6 +31,7 @@ GPU 0 has a total capacity of 47.98 GiB of which 0 bytes is free.
 **问题：** 即使按模块卸载，**仅 Transformer 部分**（约 20 GB）加上其 **中间激活值**（注意力状态、前馈隐藏层）在 1024×1024 前向传播时会超过 48 GB 总容量。
 
 **修复：** 同时将分辨率从 **1024×1024** 降至 **512×512**。这大幅降低了激活内存：
+
 - 注意力：序列长度为 O(n²) — 1024² → 512² 内存减少 4 倍
 - 潜在通道：成比例缩小
 
@@ -59,7 +60,7 @@ GPU 0 has a total capacity of 47.98 GiB of which 0 bytes is free.
 ### A. 模型体积巨大
 
 | 组件 | 大小（bf16） |
-|-----------|------------|
+| ----------- | ------------ |
 | Transformer（DoubleStreamBlock） | ~20 GB |
 | T5 文本编码器 | ~9 GB |
 | CLIP 文本编码器 | ~2 GB |
@@ -71,6 +72,7 @@ GPU 0 has a total capacity of 47.98 GiB of which 0 bytes is free.
 ### B. FLUX 架构极其消耗内存
 
 FLUX 采用 **DoubleStreamBlock** 架构，文本和图像特征在整个 Transformer 中持续交互。这意味着：
+
 - 每个去噪步骤都必须加载完整的 Transformer
 - 对 4096+ token 序列的注意力计算是 O(n²) 内存
 - 没有像 Stable Diffusion 那样的交叉注意力分离（后者可以交换文本编码器）
@@ -85,6 +87,7 @@ FLUX 采用 **DoubleStreamBlock** 架构，文本和图像特征在整个 Transf
 ### D. CPU 卸载导致速度变慢
 
 使用顺序卸载时，每一步都需要：
+
 1. 将 Transformer 权重 **CPU → GPU**（PCIe 瓶颈）
 2. 运行前向传播
 3. 将结果 **GPU → CPU**
@@ -102,6 +105,7 @@ FLUX 采用 **DoubleStreamBlock** 架构，文本和图像特征在整个 Transf
 ```
 
 如果你希望 **更快生成**，我们可以：
+
 1. 安装 `bitsandbytes` 进行 8-bit/4-bit 量化（腾出更多显存）
 2. 使用 `torch.compile` 融合操作
 3. 禁用 APEX aiter 后端（`USE_ROCM_AITER_ROPE_BACKEND=0`）以避免慢路径

@@ -18,7 +18,7 @@ type: note
 ### 📋 已完成操作
 
 | 步骤 | 状态 |
-|------|------|
+| ------ | ------ |
 | **从 `/proc/1/environ` 提取环境变量** | ✅ 找到 `FRP_BROKER_URL` 和 `FRP_BROKER_TLS_SERVER_NAME` |
 | **安装 `rc-tunnel`** | ✅ v0.3.0 → `~/.local/bin/rc-tunnel` |
 | **创建测试页面** | ✅ `~/tunnel-demo/index.html` |
@@ -35,9 +35,11 @@ https://rc-a899e6bb9beab78e.radeon.firstdg.ai
 ### 🔍 验证
 
 - **公网 URL 可访问** — 本地和远程 `curl` 均返回：
+
   ```html
   <!doctype html><title>RC Tunnel</title><h1>RC Tunnel is working</h1>
   ```
+
 - **状态：** `active`，FRPC PID `1140`，代理已登录且健康
 - **服务器日志** 显示登录成功及代理启动
 

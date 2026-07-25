@@ -14,7 +14,7 @@ type: note
 以下是已下载的内容：
 
 | 文件 | 大小 | 状态 |
-|------|------|--------|
+| ------ | ------ | -------- |
 | `ae.safetensors` | 320 MB | ✅ |
 | `text_encoder/model.safetensors` | 235 MB | ✅ |
 | `text_encoder_2/model-00001-of-00002` | 4.7 GB | ✅ |

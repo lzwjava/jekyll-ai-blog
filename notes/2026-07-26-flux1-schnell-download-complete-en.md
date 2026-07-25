@@ -14,7 +14,7 @@ type: note
 **FLUX.1-schnell** is fully downloaded! Here's the final state:
 
 | File | Size | Status |
-|------|------|--------|
+| ------ | ------ | -------- |
 | `flux1-schnell.safetensors` | **23 GB** | ✅ |
 | `transformer/...00001` | 9.3 GB | ✅ |
 | `transformer/...00002` | 9.3 GB | ✅ |

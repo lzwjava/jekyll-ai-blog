@@ -82,6 +82,7 @@ rocminfo output:
 ```
 
 And `rocm-smi` shows only:
+
 ```
 GPU[0]  Node 3  PCI Bus 0000:23:00.0    ← only 1 device
 ```
@@ -121,6 +122,7 @@ Any syscall to open `/dev/dri/renderD128` (minor 128) gets **EPERM** — "Operat
 ### B. udev + privileged container setup
 
 The platform could use a **device plugin** (Kubernetes device plugin for AMD GPU) that:
+
 1. Identifies which GPU(s) to assign to the Pod
 2. Creates the device nodes in the container's `/dev` via `--device` flags in the container spec
 3. Sets `ROCR_VISIBLE_DEVICES` or manipulates KFD's internal visibility mask
@@ -128,6 +130,7 @@ The platform could use a **device plugin** (Kubernetes device plugin for AMD GPU
 ### C. AMD GPU Partitioning (MGP / SR-IOV)
 
 Newer ROCm also supports **GPU partitioning at the hardware level** where a single physical GPU can be split into multiple logical partitions (MIG-like). The `rocm-smi` output hints at this with:
+
 ```
 XCP[0] through XCP[7]    ← 8 compute partitions on this GPU
 Partitions: N/A, N/A, 0

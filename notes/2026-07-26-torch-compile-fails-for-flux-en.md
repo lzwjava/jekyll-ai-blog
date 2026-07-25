@@ -18,7 +18,7 @@ Here's the summary of what happened and what we learned:
 ## 🔍 What went wrong with `torch.compile`
 
 | Approach | Result | Time |
-|----------|--------|------|
+| ---------- | -------- | ------ |
 | ❌ `pipe.to('cuda')` — all to GPU | **OOM** (54 GB > 48 GB VRAM) | — |
 | ❌ `enable_model_cpu_offload` — 1024×1024 | **OOM** (transformer + activations too big) | — |
 | ✅ `enable_sequential_cpu_offload` — 512×512 | **Works** | **60.3s** |

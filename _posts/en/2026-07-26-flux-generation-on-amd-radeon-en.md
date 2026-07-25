@@ -32,6 +32,7 @@ ahl gen "abstract art" --output my_art.png
 ```
 
 **`infer_flux.py`** — standalone script with same functionality:
+
 ```bash
 python3 infer_flux.py "a serene mountain landscape" --download
 ```
@@ -39,7 +40,7 @@ python3 infer_flux.py "a serene mountain landscape" --download
 ### Performance on AMD Radeon 48 GB
 
 | Steps | Resolution | Time |
-|-------|-----------|------|
+| ------- | ----------- | ------ |
 | 2 | 1024×1024 | **26.2s** |
 | 4 | 1024×1024 | **33.5s** |
 | Max VRAM | — | **6.43 GB** (well within 48 GB) |

@@ -14,7 +14,7 @@ type: note
 **FLUX.1-schnell** 已完全下载！以下是最终状态：
 
 | 文件 | 大小 | 状态 |
-|------|------|--------|
+| ------ | ------ | -------- |
 | `flux1-schnell.safetensors` | **23 GB** | ✅ |
 | `transformer/...00001` | 9.3 GB | ✅ |
 | `transformer/...00002` | 9.3 GB | ✅ |

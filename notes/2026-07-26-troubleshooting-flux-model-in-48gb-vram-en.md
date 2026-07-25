@@ -31,6 +31,7 @@ GPU 0 has a total capacity of 47.98 GiB of which 0 bytes is free.
 **Problem:** Even with per-module offloading, the **transformer alone** (~20 GB) + its **intermediate activations** (attention states, feed-forward hidden layers) during a 1024×1024 forward pass exceeds 48 GB total.
 
 **Fix:** Also lowered resolution from **1024×1024 → 512×512**. This dramatically reduces activation memory:
+
 - Attention: O(n²) in sequence length — 1024² → 512² is 4× less memory
 - Latent channels: proportionally smaller
 
@@ -59,7 +60,7 @@ GPU 0 has a total capacity of 47.98 GiB of which 0 bytes is free.
 ### A. Model is enormous
 
 | Component | Size (bf16) |
-|-----------|------------|
+| ----------- | ------------ |
 | Transformer (DoubleStreamBlock) | ~20 GB |
 | T5 text encoder | ~9 GB |
 | CLIP text encoder | ~2 GB |
@@ -71,6 +72,7 @@ You can't just load and run — you need **CPU offloading** or **quantization** 
 ### B. FLUX's architecture is memory-hungry
 
 FLUX uses a **DoubleStreamBlock** architecture where text and image features interact throughout the entire transformer. This means:
+
 - The full transformer must be loaded for every denoising step
 - Attention over 4096+ token sequences is O(n²) memory
 - No cross-attention separation like Stable Diffusion (which could swap text encoder out)
@@ -85,6 +87,7 @@ FLUX uses a **DoubleStreamBlock** architecture where text and image features int
 ### D. CPU offloading makes it slow
 
 With sequential offload, each step requires:
+
 1. Move transformer weights **CPU → GPU** (PCIe bottleneck)
 2. Run forward pass
 3. Move results **GPU → CPU**
@@ -102,6 +105,7 @@ Prompt: "A cute cat sitting on a desk, digital art style"
 ```
 
 If you want **faster generation**, we could:
+
 1. Install `bitsandbytes` for 8-bit/4-bit quantization (fits more in VRAM)
 2. Use `torch.compile` to fuse operations
 3. Disable APEX aiter backend (`USE_ROCM_AITER_ROPE_BACKEND=0`) to avoid the slow path

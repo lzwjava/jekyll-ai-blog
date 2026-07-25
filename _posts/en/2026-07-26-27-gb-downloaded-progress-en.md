@@ -14,7 +14,7 @@ Download is progressing well! **27 GB done so far** ✅
 Here's what's been downloaded:
 
 | File | Size | Status |
-|------|------|--------|
+| ------ | ------ | -------- |
 | `ae.safetensors` | 320 MB | ✅ |
 | `text_encoder/model.safetensors` | 235 MB | ✅ |
 | `text_encoder_2/model-00001-of-00002` | 4.7 GB | ✅ |
