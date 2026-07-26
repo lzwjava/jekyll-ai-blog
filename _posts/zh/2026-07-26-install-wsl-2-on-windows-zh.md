@@ -13,8 +13,8 @@ type: note
 
 ### 选项 1：一键安装（推荐）
 
-1.  以**管理员**身份打开 **PowerShell** 或**命令提示符**。
-2.  运行：
+1. 以**管理员**身份打开 **PowerShell** 或**命令提示符**。
+2. 运行：
 
 ```powershell
 wsl --install
@@ -22,11 +22,11 @@ wsl --install
 
 此命令将：
 
-*   启用 WSL
-*   安装 WSL 2
-*   下载 Linux 内核
-*   安装 Ubuntu（默认）
-*   自动配置所有内容
+* 启用 WSL
+* 安装 WSL 2
+* 下载 Linux 内核
+* 安装 Ubuntu（默认）
+* 自动配置所有内容
 
 如果系统提示，请重启计算机。（[Microsoft Learn][1]）
 
@@ -95,8 +95,8 @@ wsl --set-version Ubuntu 2
 
 WSL 2 要求：
 
-*   Windows 11，或者
-*   Windows 10 版本 1903 或更高版本（包含所需的内部版本更新）。（[Microsoft Learn][2]）
+* Windows 11，或者
+* Windows 10 版本 1903 或更高版本（包含所需的内部版本更新）。（[Microsoft Learn][2]）
 
 ---
 
@@ -108,8 +108,8 @@ WSL 2 要求：
 
 如果你告诉我：
 
-*   你的 **Windows 版本**（Windows 10 或 11），以及
-*   `winver` 的输出
+* 你的 **Windows 版本**（Windows 10 或 11），以及
+* `winver` 的输出
 
 我可以提供针对你系统的具体说明。
 

@@ -27,7 +27,7 @@ Start menu → Shut down
 
 Windows will normally finish or pause safely.
 
-### 2. If the screen says:
+### 2. If the screen says
 
 ```
 Windows 更新正在进行中
