@@ -18,7 +18,7 @@ Base64 负载解码后得到：
 ```
 
 | 字段 | 值 |
-|-------|-------|
+| ------- | ------- |
 | SSO 网关 | `xxx.xxx.x.xx` |
 | 网关端口 | `12025` |
 | 协议 | **RDP**（远程桌面 / mstsc） |
@@ -40,6 +40,7 @@ Base64 负载解码后得到：
 **创建的 `.reg` 文件位于：** `C:\Program Files\IsompSSO\register_isomp.reg`
 
 **已添加的注册表项：**
+
 - `HKCR\isomp` → `URL:IsompSSO Protocol`
 - `HKCR\isomp\shell\open\command` → `"C:\Program Files\IsompSSO\sso.exe" "%1"`
 
@@ -62,6 +63,7 @@ Base64 负载解码后得到：
 ## ✅ 结果
 
 注册协议后，`sso.exe` 成功：
+
 1. 接收到 `isomp://` URL
 2. 解码了 base64 负载
 3. 使用会话 UUID 通过 SSO 网关进行认证

@@ -22,7 +22,7 @@ The base64 payload decoded to:
 ```
 
 | Field | Value |
-|-------|-------|
+| ------- | ------- |
 | SSO Gateway | `xxx.xxx.x.xx` |
 | Gateway Port | `12025` |
 | Protocol | **RDP** (Remote Desktop / mstsc) |
@@ -44,6 +44,7 @@ Registered the `isomp://` protocol in Windows Registry:
 **`.reg` file created at:** `C:\Program Files\IsompSSO\register_isomp.reg`
 
 **Registry keys added:**
+
 - `HKCR\isomp` → `URL:IsompSSO Protocol`
 - `HKCR\isomp\shell\open\command` → `"C:\Program Files\IsompSSO\sso.exe" "%1"`
 
@@ -66,6 +67,7 @@ This allows the credentials dialog to appear if automatic authentication fails.
 ## ✅ Result
 
 After registering the protocol, `sso.exe` successfully:
+
 1. Received the `isomp://` URL
 2. Decoded the base64 payload
 3. Authenticated through the SSO gateway using the session UUID
