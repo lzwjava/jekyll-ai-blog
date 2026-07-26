@@ -22,4 +22,5 @@ If Next now proceeds without the "unrecognized type / offline" error, you're cle
 One thing to check: your photo showed **two disks**, each with two partitions (Disk 0 and Disk 1). If Disk 1 also has leftover Mint partitions (e.g. a separate `/home` partition or swap), and you plan to install Windows fresh with no dual-boot, you may want to delete those too now to avoid leftover Linux partitions cluttering Disk Management later. If you want to keep Mint on Disk 1 for dual-boot, leave it alone — Windows Setup won't touch other disks unless you select them.
 
 References:
+
 - [Windows Setup - create and format hard disk partitions](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions)

@@ -18,19 +18,20 @@ type: note
 ### 当前状态
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | **USB 设备** | `/dev/sdb`（14.6G） |
 | **ISO** | `~/Downloads/Win11_25H2_English_x64_v2.iso`（7.9G） |
 | **Ventoy** | `/tmp/ventoy-1.1.17/`（已解压） |
 | **USB 分区** | 已卸载 ✅ |
 
 ### ⚠️ 这将擦除 `/dev/sdb` 上的所有内容
+
 当前的 EFI/WIN11 分区将被销毁。
 
 ### 步骤（按顺序）
 
 | 步骤 | 命令 |
-|---|---|
+| --- | --- |
 | **1. 安装 Ventoy** | `sudo /tmp/ventoy-1.1.17/Ventoy2Disk.sh -i /dev/sdb` |
 | **2. 确认** | 当提示时输入 `y` |
 | **3. 等待完成** | 约 10 秒 |
@@ -45,7 +46,8 @@ type: note
 - ✅ **持久化** — 支持为 Linux ISO 提供持久存储
 - ✅ **Legacy + UEFI** — 同时兼容两种 BIOS 模式
 
-### 特别针对联想小新：
+### 特别针对联想小新
+
 从 USB 启动后 → Ventoy 菜单 → 选择 ISO → 如果安装程序未检测到 SSD，请在磁盘选择界面 **加载 Intel RST/VMD 驱动**。
 
 ---

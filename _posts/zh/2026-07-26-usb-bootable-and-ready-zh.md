@@ -20,7 +20,7 @@ type: note
 ### 总结
 
 | 问题 | 回答 |
-|---|---|
+| --- | --- |
 | **USB 是否已 bootable？** | ✅ **是** — 已通过手动 FAT32 + wimsplit 准备完成 |
 | **是否需要使用其他工具重新 flash？** | ❌ **不需要** — 它已经是正确的 |
 | **改用 Ventoy？** | 仅当当前 USB 在您的 Lenovo Xiaoxin 上 boot 失败时 |

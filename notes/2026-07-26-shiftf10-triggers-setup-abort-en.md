@@ -27,6 +27,7 @@ This almost certainly happened because you pressed **Shift+F10 while the install
 Fix: just run Setup again, and this time **don't press any keys once it hits the "Installing Windows" progress screen** — let it run completely uninterrupted through all reboots until you reach OOBE (region/account setup). If you need to check something mid-install in the future, don't touch the keyboard during the copying/progress phase at all.
 
 Go back to:
+
 1. Boot USB installer
 2. Select Disk 0 unallocated → Next
 3. Let it run fully, hands off, until it finishes.

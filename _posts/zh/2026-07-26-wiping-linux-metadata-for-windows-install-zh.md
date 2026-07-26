@@ -39,5 +39,6 @@ exit
 如果你**确实想**在这块磁盘上保留Mint（双系统）而非全部清除，请告诉我，我会提供保留LVM的版本——那是不同的非破坏性路径（仅删除/重建Windows目标分区，保留Mint的LVM物理卷不受影响）。
 
 参考：
+
 - [Diskpart 命令参考 - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)
 - [Windows安装程序"无法识别的分区"故障排除](https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/windows-setup-installation-issues)

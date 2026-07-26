@@ -14,7 +14,7 @@ type: note
 ### 最终 USB 布局
 
 | 分区 | 大小 | 文件系统 | 标签 | 内容 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `/dev/sdb1` | 14.6G | exFAT | **Ventoy** | `Win11_25H2_English_x64_v2.iso` (7.9G) |
 | `/dev/sdb2` | 32M | vfat | **VTOYEFI** | Ventoy EFI 引导加载器 |
 

@@ -19,6 +19,7 @@ That "Partition 0" is almost certainly the **EFI System Partition (ESP)** that M
 - Simpler and more reliable: delete every partition on Disk 0, leave it 100% unallocated, then let Setup auto-create fresh Recovery + EFI + MSR + Windows partitions in one shot.
 
 Steps:
+
 1. Select **Disk 0 Partition 0**, click **Delete Partition**, confirm.
 2. Repeat for any other remaining partition on Disk 0 until it's all unallocated.
 3. Select the unallocated space → **Next** (don't manually create partitions).
@@ -26,4 +27,5 @@ Steps:
 Don't touch **Disk 1** unless you're also wiping that drive — leave it as-is if it's a second drive you want to keep data on or dual-boot from later.
 
 References:
+
 - [UEFI/GPT-based hard drive partitions - Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions)

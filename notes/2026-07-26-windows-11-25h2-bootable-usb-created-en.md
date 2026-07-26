@@ -12,12 +12,13 @@ type: note
 ## Summary — Windows 11 25H2 Bootable USB Created ✅
 
 ### The Problem
+
 `Win11_25H2_English_x64_v2.iso` is a **DVD image** (ISO9660), not a raw disk image. Etcher expects a partition table inside the image (like Ubuntu ISOs), so it errors with *"missing partition table"*. Even if you bypass it, the 7.1 GB `install.wim` exceeds FAT32's 4 GB file limit — the USB won't boot.
 
 ### What We Did
 
 | # | Action | Command / Tool |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **Analyzed** the ISO and USB | `diskutil list`, `hdiutil imageinfo`, verified `install.wim` is 7.1 GB |
 | 2 | **Formatted** the 15.7 GB USB as FAT32 with GPT | `diskutil eraseDisk MS-DOS WIN11 GPT /dev/disk13` |
 | 3 | **Copied** all files from ISO to USB (excluding `install.wim`) | `rsync -av --exclude='sources/install.wim'` |

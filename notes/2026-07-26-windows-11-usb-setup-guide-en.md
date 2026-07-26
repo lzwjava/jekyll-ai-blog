@@ -38,6 +38,7 @@ This produces a **UEFI-bootable** USB that Windows Setup recognizes natively. Th
 ## Alternative (if you have a Windows machine)
 
 **Rufus** — simplest option:
+
 - Select ISO → pick **GPT + UEFI (non-CSM)** → click Start
 - Handles the `install.wim` size issue automatically
 

@@ -38,6 +38,7 @@ diskutil eject /dev/disk13
 ## 备选方案（如有Windows电脑）
 
 **Rufus** — 最简便的选择：
+
 - 选择ISO → 勾选 **GPT + UEFI（非CSM）** → 点击开始
 - 自动处理`install.wim`大小问题
 

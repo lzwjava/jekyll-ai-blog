@@ -23,6 +23,7 @@ Reboot into BIOS (`F2` or `Novo button` on Xiaoxin), find **Boot Mode / UEFI/Leg
 That "200MB System + 14.5GB Primary: WIN11" is leftover from install attempt(s) landing on the wrong disk — 14.5GB is **too small for Windows 11** (needs 20GB+ minimum, realistically 64GB+). This is likely your Xiaoxin's eMMC/cache storage, not the main SSD. Ignore/don't touch it as install target — your real target is Disk 0 (the 476GB one).
 
 **Steps to redo cleanly:**
+
 1. Enter BIOS → set **UEFI boot mode**, disable CSM/Legacy → save & reboot back into Setup.
 2. On Disk 0: select **Partition 1 (MSR)** → Delete. Select **Partition 2 (476.9GB Primary)** → Delete. Now Disk 0 = fully unallocated.
 3. Select the unallocated space on Disk 0 → **Next** (let Setup auto-create all 4 partitions this time — you should now see EFI System Partition appear).

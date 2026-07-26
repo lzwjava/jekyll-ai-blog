@@ -14,7 +14,7 @@ type: note
 ### Final USB Layout
 
 | Partition | Size | Filesystem | Label | Content |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `/dev/sdb1` | 14.6G | exFAT | **Ventoy** | `Win11_25H2_English_x64_v2.iso` (7.9G) |
 | `/dev/sdb2` | 32M | vfat | **VTOYEFI** | Ventoy EFI bootloader |
 

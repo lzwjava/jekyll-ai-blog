@@ -18,19 +18,20 @@ Everything is ready. Here's the full step-by-step plan:
 ### Current State
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | **USB device** | `/dev/sdb` (14.6G) |
 | **ISO** | `~/Downloads/Win11_25H2_English_x64_v2.iso` (7.9G) |
 | **Ventoy** | `/tmp/ventoy-1.1.17/` (extracted) |
 | **USB partitions** | Unmounted ✅ |
 
 ### ⚠️ This will erase everything on `/dev/sdb`
+
 The current EFI/WIN11 partitions will be destroyed.
 
 ### Steps (in order)
 
 | Step | Command |
-|---|---|
+| --- | --- |
 | **1. Install Ventoy** | `sudo /tmp/ventoy-1.1.17/Ventoy2Disk.sh -i /dev/sdb` |
 | **2. Confirm** | Type `y` when prompted |
 | **3. Wait for completion** | ~10 seconds |
@@ -45,7 +46,8 @@ The current EFI/WIN11 partitions will be destroyed.
 - ✅ **Persistence** — supports persistent storage for Linux ISOs
 - ✅ **Legacy + UEFI** — works with both BIOS modes
 
-### For Lenovo Xiaoxin specifically:
+### For Lenovo Xiaoxin specifically
+
 After booting from USB → Ventoy menu → select the ISO → if installer doesn't see the SSD, **load Intel RST/VMD driver** during disk selection screen.
 
 ---

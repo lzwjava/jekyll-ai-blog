@@ -12,11 +12,13 @@ type: note
 ## Plan — Ventoy + Flash Windows ISO
 
 ### ISO Found
+
 ```
 /home/lzw/Downloads/Win11_25H2_English_x64_v2.iso   (7.9G)
 ```
 
 ### USB Target
+
 ```
 /dev/sdb  (14.6G USB)  ← currently has old Windows installer
 ```
@@ -28,7 +30,7 @@ Installing Ventoy to `/dev/sdb` will **erase everything** on it — the current 
 ### Step-by-Step
 
 | Step | Action | Command |
-|---|---|---|
+| --- | --- | --- |
 | **1** | Download Ventoy | `wget https://github.com/ventoy/Ventoy/releases/latest/download/ventoy-1.1.05-linux.tar.gz` |
 | **2** | Extract | `tar xzf ventoy-*.tar.gz && cd ventoy-*` |
 | **3** | Confirm USB is `/dev/sdb` | `lsblk` |

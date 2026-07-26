@@ -16,7 +16,7 @@ To recap what was done:
 ### This Session
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | **USB** | New USB (`/dev/sdb`, model: YGS, 14.6G) |
 | **ISO** | `Win10_22H2_English_x64v1.iso` (5.8G) from `~/Downloads/` |
 | **Tool** | Ventoy v1.1.17 installed |

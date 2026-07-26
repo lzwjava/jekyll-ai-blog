@@ -16,7 +16,7 @@ type: note
 First, I scanned the system to understand what we were working with:
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | **USB device** | `/dev/sdb` — 14.6G USB disk detected |
 | **Existing partitions** | `/dev/sdb1` (200M, VFAT, EFI) + `/dev/sdb2` (14.5G, VFAT, WIN11) |
 | **Existing content** | A Windows 11 installer was **already present** — made via manual FAT32 + `wimsplit` (Method 3) |
@@ -35,7 +35,7 @@ The existing USB was already bootable (EFI partition + split `install.swm` files
 ### 3. Steps Executed
 
 | Step | What I Did | Command |
-|---|---|---|
+| --- | --- | --- |
 | **A** | Downloaded Ventoy v1.1.17 | `wget https://github.com/ventoy/Ventoy/releases/download/v1.1.17/ventoy-1.1.17-linux.tar.gz` |
 | **B** | Extracted the tarball | `tar xzf ventoy-1.1.17-linux.tar.gz` |
 | **C** | Unmounted old USB partitions | `sudo umount /dev/sdb1 /dev/sdb2` |
@@ -59,7 +59,7 @@ During step D, Ventoy:
 ### 5. Final USB Layout
 
 | Partition | Size | Filesystem | Label | Role |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `/dev/sdb1` | 14.6G | **exFAT** | `Ventoy` | ISO storage (holds `Win11_25H2_English_x64_v2.iso` at 7.9G) |
 | `/dev/sdb2` | 32M | **vfat** | `VTOYEFI` | EFI bootloader |
 

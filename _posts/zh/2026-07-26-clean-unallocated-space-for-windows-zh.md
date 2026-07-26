@@ -22,4 +22,5 @@ type: note
 需要注意：你的照片显示**两块磁盘**（磁盘0和磁盘1），每块各有两个分区。如果磁盘1上也有残留的Mint分区（例如独立的`/home`分区或交换分区），并且你计划全新安装Windows而不使用双系统，建议现在也将这些分区删除，避免日后在磁盘管理中留下多余的Linux分区。如果你想保留磁盘1上的Mint以使用双系统，则无需操作——Windows安装程序不会触碰未选中的其他磁盘。
 
 参考文档：
+
 - [Windows安装程序——创建和格式化硬盘分区](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions)

@@ -27,10 +27,10 @@ Install **Windows 10 English 64-bit**.
 
 Your Lenovo Xiaoxin 14 almost certainly has an **Intel/AMD 64-bit CPU** (Core i5/i7, Ryzen, etc.). Modern laptops are all **x86-64**, so:
 
-| Version             | Use? | Reason                                          |
+| Version | Use? | Reason |
 | ------------------- | ---- | ----------------------------------------------- |
-| Windows 10 64-bit ✅ | Yes  | Supports full RAM, modern drivers, UEFI boot    |
-| Windows 10 32-bit ❌ | No   | Limited to ~4GB RAM, fewer drivers, legacy only |
+| Windows 10 64-bit ✅ | Yes | Supports full RAM, modern drivers, UEFI boot |
+| Windows 10 32-bit ❌ | No | Limited to ~4GB RAM, fewer drivers, legacy only |
 
 For your case (Windows 11 installation problems on Lenovo Xiaoxin 14), Windows 10 64-bit is also the correct diagnostic choice:
 

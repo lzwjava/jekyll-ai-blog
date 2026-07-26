@@ -20,7 +20,7 @@ type: note
 ### Summary
 
 | Question | Answer |
-|---|---|
+| --- | --- |
 | **Is the USB already bootable?** | ✅ **Yes** — already prepared via manual FAT32 + wimsplit |
 | **Should we flash again with another tool?** | ❌ **No need** — it's already correct |
 | **Use Ventoy instead?** | Only if the current USB fails to boot on your Lenovo Xiaoxin |

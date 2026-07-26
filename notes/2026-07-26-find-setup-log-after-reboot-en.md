@@ -19,12 +19,15 @@ notepad C:\$WINDOWS.~BT\Sources\Panther\setupact.log
 ```
 
 If that path doesn't exist, try:
+
 ```cmd
 dir C:\$WINDOWS.~BT\Sources\Panther\
 ```
+
 to see what log files actually got written, then open whichever `setup*.log` is there.
 
 If `C:\$WINDOWS.~BT` doesn't exist at all (meaning Setup failed before it even got that far this time), just check what's on C: currently:
+
 ```cmd
 dir C:\
 ```

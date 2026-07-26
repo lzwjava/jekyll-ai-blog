@@ -19,6 +19,7 @@ Since it failed again with the **exact same `0xC19001F4` trigger**, this is prob
 2. **A physical trigger you're not noticing** — some Lenovo laptops have a **Novo button** or **OneKey Recovery** combo that can register a press from vibration/bag pressure if it's exposed, or a stray touch on a touchscreen if this model has one.
 
 **Do this next, skip more log-reading:**
+
 1. Re-download the Windows 11 ISO fresh from Microsoft (don't reuse the current one).
 2. Re-flash a **different USB stick** if you have one — use Rufus, GPT + UEFI target.
 3. During the whole install, **don't touch the keyboard, trackpad, or touchscreen at all** once "Installing Windows" progress starts — hands off completely until OOBE.

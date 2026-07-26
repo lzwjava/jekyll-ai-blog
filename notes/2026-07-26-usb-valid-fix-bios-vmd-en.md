@@ -16,7 +16,7 @@ Good news — **your USB is already correctly made**. Here's what I found:
 ### ✅ USB is Valid (`/dev/disk12` — 15.7 GB)
 
 | Required File | Status | Size |
-|---|---|---|
+| --- | --- | --- |
 | `sources/boot.wim` | ✅ **Present** | 586 MB |
 | `sources/install.wim` | ❌ Missing (expected — >4GB) | 7.1 GB original |
 | `sources/install.swm` | ✅ **Present** | 3.2 GB (part 1) |
@@ -33,6 +33,7 @@ Since the USB is fine, **re-flashing it won't fix the `0xC19001F4` error**. The 
 > **Intel VMD Controller** or **Intel RST** is enabled in BIOS
 
 When VMD is on:
+
 1. Windows PE can see the NVMe (Setup starts copying files)
 2. After first reboot, Windows tries to boot from NVMe using in-box `stornvme.sys`
 3. That driver can't talk through the VMD controller → drive disappears
@@ -43,7 +44,7 @@ When VMD is on:
 Before anything else, reboot the Xiaoxin → press **`F2`** → look for:
 
 | Setting to find | Change to |
-|---|---|
+| --- | --- |
 | **Intel VMD Controller** | **Disabled** |
 | **Intel RST / Optane** | **AHCI** |
 | **SATA Mode** | **AHCI** (not RST/Optane) |

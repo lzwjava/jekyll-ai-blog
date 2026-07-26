@@ -19,12 +19,15 @@ notepad C:\$WINDOWS.~BT\Sources\Panther\setupact.log
 ```
 
 如果该路径不存在，请尝试：
+
 ```cmd
 dir C:\$WINDOWS.~BT\Sources\Panther\
 ```
+
 查看实际写入的日志文件，然后打开其中存在的 `setup*.log` 文件。
 
 如果 `C:\$WINDOWS.~BT` 完全不存在（意味着安装程序本次甚至还没进行到这一步就失败了），直接检查当前 C 盘的内容：
+
 ```cmd
 dir C:\
 ```

@@ -39,5 +39,6 @@ If this Lenovo Xiaoxin has **dual storage** (NVMe + eMMC, common on the Xiaoxin 
 If you *do* want to keep Mint on this disk (dual boot) instead of wiping, tell me and I'll give you the LVM-preserving version — that's a different, non-destructive path (delete/recreate only the Windows target partition, leave Mint's LVM PVs untouched).
 
 References:
+
 - [Diskpart command reference - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)
 - [Windows Setup "unrecognized partition" troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/windows-setup-installation-issues)

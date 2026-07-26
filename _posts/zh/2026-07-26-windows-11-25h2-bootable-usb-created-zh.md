@@ -12,12 +12,13 @@ type: note
 ## 摘要 — Windows 11 25H2 可启动 USB 已创建 ✅
 
 ### 问题
+
 `Win11_25H2_English_x64_v2.iso` 是一个 **DVD 镜像**（ISO9660），而非原始磁盘镜像。Etcher 期望镜像中包含分区表（如 Ubuntu ISO 那样），因此会报错 *"missing partition table"*。即使绕过此问题，7.1 GB 的 `install.wim` 也超出了 FAT32 的 4 GB 文件大小限制——USB 将无法启动。
 
 ### 我们的操作
 
 | # | 操作 | 命令/工具 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **分析** ISO 和 USB | `diskutil list`、`hdiutil imageinfo`，确认 `install.wim` 为 7.1 GB |
 | 2 | **格式化** 15.7 GB 的 USB 为 FAT32 + GPT | `diskutil eraseDisk MS-DOS WIN11 GPT /dev/disk13` |
 | 3 | **复制** ISO 中除 `install.wim` 外的所有文件到 USB | `rsync -av --exclude='sources/install.wim'` |

@@ -16,7 +16,7 @@ type: note
 首先，我扫描了系统以了解当前状态：
 
 | 检查项 | 结果 |
-|---|---|
+| --- | --- |
 | **U 盘设备** | `/dev/sdb` — 检测到 14.6G USB 磁盘 |
 | **现有分区** | `/dev/sdb1`（200M，VFAT，EFI）+ `/dev/sdb2`（14.5G，VFAT，WIN11） |
 | **现有内容** | 已存在 Windows 11 安装程序 — 通过手动 FAT32 + `wimsplit`（方法 3）制作 |
@@ -35,7 +35,7 @@ type: note
 ### 3. 执行步骤
 
 | 步骤 | 操作内容 | 命令 |
-|---|---|---|
+| --- | --- | --- |
 | **A** | 下载 Ventoy v1.1.17 | `wget https://github.com/ventoy/Ventoy/releases/download/v1.1.17/ventoy-1.1.17-linux.tar.gz` |
 | **B** | 解压压缩包 | `tar xzf ventoy-1.1.17-linux.tar.gz` |
 | **C** | 卸载旧 U 盘分区 | `sudo umount /dev/sdb1 /dev/sdb2` |
@@ -59,7 +59,7 @@ type: note
 ### 5. 最终 U 盘布局
 
 | 分区 | 大小 | 文件系统 | 卷标 | 作用 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `/dev/sdb1` | 14.6G | **exFAT** | `Ventoy` | ISO 存储（存放 `Win11_25H2_English_x64_v2.iso`，占用 7.9G） |
 | `/dev/sdb2` | 32M | **vfat** | `VTOYEFI` | EFI 启动加载器 |
 

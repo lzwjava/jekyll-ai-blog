@@ -19,6 +19,7 @@ Answer: "Installation failed" alone isn't enough to pinpoint the cause — Setup
 - **Stuck/fails right after first automatic reboot** → BIOS boot order still pointing to USB instead of the new Windows partition on the internal disk — go into BIOS and set the NVMe/SSD as first boot device (or remove USB and it should proceed).
 
 Can you tell me:
+
 1. The exact error message/code (photo helps if you have one)
 2. At what point it failed — during file copy, or after a reboot
 

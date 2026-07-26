@@ -33,6 +33,7 @@ type: note
 > **"Intel VMD Controller"** 或 **"Intel RST with Optane"** ——通常默认为**启用**
 
 当VMD启用时：
+
 1. Windows安装程序在WinPE阶段*可以*识别NVMe硬盘（ISO包含基础NVMe驱动）
 2. 安装程序成功复制文件
 3. **首次重启后**，Windows使用内置的`stornvme.sys`驱动从NVMe启动
@@ -40,6 +41,7 @@ type: note
 5. Windows启动失败→进入恢复环境→安装程序检测到该情况后自动中止，报错`0xC19001F4`
 
 这完美解释了为什么：
+
 - 硬盘*能显示*在分区选择界面
 - 安装程序*开始*复制文件
 - 首次重启后*总是在同一节点失败*
@@ -50,6 +52,7 @@ type: note
 **步骤1 — 检查BIOS中的Intel VMD/RST设置**（耗时2分钟）
 
 重启→按`F2`→查找以下选项：
+
 - `Intel VMD Controller` → **禁用**
 - `Intel RST with Optane` → 设置为**AHCI**或**非VMD/非RST模式**
 

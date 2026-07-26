@@ -33,6 +33,7 @@ On many Lenovo laptops (especially Xiaoxin models with Intel 11th/12th/13th Gen)
 > **"Intel VMD Controller"** or **"Intel RST with Optane"** — typically set to **Enabled**
 
 When VMD is enabled:
+
 1. Windows Setup *can* see the NVMe drive during the WinPE phase (the ISO has basic NVMe drivers)
 2. Setup copies files successfully
 3. **After first reboot**, Windows boots from the NVMe using its in-box `stornvme.sys` driver
@@ -40,6 +41,7 @@ When VMD is enabled:
 5. Windows hits a boot failure → launches recovery → Setup sees this and self-aborts with `0xC19001F4`
 
 This explains perfectly why:
+
 - The drive *appears* in the partition selection screen
 - The install *starts* copying files
 - It fails *consistently at the same point* after the first reboot
@@ -50,6 +52,7 @@ This explains perfectly why:
 **Step 1 — Check BIOS for Intel VMD / RST setting** (takes 2 minutes)
 
 Reboot → press `F2` → look for:
+
 - `Intel VMD Controller` → **Disable it**
 - `Intel RST with Optane` → set to **AHCI** or **non-VMD/non-RST**
 

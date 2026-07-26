@@ -14,7 +14,7 @@ type: note
 ### What Changed
 
 | Before | After |
-|---|---|
+| --- | --- |
 | **MBR** partition style | **GPT** partition style |
 | Ventoy default Secure Boot | Ventoy default Secure Boot (still enabled) |
 | Win10 ISO copied | Win10 ISO copied (5.8G) |
@@ -30,6 +30,7 @@ type: note
 7. Select it → Ventoy menu → `Win10_22H2_English_x64v1.iso` → Enter
 
 If it **still doesn't show up**, try these in BIOS:
+
 - **USB Boot** → **Enabled**
 - **XHCI Hand-off** → **Enabled**
 - Try a **USB 2.0 port** instead of USB 3.0 (sometimes matters on older Xiaoxin models)

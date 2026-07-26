@@ -12,11 +12,13 @@ type: note
 ## 计划 — Ventoy + 烧录 Windows ISO
 
 ### 已找到 ISO 文件
+
 ```
 /home/lzw/Downloads/Win11_25H2_English_x64_v2.iso   (7.9G)
 ```
 
 ### USB 目标
+
 ```
 /dev/sdb  (14.6G USB)  ← 当前包含旧版 Windows 安装程序
 ```
@@ -28,7 +30,7 @@ type: note
 ### 分步操作指南
 
 | 步骤 | 操作 | 命令 |
-|---|---|---|
+| --- | --- | --- |
 | **1** | 下载 Ventoy | `wget https://github.com/ventoy/Ventoy/releases/latest/download/ventoy-1.1.05-linux.tar.gz` |
 | **2** | 解压 | `tar xzf ventoy-*.tar.gz && cd ventoy-*` |
 | **3** | 确认 USB 为 `/dev/sdb` | `lsblk` |

@@ -132,10 +132,10 @@ D:\BootCamp\Setup.exe
 
 * WiFi
 * 触控板
-- 键盘
-- AMD/NVIDIA显卡
-- Thunderbolt
-- Apple键盘快捷键
+* 键盘
+* AMD/NVIDIA显卡
+* Thunderbolt
+* Apple键盘快捷键
 
 （[Apple支持][1]）
 

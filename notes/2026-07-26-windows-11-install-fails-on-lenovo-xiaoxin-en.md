@@ -16,6 +16,7 @@ Answer:
 **Setup:** Lenovo Xiaoxin, previously Linux Mint, installing Windows 11 fresh. Disk 0 = 476GB UMIS NVMe (main SSD), Disk 1 = small ~14GB drive (ignore, unrelated).
 
 **What we fixed:**
+
 1. Original error — "partition unrecognized type / volume offline" — caused by leftover Linux Mint partition signatures (LVM/RAID) on Disk 0.
 2. Fixed via `diskpart`: `clean` → `convert gpt` on Disk 0 (confirmed correct disk each time via `detail disk`).
 3. Confirmed BIOS is UEFI-only (no Legacy/CSM toggle needed on this model).
@@ -23,11 +24,13 @@ Answer:
 
 **Current blocker:**
 Install now fails during the "Installing Windows" progress phase with a generic "Windows 11 installation has failed" dialog. Log analysis (`setupact.log` / `setuperr.log`) shows:
+
 - Early errors (`0x80070490`, `0x80072EE7`, `0x80070002`) = harmless, just no internet in WinPE — ignore these.
 - Real fatal chain: `CSetupManager::OnFinishLaunchChoiceAction(8149): Result = 0xC19001F4` — Setup receives a "launch recovery environment" request and self-aborts.
 - This happened **twice in a row at the same point**, ruling out accidental keypress as sole cause.
 
 **Not yet tried (next steps):**
+
 1. Re-download Windows 11 ISO fresh from Microsoft.
 2. Re-flash a **different** USB stick with Rufus (GPT + UEFI target) — current USB media is now the top suspect.
 3. Run the install completely hands-off (no keyboard/trackpad touch) from progress bar to OOBE.

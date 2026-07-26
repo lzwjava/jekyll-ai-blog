@@ -14,7 +14,7 @@ type: note
 ### What Happened
 
 | Step | Action | Time |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Unmounted old FAT32 partition | Instant |
 | 2 | Installed **Ventoy v1.1.17** to `/dev/sdb` (wiped + repartitioned) | ~15s |
 | 3 | **Copied** `Win10_22H2_English_x64v1.iso` (5.8G) to Ventoy partition | ~2 min |
@@ -23,7 +23,7 @@ type: note
 ### Final USB Layout
 
 | Partition | Size | Filesystem | Label | Content |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `/dev/sdb1` | 14.6G | **exFAT** | `Ventoy` | `Win10_22H2_English_x64v1.iso` (5.8G) |
 | `/dev/sdb2` | 32M | **vfat** | `VTOYEFI` | Ventoy EFI bootloader |
 

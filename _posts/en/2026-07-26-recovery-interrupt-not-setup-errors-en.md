@@ -17,9 +17,11 @@ Answer: Those early errors are red herrings — ignore them:
 - `0x80070002` (GetWuIdFromRegistry) — file/registry key not found, also routine during a clean install, not fatal.
 
 **The actual fatal chain is exactly what I flagged before:**
+
 ```
 CSetupManager::OnFinishLaunchChoiceAction(8149): Result = 0xC19001F4
 ```
+
 This is the only error that cascades through every subsequent call and force-exits Setup (`CSetupHost::Execute(564): Result = 0xC19001F4`). It's triggered by a **user-requested recovery environment launch** — this is Setup being told to abandon install and jump to recovery, not a hardware/media/network failure.
 
 So: confirmed, this was an interrupt (most likely a keypress) during the active install, not a corrupt ISO/USB or disk issue. **Retry the install and don't touch the keyboard once the progress bar starts** — go straight from disk selection to letting it run untouched through all reboots into OOBE.
