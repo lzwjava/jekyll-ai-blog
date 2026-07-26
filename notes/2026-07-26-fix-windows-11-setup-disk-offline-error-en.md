@@ -49,5 +49,6 @@ format fs=ntfs quick
 Root cause is almost always: disk was previously used in a RAID array (Intel RST), was a dynamic disk from Storage Spaces, or has GPT protective MBR confusion from a different OS. If this is a fresh NVMe that was never touched, check BIOS SATA mode (RAID vs AHCI) — switching modes mid-install causes exactly this.
 
 References:
+
 - [Diskpart command reference - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)
 - [Fix: Windows Setup could not configure Windows on this computer's hardware](https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/windows-setup-installation-issues)

@@ -14,7 +14,7 @@ type: note
 ### What Was Done
 
 | Step | Status |
-|---|---|
+| --- | --- |
 | **1. Formatted USB** (`MS-DOS FAT32` + `GPT`) | ✅ Done |
 | **2. Copied all ISO files** (except `install.wim`) | ✅ Done |
 | **3. Split `install.wim`** (7.1 GB → 3 FAT32-friendly chunks) | ✅ Done |

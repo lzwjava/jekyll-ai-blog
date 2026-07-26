@@ -41,6 +41,7 @@ type: note
    → U 盘
    → 选择你的 U 盘
    ```
+
 4. 等待完成。
 
 ### 选项 B：Rufus + ISO

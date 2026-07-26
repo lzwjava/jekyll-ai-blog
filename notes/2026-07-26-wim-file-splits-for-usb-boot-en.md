@@ -14,7 +14,7 @@ type: note
 ### ✅ What We Found
 
 | Item | Status |
-|---|---|
+| --- | --- |
 | **ISO file** | ✅ Exists at `/Users/lzwjava/Downloads/Win11_25H2_English_x64_v2.iso` — **7.9 GB** |
 | **ISO contents** | ✅ Standard Windows 11 DVD layout — `boot/`, `efi/`, `sources/`, `setup.exe` |
 | **`install.wim`** | ⚠️ **7.1 GB** — exceeds FAT32's **4 GB file size limit** |

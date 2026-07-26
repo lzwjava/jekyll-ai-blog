@@ -14,7 +14,7 @@ type: note
 ### ✅ 已发现的内容
 
 | 项目 | 状态 |
-|---|---|
+| --- | --- |
 | **ISO 文件** | ✅ 位于 `/Users/lzwjava/Downloads/Win11_25H2_English_x64_v2.iso` — **7.9 GB** |
 | **ISO 内容** | ✅ 标准 Windows 11 DVD 布局 — `boot/`, `efi/`, `sources/`, `setup.exe` |
 | **`install.wim`** | ⚠️ **7.1 GB** — 超过 FAT32 的 **4 GB 文件大小限制** |

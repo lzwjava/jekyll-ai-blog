@@ -41,6 +41,7 @@ On another PC:
    → USB flash drive
    → Select your USB
    ```
+
 4. Wait until it finishes.
 
 ### Option B: Rufus + ISO
