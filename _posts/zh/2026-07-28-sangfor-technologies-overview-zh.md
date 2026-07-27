@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：**https://www.sangfor.com.cn（深信服）介绍**
+问题：**<https://www.sangfor.com.cn（深信服）介绍>**
 
 答案：
 
@@ -31,10 +31,10 @@ type: note
 
 深信服科技（Sangfor Technologies）是一家成立于2000年的中国企业IT公司，专注于：
 
-1.  **网络安全**
-2.  **云计算**
-3.  **IT基础设施**
-4.  **企业数字化转型**
+1. **网络安全**
+2. **云计算**
+3. **IT基础设施**
+4. **企业数字化转型**
 
 它在深圳证券交易所上市（股票代码：300454）。该公司主要为企事业单位、政府、高校、银行及大型组织提供产品。（[深信服][1]）
 
@@ -109,10 +109,10 @@ type: note
 
 常见于：
 
-*   银行
-*   政府
-*   高校
-*   大型企业
+* 银行
+* 政府
+* 高校
+* 大型企业
 
 它允许员工远程工作，同时执行安全策略。（[深信服科技][2]）
 
@@ -122,10 +122,10 @@ type: note
 
 深信服与以下公司在同一大市场竞争：
 
-*   VMware
-*   Nutanix
-*   OpenStack
-*   华为云Stack
+* VMware
+* Nutanix
+* OpenStack
+* 华为云Stack
 
 主要技术：
 
@@ -165,9 +165,9 @@ HCI架构：
 
 产品：
 
-*   深信服 HCI
-*   aStor 存储
-*   云平台
+* 深信服 HCI
+* aStor 存储
+* 云平台
 
 （[深信服科技][3]）
 
@@ -194,10 +194,10 @@ HCI架构：
 
 常见场景：
 
-*   学校
-*   呼叫中心
-*   医院
-*   政府办公室
+* 学校
+* 呼叫中心
+* 医院
+* 政府办公室
 
 （[深信服科技][3]）
 
@@ -207,10 +207,10 @@ HCI架构：
 
 近年来，深信服增加了AI相关产品：
 
-*   AI安全平台
-*   LLM安全护栏
-*   AI计算基础设施
-*   智能体（Agent）相关平台
+* AI安全平台
+* LLM安全护栏
+* AI计算基础设施
+* 智能体（Agent）相关平台
 
 他们的发展方向是：
 
@@ -279,11 +279,11 @@ HCI架构：
 
 原因如下：
 
-*   强大的政府/企业市场
-*   本地化支持
-*   安全合规要求
-*   替换国外供应商
-*   庞大的部署生态系统
+* 强大的政府/企业市场
+* 本地化支持
+* 安全合规要求
+* 替换国外供应商
+* 庞大的部署生态系统
 
 据深信服称，其客户群全球范围内超过10万家组织。（[深信服科技][5]）
 
@@ -293,19 +293,19 @@ HCI架构：
 
 值得关注的部分是：
 
-1.  **安全 + AI**
+1. **安全 + AI**
 
-    *   LLM安全
-    *   企业内部AI智能体
-    *   结合私有数据的RAG
+    * LLM安全
+    * 企业内部AI智能体
+    * 结合私有数据的RAG
 
-2.  **私有云**
+2. **私有云**
 
-    *   Kubernetes
-    *   虚拟化
-    *   GPU集群
+    * Kubernetes
+    * 虚拟化
+    * GPU集群
 
-3.  **企业级AI部署**
+3. **企业级AI部署**
 
 一个现代架构看起来像：
 
@@ -329,9 +329,9 @@ RAG系统
 
 参考文献：
 
-*   [深信服公司简介](https://www.sangfor.com/about-us/company-profile?utm_source=chatgpt.com)
-*   [关于我们](https://www.sangfor.com.cn/about-us?utm_source=chatgpt.com)
-*   [深信服网络安全产品](https://www.sangfor.com/cybersecurity/products?utm_source=chatgpt.com)
+* [深信服公司简介](https://www.sangfor.com/about-us/company-profile?utm_source=chatgpt.com)
+* [关于我们](https://www.sangfor.com.cn/about-us?utm_source=chatgpt.com)
+* [深信服网络安全产品](https://www.sangfor.com/cybersecurity/products?utm_source=chatgpt.com)
 
 [1]: https://www.sangfor.com.cn/about-us?utm_source=chatgpt.com "关于我们-了解深信服-深信服"
 [2]: https://www.sangfor.com/cybersecurity/products?utm_source=chatgpt.com "Cyber Security Products | Sangfor Technologies"
