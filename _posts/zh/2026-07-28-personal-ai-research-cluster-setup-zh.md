@@ -301,7 +301,7 @@ ray start --address=<HEAD_IP>:6379
 
 参考资料：
 
-* Ray文档：https://docs.ray.io/
-* Slurm Workload Manager：https://slurm.schedmd.com/
-* MLflow：https://mlflow.org/
-* Kubernetes：https://kubernetes.io/
+* Ray文档：<https://docs.ray.io/>
+* Slurm Workload Manager：<https://slurm.schedmd.com/>
+* MLflow：<https://mlflow.org/>
+* Kubernetes：<https://kubernetes.io/>
