@@ -40,6 +40,7 @@ type: note
 诚实的结论是：并非“恐惧”让他们在软弱的层面上感到“害怕”——这是对真正不对称的负面结果（医疗保险、签证、房贷、股票归属）与真正不确定的正面结果进行对比后，经由一个将损失权重加倍的大脑处理所产生的相当理性的反应。你当初打造趣直播以及现在做AI公司的独特优势在于，你从未被装上那些手铐——没有归属期、没有依赖签证、当时也没有房贷带来的风险上限。这才是真正的变量，而非勇气。
 
 参考文献：
+
 - [研究发现，创业者并非过度自信的赌徒——伯克利哈斯商学院](https://newsroom.haas.berkeley.edu/entrepreneurs-aren%E2%80%99t-overconfident-gamblers-study-finds/)
 - [最好的创业者是风险承担者还是风险规避者？——DQventures（Raffiee & Feng 2013年研究）](https://dqventures.com/entrepreneurs-risk-takers-vs-risk-averse/)
 - [工作中的损失厌恶：为什么你的团队会阻挠每一个改变](https://www.suebehaviouraldesign.com/en/blog/loss-aversion-at-work/)

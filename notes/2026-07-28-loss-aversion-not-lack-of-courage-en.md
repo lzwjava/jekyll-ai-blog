@@ -40,6 +40,7 @@ Counterintuitive but a Berkeley study found loss aversion — fear of losing sal
 The honest takeaway: it's not fear making them "afraid" in a weak sense — it's a rational-ish response to genuinely asymmetric downside (health insurance, visa, mortgage, vesting) stacked against genuinely uncertain upside, run through a brain that weights losses 2x. Your unfair advantage building Fun Live and now your AI co is that you never had those handcuffs installed — no vesting schedule, no dependent visa, no mortgage-driven risk ceiling at the time. That's the real variable, not bravery.
 
 References:
+
 - [Entrepreneurs Aren't Overconfident Gamblers, Study Finds — Berkeley Haas](https://newsroom.haas.berkeley.edu/entrepreneurs-aren%E2%80%99t-overconfident-gamblers-study-finds/)
 - [Are the best entrepreneurs risk takers or risk averse? — DQventures (Raffiee & Feng 2013 study)](https://dqventures.com/entrepreneurs-risk-takers-vs-risk-averse/)
 - [Loss aversion at work: Why your team blocks every change](https://www.suebehaviouraldesign.com/en/blog/loss-aversion-at-work/)
