@@ -35,7 +35,7 @@ Description: "The Windows LSA has blocked an untrusted DLL from being loaded: C:
 ## Solutions (if you need it to work)
 
 | Method | What It Does | Security Risk |
-|--------|-------------|---------------|
+| -------- | ------------- | --------------- |
 | **Disable LSA Protection** | Sets `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\RunAsPPL` to `0` | **High** — exposes LSASS to credential theft |
 | **Contact Sangfor** | Request a properly signed + Microsoft-approved version of the DLL | None (best option) |
 | **Use a different VPN client** | Switch to one that's LSA-compatible (e.g., OpenVPN, WireGuard) | None |

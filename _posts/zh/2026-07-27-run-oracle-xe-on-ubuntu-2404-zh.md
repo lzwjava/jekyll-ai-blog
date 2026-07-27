@@ -12,7 +12,7 @@ type: note
 这台笔记本电脑运行的是 **Ubuntu 24.04.4 LTS (x86_64)**，因此官方软件包中没有完全匹配的——但以下是详细分析：
 
 | 选项 | 结论 |
-|---|---|
+| --- | --- |
 | **Windows 64位** (`.zip`) | ❌ 你使用的是Linux，不是Windows。 |
 | **Oracle Linux 8** (`.rpm`) | ✅ **最佳选择** — 这个RPM是你想在Ubuntu上尝试的。 |
 | **RHEL 8 预安装RPM** | ❌ 仅作为补充包。 |
@@ -24,17 +24,20 @@ type: note
 **在Ubuntu上安装OL8 RPM** — 这不是官方支持的，但这是最常用的方法。在此系统上：
 
 1. **安装 `alien`** 以将 `.rpm` 转换为 `.deb`：
+
    ```bash
    sudo apt update && sudo apt install alien
    ```
 
 2. **转换并安装**：
+
    ```bash
    alien --scripts -d oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
    sudo dpkg -i oracle-database-xe-21c-1.0-1.ol8.x86_64.deb
    ```
 
 3. **运行配置脚本**：
+
    ```bash
    sudo /etc/init.d/oracle-xe-21c configure
    ```

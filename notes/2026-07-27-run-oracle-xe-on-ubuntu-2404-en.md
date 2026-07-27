@@ -12,7 +12,7 @@ type: note
 This laptop is running **Ubuntu 24.04.4 LTS (x86_64)**, so none of the official packages are a perfect match — but here's the breakdown:
 
 | Option | Verdict |
-|---|---|
+| --- | --- |
 | **Windows 64-bit** (`.zip`) | ❌ You're on Linux, not Windows. |
 | **Oracle Linux 8** (`.rpm`) | ✅ **Best choice** — the RPM is the one you'd want to attempt on Ubuntu. |
 | **Pre-install RPM for RHEL 8** | ❌ Supplementary package only. |
@@ -24,17 +24,20 @@ This laptop is running **Ubuntu 24.04.4 LTS (x86_64)**, so none of the official 
 **Install the OL8 RPM on Ubuntu** — it's not officially supported, but it's the most common approach. On this system:
 
 1. **Install `alien`** to convert the `.rpm` to `.deb`:
+
    ```bash
    sudo apt update && sudo apt install alien
    ```
 
 2. **Convert and install**:
+
    ```bash
    alien --scripts -d oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
    sudo dpkg -i oracle-database-xe-21c-1.0-1.ol8.x86_64.deb
    ```
 
 3. **Run the configuration script**:
+
    ```bash
    sudo /etc/init.d/oracle-xe-21c configure
    ```

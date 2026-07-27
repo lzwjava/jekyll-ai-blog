@@ -284,7 +284,7 @@ Both
 
 ---
 
-## My priority ranking for you:
+## My priority ranking for you
 
 | Priority | Action                                  |
 | -------- | --------------------------------------- |
