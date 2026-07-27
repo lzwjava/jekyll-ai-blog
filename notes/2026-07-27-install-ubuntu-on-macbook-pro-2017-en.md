@@ -124,6 +124,7 @@ For dual boot:
    ```
    Something else
    ```
+
 5. Create:
 
 ```
