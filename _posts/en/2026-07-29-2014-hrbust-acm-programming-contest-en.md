@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to the news about Harbin University of Science and Technology's 4th ACM Programming Contest (2014)
 
-## Answer:
+## Answer
 
 This news is about the **4th ACM Programming Contest held by Harbin University of Science and Technology (哈尔滨理工大学, HRBUST) in 2014**. It was a university-level competitive programming event modeled after the international ACM/ICPC programming contest culture. ([HRBUST Computer Science College][1])
 

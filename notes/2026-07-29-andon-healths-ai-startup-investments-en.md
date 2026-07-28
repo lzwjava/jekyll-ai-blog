@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to 九安医疗 (Andon Health) and how it invested in DeepSeek and Kimi
 
-## Answer:
+## Answer
 
 九安医疗 is a Chinese medical device company famous for its **iHealth brand**. It originally focused on consumer healthcare hardware:
 
