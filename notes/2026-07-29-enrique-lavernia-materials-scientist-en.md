@@ -22,6 +22,7 @@ Credentials: elected to the National Academy of Engineering in 2013, fellow of T
 No connection to AI/ML that I can find — pure materials science + university administration.
 
 References:
+
 - [UC Irvine Faculty Page](https://engineering.uci.edu/users/enrique-j-lavernia)
 - [Wikipedia](https://en.wikipedia.org/wiki/Enrique_J._Lavernia)
 - [UC Irvine News — Provost Appointment](https://news.uci.edu/2015/04/22/enrique-lavernia-named-provost-and-executive-vice-chancellor/)

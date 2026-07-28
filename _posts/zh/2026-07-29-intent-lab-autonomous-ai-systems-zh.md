@@ -17,16 +17,16 @@ Intent Lab 是一家专注于**利用人工智能构建自主软件系统**的 A
 
 他们当前的招聘页面很好地揭示了公司的发展方向。他们正在招聘：
 
-*   **AI 技术专家**
-*   **基础设施技术专家**
-*   **代理工程师 / 现场部署工程师**
-*   **AI 产品经理**
+* **AI 技术专家**
+* **基础设施技术专家**
+* **代理工程师 / 现场部署工程师**
+* **AI 产品经理**
 
 这暗示他们正在构建以下组合：
 
-*   基础/模型层
-*   代理运行时/基础设施
-*   部署到真实的客户工作流程中（[Intent Lab][2]）
+* 基础/模型层
+* 代理运行时/基础设施
+* 部署到真实的客户工作流程中（[Intent Lab][2]）
 
 ## 技术解读
 
@@ -54,10 +54,10 @@ AI 代理系统
 
 这与以下方向的总体思路一致：
 
-*   Claude Code 风格的编码代理
-*   Devin 风格的自主软件工程师
-*   企业代理平台
-*   "AI 员工"
+* Claude Code 风格的编码代理
+* Devin 风格的自主软件工程师
+* 企业代理平台
+* "AI 员工"
 
 真正的难题不在于调用 LLM API。真正的难题在于：
 
@@ -115,13 +115,13 @@ while not done:
 
 “代理工程师”这个角色很有趣，因为自主系统需要：
 
-*   沙箱执行
-*   工具编排
-*   记忆
-*   评估
-*   追踪
-*   权限系统
-*   回滚
+* 沙箱执行
+* 工具编排
+* 记忆
+* 评估
+* 追踪
+* 权限系统
+* 回滚
 
 基本上是 Kubernetes + CI/CD + LLM 推理。
 
@@ -166,10 +166,10 @@ AI 编写 + 执行 + 验证
 
 ## 类似的公司 / 概念
 
-*   OpenAI Codex / 代理方向
-*   Anthropic Claude Code
-*   Cognition Devin
-*   Microsoft Copilot 代理
+* OpenAI Codex / 代理方向
+* Anthropic Claude Code
+* Cognition Devin
+* Microsoft Copilot 代理
 
 IntentLab 似乎更接近 **代理基础设施 + 自主软件工程** 类别，而不是简单的聊天机器人封装外壳。（[Intent Lab][2]）
 
@@ -179,11 +179,11 @@ IntentLab 似乎更接近 **代理基础设施 + 自主软件工程** 类别，�
 
 这个领域与你一直在探索的方向高度重叠：
 
-*   `ww`
-*   `hermes`
-*   循环工程
-*   多代理协作
-*   GPU/模型训练
+* `ww`
+* `hermes`
+* 循环工程
+* 多代理协作
+* GPU/模型训练
 
 有趣的工程栈可能是：
 
@@ -213,8 +213,8 @@ IntentLab 正朝着这个方向发展。（[Intent Lab][1]）
 
 参考资料：
 
-*   [IntentLab.ai](https://intentlab.ai/)
-*   [IntentLab 招聘页面](https://intentlab.ai/jobs?utm_source=chatgpt.com)
+* [IntentLab.ai](https://intentlab.ai/)
+* [IntentLab 招聘页面](https://intentlab.ai/jobs?utm_source=chatgpt.com)
 
 [1]: https://intentlab.ai/ "Intent Lab"
 [2]: https://intentlab.ai/jobs?utm_source=chatgpt.com "Careers — Intent Lab"

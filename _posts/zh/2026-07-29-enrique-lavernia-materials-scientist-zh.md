@@ -22,6 +22,7 @@ type: note
 未发现与AI/ML有关联——纯粹的材料科学加高校行政管理。
 
 参考文献：
+
 - [加州大学尔湾分校教师页面](https://engineering.uci.edu/users/enrique-j-lavernia)
 - [维基百科](https://en.wikipedia.org/wiki/Enrique_J._Lavernia)
 - [加州大学尔湾分校新闻——教务长任命](https://news.uci.edu/2015/04/22/enrique-lavernia-named-provost-and-executive-vice-chancellor/)

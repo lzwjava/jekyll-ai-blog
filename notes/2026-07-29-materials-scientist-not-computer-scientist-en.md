@@ -24,6 +24,7 @@ Recognition: Foreign fellow of the Royal Society and Royal Academy of Engineerin
 If you meant someone else with a similar name in AI/CS, let me know and I'll search that instead.
 
 References:
+
 - [Robert O. Ritchie – Wikipedia](https://en.wikipedia.org/wiki/Robert_O._Ritchie)
 - [Robert O. Ritchie – Berkeley MSE](https://mse.berkeley.edu/people_new/ritchie/)
 - [Robert O. Ritchie – NAS](https://www.nasonline.org/directory-entry/robert-o-ritchie-gbz26q/)

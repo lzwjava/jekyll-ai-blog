@@ -31,15 +31,18 @@ LLM (user-facing API)
 ### 2. Core Components
 
 **Scheduler** (`scheduler.py`): The heart of the system. It has two modes:
+
 - **Prefill** (first-time compute): Processes prompt tokens. Supports *chunked prefill* — if a prompt is too long, it's split across multiple steps.
 - **Decode** (autoregressive generation): Produces one token per sequence per step. If KV cache runs out, it *preempts* sequences (deallocates their cache, moves them back to the waiting queue).
 
 **Paged KV Cache** (`block_manager.py`): Instead of a monolithic KV cache per sequence, KV cache is split into fixed-size **blocks** (256 tokens each). A `BlockManager` maintains:
+
 - A free list of blocks
 - A hash table from content hash → block ID for **prefix caching** (sharing common prefixes)
 - Reference counting for block sharing (copy-on-write semantics)
 
 **Attention with Paged Cache** (`attention.py`): Custom attention that:
+
 - Stores computed K/V entries into the paged cache via `slot_mapping`
 - During prefill with prefix cache, *gathers* cached K/V from the paged cache and concatenates with newly computed ones
 - During decode, gathers all cached K/V from paged blocks before calling `scaled_dot_product_attention`
@@ -73,7 +76,7 @@ generate(prompts)
 ### 1. **Batching (Continuous Batching)**
 
 | nanoGPT | Nano-vLLM |
-|---------|-----------|
+| --------- | ----------- |
 | Single sequence at a time | **Multiple sequences batched together** |
 | Fixed batch (all same length) | **Variable-length sequences dynamically scheduled** |
 | No scheduling overhead | Scheduler decides which sequences run each step |
@@ -81,7 +84,7 @@ generate(prompts)
 ### 2. **Memory Management: Paged KV Cache vs. Monolithic Cache**
 
 | nanoGPT | Nano-vLLM |
-|---------|-----------|
+| --------- | ----------- |
 | Allocates `max_seq_len × num_layers × ...` per sequence (wasteful) | **Paged blocks** allocated on-demand; no pre-allocation |
 | No sharing between sequences | **Prefix caching**: identical prompt prefixes share KV blocks (detected via xxhash) |
 | KV cache fragmentation | **Defragmentation-free** due to paging |
@@ -97,7 +100,7 @@ generate(prompts)
 ### 4. **Optimizations Absent in nanoGPT**
 
 | Feature | What it does |
-|---------|-------------|
+| --------- | ------------- |
 | **Tensor Parallelism** | Shards model across multiple GPUs (QKV splits, all-reduce) |
 | **CUDA Graphs** | Captures decode kernel launches into a reusable graph, reducing CPU launch overhead |
 | **Prefix Caching** | Content-based hash matching to reuse KV cache blocks across requests with shared prefixes (e.g., system prompts) |
@@ -105,15 +108,18 @@ generate(prompts)
 | **Variable-batch CUDA Graphs** | Pre-captures graphs for batch sizes `[1, 2, 4, 8, 16, 32, ... 512]` and selects the closest matching one |
 
 ### 5. **Throughput Focus**
+
 - nanoGPT's `sample.py` inference is designed for **single-sample generation**, prioritizing simplicity
 - Nano-vLLM is designed for **high-throughput serving**: benchmarks show ~1434 tok/s on a laptop RTX 4070, matching/beating vLLM itself
 
 ### 6. **Architecture Support**
+
 - Nano-vLLM currently implements the **Qwen3** model architecture specifically
 - nanoGPT supports the original GPT-2 small/medium/large
 - Nano-vLLM supports modern features like GQA (Grouped Query Attention), RoPE (Rotary Position Embedding), QKV bias, QK-Norm, etc.
 
 ### 7. **Sampling**
+
 - Nano-vLLM only supports **temperature-based random sampling** (no top-k, top-p, or greedy)
 - nanoGPT supports temperature, top-k, and top-p sampling
 

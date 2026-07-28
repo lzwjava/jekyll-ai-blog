@@ -34,6 +34,7 @@ Try these once the pod comes back up:
 
 1. **Check if the pod is still alive** from the platform console
 2. If recreated, re-run the tunnel setup:
+
    ```bash
    ssh -p 31005 root@36.150.116.206
    export FRP_BROKER_URL=$(grep -z FRP_BROKER_URL /proc/1/environ | tr "\0" "\n" | cut -d= -f2-)
@@ -42,7 +43,9 @@ Try these once the pod comes back up:
    /var/run/secrets/frp-self-service/install
    rc-tunnel expose --port 8000
    ```
+
 3. Check AHL server logs:
+
    ```bash
    curl http://127.0.0.1:8000/health  # if the server is up
    ```

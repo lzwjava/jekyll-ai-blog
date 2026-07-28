@@ -20,5 +20,6 @@ Recognition: Rohrer is a Fellow of the American Ceramic Society and a Fellow of 
 No connection to LLMs, agents, or your stack — pure metallurgy/ceramics/grain-boundary science. If you got this name from a different context (paper citation, GitHub, etc.), let me know and I'll dig into that angle.
 
 References:
+
 - [Gregory Rohrer - CMU College of Engineering](https://engineering.cmu.edu/directory/bios/rohrer-gregory.html)
 - [Gregory Rohrer - ORCID](https://orcid.org/0000-0002-9671-3034)

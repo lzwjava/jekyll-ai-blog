@@ -22,6 +22,7 @@ type: note
 从系统/工具视角来看，TriBeam是一个有趣的切入点——它本质上是一个仪器管道（飞秒激光连续切片 + SEM/EDS/EBSD），用于自动化的三维微观结构重建，更接近数据采集/自动化问题而非纯冶金学。如果您从"ICME"（集成计算材料工程）角度思考——她曾主持推动该领域的美国国家研究委员会研究——这本质上是材料科学试图通过计算模型取代昂贵的物理试错法，正如当前仿真+机器学习在合金设计领域所做的那样。
 
 参考文献：
+
 - [Tresa Pollock — 维基百科](https://en.wikipedia.org/wiki/Tresa_Pollock)
 - [Pollock研究团队，加州大学圣塔芭芭拉分校](https://labs.materials.ucsb.edu/pollock/tresa/)
 - [AIME荣誉会员简介](https://aimehq.org/what-we-do/awards/aime-honorary-membership/tresa-m-pollock)

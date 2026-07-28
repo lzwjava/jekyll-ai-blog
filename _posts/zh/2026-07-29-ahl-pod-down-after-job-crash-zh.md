@@ -34,6 +34,7 @@ SSH 端口 **31005** — 连接被拒绝
 
 1. **从平台控制台检查 Pod 是否仍在运行**
 2. 如果 Pod 被重建，重新运行隧道设置：
+
    ```bash
    ssh -p 31005 root@36.150.116.206
    export FRP_BROKER_URL=$(grep -z FRP_BROKER_URL /proc/1/environ | tr "\0" "\n" | cut -d= -f2-)
@@ -42,7 +43,9 @@ SSH 端口 **31005** — 连接被拒绝
    /var/run/secrets/frp-self-service/install
    rc-tunnel expose --port 8000
    ```
+
 3. 检查 AHL 服务器日志：
+
    ```bash
    curl http://127.0.0.1:8000/health  # 如果服务器正在运行
    ```

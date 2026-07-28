@@ -22,6 +22,7 @@ Recognition: elected to the National Academy of Engineering (2005), 2009 TMS Fel
 The TriBeam angle is the interesting one from a systems/tooling perspective — it's basically an instrument pipeline (femtosecond laser serial sectioning + SEM/EDS/EBSD) for automated 3D microstructure reconstruction, which is closer to a data-acquisition/automation problem than pure metallurgy. If you're thinking about it from an "ICME" (Integrated Computational Materials Engineering) angle — she chaired the NRC study that pushed that field — that's essentially materials science trying to do what simulation + ML now does for alloy design: replace expensive physical trial-and-error with computational models.
 
 References:
+
 - [Tresa Pollock — Wikipedia](https://en.wikipedia.org/wiki/Tresa_Pollock)
 - [Pollock Research Group, UCSB](https://labs.materials.ucsb.edu/pollock/tresa/)
 - [AIME Honorary Membership profile](https://aimehq.org/what-we-do/awards/aime-honorary-membership/tresa-m-pollock)

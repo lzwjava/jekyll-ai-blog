@@ -20,5 +20,6 @@ type: note
 与大型语言模型、智能体或您的技术栈毫无关联——纯粹是冶金/陶瓷/晶界科学。如果您是从其他上下文（如论文引用、GitHub 等）获得此名称，请告知，我将进一步探究。
 
 参考文献：
+
 - [Gregory Rohrer - 卡内基梅隆大学工程学院](https://engineering.cmu.edu/directory/bios/rohrer-gregory.html)
 - [Gregory Rohrer - ORCID](https://orcid.org/0000-0002-9671-3034)

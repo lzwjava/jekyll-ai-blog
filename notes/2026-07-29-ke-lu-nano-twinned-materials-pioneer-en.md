@@ -14,6 +14,7 @@ Question: Who is 卢柯 (Ke Lu)?
 Answer: A Chinese materials scientist, not related to AI/ML — pure metallurgy/nanomaterials.
 
 Key facts:
+
 - Born May 23, 1965, in Huachi County, Gansu, China.
 - Bachelor's from East China Institute of Technology (now Nanjing University of Science and Technology), PhD from the Institute of Metal Research (IMR), Chinese Academy of Sciences in January 1990, became a researcher there three years later.
 - Elected to the Chinese Academy of Sciences in 2003 at age 38 — one of the youngest academicians in CAS history.
@@ -27,6 +28,7 @@ Key facts:
 No connection to AI/LLM work — this is a metallurgy/nanostructure guy, not someone in your usual orbit (Wang/Karpathy/Liang/Brockman). If you're asking because of some recent China-materials-science news item, let me know and I can dig into that specifically.
 
 References:
+
 - [Lu Ke - Wikipedia](https://en.wikipedia.org/wiki/Lu_Ke)
 - [Professor Ke Lu - Hong Kong Institute for Advanced Study](https://www.hkias.cityu.edu.hk/zh-hk/profile/ke-lu)
 - [SYNL Leadership Profile](http://english.synl.ac.cn/leader.asp?did=131)
