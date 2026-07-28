@@ -61,7 +61,7 @@ available = total * 0.9 - used - peak + current
 针对你的 12GB GPU，可尝试以下设置：
 
 | 使用场景 | `max_model_len` | `max_num_batched_tokens` | `max_num_seqs` |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 短提示词 | 1024 | 4096 | 128 |
 | 中等上下文 | 2048 | 8192 | 64 |
 | 长上下文 | 4096 | 16384 | 32 |

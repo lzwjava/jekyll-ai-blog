@@ -19,7 +19,7 @@ This is a technical explanation of **how modern LLM architectures evolved from G
 
 The author starts with a comparison:
 
-> "At 2.8 trillion parameters, one KimiK3 model contains roughly as many parameters as 22,580 GPT-2 models." 
+> "At 2.8 trillion parameters, one KimiK3 model contains roughly as many parameters as 22,580 GPT-2 models."
 
 Meaning:
 
@@ -80,7 +80,7 @@ x = x + self.attn(self.ln_1(x))
 x = x + self.mlp(self.ln_2(x))
 ```
 
-is the core GPT architecture. 
+is the core GPT architecture.
 
 ---
 
@@ -109,7 +109,7 @@ Example:
 = 100 million attention scores
 ```
 
-The article explains that without KV cache, generation recomputes old tokens repeatedly. 
+The article explains that without KV cache, generation recomputes old tokens repeatedly.
 
 KV cache solves this:
 
@@ -190,7 +190,7 @@ fixed memory
 
 The article explains:
 
-> Linear attention folds growing K/V vectors into a fixed D×D state. 
+> Linear attention folds growing K/V vectors into a fixed D×D state.
 
 ---
 
@@ -220,7 +220,7 @@ Information overlaps.
 
 The article calls this:
 
-> "information interference" 
+> "information interference"
 
 Basically:
 
@@ -280,7 +280,7 @@ write new association
 
 The article:
 
-> "Old information is removed and new information is written in its place." 
+> "Old information is removed and new information is written in its place."
 
 ---
 
@@ -314,7 +314,7 @@ alpha = 1
 keep memory
 ```
 
-The article connects this idea with Mamba-style state decay. 
+The article connects this idea with Mamba-style state decay.
 
 ---
 
@@ -362,7 +362,7 @@ token chooses 16 experts
 
 The article states:
 
-> KimiK3 has 898 experts; 16 are selected per token. 
+> KimiK3 has 898 experts; 16 are selected per token.
 
 So:
 
@@ -475,7 +475,7 @@ Kimi K3
 
 The author’s conclusion:
 
-> The important change is not scale alone. Each architecture changes what the model stores, how it updates memory, or how it retrieves information. 
+> The important change is not scale alone. Each architecture changes what the model stores, how it updates memory, or how it retrieves information.
 
 For someone who trained GPT-2 style models with nanoGPT: the key takeaway is that **future LLMs are moving from "huge Transformer with bigger KV cache" toward "neural memory systems"**.
 

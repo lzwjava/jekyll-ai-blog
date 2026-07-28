@@ -12,6 +12,7 @@ type: note
 ## ❌ RC Tunnel — 此 Pod 无法修复
 
 **根本原因：** 这是一个在 **隧道功能启用之前** 创建的旧 Notebook Pod。平台从未注入 `FRP_BROKER_URL`，因此：
+
 - 安装脚本拒绝运行
 - 之前的客户端凭据（`krXGr4aWPwFUYOzWQgLPOX13xL2-Zn5-mtBcqkWq2_g`）已 **过期**（`invalid_client`）
 - 无法从 Pod 内部注册新的客户端
@@ -25,22 +26,28 @@ type: note
 在 **本地机器** 上运行以下命令，即可立即访问服务：
 
 ### AI 视频生成器（AHL 演示）— 端口 8000
+
 ```bash
 ssh -L 8000:localhost:8000 -p 31005 root@36.150.116.206 -N
 ```
-然后打开：**http://localhost:8000**
+
+然后打开：**<http://localhost:8000>**
 
 ### Jupyter Lab — 端口 8888
+
 ```bash
 ssh -L 8888:localhost:8888 -p 31005 root@36.150.116.206 -N
 ```
-然后打开：**http://localhost:8888/instances/u-9758-811746f0/**（令牌：`amd-oneclick`）
+
+然后打开：**<http://localhost:8888/instances/u-9758-811746f0/**（令牌：`amd-oneclick`）>
 
 ### 隧道演示页面 — 端口 8081
+
 ```bash
 ssh -L 8081:localhost:8081 -p 31005 root@36.150.116.206 -N
 ```
-然后打开：**http://localhost:8081**
+
+然后打开：**<http://localhost:8081>**
 
 > 💡 添加 `-f` 参数可在后台运行，例如 `ssh -f -L 8000:localhost:8000 -p 31005 root@36.150.116.206 -N`
 

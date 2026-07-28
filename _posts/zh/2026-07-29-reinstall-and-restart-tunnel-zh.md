@@ -16,7 +16,7 @@ type: note
 ## 🖥️ 内部运行的服务
 
 | 服务 | 本地地址 | 端口 | 描述 |
-|------|----------|------|------|
+| ------ | ---------- | ------ | ------ |
 | **Jupyter Lab** | `0.0.0.0` | **8888** | Token: `amd-oneclick`, Base URL: `/instances/u-9758-811746f0/` |
 | **AHL (AI视频生成器)** | `127.0.0.1` | **8000** | 主演示应用（响应200） |
 | **隧道演示页面** | `127.0.0.1` | **8081** | 测试页面（"RC Tunnel is working"） |
@@ -33,6 +33,7 @@ https://rc-26cc80c1b835b7a3.radeon.firstdg.ai
 ```
 
 **但它不起作用。** state.json 显示：
+
 ```json
 {
   "tunnel_id": "tun_cb197ffdbb65782284d9e6af",
@@ -43,6 +44,7 @@ https://rc-26cc80c1b835b7a3.radeon.firstdg.ai
 ```
 
 然而，frpc 日志持续显示：
+
 ```
 oauth2: "invalid_client" "invalid client credentials"
 ```

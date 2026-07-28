@@ -14,7 +14,7 @@ type: note
 **`~/.config/zed/keymap.json`**
 
 | 按键 | 操作 | 风格 |
-|---|---|---|
+| --- | --- | --- |
 | `Ctrl+x Ctrl+←` / `Ctrl+x Ctrl+→` | 后退 / 前进 | **Emacs 风格**（`C-x` 前缀） |
 | `Ctrl+x ←` / `Ctrl+x →` | 后退 / 前进 | Emacs 风格（更短） |
 | `Alt+←` / `Alt+→` | 后退 / 前进 | 编辑器标准（后备） |

@@ -22,7 +22,7 @@ So valid choices are **Python 3.10**, **3.11**, or **3.12**.
 Here's why:
 
 | Factor | 3.11 | 3.12 |
-|---|---|---|
+| --- | --- | --- |
 | **triton support** ✅ | Excellent, widely tested | Good, but some edge cases historically |
 | **torch compatibility** ✅ | Fully supported | Supported |
 | **CUDA graph stability** ✅ | Most battle-tested | Fine, but newer |

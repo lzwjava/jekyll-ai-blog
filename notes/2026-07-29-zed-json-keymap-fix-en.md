@@ -34,7 +34,7 @@ Here's the clean version:
 Zed should pick it up immediately (no restart needed). After **Alt+click** to jump to a definition:
 
 | Press | Action |
-|---|---|
+| --- | --- |
 | `Ctrl+x ←` | Go Back (back to where you were) |
 | `Ctrl+x →` | Go Forward |
 | `Alt+←` | Go Back (alternative) |

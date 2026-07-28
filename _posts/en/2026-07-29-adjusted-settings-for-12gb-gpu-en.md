@@ -61,7 +61,7 @@ With defaults (`max_model_len=4096`, `max_num_batched_tokens=16384`), the warmup
 Try these settings for your 12GB GPU:
 
 | Use case | `max_model_len` | `max_num_batched_tokens` | `max_num_seqs` |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Short prompts | 1024 | 4096 | 128 |
 | Medium context | 2048 | 8192 | 64 |
 | Long context | 4096 | 16384 | 32 |

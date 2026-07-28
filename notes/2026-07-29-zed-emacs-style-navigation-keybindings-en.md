@@ -14,7 +14,7 @@ Done. Here's what I set up:
 **`~/.config/zed/keymap.json`**
 
 | Keys | Action | Style |
-|---|---|---|
+| --- | --- | --- |
 | `Ctrl+x Ctrl+←` / `Ctrl+x Ctrl+→` | Go Back / Go Forward | **Emacs-like** (`C-x` prefix) |
 | `Ctrl+x ←` / `Ctrl+x →` | Go Back / Go Forward | Emacs-like (shorter) |
 | `Alt+←` / `Alt+→` | Go Back / Go Forward | Editor standard (fallback) |
@@ -24,7 +24,7 @@ Done. Here's what I set up:
 After you **Alt+click** a variable/function to jump to its definition:
 
 1. **`Ctrl+x ←`** (or `Alt+←`) → jump back to where you came from
-2. **`Ctrl+x →** (or `Alt+→`) → jump forward again
+2. **`Ctrl+x →** (or`Alt+→`) → jump forward again
 
 ### Why these bindings
 

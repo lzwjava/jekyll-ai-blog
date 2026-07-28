@@ -16,7 +16,7 @@ Here's the complete status of all services and how to access them from outside:
 ## 🖥️ Services Running Inside
 
 | Service | Local Address | Port | Description |
-|---------|--------------|------|-------------|
+| --------- | -------------- | ------ | ------------- |
 | **Jupyter Lab** | `0.0.0.0` | **8888** | Token: `amd-oneclick`, Base URL: `/instances/u-9758-811746f0/` |
 | **AHL (AI Video Generator)** | `127.0.0.1` | **8000** | Main demo app (responds 200) |
 | **Tunnel Demo Page** | `127.0.0.1` | **8081** | Test page ("RC Tunnel is working") |
@@ -33,6 +33,7 @@ https://rc-26cc80c1b835b7a3.radeon.firstdg.ai
 ```
 
 **But it's NOT working.** The state.json shows:
+
 ```json
 {
   "tunnel_id": "tun_cb197ffdbb65782284d9e6af",
@@ -43,6 +44,7 @@ https://rc-26cc80c1b835b7a3.radeon.firstdg.ai
 ```
 
 However, the frpc logs keep showing:
+
 ```
 oauth2: "invalid_client" "invalid client credentials"
 ```
