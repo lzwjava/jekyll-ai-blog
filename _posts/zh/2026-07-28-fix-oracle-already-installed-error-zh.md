@@ -28,22 +28,27 @@ C:\oracle\dbhomeXE\deinstall\deinstall.bat
 如果 `deinstall.bat` 缺失或无法运行，请手动清理清单：
 
 **步骤 1 — 删除 inventory.xml 引用**
+
 ```cmd
 notepad C:\Program Files\Oracle\Inventory\ContentsXML\inventory.xml
 ```
 
 查找类似以下的一行：
+
 ```xml
 <HOME NAME="OraDB21c_home1" LOC="C:\oracle\dbhomeXE" .../>
 ```
+
 删除整个 `<HOME>` 行并保存。
 
 **步骤 2 — 删除 Oracle 主目录文件夹**
+
 ```cmd
 rmdir /s /q C:\oracle\dbhomeXE
 ```
 
 **步骤 3 — 删除注册表项**
+
 ```cmd
 reg delete "HKLM\SOFTWARE\Oracle" /f
 ```

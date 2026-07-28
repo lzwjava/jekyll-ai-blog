@@ -28,22 +28,27 @@ This will cleanly remove Oracle from the central inventory. Then re-run the inst
 If `deinstall.bat` is missing or doesn't work, manually clean the inventory:
 
 **Step 1 — Delete the inventory.xml reference**
+
 ```cmd
 notepad C:\Program Files\Oracle\Inventory\ContentsXML\inventory.xml
 ```
 
 Look for a line like:
+
 ```xml
 <HOME NAME="OraDB21c_home1" LOC="C:\oracle\dbhomeXE" .../>
 ```
+
 Delete that entire `<HOME>` line and save.
 
 **Step 2 — Delete the Oracle home folder**
+
 ```cmd
 rmdir /s /q C:\oracle\dbhomeXE
 ```
 
 **Step 3 — Remove registry keys**
+
 ```cmd
 reg delete "HKLM\SOFTWARE\Oracle" /f
 ```
