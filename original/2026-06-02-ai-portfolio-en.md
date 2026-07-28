@@ -402,3 +402,7 @@ Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Struct
 
 - GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
 - Blog: [https://lzwjava.github.io](https://lzwjava.github.io)
+
+---
+
+AI translation tips: British Universal Bank(英国环球银行).
