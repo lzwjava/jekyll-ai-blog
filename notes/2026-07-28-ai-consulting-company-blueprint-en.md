@@ -11,7 +11,7 @@ type: note
 
 ## Question: How to build an AI consulting company?
 
-## Answer:
+## Answer
 
 An AI consulting company is basically a **services + engineering + knowledge business**. The core loop is:
 
