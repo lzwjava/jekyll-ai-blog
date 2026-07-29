@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is Y Combinator's "Pocket Guide for Startups"?
 
-## Answer:
+## Answer
 
 The **YC Pocket Guide** is a condensed version of Y Combinator's core startup philosophy. It is basically the founder operating system YC teaches: **ship fast, talk to users, find product-market fit, stay small, and iterate aggressively**. YC published a similar list as "YC's Essential Startup Advice." ([Y Combinator][1])
 
@@ -286,7 +286,7 @@ A bad co-founder relationship destroys companies faster than technology problems
 
 ---
 
-## For an AI startup in 2026, the YC version becomes:
+## For an AI startup in 2026, the YC version becomes
 
 ### Week 1
 
