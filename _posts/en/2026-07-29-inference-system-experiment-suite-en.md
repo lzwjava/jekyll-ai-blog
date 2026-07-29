@@ -34,7 +34,7 @@ Plus a fix to `nanovllm/engine/llm_engine.py` to prevent atexit double-free.
 ### What You Learn
 
 | Experiment | Key Insight |
-|---|---|
+| --- | --- |
 | **01** Input Length | Prefill is compute-bound, decode is memory-bound. Decode gets slower with longer context because attention reads the entire KV cache. |
 | **02** Generation Length | Decode latency increases as KV cache grows during generation. Total time scales linearly with max_tokens. |
 | **03** Batch Scaling | Batching improves throughput but increases latency. This motivates **continuous batching**. |
@@ -46,6 +46,7 @@ Plus a fix to `nanovllm/engine/llm_engine.py` to prevent atexit double-free.
 ### The Core Discovery
 
 Experiment 4's trace shows it perfectly:
+
 ```
 Step 1:  PRE-FILL 10 seqs (760 tokens) — all arrive together
 Step 2:  DECODE 10 seqs in parallel

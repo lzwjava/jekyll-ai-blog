@@ -16,7 +16,7 @@ Here are the full benchmark results with flash-attention:
 ## ⚡ Flash-Attention Benchmarks (Qwen3-0.6B, RTX 4070)
 
 | Workload | Throughput |
-|----------|-----------|
+| ---------- | ----------- |
 | **Prefill** — 8 seqs × 1024 tok | **19,548 tok/s** |
 | **Decode** — 8 seqs × 512 tok | **1,389 tok/s** |
 | **Decode** — 16 seqs × 256 tok | **2,307 tok/s** |

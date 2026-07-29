@@ -16,7 +16,7 @@ type: note
 The real issue wasn't about sticking or compiling — it was a **CUDA version mismatch**:
 
 | Component | Expected | Reality |
-|-----------|----------|---------|
+| ----------- | ---------- | --------- |
 | **PyTorch CUDA** | 13.0 (compiled with) | `torch 2.11.0+cu130` |
 | **System CUDA 12.8** | ❌ | version check failed |
 | **System CUDA 13.2** | ❌ | `13.2 != 13.0` |
@@ -27,9 +27,11 @@ The real issue wasn't about sticking or compiling — it was a **CUDA version mi
 1. **Killed** the pointless sm_80 compilation in `/mnt/data/`
 2. **Discovered** your PyTorch needs CUDA 13.0, not 12.8
 3. **Found** a prebuilt wheel at:
+
    ```
    flash_attn-2.8.3+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
    ```
+
 4. **Installed it** — no compilation needed, instant install
 
 ### Verification

@@ -22,6 +22,7 @@ pip install flash-attn==2.8.4 --no-build-isolation
 ```
 
 这将：
+
 1. ✅ 使用 **CUDA 12.8**（与 PyTorch 2.10.0+cu128 匹配）
 2. ✅ 仅构建 **sm_89** 内核（RTX 4070）——编译速度提升约 10 倍
 3. ✅ 运行 **16 个并行任务**（之前为 2 个）

@@ -22,6 +22,7 @@ pip install flash-attn==2.8.4 --no-build-isolation
 ```
 
 This will:
+
 1. ✅ Use **CUDA 12.8** (matching PyTorch 2.10.0+cu128)
 2. ✅ Build **only sm_89** kernels (RTX 4070) — ~10x faster compile
 3. ✅ Run **16 parallel jobs** (vs 2 before)
