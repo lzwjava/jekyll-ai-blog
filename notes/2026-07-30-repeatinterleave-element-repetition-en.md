@@ -62,4 +62,5 @@ kv_expanded = kv.repeat_interleave(n_rep, dim=1)
 Also common in beam search (expanding batch dim by beam count) and in upsampling ops before conv layers.
 
 References:
+
 - [torch.repeat_interleave docs](https://docs.pytorch.org/docs/stable/generated/torch.repeat_interleave.html)

@@ -43,4 +43,5 @@ out = out.squeeze(1)  # [4]
 ```
 
 参考：
+
 - [torch.squeeze docs](https://docs.pytorch.org/docs/stable/generated/torch.squeeze.html)

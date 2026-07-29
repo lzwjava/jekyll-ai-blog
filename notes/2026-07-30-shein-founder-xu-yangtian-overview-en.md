@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to SHEIN founder Xu Yangtian (许仰天 / Chris Xu / Sky Xu)
 
-## Answer:
+## Answer
 
 ![Image](https://images.openai.com/static-rsc-4/0YqdaSECixSZRNtPnxgKIQuvYfvVN5YkPOg4-TBBN6O3Vg0pAsQUL0m51fxWUHt3DNf2sTQ75ZhTIJ-uHIRU0bbTUSBozE2jEcj4X7j2lBvBxWXqZf0J1ICeUtvDcsQOP1OQ9DYqU2vHrTbayhxvgS3OYwAM6sv-gGfL1YexwS1WJNmO1NLkJKwQlKTmOAUq?purpose=fullsize)
 

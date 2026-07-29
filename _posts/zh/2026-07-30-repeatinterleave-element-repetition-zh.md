@@ -62,4 +62,5 @@ kv_expanded = kv.repeat_interleave(n_rep, dim=1)
 在 beam search 中也很常见（按 beam 数量扩展 batch 维度）以及在卷积层之前的上采样操作中。
 
 参考文档：
+
 - [torch.repeat_interleave 文档](https://docs.pytorch.org/docs/stable/generated/torch.repeat_interleave.html)

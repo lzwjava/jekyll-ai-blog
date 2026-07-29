@@ -44,4 +44,5 @@ c = a + b.unsqueeze(1)  # b: [4] -> [4,1], broadcasts against [4,5]
 It's a view op — `x.unsqueeze(0).data_ptr() == x.data_ptr()` is `True`. Gradients flow through fine since it's just a reshape in the autograd graph.
 
 References:
+
 - [torch.unsqueeze docs](https://docs.pytorch.org/docs/stable/generated/torch.unsqueeze.html)

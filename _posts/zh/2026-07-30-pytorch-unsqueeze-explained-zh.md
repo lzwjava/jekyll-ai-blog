@@ -44,4 +44,5 @@ c = a + b.unsqueeze(1)  # b: [4] -> [4,1]，与 [4,5] 进行广播
 这是一个视图操作 —— `x.unsqueeze(0).data_ptr() == x.data_ptr()` 结果为 `True`。由于在自动求导图中仅相当于一次形状重塑，梯度可以正常传播。
 
 参考文档：
+
 - [torch.unsqueeze 官方文档](https://docs.pytorch.org/docs/stable/generated/torch.unsqueeze.html)
