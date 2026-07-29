@@ -388,7 +388,7 @@ evaluation:
 
 参考资料：
 
-* Intent 文章：https://intentlab.ai/blog/turn-your-intent-into-production-systems
+* Intent 文章：<https://intentlab.ai/blog/turn-your-intent-into-production-systems>
 * （[Intent][1]）
 * （[intentrai.com][2]）
 
