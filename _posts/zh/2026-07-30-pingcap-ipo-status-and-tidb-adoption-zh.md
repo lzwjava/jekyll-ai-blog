@@ -30,6 +30,7 @@ type: note
 **总之：没有融资/IPO 消息，因为基本上没有——自 2021 年以来他们在股权结构方面一直保持沉默，押注于企业内生增长和云收入。实际采用是存在的，但属于第二梯队（有知名品牌标志，但不像 Postgres/MySQL 那样“人人都在用”）。**
 
 **参考资料：**
+
 - [PingCAP - 2025 Funding Rounds & Investors (Tracxn)](https://tracxn.com/d/companies/pingcap/__fYybWiFfmjNK0hJZgdlj0JiGtGvK9rFRupmMP7aYTis/funding-and-investors)
 - [PingCAP Company Profile (PitchBook)](https://pitchbook.com/profiles/company/182210-59)
 - [PingCAP Customers - Case Studies](https://www.pingcap.com/customers/)

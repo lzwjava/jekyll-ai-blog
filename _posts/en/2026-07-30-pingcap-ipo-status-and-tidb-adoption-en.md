@@ -30,6 +30,7 @@ Answer:
 Bottom line: no fundraiser/IPO news because there basically isn't any — they've been quiet on the cap table front since 2021 and are betting on organic enterprise + cloud revenue instead. Adoption is real but tier-2 (name-brand logos exist, but it's not "everyone uses this" like Postgres/MySQL).
 
 References:
+
 - [PingCAP - 2025 Funding Rounds & Investors (Tracxn)](https://tracxn.com/d/companies/pingcap/__fYybWiFfmjNK0hJZgdlj0JiGtGvK9rFRupmMP7aYTis/funding-and-investors)
 - [PingCAP Company Profile (PitchBook)](https://pitchbook.com/profiles/company/182210-59)
 - [PingCAP Customers - Case Studies](https://www.pingcap.com/customers/)
