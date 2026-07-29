@@ -14,7 +14,7 @@ This is the **most counter-intuitive** result — and it reveals a fundamental t
 ## The Data
 
 | Batch Size | Total Time | Throughput | Tokens | Speedup |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 1 | 7.8s | 16 tok/s | 128 | 1.0× |
 | 2 | 13.3s | 19 tok/s | 256 | 1.2× |
 | 4 | 24.1s | 21 tok/s | 512 | 1.3× |
@@ -28,6 +28,7 @@ This is the **most counter-intuitive** result — and it reveals a fundamental t
 ### 1. The Prompt is Short, But the GQA Problem Bites
 
 Each request uses this prompt:
+
 ```
 "Explain what makes a good software engineer in your own words."
 ```
@@ -51,6 +52,7 @@ This does a Python loop over sequences and positions. **It's O(batch × seqlen) 
 ### 2. Decode is Memory-Bandwidth Bound, But Not Fully Saturating HBM
 
 On this GPU (RTX 4070 laptop, 8GB):
+
 - HBM bandwidth: ~256 GB/s
 - Model size: ~1.2 GB (Qwen3-0.6B in FP16)
 - To decode 1 token: read ~1.2GB of weights + read KV cache
@@ -66,7 +68,7 @@ At 23 tok/s: 23 × 1.2GB = 27.6 GB/s — still only **11% of bandwidth**.
 This nano-vLLM is **educational** — it shows the architecture but doesn't have optimized CUDA kernels. Let me compare with what real vLLM would do:
 
 | Engine | Batch=1 | Batch=16 | Scaling |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | nano-vLLM (naive PyTorch) | 16 tok/s | 23 tok/s | 1.4× |
 | vLLM (optimized CUDA) | ~50 tok/s | ~300 tok/s | 6× |
 
@@ -96,6 +98,7 @@ Prefill=2996 tok/s   (batch=16)
 **Prefill scales beautifully!** From 1068 → 2996 tok/s (2.8× gain for 8× batch). Why? Because prefill processes ALL tokens in one big matrix multiply — no Python loop over sequences in the attention.
 
 But decode is always:
+
 ```
 Decode=11-12 tok/s    (all batch sizes)
 ```

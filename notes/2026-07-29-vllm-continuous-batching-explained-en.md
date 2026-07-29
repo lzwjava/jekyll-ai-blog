@@ -16,7 +16,7 @@ Looking at this trace — this is the **heart of vLLM**. Let me decode what you'
 You sent **10 requests simultaneously** with very different profiles:
 
 | seq | Type | Prompt | Generation | Total |
-|-----|------|--------|------------|-------|
+| ----- | ------ | -------- | ------------ | ------- |
 | 6 | Short answer ("42") | 2 tok | 4 tok | **6 total** |
 | 4 | Long context (fox dog ×50) | 507 tok | 8 tok | **515 total** |
 | 2 | Short Q&A | 7 tok | 16 tok | **23 total** |
@@ -71,12 +71,14 @@ seq[7]   ███████████████████████�
 ### 1. Continuous Batching ≠ Static Batching
 
 **Static batching** (the naive approach):
+
 - Wait until you have N requests
 - Pad all prompts to the same length
 - Run ALL sequences for ALL max_tokens steps
 - A short Q&A waits 64 steps while the essay finishes
 
 **Continuous batching** (what vLLM does):
+
 - Each sequence progresses independently
 - Short ones finish and **leave immediately**
 - New ones can **join mid-stream**
@@ -87,6 +89,7 @@ seq[7]   ███████████████████████�
 ```
 free_blocks:  6 → 1 → 7 → 11 → 14 → 16 → 23
 ```
+
 - Starts at 6 (some blocks used by model weights)
 - Drops to 1 during peak pressure (all 10 sequences active)
 - **Climbs to 23** as sequences finish and free their KV cache blocks
@@ -95,6 +98,7 @@ free_blocks:  6 → 1 → 7 → 11 → 14 → 16 → 23
 ### 3. prompt_len vs total_len
 
 Look at seq[11]:
+
 ```
 prompt_len=187  total_len=219  blocks=1
 ```
@@ -110,6 +114,7 @@ Without continuous batching + PagedAttention:
 3. **Fragmentation:** Sequential allocation creates gaps when sequences finish at different times.
 
 With PagedAttention:
+
 - Blocks are allocated on demand
 - When seq[6] finishes, its block goes back to the free pool
 - seq[7] (the essay) can use that block for its next token

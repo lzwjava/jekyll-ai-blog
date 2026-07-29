@@ -463,7 +463,7 @@ without API cost.
 
 The important trend is:
 
-### Model architecture is becoming hardware-aware.
+### Model architecture is becoming hardware-aware
 
 2020:
 

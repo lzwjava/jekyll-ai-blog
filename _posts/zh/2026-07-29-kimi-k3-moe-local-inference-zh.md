@@ -27,14 +27,14 @@ type: note
 
 Kimi K3（据文章所述）是：
 
-*   约 2.8 万亿参数
-*   采用 MoE（混合专家）架构
-*   原生 MXFP4 训练
-*   权重大小为 1.6TB
-*   混合架构，包含：
-    *   KDA（Kimi Delta Attention）
-    *   LatentMoE
-    *   NoPE（无旋转位置编码）
+* 约 2.8 万亿参数
+* 采用 MoE（混合专家）架构
+* 原生 MXFP4 训练
+* 权重大小为 1.6TB
+* 混合架构，包含：
+  * KDA（Kimi Delta Attention）
+  * LatentMoE
+  * NoPE（无旋转位置编码）
 
 重要的数字不是 2.8T。
 
@@ -218,9 +218,9 @@ output
 
 与以下概念的哲学相似：
 
-*   LoRA
-*   潜在扩散模型 (latent diffusion)
-*   低秩分解 (low-rank factorization)
+* LoRA
+* 潜在扩散模型 (latent diffusion)
+* 低秩分解 (low-rank factorization)
 
 模型在保持能力的同时，减少了活跃计算量。
 
@@ -458,7 +458,7 @@ Kimi K3 的方法：
 
 重要的趋势是：
 
-### 模型架构正变得对硬件感知。
+### 模型架构正变得对硬件感知
 
 2020 年：
 
@@ -503,10 +503,10 @@ MoE 模型
 
 他们需要的是：
 
-*   便宜的存储
-*   足够的带宽
-*   智能路由
-*   稀疏激活
+* 便宜的存储
+* 足够的带宽
+* 智能路由
+* 稀疏激活
 
 ---
 
@@ -544,6 +544,6 @@ MoE 模型
 
 参考文献：
 
-*   Sebastian Raschka, "Kimi K3 Architecture Notes" — [https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html](https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html)
-*   Deltafin GitHub — [https://github.com/gavamedia/deltafin](https://github.com/gavamedia/deltafin)
-*   Hacker News 讨论: Running Kimi K3 on M1 Max — [https://news.ycombinator.com/item?id=49090233](https://news.ycombinator.com/item?id=49090233)
+* Sebastian Raschka, "Kimi K3 Architecture Notes" — [https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html](https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html)
+* Deltafin GitHub — [https://github.com/gavamedia/deltafin](https://github.com/gavamedia/deltafin)
+* Hacker News 讨论: Running Kimi K3 on M1 Max — [https://news.ycombinator.com/item?id=49090233](https://news.ycombinator.com/item?id=49090233)
