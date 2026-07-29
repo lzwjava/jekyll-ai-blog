@@ -14,6 +14,7 @@ type: note
 Common uses:
 
 **OS/scheduling:** A higher-priority process interrupts a lower-priority one running on the CPU.
+
 ```c
 // preemptive multitasking: OS scheduler can pause a running process
 // even if it hasn't finished, to give CPU time to another process
