@@ -16,6 +16,7 @@ Answer:
 `torch.einsum` is Einstein summation notation — a mini-DSL for expressing sums-of-products over tensor indices without manually calling `transpose`/`matmul`/`sum`. You write which indices each input has and which indices survive in the output; any index that's repeated across inputs but *not* in the output gets summed over (contracted).
 
 Signature:
+
 ```python
 torch.einsum(equation, *tensors)
 ```
@@ -35,6 +36,7 @@ torch.allclose(C1, C2)  # True
 ```
 
 Concrete forward-pass style walk (batched attention scores, the thing you actually use daily):
+
 ```python
 # Q, K: (batch, heads, seq, dim)
 Q = torch.randn(2, 8, 10, 64)
@@ -47,6 +49,7 @@ print(scores.shape)  # (2, 8, 10, 10)
 ```
 
 Other common patterns:
+
 ```python
 # batch matmul
 torch.einsum('bij,bjk->bik', A, B)          # == torch.bmm(A, B)
@@ -72,5 +75,6 @@ Mental model: think of it as writing the naive nested-for-loop version of the ma
 One gotcha: for >2 tensors or long equations, `torch.einsum` finds a contraction order automatically but doesn't always pick the FLOP-optimal one — for perf-critical multi-tensor contractions check `opt_einsum` or just benchmark against manual ops.
 
 References:
+
 - [torch.einsum docs](https://docs.pytorch.org/docs/stable/generated/torch.einsum.html)
 - [Einsum is All You Need (Kolter/Rush explainer)](https://rockt.ai/2018/04/30/einsum)

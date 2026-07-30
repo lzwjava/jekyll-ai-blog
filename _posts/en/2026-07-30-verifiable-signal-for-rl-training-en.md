@@ -353,7 +353,7 @@ card=<CARD_NUMBER>
 
 ---
 
-## 7. For someone building AI infra, the interesting project is:
+## 7. For someone building AI infra, the interesting project is
 
 Not:
 

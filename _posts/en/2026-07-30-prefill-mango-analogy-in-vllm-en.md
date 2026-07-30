@@ -322,7 +322,7 @@ If you mean the Chinese phrase:
 
 Imagine eating mango:
 
-### Prefill:
+### Prefill
 
 Cut the whole mango:
 
@@ -332,7 +332,7 @@ Cut the whole mango:
 
 You process all existing tokens.
 
-### Decode:
+### Decode
 
 Eat one piece at a time:
 

@@ -27,6 +27,7 @@ Also worth noting given your work: he thinks Anthropic's coding-agent lead is cy
 One caveat: authenticity is unconfirmed. DeepSeek hasn't officially verified the transcript, and it's a translated/auto-transcribed leak — treat specifics (numbers, exact phrasing) as directionally reliable but not verbatim-official.
 
 References:
+
 - [DeepSeek's Liang Wenfeng Breaks His Silence — Fred Gao](https://www.fredgao.com/p/deepseeks-liang-wenfeng-breaks-his)
 - [Alleged Leaked Transcript: 118 Answers on His Roadmap — China Academy](https://thechinaacademy.org/leaked-transcript-of-deepseek-ceos-four-hour-meeting-118-answers-on-his-roadmap/)
 - [DeepSeek halts fundraising after leak — Seoul Economic Daily](https://en.sedaily.com/international/2026/07/26/deepseek-abruptly-halts-fundraising-after-founders-remarks)

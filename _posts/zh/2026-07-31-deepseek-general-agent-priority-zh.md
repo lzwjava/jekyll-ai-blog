@@ -29,6 +29,7 @@ type: note
 一个提醒：真实性未经确认。DeepSeek尚未正式核实该会议记录，且这是一份翻译/自动转录的泄露文件——请将具体细节（数字、确切措辞）视为方向性可靠而非逐字官方。
 
 参考文献：
+
 - [DeepSeek's Liang Wenfeng Breaks His Silence — Fred Gao](https://www.fredgao.com/p/deepseeks-liang-wenfeng-breaks-his)
 - [Alleged Leaked Transcript: 118 Answers on His Roadmap — China Academy](https://thechinaacademy.org/leaked-transcript-of-deepseek-ceos-four-hour-meeting-118-answers-on-his-roadmap/)
 - [DeepSeek halts fundraising after leak — Seoul Economic Daily](https://en.sedaily.com/international/2026/07/26/deepseek-abruptly-halts-fundraising-after-founders-remarks)

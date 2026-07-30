@@ -16,6 +16,7 @@ type: note
 `torch.einsum` 是爱因斯坦求和约定——一种微型领域特定语言（DSL），用于表达张量索引上的乘积求和运算，无需手动调用`transpose`/`matmul`/`sum`。你只需要指定每个输入张量具有哪些索引，以及输出中保留哪些索引；任何在输入中重复但**不在**输出中的索引都会进行求和（即缩并）。
 
 签名：
+
 ```python
 torch.einsum(equation, *tensors)
 ```
@@ -35,6 +36,7 @@ torch.allclose(C1, C2)  # True
 ```
 
 具体的前向传播风格示例（批量注意力分数，实际中你日常使用的场景）：
+
 ```python
 # Q, K: (batch, heads, seq, dim)
 Q = torch.randn(2, 8, 10, 64)
@@ -47,6 +49,7 @@ print(scores.shape)  # (2, 8, 10, 10)
 ```
 
 其他常见模式：
+
 ```python
 # 批量矩阵乘法
 torch.einsum('bij,bjk->bik', A, B)          # == torch.bmm(A, B)
@@ -72,5 +75,6 @@ torch.einsum('ij->i', A)                    # A.sum(dim=1)
 一个需要注意的点：对于超过2个张量或较长的公式，`torch.einsum`会自动寻找缩并顺序，但并非总是选择FLOP最优的路径——对于性能关键的多张量缩并，建议检查`opt_einsum`或通过与手动操作进行基准测试来对比。
 
 参考文献：
+
 - [torch.einsum文档](https://docs.pytorch.org/docs/stable/generated/torch.einsum.html)
 - [Einsum is All You Need（Kolter/Rush讲解）](https://rockt.ai/2018/04/30/einsum)

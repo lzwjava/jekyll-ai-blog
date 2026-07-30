@@ -78,7 +78,7 @@ If you were asking about the trailing comma in your pasted snippet, that would b
 
 ---
 
-### How this RoPE implementation works:
+### How this RoPE implementation works
 
 1. **`__init__`** — Precomputes the full cos/sin table up to `max_position_embeddings`:
    - `inv_freq` = `1 / (base^(2i/dim))` for `i = 0, 2, 4, ...` (standard RoPE frequency bands)
@@ -89,10 +89,12 @@ If you were asking about the trailing comma in your pasted snippet, that would b
 2. **`forward`** — Looks up precomputed cos/sin for given `positions`, splits into cos/sin halves, and applies the rotation to both query and key.
 
 3. **`apply_rotary_emb`** — Splits `x` into two halves `(x1, x2)` and applies:
+
    ```
    y1 = x1·cos - x2·sin
    y2 = x2·cos + x1·sin
    ```
+
    This is the standard 2D rotation per pair of dimensions.
 
 4. **`get_rope`** — A singleton factory cached with `lru_cache` so you only create one RotaryEmbedding per config.

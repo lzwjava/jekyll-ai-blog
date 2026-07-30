@@ -17,6 +17,7 @@ Answer: Nothing about being a Chinese citizen specifically blocks this — Singa
 Private Limited (Pte Ltd) is what you want — 100% foreign ownership allowed, limited liability, separate legal entity. Skip sole prop/partnership unless you're relocating and don't need liability protection.
 
 **2. Non-negotiable requirements**
+
 - ≥1 shareholder (you, as an individual or via a BVI/HK holdco)
 - ≥1 director who is "locally resident": Singapore citizen, PR, or EP/EntrePass holder every Singapore company must have at least one local resident director. If you're not relocating, you buy a **nominee director service** (~S$1,500-3,000/yr from a corporate service provider).
 - Registered Singapore office address (can be virtual, from your CSP)
@@ -33,6 +34,7 @@ You'd need an Employment Pass or EntrePass, which comes with income/qualificatio
 
 **5. The part Singapore guides don't tell you: China-side compliance**
 This is the actual risk for a Chinese citizen, not the SG side:
+
 - **SAFE / ODI registration**: If you're funding the SG company from mainland RMB/personal funds, technically you need Outbound Direct Investment (ODI) filing with NDRC/MOFCOM/SAFE. Most people skip this and fund via HK/personal overseas accounts or existing USD/crypto revenue — legally gray but extremely common.
 - **CFC rules**: If you (mainland tax resident) control >50% of the SG entity and it's low-taxed, China's CFC rules can theoretically pull the profits back into your personal China tax base if not distributed. Rarely enforced against small holdcos but worth knowing.
 - **Annual $50k FX conversion quota**: capital movement out of China is the practical bottleneck, not the SG incorporation.
@@ -42,6 +44,7 @@ If your AI consulting revenue is already in USD/foreign clients paying into a HK
 **Cost estimate**: CSP incorporation + nominee director + registered address + secretary ≈ S$2,500-4,000 first year, then S$1,500-2,500/yr recurring.
 
 References:
+
 - [ACRA — registration of foreign companies](https://www.acra.gov.sg)
 - [How to Register a Company in Singapore for Foreigners 2026](https://terraadvisoryservices.blog/how-to-register-a-company-in-singapore-for-foreigners/)
 - [Foreign Company Registration in Singapore: Guide for 2026 - Statrys](https://statrys.com/sg/guides/company-formation/register-company-in-singapore-for-foreigners)

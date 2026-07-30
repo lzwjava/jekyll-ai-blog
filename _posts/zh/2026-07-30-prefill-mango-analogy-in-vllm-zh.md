@@ -322,7 +322,7 @@ block 3
 
 想象一下吃芒果：
 
-### Prefill：
+### Prefill
 
 切整个芒果：
 
@@ -332,7 +332,7 @@ block 3
 
 你处理所有现有的 tokens。
 
-### Decode：
+### Decode
 
 一次吃一块：
 
