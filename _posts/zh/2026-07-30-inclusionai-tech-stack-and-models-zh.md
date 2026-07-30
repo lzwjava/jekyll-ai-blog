@@ -42,6 +42,7 @@ AReaL（蚂蚁推理强化学习）——面向推理/智能体模型的开源�
 **需要明确指出的注意事项（而非隐藏）**：InclusionAI在蚂蚁集团旗下运营，总部位于中国，受中国《国家情报法》（2017年）、《数据安全法》（2021年）和《网络安全法》（2017年）约束——如果你通过其API/OpenRouter端点路由生产流量，而非自托管开源权重，这一点需要关注。
 
 参考文献：
+
 - [InclusionAI GitHub组织](https://github.com/inclusionAI)
 - [LLaDA2.X仓库](https://github.com/inclusionAI/LLaDA2.X)
 - [Ling-2.6-1T公告](https://phemex.com/news/article/ant-group-unveils-ling261t-a-trillionparameter-ai-model-76554)

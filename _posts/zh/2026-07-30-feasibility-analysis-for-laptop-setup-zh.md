@@ -16,12 +16,15 @@ type: note
 ## 🔍 完整分析：DeepSpec 能否在这台笔记本上运行？
 
 ### ✅ 我们已完成的步骤
+
 - 从 `/mnt/data/zz-backup/datasets/fineweb-edu/` 清理了约 **91 GB**（最旧的 3 个爬取转储）
 - **1.8 TB 数据盘** 现在有 **731 GB 可用空间** ✅
 - HuggingFace 缓存已通过符号链接指向 `/mnt/data/` ✅
 
 ### ⚠️ 剩余瓶颈：根分区（已满 99%）
+
 根分区（`/dev/nvme0n1p2`，916 GB）仅剩 **14 GB 可用空间**。由于模型检查点/tensorboard/缓存默认都放在 `~/`（根分区下），我们需要清理或创建符号链接。根分区上的大文件：
+
 - `/home/lzw/projects/` — **488 GB**（许多旧项目）
 - `/home/lzw/Downloads/` — **38 GB**
 - `/home/lzw/qDownloads/` — **14 GB**
@@ -29,7 +32,7 @@ type: note
 ### 🧩 实际能运行的部分
 
 | 阶段 | 可行性 | 原因 |
-|---|---|---|
+| --- | --- | --- |
 | **pip install -r requirements.txt** | ✅ 很可能可行 | 依赖项合理 |
 | **数据下载**（步骤 1） | ✅ 可行 | 输出小，`/mnt/data/` 空间充足 |
 | **重新生成答案**（步骤 2） | ⚠️ 部分可行 | 需要 SGLang（未安装），1 块 GPU 而非 8 块 → 非常慢 |
@@ -47,7 +50,8 @@ type: note
 
 **风险**：11.6 GB 的 VRAM 对 Qwen3-4B（8 GB）+ 草案模型 + 生成上下文来说很紧张。可能需要减少 `--max-new-tokens`，否则会 OOM。
 
-### 🧹 为了使其正常工作，我建议：
+### 🧹 为了使其正常工作，我建议
+
 1. 将 `~/checkpoints/` 和 `~/.cache/deepspec/` 通过符号链接指向 `/mnt/data/`，这样模型缓存/检查点不会填满根分区
 2. 清理根分区上旧的 Downloads（共 52 GB），腾出空间
 

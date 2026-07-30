@@ -40,6 +40,7 @@ def checkpoint(fn, *args):
             return tuple(i.grad for i in inputs)
     return F.apply(*args)
 ```
+
 他们希望你解释*为什么*这种做法用计算换内存（在反向传播中重新计算激活值，而不是存储）。
 
 - 设计一个支持抢占和检查点的分布式任务队列，用于10万+ GPU训练任务（这个确切的问题今年反复出现）。
@@ -73,6 +74,7 @@ def checkpoint(fn, *args):
 鉴于你已经在MI300X上训练过GPT-2 760M，并且每月跨模型运行约20亿个令牌——实际准备做法是：准备用自己运行中的真实数据（MFU百分比、每GPU每秒令牌数、每个令牌的成本）来证明架构选择，而非教科书式的答案。这才是面试官现在评估的真正的区分点。
 
 参考文献：
+
 - [System Design Interview Prep 2026 - Exponent](https://www.tryexponent.com/blog/system-design-interview-guide)
 - [Anthropic Infrastructure Engineer Interview Questions 2026](https://www.gethireready.com/interview-guides/infrastructure-engineer-anthropic)
 - [50+ AI Infrastructure Engineer Interview Questions](https://www.index.dev/interview-questions/ai-infrastructure-engineer)

@@ -45,15 +45,18 @@ def _preempt(self, seq_group, blocks_to_swap_out):
 哪个序列会被选为牺牲者：vLLM 通常采用 LIFO 策略，选择最近调度的请求作为牺牲者，被抢占的请求被追加到 WAITING 队列的前端而非丢弃——因此它不会失去排队位置，只是重新付出 prefill 成本。
 
 触发时，日志中会出现如下信息：
+
 ```
 WARNING scheduler.py:1057 Sequence group 0 is preempted by PreemptionMode.RECOMPUTE
 mode because there is not enough KV cache space.
 ```
+
 这可能影响端到端性能；增加 `gpu_memory_utilization` 或 `tensor_parallel_size` 可提供更多 KV 缓存内存。通过 Prometheus 指标 `vllm:num_preemptions_total` 进行跟踪——如果在额定负载下该指标稳步增长，请降低 `--max-model-len`、提高 `--gpu-memory-utilization` 或增加容量。
 
 对你的实际部署来说：如果你在 MI300X 上服务长上下文请求并看到抢占抖动，首先检查 `gpu_memory_utilization`（提高它），然后考虑 `--enable-chunked-prefill`（优先处理解码而非新的 prefill，以免正在运行的序列被饿死）。如果你遇到对抗性/突发性流量混合短请求和长请求，那正是那篇 DoS 论文中描述的攻击模式——攻击者不断推动内存越过阈值，迫使受害者陷入昂贵的重算抖动。
 
 参考资料：
+
 - [vLLM Scheduler API docs](https://docs.vllm.ai/en/v0.10.1/api/vllm/core/scheduler.html)
 - [Optimization and Tuning — vLLM](https://docs.vllm.ai/en/stable/configuration/optimization/)
 - [vLLM Explained: PagedAttention and Continuous Batching](https://www.runpod.io/articles/guides/vllm-pagedattention-continuous-batching)

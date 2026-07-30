@@ -20,6 +20,7 @@ type: note
 ### 错误1：错误的内存计算公式（位于`model_runner.py`）
 
 原始公式为：
+
 ```python
 used = total - free                   # 操作系统级别：所有GPU进程
 peak = memory_stats()["...peak"]      # PyTorch级别：仅当前进程  
@@ -59,6 +60,7 @@ config.num_kvcache_blocks = max(1, available // block_bytes)
 ## 实验结果
 
 调度器追踪显示清晰的连续批处理过程：
+
 - **10个请求** → 1个预填充步骤（760 tokens），63个解码步骤
 - 序列逐步完成：最早在步骤5完成（简短回答，4 tokens），最晚在步骤64完成（长文回答，64 tokens）
 - 预填充后`free_blocks`从212开始，随着序列完成逐步攀升至222

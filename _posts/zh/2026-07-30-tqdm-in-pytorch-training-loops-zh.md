@@ -30,6 +30,7 @@ for epoch in range(epochs):
 ```
 
 关键机制：
+
 - `tqdm(iterable)` 返回一个生成器包装器——它会事先对可迭代对象调用 `len()`（如果可用）（数据加载器通过 `len(dataset)/batch_size` 提供 `__len__`），从而计算进度条及预计剩余时间的总数。
 - `set_postfix(**kwargs)` 在不换行的情况下更新进度条尾部的 `{...}` 字典——这正是用于实时显示损失、学习率、每秒 token 数的方法。
 - `set_description(str)` 更新前导标签（例如 `f"loss {loss:.4f}"`）。
@@ -41,5 +42,6 @@ for epoch in range(epochs):
 它纯粹是外观/可观测性方面的工具——对梯度、分布式通信或实际训练数学没有任何影响。如果在高步率下它拖慢了你的速度（很少见，但在使用小批量的超快 H100 循环中可能发生），可以通过 `disable=True` 禁用它，或者增大 `mininterval`。
 
 参考资料：
+
 - [tqdm 文档](https://tqdm.github.io/)
 - [tqdm GitHub](https://github.com/tqdm/tqdm)

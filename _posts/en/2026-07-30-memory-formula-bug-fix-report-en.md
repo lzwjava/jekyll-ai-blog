@@ -20,6 +20,7 @@ The experiment ran to completion successfully! Here's a summary of what was wron
 ### Bug 1: Broken memory formula (in `model_runner.py`)
 
 The original formula was:
+
 ```python
 used = total - free                   # OS-level: ALL GPU processes
 peak = memory_stats()["...peak"]      # PyTorch-level: only THIS process  
@@ -59,6 +60,7 @@ This freed enough GPU memory for the forward pass to run.
 ## Experiment Output
 
 The scheduler trace shows clean continuous batching:
+
 - **10 requests** → 1 prefill step (760 tokens), 63 decode steps
 - Sequences finish incrementally: first at step 5 (Short answer, 4 tokens), last at step 64 (Essay, 64 tokens)
 - `free_blocks` started at 212 after prefill, climbed to 222 as sequences completed

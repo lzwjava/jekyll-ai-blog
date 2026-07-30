@@ -24,15 +24,19 @@ seq[  7] prompt_len=    6 total_len=   65 blocks=  1 cached=   64 scheduled=   1
 Here's what every field means:
 
 ### `seq[7]`
+
 The sequence ID. Each request gets one. IDs are assigned in order of `add_request()`.
 
 ### `prompt_len=6`
+
 **Number of prompt (input) tokens** — never changes for a given sequence.
 
 ### `total_len=65`
+
 **Total tokens in this sequence right now** (prompt + generated so far). Grows by 1 each decode step as a new token is appended.
 
 ### `blocks=1`
+
 **Number of physical KV cache blocks allocated** to this sequence. With `block_size=256`, the formula is:
 
 ```
@@ -43,9 +47,11 @@ So for `total_len=65` → `ceil(65/256) = 1` block. Even for `total_len=211` →
 That's why you see `blocks=1` even with 211 tokens — they all fit in one 256-slot block.
 
 ### `cached=64`
+
 **Number of tokens that have already been consumed as input by the model.** Think of this as "how many tokens have been processed/forward-passed so far." It counts all tokens the model has already seen — both prompt tokens AND previously generated tokens that were fed back as input.
 
 ### `scheduled=1`
+
 **Tokens to be processed in this step.** During decode, this is always 1 (generate the next token). During prefill, this can be >1 (the remaining prompt tokens to process in one shot, or a chunk if chunked prefill is happening).
 
 ---
@@ -66,7 +72,7 @@ Decode n     n+6          n+7    (after n decode steps)
 So when you see `cached=64, total_len=65`:
 
 | Field | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `prompt_len` | 6 | Original prompt tokens |
 | `cached` | 64 | 6 prompt + 58 previous outputs the model has already consumed as input |
 | `total_len` | 65 | 6 prompt + 59 generated tokens exist in the buffer |

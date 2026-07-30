@@ -18,7 +18,7 @@ Here's what I found across your notes, commits, and the nano-vllm project. Let m
 You have **7 notes** spanning June 12 → July 29, 2026:
 
 | Date | Note |
-|------|------|
+| ------ | ------ |
 | Jun 12 | `nano-vllm-minimal-vllm-reimplementation-en.md` — first intro |
 | Jun 24 | `minimal-vllm-re-implementation-en.md` — repeated intro |
 | Jul 24 | `nano-vllm-architecture-and-performance-en.md` — architecture deep-dive |
@@ -36,7 +36,7 @@ You've **read deeply** and **the system runs**. But reading architecture notes a
 ### 1. You jumped between three different mental models
 
 | System | What it does |
-|--------|-------------|
+| -------- | ------------- |
 | **nanoGPT** | Training a GPT model from scratch (loss curves, dataset prep, optimizer) |
 | **nanochat** | Training a chat model (SFT, DDP, dataset pipeline) |
 | **nano-vllm** | **Serving** an already-trained model (batching, scheduling, KV cache management) |
@@ -65,6 +65,7 @@ The experiments README literally says: *"Learn inference systems like you learne
 ### 3. The concepts in nano-vllm are genuinely hard without observation
 
 The scheduler + block_manager is ~200 lines but packs in:
+
 - **PagedAttention** — KV cache split into blocks, allocated on-demand
 - **Prefix caching** — xxhash-based block sharing between requests
 - **Preemption** — evicting running sequences when KV cache is full

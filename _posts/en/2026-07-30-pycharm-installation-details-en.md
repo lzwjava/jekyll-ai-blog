@@ -12,7 +12,7 @@ type: note
 Yes, PyCharm is installed on this laptop. Here's what I found:
 
 | Detail | Info |
-|---|---|
+| --- | --- |
 | **Edition** | PyCharm Community Edition 2023.2.3 |
 | **Install path** | `/home/lzw/pycharm-community-2023.2.3/` |
 | **Launcher script** | `/home/lzw/pycharm-community-2023.2.3/bin/pycharm.sh` |

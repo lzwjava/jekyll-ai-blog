@@ -22,10 +22,10 @@ python3.12 experiments/04_scheduler_watch.py
 
 This is described as **"the 'loss curve moment' for inference systems"** — the single most important experiment. You watch continuous batching happen in real time: 10 requests start together, then progressively finish and leave the batch. It's the core vLLM insight made visible.
 
-### After that, follow this order for the full picture:
+### After that, follow this order for the full picture
 
 | # | Experiment | Why |
-|---|-----------|-----|
+| --- | ----------- | ----- |
 | **4** | `04_scheduler_watch.py` ⭐ | See continuous batching with your own eyes |
 | **1** | `01_input_length.py` | Understand prefill (compute-bound) vs decode (memory-bound) |
 | **2** | `02_generation_length.py` | See KV cache grow and slow down decode |

@@ -265,9 +265,9 @@ GPU
 目标：构建作品集
 
 完成：
-- GPT 训练仓库
-- 3 篇技术文章
-- 清理 GitHub 仓库
+* GPT 训练仓库
+* 3 篇技术文章
+* 清理 GitHub 仓库
 
 ---
 
@@ -276,9 +276,9 @@ GPU
 目标：掌握推理
 
 实现：
-- 迷你版 vLLM
-- KV cache
-- batching
+* 迷你版 vLLM
+* KV cache
+* batching
 
 发布。
 

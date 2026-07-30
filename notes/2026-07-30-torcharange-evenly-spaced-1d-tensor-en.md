@@ -40,4 +40,5 @@ mask = torch.arange(seq_len)[None, :] <= torch.arange(seq_len)[:, None]
 One gotcha: floating-point `step` can accumulate rounding error near `end`, so for fractional steps `linspace` is often safer than `arange`.
 
 References:
+
 - [torch.arange — PyTorch docs](https://docs.pytorch.org/docs/stable/generated/torch.arange.html)

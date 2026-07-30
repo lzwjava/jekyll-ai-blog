@@ -26,5 +26,6 @@ type: note
 所以真正的答案是：内容质量设定了一个上限，但钩子 + 情感触发 + 平台算法适配 + 持续更新，才决定了你是否能触及这个上限。大多数"内容就是那么棒"的说法都是幸存者偏差——同样优秀的内容，只要在上述某一环节出错，就永远无法被人看到。
 
 参考来源：
+
 - [《传染：为什么事物会流行》——Jonah Berger，STEPPS框架](https://jonahberger.com/books/contagious/)
 - [MrBeast谈以留存为导向的内容设计](https://www.youtube.com/watch?v=UUEyWL06yZE)

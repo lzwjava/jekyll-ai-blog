@@ -30,6 +30,7 @@ for epoch in range(epochs):
 ```
 
 Key mechanics:
+
 - `tqdm(iterable)` returns a generator wrapper — it calls `len()` on the iterable up front if available (dataloader has `__len__` via `len(dataset)/batch_size`) to compute the total for the bar and ETA.
 - `set_postfix(**kwargs)` updates the trailing `{...}` dict on the bar without a new line — this is what you use for live loss/lr/tokens-per-sec.
 - `set_description(str)` updates the leading label (e.g. `f"loss {loss:.4f}"`).
@@ -41,5 +42,6 @@ Key mechanics:
 It's purely cosmetic/observability — has zero effect on gradients, on distributed comms, or on the actual training math. If it's slowing you down at high step-rate (rare, but happens on very fast H100 loops with tiny batches), disable with `disable=True` or bump `mininterval`.
 
 References:
+
 - [tqdm docs](https://tqdm.github.io/)
 - [tqdm GitHub](https://github.com/tqdm/tqdm)

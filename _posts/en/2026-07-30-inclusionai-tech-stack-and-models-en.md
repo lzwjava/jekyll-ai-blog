@@ -42,6 +42,7 @@ Also: ABench (internal benchmark suite) and dInfer (inference framework built fo
 **Caveat worth noting explicitly, not burying**: InclusionAI operates under Ant Group, headquartered in China, subject to China's National Intelligence Law (2017), Data Security Law (2021), and Cybersecurity Law (2017) — relevant if you're routing production traffic through their API/OpenRouter endpoint rather than self-hosting the open weights.
 
 References:
+
 - [InclusionAI GitHub org](https://github.com/inclusionAI)
 - [LLaDA2.X repo](https://github.com/inclusionAI/LLaDA2.X)
 - [Ling-2.6-1T announcement](https://phemex.com/news/article/ant-group-unveils-ling261t-a-trillionparameter-ai-model-76554)

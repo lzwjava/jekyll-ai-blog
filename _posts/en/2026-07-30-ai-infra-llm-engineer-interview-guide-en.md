@@ -40,6 +40,7 @@ def checkpoint(fn, *args):
             return tuple(i.grad for i in inputs)
     return F.apply(*args)
 ```
+
 They want you to explain *why* this trades compute for memory (recompute activations in backward instead of storing).
 
 - Design a distributed job queue for 100k+ GPU training jobs with preemption + checkpointing (this exact prompt showed up repeatedly this year).
@@ -73,6 +74,7 @@ They want you to explain *why* this trades compute for memory (recompute activat
 Given you've already trained GPT-2 760M on MI300X and run ~2B tokens/mo across models — the practical prep is: be ready to justify architecture choices with real numbers from your own runs (MFU %, tokens/sec/GPU, cost per token) rather than textbook answers. That's the actual differentiator interviewers are grading for now.
 
 References:
+
 - [System Design Interview Prep 2026 - Exponent](https://www.tryexponent.com/blog/system-design-interview-guide)
 - [Anthropic Infrastructure Engineer Interview Questions 2026](https://www.gethireready.com/interview-guides/infrastructure-engineer-anthropic)
 - [50+ AI Infrastructure Engineer Interview Questions](https://www.index.dev/interview-questions/ai-infrastructure-engineer)

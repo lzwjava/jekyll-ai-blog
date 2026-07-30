@@ -26,5 +26,6 @@ Answer: No — quality is necessary but not sufficient. Virality is a distributi
 So the real answer: content quality sets a ceiling, but hook + emotional trigger + platform-algorithm fit + consistency is what determines whether you hit that ceiling or not. Most "the content is just that good" narratives are survivorship bias — plenty of equally good content never gets seen because it missed one of the above.
 
 References:
+
 - [Contagious: Why Things Catch On — Jonah Berger, STEPPS framework](https://jonahberger.com/books/contagious/)
 - [MrBeast on retention-driven content design](https://www.youtube.com/watch?v=UUEyWL06yZE)

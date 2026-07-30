@@ -16,12 +16,15 @@ Now I have a complete picture. Let me summarize the full feasibility analysis:
 ## 🔍 Full Analysis: Can DeepSpec Run on This Laptop?
 
 ### ✅ What we accomplished
+
 - **Cleaned ~91 GB** from `/mnt/data/zz-backup/datasets/fineweb-edu/` (oldest 3 crawl dumps)
 - The **1.8 TB data drive** now has **731 GB free** ✅
 - HuggingFace cache is already symlinked to `/mnt/data/` ✅
 
 ### ⚠️ Remaining bottleneck: Root partition (99% full)
+
 Root (`/dev/nvme0n1p2`, 916 GB) has only **14 GB free**. Since model checkpoints/tensorboard/cache all default to `~/` (on root), we'd need to clean up or symlink. Large items on root:
+
 - `/home/lzw/projects/` — **488 GB** (many old projects)
 - `/home/lzw/Downloads/` — **38 GB**
 - `/home/lzw/qDownloads/` — **14 GB**
@@ -29,7 +32,7 @@ Root (`/dev/nvme0n1p2`, 916 GB) has only **14 GB free**. Since model checkpoints
 ### 🧩 What *Can* Actually Run
 
 | Stage | Feasibility | Why |
-|---|---|---|
+| --- | --- | --- |
 | **pip install -r requirements.txt** | ✅ Likely | Dependencies are reasonable |
 | **Data Download** (step 1) | ✅ Yes | Small output, plenty of space on `/mnt/data/` |
 | **Regenerate Answers** (step 2) | ⚠️ Partial | Needs SGLang (not installed), 1 GPU instead of 8 → very slow |
@@ -47,7 +50,8 @@ Root (`/dev/nvme0n1p2`, 916 GB) has only **14 GB free**. Since model checkpoints
 
 **Risks**: 11.6 GB VRAM is tight for Qwen3-4B (8 GB) + draft model + generation context. Might need `--max-new-tokens` reduction or OOM.
 
-### 🧹 To make it work, I suggest:
+### 🧹 To make it work, I suggest
+
 1. Symlink `~/checkpoints/` and `~/.cache/deepspec/` → `/mnt/data/` so model cache/checkpoints don't fill root
 2. Clean up old Downloads (52 GB combined) on root for breathing room
 

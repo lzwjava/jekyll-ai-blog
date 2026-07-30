@@ -40,4 +40,5 @@ mask = torch.arange(seq_len)[None, :] <= torch.arange(seq_len)[:, None]
 一个注意事项：使用浮点数 `step` 时，在接近 `end` 处可能会累积舍入误差，因此对于分数步长，`linspace` 通常比 `arange` 更安全。
 
 参考文档：
+
 - [torch.arange — PyTorch 官方文档](https://docs.pytorch.org/docs/stable/generated/torch.arange.html)

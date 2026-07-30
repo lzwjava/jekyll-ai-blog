@@ -45,15 +45,18 @@ Which one is default depends on version: In vLLM V1, the default preemption mode
 Which sequence gets picked as victim: vLLM typically enforces a LIFO policy and selects the most recently scheduled request as the victim, and the preempted request is prepended to the front of the WAITING queue rather than discarded — so it doesn't lose its place in line, just re-pays prefill cost.
 
 When it fires, you'll see this in logs:
+
 ```
 WARNING scheduler.py:1057 Sequence group 0 is preempted by PreemptionMode.RECOMPUTE
 mode because there is not enough KV cache space.
 ```
+
 This can affect end-to-end performance; increasing gpu_memory_utilization or tensor_parallel_size provides more KV cache memory. Track it via the Prometheus vllm:num_preemptions_total counter — if it grows steadily under nominal load, reduce --max-model-len, raise --gpu-memory-utilization, or add capacity.
 
 Practically for your setup: if you're serving long-context requests on MI300X and see preemption thrashing, first check `gpu_memory_utilization` (raise it), then consider `--enable-chunked-prefill` (prioritizes decode over new prefill so running sequences aren't starved), and if you have adversarial/bursty traffic mixing short+long requests, that's exactly the DoS pattern in that DoS paper — attacker keeps nudging memory over the threshold to force expensive recompute thrashing on victims.
 
 References:
+
 - [vLLM Scheduler API docs](https://docs.vllm.ai/en/v0.10.1/api/vllm/core/scheduler.html)
 - [Optimization and Tuning — vLLM](https://docs.vllm.ai/en/stable/configuration/optimization/)
 - [vLLM Explained: PagedAttention and Continuous Batching](https://www.runpod.io/articles/guides/vllm-pagedattention-continuous-batching)

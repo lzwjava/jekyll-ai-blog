@@ -18,7 +18,7 @@ type: note
 你共有 **7 条笔记**，时间跨度从 2026 年 6 月 12 日到 7 月 29 日：
 
 | 日期 | 笔记 |
-|------|------|
+| ------ | ------ |
 | 6 月 12 日 | `nano-vllm-minimal-vllm-reimplementation-en.md` — 首次介绍 |
 | 6 月 24 日 | `minimal-vllm-re-implementation-en.md` — 重复介绍 |
 | 7 月 24 日 | `nano-vllm-architecture-and-performance-en.md` — 架构深入解析 |
@@ -36,7 +36,7 @@ type: note
 ### 1. 你在三种不同的心智模型之间跳跃
 
 | 系统 | 功能 |
-|--------|-------------|
+| -------- | ------------- |
 | **nanoGPT** | 从头训练 GPT 模型（损失曲线、数据集准备、优化器） |
 | **nanochat** | 训练聊天模型（SFT、DDP、数据集管道） |
 | **nano-vllm** | **部署**已训练好的模型（批处理、调度、KV 缓存管理） |
@@ -65,6 +65,7 @@ experiments/
 ### 3. nano-vllm 中的概念如果不实际观察，确实很难理解
 
 调度器 + 块管理器的代码大约有 200 行，但包含了：
+
 - **PagedAttention** — KV 缓存拆分成块，按需分配
 - **前缀缓存** — 基于 xxhash 的块共享，用于请求之间
 - **抢占** — 当 KV 缓存满时，驱逐正在运行的序列
