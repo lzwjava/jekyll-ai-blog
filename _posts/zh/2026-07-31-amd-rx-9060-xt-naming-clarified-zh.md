@@ -16,7 +16,7 @@ type: note
 RX 9060 XT（RDNA 4，Navi 44）的真实规格：
 
 | 规格 | 参数 |
-|---|---|
+| --- | --- |
 | 制程 | TSMC N4P（4nm） |
 | 晶体管数 | 29.7B |
 | 计算单元 | 32 |
@@ -30,5 +30,6 @@ RX 9060 XT（RDNA 4，Navi 44）的真实规格：
 鉴于您已经在使用MI300X进行实际训练工作，这张卡仅适合作为廉价的本地开发/推理机，而非训练节点。
 
 **参考资料：**
+
 - [AMD Radeon RX 9600 XT Launched (Navi 44) - Geeks3D](https://www.geeks3d.com/20250521/amd-radeon-rx-9060-xt-announced-navi-44/)
 - [AMD RX 9060 XT leaked specs - Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/amd-rx-9060-xt-leaked-specs-allege-speedy-3-3-ghz-gpu-clock)

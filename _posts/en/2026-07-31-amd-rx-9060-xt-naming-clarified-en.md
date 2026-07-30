@@ -16,7 +16,7 @@ type: note
 Real specs for the RX 9060 XT (RDNA 4, Navi 44):
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | Process | TSMC N4P (4nm) |
 | Transistors | 29.7B |
 | Compute Units | 32 |
@@ -30,5 +30,6 @@ For your use case (local inference / small fine-tunes), the **16GB variant is th
 Given you're already on MI300X for real training work, this card only makes sense as a cheap local dev/inference box, not a training node.
 
 **References:**
+
 - [AMD Radeon RX 9600 XT Launched (Navi 44) - Geeks3D](https://www.geeks3d.com/20250521/amd-radeon-rx-9060-xt-announced-navi-44/)
 - [AMD RX 9060 XT leaked specs - Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/amd-rx-9060-xt-leaked-specs-allege-speedy-3-3-ghz-gpu-clock)

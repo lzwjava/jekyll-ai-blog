@@ -144,7 +144,7 @@ The core is mostly:
 
 TDengine has a unique model:
 
-## Normal database:
+## Normal database
 
 ```
 device_data
@@ -155,7 +155,7 @@ temperature
 time
 ```
 
-## TDengine:
+## TDengine
 
 ```
 meters  (super table)

@@ -16,6 +16,7 @@ Answer:
 Released July 30, 2026 (yesterday), Apache 2.0, open weights. This is TML's (Mira Murati's lab) smaller sibling to their flagship "Inkling" model.
 
 **Architecture** — sparse MoE decoder, natively multimodal (text/image/audio in, text out):
+
 - 42-layer decoder-only transformer with a sparse Mixture-of-Experts feed-forward backbone: each token is routed to 6 of 256 experts, plus 2 shared experts active on every token
 - Attention is a hybrid of local and global layers
 - images are encoded via a hierarchical patch encoder, and audio via discrete token encoding — with all modalities projected into a shared hidden space and processed jointly by the decoder
@@ -23,6 +24,7 @@ Released July 30, 2026 (yesterday), Apache 2.0, open weights. This is TML's (Mir
 - context window of up to 1M tokens, numerics: BF16, MXFP8 and NVFP4
 
 **Benchmarks** (vs open-weight peers at similar active-param count, and vs closed models):
+
 - SWE-Bench Verified: 80.2% — beats Qwen3.5-397B-A17B's 76.4% and DeepSeek-V4-Flash's 79.0%, loses to GPT-5.6-Luna's 93.0%
 - Terminal-Bench 2.1 (best harness): 64.7%
 - GPQA Diamond: 89.5%, tied with GPT-5.6-Luna
@@ -49,5 +51,6 @@ Weights on HF: `thinkingmachines/Inkling-Small` and `thinkingmachines/Inkling-Sm
 For your MI300X setup — NVFP4 at 180GB is in range but note the W4A4 fast path is Blackwell-only (SM100+); on MI300X you'd be doing BF16 via vLLM/SGLang ROCm builds, so budget the full 600GB+ VRAM tier, or run it split across nodes.
 
 References:
+
 - [Inkling-Small Model Card](https://thinkingmachines.ai/model-card/inkling-small/)
 - [Tinker Cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)

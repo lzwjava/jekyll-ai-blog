@@ -48,5 +48,6 @@ This is the standard pattern in attention implementations (e.g. GPT-2 `c_attn` o
 Gotcha: if `dim_size % chunks != 0`, chunk sizes are uneven (ceil-based), whereas `torch.split(x, size)` lets you control exact size per split and `torch.tensor_split` guarantees exactly `n` chunks even when it doesn't divide evenly (redistributing the remainder across the first few chunks instead of dumping it all in the last one).
 
 References:
+
 - [torch.chunk — PyTorch docs](https://pytorch.org/docs/stable/generated/torch.chunk.html)
 - [torch.tensor_split — PyTorch docs](https://pytorch.org/docs/stable/generated/torch.tensor_split.html)

@@ -11,7 +11,7 @@ type: note
 
 ## Question: What does LoRA mean in LLM?
 
-## Answer:
+## Answer
 
 **LoRA = Low-Rank Adaptation**. It is a technique to fine-tune large language models (LLMs) by training only a small number of additional parameters instead of updating all model weights.
 

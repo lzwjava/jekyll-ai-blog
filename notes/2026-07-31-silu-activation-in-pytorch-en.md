@@ -37,6 +37,7 @@ print(silu(x))  # same
 Shape: for `x < 0` it dips slightly negative (min ≈ -0.278 at x ≈ -1.278) before rising, unlike ReLU which hard-zeros. Smooth, non-monotonic, differentiable everywhere — better gradient flow than ReLU near zero, no dead-neuron problem.
 
 Derivative:
+
 ```
 silu'(x) = sigmoid(x) + x * sigmoid(x) * (1 - sigmoid(x))
          = silu(x) + sigmoid(x) * (1 - silu(x))
@@ -52,5 +53,6 @@ def swiglu(x, W, V, W2):
 This is why it matters for you — every modern transformer MLP you're training on MI300X uses this instead of plain GELU-MLP. `F.silu` is literally the gate activation in that block.
 
 References:
+
 - [torch.nn.functional.silu docs](https://pytorch.org/docs/stable/generated/torch.nn.functional.silu.html)
 - [SwiGLU paper — Shazeer, GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202)

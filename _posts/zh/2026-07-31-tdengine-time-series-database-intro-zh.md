@@ -144,7 +144,7 @@ id | time | value | device
 
 TDengine 拥有独特的模型：
 
-## 普通数据库：
+## 普通数据库
 
 ```
 device_data
@@ -155,7 +155,7 @@ temperature
 time
 ```
 
-## TDengine：
+## TDengine
 
 ```
 meters  (超级表)

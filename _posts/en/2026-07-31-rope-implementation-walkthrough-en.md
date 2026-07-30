@@ -27,10 +27,12 @@ def apply_rotary_emb(x, cos, sin):
 
 - Splits the last dimension into two halves: `x1` (even-indexed dims) and `x2` (odd-indexed dims)
 - Applies the rotation matrix:
+
   ```
   [y1]   = [cos  -sin] [x1]
   [y2]     [sin   cos] [x2]
   ```
+
 - Casts to float32 for precision, then back to the original dtype
 
 This rotates each consecutive pair `(d, d+1)` by an angle determined by the position, giving the model a way to encode relative position information via dot products of rotated queries and keys.

@@ -48,5 +48,6 @@ q, k, v = qkv.chunk(3, dim=-1)     # 每个 (2, 10, 768)
 注意事项：如果 `dim_size % chunks != 0`，则块大小不均匀（基于向上取整），而 `torch.split(x, size)` 允许你控制每个分割的确切大小，`torch.tensor_split` 则保证在无法均匀分割时也能恰好得到 `n` 个块（将剩余部分重新分配到前几个块中，而不是全部堆积在最后一个块中）。
 
 参考资料：
+
 - [torch.chunk — PyTorch 文档](https://pytorch.org/docs/stable/generated/torch.chunk.html)
 - [torch.tensor_split — PyTorch 文档](https://pytorch.org/docs/stable/generated/torch.tensor_split.html)
