@@ -16,11 +16,13 @@ type: note
 在 LLM 服务中，一个请求会经历两个阶段：
 
 **1. Prefill** (`context.is_prefill` → `_prefill_forward`)
+
 - **一次性处理整个提示**（所有 token 并行）
 - 为每个提示 token 计算 K/V，并通过 `store_kvcache(k, v, k_cache, v_cache, context.slot_mapping)` **将其存入 KV 缓存**——这就是你提到的“填充缓存”
 - 同时**对整个提示运行注意力机制**（`_flash_attention` 且 `causal=True`），以生成**第一个输出 token**
 
 **2. Decode** (`_decode_forward`)
+
 - 每次生成一个 token
 - 仅计算*新* token 的 K/V，将其存入缓存
 - 然后从缓存中**读取所有之前的 K/V**（`_gather_kv_from_cache`），这样新 token 就能关注提示已经说过的一切——而**无需重新计算**提示的 K/V

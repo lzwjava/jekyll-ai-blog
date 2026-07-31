@@ -16,11 +16,13 @@ Yes, you're basically right — but let me be precise, because "prefill" in this
 In LLM serving, a request goes through two phases:
 
 **1. Prefill** (`context.is_prefill` → `_prefill_forward`)
+
 - Processes the **entire prompt in one shot** (all tokens in parallel)
 - Computes K/V for every prompt token and **stores them into the KV cache** via `store_kvcache(k, v, k_cache, v_cache, context.slot_mapping)` — this is the "filling the cache" part you mentioned
 - Also **runs attention over the full prompt** (`_flash_attention` with `causal=True`) to produce the **first output token**
 
 **2. Decode** (`_decode_forward`)
+
 - Generates one token at a time
 - Only computes K/V for the *new* token, stores it in the cache
 - Then reads **all previous K/V back out of the cache** (`_gather_kv_from_cache`) so the new token can attend to everything the prompt already said — *without recomputing* the prompt's K/V

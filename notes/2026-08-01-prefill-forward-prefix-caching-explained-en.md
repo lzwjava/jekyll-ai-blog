@@ -14,6 +14,7 @@ Here's `_prefill_forward` explained line by line. First, two key facts you need 
 **Fact 1 — "packed" tensors.** q, k, v are *packed*: the sequences in the batch are concatenated into one flat tensor, and `cu_seqlens_q` / `cu_seqlens_k` (cumulative sequence lengths) tell you where each sequence starts/ends. E.g. `cu_seqlens_q = [0, 4, 9]` means seq 0 = tokens 0–3, seq 1 = tokens 4–8.
 
 **Fact 2 — q and k can have different lengths.** During prefill with prefix caching, each sequence has:
+
 - `seqlen_k` = cached prefix tokens + new tokens (everything that will be attended to)
 - `seqlen_q` = only the new tokens (these are what we compute output for)
 
@@ -37,6 +38,7 @@ k_flat = torch.cat([k_gathered[i, :seqlens[i]] ...])  # re-flatten into packed f
 ```
 
 The story here:
+
 1. The *new* tokens' K/V were already written into the paged cache by `store_kvcache` in `forward()` (before this function ran).
 2. `_gather_kv_from_cache` reads the **entire** K/V sequence back out of the blocks — shared prefix + freshly written new tokens — into dense tensors.
 3. They're flattened back to packed form, so `k_flat` = `[prefix_0, new_0, new_1, ...]` per sequence.
