@@ -22,7 +22,7 @@ type: note
 **仓库修复内容**（尚未提交）：
 
 | 文件 | 变更 |
-|---|---|
+| --- | --- |
 | `terminal_bench/llms/lite_llm.py` | 当`BadRequestError`提及`response_format`时，自动使用提示模板回退（模式嵌入提示中）重试 |
 | `terminal_bench/utils/parsing.py` | 新增：在JSON解析前移除markdown代码围栏 |
 | `terminal_bench/agents/terminus_1.py` + `naive_agent.py` | 通过围栏剥离器解析 |
@@ -37,6 +37,7 @@ type: note
 4. **DeepSeek集成**——测试框架现能为拒绝基于模式的`response_format`的提供商优雅回退
 
 ### 后续步骤（请指示）
+
 - **提交并推送DeepSeek修复**至你的分支（4个文件）
 - **用DeepSeek运行更多任务**——例如用简单任务查看实际通过情况，或小批量测试
 - **提高智能体上限**（`--global-agent-timeout-sec`）以延长单任务尝试时间——注意每个困难任务可能消耗100万以上token

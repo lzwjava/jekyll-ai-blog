@@ -45,7 +45,7 @@ tb run \
 ## 关键标志说明
 
 | 标志 | 作用 |
-|---|---|
+| --- | --- |
 | `--dataset-path` | 指向此仓库的任务文件夹（`original-tasks`）——此处必须指定 |
 | `--agent` | `terminus`（内置代理）、`naive`、`oracle`、`claude-code`、`aider`、`codex` 等 |
 | `--model` | LiteLLM 命名方式：`deepseek/deepseek-chat`、`deepseek/deepseek-reasoner`、`openrouter/anthropic/claude-sonnet-4-...`、`openai/gpt-4o`、... |

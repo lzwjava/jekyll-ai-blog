@@ -45,7 +45,7 @@ tb run \
 ## Key flags explained
 
 | Flag | What it does |
-|---|---|
+| --- | --- |
 | `--dataset-path` | Point at this repo's tasks (`original-tasks`) — required here |
 | `--agent` | `terminus` (built-in agent), `naive`, `oracle`, `claude-code`, `aider`, `codex`, etc. |
 | `--model` | LiteLLM naming: `deepseek/deepseek-chat`, `deepseek/deepseek-reasoner`, `openrouter/anthropic/claude-sonnet-4-...`, `openai/gpt-4o`, ... |

@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Senegal
 
-## Answer:
+## Answer
 
 ![Image](https://images.openai.com/static-rsc-4/wdBh861sTYLywBv6BLAjaUQLxkcbgYIQadX2hp6C5_vXFVIgfDfoNYpIR9XjHPp8UVxldoey6JLGZOh0KW8w48zUnJ3dePYDN1HD_OX29tVfIX4jBsOoI0IxywP-Bkq90kf32PKKKDsAR2g7OcwuCZJY9x4AUC4e3BwpaA5EOx4UAuvOn262A2eglQpGamGs?purpose=fullsize)
 

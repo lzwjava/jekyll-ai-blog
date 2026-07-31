@@ -20,7 +20,7 @@ Harness/methodology: all models are benchmarked using the Terminus 2 harness, re
 **Leaderboard (July 2026):**
 
 | Model | Score |
-|---|---|
+| --- | --- |
 | GPT-5.6 Sol (OpenAI) | 0.888 |
 | Kimi K3 (Moonshot, top open-source) | 0.883 |
 | GLM-5.2 (Zhipu, cheapest in top-10%) | 0.827 |
@@ -32,6 +32,7 @@ The biggest mover from 2.0→2.1: Claude Code with Opus 4.6 improved by 12.1 per
 Note: this is all self-reported by labs, not independently verified — worth checking Artificial Analysis if you want a third-party cross-check before trusting a specific number for a model you care about.
 
 **If you want to run it yourself:**
+
 ```bash
 git clone https://github.com/harbor-framework/terminal-bench
 cd terminal-bench
@@ -40,6 +41,7 @@ cd terminal-bench
 ```
 
 References:
+
 - [Terminal-Bench 2.1 — Snorkel AI](https://snorkel.ai/leaderboard/terminal-bench-2-1/)
 - [Terminal-Bench 2.1 Leaderboard — LLM Stats](https://llm-stats.com/benchmarks/terminal-bench-2.1)
 - [Terminal-Bench v2.1 — Artificial Analysis](https://artificialanalysis.ai/evaluations/terminalbench-v2-1)

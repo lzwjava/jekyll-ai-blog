@@ -20,7 +20,7 @@ type: note
 **排行榜（2026年7月）：**
 
 | 模型 | 分数 |
-|---|---|
+| --- | --- |
 | GPT-5.6 Sol (OpenAI) | 0.888 |
 | Kimi K3 (Moonshot，顶级开源) | 0.883 |
 | GLM-5.2 (智谱，前10%中最便宜) | 0.827 |
@@ -32,6 +32,7 @@ LLM Stats追踪了该基准测试上的15个模型，平均分数为0.8，领先
 注意：这些都是实验室自报告的，并非独立验证——如果您在信任您关心的模型的特定数值之前想要第三方交叉验证，值得查看Artificial Analysis。
 
 **如果您想自己运行：**
+
 ```bash
 git clone https://github.com/harbor-framework/terminal-bench
 cd terminal-bench
@@ -40,6 +41,7 @@ cd terminal-bench
 ```
 
 参考资料：
+
 - [Terminal-Bench 2.1 — Snorkel AI](https://snorkel.ai/leaderboard/terminal-bench-2-1/)
 - [Terminal-Bench 2.1 排行榜 — LLM Stats](https://llm-stats.com/benchmarks/terminal-bench-2.1)
 - [Terminal-Bench v2.1 — Artificial Analysis](https://artificialanalysis.ai/evaluations/terminalbench-v2-1)

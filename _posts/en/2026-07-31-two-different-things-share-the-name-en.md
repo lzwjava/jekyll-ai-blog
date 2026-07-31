@@ -51,6 +51,7 @@ Why it's eating budget from RL: on-policy distillation has rapidly emerged as a 
 Practical framing for your setup (GPT-2 760M-scale training runs): OPD gives you RL-shaped, dense credit assignment without a reward model or PPO's variance/instability — cheaper to implement, cheaper to run, same conceptual family. DeepSeek-V4 went furthest, replacing its mixed RL stage entirely with multi-teacher OPD for model consolidation. If you're doing student distillation off any of the big open teachers into your own small model, this is strictly better than plain SFT-on-teacher-completions, and it's a small code diff from what you already have (sample from your model, backprop through KL against a frozen teacher forward pass).
 
 References:
+
 - [Rethinking On-Policy Distillation of LLMs: Phenomenology, Mechanism, Recipe](https://arxiv.org/html/2604.13016v1)
 - [A Survey of On-Policy Distillation for LLMs](https://arxiv.org/html/2604.00626v3)
 - [Scaling Reasoning Efficiently via Relaxed On-Policy Distillation](https://arxiv.org/pdf/2603.11137)

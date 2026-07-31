@@ -14,7 +14,7 @@ Done — your smoke test now **passes**. Here's the full story:
 ## What happened
 
 | Run | Result | Why |
-|---|---|---|
+| --- | --- | --- |
 | 1st (`00-08-32`) | ✗ test timeout @60s | Test script downloads apt + uv + pytest from the internet; your network is ~70 kB/s direct |
 | 2nd (`00-14-54`) | ✗ timeout @600s | Even 10 min wasn't enough — the 35 MB `uv` binary alone takes ~10 min |
 | 3rd (`00-35-42`) | **✅ 100% accuracy** | Proxy fix — test completed in **31.3s** |
