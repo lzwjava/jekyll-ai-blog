@@ -14,6 +14,7 @@ Question: Is studying natural/mathematical/computational laws more essential tha
 Answer: Yes, with a caveat worth being precise about.
 
 **Why nature/math/code wins:**
+
 - Invariant. `F=ma` doesn't get amended in a board meeting. A proof either holds or it doesn't. Code either compiles or it doesn't.
 - Verifiable by you alone. No committee needed to check if your gradient descent converges.
 - Compounding. Master linear algebra once, use it for 20 years. Master your company's Jira workflow, and it's obsolete in 18 months when someone reorgs.

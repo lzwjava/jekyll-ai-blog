@@ -75,7 +75,7 @@ One attention output per sequence, which continues through the transformer → L
 ## Decode vs. prefill, side by side
 
 | | Prefill (`_prefill_forward`) | Decode (`_decode_forward`) |
-|---|---|---|
+| --- | --- | --- |
 | q size | all prompt tokens (packed) | 1 token per seq `(batch, …)` |
 | k/v source | packed tensors (or gather if prefix cached) | always gathered from cache |
 | attention | over prompt (`causal=True`, bottom-right aligned for prefixes) | over full cached history (`causal=False`, safe) |

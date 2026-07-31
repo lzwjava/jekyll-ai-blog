@@ -39,5 +39,6 @@ x = torch.cat([up_features, skip_features], dim=1)
 注意事项：`cat` 要求现有维度匹配（例如，将两个 `(2,3)` 在 dim 0 上拼接 → `(4,3)`）。`stack` 要求 *所有* 维度匹配，并新增一个维度（`(2,3)` + `(2,3)` 在 dim 0 上 → `(2,2,3)`）。如果你在构建 KV cache 或进行跳跃连接，使用 `cat`；如果你将独立的相同形状张量批处理成一个新的前导维度，使用 `stack`。
 
 参考资料：
+
 - [torch.cat — PyTorch 文档](https://pytorch.org/docs/stable/generated/torch.cat.html)
 - [torch.stack — PyTorch 文档](https://pytorch.org/docs/stable/generated/torch.stack.html)

@@ -80,6 +80,7 @@ for name, module in model.named_modules():
 **5. 故意破坏它**
 
 更改一个超参数、一行代码，并在运行前预测效果：
+
 - nanoGPT：取消权重绑定（`lm_head.weight = wte.weight`），观察损失/参数数量
 - nanochat：更改 `depth` 并确认宽度/注意力头数/学习率是否按声明的 transformer 深度自动缩放——深度是自动决定所有其他超参数的单个调节旋钮
 - nano-vllm：缩小 `max_num_seqs` 或块大小，观察竞争条件下的调度器行为
@@ -93,6 +94,7 @@ Karpathy 明确将 nanochat 的 `speedrun.sh` 构建为参考路径——`runs/s
 我想在你的清单上补充一点：**在阅读修复方案之前先编写测试**。当某些东西出问题时（loss NaN、形状错误），先编写一个最小的复现脚本，然后再阅读代码——这样你会带着一个具体问题去阅读，而不是泛泛浏览。
 
 参考资料：
+
 - [karpathy/nanochat](https://github.com/karpathy/nanochat)
 - [nanochat Discussion #1 — speedrun 逐步讲解](https://github.com/karpathy/nanochat/discussions/1)
 - [nanochat Discussion #420 — depth/miniseries 缩放](https://github.com/karpathy/nanochat/discussions/420)

@@ -75,7 +75,7 @@ return o
 ## 解码 vs. 预填充，并排对比
 
 | | 预填充（`_prefill_forward`） | 解码（`_decode_forward`） |
-|---|---|---|
+| --- | --- | --- |
 | q 大小 | 所有提示词 token（打包） | 每个序列 1 个 token `(batch, …)` |
 | k/v 来源 | 打包张量（如果前缀缓存则收集） | 总是从缓存中收集 |
 | 注意力 | 覆盖提示词（`causal=True`，前缀右下对齐） | 覆盖完整缓存历史（`causal=False`，安全） |

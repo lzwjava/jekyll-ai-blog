@@ -80,6 +80,7 @@ Agents are much better at "find every call site of X and explain why" than "expl
 **5. Break it on purpose**
 
 Change one hyperparameter, one line, and predict the effect before running:
+
 - nanoGPT: kill weight tying (`lm_head.weight = wte.weight`), watch loss/param count
 - nanochat: change `depth` and confirm width/heads/lr auto-scale as claimed the depth of the transformer is the single dial that automatically determines all other hyperparameters
 - nano-vllm: shrink `max_num_seqs` or block size, watch scheduler behavior under contention
@@ -93,6 +94,7 @@ For repo-specific questions (not "how to learn code" in general), Karpathy also 
 One thing I'd add to your list: **write the test before you read the fix**. When something breaks (loss NaN, wrong shape), write a minimal repro script first, then read code — you'll read with a specific question in mind instead of scanning.
 
 References:
+
 - [karpathy/nanochat](https://github.com/karpathy/nanochat)
 - [nanochat Discussion #1 — speedrun walkthrough](https://github.com/karpathy/nanochat/discussions/1)
 - [nanochat Discussion #420 — depth/miniseries scaling](https://github.com/karpathy/nanochat/discussions/420)
