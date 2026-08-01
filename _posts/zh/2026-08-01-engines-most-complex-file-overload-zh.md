@@ -14,7 +14,7 @@ type: note
 **目前最复杂的部分是 `nanovllm/engine/model_runner.py`（263行）。** 它集成了四个独立的子系统：
 
 | 复杂度 | 行数 | 功能说明 |
-|---|---|---|
+| --- | --- | --- |
 | 张量并行 | ~70 | `dist.init_process_group` + `SharedMemory` RPC（`loop`/`read_shm`/`write_shm`），但默认`tensor_parallel_size=1` |
 | CUDA图 | ~50 | `capture_cudagraph`、`graph_bs`、`graph.replay()`、图池——但`enforce_eager`会跳过 |
 | KV缓存计算 | ~20 | 上次提交中的预算/已用/空闲×0.95 OOM 平衡逻辑 |

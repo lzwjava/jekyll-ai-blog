@@ -18,6 +18,7 @@ GEMM = **General Matrix Multiply**: `C = alpha * A@B + beta * C`, shapes `(M,K) 
 **Where it lives in a transformer layer:**
 
 Every `nn.Linear` is a GEMM. Per layer:
+
 - QKVO projections: 4 GEMMs, each `(seq, d_model) @ (d_model, d_model)`
 - MLP up/down: 2 GEMMs, `(seq, d_model) @ (d_model, 4*d_model)` and back
 - Attention scores `Q@K^T` and `attn@V`: batched GEMM over heads
@@ -46,6 +47,7 @@ Real GEMM kernels tile A/B into shared-memory/register blocks matched to tensor 
 **The insight that actually matters for you (inference/agent serving):** GEMM assumes `M > 1`. During autoregressive **decode** with batch size 1, you're doing `(1, d) @ (d, d)` — that's a **GEMV** (matrix-vector), not GEMM. GEMV is memory-bandwidth bound (you load the whole weight matrix per token, do almost no reuse), while GEMM is compute-bound (reuse rows/cols across the M and N dims). This is *the* reason continuous batching / vLLM-style serving exists: batching decode requests together turns many small GEMVs into one big GEMM, moving you from bandwidth-bound to compute-bound and multiplying throughput.
 
 Rough arithmetic intensity check:
+
 ```
 AI = FLOPs / bytes_moved
 GEMM (M,K,N large):  AI ~ O(min(M,N,K))  -> compute bound
@@ -55,6 +57,7 @@ GEMV (M=1):          AI ~ O(1)           -> memory bound, GPU starves
 This is also why **MFU (Model FLOPs Utilization)** — actual FLOPs/s achieved divided by GPU peak FLOPs/s — is the metric you track when training your 760M GPT-2 on MI300X. Low MFU almost always means your GEMMs aren't shaped/batched to be compute-bound (bad tile sizes, small batch, unfused ops causing extra memory traffic between GEMMs).
 
 References:
+
 - [Data Movement Is All You Need (GEMM/memory-bound analysis)](https://arxiv.org/abs/2007.00072)
 - [NVIDIA cuBLAS GEMM performance guide](https://docs.nvidia.com/cuda/cublas/)
 - [vLLM PagedAttention paper (continuous batching motivation)](https://arxiv.org/abs/2309.06180)

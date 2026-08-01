@@ -18,9 +18,11 @@ A `torch.Tensor` is not the data itself — it's a cheap, reference-counted poin
 ### The three layers of the class
 
 **1. `torch.Tensor` (what users touch)** — `torch/_tensor.py:102`
+
 ```python
 class Tensor(torch._C.TensorBase):
 ```
+
 It subclasses the C++-exposed core and adds Python functionality: `__deepcopy__`, serialization, dlpack exchange, torch-function dispatch (`__torch_function__`), etc.
 
 **2. `torch._C.TensorBase` (Python/C++ binding)** — defined in `torch/csrc/autograd/python_variable.cpp`, with its type stub in `torch/_C/__init__.pyi.in:1998`. Its attributes there show the public surface: `shape`, `dtype`, `device`, `layout`, `requires_grad`, `grad_fn`, `grad`, `ndim`, `T`, etc.
@@ -30,6 +32,7 @@ It subclasses the C++-exposed core and adds Python functionality: `__deepcopy__`
 > "TensorBase represents a reference counted handle to TensorImpl, exactly the same as Tensor."
 
 The handle is literally:
+
 ```cpp
 c10::intrusive_ptr<TensorImpl, UndefinedTensorImpl> impl_;   // TensorBase.h:921
 ```
@@ -37,7 +40,7 @@ c10::intrusive_ptr<TensorImpl, UndefinedTensorImpl> impl_;   // TensorBase.h:921
 ### What `TensorImpl` holds — `c10/core/TensorImpl.h`
 
 | Field | Meaning |
-|---|---|
+| --- | --- |
 | `Storage storage_` (line 2888) | pointer to the raw memory buffer holding the elements |
 | `sizes_and_strides_` | the shape and strides (how to index into storage) |
 | `storage_offset_` | offset into storage — this is what makes views work |

@@ -14,7 +14,7 @@ No uncommitted changes, so I can't tell what you were just looking at. Let me gi
 **The most complex piece by far is `nanovllm/engine/model_runner.py` (263 lines).** It crams in four independent subsystems:
 
 | Complexity | Lines | What it does |
-|---|---|---|
+| --- | --- | --- |
 | Tensor parallelism | ~70 | `dist.init_process_group` + `SharedMemory` RPC (`loop`/`read_shm`/`write_shm`), but default `tensor_parallel_size=1` |
 | CUDA graphs | ~50 | `capture_cudagraph`, `graph_bs`, `graph.replay()`, graph pool — but `enforce_eager` skips it |
 | KV cache math | ~20 | The budget/already-used/free×0.95 OOM juggling from your last commit |

@@ -18,9 +18,11 @@ type: note
 ### 类的三个层次
 
 **1. `torch.Tensor`（用户直接接触的）** — `torch/_tensor.py:102`
+
 ```python
 class Tensor(torch._C.TensorBase):
 ```
+
 它继承自C++暴露的核心，并添加了Python功能：`__deepcopy__`、序列化、dlpack交换、torch函数分发（`__torch_function__`）等。
 
 **2. `torch._C.TensorBase`（Python/C++绑定）** — 定义在`torch/csrc/autograd/python_variable.cpp`中，其类型存根在`torch/_C/__init__.pyi.in:1998`。其属性展示了公开接口：`shape`、`dtype`、`device`、`layout`、`requires_grad`、`grad_fn`、`grad`、`ndim`、`T`等。
@@ -30,6 +32,7 @@ class Tensor(torch._C.TensorBase):
 > “TensorBase表示对TensorImpl的引用计数句柄，与Tensor完全相同。”
 
 该句柄实际上就是：
+
 ```cpp
 c10::intrusive_ptr<TensorImpl, UndefinedTensorImpl> impl_;   // TensorBase.h:921
 ```
@@ -37,7 +40,7 @@ c10::intrusive_ptr<TensorImpl, UndefinedTensorImpl> impl_;   // TensorBase.h:921
 ### `TensorImpl`包含的内容 — `c10/core/TensorImpl.h`
 
 | Field | Meaning |
-|---|---|
+| --- | --- |
 | `Storage storage_` (line 2888) | 指向持有元素的原始内存缓冲区的指针 |
 | `sizes_and_strides_` | 形状和步长（如何索引到存储） |
 | `storage_offset_` | 存储偏移量——这是视图工作的关键 |

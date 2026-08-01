@@ -53,6 +53,7 @@ x.grad   # dy/dx = 2x
 既然你正在 MI300X 上训练 GPT-2 —— 有一点值得注意：ROCm 的张量分发镜像了 CUDA 的分发键，但某些 ATen 操作的内核覆盖有所滞后（例如某些稀疏操作或较旧的 `aten::_foreach_*` 变体）。如果遇到“not implemented for backend HIP”错误，建议检查 `torch.__config__.show()` 和 ROCm 发行说明。
 
 参考：
+
 - [PyTorch Tensor 文档](https://pytorch.org/docs/stable/tensors.html)
 - [PyTorch Autograd 机制](https://pytorch.org/docs/stable/notes/autograd.html)
 - [PyTorch 内部原理（ezyang 博客）](http://blog.ezyang.com/2019/05/pytorch-internals/)

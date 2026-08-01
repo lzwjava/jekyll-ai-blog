@@ -53,6 +53,7 @@ Device: `x.to('cuda')` copies storage to a different allocator; ops dispatch thr
 Given you're training GPT-2 on MI300X — the one gotcha worth knowing: ROCm's tensor dispatch mirrors CUDA's dispatch keys, but kernel coverage for some ATen ops lags (things like certain sparse ops or older `aten::_foreach_*` variants). Worth checking `torch.__config__.show()` and ROCm release notes if you hit a "not implemented for backend HIP" error.
 
 References:
+
 - [PyTorch Tensor docs](https://pytorch.org/docs/stable/tensors.html)
 - [PyTorch Autograd mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
 - [PyTorch Internals (ezyang blog)](http://blog.ezyang.com/2019/05/pytorch-internals/)

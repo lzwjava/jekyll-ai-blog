@@ -15,6 +15,7 @@ This is a common folk belief (especially in Chinese and other East Asian traditi
 Cough is often attributed to a "cold" or "phlegm-damp" pattern in the lungs/spleen. Cold foods (watermelon, ice water, ice cream) are believed to further "cool" the digestive system, increase phlegm production, and worsen the cough. This is a qi/yin-yang framework, not a biochemical mechanism with clinical trial support.
 
 **What Western medicine actually says:**
+
 - No strong evidence that cold food/drink directly worsens cough or increases mucus production. The "cold milk = more phlegm" idea has been tested and largely debunked — it just *feels* thicker due to a texture/coating sensation on the tongue, not an actual increase in mucus.
 - Cold liquids can actually **numb the throat and reduce cough reflex sensitivity** short-term — which is why ice cream/popsicles are sometimes recommended for sore throat after tonsillectomy.
 - The real triggers for worsening cough are usually: irritants (cold *air*, not cold *food*), reflux (lying down after eating), allergens, and dry throat mucosa.

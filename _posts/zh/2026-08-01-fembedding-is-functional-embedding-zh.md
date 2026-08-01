@@ -36,5 +36,6 @@ class Embedding(nn.Module):
 签名：`F.embedding(input, weight, padding_idx=None, max_norm=None, norm_type=2.0, scale_grad_by_freq=False, sparse=False)`。底层实现是 `torch.embedding`，一个执行 index_select 风格聚集的 C++/CUDA 操作——不是矩阵乘法，因为输入是 token 索引而非 one-hot 向量。
 
 参考：
+
 - [torch.nn.functional.embedding — PyTorch docs](https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.embedding.html)
 - [torch.nn.Embedding — PyTorch docs](https://docs.pytorch.org/docs/stable/generated/torch.nn.Embedding.html)
