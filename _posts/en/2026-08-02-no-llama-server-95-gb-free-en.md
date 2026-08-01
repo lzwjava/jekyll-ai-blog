@@ -14,11 +14,12 @@ type: note
 Current GPU state (RTX 4070, 12 GB):
 
 | | MiB |
-|---|---|
+| --- | --- |
 | Used | 2367 |
 | **Free** | **9473** |
 
 And the 2.3 GB used is **not** AI — it's all desktop/graphics:
+
 - Xorg: 1430 MiB (biggest)
 - warp-terminal: 204 MiB
 - zed-editor: 191 MiB

@@ -12,7 +12,7 @@ type: note
 以下是您 **2362 MiB** GPU 内存使用情况的细分：
 
 | 进程 | 说明 | GPU 内存 |
-|---|---|---|
+| --- | --- | --- |
 | **Xorg** (4212) | X11 显示服务器 | 1430 MiB |
 | **Chromium** (13976) | Chromium 浏览器 GPU 进程 | 242 MiB |
 | **warp-terminal** (138054) | Warp 终端 | 204 MiB |

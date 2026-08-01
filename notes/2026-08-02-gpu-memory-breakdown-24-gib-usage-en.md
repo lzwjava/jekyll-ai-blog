@@ -12,7 +12,7 @@ type: note
 Here's the breakdown of your **2362 MiB** GPU memory usage:
 
 | Process | What it is | GPU Memory |
-|---|---|---|
+| --- | --- | --- |
 | **Xorg** (4212) | X11 display server | 1430 MiB |
 | **Chromium** (13976) | Chromium browser GPU process | 242 MiB |
 | **warp-terminal** (138054) | Warp terminal | 204 MiB |
