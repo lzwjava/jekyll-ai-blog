@@ -40,6 +40,7 @@ If you spin up a venv per project (agent dev, fine-tuning experiments), N venvs 
 **Fixes, in order of what I'd actually use:**
 
 1. **`uv` instead of `pip`/`venv`** — hardlinks packages from a global cache, so 10 venvs with torch cost ~1x the disk, not 10x:
+
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv .venv
@@ -48,6 +49,7 @@ uv pip install torch
 ```
 
 2. **Check/clean uv's cache size:**
+
 ```bash
 uv cache dir
 du -sh $(uv cache dir)
@@ -55,12 +57,14 @@ uv cache clean  # nuke it if disk pressure
 ```
 
 3. **`pip cache` also helps somewhat** (not hardlinked, but avoids re-downloading):
+
 ```bash
 pip cache info
 pip cache purge
 ```
 
 4. **`--system-site-packages`** if you want a shared base venv and only isolate a few packages:
+
 ```bash
 python3 -m venv .venv --system-site-packages
 ```
@@ -68,5 +72,6 @@ python3 -m venv .venv --system-site-packages
 For your setup (MI300X training, multiple CLI agents), `uv` is the real fix — pip/venv's per-project duplication is the actual disk problem, not venv itself.
 
 References:
+
 - [uv docs — cache](https://docs.astral.sh/uv/concepts/cache/)
 - [uv install](https://docs.astral.sh/uv/getting-started/installation/)

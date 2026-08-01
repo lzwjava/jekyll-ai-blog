@@ -40,6 +40,7 @@ du -sh $(python -c "import torch, os; print(os.path.dirname(torch.__file__))")
 **按实际使用顺序排列的解决方案：**
 
 1. **使用 `uv` 替代 `pip`/`venv`** —— 从全局缓存中对包进行硬链接，因此 10 个包含 torch 的 venv 只占用约 1 份磁盘空间，而非 10 份：
+
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv .venv
@@ -48,6 +49,7 @@ uv pip install torch
 ```
 
 2. **检查/清理 uv 缓存大小：**
+
 ```bash
 uv cache dir
 du -sh $(uv cache dir)
@@ -55,12 +57,14 @@ uv cache clean  # 磁盘紧张时清空
 ```
 
 3. **`pip cache` 也有一定帮助**（不是硬链接，但可以避免重复下载）：
+
 ```bash
 pip cache info
 pip cache purge
 ```
 
 4. **`--system-site-packages`** 如果你希望共享一个基础 venv，仅隔离少量包：
+
 ```bash
 python3 -m venv .venv --system-site-packages
 ```
@@ -68,5 +72,6 @@ python3 -m venv .venv --system-site-packages
 对于你的配置（MI300X 训练，多个 CLI 代理），`uv` 是真正的解决方案 —— pip/venv 的跨项目重复占用才是实际的磁盘问题，而非 venv 本身。
 
 参考：
+
 - [uv 文档 — 缓存](https://docs.astral.sh/uv/concepts/cache/)
 - [uv 安装](https://docs.astral.sh/uv/getting-started/installation/)
