@@ -20,6 +20,7 @@ In **Ethernet networking standards** (IEEE 802.3), the **maximum length for a si
 ---
 
 #### **Why 100 Meters?**
+
 1. **Signal Attenuation**:
    - Electrical signals weaken over distance due to resistance and interference.
    - Beyond 100 meters, the signal may degrade, causing errors or connection failures.
@@ -35,6 +36,7 @@ In **Ethernet networking standards** (IEEE 802.3), the **maximum length for a si
 ---
 
 #### **Key Points**
+
 - **UTP Cable Types**:
   - **Cat 5e** or higher (e.g., Cat 6, Cat 6a) is typically used for 100 Mbps and 1 Gbps Ethernet.
   - Lower-quality cables (e.g., Cat 3) may not support 100 meters at higher speeds.
@@ -47,6 +49,9 @@ In **Ethernet networking standards** (IEEE 802.3), the **maximum length for a si
   - Most modern networks use **switches** (not hubs) and **full-duplex communication**, which eliminates collision domains but retains the 100-meter limit for UTP.
 
 ---
+
 #### **Summary**
+
 The **100-meter rule** is a **fundamental Ethernet standard** to ensure reliable communication. For your question:
+
 - **Correct Answer: B (100 meters)**. ✅

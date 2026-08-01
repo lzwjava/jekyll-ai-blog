@@ -14,6 +14,7 @@ Here’s a detailed breakdown of **10Base-T** and its specifications:
 ---
 
 ### 🔹 **10Base-T Overview**
+
 - **Standard**: IEEE 802.3i (Ethernet over twisted pair).
 - **Speed**: **10 Mbit/s** (Megabits per second).
   - The **"10"** in the name directly indicates the **10 Mbps** data rate.
@@ -36,6 +37,7 @@ Here’s a detailed breakdown of **10Base-T** and its specifications:
 ---
 
 ### 🔹 **Key Features of 10Base-T**
+
 1. **Half-Duplex Communication**:
    - Devices can either **transmit** or **receive** at a time (not simultaneously).
    - Uses **CSMA/CD** (Carrier Sense Multiple Access with Collision Detection) to manage collisions.
@@ -62,11 +64,15 @@ Here’s a detailed breakdown of **10Base-T** and its specifications:
 | 10GBase-T  | 10 Gbps     | Cat6a+ UTP       | 2006            | 10-Gigabit Ethernet.           |
 
 ---
+
 ### 🔹 **Why 10Base-T Matters**
+
 - **Cost-Effective**: Used existing **telephone-grade** twisted pair wiring (Cat3), reducing infrastructure costs.
 - **Scalability**: Star topology made it easy to expand networks.
 - **Foundation**: Paved the way for modern Ethernet standards (e.g., 100 Mbps, 1 Gbps, and beyond).
 
 ---
+
 ### 🔹 **Summary**
+
 10Base-T is **10 Mbps Ethernet over twisted pair**, and its name explicitly reflects its speed. The correct answer is **D: 10Mbit/s**.

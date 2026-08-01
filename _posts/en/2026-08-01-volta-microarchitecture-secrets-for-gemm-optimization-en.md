@@ -35,7 +35,7 @@ NVCC 9.0's generated register mapping has bank conflicts on this pattern. Hand-p
 **2. Memory hierarchy — the numbers you actually need for tiling decisions**
 
 | Level | V100 (GV100) | Notes |
-|---|---|---|
+| --- | --- | --- |
 | L1 data / shared mem (unified) | 32–128 KiB, hit latency 28 cyc | vs 82 cyc on Pascal — this is the big Volta win |
 | L2 | 6,144 KiB, ~193 cyc, 2155 GB/s | 16-way, unified data/inst/const |
 | Global (HBM2) | 900 GB/s theoretical, ~750 GB/s measured (83.3% efficiency) | best ratio of any gen they tested |
@@ -70,6 +70,7 @@ A single wmma::mma_sync call compiles to 4 sets of 4 HMMA instructions each (16 
 **Why Gordic pulls this in:** his matmul blog is presumably walking through register-tiled / warp-tiled GEMM kernels (the CUTLASS-style hierarchy: block tile → warp tile → thread tile → instruction). This paper is the primary source for *why* those tile sizes and register mappings are chosen the way they are on Volta specifically — bank width, reuse cache, HMMA group semantics. It's essentially the "ground truth" citation for anyone building a from-scratch GEMM instead of trusting cuBLAS as a black box.
 
 References:
+
 - [Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking (arXiv:1804.06826)](https://arxiv.org/abs/1804.06826)
 - [Full text PDF](https://arxiv.org/pdf/1804.06826)
 - [Aleksa Gordic's matmul blog](https://www.aleksagordic.com/blog/matmul)

@@ -16,11 +16,13 @@ Yes, you are **correct**.
 ---
 
 ### 🔹 **Explanation: Where Ethernet Switches Operate in the OSI Model**
+
 An **Ethernet switch** is a **multi-port network bridge** that operates at the **Data Link Layer (Layer 2)** of the OSI model. Here’s why:
 
 ---
 
 #### 📌 **OSI Layer Breakdown for Networking Devices**
+
 | **Layer**         | **Function**                          | **Example Devices**                     |
 |-------------------|---------------------------------------|-----------------------------------------|
 | **Physical Layer (Layer 1)** | Transmits raw bit streams over a physical medium (e.g., copper, fiber). | **Hubs, Repeaters**                     |
@@ -31,6 +33,7 @@ An **Ethernet switch** is a **multi-port network bridge** that operates at the *
 ---
 
 #### 🔹 **Why a Switch is Layer 2**
+
 1. **MAC Address Learning**:
    - A switch **learns MAC addresses** of devices connected to its ports and builds a **MAC address table** to forward frames efficiently.
 
@@ -46,11 +49,13 @@ An **Ethernet switch** is a **multi-port network bridge** that operates at the *
 ---
 
 #### 🔹 **Exceptions: Layer 3 Switches**
+
 - Some **advanced switches** (called **Layer 3 switches**) can also perform **routing** (a Layer 3 function). However, the **default behavior of a standard Ethernet switch is Layer 2**.
 
 ---
 
 #### 🔹 **Why Not Other Layers?**
+
 | Option | Layer          | Reason                                                                 |
 |--------|----------------|------------------------------------------------------------------------|
 | A      | Physical Layer | Incorrect: Hubs/repeaters work here, but switches operate higher.   |
@@ -59,5 +64,7 @@ An **Ethernet switch** is a **multi-port network bridge** that operates at the *
 | D      | Transport Layer | Incorrect: Gateways/firewalls may operate here (e.g., TCP/UDP).     |
 
 ---
+
 ### ✅ **Conclusion**
+
 Your answer (**B: Data Link Layer**) is **100% correct**. Ethernet switches are **Layer 2 devices** by default, as they work with **MAC addresses** and **Ethernet frames**.
