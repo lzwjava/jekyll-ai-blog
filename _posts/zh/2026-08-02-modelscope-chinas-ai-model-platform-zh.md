@@ -11,7 +11,7 @@ type: note
 
 ## 问题：ModelScope (modelscope.cn) 简介
 
-## 回答：
+## 回答
 
 ModelScope 基本上是**中国的 Hugging Face Hub + Colab + Model API 平台**，由阿里巴巴达摩院/阿里云创建。它的目标是让 AI 模型更容易被发现、运行、微调、评估和部署。（[GitHub][1]）
 

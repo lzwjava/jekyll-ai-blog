@@ -86,6 +86,7 @@ def decode_step(token, cache, blocks, Wte, Wpe, Wlm):
 Prefill is compute-bound (large matmul, full sequence at once). Decode is memory-bandwidth-bound (you reload the entire model's weights from HBM to generate *one* token) — this is exactly the roofline distinction you already have notes on, and it's why batching + speculative decoding + quantization all target the decode phase specifically.
 
 **Where the real depth is now (post-fundamentals):**
+
 - FlashAttention: the memory-bound nature of attention on GPU, IO-awareness instead of FLOP-awareness is documented with code in the curated inference paper list.
 - MLA/GQA: compressing the KV cache is the dominant lever for long-context serving cost — DeepSeek-V2's multi-head latent attention and related economical-inference work is the current state of the art here.
 - Since you've already trained GPT-2 760M: the next rung is re-deriving Chinchilla yourself on your own loss curves (fit `L(N,D) = E + A/N^α + B/D^β` against your actual runs) rather than trusting the paper's constants — your MI300X runs are the perfect dataset for this.
@@ -93,6 +94,7 @@ Prefill is compute-bound (large matmul, full sequence at once). Decode is memory
 For an end-to-end version that goes model → pretrain → SFT → reward → DPO/PPO/GRPO with real (not toy) code, this repo is the most complete public writeup with actual training-shaped code rather than a single-file demo: it's structured stage-by-stage (Data, Pretrain, SFT, Reward, DPO, PPO, GRPO, Evaluate, Chat) with theory and real code per stage.
 
 References:
+
 - [train-llm-from-scratch (full pipeline, real code)](https://github.com/FareedKhan-dev/train-llm-from-scratch)
 - [Awesome-LLM-Inference (FlashAttention, PagedAttention, quantization, papers+code)](https://github.com/xlite-dev/Awesome-LLM-Inference)
 - [LLM Inference Unveiled: Survey + Roofline Model](https://arxiv.org/pdf/2402.16363)

@@ -11,7 +11,7 @@ type: note
 
 ## Question: intro to ModelScope (modelscope.cn)
 
-## Answer:
+## Answer
 
 ModelScope is basically **China's equivalent of Hugging Face Hub + Colab + Model API platform**, created by Alibaba DAMO Academy / Alibaba Cloud. Its goal is to make AI models easier to discover, run, fine-tune, evaluate, and deploy. ([GitHub][1])
 

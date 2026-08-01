@@ -21,7 +21,7 @@ type: note
 
 ![Image](https://images.openai.com/static-rsc-4/KUTtBcB3Dy28YYSMCPgse3JUfNaT1OgxdyChPIxdcaKbRFdvhG-Y6mWpwSl03z1oSKZCH8Y_UZ10rYG6ZjPlEqZPRBpI3REnc1jUG20qJKUnn6RT7mbFJJM7WFgGXcwUMevFYlO_Wiz7SDCRSGM42kx9NrEH9wsYS45r6ME-O67mL9www3XHOIQwJSeoat6H?purpose=fullsize)
 
-## Answer:
+## Answer
 
 The **AMD Radeon RX 7650 GRE** is a **China-market mid-range gaming GPU** based on AMD's **RDNA 3 architecture**. GRE means **"Golden Rabbit Edition"** (a China-oriented naming strategy). It sits around the level of **RX 7600 / RX 7600 XT**. ([AMD][1])
 
@@ -85,7 +85,7 @@ It is basically an optimized RX 7600:
 
 For your use case (vLLM, nanoGPT, CUDA learning, local models):
 
-### Good:
+### Good
 
 ✅ 8GB VRAM
 ✅ RDNA 3 architecture
@@ -94,7 +94,7 @@ For your use case (vLLM, nanoGPT, CUDA learning, local models):
 
 AMD officially lists Ubuntu x86_64 support for RX 7650 GRE. ([AMD][1])
 
-### Bad:
+### Bad
 
 ❌ ROCm ecosystem is much weaker than NVIDIA CUDA
 

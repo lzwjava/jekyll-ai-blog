@@ -49,11 +49,11 @@ Llama 权重 + 架构
 
 他们的首款产品是 **HC1 技术演示器**。它运行：
 
-*   模型：Llama 3.1 8B
-*   工艺：台积电 6nm
-*   芯片尺寸：815 mm²
-*   晶体管：约 530 亿
-*   服务器功耗：2.5 kW
+* 模型：Llama 3.1 8B
+* 工艺：台积电 6nm
+* 芯片尺寸：815 mm²
+* 晶体管：约 530 亿
+* 服务器功耗：2.5 kW
 
 ([Taalas][1])
 
@@ -107,11 +107,11 @@ HBM ---> GPU ---> SRAM ---> 张量核心
 
 每次生成 token 都需要：
 
-1.  加载权重
-2.  计算注意力
-3.  计算 MLP
-4.  写入输出
-5.  重复
+1. 加载权重
+2. 计算注意力
+3. 计算 MLP
+4. 写入输出
+5. 重复
 
 大量能量消耗在数据搬运上。
 
@@ -130,9 +130,9 @@ Taalas 试图消除这一点：
 
 这与以下技术类似：
 
-*   TPU 专用化
-*   Groq LPU
-*   Cerebras 晶圆级引擎
+* TPU 专用化
+* Groq LPU
+* Cerebras 晶圆级引擎
 
 但更为极致。
 
@@ -142,7 +142,7 @@ Taalas 试图消除这一点：
 
 针对 Llama 3.1 8B：
 
-*   根据 Taalas 的测量，**每个用户约 17,000 tokens/秒**。([Taalas][1])
+* 根据 Taalas 的测量，**每个用户约 17,000 tokens/秒**。([Taalas][1])
 
 对比常规体验：
 
@@ -273,11 +273,11 @@ Taalas
 
 这也是以下技术背后的同一个问题：
 
-*   FlashAttention
-*   KV 缓存优化
-*   GPU 内存层级
-*   TPU 脉动阵列
-*   Taalas ASIC
+* FlashAttention
+* KV 缓存优化
+* GPU 内存层级
+* TPU 脉动阵列
+* Taalas ASIC
 
 ---
 
@@ -285,9 +285,9 @@ Taalas
 
 参考资料：
 
-*   Taalas 产品：([Taalas][1])
-*   Forbes 对 Taalas HC1 的分析：([Forbes][4])
-*   Heise 对 HC1 架构的概述：([heise.de][2])
+* Taalas 产品：([Taalas][1])
+* Forbes 对 Taalas HC1 的分析：([Forbes][4])
+* Heise 对 HC1 架构的概述：([heise.de][2])
 
 [1]: https://taalas.com/products/ "Products | Taalas"
 [2]: https://www.heise.de/en/news/AI-inference-cast-in-silicon-Taalas-announces-HC1-chip-11185112.html?utm_source=chatgpt.com "AI inference cast in silicon: Taalas announces HC1 chip | heise online"

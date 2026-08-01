@@ -86,6 +86,7 @@ def decode_step(token, cache, blocks, Wte, Wpe, Wlm):
 预填充是计算受限的（大矩阵乘法，一次处理完整序列）。解码是内存带宽受限的（你需要从HBM重新加载整个模型权重来生成*一个*token）——这正是你笔记中已经有的屋顶线区分，也是为什么批处理、推测性解码和量化都专门针对解码阶段的原因。
 
 **现在真正的深度在哪里（基础之后）：**
+
 - FlashAttention：注意力在GPU上的内存受限特性，IO感知而非FLOP感知——这在精选的推理论文列表中附有代码。
 - MLA/GQA：压缩KV缓存是降低长上下文服务成本的主要杠杆——DeepSeek-V2的多头潜在注意力和相关的经济推理工作是当前的最新技术。
 - 既然你已经训练过GPT-2 760M：下一步是在你自己的损失曲线上重新推导Chinchilla（拟合 `L(N,D) = E + A/N^α + B/D^β` 与实际运行结果），而不是相信论文中的常数——你的MI300X运行结果正是这个任务的完美数据集。
@@ -93,6 +94,7 @@ def decode_step(token, cache, blocks, Wte, Wpe, Wlm):
 对于从模型→预训练→SFT→奖励→DPO/PPO/GRPO的端到端版本，并附带真实（非玩具）代码，这个仓库是最完整的公开资料，包含实际训练形状的代码，而非单个文件的演示：它按阶段结构化（数据、预训练、SFT、奖励、DPO、PPO、GRPO、评估、聊天），每个阶段都有理论和实际代码。
 
 参考资料：
+
 - [train-llm-from-scratch（完整流程，真实代码）](https://github.com/FareedKhan-dev/train-llm-from-scratch)
 - [Awesome-LLM-Inference（FlashAttention、PagedAttention、量化、论文+代码）](https://github.com/xlite-dev/Awesome-LLM-Inference)
 - [LLM Inference Unveiled: Survey + Roofline Model](https://arxiv.org/pdf/2402.16363)

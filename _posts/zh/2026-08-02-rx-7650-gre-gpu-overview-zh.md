@@ -21,7 +21,7 @@ type: note
 
 ![Image](https://images.openai.com/static-rsc-4/KUTtBcB3Dy28YYSMCPgse3JUfNaT1OgxdyChPIxdcaKbRFdvhG-Y6mWpwSl03z1oSKZCH8Y_UZ10rYG6ZjPlEqZPRBpI3REnc1jUG20qJKUnn6RT7mbFJJM7WFgGXcwUMevFYlO_Wiz7SDCRSGM42kx9NrEH9wsYS45r6ME-O67mL9www3XHOIQwJSeoat6H?purpose=fullsize)
 
-## 回答：
+## 回答
 
 **AMD Radeon RX 7650 GRE** 是一款基于 AMD **RDNA 3 架构**的**中国市场特供中端游戏 GPU**。GRE 代表 **"Golden Rabbit Edition"**（一种面向中国的命名策略）。其性能水平大约介于 **RX 7600 / RX 7600 XT** 之间。([AMD][1])
 
@@ -85,7 +85,7 @@ RX 6600
 
 对于您的使用场景（vLLM、nanoGPT、CUDA 学习、本地模型）：
 
-### 优点：
+### 优点
 
 ✅ 8GB 显存
 ✅ RDNA 3 架构
@@ -94,7 +94,7 @@ RX 6600
 
 AMD 官方列出 RX 7650 GRE 支持 Ubuntu x86_64。([AMD][1])
 
-### 缺点：
+### 缺点
 
 ❌ ROCm 生态系统远弱于 NVIDIA CUDA
 
