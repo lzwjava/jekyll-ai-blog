@@ -45,6 +45,7 @@ __global__ void paged_attention_kernel(...) {
 TL;DR：如果你正在阅读 vLLM/FlashAttention 内核源代码（`csrc/attention/*.cu`），“warp”只是 CUDA 的 32 线程执行单元——这个抽象决定了工作如何在 query tokens / KV blocks / heads 上进行分块以实现最大并行性。
 
 参考：
+
 - [vLLM PagedAttention 设计文档](https://docs.vllm.ai/en/latest/design/paged_attention/)
 - [我们对 Flash Attention 4 进行了逆向工程](https://modal.com/blog/reverse-engineer-flash-attention-4)
 - [DeepSeek V4 在 vLLM 中：高效的长上下文注意力](https://vllm.ai/blog/2026-04-24-deepseek-v4)

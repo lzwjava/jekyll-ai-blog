@@ -45,6 +45,7 @@ And DeepSeek's newer vLLM kernels push this further: a fused kernel uses static 
 TL;DR: if you're reading vLLM/FlashAttention kernel source (`csrc/attention/*.cu`), "warp" is just CUDA's 32-thread execution unit — the abstraction that decides how work gets tiled across query tokens / KV blocks / heads for max parallelism.
 
 References:
+
 - [vLLM PagedAttention design doc](https://docs.vllm.ai/en/latest/design/paged_attention/)
 - [We reverse-engineered Flash Attention 4](https://modal.com/blog/reverse-engineer-flash-attention-4)
 - [DeepSeek V4 in vLLM: Efficient Long-context Attention](https://vllm.ai/blog/2026-04-24-deepseek-v4)
