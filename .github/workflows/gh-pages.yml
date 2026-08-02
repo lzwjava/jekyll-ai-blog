@@ -3,7 +3,6 @@ name: Deploy Jekyll
 on:
   schedule:
     - cron: '0 */2 * * *'
-  push:
   workflow_dispatch:
 
 permissions:
