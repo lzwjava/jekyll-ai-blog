@@ -18,6 +18,7 @@ type: note
 ## 已做的更改（提交为 `c33f924ca`）
 
 **1. `wrangler.jsonc`（新建，位于仓库根目录）**——按照文档中 SSG/静态资源模式声明 Worker：
+
 ```jsonc
 {
   "name": "jekyll-ai-blog",
@@ -29,6 +30,7 @@ type: note
   }
 }
 ```
+
 - `name` 修复了 "undefined" 警告；`compatibility_date` 修复了硬错误
 - 没有 `main` 脚本——这是一个纯静态站点 Worker，提供 Jekyll 的 `_site` 输出
 - 通过 `wrangler deploy --dry-run` 验证：读取了 7156 个文件，没有错误
@@ -40,6 +42,7 @@ type: note
 Workers Builds **不会从 `wrangler.jsonc` 读取构建命令**（文档已说明此限制）。由于 `_site` 被 gitignore，CI 克隆的仓库中没有构建好的站点。请在 Cloudflare 仪表板中操作：
 
 > **您的 Worker → 设置 → 构建 → 构建命令：**
+>
 > ```
 > bundle install && bundle exec jekyll build
 > ```

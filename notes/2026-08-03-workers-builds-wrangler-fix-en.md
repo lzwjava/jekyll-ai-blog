@@ -18,6 +18,7 @@ Your repo deploys fine to **GitHub Pages** via GitHub Actions. But the error you
 ## Changes made (committed as `c33f924ca`)
 
 **1. `wrangler.jsonc` (new, repo root)** — declares the Worker using the documented SSG/static-assets pattern:
+
 ```jsonc
 {
   "name": "jekyll-ai-blog",
@@ -29,6 +30,7 @@ Your repo deploys fine to **GitHub Pages** via GitHub Actions. But the error you
   }
 }
 ```
+
 - `name` fixes the "undefined" warning; `compatibility_date` fixes the hard error
 - No `main` script — it's a pure static-site Worker serving Jekyll's `_site` output
 - Verified with `wrangler deploy --dry-run`: reads 7156 files, no errors
@@ -40,6 +42,7 @@ Your repo deploys fine to **GitHub Pages** via GitHub Actions. But the error you
 Workers Builds **does not read build commands from `wrangler.jsonc`** (documented limitation). Since `_site` is gitignored, the CI clone has no built site. In the Cloudflare dashboard:
 
 > **Your Worker → Settings → Build → Build command:**
+>
 > ```
 > bundle install && bundle exec jekyll build
 > ```

@@ -24,6 +24,7 @@ One correction worth noting since it's a common footgun: don't store the value o
 Minimal workflow step once both secrets exist:
 
 {% raw %}
+
 ```yaml
 - name: Deploy Worker
   uses: cloudflare/wrangler-action@v4
@@ -32,11 +33,13 @@ Minimal workflow step once both secrets exist:
     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     command: deploy
 ```
+
 {% endraw %}
 
 Or if you're calling `npx wrangler deploy` directly in a `run:` step instead of the action, just export both as env vars on that step:
 
 {% raw %}
+
 ```yaml
 - name: Deploy
   run: npx wrangler deploy
@@ -44,10 +47,12 @@ Or if you're calling `npx wrangler deploy` directly in a `run:` step instead of 
     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 ```
+
 {% endraw %}
 
 Wrangler auto-detects these two env var names — no extra config needed for `jekyll-ai-blog`.
 
 References:
+
 - [GitHub Actions · Cloudflare Workers docs](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/)
 - [cloudflare/wrangler-action](https://github.com/cloudflare/wrangler-action)

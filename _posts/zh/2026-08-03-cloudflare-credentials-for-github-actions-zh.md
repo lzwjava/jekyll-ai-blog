@@ -24,6 +24,7 @@ type: note
 两个密钥创建后的最小工作流步骤：
 
 {% raw %}
+
 ```yaml
 - name: Deploy Worker
   uses: cloudflare/wrangler-action@v4
@@ -32,11 +33,13 @@ type: note
     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     command: deploy
 ```
+
 {% endraw %}
 
 或者，如果你在 `run:` 步骤中直接调用 `npx wrangler deploy` 而不是使用 action，只需在该步骤中将两者导出为环境变量：
 
 {% raw %}
+
 ```yaml
 - name: Deploy
   run: npx wrangler deploy
@@ -44,10 +47,12 @@ type: note
     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 ```
+
 {% endraw %}
 
 Wrangler 会自动识别这两个环境变量名称——无需为 `jekyll-ai-blog` 做额外配置。
 
 参考文档：
+
 - [GitHub Actions · Cloudflare Workers 文档](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/)
 - [cloudflare/wrangler-action](https://github.com/cloudflare/wrangler-action)

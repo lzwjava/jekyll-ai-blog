@@ -14,6 +14,7 @@ Done. Here's the full picture:
 ## What I changed
 
 **`.github/workflows/gh-pages.yml`** (commit `17f9a67b6`):
+
 - ✅ Kept all your automation: language translation, notes translation, table fixes, markdown linting, tests, release hash — these **must** stay in GitHub Actions because they push commits back to the repo (Cloudflare's build would loop forever: push → build → push → …)
 - ❌ Removed the GitHub Pages steps (`configure-pages`, `upload-pages-artifact`, `deploy-pages`) and the `github-pages` environment
 - ➕ Added `Deploy to Cloudflare Workers` step: `npx wrangler deploy` — reads `wrangler.jsonc` and uploads the freshly built `_site` to your `jekyll-ai-blog` Worker
@@ -22,6 +23,7 @@ Done. Here's the full picture:
 ## You must do 2 things
 
 **1. Add GitHub secrets** (otherwise the deploy step fails):
+
 - `CLOUDFLARE_API_TOKEN` — create at dash.cloudflare.com → **My Profile → API Tokens → Create Token** → template **"Edit Cloudflare Workers"** (Workers Scripts: Edit). Copy it.
 - `CLOUDFLARE_ACCOUNT_ID` — dash.cloudflare.com → right sidebar shows your Account ID.
 - Then: GitHub repo → **Settings → Secrets and variables → Actions → New repository secret** for each.

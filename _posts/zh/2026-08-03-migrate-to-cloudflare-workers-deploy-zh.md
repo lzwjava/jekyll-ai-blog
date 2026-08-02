@@ -14,6 +14,7 @@ type: note
 ## 我所做的更改
 
 **`.github/workflows/gh-pages.yml`**（提交 `17f9a67b6`）：
+
 - ✅ 保留了所有自动化功能：语言翻译、笔记翻译、表格修复、Markdown 格式检查、测试、发布哈希——这些必须保留在 GitHub Actions 中，因为它们会将提交推送回仓库（Cloudflare 的构建会导致无限循环：推送 → 构建 → 推送 → ……）
 - ❌ 移除了 GitHub Pages 步骤（`configure-pages`、`upload-pages-artifact`、`deploy-pages`）和 `github-pages` 环境
 - ➕ 添加了 `部署到 Cloudflare Workers` 步骤：`npx wrangler deploy`——读取 `wrangler.jsonc` 并将新构建的 `_site` 上传到您的 `jekyll-ai-blog` Worker
@@ -22,6 +23,7 @@ type: note
 ## 您必须执行 2 项操作
 
 **1. 添加 GitHub 密钥**（否则部署步骤会失败）：
+
 - `CLOUDFLARE_API_TOKEN` — 在 dash.cloudflare.com → **我的资料 → API 令牌 → 创建令牌** → 模板 **"编辑 Cloudflare Workers"**（Workers 脚本：编辑）中创建。复制它。
 - `CLOUDFLARE_ACCOUNT_ID` — dash.cloudflare.com → 右侧边栏显示您的账户 ID。
 - 然后：GitHub 仓库 → **设置 → 密钥和变量 → Actions → 新建仓库密钥**，为每个密钥创建。
