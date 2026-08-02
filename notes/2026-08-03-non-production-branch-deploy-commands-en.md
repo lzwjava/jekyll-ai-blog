@@ -29,7 +29,7 @@ So unless you need something custom, just leave the default.
 ## When you'd customize it
 
 | Situation | Non-production branch deploy command |
-|---|---|
+| --- | --- |
 | Default (recommended) | `npx wrangler versions upload` |
 | Different package manager | `yarn exec wrangler versions upload` |
 | Deploy previews to a staging env instead | `npx wrangler versions upload --env staging` |

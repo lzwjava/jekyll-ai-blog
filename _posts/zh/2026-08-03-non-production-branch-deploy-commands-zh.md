@@ -29,7 +29,7 @@ Workers Builds（即你正在配置的 Git → Worker CI/CD）运行一个两步
 ## 何时需要自定义
 
 | 场景 | 非生产分支部署命令 |
-|---|---|
+| --- | --- |
 | 默认（推荐） | `npx wrangler versions upload` |
 | 不同的包管理器 | `yarn exec wrangler versions upload` |
 | 将预览部署到预发布环境 | `npx wrangler versions upload --env staging` |
