@@ -25,7 +25,7 @@ du -sh $(python -c "import torch,os; print(os.path.dirname(torch.__file__))")/li
 Full stack for LLM work adds up fast:
 
 | package | size |
-|---|---|
+| --- | --- |
 | torch (cuda) | ~2.5-3GB |
 | transformers | ~50-100MB |
 | flash-attn (compiled) | ~500MB-1GB build artifacts |
@@ -62,5 +62,6 @@ For your MI300X setup specifically — ROCm torch builds are also multi-GB (~3-4
 Real number to expect: with `uv` dedup, N venvs with the full LLM stack costs roughly **1x the base install (~5-8GB) + small deltas per venv**, not N×.
 
 References:
+
 - [PyTorch install matrix](https://pytorch.org/get-started/locally/)
 - [uv cache/dedup docs](https://docs.astral.sh/uv/concepts/cache/)

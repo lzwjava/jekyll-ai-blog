@@ -25,7 +25,7 @@ du -sh $(python -c "import torch,os; print(os.path.dirname(torch.__file__))")/li
 用于LLM工作的完整技术栈会迅速增加体积：
 
 | 包 | 大小 |
-|---|---|
+| --- | --- |
 | torch (cuda) | 约2.5-3GB |
 | transformers | 约50-100MB |
 | flash-attn (编译后) | 约500MB-1GB构建产物 |
@@ -62,5 +62,6 @@ pip wheel flash-attn -w /tmp/wheels
 实际预期数字：使用`uv`去重后，N个包含完整LLM技术栈的虚拟环境大约消耗**1倍基础安装量（约5-8GB）+ 每个虚拟环境的小幅增量**，而非N倍。
 
 参考：
+
 - [PyTorch安装矩阵](https://pytorch.org/get-started/locally/)
 - [uv缓存/去重文档](https://docs.astral.sh/uv/concepts/cache/)

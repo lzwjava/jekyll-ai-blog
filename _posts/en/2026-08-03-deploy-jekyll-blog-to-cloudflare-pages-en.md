@@ -196,6 +196,7 @@ Example:
 `.github/workflows/deploy.yml`
 
 {% raw %}
+
 ```yaml
 name: deploy
 
@@ -224,6 +225,7 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           directory: ./_site
 ```
+
 {% endraw %}
 
 ---

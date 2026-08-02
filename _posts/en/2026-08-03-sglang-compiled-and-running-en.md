@@ -14,9 +14,11 @@ Everything is set up and verified working. Here's the full summary:
 ## Done: SGLang compiled & running
 
 **Build** (installed into system Python 3.12's user site, no venv):
+
 ```
 /usr/bin/python3.12 -m pip install -e "python" --user --break-system-packages
 ```
+
 - PEP 668 needed `--break-system-packages`; packages went to `~/.local/lib/python3.12/site-packages`
 - Editable install: Python changes in `/mnt/data/sglang/python/` are live immediately
 - All 3 Rust extensions (`sglang.srt.grpc._core`, `sglang.srt.multimodal._core`, `sglang.srt.server._core`) compiled into the source tree
@@ -27,9 +29,11 @@ Everything is set up and verified working. Here's the full summary:
 ## Two machine-specific gotchas discovered
 
 1. **HF Xet downloads stall** — model downloads froze at ~84 MB until I disabled the transfer protocol. Always set:
+
    ```bash
    export HF_HUB_DISABLE_XET=1
    ```
+
 2. **Ports 30000/30001 are taken** by other apps on this machine (`cef_server` and PyCharm). Use e.g. `--port 30010`.
 
 ## Working with the project
@@ -51,6 +55,7 @@ pre-commit install && pre-commit run --all-files
 ```
 
 **Dev workflow notes:**
+
 - Python edits → just restart the server (editable install)
 - Rust edits (`rust/`) → re-run `pip install -e "python"` to rebuild
 - Use `sglang serve` as CLI (it's the new recommended entrypoint; `launch_server` still works with a deprecation warning)

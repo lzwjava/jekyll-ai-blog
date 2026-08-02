@@ -196,6 +196,7 @@ Cloudflare Pages 部署
 `.github/workflows/deploy.yml`
 
 {% raw %}
+
 ```yaml
 name: 部署
 
@@ -224,6 +225,7 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           directory: ./_site
 ```
+
 {% endraw %}
 
 ---
