@@ -44,6 +44,7 @@ Dashboard → My Profile → API Tokens → Create Token
 该模板包含 Account:Read、User:Read、Workers Scripts:Edit、Workers Routes:Edit、Workers KV:Edit、Zone:Read——其他遇到相同 10000 错误的用户通过从手动范围令牌切换到“Edit Cloudflare Workers”模板修复了该问题。
 
 参考：
+
 - [GitHub issue #2611 - 自定义令牌 10000](https://github.com/cloudflare/wrangler2/issues/2611)
 - [Cloudflare Community - Wrangler Deploy 10000，通过模板修复](https://community.cloudflare.com/t/wrangler-deploy-workflows-10000-error/827149)
 - [Cloudflare Community - Authentication 10000](https://community.cloudflare.com/t/authentication-10000/821086)
