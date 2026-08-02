@@ -16,7 +16,7 @@ type: note
 目前，**每次推送都会触发两个部署器**：
 
 | | GitHub Actions | Workers Builds（仪表盘） |
-|---|---|---|
+| --- | --- | --- |
 | 触发条件 | ✅ 运行（计划/手动） | ✅ 在**每次推送**时运行 |
 | 执行内容 | 翻译 → 构建 → `wrangler deploy`（**提升**到生产环境） | `bundle install && jekyll build` → `wrangler versions upload`（上传版本，**不提升**） |
 | 结果 | ✅ 生产环境部署 | ❌ 重复版本混乱 + 浪费构建分钟数 + 冗余的 Jekyll 构建 |

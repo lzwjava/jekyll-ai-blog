@@ -16,6 +16,7 @@ Answer:
 Two phases: (1) move DNS to Cloudflare first, (2) transfer registration. Cloudflare requires the zone to be **active on Cloudflare** before it'll accept an auth code — you can't transfer registration first.
 
 **Phase 1 — DNS cutover**
+
 ```
 1. cloudflare.com → Add a site → enter domain → Free plan
 2. Review auto-scanned DNS records, fix/add missing ones (MX, TXT/SPF, etc.)
@@ -27,6 +28,7 @@ Two phases: (1) move DNS to Cloudflare first, (2) transfer registration. Cloudfl
 ```
 
 **Phase 2 — Registrar transfer** (only after zone is Active)
+
 ```
 1. Domain must be >60 days old at current registrar, unlocked, no pending renewal
 2. Namecheap → Domain List → Manage → Sharing & Transfer → unlock domain
@@ -40,11 +42,13 @@ Two phases: (1) move DNS to Cloudflare first, (2) transfer registration. Cloudfl
 ```
 
 Gotchas that bite people:
+
 - WHOIS privacy sometimes needs to be temporarily off depending on registrar (Namecheap usually fine, but check).
 - If you skip Phase 1, Cloudflare's "enter auth code" field is literally disabled until zone status = Active.
 - Keep Namecheap NS as fallback in a notepad until transfer fully completes — if it fails mid-transfer you don't want to lose DNS control too.
 
 References:
+
 - [Transfer your domain to Cloudflare — Cloudflare Registrar docs](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/)
 - [How to transfer a domain name — Cloudflare Learning Center](https://www.cloudflare.com/learning/dns/how-to-transfer-a-domain-name/)
 - [Namecheap to Cloudflare Domain Transfer walkthrough](https://syahnurnizam.com/articles/2025/07/how-to-transfer-your-domain-name-from-namecheap-to-cloudflare/)

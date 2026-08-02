@@ -9,14 +9,14 @@ translated: false
 type: note
 ---
 
-Workflow is progressing well (translations done ✅, now on lint/tests/build). 
+Workflow is progressing well (translations done ✅, now on lint/tests/build).
 
 ## Answer: Yes, clean them up
 
 Right now, **every push triggers two deployers**:
 
 | | GitHub Actions | Workers Builds (dashboard) |
-|---|---|---|
+| --- | --- | --- |
 | Triggers | ✅ runs (schedule/manual) | ✅ runs on **every push** |
 | What it does | translations → build → `wrangler deploy` (**promotes** to production) | `bundle install && jekyll build` → `wrangler versions upload` (uploads version, **doesn't promote**) |
 | Result | ✅ production deploy | ❌ duplicate version churn + wasted build minutes + redundant Jekyll build |
