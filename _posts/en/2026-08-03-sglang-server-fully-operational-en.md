@@ -22,7 +22,7 @@ The sglang process is fully functional. Here's the summary:
 ## Verified Working
 
 | Feature | Result |
-|---|---|
+| --- | --- |
 | `/v1/chat/completions` | ✅ Generates text correctly |
 | `/v1/completions` | ✅ (same API) |
 | Streaming (SSE) | ✅ Token-by-token deltas |
@@ -33,6 +33,7 @@ The sglang process is fully functional. Here's the summary:
 ## Ready-to-Use Snippets
 
 **Simple request (curl):**
+
 ```bash
 curl -s http://127.0.0.1:30010/v1/chat/completions \
   -H "Content-Type: application/json" \
@@ -42,6 +43,7 @@ curl -s http://127.0.0.1:30010/v1/chat/completions \
 ```
 
 **From any OpenAI-compatible client** (Python, llama.cpp, LiteLLM, etc.):
+
 ```python
 from openai import OpenAI
 client = OpenAI(base_url="http://127.0.0.1:30010/v1", api_key="EMPTY")
@@ -56,6 +58,7 @@ print(resp.choices[0].message.content)
 Note: the `sglang` Python client module isn't importable from the system Python (only from whatever env the server was launched in), but the OpenAI-compatible HTTP API is fully accessible — no special client needed.
 
 What would you like to do with it? I can for example:
+
 - **Benchmark** it more thoroughly (latency vs. concurrency sweeps)
 - **Test batch/offline processing** via `/v1/batches`
 - **Probe tokenizer endpoints** (`/tokenize`, `/detokenize`)

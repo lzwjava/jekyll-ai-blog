@@ -22,7 +22,7 @@ sglang 进程运行正常。以下是总结：
 ## 已验证功能
 
 | 功能 | 结果 |
-|---|---|
+| --- | --- |
 | `/v1/chat/completions` | ✅ 正确生成文本 |
 | `/v1/completions` | ✅（相同 API） |
 | 流式传输 (SSE) | ✅ 逐个 token 增量 |
@@ -33,6 +33,7 @@ sglang 进程运行正常。以下是总结：
 ## 可直接使用的代码片段
 
 **简单请求（curl）：**
+
 ```bash
 curl -s http://127.0.0.1:30010/v1/chat/completions \
   -H "Content-Type: application/json" \
@@ -42,6 +43,7 @@ curl -s http://127.0.0.1:30010/v1/chat/completions \
 ```
 
 **从任何兼容 OpenAI 的客户端（Python、llama.cpp、LiteLLM 等）：**
+
 ```python
 from openai import OpenAI
 client = OpenAI(base_url="http://127.0.0.1:30010/v1", api_key="EMPTY")
@@ -56,6 +58,7 @@ print(resp.choices[0].message.content)
 注意：`sglang` Python 客户端模块无法从系统 Python 中导入（只能从启动服务器的环境导入），但兼容 OpenAI 的 HTTP API 完全可用——无需特殊客户端。
 
 你打算用它做什么？例如我可以：
+
 - **更全面地测试性能**（延迟与并发扫描）
 - **通过 `/v1/batches` 测试批量/离线处理**
 - **探测 tokenizer 端点**（`/tokenize`、`/detokenize`）
