@@ -1,0 +1,18 @@
+{
+  // Cloudflare Workers Builds deployment for the Jekyll blog.
+  // This Worker serves the static site output (_site) via Workers Static Assets.
+  // No "main" script is needed: pure static-site (SSG) deployment.
+  //
+  // IMPORTANT: Workers Builds does NOT read build commands from this file.
+  // In the Cloudflare dashboard set: Settings > Build > Build command
+  //   bundle install && bundle exec jekyll build
+  // (Jekyll outputs to ./_site, which is gitignored and must be generated
+  //  by the build command before the deploy step runs.)
+  "name": "jekyll-ai-blog",
+  "compatibility_date": "2026-08-02",
+  "assets": {
+    "directory": "./_site",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

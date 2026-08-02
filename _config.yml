@@ -63,6 +63,8 @@ exclude:
   - excluded_notes
   - gcm-diagnose.log
   - AGENTS.md
+  # 31.8 MiB > Workers static assets 25 MiB limit; not linked anywhere on the site
+  - assets/epub/lzwjava-blog-en.epub
 
 collections:
   notes:
