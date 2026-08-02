@@ -30,6 +30,7 @@ type: note
 **考虑到你的实际情况**（你现在经营自己的AI公司，训练模型，构建CLI代理）——这种模式基本上已经是你默认的工作方式了，只是少了“大公司政治税”而已。公司环境下的这种模式是创始人模式的训练轮：你被迫练习交接纪律（文档化、选择继任者、放弃所有权），而这些在只有你一个人碰代码的时候很容易跳过。如果你将来回到公司或咨询合作中，这就是你可以卖的高价值点：“我交付从0到1的东西，然后安插一个合格的人，留下干净的文档离开”——这是一种稀缺、高薪、低消耗的形象，因为它解决了经理的继任风险问题，而不仅仅是技术问题。
 
 参考：
+
 - [Staff Archetypes - Will Larson](https://staffeng.com/guides/staff-archetypes/)
 - [Why I don't like the "staff engineer archetypes" - Sean Goedecke](https://www.seangoedecke.com/staff-engineer-archetypes/)
 - [Staff archetypes can be anti-patterns - Alex Ewerlöf](https://blog.alexewerlof.com/p/staff-archetypes-are-anti-patterns)

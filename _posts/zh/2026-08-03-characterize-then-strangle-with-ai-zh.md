@@ -27,6 +27,7 @@ cat internal-lib/src/main/java/**/*.java > /tmp/lib_dump.txt
 ```
 
 提示词（这才是真正的杠杆点）：
+
 ```
 这是一个内部Spring封装库及其调用点。
 请勿提出重写方案。而是：
@@ -67,6 +68,7 @@ interface HttpClientPort {
 核心结论：AI的职责不是重写代码，而是降低考古成本，使你能够安全应用那些古老但可靠的“扼杀者”模式/基于抽象的分支模式，而非一次性大改。
 
 参考文献：
+
 - [Strangler Fig模式 - Azure架构中心](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
 - [用于库/框架迁移的基于抽象的分支变体](https://layrs.me/course/hld/11-cloud-design-patterns/strangler-fig)
 - [Strangler Fig模式 - CTO指南](https://www.wireapps.co.uk/blog/strangler-fig-pattern-guide)

@@ -18,6 +18,7 @@ type: note
 **印度占比：** 印度占谷歌全球员工总数的 17.8%，是仅次于美国（46.8%）的第二大办公地。这意味着印度员工总数约为 **34,600 人**（17.8% × 194,668），如果按约 46% 的工程占比计算，则约为 **16,000 名工程师**——不过谷歌并未公布精确的印度工程人员细分数据，因此请将其视为基于总体比例的估算值，而非官方数字。
 
 **印度目前加速扩张的原因：**
+
 - 据 Xpheno 数据，过去 12 个月，大型美国科技巨头（Facebook、Amazon、Apple、Microsoft、Netflix、Google）在印度的员工总数增长了 16%——这是三年来的最大增幅。
 - 谷歌在班加罗尔开设了其最大的园区，租赁了 65 万平方英尺的办公空间，并发布了数百个职位，涵盖从云业务的 AI 实践总监到芯片设计师和 ML 专家等多个领域，其中许多职位要求博士学历。
 - 美国 H-1B 签证限制正促使企业直接在印度招聘更多工程人才，而不是将其调往美国。
@@ -28,6 +29,7 @@ type: note
 **注意：** Alphabet 的官方文件中并未单独列出印度工程人员数量——10-K 报告仅披露全球总人数，上述地点/职能拆分数据来自第三方劳动力数据公司（Revelio Labs、Xpheno），并非 Alphabet 直接提供。请将其视为方向性准确的数据，而非精确数字。
 
 参考资料：
+
 - [Google Number of Employees 2026 - Revelio Labs](https://www.reveliolabs.com/companies/google/employees)
 - [Google Employee Count Statistics 2026 - SQ Magazine](https://sqmagazine.co.uk/google-employee-count-statistics/)
 - [Google parent plots expansion in India as US restricts H-1Bs](https://www.staffingindustry.com/news/global-daily-news/google-parent-plots-expansion-in-india-as-us-restricts-h-1bs)

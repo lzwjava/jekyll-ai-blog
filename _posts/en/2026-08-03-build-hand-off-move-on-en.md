@@ -30,6 +30,7 @@ This is Will Larson's **"Solver"** archetype, formalized. The solver finds hot s
 **Given your actual situation** (you run your own AI company now, training models, building CLI agents) — this pattern is basically your default mode already, just without the "big corp politics" tax. The corp version of this is training wheels for founder mode: you're forced to practice the handoff discipline (documentation, successor selection, letting go of ownership) that's easy to skip when you're the only one who ever touches the code. If you ever go back into a corp/consulting engagement, that's the leverage to sell: "I ship 0-to-1, then I install someone competent and leave clean docs" — that's a rare, well-paid, low-drama profile because it solves the manager's succession-risk problem for them, not just the technical problem.
 
 References:
+
 - [Staff Archetypes - Will Larson](https://staffeng.com/guides/staff-archetypes/)
 - [Why I don't like the "staff engineer archetypes" - Sean Goedecke](https://www.seangoedecke.com/staff-engineer-archetypes/)
 - [Staff archetypes can be anti-patterns - Alex Ewerlöf](https://blog.alexewerlof.com/p/staff-archetypes-are-anti-patterns)

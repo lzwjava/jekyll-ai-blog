@@ -22,5 +22,6 @@ Answer: Usually yes, with a few concrete patterns depending on trip length and c
 Small companies/startups: often looser — just "book something reasonable, expense it," no formal platform.
 
 References:
+
 - [SAP Concur Travel policy overview](https://www.concur.com/en-us/travel)
 - [Navan corporate travel booking](https://navan.com)

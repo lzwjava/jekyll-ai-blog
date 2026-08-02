@@ -14,6 +14,7 @@ Question: Will GMs/middle managers get squeezed out in the AI era while strong I
 Answer: Yes, directionally — but it's more specific than "managers bad, engineers good." The data backs the core thesis, and the mechanism matters more than the conclusion.
 
 **What's actually happening (2024–2026 data):**
+
 - Amazon: Jassy mandated a 15%+ IC-to-manager ratio increase by Q1 2025, hit it by March, mostly through merging teams rather than mass layoffs.Amazon offers the sharpest recent example: CEO Andy Jassy told employees the company would increase the ratio of individual contributors to managers by at least 15 percent by the end of the first quarter of 2025, writing that having fewer managers would remove layers and flatten the organization.
 - Gartner: through 2026, one in five organizations will use AI to flatten their organizational structure, eliminating more than half of current middle management positions.
 - Meta went from "20+ direct reports, 20% coding time" mandate to full flattening by 2026.Engineering managers were told they needed 20 or more direct reports and to spend at least 20% of their time coding. Thousands were given a choice: move to an individual contributor role, or leave.
@@ -28,6 +29,7 @@ This maps to your own experience: you went from 30K-user Fun Live founder to run
 **Bottom line for someone in your position:** the moat isn't "IC vs manager," it's "can you make judgment calls an LLM can't and can't be trusted with." Training GPT-2 760M on MI300X and shipping agent CLIs (ww/iclaw/zz) — that's exactly the kind of irreducible, first-principles work that survives flattening. Pure coordination roles don't.
 
 References:
+
 - [The Middle Manager Isn't Dead, But the Job Is Changing Fast](https://www.metaintro.com/blog/middle-manager-role-changing-ai-flattening-2026)
 - [Management Cuts Today Are Shaping A Leadership Shortage](https://www.forbes.com/sites/cindyrodriguezconstable/2026/06/30/management-cuts-today-are-shaping-a-leadership-shortage/)
 - [Flattening org charts: Bayer, Amazon, Meta](https://www.heypinnacle.com/blog/end-of-middle-managers-2026)

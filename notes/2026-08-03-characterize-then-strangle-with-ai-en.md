@@ -28,6 +28,7 @@ cat internal-lib/src/main/java/**/*.java > /tmp/lib_dump.txt
 ```
 
 Prompt (this is the actual leverage point):
+
 ```
 Here is an internal Spring wrapper library and its call sites.
 Do NOT propose a rewrite. Instead:
@@ -69,6 +70,7 @@ interface HttpClientPort {
 Bottom line: the AI's job isn't rewriting the code, it's collapsing the archaeology cost so you can safely apply the boring, decades-old strangler fig / branch-by-abstraction pattern instead of a big-bang rewrite.
 
 References:
+
 - [Strangler Fig Pattern - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
 - [Branch by Abstraction variant for library/framework migrations](https://layrs.me/course/hld/11-cloud-design-patterns/strangler-fig)
 - [Strangler Fig Pattern - CTO's Guide](https://www.wireapps.co.uk/blog/strangler-fig-pattern-guide)

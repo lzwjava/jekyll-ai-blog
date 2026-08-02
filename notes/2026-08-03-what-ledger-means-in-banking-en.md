@@ -14,6 +14,7 @@ Question: What does "ledger" mean in banking?
 Answer: A ledger is the master record of all financial transactions for an account or entity — every debit and credit, in order, with a running balance. It's the source of truth; every other report (statement, balance sheet, income statement) is derived from it.
 
 Core mechanics:
+
 - **Double-entry**: every transaction hits at least two accounts — one debit, one credit — so the ledger always balances (Assets = Liabilities + Equity).
 - **General ledger (GL)**: the top-level ledger containing all accounts (cash, receivables, payables, revenue, expenses, etc.).
 - **Sub-ledgers**: detailed ledgers feeding into the GL — e.g., accounts receivable ledger (per-customer balances), accounts payable ledger (per-vendor balances). Their totals roll up into a single GL control account.
@@ -41,5 +42,6 @@ GROUP BY account_id;
 Every transfer, payment, or fee is two rows inserted atomically (one D, one C) — that atomicity + immutability (append-only, no updates/deletes) is what "ledger" means as a data structure, and it's exactly why crypto/blockchain co-opted the term ("distributed ledger").
 
 References:
+
 - [Investopedia — General Ledger](https://www.investopedia.com/terms/g/generalledger.asp)
 - [Double-entry bookkeeping — Wikipedia](https://en.wikipedia.org/wiki/Double-entry_bookkeeping)

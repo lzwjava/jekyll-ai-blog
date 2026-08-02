@@ -16,6 +16,7 @@ Answer:
 First, the premise needs a correction before the mechanism: India isn't uniformly dark-skinned. Skin tone across the subcontinent ranges from very fair (parts of Kashmir, Punjab) to very dark (parts of Tamil Nadu, Kerala), and it's genetically one of the most variable regions on Earth. A 2013 study measuring melanin index across South Asia found a spread of 28–79 MI units within the subcontinent alone — a wide variation in skin color (MI 28–79) in South Asia, comparable to the range seen going from Northern Europe to sub-Saharan Africa globally.
 
 **The core mechanism (same for all humans):** Skin color = melanin density, and melanin production is a UV-radiation trade-off:
+
 - High UV (near equator) → selection favors more melanin → protects folate (UV degrades folate, critical for fetal development) and prevents skin cancer.
 - Low UV (high latitude) → selection favors less melanin → skin needs to let UV-B through to synthesize vitamin D.
 
@@ -36,6 +37,7 @@ India spans low latitudes (8°N–35°N) with generally high year-round UV, so o
 **TL;DR:** Darker skin in much of India follows the standard human pattern (high UV near equator → melanin selected for). But India's *unusual range* — from very fair to very dark within one country — comes from a layered history of ANI/ASI admixture, a shared-with-Europeans light-skin allele that spread via ancient migration, and millennia of endogamy that kept regional/caste allele frequencies from homogenizing.
 
 References:
+
 - [The Light Skin Allele of SLC24A5 in South Asians and Europeans Shares Identity by Descent — PLOS Genetics](https://journals.plos.org/plosgenetics/article?id=10.1371%2Fjournal.pgen.1003912)
 - [Genetic study on South Asians helps to understand human skin color variation — ScienceDaily](https://www.sciencedaily.com/releases/2013/11/131107204239.htm)
 - [Genotype-Phenotype Study of the Middle Gangetic Plain, rs2470102 — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0022202X16326483)

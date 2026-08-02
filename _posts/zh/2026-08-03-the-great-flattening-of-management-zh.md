@@ -28,6 +28,7 @@ type: note
 **对你的公司而言：** 这与你们已经在做的事直接对应——一名工程师加 CLI 智能体（ww/iclaw/zz）取代了以往三人小组（PM、工程、运营）。大公司正在追赶独立 AI 原生工作室默认运行的结构。
 
 **参考资料：**
+
 - [Coinbase To Flatten Management Layers in AI Restructure](https://businesschief.com/news/coinbase-to-flatten-management-layers-in-ai-restructure)
 - [The Great Flattening: Middle Management Cuts in the AI Era](https://www.lepaya.com/blog/insights-great-flattening-middle-management-ai)
 - [Fortune: AI agents are flattening corporate hierarchies](https://fortune.com/2026/06/09/ai-agents-flattening-corporate-hierarchies-companies-managers-develop-new-playbook/)

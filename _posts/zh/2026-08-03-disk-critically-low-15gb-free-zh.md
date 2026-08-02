@@ -14,7 +14,7 @@ type: note
 ## 当前状态
 
 | | |
-|---|---|
+| --- | --- |
 | 文件系统 `/dev/nvme0n1p2` | **总计 916G，已用 854G，可用 15G (99%)** |
 | Inodes | 已用 10% — 正常（不是问题） |
 
@@ -23,6 +23,7 @@ type: note
 ## 主要空间占用者
 
 **`/home/lzw/projects` — 488G**
+
 - `jekyll-ai-blog/fineweb_test_dump` — **88G**（数据集转储）
 - `llama.cpp/models` — **72G**（LLM 权重）
 - `imagenet` — **64G**（数据集）
@@ -30,10 +31,12 @@ type: note
 - `coco` — **38G**，`llama` — **31G**，`llama2.c` — **26G**，`open_llama_3b` — **13G**
 
 **`/home/lzw/.cache` — 57G**
+
 - `nanochat/base_checkpoints` — 27G + `chatsft_checkpoints` — 3.8G
 - `uv` — 7.8G，`JetBrains` — 6.2G，`whisper` — 4.3G
 
 **其他**
+
 - `/home/lzw/.local/lib` — 38G，`Downloads` — 19G，`qDownloads` — 14G
 - `/var` — 21G（`cuda-repo` 3.1G，`log` 2.7G，`crash` 609M）
 - `/tmp/pip-unpack-fogsmaol` — 628M（孤立的 pip 临时目录）

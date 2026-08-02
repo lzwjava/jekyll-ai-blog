@@ -22,5 +22,6 @@ type: note
 小型公司/初创企业：通常更灵活——可能只是“订个合理的酒店，报销就行”，没有正式的平台。
 
 参考资料：
+
 - [SAP Concur差旅政策概览](https://www.concur.com/en-us/travel)
 - [Navan企业差旅预订](https://navan.com)

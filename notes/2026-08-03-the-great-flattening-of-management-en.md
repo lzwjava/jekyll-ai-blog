@@ -28,6 +28,7 @@ Risk flagged by skeptics: eliminating middle managers now may be dismantling the
 For your own company: this maps directly to what you're already doing — one engineer + CLI agents (ww/iclaw/zz) replacing what used to be a 3-person pod (PM, eng, ops). The corps are catching up to the structure indie AI-native shops already run by default.
 
 References:
+
 - [Coinbase To Flatten Management Layers in AI Restructure](https://businesschief.com/news/coinbase-to-flatten-management-layers-in-ai-restructure)
 - [The Great Flattening: Middle Management Cuts in the AI Era](https://www.lepaya.com/blog/insights-great-flattening-middle-management-ai)
 - [Fortune: AI agents are flattening corporate hierarchies](https://fortune.com/2026/06/09/ai-agents-flattening-corporate-hierarchies-companies-managers-develop-new-playbook/)
