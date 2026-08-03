@@ -20,7 +20,7 @@ No doc (`README.md`, `docs_new/`, `CONTRIBUTING.md`, `developer_guide/`) names a
 The repo includes an official dev container: `.devcontainer/devcontainer.json` + `Dockerfile`. Its `customizations` section is VSCode-specific and auto-recommends these extensions:
 
 | Extension | Why |
-|---|---|
+| --- | --- |
 | `ms-python.python` | Python core |
 | `charliermarsh.ruff` | Matches the repo's ruff pre-commit hook (`.pre-commit-config.yaml`) |
 | `rust-lang.rust-analyzer` | SGLang now has Rust code (`rust/sglang-grpc`, `sgl-model-gateway/`) |
@@ -31,6 +31,7 @@ The container is built from `lmsysorg/sglang:dev`, passes through GPUs (`--gpus 
 ## 2. PyCharm / JetBrains — used by maintainers
 
 A `.idea/` directory is committed to the repo with full project files:
+
 - Modules: `sglang.iml`, `sglang-server.iml`, `sglang-kernel.iml`, `sglang-mm.iml`, `sglang-router.iml`, `sglang-grpc.iml`, `flash-attn-4.iml`, `sgl-model-gateway-e2e-tests.iml`, `amd-sglang.iml`
 - Config: Python 3.12 SDK (`/usr/bin/python3.12`), `py.test` as the test runner, ReST support
 

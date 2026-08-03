@@ -26,6 +26,7 @@ type: note
 对于你自己的智能体栈（ww/iclaw/zz），这与其说是商业模式模板，不如说是提醒：如果你未使用 RadixArk 的托管服务，就只是在运行免费的开源引擎——目前尚无锁定风险，但需关注他们是否会将性能特性（如 PD 分离、大规模专家并行）限制在付费层级中。
 
 参考来源：
+
 - [RadixArk 以 1 亿美元种子轮启动——BusinessWire](https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure)
 - [TechCrunch：SGLang 分拆为 RadixArk，估值 4 亿美元](https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes)
 - [sgl-project/sglang GitHub](https://github.com/sgl-project/sglang)

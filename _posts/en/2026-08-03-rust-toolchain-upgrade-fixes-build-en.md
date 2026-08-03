@@ -18,11 +18,13 @@ Done. Here's what happened:
 **2. Build failed initially** — The freshly pulled code includes a new Rust crate, `sglang-server` (added in PR #33103, "feat: rust sglang server openai apis"), which pulls in `rustpython-ruff_python_ast@0.15.8` and friends that require **rustc ≥ 1.92**. Your installed toolchain was rustc 1.91.0, so `cargo` refused to compile.
 
 **3. Fixed the toolchain** — Upgraded the rustup stable toolchain:
+
 ```
 stable updated - rustc 1.97.1 (from rustc 1.91.0)
 ```
 
 **4. Rebuilt** — `pip install -e . --no-deps` recompiled all Rust/PyO3 extensions:
+
 - `sglang/srt/grpc/_core` → 6.5 MB
 - `sglang/srt/multimodal/_core` → 1.1 MB
 - `sglang/srt/server/_core` → 13.4 MB (new crate)

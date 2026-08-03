@@ -20,7 +20,7 @@ type: note
 ## 顶层结构
 
 | 目录 | 角色 |
-|---|---|
+| --- | --- |
 | `python/sglang/lang/` | **前端 DSL** — 使用 `@function` 装饰的 Python 程序，编译为中间表示（`ir.py`、`tracer.py`），并通过解释器（`interpreter.py`）在可插拔后端（`backend/`：OpenAI、运行时端点等）上执行 |
 | `python/sglang/srt/` | **SRT（SGLang Runtime）** — 核心服务引擎 |
 | `rust/sglang-server/` | **Rust 服务核心** — API 服务器（axum）、分词器/逆分词器、分词器管理器环；通过 pyo3 嵌入 |
@@ -49,6 +49,7 @@ type: note
 **请求流程：** HTTP/gRPC 入口点（`entrypoints/http_server.py`、`grpc_server.py`、`engine.py` 用于离线使用）→ `TokenizerManager`（管理每个请求的状态、分词、逆分词、流式传输）→ 通过请求接收器到 `Scheduler`。
 
 **`Scheduler`**（`managers/scheduler.py`，约 4,850 行）是核心：
+
 - 单线程事件循环（`event_loop_normal` / `event_loop_overlap`），持续执行：接收请求 → 规划下一批次 → 启动 GPU 前向传播 → 处理结果。
 - **CPU/GPU 重叠**：调度器在单独的 CUDA 流（`schedule_stream`）上运行，使下一批次的规划与当前前向传播重叠；WAR 屏障（`_apply_war_barrier`）用于保护共享缓冲区的写入。
 - 通过可插拔的 **`SchedulePolicy`**（`schedule_policy.py`：FCFS、最长前缀优先等）进行调度。

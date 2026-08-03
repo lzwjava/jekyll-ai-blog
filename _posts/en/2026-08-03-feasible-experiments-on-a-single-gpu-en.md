@@ -43,6 +43,7 @@ CUDA_VISIBLE_DEVICES=0 python eval.py \
 This downloads the target + draft models and runs the 9 benchmarks (gsm8k, math500, humaneval, …). Caveats: it spawns one worker per visible GPU (fine — 1 GPU), it needs ~8 GB VRAM for Qwen3-4B in bf16 plus the draft model, so **close the desktop/GNOME apps to free VRAM first**, and expect it to be slow on a single 4070. You can trim work with `--tasks` if you want, but note the flag isn't wired up in `eval.py` — it hardcodes `TASKS`.
 
 **❌ Not feasible here: training.** Two blockers:
+
 - The default target cache needs **~38 TB of disk** (you have 703 GB). You'd have to shrink the dataset to a tiny fraction and reduce `model.target_layer_ids` in `config/dspark/dspark_qwen3_4b.py`, which changes results meaningfully.
 - Training assumes 8 GPUs (`train.sh` uses `CUDA_VISIBLE_DEVICES=0..7`); a single 12 GB card can't practically train a Qwen3-4B draft even with `local_batch_size=1`.
 

@@ -42,6 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python eval.py \
 这将下载 target 和 draft 模型，并运行 9 个基准测试（GSM8K、MATH500、HumanEval 等）。注意事项：它会为每块可见 GPU 启动一个 worker（这里只有 1 块 GPU，没问题）；运行 Qwen3-4B（bf16 格式）加上 draft 模型需要约 8 GB VRAM，因此**请先关闭桌面/GNOME 应用以释放 VRAM**，并且单块 4070 上会较慢。如果你希望减少工作量，可以使用 `--tasks` 参数，但请注意 `eval.py` 中并未实现该参数——它硬编码了 `TASKS`。
 
 **❌ 不可行：训练。** 存在两个障碍：
+
 - 默认的 target 缓存需要 **约 38 TB 磁盘**（你只有 703 GB）。你必须将数据集缩减到极小，并减少 `config/dspark/dspark_qwen3_4b.py` 中的 `model.target_layer_ids`，但这会显著改变结果。
 - 训练假设有 8 块 GPU（`train.sh` 使用 `CUDA_VISIBLE_DEVICES=0..7`）；即使 `local_batch_size=1`，单张 12 GB 的显卡也无法实际训练 Qwen3-4B 的 draft 模型。
 

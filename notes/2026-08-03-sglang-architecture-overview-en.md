@@ -20,7 +20,7 @@ I now have a comprehensive picture. Here's the architectural overview of the SGL
 ## Top-level layout
 
 | Directory | Role |
-|---|---|
+| --- | --- |
 | `python/sglang/lang/` | **Frontend DSL** — `@function`-decorated Python programs compiled to an IR (`ir.py`, `tracer.py`) and executed by an interpreter (`interpreter.py`) against pluggable backends (`backend/`: OpenAI, runtime endpoint, etc.) |
 | `python/sglang/srt/` | **SRT (SGLang Runtime)** — the core serving engine |
 | `rust/sglang-server/` | **Rust serving core** — API server (axum), tokenizer/detokenizer, tokenizer-manager rings; embedded via pyo3 |
@@ -50,6 +50,7 @@ I now have a comprehensive picture. Here's the architectural overview of the SGL
 **Request flow:** HTTP/gRPC entrypoints (`entrypoints/http_server.py`, `grpc_server.py`, `engine.py` for offline use) → `TokenizerManager` (owns per-request state, tokenization, detokenization, streaming) → `Scheduler` via the request receiver.
 
 **`Scheduler`** (`managers/scheduler.py`, ~4,850 lines) is the heart:
+
 - Single-threaded event loop (`event_loop_normal` / `event_loop_overlap`) that continuously: receives requests → plans the next batch → launches GPU forward → processes results.
 - **CPU/GPU overlap**: the scheduler runs on a separate CUDA stream (`schedule_stream`) so next-batch planning overlaps the current forward; WAR barriers (`_apply_war_barrier`) fence shared-buffer writes.
 - Schedules via pluggable **`SchedulePolicy`** (`schedule_policy.py`: FCFS, longest-prefix-first, etc.).

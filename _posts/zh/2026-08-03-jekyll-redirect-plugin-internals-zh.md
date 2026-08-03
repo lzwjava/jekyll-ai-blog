@@ -79,5 +79,6 @@ bundle exec jekyll build
 - 针对你的实际场景——整个域名的迁移 `lzwjava.github.io` → `lzwjava.com`——你完全不需要这个插件；它用于单个 Jekyll 站点内的按页面重定向（例如在重命名永久链接后）。你之前那个单一的根 `index.html` 才是合适的工具。
 
 参考资料：
+
 - [jekyll-redirect-from GitHub 仓库](https://github.com/jekyll/jekyll-redirect-from)
 - [GitHub Pages 支持的插件白名单](https://pages.github.com/versions/)

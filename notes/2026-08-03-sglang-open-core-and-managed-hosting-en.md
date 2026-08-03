@@ -26,6 +26,7 @@ So: **open-core + managed inference hosting**, funded on the thesis that SGLang 
 For your own agent stack (ww/iclaw/zz), this is relevant less as a business model template and more as: if you're not on RadixArk's managed hosting, you're just running the free OSS engine — no lock-in risk yet, but worth watching if they start gating perf features (PD disaggregation, large-scale EP) behind the paid tier.
 
 References:
+
 - [RadixArk Launches with $100M Seed — BusinessWire](https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure)
 - [TechCrunch: SGLang spins out as RadixArk, $400M valuation](https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes)
 - [sgl-project/sglang GitHub](https://github.com/sgl-project/sglang)

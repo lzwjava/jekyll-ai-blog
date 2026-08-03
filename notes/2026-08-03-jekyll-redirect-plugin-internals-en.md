@@ -79,5 +79,6 @@ Caveats given your setup:
 - For your actual case — whole-domain move `lzwjava.github.io` → `lzwjava.com` — you don't need this plugin at all; it's for per-page redirects within a single Jekyll site (e.g. after renaming permalinks). Your single root `index.html` from before is the right-sized tool.
 
 References:
+
 - [jekyll-redirect-from GitHub repo](https://github.com/jekyll/jekyll-redirect-from)
 - [GitHub Pages supported plugins allowlist](https://pages.github.com/versions/)

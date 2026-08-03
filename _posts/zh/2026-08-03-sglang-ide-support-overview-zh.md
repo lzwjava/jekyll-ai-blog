@@ -20,7 +20,7 @@ type: note
 仓库包含一个官方的开发容器：`.devcontainer/devcontainer.json` + `Dockerfile`。其 `customizations` 部分是针对 VSCode 的，并自动推荐以下扩展：
 
 | 扩展 | 原因 |
-|---|---|
+| --- | --- |
 | `ms-python.python` | Python 核心支持 |
 | `charliermarsh.ruff` | 与仓库的 ruff pre-commit 钩子（`.pre-commit-config.yaml`）匹配 |
 | `rust-lang.rust-analyzer` | SGLang 现在包含 Rust 代码（`rust/sglang-grpc`、`sgl-model-gateway/`） |
@@ -31,6 +31,7 @@ type: note
 ## 2. PyCharm / JetBrains — 维护者使用的环境
 
 仓库中提交了一个 `.idea/` 目录，包含完整的项目文件：
+
 - 模块：`sglang.iml`、`sglang-server.iml`、`sglang-kernel.iml`、`sglang-mm.iml`、`sglang-router.iml`、`sglang-grpc.iml`、`flash-attn-4.iml`、`sgl-model-gateway-e2e-tests.iml`、`amd-sglang.iml`
 - 配置：Python 3.12 SDK（`/usr/bin/python3.12`）、`py.test` 作为测试运行器，支持 ReST
 

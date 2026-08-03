@@ -18,11 +18,13 @@ type: note
 **2. 初始构建失败** — 新拉取的代码包含一个新的 Rust crate，`sglang-server`（在 PR #33103 中新增，标题为 "feat: rust sglang server openai apis"），该 crate 引入了 `rustpython-ruff_python_ast@0.15.8` 及其依赖项，这些依赖项需要 **rustc ≥ 1.92**。您安装的工具链是 rustc 1.91.0，因此 `cargo` 拒绝编译。
 
 **3. 修复了工具链** — 升级了 rustup stable 工具链：
+
 ```
 stable 已更新 - rustc 1.97.1（来自 rustc 1.91.0）
 ```
 
 **4. 重新构建** — `pip install -e . --no-deps` 重新编译了所有 Rust/PyO3 扩展：
+
 - `sglang/srt/grpc/_core` → 6.5 MB
 - `sglang/srt/multimodal/_core` → 1.1 MB
 - `sglang/srt/server/_core` → 13.4 MB（新 crate）
