@@ -21,6 +21,7 @@ An **Ethernet switch** is a **multi-port network bridge** that operates at the *
 ---
 
 #### 📌 **OSI Layer Breakdown for Networking Devices**
+
 | **Layer**         | **Function**                          | **Example Devices**                     |
 |-------------------|---------------------------------------|-----------------------------------------|
 | **Physical Layer (Layer 1)** | Transmits raw bit streams over a physical medium (e.g., copper, fiber). | **Hubs, Repeaters**                     |
@@ -51,6 +52,7 @@ An **Ethernet switch** is a **multi-port network bridge** that operates at the *
 ---
 
 #### 🔹 **Why Not Other Layers?**
+
 | Option | Layer          | Reason                                                                 |
 |--------|----------------|------------------------------------------------------------------------|
 | A      | Physical Layer | Incorrect: Hubs/repeaters work here, but switches operate higher.   |
