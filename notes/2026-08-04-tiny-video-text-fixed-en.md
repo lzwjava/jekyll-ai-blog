@@ -19,7 +19,7 @@ Server is back up and healthy. The earlier restart race was the `pkill` pattern 
 **Changes in `ahl/gen_video/video.py`:**
 
 | Element | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | Title font | 72px (often ~11px fallback) | **110px** bold |
 | Subtitle font | 40px (often ~11px fallback) | **64px** |
 | Title bar | 12%–18% of frame | **10%–19%** (taller) |
@@ -28,6 +28,7 @@ Server is back up and healthy. The earlier restart race was the `pkill` pattern 
 | Line heights | fixed 48px | **scale with font** (1.25× / 1.2×) |
 
 **Verified by rendering test slides** (1080×1920):
+
 - Title text now renders **172px tall** (was ~11px fallback)
 - Subtitle text **138–168px tall**
 - Both fit neatly inside their darkened bars

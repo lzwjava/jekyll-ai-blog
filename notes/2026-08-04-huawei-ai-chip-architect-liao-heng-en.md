@@ -20,13 +20,13 @@ Key career points:
 * **Huawei Fellow**
 * Former **Huawei 2012 Laboratories Chief Scientist**
 * Former **HiSilicon Turing Architecture & Design Department head**
-* Associated with Huawei's **Ascend AI chip architecture** work (昇腾 / Ascend). 
+* Associated with Huawei's **Ascend AI chip architecture** work (昇腾 / Ascend).
 
 His background is unusually hardware-focused:
 
 * Studied at **Tsinghua University Computer Science**, including the Tsinghua "少年班" route.
 * Did postdoctoral research at **Princeton University EE department**.
-* Worked at **PMC-Sierra** in the US semiconductor industry, with roles including architecture and R&D leadership before joining Huawei. 
+* Worked at **PMC-Sierra** in the US semiconductor industry, with roles including architecture and R&D leadership before joining Huawei.
 
 His technical area:
 

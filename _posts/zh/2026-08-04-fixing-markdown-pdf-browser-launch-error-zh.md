@@ -20,12 +20,15 @@ type: note
 2. 搜索 `markdown-pdf.executablePath`
 
 3. 设置 Chrome/Edge 可执行文件的路径：
+
    ```json
    {
      "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
    }
    ```
+
    或者如果你有 Chrome：
+
    ```json
    {
      "markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
@@ -37,6 +40,7 @@ type: note
 1. 在 VS Code 设置中，搜索 `markdown-pdf.executablePath`
 
 2. 将其设置为空字符串或删除该设置：
+
    ```json
    {
      "markdown-pdf.executablePath": ""
@@ -50,12 +54,14 @@ type: note
 ## 解决方案 3：正确安装 Chrome/Edge
 
 确保你已安装可用的浏览器：
+
 - **Microsoft Edge** 已在 `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe` 检测到
 - 如果 Edge 已安装但无法正常工作，请尝试重新安装
 
 ## 解决方案 4：检查权限和 PATH
 
 以管理员身份运行 PowerShell 并执行：
+
 ```powershell
 # 检查 Edge 是否存在
 Test-Path "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
@@ -67,6 +73,7 @@ Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe"
 ## 解决方案 5：使用其他 PDF 扩展
 
 如果以上方法均无效，可考虑使用替代扩展：
+
 - **vscode-pdf**
 - **PDF Preview**
 - 或者使用命令行工具如 `pandoc` 或 `wkhtmltopdf`

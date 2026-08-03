@@ -30,6 +30,7 @@ All done. ✅
 ```
 
 **What I fixed** (verified with rendered slides):
+
 - Title and subtitle fonts now **auto-shrink until they fit inside their bars** (previously 2-line titles and 3-line subtitles overflowed into the image area)
 - Extreme stress test passes: title y=212–336 and subtitle y=1545–1695, both fully inside their bars ✓
 

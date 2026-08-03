@@ -20,12 +20,15 @@ This error indicates that the Markdown PDF extension cannot launch the browser (
 2. Search for `markdown-pdf.executablePath`
 
 3. Set the path to your Chrome/Edge executable:
+
    ```json
    {
      "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
    }
    ```
+
    Or if you have Chrome:
+
    ```json
    {
      "markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
@@ -37,6 +40,7 @@ This error indicates that the Markdown PDF extension cannot launch the browser (
 1. In VS Code settings, search for `markdown-pdf.executablePath`
 
 2. Set it to an empty string or delete the setting:
+
    ```json
    {
      "markdown-pdf.executablePath": ""
@@ -50,12 +54,14 @@ This error indicates that the Markdown PDF extension cannot launch the browser (
 ## Solution 3: Install Chrome/Edge properly
 
 Make sure you have a working browser installed:
+
 - **Microsoft Edge** is already detected at `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
 - If Edge is installed but not working, try reinstalling it
 
 ## Solution 4: Check permissions and PATH
 
 Run PowerShell as Administrator and run:
+
 ```powershell
 # Check if Edge exists
 Test-Path "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
@@ -67,7 +73,8 @@ Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe"
 ## Solution 5: Use a different PDF extension
 
 If none of the above works, consider using alternative extensions:
-- **vscode-pdf** 
+
+- **vscode-pdf**
 - **PDF Preview**
 - Or use command line with `pandoc` or `wkhtmltopdf`
 
