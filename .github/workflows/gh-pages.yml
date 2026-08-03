@@ -168,7 +168,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
           echo "Workers API status: $HTTP_CODE"
           cat /tmp/cf_check.json
-          python3 -c "import json; d=json.load(open('/tmp/cf_check.json')); sys.exit(0 if d.get('success') else 1)" || {
+          python3 -c "import json,sys; d=json.load(open('/tmp/cf_check.json')); sys.exit(0 if d.get('success') else 1)" || {
             echo "::error::CLOUDFLARE_API_TOKEN cannot access account $CLOUDFLARE_ACCOUNT_ID (HTTP $HTTP_CODE). Fix the CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN secrets in Settings > Secrets and variables."
             exit 1
           }
