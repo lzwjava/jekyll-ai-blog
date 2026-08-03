@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Cloudflare SSL/TLS Edge Certificates
 
-## Answer:
+## Answer
 
 Cloudflare SSL/TLS has a simple idea:
 

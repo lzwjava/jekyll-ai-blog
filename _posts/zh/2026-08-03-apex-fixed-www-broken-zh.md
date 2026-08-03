@@ -9,14 +9,14 @@ translated: true
 type: note
 ---
 
-## 结论：修复**已生效** — `lzwjava.com` 完全正常工作。但 `www.lzwjava.com` **仍然有问题**（无 DNS 记录）。
+## 结论：修复**已生效** — `lzwjava.com` 完全正常工作。但 `www.lzwjava.com` **仍然有问题**（无 DNS 记录）
 
 我端到端验证了实时状态。以下是证据：
 
 ### ✅ 主域名 `lzwjava.com` — 已修复且正常工作
 
 | 检查项 | 结果 |
-|---|---|
+| --- | --- |
 | 名称服务器 | `barbara.ns.cloudflare.com` / `dion.ns.cloudflare.com` → Cloudflare 权威（陷阱 #2 不适用） |
 | 自定义域名绑定 | 存在于 Worker：`lzwjava.com` → `jekyll-ai-blog`，`enabled: true`，`cert_id` 已签发 |
 | 主域名 DNS | 代理的 A/AAAA 记录（104.21.62.122 / 172.67.223.135 — Cloudflare IP）→ 冲突记录已删除，Cloudflare 自动创建了自己的记录 |

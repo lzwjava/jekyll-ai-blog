@@ -52,5 +52,6 @@ git push
 - 真正的 301 替代方案：将 `lzwjava.github.io` 指向 Cloudflare Worker 路由而非 GitHub Pages，并返回 `Response.redirect(url, 301)`——但这要求你拥有 github.io 子域名的 DNS 控制权，而你没有（GitHub 拥有），因此该方案仅在你重定向的*来源*是一个你控制的域名时有效，而非 `.github.io` 子域名本身。
 
 参考文档：
+
 - [GitHub Pages 的重定向](https://docs.github.com/en/pages/getting-started-with-github-pages/setting-up-a-custom-domain-for-your-github-pages-site)
 - [jekyll-redirect-from 插件](https://github.com/jekyll/jekyll-redirect-from)

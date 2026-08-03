@@ -12,6 +12,7 @@ type: note
 已完成。工作流程现在在此仓库中构建 `_site`，并通过标准的 GitHub Pages 操作进行部署，而不是推送到 `lzwjava/lzwjava.github.io`。
 
 **`.github/workflows/gh-pages.yml` 中的更改：**
+
 - 移除了 `Check out destination repo` 和 `Sync built site to destination repo` 步骤（不再使用 PAT_TOKEN / rsync 推送到第二个仓库）
 - 在 `Build with Jekyll`（已输出 `./_site`）之后添加了标准的 Pages 部署链：
   - `actions/configure-pages@v5` → `actions/upload-pages-artifact@v3` (路径 `_site`) → `actions/deploy-pages@v4`
@@ -19,9 +20,11 @@ type: note
 - 从部署步骤输出中设置环境 URL，并发组现在为 `pages`
 
 **`_config.yml`：**
+
 - 设置 `baseurl: "/jekyll-ai-blog"` — 由于站点现在位于此仓库中，GitHub Pages 将在 `https://lzwjava.github.io/jekyll-ai-blog/` 提供服务。如果没有此设置，所有资产/链接/永久链接路径都会出错。
 
 需要注意两点：
+
 1. 在仓库的 **Settings → Pages** 中，将 Source 设置为 **GitHub Actions**（如果之前设置为某个分支）。
 2. 此工作流程不再使用 `PAT_TOKEN` 密钥。
 

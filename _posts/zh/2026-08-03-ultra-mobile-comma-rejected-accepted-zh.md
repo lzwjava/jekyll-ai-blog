@@ -29,5 +29,6 @@ done
 关于“临时密码”问题：他们基于 SMS 的临时密码流程（`my.ultramobile.com/login/sms/temp`）是独立的——这是系统生成并通过短信发送的临时密码，让你登录，然后强制你设置符合上述规则的自己的密码。临时密码本身可能不遵循相同的特殊字符规则（它是系统生成的，不是用户输入的），因此在临时密码界面上测试特殊字符不会告诉你任何关于创建密码界面的规则——直接在“创建账户”/“设置新密码”表单上测试。
 
 参考文献：
+
 - [My Ultra Account – 注册页面](https://my.ultramobile.com/activation/enrollment)
 - [通过短信发送密码](https://my.ultramobile.com/login/sms/temp)

@@ -11,7 +11,7 @@ type: note
 
 ## 问题：Cloudflare SSL/TLS 边缘证书简介
 
-## 回答：
+## 回答
 
 Cloudflare SSL/TLS 的思路很简单：
 

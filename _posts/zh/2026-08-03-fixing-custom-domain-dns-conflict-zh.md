@@ -69,6 +69,7 @@ dig NS lzwjava.com +short
 应返回两个 Cloudflare 分配的域名服务器，而非 Namecheap 的。
 
 参考资料：
+
 - [自定义域名 — Cloudflare 文档](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
 - [wrangler deploy 中忽略 override_existing_dns_record 标志 · Issue #9878](https://github.com/cloudflare/workers-sdk/issues/9878)
 - [主机名已存在外部管理的 DNS 记录 — Cloudflare 社区帖子](https://community.cloudflare.com/t/hostname-already-has-externally-managed-dns-records/788820)

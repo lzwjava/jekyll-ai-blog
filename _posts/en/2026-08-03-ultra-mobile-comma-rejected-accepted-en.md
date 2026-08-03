@@ -29,5 +29,6 @@ Then submit each and watch for the validation error to flip green — faster tha
 On the "temp password" question: their SMS-based temp password flow (`my.ultramobile.com/login/sms/temp`) is separate — that's a system-generated temporary password sent via SMS to let you in, then you're forced to set your own password matching the rules above. The temp password itself may not follow the same special-char rules (it's system-generated, not user-typed), so testing special chars against the temp password screen won't tell you anything about the create-password screen's rules — test directly on the "Create Account" / "set new password" form instead.
 
 References:
+
 - [My Ultra Account – enrollment page](https://my.ultramobile.com/activation/enrollment)
 - [Send Me a Password via SMS](https://my.ultramobile.com/login/sms/temp)

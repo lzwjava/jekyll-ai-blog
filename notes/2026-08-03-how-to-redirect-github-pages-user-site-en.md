@@ -52,5 +52,6 @@ Notes:
 - True 301 alternative: point `lzwjava.github.io` at a Cloudflare Worker route instead of GitHub Pages, and return `Response.redirect(url, 301)` — but that requires you own DNS for github.io subdomains, which you don't (GitHub does), so this only works if you're redirecting *from* a domain you control, not from the `.github.io` subdomain itself.
 
 References:
+
 - [Redirects for GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/setting-up-a-custom-domain-for-your-github-pages-site)
 - [jekyll-redirect-from plugin](https://github.com/jekyll/jekyll-redirect-from)

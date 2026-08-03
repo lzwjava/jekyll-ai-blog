@@ -69,6 +69,7 @@ dig NS lzwjava.com +short
 Should return your two Cloudflare-assigned nameservers, not Namecheap's.
 
 References:
+
 - [Custom Domains — Cloudflare Docs](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
 - [override_existing_dns_record flag ignored in wrangler deploy · Issue #9878](https://github.com/cloudflare/workers-sdk/issues/9878)
 - [Hostname already has externally managed DNS records — Cloudflare Community thread](https://community.cloudflare.com/t/hostname-already-has-externally-managed-dns-records/788820)

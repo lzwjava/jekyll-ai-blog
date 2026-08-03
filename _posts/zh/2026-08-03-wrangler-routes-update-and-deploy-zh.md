@@ -22,6 +22,7 @@ type: note
 ```
 
 三个有意为之的选择：
+
 1. **两个 custom domains** — `www.lzwjava.com` 是缺失的部分；Cloudflare 会自动创建其 DNS 记录（这里没有冲突，因为 www 目前没有记录）。
 2. **保留 wildcard route** — wrangler 在部署时会对 routes 进行 *覆盖*（全量同步）；如果没有该条目，现有的 `*.lzwjava.com/*` zone route 会在下次部署时被删除。
 3. **添加 `zone_name`** — wrangler v4 会拒绝没有 zone 引用的普通 routes。
@@ -31,6 +32,7 @@ type: note
 ## ⚠️ 现在不要在这台机器上运行 `wrangler deploy`
 
 两个阻碍因素：
+
 1. **`_site` 过期** — 最新内容是 2025-09-19，但 `_posts/` 里有 *今天* 的文章。直接部署会让线上网站回退约 10 个月。
 2. **token 权限不足** — 它连 DNS 记录都无法 *读取*（auth error 10000），而创建 `www.lzwjava.com` custom domain 会自动创建 DNS 记录。这会在本地失败。
 

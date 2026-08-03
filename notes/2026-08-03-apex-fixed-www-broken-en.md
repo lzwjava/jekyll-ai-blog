@@ -9,14 +9,14 @@ translated: false
 type: note
 ---
 
-## Verdict: the fix **has taken effect** — `lzwjava.com` is fully working. But `www.lzwjava.com` is **still broken** (no DNS record).
+## Verdict: the fix **has taken effect** — `lzwjava.com` is fully working. But `www.lzwjava.com` is **still broken** (no DNS record)
 
 I verified the live state end-to-end. Here's the evidence:
 
 ### ✅ Apex `lzwjava.com` — fixed and working
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | Nameservers | `barbara.ns.cloudflare.com` / `dion.ns.cloudflare.com` → Cloudflare authoritative (gotcha #2 is N/A) |
 | Custom Domain binding | Exists on Worker: `lzwjava.com` → `jekyll-ai-blog`, `enabled: true`, `cert_id` issued |
 | DNS at apex | Proxied A/AAAA (104.21.62.122 / 172.67.223.135 — Cloudflare IPs) → the conflicting record was deleted and Cloudflare auto-created its own |

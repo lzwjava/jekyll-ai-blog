@@ -182,7 +182,7 @@ Your blog already has traffic. Turn it into:
 
 This is exactly the type of signal AI companies notice.
 
-### Search HK jobs with:
+### Search HK jobs with
 
 ```
 LLM Engineer Hong Kong
