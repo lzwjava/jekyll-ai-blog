@@ -20,6 +20,7 @@ Pi agent已安装在`lzw@192.168.1.52`上并正常运行（警告只是来自没
    - 二进制文件位于`~/.local/share/pi-node/current/bin/pi`——已验证`pi --version`→在新登录shell中输出`0.83.0`。
 
 **远程环境摘要：**
+
 - `~/bin/mihomo` + 配置，在tmux会话`mihomo`中运行（通过Hysteria2代理正常工作）
 - `~/bin/tmux` 3.5a（AppImage解压版，无root权限）
 - `~/.local/share/pi-node/current/bin/pi` 0.83.0

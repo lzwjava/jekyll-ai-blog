@@ -14,7 +14,7 @@ Rename to **FluxReel** is complete everywhere. ✅
 **What changed** (commit `e49cb31`, pushed to `origin/main`):
 
 | Place | Before | After |
-|---|---|---|
+| --- | --- | --- |
 | Python package | `ahl/` | `fluxreel/` (git-tracked rename, all 20 files) |
 | CLI command | `ahl` | `fluxreel` (`fluxreel img`, `fluxreel server`, `fluxreel tunnel`…) |
 | pip package | `ahl 0.2.0` | `fluxreel 0.2.0` (old entry uninstalled) |
@@ -29,6 +29,7 @@ Rename to **FluxReel** is complete everywhere. ✅
 | PPT | `ahl_slides.pptx` | `fluxreel_slides.pptx` (re-rendered from Marp) |
 
 **Verified working:**
+
 - `python -m fluxreel` and the `fluxreel` console script both run
 - All imports resolve (`SdCppProvider` loads fine)
 - Server restarted as FluxReel on `:8000`, health OK, new UI branding served

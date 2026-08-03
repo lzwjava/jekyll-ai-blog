@@ -14,7 +14,7 @@ type: note
 **变更内容** (提交 `e49cb31`，已推送至 `origin/main`):
 
 | 位置 | 之前 | 之后 |
-|---|---|---|
+| --- | --- | --- |
 | Python 包 | `ahl/` | `fluxreel/` (git 跟踪重命名，共 20 个文件) |
 | CLI 命令 | `ahl` | `fluxreel` (`fluxreel img`, `fluxreel server`, `fluxreel tunnel`…) |
 | pip 包 | `ahl 0.2.0` | `fluxreel 0.2.0` (旧条目已卸载) |
@@ -29,6 +29,7 @@ type: note
 | PPT | `ahl_slides.pptx` | `fluxreel_slides.pptx` (从 Marp 重新渲染) |
 
 **已验证工作正常:**
+
 - `python -m fluxreel` 和 `fluxreel` 控制台脚本均可运行
 - 所有导入均解析成功（`SdCppProvider` 加载正常）
 - 服务器以 FluxReel 身份重启于 `:8000`，健康检查正常，新的 UI 品牌已提供

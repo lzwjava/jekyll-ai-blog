@@ -12,10 +12,12 @@ type: note
 已完成。现在在 Ubuntu 机器（GNOME/Wayland 会话）上，Caps Lock 和 Ctrl 已互换。
 
 **应用的操作：**
+
 - `gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swapcaps']"`
 - 结果验证：`['ctrl:swapcaps']` — 在 GNOME 会话中立即生效，重启后保持。
 
 **当前行为：**
+
 - **Caps Lock** 键 → 作为 **Ctrl** 使用
 - **左 Ctrl** 键 → 作为 **Caps Lock** 使用
 

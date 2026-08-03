@@ -12,10 +12,12 @@ type: note
 Done. Caps Lock and Ctrl are now swapped on the Ubuntu machine (GNOME/Wayland session).
 
 **What was applied:**
+
 - `gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swapcaps']"`
 - Result verified: `['ctrl:swapcaps']` — takes effect immediately in the GNOME session, persists across reboots.
 
 **Behavior now:**
+
 - **Caps Lock** key → acts as **Ctrl**
 - **Left Ctrl** key → acts as **Caps Lock**
 

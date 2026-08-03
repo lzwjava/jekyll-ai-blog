@@ -20,6 +20,7 @@ Pi agent is installed and working on `lzw@192.168.1.52` (the warnings are just f
    - Binary at `~/.local/share/pi-node/current/bin/pi` — verified `pi --version` → `0.83.0` in a fresh login shell.
 
 **Remote summary so far:**
+
 - `~/bin/mihomo` + config, running in tmux session `mihomo` (proxy working via Hysteria2)
 - `~/bin/tmux` 3.5a (AppImage-extracted, rootless)
 - `~/.local/share/pi-node/current/bin/pi` 0.83.0
