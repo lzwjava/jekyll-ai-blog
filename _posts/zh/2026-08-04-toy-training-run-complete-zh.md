@@ -18,7 +18,7 @@ type: note
 ### 流水线阶段（全部完成）
 
 | 阶段 | 运行内容 | 结果 |
-|---|---|---|
+| --- | --- | --- |
 | 1. 数据 | `download_and_split.py --sample-size 120` (open-perfectblend) | 114 条训练数据 + 6 条评估数据 |
 | 2. 重新生成 | 针对提供目标模型的自定义 OpenAI 兼容服务器运行 `generate_train_data.py` | 114/114 条答案，0 个错误 |
 | 3. 目标缓存 | `prepare_target_cache.py`（隐藏状态，2 层，max_length 384） | 98/114 个样本，477 MB |
@@ -49,6 +49,7 @@ CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
   python3.12 train.py --config config/dspark/dspark_qwen3_4b_fp8_toy.py \
   --opts "data.target_cache_path=$HOME/.cache/deepspec/qwen3_4b_fp8_toy_cache"
 ```
+
 （使用 `/usr/bin/python3.12`——系统 python，带有 torch 2.11 及所有依赖项。）
 
 需要我在一个小型基准测试（例如 gsm8k）上针对 `step_latest` 快速运行评估，还是提交 FSDP 修复及配置？

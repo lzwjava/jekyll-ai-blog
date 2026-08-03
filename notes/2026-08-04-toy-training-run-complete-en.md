@@ -18,7 +18,7 @@ Everything's in place. Here's the full summary of the toy training run:
 ### Pipeline stages (all completed)
 
 | Stage | What ran | Result |
-|---|---|---|
+| --- | --- | --- |
 | 1. Data | `download_and_split.py --sample-size 120` (open-perfectblend) | 114 train + 6 eval rows |
 | 2. Regenerate | `generate_train_data.py` against a custom OpenAI-compatible server serving the target model | 114/114 answers, 0 errors |
 | 3. Target cache | `prepare_target_cache.py` (hidden states, 2 layers, max_length 384) | 98/114 samples, 477 MB |
@@ -49,6 +49,7 @@ CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
   python3.12 train.py --config config/dspark/dspark_qwen3_4b_fp8_toy.py \
   --opts "data.target_cache_path=$HOME/.cache/deepspec/qwen3_4b_fp8_toy_cache"
 ```
+
 (Use `/usr/bin/python3.12` — the system python with torch 2.11 + all deps.)
 
 Want me to run a quick evaluation on one small benchmark (e.g. gsm8k) against `step_latest`, or commit the FSDP fix + config?
