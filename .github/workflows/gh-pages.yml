@@ -156,6 +156,24 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Verify Cloudflare credentials
+        # Fail fast with a clear message instead of wrangler's cryptic
+        # "Authentication error [code: 10000]". Checks the Workers API
+        # directly because /user/tokens/verify requires the token to have
+        # User Details: Read, which Workers-scoped tokens often lack.
+        run: |
+          echo "Target account (CLOUDFLARE_ACCOUNT_ID): $CLOUDFLARE_ACCOUNT_ID"
+          HTTP_CODE=$(curl -s -o /tmp/cf_check.json -w '%{http_code}' \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/services?per_page=1" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          echo "Workers API status: $HTTP_CODE"
+          cat /tmp/cf_check.json
+          python3 -c "import json; d=json.load(open('/tmp/cf_check.json')); sys.exit(0 if d.get('success') else 1)" || {
+            echo "::error::CLOUDFLARE_API_TOKEN cannot access account $CLOUDFLARE_ACCOUNT_ID (HTTP $HTTP_CODE). Fix the CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN secrets in Settings > Secrets and variables."
+            exit 1
+          }
+          echo "Cloudflare credentials OK."
+
       - name: Deploy to Cloudflare Workers
         run: npx wrangler deploy
         # Reads wrangler.jsonc (name: jekyll-ai-blog, assets: ./_site) and
