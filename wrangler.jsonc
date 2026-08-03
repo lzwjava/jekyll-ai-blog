@@ -10,6 +10,15 @@
   //  by the build command before the deploy step runs.)
   "name": "jekyll-ai-blog",
   "compatibility_date": "2026-08-02",
+  // Custom domains: Cloudflare auto-creates proxied DNS records + certs.
+  // NOTE: wrangler deploys are a full sync of routes/custom domains -
+  // anything attached to this Worker that is NOT listed here (e.g. the
+  // wildcard route below) gets removed on the next deploy.
+  "routes": [
+    { "pattern": "lzwjava.com", "custom_domain": true },
+    { "pattern": "www.lzwjava.com", "custom_domain": true },
+    { "pattern": "*.lzwjava.com/*", "zone_name": "lzwjava.com" }
+  ],
   "assets": {
     "directory": "./_site",
     "not_found_handling": "404-page",
