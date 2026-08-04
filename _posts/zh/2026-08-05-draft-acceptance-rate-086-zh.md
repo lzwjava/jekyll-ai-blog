@@ -21,7 +21,7 @@ gsm8k   | Qwen3-4B-FP8 | step_latest | 7.00+1   | 1.01       | 0.1261      | 0.0
 列（来自 `deepspec/eval/base_evaluator.py` 中的 `build_results_table` + `build_metrics_row`）：
 
 | 列 | 值 | 含义 |
-|---|---|---|
+| --- | --- | --- |
 | `#propose` | `7.00+1` | 每轮投机采样提出 **7 个草稿 token**（始终是完整块——见下文）+ 1 个锚点 token（`+1` 在格式字符串中是硬编码的） |
 | `accept_len` | `1.01` | 每轮平均提交的 token 数 = `avg(accepted_draft_tokens + 1)`。**平均只接受 0.01 个草稿 token**——你总是提交 1 个有保证的目标 token，从未提交草稿的 |
 | `verify_rate` | `0.1261` | `accept_len / (propose + 1)` = `1.01/8 ≈ 0.126`——**你计算的 token 位置中只有 12.6% 实际出现在输出中** |
@@ -34,7 +34,7 @@ gsm8k   | Qwen3-4B-FP8 | step_latest | 7.00+1   | 1.01       | 0.1261      | 0.0
 1. **~0% 草稿接受率 = 纯开销，无加速。** 每轮仍然运行：
    - 草稿前向（7 个 token 通过 2 层 DSpark 块），然后
    - 目标 **8 个位置的验证前向**通过完整的 Qwen3-4B 目标。
-   
+
    由于每轮只提交 1.01 个 token，与普通自回归解码相比，每个输出 token 要做 **~8 倍的目标 FLOPs**。在计入任何开销之前，大约比基线慢 8 倍。
 
 2. **草稿是个玩具。** `dspark_block7_qwen3_4b_fp8_toy/step_latest` 是一个 2 层模型（`num_hidden_layers=2`，约 2 GB），根据检查点的 `train_config.py`，在 114 个样本的玩具集（`perfectblend_train.jsonl`）上训练。其分布与 gsm8k/math500/humaneval/mbpp/alpaca 无关，所以它提出的 token 目标几乎永远不会同意。
@@ -48,9 +48,11 @@ gsm8k   | Qwen3-4B-FP8 | step_latest | 7.00+1   | 1.01       | 0.1261      | 0.0
 ## 该怎么做
 
 - 对于真正的冒烟测试，使用脚本文档字符串中预期的大小——终止当前运行并执行：
+
   ```bash
   CUDA_VISIBLE_DEVICES=0 PYTHONPATH=/mnt/data/DeepSpec /usr/bin/python3.12 toy_run/eval_smoke.py --dataset gsm8k --num-samples 3 --max-new-tokens 128
   ```
+
 - 要真正观察到加速，你需要一个在评估分布上训练的草稿（真正的 DSpark 检查点，而不是玩具），并且最好有一个**基线比较**：对相同样本在相同目标上计时普通自回归采样的 tokens/sec 并进行比较——在 0.86% 的首 token 接受率下，差距会很大（投机采样约慢 8 倍）。
 - 如果必须保留这个玩具草稿用于机制测试，缩小提议长度（更小的 `block_size`，例如 2），这样每轮被拒绝的验证工作更少，或者临时修补 `_confident_prefix_length`/提议以提前停止。
 - 次要问题：指标行命名（`7.00+1`、`verify_rate`）令人困惑——`verify_rate` 实际上是"保留/计算比率"，而不是速率。

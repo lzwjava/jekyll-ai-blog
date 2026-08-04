@@ -28,6 +28,7 @@ tail -f /tmp/eval_big.log   # 用于查看进度
 ```
 
 已验证的部分：
+
 - `/usr/bin/python3.12` ✅ 存在，torch 2.11.0 + CUDA 工作正常，1 张 GPU
 - 草稿检查点 ✅ `/home/lzw/checkpoints/deepspec/dspark_block7_qwen3_4b_fp8_toy/step_latest/`
 - GPU 空闲（已使用 2592 MiB），无残留进程

@@ -58,11 +58,13 @@ python3 view_jsonl.py eval_datasets/foo.jsonl 20 prompt   # just the "prompt" fi
 ```
 
 **Side-by-side diff style (compare prompt vs completion vs gold)**
+
 ```bash
 jq -r '"PROMPT: \\(.prompt)\nGOLD: \\(.answer)\n---"' eval_datasets/foo.jsonl | less -R
 ```
 
 **Stats before you eyeball anything — field presence, length distribution**
+
 ```python
 import json, statistics
 rows = [json.loads(l) for l in open("eval_datasets/foo.jsonl", encoding="utf-8")]
@@ -75,5 +77,6 @@ print(f"n={len(rows)} mean_len={statistics.mean(lens):.0f} max={max(lens)}")
 If you actually want something scrollable/searchable in a browser (e.g. checking hundreds of multi-turn conversations where terminal wrapping gets painful), I can spin up a single-file HTML artifact that loads the `.jsonl` and lets you filter/search/jump — say the word and I'll build it. Otherwise `less -R` + `jq` covers 90% of eval debugging.
 
 References:
+
 - [rich docs](https://rich.readthedocs.io/en/stable/introduction.html)
 - [jq manual](https://jqlang.github.io/jq/manual/)

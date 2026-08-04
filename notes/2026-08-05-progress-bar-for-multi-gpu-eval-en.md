@@ -25,6 +25,7 @@ for idx in tqdm(
 ```
 
 Details:
+
 - **desc** shows which dataset and rank, e.g. `[rank 0] gsm8k: 37%|███ | 37/100 [02:10<03:41, 3.54s/sample]`
 - **total** = this rank's actual share of samples (`len(range(rank, N, world_size))`), so the bar correctly goes 0→100 per rank
 - **position/disable** — only rank 0 renders the bar; on multi-GPU runs extra ranks won't collide with it (and only rank 0's terminal matters anyway)

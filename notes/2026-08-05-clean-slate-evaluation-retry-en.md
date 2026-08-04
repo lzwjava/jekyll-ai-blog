@@ -28,6 +28,7 @@ tail -f /tmp/eval_big.log   # to watch progress
 ```
 
 Verified pieces:
+
 - `/usr/bin/python3.12` ✅ exists, torch 2.11.0 + CUDA working, 1 GPU
 - Draft checkpoint ✅ `/home/lzw/checkpoints/deepspec/dspark_block7_qwen3_4b_fp8_toy/step_latest/`
 - GPU free (2592 MiB used), no stale process

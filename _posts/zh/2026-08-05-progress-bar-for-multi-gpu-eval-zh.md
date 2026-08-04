@@ -25,6 +25,7 @@ for idx in tqdm(
 ```
 
 具体细节：
+
 - **desc** 显示数据集和排名，例如 `[rank 0] gsm8k: 37%|███ | 37/100 [02:10<03:41, 3.54s/sample]`
 - **total** = 该排名的实际样本份额（`len(range(rank, N, world_size))`），因此进度条在每个排名上正确显示 0→100%
 - **position/disable** — 仅排名 0 渲染进度条；在多 GPU 运行时，其他排名不会与其冲突（且只有排名 0 的终端重要）

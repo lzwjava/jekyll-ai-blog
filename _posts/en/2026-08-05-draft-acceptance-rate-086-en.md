@@ -21,7 +21,7 @@ gsm8k   | Qwen3-4B-FP8 | step_latest | 7.00+1   | 1.01       | 0.1261      | 0.0
 Columns (from `build_results_table` + `build_metrics_row` in `deepspec/eval/base_evaluator.py`):
 
 | column | value | meaning |
-|---|---|---|
+| --- | --- | --- |
 | `#propose` | `7.00+1` | each speculative round proposes **7 draft tokens** (always the full block — see below) + the 1 anchor token (`+1` is hardcoded in the format string) |
 | `accept_len` | `1.01` | average tokens committed per round = `avg(accepted_draft_tokens + 1)`. **Only 0.01 draft tokens are accepted on average** — you always commit the 1 guaranteed target token, never the draft's |
 | `verify_rate` | `0.1261` | `accept_len / (propose + 1)` = `1.01/8 ≈ 0.126` — only **12.6% of the token positions you compute actually end up in the output** |
@@ -34,7 +34,7 @@ So the table is telling you: **the draft proposes 7 tokens and gets rejected ~99
 1. **~0% draft acceptance = pure overhead, no speedup.** Every round still runs:
    - draft forward (7 tokens through the 2-layer DSpark block), then
    - target **verification forward of 8 positions** through the full Qwen3-4B target.
-   
+
    Since you only commit 1.01 tokens per round, you're doing **~8× the target FLOPs per output token** compared to plain autoregressive decoding. Roughly 8× slower than baseline, before any overhead.
 
 2. **The draft is a toy.** `dspark_block7_qwen3_4b_fp8_toy/step_latest` is a 2-layer model (`num_hidden_layers=2`, ~2 GB) trained on a 114-sample toy set (`perfectblend_train.jsonl`) per the checkpoint's `train_config.py`. Its distribution has nothing to do with gsm8k/math500/humaneval/mbpp/alpaca, so it proposes tokens the target almost never agrees with.
@@ -48,9 +48,11 @@ Your run is still going right now (PID 49938, ~19 min in, 2/5 datasets done — 
 ## What to do
 
 - For a genuine smoke test, use the sizes the script's docstring intends — kill the current run and do:
+
   ```bash
   CUDA_VISIBLE_DEVICES=0 PYTHONPATH=/mnt/data/DeepSpec /usr/bin/python3.12 toy_run/eval_smoke.py --dataset gsm8k --num-samples 3 --max-new-tokens 128
   ```
+
 - To actually observe speedup you need a draft trained on the eval distribution (the real DSpark checkpoint, not the toy), and ideally a **baseline comparison**: time plain autoregressive sampling on the same target for the same samples and compare tokens/sec — with a 0.86% first-token acceptance rate the gap will be huge (spec ≈ 8× slower).
 - If you must keep this toy draft for machinery testing, shrink the proposal length (smaller `block_size`, e.g. 2) so each rejected round wastes less verification work, or temporarily patch `_confident_prefix_length`/proposal to early-stop.
 - Minor: the metrics row naming (`7.00+1`, `verify_rate`) is confusing — `verify_rate` is really "kept/computed ratio", not a rate.

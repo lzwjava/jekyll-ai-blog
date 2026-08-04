@@ -18,7 +18,7 @@ A framework for **speculative decoding**: training a small *draft* model that pr
 ## Reality check on your hardware
 
 | Requirement | This machine |
-|---|---|
+| --- | --- |
 | Default configs assume **8 GPUs** | 1× RTX 4070 (12GB) |
 | Target cache for real configs | ~38 TB (!) |
 | Your box | 1 GPU, 12GB, ~3GB used by desktop apps |
@@ -28,18 +28,22 @@ So the paper's full configs aren't feasible here. But there's a **toy setup** (a
 ## What I ran (all worked ✅)
 
 **1. Training** (~20s):
+
 ```bash
 cd /mnt/data/DeepSpec
 CUDA_VISIBLE_DEVICES=0 /usr/bin/python3.12 train.py \
   --config config/dspark/dspark_qwen3_4b_fp8_toy.py \
   --opts "data.target_cache_path=${HOME}/.cache/deepspec/qwen3_4b_fp8_toy_cache"
 ```
+
 Loss dropped 3.34 → 2.66, checkpoints saved to `~/checkpoints/deepspec/dspark_block7_qwen3_4b_fp8_toy/`.
 
 **2. Evaluation** (speculative decoding demo, `toy_run/eval_smoke.py` — 3 gsm8k samples, 128 tokens):
+
 ```
 |  gsm8k  | Qwen3-4B-FP8 | step_latest | 7.00+1 | accept_len 1.00 | verify_rate 0.1253 | accept_rate@0 0.0026 |
 ```
+
 The draft proposes 7-token blocks, the target verifies them, and acceptance rates are measured. Numbers are low because it's a 100-sample/2-epoch smoke model — a real checkpoint accepts 2–4 tokens per block. The mechanism works: propose → verify → reject-sample → commit.
 
 ## Two bugs I found & fixed

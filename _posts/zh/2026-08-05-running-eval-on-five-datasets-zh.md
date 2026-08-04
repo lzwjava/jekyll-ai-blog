@@ -22,12 +22,14 @@ CUDA_VISIBLE_DEVICES=0 PYTHONPATH=/mnt/data/DeepSpec /usr/bin/python3.12 toy_run
 ```
 
 **可调整的参数：**
+
 - `--dataset` — 逗号分隔，可选值：`gsm8k, math500, aime25, aime24, humaneval, mbpp, lbpp, livecodebench, mt-bench, alpaca, arena-hard-v2, swe-bench`
 - `--num-samples` — 每个数据集的采样数（默认为3；在此GPU上约3.5秒/个采样）
 - `--max-new-tokens` — 输出长度；保持≤128以在12GB显存内运行
 - `--target_name_or_path` / `--draft_name_or_path` — 默认使用toy FP8配置
 
 **后台运行并记录日志：**
+
 ```bash
 cd /mnt/data/DeepSpec
 nohup bash -c 'CUDA_VISIBLE_DEVICES=0 PYTHONPATH=/mnt/data/DeepSpec /usr/bin/python3.12 toy_run/eval_smoke.py --dataset gsm8k,math500,humaneval,mbpp,alpaca --num-samples 100 --max-new-tokens 128' > /tmp/eval_big.log 2>&1 &

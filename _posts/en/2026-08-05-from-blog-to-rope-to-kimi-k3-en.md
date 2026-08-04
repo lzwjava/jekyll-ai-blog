@@ -27,6 +27,7 @@ Su Jianlin is a self-taught math person (BSc South China Normal, MSc pure math a
 - **The "kills his own RoPE" detail**: Kimi Linear reportedly uses NoPE — no explicit position encoding — because KDA's gating is expressive enough to learn positional structure implicitly. This is a real and notable design choice; the framing that Su co-designed something that obsoletes his earlier famous invention checks out per Kimi Linear's public documentation.
 
 **On Kimi K3 itself** — I verified independently:
+
 - 2.8T total params, MoE with 896 experts, 16 active (~104B active params), 1M context, built on KDA + AttnRes. Kimi K3 is Kimi's most capable flagship model to date, with 2.8 trillion parameters, built on Kimi Delta Attention (KDA), a hybrid linear attention mechanism, and Attention Residuals, with native visual understanding and a 1M-token context window, positioned as the world's first open-source model in the 3-trillion-parameter class.
 - Timeline: hosted launch July 16, open weights July 26–27, 2026 — weights went public July 26, 2026 at roughly 7:30 PM EDT, a day ahead of the July 27 target.
 - Benchmark claim in the article checks out: Arena ranked K3 first in its Frontend Code evaluation at 1,679 points, ahead of Fable 5, in blind developer testing, though Moonshot itself says K3 still trails Claude Fable 5 and GPT-5.6 Sol overall.
@@ -37,6 +38,7 @@ Su Jianlin is a self-taught math person (BSc South China Normal, MSc pure math a
 The RoPE math itself, if you want the actual derivation (block-diagonal rotation matrix, why `q_m^T k_n` depends only on `m-n`), I can walk through it — you've probably already got this in your notes but happy to do the forward-pass version alongside how KDA's delta-rule gating differs from vanilla linear attention.
 
 References:
+
 - [Kimi K3 – Kimi API Platform](https://platform.kimi.ai/docs/guide/kimi-k3-quickstart)
 - [Attention Residuals (arXiv 2603.15031)](https://arxiv.org/abs/2603.15031v1)
 - [Kimi Linear (arXiv 2510.26692)](https://arxiv.org/abs/2510.26692)

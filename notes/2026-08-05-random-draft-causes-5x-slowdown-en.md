@@ -18,7 +18,7 @@ The machinery works end-to-end, but the **draft model is a statistically random 
 ## What the numbers say
 
 | dataset | #propose | accept_len | verify_rate | accept@0 | accept@1..6 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | gsm8k | 7.00+1 | 1.01 | 0.1261 | 0.0086 | 0 |
 | math500 | 7.00+1 | 1.01 | 0.1262 | 0.0096 | 0 |
 | humaneval | 7.00+1 | 1.01 | 0.1262 | 0.0095 | 0 |
@@ -47,7 +47,7 @@ epoch=3 step=12/12 loss=2.6636   # total: 12 steps, 3 epochs, 0.3 minutes (~20 s
 - The toy config gutted everything that makes DSpark work, compared to the real `config/dspark/dspark_qwen3_4b.py`:
 
 | | toy (this run) | real |
-|---|---|---|
+| --- | --- | --- |
 | draft layers | 2 | 5 |
 | target layers | [1, 33] | [1, 9, 17, 25, 33] |
 | markov rank | 32 | 256 |

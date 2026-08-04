@@ -12,6 +12,7 @@ type: note
 It's **not stuck** — the eval is running fine. Here's the evidence:
 
 **GPU + worker actively computing:**
+
 ```
 GPU util: 73% → 64% → 75% (polled over 9s), mem steady at 9887 MiB
 Worker child 44161: 101% CPU, 1.95 GB RSS, actively crunching
@@ -32,6 +33,7 @@ So you'll see nothing on screen for ~6 minutes per dataset (100 samples × ~3.5s
 ```
 
 **Timeline estimate:**
+
 - gsm8k row → ~6 min in (you're at ~3 min now)
 - math500 → ~12 min
 - humaneval → ~18 min
@@ -39,6 +41,7 @@ So you'll see nothing on screen for ~6 minutes per dataset (100 samples × ~3.5s
 - alpaca → ~30 min
 
 Ways to watch progress in another terminal:
+
 ```bash
 nvidia-smi -l 10                       # GPU activity
 ps -o pid,etime,time,%cpu -p $(pgrep -f spawn_main)   # worker CPU time growing

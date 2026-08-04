@@ -18,7 +18,7 @@ type: note
 ## 硬件现实检查
 
 | 需求 | 当前机器 |
-|---|---|
+| --- | --- |
 | 默认配置假设 **8 个 GPU** | 1× RTX 4070 (12GB) |
 | 真实配置的目标缓存 | ~38 TB (!) |
 | 你的机器 | 1 个 GPU，12GB，桌面应用占用约 3GB |
@@ -28,18 +28,22 @@ type: note
 ## 我运行了什么（全部成功 ✅）
 
 **1. 训练**（约 20 秒）：
+
 ```bash
 cd /mnt/data/DeepSpec
 CUDA_VISIBLE_DEVICES=0 /usr/bin/python3.12 train.py \
   --config config/dspark/dspark_qwen3_4b_fp8_toy.py \
   --opts "data.target_cache_path=${HOME}/.cache/deepspec/qwen3_4b_fp8_toy_cache"
 ```
+
 损失从 3.34 降到 2.66，检查点已保存到 `~/checkpoints/deepspec/dspark_block7_qwen3_4b_fp8_toy/`。
 
 **2. 评估**（投机解码演示，`toy_run/eval_smoke.py` — 3 个 gsm8k 样本，128 个 token）：
+
 ```
 |  gsm8k  | Qwen3-4B-FP8 | step_latest | 7.00+1 | accept_len 1.00 | verify_rate 0.1253 | accept_rate@0 0.0026 |
 ```
+
 草稿模型提议 7-token 块，目标模型验证它们，并测量接受率。数字较低是因为这是一个 100 样本/2 epoch 的冒烟模型——真正的检查点每个块接受 2-4 个 token。机制工作正常：提议 → 验证 → 拒绝采样 → 提交。
 
 ## 我发现并修复的两个错误

@@ -41,11 +41,13 @@ python train.py config/train_shakespeare_char.py \
 ```
 
 Notes:
+
 - Set `PYTORCH_ENABLE_MPS_FALLBACK=1` before running on M2 — some ops still aren't implemented in MPS and will otherwise hard-error rather than silently falling back to CPU.
 - If you want it more legit than "does loss go down," bump `max_iters` to ~3000-6000; one MPS run reached loss 3.25 after 6184 iterations in 3.5 minutes — that's when generated text starts looking like actual Shakespeare-ish structure instead of noise.
 - If you want to skip Python entirely and go lower-level, Karpathy's `llm.c` compiles and runs pure C on CPU with no PyTorch dependency at all — worth trying on the Mac Pro since there's no GPU path there anyway.
 
 References:
+
 - [Running nanoGPT on a MacBook M2 — Simon Willison](https://til.simonwillison.net/llms/nanogpt-shakespeare-m2)
 - [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 - [PyTorch training on Apple Silicon — Hugging Face](https://huggingface.co/docs/transformers/v4.47.1/perf_train_special)

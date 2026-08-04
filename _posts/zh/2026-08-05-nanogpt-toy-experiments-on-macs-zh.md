@@ -41,11 +41,13 @@ python train.py config/train_shakespeare_char.py \
 ```
 
 注意事项：
+
 - 在 M2 上运行前，设置环境变量 `PYTORCH_ENABLE_MPS_FALLBACK=1` ——某些操作在 MPS 上仍未实现，否则会直接报硬错误，而不是静默回退到 CPU。
 - 如果你希望结果比“损失下降”更有说服力，可以将 `max_iters` 提高到约 3000-6000；一次 MPS 运行在 6184 次迭代后达到损失 3.25，耗时 3.5 分钟——此时生成的文本开始呈现类似莎士比亚的结构，而不是噪声。
 - 如果你想完全跳过 Python，使用更底层的方案，Karpathy 的 `llm.c` 可以在纯 C 环境下编译并运行在 CPU 上，完全不需要 PyTorch 依赖——既然 Mac Pro 上也没有 GPU 路径，不妨一试。
 
 参考资料：
+
 - [Running nanoGPT on a MacBook M2 — Simon Willison](https://til.simonwillison.net/llms/nanogpt-shakespeare-m2)
 - [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)
 - [PyTorch training on Apple Silicon — Hugging Face](https://huggingface.co/docs/transformers/v4.47.1/perf_train_special)

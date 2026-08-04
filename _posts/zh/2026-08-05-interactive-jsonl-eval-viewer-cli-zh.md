@@ -58,11 +58,13 @@ python3 view_jsonl.py eval_datasets/foo.jsonl 20 prompt   # 仅显示"prompt"字
 ```
 
 **并排差异样式（比较 prompt、completion 和 gold）**
+
 ```bash
 jq -r '"PROMPT: \\(.prompt)\nGOLD: \\(.answer)\n---"' eval_datasets/foo.jsonl | less -R
 ```
 
 **在目视检查之前先看统计信息——字段存在情况、长度分布**
+
 ```python
 import json, statistics
 rows = [json.loads(l) for l in open("eval_datasets/foo.jsonl", encoding="utf-8")]
@@ -75,5 +77,6 @@ print(f"n={len(rows)} mean_len={statistics.mean(lens):.0f} max={max(lens)}")
 如果你真的想要一个在浏览器中可滚动/可搜索的工具（例如检查数百个多轮对话，终端换行会让人头疼），我可以构建一个单文件HTML工件，加载 `.jsonl` 并允许过滤/搜索/跳转——告诉我一声，我会构建它。否则 `less -R` + `jq` 可以覆盖90%的评估调试。
 
 参考：
+
 - [rich docs](https://rich.readthedocs.io/en/stable/introduction.html)
 - [jq manual](https://jqlang.github.io/jq/manual/)

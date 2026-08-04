@@ -46,7 +46,7 @@ vs standard **JSON** — one single top-level value (usually an array wrapping e
 **Tradeoffs of JSONL vs JSON:**
 
 | | JSON | JSONL |
-|---|---|---|
+| --- | --- | --- |
 | Structure | one tree, arbitrary nesting at top level | flat list of independent records |
 | Parse cost | full file must parse before use | parse incrementally, line by line |
 | Append | requires rewrite | just write a new line |
@@ -58,4 +58,5 @@ vs standard **JSON** — one single top-level value (usually an array wrapping e
 Bottom line: JSON is for one structured document; JSONL is for a dataset — which is exactly why every eval/training corpus uses it.
 
 References:
+
 - [JSON Lines spec](https://jsonlines.org/)
