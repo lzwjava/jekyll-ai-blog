@@ -11,7 +11,7 @@ type: note
 
 ## Question: Why do big corporations exit some markets? Do they ever re-enter those markets?
 
-## Answer:
+## Answer
 
 Big companies exit markets for the same reason investors sell stocks: **the expected future return is lower than the cost and opportunity cost**.
 
