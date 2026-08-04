@@ -17,6 +17,7 @@ type: note
 ```
 
 **说明：**
+
 - 该功能被拆分为两个提交，因为之前为了检查已有测试而执行的 `git stash`/`pop` 循环，导致 `main.py`/`pyproject.toml` 未被暂存。
 - 通过 `SKIP=bandit,pyright,unit-tests` 跳过了钩子 —— 这三个均经确认为已有问题，与本变更无关：
   - **bandit** —— 在 AGENTS.md 中已说明配置有误

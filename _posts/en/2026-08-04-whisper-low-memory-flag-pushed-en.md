@@ -17,6 +17,7 @@ Pushed ✅ — both commits are on `origin/main`:
 ```
 
 **Notes:**
+
 - The feature was split into two commits because the earlier `git stash`/`pop` cycles for the pre-existing-test checks unstaged `main.py`/`pyproject.toml`.
 - Hooks skipped via `SKIP=bandit,pyright,unit-tests` — all three verified pre-existing/failures unrelated to this change:
   - **bandit** — documented as misconfigured in AGENTS.md
