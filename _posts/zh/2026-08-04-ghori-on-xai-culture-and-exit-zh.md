@@ -29,6 +29,7 @@ Ghori调侃式地量化了他团队近期的贡献："我们刚刚算了一下�
 根据Grokipedia：他于2025年3月至2026年1月在xAI担任技术专家，因在Relentless播客上披露了机密项目"Macro Hard"（利用闲置特斯拉算力进行人类模拟器/数字员工计划）的专有细节而结束任期，据报道因此被解雇。他本人也确认了这一离职：2026年1月19日他在X上发帖称："我已离开xAI。对我前团队和同事只有爱！"
 
 **非xAI专属但解释其被聘用的背景**  
+
 - 自2019年起创办初创公司：18岁担任jeeny.ai首席工程师（AI教育科技B2B SaaS，组建20人工程师团队）；2022年10月创立Swiftink.io（AI转录/翻译，1万+用户）；2023年11月创立Invisibility；2024年8月创立Khan Space Industries（小行星采矿）。  
 - 长期目标是制造冯·诺依曼自复制探测器，用于在其它行星播撒生命——他估计这一目标已完成约3%。为此他获得了2025年O'Shaughnessy Ventures奖学金，用于降低机器人集成到工作流程中的时间与成本。  
 - 开源项目（github.com/djmango）：pyddle、obsidian-transcription（200+ GitHub星标）、用Rust编写的天体模拟器Starfinder（用于星敏感器工作）、VEX机器人代码Korvex，以及Neuralink压缩挑战参赛作品smallbrain。  
@@ -37,6 +38,7 @@ Ghori调侃式地量化了他团队近期的贡献："我们刚刚算了一下�
 他所说内容中明显缺失的部分：没有模型架构、没有参数数量、没有Grok本身的训练循环细节——所谓的"泄露"是组织/战略/基础设施方面的，而非权重或代码。
 
 参考文献：  
+
 - [Inside xAI's Culture of Relentless Speed and Hardware Leverage — StartupHub.ai](https://www.startuphub.ai/ai-news/ai-video/2026/inside-xais-culture-of-relentless-speed-and-hardware-leverage)  
 - [Sulaiman Khan Ghori — Grokipedia](https://grokipedia.com/page/Sulaiman_Khan_Ghori)  
 - [Read the full interview that got engineer Sulaiman Khan Ghori 'fired' from xAI — Times of India](https://timesofindia.indiatimes.com/technology/tech-news/read-the-full-interview-that-got-engineer-sulaiman-khan-ghori-fired-from-elon-musks-xai-in-less-than-a-year/articleshow/126776282.cms)  

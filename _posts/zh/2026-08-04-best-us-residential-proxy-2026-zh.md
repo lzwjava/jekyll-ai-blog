@@ -16,7 +16,7 @@ type: note
 对于仅限美国的住宅IP，且能与SOCKS5/HTTP代理配置（即你喂给VPN客户端或curl/requests的内容）良好配合的服务，以下是2026年真正值得付费的候选名单：
 
 | 提供商 | 价格 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **Decodo**（前Smartproxy） | $2/GB，3天试用 | 1.15亿+ IP，支持城市/州/ASN定向，粘性会话最长30分钟——是不错的默认选择 |
 | **Bright Data** | 价格更高，按GB计费 | 4亿+ IP，地理定位最精确（精确到邮政编码/ASN），但安全研究人员在2026年发布了关于Bright Data如何通过将SDK嵌入智能电视和应用来构建其住宅IP池的发现——在选择它用于任何合规敏感场景之前，值得了解这一点 |
 | **SOAX** | 从$3/GB起（企业版低至$0.85/GB） | 基于订阅，按用量计费，月度套餐从$200/月起 |
@@ -47,6 +47,7 @@ print(r.text)  # 应显示美国住宅IP
 有一点需要直说：如果目标是为了绕过Grok的区域访问限制或基于ToS的地理封锁，这类操作无论IP质量如何都可能导致账号被标记或封禁——大多数这些服务能帮你搞定IP，但如果xAI的检查不仅限于IP地理位置，它们无法保护账号免受行为指纹识别（TLS指纹、时区/语言区域不匹配、浏览器指纹）的影响。
 
 参考文献：
+
 - [2026年最佳住宅代理：10大提供商对比](https://proxy-seller.com/blog/10-best-residential-proxy-providers/)
 - [最佳住宅代理提供商（2026）——Proxidize](https://proxidize.com/blog/best-residential-proxy-providers/)
 - [2026年最佳住宅代理：我们花了5000美元进行测试](https://www.buyresidentialproxy.com/best/)

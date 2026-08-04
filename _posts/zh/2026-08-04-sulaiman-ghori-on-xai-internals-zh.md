@@ -34,6 +34,7 @@ xAI 正在开发“MacroHard”，一个人类模拟器，并探索利用特斯�
 以上内容均未涉及架构层面的细节（无注意力机制变体、MoE 配置、上下文长度内部信息）——主要涉及组织/基础设施/文化，这与导致他被解雇（而非泄露技术规格）的原因相符。
 
 参考资料：
+
 - [WTF is happening at xAI — Sulaiman Ghori, Relentless (Podwise)](https://podwise.ai/dashboard/episodes/6885430)
 - [Podcast Notes: WTF is happening at xAI](https://www.podchemy.com/notes/wtf-is-happening-at-xai-sulaiman-ghori-48474640483)
 - [Inside xAI's Culture of Relentless Speed and Hardware Leverage — StartupHub.ai](https://www.startuphub.ai/ai-news/ai-video/2026/inside-xais-culture-of-relentless-speed-and-hardware-leverage)

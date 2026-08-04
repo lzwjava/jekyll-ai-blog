@@ -34,6 +34,7 @@ xAI is working on "MacroHard," a human emulator, and is exploring using Tesla ca
 None of this is architecture-level detail (no attention variant, MoE config, context length internals) — it's org/infra/culture, which is consistent with what actually got him let go rather than a leaked spec.
 
 References:
+
 - [WTF is happening at xAI — Sulaiman Ghori, Relentless (Podwise)](https://podwise.ai/dashboard/episodes/6885430)
 - [Podcast Notes: WTF is happening at xAI](https://www.podchemy.com/notes/wtf-is-happening-at-xai-sulaiman-ghori-48474640483)
 - [Inside xAI's Culture of Relentless Speed and Hardware Leverage — StartupHub.ai](https://www.startuphub.ai/ai-news/ai-video/2026/inside-xais-culture-of-relentless-speed-and-hardware-leverage)
