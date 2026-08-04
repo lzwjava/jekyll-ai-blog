@@ -16,6 +16,7 @@ Answer:
 Good idea for **learning/research** (mechanistic interpretability, grokking, length generalization). Bad idea for **production math** — a 10-line `eval()`/calculator tool call beats any transformer at reliability, and you'd waste GPU hours reinventing a calculator. If you're doing this for research value or as a distillation/edge-deploy toy where you truly can't call a tool, here's the real recipe, distilled from the arithmetic-transformer literature:
 
 **Key findings you need to bake in:**
+
 1. Digit-level tokenization, not BPE. Each digit is its own token.
 2. Reverse the output digits (units first) — this aligns the causal generation order with how carries propagate, and is why GPT-3-scale models only got addition working when trained on reversed digits Nogueira et al. (2021) find that partial length generalization on addition is observed only when models reach 3B parameters and when the addition questions are presented in reverse order.
 3. Absolute position embeddings kill length generalization. the absolute position embeddings mix the representation of a token with the embedding of its position in the sequence, making trained models very susceptible to changes in sequence length. Use relative position embeddings instead — models trained on 5-digit numbers can perform 15-digit sums with this trick alone.
@@ -102,6 +103,7 @@ Params: `128*15 (vocab*d) + 4 blocks * (~4*128*128*3 attn + 2*128*512 mlp)` ≈ 
 **My honest take, matching what you'd get with `ww`/`iclaw`:** if the end goal is "an agent that does math reliably," just have the agent shell out to Python. If the goal is "understand what generalization even means in a transformer," this is the cleanest testbed there is — smaller and faster to iterate on than anything LLM-scale.
 
 References:
+
 - [Length Generalization in Arithmetic Transformers](https://arxiv.org/abs/2306.15400)
 - [What Algorithms can Transformers Learn? A Study in Length Generalization](https://arxiv.org/pdf/2310.16028)
 - [From Interpolation to Extrapolation: Complete Length Generalization for Arithmetic Transformers](https://arxiv.org/pdf/2310.11984)

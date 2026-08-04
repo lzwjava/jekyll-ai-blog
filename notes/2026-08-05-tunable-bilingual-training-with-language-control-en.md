@@ -130,6 +130,7 @@ tag = f"<|mix_{min(buckets, key=lambda b: abs(b - r*100))}|>"
 Train on these bucketed examples, then at generation time `<|mix_75|>` biases output toward ~75% Chinese sentence interleaving. This needs sentence-aligned bilingual data (not just monolingual FineWeb) — that's the real constraint, not the modeling.
 
 References:
+
 - [karpathy/nanochat](https://github.com/karpathy/nanochat)
 - [nanochat scripts/base_train.py](https://github.com/karpathy/nanochat/blob/master/scripts/base_train.py)
 - [HuggingFaceFW/fineweb-2 (multilingual, includes cmn_Hani)](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2)

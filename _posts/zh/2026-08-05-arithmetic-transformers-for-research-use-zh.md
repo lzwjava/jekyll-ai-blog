@@ -16,6 +16,7 @@ type: note
 对于**学习/研究**（机械可解释性、顿悟式泛化、长度泛化）来说是个好主意。但对于**生产环境中的数学运算**来说不是好主意——一个10行的`eval()`/计算器工具调用在可靠性上胜过任何Transformer，而且你会浪费GPU时间重新发明一个计算器。如果你是为了研究价值，或者作为无法调用工具的蒸馏/边缘部署玩具来做这件事，这里是从算术Transformer文献中提炼出的真实方案：
 
 **你需要融入的关键发现：**
+
 1. 按数字级别进行词元化，而非BPE。每个数字是一个单独的token。
 2. 反转输出数字（个位在前）——这使因果生成顺序与进位传播方式对齐，这也是为什么GPT-3规模的模型只有在训练反转数字时才能成功进行加法运算的原因。Nogueira等人（2021）发现，只有模型参数达到3B，并且加法问题以反转顺序呈现时，才能观察到部分长度泛化。
 3. 绝对位置嵌入会破坏长度泛化。绝对位置嵌入将token的表示与其在序列中的位置嵌入混合，使得训练后的模型对序列长度的变化非常敏感。改用相对位置嵌入——仅凭这一技巧，在5位数上训练的模型就能执行15位数的加法。
@@ -102,6 +103,7 @@ for step in range(20000):
 **我的真实看法，与`ww`/`iclaw`的建议一致：** 如果最终目标是“一个能可靠进行数学运算的智能体”，那么直接让智能体调用Python即可。如果目标是“理解Transformer中泛化究竟意味着什么”，那么这是最干净的测试平台——比任何LLM规模的东西都更小、迭代更快。
 
 参考文献：
+
 - [Length Generalization in Arithmetic Transformers](https://arxiv.org/abs/2306.15400)
 - [What Algorithms can Transformers Learn? A Study in Length Generalization](https://arxiv.org/pdf/2310.16028)
 - [From Interpolation to Extrapolation: Complete Length Generalization for Arithmetic Transformers](https://arxiv.org/pdf/2310.11984)

@@ -130,6 +130,7 @@ tag = f"<|mix_{min(buckets, key=lambda b: abs(b - r*100))}|>"
 在这些分桶示例上进行训练，然后在生成时 `<|mix_75|>` 会使输出偏向约 75% 的中文句子交错。这需要句子级别的双语数据（而不仅仅是单语的 FineWeb）—— 这才是真正的限制，而不是建模本身。
 
 参考资料：
+
 - [karpathy/nanochat](https://github.com/karpathy/nanochat)
 - [nanochat scripts/base_train.py](https://github.com/karpathy/nanochat/blob/master/scripts/base_train.py)
 - [HuggingFaceFW/fineweb-2（多语言，包含 cmn_Hani）](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2)
