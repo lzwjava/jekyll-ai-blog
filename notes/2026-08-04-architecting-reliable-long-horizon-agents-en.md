@@ -80,6 +80,7 @@ Don't drop-oldest-message. Tag context by type (plan / tool-output / reasoning-t
 For your `zz`/`iclaw` stack specifically: this maps to (a) a `task_state.json` the agent reads/writes every turn, (b) a compaction hook that fires on a token-count check before each LLM call, (c) `--isolated` subagent spawns for anything that would pollute the main trajectory (large file reads, exploratory search).
 
 References:
+
 - [Context Engineering: Agent Reliability Playbook 2026](https://www.digitalapplied.com/blog/context-engineering-agent-reliability-playbook-2026)
 - [Beyond Compaction: Structured Context Eviction for Long-Horizon Agents](https://arxiv.org/pdf/2606.11213)
 - [Slipstream: Trajectory-Grounded Compaction Validation for Long-Horizon Agents](https://arxiv.org/pdf/2605.08580)

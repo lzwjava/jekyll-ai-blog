@@ -80,6 +80,7 @@ done
 针对你的 `zz`/`iclaw` 堆栈具体而言：这映射为（a）一个 `task_state.json`，代理每轮都会读写它；（b）一个压缩钩子，在每次 LLM 调用之前检查 token 计数并触发；（c）对于任何会污染主轨迹的操作（大型文件读取、探索性搜索），使用 `--isolated` 子代理生成。
 
 参考文献：
+
 - [Context Engineering: Agent Reliability Playbook 2026](https://www.digitalapplied.com/blog/context-engineering-agent-reliability-playbook-2026)
 - [Beyond Compaction: Structured Context Eviction for Long-Horizon Agents](https://arxiv.org/pdf/2606.11213)
 - [Slipstream: Trajectory-Grounded Compaction Validation for Long-Horizon Agents](https://arxiv.org/pdf/2605.08580)
