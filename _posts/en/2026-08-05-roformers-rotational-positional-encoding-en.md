@@ -101,5 +101,6 @@ No theoretical explanation for *why* it converges faster or generalizes better o
 - Every modern open model (LLaMA, Qwen, DeepSeek, Mistral) uses RoPE as default — worth checking their `θ` base value choices (LLaMA uses 10000, some long-context models push base to 500k–1M for extrapolation).
 
 References:
+
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/pdf/2104.09864)
 - [EleutherAI RoPE blog (good visual walkthrough)](https://blog.eleuther.ai/rotary-embeddings/)

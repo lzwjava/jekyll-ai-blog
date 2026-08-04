@@ -97,5 +97,6 @@ scores = q_rot @ k_rot.transpose(-2, -1)  # 相对位置感知的注意力
 - 每个现代开源模型（LLaMA、Qwen、DeepSeek、Mistral）都默认使用 RoPE——值得检查它们的 `θ` base 值选择（LLaMA 使用 10000，一些长上下文模型将 base 推到 500k–1M 以实现外推）。
 
 参考文献：
+
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/pdf/2104.09864)
 - [EleutherAI RoPE 博客（很好的可视化讲解）](https://blog.eleuther.ai/rotary-embeddings/)
