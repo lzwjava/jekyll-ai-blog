@@ -12,6 +12,7 @@ type: note
 Added `scripts/download_shards.py` and committed. Here's how to get the real shards and run your exact command with `python3.12`:
 
 ## Download the two shards
+
 ```bash
 cd /mnt/data/bilingual-gpt
 
@@ -23,6 +24,7 @@ python3.12 -m scripts.download_shards --source zh --out fineweb2_cmn_shard.jsonl
 ```
 
 ## Then your command works verbatim
+
 ```bash
 python3.12 -m scripts.mix_bilingual \
     --en fineweb_edu_shard.jsonl \
@@ -31,6 +33,7 @@ python3.12 -m scripts.mix_bilingual \
 ```
 
 ## What the script supports
+
 - **Presets** — `--source en` / `--source zh` / `--source zh-csg` (opencsg/chinese-fineweb-edu-v2). These were verified against HF today:
   - `en` → `HuggingFaceFW/fineweb-edu :: sample/10BT/000_00000.parquet`
   - `zh` → `HuggingFaceFW/fineweb-2 :: data/cmn_Hani/train/000_00000.parquet` (auto-picks `train`, not `test`)
@@ -41,10 +44,12 @@ python3.12 -m scripts.mix_bilingual \
 - **`--limit N`** — cap rows for a quick smoke test before committing to a full download.
 
 I verified:
+
 - discovery resolves the correct shard for all three presets (no download needed),
 - the parquet→jsonl conversion works end-to-end with correct UTF-8 (Chinese preserved as raw chars) on a local test parquet.
 
 Two notes:
+
 - All needed deps (`huggingface_hub 1.18.0`, `pyarrow 25.0.0`, `pandas 3.0.5`, `zstandard`) are already installed for `python3.12`, so no install needed. They're now listed in `requirements.txt` too.
 - A FineWeb shard is a full downloaded parquet; for a first run try `--limit 5000` to confirm the whole chain before pulling a large file.
 

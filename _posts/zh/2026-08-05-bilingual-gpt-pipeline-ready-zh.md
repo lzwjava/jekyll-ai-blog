@@ -14,7 +14,7 @@ type: note
 ## 目录结构
 
 | 文件 | 功能 |
-|------|------|
+| ------ | ------ |
 | `scripts/mix_bilingual.py` | 中文/英文文档混合，支持 `--zh-frac` 参数及 `<\|lang_en\|>` / `<\|lang_zh\|>` 控制标记 |
 | `scripts/measure_token_ratio.py` | 对语料进行分词，并报告实际的分词比例（对应您提到的“不要相信文档计数”的观点） |
 | `scripts/train_tokenizer.py` | 从头训练联合字节级 BPE，将控制标记注册为特殊标记 |
@@ -25,14 +25,17 @@ type: note
 | `README.md`、`requirements.txt`、`.gitignore` | 文档及依赖 |
 
 ## 端到端验证通过
+
 已在合成数据上完整运行流程：**50/50 文档拆分实际仅产生约 38.8% 的中文分词比例**——这正是您回答中的关键洞察，现已自动测量，便于您调整 `--zh-frac` 以达到目标比例。
 
 ## 在使其可运行过程中发现并修复的 Bug
+
 - `mix_bilingual.py` 出现 `KeyError`（展开后的标记字符串被 `main` 函数重新按 `LANG_TOK` 索引）。
 - `measure_token_ratio.py` 假设控制标记与文本在同一行，但混合器将其分成了两行——已重写为结构感知的文档解析器；同时修复了正则表达式，使其匹配真正的 `...\|>` 结尾（而非匹配到 `...\|`），并修复了捕获 `lang_en` 而非 `en` 的分组。
 - `build_codeswitch.py`：`nearest_bucket()` 将输入视为 0..1 区间的小数，但 `main` 函数传入了绝对值桶——导致所有非零值都坍缩为 `<\|mix_100\|>`。现已改为直接按显式桶构建标签。
 
 ## 实际运行方式
+
 ```bash
 pip install -r requirements.txt
 python -m scripts.mix_bilingual --en fineweb_edu_shard.jsonl --zh fineweb2_cmn_shard.jsonl --zh-frac 0.5 --out mixed.txt
