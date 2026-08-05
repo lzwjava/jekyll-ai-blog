@@ -14,6 +14,7 @@ Question: What's on the CMU SCS grad application portal page?
 Answer: This is the SCS Graduate Application portal covering most SCS Ph.D. and Master's programs. It excludes MHCI and the Dual Degree Ph.D. Portugal program, which have separate application links. Application opens September 9, 2026 for Fall 2027 admissions.
 
 Key dates:
+
 - **Early deadline**: Nov 18, 2026, 3pm EST — $80/program
 - **Final deadline**: Dec 9, 2026, 3pm EST — $100/program
 - **MSE programs**: no early deadline, flat $100 fee

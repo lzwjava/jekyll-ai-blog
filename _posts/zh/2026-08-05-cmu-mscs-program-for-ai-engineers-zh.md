@@ -21,18 +21,18 @@ type: note
 
 CMU MSCS 是：
 
-*   一个以 **课程为核心** 的硕士项目
-*   通常 **3 个学期** 完成
-*   灵活的课程设置：可在导师指导下自行设计课程计划
-*   研究为可选，非主要目的（[CMU Computer Science][1]）
+* 一个以 **课程为核心** 的硕士项目
+* 通常 **3 个学期** 完成
+* 灵活的课程设置：可在导师指导下自行设计课程计划
+* 研究为可选，非主要目的（[CMU Computer Science][1]）
 
 毕业要求：
 
-*   96-108 学分的合格硕士课程（约 8 门课）
-*   AI 课程要求
-*   系统课程要求
-*   理论基础课程要求
-*   保持 3.0 QPA（[CMU Computer Science][2]）
+* 96-108 学分的合格硕士课程（约 8 门课）
+* AI 课程要求
+* 系统课程要求
+* 理论基础课程要求
+* 保持 3.0 QPA（[CMU Computer Science][2]）
 
 你可能关心的典型 CMU 课程：
 
@@ -68,11 +68,11 @@ CMU 期望：
 
 申请材料：
 
-*   成绩单
-*   个人陈述
-*   推荐信
-*   英语考试（如适用，TOEFL/IELTS）
-*   GRE 为 **强烈推荐**，尤其当数学能力不太明显时。（[CMU Computer Science][3]）
+* 成绩单
+* 个人陈述
+* 推荐信
+* 英语考试（如适用，TOEFL/IELTS）
+* GRE 为 **强烈推荐**，尤其当数学能力不太明显时。（[CMU Computer Science][3]）
 
 因此：
 
@@ -339,10 +339,10 @@ AI 工程师 / 独立 AI 实验室
 
 参考文献：
 
-*   （[CMU Computer Science][1]）
-*   （[CMU Computer Science][2]）
-*   （[CMU Computer Science][3]）
-*   （[Carnegie Mellon University][4]）
+* （[CMU Computer Science][1]）
+* （[CMU Computer Science][2]）
+* （[CMU Computer Science][3]）
+* （[Carnegie Mellon University][4]）
 
 [1]: https://csd.cs.cmu.edu/academics/masters/ms-in-computer-science?utm_source=chatgpt.com "M.S. in Computer Science | Carnegie Mellon University Computer Science Department"
 [2]: https://www.csd.cs.cmu.edu/ms-in-computer-science-curriculum?utm_source=chatgpt.com "M.S. in Computer Science Curriculum | Carnegie Mellon University Computer Science Department"

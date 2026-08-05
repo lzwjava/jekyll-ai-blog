@@ -233,7 +233,7 @@ For someone like you, an "independent AI lab + consulting + open source" route i
 
 ---
 
-## If I were optimizing your next 24 months:
+## If I were optimizing your next 24 months
 
 ```
 0-6 months:
