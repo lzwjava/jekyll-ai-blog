@@ -18,6 +18,7 @@ type: note
 ## 路线如何工作
 
 **1. 模型文件**（`MODEL_FILES`）—— FLUX 分解为 4 个组件，分别加载：
+
 - `flux1-schnell-Q4_0.gguf` —— 12B 扩散变压器，量化到 4 位（Q4_0）
 - `ae.safetensors` —— VAE（潜在空间 ⇄ 像素解码器）
 - `clip_l.safetensors` —— 较小的文本编码器
@@ -26,6 +27,7 @@ type: note
 **2. 验证**（`_check_files`）—— 每次生成首先验证二进制文件和所有 4 个模型文件是否存在；快速失败并返回可读消息，而不是神秘的子进程错误。
 
 **3. 生成**（`generate_image`）—— 构建一个 `subprocess.run` 命令给 `sd-cli`：
+
 ```
 sd-cli --diffusion-model flux1-schnell-Q4_0.gguf --vae ae.safetensors
        --clip_l ... --t5xxl ... --prompt "<prompt>" --cfg-scale 1.0
@@ -33,6 +35,7 @@ sd-cli --diffusion-model flux1-schnell-Q4_0.gguf --vae ae.safetensors
        --seed 42 --output <tmp>/scene_000.png --vae-tiling
        --max-vram 10 --backend diffusion=cuda,clip=cpu,vae=cuda,t5xxl=cpu
 ```
+
 每张图像进入一个全新的 `tempfile.mkdtemp`，因此每次调用都是自包含且幂等的（5 个并行的场景线程各自获得自己的目录）。
 
 **4. 序列化**—— 整个子进程在 `threading.Lock()` 下运行。5 个场景以并行线程提交，但一次只有一个 sd-cli 运行接触 GPU。
@@ -42,7 +45,7 @@ sd-cli --diffusion-model flux1-schnell-Q4_0.gguf --vae ae.safetensors
 ## 优化（值得展示的要点）
 
 | 优化 | 作用 | 重要性 |
-|---|---|---|
+| --- | --- | --- |
 | **Q4_0 4 位量化** | 扩散模型为 GGUF Q4_0 而非 fp16/bf16 | 权重缩小约 4 倍，每次运行所需 VRAM 更少（约 8.75 GB），内存受限的解码更快 |
 | **4 步蒸馏推理** | 在 FLUX.1-schnell（蒸馏模型）上使用 `--steps 4` | 相比 28 步的 dev 变体，去噪步骤减少约 7 倍 |
 | **VAE 分块**（`--vae-tiling`） | 以分块方式解码潜在空间，而非整张大图 | 避免在 12 GB 显卡上 OOM，尤其在较高分辨率下 |

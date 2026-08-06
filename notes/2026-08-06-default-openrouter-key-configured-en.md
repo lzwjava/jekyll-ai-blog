@@ -22,7 +22,7 @@ Done — the key is now the server default and users don't need to supply one. V
 ## Verified
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | Key validity (direct OpenRouter call) | ✅ valid, limit 3, expires 2026-09-05 |
 | `POST /api/check-key` with **no key** (via public URL) | ✅ `{"valid":true,"label":"sk-or-v1-346...613","usage":"$0.01"}` |
 | Wrong user-supplied key | ✅ still rejected (`User not found.`) |

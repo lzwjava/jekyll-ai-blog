@@ -23,6 +23,7 @@ Done. Summary of what changed in `submission/02_slides.md`:
    - Honest trade-off callout: model-load cost per image in exchange for zero memory growth / crash isolation
 
 **Small tweaks to existing slides:**
+
 - Pipeline diagram: `Q4_0 GGUF (4-bit)` → `Q4_0 GGUF · sd-cpp`
 - Model Strategy table: Q4_0 row now says "**4-bit GGUF** via **sd-cpp**"
 - AMD Optimizations slide: added pointer `> Items 1–5 are realized by the sd-cpp route — see the deep dive above.`

@@ -18,6 +18,7 @@ A thin Python wrapper around **stable-diffusion.cpp's `sd-cli` binary** running 
 ## How the route works
 
 **1. Model files** (`MODEL_FILES`) — FLUX is decomposed into 4 components, loaded separately:
+
 - `flux1-schnell-Q4_0.gguf` — the 12B diffusion transformer, quantized to 4-bit (Q4_0)
 - `ae.safetensors` — the VAE (latent ⇄ pixel decoder)
 - `clip_l.safetensors` — the smaller text encoder
@@ -26,6 +27,7 @@ A thin Python wrapper around **stable-diffusion.cpp's `sd-cli` binary** running 
 **2. Validation** (`_check_files`) — every generation first verifies the binary and all 4 model files exist; fails fast with a readable message instead of a cryptic subprocess error.
 
 **3. Generation** (`generate_image`) — builds a `subprocess.run` command to `sd-cli`:
+
 ```
 sd-cli --diffusion-model flux1-schnell-Q4_0.gguf --vae ae.safetensors
        --clip_l ... --t5xxl ... --prompt "<prompt>" --cfg-scale 1.0
@@ -33,6 +35,7 @@ sd-cli --diffusion-model flux1-schnell-Q4_0.gguf --vae ae.safetensors
        --seed 42 --output <tmp>/scene_000.png --vae-tiling
        --max-vram 10 --backend diffusion=cuda,clip=cpu,vae=cuda,t5xxl=cpu
 ```
+
 Each image goes to a fresh `tempfile.mkdtemp`, so every call is self-contained and idempotent (5 parallel scene threads each get their own dir).
 
 **4. Serialization** — the whole subprocess runs under a `threading.Lock()`. 5 scenes are submitted in parallel threads, but only one sd-cli run touches the GPU at a time.
@@ -42,7 +45,7 @@ Each image goes to a fresh `tempfile.mkdtemp`, so every call is self-contained a
 ## Optimizations (the slide-worthy points)
 
 | Optimization | What it does | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | **Q4_0 4-bit quantization** | Diffusion model is GGUF Q4_0 instead of fp16/bf16 | ~4× smaller weights, far less VRAM per run (~8.75 GB), faster memory-bound decode |
 | **4-step distilled inference** | `--steps 4` on FLUX.1-schnell (a distilled model) | ~7× fewer denoising steps vs. the 28-step dev variant |
 | **VAE tiling** (`--vae-tiling`) | Decodes latent in tiles rather than one big image | Avoids OOM on the 12 GB card, especially at higher res |

@@ -18,6 +18,7 @@ Your breakdown is accurate. Here's the model + pipeline mechanics underneath it.
 **Model architecture** — MiniMax H3 is a 33.1B dense single-stream omni transformer with a Qwen3-VL-32B text encoder, open-sourced on August 3, 2026 under the MiniMax H3 Community License Agreement. The open release ships two task checkpoints: FL2VA (text-to-video and first/last-frame conditioning) and Ref2VA (reference-based generation) — your file uses Ref2VA (`minimax_h3_ref2va_pruned_int8_convrot.safetensors`), which explains why the workflow has image-reference and multi-image-reference pipelines but no first/last-frame variant.
 
 Key design choices (relevant to why the graph is shaped this way):
+
 - Uses three-dimensional Multimodal Rotary Position Embeddings (MM-RoPE) to represent positional relationships across the temporal and two spatial dimensions, (t, h, w) — this is why resolution/frame-count fields feed directly into conditioning, not just the sampler.
 - Modality-specific AdaLN improves generation quality with relatively low additional training and inference costs — the "pruned INT8" checkpoint you have specifically precomputes adaLN curve tables, ~40% smaller.
 - Audio isn't bolted on: 32 kHz stereo generated in the same pass as the picture, no separate audio model — hence the separate audio VAE (`minimax_h3_audio_vae_fp32.safetensors`) decoding from the same latent, not a post-hoc TTS/foley step.
@@ -41,6 +42,7 @@ Switch (开关)   → rgthree Fast Groups Bypasser — literally just disables/e
 The "prompt templates" aren't a ComfyUI node feature — they're just text blobs meant to be pasted into an LLM chat (or wired to an API-call node if you have one) because H3 responds much better to structured, shot-list-style prompts (camera, subject, lighting, motion) than to a single terse sentence. Given prompts run up to 7,000 characters, the templates exist to help you actually fill that budget instead of wasting the model's context window.
 
 **To actually run it**, you need:
+
 ```bash
 # custom nodes
 git clone https://github.com/Comfy-Org/ComfyUI.git  # H3 support merged directly (PR #15224)
@@ -60,6 +62,7 @@ Given you're running MI300X locally already — pruned INT8 + int8 text encoder 
 Native support landed the same day as open-sourcing: with native ComfyUI support merged the same day (Comfy-Org/ComfyUI #15224), so this workflow file is current, not stale community scaffolding around an older API.
 
 References:
+
 - [MiniMax H3 Open Source Announcement](https://www.minimax.io/news/minimax-h3-open-source)
 - [MiniMax H3 ComfyUI Wiki — native support, checkpoints](https://comfyui-wiki.com/en/models/minimax)
 - [MiniMax H3 on fal.ai — capabilities, prompt length](https://fal.ai/minimax-h3)

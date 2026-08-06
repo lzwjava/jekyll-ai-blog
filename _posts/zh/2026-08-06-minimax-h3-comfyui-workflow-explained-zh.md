@@ -18,6 +18,7 @@ type: note
 **模型架构** — MiniMax H3 是一个 331 亿参数密集单流全模态 transformer，使用 Qwen3-VL-32B 文本编码器，于 2026 年 8 月 3 日根据 MiniMax H3 社区许可协议开源。此次开源发布了两个任务检查点：FL2VA（文生视频及首/末帧条件控制）和 Ref2VA（基于参考的生成）——你的文件使用的是 Ref2VA（`minimax_h3_ref2va_pruned_int8_convrot.safetensors`），这解释了为什么工作流具有图像参考和多图像参考流水线，但没有首/末帧变体。
 
 关键设计选择（与图结构形状相关的原因）：
+
 - 使用三维多模态旋转位置编码（MM-RoPE）来表示跨时间维度和两个空间维度 (t, h, w) 的位置关系——这就是为什么分辨率和帧数设置会直接馈送到条件控制中，而不仅仅是采样器。
 - 模态特定的自适应层归一化（AdaLN）以相对较低的额外训练和推理成本提升了生成质量——你所拥有的“经过剪枝的 INT8”检查点特别地预计算了 adaLN 曲线表，体积缩小约 40%。
 - 音频并非事后添加：32 kHz 立体声与画面在同一轮次中生成，无需独立的音频模型——因此，单独的音频 VAE（`minimax_h3_audio_vae_fp32.safetensors`）从相同的潜空间解码，而不是采用后期文本转语音/拟音步骤。
@@ -40,6 +41,7 @@ Switch (开关)   → rgthree Fast Groups Bypasser——实际上只是启用/�
 “提示词模版”并非 ComfyUI 节点功能——它们只是纯文本块，旨在粘贴到 LLM 聊天中（或如果你有，则连接到 API 调用节点），因为 H3 对于结构化的、镜头列表风格的提示（镜头、主体、光照、运动）响应远好于单个简短的句子。鉴于提示最多可达 7000 个字符，模版的存在是为了帮助你实际填满这个预算，而不是浪费模型的上下文窗口。
 
 **要实际运行它**，你需要：
+
 ```bash
 # 自定义节点
 git clone https://github.com/Comfy-Org/ComfyUI.git  # H3 支持已直接合并（PR #15224）
@@ -59,6 +61,7 @@ models/vae/minimax_h3_audio_vae_fp32.safetensors
 原生支持与开源同日落地：原生 ComfyUI 支持已于同一天合并（Comfy-Org/ComfyUI #15224），因此这个工作流文件是当前的，而非围绕旧 API 的过时社区支架。
 
 参考资料：
+
 - [MiniMax H3 开源公告](https://www.minimax.io/news/minimax-h3-open-source)
 - [MiniMax H3 ComfyUI 维基百科 — 原生支持、检查点](https://comfyui-wiki.com/en/models/minimax)
 - [fal.ai 上的 MiniMax H3 — 功能、提示长度](https://fal.ai/minimax-h3)
