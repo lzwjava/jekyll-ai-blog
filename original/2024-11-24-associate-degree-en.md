@@ -99,6 +99,8 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 13808      | Computer Fundamentals and Application Technology (Practical) | 202604    | Practical   | Pass  | —       |
 | 13171      | Database and Its Applications (Practical)        | 202604    | Practical   | Pass  | —       |
 
+**GPA: 2.22** — Credits-weighted over 54 credits (exam courses only; practical courses excluded). Using the common Chinese formula: GPA = (score − 50) / 10 per course, e.g. 88 → 3.8, 77 → 2.7, 60 → 1.0. Sum of (per-course GPA × credits) = 120.0, divided by total credits 54 ≈ 2.22. Note: the strict US letter scale (90+ = 4.0, 80–89 = 3.0, …) would give ≈ 1.80 instead.
+
 ## Courses Mapping
 
 | Course Code | New Code | Course Name                                      |
