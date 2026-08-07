@@ -33,7 +33,7 @@ All 13 blog written courses (00012, 00342, 02142, 02323, 00022, 02120, 02316, 00
 
 ## What to do
 
-1. **Verify on the official system** (www.eeagd.edu.cn/selfec, verification code `ZKI202608070112223000771701`) whether 08074 counts toward the associate degree via substitution — the transcript is authoritative either way.
+1. **Verify on the official system** (<www.eeagd.edu.cn/selfec>, verification code `ZKI202608070112223000771701`) whether 08074 counts toward the associate degree via substitution — the transcript is authoritative either way.
 2. If it counts, add `08074 | Advanced Computer Programming | 202604 | Exam | 74 | 3` to the blog's Passed courses table. GPA would tick up slightly: **2.22 → 2.23** (adds 2.4 × 3 = 7.2 pts → 127.2/57).
 3. Fix the practical dates to 202605, and fix the bachelor file's 13793 → 08074 mislabel.
 

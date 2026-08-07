@@ -14,6 +14,7 @@ Done. Added the GPA line after the Passed courses table in `original/2024-11-24-
 **GPA: 2.22** — Credits-weighted over 54 credits (exam courses only; practical courses excluded). Using the common Chinese formula: GPA = (score − 50) / 10 per course, e.g. 88 → 3.8, 77 → 2.7, 60 → 1.0.
 
 Calculation details:
+
 - **Method**: Chinese standard formula `(score − 50) / 10` (capped at 4.0), credits-weighted
 - **Total credits**: 54 (13 written exam courses; the 3 practical courses have no credits and were excluded)
 - **Weighted points**: 120.0 ÷ 54 credits ≈ 2.22

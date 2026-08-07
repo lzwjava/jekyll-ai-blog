@@ -12,18 +12,21 @@ type: note
 Done! Your English transcript is ready — compiled to a single-page PDF.
 
 **Files created:**
+
 - `/Users/lzwjava/projects/employment-files/associate degree - self/english_transcript.tex` — LaTeX source
 - `/Users/lzwjava/projects/employment-files/associate degree - self/english_transcript.pdf` — final PDF (1 page, A4)
 
 **What's included:**
+
 - Header: *Guangdong Provincial Higher Education Self-Study Examination — Student Academic Transcript*
 - Student info: Name (Li Zhiwei), Registration No. 011222300077, ID, Program Code 610201, Verification Code
 - All **17 courses** with English titles, scores, and exam dates (e.g., English (I) 80, Introduction to Data Structures 75, Java Programming 88, etc.)
 - Grading scale explanation (100-point scale with 60 = pass; letter grades Excellent/Pass for courses without numeric scores)
-- Online verification instructions (www.eeagd.edu.cn/selfec + verification code) — this helps US evaluators verify authenticity
+- Online verification instructions (<www.eeagd.edu.cn/selfec> + verification code) — this helps US evaluators verify authenticity
 - A translation disclaimer noting the original Chinese document prevails
 
 **How to use for your US application:**
+
 1. Upload `english_transcript.pdf` directly where the application asks for the transcript
 2. If they require a scanned copy, you can print the PDF and scan it, or keep it digital — the request says "scanned copy **or digital facsimile**", so the PDF works as-is
 3. Tip: attach the original Chinese PDF (`011222300077-3.pdf`) alongside it if the uploader allows multiple files — this shows the source document

@@ -9,11 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
 
 Intro to Master of Artificial Intelligence at Illinois Institute of Technology (Illinois Tech)
 
-## Answer:
+## Answer
 
 Illinois Institute of Technology (Illinois Tech / IIT Chicago) offers a **Master of Artificial Intelligence (M.A.S. in Artificial Intelligence)** through its Department of Computer Science. It is a **STEM-designated master's program** and is available both **on-campus and online**. ([Illinois Institute of Technology][1])
 

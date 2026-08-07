@@ -9,11 +9,11 @@ translated: true
 type: note
 ---
 
-## 问题：
+## 问题
 
 伊利诺伊理工大学（Illinois Tech）人工智能硕士项目介绍
 
-## 回答：
+## 回答
 
 伊利诺伊理工大学（Illinois Tech / IIT Chicago）通过其计算机科学系提供**人工智能硕士（M.A.S. in Artificial Intelligence）**。这是一个**STEM认证的硕士项目**，可选择**在校或在线**学习。（[伊利诺伊理工大学][1]）
 
