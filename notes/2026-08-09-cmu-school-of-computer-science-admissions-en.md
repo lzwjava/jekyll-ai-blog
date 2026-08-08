@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to CMU School of Computer Science Graduate Admissions
 
-## Answer:
+## Answer
 
 Carnegie Mellon University School of Computer Science (CMU SCS) graduate admissions is the gateway for one of the world's strongest computer science graduate schools. It covers master's and PhD programs across areas such as:
 

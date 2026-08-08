@@ -46,6 +46,7 @@ Typical courses:
 - Computer Vision
 
 Strength:
+
 - Strong CS foundation
 - Better if you want:
   - ML Engineer
@@ -143,7 +144,7 @@ Given your profile:
 I would rank:
 
 | Program | Fit |
-|-|-|
+| - | - |
 | NYU Courant MSCS AI | ⭐⭐⭐⭐⭐ |
 | NYU CDS MS Data Science NLP | ⭐⭐⭐⭐⭐ |
 | NYU Tandon MSCS AI | ⭐⭐⭐⭐ |
@@ -167,7 +168,7 @@ Good backup.
 Compared with schools you asked before:
 
 | School | AI strength |
-|-|-|
+| - | - |
 | CMU MSAII | elite applied AI |
 | NYU Courant MSCS AI | elite research-oriented |
 | NYU CDS MSDS | strong applied AI/data |
@@ -176,6 +177,7 @@ Compared with schools you asked before:
 For your goal (AI lab engineer / LLM infra / independent AI company), NYU Courant or CDS would be much stronger signals than Illinois Tech.
 
 References:
+
 - NYU MS Computer Science: citeturn0search0
 - NYU MS Data Science: citeturn0search3
 - NYU Data Science tracks: citeturn0search1
