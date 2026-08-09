@@ -126,13 +126,13 @@ This is the most complicated.
 
 For Chinese nationals:
 
-### Easier routes:
+### Easier routes
 
 * Study → OPT → H1B → green card
 * EB-1/EB-2 NIW (for qualified professionals)
 * Startup/business routes
 
-### Harder parts:
+### Harder parts
 
 * US-China geopolitical tension
 * Some sensitive technology fields have restrictions
