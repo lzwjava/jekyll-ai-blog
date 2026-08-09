@@ -33,6 +33,7 @@ Answer:
 **Bottom line for someone in your position**: the "study then H-1B then stay" pipeline that used to be the default is largely dead in 2026 — the fee and lottery redesign specifically punish that path. If you want US presence, O-1A + Delaware C-corp + raising from US VCs while keeping training/compute ops flexible (not necessarily onshore) is the more realistic 2026 play than trying to relocate as an employee. Given you already run a profitable company with real revenue and a trained model to point to, you have more O-1 ammunition than most.
 
 References:
+
 - [H-1B Visa Changes 2026: Tech Filings Drop Amid New Fees](https://www.visaverge.com/news/big-tech-h-1b-filings-fall-as-amazon-google-meta-microsoft-cut-jobs-under-wage-weighted-picks/)
 - [H-1B visa chaos: Tech talent flees U.S. for Canada & UAE](https://restofworld.org/2026/us-tech-immigration-bottleneck-h1b-talent-drain/)
 - [H-1B Visa Changes 2026: Fees, Lottery Odds & Employer Impact](https://www.safeguardglobal.com/resources/blog/h1b-visa-changes-2026/)

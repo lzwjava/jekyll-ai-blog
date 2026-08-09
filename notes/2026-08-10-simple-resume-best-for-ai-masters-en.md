@@ -16,7 +16,7 @@ I compared both resumes. Here's my recommendation.
 ### Key difference (the deciding factor)
 
 | | `resume-en/` | `simple-resume-en/` |
-|---|---|---|
+| --- | --- | --- |
 | Length | **15 pages** (a CV) | **3 pages** (a resume) |
 | Sections | 13 sections | 6 focused sections |
 | Summary | 11 bullets with personal info | 4 tight, career-focused bullets |
@@ -38,6 +38,7 @@ I compared both resumes. Here's my recommendation.
 ### One suggestion
 
 Even at 3 pages, consider trimming the simple resume to **2 pages** for the application:
+
 - Merge/drop the "AI-Powered Story Bot" project (weakest, most generic of the five).
 - Condense the older non-AI roles (2014–2019) to 1–2 bullets each.
 - Keep everything AI/ML-related at full detail — that's what gets you admitted.
