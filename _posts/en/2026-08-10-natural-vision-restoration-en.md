@@ -57,7 +57,7 @@ The following table presents the myopia and astigmatism measurements taken on Ma
 The following table shows the myopia and astigmatism measurements on November 13, 2022, and April 20, 2023, respectively:
 
 | Date | Left Eye (°) | Right Eye (°) |
-|---|---|---|
+| --- | --- | --- |
 | 2022.11.13 | Myopia: 325, Astigmatism: 200 | Myopia: 550, Astigmatism: 175 |
 | 2023.04.20 | Myopia: 300, Astigmatism: 125 | Myopia: 500, Astigmatism: 125 |
 
@@ -74,7 +74,7 @@ Over the course of the experiment, significant improvements were observed:
 The following table summarizes the eye examination results for the author's left and right eyes over the course of the year:
 
 | Time | Myopia (Left) | Astigmatism (Left) | Myopia (Right) | Astigmatism (Right) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 2022.03 | 350 | 225 | 575 | 175 |
 | 2023.04 | 300 | 125 | 500 | 125 |
 | **Reduction** | **50** | **100** | **75** | **50** |
@@ -88,14 +88,14 @@ To better understand the results, I carefully tracked my eyewear changes through
 Here is the comparison of my eyesight and eyeglasses prescription on November 13, 2022:
 
 | Item | Left Eye (°) | Right Eye (°) |
-|---|---|---|
+| --- | --- | --- |
 | My eyesight | Myopia: 325, Astigmatism: 200 | Myopia: 550, Astigmatism: 175 |
 | Glasses I was wearing | Myopia: 225, Astigmatism: 200 | Myopia: 450, Astigmatism: 175 |
 
 The reduction in myopia and astigmatism led to further improvements over the next six months. On April 20, 2023, my updated prescription was as follows:
 
 | Item | Left Eye (°) | Right Eye (°) |
-|---|---|---|
+| --- | --- | --- |
 | My eyesight | Myopia: 300, Astigmatism: 125 | Myopia: 500, Astigmatism: 125 |
 | Glasses I was wearing | Myopia: 175, Astigmatism: 200 | Myopia: 400, Astigmatism: 175 |
 
@@ -106,14 +106,14 @@ The effect of astigmatism reduction is quite significant during the process of m
 From the data above, we can calculate the total reduction of both myopia and astigmatism in both eyes:
 
 | Item | Total Reduction (Left) | Total Reduction (Right) |
-|---|---|---|
+| --- | --- | --- |
 | Original | 50 + 100 / 2 = 100 | 75 + 50 / 2 = 100 |
 | Simplified | 100 | 100 |
 
 We also calculate the total degrees of myopia and astigmatism:
 
 | Item | Total (Left) | Total (Right) |
-|---|---|---|
+| --- | --- | --- |
 | Original | 300 + 125 / 2 = 362.5 | 500 + 125 / 2 = 562.5 |
 | Simplified | 360 | 560 |
 
@@ -182,12 +182,12 @@ The results of this experiment suggest that the natural vision restoration metho
 
 ## References
 
-- Becker, Todd. (2014). "Myopia: A Modern Yet Reversible Disease." https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease.
-- Wang, Yin. (2022). "Natural Vision Restoration Method." https://www.yinwang.org/blog-cn/2022/02/22/myopia.
+- Becker, Todd. (2014). "Myopia: A Modern Yet Reversible Disease." <https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease>.
+- Wang, Yin. (2022). "Natural Vision Restoration Method." <https://www.yinwang.org/blog-cn/2022/02/22/myopia>.
 
 ## Citation
 
-Li, Zhiwei. (2026 August). *Natural Vision Restoration: Experimental Verification, Astigmatism Reduction, and the 'Just Barely Clear' Principle*. Zhiwei's Blog. https://lzwjava.com/natural-vision-restoration-en
+Li, Zhiwei. (2026 August). *Natural Vision Restoration: Experimental Verification, Astigmatism Reduction, and the 'Just Barely Clear' Principle*. Zhiwei's Blog. <https://lzwjava.com/natural-vision-restoration-en>
 
 Or in BibTeX:
 

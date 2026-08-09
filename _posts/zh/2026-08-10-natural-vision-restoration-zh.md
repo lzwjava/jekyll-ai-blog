@@ -57,7 +57,7 @@ translated: true
 下表分别显示了2022年11月13日和2023年4月20日的近视和散光度数：
 
 | 日期 | 左眼 (°) | 右眼 (°) |
-|---|---|---|
+| --- | --- | --- |
 | 2022.11.13 | 近视：325，散光：200 | 近视：550，散光：175 |
 | 2023.04.20 | 近视：300，散光：125 | 近视：500，散光：125 |
 
@@ -74,7 +74,7 @@ translated: true
 下表总结了作者左右眼在一年内的眼科检查结果：
 
 | 时间 | 近视（左） | 散光（左） | 近视（右） | 散光（右） |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 2022.03 | 350 | 225 | 575 | 175 |
 | 2023.04 | 300 | 125 | 500 | 125 |
 | **减少量** | **50** | **100** | **75** | **50** |
@@ -88,14 +88,14 @@ translated: true
 以下是2022年11月13日我的视力与眼镜度数的对比：
 
 | 项目 | 左眼 (°) | 右眼 (°) |
-|---|---|---|
+| --- | --- | --- |
 | 我的视力 | 近视：325，散光：200 | 近视：550，散光：175 |
 | 我佩戴的眼镜 | 近视：225，散光：200 | 近视：450，散光：175 |
 
 近视和散光的减少在接下来的六个月中带来了进一步的改善。2023年4月20日，我更新的验光度数如下：
 
 | 项目 | 左眼 (°) | 右眼 (°) |
-|---|---|---|
+| --- | --- | --- |
 | 我的视力 | 近视：300，散光：125 | 近视：500，散光：125 |
 | 我佩戴的眼镜 | 近视：175，散光：200 | 近视：400，散光：175 |
 
@@ -106,14 +106,14 @@ translated: true
 从上述数据中，我们可以计算双眼近视和散光的总减少量：
 
 | 项目 | 总减少量（左） | 总减少量（右） |
-|---|---|---|
+| --- | --- | --- |
 | 原始计算 | 50 + 100 / 2 = 100 | 75 + 50 / 2 = 100 |
 | 简化 | 100 | 100 |
 
 我们还计算了近视和散光的总度数：
 
 | 项目 | 总计（左） | 总计（右） |
-|---|---|---|
+| --- | --- | --- |
 | 原始计算 | 300 + 125 / 2 = 362.5 | 500 + 125 / 2 = 562.5 |
 | 简化 | 360 | 560 |
 
@@ -182,12 +182,12 @@ translated: true
 
 ## 参考文献
 
-- Becker, Todd. (2014). "Myopia: A Modern Yet Reversible Disease." https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease.
-- Wang, Yin. (2022). "Natural Vision Restoration Method." https://www.yinwang.org/blog-cn/2022/02/22/myopia.
+- Becker, Todd. (2014). "Myopia: A Modern Yet Reversible Disease." <https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease>.
+- Wang, Yin. (2022). "Natural Vision Restoration Method." <https://www.yinwang.org/blog-cn/2022/02/22/myopia>.
 
 ## 引用
 
-Li, Zhiwei. (2026 August). *Natural Vision Restoration: Experimental Verification, Astigmatism Reduction, and the 'Just Barely Clear' Principle*. Zhiwei's Blog. https://lzwjava.com/natural-vision-restoration-en
+Li, Zhiwei. (2026 August). *Natural Vision Restoration: Experimental Verification, Astigmatism Reduction, and the 'Just Barely Clear' Principle*. Zhiwei's Blog. <https://lzwjava.com/natural-vision-restoration-en>
 
 或使用 BibTeX：
 
