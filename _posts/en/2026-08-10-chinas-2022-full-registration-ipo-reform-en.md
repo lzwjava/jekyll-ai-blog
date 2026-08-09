@@ -51,12 +51,12 @@ The IPO supply was controlled.
 
 Effects:
 
-### Advantage:
+### Advantage
 
 * Higher quality filtering
 * Less speculative companies entering the market
 
-### Problems:
+### Problems
 
 * Slow IPO process
 * Limited number of IPOs
