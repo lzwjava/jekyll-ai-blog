@@ -1,0 +1,61 @@
+% Configure page margins
+\geometry{left=1.4cm, top=.6cm, right=1.4cm, bottom=1.5cm, footskip=.5cm}
+
+% Color for highlights
+\colorlet{awesome}{awesome-red}
+
+% Set section highlight
+\setbool{acvSectionColorHighlight}{true}
+
+\usepackage{fontspec} % 允許設定字體
+
+% ====================
+% FONT CONFIGURATION
+% ====================
+% Classic serif for a formal, academic look
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+
+\linespread{1.05}\selectfont % 行距
+
+% Tighter spacing for a compact, professional resume
+\renewcommand{\acvSectionTopSkip}{1.5mm}
+\renewcommand{\acvSectionContentTopSkip}{1.5mm}
+\renewcommand{\acvHeaderAfterSocialSkip}{4mm}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,right]{./latex/profile}
+\name{Zhiwei Li}{}
+\position{AI Engineer{\enskip\cdotp\enskip}Full Stack Engineer}
+\address{Guangzhou, China}
+
+\mobile{(+86) 132-6163-0925}
+\email{lzwjava@gmail.com}
+\homepage{lzwjava.com}
+\github{lzwjava}
+\linkedin{lzwjava}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Header
+\makecvheader[C]
+
+% Footer
+\makecvfooter{\today}{Zhiwei Li~~~·~~~Résumé}{\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%-------------------------------------------------------------------------------
+\input{summary.tex}
+\input{education.tex}
+\input{experience.tex}
+\input{projects.tex}
+\input{skills.tex}
+\input{certificates.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
