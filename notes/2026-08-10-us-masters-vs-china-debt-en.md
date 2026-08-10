@@ -151,7 +151,7 @@ You can probably learn/build faster yourself.
 
 My decision framework would be:
 
-### Go USA if:
+### Go USA if
 
 ✅ admission from strong AI program
 ✅ scholarship or manageable cost
@@ -159,7 +159,7 @@ My decision framework would be:
 ✅ family support does not create pressure
 ✅ you are willing to restart network from zero
 
-### Do not go if:
+### Do not go if
 
 ❌ expensive unknown school
 ❌ only reason is "need a degree"
