@@ -4,13 +4,28 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Beyond Atention
+title: Beyond Atention and Transformers
 translated: false
 ---
 
-This article is still being working in progress.
+This article is still a work in progress.
 
 ---
+
+When I trained 13 small models using the scripts here (https://github.com/lzwjava/zz), what were my thoughts and learnings?
+
+Each time, I learned a bit of something more. Firstly, I used the fineweb-edu dataset, and then later the financial dataset and code.
+
+Code is more deterministic. When using code to train, there is a lot of empty space.
+
+For financial data, we use SEC-filings data. We use a Hermes agent to train. One tip for long-hour training or data preparation: we use an agent to generate the commands for us, then we use tmux to open another terminal to run long-running jobs, so we can better observe their progress.
+
+At one point, I used SFT to fine-tune the model. The SFT fine-tuning process also takes hours.
+
+And I bought an AMD Radeon MI50 card — actually, it isn't exactly an MI50; they have some differences. Though I returned it to the Xianyu seller by mutual agreement. And my original GPU, the RTX 4070, also had some issues with the motherboard, and it went back to the factory for repair with a BIOS reset.
+
+---
+
 
 Q is the query vector, representing the question or the information we are looking for.
 
