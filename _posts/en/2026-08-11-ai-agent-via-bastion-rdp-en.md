@@ -99,6 +99,7 @@ This never touches the server's filesystem or clipboard policy at all — it's j
 For your case I'd default to **A** — you already ship CLI agents (ww/iclaw/zz), and a native PS loop is far more reliable than vision-based clicking on RDP, which lags and misreads text at low DPI. Only fall back to B if the bastion truly blocks both clipboard and drive redirection with no exception process.
 
 References:
+
 - [Enable TLS 1.2 on Windows Server 2012 — BonGuides](https://bonguides.com/how-to-enable-tls-1-2-on-windows-server-2012/)
 - [Enable TLS 1.2 on clients — Microsoft Learn](https://learn.microsoft.com/en-us/intune/configmgr/core/plan-design/security/enable-tls-1-2-client)
 - [Anthropic Messages API](https://docs.claude.com/en/api/messages)

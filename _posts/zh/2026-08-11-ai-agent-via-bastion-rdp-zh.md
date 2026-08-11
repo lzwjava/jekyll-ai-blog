@@ -99,6 +99,7 @@ resp = client.beta.messages.create(
 针对你的情况，我建议默认使用**方案A**——你已经熟悉CLI代理（ww/iclaw/zz），原生PowerShell循环远比基于视觉的RDP点击操作更可靠，因为后者存在延迟且在低DPI下会误读文本。只有当堡垒机确实同时阻止了剪贴板和驱动器重定向且无例外流程时，才退而求其次使用方案B。
 
 参考资料：
+
 - [在Windows Server 2012上启用TLS 1.2 — BonGuides](https://bonguides.com/how-to-enable-tls-1-2-on-windows-server-2012/)
 - [在客户端启用TLS 1.2 — Microsoft Learn](https://learn.microsoft.com/en-us/intune/configmgr/core/plan-design/security/enable-tls-1-2-client)
 - [Anthropic Messages API](https://docs.claude.com/en/api/messages)
