@@ -144,9 +144,9 @@ References:
 
 [1]: https://en.wikipedia.org/wiki/Wang_Xing?utm_source=chatgpt.com "Wang Xing"
 [2]: https://www.howtheybegan.com/founders/wang-xing?utm_source=chatgpt.com "Wang Xing - How They Began"
-[3]: https://media-meituan.todayir.com/202505020944401774654665_en.pdf?utm_source=chatgpt.com "美团 美团
+[3]: <https://media-meituan.todayir.com/202505020944401774654665_en.pdf?utm_source=chatgpt.com> "美团 美团
 Meituan
 
 Meituan annual report cover with fu"
-[4]: https://www.zhihu.com/en/article/20035141171?utm_source=chatgpt.com "知乎 - 有问题，就会有答案"
-[5]: https://www.scmp.com/tech/apps-social/article/2165085/story-tsinghua-graduate-behind-chinas-meal-delivery-empire?utm_source=chatgpt.com "Wang Xing: the graduate school dropout behind China’s Meituan Dianping meal-delivery empire | South China Morning Post"
+[4]: <https://www.zhihu.com/en/article/20035141171?utm_source=chatgpt.com> "知乎 - 有问题，就会有答案"
+[5]: <https://www.scmp.com/tech/apps-social/article/2165085/story-tsinghua-graduate-behind-chinas-meal-delivery-empire?utm_source=chatgpt.com> "Wang Xing: the graduate school dropout behind China’s Meituan Dianping meal-delivery empire | South China Morning Post"

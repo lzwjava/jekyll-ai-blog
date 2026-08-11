@@ -26,6 +26,7 @@ Changes made:
 3. **`completions/_ww`** — added `'zed:Install Zed editor on macOS and Linux'` to `env_cmds`.
 
 Output now looks like:
+
 ```
 Installing Zed via the official installer script (curl)...
   curl -fsSL https://zed.dev/install.sh | sh

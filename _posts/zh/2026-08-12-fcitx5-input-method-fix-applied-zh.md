@@ -14,6 +14,7 @@ type: note
 ## Root Cause
 
 你的系统（Wayland 上的 GNOME）的 im-config 的 Wayland 钩子被 Ubuntu 禁用了（`/etc/profile.d/im-config_wayland.sh` 被完全注释掉了），因此在登录时：
+
 - 没有启动 fcitx5
 - 环境变量保持为 ibus 默认值（`XMODIFIERS=@im=ibus`）
 
@@ -22,7 +23,7 @@ type: note
 ## Fixes Applied
 
 | 项目 | 文件 | 目的 |
-|------|------|------|
+| ------ | ------ | ------ |
 | 自动启动 | `~/.config/autostart/org.fcitx.Fcitx5.desktop` | 登录时运行 `fcitx5 -d` |
 | 环境变量 | `~/.config/environment.d/input-method.conf` | 设置 `GTK_IM_MODULE` / `QT_IM_MODULE` / `XMODIFIERS=@im=fcitx`（在登录时由 systemd 读取） |
 | 输入法选择 | `~/.xinputrc` | `im-config -n fcitx5` 写入 `run_im fcitx5` |
@@ -31,6 +32,7 @@ type: note
 ## What You Need to Do
 
 **注销并重新登录**（或重启），以便环境变量和自动启动生效。登录后：
+
 - fcitx5 自动启动，托盘图标：🀄
 - **Ctrl + Space** 切换中英文
 - 输入法状态栏在右上角显示

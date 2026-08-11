@@ -26,6 +26,7 @@ type: note
 3. **`completions/_ww`** — 在 `env_cmds` 中添加了 `'zed:在 macOS 和 Linux 上安装 Zed 编辑器'`。
 
 输出现在类似：
+
 ```
 正在通过官方安装脚本 (curl) 安装 Zed...
   curl -fsSL https://zed.dev/install.sh | sh
