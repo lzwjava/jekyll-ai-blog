@@ -22,7 +22,7 @@ For financial data, we use SEC-filings data. We use a Hermes agent to train. One
 
 At one point, I used SFT to fine-tune the model. The SFT fine-tuning process also takes hours.
 
-And I bought an AMD Radeon MI50 card — actually, it isn't exactly an MI50; they have some differences. Though I returned it to the Xianyu seller by mutual agreement. And my original GPU, the RTX 4070, also had some issues with the motherboard, and it went back to the factory for repair with a BIOS reset.
+And I bought an AMD  MI50 card — actually, it isn't exactly an MI50; it is raydon pro vii.  They have some differences. Though I returned it to the Xianyu seller by mutual agreement. And my original GPU, the RTX 4070, also had some issues with the motherboard, and it went back to the factory for repair with a BIOS reset.
 
 ---
 
