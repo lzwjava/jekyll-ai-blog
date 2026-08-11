@@ -12,7 +12,7 @@ translated: true
 
 ---
 
-当我使用这里的脚本（https://github.com/lzwjava/zz）训练了13个小模型时，我的想法和学到的东西是什么？
+当我使用这里的脚本（<https://github.com/lzwjava/zz）训练了13个小模型时，我的想法和学到的东西是什么？>
 
 每一次，我都学到了一些东西。首先，我使用了fineweb-edu数据集，后来使用了金融数据集和代码数据集。
 
