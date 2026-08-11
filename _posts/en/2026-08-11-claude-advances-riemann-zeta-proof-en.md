@@ -147,7 +147,7 @@ Applications:
 
 Important distinction:
 
-### It did NOT:
+### It did NOT
 
 ```
 Claude -> solve Riemann Hypothesis
@@ -155,7 +155,7 @@ Claude -> solve Riemann Hypothesis
 
 No.
 
-### It did:
+### It did
 
 ```
 Claude
