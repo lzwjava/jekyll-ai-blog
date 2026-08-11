@@ -14,7 +14,7 @@ Everything is installed and pre-configured. Here's the full picture:
 ## ✅ What I did
 
 | Step | Status |
-|------|--------|
+| ------ | -------- |
 | Installed `fcitx5`, `fcitx5-chinese-addons`, `fcitx5-config-qt` | ✅ 5.1.19 / 5.1.12 |
 | Set Fcitx5 as default (`im-config -n fcitx5` → `~/.xinputrc`) | ✅ |
 | Masked IBus GNOME autostart (prevents conflict) | ✅ |

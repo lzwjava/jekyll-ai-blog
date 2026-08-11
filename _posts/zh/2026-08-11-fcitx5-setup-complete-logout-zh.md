@@ -14,7 +14,7 @@ type: note
 ## ✅ 已完成的操作
 
 | 步骤 | 状态 |
-|------|--------|
+| ------ | -------- |
 | 已安装 `fcitx5`、`fcitx5-chinese-addons`、`fcitx5-config-qt` | ✅ 5.1.19 / 5.1.12 |
 | 将 Fcitx5 设为默认输入法（`im-config -n fcitx5` → `~/.xinputrc`） | ✅ |
 | 禁用 IBus GNOME 自启动（避免冲突） | ✅ |

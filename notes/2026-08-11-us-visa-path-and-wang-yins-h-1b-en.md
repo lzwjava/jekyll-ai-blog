@@ -56,6 +56,7 @@ Details:
   ```
   graduate → OPT → employer → H-1B lottery → H-1B status
   ```
+
 * H-1B has an annual cap (especially private companies), so many international graduates face lottery uncertainty. Cornell also describes H-1B as an annual lottery-based process for many graduates. ([Cornell Chronicle][1])
 
 ---

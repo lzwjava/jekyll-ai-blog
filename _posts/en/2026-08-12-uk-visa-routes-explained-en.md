@@ -15,14 +15,14 @@ Answer:
 
 The UK system is roughly divided into **visit, study, work, family, and talent routes**. The main ones you listed map like this: ([GOV.UK][1])
 
-| Chinese concept | UK visa route         | Main purpose                              | Can work?                        | Long-term path? |
+| Chinese concept | UK visa route | Main purpose | Can work? | Long-term path? |
 | --------------- | --------------------- | ----------------------------------------- | -------------------------------- | --------------- |
-| 访问              | Standard Visitor visa | Tourism, business visits, visiting people | ❌ No normal employment           | ❌               |
-| 学生              | Student visa          | University degree, master's, PhD          | ✅ Limited hours during study     | ✅ Possible      |
-| 短期学习            | Short-term Study visa | Mainly English courses 6–11 months        | ❌                                | ❌               |
-| 技术工作            | Skilled Worker visa   | UK employer hires skilled worker          | ✅ Full job                       | ✅ ILR possible  |
-| 配偶              | Spouse/Partner visa   | Join British citizen/settled partner      | ✅                                | ✅               |
-| 人才              | Global Talent visa    | Exceptional talent in tech/science/arts   | ✅ No employer sponsorship needed | ✅               |
+| 访问 | Standard Visitor visa | Tourism, business visits, visiting people | ❌ No normal employment | ❌ |
+| 学生 | Student visa | University degree, master's, PhD | ✅ Limited hours during study | ✅ Possible |
+| 短期学习 | Short-term Study visa | Mainly English courses 6–11 months | ❌ | ❌ |
+| 技术工作 | Skilled Worker visa | UK employer hires skilled worker | ✅ Full job | ✅ ILR possible |
+| 配偶 | Spouse/Partner visa | Join British citizen/settled partner | ✅ | ✅ |
+| 人才 | Global Talent visa | Exceptional talent in tech/science/arts | ✅ No employer sponsorship needed | ✅ |
 
 ## 1. Visitor visa (访问)
 
@@ -233,7 +233,7 @@ this route is more interesting than a normal worker visa.
 
 ---
 
-## Compared with US:
+## Compared with US
 
 |                     | UK               | US              |
 | ------------------- | ---------------- | --------------- |
