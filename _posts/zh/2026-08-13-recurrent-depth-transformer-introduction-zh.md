@@ -11,7 +11,7 @@ type: note
 
 ## 问题：OpenMythos 简介
 
-## 答案：
+## 答案
 
 [OpenMythos GitHub 仓库](https://github.com/kyegomez/OpenMythos?utm_source=chatgpt.com) 是 Kye Gomez 的一个有趣实验项目，试图从第一性原理**重构一种可能的下一代 Transformer 架构**。它**并非官方的 Claude 实现**；作者明确表示，这是基于公开研究和推测进行的独立理论重构。([GitHub][1])
 

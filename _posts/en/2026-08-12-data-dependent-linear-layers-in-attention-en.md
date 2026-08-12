@@ -326,7 +326,7 @@ So future tokens get zero attention.
 
 ---
 
-## 6. Why your friend mentions ALiBi, RoPE, etc.
+## 6. Why your friend mentions ALiBi, RoPE, etc
 
 The broader trend:
 

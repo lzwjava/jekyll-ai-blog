@@ -39,7 +39,7 @@ The key idea is:
 
 > **AdamW treats a parameter tensor mostly element-by-element. Muon treats a 2-D weight matrix as a geometric object and changes the *shape/direction* of its update.**
 
-The source itself says the combined optimizer uses AdamW for embeddings/scalars and Muon for matrix parameters. 
+The source itself says the combined optimizer uses AdamW for embeddings/scalars and Muon for matrix parameters.
 
 ---
 
@@ -122,7 +122,7 @@ The implementation also applies decoupled weight decay:
 W\leftarrow (1-\eta\lambda)W.
 ]
 
-That's exactly what lines 48–59 are doing. 
+That's exactly what lines 48–59 are doing.
 
 ---
 
@@ -215,7 +215,7 @@ UV^T
 
 essentially **removes the singular-value scaling**.
 
-The source explicitly describes this as replacing the update with the nearest orthogonal matrix. 
+The source explicitly describes this as replacing the update with the nearest orthogonal matrix.
 
 ---
 
@@ -353,7 +353,7 @@ and then performs five iterations.
 
 The source explicitly says:
 
-> "Newton-Schulz iteration to compute the zeroth power / orthogonalization of G." 
+> "Newton-Schulz iteration to compute the zeroth power / orthogonalization of G."
 
 So conceptually:
 
@@ -418,7 +418,7 @@ else:
     A = X @ X.mT
 ```
 
-It chooses the smaller-side Gram matrix to make the computation cheaper. 
+It chooses the smaller-side Gram matrix to make the computation cheaper.
 
 ---
 
@@ -453,7 +453,7 @@ effective gradient
 orthogonalization
 ```
 
-The source describes Muon as internally running standard SGD-momentum and then applying an orthogonalization post-processing step. 
+The source describes Muon as internally running standard SGD-momentum and then applying an orthogonalization post-processing step.
 
 ---
 
@@ -503,7 +503,7 @@ large 2-D weight matrix
       Muon
 ```
 
-The implementation explicitly warns against using Muon for embeddings, the final fully connected layer, and 0-D/1-D parameters. 
+The implementation explicitly warns against using Muon for embeddings, the final fully connected layer, and 0-D/1-D parameters.
 
 ---
 
@@ -570,7 +570,7 @@ The actual code does these stages in:
 ...
 ```
 
-That is the structure you should keep in your head. 
+That is the structure you should keep in your head.
 
 ---
 
@@ -601,7 +601,7 @@ row 3  █
 
 MuonEq tries to make the row scales less pathological before running the polar iteration.
 
-The source describes it as **row equilibration** to improve conditioning. 
+The source describes it as **row equilibration** to improve conditioning.
 
 ---
 
@@ -633,7 +633,7 @@ maybe slightly wrong magnitude
 renormalize Frobenius norm
 ```
 
-The source calls this **Muon+ renormalization**. 
+The source calls this **Muon+ renormalization**.
 
 ---
 
@@ -701,7 +701,7 @@ For example with 8 GPUs:
                  updated params
 ```
 
-For AdamW, large parameters are sliced across GPUs and optimizer states are sharded. 
+For AdamW, large parameters are sliced across GPUs and optimizer states are sharded.
 
 For Muon, parameters are stacked:
 
@@ -709,7 +709,7 @@ For Muon, parameters are stacked:
 stacked_grads = torch.stack([p.grad for p in params])
 ```
 
-and different GPUs own different matrices. 
+and different GPUs own different matrices.
 
 So there are really **two layers of ideas**:
 
@@ -834,9 +834,9 @@ UV^T
 }
 ]
 
-That is the conceptual core behind the scary-looking `Polar Express` code. The rest is largely **making that operation fast, numerically stable, scale-controlled, and distributed**. 
+That is the conceptual core behind the scary-looking `Polar Express` code. The rest is largely **making that operation fast, numerically stable, scale-controlled, and distributed**.
 
 References:
 
-* [Source: MuonAdamW / DistMuonAdamW implementation] 
+* [Source: MuonAdamW / DistMuonAdamW implementation]
 * [Muon background and orthogonalization]
