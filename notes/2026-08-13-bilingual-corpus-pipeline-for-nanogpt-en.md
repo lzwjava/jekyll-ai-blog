@@ -12,11 +12,13 @@ type: note
 This is a **Python** data-prep project (not Node). It's a bilingual EN/ZH corpus pipeline for nanoGPT/nanochat. Here are the commands to get it running:
 
 **First, install dependencies:**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 **Option A — smoke test (no downloads needed), the fastest way to verify it runs:**
+
 ```bash
 python -m scripts.make_synthetic       --out_dir data/synthetic
 python -m scripts.mix_bilingual        --en data/synthetic/en.jsonl --zh data/synthetic/zh.jsonl --zh-frac 0.5 --out mixed.txt --limit 2000
@@ -48,6 +50,7 @@ python -m scripts.prepare --input mixed.txt --tok-prefix tok_mixed --out-dir dat
 ```
 
 **Once training is done, generate with language control:**
+
 ```bash
 python -m scripts.generate --model out/ckpt.pt --tok-prefix tok_mixed --lang zh \
     --prompt "机器学习是什么？" --max-new-tokens 200

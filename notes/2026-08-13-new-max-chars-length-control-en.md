@@ -19,6 +19,7 @@ Done. Yes — you can control output length, two ways now:
 | `--max-chars N` | Total output **length in characters** (new) | `--max-chars 100000` |
 
 ## New `--max-chars`
+
 - Stops writing once the accumulated output (docs + control tokens + newlines) exceeds `N` characters.
 - Works alongside or without `--limit` (whichever trips first wins).
 - Tested: `--max-chars 500` → wrote 7 docs (566 chars) and stopped.
@@ -34,6 +35,7 @@ python3.12 -m scripts.mix_bilingual \
 ```
 
 Two caveats worth knowing:
+
 - `--max-chars` counts **characters**, so Chinese text (multi-byte UTF-8) yields a larger byte size on disk. If you specifically need a byte/like-token cap instead, I can switch it to count UTF-8 bytes (`len(txt.encode("utf-8"))`) or add both options.
 - `--max-chars` reads the source generators and writes docs greedily, so it stops at the **first doc boundary past** the cap (it never truncates mid-document). That keeps every output line a valid wrapped doc.
 

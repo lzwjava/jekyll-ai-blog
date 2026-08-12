@@ -12,6 +12,7 @@ type: note
 Smoke test ran successfully end-to-end with system Python 3.12. ✅
 
 **Results:**
+
 - **make_synthetic** → `data/synthetic/{en,zh,aligned}.jsonl`
 - **mix_bilingual** → 2000 docs, EN 50% / ZH 50% → `mixed.txt`
 - **train_tokenizer** → joint tokenizer, vocab=357, control tokens added → `tok_mixed/`

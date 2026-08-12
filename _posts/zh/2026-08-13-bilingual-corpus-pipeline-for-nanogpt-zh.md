@@ -12,11 +12,13 @@ type: note
 这是一个 **Python** 数据预处理项目（非 Node）。它是一个用于 nanoGPT/nanochat 的中英双语语料库处理流水线。以下是运行命令：
 
 **首先，安装依赖：**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 **选项 A — 冒烟测试（无需下载），验证运行的最快方式：**
+
 ```bash
 python -m scripts.make_synthetic       --out_dir data/synthetic
 python -m scripts.mix_bilingual        --en data/synthetic/en.jsonl --zh data/synthetic/zh.jsonl --zh-frac 0.5 --out mixed.txt --limit 2000
@@ -48,6 +50,7 @@ python -m scripts.prepare --input mixed.txt --tok-prefix tok_mixed --out-dir dat
 ```
 
 **训练完成后，使用语言控制生成：**
+
 ```bash
 python -m scripts.generate --model out/ckpt.pt --tok-prefix tok_mixed --lang zh \
     --prompt "机器学习是什么？" --max-new-tokens 200

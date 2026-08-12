@@ -12,6 +12,7 @@ type: note
 端到端烟雾测试在系统 Python 3.12 上成功运行。✅
 
 **结果：**
+
 - **make_synthetic** → `data/synthetic/{en,zh,aligned}.jsonl`
 - **mix_bilingual** → 2000 个文档，英文 50% / 中文 50% → `mixed.txt`
 - **train_tokenizer** → 联合分词器，词表大小=357，添加控制标记 → `tok_mixed/`
