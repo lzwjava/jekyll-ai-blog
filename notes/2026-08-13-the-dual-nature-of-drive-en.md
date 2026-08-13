@@ -38,5 +38,6 @@ This is actually the strategically correct move if you're optimizing for both: *
 If you optimize *for* status directly, you get zero-sum games — bounded upside, and you're now dependent on others' judgment. If you optimize for the work/impact and let status be a downstream signal, you get compounding upside and you're not hostage to social approval to feel the reward. Same brain circuitry, different feedback loop topology. Liang Wenfeng's public stance on DeepSeek (research for exploration, indifference to short-term commercialization/fame) and Karpathy's whole "build cool stuff in public, let recognition be a byproduct" posture are both just this strategy executed deliberately rather than left on autopilot.
 
 **References:**
+
 - [Walter Isaacson, *Steve Jobs* (2011)](https://en.wikipedia.org/wiki/Steve_Jobs_(book))
 - [Deci & Ryan, Self-Determination Theory overview](https://selfdeterminationtheory.org/theory/)

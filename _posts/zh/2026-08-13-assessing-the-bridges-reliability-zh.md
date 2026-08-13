@@ -19,16 +19,16 @@ type: note
 
 ### 积极信号
 
-*   网站介绍了**The Bridge**，这是一个位于旧金山的早期创始人驻留项目，提供25万美元前期投资并连接投资者资源。([The Bridge][1])
-*   该项目声称由知名全球创业构建平台 Entrepreneur First (EF) 打造。([The Bridge][1])
-*   LinkedIn上有公司页面，展示了员工信息，并将其描述为与EF相关的旧金山驻留项目。([LinkedIn][2])
-*   安全扫描器未发现恶意软件/钓鱼迹象。一个检查工具给出了约60/100的评分，未发现主要黑名单记录。([Gridinsoft LLC][3])
+* 网站介绍了**The Bridge**，这是一个位于旧金山的早期创始人驻留项目，提供25万美元前期投资并连接投资者资源。([The Bridge][1])
+* 该项目声称由知名全球创业构建平台 Entrepreneur First (EF) 打造。([The Bridge][1])
+* LinkedIn上有公司页面，展示了员工信息，并将其描述为与EF相关的旧金山驻留项目。([LinkedIn][2])
+* 安全扫描器未发现恶意软件/钓鱼迹象。一个检查工具给出了约60/100的评分，未发现主要黑名单记录。([Gridinsoft LLC][3])
 
 ### 需要核实的事项
 
-*   域名较新（根据一项分析，注册于2025年），因此运营历史不长。([Scam Detector][4])
-*   一些自动化信誉网站给出混合评分。例如，Scam Detector 给出了中等风险评分，这主要是由于有限的历史和自动信号，而非已证实的欺诈。([Scam Detector][4])
-*   一些重大宣称（25万美元、投资者渠道、校友成功案例）应独立核实。仅凭网站本身不足以证明。([The Bridge][1])
+* 域名较新（根据一项分析，注册于2025年），因此运营历史不长。([Scam Detector][4])
+* 一些自动化信誉网站给出混合评分。例如，Scam Detector 给出了中等风险评分，这主要是由于有限的历史和自动信号，而非已证实的欺诈。([Scam Detector][4])
+* 一些重大宣称（25万美元、投资者渠道、校友成功案例）应独立核实。仅凭网站本身不足以证明。([The Bridge][1])
 
 我的评估：
 
@@ -44,26 +44,26 @@ type: note
 
 我会比较：
 
-*   YC → 最强品牌，庞大的投资者网络，竞争非常激烈。
-*   EF → 创始人形成模式，适合尚未有明确想法的创始人。
-*   The Bridge → 似乎是针对国际创始人的EF旧金山驻留变体。([The Bridge][1])
+* YC → 最强品牌，庞大的投资者网络，竞争非常激烈。
+* EF → 创始人形成模式，适合尚未有明确想法的创始人。
+* The Bridge → 似乎是针对国际创始人的EF旧金山驻留变体。([The Bridge][1])
 
 在做决定前，我会向他们提问：
 
-1.  这25万美元投资是保证的，还是有条件的？
-2.  需要多少股权？
-3.  实际的投资合作伙伴是谁？
-4.  他们能否提供你可以沟通的校友创始人？
-5.  签证支持是否真实？走的是哪种签证途径？
+1. 这25万美元投资是保证的，还是有条件的？
+2. 需要多少股权？
+3. 实际的投资合作伙伴是谁？
+4. 他们能否提供你可以沟通的校友创始人？
+5. 签证支持是否真实？走的是哪种签证途径？
 
 针对你的背景（已有产品、收入历史、AI基础设施经验），我可能还会建议**直接评估YC**，而不仅仅是驻留项目。
 
 参考资料：
 
-*   The Bridge 官方网站 ([The Bridge][1])
-*   The Bridge LinkedIn 主页 ([LinkedIn][2])
-*   网站信誉分析 ([Gridinsoft LLC][3])
-*   Scam Detector 评论 ([Scam Detector][4])
+* The Bridge 官方网站 ([The Bridge][1])
+* The Bridge LinkedIn 主页 ([LinkedIn][2])
+* 网站信誉分析 ([Gridinsoft LLC][3])
+* Scam Detector 评论 ([Scam Detector][4])
 
 [1]: https://www.join-thebridge.com/?utm_source=chatgpt.com "The Bridge"
 [2]: https://www.linkedin.com/company/join-thebridge?utm_source=chatgpt.com "The Bridge | LinkedIn"

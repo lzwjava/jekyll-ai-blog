@@ -14,6 +14,7 @@ type: note
 **回答：** WeFlow 是一款完全本地化、开源（Electron + React + TypeScript）的工具，用于实时查看、分析和导出微信聊天记录。它支持微信 4.0 及以上版本，能够直接读取微信客户端本地的 SQLite/MSG 数据库文件（Windows/macOS/Linux），无需 root 权限，无需云端上传。
 
 **工作原理：**
+
 - 直接从磁盘读取微信客户端的本地 SQLite/MSG 数据库文件（Windows/macOS/Linux）——无需 root，无需云端上传。
 - 通过直接读取 Windows 微信客户端本地的数据库文件（MSG 文件）来获取所有聊天记录——文本、图片、贴纸、文件——并让你能够按联系人、群组或时间范围筛选，导出为结构化的 HTML 存档。
 - 能够解密聊天中的图片、视频和 Live Photos（仅限使用 Google Live Photos 协议拍摄的），支持修改/删除本地消息，并实时刷新新消息，无需生成中间解密数据库。
@@ -25,6 +26,7 @@ type: note
 **如果你以编程方式实现（更符合你偏好 CLI 的工作流程）：** Windows/macOS 上的微信将消息存储在加密的 SQLite 数据库中；密钥派生和表结构正是这类工具逆向工程的对象。对于 Android，还有 `wechat-dump`（需 root 的手机 + adb），它从已 root 的 Android 手机解析微信消息，并将其渲染为自包含的 HTML 文件，包括语音消息、图片、表情和视频——如果你想将聊天记录输入 LLM 管道，它比 WeFlow 的 GUI 更具脚本化能力。
 
 **参考资料：**
+
 - [chency7/WeFlow](https://github.com/chency7/WeFlow)
 - [hicccc77/WeFlow（原始仓库，已遭 DMCA 下架）](https://github.com/hicccc77/WeFlow)
 - [jacklilyhello/WeFlow（分支）](https://github.com/jacklilyhello/WeFlow)

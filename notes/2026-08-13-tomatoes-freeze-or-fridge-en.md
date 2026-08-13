@@ -26,10 +26,12 @@ Answer:
 - BUT: flavor compounds are largely preserved (freezing halts enzymatic degradation immediately, unlike the slow fridge damage). The texture is ruined but taste survives — which is why frozen tomatoes are perfectly good for sauces, soups, purees where texture doesn't matter, but useless for fresh salads.
 
 **Practical rule:**
+
 - Fresh eating soon → counter, room temp, out of direct sun
 - Going to cook it later (sauce/soup) → freezer is fine, skin even peels off easily after thawing (blanching effect from ice crystal rupture)
 - Never fridge unless already overripe and you need to buy 1-2 days — and even then, bring back to room temp before eating to partially recover flavor
 
 References:
+
 - [Chilling injury in tomato fruit — USDA ARS](https://www.ars.usda.gov)
 - [Why You Shouldn't Refrigerate Tomatoes — Serious Eats](https://www.seriouseats.com/why-you-shouldnt-refrigerate-tomatoes)
