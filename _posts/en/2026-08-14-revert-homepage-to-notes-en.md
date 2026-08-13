@@ -13,6 +13,7 @@ Done. The homepage now shows notes instead of posts.
 
 **Change** (`index.html`):
 {% raw %}
+
 ```diff
 -{% include sort.html type='posts' %}
 +{% include sort.html type='notes' %}
@@ -20,9 +21,11 @@ Done. The homepage now shows notes instead of posts.
 -{% include post-list.html lang='en' type='posts' %}
 +{% include post-list.html lang='en' type='notes' %}
 ```
+
 {% endraw %}
 
 **Verification:**
+
 - `bundle exec jekyll build` completes successfully (the destination-conflict warnings are pre-existing duplicate-permalink issues, unrelated to this change)
 - The generated `_site/index.html` now contains 12,507 `data-type="note"` items and is identical in listing to `notes-en.html`
 

@@ -13,6 +13,7 @@ type: note
 
 **变更**（`index.html`）：
 {% raw %}
+
 ```diff
 -{% include sort.html type='posts' %}
 +{% include sort.html type='notes' %}
@@ -20,9 +21,11 @@ type: note
 -{% include post-list.html lang='en' type='posts' %}
 +{% include post-list.html lang='en' type='notes' %}
 ```
+
 {% endraw %}
 
 **验证：**
+
 - `bundle exec jekyll build` 构建成功（目标冲突警告是预先存在的重复永久链接问题，与此变更无关）
 - 生成的 `_site/index.html` 现在包含 12,507 个 `data-type="note"` 项目，且列表与 `notes-en.html` 完全相同
 
