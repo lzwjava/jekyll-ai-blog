@@ -60,6 +60,7 @@ Historically: Hopfield (1982) showed recurrent dynamics could store memory/attra
 The follow-up problem RNNs then hit: vanishing/exploding gradients through `Whh` over long sequences (backprop through time multiplies the same matrix repeatedly), which is why LSTM (1997) added gates to control what gets kept vs forgotten in `h_t`, and why transformers eventually replaced RNNs entirely by dropping sequential recurrence for parallel attention.
 
 References:
+
 - [Elman, "Finding Structure in Time" (1990)](https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1402_1)
 - [Karpathy, "The Unreasonable Effectiveness of RNNs"](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Hochreiter & Schmidhuber, LSTM (1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)

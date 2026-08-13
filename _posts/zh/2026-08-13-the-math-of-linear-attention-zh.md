@@ -62,6 +62,7 @@ def causal_linear_attention(q, k, v, feature_map=lambda x: torch.nn.functional.e
 **统一视角**：2023年以来的每个模型都是 `S_t = A_t ⊙ S_{t-1} + k_t v_tᵀ`（或写入的delta规则变体），其中*唯一*的区别在于：(1) `A_t` 衰减是标量/对角/低秩且数据依赖的，以及(2) 写入是纯累积还是误差校正（delta规则）。最近的"测试时训练"框架（Sun 等人，2024）明确指出了这一点：状态更新*就是*对`key→value`回归损失的一个在线梯度下降步骤，而不同的论文只是在选择不同的优化器。
 
 参考文献：
+
 - [Transformers are RNNs (Katharopoulos et al., 2020)](http://proceedings.mlr.press/v119/katharopoulos20a.html)
 - [Linear Transformers are Secretly Fast Weight Programmers (Schlag et al., 2021)](https://arxiv.org/abs/2102.11174)
 - [Retentive Network (Sun et al., 2023)](https://arxiv.org/abs/2307.08621)

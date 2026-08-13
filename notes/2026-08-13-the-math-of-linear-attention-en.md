@@ -62,6 +62,7 @@ That's the whole idea: attention becomes an **RNN with a matrix-valued state** `
 **Unifying view**: every model since 2023 is `S_t = A_t ⊙ S_{t-1} + k_t v_tᵀ` (or a delta-rule variant of the write), where the *only* differences are (1) whether `A_t` decay is scalar/diagonal/low-rank and data-dependent, and (2) whether the write is pure accumulation vs. error-corrected (delta rule). The recent "test-time training" framing (Sun et al. 2024) makes this explicit: the state update *is* an online-gradient-descent step on a `key→value` regression loss, and different papers are just picking different optimizers.
 
 References:
+
 - [Transformers are RNNs (Katharopoulos et al., 2020)](http://proceedings.mlr.press/v119/katharopoulos20a.html)
 - [Linear Transformers are Secretly Fast Weight Programmers (Schlag et al., 2021)](https://arxiv.org/abs/2102.11174)
 - [Retentive Network (Sun et al., 2023)](https://arxiv.org/abs/2307.08621)

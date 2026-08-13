@@ -19,6 +19,7 @@ python -m scripts.train_tokenizer \
 ```
 
 ### What this does
+
 - Trains a **byte-level BPE** tokenizer jointly on the mixed EN/ZH data, so Chinese gets real char/word merges instead of ~3 tokens/char.
 - Registers control tokens (`<|endoftext|>`, `<|lang_en|>`, `<|lang_zh|>`, plus `<|mix_0|>`..`<|mix_100|>`) as special tokens so they're never split.
 - Saves a tokenizer directory (`tok_mixed/`) containing `vocab.json` + `merges.txt`.
@@ -26,7 +27,7 @@ python -m scripts.train_tokenizer \
 ### Options
 
 | Flag | Default | Purpose |
-|------|---------|---------|
+| ------ | --------- | --------- |
 | `--input` | (required) | path to a file, or a directory of `.txt`/`.jsonl` shards |
 | `--out-prefix` | `tok_mixed` | output dir name |
 | `--vocab-size` | `65536` | vocab size (keep ≤65536 so `prepare.py` stays on uint16) |
@@ -34,6 +35,7 @@ python -m scripts.train_tokenizer \
 | `--special-tokens` | default list | override special tokens |
 
 ### Notes
+
 - It also accepts a **directory** of shards, so you could point it at your shard dir instead of a single file.
 - The script's docstring notes: if you're going through **nanochat**, skip this script and use nanochat's `tok_train.py` on the mixed shard dir (it uses the same rustbpe), just add the control tokens to its special-token list.
 

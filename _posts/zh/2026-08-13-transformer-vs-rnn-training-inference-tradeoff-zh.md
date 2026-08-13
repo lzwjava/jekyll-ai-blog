@@ -37,6 +37,7 @@ out = softmax(scores) @ kv_cache_v
 ```
 
 你避免了为旧 token 重复计算 K/V（这正是缓存的作用），但：
+
 - 内存：O(n) 且随上下文增长——缓存大小 = `2 × 层数 × 注意力头数 × 头维度 × n × 批次 × 字节数`。
 - 每一步都需要*从 HBM 读取整个缓存*来生成一个 token → 算术强度骤降 → 解码受内存带宽限制，而非计算限制。这避免了重复计算，使推理更快，但也带来一个简单的权衡：缓存大小随序列长度线性增长——上下文越长，消耗的内存越多，且 LLM 受内存带宽限制，而非计算限制。
 - 这就是长上下文破坏服务经济性的原因——解码通常受内存带宽限制，而非计算限制；在搭载 80GB H100 的 70B 模型上，4K 上下文支持约 59 个并发用户，但 128K 上下文则降至约 1 个用户。
@@ -58,7 +59,7 @@ h_t = tanh(Wx @ x_t + Wh @ h_{t-1} + b)   # 固定大小，无缓存增长
 RWKV 集成了线性注意力机制，使其能够像 Transformer 一样进行并行训练，同时保留 RNN 的高效推理特性，在推理时实现恒定的计算和内存复杂度。Mamba 在训练时具有线性时间缩放能力，推理时内存成本恒定，因为整个状态被总结为一个固定大小的张量，在推理任务中吞吐量可提升高达 5 倍。
 
 | | Transformer (注意力+KV缓存) | RNN | Mamba/RWKV/RetNet |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 训练并行度 | O(1) 顺序深度，密集矩阵乘法 | O(T) 顺序 (BPTT) | O(1) 通过并行扫描/分块形式 |
 | 推理内存 | O(n)，随上下文增长 | O(1)，固定状态 | O(1)，固定状态 |
 | 推理瓶颈 | HBM 带宽（读取 KV 缓存） | 可忽略 | 可忽略 |
@@ -67,6 +68,7 @@ RWKV 集成了线性注意力机制，使其能够像 Transformer 一样进行�
 因此你的说法成立。唯一的注意事项：Transformer 训练“友好”的具体原因是在训练期间*没有循环依赖*（掩码替代了循环），而不是因为注意力计算廉价——它仍然是 O(n²)，这也是为什么预填充（而非解码）受计算限制且对于长提示词有二次成本。
 
 参考文献：
+
 - [The Mamba in the Llama: Distilling and Accelerating Hybrid Models](https://www.together.ai/blog/the-mamba-in-the-llama-distilling-and-accelerating-hybrid-models)
 - [A Survey on LLM Acceleration based on KV Cache Management](https://arxiv.org/pdf/2412.19442)
 - [KV Cache and KV Caching: The Hidden Bottleneck of LLM Inference](https://medium.com/@sulbha.jindal/kv-cache-and-kv-caching-a46acea80fe4)

@@ -14,6 +14,7 @@ Question: What's the difference between the F/M/J visa group and the H/L/O/P/Q v
 Answer:
 
 **F/M/J — non-petition, status-based (student/exchange)**
+
 - **F-1**: academic study (university, college)
 - **M-1**: vocational/non-academic technical training
 - **J-1**: exchange visitor — scholars, interns, trainees, au pairs, medical residents
@@ -22,6 +23,7 @@ Answer:
 - **Big 2026 change**: DHS published a final rule on July 17, 2026 eliminating Duration of Status (D/S) for F-1 and J-1, replacing it with a fixed admission period, effective September 15, 2026. This is expected to increase I-539 extension filings and processing delays, currently running about 3-4 months for those extensions. If you're renewing/extending status after Sept 15, budget more than 1.5 months.
 
 **H/L/O/P/Q — petition-based work visas**
+
 - **H-1B**: specialty occupation (lottery-capped)
 - **L-1**: intracompany transfer
 - **O-1**: extraordinary ability
@@ -35,6 +37,7 @@ Answer:
 **TL;DR gap between your two numbers**: F/M/J's "1.5 months" is realistic for a first-time entry with no complications. H/L/O/P/Q's "2 months" is only realistic with premium processing *and* if you're already in the US changing status — if you need a consular stamp abroad, add another 6-8+ weeks on top.
 
 References:
+
 - [J-1 Visa Processing Time: How Long It Takes in 2026](https://www.globalinternships.com/post/j-1-visa-processing-time)
 - [USCIS Ends D/S for F, J, I Visas: Key Compliance Changes](https://www.clarkhill.com/news-events/news/elimination-of-duration-of-status-d-s-for-f-j-and-i-non-immigrants/)
 - [Understanding L-1 Visa Processing Times in 2026](https://manifestlaw.com/blog/l1-processing-times/)

@@ -23,12 +23,14 @@ Swap total: 33GiB
 ```
 
 **具体操作：**
+
 1. `sudo fallocate -l 32G /swapfile2` — 分配一个 32 GB 的交换文件（`/` 分区剩余约 115G，空间充足）
 2. `sudo chmod 600 /swapfile2` — 设置正确权限（交换文件必须仅 root 可读写）
 3. `sudo mkswap /swapfile2` + `sudo swapon /swapfile2` — 格式化并激活该交换文件
 4. 在 `/etc/fstab` 中添加 `/swapfile2 none swap sw 0 0` — 确保**重启后自动生效**
 
 **验证结果：**
+
 - `swapon --show` 确认两个交换文件均已激活（总计 33GiB）
 - `free -h` 显示 `Swap: 33Gi 0B used`
 - `findmnt` 关于 `/swapfile2` 是*普通文件*的警告属于**预期且无害** — 交换文件本身即为普通文件，并非错误。

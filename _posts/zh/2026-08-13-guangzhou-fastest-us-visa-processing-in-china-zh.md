@@ -19,6 +19,7 @@ type: note
 - **机组/过境（C/D）**：1.5个月
 
 对比同一表格中其他中国使领馆：
+
 - 北京：2.5个月（B1/B2），4.5个月（F/M/J）
 - 上海：3.5个月（B1/B2），4个月（F/M/J）
 - 武汉：3.5个月（B1/B2），4.5个月（F/M/J）
@@ -29,4 +30,5 @@ type: note
 一个注意事项：此表格不包含221(g)行政审理延迟，且由于取消预约，名额会每日释放——国务院官网的预约系统本身才是实时信息来源，优于任何每月更新的表格。
 
 参考来源：
+
 - [全球签证等待时间 — travel.state.gov](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html)

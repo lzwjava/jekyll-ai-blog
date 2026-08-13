@@ -19,6 +19,7 @@ Answer: No — it's actually the fastest post in China right now. Per the offici
 - **Crew/Transit (C/D)**: 1.5 months
 
 Compare that to the other China posts on the same table:
+
 - Beijing: 2.5mo (B1/B2), 4.5mo (F/M/J)
 - Shanghai: 3.5mo (B1/B2), 4mo (F/M/J)
 - Wuhan: 3.5mo (B1/B2), 4.5mo (F/M/J)
@@ -29,4 +30,5 @@ So Guangzhou is running noticeably lighter than Beijing/Shanghai/Wuhan, roughly 
 One caveat: this table doesn't include 221(g) administrative processing delays, and slots open up daily from cancellations — the state.gov appointment system itself is the real-time source of truth over any monthly-updated table.
 
 References:
+
 - [Global Visa Wait Times — travel.state.gov](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html)

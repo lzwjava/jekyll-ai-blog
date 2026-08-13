@@ -23,12 +23,14 @@ Swap total: 33GiB
 ```
 
 **What was done:**
+
 1. `sudo fallocate -l 32G /swapfile2` — allocated a 32 GB swap file (~115G free on `/`, plenty of room)
 2. `sudo chmod 600 /swapfile2` — correct permissions (must be root-only for swap)
 3. `sudo mkswap /swapfile2` + `sudo swapon /swapfile2` — formatted and activated it
 4. Added `/swapfile2 none swap sw 0 0` to `/etc/fstab` — so it **survives reboots** automatically
 
 **Verification:**
+
 - `swapon --show` confirms both swap files active (total 33GiB)
 - `free -h` shows `Swap: 33Gi 0B used`
 - The `findmnt` warning about `/swapfile2` being a *regular file* is **expected and harmless** — swap files *are* regular files; it's not an error.

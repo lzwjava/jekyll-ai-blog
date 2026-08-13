@@ -37,6 +37,7 @@ out = softmax(scores) @ kv_cache_v
 ```
 
 You avoid recomputing K/V for old tokens (that's what the cache buys you), but:
+
 - Memory: O(n) and grows with context — cache size = `2 × layers × heads × head_dim × n × batch × bytes`.
 - Every step you must *read the entire cache from HBM* just to produce one token → arithmetic intensity collapses → decode is memory-bandwidth bound, not compute bound. this avoids recomputation and makes inference much faster, but comes with a simple tradeoff: the cache size grows linearly with sequence length — the longer the context, the more memory it consumes, and LLMs are not compute-bound, they are memory-bound
 - This is why long context wrecks serving economics — decode is often memory-bandwidth bound, not compute-bound; on a 70B model on an 80GB H100, a 4K context supports ~59 concurrent users but 128K context drops to ~1 user.
@@ -58,7 +59,7 @@ This exact asymmetry is why the SSM/linear-RNN wave (Mamba, RWKV, RetNet) exists
 RWKV integrates a linear attention mechanism, enabling parallelizable training like transformers while retaining the efficient inference characteristics of RNNs, achieving constant computational and memory complexity during inference. Mamba enjoys linear-time scaling during training, and constant memory cost during inference as the entire state is summarized in a fixed size tensor, offering up to 5× higher throughput in inference tasks.
 
 | | Transformer (attn+KV cache) | RNN | Mamba/RWKV/RetNet |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Train parallelism | O(1) sequential depth, dense matmul | O(T) sequential (BPTT) | O(1) via parallel scan/chunked form |
 | Inference memory | O(n), grows with context | O(1), fixed state | O(1), fixed state |
 | Inference bottleneck | HBM bandwidth (reading KV cache) | negligible | negligible |
@@ -67,6 +68,7 @@ RWKV integrates a linear attention mechanism, enabling parallelizable training l
 So your statement holds. The one caveat: Transformer training being "friendly" is specifically because there's no *recurrent* dependency during training (masking substitutes for recurrence), not because attention is cheap — it's still O(n²), which is why prefill (not decode) is compute-bound and quadratic-cost for long prompts.
 
 References:
+
 - [The Mamba in the Llama: Distilling and Accelerating Hybrid Models](https://www.together.ai/blog/the-mamba-in-the-llama-distilling-and-accelerating-hybrid-models)
 - [A Survey on LLM Acceleration based on KV Cache Management](https://arxiv.org/pdf/2412.19442)
 - [KV Cache and KV Caching: The Hidden Bottleneck of LLM Inference](https://medium.com/@sulbha.jindal/kv-cache-and-kv-caching-a46acea80fe4)

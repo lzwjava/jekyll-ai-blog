@@ -60,6 +60,7 @@ print(len(hs), hs[0].shape)  # 10 (8,) — 相同权重，任意序列长度
 RNN随后遇到的问题是：通过`Whh`在长序列上产生梯度消失/爆炸（通过时间反向传播重复乘以相同矩阵），因此LSTM（1997）添加了门控机制来控制`h_t`中哪些信息被保留或遗忘，而Transformer最终通过并行注意力完全取代了RNN，放弃了序列递归。
 
 参考文献：
+
 - [Elman, "Finding Structure in Time" (1990)](https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1402_1)
 - [Karpathy, "The Unreasonable Effectiveness of RNNs"](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Hochreiter & Schmidhuber, LSTM (1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)
