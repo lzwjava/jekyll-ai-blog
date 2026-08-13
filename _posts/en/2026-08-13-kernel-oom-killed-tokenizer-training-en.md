@@ -37,6 +37,7 @@ python3.12 -m scripts.train_tokenizer \
 ```
 
 If you must train on the full 11.4 GB, options:
+
 - **Shard it** — train on a handful of `.jsonl` shards (the script already accepts a directory of shards) rather than one giant file.
 - **Raise `--min-frequency`** (e.g. `--min-frequency 5`) to shrink the merge table.
 - **Lower `--vocab-size`** — memory scales with merge candidates.

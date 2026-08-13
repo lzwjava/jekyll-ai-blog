@@ -16,7 +16,7 @@ Process killed, machine recovered (51GB available again). Here's the full pictur
 **The machine didn't crash from a bug — it ran out of RAM and froze.** The journal shows the sequence:
 
 | Time | Event |
-|---|---|
+| --- | --- |
 | ~18:58 | `mixed_sample_2gb.txt` (2 GB) created; you launched `train_tokenizer.py` on it (`tok_train_sample.log` created 19:00) |
 | 19:01:28 | `systemd-journald[747]: Under memory pressure, flushing caches` ← RAM exhausted |
 | 19:02:17 | **Last log of the boot — no clean shutdown.** System hung/froze |

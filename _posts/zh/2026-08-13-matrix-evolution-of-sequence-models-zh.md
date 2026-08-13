@@ -343,6 +343,7 @@ GPT-2 → GPT-3 很大程度上是一个规模化的故事：
 
 \[
 \text{性能} \approx f(\text{参数},\text{数据},\text{计算})
+
 ```
 
 这自然引向了巨大的 Transformer 模型。

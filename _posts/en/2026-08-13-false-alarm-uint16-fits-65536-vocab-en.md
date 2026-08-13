@@ -12,9 +12,11 @@ type: note
 That warning is a **false alarm — it's stale and doesn't match reality**. Here's the full story:
 
 ## What the warning *claims*
+
 It says your model has >65535 tokens, so `prepare.py` would have to use `uint32`, making the `.bin` files twice as big (4 bytes/token instead of 2).
 
 ## Why it's actually wrong
+
 `vocab_size = 65536` means token **ids run from 0 to 65535** — the highest id is exactly `65535`. And `numpy.uint16`'s max value is exactly `65535`. So everything fits comfortably in `uint16`.
 
 `prepare.py` (the file that actually writes the `.bin`s) knows this — look at its logic:
@@ -27,6 +29,7 @@ dtype = np.uint16 if vocab_size <= 65536 else np.uint32
 ```
 
 So with your `--vocab-size 65536`:
+
 - `prepare.py` **will use `uint16`** (compact, 2 bytes/token)
 - your `train.bin` stays small
 - **no uint32, no larger files**

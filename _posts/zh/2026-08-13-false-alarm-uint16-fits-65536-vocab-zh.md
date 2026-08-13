@@ -12,9 +12,11 @@ type: note
 该警告是**虚惊一场——它已经过时，与实际不符**。以下是完整说明：
 
 ## 警告的*声称内容*
+
 它指出你的模型拥有超过 65535 个 token，因此 `prepare.py` 必须使用 `uint32`，导致 `.bin` 文件体积翻倍（每个 token 占 4 字节而非 2 字节）。
 
 ## 实际为何错误
+
 `vocab_size = 65536` 意味着 token **id 从 0 到 65535**——最大 id 恰好是 `65535`。而 `numpy.uint16` 的最大值正好是 `65535`。因此所有内容都能完美适配 `uint16`。
 
 `prepare.py`（实际写入 `.bin` 文件的脚本）清楚这一点——查看其逻辑：
@@ -27,6 +29,7 @@ dtype = np.uint16 if vocab_size <= 65536 else np.uint32
 ```
 
 因此，使用 `--vocab-size 65536` 时：
+
 - `prepare.py` **将使用 `uint16`**（紧凑，每个 token 占 2 字节）
 - 你的 `train.bin` 保持较小体积
 - **不会使用 uint32，文件也不会变大**
