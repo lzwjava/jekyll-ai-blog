@@ -42,5 +42,6 @@ output(t) = ability × interest × effort(t) × compounding_factor^t
 Average people have a good ability term and a mediocre effort/compounding term. Great performers accept a merely-decent ability term and maximize the exponent.
 
 **References:**
+
 - [How to Do Great Work — Paul Graham, essay breakdown](https://www.danielscrivner.com/168/)
 - [How to Do Great Work — highlights](https://world.hey.com/davidsenra/paul-graham-how-to-do-great-work-8ecaf0c1)

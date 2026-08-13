@@ -42,5 +42,6 @@ output(t) = ability × interest × effort(t) × compounding_factor^t
 平庸的人有一个不错的能力项，但努力/复利项平庸。卓越的人接受仅仅合格的能力项，并最大化指数项。
 
 **参考文献：**
+
 - [如何做好工作 — Paul Graham，文章解析](https://www.danielscrivner.com/168/)
 - [如何做好工作 — 亮点](https://world.hey.com/davidsenra/paul-graham-how-to-do-great-work-8ecaf0c1)
