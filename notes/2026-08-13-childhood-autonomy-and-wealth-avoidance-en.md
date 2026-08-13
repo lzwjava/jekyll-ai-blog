@@ -203,7 +203,7 @@ money → meaning
 
 ---
 
-## 4. A more accurate version would be:
+## 4. A more accurate version would be
 
 Not:
 

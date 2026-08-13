@@ -347,7 +347,7 @@ This is very useful for engineering.
 
 But it creates a recurring failure mode:
 
-### You may sometimes accept an elegant compression too early.
+### You may sometimes accept an elegant compression too early
 
 The next level for you isn't necessarily “learn more.”
 
