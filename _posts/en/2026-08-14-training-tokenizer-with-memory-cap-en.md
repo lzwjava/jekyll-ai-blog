@@ -22,6 +22,7 @@ python3 scripts/train_tokenizer.py \
 ```
 
 **Notes:**
+
 - `--max-bytes 200000000` = 200 MB sampling cap → peak RSS ~9 GB, safe. This is what I just validated successfully.
 - `--out-prefix tok_mixed` writes `tok_mixed/vocab.json` + `tok_mixed/merges.txt`. Use a different prefix (e.g. `tok_sample`) if you don't want to overwrite the existing `tok_mixed/`.
 - If you want a smaller/faster test, lower it (e.g. `--max-bytes 50000000` for 50 MB).

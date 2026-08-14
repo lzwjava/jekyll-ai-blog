@@ -25,13 +25,13 @@ type: note
 
 入境处会审视以下方面：
 
-*   商业计划
-*   投资金额
-*   引入的技术/技能
-*   预计/实际营业额
-*   在香港创造的就业机会
-*   财务状况
-*   业务可行性
+* 商业计划
+* 投资金额
+* 引入的技术/技能
+* 预计/实际营业额
+* 在香港创造的就业机会
+* 财务状况
+* 业务可行性
 
 获得香港某些政府计划支持的初创企业可获优先考虑。（[香港人才服务办公室][2]）
 
@@ -82,12 +82,12 @@ ASMTP 申请
 
 与普通工作签证不同，你**在申请前无需获得香港的职位录用**。综合计分制会考虑以下因素：
 
-*   年龄
-*   学历
-*   语言能力
-*   工作经验
-*   年收入
-*   企业所有权
+* 年龄
+* 学历
+* 语言能力
+* 工作经验
+* 年收入
+* 企业所有权
 
 获批后，你可以创办/加入企业或从事合适的受雇工作。（[香港人才服务办公室][4]）
 
@@ -111,13 +111,13 @@ ASMTP 申请
 
 我对香港途径的看法是这样的：
 
-| 途径                | 核心想法                        |  对创始人友好？ |
+| 途径 | 核心想法 | 对创始人友好？ |
 | -------------------- | -------------------------------- | --------------: |
-| **GEP 企业家签证**   | 建立/运营你的香港业务            |              ⭐⭐⭐⭐⭐ |
-| **QMAS**             | 以高价值个人身份获得资格         |               ⭐⭐⭐⭐ |
-| **TTPS A类**         | 年收入 ≥ 港币250万元             | ⭐⭐⭐⭐⭐（如符合资格） |
-| **ASMTP**            | 香港公司雇用你                   |                ⭐⭐⭐ |
-| 普通受雇             | 加入另一家香港公司               |                 ⭐⭐ |
+| **GEP 企业家签证** | 建立/运营你的香港业务 | ⭐⭐⭐⭐⭐ |
+| **QMAS** | 以高价值个人身份获得资格 | ⭐⭐⭐⭐ |
+| **TTPS A类** | 年收入 ≥ 港币250万元 | ⭐⭐⭐⭐⭐（如符合资格） |
+| **ASMTP** | 香港公司雇用你 | ⭐⭐⭐ |
+| 普通受雇 | 加入另一家香港公司 | ⭐⭐ |
 
 并且有一个重要区别：
 
@@ -129,10 +129,10 @@ ASMTP 申请
 
 参考资料：
 
-*   [香港入境事务处 — 人才/专业人士/企业家入境计划](https://www.immd.gov.hk/eng/useful_information/admission-schemes-talents-professionals-entrepreneurs.html?utm_source=chatgpt.com)
-*   [香港入境事务处 — GEP/ASMTP](https://www.immd.gov.hk/eng/services/visas/ASMTP.html?utm_source=chatgpt.com)
-*   [香港人才服务办公室 — 签证计划配对](https://www.hkengage.gov.hk/en/how-to-apply-for-a-visa/admission-scheme/?utm_source=chatgpt.com)
-*   [香港入境事务处 — 高端人才通行证计划](https://www.immd.gov.hk/eng/faq/TTPS.html?utm_source=chatgpt.com)
+* [香港入境事务处 — 人才/专业人士/企业家入境计划](https://www.immd.gov.hk/eng/useful_information/admission-schemes-talents-professionals-entrepreneurs.html?utm_source=chatgpt.com)
+* [香港入境事务处 — GEP/ASMTP](https://www.immd.gov.hk/eng/services/visas/ASMTP.html?utm_source=chatgpt.com)
+* [香港人才服务办公室 — 签证计划配对](https://www.hkengage.gov.hk/en/how-to-apply-for-a-visa/admission-scheme/?utm_source=chatgpt.com)
+* [香港入境事务处 — 高端人才通行证计划](https://www.immd.gov.hk/eng/faq/TTPS.html?utm_source=chatgpt.com)
 
 [1]: https://www.immd.gov.hk/eng/useful_information/admission-schemes-talents-professionals-entrepreneurs.html?utm_source=chatgpt.com "人才、专业人士及企业家入境计划简介 | 入境事务处"
 [2]: https://www.hkengage.gov.hk/zh-HK/how-to-apply-for-a-visa/talent-admission-s/?utm_source=chatgpt.com "签证资讯 | 工作签证 | 人才招聘 | HKTE"

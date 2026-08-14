@@ -22,6 +22,7 @@ python3 scripts/train_tokenizer.py \
 ```
 
 **注意事项：**
+
 - `--max-bytes 200000000` = 200 MB采样上限 → 峰值内存约9 GB，安全运行。这是我刚刚验证成功的结果。
 - `--out-prefix tok_mixed` 会生成 `tok_mixed/vocab.json` 和 `tok_mixed/merges.txt`。若不想覆盖已有的 `tok_mixed/` 目录，请使用其他前缀（例如 `tok_sample`）。
 - 如需进行更小/更快的测试，可降低该值（例如 `--max-bytes 50000000` 对应50 MB）。

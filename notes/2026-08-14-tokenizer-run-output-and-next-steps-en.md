@@ -26,6 +26,7 @@ saved tokenizer -> tok_mixed/
 ```
 
 What each stage means:
+
 - **Pre-processing sequences** — scanning the 200 MB stream, splitting into words.
 - **Tokenize words** (3,192,137) — that's the count of **unique words** the trainer saw (each becomes a starting symbol). Huge because Chinese has no spaces, so many distinct character-sequences.
 - **Count pairs** — counting which adjacent byte-pairs occur most often (drives which merges win).
@@ -39,25 +40,31 @@ The total wall time was ~58 s and peak RAM ~9 GB — safe. The earlier freeze is
 You're now at step 3 of the README's "Real usage" flow. The remaining steps are:
 
 **Step 4 — Measure the real token ratio** (sanity-check language balance):
+
 ```bash
 python3.12 -m scripts.measure_token_ratio \
   --input mixed_sample_2gb.txt --out ratios.json --tok-prefix tok_mixed
 ```
+
 Checks whether the EN/ZH *token* split matches what you want (doc-count ≠ token-count). If `zh_token_frac` is off, re-run `mix_bilingual.py` with a nudged `--zh-frac`.
 
 **Step 5 — Tokenize → binary train/val** (`prepare.py`):
+
 ```bash
 python3.12 -m scripts.prepare \
   --input mixed_sample_2gb.txt --tok-prefix tok_mixed --out-dir data --val-frac 0.1
 ```
+
 This writes `data/train.bin` + `data/val.bin` (uint16 ids) that nanoGPT/nanochat consume.
 
 ⚠️ **Heads-up — `prepare.py` has the same memory trap we just fixed.** Look at its core:
+
 ```python
 with open(a.input, "r", encoding="utf-8") as f:
     text = f.read()                      # ← loads the WHOLE file into RAM
 ids = tok.encode(text).ids               # ← + another full copy of token ids
 ```
+
 For the 2 GB sample that's ~2 GB text + ~2–4 GB of ids ≈ 6–8 GB → **ok on your 62 GB**. But if you ever point it at the full 11.5 GB `mixed.txt`, it'll need ~20–30 GB+ and could OOM again.
 
 Want me to also patch `prepare.py` to **stream in chunks** (encode line-by-line / fixed blocks and append to the `.bin` files) so it's safe on any size corpus — same treatment as the tokenizer? That would make the whole pipeline safe for the full 11 GB `mixed.txt`.
