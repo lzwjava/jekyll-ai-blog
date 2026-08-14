@@ -22,5 +22,6 @@ Seligman 的原始实验设计：接受无法逃避的电击的狗，后来即�
 如果你是在工作/创业者情境中思考这个问题，相关的框架是：它与现实评估的区别在于*过度泛化*——将一个无法控制的领域视为所有努力在任何地方都徒劳的证据。
 
 参考文献：
+
 - [Learned helplessness - Wikipedia](https://en.wikipedia.org/wiki/Learned_helplessness)
 - [Seligman, M. (1972). Learned Helplessness. Annual Review of Medicine](https://pubmed.ncbi.nlm.nih.gov/4581888/)

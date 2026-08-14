@@ -16,6 +16,7 @@ Answer:
 The brain itself has zero nociceptors — no pain receptors in the tissue itself. Neurosurgeons operate on awake patients without anesthetizing the brain surface. So "brain hurts" is never literal tissue pain. Two real mechanisms are going on:
 
 **1. Referred physical pain (the actual headache)**
+
 - Tension-type headache: sustained contraction of scalp/neck/jaw muscles from screen focus + bad posture + clenching during frustration
 - Eye strain (ciliary muscle fatigue from screen focus, reduced blink rate → dry eyes → trigeminal nerve irritation)
 - Vasodilation from caffeine crash, dehydration, or low blood glucose (prefrontal cortex burns glucose fast under sustained effortful task-switching/debugging)
@@ -29,6 +30,7 @@ So when you're 3 hours into a segfault you can't reproduce, the same circuit lig
 Motivation and effort-based decision-making are specifically linked to the dorsomedial prefrontal cortex/dACC, which plays a pivotal role in driving mental and physical effort — and this circuit runs on real metabolic budget (glucose/ATP), not infinite compute. That's why deep debugging sessions feel like they drain a tank that needs refilling, unlike routine CRUD work.
 
 **Practical fixes (not "take a break" fluff):**
+
 - Pomodoro-style forced context switches (25-50min) — dACC effort-aversion resets faster than you think
 - Hydrate + protein/fat snack, not sugar spikes — avoid glucose crash mid-debug
 - 20-20-20 rule for eye strain (every 20min, look 20ft away for 20sec)
@@ -38,6 +40,7 @@ Motivation and effort-based decision-making are specifically linked to the dorso
 This is a sensitive-adjacent topic (pain, chronic symptoms) — if this is happening often or getting worse rather than resolving with rest, worth flagging to a doctor rather than just optimizing around it.
 
 References:
+
 - [What Does the Anterior Cingulate Cortex Do? - ScienceInsights](https://scienceinsights.org/what-does-the-anterior-cingulate-cortex-do/)
 - [Neurometabolic predictors of mental effort in the frontal cortex - bioRxiv/PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12479776/)
 - [Emotional and Physical Pain Activate Similar Brain Regions - Psychology Today](https://www.psychologytoday.com/us/blog/body-sense/201204/emotional-and-physical-pain-activate-similar-brain-regions)

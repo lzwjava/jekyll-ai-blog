@@ -22,5 +22,6 @@ In humans it shows up as: giving up early after repeated failure, attributing ba
 Relevant framing if you're thinking about it in a work/founder context: it's distinguished from realistic assessment by the *overgeneralization* — treating one uncontrollable domain as evidence that all effort is futile everywhere.
 
 References:
+
 - [Learned helplessness - Wikipedia](https://en.wikipedia.org/wiki/Learned_helplessness)
 - [Seligman, M. (1972). Learned Helplessness. Annual Review of Medicine](https://pubmed.ncbi.nlm.nih.gov/4581888/)
