@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Jacob Steinhardt at UC Berkeley
 
-### Answer:
+### Answer
 
 ![Image](https://images.openai.com/static-rsc-4/DW20xZas1fXU_6qkC6l8TV7hoBy6NZC8YNt-7TYE4a8-GecojD8BaXhZs5oxK-jgfb_oaT7G2JfwnBj1rGCX2hrO8NyNLjETpqMqIY8q_c-4ln1JPR3L5T9_goG8GFwHlyyJALWH8VXWawliY-MmTplKHI6Jefp5-iegcw8UZ73uNZNTrUjFnELc5E9Ra5tI?purpose=fullsize)
 
@@ -32,7 +32,7 @@ A useful way to understand his career is:
 * Joined **UC Berkeley Statistics in 2019**
 * Also affiliated with **EECS, BAIR, and CLIMB**. ([Simons Institute][2])
 
-He also spent time at **OpenAI** and the **Open Philanthropy Project** before/around the beginning of his Berkeley career. 
+He also spent time at **OpenAI** and the **Open Philanthropy Project** before/around the beginning of his Berkeley career.
 
 ### His research evolution is particularly interesting
 
@@ -287,7 +287,7 @@ In roughly this order:
 
 [Jacob Steinhardt's Berkeley page](https://jsteinhardt.stat.berkeley.edu/?utm_source=chatgpt.com)
 
-### References:
+### References
 
 * [UC Berkeley Statistics — Jacob Steinhardt](https://statistics.berkeley.edu/people/jacob-steinhardt?utm_source=chatgpt.com)
 * [Jacob Steinhardt — Publications](https://jsteinhardt.stat.berkeley.edu/publications/?utm_source=chatgpt.com)

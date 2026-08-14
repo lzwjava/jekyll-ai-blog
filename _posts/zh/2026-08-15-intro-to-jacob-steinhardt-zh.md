@@ -11,7 +11,7 @@ type: note
 
 ## 问题：介绍加州大学伯克利分校的 Jacob Steinhardt
 
-### 回答：
+### 回答
 
 ![Image](https://images.openai.com/static-rsc-4/DW20xZas1fXU_6qkC6l8TV7hoBy6NZC8YNt-7TYE4a8-GecojD8BaXhZs5oxK-jgfb_oaT7G2JfwnBj1rGCX2hrO8NyNLjETpqMqIY8q_c-4ln1JPR3L5T9_goG8GFwHlyyJALWH8VXWawliY-MmTplKHI6Jefp5-iegcw8UZ73uNZNTrUjFnELc5E9Ra5tI?purpose=fullsize)
 
@@ -287,7 +287,7 @@ Layer 3 — mechanistic interpretability
 
 [Jacob Steinhardt 的伯克利主页](https://jsteinhardt.stat.berkeley.edu/?utm_source=chatgpt.com)
 
-### 参考资料：
+### 参考资料
 
 * [UC Berkeley Statistics — Jacob Steinhardt](https://statistics.berkeley.edu/people/jacob-steinhardt?utm_source=chatgpt.com)
 * [Jacob Steinhardt — Publications](https://jsteinhardt.stat.berkeley.edu/publications/?utm_source=chatgpt.com)

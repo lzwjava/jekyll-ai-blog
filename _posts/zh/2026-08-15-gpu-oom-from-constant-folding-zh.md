@@ -53,9 +53,11 @@ if isinstance(node.target, torch._ops.OpOverload) and (
 ## 修复方法
 
 - **针对性：** 禁用该 pass——它仅仅是一个优化：
+
   ```python
   torch._inductor.config.joint_graph_constant_folding = False
   ```
+
   正确性不受影响；你失去了统一常量折叠和 `+0`/`*1` 无操作消除。
 - **真正的修复：** 你的 GPU 没有余量。减小批量大小/序列长度或使用梯度检查点——编译时的峰值会持续导致失败。
 - `PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True` 有助于解决碎片化问题，但当内存真正耗尽时无效。

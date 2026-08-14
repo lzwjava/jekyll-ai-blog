@@ -53,9 +53,11 @@ No faketensor, no CPU offload, no OOM `try/except` around this call — it only 
 ## Fixes
 
 - **Targeted:** disable the pass — it's only an optimization:
+
   ```python
   torch._inductor.config.joint_graph_constant_folding = False
   ```
+
   Correctness is unaffected; you lose uniform-constant folding and the `+0`/`*1` no-op removal.
 - **Real fix:** your GPU has *zero* headroom. Reduce batch size / sequence length or use gradient checkpointing — the compile-time spike will keep failing otherwise.
 - `PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True` helps with fragmentation but not when memory is genuinely exhausted.
