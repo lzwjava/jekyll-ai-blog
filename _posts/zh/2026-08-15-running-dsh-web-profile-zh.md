@@ -28,11 +28,14 @@ npx @deepseek-ai/dsh web --help             # web 应用自身的标志
 ```
 
 注意：
+
 - 如果提示令你烦恼，可以一次性安装并完全跳过 npx：
+
   ```sh
   npm install -g @deepseek-ai/dsh
   dsh web
   ```
+
 - 该代理由真实的 DeepSeek API 调用支持，因此请先导出 `DEEPSEEK_API_KEY`（或将其放入 `.env` 文件中），否则 web 界面将无法回答任何问题。
 - 如果不使用 `--port`，则会在配置文件的已组合主机/端口上提供服务（可通过配置文件补丁进行设置；服务器启动时会打印其监听地址）。
 

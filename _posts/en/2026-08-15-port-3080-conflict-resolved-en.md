@@ -16,6 +16,7 @@ Done. ✅
 **Fix applied:** `docker stop LibreChat` — port 3080 is now free.
 
 **Notes:**
+
 - To bring LibreChat back: `docker start LibreChat`
 - If you want both running simultaneously, change LibreChat's port mapping in its docker-compose (e.g., `3081:3080`) and re-create the container: `docker compose up -d`
 - The `CLOSE_WAIT` entries from Chrome earlier were just stale connections to the old listener and are harmless.

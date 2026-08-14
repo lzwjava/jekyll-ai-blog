@@ -14,6 +14,7 @@ type: note
 回答：2025 年 1 月中下旬，由 R1 触发。
 
 时间线：
+
 - **2024 年 12 月** — V3 低调发布（671B MoE，约 37B active）。极客们注意到了 560 万美元训练成本的声明，但尚未引起主流关注。
 - **2025 年 1 月 10 日** — DeepSeek 发布了基于 R1 模型的 chatbot app，支持 iOS 和 Android。
 - **2025 年 1 月 20 日** — DeepSeek-R1 正式发布——671B open-weight reasoning 模型，附带 technical paper，在多个 benchmarks 上以远低于 API 的价格匹配 OpenAI o1。
@@ -26,6 +27,7 @@ type: note
 如果你想要的是机制层面的解释（MLA、MoE routing、用于 R1 的 RL post-training 的 GRPO），而不是新闻时间线，请说明——那是另一个答案。
 
 参考文献：
+
 - [DeepSeek (chatbot) — Wikipedia](https://en.wikipedia.org/wiki/DeepSeek_(chatbot))
 - [DeepSeek | Britannica Money](https://www.britannica.com/money/DeepSeek)
 - [DeepSeek History: From Hedge Fund to V4](https://deepseekai.guide/guides/deepseek-history/)

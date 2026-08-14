@@ -28,11 +28,14 @@ npx @deepseek-ai/dsh web --help             # the web app's own flags
 ```
 
 Notes:
+
 - If the prompt annoys you, install once and skip npx entirely:
+
   ```sh
   npm install -g @deepseek-ai/dsh
   dsh web
   ```
+
 - The agent is backed by real DeepSeek API calls, so export `DEEPSEEK_API_KEY` first (or put it in a `.env`), or the web UI won't be able to answer anything.
 - Without `--port`, it serves on the profile's composed host/port (configurable via a profile patch; the server prints where it's listening when it starts).
 

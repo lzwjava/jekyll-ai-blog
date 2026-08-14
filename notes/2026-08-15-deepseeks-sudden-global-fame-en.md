@@ -14,6 +14,7 @@ Question: When did DeepSeek become globally famous?
 Answer: Mid-to-late January 2025, triggered by R1.
 
 Timeline:
+
 - **Dec 2024** — V3 released quietly (671B MoE, ~37B active). Nerds noticed the $5.6M training cost claim, but no mainstream buzz yet.
 - **Jan 10, 2025** — DeepSeek released the chatbot app, based on the R1 model, for iOS and Android.
 - **Jan 20, 2025** — DeepSeek-R1 itself dropped — 671B open-weight reasoning model with a technical paper, matching OpenAI o1 on several benchmarks at a fraction of the API price.
@@ -26,6 +27,7 @@ The narrative that actually drove the panic wasn't the model quality — it was 
 If you want the mechanistic story (MLA, MoE routing, GRPO for R1's RL post-training) rather than the news timeline, say so — that's a different answer.
 
 References:
+
 - [DeepSeek (chatbot) — Wikipedia](https://en.wikipedia.org/wiki/DeepSeek_(chatbot))
 - [DeepSeek | Britannica Money](https://www.britannica.com/money/DeepSeek)
 - [DeepSeek History: From Hedge Fund to V4](https://deepseekai.guide/guides/deepseek-history/)

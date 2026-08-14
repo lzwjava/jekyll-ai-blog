@@ -16,6 +16,7 @@ type: note
 **已应用的修复：** `docker stop LibreChat` — 端口 3080 现已释放。
 
 **备注：**
+
 - 要恢复 LibreChat：`docker start LibreChat`
 - 如果你想同时运行两者，请修改 LibreChat 在 docker-compose 中的端口映射（例如 `3081:3080`）并重新创建容器：`docker compose up -d`
 - 之前来自 Chrome 的 `CLOSE_WAIT` 条目只是与旧监听器的过时连接，没有危害。

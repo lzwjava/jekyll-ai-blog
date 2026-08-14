@@ -12,6 +12,7 @@ type: note
 Real training config written: **`/mnt/data/nanoGPT/config/train_bilingual.py`**
 
 Key numbers:
+
 - **Corpus**: 434M train tokens, 22.9M val tokens, vocab=65536
 - **Model**: L18/H16/C896 → ~232M params (same body as your gpt2-200m run; the 65k embedding adds ~13M vs GPT-2's 50k)
 - **Throughput**: 4 × 1024 × 128 = 524,288 tokens/step → ~828 steps/epoch
@@ -33,5 +34,6 @@ python3.12 train.py config/train_bilingual.py --init_from=resume
 ```
 
 Caveats:
+
 - Only ~434M train tokens is data-limited for a 232M model (Chinchilla wants ~4.6B). Loss will plateau and val loss will likely start rising after a few epochs — `eval_interval=250` + `always_save_checkpoint=True` means the best-val checkpoint is kept (it only overwrites `ckpt.pt` when val loss improves), so you can stop early when val loss bottoms out.
 - If you want more data, scale up by re-mixing from your full `fineweb_edu_shard.jsonl` (3.5 GB) + `fineweb2_cmn_shard.jsonl` (8 GB) sources instead of the 2 GB sample — the prep pipeline is streaming and handles it fine.

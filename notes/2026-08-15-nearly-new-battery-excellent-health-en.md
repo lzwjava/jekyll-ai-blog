@@ -12,7 +12,7 @@ type: note
 Here's the battery health summary for this laptop:
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | **Manufacturer** | DSY |
 | **Model** | bq20z451 |
 | **Technology** | Li-ion |
