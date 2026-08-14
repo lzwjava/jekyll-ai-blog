@@ -12,6 +12,7 @@ type: note
 Installed. The `done-sound` extension is now in place at `~/.pi/agent/extensions/done-sound.ts` (live config), alongside the existing `note` extension.
 
 Notes on this extension's behavior on macOS:
+
 - It plays a sound when the agent truly settles (`agent_settled` event), after queued follow-ups are drained.
 - Defaults to Linux sound paths and Linux audio players. On your Mac you'll likely want to override with:
   - `PI_DONE_SOUND_FILE` (e.g. `/System/Library/Sounds/Glass.aiff`)

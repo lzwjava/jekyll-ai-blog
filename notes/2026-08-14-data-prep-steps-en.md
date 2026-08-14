@@ -41,6 +41,7 @@ python3.12 -m scripts.prepare \
 ```
 
 Notes:
+
 - `prepare.py` loads the **whole file + token ids into RAM**. With 62 GB RAM the 2 GB sample (and even the 11 GB `mixed.txt`) is fine; just don't point it at something larger than memory.
 - vocab is exactly 65536 → `prepare.py` uses **uint16** (its check is `vocab_size <= 65536`). So `.bin` ≈ 2 bytes/token. Ignore the trainer's slightly conservative warning.
 - I used `--val-frac 0.05` so you don't waste 10% of a modest corpus on validation. Tune to taste.
