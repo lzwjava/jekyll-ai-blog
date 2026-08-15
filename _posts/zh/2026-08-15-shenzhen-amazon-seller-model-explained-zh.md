@@ -35,6 +35,7 @@ type: note
 **使用香港公司注册亚马逊卖家中心账户**
 
 公司成立后，亚马逊卖家中心注册需要：
+
 - **商业登记证（BRC）**和**公司注册证书（CI）**——均需显示当前有效性，以验证公司处于活跃注册状态。
 - **账户主要/法定代表的政府签发含照片身份证件。**
 - **与公司名称匹配的银行对账单或信用卡账单**——近期公司名下的银行或信用卡对账单，以显示业务名称与账户细节的一致性，另通常需提供公司名下的公用事业账单作为地址验证。
@@ -48,6 +49,7 @@ type: note
 如果您是美国公民（或公司有10%以上美国所有权），此路径不可用——亚马逊要求准确申报非美国所有权，若公司被发现10%及以上为美国所有，亚马逊将要求您重新以美国账户身份注册。
 
 参考资料：
+
 - [香港公司注册：亚马逊FBA卖家指南（2026版）](https://globalrcom.hk/blog/hong-kong-company-amazon-fba-seller/)
 - [如何在2026年从香港在亚马逊上销售：设置、商品上架、物流和收款 — Airwallex](https://www.airwallex.com/en-hk/blog/sell-on-amazon-from-hong-kong)
 - [如何从香港销售到亚马逊美国站 — Airwallex HK](https://www.airwallex.com/hk/blog/how-to-sell-on-amazon-us-from-hong-kong)

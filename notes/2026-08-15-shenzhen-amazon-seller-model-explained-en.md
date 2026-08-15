@@ -35,6 +35,7 @@ Many Shenzhen-based sellers don't register their Amazon account under their main
 **Registering the Amazon Seller Central account with the HK company**
 
 Once the company exists, the Amazon Seller Central signup needs:
+
 - **Business Registration Certificate (BRC)** and **Certificate of Incorporation (CI)** — both showing current validity, to verify the company is actively registered.
 - **Government-issued photo ID** of the account's primary/legal representative.
 - **A bank or credit card statement matching the company name** — a recent bank or credit card statement in the company's name, to show consistency between the business name and account details, plus often a utility bill in the company's name as address verification.
@@ -48,6 +49,7 @@ One nuance worth flagging: some Shenzhen operators register the HK company with 
 If you're a US citizen (or a company 10%+ US-owned), this route isn't available — Amazon requires that non-US ownership be accurately declared, and if the company turns out to be 10% or more US-owned, Amazon will require you to restart registration as a US-based account instead.
 
 References:
+
 - [Hong Kong Company Setup for Amazon FBA Sellers (2026 Guide)](https://globalrcom.hk/blog/hong-kong-company-amazon-fba-seller/)
 - [How to sell on Amazon from Hong Kong in 2026: Setup, listings, shipping, and payouts — Airwallex](https://www.airwallex.com/en-hk/blog/sell-on-amazon-from-hong-kong)
 - [How to Sell on Amazon US from Hong Kong — Airwallex HK](https://www.airwallex.com/hk/blog/how-to-sell-on-amazon-us-from-hong-kong)

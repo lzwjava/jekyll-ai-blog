@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to AirLLM
 
-## Answer:
+## Answer
 
 AirLLM is an open-source project that allows running **very large language models (LLMs) on limited GPU memory** by using a technique called **layer-wise offloading**.
 
@@ -386,7 +386,7 @@ But speed will likely be poor.
 
 Better options today:
 
-### For local experiments:
+### For local experiments
 
 ```
 Qwen3-30B-A3B

@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to Charlie Munger's “How to Guarantee a Life of Misery” speech and its deeper meaning
 
-## Answer:
+## Answer
 
 This is one of Charlie Munger's most famous speeches, delivered in 1986 at Harvard-Westlake School graduation. The title is intentionally ironic:
 

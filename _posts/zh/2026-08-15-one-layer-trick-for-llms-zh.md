@@ -22,6 +22,7 @@ type: note
 **2. 在 `meta` 设备上实例化模型** —— `init_empty_weights()` 构建完整的 transformers 模型，包含所有参数 *形状*，但不占用内存。模型在“代码层面”是完整的（拥有所有注意力/旋转位置编码/生成逻辑），只是没有权重。
 
 **3. 使用 forward hooks 流式加载权重**：
+
 - 每个大模块（embedding → 每个 decoder layer → final norm → lm_head）都挂上 pre-hook 和 post-hook。
 - **Pre-hook**：在模块运行前，将该层的分片从磁盘加载到 GPU。
 - **Post-hook**：一旦该层完成，立即把权重移回 `meta` 并调用 `clean_memory()`。

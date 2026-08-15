@@ -22,6 +22,7 @@ The mechanism has four pieces:
 **2. Instantiate the model on the `meta` device** — `init_empty_weights()` builds the full transformers model with all parameter *shapes* but zero memory. The model is real "code-wise" (owns all attention/rotary/generation logic), just weight-less.
 
 **3. Stream weights with forward hooks**:
+
 - Every big module (embedding → each decoder layer → final norm → lm_head) gets a pre-hook and post-hook.
 - **Pre-hook**: load that layer's shard from disk → GPU, right before it runs.
 - **Post-hook**: move its weights back to `meta` and call `clean_memory()` as soon as it's done.

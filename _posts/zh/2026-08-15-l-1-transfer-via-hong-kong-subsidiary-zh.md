@@ -15,10 +15,10 @@ type: note
 
 对你的情况而言，L-1 很有趣，因为你不仅仅是一名求职者。你已经拥有：
 
-*   软件工程经验
-*   AI 咨询/商业方向
-*   公司创办经验
-*   国际客户潜力
+* 软件工程经验
+* AI 咨询/商业方向
+* 公司创办经验
+* 国际客户潜力
 
 L-1 基本上是一种 **“将你从你的外国公司调动到你的美国公司”** 的签证。
 
@@ -87,13 +87,13 @@ AI 代理开发
 
 你运营公司 12 个月以上：
 
-*   合同
-*   发票
-*   客户
-*   银行账户
-*   会计记录
-*   员工/承包商
-*   GitHub/开源活动
+* 合同
+* 发票
+* 客户
+* 银行账户
+* 会计记录
+* 员工/承包商
+* GitHub/开源活动
 
 重要的是证明这是一家真实运营的公司，而不仅仅是空壳。
 
@@ -122,10 +122,10 @@ LZW AI Inc 美国
 
 美国公司可以：
 
-*   签署美国客户合同
-*   雇佣美国员工
-*   销售 AI 服务
-*   开发产品
+* 签署美国客户合同
+* 雇佣美国员工
+* 销售 AI 服务
+* 开发产品
 
 ---
 
@@ -178,11 +178,11 @@ AI 产品负责人
 
 证据：
 
-*   你拥有公司
-*   你做决策
-*   你管理人员
-*   你控制预算
-*   你在美国建立业务
+* 你拥有公司
+* 你做决策
+* 你管理人员
+* 你控制预算
+* 你在美国建立业务
 
 最长停留时间可达 7 年。([LegalClarity][2])
 
@@ -203,10 +203,10 @@ LLM 训练专家
 
 证据：
 
-*   内部 AI 平台
-*   专有代码
-*   模型
-*   使用你技术的客户
+* 内部 AI 平台
+* 专有代码
+* 模型
+* 使用你技术的客户
 
 最长停留时间通常比 L-1A 短（通常可达 5 年）。([LegalClarity][2])
 
@@ -275,9 +275,9 @@ USCIS 在满足要求的情况下，允许 L-1 受益人前来设立新的美国
 
 构建：
 
-*   AI 咨询收入
-*   美国客户
-*   开源声誉
+* AI 咨询收入
+* 美国客户
+* 开源声誉
 
 ---
 
@@ -431,9 +431,9 @@ EB-2 NIW / O-1A 声誉建设
 
 参考文献：
 
-*   美国国务院外交事务手册 — L 签证要求 ([Family Assistance Management][1])
-*   USCIS L-1 证据要求指南 ([USCIS][3])
-*   L-1A/L-1B 概述与限制 ([LegalClarity][2])
+* 美国国务院外交事务手册 — L 签证要求 ([Family Assistance Management][1])
+* USCIS L-1 证据要求指南 ([USCIS][3])
+* L-1A/L-1B 概述与限制 ([LegalClarity][2])
 
 [1]: https://fam.state.gov/fam/09FAM/09FAM040212.html?utm_source=chatgpt.com "9 FAM 402.12 (U) INTRACOMPANY TRANSFEREES - L VISAS"
 [2]: https://legalclarity.org/intra-company-transfer-visa-l-1-requirements-and-rules/?utm_source=chatgpt.com "Intra-Company Transfer Visa: L-1 Requirements and Rules - LegalClarity"

@@ -9,11 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
 
 What US master's programs in AI / Machine Learning / Deep Learning / NLP / LLM are relatively easier to apply to?
 
-## Answer:
+## Answer
 
 Given your profile:
 
