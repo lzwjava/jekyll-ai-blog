@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to MiniMaxAI/MiniMax-H3
 
-## Answer:
+## Answer
 
 MiniMax's **MiniMax-H3** is a **large-scale omni-modal generative AI model** focused on **video generation**, combining **text, image, video, and audio understanding/generation** in one system. It is one of the newer Chinese frontier multimodal models competing with systems like OpenAI Sora, Google DeepMind Veo, and ByteDance/Kuaishou video models. ([MiniMax][1])
 

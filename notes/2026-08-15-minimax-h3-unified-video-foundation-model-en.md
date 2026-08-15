@@ -11,7 +11,7 @@ type: note
 
 ## Question: How good is MiniMax-H3?
 
-## Answer:
+## Answer
 
 Short version: **MiniMax-H3 is a very impressive step toward a "world simulator" style model, especially from China AI labs. It is not just a better video generator; the interesting part is the unified multimodal architecture.** ([MiniMax][1])
 

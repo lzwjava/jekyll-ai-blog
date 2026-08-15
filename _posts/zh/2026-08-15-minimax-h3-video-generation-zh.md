@@ -11,7 +11,7 @@ type: note
 
 ## 问题：MiniMaxAI/MiniMax-H3 介绍
 
-## 回答：
+## 回答
 
 MiniMax 的 **MiniMax-H3** 是一个专注于**视频生成**的**大规模全模态生成式 AI 模型**，它将**文本、图像、视频和音频的理解/生成**整合在同一系统中。这是中国前沿的多模态模型之一，与 OpenAI Sora、Google DeepMind Veo、字节跳动/快手视频模型等竞争。（[MiniMax][1]）
 
