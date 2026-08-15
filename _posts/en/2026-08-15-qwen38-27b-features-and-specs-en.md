@@ -9,11 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
 
 Intro to Qwen3.8-27B from Hugging Face.
 
-## Answer:
+## Answer
 
 Qwen Qwen3.8-27B is a new **27 billion parameter open-weight multimodal foundation model** from Alibaba's Qwen team. It is positioned as a high-performance "single-GPU practical" model: much smaller than 100B+ frontier models, but aiming to deliver strong reasoning, coding, agent, and vision abilities. ([Qwen][1])
 

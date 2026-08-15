@@ -283,7 +283,7 @@ That is a productive pattern.
 
 People may experience you as:
 
-### Positive:
+### Positive
 
 * passionate
 * knowledgeable
@@ -291,7 +291,7 @@ People may experience you as:
 * curious
 * generous with knowledge
 
-### Possible friction:
+### Possible friction
 
 * jumping quickly into deep topics
 * assuming others share your curiosity

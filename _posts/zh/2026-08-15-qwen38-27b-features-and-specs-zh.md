@@ -9,11 +9,11 @@ translated: true
 type: note
 ---
 
-## 问题：
+## 问题
 
 关于 Hugging Face 上 Qwen3.8-27B 的介绍。
 
-## 回答：
+## 回答
 
 Qwen Qwen3.8-27B 是阿里巴巴 Qwen 团队推出的一个全新的 **270 亿参数开放权重多模态基础模型**。它被定位为一款高性能的“单 GPU 实用型”模型：远小于 100B+ 的前沿模型，但旨在提供强大的 reasoning、coding、agent 和 vision 能力。([Qwen][1])
 
