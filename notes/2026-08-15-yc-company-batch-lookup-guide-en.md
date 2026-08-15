@@ -11,7 +11,7 @@ type: note
 
 ## Question: How to know a YC company, which batch it is from, and what companies are in each batch?
 
-## Answer:
+## Answer
 
 The easiest way is to use the **official YC company directory**:
 

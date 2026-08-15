@@ -11,7 +11,7 @@ type: note
 
 ## Question: intro to ComfyUI — how it started, how it grew
 
-## Answer:
+## Answer
 
 ![Image](https://images.openai.com/static-rsc-4/wvbULrX1mxPAhbmMD3g98WBNKaWxHcrgAEAeC8rtgPpukT8wPMEaVdEtzuxVBbc-54ita3_hoQYBVUvK3kCSqAk2rxNIC8zSh2OR5uGFDuYIA5ZY8cY4ic5pPXkEcbK3iT-T2Fvz_yTmFlccaG7S9OQFYNcpa-w10M4pP96nqZ71P0G1S123M1wKeO96cm5g?purpose=fullsize)
 
