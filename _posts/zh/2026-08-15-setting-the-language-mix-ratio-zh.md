@@ -42,7 +42,7 @@ python3.12 -m scripts.prepare --input mixed.txt --tok-prefix tok_mixed --out-dir
 `--zh-frac` 是一个**文档采样概率**，而不是 token 比例。中文文本每个文档切分出的 token 更少，因此 50/50 的文档划分大约是 47% 的中文 token。根据你仓库自己的测量结果（smoke mix）：`tokens_per_doc_en = 4245`，`tokens_per_doc_zh = 3919`（约为英文的 92%）。所以：
 
 | 想要的中文 token 比例 | 设置 --zh-frac ≈ |
-|---|---|
+| --- | --- |
 | 50%（平衡） | 0.51–0.52 |
 | 60% | 0.62 |
 | 71%（当前模型） | 0.73 |

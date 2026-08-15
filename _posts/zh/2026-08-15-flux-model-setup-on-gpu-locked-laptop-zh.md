@@ -14,11 +14,13 @@ type: note
 ## FLUX.1-schnell 在本笔记本电脑上的位置
 
 **1. 官方 HuggingFace 缓存**（完整 diffusers 格式，2.3 GB）：
+
 ```
 /home/lzw/.cache/huggingface/hub/models--black-forest-labs--FLUX.1-schnell
 ```
 
 **2. 你实际运行的工作配置**（stable-diffusion.cpp 配合量化 GGUF）：
+
 ```
 二进制文件：/mnt/data/zz/flux/sd_cpp/build/bin/sd-cli
 模型：/mnt/data/zz/flux/models/
@@ -59,6 +61,7 @@ GPU：已使用 8.7 GB VRAM，GPU 利用率 100%  →  仅剩约 1.7 GB 空闲
 `fluxreel img` 需要约 10 GB VRAM 预算（4 GB 模型 + 文本编码器），因此在该训练任务运行时会出现 OOM 或失败。
 
 **你的选项：**
+
 1. 等待 nanoGPT 训练完成（仅剩约 1.7 GB 空闲，不够用），或
 2. 停止训练任务后再运行 flux。
 

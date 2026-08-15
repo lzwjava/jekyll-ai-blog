@@ -42,7 +42,7 @@ python3.12 -m scripts.prepare --input mixed.txt --tok-prefix tok_mixed --out-dir
 `--zh-frac` is a **document sampling probability**, not a token ratio. Chinese text tokenizes into fewer tokens per doc, so a 50/50 doc split is ~47% zh tokens. From your repo's own measurements (smoke mix): `tokens_per_doc_en = 4245`, `tokens_per_doc_zh = 3919` (~92% of en). So:
 
 | Want zh token frac | Set --zh-frac ≈ |
-|---|---|
+| --- | --- |
 | 50% (balanced) | 0.51–0.52 |
 | 60% | 0.62 |
 | 71% (current model) | 0.73 |

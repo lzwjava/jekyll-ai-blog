@@ -14,11 +14,13 @@ Found everything. Here's the full picture:
 ## Where FLUX.1-schnell lives on this laptop
 
 **1. The official HuggingFace cache** (full diffusers format, 2.3 GB):
+
 ```
 /home/lzw/.cache/huggingface/hub/models--black-forest-labs--FLUX.1-schnell
 ```
 
 **2. The working setup you actually run** (stable-diffusion.cpp with quantized GGUF):
+
 ```
 Binary:  /mnt/data/zz/flux/sd_cpp/build/bin/sd-cli
 Models:  /mnt/data/zz/flux/models/
@@ -59,6 +61,7 @@ GPU: 8.7 GB VRAM used, GPU util 100%  →  only ~1.7 GB free
 `fluxreel img` needs ~10 GB VRAM budget (4 GB model + text encoders), so it will OOM or fail while that job runs.
 
 **Your options:**
+
 1. Wait for the nanoGPT training to finish (~1.7 GB free isn't enough), or
 2. Stop the training job and then run flux.
 
