@@ -11,7 +11,7 @@ type: note
 
 ## Question: What's USA EW3 migration program?
 
-## Answer:
+## Answer
 
 **EW3** is a U.S. employment-based immigration category under **EB-3 (Employment-Based Third Preference)**. It is also called:
 

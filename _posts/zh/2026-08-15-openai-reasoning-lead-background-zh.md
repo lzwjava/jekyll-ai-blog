@@ -14,6 +14,7 @@ type: note
 答案：OpenAI的研究科学家，目前领导一个推理模型团队（o1/o3/GPT-5系列），常被称为"Gb"。
 
 **时间线：**
+
 - 于马克斯·普朗克ETH学习系统中心（图宾根）获得博士学位，由Bernhard Schölkopf和Thomas Hofmann指导——2021年9月答辩。论文专注于因果性与深度学习（SCMs、不变风险最小化相关研究）。
 - 早期：在坦佩雷大学（芬兰）从事语音增强/CRNNs的硕士研究——他2016年的一篇论文获得了2023年IEEE信号处理学会最佳论文奖。
 - 博士前还曾在DeepMind和Google X工作。
@@ -27,6 +28,7 @@ type: note
 从其发展轨迹——因果性博士 → OpenAI的RL → 推理奖励建模——来看，如果您正在思考RLHF/RLVR奖励设计以用于自己的智能体训练工作（ww/iclaw/zz），他是一个很好的参考点，尤其是他使用的"环境+奖励建模"框架，与RL调优智能体CLI工具所需的方法高度契合。
 
 参考资料：
+
 - [Gb的个人网站——研究科学家时间线](https://sites.google.com/view/giambattista-parascandolo/home)
 - [LinkedIn——Giambattista Parascandolo，OpenAI](https://www.linkedin.com/in/giambattista-parascandolo-216787a4/)
 - [dblp论文列表](https://dblp.org/pid/179/2714.html)

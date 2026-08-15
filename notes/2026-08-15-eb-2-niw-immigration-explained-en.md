@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is the USA EB-2 NIW immigration program?
 
-## Answer:
+## Answer
 
 **EB-2 NIW (Employment-Based Second Preference — National Interest Waiver)** is a U.S. green card pathway for highly skilled people where you can **self-petition without a U.S. employer sponsor** if you can prove your work is in the **national interest of the United States**. ([USCIS][1])
 

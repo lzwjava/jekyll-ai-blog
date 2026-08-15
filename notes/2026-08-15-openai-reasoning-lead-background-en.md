@@ -14,6 +14,7 @@ Question: Who is Giambattista Parascandolo and what's his background?
 Answer: Research scientist at OpenAI, currently leading a team on reasoning models (o1/o3/GPT-5 lineage). Goes by "Gb."
 
 **Timeline:**
+
 - PhD at Max Planck ETH Center for Learning Systems (Tübingen), supervised by Bernhard Schölkopf and Thomas Hofmann — defended Sept 2021. Thesis focused on causality and deep learning (SCMs, invariant risk minimization-adjacent work).
 - Earlier: MSc work at Tampere University (Finland) on speech enhancement / CRNNs — a 2016 paper of his won the 2023 IEEE Signal Processing Society Best Paper Award.
 - Also spent time at DeepMind and Google X before the PhD.
@@ -27,6 +28,7 @@ Answer: Research scientist at OpenAI, currently leading a team on reasoning mode
 Given his trajectory — causality PhD → RL at OpenAI → reward modeling for reasoning — he's a good reference point if you're thinking about RLHF/RLVR reward design for your own agent training work (ww/iclaw/zz), particularly the "environments + reward modeling" framing he uses, which maps closely to what you'd need for RL-tuning agentic CLI tools.
 
 References:
+
 - [Gb's personal site — Research Scientist timeline](https://sites.google.com/view/giambattista-parascandolo/home)
 - [LinkedIn — Giambattista Parascandolo, OpenAI](https://www.linkedin.com/in/giambattista-parascandolo-216787a4/)
 - [dblp publication list](https://dblp.org/pid/179/2714.html)
