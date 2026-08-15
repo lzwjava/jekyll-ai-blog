@@ -11,7 +11,7 @@ type: note
 
 ## Question: What are the biggest painful points in AI today? Are long-running agents and expensive GPUs the main problems?
 
-## Answer:
+## Answer
 
 Yes, those are two major pain points, but the deeper problems are **reliability, cost, and scaling from demos to production**.
 

@@ -241,7 +241,7 @@ The idea should emerge naturally from deep knowledge, not from:
 
 ---
 
-## For an AI engineer today, the modern interpretation would be:
+## For an AI engineer today, the modern interpretation would be
 
 Paul Graham's advice maps very well to today's AI era:
 
