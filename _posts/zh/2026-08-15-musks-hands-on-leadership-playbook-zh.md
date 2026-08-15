@@ -26,6 +26,7 @@ type: note
 简而言之：极度亲力亲为、刻意精简且行动迅速、为降低成本减少依赖而进行垂直整合、由宏大使命驱动——再加上一种要求苛刻、有时混乱的文化，这种文化既催生了突破，也引发了争议。
 
 **参考文献：**
+
 - [埃隆·马斯克的管理风格：成功的五种方法](https://www.shortform.com/blog/elon-musk-management-style/)
 - [埃隆·马斯克的领导风格与管理哲学](https://press.farm/elon-musks-leadership-style/)
 - [埃隆·马斯克领导风格解析 | MTD 培训](https://www.mtdtraining.com/blog/elon-musk-leadership-explained.htm)

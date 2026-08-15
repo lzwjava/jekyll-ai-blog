@@ -20,5 +20,6 @@ Answer: "Scrappy" is an informal adjective with a few related senses:
 The tone (positive "gritty underdog" vs. negative "messy/unpolished") usually depends on context.
 
 References:
+
 - [Merriam-Webster: "scrappy"](https://www.merriam-webster.com/dictionary/scrappy)
 - [Cambridge Dictionary: "scrappy"](https://dictionary.cambridge.org/dictionary/english/scrappy)

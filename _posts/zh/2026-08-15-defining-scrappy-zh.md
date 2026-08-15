@@ -20,5 +20,6 @@ Answer: “Scrappy” 是一个非正式形容词，有几个相关的含义：
 语气（正面“坚韧的弱者” vs. 负面“凌乱/粗糙”）通常取决于上下文。
 
 参考来源：
+
 - [Merriam-Webster: “scrappy”](https://www.merriam-webster.com/dictionary/scrappy)
 - [Cambridge Dictionary: “scrappy”](https://dictionary.cambridge.org/dictionary/english/scrappy)

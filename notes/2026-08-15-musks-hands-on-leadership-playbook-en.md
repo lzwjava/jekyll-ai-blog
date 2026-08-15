@@ -33,6 +33,7 @@ Musk's approach shows up as a consistent set of habits across Tesla, SpaceX, X (
 In short: extremely hands-on, deliberately lean and fast-moving, vertically integrated to cut costs and dependencies, and driven by big missions — paired with a demanding, sometimes chaotic culture that produces both breakthroughs and controversy.
 
 References:
+
 - [Elon Musk's Management Style: 5 Methods for Success](https://www.shortform.com/blog/elon-musk-management-style/)
 - [Elon Musk's Leadership Style and Management Philosophy](https://press.farm/elon-musks-leadership-style/)
 - [Elon Musk Leadership Style Explained | MTD Training](https://www.mtdtraining.com/blog/elon-musk-leadership-explained.htm)
