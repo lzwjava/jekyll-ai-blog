@@ -36,6 +36,7 @@ Growth kept accelerating into 2026: Replit was valued at $9 billion after a $400
 He's notably resistant to the "vibe coding" label that's now attached to his company. He says it was never really about coding — it was always about solving problems and making things, and putting "coding" in the name signals unnecessary complexity to newcomers. He also predicts a much bigger, not smaller, workforce: he expects a billion software engineers globally, just wielding far more powerful tools. One early demo captures his conviction — when Paul Graham instinctively checked the generated code during a demo, Masad told him not to bother, arguing the source code was just an unimportant byproduct and that programming would increasingly happen in plain English.
 
 References:
+
 - [Replit's Jordanian Immigrant Billionaire Founder Shakes Up Vibe Coding](https://www.forbes.com/sites/richardnieva/2026/03/11/meet-the-9-billion-ai-company-reimagining-vibe-coding-replit-amjad-masad/)
 - [Replit's CEO on building a company that can run itself](https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/)
 - [Amjad Masad (Forbes profile)](https://www.forbes.com/profile/amjad-masad/)

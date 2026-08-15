@@ -36,6 +36,7 @@ Replit 于 2016 年 4 月 1 日——愚人节——正式创立。Masad 来到�
 他明显抗拒外界给公司贴上的“氛围编程”标签。他说，这从来都不是关于编程本身——而是关于解决问题和创造东西，把“编程”放进名字里只会给新手带来不必要的复杂性。他还预言，未来的劳动力规模会更大，而不是更小：他预计全球会有十亿软件工程师，只是他们手中的工具会强大得多。早期一次演示中，他的信念展露无遗——当 Paul Graham 本能地去检查生成的代码时，Masad 告诉他不用管，声称源代码只是一个不重要的副产品，编程将越来越多地用日常语言来完成。
 
 参考资料：
+
 - [Replit 的约旦移民亿万富翁创始人重塑“氛围编程”](https://www.forbes.com/sites/richardnieva/2026/03/11/meet-the-9-billion-ai-company-reimagining-vibe-coding-replit-amjad-masad/)
 - [Replit CEO 谈打造一个能自主运行的公司](https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/)
 - [Amjad Masad（福布斯人物简介）](https://www.forbes.com/profile/amjad-masad/)
