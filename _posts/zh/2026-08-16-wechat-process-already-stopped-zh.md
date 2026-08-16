@@ -12,6 +12,7 @@ type: note
 所有微信进程**已完全关闭**——没有残留进程需要终止。
 
 我通过以下方式确认：
+
 - `pgrep -af -i wechat` → 无匹配项
 - `ps aux | grep -i wechat/weixin` → 无匹配项
 - 在整个进程表中搜索任何包含 `wechat`/`weixin` 的命令行 → 无匹配项

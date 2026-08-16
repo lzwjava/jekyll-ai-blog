@@ -12,6 +12,7 @@ type: note
 All WeChat processes are **already closed** — there's nothing left to kill.
 
 I checked several ways:
+
 - `pgrep -af -i wechat` → no matches
 - `ps aux | grep -i wechat/weixin` → no matches
 - Full process table scan for `wechat`/`weixin` in any command line → no matches
