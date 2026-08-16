@@ -16,6 +16,7 @@ type: note
 ### 1. 计算器工具（`use_calculator`）
 
 一个小的、沙箱化的“工具使用”钩子。模型可以在 `<|python_start|>` / `<|python_end|>` 特殊 token 之间输出一个 Python 表达式，引擎会计算该表达式并将结果注入到 `<|output_start|>` / `<|output_end|>` token 之间。安全性通过以下方式保证：
+
 - 使用 `{"__builtins__": {}}` 的 `eval` 以及 **3 秒 SIGALRM 超时**
 - 字符白名单（仅限数学字符，或用于字符串操作的字母/引号/点）
 - 危险模式黑名单（`__`、`import`、`exec`、`open`、`getattr` 等）
@@ -24,6 +25,7 @@ type: note
 ### 2. `KVCache`
 
 一个专为 **Flash Attention 3 的 `flash_attn_with_kvcache` API** 构建的 KV 缓存。与经典 FA2 布局的主要区别：
+
 - 张量形状为 `(n_layers, B, T, H, D)` —— FA3 的原生布局，**无需转置**
 - FA3 在注意力计算期间会**原地**更新缓存，因此引擎只需传入视图
 - 位置通过 `cache_seqlens` int32 张量按批次元素分别跟踪（而不是 Python 计数器）
@@ -39,6 +41,7 @@ type: note
 3. 逐行 **`RowState`** 跟踪：当前 token 序列、*强制* token 的 deque、是否在 Python 代码块内部、累积的表达式 token 以及完成状态。
 
 每步循环：
+
 - 每行采样一个 token（`sample_next_token`：若 `temperature=0` 则用 argmax，否则用 top-k + softmax + 带种子 RNG 的 `multinomial`）
 - 但每行也可以改为从自己的 deque **强制**推出 token（例如注入的计算器输出），因此一个批次中可以包含处于不同“逻辑”位置的行——token 列是采样 token 和强制 token 的混合，返回的 `token_masks` 记录哪些是哪种（1 = 采样，0 = 强制/prompt）
 - 运行**工具状态机**：遇到 `<|python_start|>` 开始累积表达式 token；遇到 `<|python_end|>` 通过计算器求值，并将 `<|output_start|>` + 结果 + `<|output_end|>` 推入强制 deque

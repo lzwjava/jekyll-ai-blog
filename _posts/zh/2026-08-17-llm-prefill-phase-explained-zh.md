@@ -33,6 +33,7 @@ LLM推理分为两个不同的阶段：**prefill**（预填充）和**decode**�
 **在服务系统中**：许多生产推理引擎（例如vLLM、TensorRT-LLM、Hugging Face TGI）会明确以不同方式优化prefill和decode，有些还使用“分块prefill”技术，将大型prefill工作负载拆分成小块，与其他请求持续进行的decode步骤交错执行，从而提高整体吞吐量并降低尾延迟。
 
 参考文献：
+
 - [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM论文)](https://arxiv.org/abs/2309.06180)
 - [How continuous batching enables 23x throughput in LLM inference](https://www.anyscale.com/blog/continuous-batching-llm-inference)
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)

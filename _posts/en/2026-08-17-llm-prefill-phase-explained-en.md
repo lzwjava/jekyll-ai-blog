@@ -33,6 +33,7 @@ LLM inference happens in two distinct phases: **prefill** and **decode**. Prefil
 **In serving systems**: Many production inference engines (e.g., vLLM, TensorRT-LLM, Hugging Face TGI) explicitly optimize prefill and decode differently, and some use techniques like "chunked prefill" to split large prefill workloads into pieces that can be interleaved with ongoing decode steps for other requests, improving overall throughput and reducing tail latency.
 
 References:
+
 - [Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM paper)](https://arxiv.org/abs/2309.06180)
 - [How continuous batching enables 23x throughput in LLM inference](https://www.anyscale.com/blog/continuous-batching-llm-inference)
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)

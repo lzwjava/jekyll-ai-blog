@@ -20,5 +20,6 @@ That said, it's not purely a "brain glitch" separate from reality. Chronic stres
 A useful way to hold both: the day-to-day ups and downs are normal and not something to over-interpret. But if the low days start outnumbering the good ones for weeks at a stretch, or fatigue and low mood stop lifting even with good sleep and small wins, that's worth paying attention to — not as a character issue, but as a signal the stress load may be outpacing what the mind is able to buffer on its own.
 
 References:
+
 - [Stress effects on the body](https://www.apa.org/topics/stress/body)
 - [Understanding mood and mental health](https://www.nimh.nih.gov/health/topics/depression)
