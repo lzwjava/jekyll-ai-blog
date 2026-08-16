@@ -14,7 +14,7 @@ type: note
 ## 不同的 Python 安装版本（共 6 个）
 
 | # | 版本 | 位置 | 来源 |
-|---|---------|----------|--------|
+| --- | --------- | ---------- | -------- |
 | 1 | **3.14.3** | `/home/linuxbrew/.linuxbrew/bin/python3.14` | Linuxbrew（`python@3.14` Cellar） |
 | 2 | **3.13.13** | `/home/lzw/.local/share/uv/python/cpython-3.13-linux-x86_64-gnu` | uv 管理 |
 | 3 | **3.12.11** | `/home/lzw/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu` | uv 管理 |
@@ -34,6 +34,7 @@ type: note
 - `/home/lzw/.hermes/hermes-agent/venv` → 3.11.0rc1
 
 ## 其他已存在内容
+
 - **uv**（`/home/lzw/.local/bin/uv`）可按需下载多个版本（3.15.0b1、3.14.5、3.13.13+freethreaded、3.12.13、3.11.15、3.9.x、3.8.x、PyPy、GraalPy）
 - **Pre-commit 缓存**（`~/.cache/pre-commit` 中约 10 个废弃的 `py_env-python3.14` 副本）
 - **uv 构建/归档缓存**（`~/.cache/uv` 中 3.11/3.12/3.13 的临时副本）

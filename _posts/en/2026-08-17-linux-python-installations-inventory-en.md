@@ -14,7 +14,7 @@ This is actually a **Linux** machine (Linuxbrew, not macOS Homebrew). Here's the
 ## Distinct Python installations (6)
 
 | # | Version | Location | Source |
-|---|---------|----------|--------|
+| --- | --------- | ---------- | -------- |
 | 1 | **3.14.3** | `/home/linuxbrew/.linuxbrew/bin/python3.14` | Linuxbrew (`python@3.14` Cellar) |
 | 2 | **3.13.13** | `/home/lzw/.local/share/uv/python/cpython-3.13-linux-x86_64-gnu` | uv-managed |
 | 3 | **3.12.11** | `/home/lzw/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu` | uv-managed |
@@ -34,6 +34,7 @@ This is actually a **Linux** machine (Linuxbrew, not macOS Homebrew). Here's the
 - `/home/lzw/.hermes/hermes-agent/venv` → 3.11.0rc1
 
 ## Also present
+
 - **uv** (`/home/lzw/.local/bin/uv`) with several more versions available to download on demand (3.15.0b1, 3.14.5, 3.13.13+freethreaded, 3.12.13, 3.11.15, 3.9.x, 3.8.x, PyPy, GraalPy)
 - **Pre-commit caches** (~10 throwaway `py_env-python3.14` copies in `~/.cache/pre-commit`)
 - **uv build/archive caches** (temporary 3.11/3.12/3.13 copies in `~/.cache/uv`)

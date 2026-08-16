@@ -22,7 +22,7 @@ The first launch attempt appeared stuck, and it turned out to be a **missing mod
 ## Current state
 
 | Item | Value |
-|---|---|
+| --- | --- |
 | Server | `http://localhost:1919` (OpenAI-compatible) |
 | Model | `Qwen/Qwen3-0.6B` (bf16) |
 | Process | PID 1668187, log at `/tmp/minisgl.log` |
@@ -32,6 +32,7 @@ The first launch attempt appeared stuck, and it turned out to be a **missing mod
 The model even ran its Qwen3 thinking mode on the test prompt. Note the GPU now shows **11.3 GiB used** (12 GB card) — this model fits, but something like Qwen3-4B would be tight; Qwen2.5-3B-Instruct (also cached) is a comfortable fit.
 
 Useful for later:
+
 ```bash
 curl http://localhost:1919/v1/chat/completions \
   -H "Content-Type: application/json" \
