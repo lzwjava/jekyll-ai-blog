@@ -14,6 +14,7 @@ Here's what each Docker file in this repo is for. They're all in `docker/` (plus
 ## Main GPU image (NVIDIA CUDA)
 
 **`docker/Dockerfile`** — The primary SGLang image for NVIDIA GPUs. Multi-stage with parallel builders:
+
 - `framework` stage: full dev image (vim/tmux/gdb/nsight, oh-my-zsh, clangd, etc.)
 - `runtime` stage: **production** image — smaller, no dev tools, but keeps the CUDA toolchain so FP8/microscaling kernels can JIT-compile at runtime (DeepGEMM, Triton, FlashInfer)
 - Installs sgl-kernel, FlashInfer, DeepEP, Mooncake, MSCCL++, GDRCopy, gateway binary
@@ -22,7 +23,7 @@ Here's what each Docker file in this repo is for. They're all in `docker/` (plus
 ## Hardware-specific images
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `rocm.Dockerfile` | **AMD GPUs** (MI300X gfx942, MI350X gfx950), ROCm 7.0/7.2. Build args: `GPU_ARCH`, `ENABLE_MORI`, `ENABLE_NIXL` |
 | `npu.Dockerfile` | **Ascend NPUs** (Huawei), based on CANN 9.0.0, torch_npu |
 | `xpu.Dockerfile` | **Intel XPU** (e.g. Arc B580), based on Intel deep-learning-essentials |
@@ -32,7 +33,7 @@ Here's what each Docker file in this repo is for. They're all in `docker/` (plus
 ## Sidecar services
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `sgl-router.Dockerfile` | **sgl-router** — a Rust-based request router for multi-node/multi-worker deployments (in `experimental/sgl-router`). Distroless runtime, <100 MB |
 | `gateway.Dockerfile` | **sgl-model-gateway** — the OpenAI-compatible API gateway (auth, API keys, rate limiting), in `sgl-model-gateway/` |
 | `sagemaker.Dockerfile` | Wraps the main image for **AWS SageMaker** deployment (adds a `serve` entrypoint script) |
@@ -40,7 +41,7 @@ Here's what each Docker file in this repo is for. They're all in `docker/` (plus
 ## Wheel builders (CI only)
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `sgl-deep-ep.Dockerfile` | Builds the **sgl-deep-ep** pip wheel (DeepEP for CUDA 13, manylinux, includes GDRCopy) |
 | `sgl-deep-gemm.Dockerfile` | Builds the **sgl-deep-gemm** pip wheel |
 | `kimi_k3/kimi_k3_cu12.Dockerfile`, `kimi_k3_cu13.Dockerfile` | Serving image for the **Kimi-K3 model** (aarch64, sm_90/100a/103a): patches DeepEP (topk 16, SWITCH_HIDDEN += 3584), upgrades DeepGEMM, adds Kimi-K3 SGLang code on top of stock `lmsysorg/sglang:v0.5.16` |
@@ -54,6 +55,7 @@ Here's what each Docker file in this repo is for. They're all in `docker/` (plus
 There's also `docker/compose.yaml` (docker-compose for serving) and `docker/serve` (entrypoint script used by the SageMaker image).
 
 ### How to build the main one
+
 ```bash
 # production runtime image, CUDA 13.0
 docker build -f docker/Dockerfile --target runtime \

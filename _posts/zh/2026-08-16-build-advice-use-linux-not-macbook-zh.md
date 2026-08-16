@@ -16,7 +16,7 @@ Short answer: **你不需要在4070机器上构建——但MacBook Pro也不是�
 构建过程本身不会接触到GPU。所有繁重的步骤（DeepEP、MSCCL++、HPC-ops kernels、FlashInfer cubins）要么是**prebuilt wheel downloads**，要么是**nvcc cross-compilation**——nvcc可以在没有GPU的情况下编译CUDA kernels。它*确实*需要的是：
 
 | 要求 | 详情 |
-|---|---|
+| --- | --- |
 | **CPU架构** | 镜像是`linux/amd64`。构建必须生成x86_64镜像 |
 | **磁盘** | 可用空间约40–60 GB（此镜像非常大，有多个阶段） |
 | **内存** | 建议16 GB以上，用于并行BuildKit阶段 |
@@ -30,12 +30,14 @@ Short answer: **你不需要在4070机器上构建——但MacBook Pro也不是�
 ## 我建议的替代方案
 
 **选项1（最简单）——拉取预构建镜像。** 该项目发布官方镜像；你完全不需要自己构建：
+
 ```bash
 docker pull lmsysorg/sglang:latest
 # 或者固定版本，例如 lmsysorg/sglang:v0.5.16
 ```
 
 **选项2——在4070机器（或任何Linux x86_64机器）上构建。** 在你要运行的那台机器上构建是常见且可行的——只要确保它有上述的磁盘/内存。或者在任何Linux x86_64虚拟机（云实例、CI）上构建，然后：
+
 ```bash
 docker push your-registry/sglang:runtime
 # 在4070机器上：

@@ -16,7 +16,7 @@ Short answer: **No, you don't need to build on the 4070 machine — but a MacBoo
 The build itself never touches the GPU. All the heavy steps (DeepEP, MSCCL++, HPC-ops kernels, FlashInfer cubins) are either **prebuilt wheel downloads** or **nvcc cross-compilation** — nvcc compiles CUDA kernels without a GPU present. What it *does* require:
 
 | Requirement | Detail |
-|---|---|
+| --- | --- |
 | **CPU architecture** | The image is `linux/amd64`. Building must produce an x86_64 image |
 | **Disk** | ~40–60 GB free (this image is huge, multiple stages) |
 | **RAM** | 16 GB+ recommended for the parallel BuildKit stages |
@@ -30,12 +30,14 @@ The build itself never touches the GPU. All the heavy steps (DeepEP, MSCCL++, HP
 ## What I'd recommend instead
 
 **Option 1 (easiest) — pull the prebuilt image.** The project publishes official images; you don't need to build at all:
+
 ```bash
 docker pull lmsysorg/sglang:latest
 # or a pinned release, e.g. lmsysorg/sglang:v0.5.16
 ```
 
 **Option 2 — build on the 4070 machine (or any Linux x86_64 box).** Building on the machine you'll run on is fine and common — just make sure it has the disk/RAM above. Or build on any Linux x86_64 VM (cloud instance, CI), then:
+
 ```bash
 docker push your-registry/sglang:runtime
 # on the 4070 machine:
