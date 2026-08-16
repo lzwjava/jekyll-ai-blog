@@ -44,11 +44,13 @@ Each decoder layer's MLP is a **router** (a replicated linear producing one logi
 `FusedMoe.forward` = **top-k routing → block-aligned dispatch → 2 fused GEMMs → sum-reduce**:
 
 **a) `fused_topk`** — routing:
+
 - `sgl_kernel.topk_softmax` computes the top-k expert indices and softmax-normalized weights per token over all experts.
 - If `renormalize`, it re-normalizes so the *selected* k weights sum to 1 (standard MoE practice).
 - Can mask padded tokens (`topk_ids = -1`) for ragged batches.
 
 **b) `moe_align_block_size`** — dispatch layout:
+
 - Flattens `topk_ids` (each token appears `top_k` times), **sorts token indices grouped by expert**, and pads each expert's token count to a multiple of `BLOCK_SIZE_M` (using `sgl_kernel.moe_align_block_size` with a cumsum buffer).
 - This is the classic trick that lets a Triton GEMM process, per expert, a contiguous `[M_padded, K]` block — padding makes the block sizes consistent.
 

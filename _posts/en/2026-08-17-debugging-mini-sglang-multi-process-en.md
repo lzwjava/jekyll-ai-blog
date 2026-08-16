@@ -16,7 +16,7 @@ Now I understand the project. Here's how to debug Mini-SGLang:
 `launch_server()` (`python/minisgl/server/launch.py`) spawns **separate OS processes** via `multiprocessing` with `spawn`:
 
 | Process | What it runs |
-|---|---|
+| --- | --- |
 | Main process | FastAPI/uvicorn API server (`api_server.py`) |
 | 1 per TP rank | Scheduler (`_run_scheduler` → `scheduler/scheduler.py`) |
 | N+1 | Tokenizer / detokenizer workers (`tokenize_worker`) |
@@ -69,6 +69,7 @@ debugpy.wait_for_client()
 Start the server normally, then in VS Code use a "Python Debugger: Attach" configuration — VS Code will ask which process to attach to (main uvicorn process, `minisgl-TP0-scheduler`, tokenizers). Attach to the one you set the breakpoint in.
 
 **Breakpoint placement tips:**
+
 - HTTP layer → `server/api_server.py` (main process)
 - Scheduling loop → `scheduler/scheduler.py` (`run_forever`), `prefill.py`, `decode.py` (child process)
 - Tokenization → `tokenizer/` (child process)

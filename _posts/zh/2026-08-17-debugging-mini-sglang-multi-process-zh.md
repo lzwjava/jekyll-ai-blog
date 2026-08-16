@@ -16,7 +16,7 @@ type: note
 `launch_server()` (`python/minisgl/server/launch.py`) 通过 `multiprocessing` 使用 `spawn` 方式生成**独立的 OS 进程**：
 
 | 进程 | 执行内容 |
-|---|---|
+| --- | --- |
 | 主进程 | FastAPI/uvicorn API 服务器 (`api_server.py`) |
 | 每个 TP rank 一个 | 调度器 (`_run_scheduler` → `scheduler/scheduler.py`) |
 | N+1 | 分词器/逆分词器工作进程 (`tokenize_worker`) |
@@ -69,6 +69,7 @@ debugpy.wait_for_client()
 正常启动服务器，然后在 VS Code 中使用 "Python Debugger: Attach" 配置——VS Code 会询问你要附加到哪个进程（主 uvicorn 进程、`minisgl-TP0-scheduler`、分词器）。附加到你设置了断点的那个进程。
 
 **断点放置建议：**
+
 - HTTP 层 → `server/api_server.py`（主进程）
 - 调度循环 → `scheduler/scheduler.py` (`run_forever`)、`prefill.py`、`decode.py`（子进程）
 - 分词 → `tokenizer/`（子进程）
