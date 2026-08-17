@@ -43,7 +43,7 @@ I checked your GPU (`RTX 4070, 12GB`) and local models. **DeepSeek-V2-Lite is 30
 *Run → Edit Configurations → ➕ → Python*:
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Name | `minisgl-debug` |
 | **Module name** | `minisgl` (not "script path" — use the dropdown) |
 | Interpreter options | `-s` |
@@ -53,6 +53,7 @@ I checked your GPU (`RTX 4070, 12GB`) and local models. **DeepSeek-V2-Lite is 30
 | Run with Python Console | unchecked (keep standard debugger) |
 
 Notes on the parameters:
+
 - `--model-path ...` is the only **required** arg (`parser.add_argument(..., required=True)` in `args.py`).
 - `--tp-size 1` → only **one** scheduler child process to juggle instead of N. Multi-GPU debugging multiplies the process tree.
 - `--dtype float32` → the 124M GPT-2 is fine in fp32, avoids dtype-conversion code paths during your first debugging session. (You can switch to `--dtype bfloat16` later.)
@@ -74,11 +75,13 @@ You can pause/kill individual processes from the tree, and there's a "Resume all
 
 1. Set a breakpoint in `python/minisgl/scheduler/prefill.py` (first request) and one in `decode.py`.
 2. Start the server via the run config; curl a request:
+
    ```bash
    curl http://127.0.0.1:1919/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{"model":"gpt2","messages":[{"role":"user","content":"Hello!"}],"max_tokens":16}'
    ```
+
 3. Execution stops in the **TP0-scheduler** process. You can:
    - **Evaluate** `len(seq_ids)`, `batch.seq_lens` — tensors render as shape/dtype in the Variables pane (PyCharm renders torch tensors natively).
    - Step over CUDA kernel calls (FlashInfer/sgl_kernel) — you can't step *into* them (compiled C++), so use *Step Over* at those lines.

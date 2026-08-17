@@ -43,7 +43,7 @@ PyCharm 的调试器（`pydevd`）不需要在你的项目中添加任何 `debug
 *运行 → 编辑配置 → ➕ → Python*：
 
 | 字段 | 值 |
-|---|---|
+| --- | --- |
 | 名称 | `minisgl-debug` |
 | **模块名** | `minisgl`（不是"脚本路径"——使用下拉菜单） |
 | 解释器选项 | `-s` |
@@ -53,6 +53,7 @@ PyCharm 的调试器（`pydevd`）不需要在你的项目中添加任何 `debug
 | 使用 Python 控制台运行 | 取消勾选（保持标准调试器） |
 
 参数说明：
+
 - `--model-path ...` 是唯一**必需的**参数（`args.py` 中的 `parser.add_argument(..., required=True)`）。
 - `--tp-size 1` → 只创建**一个**调度器子进程，而不是 N 个。多 GPU 调试会使进程树成倍增加。
 - `--dtype float32` → 124M GPT-2 使用 fp32 没问题，可以避免在首次调试过程中触发 dtype 转换相关的代码路径。（之后可以切换到 `--dtype bfloat16`。）
@@ -74,11 +75,13 @@ minisgl-debug (主进程)                          ← api_server.py (FastAPI/uv
 
 1. 在 `python/minisgl/scheduler/prefill.py` 中设置断点（第一个请求），并在 `decode.py` 中设置一个断点。
 2. 通过运行配置启动服务器；使用 curl 发送请求：
+
    ```bash
    curl http://127.0.0.1:1919/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{"model":"gpt2","messages":[{"role":"user","content":"你好！"}],"max_tokens":16}'
    ```
+
 3. 执行在 **TP0-scheduler** 进程中停止。你可以：
    - **评估** `len(seq_ids)`、`batch.seq_lens` — 张量会在变量窗格中显示为 shape/dtype（PyCharm 原生渲染 torch 张量）。
    - 单步跳过 CUDA 内核调用（FlashInfer/sgl_kernel）——你无法单步*进入*这些调用（编译后的 C++），所以在这些行使用*跳过*。
