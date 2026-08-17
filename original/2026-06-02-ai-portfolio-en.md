@@ -107,7 +107,7 @@ After training dense GPT-2 models, I moved into the architecture + systems side 
 2. **Run it out & benchmark** — nano-vLLM running Qwen3-0.6B on my RTX 4070 with flash-attention: **506 tok/s prefill**, decode ~4–30 tok/s, and ~1434 tok/s on the laptop benchmark matching/beating vLLM itself.
 3. **Compile it from source** — built **SGLang** from source (`pip install -e "python"`, fixed a torch/torchaudio CUDA mismatch to 2.11.0+cu130, compiled its 3 PyO3 Rust extensions) and got a Qwen2.5-0.5B server serving completions at `localhost:30010`. Also got nano-vLLM running with `flash-attn==2.8.3` prebuilt wheels.
 
-**Systems I have hands-on familiarity with:**
+**Systems I have fundamental knowledge of:**
 
 | Concept | What I learned reading the code |
 | --------- | -------------------------------- |
@@ -123,8 +123,6 @@ After training dense GPT-2 models, I moved into the architecture + systems side 
 ```text
 read 20% → modify 30% → break things 30% → submit 20%
 ```
-
-A merged PR to SGLang/vLLM is worth more than another certificate — it's public proof that I can read a large distributed ML system and improve it. This is where I'm focusing next.
 
 ---
 
