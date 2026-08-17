@@ -91,38 +91,40 @@ GitHub: [lzwjava/nanoGPT](https://github.com/lzwjava/nanoGPT)
 
 ---
 
-## ⚙️ MoE & LLM Inference — Reading Code, Running It, Compiling It
+## ⚙️ MoE & LLM Inference — Just Starting to Learn
 
-After training dense GPT-2 models, I moved into the architecture + systems side of LLMs: **Mixture-of-Experts (MoE)** and **high-throughput inference engines**. My learning method is simple and hands-on: **read the code, run it, break it, and compile it from source** — not just read about it.
+After training dense GPT-2 models, I wanted to look at the architecture + systems side of LLMs: **Mixture-of-Experts (MoE)** and **inference engines**. To be honest, I'm at the very beginning of this. I've read some code, run a few things, and followed along — but I couldn't write any of this from scratch, and I still consider myself mostly a beginner here.
 
-**What I've been learning:**
+**What I've started to look at:**
 
-- **MoE architecture** — the mental model that turns "many FFNs" into routing + dispatch + expert compute + combine + load balancing + distributed communication. I study DeepSeek-MoE (fine-grained + shared experts), MegaBlocks (dropless block-sparse dispatch), Tutel (all-to-all expert parallelism), and Mixtral (8×7B, top-2) as reference implementations.
-- **The forward pass** — routing (`router_logits` → `topk(softmax(...))`), per-expert compute, and how `tokens → experts → tokens` is made fast across GPUs.
-- **KV cache paging, prefill/decode scheduling, continuous batching, CUDA graphs, prefix caching, tensor parallelism** — the full serving stack that turns a model into a production engine.
+- **MoE architecture** — the high-level picture of routing + dispatch + expert compute + combine + load balancing. I've skimmed DeepSeek-MoE (fine-grained + shared experts), MegaBlocks (dropless block-sparse dispatch), Tutel (all-to-all expert parallelism), and Mixtral (8×7B, top-2) as reference implementations — mostly by having AI agents walk me through the code.
+- **The forward pass** — routing (`router_logits` → `topk(softmax(...))`), per-expert compute, and how `tokens → experts → tokens` is made fast across GPUs. I can follow the flow, but I can't yet reason about the trade-offs myself.
+- **KV cache paging, prefill/decode scheduling, continuous batching, CUDA graphs, prefix caching, tensor parallelism** — I know the names and the rough ideas, but the serving stack is deep and I've only scratched the surface.
 
-**How I learn — the read-code / run-out / compile loop:**
+**How I learn — using agents to explore:**
 
-1. **Read the code** — traced MoE end-to-end in mini-sglang: `router (LinearReplicated) → MoELayer → FusedMoe (top-k routing → block-aligned dispatch → 2 fused GEMMs → sum-reduce) → Triton grouped-GEMM kernel`. The `fused_moe_kernel` dispatches sorted, padded token blocks per expert and flips the `mul_routed_weight` flag between the two SwiGLU GEMMs.
-2. **Run it out & benchmark** — nano-vLLM running Qwen3-0.6B on my RTX 4070 with flash-attention: **506 tok/s prefill**, decode ~4–30 tok/s, and ~1434 tok/s on the laptop benchmark matching/beating vLLM itself.
-3. **Compile it from source** — built **SGLang** from source (`pip install -e "python"`, fixed a torch/torchaudio CUDA mismatch to 2.11.0+cu130, compiled its 3 PyO3 Rust extensions) and got a Qwen2.5-0.5B server serving completions at `localhost:30010`. Also got nano-vLLM running with `flash-attn==2.8.3` prebuilt wheels.
+1. **Read the code** — I use coding agents (e.g. Hermes Agent) to help me trace MoE end-to-end in mini-sglang: `router (LinearReplicated) → MoELayer → FusedMoe (top-k routing → block-aligned dispatch → 2 fused GEMMs → sum-reduce) → Triton grouped-GEMM kernel`. I understand it when the agent walks me through it; I can't reproduce it on my own yet.
+2. **Run it out & benchmark** — got nano-vLLM running Qwen3-0.6B on my RTX 4070 with flash-attention: **506 tok/s prefill**, decode ~4–30 tok/s, and ~1434 tok/s on a laptop benchmark. I treat these as data points, not as proof of anything.
+3. **Compile it from source** — built **SGLang** from source (`pip install -e "python"`, fixed a torch/torchaudio CUDA mismatch to 2.11.0+cu130, compiled its 3 PyO3 Rust extensions) and got a Qwen2.5-0.5B server serving completions at `localhost:30010`. Also got nano-vLLM running with `flash-attn==2.8.3` prebuilt wheels. Getting things to build is one thing; understanding them deeply is another.
 
-**Systems I have fundamental knowledge of:**
+**What I've learned so far (still shallow):**
 
-| Concept | What I learned reading the code |
+| Concept | What I've understood |
 | --------- | -------------------------------- |
-| **Paged KV cache** | Fixed 256-token blocks, free list, content-hash prefix caching, copy-on-write sharing |
-| **Scheduler** | Chunked prefill for long prompts, decode stepping, preemption when KV cache is full |
-| **CUDA graphs** | Capturing decode batches (`[1,2,4,…512]`) to cut CPU kernel-launch overhead |
-| **MoE dispatch** | `moe_align_block_size` sorting + padding token blocks per expert for efficient Triton grouped-GEMMs |
-| **Tensor parallelism** | `all_reduce` for row-parallel layers, `gather` for the LM head, `LinearReplicated` shared routers |
-| **Fused MoE kernel** | gate/up fused into one GEMM, SwiGLU activation split, routed weight applied exactly once |
+| **Paged KV cache** | Fixed 256-token blocks, free list, content-hash prefix caching, copy-on-write sharing — high-level idea only |
+| **Scheduler** | Chunked prefill for long prompts, decode stepping, preemption when KV cache is full — roughly |
+| **CUDA graphs** | Capturing decode batches (`[1,2,4,…512]`) to cut CPU kernel-launch overhead — the motivation, not the details |
+| **MoE dispatch** | `moe_align_block_size` sorting + padding token blocks per expert for efficient Triton grouped-GEMMs — followed the code once |
+| **Tensor parallelism** | `all_reduce` for row-parallel layers, `gather` for the LM head, `LinearReplicated` shared routers — the names make sense now |
+| **Fused MoE kernel** | gate/up fused into one GEMM, SwiGLU activation split, routed weight applied exactly once — read about it, retention is partial |
 
-**Learning path I follow** — from the notes, this is the loop that works for big systems, and it's exactly how I approach every repo:
+**How I approach it** — honestly, much of my "reading" is the agent reading the code and explaining it back to me. The loop is roughly:
 
 ```text
 read 20% → modify 30% → break things 30% → submit 20%
 ```
+
+I've only been at this a few weeks. I know just enough to follow a conversation about MoE inference — not enough to build or improve one of these systems myself.
 
 ---
 
