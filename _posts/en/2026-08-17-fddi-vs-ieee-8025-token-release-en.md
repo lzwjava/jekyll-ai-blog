@@ -23,11 +23,13 @@ Both **FDDI** and **IEEE 802.5** use a token-passing ring protocol — but they 
 ## Why the difference matters
 
 **IEEE 802.5 (Token Ring)** — "single token" operation:
+
 - A station must wait until the frame it sent travels all the way around the ring and comes back to it.
 - Only then does the station remove (strip) its frame and release a new token.
 - Consequence: at any moment there is **at most one frame on the ring**, which wastes bandwidth on high-speed rings.
 
 **FDDI (Fiber Distributed Data Interface)** — "early token release" (ETR):
+
 - A station transmits its frame(s) and then **immediately** releases the token — it doesn't wait for the frame to loop back.
 - Consequence: **multiple frames can circulate on the ring simultaneously**, greatly improving utilization — which is why FDDI can efficiently run at 100 Mbps over rings up to 100 km.
 
