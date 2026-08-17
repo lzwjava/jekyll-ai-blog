@@ -32,6 +32,7 @@ So punctuation is explicitly split off first, then BPE merges are applied within
 **Contractions like `I'm`**
 
 The pre-tokenization regex handles common English contractions as **fixed patterns**:
+
 - `I'm` → always splits into `I` + `'m` (two tokens)
 - `don't` → `don` + `'t`
 - `they're` → `they` + `'re`
@@ -43,6 +44,7 @@ So **no** — `I'm` will **not** sometimes be one token and sometimes two. The r
 **Non-English words**
 
 BPE operates on **bytes**, so any Unicode character is valid. However:
+
 - Common English subwords have learned merge rules (e.g., `un` + `der` → `under`)
 - Rare or non-English words get fragmented into small pieces or even **individual UTF-8 bytes**
 - Example: a Chinese character like `你` might become 3 byte-tokens: `\xe4`, `\xbd`, `\xa0`
@@ -60,6 +62,7 @@ Some newer tokenizers (like those used in T5 or some multilingual models) apply 
 ---
 
 References:
+
 - [OpenAI tiktoken](https://github.com/openai/tiktoken)
 - [GPT-2 tokenizer (Hugging Face)](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2Tokenizer)
 - [BPE explanation — Sennrich et al. 2016](https://arxiv.org/abs/1508.07909)

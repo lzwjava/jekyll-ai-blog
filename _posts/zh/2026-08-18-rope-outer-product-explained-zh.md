@@ -33,6 +33,7 @@ type: note
 **这在RoPE中的重要性：**
 
 RoPE通过在二维子空间中旋转Q/K向量来编码位置信息。每个维度对按角度 `θ = m · fᵢ` 旋转，其中：
+
 - `m` = 词元位置（位置越远 → 角度越大）
 - `fᵢ` = 频率（低维度旋转较慢，高维度旋转较快）
 
@@ -48,5 +49,6 @@ sin   = emb.sin()
 这些值被应用于Q和K，以注入位置信息，**无需额外**添加单独的位置嵌入向量——位置信息直接编码在旋转过程中。
 
 参考文献：
+
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding (arxiv)](https://arxiv.org/abs/2104.09864)
 - [torch.outer — PyTorch文档](https://pytorch.org/docs/stable/generated/torch.outer.html)

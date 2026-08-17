@@ -33,6 +33,7 @@ Each cell `[m, i]` = position `m` × frequency `fᵢ`, which becomes the **angle
 **Why this matters in RoPE:**
 
 RoPE encodes position by rotating Q/K vectors in 2D subspaces. Each pair of dimensions gets rotated by angle `θ = m · fᵢ`, where:
+
 - `m` = token position (farther token → bigger angle)
 - `fᵢ` = frequency (lower dimensions rotate slower, higher ones faster)
 
@@ -48,5 +49,6 @@ sin   = emb.sin()
 These are applied to Q and K to inject positional information **without adding** a separate position embedding vector — the position is baked into the rotation itself.
 
 References:
+
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding (arxiv)](https://arxiv.org/abs/2104.09864)
 - [torch.outer — PyTorch docs](https://pytorch.org/docs/stable/generated/torch.outer.html)

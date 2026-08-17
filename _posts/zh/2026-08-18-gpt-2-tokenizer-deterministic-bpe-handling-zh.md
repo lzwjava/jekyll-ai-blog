@@ -32,6 +32,7 @@ type: note
 **像`I'm`这样的缩略词**
 
 预分词正则表达式将常见的英语缩略词作为**固定模式**处理：
+
 - `I'm` → 总是拆分为 `I` + `'m`（两个token）
 - `don't` → `don` + `'t`
 - `they're` → `they` + `'re`
@@ -43,6 +44,7 @@ type: note
 **非英语单词**
 
 BPE基于**字节**运行，因此任何Unicode字符都是有效的。不过：
+
 - 常见的英语子词有学习到的合并规则（例如 `un` + `der` → `under`）
 - 罕见或非英语的单词会被分割成小片段，甚至**单个UTF-8字节**
 - 示例：像`你`这样的中文字符可能会变成3个字节级token：`\xe4`、`\xbd`、`\xa0`
@@ -60,6 +62,7 @@ GPT-2的50,257个token词表几乎完全是在英语文本上训练的，因此�
 ---
 
 参考资料：
+
 - [OpenAI tiktoken](https://github.com/openai/tiktoken)
 - [GPT-2 tokenizer (Hugging Face)](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2Tokenizer)
 - [BPE explanation — Sennrich et al. 2016](https://arxiv.org/abs/1508.07909)
