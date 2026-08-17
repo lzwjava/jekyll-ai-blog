@@ -91,6 +91,41 @@ GitHub: [lzwjava/nanoGPT](https://github.com/lzwjava/nanoGPT)
 
 ---
 
+## ⚙️ MoE & LLM Inference — Reading Code, Running It, Compiling It
+
+After training dense GPT-2 models, I moved into the architecture + systems side of LLMs: **Mixture-of-Experts (MoE)** and **high-throughput inference engines**. My learning method is simple and hands-on: **read the code, run it, break it, and compile it from source** — not just read about it.
+
+**What I've been learning:**
+
+- **MoE architecture** — the mental model that turns "many FFNs" into routing + dispatch + expert compute + combine + load balancing + distributed communication. I study DeepSeek-MoE (fine-grained + shared experts), MegaBlocks (dropless block-sparse dispatch), Tutel (all-to-all expert parallelism), and Mixtral (8×7B, top-2) as reference implementations.
+- **The forward pass** — routing (`router_logits` → `topk(softmax(...))`), per-expert compute, and how `tokens → experts → tokens` is made fast across GPUs.
+- **KV cache paging, prefill/decode scheduling, continuous batching, CUDA graphs, prefix caching, tensor parallelism** — the full serving stack that turns a model into a production engine.
+
+**How I learn — the read-code / run-out / compile loop:**
+
+1. **Read the code** — traced MoE end-to-end in mini-sglang: `router (LinearReplicated) → MoELayer → FusedMoe (top-k routing → block-aligned dispatch → 2 fused GEMMs → sum-reduce) → Triton grouped-GEMM kernel`. The `fused_moe_kernel` dispatches sorted, padded token blocks per expert and flips the `mul_routed_weight` flag between the two SwiGLU GEMMs.
+2. **Run it out & benchmark** — nano-vLLM running Qwen3-0.6B on my RTX 4070 with flash-attention: **506 tok/s prefill**, decode ~4–30 tok/s, and ~1434 tok/s on the laptop benchmark matching/beating vLLM itself.
+3. **Compile it from source** — built **SGLang** from source (`pip install -e "python"`, fixed a torch/torchaudio CUDA mismatch to 2.11.0+cu130, compiled its 3 PyO3 Rust extensions) and got a Qwen2.5-0.5B server serving completions at `localhost:30010`. Also got nano-vLLM running with `flash-attn==2.8.3` prebuilt wheels.
+
+**Systems I have fundamental knowledge of:**
+
+| Concept | What I learned reading the code |
+| --------- | -------------------------------- |
+| **Paged KV cache** | Fixed 256-token blocks, free list, content-hash prefix caching, copy-on-write sharing |
+| **Scheduler** | Chunked prefill for long prompts, decode stepping, preemption when KV cache is full |
+| **CUDA graphs** | Capturing decode batches (`[1,2,4,…512]`) to cut CPU kernel-launch overhead |
+| **MoE dispatch** | `moe_align_block_size` sorting + padding token blocks per expert for efficient Triton grouped-GEMMs |
+| **Tensor parallelism** | `all_reduce` for row-parallel layers, `gather` for the LM head, `LinearReplicated` shared routers |
+| **Fused MoE kernel** | gate/up fused into one GEMM, SwiGLU activation split, routed weight applied exactly once |
+
+**Learning path I follow** — from the notes, this is the loop that works for big systems, and it's exactly how I approach every repo:
+
+```text
+read 20% → modify 30% → break things 30% → submit 20%
+```
+
+---
+
 ## 📝 SEC-EDGAR-GPT — GPT-2 (124M) Trained from Scratch on SEC Filings
 
 Trained a **124M-parameter GPT-2** from scratch on **1.55B tokens** of SEC EDGAR financial filings (10-K, 10-Q, and other corporate disclosures) — trained for ~8 hours on a single **RTX 4070** (12 GB VRAM), converging to a validation loss of 2.28.
@@ -287,6 +322,34 @@ README.md
 ![Cloudflare Web Analytics — 38.9K visits, 45.2K page views, 930ms load time, 82% good LCP](/assets/images/ai-portfolio/cloudflare-analytics.png)
 
 GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
+
+---
+
+## 🎬 FluxReel — AMD Hackathon Short-Video Studio
+
+[FluxReel](https://github.com/lzwjava/flux-reel) turns a one-line topic into a **15-second vertical short video** (1080×1920, 9:16, 30 fps) — running the core image generation on an **AMD Radeon GPU (ROCm)**. Built for **Track 1 — Multimodal Content Creation Tools** at the AMD AI DevMaster Hackathon 2026-07.
+
+**How it works:**
+
+1. **Script** — LLM drafts a 300–500 word markdown article from a topic, then a scene planner produces exactly 5 scenes with `title` / `subtitle` / `image_prompt` (bilingual, auto-detected from the topic).
+2. **Images** — 5 scene images generated in parallel: AMD GPU via diffusers (FLUX.1-schnell / dev / 2-dev), stable-diffusion.cpp (FLUX.1-schnell Q4_0 GGUF, low VRAM), or OpenRouter.
+3. **Compose** — PIL builds each 1080×1920 slide with title / subtitle bars, fonts auto-shrunk to fit, CJK-aware wrapping.
+4. **Assemble** — ffmpeg encodes each slide to a 3 s H.264 segment, concatenates without re-encode, and mixes in background music.
+
+**Key features:**
+
+- **Topic → video in minutes**: full pipeline from prompt to polished MP4, locally on AMD.
+- **Bilingual captions** — auto-detects EN / 中文 with Noto Sans CJK fonts and character-based wrapping.
+- **Multiple image backends** — `local` (ROCm + diffusers FLUX), `sdcpp` (GGUF 4-bit, low VRAM), `openrouter` (cloud fallback), `auto` (local first, fall back to cloud).
+- **Web UI + REST API** — FastAPI server with job queue, progress polling, video preview, and download.
+- **Optional YouTube upload** — auto-generated title / description / tags via LLM.
+- **Remote AMD GPU management** — rc-tunnel, FLUX model downloads via `hf-mirror.com` (China-friendly), GPU / ROCm / disk info.
+
+**Demo output frame (1080×1920, 9:16):**
+
+![FluxReel demo frame 2 — 15s vertical short video generated on AMD GPU](https://raw.githubusercontent.com/lzwjava/flux-reel/main/submission/demo_frame_2.jpg)
+
+GitHub: [lzwjava/flux-reel](https://github.com/lzwjava/flux-reel)
 
 ---
 
