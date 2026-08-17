@@ -18,12 +18,14 @@
       \begin{cvitems} % 描述
         \item {使用nanoGPT在FineWeb数据集上从零训练GPT-2 124M两次——分别在RunPod H200（141 GB HBM3e）和DigitalOcean H100（80 GB HBM3）上完成；另在配备RTX 4070（12 GB）的家用服务器上进行了实验。Fork了Karpathy的nanoGPT并提交45次：基于FineWeb分片的数据流水线、内联张量形状注释和适配不同GPU预算的训练配置。技术栈：Python、PyTorch、CUDA、HuggingFace Datasets、tiktoken。}
         \item {构建了包含6个数据集流水线（FineWeb-Edu 10B+ tokens、OpenWebText、Wikipedia）和6个训练配置（124M–1.5B参数）的nanoGPT分支。另在AMD MI300X（192 GB HBM3）上通过AMD Dev Cloud训练GPT-2 760M。技术栈：Python、PyTorch、ROCm、FlashAttention、HuggingFace Hub。}
+        \item {MoE与LLM推理：从训练扩展到MoE与服务系统，通过阅读代码、运行和从源码编译来学习。端到端研究MoE架构（DeepSeek-MoE、MegaBlocks、Tutel、Mixtral）——路由、调度、专家计算、组合与负载均衡。在RTX 4070上运行nano-vLLM提供Qwen3-0.6B服务，使用flash-attention（预填充506 tok/s，基准约1434 tok/s），并学习服务栈：分页KV缓存、分块预填充/解码调度、连续批处理、CUDA图谱和张量并行。从源码编译SGLang（构建其3个PyO3 Rust扩展）并提供Qwen2.5-0.5B的OpenAI兼容API服务。技术栈：Python、PyTorch、CUDA、Triton、FlashAttention、nano-vLLM、SGLang、vLLM、ROCm、NCCL。}
         \item {SEC-EDGAR-GPT：在SEC EDGAR财务文件（10-K、10-Q、8-K）的15.5亿token上，使用nanoGPT在单个RTX 4070（12 GB）上从零训练GPT-2 124M。约8小时收敛到验证损失2.28。构建了论文、项目网站（Cloudflare Workers）、聊天界面（nanoGPT服务器）和HuggingFace模型仓库。整个项目通过Hermes Agent在3天内完成。技术栈：Python、PyTorch、nanoGPT、HuggingFace Hub、Cloudflare Workers、tiktoken。}
         \item {zz：数据集处理工具集——支持断点续传的分片下载及token预算规划、通过pyarrow进行内存安全的parquet提取、tokenization、训练日志分析。托管于GitHub和Hugging Face。技术栈：Python、pyarrow、tiktoken、pandas、matplotlib。}
         \item {在多个平台消耗约23亿+ token：OpenRouter 11.5亿 token（\$239，155K请求）、Claude API 1.15亿+ token、小米MIMO 5亿 token。技术栈：OpenRouter API、Claude API、Copilot API、REST APIs。}
         \item {jekyll-ai-blog：AI驱动的博客平台，支持基于LLM的多语言翻译（9+语种）、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线及GitHub Actions CI/CD。10K+英文文章、10K+中文文章、9.7K AI笔记。技术栈：Jekyll、Python、Google Cloud TTS、XeLaTeX、DeepSeek、Mistral。}
         \item {lzwjava.com：个人博客与知识库，约400篇原创文章及约8000条AI回答笔记；每月约7万页面浏览量（Cloudflare）。技术栈：Jekyll、GitHub Pages、Cloudflare Analytics、MathJax。}
         \item {ww：跨平台CLI工具集（255+次提交，10+命令组）——集成AI提交信息的git工作流、笔记管理、图片/PDF处理、Copilot Chat、AMD Dev Cloud管理。技术栈：Python、uv、Gemini Flash、OpenRouter、Pillow。}
+        \item {FluxReel：AMD AI DevMaster Hackathon 2026-07（赛道1）——将一行主题转化为15秒竖版短视频（1080\texttimes1920，30 fps），图片生成运行在AMD Radeon GPU（ROCm）上。流水线：LLM脚本+5个双语场景、并行图片生成（diffusers FLUX.1-schnell / stable-diffusion.cpp GGUF / OpenRouter备用）、PIL幻灯片合成（含CJK字幕）、ffmpeg组装。包含FastAPI Web UI+REST API、可选YouTube上传和远程AMD GPU管理。技术栈：Python、diffusers、FLUX.1-schnell、stable-diffusion.cpp、ffmpeg、PIL、FastAPI、ROCm、OpenRouter。}
         \item {iclaw：终端AI智能体REPL，支持原生工具调用——可自主编码、搜索并执行命令。支持Copilot OAuth和OpenRouter；适用于受限企业环境。技术栈：Python、Copilot OAuth、OpenRouter API、DuckDuckGo、Tavily。}
         \item {live-server现代化改造：通过AI编程工具（Claude Code、Codex）完成Docker化，升级CodeIgniter和Vue至当前版本，实现曾服务3万用户的创业项目全栈现代化。技术栈：PHP、Docker、CodeIgniter、Vue.js、MySQL、Redis。}
         \item {Tree\_Of\_Thought（1个PR）：为思维树推理系统贡献代码，用于物理问题求解——含显式推理树、评分、剪枝和SymPy符号计算。新增OpenAI兼容请求模块及python-dotenv配置支持。技术栈：Python、FastAPI、OpenAI API、SymPy。}
