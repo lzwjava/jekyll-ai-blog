@@ -290,6 +290,34 @@ GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
 
 ---
 
+## 🎬 FluxReel — AMD Hackathon Short-Video Studio
+
+[FluxReel](https://github.com/lzwjava/flux-reel) turns a one-line topic into a **15-second vertical short video** (1080×1920, 9:16, 30 fps) — running the core image generation on an **AMD Radeon GPU (ROCm)**. Built for **Track 1 — Multimodal Content Creation Tools** at the AMD AI DevMaster Hackathon 2026-07.
+
+**How it works:**
+
+1. **Script** — LLM drafts a 300–500 word markdown article from a topic, then a scene planner produces exactly 5 scenes with `title` / `subtitle` / `image_prompt` (bilingual, auto-detected from the topic).
+2. **Images** — 5 scene images generated in parallel: AMD GPU via diffusers (FLUX.1-schnell / dev / 2-dev), stable-diffusion.cpp (FLUX.1-schnell Q4_0 GGUF, low VRAM), or OpenRouter.
+3. **Compose** — PIL builds each 1080×1920 slide with title / subtitle bars, fonts auto-shrunk to fit, CJK-aware wrapping.
+4. **Assemble** — ffmpeg encodes each slide to a 3 s H.264 segment, concatenates without re-encode, and mixes in background music.
+
+**Key features:**
+
+- **Topic → video in minutes**: full pipeline from prompt to polished MP4, locally on AMD.
+- **Bilingual captions** — auto-detects EN / 中文 with Noto Sans CJK fonts and character-based wrapping.
+- **Multiple image backends** — `local` (ROCm + diffusers FLUX), `sdcpp` (GGUF 4-bit, low VRAM), `openrouter` (cloud fallback), `auto` (local first, fall back to cloud).
+- **Web UI + REST API** — FastAPI server with job queue, progress polling, video preview, and download.
+- **Optional YouTube upload** — auto-generated title / description / tags via LLM.
+- **Remote AMD GPU management** — rc-tunnel, FLUX model downloads via `hf-mirror.com` (China-friendly), GPU / ROCm / disk info.
+
+**Demo output frame (1080×1920, 9:16):**
+
+![FluxReel demo frame 2 — 15s vertical short video generated on AMD GPU](https://raw.githubusercontent.com/lzwjava/flux-reel/main/submission/demo_frame_2.jpg)
+
+GitHub: [lzwjava/flux-reel](https://github.com/lzwjava/flux-reel)
+
+---
+
 ## 🤖 iclaw — Terminal AI Agent (REPL)
 
 [iclaw](https://github.com/lzwjava/iclaw) is a terminal AI agent that codes, searches, and runs commands autonomously — works on personal machines and locked-down enterprise ones. A minimal openclaw implementation, built as a plain Python CLI with no browser extensions or IDE plugins, powered by GitHub Copilot.
