@@ -57,3 +57,11 @@ Q will be divided into small q's. Wq is the weight matrix for q, which means tha
 Every Q is first passed through nn.Linear(n_embd, n_embd), and there is a WQ weight matrix for them. WQ is computed and trained for Q.
 
 K and V are the same; they are all trained out.
+
+---
+
+For attention, the absolute position encoding.
+
+---
+
+For rotary poisitional encoding, how does it work?
