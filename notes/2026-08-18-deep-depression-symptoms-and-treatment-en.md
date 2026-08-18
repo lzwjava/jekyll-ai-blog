@@ -33,6 +33,7 @@ Answer: Deep (or major) depression is a serious mental health condition characte
 If you or someone you know is struggling, speaking with a mental health professional is an important first step. If you're going through something difficult right now, I'm happy to help you find support resources.
 
 References:
+
 - [Major Depressive Disorder – Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007)
 - [Depression – National Institute of Mental Health](https://www.nimh.nih.gov/health/topics/depression)
 - [What is Depression? – American Psychiatric Association](https://www.psychiatry.org/patients-families/depression/what-is-depression)

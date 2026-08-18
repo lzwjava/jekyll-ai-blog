@@ -33,6 +33,7 @@ type: note
 如果您或您认识的人正在挣扎，与心理健康专业人士交谈是重要的第一步。如果您目前正经历困难，我很乐意帮助您寻找支持资源。
 
 参考文献：
+
 - [重度抑郁症 – 梅奥诊所](https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007)
 - [抑郁症 – 美国国家心理健康研究所](https://www.nimh.nih.gov/health/topics/depression)
 - [什么是抑郁症？ – 美国精神病学协会](https://www.psychiatry.org/patients-families/depression/what-is-depression)
