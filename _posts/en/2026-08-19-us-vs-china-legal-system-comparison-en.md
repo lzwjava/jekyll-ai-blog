@@ -151,7 +151,7 @@ Chinese commercial law has become quite sophisticated.
 
 But you generally have **less institutional protection against sudden changes in government policy or administrative power**.
 
-### U.S.
+### U.S
 
 You have a stronger framework for:
 
@@ -192,7 +192,7 @@ State legal system
 
 The court is part of the state system.
 
-### U.S.
+### U.S
 
 Conceptually:
 

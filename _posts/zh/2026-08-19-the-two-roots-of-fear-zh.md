@@ -26,6 +26,7 @@ type: note
 在最深层次上，大多数恐惧都可追溯至两个根源之一：**自我的丧失**（死亡、自我消解、失去掌控）或**连接的丧失**（被抛弃、被拒绝、孤独）。几乎所有其他恐惧都由此衍生。
 
 参考资料：
+
 - [The Amygdala and Fear Processing](https://www.ncbi.nlm.nih.gov/books/NBK459169/)
 - [Terror Management Theory – Fear of Death and Human Behavior](https://en.wikipedia.org/wiki/Terror_management_theory)
 - [Why Social Pain Hurts Like Physical Pain](https://www.psychologicalscience.org/news/releases/why-rejection-hurts.html)
