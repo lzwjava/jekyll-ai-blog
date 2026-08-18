@@ -52,6 +52,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [中国学生正在重新思考美国梦](https://www.fredgao.com/p/chinese-students-are-rethinking-the)
 - [在美入学人数下降之际，中国学生提及负面体验](https://www.migrationpolicy.org/article/discrimination-chinese-students-us)
 - [印度H-1B梦想因特朗普费用上调而破灭——半岛电视台](https://www.aljazeera.com/features/2025/9/29/cruel-joke-how-indian-h-1b-dreams-are-crash-landing-after-trump-fee-hike)

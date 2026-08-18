@@ -52,6 +52,7 @@ Both groups historically saw the US as a golden opportunity. That perception has
 ---
 
 **References:**
+
 - [Chinese Students Are Rethinking the American Dream](https://www.fredgao.com/p/chinese-students-are-rethinking-the)
 - [Amid Declining US Enrollment, Chinese Students Cite Negative Experiences](https://www.migrationpolicy.org/article/discrimination-chinese-students-us)
 - [Indian H-1B Dreams Crash-Landing After Trump Fee Hike – Al Jazeera](https://www.aljazeera.com/features/2025/9/29/cruel-joke-how-indian-h-1b-dreams-are-crash-landing-after-trump-fee-hike)
