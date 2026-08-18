@@ -44,6 +44,7 @@ This is mathematically related to steepest descent under the **spectral norm** r
 It gained attention from Keller Jordan's work and has been explored by teams at various labs as a potential AdamW replacement, especially in mid-scale LLM training runs.
 
 References:
+
 - [Muon: An optimizer for hidden layers in neural networks (Keller Jordan)](https://kellerjordan.github.io/posts/muon/)
 - [Muon Optimizer – GitHub](https://github.com/KellerJordan/Muon)
 - [Newton-Schulz Iteration – Wikipedia](https://en.wikipedia.org/wiki/Polar_decomposition#Algorithms)

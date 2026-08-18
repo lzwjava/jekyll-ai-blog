@@ -40,7 +40,7 @@ Kaggle公开笔记本的文化独一无二——人们公开分享解决方案�
 **与IOI的关键区别：**
 
 | | IOI | Kaggle |
-|---|---|---|
+| --- | --- | --- |
 | 核心痴迷 | 优雅的算法、证明 | 实证实验、直觉 |
 | 背景 | 数学/计算机科学天才 | 多元化（生物学、金融、物理学……） |
 | 学习方式 | 独自刷题 | 社区笔记本、讨论 |
@@ -52,6 +52,7 @@ Kaggle奖励的是“科学家的好奇心”——提出假设、运行实验�
 ---
 
 **参考文献：**
+
 - [如何成为Kaggle特级大师（Abhishek Thakur的故事）](https://www.youtube.com/c/AbhishekThakurAbhi)
 - [Kaggle特级大师——访谈与路径](https://www.kaggle.com/discussions/general/170307)
 - [Kaggle笔记本文化——通过阅读学习](https://www.kaggle.com/code)

@@ -40,7 +40,7 @@ Unlike IOI (mostly students), many Kaggle masters are working data scientists wh
 **Key difference from IOI:**
 
 | | IOI | Kaggle |
-|---|---|---|
+| --- | --- | --- |
 | Core obsession | Elegant algorithms, proofs | Empirical experiments, intuition |
 | Background | Math/CS prodigies | Diverse (biology, finance, physics…) |
 | Learning style | Solo grinding problems | Community notebooks, discussion |
@@ -52,6 +52,7 @@ Kaggle rewards a *scientist's curiosity* — forming hypotheses, running experim
 ---
 
 **References:**
+
 - [How to become a Kaggle Grandmaster (Abhishek Thakur's story)](https://www.youtube.com/c/AbhishekThakurAbhi)
 - [Kaggle Grandmasters — interviews and paths](https://www.kaggle.com/discussions/general/170307)
 - [Notebooks culture on Kaggle — learning by reading](https://www.kaggle.com/code)

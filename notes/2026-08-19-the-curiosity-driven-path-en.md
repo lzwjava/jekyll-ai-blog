@@ -42,6 +42,7 @@ Many credit a single friend who introduced them, or a school club where the soci
 ---
 
 **References:**
+
 - [How does one become an IOI gold medalist? (Quora)](https://www.quora.com/How-does-one-become-an-IOI-gold-medalist)
 - [Errichto's YouTube — learning CP naturally through explanation](https://www.youtube.com/@Errichto)
 - [tourist's Codeforces profile & blog (Gennady Korotkevich)](https://codeforces.com/profile/tourist)

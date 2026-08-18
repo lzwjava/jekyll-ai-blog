@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [如何成为IOI金牌得主？（Quora）](https://www.quora.com/How-does-one-become-an-IOI-gold-medalist)
 - [Errichto的YouTube频道——通过讲解自然地学习CP](https://www.youtube.com/@Errichto)
 - [tourist的Codeforces个人主页与博客（Gennady Korotkevich）](https://codeforces.com/profile/tourist)

@@ -96,7 +96,7 @@ def muon_update(param, momentum_buffer, lr=0.01, steps=5):
 **直观总结**
 
 | 步骤 | 说明 |
-|---|---|
+| --- | --- |
 | 归一化 $G$ | 将谱范数调整到接近 1 |
 | 迭代 $X \leftarrow f(X)$ | 将奇异值推向 1 |
 | 收敛后的 $X = Q$ | 所有奇异值 = 1 → 正交矩阵 |
@@ -104,6 +104,7 @@ def muon_update(param, momentum_buffer, lr=0.01, steps=5):
 结果是一个更新矩阵，其中**所有梯度方向被平等对待**——没有单一方向占主导地位——从而带来更稳定的训练。
 
 参考文献：
+
 - [Muon 源代码 – 牛顿-舒尔茨实现](https://github.com/KellerJordan/Muon/blob/master/muon.py)
 - [极分解的牛顿-舒尔茨方法 – Wikipedia](https://en.wikipedia.org/wiki/Polar_decomposition#Algorithms)
 - [Keller Jordan 的 Muon 博客文章](https://kellerjordan.github.io/posts/muon/)

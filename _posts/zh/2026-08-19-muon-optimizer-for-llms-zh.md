@@ -44,6 +44,7 @@ Muon 代表 **MomentUm Orthogonalized by Newton-schulz**（通过牛顿-舒尔�
 该优化器因 Keller Jordan 的工作而受到关注，并被多个实验室的团队探索作为 AdamW 的潜在替代方案，特别是在中等规模的 LLM 训练中。
 
 参考文献：
+
 - [Muon: An optimizer for hidden layers in neural networks (Keller Jordan)](https://kellerjordan.github.io/posts/muon/)
 - [Muon Optimizer – GitHub](https://github.com/KellerJordan/Muon)
 - [牛顿-舒尔茨迭代 – Wikipedia](https://en.wikipedia.org/wiki/Polar_decomposition#Algorithms)

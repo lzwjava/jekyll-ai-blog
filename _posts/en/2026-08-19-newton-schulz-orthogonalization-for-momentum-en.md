@@ -96,7 +96,7 @@ def muon_update(param, momentum_buffer, lr=0.01, steps=5):
 **Intuition Summary**
 
 | Step | What happens |
-|---|---|
+| --- | --- |
 | Normalize $G$ | Bring spectral norm close to 1 |
 | Iterate $X \leftarrow f(X)$ | Push singular values toward 1 |
 | Converged $X = Q$ | All singular values = 1 → orthogonal matrix |
@@ -104,6 +104,7 @@ def muon_update(param, momentum_buffer, lr=0.01, steps=5):
 The result is an update matrix where **all gradient directions are treated equally** — no single direction dominates — leading to more stable training.
 
 References:
+
 - [Muon Source Code – newton-schulz impl](https://github.com/KellerJordan/Muon/blob/master/muon.py)
 - [Polar Decomposition via Newton-Schulz – Wikipedia](https://en.wikipedia.org/wiki/Polar_decomposition#Algorithms)
 - [Keller Jordan's Muon Blog Post](https://kellerjordan.github.io/posts/muon/)
