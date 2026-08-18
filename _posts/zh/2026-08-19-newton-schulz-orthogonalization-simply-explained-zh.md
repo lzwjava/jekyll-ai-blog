@@ -42,6 +42,7 @@ type: note
 **牛顿-舒尔茨的作用——一张图说明**
 
 把它想象成反复把一个不规则图形挤压成一个圆形：
+
 ```
 开始：不规则图形（你的梯度矩阵）
 第1步：不那么不规则了
@@ -51,6 +52,7 @@ type: note
 ```
 
 每一步都应用这个公式：
+
 ```
 X_new = 1.5 × X  -  0.5 × X × X^T × X
 ```
@@ -77,6 +79,7 @@ X_new = 1.5 × X  -  0.5 × X × X^T × X
 **为什么不直接用SVD？**
 
 你也可以用SVD进行精确正交化：
+
 ```python
 U, S, Vt = torch.linalg.svd(G)
 Q = U @ Vt  # 完美的正交矩阵
@@ -122,6 +125,7 @@ print("After: ", torch.linalg.svdvals(Q).round(decimals=2))
 ```
 
 预期输出：
+
 ```
 Before: tensor([2.31, 1.47, 0.83, 0.21])   ← 不相等
 After:  tensor([1.00, 1.00, 1.00, 1.00])   ← 全部相等 ✓
@@ -130,6 +134,7 @@ After:  tensor([1.00, 1.00, 1.00, 1.00])   ← 全部相等 ✓
 就是这样。牛顿-舒尔茨只是一种快速、对GPU友好的方法，用于使所有奇异值都等于1。
 
 参考文献：
+
 - [Muon 博客 – Keller Jordan](https://kellerjordan.github.io/posts/muon/)
 - [奇异值分解 – 维基百科](https://en.wikipedia.org/wiki/Singular_value_decomposition)
 - [Muon 源代码](https://github.com/KellerJordan/Muon/blob/master/muon.py)

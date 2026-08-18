@@ -42,6 +42,7 @@ After orthogonalization:
 **What Newton-Schulz does — one picture**
 
 Think of it like repeatedly squishing a blob into a circle:
+
 ```
 Start:  irregular blob (your gradient matrix)
 Step 1: less irregular
@@ -51,6 +52,7 @@ Step 4: ≈ perfect circle (orthogonal matrix!)
 ```
 
 Each iteration applies this formula:
+
 ```
 X_new = 1.5 × X  -  0.5 × X × X^T × X
 ```
@@ -77,6 +79,7 @@ Newton-Schulz is a fast way to push all singular values → 1.0
 **Why not just use SVD instead?**
 
 You could do exact orthogonalization with SVD:
+
 ```python
 U, S, Vt = torch.linalg.svd(G)
 Q = U @ Vt  # perfect orthogonal matrix
@@ -122,6 +125,7 @@ print("After: ", torch.linalg.svdvals(Q).round(decimals=2))
 ```
 
 Expected output:
+
 ```
 Before: tensor([2.31, 1.47, 0.83, 0.21])   ← unequal
 After:  tensor([1.00, 1.00, 1.00, 1.00])   ← all equal ✓
@@ -130,6 +134,7 @@ After:  tensor([1.00, 1.00, 1.00, 1.00])   ← all equal ✓
 That's it. Newton-Schulz is just a fast, GPU-friendly way to make all singular values equal to 1.
 
 References:
+
 - [Muon Blog – Keller Jordan](https://kellerjordan.github.io/posts/muon/)
 - [Singular Value Decomposition – Wikipedia](https://en.wikipedia.org/wiki/Singular_value_decomposition)
 - [Muon Source Code](https://github.com/KellerJordan/Muon/blob/master/muon.py)
