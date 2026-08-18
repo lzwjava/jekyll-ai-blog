@@ -51,7 +51,7 @@ The US has expanded travel and visa restrictions starting January 1, 2026. Certa
 ### Summary for Your Family
 
 | Family Member | Category | Wait Time |
-|---|---|---|
+| --- | --- | --- |
 | Spouse | Immediate Relative (if you're a citizen) | No wait |
 | Daughter (5 yo) | Immediate Relative (under 21) | No wait |
 | Daughter (2 yo) | Immediate Relative (under 21) | No wait |
@@ -63,6 +63,7 @@ The US has expanded travel and visa restrictions starting January 1, 2026. Certa
 ---
 
 **References:**
+
 - [Family Immigration Guide – USAHello](https://usahello.org/immigration/visas-and-residency/family-immigration/)
 - [How to Bring Your Family to the US in 2026 – IMQ](https://immigrationquestion.com/blog/how-to-bring-your-family-to-the-united-states-through-family-based-immigration-in-2026/)
 - [Family-Based Immigration Complete Guide – GrapeLaw](https://www.grapelaw.com/blog/us-immigration/family-based-immigration-complete-guide)

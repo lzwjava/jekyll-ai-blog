@@ -64,6 +64,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [美国公司在华裁员激增背后是什么？– Caixin Global](https://www.caixinglobal.com/2025-07-31/analysis-whats-behind-the-spike-in-us-company-layoffs-in-china-102347393.html)
 - [外企在华撤退：三十年增长模式动摇 – Vision Times](https://www.visiontimes.com/2025/12/15/foreign-companies-in-china-retreat-as-three-decade-growth-model-falters.html)
 - [企业为何撤离中国 – Forbes](https://www.forbes.com/sites/deandebiase/2024/08/30/why-companies-are-exiting-china-and-what-leaders-can-do-about-it/)

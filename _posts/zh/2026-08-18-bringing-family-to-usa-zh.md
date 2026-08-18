@@ -51,7 +51,7 @@ type: note
 ### 你家庭的总结
 
 | 家庭成员 | 类别 | 等待时间 |
-|---|---|---|
+| --- | --- | --- |
 | 配偶 | 直系亲属（若你是公民） | 无需等待 |
 | 女儿（5岁） | 直系亲属（未满21岁） | 无需等待 |
 | 女儿（2岁） | 直系亲属（未满21岁） | 无需等待 |
@@ -63,6 +63,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Family Immigration Guide – USAHello](https://usahello.org/immigration/visas-and-residency/family-immigration/)
 - [How to Bring Your Family to the US in 2026 – IMQ](https://immigrationquestion.com/blog/how-to-bring-your-family-to-the-united-states-through-family-based-immigration-in-2026/)
 - [Family-Based Immigration Complete Guide – GrapeLaw](https://www.grapelaw.com/blog/us-immigration/family-based-immigration-complete-guide)

@@ -64,6 +64,7 @@ In short, the combination of **geopolitics, cost increases, fierce local competi
 ---
 
 **References:**
+
 - [What's Behind the Spike in US Company Layoffs in China? – Caixin Global](https://www.caixinglobal.com/2025-07-31/analysis-whats-behind-the-spike-in-us-company-layoffs-in-china-102347393.html)
 - [Foreign Companies in China Retreat as Three-Decade Growth Model Falters – Vision Times](https://www.visiontimes.com/2025/12/15/foreign-companies-in-china-retreat-as-three-decade-growth-model-falters.html)
 - [Why Companies Are Exiting China – Forbes](https://www.forbes.com/sites/deandebiase/2024/08/30/why-companies-are-exiting-china-and-what-leaders-can-do-about-it/)
