@@ -65,6 +65,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [保罗的故事：从旅游签证到F1学生签证](https://www.breakthroughusa.com/f1-student-visa-success-pauls-story/)
 - [姆里蒂卡的故事：从F1到绿卡](https://www.immi-usa.com/f1-visa-to-green-card/)
 - [B2转F1身份变更指南](https://cptdog.com/cos/b2-to-f1)

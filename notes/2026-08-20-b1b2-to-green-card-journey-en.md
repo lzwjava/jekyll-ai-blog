@@ -65,6 +65,7 @@ After successfully completing studies under F-1 status, students may qualify for
 ---
 
 **References:**
+
 - [Paul's Story: Tourist to F1 Student Visa](https://www.breakthroughusa.com/f1-student-visa-success-pauls-story/)
 - [Mrithika's Story: F1 to Green Card](https://www.immi-usa.com/f1-visa-to-green-card/)
 - [B2 to F1 Change of Status Guide](https://cptdog.com/cos/b2-to-f1)
