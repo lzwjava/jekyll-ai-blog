@@ -117,7 +117,7 @@ Chinese Americans overall have diverse views; surveys show many hold positive vi
 
 A senior AI/software engineer might compare:
 
-### China:
+### China
 
 ```
 + huge market
@@ -130,7 +130,7 @@ A senior AI/software engineer might compare:
 - lower upside for some careers
 ```
 
-### USA:
+### USA
 
 ```
 + frontier AI labs
