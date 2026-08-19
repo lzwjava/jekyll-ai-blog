@@ -26,6 +26,7 @@ In his famous 1986 Harvard commencement speech, Munger used inversion to relay h
 So your summary is spot on: Munger viewed jealousy/envy as deeply destructive to happiness.
 
 **References:**
+
 - [Billionaire Charlie Munger: The world is not driven by greed but by jealousy](https://vietnaminsiders.com/billionaire-charlie-munger-the-world-is-not-driven-by-greed-but-by-jealousy/)
 - [Billionaire Charlie Munger: World is 'driven by envy,' not 'greed' — CNBC](https://www.cnbc.com/2022/12/10/billionaire-charlie-munger-world-is-driven-by-envy-not-greed.html)
 - [The secret to a long and happy life](https://amblog.substack.com/p/the-secret-to-happy-long-life)
