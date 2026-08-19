@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-## Answer:
+## Answer
 
 The DS-160 is the U.S. nonimmigrant visa application form. Chinese citizens applying for **B1/B2 tourist/business visa**, **F1 student visa**, **J1**, etc. must complete DS-160 online before scheduling the visa interview. The U.S. Department of State requires answers to be accurate and in English (except names in native alphabet fields). ([Travel.state.gov][1])
 

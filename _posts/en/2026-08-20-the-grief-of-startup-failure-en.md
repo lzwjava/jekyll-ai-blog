@@ -32,6 +32,7 @@ The honest truth is: **it takes longer to process than you expect**, and that's 
 ---
 
 References:
+
 - [The Emotional Stages of a Startup Shutdown – First Round Review](https://review.firstround.com)
 - [What Happens When Your Startup Fails – Paul Graham Essays](http://paulgraham.com/die.html)
 - [Founder Depression and Burnout – a16z](https://a16z.com/2021/03/04/the-mental-health-crisis-in-startups/)

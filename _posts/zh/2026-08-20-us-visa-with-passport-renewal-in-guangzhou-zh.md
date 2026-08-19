@@ -39,6 +39,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [美国驻广州总领事馆 – 非移民签证处](https://china.usembassy-china.org.cn/guangzhousections-offices/nonimmigrant-visa-unit/)
 - [2026年中国公民美国签证完整指南](https://www.mytravelready.ai/blog/china-usa-visa-guide-2026)
 - [预约面试 – 美国签证服务中国官网](https://www.ustraveldocs.com/cn/en/)

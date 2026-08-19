@@ -39,6 +39,7 @@ Once you have a B1/B2 visa (valid 10 years, multiple entry), you must enroll in 
 ---
 
 **References:**
+
 - [US Consulate Guangzhou – Nonimmigrant Visa Unit](https://china.usembassy-china.org.cn/guangzhousections-offices/nonimmigrant-visa-unit/)
 - [US Visa for Chinese Citizens 2026 – Complete Guide](https://www.mytravelready.ai/blog/china-usa-visa-guide-2026)
 - [Schedule Appointment – US Travel Docs China](https://www.ustraveldocs.com/cn/en/)

@@ -167,7 +167,7 @@ from China.
 
 ## My suggested strategy for you
 
-### Next 6 months:
+### Next 6 months
 
 ```
 1. Apply master's programs
