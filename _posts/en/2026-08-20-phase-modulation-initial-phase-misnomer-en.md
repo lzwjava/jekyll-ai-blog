@@ -24,6 +24,7 @@ The carrier signal is expressed as:
 > s(t) = A · cos(2πf_c·t + **φ(t)**)
 
 Where **φ(t)** is the phase that carries the information. For example:
+
 - In BPSK: φ = 0° for bit "1", φ = 180° for bit "0"
 
 **Why "initial phase" (初始相位) is a misleading term here:**
@@ -35,6 +36,7 @@ Where **φ(t)** is the phase that carries the information. For example:
 **Why option B is still marked correct in Chinese textbooks:**
 
 In many Chinese telecommunications textbooks (e.g., 樊昌信《通信原理》), "初始相位随基带信号变化" is used as a **simplified pedagogical shorthand** to distinguish PSK from:
+
 - 调幅 (AM): amplitude varies
 - 调频 (FM): frequency varies
 - 调相 (PM/PSK): **phase** varies
@@ -44,5 +46,6 @@ The intent is correct even if "初始相位" is not the most rigorous term. The 
 So B is the intended correct answer because it correctly identifies **which carrier parameter** is modulated, even though "初始相位" is a loose use of terminology.
 
 References:
+
 - [Phase-shift keying (PSK) – Wikipedia](https://en.wikipedia.org/wiki/Phase-shift_keying)
 - [通信原理（第7版）樊昌信 – 相关章节](https://book.douban.com/subject/4749385/)
