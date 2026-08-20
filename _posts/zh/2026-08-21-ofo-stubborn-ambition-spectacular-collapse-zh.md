@@ -74,6 +74,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [ofo的惊人崛起与衰落 — Medium](https://medium.com/@dothingsatonce/the-incredible-rise-and-fall-of-ofo-the-man-behind-chinas-bike-sharing-phenomenon-96204fe4ed9b)
 - [ofo的崛起与衰落 — Roland Berger](https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html)
 - [ofo CEO拒绝滴滴要约 — South China Morning Post](https://www.scmp.com/tech/start-ups/article/2146142/china-bike-sharing-firm-ofos-ceo-rebuffs-offer-and-rallies-employees)

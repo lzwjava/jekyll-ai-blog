@@ -74,6 +74,7 @@ Dai Wei's fatal flaw was **refusing every exit** — the Zhu Xiaohu merger, the 
 ---
 
 **References:**
+
 - [The Incredible Rise and Fall of oFo — Medium](https://medium.com/@dothingsatonce/the-incredible-rise-and-fall-of-ofo-the-man-behind-chinas-bike-sharing-phenomenon-96204fe4ed9b)
 - [The Rise and Fall of ofo — Roland Berger](https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html)
 - [Ofo CEO Rebuffs Didi Offer — South China Morning Post](https://www.scmp.com/tech/start-ups/article/2146142/china-bike-sharing-firm-ofos-ceo-rebuffs-offer-and-rallies-employees)
