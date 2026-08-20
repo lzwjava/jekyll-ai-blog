@@ -22,17 +22,19 @@ This also aligns with the **model dissection / model anatomy** conclusion your f
 **Why the gain exists at all (motivation for the trade-off)**
 
 By sourcing Q from *before* the FFN in layer *n*, you can pipeline attention and FFN in parallel:
+
 ```
 Layer n:  [Attention(Q=x_pre, K/V=x_pre)] ∥ [FFN(x_pre)]
                     ↓                              ↓
           attention output            ffn output   → sum → x_{n+1}
 ```
+
 This is the same idea as in **Parallel Attention + FFN** architectures (e.g., PaLM, some GPT-J variants). The ~2.7% quality cost buys you real wall-clock latency reduction on hardware where attention and FFN can overlap.
 
 **Why BF16 and FP8 measurements agree so closely (+0.0181 vs +0.0191 bpb)**
 
 | Factor | Effect |
-|---|---|
+| --- | --- |
 | The perturbation is architectural, not numerical | The Early-Q shift introduces a structural bias; FP8 quantization noise is largely orthogonal to it |
 | FP8 already degrades baseline slightly | Both baseline and Early-Q degrade proportionally, so the *delta* is preserved |
 | SGLang's FP8 path is well-calibrated for Qwen3 | Activation outliers in Q/K/V are handled by per-tensor or per-channel scaling, keeping relative differences stable |
@@ -45,6 +47,7 @@ The near-perfect replication (+2.66% vs +2.68%) is actually strong evidence that
 The small loss confirms that Q is a low-sensitivity input — transformers can tolerate stale Q with minimal routing error, making Early-Q a practical knob for trading a small quality cost for compute parallelism, without any fine-tuning.
 
 References:
+
 - [PaLM: Scaling Language Modeling with Pathways (parallel attention+FFN)](https://arxiv.org/abs/2204.02311)
 - [GPT-J architecture (parallel layers)](https://github.com/kingoflolz/mesh-transformer-jax)
 - [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)

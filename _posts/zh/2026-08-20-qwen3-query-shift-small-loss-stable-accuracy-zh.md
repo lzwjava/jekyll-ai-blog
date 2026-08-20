@@ -22,17 +22,19 @@ type: note
 **为什么仍然存在收益（权衡的动机）**
 
 通过从第 *n* 层的 *FFN 之前*提取 Q，您可以并行执行 attention 和 FFN：
+
 ```
 第 n 层：  [Attention(Q=x_pre, K/V=x_pre)] ∥ [FFN(x_pre)]
                     ↓                              ↓
           attention 输出            ffn 输出  → 求和 → x_{n+1}
 ```
+
 这与**并行 Attention + FFN** 架构（例如 PaLM、某些 GPT-J 变体）的思路相同。~2.7% 的质量代价换来的是在 attention 和 FFN 可以重叠的硬件上真正的延迟降低。
 
 **为什么 BF16 和 FP8 测量结果如此一致（+0.0181 vs +0.0191 bpb）**
 
 | 因素 | 效果 |
-|---|---|
+| --- | --- |
 | 扰动是架构性的，而非数值性的 | Early-Q 偏移引入了结构偏差；FP8 量化噪声基本与之正交 |
 | FP8 已经使基线略有下降 | 基线和 Early-Q 都按比例下降，因此*增量*得以保持 |
 | SGLang 的 FP8 路径对 Qwen3 校准良好 | Q/K/V 中的激活异常值通过逐张量或逐通道缩放处理，保持相对差异稳定 |
@@ -45,6 +47,7 @@ type: note
 微小的损失证实了 Q 是一个低敏感度输入——Transformer 可以容忍陈旧的 Q，且路由误差极小，这使得 Early-Q 成为在无需微调的情况下，用很小的质量代价换取计算并行性的实用手段。
 
 参考文献：
+
 - [PaLM: Scaling Language Modeling with Pathways (parallel attention+FFN)](https://arxiv.org/abs/2204.02311)
 - [GPT-J architecture (parallel layers)](https://github.com/kingoflolz/mesh-transformer-jax)
 - [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)

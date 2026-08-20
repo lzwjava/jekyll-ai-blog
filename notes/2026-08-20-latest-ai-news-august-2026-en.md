@@ -34,6 +34,7 @@ Google DeepMind published what's being called the most disturbing AI paper of th
 ---
 
 **References:**
+
 - [OpenAI Astra & August AI News Roundup](https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026)
 - [AI News Week of Aug 3–9, 2026](https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3)
 - [Latest AI News August 2026 – Kraviona](https://kraviona.com/blog/latest-ai-news-august-2026)

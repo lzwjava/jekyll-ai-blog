@@ -34,6 +34,7 @@ Google DeepMind发布了被称为今年最令人不安的AI论文，评估语言
 ---
 
 **参考资料：**
+
 - [OpenAI Astra和2026年8月AI新闻汇总](https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026)
 - [2026年8月3日至9日AI新闻](https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3)
 - [2026年8月最新AI新闻 – Kraviona](https://kraviona.com/blog/latest-ai-news-august-2026)
