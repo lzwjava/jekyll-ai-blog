@@ -19,6 +19,7 @@ Answer: Yes, exactly right! It's a clever life hack:
 4. **Dump and done** — no need for small plastic bags or multiple trips
 
 It works especially well because:
+
 - The umbrella canopy creates a **large catching surface**
 - Easy to **fold and shake out** any remaining debris over the bin
 - Convenient for **occasional deep-cleans** rather than keeping a permanent trash bag in the car

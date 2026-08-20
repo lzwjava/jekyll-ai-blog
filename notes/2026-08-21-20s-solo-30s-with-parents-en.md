@@ -16,6 +16,7 @@ Answer:
 There's some truth to this pattern, but it's more of a general tendency than a rule. Here's why it happens:
 
 **Why 20s = solo travel**
+
 - More free time, fewer obligations
 - Seeking independence and self-discovery
 - Budget backpacking culture fits that life stage
@@ -23,6 +24,7 @@ There's some truth to this pattern, but it's more of a general tendency than a r
 - Higher risk tolerance and adventure-seeking mindset
 
 **Why 30s = travel with parents**
+
 - Parents are getting older (often 55–65), and people become more aware of limited time with them
 - More financial stability means affording better trips together
 - Family bonds often deepen after early adulthood
@@ -30,6 +32,7 @@ There's some truth to this pattern, but it's more of a general tendency than a r
 - Major life events (weddings, reunions) bring families together
 
 **But reality is more nuanced**
+
 - Many people in their 30s still travel solo or with friends
 - Some people never traveled alone in their 20s
 - Cultural background matters a lot — in many Asian and Latin cultures, family travel is common at *every* age
