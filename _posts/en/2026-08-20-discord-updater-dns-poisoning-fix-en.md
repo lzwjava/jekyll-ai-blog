@@ -25,12 +25,15 @@ The updater log shows only old failures (timestamps **20:39–20:40**, before th
 
 1. **TUN enabled** in `~/.config/mihomo/config.yaml` (`tun.enable: true`, `stack: gvisor`, `any:53` DNS hijack) — you restarted mihomo, and it's now **`enable: True` on `utun4`**, with traffic correctly hitting your **`My Hysteria2 2`** node.
 2. **System DNS → `127.0.0.1`** (mihomo) on the **Wi-Fi** service (was set to router handling DNS):
+
    ```
    networksetup -setdnsservers Wi-Fi 127.0.0.1
    ```
+
    Now `updates.discord.com` resolves to mihomo's **fake-IP** (`198.18.0.4`) instead of the poisoned Meta IP.
 
 ## Next step for you
+
 Those `-9806` errors are all from **before** the DNS fix. Now that resolution goes through mihomo, **fully quit Discord and relaunch it** (⌘Q, not just close the window) so its updater issues a fresh check. It should now complete and download the update.
 
 Caveat: pointing Wi-Fi DNS to `127.0.0.1` makes **everything depend on mihomo being up** for name resolution. That's the intended trade-off for reliable proxying; just restart mihomo before using the network. If you'd rather scope it, I can leave it as-is (recommended for your setup) — let me know once you've relaunched Discord and whether the update completes.

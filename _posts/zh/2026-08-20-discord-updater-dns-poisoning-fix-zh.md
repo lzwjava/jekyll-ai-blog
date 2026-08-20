@@ -25,12 +25,15 @@ type: note
 
 1. 在 `~/.config/mihomo/config.yaml` 中 **启用 TUN**（`tun.enable: true`，`stack: gvisor`，`any:53` DNS 劫持）——你已重启 mihomo，现在 `utun4` 上显示 **`enable: True`**，流量正确命中你的 **`My Hysteria2 2`** 节点。
 2. 在 **Wi-Fi** 服务上将系统 DNS 设置为 **`127.0.0.1`**（mihomo）（之前由路由器处理 DNS）：
+
    ```
    networksetup -setdnsservers Wi-Fi 127.0.0.1
    ```
+
    现在 `updates.discord.com` 解析为 mihomo 的 **假 IP**（`198.18.0.4`），而非被污染的 Meta IP。
 
 ## 你的下一步操作
+
 那些 `-9806` 错误全部来自 **DNS 修复之前**。既然现在域名解析走 mihomo，**完全退出 Discord 并重新启动**（⌘Q，不要只关闭窗口），让更新器发起新的检查。现在它应该能完成并下载更新。
 
 注意：将 Wi-Fi DNS 指向 `127.0.0.1` 意味着 **所有名称解析都依赖 mihomo 正常运行**。这是为了实现可靠代理所付出的权衡；使用网络前请确保 mihomo 已启动。如果你希望限定范围，我可以保持当前设置（推荐你的配置）——重启 Discord 后请告诉我更新是否完成。

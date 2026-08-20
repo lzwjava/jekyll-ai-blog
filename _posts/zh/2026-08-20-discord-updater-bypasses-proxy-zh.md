@@ -24,6 +24,7 @@ ERROR [updater_client]: Failed 16 ... host: updates.discord.com
 ```
 
 **原因：**
+
 1. Discord 的应用更新程序（`.../Resources/updater.node`，一个 Rust `reqwest` 客户端）会向 `https://updates.discord.com/...` 发起**原始 TCP 套接字**连接 → 解析为 `54.89.135.129:443`。
 2. 该客户端**不遵循** HTTP(S) 系统代理（127.0.0.1:7890）也不遵循 `HTTPS_PROXY` 环境变量。
 3. 从该网络直接无法访问该 IP/域名。
@@ -31,7 +32,7 @@ ERROR [updater_client]: Failed 16 ... host: updates.discord.com
 我通过实时测试确认了这种不对称性：
 
 | 连接方式 | 结果 |
-|---|---|
+| --- | --- |
 | **直接连接（无代理）**，`--noproxy '*'` | ❌ `Connection timed out after 15s` |
 | **通过 mihomo** `127.0.0.1:7890` | ✅ HTTP 200 响应，耗时 0.34 秒 |
 

@@ -24,6 +24,7 @@ ERROR [updater_client]: Failed 16 ... host: updates.discord.com
 ```
 
 **Why:**
+
 1. Discord's app updater (`.../Resources/updater.node`, a Rust `reqwest` client) does a **raw TCP socket** to `https://updates.discord.com/...` → resolves to `54.89.135.129:443`.
 2. That client does **not honor** the HTTP(S) system proxy (127.0.0.1:7890) nor `HTTPS_PROXY` env.
 3. That IP/domain is unreachable directly from this network.
@@ -31,7 +32,7 @@ ERROR [updater_client]: Failed 16 ... host: updates.discord.com
 I confirmed the asymmetry with live tests:
 
 | Connection | Result |
-|---|---|
+| --- | --- |
 | **Direct (no proxy)**, `--noproxy '*'` | ❌ `Connection timed out after 15s` |
 | **Through mihomo** `127.0.0.1:7890` | ✅ HTTP 200 in 0.34s |
 
