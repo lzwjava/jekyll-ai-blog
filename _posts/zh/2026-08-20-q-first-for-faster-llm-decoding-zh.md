@@ -363,4 +363,4 @@ Transformer看似顺序执行：
 
 * （[arXiv][1]）
 
-[1]: https://arxiv.org/abs/2608.15473 “[2608.15473] Q-First：分离式LLM解码中注意力机制仅需查询”
+[1]: <https://arxiv.org/abs/2608.15473> “[2608.15473] Q-First：分离式LLM解码中注意力机制仅需查询”
