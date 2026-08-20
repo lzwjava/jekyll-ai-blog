@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Thinking Machines Lab's **Inkling-Small**
 
-## Answer:
+## Answer
 
 Thinking Machines Lab released **Inkling-Small**, an open-weight multimodal Mixture-of-Experts (MoE) language model designed to bring frontier-model capabilities into a much cheaper and more deployable size. ([Thinking Machines Lab][1])
 
