@@ -36,5 +36,6 @@ Yes, that intellectual background makes perfect sense. He Qinglian's thesis — 
 The 2020 article is notable for being written *before* Evergrande's public crisis, before the tech crackdown, and before the full scale of the property collapse was visible. The structural analysis held up very well.
 
 **References:**
+
 - [The Present and Future of China's Economy](https://lzwjava.com/present-future-en) — lzwjava.com, March 2020
 - He Qinglian, *China: Crumbling Without Collapsing* (中国：溃而不崩) — key analytical framework on China's slow-motion systemic decay
