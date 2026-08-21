@@ -35,6 +35,7 @@ OpenRouter 首席执行官 Alex Atallah 指出："Stripe 花费了十多年时�
 简而言之：Stripe 将 AI 模型路由视为支付路由的下一版本——一个它知道如何构建并变现的中立基础设施层业务。
 
 **参考资料：**
+
 - [Stripe 官方公告](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter)
 - [彭博社：Stripe 完成 70 亿美元以上交易](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion)
 - [CNBC：Stripe 收购 OpenRouter](https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html)

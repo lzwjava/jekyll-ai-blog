@@ -16,11 +16,13 @@ Answer:
 `torch.argmax` returns the **index** of the maximum value in a tensor — not the value itself, but *where* it is.
 
 **Signature:**
+
 ```python
 torch.argmax(input, dim=None, keepdim=False)
 ```
 
 **Parameters:**
+
 - `input` — the input tensor
 - `dim` — the dimension to reduce along. If `None`, operates on the flattened tensor
 - `keepdim` — whether to keep the reduced dimension
@@ -44,6 +46,7 @@ torch.argmax(x, dim=1)  # → tensor([1, 2])     (col index of max per row)
 ```
 
 **Common use case — classification:**
+
 ```python
 logits = model(inputs)          # shape: [batch, num_classes]
 preds = torch.argmax(logits, dim=1)  # predicted class index per sample
@@ -52,4 +55,5 @@ preds = torch.argmax(logits, dim=1)  # predicted class index per sample
 It's essentially the PyTorch equivalent of NumPy's `np.argmax`.
 
 References:
+
 - [torch.argmax — PyTorch Docs](https://pytorch.org/docs/stable/generated/torch.argmax.html)

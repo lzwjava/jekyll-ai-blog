@@ -27,6 +27,7 @@ type: note
 每个人的10秒发言时间 = **一个时隙**。
 
 **在TDM技术中：**
+
 - 共享信道被划分为重复的**帧**
 - 每个帧被切割成 **N个等长的时隙**
 - 每个时隙 = 为某个来源预留的一小段传输比特的时间（例如，微秒级）
@@ -40,4 +41,5 @@ type: note
 在**同步TDM**中，时隙1 *始终* 属于源A——即使源A没有任何数据要发送，这个时间窗口也会空闲并被浪费。
 
 参考资料：
+
 - [Time-division multiplexing – Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)

@@ -27,6 +27,7 @@ Imagine 4 people sharing one microphone. Each person gets exactly 10 seconds to 
 Each person's 10-second turn = **one slot**.
 
 **In TDM technically:**
+
 - The shared channel is divided into repeating **frames**
 - Each frame is chopped into **N equal slots**
 - Each slot = a tiny chunk of time (e.g., microseconds) reserved for one source to send bits
@@ -40,4 +41,5 @@ Source:  [ Src A  |  Src B |  Src C |  Src D ][ Src A  |  Src B |  Src C |  Src 
 In **synchronous TDM**, Slot 1 is *always* Src A's — even if Src A has nothing to send, that time window sits empty and wasted.
 
 References:
+
 - [Time-division multiplexing – Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)

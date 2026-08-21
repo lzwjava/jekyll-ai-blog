@@ -35,6 +35,7 @@ The deal is valued at approximately $7.5 billion, with $1.5 billion allocated to
 In short: Stripe sees AI model routing as the next version of payment routing — a neutral, infrastructure-layer business it knows how to build and monetize.
 
 **References:**
+
 - [Stripe official announcement](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter)
 - [Bloomberg: Stripe finalizes $7B+ deal](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion)
 - [CNBC: Stripe to buy OpenRouter](https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html)
