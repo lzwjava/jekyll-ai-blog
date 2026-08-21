@@ -42,6 +42,7 @@ Stripe 的成功不是因为银行缺乏工程师，而是因为银行的整个*
 ---
 
 参考资料：
+
 - [《创新者的困境》——克莱顿·克里斯坦森](https://www.amazon.com/Innovators-Dilemma-Revolutionary-Change-Business/dp/0062060244)
 - [Stripe 如何建立起 950 亿美元的支付帝国](https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html)
 - [星展银行数字化转型故事](https://www.dbs.com/innovation/dbs-innovation/our-transformation-journey.html)

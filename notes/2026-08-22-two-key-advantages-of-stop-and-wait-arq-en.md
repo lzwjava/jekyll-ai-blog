@@ -22,11 +22,13 @@ Answer: Stop-and-Wait ARQ is considered **simple** because of the following reas
 4. **Small buffer requirement**: Both sender and receiver only need to buffer a single frame at a time, keeping memory management straightforward.
 
 In summary, the two main advantages are:
+
 - ✅ **Simple** (implementation and logic are minimal)
 - ✅ **Small buffer space required** (only 1 frame buffered at a time)
 
 The main disadvantage is **low channel efficiency**, because the sender sits idle waiting for each ACK, wasting bandwidth — especially on high-latency links.
 
 References:
+
 - [Stop-and-Wait ARQ – Wikipedia](https://en.wikipedia.org/wiki/Stop-and-wait_ARQ)
 - [ARQ Protocols – GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)

@@ -19,11 +19,13 @@ type: note
 4. **小缓冲区需求**：发送方和接收方每次只需缓冲一帧，内存管理简单直接。
 
 总之，两个主要优点是：
+
 - ✅ **简单**（实现和逻辑极简）
 - ✅ **所需缓冲区小**（一次只缓冲1帧）
 
 主要缺点是**信道效率低**，因为发送方在等待每个ACK时处于空闲状态，浪费带宽——尤其在高速迟链路上。
 
 参考来源：
+
 - [停等ARQ – 维基百科](https://en.wikipedia.org/wiki/Stop-and-wait_ARQ)
 - [ARQ协议 – GeeksforGeeks](https://www.geeksforgeeks.org/stop-and-wait-arq/)

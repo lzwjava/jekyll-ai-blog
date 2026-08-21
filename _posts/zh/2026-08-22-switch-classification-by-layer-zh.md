@@ -20,7 +20,7 @@ type: note
 - **三层交换机（Layer 3 Switch）：** 同时工作在数据链路层和**网络层**。除MAC地址外，还使用**IP地址**，能够执行**VLAN间路由**，并在不同子网之间转发数据包——集传统交换机与路由器功能于一体。
 
 | 特性 | 二层交换机 | 三层交换机 |
-|---|---|---|
+| --- | --- | --- |
 | OSI层级 | 第二层（数据链路层） | 第二层 + 第三层（网络层） |
 | 使用地址 | MAC地址 | MAC地址 + IP地址 |
 | 路由能力 | ✗ | ✓ |
@@ -32,5 +32,6 @@ type: note
 ---
 
 参考来源：
+
 - [OSI模型与网络交换机 - Cisco](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-network-switch.html)
 - [三层交换机与路由器对比 - NetworkLessons](https://networklessons.com/switching/layer-3-switch)

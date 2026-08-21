@@ -18,6 +18,7 @@ type: note
 ---
 
 ### 🛣️ 1. 北线 — 约 2,800 英里
+
 **I-90 / US-2**
 纽约 → 芝加哥 → 明尼阿波利斯 → 比灵斯 → 斯波坎 → 西雅图
 
@@ -28,6 +29,7 @@ type: note
 ---
 
 ### 🛣️ 2. 中线 — 约 2,800 英里（最热门）
+
 **I-70 / 历史66号公路**
 华盛顿特区 → 圣路易斯 → 堪萨斯城 → 丹佛 → 盐湖城 → 拉斯维加斯 → 洛杉矶
 
@@ -38,6 +40,7 @@ type: note
 ---
 
 ### 🛣️ 3. 南线 — 约 2,500 英里
+
 **I-10**
 杰克逊维尔（佛罗里达州） → 新奥尔良 → 圣安东尼奥 → 埃尔帕索 → 图森 → 洛杉矶
 
@@ -50,7 +53,7 @@ type: note
 ### 🕐 通用建议
 
 | 因素 | 详情 |
-|---|---|
+| --- | --- |
 | **总距离** | 约 2,500–3,000 英里，横跨海岸 |
 | **驾驶时间** | 连续驾驶约 40–50 小时；休闲行程建议 7–14 天 |
 | **加油站** | 通常每 200–300 英里一次；在内华达/怀俄明州需提前规划 |
@@ -62,6 +65,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Road Trip USA – Cross Country Routes](https://roadtripusa.com)
 - [Route 66 Official Guide](https://www.historic66.com)
 - [National Park Service Road Trip Planner](https://www.nps.gov/subjects/travelamerica/road-trips.htm)

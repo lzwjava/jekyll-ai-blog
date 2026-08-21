@@ -18,6 +18,7 @@ There are three classic highway corridors most drivers choose from:
 ---
 
 ### 🛣️ 1. Northern Route — ~2,800 miles
+
 **I-90 / US-2**
 New York → Chicago → Minneapolis → Billings → Spokane → Seattle
 
@@ -28,6 +29,7 @@ New York → Chicago → Minneapolis → Billings → Spokane → Seattle
 ---
 
 ### 🛣️ 2. Central Route — ~2,800 miles (Most Popular)
+
 **I-70 / Historic Route 66**
 Washington D.C. → St. Louis → Kansas City → Denver → Salt Lake City → Las Vegas → Los Angeles
 
@@ -38,6 +40,7 @@ Washington D.C. → St. Louis → Kansas City → Denver → Salt Lake City → 
 ---
 
 ### 🛣️ 3. Southern Route — ~2,500 miles
+
 **I-10**
 Jacksonville (FL) → New Orleans → San Antonio → El Paso → Tucson → Los Angeles
 
@@ -50,7 +53,7 @@ Jacksonville (FL) → New Orleans → San Antonio → El Paso → Tucson → Los
 ### 🕐 General Tips
 
 | Factor | Details |
-|---|---|
+| --- | --- |
 | **Total distance** | ~2,500–3,000 miles coast to coast |
 | **Driving time** | ~40–50 hours nonstop; plan 7–14 days for a leisure trip |
 | **Fuel stops** | Every 200–300 miles is typical; plan ahead in Nevada/Wyoming |
@@ -62,6 +65,7 @@ Most first-timers recommend the **Central Route via I-70 + a Route 66 segment**,
 ---
 
 **References:**
+
 - [Road Trip USA – Cross Country Routes](https://roadtripusa.com)
 - [Route 66 Official Guide](https://www.historic66.com)
 - [National Park Service Road Trip Planner](https://www.nps.gov/subjects/travelamerica/road-trips.htm)

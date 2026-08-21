@@ -42,6 +42,7 @@ Stripe succeeded not because banks lacked engineers, but because the entire *cul
 ---
 
 References:
+
 - [The Innovator's Dilemma – Clayton Christensen](https://www.amazon.com/Innovators-Dilemma-Revolutionary-Change-Business/dp/0062060244)
 - [How Stripe built a $95B payments empire](https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html)
 - [DBS Bank Digital Transformation Story](https://www.dbs.com/innovation/dbs-innovation/our-transformation-journey.html)

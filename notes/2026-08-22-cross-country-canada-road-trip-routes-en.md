@@ -18,14 +18,16 @@ Canada's cross-country drive is dominated by one iconic highway, with a scenic a
 ---
 
 ### 🛣️ 1. Trans-Canada Highway (Hwy 1) — ~9,000 km / ~5,600 miles
+
 **St. John's, Newfoundland → Victoria, British Columbia**
 
 The longest national highway in the world. Most drivers start (or end) at either:
+
 - **Halifax, Nova Scotia** (more accessible eastern start)
 - **Toronto or Montreal** (common urban starting points)
 
 | Segment | Highlights |
-|---|---|
+| --- | --- |
 | Atlantic (NS → QC) | Cabot Trail, Bay of Fundy, Quebec City |
 | Central (ON → MB) | Toronto, Ottawa, Lake Superior shoreline |
 | Prairies (SK → AB) | Vast flatlands, Regina, Calgary, Banff |
@@ -34,6 +36,7 @@ The longest national highway in the world. Most drivers start (or end) at either
 ---
 
 ### 🛣️ 2. Yellowhead Highway (Hwy 16) — Northern Alternative
+
 **Winnipeg → Edmonton → Prince George → Prince Rupert (BC)**
 
 - Less traveled, more wilderness
@@ -45,7 +48,7 @@ The longest national highway in the world. Most drivers start (or end) at either
 ### 🕐 Key Planning Facts
 
 | Factor | Details |
-|---|---|
+| --- | --- |
 | **Full coast-to-coast distance** | ~9,000 km (St. John's to Victoria) |
 | **Driving time nonstop** | ~90+ hours; plan **3–6 weeks** for a proper trip |
 | **Most popular segment** | Toronto → Vancouver (~4,400 km) |
@@ -58,7 +61,7 @@ The longest national highway in the world. Most drivers start (or end) at either
 ### 🆚 Canada vs USA Cross-Country
 
 | | Canada (Hwy 1) | USA (I-10/I-70) |
-|---|---|---|
+| --- | --- | --- |
 | Distance | ~9,000 km | ~4,500 km |
 | Scenery | More wilderness, mountains, lakes | More variety (desert, cities, plains) |
 | Traffic | Much lighter outside cities | Heavier near major metros |
@@ -69,6 +72,7 @@ The **Banff–Vancouver stretch** alone is considered one of the most breathtaki
 ---
 
 **References:**
+
 - [Trans-Canada Highway Guide – Road Trip Canada](https://www.roadtripcanada.ca)
 - [Parks Canada – Banff & Jasper](https://www.pc.gc.ca)
 - [Tourism Canada Cross-Country Road Trip](https://www.canada.ca/en/canadian-heritage/tourism.html)
