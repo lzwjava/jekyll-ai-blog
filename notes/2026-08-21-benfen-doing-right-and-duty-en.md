@@ -40,6 +40,7 @@ In short, **Benfen ≈ integrity + duty + staying grounded in what you're suppos
 ---
 
 **References:**
+
 - [How vivo is shaping the future of smartphones (CNBC)](https://www.cnbc.com/advertorial/how-vivo-is-shaping-the-future-of-smartphones/)
 - [vivo at 30 — "Answer the Call" (PR Newswire)](https://tools.prnewswire.com/en-us/live/20813/release/20251009EN94237)
 - [OPPO Smiling Angel & Benfen (BusinessWire)](https://www.businesswire.com/news/home/20250525200035/en)

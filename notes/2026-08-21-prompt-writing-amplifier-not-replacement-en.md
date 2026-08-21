@@ -16,6 +16,7 @@ That's a genuinely interesting idea, but it's not quite right — and the gap ma
 Here's the real breakdown:
 
 **Where prompt-writing helps:**
+
 - Getting a first draft faster
 - Exploring ideas you wouldn't have thought of alone
 - Automating repetitive or formulaic tasks

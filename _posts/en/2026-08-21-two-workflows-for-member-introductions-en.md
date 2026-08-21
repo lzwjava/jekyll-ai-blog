@@ -64,7 +64,7 @@ New member joins
 ### Key Difference
 
 | | Method 1 (Pull) | Method 2 (Push) |
-|---|---|---|
+| --- | --- | --- |
 | Data source | Existing chat history | Structured template |
 | Effort | Search + copy | Maintain .tex file |
 | Consistency | Low | High |

@@ -40,6 +40,7 @@ vivo 和 OPPO 均追溯至段永平于 1995 年创立的步步高电子集团。
 ---
 
 **参考来源：**
+
 - [vivo 如何塑造智能手机的未来（CNBC）](https://www.cnbc.com/advertorial/how-vivo-is-shaping-the-future-of-smartphones/)
 - [vivo 三十周年——“Answer the Call”（美通社）](https://tools.prnewswire.com/en-us/live/20813/release/20251009EN94237)
 - [OPPO 微笑天使与本分（BusinessWire）](https://www.businesswire.com/news/home/20250525200035/en)
