@@ -19,7 +19,7 @@ Imagine a still pond. When you drop a stone into it, that impact is the *disturb
 **What gets "disturbed" depends on the wave type:**
 
 | Wave Type | What Is Disturbed |
-|---|---|
+| --- | --- |
 | Water wave | Height/pressure of water surface |
 | Sound wave | Air pressure and density |
 | String wave | Vertical position of the string |
@@ -29,11 +29,13 @@ Imagine a still pond. When you drop a stone into it, that impact is the *disturb
 **Key point:** The disturbance does *not* carry matter with it — it only carries **energy**. For example, when a sound wave travels through air, the air molecules don't fly across the room; they just push their neighbors and return to rest.
 
 **Types of disturbances:**
+
 - **Single pulse** — a one-time disruption (e.g., a single clap)
 - **Periodic disturbance** — a repeated, regular disruption (e.g., a vibrating tuning fork), which produces a continuous wave
 
 In short, a disturbance is the **cause**; the wave is the **effect** — the mechanism by which that disturbance spreads through space.
 
 References:
+
 - [Disturbance and Wave Propagation - Physics Classroom](https://www.physicsclassroom.com/class/waves/Lesson-1/What-is-a-Wave)
 - [Wave Motion - Britannica](https://www.britannica.com/science/wave-motion)

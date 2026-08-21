@@ -25,7 +25,7 @@ Answer:
 **Compared to Single-mode fiber:**
 
 | Feature | Multimode | Single-mode |
-|---|---|---|
+| --- | --- | --- |
 | Core diameter | 50 / 62.5 µm | 8–10 µm |
 | Light source | LED / 850nm laser | 1300–1550nm laser |
 | Max distance | ~550m (Gigabit) | Up to 100+ km |
@@ -35,5 +35,6 @@ Answer:
 **Simple analogy:** Think of multimode fiber like a wide highway where multiple cars (light rays) travel in different lanes simultaneously — efficient for short trips but prone to traffic (signal dispersion) over long distances. Single-mode is like a single narrow lane, only one car at a time, but with no congestion over very long distances.
 
 References:
+
 - [Multimode Fiber – Fiber Optic Association](https://www.thefoa.org/tech/ref/fiber/multimode.html)
 - [Multimode vs Single-mode Fiber – FS.com](https://community.fs.com/article/single-mode-cabling-cost-vs-multimode-cabling-cost.html)

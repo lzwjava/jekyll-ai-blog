@@ -16,7 +16,7 @@ Answer:
 Both operate at **Layer 2 (Data Link Layer)** and use MAC addresses to forward frames, but they differ in several ways:
 
 | Feature | Bridge | Switch |
-|---|---|---|
+| --- | --- | --- |
 | **Ports** | Typically 2–4 ports | Many ports (8, 24, 48…) |
 | **Processing** | Software-based | Hardware-based (ASICs) |
 | **Speed** | Slower | Much faster |
@@ -31,5 +31,6 @@ Historically, bridges were used to connect two LAN segments. Switches replaced t
 > Both still share one broadcast domain per VLAN, which is why routers (Layer 3) are needed to separate broadcast traffic.
 
 References:
+
 - [Network Bridge - Wikipedia](https://en.wikipedia.org/wiki/Network_bridge)
 - [Network Switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)

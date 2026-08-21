@@ -25,5 +25,6 @@ type: note
 代价是速度——大声朗读时，阅读速度大约会慢3到4倍。但如果理解力和记忆力比阅读量更重要，那么放慢速度是值得的。一种更轻量的方式是**有意识地进行默读**——轻声念出单词——这样既能获得部分相同的好处，又不会打扰他人。
 
 参考资料：
+
 - [大声朗读的好处 – 《今日心理学》](https://www.psychologytoday.com/us/blog/the-athletes-way/201812/reading-aloud-strengthens-your-brain)
 - [记忆与“产出效应” – 滑铁卢大学](https://uwaterloo.ca/news/news/saying-words-aloud-helps-remember-them)

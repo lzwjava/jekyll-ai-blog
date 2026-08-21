@@ -16,7 +16,7 @@ Answer:
 两者都工作在 **Layer 2 (Data Link Layer)**，使用 MAC 地址转发帧，但它们在几个方面有所不同：
 
 | Feature | Bridge | Switch |
-|---|---|---|
+| --- | --- | --- |
 | **Ports** | 通常 2–4 个端口 | 多个端口（8、24、48…） |
 | **Processing** | 基于软件 | 基于硬件（ASIC） |
 | **Speed** | 较慢 | 快得多 |
@@ -31,5 +31,6 @@ Answer:
 > 两者仍然在每个 VLAN 中共享一个广播域，这就是为什么需要路由器（Layer 3）来分隔广播流量。
 
 参考：
+
 - [Network Bridge - Wikipedia](https://en.wikipedia.org/wiki/Network_bridge)
 - [Network Switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)

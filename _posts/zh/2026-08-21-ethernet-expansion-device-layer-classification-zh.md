@@ -22,5 +22,6 @@ type: note
 因此答案 **A（集线器）** 正确。集线器与中继器一样，纯粹在物理层工作——它们放大信号并将其重新传输到所有端口，对所携带的数据没有任何智能处理。
 
 参考资料：
+
 - [Ethernet Hub - Wikipedia](https://en.wikipedia.org/wiki/Ethernet_hub)
 - [Network Repeater - Wikipedia](https://en.wikipedia.org/wiki/Repeater)

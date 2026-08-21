@@ -25,7 +25,7 @@ type: note
 **与单模光纤对比：**
 
 | 特性 | 多模 | 单模 |
-|---|---|---|
+| --- | --- | --- |
 | 纤芯直径 | 50 / 62.5 µm | 8–10 µm |
 | 光源 | LED / 850nm 激光 | 1300–1550nm 激光 |
 | 最大距离 | ~550m（千兆） | 可达 100+ 公里 |
@@ -35,5 +35,6 @@ type: note
 **简单类比：** 可以将多模光纤想象成一条宽阔的高速公路，多辆汽车（光线）同时在不同的车道上行驶——短途出行效率高，但长途行驶容易出现拥堵（信号色散）。单模光纤则像一条狭窄的单车道，每次只能通行一辆车，但长距离行驶不会出现拥堵。
 
 参考资料：
+
 - [多模光纤 – Fiber Optic Association](https://www.thefoa.org/tech/ref/fiber/multimode.html)
 - [多模与单模光纤对比 – FS.com](https://community.fs.com/article/single-mode-cabling-cost-vs-multimode-cabling-cost.html)

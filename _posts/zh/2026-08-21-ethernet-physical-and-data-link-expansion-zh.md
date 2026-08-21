@@ -22,5 +22,6 @@ type: note
 因此，答案 **A（集线器）** 是正确的。集线器与中继器一样，纯粹在物理层工作——它们将信号放大并转发到所有端口，不关心所承载的数据内容。
 
 参考：
+
 - [以太网集线器 - 维基百科](https://en.wikipedia.org/wiki/Ethernet_hub)
 - [网络中继器 - 维基百科](https://en.wikipedia.org/wiki/Repeater)

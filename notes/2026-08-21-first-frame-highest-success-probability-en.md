@@ -24,13 +24,14 @@ In the **binary exponential backoff algorithm** (used in CSMA/CD, e.g., Ethernet
 **Why A (first-time transmission) has the highest success probability:**
 
 | Frame | Collision Count | Backoff Range | Network State | Success Probability |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | A | 0 | N/A (no wait) | Least congested | **Highest** |
 | B | 2 | {0–3} | Moderate | Lower |
 | C | 4 | {0–15} | More congested | Even lower |
 | D | 8 | {0–255} | Very congested | Lowest |
 
 Two compounding reasons make A the best:
+
 1. **Smaller backoff range** → less random delay, faster retry
 2. **Fewer prior collisions** → the network was less congested at that moment
 
@@ -41,5 +42,6 @@ Your memory trick works well:
 ---
 
 References:
+
 - [Binary Exponential Backoff - Wikipedia](https://en.wikipedia.org/wiki/Exponential_backoff)
 - [CSMA/CD and Backoff Algorithm - GeeksforGeeks](https://www.geeksforgeeks.org/collision-detection-csmacd/)

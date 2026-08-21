@@ -25,5 +25,6 @@ For AI-generated answers specifically, this is a great habit. AI responses tend 
 The tradeoff is speed — you read roughly 3–4x slower when speaking aloud. But if comprehension and retention matter more than throughput, the slowdown is worth it. A lighter version is **subvocalizing with intention** — mouthing the words quietly — which captures some of the same benefit without disturbing others.
 
 References:
+
 - [The Benefits of Reading Aloud – Psychology Today](https://www.psychologytoday.com/us/blog/the-athletes-way/201812/reading-aloud-strengthens-your-brain)
 - [Memory and the "Production Effect" – University of Waterloo](https://uwaterloo.ca/news/news/saying-words-aloud-helps-remember-them)

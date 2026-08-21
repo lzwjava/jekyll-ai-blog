@@ -22,5 +22,6 @@ The classification is:
 So the answer **A (Hub)** is right. Hubs, like repeaters, operate purely at the physical layer — they amplify and retransmit signals to all ports with no intelligence about the data being carried.
 
 References:
+
 - [Ethernet Hub - Wikipedia](https://en.wikipedia.org/wiki/Ethernet_hub)
 - [Network Repeater - Wikipedia](https://en.wikipedia.org/wiki/Repeater)

@@ -23,7 +23,7 @@ So a **集散服务器** is a server that acts as a **central hub**: it centrali
 **Why the other options are wrong:**
 
 | Option | Term | Why incorrect |
-|--------|------|---------------|
+| -------- | ------ | --------------- |
 | A | 联机 (online) | Refers to a device being *connected/online*, not a sharing architecture |
 | B | 脱机 (offline) | Refers to operating *without* a network connection |
 | D | 分时 (time-sharing) | Refers to *timesharing systems* where CPU time is divided among users, not full data sharing |
@@ -33,5 +33,6 @@ So a **集散服务器** is a server that acts as a **central hub**: it centrali
 ---
 
 References:
+
 - [LAN Server Types Overview](https://en.wikipedia.org/wiki/File_server)
 - [Centralized vs Distributed Architecture](https://en.wikipedia.org/wiki/Distributed_computing)

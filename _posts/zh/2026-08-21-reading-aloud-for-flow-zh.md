@@ -32,5 +32,6 @@ type: note
 所以是的——大声朗读悄然成为最有效的专注仪式之一，而大多数人完全忽视了它。
 
 参考文献：
+
 - [心流状态——米哈里·契克森米哈赖的原始理论框架](https://www.pursuit-of-happiness.org/history-of-happiness/mihaly-csikszentmihalyi/)
 - [正念与当下——Mindful.org](https://www.mindful.org/what-is-mindfulness/)

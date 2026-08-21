@@ -24,13 +24,14 @@ type: note
 **为什么A（首次发送）的成功概率最高：**
 
 | 帧 | 碰撞次数 | 退避范围 | 网络状态 | 成功概率 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | A | 0 | 无（无需等待） | 最不拥挤 | **最高** |
 | B | 2 | {0–3} | 中等 | 较低 |
 | C | 4 | {0–15} | 更拥挤 | 更低 |
 | D | 8 | {0–255} | 非常拥挤 | 最低 |
 
 两个叠加的原因使A成为最佳：
+
 1. **更小的退避范围** → 随机延迟更小，重试更快
 2. **更少的先前碰撞** → 当时网络拥堵程度更低
 
@@ -40,5 +41,6 @@ type: note
 ---
 
 参考资料：
+
 - [Binary Exponential Backoff - Wikipedia](https://en.wikipedia.org/wiki/Exponential_backoff)
 - [CSMA/CD and Backoff Algorithm - GeeksforGeeks](https://www.geeksforgeeks.org/collision-detection-csmacd/)

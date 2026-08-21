@@ -32,7 +32,7 @@ type: note
 **每个协议为何需要（或不需要）IP：**
 
 | 协议 | 依赖IP？ | 原因 |
-|----------|-------------|--------|
+| ---------- | ------------- | -------- |
 | **ARP** | ❌ 否 | 直接运行在以太网帧之上；在IP功能生效前完成IP→MAC的映射 |
 | **ICMP** | ✅ 是 | 封装在IP数据包内部（协议字段=1）；需要IP来路由错误消息 |
 | **TCP** | ✅ 是 | 封装在IP数据包内部（协议字段=6）；需要IP实现端到端传输 |
@@ -62,6 +62,7 @@ ARP直接在以太网帧头部使用**EtherType 0x0806**——与IP的**EtherTyp
 > *“ARP是* ***地基建造者*** *——它铺好路，IP才能在上面行驶。你无法用路本身来铺路。”*
 
 参考文献：
+
 - [RFC 826 – An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826)
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [RFC 792 – Internet Control Message Protocol (ICMP)](https://www.rfc-editor.org/rfc/rfc792)

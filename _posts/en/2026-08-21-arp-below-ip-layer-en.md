@@ -32,7 +32,7 @@ Physical Layer       →  cables, signals
 **Why each protocol needs IP (or not):**
 
 | Protocol | Relies on IP? | Reason |
-|----------|-------------|--------|
+| ---------- | ------------- | -------- |
 | **ARP** | ❌ No | Runs directly over Ethernet frames; maps IP→MAC *before* IP can function |
 | **ICMP** | ✅ Yes | Encapsulated inside IP packets (Protocol field = 1); needs IP to route error messages |
 | **TCP** | ✅ Yes | Encapsulated inside IP packets (Protocol field = 6); needs IP for end-to-end delivery |
@@ -62,6 +62,7 @@ ARP uses **EtherType 0x0806** directly in the Ethernet frame header — complete
 > *"ARP is the* ***foundation builder*** *— it lays the road so IP can drive on it. You can't use the road to build the road."*
 
 References:
+
 - [RFC 826 – An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826)
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [RFC 792 – Internet Control Message Protocol (ICMP)](https://www.rfc-editor.org/rfc/rfc792)
