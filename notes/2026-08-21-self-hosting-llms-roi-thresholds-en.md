@@ -24,7 +24,7 @@ This is a solid idea *for the right company* — but the economics only work abo
 The hardware tiers roughly map like this: RTX 4090 (24GB) for serious local inference; RTX 6000 Ada (48GB) or RTX Pro 6000 (96GB) for team/research/workstation use; multi-GPU servers for production.
 
 | Model | Minimum Setup | Realistic Production |
-|---|---|---|
+| --- | --- | --- |
 | DeepSeek R1-Distill 7B | 1× RTX 4090 | 1× RTX 4090 |
 | DeepSeek R1-Distill 32B | 2× RTX 4090 | 1× RTX Pro 6000 (96GB) |
 | DeepSeek R1-Distill 70B | 3–4× RTX 4090 | 2× RTX Pro 6000 |
@@ -50,7 +50,7 @@ A self-hosted LLM deployment conservatively requires 10–20 hours/month of engi
 ### 🏢 What Company Size Makes This Work?
 
 | Company Profile | Recommendation |
-|---|---|
+| --- | --- |
 | **Solo dev / small startup (<10 people)** | Use cloud API — self-hosting TCO is too high |
 | **Mid-size startup (10–50 people), high API spend >$3K/mo** | Hybrid: self-host a distilled model (32B–70B) on 2–4× 4090 |
 | **Mid-size company (50–200 people), privacy-sensitive** | 5–10× RTX 4090 or 2–4× RTX Pro 6000 for V4-Flash |
@@ -73,6 +73,7 @@ Self-hosting economics improved between 2024 and 2026: GPU prices fell, open-wei
 ---
 
 **References:**
+
 - [DeepSeek V4 VRAM & GPU Requirements (2026)](https://codersera.com/blog/deepseek-v4-vram-gpu-requirements-2026/)
 - [Self-Hosted LLM GPU Selection Guide](https://www.gpu-mart.com/guides/self-hosted-llm)
 - [Local LLM Total Cost of Ownership 2026](https://promptcost.org/en/blog/local-llms-total-cost-ownership-2026/)

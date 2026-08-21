@@ -24,7 +24,7 @@ type: note
 硬件层级大致如下：RTX 4090（24GB）适用于严肃的本地推理；RTX 6000 Ada（48GB）或RTX Pro 6000（96GB）适用于团队/研究/工作站；多GPU服务器适用于生产环境。
 
 | 模型 | 最低配置 | 实际生产配置 |
-|---|---|---|
+| --- | --- | --- |
 | DeepSeek R1-Distill 7B | 1× RTX 4090 | 1× RTX 4090 |
 | DeepSeek R1-Distill 32B | 2× RTX 4090 | 1× RTX Pro 6000（96GB） |
 | DeepSeek R1-Distill 70B | 3–4× RTX 4090 | 2× RTX Pro 6000 |
@@ -50,7 +50,7 @@ type: note
 ### 🏢 什么规模的公司适合这样做？
 
 | 公司概况 | 建议 |
-|---|---|
+| --- | --- |
 | **独立开发者/小型初创公司（<10人）** | 使用云API——自行托管的总体拥有成本太高 |
 | **中型初创公司（10–50人），API月支出 >3000美元** | 混合方案：在2–4× RTX 4090上自行托管蒸馏模型（32B–70B） |
 | **中型公司（50–200人），对隐私敏感** | 5–10× RTX 4090 或 2–4× RTX Pro 6000 用于V4-Flash |
@@ -73,6 +73,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [DeepSeek V4 VRAM与GPU需求（2026年）](https://codersera.com/blog/deepseek-v4-vram-gpu-requirements-2026/)
 - [自托管LLM GPU选择指南](https://www.gpu-mart.com/guides/self-hosted-llm)
 - [本地LLM总体拥有成本2026年分析](https://promptcost.org/en/blog/local-llms-total-cost-ownership-2026/)
