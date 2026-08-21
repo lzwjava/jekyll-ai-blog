@@ -36,5 +36,6 @@ Windows Server 2008 introduced the following major new features:
 ---
 
 **References:**
+
 - [Windows Server 2008 Overview – Microsoft Docs](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349801(v=ws.10))
 - [What's New in Windows Server 2008](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc514417(v=ws.10))
