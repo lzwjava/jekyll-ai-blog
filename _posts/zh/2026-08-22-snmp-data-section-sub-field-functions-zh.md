@@ -18,7 +18,7 @@ type: note
 SNMP 消息的数据部分包含以下子字段：
 
 | # | 子字段 | 功能 |
-|---|--------|------|
+| --- | -------- | ------ |
 | 1 | **Encryption Field** | 当数据需要以加密形式传输以确保机密性时使用。 |
 | 2 | **PDU Type Field** | 标识 SNMP 消息的类型（例如 GetRequest、SetRequest、GetResponse、Trap 等）。 |
 | 3 | **Request Identifier Field** | 由管理站设置的 4 字节整数，用于将请求与其对应的响应匹配。 |
@@ -29,5 +29,6 @@ SNMP 消息的数据部分包含以下子字段：
 ---
 
 **参考资料：**
+
 - [SNMP 协议概述 – RFC 1157](https://www.rfc-editor.org/rfc/rfc1157)
 - [SNMP MIB 和 PDU 结构 – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/7000-snmp-mib-oid.html)
