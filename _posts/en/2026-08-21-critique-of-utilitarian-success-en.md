@@ -54,5 +54,6 @@ The page is a well-formatted English translation/curation of Yin Wang's original
 ---
 
 **References:**
+
 - [Yin Wang: On So-Called Success (English)](https://lzwjava.com/success-en)
 - [Yin Wang's Blog — Surely I Am Joking](https://www.yinwang.org)

@@ -23,7 +23,7 @@ type: note
 **波的核心特性：**
 
 | 属性 | 描述 |
-|---|---|
+| --- | --- |
 | **波长 (λ)** | 相邻两个波峰或波谷之间的距离 |
 | **频率 (f)** | 每秒振动的次数（赫兹, Hz） |
 | **振幅** | 距平衡位置的最大位移 |
@@ -33,5 +33,6 @@ type: note
 波还表现出**反射**、**折射**、**衍射**和**干涉**等行为——这些现象是光学、声学和量子力学的基础。
 
 参考资料：
+
 - [波 - 维基百科](https://en.wikipedia.org/wiki/Wave)
 - [什么是波？ - 可汗学院](https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/mechanical-waves/a/wave-characteristics-review)
