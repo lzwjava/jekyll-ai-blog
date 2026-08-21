@@ -22,7 +22,7 @@ type: note
 **OSI层映射（供参考）：**
 
 | 层 | 名称 | 示例 |
-|-------|------|---------|
+| ------- | ------ | --------- |
 | 7 | 应用层 | HTTP, FTP, DNS |
 | 6 | 表示层 | TLS, JPEG |
 | 5 | 会话层 | NetBIOS |
@@ -34,5 +34,6 @@ type: note
 因此，空白处应填写：**网络（Network）层**
 
 参考文献：
+
 - [OSI模型 – 维基百科](https://en.wikipedia.org/wiki/OSI_model)
 - [互联网协议 – 维基百科](https://en.wikipedia.org/wiki/Internet_Protocol)

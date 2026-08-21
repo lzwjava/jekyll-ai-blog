@@ -19,7 +19,7 @@ Answer: Class D IP addresses, whose highest 4 bits are **1110**, are reserved fo
 - Hosts join a multicast group using the **IGMP (Internet Group Management Protocol)**.
 
 | Class | Highest bits | Range | Purpose |
-|-------|-------------|-------|---------|
+| ------- | ------------- | ------- | --------- |
 | A | 0 | 0–127 | Unicast (large networks) |
 | B | 10 | 128–191 | Unicast (medium networks) |
 | C | 110 | 192–223 | Unicast (small networks) |
@@ -27,5 +27,6 @@ Answer: Class D IP addresses, whose highest 4 bits are **1110**, are reserved fo
 | E | 1111 | 240–255 | Reserved/Experimental |
 
 References:
+
 - [IP Multicast - Wikipedia](https://en.wikipedia.org/wiki/IP_multicast)
 - [RFC 1112 – Host Extensions for IP Multicasting](https://datatracker.ietf.org/doc/html/rfc1112)

@@ -24,6 +24,7 @@ type: note
 π0 is essentially a simplified **Transfusion** architecture influenced by Stable Diffusion 3, adopting **flow matching** instead of diffusion for policy generation, and using separated parameters via Joint Attention (mmDiT style). It builds on top of a pretrained vision-language model — **PaliGemma 2B**.
 
 In plain terms:
+
 - It takes **camera images + language instructions + robot joint states** as input
 - It outputs **low-level motor commands** (exact joint movements)
 - The "flow matching" part lets it model multiple valid ways to complete a task, rather than just one rigid path
@@ -47,7 +48,7 @@ Between **1–20 hours of data** is sufficient to fine-tune π0 to a variety of 
 ## The π0 Family (Evolution)
 
 | Version | Key Addition |
-|---|---|
+| --- | --- |
 | **π0** | Original generalist foundation model (Oct 2024) |
 | **π0.5** | Better generalization across tasks and environments |
 | **π0.6** | Added **RECAP** — RL-based fine-tuning, human correction feedback loop (the one Fan Haoqiang specifically mentions) |
@@ -60,6 +61,7 @@ Physical Intelligence is also working on Multi-Scale Embodied Memory (MEM), givi
 ## Why Is It a "Culminating Work" (as Fan Said)?
 
 It was the first model to clearly demonstrate:
+
 1. **VLA (Vision-Language-Action)** as the unified framework
 2. How **Transformer + flow matching** applies to continuous robot action outputs
 3. That the **LLM training playbook** (pre-train on massive data → fine-tune for specific tasks) works for robotics too
@@ -68,6 +70,7 @@ It was the first model to clearly demonstrate:
 ---
 
 **References:**
+
 - [π0 Blog Post — Physical Intelligence](https://www.pi.website/blog/pi0)
 - [π0 Paper — arxiv](https://arxiv.org/html/2410.24164v1)
 - [Physical Intelligence Official Site](https://www.pi.website/)

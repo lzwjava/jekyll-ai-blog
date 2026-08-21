@@ -22,7 +22,7 @@ Here's why:
 **OSI Layer Mapping (for context):**
 
 | Layer | Name | Examples |
-|-------|------|---------|
+| ------- | ------ | --------- |
 | 7 | Application | HTTP, FTP, DNS |
 | 6 | Presentation | TLS, JPEG |
 | 5 | Session | NetBIOS |
@@ -34,5 +34,6 @@ Here's why:
 So the blank should be filled with: **网络（Network）层**
 
 References:
+
 - [OSI Model – Wikipedia](https://en.wikipedia.org/wiki/OSI_model)
 - [Internet Protocol – Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)

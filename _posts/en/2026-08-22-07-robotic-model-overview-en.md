@@ -36,4 +36,5 @@ The key to π0.7's broad generalization is training with diverse multimodal prom
 Rather than requiring separate fine-tuned specialist models for each task, the single π0.7 model can perform laundry folding, espresso making, and box folding to the same or even higher performance level as task-specific RL-trained specialists.
 
 **References:**
+
 - [π0.7: A Steerable Model with Emergent Capabilities](https://www.pi.website/blog/pi07) — Physical Intelligence
