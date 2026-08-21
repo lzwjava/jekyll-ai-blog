@@ -14,6 +14,7 @@ type: note
 回答：它并非*治愈手段*，但确实是对ADHD或注意力困难人群最实用且被低估的工具之一——以下是需要区分的关键原因。
 
 **为何它并非治愈手段：**
+
 - ADHD属于神经学问题——涉及大脑中多巴胺和去甲肾上腺素的调节。没有任何行为技巧能从根源上重新连接神经回路。
 - 它无法替代必要的治疗、药物或结构化支持。
 
@@ -34,5 +35,6 @@ type: note
 如果你或你认识的人正面临严重的注意力困难，建议将此方法与专业支持结合使用，而非单独依赖。
 
 参考文献：
+
 - [ADHD与阅读策略 – ADDitude杂志](https://www.additudemag.com/reading-strategies-for-adhd/)
 - [ADHD如何影响阅读 – Understood.org](https://www.understood.org/en/articles/how-adhd-affects-reading)

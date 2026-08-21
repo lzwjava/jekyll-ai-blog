@@ -16,6 +16,7 @@ Answer: The answer is **吞吐量 (Throughput)**.
 Throughput refers to the actual amount of data successfully transmitted through a network, channel, or interface within a given period of time. It is a key performance metric in networking, typically measured in units like **bps (bits per second)**, **Mbps**, or **Gbps**.
 
 Key distinctions:
+
 - **Bandwidth** — the *theoretical maximum* capacity of a link
 - **Throughput** — the *actual measured* data transfer rate (always ≤ bandwidth)
 - **Latency** — the delay/time for data to travel from source to destination
@@ -23,5 +24,6 @@ Key distinctions:
 Throughput can be affected by network congestion, packet loss, protocol overhead, hardware limitations, and interference.
 
 References:
+
 - [Throughput - Wikipedia](https://en.wikipedia.org/wiki/Throughput)
 - [Bandwidth vs Throughput - Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-throughput/)

@@ -25,5 +25,6 @@ Key characteristics:
 A classic real-world example is **T1/E1 telephone circuits**, where each voice channel gets a fixed 8-bit slot in every 125 µs frame.
 
 References:
+
 - [Time-division multiplexing – Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)
 - [Synchronous vs Statistical TDM – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-synchronous-tdm-and-asynchronous-tdm/)

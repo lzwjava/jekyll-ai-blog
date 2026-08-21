@@ -25,5 +25,6 @@ type: note
 一个经典的现实世界例子是**T1/E1电话线路**，其中每个语音信道在每个125微秒的帧中获得一个固定的8位时隙。
 
 参考文献：
+
 - [时分多路复用 – Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)
 - [同步TDM与异步TDM的区别 – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-synchronous-tdm-and-asynchronous-tdm/)

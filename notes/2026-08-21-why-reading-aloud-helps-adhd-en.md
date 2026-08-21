@@ -14,6 +14,7 @@ Question: Can reading aloud serve as a remedy or coping tool for ADHD and attent
 Answer: It's not a *cure*, but it's genuinely one of the most practical and underrated tools for people with ADHD or attention difficulties — here's why the distinction matters.
 
 **Why it's NOT a cure:**
+
 - ADHD is neurological — dopamine and norepinephrine regulation in the brain. No behavioral technique rewires that at the root level.
 - It won't replace therapy, medication, or structured support for those who need it.
 
@@ -34,5 +35,6 @@ Many people with ADHD discover this trick naturally and don't realize why it wor
 If you or someone you know is dealing with attention difficulties seriously, it's worth combining this with professional support rather than relying on it alone.
 
 References:
+
 - [ADHD and Reading Strategies – ADDitude Magazine](https://www.additudemag.com/reading-strategies-for-adhd/)
 - [How ADHD Affects Reading – Understood.org](https://www.understood.org/en/articles/how-adhd-affects-reading)
