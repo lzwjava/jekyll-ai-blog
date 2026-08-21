@@ -22,7 +22,7 @@ US export controls banned shipments of the full-spec RTX 4090 to China due to it
 **Key spec differences**
 
 | | RTX 4090 | RTX 4090D |
-|---|---|---|
+| --- | --- | --- |
 | CUDA Cores | 16,384 | 14,592 |
 | TDP | 450W | 425W |
 | Memory | 24GB GDDR6X | 24GB GDDR6X |
@@ -40,6 +40,7 @@ ASUS's custom ROG Strix RTX 4090D can push TDP from 425W up to 600W via overcloc
 In short: the 4090D is a slightly nerfed version for the Chinese market, with ~5–10% lower performance depending on workload, but the same VRAM and a slightly lower power draw.
 
 **References:**
+
 - [RTX 4090 China Guide: 4090 vs 4090D Explained](https://electronics.alibaba.com/buyingguides/rtx-4090-china-guide-4090-vs-4090d-explained)
 - [RTX 4090 vs 4090D – Oreate AI Blog](https://www.oreateai.com/blog/rtx-4090-vs-4090d-unpacking-the-nuances-of-nvidias-flagship-gpus/346eabc62c7e033966dab3fef1107ca4)
 - [ASUS RTX 4090D Outperforming RTX 4090 – Game Rant](https://gamerant.com/asus-rtx-4090d-outperforming-rtx-4090/)

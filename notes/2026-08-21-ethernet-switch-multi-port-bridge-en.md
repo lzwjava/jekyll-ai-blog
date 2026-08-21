@@ -18,6 +18,7 @@ Answer:
 A **bridge** is a network device that connects two or more network segments and forwards frames between them based on **MAC addresses**. It operates at **Layer 2 (Data Link Layer)** of the OSI model.
 
 Key behaviors of a bridge:
+
 - It reads the **source MAC address** of incoming frames to learn which device is on which port
 - It reads the **destination MAC address** to decide where to forward the frame
 - It maintains a **MAC address table** (also called a forwarding table)
@@ -30,7 +31,7 @@ A traditional bridge typically has **only 2 ports** — connecting two segments.
 An Ethernet switch is essentially the **same concept, but scaled up** to many ports (8, 24, 48, etc.). Each port on a switch is its own **collision domain**, just like a bridge separating two segments.
 
 | Feature | Traditional Bridge | Ethernet Switch |
-|---|---|---|
+| --- | --- | --- |
 | Ports | 2 (typically) | Many (8–48+) |
 | MAC learning | ✅ | ✅ |
 | Forwarding by MAC | ✅ | ✅ |
@@ -44,6 +45,7 @@ So a switch = a bridge with **many ports** → "multi-port bridge."
 Because the switch makes forwarding decisions based on **MAC addresses**, which are Layer 2 addresses. It does **not** look at IP addresses (that's Layer 3 / routers).
 
 The Data Link Layer is responsible for:
+
 - **MAC addressing**
 - **Frame formatting**
 - **Error detection** (CRC)
@@ -60,5 +62,6 @@ Network Layer (L3)   →  Router (forwards by IP address)
 ```
 
 References:
+
 - [OSI Model - Cisco](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-osi-model.html)
 - [Network Bridges vs Switches - Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-network-bridge/)

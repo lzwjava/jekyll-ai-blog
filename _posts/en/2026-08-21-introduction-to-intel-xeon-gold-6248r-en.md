@@ -22,7 +22,7 @@ It is a 64-bit, 24-core x86 high-performance server microprocessor introduced by
 **Key Specs**
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | Cores / Threads | 24 / 48 |
 | Base Clock | 3.0 GHz |
 | Turbo Boost | 4.0 GHz |
@@ -52,6 +52,7 @@ The processor is now discontinued, with its End of Servicing Updates date having
 ---
 
 **References:**
+
 - [Intel Xeon Gold 6248R Official Specs](https://www.intel.com/content/www/us/en/products/sku/199351/intel-xeon-gold-6248r-processor-35-75m-cache-3-00-ghz/specifications.html)
 - [WikiChip – Xeon Gold 6248R](https://en.wikichip.org/wiki/intel/xeon_gold/6248r)
 - [ServeTheHome – Benchmarks and Review](https://www.servethehome.com/intel-xeon-gold-6248r-benchmarks-and-review/)

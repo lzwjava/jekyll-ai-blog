@@ -38,6 +38,7 @@ type: note
 理想的输入输出比例并非90%输入/10%输出——接近50/50的比例才能带来更好的记忆保持和精神耐力。
 
 **参考文献**：
+
 - [认知负荷理论 – 斯威勒](https://en.wikipedia.org/wiki/Cognitive_load)
 - [费曼技巧](https://fs.blog/feynman-technique/)
 - [为什么我们会忘记读过的大部分内容](https://www.theguardian.com/books/2021/jun/26/why-we-forget-most-of-the-books-we-read)

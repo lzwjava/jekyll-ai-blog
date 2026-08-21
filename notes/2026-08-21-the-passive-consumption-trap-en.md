@@ -38,6 +38,7 @@ Reading feels productive, so people keep doing it. But *recognition* (seeing som
 The ideal ratio isn't 90% input / 10% output — closer to 50/50 produces far better retention and mental stamina.
 
 References:
+
 - [Cognitive Load Theory – Sweller](https://en.wikipedia.org/wiki/Cognitive_load)
 - [The Feynman Technique](https://fs.blog/feynman-technique/)
 - [Why We Forget Most of What We Read](https://www.theguardian.com/books/2021/jun/26/why-we-forget-most-of-the-books-we-read)

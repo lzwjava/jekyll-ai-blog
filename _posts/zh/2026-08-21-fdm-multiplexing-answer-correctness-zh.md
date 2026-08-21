@@ -26,5 +26,6 @@ type: note
 ---
 
 参考：
+
 - [频分多路复用 – 维基百科](https://en.wikipedia.org/wiki/Frequency-division_multiplexing)
 - [多路复用技术概述 – GeeksforGeeks](https://www.geeksforgeeks.org/multiplexing-channel-sharing-in-computer-network/)

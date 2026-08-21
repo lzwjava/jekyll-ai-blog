@@ -24,10 +24,12 @@ type: note
 因此，如果问题中给出的数值是这些，那么选项C确实是正确答案。
 
 作为对比：
+
 - **1000Base-LX** 使用长波长激光（~1300 nm）的单模光纤，可达5公里
 - **1000Base-T** 使用Cat5e/Cat6铜缆，最长100米
 - **1000Base-CX** 使用短铜缆（双轴），最长25米
 
 参考：
+
 - [IEEE 802.3z – 千兆以太网标准](https://standards.ieee.org/ieee/802.3z/1119/)
 - [1000BASE-SX – 光纤协会](https://www.thefoa.org/tech/ref/appln/1000base.html)

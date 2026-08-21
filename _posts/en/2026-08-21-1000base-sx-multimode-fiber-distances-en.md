@@ -24,10 +24,12 @@ Yes, that statement is correct. Here's a breakdown:
 So option C is indeed the correct answer if those are the stated values in the question.
 
 For contrast:
+
 - **1000Base-LX** uses single-mode fiber with long-wavelength laser (~1300 nm), reaching up to 5 km
 - **1000Base-T** uses Cat5e/Cat6 copper, up to 100m
 - **1000Base-CX** uses short copper cable (twinax), up to 25m
 
 References:
+
 - [IEEE 802.3z – Gigabit Ethernet Standard](https://standards.ieee.org/ieee/802.3z/1119/)
 - [1000BASE-SX – Fiber Optic Association](https://www.thefoa.org/tech/ref/appln/1000base.html)

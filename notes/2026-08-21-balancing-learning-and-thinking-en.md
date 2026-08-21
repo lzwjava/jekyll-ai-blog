@@ -24,5 +24,6 @@ It remains one of the most relevant maxims in education today, essentially antic
 Note: You wrote "则dei" — the correct character is **则殆 (zé dài)**, meaning "then peril/danger." Easy mix-up in pronunciation!
 
 References:
+
 - [The Analects, Chapter 2 — Wikisource](https://en.wikisource.org/wiki/The_Analects_of_Confucius)
 - [Confucius — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/confucius/)

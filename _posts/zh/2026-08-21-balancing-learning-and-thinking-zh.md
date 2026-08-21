@@ -24,5 +24,6 @@ Answer: 这是《论语》中的一段著名论述，体现了一种极为平衡
 注意：你写的是“则dei”——正确的字是**则殆 (zé dài)**，意为“就会危险/危殆”。发音上很容易混淆！
 
 参考资料：
+
 - [《论语》第二章 — Wikisource](https://en.wikisource.org/wiki/The_Analects_of_Confucius)
 - [孔子 — 斯坦福哲学百科全书](https://plato.stanford.edu/entries/confucius/)

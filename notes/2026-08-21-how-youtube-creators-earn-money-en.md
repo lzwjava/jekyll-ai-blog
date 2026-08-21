@@ -20,13 +20,14 @@ YouTube creators don't receive a traditional "salary" — instead, they earn rev
 ## 1. Ad Revenue (Main Source)
 
 **How it works:**
+
 - YouTube places ads on videos through **Google AdSense**
 - Creators earn a share of the ad revenue — typically **55% goes to the creator**, 45% to YouTube
 
 **How it's counted — key metrics:**
 
 | Term | Meaning |
-|------|---------|
+| ------ | --------- |
 | **CPM** | Cost Per Mille — what advertisers pay per 1,000 ad impressions |
 | **RPM** | Revenue Per Mille — what the *creator* actually receives per 1,000 views (after YouTube's cut) |
 | **Monetized views** | Not every view shows an ad; only a portion counts |
@@ -34,7 +35,7 @@ YouTube creators don't receive a traditional "salary" — instead, they earn rev
 **Typical RPM ranges:**
 
 | Niche | RPM (USD) |
-|-------|-----------|
+| ------- | ----------- |
 | Finance / Tech | $10 – $30+ |
 | General Entertainment | $2 – $5 |
 | Gaming | $2 – $6 |
@@ -58,6 +59,7 @@ So a channel with **1M views/month** in finance might earn **~$15,000–$25,000*
 ## 3. Eligibility Requirements
 
 To monetize, creators must join the **YouTube Partner Program (YPP)**:
+
 - 1,000+ subscribers
 - 4,000+ watch hours in the past 12 months (or 10M Shorts views in 90 days)
 - Linked AdSense account
@@ -67,7 +69,7 @@ To monetize, creators must join the **YouTube Partner Program (YPP)**:
 ## Realistic Earnings Example
 
 | Channel Size | Monthly Views | Est. Monthly Ad Revenue |
-|---|---|---|
+| --- | --- | --- |
 | Small (10K subs) | ~50K | $50–$200 |
 | Mid (100K subs) | ~500K | $500–$2,500 |
 | Large (1M subs) | ~5M | $5,000–$25,000 |
@@ -78,6 +80,7 @@ Sponsorships and other streams can **double or triple** these numbers for establ
 ---
 
 References:
+
 - [YouTube Partner Program overview](https://support.google.com/youtube/answer/72851)
 - [How YouTube pays creators (YouTube Help)](https://support.google.com/youtube/answer/9194038)
 - [Understanding RPM and CPM](https://support.google.com/youtube/answer/9terminology)

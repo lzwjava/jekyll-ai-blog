@@ -22,7 +22,7 @@ type: note
 **关键规格**
 
 | 规格 | 参数 |
-|---|---|
+| --- | --- |
 | 核心数 / 线程数 | 24 / 48 |
 | 基础频率 | 3.0 GHz |
 | 睿频加速 | 4.0 GHz |
@@ -52,6 +52,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [英特尔至强金牌6248R官方规格](https://www.intel.com/content/www/us/en/products/sku/199351/intel-xeon-gold-6248r-processor-35-75m-cache-3-00-ghz/specifications.html)
 - [WikiChip – 至强金牌6248R](https://en.wikichip.org/wiki/intel/xeon_gold/6248r)
 - [ServeTheHome – 基准测试与评测](https://www.servethehome.com/intel-xeon-gold-6248r-benchmarks-and-review/)
