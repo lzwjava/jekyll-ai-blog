@@ -40,6 +40,7 @@ University dropouts, quiet quitters, people leaving big corps — they're not la
 The best learning and work environments (think early-stage startups, good open-source communities, Montessori schools) tend to flip the model — they create conditions where people *want* to engage, rather than demanding engagement.
 
 References:
+
 - [Self-Determination Theory – Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [The Overjustification Effect](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [Motivational Crowding Theory – Frey & Jegen](https://www.jstor.org/stable/2678026)

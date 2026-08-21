@@ -35,7 +35,7 @@ type: note
 **现实世界中的例子：**
 
 | 情境 | 结果 |
-|---|---|
+| --- | --- |
 | 孩子喜欢阅读 → 学校强制阅读并考试 | 孩子开始讨厌书 |
 | 员工享受编程 → 公司增加严格 KPI | 工作变得机械且消耗精力 |
 | 人热爱烹饪 → 开始靠此赚钱 | 烹饪变成“只是一份工作” |
@@ -55,6 +55,7 @@ type: note
 那些严重依赖分数、强制出勤、KPI 和合规指标的机构，本质上是在运行过度合理化机器——系统性地将好奇、有动力的人变成无动于衷的人。
 
 参考资料：
+
 - [Lepper, Greene & Nisbett 1973 原始研究](https://psycnet.apa.org/record/1974-10497-001)
 - [过度合理化效应 – 维基百科](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [内在与外在动机概述](https://selfdeterminationtheory.org/intrinsic-motivation/)

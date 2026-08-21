@@ -40,6 +40,7 @@ type: note
 最佳的学习和工作环境（想想早期创业公司、优秀的开源社区、蒙台梭利学校）往往颠覆这一模式——它们创造条件让*人们愿意投入*，而不是要求投入。
 
 **参考文献：**
+
 - [自我决定理论 – Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [过度合理化效应](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [动机挤出理论 – Frey & Jegen](https://www.jstor.org/stable/2678026)

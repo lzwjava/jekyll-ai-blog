@@ -35,7 +35,7 @@ Result: The children who were *promised* a reward beforehand **lost interest in 
 **Real world examples:**
 
 | Situation | What happens |
-|---|---|
+| --- | --- |
 | Kid loves reading → school makes it mandatory with tests | Kid starts hating books |
 | Employee enjoys coding → company adds strict KPIs | Work feels mechanical and draining |
 | Person loves cooking → starts getting paid for it | Cooking becomes "just a job" |
@@ -55,6 +55,7 @@ The external justification **overpowers** the internal one — hence "overjustif
 Institutions that rely heavily on grades, mandatory attendance, KPIs, and compliance metrics are essentially running overjustification machines — systematically converting curious, motivated people into disengaged ones.
 
 References:
+
 - [Lepper, Greene & Nisbett 1973 Original Study](https://psycnet.apa.org/record/1974-10497-001)
 - [Overjustification Effect – Wikipedia](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [Intrinsic and Extrinsic Motivation Overview](https://selfdeterminationtheory.org/intrinsic-motivation/)
