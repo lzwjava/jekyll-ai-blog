@@ -43,10 +43,10 @@ type: note
 
 通常需要满足以下条件：
 
-*   相关的专业技能/经验
-*   一份真实的香港工作 Offer
-*   薪资达到香港市场水平
-*   你的技能需具有价值，且难以从本地劳动力市场中觅得
+* 相关的专业技能/经验
+* 一份真实的香港工作 Offer
+* 薪资达到香港市场水平
+* 你的技能需具有价值，且难以从本地劳动力市场中觅得
 
 通常要求有学位，但强大的技术经验和成就有时也能有所帮助。（[入境事务处][2]）
 
@@ -62,12 +62,12 @@ type: note
 
 你需要证明你的业务是真实运营的，并且能为香港做出贡献，例如提供：
 
-*   商业计划书
-*   客户/合同
-*   投资证明
-*   收入证明
-*   雇佣本地员工
-*   技术贡献
+* 商业计划书
+* 客户/合同
+* 投资证明
+* 收入证明
+* 雇佣本地员工
+* 技术贡献
 
 若能证明能为香港经济做出贡献，企业家可根据投资相关的入境安排提出申请。（[香港人才服务办公室][3]）
 
@@ -105,11 +105,11 @@ type: note
 
 TechTAS 专为从事以下领域工作的科技人才而设：
 
-*   人工智能
-*   数据分析
-*   网络安全
-*   机器人技术
-*   金融科技
+* 人工智能
+* 数据分析
+* 网络安全
+* 机器人技术
+* 金融科技
 
 但通常流程如下：
 
@@ -157,9 +157,9 @@ B. 建立香港公司 → 走企业家路径
 
 参考资料：
 
-*   [香港入境事务处 — 输入内地人才计划](https://www.immd.gov.hk/eng/services/visas/ASMTP.html?utm_source=chatgpt.com)
-*   [香港入境事务处 — 科技人才入境计划](https://www.immd.gov.hk/eng/services/visas/TECHTAS.html?utm_source=chatgpt.com)
-*   [香港人才服务办公室 — 签证信息](https://www.hkengage.gov.hk/en/how-to-apply-for-a-visa/talent-admission-s?utm_source=chatgpt.com)
+* [香港入境事务处 — 输入内地人才计划](https://www.immd.gov.hk/eng/services/visas/ASMTP.html?utm_source=chatgpt.com)
+* [香港入境事务处 — 科技人才入境计划](https://www.immd.gov.hk/eng/services/visas/TECHTAS.html?utm_source=chatgpt.com)
+* [香港人才服务办公室 — 签证信息](https://www.hkengage.gov.hk/en/how-to-apply-for-a-visa/talent-admission-s?utm_source=chatgpt.com)
 
 [1]: https://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html?utm_source=chatgpt.com "内地、澳门、台湾及海外华人居民的入境安排 | 入境事务处"
 [2]: https://www.immd.gov.hk/eng/services/visas/ASMTP.html?utm_source=chatgpt.com "输入内地人才计划 | 入境事务处"
