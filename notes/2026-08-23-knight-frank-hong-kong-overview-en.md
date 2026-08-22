@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Knight Frank Hong Kong
 
-## Answer:
+## Answer
 
 Knight Frank is a **global real estate consultancy firm**, not a property developer. It provides professional property services to investors, companies, landlords, tenants, developers, and governments. The company was founded in London in **1896** and has grown into one of the world's major independent property advisory firms. ([Global][1])
 

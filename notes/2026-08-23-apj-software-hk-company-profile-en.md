@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to APJ Software (HK) Company Limited (APJHK), a Hong Kong software company
 
-## Answer:
+## Answer
 
 APJ Software (Hong Kong) Co., Ltd. (APJHK, 愛浦京軟件（香港）有限公司) is a Hong Kong-based **enterprise software development and IT consulting company** founded in 2002. It focuses on helping Hong Kong enterprises build, maintain, and modernize business systems through software outsourcing, consulting, project delivery, and offshore development services. ([APJ Software (HK) Co., Ltd.][1])
 
@@ -105,7 +105,7 @@ Given your background (backend + AI/LLM engineering), APJHK is more of a **consu
 
 Potential opportunities:
 
-### Good fit:
+### Good fit
 
 * Backend Engineer
 * Full-stack Engineer
@@ -116,7 +116,7 @@ Potential opportunities:
 
 They have recently promoted AI transformation and AI-related solutions, but their core business remains enterprise IT delivery. ([LinkedIn][3])
 
-### Less fit:
+### Less fit
 
 * Training foundation models
 * Deep learning research

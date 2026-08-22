@@ -11,7 +11,7 @@ type: note
 
 ## 问题：香港国泰航空简介
 
-## 答案：
+## 答案
 
 ![Image](https://images.openai.com/static-rsc-4/N4tLYUgEawh-NzBFWl4naMeGmYr94O3FK8H5bmxUJE7Hkod5g0CjClz2XZk039QMvsSXL1VfRhEeKCgoI9u2VQf-erp7MbWu796h7k7lbEa5LHuEEnbH9cxykPFu2El579IU_NaAGqaX8gxSdmkfyGsS9PBlA7gqGXA_sBYjQE7YLOiBTZU9dzwBhVKorH4g?purpose=fullsize)
 

@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to Automated Systems (H.K.) Limited (ASL)
 
-## Answer:
+## Answer
 
 Automated Systems Holdings Limited (ASL) is one of Hong Kong’s oldest and largest IT services companies. Founded in **1973**, the company has more than **50 years of experience** providing enterprise technology solutions. It was listed on the Hong Kong Stock Exchange in **1997** under stock code **771**.
 

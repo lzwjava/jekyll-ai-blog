@@ -34,6 +34,7 @@ In summary, **HKUST / HKGAI** is currently the most advanced and comprehensive f
 ---
 
 **References:**
+
 - [Hong Kong AI Ecosystem Overview – HK AI Podcast](https://hongkongaipodcast.com/blog/hk-ai-ecosystem)
 - [HKUST Partners with Alibaba for Big Data & AI Lab](https://hkust.edu.hk/news/hkust-partners-alibaba-establish-joint-lab-big-data-and-ai)
 - [CUHK Establishes Hong Kong's First Full-Stack Embodied AI Lab](https://www.cpr.cuhk.edu.hk/en/press/cuhk-establishes-hong-kongs-first-full-stack-embodied-ai-lab-to-advance-ai-driven-industrial-transformation/)

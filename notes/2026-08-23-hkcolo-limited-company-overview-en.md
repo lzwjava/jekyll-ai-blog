@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to HKCOLO Limited (Hong Kong)
 
-## Answer:
+## Answer
 
 HKCOLO Limited is a Hong Kong-based **data centre and telecommunications infrastructure company** founded in **1999**. It specializes in **carrier-neutral colocation services**, network interconnection, cloud connectivity, and managed infrastructure services. ([HK Colo][1])
 
