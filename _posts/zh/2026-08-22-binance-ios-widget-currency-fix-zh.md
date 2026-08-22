@@ -16,5 +16,6 @@ type: note
 如果更改后小组件仍显示CNY，请尝试从主屏幕移除小组件并重新添加。
 
 **参考资料：**
+
 - [如何在币安更改货币 – Followchain](https://www.followchain.org/change-currency-binance/)
 - [如何设置币安iOS小组件 – 币安支持](https://www.binance.com/en/support/faq/how-to-set-up-the-binance-ios-widget-64f4770bfed44fae93e6268c5e4e10e0)

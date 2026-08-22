@@ -223,7 +223,7 @@ You need a sharp niche.
 
 ---
 
-### My assessment for you:
+### My assessment for you
 
 Fit score:
 

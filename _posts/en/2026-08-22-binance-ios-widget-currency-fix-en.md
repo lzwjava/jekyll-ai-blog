@@ -16,5 +16,6 @@ type: note
 If the widget still shows CNY after changing, try removing and re-adding the widget from your home screen.
 
 **References:**
+
 - [How to Change Your Currency on Binance – Followchain](https://www.followchain.org/change-currency-binance/)
 - [How to Set Up the Binance iOS Widget – Binance Support](https://www.binance.com/en/support/faq/how-to-set-up-the-binance-ios-widget-64f4770bfed44fae93e6268c5e4e10e0)

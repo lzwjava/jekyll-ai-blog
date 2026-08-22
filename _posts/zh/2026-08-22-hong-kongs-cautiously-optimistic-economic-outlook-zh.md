@@ -38,6 +38,7 @@ type: note
 **总结而言**，香港经济短期内展现出韧性，2026年表现优于最初预期，且预计到2030年将保持约3%的年均增长趋势——前提是全球贸易紧张局势不显著升级。
 
 **参考文献：**
+
 - [香港2026年财政预算案——中期展望](https://www.budget.gov.hk/2026/eng/budget03.html)
 - [南华早报——香港上调2026年增长预测](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364047/hong-kong-raises-2026-economic-forecast-after-strongest-first-half-nearly-5-years)
 - [中国简报——香港2026年财政预算案](https://www.china-briefing.com/news/hong-kong-budget-2026/)

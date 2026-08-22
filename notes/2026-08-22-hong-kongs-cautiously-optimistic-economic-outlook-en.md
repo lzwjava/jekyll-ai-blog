@@ -38,6 +38,7 @@ Geopolitical tensions in the Middle East, major central bank policy trajectories
 **In summary**, Hong Kong's economy looks resilient in the near term, with 2026 performing better than initially expected, and a stable 3% annual growth trend projected through 2030 — provided global trade tensions don't escalate significantly.
 
 **References:**
+
 - [Hong Kong Budget 2026 — Medium-Term Outlook](https://www.budget.gov.hk/2026/eng/budget03.html)
 - [SCMP — Hong Kong Raises 2026 Growth Forecast](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364047/hong-kong-raises-2026-economic-forecast-after-strongest-first-half-nearly-5-years)
 - [China Briefing — Hong Kong Budget 2026](https://www.china-briefing.com/news/hong-kong-budget-2026/)

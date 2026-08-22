@@ -205,5 +205,4 @@ AI作品集
 * [为何在香港建立科技业务 - HKSTP](https://www.hkstp.org/en/discover/why-hong-kong?utm_source=chatgpt.com)
 
 [1]: https://www.brandhk.gov.hk/en/doing-business/start-ups?utm_source=chatgpt.com "Start-ups | Brand Hong Kong - Asia's World City"
-[2]: https://www.hkengage.gov.hk/en/essentials/career-business/pursuing-your-entrepreneurial-ambitions-in-hong-kong?utm_source=chatgpt.com "Pursuing Your Entrepreneurial Ambitions in Hong Kong | HKTE"
 [3]: https://2021-2025.state.gov/reports/2023-investment-climate-statements/hong-kong/?utm_source=chatgpt.com "Hong Kong - United States Department of State"

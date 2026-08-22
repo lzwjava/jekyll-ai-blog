@@ -36,6 +36,7 @@ type: note
 **🎰 拥有大型技术团队的博彩公司**
 
 赌场运营商（美高梅澳门、金沙中国、永利、新濠博亚、澳博、银河）都设有内部IT/软件团队，并越来越多地招聘以下领域的工程师：
+
 - 数据分析与商业智能
 - 网络安全
 - 赌场管理系统
@@ -58,6 +59,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [澳门的初创场景——澳门新闻](https://macaonews.org/news/business/macau-startup-scene-incubator-macao/)
 - [探秘澳门蓬勃发展的科技初创场景——彭博社](https://sponsored.bloomberg.com/article/mgto/inside-macao-s-thriving-tech-start-up-scene)
 - [澳门软件工程师职位——Indeed](https://hk.indeed.com/q-macau-software-engineer-jobs.html)

@@ -36,6 +36,7 @@ Macao's tech scene is still developing, and the honest picture is that it's rela
 **🎰 Gaming Companies with Large Tech Teams**
 
 The casino operators (MGM Macau, Sands China, Wynn, Melco, SJM, Galaxy) all maintain internal IT/software teams and increasingly hire engineers for:
+
 - Data analytics & BI
 - Cybersecurity
 - Casino management systems
@@ -58,6 +59,7 @@ Foreign businesses cite a constant shortage of skilled workers as a top constrai
 ---
 
 **References:**
+
 - [Macao's Startup Scene — Macau News](https://macaonews.org/news/business/macau-startup-scene-incubator-macao/)
 - [Inside Macao's Thriving Tech Start-up Scene — Bloomberg](https://sponsored.bloomberg.com/article/mgto/inside-macao-s-thriving-tech-start-up-scene)
 - [Software Engineer Jobs in Macau — Indeed](https://hk.indeed.com/q-macau-software-engineer-jobs.html)
