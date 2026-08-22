@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to FreightAmigo
 
-## Answer:
+## Answer
 
 FreightAmigo Services Limited is a Hong Kong **LogTech / FinTech startup** that builds a digital platform for international logistics, supply-chain finance, and trade services. It was founded in **2017** and is headquartered in **Hong Kong (Kowloon Tong)**. ([FreightAmigo][1])
 

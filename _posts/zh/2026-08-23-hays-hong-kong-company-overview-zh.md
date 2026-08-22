@@ -11,7 +11,7 @@ type: note
 
 ## 问题：Hays Hong Kong Limited 作为一家公司如何？
 
-## 答案：
+## 答案
 
 Hays（Hays Hong Kong Limited）是一家在香港运营的**大型国际招聘和猎头公司**。它不是一家软件公司，而是一家**专业招聘/人才解决方案公司**。（[Hays 香港][1]）
 

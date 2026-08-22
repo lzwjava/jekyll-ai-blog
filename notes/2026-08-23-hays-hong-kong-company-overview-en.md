@@ -11,7 +11,7 @@ type: note
 
 ## Question: How is Hays Hong Kong Limited as a company?
 
-## Answer:
+## Answer
 
 Hays (Hays Hong Kong Limited) is a **major international recruitment and headhunting company** operating in Hong Kong. It is not a software company; it is a **professional recruitment / talent solutions firm**. ([Hays Hongkong][1])
 

@@ -11,7 +11,7 @@ type: note
 
 ## 问题：FreightAmigo 简介
 
-## 回答：
+## 回答
 
 FreightAmigo Services Limited 是一家香港的 **物流科技 / 金融科技初创企业**，致力于搭建国际物流、供应链金融与贸易服务的数字化平台。公司成立于 **2017 年**，总部位于 **香港（九龙塘）**。（[FreightAmigo][1]）
 
