@@ -20,6 +20,7 @@ type: note
 
 **2. 密钥对**
 每次生成密钥时，都会产生一对不同的密钥：
+
 - **公钥** — 用于加密，公开发布并与任何人共享
 - **私钥** — 用于解密，由所有者严格保密
 
@@ -32,5 +33,6 @@ type: note
 ---
 
 **参考来源：**
+
 - [公钥密码学 — 维基百科](https://en.wikipedia.org/wiki/Public-key_cryptography)
 - [非对称加密 — Cloudflare 学习中心](https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/)

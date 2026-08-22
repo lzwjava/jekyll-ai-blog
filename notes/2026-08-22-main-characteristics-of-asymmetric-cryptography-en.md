@@ -20,6 +20,7 @@ The encryption key and decryption key are different, and it is computationally i
 
 **2. Key Pairs**
 Each time keys are generated, a pair of distinct keys is produced:
+
 - **Public Key** — used for encryption, openly published and shared with anyone
 - **Private Key** — used for decryption, kept strictly secret by the owner
 
@@ -32,5 +33,6 @@ Because the encryption key can be freely distributed, users only need to protect
 ---
 
 **References:**
+
 - [Public-key cryptography — Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)
 - [Asymmetric Encryption — Cloudflare Learning](https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/)

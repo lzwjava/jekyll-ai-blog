@@ -52,7 +52,7 @@ type: note
 ### 概要对比表
 
 | 领域 | 香港 | 中国内地 |
-|---|---|---|
+| --- | --- | --- |
 | 法律传统 | 普通法 | 大陆法/社会主义法 |
 | 互联网 | 开放 | 防火墙限制 |
 | 贸易 | 自由港、独立关税 | 受管制、有关税 |
@@ -65,6 +65,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2025年香港政策法报告——美国国务院](https://hk.usconsulate.gov/2025hkpar/)
 - [香港的自由——美国外交关系委员会](https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown)
 - [什么是《基本法》第二十三条？——国际

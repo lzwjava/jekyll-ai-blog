@@ -52,7 +52,7 @@ Like their counterparts in mainland China, Hong Kong residents are now legally c
 ### Summary Table
 
 | Area | Hong Kong | Mainland China |
-|---|---|---|
+| --- | --- | --- |
 | Legal tradition | Common law | Civil/Socialist law |
 | Internet | Open | Firewall restricted |
 | Trade | Free port, separate customs | Controlled, tariffs |
@@ -65,6 +65,7 @@ The gap between the two systems continues to shrink, particularly on national se
 ---
 
 **References:**
+
 - [2025 Hong Kong Policy Act Report – U.S. State Dept](https://hk.usconsulate.gov/2025hkpar/)
 - [Hong Kong's Freedoms – Council on Foreign Relations](https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown)
 - [What is Article 23? – Amnesty International](https://www.amnesty.org/en/latest/news/2024/03/what-is-hong-kongs-article-23-law-10-things-you-need-to-know/)
