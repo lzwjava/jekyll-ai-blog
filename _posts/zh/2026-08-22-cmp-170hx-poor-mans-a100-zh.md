@@ -21,7 +21,7 @@ type: note
 
 ![Image](https://images.openai.com/static-rsc-4/NMjq2gCfMiaNKijfXyoIAmNqwKWJGOIhp4vsLaUlLUdaWdKVddLFvZuft-mQI3u_hX9yHjQ1AtDeDZErNthSfQy9MAmi4xUdVmw6T-QtJGbuCr-hYzNbdQOk75Vk9IHx4xou0ipzujffnbsEN-X-Du5NyzZLqYrmqxFPA1OZA3_RBvLwPEz_1I2YZUVBDEGB?purpose=fullsize)
 
-## 答案：
+## 答案
 
 **NVIDIA CMP 170HX** 是二手市场上最有趣的“意外AI GPU”之一。
 

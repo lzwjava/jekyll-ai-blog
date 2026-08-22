@@ -29,9 +29,11 @@ There are now **two separate unlock tools** for it:
 In June 2026, ASU researcher Jon Pry published a paper revealing a stack protection vulnerability in NVIDIA's Falcon security co-processor, enabling pure-software removal of all restrictions on the CMP 170HX's compute limits, memory locks, and PCIe bandwidth.
 
 **Memory unlock results:**
+
 - The 8 GB model can be unlocked to 64 GB, and the 10 GB model can reach 80 GB — though results are not guaranteed. Reported stable results are often lower, with 32 GB to 40 GB described as more realistic.
 
 **Price caveat:**
+
 - The 170HX was going for around $250 on eBay before this, but since the exploit started spreading, it has shot past $1,000.
 
 ---
@@ -53,7 +55,7 @@ Community members are actively using it for AI: two BC-250s running llama.cpp RP
 ### Summary comparison
 
 | Card | Chip | Unlock Type | Memory | Est. Price (2026) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | NVIDIA CMP 170HX | GA100 (A100 die) | Falcon BootROM exploit (SW only) | 8/10 GB → up to 64/80 GB | $1,000–$2,000 |
 | AMD BC-250 | PS5 APU (RDNA2) | Kernel patch (SW only) | 16 GB shared | ~$100–$200 |
 
@@ -64,6 +66,7 @@ Both cards share the same core story: it's a similar situation to another repurp
 ---
 
 **References:**
+
 - [amoghmunikote/cmpunlocker (GitHub)](https://github.com/amoghmunikote/cmpunlocker)
 - [d3dx9/cmpunlocker — alternate unlock tool (GitHub)](https://github.com/d3dx9/cmpunlocker)
 - [Tom's Hardware — CMP 170HX unlock coverage](https://www.tomshardware.com/pc-components/gpus/nvidia-crypto-mining-gpus-hacked-to-restore-locked-away-vram-in-order-to-feed-ai-boom-software-mod-unlocks-64gb-of-vram-on-usd250-cmp-170hx)

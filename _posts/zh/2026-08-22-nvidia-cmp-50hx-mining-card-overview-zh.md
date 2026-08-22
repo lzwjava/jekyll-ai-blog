@@ -26,7 +26,7 @@ CMP 50HX 采用了 TU102 芯片的缩减版本，该芯片曾用于 GeForce RTX 
 **关键规格**  
 
 | 规格 | 数值 |
-|---|---|
+| --- | --- |
 | CUDA 核心 | 3,584 |
 | 显存 | 10 GB GDDR6 |
 | 显存速度 | 14 Gbps |
@@ -49,6 +49,7 @@ CMP 50HX 是一款 Turing 时代的挖矿显卡 —— 功能专用，无显示�
 ---  
 
 **参考资料：**  
+
 - [MSI CMP 50HX 规格 – 微星官网](https://www.msi.com/Graphics-Card/MSI-NVIDIA-CMP-50HX-MINER/Specification)  
 - [微星发布 CMP 50HX 矿卡 – VideoCardz](https://videocardz.com/newz/msi-launches-cmp-50hx-miner-with-3584-cuda-cores-and-10gb-gddr6-memory)  
 - [微星列出首款 CMP 50HX – Tom's Hardware](https://www.tomshardware.com/news/msi-lists-first-nvidia-cmp-50hx-mining-gpu)

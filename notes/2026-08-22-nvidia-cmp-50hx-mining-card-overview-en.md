@@ -26,7 +26,7 @@ The CMP 50HX utilizes a cut-down version of the TU102 silicon, which powered pop
 **Key Specifications**
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | CUDA Cores | 3,584 |
 | Memory | 10 GB GDDR6 |
 | Memory Speed | 14 Gbps |
@@ -49,6 +49,7 @@ The CMP 50HX is a Turing-era mining card — purpose-built, no display output, o
 ---
 
 **References:**
+
 - [MSI CMP 50HX Specification – MSI Official](https://www.msi.com/Graphics-Card/MSI-NVIDIA-CMP-50HX-MINER/Specification)
 - [MSI Launches CMP 50HX Miner – VideoCardz](https://videocardz.com/newz/msi-launches-cmp-50hx-miner-with-3584-cuda-cores-and-10gb-gddr6-memory)
 - [MSI Lists First CMP 50HX – Tom's Hardware](https://www.tomshardware.com/news/msi-lists-first-nvidia-cmp-50hx-mining-gpu)

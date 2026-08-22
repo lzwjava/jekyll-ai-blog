@@ -21,7 +21,7 @@ type: note
 
 ![Image](https://images.openai.com/static-rsc-4/NMjq2gCfMiaNKijfXyoIAmNqwKWJGOIhp4vsLaUlLUdaWdKVddLFvZuft-mQI3u_hX9yHjQ1AtDeDZErNthSfQy9MAmi4xUdVmw6T-QtJGbuCr-hYzNbdQOk75Vk9IHx4xou0ipzujffnbsEN-X-Du5NyzZLqYrmqxFPA1OZA3_RBvLwPEz_1I2YZUVBDEGB?purpose=fullsize)
 
-## Answer:
+## Answer
 
 The **NVIDIA CMP 170HX** is one of the most interesting "accidental AI GPUs" in the second-hand market.
 

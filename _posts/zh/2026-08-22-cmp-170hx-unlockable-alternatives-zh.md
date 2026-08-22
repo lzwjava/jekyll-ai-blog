@@ -29,9 +29,11 @@ CMP 170HX 物理上是一颗完整的 GA100 核心（与 A100 数据中心 GPU �
 2026 年 6 月，ASU 研究员 Jon Pry 发表了一篇论文，揭示了 NVIDIA Falcon 安全协处理器中的一个栈保护漏洞，从而能够在纯软件层面移除 CMP 170HX 上所有关于计算限制、内存锁定和 PCIe 带宽的限制。
 
 **内存解锁结果：**
+
 - 8GB 版本可解锁至 64GB，10GB 版本可达 80GB——但结果无法保证。据报道，稳定可靠的结果通常更低，32GB 至 40GB 被认为是更现实的水平。
 
 **价格警告：**
+
 - 在此之前，170HX 在 eBay 上的价格约为 250 美元，但随着漏洞利用的传播，价格已飙升至 1000 美元以上。
 
 ---
@@ -53,7 +55,7 @@ BC-250 最初为以太坊挖矿设计，采用阉割版 PS5 APU：6 个 Zen 2 �
 ### 汇总对比
 
 | 显卡 | 芯片 | 解锁类型 | 显存 | 预计价格（2026 年） |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | NVIDIA CMP 170HX | GA100（A100 核心） | Falcon BootROM 漏洞（纯软件） | 8/10 GB → 最高 64/80 GB | 1000–2000 美元 |
 | AMD BC-250 | PS5 APU（RDNA2） | 内核补丁（纯软件） | 16GB 共享 | 约 100–200 美元 |
 
@@ -64,6 +66,7 @@ BC-250 最初为以太坊挖矿设计，采用阉割版 PS5 APU：6 个 Zen 2 �
 ---
 
 **参考资料：**
+
 - [amoghmunikote/cmpunlocker (GitHub)](https://github.com/amoghmunikote/cmpunlocker)
 - [d3dx9/cmpunlocker —— 替代解锁工具 (GitHub)](https://github.com/d3dx9/cmpunlocker)
 - [Tom's Hardware —— CMP 170HX 解锁报道](https://www.tomshardware.com/pc-components/gpus/nvidia-crypto-mining-gpus-hacked-to-restore-locked-away-vram-in-order-to-feed-ai-boom-software-mod-unlocks-64gb-of-vram-on-usd250-cmp-170hx)

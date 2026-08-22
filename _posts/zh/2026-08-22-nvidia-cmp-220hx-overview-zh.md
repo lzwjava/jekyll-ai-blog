@@ -36,6 +36,7 @@ CMP 220HX 基于 NVIDIA 旗舰级安培 **A100 GPU**（GA100）。传闻其设�
 请注意，CMP 220HX 是在 2021 年加密货币挖矿热潮期间发布/传闻的产品。目前，挖矿利润已极为有限——以 0.10 美元/千瓦时的电价计算，该卡每日亏损约 0.26 美元，在当前加密货币价格下无利可图。
 
 **参考资料：**
+
 - [NVIDIA CMP 220HX 据传将采用安培 A100 GPU](https://wccftech.com/nvidia-cmp-220hx-rumored-to-feature-ampere-a100-gpu-will-deliver-210-mh-s-in-ethereum-cryptocurrency-mining-cost-3000-us/)
 - [NVIDIA CMP 220HX 或将以 210 MH/s 性能击败 RTX 3090](https://hothardware.com/news/nvidia-cmp-220hx-crypto-mining-a100-gpu-could-push-220-mhs-with-ethereum)
 - [Nvidia CMP 220HX 挖矿盈利能力与规格 · MiningBoard](https://miningboard.com/rigs/nvidia-cmp-220hx)

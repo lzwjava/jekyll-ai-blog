@@ -22,7 +22,7 @@ NVIDIA's dedicated mining GPU line is called the **CMP (Cryptocurrency Mining Pr
 ### NVIDIA CMP HX Series — Mining-Dedicated Cards
 
 | Model | Architecture / GPU | Memory | Hashrate (Ethash) | TDP |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **CMP 30HX** | Turing / TU116 | 6 GB GDDR6 | ~26 MH/s | ~125W |
 | **CMP 40HX** | Turing / TU106 | 8 GB GDDR6 | ~36 MH/s | ~185W |
 | **CMP 50HX** | Turing / TU102 | 10 GB GDDR6 | ~45 MH/s | ~250W |
@@ -49,6 +49,7 @@ All CMP cards are "headless" — they have no display outputs — and are design
 ---
 
 **References:**
+
 - [NVIDIA CMP HX Official Page](https://www.nvidia.com/en-us/cmp/)
 - [CMP 170HX — Tom's Hardware](https://www.tomshardware.com/news/nvidias-cmp170hx-in-the-wild-with-164-mhps-ethereum-mining-performance)
 - [CMP Architecture Details — WCCFtech](https://wccftech.com/nvidias-cmp-crypto-mining-gpus-detailed-90hx-based-on-ampere-ga102-while-50hx-40hx-30hx-based-on-turing-gpus/)

@@ -36,6 +36,7 @@ The card draws approximately **320W** from the wall. Its rumored MSRP was around
 Note that the CMP 220HX was announced/rumored around 2021 during the crypto mining boom. Today, mining profitability is limited — at $0.10/kWh electricity costs, it loses roughly $0.26/day, making it unprofitable at current crypto prices.
 
 **References:**
+
 - [NVIDIA CMP 220HX Rumored To Feature Ampere A100 GPU](https://wccftech.com/nvidia-cmp-220hx-rumored-to-feature-ampere-a100-gpu-will-deliver-210-mh-s-in-ethereum-cryptocurrency-mining-cost-3000-us/)
 - [NVIDIA CMP 220HX Could Crush RTX 3090 At 210 MH/s](https://hothardware.com/news/nvidia-cmp-220hx-crypto-mining-a100-gpu-could-push-220-mhs-with-ethereum)
 - [Nvidia CMP 220HX Mining Profitability & Specs · MiningBoard](https://miningboard.com/rigs/nvidia-cmp-220hx)

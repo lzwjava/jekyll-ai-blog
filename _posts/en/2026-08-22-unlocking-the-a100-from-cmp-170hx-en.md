@@ -42,7 +42,7 @@ Each requires re-patching the signature section with a fresh ROP payload targeti
 With the PLM opened, the pipeline writes (via BAR0, `bar0.py` → memory-mapped `/sys/bus/pci/devices/.../resource0`):
 
 | Address | Value | Effect |
-|---|---|---|
+| --- | --- | --- |
 | `SS0 / SS1` | `0x88888888`, `0x00000008` | **Compute**: removes the SM clock cap → full A100 throughput |
 | `CFG1` | `0x02669000` | Memory geometry: changes the per-stack strap so all the physically-present HBM2e is addressed |
 | `LMR` | `0x00000028A` | Memory rank config |
@@ -60,6 +60,7 @@ It's **volatile** (lost on power cycle / driver reload), so a systemd daemon (`d
 ## Bottom line
 
 It can unlock because:
+
 1. **Same hardware** — CMP100HX = A100 silicon, so the physical 16GB HBM stacks and compute units are all present.
 2. **A firmware ordering bug** lets unsigned code execute in a privileged HS-mode before signature verification.
 3. **A minimal ROP payload** can then perform arbitrary BAR0 writes.

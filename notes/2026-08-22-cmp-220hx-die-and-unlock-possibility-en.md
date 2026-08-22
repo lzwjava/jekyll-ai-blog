@@ -20,6 +20,7 @@ type: note
 The CMP 220HX uses the same **GA100** die as the CMP 170HX — NVIDIA's flagship Ampere data center chip, manufactured on **TSMC's 7nm** process. The GA100 die measures 826 mm² and packs 54.2 billion transistors.
 
 The key difference between the 170HX and the rumored 220HX is the degree of chip harvesting:
+
 - The CMP 170HX enables only 4,480 CUDA cores — just 54% of GA100's full design — and uses 8 GB HBM2e across two stacks with a 4096-bit bus and ~1,493 GB/s bandwidth.
 - The 220HX was expected to enable more SMs (closer to a full GA100), which is how it would push 210 MH/s vs. the 170HX's 165 MH/s.
 
@@ -40,7 +41,7 @@ Since the **CMP 220HX was never officially released** (it remained a rumor — N
 **What cmpunlocker unlocks on the 170HX:**
 
 | Feature | Status |
-|---|---|
+| --- | --- |
 | Full SM compute throughput | ✓ Working |
 | Memory: 64 GB (8 GB card) / 40 GB (10 GB card) | ✓ Working |
 | PCIe Gen 2 | ✓ Working |
@@ -52,6 +53,7 @@ Requirements: Linux x86-64, root access, `nvidia-open 610.43.0x`, secure boot di
 ---
 
 **References:**
+
 - [cmpunlocker GitHub — amoghmunikote](https://github.com/amoghmunikote/cmpunlocker)
 - [The almost A100 – NVIDIA CMP 170HX — DevQuasar](https://devquasar.com/hardware/the-almost-a100-nvidia-cmp-170hx/)
 - [NVIDIA CMP 170HX Mining Monster Spotted — Tom's Hardware](https://www.tomshardware.com/news/nvidias-cmp170hx-in-the-wild-with-164-mhps-ethereum-mining-performance)

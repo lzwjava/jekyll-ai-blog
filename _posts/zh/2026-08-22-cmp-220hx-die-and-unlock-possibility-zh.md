@@ -20,6 +20,7 @@ type: note
 CMP 220HX 与 CMP 170HX 使用相同的 **GA100** 芯片——NVIDIA 旗舰级 Ampere 数据中心芯片，采用 **TSMC 7nm** 工艺制造。GA100 芯片面积达 826 mm²，集成 542 亿个晶体管。
 
 170HX 与传闻中的 220HX 之间的关键区别在于芯片的裁剪程度：
+
 - CMP 170HX 仅启用 4,480 个 CUDA 核心——仅为 GA100 完整设计的 54%——并使用 8 GB HBM2e 显存（双堆栈），4096-bit 位宽，带宽约 1,493 GB/s。
 - 220HX 预计将启用更多 SM（接近完整 GA100），从而将算力从 170HX 的 165 MH/s 提升至 210 MH/s。
 
@@ -40,7 +41,7 @@ cmapunlocker 工具专为 **NVIDIA CMP 170HX（GA100）** 设计，可恢复完�
 **cmapunlocker 在 170HX 上解锁的内容：**
 
 | 功能 | 状态 |
-|---|---|
+| --- | --- |
 | Full SM compute throughput | ✓ 可用 |
 | Memory: 64 GB (8 GB card) / 40 GB (10 GB card) | ✓ 可用 |
 | PCIe Gen 2 | ✓ 可用 |
@@ -52,6 +53,7 @@ cmapunlocker 工具专为 **NVIDIA CMP 170HX（GA100）** 设计，可恢复完�
 ---
 
 **参考文献：**
+
 - [cmapunlocker GitHub — amoghmunikote](https://github.com/amoghmunikote/cmpunlocker)
 - [The almost A100 – NVIDIA CMP 170HX — DevQuasar](https://devquasar.com/hardware/the-almost-a100-nvidia-cmp-170hx/)
 - [NVIDIA CMP 170HX Mining Monster Spotted — Tom's Hardware](https://www.tomshardware.com/news/nvidias-cmp170hx-in-the-wild-with-164-mhps-ethereum-mining-performance)
