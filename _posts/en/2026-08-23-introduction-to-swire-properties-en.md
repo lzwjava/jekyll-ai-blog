@@ -49,6 +49,7 @@ The company is currently chaired by Guy Bradley (since August 2021), with Tim Bl
 ---
 
 **References:**
+
 - [Swire Properties – Wikipedia](https://en.wikipedia.org/wiki/Swire_Properties)
 - [Swire Properties 2024 Annual Results](https://www.swireproperties.com/-/media/files/swireproperties/publications/2024-annual-results/2024-annual-results-announcement-en.ashx)
 - [Swire Pacific 2024 Results Press Release](https://www.swirepacific.com/storage/fm/PressRelease/pdf/en/p250313.pdf)

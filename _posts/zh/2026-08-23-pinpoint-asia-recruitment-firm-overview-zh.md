@@ -36,6 +36,7 @@ Pinpoint Asia 战略性地稳步扩大了客户基础，现已包括多家全球
 ---
 
 **参考来源：**
+
 - [Pinpoint Asia 在 LinkedIn 上的页面](https://hk.linkedin.com/company/pinpoint-asia)
 - [Pinpoint Asia – Axial 公司简介](https://www.axial.net/company/pinpoint-asia-limited/)
 - [案例研究 – Pinpoint Asia Ltd (Daxtra)](https://info.daxtra.com/case-study-pinpoint-asia)

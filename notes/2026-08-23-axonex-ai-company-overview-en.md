@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to Axonex AI ([https://www.axonex.ai](https://www.axonex.ai))
 
-## Answer:
+## Answer
 
 Axonex Intelligence Limited (Axonex) is a Hong Kong-based AI and robotics company focused on **embodied AI, robotics, IoT, and smart facility management**. The company’s vision is to build intelligent systems that connect **AI software + robots + physical environments** to improve automation, safety, and operational efficiency. ([Axonex][1])
 

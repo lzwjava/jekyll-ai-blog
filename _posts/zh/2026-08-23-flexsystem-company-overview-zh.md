@@ -38,6 +38,7 @@ FlexSystem 是多项关键企业系统的官方提供商，包括 FlexAccount（
 FlexSystem 的 ERP 系统运行在其自有企业软件架构（FESA）上，这是一个灵活、可扩展且稳健的平台，内置计算引擎以满足动态业务变化。公司还专注于数字化转型，将生成式 AI（GenAI）应用于财务、人力资源和采购等关键领域。
 
 **参考资料：**
+
 - [FlexSystem 官方网站](https://www.flexsystem.com/)
 - [关于 FlexSystem](https://www.flexsystem.com/about/)
 - [FlexSystem ERP 香港](https://web.flexcloud.hk/)

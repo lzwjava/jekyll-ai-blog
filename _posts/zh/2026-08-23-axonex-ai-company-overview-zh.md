@@ -11,7 +11,7 @@ type: note
 
 ## 问题：Axonex AI 简介 ([https://www.axonex.ai](https://www.axonex.ai))
 
-## 答案：
+## 答案
 
 Axonex Intelligence Limited (Axonex) 是一家总部位于香港的人工智能与机器人公司，专注于 **embodied AI、机器人技术、IoT 以及智能设施管理**。该公司的愿景是构建连接 **AI 软件 + 机器人 + 物理环境** 的智能系统，以提升自动化水平、安全性和运营效率。([Axonex][1])
 

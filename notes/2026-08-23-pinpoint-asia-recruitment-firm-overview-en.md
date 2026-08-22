@@ -36,6 +36,7 @@ Their significant market reputation is a direct result of having developed stron
 ---
 
 **References:**
+
 - [Pinpoint Asia on LinkedIn](https://hk.linkedin.com/company/pinpoint-asia)
 - [Pinpoint Asia – Axial Corporation Profile](https://www.axial.net/company/pinpoint-asia-limited/)
 - [Case Study – Pinpoint Asia Ltd (Daxtra)](https://info.daxtra.com/case-study-pinpoint-asia)

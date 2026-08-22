@@ -36,6 +36,7 @@ In May 2025, the Club announced a strategic initiative to reposition itself as a
 ---
 
 **References:**
+
 - [Who We Are – The Hong Kong Jockey Club](https://corporate.hkjc.com/en-us/who-we-are/index)
 - [Integrated Business Model – HKJC](https://corporate.hkjc.com/en-us/who-we-are/integrated-business-model)
 - [History & Reports – HKJC](https://corporate.hkjc.com/corporate/english/history-and-reports/index.aspx)

@@ -38,6 +38,7 @@ FlexSystem is the official provider of several key enterprise systems, including
 FlexSystem's ERP system runs on its own Enterprise Software Architecture (FESA), a flexible, scalable, and robust platform with a built-in computing engine to fulfill dynamic business changes. The company is also focused on digital transformation, incorporating Generative AI (GenAI) into key areas like Finance, Human Resources, and Procurement.
 
 **References:**
+
 - [FlexSystem Official Website](https://www.flexsystem.com/)
 - [About FlexSystem](https://www.flexsystem.com/about/)
 - [FlexSystem ERP Hong Kong](https://web.flexcloud.hk/)

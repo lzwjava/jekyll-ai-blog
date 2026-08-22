@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [关于我们 – 香港赛马会](https://corporate.hkjc.com/en-us/who-we-are/index)
 - [综合业务模式 – 香港赛马会](https://corporate.hkjc.com/en-us/who-we-are/integrated-business-model)
 - [历史与报告 – 香港赛马会](https://corporate.hkjc.com/corporate/english/history-and-reports/index.aspx)

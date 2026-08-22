@@ -49,6 +49,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [太古地产 – 维基百科](https://en.wikipedia.org/wiki/Swire_Properties)
 - [太古地产2024年度业绩](https://www.swireproperties.com/-/media/files/swireproperties/publications/2024-annual-results/2024-annual-results-announcement-en.ashx)
 - [太古股份2024年业绩新闻稿](https://www.swirepacific.com/storage/fm/PressRelease/pdf/en/p250313.pdf)
