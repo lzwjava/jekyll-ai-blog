@@ -46,6 +46,7 @@ Here's a summary of the biggest developments in Hong Kong over the past few year
 ---
 
 **References:**
+
 - [2026 Hong Kong Policy Act Report – U.S. Consulate General](https://hk.usconsulate.gov/2026hkpar/)
 - [Hong Kong Conditions Report 2026 – U.S. State Department](https://www.state.gov/hong-kong-conditions-report-2026)
 - [Hong Kong Stock Market 2025 Performance – CGTN](https://news.cgtn.com/news/2026-01-02/Hong-Kong-s-stock-market-witnesses-strong-performance-in-2025-1JBlJVqSSsg/share_amp.html)

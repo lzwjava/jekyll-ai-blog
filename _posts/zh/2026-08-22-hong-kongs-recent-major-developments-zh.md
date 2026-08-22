@@ -46,6 +46,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年香港政策法报告 – 美国驻香港总领事馆](https://hk.usconsulate.gov/2026hkpar/)
 - [2026年香港状况报告 – 美国国务院](https://www.state.gov/hong-kong-conditions-report-2026)
 - [2025年香港股市表现 – CGTN](https://news.cgtn.com/news/2026-01-02/Hong-Kong-s-stock-market-witnesses-strong-performance-in-2025-1JBlJVqSSsg/share_amp.html)

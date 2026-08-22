@@ -28,6 +28,7 @@ So while Hong Kong **still retains more economic freedom and legal distinctivene
 Compared to the USA, Hong Kong remains more economically free in some metrics (e.g., Heritage Foundation rankings), but politically, the comparison has become much harder to make.
 
 References:
+
 - [Heritage Foundation Index of Economic Freedom – Hong Kong](https://www.heritage.org/index/pages/country-pages/hong-kong)
 - [CFR – Hong Kong's Freedoms: What China Promised and How It's Cracking Down](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china)
 - [BBC – Hong Kong National Security Law Explained](https://www.bbc.com/news/world-asia-china-52765838)

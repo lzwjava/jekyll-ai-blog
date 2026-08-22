@@ -28,6 +28,7 @@ Answer: 大致而言，是的——但需要细致分析。
 与美国相比，香港在某些指标上（例如传统基金会排名）仍保持更高的经济自由度，但在政治上，这种比较已变得愈发困难。
 
 参考资料：
+
 - [传统基金会《经济自由指数》——香港](https://www.heritage.org/index/pages/country-pages/hong-kong)
 - [CFR（外交关系委员会）——香港的自由：中国的承诺与打压方式](https://www.cfr.org/backgrounder/hong-kong-freedoms-democracy-protests-china)
 - [BBC——香港国家安全法解读](https://www.bbc.com/news/world-asia-china-52765838)
