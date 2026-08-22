@@ -34,7 +34,7 @@ MRT身份会触发特殊的监管要求，尤其是关于**薪酬（报酬）**�
 **监管框架**
 
 | 地区 | 核心规则 |
-|---|---|
+| --- | --- |
 | 欧盟 | CRD IV/V —— EBA关于MRT识别的指引 |
 | 英国 | PRA/FCA薪酬规则（脱欧后调整版） |
 | 美国 | 根据《多德-弗兰克法案》针对大型银行的类似规则 |
@@ -44,6 +44,7 @@ MRT身份会触发特殊的监管要求，尤其是关于**薪酬（报酬）**�
 MRT框架源于2008年金融危机。当时，无上限奖金所激励的过度短期冒险行为被视为系统性危机的主要诱因。通过将薪酬结构与长期业绩挂钩，监管机构旨在使**激励机制**与审慎风险管理保持一致。
 
 参考资料：
+
 - [EBA关于MRT识别的指引](https://www.eba.europa.eu/regulation-and-policy/remuneration/guidelines-on-sound-remuneration-policies)
 - [CRD V薪酬要求 – 欧盟委员会](https://finance.ec.europa.eu/publications/capital-requirements-directive-crd-v_en)
 - [PRA薪酬政策 – 英格兰银行](https://www.bankofengland.co.uk/prudential-regulation/publication/2015/remuneration-ss)

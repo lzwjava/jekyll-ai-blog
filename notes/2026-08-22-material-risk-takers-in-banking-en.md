@@ -34,7 +34,7 @@ MRT status triggers special regulatory requirements, particularly around **remun
 **Regulatory Framework**
 
 | Region | Key Rule |
-|---|---|
+| --- | --- |
 | EU | CRD IV/V — EBA Guidelines on MRT identification |
 | UK | PRA/FCA Remuneration Rules (post-Brexit adaptation) |
 | US | Comparable rules under Dodd-Frank for large banks |
@@ -44,6 +44,7 @@ MRT status triggers special regulatory requirements, particularly around **remun
 The MRT framework was born out of the 2008 financial crisis, where excessive short-term risk-taking incentivized by uncapped bonuses was seen as a key contributor to systemic failure. By tying compensation structures to long-term outcomes, regulators aim to **align incentives** with prudent risk management.
 
 References:
+
 - [EBA Guidelines on MRT Identification](https://www.eba.europa.eu/regulation-and-policy/remuneration/guidelines-on-sound-remuneration-policies)
 - [CRD V Remuneration Requirements – European Commission](https://finance.ec.europa.eu/publications/capital-requirements-directive-crd-v_en)
 - [PRA Remuneration Policy – Bank of England](https://www.bankofengland.co.uk/prudential-regulation/publication/2015/remuneration-ss)

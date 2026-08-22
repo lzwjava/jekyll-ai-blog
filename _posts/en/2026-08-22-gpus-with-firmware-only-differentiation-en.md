@@ -39,7 +39,7 @@ AMD's older cards used BIOS-level locking (easier to bypass), not a hardened sec
 ### The Key Distinction: What Makes NVIDIA's Case Unique
 
 | Factor | AMD (older) | NVIDIA (Falcon-based) |
-|---|---|---|
+| --- | --- | --- |
 | Lock mechanism | VBIOS flash | Signed HS firmware + fuse shadow registers |
 | Bypass method | Modded VBIOS flash | Secure coprocessor exploit required |
 | Difficulty | Low (community tools) | High (required original paper's research) |

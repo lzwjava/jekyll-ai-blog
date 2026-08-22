@@ -16,6 +16,7 @@ type: note
 The key findings are:
 
 **The attack:** The author exploited a memory-safety bug in the GPU's secure firmware (Heavy Secure / HS mode) to gain privileged code execution, then used that to unlock three hardware capabilities NVIDIA had software-disabled:
+
 - **Compute speed** — restored from 1/32 to full speed (~31–62× improvement)
 - **Memory** — expanded from 10 GB to 80 GB (8×)
 - **PCIe link** — upgraded from Gen1 to Gen2 (2× bandwidth)
