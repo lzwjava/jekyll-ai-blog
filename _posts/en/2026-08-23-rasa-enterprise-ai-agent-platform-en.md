@@ -11,7 +11,7 @@ type: note
 
 ## Question: Introduction to Rasa platform ([https://rasa.com](https://rasa.com))
 
-## Answer:
+## Answer
 
 Rasa is an enterprise AI agent platform focused on building **reliable, controllable conversational AI systems**. It started in 2016 as an open-source conversational AI/NLU framework and has evolved into a platform for production-grade AI agents that combine LLM capabilities with deterministic business logic. ([Rasa][1])
 

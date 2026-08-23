@@ -18,6 +18,7 @@ type: note
 ---
 
 ### 1. 基础/模型平台
+
 这些平台提供底层AI模型、API及基础设施：
 
 - **AWS Bedrock Agents** — 支持多模型访问，兼具安全性和数据驻留控制
@@ -28,6 +29,7 @@ type: note
 ---
 
 ### 2. 智能体编排平台
+
 这些平台处理模型之上的运行时、记忆、治理和可观测性层：
 
 - **Salesforce Agentforce** — 在《财富》500强评估中，其在治理、可扩展性、集成深度和企业SLA方面始终名列前茅，尤其适用于CRM密集型工作流
@@ -38,6 +40,7 @@ type: note
 ---
 
 ### 3. 开发者/构建平台
+
 适用于希望构建自定义智能体的团队：
 
 - **LangGraph / LangChain** — 流行的开源编排框架
@@ -59,7 +62,7 @@ type: note
 ### 按企业类型选择平台
 
 | 企业类型 | 推荐技术栈 |
-|---|---|
+| --- | --- |
 | 以Microsoft为中心 | Copilot Studio + Azure OpenAI |
 | 以Salesforce为中心 | Agentforce + Vertex AI |
 | 受监管行业 | Rasa 或 Kore.ai（支持本地部署） |
@@ -69,6 +72,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年企业十大最佳AI智能体平台 – Rasa](https://rasa.com/blog/10-best-ai-agent-platforms-for-enterprise-in-2026)
 - [2026年最佳企业自主AI平台 – Analytics Insight](https://www.analyticsinsight.net/artificial-intelligence/the-best-enterprise-agentic-ai-platforms-in-2026)
 - [2026年最佳企业AI智能体平台 – Airtable](https://www.airtable.com/articles/best-enterprise-ai-agent-platforms-2026)

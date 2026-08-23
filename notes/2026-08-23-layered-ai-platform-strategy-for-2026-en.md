@@ -18,6 +18,7 @@ Companies today need a layered AI platform strategy covering three broad tiers: 
 ---
 
 ### 1. Foundation / Model Platforms
+
 These provide the underlying AI models, APIs, and infrastructure:
 
 - **AWS Bedrock Agents** — multi-model access with security and data residency controls
@@ -28,6 +29,7 @@ These provide the underlying AI models, APIs, and infrastructure:
 ---
 
 ### 2. Agent Orchestration Platforms
+
 These handle the runtime, memory, governance, and observability layer on top of models:
 
 - **Salesforce Agentforce** — consistently ranks highest for governance, scalability, integration depth, and enterprise SLAs across Fortune 500 evaluations, especially for CRM-heavy workflows
@@ -38,6 +40,7 @@ These handle the runtime, memory, governance, and observability layer on top of 
 ---
 
 ### 3. Developer / Build Platforms
+
 For teams that want to build custom agents:
 
 - **LangGraph / LangChain** — popular open-source orchestration framework
@@ -59,7 +62,7 @@ What makes the real difference in 2026 is whether an agent can take action in do
 ### Platform Selection by Company Type
 
 | Company Type | Recommended Stack |
-|---|---|
+| --- | --- |
 | Microsoft-centric | Copilot Studio + Azure OpenAI |
 | Salesforce-centric | Agentforce + Vertex AI |
 | Regulated industries | Rasa or Kore.ai (on-prem support) |
@@ -69,6 +72,7 @@ What makes the real difference in 2026 is whether an agent can take action in do
 ---
 
 **References:**
+
 - [10 Best AI Agent Platforms for Enterprise in 2026 – Rasa](https://rasa.com/blog/10-best-ai-agent-platforms-for-enterprise-in-2026)
 - [Best Enterprise Agentic AI Platforms in 2026 – Analytics Insight](https://www.analyticsinsight.net/artificial-intelligence/the-best-enterprise-agentic-ai-platforms-in-2026)
 - [Best Enterprise AI Agent Platforms 2026 – Airtable](https://www.airtable.com/articles/best-enterprise-ai-agent-platforms-2026)

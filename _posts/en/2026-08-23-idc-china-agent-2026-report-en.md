@@ -11,7 +11,7 @@ type: note
 
 ## Question: What is an IDC Agent report (e.g. “Data Agent reshaping data vendors” / IDC China Agent 2026)?
 
-## Answer:
+## Answer
 
 IDC Agent reports are **enterprise market research reports** from International Data Corporation (IDC) that analyze how **AI Agents change enterprise software, data platforms, infrastructure, and vendors**.
 
@@ -269,19 +269,19 @@ Examples:
 
 Because enterprise buyers need answers:
 
-### CIO asks:
+### CIO asks
 
 "Should we build Agent platform?"
 
-### CTO asks:
+### CTO asks
 
 "Which architecture?"
 
-### Vendor asks:
+### Vendor asks
 
 "Where is the market?"
 
-### Investor asks:
+### Investor asks
 
 "Who will win?"
 

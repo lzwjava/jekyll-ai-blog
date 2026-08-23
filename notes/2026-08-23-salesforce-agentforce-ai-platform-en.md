@@ -30,7 +30,7 @@ Agents use a **Reason–Act–Observe loop** for human-like decision-making, pro
 The platform has 4 key layers:
 
 | Layer | Role |
-|---|---|
+| --- | --- |
 | **Atlas Reasoning Engine** | AI planning & decision-making |
 | **Data 360** (formerly Data Cloud) | Unified customer data foundation |
 | **Trust Layer** | Governance, audit logs, data masking |
@@ -64,6 +64,7 @@ With over 12,000 customers deploying agents, Agentforce is now considered essent
 ---
 
 **References:**
+
 - [What Is Salesforce Agentforce? 2026 Guide – Cynoteck](https://www.cynoteck.com/blog-post/salesforce-agentforce-complete-guide)
 - [Salesforce Agentforce: Architecture, Pricing & MCP – Atlan](https://atlan.com/know/ai-agent/ai-agent-applications/what-is-salesforce-agentforce/)
 - [Agentforce Official Site – Salesforce](https://www.salesforce.com/agentforce/)

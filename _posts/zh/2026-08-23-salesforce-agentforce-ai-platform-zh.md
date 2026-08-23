@@ -30,7 +30,7 @@ Agentforce 基于 **Atlas Reasoning Engine** 进行规划，并依赖 **Data Clo
 该平台包含 4 个关键层：
 
 | 层 | 角色 |
-|---|---|
+| --- | --- |
 | **Atlas 推理引擎** | AI 规划与决策 |
 | **Data 360**（原 Data Cloud） | 统一客户数据基础 |
 | **信任层** | 治理、审计日志、数据脱敏 |
@@ -64,6 +64,7 @@ Agentforce 360（最新主要版本）将虚拟代理嵌入整个生态系统—
 ---
 
 **参考文献：**
+
 - [What Is Salesforce Agentforce? 2026 Guide – Cynoteck](https://www.cynoteck.com/blog-post/salesforce-agentforce-complete-guide)
 - [Salesforce Agentforce: Architecture, Pricing & MCP – Atlan](https://atlan.com/know/ai-agent/ai-agent-applications/what-is-salesforce-agentforce/)
 - [Agentforce Official Site – Salesforce](https://www.salesforce.com/agentforce/)
