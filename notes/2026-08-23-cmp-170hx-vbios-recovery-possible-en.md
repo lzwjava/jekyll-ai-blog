@@ -110,7 +110,7 @@ driver init        fails
 
 ---
 
-## Before paying 2500 CNY, ask seller for one more command:
+## Before paying 2500 CNY, ask seller for one more command
 
 Run:
 
