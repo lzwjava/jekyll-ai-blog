@@ -40,6 +40,7 @@ Secondhand listings for the 170HX have picked up, with some sellers marketing un
 **Bottom line:** The unlock is real and exciting, but it's too new, too unstable, and too unvetted for platform rental at this point. Give it a few months to see if the community stabilizes the 64GB unlock reliably before thinking about cloud hosting it.
 
 **References:**
+
 - [Tom's Hardware — CMP 170HX VRAM Unlock](https://www.tomshardware.com/pc-components/gpus/nvidia-crypto-mining-gpus-hacked-to-restore-locked-away-vram-in-order-to-feed-ai-boom-software-mod-unlocks-64gb-of-vram-on-usd250-cmp-170hx)
 - [WCCFTech — CMP 170HX Price Explosion](https://wccftech.com/nvidia-cmp-170hx-8-10-gb-prices-explode-over-1000-usd-as-tool-unlocks-hidden-64-80gb-vram/)
 - [PBX Science — Unlocking the CMP 170HX](https://pbxscience.com/unlocking-the-cmp-170hx-how-far-the-community-has-actually-gotten-toward-an-a100-on-the-cheap/)

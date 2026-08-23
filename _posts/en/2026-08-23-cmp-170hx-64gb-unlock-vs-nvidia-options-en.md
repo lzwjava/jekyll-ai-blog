@@ -36,6 +36,7 @@ For pure AI inference or LLM running on Linux, the 170HX at ¥9,800 with confirm
 ---
 
 **References:**
+
 - [CMP 170HX buyer's guide — memory bandwidth value](https://electronics.alibaba.com/product/nvidia-cmp-170hx)
 - [A100 price guide 2026 — used market](https://jarvislabs.ai/blog/a100-price)
 - [RTX 5090 vs A100 vs H100 comparison 2026](https://petronellatech.com/blog/rtx-5090-vs-a100-vs-h100-gpu-ai-development-2026/)

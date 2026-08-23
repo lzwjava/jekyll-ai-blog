@@ -38,6 +38,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [CMP 170HX 购买指南 —— 内存带宽价值](https://electronics.alibaba.com/product/nvidia-cmp-170hx)
 - [A100 价格指南 2026 —— 二手市场](https://jarvislabs.ai/blog/a100-price)
 - [RTX 5090 与 A100 与 H100 对比 2026](https://petronellatech.com/blog/rtx-5090-vs-a100-vs-h100-gpu-ai-development-2026/)

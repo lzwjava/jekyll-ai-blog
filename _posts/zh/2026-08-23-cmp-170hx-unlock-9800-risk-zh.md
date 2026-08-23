@@ -44,7 +44,7 @@ NVIDIA使用了A100生产过程中被淘汰的GA100芯片。这些残次品没�
 **结论**
 
 | 因素 | 评估 |
-|---|---|
+| --- | --- |
 | 价格（9800元） | 考虑到风险，略高 |
 | 64GB解锁保证 | ❌ 无法保证——看运气 |
 | 计算性能 | ✅ GA100架构，带宽出色 |
@@ -56,6 +56,7 @@ NVIDIA使用了A100生产过程中被淘汰的GA100芯片。这些残次品没�
 ---
 
 **参考链接：**
+
 - [cmpunlocker GitHub](https://github.com/amoghmunikote/cmpunlocker)
 - [CMP 170HX因解锁工具曝光价格飙升至1000美元以上](https://www.digitalcitizen.life/nvidia-cmp-170hx-prices-surge-past-1000-after-tool-unlocks-up-to-80-gb-of-vram/)
 - [WCCFTech：价格从100美元暴涨至1000美元以上](https://wccftech.com/nvidia-cmp-170hx-8-10-gb-prices-explode-over-1000-usd-as-tool-unlocks-hidden-64-80gb-vram/)

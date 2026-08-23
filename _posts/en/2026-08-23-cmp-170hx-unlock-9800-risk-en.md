@@ -44,7 +44,7 @@ You need Linux (x86-64), root access, nvidia-open 610.43.0x already installed, k
 **Verdict**
 
 | Factor | Assessment |
-|---|---|
+| --- | --- |
 | Price (¥9,800) | Slightly high for the risk involved |
 | 64GB unlock guarantee | ❌ Not guaranteed — chip lottery |
 | Compute performance | ✅ GA100 architecture, excellent bandwidth |
@@ -56,6 +56,7 @@ You need Linux (x86-64), root access, nvidia-open 610.43.0x already installed, k
 ---
 
 **References:**
+
 - [cmpunlocker GitHub](https://github.com/amoghmunikote/cmpunlocker)
 - [CMP 170HX prices surge past $1,000 after unlock tool](https://www.digitalcitizen.life/nvidia-cmp-170hx-prices-surge-past-1000-after-tool-unlocks-up-to-80-gb-of-vram/)
 - [WCCFTech: Prices explode from $100 to $1,000+](https://wccftech.com/nvidia-cmp-170hx-8-10-gb-prices-explode-over-1000-usd-as-tool-unlocks-hidden-64-80gb-vram/)

@@ -40,6 +40,7 @@ CMP 170HX是英伟达CMP系列中的旗舰型号，采用GA100（安培）架构
 **归根结底：** 解锁是真实且令人兴奋的，但它太新、太不稳定、也未经过充分验证，目前尚不适合平台出租。在考虑将其用于云托管之前，给社区几个月时间，看看能否稳定实现64GB解锁。
 
 **参考资料：**
+
 - [Tom's Hardware — CMP 170HX VRAM解锁](https://www.tomshardware.com/pc-components/gpus/nvidia-crypto-mining-gpus-hacked-to-restore-locked-away-vram-in-order-to-feed-ai-boom-software-mod-unlocks-64gb-of-vram-on-usd250-cmp-170hx)
 - [WCCFTech — CMP 170HX价格暴涨](https://wccftech.com/nvidia-cmp-170hx-8-10-gb-prices-explode-over-1000-usd-as-tool-unlocks-hidden-64-80gb-vram/)
 - [PBX Science — 解锁CMP 170HX](https://pbxscience.com/unlocking-the-cmp-170hx-how-far-the-community-has-actually-gotten-toward-an-a100-on-the-cheap/)

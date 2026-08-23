@@ -26,9 +26,11 @@ Here's a comprehensive overview of ICML Outstanding Paper Award winners from 202
 - **High-Accuracy Sampling for Diffusion Models and Log-Concave Distributions** — Fan Chen, Sinho Chewi, Constantinos Daskalakis, Alexander Rakhlin. Introduces First-Order Rejection Sampling (FORS), reducing required denoising steps from polynomial to polylogarithmic in 1/ε.
 
 **Outstanding Position Paper:**
+
 - **Position: The Alignment Community is Unintentionally Building a Censor's Toolkit** — Sarah Ball, Phil Hackemann. Argues that alignment tools are dual-use and risk enabling censorship.
 
 **Test of Time Award:**
+
 - **Asynchronous Methods for Deep Reinforcement Learning** (ICML 2016) — Volodymyr Mnih et al. Pioneered async RL, foundational to modern LLM post-training.
 
 ---
@@ -45,6 +47,7 @@ Here's a comprehensive overview of ICML Outstanding Paper Award winners from 202
 - **The Value of Prediction in Identifying the Worst-Off** — Unai Fischer Abaigar et al. Shows that sometimes expanding human caseworker capacity beats building more accurate prediction models.
 
 **Test of Time Award:**
+
 - **Batch Normalization** (ICML 2015) — Sergey Ioffe & Christian Szegedy
 
 ---
@@ -58,6 +61,7 @@ Here's a comprehensive overview of ICML Outstanding Paper Award winners from 202
 - **Genie: Generative Interactive Environments** — Jake Bruce et al. (DeepMind). A generative model that creates interactive game environments from video.
 
 Additional winners included:
+
 - **Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution** — Aaron Lou, Chenlin Meng, Stefano Ermon
 - **Position: Measure Dataset Diversity, Don't Just Claim It** — Dora Zhao et al.
 - **Stealing Part of a Production Language Model** — Nicholas Carlini et al.
@@ -78,6 +82,7 @@ Six papers received the Outstanding Paper Award:
 ---
 
 **References:**
+
 - [ICML 2026 Awards — ICML Blog](https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/)
 - [ICML 2025 Outstanding Papers — Jolt ML](https://joltml.com/icml-2025/awards/)
 - [ICML 2024 Best Paper — University of Waterloo](https://uwaterloo.ca/computer-science/news/gautam-kamath-and-international-colleagues-win-best-paper-at-icml-2024)

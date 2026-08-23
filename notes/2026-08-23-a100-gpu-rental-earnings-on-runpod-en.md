@@ -22,7 +22,7 @@ RunPod's Secure Cloud pricing lists the A100 PCIe at $1.39/hr and A100 SXM at $1
 **Rough earnings estimate (if you can list it):**
 
 | Scenario | Rate | Hours/month | Gross Revenue |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A100 PCIe, 50% utilization | ~$1.39/hr | ~360 hrs | ~$500/mo |
 | A100 PCIe, 80% utilization | ~$1.39/hr | ~576 hrs | ~$800/mo |
 | A100 PCIe, 100% utilization | ~$1.39/hr | ~720 hrs | ~$1,000/mo |
@@ -39,6 +39,7 @@ This is gross **before** RunPod's platform fee and your electricity costs.
 **Bottom line:** If fully utilized, an A100 on RunPod could gross roughly **$800–$1,000/month**, but real net earnings after electricity, platform fees, and variable utilization will likely be considerably lower — perhaps **$500–$750/month** under good conditions. Actual utilization depends entirely on market demand.
 
 **References:**
+
 - [RunPod Pricing 2026 (UsagePricing)](https://www.usagepricing.com/tools/pricing-calculator/runpod)
 - [How to Make Money Renting Out Your GPU in 2026 (EarnifyHub)](https://earnifyhub.com/learning-guides/make-money-renting-out-gpu-2026)
 - [H100 Rental Prices Compared (IntuitionLabs)](https://intuitionlabs.ai/articles/h100-rental-prices-cloud-comparison)

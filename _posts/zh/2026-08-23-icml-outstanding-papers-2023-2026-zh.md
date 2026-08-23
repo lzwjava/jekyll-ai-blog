@@ -26,9 +26,11 @@ type: note
 - **《扩散模型与对数凹分布的高精度采样》** — Fan Chen, Sinho Chewi, Constantinos Daskalakis, Alexander Rakhlin。提出了一阶拒绝采样（FORS），将所需的去噪步数从多项式级别减少到关于1/ε的多对数级别。
 
 **杰出立场论文：**
+
 - **《立场：对齐社区正在无意间构建审查工具包》** — Sarah Ball, Phil Hackemann。认为对齐工具具有双重用途，并有助长审查的风险。
 
 **时间检验奖：**
+
 - **《深度强化学习的异步方法》**（ICML 2016）— Volodymyr Mnih等。开创了异步强化学习，是现代大语言模型后训练的基础。
 
 ---
@@ -45,6 +47,7 @@ type: note
 - **《识别最弱势群体的预测价值》** — Unai Fischer Abaigar等。表明有时扩大人类个案工作者的能力比构建更准确的预测模型更好。
 
 **时间检验奖：**
+
 - **《批量归一化》**（ICML 2015）— Sergey Ioffe & Christian Szegedy
 
 ---
@@ -58,6 +61,7 @@ type: note
 - **《Genie：生成式交互环境》** — Jake Bruce等（DeepMind）。一种从视频中创建交互式游戏环境的生成模型。
 
 其他获奖者包括：
+
 - **《通过估计数据分布的比率进行离散扩散建模》** — Aaron Lou, Chenlin Meng, Stefano Ermon
 - **《立场：衡量数据集多样性，而非仅仅宣称》** — Dora Zhao等。
 - **《窃取部分生产级语言模型》** — Nicholas Carlini等。
@@ -78,6 +82,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [ICML 2026奖项 — ICML博客](https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/)
 - [ICML 2025杰出论文 — Jolt ML](https://joltml.com/icml-2025/awards/)
 - [ICML 2024最佳论文 — 滑铁卢大学](https://uwaterloo.ca/computer-science/news/gautam-kamath-and-international-colleagues-win-best-paper-at-icml-2024)

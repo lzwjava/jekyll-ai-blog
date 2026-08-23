@@ -20,6 +20,7 @@ Answer: Flash Attention is an algorithm that makes the attention mechanism in tr
 The key trick is an **online softmax correction**: softmax requires knowing all scores to normalize, but Flash Attention uses a running max and running sum that get updated block by block. The final result is mathematically identical to standard attention — it's a pure implementation optimization.**The mental model in one sentence:** Standard attention is like doing your homework by writing every intermediate calculation on a whiteboard at the back of the room (HBM), walking back and forth each step; Flash Attention does the whole thing on a scratch pad at your desk (SRAM), only walking to the back once at the end.
 
 Key things to internalize:
+
 - The N×N matrix is never materialized in slow memory — this is the core win
 - The **online softmax trick** is what makes tiling possible: you don't need to see all scores before normalizing, you just track a running correction factor
 - Flash Attention 2 & 3 extended this with better parallelism across attention heads and sequence positions

@@ -22,7 +22,7 @@ RunPod的Secure Cloud定价显示，A100 PCIe为1.39美元/小时，A100 SXM为1
 **粗略收入估算（如果你能将其列出来）：**
 
 | 场景 | 费率 | 每月小时数 | 总收入 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A100 PCIe，50%利用率 | ~1.39美元/小时 | ~360小时 | ~500美元/月 |
 | A100 PCIe，80%利用率 | ~1.39美元/小时 | ~576小时 | ~800美元/月 |
 | A100 PCIe，100%利用率 | ~1.39美元/小时 | ~720小时 | ~1,000美元/月 |
@@ -39,6 +39,7 @@ RunPod的Secure Cloud定价显示，A100 PCIe为1.39美元/小时，A100 SXM为1
 **总结：** 如果充分利用，RunPod上的A100每月毛收入大约为**800–1,000美元**，但扣除电费、平台费用和利用率波动后，实际净收入可能会低得多——在良好条件下可能为**500–750美元/月**。实际利用率完全取决于市场需求。
 
 **参考：**
+
 - [RunPod Pricing 2026 (UsagePricing)](https://www.usagepricing.com/tools/pricing-calculator/runpod)
 - [How to Make Money Renting Out Your GPU in 2026 (EarnifyHub)](https://earnifyhub.com/learning-guides/make-money-renting-out-gpu-2026)
 - [H100 Rental Prices Compared (IntuitionLabs)](https://intuitionlabs.ai/articles/h100-rental-prices-cloud-comparison)
