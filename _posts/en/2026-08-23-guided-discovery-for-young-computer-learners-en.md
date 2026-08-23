@@ -29,5 +29,6 @@ A few natural next steps when she's ready:
 - Using a trackpad vs. a mouse — kids often find trackpads more intuitive
 
 References:
+
 - [Scaffolding in Education – Vygotsky's Zone of Proximal Development](https://www.simplypsychology.org/vygotsky.html)
 - [How Young Children Learn Through Play and Exploration](https://www.naeyc.org/resources/pubs/yc/may2018/learning-through-play)

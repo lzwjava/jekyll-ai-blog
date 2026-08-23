@@ -40,6 +40,7 @@ The episode is titled **"The 17-year-old whose paper was accepted by ICML 2026: 
 The host Zhang Xiaojun notes this is the first time she opened up a high schooler's AI world on the show, having previously interviewed many mature AI researchers.
 
 In the conversation, Jonathan talks about:
+
 - How he independently conducted pretraining research, describing pretraining as "a bit magical"
 - Losing ¥1,500 on a mistake during experiments, which made him very upset and brought him to tears
 - His view that AI has made classmates feel a loss of meaning — "no matter what you do, AI might do it better" — though he worked through this emotionally
@@ -55,6 +56,7 @@ Together, these three sources form a portrait of an extraordinary teenager: a hi
 ---
 
 **References:**
+
 - [ICML 2026 Poster — ExoFormer](https://icml.cc/virtual/2026/poster/61175)
 - [Podcast Episode — Xiaoyuzhou](https://xiaoyuzhoufm.com/episode/6a8472b95aeb2a5712e8de78)
 - [arXiv Paper — 2601.08131v4](https://arxiv.org/html/2601.08131v4)

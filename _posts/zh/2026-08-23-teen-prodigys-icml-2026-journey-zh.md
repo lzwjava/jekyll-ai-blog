@@ -40,6 +40,7 @@ Jonathan 的解决方案是 **ExoFormer**：ExoFormer 不使用第一层作为�
 主持人张小珺提到，这是她首次在节目中打开高中生的 AI 世界，此前她采访过许多成熟的 AI 研究者。
 
 对话中，Jonathan 谈到：
+
 - 他如何独立进行预训练研究，称预训练“有点神奇”
 - 实验中因错误损失了 1500 元，让他非常难过，甚至落泪
 - 他认为 AI 让同学们感到意义缺失——“无论你做什么，AI 可能做得更好”——但他自己已经调整好了情绪
@@ -55,6 +56,7 @@ Jonathan 的解决方案是 **ExoFormer**：ExoFormer 不使用第一层作为�
 ---
 
 **参考资料：**
+
 - [ICML 2026 海报 — ExoFormer](https://icml.cc/virtual/2026/poster/61175)
 - [播客节目 — 小宇宙](https://xiaoyuzhoufm.com/episode/6a8472b95aeb2a5712e8de78)
 - [arXiv 论文 — 2601.08131v4](https://arxiv.org/html/2601.08131v4)

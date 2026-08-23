@@ -29,5 +29,6 @@ type: note
 - 使用触控板 vs. 鼠标——孩子们通常觉得触控板更直观
 
 参考：
+
 - [Scaffolding in Education – Vygotsky's Zone of Proximal Development](https://www.simplypsychology.org/vygotsky.html)
 - [How Young Children Learn Through Play and Exploration](https://www.naeyc.org/resources/pubs/yc/may2018/learning-through-play)
