@@ -55,7 +55,7 @@ The most troubled modern launch. NVIDIA confirmed a hardware defect affecting le
 ## Failure Rate Summary Table
 
 | Generation | Era | Approx. Defect Rate | Biggest Issue |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GTX 400 (Fermi) | 2010 | Low but hot | Thermal design — heat/throttle |
 | GTX 700 (Kepler) | 2013 | Very low | Isolated MOSFET recall (Galaxy) |
 | GTX 900 (Maxwell) | 2014 | Very low | Spec misrepresentation (970) |
@@ -69,6 +69,7 @@ Historically, NVIDIA showed a "pretty steady decline in failure rates over five 
 ---
 
 **References:**
+
 - [TechPowerUp — NVIDIA $894M Warranty Claims 2025](https://www.techpowerup.com/348229/nvidia-paid-out-1000-more-for-warranties-in-2025-compared-to-2024)
 - [Wccftech — NVIDIA Warranty Claims 1000% Increase](https://wccftech.com/nvidia-warranty-claims-increased-1000-percent-since-16-pin-connector-gpus-launch/)
 - [XDA — GTX 970 VRAM Controversy](https://www.xda-developers.com/the-biggest-nvidia-controversies-of-all-time/)

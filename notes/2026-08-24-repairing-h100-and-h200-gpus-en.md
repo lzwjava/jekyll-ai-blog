@@ -66,7 +66,7 @@ This kind of component-level PCB work is rare in datacenters (it voids warrantie
 ### Summary
 
 | Repair Level | Who Does It | Method |
-|---|---|---|
+| --- | --- | --- |
 | Software/config issue | In-house ops | nvidia-healthmon, driver reinstall |
 | Component swap (FRU) | Trained DC tech | Hot/cold swap, torque tools, ESD precautions |
 | Full card failure | NVIDIA via RMA | Return & replace |
@@ -75,6 +75,7 @@ This kind of component-level PCB work is rare in datacenters (it voids warrantie
 ---
 
 **References:**
+
 - [NVIDIA DGX H100/H200 Service Manual](https://docs.nvidia.com/dgx/dgxh100-service-manual/introduction.html)
 - [NVIDIA RMA Process Guide](https://docs.nvidia.com/deploy/rma-process/index.html)
 - [NVIDIA RMA Checklist](https://network.nvidia.com/support/rma-checklist/)

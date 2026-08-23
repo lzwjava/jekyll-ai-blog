@@ -55,7 +55,7 @@ RTX 2080 Ti 作为旗舰显卡，早期故障率异常高。热测量表明，GD
 ## 故障率汇总表
 
 | 代际 | 年代 | 大致缺陷率 | 最大问题 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GTX 400（Fermi） | 2010 | 低但发热严重 | 散热设计——高温/降频 |
 | GTX 700（Kepler） | 2013 | 非常低 | 个别 MOSFET 召回（影驰） |
 | GTX 900（Maxwell） | 2014 | 非常低 | 规格虚假宣传（970） |
@@ -69,6 +69,7 @@ RTX 2080 Ti 作为旗舰显卡，早期故障率异常高。热测量表明，GD
 ---
 
 **参考资料：**
+
 - [TechPowerUp — NVIDIA 2025 年保修索赔 8.94 亿美元](https://www.techpowerup.com/348229/nvidia-paid-out-1000-more-for-warranties-in-2025-compared-to-2024)
 - [Wccftech — NVIDIA 保修索赔增长 1000%](https://wccftech.com/nvidia-warranty-claims-increased-1000-percent-since-16-pin-connector-gpus-launch/)
 - [XDA — GTX 970 显存争议](https://www.xda-developers.com/the-biggest-nvidia-controversies-of-all-time/)

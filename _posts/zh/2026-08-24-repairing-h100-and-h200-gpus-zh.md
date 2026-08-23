@@ -66,7 +66,7 @@ type: note
 ### 总结
 
 | 修复级别 | 执行者 | 方法 |
-|---|---|---|
+| --- | --- | --- |
 | 软件/配置问题 | 内部运维 | nvidia-healthmon、重装驱动 |
 | 组件更换（FRU） | 经过培训的数据中心技术人员 | 热/冷插拔、扭矩工具、ESD 防护措施 |
 | 整卡故障 | NVIDIA 通过 RMA | 退回并更换 |
@@ -75,6 +75,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [NVIDIA DGX H100/H200 Service Manual](https://docs.nvidia.com/dgx/dgxh100-service-manual/introduction.html)
 - [NVIDIA RMA Process Guide](https://docs.nvidia.com/deploy/rma-process/index.html)
 - [NVIDIA RMA Checklist](https://network.nvidia.com/support/rma-checklist/)
