@@ -96,7 +96,7 @@ Time cost: several hours.
 
 ---
 
-## Before buying, ask seller for:
+## Before buying, ask seller for
 
 1. GPU detection:
 
