@@ -68,6 +68,7 @@ Social Impact:
 | [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
 | [GitHub](https://github.com/lzwjava) | 872 |
 | [HuggingFace](https://huggingface.co/lzwjava) | 3 |
+| **Total** | **~18895** |
 
 Connect with me on these platforms:
 
