@@ -44,7 +44,7 @@ type: note
 ### 💡 按显卡等级的实际评估
 
 | 等级 | 示例 | 可行性 |
-|---|---|---|
+| --- | --- | --- |
 | 5,000–10,000元 | RTX 4070 Ti / 4080 | 利润好，风险可控 |
 | 10,000–20,000元 | RTX 4090, A5000 | 利润高，但诈骗风险严重 |
 | >20,000元 | H100, A100, 专业卡 | 利润极高，但法律和进货风险极大 |
@@ -64,6 +64,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国的GPU维修产业 — TechRadar](https://www.techradar.com/pro/potentially-tens-of-thousands-of-faulty-nvidia-ai-chips-end-up-in-these-obscure-chinese-repair-shops-it-may-mask-something-even-more-vital)
 - [深圳店铺维修走私的英伟达AI芯片 — 路透社/雅虎财经](https://finance.yahoo.com/news/china-repair-demand-banned-nvidia-210306490.html)
 - [GPU维修利润链分析 — aitntnews.com](https://m.aitntnews.com/newDetail.html?newId=12746)

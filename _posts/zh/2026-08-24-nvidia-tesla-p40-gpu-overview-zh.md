@@ -26,7 +26,7 @@ Tesla P40 是一款双插槽、10.5 英寸的 PCI Express Gen 3 显卡，基于 
 **关键规格一览**
 
 | 规格 | 值 |
-|---|---|
+| --- | --- |
 | 架构 | Pascal (16nm) |
 | 显存 | 24 GB GDDR5 |
 | 显存带宽 | ~346 GB/s |
@@ -53,6 +53,7 @@ P40 专为单精度 GPU 计算任务以及加速虚拟远程工作站环境中�
 ---
 
 **参考资料：**
+
 - [NVIDIA Tesla P40 Product Brief (Official)](https://images.nvidia.com/content/pdf/tesla/Tesla-P40-Product-Brief.pdf)
 - [Tesla P40 Specs – Flopper.io](https://flopper.io/gpu/nvidia-tesla-p40-24gb/spec-sheet)
 - [NVIDIA Tesla P40 Detailed Specs – CpuTronic](https://cputronic.com/en/gpu/nvidia-tesla-p40)

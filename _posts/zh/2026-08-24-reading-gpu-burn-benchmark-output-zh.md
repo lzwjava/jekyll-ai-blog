@@ -18,11 +18,13 @@ type: note
 ---
 
 ### 设置信息
+
 ```
 GPU 0: NVIDIA GeForce RTX 4070
 Initialized device 0 with 11839 MB of memory (10248 MB available, using 9223 MB of it), using FLOATS
 Results are 268435456 bytes each, thus performing 34 iterations
 ```
+
 - **11839 MB** — 显卡总显存
 - **10248 MB available** — 测试开始时可用显存（部分被操作系统/驱动保留）
 - **9223 MB used by test** — gpu-burn 分配约 90% 的可用显存进行压力测试
@@ -32,12 +34,13 @@ Results are 268435456 bytes each, thus performing 34 iterations
 ---
 
 ### 进度行
+
 ```
 65.0%  proc'd: 238 (20497 Gflop/s)   errors: 0   temps: 60 C
 ```
 
 | 字段 | 含义 |
-|---|---|
+| --- | --- |
 | `65.0%` | 20 秒压力测试已完成的百分比 |
 | `proc'd: 238` | 至此已完成的矩阵乘法批次总数 |
 | `20497 Gflop/s` | 吞吐量 — **约 20.5 TFLOPs**，你的 GPU 的 FP32 计算速度 |
@@ -62,4 +65,5 @@ Results are 268435456 bytes each, thus performing 34 iterations
 ---
 
 **参考：**
+
 - [gpu-burn GitHub 仓库](https://github.com/wilicc/gpu-burn)

@@ -44,6 +44,7 @@ In summary, the RTX 2070 Super was one of the best value-for-money cards of its 
 ---
 
 **References:**
+
 - [NVIDIA GeForce RTX 2070 Super Specs – TechSpot](https://www.techspot.com/specs/gpu/205737-nvidia-geforce-rtx-2070-super.html)
 - [RTX 2070 SUPER Detailed Specs – CpuTronic](https://cputronic.com/gpu/nvidia-geforce-rtx-2070-super)
 - [RTX 2070 SUPER Specifications – Graphics Cards Database](https://graphicscardsdatabase.com/gpu/nvidia-geforce-rtx-2070-super)

@@ -44,7 +44,7 @@ The short answer is: **it can be profitable, but it's a high-skill, high-risk ni
 ### 💡 Practical Assessment by Card Tier
 
 | Tier | Example | Viability |
-|---|---|---|
+| --- | --- | --- |
 | 5,000–10,000 CNY | RTX 4070 Ti / 4080 | Good margins, manageable risk |
 | 10,000–20,000 CNY | RTX 4090, A5000 | High margins, but scam risk is severe |
 | >20,000 CNY | H100, A100, Pro cards | Very high profit, but legal & sourcing risk is extreme |
@@ -64,6 +64,7 @@ This is a **real business** that skilled people in Shenzhen are already running 
 ---
 
 **References:**
+
 - [GPU Repair Industry in China — TechRadar](https://www.techradar.com/pro/potentially-tens-of-thousands-of-faulty-nvidia-ai-chips-end-up-in-these-obscure-chinese-repair-shops-it-may-mask-something-even-more-vital)
 - [Shenzhen Shops Repair Smuggled Nvidia AI Chips — Reuters/Yahoo Finance](https://finance.yahoo.com/news/china-repair-demand-banned-nvidia-210306490.html)
 - [GPU Repair Profit Chain Analysis — aitntnews.com (Chinese)](https://m.aitntnews.com/newDetail.html?newId=12746)

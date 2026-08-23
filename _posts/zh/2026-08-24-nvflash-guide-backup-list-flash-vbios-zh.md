@@ -35,6 +35,7 @@ type: note
 
 1. 以 **管理员身份打开命令提示符**（搜索 `cmd` → 右键 → *以管理员身份运行*）
 2. 导航至文件夹：
+
    ```
    cd C:\nvflash
    ```
@@ -48,18 +49,22 @@ type: note
 ```
 nvflash --list
 ```
+
 列出系统中所有 NVIDIA GPU，显示其索引号、设备 ID、子系统厂商 ID 和 BIOS 版本。
 
 ### 显示 GPU 信息 / BIOS 版本（无修改）
+
 ```
 nvflash --version
 nvflash -v
 ```
 
 ### 显示指定适配器的详细信息
+
 ```
 nvflash -i 0
 ```
+
 *（将 `0` 替换为 `--list` 显示的索引号）*
 
 ---
@@ -69,7 +74,9 @@ nvflash -i 0
 ```
 nvflash --save backup.rom
 ```
+
 保存特定 GPU（例如索引 0）的 ROM：
+
 ```
 nvflash -i0 --save gpu0.rom
 ```
@@ -82,27 +89,34 @@ nvflash -i0 --save gpu0.rom
 
 ## 5. 刷写新 VBIOS
 
-### 标准刷写（同型号/同厂商）：
+### 标准刷写（同型号/同厂商）
+
 ```
 nvflash -6 newbios.rom
 ```
+
 `-6` 标志允许覆盖 PCI 子系统 ID 不匹配的情况。若存在差异，NVFlash 会要求确认——按 `Y`（非美式键盘则按 `Z`）。
 
-### 强制刷写（跳过确认）：
+### 强制刷写（跳过确认）
+
 ```
 nvflash -f -6 newbios.rom
 ```
 
-### 按索引刷写指定 GPU（多 GPU 系统）：
+### 按索引刷写指定 GPU（多 GPU 系统）
+
 ```
 nvflash --index=0 bios.rom
 ```
+
 请先使用 `--list` 找到多 GPU 设备中每张显卡的正确索引。
 
-### 若写保护阻止刷写：
+### 若写保护阻止刷写
+
 ```
 nvflash --protectoff newbios.rom
 ```
+
 此命令在当前会话中临时禁用写保护。冷重启后保护将重新启用。
 
 ---
@@ -110,9 +124,11 @@ nvflash --protectoff newbios.rom
 ## 6. 恢复原始 VBIOS
 
 使用与刷写相同的命令，配合备份文件：
+
 ```
 nvflash -6 original.rom
 ```
+
 在将显卡送修前，这是标准恢复流程。
 
 ---
@@ -134,7 +150,7 @@ nvflash -6 original.rom
 ## 快速命令速查表
 
 | 任务 | 命令 |
-|---|---|
+| --- | --- |
 | 列出所有 GPU | `nvflash --list` |
 | 显示版本/信息 | `nvflash -v` |
 | 备份 VBIOS | `nvflash --save backup.rom` |
@@ -148,6 +164,7 @@ nvflash -6 original.rom
 ---
 
 **参考：**
+
 - [GPU BIOS Flash Guide 2026 (nvflash, commands, recovery)](https://www.mvktech.net/gpu-bios-flash-guide/)
 - [nvflash Command Reference 2026](https://www.mvktech.net/nvflash-guide/)
 - [NVflash: How to Flash a GPU BIOS (myminingrig.com)](https://myminingrig.com/how-to-flash-a-gpu-bios-with-nvflash/)

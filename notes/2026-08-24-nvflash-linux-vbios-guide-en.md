@@ -24,6 +24,7 @@ Must run as **root**. The NVIDIA kernel module **must be fully unloaded** before
 ## Step 1 — Download NVFlash
 
 Go to **TechPowerUp** and download the latest version (v5.867):
+
 ```
 https://www.techpowerup.com/download/nvidia-nvflash/
 ```
@@ -68,12 +69,14 @@ sudo rmmod nvidia_drm nvidia_modeset nvidia_uvm nvidia
 ```
 
 Verify they're all gone:
+
 ```bash
 lsmod | grep nvidia
 # should return nothing
 ```
 
 > **Tip:** If modules refuse to unload, stop your display manager first:
+>
 > ```bash
 > sudo systemctl stop gdm   # or sddm / lightdm
 > ```
@@ -92,13 +95,12 @@ This confirms nvflash is working and detects your GPU. Note the index number (e.
 
 ## Step 6 — Back Up Current VBIOS (Mandatory!)
 
-
 ```bash
 sudo ./nvflash --save vbios_backup.rom
 ```
 
-
 For a specific GPU index:
+
 ```bash
 sudo ./nvflash -i0 --save vbios_backup_gpu0.rom
 ```
@@ -109,26 +111,25 @@ Store the backup on a **USB drive or second machine** — not just the local dis
 
 ## Step 7 — Disable Write Protection
 
-
 ```bash
 sudo ./nvflash --protectoff
 ```
-
 
 ---
 
 ## Step 8 — Flash the New VBIOS
 
 Standard flash:
+
 ```bash
 sudo ./nvflash vbios_new.rom
 ```
 
 If there is a subsystem ID mismatch, use `-6` to override (use with caution):
+
 ```bash
 sudo ./nvflash -6 vbios_new.rom
 ```
-
 
 Press `Y` to confirm when prompted.
 
@@ -137,12 +138,13 @@ Press `Y` to confirm when prompted.
 ## Step 9 — Verify the New VBIOS
 
 After flashing, confirm the new VBIOS is active:
+
 ```bash
 sudo ./nvflash --version
 ```
 
-
 Then reboot:
+
 ```bash
 sudo reboot
 ```
@@ -156,6 +158,7 @@ After boot, reload your desktop and check with `nvidia-smi` or GPU-Z (if on Wind
 Some distributions have security modules like AppArmor or SELinux that may block nvflash's direct device access. If encountering unexplained permission errors, boot with the security module in permissive mode.
 
 Also try killing any lingering processes:
+
 ```bash
 sudo fuser -k /dev/nvidia*
 sudo rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia
@@ -197,6 +200,7 @@ sudo reboot
 ---
 
 **References:**
+
 - [cyclone-github: nvflash how-to Linux (Debian tested, updated 2025)](https://github.com/cyclone-github/nvidia_vbios/blob/main/nvflash_how_to_linux.txt)
 - [nvflash Reference 2026 — Linux differences](https://www.mvktech.net/nvflash-guide/)
 - [HiveOS VBIOS Flashing Guide (Linux, multi-GPU)](https://hiveon.com/forum/t/guide-nvidia-gpu-vbios-flashing-with-hiveos/4091.rss)

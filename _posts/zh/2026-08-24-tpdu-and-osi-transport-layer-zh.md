@@ -37,7 +37,7 @@ OSI模型
 每个OSI层对其数据单元有不同的名称：
 
 | 层 | PDU名称 |
-|---|---|
+| --- | --- |
 | 传输层（L4） | **TPDU**（传输协议数据单元） |
 | 网络层（L3） | 数据包 |
 | 数据链路层（L2） | 帧 |
@@ -66,5 +66,6 @@ OSI模型
 ---
 
 参考文献：
+
 - [OSI模型 – Cloudflare学习中心](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [ITU-T X.224 – 传输协议规范](https://www.itu.int/rec/T-REC-X.224/en)

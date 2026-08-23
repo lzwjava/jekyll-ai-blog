@@ -37,7 +37,7 @@ Layer 1 │ Physical
 Every OSI layer has its own name for its data unit:
 
 | Layer | PDU Name |
-|---|---|
+| --- | --- |
 | Transport (L4) | **TPDU** (Transport Protocol Data Unit) |
 | Network (L3) | Packet |
 | Data Link (L2) | Frame |
@@ -66,5 +66,6 @@ Not directly. This is the **OSI transport protocol**, which is a **different sta
 ---
 
 References:
+
 - [OSI Model – Cloudflare Learning](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [ITU-T X.224 – Transport Protocol Specification](https://www.itu.int/rec/T-REC-X.224/en)

@@ -44,6 +44,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [NVIDIA GeForce RTX 2070 Super 规格 – TechSpot](https://www.techspot.com/specs/gpu/205737-nvidia-geforce-rtx-2070-super.html)
 - [RTX 2070 SUPER 详细规格 – CpuTronic](https://cputronic.com/gpu/nvidia-geforce-rtx-2070-super)
 - [RTX 2070 SUPER 规格 – 显卡数据库](https://graphicscardsdatabase.com/gpu/nvidia-geforce-rtx-2070-super)

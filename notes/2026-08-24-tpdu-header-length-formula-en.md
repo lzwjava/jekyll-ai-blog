@@ -67,7 +67,7 @@ total_header_bytes = LI_value + 2
 The "−2" accounts for **two overhead bytes excluded from the LI count**:
 
 | Byte | Description |
-|---|---|
+| --- | --- |
 | Byte 1 | The **LI field itself** (1 byte) |
 | Byte 2 | The **TPDU-type/code field** (1 byte) |
 
@@ -83,7 +83,7 @@ Total  = 1 + 1 + 252 = 254 bytes ✅
 > "LI七减二，头长二百五"
 
 | Part | Meaning |
-|---|---|
+| --- | --- |
 | "LI七" | LI = 11111100₂ = 252 ≈ sounds like "七" is a mnemonic anchor |
 | "减二" | subtract... wait, ADD 2 (the mnemonic is slightly reversed) |
 | "头长二百五" | header = 254 bytes (二百五 = 250-ish, colloquial for ~254) |
@@ -95,5 +95,6 @@ $$\boxed{\text{Header Length} = \text{LI value} + 2}$$
 ---
 
 References:
+
 - [ITU-T X.224 – OSI Transport Protocol](https://www.itu.int/rec/T-REC-X.224/en)
 - [ISO 8073 Connection-Oriented Transport Protocol](https://www.iso.org/standard/24077.html)

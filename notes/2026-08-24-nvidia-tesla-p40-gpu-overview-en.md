@@ -26,7 +26,7 @@ The Tesla P40 is a dual-slot, 10.5-inch PCI Express Gen 3 card based on NVIDIA's
 **Key Specs at a Glance**
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | Architecture | Pascal (16nm) |
 | VRAM | 24 GB GDDR5 |
 | Memory Bandwidth | ~346 GB/s |
@@ -53,6 +53,7 @@ While newer cards like the RTX 40 series are up to 7× faster in raw compute, th
 ---
 
 **References:**
+
 - [NVIDIA Tesla P40 Product Brief (Official)](https://images.nvidia.com/content/pdf/tesla/Tesla-P40-Product-Brief.pdf)
 - [Tesla P40 Specs – Flopper.io](https://flopper.io/gpu/nvidia-tesla-p40-24gb/spec-sheet)
 - [NVIDIA Tesla P40 Detailed Specs – CpuTronic](https://cputronic.com/en/gpu/nvidia-tesla-p40)

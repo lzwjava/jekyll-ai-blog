@@ -35,6 +35,7 @@ Extract to `C:\nvflash\` for easy access.
 
 1. Open **Command Prompt as Administrator** (search `cmd` → right-click → *Run as administrator*)
 2. Navigate to the folder:
+
    ```
    cd C:\nvflash
    ```
@@ -48,34 +49,37 @@ Extract to `C:\nvflash\` for easy access.
 ```
 nvflash --list
 ```
+
 Lists all NVIDIA GPUs in the system with their index number, device ID, SubVendor ID, and BIOS version.
 
-
 ### Show GPU info / BIOS version (no changes)
+
 ```
 nvflash --version
 nvflash -v
 ```
 
 ### Show detailed info for a specific adapter
+
 ```
 nvflash -i 0
 ```
+
 *(replace `0` with the index from `--list`)*
 
 ---
 
 ## 4. Back Up Current VBIOS (Do This First!)
 
-
 ```
 nvflash --save backup.rom
 ```
+
 To save the ROM of a specific GPU (e.g., index 0):
+
 ```
 nvflash -i0 --save gpu0.rom
 ```
-
 
 Name the file clearly — e.g., `RTX3070-GamingX-original.rom` — including the card model. Store copies locally, on a USB drive, and in cloud storage. Also save a copy of the NVFlash version used alongside the ROM file.
 
@@ -85,43 +89,47 @@ Verify the backup by opening it in **GPU-Z** (click *Save BIOS* → compare the 
 
 ## 5. Flash a New VBIOS
 
-### Standard flash (same card/vendor):
+### Standard flash (same card/vendor)
+
 ```
 nvflash -6 newbios.rom
 ```
+
 The `-6` flag allows you to override a PCI Subsystem ID mismatch. If there's a discrepancy, NVFlash will ask for confirmation — press `Y` (or `Z` on non-US keyboards).
 
-### Force flash (skip confirmation):
+### Force flash (skip confirmation)
+
 ```
 nvflash -f -6 newbios.rom
 ```
 
-### Flash a specific GPU by index (multi-GPU systems):
+### Flash a specific GPU by index (multi-GPU systems)
 
 ```
 nvflash --index=0 bios.rom
 ```
+
 Use `--list` first to find the correct index for each card in a multi-GPU rig.
 
-
-### If write-protection is blocking the flash:
+### If write-protection is blocking the flash
 
 ```
 nvflash --protectoff newbios.rom
 ```
-This disables write protection temporarily for the current session. Protection is re-enabled after a cold reboot.
 
+This disables write protection temporarily for the current session. Protection is re-enabled after a cold reboot.
 
 ---
 
 ## 6. Restore Original VBIOS
 
 Restoring uses the same flash command with your backup file:
+
 ```
 nvflash -6 original.rom
 ```
-This is the standard procedure before returning a card for warranty service.
 
+This is the standard procedure before returning a card for warranty service.
 
 ---
 
@@ -142,7 +150,7 @@ Modified BIOSes (power table edited, device ID changed) are blocked by signature
 ## Quick Command Cheat Sheet
 
 | Task | Command |
-|---|---|
+| --- | --- |
 | List all GPUs | `nvflash --list` |
 | Show version/info | `nvflash -v` |
 | Backup VBIOS | `nvflash --save backup.rom` |
@@ -156,6 +164,7 @@ Modified BIOSes (power table edited, device ID changed) are blocked by signature
 ---
 
 **References:**
+
 - [GPU BIOS Flash Guide 2026 (nvflash, commands, recovery)](https://www.mvktech.net/gpu-bios-flash-guide/)
 - [nvflash Command Reference 2026](https://www.mvktech.net/nvflash-guide/)
 - [NVflash: How to Flash a GPU BIOS (myminingrig.com)](https://myminingrig.com/how-to-flash-a-gpu-bios-with-nvflash/)

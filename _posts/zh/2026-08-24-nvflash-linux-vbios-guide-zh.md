@@ -24,6 +24,7 @@ type: note
 ## 第一步 — 下载 NVFlash
 
 前往 **TechPowerUp** 下载最新版本 (v5.867)：
+
 ```
 https://www.techpowerup.com/download/nvidia-nvflash/
 ```
@@ -68,12 +69,14 @@ sudo rmmod nvidia_drm nvidia_modeset nvidia_uvm nvidia
 ```
 
 验证它们均已卸载：
+
 ```bash
 lsmod | grep nvidia
 # 应无输出
 ```
 
 > **提示：** 如果模块拒绝卸载，请先停止显示管理器：
+>
 > ```bash
 > sudo systemctl stop gdm   # 或 sddm / lightdm
 > ```
@@ -92,13 +95,12 @@ sudo ./nvflash --list
 
 ## 第六步 — 备份当前 VBIOS（必须操作！）
 
-
 ```bash
 sudo ./nvflash --save vbios_backup.rom
 ```
 
-
 针对特定 GPU 索引：
+
 ```bash
 sudo ./nvflash -i0 --save vbios_backup_gpu0.rom
 ```
@@ -109,26 +111,25 @@ sudo ./nvflash -i0 --save vbios_backup_gpu0.rom
 
 ## 第七步 — 关闭写保护
 
-
 ```bash
 sudo ./nvflash --protectoff
 ```
-
 
 ---
 
 ## 第八步 — 刷写新 VBIOS
 
 标准刷写：
+
 ```bash
 sudo ./nvflash vbios_new.rom
 ```
 
 如果存在子系统 ID 不匹配，使用 `-6` 参数覆盖（请谨慎使用）：
+
 ```bash
 sudo ./nvflash -6 vbios_new.rom
 ```
-
 
 提示时按 `Y` 确认。
 
@@ -137,12 +138,13 @@ sudo ./nvflash -6 vbios_new.rom
 ## 第九步 — 验证新 VBIOS
 
 刷写后，确认新 VBIOS 已生效：
+
 ```bash
 sudo ./nvflash --version
 ```
 
-
 然后重启：
+
 ```bash
 sudo reboot
 ```
@@ -156,6 +158,7 @@ sudo reboot
 某些发行版具有 AppArmor 或 SELinux 等安全模块，可能会阻止 nvflash 直接访问设备。如果遇到无法解释的权限错误，请以安全模块的宽松模式启动系统。
 
 也可以尝试终止所有残留进程：
+
 ```bash
 sudo fuser -k /dev/nvidia*
 sudo rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia
@@ -197,6 +200,7 @@ sudo reboot
 ---
 
 **参考来源：**
+
 - [cyclone-github: nvflash Linux 操作指南（基于 Debian 测试，2025 年更新）](https://github.com/cyclone-github/nvidia_vbios/blob/main/nvflash_how_to_linux.txt)
 - [nvflash 参考指南 2026 — Linux 差异](https://www.mvktech.net/nvflash-guide/)
 - [HiveOS VBIOS 刷写指南（Linux，多 GPU）](https://hiveon.com/forum/t/guide-nvidia-gpu-vbios-flashing-with-hiveos/4091.rss)

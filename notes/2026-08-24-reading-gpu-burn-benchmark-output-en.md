@@ -18,11 +18,13 @@ Here's a breakdown of each part of the output:
 ---
 
 ### Setup Info
+
 ```
 GPU 0: NVIDIA GeForce RTX 4070
 Initialized device 0 with 11839 MB of memory (10248 MB available, using 9223 MB of it), using FLOATS
 Results are 268435456 bytes each, thus performing 34 iterations
 ```
+
 - **11839 MB** — total VRAM on the card
 - **10248 MB available** — free VRAM at test start (some is reserved by the OS/driver)
 - **9223 MB used by test** — gpu-burn allocates ~90% of available VRAM to stress it
@@ -32,12 +34,13 @@ Results are 268435456 bytes each, thus performing 34 iterations
 ---
 
 ### Progress Lines
+
 ```
 65.0%  proc'd: 238 (20497 Gflop/s)   errors: 0   temps: 60 C
 ```
 
 | Field | Meaning |
-|---|---|
+| --- | --- |
 | `65.0%` | % of the 20-second burn elapsed |
 | `proc'd: 238` | Total matrix multiplication batches completed so far |
 | `20497 Gflop/s` | Throughput — **~20.5 TFLOPs**, your GPU's FP32 compute speed |
@@ -62,4 +65,5 @@ Your RTX 4070 is **healthy**: consistent throughput, cool temperatures, and zero
 ---
 
 **References:**
+
 - [gpu-burn GitHub Repository](https://github.com/wilicc/gpu-burn)
