@@ -18,6 +18,7 @@ Answer: The Hang Seng University of Hong Kong (HSUHK) is a non-profit private un
 **Educational Model:** A unique "Liberal + Professional" approach that blends broad liberal arts education with professional training
 
 **Schools (5 total):**
+
 - Business
 - Communication
 - Decision Sciences
@@ -27,6 +28,7 @@ Answer: The Hang Seng University of Hong Kong (HSUHK) is a non-profit private un
 **Student Body:** Over 6,000 full-time students
 
 **Educational Mission:** HSUHK aims to nurture graduates with:
+
 - Critical thinking
 - Innovative minds
 - Caring attitudes
@@ -36,4 +38,5 @@ Answer: The Hang Seng University of Hong Kong (HSUHK) is a non-profit private un
 The "Liberal + Professional" model is what sets HSUHK apart — rather than focusing purely on vocational or professional training, it integrates a broad humanistic foundation to develop well-rounded, socially conscious graduates.
 
 References:
+
 - [The Hang Seng University of Hong Kong – Official Website](https://www.hsu.edu.hk)

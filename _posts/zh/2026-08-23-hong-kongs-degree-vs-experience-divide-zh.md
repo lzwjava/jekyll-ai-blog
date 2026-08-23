@@ -48,7 +48,7 @@ type: note
 **总结：**
 
 | 雇主类型 | 是否需要学位？ |
-|---|---|
+| --- | --- |
 | 银行、大型企业、政府机构 | 几乎总是需要 |
 | 金融科技/虚拟银行（ZA Bank、Mox） | 通常需要，但经验可弥补 |
 | 初创公司及产品型企业 | 作品集/技能通常足够 |
@@ -59,6 +59,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [香港2024年科技职业前景 – Xccelerate](https://www.xccelerate.co/blog/tech-careers-outlook-for-hong-kong-2024)
 - [香港初创企业为何在科技人才争夺战中失利 – HR Magazine HK](https://hrmagazine.com.hk/why-hong-kong-startups-are-losing-the-war-for-tech-talent-and-how-to-fight-back/)
 - [香港自学技术人的经历 – Sigma School](https://sigmaschool.co/blogs/dropping-a-university-degree-and-making-a-proper-living-as-a-self-taught-techie-in-hong-kong)

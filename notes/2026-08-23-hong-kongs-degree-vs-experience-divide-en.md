@@ -48,7 +48,7 @@ The US big-tech culture (OpenAI, Google, Meta, etc.) has largely moved to skills
 **Bottom line summary:**
 
 | Employer Type | Degree Required? |
-|---|---|
+| --- | --- |
 | Banks, large corporates, gov't | Almost always yes |
 | Fintech / virtual banks (ZA Bank, Mox) | Usually yes, but experience can compensate |
 | Startups & product companies | Portfolio / skills often enough |
@@ -59,6 +59,7 @@ If you're targeting HK's startup or fintech scene with a strong portfolio, you'r
 ---
 
 **References:**
+
 - [Tech Careers Outlook for Hong Kong 2024 – Xccelerate](https://www.xccelerate.co/blog/tech-careers-outlook-for-hong-kong-2024)
 - [Why Hong Kong Startups Are Losing the War for Tech Talent – HR Magazine HK](https://hrmagazine.com.hk/why-hong-kong-startups-are-losing-the-war-for-tech-talent-and-how-to-fight-back/)
 - [Self-taught Techie in Hong Kong – Sigma School](https://sigmaschool.co/blogs/dropping-a-university-degree-and-making-a-proper-living-as-a-self-taught-techie-in-hong-kong)
