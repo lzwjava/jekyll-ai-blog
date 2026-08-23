@@ -67,7 +67,7 @@ type: note
 ### 快速总结表
 
 | 原因 | 解决方法 |
-|---|---|
+| --- | --- |
 | 内存未插好 | 重新插拔 / 更换内存条或插槽 |
 | 显示器接错端口 | 将线缆移到显卡上 |
 | CMOS 配置损坏 | 清除 CMOS / 取下电池 |
@@ -78,6 +78,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [GA-H81M-DS2 用户手册（技嘉官方 PDF）](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
 - [已解决: GA-H81M-DS2 持续循环通电（Badcaps 论坛）](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)
 - [GA-H81M-DS2 维修指南及电路图（DIY 笔记本维修论坛）](https://www.diy-laptoprepair.com/forum/fix-GIGABYTE-GA-H81M-DS2-repair-guide-schematics.php)

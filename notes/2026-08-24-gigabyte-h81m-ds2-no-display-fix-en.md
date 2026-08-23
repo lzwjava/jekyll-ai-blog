@@ -67,7 +67,7 @@ If the board shows POST codes but keeps cycling, a BIOS reflash may be needed. G
 ### Quick Summary Table
 
 | Cause | Fix |
-|---|---|
+| --- | --- |
 | RAM not seated | Reseat / swap stick/slot |
 | Monitor plugged into wrong port | Move cable to GPU |
 | Corrupted CMOS | Clear CMOS / remove battery |
@@ -78,6 +78,7 @@ If the board shows POST codes but keeps cycling, a BIOS reflash may be needed. G
 ---
 
 **References:**
+
 - [GA-H81M-DS2 User's Manual (Gigabyte official PDF)](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
 - [SOLVED: GA-H81M-DS2 Constant Power Cycling (Badcaps forum)](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)
 - [GA-H81M-DS2 Repair Guide & Schematics (DIY Laptop Repair forum)](https://www.diy-laptoprepair.com/forum/fix-GIGABYTE-GA-H81M-DS2-repair-guide-schematics.php)

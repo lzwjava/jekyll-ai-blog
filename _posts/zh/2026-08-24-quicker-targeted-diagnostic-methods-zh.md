@@ -18,10 +18,11 @@ type: note
 ---
 
 ### 1. 🔊 听报警音（最快）
+
 GA-H81M-DS2 主板在POST自检时使用 **Award BIOS 报警音**。你需要将机箱蜂鸣器连接到主板的 `SPEAKER` 排针上。
 
 | 报警音模式 | 含义 |
-|---|---|
+| --- | --- |
 | 1 短声 | POST 通过——问题出在显示器/线缆上 |
 | 1 长声 + 2 短声 | 显卡/显示卡故障 |
 | 1 长声 + 3 短声 | 显存故障 |
@@ -33,7 +34,9 @@ GA-H81M-DS2 主板在POST自检时使用 **Award BIOS 报警音**。你需要将
 ---
 
 ### 2. 🔌 电源短接测试
+
 在怀疑主板之前，先确认电源是否正常工作：
+
 - 拔掉电源上的所有连接线
 - 用回形针短接 24 针接口上的**绿线（PS_ON）和任意黑线（GND）**
 - 电源风扇应转动 → 电源有电
@@ -44,10 +47,11 @@ GA-H81M-DS2 主板在POST自检时使用 **Award BIOS 报警音**。你需要将
 ---
 
 ### 3. 💡 POST诊断卡（约 5 美元工具）
+
 将一张 **PCI/PCIe 诊断卡** 插入任意插槽。它会通过小 LED 显示屏显示一个**两位十六进制代码**，精确告诉你系统在哪个阶段启动失败。
 
 | 代码 | 含义 |
-|---|---|
+| --- | --- |
 | `00` 或 `FF` | 主板完全无响应（CPU/电源问题） |
 | `C0`–`C5` | 内存初始化失败 |
 | `26` | 未找到显示设备 |
@@ -58,7 +62,9 @@ GA-H81M-DS2 主板在POST自检时使用 **Award BIOS 报警音**。你需要将
 ---
 
 ### 4. 👁 灯光/手电筒下目视检查
+
 在触碰任何零件前，仔细检查主板：
+
 - **电容鼓包或漏液**（顶部应平整，而非凸起）
 - **CPU 供电区域或 VRM MOSFET 附近有烧焦痕迹**
 - **LGA1150 插座针脚弯曲**
@@ -69,7 +75,9 @@ GA-H81M-DS2 主板在POST自检时使用 **Award BIOS 报警音**。你需要将
 ---
 
 ### 5. 🖥 优先使用核显（排除显卡问题）
+
 H81 芯片组支持 Intel 核芯显卡（前提是你的 CPU 支持）：
+
 - **完全移除独立显卡**
 - 将显示器连接到 I/O 面板上的 **VGA 或 HDMI 接口**
 - 如果能正常显示 → 问题出在显卡上
@@ -88,6 +96,7 @@ H81 芯片组支持 Intel 核芯显卡（前提是你的 CPU 支持）：
 ---
 
 **参考资料：**
+
 - [Award BIOS 报警音代码参考](https://www.computerhope.com/beep.htm)
 - [电源短接测试指南](https://www.wikihow.com/Test-a-Power-Supply)
 - [POST 诊断卡使用——Badcaps GA-H81M-DS2 案例](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)

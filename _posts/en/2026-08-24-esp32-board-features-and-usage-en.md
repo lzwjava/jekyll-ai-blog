@@ -31,7 +31,7 @@ The **ESP32** is a low-cost, low-power microcontroller (MCU) developed by **Espr
 **Common ESP32 Board Variants**
 
 | Board | Notes |
-|---|---|
+| --- | --- |
 | ESP32 DevKit V1 | Most common starter board |
 | ESP32-S3 | Enhanced AI/USB support |
 | ESP32-C3 | RISC-V core, budget-friendly |
@@ -48,6 +48,7 @@ The **ESP32** is a low-cost, low-power microcontroller (MCU) developed by **Espr
 5. **Upload** — hold the BOOT button if needed during flashing
 
 **Basic Blink Example (Arduino):**
+
 ```cpp
 void setup() {
   pinMode(2, OUTPUT); // Built-in LED on GPIO 2
@@ -74,6 +75,7 @@ void loop() {
 ---
 
 References:
+
 - [ESP32 Overview – Espressif Systems](https://www.espressif.com/en/products/socs/esp32)
 - [ESP32 Getting Started – Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-with-esp32/)
 - [ESP32 Arduino Core – GitHub](https://github.com/espressif/arduino-esp32)

@@ -26,7 +26,7 @@ It's a **tiny black cylinder** (about the size of a thumbnail) attached to a sma
 ### It Is NOT Your Audio Speaker
 
 | | Case Speaker (Piezo Buzzer) | Normal PC Speaker |
-|---|---|---|
+| --- | --- | --- |
 | Purpose | POST beep codes only | Music, audio, sound |
 | Sound quality | Harsh single-tone beep | Full audio |
 | Connected to | Motherboard SPEAKER header | Front panel audio / rear jack |
@@ -38,6 +38,7 @@ It's a **tiny black cylinder** (about the size of a thumbnail) attached to a sma
 ### Does Your Case Already Have One?
 
 **Check inside your case** — many older ATX cases include one already, usually:
+
 - A small black buzzer **glued or screwed** to the inside of the case frame
 - With a wire running to a **4-pin connector** labeled `SPK` or `SPEAKER`
 
@@ -48,6 +49,7 @@ If yours does, just plug it into the F_PANEL SPEAKER pins on the board.
 ### If Your Case Doesn't Have One — What to Buy
 
 Search for any of these terms:
+
 - **"PC internal speaker buzzer"**
 - **"motherboard piezo speaker"**
 - **"PC POST speaker"**
@@ -69,5 +71,6 @@ They are sold on Amazon, AliExpress, Shopee, or any local computer parts shop fo
 ---
 
 **References:**
+
 - [GA-H81M-DS2 User's Manual — F_PANEL pin assignments](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
 - [Gikfun PC Motherboard Internal Piezo Speaker on Amazon](https://www.amazon.com/s?k=pc+internal+speaker+buzzer+motherboard)

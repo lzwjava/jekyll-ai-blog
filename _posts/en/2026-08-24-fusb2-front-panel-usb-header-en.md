@@ -40,7 +40,7 @@ Pin 9  - No Pin (key)      | Pin 10 - NC
 ### The GA-H81M-DS2 Has Two Such Headers
 
 | Header | Label | What it connects to |
-|---|---|---|
+| --- | --- | --- |
 | First | **F_USB1** | Front panel USB (ports 1–2) |
 | Second | **F_USB2** | Front panel USB (ports 3–4) |
 
@@ -58,4 +58,5 @@ So **F_USB2** is simply the **second front USB 2.0 header**, giving your case ex
 ---
 
 **References:**
+
 - [GA-H81M-DS2 User's Manual — Chapter 1 Hardware Installation (Gigabyte PDF)](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)

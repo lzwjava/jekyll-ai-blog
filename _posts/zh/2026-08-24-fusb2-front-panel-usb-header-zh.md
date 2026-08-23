@@ -40,7 +40,7 @@ type: note
 ### GA-H81M-DS2 主板上有两个这样的插针
 
 | 插针 | 标签 | 连接对象 |
-|---|---|---|
+| --- | --- | --- |
 | 第一个 | **F_USB1** | 前置面板 USB（端口 1–2） |
 | 第二个 | **F_USB2** | 前置面板 USB（端口 3–4） |
 
@@ -58,4 +58,5 @@ type: note
 ---
 
 **参考文档：**
+
 - [GA-H81M-DS2 用户手册——第 1 章 硬件安装（技嘉 PDF）](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)

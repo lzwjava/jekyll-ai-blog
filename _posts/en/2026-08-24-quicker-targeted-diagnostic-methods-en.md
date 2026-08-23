@@ -18,10 +18,11 @@ Yes, going through parts one by one without direction is slow. Here are **quicke
 ---
 
 ### 1. 🔊 Listen to the Beep Codes (Fastest)
+
 The GA-H81M-DS2 uses **Award BIOS beep codes** at POST. You need a case speaker connected to the motherboard's `SPEAKER` header.
 
 | Beep Pattern | Meaning |
-|---|---|
+| --- | --- |
 | 1 short beep | POST passed — problem is display/cable |
 | 1 long + 2 short | GPU / display card fault |
 | 1 long + 3 short | GPU memory fault |
@@ -33,7 +34,9 @@ The GA-H81M-DS2 uses **Award BIOS beep codes** at POST. You need a case speaker 
 ---
 
 ### 2. 🔌 Power Supply Paper Clip Test
+
 Before blaming the motherboard, confirm the PSU actually works:
+
 - Unplug everything from the PSU
 - Short the **green wire (PS_ON) to any black wire (GND)** on the 24-pin connector with a paper clip
 - PSU fan should spin → PSU is alive
@@ -44,10 +47,11 @@ Before blaming the motherboard, confirm the PSU actually works:
 ---
 
 ### 3. 💡 POST Debug Card (~$5 tool)
+
 Plug a **PCI/PCIe POST card** into any slot. It shows a **2-digit hex code** on a tiny LED display telling you exactly which stage boot failed at.
 
 | Code | Meaning |
-|---|---|
+| --- | --- |
 | `00` or `FF` | Board completely dead (CPU/power) |
 | `C0`–`C5` | Memory initialization failure |
 | `26` | No display device found |
@@ -58,7 +62,9 @@ This is the **professional method** — even the Badcaps repair community used t
 ---
 
 ### 4. 👁 Visual Inspection Under Light / Flashlight
+
 Before touching anything, look at the board closely:
+
 - **Bulging or leaking capacitors** (top should be flat, not domed)
 - **Burn marks** near the CPU power area or VRM MOSFETs
 - **Bent pins** in the LGA1150 socket
@@ -69,7 +75,9 @@ Before touching anything, look at the board closely:
 ---
 
 ### 5. 🖥 Use Integrated Graphics First (Eliminate GPU)
+
 The H81 chipset supports Intel HD Graphics (if your CPU has it):
+
 - **Remove the GPU entirely**
 - Plug the monitor into the **VGA or HDMI port on the I/O panel**
 - If it now displays → GPU is the fault
@@ -88,6 +96,7 @@ Each step **rules out one major component** before moving to the next. You rarel
 ---
 
 **References:**
+
 - [Award BIOS Beep Codes Reference](https://www.computerhope.com/beep.htm)
 - [PSU Paperclip Test Guide](https://www.wikihow.com/Test-a-Power-Supply)
 - [POST Card usage — Badcaps GA-H81M-DS2 case](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)

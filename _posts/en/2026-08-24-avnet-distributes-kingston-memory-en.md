@@ -26,5 +26,6 @@ In short, **Avnet is not a memory chip brand itself** — it is an authorized di
 ---
 
 **References:**
+
 - [Avnet Partners with Kingston on Memory Products – EDN](https://www.edn.com/avnet-partners-with-kingston-on-memory-products/)
 - [Kingston Technology Authorized Distributor | Avnet Americas](https://www.avnet.com/americas/manufacturers/m/kingston-technology/)

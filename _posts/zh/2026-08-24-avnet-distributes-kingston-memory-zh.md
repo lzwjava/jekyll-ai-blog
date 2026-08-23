@@ -26,5 +26,6 @@ type: note
 ---
 
 **参考来源：**
+
 - [Avnet 与 Kingston 合作内存产品 – EDN](https://www.edn.com/avnet-partners-with-kingston-on-memory-products/)
 - [Kingston Technology 授权分销商 | Avnet Americas](https://www.avnet.com/americas/manufacturers/m/kingston-technology/)

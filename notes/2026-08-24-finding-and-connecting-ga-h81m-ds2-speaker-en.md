@@ -69,4 +69,5 @@ After connecting, boot the PC. If RAM is missing or there's a POST error, you wi
 ---
 
 **References:**
+
 - [GA-H81M-DS2 User's Manual — F_PANEL header pin assignments (Gigabyte PDF)](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
