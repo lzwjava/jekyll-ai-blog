@@ -16,7 +16,7 @@ Answer:
 These labels appear on motherboards and refer to PCIe (PCI Express) slots, but they differ in **lane count** and **intended use**:
 
 | Feature | PCIEX16 | PCIEX1 |
-|---|---|---|
+| --- | --- | --- |
 | Lane count | 16 lanes | 1 lane |
 | Bandwidth (PCIe 4.0) | ~32 GB/s | ~2 GB/s |
 | Physical slot size | Long | Short |
@@ -31,5 +31,6 @@ These labels appear on motherboards and refer to PCIe (PCI Express) slots, but t
 - On many motherboards, a second "x16 physical" slot may actually run at x4 or x1 electrically — always check your motherboard manual for the actual wired lanes.
 
 References:
+
 - [PCIe Lanes Explained – What Are They and How Many Do You Need?](https://www.cgdirector.com/pcie-lanes-explained/)
 - [PCI Express – Wikipedia](https://en.wikipedia.org/wiki/PCI_Express)

@@ -16,7 +16,7 @@ type: note
 这些标签出现在主板上，指的是 PCIe（PCI Express）插槽，但它们在**通道数量**和**预期用途**上有所不同：
 
 | 特性 | PCIEX16 | PCIEX1 |
-|---|---|---|
+| --- | --- | --- |
 | 通道数量 | 16 条通道 | 1 条通道 |
 | 带宽（PCIe 4.0） | 约 32 GB/s | 约 2 GB/s |
 | 物理插槽尺寸 | 长 | 短 |
@@ -31,5 +31,6 @@ type: note
 - 在许多主板上，第二个"x16 物理"插槽实际电气连接可能只有 x4 或 x1——务必查阅主板手册确认实际布线通道。
 
 参考文献：
+
 - [PCIe Lanes Explained – What Are They and How Many Do You Need?](https://www.cgdirector.com/pcie-lanes-explained/)
 - [PCI Express – Wikipedia](https://en.wikipedia.org/wiki/PCI_Express)

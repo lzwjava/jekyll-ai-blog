@@ -22,7 +22,7 @@ Here are the most effective search terms:
 ### Most Direct Terms
 
 | Chinese | Pinyin | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | **主板蜂鸣器** | zhǔbǎn fēngmíng qì | Motherboard buzzer |
 | **PC喇叭** | PC lǎba | PC speaker (buzzer) |
 | **机箱喇叭** | jīxiāng lǎba | Case speaker |
@@ -36,9 +36,11 @@ Here are the most effective search terms:
 ```
 主板蜂鸣器
 ```
+
 ```
 机箱喇叭 4pin
 ```
+
 ```
 PC喇叭 主板
 ```
@@ -54,7 +56,7 @@ The listing will show a small black cylinder with a 4-pin connector wire. Price 
 ### Platform Recommendations
 
 | Platform | Best search term |
-|---|---|
+| --- | --- |
 | Shopee (MY/TW/PH) | `主板蜂鸣器` or `机箱喇叭` |
 | Lazada | `PC speaker buzzer motherboard` (English works fine here) |
 | Taobao / 1688 | `主板蜂鸣器 4pin` |

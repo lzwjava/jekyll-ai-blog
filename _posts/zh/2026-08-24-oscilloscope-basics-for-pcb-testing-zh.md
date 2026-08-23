@@ -24,7 +24,7 @@ type: note
 ## 主要部件
 
 | 部件 | 用途 |
-|---|---|
+| --- | --- |
 | **探头** | 连接到电路；带有探针尖端（信号）和接地夹 |
 | **显示屏** | 显示波形（X轴 = 时间，Y轴 = 电压） |
 | **时基** | 控制X轴扫描速度（时间/格） |
@@ -51,6 +51,7 @@ type: note
 将触发设置为信号的通道，并将阈值设置为接近信号中间值。这样可以锁定波形，使其稳定且易于读取。
 
 **6. 读取波形**
+
 - **幅度** = 峰峰值电压
 - **频率** = 1 / 周期（从时间轴读取）
 - **形状** = 可判断信号是否干净（方波、正弦波）或失真/含噪声
@@ -78,6 +79,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [如何使用示波器 — SparkFun](https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope/all)
 - [示波器基础 — Tektronix](https://www.tek.com/en/documents/primer/oscilloscope-primer)
 - [在PCB上使用示波器 — Adafruit Learning](https://learn.adafruit.com/using-an-oscilloscope)

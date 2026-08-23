@@ -16,7 +16,7 @@ type: note
 Here are its key specs from the official Huntkey page:
 
 | Spec | Details |
-|---|---|
+| --- | --- |
 | **Rated Power** | 200W |
 | **Fan Size** | 80mm (8CM) |
 | **Efficiency** | 78% |
@@ -36,5 +36,6 @@ Here are its key specs from the official Huntkey page:
 - It's an entry-level / budget PSU, not recommended for gaming or high-performance builds.
 
 **References:**
+
 - [睿智300S — Huntkey Official](https://www.huntkey.cn/product/product_id=452.html)
 - [睿智300S Price Listings — JD.com](https://www.jd.com/jiage/67084bdcee53f225816.html)

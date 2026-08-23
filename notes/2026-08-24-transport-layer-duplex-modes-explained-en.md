@@ -35,7 +35,7 @@ Simplex:       A ———————→ B     (one direction only, forever)
 Most transport layer protocols are designed for **simultaneous bidirectional** data flow:
 
 | Scenario | Example | Why Full-Duplex? |
-|----------|---------|-----------------|
+| ---------- | --------- | ----------------- |
 | Web browsing | TCP (HTTP/HTTPS) | Client sends requests while receiving data |
 | File transfer | TCP (FTP) | ACKs flow back while data flows forward |
 | Video call | TCP/UDP | Audio/video stream both ways simultaneously |
@@ -78,5 +78,6 @@ Also, the **underlying network** sometimes constrains the transport layer — if
 > *"Transport Layer is like a highway: normally* ***two lanes go both ways simultaneously*** *(full-duplex), but on a narrow bridge, cars take turns* ***(half-duplex)***."*
 
 References:
+
 - [RFC 793 – Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc793)
 - [Computer Networks – Tanenbaum, Chapter 6: Transport Layer](https://www.pearson.com/en-us/subject-catalog/p/computer-networks/P200000003217)

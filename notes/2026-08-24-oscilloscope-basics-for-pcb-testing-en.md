@@ -24,7 +24,7 @@ An **oscilloscope** (示波器) is a test instrument that displays electrical si
 ## Key Parts
 
 | Part | Purpose |
-|---|---|
+| --- | --- |
 | **Probe** | Connects to the circuit; has a tip (signal) and ground clip |
 | **Display** | Shows the waveform (X = time, Y = voltage) |
 | **Timebase** | Controls how fast the X-axis sweeps (time/div) |
@@ -51,6 +51,7 @@ Set the time scale to match the signal's period. For a 1 kHz signal, you'd want 
 Set trigger to the signal's channel and a threshold near the midpoint. This locks the waveform so it's stable and readable.
 
 **6. Read the Waveform**
+
 - **Amplitude** = peak-to-peak voltage
 - **Frequency** = 1 / period (read from the time axis)
 - **Shape** = tells you if a signal is clean (square, sine) or distorted/noisy
@@ -78,6 +79,7 @@ Set trigger to the signal's channel and a threshold near the midpoint. This lock
 ---
 
 **References:**
+
 - [How to Use an Oscilloscope — SparkFun](https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope/all)
 - [Oscilloscope Basics — Tektronix](https://www.tek.com/en/documents/primer/oscilloscope-primer)
 - [Using an Oscilloscope on a PCB — Adafruit Learning](https://learn.adafruit.com/using-an-oscilloscope)

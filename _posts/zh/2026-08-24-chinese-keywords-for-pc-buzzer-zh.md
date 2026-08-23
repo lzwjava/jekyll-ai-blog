@@ -22,7 +22,7 @@ type: note
 ### 最直接的搜索词
 
 | 中文 | 拼音 | 含义 |
-|---|---|---|
+| --- | --- | --- |
 | **主板蜂鸣器** | zhǔbǎn fēngmíng qì | Motherboard buzzer |
 | **PC喇叭** | PC lǎba | PC speaker (buzzer) |
 | **机箱喇叭** | jīxiāng lǎba | Case speaker |
@@ -36,9 +36,11 @@ type: note
 ```
 主板蜂鸣器
 ```
+
 ```
 机箱喇叭 4pin
 ```
+
 ```
 PC喇叭 主板
 ```
@@ -54,7 +56,7 @@ PC喇叭 主板
 ### 各平台推荐搜索词
 
 | 平台 | 最佳搜索词 |
-|---|---|
+| --- | --- |
 | Shopee (马来西亚/台湾/菲律宾) | `主板蜂鸣器` 或 `机箱喇叭` |
 | Lazada | `PC speaker buzzer motherboard`（此处使用英文即可） |
 | 淘宝 / 1688 | `主板蜂鸣器 4pin` |

@@ -45,6 +45,7 @@ At ¥219 (~$30 USD), it's **excellent value for its target audience**: electroni
 ---
 
 **References:**
+
 - [FNIRSI DSO-153 Official Product Page](https://www.fnirsi.com/products/dso-153)
 - [DSO-153 on Martview – Full Specs](https://www.martview.com/fnirsi-dso-153-2-in-1-portable-1mhz-bandwidth-digital-oscilloscope-signal-generator.html)
 - [DSO153 on Amazon](https://www.amazon.com/FNIRSI-DSO153-Oscilloscope-Generator-Automotive/dp/B0D2TGM82J)

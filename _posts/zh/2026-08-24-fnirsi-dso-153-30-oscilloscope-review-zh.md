@@ -45,6 +45,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [FNIRSI DSO-153 官方产品页面](https://www.fnirsi.com/products/dso-153)
 - [Martview 上 DSO-153 的完整规格](https://www.martview.com/fnirsi-dso-153-2-in-1-portable-1mhz-bandwidth-digital-oscilloscope-signal-generator.html)
 - [亚马逊上的 DSO153](https://www.amazon.com/FNIRSI-DSO153-Oscilloscope-Generator-Automotive/dp/B0D2TGM82J)
