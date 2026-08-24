@@ -57,11 +57,10 @@ That difference becomes very visible in **infrastructure, public transportation,
 [1]: https://tjj.gz.gov.cn/stats_newtjyw/tjsj/tjgb/qstjgb/content/mpost_10800227.html?utm_source=chatgpt.com "2025年广州市国民经济和社会发展统计公报  广州市统计局网站"
 [2]: https://cdnbbsr.s3waas.gov.in/s323af4b45f1e166141a790d1a3126e77a/uploads/2025/07/20250710874839541.pdf?utm_source=chatgpt.com "Graph 3.8 : Per Capita Income of Maharashtra and All- India"
 
-
 Nominal economic output/income per person
 
 Guangzhou vs Pune using the latest official figures available; periods and definitions are not perfectly identical.
 
-city	usd
-Guangzhou	23,559
-Pune	4,300
+city usd
+Guangzhou 23,559
+Pune 4,300

@@ -192,11 +192,10 @@ References:
 [4]: https://data.worldbank.org/indicator/PA.NUS.PPP?locations=IN&utm_source=chatgpt.com "PPP conversion factor, GDP (LCU per international $) - India | Data"
 [5]: https://cdnbbsr.s3waas.gov.in/s323af4b45f1e166141a790d1a3126e77a/uploads/2025/07/20250710874839541.pdf?utm_source=chatgpt.com "Graph 3.8 : Per Capita Income of Maharashtra and All- India"
 
-
 Pune vs Guangzhou: nominal GDP per person
 
 Approximate 2025/current comparison using official local statistics. Pune uses district-level data; Guangzhou uses city-level data.
 
-gdp	city
-6,000	Pune
-23,559	Guangzhou
+gdp city
+6,000 Pune
+23,559 Guangzhou

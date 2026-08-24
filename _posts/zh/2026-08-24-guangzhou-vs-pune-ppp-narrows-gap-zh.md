@@ -192,11 +192,10 @@ type: note
 [4]: https://data.worldbank.org/indicator/PA.NUS.PPP?locations=IN&utm_source=chatgpt.com "PPP conversion factor, GDP (LCU per international $) - India | Data"
 [5]: https://cdnbbsr.s3waas.gov.in/s323af4b45f1e166141a790d1a3126e77a/uploads/2025/07/20250710874839541.pdf?utm_source=chatgpt.com "Graph 3.8 : Per Capita Income of Maharashtra and All- India"
 
-
 浦那 vs 广州：人均名义GDP
 
 约2025年/当前比较，使用官方地方统计数据。浦那使用地区级数据；广州使用城市级数据。
 
-gdp	city
-6000	浦那
-23559	广州
+gdp city
+6000 浦那
+23559 广州
