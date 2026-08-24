@@ -18,7 +18,7 @@ I've analyzed the HTML for the Hong Kong Quality Migrant Admission Scheme (QMAS)
 The form is a horizontal 11-step stepper. Note the navigation flow:
 
 | # | Step | Data captured |
-|---|---|---|
+| --- | --- | --- |
 | ① | **Assessment Routes** | Choose GPT vs APT point system |
 | ② | **Prerequisites** | DOB, financial capacity, "good character" questions, dependants, net worth |
 | ③ | **General Points Test** | Age etc., scoring 0/12 |
@@ -31,6 +31,7 @@ The form is a horizontal 11-step stepper. Note the navigation flow:
 ## ⚠️ Critical Rules & Things to Be Careful About
 
 ### 1. Passing Threshold (Step ③)
+
 - **Passing threshold = 6 out of 12** assessment criteria.
 - The System computes a real-time count at the bottom: *"Number of assessment criteria you met: 0 / 12"*.
 - Applicants who don't meet threshold **cannot submit** (the "Next step" / `continueBtn` stays **disabled**).
@@ -38,14 +39,16 @@ The form is a horizontal 11-step stepper. Note the navigation flow:
 ### 2. Two Assessment Routes (Step ①) — choose carefully
 
 | Route | Notices |
-|---|---|
+| --- | --- |
 | **General Points Test (GPT)** | Default selected. 12 criteria across 6 aspects: Age, Academic Qualifications, Language Proficiency, Work Experience, Annual Income, Business Ownership. |
 | **Achievement-based Points Test (APT)** | Very high bar — only for applicants with an exceptional award (e.g. **Olympic medal, Nobel Prize, national/international award**) OR work acknowledged by peers / contribution to field. **If you fail any criterion → application refused immediately.** |
 
 > ⚠️ **Be careful:** The APT questions are `hidden` in the HTML (only shown if APT is selected). Choose GPT unless you genuinely hold major awards.
 
 ### 3. Prerequisites (Step ②) — Eligibility Gate
+
 These are threshold/filter questions. **Answering "No" here effectively disqualifies you:**
+
 - **Q1 DOB** — auto-calculates and locks your **age** (relevant to scoring). Date format **DD/MM/YYYY**.
 - **Q2** — *"Are you capable of supporting and accommodating yourself ... without relying on public assistance?"* → **must answer YES**
 - **Q3** — *"minimum of graduate level education or a good technical qualification?"* → **must answer YES** to proceed
@@ -59,13 +62,16 @@ These are threshold/filter questions. **Answering "No" here effectively disquali
 > ⚠️ If you answer YES to Q4–Q8, detail fields + supporting-document uploads appear (and it will likely block forward progress). Only choose YES if truly applicable — be truthful; making a false statement is a criminal offence (see declaration).
 
 ### 4. "Sensitive" fields with hidden / auto-locked logic
+
 - **Date of Birth is locked from Step ① → Step ⑩ read-only:** the form warns *"Please return to '2. Prerequisites' if you wish to amend your Date of Birth."* So set it correctly in Step ②.
 - The system pre-fills some data when you **upload a travel document or use iAM Smart e-ME** (Name, DOB, given name, photo tags `iams-img-tag` appear). This reduces manual typing and errors.
 
 ### 5. File upload constraints (strict)
+
 Each upload component has hard limits you must respect:
+
 | Field | Rules |
-|---|---|
+| --- | --- |
 | Proofs of personal net worth | **max 3 files**, ≤5MB each |
 | Supporting docs for Q4–Q8 (if YES) | **max 2 files**, ≤5MB |
 | Recent photograph | **only JPEG**, **MIN 1200px(W) × 1600px(H)**, **1 file**, ≤5MB |
@@ -76,7 +82,9 @@ Each upload component has hard limits you must respect:
 > Note: File **size ≤ 5MB** and **count/type limits** are enforced. Oversized or non-JPEG will reject.
 
 ### 6. Mandatory personal fields with validation (Step ⑩)
+
 Fields marked `required-star`:
+
 - **Name in English** — format `Surname, [space] Given Names` (auto-uppercase via `all-caps`)
 - **Sex** (Male/Female checkboxes — note *"For unknown sex , please select 'Male' and 'Female'"*)
 - **Chinese name** (≤6 chars) — *if applicable*
@@ -88,12 +96,15 @@ Fields marked `required-star`:
 - **Contact telephone** (country code + number), **Present address** (opens popup modal)
 
 ### 7. Negative-address & equality / personal net worth
+
 - **Address** is entered via a modal (`adi-address`) with **Chinese/English** and **HK / Other Address** types — not free text at first. Use "Input address" button; full address in textarea is otherwise disabled.
 - **HK ID no.** — two fields: main value (≤8 chars) + bracket check digit (1 char).
 - **Nationality dropdown** — has disabled headers ("Resident of:", "National of:"). Choose the leaf option value correctly (e.g. `TWP` Mainland, `CHN` Mainland-overseas, `TWN` Taiwan, or country codes like `USA`).
 
 ### 8. Declaration & Signature (Step ⑪)
+
 Before submission you must:
+
 - Read consent clauses (i–iv, incl. IRD/MPF verification consent, "Director has absolute discretionary absolute discretion")
 - Confirm **personal net worth ≥ amount stated in Part 2**
 - (Mainland Chinese residents) declare you'll apply for **EEP** for entry
@@ -104,6 +115,7 @@ Before submission you must:
 ---
 
 ## 🧠 Practical "Careful" Checklist
+
 1. **Double-check DOB** in Step ② — it's locked afterward.
 2. **Answer the threshold questions deliberately** — wrong "No" will kill the application.
 3. **Don't exceed upload limits** (count + 5MB) — especially the photo (JPEG, ≥1200×1600, it's 1 file only).
@@ -118,6 +130,7 @@ Before submission you must:
 ---
 
 If you'd like, I can help you:
+
 - **Draft suggested answers** for each field (if you give me your background),
 - **Build a checklist/script** to auto-fill the fields via the form's element IDs (there are `id` attributes I can target), e.g. `dobDate`, `personalNetWorth`, `minimumEducationLevelYes`, `assessmentQ01Yes`, `givenName`, `pob`, `email`, etc.
 
