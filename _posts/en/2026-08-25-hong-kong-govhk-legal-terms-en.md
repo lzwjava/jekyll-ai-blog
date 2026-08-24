@@ -198,7 +198,7 @@ without prior notice. ([Government of Hong Kong][1])
 
 For your use case:
 
-### Safe:
+### Safe
 
 ✅ Read GovHK requirements
 ✅ Download forms
@@ -206,7 +206,7 @@ For your use case:
 ✅ Make personal checklists
 ✅ Share links to official pages
 
-### Be careful:
+### Be careful
 
 ⚠️ Do not sell copied government documents as your own product.
 
