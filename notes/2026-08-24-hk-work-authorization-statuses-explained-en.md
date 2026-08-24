@@ -26,6 +26,7 @@ Holds a valid visa but is restricted to working in a specific sector. A key exam
 
 **Temporary Visa (General)**
 Holds a time-limited visa with no specific industry restriction, but their right to stay and work is not permanent. Common schemes include:
+
 - **QMAS** – Quality Migrant Admission Scheme (points-based, for high-caliber individuals)
 - **TTPS** – Top Talent Pass Scheme (for high earners / graduates from top universities)
 - **IANG** – Immigration Arrangements for Non-local Graduates (for recent HK university graduates)
@@ -34,6 +35,7 @@ These holders can generally work freely but must renew their visa periodically.
 
 **Requires Sponsorship**
 Cannot work in HK without an employer actively sponsoring and holding their visa. If they leave the sponsoring employer, their right to work typically lapses. Examples include:
+
 - **GEP** – General Employment Policy (employer sponsors a specific foreign professional)
 - **Imported Workers** – Lower-skilled labor brought in under quota schemes (e.g. the Supplementary Labour Scheme)
 
@@ -42,7 +44,7 @@ Cannot work in HK without an employer actively sponsoring and holding their visa
 **Quick Comparison Table**
 
 | Status | Work Freely? | Industry Restricted? | Needs Employer? | Time-Limited? |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Permanent Resident | ✅ | ❌ | ❌ | ❌ |
 | Citizen | ✅ | ❌ | ❌ | ❌ |
 | Temp Visa (Industry) | ⚠️ Sector only | ✅ | ❌ | ✅ |
@@ -50,6 +52,7 @@ Cannot work in HK without an employer actively sponsoring and holding their visa
 | Requires Sponsorship | ❌ | Varies | ✅ | ✅ |
 
 References:
+
 - [Quality Migrant Admission Scheme – IMMD](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)
 - [Top Talent Pass Scheme – IMMD](https://www.immd.gov.hk/eng/services/visas/TTPS.html)
 - [Immigration Arrangements for Non-local Graduates – IMMD](https://www.immd.gov.hk/eng/services/visas/IANG.html)

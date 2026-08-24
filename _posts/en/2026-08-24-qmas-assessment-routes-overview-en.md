@@ -22,7 +22,7 @@ This page describes the **Quality Migrant Admission Scheme (QMAS)** run by Hong 
 This is a scoring system across six categories:
 
 | Category | What's Assessed |
-|---|---|
+| --- | --- |
 | **(A) Age** | Whether the applicant is 50 or under |
 | **(B) Academic Qualifications** | Master's or doctoral degree from an eligible university; bonus for STEM fields |
 | **(C) Language Proficiency** | Proficiency in two languages (written & spoken); proficiency in English |
@@ -37,6 +37,7 @@ The **prevailing passing threshold is 6 out of 12**. Only applicants meeting thi
 **🔴 Route 2 — Achievement-based Points Test**
 
 This route caters to individuals with **exceptional talent or outstanding achievements**. Requirements are very high — applicants must meet at least one of the following criteria:
+
 1. Having received an award of exceptional achievement (e.g. Olympic medal, Nobel Prize, national/international award); or
 2. Having work acknowledged by peers or contributing significantly to their field (e.g. a lifetime achievement award from their industry).
 
@@ -47,4 +48,5 @@ Failing to meet any criterion results in immediate refusal.
 **In short**, QMAS is Hong Kong's points-based immigration pathway for high-caliber global talent, offering two routes depending on whether your strength lies in measurable credentials or world-class achievements.
 
 **References:**
+
 - [Quality Migrant Admission Scheme — Assessment Routes](https://www.immd.gov.hk/eng/services/visas/assessment-routes.html#general)

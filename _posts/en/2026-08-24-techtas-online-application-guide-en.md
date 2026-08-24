@@ -16,9 +16,11 @@ type: note
 TechTAS (Technology Talent Admission Scheme) is a Hong Kong government program that allows eligible companies to hire overseas technology talent by applying for quotas and entry/employment visas through the Immigration Department and the Innovation and Technology Commission (ITC).
 
 **Who it's for:**
+
 - Companies and non-residents can use this online service to submit applications for quota or entry for employment under TechTAS in the HKSAR. It is **not** applicable for extension of stay.
 
 **Two types of quota applications:**
+
 - **TechTAS 01** — for applicants which are tenants, incubatees, grantees, or occupants of the Hong Kong Science and Technology Parks Corporation, the Hong Kong Cyberport Management Company Limited, or the Hong Kong-Shenzhen Innovation and Technology Park Limited.
 - **TechTAS 02** — for applicants which are NOT tenants, incubatees, grantees, or occupants of those organizations.
 
@@ -35,13 +37,15 @@ There is no application fee for quota applications. Visa application fees are pa
 Accompanying dependants can be included in a group submission, with a maximum of nine applications per group.
 
 **Support contacts:**
+
 - Technical help: **(852) 3128 8668** (7am–11pm daily)
 - General visa enquiries: **(852) 2824 6111** (office hours)
-- TechTAS & quota enquiries: **(852) 3543 5970** or techtas@itc.gov.hk
+- TechTAS & quota enquiries: **(852) 3543 5970** or <techtas@itc.gov.hk>
 
 ---
 
 **References:**
+
 - [GovHK: Online Application for TechTAS](https://www.gov.hk/en/nonresidents/visarequire/visasentrypermits/applytechtas.htm)
 - [ITC TechTAS Eligibility for Companies](https://www.itc.gov.hk/en/fund_app/techtas/index.html)
 - [IMMD TechTAS Eligibility for Individuals](https://www.immd.gov.hk/eng/services/visas/TECHTAS.html)

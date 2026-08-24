@@ -46,4 +46,5 @@ TechTAS does not apply to nationals of Afghanistan, Cuba, and the Democratic Peo
 ---
 
 **References:**
+
 - [Technology Talent Admission Scheme (TechTAS) — Hong Kong Immigration Department](https://www.immd.gov.hk/eng/services/visas/TECHTAS.html)
