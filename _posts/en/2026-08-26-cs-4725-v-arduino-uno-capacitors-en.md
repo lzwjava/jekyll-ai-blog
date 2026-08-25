@@ -18,7 +18,7 @@ type: note
 Here's what those markings mean:
 
 | Marking | Meaning |
-|---|---|
+| --- | --- |
 | **CS** | Component series / manufacturer code (Panasonic "CS" series) |
 | **47** | Capacitance: **47 µF** |
 | **25V** | Voltage rating: **25 Volts** |
@@ -28,6 +28,7 @@ According to the Arduino Uno board topology, PC1 and PC2 are listed as **electro
 **Role on the board:** These capacitors are located in the power section of the Arduino Uno. They act as **bulk decoupling / filter capacitors**, smoothing out voltage ripple from the power supply to ensure stable power delivery to the board's components.
 
 **References:**
+
 - [Arduino Uno Board Parts – VideotronicMaker](https://videotronicmaker.com/arduino-uno-board-parts/)
 - [Arduino Uno Rev3 – Official Store Page](https://store-usa.arduino.cc/products/arduino-uno-rev3)
 - [Overview of Arduino UNO Components – Arduino Docs](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board)

@@ -38,7 +38,7 @@ type: note
 **总结表**
 
 | | 纽约州 | 中国 | 加拿大 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GDP规模 | 约2.5万亿美元 | 超过21万亿美元 | 约2.1万亿美元 |
 | 2026年增长率 | 约2.2% | 约4.7% | 约1.2–1.5% |
 | 人均GDP | 约12.3万美元 | 约14,874美元 | 约5.3万美元 |
@@ -47,6 +47,7 @@ type: note
 **结论：** 纽约目前的表现远好于加拿大。与中国相比，纽约在人均财富和金融业表现上明显胜出，但中国从百分比来看增长更快，且经济总量大得多。
 
 **参考来源：**
+
 - [纽约州经济 - 维基百科](https://en.wikipedia.org/wiki/Economy_of_New_York_(state))
 - [道明经济 - 纽约州经济预测](https://economics.td.com/state-economic-forecast)
 - [纽约市主计长月度展望 - 2026年7月](https://comptroller.nyc.gov/newsroom/newsletter/new-york-by-the-numbers-monthly-economic-and-fiscal-outlook-no-115-july-2026/)

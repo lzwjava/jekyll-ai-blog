@@ -38,6 +38,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国人民银行金融统计数据报告（2025年7月）](https://www.pbc.gov.cn/en/3688247/3688978/3709137/5810171/index.html)
 - [中国人民银行金融统计数据报告 – 2024年全年](http://www.pbc.gov.cn/en/3688247/3688978/3709137/5568684/index.html)
 - [Reuters/MarketScreener：中国2025年全年银行贷款](https://hk.marketscreener.com/news/china-s-december-new-bank-loans-beat-forecast-as-stimulus-juices-credit-demand-ce7e58d9dd80f223)

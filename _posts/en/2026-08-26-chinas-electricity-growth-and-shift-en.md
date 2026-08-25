@@ -36,6 +36,7 @@ Coal's share of generation has fallen from 70% in 2015 to 58% in 2024, even as a
 On the renewables side, wind and solar generation tripled over the past five years, from 629 TWh in 2019 to 1,826 TWh in 2024, meeting over half of the increase in electricity demand in 2024. By the end of 2024, installed wind and solar capacity reached 1,406 GW — already exceeding China's 2030 target of 1,200 GW, six years ahead of schedule.
 
 **References:**
+
 - [Inside China's Historic Electricity Milestone and Clean Energy Revolution](https://www.sixthtone.com/news/1018217)
 - [China's Electricity Transition in Action – Ember Energy](https://ember-energy.org/latest-insights/china-energy-transition-review-2025/forging-ahead-chinas-electricity-transition-in-act/)
 - [China Energy Trends – Ember](https://ember-energy.org/countries-and-regions/china/)

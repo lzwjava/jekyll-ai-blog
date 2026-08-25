@@ -38,6 +38,7 @@ China's new RMB loan issuance has gone through three distinct phases over the pa
 ---
 
 **References:**
+
 - [PBOC Financial Statistics Report (July 2025)](https://www.pbc.gov.cn/en/3688247/3688978/3709137/5810171/index.html)
 - [PBOC Financial Statistics Report – Full Year 2024](http://www.pbc.gov.cn/en/3688247/3688978/3709137/5568684/index.html)
 - [Reuters/MarketScreener: China 2025 Full Year Bank Loans](https://hk.marketscreener.com/news/china-s-december-new-bank-loans-beat-forecast-as-stimulus-juices-credit-demand-ce7e58d9dd80f223)

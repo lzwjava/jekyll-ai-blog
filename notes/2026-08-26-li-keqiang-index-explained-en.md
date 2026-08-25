@@ -40,6 +40,7 @@ The San Francisco Fed's China Cyclical Activity Tracker (China CAT) expands this
 ---
 
 **References:**
+
 - [Li Keqiang Index & China Economic Indicators – FXCM](https://www.fxcm.com/markets/insights/top-economic-indicators-for-the-chinese-economy/)
 - [Measurement Muddle: China's GDP Proxies – CSIS Big Data China](https://bigdatachina.csis.org/measurement-muddle-chinas-gdp-growth-data-and-potential-proxies/)
 - [China Cyclical Activity Tracker – SF Fed](https://www.frbsf.org/research-and-insights/data-and-indicators/china-cyclical-activity-tracker/)

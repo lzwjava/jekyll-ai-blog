@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [克强指数与中国经济指标 – FXCM](https://www.fxcm.com/markets/insights/top-economic-indicators-for-the-chinese-economy/)
 - [测量混乱：中国GDP的替代指标 – CSIS大数据中国](https://bigdatachina.csis.org/measurement-muddle-chinas-gdp-growth-data-and-potential-proxies/)
 - [中国周期活动追踪器 – 旧金山联储](https://www.frbsf.org/research-and-insights/data-and-indicators/china-cyclical-activity-tracker/)

@@ -34,6 +34,7 @@ type: note
 可再生能源方面，风能和太阳能发电量在过去五年增长了三倍，从2019年的629 TWh增至2024年的1,826 TWh，满足了2024年电力需求增量的一半以上。截至2024年底，风电和太阳能装机容量达到1,406 GW——已超过中国2030年目标（1,200 GW），提前六年完成。
 
 **参考来源：**
+
 - [Inside China's Historic Electricity Milestone and Clean Energy Revolution](https://www.sixthtone.com/news/1018217)
 - [China's Electricity Transition in Action – Ember Energy](https://ember-energy.org/latest-insights/china-energy-transition-review-2025/forging-ahead-chinas-electricity-transition-in-act/)
 - [China Energy Trends – Ember](https://ember-energy.org/countries-and-regions/china/)

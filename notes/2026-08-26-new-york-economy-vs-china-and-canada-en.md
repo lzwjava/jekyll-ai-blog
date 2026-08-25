@@ -38,7 +38,7 @@ Canada is the weakest performer of the three right now. Canada's economy flatlin
 **Summary Table**
 
 | | New York State | China | Canada |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GDP Size | ~$2.5T | ~$21T+ | ~$2.1T |
 | 2026 Growth Rate | ~2.2% | ~4.7% | ~1.2–1.5% |
 | GDP Per Capita | ~$123,000 | ~$14,874 | ~$53,000 |
@@ -47,6 +47,7 @@ Canada is the weakest performer of the three right now. Canada's economy flatlin
 **Bottom line:** New York is doing better than Canada by a wide margin right now. Against China, New York wins decisively on wealth per person and financial sector performance, but China is growing faster in percentage terms and is a much larger economy overall.
 
 **References:**
+
 - [Economy of New York (state) - Wikipedia](https://en.wikipedia.org/wiki/Economy_of_New_York_(state))
 - [TD Economics - New York State Forecast](https://economics.td.com/state-economic-forecast)
 - [NYC Comptroller Monthly Outlook - July 2026](https://comptroller.nyc.gov/newsroom/newsletter/new-york-by-the-numbers-monthly-economic-and-fiscal-outlook-no-115-july-2026/)
