@@ -42,6 +42,7 @@ type: note
 另有一宗并行的美国联邦案件，涉及规模更大的行动：美国检察官指控Supermicro联合创始人兼董事会成员廖益贤（Yih-Shyan "Wally" Liaw）、台湾销售经理张瑞仓（Ruei-Tsang "Steven" Chang）以及承包商孙廷玮（Ting-Wei "Willy" Sun）合谋违反出口管制法、走私和欺诈美国。该三人团伙涉嫌在2024年至2025年间，将价值25亿美元、内含受限Nvidia AI GPU（包括被禁的H200和B200型号）的Supermicro服务器非法转运至中国。其中两人已被捕，另一人仍在逃。
 
 **参考资料：**
+
 - [台湾起诉九人非法向中国出口Nvidia B300 GPU](https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls) — Tom's Hardware
 - [台湾就非法向中国出口AI服务器起诉9人](https://www.usnews.com/news/business/articles/2026-08-24/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff) — US News / AP
 - [Nvidia高级经理卷入涉嫌AI芯片走私案](https://www.notebookcheck.net/Nvidia-senior-manager-caught-up-in-alleged-AI-chip-smuggling-to-China-faces-up-to-5-years-in-prison.1377269.0.html) — Notebookcheck

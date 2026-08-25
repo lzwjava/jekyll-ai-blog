@@ -42,6 +42,7 @@ Prosecutors are seeking a five-year sentence for Chang, whom they describe as th
 There is also a parallel U.S. federal case involving a much bigger operation: U.S. prosecutors charged Super Micro co-founder and board member Yih-Shyan "Wally" Liaw, Taiwan sales manager Ruei-Tsang "Steven" Chang, and contractor Ting-Wei "Willy" Sun with conspiring to violate export control laws, smuggling, and defrauding the U.S. The trio's scheme allegedly diverted $2.5 billion in Supermicro servers containing restricted Nvidia AI GPUs (including banned H200 and B200 models) to China between 2024 and 2025. Two of the three have been arrested; the third remains a fugitive.
 
 **References:**
+
 - [Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China](https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls) — Tom's Hardware
 - [Taiwan Charges 9 Over Illegal AI Server Exports to China](https://www.usnews.com/news/business/articles/2026-08-24/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff) — US News / AP
 - [Nvidia senior manager caught up in alleged AI chip smuggling](https://www.notebookcheck.net/Nvidia-senior-manager-caught-up-in-alleged-AI-chip-smuggling-to-China-faces-up-to-5-years-in-prison.1377269.0.html) — Notebookcheck
