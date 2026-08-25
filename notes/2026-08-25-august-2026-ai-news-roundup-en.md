@@ -53,6 +53,7 @@ Prime Intellect released an open-source coding agent called Prime Agent that sco
 ---
 
 **References:**
+
 - [AI News Today August 2 2026: 16 Biggest Stories](https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026)
 - [AI News: Week of August 3–9, 2026](https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3)
 - [The 8 Biggest AI News Stories From First 2 Weeks August 2026](https://osasai.com/blog/ai-news-august-2026-first-two-weeks)
