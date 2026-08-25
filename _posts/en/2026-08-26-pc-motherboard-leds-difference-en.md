@@ -18,7 +18,7 @@ Answer:
 **HDD LED** (Hard Disk Drive LED) flashes whenever the storage drive (HDD or SSD) is being actively read from or written to. It gives you a real-time indicator of disk activity.
 
 | Feature | Power LED | HDD LED |
-|---|---|---|
+| --- | --- | --- |
 | What it shows | System power state | Storage activity |
 | Behavior | Solid on / blinks in sleep | Flashes during disk read/write |
 | Connector pins | `PWR LED+` / `PWR LED−` | `HDD LED+` / `HDD LED−` |

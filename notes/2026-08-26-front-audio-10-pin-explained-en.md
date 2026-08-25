@@ -18,7 +18,7 @@ The front audio header uses a **10-pin layout (technically 9 pins + 1 blank/key)
 **Signal requirements (what the pins carry):**
 
 | Pin | Function |
-|-----|----------|
+| ----- | ---------- |
 | 1 | MIC2_L (Mic Left) |
 | 2 | GND |
 | 3 | MIC2_R (Mic Right) |
@@ -41,6 +41,7 @@ The front audio header uses a **10-pin layout (technically 9 pins + 1 blank/key)
 **In short:** The 10-pin design (Intel HD Audio standard) accommodates stereo headphone out + stereo mic in + ground wires + jack detection signals, all while using pin 8 as a physical key to prevent wrong insertion.
 
 **References:**
+
 - [AAFP Connector Explained — CGDirector](https://www.cgdirector.com/aafp-connector-on-motherboard/)
 - [What is AAFP on Motherboard — SunbeamTech](https://sunbeamtech.com/hardware-guides/what-is-aafp-on-motherboard/)
 - [Front Panel Connectors Complete Pinout Reference — LCSC](https://www.lcsc.com/blog/front-panel-connectors-complete-pinout-reference-for-engineers-systems-builders/)

@@ -30,5 +30,6 @@ type: note
 **实用小贴士：** 如果前面板电源 LED 不亮，尝试**将接口翻转 180°**——极性问题是最常见的原因。
 
 参考来源：
+
 - [LED 工作原理——极性详解](https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity)
 - [主板前面板接口指南](https://www.tomshardware.com/reviews/motherboard-front-panel-connectors,2312.html)

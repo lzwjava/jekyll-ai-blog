@@ -30,5 +30,6 @@ Some motherboards do simplify this with a **single 3-pin or combined header**, b
 **Practical tip:** If your front-panel power LED doesn't light up, try **flipping the connector 180°** — polarity is the most common cause.
 
 References:
+
 - [How LEDs Work – Polarity Explained](https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity)
 - [Motherboard Front Panel Header Guide](https://www.tomshardware.com/reviews/motherboard-front-panel-connectors,2312.html)
