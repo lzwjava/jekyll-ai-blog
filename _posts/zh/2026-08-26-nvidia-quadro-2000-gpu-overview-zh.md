@@ -20,6 +20,7 @@ Quadro 系列是 NVIDIA 的专业图形显卡系列，具备 ECC 内存、更大
 
 **Quadro 2000 规格：**
 于 2010 年 12 月 24 日发布，建议零售价为 599 美元，Quadro 2000 基于 **Fermi 微架构**（代号 GF106），专为工作站计算机设计。主要规格包括：
+
 - 核心频率：625 MHz
 - 流处理器：192
 - 浮点性能：480 GFLOPS
@@ -40,6 +41,7 @@ NVIDIA 已逐步淘汰 Quadro 品牌，随着 2020 年基于 Ampere 架构的 RT
 ---
 
 **参考资料：**
+
 - [NVIDIA Quadro – Wikipedia](https://en.wikipedia.org/wiki/Quadro)
 - [Quadro 2000 评测与规格 – AskGeek](https://askgeek.io/en/gpus/NVIDIA/Quadro-2000)
 - [Quadro 2000 基准测试 – PassMark](https://www.videocardbenchmark.net/gpu.php?gpu=Quadro+2000&id=1543)

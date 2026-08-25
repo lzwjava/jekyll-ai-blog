@@ -20,6 +20,7 @@ The Quadro line was NVIDIA's professional graphics card series, featuring ECC me
 
 **Quadro 2000 Specs:**
 Released on December 24, 2010, at a launch price of $599, the Quadro 2000 is based on the **Fermi microarchitecture** (codename GF106) and was designed for workstation computers. Key specs include:
+
 - Core clock: 625 MHz
 - Pipelines: 192
 - Floating-point performance: 480 GFLOPS
@@ -40,6 +41,7 @@ NVIDIA has since moved away from the Quadro branding, phasing it out entirely wi
 ---
 
 **References:**
+
 - [NVIDIA Quadro – Wikipedia](https://en.wikipedia.org/wiki/Quadro)
 - [Quadro 2000 Review & Specs – AskGeek](https://askgeek.io/en/gpus/NVIDIA/Quadro-2000)
 - [Quadro 2000 Benchmark – PassMark](https://www.videocardbenchmark.net/gpu.php?gpu=Quadro+2000&id=1543)
