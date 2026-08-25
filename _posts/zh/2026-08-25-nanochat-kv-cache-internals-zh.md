@@ -27,6 +27,7 @@ self.v_cache = torch.zeros(num_layers, batch_size, seq_len, num_heads, head_dim,
 ```
 
 关键细节：
+
 - **每层一个张量切片**：`get_layer_cache(layer_idx)` 返回 `self.k_cache[layer_idx]` 视图。
 - **仅 KV 头**（`n_kv_head`，默认 6）：这是为 GQA 准备的——即使默认配置中 `n_head == n_kv_head`，缓存仍按 `n_kv_head` 形状分配，FA3/`enable_gqa` 会在内部为查询头复制 KV 头。
 - **计算精度**（bf16），与激活精度一致，确保内核的就地缓存写入精度正确。

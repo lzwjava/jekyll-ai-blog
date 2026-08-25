@@ -27,6 +27,7 @@ self.v_cache = torch.zeros(num_layers, batch_size, seq_len, num_heads, head_dim,
 ```
 
 Key details:
+
 - **One tensor per layer slice**: `get_layer_cache(layer_idx)` returns `self.k_cache[layer_idx]` views.
 - **KV heads only** (`n_kv_head`, default 6): this is GQA-ready — even though `n_head == n_kv_head` in the default config, the cache is shaped by `n_kv_head`, and FA3/`enable_gqa` replicates KV heads internally for the query heads.
 - **Compute dtype** (bf16), matching activation dtype so in-place cache writes by the kernel are dtype-correct.
