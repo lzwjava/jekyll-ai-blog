@@ -46,6 +46,7 @@ Plaud's key differentiator over software-only competitors like Otter or Fireflie
 ---
 
 **References:**
+
 - [AI Hardware Products Worth Watching in 2026](https://airmore.ai/ai-review/ai-hardware-products)
 - [AI Chip Hardware Acceleration Trends 2026 – Zylos Research](https://zylos.ai/research/2026-02-01-ai-chip-hardware-acceleration-2026/)
 - [Plaud Plans New Wearable, Eyes $500M in Sales – Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/plaud-plans-new-wearable-as-ai-note-taking-startup-eyes-500-million-in-sales)

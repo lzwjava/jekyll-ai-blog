@@ -46,6 +46,7 @@ Plaud预计**2026年销售额将达到5亿美元**，用户超过200万，其中
 ---
 
 **参考资料：**
+
 - [2026年值得关注的AI硬件产品](https://airmore.ai/ai-review/ai-hardware-products)
 - [2026年AI芯片硬件加速趋势 – Zylos Research](https://zylos.ai/research/2026-02-01-ai-chip-hardware-acceleration-2026/)
 - [Plaud计划推出新款可穿戴设备，目标销售额5亿美元 – Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/plaud-plans-new-wearable-as-ai-note-taking-startup-eyes-500-million-in-sales)

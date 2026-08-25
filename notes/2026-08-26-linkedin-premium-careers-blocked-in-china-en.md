@@ -29,6 +29,7 @@ Yes, that's essentially correct — and the situation has been building for year
 So **LinkedIn Premium Careers** — which is a global product — is technically not "banned for Chinese citizens" worldwide, but it is inaccessible from mainland China without a VPN, and LinkedIn no longer offers any localized career or premium product for the Chinese market.
 
 **References:**
+
 - [LinkedIn Career Pages no longer supported on the Chinese Mainland](https://www.linkedin.com/help/learning/answer/a545404)
 - [The end of LinkedIn in China? Why InCareer couldn't survive](https://techhq.com/news/the-end-of-linkedin-in-china-why-incareer-couldnt-survive/)
 - [LinkedIn Alternatives in China — 2026 Guide](https://connectingodds.com/linkedin-alternatives/china)

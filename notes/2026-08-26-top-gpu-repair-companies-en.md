@@ -42,6 +42,7 @@ Here are the most well-regarded GPU repair companies in both countries:
 ---
 
 **💡 Tips for Choosing:**
+
 - For **chip-level / BGA reballing** needs → GPU Lab or NorthridgeFix (USA), Donewin (China)
 - For **mail-in convenience** across the US → ZapFixers or Ewel
 - For **AI/datacenter GPU repairs** → GPU Lab (USA) or Donewin (China)
@@ -49,6 +50,7 @@ Here are the most well-regarded GPU repair companies in both countries:
 ---
 
 **References:**
+
 - [NorthridgeFix mention – Overclock.net](https://www.overclock.net/threads/best-graphics-card-repair-business-in-the-united-states.1809284/)
 - [GPU Lab – Professional RTX Repairs & Upgrades](https://gpulab.net/)
 - [Ewel Repair Services – eBay](https://www.ebay.com/itm/388612062426)

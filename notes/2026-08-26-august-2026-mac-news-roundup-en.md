@@ -52,6 +52,7 @@ Here's a roundup of the latest Mac developments as of August 2026:
 ---
 
 **References:**
+
 - [Apple Newsroom – Mac](https://www.apple.com/newsroom/topics/mac/)
 - [Mac mini with M6 – Apple](https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/)
 - [Mac Studio 2026 – Macworld](https://www.macworld.com/article/2973459/2026-mac-studio-m5-release-date-specs-price-rumors.html)

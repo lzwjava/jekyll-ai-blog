@@ -29,6 +29,7 @@ type: note
 因此，**LinkedIn Premium Careers** 作为一款全球产品，从技术上来说并非“在全球范围内对中国公民禁用”，但在中国大陆无法直接访问（需借助 VPN），且 LinkedIn 已不再为中国市场提供任何本地化的职业或高级产品。
 
 **参考来源：**
+
 - [LinkedIn Career Pages no longer supported on the Chinese Mainland](https://www.linkedin.com/help/learning/answer/a545404)
 - [The end of LinkedIn in China? Why InCareer couldn't survive](https://techhq.com/news/the-end-of-linkedin-in-china-why-incareer-couldnt-survive/)
 - [LinkedIn Alternatives in China — 2026 Guide](https://connectingodds.com/linkedin-alternatives/china)
