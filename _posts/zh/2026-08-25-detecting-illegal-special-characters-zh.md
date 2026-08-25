@@ -28,7 +28,7 @@ type: note
 将违规字符替换为安全替代方案：
 
 | 原字符 | 替换方案 |
-|----------|-------------|
+| ---------- | ------------- |
 | `"引用术语"` | 使用单引号 `'` 或直接删除引号 |
 | `<` / `>` | 拼写为"小于"/"大于"，或直接删除 |
 | `[链接]` 或 `[文本]` | 删除方括号 |
@@ -37,4 +37,5 @@ type: note
 由于你的描述中使用了"AI Full Stack Engineer"等双引号短语，只需切换为单引号或完全删除引号即可解决错误。
 
 参考链接：
+
 - [NVIDIA招聘网站——职位发布](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Platform-AI-Engineer---Silicon-Co-Design-Group_JR2016323)

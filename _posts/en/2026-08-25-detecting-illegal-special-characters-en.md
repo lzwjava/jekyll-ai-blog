@@ -28,7 +28,7 @@ The detection rule is a simple **character blocklist** — a server-side or clie
 Replace the offending characters with safe alternatives:
 
 | Original | Replacement |
-|----------|-------------|
+| ---------- | ------------- |
 | `"quoted term"` | use single quotes `'` or remove quotes |
 | `<` / `>` | spell out "less than" / "greater than", or just remove |
 | `[link]` or `[text]` | remove brackets |
@@ -37,4 +37,5 @@ Replace the offending characters with safe alternatives:
 Since your description uses `"AI Full Stack Engineer"` and similar double-quoted phrases, simply switching to single quotes or removing the quotes entirely should clear the error.
 
 References:
+
 - [NVIDIA Careers - Job Posting](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Platform-AI-Engineer---Silicon-Co-Design-Group_JR2016323)
