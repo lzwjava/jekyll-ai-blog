@@ -16,6 +16,7 @@ type: note
 **KTS** 是印在电池上的品牌/制造商名称。CR2032 是电池型号——一种小型纽扣电池。以下是对其的详细说明：
 
 **什么是 CR2032？**
+
 - **C** = 锂化学
 - **R** = 圆形
 - **20** = 直径 20mm
@@ -31,6 +32,7 @@ type: note
 3. **保存硬件设置**——超频配置、风扇配置等。
 
 **CMOS 电池耗尽的表现：**
+
 - 关机后电脑时间/日期丢失
 - 每次启动时 BIOS 恢复为出厂默认设置
 - 启动时提示 *"CMOS checksum error"* 等错误信息
@@ -38,7 +40,7 @@ type: note
 **KTS CR2032 规格（典型值）：**
 
 | 规格 | 数值 |
-|---|---|
+| --- | --- |
 | 电压 | 3V |
 | 容量 | ~220 mAh |
 | 类型 | 锂纽扣电池 |
@@ -47,6 +49,7 @@ type: note
 带 2 针插头的 KTS CR2032 专用于笔记本电脑和台式机主板的 CMOS/BIOS。不带插头的标准 CR2032 则放置于台式机主板的电池座上，可在几秒内完成更换。
 
 **参考资料：**
+
 - [Newegg上的 KTS CR2032](https://www.newegg.com/p/14R-09B4-00B06)
 - [eBay上的 KTS CR2032 10粒装](https://www.ebay.com/itm/236013234233)
 - [KTS CR2032 CMOS 电池套件 (Latinafy)](https://latinafy.com/products/kts-cr2032-3v-cmos-bios-battery-kit-for-motherboards-10-units/)

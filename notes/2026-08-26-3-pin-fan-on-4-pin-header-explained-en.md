@@ -34,7 +34,7 @@ The PWM pin on the header will be unused, and the fan will likely run at 100% sp
 **Summary table:**
 
 | | 3-Pin Fan | 4-Pin Fan |
-|---|---|---|
+| --- | --- | --- |
 | Speed Control | Voltage (DC) | PWM signal |
 | Precision | Lower | Higher |
 | Compatible with 4-pin header? | ✅ Yes (pin 4 unused) | ✅ Yes |
@@ -42,6 +42,7 @@ The PWM pin on the header will be unused, and the fan will likely run at 100% sp
 ---
 
 **References:**
+
 - [Gigabyte GA-H81M-DS2 User Manual (ManualsLib)](https://www.manualslib.com/manual/577266/Gigabyte-Ga-H81m-Ds2.html?page=12)
 - [CPU Fan Header Guide — SunbeamTech](https://sunbeamtech.com/hardware-guides/cpu-fan-header-where-it-is-and-how-to-use-it/)
 - [3-pin vs 4-pin Fan Differences — ElectronicsHub](https://www.electronicshub.org/3-vs-4-pin-fans/)

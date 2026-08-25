@@ -27,6 +27,7 @@ The physical 3.5mm jack has a small mechanical switch inside it. When a plug is 
 
 **3. Audio codec reacts**
 The chip receives the signal and automatically:
+
 - **Activates** the front headphone output
 - **Mutes or disables** the rear speaker output (so sound doesn't come from both at once)
 - Pops up the Windows/OS notification: *"Audio device connected"*
@@ -36,6 +37,7 @@ The chip receives the signal and automatically:
 **Why AC'97 (old 7-pin) didn't have this properly:**
 
 The older AC'97 standard handled jack detection differently — it used a **loopback method**, physically rerouting the rear audio signal through the front panel cable. This meant:
+
 - No smart software detection
 - Plugging into the front automatically cut off the rear, mechanically — not intelligently
 - No OS pop-up prompts
@@ -52,6 +54,7 @@ Think of it like a **doorbell sensor** — the jack detection pin is the sensor 
 ---
 
 **References:**
+
 - [AAFP Connector Explained — CGDirector](https://www.cgdirector.com/aafp-connector-on-motherboard/)
 - [Front Audio Mod: 7-pin to 10-pin discussion — HardForum](https://hardforum.com/threads/front-audio-mod-7-pin-to-10-pin.1325991/)
 - [What is AAFP on Motherboard — SunbeamTech](https://sunbeamtech.com/hardware-guides/what-is-aafp-on-motherboard/)

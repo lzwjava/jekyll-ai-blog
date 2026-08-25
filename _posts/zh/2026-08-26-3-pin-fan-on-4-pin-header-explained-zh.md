@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [技嘉 GA-H81M-DS2 用户手册 (ManualsLib)](https://www.manualslib.com/manual/577266/Gigabyte-Ga-H81m-Ds2.html?page=12)
 - [CPU 风扇接口指南 — SunbeamTech](https://sunbeamtech.com/hardware-guides/cpu-fan-header-where-it-is-and-how-to-use-it/)
 - [3 针与 4 针风扇区别 — ElectronicsHub](https://www.electronicshub.org/3-vs-4-pin-fans/)

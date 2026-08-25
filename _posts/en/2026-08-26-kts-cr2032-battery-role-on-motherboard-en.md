@@ -16,6 +16,7 @@ type: note
 **KTS** is a brand/manufacturer name printed on the battery. The CR2032 is the battery model — a small coin-cell (button cell) battery. Here's a breakdown:
 
 **What is CR2032?**
+
 - **C** = Lithium chemistry
 - **R** = Round shape
 - **20** = 20mm diameter
@@ -31,13 +32,15 @@ It powers the **CMOS** (Complementary Metal-Oxide Semiconductor) chip on the mot
 3. **Preserves hardware settings** — overclocking configs, fan profiles, etc.
 
 **Signs the CMOS battery is dead:**
+
 - Computer loses time/date after shutdown
 - BIOS resets to factory defaults on every boot
 - Error messages like *"CMOS checksum error"* on startup
 
 **KTS CR2032 Specs (typical):**
+
 | Spec | Value |
-|---|---|
+| --- | --- |
 | Voltage | 3V |
 | Capacity | ~220 mAh |
 | Type | Lithium coin cell |
@@ -46,6 +49,7 @@ It powers the **CMOS** (Complementary Metal-Oxide Semiconductor) chip on the mot
 The KTS CR2032 variant with a 2-pin plug is specifically designed for CMOS/BIOS use in laptop and desktop motherboards. The standard CR2032 without a plug sits in a holder on desktop boards and can be replaced in seconds.
 
 **References:**
+
 - [KTS CR2032 on Newegg](https://www.newegg.com/p/14R-09B4-00B06)
 - [KTS CR2032 10-Pack on eBay](https://www.ebay.com/itm/236013234233)
 - [KTS CR2032 CMOS Battery Kit (Latinafy)](https://latinafy.com/products/kts-cr2032-3v-cmos-bios-battery-kit-for-motherboards-10-units/)

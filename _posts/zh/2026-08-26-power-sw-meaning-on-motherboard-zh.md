@@ -18,7 +18,7 @@ type: note
 **附近常见的其他前面板接针：**
 
 | 标签 | 含义 |
-|---|---|
+| --- | --- |
 | **Power SW** | 电源开关 |
 | **Reset SW** | 重启开关 |
 | **Power LED+/-** | 电源指示灯 |
@@ -27,5 +27,6 @@ type: note
 该连接器通常是一个来自机箱电源按钮线缆的小型2针插头，根据主板品牌的不同，其标签通常为 `PWR SW`、`POWER SW` 或 `PW SW`。
 
 参考资料：
+
 - [前面板接针指南 – 华硕](https://www.asus.com/support/faq/1037507/)
 - [如何连接前面板连接器 – Tom's Hardware](https://www.tomshardware.com/reviews/connect-front-panel-connectors-power-reset,2547.html)

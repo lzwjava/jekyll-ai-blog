@@ -27,6 +27,7 @@ type: note
 
 **3. 音频编解码芯片响应**
 芯片接收到信号后自动执行以下操作：
+
 - **激活**前面板耳机输出
 - **静音或禁用**后置扬声器输出（避免两个同时发声）
 - 弹出 Windows/操作系统通知：*“音频设备已连接”*
@@ -36,6 +37,7 @@ type: note
 **为什么 AC'97（旧 7 引脚标准）未能妥善实现此功能：**
 
 较旧的 AC'97 标准以不同方式处理插孔检测——它采用**回环方法**，通过物理方式将后置音频信号重新路由至前面板线缆。这意味着：
+
 - 没有智能软件检测
 - 插入前面板后自动切断后置，属于机械方式，而非智能方式
 - 无操作系统弹出提示
@@ -52,6 +54,7 @@ HD Audio（10 引脚标准）用**专用检测引脚**取代了上述方式，�
 ---
 
 **参考来源：**
+
 - [AAFP 接口详解 — CGDirector](https://www.cgdirector.com/aafp-connector-on-motherboard/)
 - [前面板音频改造：7 引脚转 10 引脚讨论 — HardForum](https://hardforum.com/threads/front-audio-mod-7-pin-to-10-pin.1325991/)
 - [主板上 AAFP 是什么 — SunbeamTech](https://sunbeamtech.com/hardware-guides/what-is-aafp-on-motherboard/)

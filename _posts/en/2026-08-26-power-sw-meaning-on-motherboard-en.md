@@ -18,7 +18,7 @@ It's the 2-pin connector on your motherboard's front panel header that connects 
 **Common front panel header pins you'll see nearby:**
 
 | Label | Meaning |
-|---|---|
+| --- | --- |
 | **Power SW** | Power Switch |
 | **Reset SW** | Reset Switch |
 | **Power LED+/-** | Power indicator light |
@@ -27,5 +27,6 @@ It's the 2-pin connector on your motherboard's front panel header that connects 
 The connector is usually a small 2-pin plug coming from your case's power button cable, and it's typically labeled `PWR SW`, `POWER SW`, or `PW SW` depending on the motherboard brand.
 
 References:
+
 - [Front Panel Header Guide – Asus](https://www.asus.com/support/faq/1037507/)
 - [How to Connect Front Panel Connectors – Tom's Hardware](https://www.tomshardware.com/reviews/connect-front-panel-connectors-power-reset,2547.html)
