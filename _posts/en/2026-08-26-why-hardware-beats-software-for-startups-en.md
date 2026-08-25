@@ -23,6 +23,7 @@ People psychologically accept paying a one-time price for a physical object more
 
 **3. Built-in monetization**
 Hardware has a clear transaction: you ship a unit, you get paid. Software companies often struggle with:
+
 - Cracking / piracy
 - Users expecting free tiers forever
 - Resistance to subscription models
@@ -41,5 +42,6 @@ Negotiating with suppliers, managing manufacturing, and building logistics is *h
 **The tradeoff**, of course, is that hardware is also riskier upfront — high capital costs, inventory risk, longer development cycles, and harder to iterate than software. The best modern businesses (Apple, Tesla) combine both.
 
 References:
+
 - [Why Hardware Is Hard — and Why That's a Moat](https://a16z.com/the-case-for-hardware/)
 - [Hardware vs Software Startups: Business Model Differences](https://hbr.org/2014/10/why-hardware-startups-are-hard)
