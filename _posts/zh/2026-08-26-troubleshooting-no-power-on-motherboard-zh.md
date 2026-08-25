@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [GA-H81M-DS2 用户手册（技嘉官方 PDF）](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
 - [lzwjava.com — 技嘉 H81M-DS2 无显示修复](https://lzwjava.com/gigabyte-h81m-ds2-no-display-fix-en)
 - [Badcaps 论坛 — GA-H81M-DS2 持续断电重启（已解决）](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)

@@ -40,6 +40,7 @@ Once power is restored and the board begins to POST, the speaker header will emi
 ---
 
 **References:**
+
 - [GA-H81M-DS2 User's Manual (Gigabyte official PDF)](https://download.gigabyte.com/FileList/Manual/mb_manual_ga-h81m-ds2_4001_e.pdf)
 - [lzwjava.com — Gigabyte H81M-DS2 No Display Fix](https://lzwjava.com/gigabyte-h81m-ds2-no-display-fix-en)
 - [Badcaps forum — GA-H81M-DS2 Constant Power Cycling (solved)](https://www.badcaps.net/forum/troubleshooting-hardware-devices-and-electronics-theory/troubleshooting-desktop-motherboards-graphics-cards-and-pc-peripherals/85547-solved-gigabyte-ga-h81m-ds2-rev-3-0-constant-power-cycling)
