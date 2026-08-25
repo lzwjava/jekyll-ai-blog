@@ -41,7 +41,7 @@ DeepSeek-V3 使用单个 MTP 层进行训练，但在推理时预测 2 个令牌
 **总结表格：**
 
 | 模型 | MTP_1 接受率（随机输入） | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | DSv4 | ~90% | 高度优化的单个 MTP 头 |
 | GLM 5.2 | ~60% | 不同架构；随机输入下较低，真实提示下更优 |
 
@@ -50,6 +50,7 @@ DeepSeek-V3 使用单个 MTP 层进行训练，但在推理时预测 2 个令牌
 ---
 
 **参考资料：**
+
 - [DeepSeek-V3 MTP 架构深度解析](https://arxiv.org/pdf/2505.09343)
 - [GLM-5 MTP 参数共享设计](https://arxiv.org/html/2602.15763v1)
 - [MTP 部署指南（vLLM/SGLang）](https://www.spheron.network/blog/multi-token-prediction-mtp-gpu-cloud-deployment-guide/)

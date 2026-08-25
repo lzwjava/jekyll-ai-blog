@@ -41,7 +41,7 @@ Acceptance rates below 0.55 indicate a distribution mismatch; reducing num_specu
 **Summary table:**
 
 | Model | MTP_1 Acceptance (random input) | Notes |
-|---|---|---|
+| --- | --- | --- |
 | DSv4 | ~90% | Highly optimized single MTP head |
 | GLM 5.2 | ~60% | Different architecture; lower on random, better on real prompts |
 
@@ -50,6 +50,7 @@ On realistic prompts (code, chat, documents), the gap typically narrows because 
 ---
 
 **References:**
+
 - [DeepSeek-V3 MTP Architecture Deep Dive](https://arxiv.org/pdf/2505.09343)
 - [GLM-5 MTP Parameter Sharing Design](https://arxiv.org/html/2602.15763v1)
 - [MTP Deployment Guide (vLLM/SGLang)](https://www.spheron.network/blog/multi-token-prediction-mtp-gpu-cloud-deployment-guide/)
