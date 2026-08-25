@@ -26,5 +26,6 @@ Key highlights from the repo:
 In short, it's DHH's take on what a perfect Linux desktop setup looks like, shipped as a one-command installer so others can replicate it.
 
 **References:**
+
 - [basecamp/omarchy on GitHub](https://github.com/basecamp/omarchy)
 - [omarchy.org](https://omarchy.org)

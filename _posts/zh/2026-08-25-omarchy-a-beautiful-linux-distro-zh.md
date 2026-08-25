@@ -26,5 +26,6 @@ type: note
 简而言之，这是 DHH 心目中完美 Linux 桌面环境的样貌，通过一键安装脚本供他人复现。
 
 **参考：**
+
 - [basecamp/omarchy 在 GitHub 上](https://github.com/basecamp/omarchy)
 - [omarchy.org](https://omarchy.org)
