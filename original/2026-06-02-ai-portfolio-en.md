@@ -352,6 +352,10 @@ GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
 
 ![FluxReel demo frame 2 — 15s vertical short video generated on AMD GPU](https://raw.githubusercontent.com/lzwjava/flux-reel/main/submission/demo_frame_2.jpg)
 
+**🏆 AMD AI DevMaster Hackathon — Completion Award** (0121 Zhiwei Li):
+
+![AMD AI DevMaster Hackathon Completion Award — FluxReel](/assets/images/ai-portfolio/fluxreel-award.png)
+
 GitHub: [lzwjava/flux-reel](https://github.com/lzwjava/flux-reel)
 
 ---
