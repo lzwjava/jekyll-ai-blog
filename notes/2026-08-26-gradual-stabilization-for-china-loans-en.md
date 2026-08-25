@@ -50,6 +50,7 @@ Persistently weak sentiment — despite lower borrowing costs — continues to d
 ---
 
 **References:**
+
 - [UBS: China Outlook 2026–27](https://www.ubs.com/global/en/investment-bank/insights-and-data/articles/china-outlook.html)
 - [Rhodium Group: China Economy 2025 Looking Ahead](https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/)
 - [FSM Global: China Monetary Policy Outlook 2H 2026](https://secure.fundsupermart.com/fsmone/article/rcms373480/chinas-monetary-policy-outlook-will-easing-return-in-2h2026)

@@ -335,7 +335,7 @@ Useful for:
 
 ---
 
-## If I were you (training GPT-2, nanoGPT, vLLM), I would read in this order:
+## If I were you (training GPT-2, nanoGPT, vLLM), I would read in this order
 
 ### Tier 1 (direct engineering impact)
 

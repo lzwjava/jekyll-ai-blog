@@ -54,6 +54,7 @@ Guangzhou's special economic zone status grants preferential tariffs and streaml
 ---
 
 **References:**
+
 - [OECD Economic Outlook 2026 – China](https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/china_6526c66b.html)
 - [Guangdong GDP 2025 & 2026 Forecast – Macao News](https://macaonews.org/news/greater-bay-area/guangdong-gdp-2025-economy/)
 - [Guangzhou City Snapshot Report 2026 – USDA](https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Guangzhou+City+Snapshot+Report_Guangzhou+ATO_China+-+People%27s+Republic+of_CH2026-0058.pdf)

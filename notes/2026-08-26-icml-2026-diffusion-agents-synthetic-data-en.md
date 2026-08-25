@@ -60,6 +60,7 @@ ICML 2026 received a record 24,371 paper submissions — up from 12,107 in 2025,
 ---
 
 **References:**
+
 - [ICML 2026 Wraps in Seoul: Diffusion Models Dominate](https://faq.com.tw/en/ai-ml/2026-07-10-icml-2026-seoul-diffusion-models-agentic-ai-en/)
 - [ICML 2026 Awards: Diffusion Models Win Top Honors](https://aifront-page.com/icml-2026-awards-outstanding-papers/)
 - [ICML 2026 Accepted Papers: Award Winners & Research Signals](https://www.bohrium.com/en/blog/icml-2026-accepted-papers/)

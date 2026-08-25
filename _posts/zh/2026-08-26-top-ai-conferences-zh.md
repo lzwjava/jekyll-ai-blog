@@ -56,6 +56,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年十大机器学习与人工智能会议 – Eventify](https://eventify.io/blog/ai-and-machine-learning-conferences)
 - [顶级人工智能会议 – iConf研究人员指南](https://www.iconf.org/news/731)
 - [2026年十三大人工智能会议 – DataCamp](https://www.datacamp.com/blog/top-ai-conferences)

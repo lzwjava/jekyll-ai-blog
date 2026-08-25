@@ -60,6 +60,7 @@ ICML 2026 收到了创纪录的24,371篇论文投稿——高于2025年的12,107
 ---
 
 **参考文献：**
+
 - [ICML 2026 在首尔落幕：扩散模型占据主导](https://faq.com.tw/en/ai-ml/2026-07-10-icml-2026-seoul-diffusion-models-agentic-ai-en/)
 - [ICML 2026 奖项：扩散模型赢得最高荣誉](https://aifront-page.com/icml-2026-awards-outstanding-papers/)
 - [ICML 2026 接收论文：获奖者与研究信号](https://www.bohrium.com/en/blog/icml-2026-accepted-papers/)

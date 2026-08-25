@@ -39,6 +39,7 @@ In 2024, 19,000 China-Europe freight trains operated, transporting 2.07 million 
 ---
 
 **References:**
+
 - [China Railway Freight Total Turnover – CEIC](https://www.ceicdata.com/en/china/railway-industry-overview/cn-railway-freight-total-turnover)
 - [China's rail network broke records in 2024 – SCIO](http://english.scio.gov.cn/m/chinavoices/2025-02/14/content_117712691.html)
 - [Freight volume in first 11 months of 2025 – China Gov](https://english.www.gov.cn/archive/statistics/202512/19/content_WS69454b69c6d00ca5f9a08344.html)

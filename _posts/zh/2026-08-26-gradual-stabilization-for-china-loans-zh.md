@@ -50,6 +50,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [瑞银：中国2026–27年展望](https://www.ubs.com/global/en/investment-bank/insights-and-data/articles/china-outlook.html)
 - [荣鼎集团：2025年中国经济展望](https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/)
 - [FSM Global：中国货币政策展望2026下半年](https://secure.fundsupermart.com/fsmone/article/rcms373480/chinas-monetary-policy-outlook-will-easing-return-in-2h2026)

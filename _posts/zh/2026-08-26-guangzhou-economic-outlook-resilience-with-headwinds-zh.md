@@ -54,6 +54,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [OECD经济展望2026 – 中国](https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/china_6526c66b.html)
 - [广东GDP 2025年及2026年预测 – 澳门新闻](https://macaonews.org/news/greater-bay-area/guangdong-gdp-2025-economy/)
 - [广州城市概况报告2026 – 美国农业部](https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Guangzhou+City+Snapshot+Report_Guangzhou+ATO_China+-+People%27s+Republic+of_CH2026-0058.pdf)

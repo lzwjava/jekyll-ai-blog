@@ -62,6 +62,7 @@ Key themes:
 ---
 
 **References:**
+
 - [NeurIPS 2023 Highlights – Radical Ventures](https://radical.vc/neurips-2023-highlights/)
 - [NeurIPS 2024 Highlights – Radical Ventures](https://radical.vc/neurips-2024-highlights/)
 - [NeurIPS 2025: Key Papers, Trends & Stats – IntuitionLabs](https://intuitionlabs.ai/articles/neurips-2025-conference-summary-trends)
