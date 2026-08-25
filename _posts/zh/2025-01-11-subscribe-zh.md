@@ -9,9 +9,9 @@ translated: true
 type: post
 ---
 
-通过RSS订阅、音频订阅或关注我的[HuggingFace](https://huggingface.co/lzwjava)或X（Twitter），随时获取最新的博客文章。
+通过 RSS 订阅、音频订阅或关注我的 [HuggingFace](https://huggingface.co/lzwjava) 或 X（Twitter）来获取我最新博客文章的更新。
 
-- RSS订阅：
+- RSS 订阅：
   使用此链接订阅：[https://lzwjava.github.io/feeds/feed.xml](https://lzwjava.github.io/feeds/feed.xml)。
 
 - 音频订阅：
@@ -21,7 +21,7 @@ type: post
   使用此链接订阅：[https://lzwjava.github.io/feeds/conversation-feed.xml](https://lzwjava.github.io/feeds/conversation-feed.xml)。
 
 - X（Twitter）：
-  关注我 [@lzwjava](https://mobile.twitter.com/lzwjava) 获取最新动态。
+  在 [@lzwjava](https://mobile.twitter.com/lzwjava) 关注我以获取更新及更多内容。
 
 此外，以下是我的一些平台账号：
 
@@ -48,34 +48,35 @@ type: post
 |                | [BlueSky](https://bsky.app/profile/lzwjava.bsky.social) |
 |                | [Threads](https://www.threads.net/@lzwjava)     |
 | 视频       | [豆瓣](https://www.douban.com/people/lzwjava/) |
-|                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
-|                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| 即时通讯  | [Telegram](https://t.me/lzwjava)               |
+|                | [抖音](https://www.tiktok.com/@jamesleecool)  |
+|                | [YouTube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
+| 通讯       | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | 其他       | [Quora](https://www.quora.com/profile/Lzw-2)    |
 
-社会影响力：
+社交影响力：
 
-| 平台 | 粉丝/联系人 |
+| 平台 | 粉丝/联系人数 |
 | ---------- | --- |
 | 微信@lzwjava | ~6200 |
 | 微信@lzwjava2048 | ~4500 |
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 280 |
 | 微信公众号平台 | 2156 |
-| 微信视频平台 | 861 |
+| 微信视频号平台 | 861 |
 | [X](https://mobile.twitter.com/lzwjava) | 470 |
 | [微博](https://weibo.com/zhiweilee) | 3158 |
-| [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
+| [抖音](https://www.tiktok.com/@jamesleecool) | 179 |
 | [小红书](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
 | [GitHub](https://github.com/lzwjava) | 872 |
 | [HuggingFace](https://huggingface.co/lzwjava) | 3 |
-| **总计** | **~18895** |
+| 重复/其他扣除 | -3000 |
+| **总计** | **~15895** |
 
 在这些平台上与我联系：
 
-- **微信视频**：扫码关注我的视频号
-- **微信**：扫码添加我的微信
-- **WhatsApp**：扫码通过WhatsApp聊天
+- **微信视频号**：扫描关注我的视频号
+- **微信**：扫描添加我的微信
+- **WhatsApp**：扫描通过 WhatsApp 聊天
 
 ![](assets/images/contact/wechat_video.jpg){: .responsive }
 ![](assets/images/contact/wechat.jpg){: .responsive }
