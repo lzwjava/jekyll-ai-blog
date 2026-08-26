@@ -44,6 +44,7 @@ Subreddits like r/buildapc and YouTube channels make hardware approachable and f
 The usual path is: **curiosity or necessity → first build or repair → obsession.**
 
 References:
+
 - [Why Build Your Own PC? - PCMag](https://www.pcmag.com/how-to/how-to-build-a-pc)
 - [r/buildapc – Community & Getting Started](https://www.reddit.com/r/buildapc/)
 - [GPU Architecture Basics for ML – Towards Data Science](https://towardsdatascience.com/)

@@ -39,8 +39,9 @@ MOSFET 是一种**晶体管**——现代电子学中最基本的构建模块。
 ```
 
 三个端子：
+
 | Terminal | 功能 |
-|---|---|
+| --- | --- |
 | **Gate (G)** | 控制输入 — 此处电压决定导通/关断 |
 | **Source (S)** | 电流流入（或流出）端 |
 | **Drain (D)** | 电流流出（或流入）端 |
@@ -61,7 +62,7 @@ MOSFET 是一种**晶体管**——现代电子学中最基本的构建模块。
 ## 🔁 两种主要类型
 
 | 类型 | 载流子 | 栅极为……时导通 |
-|---|---|---|
+| --- | --- | --- |
 | **N沟道 (NMOS)** | 电子 | 高电平 |
 | **P沟道 (PMOS)** | 空穴 | 低电平 |
 
@@ -88,6 +89,7 @@ MOSFET 是一种**晶体管**——现代电子学中最基本的构建模块。
 ## 📦 它们在 PCB 上的外观
 
 在 GPU 板上，MOSFET 通常表现为：
+
 - 靠近电源输入区域的**黑色小矩形芯片**（DrMOS 封装）
 - 排列在粗大的电感（线圈）旁边的**行**中
 - 负载时**发热严重**，因此 GPU 散热器也会覆盖此区域
@@ -99,12 +101,14 @@ MOSFET 是一种**晶体管**——现代电子学中最基本的构建模块。
 RTX 4070 的 AD104 芯片包含约 **358 亿**个 MOSFET —— 每个大小仅 **4–5 纳米**，肉眼不可见。这些是 CUDA 核心、缓存单元、逻辑门 —— 芯片内部的一切。
 
 因此，MOSFET 在 GPU 上存在于**两个尺度**：
+
 - **宏观尺度** —— 可见的 VRM 功率晶体管（毫米级）
 - **纳米尺度** —— 数十亿个蚀刻在硅芯片内部
 
 ---
 
 **参考文献：**
+
 - [MOSFET Explained — Electronics Tutorials](https://www.electronics-tutorials.ws/transistor/tran_6.html)
 - [How VRMs Work — Gamers Nexus](https://www.gamersnexus.net/guides/voltage-regulator-module-explained)
 - [NVIDIA AD104 Die — TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/geforce-rtx-4070.c3924)

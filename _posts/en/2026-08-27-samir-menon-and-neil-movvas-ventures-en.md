@@ -32,6 +32,7 @@ Sail Research launched from stealth with $80 million in seed and Series A fundin
 Sequoia's Konstantine Buhler described the pair as "two of the most brilliant young AI infrastructure architects in the valley," with big-company experience at Apple, NVIDIA, and Intel, high-growth experience at Together AI, and repeat-founder experience at Blyss.
 
 **References:**
+
 - [Sail Research Manifesto](https://www.sailresearch.com/manifesto)
 - [Fortune: Sail Research raises $80M](https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/)
 - [Kleiner Perkins: Sail Investment Thesis](https://www.kleinerperkins.com/perspectives/sail-the-inference-platform-for-long-horizon-agents/)

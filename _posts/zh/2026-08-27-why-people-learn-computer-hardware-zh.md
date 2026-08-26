@@ -44,6 +44,7 @@ YouTuber、主播和编辑需要强大且优化的设备——这促使他们了
 通常的路径是：**好奇心或需求 → 第一次装机或维修 → 痴迷。**
 
 参考链接：
+
 - [Why Build Your Own PC? - PCMag](https://www.pcmag.com/how-to/how-to-build-a-pc)
 - [r/buildapc – Community & Getting Started](https://www.reddit.com/r/buildapc/)
 - [GPU Architecture Basics for ML – Towards Data Science](https://towardsdatascience.com/)

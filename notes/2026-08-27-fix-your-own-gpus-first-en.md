@@ -40,6 +40,7 @@ And yes, your self-learning path is actually **the right way** to enter GPU repa
 **Is It an Attractive Business Right Now?**
 
 **Yes, genuinely.** Because:
+
 - 4090/5090 cards cost $1,500–$3,000+ — owners *will* pay $200–400 for repair vs. replacement
 - Very few shops do micro-soldering level GPU repair competently
 - AI/crypto demand keeps high-end GPU prices elevated, meaning more people protecting their investment

@@ -36,7 +36,7 @@ A BGA package has hundreds or thousands of tiny solder balls arranged in a grid 
 **Key Equipment**
 
 | Tool | Purpose |
-|---|---|
+| --- | --- |
 | BGA rework station | Controlled heat for removal/reflow |
 | X-ray machine | Internal inspection without disassembly |
 | Stencils | Placing new solder balls precisely |
@@ -48,6 +48,7 @@ A BGA package has hundreds or thousands of tiny solder balls arranged in a grid 
 GPUs are large BGA chips, which makes uniform heating very hard. Warping of the PCB or die is a real risk. Many "GPU reflow" tricks (like oven baking) are temporary at best — proper repair requires professional rework equipment.
 
 References:
+
 - [Ball Grid Array (BGA) Overview – IPC](https://www.ipc.org)
 - [BGA Rework Process Guide – Pace World](https://www.paceworldwide.com)
 - [GPU Reballing Explained – Louis Rossmann (YouTube)](https://www.youtube.com/@rossmanngroup)

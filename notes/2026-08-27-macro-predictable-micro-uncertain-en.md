@@ -16,6 +16,7 @@ Answer:
 Yes, exactly right. There's a useful distinction here:
 
 **Macro trends** (predictable with reasonable confidence)
+
 - Computing power will increase
 - AI capabilities will broadly improve
 - Energy demand will grow
@@ -24,6 +25,7 @@ Yes, exactly right. There's a useful distinction here:
 These follow structural forces — economics, physics, demographics — that are slow-moving and well-understood.
 
 **Micro events** (largely unpredictable)
+
 - A specific researcher has a breakthrough insight tomorrow
 - A random traffic accident kills someone who would have invented the next transformer architecture
 - A GPU fab in Taiwan gets hit by an earthquake
@@ -40,7 +42,7 @@ This is actually a well-studied idea. Nassim Taleb calls the impactful unpredict
 **The honest model of the future:**
 
 | Layer | Predictability |
-|---|---|
+| --- | --- |
 | Physical laws | Very high |
 | Demographic trends | High |
 | Technology direction | Moderate |

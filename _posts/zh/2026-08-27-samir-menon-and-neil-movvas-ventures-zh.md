@@ -32,6 +32,7 @@ Sail Research 以4.5亿美元估值从隐身模式启动，获得了8000万美�
 Sequoia 的 Konstantine Buhler 将两人描述为"硅谷最杰出的两位年轻 AI 基础设施架构师"，他们拥有在苹果、NVIDIA 和英特尔的大公司经验，在 Together AI 的高增长经验，以及在 Blyss 的连续创业经验。
 
 **参考来源：**
+
 - [Sail Research 宣言](https://www.sailresearch.com/manifesto)
 - [《财富》：Sail Research 获8000万美元融资](https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/)
 - [Kleiner Perkins：Sail 投资理念](https://www.kleinerperkins.com/perspectives/sail-the-inference-platform-for-long-horizon-agents/)

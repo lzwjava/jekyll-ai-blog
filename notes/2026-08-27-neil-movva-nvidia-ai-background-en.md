@@ -34,6 +34,7 @@ Neil Movva and Samir Menon are described as two of the most brilliant young AI i
 ---
 
 **References:**
+
 - [Neil Movva's personal site](https://www.neilmovva.com/)
 - [Patrick O'Shaughnessy on X — Invest Like the Best episode](https://x.com/patrick_oshag/status/2092226959711334544)
 - [Fortune: Sail Research $80M raise](https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/)

@@ -34,6 +34,7 @@ Neil Movva 和 Samir Menon 被誉为硅谷最杰出的两位年轻 AI 基础设�
 ---
 
 **参考资料：**
+
 - [Neil Movva 的个人网站](https://www.neilmovva.com/)
 - [Patrick O'Shaughnessy on X — Invest Like the Best 播客](https://x.com/patrick_oshag/status/2092226959711334544)
 - [Fortune：Sail Research 8000 万美元融资](https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/)

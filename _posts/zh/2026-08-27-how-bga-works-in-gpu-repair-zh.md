@@ -36,7 +36,7 @@ BGA 封装在芯片底部有数百或数千个微小的焊球，按网格排列�
 **关键设备**
 
 | 工具 | 用途 |
-|---|---|
+| --- | --- |
 | BGA 返修工作站 | 受控加热，用于移除/回流焊 |
 | X 射线机 | 无需拆卸即可进行内部检查 |
 | 模板 | 精确放置新焊球 |
@@ -48,6 +48,7 @@ BGA 封装在芯片底部有数百或数千个微小的焊球，按网格排列�
 GPU 是大型 BGA 芯片，这使得均匀加热非常困难。PCB 或芯片翘曲是真实风险。许多“GPU 回流焊”技巧（如烤箱烘烤）最多只是暂时的——正确的维修需要专业的返修设备。
 
 参考链接：
+
 - [Ball Grid Array (BGA) Overview – IPC](https://www.ipc.org)
 - [BGA Rework Process Guide – Pace World](https://www.paceworldwide.com)
 - [GPU Reballing Explained – Louis Rossmann (YouTube)](https://www.youtube.com/@rossmanngroup)
