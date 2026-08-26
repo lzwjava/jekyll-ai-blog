@@ -33,6 +33,7 @@ type: note
 在最顶端，NVIDIA独占光环——RTX 5090和4090没有AMD的对应产品。进入高端和中端市场后，AMD变得更有看点，RX 9070 XT、9070和7800 XT提供了接近旗舰的光栅化性能。
 
 **参考资料：**
+
 - [2026年最佳显卡 — PC Gamer](https://www.pcgamer.com/the-best-graphics-cards/)
 - [2026年GPU等级列表 — PCGameCheck](https://pcgamecheck.com/tier-list-gpu)
 - [2026年GPU性能层级 — TechFuelHQ](https://techfuelhq.com/articles/gpu-hierarchy-2026/)

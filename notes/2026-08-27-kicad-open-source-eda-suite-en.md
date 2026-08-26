@@ -39,6 +39,7 @@ The repository is written primarily in C++ and has over 57,000 commits, 11 branc
 ---
 
 **References:**
+
 - [KiCad GitLab Repository](https://gitlab.com/kicad/code/kicad)
 - [About KiCad | KiCad Official](https://www.kicad.org/about/kicad/)
 - [What Is KiCad? — aivon.com](https://www.aivon.com/blog/kicad-hub/what-is-kicad-a-complete-introduction-to-open-source-pcb-design-software/)

@@ -20,7 +20,7 @@ type: note
 **1. 基于 RISC-V 的开源 GPU（最接近真正的开源方案）**
 
 | 项目 | 描述 | 链接 |
-|---|---|---|
+| --- | --- | --- |
 | **Nyuzi** | 基于 Verilog 的开源 GPGPU 处理器 | [GitHub](https://github.com/jbush001/NyuziProcessor) |
 | **MIAOW** | 兼容 AMD Southern Islands 指令集的开源 GPU | [GitHub](https://github.com/VerticalResearchGroup/miaow) |
 | **VeriGPU** | 基于 Verilog 的简单开源 GPU | [GitHub](https://github.com/hughperkins/VeriGPU) |
@@ -69,6 +69,7 @@ FPGA 可以模拟 GPU 功能，并且许多 FPGA 板卡拥有开源的 KiCad 设
 ```
 
 如果你的目标是**学习 GPU PCB 设计**，最佳路径是：
+
 1. 学习开源 FPGA 板卡的 KiCad 文件（ULX3S 非常优秀）
 2. 参考真实 AMD/NVIDIA 显卡的 boardview 文件
 3. 结合 PCIe 电气规范（来自 PCIe 标准）
@@ -76,6 +77,7 @@ FPGA 可以模拟 GPU 功能，并且许多 FPGA 板卡拥有开源的 KiCad 设
 ---
 
 参考文献：
+
 - [Nyuzi 开源 GPGPU](https://github.com/jbush001/NyuziProcessor)
 - [ULX3S 开源 FPGA 板卡（KiCad）](https://github.com/emard/ulx3s)
 - [LitePCIe 开源 PCIe 框架](https://github.com/enjoy-digital/litepcie)

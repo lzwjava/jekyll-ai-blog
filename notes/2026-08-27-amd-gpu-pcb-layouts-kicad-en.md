@@ -16,11 +16,13 @@ Answer:
 AMD GPUs are **slightly more accessible** than NVIDIA's due to their open-source GPU driver efforts, but full PCB layouts are still largely proprietary. Here's what's available:
 
 **1. AMD's Open-Source Resources**
+
 - AMD open-sources their **GPU drivers and firmware** but NOT board-level PCB designs
 - However, the open nature of AMD's ecosystem means more community documentation exists
 - Check [AMD's GitHub](https://github.com/RadeonOpenCompute) for any hardware reference material
 
 **2. Reference Board Designs (Best Bet)**
+
 - AMD releases **reference card designs** to AIB partners (ASUS, MSI, Sapphire, etc.)
 - Search GitHub for:
   - `RX 6900 XT PCB`
@@ -28,6 +30,7 @@ AMD GPUs are **slightly more accessible** than NVIDIA's due to their open-source
   - `AMD reference card boardview`
 
 **3. Boardview Files for AMD GPUs**
+
 - AMD cards are more commonly found in repair databases
 - Search these terms:
   - `RX 6800 XT boardview .brd`
@@ -36,21 +39,24 @@ AMD GPUs are **slightly more accessible** than NVIDIA's due to their open-source
 - Tools to open them:
 
 | Tool | Format Supported |
-|---|---|
+| --- | --- |
 | OpenBoardView | `.brd`, `.bdv`, `.obv` |
 | FlexBV | `.brd`, `.bv2`, `.fbv` |
 
 **4. Community Traced Schematics**
+
 - **Louis Rossmann's community** and GPU repair forums often share AMD board traces
 - [Badcaps Forums](https://www.badcaps.net/forum/) — GPU repair section has AMD-specific threads
 - Search: `AMD RX 6000 schematic repair PDF`
 
 **5. Sapphire / PowerColor AIB Schematics**
+
 - Some AIB partner repair depots occasionally leak or share partial schematics
 - Sapphire (AMD's closest AIB partner) cards are most commonly documented
 - Search: `Sapphire RX 6900 XT schematic`
 
 **6. Convert to KiCad Workflow**
+
 ```
 Boardview (.brd/.bdv)  →  OpenBoardView  →  Reference while tracing in KiCad
 PDF Schematic          →  KiCad Schematic Editor  →  Manual re-entry
@@ -62,6 +68,7 @@ Altium file            →  KiCad built-in Altium importer  →  KiCad native
 ---
 
 References:
+
 - [OpenBoardView GitHub](https://github.com/OpenBoardView/OpenBoardView)
 - [FlexBV Boardview Tool](https://www.fluxeng.com/flexbv/)
 - [Badcaps GPU Repair Forum](https://www.badcaps.net/forum/)

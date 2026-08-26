@@ -36,6 +36,7 @@ GitHub 上的 `kicad-tools` 等工具更进一步：它们将 KiCad 文件解析
 **具体到 `api_kitchen_sink.kicad_sch`**，由于它是 KiCad API 的测试/演示文件，因此是 AI 实验的理想目标 —— 你可以让 LLM 读取 S-expression，总结 netlist，建议组件放置分组，甚至以编程方式从中生成一个起始 `.kicad_pcb`。
 
 **参考链接：**
+
 - [我们如何自动化 KiCad PCB 布线](https://autocuro.com/blog/how-we-automate-kicad-pcb-routing)
 - [kicad-tools：LLM 驱动的 PCB 布局决策](https://github.com/rjwalters/kicad-tools)
 - [2026 年的 KiCad AI：Copilot、插件和生成器](https://www.protoflow.ai/blog/kicad-ai)

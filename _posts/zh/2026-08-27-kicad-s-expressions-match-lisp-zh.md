@@ -18,11 +18,13 @@ type: note
 **共同点**
 
 核心语法在本质上相同：
+
 - 圆括号用于分组：`(key value value ...)`
 - 嵌套/递归结构
 - 原子（符号、数字、字符串）
 
 一段 KiCad 原理图片段如下：
+
 ```lisp
 (kicad_sch
   (version 20230121)
@@ -39,7 +41,7 @@ type: note
 **与 Lisp/Scheme 的不同之处**
 
 | 特性 | Lisp/Scheme | KiCad S 表达式 |
-|---|---|---|
+| --- | --- | --- |
 | 用途 | 代码 + 数据 | 仅数据 |
 | 求值 | 由解释器执行 | 作为配置解析 |
 | `car`/`cdr` 语义 | 有 | 无 |
@@ -56,6 +58,7 @@ KiCad 的格式本质上是 **S 表达式纯粹用作数据序列化格式**—�
 **对于 AI/LLM 的用途**
 
 由于它像 Lisp 一样具有规律性和递归性，你可以：
+
 - 使用任何 Lisp 读取器（Common Lisp、Racket、Guile 均可直接使用）进行解析
 - 在 Python 中使用简单的递归下降解析器或 `sexpdata` 库进行解析
 - 直接将其输入给 LLM——该结构具有自文档特性
@@ -63,5 +66,6 @@ KiCad 的格式本质上是 **S 表达式纯粹用作数据序列化格式**—�
 因此，是的——如果你了解 Lisp 或 Scheme，你已经在结构层面上理解了 KiCad 的文件格式。
 
 **参考文献：**
+
 - [KiCad 文件格式文档](https://dev-docs.kicad.org/en/file-formats/sexpr-intro/)
 - [维基百科：S 表达式](https://en.wikipedia.org/wiki/S-expression)

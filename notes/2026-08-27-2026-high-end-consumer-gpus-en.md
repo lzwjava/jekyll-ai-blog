@@ -33,6 +33,7 @@ In the top tier, NVIDIA still has the strongest ray tracing and frame generation
 At the very top, NVIDIA owns the halo — the RTX 5090 and 4090 have no AMD answer. Drop into high-end and mid-range, and AMD gets far more interesting, with the RX 9070 XT, 9070, and 7800 XT delivering flagship-adjacent raster performance.
 
 **References:**
+
 - [Best Graphics Cards 2026 — PC Gamer](https://www.pcgamer.com/the-best-graphics-cards/)
 - [GPU Tier List 2026 — PCGameCheck](https://pcgamecheck.com/tier-list-gpu)
 - [GPU Hierarchy 2026 — TechFuelHQ](https://techfuelhq.com/articles/gpu-hierarchy-2026/)

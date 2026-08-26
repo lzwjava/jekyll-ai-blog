@@ -39,6 +39,7 @@ A community-designed full Arduino Uno PCB in KiCad is available, featuring the A
 ---
 
 **References:**
+
 - [KiCad Templates – Arduino Uno R3](https://github.com/KiCad/kicad-templates/blob/master/Projects/Arduino_Uno_R3/Arduino_Uno.kicad_pcb)
 - [Alarm-Siren Arduino KiCad Library](https://github.com/Alarm-Siren/arduino-kicad-library)
 - [SnapMagic – Arduino Uno Rev3](https://www.snapeda.com/parts/Arduino%20Uno%20Rev3/Arduino/view-part/)

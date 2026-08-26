@@ -9,10 +9,11 @@ translated: false
 type: note
 ---
 
-## Question:
+## Question
+
 How do I design a PCB like an Arduino Uno, and can AI or tools help with the process?
 
-## Answer:
+## Answer
 
 Designing a PCB involves several stages. Here's a practical breakdown:
 
@@ -31,7 +32,7 @@ The typical PCB design process follows these steps:
 These are the most popular options:
 
 | Tool | Type | Best For | Cost |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **KiCad** | GUI | Full open-source EDA | Free |
 | **EasyEDA** | Web-based | Beginners, linked to JLCPCB | Free |
 | **Altium Designer** | GUI | Professional/industry | Paid |
@@ -53,6 +54,7 @@ Yes! AI can assist at multiple stages:
 - **Code generation** — For the microcontroller firmware
 
 **AI-powered PCB tools right now:**
+
 - **Flux.ai** — AI-assisted schematic + layout in the browser
 - **Anthropic/ChatGPT** — Text-based guidance, netlist help, component calculations
 - **Copilot in KiCad (via plugins)** — Some community plugins add AI hints
@@ -82,7 +84,8 @@ Study the ATmega328P pinout, the USB-to-serial chip (CH340 or ATmega16U2), the v
 
 ---
 
-## References:
+## References
+
 - [KiCad EDA — Free & Open Source](https://www.kicad.org)
 - [Arduino Uno Official Schematics](https://www.arduino.cc/en/Main/Products)
 - [EasyEDA — Online PCB Design Tool](https://easyeda.com)

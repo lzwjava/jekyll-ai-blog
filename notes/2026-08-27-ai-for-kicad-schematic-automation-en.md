@@ -36,6 +36,7 @@ The teams getting real speed from "KiCad AI" in 2026 are not using a magic end-t
 **For `api_kitchen_sink.kicad_sch` specifically**, since it's a KiCad API test/demo file, it's an ideal target for AI experimentation — you can have an LLM read the S-expressions, summarize the netlist, suggest component placement groups, or even generate a starter `.kicad_pcb` from it programmatically.
 
 **References:**
+
 - [How We Automate KiCad PCB Routing](https://autocuro.com/blog/how-we-automate-kicad-pcb-routing)
 - [kicad-tools: LLM-driven PCB layout decisions](https://github.com/rjwalters/kicad-tools)
 - [KiCad AI in 2026: Copilots, Plugins, and Generators](https://www.protoflow.ai/blog/kicad-ai)

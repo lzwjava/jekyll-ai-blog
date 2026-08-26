@@ -62,6 +62,7 @@ His most contrarian take is on TSMC and geopolitics: he argues that even in a wo
 ---
 
 **References:**
+
 - [BigGo Finance: Neil Movva AI Inference 1000x cheaper](https://finance.biggo.com/news/29d3f76c7eeac4a2)
 - [Colossus: Invest Like the Best episode listing](https://colossus.com/series/invest-like-the-best/)
 - [Apple Podcasts: Episode description](https://podcasts.apple.com/us/podcast/invest-like-the-best-with-patrick-oshaughnessy/id1154105909)

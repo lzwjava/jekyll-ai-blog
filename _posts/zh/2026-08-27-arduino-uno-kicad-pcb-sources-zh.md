@@ -39,6 +39,7 @@ SnapMagic 为 Arduino Uno Rev3 提供免费的原理图符号、PCB 封装和 3D
 ---
 
 **参考链接：**
+
 - [KiCad 模板 – Arduino Uno R3](https://github.com/KiCad/kicad-templates/blob/master/Projects/Arduino_Uno_R3/Arduino_Uno.kicad_pcb)
 - [Alarm-Siren Arduino KiCad 库](https://github.com/Alarm-Siren/arduino-kicad-library)
 - [SnapMagic – Arduino Uno Rev3](https://www.snapeda.com/parts/Arduino%20Uno%20Rev3/Arduino/view-part/)

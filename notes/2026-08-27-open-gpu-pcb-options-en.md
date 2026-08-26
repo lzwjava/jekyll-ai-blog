@@ -20,7 +20,7 @@ Fully open-source GPU designs are **extremely rare** because GPU silicon itself 
 **1. RISC-V Based Open GPUs (Most Legitimate Open Source)**
 
 | Project | Description | Link |
-|---|---|---|
+| --- | --- | --- |
 | **Nyuzi** | Open-source GPGPU processor in Verilog | [GitHub](https://github.com/jbush001/NyuziProcessor) |
 | **MIAOW** | AMD Southern Islands ISA-compatible open GPU | [GitHub](https://github.com/VerticalResearchGroup/miaow) |
 | **VeriGPU** | Simple open-source GPU in Verilog | [GitHub](https://github.com/hughperkins/VeriGPU) |
@@ -69,6 +69,7 @@ Gap:                    No one has taped out + released a
 ```
 
 If your goal is **learning GPU PCB design**, the best path is:
+
 1. Study open FPGA board KiCad files (ULX3S is excellent)
 2. Reference boardview files of real AMD/NVIDIA cards
 3. Combine with PCIe electrical specs from the PCIe standard
@@ -76,6 +77,7 @@ If your goal is **learning GPU PCB design**, the best path is:
 ---
 
 References:
+
 - [Nyuzi Open GPGPU](https://github.com/jbush001/NyuziProcessor)
 - [ULX3S Open FPGA Board (KiCad)](https://github.com/emard/ulx3s)
 - [LitePCIe Open PCIe Framework](https://github.com/enjoy-digital/litepcie)

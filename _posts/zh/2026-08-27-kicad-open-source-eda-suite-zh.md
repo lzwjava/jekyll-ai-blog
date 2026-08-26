@@ -39,6 +39,7 @@ KiCad 项目的目标是为专业电子设计师提供尽可能最好的跨平�
 ---
 
 **参考文献：**
+
 - [KiCad GitLab Repository](https://gitlab.com/kicad/code/kicad)
 - [About KiCad | KiCad Official](https://www.kicad.org/about/kicad/)
 - [What Is KiCad? — aivon.com](https://www.aivon.com/blog/kicad-hub/what-is-kicad-a-complete-introduction-to-open-source-pcb-design-software/)

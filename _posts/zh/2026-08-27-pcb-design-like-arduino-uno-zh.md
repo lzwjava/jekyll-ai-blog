@@ -9,10 +9,11 @@ translated: true
 type: note
 ---
 
-## 问题：
+## 问题
+
 如何设计一块类似 Arduino Uno 的 PCB，AI 或工具能否帮助完成这一过程？
 
-## 答案：
+## 答案
 
 设计 PCB 涉及多个阶段。以下是实用的步骤分解：
 
@@ -31,7 +32,7 @@ type: note
 以下是目前最常用的选项：
 
 | 工具 | 类型 | 最适合 | 费用 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **KiCad** | 图形界面 | 完整的开源 EDA | 免费 |
 | **EasyEDA** | 基于网页 | 初学者，与 JLCPCB 关联 | 免费 |
 | **Altium Designer** | 图形界面 | 专业/工业用途 | 付费 |
@@ -53,6 +54,7 @@ type: note
 - **代码生成** —— 用于微控制器固件
 
 **目前具备 AI 功能的 PCB 工具：**
+
 - **Flux.ai** —— 浏览器中的 AI 辅助原理图 + 布局
 - **Anthropic/ChatGPT** —— 基于文本的指导、网表帮助、元件计算
 - **KiCad 中的 Copilot（通过插件）** —— 一些社区插件提供 AI 提示
@@ -82,7 +84,8 @@ Arduino Uno 是开源的 —— 你可以直接下载官方设计文件：
 
 ---
 
-## 参考资料：
+## 参考资料
+
 - [KiCad EDA —— 免费开源](https://www.kicad.org)
 - [Arduino Uno 官方原理图](https://www.arduino.cc/en/Main/Products)
 - [EasyEDA —— 在线 PCB 设计工具](https://easyeda.com)
