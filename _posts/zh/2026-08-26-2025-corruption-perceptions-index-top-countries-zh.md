@@ -24,6 +24,7 @@ type: note
 美国从2015年的76分下降到2025年的64分，十年间下降了12分——是先进民主国家中降幅最大的国家之一。英国同样从81分下降到70分。
 
 **参考文献：**
+
 - [CPI 2025 — Transparency International](https://www.transparency.org/en/cpi/2025)
 - [CPI 2025 Findings & Insights](https://www.transparency.org/en/news/cpi-2025-findings-insights-corruption)
 - [Top 100 Countries by CPI 2025 — StatRanker](https://statranker.org/economy/investments/top-100-countries-by-corruption-perceptions-index-2025/)

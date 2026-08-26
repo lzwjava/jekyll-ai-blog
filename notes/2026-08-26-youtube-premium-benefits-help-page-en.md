@@ -14,12 +14,14 @@ type: note
 **Answer:** The page is the **YouTube Premium Benefits** topic hub on Google's YouTube Help Center. It organizes support articles into three sections:
 
 **Learn about your benefits**
+
 - How to use your YouTube Premium benefits
 - How to explore your Premium benefits page
 - Available locations and travel policies for Premium memberships
 - How YouTube Premium supports creators
 
 **Optimize your experience**
+
 - Supported devices for YouTube Premium & YouTube Music Premium
 - Smart Downloads
 - Offline video watching
@@ -28,6 +30,7 @@ type: note
 - Finding music & podcasts in YouTube Music
 
 **Perks & offers**
+
 - YouTube Premium afterparties & live chat
 - Access to feature experiments at youtube.com/new
 
@@ -36,4 +39,5 @@ It's essentially a navigation/index page — each bullet links out to a dedicate
 ---
 
 **References:**
+
 - [YouTube Premium Benefits - YouTube Help](https://support.google.com/youtube/topic/16857255?hl=en)

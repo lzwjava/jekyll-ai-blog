@@ -38,6 +38,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [香港国际机场新闻稿——2025年8月](https://www.hongkongairport.com/en/media-centre/press-release/2025/pr_1819)
 - [香港国际机场新闻稿——2025年全年](https://www.hongkongairport.com/en/media-centre/press-release/2026/pr_1849)
 - [Moodie Davitt Report——2024年年度统计](https://moodiedavittreport.com/hong-kong-airport-sees-passenger-numbers-soar-in-2024-but-still-falls-short-of-pre-pandemic-levels/)

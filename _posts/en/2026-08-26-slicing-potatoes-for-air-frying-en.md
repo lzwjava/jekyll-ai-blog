@@ -24,7 +24,7 @@ When you cut a potato once straight through, you get **two pieces** — but each
 You nailed the core idea. An air fryer works by blasting hot air around the food. The more surface area exposed to that moving air, the better it cooks. Here's the breakdown:
 
 | Shape | Surface Area | Cooking Result |
-|---|---|---|
+| --- | --- | --- |
 | Thick chunk/piece | Low (air only hits outside) | Outside burns, inside raw |
 | Thin slice | High (both flat faces + edges exposed) | Even, crispy cook throughout |
 

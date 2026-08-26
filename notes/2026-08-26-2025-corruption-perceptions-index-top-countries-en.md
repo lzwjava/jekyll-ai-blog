@@ -24,6 +24,7 @@ For the four countries you asked about earlier:
 The United States fell from 76 in 2015 to 64 in 2025, a 12-point decline over the decade — one of the largest drops among advanced democracies. The UK similarly fell from 81 to 70.
 
 **References:**
+
 - [CPI 2025 — Transparency International](https://www.transparency.org/en/cpi/2025)
 - [CPI 2025 Findings & Insights](https://www.transparency.org/en/news/cpi-2025-findings-insights-corruption)
 - [Top 100 Countries by CPI 2025 — StatRanker](https://statranker.org/economy/investments/top-100-countries-by-corruption-perceptions-index-2025/)

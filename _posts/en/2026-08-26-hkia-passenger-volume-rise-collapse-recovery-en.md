@@ -38,6 +38,7 @@ The turning point came in late 2022, when the government began lifting border re
 ---
 
 **References:**
+
 - [HKIA Press Release – Aug 2025](https://www.hongkongairport.com/en/media-centre/press-release/2025/pr_1819)
 - [HKIA Press Release – Full Year 2025](https://www.hongkongairport.com/en/media-centre/press-release/2026/pr_1849)
 - [Moodie Davitt Report – 2024 Annual Stats](https://moodiedavittreport.com/hong-kong-airport-sees-passenger-numbers-soar-in-2024-but-still-falls-short-of-pre-pandemic-levels/)

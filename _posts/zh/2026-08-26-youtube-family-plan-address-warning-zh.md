@@ -41,6 +41,7 @@ YouTube Premium 家庭计划要求所有成员与计划管理者居住在同一�
 - 然后联系 YouTube 支持，请求在 14 天窗口关闭前进行重新审核。
 
 参考资料：
+
 - [YouTube Premium 家庭计划要求](https://support.google.com/youtube/answer/6304420)
 - [管理您的 Google 账户地址](https://myaccount.google.com/personal-info)
 - [联系 YouTube 支持](https://support.google.com/youtube/answer/7071292)
