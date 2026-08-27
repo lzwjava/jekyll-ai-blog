@@ -10,11 +10,27 @@ translated: false
 
 ## Collaborate With Me
 
-I am open to **software consultancy**. I can help you with almost any software project —
-**Android, iOS, frontend, backend**, or a combination of all of them.
+I am open to **software consultancy** focused on **AI**. I can help you with almost any
+AI project - LLM training, fine-tuning, agent systems, GPU infrastructure, or a combination of them.
 
 There is **no limit on language or technology stack**. The harder the problem, the better.
 If you need something very hard and technical, I will take it on and figure it out.
+
+My time is limited, so I prefer to focus on **highly technical problems that are blocking your
+team** — e.g. designing a new transformer architecture, or scaling parallel training across 10+
+GPUs.
+
+I'm best suited for **short projects or highly individual parts**. I generally won't take on big
+platforms or multi-client projects that are mostly CRUD, heavy business logic, or ERP-style work —
+or anything simple and repetitive, or legacy code maintenance — such projects will be declined.
+
+### Technical Preferences
+
+- I prefer **open source, simple, and elegant** technical solutions.
+- My technical taste and experience are senior — I put forward strong opinions on how to build
+  things.
+- Unless the collaborator clearly has **better technical experience than me**, the technical
+  direction is decided by me, and my opinion should be **dominant** in our collaboration.
 
 ### Rates
 
@@ -61,7 +77,7 @@ For my own background (small-LLM training, GPU infra, agent CLIs), my top picks 
 
 A full-stack engineer with 12 years of experience (Android, iOS, backend, frontend, machine
 learning & big data), plus hands-on experience training small LLMs on H200, AMD MI300X, and
-RTX 4070 GPUs. See my resume for the full details: [resume](/original/2025-01-11-resume-en).
+RTX 4070 GPUs. See my resume for the full details: [resume](https://lzwjava.com/resume-en).
 
 Reach out through any of the channels in my [resume](/assets/resume/Zhiwei.Li.Resume.pdf) and the
 links at the bottom of this site.
