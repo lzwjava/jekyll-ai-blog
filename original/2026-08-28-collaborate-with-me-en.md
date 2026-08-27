@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: collaborate-with-me
+title: Collaborate With Me — Software Consultancy
 translated: false
 ---
 
