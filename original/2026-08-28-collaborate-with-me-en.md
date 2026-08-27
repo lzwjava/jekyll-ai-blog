@@ -38,7 +38,18 @@ Beyond consultancy, I'm also keen to collaborate on **research-heavy, hands-on p
 - **Agent RL** — reinforcement learning for agents, reward design, and RL-based training pipelines.
 - **SFT & fine-tuning** — supervised fine-tuning, alignment, and downstream-task adaptation.
 
-If you're working on any of the above and need a hands-on collaborator who can also own hardware and infra, let's talk.
+### Hot Research Directions (ICML / NeurIPS)
+
+For LLM & agent collaboration, the frontier is moving from **language modeling → intelligent systems that learn, reason, act, and improve**:
+
+- **Agent RL / Reasoning RL** — RLVR, GRPO/PPO, self-improvement loops, DAPO-style systems.
+- **Agent World Models** — learn `state + action → next state` so agents can predict "what happens if I do this?" (text, visual, multimodal).
+- **Synthetic environments** — LLM-built worlds generate millions of simulations to drive agent RL ("OpenAI Gym for everything").
+- **Transformer architecture** — long context, MoE, and alternatives to next-token prediction (latent/recurrent reasoning, test-time compute).
+- **SFT → data engineering** — high-quality trajectory data, synthetic data, preference optimization.
+- **Multi-agent & multi-model systems** — planner/coder/research/verifier agents plus multimodal, multi-model pipelines.
+
+For my own background (small-LLM training, GPU infra, agent CLIs), my top picks are **agent RL + synthetic environments**, a **world model for coding agents** ("what breaks if I edit this file?"), and **efficient training/inference** on consumer GPUs. A natural 2026 paper: **Learning Software Engineering World Models for Autonomous Coding Agents**.
 
 ### How I Like To Work
 
