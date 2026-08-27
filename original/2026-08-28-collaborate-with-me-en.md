@@ -29,6 +29,17 @@ If you need something very hard and technical, I will take it on and figure it o
 2. **GPU fixing and repair** — e.g. fixing GPU setups for training, troubleshooting hardware/driver/toolchain issues for AI workloads.
 3. **Any hard tech that I don't yet know** — I learn fast and enjoy being pushed into unknown territory.
 
+### LLM & Agent Research Collaboration
+
+Beyond consultancy, I'm also keen to collaborate on **research-heavy, hands-on projects** in the LLM space:
+
+- **World model & transformer architecture** — designing and iterating on model architectures, world-model style training, and novel transformer variants.
+- **Experiments & paper work** — running experimental studies, reproducing results, and writing up findings for publication.
+- **Agent RL** — reinforcement learning for agents, reward design, and RL-based training pipelines.
+- **SFT & fine-tuning** — supervised fine-tuning, alignment, and downstream-task adaptation.
+
+If you're working on any of the above and need a hands-on collaborator who can also own hardware and infra, let's talk.
+
 ### How I Like To Work
 
 - **Prefer startups or simple organizations with a clear corporate brand** — smaller teams with clear ownership.
