@@ -20,6 +20,7 @@ type: note
 ### 第一步 — 生成 Gerber 文件（标准制造格式）
 
 在 KiCad 的 **PCB 编辑器 (Pcbnew)** 中：
+
 1. 转到 **文件 → 制造输出 → Gerber 文件 (.gbr)**
 2. 选择您需要的层：
    - `F.Cu` / `B.Cu` — 正面/背面铜层
@@ -42,6 +43,7 @@ type: note
 ### 第三步 — 使用 Gerber 查看器验证
 
 在发送文件之前，请通过视觉验证：
+
 - KiCad 内置的 **GerbView**
 - 在线工具：[gerber.ucamco.com](https://gerber.ucamco.com) 或 **JLCPCB 的 Gerber 查看器**
 
@@ -50,7 +52,7 @@ type: note
 ### 第四步 — 选择 PCB 制造商
 
 | 制造商 | 备注 |
-|---|---|
+| --- | --- |
 | **JLCPCB** | 原型最便宜；同时提供 SMT 组装服务 |
 | **PCBWay** | 质量好 + 组装服务 |
 | **OSH Park** | 美国公司；紫色电路板；非常适合爱好者 |
@@ -72,6 +74,7 @@ type: note
 ### 第六步 — 焊接元件（如果不使用组装服务）
 
 当裸板到达后：
+
 - **手工焊接**用于直插和简单的 SMD 元件
 - **回流焊炉 / 热板**用于 SMD 焊膏 + 回流焊
 - **钢网**（可与电路板一起订购）用于均匀涂抹焊膏
@@ -79,6 +82,7 @@ type: note
 ---
 
 **参考资源：**
+
 - [KiCad 官方文档 — 生成 Gerber 文件](https://docs.kicad.org/8.0/en/pcbnew/pcbnew.html#fabrication-outputs)
 - [JLCPCB — 如何从 KiCad 生成 Gerber 文件](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-7)
 - [PCBWay KiCad 指南](https://www.pcbway.com/blog/PCB_Design_Tutorial/Generate_Gerber_file_from_Kicad.html)

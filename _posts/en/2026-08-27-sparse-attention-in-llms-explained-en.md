@@ -38,6 +38,7 @@ Full attention has O(N²) memory and compute. For a 100k-token context, that's 1
 ---
 
 **References:**
+
 - [Longformer: The Long-Document Transformer (Beltagy et al., 2020)](https://arxiv.org/abs/2004.05150)
 - [BigBird: Transformers for Longer Sequences (Zaheer et al., 2020)](https://arxiv.org/abs/2007.14062)
 - [Generating Long Sequences with Sparse Transformers (Child et al., 2019)](https://arxiv.org/abs/1904.10509)

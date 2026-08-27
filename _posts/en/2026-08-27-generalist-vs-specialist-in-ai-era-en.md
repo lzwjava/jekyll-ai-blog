@@ -43,6 +43,7 @@ So yes — keep going. A year of curious, broad engagement compounds more than i
 ---
 
 References:
+
 - [The T-Shaped Professional – IDEO / HBR concept](https://hbr.org/2001/03/introducing-t-shaped-managers-knowledge-managements-next-generation)
 - [Generalists vs. Specialists in the Age of AI – Harvard Business Review](https://hbr.org/2023/10/generalists-vs-specialists-in-the-age-of-ai)
 - [Range: Why Generalists Triumph in a Specialized World – David Epstein](https://davidepstein.com/the-range/)

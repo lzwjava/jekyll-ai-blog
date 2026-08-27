@@ -22,7 +22,7 @@ Here's a full breakdown:
 **Spec Analysis**
 
 | Component | Assessment |
-|---|---|
+| --- | --- |
 | CPU: Xeon E3-1240 v5 (4C/8T, 3.5GHz) | Based on Skylake architecture, still reliable for everyday office tasks; a stable workstation foundation. Performance is roughly equivalent to an i7-6700. Fine for Word, Excel, web browsing, video calls. |
 | 8GB DDR4 RAM | Bare minimum for Windows 11 multitasking — functional but you'll notice it with many tabs open. Upgrading to 16GB later is cheap (¥60–80 used). |
 | 256GB SSD | Good for the OS and apps. |
@@ -51,6 +51,7 @@ On international markets, similar-era Dell OptiPlex 5050 units with Core i7 and 
 ---
 
 References:
+
 - [E3-1240 v5 Benchmark – PassMark](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1240+v5+%40+3.50GHz&id=2636)
 - [cpu-monkey: E3-1240 v5 review](https://www.cpu-monkey.com/en/cpu-intel_xeon_e3_1240_v5)
 - [V2EX: E3-1240V5 platform pricing discussion](https://origin.v2ex.com/t/924581)

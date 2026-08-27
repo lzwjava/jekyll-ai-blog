@@ -22,6 +22,7 @@ It originated in 2010, was developed entirely by Chinese engineers with full ind
 嘉立创EDA is the domestic (China) version of the internationally well-known online EDA tool EasyEDA. 嘉立创EDA focuses on Chinese users, while EasyEDA focuses on international users. Both share the same features, but their account systems are separate and not interoperable. Because 嘉立创EDA's servers are based in China, domestic users experience faster access with minimal lag.
 
 **Key Features**
+
 - Lightweight — no installation required; just open a browser and start designing. A desktop client is also available for offline use.
 - Supports schematic design, PCB design, library creation, and project management. It also integrates with LCSC's component catalog, allowing engineers to check stock, prices, datasheets, and SMT info directly during the design process.
 - It boasts over 4 million free component libraries, continuously updated.
@@ -35,6 +36,7 @@ In short, it's a **free, China-developed, browser/desktop PCB design tool** clos
 ---
 
 **References:**
+
 - [嘉立创EDA Official Site](https://lceda.cn)
 - [Standard Edition Docs](https://docs.lceda.cn/cn/Introduction/Introduction-to-LCEDA/)
 - [Professional Edition Quick Start](https://prodocs.lceda.cn/cn/quick-start.html)

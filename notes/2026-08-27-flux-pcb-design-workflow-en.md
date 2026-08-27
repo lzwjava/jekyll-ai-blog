@@ -24,6 +24,7 @@ You describe your electronics project in plain language. The AI interprets your 
 
 **02 — Schematic**
 The AI does the heavy lifting of electronics design:
+
 - Researches suitable components
 - Generates a **Bill of Materials (BoM)** — the list of every part needed
 - Draws the **schematic** — the logical diagram showing how components connect electrically
@@ -33,6 +34,7 @@ The AI does the heavy lifting of electronics design:
 
 **03 — Layout**
 The AI moves from the logical schematic to the **physical PCB layout**:
+
 - Places components on the board intelligently, respecting your constraints (size, heat, signal integrity, etc.)
 - **Routes traces** — draws the copper paths that connect components
 - Produces a result you can continue editing and refining
@@ -41,6 +43,7 @@ The AI moves from the logical schematic to the **physical PCB layout**:
 
 **04 — Manufacture**
 The final stage prepares your design for production:
+
 - Generates **fabrication-ready output files** (e.g., Gerber files for PCB fabs)
 - Suggests **sourcing-aware parts** — alternatives that are cost-effective and in stock, reducing supply chain risk
 
@@ -49,4 +52,5 @@ The final stage prepares your design for production:
 **In short**, Flux is an end-to-end AI PCB design assistant that takes you from *idea → schematic → physical board → factory-ready files*, with human checkpoints throughout.
 
 **References:**
+
 - [Flux AI PCB Design Tool](https://www.flux.ai)

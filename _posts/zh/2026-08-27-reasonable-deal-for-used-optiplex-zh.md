@@ -22,7 +22,7 @@ type: note
 **配置分析**
 
 | 组件 | 评估 |
-|---|---|
+| --- | --- |
 | CPU：至强 E3-1240 v5（4核8线程，3.5GHz） | 基于 Skylake 架构，日常办公仍可靠，是稳定的工作站基础。性能大致相当于 i7-6700。处理 Word、Excel、网页浏览、视频通话无压力。 |
 | 8GB DDR4 内存 | 运行 Windows 11 多任务处理的最低要求——可用，但打开多个标签页时会感到吃力。后期升级到 16GB 成本不高（二手约 60–80 元）。 |
 | 256GB SSD | 系统盘和常用软件够用。 |
@@ -51,6 +51,7 @@ type: note
 ---
 
 参考链接：
+
 - [E3-1240 v5 基准测试 – PassMark](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1240+v5+%40+3.50GHz&id=2636)
 - [cpu-monkey：E3-1240 v5 评测](https://www.cpu-monkey.com/en/cpu-intel_xeon_e3_1240_v5)
 - [V2EX：E3-1240V5 平台价格讨论](https://origin.v2ex.com/t/924581)

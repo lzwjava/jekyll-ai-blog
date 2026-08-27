@@ -35,7 +35,7 @@ type: note
 Here's what ran this month:
 
 | Date | Contest |
-|------|---------|
+| ------ | --------- |
 | Aug 1 | CF Round 1113 (Div. 2) |
 | Aug 4 | CF Round 1114 (Div. 3) |
 | Aug 6 | CF Round 1115 (Div. 2) |
@@ -48,6 +48,7 @@ Here's what ran this month:
 ---
 
 **References:**
+
 - [Codeforces Contest Rules](https://codeforces.com/blog/entry/4088)
 - [On Cheating to Avoid Rating Loss](https://codeforces.com/blog/entry/109189)
 - [Ways to Prevent Cheating](https://codeforces.com/blog/entry/144033)

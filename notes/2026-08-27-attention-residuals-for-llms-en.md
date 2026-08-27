@@ -62,6 +62,7 @@ The Attention Residuals paper reports consistent (but modest) improvements in va
 ---
 
 **References:**
+
 - [Attention Residuals — Technical Report (Kimi / Moonshot AI)](https://arxiv.org/pdf/2603.15031)
 - [Sebastian Raschka: Attention Residuals (AttnRes)](https://sebastianraschka.com/llm-architecture-gallery/attention-residuals/)
 - [HuggingFace Paper Page](https://huggingface.co/papers/2603.15031)

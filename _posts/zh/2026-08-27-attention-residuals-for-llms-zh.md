@@ -62,6 +62,7 @@ AttnRes 将这种固定累加替换为**对先前层输出的 softmax 注意力*
 ---
 
 **参考文献：**
+
 - [注意力残差——技术报告 (Kimi / 月之暗面)](https://arxiv.org/pdf/2603.15031)
 - [Sebastian Raschka: 注意力残差 (AttnRes)](https://sebastianraschka.com/llm-architecture-gallery/attention-residuals/)
 - [HuggingFace 论文页面](https://huggingface.co/papers/2603.15031)

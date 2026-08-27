@@ -16,6 +16,7 @@ Answer:
 Absolutely, a hybrid human + AI model makes a lot of sense. Here's how it could break down:
 
 **Where AI can assist (lower cost):**
+
 - **Script generation** — drafting speeches, debate talking points, campaign narratives
 - **Visual production** — posters, social media graphics, video subtitles/captions
 - **Audience analysis** — understanding what messaging resonates with which communities
@@ -23,6 +24,7 @@ Absolutely, a hybrid human + AI model makes a lot of sense. Here's how it could 
 - **Scheduling & logistics** — coordinating events, volunteers, outreach
 
 **Where humans remain essential (the "theater" part):**
+
 - **Authentic presence** — real candidates, real faces, real emotion
 - **Moral credibility** — democratic socialist values depend on *genuine* human solidarity
 - **Community trust** — grassroots organizing can't be faked; people sense it
@@ -36,5 +38,6 @@ The sweet spot is probably: AI handles the *infrastructure and repetitive produc
 ---
 
 References:
+
 - [AI in Political Campaigns — Brookings](https://www.brookings.edu/articles/how-artificial-intelligence-is-transforming-political-campaigns/)
 - [Democratic Socialism & Grassroots Organizing](https://www.dsausa.org/democratic-left/)

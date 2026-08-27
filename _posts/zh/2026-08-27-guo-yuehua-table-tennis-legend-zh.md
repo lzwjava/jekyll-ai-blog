@@ -28,6 +28,7 @@ type: note
 总之，郭跃华是他那个时代男子乒乓球的主导人物，也是这项运动历史上的巨人。
 
 **参考文献：**
+
 - [郭跃华 – Table Tennis Media](https://tabletennis.media/players/guo-yuehua/)
 - [郭跃华 – 百度百科 (英文)](https://baike.baidu.com/en/item/Guo%20Yuehua/940577)
 - [郭跃华 – Britannica](https://www.britannica.com/biography/Guo-Yuehua)

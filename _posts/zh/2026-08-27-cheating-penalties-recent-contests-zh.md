@@ -38,7 +38,7 @@ type: note
 以下是本月已进行的比赛：
 
 | 日期 | 比赛 |
-|------|---------|
+| ------ | --------- |
 | 8月1日 | CF Round 1113 (Div. 2) |
 | 8月4日 | CF Round 1114 (Div. 3) |
 | 8月6日 | CF Round 1115 (Div. 2) |
@@ -51,6 +51,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [Codeforces 比赛规则](https://codeforces.com/blog/entry/4088)
 - [关于通过作弊避免 Rating 下降](https://codeforces.com/blog/entry/109189)
 - [防止作弊的方法](https://codeforces.com/blog/entry/144033)

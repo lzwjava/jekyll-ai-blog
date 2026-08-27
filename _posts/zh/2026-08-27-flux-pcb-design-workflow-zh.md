@@ -24,6 +24,7 @@ type: note
 
 **02 — Schematic**
 AI 承担电子设计的繁重工作：
+
 - 研究合适的元件
 - 生成 **物料清单 (BoM)** — 所需每个零件的清单
 - 绘制 **Schematic** — 显示元件之间电气连接方式的逻辑图
@@ -33,6 +34,7 @@ AI 承担电子设计的繁重工作：
 
 **03 — Layout**
 AI 从逻辑 Schematic 转向 **物理 PCB Layout**：
+
 - 智能地在电路板上放置元件，考虑你的约束条件（尺寸、散热、信号完整性等）
 - **布线 (Routes traces)** — 绘制连接元件的铜路径
 - 生成一个你可以继续编辑和优化的结果
@@ -41,6 +43,7 @@ AI 从逻辑 Schematic 转向 **物理 PCB Layout**：
 
 **04 — Manufacture**
 最终阶段为生产准备你的设计：
+
 - 生成 **制造就绪的输出文件**（例如，用于 PCB 制造厂的 Gerber 文件）
 - 推荐 **货源感知的替代元件** — 性价比高且有库存的选项，降低供应链风险
 
@@ -49,4 +52,5 @@ AI 从逻辑 Schematic 转向 **物理 PCB Layout**：
 **简而言之**，Flux 是一个端到端的 AI PCB 设计助手，带你从 *想法 → Schematic → 物理板卡 → 工厂就绪文件*，全程有人工检查点。
 
 **参考：**
+
 - [Flux AI PCB Design Tool](https://www.flux.ai)

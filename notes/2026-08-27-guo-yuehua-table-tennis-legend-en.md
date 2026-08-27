@@ -28,6 +28,7 @@ He also won the inaugural Table Tennis World Cup, claiming the $12,500 first pri
 In short, Guo Yuehua was the dominant men's table tennis figure of his era and a giant in the history of the sport.
 
 **References:**
+
 - [Guo Yuehua – Table Tennis Media](https://tabletennis.media/players/guo-yuehua/)
 - [Guo Yuehua – Baidu Baike (English)](https://baike.baidu.com/en/item/Guo%20Yuehua/940577)
 - [Guo Yuehua – Britannica](https://www.britannica.com/biography/Guo-Yuehua)

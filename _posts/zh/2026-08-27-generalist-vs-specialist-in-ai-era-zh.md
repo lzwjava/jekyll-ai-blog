@@ -43,6 +43,7 @@ AI正在迅速将狭隘的专才知识商品化。如果你的唯一价值是深
 ---
 
 参考来源：
+
 - [T型专业人才——IDEO / HBR概念](https://hbr.org/2001/03/introducing-t-shaped-managers-knowledge-managements-next-generation)
 - [AI时代的通才与专才——哈佛商业评论](https://hbr.org/2023/10/generalists-vs-specialists-in-the-age-of-ai)
 - [《范围：为什么通才在专业化世界中取胜》——David Epstein](https://davidepstein.com/the-range/)
