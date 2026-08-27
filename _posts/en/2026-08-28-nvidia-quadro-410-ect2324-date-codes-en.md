@@ -18,7 +18,7 @@ type: note
 **Breaking it down:**
 
 | Code part | Meaning |
-|---|---|
+| --- | --- |
 | **E** | Assembly plant / facility code (identifies the factory where the chip was packaged) |
 | **C** | Sub-process or lot identifier (internal to the manufacturer's system) |
 | **T** | Could denote the package type, or an additional plant/revision code |
@@ -37,6 +37,7 @@ IC top marking codes on chip packages can include the manufacturer logo, product
 **In practical terms:** If you see two chips — one marked ECT23 and another ECT24 — it means they were manufactured in different years (2023 vs. 2024). This is common when sellers stock chips from different production batches. The chip itself (the NVIDIA Quadro 410 GK107 GPU) is electrically identical regardless of production year.
 
 **References:**
+
 - [Semiconductor Package Marking Conventions – Wikipedia](https://en.wikipedia.org/wiki/Semiconductor_package)
 - [IC Top Marking Codes Explained – Octatronics](https://octatronics.com/resource/technical-knowledge/ic-top-marking-codes-smd-chip-identification/)
 - [Electronic Components Date Code Guide – Moqller](https://moqller.com/blog/electronic-components-date-code-like-mama-always-said/)

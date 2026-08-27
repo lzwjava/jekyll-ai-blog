@@ -40,7 +40,7 @@ This is legitimate and widely practiced — many KOLs do exactly this.
 **Real trade-offs to be aware of**
 
 | Issue | Impact |
-|---|---|
+| --- | --- |
 | **WeChat groups cap at 500 members** | Once you exceed that, you need multiple groups, which gets complicated to manage |
 | **No content persistence** | WeChat chat history disappears after a while and new members can't see past discussions — you lose the archive value that 知识星球 naturally provides |
 | **Member expiry is hard to enforce** | When someone's 知识星球 subscription expires, you have to manually remove them from the WeChat group — there's no automation |
@@ -62,6 +62,7 @@ Many successful operators treat 知识星球 as the "library" and the WeChat gro
 ---
 
 **References:**
+
 - [知识星球官方知识库 — 创建付费星球](https://doc.zsxq.com/newuser/create.html)
 - [知识星球常见问题](https://doc.zsxq.com/faq/faqs.html)
 - [从 0 到 1 运营一个知识星球：完整实战指南](https://pandatalk8.com/blog/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83-%E8%BF%90%E8%90%A5-%E5%AE%9E%E6%88%98)

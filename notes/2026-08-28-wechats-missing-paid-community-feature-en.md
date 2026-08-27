@@ -49,7 +49,7 @@ So WeChat Shop can help you **sell digital products or memberships** (e.g., a "V
 **Bottom line**
 
 | Feature | 知识星球 | WeChat (2026) |
-|---|---|---|
+| --- | --- | --- |
 | Native paid entry gate | ✅ Built-in | ❌ Third-party only |
 | Content posting & pinning | ✅ | Partial (Official Account) |
 | Member management dashboard | ✅ | Manual / WeCom |
@@ -59,6 +59,7 @@ So WeChat Shop can help you **sell digital products or memberships** (e.g., a "V
 If you want a polished 知识星球-like experience fully inside WeChat, the most viable path today is a **custom Mini Program** with WeChat Pay integration — or simply running 知识星球 alongside WeChat for community access delivery.
 
 **References:**
+
 - [知识星球 官网](https://www.zsxq.com/)
 - [WeChat Private Domain & Group Marketing Guide (2026)](https://marketingtochina.com/how-to-use-wechat-groups-for-marketing/)
 - [WeChat Mini Shop Consolidation explained](https://marketingtochina.com/guide-to-new-wechat-e-commerce-tools/)

@@ -73,6 +73,7 @@ Content resources, users, and social relationships are all indispensable. Planet
 ---
 
 **References:**
+
 - [知识星球官方知识库 — 创建付费星球](https://doc.zsxq.com/newuser/create.html)
 - [知识星球从入门到精通](https://doc.zsxq.com/faq/expert.html)
 - [七年知识星球经验，剖析付费社群本质](https://doc.zsxq.com/seven-years.html)

@@ -49,7 +49,7 @@ type: note
 **结论**
 
 | 功能 | 知识星球 | 微信（2026年） |
-|---|---|---|
+| --- | --- | --- |
 | 原生付费入口 | ✅ 内置 | ❌ 仅限第三方 |
 | 内容发布与置顶 | ✅ | 部分（公众号） |
 | 成员管理后台 | ✅ | 手动/企业微信 |
@@ -59,6 +59,7 @@ type: note
 如果你想要一个完全在微信内运行的、体验完善的知识星球替代品，目前最可行的路径是**自定义小程序**配合微信支付集成——或者简单地将知识星球与微信并行使用，以便交付社群访问。
 
 **参考资料：**
+
 - [知识星球 官网](https://www.zsxq.com/)
 - [微信私域与群营销指南（2026）](https://marketingtochina.com/how-to-use-wechat-groups-for-marketing/)
 - [微信小店整合说明](https://marketingtochina.com/guide-to-new-wechat-e-commerce-tools/)
