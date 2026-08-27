@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to zai-org/GLM-5.3-Flash
 
-## Answer:
+## Answer
 
 Z.ai's **GLM-5.3-Flash** is a new generation **Mixture-of-Experts (MoE) multimodal large language model** in the GLM-5 family. The key idea is:
 
@@ -170,7 +170,7 @@ Chinese + English
 
 Memory estimation:
 
-### BF16:
+### BF16
 
 $$
 321B \times 2 bytes
@@ -184,7 +184,7 @@ $$
 
 before KV cache.
 
-### FP8:
+### FP8
 
 $$
 321B \times 1 byte

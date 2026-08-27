@@ -27,6 +27,7 @@ The **RoHS label** is typically printed on the back of the PCB or on the bracket
 ---
 
 **References:**
+
 - [NVIDIA Quadro 410 Official Datasheet (PDF)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/nv-quadro-410-lr.pdf)
 - [PNY Quadro 410 Datasheet (PDF)](https://www.azken.com/download/Nvidia_Quadro_410.pdf)
 - [Amazon PNY VCQ410-PB Product Page](https://www.amazon.com/PNY-NVIDIA-VCQ410-PB-Quadro-Profile/dp/B008PK7J8I)

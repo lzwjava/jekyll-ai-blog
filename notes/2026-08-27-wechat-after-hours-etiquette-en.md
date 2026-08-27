@@ -36,6 +36,7 @@ If it's not urgent, draft the message and schedule it to send during business ho
 ---
 
 **References:**
+
 - [Work-Life Balance and Digital Communication Etiquette](https://hbr.org/2019/08/how-to-stop-sending-work-emails-at-night) — Harvard Business Review
 - [China's "996" Culture and Evolving Workplace Norms](https://www.bbc.com/worklife/article/20210901-the-996-work-schedule) — BBC Worklife
 - [Right to Disconnect: Global Trends](https://www.shrm.org/topics-tools/news/employee-relations/right-to-disconnect-laws) — SHRM

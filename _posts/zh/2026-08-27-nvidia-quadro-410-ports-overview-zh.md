@@ -27,6 +27,7 @@ NVIDIA Quadro 410 在其挡板上有 **两个显示输出端口**：
 ---
 
 **参考文献：**
+
 - [NVIDIA Quadro 410 Official Datasheet (PDF)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/nv-quadro-410-lr.pdf)
 - [PNY Quadro 410 Datasheet (PDF)](https://www.azken.com/download/Nvidia_Quadro_410.pdf)
 - [Amazon PNY VCQ410-PB Product Page](https://www.amazon.com/PNY-NVIDIA-VCQ410-PB-Quadro-Profile/dp/B008PK7J8I)

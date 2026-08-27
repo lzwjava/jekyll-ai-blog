@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [如何从 GPU 芯片上移除旧硬导热硅脂 – Overclock.net](https://www.overclock.net/threads/how-to-remove-old-hard-thermal-compound-from-gpu-die.1720856/)
 - [如何更换 GPU 导热硅脂 – computerinfobits.com](https://knowledge.computerinfobits.com/hardware/gpu/thermal-paste-replacement)
 - [重新涂抹你的 GPU 导热硅脂 – Gamer Hardware](https://gamerhardware.org/repaste-gpu-thermal-paste/)

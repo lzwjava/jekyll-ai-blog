@@ -22,6 +22,7 @@ It sounds like you're asking about two **Quadro** professional GPUs — the **Qu
 The Quadro 410 is a PCI Express 2 low-profile form factor card targeted at entry-level professional CAD, media & entertainment video, and scientific visualization applications.
 
 Key specs:
+
 - 192 CUDA cores, 706 MHz core clock, 512MB memory, built on NVIDIA's GK107 chip (Kepler, 28nm). It offers about 271 GFLOPS of floating-point performance.
 - Consumes only 38W and has a low-profile footprint flexible enough to fit into any workstation. It includes NVIDIA Mosaic and nView technologies to span and manage your desktop across multiple displays.
 - It is part of NVIDIA's Optimal Drivers for Enterprise (ODE) program, ensuring regular driver updates and compatibility with professional software tools.
@@ -37,6 +38,7 @@ The Quadro 4000 was the first professional graphics solution in its class to int
 It supports stereoscopic 3D, scalable visualization, and 3D high-definition broadcasting.
 
 Key specs (from the original Fermi-era card):
+
 - 2GB of GDDR5 memory, 256-bit interface, ~89.86 GB/s bandwidth. It uses the Fermi architecture (40nm), launched November 2010 at a recommended price of $1,199.
 
 ---
@@ -44,7 +46,7 @@ Key specs (from the original Fermi-era card):
 ## Key Differences
 
 | Feature | Quadro 410 | Quadro 4000 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Kepler (28nm) | Fermi (40nm) |
 | CUDA Cores | 192 | ~256 |
 | VRAM | 512MB GDDR5 | 2GB GDDR5 |
@@ -64,6 +66,7 @@ A Quadro uses a highly modified version of the GPU found in top-end GeForce card
 ---
 
 **References:**
+
 - [NVIDIA Quadro 410 Overview – SHI](https://www.shi.com/product/26076476/NVIDIA-Quadro-410-Graphics-card)
 - [NVIDIA Quadro 4000 Overview – SHI](https://www.shi.com/product/26620775/NVIDIA-Quadro-4000-Graphics-card)
 - [Quadro 410 Details – PC Outlet](https://pcoutlet.com/parts/video-cards/nvidia-quadro-410-entry-level-graphics-card-for-professional-workstations)

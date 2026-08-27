@@ -14,7 +14,7 @@ type: note
 **`test.js`** — a complete, self-contained runnable test script, which fixes several issues in your original code:
 
 | Your original code | Issue | My fix |
-|---|---|---|
+| --- | --- | --- |
 | `import { Wechaty } from 'wechaty'` | New API recommends `WechatyBuilder` | Switched to `WechatyBuilder.build()` |
 | `new Wechaty({ name })` | Missing the `puppet` parameter | Explicitly set `puppet: 'wechaty-puppet-wechat'` |
 | `config` / `initDay()` | Undefined → crashes | Removed |

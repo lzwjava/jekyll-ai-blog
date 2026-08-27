@@ -32,6 +32,7 @@ Yes, Alibaba has Qwen and Ant Group is technically an Alibaba affiliate — but 
 The broader dynamic you're pointing to is real: the cost of building competitive specialized models has dropped so dramatically that even social media platforms and fintech firms can field credible research teams. It's less "everyone building from scratch" and more "everyone fine-tuning and post-training with novel techniques on cheap compute" — which is arguably even more interesting.
 
 **References:**
+
 - [Weibo's VibeThinker-1.5B (VentureBeat)](https://venturebeat.com/ai/weibos-new-open-source-ai-model-vibethinker-1-5b-outperforms-deepseek-r1-on)
 - [VibeThinker-3B matches DeepSeek V3.2 (CryptoBriefing)](https://cryptobriefing.com/sina-weibo-vibethinker-3b-matches-top-ai-models/)
 - [Ant Group releases Ling-2.5-1T and Ring-2.5-1T (BusinessWire)](https://www.businesswire.com/news/home/20260215551663/en/Ant-Group-Releases-Ling-2.5-1T-and-Ring-2.5-1T-Evolving-Its-Open-Source-AI-Model-Family)

@@ -32,6 +32,7 @@ type: note
 你指出的更广泛的动态确实存在：构建有竞争力的专业化模型的成本已大幅下降，以至于即使是社交媒体平台和金融科技公司也能组建可信的研究团队。与其说是“每个人都从零开始构建”，不如说是“每个人都利用新颖技术在廉价算力上进行微调和训练后优化”——这或许更具看点。
 
 **参考文献：**
+
 - [微博的VibeThinker-1.5B（VentureBeat）](https://venturebeat.com/ai/weibos-new-open-source-ai-model-vibethinker-1-5b-outperforms-deepseek-r1-on)
 - [VibeThinker-3B与DeepSeek V3.2比肩（CryptoBriefing）](https://cryptobriefing.com/sina-weibo-vibethinker-3b-matches-top-ai-models/)
 - [蚂蚁集团发布Ling-2.5-1T和Ring-2.5-1T（BusinessWire）](https://www.businesswire.com/news/home/20260215551663/en/Ant-Group-Releases-Ling-2.5-1T-and-Ring-2.5-1T-Evolving-Its-Open-Source-AI-Model-Family)

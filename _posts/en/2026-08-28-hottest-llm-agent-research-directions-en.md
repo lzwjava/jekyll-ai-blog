@@ -416,7 +416,7 @@ Examples:
 
 ---
 
-## A possible 2026 paper idea:
+## A possible 2026 paper idea
 
 ```
 Title:

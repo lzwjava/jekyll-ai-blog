@@ -36,6 +36,7 @@ This is completely normal for an old used GPU — nothing is broken, it just nee
 ---
 
 **References:**
+
 - [How to remove old, hard thermal compound from GPU die – Overclock.net](https://www.overclock.net/threads/how-to-remove-old-hard-thermal-compound-from-gpu-die.1720856/)
 - [How to Replace GPU Thermal Paste – computerinfobits.com](https://knowledge.computerinfobits.com/hardware/gpu/thermal-paste-replacement)
 - [Repaste Your GPU – Gamer Hardware](https://gamerhardware.org/repaste-gpu-thermal-paste/)

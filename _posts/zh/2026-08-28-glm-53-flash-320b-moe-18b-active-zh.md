@@ -11,7 +11,7 @@ type: note
 
 ## 问题：zai-org/GLM-5.3-Flash 介绍
 
-## 回答：
+## 回答
 
 Z.ai 的 **GLM-5.3-Flash** 是 GLM-5 系列中的新一代 **Mixture-of-Experts (MoE) 多模态大语言模型**。其核心理念是：
 
@@ -170,7 +170,7 @@ Chinese + English
 
 内存估算：
 
-### BF16：
+### BF16
 
 $$
 321B \times 2 bytes
@@ -184,7 +184,7 @@ $$
 
 未计算 KV 缓存。
 
-### FP8：
+### FP8
 
 $$
 321B \times 1 byte

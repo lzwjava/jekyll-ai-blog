@@ -17,11 +17,11 @@ type: note
 
 2008年确实是马斯克人生中最黑暗的时期之一。他后来称其为 **“我人生中最糟糕的一年”**。那时：
 
-*   SpaceX的猎鹰1号火箭已经 **连续三次发射失败**。
-*   特斯拉烧钱严重，举步维艰。
-*   全球金融危机爆发。
-*   马斯克正在经历离婚。
-*   他将大部分个人财产投入了特斯拉和SpaceX，濒临资金枯竭。([Space][1])
+* SpaceX的猎鹰1号火箭已经 **连续三次发射失败**。
+* 特斯拉烧钱严重，举步维艰。
+* 全球金融危机爆发。
+* 马斯克正在经历离婚。
+* 他将大部分个人财产投入了特斯拉和SpaceX，濒临资金枯竭。([Space][1])
 
 猎鹰1号的情况尤其严峻。2008年9月的第四次发射，基本上是 **最后一次机会**。如果再次失败，SpaceX很可能就此消亡。最终第四次尝试成功了，火箭进入了轨道。([Wikipedia][2])
 
@@ -86,8 +86,8 @@ type: note
 
 参考文献：
 
-*   ([Space][1])
-*   ([Wikipedia][2])
+* ([Space][1])
+* ([Wikipedia][2])
 
 [1]: https://www.space.com/25355-elon-musk-60-minutes-interview.html?utm_source=chatgpt.com "Why SpaceX's Elon Musk Says 2008 Was His 'Worst Year' Ever | Space"
 [2]: https://en.wikipedia.org/wiki/RatSat?utm_source=chatgpt.com "RatSat"

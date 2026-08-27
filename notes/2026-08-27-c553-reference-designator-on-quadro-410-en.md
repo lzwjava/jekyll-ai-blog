@@ -24,6 +24,7 @@ So **C553** means it is the **553rd capacitor** on the Quadro 410 PCB. Its speci
 - **Bulk storage:** Supplying short bursts of current during sudden GPU load spikes.
 
 To know the **exact** value, voltage rating, and precise function of C553 on your specific board, you would need:
+
 1. The official Quadro 410 schematic (not publicly released by NVIDIA), or
 2. A board-level repair diagram from a third-party source (sometimes found on electronics repair forums).
 
@@ -32,6 +33,7 @@ If you are troubleshooting a failed board, checking if C553 is shorted or open w
 ---
 
 **References:**
+
 - [Reference Designator – Wikipedia](https://en.wikipedia.org/wiki/Reference_designator)
 - [Decoupling Capacitor Placement Guidelines – Sierra Circuits](https://www.protoexpress.com/blog/decoupling-capacitor-placement-guidelines-pcb-design/)
 - [PCB Decoupling Capacitor – Samsung Patent](https://patents.justia.com/patent/20140146499)

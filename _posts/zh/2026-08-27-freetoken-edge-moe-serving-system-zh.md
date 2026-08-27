@@ -36,4 +36,5 @@ FreeToken围绕本地AI的两个关键现实，共同设计了完整的服务栈
 ---
 
 **参考资料：**
+
 - [FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution](https://arxiv.org/abs/2608.16157)

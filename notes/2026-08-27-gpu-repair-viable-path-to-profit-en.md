@@ -20,18 +20,21 @@ You're thinking about this the right way. Let me break it down honestly.
 ## Main Failure Areas on a GPU
 
 **1. MOSFETs / Power Delivery**
+
 - Usually the most *repairable* failures
 - Symptoms: card dead on arrival, overcurrent shutdown, coil whine
 - Tools needed: hot air, multimeter, flux, replacement MOSFETs (~$0.50–$5 each)
 - Difficulty: ⭐⭐ — learnable with practice
 
 **2. VRAM (HBM / GDDR6X)**
+
 - Common on 3080/3090 — Samsung GDDR6X thermal failures
 - Reballing/replacing VRAM chips is *hard* — requires BGA rework station
 - A 4090 has 24GB GDDR6X across multiple chips — one bad chip = whole card dead
 - Difficulty: ⭐⭐⭐⭐
 
 **3. GPU Die (the main chip)**
+
 - If the die itself is cracked or has lifted pads — almost unrepairable
 - If it's a cold joint / delamination — reflow *might* work, but risky
 - Difficulty: ⭐⭐⭐⭐⭐
@@ -55,7 +58,7 @@ Each level teaches you different failure modes. You **cannot** skip steps — a 
 ## Honest Reality Check
 
 | Factor | Reality |
-|---|---|
+| --- | --- |
 | Repair margin on 4090 | ¥2000–5000 if successful |
 | Learning curve | 1–2 years minimum |
 | Equipment cost | ¥5000–20000 upfront |

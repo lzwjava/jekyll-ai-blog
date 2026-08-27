@@ -32,5 +32,6 @@ The H81M-DS2 is a budget microATX board. Onboard Nvidia or AMD graphics are extr
 ---
 
 **References:**
+
 - [GA-H81M-DS2 (rev. 4.1) Overview – GIGABYTE](https://www.gigabyte.com/us/Motherboard/GA-H81M-DS2-rev-41)
 - [GA-H81M-DS2 (Rev. 3.0) Specifications – GIGABYTE](https://www.gigabyte.com/Motherboard/GA-H81M-DS2-rev-30/sp)

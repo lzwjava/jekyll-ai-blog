@@ -36,7 +36,7 @@ Note that in standard IEEE/PCB convention, "M" typically stands for motor, but G
 **Summary table:**
 
 | Detail | Value |
-|---|---|
+| --- | --- |
 | GPU | GF119 (Kepler/Fermi, 28 nm) |
 | Memory type | GDDR3 (SK Hynix) |
 | Memory bus width | 64-bit |
@@ -48,6 +48,7 @@ Note that in standard IEEE/PCB convention, "M" typically stands for motor, but G
 So in short: four chips because 4 × 16-bit = 64-bit bus; labeled M1–M4 as sequential PCB reference designators for memory; placed tight around the GPU die for signal integrity.
 
 **References:**
+
 - [NVIDIA Quadro 410 specs – Technical.City](https://technical.city/en/video/Quadro-410)
 - [PCB Reference Designator explanation – Wikipedia](https://en.wikipedia.org/wiki/Reference_designator)
 - [PCB silkscreen reference designator guide – EBest PCB](https://www.bestpcbs.com/blog/2024/09/what-do-letter-and-numbers-on-a-schematic-mean/)

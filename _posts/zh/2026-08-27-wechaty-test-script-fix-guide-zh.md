@@ -14,7 +14,7 @@ type: note
 **`test.js`** — 一个完整、自包含的可运行测试脚本，修复了你原始代码中的几个问题：
 
 | 你的原始代码 | 问题 | 我的修复 |
-|---|---|---|
+| --- | --- | --- |
 | `import { Wechaty } from 'wechaty'` | 新 API 推荐使用 `WechatyBuilder` | 切换为 `WechatyBuilder.build()` |
 | `new Wechaty({ name })` | 缺少 `puppet` 参数 | 显式设置 `puppet: 'wechaty-puppet-wechat'` |
 | `config` / `initDay()` | 未定义 → 导致崩溃 | 已移除 |

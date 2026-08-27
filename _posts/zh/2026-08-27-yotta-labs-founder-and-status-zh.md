@@ -23,16 +23,16 @@ type: note
 
 根据公司资料：
 
-*   **李达 (Da Li)** — 创始人/CEO
-*   **Johnny Liu** — 联合创始人/CTO
-*   **李东 (Dong Li)** — 首席科学家/联合创始人（部分资料列出）([Crunchbase][1])
+* **李达 (Da Li)** — 创始人/CEO
+* **Johnny Liu** — 联合创始人/CTO
+* **李东 (Dong Li)** — 首席科学家/联合创始人（部分资料列出）([Crunchbase][1])
 
 团队规模非常小（大约个位数）。LinkedIn 显示 Yotta Labs 是一家位于西雅图，员工人数在 2-10 人的公司。([LinkedIn][2])
 
 技术背景很有意思：
 
-*   Johnny Liu 专注于大规模机器学习系统和 HPC。([Crunchbase][3])
-*   公司强调 GPU 内核、异构硬件以及在多芯片架构（NVIDIA、AMD、AWS Trainium/Inferentia）上执行。([Yotta Labs][4])
+* Johnny Liu 专注于大规模机器学习系统和 HPC。([Crunchbase][3])
+* 公司强调 GPU 内核、异构硬件以及在多芯片架构（NVIDIA、AMD、AWS Trainium/Inferentia）上执行。([Yotta Labs][4])
 
 ---
 
@@ -62,10 +62,10 @@ Google Cloud
 
 每个硬件供应商都有：
 
-*   不同的驱动程序
-*   不同的内核
-*   不同的调度方式
-*   不同的成本效益
+* 不同的驱动程序
+* 不同的内核
+* 不同的调度方式
+* 不同的成本效益
 
 Yotta 希望成为 AI 计算的 **Kubernetes 式抽象层**。
 
@@ -86,11 +86,11 @@ Yotta 希望成为 AI 计算的 **Kubernetes 式抽象层**。
 
 产品包括：
 
-*   GPU 云实例
-*   推理服务
-*   AI 网关
-*   工作负载编排
-*   量化/优化工具 ([Yotta Labs][6])
+* GPU 云实例
+* 推理服务
+* AI 网关
+* 工作负载编排
+* 量化/优化工具 ([Yotta Labs][6])
 
 ---
 
@@ -106,17 +106,17 @@ Yotta 希望成为 AI 计算的 **Kubernetes 式抽象层**。
 
 在 2023-2026 年期间：
 
-*   NVIDIA 占据主导地位，但供应受限。
-*   AMD MI300/MI350、AWS Trainium、Google TPU 正在改进。
-*   企业不希望为每个加速器重写所有代码。
+* NVIDIA 占据主导地位，但供应受限。
+* AMD MI300/MI350、AWS Trainium、Google TPU 正在改进。
+* 企业不希望为每个加速器重写所有代码。
 
 基础设施层确实变得复杂。
 
 历史上的类似模式：
 
-*   VMware 抽象了服务器
-*   Kubernetes 抽象了容器
-*   CUDA 抽象了 GPU
+* VMware 抽象了服务器
+* Kubernetes 抽象了容器
+* CUDA 抽象了 GPU
 
 AI 可能需要另一个抽象层。
 
@@ -154,10 +154,10 @@ Yotta 试图做得更深入：
 
 他们正在与以下公司竞争：
 
-*   CoreWeave
-*   Together AI
-*   Lambda
-*   超大规模云服务商
+* CoreWeave
+* Together AI
+* Lambda
+* 超大规模云服务商
 
 尤其是 CoreWeave，拥有巨大的资本和 GPU 供应优势。
 
@@ -249,19 +249,19 @@ LLM 推理
 
 有趣的技术挑战有：
 
-*   他们能否高效地调度 H100 + MI300 + Trainium？
-*   他们能否自动选择内核？
-*   他们能否使 PyTorch/vLLM/SGLang 具有可移植性？
-*   他们能否胜过仅使用 AWS？
+* 他们能否高效地调度 H100 + MI300 + Trainium？
+* 他们能否自动选择内核？
+* 他们能否使 PyTorch/vLLM/SGLang 具有可移植性？
+* 他们能否胜过仅使用 AWS？
 
 这些都是非常困难的工程问题。
 
 参考资料：
 
-*   Yotta Labs 关于页面：([Yotta Labs 文档][5])
-*   Crunchbase 公司资料：([Crunchbase][1])
-*   Yotta 推理架构：([Yotta Labs][4])
-*   Yotta 官方网站：([Yotta Labs][6])
+* Yotta Labs 关于页面：([Yotta Labs 文档][5])
+* Crunchbase 公司资料：([Crunchbase][1])
+* Yotta 推理架构：([Yotta Labs][4])
+* Yotta 官方网站：([Yotta Labs][6])
 
 [1]: https://www.crunchbase.com/organization/yotta-labs?utm_source=chatgpt.com "Yotta Labs - Crunchbase 公司资料与融资"
 [2]: https://www.linkedin.com/company/yotta-labs?utm_source=chatgpt.com "Yotta Labs | LinkedIn"

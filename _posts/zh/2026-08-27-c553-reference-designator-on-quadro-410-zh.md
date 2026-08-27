@@ -24,6 +24,7 @@ type: note
 - **大容量储能：** 在 GPU 负载突然飙升时提供短时电流爆发。
 
 要了解您特定电路板上 C553 的 **确切** 数值、额定电压及精确功能，您需要：
+
 1. 官方 Quadro 410 原理图（NVIDIA 未公开发布），或
 2. 第三方来源的板级维修图（有时可在电子维修论坛找到）。
 
@@ -32,6 +33,7 @@ type: note
 ---
 
 **参考：**
+
 - [参考位号 – 维基百科](https://en.wikipedia.org/wiki/Reference_designator)
 - [去耦电容布局指南 – Sierra Circuits](https://www.protoexpress.com/blog/decoupling-capacitor-placement-guidelines-pcb-design/)
 - [PCB 去耦电容器 – Samsung 专利](https://patents.justia.com/patent/20140146499)

@@ -36,7 +36,7 @@ GDDR 显存芯片在 PCB 上与 GPU 核心并排放置，通过内存总线连�
 **总结表格：**
 
 | 细节 | 值 |
-|---|---|
+| --- | --- |
 | GPU | GF119（Kepler/Fermi，28 nm） |
 | 显存类型 | GDDR3（SK Hynix） |
 | 显存总线宽度 | 64 位 |
@@ -48,6 +48,7 @@ GDDR 显存芯片在 PCB 上与 GPU 核心并排放置，通过内存总线连�
 简而言之：四颗芯片因为 4 × 16 位 = 64 位总线；标注为 M1–M4 是显存的顺序 PCB 参考指示符；紧密环绕 GPU 核心是为了信号完整性。
 
 **参考来源：**
+
 - [NVIDIA Quadro 410 规格 – Technical.City](https://technical.city/en/video/Quadro-410)
 - [PCB 参考指示符说明 – Wikipedia](https://en.wikipedia.org/wiki/Reference_designator)
 - [PCB 丝印参考指示符指南 – EBest PCB](https://www.bestpcbs.com/blog/2024/09/what-do-letter-and-numbers-on-a-schematic-mean/)

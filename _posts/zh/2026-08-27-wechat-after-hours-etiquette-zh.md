@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [工作与生活平衡及数字沟通礼仪](https://hbr.org/2019/08/how-to-stop-sending-work-emails-at-night) ——《哈佛商业评论》
 - [中国的"996"文化与职场规范演变](https://www.bbc.com/worklife/article/20210901-the-996-work-schedule) —— BBC Worklife
 - [断开连接权：全球趋势](https://www.shrm.org/topics-tools/news/employee-relations/right-to-disconnect-laws) —— SHRM
