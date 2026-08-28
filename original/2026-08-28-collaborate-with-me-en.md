@@ -36,7 +36,7 @@ or anything simple and repetitive, or legacy code maintenance — such projects 
 
 - **More than 500 CNY per hour** (or the equivalent in USD) — this reflects the difficulty
   of the technical work I take on.
-- **1,000 CNY signing bonus** (or your proposed amount) when a project starts.
+- **3,000 CNY signing bonus** when a project starts.
 - **All other details are negotiable** — scope, timeline, milestones, payment schedule.
 
 ### What I Want To Work On First
