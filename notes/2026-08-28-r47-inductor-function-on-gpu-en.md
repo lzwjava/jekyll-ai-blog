@@ -37,6 +37,7 @@ On GPU cards, you typically find several R22 (0.22 µH) and one or two R47 (0.47
 **In short:** R47 is a **0.47 µH power inductor** — a critical part of the GPU's voltage regulation circuit that ensures stable, clean power delivery to the GPU core or VRAM.
 
 **References:**
+
 - [SMD Inductor Marking Guide — Industrial Monitor Direct](https://industrialmonitordirect.com/blogs/knowledgebase/smd-inductor-identification-reading-markings-testing-guide)
 - [Burned R47 on GPU — iFixit](https://www.ifixit.com/Answers/View/232421/Burned+resistor+on+GPU)
 - [Fried R47 on GTX 1080 — AnandTech Forums](https://forums.anandtech.com/threads/fried-resistor-and-vrm-on-gtx-1080.2543963/)

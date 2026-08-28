@@ -36,6 +36,7 @@ APM8720（也称为 APW8720）是一款由 ANPEC Electronics 生产的 **单降�
 **总结：** 这两个组件共同构成 **GPU 电源传输级（VRM——电压调节模块）**。**APM8720 是大脑**（PWM 控制器，指示开关何时触发），**VP57F MOSFET 是肌肉**（执行实际电源转换的高电流开关）。它们共同调节 GPU 的核心供电电压。
 
 **参考文献：**
+
 - [APW8720 数据手册 — Alldatasheet](https://www.alldatasheet.com/view.jsp?Searchword=APW8720)
 - [APW8720 数据手册 — datasheet4u](https://datasheet4u.com/datasheets/ANPEC/APW8720/1319868)
 - [APW8720B 数据手册 — datasheet4u](https://www.datasheet4u.com/datasheet-pdf/ANPEC/APW8720B/pdf.php?id=761893)

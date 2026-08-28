@@ -46,7 +46,7 @@ type: note
 **总结——所有 5 个组件如何协同工作：**
 
 | 组件 | 类型 | 作用 |
-|---|---|---|
+| --- | --- | --- |
 | APM8720 | PWM Controller IC | VRM 的大脑，控制开关 |
 | VP57F | N-Channel MOSFET | Buck converter 中的高/低侧开关 |
 | **B09N03 (EMB09N03)** | **N-Channel MOSFET** | **VRM 中的额外功率开关** |
@@ -56,6 +56,7 @@ type: note
 它们共同构成 Quadro 410 GPU 核心或内存电压的 **完整 VRM 供电电路**。
 
 **参考链接：**
+
 - [EMB09N03V Datasheet — alltransistors.com](https://alltransistors.com/mosfet/transistor.php?transistor=49932)
 - [B09N03 Datasheet — Alldatasheet](https://www.alldatasheet.com/view.jsp?Searchword=B09N03)
 - [B09N03 — Excelliance MOS, datasheet4u](https://datasheet4u.com/datasheet-pdf/ExcellianceMOS/B09N03/pdf.php?id=1254749)

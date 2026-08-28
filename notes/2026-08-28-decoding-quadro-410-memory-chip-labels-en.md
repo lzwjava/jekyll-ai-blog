@@ -58,7 +58,7 @@ This is the standard YYWW (Year + Work Week) manufacturing date code used by SK 
 **Summary table:**
 
 | Item | Meaning |
-|---|---|
+| --- | --- |
 | **M1, M2, M3, M4** | PCB location names for the 4 DDR3 DRAM chips |
 | **4 chips total** | Together = 512 MB VRAM on a 64-bit bus (128 MB each) |
 | **Manufacturer** | SK Hynix |
@@ -67,6 +67,7 @@ This is the standard YYWW (Year + Work Week) manufacturing date code used by SK 
 | **314** | Date code: Year 2013, Week 14 (≈ April 2013) |
 
 **References:**
+
 - [SK Hynix DDR3 Part Number Guide — Scribd](https://www.scribd.com/doc/131570956/DDR-memory-list-from-hynix)
 - [SK Hynix Graphics Memory Part Number Decoder — Scribd](https://www.scribd.com/document/371607382/Hynix-Graphics-Part-Numbering)
 - [Cracking Hynix Chip Labels — SilverPC Blog](https://blog.silverpc.hu/2025/10/20/cracking-the-code-a-guide-to-understanding-hynix-chip-labeling/)

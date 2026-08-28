@@ -58,7 +58,7 @@ PCB 上的 reference designators M1 至 M4 只是板子上 silkscreen 标签，�
 **总结表：**
 
 | 项目 | 含义 |
-|---|---|
+| --- | --- |
 | **M1、M2、M3、M4** | 4 个 DDR3 DRAM 芯片的 PCB 位置名称 |
 | **共 4 个芯片** | 合计 = 64 位总线上的 512 MB VRAM（每个 128 MB） |
 | **制造商** | SK Hynix |
@@ -67,6 +67,7 @@ PCB 上的 reference designators M1 至 M4 只是板子上 silkscreen 标签，�
 | **314** | 日期代码：2013 年第 14 周（约 2013 年 4 月） |
 
 **参考：**
+
 - [SK Hynix DDR3 零件编号指南 — Scribd](https://www.scribd.com/doc/131570956/DDR-memory-list-from-hynix)
 - [SK Hynix 显卡内存零件编号解码器 — Scribd](https://www.scribd.com/document/371607382/Hynix-Graphics-Part-Numbering)
 - [破解 Hynix 芯片标签 — SilverPC Blog](https://blog.silverpc.hu/2025/10/20/cracking-the-code-a-guide-to-understanding-hynix-chip-labeling/)

@@ -36,6 +36,7 @@ No public datasheet could be found directly for "VP57F" by that exact marking co
 **In summary:** These two components form a **GPU power delivery stage** (VRM — Voltage Regulator Module). The **APM8720 is the brain** (PWM controller that tells the switches when to fire), and the **VP57F MOSFETs are the muscle** (high-current switches that do the actual power conversion). Together they regulate the GPU's core supply voltage.
 
 **References:**
+
 - [APW8720 Datasheet — Alldatasheet](https://www.alldatasheet.com/view.jsp?Searchword=APW8720)
 - [APW8720 Datasheet — datasheet4u](https://datasheet4u.com/datasheets/ANPEC/APW8720/1319868)
 - [APW8720B Datasheet — datasheet4u](https://www.datasheet4u.com/datasheet-pdf/ANPEC/APW8720B/pdf.php?id=761893)

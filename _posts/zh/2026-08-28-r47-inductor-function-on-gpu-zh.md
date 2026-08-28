@@ -37,6 +37,7 @@ R47电感与这些元件**协同工作**，作为**VRM（电压调节模块）**
 **简而言之：** R47是一个**0.47 µH功率电感**——它是GPU电压调节电路的关键部件，确保向GPU核心或显存稳定、纯净地供电。
 
 **参考资料：**
+
 - [SMD电感标注指南 — Industrial Monitor Direct](https://industrialmonitordirect.com/blogs/knowledgebase/smd-inductor-identification-reading-markings-testing-guide)
 - [GPU上烧毁的R47 — iFixit](https://www.ifixit.com/Answers/View/232421/Burned+resistor+on+GPU)
 - [GTX 1080上损坏的R47 — AnandTech论坛](https://forums.anandtech.com/threads/fried-resistor-and-vrm-on-gtx-1080.2543963/)

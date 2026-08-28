@@ -28,6 +28,7 @@ Thermal paste *does* allow heat to flow out, but it's not a great conductor on i
 - Without any paste, the GPU can overheat quickly due to those air gaps.
 
 **In short:** It's doing its job to facilitate heat flow, but it works best when it's fresh and applied thinly. If the paste on your Quadro 410 looks dried or crumbly, replacing it with fresh paste (even a cheap one) will meaningfully lower temperatures.**References:**
+
 - [Thermal Interface Materials Explained – Thermal Grizzly](https://www.thermal-grizzly.com/en/thermal-interface-materials)
 - [Why Thermal Paste Matters – Linus Tech Tips](https://linustechtips.com/topic/thermal-paste-importance)
 - [NVIDIA Quadro 410 Specs & Cooling – TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/quadro-410.c1723)

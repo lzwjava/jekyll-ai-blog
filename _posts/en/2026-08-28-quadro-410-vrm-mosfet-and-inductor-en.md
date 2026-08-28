@@ -24,6 +24,7 @@ Great — all three markings are now identified. Here's the answer:
 The two-line marking **B09** (top) / **N03** (bottom) is the SMD package code for the **EMB09N03** series, manufactured by **Excelliance MOS Corp.**
 
 The full part designation is **EMB09N03V**, with the SMD marking code **B09N03**. It is an **N-Channel Logic Level Enhancement Mode MOSFET** with:
+
 - Max Drain-Source Voltage (Vds): **30V**
 - Max Drain Current (Id): **20A**
 - Max Power Dissipation: **21W**
@@ -45,7 +46,7 @@ No public datasheet was found under that exact code, which is common — GPU boa
 **Summary — how all 5 components fit together:**
 
 | Component | Type | Role |
-|---|---|---|
+| --- | --- | --- |
 | APM8720 | PWM Controller IC | Brain of the VRM, controls switching |
 | VP57F | N-Channel MOSFET | High/low side switch in buck converter |
 | **B09N03 (EMB09N03)** | **N-Channel MOSFET** | **Additional power switch in VRM** |
@@ -55,6 +56,7 @@ No public datasheet was found under that exact code, which is common — GPU boa
 Together they form the **complete VRM power delivery circuit** for the Quadro 410's GPU core or memory voltage.
 
 **References:**
+
 - [EMB09N03V Datasheet — alltransistors.com](https://alltransistors.com/mosfet/transistor.php?transistor=49932)
 - [B09N03 Datasheet — Alldatasheet](https://www.alldatasheet.com/view.jsp?Searchword=B09N03)
 - [B09N03 — Excelliance MOS, datasheet4u](https://datasheet4u.com/datasheet-pdf/ExcellianceMOS/B09N03/pdf.php?id=1254749)

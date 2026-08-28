@@ -30,6 +30,7 @@ GPU芯片和散热器表面在微观下都粗糙不平。如果直接贴合，�
 **简而言之：** 它确实在履行促进导热的职责，但只有在新鲜且薄涂时效果最佳。若你Quadro 410上的导热膏已干裂或成碎屑状，更换新膏（即使是廉价产品）也能显著降低温度。
 
 **参考资料：**
+
 - [导热界面材料解析 – Thermal Grizzly](https://www.thermal-grizzly.com/en/thermal-interface-materials)
 - [导热膏为何重要 – Linus Tech Tips](https://linustechtips.com/topic/thermal-paste-importance)
 - [NVIDIA Quadro 410规格与散热 – TechPowerUp GPU数据库](https://www.techpowerup.com/gpu-specs/quadro-410.c1723)
