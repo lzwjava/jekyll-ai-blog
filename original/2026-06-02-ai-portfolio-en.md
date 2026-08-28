@@ -40,6 +40,14 @@ Built my machine learning workstation in 2023 and have been training and learnin
 
 ---
 
+## 🔧 GPU Teardown — Learning Hardware from Broken Cards
+
+Bought broken GPUs from the second-hand market (**Quadro 401 / 2000 / 4000**, etc.), dismantled them, and studied the boards to understand the components — VRM circuitry (MOSFETs, inductors, capacitors), memory chip layout, and how each generation's architecture (Fermi → …) differs. Every PCB is a blueprint of engineering decisions.
+
+![Broken GPUs from the second-hand market — Quadro teardown collection](/assets/images/ai-portfolio/gpu-teardown-collection.jpg)
+
+---
+
 ### 🏋️ Training Run Summary
 
 | # | Model | Framework | Params | Hardware | Steps | Status |
