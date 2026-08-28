@@ -27,5 +27,6 @@ NVIDIA P2007是 **NVIDIA Quadro 4000（第二代）** 的板卡/型号编号—�
 总之，P2007是一款 **专业/工作站GPU**（Quadro系列），而非消费级GeForce显卡。它专为CAD、3D设计、动画和视频制作等工作负载而设计。
 
 **参考来源：**
+
 - [NVIDIA Quadro 4000 – VideoCardz.net](https://videocardz.net/nvidia-quadro-4000-trebek)
 - [P2007 – Nvidia Quadro 4000 Gen 2 Product Listing](https://www.technetworksupply.com/products/p2007-nvidia-quadro-4000-gen-2-2gb-gddr5-pci-express-x16-1-dvi-dl-d-video-graphics-card)

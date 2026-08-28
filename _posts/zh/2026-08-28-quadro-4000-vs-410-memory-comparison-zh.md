@@ -28,7 +28,7 @@ Quadro 4000 通常使用 **三星 GDDR5 芯片**（K4G10325FE 系列），这与
 **完整对比：**
 
 | 特性 | Quadro 410 | Quadro 4000 |
-|---|---|---|
+| --- | --- | --- |
 | **GPU 芯片** | GF119 / GK107 (Fermi/Kepler) | GF100 (Fermi) |
 | **CUDA 核心数** | 192 | 256 |
 | **显存类型** | DDR3 | GDDR5 |
@@ -48,6 +48,7 @@ Quadro 4000 通常使用 **三星 GDDR5 芯片**（K4G10325FE 系列），这与
 **Quadro 410 是入门级工作站显卡**——体积小巧、可无风扇运行、低功耗，专为预算有限的 CAD 设计。而 **Quadro 4000 是中高端工作站显卡**——PCB 明显更大、配备主动散热风扇、需要额外的 PCIe 供电，且显存带宽是前者的 6 倍以上。这就是为什么它拥有完整的 256-bit 位宽并焊满全部 8 个显存槽，而 410 仅需 4 颗芯片即可满足其窄小的 64-bit 总线。
 
 **参考链接：**
+
 - [NVIDIA Quadro 4000 规格 — GPUZoo](https://www.gpuzoo.com/GPU-NVIDIA/Quadro_4000.html)
 - [NVIDIA Quadro 4000 — VideoCardz.net](https://videocardz.net/nvidia-quadro-4000)
 - [eBay 上 Quadro 4000 的规格列表](https://www.ebay.com/itm/233557526489)

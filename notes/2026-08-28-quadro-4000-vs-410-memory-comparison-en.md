@@ -28,7 +28,7 @@ The Quadro 4000 commonly uses **Samsung GDDR5 chips** (K4G10325FE series), which
 **Full comparison:**
 
 | Feature | Quadro 410 | Quadro 4000 |
-|---|---|---|
+| --- | --- | --- |
 | **GPU chip** | GF119 / GK107 (Fermi/Kepler) | GF100 (Fermi) |
 | **CUDA Cores** | 192 | 256 |
 | **Memory type** | DDR3 | GDDR5 |
@@ -48,6 +48,7 @@ The Quadro 4000 commonly uses **Samsung GDDR5 chips** (K4G10325FE series), which
 The **Quadro 410 is an entry-level workstation card** — small, fanless-capable, low power, designed for CAD on a budget. The **Quadro 4000 is a mid-high class workstation card** — significantly larger PCB, active cooling fan, needs extra PCIe power, with 6× more memory bandwidth. That's why it has a full 256-bit bus with all 8 DRAM slots populated, while the 410 only needs the 4 chips for its narrow 64-bit bus.
 
 **References:**
+
 - [NVIDIA Quadro 4000 specs — GPUZoo](https://www.gpuzoo.com/GPU-NVIDIA/Quadro_4000.html)
 - [NVIDIA Quadro 4000 — VideoCardz.net](https://videocardz.net/nvidia-quadro-4000)
 - [Quadro 4000 on eBay listing specs](https://www.ebay.com/itm/233557526489)

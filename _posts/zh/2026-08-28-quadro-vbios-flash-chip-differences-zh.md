@@ -36,7 +36,7 @@ type: note
 关键区别在于 **存储容量**，因为两款显卡的 VBIOS 大小差异很大：
 
 | 项目 | U506 — Quadro 410 | U504 — Quadro 4000 |
-|---|---|---|
+| --- | --- | --- |
 | **显卡型号** | Quadro 410 (GK107, 512MB DDR3) | Quadro 4000 (GF100, 2GB GDDR5) |
 | **芯片类型** | SPI NOR Flash, SOIC-8 | SPI NOR Flash, SOIC-8 |
 | **典型容量** | **512 Kbit–1 Mbit** (64–128 KB) | **1 Mbit–2 Mbit** (128–256 KB) |
@@ -58,6 +58,7 @@ type: note
 **实用提示：** 如果您需要恢复变砖的 GPU VBIOS，可以使用 SOIC-8 测试夹直接夹住该芯片，并用 CH341A 编程器写入已知良好的 VBIOS ROM 文件。
 
 **参考：**
+
 - [GPU VBIOS 刷写指南 — pchardwarepro.com](https://www.pchardwarepro.com/en/Flashing-the-GPU-BIOS:-Risks--Tools--and-Step-by-Step-Guide/)
 - [GPU BIOS 恢复指南 — SilverPC Blog](https://blog.silverpc.hu/2025/10/18/bricked-your-card-a-step-by-step-recovery-guide-for-when-flashing-the-gpu-bios-failed/)
 - [W25Q80BV 数据手册 — Winbond](https://www.winbond.com/upload/technical-support/f0f72951-b845-42ea-9010-faaeab26872f.pdf)

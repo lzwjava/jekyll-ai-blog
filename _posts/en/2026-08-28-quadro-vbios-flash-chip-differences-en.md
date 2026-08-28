@@ -36,7 +36,7 @@ The standard package is an 8-pin SOIC. The 8 pins handle: Chip Select (/CS), Clo
 The key difference is **storage capacity**, because the two cards have very different VBIOS sizes:
 
 | Item | U506 — Quadro 410 | U504 — Quadro 4000 |
-|---|---|---|
+| --- | --- | --- |
 | **Card** | Quadro 410 (GK107, 512MB DDR3) | Quadro 4000 (GF100, 2GB GDDR5) |
 | **Chip type** | SPI NOR Flash, SOIC-8 | SPI NOR Flash, SOIC-8 |
 | **Typical capacity** | **512 Kbit–1 Mbit** (64–128 KB) | **1 Mbit–2 Mbit** (128–256 KB) |
@@ -58,6 +58,7 @@ It's placed near the DRAM chips because the VBIOS contains the **memory initiali
 **Practical note:** If you ever need to recover a bricked GPU VBIOS, you attach a SOIC-8 test clip directly to this chip and use a CH341A programmer to rewrite it with a known-good VBIOS ROM file.
 
 **References:**
+
 - [GPU VBIOS Flash Guide — pchardwarepro.com](https://www.pchardwarepro.com/en/Flashing-the-GPU-BIOS:-Risks--Tools--and-Step-by-Step-Guide/)
 - [GPU BIOS Recovery Guide — SilverPC Blog](https://blog.silverpc.hu/2025/10/18/bricked-your-card-a-step-by-step-recovery-guide-for-when-flashing-the-gpu-bios-failed/)
 - [W25Q80BV Datasheet — Winbond](https://www.winbond.com/upload/technical-support/f0f72951-b845-42ea-9010-faaeab26872f.pdf)

@@ -27,5 +27,6 @@ Here are the key specs:
 In short, the P2007 is a **professional/workstation GPU** (Quadro line), not a consumer GeForce card. It was designed for CAD, 3D design, animation, and video production workloads.
 
 **References:**
+
 - [NVIDIA Quadro 4000 – VideoCardz.net](https://videocardz.net/nvidia-quadro-4000-trebek)
 - [P2007 – Nvidia Quadro 4000 Gen 2 Product Listing](https://www.technetworksupply.com/products/p2007-nvidia-quadro-4000-gen-2-2gb-gddr5-pci-express-x16-1-dvi-dl-d-video-graphics-card)
