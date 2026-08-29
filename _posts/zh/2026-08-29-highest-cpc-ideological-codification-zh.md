@@ -31,6 +31,7 @@ type: note
 ---
 
 参考来源：
+
 - [《中国共产党章程》（全文）——新华网](http://www.xinhuanet.com/english/download/Constitution_of_the_Communist_Party_of_China.pdf)
 - [中国共产党第十九次全国代表大会——维基百科](https://en.wikipedia.org/wiki/19th_National_Congress_of_the_Chinese_Communist_Party)
 - [习近平新时代中国特色社会主义思想——维基百科](https://en.wikipedia.org/wiki/Xi_Jinping_Thought)

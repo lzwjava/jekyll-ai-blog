@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国共产党第十八届中央委员会第三次全体会议——维基百科](https://en.wikipedia.org/wiki/Third_plenary_session_of_the_18th_Central_Committee_of_the_Chinese_Communist_Party)
 - [三中全会入门指南——美中贸易全国委员会](http://www.uschina.org/articles/the-third-plenum-of-the-18th-chinese-communist-party-congress-a-primer/)
 - [政治优先：理解中国的三中全会——亚洲协会](https://asiasociety.org/policy-institute/politics-first-key-understanding-chinas-third-plenum)

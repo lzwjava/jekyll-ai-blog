@@ -22,7 +22,7 @@ Think of it through three simple angles:
 ### 🏛️ Analogy: A Building
 
 | Layer | Confidence | Role |
-|-------|-----------|------|
+| ------- | ----------- | ------ |
 | **Foundation** | Culture (文化自信) | Holds everything up |
 | Walls | Path (道路自信) | The direction you walk |
 | Structure | System (制度自信) | The rules/design |
@@ -35,16 +35,19 @@ Think of it through three simple angles:
 ### 🔍 Why Each Word Makes Sense
 
 **最根本 (most fundamental)**
+
 - Path, Theory, and System were all *designed* or *chosen* — they can be changed.
 - Culture is *grown over thousands of years* — it is not chosen, it simply *is*. You can't swap it out.
 - Therefore it is more **root-level** than the others.
 
 **最深沉 (deepest)**
+
 - Path and System exist in laws and institutions — you can *see* them.
 - Culture lives **inside people's minds, values, and habits** — invisible but powerful.
 - It is deeper because it shapes *how people think*, not just *what rules they follow*.
 
 **最持久 (most enduring)**
+
 - Governments change. Theories get updated. Systems get reformed.
 - But Chinese culture — Confucian values, family loyalty, historical identity — has survived **thousands of years** of dynasties, wars, and revolutions.
 - It outlasts everything else.

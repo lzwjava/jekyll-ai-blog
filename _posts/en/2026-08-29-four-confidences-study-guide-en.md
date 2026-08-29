@@ -49,12 +49,14 @@ Here are practical tips:
 **2. Understand the origin and evolution** — Know that it started as "Three Confidences" (2012), became Four (2014), and gained a fifth "Historical Confidence" (2021).
 
 **3. Connect each confidence to real examples:**
+
 - Path → China's development model (not copying Western liberal democracy)
 - Theory → Xi Jinping Thought as the latest Marxist adaptation
 - System → People's Congress system, CCP leadership
 - Culture → Traditional Chinese culture + socialist values
 
 **4. Link it to related key concepts** the course likely tests together:
+
 - "Two Establishments" (两个确立)
 - "Four Consciousnesses" (四个意识)
 - "Two Safeguards" (两个维护)
@@ -64,6 +66,7 @@ Here are practical tips:
 ---
 
 **References:**
+
 - [Four Confidences — Wikipedia](https://en.wikipedia.org/wiki/Four_Confidences)
 - [Introduction to Xi Jinping Thought Course — Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)
 - [Outline for Study of Xi Jinping Thought — Wikipedia](https://en.wikipedia.org/wiki/Outline_for_the_Study_of_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)

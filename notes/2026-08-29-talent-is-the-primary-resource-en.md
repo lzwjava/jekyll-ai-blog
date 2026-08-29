@@ -14,7 +14,9 @@ In the theoretical framework of this textbook (specifically **Chapter 6: Promoti
 ---
 
 ### 1. The Dynamic Core of Productive Forces (生产力中最活跃的因素)
+
 In Marxist economic theory (emphasized in Chapter 6):
+
 * Productive forces consist of three parts: **Laborers (劳动者)**, **Instruments of labor (劳动资料)**, and **Subjects of labor (劳动对象)**.
 * Tools, machinery, capital, and natural resources are passive and inanimate. They produce zero value and cannot innovate on their own.
 * **Human beings (laborers and talent) are the only conscious, creative, and purposeful factor.** Only through human skill, intelligence, and labor can materials and tools be activated to generate economic output and advance civilization.
@@ -22,6 +24,7 @@ In Marxist economic theory (emphasized in Chapter 6):
 ---
 
 ### 2. Talent Connects Technology and Innovation: *"The Primary Resource"*
+
 Chapter 7 highlights the core triad:
 > **"科技是第一生产力、人才是第一资源、创新是第一动力"**
 > *(Science & technology is the primary productive force, talent is the primary resource, and innovation is the primary driving force.)*
@@ -32,6 +35,7 @@ Chapter 7 highlights the core triad:
 ---
 
 ### 3. Subjective Initiative and Boundless Creativity (主观能动性与创造力)
+
 * **Overcoming Resource Limits:** Traditional physical factors of production (land, raw materials, physical capital) are finite and face diminishing marginal returns.
 * **Compounding Value:** Talent possesses **subjective initiative (主观能动性)**. Through creativity, management optimization, and continuous learning, talented individuals can:
   * Create entirely new industries and economic models (e.g., AI, green energy, digital economy).
@@ -40,6 +44,7 @@ Chapter 7 highlights the core triad:
 ---
 
 ### 4. Decisive Factor in Modern Global Competition (国际竞争的战略资源)
+
 Chapter 7 notes:
 > *"Talent is the strategic resource for achieving national rejuvenation and winning the initiative in international competition."*
 
@@ -49,6 +54,8 @@ Chapter 7 notes:
 ---
 
 ### 5. Policy Manifestation: "Four Respects" (四个尊重)
+
 Because talent is the most proactive driver of progress, the book emphasizes institutional policies to unleash this potential:
+
 * **"Respect labor, respect knowledge, respect talent, and respect creativity"** (*尊重劳动、尊重知识、尊重人才、尊重创造*).
 * Reforming talent evaluation systems and incentive mechanisms to fully mobilize their **proactiveness, initiative, and creativity (积极性、主动性、创造性)**.

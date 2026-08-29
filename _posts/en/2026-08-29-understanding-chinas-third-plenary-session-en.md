@@ -36,6 +36,7 @@ The CCP typically holds one plenary session per year, usually in the fall. The T
 ---
 
 **References:**
+
 - [Third plenary session of the 18th Central Committee of the CCP — Wikipedia](https://en.wikipedia.org/wiki/Third_plenary_session_of_the_18th_Central_Committee_of_the_Chinese_Communist_Party)
 - [Third Plenum Primer — US-China Business Council](http://www.uschina.org/articles/the-third-plenum-of-the-18th-chinese-communist-party-congress-a-primer/)
 - [Politics First: Understanding China's Third Plenum — Asia Society](https://asiasociety.org/policy-institute/politics-first-key-understanding-chinas-third-plenum)

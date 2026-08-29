@@ -24,7 +24,7 @@ Based on how these political theory courses are typically examined in Chinese un
 This is the most common exam question type. You must write them **correctly and completely**:
 
 | # | Chinese | English |
-|---|---------|---------|
+| --- | --------- | --------- |
 | 1 | 道路自信 | Confidence in the Path |
 | 2 | 理论自信 | Confidence in Theory |
 | 3 | 制度自信 | Confidence in the System |

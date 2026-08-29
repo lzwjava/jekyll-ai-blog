@@ -65,6 +65,7 @@ Pi agent（pi.dev 上的开源编程代理，仓库为 earendil-works/pi）将�
 ---
 
 **参考资料：**
+
 - [Pi 设置文档（官方）](https://pi.dev/docs/latest/settings)
 - [earendil-works/pi — settings.md](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/settings.md)
 - [pi-subagents — models.md](https://github.com/nicobailon/pi-subagents/blob/main/docs/models.md)

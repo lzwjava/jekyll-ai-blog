@@ -22,7 +22,7 @@ The **四个全面 (Four Comprehensives)** is a core strategic framework of Xi J
 ### The Four Comprehensives — Full List
 
 | # | Chinese | Official English Translation |
-|---|---------|----------------------------|
+| --- | --------- | ---------------------------- |
 | 1 | 全面建成社会主义现代化强国 | Comprehensively build a modern socialist country |
 | 2 | 全面深化改革 | Comprehensively deepen reform |
 | 3 | 全面依法治国 | Comprehensively govern the country according to law |
@@ -35,18 +35,22 @@ The **四个全面 (Four Comprehensives)** is a core strategic framework of Xi J
 ### How to Understand Each One
 
 **① 全面建成社会主义现代化强国 — The Goal**
+
 - This is the **destination** — what China is ultimately trying to become by 2049 (the centenary of the PRC).
 - Think of it as: *"Where are we going?"*
 
 **② 全面深化改革 — The Engine**
+
 - Reform is the **driving force** to get there — economic, social, institutional reform across all sectors.
 - Think of it as: *"How do we move forward?"*
 
 **③ 全面依法治国 — The Track**
+
 - Rule of law provides **order and legitimacy** — the system runs on rules, not personal whim.
 - Think of it as: *"What keeps things on track?"*
 
 **④ 全面从严治党 — The Driver**
+
 - The Party must be **strictly disciplined** to lead everything else reliably.
 - Think of it as: *"Who steers, and how are they kept honest?"*
 
@@ -55,6 +59,7 @@ The **四个全面 (Four Comprehensives)** is a core strategic framework of Xi J
 ### 🏎️ One Analogy to Remember All Four
 
 > Imagine a **car journey**:
+>
 > - **Goal** = the destination on the map (#1)
 > - **Engine** = the fuel and power (#2)
 > - **Track/Road** = the legal road rules (#3)
@@ -67,7 +72,7 @@ All four must work together — a great destination means nothing without a reli
 ### 🔗 How It Connects to the Four Confidences
 
 | Four Confidences (四个自信) | Four Comprehensives (四个全面) |
-|---|---|
+| --- | --- |
 | **Mindset** — why China believes in its system | **Action** — what China actually does |
 | Internal conviction | External strategy |
 | Foundation | Implementation |
@@ -85,5 +90,6 @@ Examiners often ask: *"What is the relationship among the Four Comprehensives?"*
 ---
 
 **References:**
+
 - [Four-pronged Comprehensive Strategy — Wikipedia](https://en.wikipedia.org/wiki/Four-pronged_comprehensive_strategy)
 - [Xi Jinping Thought Outline — Wikipedia](https://en.wikipedia.org/wiki/Outline_for_the_Study_of_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)

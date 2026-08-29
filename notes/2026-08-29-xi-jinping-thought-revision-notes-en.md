@@ -17,6 +17,7 @@ This repository contains study and revision notes for the official Chinese unive
 ---
 
 ### 1. Textbook Information
+
 * **Full Title:** 《习近平新时代中国特色社会主义思想概论》 *(2023 Edition / 23版)*
 * **Publisher:** Higher Education Press (高等教育出版社)
 * **ISBN:** `9787040610536`
@@ -25,6 +26,7 @@ This repository contains study and revision notes for the official Chinese unive
 ---
 
 ### 2. Core Structure & Themes of the Book
+
 The book systematically introduces the theoretical framework of Xi Jinping Thought, structured across an introduction, 16 core chapters, and a conclusion:
 
 1. **Introduction & Theoretical Foundation (导论 & 第1–4章):**
@@ -50,6 +52,7 @@ The book systematically introduces the theoretical framework of Xi Jinping Thoug
 ---
 
 ### 3. What is in this Repository
+
 * **Chapter Markdown Notes (`.md`):** Detailed summaries, outlines, and key exam concepts per chapter.
 * **Compiled Revision PDFs (`.pdf`):** Including full final exam review guides (`23版习思想概论-期末复习笔记.pdf`, simplified guides, and individual chapter PDFs).
 * **Summary Guides:** Specialized review sheets on core theoretical points (`习思想主要内容+重要体现`).

@@ -38,6 +38,7 @@ In short, it is a comprehensive ideological system that ties environmental prote
 ---
 
 **References:**
+
 - [Xi Jinping Thought on Ecological Civilization – Wikipedia](https://en.wikipedia.org/wiki/Xi_Jinping_Thought_on_Ecological_Civilization)
 - [The CCP's Vision of Ecological Civilization: An Explainer – Swedish National China Centre](https://kinacentrum.se/en/publications/the-chinese-communist-partys-vision-of-ecological-civilization-an-explainer/)
 - [The Original Contribution of Xi Jinping Thought on Ecological Civilization – USTB](https://bkds.ustb.edu.cn/en/article/doi/10.19979/j.cnki.issn10082689.2024070020)

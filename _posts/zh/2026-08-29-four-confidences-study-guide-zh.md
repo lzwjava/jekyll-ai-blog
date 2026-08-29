@@ -49,12 +49,14 @@ type: note
 **2. 理解起源与演变** —— 要知道它始于“三个自信”（2012 年），发展为四个（2014 年），并新增了第五个“历史自信”（2021 年）。
 
 **3. 将每个自信与实际案例关联：**
+
 - 道路自信 → 中国发展模式（不照搬西方自由民主）
 - 理论自信 → 习近平新时代中国特色社会主义思想作为最新马克思主义中国化成果
 - 制度自信 → 人民代表大会制度、党的领导
 - 文化自信 → 中国传统文化 + 社会主义核心价值观
 
 **4. 与课程常考的其他关键概念联系：**
+
 - “两个确立”
 - “四个意识”
 - “两个维护”
@@ -64,6 +66,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [四个自信 — 维基百科](https://en.wikipedia.org/wiki/Four_Confidences)
 - [习近平新时代中国特色社会主义思想课程介绍 — 维基百科](https://en.wikipedia.org/wiki/Introduction_to_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)
 - [习近平新时代中国特色社会主义思想学习纲要 — 维基百科](https://en.wikipedia.org/wiki/Outline_for_the_Study_of_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)

@@ -24,7 +24,7 @@ The **本质要求** (essential/core requirement) of 中国式现代化 is an **
 The essential requirement of Chinese-style modernization is:
 
 | # | Chinese | Meaning |
-|---|---------|---------|
+| --- | --------- | --------- |
 | 1 | 坚持中国共产党领导 | Uphold CCP leadership |
 | 2 | 坚持中国特色社会主义 | Uphold socialism with Chinese characteristics |
 | 3 | 实现高质量发展 | Achieve high-quality development |
@@ -56,7 +56,7 @@ Think of it in **3 layers**:
 > What does modernization look like inside China?
 
 | Point | Core Idea |
-|-------|-----------|
+| ------- | ----------- |
 | 高质量发展 | Not just GDP growth — quality matters |
 | 全过程人民民主 | Democracy expressed through the whole governing process, not just elections |
 | 精神世界 | Material wealth alone is not enough — culture and values matter |
@@ -87,7 +87,7 @@ Think of it in **3 layers**:
 ### 🔗 How It Connects to Other Concepts
 
 | Concept | Relationship |
-|---------|-------------|
+| --------- | ------------- |
 | 四个自信 | The **confidence** behind pursuing this modernization |
 | 四个全面 | The **strategy** to implement this modernization |
 | 中国式现代化本质要求 | The **content/destination** of what modernization looks like |
@@ -107,5 +107,6 @@ Think of it in **3 layers**:
 ---
 
 **References:**
+
 - [Chinese-style Modernization — Wikipedia](https://en.wikipedia.org/wiki/Chinese-style_modernization)
 - [20th National Congress Report — Xinhua](http://www.news.cn/politics/cpc20/2022-10/25/c_1129079429.htm)

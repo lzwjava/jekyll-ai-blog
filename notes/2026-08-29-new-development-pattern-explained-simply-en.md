@@ -61,7 +61,7 @@ Think of it as **two loops** working together:
 The textbook gives these reasons:
 
 | Reason | Explanation |
-|--------|-------------|
+| -------- | ------------- |
 | 外部环境变化 | Global environment became hostile — US-China trade war, deglobalization |
 | 国内市场潜力 | China's huge domestic market is underutilized |
 | 发展阶段变化 | China moved past the "cheap export" growth model |
@@ -74,12 +74,14 @@ The textbook gives these reasons:
 **② 核心内涵 — What does it actually mean?**
 
 **国内大循环 = Main Engine**
+
 - Stimulate **domestic consumption** (内需)
 - Strengthen domestic **supply chains**
 - Develop **domestic technology** (科技自立自强)
 - Key idea: China's 1.4 billion people are themselves a massive market
 
 **国际循环 = Supporting Role**
+
 - Still engage with the world — not isolation
 - Use international resources and markets to **supplement** domestic circulation
 - Continue opening up — but on China's own terms
@@ -91,7 +93,7 @@ The textbook gives these reasons:
 The textbook identifies these pillars:
 
 | Pillar | Chinese | Role |
-|--------|---------|------|
+| -------- | --------- | ------ |
 | Technology self-reliance | 科技自立自强 | Remove foreign tech dependency |
 | Supply chain security | 产业链安全 | Don't let others cut off critical supplies |
 | Domestic consumption | 扩大内需 | Drive growth from within |
@@ -114,7 +116,7 @@ The textbook identifies these pillars:
 ### 🔗 Connections to Other Course Concepts
 
 | Concept | Relationship to 新发展格局 |
-|---------|--------------------------|
+| --------- | -------------------------- |
 | 高质量发展 | 新发展格局 is the **structural foundation** for high-quality development |
 | 创新发展 | 科技自立自强 is what makes domestic circulation **self-sustaining** |
 | 共享发展 | Expanding domestic consumption requires people having **money to spend** |
@@ -126,7 +128,7 @@ The textbook identifies these pillars:
 ### ⚠️ Most Common Misunderstanding
 
 | Wrong idea | Correct understanding |
-|-----------|----------------------|
+| ----------- | ---------------------- |
 | 新发展格局 = closing China off from the world | ❌ Wrong — international circulation still exists |
 | 国内循环 = ignoring exports | ❌ Wrong — exports still matter, just not the **primary** driver |
 | It's a response to one specific problem | ❌ Wrong — it's a **long-term structural shift**, not a short-term fix |
@@ -150,5 +152,6 @@ The textbook identifies these pillars:
 ---
 
 **References:**
+
 - [Dual Circulation — Wikipedia](https://en.wikipedia.org/wiki/Dual_circulation)
 - [新发展格局 — 人民日报理论版](http://theory.people.com.cn)

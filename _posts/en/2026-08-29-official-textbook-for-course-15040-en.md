@@ -22,7 +22,7 @@ type: note
 **《习近平新时代中国特色社会主义思想概论》**
 
 | Item | Detail |
-|------|--------|
+| ------ | -------- |
 | **Full Title** | 习近平新时代中国特色社会主义思想概论 |
 | **English Title** | Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
 | **Publisher** | 高等教育出版社 + 人民出版社 (jointly) |
@@ -40,7 +40,7 @@ The textbook fully reflects the latest achievements of Marxism adapted to Chines
 The 17 chapters cover roughly these major themes:
 
 | Chapters | Theme |
-|----------|-------|
+| ---------- | ------- |
 | 导论 (Intro) | Overview of Xi Jinping Thought |
 | Ch. 1–3 | New Era, historical mission, Two Centenary Goals |
 | Ch. 4–6 | 五位一体 overall layout |
@@ -80,6 +80,7 @@ For exam purposes, priority order of what to read:
 ---
 
 **References:**
+
 - [Official Textbook Page — 高等教育出版社](https://static.hep.com.cn/static/xgl/index.html)
 - [Xinhua announcement of textbook publication](https://www.news.cn/politics/leaders/2023-08/28/c_1129828773.htm)
 - [Introduction to Xi Jinping Thought — Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)

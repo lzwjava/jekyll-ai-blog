@@ -22,7 +22,7 @@ type: note
 ### First — The Full Five Development Concepts (五大发展理念)
 
 | # | Chinese | English |
-|---|---------|---------|
+| --- | --------- | --------- |
 | 1 | 创新发展 | Innovative Development |
 | 2 | 协调发展 | Coordinated Development |
 | 3 | 绿色发展 | Green Development |
@@ -54,7 +54,7 @@ The textbook defines it around **4 core ideas**:
 Covers **5 areas**:
 
 | Area | Chinese |
-|------|---------|
+| ------ | --------- |
 | Education | 教育 |
 | Employment | 就业 |
 | Income | 收入 |
@@ -83,7 +83,7 @@ Covers **5 areas**:
 ### 🔗 Key Relationships to Other Concepts
 
 | Concept | Connection to 共享发展 |
-|---------|----------------------|
+| --------- | ---------------------- |
 | 共同富裕 | The **goal** of 共享发展 |
 | 中国式现代化 | 共享发展 is one of its **supporting pillars** |
 | 以人民为中心 | The **philosophical root** — development is FOR the people |
@@ -96,7 +96,7 @@ Covers **5 areas**:
 Think of the difference between two growth models:
 
 | Western Model | 共享发展 Model |
-|--------------|--------------|
+| -------------- | -------------- |
 | Grow first, distribute later | Grow AND distribute together |
 | Trickle-down economics | Institutionalized sharing |
 | GDP focus | People's wellbeing focus |
@@ -120,5 +120,6 @@ Think of the difference between two growth models:
 ---
 
 **References:**
+
 - [Five Concepts of Development — Wikipedia](https://en.wikipedia.org/wiki/Five_concepts_of_development)
 - [Common Prosperity — Wikipedia](https://en.wikipedia.org/wiki/Common_prosperity)

@@ -65,6 +65,7 @@ Example:
 ---
 
 **References:**
+
 - [Pi Settings Docs (official)](https://pi.dev/docs/latest/settings)
 - [earendil-works/pi — settings.md](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/settings.md)
 - [pi-subagents — models.md](https://github.com/nicobailon/pi-subagents/blob/main/docs/models.md)

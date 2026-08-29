@@ -31,6 +31,7 @@ In short, "writing into the Party Constitution" is the highest form of ideologic
 ---
 
 References:
+
 - [CPC Constitution (Full Text) – Xinhua](http://www.xinhuanet.com/english/download/Constitution_of_the_Communist_Party_of_China.pdf)
 - [19th National Congress of the CPC – Wikipedia](https://en.wikipedia.org/wiki/19th_National_Congress_of_the_Chinese_Communist_Party)
 - [Xi Jinping Thought – Wikipedia](https://en.wikipedia.org/wiki/Xi_Jinping_Thought)

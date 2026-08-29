@@ -24,7 +24,7 @@ type: note
 这是最常见的考题类型。你必须**正确且完整**地写出它们：
 
 | # | 中文 | 英文 |
-|---|------|------|
+| --- | ------ | ------ |
 | 1 | 道路自信 | Confidence in the Path |
 | 2 | 理论自信 | Confidence in Theory |
 | 3 | 制度自信 | Confidence in the System |

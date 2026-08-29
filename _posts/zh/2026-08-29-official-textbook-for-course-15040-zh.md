@@ -22,7 +22,7 @@ type: note
 **《习近平新时代中国特色社会主义思想概论》**
 
 | 项目 | 详情 |
-|------|------|
+| ------ | ------ |
 | **全称** | 习近平新时代中国特色社会主义思想概论 |
 | **英文名称** | Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
 | **出版社** | 高等教育出版社 + 人民出版社（联合出版） |
@@ -40,7 +40,7 @@ type: note
 17个章节大致涵盖以下主题：
 
 | 章节 | 主题 |
-|------|------|
+| ------ | ------ |
 | 导论 | 习近平新时代中国特色社会主义思想概述 |
 | 第1–3章 | 新时代、历史使命、两个一百年奋斗目标 |
 | 第4–6章 | 五位一体总体布局 |
@@ -80,6 +80,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [官方教材页面 — 高等教育出版社](https://static.hep.com.cn/static/xgl/index.html)
 - [新华社关于教材出版的公告](https://www.news.cn/politics/leaders/2023-08/28/c_1129828773.htm)
 - [《习近平新时代中国特色社会主义思想概论》—— Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Xi_Jinping_Thought_on_Socialism_with_Chinese_Characteristics_for_a_New_Era)

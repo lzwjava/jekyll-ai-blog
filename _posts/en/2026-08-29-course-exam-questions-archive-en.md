@@ -25,7 +25,7 @@ Here's an overview of the **习近平新时代中国特色社会主义思想概�
 The `历年试题/` folder has 6 files — all sourced from [GitHub Issue #158](https://github.com/Xovee/uestc-course/issues/158). README lists them in reverse chronological order:
 
 | File | Term | Type | Answers |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `2026年春-期末考试-无答案-简答材料题回忆.md` | 2026春 (Jun 22, 2026) | 期末考试 | 无答案 |
 | `2025年秋-期末考试-无答案-简答材料题回忆.md` | 2025秋 (Jan 8, 2026) | 期末考试 | 无答案 |
 | `2025年春-期末考试-无答案-简答材料题回忆.md` | 2025春 (Jun 24, 2025) | 期末考试 | 无答案 |
@@ -51,6 +51,7 @@ A `√` mark in each file indicates questions that are explicitly from the textb
 ## Notes on consistency with repo conventions
 
 Everything looks well-formed:
+
 - Filenames follow the `年份学期-考试类型-答案状态-补充信息.ext` pattern.
 - Category is the canonical `历年试题` (not the legacy `历年真题`).
 - README table header matches `文件名|来源 | 文件类型|文件大小|备注`.

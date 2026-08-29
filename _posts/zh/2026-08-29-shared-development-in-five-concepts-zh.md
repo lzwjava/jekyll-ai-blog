@@ -22,7 +22,7 @@ type: note
 ### 一、完整的五大发展理念
 
 | 序号 | 中文 | 英文 |
-|-----|------|------|
+| ----- | ------ | ------ |
 | 1 | 创新发展 | Innovative Development |
 | 2 | 协调发展 | Coordinated Development |
 | 3 | 绿色发展 | Green Development |
@@ -54,7 +54,7 @@ type: note
 涵盖**5个领域**：
 
 | 领域 | 英文 |
-|------|------|
+| ------ | ------ |
 | 教育 | Education |
 | 就业 | Employment |
 | 收入 | Income |
@@ -83,7 +83,7 @@ type: note
 ### 三、关键概念关系
 
 | 概念 | 与共享发展的联系 |
-|------|------------------|
+| ------ | ------------------ |
 | 共同富裕 | 共享发展的**目标** |
 | 中国式现代化 | 共享发展是它的**支撑性支柱之一** |
 | 以人民为中心 | **哲学根基**——发展是为了人民 |
@@ -96,7 +96,7 @@ type: note
 思考两种发展模式的区别：
 
 | 西方模式 | 共享发展模式 |
-|----------|--------------|
+| ---------- | -------------- |
 | 先增长，后分配 | 增长与分配同步进行 |
 | 涓滴经济学 | 制度化共享 |
 | 以GDP为中心 | 以人民福祉为中心 |
@@ -120,5 +120,6 @@ type: note
 ---
 
 **参考文献：**
+
 - [Five Concepts of Development — Wikipedia](https://en.wikipedia.org/wiki/Five_concepts_of_development)
 - [Common Prosperity — Wikipedia](https://en.wikipedia.org/wiki/Common_prosperity)
