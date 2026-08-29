@@ -4,68 +4,80 @@ generated: false
 image: false
 lang: zh
 layout: post
-title: 与我合作——软件咨询
+title: 与我合作 — 软件咨询
 translated: true
 ---
 
-## 与我合作
+## Collaborate With Me
 
-我开放接受以 **AI** 为核心的 **软件咨询** 服务。我可以帮助您完成几乎所有 AI 项目——LLM 训练、微调、智能体系统、GPU 基础设施，或它们的组合。
+I am open to **software consultancy** focused on **AI**. I can help you with almost any
+AI project - LLM training, fine-tuning, agent systems, GPU infrastructure, or a combination of them.
 
-**语言或技术栈没有限制**。问题越难越好。如果您需要非常困难且技术性强的任务，我会接手并解决。
+There is **no limit on language or technology stack**. The harder the problem, the better.
+If you need something very hard and technical, I will take it on and figure it out.
 
-我的时间有限，因此我倾向于专注于 **阻碍您团队的高技术问题**——例如设计新的 Transformer 架构，或在 10 多块 GPU 上扩展并行训练。
+My time is limited, so I prefer to focus on **highly technical problems that are blocking your
+team** — e.g. designing a new transformer architecture, or scaling parallel training across 10+
+GPUs.
 
-我最适合 **短期项目或高度独立的模块**。通常我不会承接大型平台或多客户项目（主要是 CRUD、密集的业务逻辑或 ERP 类工作），也不会承接任何简单重复或遗留代码维护——此类项目将被拒绝。
+I'm best suited for **short projects or highly individual parts**. I generally won't take on big
+platforms or multi-client projects that are mostly CRUD, heavy business logic, or ERP-style work —
+or anything simple and repetitive, or legacy code maintenance — such projects will be declined.
 
-### 技术偏好
+### Technical Preferences
 
-- 我偏好 **开源、简单、优雅** 的技术方案。
-- 我的技术品味和经验是资深的——对于如何构建产品，我有强烈的意见。
-- 除非合作方 **技术经验明显比我强**，否则技术方向由我决定，我的意见应在合作中 **占主导地位**。
+- I prefer **open source, simple, and elegant** technical solutions.
+- My technical taste and experience are senior — I put forward strong opinions on how to build
+  things.
+- Unless the collaborator clearly has **better technical experience than me**, the technical
+  direction is decided by me, and my opinion should be **a bit dominant** in our collaboration.
 
-### 费率
+### Rates
 
-- **每小时超过 500 元人民币**（或等值美元）——这反映了我承接的技术工作的难度。
-- 项目启动时支付 **3,000 元人民币签约奖金**。
-- **所有其他细节均可协商**——范围、时间线、里程碑、付款计划。
+- **More than 500 CNY per hour** (or the equivalent in USD) — this reflects the difficulty
+  of the technical work I take on.
+- **3,000 CNY signing bonus** when a project starts.
+- **All other details are negotiable** — scope, timeline, milestones, payment schedule.
 
-### 我优先想做的项目
+### What I Want To Work On First
 
-1. **LLM / AI / 智能体 / GPU 训练项目**——这是我的最高优先事项，我会从这些开始。
-2. **GPU 维修与修复**——例如修复用于训练的 GPU 设置，排查 AI 工作负载的硬件/驱动/工具链问题。
-3. **任何我尚未掌握的高难度技术**——我学习很快，并且乐于被推入未知领域。
+1. **LLM / AI / Agent / GPU training projects** — these are my first priority and I start with them.
+2. **GPU fixing and repair** — e.g. fixing GPU setups for training, troubleshooting hardware/driver/toolchain issues for AI workloads.
+3. **Any hard tech that I don't yet know** — I learn fast and enjoy being pushed into unknown territory.
 
-### LLM 与智能体研究合作
+### LLM & Agent Research Collaboration
 
-除了咨询，我也非常希望合作开展 **动手实践、研究密集** 的 LLM 领域项目：
+Beyond consultancy, I'm also keen to collaborate on **hands-on, research-heavy projects** in the LLM space:
 
-- **模型训练与微调**——从头预训练小型模型（GPT-2 规模及以上），以及在领域数据上对开源模型进行监督微调/对齐。
-- **高效推理**——在消费级 GPU 显存预算内，进行量化，并使用 vLLM / SGLang 类引擎提供服务（KV 缓存、分页内存、连续批处理）。
-- **RAG 与检索**——构建有依据的流水线：分块、嵌入、排序、混合搜索，以及生成答案的评估。
-- **向量数据库与智能体记忆**——为可扩展的召回和可靠的智能体长期记忆，对大规模文档集进行索引和服务。
-- **智能体系统**——工具调用、智能体循环，以及具有可靠检索和状态的自主编码智能体。
+- **Model training & fine-tuning** — pretraining small models (GPT-2 scale and up) from scratch, and supervised fine-tuning / alignment of open models on domain data.
+- **Efficient inference** — staying within consumer-GPU VRAM budgets, quantization, and serving with vLLM / SGLang-style engines (KV cache, paged memory, continuous batching).
+- **RAG & retrieval** — building grounded pipelines: chunking, embeddings, ranking, hybrid search, and evaluation of generated answers.
+- **Vector databases & agent memory** — indexing and serving large document sets for scalable recall and reliable agent long-term memory.
+- **Agent systems** — tool-calling, agent loops, and autonomous coding agents with dependable retrieval and state.
 
-### 我的专注领域
+### Where I Focus
 
-对于 LLM 与智能体合作，我专注于我有实践经验的问题——训练和服务小型模型，并将它们接入实用的智能体系统：
+For LLM & agent collaboration, I focus on problems I have hands-on evidence for — training and serving small models, and wiring them into practical agent systems:
 
-- **智能体系统**——工具调用智能体、智能体循环、自主编码智能体，以及用于智能体状态的可靠长期记忆/检索。
-- **RAG 与向量数据库**——端到端检索：分块、嵌入、索引、混合搜索，以及有依据答案的评估。
-- **小型模型训练与微调**——在消费级 GPU（RTX 4070）和云 H200 / MI300X 上进行预训练与 SFT，以及数据集工程。
-- **高效训练与推理**——MoE、量化、KV 缓存/分页内存、vLLM / SGLang 服务——在显存和延迟预算内。
-- **SFT → 数据工程**——轨迹与指令数据、合成数据选择、偏好/对齐调优。
+- **Agent systems** — tool-calling agents, agent loops, autonomous coding agents, and reliable long-term memory / retrieval for agent state.
+- **RAG & vector databases** — end-to-end retrieval: chunking, embedding, indexing, hybrid search, and evaluation of grounded answers.
+- **Small-model training & fine-tuning** — pretraining and SFT on consumer GPUs (RTX 4070) and cloud H200 / MI300X, plus dataset engineering.
+- **Efficient training & inference** — MoE, quantization, KV-cache / paged memory, vLLM / SGLang serving — within VRAM and latency budgets.
+- **SFT → data engineering** — trajectory and instruction data, synthetic data selection, preference / alignment tuning.
 
-基于我的背景（小型 LLM 训练、GPU 基础设施、智能体 CLI），我最看好的是 **用于智能体记忆的实用 RAG + 向量检索**、**自主编码智能体**，以及 **消费级 GPU 上的高效训练/推理**。
+Based on my background (small-LLM training, GPU infra, agent CLIs), my top picks are **practical RAG + vector retrieval for agent memory**, **autonomous coding agents**, and **efficient training/inference** on consumer GPUs.
 
-### 我喜欢的工作方式
+### How I Like To Work
 
-- **偏好初创公司或具有清晰企业品牌的简单组织**——所有权明确的小团队。
-- **偏好简单的安排与沟通**——保持直截了当，不官僚。
-- **快速决策，简单协作**——我希望合作快速推进，保持简单。
+- **Prefer startups or simple organizations with a clear corporate brand** — smaller teams with clear ownership.
+- **Prefer simple arrangement and communication** — keep it straightforward, no bureaucracy.
+- **Quick decisions, simple collaboration** — I want the collaboration to move fast and stay uncomplicated.
 
-### 关于我（简要）
+### About Me (in brief)
 
-一名拥有 12 年经验的全栈工程师（Android、iOS、后端、前端、机器学习与大数据），并有在 H200、AMD MI300X 和 RTX 4070 GPU 上训练小型 LLM 的动手经验。完整详情请见我的简历：[简历](https://lzwjava.com/resume-en)。
+A full-stack engineer with 12 years of experience (Android, iOS, backend, frontend, machine
+learning & big data), plus hands-on experience training small LLMs on H200, AMD MI300X, and
+RTX 4070 GPUs. See my resume for the full details: [resume](https://lzwjava.com/resume-en).
 
-通过我[简历](/assets/resume/Zhiwei.Li.Resume.pdf)中的任何渠道以及本网站底部的链接联系我。
+Reach out through any of the channels in my [resume](/assets/resume/Zhiwei.Li.Resume.pdf) and the
+links at the bottom of this site.
