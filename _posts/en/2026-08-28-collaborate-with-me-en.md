@@ -67,6 +67,33 @@ For LLM & agent collaboration, I focus on problems I have hands-on evidence for 
 
 Based on my background (small-LLM training, GPU infra, agent CLIs), my top picks are **practical RAG + vector retrieval for agent memory**, **autonomous coding agents**, and **efficient training/inference** on consumer GPUs.
 
+### Private Model Deployment for Mid-Size Companies
+
+If your company needs to run LLMs **fully on your own infrastructure** — behind your firewall,
+with no data leaving your network — I can set that up end to end. This is aimed at **mid-size
+companies** that have real data-sensitivity, compliance, or sovereignty requirements and cannot
+rely on public API providers.
+
+- **Latest open-source models** — deploy and serve current DeepSeek, GLM (Zhipu), Kimi (Moonshot),
+  Llama, and Mistral family models on your own GPU nodes.
+- **Turnkey serving stack** — vLLM / SGLang inference engines, paged KV-cache, continuous batching,
+  quantization (AWQ / GPTQ / INT8), and OpenAI-compatible APIs so your existing apps work
+  unchanged.
+- **Right-sized hardware planning** — GPU selection (A100 / H100 / MI300X / RTX-class),
+  multi-node topology, VRAM-budget math, and cost-per-token estimates before you buy anything.
+- **Private & secure by default** — on-prem or private-cloud deployment, no traffic to external
+  endpoints, full control of weights, prompts, and logs.
+- **Production hardening** — monitoring, load balancing, autoscaling, fallback, rate limiting,
+  and CI/CD for model upgrades so you can swap in the next DeepSeek / GLM / Kimi release safely.
+- **RAG & fine-tuning on top** — connect the private endpoint to your internal knowledge base,
+  or fine-tune a model on in-house data so the deployment is actually useful to your business.
+
+This is a good fit for mid-size teams (say 50–500 employees) in regulated industries — finance,
+healthcare, legal, government contractors, or any company that owns valuable proprietary data
+and wants the leverage of a strong LLM without handing it to a third party. I scope the hardware,
+stand up the serving stack, and hand over a documented, upgradeable system your own team can
+operate after I leave.
+
 ### How I Like To Work
 
 - **Prefer startups or simple organizations with a clear corporate brand** — smaller teams with clear ownership.
