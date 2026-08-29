@@ -30,7 +30,7 @@ or anything simple and repetitive, or legacy code maintenance — such projects 
 - My technical taste and experience are senior — I put forward strong opinions on how to build
   things.
 - Unless the collaborator clearly has **better technical experience than me**, the technical
-  direction is decided by me, and my opinion should be **dominant** in our collaboration.
+  direction is decided by me, and my opinion should be **a bit dominant** in our collaboration.
 
 ### Rates
 
