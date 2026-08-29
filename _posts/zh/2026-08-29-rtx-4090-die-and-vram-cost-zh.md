@@ -53,6 +53,7 @@ NVIDIA 没有披露显存的合约价，但 GDDR6X 是最昂贵的消费级显�
 ---
 
 **参考资料：**
+
 - [Why Nvidia's RTX 4080, 4090 Cost so Damn Much — Tom's Hardware](https://www.tomshardware.com/news/why-nvidias-4080-4090-cost-so-damn-much)
 - [Spitballing Nvidia's RTX 5090 GPU Die Manufacturing Costs — Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/spitballing-nvidias-gb202-gpu-die-manufacturing-costs-die-could-cost-as-little-as-usd290-to-make)
 - [RTX 4090 Doesn't Max-Out AD102 — TechPowerUp](https://www.techpowerup.com/299091/nvidia-rtx-4090-doesnt-max-out-ad102-ample-room-left-for-future-rtx-4090-ti)

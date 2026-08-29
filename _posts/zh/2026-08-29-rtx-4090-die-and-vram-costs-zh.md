@@ -36,7 +36,7 @@ RTX 4090 搭载 24 GB GDDR6X 显存，采用 384-bit 位宽接口，频率 21 Gb
 ### 💰 物料清单总估算
 
 | 组件 | 美元 | 人民币 |
-|---|---|---|
+| --- | --- | --- |
 | AD102 GPU 核心 | ~$175–$200 | ~¥1,270–¥1,450 |
 | 24 GB GDDR6X 显存 | ~$190–$240 | ~¥1,380–¥1,740 |
 | 电路板、供电模块、散热、接口 | ~$80–$150 | ~¥580–¥1,090 |
@@ -53,6 +53,7 @@ RTX 4090 搭载 24 GB GDDR6X 显存，采用 384-bit 位宽接口，频率 21 Gb
 ---
 
 **参考来源：**
+
 - [为何英伟达 RTX 4080、4090 成本如此之高 — Tom's Hardware](https://www.tomshardware.com/news/why-nvidias-4080-4090-cost-so-damn-much)
 - [估算英伟达 RTX 5090 GPU 核心制造成本 — Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/spitballing-nvidias-gb202-gpu-die-manufacturing-costs-die-could-cost-as-little-as-usd290-to-make)
 - [RTX 4090 未完全解锁 AD102 核心 — TechPowerUp](https://www.techpowerup.com/299091/nvidia-rtx-4090-doesnt-max-out-ad102-ample-room-left-for-future-rtx-4090-ti)

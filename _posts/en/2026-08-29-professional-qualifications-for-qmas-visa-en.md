@@ -22,7 +22,7 @@ Here is the official definition and scope:
 **In practice, this includes things like:**
 
 | Type | Examples |
-|------|---------|
+| ------ | --------- |
 | Chartered/licensed professional designations | CPA, CFA, ACCA, PMP, FRM |
 | Engineering certifications | PE (Professional Engineer), CEng |
 | Legal qualifications | Bar admission, Solicitor qualification |
@@ -30,6 +30,7 @@ Here is the official definition and scope:
 | Architecture/surveying designations | RIBA, RICS |
 
 **Key rules to keep in mind:**
+
 - Only include qualifications **at college/university level or above** — do not list short courses, high school-level training, or basic trade certificates
 - A professional **membership** counts only if its entry requirement is a bachelor's degree or higher
 - The awarding body must be **nationally or internationally recognised**
@@ -39,5 +40,6 @@ So essentially, "Professional Qualification" covers your **formal credentials fr
 ---
 
 **References:**
+
 - [QMAS Guidance Notes – Hong Kong Immigration Department (ID(E)982)](https://www.immd.gov.hk/pdforms/id(e)982.pdf)
 - [QMAS FAQ – Immigration Department](https://www.immd.gov.hk/eng/faq/QMAS.html)

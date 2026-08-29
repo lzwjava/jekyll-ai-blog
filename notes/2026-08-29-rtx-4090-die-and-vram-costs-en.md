@@ -36,7 +36,7 @@ The RTX 4090 carries 24 GB of GDDR6X on a 384-bit interface at 21 Gbps (~1 TB/s 
 ### 💰 Full BOM Estimate
 
 | Component | USD | CNY |
-|---|---|---|
+| --- | --- | --- |
 | AD102 GPU Die | ~$175–$200 | ~¥1,270–¥1,450 |
 | 24 GB GDDR6X VRAM | ~$190–$240 | ~¥1,380–¥1,740 |
 | PCB, VRMs, cooling, connectors | ~$80–$150 | ~¥580–¥1,090 |
@@ -53,6 +53,7 @@ The ~$450–$600 manufacturing cost vs. a $1,600–$2,800 retail price reflects 
 ---
 
 **References:**
+
 - [Why Nvidia's RTX 4080, 4090 Cost so Damn Much — Tom's Hardware](https://www.tomshardware.com/news/why-nvidias-4080-4090-cost-so-damn-much)
 - [Spitballing Nvidia's RTX 5090 GPU Die Manufacturing Costs — Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/spitballing-nvidias-gb202-gpu-die-manufacturing-costs-die-could-cost-as-little-as-usd290-to-make)
 - [RTX 4090 Doesn't Max-Out AD102 — TechPowerUp](https://www.techpowerup.com/299091/nvidia-rtx-4090-doesnt-max-out-ad102-ample-room-left-for-future-rtx-4090-ti)

@@ -38,7 +38,7 @@ NVIDIA does not disclose memory contract pricing, but GDDR6X is among the most e
 ### 💰 Full Picture (Estimated BOM)
 
 | Component | Estimated Cost |
-|---|---|
+| --- | --- |
 | AD102 GPU Die | ~$175–$200 |
 | 24 GB GDDR6X VRAM | ~$190–$240 |
 | PCB, VRMs, cooling, connectors | ~$80–$150 |
@@ -53,6 +53,7 @@ So the ~$450–$600 in manufacturing cost vs. a $1,600–$2,800 retail price ref
 ---
 
 **References:**
+
 - [Why Nvidia's RTX 4080, 4090 Cost so Damn Much — Tom's Hardware](https://www.tomshardware.com/news/why-nvidias-4080-4090-cost-so-damn-much)
 - [Spitballing Nvidia's RTX 5090 GPU Die Manufacturing Costs — Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/spitballing-nvidias-gb202-gpu-die-manufacturing-costs-die-could-cost-as-little-as-usd290-to-make)
 - [RTX 4090 Doesn't Max-Out AD102 — TechPowerUp](https://www.techpowerup.com/299091/nvidia-rtx-4090-doesnt-max-out-ad102-ample-room-left-for-future-rtx-4090-ti)

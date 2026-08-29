@@ -18,7 +18,7 @@ type: note
 ### 📦 Xianyu (闲鱼) Second-Hand RTX 4090 Prices (2026)
 
 | Condition | Price (CNY) | Price (USD approx.) |
-|---|---|---|
+| --- | --- | --- |
 | 90%+ new, working, standard | ¥11,000–¥13,000 | ~$1,520–$1,800 |
 | Good used, working | ¥9,000–¥11,000 | ~$1,240–$1,520 |
 | Broken / faulty card ("坏卡") | ¥3,000–¥6,000 | ~$415–$830 |
@@ -38,6 +38,7 @@ Here's the math you need to do before buying:
 > **Max Bid = (Working card value × repair success chance) − repair cost − your time**
 
 Using realistic numbers:
+
 - Working 4090 on Xianyu: ~¥11,000–¥13,000
 - Typical repair cost (BGA reflow, VRAM replacement, etc.): ¥500–¥2,500
 - Realistic repair success rate for random broken cards: **30–50%**
@@ -45,7 +46,7 @@ Using realistic numbers:
 So a **reasonable buy price for a broken 4090** is roughly:
 
 | Fault Type | Acceptable Buy Price | Why |
-|---|---|---|
+| --- | --- | --- |
 | Soft fault (driver crash, no display) | ¥5,000–¥7,000（~$690–$970） | High repair chance, low cost |
 | GPU die fault (dead core) | ¥2,000–¥4,000（~$275–$550） | BGA reball needed, expensive |
 | VRAM fault only | ¥3,000–¥5,000（~$415–$690） | Replaceable, but requires skilled tech |
@@ -69,6 +70,7 @@ A seller was also caught buying a broken 4090 (originally purchased for ¥15,799
 Common traps on Xianyu include: GPU die swapped out, VRAM modified or replaced with fake chips, burned power connector that has been poorly repaired, and cards sold without original purchase receipts that make warranty claims impossible.
 
 Additionally:
+
 - Price suspiciously low (below ¥3,000 for a "complete" broken card) — likely stripped
 - Seller refuses video call inspection
 - Anti-tamper stickers look too perfect on a "broken" card — could be re-sealed
@@ -79,6 +81,7 @@ Additionally:
 ### ✅ Bottom Line
 
 For **赌卡** (broken card gambling) to make financial sense on a 4090:
+
 - Only go below **¥5,000（~$690）** for unknown faults
 - Only go below **¥3,000（~$415）** if the fault is confirmed severe (dead die)
 - Always demand a **live video of the card** showing the actual die and VRAM chips before paying
@@ -88,6 +91,7 @@ For **赌卡** (broken card gambling) to make financial sense on a 4090:
 ---
 
 **References:**
+
 - [4090显卡价格全解析 — 购物易](https://www.gouwuyi.com/24610.html)
 - [闲鱼买到的RTX 4090竟然是3090改装的 — 腾讯新闻](https://news.qq.com/rain/a/20250327A054UF00)
 - [RTX 4090被维修员忽悠 — 腾讯新闻](https://news.qq.com/rain/a/20250317A05YKZ00)
