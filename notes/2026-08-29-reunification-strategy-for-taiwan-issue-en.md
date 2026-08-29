@@ -86,7 +86,7 @@ The struggle for reunification is a process of continuously fighting against "Ta
 ### 🔗 Key Connections to Other Concepts
 
 | Concept | Connection |
-|---------|-----------|
+| --------- | ----------- |
 | 中华民族伟大复兴 | Reunification is **必然要求** of rejuvenation |
 | 一国两制 | The **framework/model** for reunification |
 | 九二共识 | The **political foundation** of cross-strait talks |
@@ -109,6 +109,7 @@ The struggle for reunification is a process of continuously fighting against "Ta
 ---
 
 **References:**
+
 - [新时代党解决台湾问题的总体方略 — 厦门大学](https://news.xmu.edu.cn/info/1012/423861.htm)
 - [台湾问题与新时代中国统一事业白皮书 — 国务院台办](https://gm.china-embassy.gov.cn/chn/sgxw/202208/P020220810848982066702.pdf)
 - [20th Party Congress Report on Taiwan — 共产党员网](https://www.12371.cn/2023/04/13/ARTI1681372010284594.shtml)

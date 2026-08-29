@@ -34,7 +34,7 @@ In simple terms: without controlling your own technology, you can be "strangled"
 Xi Jinping proposed "坚持四个面向" — constantly advancing into the breadth and depth of science and technology:
 
 | # | Chinese | Meaning |
-|---|---------|---------|
+| --- | --------- | --------- |
 | 1 | 面向世界科技前沿 | Toward the world's scientific frontiers |
 | 2 | 面向经济主战场 | Toward the main economic battlefield |
 | 3 | 面向国家重大需求 | Toward major national needs |
@@ -113,7 +113,7 @@ Original and disruptive scientific and technological innovation is the key for C
 ### 🔗 Connections to Other Course Concepts
 
 | Concept | Connection |
-|---------|-----------|
+| --------- | ----------- |
 | 创新发展 | 科技自立自强 is **its core implementation** |
 | 新发展格局 | 科技自立自强 makes domestic circulation **self-sustaining** |
 | 新质生产力 | 科技自立自强 is the **engine** of new productive forces |
@@ -139,6 +139,7 @@ Original and disruptive scientific and technological innovation is the key for C
 ---
 
 **References:**
+
 - [加快实现高水平科技自立自强 — 人民网理论频道](http://theory.people.com.cn/n1/2025/1125/c40531-40610868.html)
 - [四个面向与科技强国建设 — 新华社](https://news.sina.com.cn/gov/xlxw/2026-07-08/doc-inihaicz1469861.shtml)
 - [新型举国体制赋能科技创新 — 全国政协](http://www.cppcc.gov.cn/zxww/2025/03/07/ARTI1741328445234656.shtml)
