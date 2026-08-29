@@ -46,6 +46,8 @@ Bought broken GPUs from the second-hand market (**Quadro 401 / 2000 / 4000**, et
 
 ![Broken GPUs from the second-hand market — Quadro teardown collection](/assets/images/ai-portfolio/gpu-teardown-collection.jpg)
 
+![GPU repair workbench — diagnosing and reworking broken cards](/assets/images/ai-portfolio/gpu-repair.jpg)
+
 ---
 
 ### 🏋️ Training Run Summary
