@@ -24,7 +24,7 @@ type: note
 ## CPU 选项（LGA2011-3）
 
 | CPU | 核心/线程 | 基础/加速频率 | 备注 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Xeon E5-2678 v3** | 12C/24T | 2.5/3.3GHz | 最受欢迎的经济型选择 |
 | **Xeon E5-2696 v3** | 18C/36T | 2.3/3.8GHz | 性价比之王 |
 | **Xeon E5-2696 v4** | 22C/44T | 2.2/3.6GHz | 高端，价格较高 |
@@ -35,7 +35,7 @@ type: note
 ## X99 与 Dell 5050 对比
 
 | 特性 | Dell 5050 (Q270) | X99E (LGA2011-3) |
-|---|---|---|
+| --- | --- | --- |
 | **最大核心数** | 4C/8T | 最高 22C/44T |
 | **内存通道** | 双通道 | **四通道** |
 | **最大内存** | 64GB DDR4 | **128GB 以上 DDR4** |
@@ -49,6 +49,7 @@ type: note
 ---
 
 ## ✅ X99 优势
+
 - **海量核心数**，适合渲染、转码、虚拟机
 - **全尺寸 ATX 主板** — 任何显卡都能装，不受半高（low-profile）限制
 - **四通道内存** = 带宽大幅提升
@@ -56,6 +57,7 @@ type: note
 - 入门成本低（E5-2678 v3 + X99 主板总共约 80–120 美元）
 
 ## ⚠️ X99 劣势
+
 - **高功耗** — 整机功耗预计 200–300W
 - **架构较旧** — 不支持 PCIe 4.0，单核性能低于现代芯片
 - **无核显** — 必须搭配独立显卡
@@ -67,7 +69,7 @@ type: note
 ## 谁适合选择 X99？
 
 | 用例 | 推荐 |
-|---|---|
+| --- | --- |
 | 办公 / 浏览网页 | ❌ 性能过剩 — 继续用 Dell 5050 |
 | 视频编辑 / 渲染 | ✅ X99 轻松胜出 |
 | 运行虚拟机 / 服务器 | ✅ X99 非常出色 |
@@ -83,6 +85,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [X99 Xeon E5 v3 Buyer's Guide (ServeTheHome)](https://www.servethehome.com/buyers-guides/top-hardware-components-for-home-lab-servers/)
 - [LGA2011-3 CPU Benchmark Hierarchy](https://www.cpubenchmark.net/compare/)
 - [E5-2678 v3 vs E3-1240 v5 Comparison](https://www.cpubenchmark.net/compare/Intel-Xeon-E5-2678-v3-vs-Intel-Xeon-E3-1240-v5/2927vs2770)

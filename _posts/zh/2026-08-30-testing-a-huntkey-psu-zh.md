@@ -18,6 +18,7 @@ type: note
 ---
 
 ### ⚠️ 安全第一
+
 - 通电时切勿触碰任何裸露的引脚。
 - 不要无人看管已短接的 PSU。
 - 在插入或取出回形针之前，务必先拔掉交流电源线。
@@ -59,6 +60,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [NZXT：测试你的 PSU（Paperclip 测试）](https://support.nzxt.com/hc/en-us/articles/1260802863490-Testing-your-Power-Supply-Unit-Paperclip-Test)
 - [Corsair：如何测试 PSU](https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/how-to-test-a-psu-power-supply-unit/)
 - [Tech-Insider：如何测试电源（2026）](https://tech-insider.org/how-to-test-a-power-supply-2026/)

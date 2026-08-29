@@ -18,6 +18,7 @@ type: note
 ---
 
 **通断（蜂鸣）模式的作用：**
+
 - 该模式会在两支表笔之间施加一个微小电流
 - 如果两点之间的电阻**非常低（通常 < 30–50Ω）**，万用表会**发出蜂鸣声**
 - 这确认了两点之间存在**电气连接**
@@ -27,7 +28,7 @@ type: note
 **在 GPU 板靠近 HDMI 端口的位置，蜂鸣声可能表示：**
 
 | 场景 | 含义 | 正常还是异常？ |
-|---|---|---|
+| --- | --- | --- |
 | 触碰相互连通的 **GND 焊点** | 正常的地网络 | ✅ 正常 |
 | 触碰**同一走线/网络上的两个点** | 它们共享同一电路路径 | ✅ 正常 |
 | 触碰 **HDMI 引脚 → 附近的旁路电容** | 该电容位于该信号线上 | ✅ 正常 |
@@ -53,6 +54,7 @@ type: note
 4. **期望有蜂鸣声却没有** = 走线断裂或焊盘脱落（断路）
 
 参考资源：
+
 - [How to Use Continuity Mode on a Multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/continuity)
 - [Using a Multimeter for PCB Fault Finding](https://www.electroschematics.com/using-multimeter-for-pcb-fault-finding/)
 - [GPU Repair – Short Circuit Detection Guide](https://www.youtube.com/results?search_query=gpu+repair+short+circuit+multimeter+continuity)

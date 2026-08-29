@@ -18,6 +18,7 @@ The 睿智 300S is a budget ATX PSU (rated ~200W). Since you already have the co
 ---
 
 ### ⚠️ Safety First
+
 - Never touch any exposed pins while the PSU is powered on.
 - Don't leave a jumpered PSU running unattended.
 - Always unplug the AC cord **before** inserting or removing the paperclip.
@@ -39,7 +40,7 @@ A dedicated PSU tester automates the paperclip test and adds a quick readout of 
 If the fan spins but you still want to verify voltage output, use a multimeter set to DC voltage. Probe the output connectors (e.g., a Molex or SATA power plug) against ground (black wire). Expected values:
 
 | Rail | Wire Color | Expected Voltage |
-|------|-----------|-----------------|
+| ------ | ----------- | ----------------- |
 | +12V | Yellow | 11.4V – 12.6V |
 | +5V | Red | 4.75V – 5.25V |
 | +3.3V | Orange | 3.14V – 3.47V |
@@ -49,7 +50,7 @@ If the fan spins but you still want to verify voltage output, use a multimeter s
 ### Quick Summary
 
 | Test | Cost | What it tells you |
-|------|------|------------------|
+| ------ | ------ | ------------------ |
 | Paperclip | Free | Can it power on at all? |
 | PSU Tester | ~$15 | Are all voltage rails present? |
 | Multimeter | ~$15–30 | Are voltages within spec? |
@@ -59,6 +60,7 @@ If none of the fans kick on after the paperclip test, the PSU is at fault. If th
 ---
 
 **References:**
+
 - [NZXT: Testing your PSU (Paperclip Test)](https://support.nzxt.com/hc/en-us/articles/1260802863490-Testing-your-Power-Supply-Unit-Paperclip-Test)
 - [Corsair: How to Test a PSU](https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/how-to-test-a-psu-power-supply-unit/)
 - [Tech-Insider: How to Test a Power Supply (2026)](https://tech-insider.org/how-to-test-a-power-supply-2026/)

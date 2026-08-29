@@ -18,6 +18,7 @@ Answer:
 ---
 
 **What Continuity Mode (蜂鸣模式) Does:**
+
 - It sends a small current between the two probes
 - If resistance between the two points is **very low (typically < 30–50Ω)**, it **beeps**
 - This confirms the two points are **electrically connected**
@@ -27,7 +28,7 @@ Answer:
 **On a GPU board near the HDMI port, a beep could mean:**
 
 | Scenario | Meaning | Good or Bad? |
-|---|---|---|
+| --- | --- | --- |
 | Touching **GND solder points** that are all connected | Normal ground network | ✅ Normal |
 | Touching **two points on the same trace/net** | They share the same circuit path | ✅ Normal |
 | Touching **HDMI pin → nearby bypass capacitor** | Capacitor is on that signal line | ✅ Normal |
@@ -53,6 +54,7 @@ Answer:
 4. **No beep where you expect one** = broken trace or lifted pad (断路)
 
 References:
+
 - [How to Use Continuity Mode on a Multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/continuity)
 - [Using a Multimeter for PCB Fault Finding](https://www.electroschematics.com/using-multimeter-for-pcb-fault-finding/)
 - [GPU Repair – Short Circuit Detection Guide](https://www.youtube.com/results?search_query=gpu+repair+short+circuit+multimeter+continuity)

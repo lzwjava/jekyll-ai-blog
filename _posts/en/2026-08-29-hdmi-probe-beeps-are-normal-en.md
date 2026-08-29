@@ -38,7 +38,7 @@ HDMI Port
 **What the Pattern Tells You:**
 
 | Result | Meaning |
-|---|---|
+| --- | --- |
 | **Beep** | That point shares the same electrical net as your HDMI probe point |
 | **No beep** | That point belongs to a **different** net, isolated from HDMI |
 | **Beeps everywhere** | Possible **GND short** — almost everything connects to ground |
@@ -49,6 +49,7 @@ HDMI Port
 **Think of it Like a Map:**
 
 > Imagine the HDMI port as a **city**. The copper traces are **roads**.
+>
 > - Points that **beep** = locations connected by roads to that city
 > - Points that **don't beep** = different cities, no road connection
 
@@ -70,6 +71,7 @@ HDMI Port
 4. GND pins on HDMI **should beep** to GND — that is normal
 
 References:
+
 - [Understanding PCB Nets and Traces](https://resources.altium.com/p/what-is-a-net-in-pcb-design)
 - [How to Find Short Circuits on a PCB with a Multimeter](https://www.electroschematics.com/using-multimeter-for-pcb-fault-finding/)
 - [GPU Board Repair – Continuity Testing Basics](https://www.youtube.com/results?search_query=gpu+pcb+repair+continuity+test+hdmi)

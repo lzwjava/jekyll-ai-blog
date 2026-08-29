@@ -24,7 +24,7 @@ Without the monitor, the value proposition changes significantly.
 ## Direct Price Comparison
 
 | Item | Dell 5050 | X99E |
-|---|---|---|
+| --- | --- | --- |
 | **Price** | 565 CNY | 780 CNY |
 | **Price Difference** | — | +215 CNY more |
 | **Monitor** | ❌ | ❌ |
@@ -39,6 +39,7 @@ Without the monitor, the value proposition changes significantly.
 ## The Core Problem at 780 CNY
 
 For context, on Chinese second-hand markets (闲鱼):
+
 - X99 board + E5-2678 v3 CPU alone: **~300–400 CNY**
 - E5-2673 v3 CPU alone: **~80–120 CNY**
 - 32GB DDR3L ECC RAM: **~150–200 CNY**
@@ -64,7 +65,8 @@ So 780 CNY is **at the upper edge** of fair market value — not a bargain.
 
 > **Borderline deal without the monitor.** At 780 CNY it's not bad, but not exciting either. You're paying near market rate for aging parts.
 
-### Recommendations:
+### Recommendations
+
 - **Negotiate down to 600–650 CNY** → becomes a good deal
 - **At 780 CNY** → only worth it if you need the 12-core CPU specifically for rendering/VMs
 - **For pure office use** → Dell 5050 at 565 CNY is better value per yuan
@@ -73,6 +75,7 @@ So 780 CNY is **at the upper edge** of fair market value — not a bargain.
 ---
 
 **References:**
+
 - [闲鱼 X99 Platform Pricing Trends](https://www.xianyu.com)
 - [E5-2673 v3 vs E3-1240 v5 Benchmark](https://www.cpubenchmark.net/compare/Intel-Xeon-E5-2673-v3-vs-Intel-Xeon-E3-1240-v5/2927vs2770)
 - [X99 Budget Build Guide 2024](https://www.reddit.com/r/buildapc/comments/budget_x99)

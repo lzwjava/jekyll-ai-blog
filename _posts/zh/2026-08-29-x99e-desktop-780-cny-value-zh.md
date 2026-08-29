@@ -18,7 +18,7 @@ type: note
 ## 图片中的规格
 
 | 组件 | 详情 |
-|---|---|
+| --- | --- |
 | **平台** | Intel X99E（QM57芯片组） |
 | **CPU** | Xeon E5-2673 v3 @ 2.40GHz，**12核** |
 | **内存** | 32GB 多比特 ECC DDR3L 1600MHz（16GB × 2） |
@@ -33,7 +33,7 @@ type: note
 ## 与戴尔5050（565元）对比
 
 | 特性 | 戴尔5050 | **X99E（本商品）** |
-|---|---|---|
+| --- | --- | --- |
 | **价格** | 565元 | 780元 |
 | **CPU** | 4核8线程 Xeon E3-1240 v5 | **12核24线程 Xeon E5-2673 v3** |
 | **CPU跑分** | 261,261 | **345,392** |
@@ -70,6 +70,7 @@ type: note
 > **780元且包含23.1英寸显示器，性价比极高。** 仅显示器二手价值约300–400元。实际上相当于以380–480元购得该X99系统，对于12核Xeon加32GB内存来说堪称超值。显卡后续需要升级，但其余配置在办公、生产力、轻度开发或虚拟机场景下均表现扎实。
 
 ### 升级路径
+
 1. **短期：** 直接用于办公/生产力
 2. **显卡升级：** 安装一张廉价RX 6400或GTX 1060（二手约200–300元），图形性能大幅提升
 3. **存储：** 按需添加第二块SSD或HDD
@@ -79,6 +80,7 @@ type: note
 ---
 
 **参考：**
+
 - [Xeon E5-2673 v3规格](https://ark.intel.com/content/www/us/en/ark/products/83352/intel-xeon-processor-e5-2673-v3-30m-cache-2-40-ghz.html)
 - [AMD Radeon HD 6700系列评测](https://www.techpowerup.com/gpu-specs/radeon-hd-6700-series.c3396)
 - [X99平台购买指南](https://www.reddit.com/r/buildapc/comments/x99guide)

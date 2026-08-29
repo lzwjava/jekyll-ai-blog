@@ -34,7 +34,7 @@ HDMI 端口
 **这种模式告诉你的信息：**
 
 | 结果 | 含义 |
-|---|---|
+| --- | --- |
 | **会响** | 该点与你的 HDMI 探针点属于同一个电气网络 |
 | **不响** | 该点属于**另一个**网络，与 HDMI 隔离 |
 | **处处都响** | 可能存在 **GND 短路** — 几乎所有东西都连接到地 |
@@ -45,6 +45,7 @@ HDMI 端口
 **把它想象成一张地图：**
 
 > 把 HDMI 端口想象成一个**城市**。铜走线就是**道路**。
+>
 > - **会响**的点 = 通过道路连接到此城市的位置
 > - **不响**的点 = 不同的城市，没有道路连接
 
@@ -66,6 +67,7 @@ HDMI 端口
 4. HDMI 上的 GND 引脚**应与 GND 导通** — 这是正常的
 
 参考资料：
+
 - [了解 PCB 网络和走线](https://resources.altium.com/p/what-is-a-net-in-pcb-design)
 - [如何用万用表查找 PCB 上的短路](https://www.electroschematics.com/using-multimeter-for-pcb-fault-finding/)
 - [GPU 板维修 – 通断测试基础](https://www.youtube.com/results?search_query=gpu+pcb+repair+continuity+test+hdmi)
