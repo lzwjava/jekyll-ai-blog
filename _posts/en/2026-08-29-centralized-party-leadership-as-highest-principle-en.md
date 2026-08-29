@@ -75,12 +75,13 @@ This is why the "Two Establishments" (两个确立) are said to have "decisive s
 These three are the **practical requirements** of upholding Party Central Committee leadership — exams test them together constantly:
 
 | Concept | Chinese | Meaning |
-|---------|---------|---------|
+| --------- | --------- | --------- |
 | Four Consciousnesses | 四个意识 | Political, overall situation, core, and alignment consciousness |
 | Four Confidences | 四个自信 | Path, theory, system, culture |
 | Two Safeguards | 两个维护 | Safeguard Xi's core position; safeguard Party Central Committee authority |
 
 The logical chain is:
+
 ```
 党中央集中统一领导（最高原则）
         ↓
@@ -96,6 +97,7 @@ The logical chain is:
 ### 🏛️ Simple Analogy to Understand It
 
 > Think of the Party as a **large orchestra**:
+>
 > - Each instrument (ministry, region, army) plays its own part
 > - Without a **conductor** (Party Central Committee), every section plays on its own → chaos
 > - With a strong conductor → unified, powerful, beautiful performance
@@ -106,7 +108,7 @@ The logical chain is:
 ### ⚠️ Common Misunderstanding to Avoid
 
 | Wrong idea | Correct understanding |
-|-----------|----------------------|
+| ----------- | ---------------------- |
 | Centralized leadership = one person dictating | ❌ It is collective leadership with a stable core |
 | It contradicts democracy | ❌ It is democratic centralism — democracy within the Party feeds into centralized decision-making |
 | It only matters at the top | ❌ Every Party member and organization must submit to it in all circumstances |
@@ -128,6 +130,7 @@ The logical chain is:
 ---
 
 **References:**
+
 - [坚持党中央集中统一领导是最高政治原则 — 爱思想](https://www.aisixiang.com/data/178848.html)
 - [概论教材第三章重难点解析 — 镇江高专马克思主义学院](http://marx.zjc.edu.cn/view/uwduccdaf11p.htm)
 - [以坚持党中央集中统一领导为根本保证 — 人大马克思主义学院](https://marx.ruc.edu.cn/szkjszt/yjcg_sx/qklw_sx/c64dff75845d4e54b8103a686d63281d.htm)

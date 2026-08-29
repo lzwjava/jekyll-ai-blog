@@ -44,6 +44,7 @@ It is a highly integrated LPC Super I/O controller designed for PC and embedded 
 ---
 
 **References:**
+
 - [NCT6779D Features & Applications – Avaq](https://www.avaq.com/technology/nct6779d-nuvoton-datasheet-pdf-features-and-application)
 - [NCT6779D Datasheet – Datasheetgo](https://datasheetgo.com/NCT6779D-datasheet-pdf-788178/)
 - [Linux Kernel hwmon Driver for NCT6779D](https://www.kernel.org/doc/Documentation/hwmon/nct6775)

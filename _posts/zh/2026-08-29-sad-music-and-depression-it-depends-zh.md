@@ -34,6 +34,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Why do people with depression like listening to sad music? — BPS](https://www.bps.org.uk/research-digest/why-do-people-depression-listening-sad-music)
 - [Sad music and depression: does it help? — The Conversation](https://theconversation.com/sad-music-and-depression-does-it-help-66123)
 - [How Sad Music Can Help Lift Us Up — Utah State University](https://extension.usu.edu/mentalhealth/articles/how-sad-music-can-help-lift-us-up-when-we-are-feeling-down)

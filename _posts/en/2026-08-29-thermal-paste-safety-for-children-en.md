@@ -32,6 +32,7 @@ Thermal grease should be stored properly to prevent accidental ingestion, and in
 **If accidental ingestion happens:** Call Poison Control (1-800-222-1222 in the US) for guidance. Rinse the mouth with water but do not induce vomiting.
 
 **References:**
+
 - [Is Thermal Grease Toxic? – NFION](https://www.nfionthermal.com/Article/s297.html)
 - [What Should You Do if You Eat Thermal Grease? – NFION](https://www.nfionthermal.com/Article/s313.html)
 - [Is Thermal Paste Hazardous? – NFION](https://www.nfionthermal.com/Article/s427.html)

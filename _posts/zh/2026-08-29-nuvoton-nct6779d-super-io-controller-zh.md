@@ -44,6 +44,7 @@ NCT6779D 提供两个高速串行通信端口（UART），并支持 PC 兼容的
 ---
 
 **参考资料：**
+
 - [NCT6779D 特性与应用 – Avaq](https://www.avaq.com/technology/nct6779d-nuvoton-datasheet-pdf-features-and-application)
 - [NCT6779D 数据手册 – Datasheetgo](https://datasheetgo.com/NCT6779D-datasheet-pdf-788178/)
 - [NCT6779D 的 Linux 内核 hwmon 驱动](https://www.kernel.org/doc/Documentation/hwmon/nct6775)

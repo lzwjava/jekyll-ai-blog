@@ -44,6 +44,7 @@ So the short version: MSI isn't a GPU designer; Intel tried and found the barrie
 ---
 
 **References:**
+
 - [Nvidia's Moat Isn't Silicon — It's CUDA (Rayhan Press)](https://rayhanpress.com/nvidias-moat-isnt-silicon-its-cuda/)
 - [The CUDA Advantage: How Nvidia Came to Dominate AI (Medium)](https://medium.com/@aidanpak/the-cuda-advantage-how-nvidia-came-to-dominate-ai-and-the-role-of-gpu-memory-in-large-scale-model-e0cdb98a14a0)
 - [Nvidia Part 3: Software Moat and Competition (Punch Card Investor)](https://punchcardinvestor.substack.com/p/nvidia-part-3-beyond-gpus-software)

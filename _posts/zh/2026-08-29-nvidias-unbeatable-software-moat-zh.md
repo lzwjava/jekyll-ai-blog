@@ -44,6 +44,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [英伟达的护城河不是硅，而是CUDA（Rayhan Press）](https://rayhanpress.com/nvidias-moat-isnt-silicon-its-cuda/)
 - [CUDA优势：英伟达如何主导AI（Medium）](https://medium.com/@aidanpak/the-cuda-advantage-how-nvidia-came-to-dominate-ai-and-the-role-of-gpu-memory-in-large-scale-model-e0cdb98a14a0)
 - [英伟达第三部分：软件护城河与竞争（Punch Card Investor）](https://punchcardinvestor.substack.com/p/nvidia-part-3-beyond-gpus-software)

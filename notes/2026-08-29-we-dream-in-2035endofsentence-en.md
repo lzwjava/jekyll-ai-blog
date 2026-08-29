@@ -82,7 +82,7 @@ National security system and capacity will be significantly strengthened, and th
 ### 📊 Summary Table — All 8 Goals
 
 | # | Domain | Key Phrase |
-|---|--------|-----------|
+| --- | -------- | ----------- |
 | 1 | Economy | 经济实力大幅跃升，人均GDP迈上新台阶 |
 | 2 | Science & Tech | 高水平科技自立自强，建成科技强国 |
 | 3 | Rule of Law | **基本**建成法治国家、法治政府、法治社会 |
@@ -97,7 +97,7 @@ National security system and capacity will be significantly strengthened, and th
 ### 🔗 How It Connects to Other Concepts
 
 | Concept | Connection to 2035 Goals |
-|---------|--------------------------|
+| --------- | -------------------------- |
 | 中国式现代化 | 2035 goals are its **phase targets** |
 | 高质量发展 | Goal #1 economy is measured by quality, not just quantity |
 | 科技自立自强 | Directly = Goal #2 |
@@ -123,6 +123,7 @@ National security system and capacity will be significantly strengthened, and th
 ---
 
 **References:**
+
 - [准确把握到2035年我国发展的总体目标 — 共产党员网](https://www.12371.cn/2023/03/10/ARTI1678455708007808.shtml)
 - [如何理解到2035年我国发展的总体目标 — 共产党员网](https://www.12371.cn/2022/12/13/ARTI1670923800563470.shtml)
 - [党的二十大报告诞生记 — 文化和旅游部](https://www.mct.gov.cn/preview/special/xy20d/9671/202210/t20221026_936976.htm)

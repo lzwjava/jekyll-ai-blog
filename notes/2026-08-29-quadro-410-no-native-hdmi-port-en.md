@@ -25,5 +25,6 @@ So the card's two physical ports are **DVI-I** and **DisplayPort** only — HDMI
 ---
 
 **References:**
+
 - [NVIDIA Support – Connecting Quadro to HDMI](https://nvidia.custhelp.com/app/answers/detail/a_id/3567/~/how-to-connect-a-stereo-display-to-the-quadro-card-hdmi-port)
 - [PNY Quadro 410 Datasheet](https://www.azken.com/download/Nvidia_Quadro_410.pdf)

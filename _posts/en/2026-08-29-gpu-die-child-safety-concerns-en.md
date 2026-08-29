@@ -28,12 +28,14 @@ For a brief, casual finger touch — generally yes, it's not acutely dangerous. 
 Even if the chip itself doesn't immediately harm a finger, the danger is **hand-to-mouth transfer**. A child touching the chip and then putting fingers in their mouth could potentially ingest trace residues. All objects put into a child's mouth could be hazardous in terms of both physical trauma and toxic substance exposure.
 
 **Bottom line for parents:**
+
 - **Don't let children play with old GPU cards or electronics components.** They are not toys and are not designed or tested for child safety.
 - The chip itself is hard and too large to be swallowed, but the concern is residue transferring from fingers to mouth.
 - RoHS regulations do limit hazardous substances in consumer electronics sold in the US and EU, but older cards (pre-2006) may not comply. The Quadro 410 is a modern card and should be RoHS-compliant, which is reassuring — but caution is still warranted.
 - **Always wash hands** after handling any electronic components, and keep circuit boards away from young children entirely.
 
 **References:**
+
 - [Is Silicon Metal Safe to Touch? – Beifang Alloy](https://www.beifangalloy.com/is-silicon-metal-safe-to-touch-a-comprehensive-guide/)
 - [Reevaluating the Toxicity of Semiconductor Manufacturing – All About Circuits](https://www.allaboutcircuits.com/news/reevaluating-the-toxicity-of-semiconductor-manufacturing/)
 - [Health Hazards in the Microelectronics Industry – Science for the People](https://archive.scienceforthepeople.org/vol-17/v17n1-2/chips-falling-health-hazards-microelectronics-industry/)

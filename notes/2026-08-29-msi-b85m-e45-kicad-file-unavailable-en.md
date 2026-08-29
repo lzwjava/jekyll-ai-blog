@@ -31,7 +31,7 @@ What does exist publicly:
 **What you might actually be looking for — and where to find it:**
 
 | Goal | What to look for | Where |
-|---|---|---|
+| --- | --- | --- |
 | Repair / trace power rails | Boardview (`.BRD`) file | Badcaps.net, eevblog forums |
 | Understand circuit design | Schematic PDF | Badcaps.net schematic request threads |
 | Component locations | User manual with connector map | ManualsLib, MSI support page |

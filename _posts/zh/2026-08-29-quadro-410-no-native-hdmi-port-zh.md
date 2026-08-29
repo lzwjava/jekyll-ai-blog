@@ -25,5 +25,6 @@ Quadro 410 **没有**原生的 HDMI 端口。Quadro GPU 本身不配备原生 HD
 ---
 
 **参考来源：**
+
 - [NVIDIA 支持 – 将 Quadro 连接到 HDMI](https://nvidia.custhelp.com/app/answers/detail/a_id/3567/~/how-to-connect-a-stereo-display-to-the-quadro-card-hdmi-port)
 - [PNY Quadro 410 数据手册](https://www.azken.com/download/Nvidia_Quadro_410.pdf)

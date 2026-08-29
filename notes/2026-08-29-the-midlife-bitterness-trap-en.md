@@ -42,6 +42,7 @@ Importantly, bitterness isn't something you're born with — it's the result of 
 ---
 
 **References:**
+
 - [How People Become Bitter and Resentful](https://www.psychologytoday.com/us/articles/202311/how-people-become-bitter-and-resentful) — Psychology Today
 - [Life Satisfaction Is Low at 40, but U-Shaped So Will Rise Again](https://warwick.ac.uk/fac/soc/economics/news/2015/12/life_satisfaction_is_low_at_40_but_is_u_shaped_so_will_rise_again/) — University of Warwick
 - [30-Year-Old Crisis or 40-Year-Old Crisis?](https://mylifepsychologists.com.au/30-year-old-crisis-or-40-year-old-crisis-why-mental-health-often-shifts-in-mid-life/) — MyLife Psychologists

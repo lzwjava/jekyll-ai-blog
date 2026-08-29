@@ -26,5 +26,6 @@ In short, the card can drive **up to 2 monitors simultaneously** — one via DVI
 ---
 
 **References:**
+
 - [NVIDIA Quadro 410 Official Datasheet (PDF)](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 - [PNY Quadro 410 Datasheet](https://www.azken.com/download/Nvidia_Quadro_410.pdf)

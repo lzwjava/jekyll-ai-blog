@@ -42,6 +42,7 @@ This chip requires no additional drivers to function — however, the devices br
 ---
 
 **References:**
+
 - [ASM1083 Product Page – ASMedia Technology](https://www.asmedia.com.tw/product/E8AyQ44sX3zPbruF/2f2yq89xz7URBZqD.html)
 - [ASM1083 Datasheet Summary – Datasheetcafe](https://www.datasheetcafe.com/asm1083-datasheet-controller/)
 - [ASM1083 Chip Info – TheRetroWeb](https://theretroweb.com/chips/5897)

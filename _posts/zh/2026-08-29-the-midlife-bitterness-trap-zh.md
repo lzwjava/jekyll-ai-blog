@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [人是如何变得充满怨恨和不满的](https://www.psychologytoday.com/us/articles/202311/how-people-become-bitter-and-resentful) ——《今日心理学》
 - [40岁时生活满意度最低，但呈U型曲线，最终会回升](https://warwick.ac.uk/fac/soc/economics/news/2015/12/life_satisfaction_is_low_at_40_but_is_u_shaped_so_will_rise_again/) ——华威大学
 - [30岁危机还是40岁危机？](https://mylifepsychologists.com.au/30-year-old-crisis-or-40-year-old-crisis-why-mental-health-often-shifts-in-mid-life/) ——MyLife心理学家

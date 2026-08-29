@@ -28,12 +28,14 @@ type: note
 即使芯片本身不会立即伤害手指，风险在于**手到口的转移**。儿童触摸芯片后再将手指放入口中，可能摄入微量残留物。所有放入儿童口中的物品，在物理伤害和有毒物质暴露两方面都可能存在危险。
 
 **给家长的最终建议：**
+
 - **切勿让儿童玩耍旧显卡或电子元器件。** 它们并非玩具，也未经设计或测试以确保儿童安全。
 - 芯片本身坚硬且体积较大无法吞咽，但需关注残留物从手指到口腔的转移。
 - RoHS 法规确实限制了在美国和欧盟销售的消费电子产品中的有害物质，但较旧的显卡（2006年前）可能不合规。Quadro 410 属于较新显卡，应已符合 RoHS 要求，这令人放心——但仍需谨慎。
 - **接触任何电子元件后务必洗手**，并彻底让幼童远离电路板。
 
 **参考资料：**
+
 - [触摸硅金属安全吗？ – Beifang Alloy](https://www.beifangalloy.com/is-silicon-metal-safe-to-touch-a-comprehensive-guide/)
 - [重新评估半导体制造毒性 – All About Circuits](https://www.allaboutcircuits.com/news/reevaluating-the-toxicity-of-semiconductor-manufacturing/)
 - [微电子行业的健康危害 – Science for the People](https://archive.scienceforthepeople.org/vol-17/v17n1-2/chips-falling-health-hazards-microelectronics-industry/)

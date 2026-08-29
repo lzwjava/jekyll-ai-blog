@@ -26,5 +26,6 @@ NVIDIA Quadro 410 配备了两个显示接口：**1× DVI-I（单链路）** 和
 ---
 
 **参考资料：**
+
 - [NVIDIA Quadro 410 官方数据表（PDF）](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 - [PNY Quadro 410 数据表](https://www.azken.com/download/Nvidia_Quadro_410.pdf)

@@ -32,6 +32,7 @@ Thermal grease 应妥善存放，避免误食；在家庭环境中应放在儿�
 **如果不慎误食：** 请拨打 Poison Control（美国地区 1-800-222-1222）寻求指导。用水漱口，但不要催吐。
 
 **参考资料：**
+
 - [Is Thermal Grease Toxic? – NFION](https://www.nfionthermal.com/Article/s297.html)
 - [What Should You Do if You Eat Thermal Grease? – NFION](https://www.nfionthermal.com/Article/s313.html)
 - [Is Thermal Paste Hazardous? – NFION](https://www.nfionthermal.com/Article/s427.html)

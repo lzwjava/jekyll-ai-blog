@@ -15,12 +15,12 @@ type: note
 
 截至2026年，**四大全球倡议**是习近平在2021至2025年间提出的四项重大外交政策倡议的框架：
 
-| 倡议         | 英文                                | 年份 | 核心问题                                 |
+| 倡议 | 英文 | 年份 | 核心问题 |
 | ------------ | ----------------------------------- | ---: | ---------------------------------------- |
-| 全球发展倡议 | Global Development Initiative (GDI)  | 2021 | **世界应该如何发展？**                     |
-| 全球安全倡议 | Global Security Initiative (GSI)     | 2022 | **世界如何实现安全？**                     |
-| 全球文明倡议 | Global Civilization Initiative (GCI) | 2023 | **不同文明如何共存？**                     |
-| 全球治理倡议 | Global Governance Initiative (GGI)   | 2025 | **世界应该如何治理？**                     |
+| 全球发展倡议 | Global Development Initiative (GDI) | 2021 | **世界应该如何发展？** |
+| 全球安全倡议 | Global Security Initiative (GSI) | 2022 | **世界如何实现安全？** |
+| 全球文明倡议 | Global Civilization Initiative (GCI) | 2023 | **不同文明如何共存？** |
+| 全球治理倡议 | Global Governance Initiative (GGI) | 2025 | **世界应该如何治理？** |
 
 中国官方将其表述为一个相互关联的体系，涵盖**发展→安全→文明→治理**。（[中国外交][1]）
 
@@ -78,11 +78,11 @@ type: note
 
 其五项原则是：
 
-1.  **主权平等**
-2.  **国际法治**
-3.  **多边主义**
-4.  **以人民为中心**
-5.  **切实行动**
+1. **主权平等**
+2. **国际法治**
+3. **多边主义**
+4. **以人民为中心**
+5. **切实行动**
 
 既定目标是改革/完善国际治理体系，朝着中国所说的**更加公正合理的全球治理体系**迈进。（[国务院新闻办公室][4]）
 
@@ -148,7 +148,7 @@ type: note
 
 **全球治理倡议尤其重要**，因为它被明确视为补齐此前三项的第四块拼图。（[中国政府网][3]）
 
-### 参考：
+### 参考
 
 * [四大全球倡议——中国外交](https://cn.chinadiplomacy.org.cn/gdi/2026-03/04/content_118359437.shtml?utm_source=chatgpt.com)
 * [全球治理倡议——国务院新闻办公室](https://english.scio.gov.cn/m/pressroom/2026-07/14/content_118598508.html?utm_source=chatgpt.com)

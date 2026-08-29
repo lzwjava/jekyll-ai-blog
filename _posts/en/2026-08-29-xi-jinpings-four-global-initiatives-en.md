@@ -15,12 +15,12 @@ Answer:
 
 As of 2026, the **Four Global Initiatives** are a framework of four major foreign-policy initiatives proposed by Xi Jinping between 2021 and 2025:
 
-| Initiative | English                              | Year | Core question                                   |
+| Initiative | English | Year | Core question |
 | ---------- | ------------------------------------ | ---: | ----------------------------------------------- |
-| **全球发展倡议** | Global Development Initiative (GDI)  | 2021 | **How should the world develop?**               |
-| **全球安全倡议** | Global Security Initiative (GSI)     | 2022 | **How should the world achieve security?**      |
+| **全球发展倡议** | Global Development Initiative (GDI) | 2021 | **How should the world develop?** |
+| **全球安全倡议** | Global Security Initiative (GSI) | 2022 | **How should the world achieve security?** |
 | **全球文明倡议** | Global Civilization Initiative (GCI) | 2023 | **How should different civilizations coexist?** |
-| **全球治理倡议** | Global Governance Initiative (GGI)   | 2025 | **How should the world be governed?**           |
+| **全球治理倡议** | Global Governance Initiative (GGI) | 2025 | **How should the world be governed?** |
 
 China officially presents them as a connected system covering **development → security → civilization → governance**. ([China Diplomacy][1])
 
@@ -149,7 +149,7 @@ So conceptually:
 
 The **GGI is particularly significant** because it was explicitly presented as the fourth piece completing the earlier three. ([State Council of China][3])
 
-### References:
+### References
 
 * [Four Global Initiatives — China Diplomacy](https://cn.chinadiplomacy.org.cn/gdi/2026-03/04/content_118359437.shtml?utm_source=chatgpt.com)
 * [Global Governance Initiative — State Council Information Office](https://english.scio.gov.cn/m/pressroom/2026-07/14/content_118598508.html?utm_source=chatgpt.com)
