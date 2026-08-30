@@ -16,12 +16,14 @@ Answer:
 Yes, profoundly difficult. AI lowers certain barriers but doesn't remove the fundamental challenges:
 
 **What AI actually helps with**
+
 - Faster prototyping and code generation
 - Smaller teams can do more (1-2 engineers can build what once took 10)
 - Cheaper access to analytics, customer support, marketing copy
 - Democratizes expertise in law, finance, design to some degree
 
 **What remains brutally hard regardless of AI**
+
 - **Timing & luck** — Apple succeeded partly because Jobs launched the right product at the right cultural moment. AI can't manufacture that
 - **Distribution** — Getting people to actually use and pay for your product is still a human, sales, and network problem
 - **Capital** — Scaling hardware, manufacturing (in Apple's case), hiring, and infrastructure still requires enormous funding
@@ -39,6 +41,7 @@ If anything, AI raises the *competitive bar* because everyone gets the same prod
 > The bottleneck was never "can we build it?" — it was always "will enough people care, trust it, and pay for it at scale?"
 
 References:
+
 - [Why Most Startups Fail — CB Insights](https://www.cbinsights.com/research/report/startup-failure-reasons-top/)
 - [The AI Productivity Paradox for Startups — a16z](https://a16z.com/ai-and-the-future-of-startups/)
 - [What Makes Apple Apple — HBR](https://hbr.org/2012/08/what-makes-apple-apple)

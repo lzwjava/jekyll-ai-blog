@@ -36,6 +36,7 @@ type: note
 ---
 
 参考：
+
 - [成功后的自满风险 — 《哈佛商业评论》](https://hbr.org/2018/09/how-to-keep-learning-at-work-even-when-you-dont-have-time)
 - [卡罗尔·德韦克 — 成长型思维研究](https://www.mindsetonline.com)
 - [瑞安·霍利迪 — 《绝对自控》（书籍介绍）](https://ryanholiday.net/ego-is-the-enemy/)

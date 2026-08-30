@@ -36,6 +36,7 @@ The people who stay great for decades aren't the ones who were never proud — t
 ---
 
 References:
+
 - [The Danger of Complacency After Success — Harvard Business Review](https://hbr.org/2018/09/how-to-keep-learning-at-work-even-when-you-dont-have-time)
 - [Carol Dweck — Growth Mindset Research](https://www.mindsetonline.com)
 - [Ryan Holiday — Ego is the Enemy (book overview)](https://ryanholiday.net/ego-is-the-enemy/)
