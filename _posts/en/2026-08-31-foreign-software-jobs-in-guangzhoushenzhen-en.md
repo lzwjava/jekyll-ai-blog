@@ -49,6 +49,7 @@ In 2026, foreign investment in China is increasingly concentrated in high-tech m
 ---
 
 **References:**
+
 - [How to Find a Job in Shenzhen (2026 Guide)](https://hishenzhen.com/how-to-find-a-job-in-shenzhen/)
 - [Work Opportunities in Shenzhen for Foreigners](https://chinahrsolutions.com/2025/03/06/work-opportunities-in-chinas-silicon-valley-shenzhen-a-magnet-for-global-talent/)
 - [Foreign Companies in China: 2026 Overview](https://msadvisory.com/list-of-foreign-companies-operating-in-china/)

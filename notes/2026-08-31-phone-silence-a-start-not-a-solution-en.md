@@ -36,6 +36,7 @@ Silencing is a good start, but the most effective approach is **getting the phon
 ---
 
 **References:**
+
 - [Why Simply Putting Away Your Phone Won't Help You Focus – Neuroscience News](https://neurosciencenews.com/digital-distraction-psychology-28521/)
 - [Is Your Phone Silently Killing Your Productivity – Medium](https://irpathak.medium.com/is-your-phone-silently-killing-your-productivity-e794a2b3d0a8)
 - [Why Silent Mode Helps You Work More Efficiently – Liga.net](https://life.liga.net/en/poyasnennya/news/why-silent-mode-on-your-phone-helps-you-work-more-efficiently-what-are-the-health-benefits)

@@ -49,6 +49,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [如何在深圳找工作（2026年指南）](https://hishenzhen.com/how-to-find-a-job-in-shenzhen/)
 - [外国人在深圳的工作机会](https://chinahrsolutions.com/2025/03/06/work-opportunities-in-chinas-silicon-valley-shenzhen-a-magnet-for-global-talent/)
 - [在华外资公司：2026年概览](https://msadvisory.com/list-of-foreign-companies-operating-in-china/)

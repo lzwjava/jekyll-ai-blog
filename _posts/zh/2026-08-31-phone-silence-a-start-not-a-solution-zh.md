@@ -33,6 +33,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [为什么仅仅收起手机并不能帮你集中注意力 – Neuroscience News](https://neurosciencenews.com/digital-distraction-psychology-28521/)
 - [你的手机是否在悄悄扼杀你的生产力 – Medium](https://irpathak.medium.com/is-your-phone-silently-killing-your-productivity-e794a2b3d0a8)
 - [为什么静音模式能让你更高效地工作 – Liga.net](https://life.liga.net/en/poyasnennya/news/why-silent-mode-on-your-phone-helps-you-work-more-efficiently-what-are-the-health-benefits)

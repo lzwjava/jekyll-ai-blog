@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [一位家长的药物配方 – 《人类学新闻》](https://www.anthropology-news.org/articles/a-parents-formula-of-medicine/)
 - [中国父亲自制药物 – 《南华早报》](https://www.scmp.com/news/people-culture/social-welfare/article/3152336/chinese-father-could-not-find-drugs-treat-his)
 - [和元生物支持首项门克斯病基因治疗试验 – 《技术网络》](https://www.technologynetworks.com/biopharma/product-news/vectorbuilder-supports-first-gene-therapy-trial-for-menkes-disease-365027)

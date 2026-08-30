@@ -48,6 +48,7 @@ Xu accepts that the copper treatment can "only slow down the disease." Health au
 ---
 
 **References:**
+
 - [A Parent's Formula of Medicine – Anthropology News](https://www.anthropology-news.org/articles/a-parents-formula-of-medicine/)
 - [Chinese father makes own medicine – South China Morning Post](https://www.scmp.com/news/people-culture/social-welfare/article/3152336/chinese-father-could-not-find-drugs-treat-his)
 - [VectorBuilder Supports First Gene Therapy Trial for Menkes Disease – Technology Networks](https://www.technologynetworks.com/biopharma/product-news/vectorbuilder-supports-first-gene-therapy-trial-for-menkes-disease-365027)
