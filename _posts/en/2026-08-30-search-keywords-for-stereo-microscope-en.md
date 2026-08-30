@@ -18,8 +18,9 @@ type: note
 Here are the best search keywords to use on JD.com:
 
 **For electronics repair (best choice):**
+
 | Chinese Keyword | Meaning |
-|---|---|
+| --- | --- |
 | `体视显微镜` | Stereo microscope (the correct type) |
 | `维修显微镜` | Repair microscope |
 | `焊接显微镜` | Soldering microscope |
@@ -27,8 +28,9 @@ Here are the best search keywords to use on JD.com:
 | `三目体视显微镜` | Trinocular stereo microscope |
 
 **More specific searches:**
+
 | Chinese Keyword | Why useful |
-|---|---|
+| --- | --- |
 | `体视显微镜 7X-45X` | Specifies the right magnification range for electronics |
 | `连续变倍体视显微镜` | Zoom stereo microscope (continuous zoom) |
 | `上下光源体视显微镜` | Top + bottom light source (more versatile) |
@@ -36,6 +38,7 @@ Here are the best search keywords to use on JD.com:
 ---
 
 **Quick tip on what to look for in the listing:**
+
 - Magnification: **7X–45X** or **7X–50X**
 - Light: **上光源** (top/incident light) — essential for opaque PCBs
 - Working distance: at least **10cm+** so you can fit tools underneath

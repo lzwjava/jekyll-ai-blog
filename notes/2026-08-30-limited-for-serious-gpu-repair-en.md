@@ -20,6 +20,7 @@ type: note
 Here's the breakdown:
 
 **✅ What it gets right:**
+
 - It IS a **stereo microscope** (体视显微镜) — the correct *type* for electronics work
 - It has **built-in LED top light illumination**, which is essential for viewing opaque surfaces like PCBs
 - It has an **adjustable interpupillary distance** of 55–75mm for comfortable binocular viewing
@@ -28,7 +29,7 @@ Here's the breakdown:
 **⚠️ Where it falls short for GPU repair:**
 
 | Issue | Detail |
-|---|---|
+| --- | --- |
 | **Fixed 20X only** | The 20X version uses WF20X eyepieces × 2X objective = 40X total — but it's not a zoom; you're stuck at one magnification |
 | **No continuous zoom** | GPU repair benefits from being able to zoom in/out freely (7X–45X range) |
 | **Designed for children/students** | Marketed as a kids/student scope — build quality and optics reflect that |
@@ -37,7 +38,7 @@ Here's the breakdown:
 **Verdict by use case:**
 
 | Task | This scope OK? |
-|---|---|
+| --- | --- |
 | UNO card / Arduino soldering (hobby) | ✅ Yes, good enough |
 | Inspecting through-hole components | ✅ Fine |
 | GPU BGA chip rework / micro-soldering | ❌ Not ideal — need zoom + better optics |
@@ -51,5 +52,6 @@ These give you continuous zoom (7X–45X), a proper boom arm or post stand, and 
 ---
 
 **References:**
+
 - [AOMEKIE 20X/40X Stereo Microscope — Golyath](https://www.golyath.co.uk/products/aomekie-20x-40x-binocular-stereo-microscope-for-educational-and-research-use/)
 - [AOMEKIE 20X/40X on eBay](https://www.ebay.com/itm/AOMEKIE-20X-40X-Binocular-Stereo-Microscope-PCB-Solder-Mobile-Phone-Repair-Tool-/202998235525)

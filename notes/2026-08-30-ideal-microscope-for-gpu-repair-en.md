@@ -22,7 +22,7 @@ Here's a full breakdown:
 **✅ What makes it excellent for repair work:**
 
 | Feature | Why it matters |
-|---|---|
+| --- | --- |
 | **7–50X continuous zoom** | A range of 7–50X is ideal because it balances high magnification with enough physical space to use tools under the lens — you can zoom out to navigate the board and zoom in to inspect solder joints |
 | **Stereo / 体视 type** | Gives true 3D depth perception — essential for soldering and component placement |
 | **连续变倍 (continuous zoom)** | No fixed steps — smooth zoom exactly like professional repair shops use |
@@ -32,6 +32,7 @@ Here's a full breakdown:
 **Understanding the magnification numbers:**
 
 The "90倍" claim in the listing uses the 0.5X objective *inverted* logic — ignore that marketing number. What matters practically:
+
 - **Base setup (no aux lens):** 7X–45X, working distance ~100mm
 - **With 0.5X aux lens:** ~3.5X–22.5X, working distance ~160mm+ (more tool room)
 - The image quality with no extra lens and the 10X eyepieces is absolutely stunning, and the same can be said when using the 2X auxiliary lens
@@ -45,7 +46,7 @@ The "90倍" claim in the listing uses the 0.5X objective *inverted* logic — ig
 **Verdict:**
 
 | Use case | Rating |
-|---|---|
+| --- | --- |
 | GPU card inspection | ✅ Excellent |
 | PCB soldering / rework | ✅ Excellent |
 | Phone repair (SMD components) | ✅ Excellent |
@@ -57,5 +58,6 @@ This is a **solid buy** — the 7045 optical body is a well-established industry
 ---
 
 **References:**
+
 - [SZM7045 Stereo Microscope Review — EE Review](https://eereview.com/article/yuyao-dagong-instrument-szm7045-stereo-microscope-review)
 - [Trinocular Stereo Microscope Guide — TBK Laser](https://www.tbklasermachine.com/professional-trinocular-stereo-microscopes-optical-precision-for-electronics-and-inspection.html)

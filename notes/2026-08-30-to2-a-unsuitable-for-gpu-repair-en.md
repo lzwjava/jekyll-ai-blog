@@ -22,7 +22,7 @@ I couldn't find specific spec sheets for the exact **TO2-A** model — it appear
 This phrasing means it's a **hybrid** — trying to serve both biological microscopy AND stereo viewing. In practice, hybrids like this typically compromise on both:
 
 | Characteristic | What it likely means |
-|---|---|
+| --- | --- |
 | **生物 (biological)** | Has transmitted bottom light for slides — not needed for PCBs |
 | **体视 (stereo)** | Stereo-type viewing — good |
 | **多用 (multi-purpose)** | Jack of all trades, optimized for neither |
@@ -35,7 +35,7 @@ Phenix (凤凰光学) is actually a **legitimate, well-established Chinese optic
 **How it compares to the 博珂视觉 BK7045:**
 
 | | 凤凰 TO2-A | 博珂视觉 BK7045 |
-|---|---|---|
+| --- | --- | --- |
 | Purpose-built for repair | ❌ No (multi-purpose) | ✅ Yes |
 | Magnification range | Unknown (student spec) | 7–50X confirmed |
 | Build quality | Student/child grade | Repair-shop grade |
@@ -54,5 +54,6 @@ That's their actual repair/industrial stereo line — significantly better optic
 ---
 
 **References:**
+
 - [凤凰光学 体视显微镜产品线](https://www.phenixoptics.com.cn/Product/11292/List.html)
 - [江西凤凰 XTL-I 体视显微镜规格](https://www.optical17.com/old_version/product/tishixianweijing/phenix-xtl-i.html)

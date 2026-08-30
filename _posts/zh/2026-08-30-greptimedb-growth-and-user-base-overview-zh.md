@@ -47,6 +47,7 @@ GreptimeDB 是一个持续发展的项目，拥有活跃的开发者社区，但
 ---
 
 **参考文献：**
+
 - [GreptimeDB 2025 Roadmap Released](https://medium.com/@greptime/greptimedb-2025-roadmap-released-f768cbc7d5e9)
 - [GreptimeDB v1.0 GA Is Here](https://www.greptime.com/blogs/2026-04-14-greptimedb-v1-ga-release)
 - [Three Years in the Making — v1.0 Highlights](https://www.greptime.com/blogs/2025-11-05-greptimedb-v1-highlights)
