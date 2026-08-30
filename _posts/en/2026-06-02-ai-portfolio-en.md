@@ -44,9 +44,7 @@ Built my machine learning workstation in 2023 and have been training and learnin
 
 Bought broken GPUs from the second-hand market (**Quadro 401 / 2000 / 4000**, etc.), dismantled them, and studied the boards to understand the components — VRM circuitry (MOSFETs, inductors, capacitors), memory chip layout, and how each generation's architecture (Fermi → …) differs. Every PCB is a blueprint of engineering decisions.
 
-![Broken GPUs from the second-hand market — Quadro teardown collection](/assets/images/ai-portfolio/gpu-teardown-collection.jpg)
-
-![GPU repair workbench — diagnosing and reworking broken cards](/assets/images/ai-portfolio/gpu-repair.jpg)
+![Broken GPUs from the second-hand market — Quadro teardown, studying VRM circuitry and PCB architecture](/assets/images/ai-portfolio/gpu-teardown.jpg)
 
 ---
 

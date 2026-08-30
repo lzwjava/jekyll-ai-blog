@@ -44,9 +44,7 @@ translated: true
 
 从二手市场购买坏掉的GPU（**Quadro 401 / 2000 / 4000**等），拆解它们并研究电路板以了解组件——VRM电路（MOSFET、电感、电容）、内存芯片布局，以及每一代架构（Fermi → …）的不同之处。每一块PCB都是工程决策的蓝图。
 
-![来自二手市场的坏GPU——Quadro拆解收藏](/assets/images/ai-portfolio/gpu-teardown-collection.jpg)
-
-![GPU维修工作台——诊断和修复坏卡](/assets/images/ai-portfolio/gpu-repair.jpg)
+![来自二手市场的坏GPU——Quadro拆解，研究VRM电路和PCB架构](/assets/images/ai-portfolio/gpu-teardown.jpg)
 
 ---
 
