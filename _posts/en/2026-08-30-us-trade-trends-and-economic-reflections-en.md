@@ -58,7 +58,7 @@ In calendar year 2025, the U.S. collected $264 billion in customs duties — up 
 ### 💡 What It Reflects About the Economy
 
 | Signal | Interpretation |
-|---|---|
+| --- | --- |
 | Persistent ~$900B deficit | Strong domestic consumer demand; U.S. absorbs global goods |
 | Record goods deficit | Heavy AI/tech investment pulling in chips and hardware |
 | Growing services surplus | U.S. competitive edge in finance, IP, and digital services |
@@ -70,6 +70,7 @@ Real disposable income grew 1.6% in 2025, supporting consumer spending — thoug
 ---
 
 **References:**
+
 - [BEA — U.S. International Trade in Goods and Services, Annual 2025](https://www.bea.gov/news/2026/us-international-trade-goods-and-services-december-and-annual-2025)
 - [CNBC — U.S. Trade Deficit Totaled $901 Billion in 2025](https://www.cnbc.com/2026/02/19/us-trade-deficit-totaled-901-billion-in-2025-despite-trumps-tariffs.html)
 - [NBC News — Trump Tariffs, Trade Deficit, and the Goods Gap](https://www.nbcnews.com/politics/trump-administration/trump-tariffs-trade-deficit-goods-gap-economy-commerce-rcna259880)

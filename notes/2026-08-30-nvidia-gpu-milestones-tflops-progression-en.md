@@ -20,7 +20,7 @@ Here's the compute performance progression across every major Nvidia GPU generat
 ---
 
 | GPU | Year | Arch | FP32 TFLOPS | FP16 TFLOPS | Notes |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | **GTX 980** | 2014 | Maxwell | ~5.1 | ~5.1 | No Tensor Cores; FP16 = FP32 |
 | **GTX 1080 Ti** | 2017 | Pascal | ~11.3 | ~11.3 | First to break 10 TFLOPS FP32 |
 | **RTX 2080 Ti** | 2018 | Turing | ~13.4 | ~107.9 (Tensor) | First hardware RT + Tensor Cores |
@@ -45,6 +45,7 @@ A few key observations:
 ---
 
 **References:**
+
 - [NVIDIA B200 Specs & Benchmarks — Spheron](https://www.spheron.network/blog/nvidia-b200-complete-guide/)
 - [NVIDIA B200 SXM Specs — Flopper.io](https://flopper.io/gpu/nvidia-b200-sxm-180gb)
 - [NVIDIA Blackwell B200 Datasheet](https://www.primeline-solutions.com/media/categories/server/nach-gpu/nvidia-hgx-h200/nvidia-blackwell-b200-datasheet.pdf)

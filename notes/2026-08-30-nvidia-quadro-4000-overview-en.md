@@ -42,6 +42,7 @@ Key highlights of the RTX 4000:
 In short, the "Quadro 4000" line represents NVIDIA's **professional/workstation GPU tier**, designed for CAD, 3D animation, scientific visualization, and other demanding professional applications — distinct from consumer GeForce cards in their certified drivers, stability, and ECC memory support.
 
 **References:**
+
 - [NVIDIA Quadro 4000 Overview — SHI](https://www.shi.com/product/26620775/NVIDIA-Quadro-4000-Graphics-card)
 - [NVIDIA Quadro RTX 4000 Review — HotHardware](https://hothardware.com/reviews/nvidia-quadro-rtx-4000-review)
 - [Quadro RTX 4000 Specs — Leadtek](https://www.leadtek.com/eng/products/workstation_graphics(2)/nvidia_quadro_rtx4000(10827)/detail)

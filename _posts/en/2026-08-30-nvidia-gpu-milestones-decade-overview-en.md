@@ -55,7 +55,7 @@ The current reigning champion. The B200 uses a dual-die chiplet design with 208 
 **Quick Summary Table:**
 
 | Year | GPU | Architecture | Key Milestone |
-|------|-----|-------------|---------------|
+| ------ | ----- | ------------- | --------------- |
 | 2014 | GTX 980 | Maxwell | Efficiency leap |
 | 2016 | GTX 1080 Ti | Pascal | Gaming dominance |
 | 2018 | RTX 2080 | Turing | First RT hardware |
@@ -67,6 +67,7 @@ The current reigning champion. The B200 uses a dual-die chiplet design with 208 
 ---
 
 **References:**
+
 - [Top 10 Most Significant Nvidia GPUs — TechSpot](https://www.techspot.com/article/2177-top-10-nvidia-graphics/)
 - [Evolution of NVIDIA Data Center GPUs — ServerSimply](https://www.serversimply.com/blog/evolution-of-nvidia-data-center-gpus)
 - [NVIDIA GPU History: GeForce 256 to Vera Rubin — IoHTechCo](https://iohtechco.com/resources/nvidia-gpu-history-evolution)

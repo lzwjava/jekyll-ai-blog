@@ -46,6 +46,7 @@ TUL Group 曾拥有多个 GPU 品牌：Vertex3D/VTX3D（面向欧洲市场，现
 ---
 
 **参考来源：**
+
 - [Dataland 品牌关闭 – Tencent News](https://news.qq.com/rain/a/20240526A06PAB00)
 - [Dataland 已消亡 – XFastest News](https://news.xfastest.com/140343/%E8%BF%AA%E8%98%AD-dataland/)
 - [Dataland 显卡指南 – Alibaba Electronics](https://electronics.alibaba.com/product/dataland-graphic-card)

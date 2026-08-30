@@ -44,6 +44,7 @@ TUL Group had several GPU brands: Vertex3D/VTX3D (targeted at Europe, now bankru
 ---
 
 **References:**
+
 - [Dataland Brand Closure – Tencent News](https://news.qq.com/rain/a/20240526A06PAB00)
 - [Dataland Defunct – XFastest News](https://news.xfastest.com/140343/%E8%BF%AA%E8%98%AD-dataland/)
 - [Dataland Graphics Card Guide – Alibaba Electronics](https://electronics.alibaba.com/product/dataland-graphic-card)

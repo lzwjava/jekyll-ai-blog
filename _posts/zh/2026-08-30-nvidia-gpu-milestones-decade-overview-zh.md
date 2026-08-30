@@ -55,7 +55,7 @@ H200 在 H100 基础上采用更新的 HBM3e 显存，并将总显存提升至 1
 **快速总结表：**
 
 | 年份 | GPU | 架构 | 关键里程碑 |
-|------|-----|-------------|---------------|
+| ------ | ----- | ------------- | --------------- |
 | 2014 | GTX 980 | Maxwell | 能效飞跃 |
 | 2016 | GTX 1080 Ti | Pascal | 游戏统治 |
 | 2018 | RTX 2080 | Turing | 首次 RT 硬件 |
@@ -67,6 +67,7 @@ H200 在 H100 基础上采用更新的 HBM3e 显存，并将总显存提升至 1
 ---
 
 **参考资料：**
+
 - [Top 10 Most Significant Nvidia GPUs — TechSpot](https://www.techspot.com/article/2177-top-10-nvidia-graphics/)
 - [Evolution of NVIDIA Data Center GPUs — ServerSimply](https://www.serversimply.com/blog/evolution-of-nvidia-data-center-gpus)
 - [NVIDIA GPU History: GeForce 256 to Vera Rubin — IoHTechCo](https://iohtechco.com/resources/nvidia-gpu-history-evolution)

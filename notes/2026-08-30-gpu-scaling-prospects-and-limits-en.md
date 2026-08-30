@@ -22,7 +22,7 @@ Yes — but scaling is getting harder, more expensive, and increasingly multi-di
 Nvidia has shifted from a 2-year to a **1-year release cadence**, with each generation targeting roughly a 2× performance jump:
 
 | Year | Platform | Key GPU | FP4 Compute |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2025 | Blackwell Ultra | B300 | ~20 PFLOPS |
 | 2026 | Vera Rubin | R100 | ~50 PFLOPS |
 | 2027 | Rubin Ultra | R300 | ~100 PFLOPS (est.) |
@@ -70,6 +70,7 @@ Rather than just shrinking transistors, the strategy has shifted:
 ---
 
 **References:**
+
 - [Nvidia GPU Roadmap 2026–2030 — VRLA Tech](https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/)
 - [Rubin Ultra Four-Die GPU Cancelled — TechTimes](https://www.techtimes.com/articles/319410/20260701/nvidia-rubin-ultra-four-die-gpu-cancelled-packaging-limits-cut-2027-performance-half.htm)
 - [HBM4 and Fab Limits — NextBigFuture](https://www.nextbigfuture.com/2026/07/hbm4-and-fab-limits-prevent-1000-vera-rubin-racks-per-day-in-2026-or-2027.html)

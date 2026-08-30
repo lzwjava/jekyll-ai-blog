@@ -35,7 +35,7 @@ type: note
 **电子维修实际需要的工具：**
 
 | 任务 | 推荐工具 |
-|---|---|
+| --- | --- |
 | 显卡/PCB 检查与返修 | **体视显微镜**（7×–45×，顶端照明，宽工作距离） |
 | UNO 板/Arduino 焊接 | **辅助夹持工具 + 放大镜**，或低倍体视显微镜 |
 | 微小 SMD 元件操作 | 体视显微镜，例如 AmScope SE306R 或类似型号 |
@@ -45,5 +45,6 @@ type: note
 ---
 
 **参考文献：**
+
 - [体视显微镜入门——Nikon MicroscopyU](https://www.microscopyu.com/techniques/stereomicroscopy/introduction-to-stereomicroscopy)
 - [生物显微镜——ConductScience](https://conductscience.com/lab/biological-microscope-8)

@@ -17,6 +17,7 @@ type: note
 
 **物理位置**
 在 Arduino Uno 上，实际上有 **两个** ICSP 排针：
+
 - **ICSP** —— 连接到主 **ATmega328P**（主微控制器）
 - **ICSP2** —— 连接到负责 USB 转串行通信的 **ATmega16U2** 芯片
 
@@ -39,7 +40,7 @@ MISO、MOSI 和 SCK 在 ICSP 排针上位于一致的物理位置，并且依赖
 **常规编程 vs. ICSP 编程**
 
 | 方式 | 通过 USB（常规） | 通过 ICSP |
-|---|---|---|
+| --- | --- | --- |
 | 使用引导加载程序 | ✅ 是 | ❌ 否 |
 | 需要额外硬件 | ❌ 否 | ✅ 需要编程器 |
 | 引导加载程序占用的闪存 | 约 0.5 KB | 无浪费 |
@@ -50,6 +51,7 @@ MISO、MOSI 和 SCK 在 ICSP 排针上位于一致的物理位置，并且依赖
 ---
 
 **参考：**
+
 - [Arduino as ISP and Arduino Bootloaders – Arduino 文档](https://www.arduino.cc/en/Tutorial/ArduinoISP)
 - [安装 Arduino 引导加载程序 – SparkFun](https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader/hardware-hookup)
 - [Arduino 的十六进制文件与 ICSP 引脚 – C# Corner](https://www.c-sharpcorner.com/article/hex-file-and-ics-pins-of-arduino/)

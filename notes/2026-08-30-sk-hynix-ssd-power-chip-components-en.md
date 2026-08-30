@@ -34,6 +34,7 @@ The +3.3V 2A (= 6.6W max) is the M.2 slot power specification that the host syst
 The HFB1M8M0331A (variants include HFB1M8MQ331C0MR and HFB1M8MO331C0MR) is the proprietary SK Hynix controller used inside the BC501 SSD. Crucially, it is a BGA (Ball Grid Array) package where the controller CPU, RAM (DRAM cache), and NAND flash are all integrated into a common silicon layer — making it a highly compact, unified chip.
 
 This means the "HFB1M8M" part you're seeing is not just the NAND flash alone — it is an all-in-one SoC-style package that combines:
+
 - The NVMe controller
 - Embedded LPDDR DRAM cache
 - The TLC NAND flash dies
@@ -55,6 +56,7 @@ Because the HFB1M8M integrates almost everything, the PCB component count is ver
 ---
 
 **References:**
+
 - [SK Hynix BC501 HFM128GDJTNG-8310A Product Page](https://www.serverblink.com/hfm128gdjtng-8310a-hynix-bc501-series-128gb-tlc-pci-express-3-0-nvme-m-2-2280-internal-solid-state-drive-ssd/)
 - [PC-3000 Forum: BC501 with HFB1M8M0331A controller — BGA integrated chip discussion](https://forum.acelab.eu.com/viewtopic.php?t=11084)
 - [SK Hynix BC501 Firmware Update — Dell Support](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=k3p7y)

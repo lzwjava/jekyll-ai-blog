@@ -30,6 +30,7 @@ These three factors work together to produce the most important derived metric:
 > **Bandwidth (GB/s) = (Bus Width ÷ 8) × Effective Clock Speed**
 
 Example — RTX 4090:
+
 - Bus: 384-bit → 48 bytes wide
 - Clock: ~21 Gbps effective
 - Bandwidth: 48 × 21 = **~1,008 GB/s**
@@ -39,6 +40,7 @@ A GPU bottlenecked on bandwidth (not enough for its shader throughput) will unde
 ---
 
 References:
+
 - [GPU Memory Bandwidth Explained — TechPowerUp](https://www.techpowerup.com/gpu-specs/)
 - [VRAM: How Much Do You Need? — Digital Foundry / Eurogamer](https://www.eurogamer.net/digitalfoundry-2023-how-much-vram-do-you-need)
 - [GDDR6 vs GDDR6X vs HBM — AnandTech](https://www.anandtech.com)

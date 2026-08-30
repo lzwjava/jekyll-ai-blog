@@ -34,6 +34,7 @@ type: note
 HFB1M8M0331A（变体包括HFB1M8MQ331C0MR和HFB1M8MO331C0MR）是SK海力士在BC501固态硬盘内部使用的专有控制器。关键在于，它是BGA（球栅阵列）封装，其中控制器CPU、RAM（DRAM缓存）和NAND闪存都集成在共同的硅层中——使其成为一个高度紧凑的一体化芯片。
 
 这意味着你看到的"HFB1M8M"部分不仅仅是NAND闪存本身——它是一个集成了以下功能的单片式SoC封装：
+
 - NVMe控制器
 - 嵌入式LPDDR DRAM缓存
 - TLC NAND闪存芯片
@@ -55,6 +56,7 @@ HFB1M8M0331A（变体包括HFB1M8MQ331C0MR和HFB1M8MO331C0MR）是SK海力士在
 ---
 
 **参考资料：**
+
 - [SK Hynix BC501 HFM128GDJTNG-8310A产品页面](https://www.serverblink.com/hfm128gdjtng-8310a-hynix-bc501-series-128gb-tlc-pci-express-3-0-nvme-m-2-2280-internal-solid-state-drive-ssd/)
 - [PC-3000论坛：BC501采用HFB1M8M0331A控制器——BGA集成芯片讨论](https://forum.acelab.eu.com/viewtopic.php?t=11084)
 - [SK Hynix BC501固件更新——戴尔支持](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=k3p7y)

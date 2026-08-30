@@ -32,7 +32,7 @@ type: note
 R9 270 是 AMD Radeon 在 2013-2014 年左右推出的一款中端显卡，迪兰在其“酷能”（Cool Power）产品线下发布了多个版本：
 
 | 规格 | 参数 |
-|---|---|
+| --- | --- |
 | GPU 芯片 | AMD Radeon R9 270 |
 | 流处理器 | 1,280 |
 | 核心频率 | 930 MHz（Boost 955 MHz） |
@@ -49,6 +49,7 @@ R9 270 是 AMD Radeon 在 2013-2014 年左右推出的一款中端显卡，迪�
 ---
 
 **参考资料：**
+
 - [迪兰 R9 270 酷能 2G DC V2 – 京东](https://item.jd.com/1206613.html)
 - [迪兰 R9 270 规格 – ZOL 中关村在线](https://detail.zol.com.cn/370/369663/param.shtml)
 - [迪兰恒进品牌故事 – 什么值得买](https://pinpai.smzdm.com/1719/gushi/)

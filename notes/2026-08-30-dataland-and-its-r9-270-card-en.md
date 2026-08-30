@@ -32,7 +32,7 @@ Dataland's last product generation was the RX 6000 series — they produced card
 The R9 270 was an AMD Radeon mid-range card from around 2013–2014, and Dataland released several variants under their "酷能" (Cool Power) product line:
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | GPU Chip | AMD Radeon R9 270 |
 | Stream Processors | 1,280 |
 | Core Clock | 930 MHz (955 MHz Boost) |
@@ -49,6 +49,7 @@ The card measured 212 × 111 × 36 mm and came with a DVI-to-VGA adapter, driver
 ---
 
 **References:**
+
 - [Dataland R9 270 酷能 2G DC V2 – JD.com](https://item.jd.com/1206613.html)
 - [Dataland R9 270 Specs – ZOL 中关村在线](https://detail.zol.com.cn/370/369663/param.shtml)
 - [迪兰恒进 Brand Story – 什么值得买](https://pinpai.smzdm.com/1719/gushi/)

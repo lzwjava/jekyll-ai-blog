@@ -58,7 +58,7 @@ type: note
 ### 💡 对经济的反映
 
 | 信号 | 解读 |
-|---|---|
+| --- | --- |
 | 持续约9000亿美元的逆差 | 国内消费需求强劲；美国吸收全球商品 |
 | 创纪录的商品逆差 | 大量AI/科技投资带动芯片和硬件进口 |
 | 服务顺差增长 | 美国在金融、知识产权和数字服务方面的竞争优势 |
@@ -70,6 +70,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [BEA — 美国商品与服务国际贸易，2025年度数据](https://www.bea.gov/news/2026/us-international-trade-goods-and-services-december-and-annual-2025)
 - [CNBC — 2025年美国贸易逆差总计9010亿美元](https://www.cnbc.com/2026/02/19/us-trade-deficit-totaled-901-billion-in-2025-despite-trumps-tariffs.html)
 - [NBC News — 特朗普关税、贸易逆差与商品缺口](https://www.nbcnews.com/politics/trump-administration/trump-tariffs-trade-deficit-goods-gap-economy-commerce-rcna259880)

@@ -17,6 +17,7 @@ type: note
 
 **Physical Location**
 On the Arduino Uno, there are actually **two** ICSP headers:
+
 - **ICSP** — connects to the main **ATmega328P** (the primary microcontroller)
 - **ICSP2** — connects to the **ATmega16U2** chip that handles USB-to-serial communication
 
@@ -39,7 +40,7 @@ MISO, MOSI, and SCK are available at a consistent physical location on the ICSP 
 **Normal vs. ICSP Programming**
 
 | Method | Via USB (normal) | Via ICSP |
-|---|---|---|
+| --- | --- | --- |
 | Uses bootloader | ✅ Yes | ❌ No |
 | Requires extra hardware | ❌ No | ✅ Programmer needed |
 | Flash memory used by bootloader | ~0.5 KB consumed | None wasted |
@@ -50,6 +51,7 @@ In everyday Arduino projects you rarely need ICSP — it's primarily for advance
 ---
 
 **References:**
+
 - [Arduino as ISP and Arduino Bootloaders – Arduino Docs](https://www.arduino.cc/en/Tutorial/ArduinoISP)
 - [Installing an Arduino Bootloader – SparkFun](https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader/hardware-hookup)
 - [Hex File and ICSP Pins of Arduino – C# Corner](https://www.c-sharpcorner.com/article/hex-file-and-icsp-pins-of-arduino/)

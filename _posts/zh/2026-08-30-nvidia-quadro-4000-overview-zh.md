@@ -42,6 +42,7 @@ RTX 4000 的主要亮点：
 简而言之，“Quadro 4000”系列代表了 NVIDIA 的 **专业/工作站 GPU 级别**，专为 CAD、3D 动画、科学可视化及其他高要求的专业应用而设计——与消费级 GeForce 显卡不同，它们拥有经过认证的驱动程序、稳定性和 ECC 显存支持。
 
 **参考资料：**
+
 - [NVIDIA Quadro 4000 概述 — SHI](https://www.shi.com/product/26620775/NVIDIA-Quadro-4000-Graphics-card)
 - [NVIDIA Quadro RTX 4000 评测 — HotHardware](https://hothardware.com/reviews/nvidia-quadro-rtx-4000-review)
 - [Quadro RTX 4000 规格 — Leadtek](https://www.leadtek.com/eng/products/workstation_graphics(2)/nvidia_quadro_rtx4000(10827)/detail)

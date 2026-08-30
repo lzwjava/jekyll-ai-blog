@@ -30,6 +30,7 @@ GPU专用视频内存——一个高速内存池，用于存储GPU正在处理�
 > **带宽（GB/s）=（位宽 ÷ 8）× 有效频率**
 
 示例——RTX 4090：
+
 - 位宽：384位 → 48字节宽度
 - 频率：约21 Gbps有效
 - 带宽：48 × 21 = **约1,008 GB/s**
@@ -39,6 +40,7 @@ GPU专用视频内存——一个高速内存池，用于存储GPU正在处理�
 ---
 
 参考：
+
 - [GPU显存带宽详解 — TechPowerUp](https://www.techpowerup.com/gpu-specs/)
 - [VRAM：你需要多少？ — Digital Foundry / Eurogamer](https://www.eurogamer.net/digitalfoundry-2023-how-much-vram-do-you-need)
 - [GDDR6 vs GDDR6X vs HBM — AnandTech](https://www.anandtech.com)

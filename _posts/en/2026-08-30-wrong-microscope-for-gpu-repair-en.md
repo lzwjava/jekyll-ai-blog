@@ -35,7 +35,7 @@ It's a **biological/compound microscope** designed for middle school science edu
 **What you actually need for electronics repair:**
 
 | Task | Recommended Tool |
-|---|---|
+| --- | --- |
 | GPU/PCB inspection & rework | **Stereo microscope** (7×–45×, top-lit, wide working distance) |
 | UNO card / Arduino soldering | **Helping hands + magnifier loupe**, or stereo microscope at low power |
 | Tiny SMD component work | Stereo microscope, e.g. AmScope SE306R or similar |
@@ -45,5 +45,6 @@ It's a **biological/compound microscope** designed for middle school science edu
 ---
 
 **References:**
+
 - [Introduction to Stereomicroscopy — Nikon MicroscopyU](https://www.microscopyu.com/techniques/stereomicroscopy/introduction-to-stereomicroscopy)
 - [Biological Microscope — ConductScience](https://conductscience.com/lab/biological-microscope-8)

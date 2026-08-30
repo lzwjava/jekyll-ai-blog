@@ -22,7 +22,7 @@ type: note
 英伟达已从两年一代转向**一年一代的发布节奏**，每一代目标性能提升约 2 倍：
 
 | 年份 | 平台 | 关键 GPU | FP4 算力 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2025 | Blackwell Ultra | B300 | ~20 PFLOPS |
 | 2026 | Vera Rubin | R100 | ~50 PFLOPS |
 | 2027 | Rubin Ultra | R300 | ~100 PFLOPS（预估） |
@@ -70,6 +70,7 @@ HBM 已售罄至 2026 年，新增产能到 2027 年才会实质影响供应，�
 ---
 
 **参考资料：**
+
 - [Nvidia GPU Roadmap 2026–2030 — VRLA Tech](https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/)
 - [Rubin Ultra Four-Die GPU Cancelled — TechTimes](https://www.techtimes.com/articles/319410/20260701/nvidia-rubin-ultra-four-die-gpu-cancelled-packaging-limits-cut-2027-performance-half.htm)
 - [HBM4 and Fab Limits — NextBigFuture](https://www.nextbigfuture.com/2026/07/hbm4-and-fab-limits-prevent-1000-vera-rubin-racks-per-day-in-2026-or-2027.html)
