@@ -34,11 +34,12 @@ A trunk is a network link that carries traffic from **multiple VLANs simultaneou
 **Simple Analogy**
 
 | Concept | Analogy |
-|---|---|
+| --- | --- |
 | VLAN | A separate lane on a highway |
 | Trunk | The highway itself carrying all lanes |
 
 References:
+
 - [IEEE 802.1Q – VLAN Tagging](https://en.wikipedia.org/wiki/IEEE_802.1Q)
 - [Cisco – VLAN Overview](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25ew/configuration/guide/conf/vlans.html)
 - [Cisco – Trunking Concepts](https://www.cisco.com/c/en/us/support/docs/lan-switching/8021q/17056-741-4.html)
