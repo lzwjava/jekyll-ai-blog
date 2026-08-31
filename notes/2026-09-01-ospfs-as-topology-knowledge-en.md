@@ -22,7 +22,7 @@ OSPF routers **do** maintain a complete link-state database (LSDB) of the entire
 OSPF routers do **NOT** have full AS-wide topology. Here's why:
 
 | Router Type | What it knows |
-|---|---|
+| --- | --- |
 | Internal Router | Full topology of its own area only |
 | ABR (Area Border Router) | Full topology of each connected area, but summarized LSAs for others |
 | ASBR (AS Boundary Router) | Injects external routes as Type 5 LSAs, not full topology |
@@ -41,6 +41,7 @@ BGP is the true inter-AS routing protocol. It carries reachability information a
 ---
 
 **References:**
+
 - [OSPF Multi-Area – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/7039-1.html)
 - [RFC 2328 – OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 - [OSPF Areas and LSA Types – Juniper](https://www.juniper.net/documentation/us/en/software/junos/ospf/topics/topic-map/configuring-ospf-areas.html)

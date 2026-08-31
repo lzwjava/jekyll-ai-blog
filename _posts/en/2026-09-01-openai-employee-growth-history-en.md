@@ -16,7 +16,7 @@ type: note
 OpenAI has undergone one of the most dramatic workforce expansions in tech history. Here's the headcount trajectory:
 
 | Year | Employees |
-|------|-----------|
+| ------ | ----------- |
 | 2022 | ~2,400 |
 | 2023 (Nov) | ~770–3,049 |
 | 2024 | ~3,531–4,440 |
@@ -40,6 +40,7 @@ In terms of composition, engineering makes up around 56% of staff, and OpenAI pa
 ---
 
 **References:**
+
 - [OpenAI Employee Statistics 2026 – makerstations.io](https://www.makerstations.io/openai-employee-statistics/)
 - [How Many People Work at OpenAI in 2026? – sqmagazine.co.uk](https://sqmagazine.co.uk/how-many-people-work-at-openai/)
 - [OpenAI Employee Count 2026 – JobsByCulture](https://jobsbyculture.com/blog/openai-employee-count-2026)

@@ -64,6 +64,7 @@ Vulnerable (covert) narcissists show entitlement and low empathy, but uniquely d
 ---
 
 **References:**
+
 - [Narcissistic Injury: What It Means And Why It Happens – Simply Psychology](https://www.simplypsychology.org/what-is-narcissistic-injury.html)
 - [The Destructive Force of Narcissistic Injury – Psychology Today](https://www.psychologytoday.com/us/blog/the-legacy-distorted-love/201608/the-destructive-force-narcissistic-injury)
 - [Narcissistic Injury Explained – Annie Wright](https://anniewright.com/narcissistic-injury-explained/)

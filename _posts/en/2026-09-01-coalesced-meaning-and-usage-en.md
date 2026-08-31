@@ -25,5 +25,6 @@ The word comes from the Latin *coalescere* — *co-* (together) + *alescere* (to
 > "Over time, the various factions **coalesced** into a single political party."
 
 References:
+
 - [Merriam-Webster: Coalesce](https://www.merriam-webster.com/dictionary/coalesce)
 - [Etymology Online: Coalesce](https://www.etymonline.com/word/coalesce)

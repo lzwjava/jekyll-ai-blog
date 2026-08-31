@@ -48,7 +48,7 @@ CUDA 实际关心的是**缓存行粒度**，它独立于总线宽度：
 PyTorch 构建在 CUDA 之上，因此总线宽度通过带宽**间接**影响它：
 
 | 层级 | 其所见 |
-|---|---|
+| --- | --- |
 | **硬件** | 4 × 64 位芯片 → 256 位总线 → 峰值 GB/s |
 | **CUDA 内核** | 128 字节缓存行事务，合并规则 |
 | **PyTorch** | “此操作是内存受限还是计算受限？” |
@@ -78,6 +78,7 @@ CUDA 将 32 个线程（1 个 warp）合并为 128 字节事务
 ---
 
 **参考文献：**
+
 - [NVIDIA Dev Forum — Bus Width & CUDA Alignment](https://forums.developer.nvidia.com/t/relationship-between-cuda-and-gpu-memory-bus-width/56296)
 - [GPU Memory Explained — Thunder Compute](https://www.thundercompute.com/blog/gpu-memory-explained)
 - [Memory Coalescing in GPU — Medium](https://medium.com/@himanshu0525125/memory-coalescing-in-gpu-23f222b26ca2)

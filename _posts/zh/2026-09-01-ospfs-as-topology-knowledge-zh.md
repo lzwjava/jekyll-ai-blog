@@ -22,7 +22,7 @@ OSPF 路由器 **确实** 维护着整个区域的完整链路状态数据库（
 OSPF 路由器 **不** 拥有完整的 AS 级拓扑。原因如下：
 
 | 路由器类型 | 它所知道的信息 |
-|---|---|
+| --- | --- |
 | 内部路由器 | 仅包含自己区域的完整拓扑 |
 | ABR（区域边界路由器） | 每个相连区域的完整拓扑，但其他区域仅包含汇总后的 LSA |
 | ASBR（AS 边界路由器） | 以 Type 5 LSA 注入外部路由，而非完整拓扑 |
@@ -41,6 +41,7 @@ BGP 是真正的 AS 间路由协议。它承载不同自治系统之间的全网
 ---
 
 **参考文献：**
+
 - [OSPF Multi-Area – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/7039-1.html)
 - [RFC 2328 – OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 - [OSPF Areas and LSA Types – Juniper](https://www.juniper.net/documentation/us/en/software/junos/ospf/topics/topic-map/configuring-ospf-areas.html)

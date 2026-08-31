@@ -64,6 +64,7 @@ NPD患者在拒绝面前感到困难，其根源远超简单的自我——它�
 ---
 
 **参考文献：**
+
 - [自恋性损伤：含义及成因 – Simply Psychology](https://www.simplypsychology.org/what-is-narcissistic-injury.html)
 - [自恋性损伤的破坏力 – Psychology Today](https://www.psychologytoday.com/us/blog/the-legacy-distorted-love/201608/the-destructive-force-narcissistic-injury)
 - [自恋性损伤解析 – Annie Wright](https://anniewright.com/narcissistic-injury-explained/)

@@ -16,7 +16,7 @@ type: note
 OpenAI 经历了科技行业最迅猛的员工规模扩张之一。以下是其员工人数变化轨迹：
 
 | 年份 | 员工人数 |
-|------|----------|
+| ------ | ---------- |
 | 2022 | 约 2,400 |
 | 2023年11月 | 约 770–3,049 |
 | 2024 | 约 3,531–4,440 |
@@ -40,6 +40,7 @@ OpenAI 经历了科技行业最迅猛的员工规模扩张之一。以下是其�
 ---
 
 **参考资料：**
+
 - [OpenAI Employee Statistics 2026 – makerstations.io](https://www.makerstations.io/openai-employee-statistics/)
 - [How Many People Work at OpenAI in 2026? – sqmagazine.co.uk](https://sqmagazine.co.uk/how-many-people-work-at-openai/)
 - [OpenAI Employee Count 2026 – JobsByCulture](https://jobsbyculture.com/blog/openai-employee-count-2026)

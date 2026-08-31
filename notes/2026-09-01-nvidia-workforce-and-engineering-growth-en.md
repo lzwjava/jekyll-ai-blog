@@ -18,7 +18,7 @@ Here's a breakdown of Nvidia's workforce growth over recent years, including its
 **Total Headcount by Year (Fiscal Year)**
 
 | Fiscal Year | Total Employees | R&D / Technical | Sales, Ops & Admin |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FY2023 | ~26,196 | ~19,532 | ~6,664 |
 | FY2024 | ~29,600 | ~22,200 | ~7,400 |
 | FY2025 | ~36,000 | — | — |
@@ -41,6 +41,7 @@ Here's a breakdown of Nvidia's workforce growth over recent years, including its
 Despite its relatively small headcount compared to giants like Microsoft or Amazon, Nvidia's workforce is highly specialized — predominantly engineers and researchers driving its AI/GPU dominance.Nvidia has grown its headcount by over 66% in just three years — driven almost entirely by the AI boom.
 
 **References:**
+
 - [NVIDIA 10-K FY2023 — SEC Filing](https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm)
 - [NVIDIA 10-K FY2024 — SEC Filing](https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm)
 - [NVIDIA DEF 14A FY2025 — SEC Filing](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm)

@@ -48,7 +48,7 @@ Empirical benchmarks show that a kernel with coalesced access can execute in 232
 PyTorch sits on top of CUDA, so the bus width affects it **indirectly** through bandwidth:
 
 | Layer | What it sees |
-|---|---|
+| --- | --- |
 | **Hardware** | 4 × 64-bit chips → 256-bit bus → peak GB/s |
 | **CUDA kernel** | 128-byte cache line transactions, coalescing rules |
 | **PyTorch** | "Is this op memory-bound or compute-bound?" |
@@ -78,6 +78,7 @@ For a Quadro 401-class card with only ~100 GB/s of bandwidth, the bus is the bot
 ---
 
 **References:**
+
 - [NVIDIA Dev Forum — Bus Width & CUDA Alignment](https://forums.developer.nvidia.com/t/relationship-between-cuda-and-gpu-memory-bus-width/56296)
 - [GPU Memory Explained — Thunder Compute](https://www.thundercompute.com/blog/gpu-memory-explained)
 - [Memory Coalescing in GPU — Medium](https://medium.com/@himanshu0525125/memory-coalescing-in-gpu-23f222b26ca2)

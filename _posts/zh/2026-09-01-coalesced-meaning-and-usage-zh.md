@@ -25,5 +25,6 @@ type: note
 > "随着时间的推移，各个派系**融合**成了一个单一的政党。"
 
 参考资料：
+
 - [Merriam-Webster: Coalesce](https://www.merriam-webster.com/dictionary/coalesce)
 - [Etymology Online: Coalesce](https://www.etymonline.com/word/coalesce)
