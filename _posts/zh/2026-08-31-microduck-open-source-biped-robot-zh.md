@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [pollen-robotics/microduck — GitHub](https://github.com/pollen-robotics/microduck)
 - [microduck_rl (策略训练仓库)](https://github.com/pollen-robotics/microduck_rl)
 - [架构概览](https://github.com/pollen-robotics/microduck/blob/main/docs/design/architecture.md)

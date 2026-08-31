@@ -39,7 +39,7 @@ Networks like Sovrn use a CPA (Cost Per Action) model — you earn when a visito
 ### 📊 Traffic Tier Guide
 
 | Network | Min. Traffic | Best Niche |
-|---|---|---|
+| --- | --- | --- |
 | Mediavine Journey | 1K sessions | Lifestyle, food, DIY |
 | Mediavine Official | 50K sessions | Lifestyle, recipes |
 | Raptive | 25K pageviews | Food, parenting, travel |
@@ -49,11 +49,13 @@ Networks like Sovrn use a CPA (Cost Per Action) model — you earn when a visito
 ---
 
 ### 💡 Pro Tip
+
 The most profitable publishers in 2026 use a blended approach — running CPM display ads alongside CPC native ads and CPA affiliate links. This diversification protects revenue. A common upgrade path is: **AdSense → Ezoic → Monumetric → Mediavine or Raptive** as your traffic scales.
 
 ---
 
 **References:**
+
 - [Mediavine vs Raptive 2026 (MonetizePros)](https://monetizepros.com/ad-serving-and-optimization/mediavine-vs-raptive/)
 - [Best Ad Networks for Bloggers 2026 (BloggingExplorer)](https://bloggingexplorer.com/best-ad-networks-for-bloggers/)
 - [Alternative Ad Networks for Publishers (WebTonic)](https://www.webtonic.io/blog/alternative-ad-networks)

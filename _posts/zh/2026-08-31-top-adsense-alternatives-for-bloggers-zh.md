@@ -45,7 +45,7 @@ PropellerAds、Adsterra 和 ylliX 以快速审批著称，适合新建或小型�
 ### 💡 快速对比
 
 | 产品 | 最低流量 | 广告类型 | 最适合 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ezoic | 约 1 万次访问 | 展示广告、原生广告 | 中等规模博客 |
 | Media.net | 无严格限制 | 上下文广告 | 美国/英国/加拿大受众 |
 | Monumetric | 1 万次月浏览量 | 展示广告 | 成长中的博客 |
@@ -57,6 +57,7 @@ PropellerAds、Adsterra 和 ylliX 以快速审批著称，适合新建或小型�
 ---
 
 **参考来源：**
+
 - [21 个最佳 AdSense 替代方案（Kinsta）](https://kinsta.com/blog/adsense-alternatives/)
 - [2026 年最佳 AdSense 替代方案（MonetizeMore）](https://www.monetizemore.com/blog/top-adsense-alternatives/)
 - [28 个最佳 AdSense 替代方案（Adsterra）](https://adsterra.com/blog/adsense-alternatives/)

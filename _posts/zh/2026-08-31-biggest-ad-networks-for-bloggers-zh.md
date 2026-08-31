@@ -39,7 +39,7 @@ SHE Media 专注于女性受众，广告活动针对生活方式、育儿、健�
 ### 📊 流量层级指南
 
 | 网络 | 最低流量要求 | 最佳领域 |
-|---|---|---|
+| --- | --- | --- |
 | Mediavine Journey | 1,000 次会话 | 生活方式、美食、DIY |
 | Mediavine 正式版 | 50,000 次会话 | 生活方式、食谱 |
 | Raptive | 25,000 次页面浏览量 | 美食、育儿、旅行 |
@@ -49,11 +49,13 @@ SHE Media 专注于女性受众，广告活动针对生活方式、育儿、健�
 ---
 
 ### 💡 专业建议
+
 2026 年最能盈利的发布商会采用混合策略——将 CPM 展示广告与 CPC 原生广告及 CPA 联盟链接结合使用。这种多样化布局可以保护收入。常见的升级路径是：**AdSense → Ezoic → Monumetric → Mediavine 或 Raptive**，随着你的流量增长逐步进阶。
 
 ---
 
 **参考资料：**
+
 - [Mediavine vs Raptive 2026 (MonetizePros)](https://monetizepros.com/ad-serving-and-optimization/mediavine-vs-raptive/)
 - [Best Ad Networks for Bloggers 2026 (BloggingExplorer)](https://bloggingexplorer.com/best-ad-networks-for-bloggers/)
 - [Alternative Ad Networks for Publishers (WebTonic)](https://www.webtonic.io/blog/alternative-ad-networks)

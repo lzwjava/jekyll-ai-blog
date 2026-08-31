@@ -31,6 +31,7 @@ The message you received is a **rejection notice** from Ezoic, meaning your webs
 ---
 
 **References:**
+
 - [Ezoic Official Site](https://www.ezoic.com)
 - [Ezoic Program Requirements](https://www.ezoic.com/publishers/)
 - [Google AdSense](https://www.google.com/adsense)

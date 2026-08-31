@@ -45,7 +45,7 @@ PropellerAds, Adsterra, and ylliX are known for fast approval, making them suita
 ### 💡 Quick Comparison
 
 | Product | Min. Traffic | Ad Types | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ezoic | ~10K sessions | Display, native | Mid-size blogs |
 | Media.net | None strict | Contextual | US/UK/CA audiences |
 | Monumetric | 10K pageviews | Display | Growing blogs |
@@ -57,6 +57,7 @@ PropellerAds, Adsterra, and ylliX are known for fast approval, making them suita
 ---
 
 **References:**
+
 - [21 Best AdSense Alternatives (Kinsta)](https://kinsta.com/blog/adsense-alternatives/)
 - [Best AdSense Alternatives 2026 (MonetizeMore)](https://www.monetizemore.com/blog/top-adsense-alternatives/)
 - [28 Best AdSense Alternatives (Adsterra)](https://adsterra.com/blog/adsense-alternatives/)

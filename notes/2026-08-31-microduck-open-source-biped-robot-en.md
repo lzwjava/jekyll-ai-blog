@@ -42,6 +42,7 @@ The repo serves two audiences: people who own a Microduck (cheat sheet, gamepad 
 ---
 
 **References:**
+
 - [pollen-robotics/microduck — GitHub](https://github.com/pollen-robotics/microduck)
 - [microduck_rl (policy training repo)](https://github.com/pollen-robotics/microduck_rl)
 - [Architecture overview](https://github.com/pollen-robotics/microduck/blob/main/docs/design/architecture.md)
