@@ -30,6 +30,7 @@ The board supports LGA775 CPUs. The **Intel Core 2 Quad Q9650** or **Q9550** are
 The **Core 2 Quad Q6600** is also a safe fallback option if the Q9x50 series doesn't work. Keep in mind that while adding cores helps multi-threaded workloads, these quads have lower single-thread performance than your current Celeron clock speed.
 
 **Recommended CPU upgrades (best → good):**
+
 - Intel Core 2 Quad **Q9650** (3.0 GHz, 4 cores) ✅ Best
 - Intel Core 2 Quad **Q9550** (2.83 GHz, 4 cores) ✅ Great
 - Intel Core 2 Quad **Q6600** (2.4 GHz, 4 cores) ✅ Budget option
@@ -63,6 +64,7 @@ This platform is very limited. If your goal is meaningful performance improvemen
 ---
 
 **References:**
+
 - [Lenovo L-IG41M3 Motherboard Guide – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [OEM L-IG41M Compatibility Discussion – Tom's Hardware](https://forums.tomshardware.com/threads/oem-motherboard-lenovo-l-ig41m-ver-1-1s-compatibility.3249405/)
 - [RAM Incompatibility on L-IG41M3 – Tom's Hardware](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

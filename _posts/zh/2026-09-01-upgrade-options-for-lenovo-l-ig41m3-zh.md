@@ -30,6 +30,7 @@ L-IG41M3 采用 **LGA775 插槽** 和 **Intel G41 Express 芯片组**，是一�
 **Core 2 Quad Q6600** 也是一个安全的后备选择，以防 Q9x50 系列无法正常工作。需要注意的是，虽然增加核心数有助于多线程任务，但这些四核处理器的单核性能可能低于您当前的 Celeron 主频。
 
 **推荐 CPU 升级（最佳 → 良好）：**
+
 - Intel Core 2 Quad **Q9650** (3.0 GHz, 4 核) ✅ 最佳
 - Intel Core 2 Quad **Q9550** (2.83 GHz, 4 核) ✅ 很好
 - Intel Core 2 Quad **Q6600** (2.4 GHz, 4 核) ✅ 预算选项
@@ -63,6 +64,7 @@ L-IG41M3 采用 **LGA775 插槽** 和 **Intel G41 Express 芯片组**，是一�
 ---
 
 **参考文献：**
+
 - [联想 L-IG41M3 主板指南 – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [OEM L-IG41M 兼容性讨论 – Tom's Hardware](https://forums.tomshardware.com/threads/oem-motherboard-lenovo-l-ig41m-ver-1-1s-compatibility.3249405/)
 - [L-IG41M3 内存不兼容问题 – Tom's Hardware](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

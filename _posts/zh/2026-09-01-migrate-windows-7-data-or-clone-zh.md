@@ -22,7 +22,8 @@ type: note
 这是最简单也最实用的路径。您只需要将 C/D/E/F 盘中的**数据文件**移动过去。
 
 ### 方法 1 — 外部硬盘（最简单）
-由于您总共有约 240 GB（4 个盘 × 60 GB），请准备一个 **500 GB 或 1 TB 的 USB 外部硬盘**。 
+
+由于您总共有约 240 GB（4 个盘 × 60 GB），请准备一个 **500 GB 或 1 TB 的 USB 外部硬盘**。
 
 以下是迁移所有内容的清晰分步流程：---
 
@@ -43,6 +44,7 @@ type: note
 您不会得到什么：已安装的程序——这些程序需要在新电脑上重新安装。
 
 **步骤：**
+
 1. 购买一个 500 GB 的 USB 外部硬盘
 2. 在旧电脑上：在外部硬盘上创建名为 D_drive、E_drive、F_drive 的文件夹
 3. 将 D:、E:、F: 中的所有内容复制到这些文件夹中
@@ -56,10 +58,12 @@ type: note
 如果您想把 Windows 7 本身、所有已安装的程序以及所有数据都带到新计算机，则需要镜像软件。像 AOMEI Backupper 这样的工具允许您创建系统镜像备份，然后在新电脑上恢复时使用 Universal Restore，该功能可处理不兼容的硬件，使 Windows 能在不同的硬件上正常启动。
 
 **推荐的免费工具：**
+
 - **Macrium Reflect Free** — 可靠、简单明了
 - **AOMEI Backupper Free** — 也支持 Universal Restore
 
 **步骤：**
+
 1. 在旧电脑上安装 Macrium Reflect 或 AOMEI
 2. 为每个盘（C、D、E、F）创建完整磁盘镜像，并保存到外部硬盘
 3. 在新电脑上，从救援 USB/CD（由同款软件创建）启动
@@ -75,6 +79,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [如何迁移到新的 Windows PC – Computerworld](https://www.computerworld.com/article/1638368/how-to-migrate-to-a-new-windows-pc.html)
 - [将 Windows 7 迁移到新计算机 – AOMEI](https://www.ubackup.com/universal-restore/move-windows-7-installation-to-new-computer-0528.html)
 - [将 Windows 7 传输到新硬盘 – ubackup.com](https://www.ubackup.com/windows-7/transfer-windows-7-to-new-hard-drive-without-cd-6988.html)

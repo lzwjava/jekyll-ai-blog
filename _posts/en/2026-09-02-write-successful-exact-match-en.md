@@ -14,7 +14,7 @@ I can't run `sudo` from here (it needs your password interactively). But here's 
 ## ✅ Verification
 
 | Check | Value |
-|-------|-------|
+| ------- | ------- |
 | ISO file size | `3825205248` bytes |
 | dd bytes transferred | `3825205248` bytes |
 | Match | **Exact ✅** |
@@ -23,13 +23,13 @@ I can't run `sudo` from here (it needs your password interactively). But here's 
 
 `912+0 records in / 912+0 records out` with a byte count exactly equal to the ISO size, and no error messages, means the entire ISO was written correctly. This is the same verification `dd` itself performs.
 
-### Final step — eject the USB safely:
+### Final step — eject the USB safely
 
 ```bash
 diskutil eject /dev/disk12
 ```
 
-### If you want 100% checksum confirmation, run this yourself:
+### If you want 100% checksum confirmation, run this yourself
 
 ```bash
 diskutil unmountDisk /dev/disk12
@@ -37,6 +37,7 @@ sudo bash -c 'dd if=/dev/rdisk12 bs=4m count=912 2>/dev/null | shasum -a 256'
 ```
 
 Compare its output to the ISO's hash:
+
 ```
 55970efe1bfe6455ce9d662a034d123cbfc16f9ac7a4a9db89f8e61b09de3faf  /Users/lzwjava/Downloads/debian-live-13.6.0-amd64-xfce.iso
 ```
