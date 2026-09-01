@@ -16,7 +16,7 @@ Here's a complete **fan source diagnosis**:
 ## Hardware Summary
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | **CPU** | Intel Celeron E3400 @ 2.60GHz (dual-core) |
 | **GPU** | Intel G41 Integrated Graphics (`i915` driver) — **no discrete card** |
 | **Board** | Lenovo with Intel 4 Series / ICH7 chipset |
@@ -28,25 +28,31 @@ Here's a complete **fan source diagnosis**:
 ## Fan Check Results
 
 ### 1. No hardware fan speed sensors
+
 `/sys/class/hwmon/` only shows:
+
 - `hwmon0` = `acpitz` (motherboard temp)
 - `hwmon1` = `coretemp` (CPU core temps)
 
 **No `fan1_input`, `fan2_input`, or `pwm*` files exist.** The system cannot report fan RPM to software.
 
 ### 2. No ACPI fan devices
+
 ```
 /proc/acpi/fan → does not exist
 /sys/bus/acpi/devices/*FAN* → none found
 ```
 
 ### 3. No GPU thermal zone
+
 ```
 /sys/class/drm/card0/device/hwmon/ → does not exist
 ```
+
 The Intel integrated GPU does not expose a hwmon interface.
 
 ### 4. Thermal policy
+
 - Critical trip point: **110°C**
 - Current temps are **~70°C below critical** — the CPU is basically idle/cool.
 - Cooling devices (`Processor`) show `cur_state=0` (not throttling).
@@ -58,7 +64,7 @@ The Intel integrated GPU does not expose a hwmon interface.
 Your XFCE panel config (`xfce4-panel.xml`) shows **no GPU/sensor plugin** is active. The running plugins are:
 
 | Plugin | Purpose |
-|--------|---------|
+| -------- | --------- |
 | applicationsmenu | Start menu |
 | tasklist | Window list |
 | pager | Workspace switcher |
@@ -70,6 +76,7 @@ Your XFCE panel config (`xfce4-panel.xml`) shows **no GPU/sensor plugin** is act
 | directorymenu | File manager menu |
 
 If you see a "GPU" or "graphics card" icon somewhere, it might be:
+
 - A **generic monitor widget** (e.g., Conky, a custom script, or a system tray icon from a GPU tool you installed previously)
 - A **status icon** for a VM/emulator software
 
@@ -95,6 +102,7 @@ ps aux | grep -iE "nvidia|amd|gpu|temp|sensor|fan"
 ```
 
 Since the system has **no discrete GPU and no fan sensors**, a "GPU graphical card plugin" showing data is either:
+
 - **Reading Intel iGPU stats** (which has no fan/temp sensor), or
 - **A leftover artifact** from software that expects an NVIDIA/AMD card
 

@@ -16,7 +16,7 @@ type: note
 ## 硬件摘要
 
 | 项目 | 详情 |
-|------|------|
+| ------ | ------ |
 | **CPU** | Intel Celeron E3400 @ 2.60GHz（双核） |
 | **GPU** | Intel G41 集成显卡（`i915` 驱动）—— **无独立显卡** |
 | **主板** | 联想，搭载 Intel 4 系列 / ICH7 芯片组 |
@@ -28,25 +28,31 @@ type: note
 ## 风扇检查结果
 
 ### 1. 无硬件风扇转速传感器
+
 `/sys/class/hwmon/` 仅显示：
+
 - `hwmon0` = `acpitz`（主板温度）
 - `hwmon1` = `coretemp`（CPU 核心温度）
 
 **不存在 `fan1_input`、`fan2_input` 或 `pwm*` 文件。** 系统无法向软件报告风扇 RPM。
 
 ### 2. 无 ACPI 风扇设备
+
 ```
 /proc/acpi/fan → 不存在
 /sys/bus/acpi/devices/*FAN* → 未找到
 ```
 
 ### 3. 无 GPU 热区
+
 ```
 /sys/class/drm/card0/device/hwmon/ → 不存在
 ```
+
 Intel 集成 GPU 未暴露 hwmon 接口。
 
 ### 4. 热管理策略
+
 - 临界跳闸点：**110°C**
 - 当前温度低于临界点 **约 70°C** —— CPU 基本处于空闲/冷却状态。
 - 冷却设备（`Processor`）显示 `cur_state=0`（未节流）。
@@ -58,7 +64,7 @@ Intel 集成 GPU 未暴露 hwmon 接口。
 你的 XFCE 面板配置（`xfce4-panel.xml`）显示 **没有 GPU/传感器插件** 处于活动状态。正在运行的插件如下：
 
 | 插件 | 用途 |
-|------|------|
+| ------ | ------ |
 | applicationsmenu | 开始菜单 |
 | tasklist | 窗口列表 |
 | pager | 工作区切换器 |
@@ -70,6 +76,7 @@ Intel 集成 GPU 未暴露 hwmon 接口。
 | directorymenu | 文件管理器菜单 |
 
 如果你在某处看到“GPU”或“显卡”图标，可能是：
+
 - 一个**通用监控小部件**（例如 Conky、自定义脚本或之前安装的 GPU 工具的系统托盘图标）
 - 虚拟机/模拟器软件的**状态图标**
 
@@ -95,6 +102,7 @@ ps aux | grep -iE "nvidia|amd|gpu|temp|sensor|fan"
 ```
 
 由于系统**没有独立 GPU 且没有风扇传感器**，显示数据的“GPU 显卡插件”要么是：
+
 - **读取 Intel iGPU 统计数据**（该 GPU 无风扇/温度传感器），要么是
 - **来自预期检测到 NVIDIA/AMD 显卡软件的残留产物**
 

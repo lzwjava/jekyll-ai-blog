@@ -16,6 +16,7 @@ Fixed. Here's the summary:
 - Activated NTP sync
 
 Current status:
+
 - `NTP service: active`
 - `System clock synchronized: yes`
 - `RTC time` was also updated to the correct synced time

@@ -12,7 +12,7 @@ type: note
 Your system has a **discrete NVIDIA GPU**:
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **GPU** | NVIDIA GeForce GT 730 (GK208B) |
 | **Vendor** | ASUS (`1043:84f7`) |
 | **PCI Address** | `01:00.0` |

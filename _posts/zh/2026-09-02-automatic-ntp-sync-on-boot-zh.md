@@ -16,6 +16,7 @@ type: note
 - 已激活 NTP 同步
 
 当前状态：
+
 - `NTP service: active`
 - `System clock synchronized: yes`
 - `RTC time` 也已更新为正确的同步时间
