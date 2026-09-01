@@ -20,6 +20,7 @@ type: note
 - 他们平台上的广告主为来自这5个国家的流量支付溢价费率，因此他们只接受能够提供此类受众的网站
 
 **他们还提到了两点：**
+
 1. 如果您认为这是误判（例如关联了错误的Google Analytics账户），可以告知他们，他们会重新审核
 2. 您仍然可以使用他们名为 **Maker** 的入门级产品（要求较低），同时逐步提升您的一级国家流量
 
@@ -28,5 +29,6 @@ type: note
 ---
 
 **参考链接：**
+
 - [Monumetric博客 – 广告主审核](https://www.monumetric.com/blog)
 - [Monumetric Maker计划](https://www.monumetric.com/maker)

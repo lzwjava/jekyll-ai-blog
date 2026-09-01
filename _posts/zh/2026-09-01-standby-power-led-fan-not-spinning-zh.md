@@ -55,6 +55,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [华硕H81M-K用户手册 – SB_PWR指示灯 (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=28)
 - [电源连接到主板时风扇不转 (BleepingComputer)](https://www.bleepingcomputer.com/forums/t/735132/psu-fan-not-spinning-when-plugged-into-motherboard/)
 - [主板不通电：如何诊断死板 (TheCoreITech)](https://www.thecoreitech.com/troubleshooting/fix-motherboard-no-power/)

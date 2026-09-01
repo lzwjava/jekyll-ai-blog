@@ -35,6 +35,7 @@ It's common to see 3–4× higher figures in Cloudflare, so a significant gap be
 For understanding your real audience, GA is more accurate. For understanding server demand, Cloudflare is more accurate.
 
 **References:**
+
 - [Cloudflare & Google Analytics: Deciphering the data gap](https://one2love.agency/cloudflare-google-analytics-deciphering-the-data-gap/)
 - [Cloudflare vs. Google Analytics: Why the Numbers Don't Match](https://blog.vijayt.com/cloudflare-vs-google-analytics-why-the-numbers-don-t-match/)
 - [Cloudflare Analytics vs Google Analytics | Firas Esbai](https://www.firasesbai.com/articles/2024/08/11/cloudflare-vs-google-analytics.html)

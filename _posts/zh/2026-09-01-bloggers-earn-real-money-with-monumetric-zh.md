@@ -34,6 +34,7 @@ Monumetric 根据每月页面浏览量设有四个项目层级：**Propel**（1�
 博客作者报告称，使用 Monumetric 每千次页面浏览量（RPM）可赚取 **5 到 30 美元**，但具体收入因细分领域和受众而异。
 
 博客作者的真实案例：
+
 - 一位博客作者报告称，RPM 在 **14 至 22 美元** 之间，取决于一年中的不同时段。
 - 另一位博客作者报告 RPM 为 **7.8 美元**，约 **5 万次页面浏览量** 赚取 **333 美元**。
 - 一些博客作者表示，从自助服务平台切换到 Monumetric 后，收入增长了 **400%**。
@@ -58,6 +59,7 @@ Monumetric 支持两种收入模式——**按点击付费（PPC）** 和 **按�
 ---
 
 **参考资料：**
+
 - [Monumetric Earnings and Payouts – Blogging Explorer](https://bloggingexplorer.com/monumetric-earnings/)
 - [Monumetric Review 2026 – Blogging Explorer](https://bloggingexplorer.com/monumetric-review/)
 - [Monumetric Review – Tech2Geek](https://www.tech2geek.net/monumetric-ad-network-review-how-it-works-rpm-rates-publisher-highlights/)

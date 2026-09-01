@@ -26,6 +26,7 @@ This story is widely seen as defining his leadership philosophy — obsessive cr
 ---
 
 **References:**
+
 - [Apple CEO John Ternus Once Spent Hours Counting 10 Extra Screw Grooves – Benzinga](https://www.benzinga.com/markets/tech/26/09/61542125/apple-ceo-john-ternus-has-a-steve-jobs-like-obsession-with-detail-he-once-fought-over-10-extra-screw-grooves)
 - [Who is John Ternus, the incoming Apple CEO? – TechCrunch](https://techcrunch.com/2026/04/20/who-is-john-ternus-the-incoming-apple-ceo/)
 - [Apple's new CEO is just the right amount of Steve Jobs – Macworld](https://www.macworld.com/article/3119040/apples-new-ceo-is-just-the-right-amount-of-steve-jobs.html)

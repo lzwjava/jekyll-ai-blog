@@ -21,7 +21,7 @@ Windows 7 doesn't have a built-in SSH server, but you can install **Win32-OpenSS
 
 ## Step 1 — Download Win32-OpenSSH
 
-Go to: **https://github.com/PowerShell/Win32-OpenSSH/releases**
+Go to: **<https://github.com/PowerShell/Win32-OpenSSH/releases>**
 
 Download `OpenSSH-Win64.zip` (for 64-bit) or `OpenSSH-Win32.zip` (for 32-bit).
 
@@ -95,6 +95,7 @@ For **Claude specifically**, Claude Code supports SSH-based remote operation —
 ---
 
 References:
+
 - [Install Win32-OpenSSH (GitHub Wiki)](https://github.com/PowerShell/Win32-OpenSSH/wiki/Install-Win32-OpenSSH)
 - [Win32-OpenSSH Releases](https://github.com/PowerShell/Win32-OpenSSH/releases)
 - [WinSCP: Installing SSH Server on Windows](https://winscp.net/eng/docs/guide_windows_openssh_server)

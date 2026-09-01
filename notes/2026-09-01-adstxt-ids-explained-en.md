@@ -32,7 +32,7 @@ google.com, pub-6168351539440296, DIRECT, f08c47fec0942fa0
 ```
 
 | Field | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | Domain | `google.com` | The ad network/exchange authorized to sell |
 | Seller ID | `pub-6168351539440296` | Your unique publisher account ID on that platform |
 | Relationship | `DIRECT` or `RESELLER` | How the inventory is being sold |
@@ -67,6 +67,7 @@ Lines ending with `#nativo` or `#Illumin` are just **human-readable comments** t
 ---
 
 **References:**
+
 - [IAB Tech Lab ads.txt Spec](https://iabtechlab.com/ads-txt/)
 - [Google ads.txt Guide](https://support.google.com/admanager/answer/7441288)
 - [IAB sellers.json Spec](https://iabtechlab.com/sellers-json/)

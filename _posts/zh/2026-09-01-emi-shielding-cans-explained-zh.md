@@ -30,6 +30,7 @@ PCB上那些金属"盾牌"形状的物体叫做**EMI屏蔽罩**（也称射频�
 简而言之：它们是**电磁屏蔽罩**，而非电池或任何锂相关部件。它们保护敏感电路免受无线电/电磁噪声影响——这是现代家电或电脑元件中不可或缺的设计。
 
 **参考来源：**
+
 - [PCB电磁屏蔽最佳实践 – JLCPCB](https://jlcpcb.com/blog/emi-shielding-pcb)
 - [屏蔽：在PCB上使用金属屏蔽罩进行EMI屏蔽 – MADPCB](https://madpcb.com/glossary/shield/)
 - [EMI基础与板级屏蔽设计 – Interference Technology](https://interferencetechnology.com/emi-basics-and-board-level-shielding-design/)

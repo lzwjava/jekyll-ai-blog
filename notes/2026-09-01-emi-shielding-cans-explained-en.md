@@ -30,6 +30,7 @@ Modern electronics are full of EMI concerns — with clock speeds in the GHz and
 In short: they're **electromagnetic shields**, not batteries or anything lithium-related. They protect sensitive circuits from radio/electromagnetic noise — essential in any modern appliance or computer component.
 
 **References:**
+
 - [EMI Shielding for PCBs: Best Practices – JLCPCB](https://jlcpcb.com/blog/emi-shielding-pcb)
 - [Shield: Using Metal Shield Cans on PCB for EMI Shielding – MADPCB](https://madpcb.com/glossary/shield/)
 - [EMI Basics and Board Level Shielding Design – Interference Technology](https://interferencetechnology.com/emi-basics-and-board-level-shielding-design/)

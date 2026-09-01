@@ -20,6 +20,7 @@ Your application to **Monumetric** (a premium ad network) was **rejected**. Here
 - Advertisers on their platform pay premium rates for traffic from those 5 countries, so they only accept sites that can deliver that audience
 
 **They also mentioned two things:**
+
 1. If you think it's a mistake (wrong Google Analytics account was connected), you can tell them and they'll re-review
 2. You can still use their entry-level tier called **Maker** (which has lower requirements) while you grow your tier-1 traffic
 
@@ -28,5 +29,6 @@ Your application to **Monumetric** (a premium ad network) was **rejected**. Here
 ---
 
 **References:**
+
 - [Monumetric Blog – Advertiser Approvals](https://www.monumetric.com/blog)
 - [Monumetric Maker Program](https://www.monumetric.com/maker)

@@ -32,7 +32,7 @@ google.com, pub-6168351539440296, DIRECT, f08c47fec0942fa0
 ```
 
 | 字段 | 值 | 含义 |
-|---|---|---|
+| --- | --- | --- |
 | 域名 | `google.com` | 获授权销售的广告网络/广告交易平台 |
 | 卖家ID | `pub-6168351539440296` | 您在该平台上的唯一发布商账户ID |
 | 关系类型 | `DIRECT` 或 `RESELLER` | 广告库存的销售方式 |
@@ -67,6 +67,7 @@ google.com, pub-6168351539440296, DIRECT, f08c47fec0942fa0
 ---
 
 **参考来源：**
+
 - [IAB 技术实验室 ads.txt 规范](https://iabtechlab.com/ads-txt/)
 - [Google ads.txt 指南](https://support.google.com/admanager/answer/7441288)
 - [IAB sellers.json 规范](https://iabtechlab.com/sellers-json/)

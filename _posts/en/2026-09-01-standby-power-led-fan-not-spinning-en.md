@@ -55,6 +55,7 @@ Bridging the green PS_ON pin to a black ground pin (the paperclip trick) forces 
 ---
 
 **References:**
+
 - [ASUS H81M-K User Manual – SB_PWR LED (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=28)
 - [PSU fan not spinning when plugged into motherboard (BleepingComputer)](https://www.bleepingcomputer.com/forums/t/735132/psu-fan-not-spinning-when-plugged-into-motherboard/)
 - [Motherboard No Power: How to Diagnose a Dead Board (TheCoreITech)](https://www.thecoreitech.com/troubleshooting/fix-motherboard-no-power/)

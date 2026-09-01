@@ -26,6 +26,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [苹果CEO约翰·特努斯曾花数小时数多余10条螺丝纹 – Benzinga](https://www.benzinga.com/markets/tech/26/09/61542125/apple-ceo-john-ternus-has-a-steve-jobs-like-obsession-with-detail-he-once-fought-over-10-extra-screw-grooves)
 - [谁是即将上任的苹果CEO约翰·特努斯？ – TechCrunch](https://techcrunch.com/2026/04/20/who-is-john-ternus-the-incoming-apple-ceo/)
 - [苹果新任CEO恰到好处地继承了乔布斯风格 – Macworld](https://www.macworld.com/article/3119040/apples-new-ceo-is-just-the-right-amount-of-steve-jobs.html)

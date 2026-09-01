@@ -34,6 +34,7 @@ Monumetric has four program tiers based on monthly pageviews: **Propel** (10K–
 Bloggers report earning anywhere between **$5 to $30 per 1,000 pageviews (RPM)** with Monumetric, though results vary depending on your niche and audience.
 
 Real examples from bloggers:
+
 - One blogger reported RPMs ranging between **$14 and $22** depending on the time of year.
 - Another blogger reported an RPM of **$7.8**, earning **$333 for ~50,000 pageviews**.
 - Some bloggers have reported a **400% increase in revenue** after switching to Monumetric from self-service platforms.
@@ -58,6 +59,7 @@ Payment is on **net-60 terms**, meaning you get paid 60 days after the month end
 ---
 
 **References:**
+
 - [Monumetric Earnings and Payouts – Blogging Explorer](https://bloggingexplorer.com/monumetric-earnings/)
 - [Monumetric Review 2026 – Blogging Explorer](https://bloggingexplorer.com/monumetric-review/)
 - [Monumetric Review – Tech2Geek](https://www.tech2geek.net/monumetric-ad-network-review-how-it-works-rpm-rates-publisher-highlights/)
