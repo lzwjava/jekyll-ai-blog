@@ -36,6 +36,7 @@ The COVID-19 pandemic triggered a 25% jump in anxiety and depression rates durin
 The core pattern is that uncertainty — financial, political, technological, and social — triggers the brain's threat-detection system, which evolved for physical dangers but now runs continuously in response to abstract, never-ending modern stressors.
 
 **References:**
+
 - [APA 2026 Annual Mental Health Poll](https://www.psychiatry.org/news-room/news-releases/2026-annual-mental-health-poll)
 - [America's Anxiety Crisis in 2026 — Diamond Behavioral Health](https://diamondbehavioralhealth.com/blog/americas-anxiety-crisis-in-2026/)
 - [Anxiety in 2026: Why People Feel Overwhelmed — Alssaro](https://www.alssaro.com/anxiety-in-2026-why-so-many-people-feel-overwhelmed-right-now/)

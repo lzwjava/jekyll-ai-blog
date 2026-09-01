@@ -43,6 +43,7 @@ type: note
 ---
 
 参考资料：
+
 - [《彼得原理》——劳伦斯·J·彼得](https://en.wikipedia.org/wiki/Peter_principle)
 - [《创新者的窘境》——克莱顿·克里斯坦森](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma)
 - [《高增长科技公司的组织设计》——a16z](https://a16z.com/how-to-structure-your-engineering-team/)

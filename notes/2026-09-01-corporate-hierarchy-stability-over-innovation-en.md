@@ -43,6 +43,7 @@ The core tradeoff: big corps trade **speed and innovation** for **stability and 
 ---
 
 References:
+
 - [The Peter Principle – Laurence J. Peter](https://en.wikipedia.org/wiki/Peter_principle)
 - [Innovator's Dilemma – Clayton Christensen](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma)
 - [Org Design at High-Growth Tech Companies – a16z](https://a16z.com/how-to-structure-your-engineering-team/)

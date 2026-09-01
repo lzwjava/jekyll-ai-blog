@@ -40,6 +40,7 @@ type: note
 **简而言之：** 沉重的房贷不仅掏空你的钱包——它还持续消耗你的心智CPU，使深度学习与研究变得真正困难，而不仅仅是情绪上令人沮丧。科学对此已有明确结论。
 
 **参考文献：**
+
 - [匮乏心态心理学 – Simply Psychology](https://www.simplypsychology.com/articles/scarcity-mindset-psychology)
 - [贫困阻碍认知功能 – PubMed / Science (2013)](https://pubmed.ncbi.nlm.nih.gov/23990553/)
 - [持续性财务逆境与认知老化 – Innovation in Aging (2026)](https://academic.oup.com/innovateage/article/10/8/igag054/8739704)

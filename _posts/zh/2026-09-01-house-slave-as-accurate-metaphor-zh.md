@@ -30,6 +30,7 @@ type: note
 不过，这个概念并非中国独有。在洛杉矶、伦敦或悉尼等全球各地，只要住房成本吞噬了收入的绝大部分，“房贷奴隶”或“房奴”这个说法都能引起共鸣。只是中文术语给了它一个直白而诚实的名称。
 
 **参考资料：**
+
 - [Mortgage slave – Wikipedia](https://en.wikipedia.org/wiki/Mortgage_slave)
 - [The Narrative Construction of Fang-Nu – Springer](https://link.springer.com/chapter/10.1057/978-1-137-53359-3_7)
 - [Chinese 'house slaves' grow in booming economy – CNN](https://www.cnn.com/2010/BUSINESS/01/20/china.gdp.narrow.dwelling/index.html)

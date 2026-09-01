@@ -40,6 +40,7 @@ The concept of a "scarcity mindset" posits that financial strain imposes a cogni
 **In short:** Heavy mortgage debt doesn't just drain your wallet — it continuously drains your mental CPU, making deep learning and studying genuinely harder, not just emotionally discouraging. The science is clear on this.
 
 **References:**
+
 - [The Psychology of Scarcity Mindset – Simply Psychology](https://www.simplypsychology.com/articles/scarcity-mindset-psychology)
 - [Poverty Impedes Cognitive Function – PubMed / Science (2013)](https://pubmed.ncbi.nlm.nih.gov/23990553/)
 - [Persistent Financial Adversity and Cognitive Aging – Innovation in Aging (2026)](https://academic.oup.com/innovateage/article/10/8/igag054/8739704)

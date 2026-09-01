@@ -30,6 +30,7 @@ The term also reflects uniquely Chinese pressures: in China, housing is tied to 
 The concept is hardly unique to China though. "Mortgage slave" or "house slave" resonates globally wherever housing costs consume a crushing share of income — whether in Los Angeles, London, or Sydney. The Chinese term just gave it a blunt, honest name.
 
 **References:**
+
 - [Mortgage slave – Wikipedia](https://en.wikipedia.org/wiki/Mortgage_slave)
 - [The Narrative Construction of Fang-Nu – Springer](https://link.springer.com/chapter/10.1057/978-1-137-53359-3_7)
 - [Chinese 'house slaves' grow in booming economy – CNN](https://www.cnn.com/2010/BUSINESS/01/20/china.gdp.narrow.dwelling/index.html)

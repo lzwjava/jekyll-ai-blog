@@ -36,6 +36,7 @@ type: note
 核心模式在于：不确定性——无论是经济、政治、技术还是社会层面的——会触发大脑的威胁检测系统。该系统本为应对物理危险而进化，如今却持续对抽象且无休止的现代压力源做出反应。
 
 **参考文献：**
+
 - [APA 2026年度心理健康民意调查](https://www.psychiatry.org/news-room/news-releases/2026-annual-mental-health-poll)
 - [America's Anxiety Crisis in 2026 — Diamond Behavioral Health](https://diamondbehavioralhealth.com/blog/americas-anxiety-crisis-in-2026/)
 - [Anxiety in 2026: Why People Feel Overwhelmed — Alssaro](https://www.alssaro.com/anxiety-in-2026-why-so-many-people-feel-overwhelmed-right-now/)
