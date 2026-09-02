@@ -12,7 +12,7 @@ type: note
 Here's the motherboard info for this machine:
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | **Vendor** | Lenovo |
 | **Board Name** | LENOVO |
 | **Board Version** | INVALID (not set) |

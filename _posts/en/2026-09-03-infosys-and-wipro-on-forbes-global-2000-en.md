@@ -24,6 +24,7 @@ In terms of scale relative to peers, among India's largest IT service providers 
 The most recent Forbes Global 2000 (2026 edition, published June 24, 2026) was compiled using data from FactSet Research, measuring sales, profits, assets, and market value, with market value calculations based on closing prices as of May 15, 2026. Both Infosys and Wipro appear on that list.
 
 **References:**
+
 - [Forbes Global 2000 – 2026](https://www.forbes.com/lists/global2000/)
 - [India's Largest Companies 2025 on Global 2000 – Forbes](https://www.forbes.com/sites/anuraghunathan/2025/06/12/indias-largest-companies-2025-big-banks-highlight-indias-presence-on-the-global-2000/)
 - [Infosys Awards & Accolades](https://www.infosys.com/about/awards.html)

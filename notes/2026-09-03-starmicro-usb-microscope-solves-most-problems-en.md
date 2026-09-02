@@ -20,7 +20,7 @@ Yes — actually, **it directly solves most of the problems** raised in the prev
 **Problem 1: IPD Mismatch / Eye Strain**
 
 | Aomekie Binocular | StarMICRO USB |
-|---|---|
+| --- | --- |
 | Two eyepieces, fixed IPD | **No eyepieces at all** |
 | Eye strain from misalignment | **Zero eye strain — you watch a screen** |
 | Only one person views at a time | **Multiple people can watch simultaneously** |
@@ -32,7 +32,7 @@ Yes — actually, **it directly solves most of the problems** raised in the prev
 **Problem 2: Hard to Observe Flat Objects (Cards, Slides, PCB)**
 
 | Aomekie Binocular | StarMICRO USB |
-|---|---|
+| --- | --- |
 | Awkward working distance | **Flexible stand, adjustable height** |
 | Stereo depth wasted on flat surfaces | **Camera optimized for flat + macro** |
 | Lighting is tricky | **Built-in LED ring light, adjustable** |
@@ -67,5 +67,6 @@ This was previously a *workaround* for the Aomekie. For the StarMICRO:
 For your specific use case — observing cards, small flat objects, avoiding eye strain — the StarMICRO USB microscope is a **significantly better fit** than the Aomekie binocular. It trades stereo depth (which you don't need for flat objects) for screen-based viewing, which is exactly what you were already preferring.
 
 **References:**
+
 - [USB Digital Microscope Guide — Microscope Clarity](https://microscopeclarity.com/best-usb-microscope/)
 - [StarMICRO on JD.com](https://www.jd.com/chanpin/2609891.html)

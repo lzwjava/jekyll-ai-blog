@@ -20,7 +20,7 @@ type: note
 **问题 1：瞳距不匹配/眼睛疲劳**
 
 | Aomekie 双目显微镜 | StarMICRO USB |
-|---|---|
+| --- | --- |
 | 两个目镜，固定瞳距 | **完全无目镜** |
 | 因不对齐导致眼睛疲劳 | **零眼睛疲劳——观看屏幕** |
 | 一次只能一人观看 | **可多人同时观看** |
@@ -30,7 +30,7 @@ type: note
 **问题 2：难以观察平面物体（卡片、载玻片、PCB）**
 
 | Aomekie 双目显微镜 | StarMICRO USB |
-|---|---|
+| --- | --- |
 | 工作距离不便 | **灵活支架，高度可调** |
 | 立体深度在平面上浪费 | **摄像头针对平面+微距优化** |
 | 照明难以控制 | **内置LED环形灯，可调节** |
@@ -59,5 +59,6 @@ type: note
 对于你的具体使用场景——观察卡片、小型平面物体、避免眼睛疲劳——StarMICRO USB 显微镜比 Aomekie 双目显微镜**更适合**。它用屏幕观看换来了立体深度（对于平面物体你并不需要），而这正是你之前已经偏好的方式。
 
 **参考资料：**
+
 - [USB Digital Microscope Guide — Microscope Clarity](https://microscopeclarity.com/best-usb-microscope/)
 - [StarMICRO on JD.com](https://www.jd.com/chanpin/2609891.html)

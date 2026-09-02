@@ -24,6 +24,7 @@ Infosys 和 Wipro 均定期出现在该榜单中：
 最新的《福布斯》全球2000强（2026 年版，2026 年 6 月 24 日发布）使用 FactSet Research 的数据编制，衡量销售额、利润、资产和市值，市值计算基于 2026 年 5 月 15 日的收盘价。Infosys 和 Wipro 均出现在该榜单中。
 
 **参考资料：**
+
 - [Forbes Global 2000 – 2026](https://www.forbes.com/lists/global2000/)
 - [India's Largest Companies 2025 on Global 2000 – Forbes](https://www.forbes.com/sites/anuraghunathan/2025/06/12/indias-largest-companies-2025-big-banks-highlight-indias-presence-on-the-global-2000/)
 - [Infosys Awards & Accolades](https://www.infosys.com/about/awards.html)

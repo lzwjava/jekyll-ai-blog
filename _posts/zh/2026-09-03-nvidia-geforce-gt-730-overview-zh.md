@@ -12,7 +12,7 @@ type: note
 这台机器中的GPU是**NVIDIA GeForce GT 730**（GK208B芯片，rev a1）。
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | **GPU型号** | NVIDIA GeForce GT 730 |
 | **芯片** | GK208B (Kepler architecture) |
 | **总线** | PCI Express (01:00.0) |
