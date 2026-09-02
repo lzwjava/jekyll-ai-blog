@@ -38,7 +38,7 @@ For flat objects like cards, slides, or documents, a stereo microscope at 20x is
 For many practical use cases, **yes, honestly it can be better**:
 
 | Factor | Binocular Microscope | Phone + Macro Lens / USB Microscope |
-|---|---|---|
+| --- | --- | --- |
 | Eye strain | High (IPD mismatch) | None |
 | Shared viewing | No | Yes (screen) |
 | Recording | No | Easy |
@@ -51,5 +51,6 @@ For many practical use cases, **yes, honestly it can be better**:
 This type of microscope shines for **3D objects** (insects, coins, rocks, flowers) where stereo depth perception adds real value — and only if the IPD happens to fit your eyes. For cards, slides, or when the IPD doesn't match, a **USB digital microscope or phone macro lens** connected to a screen is genuinely more practical and less frustrating for most users.
 
 **References:**
+
 - [Understanding Interpupillary Distance in Microscopes](https://www.microscopeworld.com/t-interpupillary_distance.aspx)
 - [Stereo vs. Compound Microscope — Which Should You Choose?](https://www.amscope.com/blogs/learning-center/stereo-vs-compound-microscope)

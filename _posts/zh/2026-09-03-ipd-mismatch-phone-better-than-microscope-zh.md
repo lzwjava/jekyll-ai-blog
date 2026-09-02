@@ -38,7 +38,7 @@ type: note
 在许多实际使用场景中，**是的，坦白说确实更好**：
 
 | 因素 | 双目显微镜 | 手机+微距镜头/USB显微镜 |
-|---|---|---|
+| --- | --- | --- |
 | 眼睛疲劳 | 高（瞳距不匹配） | 无 |
 | 多人同时观看 | 否 | 是（屏幕） |
 | 录制 | 否 | 容易 |
@@ -51,5 +51,6 @@ type: note
 这类显微镜擅长观察**3D物体**（昆虫、硬币、岩石、花朵）——此时立体深度感知具有真正的价值——而且前提是瞳距恰好适合你的眼睛。对于卡片、玻片，或当瞳距不匹配时，连接屏幕的**USB数码显微镜或手机微距镜头**对大多数用户来说确实更实用、更不令人沮丧。
 
 **参考资料：**
+
 - [Understanding Interpupillary Distance in Microscopes](https://www.microscopeworld.com/t-interpupillary_distance.aspx)
 - [Stereo vs. Compound Microscope — Which Should You Choose?](https://www.amscope.com/blogs/learning-center/stereo-vs-compound-microscope)
