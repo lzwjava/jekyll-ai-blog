@@ -20,7 +20,7 @@ Your stated specifications are correct and align with the Hong Kong Immigration 
 **Technical Specs**
 
 | Requirement | Detail |
-|---|---|
+| --- | --- |
 | File Format | JPEG only |
 | File Size | 5 MB or below |
 | Min. Digital Resolution | 1,200 px (W) × 1,600 px (H) |
@@ -42,5 +42,6 @@ The Hong Kong Immigration Department specifies: image type must be JPEG, file si
 ---
 
 **References:**
+
 - [Photograph Requirements – Hong Kong Immigration Department](https://www.immd.gov.hk/eng/residents/immigration/traveldoc/photorequirements.html)
 - [GovHK – Online Application for QMAS](https://www.gov.hk/en/nonresidents/visarequire/visasentrypermits/applyqmas.htm)

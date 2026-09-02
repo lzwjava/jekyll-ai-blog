@@ -20,6 +20,7 @@ The problem is that a **generic HSBC Mastercard debit card is NOT on the eligibl
 7. **HSBC Premier Elite Mastercard Debit Card**
 
 Notice that the only **debit** cards in the list are the two premium tiers:
+
 - **HSBC Global Private Banking Mastercard Debit Card**, and
 - **HSBC Premier Elite Mastercard Debit Card**.
 

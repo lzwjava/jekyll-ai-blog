@@ -12,7 +12,7 @@ type: note
 Here's your GPU info:
 
 | Item | Value |
-|------|-------|
+| ------ | ------- |
 | **GPU** | NVIDIA GK208B — **GeForce GT 730** (rev a1) |
 | **Driver** | nouveau (open-source) |
 | **Temperature** | 32.0°C |

@@ -16,9 +16,11 @@ This isn't really a coding task, but here's why you're getting **"The current pr
 The "privilege code" modal for HSBC Mastercard Presale isn't accepting an arbitrary code — it validates the **first 6 digits of your card BIN** against a **whitelist of HSBC Hong Kong–issued Mastercard BINs** that the organiser loaded for this event. The placeholder text literally says *"Please enter the first 6 digits of your card BIN for priority booking"*.
 
 So the server-side check is essentially:
+
 ```
 is 6 digits?  AND  starts with Mastercard range?  AND  BIN ∈ HSBC_HK_eligible_BIN_whitelist?  AND  now ∈ [2 Sep 2026 13:00, 23:59 HKT]?
 ```
+
 If any condition fails → "invalid promo code".
 
 ## Likely reasons it failed for `541375`

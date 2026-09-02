@@ -20,7 +20,7 @@ type: note
 **技术规格**
 
 | 要求 | 详情 |
-|---|---|
+| --- | --- |
 | 文件格式 | 仅限JPEG |
 | 文件大小 | 5 MB或以下 |
 | 最低数码分辨率 | 1,200像素（宽）× 1,600像素（高） |
@@ -42,5 +42,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [照片要求 – 香港入境事务处](https://www.immd.gov.hk/eng/residents/immigration/traveldoc/photorequirements.html)
 - [GovHK – 优秀人才入境计划在线申请](https://www.gov.hk/en/nonresidents/visarequire/visasentrypermits/applyqmas.htm)

@@ -16,9 +16,11 @@ type: note
 HSBC Mastercard预售的“特权码”弹窗并不是接受任意代码——它会验证你卡片BIN的**前6位数字**，并与主办方为此活动加载的**香港汇丰银行发行的Mastercard BIN白名单**进行比对。占位符文本明确写着*“请输入您卡片BIN的前6位数字以进行优先预订”*。
 
 因此服务器端的检查本质上是：
+
 ```
 is 6 digits?  AND  starts with Mastercard range?  AND  BIN ∈ HSBC_HK_eligible_BIN_whitelist?  AND  now ∈ [2 Sep 2026 13:00, 23:59 HKT]?
 ```
+
 如果任何条件不满足 → "invalid promo code"。
 
 ## `541375` 可能失败的原因
