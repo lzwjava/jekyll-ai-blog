@@ -301,7 +301,7 @@ GitHub: [lzwjava/ww](https://github.com/lzwjava/ww)
 
 ## 📝 jekyll-ai-blog — AI-Powered Blog Platform
 
-[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog) is the source for [lzwjava.github.io](https://lzwjava.github.io) — a Jekyll blog enhanced with AI-powered automation. 10,000+ English posts, 10,000+ Chinese posts, 9,700+ AI answer notes. ~70,000 page views in the past month (Cloudflare Analytics).
+[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog) is the source for [lzwjava.github.io](https://lzwjava.github.io) — a Jekyll blog enhanced with AI-powered automation. 10,000+ English posts, 10,000+ Chinese posts, 9,700+ AI answer notes. ~100,000 page views in the past month (Cloudflare Analytics).
 
 ```
 lzwjava@lzw-mac jekyll-ai-blog % ls README.md
@@ -326,11 +326,11 @@ README.md
 | AI answer notes | 9,794 |
 | Python scripts | 323 |
 | ML scripts | 191 |
-| Page views (past month) | ~70,000 |
+| Page views (past month) | ~100,000 |
 
 ![jekyll-ai-blog — AI-powered blog with 10K+ posts, translation, TTS, and PDF pipelines](/assets/images/ai-portfolio/blog.png)
 
-![Cloudflare Web Analytics — 38.9K visits, 45.2K page views, 930ms load time, 82% good LCP](/assets/images/ai-portfolio/cloudflare-analytics.png)
+![Page views (past month) — ~100,000](https://lzwjava.com/assets/images/analytics/pv.png)
 
 GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
 
