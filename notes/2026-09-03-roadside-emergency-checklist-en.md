@@ -14,11 +14,13 @@ Yes, you're right to prepare for roadside emergencies. Here's a practical checkl
 ## 🚗 What to Keep in the Car
 
 **Spare tire & tire tools**
+
 - Spare tire (full-size or space-saver) — check air pressure periodically
 - Jack and lug wrench
 - Wheel chocks (to stop the car rolling while jacked up)
 
 **Repair basics**
+
 - Tire repair kit (plugs + sealant) for small punctures
 - Portable air compressor (12V)
 - Jumper cables / portable jump-starter
@@ -26,6 +28,7 @@ Yes, you're right to prepare for roadside emergencies. Here's a practical checkl
 - Duct tape & zip ties
 
 **Emergency & safety**
+
 - Reflective warning triangle or flares
 - Flashlight + extra batteries
 - First aid kit
