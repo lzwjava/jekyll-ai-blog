@@ -14,7 +14,7 @@ Got it. Here's the GPU info for that server:
 ## GPU Summary
 
 | Item | Value |
-|---|---|
+| --- | --- |
 | **GPU Model** | NVIDIA RTX PRO 6000 Blackwell |
 | **GPU Count** | 1 |
 | **VRAM** | 96 GB GDDR (97,887 MiB total) |
@@ -31,6 +31,7 @@ Got it. Here's the GPU info for that server:
 | **MIG** | N/A |
 
 ## Current State
+
 - **Memory used:** 0 MiB / 97,887 MiB — GPU is completely idle and empty.
 - **Running processes:** None.
 

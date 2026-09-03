@@ -14,7 +14,7 @@ Fixed. The file went from `0644` (`-rw-r--r--`) to `0600` (`-rw-------`).
 ## What the permissions mean
 
 | | Before (`0644`) | After (`0600`) |
-|---|---|---|
+| --- | --- | --- |
 | Owner | read ✅ write ✅ | read ✅ write ✅ |
 | Group | read ✅ | ❌ |
 | Others | read ✅ | ❌ |
