@@ -47,6 +47,7 @@ Windows USB/UVC 驱动程序
    USB2.0 UVC PC Camera
    GL USB2.0 UVC Camera Device
    ```
+
 4. 打开 **AMCap**。
 5. `Devices` → 选择该显微镜。
 6. 您应该就能看到显微镜的实时画面。

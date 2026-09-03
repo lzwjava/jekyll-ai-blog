@@ -47,6 +47,7 @@ So for the kind of microscope you're talking about, I'd try:
    USB2.0 UVC PC Camera
    GL USB2.0 UVC Camera Device
    ```
+
 4. Open **AMCap**.
 5. `Devices` → select the microscope.
 6. You should get the microscope's live video.
