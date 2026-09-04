@@ -16,7 +16,7 @@ Yes, your understanding is basically correct, but let me clarify a few details f
 This is not a regular Debian/Ubuntu desktop install. The image (restored to a 250G+ disk with 5–6 MBR partitions, or used as a USB version 「优盘版」) gives you a **boot menu with 7 options**:
 
 | Menu | System | Purpose |
-|------|--------|---------|
+| ------ | -------- | --------- |
 | 1 | **DOS** | Old NVIDIA cards (GTX6xx/5xx/2xx/GTxxx/8400GS and below) |
 | 2 | Linux | NVIDIA up to RTX 3090 |
 | 3 | Linux | NVIDIA up to 2080Ti |
