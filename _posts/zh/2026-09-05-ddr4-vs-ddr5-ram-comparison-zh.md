@@ -54,7 +54,7 @@ AMD Ryzen 7000/8000/9000（AM5）和 Intel Arrow Lake（LGA1851）仅支持 DDR5
 **快速决策指南：**
 
 | | DDR4 | DDR5 |
-|---|---|---|
+| --- | --- | --- |
 | 速度 | 最高约 3600 MHz | 4800–7200+ MHz |
 | 延迟 | 较低 CL（CL16） | 已改善（CL32 at 6400） |
 | 容量/每根 | 最高 32 GB | 最高 128 GB |
@@ -67,6 +67,7 @@ AMD Ryzen 7000/8000/9000（AM5）和 Intel Arrow Lake（LGA1851）仅支持 DDR5
 ---
 
 **参考文献：**
+
 - [DDR5 vs DDR4 RAM in 2026 — Newegg Insider](https://www.newegg.com/insider/ddr5-vs-ddr4-in-2026-what-actually-changed-and-why-it-matters-for-your-next-build/)
 - [DDR4 vs DDR5 Complete Comparison 2026 — RAMSeeker](https://ramseeker.com/ddr4-vs-ddr5-ram-complete-comparison-2026/)
 - [DDR4 vs DDR5 — DropReference](https://dropreference.com/en/blog/guide/ddr4-vs-ddr5)

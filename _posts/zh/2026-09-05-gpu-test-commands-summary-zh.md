@@ -14,7 +14,7 @@ type: note
 ### NVIDIA（N卡）测试流程
 
 | 步骤 | 描述 | 命令/操作 |
-|------|------|-----------|
+| ------ | ------ | ----------- |
 | 1 | 开机，按 **F8** 选择 **Legacy/Traditional mode** 启动 | — |
 | 2 | 根据显卡型号选择对应程序：**1/2/3** = 主要用于N卡，**4/5/6** = 主要用于A卡 | — |
 | 3 | 程序自动运行（通过或失败——暂时忽略），然后输入 | `LS` |
@@ -32,23 +32,30 @@ type: note
 1. **步骤11–14**：将外接显示器插入主板。按 **Del** 进入BIOS（以ASUS H170 PRO为例）→ 按 **F7** 进入高级模式 → **Advanced** → **System Agent (SA) Configuration** → **Graphics Configuration** → 将 **Primary Display** 设置为 **CPU Graphics**（iGPU）或 **PCIE**（dGPU）→ **F10** 保存并退出。
 2. **步骤16**：进入版本400.250，运行 `./mats –e 10`
 3. **步骤18**：**先设置环境**（使用iGPU测试dGPU时必须执行）：
+
    ```
    ./mods gputest.js -skip_rm_state_init -notest
    ```
+
 4. **步骤19**：必须看到 **PASS** 画面才能继续，否则GPU存在硬件故障（供电或核心）。
 5. **步骤20**：在后台运行测试：
+
    ```
    ./mats -n 1 -e 5
    ```
+
 6. **步骤21**：查看结果：
+
    ```
    less report.txt
    ```
+
    （FBI0A0后全为零 = PASS；有数字 = FAIL）
 7. **步骤27 —— N卡显存布局**：
    - 双面卡：A面 = 高字节 32–63，B面 = 低字节 0–31
    - 单面卡：左（下）侧 = 高字节 32–63，右（上）侧 = 低字节 0–31
 8. **步骤29 —— 二次验证**（确认核心或显存故障）：
+
    ```
    ./mods gputest.js -oqa -test 118 -matsinfo
    ```

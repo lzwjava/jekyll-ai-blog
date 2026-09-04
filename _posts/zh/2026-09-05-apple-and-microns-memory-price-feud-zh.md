@@ -64,6 +64,7 @@ type: note
 ### 🧩 最终结论
 
 这个故事本质上是一场**经典的供应链权力斗争**：
+
 - 苹果利用其主导地位，在供应商疲弱时压垮了内存价格 → 供应商无法投资新产能。
 - 当AI需求爆发、供应紧张时，内存价格飙升。
 - 苹果大声抱怨——尽管美光认为，正是苹果自身的行为导致了短缺。
@@ -72,6 +73,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [美光指责苹果导致当前内存危机](https://wccftech.com/micron-blames-apple-for-the-ongoing-memory-crisis-says-it-took-advantage-of-the-last-down-cycle-to-pay-rock-bottom-prices-deterring-capacity-expansion/)
 - [苹果是否助长了它如今归咎于美光的内存短缺？](https://finance.yahoo.com/technology/articles/did-apple-help-create-memory-142843333.html)
 - [蒂姆·库克指责美光；美光暗示苹果助长了短缺](https://moneywise.com/news/top-stories/tim-cook-apple-price-hike-micron)

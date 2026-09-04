@@ -62,7 +62,7 @@ Correct half looks like:
 Most PSU cables including 航嘉 (Huntkey) are labeled directly on the connector or cable:
 
 | Label on connector | Meaning |
-|---|---|
+| --- | --- |
 | `CPU` | This is the ATX12V cable |
 | `ATX12V` | Correct label |
 | `+12V` | Same cable |
@@ -74,6 +74,7 @@ Most PSU cables including 航嘉 (Huntkey) are labeled directly on the connector
 **Method 4 — Look at wire colors:**
 
 The correct 4-pin half for ATX12V always has:
+
 ```
 Pin 1 = Yellow (+12V)
 Pin 2 = Yellow (+12V)
@@ -96,5 +97,6 @@ The plastic keying makes it nearly impossible to insert the wrong half. So if it
 ---
 
 **References:**
+
 - [ASUS H81M-K User Manual – ATX Power Connectors (Page 25)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=25)
 - [Tom's Hardware – 4-pin ATX12V connector identification](https://forums.tomshardware.com/threads/atx-12v-connector.1664339/)

@@ -54,7 +54,7 @@ AMD Ryzen 7000/8000/9000 (AM5) and Intel Arrow Lake (LGA1851) require DDR5 only,
 **Quick Decision Guide:**
 
 | | DDR4 | DDR5 |
-|---|---|---|
+| --- | --- | --- |
 | Speed | Up to ~3600 MHz | 4800–7200+ MHz |
 | Latency | Lower CL (CL16) | Improved (CL32 at 6400) |
 | Capacity/stick | Up to 32 GB | Up to 128 GB |
@@ -67,6 +67,7 @@ For any new build in 2026, DDR5 is the obvious choice. DDR4 remains relevant onl
 ---
 
 **References:**
+
 - [DDR5 vs DDR4 RAM in 2026 — Newegg Insider](https://www.newegg.com/insider/ddr5-vs-ddr4-in-2026-what-actually-changed-and-why-it-matters-for-your-next-build/)
 - [DDR4 vs DDR5 Complete Comparison 2026 — RAMSeeker](https://ramseeker.com/ddr4-vs-ddr5-ram-complete-comparison-2026/)
 - [DDR4 vs DDR5 — DropReference](https://dropreference.com/en/blog/guide/ddr4-vs-ddr5)

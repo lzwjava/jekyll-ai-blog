@@ -64,6 +64,7 @@ Apple's suppliers — Samsung, SK Hynix, and Micron — are also now facing a cl
 ### 🧩 The Bottom Line
 
 The story is essentially a **classic supply-chain power struggle**:
+
 - Apple used its dominance to crush memory prices when suppliers were weak → suppliers couldn't invest in new capacity.
 - When AI demand exploded and supply was tight, memory prices skyrocketed.
 - Apple complained loudly — even though Micron argues Apple's own behavior caused the shortage.
@@ -72,6 +73,7 @@ The story is essentially a **classic supply-chain power struggle**:
 ---
 
 **References:**
+
 - [Micron Blames Apple For The Ongoing Memory Crisis](https://wccftech.com/micron-blames-apple-for-the-ongoing-memory-crisis-says-it-took-advantage-of-the-last-down-cycle-to-pay-rock-bottom-prices-deterring-capacity-expansion/)
 - [Did Apple Help Create the Memory Shortage It's Now Blaming on Micron?](https://finance.yahoo.com/technology/articles/did-apple-help-create-memory-142843333.html)
 - [Tim Cook blames Micron; Micron suggests Apple helped cause the shortage](https://moneywise.com/news/top-stories/tim-cook-apple-price-hike-micron)

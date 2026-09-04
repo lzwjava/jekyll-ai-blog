@@ -62,7 +62,7 @@ type: note
 大多数电源线缆（包括航嘉）在接口或线缆上直接标有标签：
 
 | 接口上的标签 | 含义 |
-|---|---|
+| --- | --- |
 | `CPU` | 这是ATX12V线缆 |
 | `ATX12V` | 正确标签 |
 | `+12V` | 同一线缆 |
@@ -74,6 +74,7 @@ type: note
 **方法4 — 查看线缆颜色：**
 
 ATX12V正确的4针一半始终为：
+
 ```
 针脚1 = 黄色 (+12V)
 针脚2 = 黄色 (+12V)
@@ -96,5 +97,6 @@ ATX12V正确的4针一半始终为：
 ---
 
 **参考：**
+
 - [华硕H81M-K用户手册 – ATX电源接口（第25页）](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=25)
 - [Tom's Hardware – 4针ATX12V接口识别](https://forums.tomshardware.com/threads/atx-12v-connector.1664339/)
