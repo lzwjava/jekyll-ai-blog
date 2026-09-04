@@ -28,7 +28,7 @@ Newer, high-density RAM sticks tend to be incompatible with the G41 chipset. Eve
 ### ✅ What RAM Actually Works
 
 | Spec | Recommended |
-|---|---|
+| --- | --- |
 | Type | DDR3 |
 | Speed | 1066 MHz or 1333 MHz |
 | **Max per stick** | **2GB or 4GB** |
@@ -45,5 +45,6 @@ Newer, high-density RAM sticks tend to be incompatible with the G41 chipset. Eve
 A single Kingston 8GB stick is simply too large for this old platform — save it for a newer board.
 
 References:
+
 - [Lenovo L-IG41M3 Guide – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [RAM Incompatibility on L-IG41M3 – Tom's Hardware Forum](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

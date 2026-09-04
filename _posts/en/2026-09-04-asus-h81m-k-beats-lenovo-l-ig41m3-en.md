@@ -16,7 +16,7 @@ type: note
 No — the ASUS H81M-K is significantly better than the Lenovo L-IG41M3 in virtually every category. These two boards are from completely different eras and generations. Here's a detailed breakdown:
 
 | Feature | Lenovo L-IG41M3 | ASUS H81M-K |
-|---|---|---|
+| --- | --- | --- |
 | Chipset | Intel G41 | Intel H81 |
 | CPU Socket | LGA775 (Core 2 era) | LGA1150 (4th Gen Intel) |
 | RAM Type | DDR3 up to 1066 MHz | DDR3 up to 1600 MHz |
@@ -39,6 +39,7 @@ No — the ASUS H81M-K is significantly better than the Lenovo L-IG41M3 in virtu
 **The only reason to choose the L-IG41M3** is if you already have an LGA775 CPU and DDR3 RAM from an old Lenovo ThinkCentre and need a cheap replacement board for that specific system. For any new build or upgrade, the ASUS H81M-K is the clear winner.
 
 **References:**
+
 - [ASUS H81M-K Tech Specs – ASUS](https://www.asus.com/in/motherboards-components/motherboards/business/h81mk/techspec/)
 - [ASUS H81M-K – The Retro Web](https://theretroweb.com/motherboards/s/asus-h81m-k)
 - [Lenovo L-IG41M3 Motherboard Guide – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)

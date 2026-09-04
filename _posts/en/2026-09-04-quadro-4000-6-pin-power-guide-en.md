@@ -29,6 +29,7 @@ Here's what to do:
 **Regarding the included adapter cable** (if the card came with a dual 4-pin Molex adapter): that adapter is intended for PSUs that do not have a dedicated PCIe power connector — use it only as a last resort, and prefer a native PCIe cable from your PSU if available.
 
 **References:**
+
 - [NVIDIA Quadro Power Guidelines (PNY)](https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20quadro/quadro-power-guidelines.pdf)
 - [How to connect Quadro 4000 to PSU – Tom's Hardware Forum](https://forums.tomshardware.com/threads/how-to-connect-quadro-4000-to-psu.791303/)
 - [Quadro K4000 power connector guide – BleepingComputer](https://www.bleepingcomputer.com/forums/t/795216/nvidia-quadro-k4000-power-connector-needed/)

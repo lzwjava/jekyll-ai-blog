@@ -20,7 +20,7 @@ Answer:
 **DDR3 vs DDR4 at a glance:**
 
 | Feature | DDR3 | DDR4 |
-|---|---|---|
+| --- | --- | --- |
 | Released | 2007 | 2014 |
 | Voltage | 1.5V (1.35V low-power) | 1.2V (more efficient) |
 | Speed | 800–2133 MT/s | 1600–5100+ MT/s |
@@ -33,6 +33,7 @@ Answer:
 > DDR5 is now the latest generation, found in newer platforms like Intel 12th gen+ and AMD Ryzen 7000+.
 
 References:
+
 - [DDR3 SDRAM – Wikipedia](https://en.wikipedia.org/wiki/DDR3_SDRAM)
 - [DDR4 SDRAM – Wikipedia](https://en.wikipedia.org/wiki/DDR4_SDRAM)
 - [DDR3 vs DDR4 – Kingston Technology](https://www.kingston.com/us/community/articledetail/articleid/29033)

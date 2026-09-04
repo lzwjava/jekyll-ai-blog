@@ -36,7 +36,7 @@ Many PSUs ship an **8-pin EPS12V CPU cable that can be split into two 4-pin conn
 So what you're seeing on the Huntkey Super 500W is a **4+4 pin design** — two 4-pin pieces clipped together side by side:
 
 | Configuration | When to use it |
-|---|---|
+| --- | --- |
 | **Use just one 4-pin half** | Your motherboard has only a 4-pin CPU power socket (older or budget boards) |
 | **Clip both together to make 8-pin** | Your motherboard has an 8-pin EPS CPU power socket (most modern boards) |
 
@@ -53,6 +53,7 @@ One half of the 4+4 EPS12V connector is a mirror image of the other. The pins ar
 ---
 
 **References:**
+
 - [What Is P4? – ComputerHope](https://www.computerhope.com/jargon/p/p4.htm)
 - [All About PSU Cables and Connectors – PlayTool](https://www.playtool.com/pages/psuconnectors/connectors.html)
 - [How to Connect a PSU to a 4-pin CPU Port – Corsair](https://help.corsair.com/hc/en-us/articles/360043469632-PSU-How-to-connect-a-PSU-to-a-4-pin-CPU-port)

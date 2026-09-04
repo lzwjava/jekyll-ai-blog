@@ -36,7 +36,7 @@ P4 线缆包含 **两根黑色线（地线）** 和 **两根黄色线（+12V 直
 因此，你在航嘉 Super 500W 上看到的是 **4+4 pin 设计**——两个 4-pin 部分并排卡在一起：
 
 | 配置 | 使用场景 |
-|---|---|
+| --- | --- |
 | **仅使用一个 4-pin 半部分** | 主板只有 4-pin CPU 电源插座（较旧或入门级主板） |
 | **将两个部分卡在一起形成 8-pin** | 主板有 8-pin EPS CPU 电源插座（大多数现代主板） |
 
@@ -53,6 +53,7 @@ P4 线缆包含 **两根黑色线（地线）** 和 **两根黄色线（+12V 直
 ---
 
 **参考来源：**
+
 - [What Is P4? – ComputerHope](https://www.computerhope.com/jargon/p/p4.htm)
 - [All About PSU Cables and Connectors – PlayTool](https://www.playtool.com/pages/psuconnectors/connectors.html)
 - [How to Connect a PSU to a 4-pin CPU Port – Corsair](https://help.corsair.com/hc/en-us/articles/360043469632-PSU-How-to-connect-a-PSU-to-a-4-pin-CPU-port)

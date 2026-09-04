@@ -25,13 +25,15 @@ Card top edge:
 ```
 
 **Summary:**
+
 | Connector | Purpose | Use it? |
-|---|---|---|
+| --- | --- | --- |
 | **6-pin (left)** | Main PCIe power input | ✅ Yes — plug PSU cable here |
 | **4-pin (right)** | Molex adapter port | ❌ Only if PSU has NO 6-pin cable |
 
 The card comes with a 6-pin connector that splits into two 4-pin connectors — this adapter is intended for PSUs that do not have a dedicated PCIe power connector. If your PSU already has a 6-pin (or 8-pin with detachable 2-pin) PCIe cable, **skip the 4-pin side entirely** and plug directly into the 6-pin port.
 
 **References:**
+
 - [How to connect Quadro 4000 to PSU – Tom's Hardware Forum](https://forums.tomshardware.com/threads/how-to-connect-quadro-4000-to-psu.791303/)
 - [Quadro 4000 specs – eBay listing](https://www.ebay.com/itm/167837856419)

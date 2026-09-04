@@ -22,7 +22,7 @@ Here's why:
 **Quick Summary:**
 
 | Feature | L-IG41M3 Support |
-|---|---|
+| --- | --- |
 | DDR3 | ✅ Yes (up to 1066 MHz) |
 | DDR4 | ❌ No |
 | Max RAM Speed | 800–1066 MHz |
@@ -33,6 +33,7 @@ Here's why:
 This is a very old platform (circa 2008–2009). If you need DDR4 support, you would need an entirely new motherboard, CPU, and RAM.
 
 References:
+
 - [Lenovo L-IG41M3 Motherboard Guide – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [Which RAM supports L-IG41M3 – Tom's Hardware Forum](https://forums.tomshardware.com/threads/which-ram-supports-lenovo-l-ig41m3-motherboard.2530280/)
 - [RAM Incompatibility on L-IG41M3 – Tom's Hardware Forum](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

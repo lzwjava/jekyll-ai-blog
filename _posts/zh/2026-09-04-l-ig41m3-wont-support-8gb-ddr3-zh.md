@@ -28,7 +28,7 @@ L-IG41M3 主板的最大内存容量为 **4GB 总计**——这意味着它根�
 ### ✅ 实际可用的内存
 
 | 规格 | 推荐 |
-|---|---|
+| --- | --- |
 | 类型 | DDR3 |
 | 速度 | 1066 MHz 或 1333 MHz |
 | **单条最大** | **2GB 或 4GB** |
@@ -45,5 +45,6 @@ L-IG41M3 主板的最大内存容量为 **4GB 总计**——这意味着它根�
 单条金士顿 8GB 内存对于这块旧平台来说容量过大——建议留给更新的主板使用。
 
 参考来源：
+
 - [联想 L-IG41M3 指南 – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [L-IG41M3 内存不兼容 – Tom's Hardware Forum](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

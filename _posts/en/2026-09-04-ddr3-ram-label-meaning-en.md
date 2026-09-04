@@ -20,7 +20,7 @@ Here's a breakdown of each part of that RAM label:
 ### 🏷️ Full Label Breakdown
 
 | Label | Meaning |
-|---|---|
+| --- | --- |
 | **DDR3** | Generation — Double Data Rate 3 (3rd gen RAM) |
 | **1333** | Speed — 1333 MHz (also written as PC3-10600) |
 | **Sharetronic** | Brand — a Chinese RAM manufacturer |
@@ -46,7 +46,7 @@ Here's a breakdown of each part of that RAM label:
 ### ✅ Compatibility with L-IG41M3
 
 | Check | Result |
-|---|---|
+| --- | --- |
 | DDR3 type | ✅ Compatible |
 | 1333 MHz speed | ⚠️ Will downclock to 1066 MHz |
 | 2GB size | ✅ Fine |
@@ -55,5 +55,6 @@ Here's a breakdown of each part of that RAM label:
 > This stick should work in your L-IG41M3 board, just running slightly slower than labeled. No hardware damage risk.
 
 References:
+
 - [DDR3 SDRAM – Wikipedia](https://en.wikipedia.org/wiki/DDR3_SDRAM)
 - [RAM Chip Organization (×4, ×8, ×16) Explained – Kingston](https://www.kingston.com/us/memory/resources/overclocking-ddr4-memory)

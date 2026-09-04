@@ -40,13 +40,14 @@ But best practice is still to use the yellow SATA 6Gb/s port — it's the correc
 **Summary table:**
 
 | Port Color | Speed | Use for |
-|---|---|---|
+| --- | --- | --- |
 | **Yellow** ✅ | SATA 6Gb/s | WD10EZEX (recommended) |
 | Black/Dark Brown | SATA 3Gb/s | Optical drives, older HDDs |
 
 ---
 
 **References:**
+
 - [ASUS H81M-K Tech Specs](https://www.asus.com/rs-en/motherboards-components/motherboards/business/h81mk/techspec/)
 - [WD10EZEX SATA-IO Certification](https://sata-io.org/product/8850)
 - [Tom's Hardware – SATA port color discussion](https://forums.tomshardware.com/threads/asus-h81m-plus-sata-slots.3703153/)

@@ -22,7 +22,7 @@ type: note
 电源线束中包含多条不同线缆。寻找标注或形状如下所示的线缆：
 
 | 线缆 | 外观 | 用途 |
-|---|---|---|
+| --- | --- | --- |
 | 24-pin | 宽扁平接口 | 主板 |
 | 4+4 pin | 两个 4-pin 块 | CPU |
 | **6+2 pin** ← | **6 个孔 + 侧面 2 个额外孔** | **GPU ← 就是这个！** |
@@ -31,9 +31,11 @@ type: note
 **步骤 2——识别 6+2 pin PCIe 线缆**
 
 它看起来像这样：
+
 ```
 [  6-pin 主体  ][+2 个额外 pin]
 ```
+
 “+2”部分可以**分离**——对于 Quadro 4000，你只需要**6-pin**部分。只需将**2-pin 卡扣**从侧面分开，只将 6-pin 端插入显卡。
 
 **步骤 3——插入显卡**
@@ -46,5 +48,6 @@ type: note
 > 找到带有 **6+2 接口**的线缆 → 分离 2-pin 侧 → 仅将 6-pin 插入 Quadro 4000。完成。✅
 
 **参考：**
+
 - [航嘉 CP5000 500W 规格](https://en.huntkey.com/product/cp5000-power-supply/)
 - [航嘉 WD500K 接口详情 – VillMan](https://villman.com/Product-Detail/huntkey_wd500k-500w-80plus-gold-power-supply-)

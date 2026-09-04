@@ -22,13 +22,14 @@ Here's how it works:
 - **More lanes = more bandwidth**
 
 | Slot | Lanes | Approx. Bandwidth (PCIe 3.0) |
-|---|---|---|
+| --- | --- | --- |
 | PCIe x1 | 1 lane | ~1 GB/s |
 | PCIe x4 | 4 lanes | ~4 GB/s |
 | PCIe x8 | 8 lanes | ~8 GB/s |
 | PCIe x16 | 16 lanes | ~16 GB/s |
 
 **Key points:**
+
 - PCIe x16 is the **largest and fastest** standard slot, used almost exclusively for **dedicated GPUs (graphics cards)**
 - Each lane itself uses multiple bits internally, but the "x16" number is purely about lane count
 - The ASUS H81M-K has **1x PCIe x16** slot, meaning it can fit one full-size graphics card

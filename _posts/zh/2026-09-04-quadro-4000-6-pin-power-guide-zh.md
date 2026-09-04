@@ -29,6 +29,7 @@ NVIDIA Quadro 4000 需要**一个 6 针 PCIe 电源接口**。该显卡所需的
 **关于附带的转接线**（如果显卡附带了双 4 针 Molex 转接线）：该转接线适用于没有专用 PCIe 电源接口的电源——仅在没有其他选择时使用，最好使用电源自带的原生 PCIe 线缆。
 
 **参考：**
+
 - [NVIDIA Quadro 电源指南 (PNY)](https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20quadro/quadro-power-guidelines.pdf)
 - [如何将 Quadro 4000 连接到电源 – Tom's Hardware 论坛](https://forums.tomshardware.com/threads/how-to-connect-quadro-4000-to-psu.791303/)
 - [Quadro K4000 电源接口指南 – BleepingComputer](https://www.bleepingcomputer.com/forums/t/795216/nvidia-quadro-k4000-power-connector-needed/)

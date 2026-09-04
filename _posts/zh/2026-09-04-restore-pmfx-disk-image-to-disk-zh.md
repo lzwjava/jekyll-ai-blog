@@ -54,6 +54,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [从映像文件恢复磁盘 – DiskGenius 手册](https://www.diskgenius.com/manual/restore-disk-from-image-file.php)
 - [加载并浏览分区映像文件 – DiskGenius 手册](https://www.diskgenius.com/manual/explorer-partition-img.php)
 - [.PMFX 文件扩展名信息 – FileInfo.com](https://fileinfo.com/extension/pmfx)

@@ -29,7 +29,7 @@ The fan connector cable on most Intel stock coolers (push-pin type) is short. Si
 **Visual orientation summary for H81M-K:**
 
 | Board Edge | What's there |
-|---|---|
+| --- | --- |
 | Top (rear I/O) | CPU_FAN header ← **aim cable here** |
 | Right | DDR3 RAM slots |
 | Bottom | PCIe x16 slot, USB headers, SATA |
@@ -38,6 +38,7 @@ The fan connector cable on most Intel stock coolers (push-pin type) is short. Si
 **Practical tip:** With push-pin Intel coolers, the cable is fixed to one corner of the fan. Before pressing in the push pins, rotate the entire heatsink/fan assembly so that the cable corner is closest to the `CPU_FAN` header. Then lock the pins down. The CPU_FAN connector supports a CPU fan of maximum 1A (12W), and only the 4-pin CPU fan supports the ASUS Fan Xpert feature.
 
 **References:**
+
 - [ASUS H81M-K User Manual – Motherboard Layout (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html)
 - [ASUS H81M-K – Fan Connectors Page 24 (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=24)
 - [H81M-K Layout Contents – ManualOwl](https://www.manualowl.com/m/Asus/H81M-K/Manual/372249?page=12)

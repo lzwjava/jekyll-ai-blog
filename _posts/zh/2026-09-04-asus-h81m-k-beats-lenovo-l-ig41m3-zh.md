@@ -16,7 +16,7 @@ type: note
 不是——华硕 H81M-K 在几乎所有方面都明显优于联想 L-IG41M3。这两款主板来自完全不同的时代和世代。以下是详细对比：
 
 | 特性 | 联想 L-IG41M3 | 华硕 H81M-K |
-|---|---|---|
+| --- | --- | --- |
 | 芯片组 | Intel G41 | Intel H81 |
 | CPU 插槽 | LGA775（Core 2 时代） | LGA1150（第 4 代 Intel） |
 | 内存类型 | DDR3 最高 1066 MHz | DDR3 最高 1600 MHz |
@@ -36,6 +36,7 @@ type: note
 **选择 L-IG41M3 的唯一理由** 是如果你已经拥有旧款联想 ThinkCentre 的 LGA775 CPU 和 DDR3 内存，并且需要一块便宜的替换主板来适配该特定系统。对于任何新装机或升级而言，华硕 H81M-K 都是明确的胜者。
 
 **参考资料：**
+
 - [华硕 H81M-K 技术规格 – 华硕](https://www.asus.com/in/motherboards-components/motherboards/business/h81mk/techspec/)
 - [华硕 H81M-K – The Retro Web](https://theretroweb.com/motherboards/s/asus-h81m-k)
 - [联想 L-IG41M3 主板指南 – 阿里巴巴电子](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)

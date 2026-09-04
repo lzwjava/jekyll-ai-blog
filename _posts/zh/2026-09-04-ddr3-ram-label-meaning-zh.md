@@ -20,7 +20,7 @@ type: note
 ### 🏷️ 完整标签解析
 
 | 标签项 | 含义 |
-|---|---|
+| --- | --- |
 | **DDR3** | 代际 — 第三代双倍数据速率内存 |
 | **1333** | 速度 — 1333 MHz（也可写作 PC3-10600） |
 | **Sharetronic** | 品牌 — 一家中国内存制造商 |
@@ -46,7 +46,7 @@ type: note
 ### ✅ 与 L-IG41M3 主板的兼容性
 
 | 检查项 | 结果 |
-|---|---|
+| --- | --- |
 | DDR3 类型 | ✅ 兼容 |
 | 1333 MHz 速度 | ⚠️ 将降频至 1066 MHz |
 | 2GB 容量 | ✅ 正常 |
@@ -55,5 +55,6 @@ type: note
 > 这根内存条应该能在你的 L-IG41M3 主板上工作，只是运行速度会比标签标注的稍慢。没有硬件损坏风险。
 
 参考资料：
+
 - [DDR3 SDRAM – 维基百科](https://en.wikipedia.org/wiki/DDR3_SDRAM)
 - [内存芯片组织方式（×4、×8、×16）详解 – 金士顿](https://www.kingston.com/us/memory/resources/overclocking-ddr4-memory)

@@ -20,7 +20,7 @@ type: note
 **DDR3 与 DDR4 对比一览：**
 
 | 特性 | DDR3 | DDR4 |
-|---|---|---|
+| --- | --- | --- |
 | 发布时间 | 2007 | 2014 |
 | 电压 | 1.5V（低功耗版 1.35V） | 1.2V（更高效） |
 | 速度 | 800–2133 MT/s | 1600–5100+ MT/s |
@@ -33,6 +33,7 @@ type: note
 > DDR5 现已是最新一代，用于英特尔 12 代及以上和 AMD Ryzen 7000+ 等新平台。
 
 参考来源：
+
 - [DDR3 SDRAM – 维基百科](https://en.wikipedia.org/wiki/DDR3_SDRAM)
 - [DDR4 SDRAM – 维基百科](https://en.wikipedia.org/wiki/DDR4_SDRAM)
 - [DDR3 vs DDR4 – 金士顿科技](https://www.kingston.com/us/community/articledetail/articleid/29033)

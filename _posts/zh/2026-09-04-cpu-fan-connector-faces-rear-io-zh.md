@@ -29,7 +29,7 @@ type: note
 **H81M-K 视觉方向总结：**
 
 | 主板边缘 | 此处有什么 |
-|---|---|
+| --- | --- |
 | 顶部（后部 I/O） | CPU_FAN 接口 ← **线缆朝向此处** |
 | 右侧 | DDR3 内存插槽 |
 | 底部 | PCIe x16 插槽、USB 接口、SATA |
@@ -38,6 +38,7 @@ type: note
 **实用提示：** 对于英特尔推针式散热器，线缆固定在风扇的某一角。在按下推针之前，先旋转整个散热器/风扇组件，使线缆角最靠近 `CPU_FAN` 接口，然后锁定推针。CPU_FAN 接口支持最大 1A（12W）的 CPU 风扇，只有 4-pin CPU 风扇支持华硕 Fan Xpert 功能。
 
 **参考资料：**
+
 - [ASUS H81M-K 用户手册 – 主板布局 (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html)
 - [ASUS H81M-K – 风扇接口第 24 页 (ManualsLib)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=24)
 - [H81M-K 布局内容 – ManualOwl](https://www.manualowl.com/m/Asus/H81M-K/Manual/372249?page=12)

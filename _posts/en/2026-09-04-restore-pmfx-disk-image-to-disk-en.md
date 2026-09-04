@@ -19,13 +19,11 @@ A `.pmfx` file is DiskGenius's own disk image format — it's a compressed backu
 
 ### ✅ Option 1 — Restore the .pmfx Image to a Disk (Full Restore)
 
-
 1. **Right-click** the destination disk in DiskGenius → select **"Restore Image File To Disk"**, or go to menu **Disk → Restore Image File To Disk**.
 2. In the file dialog, locate and select your `.pmfx` file → click **Open**.
 3. Confirm the target disk is correct → click **Start**.
 4. A warning will appear that all partitions and data on the destination disk will be overwritten. Make sure any important data is backed up first → click **OK**.
 5. Wait for the restore to complete.
-
 
 > ⚠️ Important: When restoring, the target disk should not be smaller than the source disk.
 
@@ -41,12 +39,10 @@ Newer versions of DiskGenius support restoring an individual partition from a `.
 
 If you just want to pull specific files out of the `.pmfx` image without writing it to a disk:
 
-
 1. Click **Tools** menu → select **"Load Disk/Partition Image"**.
 2. Browse and locate the `.pmfx` image file → click **Open**.
 3. Select a time point you want to check → click **Start**. DiskGenius will load the files in the backup image.
 4. Select the files you want to retrieve and copy them to a desired location.
-
 
 ---
 
@@ -58,6 +54,7 @@ If you just want to pull specific files out of the `.pmfx` image without writing
 ---
 
 **References:**
+
 - [Restore Disk From Image File – DiskGenius Manual](https://www.diskgenius.com/manual/restore-disk-from-image-file.php)
 - [Load and Browse Partition Image File – DiskGenius Manual](https://www.diskgenius.com/manual/explorer-partition-img.php)
 - [.PMFX File Extension Info – FileInfo.com](https://fileinfo.com/extension/pmfx)

@@ -31,6 +31,7 @@ type: note
 特斯拉于 2026 年 9 月 3 日在德克萨斯州奥斯汀正式商业推出 Cybercab。在此之前，特斯拉已在奥斯汀使用改装版 Model Y SUV 进行无人驾驶出租车试点，随后将 Cybercab 纳入该服务。自 2026 年第二季度末以来，特斯拉的无监督车队规模增长了 200%，从 6 月 30 日的 57 辆增至 8 月 31 日的 156 辆。
 
 **参考资料：**
+
 - [Tesla Cybercab – Wikipedia](https://en.wikipedia.org/wiki/Tesla_Cybercab)
 - [The Cybercab is Tesla's 'fork in the road' moment – TechCrunch](https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/)
 - [Tesla Cybercab Robotaxi Launch In Austin – Motor1](https://www.motor1.com/news/805874/tesla-cybercab-robotaxi-launch-austin/)

@@ -40,13 +40,14 @@ WD10EZEX 是一款 SATA 6Gb/s 硬盘，配备 64MB 缓存，转速为 7200 RPM�
 **总结表：**
 
 | 接口颜色 | 速度 | 用途 |
-|---|---|---|
+| --- | --- | --- |
 | **黄色** ✅ | SATA 6Gb/s | WD10EZEX（推荐） |
 | 黑色/深棕色 | SATA 3Gb/s | 光驱、旧款硬盘 |
 
 ---
 
 **参考来源：**
+
 - [ASUS H81M-K 技术规格](https://www.asus.com/rs-en/motherboards-components/motherboards/business/h81mk/techspec/)
 - [WD10EZEX SATA-IO 认证](https://sata-io.org/product/8850)
 - [Tom's Hardware – SATA 接口颜色讨论](https://forums.tomshardware.com/threads/asus-h81m-plus-sata-slots.3703153/)

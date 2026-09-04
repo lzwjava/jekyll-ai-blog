@@ -21,7 +21,7 @@ type: note
 **快速总结：**
 
 | 特性 | L-IG41M3 支持情况 |
-|---|---|
+| --- | --- |
 | DDR3 | ✅ 是（最高 1066 MHz） |
 | DDR4 | ❌ 否 |
 | 最大内存速度 | 800–1066 MHz |
@@ -32,6 +32,7 @@ type: note
 这是一个非常老的平台（约 2008–2009 年）。如果需要 DDR4 支持，则需要全新的主板、CPU 和内存。
 
 参考来源：
+
 - [Lenovo L-IG41M3 主板指南 – Alibaba Electronics](https://electronics.alibaba.com/buyingguides/lenovo-l-ig41m3-motherboard-guide)
 - [哪些内存支持 L-IG41M3 – Tom's Hardware 论坛](https://forums.tomshardware.com/threads/which-ram-supports-lenovo-l-ig41m3-motherboard.2530280/)
 - [L-IG41M3 内存不兼容 – Tom's Hardware 论坛](https://forums.tomshardware.com/threads/possible-ram-incompatibility-l-ig41m3-old-motherboard.3787600/)

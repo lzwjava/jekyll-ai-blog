@@ -36,6 +36,7 @@ DiskGenius 是一款功能强大的 Windows 全能磁盘工具。以下是其最
 打开 DiskGenius 后，所有连接的存储设备都会显示在左侧面板中。如果 USB 驱动器已连接，它会出现在那里（例如显示为 "RD1"）。如果 DiskGenius 完全无法检测到该设备，则可能物理损坏，软件恢复将无法生效。
 
 恢复文件步骤：
+
 1. 在左侧面板中选择 USB 驱动器或分区。
 2. 点击 **File → Recover Lost Files**（或右键单击该驱动器）。
 3. 选择扫描模式 — 可以启用 **"Search For Known File Types"** 来逐扇区扫描特定文件类型（照片、视频、文档等）。注意，此模式恢复的文件将丢失原始名称和文件夹结构。
@@ -60,6 +61,7 @@ DiskGenius 还支持：partition recovery、克隆磁盘、将磁盘备份为 im
 ---
 
 **参考链接：**
+
 - [DiskGenius Official User Guide](https://www.diskgenius.com/manual/)
 - [Restore Disk From Image File – DiskGenius Manual](https://www.diskgenius.com/manual/restore-disk-from-image-file.php)
 - [How to Recover Lost Data with DiskGenius](https://www.diskgenius.com/how-to/recover-lost-data-with-diskgenius.php)
