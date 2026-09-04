@@ -28,6 +28,7 @@ There are **two very different scenarios:**
 ```
 This is COMPLETELY NORMAL ✅
 ```
+
 - The fan will NOT spin just by plugging in the ATX12V cable
 - The fan only runs **after you press the power button** and the system boots
 - ATX12V alone does not start anything — it just **stands by waiting**
@@ -39,7 +40,7 @@ This is COMPLETELY NORMAL ✅
 This is a real problem. Possible causes ranked by likelihood:
 
 | # | Cause | How to check |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **Short circuit somewhere** | Motherboard detects fault → shuts down immediately to protect itself |
 | 2 | **CPU not seated properly** | Board refuses to boot without a working CPU |
 | 3 | **Fan not plugged into CPU_FAN header** | Must go into `CPU_FAN` not `CHA_FAN` |
@@ -70,6 +71,7 @@ When the ATX 12V connector is plugged in and the system won't start, there are s
 ---
 
 **Can you tell me more?**
+
 - Does the fan twitch briefly then stop?
 - Or does nothing happen at all when you press power?
 
@@ -78,5 +80,6 @@ That will narrow it down further.
 ---
 
 **References:**
+
 - [Tom's Hardware – ATX 12V connector fan issue diagnosis](https://forums.tomshardware.com/threads/atx-12v-connector.1664339/)
 - [Case Fan Not Spinning – Box.co.uk](https://box.co.uk/blog/case-fan-not-spinning-fix)

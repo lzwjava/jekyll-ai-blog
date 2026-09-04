@@ -22,7 +22,7 @@ type: note
 **其背后的历史：**
 
 | 时代 | 标准 | 接口 |
-|---|---|---|
+| --- | --- | --- |
 | 旧主板（奔腾4时代） | ATX12V 1.x | 仅4针 |
 | 较新的主板（Core 2 / i系列） | ATX12V 2.x | 8针（EPS12V） |
 | 电源解决方案 | 通用 | 4+4针（两者都兼容！） |
@@ -38,6 +38,7 @@ type: note
 ---
 
 **图解说明：**
+
 ```
 4-pin half A  +  4-pin half B
       ↓                ↓
@@ -50,6 +51,7 @@ type: note
 ---
 
 **因此，针对你的配置（H81M-K）：**
+
 - 只需将**一个4针半片**插入ATX12V插座
 - 让**另一半悬空/收好** — 它根本用不到
 - 两半通常**防呆设计不同**，因此只有正确的一半才能插入4针插座
@@ -59,6 +61,7 @@ type: note
 **为什么不直接做两条独立的线缆？**
 
 因为那意味着：
+
 - 更多线缆让机箱变得杂乱
 - 电源制造商需要提供两种类型
 - 用户可能为主板买错电源
@@ -68,5 +71,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [ATX Standard – Wikipedia (ATX12V / EPS12V connector history)](https://en.wikipedia.org/wiki/ATX)
 - [Tom's Hardware – 4-pin ATX12V connector explained](https://forums.tomshardware.com/threads/4-pin-atx12v-connector.1429321/)

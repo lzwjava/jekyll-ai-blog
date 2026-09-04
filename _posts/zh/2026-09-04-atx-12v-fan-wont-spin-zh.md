@@ -30,6 +30,7 @@ type: note
 ```
 这是完全正常的 ✅
 ```
+
 - 仅插入 ATX 12V 线缆时风扇不会转动
 - 风扇只有在**按下电源按钮**且系统启动后才会运行
 - ATX 12V 本身不会启动任何东西——它只是**待命等待**
@@ -41,7 +42,7 @@ type: note
 这是真正的问题。按可能性排序的可能原因：
 
 | # | 原因 | 检查方法 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | **某处短路** | 主板检测到故障 → 立即关机以自我保护 |
 | 2 | **CPU 未正确安装** | 主板在没有正常工作的 CPU 时拒绝启动 |
 | 3 | **风扇未插入 CPU_FAN 接口** | 必须插入 `CPU_FAN` 而非 `CHA_FAN` |
@@ -72,6 +73,7 @@ type: note
 ---
 
 **你能提供更多信息吗？**
+
 - 风扇是否会短暂抖动一下然后停止？
 - 还是按下电源按钮后完全没有任何反应？
 
@@ -80,5 +82,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [Tom's Hardware – ATX 12V 接口风扇问题诊断](https://forums.tomshardware.com/threads/atx-12v-connector.1664339/)
 - [Case Fan Not Spinning – Box.co.uk](https://box.co.uk/blog/case-fan-not-spinning-fix)

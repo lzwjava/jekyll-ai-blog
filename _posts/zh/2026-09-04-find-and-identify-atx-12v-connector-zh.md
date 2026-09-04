@@ -20,7 +20,7 @@ type: note
 **如何从外观上识别：**
 
 | 特征 | 描述 |
-|---|---|
+| --- | --- |
 | **形状** | 小型方形接口，2×2 针 |
 | **针脚数** | 4 针（有时为 4+4 = 8 针可拆分） |
 | **线缆标签** | 通常印有：`CPU`、`ATX12V` 或 `+12V` |
@@ -51,5 +51,6 @@ type: note
 ---
 
 **参考信息：**
+
 - [航嘉 ECO500 500W 规格 – CPU 接口列为 (4+4)P](https://en.huntkey.com/product/eco500-power-supply/)
 - [航嘉 CP5000 500W ATX 电源](https://en.huntkey.com/product/cp5000-power-supply/)

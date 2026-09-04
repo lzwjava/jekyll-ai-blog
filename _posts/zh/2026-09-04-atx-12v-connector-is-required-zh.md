@@ -24,11 +24,12 @@ type: note
 以下是两个主要电源接口的简要说明：
 
 | 接口 | 针脚数 | 供电对象 |
-|---|---|---|
+| --- | --- | --- |
 | EATXPWR | 24 针 | 主板、内存、PCIe 插槽、存储设备 |
 | ATX12V | 4 针 | 仅 CPU（通过 VRM） |
 
 **未插 ATX 12V 时的常见症状：**
+
 - 系统通电（风扇转动、LED 亮起）但**无自检 / 无显示**
 - 按下电源后立即关机
 - 持续重启循环
@@ -40,5 +41,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [华硕 H81M-K 用户手册 – ATX 电源接口（第 25 页）](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=25)
 - [华硕 H81M-K 布局内容（第 12 页）](https://www.manualowl.com/m/Asus/H81M-K/Manual/372249?page=12)

@@ -22,12 +22,14 @@ type: note
 > ⚠️ **重要说明：** ASUS官方并未公开发布H81M-K的原理图和板视图文件。**R68具体**的准确值和电路功能需要板视图/原理图文件（存在于维修社区档案中）。在无法获取实际原理图的情况下，无法确切确认其电阻值。
 
 如果您需要精确值进行主板维修，建议：
+
 1. 查看**Badcaps.net**上的H81M-K维修指南（该网站存在PDF维修指南）。
 2. 如果可用，使用板视图工具（如OpenBoardView）配合H81M-K的`.brd`文件。
 
 ---
 
 **参考：**
+
 - [ASUS H81M-K用户手册 – ManualsLib（第25页，ATX电源连接器）](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=25)
 - [ASUS H81M-K主板布局（第12页）](https://www.manualowl.com/m/Asus/H81M-K/Manual/372249?page=12)
 - [ASUS H81M-K维修指南 – Badcaps.net](https://www.badcaps.net/forum/document-software-archive/schematics-and-boardviews/3483342-asus-h81m-k-motherboard-repair-guide)

@@ -38,24 +38,29 @@ The board is **not broken** — it is **protecting itself.**
 **Most common causes — check in this order:**
 
 **1. 🔴 RAM not seated properly (most common)**
+
 - Remove RAM stick completely
 - Clean gold contacts with eraser
 - Push back in firmly until both clips click
 - Try one stick at a time
 
 **2. 🔴 Motherboard standoff short circuit**
+
 - A brass standoff touching the back of the board where it shouldn't
 - Extra standoff in wrong hole = short circuit = instant shutdown
 
 **3. 🔴 CPU not seated correctly**
+
 - Open CPU socket cover
 - Check no bent pins
 - Reseat CPU carefully
 
 **4. 🔴 Wrong half of 4+4 pin inserted**
+
 - Make sure correct keyed half is inserted into ATX12V socket
 
 **5. 🟡 PSU weak or failing**
+
 - 12V rail collapses under load → board shuts down
 
 ---
@@ -63,6 +68,7 @@ The board is **not broken** — it is **protecting itself.**
 **Quick test — strip down to bare minimum:**
 
 Disconnect everything except:
+
 ```
 ✅ 24-pin power
 ✅ ATX 12V (4-pin)
@@ -81,5 +87,6 @@ Then press power. Does it still twitch and stop?
 ---
 
 **References:**
+
 - [Tom's Hardware – CPU fan spins half second then stops](https://forums.tomshardware.com/threads/hit-power-buton-cpu-fan-spins-for-half-a-second-then-stops-spin-and-stop-forever-no-booting.3034486/)
 - [AnandTech – Fan starts and stops continuously diagnosis](https://forums.anandtech.com/threads/motherboard-dead-cpu-fan-starts-and-stops-continuously.2564774/post-39810021)

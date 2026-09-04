@@ -22,12 +22,14 @@ The component **R68** is a **resistor** — specifically a small SMD (surface-mo
 > ⚠️ **Important note:** The ASUS H81M-K schematics and boardview files are not publicly released by ASUS. The exact value and circuit function of **R68 specifically** requires the boardview/schematic file (which exists in repair-community archives). Without access to the actual schematic, the exact resistance value cannot be confirmed definitively.
 
 If you need the precise value for a board repair, I'd recommend:
+
 1. Checking the **Badcaps.net** repair guide for H81M-K (a PDF repair guide exists there).
 2. Using a boardview tool (like OpenBoardView) with the H81M-K `.brd` file if available.
 
 ---
 
 **References:**
+
 - [ASUS H81M-K User Manual – ManualsLib (Page 25, ATX Power Connectors)](https://www.manualslib.com/manual/565354/Asus-H81m-K.html?page=25)
 - [ASUS H81M-K Motherboard Layout (Page 12)](https://www.manualowl.com/m/Asus/H81M-K/Manual/372249?page=12)
 - [ASUS H81M-K Repair Guide – Badcaps.net](https://www.badcaps.net/forum/document-software-archive/schematics-and-boardviews/3483342-asus-h81m-k-motherboard-repair-guide)

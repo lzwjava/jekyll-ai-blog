@@ -22,7 +22,7 @@ The **4+4 pin design** is purely about **backwards compatibility and flexibility
 **The history behind it:**
 
 | Era | Standard | Connector |
-|---|---|---|
+| --- | --- | --- |
 | Old boards (Pentium 4 era) | ATX12V 1.x | **4-pin** only |
 | Newer boards (Core 2 / i-series) | ATX12V 2.x | **8-pin** (EPS12V) |
 | PSU solution | Universal | **4+4 pin** (fits both!) |
@@ -38,6 +38,7 @@ The **4+4 pin design** is purely about **backwards compatibility and flexibility
 ---
 
 **Visual explanation:**
+
 ```
 4-pin half A  +  4-pin half B
       ↓                ↓
@@ -50,6 +51,7 @@ Use ONLY half A          Clip A+B together
 ---
 
 **So for YOUR setup (H81M-K):**
+
 - Plug in **only ONE 4-pin half** into the ATX12V socket
 - Leave the **other half dangling / tucked away** — it is simply unused
 - The two halves are usually **keyed differently** so only the correct half fits the 4-pin socket
@@ -59,6 +61,7 @@ Use ONLY half A          Clip A+B together
 **Why not just make two separate cables?**
 
 Because it would mean:
+
 - More cables cluttering the case
 - PSU manufacturers needing to include both types
 - Users buying the wrong PSU for their board
@@ -68,5 +71,6 @@ The **4+4 design solves all of this** with one elegant split connector.
 ---
 
 **References:**
+
 - [ATX Standard – Wikipedia (ATX12V / EPS12V connector history)](https://en.wikipedia.org/wiki/ATX)
 - [Tom's Hardware – 4-pin ATX12V connector explained](https://forums.tomshardware.com/threads/4-pin-atx12v-connector.1429321/)

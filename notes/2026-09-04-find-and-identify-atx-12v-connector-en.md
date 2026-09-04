@@ -20,7 +20,7 @@ On a **航嘉 (Huntkey) Super 500W** PSU, the ATX 12V connector is called the **
 **How to identify it physically:**
 
 | Feature | Description |
-|---|---|
+| --- | --- |
 | **Shape** | Small square connector, 2×2 pins |
 | **Pin count** | 4 pins (sometimes 4+4 = 8 pin split) |
 | **Cable label** | Usually printed: `CPU`, `ATX12V`, or `+12V` |
@@ -51,5 +51,6 @@ The Huntkey Super 500W ships with this cable included — it is **not a separate
 ---
 
 **References:**
+
 - [Huntkey ECO500 500W Specs – CPU Connector listed as (4+4)P](https://en.huntkey.com/product/eco500-power-supply/)
 - [Huntkey CP5000 500W ATX Power Supply](https://en.huntkey.com/product/cp5000-power-supply/)

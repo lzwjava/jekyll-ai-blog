@@ -38,24 +38,29 @@ type: note
 **最常见的原因——按此顺序检查：**
 
 **1. 🔴 内存未正确安装（最常见）**
+
 - 完全取下内存条
 - 用橡皮擦清洁金手指
 - 用力推回直到两端卡扣发出咔嗒声
 - 每次只尝试一根内存条
 
 **2. 🔴 主板螺柱短路**
+
 - 铜螺柱接触到主板背面不应接触的位置
 - 多余的螺柱插错孔 = 短路 = 立即关机
 
 **3. 🔴 CPU 未正确安装**
+
 - 打开 CPU 插槽盖
 - 检查是否有弯针
 - 小心重新安装 CPU
 
 **4. 🔴 4+4 针插头插错一半**
+
 - 确保正确的防呆部分插入 ATX12V 插座
 
 **5. 🟡 电源功率不足或故障**
+
 - 12V 轨在负载下电压崩溃 → 主板关机
 
 ---
@@ -63,6 +68,7 @@ type: note
 **快速测试——精简到最低配置：**
 
 断开所有部件，只保留：
+
 ```
 ✅ 24 针电源
 ✅ ATX 12V（4 针）
@@ -81,5 +87,6 @@ type: note
 ---
 
 **参考链接：**
+
 - [Tom's Hardware – CPU 风扇转动半秒后停止](https://forums.tomshardware.com/threads/hit-power-buton-cpu-fan-spins-for-half-a-second-then-stops-spin-and-stop-forever-no-booting.3034486/)
 - [AnandTech – 风扇反复启动停止的诊断](https://forums.anandtech.com/threads/motherboard-dead-cpu-fan-starts-and-stops-continuously.2564774/post-39810021)

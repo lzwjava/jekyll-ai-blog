@@ -30,7 +30,7 @@ Your PSU will have one of two setups:
 **Identify it visually:**
 
 | Connector | Pins | Width | Purpose |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **SATA power** ✅ | 15 pins | ~27mm wide, flat | What your HDD needs |
 | Molex (old 4-pin) | 4 pins | Chunky rectangular | Older HDDs/fans |
 | PCIe 6/8-pin | 6 or 8 pins | Square-ish | GPU only |
