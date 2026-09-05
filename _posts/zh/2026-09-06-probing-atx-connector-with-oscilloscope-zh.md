@@ -68,30 +68,37 @@ type: note
 ### 🎯 探测顺序——按此顺序进行
 
 **测量 1——PWR_OK（对你的情况最重要）**
+
 ```
 黑表笔 → PC 机箱金属（GND）
 红表笔 → 灰色导线（PWR_OK）
 ```
+
 观察按下电源按钮时发生的情况：
+
 - 电压升至 +5V 然后瞬间跌落 = **电源保护触发**
 - 电压从未上升 = **电源已损坏**
 
 ---
 
 **测量 2——+12V 主供电轨**
+
 ```
 黑表笔 → PC 机箱金属（GND）
 红表笔 → 24 针接口上的黄色导线
 ```
+
 观察 +12V 是否在风扇转动后瞬间跌落
 
 ---
 
 **测量 3——+12V CPU 供电轨（4 针 ATX12V 接口）**
+
 ```
 黑表笔 → PC 机箱金属（GND）
 红表笔 → 小型 4 针 CPU 接口上的黄色导线
 ```
+
 这对 CPU 供电最为关键
 
 ---
@@ -99,7 +106,7 @@ type: note
 ### ⚠️ 重要规则
 
 | 规则 | 原因 |
-|---|---|
+| --- | --- |
 | **始终先接黑表笔** | 安全——建立参考地 |
 | **通电时切勿探测绿色导线（PS_ON）** | 可能意外强制电源开启/关闭 |
 | **不要让红表笔尖端同时接触两个引脚** | 会导致短路 |
@@ -110,6 +117,7 @@ type: note
 ### 🖥️ 现在设置示波器参数
 
 在按下电源按钮之前：
+
 ```
 时基 → 50ms（这样 0.1 秒 = 屏幕上的 2 格）
 垂直灵敏度 → 5V（这样 +12V 出现在屏幕顶部附近）
@@ -126,6 +134,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [ATX 24 针引脚图 — pinouts.ru](https://pinouts.ru/Power/atxpower_pinout.shtml)
 - [如何安全使用示波器探头 — Tektronix](https://www.tek.com/en/documents/primer/oscilloscope-probe-guide)
 - [用示波器诊断电源 — eevblog.com](https://www.eevblog.com/forum/testgear/using-oscilloscope-to-test-atx-psu/)

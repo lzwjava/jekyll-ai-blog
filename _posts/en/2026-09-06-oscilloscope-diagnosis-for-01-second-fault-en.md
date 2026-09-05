@@ -19,7 +19,7 @@ Excellent thinking — an oscilloscope is the **right tool** for this kind of ul
 
 ---
 
-### 🔬 What is an Oscilloscope Doing Here?A normal multimeter only shows you **current stable voltage**. But when the system dies in **0.1 seconds**, the fault happens so fast a multimeter **cannot catch it**. The oscilloscope records the voltage waveform over time, so you can see exactly:
+### 🔬 What is an Oscilloscope Doing Here?A normal multimeter only shows you **current stable voltage**. But when the system dies in **0.1 seconds**, the fault happens so fast a multimeter **cannot catch it**. The oscilloscope records the voltage waveform over time, so you can see exactly
 
 ```
 Normal boot:                    Your system:
@@ -37,7 +37,7 @@ Normal boot:                    Your system:
 There are **3 key test points** on the 24-pin ATX connector:
 
 | Pin to Probe | Wire Color | What to Measure | Healthy Value |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | +12V | Yellow | CPU/main 12V rail | 11.4V – 12.6V |
 | +5V | Red | Board logic power | 4.75V – 5.25V |
 | +3.3V | Orange | RAM / chipset | 3.135V – 3.465V |
@@ -45,6 +45,7 @@ There are **3 key test points** on the 24-pin ATX connector:
 | PWR_OK | Grey | PSU good signal | Goes HIGH when stable |
 
 **Probe placement:**
+
 ```
 Black probe (GND) → any BLACK wire on 24-pin
 Red probe (+)     → yellow wire (+12V) first
@@ -55,6 +56,7 @@ Red probe (+)     → yellow wire (+12V) first
 ### 🔧 Step-by-Step Oscilloscope Procedure
 
 **Step 1 — Set up the oscilloscope**
+
 - Time scale: **50ms per division** (so 0.1 sec fits on screen)
 - Voltage scale: **5V per division**
 - Trigger: set to **falling edge** on +12V channel
@@ -65,6 +67,7 @@ Red probe (+)     → yellow wire (+12V) first
 **Step 2 — Probe the PWR_OK (grey wire) first**
 
 The **PWR_OK signal** is the most important pin for your case:
+
 ```
 PWR_OK = HIGH (+5V) → PSU says "I am stable, board can run"
 PWR_OK = LOW  (0V)  → PSU says "problem detected, shut down"
@@ -106,7 +109,7 @@ If this line collapses while the main 24-pin +12V stays up → **the PSU cannot 
 ### 🧭 What the Waveform Tells You
 
 | What Oscilloscope Shows | Conclusion |
-|---|---|
+| --- | --- |
 | +12V drops immediately on 4-pin | **PSU too weak / failing** |
 | PWR_OK never goes HIGH | **PSU dead or overloaded** |
 | PWR_OK goes HIGH then drops in 0.1s | **Overcurrent protection triggered** |
@@ -143,6 +146,7 @@ This would confirm the **Huntkey 280W PSU is the culprit** — it cannot sustain
 ---
 
 **References:**
+
 - [Using oscilloscope to diagnose ATX PSU — eevblog.com](https://www.eevblog.com/forum/testgear/using-oscilloscope-to-test-atx-psu/)
 - [ATX PSU PWR_OK signal explained — hardwaresecrets.com](https://www.hardwaresecrets.com/everything-you-need-to-know-about-the-atx-power-supply-standard/)
 - [How to measure PSU voltages with oscilloscope — electronics.stackexchange.com](https://electronics.stackexchange.com/questions/tagged/power-supply)

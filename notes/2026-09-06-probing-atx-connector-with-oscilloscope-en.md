@@ -68,30 +68,37 @@ color:  [ORG]  [BLU]  [BLK] [GRN]   [BLK] [BLK] [BLK] [WHT] [RED] [RED] [RED] [B
 ### 🎯 Probe Sequence — Do in This Order
 
 **Measurement 1 — PWR_OK (most important for your case)**
+
 ```
 Black probe → PC case metal (GND)
 Red probe   → GREY wire (PWR_OK)
 ```
+
 Watch what happens when you press power:
+
 - Goes to +5V then drops instantly = **PSU protection triggered**
 - Never goes up at all = **PSU is dead**
 
 ---
 
 **Measurement 2 — +12V main rail**
+
 ```
 Black probe → PC case metal (GND)
 Red probe   → YELLOW wire on 24-pin
 ```
+
 Watch if +12V collapses when fan kicks then dies
 
 ---
 
 **Measurement 3 — +12V CPU rail (4-pin ATX12V)**
+
 ```
 Black probe → PC case metal (GND)
 Red probe   → YELLOW wire on the small 4-pin CPU connector
 ```
+
 This is the most critical for CPU power delivery
 
 ---
@@ -99,7 +106,7 @@ This is the most critical for CPU power delivery
 ### ⚠️ Important Rules
 
 | Rule | Reason |
-|---|---|
+| --- | --- |
 | **Always connect BLACK first** | Safety — establishes ground reference |
 | **Never probe green wire (PS_ON) with power on** | Can accidentally force PSU on/off |
 | **Do not let red probe tip touch two pins at once** | Will cause a short circuit |
@@ -110,6 +117,7 @@ This is the most critical for CPU power delivery
 ### 🖥️ Oscilloscope Settings to Set Now
 
 Before pressing power button:
+
 ```
 Time/div  → 50ms  (so 0.1 sec = 2 divisions on screen)
 Volt/div  → 5V    (so +12V appears near top of screen)
@@ -126,6 +134,7 @@ This way the scope will **automatically capture** the moment voltage drops — e
 ---
 
 **References:**
+
 - [ATX 24-pin pinout diagram — pinouts.ru](https://pinouts.ru/Power/atxpower_pinout.shtml)
 - [How to use oscilloscope probes safely — Tektronix](https://www.tek.com/en/documents/primer/oscilloscope-probe-guide)
 - [Diagnosing PSU with oscilloscope — eevblog.com](https://www.eevblog.com/forum/testgear/using-oscilloscope-to-test-atx-psu/)
