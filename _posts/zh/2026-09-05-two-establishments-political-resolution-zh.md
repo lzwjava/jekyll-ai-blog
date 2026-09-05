@@ -36,6 +36,7 @@ type: note
 “两个确立”与“两个维护”“四个意识”等其他中共政治框架紧密相连，这些共同服务于巩固习近平在党内的集中统一领导。
 
 参考文献：
+
 - [两个确立 – Wikipedia](https://en.wikipedia.org/wiki/Two_Establishes)
 - [“两个确立”的决定性意义 – 中国人民大学](http://en.nads.ruc.edu.cn/Opinions/f1b7cc6b7dc94984a8f458a84e682229.htm)
 - [中共决策与习近平的权力集中 – USCC](https://www.uscc.gov/sites/default/files/2022-11/Chapter_1--CCP_Decision-Making_and_Xi_Jinpings_Centralization_of_Authority.pdf)

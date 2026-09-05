@@ -20,6 +20,7 @@ In the Chinese Communist Party's (CCP) ideology, 道路问题 is considered the 
 The CCP frames its answer as the **"Chinese Path" or "Chinese Road to Socialism"** — meaning China must not copy Western liberal democracy or Soviet-style communism, but forge its own unique development model based on its national conditions (国情).
 
 **Key Components**
+
 - **Political**: Maintaining CCP leadership and "socialism with Chinese characteristics"
 - **Economic**: A socialist market economy (state-led capitalism)
 - **Cultural**: Rooted in Chinese history and traditions, rejecting wholesale Westernization
@@ -31,6 +32,7 @@ Xi Jinping has repeatedly emphasized 道路问题 as a matter of survival for th
 In short, 道路问题 is China's ongoing ideological debate about **"what kind of country China should be and how it should get there."**
 
 References:
+
 - [Socialism with Chinese Characteristics – Wikipedia](https://en.wikipedia.org/wiki/Socialism_with_Chinese_characteristics)
 - [The Chinese Dream and the China Path – Brookings Institution](https://www.brookings.edu)
 - [Xi Jinping on the China Road – CCP official discourse, People's Daily](http://en.people.cn)

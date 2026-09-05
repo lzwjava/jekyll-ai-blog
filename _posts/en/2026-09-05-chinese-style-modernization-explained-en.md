@@ -44,6 +44,7 @@ The concept is described in official discourse as "creating a new form of human 
 Crucially, it modernizes industry, agriculture, military, and science & technology — but deliberately excludes political liberalization or Western-style democracy, which the CCP argues has led to social conflict in Western societies.
 
 **References:**
+
 - [Chinese modernization – Wikipedia](https://en.wikipedia.org/wiki/Chinese_modernization)
 - [Chinese-style Modernization – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/chinese-style-modernization/)
 - [Foreign Fixations at the Heart of Chinese-style Modernization – Jamestown](https://jamestown.org/foreign-fixations-at-the-heart-of-chinese-style-modernization/)

@@ -26,7 +26,7 @@ These six principles are understood as the **methodological framework** for appl
 **The Six Principles**
 
 | # | Chinese | English |
-|---|---------|---------|
+| --- | --------- | --------- |
 | 1 | 人民至上 | Supremacy of the People |
 | 2 | 自信自立 | Self-Confidence and Self-Reliance |
 | 3 | 守正创新 | Integrity and Innovation |
@@ -64,5 +64,6 @@ The same numerical label can refer to different lists — "六个坚持" may mea
 ---
 
 **References:**
+
 - [Six Adheres – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/six-adheres/)
 - [PRC Party Numbered Slogans Guide – David Cowhig's Blog](https://gaodawei.wordpress.com/2026/08/06/2026-prc-party-numbered-slogans-a-guide/)

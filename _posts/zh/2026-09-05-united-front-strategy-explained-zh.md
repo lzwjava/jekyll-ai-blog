@@ -17,11 +17,13 @@ type: note
 
 **1. 历史/马克思列宁主义语境**
 它描述了共产党与非共产党群体结盟以对抗共同敌人的策略。在中国历史上，有两次著名的统一战线：
+
 - **第一次国共合作（1924–1927年）：** 中国共产党与中国国民党针对军阀结成的联盟。
 - **第二次国共合作（1937–1945年）：** 国共两党为抵抗日本入侵再次结盟。
 
 **2. 当代中共政治用法**
 如今，统一战线指的是中国共产党持续推行的策略，旨在培养影响力并管理与以下群体的关系：
+
 - 中国国内的非中共政党
 - 海外华人社群
 - 台湾、香港和澳门
@@ -32,6 +34,7 @@ type: note
 **简而言之：** 统一战线 = 建立广泛联盟以巩固政治权力并消除反对力量。
 
 参考资料：
+
 - [United Front - Wikipedia](https://en.wikipedia.org/wiki/United_front)
 - [United Front Work Department - Wikipedia](https://en.wikipedia.org/wiki/United_Front_Work_Department)
 - [China's United Front Work: Background and Implications (Congressional Research Service)](https://crsreports.congress.gov/product/pdf/IF/IF11472)

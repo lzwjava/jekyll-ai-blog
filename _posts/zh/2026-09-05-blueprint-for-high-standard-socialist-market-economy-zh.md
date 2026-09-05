@@ -67,6 +67,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [三中全会公报 – 中国政协网](http://en.cppcc.gov.cn/2024-07/19/c_1006186.htm)
 - [中共中央关于进一步全面深化改革的决定 – 外交部](https://www.mfa.gov.cn/eng/xw/zyxw/202407/t20240721_11457437.html)
 - [格里菲斯亚洲见解 – 2024年三中全会要点](https://blogs.griffith.edu.au/asiainsights/chinas-third-plenary-2024-key-takeaways-of-a-high-significance-meeting-for-green-growth-and-chinas-overseas-engagement/)

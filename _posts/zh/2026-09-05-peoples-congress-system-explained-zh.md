@@ -27,6 +27,7 @@ type: note
 **简而言之**，它是中国版本的代议制民主，旨在通过一个由中国共产党领导的有层级结构的立法会议体系，体现人民的意志。
 
 参考资料：
+
 - [全国人民代表大会 – 维基百科](https://en.wikipedia.org/wiki/National_People%27s_Congress)
 - [人民代表大会制度 – 中国网](http://www.china.org.cn/english/features/China_Key_Words/223773.htm)
 - [中国的政治体制 – 美国外交关系协会](https://www.cfr.org/backgrounder/chinas-political-system)

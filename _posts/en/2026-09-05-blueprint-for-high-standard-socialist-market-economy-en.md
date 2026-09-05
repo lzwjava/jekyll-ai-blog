@@ -67,6 +67,7 @@ The 2024 Third Plenum proposed 60 significant reform measures across 15 major ar
 ---
 
 **References:**
+
 - [Third Plenum Communiqué – CPPCC](http://en.cppcc.gov.cn/2024-07/19/c_1006186.htm)
 - [CPC Resolution on Deepening Reform – Ministry of Foreign Affairs](https://www.mfa.gov.cn/eng/xw/zyxw/202407/t20240721_11457437.html)
 - [Griffith Asia Insights – Third Plenum 2024 Takeaways](https://blogs.griffith.edu.au/asiainsights/chinas-third-plenary-2024-key-takeaways-of-a-high-significance-meeting-for-green-growth-and-chinas-overseas-engagement/)

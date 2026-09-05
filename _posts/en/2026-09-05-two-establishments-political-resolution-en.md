@@ -36,6 +36,7 @@ Notably, while the related "Two Safeguards" (两个维护) refer to the leader b
 The Two Establishments are closely linked to other CCP political frameworks such as the "Two Safeguards" (两个维护) and the "Four Consciousnesses" (四个意识), all of which collectively serve to consolidate Xi's centralized authority within the Party.
 
 References:
+
 - [Two Establishments – Wikipedia](https://en.wikipedia.org/wiki/Two_Establishes)
 - [Decisive Significance of the Two Establishments – RUC](http://en.nads.ruc.edu.cn/Opinions/f1b7cc6b7dc94984a8f458a84e682229.htm)
 - [CCP Decision-Making and Xi Jinping's Centralization of Authority – USCC](https://www.uscc.gov/sites/default/files/2022-11/Chapter_1--CCP_Decision-Making_and_Xi_Jinpings_Centralization_of_Authority.pdf)

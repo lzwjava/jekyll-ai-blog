@@ -57,6 +57,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [中国共产党第十九次全国代表大会 – 维基百科](https://en.wikipedia.org/wiki/19th_National_Congress_of_the_Chinese_Communist_Party)
 - [中共十九大 – 布鲁金斯学会](https://www.brookings.edu/collection/chinas-19th-party-congress/)
 - [习近平与宪法修改 – ISDP](https://www.isdp.eu/publication/xi-jinping-and-constitutional-revisions-in-china/)

@@ -20,6 +20,7 @@ type: note
 **Core Idea:** High-quality development means a shift from merely seeking growth to seeking *better* growth — quality over quantity. It reflects a new development philosophy featuring innovative, coordinated, green, open, and shared development. Growth will no longer be mainly driven by traditional factors such as labor, capital, and land, but by new innovative factors such as information technology, big data, and artificial intelligence.
 
 **Key Pillars:**
+
 - **Innovation-driven:** High-quality development means strong innovation ability, with innovation becoming the first driving force, on top of the traditional concept of high input-output efficiency.
 - **Green development:** According to Xi Jinping, "green development" is the "base colour of high-quality development," and "new quality productivity itself is green productivity."
 - **Efficiency & equity:** High-quality development aims to achieve greater efficiency, equity, sustainability, and security. Obsolete production capacity and technology will gradually be phased out while green emerging industries and renewable resource technology will be developed.
@@ -29,6 +30,7 @@ type: note
 ---
 
 **References:**
+
 - [High-quality development – Wikipedia](https://en.wikipedia.org/wiki/High-quality_development)
 - [What to know about China's high-quality development – SCIO](http://english.scio.gov.cn/m/in-depth/2024-03/18/content_117066836.htm)
 - [What is "High-quality Development"? – Our China Story](https://www.ourchinastory.com/en/11871/What-is-)

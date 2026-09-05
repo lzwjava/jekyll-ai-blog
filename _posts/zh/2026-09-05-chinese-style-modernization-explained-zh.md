@@ -44,6 +44,7 @@ type: note
 关键在于，它推动了工业、农业、国防和科学技术的现代化——但刻意排除了政治自由化或西方式民主，中共认为这些导致了西方社会的冲突。
 
 **参考文献：**
+
 - [Chinese modernization – Wikipedia](https://en.wikipedia.org/wiki/Chinese_modernization)
 - [Chinese-style Modernization – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/chinese-style-modernization/)
 - [Foreign Fixations at the Heart of Chinese-style Modernization – Jamestown](https://jamestown.org/foreign-fixations-at-the-heart-of-chinese-style-modernization/)

@@ -57,6 +57,7 @@ In March 2018, a constitutional amendment was adopted at the National People's C
 ---
 
 **References:**
+
 - [19th National Congress of the CPC – Wikipedia](https://en.wikipedia.org/wiki/19th_National_Congress_of_the_Chinese_Communist_Party)
 - [China's 19th Party Congress – Brookings](https://www.brookings.edu/collection/chinas-19th-party-congress/)
 - [Xi Jinping and Constitutional Revisions – ISDP](https://www.isdp.eu/publication/xi-jinping-and-constitutional-revisions-in-china/)

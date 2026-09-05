@@ -36,6 +36,7 @@ type: note
 它与之前讨论的 **中国式现代化** 这一更广泛的概念密切相关，两者都将中国的发展模式定位为具有文化独特性并与西方区分开来。
 
 **参考文献：**
+
 - [Two Integrations – Wikipedia](https://en.wikipedia.org/wiki/Two_Integrations)
 - [Two Combines – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/two-combines/)
 - [Xi Jinping Invests in Ideological Legitimacy – Asia Society](https://asiasociety.org/policy-institute/xi-jinping-invests-ideological-legitimacy-amid-slowing-economic-growth)

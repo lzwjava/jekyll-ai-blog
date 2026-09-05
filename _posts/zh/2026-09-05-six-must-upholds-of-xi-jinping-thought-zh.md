@@ -26,7 +26,7 @@ type: note
 **六项原则**
 
 | # | 中文 | English |
-|---|------|---------|
+| --- | ------ | --------- |
 | 1 | 人民至上 | 人民至上 |
 | 2 | 自信自立 | 自信自立 |
 | 3 | 守正创新 | 守正创新 |
@@ -64,5 +64,6 @@ type: note
 ---
 
 **参考文献：**
+
 - [Six Adheres – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/six-adheres/)
 - [PRC Party Numbered Slogans Guide – David Cowhig's Blog](https://gaodawei.wordpress.com/2026/08/06/2026-prc-party-numbered-slogans-a-guide/)

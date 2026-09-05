@@ -20,6 +20,7 @@ type: note
 **核心理念：** 高质量发展意味着从单纯追求增长转向追求 *更好* 的增长——重质量而非数量。它体现了创新、协调、绿色、开放、共享的新发展理念。增长将不再主要依靠劳动力、资本和土地等传统要素驱动，而是依靠 information technology、big data 和 artificial intelligence 等新型创新要素驱动。
 
 **关键支柱：**
+
 - **创新驱动：** 高质量发展意味着强大的创新能力，在传统的高投入产出效率概念之上，创新成为第一驱动力。
 - **绿色发展：** 习近平指出，"绿色发展"是"高质量发展的底色"，"新质生产力本身就是绿色生产力"。
 - **效率与公平：** 高质量发展旨在实现更高的效率、公平、可持续性和安全性。落后产能和技术将逐步淘汰，同时发展绿色新兴产业和可再生资源技术。
@@ -29,6 +30,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [高质量发展 – 维基百科](https://en.wikipedia.org/wiki/High-quality_development)
 - [关于中国高质量发展需要了解什么 – SCIO](http://english.scio.gov.cn/m/in-depth/2024-03/18/content_117066836.htm)
 - [什么是"高质量发展"？ – Our China Story](https://www.ourchinastory.com/en/11871/What-is-)

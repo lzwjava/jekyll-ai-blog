@@ -37,6 +37,7 @@ It is essentially a hybrid system — authoritarian politics + state-directed ca
 ---
 
 References:
+
 - [Socialism with Chinese Characteristics – Britannica](https://www.britannica.com/topic/socialism-with-Chinese-characteristics)
 - [Xi Jinping Thought – Council on Foreign Relations](https://www.cfr.org/backgrounder/xi-jinping-thought)
 - [China's Political System – BBC](https://www.bbc.com/news/world-asia-pacific-13008467)

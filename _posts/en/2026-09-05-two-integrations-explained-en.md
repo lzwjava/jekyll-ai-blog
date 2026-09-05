@@ -36,6 +36,7 @@ The concept promotes Marxism and emphasizes its integration with Chinese politic
 It is closely related to the broader concept of **中国式现代化** discussed previously, as both serve to frame China's development model as culturally authentic and distinct from the West.
 
 **References:**
+
 - [Two Integrations – Wikipedia](https://en.wikipedia.org/wiki/Two_Integrations)
 - [Two Combines – China Media Project](https://chinamediaproject.org/the_ccp_dictionary/two-combines/)
 - [Xi Jinping Invests in Ideological Legitimacy – Asia Society](https://asiasociety.org/policy-institute/xi-jinping-invests-ideological-legitimacy-amid-slowing-economic-growth)

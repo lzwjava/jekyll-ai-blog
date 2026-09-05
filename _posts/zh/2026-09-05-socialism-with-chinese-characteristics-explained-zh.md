@@ -37,5 +37,6 @@ type: note
 ---
 
 参考资料：
+
 - [中国特色社会主义 – 大英百科全书](https://www.britannica.com/topic/socialism-with-Chinese-characteristics)
-- [习近平思想 – 外交关系委员会](https://www.cfr.org/backgrounder/xi
+- [习近平思想 – 外交关系委员会](<https://www.cfr.org/backgrounder/xi>

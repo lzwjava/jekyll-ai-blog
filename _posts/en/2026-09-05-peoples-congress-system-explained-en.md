@@ -27,6 +27,7 @@ The **People's Congress System** (人民代表大会制度) is China's fundament
 **In short**, it is China's version of representative democracy, designed to reflect the will of the people through a structured, CCP-led hierarchy of legislative congresses.
 
 References:
+
 - [National People's Congress – Wikipedia](https://en.wikipedia.org/wiki/National_People%27s_Congress)
 - [People's Congress System – China.org.cn](http://www.china.org.cn/english/features/China_Key_Words/223773.htm)
 - [China's Political System – Council on Foreign Relations](https://www.cfr.org/backgrounder/chinas-political-system)
