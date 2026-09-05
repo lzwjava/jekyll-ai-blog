@@ -43,6 +43,7 @@ type: note
 正因如此，单独监禁、以剥夺住房作为惩罚手段以及长期情感虐待，均被心理健康与人权界视为酷刑形式。
 
 **参考文献：**
+
 - [复杂性创伤后应激障碍 – 今日心理学](https://www.psychologytoday.com/us/basics/c-ptsd)
 - [马斯洛需求层次理论 – 简单心理学](https://www.simplypsychology.org/maslow.html)
 - [心理折磨 – 联合国人权事务](https://www.ohchr.org/en/special-procedures/sr-torture/psychological-torture)

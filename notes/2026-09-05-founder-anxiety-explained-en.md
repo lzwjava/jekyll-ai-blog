@@ -33,6 +33,7 @@ Founders face an unusual combination of high stakes, high uncertainty, and high 
 The mental health conversation in Silicon Valley and the broader startup world has grown considerably, with founders like Ben Horowitz (*The Hard Thing About Hard Things*) and others speaking openly about the psychological toll of entrepreneurship.
 
 References:
+
 - [The Psychological Price of Entrepreneurship – Inc. Magazine](https://www.inc.com/magazine/201309/jessica-bruder/psychological-price-of-entrepreneurship.html)
 - [Founder Mental Health – First Round Review](https://review.firstround.com/the-founders-guide-to-actually-managing-stress)
 - [The Hard Thing About Hard Things – Ben Horowitz](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things)

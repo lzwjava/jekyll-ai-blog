@@ -43,6 +43,7 @@ The cruelty is amplified precisely *because* it leaves no visible wound, making 
 This is why solitary confinement, housing instability as punishment, and chronic emotional abuse are all considered forms of torture by mental health and human rights communities.
 
 **References:**
+
 - [Complex PTSD – Psychology Today](https://www.psychologytoday.com/us/basics/c-ptsd)
 - [Maslow's Hierarchy of Needs – Simply Psychology](https://www.simplypsychology.org/maslow.html)
 - [Psychological Torture – UN Human Rights](https://www.ohchr.org/en/special-procedures/sr-torture/psychological-torture)

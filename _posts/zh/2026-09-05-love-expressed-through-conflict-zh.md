@@ -35,6 +35,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Lin Daiyu – Dream of the Red Chamber Wiki](https://dream-of-the-red-chamber.fandom.com/wiki/Lin_Daiyu)
 - [Jia Baoyu – Dream of the Red Chamber (UMN Open Library)](https://open.lib.umn.edu/redchamber/chapter/jia-baoyu/)
 - [Dream of the Red Chamber – Study.com](https://study.com/academy/lesson/dream-of-the-red-chamber-cao-xueqin-summary-characters-analysis.html)

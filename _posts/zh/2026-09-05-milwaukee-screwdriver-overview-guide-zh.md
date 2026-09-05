@@ -22,6 +22,7 @@ Milwaukee Tool（米沃奇）是一家知名的美国专业工具品牌。以下
 Milwaukee 手动螺丝刀在美国制造，采用精密贴合、激光蚀刻批头，以及含硼强化美国钢材，延长使用寿命——以可靠性和耐用性为设计目标。
 
 主要特点包括：
+
 - 全金属芯体使强度提升至4倍，精密机加工批头确保贴合紧密、寿命长久，360°旋转尾盖增强操控性与驱动能力。
 - 可见磨损指示器、缓冲握把，以及有限终身保修。1000V绝缘螺丝刀套装符合UL认证安全标准，适用于电气作业。
 
@@ -42,6 +43,7 @@ Milwaukee 螺丝刀专为电气、机械、汽车以及通用紧固/维护作业
 ---
 
 **参考资料：**
+
 - [Milwaukee M4™ 螺丝刀](https://www.milwaukeetool.com/Products/2101-22)
 - [Milwaukee 电动螺丝刀](https://www.milwaukeetool.com/products/power-tools/fastening/screwdrivers)
 - [Milwaukee 手动螺丝刀](https://www.milwaukeetool.com/products/hand-tools/fastening/screwdrivers-and-nutdrivers)

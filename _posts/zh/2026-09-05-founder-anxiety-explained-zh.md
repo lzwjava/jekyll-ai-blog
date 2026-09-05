@@ -33,6 +33,7 @@ type: note
 硅谷及更广泛的创业世界中对心理健康的讨论已大幅增加，像本·霍洛维茨（《创业维艰》作者）等创始人也公开谈论创业带来的心理代价。
 
 参考文献：
+
 - [创业的心理代价 – Inc. Magazine](https://www.inc.com/magazine/201309/jessica-bruder/psychological-price-of-entrepreneurship.html)
 - [创始人心理健康 – First Round Review](https://review.firstround.com/the-founders-guide-to-actually-managing-stress)
 - [《创业维艰》 – 本·霍洛维茨](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things)
