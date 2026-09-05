@@ -41,7 +41,7 @@ type: note
 你的 Huntkey 280W 电源应带有一条 **4 针 ATX12V 线缆**——它是一个小型方形 4 针插头，**与主 20 针线缆分开**。你必须将其插入 L-IG41M3 主板上 CPU 插座旁边的小型方形插槽。
 
 | 接口 | 用途 | 针数 |
-|---|---|---|
+| --- | --- | --- |
 | 主 ATX 接口 | 为整块主板供电 | 20 针（你的电源） |
 | ATX 12V 接口 | 仅为 CPU 供电 | 4 针方形 |
 
@@ -54,5 +54,6 @@ type: note
 ---
 
 **参考：**
+
 - [ATX 12V 电源接口详解 — computerhope.com](https://www.computerhope.com/jargon/a/atx.htm)
 - [什么是 ATX 12V 接口？ — Tom's Hardware](https://www.tomshardware.com/reviews/psu-buying-guide,4229.html)

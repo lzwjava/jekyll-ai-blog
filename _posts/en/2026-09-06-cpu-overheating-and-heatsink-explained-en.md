@@ -17,7 +17,7 @@ type: note
 
 ---
 
-### 🧠 What is a Heatsink?A **heatsink** is a metal block (usually aluminum or copper) that sits **directly on top of the CPU**. Its job is to absorb heat from the CPU and spread it away into the air. It has fins on top to increase surface area, and usually a fan on top to blow air through those fins.
+### 🧠 What is a Heatsink?A **heatsink** is a metal block (usually aluminum or copper) that sits **directly on top of the CPU**. Its job is to absorb heat from the CPU and spread it away into the air. It has fins on top to increase surface area, and usually a fan on top to blow air through those fins
 
 ```
       [ FAN ]
@@ -60,6 +60,7 @@ This safety mechanism is called **Thermal Throttling / Thermal Protection** — 
 ### ⚡ Why Does It Happen So Fast (Within 1 Second)?
 
 If the heatsink is:
+
 - **Not making contact** with the CPU (installed backwards, or clips not locked)
 - **Missing thermal paste** (air gap between CPU and heatsink)
 - **Dry old thermal paste** (crumbled and not conducting heat)
@@ -71,7 +72,7 @@ Then the CPU gets **no cooling at all**. Even at idle, the CPU generates enough 
 ### 🔧 What You Should Check
 
 | Check | What to Look For |
-|---|---|
+| --- | --- |
 | Heatsink clips | All 4 push-pins must be fully locked down |
 | Heatsink contact | Bottom of heatsink must be flat against CPU top |
 | Thermal paste | Should be a thin even layer — not too much, not missing |
@@ -87,6 +88,7 @@ Remove the heatsink, clean off old thermal paste with isopropyl alcohol, apply a
 ---
 
 **References:**
+
 - [What is a CPU Heatsink? — computerhope.com](https://www.computerhope.com/jargon/h/heatsink.htm)
 - [How CPU Thermal Protection Works — Intel ARK](https://www.intel.com/content/www/us/en/support/articles/000005597/processors.html)
 - [How to Apply Thermal Paste — Tom's Hardware](https://www.tomshardware.com/how-to/how-to-apply-thermal-paste)

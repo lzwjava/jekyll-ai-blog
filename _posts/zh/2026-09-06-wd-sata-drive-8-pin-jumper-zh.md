@@ -30,6 +30,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [我硬盘上的这个 8 针连接器是什么？ – PCPartPicker](https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive)
 - [如何在 SATA 硬盘上使用跳线 – Chron](https://smallbusiness.chron.com/use-jumpers-sata-hard-drive-69047.html)
 - [这个 SATA 硬盘上的 8 个针脚是做什么用的？ – Tom's Hardware](https://forums.tomshardware.com/threads/what-are-the-8-pins-for-on-this-1tb-sata-hard-drive.2094318/)

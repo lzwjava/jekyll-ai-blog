@@ -19,11 +19,9 @@ They are jumper pins. You can enable particular settings by placing a small jump
 
 On Western Digital SATA drives specifically, the pin pairs do the following:
 
-
 - **Pins 1 & 2** — Disables the drive's spread-spectrum clocking (SSC) feature, which helps manage electromagnetic interference.
 - **Pins 5 & 6** — Limits data transfer speed to 150 MB/s (SATA I speed), useful for older controllers.
 - **Pins 3 & 4** — Enables PM2 mode on drives that support it.
-
 
 On desktop drives, these 8 pins are for factory firmware or jumper-enabled settings like "Power-Up In Standby" (PUIS), rather than for user data.
 
@@ -32,6 +30,7 @@ On desktop drives, these 8 pins are for factory firmware or jumper-enabled setti
 ---
 
 **References:**
+
 - [What is this 8 pin connector on my hard drive? – PCPartPicker](https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive)
 - [How to Use Jumpers on a SATA Hard Drive – Chron](https://smallbusiness.chron.com/use-jumpers-sata-hard-drive-69047.html)
 - [What are the 8 pins for on this SATA hard drive? – Tom's Hardware](https://forums.tomshardware.com/threads/what-are-the-8-pins-for-on-this-1tb-sata-hard-drive.2094318/)

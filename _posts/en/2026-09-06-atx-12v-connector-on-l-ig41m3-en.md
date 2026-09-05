@@ -41,7 +41,7 @@ The main 24-pin connector powers the whole motherboard (RAM slots, PCIe, chipset
 Your Huntkey 280W PSU should have a **4-pin ATX12V cable** coming out of it — it is a small square 4-pin plug, **separate from the main 20-pin cable**. You must plug this into the small square socket near the CPU socket on the L-IG41M3 board.
 
 | Connector | Purpose | Pins |
-|---|---|---|
+| --- | --- | --- |
 | Main ATX | Powers whole board | 20-pin (your PSU) |
 | ATX 12V | Powers CPU only | 4-pin square |
 
@@ -54,5 +54,6 @@ If you only plug in the main 20-pin and forget the ATX 12V 4-pin, the system wil
 ---
 
 **References:**
+
 - [ATX 12V Power Connector Explained — computerhope.com](https://www.computerhope.com/jargon/a/atx.htm)
 - [What is the ATX 12V connector? — Tom's Hardware](https://www.tomshardware.com/reviews/psu-buying-guide,4229.html)

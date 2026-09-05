@@ -24,6 +24,7 @@ type: note
 你可以将20针线缆直接插入24针主板插槽——它会物理适配在一侧，留下4个空针脚。只要主板功耗足够低，这种方法就有效。如果主板仅通过20针引脚消耗过多电流，长时间使用可能导致这些引脚过热。
 
 **L-IG41M3** 是一款较旧的Intel G41主板，专为低功耗LGA775 CPU设计——功耗非常低，因此通常安全，前提是：
+
 - 你使用**集成显卡**（无独立GPU）
 - 你使用**低功耗CPU**（Core 2 Duo / Celeron）
 
@@ -36,6 +37,7 @@ type: note
 20针转24针ATX转接线可让20针电源在24针主板上正常工作，采用标准18AWG铜线，额定电压300V，确保稳定安全使用。
 
 这类转接线价格约**8–20美元**，并且广泛可用。只需：
+
 1. 将转接线的20针母头插入航嘉电源线
 2. 将转接线的24针公头插入主板
 
@@ -50,6 +52,7 @@ type: note
 ---
 
 **参考：**
+
 - [PSU 20针转24针转接线 — Tom's Hardware论坛](https://forums.tomshardware.com/threads/psu-20-pin-to-24-pin-adapter-how-well-do-they-work.2851575/)
 - [ATX 20针转24针连接指南 — smps.us](https://www.smps.us/20-to-24pin-atx.html)
 - [20针转24针转接线 — Newegg](https://www.newegg.com/p/1EF-023W-004X3)

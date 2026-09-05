@@ -62,6 +62,7 @@ CPU 通过 PROCHOT# 引脚向主板发送信号
 ### ⚡ 为什么会在 1 秒内发生？
 
 如果散热片：
+
 - **未与 CPU 接触**（安装方向错误或卡扣未锁紧）
 - **缺少导热硅脂**（CPU 与散热片之间有空气间隙）
 - **导热硅脂老化干涸**（碎裂且无法导热）
@@ -73,7 +74,7 @@ CPU 通过 PROCHOT# 引脚向主板发送信号
 ### 🔧 你应该检查什么
 
 | 检查项 | 需要确认的内容 |
-|---|---|
+| --- | --- |
 | 散热片卡扣 | 所有 4 个推针必须完全锁紧 |
 | 散热片接触 | 散热片底部必须与 CPU 顶部平贴 |
 | 导热硅脂 | 应薄而均匀——不能太多，不能缺失 |
@@ -89,6 +90,7 @@ CPU 通过 PROCHOT# 引脚向主板发送信号
 ---
 
 **参考来源：**
+
 - [What is a CPU Heatsink? — computerhope.com](https://www.computerhope.com/jargon/h/heatsink.htm)
 - [How CPU Thermal Protection Works — Intel ARK](https://www.intel.com/content/www/us/en/support/articles/000005597/processors.html)
 - [How to Apply Thermal Paste — Tom's Hardware](https://www.tomshardware.com/how-to/how-to-apply-thermal-paste)

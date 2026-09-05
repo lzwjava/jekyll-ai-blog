@@ -30,6 +30,7 @@ type: note
 **步骤 2 — 测试电源本身是否有问题**
 
 使用**回形针测试**在不连接主板的情况下测试电源：
+
 1. 拔掉电源与所有设备的连接
 2. 取一个回形针，弯成 U 形
 3. 将 20-pin 连接器上的**绿线（PS_ON）**与任意**黑线（GND）**短接
@@ -42,6 +43,7 @@ type: note
 **步骤 3 — 精简到最小配置**
 
 移除所有部件，只保留：
+
 - CPU + 散热器/风扇
 - 1 根内存条
 - 主 20-pin 电源
@@ -66,7 +68,7 @@ type: note
 ### 🧭 快速诊断汇总表
 
 | 症状 | 最可能原因 |
-|---|---|
+| --- | --- |
 | 风扇闪烁，电源回形针测试失败 | **电源已损坏** |
 | 风扇闪烁，回形针测试通过 | **主板或 CPU** |
 | 无 4-pin 时保持通电，插入 4-pin 后关闭 | **CPU 或主板上的 VRM** |
@@ -82,6 +84,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [风扇转动半秒后停止 — Tom's Hardware](https://forums.tomshardware.com/threads/hit-power-buton-cpu-fan-spins-for-half-a-second-then-stops-spin-and-stop-forever-no-booting.3034486/)
 - [无法点亮，风扇转动后停止 — AnandTech](https://forums.anandtech.com/threads/no-post-fan-spins-cuts-out-doesnt-cut-when-cpu-not-plugged-in.1277027/)
 - [开机后 CPU 风扇转动 1 秒后关机 — AnandTech](https://forums.anandtech.com/threads/power-on-cpu-fan-spins-for-1-sec-then-power-down.1608528/)

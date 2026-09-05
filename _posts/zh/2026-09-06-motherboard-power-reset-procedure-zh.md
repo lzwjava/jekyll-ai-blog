@@ -31,6 +31,7 @@ type: note
 ```
 
 24-pin 连接器上的 **+5VSB（5V 待机）** 线路在 PSU 插入墙壁插座时**始终带电**——即使 PC 已关机。这正是以下功能得以实现的原因：
+
 - Wake-on-LAN
 - PC 关机时的 USB 充电
 - 电源按钮检测
@@ -42,7 +43,7 @@ type: note
 以下方法按**“效果最弱 → 效果最强”**排列：
 
 | 方法 | 是否有效？ | 原因 |
-|---|---|---|
+| --- | --- | --- |
 | 再次按下电源按钮 | ❌ 通常无效 | 主板仍处于保护状态 |
 | 关闭 PSU 背面的开关 | ✅ 有效——等待 10–15 秒 | 切断包括 +5VSB 在内的所有电源 |
 | 将 PSU 从墙壁插座拔下 | ✅ 有效——等待 10–15 秒 | 与上述相同，电容完全放电 |
@@ -90,5 +91,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [ATX +5VSB Standby Power Explained — electronics.stackexchange.com](https://electronics.stackexchange.com/questions/40592/what-is-5vsb-in-atx-power-supply)
 - [How to fully power cycle a PC — Tom's Hardware](https://forums.tomshardware.com/threads/how-to-fully-reset-motherboard-after-shutdown.3400000/)

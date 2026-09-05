@@ -24,6 +24,7 @@ You have **two options**:
 You can plug a 20-pin cable directly into a 24-pin motherboard slot — it will physically fit on one side, leaving 4 pins empty. This works as long as the motherboard's power draw is low enough. If the board draws too much current through only 20 pins, it can overheat those pins over time.
 
 The **L-IG41M3** is an older Intel G41 board designed for low-power LGA775 CPUs — it draws very little power, so this is generally safe **if**:
+
 - You are using **integrated graphics** (no discrete GPU)
 - You have a **low-power CPU** (Core 2 Duo / Celeron)
 
@@ -36,6 +37,7 @@ The **L-IG41M3** is an older Intel G41 board designed for low-power LGA775 CPUs 
 A 20-pin to 24-pin ATX adapter cable lets the 20-pin PSU work properly on a 24-pin motherboard, using standard 18AWG copper wire rated at 300V for stable and safe use.
 
 These adapters cost around **$8–$20** and are widely available. Simply:
+
 1. Plug the adapter's 20-pin female end into your Huntkey PSU cable
 2. Plug the adapter's 24-pin male end into the motherboard
 
@@ -50,6 +52,7 @@ Also, a 280W PSU is already quite limited — avoid adding a dedicated graphics 
 ---
 
 **References:**
+
 - [PSU 20-pin to 24-pin adapter — Tom's Hardware Forum](https://forums.tomshardware.com/threads/psu-20-pin-to-24-pin-adapter-how-well-do-they-work.2851575/)
 - [ATX 20-pin to 24-pin Connection Guide — smps.us](https://www.smps.us/20-to-24pin-atx.html)
 - [20-pin to 24-pin adapter cable — Newegg](https://www.newegg.com/p/1EF-023W-004X3)

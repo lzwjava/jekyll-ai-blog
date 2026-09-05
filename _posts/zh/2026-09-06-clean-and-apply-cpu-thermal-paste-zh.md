@@ -18,6 +18,7 @@ type: note
 ---
 
 **你需要准备的工具**
+
 - 异丙醇（浓度 90% 以上，99% 为佳）
 - 无绒布或咖啡滤纸（避免使用纸巾——会留下纤维）
 - 塑料刮板或卡片（可选）
@@ -39,7 +40,7 @@ type: note
 有几种常见方法——**豌豆/点法** 对大多数 CPU 最为推荐：
 
 | 方法 | 适用场景 |
-|---|---|
+| --- | --- |
 | 豌豆/点法（中心放一粒米大小的点） | 大多数 CPU（Intel、AMD） |
 | X 形图案 | 较大 IHS（如 Threadripper、HEDT） |
 | 薄涂（用卡片刮平） | 需要均匀平整覆盖时 |
@@ -55,6 +56,7 @@ type: note
 ---
 
 **提示**
+
 - 导热膏宁少勿多——过多可能溢出到主板插槽。
 - 切勿使用浓度低于 90% 的异丙醇——水分可能损坏元件。
 - 让系统运行几个热循环后再判断最终温度，因为某些导热膏需要“磨合期”。
@@ -62,6 +64,7 @@ type: note
 ---
 
 **参考：**
+
 - [如何涂抹导热膏 — Arctic](https://www.arctic.de/en/learn/thermal-paste-application)
 - [导热膏涂抹方法对比 — Linus Tech Tips](https://www.youtube.com/watch?v=ZEP0OK8RLQE)
 - [2024 年最佳导热膏 — Tom's Hardware](https://www.tomshardware.com/best-picks/best-thermal-paste)

@@ -32,6 +32,7 @@ A very common cause of this symptom is simply not having the 4-pin ATX 12V conne
 **Step 2 — Test if the PSU itself is the problem**
 
 Use the **paperclip test** to test the PSU without any motherboard connected:
+
 1. Unplug PSU from everything
 2. Take a paperclip, bend it into a U-shape
 3. Short the **green wire (PS_ON)** to any **black wire (GND)** on the 20-pin connector
@@ -44,6 +45,7 @@ Use the **paperclip test** to test the PSU without any motherboard connected:
 **Step 3 — Strip down to bare minimum**
 
 Remove everything except:
+
 - CPU + heatsink/fan
 - 1 stick of RAM
 - Main 20-pin power
@@ -68,7 +70,7 @@ One surprisingly common cause: the heatsink installed backwards or not making pr
 ### 🧭 Quick Diagnosis Summary Table
 
 | Symptom | Most Likely Cause |
-|---|---|
+| --- | --- |
 | Fan flashes, PSU paperclip test fails | **PSU is dead** |
 | Fan flashes, paperclip test passes | **Motherboard or CPU** |
 | Stays on without 4-pin, dies with 4-pin | **CPU or VRM on motherboard** |
@@ -84,6 +86,7 @@ Given you have a **Huntkey 280W PSU** (old, low-wattage), the PSU is the first s
 ---
 
 **References:**
+
 - [Fan spins half second then stops — Tom's Hardware](https://forums.tomshardware.com/threads/hit-power-buton-cpu-fan-spins-for-half-a-second-then-stops-spin-and-stop-forever-no-booting.3034486/)
 - [No POST, fan spins and cuts out — AnandTech](https://forums.anandtech.com/threads/no-post-fan-spins-cuts-out-doesnt-cut-when-cpu-not-plugged-in.1277027/)
 - [Power on, CPU fan spins 1 sec then shuts down — AnandTech](https://forums.anandtech.com/threads/power-on-cpu-fan-spins-for-1-sec-then-power-down.1608528/)

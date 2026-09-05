@@ -31,6 +31,7 @@ Wall outlet → PSU → Motherboard 24-pin
 ```
 
 The **+5VSB (5V Standby)** line on the 24-pin connector is **always live** whenever the PSU is plugged into the wall — even with the PC switched off. This is what allows features like:
+
 - Wake-on-LAN
 - USB charging while PC is off
 - Power button detection
@@ -42,7 +43,7 @@ The **+5VSB (5V Standby)** line on the 24-pin connector is **always live** whene
 Here are the methods, from **least effective → most effective**:
 
 | Method | Does it work? | Why |
-|---|---|---|
+| --- | --- | --- |
 | Press power button again | ❌ Usually NO | Motherboard still in protection state |
 | Switch off PSU rear switch | ✅ YES — wait 10–15 sec | Cuts all power including +5VSB |
 | Unplug PSU from wall | ✅ YES — wait 10–15 sec | Same as above, fully drains capacitors |
@@ -90,5 +91,6 @@ If your Huntkey 280W PSU has **no rear switch**, then unplug it from the wall so
 ---
 
 **References:**
+
 - [ATX +5VSB Standby Power Explained — electronics.stackexchange.com](https://electronics.stackexchange.com/questions/40592/what-is-5vsb-in-atx-power-supply)
 - [How to fully power cycle a PC — Tom's Hardware](https://forums.tomshardware.com/threads/how-to-fully-reset-motherboard-after-shutdown.3400000/)

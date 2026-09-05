@@ -18,6 +18,7 @@ Here's a complete step-by-step guide:
 ---
 
 **What You'll Need**
+
 - Isopropyl alcohol (90%+ concentration, 99% preferred)
 - Lint-free cloth or coffee filters (avoid paper towels — they leave fibers)
 - Plastic card or scraper (optional)
@@ -39,7 +40,7 @@ Do the same for the bottom of the cooler (the part that touches the CPU) — wip
 There are a few common methods — the **pea/dot method** is most recommended for most CPUs:
 
 | Method | Best For |
-|---|---|
+| --- | --- |
 | Pea/dot (rice-grain sized dot in center) | Most CPUs (Intel, AMD) |
 | X pattern | Larger IHS (e.g., Threadripper, HEDT) |
 | Thin spread (with card) | Flat, uniform coverage preferred |
@@ -55,6 +56,7 @@ Boot up and check CPU temperatures using a tool like **HWMonitor** or **Core Tem
 ---
 
 **Tips**
+
 - Less paste is better than more — excess paste can spill onto the motherboard socket.
 - Never use rubbing alcohol below 90% — the water content can damage components.
 - Allow the system to run a few heat cycles before judging final temperatures, as some pastes need a "burn-in" period.
@@ -62,6 +64,7 @@ Boot up and check CPU temperatures using a tool like **HWMonitor** or **Core Tem
 ---
 
 **References:**
+
 - [How to Apply Thermal Paste — Arctic](https://www.arctic.de/en/learn/thermal-paste-application)
 - [Thermal Paste Application Methods Compared — Linus Tech Tips](https://www.youtube.com/watch?v=ZEP0OK8RLQE)
 - [Best Thermal Pastes 2024 — Tom's Hardware](https://www.tomshardware.com/best-picks/best-thermal-paste)
