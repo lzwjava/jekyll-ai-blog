@@ -14,7 +14,7 @@ type: note
 ## 已配置的内容
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | **二进制文件** | mihomo v1.19.30 (linux-amd64-v1) → `/usr/local/bin/mihomo` |
 | **配置文件** | 从 Mac 的 `~/.config/mihomo/` 复制 → `/etc/mihomo/`（包含 `Rules/` 提供者 + geoip） |
 | **服务** | `mihomo.service` systemd 单元，`enabled`（开机启动），以 root 身份运行并启用 TUN |

@@ -14,7 +14,7 @@ Done! ✅ The laptop at `192.168.1.42` is now a working proxy host (no OpenWrt n
 ## What was set up
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | **Binary** | mihomo v1.19.30 (linux-amd64-v1) → `/usr/local/bin/mihomo` |
 | **Config** | Copied from Mac `~/.config/mihomo/` → `/etc/mihomo/` (incl. `Rules/` providers + geoip) |
 | **Service** | `mihomo.service` systemd unit, `enabled` (starts on boot), running as root with TUN |
