@@ -46,6 +46,7 @@ Cacti 提供企业级监控功能而无需许可费用，这对于任何规模�
 ---
 
 **参考文献：**
+
 - [Cacti (软件) — 维基百科](https://en.wikipedia.org/wiki/Cacti_(software))
 - [供应商洞察：Cacti — Network Admin Tools](https://www.netadmintools.com/cacti/)
 - [Cacti 监控工具：完整指南 — bckinfo.com](https://bckinfo.com/cacti-monitoring-tool-a-complete-guide-for-modern-it-infrastructure/)

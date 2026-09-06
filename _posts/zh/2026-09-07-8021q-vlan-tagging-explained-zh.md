@@ -22,7 +22,7 @@ type: note
 802.1Q 在以太网帧头部的源 MAC 地址和 EtherType 字段之间插入一个 **4 字节（32 位）标签**。该标签包含：
 
 | 字段 | 大小 | 描述 |
-|---|---|---|
+| --- | --- | --- |
 | TPID | 16 位 | 标签协议标识符 — 始终为 `0x8100`，用于标识为 802.1Q 帧 |
 | PCP | 3 位 | 优先级代码点 — 用于 QoS/流量优先级 |
 | DEI | 1 位 | 丢弃合格指示符 — 标记在拥塞时可丢弃的帧 |
@@ -42,6 +42,7 @@ type: note
 **简而言之：** 802.1Q 是由 IEEE 定义的通用标准，通过将 VLAN 成员信息直接嵌入每个以太网帧中，使 VLAN 能够跨不同厂商的交换机实现互操作。
 
 参考：
+
 - [IEEE 802.1Q - Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.1Q)
 - [VLAN Tagging Explained - Cisco](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/6-x/layer2/configuration/guide/b_Cisco_Nexus_9000_Series_NX-OS_Layer_2_Switching_Configuration_Guide/b_Cisco_Nexus_9000_Series_NX-OS_Layer_2_Switching_Configuration_Guide_chapter_0100.html)
 - [IEEE 802.1Q Standard Overview](https://standards.ieee.org/ieee/802.1Q/10323/)

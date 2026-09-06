@@ -60,7 +60,7 @@ IBM Tivoli Network Manager IP Edition 也与 IBM Tivoli Netcool/OMNIbus 紧密�
 ### 总结
 
 | 方面 | 详情 |
-|---|---|
+| --- | --- |
 | 供应商 | IBM（Tivoli 品牌） |
 | 平台 | 主要是 z/OS（大型机） |
 | 网络支持 | SNA + TCP/IP |
@@ -70,6 +70,7 @@ IBM Tivoli Network Manager IP Edition 也与 IBM Tivoli Netcool/OMNIbus 紧密�
 ---
 
 **参考来源：**
+
 - [IBM Z NetView v6.3 概述 — IBM Docs](https://www.ibm.com/docs/SSZJDU_6.3.0/com.ibm.iznetview.doc_6.3.0/netv630_welcome_kc.htm)
 - [Tivoli NetView — ESM Solutions](http://www.esm-solutions.com/software/tivoli/tivoli-netview.html)
 - [一封给 NetView 的情书 — TechChannel](https://techchannel.com/networking/networking-management-and-monitoring/)

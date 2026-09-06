@@ -54,6 +54,7 @@ CiscoWorks has been superseded by newer Cisco management platforms, such as **Ci
 ---
 
 **References:**
+
 - [CiscoWorks Overview – Cisco](https://www.cisco.com/E-Learning/public/shared/pdf/Cview_Tutorial_Final.pdf)
 - [CiscoWorks CiscoView 6.1.6 – Cisco](https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/ciscoworks-ciscoview/product_data_sheet0900aecd80645457.html)
 - [CiscoWorks LMS & Netmanager – Cisco](https://www.cisco.com/c/dam/global/es_mx/assets/docs/pdf/CiscoWorks_LMS_and_Netmanager.pdf)

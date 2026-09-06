@@ -52,6 +52,7 @@ HP OpenView 与公司的业务服务管理 (BSM) 软件于 2011 年合并，形�
 ---
 
 **参考资料：**
+
 - [HP OpenView — 维基百科](https://en.wikipedia.org/wiki/HP_OpenView)
 - [HP OpenView 全称 — TutorialsPoint](https://www.tutorialspoint.com/what-is-the-full-form-of-hpov)
 - [HP OpenView 操作 — SlideShare](https://www.slideshare.net/slideshow/hp-open-viewhp-ov/11382516)

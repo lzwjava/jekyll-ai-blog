@@ -60,7 +60,7 @@ IBM Tivoli Network Manager IP Edition is also tightly integrated with IBM Tivoli
 ### In Summary
 
 | Aspect | Detail |
-|---|---|
+| --- | --- |
 | Vendor | IBM (Tivoli brand) |
 | Platform | Primarily z/OS (mainframe) |
 | Network Support | SNA + TCP/IP |
@@ -70,6 +70,7 @@ IBM Tivoli Network Manager IP Edition is also tightly integrated with IBM Tivoli
 ---
 
 **References:**
+
 - [IBM Z NetView v6.3 Overview — IBM Docs](https://www.ibm.com/docs/SSZJDU_6.3.0/com.ibm.iznetview.doc_6.3.0/netv630_welcome_kc.htm)
 - [Tivoli NetView — ESM Solutions](http://www.esm-solutions.com/software/tivoli/tivoli-netview.html)
 - [A Love Letter to NetView — TechChannel](https://techchannel.com/networking/networking-management-and-monitoring/)

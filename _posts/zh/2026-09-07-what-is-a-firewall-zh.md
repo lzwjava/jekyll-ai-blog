@@ -21,12 +21,14 @@ type: note
 - **下一代防火墙（NGFW）** — 将传统防火墙功能与深度包检测、入侵防御、应用感知等高级能力相结合。
 
 主要功能包括：
+
 - 阻止未授权访问
 - 防止恶意软件进入或离开网络
 - 强制执行组织安全策略
 - 记录并监控网络活动
 
 参考：
+
 - [什么是防火墙？ — Cisco](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html)
 - [防火墙 — MDN Web 文档术语表](https://developer.mozilla.org/en-US/docs/Glossary/Firewall)
 - [防火墙（计算） — 维基百科](https://en.wikipedia.org/wiki/Firewall_(computing))
