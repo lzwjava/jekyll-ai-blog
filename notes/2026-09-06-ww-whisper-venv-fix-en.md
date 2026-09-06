@@ -14,6 +14,7 @@ Fixed and verified. Here's the full story:
 ## What was happening
 
 `ww whisper` is a wrapper around **faster-whisper** (CTranslate2 backend), but it runs under your **system python3.11** (`/usr/bin/python3.11`, per the `ww` console script shebang), which has its own separate ML stack in `~/.local/lib/python3.11/site-packages`:
+
 - `ctranslate2 4.5.0` — **old**. Its runtime loads cuDNN by versioned names (`libcudnn_ops.so.9.1.0`, etc.) and requires a cuDNN layout it can't find, then dies with:
   `Unable to load any of {...}` → `Invalid handle. Cannot load symbol cudnnCreateTensorDescriptor` → `Aborted (core dumped)`
 - `faster-whisper 1.0.3` — also stale
@@ -25,6 +26,7 @@ Your project venv (`/home/lzw/projects/ww/.venv`) has the **working, pinned** ve
 ## Fix (in `/home/lzw/projects/ww`)
 
 Changed `_ensure_deps()` in `ww/audio/whisper_translate.py`, `whisper_low_mem.py`, and `whisper_diarize.py` to **always prefer the project `.venv`** unless already running inside it (detected via `sys.prefix`). Also:
+
 - Added the missing `if __name__ == "__main__": main()` guard in `whisper_translate.py` (its old re-exec convention ran through the console script, so the module could never run directly — the re-exec now targets the module file like the other two scripts).
 - Each re-exec logs `[ww] Re-running with project venv python: ...` to stderr for transparency.
 
@@ -35,6 +37,7 @@ Changed `_ensure_deps()` in `ww/audio/whisper_translate.py`, `whisper_low_mem.py
 - `ww whisper diarize` already worked (whisperx was missing from system python, forcing the venv) and is unaffected.
 
 You can now just rerun your original command:
+
 ```
 ww whisper daniel.mp3 --language zh
 ```

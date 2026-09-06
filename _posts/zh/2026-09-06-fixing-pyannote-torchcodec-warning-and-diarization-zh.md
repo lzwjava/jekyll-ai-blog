@@ -31,9 +31,9 @@ type: note
 
 剩余的障碍是 **受门控的 HF 仓库**（返回 403 错误，非代码问题）。你的缓存令牌未被授权访问 pyannote 模型，因此请使用与 `~/.cache/huggingface/token` 相同的账户（令牌以 `hf_m...` 开头）在浏览器中登录并接受访问权限：
 
-- https://huggingface.co/pyannote/speaker-diarization-community-1（whisperx 的默认模型——**此模型是必需的**；pyannote 的 3.1 管道也会从此处拉取其 xvec/PLDA 资源）
-- https://huggingface.co/pyannote/segmentation-3.0（底层分割模型）
-- https://huggingface.co/pyannote/speaker-diarization-3.1（仅在使用 `--diarize-model` 时需要）
+- <https://huggingface.co/pyannote/speaker-diarization-community-1（whisperx> 的默认模型——**此模型是必需的**；pyannote 的 3.1 管道也会从此处拉取其 xvec/PLDA 资源）
+- <https://huggingface.co/pyannote/segmentation-3.0（底层分割模型）>
+- <https://huggingface.co/pyannote/speaker-diarization-3.1（仅在使用> `--diarize-model` 时需要）
 
 然后只需再次运行：
 

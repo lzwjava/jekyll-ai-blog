@@ -31,9 +31,9 @@ Verified end-to-end on a 20s clip: no torchcodec warning, token auto-detected (`
 
 The remaining blocker is **gated HF repos** (403, not a code issue). Your cached token isn't authorized for the pyannote models, so accept access in your browser while logged in as the same account as `~/.cache/huggingface/token` (token starts `hf_m...`):
 
-- https://huggingface.co/pyannote/speaker-diarization-community-1 (whisperx's default — **this one is required**; pyannote's 3.1 pipeline pulls its xvec/PLDA assets from here too)
-- https://huggingface.co/pyannote/segmentation-3.0 (underlying segmentation model)
-- https://huggingface.co/pyannote/speaker-diarization-3.1 (only if you use `--diarize-model`)
+- <https://huggingface.co/pyannote/speaker-diarization-community-1> (whisperx's default — **this one is required**; pyannote's 3.1 pipeline pulls its xvec/PLDA assets from here too)
+- <https://huggingface.co/pyannote/segmentation-3.0> (underlying segmentation model)
+- <https://huggingface.co/pyannote/speaker-diarization-3.1> (only if you use `--diarize-model`)
 
 Then just run it again:
 

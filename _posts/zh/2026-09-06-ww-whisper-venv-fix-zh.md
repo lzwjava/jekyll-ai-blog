@@ -14,6 +14,7 @@ type: note
 ## 问题描述
 
 `ww whisper` 是对 **faster-whisper**（CTranslate2 后端）的封装，但它运行在 **系统 python3.11** 环境下（`/usr/bin/python3.11`，根据 `ww` 控制台脚本的 shebang 行），该环境在 `~/.local/lib/python3.11/site-packages` 中有自己独立的 ML 栈：
+
 - `ctranslate2 4.5.0` — **旧版本**。其运行时通过版本化名称加载 cuDNN（如 `libcudnn_ops.so.9.1.0` 等），但找不到所需的 cuDNN 布局，随后报错：
   `Unable to load any of {...}` → `Invalid handle. Cannot load symbol cudnnCreateTensorDescriptor` → `Aborted (core dumped)`
 - `faster-whisper 1.0.3` — 也已过时
@@ -25,6 +26,7 @@ type: note
 ## 修复（在 `/home/lzw/projects/ww` 目录下）
 
 修改了 `ww/audio/whisper_translate.py`、`whisper_low_mem.py` 和 `whisper_diarize.py` 中的 `_ensure_deps()` 函数，使其 **始终优先使用项目 `.venv`**，除非已经在其中运行（通过 `sys.prefix` 检测）。同时：
+
 - 在 `whisper_translate.py` 中添加了缺失的 `if __name__ == "__main__": main()` 保护（其旧的重新执行约定通过控制台脚本运行，因此模块无法直接执行——现在重新执行像其他两个脚本一样直接指向模块文件）。
 - 每次重新执行时，会向 stderr 输出 `[ww] Re-running with project venv python: ...` 以增加透明度。
 
@@ -35,6 +37,7 @@ type: note
 - `ww whisper diarize` 原本就能工作（whisperx 在系统 Python 中缺失，强制使用虚拟环境），不受影响。
 
 你现在可以直接重新运行原始命令：
+
 ```
 ww whisper daniel.mp3 --language zh
 ```
