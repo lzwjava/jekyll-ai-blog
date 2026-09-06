@@ -39,6 +39,7 @@ API 定价为每百万输入 token 10 美元，每百万输出 token 50 美元�
 ---
 
 **参考资料：**
+
 - [GPT-6 Astra: A new generation of intelligence | OpenAI](https://openai.com/index/gpt-6-astra/)
 - [OpenAI releases GPT-6 Astra, says it may represent AGI | Axios](https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman)
 - [OpenAI announces rollout of GPT-6 Astra | CNBC](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html)

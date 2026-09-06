@@ -14,6 +14,7 @@ type: note
 **Core idea:** Instead of needing one powerful GPU machine to host a huge model (e.g., LLaMA 3.1 405B), BloomBee splits the model's transformer blocks across many peers — each hosting just a few layers — and they collaboratively serve inference requests over the internet. This leverages idle GPU resources for cost-effective LLM access.
 
 **Key challenges it tackles** (inter-node bandwidth + per-node memory):
+
 - **Tensor offloading** — each peer holds more layers, reducing network hops
 - **Speculative decoding** — sends multiple draft tokens per round-trip to cut communication frequency
 - **Lossless activation compression** — fewer bytes per activation without accuracy loss

@@ -39,6 +39,7 @@ The API is priced at $10 per million input tokens and $50 per million output tok
 ---
 
 **References:**
+
 - [GPT-6 Astra: A new generation of intelligence | OpenAI](https://openai.com/index/gpt-6-astra/)
 - [OpenAI releases GPT-6 Astra, says it may represent AGI | Axios](https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman)
 - [OpenAI announces rollout of GPT-6 Astra | CNBC](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html)

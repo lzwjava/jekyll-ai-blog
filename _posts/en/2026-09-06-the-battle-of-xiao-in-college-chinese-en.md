@@ -48,6 +48,7 @@ The event most directly linked to the Battle of Xiao is *烛之武退秦师* (Zh
 ---
 
 **References:**
+
 - [Battle of Xiao – Wikipedia](https://en.wikipedia.org/wiki/Battle_of_Xiao)
 - [Zuo Zhuan – Wikipedia](https://en.wikipedia.org/wiki/Zuo_Zhuan)
 - [秦晋殽之战 exam context – 希赛网](https://www.educity.cn/tiku/21084674.html)
