@@ -59,14 +59,17 @@ _includes/
 Then wherever you want the ad:
 
 {% raw %}
+
 ```liquid
 {% include monetag-banner.html %}
 ```
+
 {% endraw %}
 
 For example, inside your post layout:
 
 {% raw %}
+
 ```text
 _layouts/post.html
 
@@ -78,6 +81,7 @@ _layouts/post.html
 
 {% include monetag-banner.html %}
 ```
+
 {% endraw %}
 
 I'd **not** use OnClick/SmartLink for this. A conventional banner is much more predictable: the user sees the ad, and **only an intentional click opens the advertiser**.

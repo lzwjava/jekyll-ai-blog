@@ -59,14 +59,17 @@ _includes/
 然后在你想要展示广告的任何位置：
 
 {% raw %}
+
 ```liquid
 {% include monetag-banner.html %}
 ```
+
 {% endraw %}
 
 例如，在你的文章布局中：
 
 {% raw %}
+
 ```text
 _layouts/post.html
 
@@ -78,6 +81,7 @@ _layouts/post.html
 
 {% include monetag-banner.html %}
 ```
+
 {% endraw %}
 
 我**不**建议为此使用 OnClick/SmartLink。传统横幅的可预测性更强：用户看到广告，并且**只有有意的点击才会打开广告商页面**。
