@@ -18,5 +18,6 @@ This is completely different from TCP/UDP ports (like port 80 for HTTP or port 2
 ---
 
 References:
+
 - [What is a switch port? — Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-network-switch.html)
 - [Port-based VLANs explained — NetworkLessons.com](https://networklessons.com/switching/introduction-to-vlans)

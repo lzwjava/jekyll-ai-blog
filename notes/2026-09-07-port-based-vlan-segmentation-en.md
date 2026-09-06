@@ -52,6 +52,7 @@ interface FastEthernet0/8
 ---
 
 **References:**
+
 - [Cisco VLAN Configuration Guide](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/vlan/b_1612_vlan_9300_cg/configuring_vlans.html)
 - [IEEE 802.1Q VLAN Standard Overview](https://www.ieee802.org/1/pages/802.1Q.html)
 - [Port-Based VLAN — NetworkLessons.com](https://networklessons.com/switching/introduction-to-vlans)

@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [什么是载波信号？ – Lenovo](https://www.lenovo.com/us/en/glossary/carrier/)
 - [什么是载波信号及其如何支持通信系统？ – Patsnap Eureka](https://eureka.patsnap.com/article/what-is-a-carrier-signal-and-how-does-it-support-communication-systems)
 - [光载波概述 – ScienceDirect](https://www.sciencedirect.com/topics/computer-science/optical-carrier)

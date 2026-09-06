@@ -20,6 +20,7 @@ Answer:
 **PoE Repeater (PoE 中继器)**
 
 A **PoE Repeater** is a device that does two things at once:
+
 1. **Extends the network signal** beyond the standard 100-meter Ethernet limit
 2. **Passes through (or regenerates) the PoE power** so the end device still receives power after the extension
 
@@ -41,7 +42,7 @@ Standard Ethernet (without PoE repeater) is limited to **100 meters per cable ru
 **Common Devices Powered by PoE**
 
 | Device | Why PoE Matters |
-|---|---|
+| --- | --- |
 | IP Cameras (监控摄像头) | No wall outlet needed at camera location |
 | Wi-Fi Access Points (AP) | Flexible ceiling/wall placement |
 | VoIP Phones | Single cable for voice + power |
@@ -52,7 +53,7 @@ Standard Ethernet (without PoE repeater) is limited to **100 meters per cable ru
 **PoE Standards**
 
 | Standard | Max Power | Common Use |
-|---|---|---|
+| --- | --- | --- |
 | PoE (802.3af) | 15.4W | IP phones, basic cameras |
 | PoE+ (802.3at) | 30W | PTZ cameras, APs |
 | PoE++ (802.3bt) | 60–90W | High-power APs, TVs |
@@ -62,6 +63,7 @@ Standard Ethernet (without PoE repeater) is limited to **100 meters per cable ru
 **Key Benefit**: Run one cable to a remote location and power + connect a device — no electrician needed.
 
 References:
+
 - [Power over Ethernet – Wikipedia](https://en.wikipedia.org/wiki/Power_over_Ethernet)
 - [What is PoE? – Cisco](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-poe.html)
 - [PoE Repeater Explained – FS.com](https://community.fs.com/article/poe-extender-vs-poe-repeater-vs-poe-injector.html)

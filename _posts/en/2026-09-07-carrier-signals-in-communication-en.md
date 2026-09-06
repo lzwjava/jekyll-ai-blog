@@ -42,6 +42,7 @@ By providing a structured platform, carriers ensure that information reaches its
 ---
 
 **References:**
+
 - [What is a Carrier Signal? – Lenovo](https://www.lenovo.com/us/en/glossary/carrier/)
 - [What is a Carrier Signal and How Does it Support Communication Systems? – Patsnap Eureka](https://eureka.patsnap.com/article/what-is-a-carrier-signal-and-how-does-it-support-communication-systems)
 - [Optical Carrier Overview – ScienceDirect](https://www.sciencedirect.com/topics/computer-science/optical-carrier)

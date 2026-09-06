@@ -20,6 +20,7 @@ type: note
 **PoE 中继器**
 
 **PoE 中继器**是一种同时完成两件事的设备：
+
 1. 将网络信号扩展到标准 100 米以太网限制之外
 2. 传递（或再生）PoE 电力，使终端设备在扩展后仍能获得供电
 
@@ -41,7 +42,7 @@ type: note
 **常见 PoE 供电设备**
 
 | 设备 | PoE 的优势 |
-|---|---|
+| --- | --- |
 | IP 摄像头（监控摄像头） | 摄像头位置无需墙壁插座 |
 | Wi-Fi 接入点（AP） | 灵活的吊顶或墙面安装 |
 | VoIP 电话 | 单根线缆同时传输语音和电力 |
@@ -52,7 +53,7 @@ type: note
 **PoE 标准**
 
 | 标准 | 最大功率 | 常见用途 |
-|---|---|---|
+| --- | --- | --- |
 | PoE (802.3af) | 15.4W | IP 电话、基础摄像头 |
 | PoE+ (802.3at) | 30W | PTZ 摄像头、接入点 |
 | PoE++ (802.3bt) | 60–90W | 高功率接入点、电视 |
@@ -62,6 +63,7 @@ type: note
 **主要优势**：只需一根线缆即可连接到远程位置，为设备供电并联网——无需电工。
 
 参考资料：
+
 - [Power over Ethernet – 维基百科](https://en.wikipedia.org/wiki/Power_over_Ethernet)
 - [什么是 PoE？ – Cisco](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-poe.html)
 - [PoE 中继器详解 – FS.com](https://community.fs.com/article/poe-extender-vs-poe-repeater-vs-poe-injector.html)

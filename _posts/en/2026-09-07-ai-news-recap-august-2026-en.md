@@ -62,6 +62,7 @@ At the **Beijing World Humanoid Robot Games**, robots officially **outran human 
 ---
 
 **References:**
+
 - [AI News till 3rd September 2026: 35+ Releases](https://swadeshisync.com/ai-news-till-3rd-september-2026/)
 - [Latest AI Model Releases — September 2026 (Air Release Tracker)](https://aireleasetracker.com/latest)
 - [AI News August 2026 — AIToolsRecap](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx)

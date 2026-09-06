@@ -20,5 +20,6 @@ type: note
 ---
 
 参考资料：
+
 - [什么是交换机端口？ — Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-network-switch.html)
 - [基于端口的VLAN详解 — NetworkLessons.com](https://networklessons.com/switching/introduction-to-vlans)

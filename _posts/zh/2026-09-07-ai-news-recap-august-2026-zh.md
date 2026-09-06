@@ -62,6 +62,7 @@ OpenAI在评估表明其可能具备自主开发zero-day exploit的能力后，�
 ---
 
 **参考资料：**
+
 - [AI新闻至2026年9月3日：35+项发布](https://swadeshisync.com/ai-news-till-3rd-september-2026/)
 - [最新AI模型发布——2026年9月（Air Release Tracker）](https://aireleasetracker.com/latest)
 - [2026年8月AI新闻——AIToolsRecap](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx)
