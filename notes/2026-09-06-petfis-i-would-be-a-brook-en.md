@@ -36,6 +36,7 @@ His romantic experiences were always all too brief. His first romance ended with
 ---
 
 **References:**
+
 - [I Would Be a Branch — Modern Poetry in Translation](https://modernpoetryintranslation.com/poem/sandor-petofi-i-would-be-a-branch-translated-gabi-reigh/)
 - [Sándor Petőfi Analysis — eNotes](https://www.enotes.com/topics/sandor-pet-fi/in-depth)
 - [Millions of Chinese know Petőfi by heart — Daily News Hungary](https://dailynewshungary.com/millions-of-chinese-know-the-works-of-this-hungarian-poet-by-heart-video/)

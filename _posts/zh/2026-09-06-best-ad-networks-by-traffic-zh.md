@@ -45,7 +45,7 @@ type: note
 **按阶段快速推荐：**
 
 | 流量级别 | 最佳选择 |
-|---|---|
+| --- | --- |
 | 刚起步 | Google AdSense 或 Media.net |
 | 1 万–5 万页面浏览量 | Ezoic 或 Journey by Mediavine |
 | 5 万+ 会话 | Mediavine 或 Raptive |
@@ -53,6 +53,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [13 Best Ad Networks for Bloggers 2026 – Blogging Wizard](https://bloggingwizard.com/best-ad-networks/)
 - [Top 15 Best Ad Networks for Publishers & Bloggers – EvinceDevs](https://evincedev.com/blog/top-15-best-ad-networks-for-publishers-bloggers/)
 - [Best Ad Networks for Blogs: A Complete Roadmap – Artha](https://artha.link/blog/best-ad-networks-for-blogs/)

@@ -36,7 +36,7 @@ Monetag is a global ad network that has been operating since 2016, positioning i
 **Pros & Cons**
 
 | ✅ Pros | ⚠️ Cons |
-|---|---|
+| --- | --- |
 | No traffic minimum | Popunder ads can feel intrusive |
 | Fast/instant approval | Earnings vary wildly by niche & geo |
 | Works in 195+ countries | Not ideal for brand-safe, premium niches |
@@ -52,6 +52,7 @@ Many publishers run Monetag as a secondary or backup network and still see decen
 ---
 
 **References:**
+
 - [Monetag Review 2026 – AdNetworksReview](https://adnetworksreview.com/monetag-review-2026/)
 - [Monetag in 2026: AI-Powered Ad Monetization – The Bloggers Blog](https://www.thebloggersblog.co.uk/2026/03/11/monetag-in-2026-ai-powered-ad-monetization-for-publishers/)
 - [Monetag Review – AFFBun](https://affbun.com/network/monetag)

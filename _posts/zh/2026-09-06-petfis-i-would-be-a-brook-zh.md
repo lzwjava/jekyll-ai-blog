@@ -36,6 +36,7 @@ Sándor Petőfi（1823–1849）出生于匈牙利小克勒什。他于1849年7�
 ---
 
 **参考文献：**
+
 - [《我愿是一条树枝》——现代诗歌翻译](https://modernpoetryintranslation.com/poem/sandor-petofi-i-would-be-a-branch-translated-gabi-reigh/)
 - [Sándor Petőfi 分析——eNotes](https://www.enotes.com/topics/sandor-pet-fi/in-depth)
 - [数百万中国人能背诵裴多斐的诗——匈牙利每日新闻](https://dailynewshungary.com/millions-of-chinese-know-the-works-of-this-hungarian-poet-by-heart-video/)
