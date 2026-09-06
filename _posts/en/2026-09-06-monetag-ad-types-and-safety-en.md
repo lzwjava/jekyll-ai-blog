@@ -20,7 +20,7 @@ type: note
 Monetag offers several ad formats, automatically selected by its MultiTag AI based on user behavior, device, location, and page context:
 
 | Format | Description |
-|---|---|
+| --- | --- |
 | **OnClick / Popunder** | Opens a new tab or window behind the current browser window when a user clicks anywhere on the page |
 | **Push Notifications** | Clickable browser messages that appear even when the user is not on your site (requires user opt-in) |
 | **In-Page Push** | Small native-style notification banners displayed within the page, at corners on desktop or top/bottom on mobile |
@@ -38,6 +38,7 @@ This is an honest, mixed answer:
 ✅ **What they promise:** Monetag says they work only with trusted, hand-picked advertisers, and that all ads are continuously monitored by anti-ad fraud and malware detection technologies.
 
 ⚠️ **The honest caveats:**
+
 - Popunder ads in particular can feel intrusive and may cause user backlash depending on your audience.
 - Some publishers have reported seeing low-quality or misleading ad creatives slip through, which is a known risk with most alternative ad networks (not unique to Monetag).
 - From a safety perspective, the experience depends on how ad formats behave on your site and how you manage consent and compliance for push-based units.
@@ -52,6 +53,7 @@ Monetag is a **legitimate, legal ad network** — but it's not as brand-safe or 
 ---
 
 **References:**
+
 - [Monetag Help Center – Website Content Rules](https://help.monetag.com/en/articles/6726292-website-content-main-rules-for-publishers)
 - [Monetag in 2026: AI-Powered Ad Monetization – The Bloggers Blog](https://www.thebloggersblog.co.uk/2026/03/11/monetag-in-2026-ai-powered-ad-monetization-for-publishers/)
 - [Monetag Review 2026 – WestAfricaTradeHub](https://westafricatradehub.com/reviews/monetag/)

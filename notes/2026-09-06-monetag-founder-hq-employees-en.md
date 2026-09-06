@@ -24,7 +24,7 @@ In short: **Monetag = the publisher-side brand** of PropellerAds, while Propelle
 **Key Company Facts**
 
 | Detail | Info |
-|---|---|
+| --- | --- |
 | **Founded** | 2011 (as PropellerAds) / rebranded 2022 |
 | **CEO** | Peter Efimov |
 | **Founder** | Not publicly disclosed |
@@ -48,6 +48,7 @@ In short: **Monetag = the publisher-side brand** of PropellerAds, while Propelle
 ---
 
 **References:**
+
 - [Monetag Revenue & Company Profile – GetLatka](https://getlatka.com/companies/monetag.com)
 - [Monetag Company Profile – Tracxn](https://tracxn.com/d/companies/monetag/__d4-NqFkG0QivQEf0m_WF5mRp3xzYa0M-j05TJZy1Yng)
 - [Monetag Review 2025 – FinByteHub](https://finbytehub.com/monetag-review-2025-is-this-ad-network/)

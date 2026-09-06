@@ -24,7 +24,7 @@ Monetag 最初是大型 PropellerAds 生态系统的一部分，该系统是互�
 **关键公司信息**
 
 | 详情 | 信息 |
-|---|---|
+| --- | --- |
 | **成立时间** | 2011 年（作为 PropellerAds）/ 2022 年更名 |
 | **CEO** | Peter Efimov |
 | **创始人** | 未公开披露 |
@@ -48,6 +48,7 @@ Monetag 最初是大型 PropellerAds 生态系统的一部分，该系统是互�
 ---
 
 **参考来源：**
+
 - [Monetag 营收与公司简介 – GetLatka](https://getlatka.com/companies/monetag.com)
 - [Monetag 公司简介 – Tracxn](https://tracxn.com/d/companies/monetag/__d4-NqFkG0QivQEf0m_WF5mRp3xzYa0M-j05TJZy1Yng)
 - [Monetag 2025 年评测 – FinByteHub](https://finbytehub.com/monetag-review-2025-is-this-ad-network/)

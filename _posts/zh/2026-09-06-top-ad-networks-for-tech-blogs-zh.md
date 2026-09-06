@@ -48,7 +48,7 @@ type: note
 考虑到你的流量可能仍在增长（个人笔记博客），以下是一个实际的分阶段方案：
 
 | 阶段 | 流量水平 | 推荐 |
-|---|---|---|
+| --- | --- | --- |
 | 现在 | 任意 | Google AdSense — 最容易获批 |
 | 增长中 | 10K以上页面浏览量 | 在AdSense基础上添加Media.net |
 | 成熟期 | 50K以上页面浏览量 | 申请EthicalAds（最适合你领域的选择） |
@@ -59,6 +59,7 @@ EthicalAds是长期目标——它尊重隐私、非侵入式，且其广告商�
 ---
 
 **参考来源：**
+
 - [EthicalAds vs Carbon Ads – EthicalAds](https://www.ethicalads.io/alternative-to-carbon-ads/)
 - [2026年小型发布商最佳AdSense替代方案 – DEV Community](https://dev.to/kim_kelsi_b2078fa69a/best-adsense-alternatives-for-small-publishers-in-2026-18ah)
 - [2026年开发者广告网络手册 – Idlen](https://www.idlen.io/blog/developer-ad-network-playbook)

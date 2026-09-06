@@ -48,7 +48,7 @@ These are purpose-built for exactly the audience you have — engineers, AI prac
 Given your traffic is likely still growing (personal notes blog), here's a practical sequence:
 
 | Stage | Traffic | Recommended |
-|---|---|---|
+| --- | --- | --- |
 | Now | Any | Google AdSense — easiest approval |
 | Growing | 10K+ pageviews | Add Media.net alongside AdSense |
 | Established | 50K+ pageviews | Apply to EthicalAds (best fit for your niche) |
@@ -59,6 +59,7 @@ EthicalAds is the long-term target — it's privacy-respecting, non-intrusive, a
 ---
 
 **References:**
+
 - [EthicalAds vs Carbon Ads – EthicalAds](https://www.ethicalads.io/alternative-to-carbon-ads/)
 - [Best AdSense Alternatives for Small Publishers 2026 – DEV Community](https://dev.to/kim_kelsi_b2078fa69a/best-adsense-alternatives-for-small-publishers-in-2026-18ah)
 - [Developer Ad Networks Playbook 2026 – Idlen](https://www.idlen.io/blog/developer-ad-network-playbook)
