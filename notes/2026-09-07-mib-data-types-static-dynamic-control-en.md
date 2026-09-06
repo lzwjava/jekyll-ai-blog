@@ -27,7 +27,7 @@ Parameters that the management system can **write/set** to actively control or c
 A concise summary:
 
 | Type | Direction | Purpose | Example |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Static | Read | Describes device identity/config | Device name, MAC address |
 | Dynamic | Read | Reflects current network state | Link status, active sessions |
 | Control | Read / **Write** | Allows management system to configure the device | Enable/disable interface, set threshold |
@@ -37,6 +37,7 @@ The key distinction of **control data** is that it supports **write operations**
 ---
 
 **References:**
+
 - [What is MIB? – Zenarmor](https://www.zenarmor.com/docs/network-basics/what-is-mibs-management-information-base)
 - [MIB (管理信息库) – 百度百科](https://baike.baidu.com/item/mib/4490795)
 - [SNMP MIB Overview – Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/snmp/the-snmp-management-information-base-mib-)

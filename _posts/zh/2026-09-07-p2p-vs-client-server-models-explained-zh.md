@@ -16,11 +16,13 @@ type: note
 不完全是——P2P 和 C/S 通常被视为**不同的架构模型**，尽管它们有一些表面上的相似之处。
 
 **客户端-服务器（C/S）**
+
 - 角色是固定且非对称的：客户端始终请求，服务器始终提供服务。
 - 服务器是专用的、集中式的资源。
 - 客户端之间不直接通信。
 
 **点对点（P2P）**
+
 - 每个节点同时充当客户端和服务器（常被称为“servent”）。
 - 没有中央权威——角色是动态且对称的。
 - 节点之间直接通信。
@@ -32,7 +34,7 @@ type: note
 **为什么这种说法具有误导性**
 
 | 维度 | C/S | P2P |
-|---|---|---|
+| --- | --- | --- |
 | 角色分配 | 静态 | 动态 |
 | 拓扑结构 | 星型（集中式） | 网状（去中心化） |
 | 可扩展性瓶颈 | 服务器 | 分布式 |
@@ -43,6 +45,7 @@ type: note
 **结论：** 将 P2P 和 C/S 理解为光谱的两端更为恰当。混合模型（例如带追踪器的 BitTorrent，或 Skype 的旧架构）则兼取两者之长，这或许就是“特殊 C/S”这一直觉的来源。
 
 参考文献：
+
 - [Peer-to-Peer vs Client-Server Architecture – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-client-server-and-peer-to-peer-network/)
 - [P2P Networking – Wikipedia](https://en.wikipedia.org/wiki/Peer-to-peer)
 - [Client–Server Model – Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)

@@ -18,7 +18,7 @@ type: note
 它是 IPv4 头部 **标志字段** 中的 1 位标志。标志字段总共 3 位：
 
 | 位 | 名称 | 含义 |
-|----|------|------|
+| ---- | ------ | ------ |
 | 0 | 保留 | 始终为 0 |
 | 1 | DF | 不分片 |
 | 2 | **MF** | **更多分片** |
@@ -31,6 +31,7 @@ type: note
 **示例场景：**
 
 如果一个大型 IP 数据报被分成 3 个分片：
+
 - 分片 1 → MF = 1（还有更多）
 - 分片 2 → MF = 1（还有更多）
 - 分片 3 → MF = 0（最后一个）
@@ -38,5 +39,6 @@ type: note
 接收方结合 MF 标志和 **分片偏移** 字段，正确重组原始数据。
 
 参考资料：
+
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [IP Fragmentation – Wikipedia](https://en.wikipedia.org/wiki/IP_fragmentation)

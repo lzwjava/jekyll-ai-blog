@@ -16,11 +16,13 @@ Answer:
 Not exactly — P2P and C/S are generally considered **distinct architectural models**, though they share some surface similarities.
 
 **Client-Server (C/S)**
+
 - Roles are fixed and asymmetric: clients always request, servers always serve.
 - The server is a dedicated, centralized resource.
 - Clients do not communicate directly with each other.
 
 **Peer-to-Peer (P2P)**
+
 - Every node is simultaneously a client *and* a server (often called a "servent").
 - There is no central authority — roles are dynamic and symmetric.
 - Nodes communicate directly with each other.
@@ -32,7 +34,7 @@ In a narrow technical sense, any single interaction in a P2P network *looks like
 **Why that framing is misleading**
 
 | Dimension | C/S | P2P |
-|---|---|---|
+| --- | --- | --- |
 | Role assignment | Static | Dynamic |
 | Topology | Star (centralized) | Mesh (decentralized) |
 | Scalability bottleneck | Server | Distributed |
@@ -43,6 +45,7 @@ The architectural *intent* and *system properties* are fundamentally different. 
 **Conclusion:** P2P and C/S are better understood as two ends of a spectrum. Hybrid models (e.g., BitTorrent with trackers, or Skype's old architecture) borrow from both, which is probably where the "special C/S" intuition comes from.
 
 References:
+
 - [Peer-to-Peer vs Client-Server Architecture – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-client-server-and-peer-to-peer-network/)
 - [P2P Networking – Wikipedia](https://en.wikipedia.org/wiki/Peer-to-peer)
 - [Client–Server Model – Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)

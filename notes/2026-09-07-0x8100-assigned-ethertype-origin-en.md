@@ -23,7 +23,7 @@ Every Ethernet frame has an **EtherType field** (2 bytes / 16 bits) that tells t
 > *"What kind of data is inside this frame?"*
 
 | EtherType | Protocol |
-|---|---|
+| --- | --- |
 | `0x0800` | IPv4 |
 | `0x0806` | ARP |
 | `0x86DD` | IPv6 |
@@ -61,6 +61,7 @@ When a switch sees `0x8100`, it knows the next 2 bytes are the VLAN tag (PCP + D
 **In short:** `0x8100` has no special mathematical origin — it's simply the unique ID that IEEE officially registered and assigned to 802.1Q when the standard was created, just like a product getting a barcode.
 
 References:
+
 - [EtherType - Wikipedia](https://en.wikipedia.org/wiki/EtherType)
 - [IEEE Registration Authority - EtherType](https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries)
 - [IEEE 802.1Q Frame Format](https://en.wikipedia.org/wiki/IEEE_802.1Q#Frame_format)

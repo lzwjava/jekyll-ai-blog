@@ -35,5 +35,6 @@ Many people also find that reading aloud helps with comprehension in a second la
 ---
 
 References:
+
 - [The Phonological Loop & Working Memory – Simply Psychology](https://www.simplypsychology.org/working-memory.html)
 - [Why Reading Aloud to Yourself Improves Memory – Scientific American](https://www.scientificamerican.com/article/reading-aloud-to-yourself-can-boost-memory/)

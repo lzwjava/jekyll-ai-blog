@@ -41,7 +41,7 @@ So a job that arrived *later* may enter memory *earlier* if it has higher priori
 Even after multiple jobs are loaded into memory simultaneously (the "多道" / multiprogramming part), their **completion order depends on**:
 
 | Factor | Effect |
-|---|---|
+| --- | --- |
 | CPU burst length | Short jobs finish sooner |
 | I/O frequency | I/O-bound jobs may wait longer |
 | Scheduling policy | CPU scheduler controls execution interleaving |
@@ -54,7 +54,7 @@ So a job that entered memory *first* may finish *last* if it has long CPU bursts
 ### Summary Table
 
 | Comparison | Same Order? |
-|---|---|
+| --- | --- |
 | Submission order → Memory loading order | ❌ Generally No (depends on scheduler) |
 | Memory loading order → Completion order | ❌ Generally No (depends on CPU scheduling + I/O) |
 | Submission order → Completion order | ❌ Generally No |
@@ -67,5 +67,6 @@ So a job that entered memory *first* may finish *last* if it has long CPU bursts
 ---
 
 **References:**
+
 - [Operating System Concepts – Process Scheduling (Silberschatz)](https://www.os-book.com/OS10/)
 - [多道程序设计与批处理系统 - 中文操作系统教程概述](https://zh.wikipedia.org/wiki/%E5%A4%9A%E9%81%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)

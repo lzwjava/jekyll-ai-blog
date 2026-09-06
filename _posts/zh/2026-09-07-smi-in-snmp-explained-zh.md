@@ -26,7 +26,7 @@ SMI 是 SNMP 的**模式语言**——它本身并不传输数据，而是定义
 **两个版本：**
 
 | 版本 | 使用于 | 标准 |
-|---|---|---|
+| --- | --- | --- |
 | SMIv1 | SNMPv1 | RFC 1155 |
 | SMIv2 | SNMPv2c, SNMPv3 | RFC 2578 |
 
@@ -35,6 +35,7 @@ SMIv2 通过添加更好的数据类型、更清晰的语法和增强的通知�
 **简单类比：** 如果 SNMP 是网络数据的邮政系统，那么 SMI 就是地址格式标准——它定义了如何编写地址（OID）以及每个数据包中允许包含何种内容（数据类型）。
 
 参考文献：
+
 - [RFC 1155 – 管理信息结构 v1](https://www.rfc-editor.org/rfc/rfc1155)
 - [RFC 2578 – 管理信息结构 v2 (SMIv2)](https://www.rfc-editor.org/rfc/rfc2578)
 - [SNMP 概述 – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/7282-12.html)

@@ -27,7 +27,7 @@ type: note
 简要总结：
 
 | 类型 | 方向 | 目的 | 示例 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 静态 | 读取 | 描述设备身份/配置 | 设备名称、MAC 地址 |
 | 动态 | 读取 | 反映当前网络状态 | 链路状态、活动会话 |
 | 控制 | 读取 / **写入** | 允许管理系统配置设备 | 启用/禁用接口、设置阈值 |
@@ -37,6 +37,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [什么是 MIB？ – Zenarmor](https://www.zenarmor.com/docs/network-basics/what-is-mibs-management-information-base)
 - [MIB (管理信息库) – 百度百科](https://baike.baidu.com/item/mib/4490795)
 - [SNMP MIB 概述 – Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/snmp/the-snmp-management-information-base-mib-)

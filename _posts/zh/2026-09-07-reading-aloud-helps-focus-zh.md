@@ -35,5 +35,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [语音回路与工作记忆 – Simply Psychology](https://www.simplypsychology.org/working-memory.html)
 - [为何对自己大声朗读能改善记忆 – Scientific American](https://www.scientificamerican.com/article/reading-aloud-to-yourself-can-boost-memory/)

@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [1000BASE-T概述 – Ctools.org](https://ctools.org/detailed-overview-of-the-1000base-t-gigabit-ethernet-standard-on-copper-cabling/)
 - [1000BASE-T布线 – Infinity Cable Products](https://infinity-cable-products.com/blogs/performance/how-many-cable-pairs-are-needed-for-1000base-t-transmission)
 - [以太网标准 – Professor Messer](https://www.professormesser.com/professor-messer-archives/n10-007/ethernet-standards-3/)

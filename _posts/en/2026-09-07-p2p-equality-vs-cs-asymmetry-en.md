@@ -22,7 +22,7 @@ Yes, framing P2P through the lens of **对等 (equality/symmetry)** actually sha
 **Reframing the Comparison**
 
 | Dimension | C/S | 对等 P2P |
-|---|---|---|
+| --- | --- | --- |
 | Node identity | Asymmetric (client ≠ server) | Symmetric (peer = peer) |
 | Power/resource | Concentrated at server | Evenly distributed |
 | Dependency | Client depends on server | No node depends on another |
@@ -33,6 +33,7 @@ Yes, framing P2P through the lens of **对等 (equality/symmetry)** actually sha
 In C/S, asymmetry is **structural and permanent** — you cannot flip the roles. In 对等 P2P, symmetry is **structural and permanent** — roles are fluid precisely because all nodes are equal.
 
 So the two models are built on **opposite foundational assumptions**:
+
 - C/S: inequality of roles is by design.
 - 对等 P2P: equality of roles is by design.
 
@@ -47,6 +48,7 @@ So the two models are built on **opposite foundational assumptions**:
 Emphasizing **对等** actually *strengthens* the argument that P2P is **not** a special case of C/S — it is an architecturally opposite paradigm. The moment you enforce equality among nodes, you have fundamentally departed from the C/S model.
 
 References:
+
 - [Peer-to-Peer – Wikipedia](https://en.wikipedia.org/wiki/Peer-to-peer)
 - [Client-Server Model – Wikipedia](https://en.wikipedia.org/wiki/Client%E2%93%A2server_model)
 - [Computer Networks: P2P Architecture – Kurose & Ross, *Computer Networking: A Top-Down Approach*](https://gaia.cs.umass.edu/kurose_ross/index.php)

@@ -23,7 +23,7 @@ type: note
 > “这个帧里面装的是什么类型的数据？”
 
 | EtherType | 协议 |
-|---|---|
+| --- | --- |
 | `0x0800` | IPv4 |
 | `0x0806` | ARP |
 | `0x86DD` | IPv6 |
@@ -61,6 +61,7 @@ type: note
 **简而言之：** `0x8100`没有特殊的数学起源——它只是IEEE在创建标准时正式注册并分配给802.1Q的唯一ID，就像产品获得一个条形码一样。
 
 参考文献：
+
 - [EtherType - 维基百科](https://en.wikipedia.org/wiki/EtherType)
 - [IEEE注册机构 - EtherType](https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries)
 - [IEEE 802.1Q帧格式](https://en.wikipedia.org/wiki/IEEE_802.1Q#Frame_format)

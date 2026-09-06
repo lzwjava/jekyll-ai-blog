@@ -36,6 +36,7 @@ You mentioned Cat 5 or Cat 5e — the correct minimum is **Cat 5e** (not plain C
 ---
 
 **References:**
+
 - [1000BASE-T Overview – Ctools.org](https://ctools.org/detailed-overview-of-the-1000base-t-gigabit-ethernet-standard-on-copper-cabling/)
 - [Wiring for 1000BASE-T – Infinity Cable Products](https://infinity-cable-products.com/blogs/performance/how-many-cable-pairs-are-needed-for-1000base-t-transmission)
 - [Ethernet Standards – Professor Messer](https://www.professormesser.com/professor-messer-archives/n10-007/ethernet-standards-3/)

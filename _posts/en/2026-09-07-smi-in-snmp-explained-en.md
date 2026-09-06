@@ -26,7 +26,7 @@ SMI serves as the **schema language** for SNMP — it doesn't transfer data itse
 **Two versions:**
 
 | Version | Used In | Standard |
-|---|---|---|
+| --- | --- | --- |
 | SMIv1 | SNMPv1 | RFC 1155 |
 | SMIv2 | SNMPv2c, SNMPv3 | RFC 2578 |
 
@@ -35,6 +35,7 @@ SMIv2 improved on SMIv1 by adding better data types, clearer syntax, and enhance
 **Simple analogy:** If SNMP is a postal system for network data, then SMI is the addressing format standard — it defines how addresses (OIDs) are written and what kind of content (data types) is allowed in each package.
 
 References:
+
 - [RFC 1155 – Structure of Management Information v1](https://www.rfc-editor.org/rfc/rfc1155)
 - [RFC 2578 – Structure of Management Information v2 (SMIv2)](https://www.rfc-editor.org/rfc/rfc2578)
 - [SNMP Overview – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/7282-12.html)
