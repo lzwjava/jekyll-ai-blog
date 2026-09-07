@@ -24,6 +24,7 @@ Answer:
 **工作原理：**
 
 当路由器需要分片一个较大的IP数据报时（因为其超过下一链路的MTU）：
+
 1. 将数据拆分为较小的分片
 2. 每个分片获得**相同的Identification号**（以便目的主机知道它们属于同一数据报）
 3. 每个分片获得一个**Fragment Offset**值，指示其在原始数据中的位置
@@ -34,7 +35,7 @@ Answer:
 假设原始数据报有4000字节数据，分为3个分片：
 
 | 分片 | 数据字节范围 | 偏移值（÷8） |
-|---|---|---|
+| --- | --- | --- |
 | 第1个 | 0–1479 | 0 |
 | 第2个 | 1480–2959 | 185 |
 | 第3个 | 2960–3999 | 370 |
@@ -42,5 +43,6 @@ Answer:
 目的主机使用偏移值按正确顺序重建原始数据报。
 
 参考资料：
+
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [Computer Networking: A Top-Down Approach – Kurose & Ross, 第4章](https://gaia.cs.umass.edu/kurose_ross/index.php)

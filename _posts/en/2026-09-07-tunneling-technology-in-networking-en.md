@@ -32,7 +32,7 @@ Tunneling (隧道技术) is a networking technique that encapsulates one network
 **Key Tunneling Protocols**
 
 | Protocol | Layer | Typical Use |
-|---|---|---|
+| --- | --- | --- |
 | IPSec | L3 | VPN, encrypted site-to-site |
 | GRE | L3 | Encapsulate any L3 protocol |
 | L2TP | L2 | Remote access VPN |
@@ -45,6 +45,7 @@ Tunneling (隧道技术) is a networking technique that encapsulates one network
 Tunnels can bypass firewalls and security controls if not monitored — so they're both a powerful tool for engineers and a potential attack vector (e.g., DNS tunneling for data exfiltration).
 
 References:
+
 - [RFC 2784 – Generic Routing Encapsulation (GRE)](https://datatracker.ietf.org/doc/html/rfc2784)
 - [Cloudflare – What is Tunneling?](https://www.cloudflare.com/learning/network-layer/what-is-tunneling/)
 - [RFC 4026 – Provider Provisioned VPN Terminology](https://datatracker.ietf.org/doc/html/rfc4026)

@@ -28,6 +28,7 @@ IPv4 使用 **Header Checksum**（头部校验和）进行错误检测——但�
 ## 工作原理
 
 **发送端（计算）：**
+
 1. 将校验和字段设置为 `0x0000`
 2. 将整个 IPv4 头部拆分为 **16 位字**
 3. 使用 **二进制反码加法** 求和所有 16 位字
@@ -35,6 +36,7 @@ IPv4 使用 **Header Checksum**（头部校验和）进行错误检测——但�
 5. 将其填入校验和字段
 
 **接收端（验证）：**
+
 1. 将接收到的头部拆分为 16 位字（包括校验和字段）
 2. 求和所有字
 3. 如果结果为 `0xFFFF` → 头部 **有效**；否则 → **损坏**，数据包被丢弃
@@ -66,6 +68,7 @@ Options（如果有）
 ---
 
 参考：
+
 - [RFC 791 – Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)
 - [IPv4 Header – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Header)
 - [IPv4 Checksum Explained – GeeksforGeeks](https://www.geeksforgeeks.org/error-detection-in-computer-networks/)

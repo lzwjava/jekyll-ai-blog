@@ -32,7 +32,7 @@ type: note
 **关键隧道协议**
 
 | 协议 | 层 | 典型用途 |
-|---|---|---|
+| --- | --- | --- |
 | IPSec | L3 | VPN，加密站点到站点 |
 | GRE | L3 | 封装任意 L3 协议 |
 | L2TP | L2 | 远程访问 VPN |
@@ -45,6 +45,7 @@ type: note
 隧道如果不受监控，可以绕过防火墙和安全控制——因此它们既是工程师的强大工具，也是潜在的攻击载体（例如用于数据窃取的 DNS 隧道）。
 
 参考：
+
 - [RFC 2784 – 通用路由封装（GRE）](https://datatracker.ietf.org/doc/html/rfc2784)
 - [Cloudflare – 什么是隧道技术？](https://www.cloudflare.com/learning/network-layer/what-is-tunneling/)
 - [RFC 4026 – 提供商预配 VPN 术语](https://datatracker.ietf.org/doc/html/rfc4026)

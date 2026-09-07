@@ -42,6 +42,7 @@ MIT is genuinely tough — the workload will push most students to their limits.
 ---
 
 **References:**
+
 - [30 Pros & Cons of Studying at MIT (DigitalDefynd)](https://digitaldefynd.com/IQ/mit-pros-cons/)
 - [What Is MIT Known For? (Oriel Admissions)](https://orieladmissions.com/what-is-mit-known-for/)
 - [MIT Student Voice (Universities 'n Colleges)](https://www.universitiesncolleges.com/universitiesncolleges/student-brief-mits-student-voice)

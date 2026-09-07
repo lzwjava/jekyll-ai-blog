@@ -23,7 +23,7 @@ UDP uses the **Checksum** field to ensure data correctness.
 UDP header structure for reference:
 
 | Field | Size |
-|---|---|
+| --- | --- |
 | Source Port | 16 bits |
 | Destination Port | 16 bits |
 | Length | 16 bits |
@@ -32,5 +32,6 @@ UDP header structure for reference:
 > Note: UDP provides only basic error *detection* (not correction). If a packet fails the checksum, it is simply dropped — UDP does not retransmit.
 
 References:
+
 - [RFC 768 – User Datagram Protocol](https://www.rfc-editor.org/rfc/rfc768)
 - [UDP – MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/UDP)

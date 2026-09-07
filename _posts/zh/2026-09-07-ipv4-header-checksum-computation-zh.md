@@ -109,6 +109,7 @@ c0 a8 01 02   ← 目的IP：192.168.1.2
 ---
 
 参考资料：
+
 - [RFC 791 – IPv4校验和](https://datatracker.ietf.org/doc/html/rfc791#section-3.1)
 - [反码校验和 – 维基百科](https://en.wikipedia.org/wiki/Internet_checksum)
 - [IPv4校验和计算 – GeeksforGeeks](https://www.geeksforgeeks.org/calculation-of-tcp-checksum/)

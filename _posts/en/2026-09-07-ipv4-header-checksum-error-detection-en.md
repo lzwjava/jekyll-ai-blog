@@ -28,6 +28,7 @@ IPv4 uses a **Header Checksum** for error detection — but it only protects the
 ## How It Works
 
 **Sending side (calculation):**
+
 1. Set the checksum field to `0x0000`
 2. Split the entire IPv4 header into **16-bit words**
 3. Sum all 16-bit words using **one's complement addition**
@@ -35,6 +36,7 @@ IPv4 uses a **Header Checksum** for error detection — but it only protects the
 5. Insert it into the checksum field
 
 **Receiving side (verification):**
+
 1. Split the received header into 16-bit words (including the checksum field)
 2. Sum all of them
 3. If the result is `0xFFFF` → header is **valid**; otherwise → **corrupted**, packet is discarded
@@ -66,6 +68,7 @@ Options (if any)
 ---
 
 References:
+
 - [RFC 791 – Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)
 - [IPv4 Header – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Header)
 - [IPv4 Checksum Explained – GeeksforGeeks](https://www.geeksforgeeks.org/error-detection-in-computer-networks/)

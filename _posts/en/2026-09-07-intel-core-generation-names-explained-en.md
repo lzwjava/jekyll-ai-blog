@@ -16,7 +16,7 @@ Answer:
 These "generation" labels refer to Intel's **Core processor families**, each based on a specific microarchitecture and manufacturing process:
 
 | Gen | Codename | Architecture | Process Node | Launch Year |
-|-----|----------|-------------|--------------|-------------|
+| ----- | ---------- | ------------- | -------------- | ------------- |
 | 12th | Alder Lake | Hybrid (P+E cores) | Intel 7 (10nm) | 2021 |
 | 13th | Raptor Lake | Hybrid (P+E cores) | Intel 7 (10nm) | 2022 |
 | 14th | Raptor Lake Refresh | Hybrid (P+E cores) | Intel 7 (10nm) | 2023 |
@@ -29,11 +29,13 @@ These "generation" labels refer to Intel's **Core processor families**, each bas
 - **14th Gen (Raptor Lake Refresh)** is essentially 13th Gen with slightly higher clock speeds and minor tweaks. The same silicon, same socket, same process node — more of a rebrand than a new generation. This generation was also associated with a well-known **stability/degradation issue** on some high-end SKUs (i9 chips).
 
 **How to read the model number**, e.g. `Intel Core i7-**13**700K`:
+
 - The first 2 digits after the dash = generation number (13 = 13th Gen)
 - Remaining digits = SKU tier
 - Suffix letters (K, F, T, etc.) = features (K = unlocked multiplier, F = no integrated graphics, etc.)
 
 References:
+
 - [Intel Core Processor Generations Overview – Intel ARK](https://ark.intel.com)
 - [Alder Lake Architecture – AnandTech](https://www.anandtech.com/show/17047/the-intel-12th-gen-core-i9-12900k-review-hybrid-performance/2)
 - [Raptor Lake vs Alder Lake – Tom's Hardware](https://www.tomshardware.com/reviews/intel-core-i9-13900k-review)

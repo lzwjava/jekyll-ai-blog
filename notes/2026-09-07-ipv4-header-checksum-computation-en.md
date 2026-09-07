@@ -109,6 +109,7 @@ This is why it's called **end-around carry** — the overflow bit loops back.
 ---
 
 References:
+
 - [RFC 791 – IPv4 Checksum](https://datatracker.ietf.org/doc/html/rfc791#section-3.1)
 - [One's Complement Checksum – Wikipedia](https://en.wikipedia.org/wiki/Internet_checksum)
 - [IPv4 Checksum Calculation – GeeksforGeeks](https://www.geeksforgeeks.org/calculation-of-tcp-checksum/)

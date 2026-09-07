@@ -24,16 +24,18 @@ RIP (Routing Information Protocol) is one of the oldest distance-vector routing 
 **Versions:**
 
 | Version | Description |
-|---|---|
+| --- | --- |
 | RIPv1 | Classful routing, no subnet mask support, broadcast-based |
 | RIPv2 | Classless routing (CIDR), supports subnet masks, multicast-based |
 | RIPng | IPv6 support |
 
 **Advantages:**
+
 - Simple to configure and understand
 - Works well in small, flat networks
 
 **Disadvantages:**
+
 - Slow convergence (takes time to update after topology changes)
 - Limited scalability due to the 15-hop maximum
 - High bandwidth usage from periodic full table broadcasts
@@ -43,6 +45,7 @@ RIP (Routing Information Protocol) is one of the oldest distance-vector routing 
 RIP is suitable for small networks with simple topologies. For larger, more complex enterprise networks, protocols like OSPF or BGP are preferred.
 
 References:
+
 - [Routing Information Protocol - Wikipedia](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 - [RIP Protocol Overview - Cisco](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13719-50.html)
 - [RIPv2 RFC 2453 - IETF](https://datatracker.ietf.org/doc/html/rfc2453)

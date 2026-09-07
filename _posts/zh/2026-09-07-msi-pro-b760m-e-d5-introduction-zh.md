@@ -62,7 +62,7 @@ PRO 系列专为重视生产力和多任务处理效率的专业人士及用户�
 **快速规格摘要**
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | 芯片组 | Intel B760 |
 | 插槽 | LGA 1700 |
 | CPU 支持 | Intel 第12/13/14代 |
@@ -78,6 +78,7 @@ PRO 系列专为重视生产力和多任务处理效率的专业人士及用户�
 ---
 
 **参考来源：**
+
 - [MSI PRO B760M-E 官方页面](https://www.msi.com/Motherboard/PRO-B760M-E)
 - [MSI PRO B760M-E DDR5 规格 – Softlaptop](https://softlaptop.com/motherboard-msi-pro-b760m-e-ddr5)
 - [MSI PRO B760M-E DDR5 概览 – Star Tech BD](https://www.startech.com.bd/msi-pro-b760m-e-ddr5-matx-motherboard)

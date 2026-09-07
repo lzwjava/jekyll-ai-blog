@@ -50,6 +50,7 @@ Bigo Live 在全球超过 150 个国家拥有超过 5 亿注册用户。截至 2
 ---
 
 **参考资料：**
+
 - [BIGO 2024 年财务业绩（SEC 文件）](https://www.sec.gov/Archives/edgar/data/1530238/000110465924123379/tm2429686d1_ex99-1.htm)
 - [Bigo Live 2025 平台指南与创作者收入 – BitTopup](https://bittopup.com/article/BIGO-Live-2025-Complete-Platform-Guide-Creator-Earnings)
 - [Bigo Live 2025 用户数据 – BitTopup](https://bittopup.com/article/Bigo-Live-Users-2025-500M-Registered-384M-Active)

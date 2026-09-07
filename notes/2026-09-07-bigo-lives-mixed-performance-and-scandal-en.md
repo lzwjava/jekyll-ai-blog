@@ -50,6 +50,7 @@ In 2025, the strategy represents a fundamental shift — from chasing user scale
 ---
 
 **References:**
+
 - [BIGO 2024 Financial Results (SEC Filing)](https://www.sec.gov/Archives/edgar/data/1530238/000110465924123379/tm2429686d1_ex99-1.htm)
 - [Bigo Live 2025 Platform Guide & Creator Earnings – BitTopup](https://bittopup.com/article/BIGO-Live-2025-Complete-Platform-Guide-Creator-Earnings)
 - [Bigo Live Users 2025 – BitTopup](https://bittopup.com/article/Bigo-Live-Users-2025-500M-Registered-384M-Active)

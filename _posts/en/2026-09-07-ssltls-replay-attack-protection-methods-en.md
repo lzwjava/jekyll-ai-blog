@@ -23,6 +23,7 @@ Every TLS record carries an implicit sequence number (not sent on the wire, but 
 
 **3. MAC (Message Authentication Code)**
 Each record is authenticated with a MAC that covers:
+
 - the payload
 - the record type and version
 - the **sequence number**
@@ -31,6 +32,7 @@ Replaying an old record produces a MAC mismatch (because the expected sequence n
 
 **4. TLS 1.3 — 0-RTT Replay Considerations**
 TLS 1.3's 0-RTT (early data) feature is the one area where replay risk reappears. Because early data is encrypted with a pre-shared key before a fresh handshake completes, a network attacker can replay it. TLS 1.3 mitigates this via:
+
 - **Single-use session tickets** — servers can enforce that a ticket is accepted only once
 - **Anti-replay cache** — a server-side bloom filter / cache of seen nonces
 - Application-level idempotency requirements for any 0-RTT data
@@ -41,7 +43,7 @@ Some deployments include a timestamp in the handshake; the server rejects handsh
 **Summary Table**
 
 | Mechanism | Protects Against |
-|---|---|
+| --- | --- |
 | Client/Server Random | Cross-session replay |
 | Sequence Numbers | Within-session record replay |
 | MAC over sequence number | Tampered or replayed records |
@@ -49,6 +51,7 @@ Some deployments include a timestamp in the handshake; the server rejects handsh
 | 0-RTT anti-replay cache | Early data replay (TLS 1.3) |
 
 References:
+
 - [RFC 8446 – TLS 1.3 Specification](https://datatracker.ietf.org/doc/html/rfc8446)
 - [RFC 5246 – TLS 1.2 Specification](https://datatracker.ietf.org/doc/html/rfc5246)
 - [OWASP – Transport Layer Protection Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)

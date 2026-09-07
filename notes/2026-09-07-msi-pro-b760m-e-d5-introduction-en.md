@@ -62,7 +62,7 @@ The PRO series is tailored to professionals and users who value productivity and
 **Quick Specs Summary**
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Chipset | Intel B760 |
 | Socket | LGA 1700 |
 | CPU Support | Intel 12th / 13th / 14th Gen |
@@ -78,6 +78,7 @@ The PRO series is tailored to professionals and users who value productivity and
 ---
 
 **References:**
+
 - [MSI PRO B760M-E Official Page](https://www.msi.com/Motherboard/PRO-B760M-E)
 - [MSI PRO B760M-E DDR5 Specs – Softlaptop](https://softlaptop.com/motherboard-msi-pro-b760m-e-ddr5)
 - [MSI PRO B760M-E DDR5 Overview – Star Tech BD](https://www.startech.com.bd/msi-pro-b760m-e-ddr5-matx-motherboard)
