@@ -11,7 +11,7 @@ type: note
 
 ## Question: Give me a serious plan to learn AI/LLM engineering
 
-## Answer:
+## Answer
 
 Given your current level, **do not follow a beginner “learn AI” curriculum**. You already have PyTorch, CUDA/GPU, GPT training, vLLM, KV cache, and distributed-training exposure.
 
@@ -164,7 +164,7 @@ inference
 serving
 ```
 
-The current nanochat project actually recommends following the code according to the training pipeline, starting with distributed setup and tokenizer implementation. 
+The current nanochat project actually recommends following the code according to the training pipeline, starting with distributed setup and tokenizer implementation.
 
 ### Your assignment
 

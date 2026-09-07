@@ -32,36 +32,46 @@ window_sizes[-1] = (long_window, 0)   # 最后一层始终为完整上下文
 该文件本身未实现滑动窗口，而是作为一个**统一封装器**，将 `window_size` 元组转发给当前激活的后端，共有三种情况：
 
 ### FA3（Hopper）——透传
+
 ```python
 return _fa3.flash_attn_func(q, k, v, causal=causal, window_size=window_size)
 ```
+
 FA3 CUDA 核接收 `(left, 0)`，并在核内部原生执行带状掩码——每个查询块仅加载窗口内的键/值块，这正是 FLOP/内存节省的来源。
 
 ### FA2——近似透传
+
 ```python
 return _fa2.flash_attn_func(q, k, v, dropout_p=0.0, causal=causal, window_size=_fa2_window_size(window_size))
 ```
+
 FA2 的核原生支持相同的 `(left, right)` 带状注意力。`_fa2_window_size` 将无限制的 left 映射为 FA2 的 `(-1, -1)` 哨兵值（在此模型中 right 始终为 0，因此大部分情况直接透传）。
 
 ### SDPA 回退 —— 手动模拟（`_sdpa_attention`，实质内容）
+
 PyTorch 的 `scaled_dot_product_attention` 没有带状窗口概念，因此根据不同情况通过三种方式模拟：
 
 **a) 完整上下文，等长**（`window < 0 或 window >= Tq`，且 `Tq == Tk`）：
+
 ```python
 return F.scaled_dot_product_attention(q, k, v, is_causal=True, ...)
 ```
+
 窗口涵盖了所有内容，因此直接使用普通因果 SDPA（快速路径）。
 
 **b) 单 Token 解码**（`Tq == 1`）——巧妙技巧：
+
 ```python
 start = max(0, Tk - (window + 1))
 k = k[:, :, start:, :]   # 仅保留最后 window+1 个键
 v = v[:, :, start:, :]
 return F.scaled_dot_product_attention(q, k, v, is_causal=False, ...)
 ```
+
 查询关注宽度为 `window` 的带状区域，只需要 KV 缓存的**尾部**，因此直接将 `k/v` 切片为最后 `window + 1` 个键。完全不需要掩码——由于查询位于最后位置，这在数学上等同于带状注意力。
 
 **c) 分块推理 / 预填充**（`Tq != Tk`，且两者都大于 1）：此时查询是序列内部的块，因此相关的键包括缓存尾部以及块内更早的 Token。需要构建显式的布尔掩码：
+
 ```python
 row_idx = (Tk - Tq) + torch.arange(Tq)          # 查询行的绝对位置
 col_idx = torch.arange(Tk)                       # 键列的绝对位置
@@ -70,6 +80,7 @@ if window >= 0 and window < Tk:
     mask = mask & ((row_idx - col_idx) <= window)  # 滑动：回看距离 <= 窗口
 return F.scaled_dot_product_attention(q, k, v, attn_mask=mask, ...)
 ```
+
 `row_idx` 偏移量 `(Tk - Tq)` 将查询行映射到其在缓存中的真实位置，从而在绝对位置上计算因果性和距离带状，而不是使用相对偏移。
 
 ## 关键观察

@@ -16,11 +16,13 @@ type: note
 `lerp_` 是 `lerp`（线性插值）的**原地操作版本**。
 
 **`lerp` 公式：**
+
 ```
 result = start + weight * (end - start)
 ```
 
 或者等价地：
+
 ```
 result = (1 - weight) * start + weight * end
 ```
@@ -28,6 +30,7 @@ result = (1 - weight) * start + weight * end
 末尾的下划线 `_` 是 **PyTorch 的约定**，表示该操作会**原地**修改张量（不会分配新张量）。
 
 **示例：**
+
 ```python
 import torch
 
@@ -41,15 +44,18 @@ a.lerp_(b, weight=0.5)
 ```
 
 **对比非原地版本：**
+
 ```python
 result = torch.lerp(a, b, weight=0.5)  # 返回新张量，a 不变
 a.lerp_(b, weight=0.5)                 # 直接修改 a
 ```
 
 **常见用途：**
+
 - 平滑过渡 / 动画
 - 模型权重平均（例如 EMA——指数移动平均）
 - 机器学习训练循环中的数值混合
 
 参考：
+
 - [torch.lerp — PyTorch 文档](https://pytorch.org/docs/stable/generated/torch.lerp.html)

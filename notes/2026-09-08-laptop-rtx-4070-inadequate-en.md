@@ -16,7 +16,7 @@ Short answer: **not for these models, not realistically.** This repo is dimensio
 Look at what this project *assumes* (from `README.md`, `MANIFEST.md`, and the serve scripts):
 
 | Resource | What the repo needs | RTX 4070 laptop |
-|---|---|---|
+| --- | --- | --- |
 | VRAM | 96 GB (RTX PRO 6000); dense weights alone ~17 GB, 8 resident expert layers = ~31 GB, KV pool up to 262K+ tokens | **8 GB** |
 | Host RAM | 129–137 GB of *pinned* banks, preflight requires 138–145 GB `MemAvailable` (`serve_full.sh`, `serve_dsv4.sh` both `FATAL` below that) | 16–64 GB typical |
 | Checkpoint on disk | GLM-5.3-Flash-NVFP4 ≈ **181 GB of experts** + ~17 GB dense; DSV4 similar | no laptop disk/RAM |
@@ -37,12 +37,14 @@ So: this is not a "change `--memory-ratio`" situation. All three resources (VRAM
 
 **A. If your goal is actually chatting/coding on the laptop — use the right-sized tool.**
 The same core idea (keep hot MoE experts in VRAM, stream the rest from RAM) is exactly what **llama.cpp / Ollama** do, and they're tuned for your memory envelope:
+
 - Fully-in-VRAM: a 7–9B dense model at Q4 (Llama-3.1-8B, Qwen2.5-7B/14B at low quant, DeepSeek-R1-Distill-* ) → 30–100+ tok/s on an 8 GB card.
 - VRAM+RAM split MoE (closest spirit to this repo): Qwen3-30B-A3B / Qwen3-14B-A3B class at Q4 — tiny active params (3B), most experts stay in RAM, few GB fetch per token. Fast and feels like a frontier model.
 That gives you the "expert offload" experience at laptop scale with sane speed.
 
 **B. If your goal is to learn this repo's engine/kernels — you can smoke-test it.**
 The code has dev caps exactly for exercising the path without the full beast:
+
 - `FREETOKEN_GLM5_MAX_LAYERS` (e.g. `=5`: 3 dense + 2 MoE) skips pinning the 163 GB of experts.
 - No resident layers, tiny `--kv-reserve-tokens`, and don't set host-bank pin budgets.
 You can apply `install.sh` to a FreeToken v0.1.2 tree and boot on the 4070 to trace the decode path, watch the Triton kernels, study the offload cache — but treat it as a lab, not serving. Caveats: the repo targets CUDA 13 / Blackwell; your laptop will be on CUDA 12.x-era drivers, and the FP4 kernels have no Ada path, so stick to the smoke-test layers or expect kernel-level surgery. A lot of the Triton work (fused route, mHC norm, KDA gate, LFU cache kernel, radix-cache fixes) is pure PyTorch/Triton and would compile on Ada — but only for a model that fits.

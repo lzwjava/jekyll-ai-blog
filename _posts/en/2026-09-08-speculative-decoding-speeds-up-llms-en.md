@@ -28,10 +28,9 @@ Instead of relying solely on a large, slow LLM to generate text auto-regressivel
 1. **Token Speculation:** The small draft model predicts $K$ tokens ahead along with their probability distributions ($DP$).
 2. **Parallel Verification:** The large target model processes all $K$ tokens at once to compute its own confidence probabilities ($TP$) and predict the next single token.
 3. **Rejection Sampling:** The system compares $TP$ and $DP$ token by token:
+
 * **Accept:** If the target model agrees with or is more confident than the draft model, the token is accepted.
 * **Reject & Correct:** At the first token where the target model disagrees, subsequent draft tokens are discarded, and the target model resamples the correct token.
-
-
 
 ### Benefits
 

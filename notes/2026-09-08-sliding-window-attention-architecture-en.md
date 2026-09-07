@@ -32,36 +32,46 @@ So the pattern is tiled over `n_layer` layers, and each `Block` receives `window
 The file doesn't implement sliding window itself; it's a **unified wrapper** that forwards the `window_size` tuple to whichever backend is active, with three cases:
 
 ### FA3 (Hopper) — pass-through
+
 ```python
 return _fa3.flash_attn_func(q, k, v, causal=causal, window_size=window_size)
 ```
+
 The FA3 CUDA kernel gets `(left, 0)` and does banded masking natively *inside* the kernel — each query block only loads key/value blocks within the window, which is where the FLOP/memory savings come from.
 
 ### FA2 — near pass-through
+
 ```python
 return _fa2.flash_attn_func(q, k, v, dropout_p=0.0, causal=causal, window_size=_fa2_window_size(window_size))
 ```
+
 FA2's kernel supports the same `(left, right)` banded attention natively. `_fa2_window_size` maps an unlimited left to FA2's `(-1, -1)` sentinel (in this model right is always 0, so it mostly passes through untouched).
 
 ### SDPA fallback — manual emulation (`_sdpa_attention`, the real meat)
+
 PyTorch's `scaled_dot_product_attention` has no banded-window concept, so it's emulated three ways depending on the case:
 
 **a) Full context, equal lengths** (`window < 0 or window >= Tq`, and `Tq == Tk`):
+
 ```python
 return F.scaled_dot_product_attention(q, k, v, is_causal=True, ...)
 ```
+
 The window covers everything anyway, so plain causal SDPA is used (fast path).
 
 **b) Single-token decode** (`Tq == 1`) — the interesting trick:
+
 ```python
 start = max(0, Tk - (window + 1))
 k = k[:, :, start:, :]   # keep only the last window+1 keys
 v = v[:, :, start:, :]
 return F.scaled_dot_product_attention(q, k, v, is_causal=False, ...)
 ```
+
 A query attending to a `window`-wide band only needs the **tail** of the KV cache, so it literally slices `k/v` down to the last `window + 1` keys. No mask needed at all — mathematically identical to banded attention because the query is the last position.
 
 **c) Chunked inference / prefill** (`Tq != Tk`, both > 1): here the query is a chunk positioned *inside* the sequence, so the relevant keys are the tail of the cache *plus* earlier tokens within the chunk. It builds an explicit boolean mask:
+
 ```python
 row_idx = (Tk - Tq) + torch.arange(Tq)          # absolute positions of query rows
 col_idx = torch.arange(Tk)                       # absolute positions of key columns
@@ -70,6 +80,7 @@ if window >= 0 and window < Tk:
     mask = mask & ((row_idx - col_idx) <= window)  # sliding: distance back <= window
 return F.scaled_dot_product_attention(q, k, v, attn_mask=mask, ...)
 ```
+
 The `row_idx` offset `(Tk - Tq)` maps query rows to their true cache positions so causality and the distance band are computed in absolute positions, not relative offsets.
 
 ## Key observations
