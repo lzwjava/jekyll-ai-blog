@@ -24,14 +24,18 @@ FreeToken v0.1.2 (the baseline) already had DeepSeek-V4 support with this offloa
 ## Main logic
 
 ### 1. GLM-5.3-Flash model port (`overlay/freetoken/models/glm5_next/`)
+
 This is the primary deliverable (see README headline). GLM-5.3-Flash is a 45-layer hybrid-attention MoE:
+
 - **34 KDA layers** (`KdaAttention` in `attention.py`) — gated-delta linear attention (64 heads × 128 dim, short causal conv, lower-bounded forget gate, delta rule), computed via the upstream `fla` kernels `chunk_kda` / `fused_recurrent_kda`.
 - **11 MLA + DSA layers** (`FullAttention = GlmMoeDsaAttention`) — Multi-head Latent Attention plus DeepSeek Sparse Attention with a Lightning indexer + k-pool compressor. Note MLA here is NoPE (`qk_rope_head_dim == 0`).
 - **mHC (manifold-constrained Hyper-Connections)** — each decoder layer keeps *4 residual streams* (`hc_mult=4`, sinkhorn iters) and mixes them through per-sublayer matrices (`model.py: hc_pre/hc_post`, `hc_head` = unweighted mean). The knobs are identical to DSV4, so it **reuses the DSV4 hyper-connection kernels verbatim** — that's the first sign of why two models share this repo.
 - **NVFP4 MoE** — 288 routed experts, top-8, sigmoid noaux_tc router, 1 shared expert, first 3 layers dense. Experts are ModelOpt-NVFP4 (packed uint8 + FP8 block-16 scales + fp32 global scales), 181 GB total.
 
 ### 2. The VRAM/host split — the heart of the decode path
+
 `weight.py` decides where each expert layer lives:
+
 - **Non-resident layers** (default 37 of 45) → their expert banks are *host-pinned*, and compute happens by fetching the chosen experts into a **VRAM slot cache** (LRU/LFU eviction), then running grouped Triton GEMM/GEMV.
 - **Resident layers** (`experts_resident.py`, controlled by `FREETOKEN_GLM5_RESIDENT_LAYERS`, e.g. `3-6,8-11`) → full packed banks live on the GPU permanently; zero PCIe for them. Pick by measured fetch hotness (the miss curve is U-shaped).
 - Everything non-expert that must stay dense runs on the GPU, optionally requantized to FP8 (`attention.py`/`mlp.py`, ~+28% decode).
@@ -39,15 +43,18 @@ This is the primary deliverable (see README headline). GLM-5.3-Flash is a 45-lay
 Per decode step the flow is: router scores → top-8 expert ids → a **slot-cache "ensure" kernel** (see below) decides hits vs misses and picks eviction victims → H2D copies of missing experts run on a **side CUDA stream** → expert GEMMs wait on a copy event (`spec_prefetch.py` hides the copy under the next layers' work). The whole decode step is **CUDA-graph captured**, which is why every custom kernel must obey graph discipline: fixed shapes, no host sync, no host-side branches in the hot path.
 
 ### 3. Speculative expert prefetch (`overlay/freetoken/moe/spec_prefetch.py`)
+
 Since routing is somewhat predictable, layer *L* runs layer *L+hop*'s real gate on its own hidden state, predicts the top-P experts, and warms the slot cache ahead of time — Mixtral-offloading style. Swept to P=4/hop-1. For GLM the routing is "flat" (low overlap between tokens' experts) which explains the concurrency ceiling: concurrent streams just add PCIe bytes.
 
 ### 4. Serving-level features
+
 - **Radix/prefix KV cache** with content-hash keys for image spans (media prefix reuse), and a **KDA track-snapshot writer** so cached mid-prefill reuse points carry real recurrent state (a found-and-fixed correctness bug, documented in the README).
 - **On-demand prefill** for short prompts (`FREETOKEN_PREFILL_ONDEMAND_TOKENS`): instead of streaming the whole prompt layer-by-layer, run it as one decode-style pass → TTFT 2.1 s → 0.59 s for 10 tokens.
 - **Vision** tower port (0.6B ViT) + vendored HF-identical image preprocessing, env-gated off by default.
 - Long-context stabilization for DSV4 (prefill chunk cap, sliced indexer top-k, staging slab) so 236K-token cold prefills don't OOM.
 
 ### 5. The DSV4 line is the same playbook, second model
+
 `MANIFEST.md` "DeepSeek-V4-Flash (DSV4) line": native FP8/MXFP4 experts, 43 layers, DSA compressor/indexer + mHC, ~6000 experts resident at ~75 GB. Serving it on the same single GPU, same offload logic, went 51 → 64 tok/s via the same techniques (fused route, FP8 GEMVs, fused compressor decode step, rms-in-mix fusion). Both models can't run at once (the serve scripts stop each other's systemd service), so DSV4 and GLM5 are **two swappable workloads for one machine**.
 
 ## How Triton is used
@@ -55,7 +62,7 @@ Since routing is somewhat predictable, layer *L* runs layer *L+hop*'s real gate 
 Triton appears in exactly two roles: **(a) replacing multi-kernel eager chains with one fused kernel** (to cut launch overhead and intermediate memory traffic), and **(b) implementing cache/control-plane kernels that upstream only had in eager form or as cuBLAS**. All in `overlay/freetoken/kernel/triton/`:
 
 | Kernel | What it fuses / replaces |
-|---|---|
+| --- | --- |
 | `fused_route.py` | Router epilogue: sigmoid(or sqrt-softplus)+bias+**top-k+renorm+scale** (~8 launches × ~40 MoE layers/step → 1 kernel). Iterative `tl.argmax` with first-index tie-break to match `torch.topk` semantics exactly. |
 | `kda_gate.py` | KDA forget/input gate math (5 GEMVs + ~7 elementwise → 2 GEMVs + 1 fused elementwise kernel). |
 | `dsv4/hc_norm.py` | mHC pre-norm: fp32 cast + sum-of-squares + rsqrt in one CTA-per-token kernel, and the mix GEMV with the rsqrt folded into the epilogue (no atomics → deterministic). |
@@ -66,6 +73,7 @@ Triton appears in exactly two roles: **(a) replacing multi-kernel eager chains w
 Plus the patch set adds GPU-side cache-control kernels such as the LFU admission kernel (`lfu_ensure.py` — saturating 3-bit frequency counters + `(freq<<48)|usage` composite keys, single-CTA register-resident scan over ~3000 slots, with a periodic halving decay sweep) and tweaks to upstream `lru_ensure`/`fast_index_copy` (device-side H2D slot copy plans).
 
 Recurring design constraints visible in every kernel docstring:
+
 - **Deterministic**: no atomics where possible (run-to-run reproducible vs the cublas chain it replaces);
 - **Numerics-bit-compatible**: sigmoid/topk rounding must match ATen within ≤1 ulp — this repo's quality bar is *token-for-token* equality with the HuggingFace reference (48/48 steps), so kernels are validated against the eager path's rounding order;
 - **CUDA-graph-safe**: fixed shapes, no host sync, no unpinned host→device copies inside capture; device buffers that are *refreshed* each replay (e.g. `decode_memo` for the one `idx.long()` cast shared across all 34 KDA layers);

@@ -14,7 +14,7 @@ type: note
 ## 系统 Python
 
 | Python 版本 | triton 版本 | 位置 |
-|--------|---------------|----------|
+| -------- | --------------- | ---------- |
 | `/usr/bin/python3.11` | **3.6.0** | `~/.local/lib/python3.11/site-packages` |
 | `/usr/bin/python3.12` | **3.6.0** | `~/.local/lib/python3.12/site-packages` |
 | `/usr/bin/python3` (→3.12) | **3.6.0** | `~/.local/lib/python3.12/site-packages` |
@@ -23,7 +23,7 @@ type: note
 ## 虚拟环境
 
 | 环境 | triton 版本 | 位置 |
-|-----|---------------|----------|
+| ----- | --------------- | ---------- |
 | `/home/lzw/sglang-env` | **3.3.1** | `sglang-env/lib/python3.12/site-packages` |
 | `/home/lzw/sglang-venv` | **3.6.0** | `sglang-venv/lib/python3.11/site-packages` |
 | `/home/lzw/ww/.venv` | ❌ **未安装** | — |
@@ -31,7 +31,7 @@ type: note
 ## uv 管理的 Python（`~/.local/share/uv/python/`）
 
 | Python 版本 | triton 版本 |
-|--------|---------------|
+| -------- | --------------- |
 | cpython-3.10.x | **2.0.0** |
 | cpython-3.11.x | **3.6.0** |
 | cpython-3.12.x | **3.6.0** |

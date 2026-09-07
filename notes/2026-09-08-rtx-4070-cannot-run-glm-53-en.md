@@ -13,6 +13,7 @@ Short answer: **no, not realistically.** The target model (GLM-5.3-Flash-NVFP4) 
 
 **1. Not enough VRAM (12 GB vs ~17+ GB minimum)**
 Even the most memory-lean config in `examples/serve_full.sh` needs roughly:
+
 - ~17 GB for the dense (non-expert) weights alone
 - +31 GB resident expert layers, KV pool, CUDA overhead on top
 
@@ -28,6 +29,7 @@ The script preflights for **≥138 GB MemAvailable** (129 GB pinned host bank fo
 The whole design is PCIe-bound: the reference box uses Gen5 x16 (~64 GB/s). The 4070 is Gen4 x16 (~32 GB/s), so even if everything else worked, decode would land at roughly half the measured numbers.
 
 **What the 4070 *could* do:**
+
 - Run much smaller models (the upstream FreeToken server itself is model-agnostic)
 - Potentially serve a small dense model fully in VRAM, or a small MoE with light offload — but that's upstream FreeToken territory, not what this patch set optimizes for
 

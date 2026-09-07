@@ -57,6 +57,7 @@ In short: the gate turns the fixed per-token VE addition of ResFormer into a *co
 ---
 
 **References:**
+
 - [Value Residual Learning (ResFormer) — arXiv 2410.17897](https://arxiv.org/abs/2410.17897)
 - [Transformers with Selective Access to Early Representations (SATFormer) — arXiv 2605.03953](https://arxiv.org/abs/2605.03953)
 - [MoVE: Mixture of Value Embeddings — arXiv 2601.22887](https://arxiv.org/html/2601.22887v1)

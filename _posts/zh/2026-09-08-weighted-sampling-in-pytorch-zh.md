@@ -16,6 +16,7 @@ type: note
 `torch.multinomial` 根据权重张量定义的概率分布进行索引采样。可以把它想象成一个加权抽奖——权重越高的项被抽中的概率越大。
 
 **函数签名：**
+
 ```python
 torch.multinomial(input, num_samples, replacement=False, *, generator=None)
 ```
@@ -23,12 +24,13 @@ torch.multinomial(input, num_samples, replacement=False, *, generator=None)
 **参数：**
 
 | 参数 | 说明 |
-|---|---|
+| --- | --- |
 | `input` | 1D 或 2D 权重张量（不需要归一化求和为1） |
 | `num_samples` | 需要抽取的索引数量 |
 | `replacement` | 若为 `True`，同一索引可被多次抽取 |
 
 **简单示例：**
+
 ```python
 import torch
 
@@ -45,6 +47,7 @@ samples = torch.multinomial(weights, num_samples=5, replacement=True)
 - **蒙特卡洛方法** —— 从自定义分布中抽取样本
 
 **二维输入（批处理模式）：**
+
 ```python
 weights = torch.tensor([[1.0, 9.0],   # 第0行：强烈偏向索引1
                          [5.0, 5.0]]) # 第1行：等概率
@@ -55,4 +58,5 @@ samples = torch.multinomial(weights, num_samples=3, replacement=True)
 每行被视为独立分布，输出形状为 `(batch_size, num_samples)`。
 
 参考资料：
+
 - [torch.multinomial — PyTorch 官方文档](https://pytorch.org/docs/stable/generated/torch.multinomial.html)

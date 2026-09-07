@@ -65,6 +65,7 @@ The Hong Kong and China Gas Company (0003.HK) has a highly monopolistic business
 ---
 
 **References:**
+
 - [HKEX Board Lot Rules – Syfe](https://help.syfe.com/hc/en-us/articles/50698272405785-What-are-the-rules-for-trading-on-the-HKEX)
 - [HK Stock Board Lot Guide – CashbackISL](https://www.cashbackisl.com/en/hk-stock-board-lot-guide-2/)
 - [HK Dividend Stocks 2026 – CashbackISL](https://www.cashbackisl.com/en/hk-dividend-stock-guide-2/)

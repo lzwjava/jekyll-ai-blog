@@ -24,14 +24,18 @@ FreeToken v0.1.2（baseline）已经通过这种 offload architecture 支持 Dee
 ## 主要逻辑
 
 ### 1. GLM-5.3-Flash model port（`overlay/freetoken/models/glm5_next/`）
+
 这是主要交付物（见 README headline）。GLM-5.3-Flash 是一个 45-layer hybrid-attention MoE：
+
 - **34 个 KDA layers**（`attention.py` 中的 `KdaAttention`）——gated-delta linear attention（64 heads × 128 dim，short causal conv，lower-bounded forget gate，delta rule），通过上游 `fla` kernels `chunk_kda` / `fused_recurrent_kda` 计算。
 - **11 个 MLA + DSA layers**（`FullAttention = GlmMoeDsaAttention`）——Multi-head Latent Attention 加上带 Lightning indexer + k-pool compressor 的 DeepSeek Sparse Attention。注意这里的 MLA 是 NoPE（`qk_rope_head_dim == 0`）。
 - **mHC（manifold-constrained Hyper-Connections）**——每个 decoder layer 保留 *4 条 residual streams*（`hc_mult=4`，sinkhorn iters），并通过 per-sublayer matrices 混合它们（`model.py: hc_pre/hc_post`，`hc_head` = unweighted mean）。这些 knobs 与 DSV4 完全相同，因此它**原样复用 DSV4 的 hyper-connection kernels**——这是两个模型共享此仓库的第一个迹象。
 - **NVFP4 MoE**——288 个 routed experts，top-8，sigmoid noaux_tc router，1 个 shared expert，前 3 层 dense。Experts 是 ModelOpt-NVFP4（packed uint8 + FP8 block-16 scales + fp32 global scales），总计 181 GB。
 
 ### 2. VRAM/host 拆分——decode path 的核心
+
 `weight.py` 决定每个 expert layer 放在哪里：
+
 - **Non-resident layers**（默认 45 层中的 37 层）→ 它们的 expert banks 是 *host-pinned*，计算时通过将选中的 experts 取入 **VRAM slot-cache**（LRU/LFU eviction），然后运行 grouped Triton GEMM/GEMV。
 - **Resident layers**（`experts_resident.py`，由 `FREETOKEN_GLM5_RESIDENT_LAYERS` 控制，例如 `3-6,8-11`）→ 完整 packed banks 永久驻留在 GPU 上；它们的 PCIe 流量为零。根据实测 fetch hotness 选择（miss curve 呈 U 形）。
 - 所有必须保持 dense 的非-expert 内容都在 GPU 上运行，可选择重新量化为 FP8（`attention.py`/`mlp.py`，decode 约 +28%）。
@@ -39,15 +43,18 @@ FreeToken v0.1.2（baseline）已经通过这种 offload architecture 支持 Dee
 每个 decode step 的流程是：router scores → top-8 expert ids → 一个 **slot-cache “ensure” kernel**（见下文）决定 hits 与 misses 并选择 eviction victims → 缺失 experts 的 H2D copies 在 **side CUDA stream** 上运行 → expert GEMMs 等待 copy event（`spec_prefetch.py` 将 copy 隐藏在下层工作之后）。整个 decode step 是 **CUDA-graph captured**，因此每个自定义 kernel 都必须遵守 graph discipline：固定 shapes、无 host sync、hot path 中无 host-side branches。
 
 ### 3. Speculative expert prefetch（`overlay/freetoken/moe/spec_prefetch.py`）
+
 由于 routing 在一定程度上可预测，layer *L* 会在自己的 hidden state 上运行 layer *L+hop* 的真实 gate，预测 top-P experts，并提前预热 slot-cache——类似 Mixtral-offloading 风格。已扫描到 P=4/hop-1。对于 GLM，routing 是“flat”的（tokens 之间的 experts 重叠度低），这解释了 concurrency ceiling：concurrent streams 只会增加 PCIe bytes。
 
 ### 4. Serving-level 特性
+
 - **Radix/prefix KV cache**，对 image spans 使用 content-hash keys（media prefix reuse），以及一个 **KDA track-snapshot writer**，使缓存的 mid-prefill reuse points 携带真实的 recurrent state（一个被发现并修复的 correctness bug，记录在 README 中）。
 - **On-demand prefill** 用于短 prompts（`FREETOKEN_PREFILL_ONDEMAND_TOKENS`）：不是逐层 streaming 整个 prompt，而是作为一次 decode-style pass 运行 → 对于 10 tokens，TTFT 从 2.1 s 降至 0.59 s。
 - **Vision** tower port（0.6B ViT）+ vendored 的与 HF-identical 的 image preprocessing，默认通过 env 开关关闭。
 - 为 DSV4 实现 long-context stabilization（prefill chunk cap、sliced indexer top-k、staging slab），使 236K-token cold prefills 不会 OOM。
 
 ### 5. DSV4 线是同一套打法，第二个 model
+
 `MANIFEST.md` 中的“DeepSeek-V4-Flash (DSV4) line”：native FP8/MXFP4 experts，43 layers，DSA compressor/indexer + mHC，约 6000 个 experts 常驻，约 75 GB。在同一张单 GPU 上用相同的 offload logic 服务它，通过相同的技术（fused route、FP8 GEMVs、fused compressor decode step、rms-in-mix fusion）从 51 tok/s 提升到 64 tok/s。两个 model 无法同时运行（serve scripts 会停止彼此的 systemd service），因此 DSV4 和 GLM5 是**同一台机器上的两个可互换 workloads**。
 
 ## Triton 的使用方式
@@ -55,7 +62,7 @@ FreeToken v0.1.2（baseline）已经通过这种 offload architecture 支持 Dee
 Triton 恰好扮演两个角色：**(a) 用单个 fused kernel 替代 multi-kernel eager chains**（以削减 launch overhead 和 intermediate memory traffic），以及 **(b) 实现上游仅以 eager form 或 cuBLAS 形式存在的 cache/control-plane kernels**。全部位于 `overlay/freetoken/kernel/triton/`：
 
 | Kernel | 它融合/替代了什么 |
-|---|---|
+| --- | --- |
 | `fused_route.py` | Router epilogue：sigmoid（或 sqrt-softplus）+bias+**top-k+renorm+scale**（约 8 次 launches × 约 40 个 MoE layers/step → 1 个 kernel）。迭代式 `tl.argmax`，带 first-index tie-break，以精确匹配 `torch.topk` semantics。 |
 | `kda_gate.py` | KDA forget/input gate math（5 个 GEMVs + 约 7 个 elementwise → 2 个 GEMVs + 1 个 fused elementwise kernel）。 |
 | `dsv4/hc_norm.py` | mHC pre-norm：在一个 CTA-per-token kernel 中完成 fp32 cast + sum-of-squares + rsqrt，并将 rsqrt 折叠进 mix GEMV 的 epilogue（无 atomics → deterministic）。 |
@@ -66,6 +73,7 @@ Triton 恰好扮演两个角色：**(a) 用单个 fused kernel 替代 multi-kern
 此外，patch set 还添加了 GPU-side cache-control kernels，例如 LFU admission kernel（`lfu_ensure.py`——saturating 3-bit frequency counters + `(freq<<48)|usage` composite keys，single-CTA register-resident scan 约 3000 个 slots，并定期进行 halving decay sweep），以及对上游 `lru_ensure`/`fast_index_copy` 的 tweaks（device-side H2D slot copy plans）。
 
 在每个 kernel docstring 中反复出现的设计约束：
+
 - **Deterministic**：尽可能不使用 atomics（与它所替代的 cuBLAS chain 相比，run-to-run 可重现）；
 - **Numerics-bit-compatible**：sigmoid/topk rounding 必须在 ≤1 ulp 内匹配 ATen——本仓库的质量标准是与 HuggingFace reference 实现*逐 token*相等（48/48 steps），因此 kernels 会对照 eager path 的 rounding order 进行验证；
 - **CUDA-graph-safe**：固定 shapes、无 host sync、capture 期间无 unpinned host→device copies；每次 replay 时 *刷新* 的 device buffers（例如用于所有 34 个 KDA layers 共享的 `idx.long()` cast 的 `decode_memo`）；

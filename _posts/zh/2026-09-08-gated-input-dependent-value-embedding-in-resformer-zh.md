@@ -53,6 +53,7 @@ SATFormer用基于当前归一化隐藏状态的单个线性投影（经过ReLU�
 ---
 
 **参考文献：**
+
 - [值残差学习（ResFormer）—— arXiv 2410.17897](https://arxiv.org/abs/2410.17897)
 - [具有早期表示选择性访问的Transformer（SATFormer）—— arXiv 2605.03953](https://arxiv.org/abs/2605.03953)
 - [MoVE：混合值嵌入—— arXiv 2601.22887](https://arxiv.org/html/2601.22887v1)
