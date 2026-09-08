@@ -25,7 +25,7 @@ A clock signal is a periodic oscillating signal used to **synchronize** the oper
 **Role in Communication Systems**
 
 | Function | Description |
-|---|---|
+| --- | --- |
 | **Synchronization** | Ensures sender and receiver sample data at the same moment |
 | **Bit timing** | Defines exactly when each bit begins and ends |
 | **Data framing** | Groups bits into bytes, frames, or packets |
@@ -41,6 +41,7 @@ A clock signal is a periodic oscillating signal used to **synchronize** the oper
 Without a clock signal, the receiver wouldn't know *when* to sample an incoming bit — leading to misalignment, data corruption, or complete communication failure. Every modern protocol (USB, Ethernet, PCIe, HDMI) depends on precise clock management.
 
 References:
+
 - [Clock Signal – Wikipedia](https://en.wikipedia.org/wiki/Clock_signal)
 - [Synchronous vs Asynchronous Communication – Electronics Hub](https://www.electronicshub.org/synchronous-and-asynchronous-transmission/)
 - [Clock and Data Recovery (CDR) – Texas Instruments](https://www.ti.com/lit/an/slyt075/slyt075.pdf)

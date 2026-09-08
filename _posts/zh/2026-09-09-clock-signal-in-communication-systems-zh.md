@@ -25,7 +25,7 @@ Answer:
 **在通信系统中的作用**
 
 | Function | Description |
-|---|---|
+| --- | --- |
 | **Synchronization** | 确保发送方和接收方在同一时刻采样数据 |
 | **Bit timing** | 精确定义每个 bit 的开始和结束时刻 |
 | **Data framing** | 将 bits 分组为 bytes、frames 或 packets |
@@ -41,6 +41,7 @@ Answer:
 如果没有 clock signal，接收方将不知道*何时*采样传入的 bit——导致错位、数据损坏或通信完全失败。每个现代协议（USB、Ethernet、PCIe、HDMI）都依赖于精确的 clock 管理。
 
 参考文献：
+
 - [Clock Signal – Wikipedia](https://en.wikipedia.org/wiki/Clock_signal)
 - [Synchronous vs Asynchronous Communication – Electronics Hub](https://www.electronicshub.org/synchronous-and-asynchronous-transmission/)
 - [Clock and Data Recovery (CDR) – Texas Instruments](https://www.ti.com/lit/an/slyt075/slyt075.pdf)
