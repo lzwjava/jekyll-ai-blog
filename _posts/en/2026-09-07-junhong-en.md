@@ -176,11 +176,11 @@ With our mechanism, if the task is large enough, it can continue working for **t
 
 The method is simple:
 
-* Break the large task into around 40 subtasks.
-* Give each task its own task file and independent context.
-* Use an LLM to determine whether the current task is complete.
-* If it isn't complete, continue.
-* Check again.
+- Break the large task into around 40 subtasks.
+- Give each task its own task file and independent context.
+- Use an LLM to determine whether the current task is complete.
+- If it isn't complete, continue.
+- Check again.
 
 That's basically it.
 
@@ -331,11 +331,11 @@ I entered Northwest University in 1998.
 
 Over the past decade, I've lived in various places:
 
-* One year in Northeast China
-* Four years in Xi'an
-* Sixteen years in Beijing
-* Four years in Shenzhen, where I currently live
-* Business trips to Malaysia and Singapore
+- One year in Northeast China
+- Four years in Xi'an
+- Sixteen years in Beijing
+- Four years in Shenzhen, where I currently live
+- Business trips to Malaysia and Singapore
 
 I moved from Beijing to Shenzhen because of the air quality.
 
