@@ -49,7 +49,7 @@ B85 原生支持最多四个 USB 3.0 端口，传输速度比 USB 2.0 快十倍�
 **B85 系列常见型号**
 
 | 型号 | 板型 | 亮点 |
-|---|---|---|
+| --- | --- | --- |
 | B85M-G | Micro-ATX | 紧凑、经济实惠 |
 | B85M-G R2.0 | Micro-ATX | 修订版，小幅改进 |
 | B85-PLUS | ATX | 更多扩展插槽 |
@@ -60,6 +60,7 @@ B85 原生支持最多四个 USB 3.0 端口，传输速度比 USB 2.0 快十倍�
 ---
 
 **参考文献：**
+
 - [ASUS B85M-G R2.0 – B&H Photo](https://www.bhphotovideo.com/c/product/1060512-REG/asus_b85m_g_r2_0_micro_atx_motherboard.html)
 - [ASUS B85M-G Specifications – MobileSpecs](https://mobilespecs.net/motherboard/ASUS/ASUS_B85M-G.html)
 - [ASUS B85-PRO GAMER Manual – Manua.ls](https://www.manua.ls/asus/b85-pro-gamer/specifications)

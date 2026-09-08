@@ -30,6 +30,7 @@ The Kirin 710A has the distinction of being the first pure Chinese chip with ind
 ---
 
 **References:**
+
 - [What Is HiSilicon Kirin? – Alibaba Electronics](https://electronics.alibaba.com/question/hisilicon-kirin-explained-performance,-ai,-us-restrictions)
 - [HiSilicon – EPFL Graph Search](https://graphsearch.epfl.ch/en/concept/39222054)
 - [Huawei's New SoC Features Processor Cores Designed In-House – Slashdot](https://mobile.slashdot.org/story/23/09/24/1835200/huaweis-new-soc-features-processor-cores-designed-in-house)

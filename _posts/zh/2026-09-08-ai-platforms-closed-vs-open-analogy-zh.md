@@ -300,4 +300,4 @@ infrastructure 变得有价值
 * [Bloomberg — 为什么中国无法放弃“开放”AI](https://www.bloomberg.com/opinion/articles/2026-04-16/why-china-can-t-quit-open-ai?srnd=undefined&utm_source=chatgpt.com)
 * [Bloomberg — AI 先驱李开复谈模型如何在洗牌中幸存](https://www.bloomberg.com/news/articles/2025-03-20/ai-pioneer-sees-handful-of-models-surviving-us-china-shakeout?utm_source=chatgpt.com)
 
-[1]: https://www.iheart.com/podcast/1119-the-mishal-husain-show-300204707/episode/us-versus-china-cheap-ai-343116187/?utm_source=chatgpt.com "美国 vs 中国、廉价 AI 与人类之爱：AI 先驱李开复 - The Mishal Hus
+[1]: <https://www.iheart.com/podcast/1119-the-mishal-husain-show-300204707/episode/us-versus-china-cheap-ai-343116187/?utm_source=chatgpt.com> "美国 vs 中国、廉价 AI 与人类之爱：AI 先驱李开复 - The Mishal Hus

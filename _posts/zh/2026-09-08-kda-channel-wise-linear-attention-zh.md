@@ -38,7 +38,7 @@ $$S_t = (I - \beta_t k_t k_t^{\top}) \operatorname{Diag}(\alpha_t) S_{t-1} + \be
 ### 三个关键组件
 
 | 组件 | 作用 |
-|---|---|
+| --- | --- |
 | `Diag(α_t)` | 逐通道遗忘——每个特征维度以自身速率遗忘 |
 | `(I - β_t k_t k_tᵀ)` | Delta 规则——在当前键位置定向覆盖旧记忆 |
 | `β_t` | 标量写入门——控制新值写入的程度 |
@@ -75,7 +75,7 @@ Kimi Linear 采用 3:1 的比例——每三个使用 KDA 线性注意力的 Tra
 ### KDA 与 Gated DeltaNet 对比
 
 | | Gated DeltaNet | KDA |
-|---|---|---|
+| --- | --- | --- |
 | 遗忘门 | 标量 α（所有通道相同） | 向量 α（每个键通道一个） |
 | 写入门 | 标量 β | 标量 β |
 | 内存控制 | 粗粒度（整个注意力头） | 细粒度（每个特征维度） |
@@ -85,6 +85,7 @@ Gated DeltaNet-2（后续版本）进一步推广了 KDA，将擦除门和写入
 ---
 
 **参考文献：**
+
 - [Kimi Linear 解释（Medium）](https://medium.com/@cenghanbayram35/kimi-linear-a-revolutionary-attention-mechanism-for-ai-models-03f4de12047c)
 - [KDA 主题概述（EmergentMind）](https://www.emergentmind.com/topics/kimi-delta-attention-kda)
 - [线性注意力架构论文](https://arxiv.org/pdf/2607.07953)

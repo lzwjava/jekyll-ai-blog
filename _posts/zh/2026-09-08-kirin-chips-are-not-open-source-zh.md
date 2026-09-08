@@ -30,6 +30,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [什么是海思麒麟？– 阿里巴巴电子](https://electronics.alibaba.com/question/hisilicon-kirin-explained-performance,-ai,-us-restrictions)
 - [海思 – EPFL图搜索](https://graphsearch.epfl.ch/en/concept/39222054)
 - [华为新款SoC搭载内部设计处理器核心 – Slashdot](https://mobile.slashdot.org/story/23/09/24/1835200/huaweis-new-soc-features-processor-cores-designed-in-house)

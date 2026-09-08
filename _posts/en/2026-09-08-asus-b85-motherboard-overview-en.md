@@ -49,7 +49,7 @@ Rear panel video outputs include D-Sub (VGA), DVI, and HDMI, allowing use of Int
 **Common Models in the B85 Lineup**
 
 | Model | Form Factor | Highlights |
-|---|---|---|
+| --- | --- | --- |
 | B85M-G | Micro-ATX | Compact, budget-friendly |
 | B85M-G R2.0 | Micro-ATX | Revised version with minor improvements |
 | B85-PLUS | ATX | More expansion slots |
@@ -60,6 +60,7 @@ Overall, the ASUS B85 series is a solid mid-range platform suited for everyday b
 ---
 
 **References:**
+
 - [ASUS B85M-G R2.0 – B&H Photo](https://www.bhphotovideo.com/c/product/1060512-REG/asus_b85m_g_r2_0_micro_atx_motherboard.html)
 - [ASUS B85M-G Specifications – MobileSpecs](https://mobilespecs.net/motherboard/ASUS/ASUS_B85M-G.html)
 - [ASUS B85-PRO GAMER Manual – Manua.ls](https://www.manua.ls/asus/b85-pro-gamer/specifications)

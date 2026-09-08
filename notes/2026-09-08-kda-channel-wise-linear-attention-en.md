@@ -38,7 +38,7 @@ where Diag(α_t) ∈ ℝ^{d_k × d_k} is the diagonal matrix with α_t on its di
 ### Three Key Components
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | `Diag(α_t)` | Channel-wise forgetting — each feature dimension forgets at its own rate |
 | `(I - β_t k_t k_tᵀ)` | Delta rule — targeted overwrite of old memory at current key |
 | `β_t` | Scalar write gate — controls how much new value is committed |
@@ -75,7 +75,7 @@ Kimi Linear uses a 3:1 ratio — for every three transformer blocks employing KD
 ### KDA vs. Gated DeltaNet
 
 | | Gated DeltaNet | KDA |
-|---|---|---|
+| --- | --- | --- |
 | Forget gate | Scalar α (same for all channels) | Vector α (per key-channel) |
 | Write gate | Scalar β | Scalar β |
 | Memory control | Coarse (whole head) | Fine (per feature dimension) |
@@ -85,6 +85,7 @@ Gated DeltaNet-2 (a successor) further generalizes KDA by separating the erase g
 ---
 
 **References:**
+
 - [Kimi Linear explained (Medium)](https://medium.com/@cenghanbayram35/kimi-linear-a-revolutionary-attention-mechanism-for-ai-models-03f4de12047c)
 - [KDA topic overview (EmergentMind)](https://www.emergentmind.com/topics/kimi-delta-attention-kda)
 - [Linear Attention Architectures paper](https://arxiv.org/pdf/2607.07953)

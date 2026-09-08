@@ -15,10 +15,10 @@ I've read the PDF (《显存测试软件使用手册》 / "VRAM Testing Software
 
 This manual is a **usage guide for GPU repair/VRAM testing tools (MATS/MODS)**, used to detect damaged video memory on discrete graphics cards (running commands like `./mats -e 10`, `./mods gputest.js`, then checking report.txt to see if FBI0A0 reports a fail).
 
-### Comparing against the machine you described (Xeon E5-2673 v3 + X99-A), point by point:
+### Comparing against the machine you described (Xeon E5-2673 v3 + X99-A), point by point
 
 | Manual requirement | This machine's situation | Met? |
-|---|---|---|
+| --- | --- | --- |
 | Recommends ASUS B85/B150/H170, must support Legacy boot | X99-A motherboard supports Legacy/CSM boot, can enter the menu and pick a system | ✅ Basically met |
 | 8GB+ RAM (some tests require RAM > VRAM) | 8GB DDR3 1600 | ✅ Barely sufficient (not enough to test 8GB-VRAM cards) |
 | 250GB+ SATA SSD | Only a 120GB SSD | ⚠️ Too small; you'd need a 250GB+ drive to install the test image (5 partitions totaling ~225GB) |
