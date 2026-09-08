@@ -18,7 +18,7 @@ Yes, **3 cards for 320 CNY (~$44 USD)** is an exceptionally low price — roughl
 **Why so cheap per card?**
 
 | Reason | Detail |
-|---|---|
+| --- | --- |
 | Bulk lot pricing | Sellers want to move inventory fast, bundle = discount |
 | Unknown condition | "成色如图" (condition as shown in photos) — could have wear, fan issues, thermal paste dried out |
 | No warranty | Private second-hand sale, zero recourse if DOA |
@@ -28,7 +28,7 @@ Yes, **3 cards for 320 CNY (~$44 USD)** is an exceptionally low price — roughl
 **What 3 cards could theoretically give you:**
 
 | Metric | Per Card | 3 Cards Total |
-|---|---|---|
+| --- | --- | --- |
 | VRAM | 16GB | **48GB total** |
 | FP32 | ~7.4 TFLOPS | ~22 TFLOPS |
 | Power Draw | ~300W | ~900W |
@@ -36,6 +36,7 @@ Yes, **3 cards for 320 CNY (~$44 USD)** is an exceptionally low price — roughl
 **48GB of VRAM across 3 cards** is actually attractive for running large LLMs (e.g. LLaMA 3 70B in multi-GPU inference), **but** the M60 has no NVLink — inter-GPU communication is over PCIe, which creates a serious bandwidth bottleneck for multi-GPU workloads.
 
 **Key risks to check before buying:**
+
 - Are all 3 fans working? (replacement blower fans for M60 are hard to find)
 - Do all 3 POST and show up in `nvidia-smi`?
 - What PSU does the seller include — is it rated for 900W+ sustained load?
@@ -46,5 +47,6 @@ Yes, **3 cards for 320 CNY (~$44 USD)** is an exceptionally low price — roughl
 ---
 
 References:
+
 - [NVIDIA Tesla M60 Specs — TechPowerUp](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760)
 - [Running LLMs on Old Tesla GPUs — Reddit r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/used_tesla_gpus)

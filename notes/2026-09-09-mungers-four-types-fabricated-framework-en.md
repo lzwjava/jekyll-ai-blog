@@ -31,6 +31,7 @@ The underlying values — prioritizing integrity over talent, avoiding self-pity
 **Bottom line:** Think of it as a **well-intentioned paraphrase**, not a factual transcript. The core attitude is Munger's; the tidy four-category structure is someone else's packaging.
 
 **References:**
+
 - [Charlie Munger on avoiding toxic people – CNBC](https://www.cnbc.com/2023/12/05/billionaire-charlie-munger-on-avoiding-mistakes-avoid-toxic-people.html)
 - [The Uncommon Sense of Charlie Munger – Kingswell](https://www.kingswell.io/p/the-uncommon-sense-of-charlie-munger)
 - [44 Things to Avoid According to Charlie Munger – CMQ Investing](https://cmqinvesting.substack.com/p/charlie-munger-44-things-to-avoid)

@@ -56,6 +56,7 @@ IEEE 802.3ae 的成功为后续进步铺平了道路，包括引入 40GbE 和 10
 ---
 
 **参考文献：**
+
 - [IEEE Xplore – 802.3ae-2002 标准](https://ieeexplore.ieee.org/document/1040118)
 - [IEEE SA – 802.3ae 官方页面](https://standards.ieee.org/ieee/802.3ae/1089/)
 - [LINK-PP – IEEE 802.3ae 详解](https://www.link-pp.com/glossary/ieee-802-3ae.html)

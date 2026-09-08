@@ -23,6 +23,7 @@ Answer:**核心要点：**
 **总结：** 除非你是在升级一台仅支持 DDR3 的老旧系统，否则对于任何现代装机方案，DDR4 都是明确选择。
 
 参考资料：
+
 - [JEDEC DDR4 标准概述](https://www.jedec.org/standards-documents/docs/jesd79-4b)
 - [金士顿：DDR3 与 DDR4 对比](https://www.kingston.com/us/memory/ddr4-vs-ddr3)
 - [AnandTech：DDR4 深度解析](https://www.anandtech.com/show/7989/ddr4-memory-what-it-is-and-why-we-want-it)

@@ -16,7 +16,7 @@ type: note
 Yes, exactly. Here's the breakdown:
 
 | Term | Chinese | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | 万 (wàn) | 万 | 10,000 |
 | 兆 (zhào) | 兆 | Mega / million (in Chinese computing context, also used for "giga" scale) |
 | 万兆 | 万兆 | 10 Gigabit (literally "10,000 mega") |
@@ -33,4 +33,5 @@ So when Chinese networking documentation refers to **万兆以太网** (wàn zh�
 The logic is mathematical: 万 (10,000) × 兆 (Mega = 10^6) = 10^10 bits = **10 Gbps**.
 
 **References:**
+
 - General Chinese networking terminology convention (no single authoritative document; widely used across vendors like Huawei, ZTE, and H3C in their Chinese-language documentation)

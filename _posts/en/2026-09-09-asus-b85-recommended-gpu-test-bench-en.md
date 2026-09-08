@@ -14,7 +14,7 @@ Good question — this is exactly the motherboard the GPU testing manual recomme
 ## ASUS B85 as a GPU Testing Platform
 
 | Manual requirement | ASUS B85 (e.g., B85M-G / B85-PLUS) | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | Recommend ASUS B85 or above | ✅ This is literally the manual's first-choice board | ✅ Perfect match |
 | Legacy/CSM boot (to pick from the multi-boot menu) | ✅ Haswell-era board, full Legacy + UEFI boot support | ✅ Works |
 | Multi-GPU support (use iGPU to display, test the dGPU) | ✅ Any LGA1150 Haswell CPU (except some Pentium/Celeron) has **Intel HD integrated graphics** with D-Sub/DVI/HDMI outputs — this is the manual's key workflow: BIOS → Primary Display → CPU Graphics | ✅ Fully supports the "test a black-screen card" scenario |

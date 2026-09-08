@@ -30,5 +30,6 @@ Answer: 是的，绝对如此——而且这往往是创始人能做的最有效
 **底线：** 创始人亲自招聘不仅是好的行为——这是一种竞争优势，尤其是在 Series B 之前。最优秀的创始人（Zuckerberg、Bezos、Chesky）都以对招聘的痴迷而闻名，并且亲自参与早期招聘。
 
 参考资料：
+
 - [为什么创始人应该做不可扩展的事情 — Paul Graham](http://paulgraham.com/ds.html)
 - [Airbnb 的 Brian Chesky 如何处理招聘](https://review.firstround.com/the-rewards-of-originality-from-airbnb-brian-chesky)

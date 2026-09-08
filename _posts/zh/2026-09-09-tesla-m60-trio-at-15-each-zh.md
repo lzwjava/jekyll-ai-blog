@@ -18,7 +18,7 @@ type: note
 **为什么每张卡这么便宜？**
 
 | 原因 | 详情 |
-|---|---|
+| --- | --- |
 | 批量出售定价 | 卖家想快速清仓，打包销售即有折扣 |
 | 成色未知 | "成色如图"——可能存在磨损、风扇问题、导热硅脂干涸 |
 | 无保修 | 私人二手交易，到手即坏无售后 |
@@ -28,7 +28,7 @@ type: note
 **3张卡理论上能提供：**
 
 | 指标 | 每张卡 | 3张卡总计 |
-|---|---|---|
+| --- | --- | --- |
 | 显存 | 16GB | **48GB 总计** |
 | FP32算力 | 约7.4 TFLOPS | 约22 TFLOPS |
 | 功耗 | 约300W | 约900W |
@@ -36,6 +36,7 @@ type: note
 **3张卡共48GB显存** 对运行大型语言模型（如LLaMA 3 70B多卡推理）确实有吸引力，**但**M60不支持NVLink——卡间通信通过PCIe，对多卡工作负载会造成严重的带宽瓶颈。
 
 **购买前需检查的关键风险：**
+
 - 三张卡的风扇是否都正常？（M60的涡轮风扇替换件很难找到）
 - 三张卡是否都能自检并通过`nvidia-smi`识别？
 - 卖家提供的电源功率是否足够支撑900W+持续负载？
@@ -46,5 +47,6 @@ type: note
 ---
 
 参考：
+
 - [NVIDIA Tesla M60规格——TechPowerUp](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760)
 - [在旧款Tesla GPU上运行LLM——Reddit r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/used_tesla_gpus)

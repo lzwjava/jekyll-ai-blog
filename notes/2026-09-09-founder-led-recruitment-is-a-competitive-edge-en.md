@@ -30,5 +30,6 @@ Answer: Yes, absolutely — and it's often one of the most effective things a fo
 **The bottom line:** Hands-on founder recruiting is not just good behavior — it's a competitive advantage, especially pre-Series B. The best founders (Zuckerberg, Bezos, Chesky) were famously obsessive about who they hired, and personally involved in early hires.
 
 References:
+
 - [Why Founders Should Do Things That Don't Scale — Paul Graham](http://paulgraham.com/ds.html)
 - [How Airbnb's Brian Chesky Approaches Hiring](https://review.firstround.com/the-rewards-of-originality-from-airbnb-brian-chesky)

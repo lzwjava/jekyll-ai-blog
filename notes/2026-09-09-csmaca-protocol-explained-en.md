@@ -45,7 +45,7 @@ This reserves the channel and silences other nearby nodes.
 ### CSMA/CA vs CSMA/CD
 
 | Feature | CSMA/CA | CSMA/CD |
-|---|---|---|
+| --- | --- | --- |
 | Used in | Wireless (Wi-Fi) | Wired (Ethernet) |
 | Strategy | Avoid collisions | Detect collisions |
 | ACK required | Yes | No |
@@ -54,6 +54,7 @@ This reserves the channel and silences other nearby nodes.
 ---
 
 References:
+
 - [CSMA/CA – Wikipedia](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_avoidance)
 - [IEEE 802.11 MAC Layer – Explained](https://www.ieee802.org/11/)
 - [Collision Avoidance in Wireless LANs – Cisco](https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/69583-cat-wlan.html)

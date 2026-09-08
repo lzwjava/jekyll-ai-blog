@@ -56,6 +56,7 @@ The success of IEEE 802.3ae paved the way for subsequent advancements, including
 ---
 
 **References:**
+
 - [IEEE Xplore – 802.3ae-2002 Standard](https://ieeexplore.ieee.org/document/1040118)
 - [IEEE SA – 802.3ae Official Page](https://standards.ieee.org/ieee/802.3ae/1089/)
 - [LINK-PP – IEEE 802.3ae Explained](https://www.link-pp.com/glossary/ieee-802-3ae.html)

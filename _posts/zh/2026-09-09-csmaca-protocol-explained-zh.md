@@ -45,7 +45,7 @@ type: note
 ### CSMA/CA 与 CSMA/CD 对比
 
 | 特性 | CSMA/CA | CSMA/CD |
-|---|---|---|
+| --- | --- | --- |
 | 用于 | 无线（Wi-Fi） | 有线（以太网） |
 | 策略 | 避免冲突 | 检测冲突 |
 | 需要ACK | 是 | 否 |
@@ -54,6 +54,7 @@ type: note
 ---
 
 参考来源：
+
 - [CSMA/CA – 维基百科](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_avoidance)
 - [IEEE 802.11 MAC层 – 详解](https://www.ieee802.org/11/)
 - [无线局域网中的碰撞避免 – Cisco](https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/69583-cat-wlan.html)

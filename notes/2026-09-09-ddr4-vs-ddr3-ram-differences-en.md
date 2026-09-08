@@ -23,6 +23,7 @@ Answer:**Key Takeaways:**
 **Bottom line:** Unless you're upgrading an older system that only supports DDR3, DDR4 is the clear choice for any modern build.
 
 References:
+
 - [JEDEC DDR4 Standard Overview](https://www.jedec.org/standards-documents/docs/jesd79-4b)
 - [Kingston: DDR3 vs DDR4](https://www.kingston.com/us/memory/ddr4-vs-ddr3)
 - [AnandTech: DDR4 Deep Dive](https://www.anandtech.com/show/7989/ddr4-memory-what-it-is-and-why-we-want-it)

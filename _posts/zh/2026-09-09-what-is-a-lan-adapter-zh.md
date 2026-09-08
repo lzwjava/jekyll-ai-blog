@@ -24,7 +24,7 @@ type: note
 **关键概念：**
 
 | 术语 | 含义 |
-|---|---|
+| --- | --- |
 | 局域网 (LAN) | 局域网（Local Area Network） |
 | 适配器 (Adapter) | 硬件/软件接口组件 |
 | 局域网适配器 | 将电脑连接到局域网（通常通过以太网线缆）的网络接口卡（NIC） |
@@ -43,5 +43,6 @@ type: note
 这只是显示你的**有线以太网（LAN）适配器**的 IP 配置。
 
 **参考资料：**
+
 - [如何在 Windows 中配置网络适配器](https://techlasi.com/savvy/how-to-configure-network-adapters-in-windows/)
 - [管理网络适配器 – Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/iphlp/managing-network-adapters)

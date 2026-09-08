@@ -31,6 +31,7 @@ type: note
 **底线：** 把它看作一个**善意的转述**，而不是事实记录。核心态度是芒格的；简洁的四分类结构是别人的包装。
 
 **参考来源：**
+
 - [查理·芒格谈远离有毒的人 – CNBC](https://www.cnbc.com/2023/12/05/billionaire-charlie-munger-on-avoiding-mistakes-avoid-toxic-people.html)
 - [查理·芒格的非同寻常的智慧 – Kingswell](https://www.kingswell.io/p/the-uncommon-sense-of-charlie-munger)
 - [根据查理·芒格应避免的44件事 – CMQ Investing](https://cmqinvesting.substack.com/p/charlie-munger-44-things-to-avoid)

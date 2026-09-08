@@ -14,7 +14,7 @@ type: note
 ## ASUS B85作为GPU测试平台
 
 | 手册要求 | ASUS B85（例如B85M-G / B85-PLUS） | 结论 |
-|---|---|---|
+| --- | --- | --- |
 | 推荐ASUS B85或以上 | ✅ 这本就是手册的首选主板 | ✅ 完美匹配 |
 | 支持Legacy/CSM启动（以便从多启动菜单选择） | ✅ Haswell时代的主板，完全支持Legacy + UEFI启动 | ✅ 可用 |
 | 多GPU支持（用核显显示，测试独显） | ✅ 任何LGA1150 Haswell CPU（除部分奔腾/赛扬外）都带有**Intel HD核显**，并配备D-Sub/DVI/HDMI输出——这正是手册关键流程：BIOS → 主显示设备 → CPU Graphics | ✅ 完全支持“测试黑屏卡”场景 |

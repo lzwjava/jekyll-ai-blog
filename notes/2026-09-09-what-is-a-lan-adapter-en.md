@@ -24,7 +24,7 @@ In Windows, this term commonly appears in:
 **Key concepts:**
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | 局域网 (LAN) | Local Area Network |
 | 适配器 (Adapter) | Hardware/software interface component |
 | 局域网适配器 | The NIC that connects your PC to a LAN (typically via Ethernet cable) |
@@ -43,5 +43,6 @@ In Windows `ipconfig` output, you'll typically see entries like:
 This is simply showing your **wired Ethernet (LAN) adapter's** IP configuration.
 
 **References:**
+
 - [How to Configure Network Adapters in Windows](https://techlasi.com/savvy/how-to-configure-network-adapters-in-windows/)
 - [Managing Network Adapters – Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/iphlp/managing-network-adapters)
