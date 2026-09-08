@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Interview with Zhang Junhong — Founder of ThingsPanel
+title: Interview with Founder of ThingsPanel
 translated: false
 ---
 
