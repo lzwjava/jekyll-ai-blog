@@ -8,10 +8,10 @@ title: Interview with Founder of ThingsPanel
 translated: false
 ---
 
-**Date:** June 2026
-**Location:** Shenzhen, China
-**Interviewer:** lzwjava
-**AI Translation Tips:** Zhang Junhong(张军宏)
+- **Date:** June 2026
+- **Location:** Shenzhen, China
+- **Interviewer:** lzwjava
+- **AI Translation Tips:** Zhang Junhong(张军宏)
 
 ## Overview
 
