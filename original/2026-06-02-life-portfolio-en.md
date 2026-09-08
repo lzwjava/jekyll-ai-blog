@@ -243,7 +243,7 @@ Over 12 years of engineering, my code and content have reached more than 150 mil
 | **LeanCloud** | SDK engineer | 200,000+ developers served, indirectly impacting ~50 million end users through apps built on the platform |
 | **Square Root Software Consultancy** | Project Manager | Supervised and managed 50 small software projects, indirectly impacting ~20 million users |
 | **WeChat Video Channel / YouTube** | Content creator | ~2 million views across video content |
-| **lzwjava.github.io** | Writer | ~500,000 readers — 400+ technical posts and 8,000+ AI notes |
+| **lzwjava.github.io** | Writer | ~100,000 readers — 400+ technical posts and 8,000+ AI notes |
 
 The numbers matter less than the pattern: every project I've touched, from a 3,500-user campus app at age 19 to a 50-million-user trivia game at 22 to banking infrastructure at 27, has been about building things that real people use. The scale grew, but the intent stayed the same — write code that works, share what I learn, and keep moving forward.
 
