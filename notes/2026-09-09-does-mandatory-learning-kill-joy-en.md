@@ -31,6 +31,7 @@ The sweet spot most people find most energizing: learning something *you chose*,
 So yes — you're largely right. Mandated learning doesn't kill curiosity entirely, but it does a pretty good job of suppressing it.
 
 References:
+
 - [The Overjustification Effect](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [Intrinsic vs Extrinsic Motivation in Education – Verywell Mind](https://www.verywellmind.com/differences-between-extrinsic-and-intrinsic-motivation-2795384)
 - [Self-Determination Theory – Ryan & Deci](https://selfdeterminationtheory.org/theory/)

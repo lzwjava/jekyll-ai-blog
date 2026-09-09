@@ -12,7 +12,9 @@ type: note
 Connected successfully. Here's what's on that server:
 
 ## GPU
+
 **NVIDIA GeForce RTX 4090** (1 card)
+
 - **VRAM**: 24 GB (24564 MiB) — currently 0 MiB used, no running processes
 - **Driver**: 595.91.07, **CUDA**: 13.2
 - Idle state: 26°C, 17W / 450W cap, 0% utilization
@@ -20,7 +22,7 @@ Connected successfully. Here's what's on that server:
 ## Machine specs
 
 | Resource | Value |
-|---|---|
+| --- | --- |
 | CPUs | 144 cores |
 | RAM | 629 GB total (585 GB available) |
 | Disk (root) | 30 GB overlay, essentially empty |

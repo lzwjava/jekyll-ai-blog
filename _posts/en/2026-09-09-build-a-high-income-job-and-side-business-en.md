@@ -115,7 +115,7 @@ You quit when **the business is pulling you out of employment**, rather than qui
 
 ---
 
-# 3. Don't start a "startup" yet. Start a cash machine.
+# 3. Don't start a "startup" yet. Start a cash machine
 
 This distinction is important.
 

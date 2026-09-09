@@ -44,6 +44,7 @@ The deeper philosophical difference is: the CCP sees the *collective* as the pri
 ---
 
 References:
+
 - [Freedom in the World 2024 – Freedom House](https://freedomhouse.org/report/freedom-world)
 - [China's Political System – Council on Foreign Relations](https://www.cfr.org/backgrounder/chinas-political-system)
 - [The Bill of Rights – National Archives](https://www.archives.gov/founding-docs/bill-of-rights)

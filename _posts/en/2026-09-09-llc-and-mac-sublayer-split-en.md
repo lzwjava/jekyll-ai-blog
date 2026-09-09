@@ -36,6 +36,7 @@ MAC is the sublayer that faces the physical hardware. Its responsibilities are:
 The LLC/MAC boundary lets the same LLC logic (IEEE 802.2) sit on top of completely different physical media — Ethernet, Wi-Fi, Token Ring, etc. — without change. Each medium gets its own MAC standard (802.3, 802.11, 802.5…), while the LLC above them all stays constant. You can click any box in the diagram for more detail.
 
 **References:**
+
 - [IEEE 802.2 LLC standard overview – Wikipedia](https://en.wikipedia.org/wiki/Logical_link_control)
 - [IEEE 802 LAN/MAN standards overview – Wikipedia](https://en.wikipedia.org/wiki/IEEE_802)
 - [MAC sublayer – Wikipedia](https://en.wikipedia.org/wiki/Medium_access_control)

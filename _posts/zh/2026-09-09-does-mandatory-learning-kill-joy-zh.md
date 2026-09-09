@@ -31,6 +31,7 @@ type: note
 所以，是的——你的看法基本正确。强制性学习并不能完全扼杀好奇心，但它确实相当有效地压制了它。
 
 参考资料：
+
 - [过度合理化效应](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [教育中的内在动机与外在动机 – Verywell Mind](https://www.verywellmind.com/differences-between-extrinsic-and-intrinsic-motivation-2795384)
 - [自我决定理论 – Ryan & Deci](https://selfdeterminationtheory.org/theory/)

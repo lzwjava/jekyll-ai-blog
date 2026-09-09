@@ -36,6 +36,7 @@ MAC是面向物理硬件的子层。其职责包括：
 LLC/MAC边界使得相同的LLC逻辑（IEEE 802.2）可以不加修改地运行在完全不同的物理介质之上——以太网、Wi-Fi、令牌环等。每种介质都有自己的MAC标准（802.3、802.11、802.5……），而它们之上的LLC保持不变。您可以点击图中的任意框以获取更多详情。
 
 **参考文献：**
+
 - [IEEE 802.2 LLC标准概述 – Wikipedia](https://en.wikipedia.org/wiki/Logical_link_control)
 - [IEEE 802 LAN/MAN标准概述 – Wikipedia](https://en.wikipedia.org/wiki/IEEE_802)
 - [MAC子层 – Wikipedia](https://en.wikipedia.org/wiki/Medium_access_control)

@@ -44,6 +44,7 @@ Answer：作为总体框架，这些概括大体准确，但两者都值得更�
 ---
 
 参考资料：
+
 - [Freedom in the World 2024 – Freedom House](https://freedomhouse.org/report/freedom-world)
 - [China's Political System – Council on Foreign Relations](https://www.cfr.org/backgrounder/chinas-political-system)
 - [The Bill of Rights – National Archives](https://www.archives.gov/founding-docs/bill-of-rights)

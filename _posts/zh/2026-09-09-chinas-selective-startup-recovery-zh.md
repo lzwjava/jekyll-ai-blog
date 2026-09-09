@@ -46,6 +46,7 @@ type: note
 **底线：** 中国的初创企业数量不太可能恢复到接近2018年峰值的水平。新常态看起来是更少但规模更大的押注，集中在深科技和AI领域，获得国家大力支持，而外国资本仍保持谨慎。对于广泛的消费互联网或“应用经济”初创公司——那种定义了2012-2018年繁荣的类型——使它们成为可能的条件（宽松监管、外国VC、创业自由）尚未回归。
 
 **参考资料：**
+
 - [Venture Capital 2026 — Chambers & Partners](https://practiceguides.chambers.com/practice-guides/venture-capital-2026/china/trends-and-developments)
 - [2025: Renaissance of China's Deep Tech VC — DeepTech Asia](https://www.deeptech.asia/p/2025-renaissance-of-chinas-deep-tech)
 - [VCs Pull Back from China AI — PitchBook](https://pitchbook.com/news/articles/vcs-pull-back-from-china-ai-investment)

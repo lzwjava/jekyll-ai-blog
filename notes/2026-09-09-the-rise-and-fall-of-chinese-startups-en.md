@@ -26,6 +26,7 @@ That said, the overall shape of the story is widely corroborated. Based on avail
 Note: confirmed data points are 2018 (51,302), 2023 (1,202), and 2024 (~400). Intermediate years are estimates based on trend reporting.
 
 **References:**
+
 - [China's Startup Scene Imploded — CrowdScale](https://thecrowdscale.com/p/china-startup-scene-decimated)
 - [China's Startup Scene is Dead — Yahoo Finance](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)
 - [IT Juzi Data Disputed — Yicai Global](https://www.yicaiglobal.com/news/fact-check-insiders-deny-report-of-98-dive-in-chinese-startups-last-year-say-data-is-unreliable)

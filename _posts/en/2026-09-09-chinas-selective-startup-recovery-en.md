@@ -46,6 +46,7 @@ Startups that invest in long-term value, technological ingenuity, and sustainabl
 **The bottom line:** China's startup count is unlikely to recover to anywhere near its 2018 peak. The new normal looks like fewer but larger bets, concentrated in deeptech and AI, heavily state-backed, with foreign capital still cautious. For broad consumer internet or "app economy" startups — the kind that defined the 2012–2018 boom — the conditions that made those possible (loose regulation, foreign VC, entrepreneurial freedom) have not returned.
 
 **References:**
+
 - [Venture Capital 2026 — Chambers & Partners](https://practiceguides.chambers.com/practice-guides/venture-capital-2026/china/trends-and-developments)
 - [2025: Renaissance of China's Deep Tech VC — DeepTech Asia](https://www.deeptech.asia/p/2025-renaissance-of-chinas-deep-tech)
 - [VCs Pull Back from China AI — PitchBook](https://pitchbook.com/news/articles/vcs-pull-back-from-china-ai-investment)

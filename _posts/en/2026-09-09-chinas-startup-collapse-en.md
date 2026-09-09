@@ -58,6 +58,7 @@ Many Chinese investment strategists have been laid off and replaced with lawyers
 ---
 
 **References:**
+
 - [400 Chinese EV Companies Ceased Operations (EVBoosters)](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)
 - [WM Motor Bankruptcy — TechCrunch](https://techcrunch.com/2023/10/10/wm-motors-bankruptcy-highlights-challenges-faced-by-ev-startups-in-china/)
 - [EV Owners Face Software Blackouts — Rest of World](https://restofworld.org/2024/ev-company-shutdowns-china/)

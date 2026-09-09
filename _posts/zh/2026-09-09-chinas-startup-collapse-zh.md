@@ -58,6 +58,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [400 家中国电动车公司停止运营 (EVBoosters)](https://evboosters.com/ev-charging-news/400-chinese-ev-companies-ceased-operations-between-2018-2025-only-a-few-will-dominate-towards-2030/)
 - [WM Motor 破产——TechCrunch](https://techcrunch.com/2023/10/10/wm-motors-bankruptcy-highlights-challenges-faced-by-ev-startups-in-china/)
 - [电动车车主面临软件黑屏——Rest of World](https://restofworld.org/2024/ev-company-shutdowns-china/)

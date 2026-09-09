@@ -23,11 +23,11 @@ AI不再处于“观望”阶段。
 
 斯坦福大学2026年AI指数报告指出：
 
-*   组织采用AI的比例达到了**88%**
-*   **79%** 的企业在至少一个业务功能中使用了生成式AI
-*   2025年全球企业AI投资翻了一倍以上
-*   AI公司的收入增长极其迅速
-*   但AI基础设施/计算成本也在爆炸式增长。([Stanford HAI][1])
+* 组织采用AI的比例达到了**88%**
+* **79%** 的企业在至少一个业务功能中使用了生成式AI
+* 2025年全球企业AI投资翻了一倍以上
+* AI公司的收入增长极其迅速
+* 但AI基础设施/计算成本也在爆炸式增长。([Stanford HAI][1])
 
 与此同时，出现了一种奇怪的分化：
 
@@ -115,7 +115,7 @@ AI产品
 
 ---
 
-# 3. 先不要创办“初创公司”。先创造一个“现金机器”。
+# 3. 先不要创办“初创公司”。先创造一个“现金机器”
 
 这个区别很重要。
 
@@ -255,18 +255,18 @@ RAG / 代理
 
 你最近的工作涉及：
 
-*   RTX显卡
-*   GPU维修
-*   显存
-*   CUDA
-*   推理
-*   Triton
-*   FreeToken
-*   MoE
-*   MXFP4
-*   KV缓存
-*   多GPU
-*   训练
+* RTX显卡
+* GPU维修
+* 显存
+* CUDA
+* 推理
+* Triton
+* FreeToken
+* MoE
+* MXFP4
+* KV缓存
+* 多GPU
+* 训练
 
 看起来有些分散。
 
@@ -665,10 +665,10 @@ GPU推理优化
 
 ### 参考文献
 
-*   [Stanford AI Index 2026 — Economy](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy?utm_source=chatgpt.com)
-*   [Stanford AI Index 2026](https://hai.stanford.edu/ai-index/2026-ai-index-report?utm_source=chatgpt.com)
-*   [Reuters — Cognition raises $2B at $48B valuation](https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/?utm_source=chatgpt.com)
-*   [Reuters — Nvidia forecasts continued AI growth](https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/?utm_source=chatgpt.com)
+* [Stanford AI Index 2026 — Economy](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy?utm_source=chatgpt.com)
+* [Stanford AI Index 2026](https://hai.stanford.edu/ai-index/2026-ai-index-report?utm_source=chatgpt.com)
+* [Reuters — Cognition raises $2B at $48B valuation](https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/?utm_source=chatgpt.com)
+* [Reuters — Nvidia forecasts continued AI growth](https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/?utm_source=chatgpt.com)
 
 [1]: https://hai.stanford.edu/ai-index/2026-ai-index-report/economy?utm_source=chatgpt.com "Economy | The 2026 AI Index Report | Stanford HAI"
 [2]: https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36?utm_source=chatgpt.com "AI Spending Is Up. So Is the Guesswork."

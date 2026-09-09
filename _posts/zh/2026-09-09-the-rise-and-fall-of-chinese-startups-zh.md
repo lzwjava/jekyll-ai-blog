@@ -28,6 +28,7 @@ type: note
 注：确认的数据点为2018年（51,302家）、2023年（1,202家）和2024年（约400家）。中间年份的数据基于趋势报道估算。
 
 **参考资料：**
+
 - [China's Startup Scene Imploded — CrowdScale](https://thecrowdscale.com/p/china-startup-scene-decimated)
 - [China's Startup Scene is Dead — Yahoo Finance](https://finance.yahoo.com/news/china-startup-scene-dead-investors-170658683.html)
 - [IT Juzi Data Disputed — Yicai Global](https://www.yicaiglobal.com/news/fact-check-insiders-deny-report-of-98-dive-in-chinese-startups-last-year-say-data-is-unreliable)
