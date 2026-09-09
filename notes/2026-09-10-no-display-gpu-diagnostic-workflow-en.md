@@ -19,13 +19,17 @@ Yes — partially. This manual is mainly a **VRAM (显存) testing manual** (MOD
 2. Enter BIOS (e.g., ASUS H170 PRO: F7 → Advanced → System Agent → Graphics Configuration → **Primary Display = CPU Graphics**), F10 to save.
 3. Boot into the test environment and pick the right version directory, e.g. `cd 400.250`.
 4. **Set up the test environment first** (mandatory for a card with no display):
+
    ```
    ./mods gputest.js -skip_rm_state_init -notest
    ```
+
 5. **Key diagnostic point:** if you see a **PASS screen**, the card can at least run the test program → continue with:
+
    ```
    ./mats -n 1 -e 5
    ```
+
    then check results with `less report.txt` (FBI0A0 = VRAM; `0.0.0` = OK, nonzero numbers = failing memory chip).
 6. If **no PASS screen** appears → the manual states this means a **hardware fault (power delivery or GPU core problem)**, and the software **cannot test it at all**.
 7. It even gives a follow-up command to distinguish **core vs. VRAM failure**: `./mods gputest.js -oqa -test 118 -matsinfo` (fault code 690 = VRAM fault).

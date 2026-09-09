@@ -19,13 +19,17 @@ type: note
 2. 进入 BIOS（例如，ASUS H170 PRO：F7 → Advanced → System Agent → Graphics Configuration → **Primary Display = CPU Graphics**），按 F10 保存。
 3. 启动进入测试环境，并选择正确的版本目录，例如 `cd 400.250`。
 4. **首先设置测试环境**（对于无显示输出的显卡是强制步骤）：
+
    ```
    ./mods gputest.js -skip_rm_state_init -notest
    ```
+
 5. **关键诊断点：** 如果看到 **PASS 屏幕**，说明该显卡至少能运行测试程序 → 继续执行：
+
    ```
    ./mats -n 1 -e 5
    ```
+
    然后使用 `less report.txt` 检查结果（FBI0A0 = VRAM；`0.0.0` = 正常，非零数字 = 故障显存芯片）。
 6. 如果 **未出现 PASS 屏幕** → 手册指出这意味着存在 **硬件故障（供电或 GPU 核心问题）**，软件 **完全无法对其进行测试**。
 7. 手册甚至提供了后续命令以区分 **核心故障还是显存故障**：`./mods gputest.js -oqa -test 118 -matsinfo`（故障代码 690 = 显存故障）。
