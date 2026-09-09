@@ -24,6 +24,7 @@ EtherType 是以太网帧头部的一个 **两字节（16位）字段**，用于
 **双重角色——EtherType 与长度：**
 
 在现代以太网中，这个相同的 2 字节字段根据其值的不同可以起到两种不同的作用：
+
 - **≤ 0x05DC (1500)** → 表示有效载荷的 **长度**（IEEE 802.3 帧格式）
 - **≥ 0x0600 (1536)** → 表示 **EtherType** / 协议标识符（Ethernet II 帧格式）
 
@@ -34,7 +35,7 @@ EtherType 值由 **IEEE 注册机构** 分配。
 **常见的 EtherType 值：**
 
 | EtherType | 协议 |
-|-----------|------|
+| ----------- | ------ |
 | `0x0800` | IPv4 |
 | `0x0806` | ARP |
 | `0x86DD` | IPv6 |
@@ -49,6 +50,7 @@ EtherType 值由 **IEEE 注册机构** 分配。
 EtherType 是 16 位的标识符，出现在 MAC 目的地址和源地址之后（或在标签之后）的前两个字节中，当将其视为无符号整数时，其值大于或等于 0x0600。
 
 **参考资料：**
+
 - [EtherType – 维基百科](https://en.wikipedia.org/wiki/EtherType)
 - [RFC 7042 – IEEE 802 参数的 IANA 考量](https://datatracker.ietf.org/doc/rfc7042/)
 - [EtherType – Networx 安全术语表](https://www.networxsecurity.org/members-area/glossary/e/ethertype.html)

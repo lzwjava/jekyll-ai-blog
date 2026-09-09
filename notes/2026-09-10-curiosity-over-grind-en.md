@@ -22,6 +22,7 @@ Andrej Karpathy builds neural nets from scratch *for fun* on weekends, does his 
 **The relaxed state is actually optimal for learning**
 
 This isn't accidental. There's solid neuroscience behind it:
+
 - **Low cortisol = better memory consolidation.** Stress actively impairs the hippocampus.
 - **Diffuse thinking mode** (relaxed, wandering) is when the brain makes unexpected connections — the "shower thought" effect, but sustained.
 - **Intrinsic motivation** produces deeper encoding than external pressure. You remember what you *wanted* to learn.
@@ -43,6 +44,7 @@ That's basically the whole secret.
 ---
 
 References:
+
 - [Andrej Karpathy's Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)
 - [Karpathy on X / personal site — hobby projects](https://karpathy.ai)
 - [Why Relaxed Brains Learn Better — diffuse vs focused mode (Barbara Oakley / Learning How to Learn)](https://www.coursera.org/learn/learning-how-to-learn)

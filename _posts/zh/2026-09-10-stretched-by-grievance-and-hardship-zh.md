@@ -46,6 +46,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [史蒂夫·乔布斯：被解雇如何引发了科技史上最伟大的回归 — Medium](https://tovatova.medium.com/steve-jobs-how-getting-fired-sparked-the-greatest-comeback-in-tech-history-091e4b7d523d)
 - [5位商业巨头：他们失去一切，却奋力重建更强 — Medium](https://medium.com/@moneytent/5-business-titans-who-lost-everything-but-fought-to-build-back-stronger-than-ever-bac497f92670)
 - [羞辱如何重构创业自我 — Springer](https://link.springer.com/article/10.1007/s11187-026-01199-3)

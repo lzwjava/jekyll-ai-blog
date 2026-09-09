@@ -24,9 +24,11 @@ type: note
 **历史语境：** 常出现在奠基性文件中。例如，美国《独立宣言》列举了对英国王室的特定不满，作为独立的正当理由。
 
 关键区别：
+
 - 申诉可以是**合理的**（基于真实不公），也可以是**感知的**（基于感受，即使未客观证实）。
 - 它带有情感分量——不仅是抱怨，而是**感受到的**不公。
 
 参考资料：
+
 - [Grievance – 韦氏词典](https://www.merriam-webster.com/dictionary/grievance)
 - [申诉程序 – Investopedia](https://www.investopedia.com/terms/g/grievance-procedure.asp)

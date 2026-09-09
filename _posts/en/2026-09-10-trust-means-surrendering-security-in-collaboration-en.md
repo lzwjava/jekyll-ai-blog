@@ -32,4 +32,5 @@ In short: collaboration *requires* mutual vulnerability, and trust is the willin
 ---
 
 **References:**
+
 - [李笑来《财富自由之路》学习笔记 — Zhihu](https://zhuanlan.zhihu.com/p/690225718)

@@ -20,12 +20,14 @@ type: note
 ## 经典架构模型
 
 **C/S（客户端/服务器）**
+
 - 专用**原生客户端应用**（桌面应用）与服务器通信
 - 示例：Outlook桌面版、WinForms应用、原生移动应用
 - 逻辑分布在胖客户端和后端服务器之间
 - 每台机器需要安装
 
 **B/S（浏览器/服务器）**
+
 - **浏览器作为通用客户端**——无需安装
 - 所有UI通过HTTP以HTML/CSS/JS形式交付
 - 示例：通过Chrome/Firefox/Safari访问的Web应用
@@ -36,7 +38,7 @@ type: note
 ## 它们如何映射到浏览器/服务器模式
 
 | 概念 | 映射到 | 说明 |
-|---|---|---|
+| --- | --- | --- |
 | C/S 架构 | — | 原生客户端；通常不属于“浏览器模式” |
 | B/S 架构 | **同时**包含浏览器模式和服务器模式 | B/S是总称；*模式*决定了渲染发生的位置 |
 | 浏览器模式 | B/S + 客户端渲染 | 首次加载后浏览器承担主要工作 |
@@ -61,7 +63,7 @@ B/S  →  浏览器作为客户端 + 后端服务器
 ## 实际差异
 
 | | C/S | B/S（服务器模式） | B/S（浏览器模式） |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 客户端类型 | 原生应用 | 浏览器 | 浏览器 |
 | 安装 | 需要 | 无需 | 无需 |
 | 渲染 | 客户端应用 | 服务器 | 浏览器JS |
@@ -71,6 +73,7 @@ B/S  →  浏览器作为客户端 + 后端服务器
 | 示例 | WPF、Qt应用 | PHP、Rails、Next.js SSR | React SPA、Vue SPA |
 
 参考来源：
+
 - [客户端-服务器模型 – Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
 - [浏览器/服务器与客户端/服务器架构](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
 - [Next.js 渲染策略](https://nextjs.org/docs/app/building-your-application/rendering)

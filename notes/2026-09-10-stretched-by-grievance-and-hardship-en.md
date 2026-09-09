@@ -46,6 +46,7 @@ After moving to become a news anchor in Baltimore, Oprah was fired for not being
 ---
 
 **References:**
+
 - [Steve Jobs: How Getting Fired Sparked the Greatest Comeback in Tech History — Medium](https://tovatova.medium.com/steve-jobs-how-getting-fired-sparked-the-greatest-comeback-in-tech-history-091e4b7d523d)
 - [5 Business Titans Who Lost Everything But Fought to Build Back Stronger — Medium](https://medium.com/@moneytent/5-business-titans-who-lost-everything-but-fought-to-build-back-stronger-than-ever-bac497f92670)
 - [How Humiliation Reconstructs the Entrepreneurial Self — Springer](https://link.springer.com/article/10.1007/s11187-026-01199-3)

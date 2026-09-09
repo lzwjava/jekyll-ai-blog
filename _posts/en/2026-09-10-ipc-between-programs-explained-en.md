@@ -34,6 +34,7 @@ The key mental model: **process isolation is the rule, IPC channels are the exce
 ---
 
 References:
+
 - [Inter-process communication – Wikipedia](https://en.wikipedia.org/wiki/Inter-process_communication)
 - [Linux IPC mechanisms (pipes, sockets, shared memory) – The Linux Documentation Project](https://tldp.org/LDP/lpg/node7.html)
 - [Unix Network Programming – Stevens (socket & IPC reference)](https://www.unpbook.com/)

@@ -26,6 +26,7 @@ type: note
 异步 TDM，也称为统计 TDM，会根据需求*动态*地将时隙分配给数据流。仅当数据流有数据要发送时才会分配时隙，因此更加灵活。
 
 关键机制：
+
 - 在 ATDM 中，如果有 *n* 条输入线路，多路复用器会扫描所有输入线路并接收数据，直到帧被填满。帧填满后，便通过链路发送。如果发送方没有足够的数据填满该帧，则按部分填充状态发送。
 - 由于所有发送设备都可以使用任何可用时隙，接收方无法仅通过计算时隙位置来识别数据——因此需要一种寻址机制，为每个时隙提供唯一地址。
 
@@ -40,7 +41,7 @@ type: note
 **同步 TDM 与异步 TDM 对比一览：**
 
 | | 同步 TDM | 异步 TDM |
-|---|---|---|
+| --- | --- | --- |
 | 时隙分配 | 固定、预先分配 | 动态、按需分配 |
 | 带宽浪费 | 有（空闲时隙被浪费） | 无（时隙始终承载数据） |
 | 是否需要寻址 | 否 | 是（每个时隙有地址） |
@@ -50,6 +51,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Difference between Synchronous TDM and Asynchronous TDM – GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/difference-between-synchronous-tdm-and-asynchronous-tdm/)
 - [Asynchronous Time Division Multiplexing – TutorialsPoint](https://www.tutorialspoint.com/data_communication_computer_network/asynchronous_tdm.htm)
 - [What is ATM? – Dialogic](https://www.dialogic.com/glossary/asynchronous-transfer-mode-atm)

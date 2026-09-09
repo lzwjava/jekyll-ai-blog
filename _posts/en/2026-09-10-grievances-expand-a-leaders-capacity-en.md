@@ -30,6 +30,7 @@ So the full idea is: **Your capacity as a leader isn't built in good times — i
 Jack Ma lived this himself — he was rejected repeatedly throughout his career, and as he put it, his own success was built on top of suffering.
 
 Practically, it means:
+
 - Don't rage-quit when things are unfair.
 - Don't demand immediate vindication.
 - Let the pressure of mistreatment *expand* you, not break you.
@@ -40,6 +41,7 @@ It's a distinctly Confucian-flavored concept of resilience — suffering isn't j
 ---
 
 **References:**
+
 - [马云正能量励志语录大全 — Zhihu](https://zhuanlan.zhihu.com/p/400439063)
 - [马云的创业失败史 — Zhihu](https://zhuanlan.zhihu.com/p/338349478)
 - [男人的胸怀是被冤枉撑大的 — Sina Blog](https://blog.sina.com.cn/s/blog_56c9224501009ii4.html)

@@ -18,7 +18,7 @@ type: note
 以下是典型的 AD 优先级顺序（以 Cisco IOS 为例）：
 
 | 路由类型 | 管理距离 |
-|---|---|
+| --- | --- |
 | **直连接口** | **0** ← 最高优先级 |
 | **静态路由** | **1** |
 | EIGRP 汇总路由 | 5 |
@@ -43,5 +43,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [Cisco - 管理距离](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html)
 - [Cloudflare - 什么是路由表？](https://www.cloudflare.com/learning/network-layer/what-is-a-routing-table/)

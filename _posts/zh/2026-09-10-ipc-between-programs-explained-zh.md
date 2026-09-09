@@ -36,6 +36,7 @@ type: note
 ---
 
 参考：
+
 - [进程间通信 – Wikipedia](https://en.wikipedia.org/wiki/Inter-process_communication)
 - [Linux IPC 机制（管道、套接字、共享内存）– The Linux Documentation Project](https://tldp.org/LDP/lpg/node7.html)
 - [Unix 网络编程 – Stevens（套接字 & IPC 参考）](https://www.unpbook.com/)

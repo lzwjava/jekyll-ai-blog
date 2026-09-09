@@ -22,6 +22,7 @@ Andrej Karpathy 在周末*为了好玩*从头搭建神经网络，做“Zero to 
 **放松状态实际上最有利于学习**
 
 这并非偶然。背后有扎实的神经科学依据：
+
 - **低皮质醇 = 更好的记忆巩固。** 压力会主动损害海马体。
 - **发散思维模式**（放松、漫游）是大脑产生意外连接的时机——即“淋浴时的灵感”效应，但持续发生。
 - **内在动机**比外部压力产生更深的编码。你会记住你*想要*学习的东西。
@@ -43,6 +44,7 @@ Andrej Karpathy 在周末*为了好玩*从头搭建神经网络，做“Zero to 
 ---
 
 参考文献：
+
 - [Andrej Karpathy 的神经网络：从零到英雄](https://github.com/karpathy/nn-zero-to-hero)
 - [Karpathy 在 X / 个人网站 —— 业余项目](https://karpathy.ai)
 - [为什么放松的大脑学习效果更好 —— 发散与专注模式（Barbara Oakley / 学会如何学习）](https://www.coursera.org/learn/learning-how-to-learn)

@@ -32,4 +32,5 @@ type: note
 ---
 
 **参考：**
+
 - [李笑来《财富自由之路》学习笔记 — 知乎](https://zhuanlan.zhihu.com/p/690225718)

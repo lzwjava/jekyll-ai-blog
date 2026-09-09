@@ -24,9 +24,11 @@ It can be used in several contexts:
 **Historical context:** Often appears in foundational documents. The U.S. Declaration of Independence, for instance, lists specific grievances against the British Crown as justification for independence.
 
 Key distinctions:
+
 - A grievance can be **legitimate** (based on a real injustice) or **perceived** (based on a feeling, even if not objectively proven).
 - It implies an emotional weight — not just a complaint, but a *felt* injustice.
 
 References:
+
 - [Grievance – Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/grievance)
 - [Grievance Procedure – Investopedia](https://www.investopedia.com/terms/g/grievance-procedure.asp)

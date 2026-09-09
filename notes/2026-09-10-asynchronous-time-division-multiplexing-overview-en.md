@@ -26,6 +26,7 @@ In Synchronous TDM, each time slot is pre-assigned to a fixed source. Slots are 
 Asynchronous TDM, also called Statistical TDM, allocates time slots *dynamically* to data streams based on demand. A time slot is assigned only when the data stream has something to send, making it more flexible.
 
 Key mechanics:
+
 - In ATDM, if there are *n* input lines, the multiplexer scans all input lines and accepts data until a frame is filled. When the frame is filled, it is sent across the link. If senders don't have enough data to fill the frame, it is transmitted as partially filled.
 - Since all sending devices can use any available slot, the receiver cannot identify data simply by counting slot positions — an addressing mechanism is required, supplying a unique address to each time slot.
 
@@ -40,7 +41,7 @@ Asynchronous Transfer Mode (ATM) — a major telecom switching technology — us
 **Synchronous vs. Asynchronous TDM at a glance:**
 
 | | Synchronous TDM | Asynchronous TDM |
-|---|---|---|
+| --- | --- | --- |
 | Slot assignment | Fixed, pre-assigned | Dynamic, on demand |
 | Bandwidth waste | Yes (idle slots wasted) | No (slots always carry data) |
 | Addressing needed | No | Yes (address per slot) |
@@ -50,6 +51,7 @@ Asynchronous Transfer Mode (ATM) — a major telecom switching technology — us
 ---
 
 **References:**
+
 - [Difference between Synchronous TDM and Asynchronous TDM – GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/difference-between-synchronous-tdm-and-asynchronous-tdm/)
 - [Asynchronous Time Division Multiplexing – TutorialsPoint](https://www.tutorialspoint.com/data_communication_computer_network/asynchronous_tdm.htm)
 - [What is ATM? – Dialogic](https://www.dialogic.com/glossary/asynchronous-transfer-mode-atm)

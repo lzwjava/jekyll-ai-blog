@@ -18,7 +18,7 @@ No, static routing does **not** always have the highest priority. Route priority
 Here is the typical AD priority order (on Cisco IOS, for example):
 
 | Route Type | Administrative Distance |
-|---|---|
+| --- | --- |
 | **Connected Interface** | **0** ← Highest Priority |
 | **Static Route** | **1** |
 | EIGRP Summary | 5 |
@@ -43,5 +43,6 @@ Here is the typical AD priority order (on Cisco IOS, for example):
 ---
 
 **References:**
+
 - [Cisco - Administrative Distance](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html)
 - [Cloudflare - What is a Routing Table?](https://www.cloudflare.com/learning/network-layer/what-is-a-routing-table/)

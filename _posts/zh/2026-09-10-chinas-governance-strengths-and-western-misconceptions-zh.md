@@ -70,6 +70,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [China and Its Western Critics – Asia Global Institute, HKU](https://www.asiaglobalinstitute.hku.hk/news-post/china-and-its-western-critics)
 - [The Strengths and Successes of the Chinese Governance System – Springer](https://link.springer.com/chapter/10.1007/978-981-97-2558-8_14)
 - [What the West Gets Wrong About China – HBR](https://store.hbr.org/product/what-the-west-gets-wrong-about-china/S21031)
