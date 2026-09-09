@@ -550,6 +550,7 @@ AI
 当前的一个数据点强化了这一策略：中国服务业仍在扩张，而先进技术型中小企业正在获得越来越多的政策支持——所以经济并非简单地“崩溃”，而是正在经历**增长引擎的重新分配**。citeturn0news20turn0news19
 
 **参考文献：**
+
 - [IMF — How China’s Economy Can Pivot to Consumption-led Growth](https://www.imf.org/en/news/articles/2026/02/18/cf-how-chinas-economy-can-pivot-to-consumption-led-growth) citeturn0search0
 - [IMF — China’s Emerging Economic Engine](https://www.imf.org/en/publications/fandd/issues/2026/09/chinas-emerging-economic-engine-yanliang-miao) citeturn0search1
 - [IMF — 2025 China Article IV](https://www.imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028) citeturn0search6

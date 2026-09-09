@@ -561,7 +561,7 @@ GDP deflator
 wage growth
 ```
 
-### Most important:
+### Most important
 
 ```text
 nominal GDP growth

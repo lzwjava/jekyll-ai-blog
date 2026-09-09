@@ -16,6 +16,7 @@ type: note
 ---
 
 **作用：**
+
 - 连接所有输入端口与输出端口
 - 以极快速度在内部将数据包从到达位置传送至目标位置
 
@@ -24,7 +25,7 @@ type: note
 **三种主要类型：**
 
 | 类型 | 说明 | 速度 |
-|------|------|------|
+| ------ | ------ | ------ |
 | **基于内存交换** | 数据包复制到CPU内存后再转发，如早期路由器 | 最慢 |
 | **基于总线交换** | 数据包通过共享内部总线传输，高负载时存在瓶颈 | 中等 |
 | **基于交叉开关/互联网络交换** | 交叉点网格支持多路并发传输，用于高端路由器 | 最快 |
@@ -38,6 +39,7 @@ type: note
 ---
 
 参考来源：
+
 - [计算机网络：自顶向下方法——路由器架构（Kurose & Ross）](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [交换结构 – 维基百科](https://en.wikipedia.org/wiki/Switching_fabric)
 - [思科：路由器工作原理](https://www.cisco.com/c/en/us/products/routers/what-is-a-router.html)

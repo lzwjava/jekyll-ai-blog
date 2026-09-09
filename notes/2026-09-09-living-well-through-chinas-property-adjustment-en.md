@@ -550,6 +550,7 @@ That's a much better position than making one gigantic bet on Chinese real estat
 One current data point reinforces the strategy: China's services sector is still expanding, while advanced-technology SMEs are receiving increasing policy support—so the economy is not simply "collapsing"; it's undergoing a **reallocation of growth engines**. citeturn0news20turn0news19
 
 **References:**
+
 - [IMF — How China’s Economy Can Pivot to Consumption-led Growth](https://www.imf.org/en/news/articles/2026/02/18/cf-how-chinas-economy-can-pivot-to-consumption-led-growth) citeturn0search0
 - [IMF — China’s Emerging Economic Engine](https://www.imf.org/en/publications/fandd/issues/2026/09/chinas-emerging-economic-engine-yanliang-miao) citeturn0search1
 - [IMF — 2025 China Article IV](https://www.imf.org/en/publications/cr/issues/2026/02/17/peoples-republic-of-china-2025-article-iv-consultation-press-release-staff-report-and-574028) citeturn0search6

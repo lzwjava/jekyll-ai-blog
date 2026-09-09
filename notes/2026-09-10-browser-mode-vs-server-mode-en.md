@@ -40,7 +40,7 @@ These two modes describe **where** your application's logic and rendering happen
 **Quick Comparison**
 
 | | Browser Mode | Server Mode |
-|---|---|---|
+| --- | --- | --- |
 | Rendering location | Client (browser) | Server |
 | First load speed | Slower | Faster |
 | SEO | Harder | Better |
@@ -52,5 +52,6 @@ These two modes describe **where** your application's logic and rendering happen
 Modern frameworks like **Next.js** and **Nuxt** let you mix both — some components render on the server, others on the client — giving you the best of both worlds.
 
 References:
+
 - [Client-side vs Server-side Rendering – MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
 - [Next.js: Server and Client Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components)

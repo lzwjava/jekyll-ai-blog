@@ -20,6 +20,7 @@ Think of it as the "internal highway system" inside a router. Here's what it doe
 ---
 
 **Role:**
+
 - Connects all input ports to all output ports
 - Moves packets from where they arrive to where they need to go — at very high speed, internally
 
@@ -28,7 +29,7 @@ Think of it as the "internal highway system" inside a router. Here's what it doe
 **Three Main Types:**
 
 | Type | Description | Speed |
-|------|-------------|-------|
+| ------ | ------------- | ------- |
 | **Memory-based** (经内存交换) | Packet is copied to CPU memory, then forwarded. Like early routers. | Slowest |
 | **Bus-based** (经总线交换) | Packet travels over a shared internal bus. Bottleneck at high load. | Medium |
 | **Crossbar/Interconnection Network** (经互联网络交换) | A grid of crosspoints allows multiple simultaneous transfers. Used in high-end routers. | Fastest |
@@ -42,6 +43,7 @@ The switching fabric's throughput directly determines the **overall forwarding c
 ---
 
 References:
+
 - [Computer Networking: A Top-Down Approach – Router Architecture (Kurose & Ross)](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [Switching Fabric – Wikipedia](https://en.wikipedia.org/wiki/Switching_fabric)
 - [Cisco: How Routers Work](https://www.cisco.com/c/en/us/products/routers/what-is-a-router.html)

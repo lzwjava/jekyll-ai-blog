@@ -33,6 +33,7 @@ No handshaking overhead is needed before data can flow. This makes IP faster for
 In short: IP trades reliability guarantees for speed, simplicity, and resilience. If you need a connection-oriented behavior on top of IP, you use **TCP**, which adds handshaking, ordering, and retransmission — but IP itself stays "fire and forget."
 
 References:
+
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [End-to-end principle – Wikipedia](https://en.wikipedia.org/wiki/End-to-end_principle)
 - [Connectionless communication – Wikipedia](https://en.wikipedia.org/wiki/Connectionless_communication)

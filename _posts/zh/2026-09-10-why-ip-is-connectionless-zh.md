@@ -33,6 +33,7 @@ IP 的设计目标是让 network 本身保持简单（只负责 forward packet�
 简而言之：IP 用 reliability guarantees 换取了速度、简单性和 resilience。如果你需要在 IP 之上获得 connection-oriented 行为，你可以使用 **TCP**，它增加了 handshaking、ordering 和 retransmission——但 IP 本身仍然是“fire and forget”。
 
 References:
+
 - [RFC 791 – Internet Protocol](https://www.rfc-editor.org/rfc/rfc791)
 - [End-to-end principle – Wikipedia](https://en.wikipedia.org/wiki/End-to-end_principle)
 - [Connectionless communication – Wikipedia](https://en.wikipedia.org/wiki/Connectionless_communication)
