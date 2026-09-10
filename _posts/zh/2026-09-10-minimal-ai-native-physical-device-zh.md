@@ -221,7 +221,7 @@ while True:
 
 这比在另一个触摸屏后面放一个ChatGPT要有趣得多。
 
-### 参考文献：
+### 参考文献
 
 * [WIRED — Humane Ai Pin 评测](https://www.wired.com/review/humane-ai-pin/?utm_source=chatgpt.com)
 * [WIRED — Rabbit R1 评测](https://www.wired.com/review/rabbit-r1/?utm_source=chatgpt.com)

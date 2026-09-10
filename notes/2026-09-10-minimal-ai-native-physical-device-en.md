@@ -221,7 +221,7 @@ Camera and microphone are the **eyes and ears**; the model is the **computer**; 
 
 That is a much more interesting architecture than putting ChatGPT behind another touchscreen.
 
-### References:
+### References
 
 * [WIRED — Humane Ai Pin review](https://www.wired.com/review/humane-ai-pin/?utm_source=chatgpt.com)
 * [WIRED — Rabbit R1 review](https://www.wired.com/review/rabbit-r1/?utm_source=chatgpt.com)

@@ -27,7 +27,7 @@ Where P(x) is the probability assigned to each token x.
 **Where entropy shows up in LLMs:**
 
 | Context | Role |
-|---|---|
+| --- | --- |
 | **Temperature sampling** | Temperature scales logits before softmax, directly controlling output entropy — higher temp = higher entropy |
 | **Perplexity** | Perplexity = exp(H), a standard metric for how "surprised" the model is by a text sequence |
 | **Training loss** | Cross-entropy loss measures how far the model's distribution is from the true distribution |
@@ -36,6 +36,7 @@ Where P(x) is the probability assigned to each token x.
 **Intuition:** If a model assigns 99% probability to one token, entropy ≈ 0 (very sure). If it spreads probability evenly across 10,000 tokens, entropy is at its maximum (very unsure).
 
 References:
+
 - [Shannon Entropy – Wikipedia](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 - [Perplexity of a Language Model – Hugging Face Docs](https://huggingface.co/docs/transformers/perplexity)
 - [Temperature and Sampling in LLMs – Lilian Weng's Blog](https://lilianweng.github.io/posts/2021-03-21-lm-bpe/)
