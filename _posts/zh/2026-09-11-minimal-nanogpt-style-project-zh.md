@@ -12,7 +12,7 @@ type: note
 已完成。在 `/mnt/data/igpt` 中创建了一个 nanoGPT 风格的项目：
 
 | 文件 | 用途 |
-|------|------|
+| ------ | ------ |
 | `train.py` | 整个项目整合在一个文件中（750 行） |
 | `README.md` | 安装、快速开始、工作原理、参数说明、扩展方案 |
 | `.gitignore` | Python + `data/`、`out/`、检查点、编辑器/操作系统文件 |
@@ -38,6 +38,7 @@ Or them all and bart that us hall but comel.
 ```
 
 快速开始：
+
 ```bash
 python train.py
 python train.py --sample --prompt "ROMEO:" --num_samples 3

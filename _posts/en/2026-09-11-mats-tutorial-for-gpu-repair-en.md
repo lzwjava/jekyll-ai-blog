@@ -25,6 +25,7 @@ Answer: **Yes. I read it.** The key part for your GPU-repair work is the diagnos
      ```bash
      ./mats -e 30
      ```
+
    * `-e 30` means test 30 MB. The tutorial recommends at least 5 MB, with 50 MB as a reasonable value. ([GitHub][1])
 
 3. **For a GPU with no display**
@@ -36,6 +37,7 @@ Answer: **Yes. I read it.** The key part for your GPU-repair work is the diagnos
      ./mods gputest.js -skip_rm_state_init -mfg
      ./mats -n 1 -e 50
      ```
+
    * The `-n` selects the GPU being tested. ([GitHub][1])
 
 4. **The important part: locating the bad VRAM chip**

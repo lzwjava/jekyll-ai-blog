@@ -25,6 +25,7 @@ type: note
      ```bash
      ./mats -e 30
      ```
+
    * `-e 30` 表示测试 30 MB。教程建议至少 5 MB，50 MB 是合理值。（[GitHub][1]）
 
 3. **对于无显示的 GPU**
@@ -36,6 +37,7 @@ type: note
      ./mods gputest.js -skip_rm_state_init -mfg
      ./mats -n 1 -e 50
      ```
+
    * `-n` 用于选择被测 GPU。（[GitHub][1]）
 
 4. **关键步骤：定位损坏的显存芯片**

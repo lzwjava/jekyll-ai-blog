@@ -35,8 +35,6 @@ The phrase **"sound blessed"** is a common voice-to-text or autocorrect misspell
 * Line-Out 1 (Front L/R) & Line-Out 2 (Rear L/R) (3.5mm)
 * 15-pin Gameport / MIDI Port for joysticks or musical instruments
 
-
-
 ### Use Case & Compatibility
 
 The SB0060 was designed for retro desktop PCs running vintage Microsoft operating systems (Windows 98, Windows ME, Windows 2000, and Windows XP). Modern operating systems such as Windows 10 or Windows 11 do not offer native driver support for this hardware, making it primarily useful for vintage PC building, retro gaming, or computer hardware collection.

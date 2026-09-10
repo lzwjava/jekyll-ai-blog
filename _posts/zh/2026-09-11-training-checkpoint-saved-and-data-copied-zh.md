@@ -12,6 +12,7 @@ type: note
 完成。
 
 **通过评估和 checkpoint 确认训练仍在进行：**
+
 - `iter 500: train 6.3077 | val 6.2557` — checkpoint 已保存：`out-wikipedia/ckpt.pt`（344 MiB）
 - 进程 670206 仍在运行（运行时间 02:55），GPU 已使用 11,662 MiB / 空闲 178 MiB
 - 步时间稳定为 323 毫秒（仅在评估迭代上约 1339 毫秒）
@@ -19,7 +20,7 @@ type: note
 **数据已复制到 `/mnt/data/igpt/data/wikipedia/`** — 该目录现在是自包含的：
 
 | 文件 | 大小 | 状态 |
-|---|---|---|
+| --- | --- | --- |
 | `train.bin` | 171,940,466 B | 已存在，md5 `abd9f26f…` 与 nanoGPT 源匹配 |
 | `val.bin` | 118,116 B | 已存在，md5 `cc47f9dc…` 匹配 |
 | `meta.pkl` | 73 B | 已存在（gpt2 BPE，词表 50257） |

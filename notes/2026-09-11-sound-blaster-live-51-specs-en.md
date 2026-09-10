@@ -28,8 +28,6 @@ The **Model SB0060** refers specifically to the **Creative Sound Blaster Live! 5
 * **Line Out 1 & 2:** Analog front/rear output jacks.
 * **Gameport / MIDI:** 15-pin connector for older PC joysticks or MIDI keyboards.
 
-
-
 ### Current Usage
 
 This component is considered legacy vintage computer hardware. It was primarily designed for operating systems such as **Windows 98, Windows ME, Windows 2000, and Windows XP**. Modern motherboard slots and operating systems (like Windows 10/11) generally do not support this physical card format or its drivers.

@@ -15,15 +15,15 @@ Answer: **Very useful for your GPU-repair setup.** It is essentially a practical
 
 The most valuable parts for you are:
 
-* **NVIDIA MATS** — memory testing. The manual shows commands such as `./mats -e 10` and `./mats -n 1 -e 5`, and explains how `report.txt` identifies memory errors. 
-* **MODS** — initializes/tests the GPU environment before MATS. The manual explicitly says that if the environment cannot reach PASS, you may have a power/core/hardware problem and cannot proceed normally to MATS. 
-* **Faulty VRAM localization** — it maps MATS results such as `A0` to the physical VRAM organization on the board. That's exactly the kind of information useful when deciding which memory chip to inspect/replace. 
-* **Core vs VRAM differentiation** — it also documents an additional MODS test (`gputest.js ... -matsinfo`) to help distinguish a GPU-core problem from a memory problem. 
-* **AMD support** — it covers RX 400/500, Vega, RX 5000/6000 and Radeon VII, with AMD's `tserver`/`memfa` workflow. 
+* **NVIDIA MATS** — memory testing. The manual shows commands such as `./mats -e 10` and `./mats -n 1 -e 5`, and explains how `report.txt` identifies memory errors.
+* **MODS** — initializes/tests the GPU environment before MATS. The manual explicitly says that if the environment cannot reach PASS, you may have a power/core/hardware problem and cannot proceed normally to MATS.
+* **Faulty VRAM localization** — it maps MATS results such as `A0` to the physical VRAM organization on the board. That's exactly the kind of information useful when deciding which memory chip to inspect/replace.
+* **Core vs VRAM differentiation** — it also documents an additional MODS test (`gputest.js ... -matsinfo`) to help distinguish a GPU-core problem from a memory problem.
+* **AMD support** — it covers RX 400/500, Vega, RX 5000/6000 and Radeon VII, with AMD's `tserver`/`memfa` workflow.
 
 ### This changes my view of the ¥208 B75 machine
 
-The manual itself recommends a relatively simple Intel platform, **8 GB+ RAM**, and importantly a board capable of **Multi-GPU**, so that the motherboard iGPU can provide display while the defective discrete GPU is tested. 
+The manual itself recommends a relatively simple Intel platform, **8 GB+ RAM**, and importantly a board capable of **Multi-GPU**, so that the motherboard iGPU can provide display while the defective discrete GPU is tested.
 
 So your proposed setup:
 

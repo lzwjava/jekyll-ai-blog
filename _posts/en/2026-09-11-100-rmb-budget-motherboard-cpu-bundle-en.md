@@ -28,9 +28,9 @@ At **100 CNY (approx. $14 USD)**, this bundle is a solid budget deal. The price 
 
 1. **Hardware Inspection:** Inspect the socket pins on the motherboard to ensure none are bent, check for swelling capacitors, and verify that all RAM slots and display ports function properly.
 2. **Future Upgrade Potential:**
+
 * The board supports 6th and 7th Gen Intel CPUs.
 * You can easily drop in a used **i5-6500**, **i5-7500**, or **i7-7700** later if you need more compute power.
-
 
 3. **Modified BIOS Modding (Optional):** Many 100-series (B150/H110) boards can be modified via custom BIOS flashes to run cheaper 8th/9th Gen CPUs or Xeon processors (like the E3-1200 v5/v6 series), though this requires technical knowledge.
 

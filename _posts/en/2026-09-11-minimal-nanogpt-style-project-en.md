@@ -12,7 +12,7 @@ type: note
 Done. Created a nanoGPT-style project in `/mnt/data/igpt`:
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `train.py` | The entire project in one file (750 lines) |
 | `README.md` | Install, quick start, how it works, flags, scaling recipe |
 | `.gitignore` | Python + `data/`, `out/`, checkpoints, editor/OS files |
@@ -38,6 +38,7 @@ Or them all and bart that us hall but comel.
 ```
 
 Quick start:
+
 ```bash
 python train.py
 python train.py --sample --prompt "ROMEO:" --num_samples 3

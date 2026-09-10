@@ -33,4 +33,5 @@ type: note
 此组件被视为有收藏价值的旧式电脑硬件。它主要针对**Windows 98、Windows ME、Windows 2000和Windows XP**等操作系统设计。现代主板插槽和操作系统（如Windows 10/11）通常不支持此物理卡格式或其驱动程序。
 
 参考来源：
+
 * [Sound Blaster Live! - 维基百科](https://en.wikipedia.org/wiki/Sound_Blaster_Live!)

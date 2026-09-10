@@ -12,6 +12,7 @@ type: note
 Done.
 
 **Training confirmed alive through the eval + checkpoint:**
+
 - `iter 500: train 6.3077 | val 6.2557` — checkpoint saved: `out-wikipedia/ckpt.pt` (344 MiB)
 - Process 670206 still running (etime 02:55), GPU 11,662 MiB used / 178 MiB free
 - Step time 323 ms steady (`~1339ms` on the eval iter only)
@@ -19,7 +20,7 @@ Done.
 **Data copied to `/mnt/data/igpt/data/wikipedia/`** — the dir is now self-contained:
 
 | file | size | status |
-|---|---|---|
+| --- | --- | --- |
 | `train.bin` | 171,940,466 B | already present, md5 `abd9f26f…` matches nanoGPT source |
 | `val.bin` | 118,116 B | already present, md5 `cc47f9dc…` matches |
 | `meta.pkl` | 73 B | already present (gpt2 BPE, vocab 50257) |
