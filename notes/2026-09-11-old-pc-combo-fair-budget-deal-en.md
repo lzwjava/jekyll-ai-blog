@@ -26,7 +26,7 @@ type: note
 **Price assessment:**
 
 | Component | Estimated Solo Used Value (CNY) |
-|---|---|
+| --- | --- |
 | GA-H81M-S1 motherboard | ¥40–60 |
 | Intel G1840 CPU | ¥20–35 |
 | 2×8GB DDR3 RAM | ¥60–100 |
@@ -35,12 +35,14 @@ type: note
 At ¥140 as a complete, tested bundle with the original I/O shield included, the price is fair to slightly below market. The 16GB RAM is the most valuable piece here.
 
 **Suitable for:**
+
 - Basic office work (documents, spreadsheets, email)
 - Light web browsing
 - A low-power home server or NAS build
 - A learning/tinkering machine
 
 **Not suitable for:**
+
 - Gaming (even light gaming will struggle)
 - Video editing or any CPU-intensive tasks
 - Running modern Windows 11 (G1840 is not on the compatible CPU list)
@@ -51,6 +53,7 @@ At ¥140 as a complete, tested bundle with the original I/O shield included, the
 ---
 
 **References:**
+
 - [GA-H81M-S1 Specifications – Gigabyte](https://www.gigabyte.com/Motherboard/GA-H81M-S1-rev-10/sp)
 - [Intel Celeron G1840 Specs – pchardware.org](https://pchardware.org/processors/intel-celeron-cpu-g1840/)
 - [Intel Celeron G1840 Benchmark – cpubenchmark.net](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1840+%40+2.80GHz&id=2268)

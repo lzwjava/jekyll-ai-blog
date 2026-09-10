@@ -18,12 +18,15 @@ Answer: **Not yet.** There are still free diagnostics to exhaust first.
 ## Do These First (Cost $0)
 
 ### 1. Clear CMOS
+
 ```
 Power off → unplug PSU → remove CMOS battery 60s → reinstall → POST
 ```
+
 Rules out stale XMP / bad BIOS memory config entirely.
 
 ### 2. Inspect LGA1151 Socket Pins
+
 - Remove CPU cooler + CPU
 - Use phone camera **macro mode** under bright light
 - Look for any pin leaning at a different angle than its neighbors
@@ -31,6 +34,7 @@ Rules out stale XMP / bad BIOS memory config entirely.
 This costs nothing and could reveal the actual fault immediately.
 
 ### 3. Clean RAM Contacts
+
 - Remove the GAMER II stick
 - Gently erase the gold contacts with a **pencil eraser**
 - Reseat firmly in each slot, one at a time
@@ -42,7 +46,7 @@ This costs nothing and could reveal the actual fault immediately.
 Only consider it **after** the above steps if:
 
 | Condition | Verdict |
-|---|---|
+| --- | --- |
 | CMOS clear changed nothing | Buy makes sense |
 | Socket pins look clean and straight | Buy makes sense |
 | You genuinely suspect the GAMER II stick | Buy makes sense |

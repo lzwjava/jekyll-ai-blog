@@ -19,11 +19,13 @@ Answer: Yes, that's correct — but with a small nuance worth knowing:
 In **Passive Mode** (PASV), which is more common today because it works better through firewalls and NAT, the data connection uses a **random ephemeral port** negotiated between client and server — port 20 is not involved.
 
 So:
+
 | Mode | Control Port | Data Port |
-|------|-------------|-----------|
+| ------ | ------------- | ----------- |
 | Active | 21 | 20 |
 | Passive | 21 | Random (1024–65535) |
 
 References:
+
 - [RFC 959 – File Transfer Protocol](https://www.rfc-editor.org/rfc/rfc959)
 - [FTP Active vs Passive Mode – IBM Docs](https://www.ibm.com/docs/en/i/7.5?topic=protocols-ftp)

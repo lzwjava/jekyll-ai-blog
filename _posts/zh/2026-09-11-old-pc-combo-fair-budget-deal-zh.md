@@ -26,7 +26,7 @@ type: note
 **价格评估：**
 
 | 配件 | 预估二手单件价值（人民币） |
-|---|---|
+| --- | --- |
 | GA-H81M-S1主板 | ¥40–60 |
 | 英特尔G1840 CPU | ¥20–35 |
 | 2×8GB DDR3内存 | ¥60–100 |
@@ -35,12 +35,14 @@ type: note
 ¥140元购买一个经过测试的完整套装（含原装I/O挡板），价格公道，略低于市场平均水平。其中16GB内存是这里最值钱的部分。
 
 **适用场景：**
+
 - 基础办公（文档、表格、邮件）
 - 轻度网页浏览
 - 低功耗家庭服务器或NAS搭建
 - 学习或折腾用机器
 
 **不适用场景：**
+
 - 游戏（即使是轻度游戏也会很吃力）
 - 视频编辑或任何CPU密集型任务
 - 运行现代Windows 11（G1840不在兼容CPU列表中）
@@ -51,6 +53,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [GA-H81M-S1规格 – 技嘉](https://www.gigabyte.com/Motherboard/GA-H81M-S1-rev-10/sp)
 - [英特尔赛扬G1840规格 – pchardware.org](https://pchardware.org/processors/intel-celeron-cpu-g1840/)
 - [英特尔赛扬G1840跑分 – cpubenchmark.net](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1840+%40+2.80GHz&id=2268)

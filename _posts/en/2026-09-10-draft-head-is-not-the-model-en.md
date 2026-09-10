@@ -43,6 +43,7 @@ Blocks 0-63 are missing. Alone it cannot produce a single token. Your file comes
 Two options, both from that same repo. Your 12 GB RTX 4070 (~9.4 GB free) is the constraint; `-ngl auto --fit on` handles the split automatically.
 
 **Option A - fused (simpler, MTP head is inline, 16.8 GB):**
+
 ```bash
 hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
   Qwen3.8-27B-Uncensored-Q4_K_M.gguf --local-dir /mnt/data/llama.cpp/models
@@ -54,6 +55,7 @@ hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
 ```
 
 **Option B - reuse the draft file you already have (16.5 + 3.2 GB):**
+
 ```bash
 hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
   Qwen3.8-27B-Uncensored-noMTP-Q4_K_M.gguf --local-dir /mnt/data/llama.cpp/models

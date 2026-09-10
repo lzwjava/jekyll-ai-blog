@@ -20,7 +20,7 @@ Answer: Based on the diagnostic pattern you've described, here is a structured a
 Run every combination and log the result:
 
 | Stick | Slot A | Slot B |
-|---|---|---|
+| --- | --- | --- |
 | Current stick (GAMER II) | CPU↔DRAM cycle | DRAM stays lit |
 | Known-good DDR4 stick | ? | ? |
 
@@ -41,6 +41,7 @@ DDR4 Channel A / Channel B
 ```
 
 **How to check:**
+
 - Power off, unplug PSU, ground yourself
 - Remove cooler and CPU
 - Inspect socket under bright light or magnification (a phone macro lens works)
@@ -65,7 +66,7 @@ A stale XMP profile or a previous overclock saved in BIOS can cause the memory c
 ## Step 4 — Interpret the LED Behavior Carefully
 
 | Observation | What it likely means |
-|---|---|
+| --- | --- |
 | CPU↔DRAM cycling | POST is reaching memory init, failing, and retrying |
 | DRAM LED stays lit | POST is stalling during memory training — potentially a harder failure |
 

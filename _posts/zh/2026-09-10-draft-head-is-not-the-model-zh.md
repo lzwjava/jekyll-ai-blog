@@ -43,6 +43,7 @@ qwen35.nextn_predict_layers = 1
 以下两种方案均来自同一仓库。您的12GB RTX 4070（约9.4GB可用）存在限制，`-ngl auto --fit on` 可自动处理显存分配。
 
 **方案A - 融合版（更简洁，MTP头内联，容量16.8 GB）：**
+
 ```bash
 hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
   Qwen3.8-27B-Uncensored-Q4_K_M.gguf --local-dir /mnt/data/llama.cpp/models
@@ -54,6 +55,7 @@ hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
 ```
 
 **方案B - 复用现有草稿文件（16.5 + 3.2 GB）：**
+
 ```bash
 hf download JonathanColetti/Qwen3.8-27B-Uncensored-GGUF \
   Qwen3.8-27B-Uncensored-noMTP-Q4_K_M.gguf --local-dir /mnt/data/llama.cpp/models

@@ -11,7 +11,7 @@ type: note
 
 There's no separate `llama-web` binary in this build (b10894) - the web UI is now embedded directly in `llama-server`. So running the server *is* running the web UI.
 
-**It's up now:** http://127.0.0.1:8080
+**It's up now:** <http://127.0.0.1:8080>
 
 ```
 model      : models/Qwen3-8B-abliterated-q4_k_m.gguf (Q4_K_M)
@@ -22,12 +22,14 @@ web ui     : HTTP 200 (embedded UI served from /)
 ```
 
 Verified both the API and the UI:
+
 - `POST /v1/chat/completions` -> `{"content":"hi"}` correct
 - `GET /` -> HTTP 200, serves the Svelte bundle
 
 Don't panic if `curl http://127.0.0.1:8080/` alone returns **415** - that's expected. The UI is gzip-only; a normal browser always sends `Accept-Encoding: gzip`, so it loads fine. `curl --compressed` works too.
 
 Manage it:
+
 ```bash
 # logs
 tail -f /tmp/llama-server.log

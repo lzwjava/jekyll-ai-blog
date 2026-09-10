@@ -18,7 +18,7 @@ Answer: **It depends where the dust is.**
 ## Location Matters
 
 | Location | Concern Level | Action |
-|---|---|---|
+| --- | --- | --- |
 | **On top of the black chips** (the DRAM ICs) | ✅ Low — cosmetic only | Blow it off, move on |
 | **On the gold edge contacts** (the fingers) | ⚠️ Medium — can cause poor connection | Clean it |
 | **Inside the RAM slot** on the motherboard | 🔴 High — directly blocks electrical contact | Clean it carefully |
@@ -28,6 +28,7 @@ Answer: **It depends where the dust is.**
 ## How to Clean Each Area
 
 ### Gold Contacts (most important)
+
 ```
 1. Remove the stick
 2. Pencil eraser — gently rub along the gold fingers
@@ -36,6 +37,7 @@ Answer: **It depends where the dust is.**
 ```
 
 ### RAM Slot on Motherboard
+
 ```
 1. Compressed air — short bursts at an angle
 2. Never insert anything metallic
@@ -43,6 +45,7 @@ Answer: **It depends where the dust is.**
 ```
 
 ### On Top of the DRAM Chips
+
 ```
 Compressed air or a soft brush — nothing more needed
 ```
