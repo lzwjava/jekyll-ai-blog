@@ -22,6 +22,7 @@ type: note
 **当前 MODS 400.250 失败的原因：**
 
 您看到的错误：
+
 ```
 391/gpu_drv/r400/r400_00-626s  No such file or directory
 Error Code = 467
@@ -32,7 +33,7 @@ MODS 400.x 主要面向**较新的 GPU 架构（Turing/Ampere）**。针对 GK20
 **版本兼容性总结：**
 
 | MODS 版本 | GT 730 (Kepler GK208) | GTX 16xx / RTX (Turing+) |
-|---|---|---|
+| --- | --- | --- |
 | **367.38.1** | ✅ 完全支持 | ❌ 不支持 |
 | **400.184 / 400.250** | ❌ 缺少板级脚本 | ✅ 支持 |
 
@@ -43,5 +44,6 @@ MODS 400.x 主要面向**较新的 GPU 架构（Turing/Ampere）**。针对 GK20
 3. 重新运行 GPU 测试——在 367.38.1 版本中应能找到 `r400_00-626s` 板级脚本
 
 **参考链接：**
+
 - [Nvidia Modular Diagnostic Software - MODS (rkblog.dev)](https://rkblog.dev/posts/pc-hardware/nvidia-modular-diagnostic-software-mods/)
 - [NVIDIA MODS Kernel Driver (GitHub)](https://github.com/NVIDIA/mods-kernel-driver)

@@ -18,7 +18,7 @@ This is a **different error** from before. The GPU hardware init issue is gone â
 **System Info from screen:**
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | MODS Version | 400.250 |
 | Kernel | 4.17.4-gentoo |
 | Kernel Driver | 3.87 |
@@ -35,9 +35,11 @@ Error Code = 0000000467 (No such file or directory)
 **What this means:**
 
 MODS is trying to load a **board definition file** for the GT 730, specifically looking for:
+
 ```
 r400/r400_00-626s
 ```
+
 This is a **GPU driver profile/script file** that MODS needs to run the test. It cannot find it in the expected path.
 
 **Possible fixes:**
@@ -51,12 +53,14 @@ This is a **GPU driver profile/script file** that MODS needs to run the test. It
    - Re-download/re-extract the full MODS package and verify file integrity
 
 3. **Check the boards directory manually:**
+
    ```bash
    find / -name "r400_00-626s*" 2>/dev/null
    ls ./391/gpu_drv/r400/
    ```
 
 4. **Use correct script path flag** if the files exist elsewhere:
+
    ```bash
    ./mods gputest.js -skip_rm_state_init --datadir /path/to/correct/dir
    ```
@@ -66,4 +70,5 @@ This is a **GPU driver profile/script file** that MODS needs to run the test. It
 > ðŸ’¡ **Key insight:** This error means MODS is now **successfully communicating with the GPU** (progress from before!), but the test script package is incomplete or mismatched for this GPU's PCI device ID (`626s` = GT 730 variant).
 
 **References:**
+
 - [NVIDIA MODS Tool Overview](https://developer.nvidia.com/mods)

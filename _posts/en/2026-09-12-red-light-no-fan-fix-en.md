@@ -44,7 +44,7 @@ The RTX 3060 uses **Zero RPM Mode** — fans are intentionally designed not to s
 ### Summary Checklist
 
 | Issue | Likely Cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | Red light flashing | Loose/bad PCIe power cable or weak PSU | Reseat cable, check PSU wattage |
 | Fans not spinning (idle) | Normal Zero RPM mode | Load a game, fans should spin at ~60°C |
 | Fans not spinning (under load) | Power failure / dead GPU | Reseat GPU, test in another system or RMA |
@@ -52,6 +52,7 @@ The RTX 3060 uses **Zero RPM Mode** — fans are intentionally designed not to s
 ---
 
 **References:**
+
 - [GPU Fans Not Spinning? Causes, Fixes & When To Worry](https://gpubottleneckcalculator.com/blog/gpu-fans-not-spinning-causes-fixes/)
 - [ASUS Strix 3060 Blinking Red Lights – ROG Forum](https://rog-forum.asus.com/t5/nvidia-graphics-cards/asus-strix-3060-oc-12gb-blinking-red-lights-about-pcie-power/td-p/900631)
 - [GPU Has Blinking Red Light – Tom's Hardware](https://forums.tomshardware.com/threads/gpu-has-blinking-red-light.3754724/)

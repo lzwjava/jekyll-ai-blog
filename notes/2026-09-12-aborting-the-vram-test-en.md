@@ -21,7 +21,7 @@ I read the manual (显存测试软件使用手册). Here's what it says and the 
 The manual doesn't cover interrupting a running test, but since this runs in a Linux environment:
 
 | Key | Effect |
-|---|---|
+| --- | --- |
 | **`Ctrl + C`** | **Kills the test immediately** — this is what you want to stop/exit a running `mats` process |
 | `Ctrl + Z` | Only *suspends* (pauses) the process in the background — it doesn't exit. To actually kill it afterward, type `kill %1` |
 | `Ctrl + D` | In some console tools, signals end-of-input (not reliable for mats) |
@@ -29,6 +29,7 @@ The manual doesn't cover interrupting a running test, but since this runs in a L
 **So: press `Ctrl + C` to exit/abort `./mats -e 10` while it's running.**
 
 After aborting, you'll be back at the shell prompt, where you can:
+
 - `cd ..` — go back to `/home`
 - `reboot` — restart, or `poweroff` — shut down
 - Re-run the test or try a different version directory

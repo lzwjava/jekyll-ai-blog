@@ -18,7 +18,7 @@ type: note
 **屏幕关键信息：**
 
 | 字段 | 值 |
-|---|---|
+| --- | --- |
 | 设备 ID | GK208 (GT 730) |
 | 修订版本 | b1 |
 | NV Base | 0xf6000000 |
@@ -45,5 +45,6 @@ type: note
 由于 MODS 是低级诊断工具（通常用于制造/维修领域），如果此测试持续失败，GPU 本身很可能存在**缺陷**。
 
 **参考来源：**
+
 - [NVIDIA MODS 文档](https://developer.nvidia.com/mods)
 - [GK208 (GT 730) 架构概述](https://www.techpowerup.com/gpu-specs/nvidia-gk208.g186)

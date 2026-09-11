@@ -24,6 +24,7 @@ There are two publicly available versions — **367.38.1** (full package with al
 **Why your current MODS 400.250 is failing:**
 
 The error you saw:
+
 ```
 391/gpu_drv/r400/r400_00-626s  No such file or directory
 Error Code = 467
@@ -34,7 +35,7 @@ MODS 400.x was designed primarily for **newer GPU architectures (Turing/Ampere)*
 **Version Compatibility Summary:**
 
 | MODS Version | GT 730 (Kepler GK208) | GTX 16xx / RTX (Turing+) |
-|---|---|---|
+| --- | --- | --- |
 | **367.38.1** | ✅ Full support | ❌ Not supported |
 | **400.184 / 400.250** | ❌ Missing board scripts | ✅ Supported |
 
@@ -45,5 +46,6 @@ MODS 400.x was designed primarily for **newer GPU architectures (Turing/Ampere)*
 3. Re-run the GPU test — the `r400_00-626s` board script should be present in 367.38.1
 
 **References:**
+
 - [Nvidia Modular Diagnostic Software - MODS (rkblog.dev)](https://rkblog.dev/posts/pc-hardware/nvidia-modular-diagnostic-software-mods/)
 - [NVIDIA MODS Kernel Driver (GitHub)](https://github.com/NVIDIA/mods-kernel-driver)

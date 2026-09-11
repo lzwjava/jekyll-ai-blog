@@ -18,7 +18,7 @@ type: note
 **屏幕上的系统信息：**
 
 | 字段 | 值 |
-|---|---|
+| --- | --- |
 | MODS 版本 | 400.250 |
 | 内核 | 4.17.4-gentoo |
 | 内核驱动 | 3.87 |
@@ -35,9 +35,11 @@ Error Code = 0000000467 (No such file or directory)
 **这意味着什么：**
 
 MODS 正在尝试为 GT 730 加载一个**板卡定义文件**，具体查找的是：
+
 ```
 r400/r400_00-626s
 ```
+
 这是 MODS 运行测试所需的 **GPU 驱动配置文件/脚本文件**。它在预期路径中找不到该文件。
 
 **可能的修复方法：**
@@ -51,12 +53,14 @@ r400/r400_00-626s
    - 重新下载/解压完整的 MODS 软件包并验证文件完整性
 
 3. **手动检查 boards 目录：**
+
    ```bash
    find / -name "r400_00-626s*" 2>/dev/null
    ls ./391/gpu_drv/r400/
    ```
 
 4. **如果文件存在于其他位置，使用正确的脚本路径标志：**
+
    ```bash
    ./mods gputest.js -skip_rm_state_init --datadir /path/to/correct/dir
    ```
@@ -66,4 +70,5 @@ r400/r400_00-626s
 > 💡 **关键要点：** 此错误意味着 MODS 现在已**成功与 GPU 通信**（相比之前是进展！），但测试脚本包不完整或与此 GPU 的 PCI 设备 ID（`626s` = GT 730 变体）不匹配。
 
 **参考：**
+
 - [NVIDIA MODS 工具概述](https://developer.nvidia.com/mods)

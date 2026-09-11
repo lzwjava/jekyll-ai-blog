@@ -44,7 +44,7 @@ RTX 3060 采用 **Zero RPM Mode（零转速模式）** — 风扇被设计为在
 ### 故障排查清单
 
 | 问题 | 可能原因 | 解决方法 |
-|---|---|---|
+| --- | --- | --- |
 | 红灯闪烁 | PCIe 电源线松动/损坏或 PSU 功率不足 | 重新插拔线缆，检查 PSU 功率 |
 | 风扇不转（空闲时） | 正常的 Zero RPM 模式 | 运行游戏，风扇应在约 60°C 时转动 |
 | 风扇不转（负载下） | 供电故障 / GPU 损坏 | 重新插拔 GPU，在另一台系统中测试或送修（RMA） |
@@ -52,6 +52,7 @@ RTX 3060 采用 **Zero RPM Mode（零转速模式）** — 风扇被设计为在
 ---
 
 **参考资料：**
+
 - [GPU 风扇不转？原因、解决方法及何时需要担心](https://gpubottleneckcalculator.com/blog/gpu-fans-not-spinning-causes-fixes/)
 - [ASUS Strix 3060 红灯闪烁 – ROG 论坛](https://rog-forum.asus.com/t5/nvidia-graphics-cards/asus-strix-3060-oc-12gb-blinking-red-lights-about-pcie-power/td-p/900631)
 - [GPU 红灯闪烁 – Tom's Hardware](https://forums.tomshardware.com/threads/gpu-has-blinking-red-light.3754724/)

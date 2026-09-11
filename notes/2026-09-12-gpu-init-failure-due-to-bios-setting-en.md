@@ -32,6 +32,7 @@ Error 237              ← Can't set display mode (no primary display ownership)
 2. **Save & reboot**, then re-run the MODS test
 3. Alternatively, connect your monitor to the **GT 730's output** directly
 4. Re-run:
+
    ```bash
    ./mods gputest.js -skip_rm_state_init
    ```

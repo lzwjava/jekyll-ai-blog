@@ -18,7 +18,7 @@ This screen shows output from **NVIDIA's MODS (Modular Diagnostic Suite)** runni
 **Key details from the screen:**
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Device ID | GK208 (GT 730) |
 | Revision | b1 |
 | NV Base | 0xf6000000 |
@@ -45,5 +45,6 @@ The **red block with `#` characters** is MODS visually rendering a failure patte
 Since MODS is a low-level diagnostic tool (typically used in manufacturing/repair), if this test consistently fails, the GPU itself is likely **defective**.
 
 **References:**
+
 - [NVIDIA MODS Documentation](https://developer.nvidia.com/mods)
 - [GK208 (GT 730) Architecture Overview](https://www.techpowerup.com/gpu-specs/nvidia-gk208.g186)

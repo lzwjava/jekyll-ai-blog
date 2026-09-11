@@ -16,16 +16,18 @@ type: note
 Yes, technically it's possible, but it comes with significant caveats:
 
 **Why you might need to:**
+
 - An RTX 3060 requires around **170W TDP**, and Nvidia recommends a **550W system PSU** — your 400W unit is borderline or insufficient for the whole system.
 
 **How a dual-PSU setup works:**
+
 - You can use a second PSU dedicated to the GPU using an **"Add2PSU" or dual-PSU adapter**, which synchronizes the power-on signal of both units so they start simultaneously.
 - The GPU's PCIe power connectors (8-pin or 6+2-pin) plug into the second PSU, while the motherboard, CPU, and storage stay on the primary 400W unit.
 
 **Practical considerations:**
 
 | Factor | Detail |
-|---|---|
+| --- | --- |
 | **Cost** | A decent secondary PSU + Add2PSU adapter adds cost — often cheaper to just upgrade to a 550W+ unit |
 | **Complexity** | More cables, more points of failure, takes extra space |
 | **Stability** | Ground loops and startup sync issues can cause instability |
@@ -39,6 +41,7 @@ The simplest and safest solution is to **replace the 400W PSU with a single 550�
 ---
 
 **References:**
+
 - [RTX 3060 Specs & Power Requirements – Nvidia](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/)
 - [How to Use Two Power Supplies Together – Lifewire](https://www.lifewire.com/connect-two-power-supplies-together-4692260)
 - [PSU Calculator – OuterVision](https://outervision.com/power-supply-calculator)
