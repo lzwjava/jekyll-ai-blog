@@ -49,7 +49,7 @@ Together, these two flags make MODS act as a **minimal bootstrap environment** s
 ## The practical takeaway
 
 | Command combination | Meaning |
-|---|---|
+| --- | --- |
 | `./mods gputest.js -skip_rm_state_init -notest` → sees **PASS** | Card can at least be touched at hardware level — enough for MATS to test VRAM |
 | Same command → **fails / no PASS** | The card isn't even reachable: dead core, no power rails, or wrong MODS version — MATS is useless here |
 

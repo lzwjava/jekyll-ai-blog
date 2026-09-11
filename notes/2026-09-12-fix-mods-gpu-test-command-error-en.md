@@ -18,6 +18,7 @@ The screen shows a MODS (NVIDIA's GPU diagnostic tool) run with an invalid comma
 **What went wrong:**
 
 The command used was:
+
 ```
 ./mods gputest.js -skip_rm_state_init -notest -notest
 ```
@@ -48,4 +49,5 @@ Use a valid test mode flag. For example:
 The red "FAIL" graphic confirms the test did not run successfully due to the bad arguments — it's not a hardware failure.
 
 **References:**
+
 - [NVIDIA MODS Documentation](https://developer.nvidia.com/mods)

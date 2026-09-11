@@ -16,7 +16,7 @@ I read the manual fully (《显存测试软件使用手册》— VRAM Testing So
 Both are NVIDIA internal tools leaked into the repair community, and they work together:
 
 | Tool | What it does | Analogy |
-|---|---|---|
+| --- | --- | --- |
 | **MODS** | Loads a low-level driver, initializes the GPU, runs JS test scripts (`gputest.js`) — this is the "build the environment" step | A mini driver + test framework that bypasses the OS |
 | **MATS** | Memory Access Test System — reads/writes VRAM bit by bit, generates `report.txt`, reporting errors by FBPA/channel | Depends on MODS having initialized the GPU first |
 

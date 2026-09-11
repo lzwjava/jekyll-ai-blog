@@ -18,6 +18,7 @@ type: note
 **错误原因：**
 
 使用的命令是：
+
 ```
 ./mods gputest.js -skip_rm_state_init -notest -notest
 ```
@@ -48,4 +49,5 @@ type: note
 红色 "FAIL" 图标确认测试因参数错误未成功运行 —— 并非硬件故障。
 
 **参考：**
+
 - [NVIDIA MODS 文档](https://developer.nvidia.com/mods)

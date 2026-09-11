@@ -16,7 +16,7 @@ type: note
 两者都是NVIDIA内部工具，泄露到维修社区，它们配合工作：
 
 | Tool | 作用 | 类比 |
-|---|---|---|
+| --- | --- | --- |
 | **MODS** | 加载底层驱动，初始化GPU，运行JS测试脚本（`gputest.js`）——这是“搭建环境”的步骤 | 一个绕过操作系统的迷你驱动+测试框架 |
 | **MATS** | Memory Access Test System——逐位读写VRAM，生成`report.txt`，按FBPA/channel报告错误 | 依赖于MODS首先初始化GPU |
 

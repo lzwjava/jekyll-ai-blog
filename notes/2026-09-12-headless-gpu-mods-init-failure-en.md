@@ -33,9 +33,11 @@ MODS Test Target   → Dedicated GPU (GK208 / discrete)
 ---
 
 **This explains the specific error:**
+
 ```
 Error 0x00000000237 : Global.EnableUserInterface unable to set mode
 ```
+
 This error is about **display mode setting**, which fails on a headless discrete GPU.
 
 ---
@@ -45,10 +47,13 @@ This error is about **display mode setting**, which fails on a headless discrete
 1. **Add `-notest` with headless flag** — some MODS versions support headless mode
 2. **Use `-oca` or `-oqa` mode** which may skip display init
 3. **Try running without `-skip_rm_state_init`** to let RM fully initialize the discrete GPU:
+
 ```bash
 ./mods gputest.js -mfg
 ```
+
 4. **Check if MODS has a headless/no-display option** in its help:
+
 ```bash
 ./mods --help
 ```
@@ -56,4 +61,5 @@ This error is about **display mode setting**, which fails on a headless discrete
 In manufacturing test environments, it is **completely normal** to output video through the iGPU while stress-testing a discrete GPU — MODS should support this configuration.
 
 **References:**
+
 - [NVIDIA MODS Documentation](https://developer.nvidia.com/mods)

@@ -14,6 +14,7 @@ type: note
 **答案：**
 
 这次命令的语法是正确的：
+
 ```
 ./mods gputest.js -skip_rm_state_init -notest -mfg
 ```
@@ -25,7 +26,7 @@ type: note
 **错误详情：**
 
 | 字段 | 值 |
-|---|---|
+| --- | --- |
 | 原始 BCID | `0x05c2445c000000172100cf4` |
 | BCID | `SM8G3F-17-X36_y46` |
 | 设备 ID | `GK208` |
@@ -35,6 +36,7 @@ type: note
 | IRQ | `11` |
 
 **错误链：**
+
 ```
 Error 0x00000000229 : Gpu.InitializeHardware 未初始化
 Error 0x00000000229 : Global.PrintGpuIntError 硬件未初始化
@@ -54,6 +56,7 @@ GPU（**GK208**，开普勒级芯片）完全无法初始化硬件。这是一�
 3. **GPU 损坏/失效** — GK208 硬件本身可能存在缺陷（尤其是在制造测试场景中）
 4. **驱动程序未加载** — 确认 NVIDIA 内核驱动程序已加载：`lsmod | grep nvidia`
 5. **RM（资源管理器）故障** — `-skip_rm_state_init` 标志跳过了 RM 状态初始化，这可能掩盖了潜在的 RM 问题；请尝试**不使用**该标志：
+
 ```bash
 ./mods gputest.js -notest -mfg
 ```
@@ -61,5 +64,6 @@ GPU（**GK208**，开普勒级芯片）完全无法初始化硬件。这是一�
 **在制造环境中**，GPU 初始化时出现错误 0x229 通常意味着该板卡应标记为**硬件故障**并予以更换。
 
 **参考资料：**
+
 - [NVIDIA MODS GPU 诊断工具](https://developer.nvidia.com/mods)
 - [GK208（开普勒）架构概述](https://www.nvidia.com/en-us/geforce/products/10series/architecture/)

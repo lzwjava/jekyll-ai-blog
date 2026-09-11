@@ -33,9 +33,11 @@ MODS 测试目标 → 独立显卡（GK208 / 离散式）
 ---
 
 **这就解释了具体的错误信息：**
+
 ```
 Error 0x00000000237 : Global.EnableUserInterface unable to set mode
 ```
+
 此错误与**显示模式设置**有关，而在无头的独立显卡上会失败。
 
 ---
@@ -45,10 +47,13 @@ Error 0x00000000237 : Global.EnableUserInterface unable to set mode
 1. **添加 `-notest` 配合无头标志**——某些 MODS 版本支持无头模式
 2. **使用 `-oca` 或 `-oqa` 模式**——这些模式可能会跳过显示初始化
 3. **尝试不使用 `-skip_rm_state_init` 运行**，让 RM 完全初始化独立显卡：
+
 ```bash
 ./mods gputest.js -mfg
 ```
+
 4. **检查 MODS 帮助中是否有无头/无显示选项**：
+
 ```bash
 ./mods --help
 ```
@@ -56,4 +61,5 @@ Error 0x00000000237 : Global.EnableUserInterface unable to set mode
 在制造测试环境中，通过集成显卡输出视频，同时对独立显卡进行压力测试是**完全正常的**——MODS 应支持这种配置。
 
 **参考资料：**
+
 - [NVIDIA MODS 文档](https://developer.nvidia.com/mods)
