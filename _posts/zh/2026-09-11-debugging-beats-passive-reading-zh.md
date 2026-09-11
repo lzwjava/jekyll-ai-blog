@@ -54,6 +54,7 @@ type: note
 ---
 
 参考资料：
+
 - [流利错觉 – Learning Scientists](https://www.learningscientists.org/blog/2017/2/15-1)
 - [提取练习与测试效应 – APA](https://www.apa.org/science/about/psa/2016/06/learning-memory)
 - [有益的困难 – Robert Bjork, UCLA](https://bjorklab.psych.ucla.edu/research/#desirablediff)

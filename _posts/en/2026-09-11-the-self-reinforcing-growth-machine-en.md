@@ -38,7 +38,7 @@ Better Product → More Users → More Revenue
 But "better" alone isn't enough. Successful companies usually combine:
 
 | Factor | Example |
-|---|---|
+| --- | --- |
 | Better product | iPhone's UX over Nokia |
 | Network effects | WhatsApp — more users = more value |
 | Distribution moat | DJI's supply chain dominance |

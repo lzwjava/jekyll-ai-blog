@@ -24,7 +24,7 @@ ATRenew（前身为爱回收）是一家中国公司，成立于 **2011 年**，
 ## 📜 历史与关键里程碑
 
 | 年份 | 事件 |
-|------|------|
+| ------ | ------ |
 | 2011 | 由陈雪峰在上海创立爱回收（AiHuiShou） |
 | 2019 | 整合京东旗下拍拍（Paipai Marketplace），专注二手 3C 电子产品 |
 | 2020 | 更名为 ATRenew；推出 AHS Recycle 门店 |
@@ -78,6 +78,7 @@ ATRenew 的海外战略聚焦于 B2B 平台 **FoneSquare**，该平台约占海�
 ---
 
 **参考资料：**
+
 - [ATRenew 维基百科](https://en.wikipedia.org/wiki/ATRenew)
 - [ATRenew 2026 年第二季度财报 – StockTitan / SEC 6-K](https://www.stocktitan.net/sec-filings/RERE/6-k-at-renew-inc-current-report-foreign-issuer-b5a7745428c9.html)
 - [ATRenew 2025 年全年业绩 – SEC 文件](https://www.sec.gov/Archives/edgar/data/1838957/000119312526101070/rere-ex99_1.htm)

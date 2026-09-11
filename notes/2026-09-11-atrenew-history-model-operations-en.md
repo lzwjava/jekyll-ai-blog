@@ -24,7 +24,7 @@ ATRenew (formerly AiHuiShou, 爱回收) is a Chinese company established in **20
 ## 📜 History & Key Milestones
 
 | Year | Event |
-|------|-------|
+| ------ | ------- |
 | 2011 | Founded as AiHuiShou (爱回收) by Kerry Xuefeng Chen in Shanghai |
 | 2019 | Integrated JD.com's Paipai Marketplace for second-hand 3C electronics |
 | 2020 | Rebranded as ATRenew; launched AHS Recycle stores |
@@ -78,6 +78,7 @@ In November 2024, ATRenew's circular economy practices were included in the Unit
 ---
 
 **References:**
+
 - [ATRenew Wikipedia](https://en.wikipedia.org/wiki/ATRenew)
 - [ATRenew Q2 2026 Earnings – StockTitan / SEC 6-K](https://www.stocktitan.net/sec-filings/RERE/6-k-at-renew-inc-current-report-foreign-issuer-b5a7745428c9.html)
 - [ATRenew Full Year 2025 Results – SEC Filing](https://www.sec.gov/Archives/edgar/data/1838957/000119312526101070/rere-ex99_1.htm)

@@ -38,7 +38,7 @@ Better Product → More Users → More Revenue
 但仅仅“更好”是不够的。成功的公司通常会结合：
 
 | 因素 | 示例 |
-|---|---|
+| --- | --- |
 | Better product | iPhone's UX over Nokia |
 | Network effects | WhatsApp — more users = more value |
 | Distribution moat | DJI's supply chain dominance |

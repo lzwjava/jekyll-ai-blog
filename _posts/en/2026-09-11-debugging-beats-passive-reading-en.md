@@ -54,6 +54,7 @@ Pure exam-style reading skips the middle two steps entirely, which is why knowle
 ---
 
 References:
+
 - [The Fluency Illusion – Learning Scientists](https://www.learningscientists.org/blog/2017/2/15-1)
 - [Retrieval Practice & the Testing Effect – APA](https://www.apa.org/science/about/psa/2016/06/learning-memory)
 - [Desirable Difficulties – Robert Bjork, UCLA](https://bjorklab.psych.ucla.edu/research/#desirablediff)
