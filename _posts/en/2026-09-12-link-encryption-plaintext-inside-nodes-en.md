@@ -19,12 +19,11 @@ When data travels across a network using link encryption, the process unfolds as
 
 1. **On the Transmission Link:** Data is encrypted before leaving a node and travels across the physical link as **ciphertext**.
 2. **At an Intermediate Node (Switch/Router):**
+
 * The node receives the ciphertext from the incoming link.
 * It **decrypts** the data back into **plaintext** in its memory.
 * It inspects the packet header/address information to determine the next destination.
 * It **re-encrypts** the data into ciphertext using the key shared with the next link before sending it out.
-
-
 
 ### Summary Comparison
 

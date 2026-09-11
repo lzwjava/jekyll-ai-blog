@@ -52,8 +52,6 @@ Building a custom GPU relies on digital logic design using Hardware Description 
 * **Warp Scheduler & Register Files:** Schedules threads to run across available SIMD execution lanes.
 * **Memory Controller:** Interfaces local register files with external SRAM/VRAM.
 
-
-
 **2. Software Tools & Simulation Path**
 
 * **Design & Simulation:** Write your design in Verilog using tools like **Icarus Verilog** (`iverilog`) and test execution traces with **Cocotb** or **Verilator**.

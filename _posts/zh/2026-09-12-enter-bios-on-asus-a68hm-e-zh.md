@@ -36,6 +36,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [华硕A68HM-E – Tom's Hardware论坛](https://forums.tomshardware.com/threads/asus-a68hm-e-motherboard.3685221/)
 - [如何进入华硕主板BIOS – 官方支持](https://www.asus.com/us/support/faq/1008829/)
 - [华硕A68HM系列手册指南](https://mans.io/files/viewer/564389/34)

@@ -36,6 +36,7 @@ By default, the EZ Mode screen appears when you enter the BIOS. It provides an o
 ---
 
 **References:**
+
 - [ASUS A68HM-E – Tom's Hardware Forum](https://forums.tomshardware.com/threads/asus-a68hm-e-motherboard.3685221/)
 - [How to Enter BIOS on ASUS – Official Support](https://www.asus.com/us/support/faq/1008829/)
 - [ASUS A68HM Series Manual Guide](https://mans.io/files/viewer/564389/34)

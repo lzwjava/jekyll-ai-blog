@@ -41,7 +41,6 @@ A modern graphics card (such as an NVIDIA RTX card) is a complex electronic asse
 * **Liquid Metal (High-End/Modded):** Liquid alloys primarily made of **Gallium ($\text{Ga}$)**, **Indium ($\text{In}$)**, and **Tin ($\text{Sn}$)**.
 * **Phase-Change Materials (PCM):** Polyolefin or paraffin wax blends with thermal fillers that melt/soften under operational heat.
 
-
 * **Heatsink & Heatpipes:** **Copper ($\text{Cu}$)** for vapor chambers and core contact surfaces; **Aluminum ($\text{Al}$)** for radiator fins; internal heatpipes contain small amounts of distilled **Water** or **Methanol** under partial vacuum.
 
 ### 5. Outer Shroud, Frame, and Packaging

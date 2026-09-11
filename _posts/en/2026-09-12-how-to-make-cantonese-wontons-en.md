@@ -29,18 +29,14 @@ Wontons (云吞) are a staple of Cantonese cuisine, known for their thin, delica
 * 2 green onions, finely chopped
 * 1 egg white
 
-
 * **For Assembling:**
 * 1 pack of yellow Cantonese wonton wrappers
 * Small bowl of water (for sealing)
-
 
 * **For Cooking:**
 * Chicken stock or seasoned bone broth
 * Leafy greens (such as choy sum or bok choy)
 * Chopped green onions and sesame oil for garnish
-
-
 
 ---
 
