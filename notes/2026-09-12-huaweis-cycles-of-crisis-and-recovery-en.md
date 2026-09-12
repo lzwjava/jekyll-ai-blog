@@ -30,6 +30,7 @@ So yes, the 周期 (cyclical pattern) is clear: **crisis → internal restructur
 ---
 
 References:
+
 - [New product development paradigm: A case study of Huawei's IPD](https://www.sciencedirect.com/science/article/pii/S2444569X24000222)
 - [How the Huawei Fight Is Changing the Face of 5G – IEEE Spectrum](https://spectrum.ieee.org/huawei-sanctions-fight-changing-5g)
 - [Huawei's Comeback: From US Sanctions to Global Return (2026 Update)](https://chinamade.tech/blog/huawei-comeback-story)

@@ -44,6 +44,7 @@ BGP Communities (standard 32-bit or large communities) are tags attached to rout
 ---
 
 **References:**
+
 - [RFC 4271 — A Border Gateway Protocol 4 (BGP-4)](https://datatracker.ietf.org/doc/html/rfc4271)
 - [RFC 1997 — BGP Communities Attribute](https://datatracker.ietf.org/doc/html/rfc1997)
 - [Cisco BGP Best Practices](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/26634-bgp-toc.html)

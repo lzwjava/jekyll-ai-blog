@@ -30,7 +30,8 @@ type: note
 ---
 
 参考文献：
+
 - [新产品开发范式：以华为IPD为例](https://www.sciencedirect.com/science/article/pii/S2444569X24000222)
-- 《华为之争如何改变5G格局》——IEEE Spectrum](https://spectrum.ieee.org/huawei-sanctions-fight-changing-5g)
-- 《华为复兴：从美国制裁到全球回归（2026年更新）》](https://chinamade.tech/blog/huawei-comeback-story)
-- 《华为三年首谈芯片技术：在美国制裁下打破沉默》](https://www.telecomstechnews.com/news/huawei-chip-reveal-breaks-silence-us-sanctions/)
+- 《华为之争如何改变5G格局》——IEEE Spectrum](<https://spectrum.ieee.org/huawei-sanctions-fight-changing-5g>)
+- 《华为复兴：从美国制裁到全球回归（2026年更新）》](<https://chinamade.tech/blog/huawei-comeback-story>)
+- 《华为三年首谈芯片技术：在美国制裁下打破沉默》](<https://www.telecomstechnews.com/news/huawei-chip-reveal-breaks-silence-us-sanctions/>)

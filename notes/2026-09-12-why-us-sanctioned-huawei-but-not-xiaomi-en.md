@@ -34,6 +34,7 @@ Interestingly, Xiaomi founder Lei Jun said his fear of US sanctions in 2021 push
 ---
 
 References:
+
 - [Xiaomi founder Lei Jun said US sanction fears spurred EV push – SCMP](https://www.scmp.com/tech/tech-war/article/3271427/xiaomi-founder-lei-jun-said-us-sanction-fears-spurred-smartphone-makers-ev-push)
 - [Xiaomi vs. Huawei: A Tale of Two Bans – Medium](https://medium.com/@kumarjayaranga/xiaomi-vs-huawei-a-tale-of-two-bans-and-why-one-survived-intact-10bf72324737)
 - [US admits Xiaomi isn't a 'Communist Chinese military company'](https://www.goodreads.com/author_blog_posts/21342720-us-admits-xiaomi-isn-t-a-communist-chinese-military-company-after-all)

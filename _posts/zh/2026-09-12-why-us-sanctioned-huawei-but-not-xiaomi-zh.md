@@ -34,6 +34,7 @@ type: note
 ---
 
 参考文献：
+
 - [小米创始人雷军称美国制裁担忧促使进军电动汽车 – 南华早报](https://www.scmp.com/tech/tech-war/article/3271427/xiaomi-founder-lei-jun-said-us-sanction-fears-spurred-smartphone-makers-ev-push)
 - [小米 vs 华为：两个禁令的故事 – Medium](https://medium.com/@kumarjayaranga/xiaomi-vs-huawei-a-tale-of-two-bans-and-why-one-survived-intact-10bf72324737)
 - [美国承认小米并非“中国共产主义军事公司”](https://www.goodreads.com/author_blog_posts/21342720-us-admits-xiaomi-isn-t-a-communist-chinese-military-company-after-all)

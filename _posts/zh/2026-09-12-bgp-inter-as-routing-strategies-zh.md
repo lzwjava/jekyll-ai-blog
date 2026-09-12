@@ -44,6 +44,7 @@ BGP团体（标准32位或大型团体）是附加在路由上的标签，用于
 ---
 
 **参考文献：**
+
 - [RFC 4271 — 边界网关协议4（BGP-4）](https://datatracker.ietf.org/doc/html/rfc4271)
 - [RFC 1997 — BGP团体属性](https://datatracker.ietf.org/doc/html/rfc1997)
 - [Cisco BGP最佳实践](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/26634-bgp-toc.html)

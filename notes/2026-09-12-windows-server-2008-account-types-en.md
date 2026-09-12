@@ -18,4 +18,5 @@ Answer: Windows Server 2008 supports two types of accounts:
 2. **Domain Accounts** — Stored on a domain controller (Active Directory), these accounts can be authenticated across the entire network, allowing users to log in to any machine joined to the domain.
 
 References:
+
 - [Windows Server 2008 User Accounts Overview – Microsoft Docs](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732386(v=ws.10))
