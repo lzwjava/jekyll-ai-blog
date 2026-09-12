@@ -18,7 +18,7 @@ type: note
 40字节的首部包含以下字段：
 
 | 字段 | 大小 |
-|---|---|
+| --- | --- |
 | 版本号 | 4比特 |
 | 流量类别 | 8比特 |
 | 流标签 | 20比特 |
@@ -30,5 +30,6 @@ type: note
 | **总计** | **320比特 = 40字节** |
 
 参考资料：
+
 - [RFC 8200 – 互联网协议第6版（IPv6）规范](https://datatracker.ietf.org/doc/html/rfc8200#section-3)
 - [IPv6 – 维基百科](https://en.wikipedia.org/wiki/IPv6_packet#Fixed_header)

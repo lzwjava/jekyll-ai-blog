@@ -16,7 +16,7 @@ Here's the complete picture of what environment MODS runs in:
 According to the document (section 1.0):
 
 | OS | Status |
-|---|---|
+| --- | --- |
 | **Linux** (kernel ≥ 2.6.18) | ✅ Primary platform |
 | **Microsoft Windows 7** | ✅ Supported |
 | **Mac OS X** (x86 only, not PowerPC) | ✅ Supported |
@@ -27,6 +27,7 @@ According to the document (section 1.0):
 ### Option 1: NVIDIA's Turnkey Tiny Linux Image (Recommended)
 
 NVIDIA distributes a **custom Linux disk image** (fits on a **64 MB USB drive**). This is the intended production method:
+
 - Boots from USB stick into a minimal Linux environment
 - Automatically runs MODS on startup
 - No need to compile kernel modules or configure drivers
@@ -40,6 +41,7 @@ This is the **"tinylinux"** approach you mentioned — it's what NVIDIA provides
 Yes, **Ubuntu works**, but with important caveats:
 
 **Requirements:**
+
 - 64-bit (x86_64) Intel or AMD CPU
 - **4 GB+ system memory**
 - Kernel ≥ **2.6.18** (2.6.29+ recommended)
@@ -47,12 +49,14 @@ Yes, **Ubuntu works**, but with important caveats:
 - Kernel sources + development tools (`make`, `gcc`) to compile the kernel module
 
 **Critical prerequisites before running:**
+
 1. **NVIDIA GPU must be in its original VBIOS-initialized state**
 2. **X server MUST NOT be running** — you need to kill it first
 3. **nvidia kernel module MUST be unloaded** — same for the `nouveau` driver (blacklist it)
 4. **Framebuffer console should be disabled** (set `vga=normal` in kernel args)
 
 **Steps on Ubuntu/Debian:**
+
 ```bash
 # Stop X server
 sudo service gdm stop   # or lightdm/kdm depending on your DM

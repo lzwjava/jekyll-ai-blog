@@ -17,9 +17,11 @@ type: note
 以下是文档内容摘要：
 
 ### 什么是 MODS？
+
 MODS 代表 **模块化诊断软件（Modular Diagnostic Software）**——它是 NVIDIA 内部用于测试和验证 NVIDIA GPU 的诊断工具。它是一个基于 JavaScript 的测试框架，运行在 NVIDIA 硬件上。
 
-### 文档主要内容：
+### 文档主要内容
+
 1. **并发测试** — 如何在一张或多张 GPU 上同时运行多个 MODS 测试，包括前台/后台线程管理。
 2. **命令行参数** — 详细的 CLI 选项，如 `-bgfunc`、`-bgtest`、`-concurrent_devices`、`-threadid` 等。
 3. **测试规格函数** — `-savespec` 和 `-readspec` 用于保存/加载自定义测试配置。

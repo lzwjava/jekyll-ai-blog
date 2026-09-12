@@ -16,7 +16,7 @@ Here's how MODS helps diagnose a card that's detected but failing, and how to re
 Once the GPU is detected by the system, MODS runs targeted hardware tests that exercise specific parts of the card:
 
 | Test # | Test Name | What it catches |
-|---|---|---|
+| --- | --- | --- |
 | **3** | **MatsTest** | Memory array coupling faults — detects bad VRAM chips, which memory lane failed, whether read or write failure |
 | **18** | **ByteTest** | Same as Mats but byte-level — catches narrow memory faults |
 | **19** | **FastMatsTest** | Hardware-accelerated VRAM test with DMA — catches memory timing/stress issues |
@@ -52,7 +52,7 @@ X  YYY  ZZ  NNN  EEE
                       (0=static, 1=switching inflection points, 2=sweeping)
 ```
 
-### Example from the document:
+### Example from the document
 
 ```
 Error code: 271108119083
@@ -61,7 +61,7 @@ Error code: 271108119083
 Broken down:
 
 | Digits | Field | Value | Meaning |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **2** | V-F curve | 2 | Sweeping the V-F curve |
 | **711** | PState info | 7,11,0 | Intersection, multiple intersect params |
 | **08** | P-State | 08 | P-State 8 |
@@ -73,7 +73,7 @@ So: **CudaRandom test (#119) failed with a golden value miscompare (error 83) wh
 ## Common Error Codes (from the document)
 
 | Error | Meaning |
-|---|---|
+| --- | --- |
 | **1** | Exit (normal) |
 | **7** | Bad command line argument |
 | **9** | Cannot allocate memory |
@@ -122,7 +122,7 @@ sudo ./mods gputest.js -mfg -test 2    # GLStress
 sudo ./mods gputest.js -mfg -test 3 -matsinfo   # detailed memory lane failures
 ```
 
-### Key indicators:
+### Key indicators
 
 - **Error 83 (golden miscompare)** on Mats/MarchTest → **Bad VRAM chip** (note which bit lane)
 - **Error 137 (EDC memory-bus error)** → **VRAM power/data integrity issue**

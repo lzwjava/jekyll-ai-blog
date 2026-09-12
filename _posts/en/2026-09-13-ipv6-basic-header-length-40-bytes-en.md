@@ -18,7 +18,7 @@ Unlike IPv4, which has a variable-length header, IPv6 uses a fixed-size basic he
 The 40-byte header contains these fields:
 
 | Field | Size |
-|---|---|
+| --- | --- |
 | Version | 4 bits |
 | Traffic Class | 8 bits |
 | Flow Label | 20 bits |
@@ -30,5 +30,6 @@ The 40-byte header contains these fields:
 | **Total** | **320 bits = 40 bytes** |
 
 References:
+
 - [RFC 8200 – Internet Protocol, Version 6 (IPv6) Specification](https://datatracker.ietf.org/doc/html/rfc8200#section-3)
 - [IPv6 – Wikipedia](https://en.wikipedia.org/wiki/IPv6_packet#Fixed_header)

@@ -26,6 +26,7 @@ The document mentions MODS is distributed in packages with part numbers like **"
 > *"NVIDIA distributes a turnkey Linux package that can be obtained on the internal NVIDIA network."*
 
 **3. For everyone else** — you **cannot** download MODS directly. It's not on NVIDIA's public website, GitHub, or any public repository. It's provided exclusively to:
+
 - NVIDIA's board partners (OEMs/ODMs)
 - NVIDIA internal engineering teams
 - Customers under NDA (Non-Disclosure Agreement)

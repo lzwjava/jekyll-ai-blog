@@ -23,6 +23,7 @@ Responsible for logical addressing and routing packets across different networks
 
 **3. Transport Layer**
 Manages end-to-end communication between hosts. The two primary protocols are:
+
 - **TCP** (Transmission Control Protocol) — reliable, connection-oriented
 - **UDP** (User Datagram Protocol) — fast, connectionless
 
@@ -32,13 +33,14 @@ The topmost layer where user-facing protocols operate. It includes **HTTP, FTP, 
 Here's a quick visual summary:
 
 | Layer | Name | Key Protocols |
-|-------|------|---------------|
+| ------- | ------ | --------------- |
 | 4 | Application | HTTP, DNS, FTP, SMTP |
 | 3 | Transport | TCP, UDP |
 | 2 | Internet | IP, ICMP, ARP |
 | 1 | Network Access | Ethernet, Wi-Fi, MAC |
 
 References:
+
 - [TCP/IP Model – GeeksforGeeks](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [RFC 1122 – Requirements for Internet Hosts](https://datatracker.ietf.org/doc/html/rfc1122)
 - [TCP/IP Guide – No Starch Press](http://www.tcpipguide.com/free/t_TCPIPArchitectureandtheTCPIPModel.htm)
