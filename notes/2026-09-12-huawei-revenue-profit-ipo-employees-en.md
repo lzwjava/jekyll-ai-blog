@@ -19,10 +19,10 @@ Now I have enough data. Let me compile the full picture including a chart.
 
 **Answer:**
 
-## 📊 Revenue & ProfitHere's the breakdown year by year:
+## 📊 Revenue & ProfitHere's the breakdown year by year
 
 | Year | Revenue (CNY B) | Revenue (USD B) | Net Profit (CNY B) |
-|------|---|---|---|
+| ------ | --- | --- | --- |
 | 2019 | 891 | ~$123B | — |
 | 2020 | 891 | ~$122B | 121 (peak!) |
 | 2021 | 637 | ~$99B | 36 |
@@ -65,6 +65,7 @@ The overall story is one of remarkable resilience: sanctions hammered revenue an
 ---
 
 **References:**
+
 - [Huawei 2024 Annual Report](https://www.huawei.com/en/annual-report/2024)
 - [Fortune: Huawei 2024 Revenue](https://fortune.com/asia/2025/02/07/huawei-revenue-118-billion-analysts-company-survive-us-sanctions/)
 - [Huawei Revenue & Profit Statistics – market.us](https://market.us/statistics/smartphone-brands/huawei/)

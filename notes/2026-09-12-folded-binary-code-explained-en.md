@@ -22,7 +22,7 @@ Folded binary code (also called **reflected binary** in some contexts, but speci
 **Example comparison (3-bit):**
 
 | Decimal | Standard Binary | Folded Binary |
-|---------|----------------|---------------|
+| --------- | ---------------- | --------------- |
 | 0 | 000 | 000 |
 | 1 | 001 | 001 |
 | 2 | 010 | 010 |
@@ -43,6 +43,7 @@ The code counts up to the midpoint, then **counts back down** — like a folded 
 ## Relationship to Other Codes
 
 It is related to but distinct from:
+
 - **Gray code** — also minimizes bit transitions, but uses a different reflection pattern
 - **Two's complement** — standard signed binary, no folding
 - **Offset binary** — used in ADCs but counts linearly
@@ -50,5 +51,6 @@ It is related to but distinct from:
 The "folding" concept is especially powerful in **folding-and-interpolating ADCs**, where the analog signal itself is folded before quantization, allowing high-speed, lower-power conversion.
 
 References:
+
 - [Folding ADC – Wikipedia](https://en.wikipedia.org/wiki/Folding_ADC)
 - [Binary code types overview – All About Circuits](https://www.allaboutcircuits.com/textbook/digital/chpt-13/binary-codes/)

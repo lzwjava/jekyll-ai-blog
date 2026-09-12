@@ -29,7 +29,7 @@ type: note
 **常见模式**
 
 | 模式 | 描述 |
-|---|---|
+| --- | --- |
 | 编排器+工作者 | 一个主导代理将任务分派给多个子代理 |
 | 点对点 | 代理之间横向通信，无需中央协调器 |
 | 流水线 | 一个代理的输出作为链中下一个代理的输入 |
@@ -44,6 +44,7 @@ type: note
 智能体集群能够处理超出单一模型上下文窗口限制的任务，受益于多样化专业知识，或需要高吞吐量的并行执行——这使其成为现代自主AI系统的核心。
 
 参考资料：
+
 - [Anthropic – 多智能体系统](https://docs.anthropic.com/en/docs/build-with-claude/agents-overview)
 - [LangGraph – 多智能体架构](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
 - [OpenAI – Swarm（实验性框架）](https://github.com/openai/swarm)

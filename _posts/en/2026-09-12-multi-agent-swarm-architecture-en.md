@@ -29,7 +29,7 @@ Instead of one AI doing everything, you distribute the work across many speciali
 **Common Patterns**
 
 | Pattern | Description |
-|---|---|
+| --- | --- |
 | Orchestrator + Workers | One lead agent delegates to many sub-agents |
 | Peer-to-peer | Agents communicate laterally without a central coordinator |
 | Pipeline | Output of one agent feeds the next in a chain |
@@ -44,6 +44,7 @@ A research swarm might have one agent searching the web, another summarizing pap
 Agent swarms unlock tasks that exceed a single model's context window, benefit from diverse expertise, or require high-throughput parallel execution — making them central to modern agentic AI systems.
 
 References:
+
 - [Anthropic – Multi-agent systems](https://docs.anthropic.com/en/docs/build-with-claude/agents-overview)
 - [LangGraph – Multi-Agent Architectures](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
 - [OpenAI – Swarm (experimental framework)](https://github.com/openai/swarm)

@@ -19,10 +19,10 @@ type: note
 
 **回答：**
 
-## 📊 营收与利润以下是逐年细分数据：
+## 📊 营收与利润以下是逐年细分数据
 
 | 年份 | 营收（人民币亿元） | 营收（美元亿元） | 净利润（人民币亿元） |
-|------|---|---|---|
+| ------ | --- | --- | --- |
 | 2019 | 891 | ~1230亿 | — |
 | 2020 | 891 | ~1220亿 | 121（峰值！） |
 | 2021 | 637 | ~990亿 | 36 |
@@ -65,6 +65,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [华为2024年年度报告](https://www.huawei.com/en/annual-report/2024)
 - [财富：华为2024年营收](https://fortune.com/asia/2025/02/07/huawei-revenue-118-billion-analysts-company-survive-us-sanctions/)
 - [华为营收与利润统计 – market.us](https://market.us/statistics/smartphone-brands/huawei/)

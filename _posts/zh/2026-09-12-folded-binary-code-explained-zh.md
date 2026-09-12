@@ -43,6 +43,7 @@ type: note
 ## 与其他编码的关系
 
 它与其他编码相关但有所区别：
+
 - **格雷码** — 同样最小化比特跳变，但采用不同的反射模式
 - **补码** — 标准有符号二进制，无折叠特性
 - **偏移二进制** — 用于ADC但线性递增
@@ -50,5 +51,6 @@ type: note
 “折叠”概念在**折叠与插值ADC**中尤为重要，该技术在量化前对模拟信号本身进行折叠，从而实现高速、低功耗的转换。
 
 参考来源：
+
 - [折叠ADC – 维基百科](https://en.wikipedia.org/wiki/Folding_ADC)
 - [二进制编码类型概述 – All About Circuits](https://www.allaboutcircuits.com/textbook/digital/chpt-13/binary-codes/)

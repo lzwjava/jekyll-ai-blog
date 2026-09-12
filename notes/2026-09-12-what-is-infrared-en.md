@@ -20,6 +20,7 @@ Key points:
 - Divided into near-infrared (NIR), mid-infrared (MIR), and far-infrared (FIR)
 
 **Common applications:**
+
 - Thermal imaging cameras
 - TV/device remote controls
 - Night-vision equipment
@@ -28,5 +29,6 @@ Key points:
 - Fiber-optic communications
 
 References:
+
 - [Infrared — Wikipedia](https://en.wikipedia.org/wiki/Infrared)
 - [The Electromagnetic Spectrum: Infrared — NASA](https://science.nasa.gov/ems/07_infraredwaves)

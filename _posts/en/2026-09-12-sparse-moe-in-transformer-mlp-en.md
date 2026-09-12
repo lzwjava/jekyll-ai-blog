@@ -25,7 +25,7 @@ else:
 So attention is untouched; only the feed-forward half of each block becomes "N experts + a router". `--moe` flips this on. Knobs (lines 227–232, 524–527):
 
 | arg | meaning |
-|---|---|
+| --- | --- |
 | `n_experts` | how many expert FFNs per block |
 | `n_experts_active` | top-k experts each token is sent to |
 | `moe_expert_dim` | expert hidden size = `moe_expert_dim * n_embd` (4 = same as dense MLP) |
@@ -121,6 +121,7 @@ i.e. total params stay large, but each token only touches `k/E` of the expert we
 6. `Block`/`GPT` thread the aux loss into the total loss and expose active-param stats.
 
 Things to keep in mind when experimenting:
+
 - No capacity factor / dropping, so memory/throughput scales with how skewed the routing is (a very imbalanced router still runs all tokens, just unevenly per expert).
 - `self.aux_loss = torch.zeros(())` in `__init__` is CPU/float32 but always overwritten in `forward`, so it's fine; it only matters if you call `get_aux_loss()` before any forward.
 - The aux-loss `density` is computed over slots (`N*k`), so with `k>1` a token counts once per chosen expert — consistent with the slot-based `P_i` normalization here, but not identical in scale to the original top-1 formulation.

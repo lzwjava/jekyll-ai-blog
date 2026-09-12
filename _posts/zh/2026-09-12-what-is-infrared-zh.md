@@ -20,6 +20,7 @@ type: note
 - 分为近红外（NIR）、中红外（MIR）和远红外（FIR）
 
 **常见应用：**
+
 - 热成像相机
 - 电视/设备遥控器
 - 夜视设备
@@ -28,5 +29,6 @@ type: note
 - 光纤通信
 
 参考资料：
+
 - [红外线 — 维基百科](https://en.wikipedia.org/wiki/Infrared)
 - [电磁波谱：红外线 — NASA](https://science.nasa.gov/ems/07_infraredwaves)
