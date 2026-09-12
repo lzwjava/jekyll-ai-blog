@@ -63,7 +63,7 @@ subprocess.run(["sudo", "mount", "-o", "loop", "file.iso", "/mnt/iso"])
 **What you'll typically find inside an ISO:**
 
 | ISO Type | Contents |
-|---|---|
+| --- | --- |
 | OS installer (e.g., Ubuntu) | `boot/`, `casper/`, `.vmlinuz`, `initrd` |
 | Game disc | Game files, `autorun.inf` |
 | Software installer | `setup.exe`, config files |

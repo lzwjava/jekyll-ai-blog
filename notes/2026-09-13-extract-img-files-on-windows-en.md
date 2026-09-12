@@ -18,7 +18,9 @@ Answer:
 ---
 
 ## Method 1: 7-Zip — Simplest Way
+
 Works for many `.img` files:
+
 1. Right-click the `.img` file
 2. Hover **"7-Zip"** → **"Extract Here"**
 3. ✅ Done — if the format is supported
@@ -28,7 +30,9 @@ Works for many `.img` files:
 ---
 
 ## Method 2: OSFMount — Best for Raw Disk Images
+
 Mounts `.img` as a virtual drive, just like ISO mounting:
+
 1. Download **OSFMount** from [osforensics.com](https://www.osforensics.com/tools/mount-disk-images.html)
 2. Open OSFMount → **"Mount New"**
 3. Select your `.img` file
@@ -38,7 +42,9 @@ Mounts `.img` as a virtual drive, just like ISO mounting:
 ---
 
 ## Method 3: PowerShell (Windows 10/11)
+
 Works if the `.img` is a standard disk image:
+
 ```powershell
 # Same as ISO mounting
 Mount-DiskImage -ImagePath "C:\path\to\yourfile.img"
@@ -50,7 +56,9 @@ Dismount-DiskImage -ImagePath "C:\path\to\yourfile.img"
 ---
 
 ## Method 4: WSL (Windows Subsystem for Linux)
+
 Great for Linux-based `.img` files (e.g., Raspberry Pi):
+
 ```bash
 # In WSL terminal
 sudo mkdir /mnt/imgfile
@@ -63,7 +71,7 @@ ls /mnt/imgfile
 ## Which Tool to Use?
 
 | `.img` Type | Best Tool |
-|---|---|
+| --- | --- |
 | General archive | 7-Zip |
 | Raw disk / Raspberry Pi | OSFMount or WSL |
 | Windows disk image | PowerShell `Mount-DiskImage` |

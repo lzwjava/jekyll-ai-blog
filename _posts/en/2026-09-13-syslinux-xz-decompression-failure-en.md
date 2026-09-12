@@ -26,18 +26,23 @@ This is **not** usually a software bug — it most commonly signals a **hardware
 ## Root Causes (Most to Least Common)
 
 ### 1. Faulty RAM (Most Common)
+
 One confirmed cause is a faulty RAM module — after replacing the bad RAM, the update installs with no issue. The decompression process requires memory to be reliable; even a single bit flip corrupts the output.
 
 ### 2. Bad USB Drive or Write Error
+
 A bad USB flash drive can cause this error. Writing the same ISO to a different USB drive resolved the issue in one case. The physical media may have bad sectors even if it appears healthy.
 
 ### 3. Old or Incompatible Hardware
+
 On older machines, the error can appear intermittently. ACPI settings can also create the error, which can sometimes be worked around by appending `acpi=off` to the kernel boot parameters.
 
 ### 4. Faulty Optical Drive (if booting from CD/DVD)
+
 A faulty DVD drive has been identified as a cause in at least one case.
 
 ### 5. Incomplete or Interrupted Write
+
 The error can occur even when an ISO checksum is correct and boots fine on a different machine, suggesting the issue is hardware-specific rather than a corrupt image file.
 
 ---
@@ -45,7 +50,7 @@ The error can occur even when an ISO checksum is correct and boots fine on a dif
 ## Troubleshooting Steps
 
 | Step | Action |
-|---|---|
+| --- | --- |
 | 1 | Run **Memtest86+** to test RAM |
 | 2 | Try a **different USB drive** or flash media |
 | 3 | Re-flash the image with a verified tool |
@@ -62,6 +67,7 @@ If you're using a specific embedded appliance image (like a NAS, UPS controller,
 ---
 
 **References:**
+
 - [LibreELEC Forum — Faulty RAM causing XZ corrupt error](https://forum.libreelec.tv/thread/9589-solved-update-to-8-1-0-on-generic-failed-xz-compressed-data-is-corrupt-system-ha/)
 - [Arch Linux Forums — XZ-compressed data is corrupt](https://bbs.archlinux.org/viewtopic.php?id=144116)
 - [Arch Linux Forums — ACPI workaround for old hardware](https://bbs.archlinux.org/viewtopic.php?id=144116)

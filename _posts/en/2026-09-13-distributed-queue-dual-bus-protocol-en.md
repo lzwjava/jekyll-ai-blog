@@ -54,7 +54,7 @@ To compensate for this unfairness, the IEEE 802.6 standard recommends a Bandwidt
 ### Summary Table
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | Bus A / Bus B | Two opposite-direction data channels |
 | Head of Bus (HOB) | Generates empty time slots |
 | REQUEST Counter | Tracks how many nodes are ahead in queue |
@@ -65,6 +65,7 @@ To compensate for this unfairness, the IEEE 802.6 standard recommends a Bandwidt
 ---
 
 **References:**
+
 - [Distributed-queue dual-bus — Wikipedia](https://en.wikipedia.org/wiki/Distributed-queue_dual-bus)
 - [IEEE 802.6 (DQDB) — GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/ieee-802-6-dqdb/)
 - [Distributed Queue Dual Bus (DQDB) — Academia.edu](https://www.academia.edu/72986514/Distributed_Queue_Dual_Bus_DQDB_)

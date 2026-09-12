@@ -28,7 +28,7 @@ MODS is looking for a **Golden Values file** named `gldGK208S.bin` for your GPU.
 ### Why This Happens
 
 | Reason | Detail |
-|---|---|
+| --- | --- |
 | **MODS version too new** | MODS 455.127 may have dropped legacy Kepler (GK208) golden files |
 | **Incomplete MODS package** | The `gldGK208S.bin` was never included or was deleted |
 | **Wrong MODS build** | Some MODS builds are GPU-family specific |
@@ -38,9 +38,11 @@ MODS is looking for a **Golden Values file** named `gldGK208S.bin` for your GPU.
 1. **Get the correct MODS package** that includes Kepler GPU support — older MODS releases (pre-R450) more reliably include GK208 golden files
 2. **Manually obtain `gldGK208S.bin`** from NVIDIA and place it in the MODS working directory
 3. **Run MODS with `-skipGoldenCheck`** flag if you only want functional tests without golden value comparison:
+
    ```bash
    ./mods gputest.js --skipGoldenCheck
    ```
+
 4. **Contact NVIDIA** — MODS is an internal/partner tool; the GK208S golden file may require a direct request
 
 ### Note on Hardware
@@ -50,5 +52,6 @@ The GT 730 (GK208) is a **Kepler-generation GPU (2014 era)**. MODS support for l
 ---
 
 References:
+
 - [NVIDIA MODS Overview](https://developer.nvidia.com/mods)
 - [GK208 / GT 730 Architecture Info](https://www.techpowerup.com/gpu-specs/nvidia-gk208b.g186)

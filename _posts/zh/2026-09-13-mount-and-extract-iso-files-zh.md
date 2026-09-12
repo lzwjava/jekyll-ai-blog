@@ -63,7 +63,7 @@ subprocess.run(["sudo", "mount", "-o", "loop", "file.iso", "/mnt/iso"])
 **ISO文件内部通常包含的内容：**
 
 | ISO类型 | 内容 |
-|---|---|
+| --- | --- |
 | 操作系统安装盘（如Ubuntu） | `boot/`, `casper/`, `.vmlinuz`, `initrd` |
 | 游戏光盘 | 游戏文件, `autorun.inf` |
 | 软件安装程序 | `setup.exe`, 配置文件 |

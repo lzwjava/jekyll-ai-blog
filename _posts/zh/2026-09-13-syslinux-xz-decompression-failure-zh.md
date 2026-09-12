@@ -26,18 +26,23 @@ type: note
 ## 根本原因（按常见程度从高到低排序）
 
 ### 1. 内存故障（最常见）
+
 一个已确认的原因是内存模块故障——更换故障内存后，更新即可顺利安装。解压缩过程要求内存稳定可靠；即使一个比特位翻转也会导致输出损坏。
 
 ### 2. USB 驱动器损坏或写入错误
+
 劣质 U 盘可能导致此错误。某案例中，将同一 ISO 写入另一 U 盘后问题解决。即使物理介质看似正常，也可能存在坏扇区。
 
 ### 3. 老旧或不兼容的硬件
+
 在老机器上，该错误可能间歇出现。ACPI 设置也可能引发此错误，有时可通过在内核启动参数中添加 `acpi=off` 来解决。
 
 ### 4. 光驱故障（如果从 CD/DVD 启动）
+
 至少有一个案例确认故障 DVD 光驱是原因之一。
 
 ### 5. 写入不完整或中断
+
 即使 ISO 校验和正确且在其他机器上可正常启动，也可能出现此错误，表明问题与特定硬件相关，而非映像文件损坏。
 
 ---
@@ -45,7 +50,7 @@ type: note
 ## 故障排除步骤
 
 | 步骤 | 操作 |
-|---|---|
+| --- | --- |
 | 1 | 运行 **Memtest86+** 测试内存 |
 | 2 | 尝试 **不同的 U 盘** 或闪存介质 |
 | 3 | 使用已验证的工具重新写入映像 |
@@ -62,6 +67,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [LibreELEC Forum — 内存故障导致 XZ 损坏错误](https://forum.libreelec.tv/thread/9589-solved-update-to-8-1-0-on-generic-failed-xz-compressed-data-is-corrupt-system-ha/)
 - [Arch Linux Forums — XZ 压缩数据损坏](https://bbs.archlinux.org/viewtopic.php?id=144116)
 - [Arch Linux Forums — 旧硬件的 ACPI 解决方法](https://bbs.archlinux.org/viewtopic.php?id=144116)

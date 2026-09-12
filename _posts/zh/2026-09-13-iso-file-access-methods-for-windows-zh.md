@@ -13,6 +13,7 @@ type: note
 答案：
 
 ## 方法 1：内置 Mount（Windows 10/11）—— 最简单
+
 无需软件：
 
 1. **右键**点击 `.iso` 文件
@@ -24,6 +25,7 @@ type: note
 ---
 
 ## 方法 2：7-Zip —— 提取到文件夹
+
 1. 从 [7-zip.org](https://www.7-zip.org) 下载并安装 **7-Zip**
 2. 右键点击 `.iso` 文件
 3. 悬停在 **"7-Zip"** → 点击 **"Extract Here"** 或 **"Extract to [folder]"**
@@ -32,6 +34,7 @@ type: note
 ---
 
 ## 方法 3：命令行（PowerShell）
+
 ```powershell
 # Mount the ISO
 Mount-DiskImage -ImagePath "C:\path\to\yourfile.iso"
@@ -48,7 +51,7 @@ Dismount-DiskImage -ImagePath "C:\path\to\yourfile.iso"
 ## 选择哪种方法？
 
 | 方法 | 最佳用途 |
-|---|---|
+| --- | --- |
 | Built-in Mount | 快速查看，无需安装 |
 | 7-Zip | 永久提取文件到磁盘 |
 | PowerShell | 自动化/脚本操作 |

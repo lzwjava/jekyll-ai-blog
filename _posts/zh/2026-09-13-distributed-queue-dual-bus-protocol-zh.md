@@ -54,7 +54,7 @@ DQDB 使用两条单向总线，以相反方向传输数据，带宽通过时隙
 ### 总结表格
 
 | 组件 | 作用 |
-|---|---|
+| --- | --- |
 | 总线 A / 总线 B | 两条方向相反的数据通道 |
 | 总线首节点（HOB） | 生成空闲时隙 |
 | 请求计数器（REQUEST Counter） | 记录队列中排在前面有多少节点 |
@@ -65,6 +65,7 @@ DQDB 使用两条单向总线，以相反方向传输数据，带宽通过时隙
 ---
 
 **参考文献：**
+
 - [Distributed-queue dual-bus — Wikipedia](https://en.wikipedia.org/wiki/Distributed-queue_dual-bus)
 - [IEEE 802.6 (DQDB) — GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/ieee-802-6-dqdb/)
 - [Distributed Queue Dual Bus (DQDB) — Academia.edu](https://www.academia.edu/72986514/Distributed_Queue_Dual_Bus_DQDB_)

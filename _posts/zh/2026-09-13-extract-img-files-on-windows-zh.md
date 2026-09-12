@@ -18,7 +18,9 @@ Answer:
 ---
 
 ## 方法一：7-Zip —— 最简单的方式
+
 适用于许多 `.img` 文件：
+
 1. 右键点击 `.img` 文件
 2. 悬停在 **"7-Zip"** → **"提取到此处"**
 3. ✅ 完成——如果格式受支持
@@ -28,7 +30,9 @@ Answer:
 ---
 
 ## 方法二：OSFMount —— 原始磁盘映像的最佳选择
+
 将 `.img` 挂载为虚拟驱动器，如同挂载 ISO 一样：
+
 1. 从 [osforensics.com](https://www.osforensics.com/tools/mount-disk-images.html) 下载 **OSFMount**
 2. 打开 OSFMount → **"Mount New"**
 3. 选择你的 `.img` 文件
@@ -38,7 +42,9 @@ Answer:
 ---
 
 ## 方法三：PowerShell（Windows 10/11）
+
 适用于标准磁盘映像的 `.img` 文件：
+
 ```powershell
 # 与挂载 ISO 相同
 Mount-DiskImage -ImagePath "C:\path\to\yourfile.img"
@@ -50,7 +56,9 @@ Dismount-DiskImage -ImagePath "C:\path\to\yourfile.img"
 ---
 
 ## 方法四：WSL（适用于 Linux 的 Windows 子系统）
+
 非常适合基于 Linux 的 `.img` 文件（如 Raspberry Pi）：
+
 ```bash
 # 在 WSL 终端中
 sudo mkdir /mnt/imgfile
@@ -63,7 +71,7 @@ ls /mnt/imgfile
 ## 该使用哪个工具？
 
 | `.img` 类型 | 最佳工具 |
-|---|---|
+| --- | --- |
 | 通用存档 | 7-Zip |
 | 原始磁盘 / Raspberry Pi | OSFMount 或 WSL |
 | Windows 磁盘映像 | PowerShell `Mount-DiskImage` |

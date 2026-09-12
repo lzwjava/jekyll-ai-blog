@@ -27,6 +27,7 @@ rar e part1.rar
 ```
 
 **方法二：通过 CLI 合并为单个 RAR**
+
 ```bash
 # 步骤1：解压
 unrar x part1.rar ./output/
@@ -36,6 +37,7 @@ rar a combined.rar ./output/*
 ```
 
 **方法三：使用 WinRAR（Windows 图形界面）**
+
 1. 右键点击 `part1.rar`
 2. 选择 **"解压到当前文件夹"** 或 **"解压到指定文件夹"**
 3. WinRAR 会自动读取所有分卷
@@ -45,10 +47,11 @@ rar a combined.rar ./output/*
 **需注意的命名约定：**
 
 | 旧格式 | 新格式 |
-|---|---|
+| --- | --- |
 | `archive.part1.rar` | `archive.part1.rar` |
 | `archive.r00`、`archive.r01` | `archive.part2.rar` |
 
 参考链接：
+
 - [RAR 和 WinRAR 官方文档](https://www.win-rar.com/documentation.html)
 - [unrar 手册页](https://linux.die.net/man/1/unrar)
