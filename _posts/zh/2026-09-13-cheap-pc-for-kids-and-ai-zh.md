@@ -20,6 +20,7 @@ type: note
 以下是如实分析：
 
 **✅ 在 138 元价位，它适合这些用途**
+
 - 网页浏览、文档处理、轻度视频播放
 - 基础编程教育（Scratch、Python 入门）
 - 通过浏览器使用在线 AI 工具（Claude、ChatGPT——这些都在云端运行，而不是在这台电脑上）
@@ -33,8 +34,8 @@ AMD Athlon II X4 640 目前在多线程基准测试中大约排名第 3,498 位�
 
 **💡 结论**
 
-|  | 评估 |
-|---|---|
+| | 评估 |
+| --- | --- |
 | 价格 | ✅ 合理的废品价 |
 | 基础功课 | ✅ 可以接受 |
 | 本地 AI /“AI 学习” | ❌ 不现实 |
@@ -45,6 +46,7 @@ AMD Athlon II X4 640 目前在多线程基准测试中大约排名第 3,498 位�
 ---
 
 **参考链接：**
+
 - [AMD Athlon II X4 640 Benchmark – PassMark](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+640&id=171)
 - [Local AI Hardware Requirements 2026 – LocalAIMaster](https://localaimaster.com/blog/ai-hardware-requirements-2025-complete-guide)
 - [AMD Athlon II X4 640 Specs – cpu-monkey](https://www.cpu-monkey.com/en/cpu-amd_athlon_ii_x4_640)

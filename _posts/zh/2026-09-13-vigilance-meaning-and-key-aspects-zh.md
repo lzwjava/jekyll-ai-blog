@@ -27,5 +27,6 @@ Vigilance 的关键方面包括：
 > *“永恒的警惕是自由的代价。”* —— 常被归于托马斯·杰斐逊
 
 参考资料：
+
 - [Vigilance – Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/vigilance)
 - [Vigilance – Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/vigilance)

@@ -27,5 +27,6 @@ The adjective form is **vigilant**, and the adverb is **vigilantly**.
 > *"Eternal vigilance is the price of liberty."* — often attributed to Thomas Jefferson
 
 References:
+
 - [Vigilance – Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/vigilance)
 - [Vigilance – Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/vigilance)

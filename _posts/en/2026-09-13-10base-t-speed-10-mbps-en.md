@@ -25,5 +25,6 @@ Key specs:
 It was the dominant Ethernet standard through the early-to-mid 1990s, before being largely replaced by **100BASE-TX** (Fast Ethernet, 100 Mbps) and eventually **1000BASE-T** (Gigabit Ethernet).
 
 References:
+
 - [IEEE 802.3 Ethernet Standard](https://standards.ieee.org/ieee/802.3/7071/)
 - [10BASE-T – Wikipedia](https://en.wikipedia.org/wiki/10BASE-T)

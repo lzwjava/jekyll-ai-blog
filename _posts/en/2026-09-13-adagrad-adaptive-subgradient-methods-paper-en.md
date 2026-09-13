@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the paper at https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf?
+**Question:** What is the paper at <https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf>?
 
 **Answer:** This is the original **AdaGrad** paper — one of the most influential papers in machine learning optimization. Published in the *Journal of Machine Learning Research* in 2011, it introduced the **Adaptive Subgradient** method, better known as **AdaGrad** (Adaptive Gradient Algorithm).
 
@@ -33,4 +33,5 @@ This is especially powerful for sparse, high-dimensional data (e.g., NLP tasks),
 **Why it matters:** AdaGrad was a foundational step toward modern adaptive optimizers. It directly inspired **RMSProp**, **Adam**, and **AMSGrad**, all of which are widely used to train deep neural networks today.
 
 **References:**
+
 - [AdaGrad Paper — JMLR](https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)

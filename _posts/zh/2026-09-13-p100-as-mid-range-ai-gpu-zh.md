@@ -12,7 +12,7 @@ type: note
 无需搜索——P100规格早已明确：
 
 | 规格 | Tesla M60 | Tesla P100 | Tesla V100 | RTX 4070 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 架构 | Maxwell（2015） | Pascal（2016） | Volta（2017） | Ada Lovelace（2023） |
 | CUDA核心 | 4,096 | 3,584 | 5,120 | 5,888 |
 | **FP32算力** | **~8.1 TFLOPS** | **~10.6 TFLOPS** | **~15.7 TFLOPS** | **29.15 TFLOPS** |

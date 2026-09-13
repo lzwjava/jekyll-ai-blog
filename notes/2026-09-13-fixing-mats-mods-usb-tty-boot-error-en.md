@@ -22,6 +22,7 @@ The "can't start tty" error is a common Linux boot issue with these bare-bone US
 The GTX version boots as **Legacy only** (no UEFI), while the RTX version boots as both Legacy and UEFI. RTX 50 series requires UEFI boot.
 
 Make sure your BIOS boot mode matches your card generation:
+
 - GTX card → Set BIOS to **Legacy/CSM mode**
 - RTX card → Legacy or UEFI both work
 - RTX 50xx → Must use **UEFI**
@@ -49,7 +50,7 @@ If the GPU itself is faulty and produces no display, you need a motherboard and 
 **Quick Checklist:**
 
 | Check | Action |
-|---|---|
+| --- | --- |
 | Boot mode | Match Legacy/UEFI to your GPU generation |
 | Bootloader | Try Syslinux if GRUB fails |
 | USB format | Must be FAT32 |
@@ -59,4 +60,5 @@ If the GPU itself is faulty and produces no display, you need a motherboard and 
 ---
 
 **References:**
+
 - [Nvidia MATS & MODS USB stick (with NVMT) — Levirepair Forum](https://www.levirepair.eu/infusions/forum/viewthread.php?thread_id=3&pid=70#post_70)

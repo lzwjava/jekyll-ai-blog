@@ -26,7 +26,7 @@ For AI hobbyists in 2026, more recommended options in the budget segment include
 **Verdict on this listing:**
 
 | Factor | Assessment |
-|---|---|
+| --- | --- |
 | Price (288 CNY) | 🟡 Below market — suspiciously low, but possible |
 | "Almost brand new" from pull | 🟡 Common claim; verify with photos |
 | No video output (compute only) | ✅ Legitimate M60 trait |
@@ -36,5 +36,6 @@ For AI hobbyists in 2026, more recommended options in the budget segment include
 **Bottom line:** At 288 CNY, the price is tempting, but it's low enough to warrant caution. Ask for GPU-Z screenshots, real close-up photos, and confirm the VBIOS hasn't been modified. If it checks out, it's a reasonable deal for light inference or virtualization experiments — just don't expect competitive deep learning performance vs. modern cards.
 
 **References:**
+
 - [Tesla M60 market price analysis (CSDN)](https://blog.csdn.net/WSSWWWSSW/article/details/149631536)
 - [2026 AI GPU buying guide for hobbyists (CSDN)](https://blog.csdn.net/d1z878/article/details/159496691)

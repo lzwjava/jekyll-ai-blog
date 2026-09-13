@@ -25,5 +25,6 @@ type: note
 它是 20 世纪 90 年代初至中期占主导地位的以太网标准，之后在很大程度上被 **100BASE-TX**（快速以太网，100 Mbps）及最终的 **1000BASE-T**（千兆以太网）所取代。
 
 参考资料：
+
 - [IEEE 802.3 以太网标准](https://standards.ieee.org/ieee/802.3/7071/)
 - [10BASE-T – 维基百科](https://en.wikipedia.org/wiki/10BASE-T)

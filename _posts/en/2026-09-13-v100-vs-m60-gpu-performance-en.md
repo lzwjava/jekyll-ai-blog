@@ -16,7 +16,7 @@ type: note
 No search needed — the V100 specs are well established:
 
 | Spec | Tesla M60 | Tesla V100 | RTX 4070 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Architecture | Maxwell (2015) | Volta (2017) | Ada Lovelace (2023) |
 | CUDA Cores | 4,096 | 5,120 | 5,888 |
 | **FP32 Compute** | **~8.1 TFLOPS** | **~15.7 TFLOPS** | **29.15 TFLOPS** |

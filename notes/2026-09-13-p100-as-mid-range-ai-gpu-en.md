@@ -12,7 +12,7 @@ type: note
 No search needed — P100 specs are well established:
 
 | Spec | Tesla M60 | Tesla P100 | Tesla V100 | RTX 4070 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Architecture | Maxwell (2015) | Pascal (2016) | Volta (2017) | Ada Lovelace (2023) |
 | CUDA Cores | 4,096 | 3,584 | 5,120 | 5,888 |
 | **FP32 Compute** | **~8.1 TFLOPS** | **~10.6 TFLOPS** | **~15.7 TFLOPS** | **29.15 TFLOPS** |

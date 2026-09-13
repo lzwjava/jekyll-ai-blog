@@ -20,6 +20,7 @@ type: note
 Here's the honest breakdown:
 
 **✅ What it's good for at ¥138**
+
 - Web browsing, documents, light video playback
 - Basic coding education (Scratch, Python intro)
 - Online AI tools via browser (Claude, ChatGPT — these run in the cloud, not on the PC itself)
@@ -34,7 +35,7 @@ The seller's claim of "learning AI / keeping up with the future" via local AI to
 **💡 Bottom line**
 
 | | Assessment |
-|---|---|
+| --- | --- |
 | Price | ✅ Fair scrap value |
 | Basic schoolwork | ✅ Acceptable |
 | Local AI / "AI learning" | ❌ Not realistic |
@@ -45,6 +46,7 @@ At ¥138, if expectations are kept to **basic schoolwork + browser-based cloud A
 ---
 
 **References:**
+
 - [AMD Athlon II X4 640 Benchmark – PassMark](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+640&id=171)
 - [Local AI Hardware Requirements 2026 – LocalAIMaster](https://localaimaster.com/blog/ai-hardware-requirements-2025-complete-guide)
 - [AMD Athlon II X4 640 Specs – cpu-monkey](https://www.cpu-monkey.com/en/cpu-amd_athlon_ii_x4_640)

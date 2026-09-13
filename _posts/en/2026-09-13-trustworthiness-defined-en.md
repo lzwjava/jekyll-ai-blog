@@ -20,7 +20,7 @@ Trustworthiness is the quality of being reliably safe to depend on — across ti
 **Core Components of Trustworthiness**
 
 | Dimension | What it means |
-|---|---|
+| --- | --- |
 | **Consistency** | Behaves the same way whether watched or not, whether convenient or not |
 | **Honesty** | Tells you the truth even when it's uncomfortable |
 | **Competence** | Actually capable of doing what they say |

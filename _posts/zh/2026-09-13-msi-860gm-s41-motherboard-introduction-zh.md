@@ -64,6 +64,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Newegg 上的微星 860GM-S41 V2](https://www.newegg.com/p/2S7-07JP-18PW3)
 - [StoneTaskin – 完整规格](https://stonetaskin.com/products/original-msi-860gm-s41-v2-desktop-motherboard-socket-am3-ddr3-8gb-pci-e-2-0-usb2-0-amd-780l-support-phenom-ii-athlon-ii-cpus-micro-atx)
 - [eBay 列表（V2）](https://www.ebay.com/itm/255377729083)

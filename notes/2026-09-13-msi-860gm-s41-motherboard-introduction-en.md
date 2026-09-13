@@ -64,6 +64,7 @@ The board uses one 8-pin and one 24-pin power connector.
 ---
 
 **References:**
+
 - [MSI 860GM-S41 V2 on Newegg](https://www.newegg.com/p/2S7-07JP-18PW3)
 - [StoneTaskin – Full Specs](https://stonetaskin.com/products/original-msi-860gm-s41-v2-desktop-motherboard-socket-am3-ddr3-8gb-pci-e-2-0-usb2-0-amd-780l-support-phenom-ii-athlon-ii-cpus-micro-atx)
 - [eBay Listing (V2)](https://www.ebay.com/itm/255377729083)

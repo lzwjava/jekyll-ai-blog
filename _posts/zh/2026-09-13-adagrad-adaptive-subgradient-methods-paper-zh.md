@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 来自 https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf 的论文是什么？
+**问题：** 来自 <https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf> 的论文是什么？
 
 **答案：** 这是原始的 **AdaGrad** 论文——机器学习优化领域最具影响力的论文之一。该论文于2011年发表在《机器学习研究期刊》（Journal of Machine Learning Research）上，提出了**自适应次梯度**方法，即广为人知的 **AdaGrad**（自适应梯度算法）。
 
@@ -33,4 +33,5 @@ type: note
 **为何重要：** AdaGrad 是现代自适应优化器的基础性步骤。它直接启发了 **RMSProp**、**Adam** 和 **AMSGrad**，这些优化器如今广泛用于训练深度神经网络。
 
 **参考文献：**
+
 - [AdaGrad 论文 — JMLR](https://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)

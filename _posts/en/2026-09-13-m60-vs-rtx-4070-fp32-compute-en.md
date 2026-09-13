@@ -16,7 +16,7 @@ type: note
 The gap is enormous:
 
 | Spec | Tesla M60 | RTX 4070 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Maxwell (2015) | Ada Lovelace (2023) |
 | CUDA Cores | 4,096 | 5,888 |
 | **FP32 Compute** | **~8.1 TFLOPS** | **29.15 TFLOPS** |
@@ -33,5 +33,6 @@ And FP32 is actually where the M60 looks *most* competitive. For AI workloads, t
 The M60's only real advantage here is its 16GB VRAM, which lets it load larger models than the RTX 4070's 12GB. But for actual inference or training *speed*, the RTX 4070 outclasses it by a wide margin. If VRAM capacity is what you need (e.g., loading a 13B model in FP32), the M60 at 288 CNY makes sense. If you want performance, it doesn't hold up.
 
 **References:**
+
 - [RTX 4070 specs — wccftech](https://wccftech.com/nvidia-geforce-rtx-4070-official-5888-cores-12-gb-g6x-memory-599-us-1440p-gaming-at-100-fps/)
 - [RTX 4070 AI specs — WareDB](https://www.waredb.com/processor/nvidia-geforce-rtx-4070)

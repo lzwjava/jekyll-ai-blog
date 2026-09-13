@@ -22,6 +22,7 @@ type: note
 GTX版本仅支持**Legacy模式**（不支持UEFI），而RTX版本同时支持Legacy和UEFI。RTX 50系列必须使用UEFI启动。
 
 请确保BIOS启动模式与您的显卡世代匹配：
+
 - GTX显卡 → 将BIOS设置为**Legacy/CSM模式**
 - RTX显卡 → Legacy或UEFI均可
 - RTX 50xx → 必须使用**UEFI**
@@ -49,7 +50,7 @@ Syslinux设置（`mats_syslinux.zip`）和GRUB设置（`mats_grub.zip`）的步�
 **快速检查清单：**
 
 | 检查项 | 操作 |
-|---|---|
+| --- | --- |
 | 启动模式 | 将Legacy/UEFI与您的显卡世代匹配 |
 | 启动器 | 如果GRUB失败，尝试Syslinux |
 | USB格式 | 必须为FAT32 |
@@ -59,4 +60,5 @@ Syslinux设置（`mats_syslinux.zip`）和GRUB设置（`mats_grub.zip`）的步�
 ---
 
 **参考链接：**
+
 - [Nvidia MATS & MODS USB启动盘（含NVMT） — Levirepair论坛](https://www.levirepair.eu/infusions/forum/viewthread.php?thread_id=3&pid=70#post_70)

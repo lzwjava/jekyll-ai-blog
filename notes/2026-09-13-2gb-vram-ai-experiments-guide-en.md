@@ -20,6 +20,7 @@ Yes — 2 GB VRAM is tight, but you can still do meaningful experiments. Here's 
 ### ✅ What You CAN Do
 
 **1. Small / Quantized LLMs (Inference)**
+
 - **Phi-2, Phi-3 Mini** (Microsoft) — very capable small models, runnable with 4-bit quantization (GGUF format via `llama.cpp`)
 - **TinyLlama 1.1B** — designed to run on minimal hardware
 - **Qwen 0.5B / 1.5B** — lightweight multilingual models
@@ -27,18 +28,22 @@ Yes — 2 GB VRAM is tight, but you can still do meaningful experiments. Here's 
 - Use **llama.cpp** or **Ollama** — these offload layers to CPU when VRAM is full
 
 **2. Embedding Models**
+
 - `sentence-transformers` (e.g., `all-MiniLM-L6-v2`) — runs almost entirely on CPU, VRAM not a bottleneck
 - Great for RAG (Retrieval-Augmented Generation) pipelines
 
 **3. Vision / Multimodal (Small)**
+
 - **CLIP** (image-text embeddings) — very VRAM-efficient
 - **ViT-tiny / ViT-small** for image classification
 
 **4. Classic ML / Deep Learning**
+
 - CNNs, RNNs, small Transformers trained from scratch — 2 GB is enough for small batch sizes
 - `scikit-learn`, `XGBoost`, `LightGBM` — CPU-based, no VRAM needed at all
 
 **5. Fine-tuning (with care)**
+
 - **LoRA / QLoRA** on tiny models (e.g., GPT-2, DistilBERT) — possible with gradient checkpointing and small batch sizes
 
 ---
@@ -54,7 +59,7 @@ Yes — 2 GB VRAM is tight, but you can still do meaningful experiments. Here's 
 ### 🛠 Recommended Stack
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | `llama.cpp` / `Ollama` | Run quantized LLMs locally |
 | `Hugging Face Transformers` | Experiment with BERT, GPT-2, etc. |
 | `sentence-transformers` | Embeddings & semantic search |
@@ -64,11 +69,13 @@ Yes — 2 GB VRAM is tight, but you can still do meaningful experiments. Here's 
 ---
 
 ### 💡 Pro Tip
+
 Combine your 2 GB GPU with **CPU offloading** in `llama.cpp`. A model like TinyLlama or Phi-3-mini can split layers between GPU and RAM — you get GPU acceleration without needing everything to fit in VRAM.
 
 ---
 
 **References:**
+
 - [llama.cpp - Run LLMs locally](https://github.com/ggerganov/llama.cpp)
 - [Ollama - Run models locally](https://ollama.com)
 - [TinyLlama Model](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
