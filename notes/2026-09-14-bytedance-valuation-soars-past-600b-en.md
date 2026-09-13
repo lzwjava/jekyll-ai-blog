@@ -30,6 +30,7 @@ The key catalyst behind this valuation surge was regulatory: the January 2026 U.
 ---
 
 **References:**
+
 - [ByteDance Valuation Hits $550B – PYMNTS](https://www.pymnts.com/news/investment-tracker/2026/bytedance-valuation-hits-550-billion-in-planned-share-sale/)
 - [ByteDance Valuation Surges to $600B+ – South China Morning Post](https://www.scmp.com/tech/big-tech/article/3349337/bytedance-valuation-surges-record-high-over-us600b-proposed-equity-sale-sources)
 - [ByteDance Revenue & Valuation – Sacra](https://sacra.com/c/bytedance/)

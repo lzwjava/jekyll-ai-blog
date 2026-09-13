@@ -49,5 +49,6 @@ This story is closely linked to the Battle of Xiao (崤之战) discussed previou
 ---
 
 **References:**
+
 - [王孙满观秦师 - Baidu Baike](https://baike.baidu.com/item/%E7%8E%8B%E5%AD%99%E6%BB%A1%E8%A7%82%E7%A7%A6%E5%B8%88/4880628)
 - [王孙满对楚子 - Baidu Baike](https://baike.baidu.com/item/%E7%8E%8B%E5%AD%99%E6%BB%A1%E5%AF%B9%E6%A5%9A%E5%AD%90/4254708)

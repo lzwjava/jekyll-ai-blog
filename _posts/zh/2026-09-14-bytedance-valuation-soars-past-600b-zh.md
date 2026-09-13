@@ -30,6 +30,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [字节跳动估值达5500亿美元 – PYMNTS](https://www.pymnts.com/news/investment-tracker/2026/bytedance-valuation-hits-550-billion-in-planned-share-sale/)
 - [字节跳动估值飙升至6000亿美元以上 – 南华早报](https://www.scmp.com/tech/big-tech/article/3349337/bytedance-valuation-surges-record-high-over-us600b-proposed-equity-sale-sources)
 - [字节跳动营收与估值 – Sacra](https://sacra.com/c/bytedance/)
