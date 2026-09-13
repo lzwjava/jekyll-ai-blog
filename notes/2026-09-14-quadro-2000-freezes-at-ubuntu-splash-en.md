@@ -67,6 +67,7 @@ Plymouth (the splash screen manager) occasionally crashes and causes a visual ha
 **Step 5: If you suspect nouveau conflict with proprietary driver**
 
 Blacklist nouveau after installing the NVIDIA driver:
+
 ```bash
 echo "blacklist nouveau" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
 sudo update-initramfs -u
@@ -78,7 +79,7 @@ sudo reboot
 ### Summary Table
 
 | Symptom | Likely Cause |
-|---|---|
+| --- | --- |
 | Shows BIOS fine | VESA/firmware framebuffer — no driver involved |
 | Freezes at Ubuntu red screen ~10s | KMS handoff to nouveau fails |
 | Never reaches login | Display manager (GDM) can't start |
@@ -87,6 +88,7 @@ sudo reboot
 ---
 
 **References:**
+
 - [How to Fix Ubuntu Stuck at Boot Screen](https://oneuptime.com/blog/post/2026-03-02-how-to-fix-ubuntu-stuck-at-boot-screen/view)
 - [Ubuntu Freezing at Boot – itsfoss.com](https://itsfoss.com/fix-ubuntu-freezing/)
 - [Quadro 2000 with nouveau on Linux Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=412775)

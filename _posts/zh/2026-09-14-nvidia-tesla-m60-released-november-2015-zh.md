@@ -20,5 +20,6 @@ type: note
 它被设计为一款 **数据中心/虚拟化 GPU**，而非消费级显卡，因此并未在零售店出售——而是部署在企业服务器和云环境中，支持 NVIDIA GRID vGPU 技术。
 
 **参考来源：**
+
 - [NVIDIA Tesla M60 产品简介（2015 年 11 月）](https://images.nvidia.com/content/pdf/tesla/tesla-m60-product-brief.pdf)
 - [VideoCardz – Tesla M60](https://videocardz.net/nvidia-tesla-m60)

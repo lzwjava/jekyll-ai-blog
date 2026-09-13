@@ -22,7 +22,7 @@ type: note
 GT 730 实际上有**三种版本**，总线宽度各不相同，这造成了很大的混淆：
 
 | 版本 | GPU | CUDA 核心 | 显存总线 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GT 730 DDR3 | GF108（Fermi） | 96 | **128 位** |
 | GT 730 DDR3 | GK208（Kepler） | 384 | **64 位** |
 | GT 730 GDDR5 | GK208（Kepler） | 384 | **64 位** |
@@ -48,7 +48,7 @@ Tesla M60 是一款基于 **Maxwell** 架构的双 GPU 服务器/虚拟化加速
 ### GT 730 与 Tesla M60 — 并排对比
 
 | 规格 | GT 730（最佳版本） | Tesla M60（每 GPU） |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | Kepler | Maxwell |
 | CUDA 核心 | 384 | 2048 |
 | 显存 | 2 GB GDDR5 | 8 GB GDDR5 |
@@ -60,6 +60,7 @@ Tesla M60 是一款基于 **Maxwell** 架构的双 GPU 服务器/虚拟化加速
 它们**毫无相似之处**——M60 是专业级双 GPU 数据中心显卡，而 GT 730 是来自不同时代和架构的低端消费级台式机显卡。
 
 **参考链接：**
+
 - [VideoCardz – GT 730（GF108）](https://videocardz.com/nvidia/geforce-700/geforce-gt-730)
 - [GPUZoo – GT 730 DDR3 64 位](https://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_730_DDR3_64-bit.html)
 - [GPUZoo – GT 730 DDR3 128 位](https://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_730_DDR3_128-bit.html)

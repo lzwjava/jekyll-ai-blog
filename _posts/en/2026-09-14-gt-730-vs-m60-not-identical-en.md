@@ -22,7 +22,7 @@ No, the GT 730 and Tesla M60 are **completely different cards** — not the same
 The GT 730 actually comes in **three variants** with different bus widths, which causes a lot of confusion:
 
 | Variant | GPU | CUDA Cores | Memory Bus |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | GT 730 DDR3 | GF108 (Fermi) | 96 | **128-bit** |
 | GT 730 DDR3 | GK208 (Kepler) | 384 | **64-bit** |
 | GT 730 GDDR5 | GK208 (Kepler) | 384 | **64-bit** |
@@ -48,7 +48,7 @@ It consumes up to **300W** and is designed for enterprise virtual workstations a
 ### GT 730 vs Tesla M60 — Side by Side
 
 | Spec | GT 730 (best variant) | Tesla M60 (per GPU) |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Kepler | Maxwell |
 | CUDA Cores | 384 | 2048 |
 | VRAM | 2 GB GDDR5 | 8 GB GDDR5 |
@@ -60,6 +60,7 @@ It consumes up to **300W** and is designed for enterprise virtual workstations a
 They share **no similarity** — the M60 is a professional dual-GPU data center card, while the GT 730 is a low-end consumer desktop card from a different era and architecture.
 
 **References:**
+
 - [VideoCardz – GT 730 (GF108)](https://videocardz.com/nvidia/geforce-700/geforce-gt-730)
 - [GPUZoo – GT 730 DDR3 64-bit](https://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_730_DDR3_64-bit.html)
 - [GPUZoo – GT 730 DDR3 128-bit](https://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_730_DDR3_128-bit.html)

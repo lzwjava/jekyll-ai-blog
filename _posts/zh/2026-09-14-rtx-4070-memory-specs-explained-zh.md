@@ -16,7 +16,7 @@ type: note
 **RTX 4070 显存规格：**
 
 | 规格 | 值 |
-|---|---|
+| --- | --- |
 | VRAM | 12 GB GDDR6X |
 | 位宽 | **192-bit** |
 | 显存速度 | 21 Gbps |
@@ -32,7 +32,7 @@ RTX 4070 通过其 192-bit 接口获得 504 GB/s 的总显存带宽。一些人�
 **它在 RTX 40 系列中如何比较？**
 
 | GPU | 位宽 | VRAM | 带宽 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | RTX 4060 / 4060 Ti | 128-bit | 8–16 GB | ~272 GB/s |
 | **RTX 4070** | **192-bit** | **12 GB** | **504 GB/s** |
 | RTX 4070 Ti | 192-bit | 12 GB | 504 GB/s |
@@ -44,6 +44,7 @@ NVIDIA 的 60 系列 GPU 使用 128-bit 显存接口，精心设计以提供性�
 **总结：** RTX 4070 的 192-bit 位宽，结合高速 GDDR6X 和大容量 L2 缓存，使其成为 **1440p 游戏** 的优秀选择，不存在显存带宽瓶颈。
 
 参考资料：
+
 - [RTX 4070 Specs – The FPS Review](https://www.thefpsreview.com/gpu-family/nvidia-geforce-rtx-4070-gpu-family-specifications/)
 - [RTX 40 Series VRAM Explained – NVIDIA](https://www.nvidia.com/en-us/geforce/news/rtx-40-series-vram-video-memory-explained/)
 - [RTX 4070 Deep Dive – Groovy Computers](https://groovycomputers.ca/blogs/resources/rtx-4070-specs)

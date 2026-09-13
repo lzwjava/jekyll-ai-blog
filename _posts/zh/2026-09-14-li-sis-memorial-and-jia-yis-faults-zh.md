@@ -54,7 +54,7 @@ type: note
 ## 并排对比
 
 | | 谏逐客书 | 过秦论 |
-|---|---|---|
+| --- | --- | --- |
 | **作者** | 李斯 | 贾谊 |
 | **朝代** | 战国末期 / 秦 | 西汉 |
 | **读者** | 秦王（秦始皇） | 汉朝皇帝（作为政治谏言） |
@@ -68,6 +68,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [李斯 — 大英百科全书](https://britannica.com/print/article/338685)
 - [李斯 — 维基百科](https://en.wikipedia.org/wiki/Li_Si)
 - [过秦论 — 维基百科](https://en.wikipedia.org/wiki/The_Faults_of_Qin)

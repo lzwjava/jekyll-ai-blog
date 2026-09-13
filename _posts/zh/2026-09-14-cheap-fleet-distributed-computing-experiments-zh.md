@@ -72,7 +72,7 @@ type: note
 ## 💡 推荐入门堆栈
 
 | 层级 | 工具 |
-|---|---|
+| --- | --- |
 | 操作系统 | Ubuntu Server（最小安装） |
 | 编排工具 | K3s 或 Docker Swarm |
 | 计算引擎 | Apache Spark 或 Ray |
@@ -83,6 +83,7 @@ type: note
 ---
 
 参考资料：
+
 - [Apache Spark集群模式](https://spark.apache.org/docs/latest/cluster-overview.html)
 - [K3s - 轻量级Kubernetes](https://k3s.io/)
 - [Flower - 联邦学习框架](https://flower.dev/)

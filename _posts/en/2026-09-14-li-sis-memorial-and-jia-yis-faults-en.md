@@ -54,7 +54,7 @@ The essay, admired as a masterpiece of rhetoric and reasoning, was copied into t
 ## Side-by-Side Comparison
 
 | | 谏逐客书 | 过秦论 |
-|---|---|---|
+| --- | --- | --- |
 | **Author** | Li Si (李斯) | Jia Yi (贾谊) |
 | **Dynasty** | Late Warring States / Qin | Western Han |
 | **Audience** | King of Qin (Qin Shi Huang) | Han Emperor (as political advice) |
@@ -68,6 +68,7 @@ Both essays are staples of Chinese high school and university curricula, and tog
 ---
 
 **References:**
+
 - [Li Si — Britannica](https://britannica.com/print/article/338685)
 - [Li Si — Wikipedia](https://en.wikipedia.org/wiki/Li_Si)
 - [The Faults of Qin — Wikipedia](https://en.wikipedia.org/wiki/The_Faults_of_Qin)

@@ -16,7 +16,7 @@ The RTX 4070 actually uses a **192-bit** bus — wider than the 128-bit we discu
 **RTX 4070 Memory Specs:**
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | VRAM | 12 GB GDDR6X |
 | Bus Width | **192-bit** |
 | Memory Speed | 21 Gbps |
@@ -32,7 +32,7 @@ The RTX 4070 gets 504 GB/s of total memory bandwidth from its 192-bit interface.
 **How does it compare in the RTX 40 lineup?**
 
 | GPU | Bus Width | VRAM | Bandwidth |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | RTX 4060 / 4060 Ti | 128-bit | 8–16 GB | ~272 GB/s |
 | **RTX 4070** | **192-bit** | **12 GB** | **504 GB/s** |
 | RTX 4070 Ti | 192-bit | 12 GB | 504 GB/s |
@@ -44,6 +44,7 @@ NVIDIA's 60-class GPUs use a 128-bit memory interface, carefully crafted to deli
 **Bottom line:** The RTX 4070's 192-bit bus, combined with fast GDDR6X and a massive L2 cache, makes it an excellent card for **1440p gaming** without a memory bandwidth bottleneck.
 
 References:
+
 - [RTX 4070 Specs – The FPS Review](https://www.thefpsreview.com/gpu-family/nvidia-geforce-rtx-4070-gpu-family-specifications/)
 - [RTX 40 Series VRAM Explained – NVIDIA](https://www.nvidia.com/en-us/geforce/news/rtx-40-series-vram-video-memory-explained/)
 - [RTX 4070 Deep Dive – Groovy Computers](https://groovycomputers.ca/blogs/resources/rtx-4070-specs)

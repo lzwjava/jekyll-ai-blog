@@ -35,6 +35,7 @@ type: note
 ---
 
 参考文献：
+
 - [墨家——斯坦福哲学百科全书](https://plato.stanford.edu/entries/mohism/)
 - [墨子——互联网哲学百科全书](https://iep.utm.edu/mozi/)
 - [墨家——大英百科全书](https://www.britannica.com/topic/Mohism)

@@ -42,6 +42,7 @@ The Battle of Xiao is also historically significant as one of China's earliest r
 ---
 
 **References:**
+
 - [秦晋崤之战 - Baidu Baike](https://baike.baidu.com/item/%E7%A7%A6%E6%99%8B%E5%B4%A4%E4%B9%8B%E6%88%98/6779716)
 - [崤之战 - Wikipedia (Chinese)](https://zh.wikipedia.org/zh-hans/%E6%AE%BD%E4%B9%8B%E6%88%98)
 - [崤之战：中国历史上最早的伏击战 - Huaxia.com](https://www.huaxia.com/c/2022/06/09/1187727.shtml)

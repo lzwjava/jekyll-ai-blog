@@ -35,6 +35,7 @@ It declined after the Qin unification (221 BCE), but has seen renewed scholarly 
 ---
 
 References:
+
 - [Mohism — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/mohism/)
 - [Mozi — Internet Encyclopedia of Philosophy](https://iep.utm.edu/mozi/)
 - [Mohism — Britannica](https://www.britannica.com/topic/Mohism)

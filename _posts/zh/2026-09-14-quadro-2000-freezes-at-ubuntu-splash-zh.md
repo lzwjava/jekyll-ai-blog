@@ -67,6 +67,7 @@ Plymouth（启动画面管理器）有时会崩溃，导致表面卡死，即使
 **第五步：如果怀疑 nouveau 与专有驱动程序冲突**
 
 安装 NVIDIA 驱动后禁用 nouveau：
+
 ```bash
 echo "blacklist nouveau" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
 sudo update-initramfs -u
@@ -78,7 +79,7 @@ sudo reboot
 ### 总结表格
 
 | 症状 | 可能原因 |
-|---|---|
+| --- | --- |
 | BIOS 显示正常 | VESA/固件帧缓冲区——无驱动程序参与 |
 | 在 Ubuntu 红色画面处冻结约 10 秒 | KMS 交接给 nouveau 失败 |
 | 始终无法进入登录界面 | 显示管理器（GDM）无法启动 |
@@ -87,6 +88,7 @@ sudo reboot
 ---
 
 **参考链接：**
+
 - [How to Fix Ubuntu Stuck at Boot Screen](https://oneuptime.com/blog/post/2026-03-02-how-to-fix-ubuntu-stuck-at-boot-screen/view)
 - [Ubuntu Freezing at Boot – itsfoss.com](https://itsfoss.com/fix-ubuntu-freezing/)
 - [Quadro 2000 with nouveau on Linux Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=412775)

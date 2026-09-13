@@ -74,7 +74,7 @@ Great setup! Here's a breakdown of interesting experiments organized by theme:
 ## 💡 Recommended Starter Stack
 
 | Layer | Tool |
-|---|---|
+| --- | --- |
 | OS | Ubuntu Server (minimal) |
 | Orchestration | K3s or Docker Swarm |
 | Compute | Apache Spark or Ray |
@@ -85,6 +85,7 @@ Great setup! Here's a breakdown of interesting experiments organized by theme:
 ---
 
 References:
+
 - [Apache Spark Cluster Mode](https://spark.apache.org/docs/latest/cluster-overview.html)
 - [K3s - Lightweight Kubernetes](https://k3s.io/)
 - [Flower - Federated Learning Framework](https://flower.dev/)

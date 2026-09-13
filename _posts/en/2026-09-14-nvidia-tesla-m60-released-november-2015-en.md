@@ -20,5 +20,6 @@ It was introduced in 2015 on the Maxwell architecture, and the official product 
 It was designed as a **data center / virtualization GPU**, not a consumer card, so it wasn't sold in retail stores — it was deployed in enterprise servers and cloud environments supporting NVIDIA GRID vGPU technology.
 
 **References:**
+
 - [NVIDIA Tesla M60 Product Brief (Nov 2015)](https://images.nvidia.com/content/pdf/tesla/tesla-m60-product-brief.pdf)
 - [VideoCardz – Tesla M60](https://videocardz.net/nvidia-tesla-m60)
