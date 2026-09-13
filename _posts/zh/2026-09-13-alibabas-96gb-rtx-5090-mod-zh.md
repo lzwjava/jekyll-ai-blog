@@ -46,6 +46,7 @@ RTX 5090 96GB 很可能采用了定制 PCB，使制造商能够以“叠层模�
 ---
 
 **参考资料：**
+
 - [Tom's Hardware – 阿里巴巴上出现中国改装的 RTX 5090 96GB](https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original)
 - [eTeknix – 搭载 96GB 显存的 RTX 5090](https://www.eteknix.com/rtx-5090-with-96-gb-of-vram-appears-on-alibaba-for-almost-4000/)
 - [igor'sLAB – RTX 5090 96GB 改装：技术上可行但未经证实](https://www.igorslab.de/en/rtx-5090-with-96-gb-vram-appears-on-alibaba-modification-technically-plausible-but-unconfirmed/)

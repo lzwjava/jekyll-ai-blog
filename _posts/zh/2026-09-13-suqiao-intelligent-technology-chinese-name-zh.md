@@ -18,7 +18,7 @@ type: note
 阿里巴巴上存在 **两家相关的“速桥”实体**：
 
 | 英文名称 | 可能的中文名称 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | Shenzhen Suqiao **Intelligent** Technology Co., Ltd. | **深圳速桥智能科技有限公司** | 销售魔改 RTX 5090 96GB 的店铺（阿里巴巴店铺：`suqiaoai`） |
 | Shenzhen Suqiao **Computer** Technology Co., Ltd. | **深圳速桥计算机科技有限公司** | 硬件/迷你 PC 姊妹公司 |
 
@@ -29,6 +29,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Shenzhen Suqiao Intelligent Technology – Alibaba Profile](https://suqiaoai.en.alibaba.com/company_profile.html)
 - [Shenzhen Suqiao Computer Technology – Alibaba Profile](https://genmachine.en.alibaba.com/company_profile.html)
 - [深圳市速桥科技 – Baidu Zhidao](https://zhidao.baidu.com/question/1516885318877583460.html)

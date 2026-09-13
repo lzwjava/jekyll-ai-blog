@@ -46,6 +46,7 @@ This innovation comes amid increasing U.S. restrictions on Nvidia's AI-class chi
 ---
 
 **References:**
+
 - [Tom's Hardware – China-modified RTX 5090 96GB on Alibaba](https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original)
 - [eTeknix – RTX 5090 with 96GB VRAM](https://www.eteknix.com/rtx-5090-with-96-gb-of-vram-appears-on-alibaba-for-almost-4000/)
 - [igor'sLAB – RTX 5090 96GB mod: technically plausible but unconfirmed](https://www.igorslab.de/en/rtx-5090-with-96-gb-vram-appears-on-alibaba-modification-technically-plausible-but-unconfirmed/)

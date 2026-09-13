@@ -18,7 +18,7 @@ The search results don't surface a directly confirmed Chinese name for **Shenzhe
 There appear to be **two related "Suqiao" entities** on Alibaba:
 
 | English Name | Likely Chinese Name | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Shenzhen Suqiao **Intelligent** Technology Co., Ltd. | **深圳速桥智能科技有限公司** | The one selling the 魔改 RTX 5090 96GB (Alibaba store: `suqiaoai`) |
 | Shenzhen Suqiao **Computer** Technology Co., Ltd. | **深圳速桥计算机科技有限公司** | The hardware/mini-PC sister company |
 
@@ -29,6 +29,7 @@ The pinyin "Suqiao" (速桥) literally means **"Speed Bridge"** — 速 (*sù* =
 ---
 
 **References:**
+
 - [Shenzhen Suqiao Intelligent Technology – Alibaba Profile](https://suqiaoai.en.alibaba.com/company_profile.html)
 - [Shenzhen Suqiao Computer Technology – Alibaba Profile](https://genmachine.en.alibaba.com/company_profile.html)
 - [深圳市速桥科技 – Baidu Zhidao](https://zhidao.baidu.com/question/1516885318877583460.html)

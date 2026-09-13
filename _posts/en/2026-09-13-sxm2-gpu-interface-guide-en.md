@@ -21,7 +21,7 @@ SXM2 (Server PCI Express Module 2) is NVIDIA's proprietary high-bandwidth mezzan
 The whole point is bandwidth. SXM2 delivers more power and NVLink lanes directly to the GPU, enabling the full HBM2 bandwidth potential that a standard PCIe slot would bottleneck.
 
 | Feature | PCIe Version | SXM2 Version |
-|---|---|---|
+| --- | --- | --- |
 | Interface | PCIe x16 | Proprietary mezzanine |
 | Memory Bandwidth (P100) | ~549 GB/s | **~732 GB/s** |
 | Memory Bandwidth (V100) | ~900 GB/s | **~900 GB/s** |
