@@ -58,6 +58,7 @@ C4130 支持通过扩展卡提升板在系统板上安装 PCIe Gen 3 扩展卡�
 ---
 
 **参考资料：**
+
 - [Dell PowerEdge C4130 用户手册 – 概览](https://www.dell.com/support/manuals/en-us/poweredge-c4130/c4130ownersmanual/dell-poweredge-c4130-overview?guid=guid-b5b8b87a-5190-41b9-aeed-94c256b9266a&lang=en-us)
 - [Dell PowerEdge C4130 规格表（PDF）](https://gotomojo.com/wp-content/uploads/2018/04/EMEA-Spec-Sheets-C4130-Specifications.pdf)
 - [Mojo Systems – C4130 规格与信息](https://www.gotomojo.com/servers/dell-emc-poweredge/c-series/c4130/)

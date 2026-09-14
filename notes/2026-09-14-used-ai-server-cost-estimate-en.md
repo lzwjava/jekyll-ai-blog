@@ -32,7 +32,7 @@ As of September 14, 2026, the Tesla P100 16 GB can be found used on eBay from ar
 ### 3. Estimated Total
 
 | Component | Estimated Cost |
-|---|---|
+| --- | --- |
 | Dual-socket Broadwell server (~64 GB RAM) | $250–$400 |
 | 2× Tesla P100 (12 GB each) | $160–$240 |
 | **Total** | **~$400–$650** |
@@ -48,6 +48,7 @@ So all-in, you're looking at roughly **$400–$700** assembled from used parts �
 ---
 
 **References:**
+
 - [Tesla P100 16GB Used Price & History (Sep 2026) — GPUDojo](https://gpudojo.com/tesla-p100)
 - [Intel Computer Servers 64 GB RAM 2 Processors — eBay](https://www.ebay.com/b/Intel-Computer-Servers-64-GB-RAM-2-Processors/11211/bn_42004041)
 - [Used Server GPUs for Local LLMs — CraftRigs](https://craftrigs.com/guides/used-server-gpus-tesla-p40-a100-ebay/)

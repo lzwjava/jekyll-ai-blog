@@ -33,7 +33,7 @@ You're right that when a company hires directly — even for junior roles — it
 **The tradeoff they accept**
 
 | | Outsourcing/Contractor | Direct Hire |
-|---|---|---|
+| --- | --- | --- |
 | Speed to fill | Fast | Slow |
 | Overhead | Low | High (HR, benefits, culture) |
 | Commitment | Low | High |

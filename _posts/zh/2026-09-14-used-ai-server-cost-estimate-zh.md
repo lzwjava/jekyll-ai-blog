@@ -32,7 +32,7 @@ type: note
 ### 3. 总估价
 
 | 组件 | 估价 |
-|---|---|
+| --- | --- |
 | 双路 Broadwell 服务器（约 64 GB 内存） | 250–400 美元 |
 | 2× Tesla P100（每张 12 GB） | 160–240 美元 |
 | **总计** | **约 400–650 美元** |
@@ -48,6 +48,7 @@ P100 适合运行 14B 参数模型；运行 30B 模型需要激进量化，且�
 ---
 
 **参考资料：**
+
 - [Tesla P100 16GB 二手价格与历史（2026 年 9 月）— GPUDojo](https://gpudojo.com/tesla-p100)
 - [Intel 服务器 64 GB 内存 双处理器 — eBay](https://www.ebay.com/b/Intel-Computer-Servers-64-GB-RAM-2-Processors/11211/bn_42004041)
 - [用于本地 LLM 的二手服务器 GPU — CraftRigs](https://craftrigs.com/guides/used-server-gpus-tesla-p40-a100-ebay/)

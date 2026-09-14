@@ -66,6 +66,7 @@ Systems management includes IPMI 2.0 compliance, Dell OpenManage Essentials, Del
 ---
 
 **References:**
+
 - [Dell PowerEdge C4130 Owner's Manual – Overview](https://www.dell.com/support/manuals/en-us/poweredge-c4130/c4130ownersmanual/dell-poweredge-c4130-overview?guid=guid-b5b8b87a-5190-41b9-aeed-94c256b9266a&lang=en-us)
 - [Dell PowerEdge C4130 Spec Sheet (PDF)](https://gotomojo.com/wp-content/uploads/2018/04/EMEA-Spec-Sheets-C4130-Specifications.pdf)
 - [Mojo Systems – C4130 Specs & Info](https://www.gotomojo.com/servers/dell-emc-poweredge/c-series/c4130/)

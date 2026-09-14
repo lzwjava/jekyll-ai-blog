@@ -14,7 +14,7 @@ Found it! Here's the **cost breakdown** for this instance:
 ## 💰 Pricing
 
 | | Value |
-|---|---|
+| --- | --- |
 | **Price** | **$0.2044 / hr** |
 | **Provider / Machine ID** | 142060 |
 | **Instance ID** | 51016667 |
@@ -24,7 +24,7 @@ Found it! Here's the **cost breakdown** for this instance:
 ### Estimated monthly cost
 
 | Duration | Cost |
-|---|---|
+| --- | --- |
 | **Per hour** | $0.20 |
 | **Per day (24h)** | ~$4.91 |
 | **Per month (30d × 24h)** | ~$147.17 |
