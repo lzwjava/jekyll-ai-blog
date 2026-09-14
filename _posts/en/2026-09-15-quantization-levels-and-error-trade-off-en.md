@@ -35,5 +35,6 @@ $$e_{rms} = \frac{\Delta}{\sqrt{12}}$$
 Since $\Delta = V / 2^N$, each additional bit roughly halves the step size, reducing the RMS error by ~6 dB (a factor of 2), which is the origin of the "6 dB per bit" rule in ADC specifications.**In summary**, the relationship is inverse and precisely quantifiable: quantization error is bounded by half the step size ($\Delta/2$), and step size shrinks as the number of levels grows. Every extra bit of resolution doubles the number of levels, halves $\Delta$, and cuts the maximum error in half — which is why high-fidelity audio uses 16–24 bits (65,536–16 million levels) while voice telephony gets by with 8 bits (256 levels).
 
 **References:**
+
 - [Quantization (signal processing) — Wikipedia](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [Signal-to-quantization-noise ratio — Wikipedia](https://en.wikipedia.org/wiki/Signal-to-quantization-noise_ratio)

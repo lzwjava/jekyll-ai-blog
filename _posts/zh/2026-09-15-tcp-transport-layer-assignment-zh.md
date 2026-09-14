@@ -16,7 +16,7 @@ type: note
 以下是一个快速区分表，帮助澄清两者的区别：
 
 | 层 | OSI模型 | 协议 |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | 第3层 | 网络层 | IP、ICMP、ARP |
 | 第4层 | 传输层 | **TCP**、UDP |
 
@@ -29,5 +29,6 @@ type: note
 一个常用的助记符来描述两者协同工作：**IP**将数据包送到正确的*机器*，**TCP**在该机器上将数据可靠地送到正确的*进程*。
 
 参考资料：
+
 - [TCP - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP)
 - [OSI模型 - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)

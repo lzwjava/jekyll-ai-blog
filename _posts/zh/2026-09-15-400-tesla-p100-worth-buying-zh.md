@@ -19,14 +19,14 @@ type: note
 
 P100 16GB 拥有：
 
-*   **16GB HBM2**
-*   **732 GB/s 内存带宽**
-*   **3584 个 CUDA 核心**
-*   ~**9.3–10.6 TFLOPS FP32**
-*   ~**18–21 TFLOPS FP16**
-*   PCIe 3.0 x16
-*   250W TDP
-*   计算能力 **6.0**（[GPUPoet][1]）
+* **16GB HBM2**
+* **732 GB/s 内存带宽**
+* **3584 个 CUDA 核心**
+* ~**9.3–10.6 TFLOPS FP32**
+* ~**18–21 TFLOPS FP16**
+* PCIe 3.0 x16
+* 250W TDP
+* 计算能力 **6.0**（[GPUPoet][1]）
 
 最吸引人的特性实际上是 **16GB + 732 GB/s，只要 ¥400**。
 
@@ -85,20 +85,20 @@ P100
 
 我会这样分类：
 
-| 用途                     |    ¥400 P100 |
+| 用途 | ¥400 P100 |
 | ----------------------- | -----------: |
-| CUDA 实验               | 🟢 优秀 |
-| 16GB 本地推理           |      🟢 好 |
-| 7B/8B 4-bit LLM         |      🟢 好 |
-| GPU 编程                | 🟢 优秀 |
-| FP32 科学计算           |      🟢 好 |
-| Stable Diffusion        |       🟡 一般 |
-| 现代 LLM 推理           |      🟡 慢 |
-| LLM 微调                |      🔴 差 |
-| LLM 训练                | 🔴 很差 |
-| BF16 工作负载           |        🔴 不支持 |
-| FP8                     |        🔴 不支持 |
-| 游戏                    |     🔴 别买 |
+| CUDA 实验 | 🟢 优秀 |
+| 16GB 本地推理 | 🟢 好 |
+| 7B/8B 4-bit LLM | 🟢 好 |
+| GPU 编程 | 🟢 优秀 |
+| FP32 科学计算 | 🟢 好 |
+| Stable Diffusion | 🟡 一般 |
+| 现代 LLM 推理 | 🟡 慢 |
+| LLM 微调 | 🔴 差 |
+| LLM 训练 | 🔴 很差 |
+| BF16 工作负载 | 🔴 不支持 |
+| FP8 | 🔴 不支持 |
+| 游戏 | 🔴 别买 |
 
 ### 有一件事我要非常仔细地检查
 
@@ -153,8 +153,8 @@ SXM2 版本完全是另一种物理形态，不能随便塞进普通 PC。PCIe 1
 
 参考：
 
-*   [NVIDIA Tesla P100 规格](https://www.nvidia.com/?utm_source=chatgpt.com)
-*   （[GPUPoet][1]）
+* [NVIDIA Tesla P100 规格](https://www.nvidia.com/?utm_source=chatgpt.com)
+* （[GPUPoet][1]）
 
 [1]: https://gpupoet.com/gpu/learn/card/nvidia-tesla-p100?utm_source=chatgpt.com "NVIDIA Tesla P100 16GB Specs, Benchmarks & Pricing"
 [2]: https://getdeploying.com/gpus/nvidia-p100?utm_source=chatgpt.com "P100 Cloud Pricing: Compare 6+ Providers (2026)"

@@ -34,7 +34,7 @@ This is the most flexible approach. Here's the full architecture:
 ### Step 1 — Choose Your Data Source
 
 | Method | Pros | Cons |
-|---|---|---|
+| --- | --- | --- |
 | Apify Actor API | Reliable, maintained | Costs ~$2/1,000 listings |
 | Direct HTTP scraping | Free | Requires Taobao login cookies, prone to breaking |
 | Selenium / browser automation | Handles JS | Slow, captcha risk |
@@ -133,7 +133,7 @@ docker compose up -d
 ## Summary Table
 
 | Approach | Skill Required | Cost | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Apify + Zapier/Make | None | ~$2/1k items | Quick setup |
 | Custom Python bot | Intermediate | Free (+ proxy) | Full control |
 | goofish-watcher (OSS) | Basic Docker | Free | Discord users |
@@ -141,6 +141,7 @@ docker compose up -d
 ---
 
 **References:**
+
 - [Xianyu / Goofish Listings Scraper – Apify](https://apify.com/piotrv1001/xianyu-goofish-listings-scraper)
 - [Goofish Xianyu Search Scraper – Apify](https://apify.com/fetch_cat/goofish-xianyu-search-scraper)
 - [Goofish Scraper (per-item) – Apify](https://apify.com/gio21/goofish-scraper)

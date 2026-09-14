@@ -18,6 +18,7 @@ Fear of debt is extremely common — even when the numbers are objectively manag
 **Understand the Fear First**
 
 Debt anxiety usually comes from one of these roots:
+
 - Loss of control / uncertainty about the future
 - Upbringing or cultural messaging that "debt = failure"
 - Fear of worst-case scenarios (job loss, illness, market crash)
@@ -55,6 +56,7 @@ The fear usually doesn't disappear immediately — it fades as you build a track
 ---
 
 References:
+
 - [Psychology of Debt Anxiety - Verywell Mind](https://www.verywellmind.com/financial-anxiety-5094405)
 - [How to Stop Worrying About Money - NerdWallet](https://www.nerdwallet.com/article/finance/financial-anxiety)
 - [Mortgage Fear Is Normal - The Motley Fool](https://www.fool.com/the-ascent/mortgages/articles/is-it-normal-to-be-scared-of-a-mortgage/)

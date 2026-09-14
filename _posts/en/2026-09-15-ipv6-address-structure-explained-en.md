@@ -39,7 +39,7 @@ One small correction to your equation: you wrote `256/8 = 64` but the correct ma
 **Quick summary table:**
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Total bits | 128 |
 | Number of groups | 8 |
 | Bits per group | 16 |
@@ -47,5 +47,6 @@ One small correction to your equation: you wrote `256/8 = 64` but the correct ma
 | Separator | `:` (colon) |
 
 References:
+
 - [IPv6 Address Architecture – RFC 4291](https://datatracker.ietf.org/doc/html/rfc4291)
 - [IPv6 – Wikipedia](https://en.wikipedia.org/wiki/IPv6#Address_representation)

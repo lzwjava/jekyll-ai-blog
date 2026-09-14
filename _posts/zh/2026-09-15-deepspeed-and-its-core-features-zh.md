@@ -20,11 +20,13 @@ type: note
 DeepSpeed 的系统创新包括几项关键技术：
 
 **ZeRO（零冗余优化器）** — 旗舰级内存优化技术。它将优化器状态、梯度和模型参数在 GPU 之间进行分区，从而大幅降低每个 GPU 的内存使用。有多个变体：
+
 - **ZeRO-Offload** — 将优化器状态和梯度卸载到 CPU 内存，使数十亿参数的训练能够在较少的 GPU 上完成。
 - **ZeRO-Infinity** — 将卸载扩展到 NVMe SSD，彻底打破 GPU 内存墙。
 - **ZeRO++** — 减少巨型模型训练的集合通信开销。
 
 **3D 并行** — 同时结合三种并行形式：
+
 - 数据并行
 - 张量（模型）并行
 - 流水线并行
@@ -51,6 +53,7 @@ ds_report  # 检查您机器上的兼容功能
 ```
 
 **近期亮点（2025–2026）**
+
 - **ZenFlow** — 用于 LLM 训练的无停滞卸载引擎。
 - **SuperOffload** — 在超级芯片上进行大规模 LLM 训练（ASPLOS 2026 荣誉提名）。
 - **DeepCompile** — 分布式训练的编译器优化。
@@ -59,6 +62,7 @@ ds_report  # 检查您机器上的兼容功能
 ---
 
 **参考：**
+
 - [DeepSpeed GitHub 仓库](https://github.com/deepspeedai/DeepSpeed)
 - [DeepSpeed 官方网站](https://www.deepspeed.ai/)
 - [API 文档](https://deepspeed.readthedocs.io/en/latest/)

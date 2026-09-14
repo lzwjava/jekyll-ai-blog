@@ -34,7 +34,7 @@ Apify 上的 **Xianyu / Goofish Listings Scraper** 可让您收集结构化的�
 ### 步骤 1 — 选择数据源
 
 | 方法 | 优点 | 缺点 |
-|---|---|---|
+| --- | --- | --- |
 | Apify Actor API | 可靠、持续维护 | 约 $2/1,000 条列表 |
 | 直接 HTTP 抓取 | 免费 | 需要淘宝登录 Cookie、容易失效 |
 | Selenium / 浏览器自动化 | 处理 JavaScript | 速度慢、有验证码风险 |
@@ -133,7 +133,7 @@ docker compose up -d
 ## 汇总表
 
 | 方法 | 所需技能 | 成本 | 最适合 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Apify + Zapier/Make | 无需 | 约 $2/1k 条 | 快速设置 |
 | 自定义 Python 机器人 | 中级 | 免费（+代理） | 完全控制 |
 | goofish-watcher（开源） | 基础 Docker | 免费 | Discord 用户 |
@@ -141,6 +141,7 @@ docker compose up -d
 ---
 
 **参考资料：**
+
 - [Xianyu / Goofish Listings Scraper – Apify](https://apify.com/piotrv1001/xianyu-goofish-listings-scraper)
 - [Goofish Xianyu Search Scraper – Apify](https://apify.com/fetch_cat/goofish-xianyu-search-scraper)
 - [Goofish Scraper (per-item) – Apify](https://apify.com/gio21/goofish-scraper)

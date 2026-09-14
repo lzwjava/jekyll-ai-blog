@@ -20,11 +20,13 @@ type: note
 DeepSpeed's system innovations include several key technologies:
 
 **ZeRO (Zero Redundancy Optimizer)** — The flagship memory optimization technique. It partitions optimizer states, gradients, and model parameters across GPUs to drastically reduce per-GPU memory usage. There are several variants:
+
 - **ZeRO-Offload** — offloads optimizer states and gradients to CPU memory, enabling billion-scale training on fewer GPUs.
 - **ZeRO-Infinity** — extends offloading to NVMe SSDs, breaking the GPU memory wall entirely.
 - **ZeRO++** — reduces collective communication overhead for giant model training.
 
 **3D Parallelism** — Combines three forms of parallelism simultaneously:
+
 - Data Parallelism
 - Tensor (Model) Parallelism
 - Pipeline Parallelism
@@ -51,6 +53,7 @@ ds_report  # Check compatible features on your machine
 ```
 
 **Recent highlights (2025–2026)**
+
 - **ZenFlow** — Stall-free offloading engine for LLM training.
 - **SuperOffload** — Large-scale LLM training on superchips (ASPLOS 2026 Honorable Mention).
 - **DeepCompile** — Compiler optimizations for distributed training.
@@ -59,6 +62,7 @@ ds_report  # Check compatible features on your machine
 ---
 
 **References:**
+
 - [DeepSpeed GitHub Repository](https://github.com/deepspeedai/DeepSpeed)
 - [DeepSpeed Official Website](https://www.deepspeed.ai/)
 - [API Documentation](https://deepspeed.readthedocs.io/en/latest/)

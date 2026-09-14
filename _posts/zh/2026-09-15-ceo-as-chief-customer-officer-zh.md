@@ -40,6 +40,7 @@ type: note
 ---
 
 参考文献：
+
 - [黄仁勋如何构建NVIDIA的CUDA生态系统](https://www.wired.com/story/nvidia-cuda-gpu-jensen-huang/)
 - [NVIDIA CEO黄仁勋的人工智能主导战略](https://fortune.com/2024/01/nvidia-jensen-huang-ai-strategy/)
 - [CUDA：NVIDIA人工智能帝国背后的秘密武器](https://www.theverge.com/nvidia-cuda-history)

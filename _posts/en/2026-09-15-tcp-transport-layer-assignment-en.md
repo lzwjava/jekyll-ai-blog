@@ -29,5 +29,6 @@ Here's a quick breakdown to clarify the distinction:
 A common mnemonic for the two working together: **IP** gets packets to the right *machine*, **TCP** gets data to the right *process* on that machine reliably.
 
 References:
+
 - [TCP - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP)
 - [OSI Model - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)

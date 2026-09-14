@@ -18,6 +18,7 @@ Differential Manchester Encoding 是一种自同步线路编码，其中每个 b
 **时钟脉冲（bit 中间跳变）：** 每个 bit 周期在**中间**都有一个强制跳变——这提供了时钟同步，并且无论 bit 值如何都存在。
 
 **bit 编码（bit 起始处跳变）：**
+
 - **bit 0：** 在 bit 周期开始处**有**跳变。
 - **bit 1：** 在 bit 周期开始处**没有**跳变。
 
@@ -26,7 +27,7 @@ Differential Manchester Encoding 是一种自同步线路编码，其中每个 b
 简要总结规则如下：
 
 | 情况 | bit 起始处是否有跳变？ | bit 中间处是否有跳变？ |
-|---|---|---|
+| --- | --- | --- |
 | bit = **0** | ✅ 是（总是） | ✅ 是（总是） |
 | bit = **1** | ❌ 否 | ✅ 是（总是） |
 
@@ -35,5 +36,6 @@ Differential Manchester Encoding 是一种自同步线路编码，其中每个 b
 ---
 
 **参考：**
+
 - [Differential Manchester encoding — Wikipedia](https://en.wikipedia.org/wiki/Differential_Manchester_encoding)
 - [Data encoding techniques — Forouzan, Data Communications and Networking](https://www.mheducation.com/highered/product/data-communications-networking-forouzan/M9780073376226.html)

@@ -18,13 +18,14 @@ Differential Manchester Encoding is a self-clocking line code where each bit per
 **Clock pulse (mid-bit transition):** Every bit period has a mandatory transition in the **middle** — this is what provides clock synchronization and is present regardless of the bit value.
 
 **Bit encoding (start-of-bit transition):**
+
 - **Bit 0:** There **is** a transition at the *start* of the bit period.
 - **Bit 1:** There is **no** transition at the *start* of the bit period.
 
 The actual signal level doesn't matter — only whether a transition occurs. The mid-bit transition always happens.To summarize the rules concisely:
 
 | Situation | Transition at bit start? | Transition at bit mid? |
-|---|---|---|
+| --- | --- | --- |
 | Bit = **0** | ✅ Yes (always) | ✅ Yes (always) |
 | Bit = **1** | ❌ No | ✅ Yes (always) |
 
@@ -33,5 +34,6 @@ The actual signal level doesn't matter — only whether a transition occurs. The
 ---
 
 **References:**
+
 - [Differential Manchester encoding — Wikipedia](https://en.wikipedia.org/wiki/Differential_Manchester_encoding)
 - [Data encoding techniques — Forouzan, Data Communications and Networking](https://www.mheducation.com/highered/product/data-communications-networking-forouzan/M9780073376226.html)

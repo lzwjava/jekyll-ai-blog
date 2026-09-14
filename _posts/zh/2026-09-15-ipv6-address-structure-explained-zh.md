@@ -39,7 +39,7 @@ type: note
 **快速汇总表格：**
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 总位数 | 128 |
 | 组数 | 8 |
 | 每组位数 | 16 |
@@ -47,5 +47,6 @@ type: note
 | 分隔符 | `:`（冒号） |
 
 参考资料：
+
 - [IPv6地址架构 – RFC 4291](https://datatracker.ietf.org/doc/html/rfc4291)
 - [IPv6 – 维基百科](https://en.wikipedia.org/wiki/IPv6#Address_representation)

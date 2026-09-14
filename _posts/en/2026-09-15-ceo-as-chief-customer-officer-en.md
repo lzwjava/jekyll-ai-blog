@@ -40,6 +40,7 @@ The result is that CUDA now has **millions of developers** and is nearly impossi
 ---
 
 References:
+
 - [How Jensen Huang Built NVIDIA's CUDA Ecosystem](https://www.wired.com/story/nvidia-cuda-gpu-jensen-huang/)
 - [NVIDIA CEO Jensen Huang's strategy for AI dominance](https://fortune.com/2024/01/nvidia-jensen-huang-ai-strategy/)
 - [CUDA: The secret weapon behind NVIDIA's AI empire](https://www.theverge.com/nvidia-cuda-history)

@@ -18,6 +18,7 @@ type: note
 **首先理解恐惧本身**
 
 债务焦虑通常源于以下根源之一：
+
 - 失去控制感/对未来不确定
 - 成长环境或文化信息传达的“债务 = 失败”观念
 - 对最坏情况的恐惧（失业、疾病、市场崩盘）
@@ -55,6 +56,7 @@ type: note
 ---
 
 参考链接：
+
 - [债务焦虑心理学 - Verywell Mind](https://www.verywellmind.com/financial-anxiety-5094405)
 - [如何停止为钱担忧 - NerdWallet](https://www.nerdwallet.com/article/finance/financial-anxiety)
 - [对房贷的恐惧是正常的 - The Motley Fool](https://www.fool.com/the-ascent/mortgages/articles/is-it-normal-to-be-scared-of-a-mortgage/)

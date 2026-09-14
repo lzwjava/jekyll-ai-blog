@@ -37,5 +37,6 @@ $$e_{rms} = \frac{\Delta}{\sqrt{12}}$$
 **总结**：两者呈反比关系且可精确量化：量化误差受限于步长的一半（$\Delta/2$），而步长随电平数量增加而缩小。每增加一个分辨率比特，电平数量翻倍，$\Delta$ 减半，最大误差也减半——这正是高保真音频使用16–24比特（65,536–1,600万个电平）而语音电话仅用8比特（256个电平）的原因。
 
 **参考文献：**
+
 - [量化（信号处理）— 维基百科](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [信号与量化噪声比 — 维基百科](https://en.wikipedia.org/wiki/Signal-to-quantization-noise_ratio)
