@@ -33,7 +33,7 @@ M60 是一款基于 **Maxwell 架构**（2015 年）的 GPU，主要面向 **NVI
 **卖家声称的评估**
 
 | 声称 | 实际情况 |
-|---|---|
+| --- | --- |
 | "适合AI" | ❌ 很弱——无 FP16、无 Tensor Core、CUDA 计算效率低 |
 | "渲染/建模" | ⚠️ 部分正确——Maxwell 支持 OpenGL/DirectX，但已是十年前的架构 |
 | "虚拟化" | ✅ 这正是它的设计用途——GRID vGPU |
@@ -47,7 +47,7 @@ M60 是一款基于 **Maxwell 架构**（2015 年）的 GPU，主要面向 **NVI
 **M60 vs P100 —— 哪个更好？**
 
 | | Tesla M60 | Tesla P100 |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | Maxwell（2015） | Pascal（2016） |
 | 显存 | 2× 8GB（分离式） | 16GB 统一 HBM2 |
 | FP16 | ❌ 不支持 | ✅ 支持 |
@@ -67,6 +67,7 @@ P100 在几乎所有计算维度上都胜出。M60 的分离式显存架构也�
 - 你已有合适的服务器散热方案
 
 **什么时候应该避开：**
+
 - 任何 AI/ML 工作负载——请选 P100 代替
 - 任何需要大一统显存的工作负载
 - 如果价格接近 P100 水平
@@ -80,6 +81,7 @@ M60 是一款被卖家夸大宣传的 VDI 专用卡。在合适的价格（约 2
 ---
 
 参考来源：
+
 - [NVIDIA Tesla M60 规格 – TechPowerUp](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760)
 - [Tesla M60 vs P100 计算对比 – GPUpoet](https://gpupoet.com)
 - [NVIDIA GRID M60 数据表 – NVIDIA](https://images.nvidia.com/content/tesla/pdf/184427-Tesla-M60-DS-NV-Final-designleft.pdf)

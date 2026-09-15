@@ -16,7 +16,7 @@ type: note
 以下是完整的现代产品线顺序：
 
 | 年份 | 架构 | 代表性 GPU |
-|------|-------------|--------------|
+| ------ | ------------- | -------------- |
 | 2016 | **Pascal** | GTX 10 系列、Tesla P100 |
 | 2017 | **Volta** | Tesla V100 |
 | 2018 | **Turing** | RTX 20 系列、T4 |
@@ -28,6 +28,7 @@ type: note
 因此，**Ampere 比 Pascal 晚了 4 代**，而不是更早。Ampere 的 A100 配备了 HBM2e 显存、第三代 Tensor Core、BF16 和 TF32 支持、用于推理的 2:4 稀疏性以及 MIG（多实例 GPU）分区——相比 Pascal 是一次重大飞跃。
 
 **参考文献：**
+
 - [NVIDIA GPU 架构 — NVIDIA 官方](https://www.nvidia.com/en-us/technologies/)
 - [Pascal 微架构 — 维基百科](https://en.wikipedia.org/wiki/Pascal_(microarchitecture))
 - [NVIDIA 数据中心 GPU 发展历程 — ServerSimply](https://www.serversimply.com/blog/evolution-of-nvidia-data-center-gpus)

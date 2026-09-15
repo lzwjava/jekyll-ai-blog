@@ -24,5 +24,6 @@ The seller is sharing their experience using a **Dell workstation** with a **P10
 ---
 
 **References:**
+
 - [NVIDIA Tesla P100 Overview](https://www.nvidia.com/en-us/data-center/tesla-p100/) — confirms passive cooling design
 - [Xianyu (闲鱼)](https://www.goofish.com/) — Chinese second-hand marketplace where this listing appears

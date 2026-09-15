@@ -24,5 +24,6 @@ type: note
 ---
 
 **参考链接：**
+
 - [NVIDIA Tesla P100 概述](https://www.nvidia.com/en-us/data-center/tesla-p100/) — 确认其被动散热设计
 - [闲鱼 (Xianyu)](https://www.goofish.com/) — 该商品所在的国内二手交易平台

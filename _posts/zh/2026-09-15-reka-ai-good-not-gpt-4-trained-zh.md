@@ -39,6 +39,7 @@ Reka AI 是一家面向企业的前沿人工智能实验室，从头开始设计
 ---
 
 **参考资料：**
+
 - [Reka AI Wiki](https://aiwiki.ai/wiki/reka_ai)
 - [Reka Core vs GPT-4 — The Decoder](https://the-decoder.com/reka-core-is-the-next-multimodal-ai-model-that-makes-gpt-4-seem-less-special/)
 - [Reka 1.1 亿美元融资公告](https://reka.ai/news/reka-secures-110-million-to-accelerate-adoption-of-its-multimodal-ai-platforms)

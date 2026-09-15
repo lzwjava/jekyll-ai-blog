@@ -39,6 +39,7 @@ The main downside: the platform lacks transparent public pricing and is clearly 
 ---
 
 **References:**
+
 - [Reka AI Wiki](https://aiwiki.ai/wiki/reka_ai)
 - [Reka Core vs GPT-4 — The Decoder](https://the-decoder.com/reka-core-is-the-next-multimodal-ai-model-that-makes-gpt-4-seem-less-special/)
 - [Reka $110M Funding Announcement](https://reka.ai/news/reka-secures-110-million-to-accelerate-adoption-of-its-multimodal-ai-platforms)

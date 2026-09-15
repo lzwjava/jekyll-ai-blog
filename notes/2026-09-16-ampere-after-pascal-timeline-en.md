@@ -16,7 +16,7 @@ type: note
 Here's the full modern lineup in order:
 
 | Year | Architecture | Notable GPUs |
-|------|-------------|--------------|
+| ------ | ------------- | -------------- |
 | 2016 | **Pascal** | GTX 10 series, Tesla P100 |
 | 2017 | **Volta** | Tesla V100 |
 | 2018 | **Turing** | RTX 20 series, T4 |
@@ -28,6 +28,7 @@ Here's the full modern lineup in order:
 So **Ampere is 4 generations after Pascal**, not before it. Ampere's A100 featured HBM2e memory, 3rd-gen Tensor Cores, BF16 and TF32 support, 2:4 sparsity for inference, and MIG (Multi-Instance GPU) partitioning — a major leap over Pascal.
 
 **References:**
+
 - [NVIDIA GPU Architectures — NVIDIA Official](https://www.nvidia.com/en-us/technologies/)
 - [Pascal Microarchitecture — Wikipedia](https://en.wikipedia.org/wiki/Pascal_(microarchitecture))
 - [Evolution of NVIDIA Data Center GPUs — ServerSimply](https://www.serversimply.com/blog/evolution-of-nvidia-data-center-gpus)

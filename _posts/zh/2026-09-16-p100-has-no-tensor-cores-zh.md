@@ -20,7 +20,7 @@ V100（Volta 架构，2017 年）是首款配备 Tensor Cores 的 GPU，每颗 G
 以下是快速对比：
 
 | 特性 | P100（Pascal） | V100（Volta） |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | Pascal | Volta |
 | 发布年份 | 2016 | 2017 |
 | Tensor Cores | ❌ 无 | ✅ 640 |
@@ -29,6 +29,7 @@ V100（Volta 架构，2017 年）是首款配备 Tensor Cores 的 GPU，每颗 G
 因此，Tensor Cores 始于 **V100**，而非 P100。
 
 **参考资料：**
+
 - [Benchmarking the NVIDIA V100 GPU and Tensor Cores](https://link.springer.com/chapter/10.1007/978-3-030-10549-5_35)
 - [Tesla V100 vs Tesla P100 – Key differences](https://www.linkedin.com/pulse/tesla-v100-vs-p100-key-differences-deep-narayan-prasad)
 - [NVIDIA Tesla P100 16GB Specs](https://gpupoet.com/gpu/learn/card/nvidia-tesla-p100)

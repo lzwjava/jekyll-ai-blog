@@ -40,6 +40,7 @@ If the price is reasonable (under ~$150 USD equivalent) and the seller has a cre
 ---
 
 References:
+
 - [NVIDIA Tesla P100 Specs & Pricing – GPUpoet](https://gpupoet.com/gpu/learn/card/nvidia-tesla-p100)
 - [Tesla P100 Used Price & History – GPUDojo](https://gpudojo.com/tesla-p100)
 - [P100 Cloud Pricing & Specs – gpus.io](https://gpus.io/en/gpus/teslap100)

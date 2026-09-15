@@ -40,6 +40,7 @@ P100配备16 GB HBM2显存，带宽732 GB/s，FP32性能9.3 TFLOPS，TDP为250W�
 ---
 
 参考来源：
+
 - [NVIDIA Tesla P100 规格与价格 – GPUpoet](https://gpupoet.com/gpu/learn/card/nvidia-tesla-p100)
 - [Tesla P100 二手价格与历史 – GPUDojo](https://gpudojo.com/tesla-p100)
 - [P100 云价格与规格 – gpus.io](https://gpus.io/en/gpus/teslap100)

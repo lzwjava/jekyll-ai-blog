@@ -37,6 +37,7 @@ type: note
 ```
 
 **为什么 A16 在这里很合适：**
+
 - A16 拥有 **64GB VRAM**（4×16GB），足以容纳“热点”专家缓存
 - 服务器级平台 = 大容量 DRAM 余量（可支持 512GB+）
 - PCIe 4.0 x16 提供约 32 GB/s 带宽——如果专家交换频率较低，则足够使用
@@ -45,6 +46,7 @@ type: note
 DeepSeek-V2/V3 每个 token 仅激活 **256 个专家中的 top-2**。因此，热门专家的缓存命中率很高，最大限度减少了 PCIe 传输。这使得该策略能够实现可接受的 TPS（每秒事务处理量）。
 
 **实现此功能的工具：**
+
 - `llama.cpp` 使用 `-ngl` 和卸载调优
 - `mlx`（Apple）——类似理念
 - `KTransformers`——专为 CPU+GPU 混合架构上的这种专家卸载模式而设计
@@ -52,6 +54,7 @@ DeepSeek-V2/V3 每个 token 仅激活 **256 个专家中的 top-2**。因此，�
 A16 的价值主张本质上是：以低于 A100/H100 的每 GB 成本提供大容量 VRAM 池，非常适合这种缓存密集型工作负载。
 
 **参考链接：**
+
 - [KTransformers：MoE 模型的专家卸载技术](https://github.com/kvcache-ai/ktransformers)
 - [DeepSeek-V2 技术报告（MoE 架构）](https://arxiv.org/abs/2405.04434)
 - [llama.cpp GPU 卸载文档](https://github.com/ggerganov/llama.cpp)
