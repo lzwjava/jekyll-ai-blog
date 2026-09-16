@@ -33,7 +33,7 @@ This is a genuinely interesting philosophical position, and there's real appeal 
 **A more balanced reframe**
 
 | Instead of... | Try... |
-|---|---|
+| --- | --- |
 | "I don't care about humans" | "I choose depth over noise" |
 | "Ignore all politics/news" | "Limit news, stay informed minimally" |
 | "Only objective things matter" | "I find meaning in ideas *and* people" |
@@ -43,6 +43,7 @@ The Stoics, mathematicians, and physicists you might admire — Euler, Newton, M
 ---
 
 References:
+
 - [Social Connection and Longevity — Harvard Study](https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-long-healthy-life/)
 - [News Avoidance and Mental Health — Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2022/news-avoidance)
 - [Stoicism on Engagement vs. Withdrawal — Daily Stoic](https://dailystoic.com/stoicism-and-politics/)

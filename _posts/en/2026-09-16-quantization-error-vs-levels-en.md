@@ -24,7 +24,7 @@ Answer:
 ### Their Relationship
 
 | Quantization Levels | Effect on Error |
-|---|---|
+| --- | --- |
 | More levels (more bits) | Smaller step size → smaller max error |
 | Fewer levels (fewer bits) | Larger step size → larger max error |
 
@@ -44,5 +44,6 @@ So quantization error is **inversely proportional** to the number of quantizatio
 This trade-off is central to audio encoding, ADC design, and signal processing — e.g., CD audio uses 16-bit depth (65,536 levels) to keep quantization noise below audible thresholds.
 
 References:
+
 - [Quantization (signal processing) – Wikipedia](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [Quantization Error – Analog Devices Glossary](https://www.analog.com/en/design-center/glossary/quantization-error.html)

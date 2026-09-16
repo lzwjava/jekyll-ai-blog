@@ -12,6 +12,7 @@ type: note
 我通过提取其完整矢量文本（55页，~242 KB标签）阅读了该PDF。注意：该文件是**原理图（Схема = 俄语中的"schematic"）**，而非板图。以下是内容。
 
 ## 文档标识
+
 - **文件：** `Gigabyte RTX 2060 Gaming OC Pro 6GB (GV-N2060GAMINGOC PRO-6GD) Rev 2.0 Схема.pdf`（1.1 MB，55页，A4横向）
 - **来源：** NVIDIA参考设计 **PG161-A00**，Rev 2.0，日期2019-03，由技嘉定制为 **GV-N2060GAMINGOC PRO-6GD**（标题栏显示"Custom GV-N2060GAMINGOC PRO-6GD 2.0"，Rev 2.0）。
 - **板卡描述：** TU106 6GB GDDR6，192-bit，PCIe x16，输出接口 **DVI-D/DP + DP + HDMI**
@@ -23,7 +24,7 @@ type: note
 ## 页码映射
 
 | 页码 | 内容 |
-|---|---|
+| --- | --- |
 | 1–2 | 目录 / 框图 |
 | 3–4 | PCI Express x16边缘连接器 + PCIe RC端接 |
 | 5–14 | GPU↔内存总线 FBA/FBB/FBC/FBD，CMD/CLK/WCK，数据，DBI/EDC |
@@ -41,6 +42,7 @@ type: note
 | 54–55 | **技嘉定制页面：** MCU（U634 HT32F52241）+ RGB LED / 风扇控制 |
 
 ## 故障排查关键器件
+
 - **U504 uP9512R** – NVVDD PWM控制器（VQFN5×5-40L）
 - **U3 uP1666QQKF** – FBVDDQ控制器（1.35 V，2相）
 - **U15 GS9216TQ** – 1V8_AON降压；**U13 GS9216TQ** – PEXVDD降压（~1.0 V）
@@ -51,6 +53,7 @@ type: note
 - **U634 HT32F52241** + **U633 APL431** + **U849 APL3552** – 技嘉MCU/LED/风扇控制
 
 ## 电源轨/上电时序
+
 `12V (PCIe 8-pin) → 5V → 3V3/3V3_SEQ → 1V8_AON → NV3V3 → PEXVDD → NVVDD / FBVDDQ`，根据第43–44页通过PGOOD链（`PS_5V_PGOOD`、`PS_1V8_AON_PGOOD`、`PS_PEXVDD_PGOOD`、`PS_NVVDD_PGOOD`、`PS_VMON_PGOOD`、`PS_FBVDDQ_EN`）使能。
 
 注意：从矢量原理图提取的文本可能会使某些小数值/网络名称出现乱码，因此在操作前请务必对照实际PDF页面核对任何具体的电阻/电容值。

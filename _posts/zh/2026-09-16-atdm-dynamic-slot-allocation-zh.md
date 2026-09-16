@@ -26,10 +26,10 @@ type: note
 **主要特征：**
 
 | 特征 | 同步时分复用 | 异步时分复用 |
-|---|---|---|
+| --- | --- | --- |
 | 时隙分配 | 固定 | 动态 / 按需 |
-| 效率 | 低（空闲时隙被浪费）| 高（无空闲时隙）|
-| 开销 | 无（位置即身份）| 需要地址头 |
+| 效率 | 低（空闲时隙被浪费） | 高（无空闲时隙） |
+| 开销 | 无（位置即身份） | 需要地址头 |
 | 复杂度 | 简单 | 较复杂 |
 
 **为何重要：**
@@ -41,6 +41,7 @@ type: note
 **常见应用场景：** ATM 网络、统计复用器以及早期宽带通信系统。
 
 参考资料：
+
 - [异步时分复用 – Techopedia](https://www.techopedia.com/definition/1704/asynchronous-time-division-multiplexing-atdm)
 - [多路复用 – GeeksforGeeks](https://www.geeksforgeeks.org/multiplexing-channel-sharing-in-computer-network/)
 - [ATM（异步传输模式）– Britannica](https://www.britannica.com/technology/asynchronous-transfer-mode)

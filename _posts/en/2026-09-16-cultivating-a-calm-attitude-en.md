@@ -44,6 +44,7 @@ Calm is a skill, not a personality trait. It builds slowly through repetition, n
 ---
 
 References:
+
 - [The Science of Calm — Greater Good Magazine](https://greatergood.berkeley.edu/topic/mindfulness)
 - [Box Breathing Technique — Cleveland Clinic](https://health.clevelandclinic.org/box-breathing-benefits/)
 - [Stoic Philosophy and Emotional Regulation — Daily Stoic](https://dailystoic.com/stoicism-emotions/)

@@ -26,7 +26,7 @@ In traditional (synchronous) TDM, every channel gets a fixed time slot in a repe
 **Key characteristics:**
 
 | Feature | Synchronous TDM | Asynchronous TDM |
-|---|---|---|
+| --- | --- | --- |
 | Slot assignment | Fixed | Dynamic / on-demand |
 | Efficiency | Low (idle slots wasted) | High (no idle slots) |
 | Overhead | None (position = identity) | Needs address headers |
@@ -41,6 +41,7 @@ In traditional (synchronous) TDM, every channel gets a fixed time slot in a repe
 **Common use cases:** ATM networks, statistical multiplexers, and early broadband communication systems.
 
 References:
+
 - [Asynchronous Time Division Multiplexing – Techopedia](https://www.techopedia.com/definition/1704/asynchronous-time-division-multiplexing-atdm)
 - [Multiplexing – GeeksforGeeks](https://www.geeksforgeeks.org/multiplexing-channel-sharing-in-computer-network/)
 - [ATM (Asynchronous Transfer Mode) – Britannica](https://www.britannica.com/technology/asynchronous-transfer-mode)

@@ -36,6 +36,7 @@ nvidia-smi --query-gpu=gpu_name,vbios_version --format=csv
 This displays the GPU name and vBIOS version in CSV format. The vBIOS version is usually a series of numbers and letters representing the firmware version of an NVIDIA GPU.
 
 **Method B — nvflash (Windows/Linux):**
+
 ```bash
 nvflash --list      # List all GPUs and their BIOS versions
 nvflash --version   # Show current GPU BIOS version
@@ -56,6 +57,7 @@ The vBIOS contains memory initialization tables. A vBIOS built for 16 GB cannot 
 So if the reported vBIOS version doesn't match what TechPowerUp's BIOS database shows for that specific SKU and VRAM configuration, it's a red flag.
 
 **Steps to verify:**
+
 1. Get the vBIOS version string from `nvidia-smi` or GPU-Z.
 2. Look it up in the **TechPowerUp GPU BIOS Database** (`https://www.techpowerup.com/vgabios/`).
 3. Check that the version matches the expected entry for your exact model (VRAM size, manufacturer).
@@ -83,7 +85,7 @@ You can cross-check using `nvidia-smi --query-gpu=pci.device_id,pci.sub_device_i
 **Summary Table:**
 
 | Goal | Tool | Command / Method |
-|---|---|---|
+| --- | --- | --- |
 | Quick vBIOS check | nvidia-smi | `nvidia-smi -q \| grep VBIOS` |
 | Visual + VRAM info | GPU-Z | Check BIOS version + Memory Type fields |
 | ROM dump & compare | nvflash | `nvflash -s backup.rom` |
@@ -93,6 +95,7 @@ You can cross-check using `nvidia-smi --query-gpu=pci.device_id,pci.sub_device_i
 ---
 
 **References:**
+
 - [Check VBIOS Version using nvidia-smi](https://lindevs.com/check-vbios-version-of-nvidia-gpu-using-nvidia-smi)
 - [GPU BIOS Flash Guide 2026 (mvktech)](https://www.mvktech.net/gpu-bios-flash-guide/)
 - [nvidia-bios-reader — VRAM memory profile decoder](https://github.com/fmuniztriana/nvidia-bios-reader)

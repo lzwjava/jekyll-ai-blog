@@ -36,6 +36,7 @@ nvidia-smi --query-gpu=gpu_name,vbios_version --format=csv
 这会以 CSV 格式显示 GPU 名称和 vBIOS 版本。vBIOS 版本通常是一系列代表 NVIDIA GPU 固件版本的数字和字母。
 
 **方法 B — nvflash (Windows/Linux)：**
+
 ```bash
 nvflash --list      # 列出所有 GPU 及其 BIOS 版本
 nvflash --version   # 显示当前 GPU BIOS 版本
@@ -56,9 +57,10 @@ vBIOS 包含内存初始化表。为 16 GB 构建的 vBIOS 不能应用于 12 GB
 因此，如果报告的 vBIOS 版本与 TechPowerUp 的 BIOS 数据库中针对该特定 SKU 和 VRAM 配置的条目不匹配，那就是一个危险信号。
 
 **验证步骤：**
-1.  从 `nvidia-smi` 或 GPU-Z 获取 vBIOS 版本字符串。
-2.  在 **TechPowerUp GPU BIOS 数据库** (`https://www.techpowerup.com/vgabios/`) 中查找。
-3.  检查该版本是否与你确切型号（VRAM 大小、制造商）的预期条目匹配。
+
+1. 从 `nvidia-smi` 或 GPU-Z 获取 vBIOS 版本字符串。
+2. 在 **TechPowerUp GPU BIOS 数据库** (`https://www.techpowerup.com/vgabios/`) 中查找。
+3. 检查该版本是否与你确切型号（VRAM 大小、制造商）的预期条目匹配。
 
 ---
 
@@ -83,7 +85,7 @@ GPU-Z 通常用于识别二手市场上假冒或虚标的 GPU。例如，如果 
 **总结表：**
 
 | 目标 | 工具 | 命令 / 方法 |
-|---|---|---|
+| --- | --- | --- |
 | 快速检查 vBIOS | nvidia-smi | `nvidia-smi -q \| grep VBIOS` |
 | 可视化 + VRAM 信息 | GPU-Z | 检查 BIOS 版本 + 内存类型字段 |
 | ROM 导出与比较 | nvflash | `nvflash -s backup.rom` |
@@ -93,6 +95,7 @@ GPU-Z 通常用于识别二手市场上假冒或虚标的 GPU。例如，如果 
 ---
 
 **参考资料：**
+
 - [使用 nvidia-smi 检查 VBIOS 版本](https://lindevs.com/check-vbios-version-of-nvidia-gpu-using-nvidia-smi)
 - [GPU BIOS 刷写指南 2026 (mvktech)](https://www.mvktech.net/gpu-bios-flash-guide/)
 - [nvidia-bios-reader — VRAM 内存配置文件解码器](https://github.com/fmuniztriana/nvidia-bios-reader)

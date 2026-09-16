@@ -33,7 +33,7 @@ type: note
 **一个更平衡的重新框架**
 
 | 与其…… | 不如…… |
-|---|---|
+| --- | --- |
 | “我不关心人类” | “我选择深度而非噪音” |
 | “无视所有政治/新闻” | “限制新闻，保持最低限度的知情” |
 | “只有客观事物才重要” | “我在思想*和*人中寻找意义” |
@@ -43,6 +43,7 @@ type: note
 ---
 
 参考资料：
+
 - [社会联系与长寿——哈佛研究](https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-long-healthy-life/)
 - [新闻回避与心理健康——路透社研究所](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2022/news-avoidance)
 - [斯多葛主义论参与与退避——每日斯多葛](https://dailystoic.com/stoicism-and-politics/)

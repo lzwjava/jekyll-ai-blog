@@ -34,6 +34,7 @@ type: note
 较难控制的因素，但IPO、员工所在公司被收购（通过股票期权）、保险赔付或家族财富转移也扮演着角色。
 
 **大多数路径的共同点：**
+
 - 早期承担经过计算的风险
 - 避免生活水平膨胀
 - 将利润再投资而非消费
@@ -41,6 +42,7 @@ type: note
 - 发展一项可超越工作时间而扩展的技能或资产
 
 参考资料：
+
 - [The Millionaire Next Door – Key Findings](https://www.goodreads.com/book/show/998.The_Millionaire_Next_Door)
 - [How Self-Made Billionaires Got Rich – Investopedia](https://www.investopedia.com/articles/investing/102715/how-selfmade-billionaires-got-rich.asp)
 - [The Psychology of Money – Morgan Housel](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)

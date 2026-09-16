@@ -44,6 +44,7 @@ type: note
 ---
 
 参考来源：
+
 - [冷静的科学 — 大善杂志](https://greatergood.berkeley.edu/topic/mindfulness)
 - [盒式呼吸技巧 — 克利夫兰诊所](https://health.clevelandclinic.org/box-breathing-benefits/)
 - [斯多葛哲学与情绪调节 — 每日斯多葛](https://dailystoic.com/stoicism-emotions/)

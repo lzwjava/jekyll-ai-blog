@@ -12,6 +12,7 @@ type: note
 I read the PDF by extracting its full vector text (55 pages, ~242 KB of labels). Note: the file is a **schematic (Схема = "schematic" in Russian)**, not a boardview. Here's what's in it.
 
 ## Document identity
+
 - **File:** `Gigabyte RTX 2060 Gaming OC Pro 6GB (GV-N2060GAMINGOC PRO-6GD) Rev 2.0 Схема.pdf` (1.1 MB, 55 pages, A4 landscape)
 - **Origin:** NVIDIA reference design **PG161-A00**, Rev 2.0, dated 2019-03, customized by Gigabyte as the **GV-N2060GAMINGOC PRO-6GD** (title block says "Custom GV-N2060GAMINGOC PRO-6GD 2.0", Rev 2.0).
 - **Board description:** TU106 6GB GDDR6, 192-bit, PCIe x16, outputs **DVI-D/DP + DP + HDMI**
@@ -23,7 +24,7 @@ I read the PDF by extracting its full vector text (55 pages, ~242 KB of labels).
 ## Page map
 
 | Pages | Content |
-|---|---|
+| --- | --- |
 | 1–2 | Table of contents / Block diagram |
 | 3–4 | PCI Express x16 edge + PCIe RC terminations |
 | 5–14 | GPU↔memory buses FBA/FBB/FBC/FBD, CMD/CLK/WCK, data, DBI/EDC |
@@ -41,6 +42,7 @@ I read the PDF by extracting its full vector text (55 pages, ~242 KB of labels).
 | 54–55 | **Gigabyte custom pages:** MCU (U634 HT32F52241) + RGB LED / fan control |
 
 ## Key devices for troubleshooting
+
 - **U504 uP9512R** – NVVDD PWM controller (VQFN5×5-40L)
 - **U3 uP1666QQKF** – FBVDDQ controller (1.35 V, 2-phase)
 - **U15 GS9216TQ** – 1V8_AON buck; **U13 GS9216TQ** – PEXVDD buck (~1.0 V)
@@ -51,6 +53,7 @@ I read the PDF by extracting its full vector text (55 pages, ~242 KB of labels).
 - **U634 HT32F52241** + **U633 APL431** + **U849 APL3552** – Gigabyte MCU/LED/fan control
 
 ## Rails/sequence
+
 `12V (PCIe 8-pin) → 5V → 3V3/3V3_SEQ → 1V8_AON → NV3V3 → PEXVDD → NVVDD / FBVDDQ`, enabled per sheets 43–44 with PGOOD chains (`PS_5V_PGOOD`, `PS_1V8_AON_PGOOD`, `PS_PEXVDD_PGOOD`, `PS_NVVDD_PGOOD`, `PS_VMON_PGOOD`, `PS_FBVDDQ_EN`).
 
 Caveat: text extracted from a vector schematic can garble some small values/net names, so double-check any specific resistor/cap value on the actual PDF page before acting.

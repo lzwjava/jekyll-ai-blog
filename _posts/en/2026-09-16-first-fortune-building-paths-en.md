@@ -34,6 +34,7 @@ High-performing salespeople in industries like real estate, finance, or SaaS can
 Less controllable, but IPOs, acquisitions of companies people worked at (via stock options), insurance payouts, or family wealth transfers play a role.
 
 **Common Threads Across Most Paths:**
+
 - Taking calculated risks early
 - Avoiding lifestyle inflation
 - Reinvesting profits rather than consuming them
@@ -41,6 +42,7 @@ Less controllable, but IPOs, acquisitions of companies people worked at (via sto
 - Developing a skill or asset that scales beyond hours worked
 
 References:
+
 - [The Millionaire Next Door – Key Findings](https://www.goodreads.com/book/show/998.The_Millionaire_Next_Door)
 - [How Self-Made Billionaires Got Rich – Investopedia](https://www.investopedia.com/articles/investing/102715/how-selfmade-billionaires-got-rich.asp)
 - [The Psychology of Money – Morgan Housel](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)

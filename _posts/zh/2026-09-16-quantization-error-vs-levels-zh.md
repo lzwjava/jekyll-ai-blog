@@ -23,7 +23,7 @@ type: note
 ### 两者的关系
 
 | 量化电平 | 对误差的影响 |
-|---|---|
+| --- | --- |
 | 更多电平（更多位数） | 步长更小 → 最大误差更小 |
 | 更少电平（更少位数） | 步长更大 → 最大误差更大 |
 
@@ -43,5 +43,6 @@ type: note
 这一权衡是音频编码、ADC 设计及信号处理的核心——例如CD音频采用16位深度（65536个电平），以将量化噪声控制在可听阈值以下。
 
 参考来源：
+
 - [量化（信号处理）– 维基百科](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [量化误差 – Analog Devices 术语表](https://www.analog.com/en/design-center/glossary/quantization-error.html)

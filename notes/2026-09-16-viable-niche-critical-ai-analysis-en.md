@@ -22,6 +22,7 @@ This is actually a *stronger* niche than general computing criticism, for reason
 ### Why This Domain Is Uniquely Suited to the Model
 
 **The hype-to-signal ratio is catastrophically bad right now.** The AI space is flooded with:
+
 - Benchmark leaderboards that vendors game
 - Influencers who've never read a paper
 - "Vibe evals" passed off as analysis
@@ -60,7 +61,7 @@ For products built on AI — Cursor, Perplexity, Copilot, etc. — honest cost-b
 You need to know who occupies this space:
 
 | Voice | Style | Gap They Leave |
-|---|---|---|
+| --- | --- | --- |
 | **Andrej Karpathy** | Deep, technical, trusted | Rare posting, not critical-opinionated |
 | **Simon Willison** | Prolific, empirical, honest | More "explorer" than "critic" |
 | **Gary Marcus** | Contrarian, consistent | Sometimes overcorrects toward dismissal |
@@ -79,12 +80,14 @@ That seat is not occupied. It's genuinely available.
 This is the hard part, and being honest matters here:
 
 **You need at least one of:**
+
 - Ability to read and critique ML papers at a serious level (linear algebra, probability, architecture knowledge)
 - Ability to run real evals — not just call APIs, but design tests that actually discriminate model capability
 - Deep software engineering experience to evaluate frameworks and tooling honestly
 - History of building something real with LLMs, so your criticism is grounded in practice
 
 **You don't need to:**
+
 - Have a PhD
 - Work at a frontier lab
 - Cover everything — niching down (e.g., "critical analysis of coding models only") is stronger at first

@@ -80,7 +80,7 @@ The thread connecting all of it: **rigorous first-principles thinking applied to
 ### Structure Recommendation
 
 | Layer | What It Is |
-|---|---|
+| --- | --- |
 | **Free content** | Long-form essays, weekly — builds trust and audience |
 | **Paid tier** | Deep dives, tools comparisons, curated recommendations |
 | **Consulting / advisory** | For companies who want your critical analysis applied to their stack or products |
