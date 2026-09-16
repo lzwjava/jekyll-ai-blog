@@ -25,6 +25,7 @@ Singapore's economy expanded 5% in 2025, easing slightly from 5.3% growth in 202
 In the first half of 2026, Singapore's economy grew 6.1%, with Q1 expanding 6.3% and Q2 at 5.9% year-on-year. Growth was driven by manufacturing (up 12.5%), wholesale trade, and finance and insurance, with robust global AI-related demand boosting electronics and precision engineering. Reflecting stronger-than-expected first-half performance and an improved outlook for AI-related capital spending, the Ministry of Trade and Industry upgraded its 2026 GDP growth forecast to 4.5%–5.5%.
 
 **Key growth drivers:**
+
 - **AI & electronics:** Surging global demand for AI-related hardware has been the single biggest catalyst since 2024.
 - **Finance & insurance:** Singapore continues to strengthen its role as a regional wealth management and green finance hub.
 - **Tourism:** Over 13 million tourists visited Singapore in 2023, with tourism receipts reaching US$24.5–26 billion.
@@ -36,6 +37,7 @@ Singapore kept its 2026 GDP growth forecast range cautious, citing downside risk
 ---
 
 **References:**
+
 - [Singapore's Economic Outlook for the Next 5 Years – ASEAN Briefing](https://www.aseanbriefing.com/news/singapores-economic-outlook/)
 - [Singapore GDP Annual Growth Rate – Trading Economics](https://tradingeconomics.com/singapore/gdp-growth-annual)
 - [Singapore Full Year GDP Growth – Trading Economics](https://tradingeconomics.com/singapore/full-year-gdp-growth)

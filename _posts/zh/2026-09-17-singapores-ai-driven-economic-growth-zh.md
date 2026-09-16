@@ -25,6 +25,7 @@ type: note
 2026年上半年，新加坡经济增长6.1%，第一季度同比增长6.3%，第二季度为5.9%。增长由制造业（增长12.5%）、批发贸易以及金融和保险业推动，全球与人工智能相关的强劲需求提振了电子和精密工程。鉴于上半年表现强于预期以及人工智能相关资本支出前景改善，新加坡贸易与工业部将2026年GDP增长预测上调至4.5%–5.5%。
 
 **主要增长动力：**
+
 - **人工智能与电子：** 全球对人工智能相关硬件的需求激增，是自2024年以来最大的单一催化剂。
 - **金融与保险：** 新加坡持续强化其作为区域财富管理和绿色金融中心的角色。
 - **旅游业：** 2023年有超过1300万游客到访新加坡，旅游收入达到245至260亿美元。
@@ -36,6 +37,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [新加坡未来五年经济展望 – ASEAN Briefing](https://www.aseanbriefing.com/news/singapores-economic-outlook/)
 - [新加坡GDP年增长率 – Trading Economics](https://tradingeconomics.com/singapore/gdp-growth-annual)
 - [新加坡全年GDP增长 – Trading Economics](https://tradingeconomics.com/singapore/full-year-gdp-growth)

@@ -46,6 +46,7 @@ type: note
 ---
 
 参考来源：
+
 - [《障碍即道路》——瑞安·霍利迪](https://ryanholiday.net/the-obstacle-is-the-way/)
 - [《情绪敏捷》——苏珊·戴维（哈佛商业评论）](https://hbr.org/2013/11/emotional-agility)
 - [维克多·弗兰克尔：《活出生命的意义》](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning)

@@ -62,6 +62,7 @@ Here are some inspiring late bloomers across different fields:
 The common thread? Experience, persistence, and refusing to let age define the timeline of success.
 
 **References:**
+
 - [41 People Who Became Successful Later in Life](https://www.developgoodhabits.com/successful-people-later/)
 - [Late-Bloomers: 50 Public Figures Who Found Success After 40](https://www.fitfunandover40.com/late-bloomers-50-public-figures-who-found-success-after-40/)
 - [19 Celebs Who Became Famous Much Later In Life](https://www.buzzfeed.com/jennaguillaume/celebs-who-became-famous-later)

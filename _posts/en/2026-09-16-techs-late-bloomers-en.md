@@ -61,6 +61,7 @@ The Kaufman Institute found that U.S.-born tech CEOs are far more likely to be o
 ---
 
 **References:**
+
 - [Late Bloomers in Tech Leadership](https://www.quickstart.com/blog/business-productivity/4-it-leaders-that-were-late-bloomers/)
 - [Tech Founders Over 45 — CNBC](https://www.cnbc.com/2018/06/28/tech-founders-45.html)
 - [Are Startups Only for Young People?](https://sreemusings.substack.com/p/are-startups-only-for-young-people)

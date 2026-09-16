@@ -58,6 +58,7 @@ A Harvard Business School study of 758 BCG consultants found that AI-assisted co
 ---
 
 **References:**
+
 - [How AI Is Reshaping Consulting in 2026 — Whitehat](https://whitehat-seo.co.uk/blog/ai-impact-on-consulting)
 - [How AI Is Changing Software Development Outsourcing in 2026 — HQSoftwareLab](https://hqsoftwarelab.com/blog/how-ai-is-changing-software-development-outsourcing/)
 - [Best AI Outsourcing Companies 2026 — SotaTek](https://www.sotatek.com/blogs/ai-and-machine-learning/best-ai-outsourcing-companies/)

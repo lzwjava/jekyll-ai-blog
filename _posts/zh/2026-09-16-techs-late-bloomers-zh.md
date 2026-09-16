@@ -61,6 +61,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [科技领导力中的大器晚成者](https://www.quickstart.com/blog/business-productivity/4-it-leaders-that-were-late-bloomers/)
 - [45岁以上的科技创始人 — CNBC](https://www.cnbc.com/2018/06/28/tech-founders-45.html)
 - [初创公司只属于年轻人吗？](https://sreemusings.substack.com/p/are-startups-only-for-young-people)

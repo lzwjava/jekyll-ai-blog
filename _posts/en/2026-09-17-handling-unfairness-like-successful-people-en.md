@@ -46,6 +46,7 @@ Many high achievers cite a specific moment of 委屈 or humiliation as the turni
 ---
 
 References:
+
 - [The Obstacle Is the Way – Ryan Holiday](https://ryanholiday.net/the-obstacle-is-the-way/)
 - [Emotional Agility – Susan David (HBR)](https://hbr.org/2013/11/emotional-agility)
 - [Viktor Frankl: Man's Search for Meaning](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning)

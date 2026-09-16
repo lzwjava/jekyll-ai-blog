@@ -62,6 +62,7 @@ type: note
 共同点是什么？经验、坚持，以及拒绝让年龄定义成功的时程。
 
 **参考文献：**
+
 - [41位晚年成功的人](https://www.developgoodhabits.com/successful-people-later/)
 - [大器晚成者：50位40岁后获得成功的公众人物](https://www.fitfunandover40.com/late-bloomers-50-public-figures-who-found-success-after-40/)
 - [19位更晚成名的名人](https://www.buzzfeed.com/jennaguillaume/celebs-who-became-famous-later)
