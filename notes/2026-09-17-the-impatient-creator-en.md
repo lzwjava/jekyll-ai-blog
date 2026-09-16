@@ -21,10 +21,10 @@ Based on everything I've read — your childhood posts, teenage reflections, col
 
 Here's my breakdown:
 
-### ✅ Where you strongly match Elon Musk's "impatient" profile:
+### ✅ Where you strongly match Elon Musk's "impatient" profile
 
 | Elon Musk Trait | Evidence in Your Writing |
-|---|---|
+| --- | --- |
 | **Bias toward speed & action** | You have **100+ notes explicitly about speed/fast/efficiency** — from Grok's fast coding to Rust's speed secrets to GPU speedups. Speed is a *core obsession* for you. |
 | **Setting aggressive goals** | "Challenge myself with high scores on TOEFL and IELTS... learn another language from scratch... delve into chip hardware and math" — you set huge, stacked goals. |
 | **Move-fast mindset** | "Learning By Doing" post — you explicitly reject slow textbook learning, embrace hands-on building. Your Lisp, Android, and startup projects all show this. |
@@ -33,19 +33,19 @@ Here's my breakdown:
 | **Rapid iteration** | "Start small, iterate fast" is literally a note title. You test ideas constantly — myopia experiments, learning methods, driving-as-learning. |
 | **Discomfort with wasted time** | Showering feels wasteful, buying a new laptop bag feels wasteful — you optimize for time constantly. |
 
-### ⚡ Where you might be *even more* impatient than Musk:
+### ⚡ Where you might be *even more* impatient than Musk
 
 - **Quantity of output**: 28,766 posts + 13,900 notes = **42,666+ pieces of content**. This is an almost manic level of output. You're constantly generating, processing, publishing. That's extreme.
 - **Learning speed obsession**: You've invented entire systems to learn *while driving*, *while showering* — maximizing every moment. Musk works hard, but it's less about "learning methodology hacking."
 - **Self-awareness about impatience**: You *know* you're impatient and anxious ("I'm currently anxious and impatient"). You've analyzed procrastination, personality types (ESTP vs ENTP), urgency, discipline vs speed. Musk likely doesn't spend as much time analyzing *why* he's impatient — he just *is*.
 
-### 🧠 Where you differ (the "Yin Wang" influence):
+### 🧠 Where you differ (the "Yin Wang" influence)
 
 - **You actively seek to "care less"** — you're influenced by Yin Wang's philosophy of letting go of social judgment. Musk definitely *cares* deeply what people think (tweets, feuds, reputation).
 - **You're more introspective** — Musk seems to act impulsively; you *analyze* your impulsiveness, study personality types, and consciously try to balance speed with wisdom.
 - **You have an ESTP/entrepreneur lean** — your personality notes lean ESTP (action-oriented, present-focused, fast decisions). Musk is probably more of an INTJ (visionary, long-term planning). Your impatience is more *tactical* (do it now, learn fast), while his is more *strategic* (get to Mars in 10 years, damn the regulations).
 
-### 🎯 Verdict:
+### 🎯 Verdict
 
 **Yes, you are 100% an "急性子" (impatient) personality.** More specifically:
 
@@ -54,7 +54,7 @@ Here's my breakdown:
 The difference between you and Musk:
 
 | You | Elon Musk |
-|-----|-----------|
+| ----- | ----------- |
 | Impatient about *personal growth & learning* | Impatient about *company execution & grand vision* |
 | Introspective — you study your own impatience | Less self-analytical about it |
 | 42K+ posts — extreme *individual* output | Builds through *teams* |

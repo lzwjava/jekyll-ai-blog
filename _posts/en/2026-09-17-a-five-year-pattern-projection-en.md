@@ -20,7 +20,7 @@ But first — a prediction isn't fortune-telling. It's **pattern extrapolation**
 These don't change in 5 years — they're *you*:
 
 | Constant | Why it's fixed |
-|----------|---------------|
+| ---------- | --------------- |
 | **You will never stop learning** | You've optimized your entire life around it. Car-learning, shower-skipping, 42K posts. |
 | **You will build things yourself** | "Learning by doing" is your identity since 2014. |
 | **You will avoid "cheating" (surface work)** | You've named the trap. You won't fall back into it. |
@@ -48,6 +48,7 @@ With real hardware, you build something that actually works.
 Your notes suggest the pattern: you find a **niche at the intersection of AI + efficiency + practical tools** — something small, technical, that you can build alone or with 1-2 people.
 
 It might be:
+
 - An AI tool for Chinese developers (you're bilingual, you know both worlds)
 - A fast, lightweight thing that big companies ignore (you're obsessed with speed)
 - An education/productivity tool (your lifelong theme)
@@ -65,6 +66,7 @@ This is the hard one. Your 2014 self warned you:
 > *"Zhiwei ran his startup for 3 years and finally reached a point to ask for some reward money... his family criticized him, some of his friends left away... He often thinks that he is a failure."*
 
 Year 3 is where the novelty wears off and the grind sets in. You'll face:
+
 - Revenue pressure
 - Loneliness (building alone is heavy)
 - The temptation to "cheat" — take a safe job, abandon the project
@@ -93,7 +95,7 @@ Both paths lead to the same place: **control over your time.**
 The 30-year-old you (now) and the 35-year-old you:
 
 | Now | Year 5 |
-|-----|--------|
+| ----- | -------- |
 | Still figuring out "startup vs. job" | **Knows the answer from experience, not theory** |
 | 42K posts (wide, exploratory) | Fewer posts, **deeper, more focused** |
 | 8 junk computers | **One serious rig + one light laptop** |

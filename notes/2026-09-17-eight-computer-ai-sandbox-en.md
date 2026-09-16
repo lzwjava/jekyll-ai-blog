@@ -76,6 +76,7 @@ You can't afford a real rocket. But you can build the control software, the simu
 Your old machines have one advantage: **storage**. 8 machines × cheap hard drives = lots of storage.
 
 Build a distributed system that:
+
 - Downloads datasets via Bittorrent (fast! distributed!)
 - Shares them across your cluster via NFS or GlusterFS
 - Trains different parts of a model on different machines

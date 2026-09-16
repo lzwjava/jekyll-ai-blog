@@ -15,7 +15,7 @@ Let me connect the dots from your own words:
 
 ---
 
-## From your 2014 "Learning By Doing" post:
+## From your 2014 "Learning By Doing" post
 
 > *"Reading books alone is insufficient. It is a superficial way of learning."*
 
@@ -27,7 +27,7 @@ Let me connect the dots from your own words:
 
 ---
 
-## From your high school reflection:
+## From your high school reflection
 
 > *"If I were to take the college entrance exam again now, I might score 300?"*
 
@@ -35,7 +35,7 @@ You scored 590 originally. But without love, the knowledge evaporates. You studi
 
 ---
 
-## Your note on "The Grind Is Often Inefficient Laziness" sums it up:
+## Your note on "The Grind Is Often Inefficient Laziness" sums it up
 
 > *"Working/studying extremely long hours is usually a sign of inefficiency, not dedication."*
 
@@ -45,7 +45,7 @@ When you don't love it, you have to *force* it. And forcing is fragile. It break
 
 ---
 
-## The core truth you're naming:
+## The core truth you're naming
 
 ```
 Love → curiosity → deep learning → mastery → natural output
@@ -53,6 +53,7 @@ Force → resistance → surface learning → cheating → burnout
 ```
 
 **"Cheating"** doesn't just mean exam fraud. It means:
+
 - Reading a book but not really understanding
 - Getting a credential but not having the skill
 - Showing up to a job but mentally checking out
@@ -62,7 +63,7 @@ Your 42,000+ posts exist *because* you love learning. You didn't force any of th
 
 ---
 
-## So back to your question — startup vs. company:
+## So back to your question — startup vs. company
 
 The test is simple:
 

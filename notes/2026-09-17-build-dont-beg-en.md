@@ -94,7 +94,7 @@ A job pays the bills. Your startup feeds your soul. When the startup can pay the
 You've already answered this question in your own notes:
 
 | Your Trait | Startup Fit | Company Fit |
-|---|---|---|
+| --- | --- | --- |
 | Impatient, move fast | ✅ Fits perfectly | ❌ Will frustrate you |
 | Hates bureaucracy | ✅ | ❌ |
 | Learning by doing | ✅ You build to learn | ❌ You learn despite the job |
