@@ -31,6 +31,7 @@ type: note
 简而言之，它既是法律工具，也是党将控制扩展到几乎任何公共或私人生活领域的意识形态理由。
 
 参考资料：
+
 - [中国国家安全法：入门解读](https://www.cfr.org/backgrounder/china-national-security-law)
 - [习近平的“总体国家安全观”——詹姆斯敦基金会](https://jamestown.org/program/xi-jinpings-national-security-commission-and-the-total-security-concept/)
 - [全文：中国国家安全法（2015年）](https://www.chinalawtranslate.com/en/2015nsl/)

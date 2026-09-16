@@ -27,7 +27,7 @@ BUBALUS (大水牛) is a brand under HEDY Holdings Co., Ltd. (七喜控股股份
 This is a basic **sleeve-bearing DC case fan**, typical of budget/OEM builds bundled with Chinese PC cases. Here's what those specs mean:
 
 | Spec | Meaning |
-|---|---|
+| --- | --- |
 | **2-pin** | Simple DC power connector — no PWM speed control, runs at full speed constantly |
 | **12V** | Powered directly from a 12V rail (molex or chassis header) |
 | **0.15A** | Power draw of 12V × 0.15A = **1.8 watts** — very low, quiet and energy-efficient |
@@ -35,6 +35,7 @@ This is a basic **sleeve-bearing DC case fan**, typical of budget/OEM builds bun
 It's a no-frills fan: constant speed, no tachometer signal, no speed control. Perfectly functional for basic airflow, but you can't monitor or adjust its RPM from your motherboard.
 
 **References:**
+
 - [BUBALUS Official (EN)](http://en.bubalus.com.cn/product?p=5de5d3d3392f7ffa70e02dee.htm)
 - [Brand background – 百强排行网](https://www.baiqiang.cn/pinpai/bubalus/)
 - [BUBALUS on Amazon](https://www.amazon.com/BUBALUS-Aurora-Tower-Gaming-Computer/dp/B09JGHMMBR)

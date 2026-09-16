@@ -21,6 +21,7 @@ type: note
 - **无需路由**：与点对点网络不同，广播式网络无需通过中间节点路由数据。
 
 常见实例：
+
 - **以太网（早期总线拓扑）**——同一网段上的所有设备都会接收到每一帧。
 - **Wi-Fi（802.11）**——帧通过无线电波广播到范围内的所有设备。
 - **有线电视网络**——相同的信号被分发到所有订阅用户。
@@ -31,5 +32,6 @@ type: note
 在现代网络中，广播域通常通过**交换机**和**VLAN**进行分段，以减少不必要的广播流量并提高效率。
 
 参考：
+
 - [广播网络 – 维基百科](https://en.wikipedia.org/wiki/Broadcast_network)
 - [广播与点对点 – 思科](https://www.cisco.com/c/en/us/tech/lan-switching/ethernet-technologies/index.html)

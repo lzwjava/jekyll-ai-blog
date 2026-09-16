@@ -27,7 +27,7 @@ BUBALUS（大水牛）是七喜控股股份有限公司（HEDY Holdings Co., Ltd
 这是一款基本的**含油轴承直流机箱风扇**，常见于中国机箱品牌的预算/OEM配置中。以下是这些规格的含义：
 
 | 规格 | 含义 |
-|---|---|
+| --- | --- |
 | **2针** | 简单的直流电源接口——无PWM转速控制，始终全速运行 |
 | **12V** | 由12V电源轨直接供电（大4针接口或机箱插针） |
 | **0.15A** | 功耗为12V × 0.15A = **1.8瓦**——非常低，安静且节能 |
@@ -35,6 +35,7 @@ BUBALUS（大水牛）是七喜控股股份有限公司（HEDY Holdings Co., Ltd
 这是一款无多余功能的风扇：恒定转速，无转速检测信号，无速度控制。对于基本气流需求完全可用，但您无法通过主板监控或调整其转速。
 
 **参考来源：**
+
 - [BUBALUS 官网（英文）](http://en.bubalus.com.cn/product?p=5de5d3d3392f7ffa70e02dee.htm)
 - [品牌背景 – 百强排行网](https://www.baiqiang.cn/pinpai/bubalus/)
 - [BUBALUS 在亚马逊上的产品页](https://www.amazon.com/BUBALUS-Aurora-Tower-Gaming-Computer/dp/B09JGHMMBR)

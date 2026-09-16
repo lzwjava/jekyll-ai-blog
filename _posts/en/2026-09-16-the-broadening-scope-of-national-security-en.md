@@ -31,6 +31,7 @@ Answer: **国家安全** (guójiā ānquán) literally translates to **"national
 In short, it functions as both a legal tool and ideological justification for the Party to expand control over virtually any domain of public or private life.
 
 References:
+
 - [China's National Security Law: A Primer](https://www.cfr.org/backgrounder/china-national-security-law)
 - [Xi Jinping's "Total National Security Concept" — Jamestown Foundation](https://jamestown.org/program/xi-jinpings-national-security-commission-and-the-total-security-concept/)
 - [Full text: China's National Security Law (2015)](https://www.chinalawtranslate.com/en/2015nsl/)
