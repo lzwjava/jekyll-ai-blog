@@ -24,7 +24,7 @@ The P100 is a data-center passive-cooled GPU with a 250 W TDP and a full-size du
 Most AM5/AM4 boards like the MSI MAG B550 Tomahawk and the ASRock B550 Steel Legend support Above 4G Decoding and even unbuffered ECC memory — a significant advantage for budget AI workstations. For the P100 specifically, the B550 chipset is the sweet spot:
 
 | Board | Why it fits | Approx. used price |
-|---|---|---|
+| --- | --- | --- |
 | **ASRock B550 Steel Legend** | PCIe 4.0 x16 slot, Above 4G Decoding in BIOS, solid VRM | ~$80–100 used |
 | **MSI MAG B550 Tomahawk** | Excellent VRM stability for long GPU compute runs, BIOS well-documented | ~$80–110 used |
 | **Gigabyte X570 Aorus Elite** | Full X570 chipset, PCIe 4.0, more PCIe lanes if you add NVMe | ~$100–130 used |
@@ -52,7 +52,7 @@ An E5-2680 v4 + compatible used X99 motherboard starts at roughly $79, deliverin
 The Xeon E5-2680 v4 is widely considered the king of budget server CPUs, with 14 cores, 28 threads, and a 2.4 GHz base clock, offering multi-threaded performance competitive with modern mid-range chips at a fraction of the cost.
 
 | Component | Choice | Approx. used price |
-|---|---|---|
+| --- | --- | --- |
 | **Motherboard** | Huananzhi X99-F8D / Kllisre X99 (both have Above 4G Decoding in BIOS) | ~$40–60 |
 | **CPU** | Intel Xeon E5-2680 v4 (14C/28T) or E5-2678 v3 (12C/24T) | ~$20–35 |
 | **RAM** | 32–64 GB DDR4 ECC RDIMM (required for X99 Xeon) | ~$20–40 |
@@ -77,6 +77,7 @@ The P100 uses a passive heatsink design and requires adequate system airflow for
 ---
 
 **References:**
+
 - [CPU and Memory Requirements for Tesla P100 — NVIDIA Forums](https://forums.developer.nvidia.com/t/cpu-and-memory-requirements-for-tesla-p100-pcie/50711)
 - [Best Motherboard for Budget AI Workstations — PCTest/CameraEgg](https://www.cameraegg.org/test/best-motherboard-for-budget-ai-workstations/)
 - [Best CPU for AI and Deep Learning Workloads 2026 — TensorRigs](https://tensorrigs.com/blog/best-cpu-for-ai-workstation/)

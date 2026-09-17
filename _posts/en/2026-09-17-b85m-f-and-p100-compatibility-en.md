@@ -61,7 +61,7 @@ References:
 Motherboard"
 [2]: https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/resources/documents1/NV-tesla-p100-pcie-PB-08248-001-v01.pdf?utm_source=chatgpt.com "SPECIFICATIONS"
 [3]: https://dlcdnet.asus.com/pub/ASUS/mb/LGA1150/B85M-F/E9133_B85M-F.pdf?utm_source=chatgpt.com "B85M-F specifications summary"
-[4]: https://images.nvidia.com/content/grid/pdf/DA-09018-001_v10.pdf?utm_source=chatgpt.com "Tesla P100
+[4]: <https://images.nvidia.com/content/grid/pdf/DA-09018-001_v10.pdf?utm_source=chatgpt.com> "Tesla P100
 
 The NVIDIA Tesla P100 GPU Accelerator"
-[5]: https://www.asus.com/supportonly/b85m-f/helpdesk_bios/?utm_source=chatgpt.com "B85M-F - Support"
+[5]: <https://www.asus.com/supportonly/b85m-f/helpdesk_bios/?utm_source=chatgpt.com> "B85M-F - Support"

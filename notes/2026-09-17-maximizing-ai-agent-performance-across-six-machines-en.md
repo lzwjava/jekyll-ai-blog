@@ -16,6 +16,7 @@ Answer:
 ## Hardware & Network Setup
 
 **Network**
+
 - Connect all 6 machines via **Gigabit Ethernet** (not Wi-Fi) — low latency is critical for agent coordination
 - Use a dedicated switch, not a consumer router
 - Assign static IPs to each machine for reliable addressing
@@ -23,7 +24,7 @@ Answer:
 **Roles** — don't treat all 6 machines equally:
 
 | Machine | Role |
-|---|---|
+| --- | --- |
 | 1 | **Orchestrator** — task queue, job dispatch, monitoring dashboard |
 | 2–4 | **Worker nodes** — run heavy agent workloads |
 | 5 | **Model server** — host local LLMs (Ollama, vLLM, llama.cpp) |
@@ -34,12 +35,14 @@ Answer:
 ## Agent Architecture
 
 **Use a multi-agent framework** designed for distributed work:
+
 - **CrewAI** — role-based agents with defined tasks
 - **LangGraph** — graph-based state machine for complex agent flows
 - **AutoGen (Microsoft)** — multi-agent conversation and code execution
 - **Ray** — distribute Python workloads across all 6 nodes natively
 
 **Key pattern — Orchestrator + Workers:**
+
 ```
 Orchestrator (Machine 1)
   ├── Agent A: Research      → Worker Node 2
@@ -53,13 +56,14 @@ Orchestrator (Machine 1)
 ## Software Development Workflow
 
 **1. Shared codebase**
+
 - Git repo on Machine 6 (or GitHub/Gitea self-hosted)
 - All agents pull/push from one source of truth
 
 **2. Agent specialization for dev tasks**
 
 | Agent | Responsibility |
-|---|---|
+| --- | --- |
 | **Planner** | Breaks feature into subtasks |
 | **Coder** | Writes implementation |
 | **Tester** | Runs tests, reports failures |
@@ -67,11 +71,13 @@ Orchestrator (Machine 1)
 | **Documenter** | Writes docs/comments |
 
 **3. Task queue**
+
 - Use **Redis** or **Celery** on Machine 6 to queue jobs
 - Workers poll the queue and pick up tasks independently
 - Avoids idle machines
 
 **4. Parallel code generation**
+
 - Split a large feature into independent modules
 - Each worker machine builds one module simultaneously
 - Orchestrator merges and resolves conflicts
@@ -103,6 +109,7 @@ Version control: Gitea (self-hosted) or GitHub
 ---
 
 References:
+
 - [Ray — Distributed Python for AI workloads](https://docs.ray.io)
 - [CrewAI — Multi-agent role framework](https://docs.crewai.com)
 - [LangGraph — Stateful agent graphs](https://langchain-ai.github.io/langgraph/)

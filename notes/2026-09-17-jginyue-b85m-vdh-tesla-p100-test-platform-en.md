@@ -42,6 +42,6 @@ I can also compare **B85M-VDH vs B150M vs B250M vs X99** specifically as a P100 
 
 [1]: https://jginyue.com.cn/index/Article/show/cat_id/41/id/92?utm_source=chatgpt.com "精粤B85M-VDH主板 - Intel LGA1150 - 精粤JGINYUE官网"
 [2]: https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/NV-tesla-p100-pcie-PB-08248-001-v01.pdf?utm_source=chatgpt.com "Specifications"
-[3]: https://images.nvidia.com/content/grid/pdf/DA-09018-001_v07.pdf?utm_source=chatgpt.com "Tesla P100
+[3]: <https://images.nvidia.com/content/grid/pdf/DA-09018-001_v07.pdf?utm_source=chatgpt.com> "Tesla P100
 
 The NVIDIA Tesla P100 GPU Accelerator"

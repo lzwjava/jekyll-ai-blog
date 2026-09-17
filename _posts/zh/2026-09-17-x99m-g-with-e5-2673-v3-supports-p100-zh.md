@@ -135,7 +135,7 @@ CUDA / PyTorch / 推理
 
 [1]: https://www.jginyue.com.cn/index/Article/show/cat_id/48/id/222?utm_source=chatgpt.com "精粤X99M-G D3 ARGB主板 - Intel LGA 2011-3 - 精粤JGINYUE官网"
 [2]: https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/resources/documents1/NV-tesla-p100-pcie-PB-08248-001-v01.pdf?utm_source=chatgpt.com "规格"
-[3]: https://images.nvidia.com/content/grid/pdf/DA-09018-001_v07.pdf?utm_source=chatgpt.com "Tesla P100
+[3]: <https://images.nvidia.com/content/grid/pdf/DA-09018-001_v07.pdf?utm_source=chatgpt.com> "Tesla P100
 
 NVIDIA Tesla P100 GPU加速卡"
-[4]: https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/NV-tesla-p100-pcie-PB-08248-001-v01.pdf?utm_source=chatgpt.com "规格"
+[4]: <https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/NV-tesla-p100-pcie-PB-08248-001-v01.pdf?utm_source=chatgpt.com> "规格"
