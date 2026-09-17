@@ -42,14 +42,14 @@ The difference is:
 
 A useful signal:
 
-### Natural learning feels like:
+### Natural learning feels like
 
 * You lose track of time sometimes.
 * You ask questions without being told.
 * Difficulty creates curiosity.
 * After struggling, you feel satisfaction.
 
-### Forced learning often feels like:
+### Forced learning often feels like
 
 * You constantly fight yourself.
 * You memorize without understanding.
