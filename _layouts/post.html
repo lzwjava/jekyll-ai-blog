@@ -109,6 +109,16 @@ layout: default
 
   <hr>
 
+  <p>
+    {% if page.lang == "zh" %}
+      🔔 <strong>李智维</strong> 正在看机会，欢迎联系！<a href="/job-search-zh">查看详情</a>
+    {% else %}
+      🔔 <strong>Zhiwei Li</strong> is open for work — <a href="/job-search-en">View details</a>
+    {% endif %}
+  </p>
+
+  <hr>
+
   {{ content }}
 
   <hr>
