@@ -28,7 +28,7 @@ type: note
 ## 适用于 RTX 4070（12 GB）的最佳基础模型
 
 | 模型 | VRAM（4-bit） | 速度 | RL 适用性 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `Qwen/Qwen2.5-1.5B` | ~1.1 GB | 非常快 | ⭐⭐⭐ 快速迭代最佳选择 |
 | `Qwen/Qwen2.5-3B` | ~2.0 GB | 快 | ⭐⭐⭐ 良好的平衡性 |
 | `Qwen/Qwen2.5-7B` | ~4.5 GB | 适中 | ⭐⭐⭐ 效果最强 |
@@ -240,6 +240,7 @@ pip install torch transformers trl peft bitsandbytes datasets flash-attn --upgra
 如果 `flash-attn` 构建失败，只需从模型加载中移除 `attn_implementation="flash_attention_2"`——它是可选的，但可以节省约 1.5 GB VRAM。
 
 **参考资料：**
+
 - [HuggingFace 上的 Qwen2.5-1.5B 基础模型](https://huggingface.co/Qwen/Qwen2.5-1.5B)
 - [TRL GRPOTrainer 文档](https://huggingface.co/docs/trl/grpo_trainer)
 - [DeepSeek-R1 论文（GRPO 起源）](https://arxiv.org/abs/2501.12948)

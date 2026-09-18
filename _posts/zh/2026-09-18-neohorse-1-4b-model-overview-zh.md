@@ -28,7 +28,7 @@ NeoHorse-1-4B 是迈向**递归自我改进（RSI）**的初始原型。路由�
 **关键规格**
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 参数 | ~4B |
 | 上下文长度 | 262,144 tokens（可扩展至约 1M） |
 | 格式 | Safetensors / BF16 |
@@ -38,6 +38,7 @@ NeoHorse-1-4B 是迈向**递归自我改进（RSI）**的初始原型。路由�
 它在十个基准测试上取得了 **64.87 宏平均分**，而基础模型 Qwen3.5-4B 为 58.94，提升了 **+5.93 分**。在 4B 类别的五个对比模型中，它总体排名最佳。
 
 **参考链接：**
+
 - [TokenRhythm/NeoHorse-1-4B on Hugging Face](https://huggingface.co/TokenRhythm/NeoHorse-1-4B)
 - [技术报告 (arXiv:2609.08183)](https://arxiv.org/abs/2609.08183)
 - [GitHub 仓库](https://github.com/TokenRhythm/NeoHorse)

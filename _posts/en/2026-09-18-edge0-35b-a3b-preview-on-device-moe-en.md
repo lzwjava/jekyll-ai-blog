@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the model at https://huggingface.co/Edge0/Edge0-35B-A3B-preview?
+**Question:** What is the model at <https://huggingface.co/Edge0/Edge0-35B-A3B-preview>?
 
 **Answer:**
 
@@ -37,6 +37,7 @@ The int4 + adapter pipeline loses only **3.9 points on average** versus the fp16
 This is a preview release — agent capabilities (tool use, multi-step planning) are currently weak, and the MLX backend currently targets **Apple Silicon** only.
 
 **References:**
+
 - [Edge0/Edge0-35B-A3B-preview — Hugging Face](https://huggingface.co/Edge0/Edge0-35B-A3B-preview)
 - [arXiv Paper: 2609.18063 — The Other Half of the Memory Wall](https://arxiv.org/abs/2609.18063)
 - [Edge0-AI GitHub Repository](https://github.com/Edge0-AI/edge0)

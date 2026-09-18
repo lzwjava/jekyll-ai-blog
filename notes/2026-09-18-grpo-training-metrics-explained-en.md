@@ -20,7 +20,7 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ## 📉 Loss & Optimization
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `loss` | 0.0001647 | Very low policy loss — model is stable |
 | `grad_norm` | 0.6875 | Gradient magnitude; healthy range (not exploding/vanishing) |
 | `learning_rate` | 4.571e-06 | Current LR after scheduler decay |
@@ -31,7 +31,7 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ## 📝 Completion Statistics
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `mean_length` | 60.25 tokens | Average response length generated |
 | `min/max_length` | 9 / 148 | Range of response lengths |
 | `clipped_ratio` | 0 | No completions were cut off by `max_new_tokens` — good |
@@ -42,7 +42,7 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ## 🏆 Reward Signals
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `rewards/reward_format/mean` | **0.0** | ⚠️ Format reward is zero — model is NOT following the expected output format |
 | `rewards/reward_correctness/mean` | **0.8125** | ✅ 81.25% of answers are correct |
 | `rewards/reward_correctness/std` | 0.5303 | High variance — some correct, some wrong (binary-ish reward) |
@@ -55,7 +55,7 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ## 📊 Policy Behavior (KL & Entropy)
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `kl` | 0.008645 | Very small KL divergence from reference model — policy hasn't drifted far |
 | `entropy` | 0.7208 | Low entropy → model is fairly confident/deterministic in outputs |
 | `clip_ratio/*` | all 0 | No PPO-style clipping triggered — updates are small and safe |
@@ -65,7 +65,7 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ## ⏱️ Training Progress
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `step_time` | 5.263 sec | Time per training step |
 | `epoch` | 0.2658 | ~26.6% through epoch 1 — early in training |
 
@@ -81,5 +81,6 @@ This looks like a **GRPO (Group Relative Policy Optimization)** training log —
 ---
 
 References:
+
 - [GRPO Paper (DeepSeekMath)](https://arxiv.org/abs/2402.03300)
 - [TRL GRPO Trainer Docs](https://huggingface.co/docs/trl/grpo_trainer)

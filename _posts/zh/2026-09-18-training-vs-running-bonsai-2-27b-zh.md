@@ -28,7 +28,7 @@ Qwen3.8-27B 的发布并未包含模型专属的技术报告、训练 token 数�
 一个 27B 模型在约 10–15 万亿 token（遵循 LLaMA 3 风格的典型现代“过训练”规模）上训练，结果大致如下：
 
 | Token 预算 | 估算 FLOPs |
-|---|---|
+| --- | --- |
 | 540B token（Chinchilla 最优，20×N） | ~8.7 × 10²³ FLOPs |
 | 5T token（中度过训练） | ~8.1 × 10²⁴ FLOPs |
 | 15T token（LLaMA 3 规模） | ~2.4 × 10²⁵ FLOPs |
@@ -60,7 +60,7 @@ Prism ML 的贡献是在现有 Qwen3.8-27B 权重基础上进行**量化感知�
 ## 总结表
 
 | 阶段 | 执行方 | 硬件 | 估算 FLOPs | 实际运行时间 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 预训练 Qwen3.8-27B | 阿里巴巴 | ~256–2048 张 H100 | ~10²⁴–10²⁵ | 数周–数月 |
 | 三元量化（Bonsai） | Prism ML | 数十–数百张 H100 | ~10²¹–10²² | 数天 |
 | **运行推理** | **你** | **单张 M5 Pro / RTX 4090** | **不适用** | **~47 tok/s** |
@@ -70,6 +70,7 @@ Prism ML 的贡献是在现有 Qwen3.8-27B 权重基础上进行**量化感知�
 ---
 
 **参考来源：**
+
 - [Bonsai 2 27B 模型卡 — Hugging Face](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf)
 - [从头训练一个 70B LLM 的成本（2026）— Spheron](https://www.spheron.network/blog/cost-to-train-70b-parameter-llm-from-scratch-2026/)
 - [NVIDIA NeMo LLaMA 3.1 训练基准](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/dgxc-benchmarking/resources/nemo-llama31-dgxc-benchmarking-g)

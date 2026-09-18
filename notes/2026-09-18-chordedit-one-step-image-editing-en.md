@@ -11,7 +11,7 @@ type: note
 
 ## Question: Intro to the paper **"ChordEdit: One-Step Low-Energy Transport for Image Editing"**
 
-## Answer:
+## Answer
 
 ChordEdit: One-Step Low-Energy Transport for Image Editing is a paper about making **text-guided image editing work in one inference step** for modern fast diffusion models. The core idea is: instead of forcing an unstable editing direction, find a **low-energy transport path** between the original image distribution and the edited image distribution. ([The CVF Open Access][1])
 

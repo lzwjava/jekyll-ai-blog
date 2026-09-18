@@ -45,13 +45,14 @@ tmux attach -t grpo-full                  # 或附加
 在 `/mnt/data/zz/grpo-rl/` 下创建的文件：
 
 | 文件 | 用途 |
-|---|---|
+| --- | --- |
 | `train_grpo.py` | GRPO 训练器，argparse 命令行接口，已针对 TRL 1.13 修复 |
 | `run.sh` | 正式训练配置（包含 `smoke` 模式） |
 | `setup_env.sh` | venv 创建 + 依赖安装（已执行） |
 | `requirements.txt` | 锁定版本 |
 
 相对于原始代码片段的三处修复，运行期间可关注：
+
 1. TRL 1.13 中不再有 `max_prompt_length`，且 `torch_dtype`/`eval_strategy` 已重命名 —— 脚本使用了当前 API。
 2. 奖励现在拆分为**两个函数**（`reward_format`、`reward_correctness`），TRL 会分别记录 —— 可观察提升来自格式还是实际正确性。
 3. 缺少 `prepare_model_for_kbit_training` + `gradient_checkpointing_kwargs={"use_reentrant": False}`；没有它们 QLoRA + checkpointing 不稳定。注意力默认使用 `sdpa`（未安装 flash-attn，1.5B 规模下也无必要）。

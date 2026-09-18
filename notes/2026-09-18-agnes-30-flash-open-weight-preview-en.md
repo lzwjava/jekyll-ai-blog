@@ -30,7 +30,7 @@ It uses a hybrid-attention decoder: 3 out of every 4 layers run a gated delta ru
 **Key Capabilities**
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Parameters | 33B |
 | Context window | 262,144 tokens |
 | Modalities | Text, image, video |
@@ -47,5 +47,6 @@ It requires approximately 66 GB on disk for the bf16 checkpoint and is recommend
 On GPQA Diamond (a graduate-level science reasoning benchmark), the Preview checkpoint scores 85.05, which is competitive with models like Qwen3.5-27B (85.8), though behind larger or API-only models like Gemini 3.5 Flash (92.2).
 
 **References:**
+
 - [Agnes-AI/Agnes-3.0-Flash on Hugging Face](https://huggingface.co/Agnes-AI/Agnes-3.0-Flash)
 - [Agnes AI Website](https://agnes-ai.com/)

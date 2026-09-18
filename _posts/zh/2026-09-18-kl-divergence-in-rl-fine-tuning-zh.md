@@ -44,6 +44,7 @@ KL(当前策略 || 参考策略)
 $$KL(P \| Q) = \sum P(x) \log \frac{P(x)}{Q(x)}$$
 
 其中：
+
 - **P** = 当前（训练后的）模型的输出分布
 - **Q** = 参考模型的输出分布
 - 它问的是：*“对于每一个可能的 token，新模型生成它的概率比参考模型多多少或少多少？”*
@@ -59,7 +60,7 @@ $$KL(P \| Q) = \sum P(x) \log \frac{P(x)}{Q(x)}$$
 ```
 
 | β（KL 权重） | 效果 |
-|---|---|
+| --- | --- |
 | 太小 | 模型自由偏离 → 奖励攻击风险 |
 | 太大 | 模型几乎不动 → 学习缓慢 / 不学习 |
 | 刚刚好 | 模型在保持连贯性的同时有所提升 |
@@ -79,7 +80,7 @@ $$KL(P \| Q) = \sum P(x) \log \frac{P(x)}{Q(x)}$$
 ## 🔁 快速总结
 
 | 术语 | 含义 |
-|---|---|
+| --- | --- |
 | KL = 0 | 训练后的模型 = 参考模型（没有变化） |
 | KL 小 | 安全，轻微偏离 |
 | KL 大 | 危险偏离，很可能出现奖励攻击 |
@@ -88,6 +89,7 @@ $$KL(P \| Q) = \sum P(x) \log \frac{P(x)}{Q(x)}$$
 ---
 
 参考资料：
+
 - [KL 散度 — 维基百科](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 - [图解 RLHF — Hugging Face 博客](https://huggingface.co/blog/rlhf)
 - [DeepSeek GRPO 论文](https://arxiv.org/abs/2402.03300)

@@ -54,6 +54,7 @@ YuE2-3B 可以在 RTX 4090 上于 71 秒内生成一首 3.6 分钟的歌曲，�
 ---
 
 **参考资料：**
+
 - [m-a-p/YuE2-3B · Hugging Face](https://huggingface.co/m-a-p/YuE2-3B)
 - [YuE2 演示页面](https://map-yue2.github.io/)
 - [YuE 论文 (arXiv:2503.08638)](https://arxiv.org/abs/2503.08638)

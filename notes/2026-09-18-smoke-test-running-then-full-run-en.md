@@ -45,13 +45,14 @@ Watch VRAM in a third pane with `watch -n1 nvidia-smi` — if you OOM, lower `--
 Files created in `/mnt/data/zz/grpo-rl/`:
 
 | file | purpose |
-|---|---|
+| --- | --- |
 | `train_grpo.py` | GRPO trainer, argparse CLI, fixed for TRL 1.13 |
 | `run.sh` | real training config (`smoke` mode included) |
 | `setup_env.sh` | venv creation + deps (already executed) |
 | `requirements.txt` | pinned versions |
 
 Three fixes vs. the original snippet, in case you care while it runs:
+
 1. `max_prompt_length` no longer exists in TRL 1.13, and `torch_dtype`/`eval_strategy` were renamed — the script uses the current API.
 2. Rewards are now **two functions** (`reward_format`, `reward_correctness`) so TRL logs them separately — you can see whether gains come from formatting or actual correctness.
 3. `prepare_model_for_kbit_training` + `gradient_checkpointing_kwargs={"use_reentrant": False}` were missing; without them QLoRA + checkpointing is unstable. Attention defaults to `sdpa` (flash-attn not installed, and it's unnecessary at 1.5B).

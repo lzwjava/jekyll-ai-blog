@@ -64,6 +64,7 @@ Stock llama.cpp **cannot run** these files — they require the custom [PrismML-
 ---
 
 **References:**
+
 - [prism-ml/Ternary-Bonsai-2-27B-gguf · Hugging Face](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf)
 - [Bonsai Demo & Examples (GitHub)](https://github.com/PrismML-Eng/Bonsai-demo)
 - [PrismML llama.cpp Fork](https://github.com/PrismML-Eng/llama.cpp)

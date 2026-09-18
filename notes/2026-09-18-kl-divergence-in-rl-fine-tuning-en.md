@@ -44,6 +44,7 @@ KL(current policy || reference policy)
 $$KL(P \| Q) = \sum P(x) \log \frac{P(x)}{Q(x)}$$
 
 Where:
+
 - **P** = current (trained) model's output distribution
 - **Q** = reference model's output distribution
 - It asks: *"for each possible token, how much more/less likely does the new model generate it?"*
@@ -59,7 +60,7 @@ Total Objective = Reward  −  β × KL
 ```
 
 | β (KL weight) | Effect |
-|---|---|
+| --- | --- |
 | Too small | Model drifts freely → reward hacking risk |
 | Too large | Model barely moves → slow / no learning |
 | Just right | Model improves while staying coherent |
@@ -79,7 +80,7 @@ This is **very small** — meaning:
 ## 🔁 Quick Summary
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | KL = 0 | Trained model = reference model (no change) |
 | KL small | Safe, minor drift |
 | KL large | Dangerous drift, reward hacking likely |
@@ -88,6 +89,7 @@ This is **very small** — meaning:
 ---
 
 References:
+
 - [KL Divergence — Wikipedia](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 - [Illustrating RLHF — Hugging Face Blog](https://huggingface.co/blog/rlhf)
 - [DeepSeek GRPO Paper](https://arxiv.org/abs/2402.03300)

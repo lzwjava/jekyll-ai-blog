@@ -18,7 +18,7 @@ type: note
 The RTX 4070 has **12 GB GDDR6X VRAM** and ~165 TFLOPS (BF16 with sparsity, ~40 TFLOPS dense). This is enough for real, meaningful RL fine-tuning work — just not pre-training at scale. Here's the honest map:
 
 | Task | Feasible on 4070? | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Pre-train 27B from scratch | ❌ No | Needs 500K+ H100-hrs |
 | Ternary quantization of 27B | ❌ No | Needs 100+ H100-hrs |
 | RL fine-tune a 1.5B–7B model | ✅ Yes | Sweet spot |
@@ -155,7 +155,7 @@ print("Done! Model saved.")
 For this exact experiment:
 
 | Component | VRAM used |
-|---|---|
+| --- | --- |
 | Model weights (1.5B, 4-bit) | ~1.2 GB |
 | Activations + KV cache | ~2.5 GB |
 | 4 rollout completions (GRPO) | ~3.0 GB |
@@ -184,7 +184,7 @@ You can swap the math task for anything verifiable: code execution, JSON schema 
 If 1.5B feels too small, here's the 4070 ceiling:
 
 | Model size | Quant | Fits 12 GB? | Training style |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1.5B | BF16 | ✅ (comfortable) | Full fine-tune |
 | 3B | 4-bit | ✅ | QLoRA + GRPO |
 | 7B | 4-bit | ✅ (tight) | QLoRA + GRPO |
@@ -192,6 +192,7 @@ If 1.5B feels too small, here's the 4070 ceiling:
 | 27B | any | ❌ | Need CPU RAM offload |
 
 **References:**
+
 - [TRL GRPO Trainer docs](https://huggingface.co/docs/trl/grpo_trainer)
 - [Qwen3-1.5B-Instruct on HuggingFace](https://huggingface.co/Qwen/Qwen3-1.5B-Instruct)
 - [DeepSeek-R1 GRPO paper](https://arxiv.org/abs/2501.12948)

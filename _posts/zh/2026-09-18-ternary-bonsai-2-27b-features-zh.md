@@ -64,6 +64,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [prism-ml/Ternary-Bonsai-2-27B-gguf · Hugging Face](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf)
 - [Bonsai 演示与示例（GitHub）](https://github.com/PrismML-Eng/Bonsai-demo)
 - [PrismML llama.cpp 分支](https://github.com/PrismML-Eng/llama.cpp)

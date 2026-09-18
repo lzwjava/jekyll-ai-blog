@@ -54,6 +54,7 @@ The model weights are released under **CC BY-NC 4.0** (non-commercial use).
 ---
 
 **References:**
+
 - [m-a-p/YuE2-3B · Hugging Face](https://huggingface.co/m-a-p/YuE2-3B)
 - [YuE2 Demo Page](https://map-yue2.github.io/)
 - [YuE Paper (arXiv:2503.08638)](https://arxiv.org/abs/2503.08638)

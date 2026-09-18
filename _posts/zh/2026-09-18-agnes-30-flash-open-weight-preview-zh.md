@@ -30,7 +30,7 @@ Agnes-3.0-Flash Preview 是 Agnes AI 于 2026 年 9 月发布的一款开放权�
 **关键能力**
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | 参数 | 33B |
 | 上下文窗口 | 262,144 个 token |
 | 模态 | 文本、图像、视频 |
@@ -47,5 +47,6 @@ bf16 检查点约需 66 GB 磁盘空间，推荐在 1× NVIDIA H200 141 GB 或 H
 在 GPQA Diamond（研究生级科学推理基准）上，预览检查点得分为 85.05，与 Qwen3.5-27B（85.8）等模型相当，但落后于 Gemini 3.5 Flash（92.2）等更大或仅 API 的模型。
 
 **参考链接：**
+
 - [Agnes-AI/Agnes-3.0-Flash 在 Hugging Face 上](https://huggingface.co/Agnes-AI/Agnes-3.0-Flash)
 - [Agnes AI 官网](https://agnes-ai.com/)

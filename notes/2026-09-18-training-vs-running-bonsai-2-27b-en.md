@@ -28,7 +28,7 @@ The Qwen3.8-27B launch does not include a model-specific technical report, train
 A 27B model trained on ~10–15 trillion tokens (typical modern "over-trained" scale, following LLaMA 3 style) works out to roughly:
 
 | Token budget | Estimated FLOPs |
-|---|---|
+| --- | --- |
 | 540B tokens (Chinchilla-optimal, 20×N) | ~8.7 × 10²³ FLOPs |
 | 5T tokens (moderate over-train) | ~8.1 × 10²⁴ FLOPs |
 | 15T tokens (LLaMA 3-scale) | ~2.4 × 10²⁵ FLOPs |
@@ -60,7 +60,7 @@ A rough estimate for this stage: **tens to a few hundred H100 GPU-hours**, compa
 ## Summary Table
 
 | Stage | Who | Hardware | Estimated FLOPs | Wall-clock |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Pre-training Qwen3.8-27B | Alibaba | ~256–2048 H100s | ~10²⁴–10²⁵ | Weeks–months |
 | Ternary quantization (Bonsai) | Prism ML | Tens–hundreds H100s | ~10²¹–10²² | Days |
 | **Running inference** | **You** | **Single M5 Pro / RTX 4090** | **N/A** | **~47 tok/s** |
@@ -70,6 +70,7 @@ The bottom line: **running** Bonsai 2 27B is accessible to anyone with a modern 
 ---
 
 **References:**
+
 - [Bonsai 2 27B Model Card — Hugging Face](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf)
 - [Cost to Train a 70B LLM From Scratch (2026) — Spheron](https://www.spheron.network/blog/cost-to-train-70b-parameter-llm-from-scratch-2026/)
 - [NVIDIA NeMo LLaMA 3.1 Training Benchmarks](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/dgxc-benchmarking/resources/nemo-llama31-dgxc-benchmarking-g)

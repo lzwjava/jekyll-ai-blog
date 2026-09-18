@@ -28,7 +28,7 @@ Text-based **agent harnesses**, **tool use**, **coding**, and **instruction foll
 **Key Specs**
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Parameters | ~4B |
 | Context Length | 262,144 tokens (extensible to ~1M) |
 | Format | Safetensors / BF16 |
@@ -38,6 +38,7 @@ Text-based **agent harnesses**, **tool use**, **coding**, and **instruction foll
 It achieves a **64.87 macro average** across ten benchmarks, compared to 58.94 for the base Qwen3.5-4B — a gain of **+5.93 points**. It ranks best overall among the five compared models in the 4B class.
 
 **References:**
+
 - [TokenRhythm/NeoHorse-1-4B on Hugging Face](https://huggingface.co/TokenRhythm/NeoHorse-1-4B)
 - [Technical Report (arXiv:2609.08183)](https://arxiv.org/abs/2609.08183)
 - [GitHub Repository](https://github.com/TokenRhythm/NeoHorse)

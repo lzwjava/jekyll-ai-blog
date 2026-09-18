@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://huggingface.co/Edge0/Edge0-35B-A3B-preview 的模型是什么？
+**问题：** <https://huggingface.co/Edge0/Edge0-35B-A3B-preview> 的模型是什么？
 
 **答案：**
 
@@ -23,9 +23,9 @@ type: note
 **关键创新**
 该模型使用三种技术，在可用速度下实现低内存占用：
 
-1.  **SSD 专家卸载** —— 专家权重按需从存储中流式传输，因此 RAM 仅保存当前激活的权重，而不是整个模型。
-2.  **预路由器（Prerouter）** —— 一个经过训练的头会提前一步预测专家路由，使专家加载与前向传播重叠而非停滞，从而实现高达 +59% 的解码吞吐量提升。
-3.  **Recover-LoRA** —— int4 基础模型被冻结，通过从 FP16 教师模型蒸馏来训练 LoRA 适配器，在 4 比特下恢复了大部分量化损失。
+1. **SSD 专家卸载** —— 专家权重按需从存储中流式传输，因此 RAM 仅保存当前激活的权重，而不是整个模型。
+2. **预路由器（Prerouter）** —— 一个经过训练的头会提前一步预测专家路由，使专家加载与前向传播重叠而非停滞，从而实现高达 +59% 的解码吞吐量提升。
+3. **Recover-LoRA** —— int4 基础模型被冻结，通过从 FP16 教师模型蒸馏来训练 LoRA 适配器，在 4 比特下恢复了大部分量化损失。
 
 **性能（在 Mac mini M4 Pro 上）**
 解码速度为 14.9–17.7 tok/s，预填充吞吐量为 113–140 tok/s，峰值活跃内存仅为 **2.9 GiB**。
@@ -37,6 +37,7 @@ type: note
 这是一个预览版本——智能体能力（工具使用、多步规划）目前较弱，且 MLX 后端目前仅支持 **Apple Silicon**。
 
 **参考链接：**
--   [Edge0/Edge0-35B-A3B-preview — Hugging Face](https://huggingface.co/Edge0/Edge0-35B-A3B-preview)
--   [arXiv 论文：2609.18063 — The Other Half of the Memory Wall](https://arxiv.org/abs/2609.18063)
--   [Edge0-AI GitHub 仓库](https://github.com/Edge0-AI/edge0)
+
+- [Edge0/Edge0-35B-A3B-preview — Hugging Face](https://huggingface.co/Edge0/Edge0-35B-A3B-preview)
+- [arXiv 论文：2609.18063 — The Other Half of the Memory Wall](https://arxiv.org/abs/2609.18063)
+- [Edge0-AI GitHub 仓库](https://github.com/Edge0-AI/edge0)

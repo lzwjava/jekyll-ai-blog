@@ -28,7 +28,7 @@ Yes — for GRPO/RL experiments you **always want a base model**, not an instruc
 ## Best Base Models for RTX 4070 (12 GB)
 
 | Model | VRAM (4-bit) | Speed | RL Suitability |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `Qwen/Qwen2.5-1.5B` | ~1.1 GB | Very fast | ⭐⭐⭐ Best for quick iteration |
 | `Qwen/Qwen2.5-3B` | ~2.0 GB | Fast | ⭐⭐⭐ Good balance |
 | `Qwen/Qwen2.5-7B` | ~4.5 GB | Moderate | ⭐⭐⭐ Strongest results |
@@ -240,6 +240,7 @@ pip install torch transformers trl peft bitsandbytes datasets flash-attn --upgra
 If `flash-attn` fails to build, just remove `attn_implementation="flash_attention_2"` from the model load — it's optional but saves ~1.5 GB VRAM.
 
 **References:**
+
 - [Qwen2.5-1.5B base on HuggingFace](https://huggingface.co/Qwen/Qwen2.5-1.5B)
 - [TRL GRPOTrainer docs](https://huggingface.co/docs/trl/grpo_trainer)
 - [DeepSeek-R1 paper (GRPO origin)](https://arxiv.org/abs/2501.12948)
