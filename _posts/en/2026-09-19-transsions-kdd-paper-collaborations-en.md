@@ -48,6 +48,7 @@ This paper proposes a framework where each mobile device maintains a user-specif
 ---
 
 **References:**
+
 - [On-Device Learning for Model Personalization, KDD 2022](https://dl.acm.org/doi/abs/10.1145/3534678.3539263)
 - [Enhancing On-Device LLM Inference, KDD 2024 (DBLP)](https://dblp.org/rec/conf/kdd/DingN00LC24.html)
 - [Personalized Language Model Learning Without User Identifiers, KDD 2025](https://dl.acm.org/doi/10.1145/3690624.3709211)

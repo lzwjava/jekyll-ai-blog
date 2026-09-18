@@ -20,7 +20,7 @@ The DT9205A+ has **4 input jacks** at the bottom. Here's how to connect the prob
 ### 🔴 Red Probe
 
 | Measurement | Insert Red Probe Into |
-|---|---|
+| --- | --- |
 | Voltage (V AC/DC) | **VΩmA** jack |
 | Resistance (Ω) | **VΩmA** jack |
 | Current ≤200mA | **VΩmA** jack |
@@ -36,14 +36,14 @@ The DT9205A+ has **4 input jacks** at the bottom. Here's how to connect the prob
 
 ---
 
-### Port Layout (bottom of meter, left → right):
+### Port Layout (bottom of meter, left → right)
 
 ```
 [ 20A ]  [ mA ]  [ COM ]  [ VΩmA ]
 ```
 
 | Jack | Color | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | **COM** | Black ⚫ | Common / Ground — black probe **always** goes here |
 | **VΩmA** | Red 🔴 | Voltage, Resistance (Ω), and small current |
 | **mA** | Red 🔴 | Milliamp current only (if model has separate mA jack) |
@@ -51,7 +51,8 @@ The DT9205A+ has **4 input jacks** at the bottom. Here's how to connect the prob
 
 ---
 
-### ✅ For everyday use (V and Ω):
+### ✅ For everyday use (V and Ω)
+
 - **Black probe → COM**
 - **Red probe → VΩmA**
 
@@ -60,5 +61,6 @@ The DT9205A+ has **4 input jacks** at the bottom. Here's how to connect the prob
 ---
 
 **References:**
+
 - [DT9205A+ Digital Multimeter User Manual (PDF)](https://www.manualslib.com/manual/dt9205a/)
 - [How to Use a Multimeter – Probe Connection Guide](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-use-a-digital-multimeter)

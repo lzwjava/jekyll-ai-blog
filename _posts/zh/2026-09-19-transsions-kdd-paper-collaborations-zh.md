@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [端侧模型个性化学习，KDD 2022](https://dl.acm.org/doi/abs/10.1145/3534678.3539263)
 - [增强端侧大语言模型推理，KDD 2024（DBLP）](https://dblp.org/rec/conf/kdd/DingN00LC24.html)
 - [无用户标识符的个性化语言模型学习，KDD 2025](https://dl.acm.org/doi/10.1145/3690624.3709211)

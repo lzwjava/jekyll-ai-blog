@@ -14,7 +14,7 @@ Saved and verified. Here's the state of things — and the earlier contradiction
 ## Saved
 
 | File | What it is |
-|---|---|
+| --- | --- |
 | `/mnt/data/zz/eval_grpo_adapter.py` | Unified base-vs-adapter eval. `--mode indist/ood`, `--greedy`, `--show-samples`, `--save-json`. Replaces the two throwaway scripts. |
 | `/mnt/data/zz/grpo-rl/headroom.py` | Per-category base accuracy, with a `saturated / little headroom / GOOD / too hard` verdict per category. |
 | `/mnt/data/zz/grpo-rl/run2.sh` | Run-2 config: `--difficulty harder`, `--format-warmup 512`, 1 epoch. |
@@ -52,6 +52,7 @@ So the base model already handles 2-digit products and 3-term expressions. **Gre
 ## What I'd do before launching run 2
 
 Two cheap measurements decide it:
+
 1. `headroom.py --gsm8k 24` — word problems are the one place a 1.5B base is likely genuinely weak, and they make `<think>` actually meaningful.
 2. A T=1.0 group-variance probe: for `standard` vs `harder` vs GSM8K, sample G=4 per prompt and report mean reward and `frac_reward_zero_std` — the number that was 82% by the end of run 1. That is the real go/no-go for whether there's gradient to be had.
 

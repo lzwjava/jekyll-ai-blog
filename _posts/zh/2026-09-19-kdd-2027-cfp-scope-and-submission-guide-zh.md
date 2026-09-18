@@ -19,21 +19,21 @@ type: note
 
 CFP 明确列出了：
 
-*   **In-context learning**
-*   **Prompt engineering**
-*   **Continual learning**
-*   **Few-shot adaptation**
-*   **Reinforcement learning**
-*   **Generation and reasoning**
-*   **LLMs**
-*   **Multimodal foundation/frontier models**
-*   **Emergent reasoning**
-*   **Neural-symbolic integration**
-*   **Hypothesis generation**
-*   **Scalable AI systems / infrastructure**
-*   Distributed computing
-*   Scheduling/orchestration
-*   ML systems
+* **In-context learning**
+* **Prompt engineering**
+* **Continual learning**
+* **Few-shot adaptation**
+* **Reinforcement learning**
+* **Generation and reasoning**
+* **LLMs**
+* **Multimodal foundation/frontier models**
+* **Emergent reasoning**
+* **Neural-symbolic integration**
+* **Hypothesis generation**
+* **Scalable AI systems / infrastructure**
+* Distributed computing
+* Scheduling/orchestration
+* ML systems
 
 因此，诸如 **reasoning models、RL with verifiable rewards、Lean/code-based verification、inference systems、agent systems、training infrastructure** 等内容，如果有真正的研究贡献，完全可以纳入研究轨道。（[KDD 2027][1]）
 
