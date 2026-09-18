@@ -424,5 +424,4 @@ Jev 就是为这类工作而提出的模型类型。
 [3]: https://systemonemodels.org/models/jev/?utm_source=chatgpt.com "Jev AI model: specs, pricing and use cases | System One Models"
 [4]: https://autojev.ai/jev-model?utm_source=chatgpt.com "Jev Model Guide: Inputs, Outputs and Best Use Cases"
 [5]: https://jev-agent.com/use-cases/llm-model-routing?utm_source=chatgpt.com "Jev for LLM routing — pick the cheap model first | Jev Agent"
-[6]: https://workerkit.ai/blog/jev-and-decision-models?utm_source=chatgpt.com "Jev: TypeSafe's System One model explained - WorkerKit"
 [7]: https://www.progressiverobot.com/2026/09/16/jev-model-typesafe-programmatic-logic/?utm_source=chatgpt.com "Jev Model: Proven Speed, Smart Logic Without a Chatbot"
