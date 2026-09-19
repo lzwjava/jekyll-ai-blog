@@ -36,7 +36,7 @@ Unlike the JGINYUE X99I-SERVER or Jingsha X99-D8 which have a confirmed Huananzh
 **Comparison at a glance**
 
 | Board | Native ReBAR | CSM issue | BIOS mod path |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Huananzhi X99 BD4 | ✅ Yes | None | N/A |
 | 精粤 X99M GD4 ARGB | ❌ No | Likely | Unknown |
 | 精粤 X99M Gaming D4 ARGB | ❌ No | Likely | Unknown |
@@ -50,6 +50,7 @@ The "Gaming" label on the 精粤 board does not add any meaningful BIOS features
 ---
 
 **References:**
+
 - [Guide: Overclock BIOS mods for Chinese X99 MBs – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [JGINYUE X99-M D4 CSM/UEFI issue discussion – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683/68)
 - [xCuri0/ReBarUEFI – GitHub](https://github.com/xCuri0/ReBarUEFI)

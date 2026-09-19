@@ -34,7 +34,7 @@ The 2673 V3 is a Haswell-EP Xeon with 12 cores / 24 threads, 2.4 GHz base / 3.1 
 Compared to the 2680 V4 from the previous combo, the 2673 V3 is:
 
 | | E5-2673 V3 | E5-2680 V4 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Haswell (V3) | Broadwell (V4) |
 | Cores / Threads | 12c / 24t | 14c / 28t |
 | Base / Turbo | 2.4 / 3.1 GHz | 2.4 / 3.3 GHz |
@@ -56,5 +56,6 @@ The X99-4MT Plus + 2673 V3 is a **decent general-purpose budget build**, but if 
 ---
 
 **References:**
+
 - [Guide: Overclock BIOS mods for Chinese X99 MBs – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [E5-2673 V3 Specs – OpenBenchmarking](https://openbenchmarking.org/s/Intel+Xeon+E5-2673+v3)

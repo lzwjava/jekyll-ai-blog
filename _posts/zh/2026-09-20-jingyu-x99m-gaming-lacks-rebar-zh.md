@@ -36,7 +36,7 @@ type: note
 **一览对比**
 
 | 主板 | 原生 ReBAR | CSM 问题 | BIOS 修改路径 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Huananzhi X99 BD4 | ✅ 支持 | 无 | 不适用 |
 | 精粤 X99M GD4 ARGB | ❌ 不支持 | 很可能存在 | 未知 |
 | 精粤 X99M Gaming D4 ARGB | ❌ 不支持 | 很可能存在 | 未知 |
@@ -50,6 +50,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [指南：国产 X99 主板的超频 BIOS 修改 – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [JGINYUE X99-M D4 CSM/UEFI 问题讨论 – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683/68)
 - [xCuri0/ReBarUEFI – GitHub](https://github.com/xCuri0/ReBarUEFI)

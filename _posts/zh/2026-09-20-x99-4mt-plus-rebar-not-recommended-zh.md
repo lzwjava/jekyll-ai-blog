@@ -34,7 +34,7 @@ type: note
 与之前组合中的2680 V4相比，2673 V3的参数如下：
 
 | | E5-2673 V3 | E5-2680 V4 |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | Haswell (V3) | Broadwell (V4) |
 | 核心 / 线程 | 12核 / 24线程 | 14核 / 28线程 |
 | 基础 / 睿频 | 2.4 / 3.1 GHz | 2.4 / 3.3 GHz |
@@ -56,5 +56,6 @@ X99-4MT Plus + 2673 V3是一个**不错的多功能预算装机选择**，但如
 ---
 
 **参考资料：**
+
 - [指南：中国X99主板的超频BIOS修改 – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [E5-2673 V3规格 – OpenBenchmarking](https://openbenchmarking.org/s/Intel+Xeon+E5-2673+v3)
