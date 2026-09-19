@@ -14,7 +14,7 @@ I have a complete picture now. Here's the diagnosis.
 ## Hardware on 192.168.1.53 (`lzw-MS-7996`)
 
 | Component | Spec | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | CPU | Intel Core i5-4460, 4 cores / 4 threads @ 3.2 GHz (Haswell, 2014) | Adequate, not the bottleneck |
 | RAM | **3.2 GiB total** (`MemTotal: 3399592 kB`) | **Very low** |
 | Swap | 3.7 GiB file, **578 MB already used 5 min after boot** | Thrashing |
@@ -25,20 +25,24 @@ I have a complete picture now. Here's the diagnosis.
 ## Why it's slow — three compounding problems
 
 **1. The NVIDIA P100 is in an endless driver-failure loop (biggest CPU culprit)**
+
 ```
 journalctl -b | grep -c "probe with driver nvidia failed"        → 412
 journalctl -b | grep -c "Failed to start nvidia-persistenced"    → 128
 NVRM: BAR1 is 0M @ 0x0 (PCI:0000:01:00.0)
 ```
+
 That's **128 failed service starts and 412 failed driver probes in ~6 minutes of uptime** — roughly one every 2–3 seconds. The P100 is a datacenter card that needs *Above 4G Decoding* enabled in BIOS; the MSI board isn't mapping its BAR1, so `nvidia` probe fails, udev retries, `nvidia-persistenced` restarts forever. This is why you saw `modprobe` pegged at 90% CPU, `%sy` at 18–28%, and `nvidia-persis` stuck in **D state**.
 
 **2. Spinning HDD saturating on random I/O**
+
 - `iowait` 22–38%, `%util` **61–99%**, `r_await` up to **99 ms**
 - Requests are small/random (`rareq-sz` 6–65 KB) — the worst case for a 7200 RPM disk
 - Live per-process I/O showed a `snap` process reading **~4 MB/s random** off `/dev/sda`
 - Load average 3.4–4.05 on 4 cores with **71% wa** = the machine is *I/O-bound*, not CPU-bound
 
 **3. Only 3.2 GiB RAM + 21 snap loop mounts, with no zram**
+
 - `Committed_AS: 4.7 GB` against 3.4 GB physical → already swapping `so: 6696` at boot
 - Top swap consumers: `gnome-shell` 69 MB, `ptyxis` 28 MB, `Xwayland` 24 MB
 - **21 loop devices** = every snap (firefox, gnome-46-2404, mesa, snapd…) is a squashfs image read from the HDD. Snap refresh/seed is what's chewing the disk.

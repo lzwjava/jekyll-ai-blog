@@ -20,7 +20,7 @@ This changes things — Huananzhi is a **Chinese OEM board**, not a standard ASU
 ## What Huananzhi B75 Actually Is
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Brand | 华南金牌 / Huananzhi (华南智) |
 | Chipset | Intel B75 Express |
 | Socket | LGA1155 |
@@ -49,7 +49,7 @@ Reasons:
 ## Comparison: What You Have vs What You Need
 
 | Board | Above 4G Decoding | M40 Compatible |
-|---|---|---|
+| --- | --- | --- |
 | 华南 B75 (Huananzhi) | ❌ Almost certainly No | ❌ Likely blocked |
 | ASUS P8B75-M | ⚠️ Uncertain | ⚠️ Check BIOS |
 | ASUS P8Z77-V | ✅ Yes | ✅ Works |
@@ -64,10 +64,12 @@ Reasons:
 If you want to stay in the Huananzhi ecosystem (cheap + Xeon), these are better candidates:
 
 ### 华南 X99 boards
+
 ```
 华南X99-F8D / X99-T8D (dual socket)
 华南X99-BD4 / X99-8D
 ```
+
 - Support Xeon E5-2600 v3/v4 series
 - Some BIOS versions **do include Above 4G Decoding**
 - PCIe 3.0 x16
@@ -75,9 +77,11 @@ If you want to stay in the Huananzhi ecosystem (cheap + Xeon), these are better 
 - Much more appropriate for M40
 
 ### 华南 X79 boards
+
 ```
 华南X79-ZD3 / X79-P4
 ```
+
 - Support Xeon E5-1600/2600 v1/v2
 - Hit or miss on Above 4G — depends on BIOS version
 - DDR3 ECC
@@ -89,17 +93,21 @@ If you want to stay in the Huananzhi ecosystem (cheap + Xeon), these are better 
 If you already have the Huananzhi B75 in hand, try this first:
 
 **1. Check BIOS for the option:**
+
 ```
 Boot → Del or F2 → Advanced → PCI Subsystem Settings
 or
 Advanced → System Agent Configuration
 ```
+
 Look for:
+
 - `Above 4G Decoding`
 - `Above 4GB MMIO BIOS assignment`
 - `Crypto Currency Mining` (some boards hide it under this label)
 
 **2. Try the kernel workaround regardless:**
+
 ```bash
 sudo nano /etc/default/grub
 
@@ -110,6 +118,7 @@ sudo update-grub && sudo reboot
 ```
 
 Then check:
+
 ```bash
 sudo dmesg | grep -E "BAR|pci 0000:01"
 sudo lspci -v -s 01:00.0 | grep -i "prefetch\|memory"
@@ -120,7 +129,7 @@ sudo lspci -v -s 01:00.0 | grep -i "prefetch\|memory"
 ## Honest Bottom Line
 
 | Scenario | Verdict |
-|---|---|
+| --- | --- |
 | 华南 B75 + M40 | ⚠️ Probably won't work due to BAR limitation |
 | 华南 X99 + M40 + Xeon E5 v3/v4 | ✅ Best budget Chinese-platform option |
 | Keep Xeon E3-1260L | ⚠️ E3-1260L is LGA1155 — only fits B75/Z77/X79 is wrong socket |

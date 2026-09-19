@@ -26,7 +26,7 @@ gsd-media-keys   handle-power-key...                ← block
 ## 步骤 1–4 已完成并验证
 
 | 步骤 | 状态 |
-|---|---|
+| --- | --- |
 | 1. `apt update` | ✅ |
 | 2. `build-essential dkms linux-headers-$(uname -r)` | ✅ dkms 已安装，headers 已存在 |
 | 3. `nvidia-driver-580` (580.178.04) | ✅ 全部 5 个模块已构建并安装：`nvidia/580.178.04, 7.0.0-31-generic, x86_64: installed` |
@@ -63,9 +63,11 @@ pci 0000:01:00.0: BAR 1 [mem size 0x400000000 64bit pref]: can't assign; no spac
 1. 重启并在 MSI 徽标处按 **Del** 键。
 2. 寻找 **Above 4G Decoding** / **Above 4G Memory** / **Crypto Currency mining** —— 通常位于 `Settings → Advanced → PCI Subsystem Settings` 下。
 3. **如果找到：** 启用，保存并退出。然后我将验证：
+
    ```
    nvidia-smi
    ```
+
 4. **如果缺失：** M40 物理上无法在此主板上工作，你需要一块支持 Above-4G 解码的主板。
 
 既然你无论如何都要进入 BIOS，那自然是重启的时机。如果你希望我现在就从这里强制重启，我可以运行 `sudo systemctl reboot -i`（忽略 GNOME 抑制器）—— 但这会终止你已登录的 GNOME 会话，并且不会改变结果。

@@ -44,7 +44,7 @@ You configure the IP directly in Windows, macOS, Linux, or Android/iOS settings.
 When doing this, make sure to set:
 
 | Field | Example value |
-|---|---|
+| --- | --- |
 | IP address | `192.168.1.10` |
 | Subnet mask | `255.255.255.0` |
 | Default gateway | `192.168.1.1` (your router) |
@@ -60,6 +60,7 @@ When doing this, make sure to set:
 - **Device static IP** — works without router access, but each device needs manual config and risks IP conflicts.
 
 **References:**
+
 - [How to set up DHCP reservation — TP-Link](https://www.tp-link.com/us/support/faq/170/)
 - [Static IP vs DHCP reservation explained — How-To Geek](https://www.howtogeek.com/184310/ask-htg-whats-the-difference-between-dhcp-and-static-ip-addresses/)
 - [How to find MAC address on Windows/Mac/Linux — Lifewire](https://www.lifewire.com/how-to-find-your-mac-address-2542).

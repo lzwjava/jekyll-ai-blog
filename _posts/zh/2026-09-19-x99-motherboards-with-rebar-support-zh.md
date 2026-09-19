@@ -51,7 +51,7 @@ type: note
 **汇总表**
 
 | 主板 | 内存类型 | 原生 ReBAR | 难度 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 华南金牌 X99 BD4 | DDR4 | ✅ 是 | 无 |
 | Jingsha X99-D8 / 8D3 | DDR4 | 通过 BIOS 互换 | 中等（需要 CH341A） |
 | 华硕 X99 Deluxe/A | DDR4 | 通过 BIOS 修改 | 中等 |
@@ -62,6 +62,7 @@ type: note
 ---
 
 **参考链接：**
+
 - [指南：国产 X99 主板超频 BIOS 修改 – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [求助：为 Jingsha X99-D8 修改 ReBAR – WinRaid](https://winraid.level1techs.com/t/request-mod-jingsha-x99-d8-with-rebar-4g-encoding/110083)
 - [求助：修改精粤 X99I-SERVER – WinRaid](https://winraid.level1techs.com/t/request-mod-jginyue-x99i-server-with-rebar-4g-decoding/114076)

@@ -81,7 +81,7 @@ Then the board simply cannot host this card. Your realistic paths:
 Even with BAR1 assigned, this combination has serious problems:
 
 | Issue | Detail |
-|---|---|
+| --- | --- |
 | **Cooling** | P100 is a *passive* Tesla card designed for 1U/2U server airflow. In an open desktop it will overheat and throttle/shutdown; it needs a shroud + high-static-pressure fan. |
 | **Power connector** | The Tesla P100 PCIe uses an **8-pin CPU/EPS connector**, *not* a PCIe 8-pin. Using a PCIe cable on it is a no-boot/damage risk. 250 W TDP. |
 | **Host RAM** | You have **3.2–4 GB**. A 16 GB CUDA card with 4 GB of host RAM is not a usable compute host. |

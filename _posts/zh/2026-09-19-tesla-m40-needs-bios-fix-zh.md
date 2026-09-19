@@ -16,6 +16,7 @@ type: note
 **GPU：** Tesla M40 12 GB（`10de:17fd`，GM200，VBIOS 84.00.56.00.02）——今天 17:15 安装的。`kern.log` 中早期的启动日志来自之前机箱内的一块*不同*的显卡（一块 Fermi `GF100` 2 GB）。
 
 **驱动：** `nvidia-driver-580`（580.178.04）已确认正确：
+
 - NVIDIA 官方 580.178.04 说明文档中列出了 `Tesla M40` 和 `Tesla M40 24GB`
 - 590/595/610 仅支持 Turing 及更新架构（590 实际上是一个过渡别名 → 595）
 - `ubuntu-drivers devices` 独立推荐针对 `v000010DEd000017FD` 使用 `nvidia-driver-580`

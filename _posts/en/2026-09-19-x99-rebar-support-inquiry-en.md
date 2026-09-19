@@ -48,6 +48,7 @@ There are three community paths for X99 boards, all requiring some caution:
 ---
 
 **References:**
+
 - [ReBarUEFI Release Thread – WinRaid Level1Techs](https://winraid.level1techs.com/t/release-resizable-bar-bios-efi-module/100235)
 - [xCuri0/ReBarUEFI GitHub](https://github.com/xCuri0/ReBarUEFI)
 - [Guide: Overclock BIOS Mods for Chinese X99 MBs – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)

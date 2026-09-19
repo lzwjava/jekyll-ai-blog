@@ -16,6 +16,7 @@ I have a complete diagnosis. Before I install, I need the sudo password (it's no
 **The GPU:** Tesla M40 12 GB (`10de:17fd`, GM200, VBIOS 84.00.56.00.02) — installed today at 17:15. The earlier boot logs in `kern.log` are from a *different* card (a Fermi `GF100` 2 GB) that was previously in the box.
 
 **The driver:** `nvidia-driver-580` (580.178.04) is confirmed correct:
+
 - NVIDIA's official 580.178.04 README lists `Tesla M40` and `Tesla M40 24GB`
 - 590/595/610 are Turing+ only (590 is literally a transitional alias → 595)
 - `ubuntu-drivers devices` independently recommends `nvidia-driver-580` for `v000010DEd000017FD`

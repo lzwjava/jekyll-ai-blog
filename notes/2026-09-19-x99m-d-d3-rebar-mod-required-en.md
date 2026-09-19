@@ -30,7 +30,7 @@ The 精粤 (Jingyu) X99M-D D3 V1.2 is a budget Chinese micro-ATX board built on 
 **What's achievable:**
 
 | Feature | Native support | Workaround possible? |
-|---|---|---|
+| --- | --- | --- |
 | Above 4G Decoding | ❌ No visible option | ⚠️ Maybe — hidden BIOS variable |
 | Resizable BAR | ❌ No | ⚠️ Partial via BIOS mod |
 
@@ -53,6 +53,7 @@ A known issue on similar Chinese X99-M D4/D3 boards is that only CSM/Legacy mode
 **Practical recommendation**
 
 Before attempting any BIOS mod:
+
 1. Check if your GPU has a UEFI GOP ROM (required for disabling CSM)
 2. Get a **CH341A programmer** as a recovery backup in case of a failed flash
 3. Dump your current BIOS and open it in **AMIBCP** to check whether the Above 4G Decoding string exists
@@ -61,6 +62,7 @@ Before attempting any BIOS mod:
 ---
 
 **References:**
+
 - [榨干矿卡：老主板修改BIOS开启ReBAR – Bilibili](https://www.bilibili.com/opus/743982326937026580)
 - [JGINYUE X99-M D4 BIOS & ReBAR discussion – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683/68)
 - [xCuri0/ReBarUEFI – GitHub](https://github.com/xCuri0/ReBarUEFI)

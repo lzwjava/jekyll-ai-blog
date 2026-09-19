@@ -16,7 +16,7 @@ type: note
 ## 硬件配置
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 主板 | ASUS B75 系列（B75M-A / P8B75-M 等） |
 | CPU | Intel Xeon E3-1260L（Sandy Bridge，LGA1155，45W TDP） |
 | 芯片组 | Intel B75 Express |
@@ -33,7 +33,7 @@ type: note
 ### ✅ 改进之处
 
 | 因素 | A68HM-E | B75 + E3-1260L |
-|---|---|---|
+| --- | --- | --- |
 | PCIe 版本 | Gen 2.0 | Gen 3.0 → 2 倍带宽 |
 | ECC 内存支持 | 否 | **是** — E3-1260L 支持 ECC，与 M40 配合良好 |
 | 平台成熟度 | 2014 年廉价 APU 主板 | 2012 年主流工作站芯片组 |
@@ -51,7 +51,7 @@ Intel B75 芯片组 **原则上支持 Above 4G Decoding**，但 ASUS 是否在 B
 ## 检查矩阵
 
 | 主板 | 很可能支持 Above 4G？ | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | ASUS P8B75-M | 不确定 | 检查最新 BIOS |
 | ASUS B75M-A | 不确定 | 检查最新 BIOS |
 | ASUS P8B75-V | 可能性较高 | 更大板型，更多 BIOS 选项 |

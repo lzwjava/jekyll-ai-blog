@@ -44,7 +44,7 @@ type: note
 执行时，请确保设置：
 
 | 字段 | 示例值 |
-|---|---|
+| --- | --- |
 | IP地址 | `192.168.1.10` |
 | 子网掩码 | `255.255.255.0` |
 | 默认网关 | `192.168.1.1`（您的路由器） |
@@ -60,6 +60,7 @@ type: note
 - **设备静态IP** — 无需访问路由器即可使用，但每台设备需要手动配置，且存在IP冲突风险。
 
 **参考资料：**
+
 - [如何设置DHCP保留 — TP-Link](https://www.tp-link.com/us/support/faq/170/)
 - [静态IP与DHCP保留的区别 — How-To Geek](https://www.howtogeek.com/184310/ask-htg-whats-the-difference-between-dhcp-and-static-ip-addresses/)
 - [如何在Windows/Mac/Linux上查找MAC地址 — Lifewire](https://www.lifewire.com/how-to-find-your-mac-address-2542)。

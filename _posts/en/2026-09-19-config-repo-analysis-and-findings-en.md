@@ -50,7 +50,9 @@ Want me to apply this `config.yaml` as the mihomo config on the target (replacin
 2. **Secrets are now on the target** — `ww/.env` carries `GITHUB_TOKEN`, `GITHUB_PAT_TOKEN`, `OPENROUTER_API_KEY`, `GOOGLE_MAPS_API_KEY`. Expected for a config repo, but worth knowing it's sitting in plaintext there.
 
 3. **The git remote won't work from the target.** Its `~/.ssh/` has only `authorized_keys` (inbound), no key, so:
+
    ```
    git@github.com: Permission denied (publickey).
    ```
+
    So this is a static snapshot — no `git pull` there until you add a deploy key or switch to HTTPS.

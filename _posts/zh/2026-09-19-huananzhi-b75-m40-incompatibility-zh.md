@@ -20,7 +20,7 @@ type: note
 ## 华南B75的实际情况
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 品牌 | 华南金牌 / Huananzhi（华南智） |
 | 芯片组 | Intel B75 Express |
 | 插槽 | LGA1155 |
@@ -49,7 +49,7 @@ type: note
 ## 对比：你拥有的 vs 你需要的
 
 | 主板 | Above 4G Decoding | M40兼容性 |
-|---|---|---|
+| --- | --- | --- |
 | 华南 B75（Huananzhi） | ❌ 几乎肯定不支持 | ❌ 很可能受阻 |
 | ASUS P8B75-M | ⚠️ 不确定 | ⚠️ 需检查BIOS |
 | ASUS P8Z77-V | ✅ 支持 | ✅ 可用 |
@@ -64,10 +64,12 @@ type: note
 如果你想继续使用华南生态（廉价 + Xeon），以下是更好的候选：
 
 ### 华南 X99 主板
+
 ```
 华南X99-F8D / X99-T8D（双路）
 华南X99-BD4 / X99-8D
 ```
+
 - 支持Xeon E5-2600 v3/v4系列
 - 某些BIOS版本**确实包含Above 4G Decoding**
 - PCIe 3.0 x16
@@ -75,9 +77,11 @@ type: note
 - 更适合M40
 
 ### 华南 X79 主板
+
 ```
 华南X79-ZD3 / X79-P4
 ```
+
 - 支持Xeon E5-1600/2600 v1/v2
 - Above 4G支持好坏参半——取决于BIOS版本
 - DDR3 ECC
@@ -89,17 +93,21 @@ type: note
 如果你手头已有华南B75，先试试这个：
 
 **1. 在BIOS中查找选项：**
+
 ```
 Boot → Del或F2 → Advanced → PCI Subsystem Settings
 或
 Advanced → System Agent Configuration
 ```
+
 寻找：
+
 - `Above 4G Decoding`
 - `Above 4GB MMIO BIOS assignment`
 - `Crypto Currency Mining`（某些主板隐藏在此标签下）
 
 **2. 无论如何尝试内核变通方法：**
+
 ```bash
 sudo nano /etc/default/grub
 
@@ -110,6 +118,7 @@ sudo update-grub && sudo reboot
 ```
 
 然后检查：
+
 ```bash
 sudo dmesg | grep -E "BAR|pci 0000:01"
 sudo lspci -v -s 01:00.0 | grep -i "prefetch\|memory"
@@ -120,7 +129,7 @@ sudo lspci -v -s 01:00.0 | grep -i "prefetch\|memory"
 ## 诚实结论
 
 | 场景 | 结论 |
-|---|---|
+| --- | --- |
 | 华南 B75 + M40 | ⚠️ 由于BAR限制，很可能无法工作 |
 | 华南 X99 + M40 + Xeon E5 v3/v4 | ✅ 最佳预算中国平台方案 |
 | 保留Xeon E3-1260L | ⚠️ E3-1260L是LGA1155——只适配B75/Z77，X79插槽不匹配 |

@@ -20,7 +20,7 @@ This is a **significantly better platform** for the M40. Let me break it down:
 ## Hardware Profile
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Board | ASUS B75 series (B75M-A / P8B75-M / etc.) |
 | CPU | Intel Xeon E3-1260L (Sandy Bridge, LGA1155, 45W TDP) |
 | Chipset | Intel B75 Express |
@@ -37,7 +37,7 @@ This is a **significantly better platform** for the M40. Let me break it down:
 ### ✅ What improves
 
 | Factor | A68HM-E | B75 + E3-1260L |
-|---|---|---|
+| --- | --- | --- |
 | PCIe version | Gen 2.0 | Gen 3.0 → 2× bandwidth |
 | ECC RAM support | No | **Yes** — E3-1260L supports ECC, pairs well with M40 |
 | Platform maturity | Budget 2014 APU board | Mainstream 2012 workstation chipset |
@@ -55,7 +55,7 @@ The Intel B75 chipset **does support Above 4G Decoding in principle**, but wheth
 ## Check Matrix
 
 | Board | Above 4G Likely? | Notes |
-|---|---|---|
+| --- | --- | --- |
 | ASUS P8B75-M | Uncertain | Check latest BIOS |
 | ASUS B75M-A | Uncertain | Check latest BIOS |
 | ASUS P8B75-V | More likely | Larger board, more BIOS options |

@@ -53,7 +53,7 @@ To move data, the driver had to bounce buffers through that 256 MB window: copy 
 ### It needs all three layers to cooperate
 
 | Layer | Requirement |
-|---|---|
+| --- | --- |
 | **GPU** | Must advertise the Resizable BAR capability (Pascal and newer on the NVIDIA side) |
 | **Platform/firmware** | BIOS/UEFI + root complex + chipset must support resizing and allocate the address space |
 | **OS/driver** | Driver must actually request the larger size |

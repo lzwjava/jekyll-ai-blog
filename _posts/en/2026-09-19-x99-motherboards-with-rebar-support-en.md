@@ -51,7 +51,7 @@ These branded boards have modded BIOSes available from the WinRaid community wit
 **Summary table**
 
 | Board | DDR | ReBAR Native | Difficulty |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Huananzhi X99 BD4 | DDR4 | ✅ Yes | None |
 | Jingsha X99-D8 / 8D3 | DDR4 | via BIOS swap | Medium (needs CH341A) |
 | ASUS X99 Deluxe/A | DDR4 | via BIOS mod | Medium |
@@ -62,6 +62,7 @@ These branded boards have modded BIOSes available from the WinRaid community wit
 ---
 
 **References:**
+
 - [Guide: Overclock BIOS mods for Chinese X99 MBs – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [Request: Mod Jingsha X99-D8 with ReBAR – WinRaid](https://winraid.level1techs.com/t/request-mod-jingsha-x99-d8-with-rebar-4g-encoding/110083)
 - [Request: Mod JGINYUE X99I-SERVER – WinRaid](https://winraid.level1techs.com/t/request-mod-jginyue-x99i-server-with-rebar-4g-decoding/114076)

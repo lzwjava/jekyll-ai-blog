@@ -22,7 +22,7 @@ You had **already installed pi yourself** at `~/.local` (created 17:52, while I 
 ### Config copied to `~/.pi/agent/`
 
 | File | Notes |
-|---|---|
+| --- | --- |
 | `settings.json` | `deepseek` / `deepseek-v4-flash`, thinking=high |
 | `models-store.json` | 304 KB catalog (deepseek, mistral, openrouter) |
 | `auth.json` | `{}` — empty on the source too |
@@ -41,7 +41,7 @@ Also added `~/.local/bin/rg` (ripgrep 14.1.0) — the target had no `rg` or `fd`
 
 ### Three things worth knowing
 
-1. **A wrong test nearly sent me down a rabbit hole.** My first checks used `ssh host 'bash -lc ...'` and pi reported *"No API key found"* and *"No models available."* The cause is Ubuntu's `.bashrc` early-return for non-interactive shells — **not** a config problem. 
+1. **A wrong test nearly sent me down a rabbit hole.** My first checks used `ssh host 'bash -lc ...'` and pi reported *"No API key found"* and *"No models available."* The cause is Ubuntu's `.bashrc` early-return for non-interactive shells — **not** a config problem.
 
 2. **Your keys only load in interactive shells.** I verified with `env -i`: a clean login shell has `DEEPSEEK=` **empty on both the source machine and the target**. So the target now matches your source behavior exactly. But anything non-interactive — `ssh 192.168.1.49 'pi ...'`, cron, systemd — will fail to authenticate. Tell me if you want these moved to `~/.profile` or a `BASH_ENV` file to cover that.
 

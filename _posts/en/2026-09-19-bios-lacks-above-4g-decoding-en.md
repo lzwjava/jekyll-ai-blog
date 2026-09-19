@@ -26,7 +26,7 @@ gsd-media-keys   handle-power-key...                ← block
 ## Steps 1–4 are done and verified
 
 | Step | Status |
-|---|---|
+| --- | --- |
 | 1. `apt update` | ✅ |
 | 2. `build-essential dkms linux-headers-$(uname -r)` | ✅ dkms installed, headers already present |
 | 3. `nvidia-driver-580` (580.178.04) | ✅ all 5 modules built + installed: `nvidia/580.178.04, 7.0.0-31-generic, x86_64: installed` |
@@ -63,9 +63,11 @@ One soft signal: the release notes for both 1.80 and 3.A0 mention only PCIe/USB 
 1. Reboot and press **Del** at the MSI logo.
 2. Look for **Above 4G Decoding** / **Above 4G Memory** / **Crypto Currency mining** — usually under `Settings → Advanced → PCI Subsystem Settings`.
 3. **If found:** enable, save & exit. Then I'll verify:
+
    ```
    nvidia-smi
    ```
+
 4. **If absent:** the M40 physically cannot work in this board, and you'd need a motherboard with Above-4G decoding.
 
 Since you have to visit BIOS anyway, that's the natural moment to reboot. If you'd rather I force one from here now, I can run `sudo systemctl reboot -i` (ignores the GNOME inhibitor) — but it will kill your logged-in GNOME session, and won't change the outcome.

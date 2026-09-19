@@ -22,7 +22,7 @@ type: note
 ### 配置已复制到 `~/.pi/agent/`
 
 | 文件 | 说明 |
-|---|---|
+| --- | --- |
 | `settings.json` | `deepseek` / `deepseek-v4-flash`，thinking=high |
 | `models-store.json` | 304 KB 目录（deepseek, mistral, openrouter） |
 | `auth.json` | `{}` — 源端同样为空 |

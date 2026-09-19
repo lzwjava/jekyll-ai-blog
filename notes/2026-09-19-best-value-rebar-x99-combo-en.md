@@ -50,5 +50,6 @@ The seller describes it as "99新" (99% new), pulled from a personal upgrade, no
 ---
 
 **References:**
+
 - [Intel Xeon E5-2680 V4 Official Specs – Intel ARK](https://www.intel.com/content/www/us/en/products/sku/91754/intel-xeon-processor-e52680-v4-35m-cache-2-40-ghz/specifications.html)
 - [Guide: Overclock BIOS mods for Chinese X99 MBs (BD4 ReBAR section) – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)

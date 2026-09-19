@@ -48,6 +48,7 @@ X99 芯片组发布于 2014 年。Resizable BAR 作为原生 BIOS 功能，仅�
 ---
 
 **参考链接：**
+
 - [ReBarUEFI 发布帖 – WinRaid Level1Techs](https://winraid.level1techs.com/t/release-resizable-bar-bios-efi-module/100235)
 - [xCuri0/ReBarUEFI GitHub](https://github.com/xCuri0/ReBarUEFI)
 - [指南：国产 X99 主板超频 BIOS 修改 – WinRaid](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)

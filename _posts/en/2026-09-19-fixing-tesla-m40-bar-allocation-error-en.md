@@ -20,7 +20,7 @@ Your board and CPU change the picture significantly. Let me re-diagnose:
 ## Revised Hardware Profile
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Board | ASUS A68HM-E (AMD FM2+ socket) |
 | CPU | Athlon X4 850 (Kaveri/Godavari, FM2+) |
 | Chipset | AMD A68H (Bolton D2) |
@@ -53,7 +53,9 @@ Boot into BIOS (Del key) and look under:
 ```
 Advanced → System Agent Configuration → Above 4G Memory / Crypto Currency Mining
 ```
+
 or
+
 ```
 Advanced → PCIe Configuration → Above 4G Decoding
 ```
@@ -61,6 +63,7 @@ Advanced → PCIe Configuration → Above 4G Decoding
 ASUS sometimes hides it. If it's not there, update BIOS first.
 
 Check your current BIOS version:
+
 ```bash
 sudo dmidecode -s bios-version
 ```
@@ -78,21 +81,26 @@ sudo nano /etc/default/grub
 ```
 
 Change this line:
+
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 ```
+
 To:
+
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=realloc=on memmap=16G!4G"
 ```
 
 Then:
+
 ```bash
 sudo update-grub
 sudo reboot
 ```
 
 After reboot, check if the BAR was assigned:
+
 ```bash
 sudo lspci -v -s 01:00.0 | grep -i "memory\|prefetch\|bar"
 ```
@@ -122,6 +130,7 @@ nvidia-smi
 ```
 
 If you still get "No devices found", the BAR is still not allocated. Check:
+
 ```bash
 sudo dmesg | grep -i "bar\|pci\|nvidia\|nouveau"
 ```
@@ -131,7 +140,7 @@ sudo dmesg | grep -i "bar\|pci\|nvidia\|nouveau"
 ## Honest Assessment
 
 | Scenario | Outcome |
-|---|---|
+| --- | --- |
 | BIOS has Above 4G option | Enable it → M40 works |
 | BIOS updated, option appears | Enable it → M40 works |
 | No Above 4G anywhere, kernel workaround works | M40 works |

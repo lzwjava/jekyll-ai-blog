@@ -20,7 +20,7 @@ type: note
 ## 修订后的硬件配置
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 主板 | 华硕A68HM-E（AMD FM2+插槽） |
 | CPU | 速龙X4 850（Kaveri/Godavari，FM2+） |
 | 芯片组 | AMD A68H（Bolton D2） |
@@ -53,7 +53,9 @@ M40可以运行，但带宽会降低（Gen 2 x16 ≈ 8 GB/s vs Gen 3 x16 ≈ 16 
 ```
 高级 → 系统代理配置 → 4G以上内存/加密货币挖矿
 ```
+
 或
+
 ```
 高级 → PCIe配置 → 4G以上解码
 ```
@@ -61,6 +63,7 @@ M40可以运行，但带宽会降低（Gen 2 x16 ≈ 8 GB/s vs Gen 3 x16 ≈ 16 
 华硕有时会隐藏该选项。如果找不到，请先更新BIOS。
 
 检查当前BIOS版本：
+
 ```bash
 sudo dmidecode -s bios-version
 ```
@@ -78,21 +81,26 @@ sudo nano /etc/default/grub
 ```
 
 将这一行：
+
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 ```
+
 改为：
+
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=realloc=on memmap=16G!4G"
 ```
 
 然后：
+
 ```bash
 sudo update-grub
 sudo reboot
 ```
 
 重启后，检查BAR是否已分配：
+
 ```bash
 sudo lspci -v -s 01:00.0 | grep -i "memory\|prefetch\|bar"
 ```
@@ -122,6 +130,7 @@ nvidia-smi
 ```
 
 如果仍然显示"未找到设备"，说明BAR仍未分配。检查：
+
 ```bash
 sudo dmesg | grep -i "bar\|pci\|nvidia\|nouveau"
 ```
@@ -131,7 +140,7 @@ sudo dmesg | grep -i "bar\|pci\|nvidia\|nouveau"
 ## 实事求是的评估
 
 | 场景 | 结果 |
-|---|---|
+| --- | --- |
 | BIOS中有4G以上选项 | 启用它 → M40可以工作 |
 | BIOS已更新，选项出现 | 启用它 → M40可以工作 |
 | 任何地方都没有4G以上选项，内核解决方法有效 | M40可以工作 |
