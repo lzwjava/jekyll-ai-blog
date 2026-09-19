@@ -40,7 +40,7 @@ RAG closes three gaps without retraining: LLMs hallucinate, have a knowledge cut
 As of early 2026, by GitHub stars: **LangChain** (~125,000), **Dify** (~114,000), **RAGFlow** (~70,000), **LlamaIndex** (~46,500), **Haystack** (~24,000).
 
 | Project | Best For | Skill Level |
-|---|---|---|
+| --- | --- | --- |
 | **LangChain** | General end-to-end LLM apps & agents | Advanced |
 | **Dify** | Visual/low-code, fast prototyping | Beginner |
 | **RAGFlow** | Document-heavy, citation-backed QA | Intermediate |
@@ -54,6 +54,7 @@ Beyond these five, other notable tools include **txtAI** (all-in-one embeddings 
 ## How to Choose
 
 A quick mapping:
+
 - **Fastest prototype** → start with **Dify**
 - **Document Q&A** → start with **LlamaIndex** or **RAGFlow**
 - **Agents and flexibility** → start with **LangChain**
@@ -76,6 +77,7 @@ Most RAG failures trace back to: indexing junk content, ignoring token limits, o
 ---
 
 **References:**
+
 - [Best Open Source RAG Frameworks in 2026 — Olostep](https://www.olostep.com/blog/open-source-rag-frameworks)
 - [Best LLM Knowledge Base Tools in 2026 — Atlan](https://atlan.com/know/llm-knowledge-base-tools/)
 - [Best LLM API for RAG 2026 — CostBench](https://costbench.com/best/best-llm-api-for-rag/)

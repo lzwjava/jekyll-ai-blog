@@ -40,7 +40,7 @@ RAG 无需重新训练即可弥补三个缺陷：LLM 会幻觉、存在知识截
 截至 2026 年初，按 GitHub 星标数排名：**LangChain**（约 125,000）、**Dify**（约 114,000）、**RAGFlow**（约 70,000）、**LlamaIndex**（约 46,500）、**Haystack**（约 24,000）。
 
 | 项目 | 最适合场景 | 技能水平 |
-|---|---|---|
+| --- | --- | --- |
 | **LangChain** | 通用的端到端 LLM 应用与智能体 | 高级 |
 | **Dify** | 可视化/低代码，快速原型开发 | 入门 |
 | **RAGFlow** | 文档密集型、带有引用的问答 | 中级 |
@@ -54,6 +54,7 @@ RAG 无需重新训练即可弥补三个缺陷：LLM 会幻觉、存在知识截
 ## 如何选择
 
 快速映射：
+
 - **最快原型** → 从 **Dify** 开始
 - **文档问答** → 从 **LlamaIndex** 或 **RAGFlow** 开始
 - **智能体与灵活性** → 从 **LangChain** 开始
@@ -76,6 +77,7 @@ RAG 无需重新训练即可弥补三个缺陷：LLM 会幻觉、存在知识截
 ---
 
 **参考资料：**
+
 - [2026 年最佳开源 RAG 框架 — Olostep](https://www.olostep.com/blog/open-source-rag-frameworks)
 - [2026 年最佳 LLM 知识库工具 — Atlan](https://atlan.com/know/llm-knowledge-base-tools/)
 - [2026 年最佳 RAG 用 LLM API — CostBench](https://costbench.com/best/best-llm-api-for-rag/)
