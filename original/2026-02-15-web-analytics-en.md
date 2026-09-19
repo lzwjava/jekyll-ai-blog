@@ -16,7 +16,7 @@ Before April 2026, I did not calculate or recall exactly how many page views thi
 
 ![](assets/images/analytics/cf10.png)
 
-GoatCounter reports about 4,390 visits per month:
+GoatCounter reports about 7,400 visits per month:
 
 ![](assets/images/analytics/goatcounter.png)
 
