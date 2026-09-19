@@ -48,4 +48,5 @@ RAG has evolved from a buzzword to an indispensable foundation for AI applicatio
 ---
 
 **References:**
+
 - [Retrieval-Augmented Generation (RAG) | Pinecone](https://www.pinecone.io/learn/retrieval-augmented-generation/)

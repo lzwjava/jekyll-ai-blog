@@ -22,6 +22,7 @@ type: note
 **Research Focus:** Their current projects span efficient training and inference for massive AI models, large-scale distributed machine learning, adaptive concurrent data structures, and fundamental limits of distributed computation. They develop new algorithms for learning over compressed representations — such as sparse or quantized models — as well as efficient systems implementations that can leverage compression gains in practice.
 
 **What They Publish on Hugging Face:** The lab hosts 164 models and 2 datasets on Hugging Face, with 19 team members contributing. Their most prominent recent work includes:
+
 - **GSQ** (Gumbel-Softmax quantization) — highly accurate low-precision scalar quantization for LLMs
 - **GSQ-RCO-GGUF** — non-uniform GGUF quantizations using per-tensor mixed precision in standard GGUF format
 - Quantized versions of popular large models like Qwen3, Kimi-K2, and Llama 3.1 (at 2-bit and 3-bit precision)
@@ -29,5 +30,6 @@ type: note
 In short, DASLab is a leading academic research group pushing the frontier of **LLM compression and efficient inference**, making large models smaller and faster without sacrificing quality.
 
 **References:**
+
 - [ISTA-DASLab on Hugging Face](https://huggingface.co/ISTA-DASLab)
 - [Alistarh Group — ISTA](https://ist.ac.at/en/research/alistarh-group/)

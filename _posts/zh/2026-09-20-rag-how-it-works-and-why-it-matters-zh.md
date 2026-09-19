@@ -48,4 +48,5 @@ RAG 已从流行词演变为 AI 应用不可或缺的基础，将基础模型的
 ---
 
 **参考文献：**
+
 - [检索增强生成（RAG） | Pinecone](https://www.pinecone.io/learn/retrieval-augmented-generation/)

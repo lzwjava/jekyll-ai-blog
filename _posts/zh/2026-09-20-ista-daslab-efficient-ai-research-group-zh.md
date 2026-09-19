@@ -22,6 +22,7 @@ type: note
 **研究重点：** 他们当前的项目涵盖大规模 AI 模型的高效训练与推理、大规模分布式机器学习、自适应并发数据结构以及分布式计算的基本极限。他们开发新的算法，用于在压缩表示（如稀疏或量化模型）上进行学习，以及能够在实践中利用压缩收益的高效系统实现。
 
 **他们在 Hugging Face 上发布的内容：** 该实验室在 Hugging Face 上托管了164个模型和2个数据集，有19名团队成员参与贡献。他们近期最突出的工作包括：
+
 - **GSQ**（Gumbel-Softmax 量化）—— 用于LLM的高精度低比特标量量化
 - **GSQ-RCO-GGUF** —— 使用标准 GGUF 格式中按张量混合精度的非均匀 GGUF 量化
 - 流行大模型（如 Qwen3、Kimi-K2 和 Llama 3.1）的量化版本（2比特和3比特精度）
@@ -29,5 +30,6 @@ type: note
 简而言之，DASLab 是一个领先的学术研究小组，致力于推动 **LLM 压缩与高效推理** 的前沿，在不牺牲质量的前提下使大模型更小、更快。
 
 **参考资料：**
+
 - [Hugging Face 上的 ISTA-DASLab](https://huggingface.co/ISTA-DASLab)
 - [Alistarh 小组 — ISTA](https://ist.ac.at/en/research/alistarh-group/)

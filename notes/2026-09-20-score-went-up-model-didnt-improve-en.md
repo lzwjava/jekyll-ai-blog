@@ -52,6 +52,7 @@ It's like giving a student a test where they already know 85% of the answers per
 ## So what did the model actually learn?
 
 Almost nothing useful. It mostly learned to:
+
 - Answer in **fewer words** (answers got shorter over training),
 - **Stop printing a stray `</think>` tag** it used to emit.
 
@@ -66,7 +67,7 @@ That last one is why the score *looked* like it jumped. Your own notes in `run2.
 Two changes, each targeting one problem:
 
 | Problem | Fix in `run2.sh` |
-|---|---|
+| --- | --- |
 | Problems too easy → nothing to learn | `--difficulty harder` (3-digit numbers, 2-digit multiplication) |
 | `<think>` tags never appeared | `--format-warmup 512` (show the model 512 examples of the tag format *before* RL starts) |
 

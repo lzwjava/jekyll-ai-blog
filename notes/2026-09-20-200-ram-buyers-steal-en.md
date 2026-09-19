@@ -24,11 +24,12 @@ Here's the pricing context:
 **Verdict on ¥200:**
 
 | Perspective | Assessment |
-|---|---|
+| --- | --- |
 | Buyer | 🟢 Excellent deal — well below market value |
 | Seller | 🔴 Too cheap — selling at ~26% of new retail |
 
 **Considerations:**
+
 - No box reduces value slightly, but not drastically.
 - The seller's terms are strict (no returns, buyer pays shipping insurance via SF Express), which slightly offsets the low price.
 - If the sticks are fully functional, ¥200 is a steal. A fair counter-offer from the seller's side would be **¥300–380 CNY**.
@@ -38,5 +39,6 @@ If you're the **buyer**, ¥200 is a great price — go for it if the condition c
 ---
 
 **References:**
+
 - [Acer Predator RAM Pricing – ZOL](https://detail.zol.com.cn/memory/acer/)
 - [Acer Predator DDR5 6000MHz 32GB on eBay](https://www.ebay.de/itm/226916491345)

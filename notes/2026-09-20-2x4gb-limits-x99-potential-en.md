@@ -24,7 +24,7 @@ Yes, 2x4GB **works and runs in dual channel** — but it's quite limited for the
 ### 📊 Configuration Analysis
 
 | Feature | 2x4GB (8GB total) |
-|---|---|
+| --- | --- |
 | **Total RAM** | 8GB |
 | **Channel Mode** | ✅ Dual Channel |
 | **Will it boot?** | ✅ Yes |
@@ -36,7 +36,7 @@ Yes, 2x4GB **works and runs in dual channel** — but it's quite limited for the
 ### 🤔 Is 8GB Enough?
 
 | Use Case | 8GB Sufficient? |
-|---|---|
+| --- | --- |
 | Basic office / browsing | ✅ Fine |
 | Light gaming | ✅ OK |
 | Running VMs / multi-open | ❌ Too tight |
@@ -49,6 +49,7 @@ Yes, 2x4GB **works and runs in dual channel** — but it's quite limited for the
 ### 💡 The Real Problem
 
 The **E5-2680 v4's biggest strength** is:
+
 - 14 cores / 28 threads
 - **Quad-channel** memory support
 - Up to **1.5TB RAM** support
@@ -60,7 +61,7 @@ Running only 2x4GB means you're using a **server-grade CPU at 25% of its memory 
 ### 🔧 Recommended RAM Upgrades
 
 | Config | Total | Channel | Cost Estimate (CNY) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2x4GB | 8GB | Dual | ~50–80 CNY |
 | 2x8GB | 16GB | Dual | ~100–150 CNY |
 | 4x8GB | 32GB | ✅ Quad | ~200–300 CNY |
@@ -77,5 +78,6 @@ DDR4 ECC/non-ECC RAM for X99 is **very cheap** on the second-hand market right n
 ---
 
 **References:**
+
 - [Intel X99 Chipset Memory Specs](https://ark.intel.com/content/www/us/en/ark/products/81761/intel-x99-chipset.html)
 - [E5-2680 v4 Memory Specifications](https://ark.intel.com/content/www/us/en/ark/products/91754/intel-xeon-processor-e5-2680-v4-35m-cache-2-40-ghz.html)

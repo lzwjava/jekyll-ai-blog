@@ -18,7 +18,7 @@ type: note
 ### ✅ 兼容性检查
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | **插槽** | LGA1700 ✅ |
 | **代次** | 第12代（Alder Lake） ✅ |
 | **芯片组支持** | B760 支持第12代 ✅ |
@@ -27,7 +27,7 @@ type: note
 ### 📊 i3-12100F 快速规格
 
 | 规格 | 参数 |
-|---|---|
+| --- | --- |
 | **核心 / 线程** | 4 核 / 8 线程 |
 | **基础频率** | 3.3 GHz |
 | **加速频率** | 4.3 GHz |
@@ -45,5 +45,6 @@ type: note
 ---
 
 **参考链接：**
+
 - [Intel Core i3-12100F 规格](https://ark.intel.com/content/www/us/en/ark/products/134584/intel-core-i3-12100f-processor-12m-cache-up-to-4-30-ghz.html)
 - [MSI PRO B760M-E DDR5 规格](https://www.msi.com/Motherboard/PRO-B760M-E-DDR5/Specification)

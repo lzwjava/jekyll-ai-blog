@@ -29,7 +29,7 @@ DDR4 2400MHz is the lowest tier of DDR4. Faster sticks (3200MHz, 3600MHz) are no
 **What a Fair Price Looks Like**
 
 | Item | Price |
-|---|---|
+| --- | --- |
 | Tigo DDR4 8GB 2666MHz (New) | ¥245 |
 | Tigo DDR4 8GB 3200MHz (New) | ¥259 |
 | **Used DDR4 8GB 2400MHz (fair used price)** | **¥60–90** |
@@ -46,5 +46,6 @@ Unless the seller drops to around **¥80**, this isn't worth it.
 ---
 
 References:
+
 - [Tigo Memory Prices – ZOL](https://detail.zol.com.cn/memory/kingtiger/)
 - [DDR4 2400MHz Memory Prices – ZOL](https://detail.zol.com.cn/memory/s1915/)

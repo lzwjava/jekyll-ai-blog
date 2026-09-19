@@ -26,8 +26,9 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
 **硬件要求：**
+
 | 方法 | 最低显存 | 推荐 |
-|--------|----------|-------------|
+| -------- | ---------- | ------------- |
 | 全量微调 | 80GB (A100) | 4× A100 |
 | LoRA (4比特 QLoRA) | **16–24GB** | 1× A100/H100 |
 | LoRA (8比特) | 32GB | 2× A100 |
@@ -41,6 +42,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 您的原始文本需要转换为指令微调或继续预训练的格式。
 
 **选项A — 继续预训练（原始文本，无标签）**
+
 ```python
 # data/train.jsonl
 {"text": "您的企业文档内容..."}
@@ -48,6 +50,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
 **选项B — 指令微调（问答对，企业推荐）**
+
 ```python
 # data/train.jsonl
 {"instruction": "我们的退款政策是什么？", "input": "", "output": "我们的退款政策规定..."}
@@ -55,6 +58,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
 **将原始.txt文件转换为JSONL格式：**
+
 ```python
 import json, glob
 
@@ -189,7 +193,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ## 6. 100MB数据的关键超参数
 
 | 参数 | 建议值 | 原因 |
-|-----------|----------------|--------|
+| ----------- | ---------------- | -------- |
 | `r` (LoRA秩) | 16–32 | 平衡容量与过拟合 |
 | `lora_alpha` | 2× 秩 | 标准缩放 |
 | `epochs` | 2–5 | 100MB较小；避免过拟合 |
@@ -209,6 +213,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ---
 
 **参考资料：**
+
 - [Qwen3 on Hugging Face](https://huggingface.co/Qwen/Qwen3-8B)
 - [LLaMA-Factory (最简单的微调界面)](https://github.com/hiyouga/LLaMA-Factory)
 - [TRL SFTTrainer文档](https://huggingface.co/docs/trl/sft_trainer)

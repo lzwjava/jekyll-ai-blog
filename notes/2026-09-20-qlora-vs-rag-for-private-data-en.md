@@ -31,7 +31,7 @@ Fine-tuning teaches the model **style, format, and domain tone** — it does **n
 ## Pros & Cons of QLoRA Fine-tuning
 
 | | Details |
-|---|---|
+| --- | --- |
 | ✅ **Low GPU cost** | Runs on a single 24GB GPU (RTX 3090/4090) |
 | ✅ **Fast iteration** | 100MB trains in 1–3 hours |
 | ✅ **Teaches style/tone** | Model learns your domain language, format, jargon |
@@ -51,7 +51,7 @@ Fine-tuning teaches the model **style, format, and domain tone** — it does **n
 This is the real decision you need to make:
 
 | Goal | Fine-tune | RAG |
-|------|-----------|-----|
+| ------ | ----------- | ----- |
 | Learn company writing style | ✅ Best | ❌ Poor |
 | Answer "what does policy X say?" | ❌ Unreliable | ✅ Best |
 | Domain jargon / terminology | ✅ Good | ⚠️ Partial |
@@ -78,7 +78,7 @@ Answer (with source citation)
 
 This is **RAG (Retrieval-Augmented Generation)** and it solves all the problems you're seeing.
 
-### Quick RAG setup with your data:
+### Quick RAG setup with your data
 
 ```python
 # pip install llama-index chromadb sentence-transformers
@@ -121,7 +121,7 @@ Fine-tune first on a small set of **format examples** (how you want answers stru
 ## Summary Recommendation
 
 | Your Situation | Best Approach |
-|---|---|
+| --- | --- |
 | Need accurate answers from your 100MB docs | **RAG first**, no fine-tune needed |
 | Need custom tone/format + accuracy | **RAG + light fine-tune** |
 | Building a chatbot that sounds like your company | **Fine-tune only** |
@@ -132,6 +132,7 @@ Fine-tune first on a small set of **format examples** (how you want answers stru
 ---
 
 **References:**
+
 - [RAG vs Fine-tuning — Pinecone Guide](https://www.pinecone.io/learn/retrieval-augmented-generation/)
 - [LlamaIndex Quickstart](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/)
 - [Ollama — Run Qwen3 locally](https://ollama.com/library/qwen3)

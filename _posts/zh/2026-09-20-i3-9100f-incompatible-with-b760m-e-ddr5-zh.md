@@ -18,7 +18,7 @@ type: note
 ### ❌ 兼容性检查
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | **插槽类型** | LGA1151 ❌（该主板需要 LGA1700） |
 | **代际** | 第 9 代（Coffee Lake）❌ |
 | **芯片组支持** | 需要 Z390/B365/H310 ❌ |
@@ -36,7 +36,7 @@ type: note
 请坚持使用 **第 12 代、第 13 代或第 14 代 LGA1700 CPU**，例如：
 
 | 预算 | 推荐 CPU |
-|---|---|
+| --- | --- |
 | 低端 | i3-12100F |
 | 中端 | i5-12400F / i5-13400F |
 | 高端 | i5-13600K / i7-13700F |
@@ -44,5 +44,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [英特尔酷睿 i3-9100F 规格](https://ark.intel.com/content/www/us/en/ark/products/190886/intel-core-i3-9100f-processor-6m-cache-up-to-4-20-ghz.html)
 - [微星 PRO B760M-E DDR5 规格](https://www.msi.com/Motherboard/PRO-B760M-E-DDR5/Specification)

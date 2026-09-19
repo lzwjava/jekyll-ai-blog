@@ -25,7 +25,7 @@ The two formats are **physically incompatible** — a SO-DIMM will not fit into 
 **Summary of key differences:**
 
 | Feature | This Module (SO-DIMM) | Desktop (DIMM) |
-|---|---|---|
+| --- | --- | --- |
 | Form Factor | SO-DIMM | DIMM |
 | Pins | 262 | 288 |
 | PCB Length | ~68mm | ~133mm |
@@ -36,6 +36,7 @@ The two formats are **physically incompatible** — a SO-DIMM will not fit into 
 **Workaround (if you really want to use it):**
 
 There are **SO-DIMM to DIMM adapter cards** sold on the market. However, they are generally **not recommended** because:
+
 - Compatibility is not guaranteed with all motherboards
 - They may cause instability
 - DDR5 SO-DIMM adapters are rare and niche products
@@ -45,5 +46,6 @@ There are **SO-DIMM to DIMM adapter cards** sold on the market. However, they ar
 ---
 
 **References:**
+
 - [Micron 8GB DDR5 4800 SODIMM 262-Pin specs (A-Tech)](https://atechmemory.com/products/mtc4c10163s1sc48ba1-micron-ram-8gb-1rx16-pc5-38400-sodimm-ddr5-4800-non-ecc-unbuffered-laptop-memory-module)
 - [Best DDR5 SO-DIMMs for Laptops — Face of IT](https://www.faceofit.com/best-ddr5-so-dimms-for-laptops/amp)

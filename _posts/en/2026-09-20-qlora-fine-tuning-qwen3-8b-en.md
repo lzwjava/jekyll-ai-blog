@@ -26,8 +26,9 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
 **Hardware requirements:**
+
 | Method | Min VRAM | Recommended |
-|--------|----------|-------------|
+| -------- | ---------- | ------------- |
 | Full fine-tune | 80GB (A100) | 4× A100 |
 | LoRA (4-bit QLoRA) | **16–24GB** | 1× A100/H100 |
 | LoRA (8-bit) | 32GB | 2× A100 |
@@ -41,6 +42,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 Your raw text needs to be converted into instruction-tuning or continued-pretraining format.
 
 **Option A — Continued Pretraining (raw text, no labels)**
+
 ```python
 # data/train.jsonl
 {"text": "Your enterprise document content here..."}
@@ -48,6 +50,7 @@ Your raw text needs to be converted into instruction-tuning or continued-pretrai
 ```
 
 **Option B — Instruction Fine-tuning (Q&A pairs, recommended for enterprise)**
+
 ```python
 # data/train.jsonl
 {"instruction": "What is our refund policy?", "input": "", "output": "Our refund policy states..."}
@@ -55,6 +58,7 @@ Your raw text needs to be converted into instruction-tuning or continued-pretrai
 ```
 
 **Convert raw .txt files to JSONL:**
+
 ```python
 import json, glob
 
@@ -189,7 +193,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ## 6. Key Hyperparameters for 100MB Data
 
 | Parameter | Suggested Value | Reason |
-|-----------|----------------|--------|
+| ----------- | ---------------- | -------- |
 | `r` (LoRA rank) | 16–32 | Balance capacity vs overfitting |
 | `lora_alpha` | 2× rank | Standard scaling |
 | `epochs` | 2–5 | 100MB is small; avoid overfitting |
@@ -209,6 +213,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ---
 
 **References:**
+
 - [Qwen3 on Hugging Face](https://huggingface.co/Qwen/Qwen3-8B)
 - [LLaMA-Factory (easiest fine-tune UI)](https://github.com/hiyouga/LLaMA-Factory)
 - [TRL SFTTrainer Docs](https://huggingface.co/docs/trl/sft_trainer)

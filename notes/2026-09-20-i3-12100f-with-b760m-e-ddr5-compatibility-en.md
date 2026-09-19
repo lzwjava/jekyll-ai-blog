@@ -18,7 +18,7 @@ Yes, the **Intel Core i3-12100F** is compatible with this motherboard. Here's a 
 ### ✅ Compatibility Check
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | **Socket** | LGA1700 ✅ |
 | **Generation** | 12th Gen (Alder Lake) ✅ |
 | **Chipset Support** | B760 supports 12th Gen ✅ |
@@ -27,7 +27,7 @@ Yes, the **Intel Core i3-12100F** is compatible with this motherboard. Here's a 
 ### 📊 i3-12100F Quick Specs
 
 | Spec | Value |
-|---|---|
+| --- | --- |
 | **Cores / Threads** | 4C / 8T |
 | **Base Clock** | 3.3 GHz |
 | **Boost Clock** | 4.3 GHz |
@@ -45,5 +45,6 @@ Great budget choice for the B760M-E DDR5 — power-efficient, capable for everyd
 ---
 
 **References:**
+
 - [Intel Core i3-12100F Specifications](https://ark.intel.com/content/www/us/en/ark/products/134584/intel-core-i3-12100f-processor-12m-cache-up-to-4-30-ghz.html)
 - [MSI PRO B760M-E DDR5 Specification](https://www.msi.com/Motherboard/PRO-B760M-E-DDR5/Specification)

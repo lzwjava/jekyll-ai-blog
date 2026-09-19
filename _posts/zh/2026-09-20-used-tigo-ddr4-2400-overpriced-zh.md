@@ -25,7 +25,7 @@ DDR4 2400MHz是DDR4中最低的档次。目前更快的（3200MHz、3600MHz）�
 **合理价格参考**
 
 | 项目 | 价格 |
-|---|---|
+| --- | --- |
 | 金泰克 DDR4 8GB 2666MHz（全新） | ¥245 |
 | 金泰克 DDR4 8GB 3200MHz（全新） | ¥259 |
 | **二手 DDR4 8GB 2400MHz（合理二手价）** | **¥60–90** |
@@ -42,5 +42,6 @@ DDR4 2400MHz是DDR4中最低的档次。目前更快的（3200MHz、3600MHz）�
 ---
 
 参考链接：
+
 - [金泰克内存条价格 – 中关村在线](https://detail.zol.com.cn/memory/kingtiger/)
 - [DDR4 2400MHz内存条价格 – 中关村在线](https://detail.zol.com.cn/memory/s1915/)

@@ -56,7 +56,7 @@ NetWare 通过在磁盘上维护**双重文件目录**来保护数据，这样�
 ### 汇总表
 
 | 方法 | 中文术语 | 用途 |
-|---|---|---|
+| --- | --- | --- |
 | Hot Fix | 热调整 / 热修复 | 自动重定向坏磁盘块 |
 | 双重目录 | 双重目录 | 文件目录冗余 |
 | 磁盘镜像 | 磁盘镜像 | 同通道磁盘冗余 |
@@ -67,6 +67,7 @@ NetWare 通过在磁盘上维护**双重文件目录**来保护数据，这样�
 ---
 
 **参考来源：**
+
 - [How NetWare Protects Network Data](https://www.novell.com/documentation/nw6p/trad_enu/data/he5cv8fw.html)
 - [Hot Fix – Redirecting Bad Blocks](https://www.novell.com/documentation/nw6p/sdiskenu/data/hi4exu95.html)
 - [Mirroring and Duplexing](https://teaming.novell.com/documentation/nw6p/sdiskenu/data/hefkruob.html)

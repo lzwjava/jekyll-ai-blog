@@ -56,7 +56,7 @@ The **Novell Storage Management Services (SMS)** infrastructure is supported by 
 ### Summary Table
 
 | Method | Chinese Term | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Hot Fix | 热调整 / 热修复 | Redirect bad disk blocks automatically |
 | Duplicate directories | 双重目录 | File directory redundancy |
 | Disk Mirroring | 磁盘镜像 | Same-channel disk redundancy |
@@ -67,6 +67,7 @@ The **Novell Storage Management Services (SMS)** infrastructure is supported by 
 ---
 
 **References:**
+
 - [How NetWare Protects Network Data](https://www.novell.com/documentation/nw6p/trad_enu/data/he5cv8fw.html)
 - [Hot Fix – Redirecting Bad Blocks](https://www.novell.com/documentation/nw6p/sdiskenu/data/hi4exu95.html)
 - [Mirroring and Duplexing](https://teaming.novell.com/documentation/nw6p/sdiskenu/data/hefkruob.html)

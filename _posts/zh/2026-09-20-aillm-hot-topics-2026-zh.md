@@ -66,6 +66,7 @@ AI 竞赛的地缘政治，特别是中美动态，是一个重要的持续讨�
 ---
 
 **参考文献：**
+
 - [AI Trends 2026: Test-Time Reasoning and the Rise of Reflective Agents](https://huggingface.co/blog/aufklarer/ai-trends-2026-test-time-reasoning-reflective-agen)
 - [A Survey of Frontiers in LLM Reasoning (arXiv 2026)](https://arxiv.org/html/2504.09037v4)
 - [AI Trends 2026: OpenClaw Agents, Reasoning LLMs — Sebastian Raschka](https://twimlai.com/go/762)

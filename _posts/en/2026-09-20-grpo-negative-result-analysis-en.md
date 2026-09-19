@@ -14,6 +14,7 @@ This is **run 1** of your GRPO experiment — the one that saved to `./grpo_qwen
 ## What the experiment was
 
 RL, not supervised fine-tuning: take the **base** Qwen2.5-1.5B (no SFT, no instruct tune), generate 4 completions per arithmetic prompt, and reward them with:
+
 - `reward_format` — max +0.3 for a well-formed `<think>…</think>` block
 - `reward_correctness` — +1.0 correct / −0.5 wrong / −0.7 no answer
 
@@ -22,7 +23,7 @@ The goal was to get chain-of-thought arithmetic to emerge in a base model. Confi
 ## Reading the headline numbers
 
 | Metric | Value | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | `train_loss` | −0.0090 | **Not a cross-entropy loss.** It's the GRPO policy-gradient surrogate; near zero here = advantages are ~zero, i.e. *no signal*, not "converged well." |
 | `eval_reward` | 0.9238 | Mean reward over eval groups. But since format = 0, this is *purely* correctness. |
 | `eval_rewards/reward_format/mean` | **0.0 (std 0.0)** | 🚩 The behavior you were trying to teach **never happened** — in every one of the 760 training steps and every eval. |
@@ -51,6 +52,7 @@ Those final generations confirm it: `(7 + 5) * 3 = 36` and `1834 + 596 = 2430` a
 ## Bottom line
 
 `reward ↑` ≠ `capability ↑`. This run demonstrates the two structural prerequisites GRPO needs, both of which were missing:
+
 - **Mixed-outcome groups** (headroom) — fixed in `run2.sh` with `--difficulty harder` (3-digit add/sub, 2-digit products).
 - **A reachable target behavior** — fixed with `--format-warmup 512`, which supervises the tag protocol to ~0.30 format reward *before* RL starts.
 

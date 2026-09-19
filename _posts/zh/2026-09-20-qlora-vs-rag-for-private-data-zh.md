@@ -31,7 +31,7 @@ type: note
 ## QLoRA微调的优缺点
 
 | | 详细信息 |
-|---|---|
+| --- | --- |
 | ✅ **GPU成本低** | 可在单块24GB GPU（RTX 3090/4090）上运行 |
 | ✅ **迭代快** | 100MB数据训练仅需1-3小时 |
 | ✅ **教会风格/语气** | 模型学习你的领域语言、格式、术语 |
@@ -51,7 +51,7 @@ type: note
 这才是你需要做的真正决策：
 
 | 目标 | 微调 | RAG |
-|------|-----------|-----|
+| ------ | ----------- | ----- |
 | 学习公司写作风格 | ✅ 最佳 | ❌ 较差 |
 | 回答“政策X说了什么？” | ❌ 不可靠 | ✅ 最佳 |
 | 领域术语/专业词汇 | ✅ 好 | ⚠️ 部分 |
@@ -78,7 +78,7 @@ type: note
 
 这就是 **RAG（检索增强生成）**，它能解决你看到的所有问题。
 
-### 用你的数据快速搭建RAG：
+### 用你的数据快速搭建RAG
 
 ```python
 # pip install llama-index chromadb sentence-transformers
@@ -121,7 +121,7 @@ RAG   →  查询时为你的文档提供实际事实
 ## 总结建议
 
 | 你的情况 | 最佳方法 |
-|---|---|
+| --- | --- |
 | 需要从100MB文档中获得准确答案 | **优先使用RAG**，无需微调 |
 | 需要定制语气/格式 + 准确度 | **RAG + 轻量微调** |
 | 构建一个听起来像你公司的聊天机器人 | **仅微调** |
@@ -132,6 +132,7 @@ RAG   →  查询时为你的文档提供实际事实
 ---
 
 **参考资料：**
+
 - [RAG vs 微调——Pinecone指南](https://www.pinecone.io/learn/retrieval-augmented-generation/)
 - [LlamaIndex快速入门](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/)
 - [Ollama——本地运行Qwen3](https://ollama.com/library/qwen3)

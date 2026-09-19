@@ -18,7 +18,7 @@ Great question! Intel uses **suffix letters** after the model number to indicate
 ### 🔤 Intel CPU Suffix Breakdown
 
 | Suffix | Meaning |
-|---|---|
+| --- | --- |
 | **K** | Unlocked multiplier = **overclockable** |
 | **F** | **No integrated graphics** (needs dedicated GPU) |
 | **KF** | Both — **overclockable AND no integrated graphics** |
@@ -26,7 +26,7 @@ Great question! Intel uses **suffix letters** after the model number to indicate
 ### 📊 Quick Comparison Example (i5-13600 family)
 
 | Model | Overclockable | Integrated Graphics |
-|---|---|---|
+| --- | --- | --- |
 | i5-13600 | ❌ | ✅ |
 | i5-13600K | ✅ | ✅ |
 | i5-13600F | ❌ | ❌ |
@@ -46,4 +46,5 @@ If you buy any CPU with **"F"** in the name, you **must** have a dedicated GPU �
 ---
 
 **References:**
+
 - [Intel Processor Suffixes Explained](https://www.intel.com/content/www/us/en/processors/processor-numbers.html)

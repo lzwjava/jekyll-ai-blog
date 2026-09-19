@@ -18,7 +18,7 @@ type: note
 ### ❌ Compatibility Check
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | **Socket** | LGA1151 ❌ (board needs LGA1700) |
 | **Generation** | 9th Gen (Coffee Lake) ❌ |
 | **Chipset Support** | Requires Z390/B365/H310 ❌ |
@@ -36,7 +36,7 @@ type: note
 Stick with **12th, 13th, or 14th Gen LGA1700 CPUs**, such as:
 
 | Budget | Recommended CPU |
-|---|---|
+| --- | --- |
 | Low | i3-12100F |
 | Mid | i5-12400F / i5-13400F |
 | High | i5-13600K / i7-13700F |
@@ -44,5 +44,6 @@ Stick with **12th, 13th, or 14th Gen LGA1700 CPUs**, such as:
 ---
 
 **References:**
+
 - [Intel Core i3-9100F Specifications](https://ark.intel.com/content/www/us/en/ark/products/190886/intel-core-i3-9100f-processor-6m-cache-up-to-4-20-ghz.html)
 - [MSI PRO B760M-E DDR5 Specification](https://www.msi.com/Motherboard/PRO-B760M-E-DDR5/Specification)

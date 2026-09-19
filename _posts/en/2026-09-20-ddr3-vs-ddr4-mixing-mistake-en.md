@@ -27,7 +27,7 @@ DDR4 starts at **2133MHz** as its minimum spec. **1600MHz is a DDR3 speed.** So 
 They are physically and electrically incompatible:
 
 | Feature | DDR3 | DDR4 |
-|---|---|---|
+| --- | --- | --- |
 | Voltage | 1.5V | 1.2V |
 | Notch position | Different | Different |
 | Pin count | 240-pin | 288-pin |
@@ -51,7 +51,7 @@ If you misread and both are DDR4 (e.g., 2133MHz + 2400MHz), then yes they *can* 
 **Bottom Line**
 
 | Scenario | Compatible? |
-|---|---|
+| --- | --- |
 | DDR3 (1600) + DDR4 (2400) | ❌ No — physically impossible |
 | DDR4 (2133) + DDR4 (2400) | ✓ Yes — runs at 2133MHz |
 | DDR4 different brands, same gen | ✓ Usually works |
