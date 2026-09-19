@@ -22,6 +22,7 @@ type: note
 ### 核心功能
 
 **已实现的集体操作：**
+
 - **全规约（All-Reduce）** – 对所有 GPU 的数据进行求和/规约，并将结果广播回所有 GPU
 - **全收集（All-Gather）** – 从所有 GPU 收集数据到每个 GPU
 - **规约（Reduce）** – 将数据从所有 GPU 规约到单个 GPU
@@ -34,7 +35,7 @@ type: note
 `src/transport/` 目录揭示了多种传输层：
 
 | 传输层 | 描述 |
-|-----------|-------------|
+| ----------- | ------------- |
 | **P2P** | 直接 GPU 点对点（NVLink，PCIe） |
 | **SHM** | 用于节点内通信的共享内存 |
 | **Net IB** | 用于 RDMA 网络的 InfiniBand Verbs |
@@ -48,7 +49,7 @@ type: note
 ### 关键源码组件
 
 | 目录/文件 | 用途 |
-|---------------|---------|
+| --------------- | --------- |
 | `src/device/` | 集体操作的 GPU 内核代码（CUDA 内核） |
 | `src/transport/` | 通信传输层实现 |
 | `src/include/` | 公开及内部头文件 |
@@ -74,6 +75,7 @@ type: note
 ### 使用方式
 
 NCCL 是深度学习框架中多 GPU 通信的 **事实标准**，例如：
+
 - **PyTorch**（通过 `torch.distributed`）
 - **TensorFlow**（通过 `tf.distribute`）
 - **MPI** 应用

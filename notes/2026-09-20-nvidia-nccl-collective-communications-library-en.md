@@ -22,6 +22,7 @@ Here's a comprehensive overview of this project:
 ### Key Capabilities
 
 **Collective Operations implemented:**
+
 - **All-Reduce** – Sum/reduce data across all GPUs and broadcast result back
 - **All-Gather** – Gather data from all GPUs to every GPU
 - **Reduce** – Reduce data from all GPUs to a single GPU
@@ -32,8 +33,9 @@ Here's a comprehensive overview of this project:
 ### Communication Backends (Transports)
 
 The `src/transport/` directory reveals multiple transport layers:
+
 | Transport | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | **P2P** | Direct GPU peer-to-peer (NVLink, PCIe) |
 | **SHM** | Shared memory for intra-node communication |
 | **Net IB** | InfiniBand Verbs for RDMA networking |
@@ -47,7 +49,7 @@ The `src/transport/` directory reveals multiple transport layers:
 ### Key Source Components
 
 | Directory/File | Purpose |
-|---------------|---------|
+| --------------- | --------- |
 | `src/device/` | GPU kernel code for collectives (CUDA kernels) |
 | `src/transport/` | Communication transport layer implementations |
 | `src/include/` | Public & internal header files |
@@ -73,6 +75,7 @@ The `src/transport/` directory reveals multiple transport layers:
 ### Usage
 
 NCCL is the **de facto standard** for multi-GPU communication in deep learning frameworks like:
+
 - **PyTorch** (via `torch.distributed`)
 - **TensorFlow** (via `tf.distribute`)
 - **MPI** applications
