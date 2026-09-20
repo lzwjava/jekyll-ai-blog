@@ -123,7 +123,7 @@ CPU型号：     确切型号
 
 如果 `Ctrl+Home` 导致**零USB活动和零蜂鸣**，那么我会考虑直接用CH341A/SOIC8夹子读取SPI芯片。这为我们提供了比反复猜测键盘恢复组合更确定的恢复路径。
 
-### 参考文献：
+### 参考文献
 
 * [AMI AMIBIOS8 Flash Update & BIOS Recovery Methods](https://forums.futura-sciences.com/attachments/materiel-hardware/58894d1225034379-flash-bios-rate-amibios8_flash_recovery_whitepaper_v10.pdf)（[Futura Sciences论坛][1]）
 * [BIOSTAR: How to recover AMI BIOS if update fails](https://www.biostar-usa.com/app/en-us/support/faq.php?page=12&searchfaq=bios)（[Biostar USA][2]）

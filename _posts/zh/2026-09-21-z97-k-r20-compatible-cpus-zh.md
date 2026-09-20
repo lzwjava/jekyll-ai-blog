@@ -57,7 +57,7 @@ type: note
 ### 总结
 
 | 类别 | 最佳选择 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | 顶级性能 | i7-4790K（4.0GHz） | Devil's Canyon，此主板最佳 |
 | 最佳性价比 | i5-4460 / i5-4590 | 稳定的四核，二手价格实惠 |
 | 入门级 | Pentium G3258 | 倍频解锁，可超频 |
@@ -66,4 +66,5 @@ type: note
 ---
 
 **参考资料：**
+
 - [华硕 Z97-K CPU 支持列表（官方）](https://www.asus.com/supportonly/z97k/helpdesk_cpu/)

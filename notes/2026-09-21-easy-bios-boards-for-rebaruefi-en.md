@@ -22,7 +22,7 @@ Looking at the ReBarUEFI [working motherboards list](https://github.com/xCuri0/R
 These manufacturers keep clean, publicly accessible BIOS archives:
 
 | Board Family | Why Easy |
-|---|---|
+| --- | --- |
 | **ASUS Z97 / Z170 / Z270 / X99** (e.g. Z170-A, Maximus VIII Hero, X99-DELUXE) | ASUS support site has direct BIOS downloads by model, no login |
 | **MSI Z97 / B150M / Z170 / Z270** (e.g. Z97 Gaming 5, B150M Bazooka) | MSI download center, straightforward |
 | **Gigabyte B75M / Z68 / Z170 / B450** | Gigabyte support, all BIOS revisions kept |
@@ -56,5 +56,6 @@ All are LGA1150 like B85, so your existing Haswell CPU carries over. They also s
 ---
 
 **References:**
+
 - [ReBarUEFI GitHub — Working Motherboards List (Issue #11)](https://github.com/xCuri0/ReBarUEFI/issues/11)
 - [ReBarUEFI Main Repository](https://github.com/xCuri0/ReBarUEFI)

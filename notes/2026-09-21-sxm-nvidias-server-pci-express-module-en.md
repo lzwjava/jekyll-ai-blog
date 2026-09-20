@@ -20,4 +20,5 @@ Despite containing "PCI Express" in its full name, SXM is actually NVIDIA's *pro
 ---
 
 **References:**
+
 - [Wikipedia – SXM (socket)](https://wiki.mewayz.com/wiki/SXM_(socket)?lang=en)

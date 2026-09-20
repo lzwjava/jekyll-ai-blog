@@ -26,24 +26,29 @@ Everything verified end-to-end. Your **final flash-ready image** is ready:
 ## What's left (on the physical machine)
 
 1. **Flash** — boot a FreeDOS USB with your `fpt.exe` + `fparts.txt`, then:
+
    ```
    fpt -f b75_modded.bin.patched
    ```
+
    ⚠️ Keep `B75V101_original.bin` safe — don't power off during flash.
 
 2. **BIOS setup** — enable **Above 4G Decoding**, disable **CSM**.
 
 3. **Set BAR size** (as root, on this Linux box):
+
    ```bash
    cd /home/lzw/Downloads/B75/rebar-work
    sudo ./ReBarState    # type 32 (unlimited), then reboot
    ```
 
 4. **Verify**:
+
    ```bash
    sudo dmesg | grep -i "root bus resource"   # last mem window should end ≥ 0xfffffffff
    sudo dmesg | grep -i bar
    ```
+
    or GPU-Z on Windows.
 
 If it won't POST after setting a BAR size: **clear CMOS** (pull the battery if needed) — that disables ReBAR.

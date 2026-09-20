@@ -28,15 +28,18 @@ Done. I took your `B75V101.bin`, analyzed it, ran UEFIPatch, and prepared everyt
 ## What YOU do next (2 GUI clicks, 1 command, then flash)
 
 **1. UEFITool 0.28.0 (non-NE) GUI** — open `B75V101_original.bin`:
+
 - Search header-only GUID `3C1DE39F-D207-408A-AACC-731CFB7F1DD7` (PciBus) → jump to the DXE volume → right-click **CRBSMI** (last module) → **Insert after** → `ReBarDxe.ffs`
 - Search header-only GUID `9F3A0016-AE55-4288-829D-D22FD344C347` (AmiBoardInfo) → open Compressed section → PE32 image section → **Replace body** → `AmiBoardInfoMod.efi`
 - Save as `b75_modded.bin`
 
 **2. Patch it (already tested, will print "Image patched" with 4 patches):**
+
 ```bash
 cd /home/lzw/Downloads/B75/rebar-work
 ./UEFIPatch b75_modded.bin patches.txt
 ```
+
 → produces **`b75_modded.bin.patched`** ← flash this one.
 
 **3. Flash** from FreeDOS USB with your vendor's `fpt.exe` (`fpt -f b75_modded.bin.patched`, same as their `1.BAT`). ⚠️ Risky — keep the original.
@@ -44,6 +47,7 @@ cd /home/lzw/Downloads/B75/rebar-work
 **4. In BIOS:** enable **Above 4G Decoding**, disable **CSM**.
 
 **5. Set BAR size (as root):**
+
 ```bash
 sudo ./ReBarState    # type 32 = unlimited
 ```

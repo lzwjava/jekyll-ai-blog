@@ -26,9 +26,11 @@ Power on → tap **Del** (or F2) → BIOS setup.
 Save & exit (**F10**).
 
 ⚠️ One caveat: if your Ubuntu on the B75 was installed in **legacy/MBR** mode, disabling CSM will stop it booting. After booting Ubuntu you can check with:
+
 ```bash
 ls /sys/firmware/efi    # exists = UEFI boot (CSM off is fine); "No such file" = legacy/MBR
 ```
+
 If it's legacy and won't boot, re-enable CSM for now — the flash is already done, so that's safe — and tell me; we can either convert Ubuntu to UEFI or keep CSM on (you'd be limited to a smaller BAR).
 
 ## 3. Boot Ubuntu, then set the BAR size
@@ -41,10 +43,12 @@ scp /home/lzw/Downloads/B75/rebar-work/ReBarState  user@b75-ip:~
 ```
 
 Then on the **B75** (as root):
+
 ```bash
 sudo ./ReBarState
 # type: 32
 ```
+
 Then **reboot**.
 
 ## 4. Verify
@@ -53,11 +57,13 @@ Then **reboot**.
 sudo dmesg | grep -i "root bus resource"   # last mem window should end ≥ 0xfffffffff
 sudo dmesg | grep -i bar
 ```
+
 or GPU-Z on Windows if you dual-boot.
 
 ---
 
 Tell me:
+
 1. Did you find **Above 4G Decoding** (and where)?
 2. Does Ubuntu still boot after disabling CSM?
 

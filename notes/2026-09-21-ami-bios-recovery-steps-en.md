@@ -12,6 +12,7 @@ type: note
 I've prepared the recovery files. Here's the full recovery path:
 
 ## 1. Tell me the triage results first
+
 (Fans? Beeps? Monitor on GPU vs motherboard? HDD activity?)
 
 ## 2. AMI forced recovery (most likely to work without hardware)

@@ -23,9 +23,11 @@ USB 已制作并验证完成。以下是最终检查清单：
 1. **弹出 USB** 从当前机器，将其插入 B75 主机。
 2. **从 USB 启动** — 按下启动菜单键（通常为 **F8 / F11 / F12**，也可尝试 Del/F2 进入 BIOS 查找 "Boot Menu"），选择 **legacy / non-UEFI** 的 USB 启动项。（CSM 仍处于开启状态，因此 legacy 启动可用。）
 3. 在提示符下输入：
+
    ```
    C:\> flash.bat
    ```
+
 4. 该脚本将：
    - 备份当前 BIOS → `BACKUP.BIN`
    - 刷写 `NEWBIOS.BIN`

@@ -123,7 +123,7 @@ Also, **don't flash the enlarged/custom image again yet**. First attempt to rest
 
 If `Ctrl+Home` produces **zero USB activity and zero beeps**, then I'd move to reading the SPI chip directly with a CH341A/SOIC8 clip. That gives us a much more deterministic recovery path than repeatedly guessing at keyboard recovery combinations.
 
-### References:
+### References
 
 * [AMI AMIBIOS8 Flash Update & BIOS Recovery Methods](https://forums.futura-sciences.com/attachments/materiel-hardware/58894d1225034379-flash-bios-rate-amibios8_flash_recovery_whitepaper_v10.pdf) ([Futura Sciences Forums][1])
 * [BIOSTAR: How to recover AMI BIOS if update fails](https://www.biostar-usa.com/app/en-us/support/faq.php?page=12&searchfaq=bios) ([Biostar USA][2])

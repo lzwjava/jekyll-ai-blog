@@ -22,7 +22,7 @@ type: note
 这些厂商提供了清晰、公开的 BIOS 存档：
 
 | 主板系列 | 容易获取的原因 |
-|---|---|
+| --- | --- |
 | **华硕 Z97 / Z170 / Z270 / X99**（例如 Z170-A、Maximus VIII Hero、X99-DELUXE） | 华硕支持网站按型号提供直接 BIOS 下载，无需登录 |
 | **微星 Z97 / B150M / Z170 / Z270**（例如 Z97 Gaming 5、B150M Bazooka） | 微星下载中心，直接明了 |
 | **技嘉 B75M / Z68 / Z170 / B450** | 技嘉支持，所有 BIOS 版本均保留 |
@@ -56,5 +56,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [ReBarUEFI GitHub — 可用主板列表（Issue #11）](https://github.com/xCuri0/ReBarUEFI/issues/11)
 - [ReBarUEFI 主仓库](https://github.com/xCuri0/ReBarUEFI)

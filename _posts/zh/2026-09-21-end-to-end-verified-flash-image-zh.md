@@ -26,24 +26,29 @@ type: note
 ## 剩余操作（在物理机器上）
 
 1. **刷写** — 使用 `fpt.exe` + `fparts.txt` 启动 FreeDOS USB，然后执行：
+
    ```
    fpt -f b75_modded.bin.patched
    ```
+
    ⚠️ 请妥善保管 `B75V101_original.bin` — 刷写期间切勿断电。
 
 2. **BIOS 设置** — 启用 **Above 4G Decoding**，禁用 **CSM**。
 
 3. **设置 BAR 大小**（以 root 身份，在此 Linux 机器上）：
+
    ```bash
    cd /home/lzw/Downloads/B75/rebar-work
    sudo ./ReBarState    # 输入 32（无限制），然后重启
    ```
 
 4. **验证**：
+
    ```bash
    sudo dmesg | grep -i "root bus resource"   # 最后一个内存窗口结尾应 ≥ 0xfffffffff
    sudo dmesg | grep -i bar
    ```
+
    或在 Windows 上用 GPU-Z。
 
 如果设置 BAR 大小后无法 POST：**清除 CMOS**（必要时拔掉电池）— 这将禁用 ReBAR。

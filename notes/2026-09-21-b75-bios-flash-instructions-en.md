@@ -36,14 +36,17 @@ sudo ./make-usb.sh /dev/sdb     # <-- whole disk, NOT /dev/sdb1
 The script refuses to touch non-removable disks (safety), writes FreeDOS, copies the flash files, and patches it to **boot straight to a `C:\>` prompt** (skips the FreeDOS installer). It asks you to type `YES` before erasing the USB.
 
 **2. Move the USB to the B75 PC and boot from it.**
+
 - Press the **boot menu key** (usually F8 / F11 / F12, depends on board) and pick the **non-UEFI / legacy** USB entry. DOS needs legacy boot, so keep CSM ON for now.
 
 **3. At the `C:\>` prompt, type:**
+
 ```
 flash.bat
 ```
 
 It does two things:
+
 1. Backs up your current BIOS → `BACKUP.BIN` (on the USB)
 2. Flashes `NEWBIOS.BIN` (full 4 MB image, same `fpt -f` method your vendor's `1.BAT` uses)
 
@@ -60,6 +63,7 @@ It does two things:
 ---
 
 ⚠️ Two safety notes:
+
 - If `flash.bat` ever reports **FAILED** — do **not** power off; just run `fpt -f NEWBIOS.BIN` again.
 - Keep `B75V101_original.bin` (and the `OLDBIOS.BIN` copy on the USB) safe — that's your recovery image.
 

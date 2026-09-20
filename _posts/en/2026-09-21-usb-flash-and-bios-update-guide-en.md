@@ -23,9 +23,11 @@ The USB is built and verified. Here's the final checklist:
 1. **Eject the USB** from this machine, plug it into the B75 PC.
 2. **Boot from USB** — press the boot-menu key (usually **F8 / F11 / F12**, try Del/F2 for BIOS and look for "Boot Menu") and select the **legacy / non-UEFI** USB entry. (CSM is still on, so legacy boot works.)
 3. At the prompt:
+
    ```
    C:\> flash.bat
    ```
+
 4. It will:
    - dump your current BIOS → `BACKUP.BIN`
    - flash `NEWBIOS.BIN`

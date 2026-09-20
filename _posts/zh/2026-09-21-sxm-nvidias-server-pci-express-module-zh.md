@@ -20,4 +20,5 @@ SXM 代表 **Server PCI Express Module**（服务器 PCI Express 模块）。
 ---
 
 **参考文献：**
+
 - [Wikipedia – SXM (socket)](https://wiki.mewayz.com/wiki/SXM_(socket)?lang=en)
