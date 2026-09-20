@@ -19,13 +19,16 @@ Here's what the script expects:
 2. **EDK2 environment must be set up** — source `edksetup.sh` (sets `$WORKSPACE`, `$EDK_TOOLS_PATH`, etc.) and have `BaseTools` built
 3. **Dependencies installed** — `nasm`, `iasl`, `uuid-dev`, `python3-pefile`
 4. Then from `edk2/ReBarUEFI/ReBarDxe/`:
+
    ```bash
    source ../edksetup.sh   # from edk2 root
    python buildffs.py
    ```
+
 5. The script `chdir`'s to `../../` (the EDK2 root) and runs the `build` command
 
 **Issues encountered:**
+
 - ❌ `ModuleNotFoundError: No module named 'pefile'` → fixed (installed in venv)
 - ❌ `FileNotFoundError: [Errno 2] No such file or directory: 'build'` → `build` is EDK2's build tool, requires the full EDK2 environment
 

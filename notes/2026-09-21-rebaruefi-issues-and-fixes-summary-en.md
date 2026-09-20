@@ -18,6 +18,7 @@ Here's a structured summary of the page covering known issues and their fixes fo
 ---
 
 ### Current Known Issues (No Fix)
+
 - Many **Haswell** systems lack the 4G decoding option, making full-size ReBarUEFI impossible.
 - **LGA1151** has display output issues on some boards (workaround: connect monitor to iGPU).
 - **ASRock Z170 K4/D3**: Intel SATA controller stops working when 4G decoding is enabled.
@@ -28,7 +29,7 @@ Here's a structured summary of the page covering known issues and their fixes fo
 ### GPU-Specific Fixes
 
 | Issue | Fix |
-|---|---|
+| --- | --- |
 | NVIDIA RTX 30 series ReBAR not working | Update VBIOS via NVIDIA's official guide |
 | AMD GPU — blank screen when CSM disabled | Restore original VBIOS (or apply GOP update) |
 | AMD unsupported GPU — enable ReBAR | Use Radeon-ID drivers or apply a `.reg` file |
@@ -41,7 +42,7 @@ Here's a structured summary of the page covering known issues and their fixes fo
 ### Boot / POST Issues
 
 | Issue | Fix |
-|---|---|
+| --- | --- |
 | Windows won't boot after disabling CSM | Convert MBR disk to UEFI GPT |
 | LGA1151 won't POST with 4GB+ BAR | Connect monitor to iGPU |
 | No video output before OS loads | Disable **Above 4G Decoding Patch** option |
@@ -54,7 +55,7 @@ Here's a structured summary of the page covering known issues and their fixes fo
 ### Software / NVRAM Issues
 
 | Issue | Fix |
-|---|---|
+| --- | --- |
 | `ReBarState` says "Failed to write UEFI variable" | Run as Administrator; apply `NvramSmi` or `NvramSmiDxe` patches via UEFIPatch |
 | Games crash after enabling ReBAR | Increase **pagefile size** |
 | Stutters on Ryzen | Known firmware bug; try setting `Above 4GB MMIO Limit` to `512GB` |
@@ -72,4 +73,5 @@ Here's a structured summary of the page covering known issues and their fixes fo
 ---
 
 References:
+
 - [ReBarUEFI Common Issues and Fixes Wiki](https://github.com/xCuri0/ReBarUEFI/wiki/Common-issues-(and-fixes))

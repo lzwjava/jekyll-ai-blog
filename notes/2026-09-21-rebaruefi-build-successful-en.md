@@ -23,12 +23,15 @@ The FFS header contains the expected GUID (`a8ee1777-...`) and the NX_COMPAT fla
 ## What I fixed / did
 
 1. **Installed dependencies** (nasm, iasl via acpica-tools, pefile for the system Python):
+
    ```bash
    sudo apt-get install -y nasm acpica-tools python3-pefile
    ```
+
    (`uuid-dev` was already present.)
 
 2. **Built BaseTools** using the system Python 3.12 (not Homebrew's 3.14, which is first in `PATH` and lacks `pefile`):
+
    ```bash
    cd /home/lzw/projects/edk2
    export PYTHON_COMMAND=/usr/bin/python3
@@ -36,9 +39,11 @@ The FFS header contains the expected GUID (`a8ee1777-...`) and the NX_COMPAT fla
    ```
 
 3. **Generated the Conf files and configured them**:
+
    ```bash
    source edksetup.sh --reconfig
    ```
+
    Then edited `Conf/target.txt`:
    - `ACTIVE_PLATFORM = ReBarUEFI/ReBarDxe/ReBar.dsc`
    - `TARGET = RELEASE`
@@ -46,6 +51,7 @@ The FFS header contains the expected GUID (`a8ee1777-...`) and the NX_COMPAT fla
    - `TOOL_CHAIN_TAG = GCC`  ← **important**: this EDK2 tree removed `GCC5` (`tools_def.txt` v3.06 removed GCC48/GCC49/GCC5), so the original `GCC5` produced `Tool chain [GCC5] is not defined`.
 
 4. **Ran the build**:
+
    ```bash
    cd /home/lzw/projects/edk2
    export PYTHON_COMMAND=/usr/bin/python3

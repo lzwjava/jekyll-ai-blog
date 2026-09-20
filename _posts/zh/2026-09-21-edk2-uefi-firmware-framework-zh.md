@@ -13,7 +13,7 @@ type: note
 
 **回答：**
 
-**EDK II（EFI 开发套件 II）** 是一个现代、开源 的固件开发框架，由 TianoCore 社区维护。它被描述为基于 www.uefi.org 上的 UEFI 和 PI 规范构建的现代、功能丰富、跨平台的固件开发环境。
+**EDK II（EFI 开发套件 II）** 是一个现代、开源 的固件开发框架，由 TianoCore 社区维护。它被描述为基于 <www.uefi.org> 上的 UEFI 和 PI 规范构建的现代、功能丰富、跨平台的固件开发环境。
 
 通俗地说，它是用于构建 **UEFI 固件** 的代码库——这种软件负责初始化硬件并启动操作系统，广泛应用于大多数现代 PC、服务器及嵌入式设备。
 
@@ -27,7 +27,7 @@ type: note
 **仓库中的主要包**（每个均为独立的模块）：
 
 | 包名 | 用途 |
-|---|---|
+| --- | --- |
 | `MdePkg` | UEFI 核心库定义 |
 | `MdeModulePkg` | 通用 UEFI 驱动和应用程序 |
 | `OvmfPkg` | QEMU/KVM 虚拟机的 UEFI 固件 |
@@ -43,6 +43,7 @@ type: note
 **谁在使用它？** EDK II 是 Intel 平台、QEMU/OVMF（广泛应用于 Linux 虚拟化）以及众多嵌入式/服务器平台固件的上游基础。
 
 参考：
+
 - [tianocore/edk2 on GitHub](https://github.com/tianocore/edk2)
 - [TianoCore 官方网站](http://www.tianocore.org)
 - [EDK II 入门指南](https://www.tianocore.org/tianocore-wiki.github.io/development/tutorials-howto/getting_started_with_edk_ii.html)

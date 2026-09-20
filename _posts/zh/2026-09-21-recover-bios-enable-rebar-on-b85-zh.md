@@ -23,25 +23,31 @@ type: note
 ## 如何实际获取 BIOS 镜像
 
 ### 选项 1（推荐）：从闪存芯片中读取
+
 由于这是一块没有官方下载的老款廉价主板，最可靠的方法是直接从 SPI 闪存芯片中读取 BIOS：
 
 1. 购买一个 **CH341A** 编程器（约 5 美元）+ SOP8 测试夹（这样无需拆焊）
 2. 识别主板上的闪存芯片（通常是 25 系列 SPI NOR，例如 Winbond W25Q64/GD25Q64，SOP8 封装）
 3. 使用 `flashrom` 读取：
+
    ```bash
    # Linux
    flashrom -p ch341a_spi -r soyo_b85n_backup.bin
    # 读取 2-3 次并校验校验和是否匹配
    ```
+
 这样您既得到了一个 **可工作的备份（对恢复至关重要）**，也获得了用于修改的精确镜像。即使官方镜像存在，我也会在修改 BIOS 之前先执行此操作。
 
 ### 选项 2：Wayback Machine / 存档
+
 尝试抓取旧 SOYO 网站和第三方镜像的存档：
+
 - `https://web.archive.org/web/*/soyo.com.cn/*`
 - `https://web.archive.org/web/*/soyocn.net/*`
 - 搜索关键词：`梅捷 SY-B85N BIOS`、`SY-B85N 全固版 驱动`
 
 ### 选项 3：第三方中文驱动网站/论坛
+
 - `drivers.mydrivers.com`（Soyo 分类：`s-4-878`）
 - `drv5.cn`、`160.com`、`pcpop.com`
 - 百度贴吧（图拉丁吧 / 主板吧）——人们会备份这些 BIOS 文件

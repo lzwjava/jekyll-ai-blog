@@ -23,12 +23,15 @@ FFS 头部包含预期的 GUID（`a8ee1777-...`），并且 PE 上设置了 NX_C
 ## 我的修复/操作
 
 1. **安装依赖**（nasm、通过 acpica-tools 安装的 iasl、系统 Python 的 pefile）：
+
    ```bash
    sudo apt-get install -y nasm acpica-tools python3-pefile
    ```
+
    （`uuid-dev` 已经存在。）
 
 2. **使用系统 Python 3.12 构建 BaseTools**（不使用 Homebrew 的 3.14，因为它在 `PATH` 中排在首位且缺少 `pefile`）：
+
    ```bash
    cd /home/lzw/projects/edk2
    export PYTHON_COMMAND=/usr/bin/python3
@@ -36,9 +39,11 @@ FFS 头部包含预期的 GUID（`a8ee1777-...`），并且 PE 上设置了 NX_C
    ```
 
 3. **生成 Conf 文件并进行配置**：
+
    ```bash
    source edksetup.sh --reconfig
    ```
+
    然后编辑 `Conf/target.txt`：
    - `ACTIVE_PLATFORM = ReBarUEFI/ReBarDxe/ReBar.dsc`
    - `TARGET = RELEASE`
@@ -46,6 +51,7 @@ FFS 头部包含预期的 GUID（`a8ee1777-...`），并且 PE 上设置了 NX_C
    - `TOOL_CHAIN_TAG = GCC`  ← **重要**：此 EDK2 树移除了 `GCC5`（`tools_def.txt` v3.06 移除了 GCC48/GCC49/GCC5），因此原来的 `GCC5` 会导致“Tool chain [GCC5] is not defined”错误。
 
 4. **运行构建**：
+
    ```bash
    cd /home/lzw/projects/edk2
    export PYTHON_COMMAND=/usr/bin/python3

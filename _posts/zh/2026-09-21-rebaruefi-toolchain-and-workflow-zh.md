@@ -32,12 +32,14 @@ ReBarUEFI/ReBarState/build/ReBarState           ← 配置工具（写入 NVRAM 
 **1. 获取主板 BIOS 镜像** — 从制造商官网下载最新版本（`.cap`/`.rom`/`.bin`）。
 
 **2. 使用 [UEFITool 0.28 (non-NE)](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0) 将 `ReBarDxe.ffs` 插入 DXE 卷**：
+
 - 打开 BIOS，`File → Search`，以 header-only GUID 搜索 `3C1DE39F-D207-408A-AACC-731CFB7F1DD7`（**PciBus** 模块）以定位正确的卷
 - 滚动到该卷的最后一个模块 → 右键 → **Insert after** → 选择 `ReBarDxe.ffs`
 - 保存镜像
 - （如果 UEFITool 无法使用，MMTool 为备选方案）
 
 **3. 应用 UEFIPatch 补丁** — 大多数消费级主板存在 64 位 BAR 的 bug，需要修复：
+
 - 下载 [UEFIPatch](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0)
 - 将 `UEFIPatch/patches.txt`（来自仓库）和您的 BIOS 放在同一文件夹，运行 `UEFIPatch <biosfile>`
 - 这会移除 `<4GB/<16GB/<64GB` 的 BAR 限制，扩展 MMIO 空间，防止 64 位 BAR 被降级等。输出为 `<biosfile>.patched`
@@ -49,10 +51,12 @@ ReBarUEFI/ReBarState/build/ReBarState           ← 配置工具（写入 NVRAM 
 **5. 在 BIOS 设置中：启用 Above 4G Decoding，禁用 CSM**。
 
 **6. 启动操作系统，以 root 身份运行 ReBarState**：
+
 ```bash
 sudo ./ReBarUEFI/ReBarState/build/ReBarState
 # 然后输入：32   （无限大——大多数情况下有效）
 ```
+
 `32` 表示无限大；较小的值设置 `2^x` MB（例如 `10` = 1 GB，`11` = 2 GB）。如果不确定 BIOS 能否处理大 BAR，建议先尝试一个高于 256 MB 的小值。然后**重启**。
 
 **7. 验证**：使用 GPU-Z（Windows）/ `nvidia-smi` / amdgpu（`dmesg | grep -i bar`）。

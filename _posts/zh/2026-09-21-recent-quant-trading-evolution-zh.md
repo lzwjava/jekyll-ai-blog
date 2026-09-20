@@ -58,6 +58,7 @@ Jane Street 的核心优势在于 **ETF 做市**。2024 年，Jane Street 月均
 ### ⚠️ 军备竞赛问题
 
 量化公司面临的核心挑战是 **alpha 衰减**——随着更多资金追逐相同信号，优势逐渐削弱。应对策略是向以下方向推进：
+
 - 更 exotic 的资产类别（加密货币、固定收益 ETF、新兴市场）
 - 更快的执行（定制芯片、共置）
 - 更好的另类数据（卫星图像、信用卡流、财报电话会议的 NLP 分析）
@@ -68,6 +69,7 @@ Jane Street 甚至已签约芯片初创公司 Etched 作为其定制 AI 推理�
 ---
 
 **参考文献：**
+
 - [What Is Quant Trading? A Complete 2026 Guide - Tradermath](https://www.tradermath.org/articles/what-is-quant-trading)
 - [Top HFT and Prop Trading Firms in 2026 - QuantInsti](https://www.quantinsti.com/articles/hft-prop-trading-firms/)
 - [Jane Street took 10% of US equity market in 2024 - Global Trading](https://www.globaltrading.net/?p=38181)

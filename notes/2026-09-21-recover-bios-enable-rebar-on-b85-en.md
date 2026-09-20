@@ -23,25 +23,31 @@ So **SY-B85N 全固版 is no longer listed on the current official site** — it
 ## How to actually get the BIOS image
 
 ### Option 1 (recommended): dump it from the flash chip
+
 Since this is an old budget board with no official download, the most reliable way is to read the BIOS straight off the SPI flash chip:
 
 1. Buy a **CH341A** programmer (~$5) + SOP8 test clip (so you don't need to desolder)
 2. Identify the flash chip on the board (usually a 25-series SPI NOR, e.g. Winbond W25Q64/GD25Q64, SOP8 package)
 3. Dump with `flashrom`:
+
    ```bash
    # Linux
    flashrom -p ch341a_spi -r soyo_b85n_backup.bin
    # read it 2-3 times and verify checksums match
    ```
+
 This gives you both a **working backup (critical for recovery)** and the exact image to mod. I'd do this *before* any BIOS modding even if an official image existed.
 
 ### Option 2: Wayback Machine / archives
+
 Try snapshots of the old SOYO sites and third-party mirrors:
+
 - `https://web.archive.org/web/*/soyo.com.cn/*`
 - `https://web.archive.org/web/*/soyocn.net/*`
 - Search terms: `梅捷 SY-B85N BIOS`, `SY-B85N 全固版 驱动`
 
 ### Option 3: third-party Chinese driver sites / forums
+
 - `drivers.mydrivers.com` (Soyo category: `s-4-878`)
 - `drv5.cn`, `160.com`, `pcpop.com`
 - Baidu Tieba (图拉丁吧 / 主板吧) — people archive these BIOS files

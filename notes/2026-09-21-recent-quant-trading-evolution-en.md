@@ -58,6 +58,7 @@ Firms tend to specialize: HRT, Tower, Jump, and Citadel Securities lean heavily 
 ### ⚠️ The Arms Race Problem
 
 The core challenge for quant firms is **alpha decay** — as more capital chases the same signals, edges erode. The response has been to push into:
+
 - More exotic asset classes (crypto, fixed income ETFs, emerging markets)
 - Faster execution (custom silicon, co-location)
 - Better alternative data (satellite imagery, credit card flows, NLP on earnings calls)
@@ -68,6 +69,7 @@ Jane Street has even signed chip startup Etched as a customer for custom AI infe
 ---
 
 **References:**
+
 - [What Is Quant Trading? A Complete 2026 Guide - Tradermath](https://www.tradermath.org/articles/what-is-quant-trading)
 - [Top HFT and Prop Trading Firms in 2026 - QuantInsti](https://www.quantinsti.com/articles/hft-prop-trading-firms/)
 - [Jane Street took 10% of US equity market in 2024 - Global Trading](https://www.globaltrading.net/?p=38181)

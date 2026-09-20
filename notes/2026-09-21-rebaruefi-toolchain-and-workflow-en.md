@@ -32,12 +32,14 @@ So the full path is: **inject the driver → flash modified BIOS → enable 4G d
 **1. Get your motherboard's BIOS image** — latest from the manufacturer site (`.cap`/`.rom`/`.bin`).
 
 **2. Insert `ReBarDxe.ffs` into the DXE volume** using [UEFITool 0.28 (non-NE)](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0):
+
 - Open the BIOS, `File → Search`, header-only GUID search for `3C1DE39F-D207-408A-AACC-731CFB7F1DD7` (the **PciBus** module) to locate the correct volume
 - Scroll to the last module in that volume → right-click → **Insert after** → pick `ReBarDxe.ffs`
 - Save the image
 - (MMTool is the fallback if UEFITool doesn't work)
 
 **3. Apply UEFIPatch patches** — most consumer boards have 64-bit BAR bugs that need fixing:
+
 - Download [UEFIPatch](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0)
 - Put `UEFIPatch/patches.txt` (from the repo) + your BIOS in one folder and run `UEFIPatch <biosfile>`
 - This removes the `<4GB/<16GB/<64GB` BAR limits, expands MMIO space, prevents 64-bit BARs being downgraded, etc. Output is `<biosfile>.patched`
@@ -49,10 +51,12 @@ So the full path is: **inject the driver → flash modified BIOS → enable 4G d
 **5. In BIOS setup:** enable **Above 4G Decoding**, disable **CSM**.
 
 **6. Boot the OS and run ReBarState as root:**
+
 ```bash
 sudo ./ReBarUEFI/ReBarState/build/ReBarState
 # then type: 32   (unlimited — works in most cases)
 ```
+
 `32` = unlimited; smaller values set `2^x` MB (e.g. `10` = 1 GB, `11` = 2 GB). It's recommended to try a small value above 256 MB first if you're unsure the BIOS handles large BARs. Then **reboot**.
 
 **7. Verify** with GPU-Z (Windows) / `nvidia-smi` / amdgpu (`dmesg | grep -i bar`).

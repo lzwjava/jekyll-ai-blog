@@ -19,13 +19,16 @@ type: note
 2. **需配置EDK2环境** —— 执行 `source edksetup.sh`（设置 `$WORKSPACE`、`$EDK_TOOLS_PATH` 等变量），并编译好 `BaseTools`
 3. **安装依赖项** —— `nasm`、`iasl`、`uuid-dev`、`python3-pefile`
 4. 然后在 `edk2/ReBarUEFI/ReBarDxe/` 目录下执行：
+
    ```bash
    source ../edksetup.sh   # 从edk2根目录
    python buildffs.py
    ```
+
 5. 脚本会切换到 `../../`（EDK2根目录）并运行 `build` 命令
 
 **遇到的问题：**
+
 - ❌ `ModuleNotFoundError: No module named 'pefile'` → 已修复（在虚拟环境中安装）
 - ❌ `FileNotFoundError: [Errno 2] No such file or directory: 'build'` → `build` 是EDK2的构建工具，需要完整的EDK2环境
 
