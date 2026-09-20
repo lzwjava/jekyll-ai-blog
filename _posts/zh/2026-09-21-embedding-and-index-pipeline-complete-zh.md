@@ -21,5 +21,6 @@ embedding 已完成 ✅
 - **BM25 索引**：构建成功 — 628,745 个词项，16,397,020 个 posting，平均文档长度 114.7（耗时 9.8 秒）
 
 整个流程已完成，你已返回 shell 提示符。现在你可以：
+
 - `python search.py "your query"`
 - `python rag_chat.py --question "your question"`

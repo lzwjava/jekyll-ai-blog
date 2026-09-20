@@ -20,11 +20,13 @@ That confirms it — `fpt -f` wrote the **entire** chip, including the boot-bloc
 ## Steps (I've already got `flashrom` installed and the original BIOS ready here)
 
 **1. Find the BIOS chip** on the B75 board (power off, unplug PSU):
+
 - It's an **8-pin** chip near the southbridge/CMOS battery.
 - Label usually **Winbond `W25Q32`/`W25Q64`**, **MXIC `MX25L32`/`MX25L64`**, **GigaDevice `GD25Q32/64`**, or **EN/EON**.
 - 📸 **Read the exact marking on the chip and tell me** — I'll prepare the exact flashrom command and confirm pin 1 orientation.
 
 **2. Connect the programmer:**
+
 - Clip the SOIC8 clip onto the chip (pin 1 = the **dot** on the chip → align with pin 1 on the clip/adapter).
 - CH341A **jumper to 3.3V** (not 5V!) — important.
 - Plug the CH341A into **this MSI machine's USB**.

@@ -21,5 +21,6 @@ From tmux session `2`:
 - **BM25 index**: built successfully — 628,745 terms, 16,397,020 postings, avg doc length 114.7 (took 9.8s)
 
 The whole pipeline completed and you're back at the shell prompt. You can now:
+
 - `python search.py "your query"`
 - `python rag_chat.py --question "your question"`
