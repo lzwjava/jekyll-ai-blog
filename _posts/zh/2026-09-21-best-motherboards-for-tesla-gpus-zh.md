@@ -49,7 +49,7 @@ X10SRL-F 是 ATX 尺寸主板，采用 C612 芯片组，支持 E5-2600 v3 和 v4
 ## 快速对比
 
 | 主板 | 板型 | PCIe x16 插槽数 | Above 4G | ReBAR 修改 | 内存类型 | 二手价格 |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | ASUS X99-E WS | E-ATX | 7（PLX） | ✅ | ✅ | DDR4 | ~$80–150 |
 | Supermicro X10SRA-F | ATX | 4 | ✅ | ⚠️ | DDR4 ECC | ~$60–120 |
 | Supermicro X10SRL-F | ATX | 7 | ✅ | ⚠️ | DDR4 ECC RDIMM | ~$50–100 |
@@ -67,6 +67,7 @@ X10SRL-F 是 ATX 尺寸主板，采用 C612 芯片组，支持 E5-2600 v3 和 v4
 ---
 
 **参考资料：**
+
 - [ASUS X99-E WS BIOS Mod with ReBar + Multi-Tesla confirmed](https://winraid.level1techs.com/t/offer-asus-x99-e-ws-usb3-1-bios-mods-incl-rebar-support/116427)
 - [Supermicro X10SRL-F specs](https://www.supermicro.com/zh_cn/products/motherboard/X10SRL-F)
 - [Supermicro X10SRA-F specs](https://www.supermicro.com/ja/products/motherboard/X10SRA-F)

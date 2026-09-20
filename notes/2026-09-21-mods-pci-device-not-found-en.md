@@ -18,6 +18,7 @@ The screen shows a MODS GPU test (`gputest.js`) failing with **Error Code `0x220
 **Root Cause**
 
 The key error is:
+
 ```
 ERROR: SBIOS assigned incorrect BAR1 – offset 0x0, size 0x0
 ```
@@ -41,6 +42,7 @@ The BIOS/UEFI failed to properly assign a **Base Address Register (BAR)** to the
 - Test the GPU in another machine or slot
 
 **References:**
+
 - [NVIDIA MODS Documentation](https://developer.nvidia.com/mods)
 - [PCI BAR (Base Address Register) Explained](https://wiki.osdev.org/PCI#Base_Address_Registers)
 - [PCIe BAR allocation issues on Linux](https://www.kernel.org/doc/html/latest/PCI/pci-error-recovery.html)

@@ -18,7 +18,7 @@ Now I have all the data needed. Let me provide a comprehensive summary of findin
 ### System Overview
 
 | Item | Value |
-|------|-------|
+| ------ | ------- |
 | **Hostname** | `lzw-MS-7996` (MSI MS-7996 motherboard) |
 | **CPU** | Intel Core i5-4460 @ 3.20 GHz (4 cores, Haswell) |
 | **Kernel** | Ubuntu 7.0.0-31-generic (x86_64) |
@@ -29,7 +29,7 @@ Now I have all the data needed. Let me provide a comprehensive summary of findin
 ### Current Memory Status
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | **Total RAM (available)** | **3.2 GiB** (3399592 kB) |
 | **Used** | ~827 MiB (24%) |
 | **Free** | ~2.4 GiB |
@@ -44,7 +44,7 @@ Now I have all the data needed. Let me provide a comprehensive summary of findin
 ### Memory Chip (SPD decode from I²C EEPROM @ 0x50)
 
 | Field | Value |
-|-------|-------|
+| ------- | ------- |
 | **Memory Type** | **DDR3 SDRAM** |
 | **Module Type** | **UDIMM** (Unbuffered DIMM) |
 | **Part Number** | **`KB256082G`** |

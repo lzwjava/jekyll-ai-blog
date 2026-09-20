@@ -49,7 +49,7 @@ The X10SRL-F is an ATX-sized board supporting E5-2600 v3 and v4 with the C612 ch
 ## Quick Comparison
 
 | Board | Form | PCIe x16 Slots | Above 4G | ReBAR Mod | DDR | Price (used) |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | ASUS X99-E WS | E-ATX | 7 (PLX) | ✅ | ✅ | DDR4 | ~$80–150 |
 | Supermicro X10SRA-F | ATX | 4 | ✅ | ⚠️ | DDR4 ECC | ~$60–120 |
 | Supermicro X10SRL-F | ATX | 7 | ✅ | ⚠️ | DDR4 ECC RDIMM | ~$50–100 |
@@ -67,6 +67,7 @@ The **ASUS X99-E WS** is the community favorite specifically for Tesla-class GPU
 ---
 
 **References:**
+
 - [ASUS X99-E WS BIOS Mod with ReBar + Multi-Tesla confirmed](https://winraid.level1techs.com/t/offer-asus-x99-e-ws-usb3-1-bios-mods-incl-rebar-support/116427)
 - [Supermicro X10SRL-F specs](https://www.supermicro.com/zh_cn/products/motherboard/X10SRL-F)
 - [Supermicro X10SRA-F specs](https://www.supermicro.com/ja/products/motherboard/X10SRA-F)

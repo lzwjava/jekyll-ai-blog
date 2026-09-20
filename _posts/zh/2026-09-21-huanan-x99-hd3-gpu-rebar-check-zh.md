@@ -50,7 +50,7 @@ Resizable BAR（ReBAR）需要两个条件：GPU必须支持，且主板BIOS必�
 ## 汇总表
 
 | 特性 | M40 | P100 PCIe | X99-HD3 支持 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | PCIe 物理插槽 | ✅ x16 插槽 | ✅ x16 插槽 | ✅ |
 | 需要 Above 4G Decoding | ✅ 必需 | ✅ 必需 | ⚠️ 检查 BIOS |
 | 供电接口 | EPS 8针（需转接线） | EPS 8针（需转接线） | ⚠️ 需要转接线 |
@@ -62,6 +62,7 @@ Resizable BAR（ReBAR）需要两个条件：GPU必须支持，且主板BIOS必�
 ---
 
 **参考资料：**
+
 - [NVIDIA M40 规格及 Above 4G 要求](https://www.ebay.de/p/851104737)
 - [ReBarUEFI 项目 (xCuri0)](https://winraid.level1techs.com/t/release-resizable-bar-bios-efi-module/100235/1)
 - [消费级主板上的 X99 + P40/P100 多 GPU](https://winraid.level1techs.com/t/problem-ga-x99-ud3p-with-nvdia-tesla-p100-graphics/117195?page=2)

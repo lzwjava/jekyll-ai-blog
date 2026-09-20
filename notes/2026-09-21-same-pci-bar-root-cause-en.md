@@ -16,7 +16,7 @@ type: note
 Yes, they are essentially the **same root cause** — but with a slightly different context:
 
 | | Your Photo (MODS error) | Blog Post (M40/P100 article) |
-|---|---|---|
+| --- | --- | --- |
 | **Error** | `BAR1 offset 0x0, size 0x0` / PCI device not found | PCI resource / BAR allocation failure |
 | **Root Cause** | BIOS cannot assign BAR to GPU | BIOS cannot assign large 64-bit PCIe MMIO region |
 | **Platform** | Old Lenovo, i5-4460, SBIOS 2016 | A68HM-E (old) vs B760M-E (newer) |
@@ -31,6 +31,7 @@ The blog article discusses exactly this: even switching from a P100 to an M40 ma
 Your system (SBIOS date `12/09/2016`) is an even older platform, making it very likely the same BIOS limitation — the system simply cannot allocate the large 64-bit MMIO window a data-center GPU needs.
 
 **References:**
+
 - [M40 May Not Resolve PCI Error — lzwjava.com](https://lzwjava.com/m40-may-not-resolve-pci-error-en)
 - [MSI Above 4G Decoding FAQ](https://us.msi.com/faq/2726)
 - [NVIDIA Developer Forums — BAR allocation issues](https://forums.developer.nvidia.com/t/this-pci-i-o-region-assigned-to-your-nvidia-device-is-invalid-above-4g-decoding-already-enabled/121633)

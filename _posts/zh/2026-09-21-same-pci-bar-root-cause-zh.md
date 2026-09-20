@@ -16,7 +16,7 @@ type: note
 是的，它们本质上属于**同一根本原因**——但上下文略有不同：
 
 | | 您的照片（MODS错误） | 博客文章（M40/P100文章） |
-|---|---|---|
+| --- | --- | --- |
 | **错误** | `BAR1 offset 0x0, size 0x0` / 未找到PCI设备 | PCI资源 / BAR分配失败 |
 | **根本原因** | BIOS无法将BAR分配给GPU | BIOS无法分配大型64位PCIe MMIO区域 |
 | **平台** | 旧款联想，i5-4460，SBIOS 2016 | A68HM-E（旧款） vs B760M-E（较新） |
@@ -31,6 +31,7 @@ type: note
 您的系统（SBIOS日期 `2016年12月9日`）是一个更老的平台，因此极有可能是相同的BIOS限制——系统根本无法分配数据中心级GPU所需的大型64位MMIO窗口。
 
 **参考链接：**
+
 - [M40 可能无法解决 PCI 错误 — lzwjava.com](https://lzwjava.com/m40-may-not-resolve-pci-error-en)
 - [MSI Above 4G Decoding 常见问题解答](https://us.msi.com/faq/2726)
 - [NVIDIA 开发者论坛 — BAR 分配问题](https://forums.developer.nvidia.com/t/this-pci-i-o-region-assigned-to-your-nvidia-device-is-invalid-above-4g-decoding-already-enabled/121633)

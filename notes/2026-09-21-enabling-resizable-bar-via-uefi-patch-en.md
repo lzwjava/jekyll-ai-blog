@@ -14,6 +14,7 @@ This project enables **Resizable BAR** on motherboards/BIOS that don't officiall
 ## Overview
 
 The tool has 3 main components:
+
 1. **ReBarDxe** — A UEFI DXE driver injected into your BIOS firmware
 2. **ReBarState** — A Windows/Linux utility to configure the BAR size at runtime
 3. **UEFIPatch** — Patches to fix BIOS limitations (BAR size limits, MMIO space issues, etc.)
@@ -38,7 +39,7 @@ python buildffs.py
 Most BIOS firmware has artificial limitations. Use **UEFIPatch** (v0.28.0+) with the patches in `UEFIPatch/patches.txt` to fix:
 
 | Patch | Purpose |
-|-------|---------|
+| ------- | --------- |
 | `<4GB BAR size limit removal` | Sandy/Ivy Bridge |
 | `<16GB / <64GB BAR size limit removal` | Various chipsets |
 | `Prevent 64-bit BAR downgrade` | Haswell/Broadwell |
@@ -67,6 +68,7 @@ After booting with the modified firmware:
 - Boot into Windows/Linux and run **ReBarState**
 
 ### Windows
+
 Download from [Releases](https://github.com/xCuri0/ReBarUEFI/releases). Run as Administrator:
 
 ```
@@ -74,6 +76,7 @@ ReBarState.exe
 ```
 
 ### Linux
+
 Build with CMake:
 
 ```bash
@@ -85,6 +88,7 @@ sudo ./ReBarState
 ```
 
 ### Selecting BAR Size
+
 - **32** = Unlimited (recommended if stable)
 - Smaller values (2, 4, 8, 16 GB) if 32 doesn't work
 

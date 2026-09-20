@@ -14,6 +14,7 @@ type: note
 ## 总览
 
 该工具包含 3 个主要部分：
+
 1. **ReBarDxe** — 注入到 BIOS 固件中的 UEFI DXE 驱动程序
 2. **ReBarState** — 用于在运行时配置 BAR 大小的 Windows/Linux 工具
 3. **UEFIPatch** — 用于修复 BIOS 限制（如 BAR 大小限制、MMIO 空间问题等）的补丁
@@ -38,7 +39,7 @@ python buildffs.py
 大多数 BIOS 固件都带有人为限制。请使用 **UEFIPatch**（v0.28.0+）配合 `UEFIPatch/patches.txt` 中的补丁进行修复：
 
 | 补丁 | 目的 |
-|------|------|
+| ------ | ------ |
 | `<4GB BAR size limit removal` | Sandy/Ivy Bridge |
 | `<16GB / <64GB BAR size limit removal` | 各类芯片组 |
 | `Prevent 64-bit BAR downgrade` | Haswell/Broadwell |
@@ -67,6 +68,7 @@ UEFIPatch your_bios.rom UEFIPatch/patches.txt
 - 启动到 Windows/Linux 并运行 **ReBarState**
 
 ### Windows
+
 从 [Releases](https://github.com/xCuri0/ReBarUEFI/releases) 下载。以管理员身份运行：
 
 ```
@@ -74,6 +76,7 @@ ReBarState.exe
 ```
 
 ### Linux
+
 使用 CMake 构建：
 
 ```bash
@@ -85,6 +88,7 @@ sudo ./ReBarState
 ```
 
 ### 选择 BAR 大小
+
 - **32** = 无限制（如果稳定推荐使用）
 - 如果 32 不可用，可使用较小的值（2、4、8、16 GB）
 

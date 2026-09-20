@@ -22,7 +22,7 @@ type: note
 ### 为什么这是一个改进
 
 | | 旧联想（i5-4460） | 华南X99-4 MT Plus + 2673v3 |
-|---|---|---|
+| --- | --- | --- |
 | **平台** | 消费级Haswell，2016年BIOS | LGA2011-3 X99平台 |
 | **PCIe通道** | 有限 | 40通道Xeon（E5-2673v3） |
 | **BIOS年龄** | 很旧，不支持UEFI Tesla | 国产X99主板通常有修改版/更新版BIOS |
@@ -37,6 +37,7 @@ E5-2673v3是一款**40通道Xeon**——拥有完整的PCIe 3.0 x16带宽以及C
 X99-4 MT Plus通常使用**消费级芯片组（H81或B85）**伪装成X99风格主板，**并非真正的Intel C612/X99服务器芯片组**。这在便宜的国产X99主板中很常见。确实有报告称M40 24GB在启用Above 4G解码后仍在某些主板上因BAR1无法分配而失败。
 
 需要检查的关键项：
+
 - **你的BIOS是否有“Above 4G Decoding”？** 进入BIOS，在高级/PCIe设置下查找。这是最重要的开关。
 - **CSM（兼容支持模块）是否已禁用？** Tesla显卡在纯UEFI模式下工作更好。
 
@@ -63,6 +64,7 @@ X99-4 MT Plus通常使用**消费级芯片组（H81或B85）**伪装成X99风格
 这是一个**比旧联想主板好得多的候选方案**，但结果取决于那个BIOS里实际有什么。
 
 **参考资料：**
+
 - [ReBarUEFI - 在不支持的平台上启用Resizable BAR](https://github.com/xCuri0/ReBarUEFI)
 - [Win-Raid：国产X99主板的超频BIOS修改](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [Tesla M40 + Above 4G Decoding讨论（Tom's Hardware）](https://forums.tomshardware.com/threads/tesla-m40-and-dell-oem-board.3600010/)

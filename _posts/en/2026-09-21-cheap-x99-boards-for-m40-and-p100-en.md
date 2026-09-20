@@ -59,7 +59,7 @@ Even when Above 4G Decoding is enabled and CSM is disabled, some Chinese X99 clo
 ## Quick Comparison
 
 | Board | Price | DDR | Above 4G | Risk | Note |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Huananzhi X99-TF | ~$50 | **DDR3+DDR4** | ⚠️ | Medium | Reuse your RAM |
 | Machinist MR9A/MR9D | ~$80 | DDR4 | ⚠️ | Medium | Widely available |
 | Huananzhi X99-F8 | ~$140 | DDR4 ECC | ✅ | Low | C612 chipset |

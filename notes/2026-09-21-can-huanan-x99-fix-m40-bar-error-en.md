@@ -22,7 +22,7 @@ Here's the breakdown:
 ### Why it's an improvement
 
 | | Old Lenovo (i5-4460) | 华南 X99-4 MT Plus + 2673v3 |
-|---|---|---|
+| --- | --- | --- |
 | **Platform** | Consumer Haswell, 2016 BIOS | LGA2011-3 X99 platform |
 | **PCIe lanes** | Limited | 40-lane Xeon (E5-2673v3) |
 | **BIOS age** | Very old, no UEFI Tesla support | Chinese X99 boards often have modded/updated BIOS |
@@ -37,6 +37,7 @@ The E5-2673v3 is a **40-lane Xeon** — it has full PCIe 3.0 x16 bandwidth and t
 The X99-4 MT Plus often uses a **consumer-grade chipset (H81 or B85)** disguised in an X99-style board, **not a true Intel C612/X99 server chipset**. This is common for cheap Chinese X99 boards. There are real reports of M40 24GB failing on boards because BAR1 could not be assigned, even with Above 4G decoding enabled.
 
 Key things to check:
+
 - **Does your BIOS have "Above 4G Decoding"?** Enter BIOS and look under Advanced/PCIe settings. This is the single most important toggle.
 - **Is CSM (Compatibility Support Module) disabled?** Tesla cards work better in pure UEFI mode.
 
@@ -63,6 +64,7 @@ Not found → Flash modded BIOS or use ReBarUEFI
 It's a **much better candidate** than your old Lenovo board, but the outcome depends on what's actually in that BIOS.
 
 **References:**
+
 - [ReBarUEFI - Enable Resizable BAR on unsupported systems](https://github.com/xCuri0/ReBarUEFI)
 - [Win-Raid: Overclock BIOS mods for Chinese X99 boards](https://winraid.level1techs.com/t/guide-overclock-bios-mods-for-chinese-x99-mbs/104683)
 - [Tesla M40 + Above 4G Decoding discussion (Tom's Hardware)](https://forums.tomshardware.com/threads/tesla-m40-and-dell-oem-board.3600010/)

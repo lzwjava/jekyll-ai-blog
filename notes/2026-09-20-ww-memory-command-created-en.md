@@ -33,7 +33,7 @@ ww memory --help
 ### What it does
 
 | Feature | Description |
-|---------|-------------|
+| --------- | ------------- |
 | **Memory usage** | `free -h` + `/proc/meminfo` (total, free, available, swap) |
 | **SPD EEPROM decode** | Reads DRAM module info from I²C (DDR3/DDR4/DDR5): type, part number, manufacturer, ranks, voltage, speed, CAS latencies, manufacturing date |
 | **Hardware slots** | From dmesg — shows populated/total slots |

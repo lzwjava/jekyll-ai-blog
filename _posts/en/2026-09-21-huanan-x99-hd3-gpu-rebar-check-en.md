@@ -50,7 +50,7 @@ For the M40 and P100 specifically, ReBAR is also less relevant — these are com
 ## Summary Table
 
 | Feature | M40 | P100 PCIe | X99-HD3 Support |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | PCIe Physical Fit | ✅ x16 slot | ✅ x16 slot | ✅ |
 | Above 4G Decoding needed | ✅ Required | ✅ Required | ⚠️ Check BIOS |
 | Power connector | EPS 8-pin (adapter needed) | EPS 8-pin (adapter needed) | ⚠️ Adapter needed |
@@ -62,6 +62,7 @@ For the M40 and P100 specifically, ReBAR is also less relevant — these are com
 ---
 
 **References:**
+
 - [NVIDIA M40 Specs & Above 4G requirement](https://www.ebay.de/p/851104737)
 - [ReBarUEFI project (xCuri0)](https://winraid.level1techs.com/t/release-resizable-bar-bios-efi-module/100235/1)
 - [X99 + P40/P100 multi-GPU on consumer boards](https://winraid.level1techs.com/t/problem-ga-x99-ud3p-with-nvdia-tesla-p100-graphics/117195?page=2)

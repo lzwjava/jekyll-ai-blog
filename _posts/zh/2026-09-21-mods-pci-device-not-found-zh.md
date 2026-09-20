@@ -18,6 +18,7 @@ type: note
 **根本原因**
 
 关键错误信息为：
+
 ```
 ERROR: SBIOS assigned incorrect BAR1 – offset 0x0, size 0x0
 ```
@@ -41,6 +42,7 @@ BIOS/UEFI 未能正确为 GPU 分配 **基地址寄存器（BAR）**。BAR1 的�
 - 在其他机器或插槽上测试该 GPU
 
 **参考资料：**
+
 - [NVIDIA MODS 文档](https://developer.nvidia.com/mods)
 - [PCI BAR（基地址寄存器）详解](https://wiki.osdev.org/PCI#Base_Address_Registers)
 - [Linux 上的 PCIe BAR 分配问题](https://www.kernel.org/doc/html/latest/PCI/pci-error-recovery.html)
