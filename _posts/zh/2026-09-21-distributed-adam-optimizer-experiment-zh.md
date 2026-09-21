@@ -160,6 +160,7 @@ if __name__ == "__main__":
 ## 步骤3 — 在每台机器上启动
 
 **在机器1（主节点，例如IP = `192.168.1.10`）：**
+
 ```bash
 MASTER_ADDR=192.168.1.10 \
 MASTER_PORT=29500 \
@@ -169,6 +170,7 @@ python train_adam_proof.py
 ```
 
 **在机器2上：**
+
 ```bash
 MASTER_ADDR=192.168.1.10 \
 MASTER_PORT=29500 \
@@ -180,6 +182,7 @@ python train_adam_proof.py
 两台机器需要**大致同时**运行命令 — 它们将通过主地址进行握手。
 
 > 或者，使用`torchrun`进行更简洁的启动：
+>
 > ```bash
 > # 机器1
 > torchrun --nnodes=2 --nproc_per_node=1 \
@@ -199,7 +202,7 @@ python train_adam_proof.py
 输出图`optimizer_comparison.png`将显示如下内容：
 
 | 优化器 | 收敛速度 | 备注 |
-|-----------|------------------|-------|
+| ----------- | ------------------ | ------- |
 | **Adam** | ✅ 快速且稳定 | 初期收敛最佳 |
 | SGD+momentum | 中等 | 后期追赶 |
 | RMSProp | 类似于Adam | 无偏差校正 |
@@ -227,6 +230,7 @@ python train_adam_proof.py
 ---
 
 **参考文献：**
+
 - [Adam: A Method for Stochastic Optimization](https://arxiv.org/pdf/1412.6980)
 - [PyTorch Distributed Training Docs](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 - [torchrun CLI reference](https://pytorch.org/docs/stable/elastic/run.html)

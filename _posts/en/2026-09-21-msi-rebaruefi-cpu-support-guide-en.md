@@ -24,7 +24,7 @@ type: note
 
 MSI explicitly lists the Z170-A PRO as supporting 6th-gen Core i3/i5/i7, Pentium and Celeron CPUs. ([MSI][1])
 
-The **Z270 boards are more interesting**: MSI officially lists both 6th- and 7th-gen Core i3/i5/i7 CPUs. 
+The **Z270 boards are more interesting**: MSI officially lists both 6th- and 7th-gen Core i3/i5/i7 CPUs.
 
 So if you're buying an old platform **specifically for an Intel Arc GPU + ReBarUEFI**, I'd look for:
 

@@ -14,7 +14,7 @@ Done. I wrote the single-machine version to `adam/` and verified it runs on your
 ## What I created
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `adam/train_adam_proof.py` | Single-GPU experiment comparing Adam vs SGD/RMSProp/AdaGrad |
 | `adam/README.md` | Setup + run instructions |
 | `adam/optimizer_comparison.png` + `results.json` | Outputs from a 2-epoch smoke test |
@@ -30,6 +30,7 @@ Done. I wrote the single-machine version to `adam/` and verified it runs on your
 ## Environment note (important)
 
 Your box has **two Pythons**:
+
 - Homebrew Python 3.14 (`python3` → `2.10.0+cu128`)
 - **System Python 3.12** (`/usr/bin/python3.12` → `2.11.0+cu130`, CUDA working)
 
@@ -47,7 +48,7 @@ cd /mnt/data/zz/adam
 The 2-epoch smoke test on the RTX 4070 already shows Adam's advantage:
 
 | Optimizer | Epoch 2 train acc |
-|-----------|-------------------|
+| ----------- | ------------------- |
 | **Adam** | **75.2%** |
 | SGD+mom | 37.1% |
 | RMSProp | 50.2% |

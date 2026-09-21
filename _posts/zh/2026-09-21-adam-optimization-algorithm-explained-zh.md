@@ -96,4 +96,5 @@ Adam 本质上为**每个参数赋予其自适应的学习率**，对变化快�
 ---
 
 **参考文献：**
+
 - [Adam: A Method for Stochastic Optimization (Kingma & Ba, 2015)](https://arxiv.org/pdf/1412.6980)

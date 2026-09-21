@@ -14,7 +14,7 @@ type: note
 ## 我创建的内容
 
 | 文件 | 用途 |
-|------|---------|
+| ------ | --------- |
 | `adam/train_adam_proof.py` | 单 GPU 实验，比较 Adam 与 SGD/RMSProp/AdaGrad |
 | `adam/README.md` | 设置及运行说明 |
 | `adam/optimizer_comparison.png` + `results.json` | 2 epoch 冒烟测试的输出 |
@@ -30,6 +30,7 @@ type: note
 ## 环境说明（重要）
 
 你的机器上有**两个 Python**：
+
 - Homebrew Python 3.14（`python3` → `2.10.0+cu128`）
 - **系统 Python 3.12**（`/usr/bin/python3.12` → `2.11.0+cu130`，CUDA 可用）
 
@@ -47,7 +48,7 @@ cd /mnt/data/zz/adam
 RTX 4070 上的 2 epoch 冒烟测试已经展示了 Adam 的优势：
 
 | 优化器 | 第 2 轮训练准确率 |
-|-----------|-------------------|
+| ----------- | ------------------- |
 | **Adam** | **75.2%** |
 | SGD+mom | 37.1% |
 | RMSProp | 50.2% |

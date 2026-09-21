@@ -96,4 +96,5 @@ Adam essentially gives **each parameter its own adaptive learning rate**, scalin
 ---
 
 **References:**
+
 - [Adam: A Method for Stochastic Optimization (Kingma & Ba, 2015)](https://arxiv.org/pdf/1412.6980)

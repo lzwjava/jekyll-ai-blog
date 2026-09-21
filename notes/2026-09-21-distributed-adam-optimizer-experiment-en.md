@@ -160,6 +160,7 @@ if __name__ == "__main__":
 ## Step 3 — Launch on Each Machine
 
 **On Machine 1 (master, e.g. IP = `192.168.1.10`):**
+
 ```bash
 MASTER_ADDR=192.168.1.10 \
 MASTER_PORT=29500 \
@@ -169,6 +170,7 @@ python train_adam_proof.py
 ```
 
 **On Machine 2:**
+
 ```bash
 MASTER_ADDR=192.168.1.10 \
 MASTER_PORT=29500 \
@@ -180,6 +182,7 @@ python train_adam_proof.py
 Both machines must run the command **at roughly the same time** — they will handshake via the master address.
 
 > Alternatively, use `torchrun` for cleaner launch:
+>
 > ```bash
 > # Machine 1
 > torchrun --nnodes=2 --nproc_per_node=1 \
@@ -199,7 +202,7 @@ Both machines must run the command **at roughly the same time** — they will ha
 The output plot `optimizer_comparison.png` will show something like:
 
 | Optimizer | Convergence speed | Notes |
-|-----------|------------------|-------|
+| ----------- | ------------------ | ------- |
 | **Adam** | ✅ Fast & stable | Best early convergence |
 | SGD+momentum | Moderate | Catches up late |
 | RMSProp | Similar to Adam | No bias correction |
@@ -227,6 +230,7 @@ With DDP, gradients are **averaged across both GPUs** after each backward pass �
 ---
 
 **References:**
+
 - [Adam: A Method for Stochastic Optimization](https://arxiv.org/pdf/1412.6980)
 - [PyTorch Distributed Training Docs](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 - [torchrun CLI reference](https://pytorch.org/docs/stable/elastic/run.html)

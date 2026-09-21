@@ -28,15 +28,19 @@ During that first epoch, each optimizer is already updating weights **continuous
 ## Breakdown of Each Optimizer's Behavior
 
 ### SGD (orange) — starts highest ~0.48
+
 SGD has **no adaptive learning rate**. In the first epoch, it takes uniform steps in the raw gradient direction. The momentum hasn't built up yet, so it's slow to orient itself. The first few batches are "wasted" finding the right direction → high loss at end of epoch 1.
 
 ### AdaGrad (red) — starts ~0.30
+
 AdaGrad accumulates the **sum of all squared gradients** in the denominator. Early on this sum is very small, so the effective learning rate is actually **very large** at the beginning. This causes slightly aggressive steps early, but it stabilizes quickly.
 
 ### Adam (blue) — starts ~0.23
+
 Adam uses **bias-corrected** 1st and 2nd moment estimates. Because of the correction term `1/(1 - β₁ᵗ)`, it takes **larger effective steps early on** than it would later. This is the automatic warm-up built into Adam — it gets oriented much faster in epoch 1.
 
 ### RMSProp (green) — starts lowest ~0.05
+
 RMSProp is similar to Adam but **without bias correction**. This means in the very first steps, the denominator `√v̂ₜ` is nearly zero (because vₜ is initialized at 0), which makes the effective learning rate **extremely large** in the first few batches. It takes huge steps early — which by chance works well on MNIST but can cause divergence on harder problems. This is exactly the risk the Adam paper warns about.
 
 ---
@@ -60,7 +64,7 @@ Low loss = aggressive early steps (RMSProp)
 ## What the Paper Predicted vs What You Got
 
 | Behavior | Paper's Claim | Your Result |
-|----------|--------------|-------------|
+| ---------- | -------------- | ------------- |
 | Adam converges fast early | ✅ Yes | ✅ Adam starts at ~0.23, already low |
 | SGD is slow initially | ✅ Yes | ✅ SGD starts highest at ~0.48 |
 | RMSProp can be unstable without bias correction | ✅ Yes | ✅ RMSProp lucky on MNIST but took huge early steps |

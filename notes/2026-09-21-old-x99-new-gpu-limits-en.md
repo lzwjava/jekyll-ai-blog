@@ -18,6 +18,7 @@ Answer:
 ---
 
 ### 🔧 Platform Overview
+
 The **Huanan X99-AD4** is a budget Chinese X99 motherboard paired with the **Intel Xeon E5-2697v3** (Haswell-EP). This is a **2014-era LGA2011-v3 platform**.
 
 ---
@@ -25,7 +26,7 @@ The **Huanan X99-AD4** is a budget Chinese X99 motherboard paired with the **Int
 ### 4G Decoding (Above 4G Decoding)
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | X99 chipset support | ⚠️ **Inconsistent** |
 | Huanan X99-AD4 specifically | ⚠️ **Depends on BIOS version** |
 | Required for P100/M40 | ✅ Recommended but not always mandatory |
@@ -39,7 +40,7 @@ The **Huanan X99-AD4** is a budget Chinese X99 motherboard paired with the **Int
 ### Resizable BAR (ReBAR)
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | X99 platform ReBAR support | ❌ **Generally NOT supported** |
 | E5-2697v3 CPU ReBAR | ❌ No (Haswell architecture predates ReBAR) |
 | Huanan X99-AD4 BIOS ReBAR | ❌ Unlikely / no official support |
@@ -66,7 +67,7 @@ The **Huanan X99-AD4** is a budget Chinese X99 motherboard paired with the **Int
 ### ✅ Summary
 
 | Feature | Verdict |
-|---------|---------|
+| --------- | --------- |
 | 4G Decoding | ⚠️ Likely available in BIOS, but verify |
 | Resizable BAR | ❌ Not supported on this platform |
 | P100 on X99-AD4 | ✅ Compatible for compute workloads |
@@ -77,6 +78,7 @@ The **Huanan X99-AD4** is a budget Chinese X99 motherboard paired with the **Int
 ---
 
 References:
+
 - [Intel Xeon E5-2697 v3 Specs](https://ark.intel.com/content/www/us/en/ark/products/81059/intel-xeon-processor-e5-2697-v3-35m-cache-2-60-ghz.html)
 - [NVIDIA Tesla P100 Overview](https://www.nvidia.com/en-us/data-center/tesla-p100/)
 - [Resizable BAR Explained – Intel](https://www.intel.com/content/www/us/en/support/articles/000090831/graphics.html)

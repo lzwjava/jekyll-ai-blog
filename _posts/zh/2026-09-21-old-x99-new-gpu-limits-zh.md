@@ -18,6 +18,7 @@ type: note
 ---
 
 ### 🔧 平台概述
+
 **华南X99-AD4** 是一款廉价的中国国产X99主板，搭配 **Intel Xeon E5-2697v3**（Haswell-EP）。这是一个 **2014年时代的LGA2011-v3平台**。
 
 ---
@@ -25,7 +26,7 @@ type: note
 ### 4G解码（Above 4G Decoding）
 
 | 项目 | 状态 |
-|------|--------|
+| ------ | -------- |
 | X99芯片组支持 | ⚠️ **不一致** |
 | 华南X99-AD4具体型号 | ⚠️ **取决于BIOS版本** |
 | P100/M40是否必需 | ✅ 推荐但并非总是强制 |
@@ -39,7 +40,7 @@ type: note
 ### Resizable BAR（ReBAR）
 
 | 项目 | 状态 |
-|------|--------|
+| ------ | -------- |
 | X99平台ReBAR支持 | ❌ **通常不支持** |
 | E5-2697v3 CPU ReBAR | ❌ 不支持（Haswell架构早于ReBAR） |
 | 华南X99-AD4 BIOS ReBAR | ❌ 不太可能/无官方支持 |
@@ -52,7 +53,7 @@ type: note
 ### P100 / M40兼容性
 
 | GPU | 是否需要4G解码 | 是否需要ReBAR | 能在X99上工作吗？ |
-|-----|--------------------|--------------|---------------|
+| ----- | -------------------- | -------------- | --------------- |
 | **Tesla P100** | ✅ 推荐 | ❌ 不需要 | ✅ 可以，工作良好 |
 | **Tesla M40** | ⚠️ 可选 | ❌ 不需要 | ✅ 可以，工作良好 |
 
@@ -66,7 +67,7 @@ type: note
 ### ✅ 总结
 
 | 特性 | 结论 |
-|---------|---------|
+| --------- | --------- |
 | 4G解码 | ⚠️ BIOS中可能可用，但需确认 |
 | Resizable BAR | ❌ 此平台不支持 |
 | X99-AD4上的P100 | ✅ 适用于计算工作负载 |
@@ -77,6 +78,7 @@ type: note
 ---
 
 参考资料：
+
 - [Intel Xeon E5-2697 v3规格](https://ark.intel.com/content/www/us/en/ark/products/81059/intel-xeon-processor-e5-2697-v3-35m-cache-2-60-ghz.html)
 - [NVIDIA Tesla P100概述](https://www.nvidia.com/en-us/data-center/tesla-p100/)
 - [Resizable BAR详解 – Intel](https://www.intel.com/content/www/us/en/support/articles/000090831/graphics.html)
