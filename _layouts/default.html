@@ -43,18 +43,7 @@
   <meta property="og:type" content="website">
   <!-- <meta property="og:title" content="Zhiwei Li's Blog">
   <meta property="og:description" content="A personal blog featuring programming insights and projects."> -->
-  {% assign og_images = "og1.jpg,og2.jpg,og3.jpg,og4.jpg,og5.jpg,og6.jpg,og7.jpg,og8.jpg,og9.jpg,og10.jpg,og11.jpg,og12.jpg,og13.jpg,og14.jpg" | split: "," %}
-  {% assign seed_source = page.path | default: page.url | default: page.title | default: "seed" %}
-  {% assign segments = seed_source | downcase | split: "/" %}
-  {% assign seed_value = 0 %}
-  {% for segment in segments %}
-    {% assign cleaned = segment | replace: "-", "" | replace: "_", "" | replace: ".", "" %}
-    {% assign seed_value = seed_value | plus: cleaned | size %}
-  {% endfor %}
-  {% assign og_count = og_images | size %}
-  {% assign image_index = seed_value | plus: 2025 | modulo: og_count %}
-  {% assign random_og = og_images[image_index] %}
-  <meta property="og:image" content="https://lzwjava.com/assets/images/og/{{ random_og }}">
+  <meta property="og:image" content="https://lzwjava.com/assets/images/avatar/avatar_dark.png">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
@@ -63,7 +52,7 @@
   <!-- <meta property="twitter:url" content="https://lzwjava.com"> -->
   <!-- <meta name="twitter:title" content="Zhiwei Li's Blog">
   <meta name="twitter:description" content="A personal blog featuring programming insights and projects."> -->
-  <meta name="twitter:image" content="https://lzwjava.com/assets/images/og/{{ random_og }}">
+  <meta name="twitter:image" content="https://lzwjava.com/assets/images/avatar/avatar_dark.png">
 
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
