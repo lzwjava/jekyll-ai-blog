@@ -469,7 +469,7 @@ B → 能产出更多系统
 
 而真正有趣的人最终会同时拥有这三项。
 
-### 参考：
+### 参考
 
 * [ICPC 区域赛规则 2026/27](https://icpc.global/regionals/rules?utm_source=chatgpt.com)
 * [ICPC 世界总决赛规则 2026](https://icpc.global/worldfinals/rules%23?utm_source=chatgpt.com)

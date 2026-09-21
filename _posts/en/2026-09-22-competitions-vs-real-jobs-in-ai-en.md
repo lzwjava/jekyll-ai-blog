@@ -469,7 +469,7 @@ The third one is increasingly important.
 
 And the really interesting people will eventually have all three.
 
-### References:
+### References
 
 * [ICPC Regional Rules 2026/27](https://icpc.global/regionals/rules?utm_source=chatgpt.com)
 * [ICPC World Finals Rules 2026](https://icpc.global/worldfinals/rules%23?utm_source=chatgpt.com)

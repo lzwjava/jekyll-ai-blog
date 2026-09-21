@@ -156,6 +156,6 @@ NAND闪存晶粒
 如果有帮助，接下来我可以解析 **朗科最初的USB闪存专利以及实际的控制器/FTL架构**，这是早期存储工程中相当有趣的部分。
 
 [1]: https://www.lk.netac.com.cn/zh-cn/fzlc/?utm_source=chatgpt.com "发展历程 - 深圳市朗科科技股份有限公司"
-[2]: https://www.szdag.gov.cn/dawh/spdb/content/post_98514.html?utm_source=chatgpt.com "打破国际垄断：世界上第一款"U盘"来自深圳-深圳市档案馆"
-[3]: https://sdn.icd.netac.com.cn/zh-cn/contact/lkabout/?utm_source=chatgpt.com "存储应用领域产品与解决方案提供商 - 深圳市朗科科技股份有限公司"
-[4]: https://www.netac.com.cn/zh-cn/contact/?utm_source=chatgpt.com "关于朗科 - 深圳市朗科科技股份有限公司"
+[2]: <https://www.szdag.gov.cn/dawh/spdb/content/post_98514.html?utm_source=chatgpt.com> "打破国际垄断：世界上第一款"U盘"来自深圳-深圳市档案馆"
+[3]: <https://sdn.icd.netac.com.cn/zh-cn/contact/lkabout/?utm_source=chatgpt.com> "存储应用领域产品与解决方案提供商 - 深圳市朗科科技股份有限公司"
+[4]: <https://www.netac.com.cn/zh-cn/contact/?utm_source=chatgpt.com> "关于朗科 - 深圳市朗科科技股份有限公司"
