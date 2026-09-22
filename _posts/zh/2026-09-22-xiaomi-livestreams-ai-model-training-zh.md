@@ -32,6 +32,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Xiaomi MiMo – 维基百科](https://en.wikipedia.org/wiki/Xiaomi_MiMo)
 - [小米实时直播 MiMo-V2.6 RL 训练 – NYU Shanghai RITS](https://rits.shanghai.nyu.edu/ai/xiaomi-mimo-v2-6-live-rl-dashboard)
 - [小米直播 MiMo V2.6 RL 训练 – TechNode](https://technode.com/2026/09/18/xiaomi-livestreams-mimo-v2-6-reinforcement-learning-runs/)

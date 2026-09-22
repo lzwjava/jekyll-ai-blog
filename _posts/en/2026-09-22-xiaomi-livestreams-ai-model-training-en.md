@@ -32,6 +32,7 @@ In short, it's a transparent, live window into Xiaomi's AI model training — so
 ---
 
 **References:**
+
 - [Xiaomi MiMo – Wikipedia](https://en.wikipedia.org/wiki/Xiaomi_MiMo)
 - [Xiaomi Streams MiMo-V2.6 RL Runs Live – NYU Shanghai RITS](https://rits.shanghai.nyu.edu/ai/xiaomi-mimo-v2-6-live-rl-dashboard)
 - [Xiaomi Livestreams MiMo V2.6 RL Runs – TechNode](https://technode.com/2026/09/18/xiaomi-livestreams-mimo-v2-6-reinforcement-learning-runs/)
