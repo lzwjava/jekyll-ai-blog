@@ -52,6 +52,7 @@ AI将是变革最重要的驱动力之一。到2035年，人工超级智能、�
 ---
 
 **参考资料：**
+
 - [GlobalData: 15 Breakthrough Technologies Redefining Life by 2035](https://www.globaldata.com/media/strategic-intelligence/artificial-superintelligence-tops-globaldatas-list-15-breakthrough-technologies-redefining-life-2035/)
 - [FuturistSpeaker: What 2036 Actually Looks Like](https://futuristspeaker.com/?p=1041608)
 - [Pew Research / Fortune: AI Predictions for Life in 2035](https://fortune.com/2023/07/01/top-a-i-minds-pew-predictions-life-in-2035)
