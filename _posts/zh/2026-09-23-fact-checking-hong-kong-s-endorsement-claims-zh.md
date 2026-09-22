@@ -34,6 +34,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [香港入境事务处 – 内地居民来港入境安排](https://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html)
 - [中国日报香港版 – 商务签注停留期延长至14天（2024年4月）](https://chinadailyhk.com/article/581992)
 - [香港政府新闻网 – 商务访客停留天数延长（2024年4月）](https://www.news.gov.hk/eng/2024/04/20240428/20240428_132025_942.html)
