@@ -201,15 +201,15 @@ GPU核心本身，在概念上并不一定是昂贵或限制性的部分。
 
 5090和PRO 6000之间巨大的价差，还包括：
 
-- 产品市场细分
-- ECC / RAS功能
-- 工作站认证
-- 驱动程序
-- 质保
-- 企业级技术支持
-- 显卡板卡设计
-- 显存
-- NVIDIA产品定位
+* 产品市场细分
+* ECC / RAS功能
+* 工作站认证
+* 驱动程序
+* 质保
+* 企业级技术支持
+* 显卡板卡设计
+* 显存
+* NVIDIA产品定位
 
 所以，深圳的ODM厂商完全可以基于**GB202平台**，去打造一块便宜得多的显卡，专门优化用于：
 
@@ -328,8 +328,8 @@ decode tokens/s
 
 我还可以根据RTX PRO 6000/GB202的数据手册，去反推**96GB显存的具体拓扑**，搞清楚速桥到底需要多少颗GDDR7颗粒、多少条总线连接、几层PCB、以及多少个显存通道。
 
-[1]: https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original?utm_source=chatgpt.com “China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 - 3x more VRAM at 65% the cost of the original”
+[1]: <https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original?utm_source=chatgpt.com> “China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 - 3x more VRAM at 65% the cost of the original”
 [2]: https://www.thesiliconreport.com/articles/blackwell-unleashed-shenzhen-odm-re-engineering-yields-96gb-modified-rtx-5090?utm_source=chatgpt.com “Blackwell Unleashed: Shenzhen ODM Re-Engineering Yields 96GB Modified RTX 5090 | The Silicon Report”
 [3]: https://thesiliconledger.com/industry/chinese-manufacturer-offers-modified-rtx-5090-with-96gb-vram-on-alibaba-for-under-4000?utm_source=chatgpt.com “Chinese Manufacturer Offers Modified RTX 5090 with 96GB VRAM on Alibaba for Under $4,000”
-[4]: https://www.neoteo.com/en/alibaba-lists-a-claimed-96gb-geforce-rtx-5090-but-the-hardware-is-unverified?utm_source=chatgpt.com “Alibaba lists a claimed 96GB RTX 5090, but the specs do not add up | NeoTeo”
-[5]: https://www.jagatreview.com/2026/09/rtx-5090-dimodifikasi-jadi-96gb/?utm_source=chatgpt.com “RTX 5090 Dimodifikasi Jadi 96GB, Harganya Sekitar Rp68 Jutaan • Jagat Review”
+[4]: <https://www.neoteo.com/en/alibaba-lists-a-claimed-96gb-geforce-rtx-5090-but-the-hardware-is-unverified?utm_source=chatgpt.com> “Alibaba lists a claimed 96GB RTX 5090, but the specs do not add up | NeoTeo”
+[5]: <https://www.jagatreview.com/2026/09/rtx-5090-dimodifikasi-jadi-96gb/?utm_source=chatgpt.com> “RTX 5090 Dimodifikasi Jadi 96GB, Harganya Sekitar Rp68 Jutaan • Jagat Review”
