@@ -18,7 +18,7 @@ The 8-pin BIOS chip on a GPU is an **SPI NOR Flash memory** IC (common models: W
 Here's what each pin does:
 
 | Pin | Name | Function |
-|-----|------|----------|
+| ----- | ------ | ---------- |
 | 1 | CS# | Chip Select — pulls low to activate the chip |
 | 2 | DO (MISO) | Data Out — sends data to the GPU |
 | 3 | WP# | Write Protect — when pulled low, blocks any writes |
@@ -31,6 +31,7 @@ Here's what each pin does:
 The **WP# pin** is particularly important for GPU BIOS modding — some boards tie it to ground permanently to prevent accidental overwrites. To flash a new BIOS, you sometimes need to bridge this pin to VCC, or use a clip programmer (like the CH341A) that overrides it.
 
 **References:**
+
 - [Winbond W25Q128 Datasheet](https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf)
 - [SPI Flash Programming — flashrom wiki](https://www.flashrom.org/Flashrom)
 - [GPU BIOS modding guide — TechPowerUp](https://www.techpowerup.com/vgabios/)

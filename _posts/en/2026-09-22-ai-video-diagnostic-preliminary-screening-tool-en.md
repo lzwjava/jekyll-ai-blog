@@ -29,7 +29,7 @@ The method has real merit but also meaningful limitations. Here's a balanced bre
 **Where the method breaks down**
 
 | Weakness | Why it matters here |
-|---|---|
+| --- | --- |
 | Probe points not labeled | The 0.0 Ω readings are uninterpretable without knowing *which* rail they're on — ground-tied cap vs. shorted 12V rail are very different |
 | Meter display unreadable in 3 frames | Critical data loss exactly where 8-pin PCIe input (the highest-risk area) was being probed |
 | No powered rail checks | All readings were on unpowered board — you can't confirm dead shorts or leaky MOSFETs without live voltage measurements |

@@ -20,7 +20,7 @@ Yes — this is actually a **much smarter approach** than passive video review. 
 **Why this method is superior**
 
 | Old method | New method |
-|---|---|
+| --- | --- |
 | AI reads blurry/unstable frames | Extract only frames where display is stable |
 | Probe points unknown | Audio spike = meter beep = confirmed continuity hit → sync that frame |
 | 3 unreadable frames lost data | Only stable-display frames are kept |

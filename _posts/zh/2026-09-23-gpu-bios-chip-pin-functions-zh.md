@@ -18,7 +18,7 @@ GPU 上的 8 针 BIOS 芯片是一种 **SPI NOR Flash 存储器** IC（常见型
 以下是每个引脚的作用：
 
 | 引脚 | 名称 | 功能 |
-|-----|------|----------|
+| ----- | ------ | ---------- |
 | 1 | CS# | 片选——拉低以激活芯片 |
 | 2 | DO (MISO) | 数据输出——将数据发送到 GPU |
 | 3 | WP# | 写保护——拉低时，阻止任何写入操作 |
@@ -31,6 +31,7 @@ GPU 上的 8 针 BIOS 芯片是一种 **SPI NOR Flash 存储器** IC（常见型
 **WP# 引脚** 对于 GPU BIOS 修改尤其重要——某些电路板将其永久接地以防止意外覆盖。要刷写新 BIOS，有时需要将该引脚桥接到 VCC，或使用可以覆盖它的夹式编程器（如 CH341A）。
 
 **参考：**
+
 - [Winbond W25Q128 数据表](https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf)
 - [SPI Flash Programming — flashrom 维基](https://www.flashrom.org/Flashrom)
 - [GPU BIOS 修改指南 — TechPowerUp](https://www.techpowerup.com/vgabios/)

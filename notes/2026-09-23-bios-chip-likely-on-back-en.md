@@ -14,7 +14,7 @@ I tried GLM, Qwen, and Gemini via OpenRouter on this frame. They all agree on on
 ## Multi-vendor result
 
 | Vendor | Model | What it said |
-|--------|-------|--------------|
+| -------- | ------- | -------------- |
 | **Zhipu GLM** | `glm-4.6v` | PCIe gold fingers on **left edge**; BIOS chip "just above the gold fingers" — but when I cropped that spot, it said **no chip there** |
 | **Alibaba Qwen** | `qwen3.8-flash` | Crop shows blurry surface, **no BIOS chip** |
 | **Zhipu GLM** | `glm-5v-turbo` | Same — **no 8-pin SOIC in the crop** |

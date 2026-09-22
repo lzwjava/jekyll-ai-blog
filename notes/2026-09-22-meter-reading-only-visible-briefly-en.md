@@ -16,7 +16,7 @@ Done. Here's what I found and extracted.
 The whole 39.6 s video was scanned densely (4 fps in the 29–36 s window). The display is **blank for almost the entire video** and only settles a few times:
 
 | Time | Display | Meaning |
-|------|---------|---------|
+| ------ | --------- | --------- |
 | **30.00 s** | `00.0` Ω | Stable — near-zero resistance (short/ground) |
 | **31.25 s** | `006 V` (0.06 V) | Stable DC voltage — essentially dead rail / no power |
 | 31.50 s | `1` | Over-range / **open circuit** (OL) |
@@ -44,6 +44,7 @@ keyframes/
 Your instinct was right: **the useful reading is only on-screen for ~1.5 seconds (30–31.5 s)**. Fixed-interval extraction (every 3 s) mostly caught blank display — that's why earlier frames looked "unreadable."
 
 **Practical fix:** probe and *hold the probe still until the reading settles*, then either:
+
 - keep the display in frame for 2+ seconds, or
 - snap a still photo the moment it's stable.
 

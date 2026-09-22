@@ -33,7 +33,7 @@ The 8-pin PCIe pinout is:
 Actually, standard PCIe 8-pin (looking at the plug, clip up):
 
 | Pin | Function |
-|-----|----------|
+| ----- | ---------- |
 | 1 | +12V |
 | 2 | +12V |
 | 3 | +12V |
@@ -56,7 +56,7 @@ So: **3 pins are +12V, 5 pins are GND.**
 ## 4. How to interpret
 
 | Reading | Meaning |
-|---------|---------|
+| --------- | --------- |
 | **~12 V** | ✅ Input power OK — move on to 5V/3.3V test |
 | **0 V** | ❌ No power reaching the card — PSU/cable/connector/fuse issue |
 | **< 11 V** | ⚠️ Voltage sag — weak PSU or bad cable/connector |

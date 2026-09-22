@@ -37,6 +37,7 @@ Marked it. The file is at:
 ---
 
 **Report back what Pin 8 reads:**
+
 - **3.3 V** ✅ → the low-voltage rail is fine → we move to **5V** and then **VCore inductor**
 - **0 V** ❌ → 3.3V rail is dead → that's your root cause (likely the 3.3V regulator/converter, often fed from the PCIe slot)
 

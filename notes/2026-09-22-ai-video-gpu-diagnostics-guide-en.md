@@ -20,20 +20,25 @@ Yes — this is technically feasible today, and here's how it actually works end
 ## What's Possible Right Now
 
 ### 1. Video + Audio Analysis via AI
+
 You can upload your phone recording and an AI (like Claude) can:
+
 - **Watch the video frames** — identify burn marks, bulging capacitors, damaged MOSFETs, broken traces, cold solder joints, lifted pads
 - **Listen to the audio** — detect beep codes from POST, coil whine patterns, abnormal buzzing from the multimeter tone
 
 ### 2. Multimeter Probe Readings (Red/Black)
+
 When you probe the GPU board:
+
 - **Point your camera at the multimeter display** while probing — AI can read the voltage/resistance/continuity values
 - AI can then cross-reference those readings against expected values for common GPU power rails (1.8V, 3.3V, 12V, VDDC, VDDCI, etc.)
 
 ### 3. What an AI Agent Would Do
+
 An agent workflow could:
 
 | Step | What it does |
-|------|-------------|
+| ------ | ------------- |
 | Frame extraction | Pull key frames from your video |
 | OCR on meter display | Read probe values from the multimeter screen |
 | Visual inspection | Flag burnt components, damaged areas |
@@ -67,6 +72,7 @@ Claude can then walk through the visual diagnosis with you in real time.
 ## Want Me to Build an Agent Tool for This?
 
 I can build a dedicated GPU diagnostic web app where you:
+
 - Upload your probe video
 - It extracts frames, reads meter values, flags visual damage
 - Outputs a structured fault report
@@ -76,6 +82,7 @@ Just say the word and I'll build it.
 ---
 
 **References:**
+
 - [GPU Repair Fundamentals - Multimeter Use](https://www.badcaps.net/forum/showthread.php?t=74680)
 - [Anthropic Claude Vision Capabilities](https://docs.anthropic.com/en/docs/build-with-claude/vision)
 - [Common GPU Power Rail Voltages Reference](https://www.eevblog.com/forum/repair/gpu-repair-voltages/)

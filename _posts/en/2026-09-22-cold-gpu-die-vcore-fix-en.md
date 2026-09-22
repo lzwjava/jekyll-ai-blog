@@ -26,8 +26,8 @@ Right — cold die confirms **VCore is never coming up**. The 12V input is fine,
 
 The VRM controller needs a low-voltage supply to even think about switching. If 5V/3.3V is dead, VCore can never start.
 
-| Test point | Expect | 
-|-----------|--------|
+| Test point | Expect |
+| ----------- | -------- |
 | **BIOS chip pin 8** (small 8-pin SOIC near PCIe fingers) | **3.3 V** |
 | **5V buck inductor** (near video outputs) | **5 V** |
 
@@ -54,7 +54,7 @@ Find the small IC near the VCore coils/MOSFETs (often **uP9512, NCP45491, IR3521
 2. **EN (enable) pin** → expect **~3.3V**
 
 | EN pin | VCC pin | Diagnosis |
-|--------|---------|-----------|
+| -------- | --------- | ----------- |
 | 0 V | OK | **GPU isn't commanding VCore** → fault upstream: BIOS chip, crystal/oscillator, reset circuit, or dead core |
 | 3.3V | OK | **VRM controller or MOSFET/driver dead** → replace controller, check each phase's MOSFETs/driver |
 | — | 0 V | Controller has **no supply** → fix the 5V/3.3V path first |

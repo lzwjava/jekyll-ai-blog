@@ -20,7 +20,7 @@ Here's the exact test sequence for a GA104 card (RTX 3060 Ti/3070), from input t
 This is the most important first test. A dead short on any rail will keep the card from powering up.
 
 | Test point | Expected | Fault if |
-|-----------|----------|----------|
+| ----------- | ---------- | ---------- |
 | **12V input** (8-pin + PCIe 12V pins) to ground | ~500 Ω – several kΩ | near 0 Ω = shorted high-side MOSFET or cap |
 | **VCore (VDDC)** rail — big inductors around the die | **very low Ω (0.5–2 Ω)** is *normal* for GPU core | 0.0 Ω = dead short; 10+ Ω could be fine |
 | **VMEM (VRAM)** inductors | ~10–100 Ω | 0 Ω = shorted VRAM/MOSFET |
@@ -35,6 +35,7 @@ This is the most important first test. A dead short on any rail will keep the ca
 Check in this exact order:
 
 ### A. Input power present?
+
 1. **12V on the 8-pin PCIe power connector** → expect **12 V**
 2. **12V on PCIe slot pins** → expect **12 V**
 3. **5V and 3.3V** present on the board → expect **5 V / 3.3 V**
@@ -42,11 +43,13 @@ Check in this exact order:
 If 12V is missing → power supply/cable/fuse problem. If 12V is present but nothing else → go to B.
 
 ### B. Standby / low rails
+
 4. **5V** rail → expect **5.0 V**
 5. **3.3V** rail → expect **3.3 V**
 6. **1.8V** rail (often near the BIOS chip / memory) → expect **1.8 V**
 
 ### C. The critical one — VRAM and VCore
+
 7. **VMEM (VRAM)** inductors → expect **1.35 V** (GDDR6)
 8. **VCore (VDDC)** inductors around the die → expect **0.6–1.1 V** (rises at boot)
 
@@ -82,6 +85,7 @@ Power on, die cold
 ## What to tell me next
 
 Measure these and give me the numbers:
+
 1. **12V** at the 8-pin input
 2. **5V and 3.3V**
 3. **1.8V**

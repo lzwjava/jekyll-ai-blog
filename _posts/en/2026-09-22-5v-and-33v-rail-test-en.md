@@ -41,20 +41,23 @@ Easiest reliable test points:
 ## Step-by-step order
 
 ### 2a. Find the SPI flash (BIOS) chip
+
 - Small **8-pin SOIC chip** near the PCIe edge, often labelled **25Q... / MX25... / W25...**
 - **Pin 8 (VCC)** should read **3.3 V** (pin 1 has a dot, count counter-clockwise)
 
 ### 2b. Find the 5V converter
+
 - A small **buck converter + inductor** usually near the display outputs (HDMI/DP) or the back edge
 - Measure both sides of its output inductor → **5.0 V**
 
 ### 2c. Fan header
+
 - If you have a fan header, **one pin = 12V or 5V** — useful sanity check
 
 ## Interpretation
 
 | Reading | Meaning |
-|---------|---------|
+| --------- | --------- |
 | **5V OK + 3.3V OK** | ✅ Move to **1.8V test** |
 | **0V on both** | ❌ 12V→5V converter dead (or its enable missing) |
 | **5V OK, 3.3V missing** | ❌ 5V→3.3V converter/regulator dead |

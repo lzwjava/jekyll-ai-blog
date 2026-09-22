@@ -16,7 +16,7 @@ Here's the key: **0 V on a 1 Ω resistor is only meaningful if I know which circ
 ## What a 1R0 resistor usually does on a GPU
 
 | Location | Role | 0 V means |
-|----------|------|-----------|
+| ---------- | ------ | ----------- |
 | **Near VCore inductors / MOSFETs** | **Bootstrap** or **current-sense** resistor in the VRM phase | VRM is not switching (fault) |
 | **Near the VRM controller chip** | **VCC feed** resistor (feeds 5V/12V into the controller) | Controller has no supply |
 | **On a small signal line** | series resistor on **EN/PGOOD/SDA** | that signal is low |
@@ -26,7 +26,7 @@ Here's the key: **0 V on a 1 Ω resistor is only meaningful if I know which circ
 The fastest test: measure **each side of the 1R0 resistor to ground**, one at a time (black probe on ground):
 
 | Reading | Meaning |
-|---------|---------|
+| --------- | --------- |
 | **Both sides 0 V** | The rail feeding it is dead → go upstream |
 | **One side 12V, other 0V** | Resistor open, OR the load after it is shorted |
 | **One side 5V/3.3V, other 0V** | Same — resistor blown or downstream short |

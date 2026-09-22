@@ -14,7 +14,7 @@ Both images copied and analyzed. Here's what the vision model found:
 ## `gpu1.jpg`
 
 | Field | Result |
-|-------|--------|
+| ------- | -------- |
 | **Meter display** | `0.630` |
 | **Mode** | Resistance — **20 kΩ range** |
 | **Reading** | **0.63 kΩ** (630 Ω) |
@@ -25,7 +25,7 @@ Both images copied and analyzed. Here's what the vision model found:
 ## `gpu2.jpg`
 
 | Field | Result |
-|-------|--------|
+| ------- | -------- |
 | **Meter display** | `1.137` |
 | **Mode** | Resistance — **200 kΩ range** |
 | **Reading** | **1.137 kΩ** |

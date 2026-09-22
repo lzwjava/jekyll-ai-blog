@@ -35,7 +35,7 @@ The fault is now confirmed to be **after this point** — the VRM isn't turning 
 **Interpretation:**
 
 | Reading | Diagnosis |
-|---------|-----------|
+| --------- | ----------- |
 | **0.6 – 1.1 V** | VCore is running — die should be warm; fault is elsewhere (unlikely given cold die) |
 | **0 V** | **VRM not switching** — controller/MOSFET/enable fault (most likely) |
 | **12 V** | High-side MOSFET is shorted → VCore shorted to input (**danger**, could kill the die) |
@@ -43,6 +43,7 @@ The fault is now confirmed to be **after this point** — the VRM isn't turning 
 ## Also worth measuring while you're there
 
 The **VRM controller chip** (small QFN/IC near the VCore MOSFETs — often **uP9512 / NCP45491 / IR35217** style):
+
 - Its **VCC pin** → expect 5V or 12V
 - Its **EN (enable) pin** → expect ~3.3V (this is the GPU's "turn on the core" command)
 

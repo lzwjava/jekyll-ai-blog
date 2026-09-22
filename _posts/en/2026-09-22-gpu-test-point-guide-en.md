@@ -18,7 +18,7 @@ The AI's pixel-level placement isn't perfectly reliable on a busy board photo, s
 ## The 7 marked points & how to recognize them
 
 | # | Test point | How to find it | What to measure |
-|---|-----------|----------------|-----------------|
+| --- | ----------- | ---------------- | ----------------- |
 | **1** | **8-pin PCIe power** | Black block socket on the card's edge — the cable plugs here | 12V (already OK ✅) |
 | **2** | **BIOS / SPI flash chip** | Tiny 8-pin square chip near the **PCIe gold fingers** (the row of gold contacts that go into the motherboard slot). Often labelled `25Q…` / `MX25…` / `W25…`. **Pin 8** = its VCC | 3.3V |
 | **3** | **5V buck output** | Small grey coil (inductor) near the **video output bracket** (where HDMI/DP ports are) | 5V |

@@ -23,12 +23,15 @@ sudo dd if=/Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso of=/dev/rdisk
 ```
 
 **Key notes:**
+
 - Uses `/dev/rdisk12` (raw disk) → much faster than `/dev/disk12`
 - `bs=1m` → 1 MB block size for better performance
 - No progress indicator by default on macOS `dd`; to see progress, open another terminal and run:
+
   ```bash
   sudo killall -INFO dd
   ```
+
   (or use `sudo pv -tpreb /Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso | sudo dd of=/dev/rdisk12 bs=1m` if you have `pv` installed)
 
 Then wait patiently — ~6.1 GB at ~30-50 MB/s takes **2–3 minutes**. After it finishes, eject safely:

@@ -23,12 +23,15 @@ sudo dd if=/Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso of=/dev/rdisk
 ```
 
 **关键说明：**
+
 - 使用 `/dev/rdisk12`（原始磁盘）→ 比 `/dev/disk12` 快得多
 - `bs=1m` → 1 MB 块大小，性能更佳
 - macOS 的 `dd` 默认不显示进度；要查看进度，请另开一个终端并运行：
+
   ```bash
   sudo killall -INFO dd
   ```
+
   （或者，如果您安装了 `pv`，可以使用 `sudo pv -tpreb /Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso | sudo dd of=/dev/rdisk12 bs=1m`）
 
 然后耐心等待——约 6.1 GB 数据，以 30–50 MB/s 的速度需要 **2–3 分钟**。完成后，安全弹出：
