@@ -12,6 +12,7 @@ type: note
 Slurm 是一个功能全面的 HPC 集群工作负载管理器。基于代码库，以下是其按能力领域组织的功能：
 
 ## 核心作业生命周期
+
 - **提交作业**（`sbatch`）——批处理脚本、作业数组、依赖关系、异构作业
 - **运行交互式作业**（`srun`、`salloc`）——包括 `scrun`（OCI 容器运行时）
 - **附加/加入运行中的作业**（`sattach`）
@@ -19,6 +20,7 @@ Slurm 是一个功能全面的 HPC 集群工作负载管理器。基于代码库
 - **作业步骤**——分配内的并行任务
 
 ## 资源管理与调度
+
 - **分区（Partitions）**——具有不同策略的逻辑节点组（通过 `scontrol`、`sinfo`）
 - **通用资源（GRES）**——GPU 及其他可调度设备（`src/plugins/gres`）
 - **QoS**——具有限制的服务质量级别（`qos_functions.c`）
@@ -28,6 +30,7 @@ Slurm 是一个功能全面的 HPC 集群工作负载管理器。基于代码库
 - **拓扑感知调度**（`src/plugins/topology`）和**节点特性**
 
 ## 计费与报告
+
 - **作业计费（Job accounting）**（`sacct`）——跟踪 CPU、内存、能耗、文件系统、互连使用情况
 - **数据库后端**（`slurmdbd`）——通过 `src/database` 使用 MySQL/MariaDB
 - **关联/用户/账户管理**（`sacctmgr`）
@@ -35,12 +38,14 @@ Slurm 是一个功能全面的 HPC 集群工作负载管理器。基于代码库
 - **归档（Archive）**支持长期计费数据
 
 ## 监控与控制
+
 - **`sinfo`**——节点/分区状态；**`squeue`**——作业队列；**`sstat`**——实时作业统计；**`sdiag`**——诊断信息
 - **`scontrol`**——管理控制（重新配置守护进程、修改节点/作业/分区等）
 - **`sview`**——集群状态的图形界面
 - **`strigger`**——事件触发器
 
 ## 高级功能
+
 - **能耗/GPU 计费**（`src/plugins/acct_gather_energy`）
 - **cgroup 支持**（`src/plugins/cgroup`）——资源隔离与限制
 - **突发缓冲区（Burst buffers）**（`src/plugins/burst_buffer`）——数据暂存
@@ -54,6 +59,7 @@ Slurm 是一个功能全面的 HPC 集群工作负载管理器。基于代码库
 - **MCS、认证插件**（MunGE/authentication）、**TLS**（`src/plugins/tls`）、**压缩（Compress）**——安全与传输效率
 
 ## 可扩展性
+
 - **SPANK**——用于作业启动定制的插件 API（`slurm/spank.h`）
 - **C API**——用于构建自定义工具的完整库（`src/api`）
 - **40 多种插件接口**——认证、计费、调度、选择、MPI、拓扑等

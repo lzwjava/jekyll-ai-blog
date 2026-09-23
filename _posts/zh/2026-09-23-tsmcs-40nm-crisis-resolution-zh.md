@@ -44,6 +44,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [台积电张忠谋专访要点](https://ezrasnotes.substack.com/p/key-takeaways-from-the-interview)
 - [40nm危机：台积电如何成就NVIDIA的胜利、AMD的衰落 – 电子时报](https://apps.digitimes.com/news/a20241122PD207/40nm-nvidia-tsmc-amd-2009.html)
 - [NVIDIA 2009财年10-Q表格 – SEC文件](https://www.sec.gov/Archives/edgar/data/0001045810/000104581009000017/q110form10q.htm)

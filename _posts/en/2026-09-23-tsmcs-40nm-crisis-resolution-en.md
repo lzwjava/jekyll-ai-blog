@@ -44,6 +44,7 @@ A small correction on your memory: the node in question was **40nm**, not 14nm. 
 ---
 
 **References:**
+
 - [Key Takeaways from the Interview with TSMC's Morris Chang](https://ezrasnotes.substack.com/p/key-takeaways-from-the-interview)
 - [40nm crisis: how TSMC shaped NVIDIA's triumph, AMD's demise – Digitimes](https://apps.digitimes.com/news/a20241122PD207/40nm-nvidia-tsmc-amd-2009.html)
 - [NVIDIA Form 10-Q FY2009 – SEC Filing](https://www.sec.gov/Archives/edgar/data/0001045810/000104581009000017/q110form10q.htm)

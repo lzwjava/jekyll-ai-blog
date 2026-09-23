@@ -12,6 +12,7 @@ type: note
 Slurm is a full-featured HPC cluster workload manager. Based on the codebase, here's what it can do, organized by capability area:
 
 ## Core job lifecycle
+
 - **Submit jobs** (`sbatch`) — batch scripts, arrays, dependencies, heterogeneous jobs
 - **Run interactive jobs** (`srun`, `salloc`) — including `scrun` (OCI container runtime)
 - **Attach/join running jobs** (`sattach`)
@@ -19,6 +20,7 @@ Slurm is a full-featured HPC cluster workload manager. Based on the codebase, he
 - **Job steps** — parallel tasks within an allocation
 
 ## Resource management & scheduling
+
 - **Partitions** — logical groups of nodes with different policies (via `scontrol`, `sinfo`)
 - **Generic resources (GRES)** — GPUs, and other schedulable devices (`src/plugins/gres`)
 - **QoS** — quality-of-service levels with limits (`qos_functions.c`)
@@ -28,6 +30,7 @@ Slurm is a full-featured HPC cluster workload manager. Based on the codebase, he
 - **Topology-aware scheduling** (`src/plugins/topology`) and **node features**
 
 ## Accounting & reporting
+
 - **Job accounting** (`sacct`) — track CPU, memory, energy, filesystem, interconnect usage
 - **Database backend** (`slurmdbd`) — MySQL/MariaDB via `src/database`
 - **Association/user/account management** (`sacctmgr`)
@@ -35,12 +38,14 @@ Slurm is a full-featured HPC cluster workload manager. Based on the codebase, he
 - **Archive** support for long-term accounting data
 
 ## Monitoring & control
+
 - **`sinfo`** — node/partition state; **`squeue`** — job queue; **`sstat`** — live job stats; **`sdiag`** — diagnostics
 - **`scontrol`** — administrative control (reconfigure daemons, modify nodes/jobs/partitions, etc.)
 - **`sview`** — GUI view of cluster state
 - **`strigger`** — event triggers
 
 ## Advanced features
+
 - **Energy/GPU accounting** (`src/plugins/acct_gather_energy`)
 - **cgroup support** (`src/plugins/cgroup`) — resource isolation and limits
 - **Burst buffers** (`src/plugins/burst_buffer`) — data staging
@@ -54,6 +59,7 @@ Slurm is a full-featured HPC cluster workload manager. Based on the codebase, he
 - **MCS, auth plugins** (MunGE/authentication), **TLS** (`src/plugins/tls`), **compress** — security & transfer efficiency
 
 ## Extensibility
+
 - **SPANK** — plugin API for job launch customization (`slurm/spank.h`)
 - **C API** — full library for building custom tools (`src/api`)
 - **40+ plugin interfaces** — auth, accounting, scheduling, select, MPI, topology, etc.
