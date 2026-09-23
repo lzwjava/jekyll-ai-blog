@@ -28,6 +28,7 @@ Marxism is a political, economic, and social philosophy developed by Karl Marx (
 **Vision of Communism** — The ultimate goal is a classless, stateless society where the means of production are collectively owned and resources are distributed according to the principle *"from each according to his ability, to each according to his needs."*
 
 **Key Texts:**
+
 - *The Communist Manifesto* (1848) — Marx & Engels
 - *Das Kapital* (1867) — Marx
 
@@ -36,6 +37,7 @@ Marxism has since branched into many currents — Leninism, Maoism, Western Marx
 ---
 
 References:
+
 - [Marxism – Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marxism/)
 - [Karl Marx – Britannica](https://www.britannica.com/biography/Karl-Marx)
 - [The Communist Manifesto (full text) – Marxists.org](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)

@@ -28,6 +28,7 @@ type: note
 **共产主义愿景** —— 最终目标是建立一个无阶级、无国家的社会，生产资料归集体所有，资源分配遵循**"各尽所能，按需分配"**原则。
 
 **核心文献：**
+
 - *《共产党宣言》*（1848年）—— 马克思与恩格斯
 - *《资本论》*（1867年）—— 马克思
 
@@ -36,6 +37,7 @@ type: note
 ---
 
 参考文献：
+
 - [马克思主义 – 斯坦福哲学百科全书](https://plato.stanford.edu/entries/marxism/)
 - [卡尔·马克思 – 大英百科全书](https://www.britannica.com/biography/Karl-Marx)
 - [《共产党宣言》（全文）– Marxists.org](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)

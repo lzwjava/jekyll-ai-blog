@@ -32,6 +32,7 @@ type: note
 > **注：** “十一个坚持”有时会与习近平思想中的其他编号框架混淆，例如习近平新时代中国特色社会主义思想的**十四条基本方略**，或2022年党的二十大提出的**六个必须坚持**。这十一点专门针对**法治领域**。
 
 **参考文献：**
+
 - [中央全面依法治国工作会议——十一个坚持原始文件（广州大学）](https://gzartschool.gzhu.edu.cn/__local/F/19/44/5A399C4BFC232446F24089E8CFA_ABF1D28D_13256.pdf)
 - [习近平法治思想——CSIS解读](https://interpret.csis.org/?p=202)
 - [六个坚持——中国媒体项目词典](https://chinamediaproject.org/the_ccp_dictionary/six-adheres/)

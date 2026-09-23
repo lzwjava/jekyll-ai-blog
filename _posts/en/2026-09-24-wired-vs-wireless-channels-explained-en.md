@@ -49,7 +49,7 @@ Here's a visual comparison:---
 ### Key Comparison
 
 | Feature | 有线 Wired | 无线 Wireless |
-|---|---|---|
+| --- | --- | --- |
 | Medium | Physical conductor | Electromagnetic waves |
 | Mobility | Fixed | Mobile |
 | Bandwidth | Very high (fiber) | Limited by spectrum |

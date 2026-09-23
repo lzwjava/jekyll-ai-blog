@@ -32,6 +32,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国政党制度白皮书 — 西北大学](https://tzb.nwu.edu.cn/info/1046/1449.htm)
 - [多党合作和政治协商制度 — 中国日报](https://language.chinadaily.com.cn/60th/2009-08/26/content_8620303.htm)
 - [基层群众自治制度 — 中国日报](https://language.chinadaily.com.cn/news/2008-10/22/content_7130933_5.htm)

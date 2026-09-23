@@ -32,6 +32,7 @@ Together, these four systems form the core content and basic framework of China'
 ---
 
 **References:**
+
 - [China's Political Party System White Paper — NWU](https://tzb.nwu.edu.cn/info/1046/1449.htm)
 - [System of Multi-party Cooperation and Political Consultation — China Daily](https://language.chinadaily.com.cn/60th/2009-08/26/content_8620303.htm)
 - [System of Community Level Self-Governance — China Daily](https://language.chinadaily.com.cn/news/2008-10/22/content_7130933_5.htm)

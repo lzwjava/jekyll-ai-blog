@@ -32,6 +32,7 @@ The eleven principles are:
 > **Note:** The "十一个坚持" is sometimes confused with other numbered frameworks in Xi Jinping Thought, such as the **14 Principles** (十四条基本方略) of Xi Jinping Thought on Socialism with Chinese Characteristics, or the **Six Musts** (六个必须坚持) from the 20th Party Congress in 2022. The eleven-point list is specific to the **rule-of-law domain**.
 
 **References:**
+
 - [Central Work Conference on Rule of Law — 十一个坚持 source document (Guangzhou University)](https://gzartschool.gzhu.edu.cn/__local/F/19/44/5A399C4BFC232446F24089E8CFA_ABF1D28D_13256.pdf)
 - [Xi Jinping Thought on the Rule of Law — CSIS Interpret](https://interpret.csis.org/?p=202)
 - [Six Adheres — China Media Project Dictionary](https://chinamediaproject.org/the_ccp_dictionary/six-adheres/)
