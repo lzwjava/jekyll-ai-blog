@@ -40,6 +40,7 @@ In summary, 1956 was the landmark year when China declared its socialist system 
 ---
 
 **References:**
+
 - [From New Democratic Revolution to Socialism (1949–1956)](https://www.globalsecurity.org/military/world/china/ccp-history-4.htm)
 - [8th National Congress of the CPC – Political Report by Liu Shaoqi](https://www.marxists.org/subject/china/documents/cpc/8th_congress.htm)
 - [Journal of Shanghai University – Socialist Transformation Study](https://www.jsus.shu.edu.cn/EN/Y2022/V39/I4/87)

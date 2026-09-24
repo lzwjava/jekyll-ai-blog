@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [从新民主主义革命到社会主义（1949—1956）](https://www.globalsecurity.org/military/world/china/ccp-history-4.htm)
 - [中共八大——刘少奇的政治报告](https://www.marxists.org/subject/china/documents/cpc/8th_congress.htm)
 - [上海大学学报——社会主义改造研究](https://www.jsus.shu.edu.cn/EN/Y2022/V39/I4/87)

@@ -24,7 +24,7 @@ type: note
 **并排对比**
 
 | 维度 | 市场经济 | 计划经济 |
-|---|---|---|
+| --- | --- | --- |
 | 价格机制 | 由供求决定 | 由国家设定 |
 | 资源配置 | 分散化（数百万个参与者） | 集中化（计划者） |
 | 所有制 | 以私有为主 | 以国有/集体为主 |
@@ -40,6 +40,7 @@ type: note
 大多数现代经济体都是**混合经济体**——以市场为基础，但政府在医疗、教育、基础设施和监管方面进行干预。今天的中国是一个值得注意的案例：名义上是社会主义，但实际上高度市场化。
 
 参考资料：
+
 - [Market Economy – Investopedia](https://www.investopedia.com/terms/m/marketeconomy.asp)
 - [Command Economy – Investopedia](https://www.investopedia.com/terms/c/command-economy.asp)
 - [Hayek, "The Use of Knowledge in Society" (1945) – AEA](https://www.aeaweb.org/aer/top20/35.4.519-530.pdf)

@@ -24,6 +24,7 @@ type: note
 政治存在于各个层面——地方、国家和国际——既包括正式制度（议会、法院），也包括非正式动态（社会运动、公众舆论、媒体影响）。
 
 参考文献：
+
 - [Politics – Britannica](https://www.britannica.com/topic/politics)
 - [What is Politics? – Oxford Reference](https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100340152)
 - [Aristotle's Political Theory – Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aristotle-politics/)

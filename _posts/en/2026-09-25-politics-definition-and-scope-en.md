@@ -24,6 +24,7 @@ The word comes from the Greek *polis* (city-state), reflecting its ancient roots
 Politics exists at every level — local, national, and international — and spans formal institutions (parliaments, courts) as well as informal dynamics (social movements, public opinion, media influence).
 
 References:
+
 - [Politics – Britannica](https://www.britannica.com/topic/politics)
 - [What is Politics? – Oxford Reference](https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100340152)
 - [Aristotle's Political Theory – Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aristotle-politics/)

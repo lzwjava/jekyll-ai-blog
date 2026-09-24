@@ -24,7 +24,7 @@ Also called a command economy — a central authority (typically the government)
 **Side-by-Side Comparison**
 
 | Dimension | Market Economy | Planned Economy |
-|---|---|---|
+| --- | --- | --- |
 | Price mechanism | Set by supply & demand | Set by the state |
 | Resource allocation | Decentralized (millions of actors) | Centralized (planners) |
 | Ownership | Primarily private | Primarily state/collective |
@@ -40,6 +40,7 @@ The core tension is the **information problem** (articulated by economist F.A. H
 Most modern economies are **mixed economies** — primarily market-based but with government intervention in healthcare, education, infrastructure, and regulation. China today is a notable case: officially socialist but heavily market-driven in practice.
 
 References:
+
 - [Market Economy – Investopedia](https://www.investopedia.com/terms/m/marketeconomy.asp)
 - [Command Economy – Investopedia](https://www.investopedia.com/terms/c/command-economy.asp)
 - [Hayek, "The Use of Knowledge in Society" (1945) – AEA](https://www.aeaweb.org/aer/top20/35.4.519-530.pdf)
