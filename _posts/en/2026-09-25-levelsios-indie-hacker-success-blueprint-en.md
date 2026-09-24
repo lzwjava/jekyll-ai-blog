@@ -70,6 +70,7 @@ The honest caveat: of his 113 tracked projects, at most 9 could reasonably be ca
 ---
 
 **References:**
+
 - [19 Failures Behind a $420K/Month Solo Founder – DEV Community](https://dev.to/idonthaveapen/failures-behind-a-420kmonth-solo-founder-i-read-all-751-of-pieter-levels-blog-posts-1h3b)
 - [Digital Nomad to Prolific Indie Hacker – Indie Hackers](https://www.indiehackers.com/post/digital-nomad-to-prolific-indie-hacker-pieter-levels-c142e7e7d8)
 - [Who is LevelsiO – Favikon](https://favikon.com/blog/who-is-levelsio)

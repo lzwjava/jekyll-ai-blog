@@ -54,6 +54,7 @@ Pieter Levels 对个人传记细节非常保密——确切的出生日期、家
 ---
 
 **参考资料：**
+
 - [The Internet's Solitary Millionaire: Pieter Levels' Journey – TechLeap](https://finder.techleap.nl/news/note/the-internet-s-solitary-millionaire-pieter-levels-journey)
 - [LevelsiO: A Visionary in Building Public Startups – Favikon](https://favikon.com/blog/who-is-levelsio)
 - [He Built 70 Failed Apps Before Making $300K/Month – Indie Hackers](https://www.indiehackers.com/post/he-built-70-failed-apps-before-making-300k-month-levelsios-story-eb21cb3b79)

@@ -30,12 +30,12 @@ Anthropic 的 [Claude](https://claude.ai/?utm_source=chatgpt.com) 现在拥有 *
 
 还有更多有趣的选择：
 
-| 系统                           | HTML优先 | 交互式 | 可自托管 |
+| 系统 | HTML优先 | 交互式 | 可自托管 |
 | -------------------------------- | ---------: | ----------: | ------------: |
-| **Claude + Artifacts**           |      ★★★★☆ |           ✅ |             ❌ |
-| **Open WebUI + Artifacts**       |      ★★★★★ |           ✅ |             ✅ |
-| **LibreChat + Artifacts**        |      ★★★★★ |           ✅ |             ✅ |
-| **你自己的 LLM + HTML 渲染器** |      ★★★★★ |           ✅ |             ✅ |
+| **Claude + Artifacts** | ★★★★☆ | ✅ | ❌ |
+| **Open WebUI + Artifacts** | ★★★★★ | ✅ | ✅ |
+| **LibreChat + Artifacts** | ★★★★★ | ✅ | ✅ |
+| **你自己的 LLM + HTML 渲染器** | ★★★★★ | ✅ | ✅ |
 
 Open WebUI 的工件系统明确地在聊天旁边渲染 **HTML/CSS/JS、SVG、Three.js 和 D3**。([Open WebUI][3]) LibreChat 类似地支持智能体生成 React、HTML、SVG 和 Mermaid 工件。([LibreChat][4])
 

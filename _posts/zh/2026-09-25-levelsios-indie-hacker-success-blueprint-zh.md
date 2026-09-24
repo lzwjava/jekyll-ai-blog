@@ -70,6 +70,7 @@ Levelsio 已构建超过 70 款产品，其中约 95% 失败，但余下 5% 表�
 ---
 
 **参考资料：**
+
 - [19次失败背后的月入42万美元的独立创始人 – DEV Community](https://dev.to/idonthaveapen/failures-behind-a-420kmonth-solo-founder-i-read-all-751-of-pieter-levels-blog-posts-1h3b)
 - [从数字游民到多产独立黑客 – Indie Hackers](https://www.indiehackers.com/post/digital-nomad-to-prolific-indie-hacker-pieter-levels-c142e7e7d8)
 - [Levelsio 是谁 – Favikon](https://favikon.com/blog/who-is-levelsio)

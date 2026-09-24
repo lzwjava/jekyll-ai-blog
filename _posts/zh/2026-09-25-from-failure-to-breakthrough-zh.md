@@ -48,5 +48,6 @@ Pieter Levels 在取得突破前的经历，并非某个单一的低谷，而是
 ---
 
 **参考资料：**
+
 - [数字游民到多产独立黑客 – Indie Hackers](https://www.indiehackers.com/post/digital-nomad-to-prolific-indie-hacker-pieter-levels-c142e7e7d8)
 - [月入 42 万美元的独立创始人背后的 19 次失败 – DEV Community](https://dev.to/idonthaveapen/failures-behind-a-420kmonth-solo-founder-i-read-all-751-of-pieter-levels-blog-posts-1h3b)

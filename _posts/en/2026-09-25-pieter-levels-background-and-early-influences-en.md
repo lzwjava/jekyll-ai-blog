@@ -54,6 +54,7 @@ Pieter Levels is notably private about personal biographical details — exact b
 ---
 
 **References:**
+
 - [The Internet's Solitary Millionaire: Pieter Levels' Journey – TechLeap](https://finder.techleap.nl/news/note/the-internet-s-solitary-millionaire-pieter-levels-journey)
 - [LevelsiO: A Visionary in Building Public Startups – Favikon](https://favikon.com/blog/who-is-levelsio)
 - [He Built 70 Failed Apps Before Making $300K/Month – Indie Hackers](https://www.indiehackers.com/post/he-built-70-failed-apps-before-making-300k-month-levelsios-story-eb21cb3b79)

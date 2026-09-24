@@ -48,5 +48,6 @@ His desperation period contained the seeds of every principle he later became kn
 ---
 
 **References:**
+
 - [Digital Nomad to Prolific Indie Hacker – Indie Hackers](https://www.indiehackers.com/post/digital-nomad-to-prolific-indie-hacker-pieter-levels-c142e7e7d8)
 - [19 Failures Behind a $420K/Month Solo Founder – DEV Community](https://dev.to/idonthaveapen/failures-behind-a-420kmonth-solo-founder-i-read-all-751-of-pieter-levels-blog-posts-1h3b)
