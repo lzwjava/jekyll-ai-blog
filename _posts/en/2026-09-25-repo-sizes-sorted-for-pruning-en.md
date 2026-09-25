@@ -16,7 +16,7 @@ Here's a full breakdown of the repos from `repos.json` sorted by size. I'll orga
 **📦 >1GB (top candidates to remove):**
 
 | Size | Repo | Category |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | **3.4G** | Qwen2.5-Coder | ai-models |
 | **2.2G** | TensorRT-LLM | ai-inference |
 | **1.7G** | openai-cookbook | ai-apps |
@@ -29,7 +29,7 @@ Here's a full breakdown of the repos from `repos.json` sorted by size. I'll orga
 **📦 500MB–1GB:**
 
 | Size | Repo | Category |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | 907M | llama_index | ai-apps |
 | 836M | llama.cpp | ai-inference |
 | 789M | warp | dev-tools |
@@ -46,7 +46,7 @@ Here's a full breakdown of the repos from `repos.json` sorted by size. I'll orga
 **📦 100–500MB:**
 
 | Size | Repo | Category |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | 478M | ll | *(not in repos.json)* |
 | 475M | open-webui | ai-apps |
 | 462M | git | dev-tools |

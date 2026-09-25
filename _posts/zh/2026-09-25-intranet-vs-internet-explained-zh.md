@@ -20,7 +20,7 @@ Answer:
 以下是快速对比：
 
 | 特性 | Intranet | Internet |
-|---|---|---|
+| --- | --- | --- |
 | 访问权限 | 受限（仅限员工/成员） | 对公众开放 |
 | 范围 | 组织内部 | 全球范围 |
 | 安全性 | 高——位于防火墙/VPN后 | 不一——需按服务进行保护 |
@@ -31,6 +31,7 @@ Answer:
 一个相关的术语是 **Extranet**——它是Intranet的受控扩展，允许特定外部人员（合作伙伴、供应商、客户）访问，在开放性上介于两者之间。
 
 参考资料：
+
 - [What is an Intranet? – Cisco](https://www.cisco.com/c/en/us/products/security/what-is-intranet.html)
 - [Intranet vs Internet – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-internet-and-intranet/)
 - [Intranet – Wikipedia](https://en.wikipedia.org/wiki/Intranet)

@@ -25,7 +25,6 @@ CMIS defines a message set used by peer processes to exchange information and co
 
 The services CMIS provides (through what's called the **CMISE** element) are:
 
-
 - **M-CREATE** – Create an instance of a managed object
 - **M-DELETE** – Delete an instance of a managed object
 - **M-GET** – Request managed object attributes (for one or a set of objects)
@@ -33,7 +32,6 @@ The services CMIS provides (through what's called the **CMISE** element) are:
 - **M-SET** – Set managed object attributes
 - **M-ACTION** – Request an action to be performed on a managed object
 - **M-EVENT-REPORT** – Send events occurring on managed objects
-
 
 ---
 
@@ -52,7 +50,7 @@ CMIP also provides good security — supporting authorization, access control, a
 Think of it like this:
 
 | | CMIS | CMIP |
-|---|---|---|
+| --- | --- | --- |
 | **Role** | Service definition (the API) | Protocol implementation (the wire format) |
 | **Standard** | ITU-T X.710 / ISO 9595 | ITU-T X.711 / ISO 9596-1 |
 | **Defines** | *What* operations are available | *How* those operations are transmitted |
@@ -71,6 +69,7 @@ CMIS/CMIP is most often used in telecommunications applications; in other areas,
 ---
 
 **References:**
+
 - [CMIS – Wikipedia](https://en.wikipedia.org/wiki/Common_Management_Information_Service)
 - [CMIP – Wikipedia](https://en.wikipedia.org/wiki/Common_Management_Information_Protocol)
 - [RFC 1189 – CMOT and CMIP (IETF)](https://www.rfc-editor.org/rfc/rfc1189.html)

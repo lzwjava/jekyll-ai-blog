@@ -20,7 +20,7 @@ The **internet** is the global, public network connecting billions of devices wo
 Here's a quick comparison:
 
 | Feature | Intranet | Internet |
-|---|---|---|
+| --- | --- | --- |
 | Access | Restricted (employees/members only) | Open to the public |
 | Scope | Local to an organization | Global |
 | Security | High — behind firewalls/VPNs | Variable — must be secured per-service |
@@ -31,6 +31,7 @@ Here's a quick comparison:
 A related term is **extranet** — a controlled extension of an intranet that allows access to specific outsiders (partners, suppliers, clients), sitting between the two in terms of openness.
 
 References:
+
 - [What is an Intranet? – Cisco](https://www.cisco.com/c/en/us/products/security/what-is-intranet.html)
 - [Intranet vs Internet – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-internet-and-intranet/)
 - [Intranet – Wikipedia](https://en.wikipedia.org/wiki/Intranet)

@@ -42,7 +42,7 @@ type: note
 **汇总表：**
 
 | 年份 | 估值 | 关键事件 |
-|------|-----------|-----------|
+| ------ | ----------- | ----------- |
 | 2017年 | 约10亿美元 | E轮融资，达成独角兽里程碑 |
 | 2018年 | 约30亿美元 | 腾讯领投融资轮 |
 | 2020年3月 | 78亿美元 | 疫情驱动增长 |
@@ -51,6 +51,7 @@ type: note
 | 2021年7月及以后 | 未知/可能大幅缩水 | 中国"双减政策" |
 
 **参考资料：**
+
 - [Yuanfudao — Sacra](https://sacra.com/c/yuanfudao)
 - [腾讯支持的猿辅导寻求200亿美元估值 — Advisor Perspectives](https://www.advisorperspectives.com/articles/2021/02/25/tencent-backed-edtech-startup-seeks-funding-at-20-billion-value)
 - [20万人裁员，1000亿美元蒸发 — Class Central](https://www.classcentral.com/report/?p=78600)

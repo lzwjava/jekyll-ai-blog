@@ -16,7 +16,7 @@ type: note
 **📦 >1GB（最应该移除的候选）：**
 
 | 大小 | 仓库 | 类别 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | **3.4G** | Qwen2.5-Coder | ai-models |
 | **2.2G** | TensorRT-LLM | ai-inference |
 | **1.7G** | openai-cookbook | ai-apps |
@@ -29,7 +29,7 @@ type: note
 **📦 500MB–1GB：**
 
 | 大小 | 仓库 | 类别 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | 907M | llama_index | ai-apps |
 | 836M | llama.cpp | ai-inference |
 | 789M | warp | dev-tools |
@@ -46,7 +46,7 @@ type: note
 **📦 100–500MB：**
 
 | 大小 | 仓库 | 类别 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | 478M | ll | *(不在 repos.json 中)* |
 | 475M | open-webui | ai-apps |
 | 462M | git | dev-tools |

@@ -20,7 +20,7 @@ type: note
 ### 📊 过去与现在：市值前十名
 
 | 排名 | **2015年** | 市值 | **2026年** | 市值 |
-|------|----------|------------|----------|------------|
+| ------ | ---------- | ------------ | ---------- | ------------ |
 | 1 | Apple | 约6500亿美元 | **NVIDIA** | 约4.7万亿美元 |
 | 2 | Microsoft | 约3460亿美元 | **Alphabet（Google）** | 约4.3万亿美元 |
 | 3 | Google | 约3250亿美元 | **Apple** | 约4.3万亿美元 |
@@ -54,6 +54,7 @@ PetroChina和ICBC在2015年都位列全球前十。如今，两者均未进入�
 ---
 
 **参考资料：**
+
 - [PwC全球前100强公司报告](https://www.pwc.com/gr/en/publications/assets/global-top-100-companies-by-market-capitalisation.pdf)
 - [AlphaSense – 2026年市值最大公司](https://www.alpha-sense.com/largest-companies-by-market-cap/)
 - [Gulf News – 市值前十名公司（2025年）](https://gulfnews.com/business/top-10-companies-with-the-largest-market-cap-1.500184797)

@@ -20,7 +20,7 @@ The shift over the past decade has been dramatic — a near-total dominance by U
 ### 📊 Then vs. Now: Top 10 by Market Cap
 
 | Rank | **2015** | Market Cap | **2026** | Market Cap |
-|------|----------|------------|----------|------------|
+| ------ | ---------- | ------------ | ---------- | ------------ |
 | 1 | Apple | ~$650B | **NVIDIA** | ~$4.7T |
 | 2 | Microsoft | ~$346B | **Alphabet (Google)** | ~$4.3T |
 | 3 | Google | ~$325B | **Apple** | ~$4.3T |
@@ -54,6 +54,7 @@ The #1 company in 2015 (Apple) had a market cap of ~$650B. Today, NVIDIA leads w
 ---
 
 **References:**
+
 - [PwC Global Top 100 Companies Report](https://www.pwc.com/gr/en/publications/assets/global-top-100-companies-by-market-capitalisation.pdf)
 - [AlphaSense – Largest Companies by Market Cap 2026](https://www.alpha-sense.com/largest-companies-by-market-cap/)
 - [Gulf News – Top 10 Companies by Market Cap (2025)](https://gulfnews.com/business/top-10-companies-with-the-largest-market-cap-1.500184797)

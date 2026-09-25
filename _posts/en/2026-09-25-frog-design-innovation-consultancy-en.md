@@ -340,7 +340,7 @@ That's why its history goes from **Sony → Apple → UX → software → strate
 
 And if you're asking because you're thinking **"how could an AI-native company recreate frog's business model, but with 10–100× more leverage?"** — that's a much more interesting question. The answer is basically **frog's multidisciplinary project team → agentic product team**, with humans concentrated on taste, architecture, client trust, and high-level decisions.
 
-### References:
+### References
 
 * [frog — Our History](https://www.frog.co/culture?utm_source=chatgpt.com)
 * [frog — Services](https://www.frog.co/services?utm_source=chatgpt.com)

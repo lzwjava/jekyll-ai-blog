@@ -42,7 +42,7 @@ Post-crackdown, Yuanfudao pivoted its business model toward AI-powered learning 
 **Summary Table:**
 
 | Year | Valuation | Key Event |
-|------|-----------|-----------|
+| ------ | ----------- | ----------- |
 | 2017 | ~$1B | Series E, unicorn milestone |
 | 2018 | ~$3B | Tencent-led round |
 | Mar 2020 | $7.8B | COVID-driven surge |
@@ -51,6 +51,7 @@ Post-crackdown, Yuanfudao pivoted its business model toward AI-powered learning 
 | Jul 2021+ | Unknown / likely much lower | China's Double Reduction Policy |
 
 **References:**
+
 - [Yuanfudao — Sacra](https://sacra.com/c/yuanfudao)
 - [Tencent-backed Yuanfudao seeks $20B valuation — Advisor Perspectives](https://www.advisorperspectives.com/articles/2021/02/25/tencent-backed-edtech-startup-seeks-funding-at-20-billion-value)
 - [200K Layoffs, $100B Lost — Class Central](https://www.classcentral.com/report/?p=78600)

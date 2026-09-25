@@ -340,7 +340,7 @@ frog 表示，其工作现在涵盖产品、服务、体验、商业模式、品
 
 如果你问这个问题是因为你在想 **"一个 AI 原生公司如何复制 frog 的商业模式，但实现 10 到 100 倍的杠杆效应？"** —— 那是一个更有趣的问题。答案基本上是 **将 frog 的跨学科项目团队转变为代理型产品团队**，由人类专注于品味、架构、客户信任和高级决策。
 
-### 参考资料：
+### 参考资料
 
 * [frog — 我们的历史](https://www.frog.co/culture?utm_source=chatgpt.com)
 * [frog — 服务](https://www.frog.co/services?utm_source=chatgpt.com)

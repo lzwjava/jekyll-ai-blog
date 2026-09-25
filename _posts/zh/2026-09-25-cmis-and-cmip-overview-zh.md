@@ -50,7 +50,7 @@ CMIP还提供了良好的安全性——支持授权、访问控制和安全日�
 可以这样理解：
 
 | | CMIS | CMIP |
-|---|---|---|
+| --- | --- | --- |
 | **角色** | 服务定义（API） | 协议实现（有线格式） |
 | **标准** | ITU-T X.710 / ISO 9595 | ITU-T X.711 / ISO 9596-1 |
 | **定义** | *什么*操作可用 | *如何*传输这些操作 |
@@ -69,6 +69,7 @@ CMIS/CMIP最常用于电信应用程序；在其他领域，SNMP变得更流行�
 ---
 
 **参考：**
+
 - [CMIS – Wikipedia](https://en.wikipedia.org/wiki/Common_Management_Information_Service)
 - [CMIP – Wikipedia](https://en.wikipedia.org/wiki/Common_Management_Information_Protocol)
 - [RFC 1189 – CMOT和CMIP (IETF)](https://www.rfc-editor.org/rfc/rfc1189.html)
