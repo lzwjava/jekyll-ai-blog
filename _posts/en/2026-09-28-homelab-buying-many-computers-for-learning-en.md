@@ -14,6 +14,7 @@ Question: Are there people on the internet who do this — buying many computers
 Answer: Yes, absolutely — it's a huge, well-established hobby with active communities. This is generally called a "**homelab**."
 
 **Where people share this**
+
 - **r/homelab** on Reddit — a large community (roughly 450K-800K+ members depending on the source) where people share their setups, from a single Raspberry Pi to full server racks.It's an online community for DevOps engineers and programmers, established in 2012, with both a forum and a live chat via an associated Discord server.
 - **r/selfhosted** — focused more on the software side (running your own services instead of using cloud providers).
 - **r/DataHoarder** — for storage-heavy setups (NAS, backups).
@@ -28,6 +29,7 @@ As one community member summarized it: a homelab can be as simple as a Raspberry
 So your instinct — buy a bunch of cheap/used machines, don't be afraid to break them, and learn by doing (Docker, Kubernetes, OpenWrt, etc.) — is exactly how a large chunk of this community operates.
 
 References:
+
 - [r/homelab community overview](https://thehiveindex.com/communities/r-homelab)
 - [Homelab user setup example (Tildes)](https://tildes.net/user/oxtyped)
 - [r/homelab "New Users Start Here" guide](https://nyc1.lr.ggtyler.dev/r/homelab/comments/15jt90s/new_rhomelab_users_start_here)

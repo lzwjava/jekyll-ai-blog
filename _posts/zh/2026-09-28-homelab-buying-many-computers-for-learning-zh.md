@@ -29,6 +29,7 @@ Answer: 有的，绝对有——这是一个规模非常大且相当成熟的爱
 所以说，你的想法——买一堆便宜的/二手机器，不怕拆坏它们，然后边做边学（Docker、Kubernetes、OpenWrt 等）——恰恰就是这个社区中一大部分人的做法。
 
 参考链接：
+
 - [r/homelab 社区概述](https://thehiveindex.com/communities/r-homelab)
 - [Homelab 用户搭建示例（Tildes）](https://tildes.net/user/oxtyped)
 - [r/homelab “新手从这里开始”指南](https://nyc1.lr.ggtyler.dev/r/homelab/comments/15jt90s/new_rhomelab_users_start_here)
