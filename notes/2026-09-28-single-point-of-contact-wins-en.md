@@ -16,17 +16,20 @@ Answer:
 Yes, this is generally a sound and common collaboration model, for a few practical reasons:
 
 **Why a single point of contact works well**
+
 - **Consistency**: One person accumulates context over time — they understand what's been tried, what failed, and why. Splitting this across multiple people causes knowledge fragmentation and repeated mistakes.
 - **Faster iteration**: Prompt engineering is inherently iterative (write → test → adjust). A single owner can make quick calls without needing to sync with teammates first, which speeds up the feedback loop with your consultancy.
 - **Clear accountability**: When something breaks or works, you know who to talk to. Diffused ownership tends to create "I thought someone else was handling that" gaps.
 
 **On the "50/50 work split" idea**
 A 50/50 split of *effort* isn't really the same axis as having one point of contact — you can have one dedicated contact who still divides actual tasks evenly with your team. What matters more than an even split is:
+
 - **Clarity of ownership** (who's the decision-maker on the client side), not headcount
 - **Engagement level** — does that person actually show up, test things, give feedback promptly
 
 **Does it "show more commitment"?**
 Having one committed, responsive point of contact is usually a *better* signal of commitment than having multiple people loosely involved, because:
+
 - It shows the client has prioritized the project enough to assign real ownership
 - It avoids the common failure mode where "shared responsibility" becomes "no one's responsibility"
 

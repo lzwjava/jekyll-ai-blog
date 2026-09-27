@@ -27,6 +27,7 @@ Yes — but the reason isn't "their brain is more wire-able," it's more mundane:
 **Bottom line:** the "great advantage" of the 15-year-old grinder is mostly accumulated hours + a longer runway, not a fundamentally more plastic brain. An adult starting later loses some raw processing-speed edge and free time, but keeps essentially full capacity to learn, and can close most or all of the gap with consistent deliberate practice.
 
 References:
+
 - [Gooijers et al., neuroplasticity across the lifespan (preprint)](https://documentserver.uhasselt.be/bitstream/1942/44769/1/Gooijers_journal_pre_proof.pdf)
 - [Learning New Skills as You Age — LiveUp](https://www.liveup.org.au/articles/learning-new-skills-as-you-age)
 - [Learning New Skills in Your 50s, 60s, and Beyond — Willingness](https://willingness.com.mt/?p=29332)

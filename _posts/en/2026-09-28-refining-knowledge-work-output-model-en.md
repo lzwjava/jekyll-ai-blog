@@ -14,6 +14,7 @@ Question: Is it accurate to say that the baseline information a person needs to 
 Answer: That's a reasonable first approximation, but it collapses a few distinct things that are worth separating.
 
 **Where the idea holds up:**
+
 - There is a real distinction between *threshold knowledge* (what you must already know or acquire to be competent — onboarding knowledge, domain fundamentals, tacit know-how) and *flow* (the information you generate, transform, and pass on while actually doing the job).
 - Framing output as a function of both volume and significance is intuitive: someone who writes one report a year that redirects company strategy has "produced" more than someone who writes fifty routine status updates, even though the latter has higher volume.
 

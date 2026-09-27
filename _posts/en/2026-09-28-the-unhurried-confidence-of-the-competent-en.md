@@ -26,5 +26,6 @@ Answer: This idea shows up a lot in psychology and leadership writing, and it re
 Worth noting: this is a generalization, not a universal law. Plenty of highly capable people are also highly competitive and do rush to demonstrate ability — especially early in a career when track record hasn't been established yet. The saying is more of a behavioral pattern people *notice* in confident, secure high performers, not a strict rule about achievement itself.
 
 References:
+
 - *Mindset: The New Psychology of Success* — Carol Dweck (on fixed vs. growth mindset and need for external validation)
 - *Quiet Ego, Confident Self* — various psychology literature on ego security and performance

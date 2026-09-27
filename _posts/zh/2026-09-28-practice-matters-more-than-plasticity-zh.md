@@ -27,6 +27,7 @@ type: note
 **总结：** 15岁开始刷题者的“巨大优势”主要来自积累的练习时间加上更长的准备周期，而非根本上更可塑的大脑。较晚起步的成年人会失去一些原始处理速度优势和空闲时间，但基本保留了完全的学习能力，并且通过持续的刻意练习可以缩小大部分甚至全部差距。
 
 参考文献：  
+
 - [Gooijers et al., 跨生命周期的神经可塑性（预印本）](https://documentserver.uhasselt.be/bitstream/1942/44769/1/Gooijers_journal_pre_proof.pdf)  
 - [随着年龄增长学习新技能 — LiveUp](https://www.liveup.org.au/articles/learning-new-skills-as-you-age)  
 - [在50岁、60岁及以后学习新技能 — Willingness](https://willingness.com.mt/?p=29332)  

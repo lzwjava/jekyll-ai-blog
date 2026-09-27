@@ -22,6 +22,7 @@ Answer: It's understandable logic, but it usually backfires. Here's why:
 - **Consistency beats "listening to tiredness" as a strategy.** Sleep hygiene works best when it is practiced consistently rather than only on difficult nights. A pattern of "stay up until wrecked, then crash" tends to produce a rolling, shifting schedule (like mild jet lag you give yourself), which makes chronic sleep deprivation worse, not better.
 
 **So what actually helps recovering from sleep deprivation:**
+
 1. Pick a fixed wake-up time and keep it every day, even after a bad night.
 2. Go to bed earlier than usual for a few nights to pay down "sleep debt," rather than staying up until collapse.
 3. Get bright light exposure soon after waking — this is what actually resets your circadian clock, more than tiredness does.
@@ -29,6 +30,7 @@ Answer: It's understandable logic, but it usually backfires. Here's why:
 5. If you're catastrophically sleep-deprived (dangerous drowsiness, microsleeps while driving, etc.), sleep as soon as safely possible rather than waiting — but as an ongoing strategy, "wait until exhausted" tends to entrench irregular sleep rather than fix it.
 
 References:
+
 - [Sleep hygiene tips](https://evri-delivery.blogto.com/how-to-have-better-sleep-hygiene)
 - [Sleep hygiene overview](https://acibademinternational.com/?p=101203)
 - [What is Sleep Hygiene](https://zomasleep.com/blog/what-is-sleep-hygiene)
