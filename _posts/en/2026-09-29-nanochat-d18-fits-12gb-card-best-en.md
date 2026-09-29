@@ -14,6 +14,7 @@ nanochat is a much better fit for "biggest model on this 12 GB card" — and it'
 ## Why nanochat is more memory-efficient
 
 It uses a fundamentally different stack than nanoGPT:
+
 - **fp32 master weights + bf16 compute** (better precision than nanoGPT's pure-bf16 option)
 - **Muon optimizer** (1 momentum buffer instead of AdamW's 2) — halves optimizer memory
 - **Flash Attention 3** — never materializes the O(T²) attention matrix
@@ -22,7 +23,7 @@ It uses a fundamentally different stack than nanoGPT:
 ## What I measured (empirically, on your 4070)
 
 | nanochat depth | params | VRAM (bs=1, seq 1024) | verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | d12 | 286M | 3.4 GB | ✅ |
 | d16 | 537M | 6.7 GB | ✅ |
 | **d18** | **702M** | **8.9 GB** | ✅ **fits** |
@@ -32,7 +33,7 @@ It uses a fundamentally different stack than nanoGPT:
 ## The comparison you asked about
 
 | Approach | Max params on 12 GB | Quality note |
-|---|---|---|
+| --- | --- | --- |
 | nanoGPT fp32 | ~350–400M | safe |
 | nanoGPT bf16 (needs code change) | ~760M | pure bf16, precision risk |
 | **nanochat** | **~700M (d18)** | fp32 master + Muon + FA — best |

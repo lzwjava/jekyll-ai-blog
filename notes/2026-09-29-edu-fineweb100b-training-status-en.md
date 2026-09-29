@@ -14,7 +14,7 @@ Here's what I found — which configs/models use the `edu_fineweb100B` dataset a
 ## Configs that point at `edu_fineweb100B` (FineWeb-Edu shards)
 
 | Config | Model | Params | Target | Actually trained | Status |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | `train_fineweb_gpt3.py` | GPT-2 124M (L12/H12/C768) | 124M | 19,073 iters ≈ 10B tok | 15,180 iters ≈ **7.9B tok** | ⚠️ stopped early (val 3.026) |
 | `train_gpt2_200m.py` | GPT-2 ~219M (L18/H16/C896) | 219M | 8,000 iters ≈ 4.2B tok | 2,500 iters ≈ **1.3B tok** | ⚠️ stopped early (val 3.459) |
 | `train_gpt2_200m_smoke.py` | same 219M | 219M | 25 iters | smoke test | ✅ done |
@@ -33,6 +33,7 @@ Here's what I found — which configs/models use the `edu_fineweb100B` dataset a
 ## Summary
 
 The `edu_fineweb100B` (140.7B tokens) dataset has been used for:
+
 - **GPT-2 124M** → ~7.9B tokens (incomplete, ~8.6B short of target)
 - **GPT-2 219M** → ~1.3B tokens (incomplete, ~3B short)
 

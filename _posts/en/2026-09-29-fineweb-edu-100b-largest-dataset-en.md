@@ -14,7 +14,7 @@ Here's the full dataset comparison across both projects:
 ## Datasets in `/mnt/data/nanoGPT` (here)
 
 | Dataset | Location | Size | Format |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **FineWeb-Edu 100B** | `data/fineweb/edu_fineweb100B/` | **263 GB** | 1408 × 191 MB `.npy` shards ⬅ largest |
 | FineWeb text | `data/fineweb/train_fineweb.old.txt` | 16 GB | raw text |
 | FineWeb tokens | `data/fineweb/train.bin` | 6.9 GB | tokenized uint16 |
@@ -29,7 +29,7 @@ Here's the full dataset comparison across both projects:
 ## Related datasets elsewhere in `/mnt/data`
 
 | Dataset | Size |
-|---|---|
+| --- | --- |
 | `bilingual-gpt/` (used by `out-bilingual`) | 25 GB — `mixed.txt` 11 GB text, plus 7.5 GB + 3.3 GB jsonl shards |
 | `sec-edgar-gpt/` | 985 MB |
 | `sec-edgar-gpt-124m/` | 955 MB |

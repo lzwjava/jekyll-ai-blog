@@ -14,6 +14,7 @@ I checked all the training runs in the project. Here's the summary:
 ## Largest model (by parameters)
 
 **`out-bilingual`** — the `~232M` param model (L18/H16/C896, vocab 65536)
+
 - `iter_num`: 4500 / 5000 → **~2.36B tokens** seen (~6 epochs over 434M-token corpus)
 - `best_val_loss`: 4.368
 - Checkpoint file: **2.7 GB** (largest on disk)
@@ -23,13 +24,14 @@ I checked all the training runs in the project. Here's the summary:
 ## Largest run by tokens trained
 
 **`out-github-code-124m`** — 124M model, fully completed:
+
 - `iter_num`: 427000 / 427000 → **~14B tokens** (complete)
 - `best_val_loss`: 3.466
 
 ## Full comparison
 
 | Run | Params | Tokens seen | Progress | val_loss |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **out-bilingual** | ~232M | 2.36B | 4500/5000 | 4.368 |
 | **out-gpt2-200m** | ~219M | 1.31B | 2500/8000 | 3.459 |
 | **out-fineweb-gpt3** | 124M | 7.86B | 15000/19073 | 3.026 |

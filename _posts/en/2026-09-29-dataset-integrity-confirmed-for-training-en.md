@@ -14,7 +14,7 @@ Yes, it's OK — I verified the dataset. It's a well-formed, ready-to-train corp
 ## Dataset integrity check ✅
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Location | `data/fineweb/edu_fineweb100B/` |
 | Shards | **1408** = 1407 train + 1 val |
 | Total tokens | **~140.7B** |
@@ -31,6 +31,7 @@ shard_dir = '.../edu_fineweb100B'
 _train_shards = glob('edufineweb_train_*.npy')   # 1407 shards
 _val_shards  = glob('edufineweb_val_*.npy')      # 1 shard (100M tokens)
 ```
+
 Each step samples a random shard and loads `block_size` contiguous tokens — the standard nanoGPT sharded-loader flow. This is exactly what the `train_fineweb_gpt3.py`, `train_fineweb.py`, and `train_gpt2_200m.py` configs already used.
 
 ## Two small notes (not blockers)

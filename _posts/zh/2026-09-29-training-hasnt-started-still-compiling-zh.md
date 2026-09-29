@@ -12,6 +12,7 @@ type: note
 ## 发现
 
 有 2 个 tmux 会话：
+
 - `0` — 运行 `mihomo`（你的代理/VPN，仅流量日志，无关）
 - `1` — 训练运行
 
@@ -39,6 +40,7 @@ W0929 15:21:26 ... Not enough SMs to use max_autotune_gemm mode
 一切正常——只需等待。编译完成后，进度条会出现，第一个步骤开始。第一步输出将显示 `step ... loss ...`，随后开始训练。
 
 如果需要，我可以通过以下方式加快未来启动速度：
+
 1. 设置一个持久的 `TORCHINDUCTOR_CACHE_DIR`（例如在 `/mnt/data/nanochat-cache/` 下），使编译缓存可复用。
 2. 禁用/减少自动调优（`max_autotune=False` / 关闭坐标下降）以缩短首次编译时间，代价是吞吐量降低几个百分点。
 

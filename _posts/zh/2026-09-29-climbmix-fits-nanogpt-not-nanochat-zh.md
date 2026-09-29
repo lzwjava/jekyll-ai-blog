@@ -14,7 +14,7 @@ type: note
 ## `nvidia/Nemotron-ClimbMix` 到底是什么
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 内容 | 400B个token的"ClimbMix"（NVIDIA的高质量教育过滤语料库） |
 | 分词方式 | **GPT-2 tokenizer**（词汇量50257——与nanoGPT相同！） |
 | 许可协议 | **CC-BY-NC-4.0**（仅限非商业/研究用途） |
@@ -30,6 +30,7 @@ type: note
 ## 重要部分：nanochat*已经*在使用这个数据集
 
 nanochat的默认配置 `karpathy/climbmix-400b-shuffle` **与NVIDIA ClimbMix 400B是同一个数据集**，只是：
+
 - 重新打乱并打包为**原始文本parquet**（nanochat所需格式）
 - **采用MIT许可**（相对于NVIDIA的CC-BY-NC）
 - 存储高效（约17 GB，170个分片，而不是2 TB的JSONL）
@@ -39,7 +40,7 @@ nanochat的默认配置 `karpathy/climbmix-400b-shuffle` **与NVIDIA ClimbMix 40
 ## 我的建议
 
 | 目标 | 使用 | 原因 |
-|---|---|---|
+| --- | --- | --- |
 | 在ClimbMix上训练**nanochat** | `karpathy/climbmix-400b-shuffle`（已集成） | 原始文本，MIT许可，高效 |
 | 在ClimbMix上训练**nanoGPT** | `nvidia/Nemotron-ClimbMix`（小版=40 GB，完整版=2 TB） | GPT-2词汇量匹配，附带现成配置 |
 | 保持最简单 | 你现有的**FineWeb-Edu 100B**（263 GB本地） | 已下载，无许可问题 |

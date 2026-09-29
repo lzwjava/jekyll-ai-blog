@@ -16,7 +16,7 @@ The smoke run OOM'd — and that actually revealed the real answer to your quest
 My earlier probe was misleading — I had manually cast the model to bf16. But this repo's `train.py` keeps weights in **fp32** (I confirmed: existing checkpoints store `torch.float32` weights). With fp32, the real memory is:
 
 | 760M component | Size |
-|---|---|
+| --- | --- |
 | Weights (fp32) | 3.06 GB |
 | Gradients (fp32) | 3.06 GB |
 | AdamW states m+v (fp32) | 6.06 GB |
@@ -27,7 +27,7 @@ The card has **only ~11.4 GB usable** (12 GB minus desktop). So even at batch si
 ## The real ceiling on this RTX 4070 (12 GB)
 
 | Model | Params | Status (fp32) |
-|---|---|---|
+| --- | --- | --- |
 | ~219M (existing gpt2-200m) | 219M | ✅ fits @ bs=4 (~8 GB) |
 | ~350M (E=1024, L=24) | ~353M | ✅ fits @ bs=2 (~8.8 GB) |
 | ~400M (E=1024, L=28) | ~403M | ✅ fits @ bs=2 (~10 GB) |
@@ -40,11 +40,13 @@ The card has **only ~11.4 GB usable** (12 GB minus desktop). So even at batch si
 ## The one way to make 760M fit: cast weights to bf16
 
 If I add bf16 weights (a common nanoGPT mod), 760M becomes:
+
 - static = 4.7 GB (bf16 weights + bf16 AdamW states) + ~2.3 GB activations @ bs=2 ≈ **7 GB** → fits with room.
 
 The caveat: bf16 optimizer states are slightly less precise than fp32 master weights — usually fine for pretraining, occasionally a touch worse final loss.
 
 ## What I've already done
+
 - ✅ Fixed the broken `shard_dir` path in `train_fineweb_760m.py`
 - ✅ Created `config/train_fineweb_760m_smoke.py` (but it OOM'd at bs=2, as expected for fp32)
 

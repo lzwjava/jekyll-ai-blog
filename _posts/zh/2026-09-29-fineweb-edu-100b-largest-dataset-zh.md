@@ -14,7 +14,7 @@ type: note
 ## `/mnt/data/nanoGPT` 中的数据集（当前目录）
 
 | 数据集 | 位置 | 大小 | 格式 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **FineWeb-Edu 100B** | `data/fineweb/edu_fineweb100B/` | **263 GB** | 1408 × 191 MB `.npy` 分片 ⬅ 最大 |
 | FineWeb 文本 | `data/fineweb/train_fineweb.old.txt` | 16 GB | 原始文本 |
 | FineWeb 令牌 | `data/fineweb/train.bin` | 6.9 GB | 已标记化的 uint16 |
@@ -29,7 +29,7 @@ type: note
 ## `/mnt/data` 中其他相关数据集
 
 | 数据集 | 大小 |
-|---|---|
+| --- | --- |
 | `bilingual-gpt/`（由 `out-bilingual` 使用） | 25 GB — `mixed.txt` 占 11 GB 文本，外加 7.5 GB + 3.3 GB jsonl 分片 |
 | `sec-edgar-gpt/` | 985 MB |
 | `sec-edgar-gpt-124m/` | 955 MB |

@@ -12,6 +12,7 @@ type: note
 ## Findings
 
 There are 2 tmux sessions:
+
 - `0` — running `mihomo` (your proxy/VPN, just traffic logs, irrelevant)
 - `1` — the training run
 
@@ -39,6 +40,7 @@ Everything before that is just config printout. Since then it's inside `torch.co
 Nothing is wrong — just wait it out. The progress bar will appear once compilation finishes and the first step starts. First-step output will show `step ... loss ...` and then it's training.
 
 If you want, I can help speed up future startups by:
+
 1. Setting a persistent `TORCHINDUCTOR_CACHE_DIR` (e.g. under `/mnt/data/nanochat-cache/`) so the compile cache is reusable.
 2. Disabling/reducing autotune (`max_autotune=False` / coordinate-descent off) to cut first-compile time at the cost of a few % throughput.
 

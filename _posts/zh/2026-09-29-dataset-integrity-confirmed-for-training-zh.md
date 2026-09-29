@@ -14,7 +14,7 @@ type: note
 ## 数据集完整性检查 ✅
 
 | 属性 | 值 |
-|---|---|
+| --- | --- |
 | 位置 | `data/fineweb/edu_fineweb100B/` |
 | Shards | **1408** = 1407 train + 1 val |
 | 总 tokens | **~140.7B** |

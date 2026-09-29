@@ -14,7 +14,7 @@ Good find — but here's the key insight: **this dataset is GPT-2-tokenized, so 
 ## What `nvidia/Nemotron-ClimbMix` actually is
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Content | 400B-token "ClimbMix" (NVIDIA's high-quality edu-filtered corpus) |
 | Tokenization | **GPT-2 tokenizer** (vocab 50257 — same as nanoGPT!) |
 | License | **CC-BY-NC-4.0** (non-commercial / research only) |
@@ -30,6 +30,7 @@ Good find — but here's the key insight: **this dataset is GPT-2-tokenized, so 
 ## The important part: nanochat *already* uses this dataset
 
 nanochat's default `karpathy/climbmix-400b-shuffle` **is the same NVIDIA ClimbMix 400B**, just:
+
 - re-shuffled and repackaged as **raw-text parquet** (what nanochat needs)
 - **MIT licensed** (vs NVIDIA's CC-BY-NC)
 - stored efficiently (~17 GB for 170 shards, not 2 TB of JSONL)
@@ -39,7 +40,7 @@ So for nanochat there's **no reason to switch** — it already uses ClimbMix, in
 ## My recommendation
 
 | Goal | Use | Why |
-|---|---|---|
+| --- | --- | --- |
 | Train **nanochat** on ClimbMix | `karpathy/climbmix-400b-shuffle` (already wired) | raw text, MIT, efficient |
 | Train **nanoGPT** on ClimbMix | `nvidia/Nemotron-ClimbMix` (small = 40 GB, or full = 2 TB) | GPT-2 vocab matches, ships a ready config |
 | Stay simplest | your existing **FineWeb-Edu 100B** (263 GB local) | already downloaded, no license issues |

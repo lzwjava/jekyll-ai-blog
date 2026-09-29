@@ -12,6 +12,7 @@ type: note
 完成 — 下载已终止。以下是当前状态及可在终端中运行的命令。
 
 ## 当前状态
+
 - ✅ **Tokenizer** 已训练（32k 词汇量），位于 `/mnt/data/nanochat-cache/tokenizer/`
 - 📦 **77/170 train shards + val** 已下载（约 6.9 GB），位于 `/mnt/data/nanochat-cache/base_data_climbmix/`
 - ✅ **d18 (702M) 已验证** 可适配：`bs=2, seq=1024` → 9.0 GB 峰值，约 8,100 tok/s，57% MFU
@@ -19,12 +20,14 @@ type: note
 ## 终端命令
 
 **1. （可选）完成下载** — 从第 77 个继续，跳过已存在的文件：
+
 ```bash
 cd /mnt/data/nanochat && export NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache
 ./.venv/bin/python -m nanochat.dataset -n 170 -w 2
 ```
 
 **2. 训练 d18 (702M) — 已验证的最大配置：**
+
 ```bash
 cd /mnt/data/nanochat && export NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache
 ./.venv/bin/python -m scripts.base_train \
@@ -33,6 +36,7 @@ cd /mnt/data/nanochat && export NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache
 ```
 
 **长时间后台运行**（推荐 — 3.9B tokens ≈ 5.6 天）：
+
 ```bash
 cd /mnt/data/nanochat && export NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache
 nohup ./.venv/bin/python -m scripts.base_train \
@@ -43,6 +47,7 @@ nohup ./.venv/bin/python -m scripts.base_train \
 ```
 
 ## 重要说明
+
 - **`--save-every=500`** 启用周期性 checkpoint（默认仅在结束时保存 — 对于 5.6 天的运行不利）。
 - 稍后使用 **`--resume-from-step=<step>`** 恢复（checkpoint 保存在 `/mnt/data/nanochat-cache/base_checkpoints/d18/`）。
 - **不要**使用 `bs=4`（OOM）或在 bs=2 时使用 `--max-seq-len=2048`（可能 OOM）。
@@ -50,6 +55,7 @@ nohup ./.venv/bin/python -m scripts.base_train \
 - `--tracker=none` 跳过 wandb/mlflow（仓库中有一个旧的 `mlflow.db`，若有需要可启用 mlflow）。
 
 使用以下命令监控进度：
+
 ```bash
 tail -f /mnt/data/nanochat-cache/train-d18.log
 ```
