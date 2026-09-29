@@ -18,13 +18,16 @@ Training is now running. Session 1 has passed compilation and is training.
 - LR still warming up (`lrm: 0.53`, ramping toward 1.0)
 
 ### Throughput
+
 - **~17.9k tok/sec**, **~127% bf16 MFU** (over 100% because it's measured against bf16 peak FLOPS while using FP8/FA3 — this is healthy)
 - **~58.4 s/step** (512 grad-accum micro-batches per step)
 
 ### ETA
+
 - ~**60 hours** (`eta: 3601m`) for the full 3712 steps.
 
 ### Everything looks normal
+
 - Loss curve is behaving as expected (steep early decline).
 - No errors, `pq: 0 rg: N` counters incrementing normally.
 
