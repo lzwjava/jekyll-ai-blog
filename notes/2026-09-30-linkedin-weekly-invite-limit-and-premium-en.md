@@ -14,6 +14,7 @@ Question: How does LinkedIn's weekly connection request limit work, and does Pre
 Answer:
 
 **How the limit works**
+
 - LinkedIn doesn't publish an official number. The practical weekly limit is around 100 invites per rolling seven-day window, and it's a weekly cap, not a daily one.
 - The window is not a calendar week. It resets seven days after your first request.
 - When you hit it, you'll see the message "You've reached the weekly invitation limit."
@@ -23,6 +24,7 @@ Answer:
 - Hitting the limit once isn't a penalty. Repeatedly triggering it, or pairing it with bot-like behavior, can lead to temporary restrictions or permanent bans.
 
 **Does Premium help?**
+
 - Mostly no. Premium and Sales Navigator do not meaningfully raise the weekly invitation cap. The limit depends on your account's reputation, not on your subscription.
 - Some sources say paid plans or high-SSI accounts can reach about 150–250 per week, but these are behavioral ceilings, not guaranteed quotas.
 - What Premium does add is the following:
@@ -31,6 +33,7 @@ Answer:
   - More personalized connection notes. Free accounts often get a much smaller allowance of personalized invites.
 
 **Practical tips**
+
 - Send roughly 15–25 per day, and keep your weekly total under about 80–100.
 - Personalize requests and target people who are likely to accept.
 - Engage first by viewing profiles, following, or commenting before connecting.
@@ -40,6 +43,7 @@ Answer:
 The figures above come from third-party sources, not LinkedIn, so exact numbers vary by account.
 
 References:
+
 - [LinkedIn Connection Request Limit – Salesforge](https://www.salesforge.ai/blog/linkedin-connection-request-limit)
 - [LinkedIn Weekly Connection Request Limit (2026) – Konnector](https://konnector.ai/linkedin-weekly-connection-request-limit-2026/)
 - [LinkedIn Connection Request Limits 2026 – FirstSales](https://firstsales.io/blog/linkedin-connection-request-limits-2026/)

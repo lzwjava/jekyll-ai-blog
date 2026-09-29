@@ -59,7 +59,7 @@ Participation rate:
 
 That is plausible because not everyone continues through academic high school.
 
-### My estimate:
+### My estimate
 
 | Group                     |        Approx people |
 | ------------------------- | -------------------: |

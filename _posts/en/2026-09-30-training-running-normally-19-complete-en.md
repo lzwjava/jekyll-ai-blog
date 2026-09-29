@@ -14,7 +14,7 @@ There's no tmux session named `a` — I found sessions `0` and `1`, both showing
 **Training progress: ~19.4% complete**
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Step | 721 / 3,712 (19.42%) |
 | Loss | 3.0204 (bouncing around 2.9–3.05) |
 | LR multiplier | 1.00 |
