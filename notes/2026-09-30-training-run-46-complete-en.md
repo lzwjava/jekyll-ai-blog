@@ -12,6 +12,7 @@ type: note
 There's no tmux session named `a` — the sessions are `0` (window `mihomo`) and `1` (window `./.venv/bin/python`). Both currently show the same training log. Here's the current progress from the latest step:
 
 **Current status:**
+
 - **Step:** 01708 / 03712 (**46.01%**)
 - **Loss:** 2.6921 (recent range ~2.62–2.75)
 - **LR multiplier:** 0.84
