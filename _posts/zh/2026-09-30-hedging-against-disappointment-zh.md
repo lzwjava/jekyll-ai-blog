@@ -29,5 +29,6 @@ type: note
 所以目标不是降低对生活的期望，而是更准确地期望，并在现实与计划不符时保持灵活。
 
 参考资料：
+
 - [斯多葛主义——斯坦福哲学百科全书](https://plato.stanford.edu/entries/stoicism/)
 - [防御性悲观——维基百科](https://en.wikipedia.org/wiki/Defensive_pessimism)

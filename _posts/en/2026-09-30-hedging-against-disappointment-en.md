@@ -29,5 +29,6 @@ A more useful distinction is between **outcomes** and **effort or standards**:
 So the goal isn't to expect less from life, but to expect more accurately and stay flexible when reality differs from your plan.
 
 References:
+
 - [Stoicism – Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/stoicism/)
 - [Defensive pessimism – Wikipedia](https://en.wikipedia.org/wiki/Defensive_pessimism)
