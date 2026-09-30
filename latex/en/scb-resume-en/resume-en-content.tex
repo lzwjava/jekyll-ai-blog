@@ -1,0 +1,97 @@
+% Configure page margins
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+\colorlet{awesome}{awesome-red}
+
+% Set section highlight
+\setbool{acvSectionColorHighlight}{true}
+
+\usepackage{fontspec} % 允許設定字體
+\usepackage{xeCJK} % 分開設置中英文字型
+\usepackage{ifthen} % For conditional logic
+
+% ====================
+% FONT CONFIGURATION
+% ====================
+% Define a flag to switch between different font sets
+% Set to 'macos' for macOS, 'linux' for Linux, 'windows' for Windows
+\newcommand{\fontsystem}{macos}
+
+% Font definitions for different systems
+\ifthenelse{\equal{\fontsystem}{macos}}{
+    % macOS fonts
+    \newcommand{\cjkmainfont}{PingFang SC}
+    \newcommand{\cjksansfont}{PingFang SC}
+    \newcommand{\cjkmonofont}{PingFang SC}
+    \newcommand{\englishfont}{Times New Roman}
+}{
+    \ifthenelse{\equal{\fontsystem}{linux}}{
+        % Linux fonts (common alternatives)
+        \newcommand{\cjkmainfont}{Noto Sans CJK SC}
+        \newcommand{\cjksansfont}{Noto Sans CJK SC}
+        \newcommand{\cjkmonofont}{Noto Sans Mono CJK SC}
+        \newcommand{\englishfont}{Liberation Sans}
+    }{
+        % Windows fonts (or fallback)
+        \newcommand{\cjkmainfont}{Microsoft YaHei}
+        \newcommand{\cjksansfont}{Microsoft YaHei}
+        \newcommand{\cjkmonofont}{Microsoft YaHei}
+        \newcommand{\englishfont}{Times New Roman}
+    }
+}
+
+% Apply font settings
+\setCJKmainfont{\cjkmainfont}
+\setCJKsansfont{\cjksansfont}
+\setCJKmonofont{\cjkmonofont}
+\setmainfont{\englishfont}
+\setromanfont{\englishfont}
+\setmonofont{\englishfont}
+
+\XeTeXlinebreaklocale "zh" % 針對中文自動換行
+\linespread{1.4}\selectfont % 行距
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,right]{./latex/profile}
+\name{Zhiwei Li}{}
+\position{AI Full Stack Engineer}
+\address{Guangzhou, China}
+
+\mobile{(+86) 132-6163-0925}
+\email{lzwjava@gmail.com}
+\homepage{lzwjava.com}
+\github{lzwjava}
+\linkedin{lzwjava}
+
+\quote{Truth}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Header
+\makecvheader[C]
+
+% Footer
+\makecvfooter{\today}{Zhiwei Li~~~·~~~Résumé}{\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%-------------------------------------------------------------------------------
+\input{summary.tex}
+\input{experience.tex}
+\input{education.tex}
+\input{corporateprojects.tex}
+\input{personalprojects.tex}
+\input{blogposts.tex}
+\input{papers.tex}
+\input{skills.tex}
+\input{tools.tex}
+\input{knowledge.tex}
+\input{spiritmindset.tex}
+\input{certificates.tex}
+\input{links.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
