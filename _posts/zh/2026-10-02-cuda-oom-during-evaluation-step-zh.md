@@ -37,9 +37,11 @@ File ".../nanochat/gpt.py", line 515, in forward
 ## 可能的修复
 
 1. **减少内存碎片**（错误信息本身也建议这样做）：
+
    ```bash
    export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
    ```
+
 2. **降低评估内存**——例如限制 `max_per_task`（`--core_metric_max_per_task` 标志），减小评估批大小，或对评估使用梯度/激活卸载。
 3. **在评估前释放内存**——评估运行时训练状态（优化器/激活值）仍然驻留；评估虽然会在 `torch.no_grad()`（确实如此）下运行，但模型权重和训练缓冲区可能仍会竞争资源。考虑在 CPU 或独立进程中运行评估。
 

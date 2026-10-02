@@ -22,7 +22,7 @@ type: note
 来自 `patches.txt`：
 
 | 补丁 | 模块 (GUID) | 修复内容 |
-|---|---|---|
+| --- | --- | --- |
 | `Replace 64GB MMIO region with complete use of 512GB physical address space (Skylake/Kaby Lake/Coffee Lake)` | PciHostBridge `8D6756B9-...` | 将 MMIO 孔径从默认的 16–32GB（或 64GB）窗口扩展到完整的 39 位 / 512GB 范围 |
 | `Remove <64GB BAR size limit (Skylake/Kaby Lake/Coffee Lake)` | PciBus `3C1DE39F-...` | 移除固件的 64GB BAR 上限 |
 | `Don't downgrade 64-bit BARs to 32-bit` | PciBus `3C1DE39F-...` | 阻止固件将大容量 64-bit BAR 强行压缩到狭窄的 32-bit / 4GB 窗口——这是“Insufficient PCI Resources”最常见直接原因 |

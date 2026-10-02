@@ -14,7 +14,7 @@ Yes — there **is** a Tesla M40 in that machine, but it's **not powered properl
 **What I found on `192.168.1.34`:**
 
 | Item | Result |
-|------|--------|
+| ------ | -------- |
 | GPU | `NVIDIA GM200GL [Tesla M40]` at `0000:01:00.0` ✅ |
 | Driver | 580.178.04 loaded (kernel modules `nvidia`, `nvidia_uvm`, etc.) |
 | `nvidia-smi` | ❌ `No devices were found` |
@@ -32,6 +32,7 @@ The card is detected on the PCIe bus and the driver enumerates it (`Model: Tesla
 **Important note about the Tesla M40:** it does **not** use a standard PCIe 8-pin GPU cable. It uses an **8-pin EPS (CPU) power connector** (250W card). This is the most common reason for exactly this error on M40s — people plug in a PCIe 8-pin (or leave it unplugged) and the card reports "power cables not connected."
 
 **To fix:**
+
 1. Power off the machine.
 2. Connect a proper **EPS 8-pin** cable from the PSU to the M40's power connector (M40 has a single 8-pin EPS connector).
 3. Make sure the PSU can supply ~250W for the card.

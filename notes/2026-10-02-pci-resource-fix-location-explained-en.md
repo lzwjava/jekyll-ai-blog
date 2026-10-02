@@ -22,7 +22,7 @@ This file contains pattern-based patches applied to the AMI Aptio V firmware mod
 From `patches.txt`:
 
 | Patch | Module (GUID) | What it fixes |
-|---|---|---|
+| --- | --- | --- |
 | `Replace 64GB MMIO region with complete use of 512GB physical address space (Skylake/Kaby Lake/Coffee Lake)` | PciHostBridge `8D6756B9-...` | Expands the MMIO aperture from the stock 16–32GB (or 64GB) window up to the full 39-bit / 512GB range |
 | `Remove <64GB BAR size limit (Skylake/Kaby Lake/Coffee Lake)` | PciBus `3C1DE39F-...` | Removes the firmware's 64GB BAR cap |
 | `Don't downgrade 64-bit BARs to 32-bit` | PciBus `3C1DE39F-...` | Stops the firmware from forcing large 64-bit BARs down into the tiny 32-bit/4GB window — the most common direct cause of "Insufficient PCI Resources" |

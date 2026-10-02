@@ -37,9 +37,11 @@ File ".../nanochat/gpt.py", line 515, in forward
 ## Likely fixes
 
 1. **Reduce memory fragmentation** (what the error itself suggests):
+
    ```bash
    export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
    ```
+
 2. **Reduce eval memory** — e.g. limit `max_per_task` (the `--core_metric_max_per_task` flag), reduce eval batch size, or use gradient/activation offloading for eval.
 3. **Free memory before eval** — the training state (optimizer/activations) is still resident when eval runs; eval should run under `torch.no_grad()` (it does) but the model weights + training buffers may be competing. Consider running eval on CPU or a separate process.
 
