@@ -48,6 +48,58 @@ Bought broken GPUs from the second-hand market (**Quadro 401 / 2000 / 4000**, et
 
 ---
 
+## 🖥️ Cheap AI Workstation — Tesla M40 12GB for ~1200 CNY
+
+Built a **12 GB AI workstation for around 1200 CNY (~$165)** using second-hand parts from Xianyu (闲鱼), adding a second CUDA GPU to my home setup alongside the RTX 4070.
+
+**The build:**
+
+| Part | Cost (CNY) | Notes |
+| ------ | -----------: | ------ |
+| Tesla M40 12GB | ~200–300 | Datacenter GPU, Maxwell arch, 250W, passive |
+| MSI Z170A Gaming M5 | ~200–300 | LGA1151, 3× PCIe x16, good BIOS support |
+| Intel i5-6500 / PSU / RAM / case | ~500–700 | Standard ATX parts from the second-hand market |
+| **Total** | **~1000–1300** | **~$140–180 for 12 GB of CUDA compute** |
+
+> The Tesla M40 is a **12 GB GDDR5** card (also available in 24 GB). It uses an **8-pin EPS (CPU) power connector**, not a standard PCIe power cable — a common gotcha. The card is **passive-cooled** and needs forced airflow.
+
+**The breakthrough — BIOS configuration:**
+
+After a lot of trial and error across different motherboards (Huananzhi B75, ASUS A68HM-E, MSI B150M), the key settings that finally made it work on the MSI Z170A Gaming M5 were:
+
+```
+Settings
+  → Advanced
+    → Windows OS Configuration
+      → Windows 10 WHQL Support = Disabled
+```
+
+Additionally, in the BIOS:
+
+- **Above 4G Decoding** = Enabled (required for the M40's large 64-bit BAR)
+- **CSM** = Disabled (pure UEFI mode, needed for proper PCIe resource allocation)
+- Put the M40 in **PCI_E1** (the top x16 slot, directly connected to the CPU)
+
+With these settings, the card initialized successfully — `nvidia-smi` showed the full **11,520 MiB VRAM** (ECC reserves the remaining 512 MiB), and a full-load burn test confirmed **100% utilization, 6.12 TFLOPS FP32, ~90% of theoretical peak**, with temperatures staying at 35–39°C.
+
+**What it means — the impact:**
+
+This is significant. For around **1000–1200 CNY**, you can add **12 GB of CUDA VRAM** to your home lab. That's enough to run:
+
+- **7B–14B LLMs** at Q4–Q8 quantization with reasonable context
+- **27B models** at aggressive quants (IQ1_M, ~6.3 GB) with 4k–8k context
+- **Batch inference, LoRA fine-tuning**, and multi-GPU experiments
+
+The M40 is older (Maxwell, 2015, CC 5.2), so FP16 performance is weak and you need a llama.cpp build compiled with `-DCMAKE_CUDA_ARCHITECTURES=52`. But for the price, it's hard to beat — **~100 CNY per GB of VRAM**.
+
+I'm planning to build several more of these cheap workstations, scaling up distributed inference and training experiments across multiple 12 GB nodes.
+
+![Tesla M40 workstation — the build with MSI Z170A Gaming M5 and a 12 GB M40 GPU](/assets/images/ai-portfolio/m40-workstation.jpg)
+
+![Tesla M40 — nvidia-smi showing 11,520 MiB VRAM, card fully initialized](/assets/images/ai-portfolio/m40-running.jpg)
+
+---
+
 ### 🏋️ Training Run Summary
 
 | # | Model | Framework | Params | Hardware | Steps | Status |
