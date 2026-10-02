@@ -26,6 +26,7 @@ The posting volume isn't the core of the strategy. Moments is where the whole sy
 **5. Event marketing builds the founder's profile.** One example was a Douyin creator's viral reaction after buying a Rolls-Royce from 老纪, which was followed by a "looking for 老纪" meme and a red-envelope campaign. This gave him a recognizable personal brand, so the Moments feed is read as a person's life, not a catalog.
 
 **How to read it critically**
+
 - The numbers (15亿 in sales, 98% posting, 90% referrals) are self-reported or come from marketing case studies, so treat them as claims.
 - The sources are a few years old, so I can't say how the strategy has changed.
 - The model suits a high-ticket, trust-driven product, where an audience of potential buyers tolerates or even likes the flaunting. For an ordinary account, posting 100 times a day mostly gets you deleted.
@@ -34,6 +35,7 @@ The posting volume isn't the core of the strategy. Moments is where the whole sy
 If you meant something more specific by your last line (a joke, a lyric, or a question about how to tone down your own posting), tell me and I'll tailor the answer.
 
 References:
+
 - [案例拆解：豪车毒是如何做私域的？ (Sohu)](https://www.sohu.com/a/559851303_114819)
 - [豪车毒：无4S店，无库存，不见客户，30人团队如何靠私域年销15亿豪车？ (人人都是产品经理)](https://www.woshipm.com/operate/4725523.html)
 - [豪车毒 | 180台手机，9个人做年流水15亿的豪车私域 (Sohu)](https://www.sohu.com/a/476439382_120896413)

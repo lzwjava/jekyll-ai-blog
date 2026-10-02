@@ -16,6 +16,7 @@ type: note
 **选项 1：从 Hugging Face 下载 GGUF 文件**
 
 例如，Gemma 2 9B（指令版）：
+
 ```bash
 cd ~/projects/llama.cpp
 wget -O models/gemma-2-9b-it-Q4_K_M.gguf \
@@ -25,17 +26,20 @@ wget -O models/gemma-2-9b-it-Q4_K_M.gguf \
 **选项 2：从原始 Gemma 转换（如果你有的话）**
 
 如果你已经有来自 Kaggle/Google 的原始 Gemma 模型：
+
 ```bash
 python convert_hf_to_gguf.py --outfile models/gemma-2-9b.gguf /path/to/gemma-model/
 ./build/bin/llama-quantize models/gemma-2-9b.gguf models/gemma-2-9b-Q4_K_M.gguf Q4_K_M
 ```
 
 **然后用 llama-server 运行：**
+
 ```bash
 ./build/bin/llama-server -m models/gemma-2-9b-it-Q4_K_M.gguf --port 8080
 ```
 
 **更小的选择**——Gemma 2 2B 占用更少的 VRAM（Q4 量化下约 2GB）：
+
 ```bash
 wget -O models/gemma-2-2b-it-Q4_K_M.gguf \
   https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf

@@ -41,7 +41,7 @@ Work top-down: system level first, then kernel level.
 **3. Batch vs. real-time inference trade-offs**
 
 | Aspect | Batch / offline | Real-time / online |
-|---|---|---|
+| --- | --- | --- |
 | Goal | Maximize throughput and cost efficiency | Minimize per-request latency (p95/p99) |
 | Batch size | Large, saturates the GPU | Small (1 to a few) or dynamically formed |
 | GPU utilization | High | Often low unless batched cleverly |
@@ -58,6 +58,7 @@ Strategies for the middle ground:
 - **Rule of thumb.** If the SLO is loose (seconds or more), favor large batches. If it is tight (tens of ms), use small dynamic batches with warm, optimized engines, and accept lower utilization.
 
 References:
+
 - [NVIDIA Nsight Systems documentation](https://docs.nvidia.com/nsight-systems/)
 - [NVIDIA Nsight Compute documentation](https://docs.nvidia.com/nsight-compute/)
 - [PyTorch Profiler recipe](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html)

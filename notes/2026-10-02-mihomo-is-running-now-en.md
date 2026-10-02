@@ -17,8 +17,9 @@ Mihomo is running now! 🎉
 ```
 
 **Status:**
+
 | Port | Protocol | Status |
-|------|----------|--------|
+| ------ | ---------- | -------- |
 | 7890 | HTTP proxy | ✅ |
 | 7891 | SOCKS proxy | ✅ |
 | 7892 | Mixed proxy | ✅ |
@@ -27,6 +28,7 @@ Mihomo is running now! 🎉
 **Note:** DNS on port 53 failed (needs root) — that's fine, proxy still works.
 
 Try the download again:
+
 ```bash
 wget "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/resolve/main/Qwen3.8-27B-UD-IQ1_M.gguf?download=true"
 ```

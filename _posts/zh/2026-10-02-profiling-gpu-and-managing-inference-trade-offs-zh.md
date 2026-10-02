@@ -41,7 +41,7 @@ type: note
 **3. 批量推理与实时推理的权衡**
 
 | 对比维度 | 批量 / 离线 | 实时 / 在线 |
-|---|---|---|
+| --- | --- | --- |
 | 目标 | 最大化吞吐量和成本效率 | 最小化单次请求延迟 (p95/p99) |
 | 批量大小 | 大，占满 GPU | 小（1 个或少数几个）或动态形成 |
 | GPU 利用率 | 高 | 通常较低，除非巧妙地进行批处理 |
@@ -58,6 +58,7 @@ type: note
 - **经验法则。** 如果 SLO 宽松（数秒或更长），倾向于大批量。如果 SLO 严格（数十毫秒），使用带有预热、优化引擎的小型动态批量，并接受较低的利用率。
 
 参考资料：
+
 - [NVIDIA Nsight Systems 文档](https://docs.nvidia.com/nsight-systems/)
 - [NVIDIA Nsight Compute 文档](https://docs.nvidia.com/nsight-compute/)
 - [PyTorch Profiler 教程](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html)

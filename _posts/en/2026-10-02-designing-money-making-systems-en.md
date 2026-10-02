@@ -20,6 +20,7 @@ I'm reading "system to make money" as a business or revenue model. If you meant 
 **2. Start from a problem customers will pay to solve.** At the core of every business model is the value proposition. Money flows when customers exchange payment for a solution to something they care about.
 
 **3. Choose how money comes in.** One typology reduces the many variations to a few basic types, such as unit sales, advertising fees, franchise fees, utility (pay-per-use) fees, subscription fees, and transaction fees. Common patterns include:
+
 - **Subscription:** recurring payments, typically monthly, quarterly, or annually.
 - **Transactional (unit sales):** selling products, one purchase at a time.
 - **Service-based:** selling your time, expertise, or labor for a set amount.
@@ -29,6 +30,7 @@ I'm reading "system to make money" as a business or revenue model. If you meant 
 - **Freemium:** a free tier that converts some users to paid.
 
 **4. Match the model to your situation.** There is no one-size-fits-all model, and many businesses earn from multiple revenue streams. A few things to weigh:
+
 - **Resources:** different models need different types and amounts of resources.
 - **Scalability:** the model you choose affects how easily the business can scale.
 - **Funding:** investors look for models that promise a return.
@@ -37,6 +39,7 @@ I'm reading "system to make money" as a business or revenue model. If you meant 
 **5. Make it measurable and keep adjusting.** A revenue model is used to project cash flow, forecast revenue, and communicate the company's value. Successful companies regularly update their models as the market changes. In practice, people estimate who pays, how much, how often, and what it costs to serve them. They test the idea cheaply and refine it from there.
 
 **A quick design checklist:**
+
 1. Who is the customer, and what problem do they pay to solve?
 2. What do you charge for (a product, access, usage, results, or attention)?
 3. How is it priced, and how often does the customer pay?
@@ -46,6 +49,7 @@ I'm reading "system to make money" as a business or revenue model. If you meant 
 If you tell me your idea or industry, I can help sketch a specific model.
 
 References:
+
 - [9 Popular Revenue Models Explained (And How to Pick the Right One)](https://finmark.com/?p=1026)
 - [Glossary: Revenue Models (DealHub)](https://dealhub.io/glossary/revenue-models/)
 - [Business Models: Types, Examples and How to Design One (NerdWallet)](https://www.nerdwallet.com/business/learn/what-is-a-business-model)

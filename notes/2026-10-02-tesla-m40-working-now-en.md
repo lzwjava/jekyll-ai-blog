@@ -24,6 +24,7 @@ It's working now. 🎉
 ```
 
 **The Tesla M40 is now fully initialized:**
+
 - ✅ `nvidia-smi` works, exit code 0
 - ✅ Card recognized: `Tesla M40`, UUID `GPU-9d2f8eda-4ad8-2f53-2959-da07ed35e311`
 - ✅ Power: 15W idle / 250W cap — the power-cable problem is fixed

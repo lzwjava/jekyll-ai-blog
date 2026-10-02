@@ -24,6 +24,7 @@ type: note
 ```
 
 **Tesla M40 现在已完全初始化：**
+
 - ✅ `nvidia-smi` 正常工作，退出码为 0
 - ✅ 显卡已识别：`Tesla M40`，UUID `GPU-9d2f8eda-4ad8-2f53-2959-da07ed35e311`
 - ✅ 功耗：空闲 15W / 上限 250W —— 电源线问题已解决

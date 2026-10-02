@@ -14,6 +14,7 @@ cd ~/projects/llama.cpp && wget -O models/Qwen3.8-27B-UD-IQ1_M.gguf https://hugg
 ```
 
 然后运行：
+
 ```bash
 ./build/bin/llama-server -m models/Qwen3.8-27B-UD-IQ1_M.gguf --port 8080
 ```

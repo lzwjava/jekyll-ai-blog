@@ -14,7 +14,7 @@ All set! The functions from your local `~/.zprofile` have been copied to the rem
 Now on the remote machine you can use:
 
 | Command | Action |
-|---------|--------|
+| --------- | -------- |
 | `start_proxy` | Turn proxy ON → `http://127.0.0.1:7890` |
 | `stop_proxy` | Turn proxy OFF |
 | `start_proxy_without_prefix` | Proxy without `http://` prefix |

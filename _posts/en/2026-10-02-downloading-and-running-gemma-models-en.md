@@ -16,6 +16,7 @@ You don't have a Gemma model downloaded yet though. To run one:
 **Option 1: Download a GGUF from Hugging Face**
 
 For example, Gemma 2 9B (instruct):
+
 ```bash
 cd ~/projects/llama.cpp
 wget -O models/gemma-2-9b-it-Q4_K_M.gguf \
@@ -25,17 +26,20 @@ wget -O models/gemma-2-9b-it-Q4_K_M.gguf \
 **Option 2: Convert from original Gemma (if you have it)**
 
 If you already have the original Gemma model from Kaggle/Google:
+
 ```bash
 python convert_hf_to_gguf.py --outfile models/gemma-2-9b.gguf /path/to/gemma-model/
 ./build/bin/llama-quantize models/gemma-2-9b.gguf models/gemma-2-9b-Q4_K_M.gguf Q4_K_M
 ```
 
 **Then run it with llama-server:**
+
 ```bash
 ./build/bin/llama-server -m models/gemma-2-9b-it-Q4_K_M.gguf --port 8080
 ```
 
 **Smaller option** — Gemma 2 2B runs on less VRAM (~2GB with Q4):
+
 ```bash
 wget -O models/gemma-2-2b-it-Q4_K_M.gguf \
   https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf

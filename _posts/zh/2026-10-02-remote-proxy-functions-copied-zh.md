@@ -14,7 +14,7 @@ type: note
 现在在远程机器上，您可以使用：
 
 | 命令 | 操作 |
-|------|------|
+| ------ | ------ |
 | `start_proxy` | 开启代理 → `http://127.0.0.1:7890` |
 | `stop_proxy` | 关闭代理 |
 | `start_proxy_without_prefix` | 不带 `http://` 前缀的代理 |
