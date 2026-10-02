@@ -12,7 +12,7 @@ type: note
 Done! ✅ **Qwen2.5-7B** is now running with **8192 context size** on `lzw@192.168.1.34:8080`.
 
 | Setting | Before | After |
-|---------|--------|-------|
+| --------- | -------- | ------- |
 | **Model** | Qwen3.8-27B-UD-IQ1_M (6.3G) | **Qwen2.5-7B-Instruct-Q4_K_M** (4.4G) |
 | **Context** | 4096 | **8192** |
 | **GPU Mem** | ~2.4G | **~4.9G** (still fits on 11.5G Tesla M40) |

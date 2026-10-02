@@ -16,6 +16,7 @@ Answer:
 Compute shortage is a big complaint, but the bottleneck is no longer just the GPU chip.
 
 **1. Hardware and compute (the "no GPUs" problem)**
+
 - The shortage is mainly about packaging and memory, not silicon: TSMC CoWoS packaging capacity and HBM output cap NVIDIA shipments, not GPU die yield.
 - Micron's HBM capacity was reported sold out for 2026, and only three companies (SK Hynix, Samsung, Micron) make HBM at volume.
 - Memory makers are shifting capacity to HBM, so regular RAM and storage are also squeezed. Gartner projected roughly a 130% rise in combined DRAM and SSD pricing through 2026, which made local AI boxes much more expensive.
@@ -26,6 +27,7 @@ Compute shortage is a big complaint, but the bottleneck is no longer just the GP
 Google researchers (including David Patterson) argue that memory and interconnect are the main LLM inference bottlenecks. AI chip compute grew 80x over a decade while memory bandwidth grew only 17x. Serving models fast and cheaply is therefore a hardware design problem.
 
 **3. Reliability and hallucination**
+
 - 74% of organizations cite inaccuracy as their top AI risk, up 14 points in a year.
 - Top enterprise barriers include data privacy risks (67%), integration complexity (64%), and hallucination/reliability concerns (60%).
 
@@ -39,6 +41,7 @@ The median enterprise's monthly LLM bill reportedly grew 7.2x year over year ent
 Fragmented data, missing context, and low trust are named as primary gaps preventing enterprise AI from scaling. One review argues the main obstacle is not model capability but the structural gap between fragmented technical modules and the need for high-reliability decision-making.
 
 **Short summary**
+
 - Infrastructure: GPUs, HBM memory, packaging, power, and rising prices.
 - Product: hallucinations, unreliable agents, hard-to-measure evaluation.
 - Business: unpredictable costs, unclear ROI, governance and privacy.
@@ -46,6 +49,7 @@ Fragmented data, missing context, and low trust are named as primary gaps preven
 Some of the figures above come from vendor blogs and aggregator sites rather than primary research, so treat the exact percentages as indicative.
 
 References:
+
 - [The AI Hardware Shortage Beyond GPUs: 8 Components Facing Supply Constraints in 2026](https://www.microchipusa.com/industry-news/ai-hardware-shortage-beyond-gpus)
 - [GPU Shortage 2026: How to Secure AI Compute When GPUs Are Sold Out](https://www.spheron.network/blog/gpu-shortage-2026/)
 - [American AI Companies Can't Get Enough Chips (CNAS)](https://www.cnas.org/publications/reports/american-ai-companies-cant-get-enough-chips)

@@ -16,7 +16,7 @@ So here's what this **Tesla M40 (Maxwell, 12GB, CC 5.2)** can realistically do:
 ## ✅ Works Great — Already Proven
 
 | What | How |
-|------|-----|
+| ------ | ----- |
 | **llama.cpp inference** | ✅ Running right now (Qwen2.5-7B @ 17 tok/s) |
 | **Remote LLM API** | ✅ Already serving on `192.168.1.34:8080` |
 | **Multiple model serving** | Run different models on different ports |
@@ -25,7 +25,7 @@ So here's what this **Tesla M40 (Maxwell, 12GB, CC 5.2)** can realistically do:
 ## ✅ Should Work (Same Ecosystem)
 
 | What | Notes |
-|------|-------|
+| ------ | ------- |
 | **Ollama** | Uses llama.cpp under the hood — cleaner API, model pulling |
 | **Open WebUI** | Already have the `.service` file — pairs with your API for a ChatGPT-like UI |
 | **Whisper.cpp** | Speech-to-text on GPU using the same lightweight approach — no PyTorch needed |
@@ -36,7 +36,7 @@ So here's what this **Tesla M40 (Maxwell, 12GB, CC 5.2)** can realistically do:
 ## ❌ Won't Work
 
 | What | Why |
-|------|-----|
+| ------ | ----- |
 | **PyTorch / TensorFlow** | Both dropped CC 5.x support years ago |
 | **vLLM** | Needs CC 7.0+ |
 | **Stable Diffusion (PyTorch)** | Same PyTorch dependency issue |

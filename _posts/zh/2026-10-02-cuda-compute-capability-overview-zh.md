@@ -14,7 +14,7 @@ type: note
 它是 NVIDIA 为 GPU 架构特性设定的版本编号：
 
 | CC | Architecture | Era |
-|----|-------------|-----|
+| ---- | ------------- | ----- |
 | **3.0** | Kepler | 2012 |
 | **3.5** | Kepler (K80) | 2014 |
 | **5.0–5.2** | **Maxwell ← Your M40** | 2015 |
@@ -25,6 +25,7 @@ type: note
 | **10.0** | Blackwell | 2024 |
 
 更高的 CC 意味着：
+
 - **更新的 CUDA 特性**（例如 sparse tensor ops、bfloat16 硬件等）
 - **框架设定了最低 CC 要求**——PyTorch 和 vLLM 需要 **CC 7.0+**
 - **llama.cpp 能够运行**，因为它自行编写原始 CUDA 内核，可以直接针对 CC 5.2

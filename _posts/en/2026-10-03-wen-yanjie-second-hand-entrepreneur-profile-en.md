@@ -26,6 +26,7 @@ Answer:
 I did not find current information about his role after the merger. His present position may have changed, so check recent sources if you need it.
 
 References:
+
 - [找靓机温言杰：二手消费并非局限于下沉市场，B2C模式构建信任壁垒 - 21财经](https://m.21jingji.com/article/20191105/herald/5b70c19fe75af8a76eac5dc71d5e2741.html)
 - [转转合并找靓机，二手手机其他玩家已无机会？- 腾讯新闻](https://news.qq.com/rain/a/20200515A05R0R00)
 - [毕业创业被骗200多万如今月流水5000万，他打造二手3C领域的京东 - 搜狐](https://m.sohu.com/a/208565709_100075484/?pvid=000115_3w_a&spm=smpc.content-abroad.share.1.1619654400023oXoZw5N)

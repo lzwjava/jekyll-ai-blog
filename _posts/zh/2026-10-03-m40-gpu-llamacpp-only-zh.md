@@ -14,7 +14,7 @@ type: note
 以下是针对这个 M40 一贯的**经验法则**：
 
 | 可以运行 | 无法运行 |
-|---------|-----------|
+| --------- | ----------- |
 | ✅ 任何使用 **llama.cpp** 的项目（推理、微调、嵌入、服务器） | ❌ 任何需要 **PyTorch / TensorFlow** 的项目 |
 | ✅ **Whisper.cpp**（音频转文字） | ❌ vLLM, DeepSpeed, nanoGPT, HuggingFace `transformers` |
 | ✅ 直接的 **CUDA C/C++** 程序 | ❌ 任何基于 CUDA 抽象构建的 Python ML 框架 |

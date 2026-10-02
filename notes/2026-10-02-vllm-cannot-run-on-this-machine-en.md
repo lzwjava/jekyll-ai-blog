@@ -12,7 +12,7 @@ type: note
 **No, vLLM cannot run on this machine.** Here's why:
 
 | Requirement | This Machine | Verdict |
-|-------------|--------------|---------|
+| ------------- | -------------- | --------- |
 | **GPU** | **Tesla M40** (Maxwell, 2015) — CC **5.2** | ❌ vLLM / PyTorch need CC **7.0+** (Volta/Ampere) |
 | **GPU Memory** | 11.5GB (enough) | ✅ Would fit the model |
 | **System RAM** | **3.2GB total** (only 2.2G free) | ❌ Way too little for vLLM |

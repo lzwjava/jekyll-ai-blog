@@ -25,6 +25,7 @@ What 32 GB fits in practice: 8B models at FP16 (~16GB), and 32B models at Q4/AWQ
 I did not find a newer consumer GPU above 32 GB in my search, but new releases can appear, so it is worth checking NVIDIA's site for the latest lineup.
 
 References:
+
 - [NVIDIA RTX 5090: Specs, 32GB VRAM & AI Benchmarks (2026)](https://www.runpod.io/articles/guides/nvidia-rtx-5090)
 - [NVIDIA RTX 5090 Specs: 32GB GDDR7, 1,792 GB/s, FP4 Tensor](https://www.spheron.network/blog/nvidia-rtx-5090-specs/)
 - [NVIDIA GeForce RTX 5090: Everything You Need to Know](https://vast.ai/article/nvidia-geforce-rtx-5090-specs-everything-you-need-to-know)

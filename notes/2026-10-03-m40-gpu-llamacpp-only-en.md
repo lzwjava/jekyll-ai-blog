@@ -14,7 +14,7 @@ Nope — nanoGPT uses **PyTorch** (+ `torchrun`, `torch.distributed` for DDP), s
 Here's the consistent **rule of thumb** for this M40:
 
 | Can run | Can't run |
-|---------|-----------|
+| --------- | ----------- |
 | ✅ Anything using **llama.cpp** (inference, fine-tuning, embeddings, server) | ❌ Anything requiring **PyTorch / TensorFlow** |
 | ✅ **Whisper.cpp** (audio→text) | ❌ vLLM, DeepSpeed, nanoGPT, HuggingFace `transformers` |
 | ✅ Direct **CUDA C/C++** programs | ❌ Any Python ML framework built on top of CUDA abstractions |

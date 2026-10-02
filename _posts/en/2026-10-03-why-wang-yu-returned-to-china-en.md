@@ -24,6 +24,7 @@ His first venture, P1, ran for about 7 to 8 years. He described it as neither a 
 Later, Tantan was acquired by Momo. Reports said Wang Yu and Pan Ying stepped back from day-to-day management, and he might start a new venture.
 
 References:
+
 - [探探CEO王宇谈陌生人社交：抓住95后的七个关键点 (Sina Tech)](http://tech.sina.com.cn/i/2018-02-24/doc-ifyrvnsw7941858.shtml)
 - [探探CEO：我们自己可决定是否上市 (Sina Tech)](http://tech.sina.com.cn/i/2018-04-19/doc-ifyuwqfa4382235.shtml)
 - [不到3年，4轮融资，这对夫妻做出来的陌生人社交软件 (Jiemian)](https://www.jiemian.com/article/1449974.html)

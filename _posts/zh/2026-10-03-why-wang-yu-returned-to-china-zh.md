@@ -24,6 +24,7 @@ Answer: 王宇不是从美国回来的，而是从瑞典回来的。他出生在
 后来，探探被陌陌收购。据报道，王宇和潘滢已退出日常管理，他可能会开始新的创业。
 
 参考资料：
+
 - [探探CEO王宇谈陌生人社交：抓住95后的七个关键点 (Sina Tech)](http://tech.sina.com.cn/i/2018-02-24/doc-ifyrvnsw7941858.shtml)
 - [探探CEO：我们自己可决定是否上市 (Sina Tech)](http://tech.sina.com.cn/i/2018-04-19/doc-ifyuwqfa4382235.shtml)
 - [不到3年，4轮融资，这对夫妻做出来的陌生人社交软件 (Jiemian)](https://www.jiemian.com/article/1449974.html)

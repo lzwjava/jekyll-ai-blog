@@ -14,7 +14,7 @@ type: note
 Here's a summary of what was done:
 
 | Step | Action |
-|------|--------|
+| ------ | -------- |
 | 🔍 | Identified running `llama-server.service` (transient) on `192.168.1.34` using **Qwen3.8-27B-UD-IQ1_M.gguf** (6.3G) |
 | ⏹️ | Stopped the old service via `systemctl --user kill llama-server.service` |
 | ✅ | Verified `Qwen2.5-7B-Instruct-Q4_K_M.gguf` (4.4G) was **already present** in the models directory |

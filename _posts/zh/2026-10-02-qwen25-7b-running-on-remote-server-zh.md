@@ -14,7 +14,7 @@ type: note
 以下是所完成操作的摘要：
 
 | 步骤 | 操作 |
-|------|--------|
+| ------ | -------- |
 | 🔍 | 在 `192.168.1.34` 上识别到正在运行的 `llama-server.service`（临时），使用 **Qwen3.8-27B-UD-IQ1_M.gguf**（6.3G） |
 | ⏹️ | 通过 `systemctl --user kill llama-server.service` 停止了旧服务 |
 | ✅ | 验证了 `Qwen2.5-7B-Instruct-Q4_K_M.gguf`（4.4G）**已经存在** 于模型目录中 |

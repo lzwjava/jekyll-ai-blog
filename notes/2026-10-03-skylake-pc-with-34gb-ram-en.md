@@ -12,7 +12,7 @@ type: note
 Here's the full hardware spec of `lzw@192.168.1.34`:
 
 | Component | Detail |
-|-----------|--------|
+| ----------- | -------- |
 | **Motherboard** | **MSI Z170A GAMING M5** (MS-7977) — Z170 chipset, LGA1151 |
 | **CPU** | **Intel Core i5-6600** @ 3.30GHz (Skylake, 4C/4T) |
 | **RAM** | **Only 3.4GB** (likely 1×4GB stick, unknown speed — dmidecode needs sudo) |
