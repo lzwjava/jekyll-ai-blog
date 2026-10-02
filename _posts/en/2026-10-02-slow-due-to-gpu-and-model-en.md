@@ -12,8 +12,9 @@ type: note
 It's slow mainly because of **your GPU and model combination**. Here's the breakdown:
 
 **1. GPU: Tesla M40 — very old architecture (2015)**
+
 | Spec | Tesla M40 | Modern GPU (e.g. RTX 4090) |
-|------|-----------|---------------------------|
+| ------ | ----------- | --------------------------- |
 | Architecture | Maxwell (gen 1) | Ada Lovelace (gen 4) |
 | CUDA cores | 3,072 | 16,384 |
 | Memory bandwidth | **288 GB/s** | **1,008 GB/s** |
@@ -32,7 +33,7 @@ Even with `-ngl 99`, llama.cpp still needs to shuffle data through system RAM. Y
 **What you can do to speed it up:**
 
 | Option | Speed | Quality | RAM needed |
-|--------|-------|---------|------------|
+| -------- | ------- | --------- | ------------ |
 | **Keep as-is** | ~8.5 t/s | poor (IQ1_M) | 6.3GB model |
 | **Download a Q4_K_M model** (7B-14B size) | ~30-50 t/s | good | ~4-8GB |
 | **Download a Q8_0 model** (7B-14B) | ~20-30 t/s | best quality | ~8-14GB |

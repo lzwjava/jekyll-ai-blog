@@ -12,7 +12,7 @@ type: note
 It's working 🎉! **`-c 4096` is up and running!**
 
 | Metric | Value |
-|--------|-------|
+| -------- | ------- |
 | GPU memory | **7.5 GB / 11.5 GB** ✅ |
 | Context | **4096 tokens** ✅ |
 | Port 8080 | Listening ✅ |
