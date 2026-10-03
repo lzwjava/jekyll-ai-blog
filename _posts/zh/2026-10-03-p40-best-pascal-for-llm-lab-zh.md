@@ -160,6 +160,6 @@ RTX 3090            24GB      936       Ampere 8.6
 [2]: https://www.chpc.utah.edu/documentation/guides/gpus-hardware.php?utm_source=chatgpt.com "GPUS and Accelerators at CHPC - Center for High Performance Computing - The University of Utah"
 [3]: https://gpus.axiomgaming.net/gpu/tesla-p40?utm_source=chatgpt.com "Tesla P40 Specifications - NVIDIA GPU Database"
 [4]: https://github.com/schmared/tesla-p40-wsl2-cuda-llamacpp?utm_source=chatgpt.com "GitHub - schmared/tesla-p40-wsl2-cuda-llamacpp: Run a Tesla P40 (Pascal, sm_61) under WSL2 for local LLM serving: MCDM driver model, CUDA 12.9, Docker GPU passthrough, and llama.cpp built for sm_61. Benchmarked on Qwen3.6-35B-A3B at ~51 tok/s with 128K context. · GitHub"
-[5]: https://images.nvidia.com/content/tesla/pdf/Tesla-P40-Product-Brief.pdf?utm_source=chatgpt.com "OVERVIEW
+[5]: <https://images.nvidia.com/content/tesla/pdf/Tesla-P40-Product-Brief.pdf?utm_source=chatgpt.com> "OVERVIEW
 
 The NVIDIA® Tesla® P40 GPU Accelerator i"

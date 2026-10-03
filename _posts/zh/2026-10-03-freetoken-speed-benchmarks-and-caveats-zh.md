@@ -18,13 +18,14 @@ type: note
 **解码速度（tokens/s）**
 
 | 硬件 | 模型 | 速度 |
-|---|---|---|
+| --- | --- | --- |
 | RTX 4060 笔记本电脑（8 GB VRAM，32 GiB RAM） | Qwen3.6-35B-A3B（NVFP4） | 39.3 tokens/秒 |
 | RTX 5090（32 GB） | Qwen3.6-35B-A3B | 77–83 tok/s |
 | RTX 5090（32 GB） | DeepSeek-V4-Flash（284B 总参数量） | 22–25 tok/s |
 | RTX PRO 6000（96 GB） | GLM-5.2（753B 总参数量，40B 活跃参数） | 14.9 tokens/秒，而llama.cpp为7.3 tokens/秒 |
 
 **与其他引擎的对比**
+
 - 论文报告在所有工作负载下，解码吞吐量比最先进的边缘服务系统高出1.5–2.3倍。基准包括llama.cpp、Ollama、KTransformers和MoE-Infinity。
 - Prefill速度在16000 tokens时达到6.7k tokens/秒。
 - 首token延迟在最差情况下低于44秒（在评估的工作负载中）。相比之下，其他系统在处理最苛刻的工作负载时可能超时。
@@ -32,11 +33,13 @@ type: note
 - 当模型完全适配VRAM时，无性能提升。同一测试中Ollama达到239.6 tokens/秒，FreeToken为225.3 tokens/秒。
 
 **注意事项**
+
 - 速度优势主要适用于模型大于VRAM容量的情况。
 - 目前目标为NVIDIA RTX 30/40/50系列GPU。社区为AMD移植的版本在8 GB显卡上仅能达到约9 tok/s，但其作者认为差距源于硬件而非方法。
 - 实际速度取决于你的RAM和PCIe带宽、量化格式以及工作负载。建议在自己的机器上运行`ft serve`以确认。
 
 参考文献：
+
 - [FreeToken GitHub仓库](https://github.com/FlashML-org/FreeToken)
 - [FreeToken论文（HTML版本）](https://arxiv.org/html/2608.16157v1)
 - [FreeToken AI评测：硬件、基准测试与设置（Wavect）](https://wavect.io/blog/freetoken-ai-inference-engine-review/)
