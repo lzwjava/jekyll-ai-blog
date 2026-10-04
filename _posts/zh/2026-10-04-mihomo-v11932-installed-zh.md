@@ -14,7 +14,7 @@ type: note
 ## 摘要
 
 | 项目 | 值 |
-|------|-----|
+| ------ | ----- |
 | **二进制文件** | `/usr/local/bin/mihomo` |
 | **版本** | Mihomo Meta v1.19.32 (linux amd64, go1.26.8) |
 | **编译方式** | `compatible` — 因远端 CPU (AMD Athlon X4 850) 缺少 AVX2 而选择 |

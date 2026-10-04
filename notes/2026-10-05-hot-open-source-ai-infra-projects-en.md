@@ -16,16 +16,19 @@ Answer:
 I don't have live GitHub star-velocity data, so this list reflects what's getting the most release activity and ecosystem attention, grouped by layer.
 
 **1. Inference engines**
+
 - **vLLM** is the default choice. Its team formed Inferact, which raised $150M in January 2026 to commercialize the project. HuggingFace TGI has entered maintenance mode, leaving SGLang, vLLM, and MAX as the three primary open-source engines.
 - **SGLang** is the main challenger. It shipped day-0 support for DeepSeek-V4 and posted a 25x performance gain on NVIDIA GB300 NVL72. It's also described as the reference implementation for DeepSeek V3/V4 serving. Its sweet spot is multi-turn and agentic workloads thanks to RadixAttention.
 - **Others to watch:** TensorRT-LLM (NVIDIA-only, maximum performance but 1-2 weeks of setup), LMDeploy, and llama.cpp for local and edge use.
 
 **2. Cluster-scale serving and orchestration**
+
 - **NVIDIA Dynamo** is an orchestration layer above the engines. It doesn't replace SGLang, TensorRT-LLM, or vLLM; it turns them into a coordinated multi-node system. It's written mostly in Rust.
 - **llm-d** (Red Hat) and **AIBrix** (ByteDance) fill a similar role on Kubernetes.
 - **LMCache** is a KV-cache layer shared across engines. It supports prefill-to-decode KV transfer over NVLink, RDMA, or TCP. Disaggregated prefill/decode has moved from experimental to standard.
 
 **3. RL post-training**
+
 - **verl** (ByteDance Seed, now under verl-project) keeps growing. Recent add-ons include verl-vla, RL-Insight, uni-agent, and verl-SpeCo.
 - **slime** is notable because it's the RL framework behind the GLM-4.5 through GLM-5.2 models.
 - **Miles** (from RadixArk, built on slime): v0.1 was released in August 2026 and integrates SGLang and Megatron-LM.
@@ -35,6 +38,7 @@ I don't have live GitHub star-velocity data, so this list reflects what's gettin
 Karpathy's nanochat is a full ChatGPT-style pipeline. It's about 8,000 lines covering tokenizer, pretraining, midtraining, SFT, optional RL, and an inference engine with KV cache. It's still moving fast. In March 2026 it reached GPT-2-level training in about 2 hours on one 8xH100 node, helped by NVIDIA ClimbMix and FP8. Karpathy also had autonomous agents iterate on the repo, making 110 changes in about 12 hours.
 
 **Broad trends**
+
 - Engines and RL frameworks are converging: SGLang pairs with Miles, vLLM with vime.
 - KV cache management and disaggregated serving are the main frontier.
 - Agentic workloads are driving both serving and training design.
@@ -45,6 +49,7 @@ Some of the benchmark comparisons I found are from third-party blogs, so verify 
 If you tell me whether you care more about serving, training, or learning, I can narrow this to a shortlist.
 
 References:
+
 - [SGLang GitHub (news section)](https://github.com/tocque/sglang)
 - [Open-source LLM inference engines compared 2026 – Fish Audio](https://fish.audio/blog/open-source-llm-inference-engines-2026/)
 - [Local LLM Inference Tools, July 2026 – DEV Community](https://dev.to/sreeraj-sreenivasan/the-complete-guide-to-local-llm-inference-tools-in-july-2026-llamacpp-ollama-vllm-sglang-and-4mh1)

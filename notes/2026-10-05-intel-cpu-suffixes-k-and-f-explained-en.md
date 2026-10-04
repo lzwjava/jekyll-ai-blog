@@ -35,7 +35,7 @@ Answer:
 **Quick Reference Table:**
 
 | Suffix | Overclockable | Has Integrated Graphics |
-|--------|--------------|------------------------|
+| -------- | -------------- | ------------------------ |
 | (none) | ❌ No | ✅ Yes |
 | K | ✅ Yes | ✅ Yes |
 | F | ❌ No | ❌ No |

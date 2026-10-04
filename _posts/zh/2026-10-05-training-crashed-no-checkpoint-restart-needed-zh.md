@@ -16,11 +16,14 @@ torch.OutOfMemoryError: CUDA out of memory ... during CORE metric evaluation
 ```
 
 **发生了什么**
+
 - 正在运行的命令（从进程列表 / pi 会话日志中恢复）：
+
   ```bash
   NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache ./.venv/bin/python -m scripts.base_train \
       --depth=18 --max-seq-len=1024 --device-batch-size=2 --tracker=none --run=d18-climbmix
   ```
+
 - 它到达了 **第 2000 步 / 3712（约 54%，约 32 小时）**，然后在 `evaluate_core()` 中的 CORE 指标检查点（`--core-metric-every` 默认为 2000）处 OOM。GPU 现在只剩下桌面进程——任务已经死了。
 - ⚠️ **本次运行没有检查点。** `/mnt/data/nanochat-cache/base_checkpoints/d18/` 只有 5 步冒烟测试（`save-every` 默认为 `-1` = 仅在结束时保存）。因此重启意味着 **从第 0 步开始训练**。
 

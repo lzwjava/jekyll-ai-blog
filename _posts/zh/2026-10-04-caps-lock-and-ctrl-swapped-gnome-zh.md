@@ -12,6 +12,7 @@ type: note
 完成 ✅ — 在 `192.168.1.45` 上 **Caps Lock ↔ Ctrl 已互换**。
 
 **我做了什么：**
+
 - 检测到桌面环境：**Wayland** 上的 GNOME 46（不是 X11），因此 `setxkbmap`/`xmodmap` 会话 hack 无法正确持久化 —— 改用受支持的 GNOME 方法：
 - 通过 dconf（经由位于 `/run/user/1000/bus` 的活动 GNOME 会话总线）设置 XKB 选项 `ctrl:swapcaps`：
   - 键：`/org/gnome/desktop/input-sources/xkb-options` → `['ctrl:swapcaps']` ✓（已验证）

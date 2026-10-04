@@ -14,7 +14,7 @@ Done ✅ mihomo v1.19.32 is installed on `lzw@192.168.1.46`.
 ## Summary
 
 | Item | Value |
-|------|-------|
+| ------ | ------- |
 | **Binary** | `/usr/local/bin/mihomo` |
 | **Version** | Mihomo Meta v1.19.32 (linux amd64, go1.26.8) |
 | **Build** | `compatible` — chosen because the remote CPU (AMD Athlon X4 850) lacks AVX2 |

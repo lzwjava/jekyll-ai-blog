@@ -14,7 +14,7 @@ The motherboard is an **ASUS A68HM-E**.
 ## Details
 
 | Field | Value |
-|-------|-------|
+| ------- | ------- |
 | **Manufacturer** | ASUSTeK COMPUTER INC. |
 | **Model** | A68HM-E (Rev X.0x) |
 | **Form factor** | Micro-ATX |

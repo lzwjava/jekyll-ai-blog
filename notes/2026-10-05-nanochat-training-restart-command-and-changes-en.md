@@ -27,6 +27,7 @@ NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache ./.venv/bin/python -m scripts.base_tr
 ```
 
 What changed vs. the original command:
+
 - `--core-metric-max-per-task=50` — slimmer CORE eval batches (was default 500), avoids the OOM at step 2000 / final step
 - `--save-every=250` — checkpoints every 250 steps so a crash doesn't cost the whole run again (only directory: `/mnt/data/nanochat-cache/base_checkpoints/d18/`)
 

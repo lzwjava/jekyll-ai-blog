@@ -16,7 +16,7 @@ type: note
 `~/.bashrc` (line 137, "Proxy Functions" block):
 
 | Function | Line | Status |
-|----------|------|--------|
+| ---------- | ------ | -------- |
 | `start_proxy` | 139 | ✅ present |
 | `start_proxy_without_prefix` | 151 | ✅ present |
 | `stop_proxy` | 163 | ✅ present |

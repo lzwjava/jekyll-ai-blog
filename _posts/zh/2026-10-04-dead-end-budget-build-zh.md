@@ -14,7 +14,7 @@ type: note
 ## 详细信息
 
 | 字段 | 数值 |
-|------|------|
+| ------ | ------ |
 | **制造商** | ASUSTeK COMPUTER INC. |
 | **型号** | A68HM-E (Rev X.0x) |
 | **外形规格** | Micro-ATX |

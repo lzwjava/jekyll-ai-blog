@@ -14,7 +14,7 @@ Done ✅ mihomo is fully configured and running on `lzw@192.168.1.46`.
 ## Summary
 
 | Item | Status |
-|------|--------|
+| ------ | -------- |
 | **Binary** | `/usr/local/bin/mihomo` v1.19.32 (compatible build for AMD Athlon X4 850) |
 | **Config** | Copied laptop's `~/.config/mihomo/` → `/etc/mihomo/` (config.yaml, Rules/, geoip.metadb) |
 | **systemd service** | `/etc/systemd/system/mihomo.service` — `active` + `enabled` (autostarts on boot) |
@@ -35,6 +35,7 @@ Done ✅ mihomo is fully configured and running on `lzw@192.168.1.46`.
 2. **Security consideration** (same as your laptop, just FYI) — `external-controller: 0.0.0.0:9090` has **no secret/authentication** and `allow-lan: true`. Anyone on the LAN can control mihomo or use it as a proxy. If this machine is ever exposed beyond your home LAN, consider adding a `secret` to the config.
 
 3. To manage it later:
+
    ```bash
    systemctl status mihomo      # check status
    systemctl restart mihomo     # restart

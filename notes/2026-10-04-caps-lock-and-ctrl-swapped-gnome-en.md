@@ -12,6 +12,7 @@ type: note
 Done ✅ — **Caps Lock ↔ Ctrl swapped** on `192.168.1.45`.
 
 **What I did:**
+
 - Detected the desktop: GNOME 46 on **Wayland** (not X11), so `setxkbmap`/`xmodmap` session hacks wouldn't persist properly — used the supported GNOME approach instead:
 - Set the XKB option `ctrl:swapcaps` via dconf (through the active GNOME session bus at `/run/user/1000/bus`):
   - Key: `/org/gnome/desktop/input-sources/xkb-options` → `['ctrl:swapcaps']` ✓ (verified)

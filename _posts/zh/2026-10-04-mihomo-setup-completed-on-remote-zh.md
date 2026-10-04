@@ -14,7 +14,7 @@ type: note
 ## 摘要
 
 | 项目 | 状态 |
-|------|------|
+| ------ | ------ |
 | **二进制文件** | `/usr/local/bin/mihomo` v1.19.32（适用于 AMD Athlon X4 850 的兼容构建） |
 | **配置** | 已将笔记本电脑的 `~/.config/mihomo/` → `/etc/mihomo/`（config.yaml、Rules/、geoip.metadb） |
 | **systemd 服务** | `/etc/systemd/system/mihomo.service` — `active`（活动）+ `enabled`（启用）（开机自启） |
@@ -35,6 +35,7 @@ type: note
 2. **安全注意事项**（与你的笔记本电脑相同，仅供参考）— `external-controller: 0.0.0.0:9090` **没有密钥/认证**，且 `allow-lan: true`。局域网内的任何人都可以控制 mihomo 或将其用作代理。如果此机器暴露在家庭局域网之外，请考虑在配置中添加 `secret`。
 
 3. 以后管理它：
+
    ```bash
    systemctl status mihomo      # 检查状态
    systemctl restart mihomo     # 重启

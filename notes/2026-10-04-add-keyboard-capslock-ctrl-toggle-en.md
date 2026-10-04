@@ -14,11 +14,13 @@ Done. I added a new `keyboard` command group with a `capslock-ctrl` subcommand t
 ## What was added
 
 **New files**
+
 - `ww/keyboard/__init__.py`
 - `ww/keyboard/main.py` — group dispatcher (`ww keyboard capslock-ctrl`)
 - `ww/keyboard/capslock_ctrl.py` — the actual toggle logic
 
 **Edited files**
+
 - `ww/main.py` — help text, dispatch branch, and the "did you mean" suggestion list
 - `completions/_ww` — zsh tab-completion entries
 
@@ -27,11 +29,13 @@ Done. I added a new `keyboard` command group with a `capslock-ctrl` subcommand t
 On Ubuntu, it uses **`gsettings`** against `org.gnome.desktop.input-sources xkb-options` (works on both GNOME Wayland and X11 — the existing `ww linux switch-keys` only handled X11). It falls back to `setxkbmap` for plain X11 sessions.
 
 Toggle behavior, exactly as requested:
+
 - No swap → enables `ctrl:swapcaps`
 - Already swapped → removes it (back to default)
 - Other xkb options are preserved (only `ctrl:swapcaps` is added/removed)
 
 Bonus explicit modes:
+
 ```
 ww keyboard capslock-ctrl            # toggle
 ww keyboard capslock-ctrl on         # force on
