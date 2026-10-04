@@ -25,7 +25,7 @@ POST /v1/chat/completions
 ```
 
 | 指标 | 值 |
-|--------|-------|
+| -------- | ------- |
 | 健康状态 | `{"status":"ok"}` |
 | GPU 利用率 | 96% (峰值) |
 | 功耗 | 174 W (空闲 16 W) |
@@ -35,12 +35,14 @@ POST /v1/chat/completions
 | 上下文窗口 | 32,768 |
 
 ## 文件位置
+
 - 仓库：`~/projects/llama.cpp`
 - 二进制文件：`~/projects/llama-b11344/`（CUDA 12.8 预构建 + 捆绑的 libcudart/libcublas）
 - 模型：`~/models/qwen2.5-1.5b-instruct-q4_k_m.gguf`（1.04 GB）
 - 服务器进程：PID 7946，日志位于 `~/server.log`
 
 ## 从局域网内任意机器使用
+
 ```bash
 curl http://192.168.1.34:8080/v1/chat/completions \
   -H "Content-Type: application/json" \
@@ -50,6 +52,7 @@ curl http://192.168.1.34:8080/v1/chat/completions \
 或使用 OpenAI SDK：`base_url="http://192.168.1.34:8080/v1"`.
 
 ## 备注
+
 - 我故意使用了 **CUDA 12.8** 构建——CUDA 13.4 构建放弃了对 Maxwell（sm_52）的支持。这些内核可以正常 JIT 编译到 sm_52。
 - 这台 M40 大约可以舒适地运行 1.5B 模型；7B Q4（~4.4GB）可以放入 VRAM，但生成速度会降至 ~15–20 t/s，因为 M40 的 FP16 路径较旧且带宽为 288 GB/s。
 - 稍后重启：`cd ~/projects/llama-b11344 && LD_LIBRARY_PATH=$PWD nohup ./llama-server -m ~/models/qwen2.5-1.5b-instruct-q4_k_m.gguf --host 0.0.0.0 --port 8080 -ngl 99 </dev/null > ~/server.log 2>&1 &`

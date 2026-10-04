@@ -40,6 +40,7 @@ It'll take ~2–5 minutes. Wait for `xxxx+0 records out` and the prompt to come 
 ---
 
 ⚠️ Two tips to avoid this again:
+
 - Don't use Disk Utility / Finder eject before `dd` — only `diskutil unmountDisk` (unmount ≠ eject).
 - If macOS auto-mounts after replugging, that's fine — unmount right before `dd`.
 

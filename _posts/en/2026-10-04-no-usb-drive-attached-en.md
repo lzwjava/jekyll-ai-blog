@@ -16,7 +16,7 @@ type: note
 Current physical disks on this machine:
 
 | Device | Type |
-|---|---|
+| --- | --- |
 | `/dev/disk0` | internal, physical (500 GB SSD) ⛔ never touch |
 | disk4/6/8/10 | disk images (iOS simulators) 🎭 not real |
 
@@ -40,6 +40,7 @@ A real USB stick shows up like this:
 📌 Note: `diskutil list | grep -i external` shows nothing because the only physical disk is the internal one — `diskutil list external` didn't print a hardware line either.
 
 **Steps:**
+
 1. Physically plug the USB stick into the Mac
 2. Run `diskutil list` again and paste the output here
 3. Then we flash it with `dd`

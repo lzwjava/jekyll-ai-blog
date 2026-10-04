@@ -40,6 +40,7 @@ sudo dd if=~/Downloads/ubuntu-26.04-desktop-amd64.iso of=/dev/rdiskNN bs=4m stat
 ---
 
 ⚠️ 两个避免再次发生的提示：
+
 - 在`dd`之前不要使用Disk Utility / Finder弹出 — 只能使用`diskutil unmountDisk`（卸载 ≠ 弹出）。
 - 如果macOS在重新插入后自动挂载，那没关系 — 在`dd`之前立即卸载。
 

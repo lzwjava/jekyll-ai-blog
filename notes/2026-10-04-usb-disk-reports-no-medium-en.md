@@ -16,7 +16,7 @@ I checked the connected storage devices. Here's what I found:
 There **is** a USB device connected, but it appears **empty/unreadable**:
 
 | Property | Value |
-|---|---|
+| --- | --- |
 | Device | `/dev/sdb` |
 | Vendor / Model | NAND / USB2DISK |
 | Interface | USB |
@@ -33,6 +33,7 @@ Error: Error opening /dev/sdb: No medium found
 ```
 
 This typically means one of:
+
 1. The USB drive is a **card reader with no memory card inserted** (the "NAND" vendor and "USB2DISK" model are common for SD/microSD adapters).
 2. The drive is **blank/never formatted** — though in that case it would still report a size.
 3. The drive's flash controller is **not responding** to the OS.
@@ -49,9 +50,11 @@ These are the system's regular disks, not USB:
 Since `/dev/sdb` reports no medium, there's no filesystem to read. If you'd like, I can:
 
 1. **Rescan the device** to see if it becomes readable:
+
    ```bash
    echo 1 | sudo tee /sys/block/sdb/device/rescan
    ```
+
 2. **Check for a card** — if this is a card reader, insert the SD/microSD card and I'll re-detect it.
 3. **Inspect the raw device** with `dmesg`/`udevadm` for more diagnostic detail on why the medium isn't detected.
 

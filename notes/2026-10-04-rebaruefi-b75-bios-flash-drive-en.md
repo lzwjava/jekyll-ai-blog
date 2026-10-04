@@ -20,6 +20,7 @@ Here's what's on the USB drive:
 A **bootable FreeDOS 1.3 "Lite" USB stick** purpose-built for **BIOS firmware flashing** — specifically a **"ReBarUEFI - B75 BIOS flash"** tool.
 
 **Key files at the root:**
+
 - `flash.bat` — the main script: backs up current BIOS to `BACKUP.BIN`, then flashes `NEWBIOS.BIN` using Intel's Flash Programming Tool (`fpt.exe`)
 - `fpt.exe` — Intel Flash Programming Tool
 - `NEWBIOS.BIN` / `OLDBIOS.BIN` — new/old BIOS images (4 MB each)

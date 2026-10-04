@@ -20,6 +20,7 @@ type: note
 一个**可引导的FreeDOS 1.3“Lite”U盘**，专为**BIOS固件刷写**而构建——具体来说是一个**“ReBarUEFI - B75 BIOS刷写”**工具。
 
 **根目录下的关键文件：**
+
 - `flash.bat` — 主脚本：将当前BIOS备份到 `BACKUP.BIN`，然后使用Intel Flash Programming Tool（`fpt.exe`）刷写 `NEWBIOS.BIN`
 - `fpt.exe` — Intel Flash Programming Tool
 - `NEWBIOS.BIN` / `OLDBIOS.BIN` — 新版/旧版BIOS镜像（各4 MB）

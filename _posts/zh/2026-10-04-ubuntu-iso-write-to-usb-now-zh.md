@@ -11,7 +11,7 @@ type: note
 
 Unmounted ✅。该 stick 现已 write-ready **现在**。
 
-### 运行此单个命令（需要您的 password）：
+### 运行此单个命令（需要您的 password）
 
 ```bash
 sudo dd if=/Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso of=/dev/rdisk12 bs=4m status=progress conv=fsync
@@ -22,6 +22,7 @@ sudo dd if=/Users/lzwjava/Downloads/ubuntu-26.04-desktop-amd64.iso of=/dev/rdisk
 - 它会显示 progress bar；等待直到看到 `xxxx+0 records in` / `xxxx+0 records out` 并返回到 `$` prompt
 
 **Do NOT** 在完成之前：
+
 - Eject、unplug 或在 Finder 中点击任何内容
 - 运行 Disk Utility
 

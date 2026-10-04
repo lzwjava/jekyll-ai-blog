@@ -16,7 +16,7 @@ type: note
 当前这台机器上的物理磁盘：
 
 | 设备 | 类型 |
-|---|---|
+| --- | --- |
 | `/dev/disk0` | 内置、物理（500 GB SSD）⛔ 切勿触碰 |
 | disk4/6/8/10 | 磁盘映像（iOS 模拟器）🎭 非真实设备 |
 
@@ -40,6 +40,7 @@ diskutil list
 📌 注意：`diskutil list | grep -i external` 未显示任何结果，因为唯一的物理磁盘是内置的——`diskutil list external` 也并未输出硬件行。
 
 **操作步骤：**
+
 1. 将 U 盘物理插入 Mac
 2. 再次运行 `diskutil list` 并将输出粘贴至此
 3. 然后我们使用 `dd` 进行烧录
