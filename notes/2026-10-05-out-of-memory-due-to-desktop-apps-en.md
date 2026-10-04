@@ -12,6 +12,7 @@ type: note
 Checked tmux `1` — it failed again, but **this time in a different place**: not the eval, but the very first optimizer step.
 
 **What happened**
+
 ```
 Step 00000 | Validation bpb: 3.171073     ← startup + step-0 eval OK
 ...
@@ -25,7 +26,7 @@ The `--core-metric-max-per-task=50` change is fine — the CORE eval never even 
 **Root cause: desktop apps are eating your VRAM now**
 
 | Process | VRAM |
-|---|---|
+| --- | --- |
 | Xorg | 1,184 MiB |
 | gnome-shell | 218 MiB |
 | **Chromium** | 153 MiB |

@@ -18,16 +18,19 @@ Pi 的启动模型来自 `<agent-dir>/settings.json` 中的 `defaultProvider` + 
 ## 变更
 
 **新文件**
+
 - `ww/pi/__init__.py`
 - `ww/pi/set_model.py` — 解析 `<provider>/<model>`（在第一个 `/` 处分割），或通过 `--provider` 指定完整模型 ID，合并到 `settings.json` 中并保留其他键，输出旧值 → 新值
 - `ww/pi/show_model.py` — 输出当前的 `provider/model`
 
 **`ww/main.py`**
+
 - 新增 `elif group == "pi":` 分发块（`set-model`, `show-model`）
 - 在 `_print_help()` 中添加帮助文本段 `Pi:`
 - 将 `"pi"` 添加到未知命令建议列表
 
 **`completions/_ww`**（仓库源；使用 `ww completion install` 然后执行 `autoload -Uz compinit && compinit` 刷新你的 shell）
+
 - 在顶层 `commands` 数组中添加 `pi` 条目
 - 添加 `pi_cmds` 子命令数组
 - 在子命令分发器中添加 `pi)` 分支

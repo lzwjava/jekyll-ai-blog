@@ -12,6 +12,7 @@ type: note
 已检查 tmux `1` — 再次失败，但**这次出在另一个位置**：不是 eval 阶段，而是第一个优化器步骤。
 
 **发生了什么**
+
 ```
 Step 00000 | Validation bpb: 3.171073     ← 启动 + step-0 评估正常
 ...
@@ -25,7 +26,7 @@ torch.OutOfMemoryError: ... 61.81 MiB 空闲
 **根本原因：桌面应用正在吃掉你的显存**
 
 | 进程 | 显存 |
-|---|---|
+| --- | --- |
 | Xorg | 1,184 MiB |
 | gnome-shell | 218 MiB |
 | **Chromium** | 153 MiB |

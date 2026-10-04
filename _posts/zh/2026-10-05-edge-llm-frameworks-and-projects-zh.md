@@ -33,7 +33,7 @@ type: note
 **快速选择指南**
 
 | 目标 | 使用 |
-|---|---|
+| --- | --- |
 | Mac 或 iPhone，追求最高速度 | MLX（或使用内置模型的 Apple Foundation Models） |
 | 任意模型，任意硬件 | llama.cpp + GGUF |
 | 跨平台移动应用 | React Native ExecuTorch |
@@ -51,6 +51,7 @@ type: note
 框架排名变化迅速，且许多来源为博客文章或供应商页面。在正式采用前，请查阅相关仓库获取最新版本。
 
 参考文献：
+
 - [awesome-mobile-llm](https://github.com/stevelaskaridis/awesome-mobile-llm)
 - [apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench)
 - [2026 年最佳设备端 LLM 框架 (Cactus)](https://cactuscompute.com/compare/best-on-device-llm-framework)

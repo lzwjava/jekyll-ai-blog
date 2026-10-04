@@ -18,16 +18,19 @@ Pi's startup model comes from `defaultProvider` + `defaultModel` in `<agent-dir>
 ## Changes
 
 **New files**
+
 - `ww/pi/__init__.py`
 - `ww/pi/set_model.py` — parses `<provider>/<model>` (split at first `/`), or a full model id with `--provider`, merges into `settings.json` preserving other keys, prints previous → new value
 - `ww/pi/show_model.py` — prints current `provider/model`
 
 **`ww/main.py`**
+
 - New `elif group == "pi":` dispatch block (`set-model`, `show-model`)
 - Help text section `Pi:` in `_print_help()`
 - Added `"pi"` to the unknown-command suggestion list
 
 **`completions/_ww`** (repo source; refresh your shell with `ww completion install` then `autoload -Uz compinit && compinit`)
+
 - `pi` entry in top-level `commands` array
 - `pi_cmds` subcommand array
 - `pi)` case in the subcommand dispatcher

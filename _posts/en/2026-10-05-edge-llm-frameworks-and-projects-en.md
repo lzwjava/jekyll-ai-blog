@@ -33,7 +33,7 @@ Answer:
 **Quick picks**
 
 | Goal | Use |
-|---|---|
+| --- | --- |
 | Mac or iPhone, max speed | MLX (or Apple Foundation Models for the built-in model) |
 | Any model, any hardware | llama.cpp + GGUF |
 | Cross-platform mobile app | React Native ExecuTorch |
@@ -51,6 +51,7 @@ Answer:
 Framework rankings change quickly, and many of these sources are blog posts or vendor pages. Check the repos for the latest versions before committing.
 
 References:
+
 - [awesome-mobile-llm](https://github.com/stevelaskaridis/awesome-mobile-llm)
 - [apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench)
 - [Best On-Device LLM Framework in 2026 (Cactus)](https://cactuscompute.com/compare/best-on-device-llm-framework)

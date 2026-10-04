@@ -21,12 +21,14 @@ You trained a model. **How smart is it?** This file answers that by giving it a 
 
 **Type 1: Multiple choice** (`multiple_choice`)
 > Q: The capital of France is ___
+>
 > - A) London  - B) Paris  - C) Berlin
 
 The model scores each option by how "surprised" it is (loss). Least surprised = its guess. If it guesses "Paris" and that's the gold answer → correct.
 
 **Type 2: Schema** (`schema`) — basically multiple choice, backwards
 > Complete: "The ___ was delicious"
+>
 > - A) "car"  - B) "meal"
 
 Same idea: score each option, pick the lowest-loss one.

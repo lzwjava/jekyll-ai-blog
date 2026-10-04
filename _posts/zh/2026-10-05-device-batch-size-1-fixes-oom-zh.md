@@ -31,10 +31,12 @@ NANOCHAT_BASE_DIR=/mnt/data/nanochat-cache \
 ```
 
 注意：
+
 - **别费心添加 `PYTORCH_CUDA_ALLOC_CONF`** — 我查过了：`base_train.py:15` 在导入 torch *之前* 已经设置了 `PYTORCH_ALLOC_CONF=expandable_segments:True`，而且它无论如何都优先于 CUDA 变体。提示此设置的错误消息只是 PyTorch 的通用模板 — 内存是物理耗尽，而不仅仅是碎片化（仅剩 62 MiB 可用）。
 - 新估算：~8.3-8.6 GB 进程 + 2.05 GB 桌面 ≈ 在 11.56 GB 的显卡上留有 **0.7-1 GB 余量**。
 
 如果*仍然* OOM，接下来的后备方案（按顺序）：
+
 1. `--eval-tokens=2097156` — 缩小每次 val-eval 遍（默认是巨大的 41.9M tokens ≈ 每 250 步耗时 7 分钟；这也能加速运行）
 2. `--eval-every=-1` — 完全跳过 val bpb，只保留 CORE 指标
 
