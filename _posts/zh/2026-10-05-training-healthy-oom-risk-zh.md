@@ -16,7 +16,7 @@ type: note
 **进程：** `python -m scripts.base_train --depth=18 --max-seq-len=1024 --device-batch-size=1 --tracker=none --run=d18-climbmix --core-metric-max-per-task=50 --save-every=250`（PID 3976056，今日 02:59 启动）
 
 | 指标 | 数值 |
-|---|---|
+| --- | --- |
 | 进度 | 步骤 **544 / 3712**（约 14.6%），第 1 个 epoch |
 | 损失 | 约 2.97（从初始的 10.4 下降；近期范围 2.82–3.07） |
 | 速度 | 约 14,000 tok/s，约 75 秒/步 |

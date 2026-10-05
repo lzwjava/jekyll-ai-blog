@@ -34,6 +34,7 @@ Because the board is secondhand, also confirm that the CPU you installed has int
 If none of that helps, send me your Ubuntu version, output of `echo $XDG_SESSION_TYPE`, your CPU model, and the result of the Num Lock test, and I can narrow it down.
 
 References:
+
 - [Why Does My Monitor Go to Sleep But Never Wake Up on Ubuntu?](https://us.ktcplay.com/blogs/support-tips/ubuntu-monitor-wont-wake-up)
 - [Monitor won't enter sleep when logged in (Ubuntu Budgie 24.04)](https://discourse.ubuntubudgie.org/t/monitor-wont-enter-sleep-when-logged-in-ubuntu-budgie-24-04/7257)
 - [monitor doesn't turn on, dpms after upgrade (Arch Linux forums)](https://bbs.archlinux.org/viewtopic.php?id=259462)

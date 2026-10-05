@@ -16,7 +16,7 @@ Checked tmux session `1`. Here's the full status:
 **Process:** `python -m scripts.base_train --depth=18 --max-seq-len=1024 --device-batch-size=1 --tracker=none --run=d18-climbmix --core-metric-max-per-task=50 --save-every=250` (PID 3976056, launched today 02:59)
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Progress | step **544 / 3712** (~14.6%), epoch 1 |
 | Loss | ~2.97 (down from 10.4 at init; recent range 2.82–3.07) |
 | Speed | ~14,000 tok/s, ~75 s/step |
@@ -34,6 +34,7 @@ The scrollback shows an earlier run in this same session reached **step 1999/371
 ## Risk flag
 
 Training already uses **92% of VRAM**, and the eval at step 2000 runs on top of that — the same OOM will likely recur around **Oct 6 ~21:00** (step 2000). Before then, consider either:
+
 - relaunching with `PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True` (the traceback's own suggestion), or
 - patching the eval path to free training memory / eval in smaller chunks.
 

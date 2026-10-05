@@ -34,6 +34,7 @@ type: note
 如果以上方法均无效，请提供你的 Ubuntu 版本、`echo $XDG_SESSION_TYPE` 的输出、CPU 型号以及 Num Lock 测试结果，我可以进一步缩小范围。
 
 参考链接：
+
 - [为什么我的显示器在 Ubuntu 上进入休眠后无法唤醒？](https://us.ktcplay.com/blogs/support-tips/ubuntu-monitor-wont-wake-up)
 - [登录后显示器无法进入休眠（Ubuntu Budgie 24.04）](https://discourse.ubuntubudgie.org/t/monitor-wont-enter-sleep-when-logged-in-ubuntu-budgie-24-04/7257)
 - [升级后显示器不亮，dpms 问题（Arch Linux 论坛）](https://bbs.archlinux.org/viewtopic.php?id=259462)
