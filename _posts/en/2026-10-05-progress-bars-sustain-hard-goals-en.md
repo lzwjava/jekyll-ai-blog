@@ -22,6 +22,7 @@ Answer: Yes, broadly. Note that mindhacks.cn blocked my direct access, so this i
 So your reading is right: progress visibility is one of the key mechanisms for sustaining effort on hard things, working alongside focus and dark-time thinking.
 
 References:
+
 - [设计你自己的进度条 (excerpt, Mind Hacks 学习方法)](http://mindhacks.cn/topics/learning-method/)
 - [暗时间 (Mind Hacks)](http://mindhacks.cn/2009/12/20/dark-time/)
 - [暗时间 (豆瓣, table of contents)](https://m.douban.com/book/subject/6709809/)

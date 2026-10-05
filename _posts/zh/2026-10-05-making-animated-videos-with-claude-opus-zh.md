@@ -20,10 +20,12 @@ type: note
 1. **使用编码代理（Claude Code 是常见选择）。** 人们会提供一个长而详细的指令，让它工作数小时。据报道，Claude Code 曾在一段备受推崇的音乐视频上自主工作十二小时，通过查看自身输出来修正错误。
 2. **选择渲染路径。** HyperFrames 适合 HTML 和 GSAP 工作，Manim 适合数学和数据讲解，Blender（通过其官方 Claude 连接器）适合 3D，而 Remotion 适合已经会写 React 的人。独立测试发现，Opus 5.5 倾向于自行选择最简单的路径：一个 HTML 文件、一个 seek 函数，以及 Playwright 来捕获帧。
 3. **如需可编辑项目，请安装 Remotion 插件。** Remotion 的官方 Claude Code 插件可帮助 Claude Code 创建和编辑 Remotion 项目。设置命令如下：
+
    ```
    claude plugin marketplace add remotion-dev/claude-code-plugin
    claude plugin install remotion@remotion
    ```
+
 4. **要求一个可编辑项目并明确渲染步骤。** 好的提示会要求帧驱动动画和本地资源，例如一个 15 秒的产品发布视频，或一个基于 CSV 文件的 20 秒图表动画。然后导出，例如：`npx remotion render src/index.tsx Promo out/promo.mp4 --codec=h264 --pixel-format=yuv420p --muted`
 5. **（可选）混入视频模型。** 某些项目会使用视频模型制作实景镜头和物理效果，然后让 Opus 5.5 在该参考基础上重绘每一帧，以获得一致风格。
 
@@ -34,6 +36,7 @@ type: note
 **轻松入门方式：** 从 Remotion 的一个 10–15 秒小项目开始，确认导出正常，再扩展到更长的作品。
 
 参考资料：
+
 - [Opus 5.5 通过编写绘制每帧的程序生成动态设计视频](https://pasqualepillitteri.it/news/19006/opus-5-5-motion-design-video)
 - [Claude Opus 5.5 动态图形：最佳工具，免费与付费](https://capitalandcompute.net/blog/claude-motion-graphics-tools/)
 - [使用 Opus 5.5 制作视频：提示与 MP4 导出](https://ofox.ai/blog/opus-5-5-video-prompts-mp4-guide/)

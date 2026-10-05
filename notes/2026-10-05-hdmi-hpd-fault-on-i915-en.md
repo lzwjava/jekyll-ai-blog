@@ -34,6 +34,7 @@ Oct 05 19:40:20 kernel: workqueue: i915_hpd_poll_init_work [i915] hogged CPU ...
 The HDMI connector's **Hot‑Plug‑Detect (HPD, pin 19)** signal is bouncing. Each time HPD deasserts, i915 thinks the monitor was unplugged and does a full modeset → screen goes black. When HPD comes back it re‑detects and lights up. The storm got so bad the driver gave up on interrupts and fell back to **polling**, and the polling work (`i915_hpd_poll_init_work`) kept re‑detecting the connector — hence the recurring ~1 s blackouts roughly every 30 s.
 
 I ruled out the software suspects:
+
 - `gsettings`: `idle-delay = 0` → GNOME **never** blanks or DPMS‑offs the screen. `ww linux screen-lock` is not involved.
 - No cron jobs, no user timers, no custom watchers touching the display.
 - In a live 60 s watch just now, `status` stayed `connected` and no new HPD messages appeared — so the fault is **intermittent**, matching your "time by time".
@@ -52,10 +53,12 @@ I ruled out the software suspects:
 3. Bypass any switch/KVM.
 4. In the monitor OSD, turn off **Auto Source / HDMI‑CEC / Deep Sleep**.
 5. Watch live to confirm it's fixed:
+
    ```bash
    watch -n1 cat /sys/class/drm/card1-HDMI-A-1/status
    journalctl -k -f | grep -iE 'HDMI-A-1|HPD|storm'
    ```
+
    Any `disconnected` blips or new `HPD interrupt storm` lines = cable/port still bad.
 
 ### Software workaround if hardware can't be swapped right now
@@ -63,9 +66,11 @@ I ruled out the software suspects:
 You can force the connector to stay on regardless of HPD, which stops the blackouts (at the cost of the mode being fixed):
 
 - Add to the kernel cmdline (`/etc/default/grub`, then `sudo update-grub && reboot`):
+
   ```
   video=HDMI-A-1:1920x1080@60e
   ```
+
   The trailing `e` forces the connector enabled even when HPD drops. Also add `drm.debug=0` only if you need to debug further.
 
 This masks the symptom — the real fix is the cable/port.

@@ -34,6 +34,7 @@ Oct 05 19:40:20 kernel: workqueue: i915_hpd_poll_init_work [i915] hogged CPU ...
 HDMI 连接器的 **热插拔检测（HPD，第 19 针）** 信号在抖动。每次 HPD 信号撤销时，i915 认为显示器被拔掉了，于是执行完整的模式切换 → 屏幕变黑。当 HPD 信号恢复时，它重新检测并点亮屏幕。风暴严重到驱动放弃中断，改为 **轮询**，而轮询工作（`i915_hpd_poll_init_work`）反复重新检测连接器 —— 因此大约每 30 秒出现一次约 1 秒的黑屏。
 
 我排除了软件方面的嫌疑：
+
 - `gsettings`: `idle-delay = 0` → GNOME **从不** 熄灭屏幕或执行 DPMS 关闭。`ww linux screen-lock` 未涉及。
 - 没有影响显示的 cron 作业、用户定时器或自定义监控进程。
 - 在刚才 60 秒的实时监控中，`status` 保持 `connected`，也没有出现新的 HPD 消息 —— 所以故障是 **间歇性的**，与你所说的“时不时”相符。
@@ -52,10 +53,12 @@ HDMI 连接器的 **热插拔检测（HPD，第 19 针）** 信号在抖动。�
 3. 绕过任何切换器 / KVM。
 4. 在显示器 OSD 中关闭 **自动信号源 / HDMI-CEC / 深度睡眠**。
 5. 实时监控确认问题已修复：
+
    ```bash
    watch -n1 cat /sys/class/drm/card1-HDMI-A-1/status
    journalctl -k -f | grep -iE 'HDMI-A-1|HPD|storm'
    ```
+
    如果出现 `disconnected` 闪烁或新的 `HPD interrupt storm` 行，说明线材/接口仍有问题。
 
 ### 如果暂时无法更换硬件，可用的软件临时方案
@@ -63,9 +66,11 @@ HDMI 连接器的 **热插拔检测（HPD，第 19 针）** 信号在抖动。�
 你可以强制连接器忽略 HPD 信号保持开启状态，这样可以阻止黑屏（代价是模式被固定）：
 
 - 在内核启动参数中添加（`/etc/default/grub`，然后执行 `sudo update-grub && reboot`）：
+
   ```
   video=HDMI-A-1:1920x1080@60e
   ```
+
   末尾的 `e` 表示即使 HPD 信号丢失也强制启用连接器。仅当需要进一步调试时才添加 `drm.debug=0`。
 
 这只是掩盖了症状 —— 真正的修复是更换线材/接口。

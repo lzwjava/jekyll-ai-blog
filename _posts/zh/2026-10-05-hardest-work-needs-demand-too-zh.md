@@ -26,5 +26,6 @@ type: note
 你想法的一个更实用版本是：寻找以下三者的交集——（a）对大多数人来说很难的事，（b）你有一定优势或深度兴趣的事，（c）别人愿意为之付费的事。把自己推向这个交集的顶部。
 
 参考：
+
 - [卡尔·纽波特，《优秀到不能被忽视》（职业资本概念）](https://calnewport.com/books/so-good-they-cant-ignore-you/)
 - [比较优势，Investopedia](https://www.investopedia.com/terms/c/comparativeadvantage.asp)

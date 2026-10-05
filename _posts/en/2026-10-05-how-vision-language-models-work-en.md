@@ -20,6 +20,7 @@ Answer: A vision-language model takes images (and sometimes video) together with
 **3. Large language model (LLM).** The visual tokens are placed in the LLM's input sequence alongside the text tokens of the prompt. The LLM then generates the answer one token at a time, attending to both the image tokens and the text. To the LLM, the image is effectively a sequence of extra "words."
 
 **Training** usually happens in stages:
+
 - *Alignment pretraining:* train on large sets of image-caption pairs so the connector learns to translate visual features into something the LLM understands. The encoder and LLM are often frozen at this point.
 - *Instruction tuning:* fine-tune on image-based conversations, question answering, OCR, charts, and reasoning tasks so the model follows instructions about images.
 - *Optional preference tuning (RLHF or similar):* reduces hallucinations and improves helpfulness.
@@ -29,6 +30,7 @@ Answer: A vision-language model takes images (and sometimes video) together with
 **Common limitations:** VLMs can hallucinate details that aren't in the image, struggle with fine spatial reasoning and counting, and may miss small text when high-resolution images are downscaled (newer models tile images or use dynamic resolution to help with this).
 
 References:
+
 - [Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)
 - [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)

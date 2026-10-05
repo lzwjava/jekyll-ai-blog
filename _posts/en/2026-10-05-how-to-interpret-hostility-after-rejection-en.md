@@ -14,6 +14,7 @@ Question: If someone turns hostile toward you after being rejected (for a job, a
 Answer: Not necessarily. Hostility after rejection is a real signal, but it doesn't automatically prove someone is "bad at heart." It's better read as information about how they handle disappointment, not a verdict on their whole character.
 
 **Other explanations besides a bad heart:**
+
 - **High stakes:** A job or contract may mean income, security, or months of effort. Anger can be fear or panic in disguise.
 - **Wounded self-worth:** Some people experience rejection as a judgment of who they are, not of one decision. Lashing out is a defense against shame.
 - **Poor emotional regulation:** Reacting impulsively, especially in the first hours or days, is common. Some people calm down and apologize later.
@@ -21,6 +22,7 @@ Answer: Not necessarily. Hostility after rejection is a real signal, but it does
 - **Lack of closure:** Vague or delayed rejections tend to provoke more resentment than clear, respectful ones.
 
 **When it does point to a character problem:**
+
 - The hostility is sustained, not a short-lived reaction.
 - It turns into personal attacks, threats, defamation, or sabotage.
 - It's a pattern: they react this way to every setback, and they blame others consistently.
@@ -33,4 +35,5 @@ Answer: Not necessarily. Hostility after rejection is a real signal, but it does
 In short: a hostile reaction can be a warning sign, but the better test of someone's heart is how they behave over time, not in their worst moment.
 
 References:
+
 - None (this answer is based on general psychological understanding, not specific sources)

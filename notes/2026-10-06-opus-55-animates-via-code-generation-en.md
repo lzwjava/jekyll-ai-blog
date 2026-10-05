@@ -49,6 +49,7 @@ Frame rendering is not a model API call. A 3,760-frame render at 24 fps runs on 
 ---
 
 **References:**
+
 - [Opus 5.5 generates motion design videos by writing a program that draws every frame](https://pasqualepillitteri.it/en/news/19007/opus-5-5-motion-design-video-en)
 - [Claude Opus 5.5 Wrote a Product Launch Video: What "One Click" Actually Renders](https://www.orcarouter.ai/blog/claude-opus-5-5-product-video-skill)
 - [Claude Opus 5.5 能生成视频吗：它写代码，画面靠渲染](https://blog.laozhang.ai/zh/posts/claude-opus-5-5-video-generation.md)

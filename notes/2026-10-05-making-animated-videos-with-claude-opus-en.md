@@ -20,10 +20,12 @@ Answer:
 1. **Use a coding agent (Claude Code is the common choice).** People give it a long, detailed brief and let it work for hours. Claude Code reportedly worked autonomously for twelve hours on the most-cited music video, correcting itself by looking at its own outputs.
 2. **Pick a render route.** HyperFrames suits HTML and GSAP work, Manim suits math and data explainers, Blender (via its official Claude connector) suits 3D, and Remotion suits people who already write React. Independent tests found Opus 5.5 tends to default to the simplest route on its own: one HTML file, a seek function, and Playwright to capture frames.
 3. **Install the Remotion plugin if you want editable projects.** Remotion's official Claude Code plugin helps Claude Code create and edit Remotion projects. The setup commands are:
+
    ```
    claude plugin marketplace add remotion-dev/claude-code-plugin
    claude plugin install remotion@remotion
    ```
+
 4. **Ask for an editable project plus an explicit render step.** A good prompt asks for frame-driven animation and local assets, for example a 15-second product launch video or a 20-second chart animation from a CSV file. Then export, e.g. `npx remotion render src/index.tsx Promo out/promo.mp4 --codec=h264 --pixel-format=yuv420p --muted`
 5. **Optionally mix in a video model.** Some projects use a video model for live-action footage and physics, then have Opus 5.5 redraw each frame over that reference to get a consistent style.
 
@@ -34,6 +36,7 @@ Answer:
 **Easy way to start:** begin with a small 10–15 second project in Remotion to confirm the export works, then scale up to a longer piece.
 
 References:
+
 - [Opus 5.5 generates motion design videos by writing a program that draws each frame](https://pasqualepillitteri.it/news/19006/opus-5-5-motion-design-video)
 - [Claude Opus 5.5 Motion Graphics: Best Tools, Free and Paid](https://capitalandcompute.net/blog/claude-motion-graphics-tools/)
 - [Make videos with Opus 5.5: prompts and MP4 export](https://ofox.ai/blog/opus-5-5-video-prompts-mp4-guide/)

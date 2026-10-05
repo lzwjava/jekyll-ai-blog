@@ -14,7 +14,7 @@ I dug into the actual machine instead of trusting the generic Q&A, and found sev
 ## What the system actually is
 
 | Item | Value |
-|---|---|
+| --- | --- |
 | Board | MSI **Z170A GAMING M5 (MS-7977)** — matches your MSI board |
 | OS / DE | Ubuntu 26.04, **GNOME Shell 50.1** |
 | Session | **Wayland** (`XDG_SESSION_TYPE=wayland`) |
@@ -27,6 +27,7 @@ Two important corrections to the answer you pasted:
 
 1. **You're on Wayland, not Xorg.** So steps 4 (`xset -dpms s off`) and 6 (hand-made `xorg.conf`) do **nothing** here — GNOME/mutter manages DPMS on Wayland, not the X server. Those are Xorg-only.
 2. **Suspend is not your problem.** On AC, `sleep-inactive-ac-timeout` was already `0`. What actually fires is GNOME's **screen blank** (`idle-delay=300`, i.e. ~5 min, not 30 — you likely misremembered, or dim-at-4.5-min made it feel longer). After blanking, mutter turns the i915 pipe off; your HDMI monitor then sleeps and the i915↔AOC link doesn't renegotiate on wake. The kernel even hints at the underlying Skylake weakness in your log:
+
    ```
    i915 ... Reducing the compressed framebuffer size. ... Try to increase stolen memory size if available in BIOS.
    ```
@@ -39,11 +40,13 @@ gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
 ```
+
 Verified: `idle-delay=0`, `idle-dim=false`, both sleep timeouts `0`. This stops the display from ever entering the state that wedges it. It's a workaround, not the root-cause fix.
 
 ## The real fix (needs sudo — you have no passwordless sudo here)
 
 **1. Disable Skylake display power (DC) states — the actual root cause.** This is the known "Intel Skylake screen won't come back after DPMS off" bug:
+
 ```bash
 sudo cp /etc/default/grub /etc/default/grub.bak
 # append to GRUB_CMDLINE_LINUX_DEFAULT (inside the quotes):
@@ -54,6 +57,7 @@ sudo reboot
 ```
 
 **2. Fix the BIOS DVMT/stolen memory (the kernel literally asked for this).** Reboot into MSI BIOS → *Settings → Advanced → Integrated Graphics Configuration*:
+
 - **DVMT Pre-Allocated: 64M** (or higher; default 32M is too small)
 - **DVMT Total Gfx Mem: MAX**
 - **IGD Multi-Monitor: Enabled**

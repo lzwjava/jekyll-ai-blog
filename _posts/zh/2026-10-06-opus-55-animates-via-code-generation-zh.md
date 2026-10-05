@@ -49,6 +49,7 @@ type: note
 ---
 
 **参考：**
+
 - [Opus 5.5 通过编写绘制每一帧的程序来生成动画设计视频](https://pasqualepillitteri.it/en/news/19007/opus-5-5-motion-design-video-en)
 - [Claude Opus 5.5 编写了一个产品发布视频：“一键”实际渲染了什么](https://www.orcarouter.ai/blog/claude-opus-5-5-product-video-skill)
 - [Claude Opus 5.5 能生成视频吗：它写代码，画面靠渲染](https://blog.laozhang.ai/zh/posts/claude-opus-5-5-video-generation.md)

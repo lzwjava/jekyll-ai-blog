@@ -14,7 +14,7 @@ type: note
 ## 系统实际配置
 
 | 项目 | 值 |
-|---|---|
+| --- | --- |
 | 主板 | MSI **Z170A GAMING M5 (MS-7977)** — 与你之前的MSI主板一致 |
 | 操作系统/桌面环境 | Ubuntu 26.04, **GNOME Shell 50.1** |
 | 会话类型 | **Wayland** (`XDG_SESSION_TYPE=wayland`) |
@@ -27,6 +27,7 @@ type: note
 
 1. **你用的是Wayland，不是Xorg。** 所以步骤4 (`xset -dpms s off`) 和步骤6（手动创建的 `xorg.conf`）在这里**完全无效**——GNOME/mutter 在Wayland上管理DPMS，而不是X服务器。那些仅适用于Xorg。
 2. **休眠不是你的问题。** 在交流电下，`sleep-inactive-ac-timeout` 原本就是 `0`。实际触发的是GNOME的**息屏**（`idle-delay=300`，即约5分钟，不是30分钟——你可能记错了，或者因为4.5分钟变暗让你感觉时间更长）。息屏后，mutter关闭了i915管道；你的HDMI显示器随之休眠，唤醒时i915↔AOC链路没有重新协商。内核甚至在你日志中提示了Skylake的基础弱点：
+
    ```
    i915 ... 减少压缩帧缓冲区大小。... 如果可能，请在BIOS中增加stolen memory大小。
    ```
@@ -39,11 +40,13 @@ gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
 ```
+
 已验证：`idle-delay=0`，`idle-dim=false`，两个休眠超时均为 `0`。这将阻止显示器进入会导致卡死的状态。这是一个临时解决方案，而非根本修复。
 
 ## 真正的修复（需要sudo——你当前没有免密码sudo权限）
 
 **1. 禁用Skylake显示电源（DC）状态——真正的根本原因。** 这是已知的“Intel Skylake屏幕在DPMS关闭后无法唤醒”的bug：
+
 ```bash
 sudo cp /etc/default/grub /etc/default/grub.bak
 # 在GRUB_CMDLINE_LINUX_DEFAULT中追加（在引号内）：
@@ -54,6 +57,7 @@ sudo reboot
 ```
 
 **2. 修复BIOS DVMT/stolen memory（内核明确要求了这一点）。** 重启进入MSI BIOS → *Settings → Advanced → Integrated Graphics Configuration*：
+
 - **DVMT Pre-Allocated: 64M**（或更高；默认32M太小）
 - **DVMT Total Gfx Mem: MAX**
 - **IGD Multi-Monitor: Enabled**

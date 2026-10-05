@@ -14,7 +14,7 @@ Re-checked session `1` — still running fine, progressing normally:
 ## Status @ 16:30 (was 14:58)
 
 | Metric | Now | Last check |
-|---|---|---|
+| --- | --- | --- |
 | Progress | **step 614 / 3712 (16.54%)** | 544 (14.63%) |
 | Loss | ~2.97–3.11 (range last 6 steps) | ~2.96 |
 | Speed | ~13,000–13,600 tok/s, 77–81 s/step | ~14,000 tok/s, 75 s/step |

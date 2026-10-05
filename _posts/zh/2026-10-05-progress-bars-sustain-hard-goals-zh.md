@@ -22,6 +22,7 @@ type: note
 所以你的理解没错：进度可见性是维持困难任务努力的关键机制之一，它与专注和暗时间思考共同起作用。
 
 参考文献：
+
 - [设计你自己的进度条（节选，Mind Hacks 学习方法）](http://mindhacks.cn/topics/learning-method/)
 - [暗时间（Mind Hacks）](http://mindhacks.cn/2009/12/20/dark-time/)
 - [暗时间（豆瓣，目录）](https://m.douban.com/book/subject/6709809/)

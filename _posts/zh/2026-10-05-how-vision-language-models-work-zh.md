@@ -20,6 +20,7 @@ type: note
 **3. Large language model (LLM).** 视觉token与提示的文本token一起放入LLM的输入序列中。LLM逐token生成答案，同时关注图像token和文本。对LLM而言，图像实际上是一串额外的"单词"。
 
 **训练**通常分为几个阶段：
+
 - *Alignment pretraining:* 在大量图像-标题对上进行训练，使连接器学会将视觉特征转换为LLM能理解的内容。此时编码器和LLM通常冻结。
 - *Instruction tuning:* 在基于图像的对话、问答、OCR、图表和推理任务上进行微调，使模型能够遵循关于图像的指令。
 - *Optional preference tuning (RLHF or similar):* 减少幻觉，提高有用性。
@@ -29,6 +30,7 @@ type: note
 **常见局限性：** VLM可能会幻觉出图像中不存在的细节，在精细空间推理和计数方面表现不佳，并且当高分辨率图像被缩小时可能错过小文字（较新的模型通过平铺图像或使用动态分辨率来解决这个问题）。
 
 参考文献：
+
 - [Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)
 - [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)

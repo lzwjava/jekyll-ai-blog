@@ -18,6 +18,7 @@ Everything else is workable. That one fact is what makes this setup fragile:
 - **It drags in the `comfy_kitchen` conflict.** Because you're pinned old, the current `comfy_kitchen` (which needs newer `infer_schema`) nearly broke the install. There's a narrow window (2.7+cu126) where *both* Maxwell kernels and the newer torch API exist — that's the only reason it worked.
 
 Secondary, but not blocking:
+
 - **7 GB RAM** — tight; model loading will swap.
 - **Weak FP16** — Maxwell runs fp16 slowly, so fp32 is safer but costs speed/VRAM.
 

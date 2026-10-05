@@ -26,5 +26,6 @@ Where it breaks down:
 A more practical version of your idea: look for the intersection of (a) things that are hard for most people, (b) things you have some edge or deep interest in, and (c) things others will pay for. Push yourself toward the top of that overlap.
 
 References:
+
 - [Cal Newport, "So Good They Can't Ignore You" (career capital concept)](https://calnewport.com/books/so-good-they-cant-ignore-you/)
 - [Comparative advantage, Investopedia](https://www.investopedia.com/terms/c/comparativeadvantage.asp)

@@ -30,4 +30,5 @@ Answer: Mostly yes, though with an important caveat.
 **A practical rule of thumb:** Be generous and flexible in daily life, but make major financial arrangements clear and agreed upon. Fairness over the long run matters more than exactness in each moment, and if someone feels consistently taken advantage of, it's worth discussing openly rather than dismissing with "we're family."
 
 References:
+
 - [Clark & Mills, "Communal and exchange relationships" (Personality and Social Psychology Bulletin, 1979)](https://journals.sagepub.com/doi/10.1177/014616727900500407)
