@@ -27,6 +27,7 @@ sudo diskutil eject /dev/disk12
 ```
 
 Key points:
+
 - `of=/dev/rdisk12` (raw device) — **never** write to `/dev/disk12` (the logical device), or macOS may not flush the data properly.
 - `conv=fsync` ensures all data is flushed to the stick before dd exits.
 - `bs=4m` speeds things up; the whole write should take under a minute.

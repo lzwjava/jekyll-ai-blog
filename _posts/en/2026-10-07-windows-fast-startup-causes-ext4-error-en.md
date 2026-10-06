@@ -29,6 +29,7 @@ The file system wasn't safely closed on Windows. Fixing.
 The problem is your **Kali Linux persistence partition** (`sdb4`, labeled `writable`) is being **accessed by Windows before Linux boots**. Windows touches the EXT4 partition (which it can't properly handle), leaves it in a "dirty" state, and then Kali fails to mount it cleanly.
 
 This happens when:
+
 - You're dual-booting Windows + Kali
 - **Windows Fast Startup / Hibernate is enabled** — Windows doesn't fully shut down, it hibernates the disk state, causing the "unclean" flag
 
@@ -44,6 +45,7 @@ This happens when:
 6. Boot into Kali again
 
 **Also run fsck from a live session:**
+
 ```bash
 sudo fsck -y /dev/sdb4
 ```
@@ -55,6 +57,7 @@ sudo fsck -y /dev/sdb4
 ---
 
 **References:**
+
 - [Disable Windows Fast Startup for dual boot](https://help.ubuntu.com/community/WindowsDualBoot#Fast_Startup)
 - [EXT4 unclean filesystem fix](https://wiki.archlinux.org/title/Fsck)
 - [Kali Persistence setup guide](https://www.kali.org/docs/usb/usb-persistence/)

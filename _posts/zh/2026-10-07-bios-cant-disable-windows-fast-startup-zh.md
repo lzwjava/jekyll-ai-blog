@@ -18,6 +18,7 @@ type: note
 ---
 
 **选项1：禁用Secure Boot（有帮助的BIOS设置）**
+
 1. 重启 → 按`Del`、`F2`或`F12`（取决于主板）进入BIOS
 2. 进入**Boot**或**Security**选项卡
 3. 找到**Secure Boot** → 设置为**Disabled**
@@ -26,6 +27,7 @@ type: note
 ---
 
 **选项2：通过BIOS行为强制正常关机**
+
 - 在BIOS中找到**"Fast Boot"**（不同于Windows Fast Startup）
 - 将其设置为**Disabled**
 - 这会在每次启动时强制进行完整的POST检查，有助于确保磁盘状态干净
@@ -38,12 +40,15 @@ type: note
 
 1. 在Kali登录屏幕，打开终端
 2. 运行：
+
 ```bash
 sudo fsck -y /dev/sdb4
 ```
+
 3. 重启
 
 **或者** —— 在不进入Windows的情况下强制Windows关机：
+
 - 在Windows启动菜单中，按住**Shift**点击关机
 - 这会绕过Fast Startup并完全关机
 
@@ -54,5 +59,6 @@ sudo fsck -y /dev/sdb4
 ---
 
 **参考：**
+
 - [Windows Fast Startup 与 BIOS Fast Boot 的区别解释](https://www.howtogeek.com/243901/the-difference-between-fast-startup-hibernate-and-sleep-in-windows-10/)
 - [fsck 手册页面](https://man7.org/linux/man-pages/man8/fsck.8.html)

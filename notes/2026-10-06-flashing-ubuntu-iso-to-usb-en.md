@@ -18,6 +18,7 @@ sync                                # flush writes before unplugging
 ```
 
 Notes:
+
 - **`/dev/rdisk12`** (raw device) is used on macOS for faster writes — but make *absolutely sure* `disk12` is the right disk. One typo (`disk1`, `disk3`) and you'll wipe your system/Data volume. Verify with `diskutil list` before running.
 - Running `dd` on the whole disk replaces the existing GPT/partition table, so all 4 current partitions get erased — that's expected and fine.
 - Wait for `sync` to finish before unplugging. The USB is 15.7 GB, so it'll take a few minutes at USB 2.0 speeds.

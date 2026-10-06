@@ -21,6 +21,7 @@ That's the decisive failure. The sequence in the kernel log:
 The USB device is still physically on the bus (`OnlyDisk@00130000` present in IORegistry, idle), but **the media no longer responds** — same "medium not present" behavior that hung `dd`. The kernel gave up on it entirely: `Could not find disk for disk12`.
 
 **Verdict: this USB stick is dead.** Timeline of evidence:
+
 1. `dd` wrote fine to **5.04 GB** then hit bad media at a fixed LBA — pipe stalled, retried dozens of times, hung for 18+ min.
 2. After replug, `diskutil eraseDisk` **couldn't even open the device**.
 3. DiskArbitration couldn't probe a single partition — the flash isn't responding at all now.

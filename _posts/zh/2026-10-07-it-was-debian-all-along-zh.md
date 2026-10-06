@@ -20,6 +20,7 @@ type: note
 **为什么看起来像 Kali：**
 
 Kali Linux 实际上是**基于 Debian 构建的**，因此它们共享：
+
 - 相同的 EXT4 文件系统结构
 - 类似的启动信息
 - 相同的 `fsck` 错误格式
@@ -32,6 +33,7 @@ Kali Linux 实际上是**基于 Debian 构建的**，因此它们共享：
 **很可能是这样修复的：**
 
 当你重新安装/全新启动 Debian 时：
+
 - `sdb4` 上的 EXT4 日志被**重新干净地创建**
 - 来自 Windows 的“未清洁文件系统”标志被**清除**
 - 所有级联错误都消失了，因为**根本原因已被修复**
@@ -41,7 +43,7 @@ Kali Linux 实际上是**基于 Debian 构建的**，因此它们共享：
 **你当时的情况：**
 
 | 项目 | 详情 |
-|---|---|
+| --- | --- |
 | 操作系统 | Debian Linux |
 | 问题 | `sdb4` 上的 EXT4 日志损坏 |
 | 原因 | 未正常关机 / Windows 快速启动 |
@@ -64,6 +66,7 @@ sudo fsck -n /dev/sdb4
 ---
 
 **参考：**
+
 - [Debian — 官方网站](https://www.debian.org/)
 - [Kali Linux 基于 Debian](https://www.kali.org/docs/introduction/what-is-kali-linux/)
 - [EXT4 文件系统健康检查](https://man7.org/linux/man-pages/man8/fsck.8.html)

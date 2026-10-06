@@ -16,7 +16,7 @@ Your USB disk is here:
 It has a GPT partition table with 4 partitions:
 
 | Partition | Type | Size | Filesystem |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `s1` | Microsoft Basic Data | 6.5 GB | MS-DOS (FAT) |
 | `s2` | EFI | 5.3 MB | — |
 | `s3` | Microsoft Basic Data | 307 KB | — |

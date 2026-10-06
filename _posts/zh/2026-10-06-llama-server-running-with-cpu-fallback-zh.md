@@ -12,6 +12,7 @@ type: note
 完成。以下是摘要：
 
 ## 找到之前的设置
+
 从上次 pi 会话（10月4日）中，llama.cpp 是作为一个名为 `llama` 的 tmux 会话运行的，使用的是 **llama-b11344 CUDA 捆绑包**（而不是 `~/projects/llama.cpp` 源码构建）。具体命令是：
 
 ```bash

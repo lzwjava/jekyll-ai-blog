@@ -27,6 +27,7 @@ sudo diskutil eject /dev/disk12
 ```
 
 关键点：
+
 - `of=/dev/rdisk12`（原始设备）——**切勿**写入 `/dev/disk12`（逻辑设备），否则 macOS 可能无法正确刷新数据。
 - `conv=fsync` 可确保在 dd 退出前所有数据都已刷新到 U 盘。
 - `bs=4m` 可加快速度；整个写入过程应在一分钟内完成。

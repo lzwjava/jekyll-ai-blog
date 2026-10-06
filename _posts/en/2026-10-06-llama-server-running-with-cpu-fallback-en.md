@@ -12,6 +12,7 @@ type: note
 Done. Here's the summary:
 
 ## Previous setup found
+
 From the last pi session (Oct 4), llama.cpp was run as a tmux session named `llama` using the **llama-b11344 CUDA bundle** (not the `~/projects/llama.cpp` source build). The exact command was:
 
 ```bash

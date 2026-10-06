@@ -18,6 +18,7 @@ You **cannot disable Windows Fast Startup directly from BIOS** — it's a Window
 ---
 
 **Option 1: Disable Secure Boot (BIOS setting that helps)**
+
 1. Restart → press `Del`, `F2`, or `F12` (depends on motherboard) to enter BIOS
 2. Go to **Boot** or **Security** tab
 3. Find **Secure Boot** → set to **Disabled**
@@ -26,6 +27,7 @@ You **cannot disable Windows Fast Startup directly from BIOS** — it's a Window
 ---
 
 **Option 2: Force proper shutdown via BIOS behavior**
+
 - In BIOS, find **"Fast Boot"** (different from Windows Fast Startup)
 - Set it to **Disabled**
 - This forces a full POST check each boot, which helps ensure clean disk states
@@ -38,12 +40,15 @@ Since you can still see the boot messages, Kali **is actually booting**. So:
 
 1. At the Kali login screen, open a terminal
 2. Run:
+
 ```bash
 sudo fsck -y /dev/sdb4
 ```
+
 3. Reboot
 
 **OR** — Force Windows shutdown without entering Windows:
+
 - Hold **Shift** while clicking Shutdown in the Windows boot menu
 - This bypasses Fast Startup and does a full shutdown
 
@@ -54,5 +59,6 @@ sudo fsck -y /dev/sdb4
 ---
 
 **References:**
+
 - [Windows Fast Startup vs BIOS Fast Boot explained](https://www.howtogeek.com/243901/the-difference-between-fast-startup-hibernate-and-sleep-in-windows-10/)
 - [fsck manual page](https://man7.org/linux/man-pages/man8/fsck.8.html)

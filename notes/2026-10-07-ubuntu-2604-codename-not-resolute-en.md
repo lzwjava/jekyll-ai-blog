@@ -20,7 +20,7 @@ type: note
 **Codename System — Different:**
 
 | Distro | Codename Style | Example |
-|---|---|---|
+| --- | --- | --- |
 | **Kali Linux** | Adjectives | `resolute`, `kali-rolling` |
 | **Ubuntu** | Animal names (Adjective + Animal) | `noble` (24.04), `oracular` (24.10) |
 
@@ -31,7 +31,7 @@ type: note
 **Persistence Setup — Also Different:**
 
 | Feature | Kali Live USB | Ubuntu Live USB |
-|---|---|---|
+| --- | --- | --- |
 | Persistence label | `writable` | `casper-rw` |
 | Persistence folder | `/log-persistence` | `/casper-rw` |
 | Default user | `kali/kali` | `ubuntu` (no password) |
@@ -48,6 +48,7 @@ If you want to use Ubuntu instead, you would flash `ubuntu-26.04-desktop-amd64.i
 ---
 
 **References:**
+
 - [Kali Linux 2024.4 "resolute" release](https://www.kali.org/blog/kali-linux-2024-4-release/)
 - [Ubuntu release codenames list](https://wiki.ubuntu.com/DevelopmentCodeNames)
 - [Balena Etcher — USB flashing tool](https://etcher.balena.io/)

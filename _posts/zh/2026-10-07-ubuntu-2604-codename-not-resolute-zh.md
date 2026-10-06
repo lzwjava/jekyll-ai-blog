@@ -20,7 +20,7 @@ type: note
 **代号系统——不同：**
 
 | 发行版 | 代号风格 | 示例 |
-|---|---|---|
+| --- | --- | --- |
 | **Kali Linux** | 形容词 | `resolute`、`kali-rolling` |
 | **Ubuntu** | 动物名称（形容词 + 动物） | `noble` (24.04)、`oracular` (24.10) |
 
@@ -31,7 +31,7 @@ type: note
 **持久化设置——也不同：**
 
 | 功能 | Kali Live USB | Ubuntu Live USB |
-|---|---|---|
+| --- | --- | --- |
 | 持久化标签 | `writable` | `casper-rw` |
 | 持久化文件夹 | `/log-persistence` | `/casper-rw` |
 | 默认用户 | `kali/kali` | `ubuntu`（无密码） |
@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Kali Linux 2024.4 “resolute” 发布](https://www.kali.org/blog/kali-linux-2024-4-release/)
 - [Ubuntu 发布代号列表](https://wiki.ubuntu.com/DevelopmentCodeNames)
 - [Balena Etcher —— USB 刷写工具](https://etcher.balena.io/)

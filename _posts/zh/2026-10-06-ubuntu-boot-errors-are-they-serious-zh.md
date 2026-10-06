@@ -136,11 +136,11 @@ sudo e2fsck -f /dev/sda4
 
 | 消息 | 含义 | 严重？ |
 | ------------------------------------------ | ------------------------------------ | ------------------------------ |
-| GPT PMBR mismatch                          | GPT 元数据与磁盘大小不匹配 | 通常可修复 |
-| Backup GPT not at end                      | GPT 需要重新定位/修复 | 通常可修复 |
-| Backup GPT corrupt, primary OK             | 备份分区表损坏 | 如果主分区表有效则可修复 |
+| GPT PMBR mismatch | GPT 元数据与磁盘大小不匹配 | 通常可修复 |
+| Backup GPT not at end | GPT 需要重新定位/修复 | 通常可修复 |
+| Backup GPT corrupt, primary OK | 备份分区表损坏 | 如果主分区表有效则可修复 |
 | `EXT4-fs ... Could not load journal inode` | ext4 文件系统问题 | **值得修复** |
-| `file:/cdrom` package messages             | 安装程序读取 USB 介质 | 正常 |
-| `/dev/fuse not found`                      | 此环境中 FUSE 不可用 | 通常无关紧要 |
+| `file:/cdrom` package messages | 安装程序读取 USB 介质 | 正常 |
+| `/dev/fuse not found` | 此环境中 FUSE 不可用 | 通常无关紧要 |
 
 **如果进度条在大约 30 分钟内没有任何变化，我不会认为这是正常的。** 鉴于 GPT 和 ext4 错误同时出现，我会先验证 USB 和目标磁盘是否健康，而不是无限期等待。

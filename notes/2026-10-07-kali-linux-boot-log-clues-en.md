@@ -18,18 +18,21 @@ Yes, this is almost certainly **Kali Linux**. Here are the clues visible in the 
 ---
 
 **Clue 1: `file:/cdrom resolute`**
+
 ```
 Ign:1 file:/cdrom resolute InRelease
 Get:2 file:/cdrom resolute Release [664 B]
 Get:4 file:/cdrom resolute/restricted amd64 Packages
 Get:5 file:/cdrom resolute/main amd64 Packages
 ```
+
 - **"resolute"** is the codename for **Kali Linux 2024.4**
 - This is Kali's APT package source being read from the ISO/cdrom
 
 ---
 
 **Clue 2: `/dev/disk/by-label/writable` → `/log-persistence`**
+
 - This is **100% Kali Live USB persistence** setup
 - Kali names its persistence partition **"writable"** by default
 - No other distro uses this exact label/mount combination
@@ -37,6 +40,7 @@ Get:5 file:/cdrom resolute/main amd64 Packages
 ---
 
 **Clue 3: `passwd: password changed`**
+
 - Kali Live automatically resets the default `kali/kali` credentials on boot
 
 ---
@@ -44,7 +48,7 @@ Get:5 file:/cdrom resolute/main amd64 Packages
 **In Summary:**
 
 | What you're running | Details |
-|---|---|
+| --- | --- |
 | OS | Kali Linux |
 | Version | 2024.4 ("resolute") |
 | Mode | Live USB with Persistence |
@@ -55,5 +59,6 @@ This is a **bootable USB drive** running Kali Linux, not a traditionally install
 ---
 
 **References:**
+
 - [Kali Linux releases — "resolute"](https://www.kali.org/blog/kali-linux-2024-4-release/)
 - [Kali Live USB Persistence](https://www.kali.org/docs/usb/usb-persistence/)

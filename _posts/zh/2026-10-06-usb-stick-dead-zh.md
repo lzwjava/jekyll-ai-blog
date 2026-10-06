@@ -21,6 +21,7 @@ type: note
 USB device 仍然物理连接在 bus 上（`OnlyDisk@00130000` 存在于 IORegistry，空闲），但 **media 不再响应** — 与导致 `dd` 挂起的 "medium not present" 行为相同。kernel 完全放弃了它：`Could not find disk for disk12`。
 
 **结论：这个 USB stick 已死亡。** 证据时间线：
+
 1. `dd` 成功写入至 **5.04 GB**，然后在固定 LBA 处遇到 bad media — pipe 停滞，重试数十次，挂起超过 18 分钟。
 2. 重新插拔后，`diskutil eraseDisk` **甚至无法打开 device**。
 3. DiskArbitration 无法探测任何 partition — flash 现在完全无响应。
