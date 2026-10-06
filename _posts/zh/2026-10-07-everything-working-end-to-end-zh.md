@@ -14,7 +14,7 @@ type: note
 ## ✅ 最终结果
 
 | 项目 | 状态 |
-|---|---|
+| --- | --- |
 | llama.cpp + CUDA (sm_52/MMQ) 为 M40 构建 | ✅ `~/projects/llama.cpp` |
 | Qwen2.5-14B-Instruct Q5_K_M（10.5GB）已下载 | ✅ `~/projects/models/` |
 | llama-server 正在运行（已分离，PID 2785） | ✅ 端口 8080 |
@@ -24,31 +24,36 @@ type: note
 ## 📊 性能（实测）
 
 | 指标 | 速度 |
-|---|---|
+| --- | --- |
 | 提示词处理 | **38.5 tok/s** |
 | 生成（14B Q5_K_M） | **13.6 tok/s** |
 
 ## 🌐 如何从网络上的任何机器使用
 
 **Web 聊天 UI**（浏览器）：
+
 ```
 http://192.168.1.137:8080
 ```
 
 **兼容 OpenAI 的 API**（适用于任何期望 OpenAI 的工具）：
+
 ```bash
 curl http://192.168.1.137:8080/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{"messages":[{"role":"user","content":"Hello"}],"max_tokens":100}'
 ```
+
 端点：`http://192.168.1.137:8080/v1` · 模型名称 = GGUF 路径
 
 **终端聊天**（在机器本身上）：
+
 ```bash
 ~/projects/run-chat.sh
 ```
 
 ## 📁 项目结构（按要求，位于 `~/projects/`）
+
 ```
 ~/projects/
 ├── llama.cpp/          # 源码 + 构建（二进制文件在 build/bin/）

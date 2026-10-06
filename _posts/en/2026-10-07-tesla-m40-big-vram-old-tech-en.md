@@ -14,7 +14,7 @@ The Tesla M40 is a unique card: **big VRAM (24GB), but old Maxwell architecture*
 ## ⚡ Reality check
 
 | M40 spec | Value | Implication |
-|---|---|---|
+| --- | --- | --- |
 | VRAM | 24 GB | Can hold large models ✅ |
 | FP32 | ~7 TFLOPS | OK |
 | FP16 | ~7 TFLOPS (no acceleration) | LLM math is slow ❌ |
@@ -28,7 +28,7 @@ The Tesla M40 is a unique card: **big VRAM (24GB), but old Maxwell architecture*
 llama.cpp is still actively maintained and still builds for Maxwell (CC 5.2). The 24GB lets you run big quantized models that don't fit on smaller cards. Expect **slow but usable** speeds:
 
 | Model | Quant | VRAM | Est. speed (M40) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Llama 3.1 / Qwen 8B | Q4/Q5/Q6 | 4–6 GB | ~6–12 tok/s |
 | Qwen 14B / Mistral-Derivatives | Q4/Q5 | 8–9 GB | ~4–7 tok/s |
 | Qwen 32B / 34B | Q4_K_M | ~20 GB | ~1.5–3 tok/s |
@@ -45,6 +45,7 @@ GROMACS/LAMMPS/OpenMM (older versions, FP32) still target sm_52. Also rendering:
 **4. Video transcode (NVENC/NVDEC)** — usable if the card exposes NVENC (we can check). H.264/H.265 fixed-function encode offloads the CPU.
 
 ## ❌ Not worth it on the M40
+
 - **vLLM / modern PyTorch 2.x / TensorFlow 2.x** — require Turing+ (sm_70/75+), won't run.
 - **Stable Diffusion / image gen** — runs but painfully slow (minutes per 512px image), and needs ancient PyTorch.
 - **Fine-tuning LLMs** — too slow without tensor cores.

@@ -12,7 +12,7 @@ type: note
 ✅ USB disk is ready. Here's what I did:
 
 | Step | Result |
-|---|---|
+| --- | --- |
 | Wiped Debian installer image | ✅ |
 | Created MBR + single FAT32 partition (`/dev/sdb1`) | ✅ label `USB`, 4GB |
 | Copied BIOS file | ✅ `E7978IMS.AA0` (16MB) |

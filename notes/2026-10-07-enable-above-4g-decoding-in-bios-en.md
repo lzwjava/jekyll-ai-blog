@@ -42,7 +42,7 @@ Once you've enabled it and booted back into Debian, tell me and I'll verify the 
 **Quick summary of where we are:**
 
 | Item | Status |
-|---|---|
+| --- | --- |
 | `lzw` in sudo group | ✅ |
 | NVIDIA driver 550.163.01 installed (supports Tesla M40) | ✅ |
 | DKMS module built for 6.12 kernel | ✅ |

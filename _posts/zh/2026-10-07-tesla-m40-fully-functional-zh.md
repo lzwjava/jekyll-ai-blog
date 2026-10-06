@@ -20,7 +20,7 @@ Temp: 31C   Perf: P8        Pwr: 16W / 250W     Mem: 6MiB / 24576MiB   Util: 0%
 ## 最终状态 — 全部完成 ✅
 
 | 任务 | 结果 |
-|---|---|
+| --- | --- |
 | SSH密钥认证到 `lzw@192.168.1.137` | ✅ |
 | `lzw` 已加入 sudo 组 | ✅ |
 | NVIDIA 驱动 550.163.01 已安装（支持 M40） | ✅ |
@@ -35,16 +35,21 @@ Temp: 31C   Perf: P8        Pwr: 16W / 250W     Mem: 6MiB / 24576MiB   Util: 0%
 ## 建议的后续步骤（可选）
 
 1. **启用持久模式**，让 GPU 保持初始化状态，避免任务间重置：
+
    ```bash
    sudo nvidia-smi -pm 1
    ```
+
 2. **安装 CUDA 工具包**，如果你计划运行计算工作负载（PyTorch、TensorFlow 等）：
+
    ```bash
    sudo apt install nvidia-cuda-toolkit     # Debian 打包的 CUDA
    ```
+
    或从 NVIDIA 安装特定 CUDA 版本。
 
 3. **测试计算能力**，快速检查，例如：
+
    ```bash
    nvidia-smi -q | head -20
    ```

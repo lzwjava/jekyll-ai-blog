@@ -16,6 +16,7 @@ type: note
 This is a Linux kernel log captured during a **suspend/resume cycle (S3 sleep state)**. Here's a breakdown of what's happening and the notable errors:
 
 ## Normal Resume Sequence
+
 - CPUs 1–3 go offline, then come back online after S3 resume
 - NVIDIA HDA controller re-enabled
 - OOM killer enabled, PCI resources reallocated
@@ -24,24 +25,30 @@ This is a Linux kernel log captured during a **suspend/resume cycle (S3 sleep st
 ## Errors & Issues
 
 **1. xHCI USB Error (significant)**
+
 ```
 xhci_hcd 0000:03:00.0: xHC error in resume, USBSTS 0x401, Reinit
 usb usb3/usb4: root hub lost power or was reset
 ```
+
 The USB host controller encountered an error on resume and had to reinitialize. USB devices may need to be re-enumerated.
 
 **2. PCI Bridge Resource Allocation Failures (significant)**
+
 ```
 pci 0000:05:00.0: bridge window [mem ...]: can't assign; no space
 pci 0000:05:00.0: bridge window [mem ...]: failed to assign
 ```
+
 The PCI bridge (bus 06) cannot assign memory/IO windows after resume. This may affect PCIe devices on that bus.
 
 **3. ACPI BIOS Errors (moderate)**
+
 ```
 ACPI BIOS Error: Could not resolve symbol [\_SB.PCI0.SAT0.PRT3._GTF.DSSP], AE_NOT_FOUND
 Aborting method \_SB.PCI0.SAT0.PRT3._GTF due to previous error (AE_NOT_FOUND)
 ```
+
 The ACPI firmware references a method/object (`DSSP`) that doesn't exist in the ACPI tables. This is a **firmware bug** in the motherboard BIOS, but is often non-fatal.
 
 **4. SATA Link Fluctuations**
@@ -50,13 +57,14 @@ Most SATA ports went down on suspend and recovered, but these errors sometimes a
 ## Summary Table
 
 | Issue | Severity | Likely Impact |
-|---|---|---|
+| --- | --- | --- |
 | xHCI resume error | Medium | USB devices may disconnect |
 | PCI bridge no space | Medium | PCIe device may malfunction |
 | ACPI BIOS symbol not found | Low–Medium | BIOS bug, usually harmless |
 | SATA link down/up | Low | Normal during S3 suspend |
 
 ## Recommendations
+
 1. **Update your motherboard BIOS/UEFI** — fixes the ACPI `AE_NOT_FOUND` error
 2. **Check USB devices** after resume for disconnections
 3. Add `pci=realloc` to kernel boot parameters if PCIe devices misbehave after resume
@@ -65,6 +73,7 @@ Most SATA ports went down on suspend and recovered, but these errors sometimes a
 ---
 
 **References:**
+
 - [Linux Kernel PCI Resource Allocation](https://www.kernel.org/doc/html/latest/PCI/pci.html)
 - [ACPI in Linux - Common Errors](https://www.kernel.org/doc/html/latest/firmware-guide/acpi/index.html)
 - [xHCI USB Resume Issues](https://www.kernel.org/doc/html/latest/usb/index.html)

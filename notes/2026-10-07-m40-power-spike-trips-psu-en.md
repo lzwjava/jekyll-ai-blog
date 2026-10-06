@@ -14,6 +14,7 @@ Good question — and I have a strong hypothesis. The likely root cause: **the 2
 ## Why this happens
 
 The M40 went from:
+
 - **Idle**: just now, `nvidia-smi` showed **16W** (that's all it needed sitting there)
 - **Model load**: when llama-server starts, CUDA initializes and pushes ~10GB into the GPU, the card suddenly ramps up toward **170–250W**
 
@@ -26,13 +27,16 @@ On a 2016-era desktop with a likely 400–500W (or aging) PSU, that instant +200
 I'll do three things immediately (all remote, no shutdowns):
 
 1. **Cap the GPU power** so the spike never happens:
+
    ```bash
    sudo nvidia-smi -pm 1        # persistence mode
    sudo nvidia-smi -pl 150      # power-limit to 150W
    ```
+
    The 14B model still runs fine at 150W (mildly slower, much safer).
 
 2. **Check the logs** for the real killer: PSU/MCE/thermal errors from last boot:
+
    ```bash
    journalctl -b -1 -p err      # previous boot errors
    sudo dmesg | grep -iE "NVRM|thermal|mce|power"
@@ -43,6 +47,7 @@ I'll do three things immediately (all remote, no shutdowns):
 ---
 
 **Before you power it on**, could you check two things on the box:
+
 1. When it "shut down," did the **fans/lights actually stop** (full power-off), or did it stay lit but frozen? (power-off = PSU theory confirmed)
 2. What's the **PSU wattage** printed on its label?
 

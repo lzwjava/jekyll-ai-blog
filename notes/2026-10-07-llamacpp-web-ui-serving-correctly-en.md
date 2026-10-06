@@ -13,7 +13,7 @@ type: note
 
 `GET /` → **200** ✅ · static assets → **200** ✅
 
-## Open this in your browser:
+## Open this in your browser
 
 ```
 http://192.168.1.137:8080/
@@ -24,7 +24,7 @@ You'll get the llama.cpp chat UI (it auto-connects to the Qwen2.5-14B model on t
 ## Final state — everything done ✅
 
 | Item | Status |
-|---|---|
+| --- | --- |
 | Tesla M40 24GB working (BIOS "Above 4G", driver 550.163.01) | ✅ |
 | llama.cpp built for Maxwell (CUDA sm_52 + MMQ) | ✅ |
 | Qwen2.5-14B-Instruct Q5_K_M (10.5GB) fully on GPU | ✅ |

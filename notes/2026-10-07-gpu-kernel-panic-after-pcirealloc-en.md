@@ -14,7 +14,7 @@ The machine is **not coming back** — 100% ping loss and "Host is down" after ~
 ## What happened (summary)
 
 | Step | Result |
-|---|---|
+| --- | --- |
 | Added `lzw` to sudo | ✅ |
 | Installed `nvidia-driver` 550.163.01 (DKMS built for 6.12 kernel) | ✅ |
 | Loaded modules | ✅ (`nvidia`, `nvidia_uvm`) |
@@ -28,6 +28,7 @@ The machine is **not coming back** — 100% ping loss and "Host is down" after ~
 **1. Check it's powered on** — look for fans/LEDs/screen. If off, press the power button.
 
 **2. Recover from a boot hang** (most likely):
+
 - Interrupt GRUB: during the 5s GRUB screen, or press/repeat **Shift** (or **Esc**) at startup to get the menu.
 - Highlight the Debian entry → press **`e`** to edit.
 - Find the line starting with `linux` and **delete `pci=realloc`**.

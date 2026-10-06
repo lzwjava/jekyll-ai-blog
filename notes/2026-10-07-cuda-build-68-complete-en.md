@@ -14,12 +14,13 @@ Good news — real progress numbers now:
 **CUDA stage ~68% complete**
 
 | Item | Count |
-|---|---|
+| --- | --- |
 | Template instances done | **59 / 120** |
 | Non-template `.cu` sources | 69 / 69 ✅ |
 | Total CUDA objects | 128 / 189 |
 
 Timeline so far (build started 16:01, now 16:12):
+
 - ~16:09 — compiling `mmq-iq3_s` / `mmq-iq3_xxs` (slow quantized kernels)
 - ~16:12 — now compiling `mmf-ncols_10` / `mmf-ncols_11` (flash-attention kernels, generally faster)
 

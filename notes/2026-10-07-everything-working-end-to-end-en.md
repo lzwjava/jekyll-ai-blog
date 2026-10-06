@@ -14,7 +14,7 @@ Everything is working end-to-end now. 🎉
 ## ✅ Final result
 
 | Item | Status |
-|---|---|
+| --- | --- |
 | llama.cpp + CUDA (sm_52/MMQ) built for M40 | ✅ `~/projects/llama.cpp` |
 | Qwen2.5-14B-Instruct Q5_K_M (10.5GB) downloaded | ✅ `~/projects/models/` |
 | llama-server running (detached, PID 2785) | ✅ port 8080 |
@@ -24,31 +24,36 @@ Everything is working end-to-end now. 🎉
 ## 📊 Performance (real measurement)
 
 | Metric | Speed |
-|---|---|
+| --- | --- |
 | Prompt processing | **38.5 tok/s** |
 | Generation (14B Q5_K_M) | **13.6 tok/s** |
 
 ## 🌐 How to use it from any machine on your network
 
 **Web chat UI** (browser):
+
 ```
 http://192.168.1.137:8080
 ```
 
 **OpenAI-compatible API** (works with any tool expecting OpenAI):
+
 ```bash
 curl http://192.168.1.137:8080/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{"messages":[{"role":"user","content":"Hello"}],"max_tokens":100}'
 ```
+
 Endpoint: `http://192.168.1.137:8080/v1` · model name = the GGUF path
 
 **Terminal chat** (on the machine itself):
+
 ```bash
 ~/projects/run-chat.sh
 ```
 
 ## 📁 Project layout (as requested, in `~/projects/`)
+
 ```
 ~/projects/
 ├── llama.cpp/          # source + build (binaries in build/bin/)

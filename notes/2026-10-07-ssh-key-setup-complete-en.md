@@ -12,11 +12,13 @@ type: note
 Done! ✅ SSH key auth is now set up on 192.168.1.137.
 
 **Result summary:**
+
 - **Key copied:** `~/.ssh/id_ed25519.pub` → `lzw@192.168.1.137`'s `authorized_keys`
 - **Passwordless login works:** Authenticated via `publickey` (no password prompt)
 - **Remote host details:** Debian, user `lzw`, SSH service `active`
 
 **From now on you can simply run:**
+
 ```bash
 ssh lzw@192.168.1.137
 ```

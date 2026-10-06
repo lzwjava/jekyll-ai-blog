@@ -26,6 +26,7 @@ Then tell me "woke up" — I'll immediately:
 ---
 
 **How to tell the state right now:**
+
 - Power LED **blinking slowly** → asleep (normal) → just tap power button
 - Power LED **solid on** but screen black → tap power button anyway
 - If tapping power button does nothing for 30s → press **Ctrl+Alt+F1** (switch to a TTY), which often wakes it

@@ -17,17 +17,17 @@ Ubuntu是AI开发的**主导选择**，但并非唯一。整个生态系统基�
 
 常见选择：
 
-| 操作系统                              | 用途                             | 备注                                                      |
+| 操作系统 | 用途 | 备注 |
 | ---------------------------------- | -------------------------------- | -------------------------------------------------------- |
-| **Ubuntu Linux**                   | ⭐ 最常用于AI研究/开发            | 最佳的CUDA/PyTorch兼容性，教程最简单                      |
-| **Debian**                         | 服务器、自定义基础设施            | 更稳定，软件包更新较慢                                    |
-| **Rocky Linux / AlmaLinux / RHEL** | 企业级AI集群                      | 常见于高校和拥有HPC的公司                                 |
-| **CentOS（较旧版本）**             | 遗留HPC集群                       | 正被Rocky/Alma取代                                       |
-| **SUSE Linux Enterprise**          | 企业/HPC                          | 用于一些超级计算环境                                      |
-| **Arch Linux**                     | 个人开发者                        | 软件包最新，维护成本更高                                  |
-| **Fedora**                         | 开发者                            | 更新的Linux技术                                           |
-| **Windows + WSL2**                 | 本地AI开发者                      | 现在非常流行；在Windows内部运行Ubuntu环境                 |
-| **macOS**                          | 开发/测试                         | 适合Apple Silicon，不适合CUDA训练                         |
+| **Ubuntu Linux** | ⭐ 最常用于AI研究/开发 | 最佳的CUDA/PyTorch兼容性，教程最简单 |
+| **Debian** | 服务器、自定义基础设施 | 更稳定，软件包更新较慢 |
+| **Rocky Linux / AlmaLinux / RHEL** | 企业级AI集群 | 常见于高校和拥有HPC的公司 |
+| **CentOS（较旧版本）** | 遗留HPC集群 | 正被Rocky/Alma取代 |
+| **SUSE Linux Enterprise** | 企业/HPC | 用于一些超级计算环境 |
+| **Arch Linux** | 个人开发者 | 软件包最新，维护成本更高 |
+| **Fedora** | 开发者 | 更新的Linux技术 |
+| **Windows + WSL2** | 本地AI开发者 | 现在非常流行；在Windows内部运行Ubuntu环境 |
+| **macOS** | 开发/测试 | 适合Apple Silicon，不适合CUDA训练 |
 
 ---
 

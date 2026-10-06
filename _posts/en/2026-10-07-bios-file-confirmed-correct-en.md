@@ -21,7 +21,7 @@ uP$MSESGN$E7978IMS.AA0 12/21/2016
 This is the AMI/MSI BIOS identification string. It decodes to:
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Model number | **7978** = MS-7978 = **Z170A GAMING M3** ✅ |
 | BIOS version | **AA0** = A.A |
 | Build date | 2016-12-21 |
@@ -31,7 +31,7 @@ This is the AMI/MSI BIOS identification string. It decodes to:
 ## Matches your actual motherboard
 
 | Item | Your board | BIOS file |
-|---|---|---|
+| --- | --- | --- |
 | Vendor | MSI | MSI ✅ |
 | Model | MS-7978 / Z170A GAMING M3 | 7978 ✅ |
 | Current BIOS | A.50 (2016-02-23) | — |

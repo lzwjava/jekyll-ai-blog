@@ -31,6 +31,7 @@ Absolutely! That's a great mindset to have. 😄
 > — but sometimes it IS a zebra! 🦓
 
 Always keep asking:
+
 - ❓ **What else could cause this?**
 - ❓ **Am I assuming too much?**
 - ❓ **What's the simplest fix?**
@@ -40,7 +41,7 @@ Always keep asking:
 **The best troubleshooters:**
 
 | Trait | Why It Helps |
-|---|---|
+| --- | --- |
 | Stay calm | Panic leads to wrong decisions |
 | Try simple things first | Often the easiest fix works |
 | Don't assume | Evidence over assumptions |

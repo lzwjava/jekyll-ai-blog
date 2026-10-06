@@ -45,6 +45,7 @@ Boot into Debian and tell me — I'll check the BARs and run `nvidia-smi`. The d
 ---
 
 ⚠️ **Important notes:**
+
 - BIOS flashing carries a small risk. Make sure power is stable and don't interrupt it.
 - After the flash, if the option still isn't there, we'll check the exact menu path together — but the A.A release notes ("Support multi graphic cards") indicate it's there.
 
