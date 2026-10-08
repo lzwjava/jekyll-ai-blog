@@ -20,7 +20,7 @@ type: note
 ### 已应用的补丁（均位于 `/AIC8800/drivers/aic8800/`）
 
 | 文件 | 变更内容 |
-|---|---|
+| --- | --- |
 | `aic8800_fdrv/rwnx_rx.c` | `del_timer`/`del_timer_sync` → `timer_delete`/`timer_delete_sync`；`from_timer()` → `container_of()`；`in_irq()` → `in_hardirq()`；为 `ieee80211_amsdu_to_8023s` 添加缺失的 `mesh_control` 参数；为 `cfg80211_rx_spurious_frame`/`cfg80211_rx_unexpected_4addr_frame` 添加 `link_id` 参数 |
 | `aic8800_fdrv/aicwf_sdio.c` | 定时器 API 及 `from_timer` 修复（同上） |
 | `aic8800_fdrv/rwnx_main.c` | `wdev->mtx` → `wiphy_lock()/wiphy_unlock()`；更新 5 个 cfg80211 操作函数签名：`change_beacon`（→ `cfg80211_ap_update`）、`set_monitor_channel`、`set_wiphy_params`、`set_tx_power`、`start_radar_detection`（均在 7.0 中增加了新参数） |

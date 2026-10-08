@@ -20,7 +20,7 @@ The stock `aic8800fdrvpackage_amd64_2023_0807.deb` would not build because the 2
 ### Patches applied (all in `/AIC8800/drivers/aic8800/`)
 
 | File | Change |
-|---|---|
+| --- | --- |
 | `aic8800_fdrv/rwnx_rx.c` | `del_timer`/`del_timer_sync` → `timer_delete`/`timer_delete_sync`; `from_timer()` → `container_of()`; `in_irq()` → `in_hardirq()`; added missing `mesh_control` arg to `ieee80211_amsdu_to_8023s`; added `link_id` to `cfg80211_rx_spurious_frame`/`cfg80211_rx_unexpected_4addr_frame` |
 | `aic8800_fdrv/aicwf_sdio.c` | timer API + `from_timer` fixes (same as above) |
 | `aic8800_fdrv/rwnx_main.c` | `wdev->mtx` → `wiphy_lock()/wiphy_unlock()`; updated 5 cfg80211 ops signatures: `change_beacon` (→ `cfg80211_ap_update`), `set_monitor_channel`, `set_wiphy_params`, `set_tx_power`, `start_radar_detection` (all gained new params in 7.0) |
