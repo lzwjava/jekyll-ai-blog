@@ -25,6 +25,7 @@ ASUS Z170-A 上“BOOT DEVICE LED”标签旁边的红色 LED 表示系统**无�
 6. **SATA 模式不匹配** — 驱动器为 AHCI 格式，但 BIOS 设置为 IDE（或反之）。
 
 **可尝试的步骤：**
+
 - 进入 BIOS（启动时按 **Del** 键），检查启动驱动器是否出现在 Storage/Boot 下。
 - 重新插拔 SATA 线缆，并确保它们插入正确的端口。
 - 检查 BIOS 中的 Boot Priority 顺序。
@@ -33,5 +34,6 @@ ASUS Z170-A 上“BOOT DEVICE LED”标签旁边的红色 LED 表示系统**无�
 ---
 
 **参考资料：**
+
 - [ASUS Z170-A 手册与 POST LED 指南](https://www.asus.com/motherboards-components/motherboards/all-series/z170-a/)
 - [ASUS POST LED 故障排除](https://www.asus.com/support/FAQ/1045839/)

@@ -14,15 +14,18 @@ Research complete. I have everything needed to give you a definitive answer and 
 ## Findings
 
 **What your CF-940AX is (confirmed on the machine):**
+
 - The adapter enumerates as `a69c:5721 aicsemi AIC MSC` — this is **AICSemi (爱科微/AICSemi) AIC8800-family chip**, exact dongle build per the bundled Windows install: **AIC8800FC** (`aic8800fc_windows_wifi_driver.exe`), the budget "AX300" (WiFi 6, 2.4 GHz-only) dongle sold under many brands (COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 / etc.). **It is not Realtek** — the chip is the Chinese vendor **AICSemi**.
 - Like most of these dongles it ships in **USB "CD/MSC" mode as a driver disc** (that's the "5721 / Aic MSC" identity). Linux's whole trick is: udev rule + `eject` flips it into NIC mode, then a kernel module (aic8800) + firmware handles the WiFi NIC.
 
 **Does Linux support exist? → Yes, and it's well-maintained.** There are three solid sources:
+
 1. **Official AICSemi/UGREEN got phone Linux driver (v1.7, 2026)** on a real, fetching UGREEN page. But it's a `deb` aimed at older kernels (≤24.04), not ideal for your 26.04.
 2. **`Kiborgik/aic8800dc-linux-patched`** — patched out-of-tree driver, **DKMS, CI-tested green on kernels 6.2 LTS / 6.18 / 7.1 / latest 7.x via GitHub Actions**. This one advertises exactly the aic8800 family incl. the `a69c:5721` MSC→NIC mode switch → *this is the right one for Ubuntu 26.04 + kernel 7.0*. Install is `sudo ./install.sh` (DKMS + firmware + udev rules).
 3. Official AICSemi repos (Gitee/aicsemi & GitHub) with the same base source.
 
 **Toolchain status on the target (192.168.1.133):**
+
 - `git`, `depmod`, `eject`, `lsusb`, Python, curl ✓ (GitHub unreachable from there — I'll transfer the source via this laptop, which also can't reach github/gitee raw reliably... actually laptop *can*; remote cannot. So: clone on laptop → `scp`/`tar` to remote).
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → needs `sudo apt install build-essential dkms eject` → **requires sudo password**.
 - Linux headers for the running kernel (7.0.0-34) **are present** ✓

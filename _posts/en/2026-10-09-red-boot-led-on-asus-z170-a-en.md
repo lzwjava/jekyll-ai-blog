@@ -25,6 +25,7 @@ Common causes:
 6. **SATA mode mismatch** — Drive formatted for AHCI but BIOS is set to IDE (or vice versa).
 
 **Steps to try:**
+
 - Enter BIOS (press **Del** at startup) and check if your boot drive appears under Storage/Boot.
 - Re-seat SATA cables and make sure they're plugged into the correct ports.
 - Check the Boot Priority order in BIOS.
@@ -33,5 +34,6 @@ Common causes:
 ---
 
 **References:**
+
 - [ASUS Z170-A Manual & POST LED guide](https://www.asus.com/motherboards-components/motherboards/all-series/z170-a/)
 - [ASUS POST LED troubleshooting](https://www.asus.com/support/FAQ/1045839/)

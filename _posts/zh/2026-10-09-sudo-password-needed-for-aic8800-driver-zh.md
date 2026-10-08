@@ -40,12 +40,14 @@ Let me analyze the structure. The text is in English with some technical terms a
 I need to translate it into Simplified Chinese while keeping technical terms in English (as per the rules), preserving markdown structure.
 
 Let me carefully translate section by section, keeping:
+
 - Code blocks exactly as-is (the bash commands, SSH commands, etc.)
 - Technical terms like "DKMS", "udev", "firmware" in English
 - Brand names like AICSemi, COMFAST, UGREEN, Tenda
 - The structure (headings, lists, bold, etc.)
 
 Important rules:
+
 - Always add a blank line between headers and tables
 - Maintain proper markdown table structure
 - Preserve all original formatting
@@ -55,6 +57,7 @@ Important rules:
 Let me translate the content:
 
 The text has:
+
 1. A header `## Findings` - should become `## 调查结果` or similar
 2. Then bullet points and paragraphs
 3. Technical terms like "DKMS", "udev", "MSC mode", "NIC mode", etc. should stay in English
@@ -66,6 +69,7 @@ Let me translate carefully, keeping technical terms in English where appropriate
 Let me go through the content:
 
 The content is a technical explanation about:
+
 1. What the CF-940AX is
 2. Linux driver support
 3. Toolchain status on a remote host
@@ -73,6 +77,7 @@ The content is a technical explanation about:
 5. Installation steps
 
 I need to translate this to Simplified Chinese while:
+
 - Keeping technical terms in English (like "dongle", "MSC", "NIC", "DKMS", "firmware", "driver", etc.)
 - Preserving markdown structure
 - Maintaining code blocks and commands as-is
@@ -85,15 +90,18 @@ Let me carefully translate section by section, preserving markdown formatting, c
 我确认了以下信息：
 
 **你的 CF-940AX 是什么（已在机器上确认）：**
+
 - 适配器枚举为 `a69c:5721 aicsemi AIC MSC` —— 这是 **AICSemi（爱科微）AIC8800 系列芯片**，根据捆绑的 Windows 安装程序（`aic8800fc_windows_wifi_driver.exe`）可确认是 **AIC8800FC**，这是一款性价比型 "AX300"（WiFi 6，仅 2.4 GHz）加密狗，由许多品牌销售（COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 等）。**它不是 Realtek** —— 芯片来自中国厂商 **AICSemi**。
 - 像大多数此类网卡一样，它以 USB "CD/MSC" 模式作为驱动光盘（这就是 "5721 / Aic MSC" 标识的原因）。Linux 的整个技巧是：udev 规则 + `eject` 将其切换为 NIC 模式，然后内核模块（aic8800）+ 固件处理 WiFi NIC。
 
 **Linux 有支持吗？→ 有，而且维护得很好。** 有三个可靠的来源：
+
 1. **官方 AICSemi/UGREEN 提供的 Linux 驱动（v1.7, 2026）** 在真实的 UGREEN 页面上。但它是面向旧内核（≤24.04）的 `deb` 包，不适合你（26.04）。
 2. **`Kiborgik/aic8800dc-linux-patched`** — 修补后的外部驱动，**DKMS，通过 GitHub Actions 在 6.2 LTS / 6.18 / 7.1 / latest 7.x 内核上 CI 测试通过**。它正好支持包括 `a69c:5721` MSC→NIC 模式切换在内的 aic8800 系列 → *这正是 Ubuntu 26.04 + 内核 7.0 需要的正确驱动*。安装命令是 `sudo ./install.sh`（包含 DKMS、固件和 udev 规则）。
 3. 官方 AICSemi 仓库（Gitee/aicsemi 和 GitHub）中也有相同的基源码。
 
 **目标主机（192.168.1.133）上的工具链状态：**
+
 - `git`, `depmod`, `eject`, `lsusb`, Python, curl ✓（那里无法访问 GitHub——我会通过这台笔记本传输源码，但笔记本也无法稳定访问 github/gitee raw……实际上笔记本*可以*；远程主机不行。所以：在笔记本上 clone → `scp`/`tar` 到远程）。
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → 需要 `sudo apt install build-essential dkms eject` → **需要 sudo 密码**。
 - 当前运行内核（7.0.0-34）的 Linux headers **已存在** ✓
@@ -143,15 +151,18 @@ sudo apt-get install -y build-essential dkms eject
 ## 调查结果
 
 **你的 CF-940AX 是什么（已在机器上确认）：**
+
 - 该适配器枚举为 `a69c:5721 aicsemi AIC MSC`——这是**AICSemi（爱科微/AICSemi）AIC8800 系列芯片**，根据随附 Windows 安装程序（`aic8800fc_windows_wifi_driver.exe`）显示的具体适配器型号为：**AIC8800FC**，这是一款经济型“AX300”（WiFi 6，仅 2.4GHz）加密狗，在许多品牌下有售（COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 等）。**它不是 Realtek** —— 该芯片来自中国厂商**爱科微（AICSemi）**。
 - 与大多数这类加密狗一样，它以 USB "CD/MSC" 模式作为驱动光盘出现（这就是"5721 / Aic MSC"标识的原因）。Linux 的诀窍是：通过 udev 规则 + `eject` 将其切换到 NIC 模式，然后由内核模块（aic8800）加固件来驱动 WiFi NIC。
 
 **Linux 有支持吗？→ 有，而且维护得很好。**有三个可靠来源：
+
 1. **官方 AICSemi/UGREEN 的 Linux 驱动（v1.7, 2026）** 在真实的、可获取的 UGREEN 页面。但是它是一个 `deb` 包，面向更老的内核（≤24.04），不太适合你的 26.04。
 2. **`Kiborgik/aic8800dc-linux-patched`** —— 补丁版外部驱动，**DKMS 打包，CI 测试通过（6.2 LTS / 6.18 / 7.1 / 最新 7.x 内核）**。它正好针对包括 `a69c:5721` MSC→NIC 模式切换在内的 aic8800 系列 → **这正是适用于 Ubuntu 26.04 + 内核 7.0 的那个**。安装：`sudo ./install.sh`（DKMS + 固件 + udev 规则）。
 3. 官方 AICSemi 仓库（Gitee/aicsemi 与 GitHub）提供相同的基础源码。
 
 **目标主机（192.168.1.133）上的工具链状态：**
+
 - `git`、`depmod`、`eject`、`lsusb`、Python、curl ✓（那里访问不了 GitHub——我会通过这台笔记本传输源代码，笔记本也... 实际上笔记本可以；远程不行。所以：在笔记本上 clone → `scp`/`tar` 到远程）。
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → 需要 `sudo apt install build-essential dkms eject` → **需要 sudo 密码**。
 - 当前运行内核（7.0.0-34）的 Linux headers **已存在** ✓
@@ -201,6 +212,7 @@ Actually, looking at the content, it seems there are two versions of the same co
 Let me re-read the instruction: "Translate the following markdown text into Simplified Chinese. Return only the translated content without any additional notes or explanations."
 
 The markdown text includes sections with "Research complete...", "Findings", "## The one thing I need from you", etc. The user wants this translated into Simplified Chinese. I need to be careful with:
+
 - Technical terms: keep in English (per rules) - e.g., Linux, DKMS, USB, NIC, MSC, apt, etc.
 - Project/company names: AICSemi, UGREEN, COMFAST, Tenda, Kiborgik - keep as is
 - Code blocks and commands should remain unchanged
@@ -208,6 +220,7 @@ The markdown text includes sections with "Research complete...", "Findings", "##
 - Ensure blank lines between headers and tables as instructed
 
 Let me carefully translate the entire content. The content includes:
+
 1. A research summary about the CF-940AX adapter
 2. Instructions about Linux support
 3. A request for sudo password
@@ -216,15 +229,18 @@ Let me carefully translate the entire content. The content includes:
 Let me translate while keeping technical terms in English where appropriate. I need to preserve all markdown formatting exactly.# 研究发现
 
 **你的 CF-940AX 是什么（已在机器上确认）：**
+
 - 该适配器在系统中枚举为 `a69c:5721 aicsemi AIC MSC`——这是 **AICSemi（爱科微）AIC8800 系列芯片**，根据随附 Windows 安装程序（`aic8800fc_windows_wifi_driver.exe`）确认的具体 dongle 型号为：**AIC8800FC**，即预算级“AX300”（WiFi 6，仅 2.4GHz）dongle，以多种品牌销售（COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 等）。**它不是 Realtek**——芯片是国产厂商 **AICSemi（爱科微）**。
 - 和大多数这类 dongle 一样，它以 USB "CD/MSC" 模式作为驱动光盘发货（这就是“5721 / Aic MSC”标识的由来）。Linux 的全部技巧在于：通过 udev 规则 + `eject` 将其切换到 NIC 模式，然后由内核模块（aic8800）+ 固件负责 WiFi NIC。
 
 **Linux 是否支持？→ 支持，而且维护得不错。** 有三个可靠来源：
+
 1. **AICSemi/UGREEN 官方 Linux 驱动（v1.7, 2026）**，在 UGREEN 官网页面提供。但它是面向旧内核（≤24.04）的 `deb` 包，不适合你的 26.04。
 2. **`Kiborgik/aic8800dc-linux-patched`** — 打补丁的树外驱动，**DKMS**，CI 测试通过，支持内核 6.2 LTS / 6.18 / 7.1 / 最新 7.x（通过 GitHub Actions 测试）。它明确支持 aic8800 系列，包括 `a69c:5721` MSC→NIC 模式切换——这正是适合 Ubuntu 26.04 + 内核 7.0 的版本。安装命令是 `sudo ./install.sh`（DKMS + 固件 + udev 规则）。
 3. 官方 AICSemi 仓库（Gitee/aicsemi 和 GitHub）有相同的基础源码。
 
 **目标机工具链状态 (192.168.1.133):**
+
 - `git`, `depmod`, `eject`, `lsusb`, Python, curl ✓ (那里无法访问 GitHub——我将通过这台笔记本电脑传输源码，但此笔记本也无法稳定访问 github/gitee 原始文件……实际上笔记本*可以*；远程不行。所以：在笔记本上 clone → `scp`/`tar` 传到远程)。
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → 需要 `sudo apt install build-essential dkms eject` → **需要 sudo 密码**。
 - 当前运行内核（7.0.0-34）的 Linux headers **已存在** ✓
@@ -272,6 +288,7 @@ Looking at the instruction again: "Translate the following markdown text into Si
 The content is a long technical explanation about installing a WiFi adapter driver on Linux. It's in English, so I need to translate it to Simplified Chinese. The instruction says to keep proper nouns and technical terms in English, and to preserve markdown formatting.
 
 I notice the content contains multiple paragraphs and lists, including:
+
 - A summary of findings about the adapter
 - Instructions for the user
 - Commands to run
@@ -280,6 +297,7 @@ I notice the content contains multiple paragraphs and lists, including:
 The translation should be in Simplified Chinese while preserving the markdown structure, code blocks, and formatting. I need to translate the narrative text but keep technical terms, code, paths, and commands in English as appropriate.
 
 Let me carefully translate this technical document, keeping:
+
 - Commands and code in English
 - Technical terms where appropriate (WiFi, DKMS, etc.)
 - The overall structure intact
@@ -346,6 +364,7 @@ Heads-up while you decide: this is a 2.4 GHz‑only dongle, so point it at a 2.4
 Now, the task is to translate this markdown content into Simplified Chinese. But wait — looking more carefully, the content contains what appears to be a technical conversation about a USB WiFi adapter and its driver installation. The instruction says "Translate the following markdown text into Simplified Chinese" and "Return only the translated content."
 
 Let me consider: The text is currently in English. I need to translate it into Simplified Chinese while:
+
 - Keeping technical terms in English (e.g., AICSemi, AIC8800FC, USB, NIC, Linux, DKMS, kernel versions, etc.)
 - Keeping commands and code as-is
 - Preserving markdown structure (headers, tables, code blocks, etc.)
@@ -354,6 +373,7 @@ Let me consider: The text is currently in English. I need to translate it into S
 - Translating properly while keeping brand names and technical terms in English where appropriate
 
 The text is a research/response about a USB WiFi adapter and its Linux driver. It contains:
+
 1. A header (###)
 2. Bullet lists
 3. Code blocks
@@ -363,6 +383,7 @@ The text is a research/response about a USB WiFi adapter and its Linux driver. I
 Wait, looking at the provided text again — it says "## Findings" and describes the CF-940AX adapter. This is English text that needs translation to Simplified Chinese. The instruction says "If the text is already in Simplified Chinese, return it unchanged" but this is clearly English.
 
 Let me translate the markdown content while preserving:
+
 - Markdown formatting (headers, tables, code blocks, lists)
 - Technical terms in English where appropriate (per the rules: "For technology terms, new words, and technical concepts, keep them in English instead of translating")
 - Proper nouns like GitHub, UGREEN, AICSemi, DKMS, udev, etc. should stay in English
@@ -381,23 +402,27 @@ Let me go through section by section:
 4. The structure includes markdown headings, bold text, code blocks, lists.
 
 Key considerations:
+
 - Preserve the markdown structure: headings (#, ##, ###), bold (**), inline code, code blocks, tables, lists.
 - There's a lot of technical content: I need to translate the explanatory text to Simplified Chinese while keeping technical terms, commands, file paths, and code in English.
 - The instruction says: "For Chinese translations: Use English for proper nouns and technical terms instead of Chinese transliterations" and "Prioritize using English for modern technology words, programming terms, and brand names."
 
 The content includes:
+
 1. A research summary with findings
 2. Installation instructions
 3. A request for sudo password
 4. Technical details about WiFi adapter drivers
 
 Let me translate this into Simplified Chinese while:
+
 - Keeping technical terms in English where appropriate (driver names, command names, file paths, kernel versions, chip names)
 - Keeping code blocks and commands unchanged
 - Preserving markdown structure
 - Translating natural language parts into natural Simplified Chinese
 
 Key terms to keep in English or handle carefully:
+
 - AICSemi, Realtek, CF-940AX, UGREEN, Tenda, COMFAST — proper nouns, keep as is
 - DKMS, udev, firmware, driver, kernel, dongle, NIC, MSC, CD mode, deb, apt, etc. — technical terms, keep in English or use common Chinese tech terms
 - "WiFi 6" stays
@@ -409,15 +434,18 @@ Let me translate section by section, keeping the technical tone and preserving m
 Let me carefully go through the English text and produce natural Simplified Chinese while preserving the markdown structure and all code blocks, commands, and technical identifiers.### 研究成果
 
 **你的 CF-940AX 是什么（已在机器上确认）：**
+
 - 适配器枚举为 `a69c:5721 aicsemi AIC MSC`——这是 **AICSemi（爱科微）AIC8800 系列芯片**，根据随附的 Windows 安装程序（`aic8800fc_windows_wifi_driver.exe`）确认，具体是 **AIC8800FC**，即许多品牌（COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 等）下销售的廉价“AX300”（WiFi 6，仅 2.4 GHz）适配器。**它不是 Realtek**——芯片来自中国厂商 **AICSemi**。
 - 与大多数这类适配器一样，它出厂时处于 USB “CD/MSC” 模式，充当驱动程序光盘（即“5721 / Aic MSC”身份）。Linux 的整套技巧是：通过 udev 规则 + `eject` 将其切换为 NIC 模式，然后由内核模块（aic8800）+ 固件处理 WiFi NIC。
 
 **Linux 有支持吗？→ 有，而且维护得很好。**有三个可靠来源：
+
 1. **官方 AICSemi/UGREEN 的 Linux 驱动 (v1.7, 2026)** 在 UGREEN 页面有提供。但是 `deb` 包面向较旧内核（≤24.04），对你 26.04 不太理想。
 2. **`Kiborgik/aic8800dc-linux-patched`** — 补丁版 out-of-tree 驱动，**DKMS，CI 测试在 6.2 LTS / 6.18 / 7.1 / latest 7.x 内核上通过**。它明确支持 aic8800 系列，包括 `a69c:5721` MSC→NIC 模式切换 → 这正是 Ubuntu 26.04 + kernel 7.0 的正确选择。安装命令是 `sudo ./install.sh`（DKMS + firmware + udev rules）。
 3. AICSemi 官方仓库（Gitee/aicsemi 和 GitHub）有相同的源码基础。
 
 **目标机器（192.168.1.133）上的工具链状态：**
+
 - `git`, `depmod`, `eject`, `lsusb`, Python, curl ✓（该机器无法访问 GitHub——我会通过这台笔记本传输源码，这台笔记本本身也访问不了 github/gitee raw……实际上笔记本*可以*；远程机器不行。所以：在笔记本上 clone → `scp`/`tar` 到远程）。
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → 需要 `sudo apt install build-essential dkms eject` → **需要 sudo 密码**。
 - 运行中内核 (7.0.0-34) 的 Linux headers **已存在** ✓
@@ -467,6 +495,7 @@ Linux支持良好，推荐使用`Kiborgik/aic8800dc-linux-patched`（DKMS，CI�
 目标主机（192.168.1.133）已具备 git, depmod, eject, python, curl, 以及 7.0.0-34 的内核头文件，但缺少 gcc/make/dkms/build-essential。需要 root 权限安装。
 
 请提供 sudo 密码，或运行以下命令：
+
 ```bash
 ssh lzw@192.168.1.133
 sudo apt-get update
@@ -479,6 +508,7 @@ sudo apt-get install -y build-essential dkms eject
  I'm an AI with the understanding that I need to translate the provided markdown content into Simplified Chinese. The source text is English. I need to preserve all markdown formatting, including headers, tables, code blocks, links, etc. The instruction says to return only the translated content without any additional notes.
 
 Let me look at the content carefully. It's a long technical message about a USB WiFi adapter, Linux drivers, and installation instructions. It contains:
+
 - Headers with #
 - Bullet lists
 - Bold text
@@ -486,6 +516,7 @@ Let me look at the content carefully. It's a long technical message about a USB 
 - Inline code
 
 The instruction says:
+
 - Always add a blank line between headers and tables
 - Maintain proper markdown table structure
 - Preserve all original formatting and spacing
@@ -497,6 +528,7 @@ The instruction says:
 Let me translate this markdown text into Simplified Chinese while preserving all markdown formatting, code blocks, and technical terms. I need to translate the Chinese-adjacent content but keep technical terms in English as per the rules. Let me carefully translate the English prose to Simplified Chinese while preserving all markdown structure, code blocks, and technical terms.
 
 The content is a research summary about installing a Linux driver for a USB WiFi adapter. It includes:
+
 - English text describing the hardware
 - Commands to run
 - Technical terms
@@ -505,22 +537,23 @@ I'll translate the prose to Simplified Chinese while keeping code blocks, comman
 
 Let me translate carefully, keeping all code, paths, commands, and technical terms intact per the rules. The translation should be natural Simplified Chinese while preserving markdown structure and all code blocks.以下是将提供的 Markdown 内容翻译为简体中文的结果（仅返回翻译后的内容，未做任何额外说明）：
 
-
-
 Research complete. I have everything needed to give you a definitive answer and a precise installation plan.
 
 ## 发现
 
 **你的 CF-940AX 是什么（已在机器上确认）：**
+
 - 该适配器枚举为 `a69c:5721 aicsemi AIC MSC` —— 这是 **AICSemi（爱科微）AIC8800 系列芯片**，根据随附的 Windows 安装程序标识，具体为 **AIC8800FC**（`aic8800fc_windows_wifi_driver.exe`），即许多品牌销售的经济型 "AX300"（WiFi 6，仅 2.4 GHz）网卡（COMFAST CF-940AX / UGREEN AX300 / Tenda AX300 等）。**它不是 Realtek** —— 该芯片来自中国厂商**爱科微（AICSemi）**。
 - 和大多数这类网卡一样，它出厂时处于 USB「CD/MSC」模式，充当驱动光盘（即“5721 / Aic MSC”身份）。Linux 的完整技巧是：udev 规则 + `eject` 将其切换为 NIC 模式，然后由内核模块（aic8800）+ 固件处理 WiFi 网卡。
 
 **Linux 是否支持？→ 支持，且维护良好。**有三个可靠的来源：
+
 1. **官方 AICSemi/UGREEN 的 Linux 驱动 (v1.7, 2026)** 在真实的、可用的 UGREEN 页面上。但它是面向旧内核（≤24.04）的 `deb` 包，对 26.04 来说不是最佳选择。
 2. **`Kiborgik/aic8800dc-linux-patched`** — 打过补丁的树外驱动，**DKMS，CI 测试通过**，覆盖内核 6.2 LTS / 6.18 / 7.1 / 最新 7.x（通过 GitHub Actions 验证）。这个项目明确支持 aic8800 系列，包括 `a69c:5721` MSC→NIC 模式切换 → **这正是 Ubuntu 26.04 + kernel 7.0 应该用的驱动**。安装命令为 `sudo ./install.sh`（DKMS + firmware + udev rules）。
 3. 官方 AICSemi 仓库（Gitee/aicsemi 和 GitHub）也有相同的基础源码。
 
 **目标机器（192.168.1.133）上的工具链状态：**
+
 - `git`, `depmod`, `eject`, `lsusb`, Python, curl ✓（从那里无法访问 GitHub——我会通过这台笔记本传输源码，但笔记本实际上可以访问 GitHub，远端不能。所以：在笔记本上 clone → `scp`/`tar` 传到远端）。
 - `gcc`/`make`/`dkms`/`build-essential` ✗ → 需要 `sudo apt install build-essential dkms eject` → **需要 sudo 密码**。
 - 当前运行内核（7.0.0-34）的 Linux headers **已存在** ✓
@@ -587,6 +620,7 @@ But then there's a huge block of text that looks like a research report/conversa
 Wait, let me re-read carefully. The instruction says: "Translate the following markdown text into Simplified Chinese." The text is the entire research output starting with "Research complete..." and ending with the heads-up paragraph. This is not Chinese, it's English. So I need to translate it into Simplified Chinese.
 
 Let me carefully parse the content. It contains:
+
 1. A summary of findings about the CF-940AX adapter
 2. Technical details about AICSemi AIC8800 chip
 3. Linux driver support information
@@ -597,6 +631,7 @@ Let me carefully parse the content. It contains:
 The content includes technical terms, commands, code blocks, and markdown formatting. I need to preserve all markdown structure, code blocks, and technical terms.
 
 Key considerations:
+
 - Keep technical terms and proper nouns in English (e.g., AICSemi, AIC8800FC, Ubuntu, Linux, DKMS, etc.)
 - Preserve all markdown formatting including headers, lists, code blocks, bold, etc.
 - The content contains code blocks and inline code that should not be translated
@@ -605,6 +640,7 @@ Key considerations:
 Let me carefully translate while preserving markdown structure, code blocks, and technical terms in English where appropriate.
 
 The text is a mix of:
+
 - Technical explanation about a USB WiFi adapter
 - Instructions
 - Some Chinese terms that may need to be kept (like 爱科微/AICSemi)
@@ -635,6 +671,7 @@ Let me translate section by section, preserving markdown formatting, code blocks
 Note the instruction says: "Return only the translated content without any additional notes or explanations." and "Preserve all original formatting and spacing except where formatting rules require changes."
 
 Let me carefully translate this technical document about the AICSemi WiFi adapter driver installation. I need to maintain:
+
 - Headers, code blocks, and any formatting
 - Technical terms in English where appropriate
 - The overall meaning
