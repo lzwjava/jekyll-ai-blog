@@ -48,11 +48,19 @@ Bought broken GPUs from the second-hand market (**Quadro 401 / 2000 / 4000**, et
 
 ---
 
-## 🖥️ Cheap AI Workstation — Tesla M40 12GB for ~1200 CNY
+## 🖥️ Cheap AI Workstations — M40 12GB / M40 24GB / P100
 
-Built a **12 GB AI workstation for around 1200 CNY (~$165)** using second-hand parts from Xianyu (闲鱼), adding a second CUDA GPU to my home setup alongside the RTX 4070.
+Built **three cheap AI workstations** using second-hand parts from Xianyu (闲鱼) — adding a **Tesla M40 12 GB**, a **Tesla M40 24 GB**, and a **Tesla P100 16 GB** to my home setup alongside the RTX 4070. That's **52 GB of CUDA VRAM across three nodes**, each running daily training and inference experiments.
 
-**The build:**
+**The fleet:**
+
+| Station | GPU | VRAM | Architecture | FP16 | Build cost |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| M40 12 GB | Tesla M40 | 12 GB GDDR5 | Maxwell, 2015, CC 5.2 | Weak (1/64 rate) | ~1000–1300 CNY |
+| M40 24 GB | Tesla M40 24 GB | 24 GB GDDR5 | Maxwell, 2015, CC 5.2 | Weak (1/64 rate) | Second-hand parts |
+| P100 16 GB | Tesla P100 PCIe | 16 GB HBM2 | Pascal, 2016, CC 6.0 | Fast (~9.3 TFLOPS, 2:1) | Second-hand parts |
+
+**The M40 12 GB build:**
 
 | Part | Cost (CNY) | Notes |
 | ------ | -----------: | ------ |
@@ -61,7 +69,7 @@ Built a **12 GB AI workstation for around 1200 CNY (~$165)** using second-hand p
 | Intel i5-6500 / PSU / RAM / case | ~500–700 | Standard ATX parts from the second-hand market |
 | **Total** | **~1000–1300** | **~$140–180 for 12 GB of CUDA compute** |
 
-> The Tesla M40 is a **12 GB GDDR5** card (also available in 24 GB). It uses an **8-pin EPS (CPU) power connector**, not a standard PCIe power cable — a common gotcha. The card is **passive-cooled** and needs forced airflow.
+> The Tesla M40 comes in **12 GB** and **24 GB GDDR5** variants — the 24 GB version doubles the VRAM for bigger models. Both use an **8-pin EPS (CPU) power connector**, not a standard PCIe power cable — a common gotcha — and are **passive-cooled**, so they need forced airflow. The **Tesla P100** is a newer Pascal card (2016, CC 6.0) with **16 GB HBM2**: same 8-pin EPS + passive cooling, but adds real **FP16 throughput (~9.3 TFLOPS, 2:1)** and much higher memory bandwidth — a meaningful step up from the Maxwell M40 for LLM inference.
 
 **The breakthrough — BIOS configuration:**
 
@@ -90,13 +98,13 @@ This is significant. For around **1000–1200 CNY**, you can add **12 GB of CUDA
 - **27B models** at aggressive quants (IQ1_M, ~6.3 GB) with 4k–8k context
 - **Batch inference, LoRA fine-tuning**, and multi-GPU experiments
 
-The M40 is older (Maxwell, 2015, CC 5.2), so FP16 performance is weak and you need a llama.cpp build compiled with `-DCMAKE_CUDA_ARCHITECTURES=52`. But for the price, it's hard to beat — **~100 CNY per GB of VRAM**.
+The M40 is older (Maxwell, 2015, CC 5.2), so FP16 performance is weak and you need a llama.cpp build compiled with `-DCMAKE_CUDA_ARCHITECTURES=52`. The **M40 24 GB** uses the same build flags but doubles the VRAM, and the **P100 (CC 6.0)** needs `-DCMAKE_CUDA_ARCHITECTURES=60` and adds real FP16 speed plus HBM2 bandwidth. For the price, it's hard to beat — **~100 CNY per GB of VRAM** on the 12 GB build.
 
-I'm planning to build several more of these cheap workstations, scaling up distributed inference and training experiments across multiple 12 GB nodes.
+And I didn't stop at one. Today the home lab runs **three of these cheap second-hand data-center workstations — M40 12 GB + M40 24 GB + P100 16 GB = 52 GB of CUDA VRAM across three nodes** — scaling distributed inference and training experiments across multiple machines.
 
 ![Tesla M40 workstation — the build with MSI Z170A Gaming M5 and a 12 GB M40 GPU](/assets/images/ai-portfolio/m40-workstation.jpg)
 
-![Tesla M40 — nvidia-smi showing 11,520 MiB VRAM, card fully initialized](/assets/images/ai-portfolio/m40-running.jpg)
+![My AI station — three workstations built from second-hand parts: Tesla M40 12GB, Tesla M40 24GB, and Tesla P100 16GB](/assets/images/ai-portfolio/ai-station.jpg)
 
 ---
 
