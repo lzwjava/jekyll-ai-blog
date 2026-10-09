@@ -40,7 +40,7 @@ type: note
 某些行业**确实**设有法定最低限额，例如：
 
 | 行业 | 最低注册资本 |
-|---|---|
+| --- | --- |
 | 银行/金融 | 各异（由 CBIRC 设定） |
 | 保险 | 人民币 2 亿元以上 |
 | 证券 | 人民币 5000 万元以上 |
@@ -51,6 +51,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [WFOE in Guangzhou – MSA Advisory](https://msadvisory.com/wfoe-in-guangzhou/)
 - [China Registered Capital Requirements 2026 – RegistrationChina](https://www.registrationchina.com/articles/china-registered-capital-requirements/)
 - [Guangzhou Economic Guide 2026 – CitiesInsider](https://citiesinsider.com/country/china/guangzhou/economic-opportunities/en)

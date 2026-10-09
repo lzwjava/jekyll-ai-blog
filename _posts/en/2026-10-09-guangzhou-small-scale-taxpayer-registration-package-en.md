@@ -22,7 +22,7 @@ The package you've described is a standard **domestic LLC registration + agency 
 ### What You Pay
 
 | Item | Cost |
-|---|---|
+| --- | --- |
 | Address Hosting (registered address) | ¥1,500/year |
 | Agency Bookkeeping & Tax Filing | ¥2,468/year |
 | Company Registration (incl. 5 company seals) | **FREE** (bundled) |
@@ -34,7 +34,7 @@ The package you've described is a standard **domestic LLC registration + agency 
 ### 🔖 What the Bookkeeping Package (¥2,468/yr) Includes
 
 | Service | Frequency |
-|---|---|
+| --- | --- |
 | Monthly bookkeeping & tax return filing | Monthly |
 | Invoice issuance guidance | On-demand |
 | Social security contribution withholding & payment | Monthly |
@@ -54,6 +54,7 @@ The package you've described is a standard **domestic LLC registration + agency 
 ### 📁 Required Documents for Registration
 
 You need to prepare:
+
 1. **Company name** (preferably 3–5 candidates in case of conflicts)
 2. **Registered capital amount** (no minimum; can be subscribed, not paid-up)
 3. **Legal representative & shareholder ID** (front + back of Chinese national ID)
@@ -72,6 +73,7 @@ You need to prepare:
 ### 🏢 Address Hosting Note
 
 The **¥1,500/year address** is a virtual registered address (地址托管). This is legitimate for registration purposes in Guangzhou but:
+
 - Is **not** a physical operating office
 - Some industries (e.g., food, medical) may require an actual physical address
 - Confirm the address is in a commercially-zoned property (商业用途), as residential addresses are not accepted
@@ -99,6 +101,7 @@ The **¥1,500/year address** is a virtual registered address (地址托管). Thi
 This is a competitive package for **micro/small businesses, sole operators, or e-commerce startups** in Guangzhou looking for low administrative overhead. If your annual revenue is expected to stay under ¥5 million and you don't need to claim input VAT credits, the small-scale status is typically sufficient.
 
 **References:**
+
 - [Guangzhou Starting a Business — Official Portal](https://www.gz.gov.cn/guangzhouinternational/businessenvironmentoptimization/policies/StartingaBusiness/content/post_7140168.html)
 - [Guangzhou Baiyun District — Business Registration Procedure](https://en.by.gov.cn/2022-05/21/c_753689.htm)
 - [Kaizen CPA — Guangzhou Company Registration Overview](https://kaizencpa.com/services/info/id/528.html)

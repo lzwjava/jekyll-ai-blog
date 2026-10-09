@@ -40,7 +40,7 @@ A **recommended minimum is ¥100,000 RMB**, even though no law mandates it — i
 Some sectors **do** have statutory minimums, for example:
 
 | Industry | Minimum Capital |
-|---|---|
+| --- | --- |
 | Banking / Finance | Varies (set by CBIRC) |
 | Insurance | RMB 200M+ |
 | Securities | RMB 50M+ |
@@ -51,6 +51,7 @@ Financial institutions must verify 100% of the minimum registered capital before
 ---
 
 **References:**
+
 - [WFOE in Guangzhou – MSA Advisory](https://msadvisory.com/wfoe-in-guangzhou/)
 - [China Registered Capital Requirements 2026 – RegistrationChina](https://www.registrationchina.com/articles/china-registered-capital-requirements/)
 - [Guangzhou Economic Guide 2026 – CitiesInsider](https://citiesinsider.com/country/china/guangzhou/economic-opportunities/en)
