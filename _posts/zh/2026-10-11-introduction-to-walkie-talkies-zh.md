@@ -29,7 +29,7 @@ Walkie-talkie 的工作原理是将你的语音转换为 **radio signal**，在�
 ### 常用频段
 
 | 频段 | 频率 | 典型用途 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | **VHF** | 136–174 MHz | 户外、开阔地形、海事 |
 | **UHF** | 400–512 MHz | 城市、室内、建筑物 |
 | **FRS**（美国） | 462–467 MHz | 消费/个人使用，无需执照 |
@@ -78,6 +78,7 @@ Walkie-talkie 的工作原理是将你的语音转换为 **radio signal**，在�
 ---
 
 参考链接：
+
 - [FCC — FRS 双向无线电](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)
 - [OFCA 香港 — 无线电报](https://www.ofca.gov.hk/en/consumer_focus/guide_handsets/wireless_telegraphy/)
 - [ARRL — 获取执照（业余无线电）](https://www.arrl.org/getting-licensed)

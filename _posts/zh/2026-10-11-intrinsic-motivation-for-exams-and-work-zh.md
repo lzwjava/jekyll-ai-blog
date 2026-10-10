@@ -48,6 +48,7 @@ type: note
 那些*仅仅*在考试前临时抱佛脚的人往往知道如何通过考试——但很少知道如何将所学知识用于日后。
 
 参考资料：
+
 - [自我决定理论 — Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [深度与表面学习方法 — John Biggs](https://www.tandfonline.com/doi/abs/10.1080/0729436990180504)
 - [刻意练习在专长中的作用 — Ericsson 等](https://psycnet.apa.org/record/1993-40718-001)

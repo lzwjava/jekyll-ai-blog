@@ -22,6 +22,7 @@ Answer:
 4. **Abstraction / Hardware Independence** — The OS provides a consistent interface (via system calls and device drivers) that hides the complexity of underlying hardware. Applications can run without needing to know the specific details of the hardware they operate on.
 
 References:
+
 - [Operating System Concepts – Silberschatz, Galvin & Gagne](https://www.os-book.com/)
 - [Introduction to Operating Systems – GeeksforGeeks](https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/)
 - [Operating System – Tutorialspoint](https://www.tutorialspoint.com/operating_system/os_overview.htm)

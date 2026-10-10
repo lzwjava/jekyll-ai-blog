@@ -46,6 +46,7 @@ Both portable and vehicle-mounted receivers can receive broadcasts without a fix
 Transmission requires licensed frequency allocation to prevent channel overlap and interference, governed by national and international bodies (e.g., ITU).
 
 References:
+
 - [ITU – Radio Regulations](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/default.aspx)
 - [Radio Broadcasting – Encyclopedia Britannica](https://www.britannica.com/technology/radio-broadcasting)
 - [HowStuffWorks – How Radio Works](https://electronics.howstuffworks.com/radio.htm)

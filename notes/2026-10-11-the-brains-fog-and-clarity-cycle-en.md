@@ -28,5 +28,6 @@ So yes — the foggy, worried brain and the clear, calm brain are *both you*. Th
 你好, by the way. 😊 How are you feeling right now — more foggy, or more clear?
 
 References:
+
 - [The Neuroscience of Stress and Cognitive Function – Harvard Health](https://www.health.harvard.edu/mind-and-mood/understanding-the-stress-response)
 - [Default Mode Network and Spontaneous Thought – NIH](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811102/)

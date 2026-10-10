@@ -35,6 +35,7 @@ The net effect: people under heavy financial pressure often find themselves more
 ---
 
 **References:**
+
 - [Scarcity: Why Having Too Little Means So Much — Mullainathan & Shafir (Princeton)](https://press.princeton.edu/books/paperback/9780062251046/scarcity)
 - [Poverty Impedes Cognitive Function — Science (2013)](https://www.science.org/doi/10.1126/science.1238041)
 - [The Default Mode Network and Mind-Wandering — Nature Reviews Neuroscience](https://www.nature.com/articles/nrn2014)

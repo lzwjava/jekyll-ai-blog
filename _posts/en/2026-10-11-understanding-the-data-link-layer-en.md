@@ -22,7 +22,7 @@ The **Data Link Layer** is **Layer 2** of the OSI (Open Systems Interconnection)
 ## Key Responsibilities
 
 | Function | Description |
-|---|---|
+| --- | --- |
 | **Framing** | Wraps raw bits into structured units called *frames* |
 | **Physical Addressing** | Uses MAC addresses to identify source/destination on the local network |
 | **Error Detection** | Detects (and sometimes corrects) transmission errors using CRC, checksums |
@@ -68,7 +68,7 @@ The Data Link Layer is divided into two sublayers:
 ## Common Protocols
 
 | Protocol | Use Case |
-|---|---|
+| --- | --- |
 | **Ethernet (802.3)** | Wired LAN |
 | **Wi-Fi (802.11)** | Wireless LAN |
 | **PPP** | Point-to-point links (e.g., DSL) |
@@ -103,6 +103,7 @@ Layer 1  Physical     ← Raw bits (0s and 1s)
 ## Mental Model
 
 Think of the Data Link Layer as a **local postal service within a single building**:
+
 - The **Physical Layer** is the hallways/wires
 - The **Data Link Layer** is the internal mail system that knows room numbers (MAC addresses) and delivers envelopes (frames) reliably between rooms
 - The **Network Layer** handles routing between buildings (different networks)
@@ -110,6 +111,7 @@ Think of the Data Link Layer as a **local postal service within a single buildin
 ---
 
 **References:**
+
 - [OSI Model – Data Link Layer (Cloudflare)](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [Data Link Layer – Wikipedia](https://en.wikipedia.org/wiki/Data_link_layer)
 - [Ethernet Frame Structure – GeeksForGeeks](https://www.geeksforgeeks.org/ethernet-frame-format/)

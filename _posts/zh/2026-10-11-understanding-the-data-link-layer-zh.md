@@ -22,7 +22,7 @@ type: note
 ## 主要职责
 
 | 功能 | 描述 |
-|---|---|
+| --- | --- |
 | **Framing** | 将原始比特封装成称为*帧*的结构化单元 |
 | **Physical Addressing** | 使用 MAC 地址标识本地网络上的源/目标 |
 | **Error Detection** | 利用 CRC、校验和检测（有时纠正）传输错误 |
@@ -68,7 +68,7 @@ type: note
 ## 常见协议
 
 | 协议 | 使用场景 |
-|---|---|
+| --- | --- |
 | **Ethernet (802.3)** | 有线局域网 |
 | **Wi-Fi (802.11)** | 无线局域网 |
 | **PPP** | 点对点链路（例如 DSL） |
@@ -103,6 +103,7 @@ type: note
 ## 心智模型
 
 将数据链路层想象为**同一栋建筑内的本地邮政服务**：
+
 - **物理层**是走廊/线缆
 - **数据链路层**是内部邮件系统，知道房间号（MAC 地址）并在房间之间可靠地递送信封（帧）
 - **网络层**处理建筑之间（不同网络）的路由
@@ -110,6 +111,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [OSI 模型 – 数据链路层 (Cloudflare)](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [数据链路层 – Wikipedia](https://en.wikipedia.org/wiki/Data_link_layer)
 - [以太网帧结构 – GeeksForGeeks](https://www.geeksforgeeks.org/ethernet-frame-format/)

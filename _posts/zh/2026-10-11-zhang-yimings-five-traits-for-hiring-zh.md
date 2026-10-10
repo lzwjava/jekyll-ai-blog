@@ -36,6 +36,7 @@ type: note
 张一鸣改编了史蒂夫·乔布斯的名言以体现自己的价值观："Stay hungry, Stay young"——保持饥饿和年轻心态。他将此延伸到招聘：他认为对公司而言最重要的是保持年轻，这比成为成熟、稳固的组织更为重要。
 
 **参考资料：**
+
 - [Why Great CEOs Must Be Great HRs: Zhang Yiming's Talent Playbook](https://www.besthub.dev/articles/why-great-ceos-must-be-great-hrs-zhang-yiming-s-talent-playbook-d1753063f234)
 - [Stay Hungry, Stay Young: Zhang Yiming's Insights on Career Growth](https://www.besthub.dev/tags/professional-traits)
 - [Zhang Yiming's Journey: How ByteDance Became a Global Giant](https://www.analyticsinsight.net/technology/zhang-yimings-journey-how-bytedance-became-a-global-giant)

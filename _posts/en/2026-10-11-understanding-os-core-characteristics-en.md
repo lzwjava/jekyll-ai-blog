@@ -18,6 +18,7 @@ These are the **four classic OS characteristics** from Chinese CS textbooks (操
 ---
 
 ### 1. 并发性 — Concurrency
+>
 > Multiple tasks appear to run **at the same time** within a single time period.
 
 - The OS rapidly switches between processes (context switching), giving the illusion of parallel execution on a single CPU.
@@ -27,6 +28,7 @@ These are the **four classic OS characteristics** from Chinese CS textbooks (操
 ---
 
 ### 2. 共享性 — Sharing
+>
 > Multiple processes **share** the same system resources (memory, files, CPU).
 
 - Two types:
@@ -37,6 +39,7 @@ These are the **four classic OS characteristics** from Chinese CS textbooks (操
 ---
 
 ### 3. 虚拟性 — Virtualization
+>
 > Physical resources are mapped into **logical/virtual** counterparts that feel larger or more numerous than they really are.
 
 - **Virtual Memory:** A program sees a large address space even if physical RAM is small (using disk as extension).
@@ -46,6 +49,7 @@ These are the **four classic OS characteristics** from Chinese CS textbooks (操
 ---
 
 ### 4. 异步性 — Asynchrony
+>
 > Processes run at **unpredictable speeds**, advancing and pausing in an irregular order.
 
 - Because resources are shared and scheduling is dynamic, a process may be interrupted and resumed at unknown times.
@@ -55,7 +59,9 @@ These are the **four classic OS characteristics** from Chinese CS textbooks (操
 ---
 
 ### 关于 实时性 (Real-time)
+
 This is a characteristic of **Real-Time Operating Systems (RTOS)**, not a general OS trait:
+
 - The system must respond to events **within a strict deadline**.
 - Used in: medical devices, aircraft control, industrial automation.
 - Two types: **Hard real-time** (miss deadline = system failure) vs. **Soft real-time** (minor delays tolerable).
@@ -65,7 +71,7 @@ This is a characteristic of **Real-Time Operating Systems (RTOS)**, not a genera
 ### Quick Summary Table
 
 | Term | Chinese | Core Idea |
-|------|---------|-----------|
+| ------ | --------- | ----------- |
 | Concurrency | 并发性 | Many tasks *seem* to run together |
 | Sharing | 共享性 | Resources used by multiple processes |
 | Virtualization | 虚拟性 | Physical resources appear larger/multiple |
@@ -73,6 +79,7 @@ This is a characteristic of **Real-Time Operating Systems (RTOS)**, not a genera
 | Real-time | 实时性 | Responses must meet strict time deadlines |
 
 References:
+
 - [Operating System Concepts – Silberschatz (os-book.com)](https://www.os-book.com/)
 - [Four Characteristics of OS – GeeksforGeeks](https://www.geeksforgeeks.org/characteristics-of-operating-system/)
 - [Real-Time Operating System – Tutorialspoint](https://www.tutorialspoint.com/operating_system/os_real_time_system.htm)

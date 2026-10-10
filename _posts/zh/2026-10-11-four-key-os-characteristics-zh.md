@@ -22,6 +22,7 @@ type: note
 4. **抽象 / 硬件独立性** — 操作系统提供一致的接口（通过系统调用和设备驱动程序），隐藏底层硬件的复杂性。应用程序无需了解其运行硬件具体细节即可运行。
 
 参考：
+
 - [Operating System Concepts – Silberschatz, Galvin & Gagne](https://www.os-book.com/)
 - [Introduction to Operating Systems – GeeksforGeeks](https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/)
 - [Operating System – Tutorialspoint](https://www.tutorialspoint.com/operating_system/os_overview.htm)

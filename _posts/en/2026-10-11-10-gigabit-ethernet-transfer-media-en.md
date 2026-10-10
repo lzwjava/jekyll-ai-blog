@@ -20,7 +20,7 @@ type: note
 ### 🔵 Optical Fiber (光纤)
 
 | Standard | Fiber Type | Max Distance |
-|---|---|---|
+| --- | --- | --- |
 | **10GBASE-SR** | Multi-mode fiber (MMF) | 26–400 m |
 | **10GBASE-LR** | Single-mode fiber (SMF) | 10 km |
 | **10GBASE-ER** | Single-mode fiber (SMF) | 40 km |
@@ -32,7 +32,7 @@ type: note
 ### 🟡 Copper (铜缆)
 
 | Standard | Medium | Max Distance |
-|---|---|---|
+| --- | --- | --- |
 | **10GBASE-T** (802.3an) | Cat 6a / Cat 7 UTP | 100 m |
 | **10GBASE-CX4** | Twinaxial copper cable | 15 m |
 | **10GBASE-CR / DAC** | Direct Attach Copper (SFP+) | 1–7 m |
@@ -49,5 +49,6 @@ type: note
 ---
 
 **References:**
+
 - [10 Gigabit Ethernet – Wikipedia](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
 - [IEEE 802.3an (10GBASE-T)](https://en.wikipedia.org/wiki/10GBASE-T)

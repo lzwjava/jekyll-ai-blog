@@ -27,7 +27,7 @@ Answer: **快速以太网（Fast Ethernet）** 是一种网络标准，运行速
 **速度对比：**
 
 | 标准 | 中文名称 | 速度 |
-|---|---|---|
+| --- | --- | --- |
 | Ethernet | 以太网 | 10 Mbps |
 | **Fast Ethernet** | **快速以太网** | **100 Mbps** |
 | Gigabit Ethernet | 千兆以太网 | 1,000 Mbps |
@@ -36,5 +36,6 @@ Answer: **快速以太网（Fast Ethernet）** 是一种网络标准，运行速
 快速以太网在 1990 年代末至 2000 年代是主流的局域网标准。如今它已在很大程度上被**千兆以太网（Gigabit Ethernet）**取代，不过在较旧的硬件和一些嵌入式设备上仍能看到 100BASE-TX 端口。
 
 参考：
+
 - [IEEE 802.3u – Fast Ethernet Standard](https://standards.ieee.org/ieee/802.3u/1119/)
 - [Fast Ethernet – Wikipedia](https://en.wikipedia.org/wiki/Fast_Ethernet)

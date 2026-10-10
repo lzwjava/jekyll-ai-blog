@@ -33,7 +33,7 @@ Walkie-talkies operate by converting your voice into a radio signal, broadcastin
 ### Common Frequency Bands
 
 | Band | Frequency | Typical Use |
-|------|-----------|-------------|
+| ------ | ----------- | ------------- |
 | **VHF** | 136–174 MHz | Outdoors, open terrain, marine |
 | **UHF** | 400–512 MHz | Urban, indoor, buildings |
 | **FRS** (US) | 462–467 MHz | Consumer/personal use, no license |
@@ -82,6 +82,7 @@ Walkie-talkies operate by converting your voice into a radio signal, broadcastin
 ---
 
 References:
+
 - [FCC — FRS Two-Way Radios](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)
 - [OFCA Hong Kong — Wireless Telegraphy](https://www.ofca.gov.hk/en/consumer_focus/guide_handsets/wireless_telegraphy/)
 - [ARRL — Getting Licensed (Ham Radio)](https://www.arrl.org/getting-licensed)

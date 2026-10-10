@@ -50,6 +50,7 @@ Even in the high-pressure AI competition of recent years, when ByteDance faced s
 ---
 
 **References:**
+
 - [Lessons from Zhang Yiming, Founder of ByteDance](https://www.antoinebuteau.com/lessons-from-zhang-yiming-founder-of-bytedance/)
 - [Zhang Yiming's Last Speech: Part I](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-i)
 - [Zhang Yiming's Last Speech: Part II](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-ii)

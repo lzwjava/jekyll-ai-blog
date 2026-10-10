@@ -40,18 +40,19 @@ This means in practice you'd likely need **about 2 years** of additional study a
 **Your specific situation summary:**
 
 | Factor | Assessment |
-|---|---|
+| --- | --- |
 | 自考大专 (13 subjects passed) | Recognized by WES as a US associate's degree ✅ |
 | Dropped out of 北京林业大学 | You still need to submit that transcript ✅ |
 | 10+ years work experience | Helpful for your application, but IIT focuses primarily on academic credentials for undergrad |
 | Credential evaluation needed | WES course-by-course evaluation recommended |
 | Time to finish bachelor's at IIT | ~2 years remaining (≈45 credit hours minimum at IIT) |
 
-**Important note:** Course matching matters. IIT will do a formal transfer credit evaluation to determine how many of your subjects apply toward your chosen program. You should contact IIT admissions directly (admission@illinoistech.edu) to ask which of your 13 self-study subjects might be recognized for your intended major.
+**Important note:** Course matching matters. IIT will do a formal transfer credit evaluation to determine how many of your subjects apply toward your chosen program. You should contact IIT admissions directly (<admission@illinoistech.edu>) to ask which of your 13 self-study subjects might be recognized for your intended major.
 
 ---
 
 **References:**
+
 - [WES: How Chinese Credentials Are Evaluated](https://www.wes.org/advisor-blog/how-chinese-credentials-are-evaluated/)
 - [Illinois Tech – International Transfer Students](https://www.iit.edu/admissions-aid/undergraduate-admission/international-undergraduate-students/how-apply-international-undergraduate-students/international-transfer-students)
 - [Illinois Tech Transfer Credit Policy – CollegeTransfer.net](https://www.collegetransfer.org/IllinoisInstituteOfTechnology/TransferProfile/tabid/145/Default.aspx)

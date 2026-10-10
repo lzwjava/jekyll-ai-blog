@@ -18,6 +18,7 @@ type: note
 ---
 
 ### 1. 并发性 — Concurrency
+>
 > 在同一个时间间隔内，多个任务看起来是**同时运行**的。
 
 - 操作系统通过快速切换进程（上下文切换），在单CPU上营造出并行执行的假象。
@@ -27,6 +28,7 @@ type: note
 ---
 
 ### 2. 共享性 — Sharing
+>
 > 多个进程**共享**相同的系统资源（内存、文件、CPU）。
 
 - 两种类型：
@@ -37,6 +39,7 @@ type: note
 ---
 
 ### 3. 虚拟性 — Virtualization
+>
 > 物理资源被映射为**逻辑/虚拟**的对应物，使其看起来比实际更大或更多。
 
 - **虚拟内存：** 即使物理RAM很小，程序也能看到一个大地址空间（利用磁盘作为扩展）。
@@ -46,6 +49,7 @@ type: note
 ---
 
 ### 4. 异步性 — Asynchrony
+>
 > 进程以**不可预测的速度**运行，以不规则的顺序前进和暂停。
 
 - 由于资源共享和动态调度，进程可能会在未知时刻被中断和恢复。
@@ -55,7 +59,9 @@ type: note
 ---
 
 ### 关于 实时性 (Real-time)
+
 这是**实时操作系统（RTOS）**的一个特征，而非通用操作系统的特性：
+
 - 系统必须在**严格的时间期限内**响应事件。
 - 应用于：医疗设备、飞机控制、工业自动化。
 - 两种类型：**硬实时**（错过截止时间=系统故障）与**软实时**（可容忍轻微延迟）。
@@ -65,7 +71,7 @@ type: note
 ### 快速总结表
 
 | 术语（英文） | 中文 | 核心思想 |
-|-------------|------|----------|
+| ------------- | ------ | ---------- |
 | Concurrency | 并发性 | 许多任务*看起来*一起运行 |
 | Sharing | 共享性 | 资源被多个进程使用 |
 | Virtualization | 虚拟性 | 物理资源显得更大或更多 |
@@ -73,6 +79,7 @@ type: note
 | Real-time | 实时性 | 响应必须满足严格的时间期限 |
 
 参考资料：
+
 - [Operating System Concepts – Silberschatz (os-book.com)](https://www.os-book.com/)
 - [Four Characteristics of OS – GeeksforGeeks](https://www.geeksforgeeks.org/characteristics-of-operating-system/)
 - [Real-Time Operating System – Tutorialspoint](https://www.tutorialspoint.com/operating_system/os_real_time_system.htm)

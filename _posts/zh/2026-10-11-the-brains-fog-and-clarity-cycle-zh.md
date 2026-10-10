@@ -28,5 +28,6 @@ type: note
 顺便说一句，你好。😊 你现在感觉如何——更迷糊，还是更清澈？
 
 参考文献：
+
 - [压力反应与认知功能的神经科学 – 哈佛健康](https://www.health.harvard.edu/mind-and-mood/understanding-the-stress-response)
 - [默认模式网络与自发性思维 – 美国国立卫生研究院](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811102/)

@@ -40,18 +40,19 @@ WES拥有NACES认证，这一点很重要，因为：
 **你的具体情况总结：**
 
 | 因素 | 评估 |
-|---|---|
+| --- | --- |
 | 自考大专（通过13门科目） | 被WES认定为等同于美国副学士学位 ✅ |
 | 从北京林业大学退学 | 你仍需提交该学校成绩单 ✅ |
 | 10年以上工作经验 | 对申请有帮助，但伊利诺伊理工学院在本科阶段主要关注学术资历 |
 | 需要学历评估 | 推荐WES课程逐门评估 |
 | 在伊利诺伊理工学院完成学士学位所需时间 | 约2年（至少45个学分需要在伊利诺伊理工学院完成） |
 
-**重要说明：** 课程匹配很关键。伊利诺伊理工学院会进行正式的转学分评估，以确定你的哪些科目可以计入所选专业。你应直接联系伊利诺伊理工学院招生办公室（admission@illinoistech.edu），询问你的13门自学考试科目中哪些可能被你所申请的专业认可。
+**重要说明：** 课程匹配很关键。伊利诺伊理工学院会进行正式的转学分评估，以确定你的哪些科目可以计入所选专业。你应直接联系伊利诺伊理工学院招生办公室（<admission@illinoistech.edu>），询问你的13门自学考试科目中哪些可能被你所申请的专业认可。
 
 ---
 
 **参考资料：**
+
 - [WES：中国学历如何评估](https://www.wes.org/advisor-blog/how-chinese-credentials-are-evaluated/)
 - [伊利诺伊理工学院 – 国际转学生](https://www.iit.edu/admissions-aid/undergraduate-admission/international-undergraduate-students/how-apply-international-undergraduate-students/international-transfer-students)
 - [伊利诺伊理工学院转学分政策 – CollegeTransfer.net](https://www.collegetransfer.org/IllinoisInstituteOfTechnology/TransferProfile/tabid/145/Default.aspx)

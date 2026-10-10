@@ -38,6 +38,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Americans in Their 30s and 40s Are Changing Careers](https://digital-release.8newsnow.com/?p=2477293)
 - [Switching Careers at 30, 40, or 50: A Realistic Roadmap](https://leonstaff.com/blogs/switching-careers-at-30-40-50-realistic-roadmap/)
 - [Career Change Success Rate: What the Data Says (2026)](https://ascendurepro.com/?p=50543)

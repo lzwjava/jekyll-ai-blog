@@ -48,6 +48,7 @@ The underlying mechanism is **intrinsic motivation**. When someone is internally
 The people who *only* study hard right before an exam often know how to pass — but rarely know how to *use* what they learned afterward.
 
 References:
+
 - [Self-Determination Theory — Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [Deep vs. Surface Approaches to Learning — John Biggs](https://www.tandfonline.com/doi/abs/10.1080/0729436990180504)
 - [The Role of Deliberate Practice in Expertise — Ericsson et al.](https://psycnet.apa.org/record/1993-40718-001)

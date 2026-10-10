@@ -24,7 +24,7 @@ The **Network Layer** is **Layer 3** of the OSI model. Its primary job is **end-
 ## Key Responsibilities
 
 | Function | Description |
-|---|---|
+| --- | --- |
 | **Logical Addressing** | Assigns IP addresses to identify hosts globally |
 | **Routing** | Selects the best path for packets across networks |
 | **Packet Forwarding** | Moves packets hop-by-hop toward the destination |
@@ -85,7 +85,7 @@ Each router:
 ### Routing Table Example
 
 | Destination Network | Next Hop | Interface |
-|---|---|---|
+| --- | --- | --- |
 | 192.168.1.0/24 | Direct | eth0 |
 | 10.0.0.0/8 | 172.16.0.1 | eth1 |
 | 0.0.0.0/0 | 203.0.113.1 | eth2 (default) |
@@ -95,7 +95,7 @@ Each router:
 ## Key Protocols
 
 | Protocol | Purpose |
-|---|---|
+| --- | --- |
 | **IP** (v4/v6) | Core addressing and packet delivery |
 | **ICMP** | Error messages & diagnostics (`ping`, `traceroute`) |
 | **OSPF** | Interior routing protocol (within a network) |
@@ -126,7 +126,7 @@ Host part:          .100     ← unique per device
 ## Key Device: The Router
 
 | Feature | Switch (Layer 2) | Router (Layer 3) |
-|---|---|---|
+| --- | --- | --- |
 | Address used | MAC address | IP address |
 | Scope | Local network | Between networks |
 | Makes decisions based on | Frame | Packet |
@@ -159,6 +159,7 @@ Network Layer    →  Delivers packets between  ANY two nodes  (across networks)
 ---
 
 **References:**
+
 - [Network Layer – Wikipedia](https://en.wikipedia.org/wiki/Network_layer)
 - [IP Addressing & Subnetting – Cisco](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
 - [How Routing Works – Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-routing/)

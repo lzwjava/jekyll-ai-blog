@@ -27,7 +27,7 @@ Answer: **快速以太网** is the Chinese term for **Fast Ethernet**, a network
 **Speed comparison in context:**
 
 | Standard | Chinese Name | Speed |
-|---|---|---|
+| --- | --- | --- |
 | Ethernet | 以太网 | 10 Mbps |
 | **Fast Ethernet** | **快速以太网** | **100 Mbps** |
 | Gigabit Ethernet | 千兆以太网 | 1,000 Mbps |
@@ -36,5 +36,6 @@ Answer: **快速以太网** is the Chinese term for **Fast Ethernet**, a network
 Fast Ethernet was the dominant LAN standard through the late 1990s and 2000s. Today it has been largely superseded by **Gigabit Ethernet**, though 100BASE-TX ports are still found on older hardware and some embedded devices.
 
 References:
+
 - [IEEE 802.3u – Fast Ethernet Standard](https://standards.ieee.org/ieee/802.3u/1119/)
 - [Fast Ethernet – Wikipedia](https://en.wikipedia.org/wiki/Fast_Ethernet)

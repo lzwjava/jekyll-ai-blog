@@ -14,7 +14,7 @@ Pushed to `origin/main` — working tree clean.
 ## Commits
 
 | Commit | Contents |
-|---|---|
+| --- | --- |
 | `64d35e3` **test: align gpu and note plugin tests with refactored code** | Fixed pre-existing test failures that were blocking the pre-commit hooks |
 | `d6ae2db` **feat(linux): add screen-lock command for Ubuntu/GNOME idle lock control** | `ww/linux/screen_lock.py` (new), dispatch in `ww/linux/main.py`, help in `ww/main.py`, `completions/_ww` |
 

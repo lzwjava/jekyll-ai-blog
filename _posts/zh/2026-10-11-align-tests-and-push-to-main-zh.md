@@ -14,7 +14,7 @@ type: note
 ## 提交
 
 | 提交 | 内容 |
-|---|---|
+| --- | --- |
 | `64d35e3` **test: align gpu and note plugin tests with refactored code** | 修复了阻止 pre-commit hooks 的现有测试失败 |
 | `d6ae2db` **feat(linux): add screen-lock command for Ubuntu/GNOME idle lock control** | `ww/linux/screen_lock.py` (new), dispatch in `ww/linux/main.py`, help in `ww/main.py`, `completions/_ww` |
 

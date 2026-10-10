@@ -18,6 +18,7 @@ type: note
 100BASE-FX 是 **IEEE 802.3u (1995)** 中定义的一种 **快速以太网** 标准，通过 **光纤** 而非铜缆实现 100 Mbps 的数据传输。
 
 名称解析：
+
 | 部分   | 含义                     |
 |--------|--------------------------|
 | **100** | 100 Mbps 数据速率        |
@@ -94,6 +95,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [IEEE 802.3u 标准（快速以太网）](https://standards.ieee.org/ieee/802.3u/1183/)
 - [100BASE-FX – 以太网物理层](https://en.wikipedia.org/wiki/Fast_Ethernet#100BASE-FX)
 - [以太网光纤布线 – Cisco](https://www.cisco.com/c/en/us/td/docs/internetworking/technology/handbook/Ether.html)

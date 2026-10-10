@@ -36,6 +36,7 @@ Zhang believes talent quality determines the effectiveness of resource allocatio
 Zhang adapted Steve Jobs' famous phrase to reflect his own values: "Stay hungry, Stay young" — maintaining hunger and a youthful mindset. He extended this to hiring: he believes the most important thing for a company is to stay young, and this matters more than becoming a mature, established organization.
 
 **References:**
+
 - [Why Great CEOs Must Be Great HRs: Zhang Yiming's Talent Playbook](https://www.besthub.dev/articles/why-great-ceos-must-be-great-hrs-zhang-yiming-s-talent-playbook-d1753063f234)
 - [Stay Hungry, Stay Young: Zhang Yiming's Insights on Career Growth](https://www.besthub.dev/tags/professional-traits)
 - [Zhang Yiming's Journey: How ByteDance Became a Global Giant](https://www.analyticsinsight.net/technology/zhang-yimings-journey-how-bytedance-became-a-global-giant)

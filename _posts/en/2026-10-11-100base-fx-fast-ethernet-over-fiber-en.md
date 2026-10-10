@@ -18,8 +18,9 @@ type: note
 100BASE-FX is a **Fast Ethernet** standard defined under **IEEE 802.3u (1995)** that delivers 100 Mbps data transmission over **fiber optic cable** rather than copper wire.
 
 Breaking down the name:
+
 | Part | Meaning |
-|------|---------|
+| ------ | --------- |
 | **100** | 100 Mbps data rate |
 | **BASE** | Baseband transmission |
 | **FX** | Fiber optic medium (two strands) |
@@ -29,7 +30,7 @@ Breaking down the name:
 ## Physical Layer
 
 | Specification | Details |
-|--------------|---------|
+| -------------- | --------- |
 | **Cable type** | Multimode fiber (MMF), 62.5/125 µm or 50/125 µm |
 | **Strands** | 2 (one TX, one RX) |
 | **Wavelength** | 1300 nm (infrared) |
@@ -41,7 +42,7 @@ Breaking down the name:
 ## Range / Distance
 
 | Duplex Mode | Max Distance |
-|-------------|-------------|
+| ------------- | ------------- |
 | **Half-duplex** | ~412 meters |
 | **Full-duplex** | **2 kilometers (2 km)** |
 
@@ -68,7 +69,7 @@ This makes 100BASE-FX a strong choice for **building-to-building or campus backb
 ## Comparison: 100BASE-FX vs 100BASE-TX
 
 | Feature | 100BASE-FX | 100BASE-TX |
-|---------|-----------|-----------|
+| --------- | ----------- | ----------- |
 | Speed | 100 Mbps | 100 Mbps |
 | Medium | Multimode fiber | Cat 5e/6 UTP copper |
 | Max distance | 2 km (full-duplex) | 100 m |
@@ -94,6 +95,7 @@ This makes 100BASE-FX a strong choice for **building-to-building or campus backb
 ---
 
 **References:**
+
 - [IEEE 802.3u Standard (Fast Ethernet)](https://standards.ieee.org/ieee/802.3u/1183/)
 - [100BASE-FX – Ethernet Physical Layer](https://en.wikipedia.org/wiki/Fast_Ethernet#100BASE-FX)
 - [Fiber Optic Cabling in Ethernet – Cisco](https://www.cisco.com/c/en/us/td/docs/internetworking/technology/handbook/Ether.html)

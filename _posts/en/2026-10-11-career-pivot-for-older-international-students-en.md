@@ -41,6 +41,7 @@ For international students in their 30s or 40s wanting to change industries, com
 ---
 
 **References:**
+
 - [F-1 Visa New Rules 2026: The 4-Year Limit Explained – Grapelaw](https://www.grapelaw.com/juridical/f-1-visa-new-rules-2026-the-4-year-limit-explained)
 - [Biggest Changes to Student Visas in Generations – American Immigration Council](https://www.americanimmigrationcouncil.org/blog/biggest-changes-student-visas-in-generations-what-you-need-to-know/)
 - [Trump's New Visa Limits & MBA Admissions – Poets & Quants](https://poetsandquants.com/2026/08/05/trumps-new-visa-limits-have-mba-admissions-consultants-split-on-what-comes-next/)

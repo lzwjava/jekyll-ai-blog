@@ -16,7 +16,7 @@ type: note
 **万兆位以太网仅支持全双工模式。**
 
 | 属性 | 详情 |
-|---|---|
+| --- | --- |
 | **模式** | **仅**全双工 |
 | **半双工** | ❌ 不支持 |
 | **CSMA/CD** | ❌ 不使用（无需碰撞检测） |
@@ -35,5 +35,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [万兆位以太网 – Wikipedia](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
 - [IEEE 802.3ae 标准概述](https://standards.ieee.org/ieee/802.3ae/1768/)

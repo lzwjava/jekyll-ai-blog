@@ -31,7 +31,7 @@ A **telephone network** (电话网) is an interconnected system of infrastructur
 ### Types of Telephone Networks
 
 | Type | Full Name | Description |
-|------|-----------|-------------|
+| ------ | ----------- | ------------- |
 | **PSTN** | Public Switched Telephone Network | Traditional copper-wire landline network; the "plain old telephone system" |
 | **PLMN** | Public Land Mobile Network | The backbone behind cellular/mobile networks (2G–5G) |
 | **VoIP** | Voice over Internet Protocol | Voice carried over the internet (WhatsApp, Skype, Zoom) |
@@ -58,7 +58,7 @@ Caller → Local Loop → Central Office (CO) → Trunk Lines → CO → Local L
 Modern cellular networks are the dominant form of telephone network:
 
 | Generation | Era | Key Feature |
-|------------|-----|-------------|
+| ------------ | ----- | ------------- |
 | **1G** | 1980s | Analog voice only |
 | **2G (GSM/CDMA)** | 1990s | Digital voice, SMS, basic data |
 | **3G (WCDMA/CDMA2000)** | 2000s | Mobile internet, video calls |
@@ -84,7 +84,7 @@ Most modern "phone calls" are now **VoIP** at some layer:
 ### Key Components of a Telephone Network
 
 | Component | Role |
-|-----------|------|
+| ----------- | ------ |
 | **Terminal / Handset** | End-user device (phone) |
 | **Local Loop** | Connection from user to exchange |
 | **Exchange / Switch** | Routes calls between subscribers |
@@ -98,7 +98,7 @@ Most modern "phone calls" are now **VoIP** at some layer:
 ### Telephone Networks vs. Walkie-Talkies
 
 | Feature | Telephone Network | Walkie-Talkie |
-|---------|-------------------|---------------|
+| --------- | ------------------- | --------------- |
 | Duplex | Full-duplex | Half-duplex |
 | Infrastructure | Requires network | Direct radio, no infrastructure |
 | Range | Global | Local (meters to tens of km) |
@@ -116,6 +116,7 @@ Most modern "phone calls" are now **VoIP** at some layer:
 ---
 
 References:
+
 - [ITU — Telecommunication Standardization](https://www.itu.int/en/ITU-T/Pages/default.aspx)
 - [OFCA Hong Kong — Telecommunications](https://www.ofca.gov.hk/en/media_focus/telecommunications/)
 - [Cisco — PSTN Overview](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/pstn/index.html)

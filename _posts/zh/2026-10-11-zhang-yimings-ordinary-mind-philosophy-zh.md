@@ -50,6 +50,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [张一鸣，字节跳动创始人的经验教训](https://www.antoinebuteau.com/lessons-from-zhang-yiming-founder-of-bytedance/)
 - [张一鸣的最后一篇演讲：第一部分](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-i)
 - [张一鸣的最后一篇演讲：第二部分](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-ii)

@@ -43,6 +43,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Serial vs. Parallel Communication – All About Circuits](https://www.allaboutcircuits.com/technical-articles/serial-vs-parallel-transmission/)
 - [Signal Integrity and Skew in Digital Systems – Texas Instruments](https://www.ti.com/lit/an/szza036/szza036.pdf)
 - [Data Transmission – Parallel vs. Serial – Cisco Networking Academy](https://www.netacad.com/)

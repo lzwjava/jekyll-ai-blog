@@ -27,7 +27,7 @@ type: note
 ## 不同点
 
 | 方面 | 并行 (Parallel) | 串行 (Serial) |
-|---|---|---|
+| --- | --- | --- |
 | **数据线** | 多条导线（例如一次传输8、16、32位） | 单条导线（一次传输1位） |
 | **短距离速度** | 更快——每个时钟周期传输多个位 | 每周期较慢，但现代串行速度极快 |
 | **长距离速度** | 衰减——信号偏移与串扰问题 | 更优——长距离下保持信号完整性 |
@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Serial vs. Parallel Communication – Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
 - [Parallel Communication – Wikipedia](https://en.wikipedia.org/wiki/Parallel_communication)
 - [Why Serial Replaced Parallel – All About Circuits](https://www.allaboutcircuits.com/technical-articles/why-serial-replaced-parallel/)

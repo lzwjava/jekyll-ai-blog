@@ -16,7 +16,7 @@ type: note
 **10 Gigabit Ethernet supports Full-Duplex (全双工) only.**
 
 | Property | Detail |
-|---|---|
+| --- | --- |
 | **Mode** | Full-Duplex (全双工) **only** |
 | **Half-Duplex** | ❌ Not supported |
 | **CSMA/CD** | ❌ Not used (no collision detection needed) |
@@ -35,5 +35,6 @@ type: note
 ---
 
 **References:**
+
 - [10 Gigabit Ethernet – Wikipedia](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
 - [IEEE 802.3ae Standard Overview](https://standards.ieee.org/ieee/802.3ae/1768/)

@@ -46,6 +46,7 @@ type: note
 发射需要获得授权频率分配，以防止信道重叠和干扰，受国家及国际机构（如ITU）监管。
 
 参考文献：
+
 - [ITU – 无线电规则](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/default.aspx)
 - [无线电广播 – 大英百科全书](https://www.britannica.com/technology/radio-broadcasting)
 - [HowStuffWorks – 无线电工作原理](https://electronics.howstuffworks.com/radio.htm)

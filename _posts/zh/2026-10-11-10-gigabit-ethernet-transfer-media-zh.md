@@ -20,7 +20,7 @@ type: note
 ### 🔵 光纤（Optical Fiber）
 
 | 标准 | 光纤类型 | 最大距离 |
-|---|---|---|
+| --- | --- | --- |
 | **10GBASE-SR** | 多模光纤（MMF） | 26–400 m |
 | **10GBASE-LR** | 单模光纤（SMF） | 10 km |
 | **10GBASE-ER** | 单模光纤（SMF） | 40 km |
@@ -32,7 +32,7 @@ type: note
 ### 🟡 铜缆（Copper）
 
 | 标准 | 介质 | 最大距离 |
-|---|---|---|
+| --- | --- | --- |
 | **10GBASE-T**（802.3an） | Cat 6a / Cat 7 UTP | 100 m |
 | **10GBASE-CX4** | 双轴铜缆 | 15 m |
 | **10GBASE-CR / DAC** | 直连铜缆（SFP+） | 1–7 m |
@@ -49,5 +49,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [10 Gigabit Ethernet – Wikipedia](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
 - [IEEE 802.3an (10GBASE-T)](https://en.wikipedia.org/wiki/10GBASE-T)

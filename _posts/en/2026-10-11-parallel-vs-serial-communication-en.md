@@ -27,7 +27,7 @@ type: note
 ## Differences
 
 | Aspect | Parallel (并行) | Serial (串行) |
-|---|---|---|
+| --- | --- | --- |
 | **Data lines** | Multiple wires (e.g., 8, 16, 32 bits at once) | Single wire (1 bit at a time) |
 | **Speed (short distance)** | Faster — many bits per clock cycle | Slower per cycle, but modern serial is very fast |
 | **Speed (long distance)** | Degrades — signal skew & crosstalk | Better — maintains integrity over distance |
@@ -48,6 +48,7 @@ Ironically, **modern serial interfaces (e.g., USB 3.x, PCIe, SATA) are now faste
 ---
 
 **References:**
+
 - [Serial vs. Parallel Communication – Wikipedia](https://en.wikipedia.org/wiki/Serial_communication)
 - [Parallel Communication – Wikipedia](https://en.wikipedia.org/wiki/Parallel_communication)
 - [Why Serial Replaced Parallel – All About Circuits](https://www.allaboutcircuits.com/technical-articles/why-serial-replaced-parallel/)
