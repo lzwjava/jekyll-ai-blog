@@ -43,27 +43,33 @@ A person wants to become a great engineer.
 Two paths:
 
 **Path A: Avoid discomfort**
+
 - Only learn things already familiar.
 - Avoid hard debugging.
 - Avoid asking difficult questions.
 - Avoid failure.
 
 Short term:
+
 - comfortable.
 
 Long term:
+
 - skills stop growing.
 
 **Path B: Accept difficulty**
+
 - Read difficult papers.
 - Build systems that break.
 - Debug for 10 hours.
 - Accept being a beginner again.
 
 Short term:
+
 - painful.
 
 Long term:
+
 - capability increases.
 
 Growth requires the second path.
@@ -140,11 +146,13 @@ Example:
 A good parent does not always give children what they want.
 
 A child wants:
+
 - unlimited games,
 - no homework,
 - no rules.
 
 A loving parent may say:
+
 - study first,
 - sleep early,
 - take responsibility.
@@ -169,6 +177,7 @@ The "less traveled road" is:
 - creating something new.
 
 It is the road taken by:
+
 - entrepreneurs,
 - researchers,
 - artists,

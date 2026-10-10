@@ -28,6 +28,7 @@ In short, the most direct impact the book had on Zhang Yiming was Peck's idea of
 ---
 
 **References:**
+
 - [张一鸣在豆瓣书影音为字节跳动埋下的5个彩蛋 – 人人都是产品经理](https://www.woshipm.com/it/3613808.html)
 - [丁磊、张一鸣书单 – 36氪](https://www.36kr.com/p/1590763745511942)
 - [张一鸣阅读记录 – ifanr](https://www.ifanr.com/763960)

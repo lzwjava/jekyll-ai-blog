@@ -30,6 +30,7 @@ The avoidance he's talking about isn't just laziness. It's deeply human — we a
 Think of it this way: a muscle only grows under resistance. If you never strain it, it atrophies. Peck applies this same logic to the mind and spirit.
 
 When people avoid difficulty:
+
 - They never develop the capacity to handle harder things
 - They build a false, fragile version of themselves
 - They keep repeating the same patterns — the same failed relationships, the same fears, the same ceiling
@@ -56,6 +57,7 @@ This is why Zhang Yiming latched onto "delayed gratification" specifically — i
 Here's where Peck gets subtle. Discipline alone is cold — it can make you effective but hollow. Love is what gives the effort *direction and warmth*.
 
 Peck's definition of love isn't romantic feeling. It's the **active will to nurture growth** — in yourself and in others. This means:
+
 - Choosing to extend yourself even when it's inconvenient
 - Being genuinely invested in another person's becoming, not just their comfort
 - Caring enough about yourself to do the hard inner work

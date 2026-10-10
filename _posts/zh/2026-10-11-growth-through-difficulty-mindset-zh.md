@@ -251,6 +251,7 @@ Karpathy 式学习：
 ```
 
 参考文献：
+
 - M. Scott Peck，《少有人走的路》[Simon & Schuster](https://www.simonandschuster.net/books/The-Road-Less-Traveled-25th-Anniversary-Edition/M-Scott-Peck/9780743238250?utm_source=chatgpt.com)
 
 我还可以将这种哲学与 **Paul Graham / Y Combinator 创始人思维模式** 进行对比，因为它们有很强的重叠，但前提假设不同。

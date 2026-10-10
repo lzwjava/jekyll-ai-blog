@@ -255,6 +255,7 @@ Keep growing.
 ```
 
 References:
+
 - M. Scott Peck, *The Road Less Traveled* [Simon & Schuster](https://www.simonandschuster.net/books/The-Road-Less-Traveled-25th-Anniversary-Edition/M-Scott-Peck/9780743238250?utm_source=chatgpt.com)
 
 I can also compare this philosophy with **Paul Graham/Y Combinator founder mindset**, because they overlap strongly but have different assumptions.

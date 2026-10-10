@@ -65,6 +65,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [《少有人走的路》摘要与关键教训 – BooksThatslay](https://booksthatslay.com/the-road-less-traveled-summary/)
 - [M.斯科特·派克《少有人走的路》概述](https://mtrx.poff.ee/post/the-road-less-travelled-m-scott-peck)
 - [内心旅程 – 播客摘要](https://centro-de-libros-de-autoayuda.podbean.com/e/the-journey-within-exploring-life-s-challenges-and-spiritual-growth-with-m-scott-peck)
