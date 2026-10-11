@@ -33,6 +33,7 @@ type: note
 > 这句中文名言被广泛归因于作家兼心理学家**毕淑敏**。
 
 参考文献：
+
 - [Erich Fromm, *The Art of Loving* (1956) – summary](https://en.wikipedia.org/wiki/The_Art_of_Loving)
 - [Tough Love — Psychology Today](https://www.psychologytoday.com/us/basics/tough-love)
 - [毕淑敏 – Wikipedia](https://en.wikipedia.org/wiki/Bi_Shumin)

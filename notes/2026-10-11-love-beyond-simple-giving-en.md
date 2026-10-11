@@ -33,6 +33,7 @@ This view aligns closely with what psychologists call **"tough love"** or what E
 > The Chinese quote is widely attributed to author and psychologist **毕淑敏 (Bi Shumin)**.
 
 References:
+
 - [Erich Fromm, *The Art of Loving* (1956) – summary](https://en.wikipedia.org/wiki/The_Art_of_Loving)
 - [Tough Love — Psychology Today](https://www.psychologytoday.com/us/basics/tough-love)
 - [毕淑敏 – Wikipedia](https://en.wikipedia.org/wiki/Bi_Shumin)
