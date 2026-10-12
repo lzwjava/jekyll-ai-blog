@@ -24,7 +24,7 @@ The US system is structured very differently from HK and Singapore, and the 2+2 
 Unlike HK and Singapore, the US has hundreds of relevant universities. The recognized tiers for CS specifically:
 
 | Tier | Examples | QS CS Ranking |
-|---|---|---|
+| --- | --- | --- |
 | **Elite** | MIT, Stanford, Carnegie Mellon, Berkeley, UCLA | Top 5 globally |
 | **Top Public** | UIUC, Michigan, Georgia Tech, UT Austin, Purdue | Top 30–50 |
 | **Strong Private** | NYU Tandon, Boston University, Northeastern, Drexel | 100–300 |
@@ -51,7 +51,7 @@ After earning an associate degree, students transfer to a four-year university f
 **What courses to take at a community college to transfer into CS:**
 
 | Course | Why It Matters |
-|---|---|
+| --- | --- |
 | Programming I & II (Python/Java/C++) | Almost always required for transfer |
 | Data Structures & Algorithms | Core CS requirement — must transfer |
 | Calculus I, II, (III ideally) | Required at nearly all CS programs |
@@ -88,7 +88,7 @@ UC Davis excludes Computer Science, Data Science and Business from the guarantee
 The full picture:
 
 | UC Campus | CS and TAG |
-|---|---|
+| --- | --- |
 | **UCLA** | Does not participate in TAG at all |
 | **UC Berkeley** | Does not participate in TAG at all |
 | **UC San Diego** | Does not participate in TAG at all |
@@ -106,7 +106,7 @@ This is why Illinois Tech, Northeastern, RIT, NJIT, UIC, and similar schools are
 ## 💰 Cost Breakdown (US, International Student)
 
 | Stage | Cost (USD/year) | Duration | Total |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Community college (e.g. Green River) | USD 6,000–12,000/yr | 2 years | ~USD 12,000–24,000 |
 | Illinois Tech (as transfer junior/senior) | ~USD 53,000/yr | 2 years | ~USD 106,000 |
 | Living expenses (US) | ~USD 18,000–25,000/yr | 4 years total | ~USD 72,000–100,000 |
@@ -126,7 +126,7 @@ This is where the US has a genuine edge over HK and Singapore:
 - This 3-year window gives you a realistic shot at H-1B lottery sponsorship from a US employer
 
 | | 🇺🇸 US | 🇸🇬 Singapore | 🇭🇰 Hong Kong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Post-study work (CS grad) | 3 years OPT (STEM) | 3-year bond (if TG) | 1 year IANG visa |
 | Work authorization tied to employer? | After OPT: H-1B needed | Employment Pass from employer | No — open work |
 | Path to permanent residency | Long (green card queue) | EP → PR (competitive) | 7 years residence |
@@ -146,7 +146,7 @@ This is the critical question for your specific situation. The short answer: **u
 ## 📊 Full Comparison: US vs HK vs Singapore
 
 | Factor | 🇺🇸 US (CC → IIT Chicago) | 🇭🇰 HK (AD → BSc) | 🇸🇬 Singapore |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Total bachelor's duration | 4 years (2 CC + 2 uni) | 4 years (2 AD + 2 top-up) | 3–4 years |
 | Entry difficulty | Low (CC open enrollment) | Medium (Gaokao 325+) | High (Gaokao 一本线+) |
 | Self-study 自考 recognized? | ❌ No clear path | ❌ Not listed | ❌ Not applicable |
@@ -177,6 +177,7 @@ The US community college route is **genuinely the most accessible entry point gl
 ---
 
 **References:**
+
 - [Illinois Tech – International Transfer Student Application](https://www.iit.edu/admissions-aid/undergraduate-admission/international-undergraduate-students/how-apply-international-undergraduate-students/international-transfer-students)
 - [Green River College – IIT Transfer Pathway](https://www.greenriver.edu/international/programs/university-transfer/university-transfer-pathway/illinois-institute-of-technology/)
 - [Illinois Tech Transfer Profile – College Transfer](https://www.collegetransfer.org/IllinoisInstituteOfTechnology/TransferProfile/tabid/145/Default.aspx)

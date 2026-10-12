@@ -20,11 +20,13 @@ This page outlines the admission application procedures for **HKU SPACE Communit
 ---
 
 ### Application Channels
+
 Applications could be submitted via the Government's eApp platform or the college's own Online Application portal.
 
 ---
 
 ### Application Fees
+
 Local applicants pay **HK$200**, while non-local applicants pay **HK$600**.
 
 ---
@@ -32,7 +34,7 @@ Local applicants pay **HK$200**, while non-local applicants pay **HK$600**.
 ### Key Dates (2026/27 Cycle)
 
 | Milestone | Date |
-|---|---|
+| --- | --- |
 | Claim Firm Offer | 10:00am – 6:00pm, **15 July 2026** |
 | Admission Days (Phase 1) | **15–17 July 2026** |
 | Admission Days (Phase 2) | **5 August 2026** |
@@ -53,11 +55,13 @@ Local applicants pay **HK$200**, while non-local applicants pay **HK$600**.
 ---
 
 ### Contact
+
 - **Tel:** 3416 6338
-- **Email:** ccadmissions@hkuspace.hku.hk
+- **Email:** <ccadmissions@hkuspace.hku.hk>
 - **WhatsApp (CC Bot):** 9539 9849
 
 ---
 
 **References:**
+
 - [Application Procedures – HKU SPACE Community College](https://www2.hkuspace.hku.hk/cc/admission/application-procedures)

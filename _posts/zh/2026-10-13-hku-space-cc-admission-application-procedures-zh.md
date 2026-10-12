@@ -34,7 +34,7 @@ type: note
 ### 重要日期（2026/27学年）
 
 | 重要节点 | 日期 |
-|---|---|
+| --- | --- |
 | 确认 Firm Offer | **2026年7月15日** 上午10:00 – 下午6:00 |
 | 录取日（第一阶段） | **2026年7月15日–17日** |
 | 录取日（第二阶段） | **2026年8月5日** |
@@ -57,10 +57,11 @@ type: note
 ### 联系方式
 
 - **电话：** 3416 6338
-- **电邮：** ccadmissions@hkuspace.hku.hk
+- **电邮：** <ccadmissions@hkuspace.hku.hk>
 - **WhatsApp（CC Bot）：** 9539 9849
 
 ---
 
 **参考资料：**
+
 - [申请程序 – HKU SPACE Community College](https://www2.hkuspace.hku.hk/cc/admission/application-procedures)

@@ -24,7 +24,7 @@ This is a full expansion of that pathway — from entry into an HK AD, through t
 A Hong Kong Associate Degree is a 2-year **full-time, institutional** program pitched at HKQF Level 4 — equivalent to the first two years of a university bachelor's degree. It is fundamentally different from mainland China's 自考:
 
 | | HK Associate Degree | Mainland 自考 |
-|---|---|---|
+| --- | --- | --- |
 | Format | Full-time, campus-based | Self-study, exam-based |
 | Duration | 2 years full-time | Self-paced (you've been going 4+ years) |
 | Recognition in HK | Fully recognized | Ambiguous / not listed |
@@ -38,24 +38,29 @@ A Hong Kong Associate Degree is a 2-year **full-time, institutional** program pi
 These are the main institutions offering computer science or engineering-related AD/HD programs, all with **formal articulation agreements** to top HK universities:
 
 **1. HKU SPACE Community College** *(affiliated with HKU — ranked #11 globally, QS 2026)*
+
 - Programs: **Associate of Engineering (Computer Science)**, Associate of Engineering (Computer Engineering), Higher Diploma in Data Science, Higher Diploma in IT
 - Runs dedicated GBA admission events for Gaokao students
 - AD/HD graduates can apply for admission to Year 3 of UGC-funded degree programmes
 - Articulation verified to: CityU, HKBU, HKUST, PolyU, and others
 
 **2. Lingnan Institute of Further Education (LIFE)** *(affiliated with Lingnan University)*
+
 - Programs: AD in Science, AD in Computing-related disciplines
 - Among those who continued their study for a bachelor's degree, over 90% were admitted to local universities, with 50% admitted to Lingnan University itself
 
 **3. PolyU Community College (HKCC)** *(affiliated with PolyU — ranked #54, QS 2026)*
+
 - Programs: Higher Diploma in Information Technology, Higher Diploma in Engineering
 - Strong articulation pathway into PolyU's own BSc CS and engineering programs
 
 **4. HKBU College of International Education (CIE)** *(affiliated with HKBU)*
+
 - Programs: AD in Computing, AD in Science
 - Direct articulation into HKBU bachelor's programs
 
 **5. UOW College Hong Kong** *(affiliated with University of Wollongong)*
+
 - Programs: Associate of Engineering
 - The total tuition fee for associate degree/higher diploma programmes is HKD 126,000 (for two years) for non-local students
 
@@ -70,7 +75,7 @@ Enrolment of mainland students in Hong Kong's associate degree programs has incr
 Entry requirements are **far lower** than direct HK university entry:
 
 | Route | Gaokao Score Range (approx.) | Direct to HK University? |
-|---|---|---|
+| --- | --- | --- |
 | CityU / HKU direct | Above 一本线 + English 110+ | ✅ Year 1 |
 | HK AD programs | Approximately 325–375+ opens doors to affiliated colleges of HKU, CUHK, and Lingnan University | ❌ (starts at AD) |
 | HKU SPACE specifically | Around 325-375+ (Guangdong province reference) | ❌ (starts at AD) |
@@ -100,7 +105,7 @@ Year 5    ▶  MSc at CityU, HKU, PolyU, etc. (optional)
 This is where many guides are misleading. The answer depends on whether you are a **local** or **non-local** student:
 
 | University | Year 3 Senior Entry for Non-local AD graduates? |
-|---|---|
+| --- | --- |
 | **CityU** | ❌ Advanced Standing II entry is only available to local students |
 | **HKU** | Generally no — non-local Year 3 entry is very limited |
 | **HKUST / CUHK / PolyU** | Very limited for non-local students; primarily for local AD holders |
@@ -120,7 +125,7 @@ So as a mainland China student holding a student visa in HK, after completing yo
 ## 💰 Total Cost Estimate (Mainland / Non-local Student)
 
 | Stage | Duration | Cost (HKD) |
-|---|---|---|
+| --- | --- | --- |
 | HK AD (e.g. HKU SPACE Engineering) | 2 years | ~HKD 64,000–130,000/year × 2 |
 | Bachelor's top-up (self-financing in HK) | 2 years | ~HKD 100,000–150,000/year × 2 |
 | Living expenses (HK) | 4 years total | ~HKD 80,000–120,000/year |
@@ -141,7 +146,7 @@ So stopping at the AD stage is effectively a dead end for mainland employment �
 ## 📊 Summary: Is the HK AD → Bachelor's Route Right for You?
 
 | Factor | Assessment |
-|---|---|
+| --- | --- |
 | Your current self-study 自考 | ❌ Cannot skip directly to Year 3 via this |
 | You complete 自考 first | ✅ Slightly improves your CS foundations, but still need formal HK AD |
 | You enroll in an HK AD fresh | ✅ The cleanest path to a CityU/HKU bachelor's or later MSc |
@@ -154,6 +159,7 @@ The HK AD route is **legitimate and well-trodden**, but it is a 4-year, high-cos
 ---
 
 **References:**
+
 - [HKU SPACE Community College – Progression Pathways](https://www2.hkuspace.hku.hk/cc/page/detail/41082/)
 - [HKU SPACE – Admission for Mainland Students (GBA)](https://hkuspace.hku.hk/our-stories/admission-day-for-hku-space-community-college-in-the-greater-bay-area)
 - [Lingnan LIFE – Tuition & Application for Mainland Students](https://ln.edu.hk/life/admissions/ad-hd-diploma-programmes/tuition-fee-and-financial-assistance)

@@ -18,7 +18,7 @@ Hong Kong has **8 public universities**, and for the first time, all eight made 
 **🏛️ The 8 Public (UGC-Funded) Universities**
 
 | University | QS 2026 | THE 2026 |
-|---|---|---|
+| --- | --- | --- |
 | **University of Hong Kong (HKU)** | #11 | #33 |
 | **Chinese University of Hong Kong (CUHK)** | #32 | #41 |
 | **Hong Kong University of Science & Technology (HKUST)** | #44 | #58 |
@@ -40,6 +40,7 @@ Although Hong Kong is now governed by China, its universities still reflect much
 ---
 
 **References:**
+
 - [Top Universities in Hong Kong for 2026 – FindAMasters](https://www.findamasters.com/guides/hong-kong-university-rankings-postgraduate)
 - [Hong Kong Higher Education in THE Rankings 2026 – HK Engage](https://www.hkengage.gov.hk/en/media/news/hong-kong-s-higher-education-has-continued-to-hold-top-spots-in-the-world-university-rankings-by-the)
 - [QS World University Rankings 2026: Five HK Universities in Top 100 – HK Engage](https://www.hkengage.gov.hk/en/media/news/qs-world-universities-rankings-five-hong-kong-universities-in-the-top-one-hundred)

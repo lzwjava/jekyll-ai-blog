@@ -18,7 +18,7 @@ type: note
 **🏛️ 8所公立（UGC资助）大学**
 
 | 大学 | QS 2026 | THE 2026 |
-|---|---|---|
+| --- | --- | --- |
 | **University of Hong Kong (HKU)** | #11 | #33 |
 | **Chinese University of Hong Kong (CUHK)** | #32 | #41 |
 | **Hong Kong University of Science & Technology (HKUST)** | #44 | #58 |
@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年香港顶尖大学 – FindAMasters](https://www.findamasters.com/guides/hong-kong-university-rankings-postgraduate)
 - [THE Rankings 2026中的香港高等教育 – HK Engage](https://www.hkengage.gov.hk/en/media/news/hong-kong-s-higher-education-has-continued-to-hold-top-spots-in-the-world-university-rankings-by-the)
 - [QS World University Rankings 2026：五所香港大学跻身前100 – HK Engage](https://www.hkengage.gov.hk/en/media/news/qs-world-universities-rankings-five-hong-kong-universities-in-the-top-one-hundred)

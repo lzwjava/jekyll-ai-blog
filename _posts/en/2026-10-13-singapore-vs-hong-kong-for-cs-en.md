@@ -26,7 +26,7 @@ According to the Times Higher Education (THE) 2026 Computer Science subject rank
 Singapore has **six Autonomous Universities (AUs)**:
 
 | University | QS 2026 | CS Strength | Best For |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **NUS** (National University of Singapore) | #8 | AI, CS, InfoSys, Business Analytics | Research depth, all-round |
 | **NTU** (Nanyang Technological University) | #44 | AI, Computer Engineering, Data Science | Engineering + applied tech |
 | **SMU** (Singapore Management University) | #601+ | Business IT, Data Analytics | CS + business crossover |
@@ -57,7 +57,7 @@ Non-Singapore Citizens who secured a place in a local institution can apply to r
 ## 🎓 MSc Computer Science — NUS vs NTU
 
 | | **NUS MSc CS** | **NTU MSc CS** |
-|---|---|---|
+| --- | --- | --- |
 | Academic requirement | Good bachelor's in CS or related field | Good bachelor's in CS or related field |
 | IELTS minimum | 6.5 (competitive: 7.0–7.5) | 6.0 (competitive: 7.0–7.5) |
 | GRE | Not mandatory, but recommended | Required for non-Singapore AU graduates |
@@ -73,7 +73,7 @@ NTU requires a valid GRE score for applicants who are not graduates from Singapo
 Singapore has five polytechnics that offer 3-year diplomas, and they're often compared to HK's 2-year Associate Degree system. The comparison breaks down quickly for mainland China students:
 
 | | **HK Associate Degree** | **Singapore Polytechnic Diploma** |
-|---|---|---|
+| --- | --- | --- |
 | Duration | **2 years** | **3 years** |
 | Designed for | Local HK students + mainland via Gaokao | Primarily Singaporeans / PRs |
 | International spots | Explicitly available, growing | Very limited |
@@ -93,7 +93,7 @@ The bigger issue: **international spots at Singapore polytechnics are scarce and
 ## ⚖️ Singapore vs Hong Kong — Head-to-Head
 
 | Factor | 🇸🇬 Singapore | 🇭🇰 Hong Kong |
-|---|---|---|
+| --- | --- | --- |
 | **CS global ranking (THE)** | NUS #13, NTU #16 | HKU #33 (overall), CityU #75 (overall) |
 | **Entry for mainland students** | Gaokao way above 一本线 | Gaokao at/above 一本线 + English 110+ |
 | **Sub-degree → bachelor's pathway** | Polytechnic diploma (3 yrs), limited international spots, NOT guaranteed entry to NUS/NTU | HK AD (2 yrs), explicit articulation, growing mainland intake |
@@ -136,6 +136,7 @@ For someone without a Gaokao record, **Singapore is primarily a postgraduate des
 ---
 
 **References:**
+
 - [NUS Admissions Guide 2026 – Vappingo](https://www.vappingo.com/word-blog/nus-admissions-2026/)
 - [NTU CS Acceptance Rate & Requirements 2026 – Gabble](https://gabble.ai/blog/nanyang-technological-university-computer-science-acceptance-rate-fees)
 - [NTU IELTS Requirements – Gabble](https://gabble.ai/blog/nanyang-technological-university-ielts-requirement)

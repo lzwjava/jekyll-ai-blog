@@ -22,6 +22,7 @@ type: note
 **年龄** — HKU SPACE CC的入学程序中没有明确的年龄限制，因此31岁完全不构成障碍。
 
 **学历** — 你的简历显示你有扎实的学术背景：
+
 - 广州玉岩中学毕业证书（2013年）— 完成中学教育
 - 在北京林业大学就读一年（退学，有官方证明）
 - 目前正通过中国自学考试攻读副学士学位（已通过13门笔试+3门实践考试）
@@ -54,11 +55,12 @@ type: note
 3. 在2027年初关注学院网站，获取下一轮申请窗口。
 4. 直接联系招生办公室：
    - **电话：** 3416 6338
-   - **邮箱：** ccadmissions@hkuspace.hku.hk
+   - **邮箱：** <ccadmissions@hkuspace.hku.hk>
 
 ---
 
 **参考资料：**
+
 - [申请程序 – HKU SPACE Community College](https://www2.hkuspace.hku.hk/cc/admission/application-procedures)
 - [中国内地学生入学 – HKU SPACE CC](https://www2.hkuspace.hku.hk/cc/admission/admission-for-mainland-students)
 - [一般入学要求 – HKU SPACE CC](https://www2.hkuspace.hku.hk/cc/admission/general-entrance-requirements)

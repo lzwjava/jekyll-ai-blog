@@ -22,6 +22,7 @@ Here's an honest assessment based on your resume and the information on the page
 **Age** — There is no stated age restriction in HKU SPACE CC's admission procedures, so being 31 is not a barrier at all.
 
 **Academic qualifications** — Your resume shows a strong academic background:
+
 - Guangzhou Yuyan Middle School diploma (2013) — secondary school completed
 - One year at Beijing Forestry University (dropout, with official certificate)
 - Currently pursuing an Associate Degree via China's self-study examination (13 written + 3 practical exams passed)
@@ -52,11 +53,12 @@ All applications for 2026/27 admissions have been closed. The next intake would 
 3. Monitor the college website in early 2027 for the next application window.
 4. Contact the admissions office directly:
    - **Tel:** 3416 6338
-   - **Email:** ccadmissions@hkuspace.hku.hk
+   - **Email:** <ccadmissions@hkuspace.hku.hk>
 
 ---
 
 **References:**
+
 - [Application Procedures – HKU SPACE Community College](https://www2.hkuspace.hku.hk/cc/admission/application-procedures)
 - [Admission for Chinese Mainland Students – HKU SPACE CC](https://www2.hkuspace.hku.hk/cc/admission/admission-for-mainland-students)
 - [General Entrance Requirements – HKU SPACE CC](https://www2.hkuspace.hku.hk/cc/admission/general-entrance-requirements)

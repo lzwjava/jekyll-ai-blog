@@ -55,7 +55,7 @@ type: note
 这就是复杂的部分——以下如实评估：
 
 | 因素 | 实际情况 |
-|---|---|
+| --- | --- |
 | **自考（National Self-Study Exam）** | 在CityU内地非高考页面上并未明确列为受认可学历 |
 | **香港“2+2”专升本路径** | 这是指香港本地的副学士学位体系，转入香港大学三年级——而非内地自考学历 |
 | **Advanced Standing II（三年级入学）** | 仅面向本地学生——中国内地学生**不符合**直接三年级入学的资格 |
@@ -85,6 +85,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [CityU MSc Computer Science – Admissions](https://www.cs.cityu.edu.hk/en/academic-programmes/msc-computer-science/admissions)
 - [CityU BSc Computer Science – Programme Page](https://cityu.edu.hk/admo/taxonomy/term/67)
 - [CityU Mainland Non-Gaokao Admission](https://www.cityu.edu.hk/admo/admissions/mainland-non-gaokao-admission)

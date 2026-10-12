@@ -24,7 +24,7 @@ type: note
 与香港和新加坡不同，美国有数百所相关大学。具体到CS公认的层级划分：
 
 | 层级 | 示例 | QS CS排名 |
-|---|---|---|
+| --- | --- | --- |
 | **顶尖** | MIT、Stanford、Carnegie Mellon、Berkeley、UCLA | 全球前5 |
 | **顶尖公立** | UIUC、Michigan、Georgia Tech、UT Austin、Purdue | 前30-50 |
 | **强私立** | NYU Tandon、Boston University、Northeastern、Drexel | 100-300 |
@@ -51,7 +51,7 @@ type: note
 **转学CS需在社区学院修读的课程：**
 
 | 课程 | 重要性 |
-|---|---|
+| --- | --- |
 | Programming I & II（Python/Java/C++） | 转学几乎都要求 |
 | Data Structures & Algorithms | CS核心要求——必须转学 |
 | Calculus I、II（最好III） | 几乎所有CS项目都要求 |
@@ -88,7 +88,7 @@ UC Davis将计算机科学、数据科学和商科排除在保证之外，而Irv
 完整情况如下：
 
 | UC校区 | CS与TAG |
-|---|---|
+| --- | --- |
 | **UCLA** | 完全不参与TAG |
 | **UC Berkeley** | 完全不参与TAG |
 | **UC San Diego** | 完全不参与TAG |
@@ -106,7 +106,7 @@ UC Davis将计算机科学、数据科学和商科排除在保证之外，而Irv
 ## 💰 费用明细（美国，国际学生）
 
 | 阶段 | 费用（美元/年） | 时长 | 合计 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 社区学院（如Green River） | 6,000–12,000美元/年 | 2年 | 约12,000–24,000美元 |
 | 伊利诺伊理工学院（转学大三/大四） | 约53,000美元/年 | 2年 | 约106,000美元 |
 | 生活费（美国） | 约18,000–25,000美元/年 | 4年总计 | 约72,000–100,000美元 |
@@ -126,7 +126,7 @@ UC Davis将计算机科学、数据科学和商科排除在保证之外，而Irv
 - 这3年的时间窗口让你有实际机会获得美国雇主赞助的H-1B抽签。
 
 | | 🇺🇸 美国 | 🇸🇬 新加坡 | 🇭🇰 香港 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 毕业后工作（CS毕业生） | 3年OPT（STEM） | 3年服务期（如有TG） | 1年IANG签证 |
 | 工作授权是否与雇主绑定？ | OPT后：需H-1B | 雇主提供的就业准证 | 否——开放式工作 |
 | 永久居留路径 | 漫长（绿卡排期） | EP→PR（竞争性） | 7年居住 |
@@ -146,7 +146,7 @@ UC Davis将计算机科学、数据科学和商科排除在保证之外，而Irv
 ## 📊 全面对比：美国 vs 香港 vs 新加坡
 
 | 因素 | 🇺🇸 美国（CC → IIT芝加哥） | 🇭🇰 香港（AD → BSc） | 🇸🇬 新加坡 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 学士总时长 | 4年（2年社区学院+2年大学） | 4年（2年副学士+2年衔接） | 3-4年 |
 | 入学难度 | 低（社区学院开放式入学） | 中等（高考325分以上） | 高（高考一本线以上） |
 | 自考被认可？ | ❌ 无明确路径 | ❌ 未列出 | ❌ 不适用 |
@@ -177,6 +177,7 @@ UC Davis将计算机科学、数据科学和商科排除在保证之外，而Irv
 ---
 
 **参考资料：**
+
 - [伊利诺伊理工学院 – 国际转学生申请](https://www.iit.edu/admissions-aid/undergraduate-admission/international-undergraduate-students/how-apply-international-undergraduate-students/international-transfer-students)
 - [绿河学院 – IIT转学路径](https://www.greenriver.edu/international/programs/university-transfer/university-transfer-pathway/illinois-institute-of-technology/)
 - [伊利诺伊理工学院转学概况 – College Transfer](https://www.collegetransfer.org/IllinoisInstituteOfTechnology/TransferProfile/tabid/145/Default.aspx)

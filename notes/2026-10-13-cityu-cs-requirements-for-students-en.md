@@ -51,7 +51,7 @@ An IELTS overall band score of 6.5 or above (Academic Module) is required, or TO
 This is where it gets complicated — here's an honest assessment:
 
 | Factor | Reality |
-|---|---|
+| --- | --- |
 | **自考 (National Self-Study Exam)** | NOT explicitly listed as an accepted qualification on CityU's mainland non-Gaokao page |
 | **HK "2+2" top-up pathway** | This refers to HK's own local Associate Degree system, transferring to Year 3 of a HK university — not a mainland 自考 degree |
 | **Advanced Standing II (Year 3 entry)** | Available for local students only — mainland China students are **not eligible** for this direct Year 3 entry |
@@ -81,6 +81,7 @@ Given where you are (self-study 自考, in progress, Computer Application), here
 ---
 
 **References:**
+
 - [CityU MSc Computer Science – Admissions](https://www.cs.cityu.edu.hk/en/academic-programmes/msc-computer-science/admissions)
 - [CityU BSc Computer Science – Programme Page](https://cityu.edu.hk/admo/taxonomy/term/67)
 - [CityU Mainland Non-Gaokao Admission](https://www.cityu.edu.hk/admo/admissions/mainland-non-gaokao-admission)
