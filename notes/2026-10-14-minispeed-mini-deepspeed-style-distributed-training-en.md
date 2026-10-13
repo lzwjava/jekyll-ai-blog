@@ -30,6 +30,7 @@ tests/                         36 passed, 2 skipped (NCCL needs ≥2 GPUs)
 ```
 
 ## Key features
+
 - **ZeRO 0/1/2**: all-reduce vs reduce-scatter gradients, optimizer state sharded, params all-gathered each step; global grad norm stays exact under stage 2 via partitioned sum-of-squares
 - **fp16** with fp32 master weights + dynamic loss scaling (window growth, ∞/NaN → skip + halve), **bf16** without scaling
 - **Gradient accumulation**, global clipping, `train_batch_size` validation, warmup/decay LR
@@ -37,6 +38,7 @@ tests/                         36 passed, 2 skipped (NCCL needs ≥2 GPUs)
 - DeepSpeed-style API: `engine, opt, _, sched = ms.initialize(model=..., config="ds_config.json")`
 
 ## Verified
+
 - Engine trajectory **matches plain `torch.optim.AdamW`** to 1e-4; `gas=2` accumulation ≡ one big batch
 - 2-rank runs (gloo/CPU and gloo/CUDA, fp32+fp16, stages 0/1/2) **match a single-process run on the union batch**; optimizer state provably partitioned
 - fp16 GPU: forced-∞ grad → step skipped, weights untouched, scale halved, then recovers

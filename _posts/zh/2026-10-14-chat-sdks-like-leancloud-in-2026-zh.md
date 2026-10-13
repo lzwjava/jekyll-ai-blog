@@ -20,7 +20,7 @@ type: note
 这些开箱即用地提供频道、消息历史、在线状态、推送通知和 UI 套件：
 
 | SDK | 免费额度 | 适用场景 |
-|---|---|---|
+| --- | --- | --- |
 | **Stream Chat** | 1,000 MAU | 社交应用、市场、广泛的 SDK 支持 |
 | **Sendbird** | 1,000 MAU | 客户沟通、内置语音/视频 |
 | **Tencent RTC Chat** | 1,000 MAU（永久） | MVP、AI 应用、全球基础设施、QUIC 协议 |
@@ -62,6 +62,7 @@ Stream Chat API 和 SDK 工具帮助用户创建具有丰富对话的实时应�
 - **开源/自托管** → Socket.IO + 你自己的存储
 
 **参考链接：**
+
 - [聊天 SDK 对比：9 家提供商（Stream，2026 年 7 月）](https://getstream.io/blog/chat-sdk-comparison/)
 - [2026 年应用最佳免费聊天 SDK 和 API（TRTC）](https://trtc.io/blog/details/best-free-chat-sdks-and-apis-for-apps-in-2026)
 - [Sendbird 对比 Stream 2026（Jotform）](https://www.jotform.com/ai/agents/sendbird-vs-stream/)

@@ -33,6 +33,7 @@ output/feed.xml                  RSS 2.0
 ```
 
 我在运行时做了两处小修复（目前**未提交**）：
+
 1. `news_agent/llm.py` — 自动检测到的 provider/model 会回填到设置中，因此 header 现在会打印 `openrouter/deepseek/deepseek-v4.1-flash` 而不是 `/default`，并且 `digest.json` 会记录真实的 model。
 2. `news_agent/render.py` — 补上了缺失的 `output/digest.json` "latest" 别名（md/html 有，json 没有）。
 

@@ -12,7 +12,7 @@ type: note
 For the **MI25 16GB**, the practical answer is:
 
 | ROCm version | MI25 (`gfx900`) status |
-|---|---|
+| --- | --- |
 | ROCm 4.x | Historically officially supported |
 | ROCm 5.x | Official support dropped |
 | ROCm 6.0–6.2 | Not officially supported; community workarounds may work |

@@ -16,7 +16,7 @@ type: note
 My shortlist to investigate:
 
 | GPU | VRAM | Architecture | Assessment |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | Radeon RX 6600 | 8GB | RDNA 2 | Cheap consumer card; check exact ROCm support |
 | Radeon RX 6700 XT | 12GB | RDNA 2 | More VRAM, but software support needs verification |
 | Radeon RX 6800 | 16GB | RDNA 2 | Potentially interesting for budget AI |
@@ -67,7 +67,7 @@ Be careful with these two.
 Since you already have an RTX 4070 12GB and are exploring inexpensive GPUs for LLM experiments, I'd compare these three:
 
 | GPU | Primary advantage | Recommendation |
-|---|---|---|
+| --- | --- | --- |
 | MI100 32GB | Large HBM capacity | Best candidate for a cheap compute accelerator |
 | Radeon Pro W6800 32GB | Large VRAM in a workstation card | Worth investigating |
 | RX 7900 XT 20GB | Modern consumer GPU | Better desktop-oriented option |

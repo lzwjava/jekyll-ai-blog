@@ -14,7 +14,7 @@ type: note
 ## LeanCloud在这里实际做的事情（3个功能）
 
 | 功能 | Backend位置 | 是否可以backend-only替换？ |
-|---|---|---|
+| --- | --- | --- |
 | **SMS验证码**（`requestSmsCode`/`verifySmsCode`） | `Users.php` | ✅ 可以——Supabase Auth phone OTP |
 | **IM conversations**（`createConversation`） | `LiveDao.php` → 在live上存储`conversationId` | ⚠️ **不可以——见下文** |
 | **Template SMS notifications**（`sendTemplateSms`：LiveStart/VideoReady/Invite） | `Sms.php`（cron） | ⚠️ 有差距——Supabase没有对应功能 |
@@ -41,6 +41,7 @@ live-mobile-web/src/views/LiveView.vue:75   import { Realtime, ... } from 'leanc
 ## 我的建议
 
 分两个阶段迁移，先backend，这样每个部分都可验证：
+
 1. **SMS验证** → Supabase Auth phone OTP（明确，仅backend，一旦已归档应用中的SMS验证码下线，即可解除登录阻塞）
 2. **Conversation存储** → Supabase `conversations`表，并把**frontend chat重写**标记为`live-web` + `live-mobile-web`中必要的后续工作
 

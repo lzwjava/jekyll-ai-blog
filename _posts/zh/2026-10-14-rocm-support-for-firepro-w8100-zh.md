@@ -20,7 +20,7 @@ W8100 使用 **Hawaii** GPU（`gfx701`，GCN 2.0）——这是一款与 W7100 �
 **W8100 与 W7100 —— 主要区别**
 
 | 显卡 | GPU | ROCm ID | 架构 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FirePro W7100 | Tonga | `gfx802` | GCN 3.0 |
 | FirePro W8100 | Hawaii GL40 | `gfx701` | GCN 2.0 |
 
@@ -37,7 +37,7 @@ Hawaii 芯片（例如 AMD Radeon R9 390X 和 FirePro W9100/W8100）曾被列为
 **时间线**
 
 | ROCm 版本 | W8100 / Hawaii 状态 |
-|---|---|
+| --- | --- |
 | 1.x | ✅ 部分 / 实验性 — 实际上在某些工作负载下可用 |
 | 2.0+ | ❌ 已破坏 — Hawaii 超出了 MEC 块中固定 microcode store 的容量 |
 | 3.x → 当前 | ❌ 完全不支持，也没有恢复计划 |
@@ -46,8 +46,8 @@ Hawaii (gfx7) 的 MEC (Micro Engine Compute) 是早期版本，带有固定的 m
 
 **对比总结**
 
-|  | W7100 (Tonga/gfx802) | W8100 (Hawaii/gfx701) |
-|---|---|---|
+| | W7100 (Tonga/gfx802) | W8100 (Hawaii/gfx701) |
+| --- | --- | --- |
 | ROCm 1.x | ❌ 从未可用 | ⚠️ 实验性 |
 | ROCm 2.x+ | ❌ 从未可用 | ❌ 已破坏 |
 | 现在的 ROCm | ❌ 不支持 | ❌ 不支持 |
@@ -58,6 +58,7 @@ Hawaii (gfx7) 的 MEC (Micro Engine Compute) 是早期版本，带有固定的 m
 ---
 
 **参考资料：**
+
 - [Phoronix 论坛 – Hawaii GFX7 ROCm 自 2.0 起被破坏](https://phoronix.com/forums/forum/linux-graphics-x-org-drivers/open-source-amd-linux/1184064-radeon-rocm-3-5-released-with-new-features-but-still-no-navi-support/page9)
 - [ROCm GFX8P – GFX7 Hawaii 部分/实验性列表](https://copr.fedorainfracloud.org/coprs/cosmicfusion/ROCm-GFX8P)
 - [AMD 社区 – R9 290 / Hawaii ROCm 讨论](https://community.amd.com/t5/ai-discussions/r9-290-rocm-support/td-p/709523)

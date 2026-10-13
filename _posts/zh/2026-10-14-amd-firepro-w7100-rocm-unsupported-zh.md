@@ -22,7 +22,7 @@ type: note
 W7100 使用的是 **Tonga** 芯片，在 ROCm 中被标识为 **`gfx802`**。这是一个关键区别：
 
 | GPU | ROCm ID | ROCm 支持情况 |
-|---|---|---|
+| --- | --- | --- |
 | Tonga (FirePro W7100) | `gfx802` | ❌ 从未被官方支持 |
 | Fiji / Polaris (RX 480, RX 580…) | `gfx803` | ✅ 直到约 ROCm 3.7 可用，之后出现问题；ROCm 4.0+ 完全移除 |
 
@@ -33,7 +33,7 @@ W7100 使用的是 **Tonga** 芯片，在 ROCm 中被标识为 **`gfx802`**。�
 **时间线摘要**
 
 | ROCm 版本 | W7100 / Tonga 状态 |
-|---|---|
+| --- | --- |
 | 1.x – 2.x | 可部分检测到，但无法用于 HIP/HCC 计算 |
 | 3.x | 仍无法识别 / 已损坏 |
 | 4.0+ | gfx803（Fiji）也被移除；gfx802 从来就不在其中 |
@@ -52,6 +52,7 @@ ROCm 5.7.1 是即使是 gfx803（Polaris）也能正常工作的最后一个版�
 ---
 
 **参考链接：**
+
 - [GitHub – Does ROCm support Tonga? #509](https://github.com/RadeonOpenCompute/ROCm/issues/509)
 - [GitHub – gfx802 segfaults with ROCm 2.7 #880](https://github.com/ROCm/ROCm/issues/880)
 - [Debian AI List – Dropping gfx803 support](https://lists.debian.org/debian-ai/2024/09/msg00030.html)

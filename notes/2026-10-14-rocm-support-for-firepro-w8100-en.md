@@ -20,7 +20,7 @@ The W8100 uses the **Hawaii** GPU (`gfx701`, GCN 2.0) — a different and slight
 **W8100 vs W7100 — Key Difference**
 
 | Card | GPU | ROCm ID | Architecture |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | FirePro W7100 | Tonga | `gfx802` | GCN 3.0 |
 | FirePro W8100 | Hawaii GL40 | `gfx701` | GCN 2.0 |
 
@@ -37,7 +37,7 @@ Support for Hawaii (gfx700/1) has been broken since ROCm 2.0, not even unofficia
 **Timeline**
 
 | ROCm Version | W8100 / Hawaii status |
-|---|---|
+| --- | --- |
 | 1.x | ✅ Partial / experimental — actually worked for some workloads |
 | 2.0+ | ❌ Broken — Hawaii outgrew the fixed microcode store in the MEC block |
 | 3.x → current | ❌ Completely unsupported, no plans to restore |
@@ -47,7 +47,7 @@ Hawaii (gfx7) had an early version of MEC (Micro Engine Compute) with a fixed mi
 **Comparison Summary**
 
 | | W7100 (Tonga/gfx802) | W8100 (Hawaii/gfx701) |
-|---|---|---|
+| --- | --- | --- |
 | ROCm 1.x | ❌ Never worked | ⚠️ Experimental |
 | ROCm 2.x+ | ❌ Never worked | ❌ Broken |
 | ROCm today | ❌ Unsupported | ❌ Unsupported |
@@ -58,6 +58,7 @@ Hawaii (gfx7) had an early version of MEC (Micro Engine Compute) with a fixed mi
 ---
 
 **References:**
+
 - [Phoronix Forums – Hawaii GFX7 ROCm broken since 2.0](https://phoronix.com/forums/forum/linux-graphics-x-org-drivers/open-source-amd-linux/1184064-radeon-rocm-3-5-released-with-new-features-but-still-no-navi-support/page9)
 - [ROCm GFX8P – GFX7 Hawaii partial/experimental listing](https://copr.fedorainfracloud.org/coprs/cosmicfusion/ROCm-GFX8P)
 - [AMD Community – R9 290 / Hawaii ROCm discussion](https://community.amd.com/t5/ai-discussions/r9-290-rocm-support/td-p/709523)

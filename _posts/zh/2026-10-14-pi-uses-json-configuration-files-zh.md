@@ -26,6 +26,7 @@ type: note
 ## 参考：本机的配置（“已配置”的样子）
 
 `~/.pi/agent/settings.json`:
+
 ```json
 {
   "lastChangelogVersion": "1.2.0",
@@ -36,13 +37,14 @@ type: note
   "defaultThinkingLevel": "high"
 }
 ```
+
 - `models.json`：不存在（没有自定义 endpoints）
 - `auth.json`：空的 `[]` —— 本机通过 `OPENROUTER_API_KEY` 环境变量对 OpenRouter 进行认证，而不是存储的凭据
 
 ## 模型配置存放位置（文档：`configuration.md` / `settings.md`）
 
 | 文件 | 用途 |
-|---|---|
+| --- | --- |
 | `~/.pi/agent/settings.json` | `defaultProvider`、`defaultModel`、`defaultThinkingLevel`、`enabledModels`、主题 |
 | `~/.pi/agent/models.json` | 自定义/兼容 endpoints（Ollama、vLLM、代理……） |
 | `~/.pi/agent/auth.json` | 由 `/login` 写入的凭据（或使用环境变量） |

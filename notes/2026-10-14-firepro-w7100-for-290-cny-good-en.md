@@ -20,7 +20,7 @@ type: note
 **Price Comparison**
 
 | Market | Condition | Price (USD) | ≈ CNY |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | eBay (cheapest used) | Pre-owned | ~$35–$40 | ~250–290 |
 | eBay (typical used) | Pre-owned | ~$50–$70 | ~360–500 |
 | HP refurbished (US) | Used/tested | ~$60 | ~430 |
@@ -36,6 +36,7 @@ On eBay, used W7100 8GB cards are currently listed from roughly $35 up to $70+ U
 - ⚠️ Keep in mind: all FirePro cards are considered legacy hardware in 2026, so check software and system compatibility before buying
 
 **Worth it for:**
+
 - Multi-monitor setups (4× DisplayPort)
 - Light CAD / 3D workloads
 - 4K display output on a budget
@@ -45,6 +46,7 @@ On eBay, used W7100 8GB cards are currently listed from roughly $35 up to $70+ U
 ---
 
 **References:**
+
 - [eBay – AMD FirePro W7100 Used Listings](https://www.ebay.com/b/AMD-FirePro-W7100-AMD-8-GB-Memory-Computer-Graphics-Cards/bn_7116997987)
 - [PC Server & Parts – HP FirePro W7100 Used](https://pcserverandparts.com/hp-amd-firepro-w7100-8gb-gddr5-graphics-card-763265-001)
 - [GeekChamp – FirePro Legacy Hardware Overview](https://geekchamp.com/?p=1100942)

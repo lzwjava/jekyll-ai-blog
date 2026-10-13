@@ -26,6 +26,7 @@ Checked. Key finding: **pi doesn't use a `config.yaml`** — it's all JSON files
 ## Reference: this machine's config (what "configured" looks like)
 
 `~/.pi/agent/settings.json`:
+
 ```json
 {
   "lastChangelogVersion": "1.2.0",
@@ -36,13 +37,14 @@ Checked. Key finding: **pi doesn't use a `config.yaml`** — it's all JSON files
   "defaultThinkingLevel": "high"
 }
 ```
+
 - `models.json`: doesn't exist (no custom endpoints)
 - `auth.json`: empty `[]` — this machine authenticates OpenRouter via the `OPENROUTER_API_KEY` env var, not stored credentials
 
 ## Where model config lives (docs: `configuration.md` / `settings.md`)
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `~/.pi/agent/settings.json` | `defaultProvider`, `defaultModel`, `defaultThinkingLevel`, `enabledModels`, theme |
 | `~/.pi/agent/models.json` | Custom/compatible endpoints (Ollama, vLLM, proxies…) |
 | `~/.pi/agent/auth.json` | Credentials written by `/login` (or use env vars) |

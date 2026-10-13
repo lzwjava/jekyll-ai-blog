@@ -18,6 +18,7 @@ I re-checked before proceeding: `sudo` requires an interactive password and I ha
 ## What I did instead (testable, measurable)
 
 **Faster SGEMM** — added a second register-blocked kernel and select by size:
+
 - `m,n < 1024`: `sgemm_rb` (64×64, 4×4/thread, 70 regs)
 - `m,n ≥ 1024`: `sgemm_rb128` (128×64, 8×4/thread, ~90 regs, better FMA:load ratio)
 

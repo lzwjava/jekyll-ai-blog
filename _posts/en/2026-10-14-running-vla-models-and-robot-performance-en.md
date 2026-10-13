@@ -20,6 +20,7 @@ type: note
 A Vision-Language-Action model is an AI system that processes a camera feed, a natural language instruction, and the robot's own state, then outputs motor commands — with its vision, language, and action modules trained jointly and run in one forward pass, rather than as a classical perception-then-planning-then-control pipeline.
 
 The three core components are:
+
 - **Vision encoder** — processes raw camera frames (often from multiple cameras) using models like DINOv2 + SigLIP
 - **Language backbone** — encodes instructions like "pick up the red block" using a pretrained LLM (e.g., LLaMA 2, PaliGemma)
 - **Action decoder** — converts the fused representation into motor commands
@@ -31,7 +32,7 @@ The three core components are:
 Here's a comparison of the major open models available today:
 
 | Model | Parameters | Action Head | License | Hardware |
-|-------|-----------|-------------|---------|----------|
+| ------- | ----------- | ------------- | --------- | ---------- |
 | OpenVLA | 7B | Autoregressive tokens | MIT | A100/H100, or 24GB with 4-bit quant |
 | Octo | 27M / 93M | Diffusion policy | MIT | Single RTX 4090 |
 | pi0 / pi0.5 / pi0.6 | 3.3B | Flow matching | Open checkpoints | Multi-GPU or single A100 |
@@ -80,16 +81,19 @@ The openpi repository contains checkpoints and an approximate training pipeline,
 ## How Do Robots Perform?
 
 **Strengths:**
+
 - VLAs generalize better to conditions they were never explicitly trained on, because the underlying VLM backbone already knows what a mug, a towel, or a drawer looks like from web-scale pretraining before it ever saw a robot demonstration.
 - pi0 demonstrated bimanual tasks such as folding laundry, packing groceries, and assembling boxes with a level of dexterity nothing before it had shown.
 - Gemini Robotics 1.5 achieved motion transfer — a skill trained on one robot platform carried over directly to a different robot and a humanoid, without retraining.
 
 **Limitations:**
+
 - Mid-task recovery is inconsistent — when a grasp slips halfway through, or an object shifts, the model struggles because most demonstration data only captures successful attempts.
 - Getting a 7B+ parameter model to run at 10–100Hz on the robot's own hardware is still mostly unsolved. Most deployed systems either tether to an edge server or split reasoning from control.
 - Current VLAs generalize well inside their training distribution and degrade noticeably outside it.
 
 **Choosing a model:**
+
 - Consumer GPU / hobby arm → **SmolVLA**
 - Bimanual / dexterous tasks → **pi0**
 - Research baseline → **OpenVLA**
@@ -99,6 +103,7 @@ The openpi repository contains checkpoints and an approximate training pipeline,
 ---
 
 **References:**
+
 - [Vision-Language-Action Models Explained (DataCamp, Sep 2026)](https://www.datacamp.com/tutorial/vision-language-action-models-explained)
 - [SmolVLA on HuggingFace / LeRobot](https://huggingface.co/lerobot/smolvla_base)
 - [openpi repository — pi0 checkpoints](https://github.com/Physical-Intelligence/openpi)

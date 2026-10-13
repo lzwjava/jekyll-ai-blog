@@ -30,6 +30,7 @@ tests/                         36 通过，2 跳过（NCCL 需要 ≥2 GPUs）
 ```
 
 ## 关键特性
+
 - **ZeRO 0/1/2**：all-reduce vs reduce-scatter 梯度，optimizer state 分片，每步 all-gather 参数；在 stage 2 下通过分区的平方和保持全局梯度范数精确
 - **fp16** 搭配 fp32 master weights + 动态 loss scaling（window growth，∞/NaN → 跳过 + 减半），**bf16** 无需 scaling
 - **梯度累积**、全局裁剪、`train_batch_size` 校验、warmup/decay LR
@@ -37,6 +38,7 @@ tests/                         36 通过，2 跳过（NCCL 需要 ≥2 GPUs）
 - DeepSpeed 风格 API：`engine, opt, _, sched = ms.initialize(model=..., config="ds_config.json")`
 
 ## 已验证
+
 - 引擎训练轨迹**与普通 `torch.optim.AdamW` 匹配**到 1e-4；`gas=2` 累积 ≡ 一个大 batch
 - 2-rank 运行（gloo/CPU 和 gloo/CUDA，fp32+fp16，stages 0/1/2）**与在 union batch 上的单进程运行匹配**；optimizer state 可证明地被分区
 - fp16 GPU：强制 ∞ 梯度 → 跳过该步、权重不变、scale 减半、然后恢复

@@ -18,6 +18,7 @@ type: note
 ## 作为替代，我做了这些（可测试、可衡量）
 
 **更快的 SGEMM** —— 添加了第二个 register-blocked kernel，并按 size 选择：
+
 - `m,n < 1024`: `sgemm_rb` (64×64, 4×4/thread, 70 regs)
 - `m,n ≥ 1024`: `sgemm_rb128` (128×64, 8×4/thread, ~90 regs, better FMA:load ratio)
 

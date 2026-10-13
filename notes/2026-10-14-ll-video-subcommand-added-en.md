@@ -14,6 +14,7 @@ Everything is committed and pushed — `main` is now in sync with `origin/main`.
 ## Summary: `ll video` added
 
 **New files:**
+
 - `src/video_ops.rs` (~1450 lines) — 18 commands + 21 unit tests
 - `src/cli.rs` — shared flag/positional parsing, now used by both `image` and `video` modules
 
@@ -22,7 +23,7 @@ Everything is committed and pushed — `main` is now in sync with `origin/main`.
 ### Commands
 
 | Group | Commands |
-|---|---|
+| --- | --- |
 | Inspect | `info <file>…` (streams, codecs, fps, `--json`) |
 | Cut & join | `screenshot`, `frames` (`--fps`/`--every` sequences), `trim` (stream copy / `--reencode`), `concat`, `reverse` |
 | Audio | `audio` (mp3/m4a/wav/flac/opus by extension), `mute`, `volume` (`-v 0.5` / `-v -6dB`) |
@@ -38,6 +39,7 @@ Everything is committed and pushed — `main` is now in sync with `origin/main`.
 **Verification:** `cargo build` clean, **38/38 tests pass**, clippy-clean for all new code, plus full end-to-end runs against real generated videos (durations/dimensions verified with `ffprobe`), and an image↔video regression check.
 
 Commits pushed:
+
 ```
 3c79248 feat: add video subcommand with common operations (ffmpeg-backed)
 ```

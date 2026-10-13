@@ -14,6 +14,7 @@ Supabase 迁移已完成，已提交、推送，两个 checkout 均验证一致�
 ## ✅ 我做了什么
 
 **新的 Supabase 客户端** — `app/Libraries/Supabase.php`（直接使用 cURL，无新增 Composer 依赖）：
+
 - `requestSmsCode()` / `verifySmsCode()` → Supabase Auth 手机 OTP（`/auth/v1/otp`、`/auth/v1/verify`）
 - `createConversation()` → 通过 PostgREST 插入 `public.conversations`
 - `sendTemplateSms()` → 可选的 Edge Function（`SUPABASE_SMS_FUNCTION`）
@@ -21,6 +22,7 @@ Supabase 迁移已完成，已提交、推送，两个 checkout 均验证一致�
 - 每个方法在未配置/不可达时都会**优雅降级**（记录日志并返回失败），因此 cron 短信任务可以继续运行
 
 **调用点已重新接入**（全部 3 个 LeanCloud 功能）：
+
 - `Users.php` → Supabase Auth OTP；保留调试 `5555` 和 `specialPhones()` 的绕过逻辑
 - `LiveDao.php` → Supabase `createConversation()`
 - `Sms.php` → 通过 Supabase 发送模板短信

@@ -22,7 +22,7 @@ type: note
 EDA（Electronic Design Automation）软件是工程师用来设计、仿真、验证并准备电路制造的工具。2026 年的主流工具：
 
 | 工具 | 最适合 | 费用 |
-|---|---|---|
+| --- | --- | --- |
 | **KiCad** | 初学者与专业人士 | 免费 / 开源 |
 | **EasyEDA** | 基于网页，快速原型 | 提供免费版本 |
 | **Altium Designer** | 专业 / 企业团队 | 付费 |
@@ -38,6 +38,7 @@ KiCad 已成为领先的开源 EDA 解决方案，无需授权费用即可提供
 从一个清晰的目标开始：在打开软件之前，先明确电路的功能。将电路分成几个部分 —— 电源、输入处理、核心逻辑和输出驱动。这个视觉化指南可以防止设计过程陷入混乱。
 
 关键步骤：
+
 - 放置元件符号（IC、电阻、电容、连接器）
 - 用导线/网络连接元件
 - 标注网络（VCC、GND、信号）
@@ -50,6 +51,7 @@ KiCad 已成为领先的开源 EDA 解决方案，无需授权费用即可提供
 设计过程包含两个主要阶段：创建原理图（电路的蓝图）和布局物理电路板。
 
 在这个阶段你需要：
+
 1. **设置板框尺寸** —— 定义物理大小和形状
 2. **放置元件** —— 在电路板上合理排列元件（电源靠近电源，信号路径短）
 3. **布线** —— 根据原理图网络表绘制铜线连接元件
@@ -91,6 +93,7 @@ DRC 检查项包括：走线宽度违规、间距错误、未连接网络、短�
 ---
 
 **参考资料：**
+
 - [PCB Board Design: A Step-by-Step Guide for Beginners – JLCPCB](https://api.jlcpcb.com/blog/pcb-board-design-beginners-guide)
 - [Beginner's Guide to PCB Design: From Schematic to Gerbers – AllPCB](https://www.allpcb.com/allelectrohub/beginners-guide-to-pcb-design-from-schematic-to-gerbers)
 - [PCB Designing Tutorial for Beginners – BestPCBs](https://www.bestpcbs.com/blog/2025/06/pcb-designing-tutorial-for-beginners/)

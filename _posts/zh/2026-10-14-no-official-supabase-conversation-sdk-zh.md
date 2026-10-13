@@ -35,6 +35,7 @@ Supabase 本身并没有提供专门的 conversation SDK，但它被广泛用作
 **简而言之：** 如果你需要一个专门的 "conversation SDK"，Supabase 并不是——你需要将 Supabase（用于 storage/realtime）与 AI framework 结合。如果你正在构建 Flutter chat app，那么社区版 `supabase_chat_sdk` 值得一看。
 
 **参考资料：**
+
 - [supabase_chat_sdk on pub.dev](https://pub.dev/documentation/supabase_chat_sdk/latest/)
 - [Database-backed conversation history with Supabase and Claude](https://www.aicodex.to/articles/supabase-conversation-history)
 - [Build an AI Agent with Vercel AI SDK and Supabase](https://gautamkhorana.com/blog/build-ai-agent-vercel-supabase/)

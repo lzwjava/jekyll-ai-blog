@@ -18,7 +18,7 @@ type: note
 如果你要买一张二手卡用于 AI，我会优先考虑：
 
 | GPU | VRAM | ROCm 支持情况 |
-|---|---:|---|
+| --- | ---: | --- |
 | Instinct MI25 | 16GB | 官方不支持 |
 | Instinct MI50 | 16GB/32GB | 旧版；当前官方支持已移除 |
 | Instinct MI100 | 32GB | 官方支持 |

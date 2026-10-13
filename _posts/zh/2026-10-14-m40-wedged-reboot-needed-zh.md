@@ -15,9 +15,11 @@ type: note
 
 1. 解绑成功了，但 `rmmod nvidia` 失败了，因为 `gnome-shell` 和 `github-desktop` 占用了 `/dev/nvidia*`（nvidia 模块的引用计数为 36）。
 2. 在设备半脱离状态下，`modprobe nouveau` 卡住了，而我重新绑定 `nvidia` 的尝试现在在内核中卡死：
+
    ```
    sh  D  device_driver_attach -> bind_store   (stuck >2 min)
    ```
+
 3. 当前状态：M40 已解绑，没有 `/dev/dri/renderD128`，nouveau 未加载。**其他一切正常** —— 你的桌面和 Intel GPU 不受影响。
 
 这只能通过重启来恢复。`nouveau` 仍被列入黑名单，因此 `nvidia` 驱动会在启动时自动恢复。

@@ -44,6 +44,7 @@ LangGraph specifics used: `TypedDict` state with `Annotated[list, operator.add]`
 **Verified run:** 19/19 sources fetched → 348 raw → 40 ranked → 4 sections, all LLM-edited → `output/index.html`, `digest.md`, `digest.json`, `feed.xml`.
 
 Details worth knowing:
+
 - **Anthropic publishes no RSS**, so `anthropic-news` / `anthropic-research` use the `type: html` adapter (CSS selectors + `link_pattern`/`link_exclude`) — that's how nav links like `/research/team/*` get filtered out.
 - **HN returns 419 for browser-like UAs** and **VentureBeat 429s non-browser UAs** — fixed with a simple default UA + per-source `user_agent` override and retry/backoff on 419/429/5xx.
 - **LLM**: OpenRouter's `openai/gpt-4o-mini` and `gemini-2.5-flash` return 403 on your key, so the default is `deepseek/deepseek-v4.1-flash` (works; `--provider deepseek` also works). Structured output with a JSON-schema retry, and articles travel to the model as integer indexes so it can't invent links.

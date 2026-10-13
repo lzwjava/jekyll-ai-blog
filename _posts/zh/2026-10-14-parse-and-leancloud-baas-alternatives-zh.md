@@ -20,7 +20,7 @@ type: note
 ### ☁️ 托管云（最接近 LeanCloud/Parse 体验）
 
 | 平台 | 数据库 | 亮点 |
-|---|---|---|
+| --- | --- | --- |
 | [Firebase](https://firebase.google.com) | NoSQL (Firestore) | Google 生态、实时同步、认证、推送通知 |
 | [Back4app](https://www.back4app.com) | MongoDB | 基于 Parse 开源项目；自动生成 REST/GraphQL API |
 | [Supabase](https://supabase.com) | PostgreSQL | Firebase 替代品；实时、边缘函数、向量/AI 支持 |
@@ -35,7 +35,7 @@ type: note
 ### 🔓 开源 / 自托管（类似 Parse Server）
 
 | 平台 | 数据库 | 亮点 |
-|---|---|---|
+| --- | --- | --- |
 | [Parse Server](https://parseplatform.org) | MongoDB / Postgres | 原始项目；可在任意云上自托管或使用托管服务商 |
 | [Appwrite](https://appwrite.io) | MariaDB | 开源 Firebase 替代品；认证、存储、函数、实时 |
 | [PocketBase](https://pocketbase.io) | SQLite | 单一可执行文件；超轻量，适合 MVP 和内部工具 |
@@ -58,4 +58,5 @@ type: note
 - **自托管 / 完全控制** → **PocketBase**（简单）或 **Parse Server**（功能完整）  
 
 **参考资料：**  
+
 - [2026 年最佳 BaaS 提供商 – Back4App 博客](https://blog.back4app.com/baas-providers/)

@@ -22,7 +22,7 @@ Designing a PCB involves a multi-stage workflow from concept to a manufacturable
 EDA (Electronic Design Automation) software is what engineers use to design, simulate, verify, and prepare circuits for manufacturing. Top tools in 2026:
 
 | Tool | Best For | Cost |
-|---|---|---|
+| --- | --- | --- |
 | **KiCad** | Beginners & professionals | Free / Open-source |
 | **EasyEDA** | Web-based, rapid prototyping | Free tier available |
 | **Altium Designer** | Professional/enterprise teams | Paid |
@@ -38,6 +38,7 @@ KiCad has emerged as the leading open-source EDA solution, providing professiona
 Start with a clear goal: before opening software, define your circuit's purpose. Break the circuit into sections — power supply, input processing, core logic, and output drivers. This visual guide prevents chaos as you design.
 
 Key steps:
+
 - Place component symbols (ICs, resistors, capacitors, connectors)
 - Connect components with wires/nets
 - Label nets (VCC, GND, signals)
@@ -50,6 +51,7 @@ Key steps:
 The design process involves two main stages: creating a schematic (a blueprint of your circuit) and laying out the physical board.
 
 In this stage you:
+
 1. **Set board dimensions** — define the physical size and shape
 2. **Place components** — arrange parts on the board logically (power near power, signal paths short)
 3. **Route traces** — draw copper traces connecting components per your schematic netlist
@@ -91,6 +93,7 @@ After receiving your bare PCB, solder your components (SMD or through-hole) onto
 ---
 
 **References:**
+
 - [PCB Board Design: A Step-by-Step Guide for Beginners – JLCPCB](https://api.jlcpcb.com/blog/pcb-board-design-beginners-guide)
 - [Beginner's Guide to PCB Design: From Schematic to Gerbers – AllPCB](https://www.allpcb.com/allelectrohub/beginners-guide-to-pcb-design-from-schematic-to-gerbers)
 - [PCB Designing Tutorial for Beginners – BestPCBs](https://www.bestpcbs.com/blog/2025/06/pcb-designing-tutorial-for-beginners/)

@@ -52,6 +52,7 @@ Anthropic 还在招聘应用 AI 架构师、AWS 合作伙伴负责人，以及�
 ---
 
 参考资料：
+
 - [OpenAI Hiring Snapshot – Autobound (Sep 2026)](https://www.autobound.ai/companies/openai/hiring)
 - [OpenAI Plans Major Hiring by End-2026 – Jang](https://jang.com.pk/en/62131-openai-plans-major-hiring-by-end-2026-to-close-gap-with-ai-competitors-news)
 - [OpenAI New Roles – JobzMall (Sep 2026)](https://www.jobzmall.com/news/openai-expands-hiring-across-roles-and-regions-k2z4qit6k2)

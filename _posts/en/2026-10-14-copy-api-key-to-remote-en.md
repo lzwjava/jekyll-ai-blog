@@ -21,6 +21,7 @@ Done — `settings.json` copied and verified on the remote:
   "defaultThinkingLevel": "high"
 }
 ```
+
 `pi --version` still reports 1.2.0 after the copy.
 
 **Remaining: credentials.** Your local machine gets `OPENROUTER_API_KEY` from `~/.bashrc` (and `auth.json` is empty `{}` — so the key is the only credential). The remote has none, so `/model` will show no usable models until one of these exists:

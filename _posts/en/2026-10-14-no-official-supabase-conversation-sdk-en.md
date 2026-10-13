@@ -35,6 +35,7 @@ This approach means conversations are stored in a `messages` table, loaded back 
 **In short:** If you need a dedicated "conversation SDK," Supabase isn't it — you'd combine Supabase (for storage/realtime) with an AI framework. If you're building a Flutter chat app, the community `supabase_chat_sdk` may be worth checking out.
 
 **References:**
+
 - [supabase_chat_sdk on pub.dev](https://pub.dev/documentation/supabase_chat_sdk/latest/)
 - [Database-backed conversation history with Supabase and Claude](https://www.aicodex.to/articles/supabase-conversation-history)
 - [Build an AI Agent with Vercel AI SDK and Supabase](https://gautamkhorana.com/blog/build-ai-agent-vercel-supabase/)

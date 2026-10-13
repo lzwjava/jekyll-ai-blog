@@ -20,7 +20,7 @@ The leading BaaS providers in 2026 are **Back4app**, **Firebase**, **AWS Amplify
 ### ☁️ Managed Cloud (closest to LeanCloud/Parse experience)
 
 | Platform | Database | Highlights |
-|---|---|---|
+| --- | --- | --- |
 | **[Firebase](https://firebase.google.com)** | NoSQL (Firestore) | Google ecosystem, realtime sync, auth, push notifications |
 | **[Back4app](https://www.back4app.com)** | MongoDB | Built on Parse open-source; auto REST/GraphQL APIs |
 | **[Supabase](https://supabase.com)** | PostgreSQL | Firebase alternative; realtime, edge functions, vector/AI support |
@@ -35,7 +35,7 @@ The leading BaaS providers in 2026 are **Back4app**, **Firebase**, **AWS Amplify
 ### 🔓 Open Source / Self-Hosted (like Parse Server)
 
 | Platform | Database | Highlights |
-|---|---|---|
+| --- | --- | --- |
 | **[Parse Server](https://parseplatform.org)** | MongoDB / Postgres | The original; self-host on any cloud or use managed providers |
 | **[Appwrite](https://appwrite.io)** | MariaDB | Open-source Firebase alternative; auth, storage, functions, realtime |
 | **[PocketBase](https://pocketbase.io)** | SQLite | Single executable; ultra-lightweight for MVPs and internal tools |
@@ -58,4 +58,5 @@ The leading BaaS providers in 2026 are **Back4app**, **Firebase**, **AWS Amplify
 - **Self-hosted / full control** → **PocketBase** (simple) or **Parse Server** (full-featured)
 
 **References:**
+
 - [Best BaaS Providers in 2026 – Back4App Blog](https://blog.back4app.com/baas-providers/)

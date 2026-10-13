@@ -14,7 +14,7 @@ type: note
 ## 选项 1 已完成 — 远程 pi 已完全配置
 
 | 步骤 | 结果 |
-|---|---|
+| --- | --- |
 | `settings.json` 已复制 | ✅ `openrouter` / `xiaomi/mimo-v2.6-flash`，thinking `high`，theme `dark` |
 | `OPENROUTER_API_KEY` → 远程 `~/.bashrc` | ✅ 已追加一次（73 个字符，值从未打印；仅在加密的 SSH 通道内传输） |
 | Key 在交互式 shell 中可见 | ✅ `bash -ic` 能看到它 |

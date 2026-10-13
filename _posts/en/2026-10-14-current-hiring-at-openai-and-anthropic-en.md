@@ -52,6 +52,7 @@ Key departments for 2026 include Alignment Science, Frontier Systems, Product En
 ---
 
 References:
+
 - [OpenAI Hiring Snapshot – Autobound (Sep 2026)](https://www.autobound.ai/companies/openai/hiring)
 - [OpenAI Plans Major Hiring by End-2026 – Jang](https://jang.com.pk/en/62131-openai-plans-major-hiring-by-end-2026-to-close-gap-with-ai-competitors-news)
 - [OpenAI New Roles – JobzMall (Sep 2026)](https://www.jobzmall.com/news/openai-expands-hiring-across-roles-and-regions-k2z4qit6k2)

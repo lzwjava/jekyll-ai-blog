@@ -18,6 +18,7 @@ type: note
 已将真实 SDK（5,769 行）从 `application_ci3/libraries/{alipay,wx}` 移植到 `app/Libraries/`，以及商户密钥和证书。
 
 修复了旧版 SDK 中的 PHP 8.5 阻塞问题（已在容器内验证）：
+
 - `each()` → `foreach`（在 PHP 8 中已移除）
 - `get_magic_quotes_gpc()` → 删除（该函数在 PHP 8 中已移除）
 - `substr(count($arg)-2)` → `substr(...,-1)`（对字符串使用 count() 会抛出 TypeError）
@@ -27,6 +28,7 @@ type: note
 重写了 3 个包装类，其公共 API 与 CI3 完全一致：`Alipay.php`（RSA 订单签名）、`WxPay.php`（7 个方法：统一订单/退款/转账/红包）、`WxPayCallback.php`（继承 SDK 的 `WxPayNotify`）。为商户配置创建了 `Config\Alipay`。
 
 修复了移植过程中暴露的 3 个潜在 bug：
+
 - `guard()` 包装器，使 SDK 传输异常变成 `[false, msg]` 元组，而不是 500 错误
 - `unifiedOrder` 现在检查 `result_code`（业务）而不只是 `return_code`（传输）——CI3 只检查传输层，因此业务失败时读取缺失的键（在 PHP 7 中静默，在 CI4 中返回 500）
 - `PayNotifyDao` 在读取属性前进行空值检查（CI3 先解引用 → 在未知 orderNo 时返回 500，可从回调触发）
@@ -34,7 +36,7 @@ type: note
 ## ✅ 端到端验证（真实 API 调用）
 
 | 渠道 | 结果 |
-|---|---|
+| --- | --- |
 | `alipay_app` | **真实的 RSA 签名订单字符串** ✓ |
 | `wechat_qrcode` | **可到达微信**，呈现真实的商户状态消息 ✓ |
 | `wechat_h5` / `wechat_app` | `must_bind_wechat`（正确的业务验证） ✓ |

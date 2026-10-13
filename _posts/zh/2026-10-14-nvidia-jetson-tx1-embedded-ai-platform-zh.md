@@ -22,7 +22,7 @@ type: note
 Jetson TX1 采用模块化架构——一个 **COM 模块（Computer-on-Module）**，包含 Tegra X1 SoC、4 GB LPDDR4 内存、16 GB eMMC 5.1 闪存存储、802.11ac Wi-Fi/Bluetooth 和 Gigabit Ethernet。
 
 | 组件 | 规格 |
-|---|---|
+| --- | --- |
 | GPU | 256核 NVIDIA Maxwell™ GPU，性能 >1 TFLOP |
 | CPU | 四核 ARM Cortex-A57 MPCore（64位） |
 | RAM | 4 GB LPDDR4 |
@@ -58,6 +58,7 @@ NVIDIA 提供了一款软件开发套件（JetPack SDK），包括调试器、�
 小巧的体积、低功耗和强大的 GPU 处理能力使 Jetson TX1 非常适合机器人技术、实时图像和传感器数据处理、远程图像识别以及车载计算应用。
 
 参考资料：
+
 - [JetsonHacks – Jetson TX1 Development Kit Overview](https://jetsonhacks.com/2015/11/10/nvidia-jetson-tx1-development-kit/)
 - [NVIDIA Developer – Jetson TX1 DevKit](https://developer.nvidia.com/embedded/buy/jetson-tx1-devkit)
 - [Linux.com – Jetson TX1 Review](https://www.linux.com/?p=476440)

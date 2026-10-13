@@ -20,7 +20,7 @@ type: note
 **价格对比**
 
 | 市场 | 成色 | 价格（美元） | ≈人民币 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | eBay（最便宜二手） | 二手 | ~$35–$40 | ~250–290 |
 | eBay（一般二手） | 二手 | ~$50–$70 | ~360–500 |
 | HP翻新（美国） | 二手/已测试 | ~$60 | ~430 |
@@ -36,6 +36,7 @@ type: note
 - ⚠️ 记住：到2026年，所有FirePro卡都已属于旧硬件，购买前请检查软件和系统兼容性
 
 **适合用于：**
+
 - 多显示器设置（4× DisplayPort）
 - 轻量CAD/3D工作负载
 - 预算有限的4K显示输出
@@ -45,6 +46,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [eBay – AMD FirePro W7100 Used Listings](https://www.ebay.com/b/AMD-FirePro-W7100-AMD-8-GB-Memory-Computer-Graphics-Cards/bn_7116997987)
 - [PC Server & Parts – HP FirePro W7100 Used](https://pcserverandparts.com/hp-amd-firepro-w7100-8gb-gddr5-graphics-card-763265-001)
 - [GeekChamp – FirePro Legacy Hardware Overview](https://geekchamp.com/?p=1100942)

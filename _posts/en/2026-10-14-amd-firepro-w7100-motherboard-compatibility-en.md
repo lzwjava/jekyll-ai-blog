@@ -20,7 +20,7 @@ The good news is that compatibility requirements are simple — **almost any mod
 **Hard Requirements**
 
 | Requirement | Detail |
-|---|---|
+| --- | --- |
 | Slot | PCIe x16 (physical) |
 | Ideal | PCIe 3.0 x16 |
 | Backward compatible | PCIe 2.0 x16, PCIe 1.0 x16 (reduced bandwidth, but functional) |
@@ -35,7 +35,7 @@ The good news is that compatibility requirements are simple — **almost any mod
 **Intel Desktop (Consumer)**
 
 | Chipset | Socket | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Z87 / H87 | LGA1150 (4th gen Core) | PCIe 3.0 ✅ |
 | Z97 / H97 | LGA1150 (4th/5th gen) | PCIe 3.0 ✅ |
 | X99 | LGA2011-v3 (Core i7/i9 Extreme) | PCIe 3.0 ✅ Ideal |
@@ -47,14 +47,14 @@ The good news is that compatibility requirements are simple — **almost any mod
 **Intel Workstation**
 
 | Platform | Socket | Notes |
-|---|---|---|
+| --- | --- | --- |
 | C612 (Wellsburg) | LGA2011-v3 (Xeon E5 v3/v4) | Original target platform ✅ |
 | C236 | LGA1151 (Xeon E3 v5/v6) | PCIe 3.0 ✅ |
 
 **AMD Desktop**
 
 | Chipset | Socket | Notes |
-|---|---|---|
+| --- | --- | --- |
 | B450 / X470 | AM4 (Ryzen 2000+) | PCIe 3.0 ✅ |
 | B550 / X570 | AM4 (Ryzen 3000+) | PCIe 4.0 (backward compat ✅) |
 | B650 / X670 | AM5 (Ryzen 7000+) | PCIe 5.0 (backward compat ✅) |
@@ -76,6 +76,7 @@ The good news is that compatibility requirements are simple — **almost any mod
 ---
 
 **References:**
+
 - [PCHardware.org – FirePro W7100 specs](https://pchardware.org/graphics-cards/amd-firepro-w7100/)
 - [Puget Systems – FirePro W7100](https://www.pugetsystems.com/parts/Video-Card/AMD-FirePro-W7100-PCI-E-8GB-10817)
 - [B&H – FirePro W7100 product sheet](https://www.bhphotovideo.com/lit_files/210878.pdf)

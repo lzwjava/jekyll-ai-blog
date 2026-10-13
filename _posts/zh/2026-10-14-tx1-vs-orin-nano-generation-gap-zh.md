@@ -53,7 +53,7 @@ Orin Nano Super 提供高达 102 GB/s 的内存带宽，比之前的 Orin Nano �
 ### 📌 结论
 
 | | TX1 | Orin Nano |
-|---|---|---|
+| --- | --- | --- |
 | 最适合 | 学习、动手实验、旧式 CV 项目 | 现代 AI、机器人、边缘 generative AI |
 | 现代 AI（LLMs、diffusion） | ❌ 不实用 | ✅ 可以 |
 | 社区 / 软件 | ⚠️ EOL | ✅ 活跃 |
@@ -62,6 +62,7 @@ Orin Nano Super 提供高达 102 GB/s 的内存带宽，比之前的 Orin Nano �
 **如果你已经拥有 TX1**，它仍然适合学习 OpenCV、机器人基础、ROS 和较旧的深度学习模型。但如果你要构建生产级产品或想运行现代 AI，**Orin Nano 是升级路径**。
 
 参考：
+
 - [NVIDIA Developer – Jetson Orin Nano](https://developer.nvidia.com/blog/?p=55058)
 - [CNX Software – Orin Nano Super Dev Kit](https://cnx-software.com/2024/12/18/249-nvidia-jetson-orin-nano-super-developer-kit-targets-generative-ai-applications-at-the-edge/)
 - [NVIDIA – Jetson TX1 EOL Notice](https://developer.nvidia.com/embedded/buy/jetson-tx1-devkit)

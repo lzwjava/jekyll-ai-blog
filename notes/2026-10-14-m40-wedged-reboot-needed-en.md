@@ -15,9 +15,11 @@ I have to stop here and hand it to you: the M40 is now **wedged and needs a rebo
 
 1. The unbind succeeded, but `rmmod nvidia` failed because `gnome-shell` and `github-desktop` held `/dev/nvidia*` (the nvidia module refcount was 36).
 2. With the device half-detached, `modprobe nouveau` stalled, and my attempt to rebind `nvidia` is now stuck in the kernel:
+
    ```
    sh  D  device_driver_attach -> bind_store   (stuck >2 min)
    ```
+
 3. Current state: M40 unbound, no `/dev/dri/renderD128`, nouveau not loaded. **Everything else is fine** — your desktop and the Intel GPU are unaffected.
 
 This is recoverable only by reboot. `nouveau` stays blacklisted, so the `nvidia` driver comes back automatically on boot.

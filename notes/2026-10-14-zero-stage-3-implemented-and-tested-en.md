@@ -16,7 +16,7 @@ Done. **ZeRO stage 3 is implemented, tested, and committed.** Final state: `45 p
 **Design** — stage 3 partitions *everything*, reusing the existing stage-2 gradient path:
 
 | State | Between steps (resident) | During compute |
-|---|---|---|
+| --- | --- | --- |
 | fp32 masters | `1/N` shard only | transient full buffer per group at gather, freed immediately |
 | Adam moments | `1/N` (as stage 1/2) | — |
 | gradients | `1/N` reduce-scattered shard | full flat buffer lives only from flatten → reduce-scatter |

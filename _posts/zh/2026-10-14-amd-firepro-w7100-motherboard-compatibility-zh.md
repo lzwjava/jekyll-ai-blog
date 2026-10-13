@@ -20,7 +20,7 @@ type: note
 **硬性要求**
 
 | 要求 | 详情 |
-|---|---|
+| --- | --- |
 | 插槽 | PCIe x16（物理） |
 | 理想情况 | PCIe 3.0 x16 |
 | 向后兼容 | PCIe 2.0 x16、PCIe 1.0 x16（带宽降低，但可用） |
@@ -35,7 +35,7 @@ type: note
 **Intel 台式机（消费级）**
 
 | 芯片组 | 插槽 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | Z87 / H87 | LGA1150（第4代 Core） | PCIe 3.0 ✅ |
 | Z97 / H97 | LGA1150（第4/5代） | PCIe 3.0 ✅ |
 | X99 | LGA2011-v3（Core i7/i9 Extreme） | PCIe 3.0 ✅ 理想选择 |
@@ -47,14 +47,14 @@ type: note
 **Intel 工作站**
 
 | 平台 | 插槽 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | C612 (Wellsburg) | LGA2011-v3（Xeon E5 v3/v4） | 原始目标平台 ✅ |
 | C236 | LGA1151（Xeon E3 v5/v6） | PCIe 3.0 ✅ |
 
 **AMD 台式机**
 
 | 芯片组 | 插槽 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | B450 / X470 | AM4（Ryzen 2000+） | PCIe 3.0 ✅ |
 | B550 / X570 | AM4（Ryzen 3000+） | PCIe 4.0（向后兼容 ✅） |
 | B650 / X670 | AM5（Ryzen 7000+） | PCIe 5.0（向后兼容 ✅） |
@@ -76,6 +76,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [PCHardware.org – FirePro W7100 规格](https://pchardware.org/graphics-cards/amd-firepro-w7100/)
 - [Puget Systems – FirePro W7100](https://www.pugetsystems.com/parts/Video-Card/AMD-FirePro-W7100-PCI-E-8GB-10817)
 - [B&H – FirePro W7100 产品参数表](https://www.bhphotovideo.com/lit_files/210878.pdf)

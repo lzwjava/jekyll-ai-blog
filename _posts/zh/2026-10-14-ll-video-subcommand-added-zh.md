@@ -14,6 +14,7 @@ type: note
 ## 摘要：新增 `ll video`
 
 **新文件：**
+
 - `src/video_ops.rs`（约 1450 行）— 18 条命令 + 21 个单元测试
 - `src/cli.rs` — 共享的标志/位置参数解析，现已被 `image` 和 `video` 模块共同使用
 
@@ -22,7 +23,7 @@ type: note
 ### 命令
 
 | 分组 | 命令 |
-|---|---|
+| --- | --- |
 | 检查 | `info <file>…`（流、编解码器、fps、`--json`） |
 | 剪切与拼接 | `screenshot`、`frames`（`--fps`/`--every` 序列）、`trim`（流复制 / `--reencode`）、`concat`、`reverse` |
 | 音频 | `audio`（按扩展名支持 mp3/m4a/wav/flac/opus）、`mute`、`volume`（`-v 0.5` / `-v -6dB`） |
@@ -38,6 +39,7 @@ type: note
 **验证：** `cargo build` 无警告，**38/38 测试通过**，所有新代码均通过 clippy，并对真实生成的视频进行了完整的端到端运行（使用 `ffprobe` 验证时长/尺寸），以及 image↔video 回归检查。
 
 已推送的提交：
+
 ```
 3c79248 feat: add video subcommand with common operations (ffmpeg-backed)
 ```

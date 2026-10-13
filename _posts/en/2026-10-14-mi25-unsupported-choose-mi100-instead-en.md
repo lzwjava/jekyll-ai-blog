@@ -18,7 +18,7 @@ For the MI25, the GPU target is `gfx900`. AMD's official documentation explicitl
 If you're buying a used card for AI, I'd prioritize:
 
 | GPU | VRAM | ROCm outlook |
-|---|---:|---|
+| --- | ---: | --- |
 | Instinct MI25 | 16GB | Officially unsupported |
 | Instinct MI50 | 16GB/32GB | Legacy; current official support removed |
 | Instinct MI100 | 32GB | Officially supported |

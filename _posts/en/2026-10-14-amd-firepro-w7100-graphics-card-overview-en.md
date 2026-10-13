@@ -24,7 +24,7 @@ The FirePro W7100 was launched on August 12, 2014. It is built on the 28 nm proc
 **Key Specs at a Glance**
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | GPU | Tonga PRO GL (GCN 3rd Gen) |
 | Stream Processors | 1792 |
 | Base Clock | 920 MHz |
@@ -58,6 +58,7 @@ The FirePro W7100 was launched on August 12, 2014. It is built on the 28 nm proc
 ---
 
 **References:**
+
 - [AMD FirePro W7100 – TechPowerUp GPU DB](https://techpowerup.com/gpudb/2610/firepro-w7100)
 - [AMD FirePro W7100 – Puget Systems](https://www.pugetsystems.com/parts/Video-Card/AMD-FirePro-W7100-PCI-E-8GB-10817)
 - [SAPPHIRE ships AMD FirePro W7100 – Hexus](https://hexus.net/qacmsz)

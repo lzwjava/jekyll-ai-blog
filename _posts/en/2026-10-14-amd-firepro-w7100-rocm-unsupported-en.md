@@ -22,7 +22,7 @@ type: note
 The W7100 uses the **Tonga** chip, identified as **`gfx802`** in ROCm. This is a critical distinction:
 
 | GPU | ROCm ID | ROCm Support |
-|---|---|---|
+| --- | --- | --- |
 | Tonga (FirePro W7100) | `gfx802` | ❌ Never officially supported |
 | Fiji / Polaris (RX 480, RX 580…) | `gfx803` | ✅ Until ~ROCm 3.7, then broken; fully dropped at ROCm 4.0+ |
 
@@ -33,7 +33,7 @@ Because many ROCm projects rely on HCC (the compiler), and HCC did not compile f
 **Timeline summary**
 
 | ROCm Version | W7100 / Tonga status |
-|---|---|
+| --- | --- |
 | 1.x – 2.x | Partially detectable, but not functional for HIP/HCC compute |
 | 3.x | Still unrecognized / broken |
 | 4.0+ | gfx803 (Fiji) also dropped; gfx802 was never there |
@@ -52,6 +52,7 @@ ROCm 5.7.1 was the last working version even for gfx803 (Polaris), and ROCm 6+ f
 ---
 
 **References:**
+
 - [GitHub – Does ROCm support Tonga? #509](https://github.com/RadeonOpenCompute/ROCm/issues/509)
 - [GitHub – gfx802 segfaults with ROCm 2.7 #880](https://github.com/ROCm/ROCm/issues/880)
 - [Debian AI List – Dropping gfx803 support](https://lists.debian.org/debian-ai/2024/09/msg00030.html)

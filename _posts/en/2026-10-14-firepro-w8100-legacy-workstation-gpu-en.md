@@ -18,7 +18,7 @@ AMD's original announcement describes the W8100 as a professional graphics card 
 ## 1. Hardware specifications
 
 | Specification | AMD FirePro W8100 |
-|---|---|
+| --- | --- |
 | Release date | June 2014 |
 | GPU architecture | AMD GCN 2nd generation |
 | GPU codename | Hawaii Pro |
@@ -66,7 +66,7 @@ For LLM inference, however, FP64 performance is generally not the metric you sho
 ## 2. What can you use it for today?
 
 | Workload | Suitability | Explanation |
-|---|---|---|
+| --- | --- | --- |
 | Linux desktop | Good | Can drive displays with a compatible driver |
 | Multi-monitor workstation | Good | Four native DisplayPort outputs |
 | CAD and 3D visualization | Depends | Legacy professional applications may benefit |
@@ -100,7 +100,7 @@ Even if you manage to install a compatible software stack, you may encounter mis
 For a model with 1 billion parameters, the approximate raw weight storage is:
 
 | Weight format | Approximate weight memory |
-|---|---:|
+| --- | ---: |
 | FP32 | 4GB |
 | FP16/BF16 | 2GB |
 | INT8 | 1GB |
@@ -127,7 +127,7 @@ The W8100 is more interesting as an inexpensive hardware experimentation platfor
 Given your interest in used GPUs and running LLMs locally, these are useful distinctions.
 
 | Feature | FirePro W8100 | Tesla M40 24GB | RTX 4070 12GB |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Release era | 2014 | 2015 | 2023 |
 | Manufacturer | AMD | NVIDIA | NVIDIA |
 | Architecture | GCN 2 | Maxwell | Ada Lovelace |
@@ -148,6 +148,7 @@ The M40's advantage is its larger VRAM capacity, which can be useful when experi
 ### What if the W8100 is extremely cheap?
 
 It might make sense if you want to:
+
 - Learn GPU hardware architecture.
 - Experiment with OpenCL.
 - Repair and resell older professional GPUs.
@@ -163,11 +164,13 @@ I wouldn't buy it specifically to accelerate your existing LLM development unles
 If you're evaluating one on the used market, check these points.
 
 **Power requirements**
+
 - Confirm that your PSU can supply the card's maximum 220W consumption.
 - Make sure both 6-pin PCIe power connectors are available.
 - Check the card's physical clearance.
 
 **Physical condition**
+
 - Inspect the PCB for corrosion and signs of previous repair.
 - Check the fan, heatsink, and thermal pads.
 - Inspect the PCIe power connectors for damage.

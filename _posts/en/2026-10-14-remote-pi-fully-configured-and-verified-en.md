@@ -14,7 +14,7 @@ Everything's done and verified end-to-end. 🎉
 ## Option 1 complete — remote pi is fully configured
 
 | Step | Result |
-|---|---|
+| --- | --- |
 | `settings.json` copied | ✅ `openrouter` / `xiaomi/mimo-v2.6-flash`, thinking `high`, theme `dark` |
 | `OPENROUTER_API_KEY` → remote `~/.bashrc` | ✅ appended once (73 chars, value never printed; traveled only inside the encrypted SSH channel) |
 | Key visible in interactive shells | ✅ `bash -ic` sees it |

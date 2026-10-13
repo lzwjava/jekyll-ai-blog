@@ -14,7 +14,7 @@ I've completed the investigation, and I need to surface a **critical architectur
 ## What LeanCloud actually does here (3 features)
 
 | Feature | Backend location | Replaceable backend-only? |
-|---|---|---|
+| --- | --- | --- |
 | **SMS verification codes** (`requestSmsCode`/`verifySmsCode`) | `Users.php` | ✅ Yes — Supabase Auth phone OTP |
 | **IM conversations** (`createConversation`) | `LiveDao.php` → stores `conversationId` on the live | ⚠️ **No — see below** |
 | **Template SMS notifications** (`sendTemplateSms`: LiveStart/VideoReady/Invite) | `Sms.php` (cron) | ⚠️ Gap — no Supabase equivalent |
@@ -35,10 +35,13 @@ So the frontends **bypass the backend entirely** for chat and talk to LeanCloud'
 Also: **template SMS has no Supabase equivalent** — that needs Twilio/another provider wired via an Edge Function.
 
 ## 🚫 Hard blocker: no Supabase credentials
+
 No project ref, anon key, or service role key exists anywhere in the repo or env. I can't wire this up or verify it end-to-end without them.
 
 ## My recommendation
+
 Migrate in two phases, backend-first, so each piece is verifiable:
+
 1. **SMS verification** → Supabase Auth phone OTP (unambiguous, backend-only, unblocks login once SMS codes are down from the archived app)
 2. **Conversation storage** → Supabase `conversations` table, and **flag the frontend chat rewrite** as required follow-up in `live-web` + `live-mobile-web`
 

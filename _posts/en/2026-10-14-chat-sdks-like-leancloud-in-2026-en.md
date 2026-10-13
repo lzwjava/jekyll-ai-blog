@@ -20,7 +20,7 @@ type: note
 These give you channels, message history, presence, push notifications, and UI kits out of the box:
 
 | SDK | Free Tier | Best For |
-|---|---|---|
+| --- | --- | --- |
 | **Stream Chat** | 1,000 MAU | Social apps, marketplaces, broad SDK support |
 | **Sendbird** | 1,000 MAU | Customer comms, voice/video bundled |
 | **Tencent RTC Chat** | 1,000 MAU (permanent) | MVPs, AI apps, global infra, QUIC protocol |
@@ -62,6 +62,7 @@ If you want the *full* LeanCloud experience (database + auth + realtime in one):
 - **Open source / self-hosted** → Socket.IO + your own storage
 
 **References:**
+
 - [Chat SDK Comparison: 9 Providers (Stream, July 2026)](https://getstream.io/blog/chat-sdk-comparison/)
 - [Best Free Chat SDKs and APIs for Apps in 2026 (TRTC)](https://trtc.io/blog/details/best-free-chat-sdks-and-apis-for-apps-in-2026)
 - [Sendbird vs Stream 2026 (Jotform)](https://www.jotform.com/ai/agents/sendbird-vs-stream/)
