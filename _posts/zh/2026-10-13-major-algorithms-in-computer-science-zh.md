@@ -20,7 +20,7 @@ type: note
 ## 🔍 搜索
 
 | 算法 | 时间复杂度 | 应用场景 |
-|---|---|---|
+| --- | --- | --- |
 | Linear Search | O(n) | 无序数据 |
 | **Binary Search** | O(log n) | 有序数组 |
 | BFS (Breadth-First Search) | O(V+E) | 最短路径、图 |
@@ -31,7 +31,7 @@ type: note
 ## 📊 排序
 
 | 算法 | 最优 | 最差 | 稳定? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bubble Sort | O(n) | O(n²) | ✅ |
 | Merge Sort | O(n log n) | O(n log n) | ✅ |
 | **Quick Sort** | O(n log n) | O(n²) | ❌ |
@@ -126,6 +126,7 @@ Randomized  →  利用随机性提升平均性能
 ---
 
 参考资料：
+
 - [Introduction to Algorithms (CLRS) — MIT Press](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
 - [Algorithms — Princeton / Coursera](https://www.coursera.org/learn/algorithms-part1)
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)

@@ -20,7 +20,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ## 🔍 Searching
 
 | Algorithm | Time Complexity | Use Case |
-|---|---|---|
+| --- | --- | --- |
 | Linear Search | O(n) | Unsorted data |
 | **Binary Search** | O(log n) | Sorted arrays |
 | BFS (Breadth-First Search) | O(V+E) | Shortest path, graphs |
@@ -31,7 +31,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ## 📊 Sorting
 
 | Algorithm | Best | Worst | Stable? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bubble Sort | O(n) | O(n²) | ✅ |
 | Merge Sort | O(n log n) | O(n log n) | ✅ |
 | **Quick Sort** | O(n log n) | O(n²) | ❌ |
@@ -42,6 +42,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 🗺️ Graph Algorithms
+
 - **Dijkstra's** — single-source shortest path (non-negative weights)
 - **Bellman-Ford** — shortest path with negative weights
 - **Floyd-Warshall** — all-pairs shortest path
@@ -52,6 +53,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 🧩 Dynamic Programming
+
 - **Fibonacci** (memoization vs. tabulation)
 - **Knapsack Problem** — resource allocation
 - **Longest Common Subsequence (LCS)** — diff tools, bioinformatics
@@ -61,6 +63,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 🔐 Cryptographic / Hashing
+
 - **MD5 / SHA-256** — data integrity
 - **RSA** — public-key encryption
 - **Diffie-Hellman** — key exchange
@@ -69,6 +72,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 🌲 Tree & Data Structure Algorithms
+
 - **Tree Traversals** (Inorder, Preorder, Postorder)
 - **AVL / Red-Black Tree Rotations** — self-balancing
 - **Trie Operations** — autocomplete, prefix search
@@ -77,6 +81,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## ⚡ Divide & Conquer
+
 - **Merge Sort**, **Quick Sort**
 - **Strassen's Matrix Multiplication** — O(n^2.81) vs naïve O(n³)
 - **Karatsuba Algorithm** — fast integer multiplication
@@ -84,6 +89,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 🤖 Machine Learning / AI Algorithms
+
 - **Gradient Descent** — model training optimization
 - **Backpropagation** — neural networks
 - **K-Means Clustering** — unsupervised learning
@@ -92,6 +98,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 📐 String Algorithms
+
 - **KMP (Knuth-Morris-Pratt)** — pattern matching in O(n+m)
 - **Rabin-Karp** — rolling hash for string search
 - **Boyer-Moore** — fast text search (used in `grep`)
@@ -99,6 +106,7 @@ Here's a categorized overview of the most fundamental and widely-used algorithms
 ---
 
 ## 💡 Greedy Algorithms
+
 - **Huffman Coding** — data compression (ZIP, PNG)
 - **Activity Selection Problem**
 - **Fractional Knapsack**
@@ -118,6 +126,7 @@ Randomized  →  Use randomness to improve average performance
 ---
 
 References:
+
 - [Introduction to Algorithms (CLRS) — MIT Press](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
 - [Algorithms — Princeton / Coursera](https://www.coursera.org/learn/algorithms-part1)
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)

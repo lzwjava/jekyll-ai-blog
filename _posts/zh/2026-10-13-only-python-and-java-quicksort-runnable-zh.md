@@ -14,11 +14,14 @@ type: note
 ## 当前可用的命令
 
 **Python：**
+
 ```bash
 cd /home/lzw/projects/ll
 python3 quicksort.py
 ```
+
 输出类似于：
+
 ```
 Before: [...] 
 After:  [...] 
@@ -26,10 +29,12 @@ Sorted 10000 numbers in X.XXX ms
 ```
 
 **Java：**
+
 ```bash
 javac Quicksort.java
 java Quicksort
 ```
+
 （只需要 PATH 中有 `javac`/`java`；无需构建工具。）
 
 **Rust：**不可用——`main.rs` 中没有接入 `bench`/`quicksort` 子命令。

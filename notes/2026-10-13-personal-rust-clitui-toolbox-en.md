@@ -16,7 +16,7 @@ type: note
 `src/main.rs` routes the first argument to subcommands:
 
 | Command | What it does | Module |
-|---|---|---|
+| --- | --- | --- |
 | `cargo run` (default) | Centered "Hello" in a bordered box TUI (`run_hello`, quit with `q`) | `main.rs` |
 | `info` | Live dashboard: CPU brand/cores/usage, memory, disk tables | `main.rs` |
 | `gcloud` | Show Google Cloud account & config info | `src/gcloud.rs` |

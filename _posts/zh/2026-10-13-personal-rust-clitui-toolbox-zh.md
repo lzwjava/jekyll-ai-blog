@@ -16,7 +16,7 @@ type: note
 `src/main.rs` 将第一个参数路由到子命令：
 
 | 命令 | 功能 | 模块 |
-|---|---|---|
+| --- | --- | --- |
 | `cargo run`（默认） | 在带边框的框中居中显示 "Hello" 的 TUI（`run_hello`，按 `q` 退出） | `main.rs` |
 | `info` | 实时仪表盘：CPU 品牌/核心数/使用率、内存、磁盘表 | `main.rs` |
 | `gcloud` | 显示 Google Cloud 账号和配置信息 | `src/gcloud.rs` |

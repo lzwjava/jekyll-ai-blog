@@ -12,6 +12,7 @@ type: note
 已完成。
 
 **已移除：**
+
 - `Quicksort.java`
 - `quicksort.py`
 

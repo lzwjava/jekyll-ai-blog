@@ -16,7 +16,7 @@ Answer:
 ## 🤖 Machine Learning (Traditional)
 
 | Category | Algorithms |
-|---|---|
+| --- | --- |
 | **Regression** | Linear Regression, Ridge, Lasso, ElasticNet |
 | **Classification** | Logistic Regression, SVM, k-NN, Naive Bayes, Decision Tree |
 | **Ensemble** | Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost) |
@@ -28,7 +28,7 @@ Answer:
 ## 🧠 Deep Learning
 
 | Category | Algorithms / Architectures |
-|---|---|
+| --- | --- |
 | **Feedforward** | MLP (Multi-Layer Perceptron) |
 | **Convolutional** | CNN, ResNet, VGG, EfficientNet, Vision Transformer (ViT) |
 | **Recurrent** | RNN, LSTM, GRU |
@@ -41,7 +41,7 @@ Answer:
 ## 🌐 Large Language Models (LLMs)
 
 | Category | Key Concepts / Techniques |
-|---|---|
+| --- | --- |
 | **Core Architecture** | Transformer (Encoder-Decoder, Decoder-only) |
 | **Pre-training** | Next Token Prediction (CLM), Masked Language Modeling (MLM) |
 | **Fine-tuning** | Supervised Fine-Tuning (SFT), RLHF, DPO, LoRA, QLoRA |
@@ -64,6 +64,7 @@ Generative       → GAN / VAE / LLM
 ```
 
 References:
+
 - [Scikit-learn: Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/)
 - [Deep Learning Book – Goodfellow et al.](https://www.deeplearningbook.org/)
 - [Attention Is All You Need (Transformer paper)](https://arxiv.org/abs/1706.03762)

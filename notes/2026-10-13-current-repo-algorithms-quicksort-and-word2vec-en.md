@@ -16,7 +16,7 @@ Here's every algorithm/implementation currently in the repo:
 Identical algorithm in all three, used for cross-language benchmarking on 10,000 ints:
 
 | File | Notes |
-|---|---|
+| --- | --- |
 | `quicksort.py` | Recursive, pivot = last element, `i`/`j` swap scan; timed with `time.perf_counter()` |
 | `Quicksort.java` | Same Lomuto partition; seeded `Random(42)`, timed with `System.nanoTime()` |
 | Rust version | Mentioned in README ("via the TUI project's main binary") — but **not actually present in `src/`** anymore; README is stale on this point |

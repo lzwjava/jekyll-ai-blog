@@ -24,7 +24,7 @@ type: note
 这些即使在尖端公司也仍然是基础：
 
 | 策略 | 核心思想 |
-|---|---|
+| --- | --- |
 | **Mean Reversion** | 价格偏离均衡 → 回归均值（配对交易、统计套利） |
 | **Momentum / Trend** | 资产朝一个方向趋势 → 跟随趋势 |
 | **Factor Models** | Fama-French 风格的风险溢价暴露（价值、规模、质量等） |
@@ -38,19 +38,23 @@ type: note
 这是现代量化基金（Two Sigma、DE Shaw、High-Flyer/DeepSeek）的区别所在：
 
 ### 监督学习（Alpha 预测）
+
 - **Tree ensembles**：XGBoost、LightGBM——横截面 alpha 的行业主力；可解释性强，能很好地处理非线性
 - **带正则化的线性模型**：LASSO/Ridge 用于在数百个信号中进行特征选择
 - **神经网络（MLP、ResNet）**：表格金融数据预测
 
 ### 序列/时间序列模型
+
 - **LSTM / GRU**：捕捉价格/成交量序列中的时间依赖性
 - **Transformers（Attention）**：应用于逐笔数据、订单簿快照或跨资产相关性——2020 年后越来越流行
 
 ### 强化学习（执行与策略）
+
 - 训练智能体以优化订单执行（最小化市场冲击）或投资组合再平衡
 - DeepMind 风格的强化学习被 Goldman Sachs 和 Citadel 等公司用于最优执行
 
 ### NLP / LLM 信号
+
 - 来自财报电话会议、新闻通讯、Reddit/X（原 Twitter）的情绪
 - **DeepSeek 的母公司 High-Flyer（幻方科技）** 大量利用大型语言模型进行另类数据信号提取——他们构建 DeepSeek 的部分原因就是为了降低这些工作负载的 GPU 成本
 
@@ -93,7 +97,7 @@ High-Flyer 开创了深度学习在中国 A 股市场的应用（大约 2015 年
 ## 快速对比
 
 | 公司类型 | 主要方法 | 优势 |
-|---|---|---|
+| --- | --- | --- |
 | **Renaissance / Two Sigma** | 统计模式 + ML 集成 | 数据广度 + 信号多样性 |
 | **Jane Street / Optiver** | 做市 + 概率模型 | 微观结构专业知识 |
 | **High-Flyer (DeepSeek)** | 价格/另类数据的深度学习 | 神经网络 + GPU 规模 |
@@ -107,6 +111,7 @@ High-Flyer 开创了深度学习在中国 A 股市场的应用（大约 2015 年
 ---
 
 **参考资料：**
+
 - [Advances in Financial Machine Learning – Marcos López de Prado](https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086)
 - [Jane Street: How We Think About Markets](https://www.janestreet.com/what-we-do/)
 - [High-Flyer Capital / DeepSeek Background](https://www.reuters.com/technology/chinas-deepseek-ai-was-trained-high-flyer-quant-funds-gpu-cluster-2025-01-29/)

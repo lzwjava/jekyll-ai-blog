@@ -22,7 +22,7 @@ cargo run -- algorithm dijkstra          # names ignore case & dashes
 ## What was built — `src/algorithms/` (2,814 lines, 11 modules)
 
 | Category | Implementations |
-|---|---|
+| --- | --- |
 | **Searching** | linear, binary (iterative), BFS (queue + path reconstruct), DFS |
 | **Sorting** | bubble (early-exit), merge, **quick (Lomuto, 10k bench)**, heap (sift-down), tim (natural runs + minrun insertion + pairwise merge), radix (LSD base-256 with sign-bit XOR trick) |
 | **Graph** | Dijkstra (BinaryHeap), Bellman-Ford (+neg-cycle detect), Floyd-Warshall, Kruskal (via Union-Find), Prim, topological sort (Kahn), A\* (grid, Manhattan) |
@@ -35,6 +35,7 @@ cargo run -- algorithm dijkstra          # names ignore case & dashes
 | **Greedy** | Huffman (50% bit saving vs ASCII), activity selection, fractional knapsack |
 
 ## Verification
+
 - Every one of the **42 algorithms** was run — no panics, correct outputs (FIPS hash vector, `kitten→sitting=3`, `LCS="BCBA"`, matrix-chain `15125`, MST weight `11` from both Kruskal and Prim, karatsuba==schoolbook, etc.)
 - `src/quicksort.rs` was replaced by the new `sorting::quick_sort` (your old `algorithm quicksort` command still works)
 - README updated with the full catalog

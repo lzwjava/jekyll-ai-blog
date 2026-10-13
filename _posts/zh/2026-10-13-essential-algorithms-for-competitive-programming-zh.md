@@ -14,7 +14,7 @@ type: note
 ## 第 1 级 — 几乎每场竞赛都会用到
 
 | 算法 | 为什么需要它 | 状态 |
-|---|---|---|
+| --- | --- | --- |
 | **Binary search on answer** (parametric search) | 把“寻找最小/最大可行值”转化为 O(log) 次谓词检查 | ❌ |
 | **Two pointers / sliding window** | 在 O(n) 内解决子数组和/子数组不同元素问题 | ❌ |
 | **Prefix sums & difference arrays** | O(1) 区间和查询，O(1) 区间更新 | ❌ |
@@ -29,7 +29,7 @@ type: note
 ## 第 2 级 — 竞赛青睐的图算法
 
 | 算法 | 使用场景 |
-|---|---|
+| --- | --- |
 | **0/1 BFS** (deque) | 0/1 权重最短路，O(V+E)，相对 Dijkstra 更优 |
 | **Tarjan SCC** | 强连通分量、2-SAT、缩点图 |
 | **Bridges & articulation points** (Tarjan) | 网络中的关键边/关键点 |

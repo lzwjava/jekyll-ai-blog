@@ -16,7 +16,7 @@ type: note
 三种语言中的算法完全相同，用于对 10,000 个整数进行跨语言基准测试：
 
 | 文件 | 说明 |
-|---|---|
+| --- | --- |
 | `quicksort.py` | 递归，pivot = 最后一个元素，`i`/`j` 交换扫描；使用 `time.perf_counter()` 计时 |
 | `Quicksort.java` | 相同的 Lomuto 分区；使用种子 `Random(42)`，用 `System.nanoTime()` 计时 |
 | Rust 版本 | README 中提到（“通过 TUI 项目的主二进制文件”）——但实际已不在 `src/` 中；README 在这点上已经过时 |

@@ -24,7 +24,7 @@ Quant trading algorithms generally fall into several layers — **alpha generati
 These remain the foundation even at cutting-edge firms:
 
 | Strategy | Core Idea |
-|---|---|
+| --- | --- |
 | **Mean Reversion** | Prices deviate from equilibrium → trade back to mean (pairs trading, stat-arb) |
 | **Momentum / Trend** | Assets trending in one direction → ride the trend |
 | **Factor Models** | Fama-French style exposure to risk premia (value, size, quality, etc.) |
@@ -38,19 +38,23 @@ These remain the foundation even at cutting-edge firms:
 This is where modern quant funds (Two Sigma, DE Shaw, High-Flyer/DeepSeek) differentiate:
 
 ### Supervised Learning (Alpha Prediction)
+
 - **Tree ensembles**: XGBoost, LightGBM — industry workhorses for cross-sectional alpha; interpretable, handle non-linearity well
 - **Linear models with regularization**: LASSO/Ridge for feature selection across hundreds of signals
 - **Neural networks (MLP, ResNet)**: Tabular financial data prediction
 
 ### Sequence / Time-Series Models
+
 - **LSTM / GRU**: Capture temporal dependencies in price/volume series
 - **Transformers (Attention)**: Applied to tick data, order book snapshots, or cross-asset correlation — increasingly popular post-2020
 
 ### Reinforcement Learning (Execution & Strategy)
+
 - Train an agent to optimize order execution (minimize market impact) or portfolio rebalancing
 - DeepMind-style RL is used by firms like Goldman Sachs and Citadel for optimal execution
 
 ### NLP / LLM Signals
+
 - Sentiment from earnings calls, news wires, Reddit/X (formerly Twitter)
 - **DeepSeek's parent company High-Flyer (幻方科技)** heavily leverages large language models for alternative data signal extraction — they even built DeepSeek partly to reduce GPU costs for these workloads
 
@@ -93,7 +97,7 @@ High-Flyer pioneered deep learning in Chinese A-share markets (~2015 onward):
 ## Quick Comparison
 
 | Firm Type | Primary Approach | Edge |
-|---|---|---|
+| --- | --- | --- |
 | **Renaissance / Two Sigma** | Statistical patterns + ML ensembles | Data breadth + signal diversity |
 | **Jane Street / Optiver** | Market making + probabilistic models | Microstructure expertise |
 | **High-Flyer (DeepSeek)** | Deep learning on price/alt data | Neural nets + GPU scale |
@@ -107,6 +111,7 @@ The real "secret sauce" at all these firms isn't a single algorithm — it's the
 ---
 
 **References:**
+
 - [Advances in Financial Machine Learning – Marcos López de Prado](https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086)
 - [Jane Street: How We Think About Markets](https://www.janestreet.com/what-we-do/)
 - [High-Flyer Capital / DeepSeek Background](https://www.reuters.com/technology/chinas-deepseek-ai-was-trained-high-flyer-quant-funds-gpu-cluster-2025-01-29/)

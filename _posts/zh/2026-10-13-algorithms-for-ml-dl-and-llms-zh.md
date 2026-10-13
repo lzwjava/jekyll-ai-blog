@@ -14,7 +14,7 @@ type: note
 ## 🤖 机器学习（传统）
 
 | 类别 | 算法 |
-|---|---|
+| --- | --- |
 | **回归** | Linear Regression, Ridge, Lasso, ElasticNet |
 | **分类** | Logistic Regression, SVM, k-NN, Naive Bayes, Decision Tree |
 | **集成学习** | Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost) |
@@ -26,7 +26,7 @@ type: note
 ## 🧠 深度学习
 
 | 类别 | 算法 / 架构 |
-|---|---|
+| --- | --- |
 | **前馈** | MLP (Multi-Layer Perceptron) |
 | **卷积** | CNN, ResNet, VGG, EfficientNet, Vision Transformer (ViT) |
 | **循环** | RNN, LSTM, GRU |
@@ -39,7 +39,7 @@ type: note
 ## 🌐 大型语言模型（LLMs）
 
 | 类别 | 关键概念 / 技术 |
-|---|---|
+| --- | --- |
 | **核心架构** | Transformer (Encoder-Decoder, Decoder-only) |
 | **预训练** | Next Token Prediction (CLM), Masked Language Modeling (MLM) |
 | **微调** | Supervised Fine-Tuning (SFT), RLHF, DPO, LoRA, QLoRA |
@@ -62,6 +62,7 @@ Generative       → GAN / VAE / LLM
 ```
 
 参考链接：
+
 - [Scikit-learn: Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/)
 - [Deep Learning Book – Goodfellow et al.](https://www.deeplearningbook.org/)
 - [Attention Is All You Need (Transformer paper)](https://arxiv.org/abs/1706.03762)

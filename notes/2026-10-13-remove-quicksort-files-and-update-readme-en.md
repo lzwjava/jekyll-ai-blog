@@ -12,6 +12,7 @@ type: note
 Done.
 
 **Removed:**
+
 - `Quicksort.java`
 - `quicksort.py`
 

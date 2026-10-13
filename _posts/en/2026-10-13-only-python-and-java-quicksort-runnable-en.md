@@ -14,11 +14,14 @@ Right now, only the Python and Java versions are runnable — there's **no quick
 ## Working commands today
 
 **Python:**
+
 ```bash
 cd /home/lzw/projects/ll
 python3 quicksort.py
 ```
+
 Output looks like:
+
 ```
 Before: [...] 
 After:  [...] 
@@ -26,10 +29,12 @@ Sorted 10000 numbers in X.XXX ms
 ```
 
 **Java:**
+
 ```bash
 javac Quicksort.java
 java Quicksort
 ```
+
 (Only needs `javac`/`java` on PATH; no build tooling.)
 
 **Rust:** not available — there's no `bench`/`quicksort` subcommand wired into `main.rs`.

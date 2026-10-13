@@ -14,7 +14,7 @@ Good question — your current catalog covers the *textbook/classroom* set, but 
 ## Tier 1 — Used in almost every contest
 
 | Algorithm | Why you need it | Status |
-|---|---|---|
+| --- | --- | --- |
 | **Binary search on answer** (parametric search) | Turns "find min/max feasible value" into O(log) predicate checks | ❌ |
 | **Two pointers / sliding window** | Subarray sum/subarray distinct problems in O(n) | ❌ |
 | **Prefix sums & difference arrays** | Range-sum queries in O(1), range updates in O(1) | ❌ |
@@ -29,7 +29,7 @@ Good question — your current catalog covers the *textbook/classroom* set, but 
 ## Tier 2 — Graph algorithms contests love
 
 | Algorithm | Use case |
-|---|---|
+| --- | --- |
 | **0/1 BFS** (deque) | Shortest path with 0/1 weights, O(V+E) vs Dijkstra |
 | **Tarjan SCC** | Strongly connected components, 2-SAT, condensation graphs |
 | **Bridges & articulation points** (Tarjan) | Critical edges/nodes in networks |

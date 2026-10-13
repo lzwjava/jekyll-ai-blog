@@ -22,7 +22,7 @@ cargo run -- algorithm dijkstra          # 名称忽略大小写和连字符
 ## 构建内容 — `src/algorithms/`（2,814 行，11 个模块）
 
 | 类别 | 实现 |
-|---|---|
+| --- | --- |
 | **搜索** | linear, binary (iterative), BFS (queue + path reconstruct), DFS |
 | **排序** | bubble (early-exit), merge, **quick (Lomuto, 10k bench)**, heap (sift-down), tim (natural runs + minrun insertion + pairwise merge), radix (LSD base-256 with sign-bit XOR trick) |
 | **图** | Dijkstra (BinaryHeap), Bellman-Ford (+neg-cycle detect), Floyd-Warshall, Kruskal (via Union-Find), Prim, topological sort (Kahn), A\* (grid, Manhattan) |
