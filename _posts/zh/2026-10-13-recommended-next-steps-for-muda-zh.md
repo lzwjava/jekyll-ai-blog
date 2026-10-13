@@ -19,6 +19,7 @@ type: note
 
 **路线 A——纯粹派：掌控执行路径。**
 用直接与驱动/硬件通信的原生后端替换 OpenCL 后端。这是“使用 muda 驱动”的“真正”答案，但属于研究级别：
+
 - 绑定 `nouveau` 而非 `nvidia`，使用 `drm_nouveau` GEM + 计算通道，构建 pushbuffer。
 - 你还需要 SASS：要么手写 Maxwell 指令，要么复用 Mesa 的 `nv50_ir`/OpenCL 二进制容器。
 - **风险：** 解绑 `nvidia` 会破坏你正在工作的 ComfyUI/llama.cpp 环境，直到重启。我只会在备用机器上或使用经过测试的恢复脚本来做这件事。
@@ -30,15 +31,18 @@ type: note
 ## 我接下来实际会做什么（路线 B，推荐）
 
 **里程碑 1——让它有用（价值最高，约 1 次会话）**
+
 - `mudaBLAS`：调优的 `SGEMM`/`SGEMV`（tile + 寄存器分块，`float4` 向量化）。
 - 基准测试套件 vs. 朴素实现，跟踪 GB/s 和 GFLOP/s。
 - 一个真实演示：在 M40 上使用 muda + mudaBLAS 端到端训练一个小型 MLP（或 mini-GPT）。
 
 **里程碑 2——让它成为即插即用（约 1 次会话）**
+
 - 在 muda 之上实现 CUDA **运行时** API 名称作为 shim（`cudaMalloc`、`cudaMemcpy`、`cudaLaunchKernel`、`cudaDeviceSynchronize`...），这样现有的单文件 `.cu` 示例可以**不加修改**地针对 `muda.h` 编译。
 - 通过 `ctypes` 提供 Python 绑定 + 近似零拷贝的 numpy 互操作。
 
 **里程碑 3——原生实验（可选，独立分支）**
+
 - 从一个*安全*的实验开始：`driver_opencl_exec` 混合模式，其中 OpenCL 仅用作**编译器**（`clGetProgramInfo(CL_PROGRAM_BINARIES)` → SASS），而 muda 通过 `nouveau` 拥有分配和提交。这通过保留 OpenCL 用于代码生成来降低路线 A 的风险。
 - 将其放在一个分支上，并带有 `unbind/rebind` 辅助脚本和经过测试的恢复路径。
 

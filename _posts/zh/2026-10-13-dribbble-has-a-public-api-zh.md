@@ -23,5 +23,6 @@ type: note
 - **协议：** 仅支持 HTTPS；CORS 支持未记录在案，因此如果你在浏览器中遇到跨域错误，请尝试从你的服务器调用 API。
 
 **参考资料：**
+
 - [Dribbble Developer Portal](https://developer.dribbble.com)
 - [API Bouncer – Dribbble](https://www.apibouncer.com/apis/1190/dribbble)

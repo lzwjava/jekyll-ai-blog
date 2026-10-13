@@ -14,6 +14,7 @@ Pushed as **`muda 0.7.0`** (`8bb848f`).
 ## What this round added
 
 **`driver_cpu`** (`src/driver_cpu.c`) — a second, fully pluggable backend:
+
 - Implements the entire memory/context/stream/event surface over host memory.
 - Kernel launch returns `mudaErrorNotSupported` (clearly a reference backend).
 - `MUDA_DRIVER=cpu` selects it; if OpenCL is missing, `mudaInit` now **auto-falls back** to it, so `muda` always initializes.

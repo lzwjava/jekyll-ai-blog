@@ -19,6 +19,7 @@ Good question. Here's how I'd think about it, given where `muda 0.2.0` is now.
 
 **Track A — Purist: own the execution path.**
 Replace the OpenCL backend with a native one that talks to the driver/hardware directly. This is the "real" answer to "use the muda driver," but it's research-grade:
+
 - Bind `nouveau` instead of `nvidia`, use `drm_nouveau` GEM + a compute channel, build pushbuffers.
 - You'd also need SASS: either hand-write Maxwell instructions or reuse Mesa's `nv50_ir`/an OpenCL binary container.
 - **Risk:** unbinding `nvidia` breaks your working ComfyUI/llama.cpp setup until reboot. I'd only do this on a spare machine or with a tested restore script.
@@ -30,15 +31,18 @@ Keep the OpenCL backend, but build the things people actually want on an M40: a 
 ## What I'd actually do next (Track B, recommended)
 
 **Milestone 1 — Make it useful (highest value, ~1 session)**
+
 - `mudaBLAS`: tuned `SGEMM`/`SGEMV` (tile + register blocking, `float4` vectorization).
 - Benchmark suite vs. naive, track GB/s and GFLOP/s.
 - A real demo: train a tiny MLP (or a mini-GPT) end-to-end on the M40 using muda + mudaBLAS.
 
 **Milestone 2 — Make it drop-in (~1 session)**
+
 - CUDA **runtime** API names as a shim (`cudaMalloc`, `cudaMemcpy`, `cudaLaunchKernel`, `cudaDeviceSynchronize`...) implemented on top of muda, so existing single-file `.cu` examples compile **unchanged** against `muda.h`.
 - Python bindings via `ctypes` + zero-copy-ish numpy interop.
 
 **Milestone 3 — Native spike (optional, separate branch)**
+
 - Start with a *safe* experiment: a `driver_opencl_exec` hybrid where OpenCL is used only as a **compiler** (`clGetProgramInfo(CL_PROGRAM_BINARIES)` → SASS), and muda owns allocation + submission through `nouveau`. This de-risks Track A by keeping OpenCL for codegen.
 - Keep it on a branch, with an `unbind/rebind` helper and a tested recovery path.
 

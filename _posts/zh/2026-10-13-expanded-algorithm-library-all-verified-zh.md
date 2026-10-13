@@ -14,6 +14,7 @@ type: note
 ## 新增内容（秉承刘汝佳《算法竞赛入门经典》/《训练指南》精神的竞赛经典）
 
 **几何**（`src/algorithms/geometry.rs`）— 从 1 个扩展到 6 个：
+
 - `segment-intersection` — 方向/线段上测试；与 2001 个点的距离采样交叉验证
 - `point-in-polygon` — 射线投射法与环绕数法对比，并与手工验证答案核对，包含边界处理
 - `closest-pair` — 分治 O(n log n)，与在 79 800 对点上的暴力求解结果完全一致

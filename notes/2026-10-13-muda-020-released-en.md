@@ -14,26 +14,31 @@ Pushed as **`muda 0.2.0`** (`67ae082`). Here's what got added.
 ## New API surface
 
 **Runtime / devices**
+
 - `mudaSetDevice`, `mudaGetDevice`, `mudaDeviceGetName`, `mudaDeviceGetAttribute` (23 attributes), `mudaDeviceGetPCIBusId`, `mudaDeviceReset`
 - `mudaRuntimeGetVersion`, `mudaDriverGetVersion`, `mudaCtxGetDevice`
 
 **Memory**
+
 - `mudaMallocHost`, `mudaFreeHost`, `mudaHostGetDevicePointer`
 - `mudaMemGetInfo`, `mudaPointerGetAttributes` + a full allocation registry that tracks every device/host allocation
 - `mudaMemcpy2D` / `mudaMemcpy2DAsync`, `mudaMemsetD8`, `mudaMemsetD32`
 - `mudaMemAdvise`, `mudaMemPrefetchAsync` (documented no-ops)
 
 **Modules / launch**
+
 - `mudaFuncGetAttributes` (work-group size, local/private memory)
 - `mudaLaunchKernelEx` + full packed `extra[]` argument support (`MUDA_LAUNCH_PARAM_BUFFER_POINTER/SIZE`)
 - `mudaOccupancyMaxActiveBlocksPerMultiprocessor`
 
 **Streams / events**
+
 - `mudaStreamCreateWithFlags`, `mudaStreamQuery`, `mudaStreamWaitEvent`
 - `mudaEventCreateWithFlags`, `mudaEventQuery`
 - Streams are now wrapper objects tracking their last `cl_event`, so non-blocking `Query` actually works
 
 ## Driver internals
+
 - Extended the `muda_driver` vtable with ~15 new operations
 - Stream wrapper + per-stream event tracking for query/wait
 - Packed-argument unpacking with natural alignment

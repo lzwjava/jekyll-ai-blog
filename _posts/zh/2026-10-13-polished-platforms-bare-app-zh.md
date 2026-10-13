@@ -12,11 +12,13 @@ type: note
 仓库当前状态（`main` 分支，工作区干净，且与 `origin/main` 保持同步）：
 
 **应用代码 —— 基本上处于起步阶段**
+
 - `lib/main.dart` 是唯一的 Dart 文件 —— 一个只有 "Hello World!" 的 MaterialApp。
 - 依赖项 `flutter_markdown`、`path_provider`、`yaml` 已在 `pubspec.yaml` 中声明，但代码中尚未使用其中任何一个。
 - 旧的博客文章（`assets/_posts/*.md`，包括英文和中文）早在 2024 年 12 月就被删除了，而且 `pubspec.yaml` 中没有注册 `assets:` 部分。
 
 **近期工作（最近几次提交）—— 平台/配置打磨**
+
 - `bc085e6` — 更新了 Web 应用图标（Icon-192、Icon-512）
 - `63159d6` — 添加了 iOS 开发团队，更新了 Xcode scheme
 - `90a6159` / `0804f1b` — 将 iOS 部署目标提升到 16.0，添加了 Podfile.lock

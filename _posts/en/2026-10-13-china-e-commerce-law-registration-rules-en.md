@@ -22,6 +22,7 @@ China's E-Commerce Law was promulgated on August 31, 2018 and came into effect o
 **Registration Requirement (Article 10)**
 
 E-commerce operators are required to register themselves as market subjects under the law — *except* for:
+
 - Individuals selling self-produced agricultural products or byproducts
 - Individuals selling family handicrafts
 - Individuals using their own skills for labor convenience services (e.g. tutoring, small repairs)
@@ -46,6 +47,7 @@ Until further notice (and until "low-value transactions" are more explicitly def
 On July 4, 2026, China's SAMR and MOFCOM opened a 20-provision draft amendment to the 2019 E-Commerce Law for public comment. The draft does not scrap the existing law — it expands its scope.
 
 Key changes proposed:
+
 - Merchants would face **clearer requirements** relating to business registration, licensing, tax compliance, and the provision of accurate and truthful information about products and services.
 - Enhanced platform responsibilities: e-commerce platforms would have greater responsibility for **verifying sellers**, monitoring products, and taking action on illegal or non-compliant items.
 - Social media, livestreaming commerce, and content-commerce platforms (e.g. short video sellers) would be **explicitly included** under the E-Commerce Law's scope.
@@ -57,7 +59,7 @@ The two authorities (SAMR and MOFCOM) said they will optimize the draft in light
 **Summary Table**
 
 | Seller Type | Registration Required? |
-|---|---|
+| --- | --- |
 | Regular online store (selling goods) | ✅ Yes (个体工商户 or company) |
 | Daigou / reseller | ✅ Yes |
 | Self-produced farm products | ❌ Exempt |
@@ -67,6 +69,7 @@ The two authorities (SAMR and MOFCOM) said they will optimize the draft in light
 ---
 
 **References:**
+
 - [China's Proposed Amendments to 2019 E-Commerce Law (MFAT, July 2026)](https://www.mfat.govt.nz/en/trade/mfat-market-reports/chinas-proposed-amendments-to-its-2019-e-commerce-law)
 - [China E-Commerce Law – INTA Analysis, Aug 2026](https://www.inta.org/?p=73635)
 - [China Draft Amendment – Xinhua / CTILS](https://en.ctils.com/en/articles/6017)

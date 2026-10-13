@@ -16,7 +16,7 @@ I have a clear picture now. Here's what I found and what I recommend, in priorit
 The CI3→CI4 migration **silently replaced your real payment SDKs with safe-fail stubs**:
 
 | | CI3 (real) | CI4 (current) |
-|---|---|---|
+| --- | --- | --- |
 | `Alipay.php` | 85 lines, real RSA signing + config load | 56-line **stub** → returns *"Alipay not configured"* |
 | `WxPay.php` | 167 lines, real API integration | 87-line **stub** → returns *"WxPay not configured"* |
 | `WxPayCallback.php` | real callback handling | **stub** |
@@ -41,9 +41,11 @@ The real CI3 code still exists in `application_ci3/libraries/{alipay,wx}/`, so i
 **7. LeanCloud** — External, but blocks live creation. Restore the archived app in the LeanCloud console.
 
 ## My suggestion
+
 Start with **#1 (payments)** since it's the core business function and the only item that's a real regression rather than config. **#2 and #3** are 5-minute fixes I can do immediately alongside.
 
 Want me to:
+
 - **(A)** Start porting the CI3 payment SDKs now (the big one)?
 - **(B)** Do the quick wins first — rebuild image + fix prod debug config (#2, #3)?
 - **(C)** Both in parallel?

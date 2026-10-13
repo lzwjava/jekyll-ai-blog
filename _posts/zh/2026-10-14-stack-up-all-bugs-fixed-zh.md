@@ -14,6 +14,7 @@ type: note
 ## 我做了什么
 
 **1. 启动了技术栈**（从 Docker 挂载的可运行工作区副本 `~/.openclaw/workspace/live-server` 启动）：
+
 - 全部 4 个容器均健康：`app`（PHP 8.5-FPM）、`database`（MySQL 5.7）、`redis`、`web`（nginx on :8088）。
 
 **2. 全面检查了每个端点** — 所有 96 个 GET 路由 + 认证/直播写入流程。发现 **10 个端点故障 + 7 个潜在 bug**，全部可追溯到 CI3→CI4 的语义差异。
@@ -21,11 +22,13 @@ type: note
 ## 发现并修复的 bug
 
 **数据库层**
+
 - `BaseDao` 字段前缀有一个尾部点（`'users.'`），而 `mergeFields()` 会添加自己的点 → 生成无效 SQL `SELECT users..userId`。导致 `/users/:id` 被破坏。
 - 关联数组绑定：CI3 的 `compile_binds()` 内部调用了 `array_values()`，因此关联数组绑定按位置工作；CI4 将字符串键名的绑定视为*命名*绑定（`:name`），因此 `WHERE x=?` 没有被替换 → 语法错误。已在 `RewardDao`、`CouponDao`、`WithdrawDao` 中修复。
 - 控制器上缺少 `$this->db`；CI3 的 `trans_begin`/`affected_rows` → CI4 的 `transBegin`/`affectedRows`（16 处）。
 
 **库 / 配置**
+
 - `JSSDK`：`env('WECHAT_API_BASE'/'CGIBIN')` 是 **null**（它们是常量，不是环境变量）→ 所有 WeChat URL 都变成了相对路径。这就是 WeChat 此前报 `curl error'd` 的原因。
 - `JSSDK`：缺少 `addNews`/`uploadImg`/`sendMassMsg`；`code` 参数可空（缺少 `?code=` 会导致 TypeError）。
 - `WeChatClient::httpPost` 静默地**丢弃了 POST 请求体**，并且没有追加查询字符串。
@@ -34,6 +37,7 @@ type: note
 - `Dockerfile` 配置了 GD，但从未安装它。
 
 **控制器**
+
 - `logout`（PHP 原生 `session_unset` 无法被覆盖）、`notifyLiveStartRecommend`（空值保护让 null 传到了 SQL）、`invitationCard`（未定义的 `phpInfo`）、`login` 和 `uploadImg`（空值解引用 → 500）。
 
 ## 验证通过
@@ -48,6 +52,7 @@ type: note
 - **两个工作副本现在完全一致**：主 git 仓库 `/home/lzw/projects/live-server`（2 个新提交，干净）和实际运行的工作区副本。我创建的测试用户已清理干净。
 
 **提交**（在 `master` 分支上，未推送）：
+
 - `41c879c` — CI4 迁移的主要 bug 修复（24 个文件）
 - `3383cdb` — login 和 uploadImg 中的空值解引用保护
 

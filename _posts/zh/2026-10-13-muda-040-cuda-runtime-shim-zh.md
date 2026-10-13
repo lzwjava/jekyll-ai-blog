@@ -16,6 +16,7 @@ type: note
 **`mudart` — CUDA runtime API 适配层**（`include/mudart.h`、`src/mudart.c`）
 
 将 CUDA **runtime** 名称映射到 muda：
+
 - 内存：`cudaMalloc/Free`、`cudaMallocHost`、`cudaHostAlloc`、`cudaFreeHost`、`cudaMemcpy/Async/2D`、`cudaMemset`、`cudaMemGetInfo`
 - 设备：`cudaGetDeviceCount/Get/Set`、`cudaGetDeviceProperties`（真实的 CUDA 结构 `cudaDeviceProp`）、`cudaDeviceSynchronize/Reset`
 - 流/事件：`cudaStream*`、`cudaEvent*`
@@ -23,6 +24,7 @@ type: note
 - 启动桥接：`dim3`、`cudaLaunchKernel((const void*)fn, grid, block, args, shared, stream)`，以及旧的 `cudaConfigureCall` / `cudaSetupArgument` / `cudaLaunch` 序列
 
 **Python 绑定**（`python/muda.py`）—— 纯 `ctypes`，无需构建步骤：
+
 - `muda.init()`、`device_info()`、`Module`、`Function`、`DeviceBuffer`（与 numpy 互操作）、`Stream`、`Event`
 - `muda.matmul` / `gemm` / `gemm_buffers` / `gemv` / `saxpy`，由 mudaBLAS 提供支持
 - 演示：`python/demo_kernel.py`（加载并启动内核）、`python/demo_matmul.py`（基准测试）
@@ -48,11 +50,15 @@ make python PYTHON=.venv/bin/python
 ## 建议的下一步（里程碑 3）
 
 实现“直接替换”剩下的差距是 `<<<...>>>` 启动语法，这需要一个前端。我会实现一个小的 **`mudac` 预处理器**，将以下内容重写：
+
 ```c
 kernel<<<grid, block, shared, stream>>>(a, b, c, n);
 ```
+
 为
+
 ```c
 { void* _a[] = {&a,&b,&c,&n}; cudaLaunchKernel((void*)kernel, grid, block, _a, shared, stream); }
 ```
+
 这样普通的 `.cu` 文件可以通过 `mudac prog.cu | cc -x c - -lmuda` 不加修改地编译。你想让我先实现这个，还是继续推进原生的 `nouveau` 后端？

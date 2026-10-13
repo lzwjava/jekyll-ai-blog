@@ -14,6 +14,7 @@ All done — **58 → 80 algorithms**, all passing their built-in verifications.
 ## What was added (contest classics in the spirit of 刘汝佳《算法竞赛入门经典》/《训练指南》)
 
 **Geometry** (`src/algorithms/geometry.rs`) — expanded from 1 → 6:
+
 - `segment-intersection` — orientation/on-segment tests; cross-checked against a 2001-point distance sampler
 - `point-in-polygon` — ray casting vs. winding number vs. hand-checked answers, boundary handling
 - `closest-pair` — divide & conquer O(n log n), identical to brute force over 79 800 pairs

@@ -16,6 +16,7 @@ Pushed as **`muda 0.6.0`** (`aca4fe6`).
 I chose to harden the current stack rather than risk the native driver (unbinding `nvidia` would break your working ComfyUI/llama setup, and the Maxwell compute path is a multi-week effort).
 
 **Expanded CUDA source compatibility** (`src/muda_translate.c`):
+
 - Qualifiers: `__launch_bounds__(...)`, `__forceinline__`, `__inline__`, `__noinline__`, `__device_builtin__`, `__align__(...)`
 - Math intrinsics: `fmaf`, `__expf`, `__exp10f`, `__logf`, `__log2f`, `__log10f`, `__powf`, `__sinf`, `__cosf`, `__tanf`, `__sqrtf`, `rsqrtf`, `__fdividef`, `__saturatef`, `__ldg`
 - Atomics: `atomicAdd`, `atomicExch`, `atomicMax`, `atomicMin`, `atomicCAS` for `int`, `unsigned int`, `unsigned long`, **and `float`** (compare-and-swap loop)
@@ -44,6 +45,7 @@ That's **69 checks + 3 mudac programs**, all green. Python binding still runs (S
 ## Where to go next
 
 Options, in order of how safely completable they are:
+
 1. **`driver_cpu`** — a memory-only reference backend (returns `NotSupported` for launches) so `mudainfo`/API tests run GPU-less. Quick.
 2. **A reduction example** in normal `.cu` through `mudac`, using the new `atomicAdd` — a nice showcase.
 3. **Native `nouveau` spike** — the true "no NVIDIA user space" path, on a throwaway/rebindable setup (I won't touch your live driver without explicit go-ahead).

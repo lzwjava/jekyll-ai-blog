@@ -18,7 +18,7 @@ type: note
 ### 🤖 机器学习 — `mlkit ml <algo>`（20 个算法 + `bench`）
 
 | 类别 | 实现 | 文件 |
-|---|---|---|
+| --- | --- | --- |
 | 回归 | OLS（SVD）、Ridge（闭式解）、Lasso 和 ElasticNet（坐标下降，sklearn 风格 α） | `ml/linear.py` |
 | 分类 | Logistic（小批量梯度下降）、SVM（Pegasos 次梯度 + **Platt SMO**，带 RBF/多项式核）、k-NN、高斯朴素贝叶斯与多项式朴素贝叶斯 | `ml/logistic.py`, `svm.py`, `knn.py`, `naive_bayes.py` |
 | 树/集成 | CART（gini/entropy/mse）、随机森林（bagging + OOB 分数）、梯度提升（Friedman）、**XGBoost**（Newton gain、λ/α、min_child_weight） | `ml/tree.py`, `boosting.py` |
@@ -35,7 +35,7 @@ type: note
 ### 🌐 LLM — `mlkit llm <cmd>`（14 个命令）
 
 | 主题 | 实现与实测结果 |
-|---|---|
+| --- | --- |
 | Tokenizers | Char + **从零训练的 BPE**（学习合并、▁ 词标记）——完美往返 |
 | 预训练 | 仅解码器 **Transformer**，两个目标：**CLM**（验证 ppl 33 → **1.8**）和 **MLM** |
 | 解码 | 贪心、**temperature、top-k、top-p、beam search**（`llm generate --beam 4`） |
@@ -48,6 +48,7 @@ type: note
 | Agents | **ReAct**（Thought→Action→Observation）和 **CoT** 循环，带有可用的 calculator/convert/search 工具 |
 
 ### 验证
+
 ```
 59/59 CLI commands pass   |   79/79 pytest tests pass   |   gradcheck 10/10
 ```

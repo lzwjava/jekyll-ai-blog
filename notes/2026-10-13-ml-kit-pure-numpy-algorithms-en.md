@@ -18,7 +18,7 @@ All done. Here's what I built:
 ### 🤖 Machine Learning — `mlkit ml <algo>` (20 algorithms + `bench`)
 
 | Category | Implementations | Files |
-|---|---|---|
+| --- | --- | --- |
 | Regression | OLS (SVD), Ridge (closed form), Lasso & ElasticNet (coordinate descent with sklearn-style α) | `ml/linear.py` |
 | Classification | Logistic (mini-batch GD), SVM (Pegasos subgradient + **Platt SMO** with RBF/poly kernels), k-NN, Gaussian & Multinomial Naive Bayes | `ml/logistic.py`, `svm.py`, `knn.py`, `naive_bayes.py` |
 | Trees/Ensembles | CART (gini/entropy/mse), Random Forest (bagging + OOB score), Gradient Boosting (Friedman), **XGBoost** (Newton gain, λ/α, min_child_weight) | `ml/tree.py`, `boosting.py` |
@@ -35,7 +35,7 @@ All done. Here's what I built:
 ### 🌐 LLMs — `mlkit llm <cmd>` (14 commands)
 
 | Topic | Implementation & measured result |
-|---|---|
+| --- | --- |
 | Tokenizers | Char + **BPE trained from scratch** (merge learning, ▁ word markers) — perfect round-trip |
 | Pre-training | Decoder-only **Transformer**, both objectives: **CLM** (val ppl 33 → **1.8**) and **MLM** |
 | Decoding | greedy, **temperature, top-k, top-p, beam search** (`llm generate --beam 4`) |
@@ -48,6 +48,7 @@ All done. Here's what I built:
 | Agents | **ReAct** (Thought→Action→Observation) & **CoT** loops with working calculator/convert/search tools |
 
 ### Verification
+
 ```
 59/59 CLI commands pass   |   79/79 pytest tests pass   |   gradcheck 10/10
 ```

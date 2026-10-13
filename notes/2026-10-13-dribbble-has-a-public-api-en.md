@@ -23,5 +23,6 @@ Here are the key details:
 - **Protocol:** HTTPS only; CORS support is not documented, so if you get cross-origin errors in the browser, try calling the API from your server instead.
 
 **References:**
+
 - [Dribbble Developer Portal](https://developer.dribbble.com)
 - [API Bouncer – Dribbble](https://www.apibouncer.com/apis/1190/dribbble)

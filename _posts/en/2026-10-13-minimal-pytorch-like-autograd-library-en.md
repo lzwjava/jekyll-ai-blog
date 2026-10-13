@@ -25,13 +25,16 @@ examples/               01_xor, 02_linear_regression, 03_mnist_cnn (real MNIST, 
 ```
 
 ## How it works
+
 Each `Tensor` wraps a numpy array and records `_parents` + a `_backward(grad)` closure. `backward()` does one topological pass; each closure accumulates `parent.grad += partial` with correct broadcasting reduction (`_unbroadcast`), duplicate-index handling (`np.add.at`), and col2im scatter for conv. Everything else is sugar on top.
 
 ## Verified
+
 - **Every op** (`+ - * / ** @`, matmul incl. batched/1-D mixes, reductions, softmax, shape ops, slicing, gather, cat/stack/where, im2col, conv, maxpool, batchnorm, both losses) checked against **central finite differences** — including the subtle ones I debugged along the way (broadcasting of reduced axes in `sum/max` backprop, no_grad flag sharing, and a real `Module.__call__` bug that silently fed row-splices into layers).
 - **Real training**: XOR 100%, linear regression to 1e-12 loss, synthetic CNN 100%, and **real MNIST → 98.3% test accuracy in 3 epochs (~2 min on CPU)**.
 
 ## Try it
+
 ```bash
 python3 tests/test_autograd.py     # gradient checks
 python3 examples/03_mnist_cnn.py --epochs 3

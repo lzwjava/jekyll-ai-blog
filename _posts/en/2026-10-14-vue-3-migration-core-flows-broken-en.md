@@ -14,6 +14,7 @@ Working tree is clean (probe removed, dev server stopped). Here's the full asses
 ## Current progress
 
 **Completed (committed, `6fc4b76`):**
+
 - **Vite + Vue 3 migration scaffold done**: `src/main.js` (`createApp`), `src/router/index.js` (vue-router 4, hash history, all 21 routes + catch-all redirect), root `index.html`, `public/` assets, `vite.config.js` (alias `@`, stylus imports, dev proxy), `.env.production`.
 - **All ~50 SFCs converted to `<script setup>`**: zero Vue 2 remnants (`new Vue`, `filters:`, `.sync`, `slot-scope`, `this.$set`, `beforeDestroy` — no hits).
 - **Build & dev both work**: `npm run build` succeeds (1.7s, output → `static/`), `npm run dev` serves on :5173.

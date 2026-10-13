@@ -16,7 +16,7 @@ Milestone 1 已完成并推送为 **`muda 0.3.0`**（`51f504c`）。
 **`mudaBLAS`**（`include/mudablas.h`、`src/mudablas.c`）——muda 上的 row-major 线性代数：
 
 | | |
-|---|---|
+| --- | --- |
 | `mudaSgemm` | shared-memory tiled，64×64 block，4×4/thread，全部四种 transpose 组合 |
 | `mudaSgemmNaive` | one-thread-per-element 参考实现 |
 | `mudaSgemv` | transpose-aware |

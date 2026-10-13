@@ -15,6 +15,7 @@ type: note
 - **已推送** 到 `github.com:lzwjava/itorch.git`（`main` 分支上的 `8b7d333..d19ef9c`）
 
 历史记录：
+
 ```
 fb588c4  itorch：极简 autograd 深度学习库（tinygrad 风格，仅 numpy）     [v0.1.0]
 0ac3959  itorch 0.2.0：transformer/RNN 支持、调度器、gradcheck 测试套件   [v0.2.0]

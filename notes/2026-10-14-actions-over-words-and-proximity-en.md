@@ -22,6 +22,7 @@ Some people are physically close to us. We meet them, talk to them, have dinner 
 But when we need something concrete—an opportunity, a contract, technical knowledge, a customer introduction, or practical help—they might offer nothing.
 
 Meanwhile, someone we've never met in person might:
+
 - Trust our work and give us a project.
 - Share valuable knowledge freely.
 - Introduce us to a potential customer.
@@ -39,7 +40,7 @@ You said something important: it isn't just about whether people trust us or wha
 Imagine three people:
 
 | Person | What they say or seem to think | What they actually do |
-|---|---|---|
+| --- | --- | --- |
 | A | Says they believe in you | Never offers any concrete support |
 | B | Doesn't express much enthusiasm | Gives you a valuable customer introduction |
 | C | Has never met you in person | Trusts you with a paid project |
@@ -54,7 +55,7 @@ One qualification matters: **not helping you doesn't necessarily mean someone do
 
 Therefore, evaluate people's actual contributions without pretending you can read their minds.
 
-### 3. Nobody owes us an opportunity. We should appreciate those who give us one.
+### 3. Nobody owes us an opportunity. We should appreciate those who give us one
 
 This is perhaps the most important part of your observation.
 
@@ -71,6 +72,7 @@ You shouldn't resent the old acquaintance for not giving you business. They have
 But you should recognize what the new customer has done.
 
 They have provided more than money. They've given you:
+
 - An opportunity to demonstrate your capabilities.
 - A chance to create economic value.
 - Evidence that someone is willing to trust your work.
@@ -87,6 +89,7 @@ There's a subtle distinction here.
 You should appreciate people who help you, but you don't need to maintain a rigid accounting system in which every favor must be repaid.
 
 A healthier approach is to remember:
+
 - Who gave you a chance when you were unproven.
 - Who shared knowledge without demanding anything in return.
 - Who treated you fairly when you had little bargaining power.

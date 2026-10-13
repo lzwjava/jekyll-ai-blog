@@ -35,7 +35,7 @@ BEGIN; insert; SIGKILL → recover → 0 rows  ← uncommitted txn correctly los
 ## 当前状况与后续计划
 
 | | |
-|---|---|
+| --- | --- |
 | ✅ | SQL 功能：JOIN、聚合、ALTER、运算符、DISTINCT |
 | ✅ | 原子批量操作 + 交互式事务 |
 | ✅ | WAL 持久性 + 崩溃恢复 + 检查点 |

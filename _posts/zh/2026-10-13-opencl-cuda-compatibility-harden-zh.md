@@ -16,6 +16,7 @@ type: note
 我选择加固当前技术栈，而不是冒险使用原生驱动（解绑 `nvidia` 会破坏你正在使用的 ComfyUI/llama 环境，而且 Maxwell 计算路径需要数周工作）。
 
 **扩展 CUDA 源码兼容性**（`src/muda_translate.c`）：
+
 - 限定符：`__launch_bounds__(...)`、`__forceinline__`、`__inline__`、`__noinline__`、`__device_builtin__`、`__align__(...)`
 - 数学内建函数：`fmaf`、`__expf`、`__exp10f`、`__logf`、`__log2f`、`__log10f`、`__powf`、`__sinf`、`__cosf`、`__tanf`、`__sqrtf`、`rsqrtf`、`__fdividef`、`__saturatef`、`__ldg`
 - 原子操作：`atomicAdd`、`atomicExch`、`atomicMax`、`atomicMin`、`atomicCAS`，支持 `int`、`unsigned int`、`unsigned long`，**以及 `float`**（比较-交换循环）
@@ -44,6 +45,7 @@ make test
 ## 下一步方向
 
 可选方案，按可安全完成的程度排序：
+
 1. **`driver_cpu`** —— 一个纯内存的参考后端（启动时返回 `NotSupported`），让 `mudainfo`/API 测试可以在无 GPU 环境下运行。很快。
 2. **一个归约示例**，用普通 `.cu` 通过 `mudac`，使用新的 `atomicAdd` —— 很好的展示。
 3. **原生 `nouveau` spike** —— 真正的“无 NVIDIA 用户空间”路径，在可抛弃/可重新绑定的环境中进行（未经你明确同意，我不会碰你的活动驱动）。

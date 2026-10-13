@@ -12,11 +12,13 @@ type: note
 Current state of the repo (branch `main`, clean, up to date with `origin/main`):
 
 **App code — essentially at square one**
+
 - `lib/main.dart` is the only Dart file — a bare "Hello World!" MaterialApp.
 - Dependencies `flutter_markdown`, `path_provider`, `yaml` are declared in `pubspec.yaml`, but none are used in code yet.
 - The old blog posts (`assets/_posts/*.md`, both EN and ZH) were deleted back in Dec 2024, and no `assets:` section is registered in `pubspec.yaml`.
 
 **Recent work (last few commits) — platform/config polish**
+
 - `bc085e6` — updated web app icons (Icon-192, Icon-512)
 - `63159d6` — added iOS development team, updated Xcode scheme
 - `90a6159` / `0804f1b` — bumped iOS deployment target to 16.0, added Podfile.lock

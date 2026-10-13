@@ -14,7 +14,7 @@ type: note
 ## 新增内容（v0.2）
 
 | 功能 | 之前 | 现在 |
-|---|---|---|
+| --- | --- | --- |
 | **JOIN** | ✗ | INNER JOIN，支持对称的 `"on"` 列映射、限定的 `users.name` / `orders.total` 引用 |
 | **聚合** | ✗ | count/sum/avg/min/max + `GROUP BY`（`{"op":"aggregate",...}`） |
 | **WHERE 操作** | gt/gte/lt/lte/ne | + `IN`、`LIKE`（`%`/`_`）、`BETWEEN` |

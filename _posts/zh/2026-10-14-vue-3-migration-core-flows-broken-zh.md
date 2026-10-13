@@ -14,6 +14,7 @@ type: note
 ## 当前进度
 
 **已完成（已提交，`6fc4b76`）：**
+
 - **Vite + Vue 3 迁移脚手架已完成**：`src/main.js`（`createApp`）、`src/router/index.js`（vue-router 4，hash 历史，全部 21 条路由 + catch-all 重定向）、根 `index.html`、`public/` 资源、`vite.config.js`（别名 `@`、stylus 导入、开发代理）、`.env.production`。
 - **所有约 50 个 SFC 已转换为 `<script setup>`**：零 Vue 2 遗留（`new Vue`、`filters:`、`.sync`、`slot-scope`、`this.$set`、`beforeDestroy`——无命中）。
 - **构建和开发模式均可用**：`npm run build` 成功（1.7 秒，输出 → `static/`），`npm run dev` 在 :5173 上提供服务。

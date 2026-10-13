@@ -14,7 +14,7 @@ type: note
 ## What's new (v0.2)
 
 | Feature | Before | Now |
-|---|---|---|
+| --- | --- | --- |
 | **JOIN** | ✗ | INNER JOIN with symmetric `"on"` column maps, qualified `users.name` / `orders.total` references |
 | **Aggregations** | ✗ | count/sum/avg/min/max + `GROUP BY` (`{"op":"aggregate",...}`) |
 | **WHERE ops** | gt/gte/lt/lte/ne | + `IN`, `LIKE` (`%`/`_`), `BETWEEN` |

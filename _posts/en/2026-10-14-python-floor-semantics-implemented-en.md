@@ -18,6 +18,7 @@ Done. Here's the full picture.
 `wei`'s claims to be Python-alike, but division was C-style: LLVM's `sdiv`/`srem` truncate toward zero, and `frem`/`fdiv` differ from Python for negatives. So `-7 // 2` printed `-3`, `7 % -2` printed `1`, and `-7.0 % 3` printed `-1` — all wrong versus CPython (which gives `-4`, `-1`, `2`).
 
 The rule makes wei genuinely feature-complete on the arithmetic front (tests asserts the identity `a == (a//b)*b + a%b`):
+
 * `-7 // 2  -> -4` (floor division, not C truncation) — booth `sdiv` + `srem`, adjust when signs differ
 * `-7 % 2   -> 1`  (result takes the **sign of the divisor**, not dividend)
 * `-9.0 % 4 -> 3`, `7.0 % -3 -> -2` (floats via `llvm.floor` of the quotient)
@@ -51,6 +52,7 @@ Nothing here is asymptotically blocking — the language is clean, correct where
 5. **`io` current_function name printing, `read_float`, stdin for `print`** — trivial wins.
 
 **Minor nits I noticed but didn't touch (low risk):**
+
 * None functionally blocking. Tests are thorough (`46 passed`), errors have source carets, IR is clean.
 
 The next thing to actually build is the **REPL** — it reuses `run_module` directly with one small refactor (compile once, keep the module around when a function is redefined), and it makes wei feel alive immediately. I'd start there. Want me to implement the REPL now?## Summary

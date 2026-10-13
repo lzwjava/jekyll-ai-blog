@@ -16,7 +16,7 @@ Milestone 1 is done and pushed as **`muda 0.3.0`** (`51f504c`).
 **`mudaBLAS`** (`include/mudablas.h`, `src/mudablas.c`) — row-major linear algebra on muda:
 
 | | |
-|---|---|
+| --- | --- |
 | `mudaSgemm` | shared-memory tiled, 64×64 block, 4×4/thread, all four transpose combos |
 | `mudaSgemmNaive` | one-thread-per-element reference |
 | `mudaSgemv` | transpose-aware |
@@ -40,6 +40,7 @@ Milestone 1 is done and pushed as **`muda 0.3.0`** (`51f504c`).
 **Tests** — `tests/test_mudablas.c`, 18 checks against CPU references (all transpose combos, non-multiple sizes, GEMV, AXPY/SCAL, activations, bias/reduction). `make test` now runs both suites: **35 + 18, 0 failures**.
 
 ## Bugs found and fixed along the way
+
 - `expf` → `exp` (OpenCL C overloads `exp`; NVIDIA's compiler rejects `expf`).
 - Launch config was passing the tile size (64) instead of the thread-block size (16) — fixed with separate tile/block params.
 - A latent "read the cached kernel handle before lazy init" bug in the GEMM wrappers.

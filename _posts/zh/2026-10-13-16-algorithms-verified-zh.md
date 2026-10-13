@@ -14,7 +14,7 @@ type: note
 ## 新模块
 
 | 文件 | 内容 |
-|---|---|
+| --- | --- |
 | `src/algorithms/arrays.rs` | `two-pointers`, `prefix-sums`, `monotonic-stack` |
 | `src/algorithms/numbertheory.rs` | `sieve`, `extended-gcd`（+ `modinv` 演示） |
 | `src/algorithms/geometry.rs` | `convex-hull`（Andrew 单调链） |
@@ -22,7 +22,7 @@ type: note
 ## 对现有模块的新增
 
 | 文件 | 新增内容 |
-|---|---|
+| --- | --- |
 | `searching.rs` | `binary-search-on-answer`（船容量谓词，计算其8次检查对比29次线性扫描） |
 | `dp.rs` | `kadane`、`lis`（O(n log n) patience 排序 + 重构）、`coin-change`、`bitmask-dp`（TSP） |
 | `graph.rs` | `zero-one-bfs`（与现有 `dijkstra_impl` 交叉验证）、`tarjan-scc`（通过互相可达性验证） |
@@ -30,10 +30,12 @@ type: note
 | `strings.rs` | `z-algorithm` |
 
 ## 注册表与文档
+
 - `mod.rs`：新增16个 `Algorithm` 条目，3个新类别（**数组技巧**、**数论**、**几何**）——目录现包含 **58** 个演示
 - `README.md`：更新了计数和类别列表
 
 ## 内置正确性检查（类似 karatsuba）
+
 - `segment-tree`：500次随机区间加/查询操作与普通数组对比
 - `bitmask-dp`：TSP结果与所有 8! = 40320 种排列对比
 - `kadane`/`lis`：500/300个随机数组与 O(n²) 暴力解法对比

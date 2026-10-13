@@ -14,6 +14,7 @@ type: note
 ## What was built
 
 **Write-ahead log (`wal.c`) with real LSN semantics:**
+
 - Every mutation records a **seq-numbered JSON effect** before being confirmed, and is `fsync`'d — `insert` logs the *final* row (auto-increment preserved), `update` logs post-images, `delete` logs pre-images, DDL logs the schema op
 - The snapshot file carries the covered `"seq"`; checkpoints write the snapshot **first**, then truncate the log — so a crash between the two replays duplicates as no-ops. This is the same idea SQLite/PostgreSQL use for LSN bookkeeping
 - **Atomic batches**: `{"ops":[...]}` buffers its log lines and flushes on commit — a failing op or a crash leaves nothing partial on disk
@@ -34,7 +35,7 @@ Engine suite grew 49 → **66 checks** (crash recovery, rollback visibility, che
 ## Where it stands & what's left
 
 | | |
-|---|---|
+| --- | --- |
 | ✅ | SQL features: JOIN, aggregates, ALTER, operators, DISTINCT |
 | ✅ | Atomic batches + interactive transactions |
 | ✅ | WAL durability + crash recovery + checkpoints |

@@ -14,26 +14,31 @@ type: note
 ## 新增 API 接口
 
 **运行时 / 设备**
+
 - `mudaSetDevice`, `mudaGetDevice`, `mudaDeviceGetName`, `mudaDeviceGetAttribute`（23 个属性）、`mudaDeviceGetPCIBusId`、`mudaDeviceReset`
 - `mudaRuntimeGetVersion`, `mudaDriverGetVersion`, `mudaCtxGetDevice`
 
 **内存**
+
 - `mudaMallocHost`, `mudaFreeHost`, `mudaHostGetDevicePointer`
 - `mudaMemGetInfo`, `mudaPointerGetAttributes` + 一个完整的分配注册表，用于跟踪每次设备/主机分配
 - `mudaMemcpy2D` / `mudaMemcpy2DAsync`, `mudaMemsetD8`, `mudaMemsetD32`
 - `mudaMemAdvise`, `mudaMemPrefetchAsync`（文档注明为无操作）
 
 **模块 / 启动**
+
 - `mudaFuncGetAttributes`（工作组大小、局部/私有内存）
 - `mudaLaunchKernelEx` + 支持完整打包的 `extra[]` 参数（`MUDA_LAUNCH_PARAM_BUFFER_POINTER/SIZE`）
 - `mudaOccupancyMaxActiveBlocksPerMultiprocessor`
 
 **流 / 事件**
+
 - `mudaStreamCreateWithFlags`, `mudaStreamQuery`, `mudaStreamWaitEvent`
 - `mudaEventCreateWithFlags`, `mudaEventQuery`
 - 流现在是包装对象，跟踪其最后一个 `cl_event`，因此非阻塞 `Query` 实际上可以工作
 
 ## 驱动内部
+
 - 扩展了 `muda_driver` vtable，新增约 15 个操作
 - 流包装 + 按流跟踪事件以支持查询/等待
 - 打包参数解包，采用自然对齐

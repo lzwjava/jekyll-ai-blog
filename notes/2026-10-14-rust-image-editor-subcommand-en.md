@@ -14,7 +14,7 @@ Done. I added a full **mini-Photoshop / ImageMagick-style image editor** as the 
 ## Files changed
 
 | File | Change |
-|---|---|
+| --- | --- |
 | `src/image_ops.rs` | **new** ~2230 lines — 30 commands, 24 registered operators, unit tests |
 | `src/main.rs` | `image` dispatch, usage line, clean `error: …` + exit 1 |
 | `README.md` | new "Image editor" section |

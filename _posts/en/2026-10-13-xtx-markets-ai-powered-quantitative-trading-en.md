@@ -26,6 +26,7 @@ XTX operates across three main areas.
 It uses mathematical models and machine learning to predict prices and execute trades across financial markets.
 
 Its markets include:
+
 - Foreign exchange (FX).
 - Stocks and ETFs.
 - Bonds and other fixed-income instruments.
@@ -72,7 +73,7 @@ XTX is particularly interesting because its business directly monetizes machine 
 Its official website reports the following figures:
 
 | Metric | Reported figure |
-|---|---:|
+| --- | ---: |
 | Financial instruments covered | 53,000+ |
 | Daily trading volume | $250 billion |
 | GPU research cluster | 25,000+ GPUs |
@@ -112,7 +113,7 @@ However, its core machine learning is focused on financial prediction and tradin
 The business models are fundamentally different.
 
 | Dimension | XTX Markets | AI consultancy |
-|---|---|---|
+| --- | --- | --- |
 | Product | Trading and liquidity | Software and AI solutions |
 | Customers | Banks, brokers, and institutional market participants | Businesses needing technical solutions |
 | Main advantage | Predictive models, execution, data, and infrastructure | Engineering capability, domain knowledge, and delivery |
@@ -165,6 +166,7 @@ For example:
 That is a different business from quantitative trading, but it applies a similar principle: **use technical capabilities to create an advantage that scales beyond the number of hours you personally work.**
 
 ### References
+
 - [XTX Markets — Official website](https://www.xtxmarkets.com/)
 - [XTX Markets — Technology and company overview](https://about.xtxmarkets.com/)
 - [XTX Markets — Institutional clients and liquidity services](https://about.xtxmarkets.com/clients/)

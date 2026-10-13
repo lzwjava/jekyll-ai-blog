@@ -14,6 +14,7 @@ type: note
 ## 本轮新增内容
 
 **`driver_cpu`**（`src/driver_cpu.c`）——第二个完全可插拔的后端：
+
 - 在主机内存之上实现了完整的内存/上下文/流/事件接口。
 - 内核启动返回 `mudaErrorNotSupported`（显然是一个参考后端）。
 - `MUDA_DRIVER=cpu` 选择该后端；如果缺少 OpenCL，`mudaInit` 现在会**自动回退**到它，因此 `muda` 总能完成初始化。
